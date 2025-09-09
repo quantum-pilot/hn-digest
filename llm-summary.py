@@ -27,6 +27,12 @@ READ_TIMEOUT = 120
 CLIP_ERROR_CONTENT = 100
 
 BATCH_REF_FILE = "LAST_BATCH_ID.txt"
+FORCE_PAGE = "1"
+FORCE_UTC_DAY = None
+args = sys.argv[1:]
+if args:
+    FORCE_PAGE = int(args[0])
+    FORCE_UTC_DAY = args[1]
 
 
 with open("SYSTEM_PROMPT.md") as f:
@@ -35,7 +41,7 @@ with open("SYSTEM_PROMPT.md") as f:
 
 def _aggregated_stories() -> Dict[str, Any]:
     rr = HTTP.get(
-        "https://api.hcker.news/api/timeline?page=1&sort_by=score&filter=top20&limit=100",
+        f"https://api.hcker.news/api/timeline?page={FORCE_PAGE}&sort_by=score&filter=top20&limit=500",
         timeout=READ_TIMEOUT,
     )
     if rr.status_code != 200:
@@ -250,10 +256,10 @@ def _webfetch(url: str) -> str:
 def _working_path(name: str) -> Tuple[str, bool]:
     year, month = name.split("-")[:2]
     base_dir = os.path.join(".", year, month)
+    fpath = os.path.join(base_dir, name)
     if not os.path.isdir(base_dir):
         os.makedirs(base_dir, exist_ok=True)
-        return base_dir, False
-    return base_dir, os.path.isfile(os.path.join(base_dir, name))
+    return base_dir, fpath, os.path.isfile(fpath)
 
 
 def _check_batch(batch_id: str):
@@ -280,10 +286,17 @@ if __name__ == "__main__":
     utc_yday = (
         (dt_start - timedelta(days=1)).astimezone(timezone.utc).strftime("%Y-%m-%d")
     )
+    if FORCE_UTC_DAY:
+        utc_yday = FORCE_UTC_DAY
     stories = [s for s in _aggregated_stories() if s["utc_day"][:10] == utc_yday]
+    assert len(stories) == 20, f"Expected 20 stories, got {len(stories)}"
     stories.sort(key=lambda x: x["score"], reverse=True)
-    if os.path.isfile(BATCH_REF_FILE):
-        with open(BATCH_REF_FILE, "r") as f:
+    base_dir, current_ref_file, ref_exists = _working_path(
+        f"{utc_yday}-{BATCH_REF_FILE}"
+    )
+    if ref_exists:
+        logging.info(f"Found existing batch ref file: {current_ref_file}")
+        with open(current_ref_file, "r") as f:
             last_batch = f.read().strip()
         if last_batch:
             _check_batch(last_batch)
@@ -296,7 +309,7 @@ if __name__ == "__main__":
         url = s.get("url")
         logging.info(f"Processing {i + 1}/{len(stories)}: {title} ({sid})")
         filename = f"{utc_yday}-{(slugify(title)[:50] if url else sid)}.md"
-        base_dir, exists = _working_path(filename)
+        base_dir, _, exists = _working_path(filename)
         if exists:
             logging.info(f"Skipping already uploaded: {filename}")
             continue
@@ -346,7 +359,7 @@ if __name__ == "__main__":
 
     run_tag = utc_yday
     batch_id = submit_batch_summaries(items, run_tag)
-    with open(BATCH_REF_FILE, "w") as f:
+    with open(current_ref_file, "w") as f:
         f.write(batch_id)
 
     # md = f"# {title}\n\n- Score: {score} | [HN]({hn_link}) | Link: {resolved_url}\n\n"
