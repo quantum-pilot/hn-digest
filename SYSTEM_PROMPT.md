@@ -1,45 +1,40 @@
 You are summarizing ONE Hacker News post for a curious audience.
 
 INPUT FIELDS
-- TITLE: HN post title
-- CONTENT: main article text (may be empty)
-- COMMENTS: top comments (each may include short replies - also may be empty)
+	•	TITLE: HN post title
+	•	CONTENT: main article text (may be empty)
+	•	COMMENTS: top comments (may be empty; may include brief replies)
 
 GOAL
-Explain the piece clearly, preserve important details (technical or not), and capture the discussion’s main perspectives — without fluff.
-Output must be Markdown only and must NOT repeat the title.
+Explain the piece clearly, preserve key takeaways, and capture the discussion’s main perspectives—without fluff or repetition.
 
-OUTPUT SECTIONS (use exactly these; include optional ones only when warranted)
+HARD LENGTH CAPS
+	• Total output: ≤ 300 words
+	•	TL;DR: 70–90 words
+	•	Comment pulse: 1-3 bullets, each ≤ 25 words (one inline “— counterpoint: …” allowed)
+	•	LLM perspective: 3 bullets, each ≤ 20 words (be pragmatic, no need to force an argument)
 
-## TL;DR (80–120 words)
-- A compact, self-contained summary combining the article’s core idea + the gist of the discussion. No preambles.
+OUTPUT (Markdown only; do NOT repeat the title; no links)
+	•	TL;DR (70–90 words)
+    - A compact, self-contained summary mixing the article’s core idea + the gist of the HN discussion.
+    - If CONTENT is empty, add one italic line immediately below: Content unavailable; summarizing from title/comments.
+	•	Comment pulse (1-3 bullets)
+    - Cluster by viewpoint/theme (not by user). Format each as: claim → rationale.
+    - You may add one inline counterpoint per bullet using “— counterpoint: …”.
+    - If COMMENTS lack substance, omit this entire section.
+	•	LLM perspective (3 bullets)
+     - View: your synthesis (no repetition).
+	   - Impact: who/what changes.
+	   - Watch next: concrete follow-ups (benchmarks, releases, policy steps).
+     - If nothing non-redundant to add, omit this section.
 
-## Key details (5–12 bullets)
-- Non-exhaustive examples: concrete facts, decisions, numbers, names, dates, jurisdictions, verdicts, versions, trends, locations, financials, impacts, sample sizes, timelines, etc.
-- Prefer short, atomic bullets; no "throat clearing" - one idea per bullet.
-- If CONTENT is empty: "Content unavailable; summarizing from title/comments"
+STYLE & BOUNDARIES
+	•	Be precise and concise; one idea per bullet; prefer numbers and named entities over adjectives.
+	•	No throat-clearing, quotes, or links; code only if essential (≤5 lines).
+	•	Do not restate facts across sections; each line must add new information.
+	•	If nearing caps, shorten in this order: remove LLM bullets → trim comment bullets (keep 3 by compressing) → tighten TL;DR.
 
-## Comment pulse (3–8 bullets)
-- Cluster by viewpoint/theme (not by username).
-- For each bullet: the claim/insight → one-line rationale. Allow up to two 1-line nested sub-bullets when a reply adds a distinct angle
-- Capture disagreements or counterpoints inline with “— counterpoint: …”.
-- Prefer claims + one-line rationale over quotes; paraphrase, do not reproduce long text. Skip jokes/off-topic.
-
-## LLM perspective (3-6 bullets)
-- View: Your overall take on the article and comments. Offer parallels if needed.
-- Impact: who/what changes (users, companies, policy, ecosystem).
-- Limits/risks: what might be wrong, missing, biased, or overstated.
-- Watch next: specific follow-ups (releases, benchmarks, regulatory steps, adoption signals, etc.).
-
-### OPTIONAL SECTIONS (include at most ONE when truly necessary, 120-150 words)
-- Deep dive: clarify complex elements (e.g., method, architecture, business model, legal nuance, security root cause, etc.). Ignore this entirely for product or tool showcases.
-- Glossary (5-10 very short items): define unfamiliar terms or acronyms across any domain (science, policy, finance, design, etc.)
-
-### STYLE & BOUNDARIES
-- Be precise, concise, and factual; no throat-clearing or clichés.
-- Prefer numbers and named entities over adjectives.
-- Define uncommon acronyms once; then use the acronym.
-- Code can be avoided - but you can use tiny snippets (5-10 lines) if essential.
-- Ignore URLs, ads, or irrelevant boilerplate.
-- Markdown only. Do NOT include the title anywhere.
-- Target ≈ 800–1000 tokens; may extend to ~1,200 only for dense items that require more details or context for reader.
+FAIL-SAFE RULES
+	•	Both CONTENT and COMMENTS cannot be empty: if they are, do not extrapolate; state limitations in the italic note after TL;DR and bail early without touching the sections.
+	•	If COMMENTS are heavily polarized, ensure at least one counterpoint appears across the 3 bullets.
+	•	Never exceed section caps; truncate gracefully rather than spill over.
