@@ -249,7 +249,7 @@ def _webfetch(url: str) -> str:
         else:
             return rr.json()["results"][0]["raw_content"]
     rr.raise_for_status()
-    return rr.text
+    return rr.text.replace("\\n", "\n")
 
 
 def _working_path(name: str) -> Tuple[str, bool]:
@@ -280,12 +280,20 @@ def _check_batch(ref_file: str, batch_id: str):
 
     logging.info(f"Batch completed successfully: {batch}")
     litellm_out = base64.b64decode(batch["output_file_id"]).decode("utf-8")
-    out_file_id =list(filter(lambda s: s.startswith('llm_output_file_id,'), litellm_out.split(';')))[0].split(',')[-1]
+    out_file_id = list(
+        filter(lambda s: s.startswith("llm_output_file_id,"), litellm_out.split(";"))
+    )[0].split(",")[-1]
     assert out_file_id.startswith("file-"), f"Unexpected output file id: {out_file_id}"
 
-    out_resp = HTTP.get(f"http://{LITELLM_HOST}/openai-file-content-proxy/{out_file_id}/content", headers=LITELLM_HEADERS, timeout=READ_TIMEOUT)
+    out_resp = HTTP.get(
+        f"http://{LITELLM_HOST}/openai-file-content-proxy/{out_file_id}/content",
+        headers=LITELLM_HEADERS,
+        timeout=READ_TIMEOUT,
+    )
     if out_resp.status_code != 200:
-        logging.error(f"Output fetch failed: {out_resp.status_code} {out_resp.text[:CLIP_ERROR_CONTENT]}")
+        logging.error(
+            f"Output fetch failed: {out_resp.status_code} {out_resp.text[:CLIP_ERROR_CONTENT]}"
+        )
     out_resp.raise_for_status()
 
     for line in out_resp.text.splitlines():
@@ -294,7 +302,7 @@ def _check_batch(ref_file: str, batch_id: str):
         if filename.startswith("hn-"):  # TODO: legacy (remove)
             filename = filename[3:]
         _, filepath, exists = _working_path(filename)
-        write_mode = 'a' if exists else 'w'
+        write_mode = "a" if exists else "w"
         if not exists:
             logging.warning(f"Creating missing output file: {filename}")
         resp = entry.get("response", {})
@@ -374,9 +382,7 @@ if __name__ == "__main__":
             f.write(user_msg)
         items.append((filename, user_msg))
 
-    _, current_ref_file, ref_exists = _working_path(
-        f"{utc_yday}-{BATCH_REF_FILE}"
-    )
+    _, current_ref_file, ref_exists = _working_path(f"{utc_yday}-{BATCH_REF_FILE}")
     if ref_exists:
         logging.info(f"Found existing batch ref file: {current_ref_file}")
         with open(current_ref_file, "r") as f:
@@ -386,7 +392,9 @@ if __name__ == "__main__":
             sys.exit(0)
 
     if len(items) != 20:
-        logging.warning(f"Only {len(items)}/20 new items to process, removing output files and exiting.")
+        logging.warning(
+            f"Only {len(items)}/20 new items to process, removing output files and exiting."
+        )
         for fname, _ in items:
             logging.info(f"Removing output file for: {fname}")
             _, fpath, exists = _working_path(fname)
