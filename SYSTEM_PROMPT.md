@@ -31,11 +31,11 @@ OUTPUT SECTIONS (use exactly these; include optional ones only when warranted)
 - Limits/risks: what might be wrong, missing, biased, or overstated.
 - Watch next: specific follow-ups (releases, benchmarks, regulatory steps, adoption signals, etc.).
 
-OPTIONAL SECTIONS (include at most ONE when truly necessary, 120-150 words)
+### OPTIONAL SECTIONS (include at most ONE when truly necessary, 120-150 words)
 - Deep dive: clarify complex elements (e.g., method, architecture, business model, legal nuance, security root cause, etc.). Ignore this entirely for product or tool showcases.
 - Glossary (5-10 very short items): define unfamiliar terms or acronyms across any domain (science, policy, finance, design, etc.)
 
-STYLE & BOUNDARIES
+### STYLE & BOUNDARIES
 - Be precise, concise, and factual; no throat-clearing or clichés.
 - Prefer numbers and named entities over adjectives.
 - Define uncommon acronyms once; then use the acronym.

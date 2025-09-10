@@ -6,6 +6,7 @@
 # ]
 # ///
 
+import base64
 import io
 import json
 import logging
@@ -24,7 +25,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 READ_TIMEOUT = 120
-CLIP_ERROR_CONTENT = 100
+CLIP_ERROR_CONTENT = 200
 
 BATCH_REF_FILE = "LAST_BATCH_ID.txt"
 FORCE_PAGE = "1"
@@ -162,11 +163,10 @@ def _make_line(custom_id: str, system_prompt: str, user_text: str) -> dict:
     }
 
 
-def submit_batch_summaries(items: List[str], run_tag: str) -> str:
+def submit_batch_summaries(items: List[Tuple[str, str]], run_tag: str) -> str:
     lines = []
-    for idx, user_msg in enumerate(items, start=1):
-        cid = f"hn-{run_tag}-{idx:02d}"
-        lines.append(_make_line(cid, SYSTEM_PROMPT, user_msg))
+    for custom_id, user_msg in items:
+        lines.append(_make_line(custom_id, SYSTEM_PROMPT, user_msg))
 
     jsonl_bytes = io.BytesIO()
     for obj in lines:
@@ -178,12 +178,11 @@ def submit_batch_summaries(items: List[str], run_tag: str) -> str:
     files = {
         "file": ("hn_batch_" + run_tag + ".jsonl", jsonl_bytes, "application/jsonl")
     }
-    data = {"purpose": "batch", "target_model_names": LITELLM_MODEL}
     r = HTTP.post(
         f"http://{LITELLM_HOST}/v1/files",
         headers=LITELLM_HEADERS,
         files=files,
-        data=data,
+        data={"purpose": "batch", "target_model_names": LITELLM_MODEL},
         timeout=READ_TIMEOUT,
     )
     if r.status_code != 200:
@@ -262,7 +261,7 @@ def _working_path(name: str) -> Tuple[str, bool]:
     return base_dir, fpath, os.path.isfile(fpath)
 
 
-def _check_batch(batch_id: str):
+def _check_batch(ref_file: str, batch_id: str):
     rr = HTTP.get(
         f"http://{LITELLM_HOST}/v1/batches/{batch_id}",
         headers=LITELLM_HEADERS,
@@ -276,8 +275,35 @@ def _check_batch(batch_id: str):
     batch = rr.json()
     status = batch.get("status")
     if status != "completed":
-        logging.info(f"Batch {batch_id} status: {status}")
+        logging.info(f"Batch {batch_id} pending: {batch}")
         return
+
+    logging.info(f"Batch completed successfully: {batch}")
+    litellm_out = base64.b64decode(batch["output_file_id"]).decode("utf-8")
+    out_file_id =list(filter(lambda s: s.startswith('llm_output_file_id,'), litellm_out.split(';')))[0].split(',')[-1]
+    assert out_file_id.startswith("file-"), f"Unexpected output file id: {out_file_id}"
+
+    out_resp = HTTP.get(f"http://{LITELLM_HOST}/openai-file-content-proxy/{out_file_id}/content", headers=LITELLM_HEADERS, timeout=READ_TIMEOUT)
+    if out_resp.status_code != 200:
+        logging.error(f"Output fetch failed: {out_resp.status_code} {out_resp.text[:CLIP_ERROR_CONTENT]}")
+    out_resp.raise_for_status()
+
+    for line in out_resp.text.splitlines():
+        entry = json.loads(line)
+        filename = entry["custom_id"]
+        if filename.startswith("hn-"):  # TODO: legacy (remove)
+            filename = filename[3:]
+        _, filepath, exists = _working_path(filename)
+        write_mode = 'a' if exists else 'w'
+        if not exists:
+            logging.warning(f"Creating missing output file: {filename}")
+        resp = entry.get("response", {})
+        if resp.get("status_code") == 200:
+            txt = resp["body"]["choices"][0]["message"]["content"]
+            with open(filepath, write_mode, encoding="utf-8") as f:
+                f.write(txt + "\n")
+
+    os.remove(ref_file)
 
 
 if __name__ == "__main__":
@@ -291,41 +317,36 @@ if __name__ == "__main__":
     stories = [s for s in _aggregated_stories() if s["utc_day"][:10] == utc_yday]
     assert len(stories) == 20, f"Expected 20 stories, got {len(stories)}"
     stories.sort(key=lambda x: x["score"], reverse=True)
-    base_dir, current_ref_file, ref_exists = _working_path(
-        f"{utc_yday}-{BATCH_REF_FILE}"
-    )
-    if ref_exists:
-        logging.info(f"Found existing batch ref file: {current_ref_file}")
-        with open(current_ref_file, "r") as f:
-            last_batch = f.read().strip()
-        if last_batch:
-            _check_batch(last_batch)
-            sys.exit(0)
 
     items = []
     for i, s in enumerate(stories[:20]):
         sid = s["id"]
         title = s["title"]
         url = s.get("url")
+        score = s["score"]
         logging.info(f"Processing {i + 1}/{len(stories)}: {title} ({sid})")
         filename = f"{utc_yday}-{(slugify(title)[:50] if url else sid)}.md"
-        base_dir, _, exists = _working_path(filename)
+        _, filepath, exists = _working_path(filename)
         if exists:
             logging.info(f"Skipping already uploaded: {filename}")
             continue
 
-        raw_text = os.path.join(base_dir, filename[:-3] + ".txt")
+        hn_link = f"https://news.ycombinator.com/item?id={sid}"
+        resolved_url = url or hn_link
+        md = f"# {title}\n\n- Score: {score} | [HN]({hn_link}) | Link: {resolved_url}\n\n"
+        if not os.path.exists(filepath):
+            logging.info(f"Writing summary file to {filepath}...")
+            with open(filepath, "w", encoding="utf-8") as f:
+                f.write(md)
+
+        raw_text = filepath[:-3] + ".txt"
         if os.path.isfile(raw_text):
             logging.info(f"Loading previously fetched content from {raw_text}...")
             with open(raw_text, "r", encoding="utf-8") as f:
-                items.append(f.read())
+                items.append((filename, f.read()))
             continue
 
-        score = s["score"]
-
         page_content = ""
-        hn_link = f"https://news.ycombinator.com/item?id={sid}"
-        resolved_url = url or hn_link
         if url:
             try:
                 logging.info(f"Fetching article content from {url}...")
@@ -351,22 +372,29 @@ if __name__ == "__main__":
         user_msg = _user_msg(title, page_content, comments)
         with open(raw_text, "w", encoding="utf-8") as f:
             f.write(user_msg)
-        items.append(user_msg)
+        items.append((filename, user_msg))
 
-    if not items:
-        logging.info("No new items to process, exiting.")
+    _, current_ref_file, ref_exists = _working_path(
+        f"{utc_yday}-{BATCH_REF_FILE}"
+    )
+    if ref_exists:
+        logging.info(f"Found existing batch ref file: {current_ref_file}")
+        with open(current_ref_file, "r") as f:
+            last_batch = f.read().strip()
+        if last_batch:
+            _check_batch(current_ref_file, last_batch)
+            sys.exit(0)
+
+    if len(items) != 20:
+        logging.warning(f"Only {len(items)}/20 new items to process, removing output files and exiting.")
+        for fname, _ in items:
+            logging.info(f"Removing output file for: {fname}")
+            _, fpath, exists = _working_path(fname)
+            if exists:
+                os.remove(fpath)
         sys.exit(0)
 
     run_tag = utc_yday
     batch_id = submit_batch_summaries(items, run_tag)
     with open(current_ref_file, "w") as f:
         f.write(batch_id)
-
-    # md = f"# {title}\n\n- Score: {score} | [HN]({hn_link}) | Link: {resolved_url}\n\n"
-    # if page_content or comments:
-    #     try:
-    #         logging.info(f"Generating summary for {resolved_url}...")
-    #         page_summary = _summarize(title, page_content, comments)
-    #         md += "\n" + page_summary + "\n\n"
-    #     except Exception as e:
-    #         logging.error(f"LLM summary failed: {e}")
