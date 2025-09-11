@@ -252,6 +252,20 @@ def _webfetch(url: str) -> str:
     return rr.text.replace("\\n", "\n")
 
 
+def _fetch_file(out_file_id: str):
+    out_resp = HTTP.get(
+        f"http://{LITELLM_HOST}/openai-file-content-proxy/{out_file_id}/content",
+        headers=LITELLM_HEADERS,
+        timeout=READ_TIMEOUT,
+    )
+    if out_resp.status_code != 200:
+        logging.error(
+            f"Output fetch failed: {out_resp.status_code} {out_resp.text[:CLIP_ERROR_CONTENT]}"
+        )
+    out_resp.raise_for_status()
+    return out_resp.text
+
+
 def _working_path(name: str) -> Tuple[str, bool]:
     year, month = name.split("-")[:2]
     base_dir = os.path.join(".", year, month)
@@ -278,6 +292,11 @@ def _check_batch(ref_file: str, batch_id: str):
         logging.info(f"Batch {batch_id} pending: {batch}")
         return
 
+    if batch.get("error_file_id"):
+        logging.error(f"Batch {batch_id} failed: {batch}")
+        output = _fetch_file(batch["error_file_id"])
+        logging.error(f"Batch error output:\n{output}")
+
     logging.info(f"Batch completed successfully: {batch}")
     litellm_out = base64.b64decode(batch["output_file_id"]).decode("utf-8")
     out_file_id = list(
@@ -285,18 +304,7 @@ def _check_batch(ref_file: str, batch_id: str):
     )[0].split(",")[-1]
     assert out_file_id.startswith("file-"), f"Unexpected output file id: {out_file_id}"
 
-    out_resp = HTTP.get(
-        f"http://{LITELLM_HOST}/openai-file-content-proxy/{out_file_id}/content",
-        headers=LITELLM_HEADERS,
-        timeout=READ_TIMEOUT,
-    )
-    if out_resp.status_code != 200:
-        logging.error(
-            f"Output fetch failed: {out_resp.status_code} {out_resp.text[:CLIP_ERROR_CONTENT]}"
-        )
-    out_resp.raise_for_status()
-
-    for line in out_resp.text.splitlines():
+    for line in _fetch_file(out_file_id).splitlines():
         entry = json.loads(line)
         filename = entry["custom_id"]
         if filename.startswith("hn-"):  # TODO: legacy (remove)
