@@ -15,14 +15,14 @@ HARD LENGTH CAPS
 - LLM perspective: 3 bullets, each ≤ 20 words (be pragmatic, no need to force an argument)
 
 OUTPUT (Markdown only; do NOT repeat the title; no links)
-- TL;DR (70–90 words)
+- TL;DR
     - A compact, self-contained summary mixing the article’s core idea + the gist of the HN discussion.
     - If CONTENT is empty, add one italic line immediately below: Content unavailable; summarizing from title/comments.
-- Comment pulse (1-3 bullets)
+- Comment pulse
     - Cluster by viewpoint/theme (not by user). Format each as: claim → rationale.
     - You may add one inline counterpoint per bullet using “— counterpoint: …”.
     - If COMMENTS lack substance, omit this entire section.
-- LLM perspective (3 bullets)
+- LLM perspective
      - View: your synthesis (no repetition).
 	   - Impact: who/what changes.
 	   - Watch next: concrete follow-ups (benchmarks, releases, policy steps).

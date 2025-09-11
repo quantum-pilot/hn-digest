@@ -159,6 +159,8 @@ def _make_line(custom_id: str, system_prompt: str, user_text: str) -> dict:
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_text},
             ],
+            "reasoning_effort": "low",
+            "max_output_tokens": 512,
         },
     }
 
@@ -267,8 +269,8 @@ def _fetch_file(out_file_id: str):
 
 
 def _working_path(name: str) -> Tuple[str, bool]:
-    year, month = name.split("-")[:2]
-    base_dir = os.path.join(".", year, month)
+    year, month, day = name.split("-")[:3]
+    base_dir = os.path.join(".", year, month, day)
     fpath = os.path.join(base_dir, name)
     if not os.path.isdir(base_dir):
         os.makedirs(base_dir, exist_ok=True)
@@ -296,6 +298,7 @@ def _check_batch(ref_file: str, batch_id: str):
         logging.error(f"Batch {batch_id} failed: {batch}")
         output = _fetch_file(batch["error_file_id"])
         logging.error(f"Batch error output:\n{output}")
+        return
 
     logging.info(f"Batch completed successfully: {batch}")
     litellm_out = base64.b64decode(batch["output_file_id"]).decode("utf-8")
@@ -307,8 +310,6 @@ def _check_batch(ref_file: str, batch_id: str):
     for line in _fetch_file(out_file_id).splitlines():
         entry = json.loads(line)
         filename = entry["custom_id"]
-        if filename.startswith("hn-"):  # TODO: legacy (remove)
-            filename = filename[3:]
         _, filepath, exists = _working_path(filename)
         write_mode = "a" if exists else "w"
         if not exists:
