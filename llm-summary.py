@@ -327,15 +327,7 @@ def _check_batch(ref_file: Path, batch_id: str):
     os.system("git push origin master")
 
 
-if __name__ == "__main__":
-    http = _make_session()
-    dt_start = datetime.now()
-    utc_yday = (
-        (dt_start - timedelta(days=1)).astimezone(timezone.utc).strftime("%Y-%m-%d")
-    )
-    if FORCE_UTC_DAY:
-        utc_yday = FORCE_UTC_DAY
-    stories = [s for s in _aggregated_stories() if s["utc_day"][:10] == utc_yday]
+def _process_day(utc_yday: str, stories: List[Dict[str, Any]]):
     assert len(stories) == 20, f"Expected 20 stories, got {len(stories)}"
     stories.sort(key=lambda x: x["score"], reverse=True)
 
@@ -395,6 +387,42 @@ if __name__ == "__main__":
             f.write(user_msg)
         items.append((filename, user_msg))
 
+    if len(items) != 20:
+        logging.warning(
+            f"Only {len(items)}/20 new items to process, removing output files for {utc_yday}."
+        )
+        for fname, _ in items:
+            logging.info(f"Removing output file for: {fname}")
+            _, fpath, exists = _working_path(fname)
+            if exists:
+                os.remove(fpath)
+        return
+
+    _, current_ref_file, ref_exists = _working_path(f"{utc_yday}-{BATCH_REF_FILE}")
+    if ref_exists:
+        logging.error(f"Ref file already exists: {current_ref_file}, skipping.")
+        return
+
+    run_tag = utc_yday
+    batch_id = submit_batch_summaries(items, run_tag)
+    with open(current_ref_file, "w") as f:
+        f.write(batch_id)
+
+
+if __name__ == "__main__":
+    http = _make_session()
+    dt_start = datetime.now()
+    utc_yday = (
+        (dt_start - timedelta(days=1)).astimezone(timezone.utc).strftime("%Y-%m-%d")
+    )
+    if FORCE_UTC_DAY:
+        utc_yday = FORCE_UTC_DAY
+    all_stories = _aggregated_stories()
+    for day in utc_yday.split(","):
+        logging.info(f"Processing day: {day}")
+        stories = [s for s in all_stories if s["utc_day"][:10] == day]
+        _process_day(day, stories)
+
     for ref in Path(".").rglob(f"*{BATCH_REF_FILE}"):
         logging.info(f"Checking ref file: {ref}")
         with open(ref, "r") as f:
@@ -404,24 +432,3 @@ if __name__ == "__main__":
         else:
             logging.info(f"Removed empty ref file: {ref}")
             os.remove(ref)
-
-    if len(items) != 20:
-        logging.warning(
-            f"Only {len(items)}/20 new items to process, removing output files and exiting."
-        )
-        for fname, _ in items:
-            logging.info(f"Removing output file for: {fname}")
-            _, fpath, exists = _working_path(fname)
-            if exists:
-                os.remove(fpath)
-        sys.exit(0)
-
-    _, current_ref_file, ref_exists = _working_path(f"{utc_yday}-{BATCH_REF_FILE}")
-    if ref_exists:
-        logging.error(f"Ref file already exists: {current_ref_file}, skipping.")
-        sys.exit(0)
-
-    run_tag = utc_yday
-    batch_id = submit_batch_summaries(items, run_tag)
-    with open(current_ref_file, "w") as f:
-        f.write(batch_id)
