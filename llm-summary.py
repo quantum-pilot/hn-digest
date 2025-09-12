@@ -17,6 +17,7 @@ from bs4 import BeautifulSoup
 from slugify import slugify
 from typing import Any, List, Dict
 from datetime import datetime, timedelta, timezone
+from pathlib import Path
 from requests.adapters import HTTPAdapter
 from typing import List, Tuple
 from urllib3.util.retry import Retry
@@ -159,8 +160,8 @@ def _make_line(custom_id: str, system_prompt: str, user_text: str) -> dict:
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_text},
             ],
-            "reasoning_effort": "low",
-            "max_output_tokens": 512,
+            "reasoning_effort": "medium",
+            "verbosity": "medium",
         },
     }
 
@@ -277,7 +278,7 @@ def _working_path(name: str) -> Tuple[str, bool]:
     return base_dir, fpath, os.path.isfile(fpath)
 
 
-def _check_batch(ref_file: str, batch_id: str):
+def _check_batch(ref_file: Path, batch_id: str):
     rr = HTTP.get(
         f"http://{LITELLM_HOST}/v1/batches/{batch_id}",
         headers=LITELLM_HEADERS,
@@ -319,8 +320,11 @@ def _check_batch(ref_file: str, batch_id: str):
             txt = resp["body"]["choices"][0]["message"]["content"]
             with open(filepath, write_mode, encoding="utf-8") as f:
                 f.write(txt + "\n")
+        os.system(f"git add {filepath}")
 
     os.remove(ref_file)
+    os.system(f"git commit -m '{ref_file.name.split('-')[0]}'")
+    os.system("git push origin master")
 
 
 if __name__ == "__main__":
@@ -391,14 +395,15 @@ if __name__ == "__main__":
             f.write(user_msg)
         items.append((filename, user_msg))
 
-    _, current_ref_file, ref_exists = _working_path(f"{utc_yday}-{BATCH_REF_FILE}")
-    if ref_exists:
-        logging.info(f"Found existing batch ref file: {current_ref_file}")
-        with open(current_ref_file, "r") as f:
+    for ref in Path(".").rglob(f"*{BATCH_REF_FILE}"):
+        logging.info(f"Checking ref file: {ref}")
+        with open(ref, "r") as f:
             last_batch = f.read().strip()
         if last_batch:
-            _check_batch(current_ref_file, last_batch)
-            sys.exit(0)
+            _check_batch(ref, last_batch)
+        else:
+            logging.info(f"Removed empty ref file: {ref}")
+            os.remove(ref)
 
     if len(items) != 20:
         logging.warning(
@@ -409,6 +414,11 @@ if __name__ == "__main__":
             _, fpath, exists = _working_path(fname)
             if exists:
                 os.remove(fpath)
+        sys.exit(0)
+
+    _, current_ref_file, ref_exists = _working_path(f"{utc_yday}-{BATCH_REF_FILE}")
+    if ref_exists:
+        logging.error(f"Ref file already exists: {current_ref_file}, skipping.")
         sys.exit(0)
 
     run_tag = utc_yday
