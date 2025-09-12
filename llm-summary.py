@@ -11,6 +11,7 @@ import io
 import json
 import logging
 import os
+import re
 import requests
 import sys
 from bs4 import BeautifulSoup
@@ -20,6 +21,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from requests.adapters import HTTPAdapter
 from typing import List, Tuple
+from urllib.parse import urlparse
 from urllib3.util.retry import Retry
 
 logging.basicConfig(level=logging.INFO)
@@ -39,6 +41,9 @@ if args:
 
 with open("SYSTEM_PROMPT.md") as f:
     SYSTEM_PROMPT = f.read().strip()
+
+with open("ignored_hosts") as f:
+    IGNORED_HOSTS = [line.strip() for line in f if line.strip() and not line.startswith("#")]
 
 
 def _aggregated_stories() -> Dict[str, Any]:
@@ -142,6 +147,8 @@ LITELLM_KEY = os.environ["LITELLM_KEY"]
 LITELLM_MODEL = "gpt-5-medium-4096"
 LITELLM_HEADERS = {"Authorization": f"Bearer {LITELLM_KEY}"}
 TAVILY_API_KEY = os.environ["TAVILY_API_KEY"]
+EXTRACTOR_API_KEY = os.environ["EXTRACTOR_API_KEY"]
+JINA_API_KEY = os.environ["JINA_API_KEY"]
 HTTP = _make_session()
 
 
@@ -216,43 +223,122 @@ def submit_batch_summaries(items: List[Tuple[str, str]], run_tag: str) -> str:
     return resp["id"]
 
 
-def _webfetch(url: str) -> str:
-    rr = HTTP.post(
-        f"http://{MCP_HOST}/fetch/fetch",
-        headers={
-            "Accept": "application/json",
-            "Authorization": f"Bearer {MCP_TOKEN}",
-            "Content-Type": "application/json",
-        },
-        json={
+class WebFetch:
+    def server_url(self, url: str):
+        return f"http://{MCP_HOST}/fetch/fetch"
+
+    def method(self):
+        return HTTP.post
+
+    def body(self, url: str):
+        return {
             "max_length": 50_000,
             "raw": False,
             "start_index": 0,
             "url": url,
-        },
-        timeout=READ_TIMEOUT,
-    )
-    if rr.status_code != 200:
-        logging.error(f"Fetch failed: {rr.status_code} {rr.text[:CLIP_ERROR_CONTENT]}")
-        logging.info("Attempting fallback...")
-        rr = HTTP.post(
-            "https://api.tavily.com/extract",
-            headers={
-                "Accept": "application/json",
-                "Authorization": f"Bearer {TAVILY_API_KEY}",
-                "Content-Type": "application/json",
-            },
-            json={"urls": [url]},
+        }
+
+    def headers(self, url: str):
+        return {
+            "Authorization": f"Bearer {MCP_TOKEN}",
+            "Content-Type": "application/json",
+        }
+
+    def adapter(self, res: requests.Response):
+        return res.text.replace("\\n", "\n")
+
+    def fetch(self, url: str):
+        rr = self.method(
+            self.server_url(url),
+            headers=self.headers(url),
+            json=self.body(url),
             timeout=READ_TIMEOUT,
         )
         if rr.status_code != 200:
             logging.error(
-                f"Tavily fetch failed: {rr.status_code} {rr.text[:CLIP_ERROR_CONTENT]}"
+                f"Fetch failed: {rr.status_code} {rr.text[:CLIP_ERROR_CONTENT]}"
             )
-        else:
-            return rr.json()["results"][0]["raw_content"]
-    rr.raise_for_status()
-    return rr.text.replace("\\n", "\n")
+        rr.raise_for_status()
+        text = self.adapter(rr)
+        wc = min(len(text.split()), len(re.findall(r"\w+", text)))
+        if wc < 100:
+            raise ValueError(f"Fetched content too short: {wc} words")
+        return text
+
+
+class Tavily(WebFetch):
+    def server_url(self, url: str):
+        return "https://api.tavily.com/extract"
+
+    def body(self, url: str):
+        return {"urls": [url]}
+
+    def headers(self, url: str):
+        return {
+            "Accept": "application/json",
+            "Authorization": f"Bearer {TAVILY_API_KEY}",
+            "Content-Type": "application/json",
+        }
+
+    def adapter(self, res: requests.Response):
+        return res.json()["results"][0]["raw_content"]
+
+
+class Extractor(WebFetch):
+    def server_url(self, url: str):
+        return (
+            f"https://extractorapi.com/api/v1/extractor/?apikey={EXTRACTOR_API_KEY}&url="
+            + url
+        )
+
+    def body(self, url: str):
+        return None
+
+    def headers(self, url: str):
+        return {
+            "Content-Type": "application/json",
+        }
+
+    def adapter(self, res: requests.Response):
+        return res.json()["text"]
+
+
+class Jina(WebFetch):
+    def server_url(self, url: str):
+        return "https://r.jina.ai/"
+
+    def body(self, url: str):
+        return {
+            "url": url,
+        }
+
+    def headers(self, url: str):
+        return {
+            "Authorization": f"Bearer {JINA_API_KEY}",
+            "Content-Type": "application/json",
+        }
+
+    def adapter(self, res: requests.Response):
+        return res.text
+
+
+WEB_FETCH_HANDLERS = [WebFetch(), Tavily(), Extractor(), Jina()]
+
+
+def _webfetch(url: str) -> str:
+    u = urlparse(url)
+    if any(u.netloc == host or u.netloc == f"www.{host}" for host in IGNORED_HOSTS):
+        logging.warning(
+            f"Skipping extraction from unsupported domain: {u.netloc}: {url}"
+        )
+        return ""
+
+    for handler in WEB_FETCH_HANDLERS:
+        try:
+            return handler.fetch(url)
+        except Exception as e:
+            pass
+    return ""
 
 
 def _fetch_file(out_file_id: str):
