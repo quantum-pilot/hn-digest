@@ -43,7 +43,9 @@ with open("SYSTEM_PROMPT.md") as f:
     SYSTEM_PROMPT = f.read().strip()
 
 with open("ignored_hosts") as f:
-    IGNORED_HOSTS = [line.strip() for line in f if line.strip() and not line.startswith("#")]
+    IGNORED_HOSTS = [
+        line.strip() for line in f if line.strip() and not line.startswith("#")
+    ]
 
 
 def _aggregated_stories() -> Dict[str, Any]:
@@ -245,10 +247,14 @@ class WebFetch:
         }
 
     def adapter(self, res: requests.Response):
-        return res.text.replace("\\n", "\n")
+        text = res.text.replace("\\n", "\n")
+        wc = min(len(text.split()), len(re.findall(r"\w+", text)))
+        if wc < 100:
+            raise ValueError(f"Fetched content too short: {wc} words")
+        return text
 
     def fetch(self, url: str):
-        rr = self.method(
+        rr = self.method()(
             self.server_url(url),
             headers=self.headers(url),
             json=self.body(url),
@@ -259,11 +265,7 @@ class WebFetch:
                 f"Fetch failed: {rr.status_code} {rr.text[:CLIP_ERROR_CONTENT]}"
             )
         rr.raise_for_status()
-        text = self.adapter(rr)
-        wc = min(len(text.split()), len(re.findall(r"\w+", text)))
-        if wc < 100:
-            raise ValueError(f"Fetched content too short: {wc} words")
-        return text
+        return self.adapter(rr)
 
 
 class Tavily(WebFetch):
@@ -290,6 +292,9 @@ class Extractor(WebFetch):
             f"https://extractorapi.com/api/v1/extractor/?apikey={EXTRACTOR_API_KEY}&url="
             + url
         )
+
+    def method(self):
+        return HTTP.get
 
     def body(self, url: str):
         return None
@@ -322,7 +327,7 @@ class Jina(WebFetch):
         return res.text
 
 
-WEB_FETCH_HANDLERS = [WebFetch(), Tavily(), Extractor(), Jina()]
+WEB_FETCH_HANDLERS = [WebFetch, Tavily, Extractor, Jina]
 
 
 def _webfetch(url: str) -> str:
@@ -334,10 +339,12 @@ def _webfetch(url: str) -> str:
         return ""
 
     for handler in WEB_FETCH_HANDLERS:
+        logging.info(f"Trying fetch with {handler.__name__} for {url}...")
         try:
-            return handler.fetch(url)
+            return handler().fetch(url)
         except Exception as e:
-            pass
+            logging.error(f"Fetch failed with {handler.__name__}: {e}")
+    logging.error(f"All fetch methods failed for {url}, returning empty content.")
     return ""
 
 
@@ -423,6 +430,9 @@ def _process_day(utc_yday: str, stories: List[Dict[str, Any]]):
         title = s["title"]
         url = s.get("url")
         score = s["score"]
+        if re.search("ask hn: who is hiring", title.lower()):
+            logging.info(f"Skipping hiring post: {title} ({sid})")
+            continue
         logging.info(f"Processing {i + 1}/{len(stories)}: {title} ({sid})")
         filename = f"{utc_yday}-{(slugify(title)[:50] if url else sid)}.md"
         _, filepath, exists = _working_path(filename)
