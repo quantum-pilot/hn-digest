@@ -416,7 +416,7 @@ def _check_batch(ref_file: Path, batch_id: str):
         os.system(f"git add {filepath}")
 
     os.remove(ref_file)
-    os.system(f"git commit -m '{ref_file.name.split('-')[0]}'")
+    os.system(f"git commit -m '{ref_file.name[:10]}'")
     os.system("git push origin master")
 
 
