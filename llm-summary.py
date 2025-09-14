@@ -142,9 +142,6 @@ LITELLM_HOST = os.environ["LITELLM_HOST"]
 LITELLM_KEY = os.environ["LITELLM_KEY"]
 LITELLM_MODEL = "gpt-5-medium-4096"
 LITELLM_HEADERS = {"Authorization": f"Bearer {LITELLM_KEY}"}
-TAVILY_API_KEY = os.environ["TAVILY_API_KEY"]
-EXTRACTOR_API_KEY = os.environ["EXTRACTOR_API_KEY"]
-JINA_API_KEY = os.environ["JINA_API_KEY"]
 HTTP = _make_session()
 
 
