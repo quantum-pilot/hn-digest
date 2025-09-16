@@ -26,7 +26,7 @@ from urllib3.util.retry import Retry
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-READ_TIMEOUT = 120
+READ_TIMEOUT = 250
 CLIP_ERROR_CONTENT = 200
 
 BATCH_REF_FILE = "LAST_BATCH_ID.txt"
