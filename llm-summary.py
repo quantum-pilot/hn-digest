@@ -21,6 +21,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from requests.adapters import HTTPAdapter
 from typing import List, Tuple
+from urllib.parse import urlparse
 from urllib3.util.retry import Retry
 
 logging.basicConfig(level=logging.INFO)
@@ -28,6 +29,7 @@ logger = logging.getLogger(__name__)
 
 READ_TIMEOUT = 250
 CLIP_ERROR_CONTENT = 200
+STORIES_PER_DAY = 20
 
 BATCH_REF_FILE = "LAST_BATCH_ID.txt"
 FORCE_PAGE = "1"
@@ -120,7 +122,12 @@ def _extract_comments(story_id: int, max_children: int = 5):
             else:
                 continue
 
-    return roots
+    comments = [(c["text"], [r["text"] for r in c["replies"]]) for c in roots]
+    concat_replies = lambda replies: "\n" + "\n".join(f"    - {r}" for r in replies)
+    return "\n".join(
+        f"{i + 1}. {c}{concat_replies(replies)}"
+        for i, (c, replies) in enumerate(comments)
+    )
 
 
 def _make_session():
@@ -227,9 +234,7 @@ def _webfetch(url: str) -> str:
         timeout=READ_TIMEOUT,
     )
     if rr.status_code != 200:
-        logging.error(
-            f"Fetch failed: {rr.status_code} {rr.text[:CLIP_ERROR_CONTENT]}"
-        )
+        logging.error(f"Fetch failed: {rr.status_code} {rr.text[:CLIP_ERROR_CONTENT]}")
     rr.raise_for_status()
     return rr.text.replace("\\n", "\n")
 
@@ -307,11 +312,27 @@ def _check_batch(ref_file: Path, batch_id: str):
 
 
 def _process_day(utc_yday: str, stories: List[Dict[str, Any]]):
-    assert len(stories) == 20, f"Expected 20 stories, got {len(stories)}"
+    assert len(stories) == STORIES_PER_DAY, (
+        f"Expected {STORIES_PER_DAY} stories, got {len(stories)}"
+    )
     stories.sort(key=lambda x: x["score"], reverse=True)
 
+    # special case: 2025-09-16 had two identical URLs topping the list
+    cleaned = {}
+    for s in stories:
+        url = s.get("url")
+        if url:
+            u = urlparse(url)
+            if (u.netloc, u.path) in cleaned:
+                cleaned[(u.netloc, u.path)]["merged_comments"] = _extract_comments(
+                    int(s.get("id"))
+                )
+                continue
+        cleaned[(u.netloc, u.path)] = s
+
+    stories = list(cleaned.values())
     items = []
-    for i, s in enumerate(stories[:20]):
+    for i, s in enumerate(stories):
         sid = s["id"]
         title = s["title"]
         url = s.get("url")
@@ -352,15 +373,9 @@ def _process_day(utc_yday: str, stories: List[Dict[str, Any]]):
         comments = ""
         try:
             logging.info(f"Fetching comments for post {sid}...")
-            res = _extract_comments(int(sid))
-            comments = [(c["text"], [r["text"] for r in c["replies"]]) for c in res]
-            concat_replies = lambda replies: "\n" + "\n".join(
-                f"    - {r}" for r in replies
-            )
-            comments = "\n".join(
-                f"{i + 1}. {c}{concat_replies(replies)}"
-                for i, (c, replies) in enumerate(comments)
-            )
+            comments = _extract_comments(int(sid))
+            if s.get("merged_comments"):
+                comments += f"\n\nMore comments: \n{s['merged_comments']}"
         except Exception as e:
             logging.error(f"Comments fetch failed for {hn_link}: {e}")
 
@@ -369,9 +384,9 @@ def _process_day(utc_yday: str, stories: List[Dict[str, Any]]):
             f.write(user_msg)
         items.append((filename, user_msg))
 
-    if len(items) != 20:
+    if items and len(items) != len(cleaned):
         logging.warning(
-            f"Only {len(items)}/20 new items to process, removing output files for {utc_yday}."
+            f"Items mismatch: {len(items)}/{len(cleaned)}, removing output files for {utc_yday}."
         )
         for fname, _ in items:
             logging.info(f"Removing output file for: {fname}")
