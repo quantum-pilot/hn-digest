@@ -1,16 +1,16 @@
 # The Bitter Lesson Is Misunderstood
 
-- Score: 367 | [HN](https://news.ycombinator.com/item?id=45057283) | Link: https://obviouslywrong.substack.com/p/the-bitter-lesson-is-misunderstood
+- Score: 369 | [HN](https://news.ycombinator.com/item?id=45057283) | Link: https://obviouslywrong.substack.com/p/the-bitter-lesson-is-misunderstood
 
 - TL;DR
-    - The essay argues we misread Sutton’s Bitter Lesson: under Chinchilla-optimal scaling, compute is yoked to data. With C ∝ D², doubling compute needs ~1.41× more data; otherwise, extra GPUs underperform. Internet-grade text (~10T usable tokens) is near exhaustion, so progress shifts to two levers: Architect (architectures that raise data efficiency: SSMs, HRM, ParScale) and Alchemist (verifiable-reward engines—self-play/RL/agentic loops—creating new high-signal data). HN debates real-world grounding and RL-driven synthesis versus transformer limits at 4–8h METR tasks.
+  - Chakrabarti argues Sutton’s Bitter Lesson was misread: compute dominated only because data did. From scaling laws (C≈6ND and N≈D) follows C∝D^2; doubling compute without ~41% more data wastes money. With ~10T usable high‑quality tokens and “no second Internet,” LMs face a data ceiling. Two levers remain: Architect (structural advances like Mamba/HRM/ParScale to raise data efficiency) and Alchemist (verifiably rewarded synthetic/agentic data). Leaders should portfolio 70/30 across them and target 4–8h METR tasks with verifiable rewards.
 
 - Comment pulse
-    - Verifiable rewards unlock scalable data for 4–8h tasks → build checkable environments for RL/self-play — counterpoint: what lacks metrics gets ignored, risking blind spots.
-    - Data scarcity disputed → humans learn with less; real-world grounding and synthetic loops could be ‘infinite’; overparameterization and quantization hint inefficiency.
-    - Consensus trend → transformer pretraining hits D bottleneck; paths: new architectures, better RL, or real-world interaction; confusion clarified: doubling compute needs ~1.41× data under C∝D².
+  - Verifiable rewards on target worlds → unlimited, high-signal synthetic data for 4–8h tasks — counterpoint: real-world, on-device user data may outcompete centralized SaaS models.
+  - Human efficiency critique → teens master math on ~1M tokens; quantization hints redundancy — counterpoint: brains aren’t blank; embodiment and self-generated data bridge capability.
+  - Data quality pain → noisy, biased text impedes learning; verifiable rewards or curated pipelines outperform; 'good‑enough' web data still yielded progress.
 
 - LLM perspective
-    - View: Treat data as the scarce asset; optimize for verifiable-reward generation and architectures that raise data efficiency.
-    - Impact: Budgets shift from GPU procurement to data pipelines, simulators, evals; orgs need measurable long-horizon tasks and closed-loop training.
-    - Watch next: Benchmarks on 4–8h METR tasks, releases enabling verifiable agentic loops, and licensing moves unlocking new high-quality corpora.
+  - View: Treat compute as downstream of data; build verifiable‑reward loops and architectures that raise data efficiency per FLOP.
+  - Impact: Advantage accrues to teams owning data generation/verification and models exploiting structure; pure GPU spenders underperform.
+  - Watch next: Watch: METR 4–8h eval wins, scalable agentic traces, RL beyond preference ranking, and SSM/conditional‑routing models proven in production.

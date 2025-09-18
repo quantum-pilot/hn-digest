@@ -2,15 +2,15 @@
 
 - Score: 241 | [HN](https://news.ycombinator.com/item?id=45057322) | Link: https://github.com/elixir-lang/expert
 
-- TL;DR
-  - Expert is Elixir’s new, official Language Server, born from last year’s cross-project collaboration (ElixirLS, Lexical, next‑ls). Its architecture isolates the server from project namespaces and supports multiple Elixir/OTP versions to reduce clashes and performance regressions. Binaries and nightlies are available; source builds use Zig. HN welcomes the consolidation and long‑term tooling plan, expects smoother performance than ElixirLS, debates the “Expert” name, and notes this is the first truly official LSP.
+TL;DR
+Expert is the new official Elixir Language Server, aiming to unify prior LSP efforts (ElixirLS, Lexical, next‑ls) after a 2024 collaboration. It ships binaries, nightly builds, and can be built from source with Zig 0.14.1. Architecture emphasizes Elixir version compatibility and isolating project namespaces to avoid conflicts, targeting fewer compiler‑induced slowdowns seen in older servers. HN discussion welcomes consolidation and long‑term tooling, debates the “Expert” name, and notes there wasn’t an official LSP before—hopes are high for performance and stability.
 
-- Comment pulse
-  - Unified, community-led tool → ElixirLS/Lexical/next‑ls maintainers converged on a vendor‑neutral server; day‑to‑day isn’t core‑team/Dashbit‑run.
-  - Isolation and compatibility → Namespacing and multi‑version support aim to prevent module collisions and work across varied Elixir/OTP matrices.
-  - Performance hopes → Users expect fewer slowdowns than ElixirLS — counterpoint: earlier LSPs weren’t official; this is the first.
+Comment pulse
+- This is the collaborative successor to ElixirLS/Lexical/next-ls → 2024 initiative to align on one LSP reduces fragmentation — counterpoint: multiple LSPs may still coexist.
+- Architecture praised → version-compatibility and project namespace isolation aim to prevent conflicts and plugin crashes.
+- Performance hopes → prior servers bogged down when the compiler slowed; users expect Expert to decouple and stay responsive.
 
-- LLM perspective
-  - View: Official standardization reduces fragmentation; architecture choices suggest fewer edge-case crashes and better editor parity.
-  - Impact: Most Elixir devs → simpler setup, consistent features; plugin authors consolidate around one protocol surface.
-  - Watch next: Independent benchmarks vs ElixirLS/Lexical, VS Code/Neovim integration updates, migration guides and OTP version-matrix support.
+LLM perspective
+- View: Official LSP reduces vendor/editor divergence; expect a single extension path across VS Code, Neovim, JetBrains.
+- Impact: Elixir teams get predictable refactors, go‑to‑definition, and diagnostics across versions; tool authors target one protocol behavior.
+- Watch next: Publish benchmarks versus ElixirLS/Lexical, harden version matrix, migration guides for editor plugins, and release cadence beyond nightlies.

@@ -3,14 +3,14 @@
 - Score: 448 | [HN](https://news.ycombinator.com/item?id=45054703) | Link: https://nshipster.com/uncertainty/
 
 - TL;DR
-    - NSHipster ports Microsoft Research’s Uncertain<T> to Swift, making uncertainty a first-class type. Values carry distributions; operators build computation graphs; decisions query probabilities via Monte Carlo sampling and SPRT. Examples span GPS accuracy, physics, and UI thresholds, with tunable sample budgets. Discussion stresses that real GPS error isn’t always circular and often needs sensor fusion/particle filters; asks about covariance (shared sampling can capture it); and connects the idea to probabilistic programming, probability monads, and even hardware like Signaloid for nonparametric propagation.
+  - NSHipster ports Microsoft Research’s Uncertain<T> to Swift, making uncertainty a first-class type. Comparisons return probabilistic booleans; computations form graphs evaluated via Monte Carlo sampling and SPRT, supporting many distributions and statistics. Examples include GPS distance and physics, with migration and performance guidance. HN praises the approach, notes circular GPS error is simplistic, links to particle filters and probabilistic programming/monads, asks about covariance (handled via shared sampling), and cites hardware (Signaloid) and Haskell/Python libraries as related work.
 
 - Comment pulse
-    - GPS error isn’t circular; multipath/occlusion dominate, so AVs use sensor fusion and particle filters — counterpoint: Rayleigh is fine for many consumer, open-sky cases.
-    - Correlation matters; shared sampling across reused leaf variables captures covariance automatically; some want systems to learn correlations; gvar suggested for explicit tracking.
-    - This aligns with probabilistic programming and probability monads; languages/libraries (Haskell, monad-bayes) and even hardware (Signaloid) show practical, optimized uncertainty propagation.
+  - Circular GPS error is simplistic → multipath/sensor fusion dominate; real systems use particle filters. — counterpoint: fine under open-sky, long fixes.
+  - Sampling-based types compose → shared leaf sampling yields covariance “for free”; echoes probability monads/probabilistic programming; autodiff/compute graphs generalize.
+  - Hardware and tools are emerging → Signaloid propagates sample sets in silicon; Haskell monad-bayes and Python gvar show language-level precedents.
 
 - LLM perspective
-    - View: Treating uncertainty as a type improves decision thresholds and reduces brittle if-statements in sensor- and user-data-heavy apps.
-    - Impact: Mobile, robotics, and finance teams gain calibrated outputs; developers must budget sampling costs and surface confidence to UX and logging.
-    - Watch next: Benchmarks vs deterministic baselines; covariance-aware APIs; CoreLocation integration; optional particle filters; compare CPU/GPU to hardware like Signaloid.
+  - View: First-class uncertainty types with lazy sampling improve correctness and UX, but require careful modeling and reproducibility controls.
+  - Impact: Mobile/location apps, robotics, and simulation benefit; QA adopts probabilistic assertions; perf and energy budgets must include sampling costs.
+  - Watch next: Benchmarks vs EKF/particle filters; explicit covariance APIs; deterministic seeding; Swift Numerics integration; profiling guidance for iOS.

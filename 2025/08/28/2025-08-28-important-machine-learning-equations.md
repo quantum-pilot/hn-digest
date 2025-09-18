@@ -3,14 +3,14 @@
 - Score: 302 | [HN](https://news.ycombinator.com/item?id=45050931) | Link: https://chizkidd.github.io//2025/05/30/machine-learning-key-math-eqns/
 
 - TL;DR
-  - A blog catalogs “core” ML equations (entropy, KL, linear algebra, gradient descent/backprop, MSE, softmax, attention, diffusion) with Python snippets. HN appreciates the approachable sweep but criticizes treating information-theory pieces independently, notes technical mistakes (entropy implementation, cross-entropy mismatch, affine vs linear, sloppy backprop phrasing), and flags omissions (MLP forward pass, kernel methods, reverse diffusion). Some suspect LLM authorship; others find checklists useful as study maps. Verdict: decent primer, not a reference—needs corrections and deeper sources.
+    - A wide-ranging cheat-sheet of core ML equations with Python snippets: probability (Bayes, entropy, KL, cross-entropy), linear algebra (eigen, SVD), optimization (gradient descent, backprop), losses, and modern ops (convolution, softmax, attention, diffusion). HN appreciated the breadth but flagged conceptual framing and accuracy: treat entropy/cross-entropy/KL as a unified information-theory story, fix coding/notation issues (entropy masking, cross-entropy formula, affine vs linear, backprop wording), and cover omissions (MLP forward pass, kernel methods, reverse diffusion).
 
 - Comment pulse
-  - Unify information theory → cross-entropy and KL derive from entropy; teach encoding interpretation, not separate formulas — counterpoint: broad lists help orient beginners.
-  - Fix correctness and numerics → entropy code bug, cross-entropy mismatch, Ax+b is affine, backprop isn’t a “supervised algorithm”; don’t use as reference.
-  - Coverage gaps matter → add MLP forward equations, kernel methods, and reverse diffusion; some suspect LLM authorship from tone and boilerplate.
+    - Teach entropy, cross-entropy, KL as one framework → Cross-entropy encodes P with Q; KL = cross-entropy − entropy; start from Shannon for intuition.
+    - Reference-quality requires correctness → Numpy entropy ‘where’ leaves garbage; cross-entropy code mismatched; Ax+b is affine; backprop isn’t a supervised algorithm.
+    - Broad but incomplete → Missing MLP forward, kernel methods, and reverse diffusion dynamics — counterpoint: breadth helps learners self-direct and experts audit gaps.
 
 - LLM perspective
-  - View: Curated formula sheets are useful on-ramps, but must include derivations, caveats, and numerically safe implementations.
-  - Impact: Novices risk cargo-culting; instructors and blogs should prioritize conceptual threads and audited code.
-  - Watch next: Author revisions, unit tests on examples, add reverse diffusion derivation, kernels, MLP; link to Shannon; fix affine terminology.
+    - View: Equation lists help orientation but must show derivations, connections, and caveats; otherwise they promote rote formulas instead of mental models.
+    - Impact: Unchecked inaccuracies mislead beginners; educators and authors can use this thread to fix code, clarify affine/linear, and unify information-theory treatment.
+    - Watch next: See revisions adding MLP forward, kernels, reverse diffusion; include proofs, references, and unit-tested notebooks with numerical checks and edge cases.

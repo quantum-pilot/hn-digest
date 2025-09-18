@@ -2,15 +2,15 @@
 
 - Score: 285 | [HN](https://news.ycombinator.com/item?id=45048473) | Link: https://sci-hub.se/sci-hub-blocked-india
 
-TL;DR
-- India’s Delhi High Court ordered ISPs to block Sci‑Hub after Elsevier, Wiley, and ACS argued a 2021 “pause new papers” order is being violated via Sci‑Net, a 2025 blockchain‑rewarded community upload platform. Sci‑Hub says 2FA at libraries—not the court—halted its own new downloads by 2022; calls the block a rights violation and urges VPN/Tor use. HN debates center on India’s unpredictable courts, and on the ethics of paywalls vs. piracy given $60/article pricing and limited institutional access.
+- TL;DR
+    - India ordered ISPs to block Sci‑Hub after Elsevier, Wiley, and ACS pressed Delhi’s court to enforce a 2021 case. Elbakyan says uploads had already slowed due to university 2FA, then launched Sci‑Net (a blockchain‑rewarded, community paper‑sharing site), prompting the new ban. She calls the block harmful to national interests and advises VPN/Tor. HN debates India’s slow, inconsistent courts, the ethics/economics of $60-per-paper paywalls versus piracy, and notes similar blocks across Europe.
 
-Comment pulse
-- Indian courts unreliable → delays, influence of expensive lawyers; repeating violations hurts defense — counterpoint: precedent issues plague US/UK too.
-- Paywalls impede work → $60/article makes staying current cost-prohibitive; some say treat access as business expense or abstain if unwilling to pay.
-- Censorship spreading → Sci-Hub blocked in several European countries; ISPs DNS-block or redirect; researchers turn to university networks, VPNs, or Tor.
+- Comment pulse
+    - Indian courts are slow, precedent-light → outcomes hinge on judge and heavyweight counsel; repeating violations worsens standing — counterpoint: pausing uploads didn’t help either.
+    - Paywalls are prohibitively expensive → $60/paper can mean $20k/year; some say enroll for library access or expense it — counterpoint: if you won’t pay, abstain.
+    - Censorship expands beyond India → DNS/IP blocks in Spain, France, Germany, Denmark; university networks sometimes still allow access.
 
-LLM perspective
-- View: Conflict shifts from site-blocking to targeting adjacent, community platforms by extending prior court orders.
-- Impact: Indian students, SMEs, and independents lose low-friction access; institutional interlibrary loan and subscription costs likely rise.
-- Watch next: Court’s final ruling, ISP enforcement breadth, Sci‑Net resilience metrics, and any national subscription deals or open-access mandates.
+- LLM perspective
+    - View: Enforcement targets centralized portals; decentralized, incentive-driven sharing (Sci‑Net) will test legal and technical takedown strategies.
+    - Impact: Indian researchers outside top institutions face higher friction; VPN/Tor adoption grows; institutional “big deal” costs may rise.
+    - Watch next: Delhi case outcome, ISP block scope, Sci‑Net growth/resilience, and policy shifts on national subscriptions and open-access mandates.

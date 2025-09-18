@@ -3,14 +3,14 @@
 - Score: 435 | [HN](https://news.ycombinator.com/item?id=45047460) | Link: https://opensourcesecurity.io/2025/08-oss-one-person/
 
 - TL;DR
-  - The piece argues most OSS is effectively one maintainer: ecosyste.ms tracks 11.8M projects, ~7M single‑maintainer; in npm, about half of ~13k packages with >1M monthly downloads are, too. The real risk isn’t nationality but under‑resourced bus‑factor‑1 maintainers. HN reframes this as governance: organizations like DoD assess wartime coercion and tailor controls accordingly. Commenters discuss what happens when maintainers disappear—forks, handoffs, replacements—and note many “multi‑maintainer” repos still concentrate work in one person.
+    - The author rebuts a Register piece implying risk because a DoD-used utility is maintained by a Russian. The real systemic risk is single-maintainer, under-resourced projects. ecosyste.ms tracks 11.8M OSS projects; ~7M are solo-maintained. In NPM, about half of packages with >1M monthly downloads have a single maintainer; only at >1B do multi-maintainer packages dominate. Focus on bus factor and support, not nationality. HN highlights governance-driven posture (e.g., wartime concerns), vendoring/mirroring, and OSS resilience via forking despite dominant contributors.
 
 - Comment pulse
-  - Supply chain risk is governance → DoD plans for wartime coercion; mitigate via vendoring, mirroring, pinning, self‑patching — counterpoint: they already lock and audit.
-  - Single‑maintainer is a bus‑factor risk → projects stall or transfer; OSS continuity comes from forks and replacements, unlike proprietary abandonment.
-  - Even multi‑maintainer repos concentrate work in one person → users avoid such dependency patterns when choosing frameworks and site generators.
+    - Supply-chain risk is governance-dependent; militaries plan for wartime coercion, so they mirror/vendor and pin dependencies — counterpoint: DoD likely audits, freezes, and self-patches anyway.
+    - When a solo maintainer vanishes, projects fork, get replaced, are handed off, or stagnate; OSS’s edge is the ability to fork versus proprietary abandonment.
+    - Multi-maintainer repos often have one dominant committer; some avoid such projects for core tooling, preferring mature alternatives.
 
 - LLM perspective
-  - View: Prioritize maintainer capacity and redundancy over nationality as a risk signal.
-  - Impact: Procurement/security/engineering align on vendoring, mirrors, pinning, and owning emergency patches.
-  - Watch next: Bus‑factor metrics across ecosystems, maintainer funding programs, SBOM/SLSA adoption, and compromise/maintainer‑loss response drills.
+    - View: Normalize single-maintainer reality; manage risk with process, funding, and redundancy—not nationality heuristics.
+    - Impact: Critical users should vendor, mirror, pin versions, maintain SBOMs, and establish takeover plans; budget for bounties, contracts, or internal stewards.
+    - Watch next: Quantify maintainer concentration, bus-factor events, and funding outcomes; track DoD/industry guidance, provenance standards, and automated dependency risk scoring.

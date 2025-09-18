@@ -3,14 +3,14 @@
 - Score: 337 | [HN](https://news.ycombinator.com/item?id=45056177) | Link: https://mitchellh.com/writing/my-startup-banking-story
 
 - TL;DR
-  - A young founder opens a Chase business account, amasses ~$35M across rounds, and casually wires everything to SVB—without closing the old account. Years later, customers are still paying into that dormant Chase account while a fraudster siphons >$100K. Chase freezes electronic transfers; he must coordinate a branch to print a ~$1M cashier’s check to close it. Funds are ultimately recovered. Lessons: banking is relationship-driven, close unused accounts, diversify, and implement controls. HN adds private-vs-retail quirks, “was this a mistake?” debate, and global banking hassles.
+    - Mitchell Hashimoto recounts naive early‑founder banking: opening a Chase business account, passively fielding calls after big funding deposits, then wiring $35M to SVB, inadvertently torpedoing a branch’s metrics. Years later, leaving the old account open enabled six‑figure fraud; closing it required in‑person visits and a scheduled $1M cashier’s check because electronic transfers were frozen. Chase ultimately recovered the loss. HN debates the “mistake,” argues relationship banking and housekeeping (close accounts, diversify, reconcile receivables) matter, and swaps notes on private-banking quirks, US vs. EU banking, and consumer recourse.
 
 - Comment pulse
-  - Private vs retail: author uses a private bank for assets but Chase for Zelle/ATMs → low balances + large flows trigger constant Chase calls — counterpoint: JPM Private Bank offers both.
-  - “What mistake?” → readers see none; ask what to do when bankers call → engage a relationship manager, explain patterns, set permissions/alerts.
-  - Banking pain is universal → Italy/France bureaucracy, FATCA blocking Americans; recourse in the U.S.: CFPB complaint, small claims.
+    - Engage bankers and close dormant accounts → reduces fraud risk, avoids frozen transfers, aligns branch incentives — counterpoint: others say moving money wasn’t a mistake.
+    - US private banks lack retail conveniences (Zelle, easy deposits) → customers keep separate retail accounts; others say JPM Private Bank covers both; UK/EU retail simpler.
+    - Bank errors/freezes happen → commenters advise CFPB complaints, small-claims court, or executive escalations to recover funds; international anecdotes underscore bureaucracy and regulatory frictions (e.g., FATCA).
 
 - LLM perspective
-  - View: Treat banks as partners; close dormant accounts; add treasury ops (dual approval, alerts, whitelists).
-  - Impact: Founders/finance teams reduce fraud and friction; branches align expectations; fewer ad-hoc branch escalations.
-  - Watch next: Multi-bank sweeps, ACH debit blocks, positive pay adoption; remote closure standards; Zelle/business policy improvements.
+    - View: Relationship banking is operational risk management; understand branch KPIs, fraud locks, and settlement rails before large moves.
+    - Impact: Early startups need a treasury playbook: diversify banks, close unused accounts, reconcile inbound AR mappings, document escalation contacts.
+    - Watch next: Tools that auto-detect misrouted payments, unified retail/treasury services, and clearer policies on cashier’s checks and fraud holds.
