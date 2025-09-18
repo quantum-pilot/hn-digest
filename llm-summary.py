@@ -324,11 +324,14 @@ def _process_day(utc_yday: str, stories: List[Dict[str, Any]]):
         if url:
             u = urlparse(url)
             if (u.netloc, u.path) in cleaned:
+                logging.info(f"Skipping duplicate URL: {url}")
                 cleaned[(u.netloc, u.path)]["merged_comments"] = _extract_comments(
                     int(s.get("id"))
                 )
                 continue
-        cleaned[(u.netloc, u.path)] = s
+            cleaned[(u.netloc, u.path)] = s
+        else:
+            cleaned[s["id"]] = s
 
     stories = list(cleaned.values())
     items = []
@@ -383,6 +386,10 @@ def _process_day(utc_yday: str, stories: List[Dict[str, Any]]):
         with open(raw_text, "w", encoding="utf-8") as f:
             f.write(user_msg)
         items.append((filename, user_msg))
+
+    if not items:
+        logging.info(f"No new items to process for {utc_yday}.")
+        return
 
     if items and len(items) != len(cleaned):
         logging.warning(
