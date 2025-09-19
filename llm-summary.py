@@ -162,7 +162,7 @@ def _make_line(custom_id: str, system_prompt: str, user_text: str) -> dict:
         "method": "POST",
         "url": "/v1/chat/completions",
         "body": {
-            "model": LITELLM_MODEL,
+            "model": "gpt-5",
             "messages": [
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_text},
