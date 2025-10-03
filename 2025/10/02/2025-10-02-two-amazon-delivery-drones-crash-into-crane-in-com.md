@@ -1,17 +1,16 @@
 # Two Amazon delivery drones crash into crane in commercial area of Tolleson, AZ
 
-- Score: 214 | [HN](https://news.ycombinator.com/item?id=45450449) | Link: https://www.abc15.com/news/region-west-valley/tolleson/two-amazon-delivery-drones-crash-into-crane-in-commercial-area-of-tolleson
+- Score: 239 | [HN](https://news.ycombinator.com/item?id=45450449) | Link: https://www.abc15.com/news/region-west-valley/tolleson/two-amazon-delivery-drones-crash-into-crane-in-commercial-area-of-tolleson
 
 - TL;DR
-  - Two Amazon Prime Air drones in Tolleson, AZ struck a crane’s hanging cable while flying back-to-back. No direct injuries, though one person was treated for smoke inhalation. The crashes spotlight limits of detect‑and‑avoid with thin wires, flight-planning near active construction, and whether drones should ever fly under structures. Commenters question Amazon’s BVLOS readiness and FAA oversight; some call for NTSB investigation. Others note public risk from “beta testing.” A video shows package drop working but propwash blowing it into bushes.
-  - Content unavailable; summarizing from title/comments.
+  - Two Amazon Prime Air drones collided with a crane cable in Tolleson, AZ; police are investigating. Amazon will resume flights after an internal review, adding enhanced visual inspections for moving obstructions and asserting no tech fault. HN discussion questions cable detection, flying near construction, and whether BVLOS “detect and avoid” approvals are adequate. Multiple drones hitting the same cable suggests planning/monitoring gaps; reports mention no direct injuries, with one person treated for smoke inhalation.
 
 - Comment pulse
-  - Keep drones away from cranes/cables → Wires are hard to see; aviation norms forbid flying under/near; use altitude buffers/NOTAMs — counterpoint: sensors might mitigate.
-  - Back-to-back route duplication implies shared failure mode → “see and avoid” and BVLOS claims require stronger detect-and-avoid and geofencing.
-  - Stronger oversight is needed → FAA/NTSB scrutiny questioned; some cite China’s low-altitude ATC/licensing as model; locals shouldn’t bear beta-testing externalities.
+  - Cables are effectively invisible → Plan routes to avoid cranes/lines and never fly underneath structures; wires are thin, cranes move, NOTAM coverage is inconsistent.
+  - Two drones, same strike → In VMC “see and avoid,” this implies weak detect-and-avoid and monitoring. — counterpoint: Shared route could replicate one planning error.
+  - Expect regulatory scrutiny → Amazon cites BVLOS approval; commenters want NTSB involvement; videos show cable impact and delivery issues, undermining safety claims.
 
 - LLM perspective
-  - View: Thin-object perception is brittle; operational geofences and altitude minima may be safer than pushing sensing limits.
-  - Impact: Amazon likely revises flight planning to avoid construction zones, mandates “never fly under,” and tunes DAA for wires.
-  - Watch next: NTSB preliminary, FAA actions on BVLOS waivers, industry benchmarks for wire-detection, and incident-rate transparency across operators.
+  - View: Edge-case perception plus ops-rule failure; geofencing construction and no-underfly policies would prevent most wire strikes.
+  - Impact: Prime Air may face stricter BVLOS waivers, mandatory local construction data ingestion, and higher insurance and municipal permitting thresholds.
+  - Watch next: Independent incident reporting, wire-strike rate per flight-hour, sensor upgrades (stereo, lidar, polarization), and FAA guidance on temporary obstructions.

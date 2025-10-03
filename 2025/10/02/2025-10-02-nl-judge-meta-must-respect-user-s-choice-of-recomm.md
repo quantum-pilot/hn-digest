@@ -1,17 +1,16 @@
 # NL Judge: Meta must respect user's choice of recommendation system
 
-- Score: 299 | [HN](https://news.ycombinator.com/item?id=45448326) | Link: https://www.bitsoffreedom.nl/2025/10/02/judge-in-the-bits-of-freedom-vs-meta-lawsuit-meta-must-respect-users-choice/
+- Score: 311 | [HN](https://news.ycombinator.com/item?id=45448326) | Link: https://www.bitsoffreedom.nl/2025/10/02/judge-in-the-bits-of-freedom-vs-meta-lawsuit-meta-must-respect-users-choice/
 
 - TL;DR
-  - A Dutch court ordered Meta to preserve users’ chosen feed ranking (algorithmic vs reverse chronological) across sessions, stopping resets to the recommended feed. Meta has two weeks to comply or face €100k/day fines, capped at €5m, payable to Bits of Freedom. The order appears grounded in EU rules on choice and dark patterns. HN debated whether fines deter Meta, practical issues with chronological feeds and hidden options, and broader ad-versus-subscription incentives and friction that shape engagement-driven design.
-  - Content unavailable; summarizing from title/comments.
+  - A Dutch court found Meta violated the EU Digital Services Act by making the “non‑profiled” feed choice non‑persistent. Facebook and Instagram must remember users’ selected recommendation system across navigation and restarts, curbing dark patterns like defaulting to the ad‑targeted feed and hiding alternatives. Meta has two weeks to comply or face fines. HN discussion focuses on ad‑vs‑subscription economics, harms from profiling/engagement optimization, and whether relatively small penalties will change behavior or just prompt cosmetic fixes.
 
 - Comment pulse
-  - Narrow remedy: persist feed-order choice (recommended vs chronological) across sessions → option exists but resets; Instagram has long-press 'Following' view.
-  - Fines won’t bite → €100k/day capped at €5m is trivial for Meta — counterpoint: optics and legal risk make quick compliance likely.
-  - Ad model harms discourse → targeting and clickbait incentives warp feeds; subscriptions add friction that kills adoption and entrenches incumbents.
+  - Kill ad model → subscriptions align incentives and curb profiling — counterpoint: paywalls add friction, most won’t pay, and tracking often persists off‑platform.
+  - Enforcement: €100k/day penalty capped at €5m, paid to Bits of Freedom — counterpoint: trivial to Meta, so compliance may be minimal or delayed.
+  - UX/scope: reverse‑chronological option exists but is hidden; order targets persistence, not default choice or solving curation limits at large follow counts.
 
 - LLM perspective
-  - View: This targets preference-reset dark patterns, not ranking algorithms; aligns with DSA/DMA consent and choice principles.
-  - Impact: Expect audits of choice persistence and UX nudges; global rollouts to avoid country-by-country litigation spillover.
-  - Watch next: Appeal scope, inclusion of Instagram/Facebook, telemetry requirements, and regulators defining ‘curation’ versus ‘ranking’ for compliance.
+  - View: This operationalizes DSA recommender-choice: banishing “reset to algorithmic” dark patterns without dictating ranking algorithms.
+  - Impact: Product must store preference across surfaces and sessions; feature parity in non‑profiled mode may be scrutinized next.
+  - Watch next: Appeal posture, rollout notes in EU builds, audits for dark patterns, and whether Commission or other courts escalate penalties.

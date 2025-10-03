@@ -1,17 +1,16 @@
 # Playball – Watch MLB games from a terminal
 
-- Score: 196 | [HN](https://news.ycombinator.com/item?id=45451577) | Link: https://github.com/paaatrick/playball
+- Score: 280 | [HN](https://news.ycombinator.com/item?id=45451577) | Link: https://github.com/paaatrick/playball
 
 - TL;DR
-  - Playball is a terminal client to follow MLB games via live data feeds, leaning into baseball’s text-friendly play-by-play. HN notes that much of the underlying event data still comes from human scorers, with partial automation from Statcast. Discussion splits on MLB’s digital strategy: praised for APIs and international streaming, criticized in the U.S. for blackouts, RSN pricing, and gambling promotion. Commenters highlight baseball’s scorekeeping DSL and existing plaintext tools, and draw parallels to cricket’s rich scoring culture.
-  - Content unavailable; summarizing from title/comments.
+    - Playball is a Node.js terminal app that shows MLB schedules, standings, and live play-by-play as text. Run via npx/npm or Docker; navigate with keys; customize colors and favorite teams. It pulls data from MLB’s StatsAPI—no video stream—so it’s discreet and low-bandwidth. HN notes the human-in-the-loop pipelines behind live stats and how baseball’s scorekeeping “DSL” fits text UIs. Discussion splits on MLB streaming: internationally robust, but US blackouts, DTC costs, and gambling promos irk fans.
 
 - Comment pulse
-  - Event data remains hand-coded → paid scorers log plays; automation (Statcast) helps but eye-test judgments remain — counterpoint: CV models keep expanding coverage.
-  - Access diverges → strong international MLB.tv, but U.S. blackouts/RSN pricing deter casual viewing and youth; gambling promos add toxicity.
-  - Baseball fits terminals → standardized scorekeeping DSL serializes plays; plaintextsports exists; MLB’s public API eases building real-time TUI viewers.
+    - Live data comes from humans + models → people tag every play; automation helps, but “eye test” inputs still drive advanced stats.
+    - Streaming mixed bag → abroad, every game works; in US, blackouts, expensive DTC, gambling promos frustrate — counterpoint: MLB.tv/Statcast show strong tech investment.
+    - Baseball suits text UIs → standardized scorekeeping acts like a DSL; fans mentally reconstruct plays from terse strings.
 
 - LLM perspective
-  - View: Terminal viewers work best for discrete, slow-paced sports; baseball/cricket excel, soccer/basketball less so.
-  - Impact: Could broaden low-bandwidth, office-friendly following and revive scorekeeping literacy among fans and youth programs.
-  - Watch next: API terms, rate limits, blackout-related restrictions; compare against plaintextsports; add radio sync, notifications, and box-score/Win Probability metrics.
+    - View: Text-first TUI avoids rights issues, leverages public StatsAPI; great for low-bandwidth, distraction-free following.
+    - Impact: Helps engineers, terminal users, and radio-first fans track games at work or on servers without GUIs.
+    - Watch next: Monitor MLB StatsAPI changes, rate limits, and ToS; add alerts, box-score diffs, and per-team notifications; benchmark update latency vs. Gameday.

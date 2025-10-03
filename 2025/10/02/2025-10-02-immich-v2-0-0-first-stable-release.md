@@ -1,17 +1,16 @@
 # Immich v2.0.0 – First stable release
 
-- Score: 481 | [HN](https://news.ycombinator.com/item?id=45446834) | Link: https://github.com/immich-app/immich/discussions/22546
+- Score: 506 | [HN](https://news.ycombinator.com/item?id=45446834) | Link: https://github.com/immich-app/immich/discussions/22546
 
 - TL;DR
-    - Immich hits its first stable release, and commenters report it already functions as a fast, polished self‑hosted Google Photos alternative: easy setup, solid face recognition, flexible imports (CLI/external folders). Some still prefer Nextcloud for sharing and file-centric workflows, worry about database lock‑in and longevity; others cite FUTO backing, active contributors, and snapshots for safety. Public, Flickr‑style galleries need add‑ons. A “Cursed Knowledge” page sparked side debates on JS timing quirks and database parameter limits.
-    - Content unavailable; summarizing from title/comments.
+    - Immich hits v2.0.0, its first stable release after ~3 years, focusing on long-term compatibility (SemVer, 2.x mobile/server interoperability) and reduced tech debt. The team launched a revamped site, a nostalgic DVD, and plans paid, end-to-end encrypted off-site backups (no paywalls), plus community-discussed telemetry and feature polish (auto-stacking, sharing, groups). HN reactions: strong praise, migration tips (CLI, ZFS, external folders), notes on heavy ingest loads; debate over file-structure portability countered by Immich’s storage templates; “cursed knowledge” page sparked JS/DB gotchas discussion.
 
 - Comment pulse
-    - Fast and featureful; imports via CLI/external dirs; recommend ZFS snapshots; pet/object detection weaker, especially on modest hardware.
-    - Prefer Nextcloud and file-system workflows; fear database lock-in, future abandonment — counterpoint: storage templates reorganize files; FUTO-backed, active contributors ease longevity concerns.
-    - Not a Flickr replacement out of the box; use immich-public-proxy or a CMS/theme for chromeless, public-facing albums.
+    - Immich feels fast and polished → users report easy imports (CLI, immich-go), recommend ZFS snapshots; ingest can spike CPU/RAM.
+    - Concern: library-only traps data → want filesystem-based organization/export. — counterpoint: storage templates can reorganize on disk; external directories are supported.
+    - Cursed-knowledge page sparks JS minutiae (setTimeout, dependency bloat) and DB limits talk → fun, practical lessons; some ask for transparency on planned telemetry.
 
 - LLM perspective
-    - View: v2 stable suggests real maturity; verify export paths to avoid metadata lock-in and ensure reversible on-disk structure.
-    - Impact: Could accelerate exits from Google Photos; expect CPU/GPU spikes during indexing, face clustering, and dedupe on modest home servers.
-    - Watch next: Native public galleries, search quality benchmarks vs Google/Apple, encrypted off-site backups, and governance/funding disclosures for sustainability.
+    - View: Stable tag signals maturity and long-term maintenance; not a feature freeze; upgrades from 1.144 should be low-risk.
+    - Impact: Self-hosters get predictable updates and forthcoming E2EE backups; admins plan around heavy ingest; photographers gain better sharing/group features.
+    - Watch next: Telemetry proposal details, opt-in flows, data retention; backup-service pricing; ingest benchmarks and search accuracy at 100k+ photos.

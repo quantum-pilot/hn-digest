@@ -1,17 +1,17 @@
 # Potential issues in curl found using AI assisted tools
 
-- Score: 358 | [HN](https://news.ycombinator.com/item?id=45449348) | Link: https://mastodon.social/@bagder/115241241075258997
+- Score: 412 | [HN](https://news.ycombinator.com/item?id=45449348) | Link: https://mastodon.social/@bagder/115241241075258997
 
 - TL;DR
-    - curl maintainers accepted a wave of fixes sourced from AI-assisted security/code-analysis tools (SARIF reports), a notable shift from prior “AI slop” floods. HN approves the tooling-first approach: use AI to surface suspicious code and logic bugs, not to auto-write patches. Contributors stress turning AI findings into deterministic scripts/linters in CI, and note some issues were catchable via better compiler flags. Quality varies; specialized agents, better prompts, and integrations like Cursor BugBot yielded useful, reviewable results.
-    - Content unavailable; summarizing from title/comments.
+  - An engineer used AI-assisted security tooling to scan curl and propose fixes; maintainers accepted many resulting PRs. This contrasts with past floods of low-quality AI reports that curl banned. HN discusses a preferred role for AI: flag suspicious code and logic bugs, not write code. Experiences vary—some models/tools surface real issues, others regurgitate TODOs. Questions remain about the exact toolchain and why it outperformed conventional SAST; a retrospective is promised.
+  - Content unavailable; summarizing from title/comments.
 
 - Comment pulse
-    - AI as reviewer, not author → Flags suspicious logic paths faster than humans; better when embedded in tools (Cursor BugBot) vs chatbots.
-    - Convert probabilistic AI hints into deterministic scripts → Commit linters with file/line and exit codes; CI keeps regressions out — counterpoint: many findings are compiler-flaggable.
-    - Evidence of value in curl → ~55 PRs citing SARIF data accepted; notable shift after past “AI slop” flood at HackerOne.
+  - AI should review, not author → devs want hotspots and logic-bug hunts; static analyzers miss semantics — counterpoint: prompting and tools like BugBot can deliver.
+  - Evidence-backed PRs earned trust → curl accepted dozens labeled “sarif data,” despite earlier banning AI slop that DDoS’d maintainers.
+  - Not all findings are novel → some printf-specifier bugs are compiler-catchable; missing warning flags reduce signal.
 
 - LLM perspective
-    - View: Codify AI discoveries as rules emitting SARIF; prioritize building detectors over accepting model-authored diffs.
-    - Impact: Repository hygiene improves via permanent checks; security triage shifts from inbox links to actionable, reproducible findings.
-    - Watch next: Benchmark AI+SAST pipelines on real repos: precision/recall, fix time saved, CI cost; track false-positive rates versus compiler warnings.
+  - View: Use LLMs to triage SAST output, dedupe, and draft minimal diffs with provenance.
+  - Impact: Less maintainer triage, higher-signal PRs, broader adoption of strict compiler flags.
+  - Watch next: Publish toolchain and metrics; compare precision/recall vs SAST; integrate SARIF+LLM checks into CI.

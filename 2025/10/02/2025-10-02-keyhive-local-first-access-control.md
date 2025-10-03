@@ -1,17 +1,16 @@
 # Keyhive – Local-first access control
 
-- Score: 158 | [HN](https://news.ycombinator.com/item?id=45445114) | Link: https://www.inkandswitch.com/keyhive/notebook/
+- Score: 160 | [HN](https://news.ycombinator.com/item?id=45445114) | Link: https://www.inkandswitch.com/keyhive/notebook/
 
 - TL;DR
-  - Keyhive proposes local-first access control via decentralized group keys (BeeKEM, a TreeKEM/MLS offshoot). Some are testing it for distributed chat. Others argue OAuth2/SSH already allow offline validation, so “central hot path” claims are overstated; the real shift is moving trust/issuance away from an IdP. Ink & Switch’s local-first ethos drew praise; minor naming/UI nitpicks surfaced.
-  - Content unavailable; summarizing from title/comments.
+  - Ink & Switch’s Keyhive aims to bring cloud-like access control to local-first/CRDT apps without a central server. It layers convergent capabilities (delegation), a group-management CRDT, and E2EE with causal keys. BeeKEM, a causally ordered TreeKEM variant, provides group key rotation with typical O(log n) cost, handling revocation and concurrent updates via blanking and conflict keys; worst cases degrade to linear. Pre‑alpha Rust/WASM libraries are open. HN discussed cloud-auth comparisons, shared BeeKEM resources, and praised the research-driven approach.
 
 - Comment pulse
-  - BeeKEM explainer → details mechanics and how it diverges from TreeKEM/MLS for decentralized group management.
-  - OAuth2/SSH enable offline verification → not all requests hit central auth — counterpoint: issuance/trust still centralized in IdP, unlike local-first goals.
-  - Minor distractions → name confused with Windows registry; tilted callout/underlining irked readers.
+  - Cloud auth not always a hot-path DB → bearer tokens enable offline validation; still central guardianship, not local-first — counterpoint: authors emphasize data-local enforcement.
+  - BeeKEM explainer aids adoption → external deep dive clarified conflict-keys and concurrency for teams evaluating Keyhive in distributed chat.
+  - Ink & Switch praised → research-first, local-first ethos appeals; some nitpicks on site UI tilt/underlines.
 
 - LLM perspective
-  - View: Shifts from server-issued tokens to group state; revocation, churn, and auditing become first-class design problems.
-  - Impact: Best for peer-to-peer or offline-friendly apps; lowers ops reliance but increases client-side crypto and rotation duties.
-  - Watch next: Churn benchmarks, BeeKEM security proofs, MLS interop plans, and migration guides from OAuth2/SSH to group models.
+  - View: Local-first ACL needs CRDT-aware capabilities plus decentralized CGKA; Keyhive’s layering is a sane, pragmatic path.
+  - Impact: If it holds, sync servers become interchangeable relays; enterprises get offline-ready E2EE docs with revocation and large-group support.
+  - Watch next: Benchmarks under churn, worst-case conflict/blank stress; formal BeeKEM proofs; security audits; developer ergonomics for policy modeling and key recovery.

@@ -1,17 +1,16 @@
 # N8n added native persistent storage with DataTables
 
-- Score: 127 | [HN](https://news.ycombinator.com/item?id=45450044) | Link: https://community.n8n.io/t/data-tables-are-here/192256
+- Score: 151 | [HN](https://news.ycombinator.com/item?id=45450044) | Link: https://community.n8n.io/t/data-tables-are-here/192256
 
-- TL;DR
-    - n8n added DataTables, a native persistent store, closing a long‑standing gap that forced users to hack state via blobs or external DBs. Commenters welcome the feature but note Node‑RED has had multi‑scope state for years. The thread is dominated by licensing anxiety: fear of VC‑driven feature gating and price hikes, citing MinIO/Taipy, with some users already migrating to Node‑RED and other OSS tools. Others argue visual workflow builders breed spaghetti and custom connectors, suggesting code‑first/agent systems—yet n8n’s turnkey OAuth remains a draw.
-    - Content unavailable; summarizing from title/comments.
+TL;DR
+- n8n added Data Tables (beta) in v1.113: native persistent storage to keep state across workflow runs, dedupe executions, store prompts, and log AI evaluations. There’s a per‑instance cap (adjustable when self‑hosting). The initial release was briefly pulled over a SQLite slowdown, then re‑issued as 1.113.1 (beta) for cloud and self‑host. Early feedback notes missing schema controls (unique/primary keys, type edits), limited table UI, and number formatting quirks. HN responses mix enthusiasm with licensing distrust and comparisons to Node‑RED/Windmill.
 
-- Comment pulse
-    - Licensing skepticism → VC-backed OSS drifts to feature gating, steep pricing; MinIO/Taipy cited; expect n8n’s shoe to drop — counterpoint: reasonable pricing might retain users.
-    - State finally built-in → DataTables addresses long-missing persistence; users hacked JSON blobs before; Node‑RED already offers global/flow/node scopes; n8n’s popularity rising.
-    - Visual workflows vs code → Teams report spaghetti flows and custom connectors; others prefer agents or raw code; LangChain/LangGraph criticized for boilerplate; n8n’s OAuth praised.
+Comment pulse
+- Licensing risk → VC-backed OSS locks features; users cite MinIO, expect paywalls, move to Node‑RED/Windmill/AutoKitteh — counterpoint: this ships to all plans; self‑host OK.
+- Fills a gap → Native state avoids JSON blobs and ad‑hoc DBs; Node‑RED noted for richer global/flow/node state options.
+- Platform vs code → Visual flows can become spaghetti; connectors lacking; some prefer code. Others like n8n’s OAuth coverage and quick webhooks.
 
-- LLM perspective
-    - View: Native tables fix a core gap but don’t resolve platform risk; portability and exportability matter as licensing clouds grow.
-    - Impact: SMBs and hobbyists gain simpler state; enterprises may delay adoption pending licensing clarity; open, code-first alternatives get renewed interest.
-    - Watch next: Watch for data size/cap limits, transactional guarantees, export/migration tools, and transparent pricing; benchmark against Node‑RED’s state performance and reliability.
+LLM perspective
+- View: Built‑in tables reduce glue code for LLM pipelines: prompt catalogs, run logs, dedupe state, simple caches.
+- Impact: Good for lightweight state and evaluation logs; complex pipelines should still rely on dedicated databases and queueing.
+- Watch next: Benchmarks under concurrent load; clear multi-worker semantics; programmatic schema management; roadmap on licensing and GA timeline.
