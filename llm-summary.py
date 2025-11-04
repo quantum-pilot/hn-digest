@@ -321,6 +321,10 @@ def _process_day(utc_yday: str, stories: List[Dict[str, Any]]):
     cleaned = {}
     for s in stories:
         url = s.get("url")
+        title = s["title"]
+        if re.search("ask hn: who is hiring", title.lower()):
+            logging.info(f"Skipping hiring post: {title} ({s['id']})")
+            continue
         if url:
             u = urlparse(url)
             if (u.netloc, u.path) in cleaned:
@@ -340,9 +344,6 @@ def _process_day(utc_yday: str, stories: List[Dict[str, Any]]):
         title = s["title"]
         url = s.get("url")
         score = s["score"]
-        if re.search("ask hn: who is hiring", title.lower()):
-            logging.info(f"Skipping hiring post: {title} ({sid})")
-            continue
         logging.info(f"Processing {i + 1}/{len(stories)}: {title} ({sid})")
         filename = f"{utc_yday}-{(slugify(title)[:50] if url else sid)}.md"
         _, filepath, exists = _working_path(filename)
