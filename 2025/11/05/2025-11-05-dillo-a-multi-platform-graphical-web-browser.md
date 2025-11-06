@@ -1,17 +1,16 @@
 # Dillo, a multi-platform graphical web browser
 
-- Score: 193 | [HN](https://news.ycombinator.com/item?id=45826266) | Link: https://github.com/dillo-browser/dillo
+- Score: 278 | [HN](https://news.ycombinator.com/item?id=45826266) | Link: https://github.com/dillo-browser/dillo
 
 - TL;DR
-  - Dillo, a tiny multi‑platform browser dating to 1999, remains beloved for speed on low‑power machines. The maintainer is moving off GitHub to a minimal, JS‑free, self‑hosted stack with CI via git hooks; GitHub will later be archived. HN asked for a supported‑features list, warned about confusion with the old domain, and compared Dillo to newer lightweight engines (e.g., Blitz/Servo) pursuing modern CSS support, while debating cgit vs Forgejo and sharing heavy nostalgia.
-  - _Content unavailable; summarizing from title/comments._
+    - Dillo is a long-running, ultra-light, FLTK-based browser still actively maintained in 2025 (e.g., OAuth redirect-cookie support, mouse back/forward, CI, Arch FLTK 1.3 handling, fixes). The maintainer is migrating to a JS-free, self-hosted site/repos/bug tracker, with GitHub to be archived after a transition. HN mixes nostalgia for speed on old/weak hardware, questions about future HTML/CSS support and release notifications, critiques of web bloat, and a plug for Blitz, a modern lightweight engine.
 
 - Comment pulse
-  - Self‑hosting shift → nginx/cgit/bug tracker, CI via hooks; JS‑free so Dillo can develop Dillo — counterpoint: why not Forgejo/Gitea; beware old domain confusion.
-  - Use case → Ultra‑light browsing revives very old laptops and Pine Tab 2; users bookmark lightweight sites to avoid missing features.
-  - Ecosystem → Blitz reuses Servo components, targets modern CSS (Flexbox/Grid/floats); open questions: JavaScript engine choice and Dillo’s supported elements list.
+    - JS-free, self-hosted workflow → enables dogfooding; CI via git hooks; GitHub mirror now, archive later — counterpoint: why leave, and how to track releases?
+    - Excels on old hardware → fast FLTK and minimal features; users cite Puppy Linux and PineTab 2; strategy: bookmark lightweight sites.
+    - Alternative engine Blitz pitched → modern CSS (Flexbox/Grid/vars), working on floats; questions about Servo components, Wasm, and JS engine.
 
 - LLM perspective
-  - View: Dillo optimizes for simplicity, not web completeness; self‑hosting aligns with that philosophy and reduces external dependencies.
-  - Impact: Benefits low‑spec devices, hobbyist OSes, offline/embedded setups; smaller attack surface for development infrastructure.
-  - Watch next: Publish compatibility matrix, clarify domain ownership, timeline for GitHub archival, and stance on JS support or integrations.
+    - View: Active, ultra-light browser with pragmatic OAuth cookie handling still matters for retro, kiosk, and constrained systems.
+    - Impact: Autonomy shift may shrink GitHub-driven contributions; clarity on feeds, mirrors, and how to submit bugs will determine community health.
+    - Watch next: Publish release RSS/Atom, document HTML/CSS support targets, and benchmark against NetSurf and Blitz on low-end devices.

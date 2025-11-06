@@ -1,17 +1,16 @@
 # Radiant Computer
 
-- Score: 170 | [HN](https://news.ycombinator.com/item?id=45822559) | Link: https://radiant.computer
+- Score: 189 | [HN](https://news.ycombinator.com/item?id=45822559) | Link: https://radiant.computer
 
 - TL;DR
-  - Radiant Computer pitches an AI‑native OS that treats your machine as an interlinked personal knowledge base. Models run locally; the system understands apps and can compose features automatically. It targets RISC‑V with a new systems language (Radiance). HN liked the clean‑slate ambition and non‑Linux direction, but questioned AI‑centric framing, a glossy site with few deliverables, and vaporware risk. The team emphasized practical evolution, capability‑based privacy, and Go/STM‑inspired concurrency—reviving “semantic OS” ideas without extreme hardware leaps.
-  - Content unavailable; summarizing from title/comments.
+  - Radiant pitches a clean-slate, open personal computer: offline-first, no web browser, its own simple network, everything is readable/editable code, and AI runs locally to assist. HN likes the autonomy-first vision and fresh OS ideas, but many balk at “AI‑native” as mission drift, question first‑principles rhetoric, and see glossy promises without shipping artifacts. Discussion probed the new Radiance language (RISC‑V target), concurrency models, and capability security. Supporters urge incremental practicality; skeptics cite BeOS/Itanium‑style caution and the long history of unfulfilled “fix computing” projects.
 
 - Comment pulse
-  - AI-native “semantic OS” could make assistants useful → system context and local models beat bolt‑ons — counterpoint: many don’t want AI; smells like hype.
-  - Skepticism about vaporware → glossy site, vast scope (OS, language, hardware) and little code shipped; yearly “fix computing” pattern erodes trust.
-  - Clean‑slate vs practicality → radical hardware excites, but scaling, topology costs, and BeOS/Itanium history argue for incremental, shippable designs.
+  - AI-native OS conflicts with minimal, privacy-first goals → seems like LLM bolted on without need — counterpoint: on-device models with capability security could genuinely help.
+  - Clean-slate hardware/software should be radical → exotic architectures proposed; critics note impracticality, quadratic interconnect costs, Amdahl’s law, and history of hard-to-program MIMD.
+  - Execution doubts → glossy site, custom Radiance language targeting RISC‑V, few deliverables; some fear vaporware — counterpoint: author promises practical, incremental steps and local-first constraints.
 
 - LLM perspective
-  - View: OS-level knowledge graph plus local models is promising; narrow scope and shipping prototypes matter more than manifestos.
-  - Impact: If real, changes app design toward structured capabilities, agent-friendly interfaces, and private-by-default personalization.
-  - Watch next: Public repos, runnable demos, local model perf on consumer hardware, capability sandbox details, Radiance concurrency primitives.
+  - View: Vision is compelling if AI remains optional, private by default, and explained as UX plumbing, not centerpiece.
+  - Impact: Could seed a hackable, distraction-free PC niche; biggest beneficiaries are developers, educators, and privacy-minded tinkerers.
+  - Watch next: Publish repos, bootable demo, compiler toolchain; quantify on-device inference speed/privacy; specify network protocol and capability model with examples.

@@ -1,17 +1,16 @@
 # Hypothesis: Property-Based Testing for Python
 
-- Score: 217 | [HN](https://news.ycombinator.com/item?id=45818562) | Link: https://hypothesis.readthedocs.io/en/latest/
+- Score: 223 | [HN](https://news.ycombinator.com/item?id=45818562) | Link: https://hypothesis.readthedocs.io/en/latest/
 
 - TL;DR
-  - Hypothesis brings property-based testing to Python: you describe invariants and it generates inputs to break them, then shrinks failures to minimal counterexamples. Commenters report it surfacing rare edge cases and boosting confidence after large randomized runs. Practical guidance: test properties (sortedness, idempotence, round-trips) instead of needing an oracle; compare against a simple reference when you have one. Manage adoption friction by seeding for reproducibility, limiting per-PR runtime, running long fuzzing nightly, and promoting found counterexamples to deterministic regression tests.
-  - Content unavailable; summarizing from title/comments.
+    - Hypothesis is a Python library for property-based testing: you state invariants, and it generates diverse (often nasty) inputs to try to break them. The discussion praises how PBT exposes rare edge cases, shares pragmatic patterns (roundtrips, idempotency, model-vs-optimized checks), and notes adoption hurdles around “non-deterministic tests.” Performance concerns are manageable by scoping runs and promoting found counterexamples to deterministic regression tests. Tools like Schemathesis (APIs) and Approval Tests help apply PBT to legacy or spec-driven contexts.
 
 - Comment pulse
-  - PBT finds hidden bugs → random data and shrinking expose edge cases; overnight runs build confidence — counterpoint: bound runtime with seeds, time limits, subsets.
-  - Properties over oracles → check invariants (sortedness, length, multiset equality), metamorphic laws (idempotence, symmetry, triangle inequality), or round-trips; use simple reference implementations when feasible.
-  - Adoption tips → start with 'doesn’t crash' and round-trips; lift failures to regression tests; tools: Schemathesis for APIs, Approval Tests for legacy snapshots.
+    - PBT finds “unknown unknowns” → random inputs exposed 25th-item and negative-sqrt bugs; overnight runs built confidence via millions of trials.
+    - Nondeterminism/perf are tractable → run subsets locally, long runs in CI; teammates resist randomness — counterpoint: codify counterexamples as deterministic regression tests.
+    - No oracle required → assert properties (sortedness, multiplicity, idempotency, roundtrips) or compare to a slow model; Schemathesis/Approval Tests extend to APIs/legacy.
 
 - LLM perspective
-  - View: Treat Hypothesis as fuzzing with assertions; focus on invariants and round-trips, not full input DSLs.
-  - Impact: Faster defect discovery, clearer input contracts; needs seeded runs, per-PR limits, and nightly long fuzzing.
-  - Watch next: Hypothesis shrinker improvements, Schemathesis CI patterns, documented team policy for stochastic tests and promoting counterexamples to deterministic cases.
+    - View: Start with simple properties on existing unit tests; expand strategies as understanding matures.
+    - Impact: More robust boundaries and clearer input contracts; faster discovery of third‑party and legacy defects.
+    - Watch next: CI seeds and failure replay, API schema fuzzing coverage, property libraries for common domains.

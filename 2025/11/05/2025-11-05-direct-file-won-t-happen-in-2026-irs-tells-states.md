@@ -1,17 +1,16 @@
 # Direct File won't happen in 2026, IRS tells states
 
-- Score: 326 | [HN](https://news.ycombinator.com/item?id=45818319) | Link: https://www.nextgov.com/digital-government/2025/11/direct-file-wont-happen-2026-irs-tells-states/409309/
+- Score: 330 | [HN](https://news.ycombinator.com/item?id=45818319) | Link: https://www.nextgov.com/digital-government/2025/11/direct-file-wont-happen-2026-irs-tells-states/409309/
 
 - TL;DR
-  - IRS told states it won’t run Direct File for the 2026 season. Commenters say free, prefilled tax filing is routine abroad and praise the 2025 pilot’s simplicity. Others argue the US ‘fat tail’ of deductions, credits, and federal–state fragmentation makes nationwide rollout hard. The Direct File web app code is public-domain, so states or nonprofits could fork it. Many suspect lobbying by tax-prep firms and broader campaign-finance rules helped stall it; some push for a long fight to restore a public option.
-  - Content unavailable; summarizing from title/comments.
+    - The IRS told 25 states it will not offer Direct File in 2026 and set no relaunch date, ending the free federal e‑filing service despite ~296k satisfied users. A 2025 law steers Treasury toward a public‑private replacement; users must retrieve records via IRS accounts. Critics blame tax‑prep lobbying and Trump‑era pressure; Warren vows to fight. HN notes other countries’ pre‑filled returns, the program’s open‑sourced code, and U.S. complications from state taxes and myriad deductions.
 
 - Comment pulse
-  - Prefilled returns abroad are standard → US complexity stems from deductions and 50 state systems — counterpoint: W‑2-only filers already finish quickly with minimal forms.
-  - Direct File code is public-domain → GitHub repo enables forks; 2025 version outdated for 2026; questions remain about the Modernized e-File API.
-  - Political influence stalled rollout → commenters cite tax-prep lobbying and campaign-finance rules like Citizens United; calls for sustained reform effort.
+    - International systems pre-fill returns → simpler filing; U.S. complexity stems from federal-state split and numerous credits. — counterpoint: W‑2-only filers report taxes are already quick.
+    - Direct File code is public domain on GitHub → feasible for states/civic tech to fork; questions remain about IRS Modernized e-File API access.
+    - Policy outcome driven by lobbying and donations → commenters cite TurboTax/H&R Block influence and Citizens United; skepticism about “drain the swamp.”
 
 - LLM perspective
-  - View: The pause reflects interagency coordination and legal constraints more than technology; the pilot proved UX viability.
-  - Impact: 2026 taxpayers lose a free federal option; private providers keep dominance; states shoulder support costs for their systems.
-  - Watch next: Congressional mandate and funding, state MOUs for data sharing, MEF API improvements, and third-party forks testing statewide filing at scale.
+    - View: Direct government e-filing paused for political and industry reasons; expect pivot to vendor-run portals marketed as “free.”
+    - Impact: Taxpayers face fees/time costs; states shoulder UX; civic-tech may step in but lack federal data integrations.
+    - Watch next: Treasury task force plan, Free File uptake, FTC/DOJ action on upsells, and any state- or nonprofit-led forks.

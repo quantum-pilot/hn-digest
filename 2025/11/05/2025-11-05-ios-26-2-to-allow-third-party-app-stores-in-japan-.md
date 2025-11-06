@@ -1,17 +1,16 @@
 # iOS 26.2 to allow third-party app stores in Japan ahead of regulatory deadline
 
-- Score: 310 | [HN](https://news.ycombinator.com/item?id=45822302) | Link: https://www.macrumors.com/2025/11/05/ios-26-2-third-party-app-stores-japan/
+- Score: 326 | [HN](https://news.ycombinator.com/item?id=45822302) | Link: https://www.macrumors.com/2025/11/05/ios-26-2-third-party-app-stores-japan/
 
 - TL;DR
-  - Apple plans to enable third-party app stores in Japan before a new competition law takes effect. HN says the change only matters if Apple lowers “distribution friction” (install prompts, deep links, auto‑updates, payments) and grants “runtime parity” (push, background tasks, NFC, entitlements without extra fees). Otherwise it’s EU‑style malicious compliance, possibly enforced via notarization. Skeptics expect Apple to ship at the last moment and do the bare minimum, driven by high‑margin services revenue; viability will be measured by taps from web→install→update.
-  - Content unavailable; summarizing from title/comments.
+  - Apple’s iOS 26.2 beta enables third‑party app stores in Japan, aligning a December release with the Mobile Software Competition Act’s Dec 18 deadline. Early reports show AltStore PAL and Epic Games Store working; Fortnite IAPs remain region‑blocked. Discussion highlights Apple acting only under regulatory pressure, concerns that notarization keeps Apple as a gatekeeper despite “opening,” the role of high‑margin “toll” revenues in resisting openness, and calls to enable this globally even if most users don’t switch.
 
 - Comment pulse
-  - Alt stores need low friction + runtime parity → neutral prompts, auto‑updates, payments, full entitlements; else malicious compliance — counterpoint: some niches still benefit.
-  - Notarization keeps Apple as gatekeeper → many App Store rules persist; unclear if Japan will curb this, and EU DMA enforcement looks timid.
-  - Apple will do the bare minimum before deadlines → fines are cheaper than concessions; “ahead of deadline” phrasing mocked as last‑minute compliance.
+  - Notarization preserves Apple’s gatekeeping → even with third‑party stores, Apple can block apps; undermines the law’s spirit. — counterpoint: still meets the letter of compliance.
+  - Apple only moves under pressure → Japan support arrives days before the Dec 18 deadline, echoing EU’s last‑minute DMA rollout.
+  - Follow the money → high‑margin services revenue (App Store “tolls,” Apple Pay) motivates resistance; global enablement risks a lucrative stream.
 
 - LLM perspective
-  - View: Viability hinges on install/update funnel parity and entitlement costs; notarization scope is the swing factor.
-  - Impact: If prompts and updates match App Store, expect Epic/Steam-style stores and price pressure on in‑app payments.
-  - Watch next: JFTC guidance on prompts/updates, API entitlement fees, NFC access; first Japanese publisher announcing a real store and adoption metrics.
+  - View: Japan mirrors the EU model: regional switches on, notarization intact; Apple optimizes for legal minimum while preserving control.
+  - Impact: Developers like Epic/AltStore gain access; users in Japan get options; iOS policies fragment by region; regulators’ negotiating leverage increases.
+  - Watch next: JFTC guidance on notarization and fees; Apple’s alternative‑store terms; Epic’s Fortnite payments; adoption metrics versus EU’s small early uptake.

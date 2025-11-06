@@ -1,15 +1,16 @@
 # The shadows lurking in the equations
 
-- Score: 247 | [HN](https://news.ycombinator.com/item?id=45823141) | Link: https://gods.art/articles/equation_shadows.html
+- Score: 265 | [HN](https://news.ycombinator.com/item?id=45823141) | Link: https://gods.art/articles/equation_shadows.html
 
-- TL;DR
-    - A site showcases “fuzzy graphs”: color-coding how much an equation F(x,y)=0 is violated (z=|F(x,y)|), highlighting near-solutions and gradients. HN argues it’s a decades-old heatmap/error-surface idea; examples map to standard 3D surfaces and are reproducible in Desmos/CalcPlot3D, with sign-aware plots often better than absolute value. The author concedes overhyped novelty but defends pedagogical value. Commenters note it also surfaces flat valleys and identifiability issues known in optimization.
-    - _Content unavailable; summarizing from title/comments._
-- Comment pulse
-    - This is a |F(x,y)| heatmap/3D plot; decades-old. Desmos reproduces examples; drop abs to show sign; surfaces like hyperbolic paraboloid reappear.
-    - Not a “graph of the equation,” just a visualization transform; binary equality slice vs continuous error field — counterpoint: framing helps beginners see near-solutions/structure.
-    - Shows error gradients and flat valleys; useful to explain optimization behaviour, unidentifiable models, and failure with noise on too-flat error surfaces.
-- LLM perspective
-    - View: Call it error-surface or level-set visualization; drop “new graphing” claims and emphasize pedagogy and intuition.
-    - Impact: Teachers, ML/control engineers, and graphing tools could add near-solution overlays and sign-aware colormaps.
-    - Watch next: Side-by-side with Desmos; benchmarks on learning gains; noise-aware rendering; performance on dense grids.
+TL;DR
+- The piece promotes “FuzzyGraph,” which colors the residual of an equation (how far LHS and RHS differ) to reveal hidden structure: singularity “black holes,” “shadow lines” from divided constraints, and “underwater islands” indicating near‑solutions that surface after small parameter changes. HN notes this is a residual heatmap (or 3D surface colored in 2D), long‑known in math/optimization, but agrees it’s a clean, didactic framing that surfaces gradients and near‑solutions well. The author concedes the intro oversold novelty and positions it as an alternate visualization.
+
+Comment pulse
+- Not new: it's a residual heatmap z=|F(x,y)|; replicate in Desmos/CalcPlot3D; Example 4 is a hyperbolic paraboloid; sign-aware plots capture symmetry better.
+- Useful for intuition: reveals near-solutions and gradient shape; good pedagogy; author softens hype, frames as alternative view — counterpoint: calling it 'new graphing' misleads.
+- Mathematical caveat: some equations reduce (cancel denominators), so "shadows" are artifacts; optimization view: flat error valleys imply unidentifiability under noise.
+
+LLM perspective
+- View: Residual heatmaps unify implicit curves and optimization landscapes; toggling signed vs absolute residual clarifies structure and symmetry.
+- Impact: Educators, numerical methods courses, and model-fitting practitioners gain a quick intuition aid without 3D navigation friction.
+- Watch next: Open-source the renderer; add contours, gradient arrows, and noise simulations; compare against standard level-set/contour plots on benchmark equations.

@@ -1,17 +1,16 @@
 # Norway reviews cybersecurity after remote-access feature found in Chinese buses
 
-- Score: 302 | [HN](https://news.ycombinator.com/item?id=45824658) | Link: https://scandasia.com/norway-reviews-cybersecurity-after-hidden-remote-access-feature-found-in-chinese-buses/
+- Score: 342 | [HN](https://news.ycombinator.com/item?id=45824658) | Link: https://scandasia.com/norway-reviews-cybersecurity-after-hidden-remote-access-feature-found-in-chinese-buses/
 
 - TL;DR
-  - Norway is reassessing bus cybersecurity after discovering cellular remote-access in Chinese-made buses, prompting debate over backdoors versus standard fleet telematics. Some argue state-backed Chinese firms undercut to gain strategic leverage and IP, while others note the features were documented, disableable, and likely used with EEA-roaming SIMs. Procurement choices drew criticism—Norway skipped Scandinavian brands as Sweden buys BYD—underscoring cost, security, and dependency trade-offs.
-  - Content unavailable; summarizing from title/comments.
+    - Norway’s Ruter found Romanian SIMs in Yutong e-buses enabling potential remote access; SIMs were removed and procurement/network/cloud controls tightened. The transport ministry will reassess suppliers outside security alliances. No misuse is known, but ~850 Yutong buses in Norway highlight reliance on foreign-connected fleets. HN splits between “normal telematics, overblown into geopolitics” and “real strategic risk,” citing rail precedents, China’s state-backed scale, and wartime logistics implications—alongside practical notes that European makers also ship buses with SIMs.
 
 - Comment pulse
-  - Chinese state-backed firms undercut to gain rail/bus footholds → strategic control and IP capture; EU blocked a defensive merger — counterpoint: it risked EU monopoly.
-  - Norway bypassed nearby Scania/Volvo → cost wins; even Swedish regions buy BYD. Western buses also ship with SIMs—risk depends on who could control remote access.
-  - SIMs likely support fleet management, not secret control → features were documented and disabled; Romanian SIMs plausible EEA roaming — counterpoint: some see anti-China FUD.
+    - SIMs are standard telematics, not backdoors → fleet management uses roaming SIMs; features were documented and disabled — counterpoint: remote control still expands attack surface.
+    - China’s state-backed scale creates strategic risk → rail giant undercuts bids, targets IP; EU blocked a protective merger, hampering Western alternatives.
+    - Why buy Chinese near Scania/Volvo? → lower cost and earlier EV maturity won tenders; European buses also ship with SIMs—concern shifts to who holds access.
 
 - LLM perspective
-  - View: Remote access is normal; risk hinges on control, transparency, and isolation of telematics from safety-critical systems.
-  - Impact: Tenders may demand local control of SIMs/servers, disable-by-default telemetry, and third‑party audits.
-  - Watch next: Norway’s audit scope, EU procurement guidance, and independent teardown results of BYD/Ebusco systems and SIM provisioning.
+    - View: Treat connected vehicles as critical infrastructure; use zero-trust, disable remote control by default, require transparent telematics paths.
+    - Impact: Procurement, regulators, and operators will add clauses, audits, and segmentation; vendors must offer on-prem control and provable remote-access off-switches.
+    - Watch next: National guidance on fleet telematics, SBOM/firmware escrow, eSIM registries, red-team audits, and contract penalties for undisclosed connectivity.

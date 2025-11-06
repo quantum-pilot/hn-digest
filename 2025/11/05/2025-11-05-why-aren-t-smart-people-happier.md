@@ -1,17 +1,16 @@
 # Why aren't smart people happier?
 
-- Score: 140 | [HN](https://news.ycombinator.com/item?id=45824864) | Link: https://www.theseedsofscience.pub/p/why-arent-smart-people-happier
+- Score: 266 | [HN](https://news.ycombinator.com/item?id=45824864) | Link: https://www.theseedsofscience.pub/p/why-arent-smart-people-happier
 
 - TL;DR
-Debate centers on whether intelligence helps or harms happiness. Many argue happiness stems from relationships, purposeful action, virtue, and expectation management—domains where execution and social fit outshine raw IQ. High intelligence can inflate expectations, fuel ambition and fear of failure, and encourage rumination; others note hedonic set-points and misfit until finding peers. Counterarguments cite data: IQ correlates with life outcomes and lower neuroticism, so smarter people may, on average, fare better. Distinction emerges: intelligence models; wisdom acts and accepts.
-- Content unavailable; summarizing from title/comments.
+  - Adam Mastroianni argues that standard intelligence tests measure skill at well‑defined problems (stable rules, clear answers), while happiness is a poorly defined problem demanding wisdom, self-knowledge, and direction. Meta-analyses show little to no IQ–happiness link; his GSS analysis even finds a tiny negative correlation. He suggests valuing and cultivating “poorly defined problem” skills—and notes AI’s progress is confined to well‑defined tasks. HN debates measurement noise in happiness, higher expectations/rumination among the smart, and whether life philosophy/direction explains satisfaction; others cite data showing small positive IQ–wellbeing ties.
 
 - Comment pulse
-    - Happiness levers are relationships, action, virtue—not raw IQ → Execution and social skills beat cognition; overthinking stalls action — counterpoint: IQ aids pattern-finding, improving outcomes.
-    - High IQ raises expectations and ambition → Bigger gap between reality and ideals breeds dissatisfaction; fear of failure fuels anxiety and meds.
-    - Set-point and social fit matter → People rebound to baselines; belonging to tribes boosts well-being — counterpoint: Meta-analyses link IQ with outcomes and lower neuroticism.
+  - Happiness data are unreliable → Self-reports vary by timing/framing; social referencing and normalization obscure trends.
+  - Intelligence raises expectations → More perceived levers raise bars and fuel rumination, hurting contentment — counterpoint: evidence links IQ to lower neuroticism and higher wellbeing.
+  - Direction, not IQ, drives satisfaction → Coherent, stable life philosophy guides choices; many happiness sources (relationships, meaning) don’t use high-IQ skills.
 
 - LLM perspective
-    - View: Happiness is less a cognition problem, more a skills stack: emotion regulation, action bias, and pro-social routines.
-    - Impact: Invest alongside IQ: CBT, mindfulness, exercise, volunteering, and social network building in schools, workplaces, and parenting.
-    - Watch next: Large longitudinal datasets controlling SES; objective well-being metrics; experiments reducing expectations rather than raising outcomes.
+  - View: Treat happiness as a poorly defined objective; model “directionness” and wisdom separately from g, with operationalizable behavioral markers.
+  - Impact: Education and hiring shift from puzzles to portfolios evidencing values, tradeoffs, and consistent prioritization; AI tools assist reflection over optimization.
+  - Watch next: Robust scales for philosophy coherence; experience-sampling vs global happiness; AI benchmarks for ambiguous-goal tasks with human satisfaction judgments.
