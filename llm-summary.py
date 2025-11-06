@@ -279,10 +279,17 @@ def _check_batch(ref_file: Path, batch_id: str):
         logging.info(f"Batch {batch_id} pending: {batch}")
         return
 
+    errorred = []
     if batch.get("error_file_id"):
-        logging.error(f"Batch {batch_id} failed: {batch}")
+        logging.error(f"Batch {batch_id} has errors: {batch}")
         output = _fetch_file(batch["error_file_id"])
-        logging.error(f"Batch error output:\n{output}")
+        for line in output.splitlines():
+            entry = json.loads(line)
+            filename = entry["custom_id"]
+            errorred.append(filename)
+
+    if errorred == STORIES_PER_DAY:
+        logging.error(f"All items in batch {batch_id} failed, skipping.")
         return
 
     logging.info(f"Batch completed successfully: {batch}")
@@ -309,6 +316,17 @@ def _check_batch(ref_file: Path, batch_id: str):
     os.remove(ref_file)
     os.system(f"git commit -m '{ref_file.name[:10]}'")
     os.system("git push origin master")
+
+    items = []
+    for filename in errorred:
+        _, filepath, _ = _working_path(filename)
+        raw_text = filepath[:-3] + ".txt"
+        with open(raw_text, "r", encoding="utf-8") as f:
+            items.append((filename, f.read()))
+    if items:
+        logging.info(f"Resubmitting {len(items)} errored items from batch {batch_id}...")
+        new_batch_id = submit_batch_summaries(items, items[0][0][:10])
+        ref_file.write_text(new_batch_id)
 
 
 def _process_day(utc_yday: str, stories: List[Dict[str, Any]]):
