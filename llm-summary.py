@@ -44,6 +44,16 @@ with open("SYSTEM_PROMPT.md") as f:
     SYSTEM_PROMPT = f.read().strip()
 
 
+def notify(msg: str):
+    resp = HTTP.post(
+        f"http://{os.environ['APPRISE_HOST']}/notify/{os.environ['APPRISE_HN_NOTIFY_KEY']}",
+        data={"body": msg, "tags": "all"},
+        timeout=READ_TIMEOUT,
+    )
+    if resp.status_code != 200:
+        logging.error(f"Notification failed: {resp.status_code} {resp.text[:CLIP_ERROR_CONTENT]}")
+
+
 def _aggregated_stories() -> Dict[str, Any]:
     rr = HTTP.get(
         f"https://api.hcker.news/api/timeline?page={FORCE_PAGE}&sort_by=score&filter=top20&limit=500",
@@ -289,7 +299,7 @@ def _check_batch(ref_file: Path, batch_id: str):
             errorred.append(filename)
 
     if errorred == STORIES_PER_DAY:
-        logging.error(f"All items in batch {batch_id} failed, skipping.")
+        notify(f"All items in batch `{batch_id}` failed, needs review.")
         return
 
     logging.info(f"Batch completed successfully: {batch}")
@@ -316,6 +326,7 @@ def _check_batch(ref_file: Path, batch_id: str):
     os.remove(ref_file)
     os.system(f"git commit -m '{ref_file.name[:10]}'")
     os.system("git push origin master")
+    notify(f"Digest ready: https://github.com/quantum-pilot/hn-digest/tree/master/{ref_file.parent}")
 
     items = []
     for filename in errorred:
@@ -324,7 +335,7 @@ def _check_batch(ref_file: Path, batch_id: str):
         with open(raw_text, "r", encoding="utf-8") as f:
             items.append((filename, f.read()))
     if items:
-        logging.info(f"Resubmitting {len(items)} errored items from batch {batch_id}...")
+        notify(f"Resubmitting {len(items)} errored items from batch `{batch_id}`...")
         new_batch_id = submit_batch_summaries(items, items[0][0][:10])
         ref_file.write_text(new_batch_id)
 
@@ -428,6 +439,7 @@ def _process_day(utc_yday: str, stories: List[Dict[str, Any]]):
 
     run_tag = utc_yday
     batch_id = submit_batch_summaries(items, run_tag)
+    notify(f"Batch `{batch_id}` submitted for {run_tag}.")
     with open(current_ref_file, "w") as f:
         f.write(batch_id)
 
