@@ -1,3 +1,7 @@
+# This week in 1988, Robert Morris unleashed his eponymous worm
+
+- Score: 436 | [HN](https://news.ycombinator.com/item?id=45812024) | Link: https://www.tomshardware.com/tech-industry/cyber-security/on-this-day-in-1988-the-morris-worm-slithered-out-and-sparked-a-new-era-in-cybersecurity-10-percent-of-the-internet-was-infected-within-24-hours
+
 - TL;DR
     - In November 1988, Robert Tappan Morris released a self-replicating worm exploiting sendmail and finger flaws on BSD Unix, overwhelming thousands of NSFNET hosts, forcing shutdowns and costly cleanups, and leading to a landmark CFAA conviction. The article frames it as a measurement experiment gone wrong; HN commenters dispute the “10% of the Internet” figure as a guess and stress the severe operational disruption. Others surface primary postmortems and note Morris’s later MIT role teaching distributed systems.
 

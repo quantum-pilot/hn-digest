@@ -1,3 +1,7 @@
+# Pg_lake: Postgres with Iceberg and data lake access
+
+- Score: 371 | [HN](https://news.ycombinator.com/item?id=45812606) | Link: https://github.com/Snowflake-Labs/pg_lake
+
 - TL;DR
   - pg_lake is a Postgres extension suite that turns PostgreSQL into a transactional lakehouse: create Apache Iceberg tables, query Parquet/CSV/JSON on S3, and COPY to/from object storage—all from SQL. It embeds DuckDB for fast execution while Postgres supplies transactions and catalog, enabling high‑rate OLTP writes and atomic moves into Iceberg. HN praises it as an “open‑source Snowflake,” compares it with DuckLake’s simpler stack, and asks for a managed option; maintainers emphasize Iceberg interoperability and Postgres‑native orchestration.
 

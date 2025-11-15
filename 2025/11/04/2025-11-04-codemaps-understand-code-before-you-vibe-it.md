@@ -1,3 +1,7 @@
+# Codemaps: Understand Code, Before You Vibe It
+
+- Score: 315 | [HN](https://news.ycombinator.com/item?id=45813767) | Link: https://cognition.ai/blog/codemaps
+
 - TL;DR
   - Cognition’s Windsurf adds Codemaps: task-scoped, AI-annotated maps that link explanations directly to exact lines across a codebase. You prompt a goal, pick Fast (SWE‑1.5) or Smart (Sonnet 4.5), get a clickable map or visual graph, expand “trace guides,” and even pass @{codemap} into agents for sharper execution. It aims to curb “vibe coding” by improving understanding, onboarding, and accountability. HN likes the UX and utility, while skeptics see old wine in new bottles; docs hiccup on Linux upgrade was quickly fixed.
 

@@ -285,13 +285,14 @@ def _check_batch(ref_file: Path, batch_id: str):
     rr.raise_for_status()
     batch = rr.json()
     status = batch.get("status")
-    if status != "completed":
+    if status not in ("completed", "expired"):
         logging.info(f"Batch {batch_id} pending: {batch}")
         return
 
+    notify(f"Batch for {ref_file.parent} {status}, processing results...")
     errorred = []
     if batch.get("error_file_id"):
-        logging.error(f"Batch {batch_id} has errors: {batch}")
+        notify(f"Batch for {ref_file.parent} has errors, checking...")
         output = _fetch_file(batch["error_file_id"])
         for line in output.splitlines():
             entry = json.loads(line)
@@ -299,19 +300,23 @@ def _check_batch(ref_file: Path, batch_id: str):
             errorred.append(filename)
 
     if errorred == STORIES_PER_DAY:
-        notify(f"All items in batch `{batch_id}` failed, needs review.")
+        notify(f"All items in batch failed for {ref_file.parent}, needs review.")
         return
 
-    logging.info(f"Batch completed successfully: {batch}")
     litellm_out = base64.b64decode(batch["output_file_id"]).decode("utf-8")
     out_file_id = list(
         filter(lambda s: s.startswith("llm_output_file_id,"), litellm_out.split(";"))
     )[0].split(",")[-1]
     assert out_file_id.startswith("file-"), f"Unexpected output file id: {out_file_id}"
 
+    must_exist_items = set()
+    for md_path in Path(ref_file.parent).rglob("*.md"):
+        must_exist_items.add(md_path.name)
+
     for line in _fetch_file(out_file_id).splitlines():
         entry = json.loads(line)
         filename = entry["custom_id"]
+        must_exist_items.remove(filename)
         _, filepath, exists = _working_path(filename)
         write_mode = "a" if exists else "w"
         if not exists:
@@ -326,16 +331,16 @@ def _check_batch(ref_file: Path, batch_id: str):
     os.remove(ref_file)
     os.system(f"git commit -m '{ref_file.name[:10]}'")
     os.system("git push origin master")
-    notify(f"Digest ready: https://github.com/quantum-pilot/hn-digest/tree/master/{ref_file.parent}")
+    notify(f"Digest ready for : https://github.com/quantum-pilot/hn-digest/tree/master/{ref_file.parent}")
 
     items = []
-    for filename in errorred:
+    for filename in errorred + list(must_exist_items):
         _, filepath, _ = _working_path(filename)
         raw_text = filepath[:-3] + ".txt"
         with open(raw_text, "r", encoding="utf-8") as f:
             items.append((filename, f.read()))
     if items:
-        notify(f"Resubmitting {len(items)} errored items from batch `{batch_id}`...")
+        notify(f"Resubmitting {len(items)} errored items from batch for {ref_file.parent}...")
         new_batch_id = submit_batch_summaries(items, items[0][0][:10])
         ref_file.write_text(new_batch_id)
 
@@ -437,9 +442,8 @@ def _process_day(utc_yday: str, stories: List[Dict[str, Any]]):
         logging.error(f"Ref file already exists: {current_ref_file}, skipping.")
         return
 
-    run_tag = utc_yday
-    batch_id = submit_batch_summaries(items, run_tag)
-    notify(f"Batch `{batch_id}` submitted for {run_tag}.")
+    notify(f"Submitting batch for {utc_yday}.")
+    batch_id = submit_batch_summaries(items, utc_yday)
     with open(current_ref_file, "w") as f:
         f.write(batch_id)
 
