@@ -331,7 +331,7 @@ def _check_batch(ref_file: Path, batch_id: str):
     os.remove(ref_file)
     os.system(f"git commit -m '{ref_file.name[:10]}'")
     os.system("git push origin master")
-    notify(f"Digest ready for : https://github.com/quantum-pilot/hn-digest/tree/master/{ref_file.parent}")
+    notify(f"Digest ready for {ref_file.parent}: https://github.com/quantum-pilot/hn-digest/tree/master/{ref_file.parent}")
 
     items = []
     for filename in errorred + list(must_exist_items):
