@@ -157,7 +157,7 @@ MCP_HOST = os.environ["MCP_HOST"]
 MCP_TOKEN = os.environ["MCP_TOKEN"]
 LITELLM_HOST = os.environ["LITELLM_HOST"]
 LITELLM_KEY = os.environ["LITELLM_KEY"]
-LITELLM_MODEL = "gpt-5-medium-4096"
+LITELLM_MODEL = "gpt-5.1-medium-4096"
 LITELLM_HEADERS = {"Authorization": f"Bearer {LITELLM_KEY}"}
 HTTP = _make_session()
 
