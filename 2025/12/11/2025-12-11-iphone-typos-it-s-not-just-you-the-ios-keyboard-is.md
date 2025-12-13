@@ -1,22 +1,17 @@
 # iPhone Typos? It's Not Just You – The iOS Keyboard Is Broken [video]
 
-- Score: 422 | [HN](https://news.ycombinator.com/item?id=46232528) | Link: https://www.youtube.com/watch?v=hksVvXONrIo
+- Score: 694 | [HN](https://news.ycombinator.com/item?id=46232528) | Link: https://www.youtube.com/watch?v=hksVvXONrIo
 
-### TL;DR
-HN users widely report that iPhone typing has gotten noticeably worse over the years, especially compared with early iOS, Android’s Gboard, and old Windows Phone keyboards. They blame crowdsourced language models, aggressive “look-behind” autocorrect that silently rewrites earlier words, poor handling of near-key typos, and confusing text-editing gestures. Some suspect Apple’s UI culture (hiding errors, overconfidence in “it just works”) and system-wide predictive layers, not just “slide to type.” Many now prefer speech input or miss third‑party keyboards.
+- TL;DR  
+  Many commenters report iOS typing has regressed: more neighbor-key typos, nonsensical autocorrect, stealth edits to earlier words, and infuriating cursor behavior. Older iPhones, 2007 iPod touch, Windows Phone, and Android’s Gboard are remembered as far more accurate. Theories include crowd-trained models overriding personal habits, slide-to-type key resizing, neglected support for small phones, and Apple’s reluctance to expose failure states. Workarounds—disabling slide-to-type, third‑party keyboards, voice input—help some, but many see a systemic design problem.  
+  *Content unavailable; summarizing from title/comments.*
 
-*Content unavailable; summarizing from title/comments.*
+- Comment pulse
+  - Typing feel regressed from 2007-era iPod and early iPhones → crowd-trained predictions, lookbehind correction, misaligned touchmaps, neighbor-key errors now override clear user intent.
+  - Swipe/slide and safety filters worsen UX: key-resizing guesses, blocked self-harm phrases, fragile editing that deletes words or inserts spaces.
+  - Broader gripe: Apple’s “just works” ethos hides failure; desynced UI states mirror keyboard/cursor glitches — counterpoint: others see it as mainly recent iOS regressions.
 
----
-
-### Comment pulse
-- Touch typing degraded over time → early iPhones felt precise; now adjacent-key errors and nonsensical replacements dominate, while older devices still feel accurate.  
-- Modern prediction harms usability → crowdsourced models and look-behind corrections override user intent, censor phrases, and make editing or fixing a single word disproportionately painful.  
-- System design is implicated → Apple hides failure, mixes multiple predictive systems, and “slide to type” key-resizing may worsen hit detection—counterpoint: several users disabled it and still see issues.
-
----
-
-### LLM perspective
-- View: This is a classic “ML overreach” problem: global models overriding local user intent without transparent controls or rollback.  
-- Impact: Heavy texters, multilingual users, and accessibility communities suffer most; they lose trust and switch to speech or rival platforms.  
-- Watch next: Demand for per-user tuning toggles, simpler editing gestures, on-device personalization benchmarks, and possibly renewed interest in third‑party keyboards on iOS.
+- LLM perspective
+  - View: Treat mobile keyboards as safety-critical UX; regressions should be measured with telemetry and opt-in A/B, not silent global switches.
+  - Impact: Persistent friction nudges users toward speech input and proprietary assistants, reinforcing lock-in more than people realize.
+  - Watch next: toggles for legacy autocorrect behavior, stronger per-user training, and explicit “no retroactive edits” modes on iOS and Android.

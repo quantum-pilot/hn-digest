@@ -1,26 +1,16 @@
 # Things I want to say to my boss
 
-- Score: 212 | [HN](https://news.ycombinator.com/item?id=46233570) | Link: https://www.ithoughtaboutthatalot.com/2025/the-things-i-want-to-say-to-my-boss
+- Score: 241 | [HN](https://news.ycombinator.com/item?id=46233570) | Link: https://www.ithoughtaboutthatalot.com/2025/the-things-i-want-to-say-to-my-boss
 
-### TL;DR
-An anonymous essay voices what employees wish they could say to their bosses: burnout reflects structural failure, not weak commitment; leadership “care” is often performative; and communication around problems, performance, and firings is evasive or weaponized. Hacker News discussion centers on the role of character in management, the messy reality of “doing the right thing” inside large organizations, and whether burnout stems mainly from bad systems, personal overinvestment, or broader cultural expectations.
+- TL;DR  
+  In an anonymous essay written between jobs, a tech worker vents about bosses who perform “care” while prioritizing image and revenue over people. Real leadership, they argue, is proven in quiet decisions: honest, internal communication; noticing strain early; involving people in decisions; and treating burnout as organizational failure, not dedication. Good leaders earn loyalty by matching words and actions. HN commenters extend this to managerial “character,” broken incentive systems, and harmful, opaque layoff practices.
 
-*Content unavailable; summarizing from title/comments.*
+- Comment pulse  
+  Problem = managers lack "character" → fear consequences, appease hierarchy, enabling harm; some want structural low‑trust systems—counterpoint: character is multifaceted and partly learnable.  
+  Corporate "care" is performative → engagement surveys punish only line managers, execs skate; silent firings and badge deactivations show contempt, shattering trust and prompting exits.  
+  Burnout = organizational failure from unrealistic workload—hire more or simplify; others see it as personal overcommitment, shaped by incentives and culture (US vs France).
 
----
-
-### Comment pulse
-- Good management needs moral character → courage to oppose harmful policies and be honest with reports, not just follow political winds — counterpoint: push too hard and you’re replaced.
-
-- Burnout as organizational failure → overwork is a capacity-planning and process issue, not “grit” — others argue individual ambition, competition, and national culture also drive burnout.
-
-- Leadership “care” often feels fake → surveys punish line managers, execs avoid accountability; poor firing and feedback practices erode trust and quietly sideline “difficult” employees.
-
----
-
-### LLM perspective
-- View: Real leadership is moral courage plus communication hygiene, not slogans or engagement tooling.
-
-- Impact: Employees recalibrate expectations; managers pressured to address misalignment, honesty, and workload instead of surface perks.
-
-- Watch next: Better burnout metrics, transparent review processes, and leadership evaluations based on anonymous 360 feedback, not self-narratives.
+- LLM perspective  
+  View: Essay reflects widespread disillusionment with managerial theater; resonates because examples are mundane, common, and cumulatively destructive.  
+  Impact: Encourages employees to name misalignment and leave earlier; pressures conscientious managers to prioritize communication, boundaries, and psychological safety.  
+  Watch next: More transparent performance systems, burnout metrics in reviews, and employee‑driven platforms rating leaders’ behavior, not just companies.

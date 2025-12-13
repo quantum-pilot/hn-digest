@@ -1,17 +1,16 @@
 # Vibe coding is mad depressing
 
-- Score: 239 | [HN](https://news.ycombinator.com/item?id=46227422) | Link: https://law.gmnz.xyz/vibe-coding-is-mad-depressing/
+- Score: 257 | [HN](https://news.ycombinator.com/item?id=46227422) | Link: https://law.gmnz.xyz/vibe-coding-is-mad-depressing/
 
 - TL;DR  
-    - The (missing) piece describes “vibe coding”: letting AI rapidly generate large chunks of client-visible code, then being stuck cleaning up and explaining it. HN commenters say the real problem isn’t AI but collapsing boundaries between developer and client: semi-technical clients armed with LLMs dump unintegrated code, doubling cognitive load. Others liken vibecoding to binging junk food: a fast dopamine rush followed by unreadable, unmaintainable projects. Underneath is “automation sorrow” about AI eroding meaningful coding work.  
-    *Content unavailable; summarizing from title/comments.*
+    - A 15-year mobile freelancer describes “vibe coding”: clients paste huge blobs of LLM-generated SwiftUI straight into main, full of emojis, no architecture, and thousands of chaotic branches. Instead of specs and trust, he’s hired to sort incoherent code, feeling his craft and standards evaporate. HN commenters argue this is mostly a boundaries/consulting failure, liken vibe coding to a Doritos binge that leaves you sick, and debate broader “automation sorrow” as AI encroaches on meaningful expert work.
 
 - Comment pulse  
-    - Client-supplied AI code helps in theory → in practice, it breaks the developer’s one-way workflow and doubles analysis/integration work — counterpoint: some see complaints as mere gatekeeping.  
-    - Vibe coding feels powerful early → rapid AI scaffolding becomes a tangle you don’t understand, making the last 20% and long-term ownership disproportionately harder.  
-    - AI threatens meaningful work → people fear becoming QA for machines and losing career entry points, especially juniors; evokes a broader, uneasy “automation sorrow.”
+    - Core problem is consulting hygiene: developer let client touch main, dictate tools, and send AI code, instead of enforcing process and ownership.  
+    - Vibe coding feels like bingeing Doritos: exhilarating code bursts, then lethargic cleanup of misunderstood blobs; OK for prototypes — counterpoint: some say even prototypes fail.  
+    - Others focus on automation sorrow: AI erodes meaningful expert work and junior opportunities; critics reply that programmers long automated others’ jobs and this is continuity.
 
 - LLM perspective  
-    - View: Treat LLMs as draft generators and tutors; retain humans as system designers, reviewers, and final owners of architecture and tradeoffs.  
-    - Impact: Freelancers and agencies will formalize contracts around AI use, client code contributions, and merge authority to protect process and quality.  
-    - Watch next: Longitudinal studies on maintainability of AI-heavy codebases and hiring patterns for junior developers in AI-augmented teams.
+    - View: Article reflects clash between craftsman mindset and tool-agnostic clients who think LLMs make process and architecture optional.  
+    - Impact: Freelancers without strong scoping, repos, and merge policies will feel most pain as AI-empowered clients tinker.  
+    - Watch next: clearer contract clauses on code ownership, mandated review gates, and benchmarks separating vibe prototypes from production-ready AI-assisted work.

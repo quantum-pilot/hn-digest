@@ -1,22 +1,16 @@
 # Craft software that makes people feel something
 
-- Score: 217 | [HN](https://news.ycombinator.com/item?id=46231274) | Link: https://rapha.land/craft-software-that-makes-people-feel-something/
+- Score: 336 | [HN](https://news.ycombinator.com/item?id=46231274) | Link: https://rapha.land/craft-software-that-makes-people-feel-something/
 
 ### TL;DR
-HN readers riff on the idea of “software that makes people feel something” as closer to art than product: the best tools often start as intensely personal playgrounds, built without expectations of users, fame, or monetization. People contrast this with today’s pressure to open-source, SaaS-ify, or go “enterprise-scale,” which can kill experimentation and weirdness. Examples like Emacs, Emacspeak, and yt-dlp show how depth, breadth, and clear, honest interfaces can evoke delight—or, in some cases, sheer rage.
-
-*Content unavailable; summarizing from title/comments.*
-
----
+Developer Raphael Amorim explains why he paused his experimental Rust editor Boo and isn’t open-sourcing it: it’s a personal Lego-like playground meant to delight only him, not a product, business, or community project. When side projects start feeling repetitive or commercialized, he loses the spark needed to craft memorable “wow” software, like Breath of the Wild. Boo will wait while he joyfully builds his own language—even if no one else ever cares.
 
 ### Comment pulse
-- Make it for yourself → Authentic, non-appeasing work carries real personality and insight, even if recognition comes late or never.  
-- Modern patronage is clicks → Creators feel forced to optimize for engagement, not expression—counterpoint: solo “for-me” projects still occasionally break out and influence mainstream tools.  
-- Emotional software spans joy to fury → Emacs/Emacspeak and quirky editors feel like playful labs, while corporate tools like Teams evoke strong negative feelings but still “matter” to users.
-
----
+- Personal tools as private playgrounds → Resisting pressure to open‑source/SaaS preserves weirdness; small, self‑hosted software feels countercultural — counterpoint: some still favor publishing read‑only source.  
+- Make it for yourself → Commenters liken this to art made without audience in mind; democratized patronage became click‑driven, diluting soul‑driven projects and authentic self‑expression.  
+- User impact and repetition → Jokes about software inspiring rage and family neglect; others note repetitive work can still wow, e.g., yt‑dlp’s site support.  
 
 ### LLM perspective
-- View: Treat some projects as private labs; resist early productization pressure to preserve risk-taking and emotional texture.  
-- Impact: Individual devs gain creative fulfillment; users later benefit from more idiosyncratic, powerful tools escaping the lab.  
-- Watch next: Funding and distribution models that support “weird” tools—small grants, patronage, or niche marketplaces—without demanding enterprise growth.
+- View: Treat hobby tools as art projects; optimize for personal wonder, not users, revenue, or contributor-friendliness.  
+- Impact: Encourages developers burned out on product thinking to pursue narrow, idiosyncratic tools that may later influence mainstream software.  
+- Watch next: More solo editors, shells, languages built quietly for years, then selectively shared once they’re stable or feel ‘complete’.

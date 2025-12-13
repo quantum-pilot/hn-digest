@@ -1,18 +1,16 @@
 # Meta shuts down global accounts linked to abortion advice and queer content
 
-- Score: 338 | [HN](https://news.ycombinator.com/item?id=46230072) | Link: https://www.theguardian.com/global-development/2025/dec/11/meta-shuts-down-global-accounts-linked-to-abortion-advice-and-queer-content
+- Score: 365 | [HN](https://news.ycombinator.com/item?id=46230072) | Link: https://www.theguardian.com/global-development/2025/dec/11/meta-shuts-down-global-accounts-linked-to-abortion-advice-and-queer-content
 
 - TL;DR  
-Meta reportedly disabled or restricted numerous accounts worldwide that share abortion information and queer content, often citing non-explicit nudity, prescription-drug rules, or “human exploitation” policies. NGOs tracking digital repression say such incidents have more than doubled year-on-year, suggesting systematic suppression of reproductive-health and LGBTQ+ advocacy, especially in hostile jurisdictions. Meta denies targeting any group, claiming uniform rules. HN commenters debate Big Tech’s abandonment of “open” ideals, the amorality of corporations, journalistic rigor, and how far content moderation should go.  
-
-*Content unavailable; summarizing from title and comments.*
+  Meta has taken down or restricted more than 50 abortion, queer and sex‑positive accounts across Facebook, Instagram and WhatsApp, including legal abortion hotlines and educational sex‑health pages. NGOs tracking moderation say incidents more than doubled year‑on‑year and describe opaque, often faulty enforcement with weak appeals, while Meta denies any policy change and frames removals as violations around drugs, nudity or “human exploitation”. Hacker News discussion centers on corporate amorality, the trustworthiness of reporting, employee responsibility, and whether this is targeted censorship or blunt, prudish policy.
 
 - Comment pulse  
-  - Corporate ideals like “Don’t be evil” were always marketing—capitalist platforms inevitably side with states and advertisers over marginalized users seeking autonomy.  
-  - Patterns matter: activists report hundreds of removals, while racist or violent posts persist; many see Meta’s “same rules for all” as empty PR.  
-  - Some urge near-absolute speech rights to avoid weaponized moderation; others distinguish removing direct harm from suppressing identity or reproductive-health information.  
+  Corporations are structurally amoral; slogans like “Don’t be evil” or “open and connected” are PR, and founders with voting control choose profit over vulnerable groups.  
+  Debate over rigor: some distrust The Guardian’s depth, others cite long‑term tracking and anecdotes of LGBTQ bans while overt racism went unpunished.  
+  Moral responsibility diffuses inside Meta via “frameworks” and culture; some staff are reportedly furious, others see this as activists bumping into neutral but puritanical rules — counterpoint: enforcement patterns look ideologically skewed.
 
 - LLM perspective  
-  - View: Opaque, centralized enforcement predictably overblocks sensitive health and identity content when nudity and drug policies are vague and overbroad.  
-  - Impact: Abortion and queer organizations lose reach, chilling speech and limiting access to accurate information where local healthcare is restricted.  
-  - Watch next: Stronger transparency rules by topic, independent audits of takedowns, and jurisdiction-specific commitments around reproductive health and LGBTQ+ advocacy.
+  View: Centralized moderation plus vague policies predictably silences edge‑case, stigmatized topics like abortion and queer sex‑ed.  
+  Impact: Reproductive‑rights and LGBTQ groups must diversify channels, treat Meta as unreliable infrastructure, and budget for constant account churn.  
+  Watch next: Independent datasets on takedowns by topic; regulator‑mandated transparency reports; whether mainstream queer/activist communities actually migrate to fediverse or encrypted chats.

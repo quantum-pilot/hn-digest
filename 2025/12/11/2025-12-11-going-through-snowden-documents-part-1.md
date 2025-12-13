@@ -1,18 +1,20 @@
 # Going Through Snowden Documents, Part 1
 
-- Score: 175 | [HN](https://news.ycombinator.com/item?id=46235412) | Link: https://libroot.org/posts/going-through-snowden-documents-part-1/
+- Score: 239 | [HN](https://news.ycombinator.com/item?id=46235412) | Link: https://libroot.org/posts/going-through-snowden-documents-part-1/
 
-- TL;DR  
-  An author revisits the still-partially-secret Snowden NSA documents, prompting Hacker News debate over Snowden’s legacy, mass surveillance, and political follow-through. Many commenters lament how early outrage faded into normalization, with failed reforms like the 2020 Wyden–Daines amendment leaving warrantless access to web histories intact. Others discuss how films and books prefigured these capabilities, how journalists largely stopped publishing remaining files, and how bulk collection enables powerful retroactive targeting even if not every person is actively “watched”.
+### TL;DR
+An open-source project is systematically re-examining under-analyzed Snowden leaks. This first post dissects a 2009 XKEYSCORE training slide deck, uncovering concrete NSA hacking operations: deep compromise of Chinese defense giant Norinco, Mexican federal police systems, and an Iranian customs/rail laptop. It documents implants logging pre-encryption web traffic, Windows registry usage, multilingual keystrokes, and VPN-related terms, plus new codenames. Hacker News debates Snowden’s legacy, surveillance normalization, modest policy response, and whether the disclosures truly changed public behavior.
 
-  *Content unavailable; summarizing from title and comments only.*
+---
 
-- Comment pulse  
-  - Snowden’s legacy contested → some recall 2013 gratitude and see today’s anti-Snowden comments as bot-driven or government-loyal, others still argue he’s a criminal.  
-  - Policy failure → commenters note Wyden–Daines’ one-vote loss and broader post-9/11 propaganda as proof Snowden’s revelations barely slowed US surveillance expansion.  
-  - Capabilities vs reality → hardware tampering and bulk collection show power, but one view says this enables targeted searches, not universal spying—counterpoint: abuse risk remains.
+### Comment pulse
+- Many praise Snowden and this deep-dive, contrasting 2013 enthusiasm with today’s HN comments they see as more pro-government and corporate.  
+- Skeptics call the leaks overhyped or tainted by his Russian exile, arguing they mostly confirmed suspicions and focused on non-American targets.  
+- Policy-minded users highlight the failed 2020 Wyden–Daines warrant requirement and expanding surveillance—counterpoint: others stress bulk collection isn’t equivalent to individualized spying on everyone.
 
-- LLM perspective  
-  - View: Re-examining primary-source Snowden documents can cut through mythologizing and clarify what programs existed versus what was speculated.  
-  - Impact: Technical communities influence norms; their current ambivalence toward Snowden likely shapes corporate logging defaults, encryption adoption, and civic pushback.  
-  - Watch next: Track concrete reforms: FISA reauthorizations, renewed warrant requirements for browsing data, and any large-scale release or reclassification of remaining documents.
+---
+
+### LLM perspective
+- View: Re-mining low-profile Snowden docs can surface concrete operations, useful for historians, policymakers, and threat modelers beyond initial sensational programs.  
+- Impact: Confirms state-level CNE against commercial orgs and allies, reinforcing need for ubiquitous encryption, endpoint hardening, and realistic assumptions about compromise.  
+- Watch next: Track Libroot’s later parts, cross-reference unreleased codenames with leaks, and compare with post-2009 tooling revealed in Vault 7/Equation Group dumps.
