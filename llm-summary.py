@@ -353,9 +353,11 @@ def _process_day(utc_yday: str, stories: List[Dict[str, Any]]):
 
     # special case: 2025-09-16 had two identical URLs topping the list
     cleaned = {}
+    titles = {}
     for s in stories:
         url = s.get("url")
         title = s["title"]
+        title_slug = slugify(title)
         if re.search("ask hn: who is hiring", title.lower()):
             logging.info(f"Skipping hiring post: {title} ({s['id']})")
             continue
@@ -367,7 +369,19 @@ def _process_day(utc_yday: str, stories: List[Dict[str, Any]]):
                     int(s.get("id"))
                 )
                 continue
-            cleaned[(u.netloc, u.path)] = s
+            cleaned_key = (u.netloc, u.path)
+            cleaned[cleaned_key] = s
+            if title_slug in titles:
+                # special case: 2025-12-26 had two posts with same content and titles
+                # but different URLs topping the list
+                ignoring = None
+                if cleaned[titles[title_slug]]["score"] > s["score"]:
+                    ignoring = cleaned.pop(cleaned_key)
+                    cleaned_key = titles[title_slug]
+                else:
+                    ignoring = cleaned.pop(titles[title_slug])
+                logging.info(f"Skipping duplicate title: {title} ({s.get('url')}) with score {ignoring['score']}")
+            titles[title_slug] = cleaned_key
         else:
             cleaned[s["id"]] = s
 
