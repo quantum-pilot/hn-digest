@@ -1,22 +1,16 @@
 # Show HN: Witr – Explain why a process is running on your Linux system
 
-- Score: 344 | [HN](https://news.ycombinator.com/item?id=46392910) | Link: https://github.com/pranshuparmar/witr
+- Score: 491 | [HN](https://news.ycombinator.com/item?id=46392910) | Link: https://github.com/pranshuparmar/witr
 
 ### TL;DR
-Witr is a small CLI tool that explains *why* a given Linux process is running by surfacing its “responsibility chain”: parents, service units, cron jobs, and related context like Git repo and branch. It’s aimed at SSH-on-call situations, not full observability or monitoring. HN discussion focuses on polish (README demo, install flow), ideas to extend it with “what does this binary actually do” descriptions, and appreciation for how it streamlines debugging mystery processes.
-
-*Content unavailable; summarizing from title/comments.*
-
----
+Witr is a small CLI for Linux/macOS that answers “why is this running?” for a process, port, or service. Instead of just listing processes, it traces the causal chain of PIDs and supervisors (systemd, docker, pm2, cron, interactive shells), shows context like working dir, git repo, network bindings, and surfaces warnings. HN readers like the focused design, suggest adding “what does this do” knowledge, debate GIF vs screenshot docs, and request proper distro packages instead of curl | bash installs.
 
 ### Comment pulse
-- Tool fills a real gap: quickly answer “why is this process here?” during incident debugging—counterpoint: some also want “what exactly does this binary do?”  
-- Build/install opinions: users share Go build incantations, prefer install.sh to favor local source, others suggest Nix packaging for reproducible installs.  
-- Responsibility chain and Git info (repo, branch) are praised; implementation walks up from the process’s working directory searching for a `.git` directory.
-
----
+- witr targets ad‑hoc SSH debugging → unifies ps, systemctl, lsof–style information into one narrative explanation of a process’s origin and context.  
+- Many say built‑in commands suffice → systemctl status and lsof can map PIDs and ports to services — counterpoint: witr reduces manual cross‑referencing under pressure.  
+- Security‑minded users wary of curl | bash → request deb/RPM/snap packaging and better README visuals; author agrees to add packages and replaced the fast‑looping GIF.  
 
 ### LLM perspective
-- View: Lightweight “process provenance” tools nicely complement heavy monitoring stacks for real-world production firefighting.  
-- Impact: Helps SREs, DevOps, and on-call engineers shorten triage time when processes misbehave on shared or legacy hosts.  
-- Watch next: Broader OS support, richer attribution (config owners, tickets), optional curated database for process purpose descriptions.
+- Nice example of “why” tooling on top of “what” observability; complements, not replaces, traditional monitoring and logging.  
+- Most valuable for on‑call engineers and SREs triaging unknown hosts, legacy boxes, or inherited systems with sparse documentation.  
+- Watch for integrations with incident tooling (PagerDuty, Slack bots) so on‑call staff can query “why” data directly from alerts.

@@ -1,21 +1,21 @@
 # I'm a laptop weirdo and that's why I like my new Framework 13
 
-- Score: 278 | [HN](https://news.ycombinator.com/item?id=46391410) | Link: https://blog.matthewbrunelle.com/im-a-laptop-weirdo-and-thats-why-i-like-my-new-framework-13/
+- Score: 287 | [HN](https://news.ycombinator.com/item?id=46391410) | Link: https://blog.matthewbrunelle.com/im-a-laptop-weirdo-and-thats-why-i-like-my-new-framework-13/
 
 ### TL;DR
-Framework’s 13" laptop appeals to “weirdos” who care about repairability, Linux support, and customization more than peak performance or polish. HN commenters praise its uniquely easy, official access to parts (keyboards, hinges, batteries) and the ability to fix design flaws or change layouts cheaply over time. Others argue that real-world longevity is constrained by CPU/RAM generations and thermals, and that build quality, touchpad feel, and battery efficiency lag behind MacBooks and some ThinkPads, making Framework more a values/nerd-product than a universal recommendation.  
-*Content unavailable; summarizing from title/comments.*
+The author traces a life of “laptop weirdness” from a heavily-modded Samsung netbook and triple-bootable 2011 MacBook Pro to increasingly sealed, boring machines like a ThinkPad X1 Carbon and an M1 Max MacBook Pro. Modern laptops killed the joy of tinkering—no RAM/SSD swaps, hard-to-repair screens, minimal user serviceability. A Framework 13 DIY with AMD finally restores that joy: easy part replacement, Linux-first mindset, and playful mods (even a snack-drawer module), reviving the hacker-ish, experimental laptop culture many miss.  
+HN commenters like the idea but debate whether repairability, upgradability and build quality justify Framework over more polished or ubiquitous options like MacBooks and ThinkPads.
 
 ---
 
 ### Comment pulse
-- Repairability as core value → official, cheap parts (e.g., $40 keyboard, stronger hinge) and region-specific layouts beat scavenging from eBay—counterpoint: some prefer devices that rarely need repairs at all.  
-- Longevity via upgrades → idea is periodic mainboard/part swaps instead of 10‑year “big bang” replacement; skeptics note CPU+RAM coupling, thermals, and MacBooks’ big performance/battery head start.  
-- Experience trade-offs → users like lightness and Linux-friendliness but complain about flexy chassis and mediocre touchpad; many still see Apple’s hardware/backup ecosystem as the gold standard.
+- Framework repairability praised → official, reasonably-priced parts (keyboards, hinges) let users fix design flaws and avoid region-locked layouts — counterpoint: some prefer devices that rarely need repair at all.  
+- Incremental upgrades vision → swap boards to track performance curve over 10 years — counterpoint: CPUs tie to new RAM, mainboards; shipping and weaker perf vs MacBooks erode economic case.  
+- Customization vs “eco” marketing → some think many laptops are repairable and few actually upgrade; want Framework to prioritize modules, better chassis, and touchpads over activism messaging.
 
 ---
 
 ### LLM perspective
-- View: Framework proves there’s a paying niche for modular, user-serviceable laptops, even if it sacrifices some refinement and efficiency.  
-- Impact: Most beneficial for tinkerers, Linux users, international keyboard/layout outliers, and those burned by disposable or opaque OEM ecosystems.  
-- Watch next: Whether Framework sustains mainboard generations, grows a third‑party module market, and improves global parts logistics to rival Apple-like convenience.
+- View: Framework succeeds when it’s framed as a modular, user-controlled platform first, with repairability as a practical side effect.  
+- Impact: Best fit for tinkerers, Linux users, and long-term owners; less ideal for people optimizing for uptime, polish, or global availability.  
+- Watch next: Whether real customers actually perform mainboard generations, how long parts stay stocked, and if Framework improves chassis and input hardware.

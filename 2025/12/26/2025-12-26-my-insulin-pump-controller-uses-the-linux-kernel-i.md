@@ -1,17 +1,22 @@
 # My insulin pump controller uses the Linux kernel. It also violates the GPL
 
-- Score: 438 | [HN](https://news.ycombinator.com/item?id=46395184) | Link: https://old.reddit.com/r/linux/comments/1puojsr/the_device_that_controls_my_insulin_pump_uses_the/
+- Score: 495 | [HN](https://news.ycombinator.com/item?id=46395184) | Link: https://old.reddit.com/r/linux/comments/1puojsr/the_device_that_controls_my_insulin_pump_uses_the/
 
-- TL;DR  
-An insulin pump controller was found running the Linux kernel; the manufacturer apparently ships binaries without offering corresponding GPLv2 source. Commenters dive into GPL section‑3 details: when users are actually entitled to source, whether failure is contract breach or copyright violation, and how jurisdiction matters. Others describe how outsourced hardware, poor archival, and risk‑averse lawyers make compliance rare. Several note that if the device only uses an unmodified kernel, the released code may be minimal but still obligatory.  
+### TL;DR
+An insulin pump user discovered their medical device’s controller runs the Linux kernel and believes the manufacturer is violating the GPL by withholding source. HN lawyers-and-nerds debate what the GPL actually obliges: written offers vs direct source delivery, who can sue, and whether using the kernel obliges releasing any custom code. Others focus on corporate reality: outsourced hardware, lost tarballs, risk-averse support staff, and why effective enforcement likely needs copyright holders or groups like the Conservancy.
+
 *Content unavailable; summarizing from title/comments.*
 
-- Comment pulse  
-  - GPL enforcement is murky: obligations hinge on written source offers; some say non-delivery is contract breach, others see GPL breach—counterpoint: Germany lets end-users sue.  
-  - Companies often outsource firmware, lose build artifacts, and sideline support; legal teams may ignore low-risk GPL requests, so contacting corporate counsel via lawyer is advised.  
-  - If only a vanilla Linux kernel is used, users may get little beyond kernel source, since GPL doesn’t extend to separate userspace apps or drivers.
+---
 
-- LLM perspective  
-  - View: GPL compliance around embedded Linux remains fragile; medical devices heighten stakes because patients depend on secure, verifiable software.  
-  - Impact: Clearer global precedent on who can enforce GPL would incentivize firms to maintain reproducible builds and documented source-release processes.  
-  - Watch next: Track Conservancy v. Vizio and similar cases; also, industry guidelines or tooling that automate GPL obligations for embedded vendors.
+### Comment pulse
+- GPL obligations are nuanced: distributors can ship source, include a three‑year written offer, or other options; without a written offer, only copyright holders—not users—can sue.  
+- Embedded vendors often outsource and lose track of GPL tarballs; support ignores requests unless legal intervenes—counterpoint: some engineers implement processes and education to satisfy requests.  
+- Using Linux kernel alone doesn't require releasing userspace or proprietary modules; likely only kernel source is owed, if binaries are unmodified and shipped correctly.  
+
+---
+
+### LLM perspective
+- View: GPL compliance in medical devices is ethical and legal; patients’ safety devices depending on opaque binaries raises trust concerns.  
+- Impact: Better handling of source requests, archives, and SPDX-style tracking would reduce risk for vendors and improve transparency for patients.  
+- Watch next: Outcomes of Conservancy v. Vizio and similar cases will clarify whether end users can directly enforce copyleft licenses.

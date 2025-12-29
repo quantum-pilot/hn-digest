@@ -1,18 +1,16 @@
 # Experts explore new mushroom which causes fairytale-like hallucinations
 
-- Score: 406 | [HN](https://news.ycombinator.com/item?id=46393936) | Link: https://nhmu.utah.edu/articles/experts-explore-new-mushroom-which-causes-fairytale-hallucinations
+- Score: 483 | [HN](https://news.ycombinator.com/item?id=46393936) | Link: https://nhmu.utah.edu/articles/experts-explore-new-mushroom-which-causes-fairytale-hallucinations
 
-- TL;DR  
-Researchers and ethnomycologists are studying Asian bolete mushrooms that bruise blue and, when undercooked, cause vivid, fairytale-like visions of tiny people. Chemically, they lack known hallucinogens like psilocybin or muscimol, hinting at an undiscovered psychoactive compound, possibly tryptamine-based. Though these mushrooms have been eaten for centuries in parts of China and the Pacific, reports describe multi-day hallucinations and rare psychosis-like episodes, so commenters see them as fascinating but hazardous rather than a new recreational or therapeutic drug.  
+### TL;DR
+Researchers are investigating Lanmaoa asiatica, an edible bolete (“Jian shou qing”) that, when undercooked, causes strikingly consistent “Lilliputian hallucinations” of tiny people across China, Papua New Guinea, and the Philippines. DNA work showed distant cultures were using the same species; historical texts may reference it as a Daoist “flesh spirit mushroom.” Chemical analyses find none of the usual suspects (psilocybin, muscimol), implying a novel hallucinogen. HN discussion ranges over fungal evolution, toxin ecology, safety, and whether this really counts as a “new” discovery.
 
-*Content unavailable; summarizing from title/comments.*
+### Comment pulse
+- Fungal toxins are mostly about insects and spore spreading → many mushrooms stay edible; poisons are metabolically costly, so not universal defenses.  
+- The bolete’s effects can last days and may trigger persistent perception disorders → commenters warn it’s unsuitable as a casual recreational drug.  
+- Some with long Yunnan experience rarely saw “little people” reports → hypothesize heat‑labile compounds or rare look‑alike species—counterpoint: hospital records show consistent local syndrome when undercooked.
 
-- Comment pulse  
-  - Mushroom defenses target ecosystems, not humans → animals disperse spores; many toxins deter insects or local predators, while human edibility often doesn't affect fitness.  
-  - These boletes may host unknown hallucinogens → blue bruising hints at tryptamines, yet analyses show no psilocybin/muscimol; isolating the active compound is the real “discovery”.  
-  - Historical reports suggest effects lasting months → commenters suspect these describe triggered psychosis, underscoring that pharmacology and mental-health risks must be understood before any use.  
-
-- LLM perspective  
-  - View: Novel hallucinogenic pathways in fungi challenge our narrow focus on psilocybin/muscimol and broaden chemical space for neuroactive compounds.  
-  - Impact: If mechanisms are mapped, drug discovery, toxicology, and psychiatry gain new tools—but also new public-health risks from misidentified “magic” mushrooms.  
-  - Watch next: rigorous structural identification, receptor-binding assays, long-term neurotoxicity studies, plus ethnomycological work documenting traditional preparation methods that may mitigate harm.
+### LLM perspective
+- View: A single species reliably producing tiny-person visions is a powerful probe into how brains construct social, humanlike imagery.  
+- Impact: Could uncover a new neuromodulator class, inform psychiatry, and improve wild-mushroom safety in regions where it’s regularly eaten.  
+- Watch next: Isolation of the active molecule, receptor-binding studies, and broader ethnomycology to map where this mushroom and lore co-occur.

@@ -1,22 +1,23 @@
 # Always bet on text (2014)
 
-- Score: 237 | [HN](https://news.ycombinator.com/item?id=46397379) | Link: https://graydon2.dreamwidth.org/193447.html
+- Score: 345 | [HN](https://news.ycombinator.com/item?id=46397379) | Link: https://graydon2.dreamwidth.org/193447.html
 
 ## TL;DR
-The original post champions plain text as the safest long‑term bet for software and knowledge: human‑readable, debuggable, easy to process, and remarkably durable across tools and decades. HN commenters broadly agree that text is an underrated “universal interface” (from markdown to JSON/XML) and crucial for archiving languages and documents. Others highlight where text falls short—teaching physical or visual skills, rich data visualization, and ultra‑high‑performance systems—arguing that we should “always bet on language,” with text as the backbone but not the only medium.
 
-*Content unavailable; summarizing from title/comments.*
+The author argues that written language is humanity’s most powerful communication technology: it’s durable over millennia, vastly more storage‑ and bandwidth‑efficient than images or video, uniquely good at encoding abstract ideas, and extraordinarily amenable to search, translation, editing, and asynchronous many‑to‑many discussion. Historical communication systems—from telegraphs to the early internet—optimized for text first for these reasons. HN commenters mostly agree on text’s centrality, but highlight domains where interactivity, visualization, physical practice, or binary encodings beat pure text for learning, communication, or performance.
+
+---
 
 ## Comment pulse
-- Text as default, not monopoly → feedback loops, physical intuition, and visualizations teach skills faster than prose; Bret Victor–style systems show power of interactive representations — counterpoint: text still wins for quick skimming and deep linking.
 
-- Text maximalism in software → strings unify configs, protocols, and documents; human‑readable, grep‑able, git‑friendly formats outlast DOC/PDF and ease endangered‑language archiving.
+- Multimodal pedagogy → Live, visual, and interactive feedback (à la Bret Victor, music lessons, physical skills) can teach faster and deeper than static text alone.  
+- Text vs binary in software → Text formats aid inspection and tooling; binary (HTTP/3, protobuf) saves bandwidth/CPU and enables strong evolution guarantees—counterpoint: readability often matters more than 20–30% savings.  
+- Symbol systems and models → Text is a standardized, compressed symbol stream densely encoding intention, enabling LLMs and search—but video, games, and spatial tasks resist faithful textual translation.
 
-- Binary where scale bites → Protobuf, custom binaries, and streaming avoid JSON/base64 overhead and CPU costs; human unreadability is acceptable when performance or evolution guarantees dominate.
+---
 
 ## LLM perspective
-- View: Treat text as the canonical source of truth, with other media generated from and linked back to that textual core.
 
-- Impact: Developers, archivists, and educators gain robustness and interoperability while selectively adding visuals, simulations, or binaries where text is weakest.
-
-- Watch next: Multimodal tools that keep text-first artifacts (specs, notebooks, schemas) while auto-deriving interactive and binary views from them.
+- View: Treat text as the canonical layer, but design systems to project it into interactive, visual, and tactile experiences when they add real learning value.  
+- Impact: Documentation, APIs, and protocols benefit from human‑readable text defaults, with binary or multimedia as performance or pedagogy accelerators, not replacements.  
+- Watch next: Better universal transcription, code/text‑first data schemas, and authoring tools that co‑generate synchronized text, visualization, and simulation from a single source.

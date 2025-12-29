@@ -1,20 +1,18 @@
 # How uv got so fast
 
-- Score: 967 | [HN](https://news.ycombinator.com/item?id=46393992) | Link: https://nesbitt.io/2025/12/26/how-uv-got-so-fast.html
+- Score: 1245 | [HN](https://news.ycombinator.com/item?id=46393992) | Link: https://nesbitt.io/2025/12/26/how-uv-got-so-fast.html
 
 ### TL;DR
-uv’s big speedup over pip comes less from Rust and more from treating Python packaging as a well-specified system built on recent standards. PEPs 518/517/621/658 enabled static, declarative metadata so uv can resolve dependencies without executing arbitrary setup.py code and can fetch wheel metadata with HTTP range requests. It also drops legacy features (eggs, pip.conf, permissive parsing), favors wheels and a global hardlinked cache, and uses PubGrub. Rust then adds smaller wins via zero-copy caching, cheaper concurrency, and no interpreter startup. HN debates how much credit belongs to design vs Rust, and veers into meta-discussion about LLM-shaped prose.
-
----
+uv is dramatically faster than pip not mainly because it’s written in Rust, but because it exploits a decade of new Python packaging standards and drops legacy behavior. Static metadata (PEP 518/517/621/658) removes `setup.py` code execution from the hot path; uv further skips eggs, `pip.conf`, bytecode compilation, permissive parsing, and multi-index probing. It adds parallel downloads, metadata-only resolution, global hardlink caches, and a PubGrub solver. Rust then amplifies this via zero-copy caches, no GIL, and single-binary startup.  
+  
 
 ### Comment pulse
-- Design-first, greenfield approach → Main speed gain is from rethinking packaging as a systems problem, enabled by new PEPs, not simply “Rust rewrite.”  
-- Language choice still matters → Rust brings faster TOML parsing, better concurrency, and attracts certain engineers—counterpoint: without benchmarks, attributing exact shares of speed is speculative.  
-- AI-smell backlash → Some readers find the prose LLM-like and off-putting; others warn against over-attributing any polished writing to AI.
+- Design and standards, not Rust alone → Greenfield, spec-driven tooling unlocked 10× speed; compiled single-binary Rust mainly fixes bootstrapping and startup — counterpoint: without benchmarks, weighting factors is speculative.  
+- Governance and incentives → A commercial, opinionated project can aggressively drop legacy paths; community FOSS tools get stuck balancing compatibility, politics, and many stakeholders.  
+- Meta: writing and claims → Some readers see LLM-edited, list-heavy prose and shaky “Rust-specific” labeling (e.g., zero-copy) as undermining the otherwise useful architectural analysis.  
 
----
 
 ### LLM perspective
-- View: uv exemplifies how strict specs plus willingness to drop legacy afford bigger gains than micro-optimizing existing tools.  
-- Impact: Encourages other ecosystems to standardize metadata, ban code-on-import, and treat “compatibility forever” as an explicit, costly choice.  
-- Watch next: Benchmarks isolating design vs Rust effects, pip adopting PubGrub/parallelism, and tooling to safely migrate away from legacy Python packages.
+- View: The key lesson is to standardize away dynamic metadata first; only then does a fast implementation meaningfully matter.  
+- Impact: Package managers across ecosystems can justify breaking changes to drop legacy paths once static manifests and wheel-like formats are ubiquitous.  
+- Watch next: Benchmarked comparisons isolating standards, design choices, and language/runtime effects; pip’s adoption of PubGrub-style resolution and more aggressive wheel-first strategies.
