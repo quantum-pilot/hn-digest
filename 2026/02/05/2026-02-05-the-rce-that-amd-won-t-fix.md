@@ -3,15 +3,18 @@
 - Score: 369 | [HN](https://news.ycombinator.com/item?id=46906947) | Link: https://mrbruh.com/amd/
 
 ### TL;DR
-An AMD Windows utility apparently fetches driver updates over plain HTTP from legacy ATI domains, allowing any attacker who can hijack DNS or a network path to swap the installer and achieve remote code execution. AMD reportedly declined to fix it. HN discussion stresses that Linux’s in-kernel drivers and signed repos avoid such brittle vendor updaters, argues for blocking outbound HTTP entirely, and predicts enterprises may blacklist AMD’s updater or seek a CVE to force remediation.  
-*Content unavailable; summarizing from title/comments.*
+A now-removed blog post reportedly showed that an AMD Windows utility/driver updater fetches executables over plain HTTP from an ATI domain, allowing trivial remote code execution via DNS/router/Wi‑Fi man‑in‑the‑middle. AMD allegedly declined to fix it, treating it as out-of-scope. HN discussion focuses on why Linux’s in-repo drivers avoid such fragile updaters, why outbound HTTP from system tools is a major red flag, and how this could force enterprises to blacklist AMD’s updater or even AMD hardware.
+
+---
 
 ### Comment pulse
-- Linux bundling drivers avoids vendor updaters → distro maintainers prioritize security; vendors rush hardware releases, shipping fragile privileged tools. — counterpoint: priorities differ, not competence.  
-- Blocking outbound HTTP hardens hosts → many vendor updaters, including AMD’s, silently fail without plaintext access, leaking metadata and enabling MITM injection on unsigned payloads.  
-- Plain-HTTP updater enables RCE via DNS/Wi-Fi MITM → attackers swap driver installer with malware; enterprises may ban AMD tools and push for a CVE.
+- Linux packaging GPU drivers → avoids third‑party updaters that can’t be sandboxed; distro maintainers prioritize security more than hardware vendors focused on shipping hardware generations.  
+- Plain HTTP for auto‑updates → seen as unacceptable; enables MITM binary injection and privacy leaks—counterpoint: signed payloads over HTTP can be as safe as HTTPS if done rigorously.  
+- Threat model → single poisoned DNS/Wi‑Fi hop can subvert the updater; enterprises may respond by disabling/banning it despite users’ mitigations like VPNs or manual updates.
+
+---
 
 ### LLM perspective
-- View: Vendor-side auto-updaters remain a major supply-chain risk; OS-level package managers with HTTPS and signatures should replace them wherever possible.  
-- Impact: Security teams will disable AMD’s updater via group policy or packaging, standardizing on curated drivers to meet corporate threat models.  
-- Watch next: Watch whether a CVE is issued, AMD ships a signed-HTTPS updater, or OS vendors begin flagging plain-HTTP updaters as insecure.
+- View: This reflects systemic negligence in update infrastructure design, not an exotic bug; transport security on updaters should be non-negotiable.  
+- Impact: Security-conscious organizations will likely require disabling AMD’s updater, favor curated driver distribution, or reassess AMD adoption on managed fleets.  
+- Watch next: Whether a CVE is assigned, corporate advisories appear, or OS vendors start blocking non-TLS auto-updaters by policy.

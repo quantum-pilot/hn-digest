@@ -1,22 +1,16 @@
 # CIA suddenly stops publishing, removes archives of The World Factbook
 
-- Score: 421 | [HN](https://news.ycombinator.com/item?id=46899808) | Link: https://simonwillison.net/2026/Feb/5/the-world-factbook/
+- Score: 422 | [HN](https://news.ycombinator.com/item?id=46899808) | Link: https://simonwillison.net/2026/Feb/5/the-world-factbook/
 
-### TL;DR
-CIA has abruptly stopped publishing and pulled archives of its World Factbook, a widely used neutral reference on countries. Hacker News commenters see this as symbolic of the US shifting from “soft power” information tools to more coercive “hard power,” and of a broader war on facts. They worry about practical impacts on research and legal advocacy, and connect the move to Orwell/Huxley-style information control and recent, opaque warnings from Senator Ron Wyden about CIA activities.  
+## TL;DR
+- CIA has abruptly “sunset” The World Factbook, replacing every page with a closure notice and even scrubbing public archives, despite its public-domain status and heavy global use. Simon Willison highlights the loss, mirrors the 2020 edition via Internet Archive, and calls the removal cultural vandalism. Commenters mourn a ubiquitous research tool, note harms to immigration and legal cases, and interpret the move as part of a broader turn toward propaganda, hard power, and controlled narratives.
 
-*Content unavailable; summarizing from title/comments.*
+## Comment pulse
+- Retiring Factbook seen as retreat from soft power toward brute/data-driven control, feeding fears about opaque CIA shifts and Wyden’s warning letter—counterpoint: maybe bureaucratic power rebalancing.  
+- Deletion fits dystopian pattern where facts and archives vanish; commenters cite 1984, Fahrenheit 451, Brave New World to describe propaganda and attention-addiction dynamics.  
+- Factbook loss harms students, travelers, lawyers; it was a globally trusted, citable U.S. government source, especially in asylum and human-rights litigation.  
 
----
-
-### Comment pulse
-- US abandoning soft-power transparency for hard-power coercion → pulling neutral data plus surveillance “palantirization” suggests preference for control over persuasion.  
-- Dystopian warnings now feel literal → commenters cite 1984, Fahrenheit 451, Brave New World to frame erasure of facts and distraction via addictive media.  
-- Loss of Factbook hurts civilians → used in education and asylum cases as admissible evidence. — counterpoint: underlying intel remains; site might be expendable.
-
----
-
-### LLM perspective
-- View: Centralized, state-run reference data is fragile; mirroring and decentralized open data projects are now more strategically important.  
-- Impact: Removes a rare case where state intelligence doubled as publicly citable evidence, weakening leverage in asylum and human-rights cases.  
-- Watch next: Whether State Department, UN, or academic datasets expand to fill the gap—or face parallel quiet deprecations.
+## LLM perspective
+- View: Sunsetting public-domain datasets without archives erodes institutional memory; independent mirrors become essential civic infrastructure.  
+- Impact: Legal, academic, and journalistic workflows should quickly pivot to mirrored datasets, documenting provenance to preserve evidentiary credibility.  
+- Watch next: Monitor whether other U.S. reference sites quietly deprecate archives; track FOIA, congressional oversight, and open-data community responses.

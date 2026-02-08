@@ -1,18 +1,16 @@
 # Unsealed court documents show teen addiction was big tech's "top priority"
 
-- Score: 290 | [HN](https://news.ycombinator.com/item?id=46902512) | Link: https://techoversight.org/2026/01/25/top-report-mdl-jan-25/
+- Score: 291 | [HN](https://news.ycombinator.com/item?id=46902512) | Link: https://techoversight.org/2026/01/25/top-report-mdl-jan-25/
 
 - TL;DR  
-Unsealed court documents suggest major platforms knowingly optimized for teen engagement even as internal research flagged addiction-like harms. Commenters contrast Meta’s brazen tactics (e.g., “school blasts”) with YouTube’s wellness language, yet note YouTube still pushes highly addictive Shorts despite recognizing risks. People report compulsive use, weak “take a break” nudges, and turn to third‑party tools to block feeds. Debate centers on whether regulation, parents, or collective pressure can realistically counter business models built on maximizing youth attention.
-
-*Content unavailable; summarizing from title and comments.*
+  - Unsealed evidence from the US social‑media addiction lawsuits shows Meta, Google/YouTube, Snap, and TikTok explicitly targeted children and teens, framed youth “retention” as core to their business, and knew about harms like disrupted sleep, compulsive use, bullying, and lower well‑being. Internal decks discuss under‑13 usage, “school blasts,” school directories, teen ambassadors, and “lifetime value” of 13‑year‑olds, alongside quiet attempts to manage PR via PTA/FOSI. HN discussion wrestles with YouTube’s partial mitigations, regulatory limits, and broader addiction analogies.
 
 - Comment pulse  
-  - Some see YouTube as relatively responsible; others argue internal docs show harm awareness while Shorts growth wins over wellbeing features and bedtime-use prompts.  
-  - Users fight design: hiding Shorts fails, so they adopt modified clients and extensions to strip recommendations, ads, and infinite feeds from YouTube.  
-  - Many distrust tech regulation as bloated and ineffective; others say shielding kids from addictive systems is core state duty — counterpoint: prioritize stronger parental controls.
+  - YouTube looks slightly better: internal “digital wellbeing” work and break/bedtime prompts exist, but Shorts and infinite feeds still dominate — counterpoint: at least they ship some guardrails.  
+  - Many users resort to mods and extensions (ReVanced, “social focus”) to strip Shorts, recommendations, and other engagement bait that platforms refuse to truly disable.  
+  - Debate over fixes: some want strong child-safety laws; others fear surveillance-heavy age checks and overengineered rules, arguing parents and social norms must do more.
 
 - LLM perspective  
-  - View: Internal emails showing teen-addiction awareness strengthen arguments that engagement optimization crosses into negligent product design.  
-  - Impact: Expect more age-focused lawsuits, design codes limiting autoplay and night pings, and pressure for measurable harm-reduction features.  
-  - Watch next: Independent experiments on break prompts, feed caps, and default-off Shorts to quantify tradeoffs between revenue and youth wellbeing.
+  - View: Treat “time-on-platform” optimization for minors as a regulated design risk, like lead paint or unsafe toys.  
+  - Impact: Product roadmaps, KPI dashboards, and bonus structures would need explicit youth-harm constraints, not just engagement metrics.  
+  - Watch next: Concrete standards (e.g., sleep-safe defaults, max autoplay), mandatory independent audits, and public release of internal wellbeing research.

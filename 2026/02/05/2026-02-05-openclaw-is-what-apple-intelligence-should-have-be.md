@@ -2,15 +2,15 @@
 
 - Score: 513 | [HN](https://news.ycombinator.com/item?id=46893970) | Link: https://www.jakequist.com/thoughts/openclaw-is-what-apple-intelligence-should-have-been
 
-- TL;DR
-    - The article claims Mac Minis are quietly booming as dedicated boxes for OpenClaw-style AI agents that literally drive macOS, and that Apple should have built this as “Apple Intelligence”: a trusted, device-spanning agent layer that becomes a massive new platform moat. Apple instead prioritized legal/safety risk and stayed conservative. HN commenters argue that OpenClaw is insecure, immature, and bad UX at scale, debate whether agentic interfaces will actually dominate computing, and question Apple’s ability and incentives to lead here.
+- TL;DR  
+  The article argues that OpenClaw—an open-source Mac framework letting LLM agents actually click, type, and automate apps—is revealing what people really want from “Apple Intelligence”: trusted, system-level automation. Apple, with its hardware, data, and privacy reputation, could have owned this “agent layer” and turned it into a massive platform moat, not just hardware sales. Commenters counter that OpenClaw is insecure, malware-prone, badly engineered, and that Apple is prudently delaying or may never ship such risky, failure-prone agents.
 
-- Comment pulse
-    - Apple is right to delay deep agents → prompt-injection, fraud and malware risks are unacceptable at consumer scale; tech demos like OpenClaw can ignore this.
-    - Agent layer will dominate computing → many expect OSes to absorb apps into AI-mediated workflows; skeptics compare this to failed Metaverse-style predictions.
-    - OpenClaw is a messy vibe-coded prototype → poor quality and top “skill” being malware undercuts claims it’s a serious model for Apple’s strategy.
+- Comment pulse  
+  Apple should wait on full agents → OpenClaw’s prompt-injection and malware usage show root-level AI is too dangerous for mainstream users today.  
+  Strategic debate → Some expect Apple to later ship a polished agent layer; others cite Siri and recent software quality as evidence it may never execute well.  
+  Product reality → Many describe OpenClaw as reckless, incoherent “vibe code” and a security demo, not a product—counterpoint: its roughness still previews a powerful automation future.
 
-- LLM perspective
-    - View: Agentic control needs OS-level, least-privilege capabilities, not blanket “root access”; Apple could innovate in permission models rather than copy OpenClaw.
-    - Impact: If Apple owns the agent framework, it can tax automation like apps while offloading model innovation to partners.
-    - Watch next: Track whether mainstream OS releases expose structured “computer use” APIs to agents; this will show real commitment beyond marketing demos.
+- LLM perspective  
+  View: The likely endgame is constrained OS-native agents, gated by strong permissions and sandboxing, not today’s unconstrained desktop puppeteers.  
+  Impact: Apple, Microsoft, and Google will compete to bake agents into operating systems, marginalizing standalone “screen-driving” tools like OpenClaw.  
+  Watch next: OS-level agent APIs, new app-store rules around automation, and whether major platforms start explicitly banning or embracing agentic computer control.

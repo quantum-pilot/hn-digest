@@ -3,18 +3,14 @@
 - Score: 718 | [HN](https://news.ycombinator.com/item?id=46903616) | Link: https://www.anthropic.com/engineering/building-c-compiler
 
 ### TL;DR
-Anthropic used 16 parallel Claude Opus 4.6 agents, a custom Docker/git harness, and very strong test suites to autonomously build a 100k‑line Rust C compiler. In ~2,000 sessions and ~$20k of API usage, it produced a clean-room (no internet during development) compiler that builds a bootable Linux 6.9 for x86/ARM/RISC‑V and many major projects, though with poor optimization, gaps (16‑bit x86, assembler/linker), and brittle regressions. HN discussion centers on correctness, “clean-room” claims, and how much credit belongs to tests vs agents.
-
----
+Anthropic used 16 parallel Claude Opus 4.6 agents, minimal orchestration, and a tight test harness to write a 100k‑line Rust C compiler that clean‑room‑style (no internet) compiles Linux 6.9, QEMU, FFmpeg, Postgres, Redis, and more. ~2,000 agent sessions (~$20k) iterated via git locks and tests, with GCC used as an oracle to localize kernel bugs. The compiler boots Linux on x86/ARM/RISC‑V but has weak optimizations, missing 16‑bit x86 and assembler/linker, highlighting both promise and fragility of autonomous coding.
 
 ### Comment pulse
-- Impressive milestone → Compiling and booting Linux plus QEMU/FFmpeg/DBs shows serious capability, even if codegen is slower and less optimized than GCC.  
-- Not truly “clean-room” → Model is trained on GCC/Clang code, so this resembles fuzzy recall steered by tests, not legal clean-room isolation — counterpoint: copyright protects text, not ideas.  
-- Tests over agents → Success highlights exhaustive test harnesses and CI; some argue a single strong model with the same tests could match this without parallel agent complexity.
-
----
+- LLM-built compiler is a major milestone, but correctness and optimization lag far behind GCC; boot still relies on GCC for 16‑bit and external assembler/linker.  
+- Success credited mostly to exhaustive test suites and CI; some argue a single strong model plus serial loop could match this without complex multi-agent orchestration.  
+- ‘Clean-room’ claim disputed since Opus was trained on existing compilers; debate splits between awe at rapid capability gains and backlash demanding perfection from anything labeled AI.
 
 ### LLM perspective
-- View: This is a concrete blueprint for long-running agent systems: infinite loops, file locks, CI, and carefully structured logs/tests.  
-- Impact: Compiler, tooling, and infrastructure work with rich test suites will be first areas where autonomous agents add real, sustained value.  
-- Watch next: Independent audits of correctness/performance, “agent team” frameworks generalized beyond compilers, and experiments where agents propose their own tests and CI scaffolding.
+- View: This showcases LLMs as powerful optimization/search engines over code space when tightly coupled to deterministic, high-coverage test oracles.  
+- Impact: This compiler-scale success hints at near-term feasibility of autonomous development for core infrastructure tools, given enough compute, guardrails, and specification.  
+- Watch next: Key questions: can models autonomously improve performance, discover CI/scaffolding themselves, and generalize beyond well-specified domains with weaker, noisier feedback signals?

@@ -1,22 +1,20 @@
 # The time I didn't meet Jeffrey Epstein
 
-- Score: 382 | [HN](https://news.ycombinator.com/item?id=46903929) | Link: https://scottaaronson.blog/?p=9534
+- Score: 383 | [HN](https://news.ycombinator.com/item?id=46903929) | Link: https://scottaaronson.blog/?p=9534
 
 ### TL;DR
-A blogger recounts casually ignoring overtures from Jeffrey Epstein, crediting basic moral intuition (and his mom’s advice) for steering clear—unlike elites such as Bill Gates and Larry Summers, who engaged and paid reputational costs. HN discussion generalizes this to how people get pulled into corrupt inner circles: the lure of status, money, or “being on the inside” overrides common-sense disgust. Commenters debate whether power inherently corrupts or merely attracts the corrupt, and how institutions should limit the damage.
-
-*Content unavailable; summarizing from title/comments.*
+Scott Aaronson discovers his name appears 26 times in the Epstein Files despite never meeting Epstein. He reconstructs a forgotten 2010 episode: an intermediary pitched Epstein-funded “Cryptography in Nature” research; Scott forwarded the email to family, his mother warned him off, and he let it drop. He reflects that most scientists’ choices around Epstein were driven by vague discomfort or careerism, not clean moral heroism, and dismisses intelligence-agency conspiracy theories. HN commenters widen this into a discussion of intuition, power, and status-driven corruption.
 
 ---
 
 ### Comment pulse
-- Ordinary people often shrug off creepy invitations → distance from elite incentives and less hunger for status make corruption easier to avoid; elites normalize skeletons in closets.  
-- Power corrupts vs. power attracts the corrupt → some push term limits, sortition, and antitrust; others argue shrinking state power and taxation reduces corruption leverage.  
-- Core issue is moral character and craving for “inner rings” → CS Lewis’ work cited as a lens on why smart people ignore obvious red flags.
+- Near-miss stories resonate → people credit family involvement and “something feels off” reactions for dodging Epstein/Theranos-style traps—counterpoint: hindsight can exaggerate how clear those signals were.  
+- Epstein highlights elite impunity → some argue power corrupts and want term limits, taxation, anti-monopoly, even sortition—counterpoint: others see taxation/government itself as concentrating abusive power.  
+- Focus on morals/status → commenters cite C.S. Lewis’s “Inner Ring” to explain why smart people court sleazy patrons; Bill Gates/Summers appear as cautionary examples.  
 
 ---
 
 ### LLM perspective
-- View: Epstein is a vivid case study of how social climbing and status-seeking override moral alarms in elite networks.  
-- Impact: Reputation risk becomes real only after exposure; pre-exposure, incentives strongly favor access, funding, and proximity to influence.  
-- Watch next: Stronger conflict-of-interest norms, transparency around donors/associates, and social science on “inner ring” dynamics in tech, academia, and finance.
+- View: Make donor-vetting explicit: basic background checks, written ethics criteria, and shared “do-not-fund-with” lists across universities and labs.  
+- Impact: Clearer standards protect junior researchers reliant on grants and reduce reputational damage when senior figures choose a tainted benefactor.  
+- Watch next: Universities publishing anonymized donor-review stats, including rejected gifts, to reveal whether post-Epstein reforms are real or just PR.

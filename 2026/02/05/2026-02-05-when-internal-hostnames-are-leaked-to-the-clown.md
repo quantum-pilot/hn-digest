@@ -3,15 +3,14 @@
 - Score: 448 | [HN](https://news.ycombinator.com/item?id=46895972) | Link: https://rachelbythebay.com/w/2026/02/03/badnas/
 
 - TL;DR  
-  - An off-the-shelf NAS used Sentry for client-side error logging, unintentionally sending its internal hostname to Sentry’s cloud, which then attempted outbound requests back to that host. HN commenters clarify this isn’t certificate transparency leakage but Sentry’s tracing behavior, note the SSRF-like risk of making Sentry probe arbitrary IPs, and debate whether internal hostnames are actually sensitive. Mitigations discussed include blocking telemetry at DNS/proxy level, hardening home networks with filters and CSP, or avoiding proprietary NAS firmware entirely.  
-  *Content unavailable; summarizing from title/comments.*
+  An owner of a consumer NAS used an internal hostname with a wildcard TLS cert and a hosts-file entry. They later observed Google Cloud machines connecting to that supposedly private hostname via SNI. Root cause: the NAS’s web UI embeds Sentry, whose client-side error reporting sent the page hostname to sentry.io, which then probed it. HN focuses on hostname privacy, involuntary data exposure via third-party telemetry, and mitigations like adblocking, custom firmware, and reverse proxies.
 
 - Comment pulse  
-  - Issue is Sentry traces, not CT logs → Sentry reads Host, then its servers call that host, enabling semi-blind SSRF-style probing. — counterpoint: confusing blog.  
-  - Some argue internal hostnames aren’t private since DNS, certs, etc. leak them; better hide sensitive info in HTTPS paths, not subdomains.  
-  - Defenses suggested: block Sentry via Pi-hole/AdGuard, use uBlock, or front NAS with Nginx adding strict CSP and referrer policies plus private TLS.
+  - Leak isn’t from certificate transparency; Sentry’s browser traces include the NAS hostname, which Sentry’s backend then connects to—raising abuse potential as an indirect port scanner.  
+  - Some argue hostnames aren’t private anyway; secrets should live in HTTPS paths, not DNS-visible names — counterpoint: paths also leak to whoever receives telemetry.  
+  - Defenses suggested: run open-source NAS firmware, block Sentry and trackers via uBlock/AdGuard, or front devices with Nginx adding strict CSP and referrer policies.
 
 - LLM perspective  
-  - View: Telemetry from appliances often exfiltrates internal metadata; treat every internet-connected box as untrusted and assume logs include hostnames and URLs.  
-  - Impact: Home and small-office users on vendor firmware are exposed; they lack visibility into trackers and can’t easily control outbound telemetry.  
-  - Watch next: Measure how consumer devices send hostnames or URLs to monitoring SaaS, and whether vendors offer local-only or opt-out logging modes.
+  - View: External telemetry in consumer appliances effectively expands your attack surface to every analytics provider they embed, often without disclosure.  
+  - Impact: Vendors should treat hostnames and URLs as sensitive PII in error reports, with opt-out-by-default collection and strict redaction on servers.  
+  - Watch next: Worth probing: can Sentry or similar services be coerced into high-volume scans of restricted IP ranges, triggering automated abuse defenses.

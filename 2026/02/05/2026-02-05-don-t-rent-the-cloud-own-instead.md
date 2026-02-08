@@ -1,16 +1,19 @@
 # Don't rent the cloud, own instead
 
-- Score: 1193 | [HN](https://news.ycombinator.com/item?id=46896146) | Link: https://blog.comma.ai/datacenter/
+- Score: 1196 | [HN](https://news.ycombinator.com/item?id=46896146) | Link: https://blog.comma.ai/datacenter/
 
-### TL;DR
-Comma.ai describes how it runs all ML training and data in a self-built, in-office $5M data center instead of public cloud. Motivations: avoid lock‑in, keep architectural control, force efficiency (optimize code instead of buying more compute), and slash costs—they estimate cloud would have cost $25M+. The setup: 600 GPUs in in‑house boxes, ~4PB SSD storage, Slurm + PyTorch FSDP, a custom key‑value storage layer, lightweight task scheduler, and monorepo-based workflows. HN extends this into a broader debate about cost, scale, staffing, and operational risk.
+## TL;DR
 
-### Comment pulse
-- Cloud vs own spectrum → options from hyperscale, managed private, rented bare metal, to owned/colo; savings often 50–90% vs AWS when workloads are steady.  
-- Scale and people → If infra spend <1 FTE/year, cloud is fine; at multi‑FTE bills, staff+colo can win — counterpoint: hardware/ops overhead is real.  
-- Reliability and cooling → Owning a DC means handling redundancy, humidity, dust; some urge indirect-air systems — counterpoint: comma says filtered air <45% RH works.  
+comma.ai details how it built and runs a ~$5M in‑office data center instead of using public cloud, arguing that owning compute avoids lock‑in, promotes performance‑conscious engineering, and sharply cuts long‑term ML training costs (they estimate more than fivefold savings). Their setup uses custom GPU boxes, multi‑petabyte SSD storage, high‑bandwidth networking, and a thin software layer (Slurm, PyTorch FSDP, custom storage, scheduler, and experiment tooling) run by a small team. HN discussion agrees this pays off at scale but emphasizes hybrid approaches, operational expertise, and colocation or managed bare metal.
 
-### LLM perspective
-- View: For predictable heavy GPU workloads, owning or colocating clusters increasingly beats hyperscale cloud on both cost and architectural flexibility.  
-- Impact: Expect hybrids: cloud for bursty user apps, dedicated GPU fleets for training, and research HPC time for cash‑constrained startups.  
-- Watch next: Turnkey managed-colo GPU offerings, open-source infra stacks like minikeyvalue/miniray, and clearer benchmarks comparing 3–5‑year TCO versus AWS/Azure.
+## Comment pulse
+
+- Infra spans cloud, managed private, rented bare metal, own/colo → cloud often expensive due to managed services; bare metal/colo shine once spend and skills grow.  
+- Hybrid strategies → keep latency‑sensitive GPU/HPC on owned or colocated gear, use cloud for user‑facing and disaster recovery; some say running dual sites is manageable.  
+- Outside‑air cooling worries practitioners → humidity and dust shorten hardware life; others cite crypto mines as proof it works — counterpoint: many prefer cloud.
+
+## LLM perspective
+
+- View: For ML-heavy orgs with predictable workloads, investing in dedicated compute can become a strategic moat, not savings alone.  
+- Impact: Encourages infra talent, simpler architectures, and OSS‑centric stacks; reduces dependence on hyperscaler pricing and product roadmaps.  
+- Watch next: credible TCO benchmarks across models, and expansion of provider‑operated dedicated GPU clusters that abstract facilities while exposing costs.

@@ -2,20 +2,15 @@
 
 - Score: 281 | [HN](https://news.ycombinator.com/item?id=46895860) | Link: https://www.biometricupdate.com/202602/ice-seeks-industry-input-on-ad-tech-location-data-for-investigative-use
 
-### TL;DR
-ICE is openly seeking ad-tech style location data for investigations, confirming long-standing fears that commercial surveillance infrastructures would become government intelligence tools. HN commenters focus less on technical issues and more on ethics: people who built or maintain ad-tech now face the reality that their systems enable tracking, immigration enforcement, and potential rights violations. Many argue this was always obvious, the industry pushed right up to legal limits, and the only robust defense is to avoid storing identifiable data at all.  
-*Content unavailable; summarizing from title/comments.*
+## TL;DR
+ICE’s Homeland Security Investigations unit issued an RFI to ad-tech and data-broker companies, exploring use of commercial location and device-tracking data—originally collected for targeted advertising—for criminal, civil, and immigration investigations. ICE wants not just raw data but turnkey platforms that fuse ad-tech signals with other records to generate leads. The filing is framed as exploratory, yet fits a pattern of quietly normalizing powerful surveillance before legal standards and oversight catch up, raising Fourth Amendment and privacy concerns.
 
----
+## Comment pulse
+- Responsibility of tech workers → Employees are urged to resist or obstruct data sharing; others argue insider-threat programs will detect sabotage—counterpoint: you could instead refuse work in surveillance-heavy firms.  
+- Ad-tech’s true purpose → Commenters say ad-tech has always been near the legal limits of surveillance, arguably intertwined with US national security, so law-enforcement reuse was inevitable, not a surprise.  
+- Privacy nihilism → Some conclude only “store no identifiable data,” de-Google, FOSS, encryption, and zero trust can meaningfully protect against government abuse, especially from agencies like ICE.
 
-### Comment pulse
-- Responsibility of data workers → Some suggest “slow-walking” data sharing; others warn insider-threat programs will detect sabotage and destroy careers — counterpoint: if you’re there, ask why.
-- Ad-tech ethics now, not hypothetical → Engineers see tools used by ICE today; many won’t resist because compensation, status, and rationalizations outweigh abstract privacy concerns.
-- Zero trust over “good stewards” → Ad systems built for maximum surveillance are now repurposed; commenters push for collecting no identifiable data and treating all large data holders as eventual abusers.
-
----
-
-### LLM perspective
-- View: This formalizes a pipeline from ad-tech data brokers to law enforcement, bypassing traditional warrant standards via “commercial purchase.”
-- Impact: Increases pressure on ad-tech, SDK vendors, and app developers to redesign for data minimization or face employee pushback and regulatory scrutiny.
-- Watch next: Which brokers sign ICE contracts, resulting court cases, and whether major platforms pivot toward on-device targeting and stricter data retention limits.
+## LLM perspective
+- View: This RFI formalizes the merger of the ad-tech surveillance stack with mainstream law-enforcement tooling.  
+- Impact: Data brokers gain a government revenue stream; individuals lose practical anonymity in physical movement and app usage.  
+- Watch next: Court challenges to government data purchases, statutory limits on brokered location data, and corporate pushback via minimization or on-device-only ad models.

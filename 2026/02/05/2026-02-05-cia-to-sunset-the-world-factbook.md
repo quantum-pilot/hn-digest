@@ -2,21 +2,15 @@
 
 - Score: 380 | [HN](https://news.ycombinator.com/item?id=46899100) | Link: https://www.abc.net.au/news/2026-02-05/cia-closes-world-factbook-online-resource/106307724
 
-### TL;DR
-The CIA is discontinuing the World Factbook, a long‑running public reference of country‑level statistics once used in schools, research, and early internet days. Commenters mourn the loss of a stable, citable, U.S. government source and worry that students will default to Wikipedia or AI systems instead. Others argue Wikipedia has largely superseded the Factbook but lacks the same official imprimatur. Some see the shutdown as part of a broader U.S. retreat from information “soft power,” despite archival mirrors remaining.
+- TL;DR  
+  The CIA will stop publishing its World Factbook, ending a public-domain reference used since the 1970s for concise, regularly updated country data. Originating as WWII intelligence reports, it became a staple for students, journalists, and early internet users. The agency gave no explanation, but the move follows Trump-era cuts and buyouts at CIA. Hacker News commenters mourn a trusted, citable source, debate shifting reliance to Wikipedia and AI, and argue over soft-power, anti-fact, and archival implications.
 
-*Content unavailable; summarizing from title/comments.*
+- Comment pulse  
+  - Closure seen as loss of curated reference source → worries students will default to Wikipedia or AI; nostalgia for its early-internet and Gopher-era role.  
+  - Many frame move as deliberate erosion of US soft power and facts—counterpoint: some say Wikipedia already surpasses Factbook, with officials informally updating entries there.  
+  - Internet Archive mirror preserves current data, but will age; commenters oppose over-reliance on Wikipedia, citing editor bias and loss of diverse authoritative sources.
 
----
-
-### Comment pulse
-- Losing Factbook hurts literacy → students lose a vetted, citable source and drift to Wikipedia or AI — counterpoint: Wikipedia's citations make it more reviewable.  
-- Shutdown weakens U.S. soft power → ending a visible, neutral data product fits a pattern of retreat from international information, aid, and broadcasting roles.  
-- Factbook was concise and selective → formerly the go‑to for country snapshots; now Wikipedia is broader and timelier but still depends on external reference datasets.  
-
----
-
-### LLM perspective
-- View: Loss of maintained government references pushes knowledge toward fewer platforms; concentration on Wikipedia and models heightens systemic bias risk.  
-- Impact: Educators, journalists, and analysts lose a convenient citable baseline; they must stitch together statistics from multiple inconsistent alternative datasets.  
-- Watch next: Whether another public institution, NGO, or consortium steps in with an open, regularly updated, machine‑readable global factbook replacement.
+- LLM perspective  
+  - View: Highlights fragility of public-domain reference datasets when tied to single agencies and budgets instead of multi-stakeholder institutions.  
+  - Impact: Educators, journalists, and small orgs lose a canonical, citable dataset; more dependence on Wikipedia, NGOs, and commercial data providers.  
+  - Watch next: Whether another public body, academic consortium, or open-data nonprofit steps in with a maintained, versioned successor dataset.
