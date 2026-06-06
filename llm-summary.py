@@ -13,6 +13,7 @@ import logging
 import os
 import re
 import requests
+import subprocess
 import sys
 from bs4 import BeautifulSoup
 from slugify import slugify
@@ -272,7 +273,45 @@ def _working_path(name: str) -> Tuple[str, bool]:
     return base_dir, fpath, os.path.isfile(fpath)
 
 
-def _check_batch(ref_file: Path, batch_id: str):
+def _git(*args: str) -> None:
+    logging.info("Running git %s", " ".join(args))
+    subprocess.run(["git", *args], check=True)
+
+
+def _has_git_changes() -> bool:
+    proc = subprocess.run(
+        ["git", "status", "--porcelain"],
+        check=True,
+        capture_output=True,
+        text=True,
+    )
+    return bool(proc.stdout.strip())
+
+
+def _read_batch_ref(ref_file: Path):
+    raw = ref_file.read_text().strip()
+    if not raw:
+        return None
+    try:
+        data = json.loads(raw)
+    except json.JSONDecodeError:
+        return {"batch_id": raw, "items": None}
+    if isinstance(data, dict) and data.get("batch_id"):
+        return data
+    raise ValueError(f"Unexpected batch ref format in {ref_file}: {raw[:CLIP_ERROR_CONTENT]}")
+
+
+def _write_batch_ref(ref_file: Path, batch_id: str, items: List[Tuple[str, str]]) -> None:
+    ref_file.write_text(
+        json.dumps(
+            {"batch_id": batch_id, "items": [filename for filename, _ in items]},
+            ensure_ascii=False,
+        )
+    )
+
+
+def _check_batch(ref_file: Path, batch_ref: Dict[str, Any]):
+    batch_id = batch_ref["batch_id"]
     rr = HTTP.get(
         f"http://{LITELLM_HOST}/v1/batches/{batch_id}",
         headers=LITELLM_HEADERS,
@@ -309,14 +348,15 @@ def _check_batch(ref_file: Path, batch_id: str):
     )[0].split(",")[-1]
     assert out_file_id.startswith("file-"), f"Unexpected output file id: {out_file_id}"
 
-    must_exist_items = set()
-    for md_path in Path(ref_file.parent).rglob("*.md"):
-        must_exist_items.add(md_path.name)
+    if batch_ref.get("items"):
+        must_exist_items = set(batch_ref["items"])
+    else:
+        must_exist_items = {md_path.name for md_path in Path(ref_file.parent).rglob("*.md")}
 
     for line in _fetch_file(out_file_id).splitlines():
         entry = json.loads(line)
         filename = entry["custom_id"]
-        must_exist_items.remove(filename)
+        must_exist_items.discard(filename)
         _, filepath, exists = _working_path(filename)
         write_mode = "a" if exists else "w"
         if not exists:
@@ -326,12 +366,15 @@ def _check_batch(ref_file: Path, batch_id: str):
             txt = resp["body"]["choices"][0]["message"]["content"]
             with open(filepath, write_mode, encoding="utf-8") as f:
                 f.write(txt + "\n")
-        os.system(f"git add {filepath}")
+        _git("add", filepath)
 
     os.remove(ref_file)
-    os.system(f"git commit -m '{ref_file.name[:10]}'")
-    os.system("git push origin master")
-    notify(f"Digest ready for {ref_file.parent}: https://github.com/quantum-pilot/hn-digest/tree/master/{ref_file.parent}")
+    if _has_git_changes():
+        _git("commit", "-m", ref_file.name[:10])
+        _git("push", "origin", "master")
+        notify(f"Digest ready for {ref_file.parent}: https://github.com/quantum-pilot/hn-digest/tree/master/{ref_file.parent}")
+    else:
+        logging.info(f"No git changes for {ref_file.parent}.")
 
     items = []
     for filename in errorred + list(must_exist_items):
@@ -342,7 +385,7 @@ def _check_batch(ref_file: Path, batch_id: str):
     if items:
         notify(f"Resubmitting {len(items)} errored items from batch for {ref_file.parent}...")
         new_batch_id = submit_batch_summaries(items, items[0][0][:10])
-        ref_file.write_text(new_batch_id)
+        _write_batch_ref(ref_file, new_batch_id, items)
 
 
 def _process_day(utc_yday: str, stories: List[Dict[str, Any]]):
@@ -440,16 +483,8 @@ def _process_day(utc_yday: str, stories: List[Dict[str, Any]]):
         logging.info(f"No new items to process for {utc_yday}.")
         return
 
-    if items and len(items) != len(cleaned):
-        logging.warning(
-            f"Items mismatch: {len(items)}/{len(cleaned)}, removing output files for {utc_yday}."
-        )
-        for fname, _ in items:
-            logging.info(f"Removing output file for: {fname}")
-            _, fpath, exists = _working_path(fname)
-            if exists:
-                os.remove(fpath)
-        return
+    if len(items) != len(cleaned):
+        logging.info(f"Submitting {len(items)} missing items for {utc_yday}; {len(cleaned) - len(items)} already exist.")
 
     _, current_ref_file, ref_exists = _working_path(f"{utc_yday}-{BATCH_REF_FILE}")
     if ref_exists:
@@ -458,8 +493,7 @@ def _process_day(utc_yday: str, stories: List[Dict[str, Any]]):
 
     notify(f"Submitting batch for {utc_yday}.")
     batch_id = submit_batch_summaries(items, utc_yday)
-    with open(current_ref_file, "w") as f:
-        f.write(batch_id)
+    _write_batch_ref(Path(current_ref_file), batch_id, items)
 
 
 if __name__ == "__main__":
@@ -478,10 +512,9 @@ if __name__ == "__main__":
 
     for ref in Path(".").rglob(f"*{BATCH_REF_FILE}"):
         logging.info(f"Checking ref file: {ref}")
-        with open(ref, "r") as f:
-            last_batch = f.read().strip()
-        if last_batch:
-            _check_batch(ref, last_batch)
+        batch_ref = _read_batch_ref(ref)
+        if batch_ref:
+            _check_batch(ref, batch_ref)
         else:
             logging.info(f"Removed empty ref file: {ref}")
             os.remove(ref)
