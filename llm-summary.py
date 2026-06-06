@@ -34,6 +34,7 @@ CLIP_ERROR_CONTENT = 200
 STORIES_PER_DAY = 20
 
 BATCH_REF_FILE = "LAST_BATCH_ID.txt"
+STATE_DIR = Path(os.environ.get("HN_DIGEST_STATE_DIR", ".hn-state"))
 FORCE_PAGE = "1"
 FORCE_UTC_DAY = None
 args = sys.argv[1:]
@@ -281,6 +282,56 @@ def _working_path(name: str) -> Tuple[str, bool]:
     return base_dir, fpath, os.path.isfile(fpath)
 
 
+def _story_filename(utc_day: str, story: Dict[str, Any]) -> str:
+    url = story.get("url")
+    suffix = slugify(story["title"])[:50] if url else story["id"]
+    return f"{utc_day}-{suffix}.md"
+
+
+def _day_state_path(utc_day: str) -> Path:
+    STATE_DIR.mkdir(parents=True, exist_ok=True)
+    return STATE_DIR / f"{utc_day}.json"
+
+
+def _read_day_state(utc_day: str):
+    path = _day_state_path(utc_day)
+    if not path.is_file():
+        return None
+    return json.loads(path.read_text())
+
+
+def _write_day_state(state: Dict[str, Any]) -> None:
+    path = _day_state_path(state["day"])
+    tmp_path = path.with_suffix(".tmp")
+    tmp_path.write_text(json.dumps(state, ensure_ascii=False, sort_keys=True))
+    tmp_path.replace(path)
+
+
+def _new_day_state(utc_day: str, target_files: List[str]) -> Dict[str, Any]:
+    return {
+        "version": 1,
+        "day": utc_day,
+        "target_files": target_files,
+        "completed_files": [],
+        "complete": False,
+    }
+
+
+def _mark_day_completed(utc_day: str, completed_files: set[str]) -> None:
+    state = _read_day_state(utc_day)
+    if not state:
+        state = _new_day_state(utc_day, sorted(completed_files))
+    state["completed_files"] = sorted(set(state.get("completed_files", [])) | completed_files)
+    target_files = set(state.get("target_files", []))
+    state["complete"] = bool(target_files) and target_files.issubset(set(state["completed_files"]))
+    _write_day_state(state)
+
+
+def _existing_digest_files(utc_day: str) -> set[str]:
+    base_dir, _, _ = _working_path(f"{utc_day}-probe.md")
+    return {p.name for p in Path(base_dir).glob(f"{utc_day}-*.md")}
+
+
 def _git(*args: str) -> None:
     logging.info("Running git %s", " ".join(args))
     subprocess.run(["git", *args], check=True)
@@ -345,6 +396,7 @@ def _batch_filenames(ref_file: Path, batch_ref: Dict[str, Any]) -> set[str]:
 
 def _check_batch(ref_file: Path, batch_ref: Dict[str, Any]):
     batch_id = batch_ref["batch_id"]
+    utc_day = ref_file.name[:10]
     rr = HTTP.get(
         f"http://{LITELLM_HOST}/v1/batches/{batch_id}",
         headers=LITELLM_HEADERS,
@@ -372,22 +424,18 @@ def _check_batch(ref_file: Path, batch_ref: Dict[str, Any]):
             filename = request_to_filename.get(entry["custom_id"], entry["custom_id"])
             errorred.append(filename)
 
-    if errorred == STORIES_PER_DAY:
-        notify(f"All items in batch failed for {ref_file.parent}, needs review.")
-        return
-
     litellm_out = base64.b64decode(batch["output_file_id"]).decode("utf-8")
     out_file_id = list(
         filter(lambda s: s.startswith("llm_output_file_id,"), litellm_out.split(";"))
     )[0].split(",")[-1]
     assert out_file_id.startswith("file-"), f"Unexpected output file id: {out_file_id}"
 
-    must_exist_items = _batch_filenames(ref_file, batch_ref)
+    unfinished_items = _batch_filenames(ref_file, batch_ref)
+    completed_now = set()
 
     for line in _fetch_file(out_file_id).splitlines():
         entry = json.loads(line)
         filename = request_to_filename.get(entry["custom_id"], entry["custom_id"])
-        must_exist_items.discard(filename)
         _, filepath, exists = _working_path(filename)
         write_mode = "a" if exists else "w"
         if not exists:
@@ -397,7 +445,12 @@ def _check_batch(ref_file: Path, batch_ref: Dict[str, Any]):
             txt = resp["body"]["choices"][0]["message"]["content"]
             with open(filepath, write_mode, encoding="utf-8") as f:
                 f.write(txt + "\n")
-        _git("add", filepath)
+            unfinished_items.discard(filename)
+            completed_now.add(filename)
+            _git("add", filepath)
+        else:
+            logging.error(f"Batch item failed for {filename}: {resp}")
+            errorred.append(filename)
 
     os.remove(ref_file)
     if _has_git_changes():
@@ -407,8 +460,11 @@ def _check_batch(ref_file: Path, batch_ref: Dict[str, Any]):
     else:
         logging.info(f"No git changes for {ref_file.parent}.")
 
+    if completed_now:
+        _mark_day_completed(utc_day, completed_now)
+
     items = []
-    for filename in errorred + list(must_exist_items):
+    for filename in sorted(set(errorred) | unfinished_items):
         _, filepath, _ = _working_path(filename)
         raw_text = filepath[:-3] + ".txt"
         with open(raw_text, "r", encoding="utf-8") as f:
@@ -417,6 +473,55 @@ def _check_batch(ref_file: Path, batch_ref: Dict[str, Any]):
         notify(f"Resubmitting {len(items)} errored items from batch for {ref_file.parent}...")
         new_batch_id, requests = submit_batch_summaries(items, items[0][0][:10])
         _write_batch_ref(ref_file, new_batch_id, requests)
+    else:
+        state = _read_day_state(utc_day)
+        if state and state.get("complete"):
+            logging.info(f"Day {utc_day} is complete; future rank drift will be ignored.")
+
+
+def _prepare_item(utc_yday: str, story: Dict[str, Any]) -> Tuple[str, str]:
+    sid = story["id"]
+    title = story["title"]
+    url = story.get("url")
+    score = story["score"]
+    filename = _story_filename(utc_yday, story)
+    _, filepath, _ = _working_path(filename)
+
+    hn_link = f"https://news.ycombinator.com/item?id={sid}"
+    resolved_url = url or hn_link
+    md = f"# {title}\n\n- Score: {score} | [HN]({hn_link}) | Link: {resolved_url}\n\n"
+    if not os.path.exists(filepath):
+        logging.info(f"Writing summary file to {filepath}...")
+        with open(filepath, "w", encoding="utf-8") as f:
+            f.write(md)
+
+    raw_text = filepath[:-3] + ".txt"
+    if os.path.isfile(raw_text):
+        logging.info(f"Loading previously fetched content from {raw_text}...")
+        with open(raw_text, "r", encoding="utf-8") as f:
+            return filename, f.read()
+
+    page_content = ""
+    if url:
+        try:
+            logging.info(f"Fetching article content from {url}...")
+            page_content = _webfetch(url)
+        except Exception as e:
+            logging.error(f"Fetch failed for {url}: {e}")
+
+    comments = ""
+    try:
+        logging.info(f"Fetching comments for post {sid}...")
+        comments = _extract_comments(int(sid))
+        if story.get("merged_comments"):
+            comments += f"\n\nMore comments: \n{story['merged_comments']}"
+    except Exception as e:
+        logging.error(f"Comments fetch failed for {hn_link}: {e}")
+
+    user_msg = _user_msg(title, page_content, comments)
+    with open(raw_text, "w", encoding="utf-8") as f:
+        f.write(user_msg)
+    return filename, user_msg
 
 
 def _process_day(utc_yday: str, stories: List[Dict[str, Any]]):
@@ -460,67 +565,60 @@ def _process_day(utc_yday: str, stories: List[Dict[str, Any]]):
             cleaned[s["id"]] = s
 
     stories = list(cleaned.values())
+    story_by_filename = {_story_filename(utc_yday, s): s for s in stories}
+    current_targets = list(story_by_filename.keys())
+
+    _, current_ref_file, ref_exists = _working_path(f"{utc_yday}-{BATCH_REF_FILE}")
+    state = _read_day_state(utc_yday)
+
+    if state and state.get("complete"):
+        logging.info(f"Day {utc_yday} is already complete; ignoring current rank changes.")
+        return
+
+    if ref_exists:
+        logging.info(f"Ref file already exists: {current_ref_file}; waiting for existing batch.")
+        return
+
+    if not state:
+        existing_files = _existing_digest_files(utc_yday)
+        if len(existing_files) >= STORIES_PER_DAY:
+            state = _new_day_state(utc_yday, sorted(existing_files))
+            state["completed_files"] = sorted(existing_files)
+            state["complete"] = True
+            _write_day_state(state)
+            logging.info(f"Bootstrapped completed state for {utc_yday} from {len(existing_files)} existing files.")
+            return
+
+        state = _new_day_state(utc_yday, current_targets)
+        _write_day_state(state)
+        logging.info(f"Initialized target set for {utc_yday} with {len(current_targets)} items.")
+
+    target_files = list(state.get("target_files", []))
+    completed_files = set(state.get("completed_files", []))
+    remaining_files = [filename for filename in target_files if filename not in completed_files]
+
     items = []
-    for i, s in enumerate(stories):
-        sid = s["id"]
-        title = s["title"]
-        url = s.get("url")
-        score = s["score"]
-        logging.info(f"Processing {i + 1}/{len(stories)}: {title} ({sid})")
-        filename = f"{utc_yday}-{(slugify(title)[:50] if url else sid)}.md"
-        _, filepath, exists = _working_path(filename)
-        if exists:
-            logging.info(f"Skipping already uploaded: {filename}")
-            continue
-
-        hn_link = f"https://news.ycombinator.com/item?id={sid}"
-        resolved_url = url or hn_link
-        md = f"# {title}\n\n- Score: {score} | [HN]({hn_link}) | Link: {resolved_url}\n\n"
-        if not os.path.exists(filepath):
-            logging.info(f"Writing summary file to {filepath}...")
-            with open(filepath, "w", encoding="utf-8") as f:
-                f.write(md)
-
+    for filename in remaining_files:
+        _, filepath, _ = _working_path(filename)
         raw_text = filepath[:-3] + ".txt"
         if os.path.isfile(raw_text):
             logging.info(f"Loading previously fetched content from {raw_text}...")
             with open(raw_text, "r", encoding="utf-8") as f:
                 items.append((filename, f.read()))
             continue
-
-        page_content = ""
-        if url:
-            try:
-                logging.info(f"Fetching article content from {url}...")
-                page_content = _webfetch(url)
-            except Exception as e:
-                logging.error(f"Fetch failed for {url}: {e}")
-
-        comments = ""
-        try:
-            logging.info(f"Fetching comments for post {sid}...")
-            comments = _extract_comments(int(sid))
-            if s.get("merged_comments"):
-                comments += f"\n\nMore comments: \n{s['merged_comments']}"
-        except Exception as e:
-            logging.error(f"Comments fetch failed for {hn_link}: {e}")
-
-        user_msg = _user_msg(title, page_content, comments)
-        with open(raw_text, "w", encoding="utf-8") as f:
-            f.write(user_msg)
-        items.append((filename, user_msg))
+        if filename in story_by_filename:
+            story = story_by_filename[filename]
+            logging.info(f"Preparing target item: {story['title']} ({story['id']})")
+            items.append(_prepare_item(utc_yday, story))
+            continue
+        logging.error(f"Missing raw input for frozen target {filename}; current ranks no longer include it.")
 
     if not items:
-        logging.info(f"No new items to process for {utc_yday}.")
+        logging.info(f"No incomplete target items to process for {utc_yday}.")
         return
 
-    if len(items) != len(cleaned):
-        logging.info(f"Submitting {len(items)} missing items for {utc_yday}; {len(cleaned) - len(items)} already exist.")
-
-    _, current_ref_file, ref_exists = _working_path(f"{utc_yday}-{BATCH_REF_FILE}")
-    if ref_exists:
-        logging.error(f"Ref file already exists: {current_ref_file}, skipping.")
-        return
+    if len(items) != len(target_files):
+        logging.info(f"Submitting {len(items)} incomplete target items for {utc_yday}; {len(target_files) - len(items)} already completed.")
 
     notify(f"Submitting batch for {utc_yday}.")
     batch_id, requests = submit_batch_summaries(items, utc_yday)
