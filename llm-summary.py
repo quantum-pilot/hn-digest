@@ -15,6 +15,7 @@ import re
 import requests
 import subprocess
 import sys
+import uuid
 from bs4 import BeautifulSoup
 from slugify import slugify
 from typing import Any, List, Dict
@@ -184,9 +185,16 @@ def _make_line(custom_id: str, system_prompt: str, user_text: str) -> dict:
     }
 
 
-def submit_batch_summaries(items: List[Tuple[str, str]], run_tag: str) -> str:
+def _make_request_id(run_tag: str, index: int) -> str:
+    return f"{run_tag}-{uuid.uuid4().hex[:16]}-{index:02d}"
+
+
+def submit_batch_summaries(items: List[Tuple[str, str]], run_tag: str) -> Tuple[str, List[Dict[str, str]]]:
     lines = []
-    for custom_id, user_msg in items:
+    requests = []
+    for index, (filename, user_msg) in enumerate(items):
+        custom_id = _make_request_id(run_tag, index)
+        requests.append({"custom_id": custom_id, "filename": filename})
         lines.append(_make_line(custom_id, SYSTEM_PROMPT, user_msg))
 
     jsonl_bytes = io.BytesIO()
@@ -231,7 +239,7 @@ def submit_batch_summaries(items: List[Tuple[str, str]], run_tag: str) -> str:
     r.raise_for_status()
     resp = r.json()
     logging.info(f"Batch submission: {resp}")
-    return resp["id"]
+    return resp["id"], requests
 
 
 def _webfetch(url: str) -> str:
@@ -301,13 +309,38 @@ def _read_batch_ref(ref_file: Path):
     raise ValueError(f"Unexpected batch ref format in {ref_file}: {raw[:CLIP_ERROR_CONTENT]}")
 
 
-def _write_batch_ref(ref_file: Path, batch_id: str, items: List[Tuple[str, str]]) -> None:
+def _write_batch_ref(ref_file: Path, batch_id: str, requests: List[Dict[str, str]]) -> None:
     ref_file.write_text(
         json.dumps(
-            {"batch_id": batch_id, "items": [filename for filename, _ in items]},
+            {"batch_id": batch_id, "requests": requests},
             ensure_ascii=False,
         )
     )
+
+
+def _request_filename_map(batch_ref: Dict[str, Any]) -> Dict[str, str]:
+    requests = batch_ref.get("requests")
+    if requests:
+        return {r["custom_id"]: r["filename"] for r in requests}
+
+    legacy_items = batch_ref.get("items")
+    if legacy_items:
+        mapping = {}
+        for item in legacy_items:
+            if isinstance(item, dict):
+                mapping[item["custom_id"]] = item["filename"]
+            else:
+                mapping[item] = item
+        return mapping
+
+    return {}
+
+
+def _batch_filenames(ref_file: Path, batch_ref: Dict[str, Any]) -> set[str]:
+    mapping = _request_filename_map(batch_ref)
+    if mapping:
+        return set(mapping.values())
+    return {md_path.name for md_path in Path(ref_file.parent).rglob("*.md")}
 
 
 def _check_batch(ref_file: Path, batch_ref: Dict[str, Any]):
@@ -329,13 +362,14 @@ def _check_batch(ref_file: Path, batch_ref: Dict[str, Any]):
         return
 
     notify(f"Batch for {ref_file.parent} {status}, processing results...")
+    request_to_filename = _request_filename_map(batch_ref)
     errorred = []
     if batch.get("error_file_id"):
         notify(f"Batch for {ref_file.parent} has errors, checking...")
         output = _fetch_file(batch["error_file_id"])
         for line in output.splitlines():
             entry = json.loads(line)
-            filename = entry["custom_id"]
+            filename = request_to_filename.get(entry["custom_id"], entry["custom_id"])
             errorred.append(filename)
 
     if errorred == STORIES_PER_DAY:
@@ -348,14 +382,11 @@ def _check_batch(ref_file: Path, batch_ref: Dict[str, Any]):
     )[0].split(",")[-1]
     assert out_file_id.startswith("file-"), f"Unexpected output file id: {out_file_id}"
 
-    if batch_ref.get("items"):
-        must_exist_items = set(batch_ref["items"])
-    else:
-        must_exist_items = {md_path.name for md_path in Path(ref_file.parent).rglob("*.md")}
+    must_exist_items = _batch_filenames(ref_file, batch_ref)
 
     for line in _fetch_file(out_file_id).splitlines():
         entry = json.loads(line)
-        filename = entry["custom_id"]
+        filename = request_to_filename.get(entry["custom_id"], entry["custom_id"])
         must_exist_items.discard(filename)
         _, filepath, exists = _working_path(filename)
         write_mode = "a" if exists else "w"
@@ -384,8 +415,8 @@ def _check_batch(ref_file: Path, batch_ref: Dict[str, Any]):
             items.append((filename, f.read()))
     if items:
         notify(f"Resubmitting {len(items)} errored items from batch for {ref_file.parent}...")
-        new_batch_id = submit_batch_summaries(items, items[0][0][:10])
-        _write_batch_ref(ref_file, new_batch_id, items)
+        new_batch_id, requests = submit_batch_summaries(items, items[0][0][:10])
+        _write_batch_ref(ref_file, new_batch_id, requests)
 
 
 def _process_day(utc_yday: str, stories: List[Dict[str, Any]]):
@@ -492,8 +523,8 @@ def _process_day(utc_yday: str, stories: List[Dict[str, Any]]):
         return
 
     notify(f"Submitting batch for {utc_yday}.")
-    batch_id = submit_batch_summaries(items, utc_yday)
-    _write_batch_ref(Path(current_ref_file), batch_id, items)
+    batch_id, requests = submit_batch_summaries(items, utc_yday)
+    _write_batch_ref(Path(current_ref_file), batch_id, requests)
 
 
 if __name__ == "__main__":
