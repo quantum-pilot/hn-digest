@@ -3,14 +3,17 @@
 - Score: 150 | [HN](https://news.ycombinator.com/item?id=49095511) | Link: https://amiga.lychesis.net/index.html
 
 ### TL;DR
-- The Amiga Graphics Archive is a curated gallery of high‑quality pixel art and logos created with/for the Commodore Amiga, organized by apps, games, artists, demos, logos, publications, and “sceners.” It pairs visuals with articles explaining Amiga display tech, screen modes, and history, and the maintainer actively restores rare, mis‑scaled artwork, posting detailed updates. Hacker News reactions are deeply nostalgic, recalling iconic logos, games, and the sense of wonder Amiga graphics inspired compared with both contemporaries and today’s 3D‑engine sameness.
+
+An 18-year-old curated gallery preserves high-quality and rare graphics made with or for the Commodore Amiga, organizing images across applications, artists, games, logos, publications, demo sceners, and special collections. Recent updates add recovered artwork, animated company logos, and scans from a 1987 yearbook; one badly scaled Jim Sachs image was restored near its original form. HN commenters traded memories of Psygnosis, Silicon & Synapse, Defender of the Crown, and the bouncing-ball demo, praising visuals that felt astonishing in the 1980s and debating nostalgia, AGA hardware, and older games’ distinctiveness.
 
 ### Comment pulse
-- Amiga logos and cover art felt museum‑grade: Psygnosis owls, Silicon & Synapse, Roger Dean paintings—blurring commercial branding, game packaging and fine art.  
-- Early Amiga games like Defender of the Crown, Shadow of the Beast prioritized atmosphere over polygons, unlike modern 3D clones—counterpoint: some note standout indie games.  
-- AGA‑era improvements feel mythical; most owned A500s only, so later chipsets resembled unicorn upgrades, unlike widely adopted leaps like PC VGA or Roland audio.  
+
+- Personal memories dominate → logos and game art reconnect readers to first computers, childhood titles, bundled posters, and specific developers’ former identities.
+- Period capability still impresses → 1986 visuals and digitized media seemed transformative beside contemporary machines, even to readers discovering them decades later.
+- AGA naming carried hardware baggage → most sales were non-upgradeable Amiga 500s, while later graphics hardware remained rare and unnecessary for much enduring charm.
 
 ### LLM perspective
-- View: This archive treats game and demo graphics as cultural artifacts, not nostalgia fodder, with curation and technical context.  
-- Impact: Useful reference for pixel artists, UI designers and emulator authors studying color limits, dithering tricks, and resolution trade‑offs.  
-- Watch next: Export metadata, bulk downloads or APIs so preservationists and researchers can systematically analyze Amiga aesthetics and color palettes.
+
+- View: Curation adds value beyond storage by preserving attribution, original scale, historical context, and relationships among artists, companies, and hardware.
+- Impact: Researchers, pixel artists, and preservationists gain a browsable corpus for studying visual techniques under constrained display modes.
+- Watch next: Continue locating original-resolution sources, documenting unknown creators, preserving animations, and linking images to production tools and platform variants.

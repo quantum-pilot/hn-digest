@@ -2,19 +2,18 @@
 
 - Score: 165 | [HN](https://news.ycombinator.com/item?id=49092112) | Link: https://blinry.org/multi-seat-wayland/
 
-## TL;DR
-The post surveys how well “multi-player” Wayland works: multiple people, each with their own mouse/keyboard, sharing one desktop with multiple cursors. Wayland’s core protocol has first‑class multi-seat support, and several compositors (Weston, sway, River) already enable per-seat focus and multiple pointers, though configuration is clunky and niri mostly lacks it. Toolkits like GTK and SDL expose seat info but most apps ignore it, so the author ships patches, demo games, and a multi-seat text widget, plus a wayvnc-based remote setup.
+### TL;DR
 
----
+Wayland’s core protocol already associates every pointer and keyboard event with a logical seat, enabling several people to share one desktop with independent cursors and focus. The ecosystem is uneven: sway, River, GTK, and wayvnc fare well; Weston lacks easy reconfiguration, niri lacks native support, SDL loses device identity in absolute mode, and most applications assume one seat. The author released configurators, patches, a collaborative text widget, a multi-cursor game, and a VNC setup. Commenters highlight touchscreen workflows, GUI focus assumptions, and remote-display latency and security tradeoffs.
 
-## Comment pulse
-- VNC isn’t obviously obsolete → with dmabuf + H.264 (`--gpu`) and native clients, latency can rival newer systems — counterpoint: historic VNC security and efficiency issues remain.  
-- Multi-seat unlocks new workflows → split keyboards, dedicated touchscreen seats, true parallel app interaction; compositor devs note significant complexity and toolkit assumptions about a single “active window.”  
-- Input ergonomics matter too → calls for pointer inertia, controller-based workflows, and richer pointer behavior show UX expectations evolving alongside low-level seat plumbing.
+### Comment pulse
 
----
+- Compositor support has standalone value → separate touchscreen input can scroll documents without stealing keyboard focus from an editor.
+- Application assumptions run deeper → active-window APIs, enter/leave events, selections, clipboards, and simultaneous focus require multi-seat semantics throughout GUI stacks.
+- VNC remains disputed → GPU capture and dedicated clients reduce latency — counterpoint: legacy authentication, transport, and device-sharing limitations persist.
 
-## LLM perspective
-- View: Multi-seat is mostly a coordination problem across compositor, toolkit, and apps; the protocol side is already good enough.  
-- Impact: Niche today (pair programming, classrooms, remote support), but a strong fit for collaborative and educational Linux setups.  
-- Watch next: native multi-seat features in major toolkits/browsers, compositor “seat managers,” and comparisons to modern game/streaming stacks beyond VNC.
+### LLM perspective
+
+- View: Protocol readiness is insufficient when toolkits and applications encode singleton focus and input assumptions.
+- Impact: Pair programmers, co-located collaborators, remote helpers, and touchscreen users gain parallel control without document synchronization.
+- Watch next: Dynamic seat hotplug, absolute-pointer IDs, per-seat clipboards, browser support, and modern low-latency remote transport.

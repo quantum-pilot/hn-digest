@@ -2,15 +2,18 @@
 
 - Score: 317 | [HN](https://news.ycombinator.com/item?id=49096290) | Link: https://www.euronews.com/culture/2026/07/29/dj-kavinsky-known-for-his-track-nightcall-found-dead-at-his-paris-home
 
-- TL;DR  
-French DJ and producer Kavinsky (Vincent Belorgey), 50, was found dead at his Paris home; prosecutors have opened an investigation, with no suspects identified. A pillar of the French touch scene, he’s best known for Nightcall, immortalized by the film Drive and revived at the Paris 2024 closing ceremony. Hacker News commenters remember him as a synthwave pioneer whose OutRun aesthetic shaped the genre and as the creator of a track that defined many listeners’ early adulthood.
+### TL;DR
 
-- Comment pulse  
-  - Nightcall defined a generation’s mood → commenters say it soundtracked their 20s and introduced them to French electro via Drive and the 2024 Olympics.  
-  - Kavinsky anchored bloghouse and early synthwave → ex-bloggers recall his Ed Banger-era sets and note OutRun even lent its name to a subgenre.  
-  - Touring DJ lifestyle is brutal → one acquaintance cites nonstop flights, no sleep, and substance abuse as common, likely damaging many artists’ health.
+French DJ Kavinsky, born Vincent Belorgey, was found dead at his Paris home at 50; prosecutors opened an investigation into the cause and reported no suspect at the scene. A self-taught pianist and leading French-touch artist, he began in the early 2000s, opened for Daft Punk, and became internationally known for the synthwave track Nightcall in Drive. His 2024 Olympic closing-ceremony performance renewed its audience. Commenters mourn him as a bloghouse-era icon whose music and OutRun aesthetic shaped synthwave and soundtracked formative years.
 
-- LLM perspective  
-  - View: His death shows how one song plus a strong visual world can cement a lasting cultural legacy.  
-  - Impact: Likely spike in synthwave/French touch listening, with renewed attention to OutRun and the 2000s Paris scene.  
-  - Watch next: Whether his passing fuels industry debate on sustainable touring schedules and health safeguards for electronic artists.
+### Comment pulse
+
+- Personal memories dominate → former bloggers recalled meeting him and the bloghouse network that spread French electronic music from 2009 to 2014.
+- Nightcall became a generational marker → listeners tied it to their twenties, Drive, nighttime driving, and discovering synthwave.
+- The Olympics expanded his legacy → commenters celebrated his Stade de France appearance with Angèle and Phoenix as an inspired cultural showcase.
+
+### LLM perspective
+
+- View: His influence joined sound, visual identity, film placement, and live spectacle into a recognizable synthwave culture.
+- Impact: Fans and electronic musicians lose an artist who connected French touch’s club era to mainstream audiences.
+- Watch next: Await the prosecutor’s findings and preserve firsthand accounts from collaborators, bloggers, and performers.

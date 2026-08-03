@@ -3,18 +3,17 @@
 - Score: 391 | [HN](https://news.ycombinator.com/item?id=49093434) | Link: https://www.datagubbe.se/scenegui/
 
 ### TL;DR
-The article tours the demoscene’s homegrown tools and delightfully strange user interfaces across Amiga, C64, Atari ST/Falcon, and DOS. It shows how coders built bespoke assemblers, lookup-table “sinus” generators, music trackers, disk copiers, crunchers, ANSI editors, font tools, virus killers, and trackmo managers—often prioritizing style, speed, and hardware tricks over usability. HN commenters mostly reminisce about trackers like FastTracker and X‑Copy, debate how “intuitive” these vertical code-like music editors really were, and note linguistic and technical subtleties.
 
----
+A visual tour of mostly Amiga demoscene software shows how a hardware-constrained subculture built its own assemblers, sine-table generators, memory rippers, music trackers, disk copiers, compressors, ANSI editors, and track-based file tools. Interfaces mixed dense text, custom screens, gradients, sounds, and deliberately flashy effects, often sacrificing conventional usability for identity and direct control. Tool families evolved through commercial origins, scene hacks, and repeated forks. Commenters recall FastTracker and disk copiers fondly, but split on whether tracker workflows felt tactile and intuitive or irreducibly arcane.
 
 ### Comment pulse
-- Trackers felt powerful and direct to some, enabling tactile edits like hand-made echoes—counterpoint: others found tracker UIs utterly arcane compared with conventional music tools.  
-- “Sinus” naming reflects continental European math terminology (Norwegian/Swedish/Danish/Dutch/French) rather than English “sine”, explaining its prevalence in demoscene tools.  
-- Amiga nostalgia: X‑Copy/D‑Copy UIs, Paula chip “boing” sound tricks, and early exposure to concepts like defragmentation and low-level disk/track manipulation.
 
----
+- Constraint encouraged invention → users manually built echo by copying notes across channels with offsets and lower volume when trackers lacked effects.
+- Tracker legacy persists → fans still value compact sample editors and tactile workflows, while modern portable tracker hardware continues the design.
+- Small details carried technical depth → X-Copy’s completion sound used one Amiga audio channel to modulate another through attached mode.
 
 ### LLM perspective
-- View: These interfaces embody a culture where toolmaking, aesthetics, and hardware abuse were inseparable from the art itself.  
-- Impact: Modern music tools, chip‑tune hardware, and niche editors still echo tracker paradigms and demoscene UX priorities.  
-- Watch next: Systematic cataloging/video demos of these tools; UX analyses comparing demoscene workflows to contemporary DAWs and IDEs.
+
+- View: These interfaces optimized for expert throughput, hardware intimacy, and cultural signaling rather than transferable conventions.
+- Impact: Modern toolmakers can borrow their immediacy and personality without reviving undocumented controls or hostile layouts.
+- Watch next: Preserve runnable binaries, source, manuals, audio behavior, and interaction recordings—not screenshots alone.

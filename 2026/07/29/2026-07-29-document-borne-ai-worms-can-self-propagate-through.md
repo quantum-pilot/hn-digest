@@ -3,14 +3,17 @@
 - Score: 320 | [HN](https://news.ycombinator.com/item?id=49096188) | Link: https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/
 
 ### TL;DR
-Researcher shows that Microsoft Copilot for Word can be exploited by hidden prompts inside documents which the model interprets as instructions, altering content (e.g., financial figures) and quietly copying the malicious prompt into new files. Those infected files then act as new vectors, creating a self-propagating “AI worm” across normal document workflows. Microsoft reproduced the issue but hasn’t closed the root class, which stems from LLMs co-processing untrusted content and trusted instructions in the same context.
+
+Hidden instructions in a source document can make Copilot for Word silently alter a draft and copy the prompt into it. The new document becomes a trusted-looking carrier that can infect later Copilot-assisted workflows without the original file. Microsoft mitigated reported payloads, but modified prompts reproduced the chain after 144 days of coordination and model upgrades; no robust class-wide fix existed at publication. HN commenters called instruction-data mixing architectural, warned broad agent permissions amplify damage, and debated whether authority-aware training can reliably separate malicious content from legitimate requests.
 
 ### Comment pulse
-- LLMs can’t reliably separate code from data → shared context lets attacker text steer behavior; likened to von Neumann machines and phishing humans.  
-- Some hope for partial fixes via instruction-authority levels or stronger models → others argue true separation is impossible in open-ended systems; humans fail similarly.  
-- Defensive response is user-driven → several uninstall local AI, avoid Copilot and browser agents, and push for open-source OS/browser stacks—counterpoint: vendors may reintroduce AI regardless.  
+
+- Architectural pessimists see no complete fix → untrusted text influences the same computation judging its authority — counterpoint: training explicit authority levels may reduce failures.
+- Agent autonomy magnifies impact → document injection becomes materially dangerous when models can access files, credentials, wallets, repositories, or external tools.
+- Some users choose abstention → disabling embedded assistants reduces exposure, though trusted browsers, vendors, and web applications remain part of the boundary.
 
 ### LLM perspective
-- View: Prompt-injection worms now work inside mainstream office suites, not just labs, forcing vendors to rethink how assistants handle attached content.  
-- Impact: Largest risk is silent data integrity erosion: financials, policies, and analyses subtly corrupted across organizations before anyone notices anomalies.  
-- Watch next: Worth tracking: provenance/traceability features in office tools, dedicated prompt-firewalls, and benchmarks measuring cross-document self-propagation rates under different mitigations.
+
+- View: Prompt injection here is an integrity and provenance failure, not merely a content-filtering problem.
+- Impact: Internally generated documents lose presumptive trust; partners may unknowingly relay manipulated figures and dormant instructions across organizational boundaries.
+- Watch next: Require source lineage, visible model-edit histories, content sanitization, least-privilege tools, and red-team tests measuring multi-generation propagation.

@@ -2,10 +2,18 @@
 
 - Score: 223 | [HN](https://news.ycombinator.com/item?id=49094346) | Link: https://micrologics.org/blog/sqlite-in-production-optimizing-wal-mode-concurrency-and-vfs-layers-for-low-latency-app-servers
 
-- TL;DR  
-    - The article argues SQLite can be a production primary database when co-located with the app for ultra-low latency. Key tunings: enable WAL mode plus `synchronous = NORMAL` to allow concurrent reads/writes with safe durability; set `busy_timeout` and use `BEGIN IMMEDIATE` for write transactions to avoid `SQLITE_BUSY`; enlarge cache and enable `mmap` for fewer disk hits. For durability/HA on ephemeral disks, pair SQLite with VFS-based replication (e.g., Litestream/LiteFS). Use it for read-heavy, sub-terabyte, single-region workloads.
+### TL;DR
 
-- LLM perspective  
-    - View: This pattern treats SQLite as an embedded OLTP engine, offloading “database” problems into OS, filesystem, and replication tools.  
-    - Impact: Simplifies ops for small/medium services and edge deployments, but shifts responsibility for backups, failover, and schema discipline onto app teams.  
-    - Watch next: Better SQLite observability, standardized HA/backup stacks, and benchmarks comparing tuned SQLite vs Postgres for realistic single-tenant, latency-sensitive apps.
+The article recommends production SQLite for read-heavy, single-server workloads: enable WAL, schedule checkpoints, use a busy timeout and immediate write transactions, enlarge caches, map files into memory, and replicate local storage. It argues this removes database network latency while retaining simple operations, but keeps PostgreSQL for geographically distributed writes or multi-terabyte data. Commenters challenge both authorship and advice, warning that NORMAL synchronization can lose committed rows, multiple writers may need application-level serialization, and schema migrations, type enforcement, attached databases, administration, and ephemeral disks require deliberate handling.
+
+### Comment pulse
+
+- Durability wording matters → NORMAL avoids corruption but can lose recent committed transactions; one user stopped row loss by switching to FULL.
+- Writer contention needs architecture → busy timeout delays failure, while an application lock can serialize MQTT ingestion and pruning transactions.
+- SQLite’s production tradeoffs extend beyond speed → critics cite weak schema alteration, loose typing, migration friction, and remote inspection challenges.
+
+### LLM perspective
+
+- View: SQLite succeeds when the application embraces single-writer ownership rather than pretending WAL creates a client-server concurrency model.
+- Impact: Teams trade network latency and operational simplicity for more responsibility around durability, migrations, observability, and failover.
+- Watch next: Benchmark workload-specific lock wait, checkpoint latency, crash loss, recovery, and replica lag before choosing pragmas.

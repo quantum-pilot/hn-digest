@@ -2,15 +2,18 @@
 
 - Score: 240 | [HN](https://news.ycombinator.com/item?id=49099715) | Link: https://www.digitalfoundry.net/news/2026/07/keychron-announces-first-open-source-firmware-for-gaming-mice
 
-## TL;DR
-Keychron is launching ZGM, a GNU GPL–licensed open‑source firmware stack for gaming mice, first shipping on its G6 HE magnetic‑switch mouse in Q1 2027. Like QMK/ZMK for keyboards, ZGM aims for low‑latency performance, modular sensor/button/wheel/lighting layers, and broad MCU plus wired/wireless support, freeing users from proprietary config tools. Hacker News users welcome more auditable, fixable firmware, but question the “first” claim, point to previous unfulfilled Keychron open‑source promises, the empty repo, and the long gap between announcement and code.
+### TL;DR
 
-## Comment pulse
-- Open firmware helps fix vendor flaws and add power‑user features → QMK’s community proves the model, even on some Keychron boards—counterpoint: Keychron’s QC and odd defaults frustrate users.  
-- Announcement without code or working hardware is vaporware → empty repo and past “open but not really” claims justify skepticism; others note Keychron has shipped OSS designs before.  
-- Value unclear vs QMK on mice (Ploopy etc.) → users want cross‑device controls and novel multi‑button/ergonomic shapes, not just another high‑polling‑rate shell.
+Keychron announced ZGM, a GPL-licensed gaming-mouse firmware intended as a QMK/ZMK counterpart for mice. Planned for Q1 2027 on the G6 HE, it targets low latency, modular support for sensors, buttons, wheels, and lighting, broad microcontroller compatibility, and wired or wireless operation; settings would live on-device without proprietary background software. The project is only in public setup, with no substantive source yet. HN readers welcomed auditability and power-user fixes but split over vaporware risk, prior unfulfilled source promises, why QMK cannot suffice, and Keychron’s quality control.
 
-## LLM perspective
-- View: If ZGM truly ships, it could normalize open HID firmware beyond niche DIY projects.  
-- Impact: Enthusiast mice, Linux users, and security‑conscious orgs gain auditable, tweakable firmware without vendor daemons.  
-- Watch next: Actual G6 HE launch with ZGM, third‑party mouse ports, and whether major OEMs respond or double down on locked stacks.
+### Comment pulse
+
+- Open firmware promises durable customization → community ports already fix wake behavior, layouts, and lighting while avoiding vulnerable vendor utilities.
+- Release credibility is disputed → the repository is currently empty of code — counterpoint: public development and Keychron’s past releases provide some reason for optimism.
+- Scope questions remain → QMK already powers some mice and trackballs, while users want cross-device layers and more experimental form factors.
+
+### LLM perspective
+
+- View: A standard succeeds through hardware adoption, documentation, maintainership, and tooling—not an announcement or license alone.
+- Impact: Mouse makers could externalize firmware maintenance to a shared ecosystem while users retain configuration after vendor applications disappear.
+- Watch next: Evaluate released source, G6 HE latency and wireless stability, supported sensors, reproducible builds, contribution activity, and independent ports.

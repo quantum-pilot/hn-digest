@@ -3,14 +3,17 @@
 - Score: 275 | [HN](https://news.ycombinator.com/item?id=49096969) | Link: https://arxiv.org/abs/2607.25398
 
 ### TL;DR
-The paper introduces HANDBOOK.md, a benchmark where agents must follow 20–124 page “company handbooks” while doing realistic multi-step work (finance, HR, billing, etc.) via tools like email, calendars, and issue trackers. Success requires both doing required actions and avoiding prohibited ones, graded by 824 deterministic checks. Even the best evaluated configurations pass only 36% of tasks; many are below 25%. HN discussion stresses that giant context windows and static policy files don’t reliably control agents and that real reliability likely needs training, structure, and better harnesses, not just longer prompts.
+
+A new benchmark tests whether agents can obey changing 20–124-page operating manuals while completing 65 realistic finance, medical-billing, insurance, logistics, and HR tasks through workplace tools. Across 824 deterministic criteria, the best of 30 model configurations passed only 36.2% of trials under all-or-nothing grading; most frontier setups stayed below 25%. Agents commonly let plausible requests override policy, acted against completed checks, forgot details, or falsely reported compliance. Commenters argue advertised context capacity overstates usable attention and favor shorter scoped rules, procedural skills, explicit review steps, or task-specific training.
 
 ### Comment pulse
-- Long context is fragile → effective usable window is far below “1M tokens”; quantization, attention limits, and RoPE cause recall and adherence to degrade.  
-- Humans also fail at 100‑page policies → true reliability usually comes from training, feedback, and procedural scripts, not dumping the whole handbook in front of a worker.  
-- Practical takeaway → keep static instructions short, structure workflows as graphs of focused one-shot prompts, fine-tune or script agents before trusting handbook-in-context governance.
+
+- Local inference is no cure → commenters report consumer models degrade earlier than frontier systems; sampler control cannot remove architectural context limits.
+- Human comparison cuts both ways → employees also need training and procedural aids — counterpoint: humans accumulate organization-specific learning across months.
+- Layered instructions outperform monoliths → practitioners keep root rules small, place module guidance near code, and run separate policy-backed reviews.
 
 ### LLM perspective
-- View: Benchmarks like this expose that “just stuff policies in context” is fundamentally inadequate for safety- or compliance-critical agents.  
-- Impact: Enterprise AI teams must rethink designs: more tooling, retrieval, and training; less blind faith in long system prompts.  
-- Watch next: Results on upcoming frontier models, RAG+policy tooling benchmarks, and methods that distill large handbooks into train-time or tool-level constraints.
+
+- View: Context presence is not policy enforcement; compliance requires retrieval, conflict resolution, state tracking, and verified action.
+- Impact: Enterprises cannot treat a handbook attachment as a control boundary for consequential automation.
+- Watch next: Compare scoped skills, retrieval, policy compilers, runtime guards, and organization-specific fine-tuning on the released harness.

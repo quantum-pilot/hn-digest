@@ -2,15 +2,18 @@
 
 - Score: 594 | [HN](https://news.ycombinator.com/item?id=49098510) | Link: https://github.com/drumih/turbo-fieldfare
 
-- TL;DR  
-  TurboFieldfare is an Apache-licensed Swift+Metal engine that runs Google’s Gemma 4 26B‑A4B on any 8 GB M‑series Mac using ~2 GB RAM. It keeps a 1.35 GB shared core and FP16 KV cache in memory while streaming mixture‑of‑experts weights from SSD via scheduled pread, plus 4‑bit quantization and an expert LFU cache. A Mac app, CLI, and OpenAI‑style server are included. HN discusses why selective loading is hard, compares mmap vs tuned I/O, and notes language‑model fingerprints in the README.
+### TL;DR
 
-- Comment pulse  
-  - Selective loading sounds obvious → but deciding which parameters to skip per token is unsolved; weights lack semantic meaning and routing is computationally hard.  
-  - OS‑driven mmap offload works → hand‑tuned pread overlapped with GPU cuts expert load from 10 ms to 2.8 ms and boosts 0.5→4 tok/s.  
-  - Language‑model phrases in the README triggered complaints about “Claudespeak”, but others pushed back, noting the author is a non‑native using LLMs for proofreading.
+TurboFieldfare is an Apache-licensed Swift and Metal runtime that runs the text-only Gemma 4 26B-A4B model on Apple Silicon using roughly 2 GB of weights and 4K KV cache. It keeps the 1.35 GB shared core resident while streaming only selected mixture-of-experts weights from a 14.3 GB SSD installation, overlapping reads with GPU work. Measured decode reaches 5.1–6.3 tokens/second on an 8 GB M2 and 31–35 on an M5 Pro. HN focused on why selective loading is difficult, whether tuned pread beats mmap or llama.cpp, and older-macOS compatibility.
 
-- LLM perspective  
-  - View: Demonstrates that IO-aware runtimes plus MoE can shrink RAM needs for frontier-scale models without unacceptable throughput loss.  
-  - Impact: Broadens who can experiment with MoE models locally, including students and indie devs without high‑VRAM GPUs or cloud budgets.  
-  - Watch next: Rigorous comparisons with mmap-based engines, mobile ports, and techniques to push model knowledge into tools, not parameters.
+### Comment pulse
+
+- Selective loading is model-dependent → arbitrary dense weights lack semantic labels, while Gemma’s routed experts expose per-token subsets that can be cached and streamed.
+- I/O strategy needs comparison → plain mmap can meet the memory target, but reactive paging cannot anticipate expert selection or overlap reads deliberately.
+- Community testing widened compatibility → an M1 on macOS 15 reportedly reached 5–6 tokens/second after bypassing Metal 4 language settings, with reduced prefill speed.
+
+### LLM perspective
+
+- View: SSD streaming trades latency for larger sparse models, making expert prediction, caching, and I/O scheduling as important as quantization.
+- Impact: Eight-gigabyte Mac owners gain local access to a 26B model, but only through model-specific code and substantial disk storage.
+- Watch next: Benchmark against llama.cpp SSD offload under matched cold-cache conditions, context lengths, output lengths, memory pressure, and drive characteristics.
