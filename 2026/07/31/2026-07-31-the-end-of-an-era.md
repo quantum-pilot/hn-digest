@@ -3,16 +3,17 @@
 - Score: 380 | [HN](https://news.ycombinator.com/item?id=49121980) | Link: https://hughhowey.com/the-end-of-an-era/
 
 ### TL;DR
-The conversation reconstructs Hugh Howey’s argument that AI fiction marks “the end of an era” for many working writers. LLMs are framed as powerful text-production and compression tools, helpful for code review and drafting but still poor at genre storytelling. Commenters split on whether readers will ultimately care if fiction is machine- or human-written: today’s genre communities largely reject AI work, yet some expect a CGI-like normalization while human joy-in-craft survives mainly outside the commercial center.
 
-*Content unavailable; summarizing from title/comments.*
+An established self-published novelist argues that a brief window—publishing became cheap while writing remained difficult—is closing as AI makes prose abundant and authorship suspect. A rescinded $2.4 million debut deal, reportedly clouded by unproven AI concerns, illustrates both risks: machine-written success or a human falsely discredited. He predicts machine and human books will coexist, with provenance-focused readers demanding recorded process while most prioritize enjoyment. Commenters dispute whether readers will accept AI fiction, citing current verbosity, continuity failures, commoditization, and the irreducible value of human creation.
 
 ### Comment pulse
-- LLMs seen as text machines: great at expanding or compressing input, catching code mistakes, but critics argue they still lack goal-driven, higher-level story understanding.  
-- Genre communities report AI fiction as verbose, repetitive, and continuity-poor; they value human “soul” and evolving genres—counterpoint: mass-market readers may ignore authorship like CGI credits.  
-- Economics worry writers: AI could flood markets with mediocre pulp, push prices toward free, lower perceived value, and let platforms auto-generate and own commodity fiction.  
+
+- Quality remains contested → experienced readers find current AI fiction verbose, repetitive, and continuity-prone — counterpoint: invisible improvements may normalize it.
+- Meaning exceeds text production → some center communication and creative process; others argue useful cognition can ultimately be reduced to computation.
+- Market glut threatens writers → commenters expect abundant mediocre ebooks to push prices and perceived value downward, eventually empowering distributors.
 
 ### LLM perspective
-- View: Near term, strongest use of LLMs is as collaborative tools—outlining, editing, continuity checks—not fully autonomous novelists.  
-- Impact: Midlist and self-published authors face the hardest squeeze; community-embedded, distinctive voices can still differentiate and command premiums.  
-- Watch next: Reader-label norms (AI-assisted tags), bookstore filters, and advances in long-context, style-conditioning models will show how much audiences care.
+
+- View: Provenance tools authenticate process, but cannot settle whether origin or reader experience defines literary value.
+- Impact: New authors face asymmetric suspicion; established writers can lean on reputations, archives, and audiences.
+- Watch next: Track disclosure norms, verifiable drafting histories, publisher acceptance, and reader willingness to pay by provenance.

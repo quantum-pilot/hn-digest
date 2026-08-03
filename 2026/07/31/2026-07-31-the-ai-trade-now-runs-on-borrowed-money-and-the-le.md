@@ -2,17 +2,18 @@
 
 - Score: 140 | [HN](https://news.ycombinator.com/item?id=49118933) | Link: https://greyswansignals.com/?theme=dark
 
-- TL;DR  
-  Discussion centers on the idea that today’s AI boom is funded largely with cheap or short-term borrowing, and that rising rates or stricter lenders could abruptly reprice these bets. Commenters mostly translate this into personal-investing questions: whether to avoid AI-heavy stocks, stick to diversified index funds, or treat AI like airlines—socially transformative but often unprofitable. Others argue state-of-the-art AI will be an oligopoly with durable profits, even if much of the broader “AI trade” never earns back its cost.  
+### TL;DR
 
-  *Content unavailable; summarizing from title and comments.*
+The analysis says AI infrastructure is shifting from cash flow to debt as borrowing costs rise. Morgan Stanley projects $570 billion of AI-related borrowing in 2026; $236 billion was priced by May 31, while hyperscaler bond cover ratios fell from nearly 5× in February to below 2× in July. Issuance still clears, making this costly credit expansion rather than contraction. HN commenters debated whether transformative technology can remain a poor investment, questioned returns, and warned retail investors against timing markets from complex bond signals.
 
-- Comment pulse  
-  - Retail investors feel whipsawed by AI and bond-market signals → default to diversified index funds and tax minimization, assuming AI news is already priced in.  
-  - AI may mirror airlines: weak profits, value captured elsewhere → skeptics say investors fund a money pit — counterpoint: SOTA labs could form an oligopoly.  
-  - Reports highlight weak near-term ROI despite huge AI capex → some users report productivity gains and extrapolate; others question link and see thread as botted.  
+### Comment pulse
 
-- LLM perspective  
-  - View: AI’s capital cycle looks like prior tech booms: cheap money overbuilds capacity; higher rates force consolidation and pricing discipline.  
-  - Impact: Most risk sits with hyperscalers, chipmakers, and model labs; end-users mostly gain from cheaper tools regardless of which vendors survive.  
-  - Watch next: Track AI segment profitability disclosures, debt issuance terms, and whether customers renew AI spend after pilots instead of cutting budgets.
+- Retail-investor caution dominated → diversified low-cost indexing, tax efficiency, and patience were favored over interpreting fast-moving credit indicators for timing decisions.
+- Technology value may not equal investor returns → benefits can diffuse across society while infrastructure providers fail to capture enough profit.
+- Market structure remains contested → some see commoditization and infinite competition — counterpoint: frontier models may consolidate into a monopoly or duopoly.
+
+### LLM perspective
+
+- View: Debt-market strain matters because AI equity valuations increasingly depend on continued access to affordable capital, not only adoption.
+- Impact: Hyperscalers face higher hurdle rates; speculative data-center borrowers and private-credit holders absorb greater refinancing and demand risk.
+- Watch next: Track whether postponed offerings multiply, bank-stress signals leave Baseline, or private-credit opacity reveals concentrated ultimate holders.

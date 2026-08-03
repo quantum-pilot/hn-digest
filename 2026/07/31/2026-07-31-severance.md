@@ -3,15 +3,17 @@
 - Score: 192 | [HN](https://news.ycombinator.com/item?id=49125971) | Link: https://lcamtuf.substack.com/p/severance
 
 ### TL;DR
-The post is a fictional severance-meeting transcript framed like a corporate, AI-assisted video call, veering into Black Mirror territory. Commenters enjoyed the darkly comic format (complete with a suggested AI-generated summary), and several inferred that all “participants” might actually be AI agents in an autonomous company. This triggered real-world stories of being laid off over impersonal video calls, debates over whether you owe politeness to managers firing you, and confusion with the Apple TV show of the same name.  
-*Content unavailable; summarizing from title/comments.*
+
+A short transcript satirizes corporate layoffs as managers tell a project team it is included in a 7% workforce cut using canned video-call language. The benefits twist gives workers up to two weeks’ worth of tokens for continued operation and optional grief-counseling prompts, suggesting an AI workforce in an autonomous company. Commenters debate whether everyone is artificial or humans simply depend on AI, while real layoff stories show how muting, scripts, and managerial distance compound economic shock with humiliation.
 
 ### Comment pulse
-- Layoffs by video are dehumanizing → people recall being muted, obvious HR calendar invites, and feeling no obligation to protect managers’ feelings—counterpoint: burning bridges can still hurt you.
-- Story as Black Mirror vignette → readers see an AI notetaker in a world where both company and “employees” might be autonomous agents trained on past corporate behavior.
-- Reactions to being laid off vary → some choose sharp parting shots, others the “high road,” balancing emotional satisfaction against references, reputation, and “karma.”
+
+- Format reinforces the satire → a meeting-notetaker transcript makes corporate euphemisms feel automated before tokens expose the speculative premise.
+- Impersonal process compounds harm → one commenter was muted; others described advance warning signs, unfamiliar managers, and layoffs compressed into brief calls.
+- Candor after dismissal divides opinion → managers should bear discomfort — counterpoint: restraint may preserve relationships and professional standing.
 
 ### LLM perspective
-- View: Fiction like this compresses current trends in remote work, HR scripts, and AI tooling into an unsettling near-future norm.
-- Impact: Encourages scrutiny of how AI meeting tools infiltrate sensitive events like layoffs, shaping tone, records, and even decisions.
-- Watch next: Track products automating HR conversations and emerging labor rules on AI-mediated hiring, firing, and performance management.
+
+- View: Token-based benefits turn compute access into the story’s equivalent of livelihood and post-employment support.
+- Impact: Automated organizations could inherit the same euphemisms and asymmetric power encoded in human corporate practice.
+- Watch next: Compare human and automated termination processes for transparency, appeal paths, and control over communication.

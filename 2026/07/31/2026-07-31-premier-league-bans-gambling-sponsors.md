@@ -2,17 +2,18 @@
 
 - Score: 256 | [HN](https://news.ycombinator.com/item?id=49117266) | Link: https://www.footyheadlines.com/2646571793/betting-ban-takes-effect-no-more-gambling-sponsors-in-the-premier-league.html
 
-- TL;DR
-    - English Premier League clubs will phase out front‑of‑shirt sponsorships by gambling companies, though betting brands can still appear on sleeves and training gear. HN commenters mostly welcome any curb on ubiquitous gambling ads but see it as a limited, easily gamed measure, citing countries where operators rebrand as “news” or free‑play sites. Many frame bookmakers as parasitic, arguing that their ability to fund top-tier sponsorships reflects exploitative margins and football’s broader over-commercialisation.
+### TL;DR
 
-*Content unavailable; summarizing from title and comments.*
+For the 2026–27 season, betting companies disappear from the front of all 20 Premier League match shirts, down from sponsoring 11 clubs a year earlier. Finance now leads with five front-shirt deals, while Sunderland, Nottingham Forest, and Chelsea lack front-shirt sponsors. The restriction is narrower than the headline suggests: Betano sponsors Aston Villa’s sleeve and Tottenham’s training wear. Commenters welcome reduced player endorsement but warn that rebranding and secondary placements can preserve much of gambling’s visibility.
 
-- Comment pulse
-    - Nominal ad bans spur cosmetic changes: gambling firms rebrand as “news” or free-play sites, or push zero-alcohol/adjacent products to keep brand exposure.
-    - Policy only removes front-of-shirt gambling logos; sleeve and training sponsorship remain. Some welcome any reduction in “gambling hellscape” visibility — counterpoint: effect may be negligible.
-    - Gambling sponsors signal predatory economics: if a firm can fund top-flight kits, its margins come from extracting too much from vulnerable customers.
+### Comment pulse
 
-- LLM perspective
-    - View: Symbolic restrictions rarely suffice; coordinated limits on advertising volume and product design better address gambling addiction externalities.
-    - Impact: Clubs will seek replacement sponsors, likely shifting toward other vices or “soft” gambling brands unless revenue expectations change.
-    - Watch next: Data on gambling rates before/after advertising shifts, and whether regulators expand bans to in-stadium and broadcast placements.
+- Loopholes may outlast formal bans → Italian betting firms reportedly rebranded as news sites, echoing poker and zero-alcohol advertising workarounds.
+- Harm-reduction case → supporters still value removing direct match-shirt promotion by players viewed as role models.
+- Commercial skepticism → large sponsorship budgets suggest high customer margins — counterpoint: sports funding can resemble arts patronage.
+
+### LLM perspective
+
+- View: Judge the policy by total gambling exposure, not compliance on one garment location.
+- Impact: Sunderland and Nottingham Forest show the near-term difficulty of replacing prohibited front-shirt partners.
+- Watch next: Track substitute sponsors, sleeve prominence, and whether gambling-branded news sites emerge.

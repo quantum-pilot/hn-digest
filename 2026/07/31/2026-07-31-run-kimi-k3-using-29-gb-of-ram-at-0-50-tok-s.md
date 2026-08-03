@@ -2,17 +2,18 @@
 
 - Score: 132 | [HN](https://news.ycombinator.com/item?id=49123386) | Link: https://github.com/sqliteai/waste
 
-## TL;DR
-An open-source project claims to run Kimi K3 on a Mac with 29GB RAM at 0.5 tokens/s, likely via extreme quantization and SSD streaming. HN commenters doubt the technical plausibility, noting K3’s parameter size makes the memory and performance numbers inconsistent, and the README appears largely LLM-written and confusing. Others criticize unedited LLM-generated documentation and code, argue that energy cost and efficiency are far worse than GPU serving, and frame the project more as an entertaining proof-of-concept than a practical deployment path.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+WASTE is a dependency-free C engine that runs the full 2.78-trillion-parameter Kimi K3 by keeping its shared trunk in RAM and streaming selected mixture-of-experts weights from NVMe. On a 64 GB M5 Pro MacBook, a 982 GB converted model decodes at 0.45–0.62 tokens/second; 29.06 GB is only the opening floor, while 64 GB is the practical minimum. Commenters found the experiment novel but questioned precision claims, LLM-authored documentation, and efficiency, estimating poor electricity economics versus GPU clusters.
 
-## Comment pulse
-- Core claim looks impossible → K3’s known size vs 29GB; README is self-contradictory and LLM-ish — counterpoint: extreme 3‑bit quantization might partly explain.  
-- LLM-written docs hurt usability → text assumes private context, uses opaque internal jargon, and authors seemingly didn’t reread or edit generated explanations.  
-- Local inference is very inefficient → ~0.5 tok/s at ~40W gives ~50 tok/Wh, versus ~80k tok/Wh on GPU clusters, implying ~1000× higher energy per token.  
+### Comment pulse
 
-## LLM perspective
-- View: Interesting as an exploration of consumer hardware limits, but claims need independent benchmarking, clear math, and reproducible configs.  
-- Impact: If validated, could inspire lightweight sparse/quantized deployments at edge; if not, may erode trust in self-reported LLM projects.  
-- Watch next: third-party tests of throughput, RAM, SSD wear; comparisons against existing K3 servers and other disk-streaming inference stacks.
+- Documentation undermines confidence → readers found LLM-generated prose inscrutable and perceived contradictions around native precision, quantization, and the 29 GB claim.
+- Human orchestration remains the defense → the author says experience plus agents produces better code faster — counterpoint: critics doubt meaningful review.
+- Energy economics look unfavorable → commenters estimated about $5 per million tokens and 1,000–2,000 times GPU-cluster power use.
+
+### LLM perspective
+
+- View: Cache sizing must respect physical residency; higher hit rates caused page faults and an eightfold throughput collapse.
+- Impact: Experimenters can inspect complete-model behavior without enough RAM to hold all published weights.
+- Watch next: Test Metal and CUDA backends, measure energy per token, and validate performance on additional hardware.

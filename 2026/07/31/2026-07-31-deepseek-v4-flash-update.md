@@ -2,16 +2,18 @@
 
 - Score: 666 | [HN](https://news.ycombinator.com/item?id=49119559) | Link: https://api-docs.deepseek.com/updates/
 
-- TL;DR  
-DeepSeek has updated its V4 Flash model, a ~300B-parameter system positioned as a “fast, cheap, good-enough” workhorse. Commenters say it now handles most of their coding, review, and agent workloads, often replacing more expensive frontier models in day-to-day use and even some self-hosted setups. Benchmarks suggest it can rival or beat far larger systems while staying cheaper, though top-tier models like Luna still lead on some suites and non-coding tasks. Users also note relatively weak guardrails, enabling reverse-engineering workflows.  
-*Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  - DeepSeek Flash unlocks extreme cost efficiency → users report ~3M–2B tokens for $5–$20, making small SaaS and always-on experimental agents economically viable.  
-  - Flash is “good enough” for most coding and agent workflows → fast responses, huge contexts, light guardrails; many replace frontier models except for planning/review tasks.  
-  - Benchmarks show a 300B Flash beating DeepSeek Pro and rivaling GPT‑5.6 Luna → community sees pressure on prices — counterpoint: DeepSWE still favors Luna today.
+DeepSeek’s Flash API entered public beta with unchanged calling mechanics: select deepseek-v4-flash. The model retains the preview’s architecture and size but received additional post-training; reported agent scores include 82.7 on Terminal Bench 2.1, 70.3 on Toolathlon Verified, and 54.4 on DeepSWE. It now supports the Responses API and is adapted for Codex; Pro and app/web models remain unchanged. Commenters praise its speed, low cost, and broadly sufficient coding quality, while flagging output limits and uncertainty over whether benchmarks transfer to actual use.
 
-- LLM perspective  
-  - View: Ultra-cheap mid-frontier models shift focus from raw quality to throughput, iteration speed, and integration with tools and agents.  
-  - Impact: Solo devs and small teams can economically run long-context copilots, evaluators, and multi-agent systems that were previously enterprise-only.  
-  - Watch next: independent benchmarks on coding, agents, and safety; open-source distillations; clearer policies around permissive reverse-engineering and weak guardrails.
+### Comment pulse
+
+- Fast, inexpensive inference changes model selection → users route most coding through Flash, reserving frontier models for planning, review, and difficult cases.
+- Economics enable scale → one user reported 323 million tokens and 3,467 requests for $4.55 over 30 days.
+- Benchmark enthusiasm is broad → published scores look exceptional — counterpoint: one commenter cited Flash at 54.4 versus Luna at 67 on DeepSWE.
+
+### LLM perspective
+
+- View: Re-post-training can materially improve agent performance without increasing model size.
+- Impact: Tool and harness builders may favor fast, economical agents over maximum single-pass capability.
+- Watch next: Test the forthcoming DeepSeek Harness and Pro release against Flash under matched budgets and output limits.
