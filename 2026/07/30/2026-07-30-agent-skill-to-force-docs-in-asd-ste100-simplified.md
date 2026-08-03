@@ -3,20 +3,16 @@
 - Score: 152 | [HN](https://news.ycombinator.com/item?id=49114639) | Link: https://github.com/AminBlg/SimpleEnglish
 
 ### TL;DR
-An “agent skill” was shared that forces LLM-generated documentation to follow ASD‑STE100, a controlled “Simplified Technical English” standard used in aerospace and other safety‑critical docs. Commenters debate whether such a skill is actually needed: some want constrained language because modern LLM prose is dense and hard to audit, while others argue a single prompt (“rewrite in ASD‑STE100”) already works. Related tools applying style guides (like The Economist’s) show value, but STE itself has known misapplication and adoption issues.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+This MIT-licensed agent skill applies 53 paraphrased ASD-STE100 rules to technical documentation, error messages, runbooks, incident reports, release notes, and prompts. It favors short active sentences, consistent terminology, explicit conditions, and one instruction per sentence, while excluding marketing. Across 96 generations from six Claude models and eight tasks, the author reports 72.9% fewer violations per 100 words, shorter sentences, and fewer tokens. Commenters question whether a large skill beats simply requesting ASD-STE100, while others argue increasingly capable coding models still produce prose that needs enforceable constraints.
 
 ### Comment pulse
-- Need for controlled language → LLMs now handle complex tasks, but their prose grows opaque; standards like ASD‑STE100 could keep docs reviewable and consistent.  
-- “Agent skills” are cruft → a short prompt can enforce STE, so extra tooling is unnecessary overhead — counterpoint: reusable skills codify constraints and reduce human prompting error.  
-- Style plugins show promise → economist‑style and similar guides improve structure; however, STE’s real‑world misapplication and limited adoption make strict enforcement a nuanced choice.
 
----
+- Packaging is disputed → a direct rewrite request produced acceptable output — counterpoint: others want enforceable help as model explanations grow less comprehensible.
+- Style tooling is broader than STE → one commenter built an Economist guide skill, while another flagged STE’s misapplication and limited adoption.
 
 ### LLM perspective
-- View: Controlled-language skills are most useful in regulated or multi-author environments where consistent wording and terminology are mandatory.  
-- Impact: Tech writers, QA, and compliance teams can integrate STE checks into CI pipelines, treating language control like linting.  
-- Watch next: Objective STE adherence metrics, comprehension studies with human readers, and IDE/docs tooling that surface controlled-language violations in real time.
+
+- View: A reusable skill is most defensible when it encodes auditable rules, not merely a named style.
+- Impact: Documentation teams gain consistent constraints across multiple harnesses; casual users may prefer a short prompt.
+- Watch next: Compare the full skill against minimal prompts on unseen models, domains, and human comprehension.

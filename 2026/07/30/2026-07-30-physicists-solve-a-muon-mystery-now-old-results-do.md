@@ -2,17 +2,17 @@
 
 - Score: 169 | [HN](https://news.ycombinator.com/item?id=49111305) | Link: https://www.quantamagazine.org/physicists-solve-a-muon-mystery-now-old-results-dont-add-up-20260729/
 
-## TL;DR
-Physicists have reanalyzed measurements of the muon’s properties, apparently resolving a long‑standing discrepancy that once hinted at “new physics.” The updated understanding makes earlier experimental or theoretical results look inconsistent, forcing a rethink of how those were modeled, calibrated, and combined. Hacker News leans into the philosophy-of-science angle: models are always provisional, useful mainly for prediction, and big anomalies often shrink under more careful statistics and engineering rather than revealing dramatic new particles or forces.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+A 25-year muon g−2 anomaly largely disappeared after BMW’s 2021 lattice-QCD calculation matched Fermilab’s wobble measurement, with independent lattice groups later agreeing. The remaining conflict is now among inputs: data-driven predictions rely on pion production in electron-positron collisions, yet VEPP-2000’s newer detector measures a sharply different rate from decades of older experiments. New lattice work and preliminary VEPP data favor the new rate; BABAR favors the old. Commenters debate whether this reflects hidden calculation or apparatus errors, unknown physics, or science’s normal progression between useful imperfect models.
 
-## Comment pulse
-- Science as pragmatic modeling → theories seen as prediction tools; some call string theory likely bunk—counterpoint: that cynically conflates speculative ideas with well-tested discoveries.  
-- Complex apparatus doubts → some suspect hardware, software, or chained constants; experimentalists reply that characterizing single parameters can take man‑years, yielding carefully validated error bars.  
-- Humorous relief → others joke about living in a simulation, parallel universes where the anomaly persists, and lamenting time spent chasing now-obsolete muon calculations.  
+### Comment pulse
 
-## LLM perspective
-- View: Anomalies resolving into methodology issues is routine; it shows self-correction, not failure, of high‑energy physics.  
-- Impact: If tension truly vanishes, funding and attention may shift from exotic models toward precision SM calculations and improved detector/systematics work.  
-- Watch next: Independent reanalyses of historic muon data, cross‑checks with lattice QCD and e+e− data, and possible new experiments to over‑determine key inputs.
+- Scientific models are instruments, not final reality → one philosophical view favors predictive usefulness until a better paradigm escapes the current local optimum.
+- Complex measurement chains invite skepticism → apparatus, software, constants, and inherited assumptions can propagate errors — counterpoint: teams spend person-years validating individual parameters.
+
+### LLM perspective
+
+- View: Resolving one anomaly can relocate uncertainty from fundamental theory to the experimental inputs used by competing calculations.
+- Impact: Collider teams must reconcile pion-rate measurements before muon g−2 can again constrain unknown particles confidently.
+- Watch next: Replicate VEPP-2000’s new rate with independent detectors and audit procedure-dependent systematics across historical datasets.

@@ -2,17 +2,18 @@
 
 - Score: 421 | [HN](https://news.ycombinator.com/item?id=49112232) | Link: https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/
 
-## TL;DR
-GitHub has rolled out first-class “stacked PRs,” letting developers submit dependent pull requests as an ordered stack instead of a single giant diff. Early users welcome mainstream support for workflows long common in Gerrit/Phabricator, enabling smaller, focused reviews, partial merges, and parallel work on large features. However, commenters report serious bugs—especially with squash-merging entire stacks—and argue GitHub retained a flawed review model (per-branch PRs, no change-ids/interdiffs), limiting the feature’s power until the underlying tooling evolves.
+### TL;DR
 
-*Content unavailable; summarizing from title and discussion only.*
+GitHub’s public preview adds dependency-ordered pull-request stacks across the web, CLI, mobile, and Copilot. Each layer targets the one below, can be reviewed in parallel under existing checks and protections, and can merge alone or with lower layers; higher layers then rebase and retarget automatically. Commenters welcome smaller bounded reviews, audience-specific approvals, and partial landing, but report serious squash-merge, reapproval, branch-deletion, and synchronization bugs. Others argue GitHub preserved a branch-heavy review model instead of adopting change IDs, interdiffs, and commit-version workflows from established systems.
 
-## Comment pulse
-- Stacked PRs ship with bugs: squash merges fail, approvals reset, merges get stuck → feels premature — counterpoint: GitHub says fixes are priority, success ~99%.
-- Critics say GitHub copied stacked diffs poorly: per-PR branches, no change-ids/interdiffs, still centered on new-commit+merge instead of amend+rebase workflows.
-- Fans argue stacks enable small, focused reviews, parallel work, targeted reviewers, partial merges, and help teams whose commits are messy “savepoints” rather than curated history.
+### Comment pulse
 
-## LLM perspective
-- View: Feature formalizes existing stacked-branch workflows, but exposes GitHub’s aging review model; long-term value depends on deeper tooling changes, not UI alone.
-- Impact: Large orgs with complex changesets, monorepos, or AI-sized diffs gain most; small teams may see marginal benefit over disciplined commit-based review.
-- Watch next: Watch for cross-fork support, robust squash-merge semantics, change-id style tracking, and better diff navigation before standardizing workflows around stacked PRs.
+- Current merge reliability is disputed → GitHub reports 99% success — counterpoint: users say squash stacks can force approvals again and block key gains.
+- Stacks define review boundaries → each layer keeps discussion focused and can reach the right specialists without blocking unrelated approved layers.
+- The data model still frustrates veterans → branch-per-change lacks tracked diff versions, interdiffs, change IDs, and smooth amend-and-rebase review.
+
+### LLM perspective
+
+- View: Native stacks improve workflow visibility without changing Git’s underlying dependency and rebase complexity.
+- Impact: Reviewers gain smaller scopes; authors still need strong branch hygiene and recovery knowledge.
+- Watch next: Fix squash semantics, cross-fork stacks, stale-branch failures, and merge-queue rollout before general availability.

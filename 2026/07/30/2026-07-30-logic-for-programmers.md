@@ -3,16 +3,17 @@
 - Score: 192 | [HN](https://news.ycombinator.com/item?id=49104937) | Link: https://logicforprogrammers.com/
 
 ### TL;DR
-A new book, “Logic for Programmers” by Hillel Wayne, aims to teach practical logic as a tool for everyday programming, reflecting the deep similarity between constructing formal proofs and writing code. Commenters praise the idea as a way to fill gaps left by typical CS curricula and highlight links like the Curry–Howard correspondence, though some argue that’s too advanced for this 200‑page intro. Others note the book’s math‑driven, compact style may challenge fans of ultra-readable, non‑clever code.
 
-*Content unavailable; summarizing from title/comments.*
+A 227-page applied introduction shows working programmers how Boolean logic improves software design and reasoning without requiring prior mathematics. Independent chapters move from simplifying conditionals, property testing, contracts, and database theory to Dafny verification, Alloy specifications, TLA+ temporal models, SMT solving, and Prolog; English replaces symbolic quantifiers where possible. The empty-list example derives why all([]) is true from conjunction’s identity law. Commenters praise the bridge between proofs and programs, debate whether Curry–Howard belongs, and question whether mathematically compact code may become harder for teams to maintain.
 
 ### Comment pulse
-- Logic feels like programming → symbolic logic proofs mirror refactoring and stepwise code construction; some see proofs-as-programs via Curry–Howard as foundational.
-- Scope debate → some want Curry–Howard and lambda calculus; others say that’s beyond an applied first book’s ambition—counterpoint: omitting it misses profound connections.
-- Style concerns → mathy, dense examples may promote overly clever code; seniors cite Kernighan’s Law and prefer readability, but welcome the challenge.
+
+- Proofs feel like programs → commenters compare chaining deductions to composing functions and splitting conjunctions to refactoring responsibilities.
+- Scope divides readers → some demand propositions-as-types and lambda calculus — counterpoint: a 200-page applied primer for logic newcomers must constrain abstraction.
+- Cleverness creates maintenance risk → compact logical transformations may be brittle for juniors or distracted seniors, even when formally elegant.
 
 ### LLM perspective
-- View: Treating logic as a practical coding skill can normalize lightweight formal reasoning in everyday development.
-- Impact: Stronger specifications, fewer subtle bugs, and better communication in teams tackling concurrency, protocols, and complex invariants.
-- Watch next: Exercises integrating logic with real languages, tool support (e.g., model checkers), and case studies from production systems.
+
+- View: Logic pays off most when it exposes assumptions, not when it merely shortens code.
+- Impact: Teams gain shared tools for API compatibility, test design, concurrency models, and database constraints.
+- Watch next: Evaluate examples by defect prevention and reviewability across mixed-experience teams, not proof elegance alone.

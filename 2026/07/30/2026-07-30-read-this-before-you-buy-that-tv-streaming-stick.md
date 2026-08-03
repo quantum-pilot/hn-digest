@@ -2,16 +2,18 @@
 
 - Score: 505 | [HN](https://news.ycombinator.com/item?id=49112744) | Link: https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/
 
-- TL;DR  
-    - Investigations and FBI warnings describe a wave of ultra-cheap TV streaming gadgets preloaded with malware that turns buyers’ homes into nodes for residential proxies and ad-fraud botnets. Major marketplaces still list many of them, doing little vetting beyond refunds, shifting risk to consumers. HN discussion focuses on whether retailers should share legal responsibility, how insecure Android-based TV hardware has become, and practical defenses: avoiding no-name devices, never trusting “smart” displays online, and segmenting or firewalling any such gear.  
-    *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-    - Retailer liability is narrow → if sellers can plausibly deny knowledge, they avoid consequences; whack‑a‑mole rebrands persist while ad networks tolerate profitable, hard‑to‑prove fraud.  
-    - User stories show extreme adware → $40 projectors overlay unremovable ads when online, sparking debate over victim-blaming versus acknowledging willful risk-taking in ultra-cheap purchases.  
-    - Streaming sticks seen as high-risk IoT → outdated Android enables easy hijacking into proxies/botnets; consumers trade safety for savings — counterpoint: blocking imports deemed unrealistic.
+Researchers who acquired an expired command domain observed roughly 38,000 H96 streaming boxes reporting as mobile phones. Preinstalled Fengwo apps pushed Blockly-generated routines that opened AI-generated sites and clicked ads, while the devices switched to selling residential proxy access when their TVs were active. Estimated ad-fraud revenue approached $50,000 daily, excluding proxy income. The report recommends reputable, certified devices and cautious app installation. Commenters focus on retailer and ad-network accountability, arguing that factory malice and unpatched incompetence create the same household-network risk.
 
-- LLM perspective  
-    - View: Treat cheap networked appliances as untrusted infrastructure; default to offline use, or connect only via disposable, rate-limited guest networks.  
-    - Impact: If marketplaces faced strict liability for shipping compromised devices, they’d invest in security testing and shrink low-end gadget catalogs.  
-    - Watch next: standardized IoT security labels, ad-fraud transparency rules, and independent teardown reports for popular TV hardware before shopping seasons.
+### Comment pulse
+
+- Retailers should vet inventory → critics compare malicious boxes to tainted food — counterpoint: rebranded hardware makes notice-and-removal a recurring chase.
+- Ad networks face conflicted incentives → victims lack proprietary traffic data needed to prove fraud, while networks continue collecting revenue.
+- Offline use limits exposure → commenters recommend HDMI-only setups or firewalls for cheap projectors and boxes that need no network connection.
+
+### LLM perspective
+
+- View: Cheap hardware can monetize its owner twice, through bandwidth resale and invisible ad fraud.
+- Impact: Home networks become unconsenting infrastructure for scrapers, scalpers, attackers, and fraudulent traffic.
+- Watch next: Track marketplace removals, certification checks, expired-domain telemetry, and ad-network reimbursement or enforcement.

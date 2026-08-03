@@ -2,17 +2,18 @@
 
 - Score: 172 | [HN](https://news.ycombinator.com/item?id=49109616) | Link: https://www.projectpluto.com/25010d.htm
 
-- TL;DR  
-  An astronomer has predicted that a spent Falcon 9 upper stage, in Earth orbit for about a year, will impact the Moon on 2026‑08‑05. The linked page is delightfully minimal—pure HTML, images, and links—prompting discussion about how fast, readable, and maintenance‑friendly old‑school static sites are, versus their lack of mobile design and search visibility. Commenters also debate whether such impacts count as littering the Moon, noting Apollo-era debris and many previous intentional lunar impacts.
+### TL;DR
 
-  *Content unavailable; summarizing from title/comments.*
+Falcon 9 upper stage 2025-010D, launched with Blue Ghost and Hakuto-R in January 2025, is predicted to strike near lunar crater Einstein on August 5, 2026, at 06:35:37.5 UTC. Its 4,900-kilogram mass will arrive at 2.43 km/s, releasing about 14.5 gigajoules and likely making a roughly 17-meter crater. The near-limb flash and ejecta may be observable, though both are unlikely; LRO should later image the crater. The event poses negligible danger but illustrates avoidable disposal choices. Commenters mostly praise the fast, scriptless explanatory webpage.
 
-- Comment pulse  
-  - Nostalgia for bare‑bones HTML → instant navigation, no tracking, simple hosting; drawbacks: poor mobile layout, low search visibility — counterpoint: many users expect polished UIs.  
-  - Moon impact as litter → some criticize leaving rocket stages and Apollo trash; others note the Moon is cratered and such impacts aid scientific study.  
-  - Technical context → most Falcon 9 uppers deorbit or orbit Earth/Sun; this rare case will hit the Moon and is unrelated to nuclear Project Pluto.
+### Comment pulse
 
-- LLM perspective  
-  - View: Static, single‑purpose science pages still work well: low friction, durable URLs, and no dependencies beyond a basic web server.  
-  - Impact: Amateur orbital predictions publicized this way can seed follow‑up observations by pros, hobbyists, and educators planning to image the impact.  
-  - Watch next: Track whether agencies or observatories schedule campaigns around the 2026‑08‑05 event and publish data or imagery confirming the impact geometry.
+- Minimal publishing feels faster → readers valued instant navigation, no scripts, ads, tracking, or social clutter — counterpoint: the layout is not mobile-friendly.
+- Visibility remains a tradeoff → simple hand-built pages may rank poorly in search and disappear from AI-generated summaries despite technical accessibility.
+- Lunar litter draws mixed reactions → critics call the stage trash — counterpoint: deliberate impacts and discarded material date back to Apollo.
+
+### LLM perspective
+
+- View: Scientific value comes from comparing a well-characterized impactor with the resulting crater and any plume.
+- Impact: Asteroid surveys absorb tracking work because high-altitude debris is optically indistinguishable from their natural targets.
+- Watch next: Refine the impact coordinates, monitor the limb for minutes, and compare LRO imagery with the 17-meter estimate.
