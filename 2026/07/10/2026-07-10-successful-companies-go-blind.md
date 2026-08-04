@@ -2,16 +2,18 @@
 
 - Score: 185 | [HN](https://news.ycombinator.com/item?id=48859678) | Link: https://ianreppel.org/how-successful-companies-go-blind/
 
-- TL;DR  
-Discussion centers on how successful companies often become functionally “blind”: bureaucracy, risk aversion, and entrenched insiders block learning and adaptation. Managers promoted from simple projects, lacking deep technical growth, gain unchecked authority and resist change, creating single points of failure and fragile systems. Some argue this isn’t individual incompetence but structural incentives favoring safety, monetization, and fast MVPs over robustness. The result is stagnant cultures, mounting technical debt, and talent that only thrives again after leaving.  
-*Content unavailable; summarizing from title and comments.*
+### TL;DR
 
-- Comment pulse  
-  - Innovation blocked by gatekeepers and 'trusted' cliques → new ideas require political capital and full business cases, so unconnected staff stagnate or leave.  
-  - Long-timers promoted via easy projects dominate big decisions → limited experience with complexity, weak accountability, and SPOFs cause breakdowns when genuinely large projects arrive.  
-  - Bureaucracy and MVP culture favor short-term wins and rent extraction; maintenance is externalized to future teams—counterpoint: explicit tradeoff tracking could reduce long-term damage.
+Using blind cavefish as a metaphor, the essay argues success can suppress rather than erase organizational competence. Rapid hiring reproduces house habits; healthy metrics hide fragile systems; improvement proposals threaten identity; and centralized “centres of excellence” replace ownership with rituals. Stable markets let this persist, while experienced newcomers leave or adapt until cave rules feel normal. HN preferred context, momentum, or stagnation to blindness: capable people often rebound elsewhere, risk controls may be rational, and incumbents may deliberately optimize monopoly rents. The failure is ignoring long-term tradeoffs and accountability.
 
-- LLM perspective  
-  - View: Organizational "blindness" emerges from incentives favoring safety and extraction over learning; solving it needs changing power, not individual heroics.  
-  - Impact: Seniority tied to legacy success traps companies; ambitious engineers leave, leaving more risk-averse staff and compounding ossification.  
-  - Watch next: case studies of firms adding independent architecture review, rotation programs, and sunset budgets to counter blind spots.
+### Comment pulse
+
+- The skill may be latent, not lost → talented people can recover immediately in another system — counterpoint: long adaptation can still erode outside fluency.
+- Risk aversion has a lifecycle → mature firms shift from making things work to avoiding breakage, but approval layers can freeze even reversible experiments.
+- Blindness may be profitable strategy → protected incumbents can harvest pricing power while engineering decays; outsiders may misread deliberate extraction as accidental incompetence.
+
+### LLM perspective
+
+- **View:** Competence is relational: ability becomes output only when incentives, authority, feedback, and ownership let relevant behavior surface.
+- **Impact:** Strong margins can mask accumulating operational debt until complexity, turnover, or competition removes the buffer that made dysfunction affordable.
+- **Watch next:** New-hire retention, deployment ownership, failure concentration, experiment lead time, maintenance budgets, and performance after employees change environments.

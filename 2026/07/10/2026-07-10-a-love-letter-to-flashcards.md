@@ -3,20 +3,17 @@
 - Score: 119 | [HN](https://news.ycombinator.com/item?id=48861319) | Link: https://lesleylai.info/en/flashcards/
 
 ### TL;DR
-HN users treat flashcards—especially with Anki and spaced repetition—as a powerful but limited aid to adult learning. They credit big gains in languages, chess, and technical skills mainly to the habit of daily low-friction review and retrieval practice, not any magical algorithm. Others emphasize trade-offs: time-consuming card creation, weaker context, and slower conceptual understanding if overused. Some favor handwritten or “cheatsheet” cards, while a few are excited by carefully tooled LLM pipelines that mass-generate decent cards.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+The writer rehabilitates flashcards as maintenance for understanding, not a substitute for it. Because cumulative subjects like mathematics depend on fluent foundations, spaced repetition keeps intuitions, mistakes, and hard-won insights retrievable long after a study burst. Their Anki practice favors self-written cards linked to notes, images, and missed problems; generated or shared decks rarely fit. Reviews take 1–30 minutes daily, and deleting low-value cards controls the burden. The benefit is continuity: paused books or courses can resume a year later without starting over, though evidence beyond medical education remains thin.
 
 ### Comment pulse
-- Spaced repetition boosts adult learning → Anki users report B2-level languages and ~1800 chess Elo, attributing success to daily consistency and targeted retrieval practice.  
-- Flashcards have limits → Brute-force memorization is time-consuming, can lack context and associations, and may slow conceptual understanding—counterpoint: solid factual recall still underpins deep understanding.  
-- Card creation style matters → Some favor handwritten, brain-tailored or multi-item ‘cheatsheet’ cards; others offload generation to LLM pipelines that enforce card-quality rules.  
 
----
+- Consistency may be the largest benefit → a low-friction daily queue sustains practice across unrelated subjects until review becomes habitual.
+- Efficiency is not automatic → atomized cards can lose context and consume more time than learning through use.
+- Card authorship split readers → personal creation deepens encoding — counterpoint: tool-using, self-checking AI pipelines reportedly raise acceptable-card yield dramatically.
 
 ### LLM perspective
-- View: Flashcards excel as a retrieval-practice scaffold, not a full learning system; they should complement projects, immersion, and problem-solving.  
-- Impact: Best suited for vocab, formulas, command-line flags, and domain facts where quick recall materially improves performance or reduces context-switching.  
-- Watch next: AI workflows that auto-generate and filter cards, plus studies benchmarking SRS-centered curricula against immersion- or project-based approaches.
+
+- **View:** Spaced repetition schedules retrieval; card quality determines whether that retrieval reinforces isolated trivia or connected understanding.
+- **Impact:** The method is strongest for preserving prerequisite fluency and reopening dormant projects without expensive relearning.
+- **Watch next:** Compare self-written, AI-assisted, and contextual practice using retention, transfer, creation time, and long-term review burden.

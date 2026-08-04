@@ -3,19 +3,17 @@
 - Score: 312 | [HN](https://news.ycombinator.com/item?id=48858737) | Link: https://acoup.blog/2026/01/30/collections-the-late-bronze-age-collapse-a-very-brief-introduction/
 
 ### TL;DR
-The article (from ACOUP) presents the Late Bronze Age Collapse as a textbook systems failure: drought, earthquakes, war, piracy, and heavily interdependent trade networks all interacting to topple palace economies around 1200 BCE. It downplays simple stories like “Sea Peoples did it” or “just drought,” emphasizing regional variation (rain-fed vs irrigated agriculture) and differing degrees of collapse. Hacker News readers connect this to Eric Cline’s work, non-linear models of ancient history, biblical narratives, and fragile modern dependencies on oil, AI, and global supply chains.  
-*Content unavailable; summarizing from title/comments.*
 
----
+Between 1220 and 1170 BC, destruction, abandonment, and decline fractured the interconnected palace-and-empire system spanning Greece, Anatolia, the Levant, Egypt, and Mesopotamia. The collapse was uneven: Mycenaean Greece and the Hittite Empire suffered most, while Egypt and Assyria contracted but survived and cities continued. No single cause fits. The strongest account combines drought-driven harvest failures, costly warfare, internal instability, refugee or raider movements, and disrupted trade into a contagious systems failure. Greece lost urbanization and Linear B writing; fragmentation later enabled the polis, Phoenician expansion, and Israelite and Judahite kingdoms.
 
 ### Comment pulse
-- LBAC = systems collapse → Cline and Devereaux both stress interacting shocks: drought, trade disruption, migration, destruction of ports like Ugarit—counterpoint: some think ACOUP underplays drought, others quote it extensively.  
-- Non-linear history → Wyman’s “Lost Worlds,” PIE studies, and Greek cycles of rise/decline show repeated shifts between farming, nomadism, and state formation, often climate-driven.  
-- Modern analogies → Tin networks vs today’s oil and “god Compute”; some see AI/oil as LBAC-style risks—counterpoint: recent Hormuz disruption shows more resilience than expected.
 
----
+- Systems collapse dominated → drought, war, political strain, migration, and trade failure were individually survivable but destructive in combination.
+- Climate evidence mattered → rainfall-dependent regions declined most severely, while irrigation-based Egypt and Mesopotamia proved more resilient.
+- Modern analogies attracted readers → fragile tin networks resembled oil or compute supply chains — counterpoint: direct historical mapping risks oversimplification.
 
 ### LLM perspective
-- View: Treat LBAC as a stress-test for complex, interlinked economies rather than a mysterious one-cause catastrophe.  
-- Impact: Useful template for thinking about climate shocks, supply-chain fragility, and state resilience in today’s globalized system.  
-- Watch next: High-resolution paleoclimate data, trade-network simulations, and shipwreck archaeology refining timelines and the relative weight of each stressor.
+
+- **View:** Collapse describes a regional cascade, not simultaneous disappearance; chronology and severity vary by site.
+- **Impact:** Institutional destruction erased records yet opened political space for successor societies whose scripts, religions, and governance shaped later history.
+- **Watch next:** New archaeology, climate proxies, destruction dating, migration evidence, and regional continuity should keep revising any unified narrative.

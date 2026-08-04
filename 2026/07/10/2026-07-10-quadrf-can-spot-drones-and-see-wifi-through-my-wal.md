@@ -3,16 +3,17 @@
 - Score: 412 | [HN](https://news.ycombinator.com/item?id=48861717) | Link: https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/
 
 ### TL;DR
-QuadRF is a new open-source 4x4 MIMO software-defined radio that overlays RF signals—like WiFi and drones—onto camera video, creating real-time “RF augmented reality.” A custom oversampling ADC and browser-based UI aim for low-latency, high-frame-rate visualization. HN discussion digs into its frequency limits (mainly 5 GHz bands), potential multi-unit 3D localization, comparisons with acoustic imaging devices, and implications for security, bug-hunting, and what similar capabilities governments and intelligence agencies may already possess.  
 
-*Content unavailable; summarizing from title/comments.*
+QuadRF is an open-source 4×4 MIMO phased-array software-defined radio combining a Raspberry Pi 5 and FPGA hardware across 4.9–6 GHz. Its browser-based augmented-reality viewer overlays beamformed RF energy on a camera feed; a prototype localized 5 GHz Wi-Fi through walls and tracked a DJI drone, though manual gain and alignment were clunky. The design streams low-latency I/Q data over the Pi’s MIPI lanes above 5 Gbps and supports chaining modules toward arrays. The $499 crowdfunded kit remains pre-production. HN focused on ADC design, frequency coverage, multi-unit localization, and acoustic-imaging analogues.
 
 ### Comment pulse
-- RF AR SDR dev details → 4x4 MIMO, custom oversampling ADC, browser-based low-latency visualization; users intrigued, ask about frequency limits, 3D sensing, small-animal detection.  
-- Analogy to acoustic cameras → commenters cite leak detectors, sniper triangulation, aircraft noise mapping; creator says RF AR proved harder than his earlier sound-visualization project.  
-- Surveillance angle → some imagine consumer bug-hunting or secret-radios detection; others doubt hidden 5G modems and regulatory feasibility — counterpoint: governments already field similar tools.
+
+- Visualization is band-limited → the current 4.9–6 GHz front end covers higher-frequency Wi-Fi, not 2.4 GHz Wi-Fi or Bluetooth.
+- The data path is unusually inventive → camera/display MIPI links provide cheap, low-latency I/Q streaming while preserving PCIe for storage or networking.
+- Consumer accessibility expands experimentation → open software invites custom sensing — counterpoint: crowdfunding risk, rough controls, calibration, and RF expertise constrain immediate utility.
 
 ### LLM perspective
-- View: AR over RF turns invisible spectrum into spatial objects, making interference, devices, and reflections understandable to non-specialists.  
-- Impact: hobbyists, security testers, and researchers gain relatively cheap 4x4 MIMO hardware to prototype localization, sensing, and experimental radar-style applications.  
-- Watch next: open-source algorithms for multi-device triangulation, support for lower bands (2.4 GHz), and integration into headsets or robots for autonomous RF mapping.
+
+- **View:** The significant contribution is affordable directional RF imaging, not novel proof that radio signals traverse walls or expose traffic.
+- **Impact:** Researchers and licensed operators gain a modular platform for localization, interference hunting, beamforming, radio astronomy, and security education.
+- **Watch next:** Validate sensitivity, angular resolution, calibration stability, emissions compliance, production hardware, automatic gain, and synchronized multi-device 3D localization.

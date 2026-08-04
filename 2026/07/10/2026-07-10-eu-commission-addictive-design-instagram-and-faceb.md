@@ -3,19 +3,17 @@
 - Score: 247 | [HN](https://news.ycombinator.com/item?id=48858292) | Link: https://ec.europa.eu/commission/presscorner/home/en
 
 ### TL;DR
-The EU Commission has issued preliminary findings that Instagram and Facebook’s “addictive design” likely breaches the Digital Services Act, especially around minors. Features like endless feeds, engagement-optimizing algorithms and weak time-limit tools are seen as structurally pushing “one more minute” while pretending users are in control. Hacker News discussion weighs personal and societal harms of compulsive scrolling, whether regulation should target addiction itself or just ensure choice and transparency, and practical ways individuals can blunt or escape these attention traps.  
-*Content unavailable; summarizing from title/comments.*
 
----
+The European Commission preliminarily found Meta’s platforms violate the Digital Services Act by inadequately assessing and mitigating compulsive-use risks, especially for minors and vulnerable adults. Investigators focused on personalized recommendations, autoplay, infinite scroll, notifications, nighttime use, and engagement-optimized formats. Existing screen-time prompts are easily dismissed, parental controls demand too much expertise, and safety tips sit apart from the product. The Commission proposes disabling addictive defaults, enforcing meaningful breaks, and reducing engagement orientation. Meta can respond before final decision; confirmed violations could draw fines up to 6% of worldwide annual turnover.
 
 ### Comment pulse
-- Social damage claim → Doomscrolling parents and “zombie” users show tobacco‑like harms; others note dads have always zoned out with newspapers—counterpoint: don’t judge complex family situations from one snapshot.  
-- Regulatory design claim → Some want bans on addictive patterns and recognize network effects as coercive; others prefer legal but clearly labeled “high-addiction” feeds plus open, inspectable algorithms.  
-- Coping tactics claim → Resetting Instagram’s algorithm, using browser extensions to hide Reels, or quitting entirely are suggested; several say resets fail and designs quickly re-hook attention.
 
----
+- Mitigation mismatch was persuasive → a dismissible timer cannot offset a product that optimizes every surface for another minute of engagement.
+- Autonomy split readers → some favor optional addictive feeds — counterpoint: addiction and network effects undermine meaningful individual choice.
+- Users want structural alternatives → transparent or third-party feeds, following-only views, and controls that remove Reels may preserve social utility.
 
 ### LLM perspective
-- View: Regulating “addictive design” shifts law from moderating content to moderating UX patterns and incentive structures, a deeper intervention in platform economics.  
-- Impact: Meta may need EU-specific feed, notification, and recommendation changes for minors; UX changes often spill over to global designs.  
-- Watch next: Final DSA ruling, concrete design remedies, algorithm transparency requirements, and whether standards for “addictive” UX patterns emerge across platforms.
+
+- **View:** The enforcement theory targets product architecture, not merely harmful content or inadequate disclosure.
+- **Impact:** Default-off autoplay and infinite scroll would shift responsibility from user self-control toward platform design incentives.
+- **Watch next:** Meta’s defense, final findings, remedy specificity, independent effectiveness testing, and whether recommender alternatives remain commercially viable.

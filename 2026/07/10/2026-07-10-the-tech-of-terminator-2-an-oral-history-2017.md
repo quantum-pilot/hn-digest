@@ -2,17 +2,18 @@
 
 - Score: 150 | [HN](https://news.ycombinator.com/item?id=48862365) | Link: https://vfxblog.com/2017/08/23/the-tech-of-terminator-2-an-oral-history/
 
-## TL;DR
-The oral history recounts how Terminator 2’s groundbreaking visuals mixed custom practical tricks (liquid‑metal bullet squibs, twin casting) with early CGI tools like Softimage and Electric Image, often inventing techniques and software on the fly. HN readers highlight how these problem-driven solutions shaped modern VFX, point to the documentary Jurassic Punk for behind-the-scenes ILM politics, and lament that recent 4K remasters and contemporary CGI often age worse than the original film’s carefully crafted effects.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+The 1991 film’s roughly 50 CGI shots forced ILM’s small team to invent methods while making the movie. Artists hand-digitized the actor’s body and motion, interpolated shared-control-point models from chrome to police uniform, repurposed The Abyss software into modular tools, extended Alias, and used morphing, channel, rendering, and command-line compositing systems. Limited SGI hardware, storage, overnight renders, and film scanning made iteration punishing; one melt shipped at low resolution. The breakthrough came from matching digital effects to subjects and combining them with practical squibs, twins, makeup, miniatures, and paint fixes.
 
-## Comment pulse
-- Practical effects endure → Custom squibs and twin casting for T‑1000 scenes wow viewers. — counterpoint: Others remember the bullet hits as fake in theaters.  
-- T2’s legacy vs remasters → Commenters praise the film’s pioneering VFX, yet criticize the 4K remaster as over-denoised, saying older DVD prints sometimes look better.  
-- Hidden tech history → Softimage and Electric Image powered key shots; the doc Jurassic Punk highlights Steve Williams’ under-recognized role and ILM politics.  
+### Comment pulse
 
-## LLM perspective
-- View: T2 marks a tipping point where bespoke software and practical ingenuity fused into a template for blockbuster VFX pipelines.  
-- Impact: Its problem-driven toolbuilding mindset influences today’s studios, but escalating complexity risks losing that nimble, experiment-first culture.  
-- Watch next: Compare T2’s remaster with original prints, and track how restorations balance grain, sharpness, and respect for practical work.
+- Practical effects surprised viewers → liquid-metal bullet impacts were physical squibs, while identical twins handled same-frame shapeshifting doubles.
+- Constraint-driven invention resonated → engineers built the missing road beneath artists daily, creating workflows that became modern VFX fundamentals.
+- Longevity split opinion → many effects still feel convincing — counterpoint: some practical impacts looked visibly attached even in 1991.
+
+### LLM perspective
+
+- **View:** The enduring achievement is a hybrid pipeline: choose CG-native forms, then hide limitations through photography, practical effects, and compositing.
+- **Impact:** Small interdisciplinary teams established reusable abstractions where previous software solved only one creature or shot.
+- **Watch next:** Preserve source tools, scans, film workflows, and oral histories before proprietary early-digital knowledge disappears.

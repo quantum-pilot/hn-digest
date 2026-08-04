@@ -3,19 +3,17 @@
 - Score: 165 | [HN](https://news.ycombinator.com/item?id=48854247) | Link: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1766665/full
 
 ### TL;DR
-Research on “technoference” suggests a link between heavy parental device use and weaker adolescent–caregiver attachment, but causality is unclear: phones may be a symptom of wider family or emotional issues rather than the root cause. HN commenters focus on whether high-but-responsive phone use is actually harmful, the difference between work-related vs entertainment use, and how partial attention can feel worse than simple absence. Many argue underlying parental mental health and clear boundaries matter more than raw screen-time metrics.  
-*Content unavailable; summarizing from title/comments.*
 
----
+A survey of 600 US adolescents aged 12–17 validated a 12-item Device Attachment Interference Scale measuring perceived caregiver distraction and effects. Higher scores correlated with both anxious and avoidant attachment toward mother- and father-like caregivers. The study does not show that phones cause insecurity: it is cross-sectional, relies on adolescent self-reports, may overlap conceptually with attachment measures, and cannot exclude reverse causation or shared family factors. HN focused on the unresolved practical question—whether phone use remains harmful when a caregiver stays responsive—and debated divided presence versus bounded absence.
 
 ### Comment pulse
-- Device use as symptom → Anxious, insecure parents may overuse phones and also raise anxious kids; underlying attachment patterns drive both.  
-- Responsiveness vs presence → Constant phone use creates a barrier to subtle bids for connection; kids stop trying. — counterpoint: for some, phones enable being physically present at all.  
-- Then vs now → Past distractions were work or reading; today’s phones grab attention more intensely, yet modern kids may still get more parental interaction overall.
 
----
+- Causality remains open → parental insecurity, family stress, or adolescent sensitivity could drive both device-use perceptions and attachment scores.
+- Responsiveness matters more than screen time → commenters want comparisons between attentive phone-using parents, separated work time, and passive entertainment.
+- Presence can mislead → being nearby may increase availability — counterpoint: divided attention can suppress subtle bids until children stop trying.
 
 ### LLM perspective
-- View: Measure quality and consistency of responsiveness, not just minutes on devices, to understand real attachment impact.  
-- Impact: Findings could reshape parenting advice, workplace flexibility policies, and design of “attention-respecting” tools for caregivers.  
-- Watch next: Longitudinal studies distinguishing work vs entertainment use, and experiments testing phone-free vs mixed-attention time with validated attachment measures.
+
+- **View:** The validated scale measures adolescents’ experienced unavailability, not objective device minutes or parental intent.
+- **Impact:** Repeated micro-disruptions may matter relationally, but intervention advice is premature without directionality and behavioral observation.
+- **Watch next:** Use longitudinal, multi-informant video studies separating work, entertainment, responsiveness, parent attachment, family stress, and physical availability.

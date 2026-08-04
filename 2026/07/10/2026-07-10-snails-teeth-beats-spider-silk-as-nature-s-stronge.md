@@ -3,20 +3,17 @@
 - Score: 149 | [HN](https://news.ycombinator.com/item?id=48862252) | Link: https://www.smithsonianmag.com/smart-news/spider-silk-loses-top-spot-natures-strongest-material-snails-teeth-180954346/
 
 ### TL;DR
-Researchers found that tiny teeth on snails’ rasping tongues are extraordinarily strong—significantly stronger than spider silk—thanks to densely packed mineral fibers embedded in a protein matrix. This suggests potential for new, bio‑inspired high‑performance composites if we can replicate their structure at scale. Hacker News commenters mostly wanted to see close-up images, shared anecdotes of snails and slugs actually biting skin, and spent surprising energy mocking the press release’s “3,300 one‑pound bags of sugar” strength analogy.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+A 2015 study found limpet radula teeth have tensile strength averaging about five times that of most spider silk and reaching values comparable to high-grade carbon fiber. Their structure combines goethite iron-mineral nanofibers with a protein matrix, letting the mollusks scrape rock for food without catastrophic failure. The result suggests a biomimetic blueprint for strong, lightweight composites, but the headline needs precision: tensile strength measures resistance to pulling apart, not hardness, compressive strength, or overall toughness, and graphene still exceeds it. HN wanted microscopy images and mocked the spaghetti-and-3,300-sugar-bags analogy.
 
 ### Comment pulse
-- Snails/slug bites are real → garden snails can lightly break skin; radula feels like sandpaper, analogous to cat tongue denticles but far finer.
-- Constant chewing explained → aquarium observers note snails graze nonstop; ultra‑strong microscopic teeth help them withstand this continuous abrasion.
-- Unit analogy debate → “3,300 one‑pound sugar bags” seems absurd; some prefer “car weight” — counterpoint: everyday grocery items can feel more concrete than vague car sizes.
 
----
+- Readers wanted visual evidence → linked microscopy images made the radula’s tiny abrasive structures more concrete than the article’s prose.
+- Everyday observations clicked → slug contact can feel like sandpaper because thousands of hard microscopic teeth rasp continuously.
+- The analogy failed → converting 1.5 metric tons into 3,300 one-pound sugar bags obscured scale rather than clarifying it.
 
 ### LLM perspective
-- View: “Strongest material” headlines oversimplify; strength, toughness, and scalability all matter for real engineering relevance.
-- Impact: Bio‑inspired composites may benefit mining, drilling, and wear‑resistant tools more than flashy consumer products.
-- Watch next: Lab attempts to 3D‑print or spin snail‑tooth‑like fiber architectures and standardized tests comparing them to Kevlar, carbon fiber, and spider silk.
+
+- **View:** The biological advantage comes from nanoscale composite architecture, not simply choosing an intrinsically stronger bulk substance.
+- **Impact:** Replicating fiber dimensions and interfaces could improve lightweight engineered composites, wear surfaces, and failure resistance.
+- **Watch next:** Compare reproducible synthetic analogues on tensile strength, toughness, fatigue, scale-up, moisture response, and manufacturing cost.

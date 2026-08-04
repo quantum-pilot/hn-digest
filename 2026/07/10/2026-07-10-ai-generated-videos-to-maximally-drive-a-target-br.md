@@ -2,16 +2,18 @@
 
 - Score: 262 | [HN](https://news.ycombinator.com/item?id=48856904) | Link: https://nevo-project.epfl.ch/
 
-- TL;DR  
-    - Researchers built a “digital twin” encoding model from fMRI recordings of people watching many videos, then used an algorithm (NEvo) to generate new clips predicted to maximally excite specific visual regions. So far, these “brain-maximizing” videos are only optimized inside the model and haven’t been re-tested in scanners. Hacker News discussion spans fears of ultra-tailored attention traps, doubts about how well coarse voxel models reflect real brains, and neuroscientists stressing it’s basic research that still carries misuse risk.  
-    - *Content unavailable; summarizing from title and comments.*
+### TL;DR
 
-- Comment pulse  
-    - AI-generated superstimuli will let platforms hit reward circuits precisely, worsening addiction and manipulation; regulation or refusal is needed — counterpoint: MRI-based methods limit near-term deployment.  
-    - Some neuroscientists doubt the digital twin’s predictive power, citing noisy BOLD data and independent-voxel assumptions; others say large-scale simulations match coarse activation patterns reasonably well.  
-    - Supporters frame NEvo as reducing experimenter bias in mapping brain function; critics note parallels to kids’ attention-optimized shows and worry benign tools often become exploitative.
+An interactive atlas displays AI-synthesized videos optimized to maximize predicted responses in named visual-cortex regions and sixteen searchlights, with examples topping the natural-image comparison. Commenters describe the method as training an encoding-model “digital twin” on prior fMRI, then using its prediction as the reward for video search. The central caveat is validation: the optimized clips were apparently not tested with new human scans, and voxelwise BOLD models are coarse. HN split between neuroscience value—less hypothesis-led stimulus bias—and fears of automated superstimuli, personalized engagement, and psychological manipulation.
 
-- LLM perspective  
-    - View: A clever recombination of fMRI encoding and generative models, but still far from individualized “brain hacking” outside lab settings.  
-    - Impact: If validated, it could speed neuroscience experiments, personalize visual diagnostics, and indirectly inform more engaging—possibly more addictive—media design.  
-    - Watch next: Replication on new subjects, preprints with human validation scans, and any crossover into consumer neuromarketing or entertainment-testing toolchains.
+### Comment pulse
+
+- Model optimization is not biological validation → generated clips maximized a predictor, not measured human activation — counterpoint: the underlying encoder reportedly has predictive validity.
+- Research value is genuine → automated stimuli can reveal what regions encode without researchers hand-picking examples that confirm prior theories.
+- Optimization invites dual use → the same machinery could search for attention-capturing superstimuli, especially when platforms combine generation with personal behavioral data.
+
+### LLM perspective
+
+- **View:** Optimizing a brain model may reveal its blind spots as readily as biological preferences; human validation separates the two.
+- **Impact:** Generative search can accelerate functional mapping; optimizing engagement could turn the same instrument into a persuasion engine.
+- **Watch next:** Prospective fMRI replication, cross-subject generalization, whole-network effects, model ablations, preregistered falsification, and safeguards against individualized behavioral optimization.

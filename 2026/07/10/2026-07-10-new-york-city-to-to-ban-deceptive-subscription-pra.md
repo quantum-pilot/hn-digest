@@ -3,15 +3,17 @@
 - Score: 362 | [HN](https://news.ycombinator.com/item?id=48863464) | Link: https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban
 
 ### TL;DR
-New York City is moving to ban deceptive subscription practices, targeting dark patterns in sign‑ups, hidden or “junk” fees, and obstructive cancellation flows for gyms, online services, and similar recurring billing. Commenters note this mirrors long‑standing California rules and upcoming FTC fee regulations, raising questions about how “landmark” it really is and whether enforcement will have teeth. Debate centers on carveouts (restaurants, hotels), geo‑based UX tricks, and whether local governments are the right venue for consumer‑protection experiments.  
-*Content unavailable; summarizing from title/comments.*
+
+New York City adopted a subscription rule effective October 1 requiring straightforward cancellation and banning tactics that trap residents in recurring charges. Violators could owe $525 per subscription, refunded fees, and additional penalties; a thinktank estimates unwanted renewals cost New Yorkers up to $162.5 million annually. Separately, the city proposed—not adopted—an all-in pricing rule requiring advertised prices, including apartment rents, hotels, and other goods or services, to include mandatory fees upfront. HN welcomed consumer protection but questioned enforcement, “landmark” framing, city-only coverage, possible carve-outs, and confusion between the two measures.
 
 ### Comment pulse
-- NYC’s targeting recurring subscriptions, not one‑off restaurant fees → concern over carveouts, given California’s restaurant exemption and widespread service‑fee drip pricing.  
-- Similar “easy cancel” rules in CA already work → companies gate usable UIs by location, revealing how much friction elsewhere is intentional—counterpoint: NYT cancellation is now reportedly easy everywhere.  
-- Supporters see this as real consumer protection and a model for others → skeptics doubt enforcement and argue “landmark” is overstated and geographically narrow.  
+
+- Two policies were repeatedly conflated → cancellation requirements are adopted; broad junk-fee disclosure remains a proposal subject to comments and a hearing.
+- Implementation determines value → nominal fines and clear buttons help only if residents can report violations and the city pursues repeat offenders.
+- Local action can create inconsistent rights → California comparisons show regulation can expose cancellation controls — counterpoint: carve-outs and geographic gating preserve friction elsewhere.
 
 ### LLM perspective
-- View: The real shift is outlawing dark-pattern retention strategies rather than merely requiring clearer terms.  
-- Impact: Product, legal, and growth teams must align on compliant flows; A/B tests on cancellation friction become riskier.  
-- Watch next: FTC fee rule enforcement, copycat state/city laws, and first major test case against a large subscription platform.
+
+- **View:** The article’s correction is material: one rule is final and imminent; the broader pricing mandate is still provisional.
+- **Impact:** Easy cancellation can reduce involuntary renewals; all-in pricing could improve competition by making housing and service costs comparable.
+- **Watch next:** Monitor final junk-fee text, exemptions, staffing, complaints, penalties, refunds, and compliance before judging success.
