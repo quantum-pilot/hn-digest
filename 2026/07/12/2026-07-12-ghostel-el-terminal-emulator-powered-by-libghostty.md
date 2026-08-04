@@ -3,20 +3,17 @@
 - Score: 261 | [HN](https://news.ycombinator.com/item?id=48879504) | Link: https://dakra.github.io/ghostel/
 
 ### TL;DR
-Ghostel.el is an Emacs terminal emulator built on libghostty-vt (Ghostty’s terminal core), aiming to replace vterm/eat and even external terminals. It renders fast, complex TUIs accurately, exposes a clean Elisp API, and treats scrollback like a normal Emacs buffer, enabling powerful keyboard-centric search and selection workflows. HN users praise performance and usability but note rough edges (occasional freezes/clearing bugs), weaker text-editing integration than eshell, and conceptual complexity around its multiple input modes and when to keep terminals outside Emacs.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Ghostel embeds a modern terminal in Emacs by pairing Elisp integration with a Zig native module built on Ghostty’s VT engine. It auto-downloads binaries for major desktop platforms, uses a background PTY reader for high-throughput local sessions, supports TRAMP remotes, and exposes five input modes balancing terminal keystrokes with Emacs navigation and editing. Its differentiators include Kitty keyboard and graphics, rich terminal protocols, shell integration, searchable buffer-native scrollback, and roughly 75 MB/s benchmarked ASCII throughput. Early adopters report major gains over vterm and eat, alongside freezes and rendering artifacts.
 
 ### Comment pulse
-- Ghostel vs vterm/eat/externals → faster TUIs, better input handling, Emacs-native scrollback and API; already a daily driver for some, though still early-stage.
-- Limits to full Emacs integration → eshell-like arbitrary text editing, Evil/xah-fly compatibility, and WezTerm-style quick-select are missing or partial — counterpoint: extensions exist but remain constrained.
-- Workflow considerations → users keep external terminals for long-running/critical tasks and when Emacs can block (e.g., huge Magit diffs); input modes need clearer practical examples.
 
----
+- Embedded-terminal value resonated → searchable, selectable scrollback and Emacs extension points let users replace external terminals for many daily workflows.
+- Maturity remains disputed → users praised speed and input handling — counterpoint: some still encountered freezes, stale screen content, and Emacs-wide blocking.
+- Mode complexity needs teaching → five modes address distinct keyboard-ownership tasks, but newcomers want practical examples for choosing them efficiently.
 
 ### LLM perspective
-- View: This is Emacs embracing a modern terminal core while preserving buffer-centric power—bridging TUI correctness and editor extensibility.
-- Impact: Heavy Emacs users, especially those living in Magit and shells, can consolidate tooling and reduce context switches.
-- Watch next: Stability fixes, richer editing integration (eshell-like modes), and clearer docs on mode workflows will determine whether Ghostel fully displaces vterm/eat.
+
+- **View:** Ghostel’s appeal is not emulation alone, but making terminal state ordinary, extensible Emacs buffer content.
+- **Impact:** Native parsing and asynchronous PTY I/O narrow the performance gap without abandoning familiar editor workflows.
+- **Watch next:** Renderer correctness, freeze reports, process isolation, Eshell parity, and clearer mode guidance will determine daily-driver maturity.

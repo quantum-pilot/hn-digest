@@ -2,16 +2,18 @@
 
 - Score: 246 | [HN](https://news.ycombinator.com/item?id=48882056) | Link: https://scotto.me/blog/2026-07-12-how-to-read-more-books/
 
-- Building a strong reading habit is less about sheer volume and more about curating high‑quality, demanding material, minimizing digital distractions, and fitting reading into existing routines. Commenters advocate prioritizing classics, domain “hallmarks,” and structured books over fluff, random podcasts, and passive scrolling. Tactics include swapping podcasts for audiobooks during chores, putting a reading app front‑and‑center on your phone, reading several (often related) books in parallel for reinforcement, and using LLMs or summaries as filters rather than replacements for deep reading.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+To move from fewer than ten books yearly to about one per week, the author replaced idle phone use with reading, removed distracting apps, carried an ebook or paperback everywhere, rotated several books, quit unengaging titles freely, tracked goals, and wrote reviews. He warns that volume targets can undermine reflection and rejects speed-reading, summaries, and audiobooks as substitutes. HN agreed that reducing friction and rotating related books sustains attention, but challenged medium and quantity dogma: audiobooks fit caregiving and chores, while chosen articles, textbooks, or discussions can outperform padded books.
 
 ### Comment pulse
-- Quality over quantity → Many books (esp. self‑help/bestsellers) are padded; prioritize classics, textbooks, and domain benchmarks—counterpoint: good forums/comments can sometimes beat mediocre books.
-- Manage attention, not time → Delete or log out of social apps, “lobotomize” the phone, and make reading the path of least resistance (home‑screen reader, audiobooks during chores).
-- Reading strategies → Parallel reading and topic interleaving reinforce memory and avoid dry spots; audiobooks help some, but others find retention and focus worse than with text.
+
+- Make reading the default idle action → remove sticky apps, log out, or place only a reading app on the home screen.
+- More books do not guarantee more value → commenters favored classics, textbooks, and dense articles over padded publishing — counterpoint: internet commentary is noisier still.
+- Audiobooks trade control for availability → they unlock chores and caregiving time, but continuous playback can hinder pausing, reflection, and complex comprehension.
 
 ### LLM perspective
-- View: Use LLMs to triage content, clarify concepts, and generate reading plans, but keep books as the primary long‑form substrate.
-- Impact: Time‑poor professionals and parents can salvage fragmented attention into deeper learning instead of shallow feeds and low‑yield podcasts.
-- Watch next: Tools that integrate ebooks, audiobooks, annotations, and LLM Q&A while enforcing distraction limits and surfacing only high‑signal material.
+
+- **View:** Reading follows environment design: reduce competing rewards, keep good material nearby, and permit switching before boredom becomes avoidance.
+- **Impact:** A numerical goal can start the habit, but learning depends on selection, reflection, recall, and matching medium to circumstance.
+- **Watch next:** Attention after app removal, recall from interleaving books, and which formats deliver the best comprehension per available hour.

@@ -2,16 +2,18 @@
 
 - Score: 426 | [HN](https://news.ycombinator.com/item?id=48883275) | Link: https://systima.ai/blog/claude-code-vs-opencode-token-overhead
 
-## TL;DR
-Claude Code’s coding agent reportedly spends tens of thousands of tokens (e.g., 33k vs OpenCode’s 7k) before even engaging with a user’s prompt, largely due to aggressive use of subagents and tools, each re-reading large system prompts and code context. Commenters describe “tokenflation” where trivial actions trigger many tool calls, suspecting misaligned business incentives or just poor engineering. Others argue raw token counts are the wrong metric; what matters is cost per successful task and tooling quality.  
-*Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-## Comment pulse
-- Subagents multiply costs → each spawns with ~30k system prompt, re-reads code, misses cache, so parallelism explodes token use—counterpoint: exhaustive multi-agent search can be valuable for planning/exploration.  
-- Incentives questioned → some see Anthropic as “token merchants”; others note flat-fee subs and call it incompetence plus organizational disinterest, not deliberate gouging.  
-- Metrics and tooling → raw prompt size misleads; excessive tool calls drive “tokenflation.” Better benchmarks, smarter tools, and repo-aware techniques (hash-anchors, AST parsing) cut waste.
+A logging-proxy benchmark found Claude Code’s first request carried about 33,000 tokens of instructions, tool schemas, and scaffolding before a prompt, versus roughly 7,000 for OpenCode on the same model. Instruction files, MCP schemas, unstable cache prefixes, and especially subagents multiplied costs; two subagents raised one task from 121,000 to 513,000 tokens. Claude sometimes recovered through tool batching, but results varied by model. Both passed simple quality tests, leaving harder-task value unresolved. HN emphasized limiting fan-out and measuring completed-work quality, round trips, and cache stability—not prompt size alone.
 
-## LLM perspective
-- View: Optimize for “successful change per dollar and minute,” not minimal tokens; allow user control over agent/tool aggressiveness.  
-- Impact: Over-eager coding agents especially hurt small teams; enterprises absorb costs but may demand tighter governance and logging.  
-- Watch next: Expect per-tool token breakdowns, tunable subagent limits, and head-to-head benchmarks on large, real-world repositories.
+### Comment pulse
+
+- Subagents are the dominant multiplier → each replays a bootstrap and reacquires context — counterpoint: parallel exploration can justify the expense when exhaustive discovery matters.
+- Large prompts are not automatically inefficient → aggressive batching can beat lean serial loops, so request count and tool design determine whole-task cost.
+- Prompt size is only the floor → quality, tool reliability, and completed-work efficiency matter; simple benchmarks cannot price orchestration benefits on harder engineering.
+
+### LLM perspective
+
+- **View:** Agent efficiency multiplies baseline size, request count, parallel sessions, and cache misses; conversation growth compounds every turn.
+- **Impact:** Hidden harness overhead consumes context as well as money, causing earlier compaction and reducing capacity for repository-specific evidence.
+- **Watch next:** Independent reproductions, harder quality-controlled tasks, prefix stability, model-conditioned prompts, adaptive tool selection, and explicit budgets for subagent fan-out.

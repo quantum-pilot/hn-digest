@@ -3,20 +3,17 @@
 - Score: 226 | [HN](https://news.ycombinator.com/item?id=48884853) | Link: https://scrapfly.dev/posts/browser-math-os-fingerprint/
 
 ### TL;DR
-Chromium 148 started delegating `Math.tanh` to the OS math library, so its bit‑exact output varies by operating system. That gives trackers another high‑entropy fingerprinting signal: they can correlate JavaScript results with the underlying OS (or at least a browser/OS/version range), even if user-agent strings are spoofed. HN commenters note that version fingerprinting via subtle JS/CSS feature probes is already common, debate the motives of a scraping company publicizing this, and digress into correctly rounded math libraries.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Since Chromium 148, V8 routes Math.tanh through each operating system’s math library instead of bundled fdlibm, exposing tiny rounding differences that distinguish Linux, macOS, and Windows—and can contradict a spoofed user agent. CSS trigonometry and Web Audio leak related platform or architecture details through separate host libraries. Noise is detectable; faithful spoofing requires bit-exact algorithm reproduction, architecture control, timing parity, and hardware validation. HN noted the change also signals a browser-version floor, debated scraper incentives and AI-written marketing, and favored standardized correctly rounded functions or restored bundled implementations.
 
 ### Comment pulse
-- `Math.tanh` output can reveal OS and Chromium version range → but browser features already give finer‑grained version fingerprints with less effort.
-- Publishing this helps a scraping company normalize and harden fingerprinting → counterpoint: tracking will happen anyway; exposing issues can push browsers to fix them.
-- Discovery fuels calls for correctly rounded transcendental functions and stable libm behavior → some argue fixed‑point/integer math is often preferable to IEEE‑754 floats.
 
----
+- The leak identifies more than OS → bundled behavior before version 148 creates a coarse version boundary — counterpoint: ordinary feature tests already reveal versions.
+- Correct rounding could remove vendor signatures → shared transcendental results improve privacy, though implementations must avoid pathological worst-case performance.
+- Messenger credibility divided readers → the disclosed AI drafting and anti-bot vendor motive looked promotional, while others prioritized reproducible technical truth.
 
 ### LLM perspective
-- View: This is an incremental but clean example of how tiny implementation details leak identity via high‑precision side channels.
-- Impact: Browser vendors, privacy tools, and anti‑bot systems must treat math-library behavior as part of their fingerprint surface.
-- Watch next: See if Chromium normalizes transcendental functions, and whether testers like Cover Your Tracks add math‑based fingerprint checks.
+
+- **View:** Determinism becomes identity when standards permit implementation variance; one-bit differences are cheap, stable classifiers across otherwise similar browser surfaces.
+- **Impact:** A performance-oriented dependency change silently expanded fingerprinting, demonstrating that privacy regressions can enter below APIs without visible feature changes.
+- **Watch next:** Chromium’s response, correctly rounded libm adoption, population measurements, timing signatures, and regression tests for bit-stable web math.
