@@ -3,20 +3,17 @@
 - Score: 588 | [HN](https://news.ycombinator.com/item?id=48707719) | Link: https://www.patrick-breyer.de/en/double-threat-to-private-communications-undemocratic-chat-control-backroom-deals-and-imminent-concessions-spark-relaunch-of-fightchatcontrol-eu/
 
 ### TL;DR
-EU bodies are again pushing “Chat Control” rules, reportedly negotiated behind closed doors, that would force messaging services to scan private communications for child‑abuse material. Hacker News commenters portray the proposal as both a civil‑liberties risk and a symptom of EU‑level decision‑making that feels distant and unaccountable. Technical participants question the feasibility and proportionality of mass client‑side scanning, while others fear the process and outcomes will deepen political polarization around the EU itself.  
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Former MEP Patrick Breyer warns that two EU processes could revive temporary chat-scanning rules and weaken Parliament’s negotiating mandate before the permanent CSAR trilogue on June 29. He says possible outcomes include broad voluntary or mandatory scanning, untargeted detection orders without prior judicial approval, and age verification that ends anonymous communication. His campaign urges citizens to contact Council and Parliament negotiators. HN strongly opposed the proposals, questioning why rejected measures repeatedly return and arguing mass scanning burdens ordinary users while determined criminals retain alternative encryption.
 
 ### Comment pulse
-- Chat Control’s persistence → critics cite an EU habit of reviving rejected plans and elite quotes favoring stepwise centralization—counterpoint: treaties and elections still constrain power.  
-- Architecture reality → despite theoretical openness, most messaging uses big apps; mandated scanning burdens users, while criminals and officials migrate to niche or unscanned channels.  
-- Political dynamics → some member states oppose; opacity, lobbying, and privacy erosion are blamed for fueling anti‑EU right—counterpoint: others frame these reforms as modernization.
 
----
+- Repeated proposals erode democratic trust → commenters saw March’s rejection followed by renewed negotiations as policymaking that treats no as temporary.
+- Universal scanning misses adaptive criminals → custom encryption remains available while mainstream services inspect everyone — counterpoint: network effects concentrate ordinary messaging in major apps.
+- Decision authority is confusing → country tallies, Council positions, veto rules, Parliament mandates, and trilogue bargaining were repeatedly conflated.
 
 ### LLM perspective
-- View: Treat Chat Control as a case for whether states can mandate inspection of general‑purpose devices without individualized warrants.  
-- Impact: Even failed attempts chill design of secure apps; companies may preemptively weaken privacy to avoid future conflicts with regulators.  
-- Watch next: Compare EU proposals with UK and US debates on access to encrypted data to anticipate norms or pushback.
+
+- **View:** Client-side scanning changes the security boundary for every user; legitimacy therefore requires narrow scope, judicial control, and transparent evidence.
+- **Impact:** Messaging providers face incompatible privacy and compliance duties; citizens risk false positives, identity exposure, and weaker end-to-end encryption.
+- **Watch next:** Verify the Council position, Parliament mandate, trilogue text, judicial-authorization language, age-verification scope, political exemptions, and independent technical review.

@@ -3,20 +3,17 @@
 - Score: 273 | [HN](https://news.ycombinator.com/item?id=48706560) | Link: https://www.eff.org/deeplinks/2026/06/kids-act-would-require-age-checks-get-online
 
 ### TL;DR
-The KIDS Act would force major “covered platforms” to verify users’ ages, triggered by practices like using personal data for targeted ads or content recommendations. Commenters argue this likely hits social networks and ad-funded sites more than small, non-targeted venues, contradicting “every website” rhetoric. The thread highlights weak but worrying evidence on social media’s mental-health impact, particularly at societal scale, and strong concern that age checks will normalize broader identity tracking, driven by coordinated political and corporate lobbying.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+The EFF warns that the bundled KIDS Act could make age verification a practical requirement even though its KOSA section disclaims a mandate. Platforms face duties whenever they know or should know someone is under 17; combined KOSA, SAFE BOTS, and SCREEN provisions create differing liability standards that may encourage IDs, facial estimation, broader moderation, and restrictions on encrypted or ephemeral messages. HN challenged the headline’s breadth because coverage appears tied to services using personal data for ads or recommendations, but commenters disputed whether that still captures mainstream ad-funded services.
 
 ### Comment pulse
-- Scope dispute → Some say only data-driven, ad-funded or recommender platforms are covered; others argue that’s effectively “the whole mainstream web” anyway.  
-- Harm evidence debate → Individual-level studies often show weak effects, but population-level shifts and algorithmic addiction patterns keep many convinced regulation is justified—counterpoint: causality remains unproven.  
-- Power and lobbying → Users connect sponsors, lobby groups, and a wider Western push to “protect kids,” seeing both genuine concern and a pretext for surveillance infrastructure.
 
----
+- Coverage is narrower than the web → Section 201(E) targets personal-data advertising or recommendations — counterpoint: that may still include banks and ad-funded sites.
+- The harm evidence is unsettled → individual-use studies often show weak effects, while population-level cultural theories predict diffuse impacts that resist clean causal testing.
+- Child safety can expand surveillance → commenters saw a reversal from minimizing personal data to proving identity before access, benefiting established platforms over smaller rivals.
 
 ### LLM perspective
-- View → Age verification risks building de facto digital ID systems, with unclear benefits and strong incentives to expand beyond children.  
-- Impact → Large platforms absorb compliance; smaller sites may exit or avoid features, shrinking the open, pseudonymous web kids actually use.  
-- Watch next → Technical standards for privacy-preserving age checks, court challenges on speech/privacy grounds, and copycat bills in other jurisdictions.
+
+- **View:** Indirect mandates matter: negligence liability can compel universal verification without any clause explicitly ordering every user to identify themselves.
+- **Impact:** Adults surrender privacy, minors lose lawful support spaces, and small services inherit compliance costs that incumbents can absorb.
+- **Watch next:** Demand platform-scope analysis, privacy-preserving age-assurance tests, bias audits, encryption guarantees, appeals, and evidence linking regulated features to harms.

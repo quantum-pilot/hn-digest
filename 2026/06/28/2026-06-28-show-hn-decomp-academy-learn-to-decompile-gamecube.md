@@ -2,17 +2,18 @@
 
 - Score: 187 | [HN](https://news.ycombinator.com/item?id=48703412) | Link: https://decomp-academy.dev
 
-## TL;DR
-Decomp Academy is a browser-based tutorial site that teaches decompiling GameCube games into C that exactly matches the original assembly. Learners write C in the browser, compare compiled output, and iterate without installing toolchains. HN commenters praise the low-friction approach and suggest linking graduates to real decomp projects, plus lessons on starting new reverse‑engineering efforts from scratch. Others discuss piecemeal reverse engineering for modding large games and how current AI tools assist but cannot reliably finish matching decompilations.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+Decomp Academy is a browser-first, 267-lesson course that teaches beginners to turn GameCube and Game Boy Advance assembly into C with byte-identical compiler output. Its curriculum moves from registers and arithmetic through pointers, control flow, ABI details, optimization, and real Star Fox Adventures functions, with live grading by original compilers. HN praised removing fragile toolchain setup, but wanted a path from lessons into real project contributions and new-project bootstrapping. Discussion also highlighted function-by-function workflows and LLMs’ difficulty closing the final gap from plausible code to exact assembly.
 
-## Comment pulse
-- Desire for low-friction contribution workflow → integrate lessons with live decomp projects, auto-PRs from matched functions; concerns about “fake matches” exploiting assembly-only checks.  
-- Depth of curriculum → users want guidance for starting new GameCube projects, but author prioritizes fundamentals before advanced topics like splits.txt/symbols.txt.  
-- Piecemeal reverse engineering is viable → per-function recompiles or DLL/vtable hooks enable mods of large games — counterpoint: some already lean on LLM-assisted ROM decomp.
+### Comment pulse
 
-## LLM perspective
-- View: Guided, browser-based matching decomp is a strong pattern that could extend beyond GameCube to other consoles and binaries.  
-- Impact: Lowers barriers for reverse engineering, growing a talent pool that can preserve games, audit software, and create sophisticated mods.  
-- Watch next: Add structured contribution paths, anti-cheating checks, and optional AI hints tuned for the last 5–10% of hard matches.
+- Browser delivery removes the largest onboarding cost → learners can experiment without installing old compilers, SDKs, linkers, or platform-specific patches.
+- Byte equality is not source truth → alternative C, including fake matches, can reproduce target instructions without representing original intent.
+- Exact matching exposes automation’s tail problem → AI may reach roughly 95%, then struggle with scheduling, compiler quirks, and source-shape details.
+
+### LLM perspective
+
+- **View:** The course turns reverse engineering from environment archaeology into deliberate practice with immediate, objective feedback.
+- **Impact:** Preservation projects gain trained contributors; learners acquire assembly, ABI, optimization, and debugging intuition transferable beyond games.
+- **Watch next:** Add project setup, authentic unmatched-function queues, anti-fake-match checks, and measurements of learner contributions to upstream decomps.

@@ -3,15 +3,17 @@
 - Score: 157 | [HN](https://news.ycombinator.com/item?id=48707361) | Link: https://github.com/open-energy-transition/open-tyndp
 
 ### TL;DR
-EU-backed researchers have released open-source power system models, based on PyPSA-Eur, to support Europe’s Ten-Year Network Development Plan with transparent, reproducible grid expansion scenarios. The tools aim to replace proprietary software like PLEXOS, lowering costs and enabling wider scrutiny by academics, NGOs, and smaller regulators. Commenters debate hosting on GitHub versus EU forges, security risks of public infrastructure data, and whether this is pragmatic planning for a renewable-heavy grid or more European bureaucracy.  
-*Content unavailable; summarizing from title/comments.*
+
+Open-TYNDP is an experimental, MIT-licensed workflow built with PyPSA-Eur to make Europe’s ten-year electricity-network scenario building and cost-benefit analysis reproducible from raw data and code. The OET–ENTSO-E collaboration first aims to replicate 2024 planning figures, then align with the 2026 cycle; it remains incomplete, partially populated, and under validation. HN praised transparent models for stakeholder scrutiny and interconnector planning, while debating whether GitHub weakens European autonomy, whether this is truly an official EU model, and whether public infrastructure data creates security risk.
 
 ### Comment pulse
-- Open-source TYNDP models → replace opaque, expensive tools like PLEXOS, enable reproducible studies, stakeholder participation, and standardize around PyPSA/PyPSA-Eur for least-cost grid planning.  
-- Hosting on GitHub is ironic → critics want EU’s own forges; others note Git’s distributed nature and that this is a TUM model, not ENTSO-E’s.  
-- Public grid data is risky → some fear aiding Russian targeting; others note satellites already reveal lines and argue openness significantly improves planning transparency.  
+
+- Reproducibility challenges incumbent tooling → open code lets policymakers, researchers, and citizens inspect assumptions instead of trusting proprietary optimization results.
+- Repository hosting became sovereignty shorthand → critics objected to GitHub; others noted Git’s distributed design makes migration or mirroring easy.
+- Disclosure has competing externalities → public grid models improve planning collaboration — counterpoint: some commenters feared adversaries could exploit consolidated infrastructure data.
 
 ### LLM perspective
-- View: Open, reproducible grid models are critical infrastructure themselves; they democratize long-term energy planning and scenario testing.  
-- Impact: Beneficiaries include smaller TSOs, regulators, academia, and NGOs that previously couldn’t afford proprietary tools for serious transmission planning.  
-- Watch next: Watch for ENTSO-E adoption, validation against existing PLEXOS studies, and whether non-EU regions replicate this open modeling approach.
+
+- **View:** Open planning earns trust only when outputs reproduce results and divergences are explained, not merely when code is visible.
+- **Impact:** Regulators gain auditability; smaller stakeholders avoid proprietary-tool barriers; maintainers inherit data-licensing, validation, and upstream-sync burdens.
+- **Watch next:** Track 2024 benchmark parity, 2026 data coverage, CBA validation, upstream PyPSA contributions, and any official ENTSO-E adoption.

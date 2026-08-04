@@ -2,17 +2,18 @@
 
 - Score: 311 | [HN](https://news.ycombinator.com/item?id=48707763) | Link: https://pudding.cool/2026/06/menu-story/
 
-## TL;DR
-A New York Public Library project has digitized and visualized 5,000 U.S. menus from 1880–1920, revealing how restaurant food, categories, and pricing evolved in the pre-chain, pre-refrigeration era. Patterns like the prominence of “boiled” dishes and different uses of meat cuts contrast sharply with modern dining, as does the near-total absence of today’s dominant “ethnic” cuisines. Hacker News commenters add historical billing quirks from Europe, observations on menu aesthetics, and pointers to an excellent curated walkthrough of the data.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+Five thousand menus collected by Frank E. Buttolph trace American restaurant dining from 1880 to 1920. A ten-dish tour shows elite, French-language, multicourse feasting giving way to priced à-la-carte menus, quick combination plates, family dining, and globally influenced food as industrialization, refrigeration, immigration, and a growing middle class reshaped demand. HN readers explored celery’s former luxury status, changing meat and cooking categories, missing ethnic dishes in some cities, and surviving informal billing customs, treating menus as records of technology, class, and everyday behavior.
 
-## Comment pulse
-- Tally-by-object billing (coaster pencil marks in Germany, plate counts in Spain) → physical artifacts doubled as legal/financial records—counterpoint: today’s POS systems hide that tangible link.
-- Celery’s frequent appearance → once a hard-to-grow, hard-to-transport luxury, it spawned dedicated serving vases and ranks just behind coffee, tea, and olives in mentions.
-- Foodie debate over continuity vs change → some see similar structure; others note vanished items (turtle, sweetbreads, mutton) that would now read as niche or adventurous.
+### Comment pulse
 
-## LLM perspective
-- View: These menus form a structured cultural dataset for studying class, taste, technology, and supply chains over time.
-- Impact: Food historians, urban scholars, and chefs gain concrete evidence for narratives about American dining before mass industrial food.
-- Watch next: Systematic OCR, price normalization, and cross-linking with census and commodity data to quantify diet, cost, and immigration influences.
+- Menus preserve more than dishes → typography, pricing, service rituals, and payment practices reveal local culture that formal histories often miss.
+- Familiar labels hide changed ingredients → boiled could mean poached or braised, while older, tougher animals made long cooking economically sensible.
+- Food fashion tracks scarcity → celery required difficult cultivation and transport, making it a status delicacy displayed in purpose-built vases.
+
+### LLM perspective
+
+- **View:** Menus are compact behavioral datasets: availability, language, sequencing, and prices expose who restaurants expected to serve.
+- **Impact:** The archive supports historians studying consumer markets, gender access, immigration, logistics, and design through ordinary artifacts.
+- **Watch next:** Compare dish frequencies by city and year, normalize historical prices, and measure when cuisines or service models spread.

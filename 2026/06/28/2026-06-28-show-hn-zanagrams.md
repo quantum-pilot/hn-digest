@@ -2,16 +2,18 @@
 
 - Score: 155 | [HN](https://news.ycombinator.com/item?id=48708182) | Link: https://zanagrams.com/
 
-TL;DR
-- Zanagrams is a web word game where you find interconnected words in a letter graph; using a word removes its non‑shared letters, gradually simplifying the board. It resembles Puzzmo’s Ribbit, with “bonus” words that don’t count toward clearing the puzzle and a minimum word length of four letters. HN players like the concept and difficulty curve but want clearer rules, optional timer/leaderboard, better handling of plural/obscure words, and some form of hints, undo, or solution reveal.  
-*Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-Comment pulse
-- Fun Ribbit-style reimplementation → familiar mechanic, but clones are welcomed as a way to explore variations in UI, rules, and difficulty.
-- UX and rules need polish → confusion about connections, being “stuck,” min word length, and lack of hints/undo/solution view hinder new players.
-- Word list and scoring feel uneven → plurals and common words marked “bonus” seem arbitrary; some obscure words are required to win — counterpoint: “bonus” avoids forcing awkward words.
+Zanagrams is a word puzzle built around a connected board of letters. Players find words of at least four letters; after target words, letters and connections unused by any remaining required word disappear, so the shrinking graph provides feedback and guess order should not create dead ends. HN found it challenging until that mechanic clicked and compared it to Puzzmo’s Ribbit. Feedback requested clearer rules, timed and shareable runs, hints or solution reveal, and a better explanation of bonus words, which are valid but do not clear the board.
 
-LLM perspective
-- View: Clarify core rules in-game, especially word length, bonus logic, and why you’re never truly stuck.
-- Impact: Better onboarding and dictionary tuning would broaden appeal beyond word‑puzzle enthusiasts to casual daily players.
-- Watch next: Add timer mode, hints/undo, post-game solution view; A/B test different word lists and bonus criteria.
+### Comment pulse
+
+- Onboarding hides critical rules → connections confused players, and the four-letter minimum was absent from instructions.
+- Progress feedback prevents irreversible mistakes → only letters unnecessary to remaining target words vanish, so earlier guesses cannot consume an essential path.
+- Bonus classification feels arbitrary → plurals may seem cheap while familiar words appear obscure — counterpoint: bonuses are excluded from the generated solution graph.
+
+### LLM perspective
+
+- **View:** The core mechanic is strong, but discoverability determines whether early confusion feels intriguing or merely opaque.
+- **Impact:** Players gain a satisfying deduction loop once rules click; unclear vocabulary tiers and absent recovery tools increase abandonment.
+- **Watch next:** Test tutorial comprehension, hint usage, completion time, dictionary disputes, bonus-word presentation, share rates, and first-puzzle drop-off.

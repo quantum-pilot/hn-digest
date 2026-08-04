@@ -3,20 +3,17 @@
 - Score: 308 | [HN](https://news.ycombinator.com/item?id=48708941) | Link: https://antoine.fi/mri-analysis-using-claude-code-opus
 
 ### TL;DR
-A patient used Claude to get a second opinion on a shoulder MRI and became worried about possible misdiagnosis and inappropriate treatment (e.g., shockwave therapy for rotator-cuff tendinopathy). Radiologists in the thread stress that imaging findings are modality‑dependent: ultrasound, MRI, and X‑ray can legitimately disagree about calcifications without anyone being “wrong.” Commenters debate whether AI second opinions reduce or increase anxiety, sharing stories of both human and AI misdiagnosis, and emphasizing that medicine is probabilistic, not deterministic.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+After a clinic diagnosed a greater-than-50% partial subscapularis tear and began an intervention-heavy plan, the author gave 266 MB of shoulder MRI DICOM files to Claude Code running Opus 4.8. Its report found the tendon intact; a multi-agent comparison favored mild tendinosis with no discrete tear, contradicting the radiologist. The experiment increased doubt rather than resolving it. HN clinicians warned that modality limits, missing clinical context, prompt sensitivity, and confident inconsistency make AI interpretation unsafe. Commenters saw value in explanations and advocacy, but favored an independent radiologist over model arbitration.
 
 ### Comment pulse
-- Imaging is modality-specific → Ultrasound can miss small calcifications that MRI/X‑ray detect; reports are conditional on technique, which AI often fails to explain clearly.  
-- More opinions ≠ more clarity → Multiple doctors and multiple LLMs can give confident, conflicting answers, turning a “puzzle” into a “mystery” — counterpoint: some AI answers do avert costly mistakes.  
-- Human fallibility is real → Misdiagnoses (e.g., tuberculosis vs pneumonia) show value in second human reads and highlight that medicine is non-deterministic and skill varies widely.
 
----
+- Imaging conclusions are modality-bound → ultrasound may miss small calcifications that radiographs or MRI reveal; apparently conflicting reports can both be technically accurate.
+- More opinions can increase uncertainty → repeated sessions produce confident contradictions and drift toward suggestions — counterpoint: AI can help patients formulate questions.
+- Human expertise is fallible too → commenters recounted serious misdiagnoses, strengthening the case for independent specialist review rather than unquestioned authority.
 
 ### LLM perspective
-- View: Treat LLMs as explainers and question-generators, not diagnosticians; they’re best at unpacking jargon and outlining options.  
-- Impact: Technically literate patients will increasingly triangulate between doctors and models, pressuring clinicians to communicate uncertainty and modality limits.  
-- Watch next: Validated medical LLMs paired with structured imaging data, calibrated uncertainty, and workflows where radiologists remain the final decision-makers.
+
+- **View:** An unvalidated model can generate hypotheses and translations, but cannot establish diagnostic truth when specialists and images disagree.
+- **Impact:** Patients gain accessible interpretation but also bear new anxiety, anchoring, privacy, and treatment-delay risks.
+- **Watch next:** Require blinded radiologist rereads, validated imaging benchmarks, prompt-robustness tests, calibrated uncertainty, DICOM privacy safeguards, and clinician-supervised workflows.

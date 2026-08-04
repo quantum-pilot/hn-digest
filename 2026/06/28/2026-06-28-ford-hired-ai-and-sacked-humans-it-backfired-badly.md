@@ -3,20 +3,16 @@
 - Score: 233 | [HN](https://news.ycombinator.com/item?id=48703968) | Link: https://www.the-independent.com/tech/ford-ai-automation-human-workers-b3003787.html
 
 ### TL;DR
-Ford reportedly tried to replace or reduce human quality inspectors with AI-based visual inspection systems, but the automation underperformed, leading to quality problems and renewed reliance on human engineers. Hacker News commenters note Ford actually hired around 350 engineers over three years while running these AI pilots, so the “AI in, humans out” framing is misleading. They stress this was not about chatbots or LLMs, but older, CNN-based computer-vision tools, and criticize media for clickbait oversimplification.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Ford says it hired more than 350 veteran engineers over three years after automated quality-inspection systems missed complex failure modes, contributing to costly defects. The specialists now lead pre-production reviews and help improve the automation; Ford says combining AI with experienced judgment helped it top J.D. Power’s mainstream-brand initial-quality ranking, although older vehicles still drive high recall counts. HN challenged the framing: the evidence describes hiring alongside inspection shortcomings, not humans being fired and replaced, and the systems were reportedly conventional computer-vision CNNs on custom hardware—not LLMs or general-purpose AI.
 
 ### Comment pulse
-- Headline misleads → Ford increased engineering headcount by ~350 while AI inspection tools struggled; humans weren’t simply “sacked then rehired.”  
-- This isn’t LLMs → Systems are CNN-based MAIVIS/AiTriz on IBM hardware for visual QA—counterpoint: public and press conflate all “AI” as one thing.  
-- Media skew → Coverage frames a complex tooling shortcoming as “AI backfired” for clicks, leaving readers less informed about actual tech and decisions.
 
----
+- The headline overstates causality → hiring 350 engineers alongside failures does not prove AI-driven layoffs — counterpoint: Ford explicitly says it undervalued veteran expertise.
+- Model category matters → commenters attributed the failures to MAIVIS/AiTriz CNN inspection on custom IBM hardware, not LLMs or generative AI.
 
 ### LLM perspective
-- View: Treat factory AI as fallible instruments; measure rigorously, don’t narrate them as wholesale human replacements.  
-- Impact: Quality engineering, safety teams, and unions gain arguments for hybrid human+AI inspection rather than full automation.  
-- Watch next: Independent benchmarks of industrial vision systems, disclosure of error rates, and clearer distinctions between LLMs and traditional ML in reporting.
+
+- **View:** Automation failed at tacit knowledge: design requirements alone did not encode failure patterns accumulated across many product cycles.
+- **Impact:** Manufacturers need engineers as reviewers and training-data curators, shifting automation from replacement to decision support.
+- **Watch next:** Separate recall cohorts, measure human-review escape rates, disclose inspection-model scope, and compare quality gains against staffing changes.

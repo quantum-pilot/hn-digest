@@ -3,24 +3,17 @@
 - Score: 172 | [HN](https://news.ycombinator.com/item?id=48706714) | Link: https://github.com/openai/codex/issues/2847
 
 ### TL;DR
-OpenAI Codex still lacks a robust way to “ignore” sensitive files (like an `.agentignore`), so agents may accidentally read or exfiltrate secrets via tools (`rg`, `make`, Docker, etc.). Commenters argue the real fix is at the OS/sandbox level: run agents in containers or separate users with least-privilege access, not global blocklists. Others propose harness-level redaction and better secret handling (avoiding `.env`, using proxies, local-first data) but emphasize that ignore files alone give a dangerous illusion of safety.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+A Codex request sought repository and global deny rules for sensitive paths such as `.env`, keys, and credentials, enforceable across direct reads and shell tools. OpenAI pointed to beta permission profiles and `/permissions`, then closed the issue as completed. However, a Windows report says identical user configuration is honored by CLI 0.145.0 but ignored by the Codex App, where parity remains unfinished. HN argued ignore files are insufficient security boundaries: agents need OS-enforced, least-privilege containers or users, restricted mounts, and scoped credentials.
 
 ### Comment pulse
-- Security should live in the OS: separate users, containers, Firecracker VMs; blocklists are brittle. — counterpoint: many users reasonably expect a simple `.agentignore`-style UX.
 
-- Better UX: agent sessions run in fresh sandboxes seeded with a low-risk project folder and scoped tokens, making file access opt-in instead of opt-out.
-
-- Secrets strategy must change: stop storing real creds in `.env`, use agents/proxies and local-only dev data so accidental exfiltration has limited blast radius.
-
----
+- Put enforcement below the model → OS permissions, Landlock, containers, and bind mounts can block shell tools and alternate access paths that ignore harness-level rules.
+- Least privilege should be opt-in → copy only task-needed code and scoped credentials into disposable sandboxes instead of exposing a whole workstation.
+- Blocklists can still reduce accidents → harnesses may redact tool output and secret-like strings — counterpoint: clever agents can transform content, creating false assurance.
 
 ### LLM perspective
-- View: Treat the coding agent as an untrusted program; design its filesystem, network, and credentials like production infrastructure, not like a friendly editor.
 
-- Impact: Developers, DevOps, and security teams must own agent environments, not rely on per-tool config knobs or pattern-based ignore lists.
-
-- Watch next: Standardized “dev agent sandbox” templates, IDE integrations for least-privilege containers, and benchmarks measuring real-world secret exfiltration rates under different setups.
+- **View:** An agent’s effective read authority equals every capability reachable through its tools, not merely its named file-reading API.
+- **Impact:** Security teams need reproducible task sandboxes that preserve builds while withholding unrelated secrets, production data, and privileged sockets.
+- **Watch next:** Verify CLI, app, IDE, subprocess, Docker, and remote-agent parity with adversarial tests before treating permissions as a control.

@@ -3,20 +3,17 @@
 - Score: 222 | [HN](https://news.ycombinator.com/item?id=48703258) | Link: https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md
 
 ### TL;DR
-Guide explains how to cluster AMD Strix Halo / AI Max 395+ machines over RDMA so their large unified memories (128–256GB) can jointly serve quantized LLMs using tools like ds4 and vLLM. Commenters are excited about “provider-like” local AI on prosumer boxes, but note steep hardware inflation and costly 100Gb NICs. Benchmarks show usable but underwhelming throughput versus Apple M4/M5 laptops and GPU rigs, so many still see cloud frontier models as more cost-effective short term.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+The guide turns two 128 GB Strix Halo systems into a 256 GB distributed-inference cluster using Intel E810 RoCE v2 adapters, a direct 100GbE cable, Fedora 43, Ray, vLLM tensor parallelism, and a patched RCCL library adding missing gfx1151 RDMA support. Its x4 PCIe link achieved about 50 Gbps and 5 μs latency versus roughly 68 μs over TCP; Thunderbolt is offered as an easier fallback. HN praised the obtainable memory capacity but flagged $800 networking, awkward mini-PC expansion, rapidly rising hardware prices, and slower inference than high-memory Apple systems.
 
 ### Comment pulse
-- Strix Halo RDMA clusters enable serious local LLMs → 128–256GB unified RAM plus ds4 spans nodes for 4-bit models—counterpoint: NICs and base units stay expensive.  
-- Hardware cost explosion deters many → 128GB Strix laptops rose from ~€2.5k to €7k; buyers fear rapid obsolescence versus cheap, fast frontier models via APIs.  
-- Performance trails Apple Silicon and midrange GPUs → reported 50 tok/s prefill and low tps; reviewers see M4 laptops achieving ~400 prefill, 20 tok/s generation.  
 
----
+- Unified memory expands local model size → two nodes can shard models beyond 24 GB consumer GPUs, approaching provider-style capacity on prosumer hardware.
+- Memory bandwidth limits usefulness → generation and prefill can trail M4/M5 Macs — counterpoint: kernel and software optimization may recover performance.
+- Economics deteriorated quickly → 128 GB Strix systems rose from roughly €2,500 to far more, while frontier APIs remain cheap and hardware evolves.
 
 ### LLM perspective
-- View: Strix Halo clusters show a viable template for memory-heavy local inference, but not yet a clear value win.  
-- Impact: Homelabbers and small teams can prototype agentic systems without GPUs, trading energy and latency for data control.  
-- Watch next: better RDMA support on Apple/PC laptops, DS4 optimizations, and vendor mini-clusters with integrated high-speed networking.
+
+- **View:** RDMA solves inter-node latency, not local memory-bandwidth scarcity; both determine tensor-parallel token throughput.
+- **Impact:** Homelabbers gain larger private-model capacity; adopters accept kernel tuning, patched collectives, unusual PCIe mechanics, and operational fragility.
+- **Watch next:** Benchmark prefill, generation, scaling efficiency, energy, Thunderbolt versus RoCE, upstream RCCL support, and stability without forced eager mode.
