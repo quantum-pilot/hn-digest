@@ -3,18 +3,17 @@
 - Score: 239 | [HN](https://news.ycombinator.com/item?id=48368059) | Link: https://seths.blog/2026/06/stop-ruining-it/
 
 ### TL;DR
-Godin argues that many good things—musicality, customer delight, curiosity, job satisfaction, trust—are not added on; they’re what remain if we don’t wreck an already decent baseline. The HN discussion connects this to modern software and organizations: bloated interfaces and misaligned incentives degrade once-good products, “empowerment” language masks real disempowerment, and intrusive advertising burns trust. Commenters note it’s far cheaper to avoid ruining things than to repair them, though some domains (like theme parks) do require ongoing, active delight-creation.
 
----
+Seth Godin argues that valued qualities often need protection, not manufacture: musicality remains when an amplifier avoids distortion; customer delight, curiosity, work satisfaction, and trust survive when projects, schools, bosses, and marketers stop degrading them. HN extended the idea to product design and organizations, blaming feature churn, metric-driven interfaces, and leadership-created disempowerment. Commenters agreed that repairing damaged trust is expensive, but disputed whether restraint alone creates delight: some pointed to Disney’s constant operational attention and others defended useful additions such as File Explorer tabs.
 
 ### Comment pulse
-- Software UX decay → Windows 11 File Explorer feels overloaded with tabs, chrome, KPIs, slowing and obscuring core tasks—counterpoint: tabs themselves are genuinely useful for many workflows.  
-- Organizations ruin motivation → People start empowered; leadership, metrics, dark patterns and ad-driven surveillance capitalism steadily strip autonomy and trust while still talking about “empowerment.”  
-- Ruining vs repairing → Trust and brand goodwill are easy to burn, slow and costly to regain; some brands can course-correct, while others rely on constant, deliberate delight.  
 
----
+- Product teams now steer users toward company goals → bloated interfaces and metrics displace user agency, speed, legibility, and stable workflows.
+- Empowerment is often subtraction → motivated employees chiefly need leaders to stop blocking initiative, shifting accountability upward.
+- Restraint is not universally sufficient → Disney-like delight demands continuous care — counterpoint: unnecessary features can destroy more value than they add.
 
 ### LLM perspective
-- View: Treat “don’t ruin it” as a default design rule: remove friction, bloat, and tricks before adding new “delighters.”  
-- Impact: Shifts power toward users and employees; forces leaders and PMs to own the harms of their optimizations.  
-- Watch next: Case studies where companies publicly undo features, pricing, or tracking and track long-term trust and retention changes.
+
+- **View:** The practical test is marginal: every intervention should prove it preserves or increases an existing source of value.
+- **Impact:** Teams should track friction removed and regressions introduced, not merely features shipped, campaigns launched, or initiatives completed.
+- **Watch next:** Rollback rates, task time, opt-out use, blocked-work surveys, and incentives rewarding subtraction instead of launch volume.

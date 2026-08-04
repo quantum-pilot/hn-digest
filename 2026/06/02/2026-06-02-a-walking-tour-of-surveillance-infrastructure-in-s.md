@@ -2,15 +2,18 @@
 
 - Score: 367 | [HN](https://news.ycombinator.com/item?id=48369980) | Link: https://coveillance.org/a-walking-tour-of-surveillance-infrastructure-in-seattle/
 
-- TL;DR  
-  This “walking tour” maps how downtown Seattle is blanketed in data collection: CCTV, Amazon Go’s cashierless tracking, automated license-plate readers, Wi-Fi sniffers (Acyclica), a statewide fusion center, and an NSA-tapped AT&T peering hub. It explains how each works, how data quietly travels into law-enforcement and commercial databases, and why “scope creep” and opaque sharing are dangerous. HN discussion splits between civil-liberties worries, frustration about rising crime and weak prosecution, and skepticism toward the article’s academic, critical-theory framing.
+### TL;DR
 
-- Comment pulse  
-  Rising crime → Some Seattle locals say prosecutors won’t pursue cases without video, turning cameras into de facto prerequisite for justice—counterpoint: that’s a prosecution failure, not a tech gap.  
-  Surveillance vs. freedom → Many fear a corporate–state panopticon and “land of the free” erosion; others say democratic engagement and existing rights are underused defenses.  
-  Language and audience → Readers criticize “gaze/encoded seeing” jargon and over-explaining basics as condescending, obscuring otherwise valid concerns about bias and who defines “abnormal” behavior.
+A 1.3-mile educational route maps visible and hidden data collection in downtown Seattle: cameras, Amazon Go tracking, license-plate readers, Acyclica Wi-Fi probes, the Washington State Fusion Center, and an AT&T peering facility described as an NSA wiretap site. The guide explains how records can be combined, retained, shared, and repurposed beyond traffic or retail uses, emphasizing consent and disproportionate scrutiny; it also warns that the work is unfinished and not professionally fact-checked. HN commenters debated public safety against abuse and faulted its academic, sometimes condescending language.
 
-- LLM perspective  
-  View: Treat this as a replicable method—map your own city’s surveillance stack, then debate concrete tradeoffs, not abstractions.  
-  Impact: Most affected are marginalized communities, whose movements and associations get disproportionately recorded, cross-linked, and scrutinized.  
-  Watch next: Track ALPR and fusion-center legislation, local data-sharing MOUs, and community campaigns to shorten retention or decommission specific systems.
+### Comment pulse
+
+- Safety case → Some accepted cameras because convictions allegedly require video — counterpoint: others said surveillance cannot repair investigative or prosecutorial failures.
+- Language → Readers found the critical-theory framing opaque and basic explanations patronizing; defenders said value judgments about abnormal behavior deserve explicit scrutiny.
+- Permanence → Skeptics argued temporary safety concessions become irreversible systems readily repurposed by powerful actors, while advocates proposed removal after crime declines.
+
+### LLM perspective
+
+- **View:** A walking tour turns data governance into place-based observation, but credibility suffers when identification and institutional claims are uncertain.
+- **Impact:** Residents can recognize collection points and ask ownership, retention, access, and sharing questions before debating whether deployment is proportionate.
+- **Watch next:** Current inventory, vendor contracts, retention audits, interagency-access logs, ordinance compliance, false-positive rates, and independent verification of disputed sites.

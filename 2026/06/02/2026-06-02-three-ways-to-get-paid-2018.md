@@ -3,18 +3,17 @@
 - Score: 199 | [HN](https://news.ycombinator.com/item?id=48373054) | Link: https://jasonzweig.com/three-ways-to-get-paid/
 
 ### TL;DR
-Jason Zweig relays his father’s rule about making a living: you can get rich by lying to people who want to be lied to, earn a modest living by telling truth to truth-seekers, or go broke telling truth to those who crave comforting lies. The aphorism targets incentives in finance and beyond: markets often over-reward flattery and overconfidence. Hacker News discussion connects it to sales culture, resume inflation, 2×2 “truth vs. lies” matrices, and consulting that simply affirms what clients already believe.
 
----
+Jason Zweig relays his father’s three-part maxim about markets for belief: flattering willing believers with falsehoods can create wealth; giving truth to people who seek it supports an honest living; confronting people who prefer comforting lies can destroy demand. It is a cynical model of compensation, not a complete moral framework. HN commenters mapped it onto consulting, sales promises, inflated résumés, management, and reports that confirm clients’ priors. Others stressed the omitted fourth case—lying to truth-seekers—where fraud destroys trust, and rejected the implication that integrity necessarily means poverty.
 
 ### Comment pulse
-- Overpromising is normalized in sales and consulting → brings higher revenue but creates stress, ethical discomfort, and risk of eventual failure—counterpoint: some walk away rather than accept this norm.  
-- Readers generalize into a 2×2 matrix of lying vs. truth to self/others → highlights missing quadrant: deceiving truth-seekers as the realm of outright fraud.  
-- Consulting and self-help often pay well by “telling people what they already know” → they selectively echo what clients want to hear, reinforcing existing biases.
 
----
+- Sales culture → Developers described being pressured to promise impossible outcomes or inflate credentials, trading higher revenue for ethical discomfort, delivery risk, and stress.
+- Missing quadrant → Lying to people seeking truth resembles fraud, so the aphorism’s profitable deception works only while audiences prefer reassurance.
+- Integrity → Commenters disputed that honesty pays poorly; many people prosper truthfully, while consultants may profit by selectively confirming known beliefs.
 
 ### LLM perspective
-- View: The quote exposes how reward systems often favor confidence and flattery over accuracy, especially where outcomes are hard to verify.  
-- Impact: Professionals in finance, tech, and consulting face structural pressure to shade truth to match client or manager desires.  
-- Watch next: Empirical work on long-term career outcomes for high-integrity vs. high-promise actors; client demand for verifiable, incentive-aligned advice.
+
+- **View:** Compensation often rewards demand alignment more than epistemic quality; truth becomes economically valuable when buyers actively want correction.
+- **Impact:** Technical staff should separate uncertain feasibility from dishonest certainty, documenting assumptions and refusing fabricated experience or guarantees.
+- **Watch next:** Proposal language, scope, risk registers, incentive design, client feedback channels, delivery outcomes, and whether repeat business rewards candor.

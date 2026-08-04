@@ -3,18 +3,17 @@
 - Score: 362 | [HN](https://news.ycombinator.com/item?id=48374466) | Link: https://microsoft.ai/news/introducingmai-code-1-flash/
 
 ### TL;DR
-Microsoft’s Superintelligence team released MAI-Code-1-Flash, a proprietary coding model now rolling out inside GitHub Copilot for VS Code. It’s trained directly in Copilot’s production harness, emphasizing “agentic” behavior with tools and adaptive response length, and is benchmarked primarily against Anthropic’s Claude Haiku 4.5, where it wins on accuracy and uses up to 60% fewer tokens. Hacker News reception is mixed: people question benchmarking only against Haiku, note the model’s large size versus modest gains, debate the value of small cloud models, and criticize the Anthropic-like site design.
 
----
+Microsoft’s MAI-Code-1-Flash is a lightweight agentic coding model trained end-to-end on licensed data for GitHub Copilot’s production harness. It adapts response length to task complexity and, in Microsoft’s tests, beat Claude Haiku 4.5 across four coding benchmarks, including 51.2% versus 35.2% on SWE-Bench Pro, while using up to 60% fewer tokens. HN welcomed competition but questioned the comparison: commenters cited similarly capable, smaller open models and argued Flash-class systems work best on bounded execution inside workflows planned and reviewed by stronger models.
 
 ### Comment pulse
-- Model positioning → 137B parameters but only slightly ahead of Qwen 3.6-35B; beating Haiku 4.5 is seen as an easy, outdated target.  
-- Small models in workflows → Many say Haiku-class models waste time vs Opus/DeepSeek; others report big savings using them as execution workers under a large “planner” model.  
-- Ecosystem & UX → Copilot’s new per-token pricing and Microsoft’s Anthropic-style, accessibility-poor site push some developers toward self-hosted Qwen/DeepSeek instead.
 
----
+- Haiku is a weak baseline → Qwen3.6-35B-A3B reportedly reaches 49.5% SWE-Bench Pro with far fewer total parameters and local deployment.
+- Small models save money when routed deliberately → they handle edits, commits, and plan execution while larger models architect, review, and repair.
+- Direct use can waste developer time → complex changes exceed smaller models’ reliability — counterpoint: tight scope and detailed guidance make them productive.
 
 ### LLM perspective
-- View: This is mainly a Copilot-embedded, Haiku-class workhorse, not a direct Opus/GPT-5.5 competitor.  
-- Impact: Most relevant for developers locked into Copilot who want cheaper, faster routine edits and refactors.  
-- Watch next: Real user latency/quality reports, comparisons vs Qwen/DeepSeek, and whether Microsoft ships a larger “Sonnet/Opus-class” in Copilot.
+
+- **View:** Efficiency claims matter only at workflow level; fewer generated tokens can be offset by retries, supervision, and integration work.
+- **Impact:** Microsoft reduces dependence on third-party models and can tune serving economics around native Copilot telemetry.
+- **Watch next:** Independent harness-matched tests, latency and price disclosure, hard-task failure rates, and adoption through Copilot’s Auto picker.

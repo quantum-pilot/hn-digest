@@ -3,18 +3,17 @@
 - Score: 337 | [HN](https://news.ycombinator.com/item?id=48367904) | Link: https://blog.tjll.net/you-dont-love-systemd-timers-enough/
 
 ### TL;DR
-The article argues you should replace cron with systemd timers on systemd-based Linux systems. Timers pair a `.timer` with a `.service`, giving clean, predictable environments, centralized logging via journald, easy manual triggering, and powerful scheduling primitives. These include human-readable calendars, relative timers (e.g., “1h after boot, then every hour”), wake-from-suspend, randomization to avoid thundering-herd traffic, and persistence for missed runs. HN comments broadly agree on ergonomics, while debating cron’s capabilities, timer bugs, and personal/organizational inertia around cron.
 
----
+The author argues scheduled Linux jobs should usually be systemd timer/service pairs rather than literal cron entries. Services provide a controlled environment, journaled output, manual reproducibility, failure and restart hooks; timers add human-readable calendar or event-relative schedules, validation, fleet-wide randomization, suspend wakeups, missed-run catch-up, and a unified status view. HN operators endorsed easier debugging, monitoring, non-overlap, and laptop backup reliability, while cron defenders noted PATH can be explicit, anacron catches missed runs, and @reboot handles startup tasks; one commenter also reported timer bugs involving leap-day schedules and restarts.
 
 ### Comment pulse
-- systemd timers → cleaner, consistent environment and one executable unit for manual or scheduled runs; cron’s PATH and differing environments cause surprises — counterpoint: PATH can be set explicitly in crontab.  
-- Timer features → persistence, non-overlapping runs, random delays, and journalctl integration improve backups and maintenance; cron needs add-ons like anacron and @reboot to approximate this.  
-- Real-world use → people migrate infra jobs and even printer-keepalive scripts to timers; some still prefer cron or fear systemd timer bugs (e.g., Feb 29 edge cases).
 
----
+- Operational clarity → A timer triggers the same service used for manual tests, while journalctl preserves output and existing service monitors can alert on failure.
+- Cron parity → Critics said explicit PATH, anacron, @reboot, and documented field headers solve several complaints without adopting systemd’s two-file model.
+- Reliability → Persistent timers recovered daily backups after downtime — counterpoint: a report alleged leap-day and restart logic could silently stop schedules.
 
 ### LLM perspective
-- View: On a systemd host, timers are the pragmatic default; use cron mainly for portability or extremely simple setups.  
-- Impact: Ops, SREs, and homelab users gain observability, safer retries, and saner scheduling for backups, updates, and batch jobs.  
-- Watch next: Better timer authoring tools, static checking of unit files, and regression tests for calendar edge cases in systemd.
+
+- **View:** The main advantage is lifecycle composition: scheduling delegates execution, logging, isolation, recovery, and alerting to reusable service semantics.
+- **Impact:** Administrators trade compact crontabs for more files, but gain testing and richer controls across servers, laptops, and user sessions.
+- **Watch next:** Calendar-expression regression tests, distribution defaults, user-target portability, clock-jump behavior, missed-run semantics, overlap policy, and journal retention.

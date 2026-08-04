@@ -3,18 +3,17 @@
 - Score: 380 | [HN](https://news.ycombinator.com/item?id=48364800) | Link: https://blog.hopefullyuseful.com/blog/macos-needs-its-grid-back/
 
 ### TL;DR
-The author misses macOS Leopard’s old Spaces feature, where virtual desktops formed a 2D grid that matched human spatial memory (e.g., a 3×3 layout like nine physical monitors). Lion’s Mission Control flattened this into a single horizontal strip, breaking that workflow, and tiling WMs don’t match their “one focused fullscreen task per space” preference. They built GridLion: a macOS app that re-creates grid-based navigation atop Apple’s locked-down APIs, wrestling with overbearing permissions, non–App Store distribution, and LLMs that help with code but not UX “feel.”
 
----
+Leopard’s original Spaces let users arrange virtual desktops in a grid, enabling stable spatial memory; Lion replaced it with today’s horizontal strip. After seeing animation-free space switching, the author built GridLion, a native wrapper that maps macOS’s linear spaces onto configurable per-display grids with hotkeys and optional previews. The app relies on private APIs and broad Accessibility and screen-recording permissions, so it cannot enter the App Store. HN strongly related to the regression, but split over whether Apple’s permission friction is disrespectful or justified protection against keylogging and surveillance.
 
 ### Comment pulse
-- Apple’s multi-step permissions → intentionally add friction for dangerous capabilities like keylogging/screen recording; power users want a global “I know what I’m doing” override.  
-- macOS Spaces/Mission Control regressions → previews removed or hidden, random reordering, inconsistent behaviors; third-party fixes are hacks that break with OS changes.  
-- OSes lack project-level workspaces → people hack it with Arc spaces, KDE Activities, Niri, Aerospace; many Linux tiling users still find macOS window management painfully slow.
 
----
+- Permissions are too coarse → global hotkeys should expose commands without keylogging, while space thumbnails should not require unrestricted screen capture.
+- Workspaces should model projects → browsers, editors, terminals, chats, and agents need OS-level grouping and restoration across applications.
+- Grid versus strip reflects different cognition → fixed 2D locations build spatial memory — counterpoint: linear gestural navigation remains valid for some users.
 
 ### LLM perspective
-- View: Native OS support for spatial, project-centric workspaces would beat any third-party shim fighting private APIs and security dialogs.  
-- Impact: Knowledge workers juggling many contexts; indie macOS devs hit hardest by permission UX and App Store constraints.  
-- Watch next: Whether Apple rethinks Mission Control, exposes safer preview/hotkey APIs, or formalizes cross-app “task” workspaces in macOS.
+
+- **View:** The missing platform primitive is secure, documented workspace control, not another third-party window manager.
+- **Impact:** Private APIs force useful accessibility tools into fragile distribution, alarming permissions, and recurring compatibility risk.
+- **Watch next:** Apple workspace APIs, granular capture permissions, stable ordering, cross-display moves, and project-level restoration.

@@ -2,26 +2,18 @@
 
 - Score: 371 | [HN](https://news.ycombinator.com/item?id=48363765) | Link: https://github.com/cyberpapiii/chipotlai-max
 
-## TL;DR
+### TL;DR
 
-Chipotlai Max is a meme fork of the OpenCode coding agent that reroutes requests through a locally run proxy to Chipotle’s “Pepper” customer-support AI, effectively using Chipotle’s cloud budget for free code generation. The repo ships Pepper as the default OpenAI-compatible model, with Chipotle branding and an explicit “this violates ToS” disclaimer, and invites contributors to reverse‑engineer other retail chatbots. HN discussion quickly shifts to CFAA risk, ethics of commandeering corporate compute, doubts about Pepper’s true capabilities, and alternatives using legal free/fast LLMs.
+ChipotlAI Max, a meme fork of OpenCode, routes coding-agent requests through an OpenAI-compatible proxy reverse-engineered from Chipotle’s Pepper support bot, replacing paid model access with unauthorized corporate inference. The repository says Pepper was patched in March 2026, caps anonymous sessions at five, warns of likely terms violations, and invites contributors to target other retailers’ chatbots. HN appreciated the absurdity but focused on serious exposure: commandeering remote compute may implicate the CFAA or stricter state laws, and commenters questioned whether the exploit reliably worked or could support real coding.
 
----
+### Comment pulse
 
-## Comment pulse
+- The meme earns creativity points → repurposing support compute is novel — counterpoint: commenters warned of criminal exposure beyond a cease-and-desist.
+- Capability remains doubtful → users could not reproduce the viral coding demo, while small models without tools or context performed poorly.
+- Free inference has lawful substitutes → OpenRouter offers no-cost providers in exchange for training access, avoiding corporate-bot exploitation.
 
-- This likely falls under CFAA “misuse of computing resources” → reverse‑engineering and off‑label use of a production bot could bring criminal, not just civil, consequences. — counterpoint: some see it as a clever educational stunt.
+### LLM perspective
 
-- Several users couldn’t reproduce Pepper’s viral coding feats → suspect cherry‑picked or faked screenshots; similarly, Llama 3 8B is reported as too weak for serious coding despite high token speed.
-
-- People riff on “free compute” agents → imagine self‑preserving AIs that forage for tokens via support chats and trials; others note legal options like OpenRouter’s free providers instead.
-
----
-
-## LLM perspective
-
-- View: A sharp parody of AI hype that also exposes how fragile many production chatbots’ security and rate‑limiting still are.
-
-- Impact: Encourages hobbyist experimentation with OpenAI-compatible proxies, but also pressures companies to lock down customer-service AIs and add authentication.
-
-- Watch next: Whether similar projects migrate toward officially free APIs or local small models once legal risk and patches make “stolen compute” untenable.
+- **View:** An OpenAI-compatible adapter turns accidental model access into reusable infrastructure, magnifying both utility and abuse.
+- **Impact:** Retailers must scope chatbot capabilities, authenticate backends, rate-limit workloads, and monitor non-support usage.
+- **Watch next:** Provider patching, repository takedown, reproducible evidence, and whether legitimate fast small models can handle agent tooling.

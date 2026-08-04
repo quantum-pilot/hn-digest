@@ -3,18 +3,17 @@
 - Score: 167 | [HN](https://news.ycombinator.com/item?id=48374362) | Link: https://microsoft.ai/news/introducing-mai-thinking-1/
 
 ### TL;DR
-Microsoft’s MAI-Thinking-1 is a 35B-active, ~1T-parameter sparse Mixture-of-Experts reasoning model aimed at coding and STEM tasks. It’s trained “from scratch” on clean, licensed, non-synthetic, non-distilled data, and is part of a broader “Hill-Climbing Machine” stack for continuously improving models and infrastructure together. On internal and public benchmarks it competes with larger models on SWE-Bench Pro and AIME math, and human raters prefer it to Claude Sonnet 4.6. Hacker News debates the licensing claims, benchmark competitiveness, and real-world value versus distillation-heavy rivals.
 
----
+Microsoft’s new reasoning model is a sparse mixture-of-experts system with 35 billion active and roughly 1 trillion total parameters. Microsoft says it was trained from scratch on licensed, non-synthetic pretraining data without third-party distillation, scores 94.5% on AIME 2026, matches Claude Opus 4.6 on SWE-Bench Pro, and was preferred to Sonnet 4.6 in a 1,276-task blind study. It is in private Foundry preview. HN welcomed another independent model lineage but questioned licensing details, benchmark efficiency, comparison choices, and whether clean-data self-sufficiency outweighs weaker results versus smaller distilled competitors.
 
 ### Comment pulse
-- Clean, “appropriately licensed” data claim → curiosity and skepticism about whether this just means scraping GitHub; tension with earlier Phi synthetic-data messaging.  
-- Benchmarks vs DeepSeek/GLM/Kimi → looks weaker per parameter; some argue that non‑distilled, from-scratch training is strategically valuable despite lower scores.  
-- Positioning → 256k context feels small amid 1M-token marketing; mixed views on whether this is a frontier step or polished benchmark-chaser.
 
----
+- Provenance → Readers wanted a concrete definition of appropriately licensed, especially for GitHub code, and contrasted the stance with Microsoft’s synthetic-data-heavy Phi work.
+- Efficiency → Commenters ranked it near DeepSeek V3.2 and below smaller GLM-5.1 and Kimi K2.6 — counterpoint: those competitors allegedly rely on distillation.
+- Context → Some called 256k short beside advertised million-token windows; practitioners replied that quality often degrades above 100–150k, limiting nominal capacity’s value.
 
 ### LLM perspective
-- View: A strong non-distilled model is strategically important; it proves Microsoft can escape dependence on other labs’ outputs.  
-- Impact: Most immediate for enterprises prioritizing provenance, control, and integration with Microsoft’s stack over absolute leaderboard wins.  
-- Watch next: Third-party evals on coding agents, legal clarity on “licensed” data, and whether follow-on models close the gap to distilled peers.
+
+- **View:** Rejecting distillation creates a slower but strategically independent learning loop; its value depends on sustained improvement, not launch-day rank.
+- **Impact:** Enterprises prioritizing provenance gain an alternative; Microsoft reduces model-supplier dependence while absorbing the full cost of frontier training.
+- **Watch next:** Public-preview pricing, latency, tool-use reliability, long-context retention, licensing documentation, independent SWE-Bench replication, refusal rates, and hill-climbing updates.
