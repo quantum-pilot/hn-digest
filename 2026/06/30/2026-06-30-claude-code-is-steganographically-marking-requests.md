@@ -3,20 +3,17 @@
 - Score: 1327 | [HN](https://news.ycombinator.com/item?id=48734373) | Link: https://thereallo.dev/blog/claude-code-prompt-steganography
 
 ### TL;DR
-Anthropic’s Claude Code CLI was found to steganographically mark API requests—using environment-dependent prompt tweaks—to detect traffic going through custom proxies, likely to catch resellers and model-distillation labs. There was no clear disclosure. Many HN commenters see this as a serious trust and privacy breach that could also degrade responses for legitimate proxy users, and prefer auditable FOSS clients. Others argue it’s a pragmatic anti-abuse measure, harmless to normal customers, and much harder to evade than explicit telemetry.
 
-*Content unavailable; summarizing from title and Hacker News comments.*
-
----
+Inspection of Claude Code 2.1.196 found a hidden classifier in its system prompt: when `ANTHROPIC_BASE_URL` targets a custom gateway, hostname categories alter the Unicode apostrophe in “Today’s,” while Shanghai or Urumqi time zones change date hyphens to slashes. Official or unset endpoints bypass it. The author infers Anthropic uses these markers to identify resellers or model-distillation traffic, but calls the undisclosed, obfuscated mechanism a trust violation and technically trivial to evade. HN split between that transparency concern and the view that covert, strip-resistant abuse detection is justified.
 
 ### Comment pulse
-- Secret client changes feel like a rootkit → some fear undisclosed tagging implies more hidden data grabs (e.g., PII) and violates device autonomy.  
-- Stego helps catch proxy resellers → gateways can’t easily strip subtle markers; better than explicit flags or KYC — counterpoint: sophisticated labs will evade it.  
-- Anthropic’s approach looks crude → reverse-engineers expected subtler “underhanded code”; some think it’s just a temporary snapshot tool, and migrate to auditable FOSS CLIs.
 
----
+- Undisclosed fingerprinting breaks developer trust → a privileged coding client classified local configuration without documentation, prompting fears about unobserved data collection.
+- Steganography strengthens abuse detection → gateways can remove explicit telemetry — counterpoint: visible Unicode markers are easily patched by serious adversaries.
+- Legitimate proxies face collateral risk → internal routers, secret filters, account switching, and request inspection may be misclassified alongside resellers.
 
 ### LLM perspective
-- View: Undisclosed client fingerprinting for anti-distillation crosses a trust line; disclosure and opt-outs are feasible without nullifying defenses.  
-- Impact: Enterprise security, compliance, and regulated industries will scrutinize AI tooling harder; some will standardize on auditable open-source clients.  
-- Watch next: Whether Anthropic publishes technical docs, adds toggles, or doubles down; competitors’ telemetry choices will signal emerging industry norms.
+
+- **View:** The failure is governance, not marker potency: security controls in privileged clients need disclosed purpose, scope, and appeal paths.
+- **Impact:** Custom-gateway users may receive differentiated treatment; Anthropic gains weak attribution signals while accepting reputational and false-positive costs.
+- **Watch next:** Demand release-note disclosure, reproducible client builds, traffic audits, controlled response comparisons, and documented handling of marker-derived classifications.

@@ -3,20 +3,17 @@
 - Score: 623 | [HN](https://news.ycombinator.com/item?id=48683098) | Link: https://opensourcelowtech.org/
 
 ### TL;DR
-Open-source low-tech is about publishing designs for simple, repairable tools and infrastructure that can be built from scrap or locally available materials. HN commenters connect it to classic DIY machine-tool books (like Gingery’s series), “appropriate technology” theory, and projects such as Open Source Ecology and Appropedia. The discussion stresses that local manufacturability and skills matter more than shipping gadgets, but warns against overengineered “for the poor” systems that fail compared with standard, off‑the‑shelf products.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Daniel Connell’s project publishes license-free construction tutorials for basic infrastructure—such as a $30 wind turbine—designed to be built and repaired with recycled materials and simple tools. Its goal is local control of energy, food, water, communications, and other essentials without dependence on proprietary parts or outside funding. HN connected it to appropriate technology, self-replicating machine-shop tools, Open Source Ecology, and Appropedia. Commenters valued transferable repair skills over donated products, while warning that locally buildable novelty can become paternalistic when ordinary, standardized equipment would work better.
 
 ### Comment pulse
-- DIY machine tools matter → Gingery books, Multimachine, and concrete/3D‑printed tools show how basic metalworking capability can bootstrap entire workshops from scrap.  
-- Theory underpins practice → Papanek, Illich, Pye, Winner, and resources like Appropedia frame an “ecology of technology” where artifacts, politics, and workmanship are intertwined.  
-- Development angle → Teaching fabrication and repair builds resilience; real-world hacks abound—counterpoint: sometimes giving robust commercial bikes beats inventing fragile DIY-only systems.
 
----
+- Repairability beats delivery → teaching communities to build with available scrap preserves skills and autonomy when imported products fail or parts disappear.
+- Toolmaking compounds capacity → lathes, foundries, engine-block machines, and concrete-filled printed shells can bootstrap more sophisticated local fabrication.
+- Appropriate technology needs local judgment → repairable designs can reduce dependency — counterpoint: bespoke DIY systems may be worse than supplying standard bicycles.
 
 ### LLM perspective
-- View: Treat low-tech designs as open standards with versions, tests, and bill-of-materials tuned to specific regions.  
-- Impact: NGOs, vocational schools, and local makers gain repeatable blueprints instead of ad-hoc tinkering or donor one-offs.  
-- Watch next: Field trials comparing lifecycle costs, repairability, and local fabrication share versus imported gear, published in open design repositories.
+
+- **View:** Open hardware succeeds when knowledge, tools, materials, maintenance, and community governance are all locally reproducible.
+- **Impact:** Communities gain resilience and agency; aid organizations must shift from delivering artifacts toward financing training, documentation, and supply ecosystems.
+- **Watch next:** Measure build cost, failure rates, repair time, material availability, safety, training transfer, and sustained adoption against commercial alternatives.

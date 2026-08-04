@@ -3,24 +3,17 @@
 - Score: 268 | [HN](https://news.ycombinator.com/item?id=48727116) | Link: https://longcat.chat/blog/longcat-2.0/
 
 ### TL;DR
-LongCat-2.0 is a large MoE language model (1.6T params, ~48B active) reportedly trained end‑to‑end on massive Huawei Ascend 910C ASIC clusters, sidestepping Nvidia GPUs. Commenters see that infrastructure achievement as the real headline, though some suspect it builds heavily on DeepSeek V4’s architecture/weights. Early user tests rate its answers decent but weaker than Gemini Flash and Qwen 3.7 on niche technical questions, and its refusal to discuss Mao-era deaths highlights tight Chinese political censorship. It likely powers OpenRouter’s previously “owl‑alpha” model.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+LongCat-2.0 is an open-sourced mixture-of-experts model with 1.6 trillion total parameters but about 48 billion active per token, pretrained on over 35 trillion tokens using more than 50,000 alternative AI ASICs. Its 1-million-token training, sparse-attention indexer, 135-billion-parameter n-gram embeddings, and specialist post-training target coding and long-horizon agents; mostly in-house benchmarks place it near proprietary leaders on selected tasks. HN viewed the alternative-hardware training stack as the main achievement, but questioned unaudited claims, benchmark comparability, possible architectural reuse, factual reliability, and political refusals.
 
 ### Comment pulse
-- Nvidia‑free training at scale → Tens of thousands of Ascend chips plus custom infra show a viable alternative hardware stack—counterpoint: details aren’t audited, could mostly reuse DeepSeek V4.
 
-- Quality vs peers → On niche nuclear-engineering questions, users rank Gemini Flash > Qwen 3.7 > LongCat-2.0; ChatGPT variants give more nuanced, context‑aware answers.
-
-- Alignment and politics → The model dodges questions about Mao’s death toll, confirming strong China-specific safety filters that constrain historical and political discussion.
-
----
+- Hardware independence is the headline → commenters speculated the 50,000 accelerators were Huawei Ascend 910C chips, but the article neither identifies nor independently audits them.
+- Anecdotes exposed evaluation gaps → one niche reactor answer was wrong — counterpoint: commenters challenged the prompt, missing context, and single-run methodology.
+- Open availability does not ensure openness → commenters reported refusal on politically sensitive history and awaited released artifacts before trusting architecture and training claims.
 
 ### LLM perspective
-- View: The main innovation is ecosystem diversification: large-scale training on Huawei ASICs proves frontier-ish models don’t require Nvidia.
 
-- Impact: Strengthens China’s AI autonomy; pressures Nvidia and Western labs by lowering dependence on one hardware and software stack.
-
-- Watch next: Independent benchmarks, model/card release details, and whether more open weights appear or it remains a tightly controlled commercial API.
+- **View:** System engineering at 50,000-accelerator scale may be more strategically significant than incremental benchmark placement.
+- **Impact:** A credible non-Nvidia training path could diversify frontier infrastructure, tooling, suppliers, and deployment economics.
+- **Watch next:** Verify checkpoint architecture, serving requirements, token throughput, memory footprint, and agent success under independent harnesses.

@@ -3,20 +3,17 @@
 - Score: 336 | [HN](https://news.ycombinator.com/item?id=48735770) | Link: https://claude.com/product/claude-science
 
 ### TL;DR
-- Claude Science is Anthropic’s new LLM-powered data science workbench that runs a local server, connects to institutional databases/HPC clusters, and exposes tools through a browser UI. Commenters with pharma/genomics experience say this architecture fits locked‑down Trusted Research Environments and could finally unify messy scientific data sources via agentic APIs. Others report useful but junior‑level performance on domain tasks, and raise hard questions about hallucinated data, security/legal constraints on direct data access, safety filters, and how scientists should validate AI‑generated analyses.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Claude Science is a public-beta research application, not a new model. It wraps existing Claude models with persistent Python/R environments, local or cluster compute, 60-plus scientific databases, life-science renderers, connectors, manuscript tooling, and provenance that binds figures and tables to their code, environment, and conversation. HN saw major value in unifying fragmented bioinformatics tools and fitting browser-accessed workflows inside restricted research environments. Skepticism centered on fabricated data or connectors, institutional privacy and legal approval, unfamiliarity versus Jupyter/RStudio, novice-level methods, and safety systems interrupting legitimate research.
 
 ### Comment pulse
-- LLM as unified interface to clusters, databases, lab tools → huge productivity gain in genomics/pharma, especially where TREs demand in-enclave servers with browser UIs.  
-- Reliability is critical → prior tools fabricated connectors and data; commenters ask how Claude Science ensures real executions, auditing, and compliance with institutional/NIH data rules.  
-- Field test in RNAi biopesticide design → produced workable but naive plan before safety system intervened — counterpoint: experts suggest local corpora and less‑restricted agents.
 
----
+- Integration may be the real breakthrough → many genomic databases still use FTP, while institutional clusters and specialized APIs are costly to connect.
+- Provenance does not ensure truth → commenters reported systems fabricating realistic data and mock connectors, demanding independent validation.
+- Deployment architecture fits constrained science → local servers with browser UIs resemble trusted research environments — counterpoint: outbound model requests may still violate policy.
 
 ### LLM perspective
-- View: Purpose-built AI workbenches for science will likely coexist with notebooks/IDEs, acting as orchestration and glue across heterogeneous tools.  
-- Impact: If TRE-compatible, Claude Science could shift pharma/genomics workflows from manual scripting to conversational pipelines, especially for mid-level computational scientists.  
-- Watch next: Key signals: rigorous hallucination-mitigation design docs, case studies with regulatory approval, performance vs. Jupyter+LLM baselines on biobank or wet-lab workflows.
+
+- **View:** Scientific agents need evidence lineage and domain-specific validation, not merely fluent analysis.
+- **Impact:** Non-computational researchers gain access, while experts inherit responsibility for checking methods and source authenticity.
+- **Watch next:** Benchmark hallucinated-source rates, reproducibility, expert correction load, and deployment inside regulated data environments.
