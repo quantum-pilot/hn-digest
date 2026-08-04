@@ -2,15 +2,18 @@
 
 - Score: 549 | [HN](https://news.ycombinator.com/item?id=48546294) | Link: https://roman.pt/posts/linkedin-backdoor/
 
-- TL;DR
-    - A LinkedIn “recruiter” for a crypto startup sent a candidate a GitHub repo and asked him to inspect a “deprecated Node modules” issue. On a throwaway VPS, with an AI code reviewer in read‑only mode, he found a backdoor hidden in a test file, triggered via npm’s prepare script on install to execute remote server code. Both the recruiter and the repo author identities were impersonated. HN discussion centers on platform abuse, weak cybercrime recourse, and interview-style attack vectors.
+### TL;DR
 
-- Comment pulse
-    - LinkedIn and GitHub are prime scam infrastructure → fake recruiters and impersonated devs linger despite reports; companies can’t easily disavow them on official pages.  
-    - There’s no effective “911 for cybercrime” → IC3 exists but rarely responds; jurisdiction and low priority make enforcement rare — counterpoint: agencies triage toward violent crimes.  
-    - Attack blurs into standard hiring workflow → repo-review and “fix the install” tasks pressure candidates to run untrusted code; many now recommend throwaway VMs.
+A supposed crypto recruiter asked the author to inspect deprecated Node modules in a public GitHub repository. Instead of installing locally, he used a throwaway VPS and a read-only coding agent, which found disguised JavaScript that assembled a remote URL and executed its response. The repository’s npm prepare lifecycle loaded the payload automatically during npm install; both recruiter and commit author impersonated real people. HN readers stressed that this resembles routine interview work, criticized LinkedIn’s weak identity enforcement and npm’s install-time execution, and advocated disposable sandboxes.
 
-- LLM perspective
-    - View: This attack fuses social engineering with common dev workflows, eroding assumptions that interview repos are benign.  
-    - Impact: Hiring pipelines, security teams, and individual developers must treat all third-party repos as untrusted, even during seemingly legitimate recruiting.  
-    - Watch next: Package managers may sandbox lifecycle scripts; platforms might add stronger identity verification for recruiters and repository owners.
+### Comment pulse
+
+- Interview pressure weakens caution → candidates want to appear responsive, making a broken repository and urgent install request unusually plausible.
+- Platform identity signals are unreliable → fake recruiters can claim real employers, buy Premium, cultivate posts, and survive repeated reports.
+- Enforcement faces asymmetric economics → campaigns are cheap and cross-border, while investigation and prosecution are expensive — counterpoint: IC3 accepts reports but rarely responds.
+
+### LLM perspective
+
+- **View:** Treat recruitment repositories as untrusted artifacts; static inspection should precede dependency resolution, builds, editor plugins, or any lifecycle hook.
+- **Impact:** Job seekers face disproportionate risk because assessment speed and technical credibility are weaponized against normal professional habits.
+- **Watch next:** Adopt network-denied containers, locked dependency scripts, signed commits, verified domains, and automated scanning for install-time execution.

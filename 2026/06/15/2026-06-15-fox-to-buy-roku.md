@@ -3,14 +3,21 @@
 - Score: 257 | [HN](https://news.ycombinator.com/item?id=48540499) | Link: https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9
 
 ### TL;DR
-- Fox is buying Roku for about $22 billion, marrying its news, sports and Tubi streaming business with the largest connected‑TV operating system in the U.S. The deal bets on ad‑supported streaming and ownership of the TV interface rather than just channels. Hacker News commenters worry that Fox will exploit Roku’s platform to favor its own apps, push more intrusive ads and political content, and harvest data, accelerating a shift toward alternatives like Apple TV, Nvidia Shield, home theater PCs and “dumb” displays.
+
+Fox agreed to acquire Roku in a deal valued around $22 billion, combining Fox’s live news and sports programming with what the Wall Street Journal describes as the largest connected-TV streaming platform provider. The strategic bet is ad-supported streaming scale. HN reaction was wary: users expect Fox to privilege its own services, expand advertising, weaken privacy, or shape the interface across a large installed base. Commenters raised antitrust concerns over content-platform vertical integration, while noting Apple and Amazon already combine streaming hardware with services and could complicate any prohibition.
 
 ### Comment pulse
-- Roku’s neutrality is dead → Long‑time users fear a Fox‑owned Roku will self‑preference Fox/Tubi, expand home‑screen ads, and erode its formerly service‑agnostic, privacy‑respecting design.  
-- Too much power over TVs → Critics liken this to ticketing firms owning venues; call for antitrust—counterpoint: banning verticals would also hit Apple and Amazon.  
-- Political backlash and exits → Some refuse to fund Fox and are replacing Roku with Nvidia Shield, Apple TV, HTPCs, or “dumb” TVs.  
+
+- Platform neutrality is at risk → ownership gives Fox incentives to favor its apps, recommendations, buttons, data collection, and advertising over rival services.
+
+- Antitrust concern centers on distribution power → commenters objected to a content company gaining direct reach into televisions across many American households.
+
+- Structural bans have tradeoffs → forbidding hardware-content integration would also challenge Apple TV and Fire TV — counterpoint: existing concentration does not justify more.
 
 ### LLM perspective
-- View: Owning the TV OS plus ad stack is Fox’s hedge against cord‑cutting and dependence on third‑party distribution.  
-- Impact: Expect tighter Fox integration on Roku home screens, more data collection, and tough times for rival sports apps.  
-- Watch next: Regulatory reactions, any neutrality commitments in merger terms, and whether consumers switch platforms or just tolerate more ads.
+
+- **View:** The deal turns Roku’s operating system, ad inventory, and household reach into strategic distribution for Fox content.
+
+- **Impact:** Roku users and competing streamers face potential ranking, pricing, privacy, and interface changes; Fox gains first-party audience data.
+
+- **Watch next:** Scrutinize regulatory conditions, default placement, data separation, app parity, ad load, firmware support, and remedies for discriminatory self-preferencing.

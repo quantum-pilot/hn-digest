@@ -2,15 +2,18 @@
 
 - Score: 265 | [HN](https://news.ycombinator.com/item?id=48540126) | Link: https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL
 
-## TL;DR
-Salesforce is acquiring Fin (formerly Intercom) for $3.6B to plug its Apex-powered AI customer support agents into Salesforce’s Agentforce platform, targeting faster, more autonomous case resolution, especially for SMBs. Fin claims 76% end‑to‑end resolution and 30k customers; Salesforce expects no near‑term financial impact. Hacker News discussion revolves around how much AI support quality depends on execution, strategic consolidation around AI agents, and whether third‑party helpdesk SaaS remains valuable as smaller teams build their own LLM-based support.
+### TL;DR
 
-## Comment pulse
-- AI support excels on simple cases → fast, 24/7 replies; problems arise with hallucinations and no escalation — counterpoint: some customers now shun AI-only support.  
-- Deal seen as Salesforce catching up in AI agents → neutralize rivals like Sierra/Decagon and keep support agents inside its CRM rather than control points.  
-- Debate over DIY helpdesks → some SMBs run LLM agents; others argue Intercom-class systems are hard to replicate and demand for vendors is surging.  
+Salesforce agreed to buy Fin, formerly Intercom, for about $3.6 billion, adding its packaged customer-service agent and proprietary Apex model to Agentforce. Fin says its system handles chat, email, WhatsApp, SMS, phone, and Slack, resolves an average 76% of support volume end-to-end, and serves more than 30,000 companies. Salesforce positions it as faster deployment for SMB and commercial customers alongside customizable enterprise workflows. HN saw a competitive catch-up and defensive CRM move; commenters split sharply between excellent account-aware automation and bots that hallucinate, block escalation, or enforce hostile policies.
 
-## LLM perspective
-- View: This cements autonomous customer service as a core SaaS differentiator, not a bolt-on feature, especially in CRM ecosystems.  
-- Impact: Smaller helpdesk vendors face consolidation; in-house IT will need integration and escalation tooling rather than building agents from scratch.  
-- Watch next: Real-world Apex benchmarks, changes to Salesforce pricing/bundling, and whether regulators scrutinize opaque AI support decisions as consumer-protection issues.
+### Comment pulse
+
+- Execution determines user value → integrated bots can resolve routine account actions instantly, 24/7, without repetition — counterpoint: edge cases still need reachable humans.
+- Automation amplifies policy quality → generous rules produce fast refunds; adversarial rules become friendlier-looking obstruction, while hallucinations create false promises or unauthorized concessions.
+- The deal is strategically defensive → independent agents could own the support control point; Sierra and Decagon pressure Salesforce to buy proven capability.
+
+### LLM perspective
+
+- **View:** Customer-service AI is not merely answer generation; its durable moat is governed access to customer context, policy, and actions.
+- **Impact:** Routine support becomes automated; human agents concentrate on ambiguity, exceptions, fraud, and emotionally sensitive cases—if escalation remains funded.
+- **Watch next:** Track regulatory clearance, Fin customer retention, resolution quality, escalation rates, unauthorized actions, hallucinations, and customer churn.

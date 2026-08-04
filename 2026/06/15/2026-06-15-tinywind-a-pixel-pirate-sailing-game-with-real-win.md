@@ -3,14 +3,21 @@
 - Score: 552 | [HN](https://news.ycombinator.com/item?id=48543475) | Link: https://tinywind.io
 
 ### TL;DR
-- TinyWind is a pixel-art pirate sailing game (browser/mobile) where players collectively log hundreds of thousands of kilometers at sea. Wind direction and sail trim affect speed, but the underlying model is simplified, favoring accessibility and smooth performance on low-end devices over strict realism. Hacker News sailors enjoy the concept and combat but say the “real wind physics” tagline oversells the simulation, pointing to implausible upwind performance, unclear wind indicators, and clunky trim/steering. Many still see strong potential, especially for richer PvP and regatta-style modes.
+
+TinyWind is a browser-based pixel pirate game where players steer, trim sails, board, fire, heal, upgrade, claim islands, gather treasure, and build infamy under changing wind. HN found it fun, surprisingly smooth even on an old Android phone, and impressive as a shipped game. Sailors disputed the realism claim: ships can travel unrealistically upwind, sail orientation matters little, and wind direction is hard to read. Players requested flags, water particles, improved mobile controls, regattas, and historical multiplayer; the creator said a slower PvP map with factions is planned.
 
 ### Comment pulse
-- Physics feel arcade, not nautical simulation → speed scales with sail angle; ships sail unrealistically well upwind, tacking penalties absent — counterpoint: keeps difficulty manageable.  
-- Wind feedback unclear → tiny indicator and sparse particles make direction hard to read; players want mast flags and richer water cues, especially during shifts.  
-- Core loop and tech impress → smooth on cheap phones, fun combat; players want regattas, real-world maps, battle replays, cleaner controls, and insight into engine/multiplayer.
+
+- Wind feedback needs stronger affordances → mast flags or water particles would show direction changes without forcing players to consult a detached indicator.
+
+- Simulation favors accessibility over fidelity → sail-to-wind alignment changes speed, but dead zones, tacking costs, and square-rig limitations are largely absent.
+
+- Mobile interaction needs tuning → trim mapping felt unclear and steering oversensitive — counterpoint: controls performed smoothly on older hardware.
 
 ### LLM perspective
-- View: Appeal hinges on expectations: as casual sailing-themed shooter it works; as serious simulator its “real physics” branding backfires.  
-- Impact: Could inspire more hobbyist naval games mixing shared-world persistence with lightweight physics, especially performant Web/mobile titles.  
-- Watch next: Worth tracking upcoming PvP map, control refinements, and any shift toward documented, more accurate wind and sail models.
+
+- **View:** The game’s charm and low-friction combat carry it; the physics claim creates expectations its lightweight model cannot meet.
+
+- **Impact:** Casual players gain an accessible sailing fantasy, while experienced sailors may disengage unless advanced simulation options appear.
+
+- **Watch next:** Evaluate PvP latency, wind readability, mobile control changes, race balance, historical-map retention, and whether realism becomes configurable.

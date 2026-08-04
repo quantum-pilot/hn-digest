@@ -2,15 +2,22 @@
 
 - Score: 461 | [HN](https://news.ycombinator.com/item?id=48536776) | Link: https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models
 
-## TL;DR
-Anthropic released a Swift package, ClaudeForFoundationModels, that plugs Claude’s cloud models into Apple’s new Foundation Models framework on iOS/macOS 27. Developers can call Claude through the same LanguageModelSession API as Apple’s on‑device model, with support for streaming, tools (client/server), structured output, images, and mapped errors. Auth is via API key or backend proxy, and apps decide per-call whether to use local or cloud. HN discussion centers on Apple commoditizing LLMs behind an OS abstraction, privacy vs lock‑in, and limits around on‑device models.
+### TL;DR
 
-## Comment pulse
-- Apple turns cloud LLMs into replaceable backends while owning device, UX, and payments—some liken providers to 1990s telcos — counterpoint: commoditization remains distant.  
-- Many wanted Claude on‑device; instead it’s cloud-only, raising questions about local models, downloads across apps, and whether Apple should share or standardize storage.  
-- Framework abstraction lets apps swap Apple, Claude, Gemini via one API; commenters split between praising privacy safeguards and warning about ecosystem lock‑in and data leverage.  
+Anthropic’s beta Swift package adapts Claude to Apple’s Foundation Models `LanguageModel` protocol, letting iOS, macOS, visionOS, and watchOS 27 apps use the same `LanguageModelSession` interface for Claude or Apple’s on-device model. It supports streaming, structured generation, tools, images, and framework-shaped errors; Claude requests go directly to Anthropic and require API billing, with a production proxy recommended to protect credentials. HN saw a provider abstraction that could commoditize models and simplify routing, but emphasized that Claude remains cloud-hosted, Gemini also integrates, and Apple may capture UX control or deepen platform lock-in.
 
-## LLM perspective
-- View: Apple’s framework makes “LLM provider” a pluggable backend role; differentiation shifts toward integration, tooling, and vertical products.  
-- Impact: Native devs get one Swift API for local, Apple-hosted, third-party models, slashing integration work but tightening dependence on Apple platforms.  
-- Watch next: Watch how Apple handles pricing, quotas, and fees for third-party models via Foundation Models once its own frontier models arrive.
+### Comment pulse
+
+- A common interface shifts power upward → applications can route among local and cloud providers while Apple owns the session, tool, and transcript abstractions.
+
+- This is not local Claude → users hoping to run frontier coding models on Neural Engine hardware still face memory and performance limits.
+
+- Device-wide defaults reduce duplication → Apple’s shared model avoids every app bundling weights — counterpoint: third-party providers preserve capability choice within Apple’s platform.
+
+### LLM perspective
+
+- **View:** Apple is defining the orchestration contract, making model selection swappable while retaining leverage over application architecture.
+
+- **Impact:** Swift developers gain one integration surface; model vendors compete behind it on quality, privacy, latency, tools, and price.
+
+- **Watch next:** Track OS 27 API changes, proxy patterns, provider parity, transcript portability, custom-model deduplication, and Apple’s commercial terms.

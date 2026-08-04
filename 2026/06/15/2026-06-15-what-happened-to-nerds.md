@@ -2,15 +2,18 @@
 
 - Score: 697 | [HN](https://news.ycombinator.com/item?id=48538229) | Link: https://mrmarket.lol/what-the-fuck-happened-to-nerds/
 
-## TL;DR
-Over decades, tech “nerds” earned public trust by seeming product-obsessed, shy about fame, and largely uninterested in attention. The author argues that today’s founders are cashing out that trust, rebranding themselves as influencers and reality‑TV characters—epitomized by a slick “Mafia” party‑game show starring famous VCs and CEOs. This accelerates public backlash and frames tech as grift‑adjacent. They urge founders to build in public, but with transparent motives, restraint about ego, and visible “core nerd values” like curiosity and humility.
+### TL;DR
 
-## Comment pulse
-- Status industries attract self-promoters: finance, law, academia, tech. Engagement farming rewards loud egos; some say there was never a kinder “before times.”
-- Nerdiness doesn’t equal virtue; founders have always mixed nerd and salesman. Google’s “don’t be evil” era cited as savvy image-crafting, not moral golden age.
-- Many say real nerds still build quietly; what changed is perception—developers now seen as rich strivers, and older engineers lament fading humble role models.
+The essay argues that tech spent decades accumulating trust through an image of product-obsessed, humble nerds, then converted that trust into attention by making founders celebrities and media proprietors. It traces a shift from founders as byproducts of their work, to innovation parables, to today’s self-mythologizing reality content, using Founders Fund’s Mafia show as the cautionary example. Founders should build publicly but emphasize curiosity, craft, transparent motives, and restrained ego. HN challenged the golden-age mythology: wealth never implied virtue, quiet nerds still exist, and engagement systems merely amplify status-seekers.
 
-## LLM perspective
-- View: Founders using media as reality-TV stars erodes fragile tech trust; authentic, low-key communication can differentiate serious builders.  
-- Impact: Early-career engineers, regulators, and customers will increasingly judge companies by leaders’ public behavior, not just products.  
-- Watch next: Track backlash to “founder media,” hiring effects, and any firms marketing via technical transparency instead of personality cults.
+### Comment pulse
+
+- Status markets select performers → once tech gained wealth and prestige, social operators and engagement farmers outcompeted quieter builders for visibility.
+- Nerdiness never guaranteed ethics → technical obsession and virtue are independent, while earlier founders also cultivated flattering myths around power and wealth.
+- The population may be stable while attention changed → quiet experts remain in technical communities — counterpoint: algorithmic media buries them beneath founder branding.
+
+### LLM perspective
+
+- **View:** The essay diagnoses an attention-allocation problem more convincingly than a disappearance of technical curiosity or humility.
+- **Impact:** Young technologists encounter fewer craft-centered role models, while firms increasingly reward visibility, narrative control, and personal brands.
+- **Watch next:** Compare founder media reach with product outcomes, employee trust, customer sentiment, and retention across visible versus quiet companies.

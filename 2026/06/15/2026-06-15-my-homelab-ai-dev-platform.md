@@ -3,18 +3,21 @@
 - Score: 216 | [HN](https://news.ycombinator.com/item?id=48542433) | Link: https://rsgm.dev/post/ai-dev-platform/
 
 ### TL;DR
-Author turns their homelab into an AI-assisted dev platform using OpenCode’s web UI, Git, and GitOps. OpenCode runs on a separate VM with root access but no direct access to production services, generating branches and PRs instead of deploying changes itself. The system helps summarize container release notes, add health checks, and refactor docker-compose stacks, all review-gated via PRs. Biggest missing piece is CI integration, since Forgejo Actions doesn’t yet expose logs via a stable public API.
 
----
+The author turned OpenCode’s web server into a persistent, device-synced homelab coding environment on a TrueNAS VM. The agent can access the internet and Git, install tools as root, create worktrees, and push feature branches, but cannot reach services or deploy directly. Humans review and merge pull requests; GitOps then deploys changes through Arcane, Home Assistant, or Cloudflare Pages. This sped release-note review, container upgrades, health-check additions, and cross-stack networking edits. HN shared Forgejo, n8n, Argo, and k3s variants while noting remote-build resources and missing Forgejo Actions logs as constraints.
 
 ### Comment pulse
-- Similar setups emerging → Others run OpenCode or Claude via Forgejo Actions or custom runners, triggering AI with issue commands to auto-generate PRs.  
-- Parallel invention → Many are independently building AI dev labs but rarely write them up, so posts like this validate patterns and share practical details.  
-- Local vs VM compute → Some prefer agents on their main dev machine for faster builds/tests; a remote VM adds isolation but can bottleneck performance.
 
----
+- Least privilege contains agent risk → dedicated Git credentials, branch-only pushes, no service network access, and human merges limit unintended deployment.
+
+- Persistence improves mobility → synchronized sessions, terminal, file browser, diffs, and worktrees let infrastructure work continue across desktop and phone.
+
+- CI feedback is the gap → Forgejo’s public API omits Actions logs — counterpoint: issue-triggered runners can instead execute OpenCode and return PRs.
 
 ### LLM perspective
-- View: Pattern is “AI as junior dev + PRs,” with strict network isolation and Git as the control plane.  
-- Impact: Homelab practices here foreshadow how small teams will standardize AI-assisted ops and infra changes safely.  
-- Watch next: Better CI log APIs, first-class “AI runner” products, and policy templates for limiting blast radius of coding agents.
+
+- **View:** The architecture treats AI as an untrusted contributor, using Git’s review boundary instead of granting production credentials.
+
+- **Impact:** Homelab operators gain asynchronous maintenance from any device; teams could generalize the pattern with ephemeral workers and audit logs.
+
+- **Watch next:** Add documented CI-log access, automated validation, signed commits, resource quotas, secret isolation, rollback checks, and deployment observability.

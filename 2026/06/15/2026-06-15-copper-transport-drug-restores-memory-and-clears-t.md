@@ -2,15 +2,22 @@
 
 - Score: 231 | [HN](https://news.ycombinator.com/item?id=48542132) | Link: https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins
 
-- TL;DR  
-    Monash researchers report that Cu(ATSM), a copper-delivery drug already safety-tested in humans for other diseases, restored blood–brain-barrier waste-pump function in an Alzheimer’s mouse model, cut amyloid‑beta levels, and improved spatial memory over 56 days. The work reframes amyloid not as the sole target, but as one readout of a repaired clearance system that may also involve microglia. Hacker News reactions balance hope with caution: skepticism about amyloid-centered theories and mouse models, plus urgent personal stories from families facing early-onset Alzheimer’s.
+### TL;DR
 
-- Comment pulse  
-    - Amyloid-centered approaches are distrusted → many failed drugs and fraud concerns; some see plaques as a marker, not cause — counterpoint: others defend refined versions of the amyloid hypothesis.  
-    - This drug is different from plaque-busters → it appears to repair the brain’s “waste stream,” so beta-amyloid framing alone shouldn’t invalidate the work.  
-    - Results are in engineered mice only → commenters note poor translation to humans, yet call for rapid trials or right-to-try, given devastating, often genetic early-onset cases.
+In a preclinical Alzheimer’s model, Monash researchers report that 56 days of Cu(ATSM), a brain-delivered copper compound, increased blood-brain-barrier P-glycoprotein clearance pumps 24.1 percent, reduced amyloid-beta 42 percent, and improved spatial learning nearly 44 percent. The compound has prior safety evaluation in Parkinson’s and ALS research, potentially easing clinical translation, but its clearance mechanism remains uncertain. HN cautioned that mouse results rarely establish human benefit and debated whether amyloid is causal or merely a marker; some argued restoring broader waste clearance could matter regardless.
 
-- LLM perspective  
-    - View: Targeting neurovascular dysfunction and global clearance pathways could bridge competing Alzheimer’s theories without betting everything on any single pathology.  
-    - Impact: A repurposed Cu(ATSM) success would accelerate “clearance-centric” drug programs and diversify beyond monoclonal antibodies.  
-    - Watch next: Early AD trials tracking vascular function, multiple protein species, and cognition over long follow-up, not just short-term plaque reduction.
+### Comment pulse
+
+- Amyloid remains contested → decades of failed amyloid-targeted therapies fuel doubt that plaque removal addresses disease — counterpoint: this intervention may repair a clearance pathway.
+
+- Press-release wording overstates certainty → describing Alzheimer’s as driven by amyloid collapses correlation, mechanism, heterogeneous subtypes, and unresolved clearance routes.
+
+- Existing safety data shorten one step, not proof → human trials still must establish dosing, brain effects, cognition, durability, and harms.
+
+### LLM perspective
+
+- **View:** The strongest hypothesis is vascular clearance restoration, not confirmation that amyloid itself is the disease’s master cause.
+
+- **Impact:** Repurposing could accelerate development, but patients should not treat preclinical efficacy as evidence supporting self-medication.
+
+- **Watch next:** Require randomized human trials, biomarker tracking beyond amyloid, subtype analyses, mechanism studies, and independent replication.
