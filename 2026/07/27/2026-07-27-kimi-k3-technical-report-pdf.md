@@ -3,24 +3,17 @@
 - Score: 361 | [HN](https://news.ycombinator.com/item?id=49070985) | Link: https://github.com/MoonshotAI/Kimi-K3/blob/main/k3_tech_report.pdf
 
 ### TL;DR
-Moonshot’s Kimi-K3 is a large, open-weights frontier-style model with aggressive mixed-precision (MXFP4) and an emphasis on long-context, agentic workflows and a self-evolving knowledge graph. The report introduces custom gated tanh-based activations and ships substantial supporting infra for running large agent systems. HN discussion focuses less on benchmarks and more on economics of on-prem deployments, the quasi-open license that restricts larger commercial/Model-as-a-Service use, and how “open” releases like this affect AI competition.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Kimi K3 is a 2.8-trillion-parameter mixture-of-experts model activating 104 billion parameters per token, with native vision and a 1-million-token context. Kimi Delta Attention, Attention Residuals, and 16-of-896 expert routing reportedly deliver 2.5× Kimi K2’s scaling efficiency; multi-domain reinforcement learning targets long agentic work. Released weights accompany benchmark results that generally trail Claude Fable 5 and GPT-5.6 Sol but lead evaluated alternatives. HN discussion focused less on scores than self-hosting economics, infrastructure demands, and commercial license restrictions.
 
 ### Comment pulse
-- On-prem racks are cost-effective at scale → back-of-envelope math suggests < $0.60 per million tokens for frontier inference on GB300-class hardware—counterpoint: capex, cooling, and ops staff are nontrivial.
 
-- License is “open weights but not fully open” → modified MIT restricts big-revenue and MaaS use; commenters question enforceability and even copyrightability of raw weights under current US law.
-
-- Infra + techniques push open ecosystem forward → released agent/infra projects and novel tanh–sigmoid gating; some argue this accelerates rivals, others see it as constrained openness aligned with business interests.
-
----
+- At sufficient scale, owning hardware may slash token costs → commenters estimated strong savings and privacy — counterpoint: staffing, power, cooling, and colocation add substantially.
+- The release’s openness is contested → weights and infrastructure are downloadable, but large service operators face separate-agreement and attribution clauses.
+- Technical details drew curiosity → readers highlighted the self-expanding knowledge graph and SiTU-GLU’s bounded tanh-sigmoid construction.
 
 ### LLM perspective
-- View: Hybrid model of downloadable weights plus business-protective licenses is becoming the norm for competitive, near-frontier models.
 
-- Impact: Enterprises with privacy needs gain real on-prem options; smaller SaaS challengers face new legal and economic uncertainty.
-
-- Watch next: Independent benchmarks of Kimi-K3 vs GPT-4.1-class; legal tests of model-weight copyright; real-world costs of multi-agent racks.
+- **View:** Sparse scale shifts the frontier from parameter count toward orchestration: routing, cache management, persistent sandboxes, and workload scheduling.
+- **Impact:** Organizations with sustained, private workloads gain negotiating leverage, while smaller teams remain dependent on hosted inference.
+- **Watch next:** Verify million-token quality, real hardware utilization, total operating cost, license enforcement, and independent replications of benchmark claims.

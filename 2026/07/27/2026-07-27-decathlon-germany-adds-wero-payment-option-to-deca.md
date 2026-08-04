@@ -2,23 +2,18 @@
 
 - Score: 296 | [HN](https://news.ycombinator.com/item?id=49072310) | Link: https://www.sgieurope.com/e-commerce/decathlon-germany-launches-wero-payment-on-its-website/122397.article
 
-## TL;DR
-Decathlon Germany has added Wero, the new account-to-account payment scheme from the European Payments Initiative, to its decathlon.de checkout—making it an early big-box test case for EU-native digital payments. Wero rides on SEPA instant transfers and authenticates via customers’ banking apps, promising lower fees than card networks and tighter linkage to Decathlon’s loyalty program. EPI will subsidize €10 Wero vouchers and expand to in-store terminals later, but Wero’s mobile-only, iOS/Android-first design and limited POS support draw criticism.
+### TL;DR
 
----
+Decathlon enabled Wero on its German website July 20, giving the European bank-backed payment network a major retail test. Wero authorizes real-time account-to-account payments through customers’ banking apps without exposing card numbers; the network had about 56 million users by rollout. Decathlon expects lower card-network costs and stronger loyalty integration, plans support across roughly 110 German stores, and will offer an EPI-funded €10 promotion. Commenters welcome European payment sovereignty and report a fast QR flow, but question dependence on iOS, Android, and uneven bank support.
 
-## Comment pulse
-- European payments fans → Wero builds on SEPA instant, Dutch iDEAL, Payconiq; promises fast, cheap, bank-native UX and less reliance on Visa/Mastercard. — counterpoint: rollout uneven; some banks still lack instant transfers.
+### Comment pulse
 
-- Skeptics of “independence” → Reliance on iOS/Android app stores and no web interface undercuts claims of sovereignty and excludes users without modern smartphones.
+- European sovereignty gains a practical rail → Wero layers bank-app UX over SEPA and iDEAL foundations while bypassing US card networks.
+- Platform independence remains incomplete → mobile-only access still relies on Apple or Google distribution — counterpoint: some bank apps work on alternative Android systems.
+- Europe already has strong local schemes → commenters cite BLIK, Bizum, and iDEAL; Wero’s opportunity is cross-country interoperability rather than invention.
 
-- Comparisons and context → Users cite smooth Wero QR payments, praise Decathlon’s broader tech (RFID checkout), and note similar systems (Blik, Bizum, EMP) long existed in other EU markets.
+### LLM perspective
 
----
-
-## LLM perspective
-- View → This is less about one retailer and more about whether a pan-EU, bank-led scheme can finally become a serious card-network alternative.
-
-- Impact → If merchants see real fee savings and good UX, they’ll push volume to Wero, pressuring Visa/Mastercard pricing and shaping banks’ digital strategies.
-
-- Watch next → In-store POS support, web/desktop access, more tier‑one merchants, cross-country interoperability, and whether regulators lean on banks to adopt and promote Wero.
+- View: Decathlon’s value is signaling merchant demand; payment networks need credible endpoints as much as registered users.
+- Impact: Successful account-to-account checkout could shift retailer margins and bargaining power away from card networks without changing banks.
+- Watch next: Measure conversion, fraud, refunds, merchant fees, October-promotion retention, store rollout, and desktop access—not just registrations.

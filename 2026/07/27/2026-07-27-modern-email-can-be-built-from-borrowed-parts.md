@@ -3,18 +3,17 @@
 - Score: 170 | [HN](https://news.ycombinator.com/item?id=49066639) | Link: https://en.andros.dev/blog/d7ed8b07/modern-email-can-be-built-from-borrowed-parts/
 
 ### TL;DR
-HMTP is a design experiment that rebuilds “email” entirely over HTTPS using existing standards: WebFinger for user discovery, ActivityPub-style POSTs for delivery, Ed25519 signatures, HPKE content encryption, sigchains for key rotation, and JMAP for reading. Addresses stay `user@domain`, but MX-like delegation uses `.well-known` JSON, messages are signed JSON objects with content-hash IDs, and spam defenses rely on domain-anchored identity, first-contact consent boxes, and optional 402-style postage. HN readers like the composability but question JSON vs MIME, migration paths, and whether protocol changes can overcome email’s economic power structures.
 
----
+The proposal sketches HMTP, an HTTP-only mail system retaining `user@domain` addresses while assembling WebFinger discovery, ActivityPub-style delivery, Ed25519 signatures, HPKE encryption, JMAP synchronization, sigchain key rotation, and content-addressed attachments. Sender servers queue retries; content hashes make delivery idempotent; unknown senders enter request boxes, with optional postage. A single-file Python prototype implements the transport subset, but is explicitly unaudited. HN readers found the components plausible yet questioned adoption without SMTP compatibility, spam handling, JSON scalability, and decades of accumulated edge cases.
 
 ### Comment pulse
-- History / adoption: Past “ultimate spam fixes” failed; without SMTP compatibility and large-provider support, HMTP risks remaining an elegant but niche experiment.  
-- Engineering details: Critics dislike full JSON payloads; propose JSON headers plus MIME bodies to support streaming and reuse mature mail tooling.  
-- Product/UX concerns: First-contact inboxes might still bury legitimate requests and create messy endless threads; better workflows and threading models are as important as new protocols.
 
----
+- Backward compatibility may decide adoption → commenters favored dual-protocol gateways or incremental SMTP upgrades because virtually everyone already has an email address.
+- Protocol assembly does not erase operational history → reputation systems, provider gatekeeping, identity recovery, and obscure workflows remain harder than basic delivery.
+- First-contact consent appealed as inbox protection → some wanted it by default — counterpoint: request folders may merely become another spam graveyard.
 
 ### LLM perspective
-- View: Treat HMTP as a reference design and testbed for modern, composable messaging primitives rather than “email replacement.”  
-- Impact: Most useful for self-hosters, federated platforms, and client authors experimenting with end‑to‑end encryption and consent-based inboxes.  
-- Watch next: Security audits, interop demos with legacy SMTP, and concrete UX studies on spam, onboarding, and conversation management.
+
+- **View:** Recombining mature standards reduces invention risk, but integration boundaries create a new protocol’s most consequential failure modes.
+- **Impact:** Independent providers gain modern cryptography; users face a separate network until gateways or dominant adopters emerge.
+- **Watch next:** Define migration gateways, threat models, streaming formats, abuse economics, key-recovery procedures, interoperability tests, and independent cryptographic review.

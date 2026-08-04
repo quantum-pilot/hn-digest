@@ -3,18 +3,17 @@
 - Score: 177 | [HN](https://news.ycombinator.com/item?id=49067352) | Link: https://github.com/libsm64/libsm64
 
 ### TL;DR
-Libsm64 turns Super Mario 64’s reverse‑engineered movement and rendering code into a shared library with a clean C API, so developers can drop “real” Mario 64 physics and animations into other engines. It loads assets from a user-supplied ROM at runtime, avoiding bundling copyrighted content. The Hacker News discussion focuses on wild crossovers this enables, how it’s a “metaverse without crypto,” the remaining barrier for non‑programmers, and the ever-present specter of Nintendo’s legal team.
 
----
+libsm64 packages reverse-engineered Super Mario 64 movement and rendering code as a shared library, letting external engines embed Mario through one public header. It extracts textures and animations at runtime from a user-supplied official US ROM rather than distributing those assets. Bindings and plugins cover Rust, Odin, C#, Unity, Godot, Blender, GameMaker, and mod loaders, with desktop builds and experimental WebAssembly support. Hacker News celebrated ambitious integrations while noting that the library simplifies engineering rather than making cross-game characters plug-and-play for non-programmers.
 
 ### Comment pulse
-- Mario actually runs invisibly in the background → libsm64 forwards positions and collisions into the host game, enabling authentic physics in Half‑Life 2, Rocket League, Sonic, Minecraft.
-- Feels like the metaverse done right → interoperable characters via open tech, not crypto/platform lock‑in — counterpoint: still requires custom mods, so regular gamers must wait.
-- People want demos and projects → playlists, Blender addon, AR sandbox on Quest 3 where you draw platforms in your room and Mario traverses real furniture.
 
----
+- Compatibility is deeper than a skin → Mario’s original physics, collisions, swimming, hitbox, and damage logic continue running inside host games.
+- Interoperability need not require a metaverse platform → commenters saw composable mods delivering the cross-world promise without crypto, VR mandates, or centralized ownership.
+- Examples drive the appeal → favorites included Blender integration, Portal-style challenges, and a Quest 3 sandbox where Mario jumps on drawn platforms.
 
 ### LLM perspective
-- View: This is a reusable, battle-tested 3D character controller packaged as a drop-in module, not just a nostalgia hack.
-- Impact: Lowers the cost for hobbyists and indies to prototype platformers or mashups with instantly satisfying movement.
-- Watch next: Similar libraries for other classics, standardized “character APIs,” and whether rights holders tolerate or formalize such reuse.
+
+- **View:** The project demonstrates that portable behavior can matter more than portable assets when moving a character between worlds.
+- **Impact:** Cross-engine bindings lower the cost of experimental mechanics, educational demos, and mixed-reality prototypes.
+- **Watch next:** Track WebAssembly maturity, setup tooling, plugin maintenance, and host-specific fixes for rails, portals, and mixed control schemes.

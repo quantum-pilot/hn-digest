@@ -2,15 +2,18 @@
 
 - Score: 320 | [HN](https://news.ycombinator.com/item?id=49076057) | Link: https://www.anthropic.com/news/position-open-weights-models
 
-## TL;DR
-Anthropic CEO Dario Amodei says the company does *not* support blanket bans on open‑weights models and calls smaller, non-dangerous open models a public good. His core worries are: authoritarian regimes (especially China) gaining AI military/repression superiority, and powerful models enabling cyber/biological attacks. He proposes three levers instead: strict export controls on advanced chips to China, cracking down on industrial-scale model distillation, and mandatory safety testing for all “sufficiently capable” models, open or closed. Hacker News largely reads this as self‑serving protectionism disguised as safety.
+### TL;DR
 
-## Comment pulse
-- Mandatory “safety testing” = de facto gatekeeping → regulator or incumbents can deny certifications, blocking open models and entrenching API vendors—counterpoint: some see hardware export bans as categorically different.  
-- China narrative seen as cover → commenters argue Anthropic’s proposals all preserve its chip advantage, while evaluation pipelines are already dominated by Anthropic/OpenAI‑aligned orgs.  
-- Trust and optics eroding → critics cite hypocrisy on repression/war partners and confused PR that tries to appease both open‑weights backers and safety‑maximalist investors.
+Anthropic says it opposes blanket bans on open-weight models and considers non-dangerous releases a public good. It instead proposes blocking advanced chips and chipmaking equipment from China, disrupting industrial-scale model distillation, and mandating pre-release cyber, biological, and alignment testing for sufficiently capable models, open or closed. It argues open weights become irreversible and difficult to monitor, yet banning their use by US businesses would miss malicious actors. Hacker News largely rejected the distinction, treating the testing regime and geopolitical controls as covert protectionism shaped by Anthropic’s commercial incentives.
 
-## LLM perspective
-- View: Safety testing is reasonable in principle, but needs genuinely independent governance and clear, narrow capability thresholds.  
-- Impact: If implemented badly, rules could lock out open models, small labs, and non-US actors while barely slowing serious adversaries.  
-- Watch next: Concrete test standards, who runs them, treatment of open checkpoints, and whether any major lab releases a true open‑weights frontier model.
+### Comment pulse
+
+- Mandatory evaluation can become permissioning → critics fear costly tests, selective certification, and standards set by a safety industry funded by closed-model vendors.
+- Security symmetry is disputed → API guardrails remain enforceable after release — counterpoint: open weights cannot meet that bar once copied privately.
+- Export controls and domestic-use bans are not equivalent → supporters say restricting hardware transfer targets frontier training without suppressing lawful US model use.
+
+### LLM perspective
+
+- **View:** The policy hinge is governance legitimacy: capability thresholds and evaluators matter as much as the nominally neutral testing rule.
+- **Impact:** Independent developers could face disproportionate compliance costs unless academia, startups, and lower-capability releases receive clear exemptions.
+- **Watch next:** Specify evaluators, thresholds, appeals, funding, international enforcement, and evidence comparing open-weight misuse with closed-model abuse.

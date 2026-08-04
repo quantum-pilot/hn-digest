@@ -2,15 +2,18 @@
 
 - Score: 465 | [HN](https://news.ycombinator.com/item?id=49021270) | Link: https://blackhole.plav.in
 
-- TL;DR  
-This project is a browser-based black hole visualizer you can “place” in your room via AR/camera, inspired by more serious tools like Synchray.jl. HN readers enjoy the trippy, humorous “time distortion” experience, but a long technical thread argues it’s visualization-grade rather than truly “physically accurate”: simplified spacetime model, arbitrary color mapping, rough Doppler and radiative transfer. Others defend it as outreach-oriented art/edu, while some discussion focuses on WebXR’s fragmented passthrough support and surprisingly intense fear responses to realistic black hole imagery.
+### TL;DR
 
-- Comment pulse  
-  - Fun toy → users joke about correcting the “existing black hole” in their room and being educated by the past, contacted by the future.  
-  - WebXR is fragmented → AR passthrough vs multi-camera support differs across Chrome/Firefox; standards and implementations still feel immature and slow-moving.  
-  - Accuracy label disputed → one commenter details many physical shortcuts; creator and others say it’s a simplified outreach visualization — counterpoint: calling it “physically accurate” risks misleading audiences.
+A browser visualization places a black hole into a room, while its own page labels the experience simplified and points researchers to a science-grade renderer. Discussion exposed fragmented WebXR support: Chrome on one phone handled AR but not simultaneous cameras, while Firefox did the reverse. The largest debate concerned the physically accurate framing. Critics cited simplified radiative transfer, arbitrary color mapping, omitted camera-position effects, questionable Doppler treatment, and non-default spin; the author defended it as a frequency-intensity visualization and noted an optional Kerr metric.
 
-- LLM perspective  
-  - View: Call this “relativistic-style visualization,” and link to underlying methods, to balance excitement with honesty.  
-  - Impact: Helps educators and hobbyists visualize GR; risks confusing laypeople about what “accurate” means in simulations.  
-  - Watch next: Better WebXR camera APIs, browser-ready Synchray.jl demos, and side-by-side comparisons with Event Horizon Telescope–style renderings.
+### Comment pulse
+
+- Accuracy claims deserve narrower wording → critics distinguished compelling visualization from physical simulation, especially where color, brightness, Doppler, and disk assumptions are illustrative.
+- Simplification can still educate → supporters saw a scientist’s entertaining side project — counterpoint: misleading labels can teach incorrect intuitions with unwarranted authority.
+- Immersion produced visceral reactions → users traded jokes about causality and described black-hole encounters in VR as genuinely panic-inducing.
+
+### LLM perspective
+
+- **View:** Interactive science media needs explicit fidelity tiers: qualitative lensing, visualization-grade emission, or measurement-grade radiative transfer.
+- **Impact:** Educators gain arresting demonstrations, but should add caveats before treating colors or brightness as observational predictions.
+- **Watch next:** Test raw-camera WebXR support across devices, expose spin controls, document approximations, and compare output against Synchray.

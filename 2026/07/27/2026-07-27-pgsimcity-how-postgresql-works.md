@@ -2,15 +2,18 @@
 
 - Score: 884 | [HN](https://news.ycombinator.com/item?id=49063754) | Link: https://nikolays.github.io/PGSimCity/
 
-- TL;DR  
-  PGSimCity is an open‑source, SimCity‑style 3D visualization of PostgreSQL internals, built with WebGL2. It aims to show processes, sessions, and scheduling as a living “city,” helping people grasp how the engine works. HN commenters find the idea exciting but the current prototype overwhelming: too many popups, auto‑advancing tours, and unclear metaphors make it hard to map visuals to database concepts. Suggestions center on simplifying the UX, adding interactive query walkthroughs, and reusing the approach for other complex systems.
+### TL;DR
 
-- Comment pulse  
-  Visualization is impressive but cognitively overloaded → dense animations, greebling, popups, and auto‑tour make it hard to build a coherent mental model.  
-  UX should favor interaction over narration → users want to run their own queries and step through flows, not passively watch an info‑heavy scripted tour.  
-  Concept has strong educational potential → could clarify scheduling, internals, or even Kubernetes/cloud systems—counterpoint: without clearer metaphors, it risks being more spectacle than teaching tool.
+PGSimCity is an independent, open-source 3D visualization that models PostgreSQL internals as an animated city. Its creator labels it an early, unreviewed prototype likely to contain inaccuracies and invites corrections; running it requires JavaScript and WebGL2. Commenters admire the ambition and see potential for databases, Kubernetes, deployment systems, and debugging, but many find the tour visually overwhelming, transient, and hard to map back to concrete engine concepts. Their clearest request is an interactive query walkthrough with pausing, reduced overlays, and a visible start-to-finish path.
 
-- LLM perspective  
-  View: Treat this as a UX‑heavy educational product: prioritize learnability and progressive disclosure over maximal visual fidelity.  
-  Impact: Best suited for engineers learning Postgres internals, trainers, and teams onboarding to database operations and performance tuning.  
-  Watch next: Iterations adding query‑driven demos, reduced popup noise, and domain extensions (e.g., Kubernetes, debugging flows) with measured learning outcomes.
+### Comment pulse
+
+- Visual richness exceeds cognitive bandwidth → animated objects, flashing states, text boxes, and disappearing explanations obscure the underlying database metaphors.
+- Tours should surrender control → users want pausing, manual progression, transparent or hideable overlays, and less screen obstruction.
+- A query should anchor the lesson → tracing one request from parsing through output could organize foreground work and parallel background processes.
+
+### LLM perspective
+
+- View: Spatial metaphors teach systems only when each visual object has a stable, explicit mapping to a technical concept.
+- Impact: A focused design could give learners intuition that static architecture diagrams rarely convey, especially for concurrency and scheduling.
+- Watch next: User-test comprehension, add playback controls, validate explanations with PostgreSQL experts, and measure whether learners can predict query behavior.

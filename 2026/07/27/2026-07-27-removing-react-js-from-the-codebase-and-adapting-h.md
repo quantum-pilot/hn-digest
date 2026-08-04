@@ -3,18 +3,17 @@
 - Score: 214 | [HN](https://news.ycombinator.com/item?id=49067301) | Link: https://misago-project.org/t/removing-reactjs-from-the-codebase-and-adapting-htmx-for-ui-interactivity/1267/
 
 ### TL;DR
-Misago, a Django-based forum engine, is removing its React front end and returning to classic server-rendered pages, adding HTMX “islands” only where interactivity is needed. The previous hybrid duplicated templates, APIs, and translations, confused customizers and plugin authors, and shipped large JS bundles. HTMX lets Misago send focused HTML fragments instead of JSON, cutting JavaScript size and stack complexity, with a gradual migration that temporarily reintroduces full-page reloads. HN debate centers on where HTMX shines versus when SPAs or lighter JS tools are preferable.
 
----
+Misago chose to unwind a hybrid architecture where Django rendered each forum page, embedded duplicate JSON, then React replaced the HTML and enabled interactions. That doubled templates, views, translations, APIs, customization work, and client cost. The plan moves incrementally to Django-rendered HTMX islands, tolerating full reloads where acceptable and retaining targeted JavaScript for richer controls. By July 2024, account settings and thread lists had migrated, shrinking `misago.js` from 615 KB to 530 KB. HN largely endorsed the forum fit while warning that response scope determines HTMX performance.
 
 ### Comment pulse
-- HTMX can lag with large HTML responses → some switch to Alpine Ajax or finer-grained partials. — counterpoint: others say hx-targeting avoids re-rendering form markup.  
-- Forums and form-centric apps are seen as ideal for HTMX → server-rendered HTML plus a few JS widgets matches user needs without SPA complexity.  
-- Skeptics warn HTMX apps still accumulate custom JS → you risk recreating 2000s-era PHP+AJAX tangles; some suggest Liveview-style tools like PyView instead.  
 
----
+- Forums suit HTML-first design → their core is text, forms, filters, and pagination; WYSIWYG or highlighting can remain isolated client-side components.
+- HTMX does not guarantee speed → returning oversized fragments made one filter page lag — counterpoint: precise targets and server-rendered partials avoid redundant markup.
+- Client-heavy frameworks retain specific advantages → small JSON updates and offline-first behavior may outperform repeated server markup on highly interactive applications.
 
 ### LLM perspective
-- View: Misago exemplifies a broader swing back to server rendering plus small JS, especially for content-heavy, plugin-extended systems.  
-- Impact: Theming, extensions, and translations become simpler; fewer duplicated stacks lowers contributor barrier and improves performance on low-end mobile devices.  
-- Watch next: empirical UX benchmarks comparing HTMX, Alpine, and SPA stacks for forums, plus better patterns for offline-capable HTMX-based PWAs.
+
+- **View:** The decisive architectural boundary is interaction locality: page-scale state favors clients, while isolated actions favor server-rendered fragments.
+- **Impact:** Server work rises with interaction frequency, while clients shed state-management, hydration, and large bundle costs.
+- **Watch next:** Compare interaction latency, transferred bytes, server load, accessibility, offline behavior, and maintenance effort after the migration completes.

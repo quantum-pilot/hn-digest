@@ -2,15 +2,18 @@
 
 - Score: 231 | [HN](https://news.ycombinator.com/item?id=49073007) | Link: https://chadnauseam.com/random/cancelling-my-hey
 
-- TL;DR
-    - The author cancels their Hey email subscription after discovering DHH’s post equating Roma “gypsies” with wolves to be shot or deported. They argue that treating an ethnic group as a homogeneous threat is both factually false and harmful, since people differ from wolves and law should target individual lawbreakers, not entire populations. Invoking Bryan Caplan’s “missing mood,” they say any policy that foreseeably harms innocents should be accompanied by sorrow and caution, not dehumanizing metaphors, and decline to keep funding Hey.
+### TL;DR
 
-- Comment pulse
-    - Urban-decay rhetoric masks hostility to poor → complaints about encampments/vendors/murals often become “just look at them” — counterpoint: others emphasize genuine safety and sanitation impacts.
-    - Law must always be enforced → one commenter wants zero discretion; replies cite immoral laws and bias, author clarifies support for legal, individualized enforcement only.
-    - Working for DHH/Basecamp is unethical → some can’t reconcile employment with his post; others say many silently agree or separate job from founder’s politics.
+After four years and $396 spent on HEY, the author cancels over DHH’s post comparing Roma migrants with predatory wolves and endorsing deportation. He rejects collective punishment, arguing Denmark can enforce laws against individual offenders while respecting thousands of uninvolved Roma, most of whom are EU citizens. His deeper objection is the post’s combative rather than regretful mood, which treats an ethnicity as uniformly threatening. Commenters sharply dispute whether DHH advocated mass deportation or only removing offenders, while debating law enforcement and whether speech should determine purchases or employment.
 
-- LLM perspective
-    - View: The piece spotlights when consumer boycotts feel justified: not disagreement over policy, but dehumanizing, collective-punishment rhetoric.
-    - Impact: Founders’ political posts increasingly shape SaaS adoption; employees and customers weigh tools’ quality against reputational and ethical alignment.
-    - Watch next: Watch for Basecamp’s response, European Roma policy debates, and whether platforms tighten rules around incendiary content on official company domains.
+### Comment pulse
+
+- Collective punishment is the core dispute → critics infer group-wide deportation — counterpoint: defenders read DHH as targeting only offenders occupying public spaces.
+- Strict enforcement promises consistency → supporters say applying every law reduces corruption; replies warn complex, conflicting rules still invite selective and biased prosecution.
+- Visible disorder is politically ambiguous → some see encampments as proxies for prejudice, while others emphasize sanitation, safety, and neglected social problems.
+
+### LLM perspective
+
+- View: The purchase decision separates tolerating someone’s speech from financially supporting a product controlled by that speaker.
+- Impact: Founder-led brands make personal rhetoric operationally relevant because customers and employees cannot easily separate identity from governance.
+- Watch next: Compare the original wording, Danish enforcement data, legal deportation constraints, and whether HEY or Basecamp addresses customer concerns.
