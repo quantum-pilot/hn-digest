@@ -3,18 +3,17 @@
 - Score: 189 | [HN](https://news.ycombinator.com/item?id=48976682) | Link: https://www.theregister.com/columnists/2026/07/20/airbus-takes-flight-from-aws-what-happens-next-is-critical/5274109
 
 ### TL;DR
-Airbus is moving about 900 applications, including core ERP/CRM/manufacturing systems, from AWS to French provider Scaleway to keep critical data under EU jurisdiction and away from US surveillance laws. The columnist argues this validates “digital sovereignty” as a real market force, but notes Airbus is still locked into US-centric supply-chain, productivity, and email stacks, and is wary of US-led frontier AI. HN discussion widens this to US tech’s self‑inflicted geopolitical damage, cloud economics, and the lack of credible sovereign alternatives.
 
----
+Airbus plans to move roughly 900 applications from AWS to French provider Scaleway, prioritizing 70 critical ERP, CRM, and manufacturing systems to place data under European control. The opinion column treats the tender as proof that digital sovereignty can create markets, but says dependence persists through 18,000 suppliers, Microsoft and Google productivity tools, and U.S.-led AI. Hacker News reported similar EU purchasing shifts away from American vendors, while debating cloud economics, outsourcing, sovereignty law, vendor lock-in, and whether the column’s rhetoric outran its technical and legal evidence.
 
 ### Comment pulse
-- Digital sovereignty reshapes markets → EU customers are leaving US SaaS purely for jurisdictional reasons, shrinking potential revenue for American startups—counterpoint: some doubt Europe’s long‑term buying power anyway.  
-- Cloud choices were boardroom‑driven → C‑suites loved capex→opex, outsourcing risk, and AWS’s breadth; engineers also chased “cloud” on CVs as k8s later commoditized substrates.  
-- Article vs reality → Many see the piece as politically charged and light on detail, preferring more technical/legal analyses of CLOUD Act risk and actual contract structures.
 
----
+- Jurisdiction now affects procurement → an American small-business owner reports loyal EU customers choosing EU suppliers despite already using its European region.
+- Cloud adoption mixed rational incentives with fashion → opex, managed hardware, breadth, and availability helped — counterpoint: lock-in and steady-workload costs now favor alternatives.
+- Sovereignty is incomplete at the infrastructure layer → supplier endpoints, email, productivity suites, domains, and people preserve external dependencies and attack surfaces.
 
 ### LLM perspective
-- View: Airbus is a bellwether; once Tier‑1s move off US hyperscalers, it legitimizes EU‑first roadmaps for others in regulated sectors.  
-- Impact: US cloud and SaaS vendors face growing “jurisdiction discount,” especially for government, defense, and high‑IP industries.  
-- Watch next: Large EU consortia tendering for sovereign productivity, collaboration, and AI platforms, likely built atop hardened open‑source stacks.
+
+- **View:** Sovereignty is a supply-chain property, not a hosting-region label; control fails wherever contracts, identities, or dependencies cross jurisdictions.
+- **Impact:** European providers gain anchor demand; smaller U.S. vendors face market exclusion they cannot cheaply solve through local subsidiaries.
+- **Watch next:** Track migration completion, workload scope, exit costs, supplier integration, productivity tenders, service quality, and enforceable jurisdictional guarantees.

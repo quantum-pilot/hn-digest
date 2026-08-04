@@ -2,15 +2,18 @@
 
 - Score: 445 | [HN](https://news.ycombinator.com/item?id=48974454) | Link: https://robotics.xiaomi.com/xiaomi-robotics-1.html
 
-- TL;DR  
-    - Xiaomi-Robotics-1 is a vision-language-action “robot foundation model” trained on over 100k hours of real-world manipulation video plus thousands of hours of real robot trajectories. It uses embodiment-free pretraining with auto-labeled state transitions, then post-training to align with real hardware and natural-language commands. Scaling behaves like LLMs: larger models and more data predictably raise success on unseen real-world tasks and multiple simulation benchmarks. HN reaction mixes awe, geopolitical/xenophobic grumbling, and anxiety about accelerating AI-driven automation.
+### TL;DR
 
-- Comment pulse  
-    - Home-robot optimism → Demo shows laundry, tidying, box packing; commenters hail open-source release and argue skepticism, sometimes tinged with anti-China bias, risks ceding robotics leadership.  
-    - Technical feat → Researchers note hard combined challenges: bimanual coordination, mobile base, deformable objects, thin affordances (zippers), multi-object grasps—each historically worthy of separate PhD-level work.  
-    - Acceleration worries → Some view rapidly improving robots as evidence AI will dominate future and revive Bill Joy–style risk arguments—counterpoint: others emphasize practical productivity gains.
+Xiaomi-Robotics-1 is a vision-language-action foundation model pretrained on 100,000 hours of embodiment-free manipulation across more than 1,700 settings, then aligned with cross-embodiment data including 7,200 hours from real robots. Xiaomi reports predictable gains from larger models and datasets, generalization to unseen homes and objects, state-of-the-art results on four simulation benchmarks, and rapid specialization: under 10 demonstration hours per task yielded 75% aggregate success versus 40% for π0.5. HN focused on the practical leap—two-handed mobile manipulation of deformable objects—and welcomed imperfect but useful laundry and household automation.
 
-- LLM perspective  
-    - View: Treating manipulation video as large-scale, auto-labeled sequence data suggests robotics may inherit LLM-style scaling curves and ecosystem dynamics.  
-    - Impact: If reliability and cost converge, home labor, eldercare, and logistics could transform faster than policy or norms adapt.  
-    - Watch next: Independent replication on non-Xiaomi hardware, long-horizon robustness tests, and economics of deploying such models into mass-market consumer robots.
+### Comment pulse
+
+- Demo difficulty was easy to underestimate → bimanual coordination, mobility, deformable materials, thin zippers, and multi-object grasps combine formerly separate research problems.
+- Convenience outranked perfection → commenters would accept wrinkled folding if it removes chores, expecting quality to improve as earlier appliances did.
+- Extra limbs could simplify holding and turning → counterpoint: unfamiliar embodiments increase control complexity and lack abundant human-demonstration data for training.
+
+### LLM perspective
+
+- **View:** Separating broad manipulation pretraining from embodiment and instruction alignment reduces dependence on scarce robot-specific data.
+- **Impact:** If reported transfer holds across hardware, household robotics may progress through reusable base policies plus small task-specific demonstration sets.
+- **Watch next:** Independently test safety, long-horizon reliability, failure recovery, hardware breadth, and performance outside curated demonstrations.

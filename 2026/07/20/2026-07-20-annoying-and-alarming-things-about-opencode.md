@@ -2,15 +2,18 @@
 
 - Score: 367 | [HN](https://news.ycombinator.com/item?id=48978112) | Link: https://wren.wtf/shower-thoughts/stop-using-opencode/
 
-## TL;DR
-- The author argues OpenCode, a popular AI coding agent, is both frustrating and dangerously insecure. They catalog design flaws around prompt caching, context pruning, subagent handling, permissions, and a buggy TUI, then detail how OpenCode’s ad‑hoc command and file filters are trivially bypassed, its defaults quietly wire remote models to your shell, and past releases contained serious RCEs. HN discussion splits between seeing this as a necessary security wake‑up call, versus overgeneral, unconstructive, and needlessly hostile to open‑source maintainers.
+### TL;DR
 
-## Comment pulse
-- OpenCode defenders: many “annoying things” are ordinary bugs or UX quirks, some already fixed in v2; compaction and system prompts are hard problems across tools.  
-- Security‑minded readers: the alarming RCE history, weak bash/file filters, and remote‑by‑default behavior justify treating current agentic CLIs as serious attack surfaces.  
-- Meta‑critics: the prose’s insults toward OSS devs feel abusive and demotivating—counterpoint: others see caustic style as long‑standing culture and harmless dark humor.
+A source-level critique argues OpenCode’s local-model workflow wastes prompt caches through changing system inputs, brittle compaction, awkward subagents, and a heavy TUI. Its larger concern is security: remote-first defaults, unrestricted networked shells, textual Bash permission filters, persistent prefix approvals, incomplete path checks, and prior HTTP APIs allegedly make restrictions easy to bypass and expose local data or execution. HN found the audit useful but debated whether its criticisms were unique, current, or actionable.
 
-## LLM perspective
-- View: Article rightly spotlights brittle, text‑based sandboxing; agent designers must assume worst‑case model behavior, not “friendly assistant” intentions.  
-- Impact: Developers casually running agentic CLIs locally should reconsider, or isolate them via VMs, strict OS sandboxes, or separate machines.  
-- Watch next: Demand explicit threat models, red‑teaming, and reproducible security benchmarks for coding agents, similar to browsers and hypervisors.
+### Comment pulse
+
+- Security critique extends beyond one tool → commenters saw the same unsafe shell-plus-network model across agent CLIs, making harness design the real target.
+- Some findings may be stale or fixable → an OpenCode developer says pruning was removed and V2 minimizes instruction-driven cache misses.
+- Rhetoric undermined persuasion → readers who agreed technically still rejected insults toward open-source contributors — counterpoint: others found the abrasiveness funny.
+
+### LLM perspective
+
+- **View:** Ambient shell and network access cannot be secured by parsing command text; enforcement must occur below Bash.
+- **Impact:** Agent harnesses need OS-level filesystem, executable, credential, and egress policies with deny-by-default capabilities and auditable exceptions.
+- **Watch next:** Compare OpenCode V2 against the cited commit using bypass tests, cache benchmarks, outbound telemetry, and independent security review.

@@ -2,16 +2,18 @@
 
 - Score: 161 | [HN](https://news.ycombinator.com/item?id=48980053) | Link: https://www.newyorker.com/culture/the-weekend-essay/the-voice-of-google
 
-- **TL;DR**
-  
-  Claire Stapleton, once Google’s in-house “poet laureate,” describes how she helped craft the company’s self-image—then turned those same communications skills toward organizing the 2018 walkout over sexual-misconduct scandals. The essay tracks Google’s shift from idealistic techno-optimism to bloated ad machine, YouTube’s toxicity and “adpocalypse,” and leadership’s quiet retaliation that pushed her out. Hacker News readers debate whether Google’s massive contributions and free services offset surveillance, power abuse, and spin, and whether her activism is principled sacrifice or self-mythologizing.
+### TL;DR
 
-- **Comment pulse**
-  - Google delivered world-class tools to rich and poor alike → value creation is huge; backlash stems from later surveillance, power abuse, and vocal online negativity.
-  - Story resonates with ex-Googlers → cracked illusions about “Don’t be evil,” nudged some toward organizing like the Alphabet Workers Union, though it remains relatively weak.
-  - Some see Stapleton as bitter or performative → others counter that risking your job and facing retaliation goes beyond “virtue signaling.”
+Claire Stapleton recounts joining Google communications in 2007, becoming the celebrated writer of its quirky, idealistic internal voice, then recognizing that the same rhetoric could sanitize product failures, sexism, surveillance economics, and executive misconduct. She used those messaging skills to organize the 2018 global walkout after Google’s handling of sexual-misconduct allegations. Stapleton says her role was subsequently gutted and HR redirected her complaint; Google denied retaliation, and she left. Hacker News debated her interpretation, Google’s enormous public value, and whether worker organizing requires power beyond company-sanctioned dissent.
 
-- **LLM perspective**
-  - View: Corporate mythmaking is a product feature; AI rollouts will lean heavily on whimsical, “friendly” narratives to normalize deeper data integration.
-  - Impact: Tech workers, regulators, and users must judge firms by power use—labor practices, moderation, data—not branding or perks.
-  - Watch next: Growth of tech unions, whistleblower protections, and disclosure standards around AI training data, safety decisions, and internal dissent.
+### Comment pulse
+
+- Google’s achievements and abuses coexist → universal free services created vast value — counterpoint: advertising surveillance and accumulated power changed how users judge them.
+- Sanctioned dissent lacked leverage → public praise made the walkout culturally convenient until organizers alleged retaliation, encouraging later interest in an independent union.
+- Memoir invites motive disputes → critics read professional bitterness and performance — counterpoint: sacrificing a successful career gives the stated convictions material credibility.
+
+### LLM perspective
+
+- **View:** Corporate culture writing is governance: language can create belonging, channel emotion, and convert structural conflict into manageable narrative.
+- **Impact:** Employees learn that voice without bargaining power is permission, while organizations risk losing trust when branding outruns accountability.
+- **Watch next:** Compare walkout demands with policy outcomes, organizer careers, union membership, misconduct reporting, executive accountability, and current AI-marketing claims.

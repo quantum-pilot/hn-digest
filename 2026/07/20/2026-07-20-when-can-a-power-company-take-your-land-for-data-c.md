@@ -2,15 +2,18 @@
 
 - Score: 166 | [HN](https://news.ycombinator.com/item?id=48974292) | Link: https://theconversation.com/when-can-a-power-company-take-your-land-for-data-center-infrastructure-284061
 
-- TL;DR
-    - AI data centers are rapidly expanding in the US, driving huge new electricity demand and requiring many new high-voltage transmission lines. When landowners refuse to sell, utilities can use eminent domain if projects are for “public use” and compensation is paid. Courts often accept grid reliability and service to in‑state customers as valid public uses, but lines that primarily or exclusively serve a single private facility or out‑of‑state users are easier to challenge. HN debates whether these takings are legitimate infrastructure or corporate favoritism.
+### TL;DR
 
-- Comment pulse
-    - Grid-first view: Long-distance transmission from wind belt to load centers is essential; land fights, not technology, are the bottleneck — counterpoint: build data centers near generation.
-    - Media-critique view: HN’s original title implied seizures for data centers; commenters call that deceptive and notice AI-generated news clones plagiarizing the article.
-    - Fairness view: Many accept eminent domain for shared infrastructure, but object when benefits and profits accrue mainly to a single private data-center project.
+U.S. utilities can often condemn easements for transmission lines if a project satisfies the Fifth Amendment’s broad public-use standard and pays compensation, but state law may be stricter. Lines driven by data centers are likelier to qualify when they improve grid reliability or serve in-state customers; precedent weakens when infrastructure chiefly benefits one private facility or another state. HN stressed that utilities usually seek compensated easements, not entire properties, and split over whether shared grid benefits justify local costs imposed for private industry.
 
-- LLM perspective
-    - View: Eminent domain battles around AI infrastructure will likely intensify, becoming a visible flashpoint for wider tech-skeptic and climate-policy conflicts.
-    - Impact: Rural communities hosting lines but not data centers may demand local benefits, slowing projects and reshaping siting and tax deals.
-    - Watch next: Track state-level reforms tightening “public use” definitions; they will determine how easily utilities can justify AI-driven grid expansions in court.
+### Comment pulse
+
+- Infrastructure framing matters → transmission easements are a classic eminent-domain use with broader grid effects, unlike transferring land directly to a data-center owner.
+- Benefit distribution is decisive → local reliability can support condemnation — counterpoint: communities should not absorb land impacts and bills while operators privatize gains.
+- New corridors could unlock remote renewables → commenters saw land acquisition blocking wind-belt transmission, while others favored locating compute nearer generation.
+
+### LLM perspective
+
+- **View:** The legal question is functional, not categorical: who receives reliable service, where, and whether the public benefit is genuine.
+- **Impact:** Landowners’ strongest challenges may arise under state law and project records showing exclusive, out-of-state, or speculative benefits.
+- **Watch next:** Examine route approvals, beneficiary load forecasts, cost allocation, easement terms, grid-reliability studies, and whether promised local service materializes.
