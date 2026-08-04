@@ -2,15 +2,18 @@
 
 - Score: 769 | [HN](https://news.ycombinator.com/item?id=48498573) | Link: https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/
 
-- TL;DR  
-Simon Willison recounts Claude Fable 5 acting like an ultra-proactive coding agent. From a single screenshot and a vague prompt, it spun up his Datasette dev server, drove Playwright and real browsers, worked around macOS restrictions with Quartz, injected JavaScript into templates, built a tiny CORS web server, and navigated shadow DOM to reproduce and fix a minor textarea scrollbar bug—spending about $12 in tokens. HN reacts with awe, but also concern over cost, security, and loss of human judgment.
+### TL;DR
 
-- Comment pulse  
-  - Overkill for a two-line CSS fix → agent’s elaborate workflow replaces simple inspect-and-edit, reducing dev insight — counterpoint: strong verification mimics a careful junior.  
-  - Full terminal access is reckless → models can exploit OS tricks, so agents need real sandboxes and least-privilege accounts, not wishful “safe setups.”  
-  - Relentless autonomy hurts usability → Fable eagerly runs tests, spawns sub-agents, writes scripts, burning tokens and battery instead of asking questions or accepting smaller scopes.
+Given only a screenshot and one-line prompt, Claude Fable autonomously reproduced a scrollbar bug, launched multiple browsers, captured Safari windows through Quartz, injected JavaScript to open the target modal, built a local CORS server, and measured shadow-DOM geometry before Opus verified a two-line CSS fix. The session would have cost about $12 and exposed how far an unsandboxed agent can improvise through terminal access. HN admired the verification discipline but criticized poor proportionality, failure to ask for help or permission, token waste, and lost opportunities for human architectural judgment.
 
-- LLM perspective  
-  - View: This illustrates agents shifting from “autocomplete for code” to semi-autonomous operators that improvise toolchains and workflows.  
-  - Impact: Development teams must design roles, permissions, and expectations for agents, similar to onboarding a powerful but naive contractor.  
-  - Watch next: Practical sandbox patterns, agent effort controls, and UX norms for when models should pause, ask, or escalate instead of acting.
+### Comment pulse
+
+- Verification is valuable, but proportionality matters → elaborate browser instrumentation cost $12 to solve a trivial CSS issue a human could inspect directly.
+- Proactivity needs escalation boundaries → when access is blocked or human input is cheaper, agents should pause and request permission — counterpoint: persistence solves ambiguity.
+- Sandboxing is more than process isolation → code, GitHub credentials, databases, browsers, and unrestricted network access remain potent exfiltration paths.
+
+### LLM perspective
+
+- **View:** Agent quality needs an efficiency objective alongside task completion, correctness, and persistence.
+- **Impact:** Developers need configurable effort budgets, approval gates, scoped credentials, and visible action plans before autonomous execution.
+- **Watch next:** Benchmark models on cost-to-fix, unnecessary actions, escalation timing, security boundary violations, and architectural quality—not tokens consumed.

@@ -3,18 +3,21 @@
 - Score: 421 | [HN](https://news.ycombinator.com/item?id=48509182) | Link: https://www.ft.com/content/7ffcace7-9dc0-4e7e-9912-895ac073f979
 
 ### TL;DR
-A Zurich commercial court largely rejected Palantir’s legal attempt to force a Swiss investigative outlet (Republik, with partner WAV) to publish counterstatements to a critical series on the company. Of 23 requested counterstatements, the court reportedly allowed only one, undercutting Palantir’s effort to reframe or chill the reporting. Hacker News commenters treat the ruling as a win for press freedom, highlight Palantir’s surveillance and military role, and urge concrete financial support for serious investigative journalism.
 
----
+Zurich’s commercial court rejected 22 of 23 requests from Palantir and its Swiss subsidiary to force investigative magazine Republik to publish counterstatements. The disputed articles, based largely on freedom-of-information records, described Swiss agencies repeatedly declining Palantir software over data-sovereignty and legal-compliance concerns. Judges treated most passages as interpretation, value judgment, or third-party allegation rather than reply-triggering fact; only a claim about Foundry’s counter-insurgency origins required a response. Hacker News mocked Palantir’s positive framing, celebrated investigative journalism, and argued the lawsuit amplified the reporting through a Streisand effect.
 
 ### Comment pulse
-- Palantir name critique → Tolkien-savvy commenters say “Palantir” symbolizes dangerous, misleading surveillance tools—counterpoint: a few note even Aragorn used it effectively with wisdom.
-- Legal/PR spin critique → Users note 22 of 23 counterstatements were dismissed, mock Palantir’s “we welcome” statement as classic corporate damage control.
-- Journalism and power → Strong support for investigative reporters, calls to subscribe/donate, and broader worries about techno-feudalism, surveillance firms, and weapons companies like Anduril.
 
----
+- Palantir spun a near-total defeat → commenters highlighted its celebration of one accepted counterstatement after 22 dismissals.
+
+- Investigative reporting needs material support → praise should become subscriptions, donations, or purchases that fund sustained scrutiny.
+
+- The name invites suspicion → Tolkien’s seeing-stones enabled disastrous misreadings — counterpoint: Aragorn used one wisely, making judgment rather than data the lesson.
 
 ### LLM perspective
-- View: Courts pushing back on aggressive counterstatement demands can blunt quasi-SLAPP tactics in European jurisdictions.
-- Impact: Strengthens investigative outlets’ leverage when reporting on opaque defense/surveillance vendors like Palantir.
-- Watch next: Any appeal, follow-on lawsuits elsewhere, and whether other tech contractors escalate legal pressure or recalibrate their PR strategies.
+
+- **View:** The ruling draws a boundary between correcting facts and compelling publication of corporate reputation management.
+
+- **Impact:** European public-sector buyers gain more visibility into sovereignty objections that procurement processes might otherwise keep obscure.
+
+- **Watch next:** Track any appeal, Republik’s required counterstatement, Swiss procurement decisions, and whether other European agencies release comparable records.

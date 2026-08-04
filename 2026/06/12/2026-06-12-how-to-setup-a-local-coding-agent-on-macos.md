@@ -3,18 +3,17 @@
 - Score: 498 | [HN](https://news.ycombinator.com/item?id=48507020) | Link: https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos
 
 ### TL;DR
-Author walks through building a fast, offline coding agent on an M1 Max Mac using llama.cpp with Metal, Unsloth’s Gemma 4 26B Q4 GGUF, and Multi-Token Prediction (MTP). Tuning the speculative draft parameter (`--spec-draft-n-max`) yields ~72 tokens/s vs 58/s baseline, beating equivalent MLX setups on the same hardware. The stack is exposed via an OpenAI-compatible `/v1` endpoint and wired into the Pi terminal agent, including image support; Qwen3.6 35B is tried as a slower but stronger coding alternative.
 
----
+On a 64GB M1 Max, Kyle Howells builds a fully local coding agent with llama.cpp using Metal, Gemma 4 26B-A4B Q4, a Q8 MTP draft model, a multimodal projector, and Pi through an OpenAI-compatible localhost API. MTP raised measured generation from 58.2 to 72.2 tokens/second; Qwen3.6 35B-A3B appeared stronger for coding but ran at 55. HN welcomed a usable private offline stack but cautioned that 128 generated tokens cannot validate speculative-decoding gains and urged longer-context benchmarks, llama.cpp’s built-in tools, or simpler launchers.
 
 ### Comment pulse
-- Benchmarks are too short → 128 generated tokens overstate MTP gains; real tests need long prompts, long contexts, and llama.cpp’s dedicated benchmarking tools.  
-- Setup choices → llama.cpp can fetch Hugging Face models directly with `-hf`/`-hfd`, simplifying the guide’s download steps.  
-- Alternatives and tradeoffs → Others report good results with oMLX, ds4/DeepSeek, or Ollama+opencode—counterpoint: many still find llama.cpp GGUF consistently faster on Mac.
 
----
+- The benchmark is too short → MTP acceptance can be front-loaded, so 128-token outputs may exaggerate gains compared with long coding sessions.
+- Context matters as much as decode speed → realistic tests need 3,000-token prompts and performance measurements near 32K–64K context.
+- Local tooling spans control versus convenience → llama.cpp exposes tuning and direct downloads — counterpoint: oMLX, Ollama, and GUIs simplify onboarding.
 
 ### LLM perspective
-- View: This shows practical, reproducible steps to get near–GPT-4-like coding help fully offline on modern Macs.  
-- Impact: Beneficial for developers sensitive to privacy, latency, or unreliable internet, especially those already using OpenAI-compatible tools.  
-- Watch next: Better MTP tuning tools, richer Mac-focused launchers (LM Studio, oMLX, ds4), and more optimized MLX checkpoints for Gemma/Qwen.
+
+- **View:** Local agents are now usable on high-memory Macs, but model quality and tool reliability outweigh raw tokens per second.
+- **Impact:** Developers gain privacy, offline resilience, and zero marginal inference fees while accepting hardware limits and configuration work.
+- **Watch next:** Compare Gemma and Qwen on repository tasks, tool-call success, long contexts, energy use, and end-to-end completion time.

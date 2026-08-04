@@ -2,15 +2,22 @@
 
 - Score: 253 | [HN](https://news.ycombinator.com/item?id=48502601) | Link: https://blog.osull.com/2026/06/12/ryanair-dark-ux-patterns-summer-2026-refresher/
 
-## TL;DR
-The post walks through Ryanair’s online check‑in as a maze of nine upsell steps for insurance, seats, baggage, and extras, illustrating how the airline still engineers “dark UX” to extract ancillary revenue, even if its worst historical tricks (like burying “Don’t Insure Me” in a country list) are gone. The author suggests timing check‑in to game seat allocation and compares Lufthansa’s more straightforward process. HN commenters debate whether ultra‑cheap fares justify these tactics and share abuse-by-design horror stories.
+### TL;DR
 
-## Comment pulse
-- Ryanair’s worst tricks (e.g., “Don’t Insure Me”) have softened, but flows still weaponize fear, impatience and high penalty fees—counterpoint: some blame inattentive users.  
-- Low fares justify the hassle → fans accept 10 minutes of clicking for £50 tickets; critics dispute the price gap and cite delays and cancellations.  
-- Stories of missed flights, rebooking fees, gate‑info bugs, and scripts to evade legal compensation paint bad UX and support as deliberate revenue levers.  
+Ryanair’s check-in flow makes avoiding extras a nine-stage exercise: decline insurance and paid return check-in, accept random seating through repeated warnings, choose one small bag, dismiss a priority upgrade lacking a No button, then skip fast track, credit, transport, and other offers. The notorious insurance opt-out hidden among countries is an eight-year-old example, but HN commenters said today’s design still monetizes fear, hurry, and mistakes through ancillary fees. Defenders argued this cross-subsidizes cheap fares; critics disputed the savings and described failures involving check-in status, gate information, support, and currency conversion.
 
-## LLM perspective
-- Dark patterns persist because regulators target prices, not UI; airline workflows effectively become contract terms that escape scrutiny.  
-- As ancillary revenue nears a third of income, design, legal, and support teams all get incentivized to maximize friction‑based upsells.  
-- Expect EU/UK action on dark patterns and dynamic currency conversion; randomized UX audits could mirror existing financial conduct supervision.
+### Comment pulse
+
+- The business model depends on ancillary revenue → one commenter cited roughly one-third of revenue, framing friction as deliberate monetization rather than accidental design debt.
+
+- Low fares may justify vigilance → some travelers value access over convenience — counterpoint: commenters found rival routes similarly priced with fewer risks.
+
+- Failure penalties extend beyond upsells → unclear check-in completion, wrong gates, inaccessible routes, outsourced support, and dynamic currency conversion can turn cheap trips expensive.
+
+### LLM perspective
+
+- **View:** Dark patterns persist when each choice is technically available but the cumulative journey exhausts attention and amplifies anxiety.
+
+- **Impact:** Price-sensitive travelers bear cognitive and financial risk, while careful users receive discounts partly funded by others’ mistakes and urgency.
+
+- **Watch next:** Measure acceptance, abandonment, complaints, missed-flight causes, and whether regulators mandate equal decline options and transparent currency pricing.

@@ -2,15 +2,18 @@
 
 - Score: 321 | [HN](https://news.ycombinator.com/item?id=48506659) | Link: https://piwodlaiwo.github.io/pirates/
 
-## TL;DR
-A minimalist browser game recreates the cannon duels from Sid Meier’s Pirates: you pick ship size, AI difficulty, then circle and trade broadsides using simple keyboard controls. Players like the nostalgic feel but say combat is too easy or unbalanced, and ask for wind, sailing physics, chain shot, and campaign elements. Others forked in multiplayer and obstacles, or shared similar pirate titles and AI‑assisted hobby projects, sparking interest in a recurring thread for small, experiment‑driven games.
+### TL;DR
 
-## Comment pulse
-- Captures Sid Meier’s Pirates duel feel → commenters praise nostalgia but miss wind, sailing dynamics, chain shot, and broader Caribbean exploration and crew-management layers.
-- Balance feels off → small ships can kite; large ships can tank in circles; suggestions include wind‑limited strafing, variable cannon elevation, bow/stern damage, choosing opponents.
-- Community hacking begins → forks add 10‑player multiplayer, islands and mobile controls; others share themed experiments and AI‑coded game showcase threads.
+This browser demo reduces Sid Meier’s Pirates-inspired combat to quick one-on-one duels: choose small, medium, or large ships with trade-offs in guns, speed, and health, select an opponent and difficulty, then steer and fire. HN enjoyed its immediate nostalgic feel, but players uncovered repeatable winning tactics across every hull size and wanted more tactical depth. One commenter rapidly remixed it with multiplayer, sinking islands, and mobile controls. Others said combat alone misses the original’s enduring appeal: Caribbean exploration, historical change, and crew management.
 
-## LLM perspective
-- View: Nice example of focused micro‑game design: isolate one mechanic, ship duels, to quickly test balance and AI ideas.
-- Impact: Accessible code and simple rules invite forks, making it a learning sandbox for physics, tactics, and multiplayer networking experiments.
-- Watch next: Worth tracking additions like wind, campaign meta‑game, or open‑sourcing AI logic to compare human vs generated design iterations.
+### Comment pulse
+
+- Balance is exploitable → players won by strafing, circling, or tanking hits — counterpoint: they disagreed sharply about which hull was easiest.
+- Wind would deepen tactics → direction-sensitive speed could punish instant turns and make positioning matter beyond the simple speed-health trade-off.
+- Historical ammunition and damage could add texture → commenters proposed chain shot, randomized cannon elevation, and stronger bow or stern hits.
+
+### LLM perspective
+
+- **View:** The prototype’s compact rules expose balance problems quickly, making it a useful sandbox for iterative game-design experiments.
+- **Impact:** Community forks can test isolated mechanics before the creator commits to a larger campaign or simulation.
+- **Watch next:** Track win rates by hull and difficulty; current anecdotes conflict over which strategy dominates.

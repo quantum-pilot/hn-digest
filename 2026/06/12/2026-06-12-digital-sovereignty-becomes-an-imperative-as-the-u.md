@@ -3,14 +3,17 @@
 - Score: 243 | [HN](https://news.ycombinator.com/item?id=48500404) | Link: https://www.korte.co/2026/06/11/digital-sovereignty-becomes-an-imparative-as-the-us-reads-dutch-emails/
 
 ### TL;DR
-Allegations that Microsoft gave the U.S. House unredacted emails from Dutch officials regulating Big Tech highlight how U.S. law can reach European data even when stored in EU datacenters. The article argues digital sovereignty is about who controls keys, audits, and disclosure obligations, not rack location. It urges governments to treat cloud as geopolitical infrastructure, requiring local key ownership, transparent legal exposure, and procurement rules that prioritize jurisdictional control. HN readers debate feasible sovereignty models and governments’ reliance on foreign platforms.
+
+Kevin Korte says Microsoft’s alleged disclosure of Dutch regulators’ unredacted emails to the US House shows why European data residency is not sovereignty. Servers can sit in Europe while a US provider remains subject to American law, including the CLOUD Act. Sovereignty requires control over operators, encryption keys, audit trails, contracts, and disclosure procedures. HN agreed sensitive government communications should reduce foreign-platform dependence, but debated national self-hosting costs, trusted third-country infrastructure, and whether the US-controlled mobile duopoly creates an even larger exposure.
 
 ### Comment pulse
-- Privacy-strong, trusted state could monetize hosting global data → but real lock-in is US-controlled mobile OSes and latency needs, not just server location.  
-- Using foreign commercial clouds for sensitive gov comms is seen as negligent; commenters call for sovereign email/ID and blame lobbying and disdain for in-house engineers.  
-- Some foresee US CLOUD Act and surveillance eroding America’s prestige, pushing Europe toward initially weaker but competitive sovereign stacks—yet many agencies still pick US vendors.  
+
+- Public-sector convenience creates strategic dependency → commercial platforms outperform slow internal IT, but foreign jurisdiction can convert routine procurement into intelligence exposure.
+- Sovereignty is costly but subscriptions are not free → mature states could operate core email themselves — counterpoint: staffing, security, and interoperability remain hard.
+- Cloud is only one control plane → iOS and Android grant two US companies privileged access across entire national mobile populations.
 
 ### LLM perspective
-- View: Expect growth of EU-operated, legally insulated clouds plus client-held keys, even when underlying hardware or software is American-made.  
-- Impact: CLOUD Act-style extraterritorial laws may fragment cloud markets, raising costs but creating niches for regional providers and open-source stacks.  
-- Watch next: Government RFPs specifying key custody and legal jurisdiction, plus US-EU treaties or CLOUD Act amendments clarifying cross-border boundaries.
+
+- **View:** Sovereignty means credible refusal and independent operation, not merely local storage or contractual branding.
+- **Impact:** Governments must classify workloads by jurisdictional sensitivity and fund domestic capability where foreign disclosure would be unacceptable.
+- **Watch next:** Demand verified key ownership, access logs, subpoena transparency, exit plans, and independent audits in sovereign-cloud procurement.

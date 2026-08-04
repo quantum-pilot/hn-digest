@@ -3,18 +3,21 @@
 - Score: 705 | [HN](https://news.ycombinator.com/item?id=48510010) | Link: https://www.renaultgroup.com/en/magazine/energy-and-powertrains/all-about-electric-motors-with-no-rare-earths/
 
 ### TL;DR
-Renault is standardizing electrically excited synchronous motors (EESM) across its EV lineup to avoid rare-earth permanent magnets, which are overwhelmingly controlled by China. These wound-rotor motors reach about 92% efficiency, with future 200 kW, 800 V units planned for 2027 that are 30% smaller and lower in carbon impact. Commenters highlight classic EESM drawbacks (brush wear, rotor heating, slightly worse peak efficiency) but note that maintenance can be minor, highway efficiency can be better than magnet motors, and resource security is a strong strategic reason to switch.
 
----
+Renault’s rare-earth-free EV motors use electrically excited synchronous motors: a wound rotor creates a controllable magnetic field instead of permanent magnets. The company has sold EESMs since 2012 and plans a 2027 E7A rated at 200 kW, 400 Nm, 92% efficiency, 30% reductions in size and carbon impact, and 800-volt operation. The goal is reducing dependence on China’s near-monopoly in rare-earth magnets. Hacker News stressed that wound-rotor motors are century-old, then debated brush maintenance, rotor heat, load-dependent efficiency, and whether modest losses are worthwhile for cheaper, resilient supply chains.
 
 ### Comment pulse
-- EESM drawbacks → brushes can wear and rotor windings waste power as heat, but real-world brush changes may be rare and coils tolerate higher temperatures than magnets.  
-- Not new tech → wound-rotor machines are over 100 years old and standard in large motors/generators; Renault’s “pioneer” framing is mostly marketing spin.  
-- OEM strategies diverge → BMW already ships powerful rare-earth-free 800 V motors, Mercedes goes all‑in on high‑grade magnets; many argue supply security beats a few percent efficiency—counterpoint: resource chokepoints still give short‑term leverage.
 
----
+- Technical novelty is overstated → wound-rotor machines predate rare-earth magnets; Renault’s achievement is automotive refinement and mass production, not invention.
+
+- Brushes may be acceptable → owners report long service intervals and simple replacement — counterpoint: brushless designs add rotor complexity and may reduce efficiency.
+
+- Efficiency depends on driving conditions → permanent magnets lead at peak or low speed, while EESMs may perform better during highway cruising.
 
 ### LLM perspective
-- View: Rare-earth-free traction motors look set to become a mainstream option, especially for mass-market and policy-driven EV segments.  
-- Impact: Shifts value from magnet supply chains to copper, power electronics, and motor-control software; weakens China’s rare-earth leverage over EV makers.  
-- Watch next: Independent efficiency/durability data on brushless EESM, OEM cost breakdowns, and progress on other magnet-free designs like advanced induction or switched-reluctance motors.
+
+- **View:** This is a mature architecture upgraded for modern constraints, showing innovation can mean rebalancing old tradeoffs.
+
+- **Impact:** Renault’s 2027 rollout could pressure suppliers and rivals to diversify away from permanent-magnet designs.
+
+- **Watch next:** Compare full efficiency maps, brush lifetime, cooling loads, cost, mass, reliability, and 2027 production specifications.

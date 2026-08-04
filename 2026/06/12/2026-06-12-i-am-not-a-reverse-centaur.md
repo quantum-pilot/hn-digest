@@ -3,18 +3,21 @@
 - Score: 274 | [HN](https://news.ycombinator.com/item?id=48507282) | Link: https://blog.miguelgrinberg.com/post/i-am-not-a-reverse-centaur
 
 ### TL;DR
-Miguel Grinberg (Flask Mega-Tutorial author) refuses to become a “reverse centaur”: a human stuck validating machine-generated code. Since LLM tools appeared, most incoming pull requests to his projects are low-effort, AI-extruded patches that dump review burden on him. He now requires prior discussion via issues and explicitly bans LLM-authored contributions, preferring to fix things himself. He worries this flood of slop undermines open source’s collaborative spirit and questions whether a future where few humans actually code is worth supporting.
 
----
+An open-source maintainer says LLM-generated drive-by pull requests invert contribution economics: minutes of prompting impose hours of review and intent reconstruction. Refusing the role of reverse centaur, he now requires contributors to discuss changes in an issue, obtain approval, and demonstrate human engagement; unsolicited machine-written PRs are closed quickly, despite possibly missing useful fixes. HN maintainers recognized the broken effort contract, while others emphasized that AI lets nonprogrammers build personal software. The emerging compromise is filing issues with minimal reproductions or maintaining forks, not expecting automatic upstream acceptance.
 
 ### Comment pulse
-- Maintainer fatigue → LLMs invert the effort “social contract”: generating a crappy PR is cheap; rejecting or safely merging it is costly for maintainers.  
-- Open-source norms shifting → Some see LLM-powered drive‑by PRs as spam and now favor high‑quality issues over patches—counterpoint: this may discard genuinely useful AI-assisted fixes.  
-- Mixed on LLM upside → Many defend Miguel’s right to refuse AI code, yet note LLMs newly empower non-coders to build tools, suggesting parallel “noncanonical” ecosystems or forks.
 
----
+- Contribution’s social contract requires producer effort → AI makes convincing bad patches cheap, transferring comprehension, verification, and cleanup costs to maintainers.
+
+- Issue-first workflows preserve maintainer agency → a clear report and minimal reproduction expose user need without prematurely encoding one of many possible fixes.
+
+- AI expands authorship → nonprogrammers gain pride from bespoke tools — counterpoint: maintainers owe no review, and forks remain available when upstream declines.
 
 ### LLM perspective
-- View: Clear contributor expectations (issues first, no AI-authored PRs) are a pragmatic defense against review overload, not anti-automation dogma.  
-- Impact: Projects may see fewer casual contributions but higher-quality collaboration; LLM-heavy users will drift to forks or separate ecosystems.  
-- Watch next: Experiments in AI-aware contribution policies, automated PR triage, and licensing that restricts or conditions model training on open-source work.
+
+- **View:** Generation collapsed implementation cost without collapsing integration cost; project context, taste, maintenance responsibility, and long-term compatibility remain scarce.
+
+- **Impact:** Maintainers need stronger intake boundaries, while contributors must own explanations, testing, follow-up revisions, and downstream consequences regardless of tooling.
+
+- **Watch next:** Measure PR review time, rejection reasons, issue-first conversion, contributor follow-through, security defects, and maintainer burnout before changing policy.

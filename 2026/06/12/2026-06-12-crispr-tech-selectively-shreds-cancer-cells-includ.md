@@ -2,15 +2,22 @@
 
 - Score: 989 | [HN](https://news.ycombinator.com/item?id=48505231) | Link: https://innovativegenomics.org/news/crispr-technique-selectively-shreds-cancer-cells/
 
-## TL;DR
-- Researchers at the Innovative Genomics Institute engineered a CRISPR-Cas12a2 system that recognizes RNA from mutant p53, then “shreds” chromatin, killing only cancer cells carrying that mutation while sparing healthy cells differing by a single nucleotide. Because p53 is altered in roughly half of cancers, and the guide is easily reprogrammable, the platform could target many “undruggable” tumors. Hacker News discussion is cautiously optimistic, stressing delivery and resistance challenges, cancer’s diversity, and CRISPR’s gap between huge lab impact and modest clinical track record.
+### TL;DR
 
-## Comment pulse
-- Cancer progress has been slower than headlines suggest; cures exist for a few types, but most gains are prevention, early detection, and incremental survival improvements.  
-- Using Cas12a2 to shred chromatin is more lethal than Cas9-based ideas, but tumors may evolve delivery resistance or mutate target transcripts.  
-- Some call CRISPR clinically overhyped versus viral vectors; others stress its transformative research role and see Cas12a2 as promising for “undruggable” conditions.
+Researchers engineered CRISPR-Cas12a2 to detect RNA from mutant p53, then shred all chromatin inside that cell, killing it while leaving nearly identical healthy cells almost unharmed in mixed mammalian cultures. Because p53 mutations occur in roughly half of cancers—and 70–90% of some ovarian, pancreatic, and non-small-cell lung cancers—the programmable guide could address otherwise undruggable targets. This remains an in-vitro result: efficient delivery across tumors is unresolved. Hacker News welcomed the precision but emphasized cancer heterogeneity, likely resistance, and CRISPR’s large gap between laboratory usefulness and approved therapies.
 
-## LLM perspective
-- View: Programmable cell-ablation platforms like Cas12a2 could complement, not replace, existing modalities such as CAR-T, small molecules, and radiotherapy.  
-- Impact: If delivery and safety hold in vivo, mutation-rich tumors like pancreatic and ovarian cancer could see meaningful survival extensions.  
-- Watch next: Key milestones: animal efficacy studies, multiplexed guides against multiple mutations, systemic delivery, plus assays for collateral damage in healthy tissues.
+### Comment pulse
+
+- Cell-culture success is early evidence → commenters warned that cancer comprises thousands of genetically distinct diseases, so broad cure claims are premature.
+
+- Resistance is expected → tumors could alter target RNA, nanoparticle uptake, or intracellular processing, allowing pre-existing resistant cells to dominate.
+
+- CRISPR’s reputation split opinion → critics cited one approved therapy — counterpoint: researchers said its laboratory impact is already foundational.
+
+### LLM perspective
+
+- **View:** Cas12a2 changes the therapeutic objective from repairing mutations to using them as cell-specific kill switches.
+
+- **Impact:** Programmable guides could shorten target design, but delivery may dominate cost, safety, and efficacy.
+
+- **Watch next:** Test animal tumors, off-target killing, biodistribution, immune reactions, escape mutations, repeat dosing, and combination regimens.

@@ -3,18 +3,21 @@
 - Score: 299 | [HN](https://news.ycombinator.com/item?id=48500447) | Link: https://discourse.ifin.network/t/400-aur-packages-compromised-with-infostealer-and-rootkit/577
 
 ### TL;DR
-A malicious actor impersonated a trusted Arch User Repository (AUR) maintainer, adopted >400 orphaned packages, and injected pre-install steps that pulled an infostealer plus an eBPF-based rootkit via npm (`atomic-lockfile`) and later Bun (`js-digest`). Arch maintainers believe all malicious commits are now reverted and are tightening rules around package adoption. Users are urged to check for affected packages, rotate credentials, and consider full reinstalls if compromised. Discussion centers on AUR’s trust model, orphaned package adoption, and realistic security expectations for users.
 
----
+An attacker spoofed a trusted AUR maintainer, adopted more than 408 orphaned packages, and inserted preinstall scripts that fetched malicious NPM and Bun dependencies carrying an infostealer and eBPF rootkit. Arch maintainers believed all known malicious commits were removed by 17:30 UTC on June 12, but exposed systems may require credential rotation and reinstallation because rootkit presence destroys trust. Hacker News debated whether users should audit every PKGBUILD, arguing dependency chains make that unrealistic, and favored tighter adoption controls, ownership-change warnings, revocation data, and faster incident notices.
 
 ### Comment pulse
-- AUR is inherently untrusted user PKGBUILDs → users “must” review every PKGBUILD and update—counterpoint: this is unrealistic and doesn’t cover deep dependency chains.  
-- Orphaned-package adoption is the main weak point → anyone can take over abandoned packages; proposals: disallow adoption, force new submissions, purge stale orphans, or loudly flag ownership changes.  
-- Communication/UX criticized → some want front-page banners and AUR disruption; others argue AUR always warns it’s unsafe and maintainers can’t track installs or police helpers.
 
----
+- Manual review is necessary but insufficient → PKGBUILDs expose obvious changes, while nested dependency payloads make complete human auditing impractical.
+
+- Orphan adoption is the key weakness → attackers inherit package history and reputation; commenters proposed new submissions, aging purges, or ownership-change alerts.
+
+- Incident communication split opinion → users wanted immediate blocking and warnings — counterpoint: AUR is volunteer-run Git infrastructure without install tracking.
 
 ### LLM perspective
-- View: This is a textbook open-source supply-chain attack exploiting weak ownership controls and transitive dependency trust.  
-- Impact: Arch/AUR users now, but the pattern threatens all ecosystems built on volunteer-maintained, auto-updated packages.  
-- Watch next: Stronger adoption policies, ownership-change alerts in helpers, dependency provenance/signing tools, and automated scanning for install-time network activity.
+
+- **View:** The failure is a trust-transition problem: reputation survived package ownership changes that should have reset scrutiny.
+
+- **Impact:** Other registries face similar economics when low-friction publishing meets opaque transitive dependencies.
+
+- **Watch next:** Verify the final package list, control changes, downstream dependency removals, forensic indicators, and confirmed victim count.
