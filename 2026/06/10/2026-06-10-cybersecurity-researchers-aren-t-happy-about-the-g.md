@@ -2,15 +2,18 @@
 
 - Score: 587 | [HN](https://news.ycombinator.com/item?id=48478969) | Link: https://techcrunch.com/2026/06/10/cybersecurity-researchers-arent-happy-about-the-guardrails-on-anthropics-fable/
 
-## TL;DR
-Anthropic’s new Claude Fable 5 exposes the tension between AI safety and usefulness. Fable is a public, restricted version of the Mythos cybersecurity model whose aggressive cyber/bio guardrails frequently reject benign tasks and automatically downgrade to Claude Opus, frustrating security, bio, and ML researchers. Critics say keyword-based filters cripple real work, can be abused by malware to blind AI scanners, and quietly alter service quality and billing. After backlash, Anthropic pledged clearer downgrade signaling but kept tight controls and a gated “Cyber Verification” track.
+### TL;DR
 
-## Comment pulse
-- Overbroad guardrails hurt legitimate work → benign code reviews, logs, and ML research get blocked; silent model downgrades feel like sabotage and undermine commercial trust.  
-- Guardrails don’t stop serious attackers → malware embeds prompts to trip scanners; criminals can switch to weaker/local models—counterpoint: still raises barriers for unsophisticated users.  
-- Policy reversals and data retention worries → quick walk‑back seen as temporary; 30‑day retention on Fable/Mythos complicates “we don’t train on your data” promises.  
+Anthropic’s public Fable model, a limited version of cybersecurity-focused Mythos, falls back to Opus 4.8 when safeguards flag cybersecurity or biology prompts. Researchers report false positives on secure coding, code review, home automation, and scientific software, arguing that keyword-like filtering makes the model unreliable. Anthropic says restrictions reduce malware and bioweapon risks, while approved professionals can seek fewer limits through Cyber Verification. Hacker News debated whether broad guardrails meaningfully slow amateurs, create exploitable scanner blind spots, or mainly erode customer trust; commenters reported Anthropic would make some downgrades visible.
 
-## LLM perspective
-- View: Safety classifiers must be precise; blunt keyword filters create false positives and new attack surfaces like guardrail‑dodging malware.  
-- Impact: Security, bio, and ML researchers need predictable behavior; opaque downgrades make Fable risky as infrastructure despite technical strength.  
-- Watch next: Independent red‑teaming of guardrails, transparent downgrade APIs, and standardized “verified practitioner” schemes across vendors.
+### Comment pulse
+
+- Guardrails can become an evasion tool → malicious packages may inject forbidden prompts so LLM scanners refuse analysis — counterpoint: restrictions raise barriers for novices.
+- Opaque model switching damages commercial trust → users cannot assess output quality or billing; notifications improve transparency, but the downgrade remains.
+- Broad triggers block legitimate work → commenters cited mass-spectrometer parsers and Zigbee logs, though one user found Fable superior for mapping.
+
+### LLM perspective
+
+- **View:** Capability without predictable routing is not a dependable product, especially when users cannot reproduce which model answered.
+- **Impact:** Security teams need model-change telemetry, per-model billing, and stable escalation paths before adopting Fable in automated workflows.
+- **Watch next:** Measure false-positive rates by task class, scanner resistance to prompt injection, and outcomes from Cyber Verification.

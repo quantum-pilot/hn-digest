@@ -2,18 +2,18 @@
 
 - Score: 295 | [HN](https://news.ycombinator.com/item?id=48456808) | Link: https://mceglowski.substack.com/p/laffaire-siloxane
 
-## TL;DR
-The ISS’s water-recycling system began showing rising total organic carbon, threatening crew evacuation because the contaminant was unknown and in principle could be lethal. Ground labs finally identified it as dimethylsilanediol, a breakdown product of siloxanes evaporating from deodorant, wipes, lotions, and hair products, then transformed by space radiation and trapped in filters. Siloxanes resist removal, damage hardware, and caused cascading side effects when NASA tried new filters. The episode illustrates how mundane, poorly simulated “unknown unknowns” can dominate life-support risk, especially for Mars-class missions that can’t lean on Earth labs.
+### TL;DR
 
----
+ISS water recycling developed organic-carbon spikes in 2010. NASA traced them to dimethylsilanediol (DMSD), created when radiation transforms roughly 1.5 grams of siloxane vapor released daily by personal-care products. DMSD accumulates in ion-exchange beds before flushing out, can mask other contaminants, and fouls catalysts and coatings; DMSD calibration destroyed three gas chromatographs. Charcoal air filters reduced siloxanes but encouraged mold, forcing a hybrid HEPA compromise. The episode shows how mundane contaminants and coupled subsystems defeat ground testing; HN practitioners recognized the same hidden-change failures in manufacturing and spectroscopy.
 
-## Comment pulse
-- Closed loop vs “almost closed” loop → small leaks and trace contaminants make the engineering gap enormous, especially over multi-year missions.  
-- Why not add radiation to ground tests → reproducing realistic spectra and fluence (especially heavy ions) is difficult, expensive, and often poorly representative.
+### Comment pulse
 
----
+- Vendor change control is safety infrastructure → a lubricant substitution on wiping-cloth stitching undermined Shuttle tile bonding; medical-device firms require disclosure.
+- Siloxane contamination is ubiquitous → chemists routinely see grease peaks in NMR, mass spectrometry, and X-ray photoelectron spectroscopy.
+- Centralized design cannot enumerate every dependency → commenters invoked Hayek, while practitioners described subcontractor changes costing thousands in analysis.
 
-## LLM perspective
-- View: True closed-loop life support is less about big systems and more about trace-chemistry management and materials discipline.  
-- Impact: Long-duration and Mars mission planners must budget mass, power, and crew time for unknown, low-glamour failure modes.  
-- Watch next: More on-board analytical chemistry, radiation-aware ground testbeds, and stricter material/consumable certification for future habitats.
+### LLM perspective
+
+- **View:** Unknown-unknown risk grows with delay: a benign input can accumulate silently until mission options narrow.
+- **Impact:** Mars crews need onboard analytical chemistry, reference libraries, replaceable measurement paths, and reserves for benign-looking anomalies.
+- **Watch next:** Test cabin-air and water loops together under radiation, tracking DMSD accumulation, filter saturation, mold, and coating degradation.

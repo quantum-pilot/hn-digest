@@ -3,11 +3,17 @@
 - Score: 432 | [HN](https://news.ycombinator.com/item?id=48479452) | Link: https://github.com/anthropics/claude-code/issues/29045
 
 ### TL;DR
-A Windows user found that Claude Desktop silently launches a full Hyper‑V VM (Vmmem) consuming ~1.8 GB RAM on every app start, even when only using basic chat. Once Cowork/agent mode has been used once and Windows’ VirtualMachinePlatform is enabled, the app keeps triggering vmcompute/vmwp at boot and launch, leaving thousands of stale “session” files and no cleanup. Workarounds are disabling VirtualMachinePlatform (breaking Cowork) or killing VM processes; user asks for true on‑demand VM startup and automatic cleanup.
 
----
+A Windows 11 bug report says Claude Desktop starts a Hyper-V VM using about 1.8 GB of RAM on every launch after Cowork has been used, even for chat-only sessions. The reporter found 2,689 stale session files, recurring invalid-JSON VM errors, and idle memory rising from roughly 50% to 62%; deleting sessions did not stop respawning. Disabling VirtualMachinePlatform prevents it but removes Cowork. HN agreed sandboxing explains the VM, not eager startup, and cited broken macOS permission links on Windows as evidence of rushed cross-platform engineering.
+
+### Comment pulse
+
+- Product design → Commenters wanted Cowork opt-in and sandbox initialization on demand — counterpoint: eager startup may reduce latency for users who invoke agents.
+- Resource control → Users also reported an approximately 10 GB VM bundle, difficult removal, and frustration that applications increasingly deny configuration or deletion.
+- Platform maturity → Windows dialogs opening Apple System Preferences reinforced criticism that fast-changing AI workflows are shipping before desktop integrations receive adequate platform testing.
 
 ### LLM perspective
-- View: This is a classic “always-on infrastructure” bug: backend meant for advanced features runs for everyone, wasting scarce RAM.  
-- Impact: Laptop users and corporate desktops with tight RAM/IT policies may avoid Claude Desktop until VM behavior is fixed.  
-- Watch next: Look for a release note explicitly mentioning lazy-init for Cowork VM, session cleanup, and running cleanly when virtualization is unavailable.
+
+- **View:** Sandboxing local agents is defensible; silently reserving memory and disk before use is a lifecycle-management failure.
+- **Impact:** Users on 16 GB laptops or small SSDs bear disproportionate performance and storage costs.
+- **Watch next:** Verify lazy startup, idle teardown, session cleanup, bundle removal, Windows-native permission routes, and a persistent Cowork disable switch.

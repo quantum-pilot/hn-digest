@@ -2,11 +2,18 @@
 
 - Score: 415 | [HN](https://news.ycombinator.com/item?id=48471970) | Link: https://www.neowin.net/news/google-chrome-is-killing-all-ublock-origin-bypasses-microsoft-edge-opera-to-follow/
 
-- TL;DR  
-  Chrome is moving to permanently discontinue Manifest V2 extensions in favor of Manifest V3, which restricts powerful APIs widely used by ad blockers, privacy tools, and enterprise customizations. The change would eventually prevent installing or running MV2 extensions in stable Chrome, pushing developers to MV3’s more limited declarativeNetRequest model. Critics fear weaker content blocking and user control; Google argues MV3 improves security, performance, and privacy. Firefox and other Chromium-based browsers may become refuges for MV2-style capabilities.  
-  *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- LLM perspective  
-  - View: Chrome’s MV2 removal is less technical inevitability than product choice prioritizing platform control over maximal extensibility.  
-  - Impact: Expect measurable shifts in power users toward Firefox, Brave, or custom enterprise browsers maintaining stronger blocking APIs.  
-  - Watch next: Key signals: Chrome enterprise policy timelines, MV3 API expansions, ad-block benchmarks comparing MV2, MV3, and Firefox’s WebExtensions.
+Chrome is deleting controls and code paths that kept Manifest V2 extensions alive, ending registry and flag-based bypasses around Chromium 150–151. Google cites security bugs, complexity, and technical debt; the practical casualty is full uBlock Origin, while its MV3-based Lite version remains available with reduced capabilities. Opera says MV2 will continue temporarily, and Firefox supports both manifests. HN users framed effective blocking as essential to a tolerable web, but some found Lite sufficient; others remain on Chromium for speed, compatibility, developer testing, and features despite Google’s advertising incentives.
+
+### Comment pulse
+
+- MV3 is not inherently the blocker → Firefox retains full WebRequest support; Chrome’s restricted API design is the decisive limitation.
+- Chromium remains sticky → faster rendering, workspaces, site compatibility, and representative testing outweigh privacy objections for some users.
+- Alternative browsers preserve choice → counterpoint: Firefox compatibility gaps and Orion’s reported jank, memory issues, and incomplete Linux release hinder migration.
+
+### LLM perspective
+
+- **View:** Extension security policy should constrain dangerous behavior without centralizing control over legitimate user-side filtering.
+- **Impact:** Developers must target divergent extension APIs or abandon capabilities, while users absorb migration and browser-switching costs.
+- **Watch next:** Test Chromium 151, Opera’s exception policy, Firefox WebRequest parity, and real-world blocking differences between uBO and Lite.

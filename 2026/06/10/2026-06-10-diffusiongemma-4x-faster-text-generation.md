@@ -3,14 +3,17 @@
 - Score: 327 | [HN](https://news.ycombinator.com/item?id=48478471) | Link: https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/
 
 ### TL;DR
-DiffusionGemma is Google’s new 26B-parameter open diffusion-style text model that generates 256-token blocks in parallel instead of stepwise tokens. By shifting work from memory bandwidth to compute, it reaches roughly 4x higher throughput on suitable GPUs while activating only 3.8B parameters, enabling responsive, local workflows like code infill and in-line editing. Quality trails standard Gemma 4, so it targets speed-critical experimentation. HN discussion centers on coding “flow,” edge-device tradeoffs, and Google’s focus on efficiency per dollar over frontier IQ.
+
+Google’s Apache-2.0 DiffusionGemma is a 26B mixture-of-experts model activating 3.8B parameters and refining 256-token blocks in parallel instead of decoding left to right. Google reports up to 4× faster output—over 1,000 tokens/s on H100 and 700 on RTX 5090—with quantized weights fitting 18GB VRAM. Quality trails Gemma 4, and gains favor low-concurrency GPUs; they may fade in high-throughput serving and on Apple Silicon. HN valued latency-driven coding flow but debated whether edge devices have enough compute and power to justify diffusion’s extra work.
 
 ### Comment pulse
-- Speed for “flow” coding → Devs love ultra-fast, “good-enough” models (Mercury, Flash Lite) that feel like pair-programming and enable many rapid, cheap iterations.
-- Diffusion on edge → Parallel generation trades memory bandwidth for compute to better use GPUs—counterpoint: many edge devices are compute/thermal limited, so benefits may narrow.
-- Strategy and economics → Google seen optimizing cost and edge hardware, while cheaper models like DeepSeek pressure high-priced frontier APIs and question long-term subsidy economics.
+
+- Latency changes the workflow → fast, weaker models keep developers in an interactive code-run-debug loop instead of an asynchronous prompt-and-wait cycle.
+- Parallel decoding shifts bottlenecks → it better uses memory-starved accelerators — counterpoint: edge compute, thermals, power, and lower quality may erase gains.
+- Speed needs task-aware evaluation → cheap tests and complexity metrics can let rapid models outperform stronger models on bounded work.
 
 ### LLM perspective
-- View: Text diffusion is poised to power IDEs, notebooks, and other latency-sensitive interactive tools where sub-second updates matter.
-- Impact: Makes strong local-first assistants viable on single GPUs but won’t displace top autoregressive models for hard reasoning or long context.
-- Watch next: Independent benchmarks vs Mercury/DeepSeek, behavior on Apple Silicon, and whether mainstream dev tools adopt diffusion backends for completion/refactoring.
+
+- **View:** Diffusion is most compelling where latency dominates and workloads cannot batch enough autoregressive requests to saturate hardware.
+- **Impact:** Local developers gain a permissively licensed option for editing, infilling, structured generation, and rapid iteration on consumer GPUs.
+- **Watch next:** Benchmark quality-adjusted latency, energy per accepted output, long-context behavior, and performance beyond NVIDIA’s optimized kernels.

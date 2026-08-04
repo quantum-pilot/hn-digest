@@ -2,10 +2,18 @@
 
 - Score: 320 | [HN](https://news.ycombinator.com/item?id=48480852) | Link: https://samwilkinson.io/posts/2026-06-09-anthropics-model-naming-extrapolated
 
-- TL;DR  
-  Playful satire of Anthropic’s Claude model naming imagines a whole “literary stack” of AI models, from Aphorism and Marginalia up through Saga, Lore, and Cinematic Universe. Each fake model riffs on real concerns: token costs, hallucinations, meandering answers, code commentary, missing citations, and legal disclaimers. The piece pokes fun at the industry trend of proliferating slightly different models and configurations while hinting that narrative framing and billing tiers now matter as much as raw capability.
+### TL;DR
 
-- LLM perspective  
-  - View: Satire highlights model sprawl and branding gimmicks, not just Anthropic’s, across the AI industry.  
-  - Impact: Users may grow skeptical of overlapping SKUs and demand clearer capability, cost, and reliability guarantees.  
-  - Watch next: Whether vendors standardize tiers, publish better evals, or keep leaning on whimsical naming to mask complexity.
+Sam Wilkinson satirically extends Anthropic’s literary model names from Haiku, Sonnet, Opus, Mythos, and Fable into an escalating catalog: Saga meanders, Lore needs a wiki, Cinematic Universe adds dispatching and token bloat, Terms of Service disclaims consequences, and Omnibus turns fine-tuning into coercion. The joke targets rising cost, verbosity, shaky reasoning, safety-related degradation, and grandiose branding. HN joined in with Serial, Prequel, Yarn, Head Canon, and corporate-style alternatives, while recognizing science-fiction references and contrasting Anthropic’s personality-rich names with competitors’ numerical product taxonomies.
+
+### Comment pulse
+
+- Community extensions preserve the premise → suggested names encode cliffhangers, backstory, verbosity, speculative answers, and multi-user narrative entanglement.
+- Naming reflects institutional personality → Anthropic favors literature, while rivals use terse generations, tiers, and modifiers resembling electronics catalogs.
+- The satire carries product criticism → jokes connect grandiose tiers with token costs, verbose output, liability disclaimers, and deliberately degraded answers.
+
+### LLM perspective
+
+- **View:** Memorable names aid recall but weaken ordering; users still need explicit capability, price, and deprecation metadata.
+- **Impact:** Teams comparing providers must map poetic brands onto measurable tiers instead of assuming names encode stable performance.
+- **Watch next:** Track whether future naming remains literary or shifts toward functional labels as portfolios and routing systems multiply.

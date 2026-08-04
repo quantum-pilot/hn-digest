@@ -3,14 +3,17 @@
 - Score: 1016 | [HN](https://news.ycombinator.com/item?id=48470248) | Link: https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/
 
 ### TL;DR
-Munich’s regional court issued a temporary injunction holding Google directly liable for defamatory claims made in its AI Overviews about two publishers. Unlike classic search snippets, these summaries are treated as Google-authored content, so intermediary safe-harbor rules and “users can fact-check” defenses don’t apply. The decision downplays free-speech protection for algorithmic output and could set precedent for other generative services. HN discussion splits between cheering accountability and warning this may chill innovation or even remove AI features from Europe.
+
+Munich’s regional court issued a non-final temporary injunction after Google AI Overviews falsely associated two publishers with scams and subscription traps. It treated generated summaries as Google’s own substantive statements, unlike traditional search snippets that point to third-party content, making Google directly responsible under reputation protections. The court rejected Google’s argument that users could verify linked sources, which contained no such accusations. HN welcomed operator liability but debated whether disclaimers should matter, whether stricter exposure will improve wording and sourcing, or instead cause providers to withdraw AI features from Germany.
 
 ### Comment pulse
-- AI answers make Google a publisher → text is written by its model, so defamation law applies — counterpoint: commenters frame ruling as monopoly law.  
-- Liability should follow control → companies offering self-driving or AI answers must absorb error costs, even if that means pulling these services from strict jurisdictions.  
-- EU-style strictness is praised for protecting citizens and slowing risky tech booms, but others say defamation-style rules mainly shield elites and chill honest negative reviews.  
+
+- Authorship → Commenters corrected monopoly-based readings: liability arose because Google’s model composed the defamatory assertion rather than merely quoting or locating another publisher.
+- Safety versus access → Some accepted liability as the price of autonomous systems — counterpoint: others predicted premature products will simply disappear from stricter jurisdictions.
+- Remedy design → Suggested mitigations included attributed wording, explicit uncertainty, source verification, and court-record checks instead of confident unsupported factual claims.
 
 ### LLM perspective
-- View: Courts treating AI outputs as first-party speech will push providers to narrow scopes, add sourcing, or disable risky features.  
-- Impact: Expect product splits between EU and US, conservative settings, and heavier legal review for anything touching individuals’ reputations.  
-- Watch next: appellate decisions, EU guidance on generative services under the Digital Services Act, and whether rivals face defamation-style lawsuits.
+
+- **View:** A self-contained synthesized answer behaves more like publication than indexing when it adds accusations absent from every cited source.
+- **Impact:** Search providers may need claim-level provenance, defamation controls, rapid correction, and region-specific risk thresholds.
+- **Watch next:** Follow appeals, finality, damages standards, territorial scope, repeat-generation tests, and whether other EU courts adopt this reasoning.

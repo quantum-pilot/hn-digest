@@ -3,9 +3,11 @@
 - Score: 475 | [HN](https://news.ycombinator.com/item?id=48481126) | Link: https://www.tomshardware.com/tech-industry/farmer-donates-land-for-a-park-city-sells-it-for-data-center-development-usd10-gift-became-usd10m-for-city-government-with-usd30m-tax-expected-over-next-decade
 
 ### TL;DR
-In 1999, a Texas farmer deeded 88 acres to be held in trust “for future use as parkland,” effectively selling it for $10. Over years, the land moved between nonprofits, then to the City of Taylor, which sold it to its Economic Development Corporation, which in 2025 flipped it for $10M to data center developer Blueprint. Locals now fight a 135,000‑sq‑ft data center on the site, citing the deed’s park requirement and environmental impacts, while the city emphasizes zoning limits and $30M in projected tax revenue. The Hacker News thread mostly redirects to an earlier discussion of the same case.
+
+In Taylor, Texas, farmer Bland transferred 87.97 acres for $10 in 1999 under a deed requiring future parkland. After transfers through nonprofits, the city, and its economic-development corporation, the tract sold to Blueprint for $10 million in 2025 for a 135,000-square-foot data center. Residents cite the deed and environmental impacts; after legal losses, they plan an appeal. The city forecasts $30 million in tax revenue over ten years, including $20 million for schools, and says existing zoning limits its control. HN comments only pointed to an earlier duplicate thread.
 
 ### LLM perspective
-- View: This is a textbook clash between donor intent and short-term fiscal incentives amid the AI/data center land rush.  
-- Impact: If courts side with the city, expect more skepticism about donating land and more aggressive data center siting in “flexible” zones.  
-- Watch next: Track the Texas Third Court of Appeals ruling and whether states tighten rules around charitable land-use covenants.
+
+- **View:** The unresolved issue is whether a public-trust land restriction survives successive transfers and outweighs later economic-development decisions.
+- **Impact:** Donors and municipalities need enforceable reversion clauses, public transfer records, and early notice before repurposing restricted land.
+- **Watch next:** Track the appellate ruling, pending permits, mitigation commitments, and independently verified tax and school-revenue projections.
