@@ -2,17 +2,22 @@
 
 - Score: 173 | [HN](https://news.ycombinator.com/item?id=48632652) | Link: https://gizmodo.com/mexico-just-showed-off-a-new-extremely-cheap-government-backed-ev-2000769080
 
-- TL;DR  
-Mexico has unveiled the Olinia One, an ultra-cheap, locally designed electric city vehicle positioned between a car and a tuk-tuk: low speed, ~125 km range, wheelchair-capable, and aimed at replacing motorcycles and informal transport rather than highway cars. Commenters contrast Mexico’s EV strategy—supporting domestic production while welcoming untariffed imports—with US protectionism and SUV-centric policies, debate tariffs and subsidies, and note that what looks unusable by American standards may be highly practical for dense Mexican cities.  
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+Mexico unveiled the Olinia Uno, a government-backed, six-passenger urban EV planned for next summer at about 150,000 pesos ($8,500). The prototype targets 125 kilometers of range, 50 km/h, wheelchair access, and charging from household outlets; 2,000 public chargers are planned. Domestic content is 50%, with 75% targeted by 2030 under Plan México’s manufacturing push. HN discussion emphasized that it is closer to a motorcycle or tuk-tuk replacement than a U.S.-style car, while debating tariffs, range, and industrial policy.
 
-- Comment pulse  
-  - Cheap Mexican/Chinese EVs expose US policy gap → commenters debate tariffs, subsidies, and time-limited protectionism; cite chicken tax and SUV boom as cautionary tale.  
-  - Vehicle target market differs → 77-mile, 50 km/h city EV seen as cheap upgrade from motorcycles/tuktuks in Mexico, but unusable for typical US commuting.  
-  - Mexico’s EV policy framed as pragmatic → simultaneously nurtures domestic makers and allows untariffed imports, unlike US’s protectionist tilt—counterpoint: development still risks reproducing monopolistic structures.  
+### Comment pulse
 
-- LLM perspective  
-  - View: Different transport realities demand different EV designs; exporting US expectations onto Mexican urban mobility obscures the project’s actual goals.  
-  - Impact: If successful, ultra-cheap city EVs could reshape Latin American safety, emissions, and accessibility more than premium long-range models.  
-  - Watch next: Real-world durability, financing options for low-income buyers, and whether similar micro-EV categories emerge in other developing markets.
+- Mexican use cases differ from American expectations → urban speeds and motorcycle displacement make 77-mile range practical; highway-oriented buyers would reject it.
+
+- Affordable domestic EVs need competition, not permanent shelter → commenters favored Mexico’s mix of local manufacturing and untariffed imports — counterpoint: imports can hollow industry.
+
+- Accessibility changes the value proposition → a new wheelchair-capable city vehicle below many used-car prices could serve needs ignored by conventional automakers.
+
+### LLM perspective
+
+- **View:** Judging a purpose-built city vehicle by interstate range obscures its real competition: scooters, motorcycles, tuk-tuks, and older used cars.
+
+- **Impact:** If production meets price and localization targets, Olinia could widen mobility while building Mexican component and assembly capacity.
+
+- **Watch next:** Track certification, production volumes, final pricing, crash safety, real-world range, charger rollout, and progress toward 75% domestic content.

@@ -3,18 +3,17 @@
 - Score: 1090 | [HN](https://news.ycombinator.com/item?id=48632884) | Link: https://store.steampowered.com/news/group/45479024/view/685257114654870245
 
 ### TL;DR
-Valve’s new living‑room “Steam Machine” launches with a randomized reservation queue designed to blunt bots, scalpers, and launch‑day DDoS spikes. The box is a small x86 PC running SteamOS, explicitly marketed as user‑controllable: you can install other OSes and apps, making it closer to a prebuilt gaming PC than a traditional locked‑down console. HN debates whether that openness is truly special, whether Linux gaming is mature enough, and if pricing can lure console players rather than just PC enthusiasts.
 
----
+Valve’s Steam Machine launch drew praise less for raw hardware than for distribution and ownership choices. Reservations stay open for several days and are randomized, reducing advantages for bots, low-latency buyers, and people available at one instant; the design also avoids a launch-time traffic spike. Valve explicitly permits installing other applications or operating systems on the x86 PC. HN welcomed the Linux-gaming signal and consumer control, but questioned whether openness distinguishes commodity PC hardware, whether the price can attract console buyers, and why purchasing remains unavailable in some regions.
 
 ### Comment pulse
-- Randomized reservations praised as anti‑scalper and anti‑DDoS; some suggest Dutch auctions or tiered pricing instead—counterpoint: region locks still block many legitimate buyers.  
-- Openness to other OSes and apps seen as philosophically important and great for VR/“frame” use—counterpoint: it’s just a regular x86 PC, nothing uniquely consumer‑friendly.  
-- Pricing looks high versus consoles; commenters expect main buyers to be console‑to‑PC converts wanting turnkey hardware, with success hinging on optimization and compatibility.
 
----
+- Random allocation curbs scalping → verified-account lotteries dilute bot fleets among legitimate demand and remove incentives for split-second checkout or repeated refreshes.
+- A user-controlled PC earns goodwill → buyers can replace SteamOS and install arbitrary software — counterpoint: critics say every ordinary x86 PC already permits this.
+- Linux viability remains workload-dependent → gaming migrations succeed broadly, while kernel anti-cheat, DAWs, and proprietary sample libraries still force Windows or macOS fallbacks.
 
 ### LLM perspective
-- View: This extends the Steam Deck strategy to the TV, betting on Linux plus convenience over raw price competitiveness.  
-- Impact: Pressure on console vendors’ closed ecosystems; modest boost to Linux gaming and anti‑cheat support if units sell.  
-- Watch next: Independent performance benchmarks, anti‑cheat/Linux support progress, and whether Valve iterates hardware like a console generation.
+
+- **View:** Valve sells an appliance experience around commodity parts; openness matters because console-like convenience usually arrives with platform control.
+- **Impact:** Console converts gain a managed route into PC gaming; Linux developers gain a standardized target and stronger commercial demand.
+- **Watch next:** Track reservation fulfillment, regional rollout, scalper share, price-to-performance, game compatibility, and six-month optimization gains against equivalent self-built PCs.

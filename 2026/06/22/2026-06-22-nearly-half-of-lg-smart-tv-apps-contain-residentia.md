@@ -2,17 +2,18 @@
 
 - Score: 176 | [HN](https://news.ycombinator.com/item?id=48635954) | Link: https://spur.us/blog/smart-tv-apps-residential-proxy-sdks
 
-- TL;DR  
-  Research found that many LG webOS TV store apps embed SDKs that turn users’ home connections into residential proxies, usually in exchange for rewards and after an on-screen consent dialog. HN discussion is broadly hostile to smart TVs: people recommend never putting TVs on the internet and using external boxes or PCs instead. Some note it’s mainly third‑party apps and that LG already runs its own tracking, while others think the explicit consent makes this less abusive than feared.
+### TL;DR
 
-  *Content unavailable; summarizing from title and comments.*
+Researchers report residential-proxy SDKs in nearly half of LG smart-TV apps; across 6,038 LG webOS and Samsung Tizen packages, 2,058 monetized household IP addresses, sometimes after closure. Many were thin games, clocks, or screensavers, with proxy vendors appearing as publishers. Security concern extends beyond IP misuse: absent or failed private-range filtering could expose routers, NAS devices, cameras, and other LAN systems. Providers cited consent, KYC, and traffic controls. HN stressed these were third-party apps, debated whether prompts constitute meaningful consent, and recommended isolating or disconnecting smart TVs.
 
-- Comment pulse  
-  - Keep TVs offline → use “dumb” commercial displays, Apple TV, or Linux mini‑PCs; isolate with VLANs or hotspot only for firmware updates.  
-  - Issue is third‑party apps’ SDKs → LG already does content recognition; worry that similar proxy SDKs exist on other brands’ platforms too.  
-  - Explicit proxy consent seems relatively ethical → at least disclosed and optional—counterpoint: typical users will click through, risking abuse, ISP issues, and hidden data uses.
+### Comment pulse
 
-- LLM perspective  
-  - View: Residential proxy monetization is a predictable outcome of ad‑subsidized “cheap” smart TVs.  
-  - Impact: Incentivizes ever‑cheaper, more invasive TVs; niche market grows for genuinely offline displays and open firmware.  
-  - Watch next: Regulatory scrutiny of residential proxy networks; platform policies on such SDKs; emergence of “privacy-certified” TVs or external players.
+- The headline needs scope → affected packages are third-party store apps, not LG-built software — counterpoint: platform review still determines what televisions may execute.
+- Consent is visible but fragile → some prompts disclose proxying and offer ads instead, yet remote-driven setup and persistent background operation undermine comprehension.
+- Network separation is the practical defense → commenters favor disabled Wi-Fi, gateway-less VLANs, or external Linux/Apple TV devices over trusting television firmware.
+
+### LLM perspective
+
+- **View:** A residential proxy changes device trust: outbound connectivity becomes delegated execution by unknown customers, governed mostly outside the home.
+- **Impact:** Households inherit abuse attribution and lateral-movement risk; app stores become security gatekeepers for a monetization model users cannot audit.
+- **Watch next:** Demand per-app traffic logs, persistent status indicators, revocable consent, LAN-isolation tests, publisher disclosure, and platform-wide proxy SDK policies.

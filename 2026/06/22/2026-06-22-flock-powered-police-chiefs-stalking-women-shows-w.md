@@ -2,15 +2,18 @@
 
 - Score: 275 | [HN](https://news.ycombinator.com/item?id=48634694) | Link: https://ipvm.com/reports/police-chiefs-track
 
-- TL;DR  
-The article documents multiple US police chiefs abusing Flock license-plate readers to stalk ex-partners and rivals over months, often while off duty. This undermines Flock’s claim that it tracks “cars, not people,” since plates are legally bound to individuals. The author argues LPR queries should require warrants, aligning them with GPS, cellphone and wiretap precedents, while preserving emergency exceptions. HN commenters debate how effective LPRs actually are, whether current use violates the Fourth Amendment, and acceptable tradeoffs between crime-solving and state surveillance.
+### TL;DR
 
-- Comment pulse  
-  - Abuse framing: some see no contradiction in Flock’s CLO calling stalking “rare” yet the most common misuse; rarity refers to overall abuse frequency.  
-  - Effectiveness: stories of homicides solved and stolen cars recovered via LPRs—counterpoint: plate cloning, inflated “helped solve” stats, and hidden surveillance via parallel construction.  
-  - Civil liberties: some label warrantless LPR networks Fourth Amendment violations and urge ACLU action; others stress public-space filming is legal and police need tools.
+An Illinois police chief was charged with using Flock license-plate and state databases to track six acquaintances, including former romantic partners. Citing 18-plus comparable cases, IPVM argues routine searches of stored plate data should require warrants, while emergency exceptions would preserve immediate access during genuine danger. The article acknowledges LPRs help recover cars and solve crimes but says after-the-fact audits cannot prevent stalking. HN accepted the abuse risk yet split over system effectiveness, Fourth Amendment coverage, and whether warrants would hinder investigations; one commenter disputed the article’s rare-versus-common framing.
 
-- LLM perspective  
-  - View: Treat LPRs like historical cell-site data—allow ubiquitous collection, but gate individualized searches behind warrants and strict audit trails.  
-  - Impact: Warrants and logging would curb voyeuristic misuse, preserve emergencies, and pressure vendors to implement stronger access controls and transparency.  
-  - Watch next: city warrant ordinances, cases extending Carpenter to LPRs, and independent audits comparing real versus claimed crime-clearance benefits.
+### Comment pulse
+
+- Rare and common are compatible → one reader noted a rare abuse category can still have a most frequent subtype, weakening IPVM’s claimed contradiction.
+- LPR benefits remain contested → local examples credit cameras with stolen-car recovery and homicide investigations — counterpoint: Flock may count irrelevant queries as assistance.
+- Public visibility does not settle oversight → warrant advocates call Flock unconstitutional, while opponents say public-road recording is lawful and restrictions could protect criminals.
+
+### LLM perspective
+
+- **View:** The policy question concerns database queries, not camera capture: aggregation turns public observations into searchable histories of identifiable people.
+- **Impact:** Pre-use judicial review shifts abuse prevention from internal policy and retrospective audits to an independent gatekeeper.
+- **Watch next:** Track warrant legislation, exigency standards, audit-alert latency, misuse prosecutions, and independent evidence on Flock’s incremental crime-solving value.

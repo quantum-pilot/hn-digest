@@ -3,14 +3,21 @@
 - Score: 222 | [HN](https://news.ycombinator.com/item?id=48634585) | Link: https://www.cbc.ca/news/politics/federal-nuclear-strategy-9.7244509
 
 ### TL;DR
-Canada’s new federal nuclear strategy aims to build up to 10 reactors in 15 years as part of doubling electricity-grid capacity by 2050. It includes at least two large reactors started by 2035, more projects in planning by 2040, and a Canadian microreactor deployed to a remote community in the late 2030s. Ottawa also wants to expand CANDU exports, double uranium sales, and use reactor deals as long-term geopolitical leverage, though cost (> $100B) and financing remain unresolved and politically contested.
+
+Canada’s federal nuclear strategy targets up to 10 new reactors over 15 years to help double grid capacity by 2050, including two large projects starting by 2035, at least one reactor outside Ontario, and a remote-community microreactor. It also seeks more CANDU export markets, doubled uranium exports, and nuclear employment above 180,000. Officials estimate construction could exceed C$100 billion, but financing remains unspecified. HN commenters broadly supported expansion while questioning the timeline, reactor mix, baseload rationale, and whether standardized projects can control costs.
 
 ### Comment pulse
-- Canada is well-positioned for nuclear expansion → large uranium reserves, CANDU experience, and growing need for firm baseload alongside wind/solar—counterpoint: some question whether more renewables necessarily require more baseload.
-- Standardized “cookie-cutter” builds are vital → repeatable designs like BWRX-300 at Darlington could deliver on time/cost, unlike bespoke projects that have plagued US and European builds.
-- SMRs excite but divide → praised for visible progress and industrial/remote use; critics argue their small capacity won’t meet bulk decarbonization needs without parallel large-reactor programs.
+
+- Standardization determines feasibility → supporters argued cookie-cutter reactors managed as one program could meet timelines; bespoke projects would multiply cost and delay.
+
+- Canada has unusually strong foundations → uranium reserves, CANDU expertise, and active Darlington construction make expansion more credible than announcements alone.
+
+- Nuclear industrial heat could reduce oil-sands production emissions → counterpoint: it leaves combustion emissions and potential stranded infrastructure untouched.
 
 ### LLM perspective
-- View: The plan is ambitious but directionally sound; execution quality, not technology, will determine success.
-- Impact: Provincial utilities, heavy industry, and remote communities gain most; Indigenous and environmental groups gain leverage in regulatory debates.
-- Watch next: Concrete reactor procurement, regulatory streamlining decisions, and export deals with non-Russian-fuel-dependent countries will show if this is strategy or symbolism.
+
+- **View:** The strategy’s ambition is credible only if approvals, financing, workforce growth, and repeatable designs advance together rather than sequentially.
+
+- **Impact:** Utilities and provinces gain long-term capacity options; uranium, reactor, and construction suppliers gain a potential domestic-export pipeline.
+
+- **Watch next:** Track funded projects, regulatory changes, standardized designs, first concrete, cost revisions, and whether any non-Ontario site reaches construction.

@@ -3,18 +3,17 @@
 - Score: 215 | [HN](https://news.ycombinator.com/item?id=48630171) | Link: https://hustvl.github.io/Moebius/
 
 ### TL;DR
-Moebius is a 226M-parameter diffusion model for image inpainting—filling in missing or removed regions of an image—that aims to match ~10B-parameter systems like FLUX.1-Fill-Dev. It restructures attention into compact “Local-λ Mix Interaction” blocks and uses latent-space distillation from a larger teacher to keep quality while slashing compute, reportedly achieving >15× faster inference with similar benchmark scores on Places2, CelebA-HQ, and FFHQ. HN readers are impressed but skeptical about “10B-level” claims, pointing out quality and resolution limits in real use.
 
----
+Moebius is a 226M-parameter specialist for image inpainting—filling masked or missing regions—trained through latent-space distillation from a larger teacher. Its LλMI blocks compress local context and global semantic priors into fixed-size matrices, avoiding quadratic attention costs. The authors report quality matching or exceeding 11.9B-parameter FLUX.1-Fill-Dev across six natural and portrait benchmarks, with under 2% of its parameters and over 15× faster inference. HN welcomed its browser portability but hands-on testing challenged the 10B-level headline and exposed practical deployment limits.
 
 ### Comment pulse
-- Inpainting = removing or filling parts of an image; real-world use hit snags with weird artifacts, strict aspect ratios, and low-resolution training data.  
-- Browser and Hugging Face demos exist, including an ONNX-in-browser port; performance ranges from impressive to slow, with CPU spaces taking ~80 seconds per image.  
-- Claims of parity with 10B models are questioned: users report smoother inpainted regions, trouble with novel objects, and a hard 512×512 limit — counterpoint: benchmarks still show strong results for its size.
 
----
+- Small does not mean tiny delivery → the browser port runs locally through ONNX, yet still requires roughly a 1.3 GB download.
+- Real-world quality remains uneven → testers saw plausible natural-image fills but smoother seams, failed novel objects, 512×512 limits, and unreliable public demos.
+- Preprocessing can dominate production pain → one project encountered incompatible aspect-ratio rules and required resizing across hosts, degrading assets before generation.
 
 ### LLM perspective
-- View: Distilling big diffusion teachers into small, task-specific students looks like a practical path for consumer hardware and web deployment.  
-- Impact: Photo editors, ad-generators, and mobile apps can gain capable inpainting without cloud GPUs or huge downloads.  
-- Watch next: Independent side-by-side tests on higher resolutions, complex objects, and varied aspect ratios to validate “10B-level” performance claims.
+
+- **View:** Parameter efficiency and perceptual quality are separate claims; a compact model can benchmark well while missing user-visible edge cases.
+- **Impact:** Efficient specialists may shift image tooling from remote generalist APIs toward bundled, task-specific editors on consumer and edge hardware.
+- **Watch next:** Require independent, resolution-matched comparisons with masks, sampling steps, hardware, and failure-rate reporting across natural, portrait, and commercial layouts.

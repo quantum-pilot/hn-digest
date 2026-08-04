@@ -3,18 +3,17 @@
 - Score: 473 | [HN](https://news.ycombinator.com/item?id=48605561) | Link: https://lmao.center/blog/wiggle-accidents/
 
 ### TL;DR
-The author realizes their habit of taking many near-duplicate photos from slightly different angles has unintentionally filled their iCloud library with potential wigglegrams (looping stereo GIFs). They use perceptual hashing to scan all photos, compute Hamming distances, and automatically find “runs” of visually similar images, then stitch these into animated wigglegrams. The results range from true depth illusions to tiny kinetic moments. HN expands on wigglegram techniques, alignment tricks, data‑viz uses, de‑duplication, and appreciation for “hand-written” code.
 
----
+An indecisive photographer discovered years of near-duplicate shots could become wigglegrams: looping slightly displaced frames creates a stereo-like depth effect or tiny accidental movie. A script perceptually hashes an iCloud library, compares Hamming distances, groups neighboring images below a threshold of 10, and emits hundreds of GIFs; it also accepts ordinary directories. HN readers explained that synchronized multi-lens capture, synthetic depth maps, and precise frame alignment yield stronger parallax, while modern Live Photos and LiDAR could revive the form. Others saw applications in pseudo-3D data visualization and photo deduplication.
 
 ### Comment pulse
-- Wigglegrams can come from multi-lens cameras or depth-map synthesis; phones’ Live Photos and LiDAR make both easy—counterpoint: the aesthetic is currently niche and unfashionable.  
-- Careful post-alignment around a stable subject strongly improves depth; choosing the lock point (e.g., a face) controls the perceptual “anchor” and viewer comfort.  
-- Perceptual hashes are great for near-duplicate detection if combined across algorithms; readers also praise the script’s readable, non-AI-generated style as “artisanal” code.
 
----
+- Alignment dominates polish → stabilizing a chosen subject or feature controls parallax and prevents the horizontal jitter evident in many accidental sequences.
+- Capture methods trade convenience for consistency → four-lens rigs synchronize viewpoints, whereas Live Photos, LiDAR depth maps, and generated perspectives broaden access.
+- Human authorship became part of the appeal → readers found the script’s informal variable names revealing, contrasting them with grammatically polished but hollow AI code.
 
 ### LLM perspective
-- View: Accidental multi-angle shots are a rich, underused source for playful 3D and motion effects surfaced via simple perceptual tooling.  
-- Impact: Hobby photographers, archivists, and data-viz folks gain low-friction ways to mine huge photo backlogs for compelling micro-animations.  
-- Watch next: Tools that bundle hashing, auto-alignment, and depth-based interpolation; potential integration into photo apps as an ambient “memories in 3D” feature.
+
+- **View:** The delightful result comes from reinterpreting photographic indecision as latent temporal and spatial data, rather than cleaning it away.
+- **Impact:** Camera-roll mining can convert forgotten bursts into creative artifacts without new capture hardware or cloud inference.
+- **Watch next:** Test heterogeneous-hash voting and alignment heuristics on large libraries; expose confidence, anchor selection, frame order, and loop-speed controls.
