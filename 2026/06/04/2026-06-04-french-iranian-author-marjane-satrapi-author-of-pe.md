@@ -2,15 +2,18 @@
 
 - Score: 393 | [HN](https://news.ycombinator.com/item?id=48397233) | Link: https://www.france24.com/en/culture/20260604-french-iranian-author-marjane-satrapi-author-of-persepolis-dies-at-56
 
-- TL;DR  
-  Marjane Satrapi, the French‑Iranian creator of the autobiographical graphic novel and film Persepolis, has died at 56, a year after losing her husband, Swedish filmmaker Mattias Ripa; those close to her say she “died of sadness.” The article recalls her childhood in revolutionary Tehran, exile in Europe, outspoken criticism of Iran’s regime, and her refusal of France’s Légion d’honneur over Iranian dissident visas. HN readers mourn her, praise Persepolis’s unflinching self‑portrait, and discuss grief’s toll on health.
+### TL;DR
 
-- Comment pulse  
-  - Persepolis’s power → early chapters feel universally relatable; the bleak, self‑critical exile chapters expose her flaws and trauma, echoing Maus’s uncomfortable realism.  
-  - Death and grief → commenters see “died of sadness” through the widowhood effect lens, citing elevated mortality after a partner’s death and actuarial rules‑of‑thumb.  
-  - Attitude to life → a long Satrapi quote rejecting health perfectionism inspires readers to value pleasure, love, and small kindnesses—counterpoint: others worry about possible self‑harm.
+French-Iranian graphic novelist Marjane Satrapi, creator of Persepolis, died at 56, a little over a year after her husband Mattias Ripa. Her entourage described the cause only as sadness; the report gives no medical explanation. Satrapi’s autobiographical work portrayed childhood under Iran’s post-1979 theocracy and later exile, and she remained a critic of both Tehran and France’s treatment of Iranian dissidents. HN mourned her, explored why the book’s difficult second half deepens its value, and questioned how literally to read the report’s unusual wording.
 
-- LLM perspective  
-  - View: Satrapi proved comics can carry complex political memory and messy self‑interrogation, not just heroic or simplified oppression narratives.  
-  - Impact: Her death will likely rekindle interest in Iranian autobiographical comics and censorship debates, especially among diasporas and Western readers.  
-  - Watch next: Track translations, reissues, and adaptations of Persepolis, and whether France revisits visa policies for Iranian dissidents Satrapi criticized.
+### Comment pulse
+
+- Persepolis gains force by refusing an idealized victim → exile, depression, self-destruction, and moral imperfections made Satrapi’s account more humane.
+- One memoir cannot represent all pre-revolutionary Iran → Satrapi’s French-school background offered a valuable but socially particular perspective.
+- Bereavement can affect mortality → commenters invoked the widowhood effect — counterpoint: the article supplies no cause beyond an entourage statement.
+
+### LLM perspective
+
+- **View:** Obituaries should distinguish poetic family language from medical causation, especially when ambiguity invites speculation.
+- **Impact:** Readers inherit a candid exile narrative that resists turning trauma survivors into uncomplicated symbols.
+- **Watch next:** Estate announcements on archives, translations, adaptations, and preservation of Satrapi’s visual art.

@@ -2,15 +2,18 @@
 
 - Score: 483 | [HN](https://news.ycombinator.com/item?id=48397028) | Link: https://www.fieggen.com/shoelace/secureknot.htm
 
-## TL;DR
-Ian Fieggen’s site documents Ian’s Secure Shoelace Knot, a symmetrical “double slip” bow using a double wrap for much higher security. Tests show it needs about twice the force to undo compared with standard or Ian knots, making it valuable for round, slippery or athletic laces while still pulling free normally. The tutorial emphasizes correct starting-knot direction to avoid the weak “granny knot.” Hacker News readers report near-elimination of untied shoes, debate secure vs fast Ian knots, discuss lace quality, and even inspired Ian to remove Google ads.
+### TL;DR
 
-## Comment pulse
-- Discovering years of using the granny knot → switching to a balanced knot or Ian’s Secure stops daily retying; some obsess over others’ crooked bows.  
-- Many prefer Ian’s (Fast) Knot → nearly as secure but much quicker; became family default, taught to kids, fails only a few times per year.  
-- Lace material matters → slightly stretchy, grippy laces hold knots well; cheap fashion laces slip — counterpoint: better tying still fixes many “bad lace” complaints.
+Ian Fieggen’s double-slip shoelace knot starts with a balanced left-over-right crossing, forms two loops, wraps each around the other, then passes both through the center in opposite directions. The resulting symmetrical double wrap reportedly needs almost twice the tension to pull undone as a standard knot, making it useful for round, slippery, wet, or high-activity laces. HN users described years of reliable use and praised the wider shoelace site, while debating whether knot topology, lace material, or faster tying deserves priority.
 
-## LLM perspective
-- View: Microscopic improvements like better knots accumulate into meaningful quality-of-life gains, especially for routines repeated thousands of times.  
-- Impact: Standardizing secure, fast knots in kids’ education, sports coaching, and military training could prevent injuries and save real time.  
-- Watch next: Quantitative slip testing across knot types and lace materials, plus simple visual diagnostics, would guide recommendations better than anecdotes alone.
+### Comment pulse
+
+- Crooked loops diagnose the common failure → reversing the starting crossover converts a granny knot into a balanced standard knot.
+- Lace construction matters alongside technique → stretch, friction, and tension can determine whether an otherwise correct knot slips.
+- Security competes with speed → long-term users praised the secure version — counterpoint: Fast Ian Knot fans accept rare failures for quicker tying.
+
+### LLM perspective
+
+- **View:** A tiny everyday technique benefits from engineering clarity: diagrams, failure modes, and comparative testing.
+- **Impact:** Runners and children can reduce retying without permanent double knots or specialized fasteners.
+- **Watch next:** Independent pull-force tests across knot variants, lace materials, moisture levels, and repeated wear.

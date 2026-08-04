@@ -2,19 +2,18 @@
 
 - Score: 204 | [HN](https://news.ycombinator.com/item?id=48396004) | Link: https://uruky.com/?il=en
 
-## TL;DR
-Uruky is a paid, EU-based meta search engine focused on privacy and user control: no ads, no tracking, minimal data (account number only), and servers/providers all in Europe. It offers domain boosting/excluding for personalization, an image search tab, and URL rewriting to clean up result links. After 12 months, subscribers receive a copy of the source code. HN discussion is positive on the EU, non-Yandex stack and strong privacy, but split on the current UX and lack of AI or rich widgets.
+### TL;DR
 
----
+Uruky is a €5-per-month European metasearch service offering unlimited web and image searches, domain boosting or exclusion, URL rewrites, and operation without JavaScript. It says it stores only an account number, uses no ads, tracking, analytics, or generative AI, and relies on EU infrastructure and several search providers; customers receive source code after 12 paid months. HN welcomed a European private-search option but emphasized that relevance must rival Kagi, while splitting over the sparse UI, missing widgets and family plans, AI-free positioning, branding, and upstream-provider transparency.
 
-## Comment pulse
-- UX and audience → Some want a “grandparent mode,” clearer spacing, stronger branding, and a professional designer; others prefer the current minimal, non-“funny,” non-widgetized interface — counterpoint: “busy” vs “bland” critiques conflict, showing taste is highly subjective.  
-- Value vs Kagi/Google → Critics say better privacy can’t compensate for weaker relevance, missing AI summaries, and vertical widgets that help agents and everyday searches.  
-- Data sources and ethics → Users appreciate Uruky’s Mojeek/Marginalia/EUSP stack and no Yandex; others question whether Yandex is uniquely problematic compared with US Big Tech or broader Russian services.
+### Comment pulse
 
----
+- Search quality is non-negotiable → privacy cannot offset weak relevance, especially when agents multiply poor-result latency, compute, and cost.
+- Product simplicity divides users → some want widgets, family plans, and friendlier branding — counterpoint: others chose paid search specifically to avoid clutter and AI.
+- Provider provenance affects trust → commenters asked which indexes supply results and whether any payments indirectly support objectionable foreign companies.
 
-## LLM perspective
-- View: Strong privacy and EU jurisdiction are differentiators, but without excellent relevance, UX polish, and clear positioning, Uruky risks remaining a niche tool.  
-- Impact: Most compelling for privacy-focused individuals, EU organizations, and developers needing predictable, ad-free search for tools and agents.  
-- Watch next: Concrete quality benchmarks vs Kagi/Google, dedicated accessibility modes, family plans, and clarifying long-term plans for indexing and source-code delivery.
+### LLM perspective
+
+- **View:** Privacy is a market entry condition; retention depends on measurable relevance, speed, and dependable vertical results.
+- **Impact:** Small European providers must differentiate without recreating the feature sprawl they criticize.
+- **Watch next:** Image quality benchmarks, URL-rewrite controls, source-code licensing terms, family pricing, and disclosure of provider-level query handling.

@@ -2,19 +2,18 @@
 
 - Score: 228 | [HN](https://news.ycombinator.com/item?id=48400588) | Link: https://havenweb.org/2026/05/28/retro-tech.html
 
-## TL;DR
-A technologist-parent describes “retro-tech parenting”: using CDs, DVDs from the library, a VoIP landline, and a shared family PC with aggressively whitelisted internet instead of always-online, ad- and algorithm-driven apps. The goal is to keep the enriching, creative parts of tech while removing surveillance, addiction loops, and opaque feeds, and giving kids genuine autonomy within clear boundaries. Hacker News parents resonate, sharing similar setups, but debate long-term feasibility and how to handle the eventual transition to smartphones and modern social norms.
+### TL;DR
 
----
+A technologist-parent preserves children’s agency and creativity without surveillance, engagement feeds, or limitless catalogs. The household uses curated CDs, DVDs, and Blu-rays; a whitelisted VoIP landline with quiet hours; and a family PC whose DNS allowlist permits resources such as Wikipedia and private Minecraft while blocking search, YouTube, and Spotify. The author argues that finite media enables independent use because no adversarial recommender sits inside the device. HN families shared offline computers, retro games, and neighborhood PBXs, but warned that adolescence requires a planned transition to connected devices.
 
-## Comment pulse
-- Controlled, offline tools (CD players, landlines, air‑gapped laptops, retro games, backyard gear) → kids enjoy ownership, creativity, and independence without algorithmic pressure or ads.  
-- “Abridged tech history” for kids → starting with SNES/Game Boy or family desktops then moving forward teaches fundamentals and healthier tech relationships — counterpoint: most kids still just want entertainment.  
-- Concern: retro limits may isolate teens → parents suggest phased transitions via minimalist phones, cellular watches, or later phone adoption, noting country and school norms differ widely.
+### Comment pulse
 
----
+- Creative defaults → Families paired offline computers with coding tools, robotics, books, instruments, and owned media, making creation easier without opening infinite feeds.
+- Social agency → Home or neighborhood PBXs let young children call relatives and arrange playdates themselves, though participation depends on nearby families joining.
+- Adolescence → Strict disconnection may become isolating when peers coordinate online — counterpoint: basic phones, cellular watches, or restricted tablets can bridge gradually.
 
-## LLM perspective
-- View: This is really about adding friction and locality—physical media, shared spaces, and whitelists—so defaults favor intention over engagement farming.  
-- Impact: Most actionable for tech-comfortable parents; schools, libraries, and small ISPs could bundle “safe defaults” kits to broaden access.  
-- Watch next: Comparative studies of retro/limited-tech households, and turnkey products (locked-down family PCs, curated VoIP/landline services) that don’t require deep sysadmin skills.
+### LLM perspective
+
+- **View:** The useful distinction is finite, user-directed tools versus systems that continuously choose, optimize, and monetize the next interaction.
+- **Impact:** Children gain bounded independence; parents assume ongoing work curating libraries, maintaining filters, and renegotiating access as social needs change.
+- **Watch next:** Peer communication needs, school-required apps, bypass attempts, household maintenance burden, and whether restrictions evolve with demonstrated judgment.

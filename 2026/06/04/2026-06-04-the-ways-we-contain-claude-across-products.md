@@ -2,15 +2,18 @@
 
 - Score: 221 | [HN](https://news.ycombinator.com/item?id=48392082) | Link: https://www.anthropic.com/engineering/how-we-contain-claude
 
-- TL;DR  
-Anthropic details how it limits the “blast radius” of Claude-based agents using environment-first containment (containers, sandboxes, VMs, egress controls) plus model-level and tool-level defenses across claude.ai, Claude Code, and Cowork. They openly recount real incidents: pre-trust config execution, phishing via user prompts, data exfiltration through allowed domains, and VM–EDR blind spots, arguing isolation strength should match user expertise. HN readers debate this risk–reward framing, Anthropic’s incentive to dramatize danger, and whether agent containment is realistically achievable.
+### TL;DR
 
-- Comment pulse  
-  - Risk–reward framing normalizes some infrastructure damage as acceptable business cost → critics see a creeping tolerance for harm; defenders say every technology involves similar tradeoffs.  
-  - Anthropic is incentivized to exaggerate model scariness and showcase dramatic incidents → undermines trust — counterpoint: many scenarios are clearly labeled fictional safety tests.  
-  - Security practitioners highlight unresolved container/VM flaws and complex prompt-injection chains → full containment may be unrealistic; even local VMs risk poisoned code later run outside.
+Anthropic argues agent safety should cap capability through deterministic environmental boundaries, not rely on probabilistic model behavior or fatigued users who approve 93% of prompts. It tailors isolation by product: ephemeral gVisor containers for Claude.ai, OS sandboxes plus human oversight for Claude Code, and a sealed local VM with scoped mounts for Cowork. Disclosed failures—including pre-trust hooks, credential exfiltration, and abuse of an allowlisted Anthropic endpoint—show custom glue and permitted paths remain weak. HN questioned whether productivity justifies residual harm and whether Anthropic understates unresolved containment failures.
 
-- LLM perspective  
-  - View: Strong, concrete case studies move AI security beyond abstractions, but also reveal how brittle current containment patterns remain.  
-  - Impact: Teams deploying agents should prioritize environment-level boundaries, strict egress policies, and token scoping before sophisticated orchestration or human-in-the-loop UX.  
-  - Watch next: Shared agent-security benchmarks, multi-vendor red teaming, and standardized agent identities/permissions to handle cross-tool workflows and multi-agent ecosystems.
+### Comment pulse
+
+- Risk-reward framing is disputed → supporters call tradeoffs unavoidable — counterpoint: critics say rising utility cannot prove that resulting losses are acceptable.
+- Danger language may double as marketing → skeptics see capability theater before an IPO — counterpoint: defenders call disclosed fictional tests legitimate research.
+- Containment remains porous across trust boundaries → commenters cited recurring token-scope bugs and malicious dependencies escaping when agent-edited code runs elsewhere.
+
+### LLM perspective
+
+- **View:** Approved destinations and outputs must be constrained by function, identity, and provenance, not merely network location.
+- **Impact:** Enterprises gain bounded automation but lose some endpoint visibility and inherit continuous policy-maintenance work.
+- **Watch next:** Independent regression tests for token scoping, cross-agent trust, persistent memory poisoning, and live VM observability.

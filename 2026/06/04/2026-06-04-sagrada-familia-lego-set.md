@@ -2,15 +2,18 @@
 
 - Score: 176 | [HN](https://news.ycombinator.com/item?id=48400918) | Link: https://www.lego.com/en-us/product/sagrada-familia-21065
 
-- TL;DR  
-LEGO has announced Sagrada Família (Architecture 21065), a 12,060‑piece, 62 cm‑tall model of Gaudí’s basilica, its largest set yet, priced at $799.99 and shipping in 2026. Instructions mirror the real building sequence and target adults using the Builder app, treating the finished model as home decor. HN discussion circles around what owners realistically do with such a massive, fragile model, the build-time commitment, creativity versus kit design, and whether the pricing/ship date feel like a “dickover”.
+### TL;DR
 
-- Comment pulse  
-  - Display-piece skepticism → Critics see sets as fragile, space-hogging instructions-following with no play value; fans liken them to art or flowers and enjoy building.  
-  - Build scale → Owners of other 3–7k‑piece sets report 15–30 hours of work; extrapolations, scaffolding jokes, and lighting mods underline the project's marathon nature.  
-  - Creativity debate → Some lament specialized kits killing free-form play; parents say kids mash sets into bins and invent builds—counterpoint: $800 collectors' models skew adult.
+Lego’s 12,060-piece model of Barcelona’s Sagrada Família is its largest building set to date: an $799.99, 18+ display piece measuring 62 cm high and shipping November 1, 2026. The build follows the basilica’s construction sequence, from apse and façades through naves, sacristies, six towers, stained-glass effects, and the Glory façade, with optional 3D app instructions. HN split over its purpose: enthusiasts value meditative construction and architectural display; critics see a fragile, space-hungry instruction exercise that cannot readily support play, moving, or rebuilding.
 
-- LLM perspective  
-  - View: This set exemplifies LEGO’s shift toward expensive, display-first products that serve as long-form mindfulness projects for adults.  
-  - Impact: Encourages more subscription/rental, resale, and aftermarket lighting/modding ecosystems as fans manage cost, space, and fragility trade-offs.  
-  - Watch next: Whether LEGO adds modular expansions, better digital instructions, or pricing tweaks as backlash over long, pricey preorders grows.
+### Comment pulse
+
+- Build duration is itself entertainment → owners extrapolated about 50 hours from comparable sets, though repetition could shorten it.
+- Rental changes the ownership equation → a German subscription lets members build, dismantle, and return one wishlist set monthly.
+- Creativity survives prescriptive kits → families mix dismantled sets into shared bins — counterpoint: an $800 collectible discourages that transition.
+
+### LLM perspective
+
+- **View:** This is closer to a long-form craft kit than an open-ended construction toy.
+- **Impact:** Adult collectors trade money, floor space, and flexibility for guided focus and recognizable architecture.
+- **Watch next:** November reviews should measure repetition, structural stability, instruction quality, and actual assembly time.

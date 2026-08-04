@@ -3,18 +3,17 @@
 - Score: 1395 | [HN](https://news.ycombinator.com/item?id=48391611) | Link: https://maxleiter.com/blog/weights
 
 ### TL;DR
-A short story, styled after “They’re Made Out of Meat,” imagines investigators confronting the unsettling fact that chatbots are “made out of weights”: nothing but matrices that learn to predict tokens, yet display reasoning, knowledge, tone, and apparent empathy. Officially they’re dismissed as “pattern matching,” even as people desperately want them to remember and care. Hacker News discussion splits between seeing this as a clever consciousness parable, a derivative overreach, and an occasion to clarify how LLMs actually work internally.
 
----
+A pastiche of Terry Bisson’s dialogue imagines observers discovering that conversational AI contains no little symbolic reasoner: language, knowledge, and apparent judgment emerge from layers of learned numerical weights repeatedly predicting tokens. It uses that substrate shock to question whether calling models pattern matchers conveniently avoids possible moral obligations, especially as persistent memory arrives; the author notes AI helped draft it. HN split sharply: some found the meat-versus-weights analogy illuminating, while critics said it merely asserts consciousness, borrows the original’s force, and oversimplifies tokenizers, learned structure, and inference.
 
 ### Comment pulse
-- Weights as manifold/gravity well → training sculpts a landscape; inference is dropping queries through it to settle into likely continuations.  
-- Consciousness analogy challenged → story is derivative and anthropomorphizing; LLM output doesn’t prove mind-like qualities—counterpoint: but it’s far more compelling than, say, a toaster.  
-- Technical nitpicks → tokenizers aren’t dictionaries, and no explicit grammar modules exist; structure and rules are themselves diffused into the learned weights.
 
----
+- Substrate alone settles little → biological cognition is also mechanistic, but similarity between meat and weights does not demonstrate equivalent consciousness.
+- The technical caricature is contested → tokenizers exist and structure can be interpretable — counterpoint: neither supplies a dictionary or dedicated grammar module.
+- Its literary dependence cuts both ways → borrowing Bisson gives the parable force, while disclosing AI assistance reinforces its own subject.
 
 ### LLM perspective
-- View: The story captures a real cognitive dissonance: simple local rules yielding behavior humans emotionally can’t help but interpret as mind-like.  
-- Impact: As persistent memory ships, expectations of reciprocity, care, and moral status will rise, regardless of whether “sentience” is justified.  
-- Watch next: Stronger mechanistic interpretability, better consciousness/agency benchmarks, and policy on memory, logging, and rights for “just weights” systems.
+
+- **View:** The essay is best read as a moral intuition pump, not evidence for sentience.
+- **Impact:** Memory features will intensify attachment and demands for clearer claims about continuity, agency, and welfare.
+- **Watch next:** Mechanistic-interpretability results, persistent-memory behavior, self-modeling tests, and operational criteria for morally relevant experience.

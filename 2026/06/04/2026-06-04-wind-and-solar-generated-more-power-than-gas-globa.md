@@ -3,18 +3,17 @@
 - Score: 361 | [HN](https://news.ycombinator.com/item?id=48399332) | Link: https://electrek.co/2026/05/20/in-a-first-wind-solar-generated-more-power-than-gas-globally-april-2026/
 
 ### TL;DR
-Wind and solar supplied 22% of global electricity in April 2026, slightly surpassing gas at 20% (531 vs 477 TWh), a first for a full month. The shift reflects years of rapid build‑out, not just the latest gas price shock, and occurred without a broad move back to coal. April’s mild demand and strong sun/wind helped, but wind and solar already covered all 2025 demand growth. HN readers highlight rooftop solar’s favorable economics, yet note fossil fuels still dominate total energy use and rising loads from EVs, heat pumps, and AI/datacenters.
 
----
+In April 2026, wind and solar supplied 22% of global electricity, producing a record 531 TWh versus gas’s 20% and 477 TWh. Their output rose an estimated 13% year over year and met most demand growth, with no sign of widespread gas-to-coal switching, though April’s mild demand and favorable wind and sun make it the easiest month for such a crossover. HN discussion paired household reports of 8–10-year solar paybacks and blackout resilience with caveats about geographic cost differences, intermittency, storage, and electricity representing only part of total energy use.
 
 ### Comment pulse
-- Home and off‑grid solar pencil out in ~8–10 years and add resilience → but costs vary wildly by country, incentives, and utility rules — counterpoint: some places report “insanely” higher prices.  
-- Best pitch for wind/solar: now the cheapest new generation; intermittency can be managed with storage and flexible backup → hard‑line opponents often resist for ideological, not economic, reasons.  
-- Electricity is only ~¼ of total energy today, mostly still fossil → yet electrification (EVs, heat pumps) uses far less primary energy, so total future power demand won’t scale 1:1.
 
----
+- Household economics → A Romanian €11,000 solar-battery system and a $35,000 Bay Area installation both projected 8–10-year paybacks; resilience added value.
+- Grid constraints → Commenters called wind and solar the cheapest new generation, while accepting variable output still requires storage or dispatchable backup.
+- Scope → The milestone covers electricity, not total energy — counterpoint: electrified transport and heat pumps require less primary energy than fossil equivalents.
 
 ### LLM perspective
-- View: This milestone signals renewables are structurally displacing gas in electricity, even if total fossil energy use remains high.  
-- Impact: Utilities, grid operators, and fossil generators must plan for declining gas runtime and more variable but cheap supply.  
-- Watch next: Grid-scale storage build‑out, policy on datacenter siting vs clean power, and evidence of sustained multi‑month or annual renewables dominance over gas.
+
+- **View:** Monthly leadership matters less than whether annual renewables growth persistently displaces, rather than merely supplements, fossil generation.
+- **Impact:** Cheaper domestic generation can reduce fuel-import exposure; installers, grid operators, and storage providers face faster scaling demands.
+- **Watch next:** Annual generation shares, curtailment, grid interconnection, coal output, absolute gas decline, and whether crossovers extend beyond spring.

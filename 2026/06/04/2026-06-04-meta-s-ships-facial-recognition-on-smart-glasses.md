@@ -2,15 +2,18 @@
 
 - Score: 200 | [HN](https://news.ycombinator.com/item?id=48403588) | Link: https://www.buchodi.com/meta-glasses-facial-recognition/
 
-- TL;DR  
-  - Researcher reverse‑engineers Meta’s Stella app for smart glasses and finds a complete, working on‑device facial recognition pipeline: face detection, 2048‑dim embeddings, cosine vector index, local DB, notification channel, and a hidden “Connections” UI. It appears dormant for normal accounts, with no observed server‑side identity sync, but unknown faces are cached as image+embedding pairs. HN debates accessibility benefits of offline face‑rec tools versus extreme privacy risks of ubiquitous, corporate‑controlled identification in public spaces.
+### TL;DR
 
-- Comment pulse  
-  - Offline, user‑controlled face recognition could aid prosopagnosia accessibility → needs on‑device, no‑account, open tools — counterpoint: even local capture of bystanders raises consent issues.  
-  - Many see Meta glasses as intolerable surveillance → advocate banning them from homes/events and socially shunning wearers as walking data‑miners.  
-  - People recall Google Glass explicitly banned face recognition → contrast Meta quietly shipping stack, despite unclear business use, as emblematic of its disregard for privacy.
+A reverse engineer found a complete but dormant facial-recognition stack in Meta’s Stella Android companion app for smart glasses. By directly invoking its handler, they made bundled models detect, align, and encode a face into 2,048 dimensions, query a local cosine index, notify on a match, and persist unmatched crops plus embeddings. Stock accounts showed no UI, enrollment data, or active recognition, so production use is unproven. HN saw strong accessibility value for prosopagnosia if fully offline, but overwhelmingly feared nonconsensual identification, cloud linkage, and Meta’s privacy record.
 
-- LLM perspective  
-  - View: Dormant, fully wired biometric pipelines on consumer devices normalize ready-to-flip mass identification, regardless of whether toggled on today.  
-  - Impact: If enabled, bystanders become involuntary entries in corporate face graphs, undermining practical anonymity in public and semi-private spaces.  
-  - Watch next: Regulatory responses targeting on-body cameras, biometric templates, and sync endpoints; independent audits of “dormant” capabilities in AR and smartphone ecosystems.
+### Comment pulse
+
+- Offline recognition could be transformative → face-blind users want a private, user-supplied database that identifies friends without involving any vendor cloud.
+- Bystander consent is the central problem → wearable recognition can identify people who never enrolled — counterpoint: accessibility benefits need not require centralized data collection.
+- Social defenses may emerge → commenters favored excluding wearers or detecting nearby Meta glasses, echoing Google Glass’s earlier prohibition on facial recognition.
+
+### LLM perspective
+
+- **View:** The decisive boundary is enrollment governance: who can add identities, whose consent counts, and where unmatched biometrics travel.
+- **Impact:** Meta must earn consent from both wearer and bystander, a harder standard than ordinary app permissions.
+- **Watch next:** Feature flags, server population of person_profiles, retention controls, biometric-law review, and independent traffic monitoring.

@@ -3,18 +3,17 @@
 - Score: 291 | [HN](https://news.ycombinator.com/item?id=48400842) | Link: https://www.anthropic.com/institute/recursive-self-improvement
 
 ### TL;DR
-Anthropic describes how its own models now perform much of Anthropic’s engineering and research “perspiration”: ~80% of merged code is Claude-authored, per‑engineer code output is up ~8× since 2024, and agents can autonomously optimize training code and run multi‑hundred‑hour safety experiments. Humans increasingly supply goals and judgment rather than implementation. The piece outlines three futures—from stalled progress to full recursive self‑improvement—and argues society needs verifiable mechanisms to pause/slow frontier development. HN commenters challenge Anthropic’s reliability, real‑world impact, and safety posture.
 
----
+Anthropic argues AI already accelerates AI development and may eventually close the loop by designing successors, though research taste and direction-setting remain human strengths. It reports Claude authors over 80% of merged code, coinciding with eightfold code output per engineer, while agents increasingly execute experiments and choose useful next steps. The company sketches stalled, compounding-assistance, and full recursive-improvement futures, urging mechanisms for a verifiable coordinated pause. HN challenged its self-reported metrics, code-volume proxy, service reliability, external impact, and the consistency of racing toward a capability Anthropic calls dangerous.
 
 ### Comment pulse
-- Reliability gap → Users report constant throttling, outages, weak authentication, and poor support, viewing Anthropic’s self‑congratulation as hollow and planning model‑agnostic or self‑hosted alternatives.  
-- Productivity vs. breakthroughs → Some see modest gains and heavy “AI wrangling”; others cite transformative effects for small orgs, contract review, and bug‑finding—counterpoint: still few visible non‑AI breakthroughs.  
-- Safety vs. arms race → Many see recursive self‑improvement as incompatible with “AI safety,” framing labs as playing a prisoner’s dilemma, chasing power and regulatory capture, akin to nukes/social media.
 
----
+- Output is not impact → more lines and AI-authorship do not establish productivity, quality, or breakthroughs, especially amid outages and manual recovery.
+- Capabilities are tangible but supervised → bespoke software, contract review, and vulnerability finding help users — counterpoint: humans still spend heavily on AI wrangling.
+- Safety posture appears conflicted → Anthropic advocates coordinated slowdown options while advancing rapidly, invoking competition that makes unilateral restraint strategically costly.
 
 ### LLM perspective
-- View: Strong, rare quantitative window into AI‑accelerated AI; internal data are compelling, but future recursive self‑improvement remains highly conjectural.  
-- Impact: Near term, leverage shifts toward those with good problem selection and oversight skills; infra, governance, and ethics become main choke points.  
-- Watch next: Independent replication of productivity claims, concrete verification/pause schemes, and clear AI‑enabled breakthroughs in non‑AI sciences or engineering.
+
+- **View:** The demonstrated loop automates execution more convincingly than goal selection; recursive improvement depends on crossing that judgment gap.
+- **Impact:** Human review, infrastructure, compute, and experiment prioritization become the new bottlenecks.
+- **Watch next:** Independent productivity audits, quality-adjusted outcomes, unselected judgment tests, reliability metrics, and concrete pause-verification proposals.
