@@ -3,18 +3,21 @@
 - Score: 612 | [HN](https://news.ycombinator.com/item?id=48553550) | Link: https://ciechanow.ski/mechanical-watch/
 
 ### TL;DR
-Ciechanowski’s piece is a deeply interactive, visual teardown of a mechanical watch movement, assembling it from mainspring and gear train through escapement, balance, motion works, date, keyless works, and automatic winding. Each section explains how energy is stored, metered, transmitted, displayed, and adjusted, with clear language and color‑coded 3D animations. HN readers mainly celebrate its rare mix of engineering depth, pedagogical clarity, and lightweight vanilla web tech—and one commenter even built a real exploded-model sculpture inspired by it.
 
----
+Bartosz Ciechanowski’s interactive explainer assembles a mechanical watch from first principles. A wound mainspring releases energy through a gear train; the escapement meters it, while a balance wheel establishes cadence and jeweled bearings reduce friction. It then builds the hands, date complication, crown-controlled keyless works, and motion-powered automatic winding. Although mechanical watches trail digital ones in accuracy, durability, and maintenance, the piece presents their miniature coordination as an engineering triumph. HN especially praised the stepwise teaching, interactive visuals, framework-free web implementation, and inspiration for physical models and repair.
 
 ### Comment pulse
-- Article as inspiration → One reader created a physical exploded watch model; others describe strong emotional resonance with family memories and heirloom watches.  
-- Pedagogy as standout feature → Step‑by‑step structure and visuals rival classic explainers; minor nitpick about repetitive “In this article…” phrasing.  
-- Implementation matters → Hand‑rolled HTML/CSS/JS runs smoothly on old phones—counterpoint: highlights how many framework-heavy sites fail basic compatibility.
 
----
+- Pedagogy is the standout → simple language, color coding, and manipulable demonstrations reveal mechanisms that static diagrams would struggle to communicate.
+
+- Web craft supports access → plain HTML, CSS, and JavaScript delivered advanced interactions even on an old iPhone 7.
+
+- Explanation can create artifacts → one reader built a real exploded movement model, while others connected the piece to family memories and repair skills.
 
 ### LLM perspective
-- View: This is a masterclass in explaining complex mechanisms via tight coupling of text, interactivity, and spatial intuition.  
-- Impact: Sets a bar for technical education sites, and for hobbyists learning horology or precision mechanics.  
-- Watch next: Similar treatments of quartz movements, escapement variants, and performance comparisons between mechanical, quartz, and smartwatch timekeeping.
+
+- **View:** The article succeeds by making causality inspectable: readers manipulate each subsystem before seeing it integrated.
+
+- **Impact:** Learners gain mechanical intuition; educators get a model for browser-native explanations that unite narrative, simulation, and progressive assembly.
+
+- **Watch next:** Test the interactive lesson’s accessibility, performance, retention gains, and resilience across older devices and reduced-motion settings.

@@ -2,15 +2,18 @@
 
 - Score: 283 | [HN](https://news.ycombinator.com/item?id=48561654) | Link: https://discuss.grapheneos.org/d/36469-grapheneos-has-been-ported-to-android-17-and-official-releases-are-coming-soon
 
-- TL;DR  
-  GrapheneOS, the privacy-focused Android fork, has already been fully ported to newly released Android 17 for all supported Pixels, with code landing publicly and alpha/beta/stable builds rolling out device-by-device. HN commenters welcome a way to get current security updates without Google’s expanding ads and OS-level “intelligence system,” describing smooth migrations and a clean, Linux-like feel, but noting tradeoffs: occasional app incompatibility, weaker tap-to-pay and RCS/iMessage experiences, and dependence on hard-to-buy Pixel hardware.
+### TL;DR
 
-- Comment pulse  
-  - GrapheneOS converts cite Pixel bloat, ads, and looming AI integration → install is easier than expected, system feels like clean Linux—some corporate/authenticator apps still incompatible.  
-  - Limited Pixel availability frustrates would-be users → they await Motorola’s promised Graphene phone, while worrying about region-locked bootloader unlocks; some explore alternatives like Volla OS.  
-  - Daily use tradeoffs → keyboards/SMS apps fix many annoyances, but RCS and tap-to-pay remain weak; many simply revert to physical cards or Garmin Pay.
+GrapheneOS says its Android 17 port is complete for every supported device, with code publication underway and an initial public-testing release planned the next day after a final Android 16 QPR2 build. The team had already tested several Pixel generations and expected to validate each supported model before release. HN users praised the project’s fast cadence and minimal, ad-free experience, while highlighting persistent tradeoffs: incomplete backups, incompatible workplace apps, unreliable RCS, absent North American contactless payments, and Pixel availability limited in many regions.
 
-- LLM perspective  
-  - View: GrapheneOS’s day-one Android 17 port shows how small teams can outpace OEMs when they tightly focus on security and Pixels.  
-  - Impact: As Google leans into OS-level AI, privacy ROMs may become the primary refuge for users wanting traditional, less-instrumented smartphones.  
-  - Watch next: Monitor whether non-Pixel vendors officially support GrapheneOS-class ROMs and whether regulators scrutinize unremovable ads and “intelligence” features in operating systems.
+### Comment pulse
+
+- De-Googling feels less extreme than expected → users described easy installation and a clean phone, sometimes prompted by bundled promotions in stock updates.
+- App choice restores some polish → alternative keyboards and Google Messages can fix input or messaging gaps, though sandboxed services and RCS add complexity.
+- Integrated AI divides privacy-minded users → Google’s engagement framing alarms some — counterpoint: others want offline agents managing phone configuration and automation.
+
+### LLM perspective
+
+- **View:** GrapheneOS demonstrates that rapid upstream adoption and opinionated privacy can coexist, but ecosystem dependence remains the harder constraint.
+- **Impact:** Android 17 parity reduces upgrade anxiety for current users and strengthens GrapheneOS as a credible daily driver.
+- **Watch next:** Track stable-channel timing by device, Android 17 regressions, data-wiping downgrade risks, backup coverage, and anticipated non-Pixel hardware support.

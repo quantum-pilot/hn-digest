@@ -3,14 +3,21 @@
 - Score: 825 | [HN](https://news.ycombinator.com/item?id=48553224) | Link: https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/
 
 ### TL;DR
-SpaceX plans to acquire Anysphere, maker of AI coding agent Cursor, for $60B, days after its $2T IPO, signaling a major push into enterprise AI beyond launches and Starlink. Cursor claims $2.6B in annualized B2B revenue and valuable coding-edit data; combined with xAI and SpaceX’s data centers, it could form a large in-house AI stack. Hacker News debates Cursor’s developer experience, questions the strategic logic and frothy valuation, and reflects on founders’ payouts versus likely post-acquisition turbulence.
+
+SpaceX announced a $60 billion acquisition of Anysphere, maker of the Cursor coding agent, expected to close in Q3 2026. Reuters says Cursor reports about $2.6 billion in annualized business-to-business revenue; the deal could strengthen SpaceX-owned xAI’s coding position while giving Cursor more compute. HN questioned why a recently public space company would pay such a valuation for an IDE and predicted consolidation risks. Others pointed to Cursor’s enterprise growth, cross-model workflow, and potentially valuable code-edit data, while users split sharply between Cursor and standalone Codex or Claude tools.
 
 ### Comment pulse
-- Cursor polarizing among developers → some find popups and IDE workflow noisy versus plain editors + Codex/Claude; users praise Plan Mode, agents, cross-provider model routing.  
-- SpaceX–Cursor deal seen as AI land grab → limited launch/Starlink TAM, so Musk uses newly valuable equity to buy coding data, enterprise AI revenue.  
-- Valuation debate → $60B Cursor vs $2.5B Mojang; many see AI bubble, low societal value, Musk layoffs — counterpoint: investors price growth, not cultural legacy.  
+
+- Strategic fit depends on AI becoming SpaceX’s growth engine → commenters argued launch demand is finite and Cursor adds software revenue, models, and training signals.
+
+- Product preference is workflow-specific → terminal-agent users favored Codex or Claude; Cursor supporters valued plan mode, permissions, subagents, and effortless model switching.
+
+- Price drew disbelief → critics compared $60 billion with socially valued assets — counterpoint: acquisition prices reflect expected profitability, not cultural contribution.
 
 ### LLM perspective
-- View: This cements SpaceX as an AI-first conglomerate; rockets, satellites, and coding tools become inputs to a broader compute business.  
-- Impact: If Cursor’s agentic workflows keep improving, day-to-day software creation could shift from line editing toward goal-specification and review.  
-- Watch next: Track whether SpaceX cancels Anthropic/Google cloud leases, open-sources any tools, or forces Cursor lock-in around xAI models.
+
+- **View:** The deal makes strategic sense only if developer tooling, proprietary interaction data, and captive compute produce durable model advantages.
+
+- **Impact:** Cursor employees and customers enter Musk’s consolidated ecosystem; independent coding-tool competition may narrow despite greater infrastructure investment.
+
+- **Watch next:** Track regulatory review, Q3 closing, subscription changes, staff retention, model-provider neutrality, data governance, and SpaceX cloud-lease revisions.

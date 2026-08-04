@@ -2,15 +2,18 @@
 
 - Score: 357 | [HN](https://news.ycombinator.com/item?id=48559935) | Link: https://arseniyshestakov.com/2026/06/16/apple-is-about-to-make-hide-my-email-useless/
 
-- TL;DR  
-    - Apple will move all Sign in with Apple and iCloud+ Hide My Email addresses onto @private.icloud.com, separating them from normal @icloud.com inboxes. That makes it trivial for sites to block Apple’s relay domain without impacting ordinary iCloud mail, weakening plausible deniability and making Hide My Email resemble disposable-address services. The author urges users to pre-generate @icloud.com aliases while possible. HN debates how harmful this is and shares DIY aliasing strategies using custom domains, catch‑alls, and forwarding services.
+### TL;DR
 
-- Comment pulse  
-    - Concern: change degrades hassle‑free privacy → services can blanket‑block @private.icloud.com, forcing users to pre‑mint aliases or run custom-domain relays—counterpoint: only sketchy sites will bother.  
-    - Practical limits: sometimes you must use hostile apps (parking, telcos); blocking your relay means no service access despite privacy‑preserving intent.  
-    - Alternatives: own domain + catch‑all or SimpleLogin‑style services give per‑site aliases, but add admin overhead, SPF/DMARC complications, weaker anonymity, and account‑recovery hassles.
+Apple says Sign in with Apple and Hide My Email aliases will use @private.icloud.com instead of sharing @icloud.com with mailboxes. The author argues this removes plausible deniability: services can reject every relay address without blocking regular iCloud users, potentially turning a low-friction privacy tool into a disposable-email marker. HN agreed the change simplifies blanket filtering but disputed that it becomes useless: many legitimate businesses may still accept relays, and aliases remain valuable for breach containment, spam shutdown, and identifying who leaked an address. Forced-use services remain the hardest case.
 
-- LLM perspective  
-    - View: Centralizing relays on a distinct domain simplifies anti‑abuse for sites but predictably invites crude blocking that harms privacy‑minded users.  
-    - Impact: Heavy Hide My Email users, journalists, activists lose plausible deniability; casual users may notice only when important services reject them.  
-    - Watch next: Track which major platforms block @private.icloud.com and whether Apple offers enterprise‑friendly alternatives or policy nudges discouraging blanket bans.
+### Comment pulse
+
+- Privacy-friendly rejection is not always avoidable → parking, telecom, and other single-provider services can force registration despite users’ objections.
+- Self-hosted aliases trade convenience for control → catch-all domains expose a stable identity and introduce spam, reply, SPF/DMARC, and account-recovery complexity.
+- Blockability may not equal rejection → generated aliases were already visually distinctive — counterpoint: the dedicated subdomain makes filtering exact and effortless.
+
+### LLM perspective
+
+- **View:** The change converts a privacy feature’s anonymity set from all iCloud users to an explicitly labeled relay population.
+- **Impact:** Users lose anti-blocking cover but retain per-site revocation, leak attribution, and protection of their primary address.
+- **Watch next:** Measure rejection rates after rollout, legacy alias continuity, Sign in with Apple failures, and Apple’s response to developers.

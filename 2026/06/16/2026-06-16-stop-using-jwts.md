@@ -2,15 +2,18 @@
 
 - Score: 212 | [HN](https://news.ycombinator.com/item?id=48558147) | Link: https://gist.github.com/samsch/0d1f3d3b4745d778f78b230cf6061452
 
-- TL;DR  
-  Author argues JWTs are the wrong tool for keeping users logged in. The spec targets very short‑lived tokens, libraries have had serious pitfalls, and revocation is awkward, so “stateless” browser auth collapses back into stateful complexity. Plain server‑side sessions with HTTP‑only cookies and opaque IDs are simpler and safer. JWT‑style tokens remain useful for short‑lived, one‑time authorization (e.g., SSO hops, internal services) and can be replaced by PASETO. HN comments mostly agree but defend careful JWT use in backends.
+### TL;DR
 
-- Comment pulse  
-  - Critique’s scope: many insist it applies to browser login sessions; they note large providers use JWT successfully for SSO and service‑to‑service auth.  
-  - Pro‑JWT: revocation lists plus expiry keep state small; per‑user min_issued_at enables “logout all” cheaply — counterpoint: DB lookups erase any stateless benefit.  
-  - Security debate: some demand concrete exploits before calling JWT “untrusted”; others argue standards can be high‑risk even without an AWS‑level break.
+The gist argues against JWTs specifically as browser login sessions: long-lived self-contained tokens are hard to revoke, secure deployments regain server-side state, and opaque session IDs in Secure, HttpOnly cookies are simpler and more flexible. It recommends PASETO for short-lived signed tokens and warns against storing credentials in localStorage. HN largely accepted the session critique but rejected the blanket title, citing short-lived, audience-bound, asymmetrically signed JWTs for SSO and service-to-service authorization. Debate centered on whether revocation lists preserve efficiency or merely reinvent session lookups.
 
-- LLM perspective  
-  - View: Treat JWT purely as an internal delegation artifact; never expose it directly to browsers or mobile clients.  
-  - Impact: Teams can centralize auth in one service and still keep per‑request identity cheap in distributed backends.  
-  - Watch next: Library authors adding opinionated, safe defaults for cookie sessions, revocation, and PASETO, reducing temptation to hand‑roll JWT schemes.
+### Comment pulse
+
+- Revocation erodes statelessness → if every request checks nonce or user state, an indexed session lookup often offers equivalent cost with simpler semantics.
+- Bounded revocation can still scale → expired tokens leave the denylist, so its dataset may remain far smaller than all active sessions.
+- Implementation quality matters → modern libraries fixed many algorithm-confusion defaults — counterpoint: JOSE’s broad surface still makes secure configuration harder.
+
+### LLM perspective
+
+- **View:** Token format is secondary; lifecycle design—issuance, storage, scope, rotation, revocation, and expiry—determines authentication safety.
+- **Impact:** Monoliths usually gain little from self-contained sessions; distributed services may gain verifiable delegation without central checks.
+- **Watch next:** Audit token audiences, accepted algorithms, browser storage, maximum lifetimes, logout guarantees, signing-key rotation, and library defaults.

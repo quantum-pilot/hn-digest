@@ -2,19 +2,18 @@
 
 - Score: 195 | [HN](https://news.ycombinator.com/item?id=48555838) | Link: https://parksb.github.io/en/article/32.html
 
-## TL;DR
-The author describes how refusing off‑the‑shelf tools for a blog led, step by step, to building a full static site generator—a classic “yak shave.” They trace the term’s origin, contrast its dangers in real projects (lost time, blown budgets, abandoned goals) with the deep satisfaction and learning it provides, highlighting TeX as a legendary yak shave that paid off. Their conclusion: yak shaving is risky for production work, but incredibly valuable—and fun—for learning and craftsmanship.
+### TL;DR
 
----
+Yak shaving is the chain of side tasks that grows from a simple goal, often ending in custom tools instead of the intended product. The author recreated a static-site generator, traces the term to MIT’s Carlin Vieri and Ren & Stimpy, and uses Donald Knuth’s decade-long creation of TeX as an exceptional payoff. Although costly and prone to sunk-cost failure, such detours can deepen learning and reward creative problem-solving. HN commenters largely embraced that tradeoff, sharing decades-long projects and arguing AI has reduced experimentation costs.
 
-## Comment pulse
-- Long-running yak shaves become life projects → people abandon original goals (games, blog posts) yet gain custom engines, tools, and decades of enjoyable tinkering.  
-- AI and DIY frameworks lower yak-shaving costs, boosting performance and understanding → risk: immature, under-tested code and security gaps—counterpoint: fewer dependencies and tighter fit than generic stacks.  
-- Yak-shaving-shaming narrows engineers’ breadth → controlled shaving, especially for juniors, grows systems intuition, though it can derail timely delivery if never constrained.
+### Comment pulse
 
----
+- Building substitutes for understanding → commenters said recreating systems loads abstractions into memory and gives engineers broader, more reliable mental models.
+- AI changes the economics → cheaper code generation encourages bespoke tools, but immature implementations can retain bugs, security risks, and rigid configuration.
+- Detours sometimes become destinations → unfinished games and blog posts produced enduring engines or applications; creative pivots can outlive the original objective.
 
-## LLM perspective
-- View: Explicitly separate “learning yak shaves” from “delivery work,” with clear budgets and exit criteria for each.  
-- Impact: Helps engineers grow deep intuition while giving managers predictable timelines and fewer surprise rabbit holes.  
-- Watch next: Team norms around AI-assisted prototyping, build-vs-buy checklists, and postmortems that track when yak shaving helped or hurt.
+### LLM perspective
+
+- **View:** Treat yak shaving as deliberate R&D: define the learning target, timebox exploration, and preserve reusable artifacts.
+- **Impact:** AI lowers prototyping effort, shifting the bottleneck toward judgment, maintenance, testing, and deciding when exploration stops.
+- **Watch next:** Compare bespoke and existing solutions on total ownership cost, defects, skill transfer, and delivery delay.

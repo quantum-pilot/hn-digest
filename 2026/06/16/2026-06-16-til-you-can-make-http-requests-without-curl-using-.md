@@ -3,18 +3,21 @@
 - Score: 231 | [HN](https://news.ycombinator.com/item?id=48558018) | Link: https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/
 
 ### TL;DR
-Bash has a special `/dev/tcp/host/port` redirection that opens a TCP socket, letting you hand‑craft simple HTTP/1.1 requests from ultra‑minimal containers with no `curl`, `wget`, or `nc`. It’s useful for quick connectivity checks (e.g., `/health`) by writing a request with `printf` and reading the response with `cat`, but lacks TLS, retries, parsing, or HTTP/2/3 support. HN commenters reminisce about telnet‑level protocol hacking, emphasize this is “just TCP, not HTTP,” and debate minimal images vs always including `curl`.
 
----
+Bash can open a raw TCP socket through its special `/dev/tcp/host/port` redirection, letting a minimal container send a hand-written HTTP/1.1 request when curl, wget, and netcat are absent. The technique writes through a file descriptor and reads the response directly; `Host` and `Connection: close` prevent common failures. It is only a diagnostic shortcut: no TLS, redirect handling, chunk decoding, compression, retries, or portability beyond suitably compiled Bash. HN stressed that Bash supplies transport, not HTTP, while celebrating manual text protocols as useful demystification.
 
 ### Comment pulse
-- Manual protocol tinkering is educational → telnetting to ports 80/25/110 taught people that HTTP/SMTP/POP3 are just text over sockets—counterpoint: newer TLS/binary protocols hinder this style.  
-- Precision matters → bash only opens TCP; you’re implementing HTTP yourself. `nc` or similar is wiser when available; full bash webservers hide C helpers underneath.  
-- Minimal vs practical images → some want stripped containers and tricks like `/dev/tcp`; others argue `curl` is small, ubiquitous, and worth including even in production.
 
----
+- Manual requests are educational → interacting with plaintext protocols exposes their structure and removes perceived magic, though TLS and binary protocols reduce accessibility.
+
+- Production use is unsafe → incomplete parsing breaks on ordinary HTTP features — counterpoint: a narrow health check need not recreate a general client.
+
+- Minimal images divide operators → some value fewer packages and ad hoc probes; others consider curl essential for production diagnosis.
 
 ### LLM perspective
-- View: Treat `/dev/tcp` as a last‑resort debugging tool, not a substitute for real HTTP clients or protocol libraries.  
-- Impact: Helps ops/infra engineers verify connectivity inside locked‑down containers without modifying images or installing packages.  
-- Watch next: Container hardening may further restrict shells; track base images, `curl` defaults, and whether tools like `nc` remain standard.
+
+- **View:** This is best understood as a socket probe with an HTTP-shaped payload, not a replacement client.
+
+- **Impact:** Operators can test internal reachability without rebuilding containers, but scripts gain protocol and shell-specific failure modes.
+
+- **Watch next:** Confirm Bash net-redirection support, enforce timeouts, test chunked responses, and install proper tooling for recurring checks.

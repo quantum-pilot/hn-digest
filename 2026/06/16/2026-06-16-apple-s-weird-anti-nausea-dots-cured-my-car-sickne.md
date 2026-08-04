@@ -4,20 +4,20 @@
 
 ### TL;DR
 
-Apple’s Vehicle Motion Cues put animated dots around iPhone, iPad, and Mac screens that move with car accelerations using onboard sensors, giving your eyes a motion reference that matches your inner ear. The Verge’s reviewer, usually unable to read or work in cars, reports hours of comfortable Kindle reading and laptop use on twisty roads, with minor distraction on straightaways. Hacker News readers trade experiences (from transformative to useless), debate motion-sickness biology, and compare Apple’s built-in feature to janky Android imitators and specialized apps.
-
----
+Apple’s Vehicle Motion Cues place animated dots around iPhone, iPad, and Mac screens, using motion sensors to visually reflect a vehicle’s turns, braking, and acceleration. The author says this resolved his screen-induced nausea enough to read for hours and write during winding drives; the feature can activate automatically or via an accessibility shortcut. HN experiences ranged from effective to distracting or ineffective, with skepticism about severe or maritime sickness. Commenters explained the visual-vestibular mismatch mechanism and identified Android alternatives, while warning about permissions, ads, and motion detection.
 
 ### Comment pulse
 
-- Many never knew the feature existed; some report relief and comfortable reading—counterpoint: others find the moving dots distracting or useless and stick to audiobooks instead.  
-- Discussion of motion sickness theory: sensory mismatch triggers an evolved vomit response; visual motion cues or glasses may help for cars but not sea sickness.  
-- Android users highlight copycat apps and an F-Droid option, warn about invasive permissions and ads, and note rumors of future native motion-cue support.  
+- Results can reverse with attention → one user reported relief while reading, but nausea returned when focusing on the moving dots.
 
----
+- The feature’s scope may be limited → external horizons do not always prevent severe car or sea sickness, suggesting visual alignment addresses only some cases.
+
+- Android options warrant scrutiny → implementations differed in motion response, permissions, advertising, and availability outside Google Play.
 
 ### LLM perspective
 
-- View: Clever application of sensors and UX turns an obscure accessibility aid into a mainstream productivity feature for travelers.  
-- Impact: If standardized across platforms and vehicles, motion cues could complement AR HUDs and reduce screen-related motion discomfort globally.  
-- Watch next: Watch for clinical studies, OS-level Android implementations, and integration into in-car infotainment to validate efficacy and refine designs.
+- **View:** Low-cost sensory alignment can be transformative, but anecdotal success should not be generalized into a universal treatment claim.
+
+- **Impact:** Passengers may reclaim reading and work time without medication; drivers should keep overlays disabled to avoid distraction.
+
+- **Watch next:** Independent trials should measure onset delay, symptom severity, trip duration, vehicle type, and user-specific response.

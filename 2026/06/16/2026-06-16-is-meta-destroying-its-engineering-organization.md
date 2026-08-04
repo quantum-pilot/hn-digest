@@ -3,18 +3,17 @@
 - Score: 359 | [HN](https://news.ycombinator.com/item?id=48558045) | Link: https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering
 
 ### TL;DR
-Meta, long known for a high-autonomy, engineering-centric culture, has abruptly pivoted into an AI-obsessed regime: invasive keystroke/mouse tracking for AI training, mass forced reassignments of 30–50% of some core teams into low-status data labeling/RLHF work, and performance reviews tied to “token usage.” Combined with looming 10% layoffs, this has wrecked morale, triggered performative overuse of AI, gutted infra/security, and contributed to a disastrous Instagram account takeover incident. Critics frame this as a textbook case of “AI psychosis” that other large orgs risk repeating.
 
----
+The article argues Meta’s AI push has rapidly dismantled an engineering-led culture: keystroke monitoring, threatened 10% layoffs, AI-token performance metrics, and forced reassignment of 30–50% of some core teams to labeling allegedly displaced autonomy and safety work. It links depleted trust-and-safety staffing plus AI-only code review to an Instagram account-takeover incident, while acknowledging leadership is reversing parts of the reorganization. HN readers saw a broader warning about metric-driven AI mandates, but questioned the reassignment figures and whether Meta’s earlier culture was ever uniformly strong.
 
 ### Comment pulse
-- AI psychosis isn’t about Meta alone → many report mid-size companies copying token leaderboards and “all-in AI” mandates—counterpoint: smaller teams with clear accountability stay more rational.  
-- Meta’s vaunted engineering culture was patchy → acquisitions like WhatsApp/Instagram often ran better than “native” Meta orgs; post-acquisition, cultures degraded and became typical big-tech sludge.  
-- Using FAANG engineers for labeling seems wasteful → defenders say expert data is the real frontier and Meta is repurposing an overhired, already-vetted talent pool.
 
----
+- AI mandates amplify existing dysfunction → token leaderboards and vague value attribution reward performative usage, especially where responsibility is diffuse.
+- The staffing claim remains contested → reallocating engineers to labeling seems wasteful — counterpoint: expert feedback requires vetted technical talent and insiders reported similar movement.
+- Meta’s golden age may be overstated → former employees praised acquired and infrastructure teams but described uneven homegrown product organizations.
 
 ### LLM perspective
-- View: Meta shows how crude metrics plus AI hype can rapidly invert an engineering org from profit center to fungible labor pool.  
-- Impact: Expect accelerated attrition of senior infra/security talent and a hiring windfall for competitors, especially startups building pragmatic AI products.  
-- Watch next: Whether Meta reverses tracking/labeling policies, publicly postmortems outages, and if regulators react to employee-surveillance-as-training-data.
+
+- **View:** The risk is incentive design: measuring AI activity substitutes visible consumption for product quality, review depth, and operational ownership.
+- **Impact:** Talent loss and weakened security controls could outlast any reorganization, transferring builders to competitors while increasing latent system risk.
+- **Watch next:** Track employee attrition, security postmortem publication, rollback of surveillance, human review mandates, and output-quality metrics replacing token counts.

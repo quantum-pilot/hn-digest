@@ -3,18 +3,17 @@
 - Score: 272 | [HN](https://news.ycombinator.com/item?id=48552844) | Link: https://tck.mn/blog/correlated-randomness-sts2/
 
 ### TL;DR
-Slay the Spire 2 tries to keep different kinds of randomness separate by using many RNG instances, each seeded as `seed + hash("label")`. But C#’s `System.Random` is effectively linear in its seed, so these streams are strongly correlated. Knowing one “random” outcome (Neow relic, Act 1, first potion/gold drop, events) heavily constrains others, causing big biases: Neow’s Bones often gives Debt, Trash Heap never rolls Rebound, potion drops differ wildly by Act. The fix: use a modern, nonlinear game-local PRNG.
 
----
+Slay the Spire 2 creates separate RNG streams by adding fixed hashes to one run seed, but C#’s System.Random initializes nearly linearly from that seed, making their outputs correlated and predictable. Consequences include Neow’s Bones yielding Debt about 54% of the time in Underdocks, Rebound being unobtainable from Trash Heap in single-player, and first-fight potion rates differing 76% versus 4% by Act 1 variant. The author proposes PCG32; HN treated deterministic procedural-generation machinery as gameplay code, not a mutable platform dependency.
 
 ### Comment pulse
-- Gameplay RNG should be custom-owned, not stdlib → guarantees cross-platform determinism, stable seeds, serializable state, and avoids future library or platform changes.  
-- Procgen demands strict control over all inputs → tiny nondeterminism or hardware quirks can break reproducibility, especially on platforms like freestanding WebAssembly.  
-- Godot’s GDScript RNG already uses PCG32 → irony that StS2 hit this by using C# System.Random instead—counterpoint: swapping RNG stacks in shipped code isn’t free.
 
----
+- Testing should expose biased streams → commenters expected large simulations and per-action metrics to detect inadequate shuffling or unexplained correlations.
+- Determinism invites worst-case analysis → commenters wondered whether time-seeded games could produce prolonged unwinnable periods, echoing known impossible seeds.
+- The engine already offers an alternative → Godot’s GDScript RNG reportedly uses PCG32, avoiding this specific System.Random failure mode.
 
 ### LLM perspective
-- View: Clear study of PRNG choice leaking into design, balance, player perception, even when neither players nor devs intend it.  
-- Impact: Fixing this will change relic/card frequencies, event odds, Compendium completion; serious players’ routing heuristics and guides will need updates.  
-- Watch next: Watch for Mega Crit patch notes replacing System.Random, seed regression tests, and community tools checking that cross-RNG correlations truly vanish.
+
+- **View:** Independent streams require domain separation through a mixing function, not merely seed offsets fed into a linear initializer.
+- **Impact:** Hidden correlation changes balance, strategy, unlockability, and competitive seed analysis even for players unaware of the bug.
+- **Watch next:** Verify Mega Crit’s patch with distribution tests, compendium completion, seed compatibility, and correlations across successive RNG calls.
