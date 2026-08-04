@@ -2,15 +2,18 @@
 
 - Score: 149 | [HN](https://news.ycombinator.com/item?id=48238896) | Link: https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad
 
-- TL;DR  
-Microsoft is ending most internal Claude Code licenses by June 30 and steering thousands of engineers to its own GitHub Copilot CLI. Officially it’s about standardizing on a single “agentic” command-line assistant and shaping a product Microsoft fully controls; unofficially it also trims OpEx before the new fiscal year and avoids a third‑party tool outshining Copilot. HN discussion focuses on Claude’s steep token costs, agentic workflows that burn budgets, and whether AI tooling truly saves money versus developers.
+### TL;DR
 
-- Comment pulse  
-  - Claude Code seen as powerful but token-hungry: unsupervised agentic workflows quickly exhaust quotas, while human-in-the-loop use is cheaper and often higher-quality.  
-  - Microsoft’s move framed as shielding Copilot from a stronger rival and reclaiming engineers; — counterpoint: others note the piece foregrounds alignment and year-end cost optics.  
-  - Debate over AI economics: Claude feels like an expensive toy while cheaper models suffice, yet even heavy AI use may still undercut developer payroll.
+Microsoft plans to remove most Claude Code licenses from its Experiences + Devices group by June 30, steering thousands of employees toward GitHub Copilot CLI. Claude Code proved popular, including with non-engineers, and employees reportedly preferred it to Microsoft’s tool; consolidation supports Copilot’s development and cuts operating expenses before the new fiscal year. Anthropic models remain available inside Copilot CLI, and broader Microsoft–Anthropic deals continue. HN discussion emphasized product self-interest over token burn, while also debating unpredictable agent costs, cheaper alternatives, and whether supervised workflows deliver better value.
 
-- LLM perspective  
-  - View: Internal dogfooding war; Microsoft won’t let Anthropic dominate developer workflows when it needs Copilot as the flagship.  
-  - Impact: Copilot CLI likely gains faster iteration, deeper repo integration, and perhaps Anthropic models behind a unified Microsoft-branded surface.  
-  - Watch next: Monitor engineer sentiment, Copilot CLI catching up to Claude Code, and whether other enterprises similarly consolidate onto in-house AI stacks.
+### Comment pulse
+
+- Product strategy dominates the explanation → Microsoft wants its engineers shaping and adopting Copilot CLI, not strengthening a competing interface.
+- Supervision improves token economics → planning, cache reuse, review, and bounded tasks can outperform unsupervised agent factories that consume heavily without useful output.
+- Enterprise costs are hard to govern → per-token bills can spike unexpectedly — counterpoint: proponents say productivity gains remain cheaper than payroll at current prices.
+
+### LLM perspective
+
+- **View:** Microsoft preserves access to Claude models while standardizing the agent layer it owns and can customize.
+- **Impact:** E+D engineers lose tool choice and absorb migration costs; GitHub gains a captive, high-signal internal testing population.
+- **Watch next:** Compare Copilot CLI parity, developer satisfaction, usage cost per accepted change, defect rates, and exception-license volume after June.

@@ -2,10 +2,18 @@
 
 - Score: 169 | [HN](https://news.ycombinator.com/item?id=48231938) | Link: https://slumber.lucaspickering.me
 
-- TL;DR  
-  Slumber is a terminal-based HTTP client offering both an interactive TUI and a scripting-friendly CLI, configured from a shared YAML “request collection.” The TUI lets developers browse predefined requests, edit parameters, send HTTP calls, and inspect responses within a full-screen terminal interface; the CLI reuses the same definitions for quick commands and automation. The project emphasizes ease of use, configuration, and sharing of collections across teams, positioning itself as a lightweight, terminal-native alternative to GUI API clients.
+### TL;DR
 
-- LLM perspective  
-  - View: Terminal-first, shareable collections neatly bridge Postman-style workflows with curl-style ergonomics inside a single, scriptable tool.  
-  - Impact: Most useful for backend and DevOps engineers who live in tmux/SSH and want reproducible, version-controlled API request sets.  
-  - Watch next: Git integration, environment/secret management, and test assertions would decide whether it can replace heavier GUI clients in teams.
+Slumber is a terminal-based HTTP client with an interactive TUI for composing requests and inspecting responses, plus a CLI for quick calls and scripts. Both modes consume shareable YAML request collections, aiming to offer a configurable middle ground between Postman-style GUIs and raw curl. HN readers compared it with Emacs Verb, Python Requests, and shell workflows; praised its polish for terminal migration; debated whether TUI expands to text or terminal user interface; and questioned a possible documentation typo and whether easily generated personal utilities remain worth publishing.
+
+### Comment pulse
+
+- Terminal-first users valued a discoverable layer over curl, though some preferred reusable shell history, Python Requests, or Emacs Verb.
+- The terminology thread converged on overload: terminal emphasizes rendering constraints and escape sequences, while text remains historically grounded and clearer to newcomers.
+- AI lowered clone-building costs dramatically — counterpoint: commenters said polish, documentation, and passion still distinguish shareable tools from disposable personal scripts.
+
+### LLM perspective
+
+- View: Shared request collections are the durable feature; interface preference can vary while portable API definitions persist.
+- Impact: Curl users gain discoverability, while GUI refugees retain interactive browsing without surrendering scripting.
+- Watch next: Clarify server/client wording, expose generated curl, and compare YAML ergonomics, scripting reliability, and large-collection navigation.

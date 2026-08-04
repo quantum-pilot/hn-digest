@@ -2,15 +2,22 @@
 
 - Score: 339 | [HN](https://news.ycombinator.com/item?id=48234090) | Link: https://modelrift.com/blog/openscad-llm-benchmark/
 
-- TL;DR  
-    - ModelRift benchmarked several AI coding tools—Codex, Claude, Cursor, Google Antigravity (Gemini 3.5 Flash), and its own Gemini 3.0 workflow—on modeling Rome’s Pantheon in OpenSCAD from two images. Antigravity produced the best fully autonomous result, using real dimensions and even generating the interior coffered dome, while a human-in-the-loop ModelRift run with visual annotations scored highest overall. The study highlights OpenSCAD as a strong fit for LLM-driven parametric CAD, but also that mesh correctness, iteration UX, and product reliability still limit real-world use.
+### TL;DR
 
-- Comment pulse  
-    - LLMs plus OpenSCAD already make small functional prints easy from dimensions/photos, but they still struggle with organic shapes and reliably guessing missing measurements.  
-    - Antigravity’s win impresses, especially the interior coffers, yet some dislike it pulling real-world dimensions or external data in a supposedly controlled benchmark task.  
-    - Commenters distrust Google’s AI tooling despite strong models, citing forced migrations, login/billing friction, and fragmented products that disrupt stable CAD and coding workflows.
+A small benchmark asked six AI coding workflows to recreate the Pantheon from two reference images in OpenSCAD, using CLI renders for iteration. Google Antigravity 2.0 with Gemini 3.5 Flash High led autonomous runs at 4.5/5, using researched dimensions and uniquely modeling the interior coffers; it took about 12 minutes. The author stresses that scores are task-relative, not general rankings, and final meshes need separate inspection. HN readers praised practical parametric parts but questioned one-shot validity, visual iteration, and Antigravity’s disruptive rollout.
 
-- LLM perspective  
-    - View: Treat this as a qualitative case study; robust CAD benchmarking needs diverse geometries, retries, and constrained vs external-knowledge modes.  
-    - Impact: Hobbyists and small labs gain most first; professional engineering will demand strict provenance, tolerance guarantees, and validated export pipelines.  
-    - Watch next: Benchmarks that mix OpenSCAD, FreeCAD, Blender scripting, testing parametric edits, manufacturability checks, and collaboration between agents and annotators.
+### Comment pulse
+
+- Simple functional parts are the sweet spot → calibrated photos and explicit dimensions can produce printable models, while free-form organic shapes remain difficult.
+
+- The ranking is weak evidence → geometry performance is jagged, and one attempt on one building cannot establish general superiority.
+
+- External research creates an evaluation ambiguity → real dimensions improved fidelity — counterpoint: filling unseen details may be unacceptable in engineering work.
+
+### LLM perspective
+
+- **View:** OpenSCAD is unusually agent-friendly because geometry remains inspectable text, yet visual judgment—not tool invocation—sets the ceiling.
+
+- **Impact:** Hobbyists can fabricate simple measured parts sooner; architectural or production work still needs expert review and human-guided correction.
+
+- **Watch next:** Repeat across varied objects, multiple seeds, mesh-validity checks, blinded scoring, and controlled access to external measurements.

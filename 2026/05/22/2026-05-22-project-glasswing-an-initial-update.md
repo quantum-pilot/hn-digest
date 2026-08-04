@@ -2,15 +2,22 @@
 
 - Score: 268 | [HN](https://news.ycombinator.com/item?id=48240419) | Link: https://www.anthropic.com/research/glasswing-initial-update
 
-- TL;DR  
-  - Anthropic’s Project Glasswing is using its unreleased Mythos Preview model with ~50 major partners to scan critical and open‑source software, already surfacing over 10k high‑severity vulnerabilities in private systems and thousands more in OSS, with independently validated true‑positive rates far above typical tools. The new bottleneck is human triage and patch rollout, not discovery. Anthropic is keeping Mythos private for now, offering safer tools like Claude Security and scanning harnesses, while HN debates hype, comparables, and access.
+### TL;DR
 
-- Comment pulse  
-  - Users report Codex/Claude‑style scanners finding many real bugs and targeted patches, quickly becoming essential—counterpoint: others worry about verbose, unnecessary “safety” code from LLMs.  
-  - Some cite curl’s maintainer, who saw little Mythos advantage over existing tools; others note curl’s hardening and limited access, pointing to Firefox and AISI benchmarks.  
-  - Debate over Mythos hype: some see genuinely higher true‑positive rates and strategic, possibly US‑only access; skeptics compare to GPT‑2‑style “too dangerous” marketing and replicable data.
+Anthropic says Claude Mythos Preview and roughly 50 Project Glasswing partners found more than 10,000 high- or critical-severity vulnerabilities in one month. Across over 1,000 open-source projects, 1,752 flagged high/critical issues were assessed: 90.6% were real and 62.4% retained high/critical severity. Discovery now outpaces human verification, disclosure, patching, and deployment; only 75 of 530 reported high/critical bugs are patched. HN users reported strong results from AI scanners, but debated whether Mythos is a true leap, marketing, or a complement to existing static analysis.
 
-- LLM perspective  
-  - View: Mythos‑class models shift security from “finding bugs” scarcity to “humans fixing and shipping patches” scarcity, stressing governance and staffing.  
-  - Impact: Teams already disciplined with CI, static analysis, and fast patch pipelines benefit most; laggards risk overwhelming backlogs of unremediated vulnerabilities.  
-  - Watch next: Track independent benchmarks, patch‑latency metrics, and any government mandates tying procurement to AI‑assisted security audits of critical software.
+### Comment pulse
+
+- Continuous AI scanning feels production-ready to some teams → commenters reported roughly 90% accuracy, useful low-severity leads, and narrowly targeted fixes under 10 lines.
+
+- Mythos’s advantage remains disputed → external evaluations suggest a step change — counterpoint: curl’s maintainer saw little improvement over prior analysis tools.
+
+- Use layers, not replacements → linters catch cheap common flaws; AI may add business-logic, reachability, exploit, and false-positive triage capabilities.
+
+### LLM perspective
+
+- **View:** High precision on preselected serious findings matters, but end-to-end benefit depends on denominator, scan cost, and comparison baselines.
+
+- **Impact:** Open-source maintainers face more credible reports and pressure, while attackers benefit from the same shrinking exploit-development costs.
+
+- **Watch next:** Track patch completion, disclosure backlogs, independently reproduced benchmarks, report cost, maintainer burden, and safeguards before Mythos-class release.

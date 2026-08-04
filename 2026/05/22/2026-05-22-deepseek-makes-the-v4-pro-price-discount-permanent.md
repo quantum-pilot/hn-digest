@@ -3,18 +3,21 @@
 - Score: 281 | [HN](https://news.ycombinator.com/item?id=48237663) | Link: https://api-docs.deepseek.com/quick_start/pricing
 
 ### TL;DR
-DeepSeek is locking in its steep V4 Pro price cut, making a frontier-level reasoning model dramatically cheaper than US competitors. V4 Pro now costs roughly $0.435/M input tokens and $0.87/M output, with ultra-cheap cache hits and a 1M-token context window. HN users report strong coding and reasoning performance, especially when paired with agents, at “can’t run out” prices—though some note slower generation and visible, occasionally heavy-handed political censorship compared with Western models.
 
----
+DeepSeek will keep V4 Pro’s 75% API discount after the promotion ends May 31: $0.003625 per million cached input tokens, $0.435 for uncached input, and $0.87 for output. The model pairs a 1-million-token context window and 384,000-token maximum output with thinking modes, tool calls, and OpenAI- and Anthropic-format APIs. HN users praised its coding, analysis, and unusually low cache economics as a backup or workhorse, while noting slower generation, higher token usage, and abrupt censorship around political subjects.
 
 ### Comment pulse
-- DeepSeek as main workhorse → Very capable for coding and analysis, integrates with Claude Code, Pi, Zed, etc.; cheap enough to be a default backup.
-- Value vs quality → Many find V4 Pro close to frontier models on day-to-day tasks at a fraction of the cost—counterpoint: tends to use more tokens and respond slower.
-- Governance and behavior → Strong, sometimes jarring censorship on political topics and explicit chain-of-thought; more overt than Western models’ subtler guardrails.
 
----
+- Existing agent ecosystems remove adoption friction → users report V4 Pro working through Claude Code, OpenCode, Pi, Zed, and Gptel.
+
+- Caching is the standout economic lever → V4 Pro’s cache-hit price is under 1% of uncached input pricing, rewarding repeated contexts.
+
+- Transparency cuts both ways → visible reasoning impressed users, but they also watched political answers disappear into unexplained refusals.
 
 ### LLM perspective
-- View: Permanent deep discount pressures incumbents on both price and transparency, especially around reasoning and cache economics.
-- Impact: Startups, indie devs, and heavy code/analysis users gain inexpensive, high-context experimentation without immediate vendor lock-in.
-- Watch next: Benchmarks vs GPT-5.x/Sonnet, stability of caching economics, and whether other labs match prices or differentiate on safety and tooling.
+
+- **View:** DeepSeek is competing on marginal workload cost, where extreme cache discounts can matter more than headline uncached-token prices.
+
+- **Impact:** Cost-sensitive teams can parallelize coding and analysis, but latency and governance behavior may keep V4 Pro in secondary roles.
+
+- **Watch next:** Measure task-level quality, total tokens, cache reuse, latency, censorship incidence, and post-May pricing stability against alternatives.

@@ -3,18 +3,17 @@
 - Score: 247 | [HN](https://news.ycombinator.com/item?id=48230892) | Link: https://qz.com/samsung-chip-workers-bonus-ai-profits-052126
 
 ### TL;DR
-Samsung struck a 10‑year profit‑sharing deal with its chipworkers’ union, averting a costly strike and allocating 40 trillion won ($26.6B) in bonuses tied to AI‑driven profits. Based on analyst forecasts, the average chip worker could receive ~513M won (~$340k), mostly in stock, with first payouts in 2027. The union secured 10.5% of operating profit in stock plus 1.5% in cash, replacing older capped schemes. HN discussion focuses on unions’ power, inequality, and contrasts with US tech and labor norms.
 
----
+Samsung and its chipworkers’ union reached a tentative deal that could create a 40 trillion won ($26.6 billion) bonus pool from 2026 profits, averaging a projected 513 million won ($340,000) per employee. The 10-year plan allocates 10.5% of operating profit in stock plus 1.5% cash, removes a half-salary cap, and averted an 18-day strike; ratification and profit thresholds still apply, with the first payout expected in 2027. HN celebrated workers sharing an AI-memory windfall but questioned mean-versus-median disparities and debated unions’ economic effects.
 
 ### Comment pulse
-- Union power → This is union leverage, not corporate generosity; strong Korean unions contrast with US decline and rising inequality—counterpoint: averages may mask much lower median payouts.  
-- Macro impact → Some fear rich packages will scare employers from Korea; others see a one‑off windfall that, spent by workers, boosts the real economy.  
-- US contrast → US tech workers already earn “moon money” and get equity, yet lack broad unions, face shrinking benefits, and are financially tied to billionaire interests via stocks/401(k)s.
 
----
+- Union leverage drove the payout → workers threatened production at a firm responsible for nearly one-quarter of South Korean exports.
+- Average is not typical → commenters suspect seniority and unit differences will place median payouts far below the $340,000 headline.
+- Broader effects are contested → profit sharing may circulate windfalls domestically — counterpoint: sustained labor pressure could accelerate offshoring or closures.
 
 ### LLM perspective
-- View → High-margin AI hardware profits are finally flowing to non-executive workers, at least where unions can credibly threaten disruption.  
-- Impact → Raises the bar for profit-sharing in semiconductor hubs; may pressure peers like SK Hynix, TSMC, and US fabs.  
-- Watch next → Whether Korean unions lock in similar terms industry-wide, and if US chip subsidies spur comparable worker-linked upside.
+
+- **View:** This is formula-based profit sharing, not a guaranteed annual salary increase; outcomes depend heavily on volatile semiconductor profits.
+- **Impact:** Memory workers gain upside and retention incentives, while Samsung trades 12% of operating profit for labor stability.
+- **Watch next:** Union ratification, 2026 operating profit, payout distribution, stock vesting, production continuity, and whether competitors match the formula.

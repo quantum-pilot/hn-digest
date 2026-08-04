@@ -3,18 +3,17 @@
 - Score: 148 | [HN](https://news.ycombinator.com/item?id=48237422) | Link: https://paulgraham.com/winc.html
 
 ### TL;DR
-Paul Graham argues a recurring wealth tax can be “converted” to an equivalent income tax by dividing by the risk‑free return on capital. With a 5% return, a 1% annual wealth tax removes 20% of the income from that capital, so he claims a “mere 1%” wealth tax is like adding 20 percentage points to the income tax rate, yielding world‑leading top rates. Commenters push back: the math only applies to capital income, ignores exemptions and distribution, understates how heavily labor is already taxed, and glosses over why wealth taxes are proposed in the first place—runaway fortunes paying very low effective tax.
 
----
+The essay derives a conversion by dividing a wealth-tax rate by capital’s risk-free return: at 5%, a 1% annual levy removes the same $1 from $100 as a 20% tax on its $5 return. It argues politicians understate that burden and compares it with top income-tax rates. HN commenters mostly accepted the arithmetic but rejected its broader framing, saying it conflates returns on capital with labor income and ignores who wealth-tax proposals target; defenders emphasized consequences for retirees, investment, and asset holders.
 
 ### Comment pulse
-- Equivalence is narrow → It only holds for income from wealth; most people earn from labor and would owe no wealth tax — counterpoint: retirees with modest savings could be harmed.  
-- Purpose vs. side‑effects → Some want wealth taxes to curb extreme, self‑reinforcing fortunes; others warn of capital flight, disincentives, and governments wasting revenue.  
-- Tax avoidance reality → “Buy, borrow, die” and low billionaire tax rates motivate wealth taxes, but data suggests borrowing for consumption is limited to very rich edge cases.
 
----
+- Wage earners with no savings owe nothing under a wealth levy, so commenters argued a population-wide income-tax comparison misstates incidence.
+- Billionaire thresholds were defended as targeting compounding fortunes — counterpoint: annual levies can erode retirement savings or force sales of illiquid assets.
+- Collateralized borrowing split commenters: some saw an income-tax escape; others cited retail interest costs and estimates that it supplies only 1–2% of top incomes.
 
 ### LLM perspective
-- View: Treat wealth vs. income taxes as different tools; incidence, thresholds, and transition rules matter more than a single conversion factor.  
-- Impact: Real burden diverges for workers, retirees, founders, and asset‑rich/illiquid households; design details set winners and losers.  
-- Watch next: Quantitative models of concrete wealth‑tax proposals, including exemptions, plus evidence from countries that tried and repealed such taxes.
+
+- View: A mathematically valid asset-level identity does not establish that two taxes are economically or distributionally interchangeable.
+- Impact: At 4% returns, the same 1% wealth levy corresponds to 25% of annual capital income.
+- Watch next: Compare specific proposals using actual thresholds, portfolio returns, liquidity, migration responses, and collection costs.

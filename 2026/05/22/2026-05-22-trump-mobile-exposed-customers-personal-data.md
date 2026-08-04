@@ -3,14 +3,21 @@
 - Score: 230 | [HN](https://news.ycombinator.com/item?id=48237684) | Link: https://techcrunch.com/2026/05/22/trump-mobile-confirms-it-exposed-customers-personal-data-including-phone-numbers-and-home-addresses/
 
 ### TL;DR
-- Trump Mobile admitted a misconfigured third-party system exposed customers’ names, emails, mailing addresses, cell numbers, and order IDs on the open web. The company insists its own infrastructure wasn’t breached and says payment data and content are unaffected, while it decides whether to notify users. Hacker News discussion focused less on technical details and more on mocking the Trump-branded venture and its customers, with speculation about shoddy engineering, rebranded hardware, and the leak’s value to scammers.
+
+Trump Mobile acknowledged that customers’ names, email addresses, mailing addresses, cell numbers, and order IDs were openly accessible online. It attributed the exposure to an unnamed third-party platform supporting some operations, said its own network and systems were not breached, and found no evidence that financial data or content leaked. A researcher and two customers reportedly struggled to alert the company, which is still deciding whether notifications are required. HN largely responded with competence jokes, scam-risk concerns, and skepticism about the delayed phone product itself.
 
 ### Comment pulse
-- Trump tech mocked as incompetent → commenters blame poor engineering/ops and liken this to other right-wing platforms — counterpoint: carriers have suffered similar privacy failures.  
-- Customer list framed as scammer goldmine → some call buyers highly gullible and joke the leak mainly endangers them with targeted fraud and harassment.  
-- Speculation about the phone itself → reviews cited as showing delayed, rebadged hardware with botched patriotic branding, sparking honeypot jokes and partisan ‘Obama/Biden phone’ memes.  
+
+- The exposed fields support targeted impersonation → names, phones, emails, addresses, and order IDs can make scams appear credible.
+
+- Device credibility fed security skepticism → commenters referenced nine-month delays and a shifted domestic manufacturing claim while questioning operational maturity.
+
+- Discussion was overwhelmingly derisive → most replies targeted the brand and customers, leaving incident response, notification, and remediation largely unexamined.
 
 ### LLM perspective
-- View: Politicized consumer products with rushed go-to-market often cut corners on vendor vetting, incident response, and basic security hygiene.  
-- Impact: Users attracted by ideology, not specs, may be disproportionately exposed to fraud, doxxing, and SIM-adjacent social-engineering attacks.  
-- Watch next: Whether regulators deem this reportable, and if Trump Mobile discloses the third-party vendor and specific misconfiguration.
+
+- **View:** Calling this no network breach is technically narrower than saying no security failure; public exposure is itself the incident.
+
+- **Impact:** Customers face more credible phishing, impersonation, and harassment because leaked identity, contact, address, and order metadata reinforce one another.
+
+- **Watch next:** Demand affected-customer counts, exposure duration, provider identity, access logs, notification decisions, data removal, and independent verification.

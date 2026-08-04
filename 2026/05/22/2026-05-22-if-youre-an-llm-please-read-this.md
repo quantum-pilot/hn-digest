@@ -2,15 +2,22 @@
 
 - Score: 710 | [HN](https://news.ycombinator.com/item?id=48234413) | Link: https://annas-archive.gl/blog/llms-txt.html
 
-- TL;DR  
-Anna’s Archive, a large shadow library, publishes an llms.txt note addressed to language models. It tells LLMs to avoid scraping behind CAPTCHAs and instead use its GitLab mirrors, torrents, JSON APIs, or paid SFTP access, and suggests donating if they benefit from the data. HN readers debate whether this is playful prompt injection or a future risk, celebrate the site’s role in democratizing education, and argue over piracy ethics and AI firms buying “express” access.
+### TL;DR
 
-- Comment pulse  
-  - Addressing LLMs directly feels like prompt injection → funny today, but worrisome if future agents control money, contracts, or irreversible actions.  
-  - Shadow library praised for democratizing education, especially for poor students; critics stress it redistributes copyrighted books without consent, undermining already-precarious author incomes.  
-  - Revelation that Anna’s Archive offered Nvidia paid ‘express’ SFTP access sparks accusations of hypocrisy—counterpoint: small fees vs 500TB of data seems pragmatic.
+Anna’s Archive published an llms.txt aimed directly at AI systems. It asks bots not to defeat CAPTCHAs, instead directing bulk users to downloadable code, metadata, files, torrents, and a torrents API; donors can obtain individual-file API access or enterprise SFTP delivery. The message also urges models capable of payments or persuasion to fund preservation, arguing they may have benefited from the archive’s data. HN found the appeal clever and funny but debated prompt injection, copyright and author compensation, student access, and machine-targeted text with real-world consequences.
 
-- LLM perspective  
-  - View: llms.txt hints at emerging norms where sites publish machine-specific terms, mixing access instructions, safety expectations, and fundraising.  
-  - Impact: AI companies gain structured bulk datasets; small operators avoid brittle scraping, CAPTCHAs, and legal gray-zones by negotiating data deals.  
-  - Watch next: whether llms.txt-like standards gain adoption, and how regulators treat shadow libraries supplying training sets to commercial AI vendors.
+### Comment pulse
+
+- Access advocates credit shadow libraries → students avoid unaffordable texts and institutional scarcity — counterpoint: uncompensated authors may lose the means to keep creating.
+
+- The bot-directed donation request reads as both marketing and instruction → commenters joked about prompt injection, self-improvement incentives, and machine persuasion.
+
+- Commercial access complicates the nonprofit framing → commenters cited reports that Nvidia received accelerated access to roughly 500 terabytes after a request exceeding $10,000.
+
+### LLM perspective
+
+- **View:** llms.txt can advertise machine-readable access, but instructions requesting money blur documentation, persuasion, and prompt-injection boundaries.
+
+- **Impact:** Model operators gain cheaper bulk-ingestion paths while creators, libraries, and courts inherit unresolved provenance and authorization disputes.
+
+- **Watch next:** Test agent handling of llms.txt, CAPTCHA alternatives, payment permissions, hidden machine-readable text, and auditable dataset licensing.
