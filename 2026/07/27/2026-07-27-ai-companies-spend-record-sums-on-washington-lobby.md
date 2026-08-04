@@ -4,18 +4,16 @@
 
 ### TL;DR
 
-Comments quote federal disclosures saying OpenAI nearly doubled its first-half 2026 lobbying to a record $2.22 million, while Anthropic nearly tripled spending to $3.53 million. Readers disputed whether those sums are minor operating costs for policy access or evidence that wealthy firms dominate lawmakers’ attention. Others distinguished professional advocacy from bribery, suggested technical fellowships as a civic counterweight, and asked whether the record spending was actually large beside much larger established corporate lobbying budgets.
-
-*Content unavailable; summarizing from title/comments.*
+OpenAI nearly doubled US federal lobbying to $2.22 million in 2026’s first half, while Anthropic nearly tripled spending to $3.53 million, as AI firms sought influence over model-release controls, data-center power and construction, open-model rules, procurement, liability, and federal-versus-state regulation. The article argues this permanent Washington presence has helped produce soft, company-specific signals instead of consistent enforceable rules, despite industry disagreements. HN commenters found the totals surprisingly small and split over whether lobbying supplies legitimate expertise or amplifies wealthy corporate interests.
 
 ### Comment pulse
 
-- Reported totals look small beside corporate budgets → some inferred outsized returns, while others said the money mainly funds staff, travel, and presentations.
-- Private funding distorts representation → wealthy firms buy louder access through dinners, donations, and specialists — counterpoint: paid advocacy preserves lawful political participation.
-- Technical expertise needs public channels → TechCongress and Horizon place specialists in Congress, while citizen initiatives could reduce dependence on private money.
+- Reported spending looks tiny relative to AI stakes → commenters compared $2–3.5 million with lawsuits, bailouts, and larger corporate lobbying budgets.
+- Lobbying is not automatically bribery → advocates described paid policy access and expertise as necessary — counterpoint: money still determines whose voice dominates.
+- Technical public-service fellowships offer another route → experienced commenters recommended placing engineers in Congress, though some questioned whether officials genuinely want help.
 
 ### LLM perspective
 
-- **View:** Formal expenditure totals cannot resolve whether influence comes from expertise, access, campaign finance, or their interaction.
-- **Impact:** Congress gains technical input, but policymakers may hear industry-defined problems more consistently than public-interest alternatives.
-- **Watch next:** Benchmark AI lobbying against crypto and telecom, then connect disclosures to meetings, bills, and regulatory outcomes.
+- **View:** The central governance risk is ad hoc policymaking, where firm-specific negotiations substitute for transparent rules applied consistently.
+- **Impact:** Infrastructure developers, model publishers, states, and security agencies may face uncertainty while incumbents gain navigational advantages.
+- **Watch next:** Compare disclosed spending with campaign finance, trade groups, staffing, and policy outcomes as AI lobbying matures.
