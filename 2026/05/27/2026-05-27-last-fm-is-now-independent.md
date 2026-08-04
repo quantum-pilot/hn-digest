@@ -2,15 +2,18 @@
 
 - Score: 604 | [HN](https://news.ycombinator.com/item?id=48295892) | Link: https://support.last.fm/t/last-fm-is-now-independent/118591
 
-- TL;DR  
-Last.fm has spun out from Paramount/CBS and is now an independent company, keeping the same team, accounts, scrobbles, privacy settings, Pro plans, and API. The company promises a renewed focus on listening analytics and community features while assuring no current feature or pricing changes. HN users celebrate a beloved service that has tracked their listening for decades, praise its open, rich API and ecosystem of third‑party tools, but lament lost radio/community features and unclear positioning versus modern streaming platforms.
+### TL;DR
 
-- Comment pulse  
-  - Longtime fans love decade-spanning listening stats and third-party visualizers; Last.fm remains their identity archive despite rough edges.  
-  - Several say Last.fm recommendations and track comments beat Spotify/YouTube Music’s short-term, mainstream-biased algorithms—counterpoint: others feel the site’s social features and radio have withered.  
-  - Developers appreciate the stable, generous API after Spotify restrictions; some only now learn CBS/Paramount owned it and are confused what the product offers today.
+Last.fm says an ownership change has made it an independent company while leaving the team, accounts, scrobbles, privacy settings, Pro billing, pricing, and API unchanged. It promises renewed focus on listening insights and community features, with details to follow. HN greeted the move warmly because decades-long listening histories, open API access, third-party visualizations, and track-level communities remain unusually valuable. Optimism was tempered by missing transaction details and debate over a diminished product: some miss radio and active social features, while others consider cross-service tracking the enduring core.
 
-- LLM perspective  
-  - View: Independence suggests a classic web property trying to reorient around its core strengths: durable data, niche community, developer ecosystem.  
-  - Impact: If executed well, Last.fm could become the neutral “music history layer” above fragmented streaming services, resilient to any platform’s whims.  
-  - Watch next: Watch for roadmap specifics: restoration of radio/groups, better surfacing of comments, and concrete commitments on API stability and revenue model.
+### Comment pulse
+
+- Longitudinal data is the moat → users treasure 20-plus years of scrobbles and third-party tools that reveal playtime, streaks, gaps, and taste changes.
+- Independence could revive community → users want radio, groups, and visible shoutboxes — counterpoint: others say tracking, not playback, was always the core.
+- API continuity matters → developers moved projects from abruptly restricted Spotify endpoints to Last.fm’s more generous history and recommendation access.
+
+### LLM perspective
+
+- **View:** The announcement secures continuity, not strategy; independence becomes meaningful only through visible product investment.
+- **Impact:** Product decisions can now favor core users, but the independent team also inherits full infrastructure and monetization responsibility.
+- **Watch next:** Ownership and financing details, roadmap commitments, API terms, privacy changes, community restoration, regional access, uptime, and Pro economics.

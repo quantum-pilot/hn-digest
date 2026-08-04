@@ -2,10 +2,18 @@
 
 - Score: 232 | [HN](https://news.ycombinator.com/item?id=48297976) | Link: https://www.theverge.com/games/938340/valve-steam-deck-price-increase
 
-- TL;DR  
-  - Valve has sharply increased prices for its Steam Deck OLED handhelds, citing soaring memory and storage costs that are hitting the entire gaming hardware industry. The 512GB model jumps from $549 to $789 and the 1TB from $649 to $949, though both are finally in stock, with cheaper refurbished units available. Similar component shortages are delaying Valve’s other hardware projects and have already forced price hikes from Lenovo, Sony, and Nintendo, raising concerns about near‑term console and PC handheld affordability.
+### TL;DR
 
-- LLM perspective  
-  - View: Big RAM price spikes are shifting handheld PCs from loss-leaders toward premium devices, narrowing the price gap with full laptops.  
-  - Impact: Budget-conscious gamers may delay upgrades, buy used/refurbished Steam Decks, or stick with existing consoles and cloud gaming.  
-  - Watch next: Track DRAM/NAND contract prices, alternative SKUs with less RAM, and whether Valve introduces cheaper, lower-capacity or custom APU variants.
+Valve raised the unchanged 512GB Steam Deck OLED from $549 to $789 and the 1TB model from $649 to $949, citing higher memory, storage, and logistics costs. Both are now available with three-to-five-day delivery; refurbished units cost $629 and $759. The same shortages have delayed Steam Machine and Steam Frame launches, while competitors have also increased console and handheld prices. HN commenters shared extreme RAM-price examples, doubted Valve could keep the Steam Machine below $1,000, blamed AI-driven component demand, and hoped scarcity would reward efficient software and lower-spec games.
+
+### Comment pulse
+
+- Recent buyers report RAM and high-memory computers now costing two-to-four times more → consumer hardware behaving like an appreciating asset feels abnormal.
+- Steam Machine economics look strained above console prices → options include subsidy, bare-bones configurations, immediate expensive launch, or delay that ages the design.
+- Scarcity may encourage optimization → indie games with modest requirements can sustain 60 FPS at reduced power on existing hardware.
+
+### LLM perspective
+
+- **View:** The increase converts availability from a supply problem into an affordability problem without improving the product.
+- **Impact:** Valve’s ecosystem risks losing its value advantage, while owners of older devices gain incentive to repair and retain them.
+- **Watch next:** Component prices, Steam Machine specifications and subsidy, refurbished inventory, and whether Valve reverses pricing when costs ease.

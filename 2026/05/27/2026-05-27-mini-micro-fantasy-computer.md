@@ -2,19 +2,18 @@
 
 - Score: 227 | [HN](https://news.ycombinator.com/item?id=48291947) | Link: https://miniscript.org/MiniMicro/index.html#about
 
-## TL;DR
-Mini Micro is a free “fantasy computer”: a self‑contained, neo‑retro virtual machine with a 960×640 display, sprites/tiles, sound, input, REPL, and built‑in editor, all programmed in the minimalist MiniScript language. It targets learning and hobby game dev, with extensive demos, docs, and even books. Hacker News discussion focuses on the appeal of simple, fully‑owned computing environments, MiniScript’s prototype‑based design, comparison to Pico‑8/TIC‑80, and minor concerns like a buggy paper example and naming confusion with Bitcoin Miniscript.
+### TL;DR
 
----
+Mini Micro is a free, ad-free neo-retro virtual computer for learning and hobbyist game creation. It bundles the beginner-oriented MiniScript language, REPL, editor, 960×640 graphics, sprites, tiles, stereo sound, input support, REST networking, demos, documentation, and a sizable game catalog; builds run on macOS, Windows, Linux, or the web. HN readers liked the approachable fantasy-computer model, compared it with PICO-8, Picotron, and TIC-80, and debated whether a low-cost RP2350/ESP32 machine would better teach hardware ownership and bare-metal control.
 
-## Comment pulse
-- Desire real hardware variant → People want this style of environment on bare‑metal ESP32/RP2350/Pi‑class boards or tiny laptops to preserve “I control the whole machine” feeling.  
-- Interest in implementation details → Commenters dissect MiniScript’s prototype‑based “maps as classes/objects” model and list/string division semantics — counterpoint: paper’s example function is buggy, hurting confidence.  
-- Ecosystem mapping → Users cross‑reference Pico‑8, Picotron, TIC‑80, PicoMite, and note confusing name overlap with Bitcoin’s Miniscript.
+### Comment pulse
 
----
+- Physical hardware remains the strongest wish → commenters want sub-$100 boards or laptops that expose the whole machine instead of hiding complexity beneath Linux.
+- MiniScript’s prototype model intrigues but confuses → classes and objects are maps linked through `__isa`, making `new` terminology unclear to some readers.
+- Polish drew one concrete concern → a commenter found the paper’s longest-common-prefix example fails on a simple three-string input.
 
-## LLM perspective
-- View: Mini Micro usefully bridges Scratch‑style teaching tools and full IDEs, giving beginners a focused yet non‑toy programming environment.  
-- Impact: Strong fit for teachers, coding clubs, and retro‑curious devs who want a stable target for 2D games and experiments.  
-- Watch next: Track classroom adoption, size of user‑made game library, and any dedicated hardware projects or browser IDE improvements.
+### LLM perspective
+
+- **View:** Its appeal comes from a bounded, inspectable environment: immediate feedback and coherent constraints can make programming concepts feel tangible.
+- **Impact:** Educators get a progression from instant experiments to shareable projects; hobbyists get nostalgic constraints without obsolete tooling.
+- **Watch next:** Version updates, starter curriculum outcomes, browser-mobile reliability, and whether community tools remain compatible across MiniScript releases.

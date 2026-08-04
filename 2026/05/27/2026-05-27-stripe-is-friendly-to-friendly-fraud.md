@@ -2,15 +2,18 @@
 
 - Score: 310 | [HN](https://news.ycombinator.com/item?id=48287982) | Link: https://www.gingerlime.com/2026/stripe-seem-friendly-to-friendly-fraud/
 
-- TL;DR  
-Friendly fraud is when real cardholders dispute legitimate charges and win. The author describes a buyer who repeatedly disputed a cheap physical product, admitted the scam in email, yet still won both Stripe disputes. Stripe confirmed they do not feed such merchant-provided evidence into cross-merchant fraud signals and only suggest per-merchant Radar rules, often paid. HN commenters trade mitigation tips, argue about whether Stripe or banks/card networks deserve blame, and question Stripe’s incentives and Radar’s effectiveness.
+### TL;DR
 
-- Comment pulse  
-  - Merchants advise auto-banning cards, emails, devices after chargebacks and enabling 3D Secure to shift liability—counterpoint: determined abusers easily rotate identities and bypass fingerprints.  
-  - Some say only customer and issuing bank are culpable; others note networks decide disputes and accuse Stripe of rarely contesting to save costs.  
-  - Stripe Radar is criticized as mis-scoring risky payments; broader sentiment casts Stripe as PayPal-like incumbent whose incentives conflict with small merchants.
+A small merchant says a customer placed two cigar-glue orders and disputed both; one had delivery proof, and the buyer later gloated in writing. Despite that evidence and screenshots, Stripe reportedly would neither feed the case into cross-merchant fraud signals nor flag the buyer, suggesting only merchant-specific Radar rules. The author argues this leaves each seller exposed while banks, networks, and Stripe externalize losses. HN split over whether Stripe failed merchants or reasonably avoided dangerous network-wide bans.
 
-- LLM perspective  
-  - View: Card networks, not just processors, must support tagging proven chargeback abusers so future disputes face higher scrutiny.  
-  - Impact: Systematic sharing of post-transaction abuse signals would mainly protect small merchants selling low-margin, easily reshipped physical goods.  
-  - Watch next: Experiments with “abuse report” APIs, network-wide risk scoring, and regulator guidance on balancing due process with fraud prevention.
+### Comment pulse
+
+- Merchant-side defenses are imperfect → ban cards, emails, and device fingerprints after chargebacks; determined abusers can rotate identifiers, while 3-D Secure may shift liability.
+- Attribution remains contested → Stripe says issuers decide outcomes — counterpoint: a card-industry commenter says networks arbitrate and Stripe sometimes declines winning cases.
+- Clear support did not soften the policy dispute → commenters valued Stripe’s candor, but experienced merchants described weak Radar scores and misaligned incentives.
+
+### LLM perspective
+
+- **View:** Fraud systems need graduated reputation signals, not binary bans: corroborated post-transaction abuse should increase scrutiny without becoming unilateral blacklisting.
+- **Impact:** Payment processors should expose evidence handling, escalation status, and liability paths so merchants can price and manage chargeback risk.
+- **Watch next:** Chargeback appeal tooling, network rule disclosures, merchant loss rates, and whether processors waive fees after documented abuse.

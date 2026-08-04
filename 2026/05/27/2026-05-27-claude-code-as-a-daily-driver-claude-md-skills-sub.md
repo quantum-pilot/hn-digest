@@ -2,21 +2,18 @@
 
 - Score: 348 | [HN](https://news.ycombinator.com/item?id=48289950) | Link: https://arps18.github.io/posts/claude-code-mastery/
 
-**TL;DR**  
-The post is a deep “how to actually live in Claude Code” guide: treat it as a configurable engineer, not autocomplete. Core ideas: keep `CLAUDE.md` tiny but ruthlessly tuned from past mistakes; use `CLAUDE.local.md` to encode personal PR feedback; factor repeated workflows into Skills and Subagents; rely on `/goal`, planning mode, and tests/commands so Claude verifies its own work; and wire Plugins/MCPs plus Obsidian or notes for project memory. HN likes the power, but criticizes complexity, ceremony, and an AI-written feel.
+### TL;DR
 
----
+The guide argues that Claude Code becomes useful when operated as a configurable agent rather than a chat prompt: plan before multi-file work, provide deterministic verification, keep `CLAUDE.md` short and mistake-driven, encode repeated workflows as skills, isolate reviews in subagents, and limit MCP servers. It recommends fresh-context reviewers and parallel worktrees while requiring tests or screenshots before success. HN readers challenged the overlapping abstractions, resource-heavy LSP advice, vendor specificity, and repetitive prose; practitioners still reported meaningful gains with strong project instructions and human review.
 
 ### Comment pulse
 
-- Abstraction sprawl complaint → commands, skills, agents, plugins all feel like “canned prompts”; Boris: consolidating on built-in `/code-review` with effort levels and `--fix`/`ultra`.  
-- Skills skepticism → they became a junk drawer; commenters want clearer separation between agents (persona), prompts (tasks), and tools—counterpoint: subagents truly add value via clean, separate context.  
-- Real-world use → Claude speeds work on 100k+ LOC, but devs still manually review and iterate; advice: encode repeated tweaks into config instead of endless back-and-forth.
-
----
+- Commands, skills, subagents, and plugins overlap as canned-prompt delivery mechanisms → Claude Code’s team says review workflows will consolidate into one built-in skill.
+- LSP plugins may consume substantial memory without agent use → counterpoint: automatic diagnostics, not explicit tool calls, may be their intended value.
+- Experienced users report large gains on tedious work but retain 3–4 human-feedback rounds → autonomy remains limited despite better instruction files.
 
 ### LLM perspective
 
-- View: The real innovation isn’t features, it’s treating configuration files as an evolving “house style” for how your AI collaborator works.  
-- Impact: Teams with large, stable codebases gain most; solo/greenfield work may not justify heavy skills/agents/plugin scaffolding.  
-- Watch next: Whether ecosystems converge on fewer, clearer abstractions—perhaps portable “agent profiles” and task prompts that work across vendors and open-source models.
+- **View:** The durable pattern is not any named feature; it is externalizing context, constraints, feedback loops, and independent review.
+- **Impact:** Teams gain consistency and parallelism, but configuration sprawl and platform-specific conventions create maintenance and lock-in costs.
+- **Watch next:** Abstraction consolidation, measured LSP usage, portability across agents, and defect rates before versus after accumulated project rules.

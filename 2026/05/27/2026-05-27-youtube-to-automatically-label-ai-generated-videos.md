@@ -2,15 +2,18 @@
 
 - Score: 453 | [HN](https://news.ycombinator.com/item?id=48299753) | Link: https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators/
 
-## TL;DR
-YouTube is making AI-content disclosures more visible and partly automatic. Any photorealistic or “meaningfully AI-altered” video will get a single, prominent label (under long videos, overlay on Shorts); lighter edits stay in the description. Creators must still self-report, but YouTube will auto-label when internal signals detect substantial synthetic content, with permanent flags for videos from YouTube’s own AI tools or with C2PA metadata. HN commenters debate AI’s spread in music and pet clips, detector reliability, and ways to dodge AI spam in recommendations.
+### TL;DR
 
-## Comment pulse
-- AI music dominates searches; commenters want labels for tracks and worry listeners are unaware—or indifferent—to AI origins, though some argue enjoyment matters more than provenance.  
-- AI-generated pet and slideshow “review” videos are seen as deceptive spam that clutters recommendations and search, making authentic or informative content harder to find.  
-- Detection reliability is doubted, citing past misclassifications and looming evasion arms races—counterpoint: watermarks and conservative thresholds could still make labels broadly useful.  
+YouTube is making disclosures for photorealistic or meaningfully AI-altered videos more visible: below long-form players and overlaid on Shorts. Creators must still self-report, but new internal signals will automatically label significant photorealistic AI use when they do not. Creators may correct detections unless YouTube tools or C2PA metadata establish generation; labels alone will not affect recommendations or monetization. HN debated scope, accuracy, and whether disclosure labels meaningfully improve discovery without filtering or provenance guarantees.
 
-## LLM perspective
-- View: Prominent, platform-enforced AI labels normalize synthetic media while making stealthy misuse slightly harder, especially for casual viewers.  
-- Impact: Creators using YouTube’s own AI tools lose deniability; human-only creators gain an incentive to signal authenticity via provenance metadata.  
-- Watch next: Monitor dispute statistics, AI music policies, Shorts saturation, and emerging regulations mandating interoperable provenance and labeling standards.
+### Comment pulse
+
+- Coverage questions dominate → readers asked whether AI music and hybrid productions qualify, and what proportion of generated material crosses YouTube’s significance threshold.
+- Discovery remains unsolved → users want a global AI-content filter because disabling recommendations leaves search results and synthetic review slideshows untouched.
+- Detector reliability divided commenters → watermark-based certainty could limit false positives — counterpoint: unmarked generations create false negatives and an enduring adversarial race.
+
+### LLM perspective
+
+- **View:** Detection and provenance solve different problems: classifiers estimate appearance, while signed metadata attests history only when creators preserve it.
+- **Impact:** Viewers gain context, but creators inherit appeal work and platforms must prevent labels from becoming implied judgments of quality.
+- **Watch next:** Appeal rates, precision by media type, label effects on trust, and support for user-controlled filtering.

@@ -3,18 +3,17 @@
 - Score: 342 | [HN](https://news.ycombinator.com/item?id=48287468) | Link: https://developers.cloudflare.com/flagship/
 
 ### TL;DR
-Cloudflare Flagship is a new feature flag service tightly integrated with Workers and KV, offering typed flags, targeting rules, percentage rollouts, and dashboard-based management. It implements the OpenFeature standard and ships JS SDKs so applications can evaluate flags locally, and the docs even include explicit instructions and indexes for LLM-based agents. HN discussion debates local vs edge evaluation architectures, warns against conflating flags with configuration, questions client-side token scope, and notes broader Cloudflare concerns around permissions and enterprise gating.
 
----
+Cloudflare’s Flagship adds managed feature flags with native Workers evaluation and an OpenFeature-compatible JavaScript SDK for Workers, Node.js, and browsers. Teams can target users with grouped rules, run consistent percentage rollouts, and return booleans, strings, numbers, or JSON without redeploying. HN agreed that reliable flag delivery has real operational value despite booleans-as-a-service jokes, but debated local versus fetched evaluation and warned against conflating flags with configuration or entitlements. The sharpest concern was browser tokens spanning every app in an account; app-scoped tokens are still being built.
 
 ### Comment pulse
-- Local in-memory evaluation of rulesets avoids network hops and enables rich context, but needs robust client engines and governance—counterpoint: some prefer simpler periodic flag-table fetches.  
-- Feature flags, app config, A/B tests, and entitlements should stay distinct; SaaS flag platforms add scale, UX, and safety beyond “booleans-as-a-service.”  
-- Adoption concerns: broad-scope API tokens, enterprise-only features, and coarse account permissions make teams wary of using Flagship for serious production workloads.  
 
----
+- Local evaluation maximizes agility → in-memory rules make checks constant-like — counterpoint: periodic customer-specific snapshots may be simpler than maintaining multilingual edge SDKs.
+- Flags need semantic boundaries and cleanup → configuration, experiments, and entitlements have different lifecycles; unchecked flexibility creates governance debt.
+- Account-wide browser tokens expand exposure → clients may evaluate flags across apps; a Cloudflare engineer said app-scoped tokens are in progress.
 
 ### LLM perspective
-- Embedding explicit LLM guidance and llms.txt in docs hints at Cloudflare expecting autonomous agents as first-class API consumers.  
-- Flagship’s OpenFeature compatibility lowers vendor lock-in, enabling migration from LaunchDarkly/Statsig while reusing the same evaluation code.  
-- Key maturity signals: app-scoped tokens, better RBAC across environments, and published performance benchmarks for local versus edge flag evaluation.
+
+- **View:** Feature flags are distributed control-plane state; value comes from consistency, latency, auditability, and cleanup—not the boolean itself.
+- **Impact:** Workers users gain native integration, while browser deployments must treat flag data and targeting inputs as publicly observable.
+- **Watch next:** Verify browser threat modeling, offline-evaluation semantics, SDK caching, propagation latency, audit logs, limits, pricing, and stale-flag tooling.

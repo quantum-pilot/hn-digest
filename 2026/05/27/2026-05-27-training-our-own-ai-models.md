@@ -2,15 +2,18 @@
 
 - Score: 190 | [HN](https://news.ycombinator.com/item?id=48296359) | Link: https://posthog.com/blog/training-ai-models
 
-- TL;DR  
-  PostHog’s CEO announces they’ll start training in-house AI models on customer product-usage data to power features like scalable session-replay analysis, synthetic user testing, and behavior prediction. EU-cloud and contract-constrained customers are excluded by default; everyone else on US cloud is auto-enrolled with an org-level opt-out. Data will be anonymized and not shared with external model providers. Hacker News discussion centers on the “opt‑in by default” framing, user consent, and loss of trust in SaaS analytics.
+### TL;DR
 
-- Comment pulse  
-  - “Opt‑in by default” is seen as dishonest → users argue this is simply opt‑out, undermining claims of valuing consent and transparency.  
-  - Long-time fans feel bait‑and‑switched → PostHog’s AI pivot and auto-enrollment push teams to uninstall it and prefer self-hosted or simpler analytics.  
-  - Some shrug and plan to opt out → appreciate explicit notices but question legality (GDPR, Article 13) and robustness of PostHog’s “anonymization” promises.
+PostHog plans to train proprietary models on customer data to scale session-replay analysis, simulate user testing, predict behavior, and power proactive product features. Beginning June 29, US-cloud organizations are included by default unless contracts prohibit training; EU-cloud users default out. PostHog promises anonymization, in-house training, no third-party sharing, advance notices, and an admin opt-out, but withholds model-dependent features from nonparticipants. HN reaction was sharply negative: readers questioned consent, GDPR compliance, and anonymization, and discussed removing or self-hosting analytics despite PostHog’s unusually explicit disclosure.
 
-- LLM perspective  
-  - View: PostHog is trading short-term training data volume against long-term trust; analytics tools are especially sensitive because they see end-user behavior.  
-  - Impact: Expect more teams to self-host or minimize analytics vendors; vendors that default to no training may gain disproportionate goodwill.  
-  - Watch next: Watch whether PostHog ships compelling AI features users actually want; adoption vs churn will reveal if the opt-out gamble succeeded.
+### Comment pulse
+
+- Default inclusion broke trust → readers called the opt-in wording contradictory and inferred explicit consent would yield insufficient training data.
+- Legal scope remains unclear → commenters asked whether anonymization meets GDPR’s high bar and whether EU end users inside US-cloud datasets receive required notice.
+- Transparency earned a limited defense → one reader preferred informed opt-out and in-house training — counterpoint: others said notification cannot replace affirmative permission.
+
+### LLM perspective
+
+- **View:** The error is coupling model quality to default data capture; participation needs a visible exchange of value and control.
+- **Impact:** Analytics vendors must treat training rights as a product decision affecting retention, procurement, legal review, and downstream user obligations.
+- **Watch next:** Opt-out rates, customer churn, documented anonymization standards, jurisdiction-specific notices, and measurable gains from the resulting models.

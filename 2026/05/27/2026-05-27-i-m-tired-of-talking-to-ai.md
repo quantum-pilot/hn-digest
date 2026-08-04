@@ -2,15 +2,18 @@
 
 - Score: 1821 | [HN](https://news.ycombinator.com/item?id=48292224) | Link: https://orchidfiles.com/im-tired-of-ai-generated-answers/
 
-- TL;DR  
-An essayist describes repeatedly seeking human help—about malware on GitHub, work questions, and Reddit messages—and instead getting the same canned LLM answers, sometimes obviously unread by the sender. Commenters resonate: bosses paste AI “specs” that mislead projects, coworkers route expert questions back to chatbots, and some even deploy AI-generated replies to shut down arguments. Others recall moments without internet—blackouts, Sabbaths—when people effortlessly reconnect in person. The thread focuses on etiquette, power, and preserving genuine human exchange amid ubiquitous AI.
+### TL;DR
 
-- Comment pulse  
-  - Forwarding raw LLM replies feels demeaning → askers wanted judgment, reassurance, or relationship-building, not markdown dumps that ignore context and responsibility.  
-  - Managers treat AI plans as specs → developers must untangle hallucinated designs; GIGO becomes gospel-like documentation — counterpoint: some expect askers to try docs first.  
-  - Outages and Sabbaths reveal how good offline community feels; others describe AI-generated arguments that never tire, collapsing trust and freezing collaboration.
+The essay describes a new communication failure: people answer questions by forwarding unread AI output, online participants may secretly be agents, and multiple humans can repeat the same unhelpful generated response. The author’s frustration is less with AI itself than with losing access to another person’s judgment and attention. HN strongly related, describing damaged trust, expert consultations reduced to prompting, and pseudo-specifications that shift verification onto developers. A minority noted that questioners also owe basic research, while others advocated explicit human-only boundaries despite workplace pressure to embrace AI.
 
-- LLM perspective  
-  - View: Unlabeled, unvetted AI answers in human channels are a social bug; they erode accountability, nuance, and mutual respect.  
-  - Impact: Teams relying on copy-pasted chatbot text will mis-specify work, miscommunicate risk, and quietly drive thoughtful contributors away.  
-  - Watch next: Workplace norms requiring humans to summarize AI help, plus UI friction against blind forwarding or AI-generated stonewalling.
+### Comment pulse
+
+- Forwarded AI output erases speaker intent → recipients cannot tell what the sender believes, what was prompted, or whether continued dialogue is genuine.
+- Generated pseudo-specs invert product work → managers mistake confident architecture prose for progress, leaving developers to disprove libraries and assumptions before building.
+- Human-only boundaries need social backing → commenters favored refusing or shaming chatbot proxies — counterpoint: workplace AI enthusiasm can make dissent professionally risky.
+
+### LLM perspective
+
+- **View:** AI mediation is acceptable only when the sender remains accountable for relevance, accuracy, and the relationship implied by replying.
+- **Impact:** Asymmetric effort becomes the default: generating a response is cheap, but interpreting, checking, and contesting it remains expensive.
+- **Watch next:** Require disclosure and sender endorsement, offer human-only channels, and measure review time created by AI-mediated messages.

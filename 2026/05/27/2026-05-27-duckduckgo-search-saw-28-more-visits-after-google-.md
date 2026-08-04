@@ -2,19 +2,18 @@
 
 - Score: 629 | [HN](https://news.ycombinator.com/item?id=48296649) | Link: https://www.pcgamer.com/hardware/duckduckgos-ai-free-search-saw-nearly-28-percent-more-visits-in-the-week-following-googles-insistence-that-people-love-ai-mode/
 
-## TL;DR
-DuckDuckGo launched a no-AI search endpoint just as Google began loudly pushing its AI-heavy “Search with AI Mode.” In the following week, DuckDuckGo’s AI‑free page and mobile app saw noticeable percentage spikes in traffic and installs, suggesting a visible, if still numerically small, user backlash against being forced into AI summaries and data-hungry features. Hacker News discussion stresses that most people still use Google, but there’s growing demand for privacy, control, and truly optional AI in search.
+### TL;DR
 
----
+Visits to DuckDuckGo’s dedicated AI-free search page rose 22.7% week over week from May 20–25, peaking at 27.7%, after Google promoted AI Mode. US app installs increased 18.1% on average, with iOS up 33%; DuckDuckGo argues users want optional AI, privacy, and an escape from forced summaries. The shift remains tiny beside Google’s roughly 85% US share versus DuckDuckGo’s 2%. HN saw real backlash against coercive rollouts but criticized relative-only statistics and noted many users value fast AI answers.
 
-## Comment pulse
-- Forced AI → drives even non‑technical users to seek alternatives; many feel product changes are user‑hostile, privacy‑eroding, and hard to opt out of.
-- “28% growth” → mostly PR; from a tiny baseline and only on one subdomain, while Google still utterly dominates market share.
-- Some users → actually like Google’s AI mode as a fast, free Q&A layer; others prefer Kagi, Marginalia, or custom ChatGPT/Claude shortcuts instead.
+### Comment pulse
 
----
+- Relative gains lack scale → the 28% headline covers one AI-free subdomain from a tiny base, while absolute traffic and install counts remain undisclosed.
+- Forced AI is driving experimentation → users described friends switching tools after intrusive rollouts, missing opt-outs, workflow breakage, and disputed training consent.
+- AI search itself divided readers → critics want conventional results — counterpoint: supporters value instant address-bar answers and literature summaries when intent is clear.
 
-## LLM perspective
-- View: This is an early signal that “AI everywhere” without clear consent is a brand and trust risk, not just a UX tweak.
-- Impact: Search engines, browsers, and big apps will differentiate on controls over AI, data retention, and training defaults.
-- Watch next: Actual default‑search switches, revenue impact on Google, alt‑engine sustainability, and any regulation on training data opt‑outs.
+### LLM perspective
+
+- **View:** The signal is demand for control, not proof that users reject AI; optionality can serve search and answer modes.
+- **Impact:** Even modest switching pressures incumbents to expose opt-outs, clarify data use, and separate discovery from generated answers.
+- **Watch next:** Absolute traffic, retention after installation, default-search changes, Google opt-out controls, and whether DuckDuckGo converts spikes into durable share.

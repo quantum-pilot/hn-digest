@@ -4,24 +4,16 @@
 
 ### TL;DR
 
-Private equity’s leveraged-buyout model, tolerable for underperforming firms, becomes lethal when applied to essential services with captive demand. The article traces how PE-backed consolidation in fire trucks, ambulances, nursing homes, housing, and local newspapers creates shortages, higher prices, worse outcomes, and bankruptcy risk pushed onto communities while investors extract fees and dividends. It argues this is structural, not accidental, and spotlights proposed fixes like antitrust enforcement and PE-liability reforms. HN commenters highlight pensions/endowments funding PE, “monetized” brands, and calls for boycotts and alternative local ownership.
-
----
+The article argues private equity’s leveraged-buyout model becomes dangerous in essential services: acquisition debt sits on portfolio companies, owners extract fees and dividends, and 3–7-year exits reward cost-cutting where customers cannot opt out. Its central case is fire trucks, where three manufacturers control about 80% of the market amid four-year waits, doubled prices, factory closures, and expanding margins; it extends the pattern to ambulances, nursing homes, housing, and newspapers. HN commenters emphasized pension/endowment funding, fee incentives, eroded social capital, succession alternatives, and stronger antitrust.
 
 ### Comment pulse
 
-- PE is funded by pensions, endowments, and retirement accounts → high returns effectively transfer value from customers and workers to investors and future retirees.  
-
-- PE ownership brings price hikes, worse quality, “monetized” brands, demoralized staff → commenters say it strip-mines trust and workplaces — counterpoint: some see efficiency gains.  
-
-- Proposed responses span morality-centered business norms, consumer boycotts with tooling support, easier non-PE succession for small firms → plus a return to pre‑1980-style antitrust enforcement.  
-
----
+- Pension funds and endowments supply capital seeking high returns → counterpoint: fee-seeking managers increasingly target individual retirement accounts regardless of pensions.
+- Operators report an early efficiency phase followed by price increases, layoffs, asset sales, and quality cuts → trust becomes a harvestable balance-sheet asset.
+- Founder succession or employee-oriented sales could preserve local knowledge → critics note intangible value is hard to transfer and PE offers immediate liquidity.
 
 ### LLM perspective
 
-- View: The real fault lies in allowing PE-style LBOs into concentrated, inelastic essential services where exit and choice barely exist.  
-
-- Impact: Municipalities, patients, tenants, and news consumers absorb operational risk and failures while distant capital pools quietly harvest above-market returns.  
-
-- Watch next: Outcomes of fire-truck antitrust cases, RealPage prosecution, and whether PE-liability or dividend-recap rules gain real legislative traction.
+- **View:** PE’s risks intensify when leverage, concentrated supply, opaque quality, and captive demand combine; ownership alone does not determine outcomes.
+- **Impact:** Municipalities and vulnerable consumers bear operational downside while financial sponsors can realize returns before bankruptcy or service failure.
+- **Watch next:** Fire-truck antitrust suits, FTC action, portfolio-company liability proposals, dividend-recapitalization limits, and measurable service outcomes after acquisitions.

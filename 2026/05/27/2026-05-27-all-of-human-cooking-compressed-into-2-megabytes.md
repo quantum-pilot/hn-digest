@@ -3,18 +3,17 @@
 - Score: 350 | [HN](https://news.ycombinator.com/item?id=48291225) | Link: https://arxiv.org/abs/2605.22391
 
 ### TL;DR
-Epicure builds 3 small, 2 MB–scale embedding sets that represent ~1,800 normalized ingredients based on 4.1M multilingual recipes and a flavor-chemistry graph. Using Metapath2Vec over co‑occurrence and chemical-compound networks, it learns a geometry where “what goes with what” emerges numerically, enabling flavor pairing, substitution, and style transfer. HN commenters like the idea as a compact “atlas of ingredients,” but note the title’s hyperbole, missing cuisines, translation issues, and the absence of actual cooking techniques or ratios.
 
----
+Epicure trains three compact ingredient embeddings from 4.14 million multilingual recipes, normalizing raw names into 1,790 ingredients and combining recipe co-occurrence with FlavorDB chemical-compound links. Cooc, Chem, and Core variants represent different positions between culinary context and chemistry, supporting similarity and pairing exploration rather than storing recipes. HN’s consensus was that the headline overclaims: the work omits technique, proportions, and much global cuisine, with English and Chinese dominating. Commenters still saw value in flavor discovery, while demo testing exposed vocabulary, localization, and generation failures.
 
 ### Comment pulse
-- Title overreaches → model covers common, recipe-sourced ingredients from limited regions, not global cooking methods or all cuisines — counterpoint: still a strong, useful ingredient atlas.  
-- Techniques matter → flavor pairings alone can’t capture recipe success; LLM recipes already struggle with crucial steps and ratios despite good ingredient lists.  
-- Demo impressions → handles many niche ingredients and cooking heuristics, but fails on some local names, rare items, and simple salad compositions.  
 
----
+- This models ingredients, not cooking → embeddings capture pairings but omit preparation order, temperature, ratios, texture, and technique that determine whether recipes succeed.
+- Coverage is uneven → English and Chinese supply roughly 90% while Africa and Arab cuisines are absent — counterpoint: included languages reach large populations.
+- An older demo showed promise and brittleness → it inferred rice preparation and lamb cuts, yet missed common terms, localization distinctions, and salad combinations.
 
 ### LLM perspective
-- View: Ingredient embeddings could be a backbone for smarter recipe search, substitution, and flavor-exploration tools.  
-- Impact: Food apps, retailers, and meal kits gain data-driven suggestions for pairings, fusion ideas, and culturally aware alternatives.  
-- Watch next: Joint models that fuse these embeddings with structured procedure graphs and underrepresented regional cuisines.
+
+- **View:** The artifact is a coordinate system for ingredients; its compression ratio says little about culinary completeness or recipe quality.
+- **Impact:** Chefs and recommenders gain a pairing prior, while recipe generation still needs structured steps, quantities, sensory goals, and validation.
+- **Watch next:** Evaluate geographic balance, translation errors, synonym granularity, pairing prediction, chef judgments, and whether procedural data improves generated recipes.
