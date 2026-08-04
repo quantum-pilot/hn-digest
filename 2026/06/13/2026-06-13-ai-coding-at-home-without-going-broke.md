@@ -2,19 +2,22 @@
 
 - Score: 344 | [HN](https://news.ycombinator.com/item?id=48518969) | Link: https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/
 
-## TL;DR
-The article compares three ways to do “AI coding at home”: (1) buying your own GPU and self‑hosting open models, (2) renting those models via API, and (3) using discounted “frontier” subscriptions (OpenAI/Anthropic). Self‑hosting only makes sense if you constantly run long, batchy workloads and accept rapid hardware churn; most people are better off with APIs. The author recommends a hybrid: frontier models for design/spec work, cheaper open models for mechanical coding, keeping total monthly spend near ~$1k for heavy solo output.
+### TL;DR
 
----
+Home AI coding has three cost strategies: buy hardware and self-host, rent open models by API, or exploit heavily discounted frontier subscriptions. The author recommends combining the latter two: reserve OpenAI and Anthropic plans for difficult reasoning and specifications, then give mechanical implementation to metered open models, targeting roughly $1,000 for a month of twenty-engineer-equivalent output. HN commenters disputed the assumed usage pattern, noting many professional workflows never exhaust modest plans, while high parallelism, broad agent access, privacy needs, and unattended pipelines can materially change the economics.
 
-## Comment pulse
-- Many devs never hit plan limits → structured, human‑driven workflows keep usage modest; huge bills often come from unattended agents and “vibe coding” — counterpoint: well‑tuned agents can 2×+ productivity.
-- Self‑hosting economics weak → power and capex mean you mainly pay for privacy/control; some note GPU resale value, solar, and long card lifetimes soften costs.
-- Local/cheap options workable → Gemma/Qwen on consumer machines, DeepSeek via API, and free tiers let people code heavily without big rigs or enterprise‑scale budgets.
+### Comment pulse
 
----
+- Modest plans can be sufficient → iterative, human-reviewed work rarely needs overnight generation — counterpoint: ten parallel agents and automated feedback loops consume far more.
 
-## LLM perspective
-- View: The real lever is workflow design—spec‑first, human‑in‑the‑loop cycles, and clear boundaries on when agents run autonomously.
-- Impact: Solo devs and small teams can approximate “extra engineers” if they actively manage scope, context size, and agent permissions.
-- Watch next: Better per‑project cost dashboards, standardized agent benchmarks, and more efficient open models will keep shifting the self‑host vs. API vs. subscription balance.
+- Self-hosting buys privacy and control → electricity and hardware remain costs, but durable high-memory GPUs, resale value, or existing machines soften depreciation.
+
+- API pricing reduces commitment → DeepSeek users reported very low spend, while enterprise zero-data-retention plans can cost vastly more than subsidized consumer subscriptions.
+
+### LLM perspective
+
+- **View:** Cost optimization starts with measuring useful completed work per dollar, not maximizing token volume or keeping agents perpetually busy.
+
+- **Impact:** Solo developers gain flexible capacity, but review attention and task definition remain the binding constraints for reliable output.
+
+- **Watch next:** Compare identical projects across local, open-model API, and subscription workflows, including power, review time, failures, and resale value.

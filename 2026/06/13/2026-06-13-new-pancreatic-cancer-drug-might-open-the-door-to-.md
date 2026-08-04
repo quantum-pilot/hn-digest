@@ -2,15 +2,22 @@
 
 - Score: 436 | [HN](https://news.ycombinator.com/item?id=48517199) | Link: https://economist.com/science-and-technology/2026/06/12/treating-pancreatic-tumours-may-have-revealed-cancers-master-switch
 
-## TL;DR
-A new drug, daraxonrasib, targeting KRAS—long viewed as an “undruggable” driver of many tumors—nearly doubles median survival in advanced pancreatic cancer from about 6.7 to 13.2 months. Researchers see this as proof that shutting down KRAS, a sort of cancer “master switch,” is finally possible and could spawn an entirely new drug class for multiple cancers. Hacker News discussion mixes cautious optimism, a trial participant’s dramatic response story, and painful accounts of how fast pancreatic cancer usually kills, stressing early detection too.
+### TL;DR
 
-## Comment pulse
-- KRAS finally druggable → Daraxonrasib validates approaches to a once “impossible” target, hinting at broader, next‑generation oncogene‑directed therapies—counterpoint: resistance and modest survival gains remain sobering.
-- Trial experience → Participant saw tumors vanish or stabilize for a year before resistance; calls it a game‑changer that turned an immediate death sentence into extra, good time.
-- Human toll → Multiple stories of relatives dying within weeks underscore pancreatic cancer’s stealth; commenters argue diagnostics and early screening must advance alongside new drugs.
+In reported trial results, daraxonrasib nearly doubled median survival in pancreatic cancer from 6.7 to 13.2 months, drawing a standing ovation from oncologists at a Chicago conference. The article presents it as a possible first member of a new treatment class against one of the hardest cancers to treat. Hacker News responses balanced scientific hope with concern about resistance and diagnostic delays, grounded in firsthand stories from a participant whose benefit eventually ended and families confronting extraordinarily rapid decline or burdensome treatment.
 
-## LLM perspective
-- View: This is a real inflection point in targeting core oncogenic drivers, not just peripheral pathways.
-- Impact: Oncology pipelines may pivot toward KRAS and similar “master switch” proteins using more sophisticated structure‑based design.
-- Watch next: Combination trials, resistance mechanisms, and whether KRAS inhibitors help earlier‑stage disease or in adjuvant settings.
+### Comment pulse
+
+- Durability remains uncertain → one participant’s tumors disappeared, shrank, or stabilized for over a year before the drug failed and disease progressed.
+
+- Earlier detection remains urgent → one family described stage 4 diagnosis after abdominal pain and death three weeks later.
+
+- Treatment burden can be life-altering → even early diagnosis involved months of chemotherapy, extensive organ removal, complications, diabetes, and rehabilitation.
+
+### LLM perspective
+
+- **View:** KRAS becoming druggable may be the deeper scientific milestone, potentially validating targets once considered inaccessible.
+
+- **Impact:** Meaningful survival extension could alter treatment sequencing and trial eligibility without eliminating the need for supportive care.
+
+- **Watch next:** Confirm trial phase, sample size, control arm, adverse events, KRAS variants, resistance mechanisms, and regulatory timeline.

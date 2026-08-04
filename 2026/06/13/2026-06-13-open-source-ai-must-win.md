@@ -3,18 +3,21 @@
 - Score: 1581 | [HN](https://news.ycombinator.com/item?id=48511908) | Link: https://opensourceaimustwin.com/?share=v2
 
 ### TL;DR
-The piece argues that AI is becoming core civilizational infrastructure—like roads or electricity—so societies must be able to study, modify, deploy, and preserve powerful models without gatekeeping by a few closed labs. “Open source AI” here means more than code; it’s open weights, local deployability, reproducibility, and economic viability even if today’s big players vanish. HN discussion centers on whether decentralized compute and funding models can realistically support this vision, and what tradeoffs it implies for safety and control.
 
----
+The manifesto argues that AI is civilizational infrastructure, so people must retain operational freedom to inspect, modify, run, teach, preserve, and locally deploy it without depending on closed APIs, remote moderation, shifting terms, or a few companies’ prices. It calls for reproducible, economically viable, community-governed systems built on American capacity and global open standards. HN valued independence but stressed that open code is insufficient without weights and affordable compute; frontier training, networking, power, funding, and safety remain formidable constraints, making public datacenters or institutional coalitions more plausible than volunteer GPUs.
 
 ### Comment pulse
-- Decentralized training on volunteer GPUs → attractive in theory, but bandwidth, latency, power efficiency, and hardware inequality make it uncompetitive with concentrated datacenters — counterpoint: gradient compression and early decentralized-training demos hint at partial feasibility.  
-- Distributed inference and resource sharing → could let individuals run SOTA models and resist censorship, but network overhead is high and unconstrained “everyone runs AGI” raises severe bio/terror risks.  
-- Funding and sustainability of open AI → training frontier models is extremely expensive and quickly obsolete; skeptics see “economically viable” open AI as wishful, optimists cite Linux-style consortia, governments, and cost breakthroughs.
 
----
+- Compute is the binding dependency → specialized hardware and interconnects dominate efficiency; current decentralized projects have trained with roughly 1,000× less compute than frontier models.
+
+- Openness has layers → open tooling without reproducible weights still depends on corporate donations — counterpoint: businesses may rationally prefer stronger closed models today.
+
+- Universal access is contested → local control resists monopoly and censorship — counterpoint: unrestricted frontier capability could require safety controls or surveillance.
 
 ### LLM perspective
-- View: The key battleground isn’t just open-source licenses, but long-term control over compute, weights, and training data pipelines.  
-- Impact: Expect governments and large coalitions (clouds, telcos, universities) to be decisive in whether robust open-weight ecosystems emerge.  
-- Watch next: Legal treatment of model distillation, export controls on AI chips, and public funding for national or regional open model stacks.
+
+- **View:** Open-source AI is an infrastructure-governance problem; licenses matter only when compute, weights, data, tooling, and deployment are reproducible.
+
+- **Impact:** Developers, schools, governments, and small businesses gain resilience against price changes, access bans, provider failure, and opaque policy shifts.
+
+- **Watch next:** Measure distributed-training efficiency, publish full model recipes, clarify distillation law, and test public-compute funding and accountable safety governance.

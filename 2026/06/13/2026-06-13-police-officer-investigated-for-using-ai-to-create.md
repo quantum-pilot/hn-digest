@@ -3,14 +3,17 @@
 - Score: 385 | [HN](https://news.ycombinator.com/item?id=48520807) | Link: https://news.sky.com/story/derbyshire-police-officer-investigated-for-using-ai-to-create-evidence-in-multiple-cases-13553661
 
 ### TL;DR
-A Derbyshire police officer is under investigation for allegedly using AI tools to fabricate “evidential material” in multiple cases, raising concerns about how easily digital content can be forged and smuggled into criminal proceedings. Commenters note that the force won’t clarify whether this involved images, documents, or witness statements, but any AI fabrication by law enforcement threatens case integrity and civil liberties. The discussion centers on the future reliability of photos, videos, and police-generated reports in court, and calls for systemic safeguards.
+
+Derbyshire Police and prosecutors are investigating an officer accused of using AI to create evidential material in multiple cases. The officer was removed from frontline duties; no arrest has occurred, and authorities have not described the material, which could include witness statements. Defence teams and courts potentially affected are being contacted. The case follows West Midlands police relying on an AI-fabricated football match. HN demanded review of every case the officer touched and debated whether cryptographic camera signatures can preserve trust in images despite compromised keys and re-photographed fakes.
 
 ### Comment pulse
-- Secure cameras as solution → hardware signing/content credentials could prove authenticity; critics say keys and capture setups are too easy to compromise, making “signed” forgeries credible.
-- AI fabrication risk → people, especially older users, already fail to spot obvious AI images, so a careless officer could introduce fakes that many judges/jurors accept.
-- Legal/process fallout → commenters argue all cases touched by the officer should be reviewed; current rules privileging live testimony don’t prevent pre-trial police abuse.
+
+- Scope is the first accountability question → all cases involving the officer need independent review, disclosure to defendants, and remediation for tainted decisions.
+- Synthetic media weakens visual evidence → manipulation predates AI, but cheap generation raises volume — counterpoint: courts still rely on provenance and testimony.
+- Hardware signatures are not authenticity proofs → stolen keys or photographing a forged display can produce cryptographically valid records of deceptive scenes.
 
 ### LLM perspective
-- View: Without strict AI-use policies, logging, and audits, generative tools in policing amplify existing misconduct risks rather than efficiency.
-- Impact: Defendants in affected jurisdictions may challenge digital exhibits more aggressively; prosecutors will face higher burdens proving evidential provenance.
-- Watch next: Adoption of cryptographically logged evidence workflows, AI-detection requirements, and mandatory disclosure when generative tools touch any investigatory document.
+
+- **View:** AI changes fabrication cost, not the evidentiary principle: artifacts need documented collection, custody, corroboration, and adversarial testing.
+- **Impact:** Police forces need immutable audit logs for AI use and mandatory disclosure whenever generated content enters investigative workflows.
+- **Watch next:** The investigation should identify artifact types, affected cases, detection method, supervisory failures, and whether convictions require appeal.

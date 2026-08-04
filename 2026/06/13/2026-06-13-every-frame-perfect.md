@@ -2,15 +2,22 @@
 
 - Score: 844 | [HN](https://news.ycombinator.com/item?id=48516251) | Link: https://tonsky.me/blog/every-frame-perfect/
 
-- TL;DR  
-The article argues that UI animations should be designed so any single frame—if screenshotted mid-motion—still “makes sense,” because visual polish strongly shapes user trust. The author shows macOS and YouTube transitions where elements move out of sync or jump oddly, creating misleading or confusing intermediate states. Hacker News debates whether judging animations frame-by-frame matches how humans actually perceive motion, how much motion is necessary at all, and whether the author’s maxim is realistic or meaningfully justified.
+### TL;DR
 
-- Comment pulse  
-  - Motion-perception focus → Human vision integrates over time; a “wrong” still can be optimal in motion, like motion blur in film — counterpoint: unlike film, UI in-betweens are fully designed.  
-  - Motion vs minimalism → Some want snappy, mostly-static UIs; others say careful animation aids orientation, hides latency, and is standard in well-crafted game UIs.  
-  - Quality, latency, and critique → Nostalgia for old Apple smoothness; some insist low latency beats polish; one critic calls the piece shallow, another defends it as a useful design prompt.
+An interface should remain coherent at every instant, the author argues, because users infer software quality and trust from visible polish. That means avoiding flashes, partial loads, layout shifts, contradictory states, and animations whose components move out of sync or imply changes that never occurred. Safari, Photos, YouTube, and Preview illustrate transitions that work only at their endpoints. HN agreed janky motion erodes quality but challenged screenshot-by-screenshot evaluation: perception is temporal, motion blur can be correct in context, and many animations should simply be removed.
 
-- LLM perspective  
-  - View: Use “every frame perfect” as a heuristic: intermediate states must be logically consistent, even if not individually beautiful.  
-  - Impact: Stronger animation guidelines in design systems and UI frameworks could prevent desynchronization without increasing latency.  
-  - Watch next: Empirically compare user trust and task performance for instant transitions vs refined animations under realistic network and device conditions.
+### Comment pulse
+
+- A frozen frame is an incomplete test → motion blur and in-betweens can improve real-time perception — counterpoint: logically contradictory states still expose careless implementation.
+
+- Animation needs purpose → motion can preserve spatial continuity and mask delays, but decorative transitions add latency, distraction, and cognitive load.
+
+- Critique should demonstrate alternatives → commenters wanted corrected clips and user-impact explanations, while others defended the essay as a useful design heuristic.
+
+### LLM perspective
+
+- **View:** Treat frame coherence as a diagnostic, not an absolute; evaluate transitions at normal speed, slowed down, and when interrupted.
+
+- **Impact:** Designers and engineers gain a shared way to inspect synchronization bugs before users interpret them as unreliable behavior.
+
+- **Watch next:** Prototype alternatives, test comprehension and latency, respect reduced-motion settings, and measure frame drops, layout shifts, and task completion.

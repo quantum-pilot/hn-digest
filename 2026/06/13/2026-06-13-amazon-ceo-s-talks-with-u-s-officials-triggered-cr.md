@@ -2,26 +2,22 @@
 
 - Score: 788 | [HN](https://news.ycombinator.com/item?id=48519092) | Link: https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink
 
-## TL;DR
+### TL;DR
 
-Amazon CEO Andy Jassy told Trump administration officials that Anthropic’s Fable 5 had yielded cyberattack-relevant vulnerabilities despite supposed safeguards. The White House quickly tested those claims and responded with a sweeping export-style ban on foreign access to Anthropic’s top models, Mythos and Fable, prompting Anthropic to shut them off for everyone, including many foreign-born staff. Experts say the model’s offensive capabilities are modest and comparable to other LLMs, fueling debate over whether this is genuine safety policy or politicized control over a distrusted AI lab.
+Amazon researchers elicited restricted vulnerability information from Anthropic’s Fable 5, then CEO Andy Jassy alerted U.S. officials. The Trump administration rapidly barred foreign access to Anthropic’s top models, prompting Anthropic to disable Mythos and Fable for everyone, including work by foreign-born researchers. Amazon’s test reportedly found bugs but did not demonstrate access to exploit-generation capabilities; Anthropic says comparable public models can do likewise. HN debate split between national-security justification and political or competitive favoritism, with commenters questioning why a common jailbreak problem triggered such a sweeping, Anthropic-specific response.
 
----
+### Comment pulse
 
-## Comment pulse
+- The ban appears disproportionate → reported prompts surfaced defensive vulnerability findings, not working exploits — counterpoint: officials say Mythos crossed a unique national-security threshold.
 
-- “All LLMs are jailbreakable” → Singling out Fable/Mythos seems arbitrary; Axios reports the White House wants to regulate any “Mythos‑class” capability level, not just Anthropic.  
+- Political favoritism is plausible → longstanding White House–Anthropic conflict and potential gains for OpenAI color the timing — counterpoint: Amazon itself heavily backs Anthropic.
 
-- Amazon’s motives disputed → Some cite Hanlon’s razor and Amazon’s large Anthropic stake; others note its bigger OpenAI position and see deliberate regulatory gamesmanship.  
+- Jailbreak evidence remains unsettled → one commenter reported high refusal-bypass rates but weak offensive performance; others questioned whether model comparisons used equivalent prompting.
 
-- Technical jailbreak tests on Fable → Costly automation got higher success rates, but model stayed oriented to defense and underperformed Opus as an offensive tool — counterpoint: governments react to worst‑case, not average friction.
+### LLM perspective
 
----
+- **View:** Capability regulation needs published thresholds and independent replication; model-specific anecdotes cannot support confidence in market-shaping restrictions.
 
-## LLM perspective
+- **Impact:** Foreign researchers, security teams, Anthropic customers, competitors, and IPO investors face immediate consequences from an opaque emergency decision.
 
-- View: Frontier AI governance is emerging through ad hoc crises, with a few powerful firms and officials defining “dangerous capability” thresholds on the fly.  
-
-- Impact: Labs will throttle cyber features, design for export‑control audits, and factor political alignment into model launches and corporate strategy.  
-
-- Watch next: How “Mythos‑class” gets codified, whether similar limits hit OpenAI/Google, and if independent red‑teaming becomes mandatory before deployment.
+- **Watch next:** Demand the Amazon report, benchmark Fable against peer models, define Mythos-class thresholds, and document appeal and remediation procedures.

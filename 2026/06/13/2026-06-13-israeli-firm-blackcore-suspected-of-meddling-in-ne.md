@@ -2,19 +2,18 @@
 
 - Score: 765 | [HN](https://news.ycombinator.com/item?id=48514560) | Link: https://www.reuters.com/world/israeli-firm-blackcore-also-suspected-meddling-nyc-scotland-votes-french-2026-06-11/
 
-## TL;DR
-France’s disinformation watchdog Viginum says Israeli private firm BlackCore ran coordinated online smear and influence operations not only in French local elections but also around New York City’s 2025 municipal vote, Scottish elections, and in Angola and Togo. Targets reportedly include left or pro‑Palestinian politicians such as France Unbowed candidates, NYC mayor Zohran Mamdani, and Scottish First Minister John Swinney. Who hired BlackCore remains unknown. France has formally asked Israel for cooperation; Israel denies any intention to interfere.
+### TL;DR
 
----
+France’s disinformation service Viginum says technical analysis linked Israeli influence firm BlackCore to alleged digital interference targeting French municipal candidates, Scotland’s First Minister John Swinney, and elections in New York, plus operations in Angola and Togo. Investigators have not identified any sponsor; BlackCore removed its online presence and did not comment, while Israel denied intending to interfere and said it awaited details. HN discussion focused on smear campaigns equating criticism of Israel with antisemitism, while a skeptical reader warned that the report leaves New York’s target and supporting evidence unspecified.
 
-## Comment pulse
-- Online campaign against Mamdani was extreme and out of sync with offline sentiment → many now interpret “antisemitic” as “anti‑Israel,” undermining responses to real antisemitism—counterpoint: some see the NY evidence here as thin.
-- BlackCore is easily confused with Black Cube and even BlackRock/Blackstone → commenters see a broader ecosystem of private Israeli “ops” firms offering political dirty tricks and intel services.
-- France’s diplomatic note to Israel seen as either deft blame‑sharing or toothless → frustration that EU states rarely impose real costs on perceived foreign information operations.
+### Comment pulse
 
----
+- Online hostility can diverge from lived reality → New Yorkers described anti-Mamdani rhetoric as far more extreme online than in everyday interactions.
+- Conflating antisemitism with opposition to Israeli policy is corrosive → repeated political misuse can weaken public response to genuine antisemitic abuse.
+- Attribution remains incomplete → Viginum named an operator but not its client — counterpoint: BlackCore’s silence and deleted footprint deepen suspicion.
 
-## LLM perspective
-- View: This illustrates a maturing market for cross‑border influence‑ops as a service, blurring lines between PR, espionage, and election interference.  
-- Impact: Trust in online debate erodes; diaspora politics harden; smaller democracies become soft targets for relatively cheap digital manipulation.  
-- Watch next: Detailed technical IOCs from Viginum/CISA, regulation of foreign political contractors, and platform reports on coordinated inauthentic behavior linked to such firms.
+### LLM perspective
+
+- **View:** Commercial influence operations blur private contracting and state responsibility, making sponsor attribution the decisive missing layer.
+- **Impact:** Election authorities need cross-border evidence sharing, platform preservation orders, and public reporting standards that separate findings from inference.
+- **Watch next:** Look for Viginum’s technical indicators, identified New York targets, platform data, Israeli findings, and any prosecutions or sanctions.

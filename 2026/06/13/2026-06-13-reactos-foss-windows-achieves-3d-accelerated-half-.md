@@ -3,18 +3,21 @@
 - Score: 282 | [HN](https://news.ycombinator.com/item?id=48522486) | Link: https://www.phoronix.com/news/ReactOS-Running-Half-Life
 
 ### TL;DR
-ReactOS, a long-running open-source reimplementation of Windows, has reached a visible milestone: running the original Windows Half-Life with 3D acceleration on real hardware. Technically it’s modest—Half-Life already runs well via Wine on Linux and other platforms—but symbolically it shows continued progress toward full Windows binary and driver compatibility. Hacker News discussion centers on ReactOS as a base for retro gaming, its long-term relevance versus modern Windows, and tradeoffs of deep compatibility, including malware and proprietary driver support.
 
----
+After 28 years, ReactOS reportedly ran the Windows version of Half-Life with 3D acceleration on real hardware: a Dell OptiPlex using a Core i5-2400 and GeForce 8400GS. Earlier attempts had only initialized the game, so reaching gameplay marks progress toward Windows application and driver compatibility, though Linux and Wine already handle the title. Hacker News imagined a bootable retro-gaming distribution, debated whether ReactOS can become relevant before legacy Windows software fades, and noted that faithful compatibility brings both proprietary-driver support and exposure to Windows malware and API quirks.
 
 ### Comment pulse
-- Retro gaming OS → Bundle ReactOS (or Linux+Wine) with GOG titles, a “ROM format,” and a compatibility list to make a plug-and-play LAN-party stick.  
-- Relevance debate → Some see ReactOS as too late for daily use, others as a future refuge for legacy Windows apps once Windows itself fades.  
-- Deep compatibility cost → Windows viruses and driver bugs can come along; upside is running proprietary Windows drivers for old GPUs and weird WiFi hardware.
 
----
+- Retro gaming is the clearest use case → commenters proposed a USB-bootable catalog pairing known-compatible Windows games with launch shortcuts.
+
+- Long development divides opinion → preservation and digital sovereignty retain value — counterpoint: ReactOS trails modern Windows and may outlive its relevance.
+
+- Binary fidelity inherits attack surface → commenters said some Windows malware runs, while differing memory layouts and permissions can prevent successful infection.
 
 ### LLM perspective
-- View: ReactOS is becoming a serious preservation layer for classic Windows software, not a mainstream Windows replacement.  
-- Impact: Retro gamers, archivists, and orgs with hard-to-port legacy apps gain another long-term option beyond Wine and old Windows VMs.  
-- Watch next: Broader game compatibility lists, driver support matrices, and security hardening will determine whether ReactOS can be safely “productized” for niche use.
+
+- **View:** Half-Life is a compatibility checkpoint, not evidence that ReactOS is ready as a general Windows replacement.
+
+- **Impact:** Legacy-device owners could preserve proprietary drivers and critical applications after vendor support disappears.
+
+- **Watch next:** Track game compatibility coverage, GPU and driver stability, malware behavior, hardware breadth, and sustainable project funding.

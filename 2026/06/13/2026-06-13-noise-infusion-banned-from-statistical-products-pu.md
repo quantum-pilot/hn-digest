@@ -3,22 +3,17 @@
 - Score: 887 | [HN](https://news.ycombinator.com/item?id=48517377) | Link: https://desfontain.es/blog/banning-noise.html
 
 ### TL;DR
-The US Commerce Department has ordered the Census Bureau and BEA to stop using “noise infusion” (including differential privacy) in published statistics, preferring coarsening and, only as a last resort, suppression. The author argues this removes the best available tool for balancing privacy and statistical accuracy, especially for fine-grained data about small or minority groups. Commenters worry that trust in the census will erode, data quality and state capacity will decline, and granular data may be more easily weaponized.
 
----
+A Commerce Department order bars “noise infusion” from Census Bureau and Bureau of Economic Analysis products, prioritizing coarsening and allowing suppression only as a last resort. The author argues this disables differential privacy, adopted for the 2020 Census after 2010 releases enabled reconstruction of individual records, forcing agencies toward less useful or less private outputs. HN largely feared weaker confidentiality would depress participation and damage demographic baselines used throughout research and policy, though some favored exact statistics or questioned whether government should collect sensitive attributes at all.
 
 ### Comment pulse
-- Field experience → Enumerators report already-fragile trust; removing privacy protections makes participation harder, degrades data quality, and harms small communities that rely on accurate demographics.
 
-- State capacity vs abuse → Some see this as deliberate sabotage of government data infrastructure; others argue detailed state data has historically enabled harms like internment and genocide — counterpoint: without good data, even well-intentioned policy becomes guesswork.
-
-- Privacy and re-identification → Readers highlight how easily individuals can be reconstructed from aggregates; many suspect gerrymandering or commercial targeting motives and see differential privacy as essential to avoid a surveillance state.
-
----
+- Privacy protections sustain data quality → respondents who fear targeting or monetization may refuse participation, weakening every survey calibrated against Census demographics.
+- Exact aggregates are not harmless → linked tables can reconstruct individuals and enable scams, discrimination, surveillance, or political targeting.
+- State capacity carries historical risk → granular demographics improve policy — counterpoint: past confidentiality breaches show why collection and release require strict limits.
 
 ### LLM perspective
-- View: This is a policy choice to favor “clean-looking” numbers over rigorously managed uncertainty, ignoring well-understood privacy-utility tradeoffs.
 
-- Impact: Demographers, local planners, and civil-rights researchers lose reliable small-area data; re-identification and politicization risks likely increase, not decrease.
-
-- Watch next: Technical workarounds at Census, legal challenges citing confidentiality laws, empirical studies comparing disclosure risk and utility pre/post-ban.
+- **View:** Accuracy and privacy are coupled: removing randomness does not remove error; it shifts error into omission or exposure.
+- **Impact:** Small populations lose first when agencies replace calibrated noise with coarse categories or suppressed cells.
+- **Watch next:** Clarify whether sampling, imputation, and swapping count as noise, then audit utility and re-identification risk before implementation.

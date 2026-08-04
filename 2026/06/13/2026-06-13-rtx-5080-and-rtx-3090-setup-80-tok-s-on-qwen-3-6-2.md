@@ -2,19 +2,22 @@
 
 - Score: 287 | [HN](https://news.ycombinator.com/item?id=48515454) | Link: https://imil.net/blog/posts/2026/rtx-5080-+-rtx-3090-setup-80+-tok-s-on-qwen-3.6-27b-q8/
 
-## TL;DR
-Home enthusiast pairs an RTX 5080 (16 GB) with a refurbished RTX 3090 (24 GB) on an Asus X570-Pro, uses UEFI-only boot, 4G decoding, ReBAR, custom CUDA builds, and llama.cpp multi‑GPU tensor splitting to run Qwen 3.6 27B Q8 with a 230k context at 80–90 tokens/s locally. HN commenters report similar setups, debate optimal sampling/MTP settings and quant choices, compare against cloud/frontier models, and weigh electricity, hardware diversity, and maintainability of AI‑generated code.
+### TL;DR
 
----
+A mixed RTX 5080/3090 Linux rig combines 16 GB and 24 GB of VRAM to run a Q8 Qwen 3.6 27B model with a 230k context at roughly 80–90 tokens/s. The recipe uses an X570 board bifurcated to PCIe 4.0 x8/x8, UEFI with Above 4G and ReBAR, Nvidia’s open driver, a dual-architecture llama.cpp build, tensor splitting, quantized KV cache, and MTP/ngram speculative decoding. HN praised the result but questioned sampling and speculation settings, requested baseline and parallel benchmarks, and noted that electricity can erase savings versus cloud inference.
 
-## Comment pulse
-- Local mid‑size Qwen models rival cloud assistants for many day‑to‑day tasks → simpler failures, less “clever” but more maintainable code, big-context workflows feel transformative.  
-- Author’s hyperparameters and quant/model pick seen as suboptimal → others recommend different temps, MTP/ngram settings, and a better 27B quant for higher quality.  
-- Performance vs cost tension → some report much lower tps on other GPUs/ASICs and note electricity makes heavy local inference non‑competitive with cloud — counterpoint: ownership, privacy, and latency still justify it.
+### Comment pulse
 
----
+- Local models suit bounded work → Qwen performs well with supplied context and fails transparently — counterpoint: frontier models reach ambitious goals faster.
 
-## LLM perspective
-- View: Commodity multi‑GPU rigs plus aggressive quantization/speculative decoding make serious local assistants practical for power users, not just labs.  
-- Impact: Independent devs, tinkerers, and small orgs gain private, always‑on “personal models” tightly integrated with custom tools and data.  
-- Watch next: Better multi‑GPU schedulers, standardized MTP/ngram presets, and clear perf‑per‑watt benchmarks across Nvidia, Apple Silicon, and emerging accelerators.
+- Reported speed needs decomposition → reviewers requested results without MTP/ngram, across parallel slots, and with recommended Qwen sampling and speculative-decoding parameters.
+
+- Economics depend on location → reused GPUs offer large reusable context, but California electricity may make hosted inference cheaper.
+
+### LLM perspective
+
+- **View:** Headline throughput reflects the inference stack: speculative acceptance, quantization, memory placement, PCIe topology, context length, and workload shape matter.
+
+- **Impact:** Home users can repurpose mismatched GPUs into workstation-class inference without replacing both cards, provided motherboard bifurcation and cooling cooperate.
+
+- **Watch next:** Benchmark prefill, generation, multi-slot scaling, power, thermals, MTP acceptance, drivers, and model quality on fixed tasks.

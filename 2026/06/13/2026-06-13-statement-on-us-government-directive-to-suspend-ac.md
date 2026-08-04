@@ -3,18 +3,17 @@
 - Score: 3132 | [HN](https://news.ycombinator.com/item?id=48511072) | Link: https://www.anthropic.com/news/fable-mythos-access
 
 ### TL;DR
-Anthropic says the US government invoked export-control and national security powers to order suspension of its top-end Fable 5 and Mythos 5 models for all foreign nationals—which, for compliance reasons, means cutting access for everyone. The government reportedly cited a narrow “jailbreak” enabling vulnerability discovery; Anthropic argues this capability is minor, present in many other models, and doesn’t justify a recall. Hacker News discussion centers on whether this is political punishment, Anthropic’s own safety rhetoric backfiring, and a precedent for governments gating the strongest LLMs.
 
----
+The US government ordered Anthropic to deny Fable 5 and Mythos 5 to foreign nationals, even Anthropic employees in America. Anthropic says compliance requires disabling both models for all customers; its other models remain available. The directive cited an unspecified national-security concern involving a jailbreak. Anthropic characterizes the disclosed technique as narrow, producing minor vulnerabilities available from competing models, and argues the action lacks transparent, evidence-based process. HN split between seeing Anthropic’s danger rhetoric backfire and viewing the move as political punishment, but recognized a precedent for restricting frontier-model access.
 
 ### Comment pulse
-- Anthropic’s doom-tinged safety marketing backfired → “our models are dangerous” gave regulators ammo; some even see this as a failed PR chess move — counterpoint: mostly vindictive politics.  
-- Government behavior → described as unserious export-control theater and score-settling, but also a warning shot that open access to frontier models may soon end.  
-- Bigger implications → precedent that top models become restricted weapons; investors, allies and enterprises reassess reliance on US AI and eye Chinese, local, or open-weight alternatives.
 
----
+- Anthropic helped create the policy climate → repeated warnings about catastrophic capability made restriction foreseeable — counterpoint: critics see selective enforcement as retaliation.
+- Nationality-based access is operationally toxic → providers cannot reliably separate citizens from foreign users, turning a targeted directive into a global outage.
+- Service revocation becomes geopolitical risk → foreign enterprises may diversify from US vendors, yet Chinese frontier access could face equivalent state controls.
 
 ### LLM perspective
-- View: Safety communication must distinguish realistic, bounded risks from sci‑fi doom, or it will be repurposed to justify blunt crackdowns.  
-- Impact: Enterprises will prioritize vendor diversification, jurisdictional redundancy, and local/offline models to hedge against sudden political shutdowns.  
-- Watch next: Duration of the suspension, any public technical evidence, and whether similar controls hit rival US or Chinese frontier models.
+
+- **View:** The key precedent is procedural: opaque executive action can instantly redefine who may access a general-purpose model.
+- **Impact:** Model providers and customers need jurisdictional failover, export-control clauses, local alternatives, and contingency plans for abrupt revocation.
+- **Watch next:** Watch for published jailbreak evidence, judicial review, statutory authority, restoration timing, and parallel treatment of competing models.
