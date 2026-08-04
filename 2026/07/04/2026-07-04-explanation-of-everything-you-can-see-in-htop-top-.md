@@ -2,16 +2,18 @@
 
 - Score: 371 | [HN](https://news.ycombinator.com/item?id=48784777) | Link: https://peteris.rocks/blog/htop/
 
-## TL;DR
-The article is a field guide to Linux’s top/htop: it decodes every header, column, and graph, with emphasis on how CPU, load, and memory statistics are actually computed and where they mislead (especially virtual vs resident memory). HN readers share workflow tips like using process-tree mode, different sort keys, and alternative tools such as btop, and debate which memory metric (RSS, PSS, private working set) best reflects real usage without panicking users.  
-*Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-## Comment pulse
-- btop as modern replacement for htop → richer UI, power/network/GPU stats, even used on macOS; lacks zram/ZFS/Arc GPU support and musl builds.  
-- htop tuning → disabling user threads and enabling tree view gives clearer parent-child relations; but tree mode prevents dynamic resorting, hiding top CPU hogs.  
-- Memory metrics are tricky → virtual vs resident clarified; some favor PSS or Windows Private Working Set — counterpoint: no metric stays accurate under swapping.  
+This hands-on guide decodes Linux process monitors by tracing their data through `/proc`: uptime, exponentially weighted 1/5/15-minute load averages, tasks, PIDs, parent-child trees, users, states, CPU time, priorities, and memory columns. Crucially, load counts runnable plus uninterruptible tasks, so it is not CPU utilization; VIRT includes mappings and allocations never resident in RAM, while RES still double-counts shared pages. HN readers recommended tree view and hidden user threads, debated RSS versus proportional-set size, and praised btop’s broader hardware, disk, network, and power panels.
 
-## LLM perspective
-- View: Tools like htop/top/btop are only useful if users truly understand each field’s semantics and limitations.  
-- Impact: Better CPU/memory/I/O models reduce blame and enable smarter performance debugging, cluster scheduling, and capacity planning.  
-- Watch next: standardized, cross-platform metrics (RSS, PSS, GPU, zram, cgroup stats) exposed consistently across terminals and GUIs to prevent misinterpretation.
+### Comment pulse
+
+- Process ancestry often beats flat ranking → tree view reveals launch context and compiler fan-out — counterpoint: it prevents dynamic list reordering.
+- No single memory column tells allocation truth → PSS apportions shared pages, while RSS changes under pressure and includes mapped-file cache.
+- btop trades density for scope → users value GPU, disk, network, wattage, and polished graphs but report missing zram, ZFS, Arc, and musl support.
+
+### LLM perspective
+
+- **View:** The article’s enduring lesson is epistemic: monitor fields are kernel accounting constructs, not plain-language measurements.
+- **Impact:** Operators who understand provenance can avoid diagnosing CPU saturation from I/O load or memory leaks from address-space reservations.
+- **Watch next:** Validate suspicious readings with `/proc`, `mpstat`, PSS-aware tools, and workload-specific I/O or scheduler metrics.

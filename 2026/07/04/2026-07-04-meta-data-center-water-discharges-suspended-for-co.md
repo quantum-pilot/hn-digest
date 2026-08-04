@@ -3,16 +3,17 @@
 - Score: 211 | [HN](https://news.ycombinator.com/item?id=48786782) | Link: https://www.tomshardware.com/tech-industry/data-centers/cheyenne-suspends-data-center-fill-and-flush-and-closed-loop-discharges-after-meta-contractor-contaminated-its-reuse-water-system
 
 ### TL;DR
-A Meta data center’s water discharge was suspended after testing found a rare bacterium in the local water supply, prompting scrutiny of its cooling system and wastewater handling. Commenters explain how data centers typically use open vs. closed-loop cooling and why additives and biofouling make discharges risky. Some see this as an important but non‑critical microbiological incident; others view it as emblematic of growing tension over data centers’ water impact and the need for much stricter regulation and commissioning.
 
-*Content unavailable; summarizing from title/comments.*
+Cheyenne suspended all data-center wastewater discharges after Cupriavidus gilardii, a rare metal-resistant bacterium, was traced to a commissioning discharge from Goat Systems, Meta’s construction entity. The contaminated fill-and-flush discharge interfered with two reclamation plants and kept the reuse network offline for months; Meta’s contractor now hauls wastewater elsewhere. The bacterium’s origin remains unknown: Meta’s tests found none, and the city supplied the original fill water. HN favored stricter commissioning and chemical-discharge controls but cautioned that this appears an unusual, detected incident—not proof that closed-loop cooling creates a public-health crisis.
 
 ### Comment pulse
-- Data centers must adopt strict “no discharged coolants, clean water only” policies → additives, corrosion control, and biofouling otherwise pollute rivers—counterpoint: fully closed systems are costly and complex.  
-- Microbiological finding is important but not an emergency → rare organism, detection itself shows vigilance; cause may even be upstream city water, not the data center.  
-- Incident exposes reputational and regulatory risk → governments should police commissioning and wastewater hauling; tools like AI optimization are emerging, but public distrust of data centers is already high.  
+
+- Closed-loop does not mean discharge-free → initial flushing and later cleaning still produce water carrying debris, glycol, biocides, or microbes.
+- Municipal pretreatment rules need commissioning coverage → treatment plants should receive characterized, clean effluent; offsite hauling merely moves the oversight problem.
+- Causation remains uncertain → the city detected and remediated an uncommon organism — counterpoint: months of disruption justify suspension before health effects are proven.
 
 ### LLM perspective
-- View: Water use is becoming data centers’ next major license-to-operate issue, on par with energy and carbon concerns.  
-- Impact: Expect tighter discharge permits, mandated continuous monitoring, and liability even when contamination sources are uncertain.  
-- Watch next: Standardized cooling-water best practices, real-time effluent dashboards, and whether utilities demand independent audits before allowing new hyperscale builds.
+
+- **View:** This is a commissioning-waste failure with uncertain microbiological origin, not evidence that recirculating cooling is inherently unsafe.
+- **Impact:** Data-center builders may face discharge sampling, pretreatment, containment, and chain-of-custody requirements before municipal sewer access.
+- **Watch next:** Source identification, cleanup costs, permit revisions, hauled-waste destinations, glycol limits, aerosol-risk evidence, and effects on other Cheyenne projects.

@@ -3,20 +3,17 @@
 - Score: 135 | [HN](https://news.ycombinator.com/item?id=48782918) | Link: https://www.dabeaz.com/courses.html
 
 ### TL;DR
-David Beazley is shutting down his renowned programming courses after a steep enrollment collapse in the continuing-education market since 2023. Alumni describe his classes on compilers, Raft, SICP, and his PyCon talks (GIL, async, lambda calculus) as uniquely clear, motivating, and mind-expanding—often succeeding where books and university courses failed. Many lament the loss of high-quality, in-person-style advanced training but are glad his next chapter will benefit Chicago-area high school students.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+David Beazley has ended the intensive, project-based programming courses he taught from 2007 through 2026, including advanced Python, SICP, compiler construction, interpreters, Raft, and broader computer science. None remain scheduled; their descriptions stay online as historical references. He says continuing-education enrollment collapsed completely after 2023, eliminating his primary income and prompting a career change. With his children leaving for college, he is entering graduate school for a secondary-education teaching license. Former students described unusually engaging, concept-changing classes and regretted postponing courses they assumed would remain available.
 
 ### Comment pulse
-- Beazley’s talks and libraries → Deep, low-level explanations (coroutines, GIL, lambda calculus, PLY) gave people durable intuitions that later mapped directly onto new Python features.  
-- End of courses feels like a systemic loss → Seen as part of a broader collapse in paid continuing education; people miss high-quality in-person options—counterpoint: online-only format may have constrained demand.  
-- Former students rave about impact → Raft, compiler, and SICP courses were “mind-blowing” and uniquely motivating; regret from those who delayed enrolling, excitement for his future high-school students.
 
----
+- Teaching quality drew unanimity → alumni said difficult topics finally clicked through Beazley’s low-level explanations, contagious enthusiasm, and demanding project work.
+- Online delivery may have weakened demand → one manager repeatedly waited for onsite sessions, judging in-person immersion substantially better.
+- The ending created regret → several readers had deferred compiler or SICP courses, assuming another enrollment window would come.
 
 ### LLM perspective
-- View: High-touch, expert-led niche courses are being squeezed by abundant free content and reduced employer training budgets.  
-- Impact: Mid-career engineers lose rigorous, curated deep dives; secondary education gains a rare practitioner-teacher.  
-- Watch next: Whether he releases full course materials, and if new cohort-based or hybrid offerings emerge to fill this advanced-education gap.
+
+- **View:** The loss is not merely course inventory; it is tacit pedagogy built through two decades of live feedback.
+- **Impact:** Professional developers lose rare advanced immersion, while secondary students may gain an exceptional computing educator.
+- **Watch next:** Beazley’s licensing path, future classroom role, preservation of course materials, and whether sustainable in-person cohorts reappear elsewhere.

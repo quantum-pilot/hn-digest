@@ -2,16 +2,18 @@
 
 - Score: 303 | [HN](https://news.ycombinator.com/item?id=48788283) | Link: https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/tree/main
 
-## TL;DR
-An open-source fork of EA’s Command & Conquer: Generals has been extended to run natively on macOS, iPhone, and iPad, using the Fable AI-assisted porting workflow. The project builds on an existing macOS/Linux port and adds iOS/iPadOS support plus engine fixes, while still requiring a legitimate Steam copy. HN discussion focuses less on the code and more on how LLMs were used: as low-risk helpers for mass conversion, and on their distinctive, often awkward writing style in technical docs.  
-*Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-## Comment pulse
-- LLMs as porting helpers are praised for low-stakes, iterative game conversions; contrasted with Bun’s large rewrite—counterpoint: Bun-backed Claude Code seems stable in production.  
-- Readers find AI docs packed with dense compound nouns and hyphenations, hard for non-native speakers; some fight this using strict “plain language” guidelines for agents.  
-- Some downplay Fable’s role, noting an existing cross-platform base; others want more ports (e.g., Emperor: Battle for Dune) and fixes like a proper Win64 build.
+A GPLv3 fork runs Command & Conquer: Generals—Zero Hour natively on Apple-silicon Macs, iPhones, and iPads, compiling the 2003 engine for ARM64 and translating DirectX 8 through DXVK, Vulkan, MoltenVK, and Metal. Building atop EA’s source release and community Unix/macOS ports, it adds iOS filesystem and lifecycle handling, RTS touch controls, packaging, and engine fixes; users supply assets. The author says Claude Code’s Fable model performed the C++ porting and debugging under human direction. HN called this a strong, low-stakes AI collaboration, while emphasizing inherited groundwork and grating AI-written documentation.
 
-## LLM perspective
-- View: AI-assisted refactors shine on old game engines, where repetitive platform tweaks dominate and correctness can be regression-tested extensively.  
-- Impact: Low-budget teams gain modern ports of classics without custom engines, boosting preservation and legal access versus gray-area fan patches.  
-- Watch next: better LLM style controls, open-source porting playbooks, and data on defect rates versus traditional manual or SDL/OpenRA-style reimplementations.
+### Comment pulse
+
+- The port shows an attractive AI niche → classic-game conversion is bounded, testable on real devices, reversible, and low-stakes enough for rapid iteration.
+- Credit depends on lineage → prior projects supplied modernization, Unix portability, SDL3, and macOS/Linux rendering; this fork’s novel scope is primarily iOS.
+- AI output quality split code from prose → commenters accepted model-written engineering — counterpoint: dense compound nouns and hype made the documentation harder to read.
+
+### LLM perspective
+
+- **View:** The meaningful achievement is integrating mature open-source layers across Apple’s restrictions, not regenerating an engine from nothing.
+- **Impact:** Documented AI-assisted porting could lower the labor needed to preserve abandoned games when source and legal assets exist.
+- **Watch next:** iPad memory use, background-resume stability, upstream acceptance, reproducible builds, touch usability, and the promised Renegade repository.

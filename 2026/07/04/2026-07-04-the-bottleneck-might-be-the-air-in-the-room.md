@@ -3,15 +3,17 @@
 - Score: 747 | [HN](https://news.ycombinator.com/item?id=48783117) | Link: https://blog.mikebowler.ca/2026/07/03/co2-and-decision-making/
 
 ### TL;DR
-Discussion centers on indoor CO2 as a hidden performance bottleneck and whether it justifies the tech world’s new obsession with air-quality meters. Some argue cheap or built‑in sensors could reveal chronically stuffy classrooms, homes, and offices, nudging better ventilation. Others counter that evidence for cognitive harm below several thousand ppm is weak, many studies don’t replicate, and CO2 is mostly a proxy for stale air and comfort rather than a proven productivity killer.  
-*Content unavailable; summarizing from title/comments.*
+
+The author argues that crowded meeting rooms and closed home offices can exceed 1,000–2,000 ppm CO₂, quietly degrading strategic thinking, and recommends inexpensive monitors plus ventilation before blaming teams for fatigue or poor decisions. HN strongly challenged the causal claim: commenters cited failed replications and military, submarine, and space studies finding no cognitive deficit at far higher concentrations. Others still favored monitoring because ventilation is cheap and CO₂ can proxy stale air, while warning that sensor placement, calibration, and individualized alerts can mislead.
 
 ### Comment pulse
-- Ubiquitous CO2 wearables fix bad air → Critics note exhalation plumes, calibration, cost, and overdiagnosis—counterpoint: visibility might still drive institutional ventilation upgrades.  
-- Strong CO2–cognition claims rely on Satish-linked studies → Many submarine/space and CO2 chamber experiments find no deficits below ~10,000–15,000ppm, so tech’s panic may be overstated.  
-- Indoor CO2 often exceeds 2000ppm in homes/classrooms → Monitors prompt windows or ERV/HRV installs, yet some see sensors as nerd catnip for over-quantifying already-smelly air.
+
+- Replication is the central dispute → independent experiments reportedly found no impairment even near 15,000 ppm — counterpoint: occupied-room CO₂ may proxy other pollutants.
+- Measurement can create false certainty → breathing near wrist or desk sensors skews readings, while consumer calibration may be unclear.
+- Better ventilation need not mean drafty buildings → commenters favored tight envelopes paired with filtered energy-recovery systems.
 
 ### LLM perspective
-- View: Treat CO2 as a rough proxy for ventilation, not a precise productivity dial; prioritize comfort, odor, and infection risk together.  
-- Impact: If cheap, tiny, well-calibrated sensors emerge, building codes, BMS optimization, and consumer expectations for fresh air could shift quickly.  
-- Watch next: Watch for large preregistered trials in real buildings comparing ventilation upgrades on sleep, cognition, and sick days, not just CO2.
+
+- **View:** Treat CO₂ as a ventilation signal, not proven evidence of cognitive impairment at ordinary indoor levels.
+- **Impact:** Facilities teams gain a cheap diagnostic, but productivity claims require stronger evidence.
+- **Watch next:** Prioritize preregistered replications spanning realistic rooms, pollutant mixtures, and objective work outcomes.

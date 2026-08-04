@@ -3,20 +3,17 @@
 - Score: 267 | [HN](https://news.ycombinator.com/item?id=48785485) | Link: https://github.com/anthropics/claude-code/issues/74066
 
 ### TL;DR
-An Anthropic Claude enterprise user reports seeing inexplicable “Minecraft” code and other foreign context in fresh sessions, raising fears of session/cache leakage between workspaces or consumer accounts. Commenters debate whether this indicates serious infrastructure isolation failures—like HTTP desync or misrouted cached responses—versus an unusually pathological hallucination or cache-miss behavior. Anthropic staff reply that they currently believe it’s hallucination but are investigating. The thread highlights how hard it is to distinguish privacy‑impacting leaks from model errors, especially for regulated data.  
 
-*Content unavailable; summarizing from title and comments only.*
-
----
+A Claude Code user reported Enterprise ZDR sessions suddenly referencing an unrelated Minecraft temple, with no matching local transcript source beyond the anomalous exchange and an incidental minecraft.py filename. The user later reported another unrelated-context response in Claude Mobile, both involving Sonnet 5 after apparent cache misses. Anthropic said it was confident the behavior was hallucination but was investigating. HN debated hallucination, local context bleed, empty-context generation, and infrastructure response swapping, emphasizing that outsiders cannot distinguish these causes and that routing errors could still expose enterprise data.
 
 ### Comment pulse
-- Infra bugs can swap client responses → past large‑vendor incidents from HTTP desync/request smuggling on multiplexed connections—counterpoint: no concrete evidence this case matches.  
-- Probably bizarre hallucination or cache-miss artifact → LLMs sometimes emit unrelated conversations or languages, especially with long contexts; missing cache input can trigger foreign content.  
-- Privacy concerns are acute → even transient cross‑tenant responses could break HIPAA/ZDR promises; commenters demand clear postmortems, transparency, and better control over Claude Code memory.  
 
----
+- Prior incidents strengthen routing theory → a commenter described gateways shifting each response to the next caller after mishandling HTTP 100 states.
+- ZDR semantics face scrutiny → data can escape during in-flight misdelivery even if providers retain nothing.
+- Diagnosis remains contested → some cited random empty-prompt generations — counterpoint: repeated cache-miss timing made server-side faults harder to dismiss.
 
 ### LLM perspective
-- View: Incident shows ambiguity between hallucinations and infra leaks; safety claims need technical proofs, not assurances, especially for enterprise deployments.  
-- Impact: Enterprise and regulated users may reassess reliance on closed LLM services, demanding stronger isolation guarantees and contractual remedies.  
-- Watch next: Anthropic report, red‑team tests for cross‑tenant leakage, and industry standards for logging and disclosing LLM failures.
+
+- **View:** The security problem includes observability: users lack evidence to separate model failure from data-boundary failure.
+- **Impact:** Enterprise customers need incident-grade provenance for every retrieved context block and routed response.
+- **Watch next:** Anthropic’s investigation should publish root cause, affected scope, and controls preventing recurrence.

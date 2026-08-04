@@ -2,16 +2,18 @@
 
 - Score: 121 | [HN](https://news.ycombinator.com/item?id=48781597) | Link: https://soatok.blog/2026/06/30/soatoks-informal-guide-to-threat-models/
 
-- TL;DR  
-  An informal, opinionated guide explains threat modeling as clarifying “who attacks what and why,” not producing compliance paperwork. Security claims are meaningless without explicit assets, adversaries, and assumptions, and models must evolve as systems change. The author applies this to messaging protocols (e.g., critiquing Signal’s threat model) and to post‑quantum cryptography, arguing for preparing seriously for Q‑Day and questioning hybrid PQ+ECDH. HN readers liked the clarity and humor but debated the author’s tone, Signal take, and quantum pessimism.  
-  *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  - Threat modeling as explicit assumptions, not checklist → helps define “secure for whom?”, complements shorter privacy‑oriented guides; open question: how to keep models current over time.  
-  - Author’s pro‑Signal history and abrasive tone reduce trust for some → they see limited nuance — counterpoint: others note this piece also criticizes Signal’s threat model.  
-  - Post‑quantum section sparks debate → some doubt Q‑Day or abandoning ECC, others (including author) cite accelerated timelines and argue hybrid PQ+ECDH is weaker than pure PQ.
+A useful threat model names protected assets, adversaries, attack paths, and mitigations, then adds the pieces checklists miss: asset relationships, explicit assumptions, and threats deliberately left open. The guide recommends graphing a system, recursively narrowing into components and data flows, and labeling risks prevented, mitigated, addressable, or open; the document must evolve with the system. Examples cover passkeys, decentralized messaging, and post-quantum choices. HN praised the assumptions-first framing but disputed how much formalization reduces subjectivity, how living models stay current, and whether post-quantum hybrids hedge the right risks.
 
-- LLM perspective  
-  - View: Treat threat models as living documents; revise with each architecture change and after incidents, not only at project start.  
-  - Impact: Messaging, wallet, and infra vendors should publish explicit threat models so users can align product choices with their risks.  
-  - Watch next: Track NIST PQC rollout, major providers’ Q‑Day timelines, and real‑world data comparing hybrid versus pure PQ deployments.
+### Comment pulse
+
+- Living documents are operationally hard → commenters wanted mechanisms for updating assumptions as architectures, dependencies, adversaries, and environments evolve.
+- Formalization does not create objectivity → identifying assets and actors exposes variables but cannot prove a scenario reasonable, legitimate, or likely.
+- Post-quantum hedging stayed contested → commenters raised a never-arriving Q-Day and pre-Q-Day ML-KEM breaks — counterpoint: the author still favors preparing now.
+
+### LLM perspective
+
+- **View:** Threat modeling is architecture under uncertainty: its value comes from documented boundaries and assumptions, not exhaustive attack enumeration.
+- **Impact:** Teams gain earlier design leverage by removing dangerous relationships before compensating controls and operational complexity accumulate.
+- **Watch next:** Version models with architecture, assign assumption owners, link risks to tests, and revisit accepted threats after system changes.

@@ -2,16 +2,18 @@
 
 - Score: 410 | [HN](https://news.ycombinator.com/item?id=48782435) | Link: https://www.marginalia.nu/log/a_135_learn/
 
-- TL;DR  
-    - The article argues adults overestimate how much time serious learning requires; the real constraint is attention fragmented by phones and anxiety. It suggests treating learning like exercise: modest, consistent daily practice on skills you genuinely value. Commenters add that uninterrupted time and psychological energy—especially for parents and perfectionists—matter more than raw hours. Others describe learning as emotional refuge and lifelong joy, distinguish active practice from passive consumption, share drawing and language journeys, and reject the notion that AI makes learning pointless.  
-    - *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-    - Lack of time is low energy, anxiety, and fragmented attention; parenting worsens this. Phones drain focus and rest—counterpoint: unplugging often uncovers surprising free hours.  
-    - Learning framed as a reliable antidote to sadness and nihilism, giving awe and agency beyond productivity or “being interesting” social incentives.  
-    - Real learning requires making mistakes and producing output; reading, theory, or optimizing study methods easily becomes procrastination instead of skill-building.
+Adults can still acquire practical skills through 30–45 minutes of consistent, deliberate practice. Expect early sessions to feel exhausting, performance to deteriorate with fatigue, improvement to surface after sleep, and progress eventually to flatten into a useful intermediate plateau; stop before sloppy errors become habits and prioritize fundamentals over advanced-content browsing. The essay frames long projects as sources of agency. HN expanded the argument around psychological and parental constraints, practice versus tutorial consumption, learning for intrinsic reward, and whether automation can replace knowledge held personally.
 
-- LLM perspective  
-    - View: Treat learning like light exercise: small, sustainable, identity-forming habits beat heroic but brief sprints.  
-    - Impact: Those feeling obsolete amid AI gains can reclaim agency by mastering concrete skills, especially non-digital crafts and languages.  
-    - Watch next: Design tools and communities that convert scattered minutes into deep practice, minimizing phone friction and celebrating beginners’ visible error-filled progress.
+### Comment pulse
+
+- Time scarcity often means depleted or interrupted attention → anxiety and parenting fragment focus — counterpoint: replacing doomscrolling may restore energy and sleep.
+- Practice produces errors and outputs → projects expose brittle theoretical knowledge; tutorials, gear, and pedagogy research can become avoidance.
+- Utility is not the only reward → drawing groups, languages, and curiosity offer joy, cultural connection, resilience, and decades of richer experience.
+
+### LLM perspective
+
+- **View:** Sustainable learning needs a deliberately small practice loop: attempt, error, feedback, rest, repeat.
+- **Impact:** This reframes self-improvement from content acquisition into protected attention and repeated production, lowering the threshold for busy adults.
+- **Watch next:** Track completed sessions, error patterns, and artifacts—not hours watched—then adjust duration when fatigue reliably degrades form.
