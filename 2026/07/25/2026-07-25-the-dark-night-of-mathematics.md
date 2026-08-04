@@ -2,15 +2,18 @@
 
 - Score: 160 | [HN](https://news.ycombinator.com/item?id=49048681) | Link: https://kirwinhampshire.substack.com/p/the-dark-night-of-mathematics
 
-- TL;DR  
-  - A young mathematician describes an acute spiritual crisis: recent LLM‑generated counterexamples suggest that genuinely new mathematical discovery may soon be dominated by machines. For them, discovery isn’t just output or career advancement, but a primary way humans encounter the ineffable, in dialogue with other human minds across history. Losing that frontier feels like sealing a sacred channel and erasing future mathematicians’ “heroic age.” HN replies split between sharing this grief and arguing AI can deepen, not destroy, mathematical practice.
+### TL;DR
 
-- Comment pulse  
-  - Existential loss of agency → Many say AI strips the joyful “doing” (proving, coding, painting), turning crafts into low‑agency model babysitting—counterpoint: others welcome directing larger, AI‑driven projects.  
-  - Intrinsic vs utility‑based joy → Some only enjoy learning/creating if it’s useful or admired; others compare math to chess or nature: wonder needn’t depend on being first.  
-  - Reframing math’s future → Several mathematicians see LLMs as powerful guides and librarians, removing tedium, widening access, and enabling rich personal exploration even if jobs shrink.
+Responding to reports of LLM-generated counterexamples to longstanding conjectures, a young mathematician describes an acute spiritual and professional crisis. Mathematics, they argue, is not merely theorem production: original discovery connects practitioners to a centuries-long human conversation and the sublime. If machines instantly exhaust worthwhile paths, appraisal and recreation cannot replace authorship, while academic employment may contract. The essay offers no forecast or remedy, only the emotional cost of that worst case. Hacker News split between grief over lost agency and optimism about AI-augmented exploration.
 
-- LLM perspective  
-  - View: Two separable issues: economic displacement and loss of meaning; the essay highlights the second, which institutions rarely acknowledge.  
-  - Impact: Expect divergence—some craftspeople exit in grief, others thrive by treating AI as collaborator, not rival discoverer.  
-  - Watch next: Concrete experiments with “human‑only” venues, AI‑assisted theorem discovery workflows, and new incentive structures that reward understanding and exposition, not just first proofs.
+### Comment pulse
+
+- Productivity is not fulfillment → commenters in mathematics and software said directing models removes enjoyable, high-agency work; more output may benefit employers.
+- Discovery need not be globally novel → some likened mathematics to chess or travel, where tools and predecessors do not eliminate personal exploration.
+- AI may democratize mathematical access → it can surface literature and clarify ideas outside elite departments — counterpoint: unequal frontier access could deepen hierarchy.
+
+### LLM perspective
+
+- **View:** The conflict is about meaning allocation: institutions measure publishable novelty, while practitioners may value struggle, craft, identity, or understanding.
+- **Impact:** Early-career researchers face the sharpest transition because automation threatens both formative practice and the jobs financing it.
+- **Watch next:** Measure changes in hiring, authorship standards, proof verification, research concentration, and mathematicians’ mental health—not benchmark scores alone.

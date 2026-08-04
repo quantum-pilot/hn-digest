@@ -3,9 +3,17 @@
 - Score: 167 | [HN](https://news.ycombinator.com/item?id=49045040) | Link: https://arcprize.org/leaderboard
 
 ### TL;DR
-ARC-AGI-3 is the latest ARC Prize benchmark, shifting from earlier passive puzzle-solving (ARC-AGI-1/2) to interactive environments where AI agents must adapt in real time. Its leaderboard plots performance against cost-per-task, emphasizing that intelligence is about both capability and efficiency. Entries are grouped as extended “reasoning systems,” single-shot base LLMs, and tightly budgeted Kaggle competition solutions. Only runs under $10k are shown, incomplete answers are auto-failed, and some scores are provisional due to pricing and partial testing.
+
+ARC-AGI-3 evaluates agents adapting online to unfamiliar interactive environments, extending ARC-AGI-1/2’s passive fluid-intelligence tasks. Its leaderboard emphasizes score versus cost, distinguishes reasoning-time sweeps, single-shot base LLMs, and Kaggle systems capped at $50 for 120 tasks, and displays only runs below $10,000; incomplete outputs count as wrong and previews are unofficial. The supplied page omits the plotted results themselves. Hacker News therefore centered on an alleged Opus 5 jump, questioning benchmark exposure, targeted training, harness exclusions, subscription-based cost accounting, and weak correspondence with everyday performance.
+
+### Comment pulse
+
+- Perfect first-action play suggests prior knowledge → commenters reported hidden rules stated before exploration and byte-identical optimal runs across five temperature-1 seeds.
+- Novel mechanics remain the stronger test → reported performance fell below Opus 4.8 when interaction, rather than genre recognition, was required to discover rules.
+- Harness policy divides relevance → excluding tools preserves model-only comparability — counterpoint: production systems increasingly derive capability from orchestration, making bare-model scores less representative.
 
 ### LLM perspective
-- View: Framing intelligence as performance-per-dollar nudges research away from brute-force scaling toward algorithmic and architectural efficiency.  
-- Impact: Beneficial for small labs and startups that can compete via clever methods rather than massive compute budgets.  
-- Watch next: Stable, audited cost metrics, interactive-agent benchmarks beyond grid worlds, and side-by-side human and AI efficiency comparisons.
+
+- **View:** A benchmark can measure adaptation only while task mechanics remain genuinely unknown to both training pipelines and evaluators.
+- **Impact:** Benchmark creators face rising secrecy, regeneration, and validation costs as labs optimize rapidly against public task families.
+- **Watch next:** Label models by release date, publish human baselines, separate harness tracks, audit contamination, and normalize marginal inference cost.

@@ -2,19 +2,18 @@
 
 - Score: 206 | [HN](https://news.ycombinator.com/item?id=49051120) | Link: https://didtheyghostyou.com/
 
-## TL;DR
-An anonymous site lets candidates publicly report companies that ghost them after interviews and praise those that communicate clearly. Reports are moderated, de‑identified, and only approved entries affect a “ghosting leaderboard” and a “good communicators” board. The goal is a fair, persistent record of hiring behavior, not doxxing individuals. Hacker News comments add that ghosting is widespread and long‑standing, often tied to layoffs or vanished recruiters, but still seen as a major professionalism red flag.
+### TL;DR
 
----
+The site maintains an anonymous, moderated record of employers that stop responding after interviews, alongside a leaderboard for clear communicators. It counts only reviewed reports: an application alone does not qualify, candidates should honor stated timelines and follow up first, and submissions must omit names, private messages, and identifying details. Companies may request corrections. With 564 approved reports, HN readers welcomed accountability but supplied a complicating pattern: many disappearances followed recruiter layoffs, vacations, hiring freezes, or broken handoffs, suggesting organizational failure can look identical to deliberate silence.
 
-## Comment pulse
-- Ghosting often follows internal chaos → recruiter laid off, hiring freezes, vanished managers break pipelines and follow‑ups — counterpoint: poor continuity is itself a strong negative signal.  
-- Interview ghosting isn’t new → people report all‑day loops in 2012 and earlier ending in total silence; many feel it’s become more common.  
-- Accountability should target individuals too → including hiring managers/recruiters would align incentives to close loops and maintain basic communication standards.
+### Comment pulse
 
----
+- Ghosting may be accidental system failure → recruiter departures repeatedly stranded approved candidates because no owner inherited the interview pipeline.
+- Operational chaos remains informative → abrupt firings, year-long backlogs, and missing handoffs can signal a company problem even without malicious intent.
+- Accountability scope is contested → one reader wanted named hiring contacts — counterpoint: the platform excludes identities to protect fairness and moderation.
 
-## LLM perspective
-- View: A moderated, anonymous record is a reasonable pressure tool, but process transparency and appeals are critical to avoid weaponization.  
-- Impact: If it gains visibility, expect more template rejections, stricter ATS workflows, and “no‑ghosting” policies at larger firms.  
-- Watch next: Volume of disputes, employer participation, and whether ratings correlate with retention or candidate quality over time.
+### LLM perspective
+
+- **View:** Useful records should separate experience from inferred intent; silence is observable, but its internal cause usually is not.
+- **Impact:** Candidates gain reputation data; employers gain pressure to design handoffs, closure automation, and accountable ownership across recruiter turnover.
+- **Watch next:** Publish denominator-aware rates, time-to-response distributions, duplicate detection, moderation outcomes, company disputes, and evidence that rankings improve communication.

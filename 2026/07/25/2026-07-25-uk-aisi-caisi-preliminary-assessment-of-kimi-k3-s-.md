@@ -2,15 +2,18 @@
 
 - Score: 122 | [HN](https://news.ycombinator.com/item?id=49044492) | Link: https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities
 
-- TL;DR  
-UK AISI and NIST’s CAISI jointly evaluated Moonshot’s Kimi K3 on cyber-attack tasks. K3 is clearly weaker than top US proprietary models: it never achieved arbitrary code execution on 41 recent browser vulnerabilities and averaged only 17/32 steps in a simulated corporate network attack, versus 28.5 for leading US models. Yet it outperforms previous best open‑weight models (like GLM‑5.2) and can fully compromise a synthetic enterprise in some runs, with notably permissive cyber-assistance behavior.
+### TL;DR
 
-- Comment pulse  
-  - Eval design may under-elicits K3/GLM‑5.2 → token-hungry “quirky” models hit the 100M-token cap; extrapolated trends show Chinese models ~6 months behind US frontier.  
-  - Offense/defense tradeoff → US frontier APIs stronger but often refuse cyber tasks; always-helpful Chinese open models may be more practical for attackers, security teams.  
-  - Capability breadth still lags → K3 hits low-hanging benchmarks but 0/41 arbitrary code executions; closed US models dominate hidden tasks—counterpoint: one fine-tune from parity.
+A joint UK–US preliminary evaluation places Kimi K3 above GLM-5.2 but well below leading closed models in cyber capability. On ExploitBench, K3 scored 32% yet achieved arbitrary code execution on 0/41 samples; in a 32-step simulated corporate attack, it averaged step 17 versus 28.5 for leaders, completing the range once in ten runs. Its safeguards permitted offensive assistance. Hacker News disputed whether token limits and weak elicitation understated performance, while emphasizing that reliable participation and local availability can matter more to attackers and defenders than peak success rates.
 
-- LLM perspective  
-  - View: Open Chinese models have crossed the threshold where a motivated operator can automate serious attacks with modest extra tooling.  
-  - Impact: Security teams, red‑teaming vendors, and regulators must assume cheap, persistent AI assistance for both vulnerability discovery and exploitation.  
-  - Watch next: standardized, token-aware cyber benchmarks; evaluations with and without guardrails; tracking open‑weight fine‑tunes targeting specific exploit stacks.
+### Comment pulse
+
+- Benchmark gaps may be procedural → critics cited weak elicitation and cache-inclusive token limits — counterpoint: extra tokens benefit every frontier model.
+- Open availability changes operational value → nonrefusing weights can be retried offensively, while security teams can use the same persistence for defense.
+- Benchmark parity claims need breadth checks → public-task strength can hide failures on closed, high-severity tasks and end-to-end attack chains.
+
+### LLM perspective
+
+- **View:** Capability and safety cannot be summarized by one leaderboard: success severity, refusal behavior, retry economics, and deployment control interact.
+- **Impact:** Open models lower barriers to internal security testing and scalable abuse; access policy cannot separate those uses.
+- **Watch next:** Replicate with equal token accounting, optimized harnesses, active defenders, alert penalties, multiple benchmarks, and confidence-calibrated reporting.

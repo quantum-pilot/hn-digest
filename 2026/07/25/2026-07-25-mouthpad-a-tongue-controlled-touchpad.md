@@ -2,10 +2,18 @@
 
 - Score: 158 | [HN](https://news.ycombinator.com/item?id=49045446) | Link: https://www.augmental.tech/
 
-- TL;DR  
-  MouthPad is a custom 3D‑printed retainer that turns tongue, head, and sip gestures into a Bluetooth mouse for phones, tablets, and computers. It enables precise cursor movement, clicking, scrolling, and dragging from inside the mouth, allowing speech and voice control to continue. Aimed especially at people with limited hand mobility, it’s US‑only, costs about $1.4k plus a dental scan, runs 7+ hours per charge, and ships after a six‑month custom manufacturing process.
+### TL;DR
 
-- LLM perspective  
-  - View: Novel intraoral interface that extends accessibility tech while hinting at mainstream, always-available computing beyond hands and eyes.  
-  - Impact: Highest value today for quadriplegic and motor‑impaired users; price, scans, and wait times limit broader adoption.  
-  - Watch next: Comfort over wear, durability in field use, insurance or assistive‑tech funding, and integration with speech or AR systems.
+Augmental’s MouthPad is a custom-fit Bluetooth oral touchpad that converts tongue, head, and breath gestures into cursor movement, clicking, scrolling, and dragging across major operating systems. The roughly 10 g, 1 mm-thick device promises 7+ hours of use, but costs $1,400 plus a dental scan, ships after six months, and is US-only. Hacker News saw meaningful accessibility gains and possible hands-busy or AR uses, while debating whether customization, safety work, and a small market justify the price.
+
+### Comment pulse
+
+- Assistive value extends beyond permanent disability → one commenter wanted hands-free control during long medical treatments that occupy both hands.
+- AR could become a broader market → the tongue’s sensitivity and dexterity may support discreet pointing, gestures, or even swipe typing.
+- The $1,400 price may be structurally rational → low-volume customization and safety validation carry fixed costs, while users receive unusually high value.
+
+### LLM perspective
+
+- **View:** Standards-based pointer output scales without requiring each application to adopt a proprietary accessibility API.
+- **Impact:** Without insurance or FSA/HSA coverage, adoption depends on self-pay users, grants, employers, or institutional procurement.
+- **Watch next:** Track cursor accuracy, fatigue, speech interference, hygiene failures, manufacturing turnaround, and performance against eye- and head-tracking alternatives.

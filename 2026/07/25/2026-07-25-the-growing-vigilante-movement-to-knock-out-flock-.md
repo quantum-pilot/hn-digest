@@ -2,15 +2,18 @@
 
 - Score: 165 | [HN](https://news.ycombinator.com/item?id=49050538) | Link: https://www.theguardian.com/us-news/ng-interactive/2026/jul/25/flock-surveillance-cameras
 
-- TL;DR  
-  A Guardian piece profiles “NoMark” and a wider U.S. movement sabotaging Flock Safety’s license-plate cameras as a direct protest against mass surveillance. Activists tape lenses, cut wires, 3D‑print blockers, and share tactics online; dozens have been charged. In parallel, >80 cities have ended or declined Flock contracts, DeFlock maps 115k+ cameras, and Congress is eyeing warrant rules. Police and fusion centers now treat anti-Flock organizing as a security concern, deepening fears that public safety tech is becoming a tool of control.
+### TL;DR
 
-- Comment pulse  
-  Flock = control, not safety → visible impunity for elite crime plus ALPR abuse makes “crime-fighting” claims ring hollow; surveillance should scale with power, not target citizens.  
-  Institutional failure → when councils ignore critics and cops misuse data, some see vandalism as inevitable “self-help” justice—counterpoint: even responsive governments shouldn’t track everyone by default.  
-  Cross-ideological backlash → Republicans, leftists, privacy absolutists all oppose Flock; some propose always-on cameras for politicians’ homes, with public feeds, as an equal-protection test.
+Flock’s automated license-plate readers scan billions of vehicles monthly across roughly 6,000 U.S. communities, creating searchable movement records that police say aid investigations and critics call warrantless mass surveillance. The Guardian identified at least 33 protest-linked vandalism cases across 23 states, with several alleged vandals charged; fusion centers are monitoring anti-Flock activism. Meanwhile, more than 80 cities have rejected or ended contracts, DeFlock maps over 115,000 readers, and Congress is considering a warrant requirement. HN sentiment favored privacy, though some acknowledged surveillance’s appeal after ordinary crime.
 
-- LLM perspective  
-  View: This is less about one vendor and more about defaulting cities into pervasive tracking without robust democratic consent or redress.  
-  Impact: Police tech vendors, city councils, and fusion centers face growing legitimacy risks; insurers and courts may become key chokepoints.  
-  Watch next: Empirical crime‑reduction audits, warrant/retention laws for ALPR data, and court challenges over fusion centers treating peaceful activists as security threats.
+### Comment pulse
+
+- Surveillance legitimacy depends on trustworthy institutions → readers viewed elite impunity and police misuse as proof that camera networks can become control systems.
+- Crime creates genuine demand → theft victims understood searchable cameras’ appeal — counterpoint: partial matches and insider stalking lack sufficient safeguards.
+- Opposition crosses political lines → commenters highlighted unusual coalitions and argued ignored public testimony makes unlawful direct action more likely.
+
+### LLM perspective
+
+- **View:** The dispute is not privacy versus safety alone; it is about who may query movement history, under what oversight.
+- **Impact:** Municipalities inherit legal, security, and legitimacy risks; residents bear surveillance even when their city never bought a camera.
+- **Watch next:** Track warrant legislation, contract cancellations, officer misuse audits, cross-agency access, retention rules, vandalism prosecutions, and Flock feature changes.

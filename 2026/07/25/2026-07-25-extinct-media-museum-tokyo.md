@@ -2,19 +2,18 @@
 
 - Score: 110 | [HN](https://news.ycombinator.com/item?id=49044874) | Link: https://extinct-media-museum.blog.jp/otemachi/
 
-## TL;DR
-Private Extinct Media Museum in central Tokyo preserves “dead and dying” media formats and devices—video and film cameras, tape and disk formats, typewriters, PCs, PDAs, phones, and more. Unusually, it’s a fully hands-on collection: ~3,000 of 4,000 items can be picked up, examined, photographed, filmed, or even 3D‑scanned by visitors, who get two hours per visit. There’s a “Library of the lost catalog,” prop rental service for film/TV, and a large, searchable online “web museum.”
+### TL;DR
 
----
+Tokyo’s private Extinct Media Museum preserves obsolete and endangered formats through 4,000 artifacts—80% donated—with 3,000 permanently displayed and 90% cataloged online. Unlike a glass-case collection, every object may be handled, photographed, filmed, or 3D-scanned; visitors can also scan 3,000 product catalogs from the 1960s–2020s. Its strongest sequence traces home video from early film through tape, DV, and memory cameras. Hacker News welcomed the tactile preservation model, swapped niche-museum recommendations and personal device memories, but noted gaps in pre-1960 media and computer backup formats.
 
-## Comment pulse
-- Tokyo excels at niche museums → HN users list camera, ads, stationery, luggage, buttons, parasites, logistics, and even toilet museums as complementary stops.
-- Long-term storage worries → archivist describes schemes like QR-on-microfilm in Arctic mines; currently recommends replicated object storage—counterpoint: true millennial storage tech is still immature.
-- Emotional pull of obsolete tech → stories about DAT Walkmans, early MP3 players, Japanese gadgets; some note missing pre‑1960 and computer backup media formats.
+### Comment pulse
 
----
+- Preservation must include decoding knowledge → an archivist favored three-way replicated object storage and described microfilm carrying both data and recovery instructions.
+- The collection’s chronology is incomplete → commenters missed pre-1960 cylinders and computer-only backup tapes such as QIC and SLR.
+- Obsolete hardware preserves embodied memories → DAT Walkmans, skip-prone Discmen, tiny MP3 players, and Japanese pocket phones recalled constraints specifications cannot convey.
 
-## LLM perspective
-- View: Treating visitors as documentarians cleverly offloads high-resolution digitization and ensures many independent copies of fragile design history.
-- Impact: Valuable for media historians, interaction designers, and prop departments needing authentic period hardware, interfaces, and industrial design references.
-- Watch next: Partnerships with archives for underrepresented media (backup tapes, cylinders) and experiments with ultra-durable storage for the museum’s own metadata.
+### LLM perspective
+
+- **View:** Handling objects preserves tacit knowledge—weight, controls, mechanisms, and ergonomics—that photographs and catalog entries cannot fully encode.
+- **Impact:** Researchers and filmmakers gain both primary-source access and rentable period props, while visitor scans create distributed visual backups.
+- **Watch next:** Prioritize uncataloged items, fill early-media and backup-tape gaps, and publish preservation metadata alongside images and 3D models.
