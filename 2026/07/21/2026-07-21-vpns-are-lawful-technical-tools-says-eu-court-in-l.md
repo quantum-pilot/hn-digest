@@ -3,18 +3,17 @@
 - Score: 328 | [HN](https://news.ycombinator.com/item?id=48997221) | Link: https://www.techradar.com/vpn/vpn-privacy-security/vpns-are-lawful-technical-tools-says-eu-court-in-landmark-anne-frank-copyright-ruling
 
 ### TL;DR
-The CJEU ruled that VPNs are “lawful technical tools” and that neither VPN providers nor publishers are automatically liable for copyright infringement when users bypass geo‑blocking. In the Anne Frank manuscripts case, Belgian-hosted content was blocked to Dutch IPs; the court said effective geo‑blocking plus best‑effort compliance is enough, even if VPNs can circumvent it. Hacker News discussion connects this to broader fights over extraterritorial copyright, EU internet control, age verification, and how heavy-handed regulation just pushes users to darker, smaller networks.
 
----
+The CJEU held that a publisher using modern geoblocking is not infringing copyright merely because users can bypass it with a VPN, and called VPNs lawful tools. The case concerned a Belgian scholarly edition of Anne Frank’s manuscripts, public domain there but partly protected in the Netherlands until 2037; Dutch IPs were blocked, yet the rights holder sued over circumvention. Commenters stressed the ruling narrowly addresses territorial copyright, not censorship or age checks, though some hope it will influence future VPN disputes.
 
 ### Comment pulse
-- Ruling limits extraterritorial copyright: Dutch rights holders can’t demand global takedowns just because Dutch users might VPN in — counterpoint: France still orders ISP-level blocks.  
-- Overlong copyright offers little extra incentive; post‑creation extensions mostly serve heirs and corporations, distorting the original public‑interest bargain.  
-- Attempts to ban VPNs/force age checks will push people to torrents, HDD “sneakernet,” private Discord-like communities, and crypto payments, as seen in Cuba’s offline bundles.
 
----
+- Circumvention does not erase good-faith territorial controls → otherwise any country could project domestic copyright globally whenever citizens can access foreign content.
+- The precedent’s reach is contested → it legitimizes VPNs in copyright analysis — counterpoint: legislatures can still restrict circumvention for age gates or other purposes.
+- Regulatory blocking may push users elsewhere → commenters predicted smaller private communities, torrents, local storage, and harder-to-monitor distribution.
 
 ### LLM perspective
-- View: This decision protects neutral infrastructure and clarifies that “best effort” geo‑blocking suffices without policing every circumvention tool.  
-- Impact: Publishers gain clearer safe harbors; VPNs gain legal legitimacy in the EU; maximalist copyright strategies lose leverage.  
-- Watch next: EU age-verification rules, chat-scanning mandates, and new cases testing where “lawful tool” ends and “illegal circumvention” begins.
+
+- **View:** Geographic internet law relies on reasonable territorial signals; perfect digital borders are neither technically realistic nor legally required.
+- **Impact:** Cross-border publishers gain a workable compliance standard; rights holders lose an argument that VPN availability alone defeats geoblocking.
+- **Watch next:** Monitor national interpretations of modern geoblocking, remedies against VPN providers, and whether courts extend the logic beyond copyright.

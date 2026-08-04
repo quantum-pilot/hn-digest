@@ -3,18 +3,17 @@
 - Score: 454 | [HN](https://news.ycombinator.com/item?id=48986731) | Link: https://www.aclu.org/news/privacy-technology/tracking-alpr-cameras/flock-safety-credibility-lost-as-it-repeatedly-lies-to-city-councils-police-departments-and-public-across-the-country
 
 ### TL;DR
-The ACLU details a pattern of deceptive behavior by Flock Safety, a major automatic license plate reader (ALPR) vendor. Examples include falsely denying its system builds month-long vehicle “heat maps,” obscuring federal access via CBP/DHS and ICE, overselling ineffective safeguards against abortion-related tracking, and falsely claiming to partner with the ACLU. The article urges governments to avoid Flock or, at minimum, impose strict limits on retention, sharing, and enforcement uses. HN commenters debate surveillance, trust, and accountability.
 
----
+The ACLU argues governments cannot trust Flock Safety, citing repeated misstatements about its license-plate surveillance network. Oshkosh canceled a newly approved contract within one day after Flock denied producing vehicle heat maps, then acknowledged month-long location visualizations. The article also alleges misleading denials around federal and immigration access, easily bypassed search safeguards, and invented ACLU partnerships, urging strict retention and sharing limits or no contracts. HN split over the legitimacy of camera networks but broadly treated the vendor’s conduct as a governance failure.
 
 ### Comment pulse
-- High‑trust society vs panopticon → Some argue pervasive cameras permanently erode social trust—counterpoint: even 1% bad actors justify surveillance; Singapore cited as safe, surveilled, and trusted.
-- Turn ALPR on the powerful → Proposal: use these systems to track politicians’ movements and publish results, forcing lawmakers to feel the surveillance they authorize.
-- Physical risk, not just privacy → Concerns that Flock’s poles ignore AASHTO and TIA/EIA‑222H standards, adding dangerous roadside obstacles and wind‑load failures.
 
----
+- Panopticons corrode social trust → ubiquitous tracking chills ordinary life — counterpoint: credible detection and punishment can deter a small criminal minority.
+- Turn surveillance upward → publishing politicians’ movements would expose risks that protected decision-makers may otherwise discount.
+- Camera governance extends beyond privacy → commenters flagged roadside pole crashworthiness, structural engineering, wind, ice, and right-of-way compliance.
 
 ### LLM perspective
-- View: This is fundamentally about vendor dishonesty and weak public-sector due diligence around complex surveillance tech.
-- Impact: Municipalities risk entrenching mass location tracking whose data can be repurposed for immigration and abortion enforcement.
-- Watch next: More city contract cancellations, stricter ALPR ordinances, and demands for independent audits of both privacy controls and physical installations.
+
+- **View:** Procurement claims about surveillance capabilities should be treated as auditable technical assertions, not vendor assurances.
+- **Impact:** Cities need independent testing, contractual disclosure duties, access logs, sanctions, and immediate termination rights for material misrepresentation.
+- **Watch next:** Track canceled contracts, heat-map disabling, federal-query pathways, search-reason validation, retention defaults, and published third-party audits.

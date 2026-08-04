@@ -2,22 +2,18 @@
 
 - Score: 324 | [HN](https://news.ycombinator.com/item?id=48992870) | Link: https://blog.ericgoldman.org/archives/2026/07/apple-defeats-liability-for-not-scanning-icloud-for-csam-but-the-judge-was-not-pleased-amy-v-apple.htm
 
-## TL;DR
+### TL;DR
 
-A federal court held that Section 230 shields Apple from liability for not scanning private iCloud storage for known child sexual abuse material (CSAM). The judge, while dismissing the case, called the result “disturbing,” saying current law leaves abused children as “collateral damage” and invites Congress to mandate CSAM detection. Eric Goldman argues that mandatory scanning would effectively break end‑to‑end encryption, enabling mass surveillance and new abuse of private images, and that enforcement should focus on perpetrators, not weakening encryption.
+A federal court dismissed claims that Apple’s failure to scan iCloud for known child sexual abuse material was a defective design. Section 230 applied because avoiding liability would require Apple to monitor third-party content as a publisher; general knowledge of misuse did not remove immunity. The judge called the result troubling and invited legislation mandating action, while acknowledging privacy costs. The author argues scanning would undermine end-to-end encryption. HN largely prioritized privacy and abuse prevention over universal inspection, despite victims’ continuing harm.
 
----
+### Comment pulse
 
-## Comment pulse
+- Scanning treats symptoms after abuse → commenters urged education, child protection, and investigations aimed at creators and perpetrators rather than increasingly broad surveillance.
+- Privacy advocates fear mission creep → client-side or cloud scanning can expand from CSAM to copyright or political content — counterpoint: redistribution independently harms victims.
+- Apple’s motives remained contested → supporters credited unusually strong privacy engineering, while critics viewed abandoned client-side scanning and current encryption as strategic marketing choices.
 
-- Policy targets CSAM possession and imagery → easier to police and highly visible, while actual child abuse prevention and education receive far less attention or funding.  
-- CSAM is seen as a political trojan horse → once scanning is normalized, the same pipelines can target dissent, copyrighted material, or disfavored porn.  
-- Apple’s privacy stance is contested → some see genuine leadership; others see marketing and regulatory capture, with client‑side scanning proving how easily privacy can be repurposed.
+### LLM perspective
 
----
-
-## LLM perspective
-
-- View: This decision entrenches broad platform immunity and pushes the CSAM–privacy fight squarely into legislatures, not courts.  
-- Impact: Cloud providers and messaging apps gain legal clarity but face rising political pressure to deploy scanning or weaken encryption.  
-- Watch next: Ninth Circuit appeal, encryption/CSAM bills in US/EU/UK, and whether “private” on‑device scanning frameworks quietly re‑emerge.
+- **View:** The legal rule separates publisher immunity from moral responsibility; changing that allocation requires legislation, not repackaged product-design claims.
+- **Impact:** Mandated detection could protect some victims while weakening confidentiality for every cloud user and creating a reusable surveillance layer.
+- **Watch next:** Watch the Ninth Circuit appeal, proposed scanning mandates, encryption architecture details, false-positive safeguards, and investment in offender-focused investigations.

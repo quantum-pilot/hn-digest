@@ -2,19 +2,18 @@
 
 - Score: 167 | [HN](https://news.ycombinator.com/item?id=48999291) | Link: https://fireworks.ai/blog/kimik3-fable
 
-## TL;DR
-Fireworks benchmarks open-weight Kimi K3 against closed Fable 5 on ~1,030 “agentic” tasks (SWE, terminal, algorithmic, multi-language, legal). Raw accuracy is nearly tied, but K3 is far cheaper, especially on long terminal workflows. Using oracle routing—always picking the cheapest correct model after running both—yields 93% task success and 1.5–50× lower cost than Fable alone, with K3 handling 72–96% of traffic. HN likes cheap Chinese/open models and routing ideas but notes the oracle router is only a theoretical upper bound.
+### TL;DR
 
----
+Fireworks benchmarked Kimi K3 and Fable 5 on roughly 1,000 agentic coding, terminal, algorithmic, multilingual, and legal tasks. Overall quality was close—92.4% versus 92.6% on software work—but their strengths differed by domain. An oracle that ran both and retrospectively chose the cheapest correct answer reached 93% accuracy, selected K3 for 72–96% of tasks, and projected savings up to 50× on long loops. HN liked K3’s cost and openness but stressed that this is a theoretical ceiling, not a demonstrated predictive router.
 
-## Comment pulse
-- Chinese/open models are attractive → DeepSeek and Kimi praised for speed, coding help, and being self-hostable; caching plus cheap infra can make inference “almost free”.
-- Oracle routing is an upper bound → Fireworks runs both models then picks cheapest correct; real routers must predict—counterpoint: still shows building workload-specific routers is valuable.
-- Openness vs safety → K3 seen as cheaper, less overcautious than US labs; debate whether releasing weights is “open source” and how it aids even closed providers.
+### Comment pulse
 
----
+- Oracle savings are not deployable routing → the study knows correctness after running both models; a live system must predict before paying.
+- Cost depends on platform economics → prompt-cache hits, token pricing, and variable agent turns drove the gap; K3 could be cheaper yet slower.
+- Open-model enthusiasm extended beyond price → users valued fewer safety refusals and self-hostable gateways — counterpoint: the release may provide weights without full training openness.
 
-## LLM perspective
-- View: Multi-model routing plus a strong open default looks like the emerging pattern; single-model “SoTA” stacks will increasingly feel inefficient.
-- Impact: Teams will need logging, labeling, and monitoring focused on routing decisions, not just per-model benchmarking or prompt engineering.
-- Watch next: Standardized router benchmarks, vendor-native routing APIs, and open-source router frameworks trained on real production workloads.
+### LLM perspective
+
+- **View:** Model complementarity is real; the unproven asset is forecasting which specialist will solve each unseen task most economically.
+- **Impact:** Teams could reserve premium models for rare tasks, but routing errors may erase savings or silently reduce quality.
+- **Watch next:** Evaluate trained routers prospectively on private workloads, including overhead, latency, abstentions, drift, and end-to-end cost per correct result.

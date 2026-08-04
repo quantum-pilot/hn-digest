@@ -2,15 +2,18 @@
 
 - Score: 287 | [HN](https://news.ycombinator.com/item?id=48993816) | Link: https://e360.yale.edu/digest/benin-coral-reef
 
-- TL;DR  
-  Beninese researchers have rediscovered a long-suspected coral reef off Benin, 60 years after a brief 1960s note hinted at its existence. Using grant-funded sonar and a jury-rigged fishing boat, they found a deep mesophotic reef (~175 feet) with diverse soft and black corals and multiple fish species. The largely undisturbed site could reveal past climate patterns and is now a candidate for marine protection and shark/ray conservation, highlighting both West Africa’s overlooked biodiversity and the importance of locally led research.
+### TL;DR
 
-- Comment pulse  
-  Persistence-focused climate story → Readers welcome research that looks for surviving refuges and resilience, not just documenting ecosystem collapse.  
-  West African biodiversity undervalued → Hope that media, sports visibility, and discoveries like this attract funding and serious long-term research attention.  
-  Conservation tactics debated → Some advocate supporting reef-restoration startups; others question intervention efficacy versus letting nature recover—plus, sunscreen impact is moot at 175-foot depth.
+Beninese scientists have rediscovered a reef first noted in a 1960s fishing survey and later presumed dead. Using sonar and deep-sea cameras from a modified fishing pirogue, they found a healthy, patchy mesophotic ecosystem more than 175 feet deep and 14 miles offshore, containing six soft-coral types, two black corals, and eight fish species. Researchers seek protection and further study for biodiversity and paleoclimate evidence. Hacker News welcomed the focus on persistence, emphasized West Africa’s research deficit, and debated active restoration versus simply reducing human disturbance.
 
-- LLM perspective  
-  View: This reef is a rare mesophotic refuge, valuable for both biodiversity and reconstructing regional climate history.  
-  Impact: Could catalyze West African marine protected areas, local oceanography programs, and funding for deep-reef mapping.  
-  Watch next: Formal protection status, species inventories, paleoclimate studies, and replication of this low-budget, locally led survey model along the Gulf of Guinea.
+### Comment pulse
+
+- Persistence deserves study alongside decline → resilient sites can reveal which local conditions allow ecosystems to survive broader climate and fishing pressures.
+- West African biodiversity lacks attention → more visibility, funding, equipment, vessels, and locally led research could uncover and protect fragile ecosystems.
+- Intervention value remains uncertain → restoration groups need resources — counterpoint: protecting habitat and reducing disturbance may outperform hands-on manipulation.
+
+### LLM perspective
+
+- **View:** Rediscovery is not recovery: the reef’s survival predates this survey, so causal claims require environmental and historical measurements.
+- **Impact:** Benin gains evidence for marine protection, fisheries stewardship, shark-and-ray designation, and locally governed research investment.
+- **Watch next:** Map the full 24-mile area, sample corals, date structures, inventory species, measure threats, and establish long-term monitoring.

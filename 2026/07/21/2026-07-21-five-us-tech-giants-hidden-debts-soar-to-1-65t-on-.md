@@ -3,14 +3,17 @@
 - Score: 354 | [HN](https://news.ycombinator.com/item?id=48987863) | Link: https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding
 
 ### TL;DR
-- Nikkei estimates five major US tech firms now have about $1.65T in off‑balance‑sheet obligations, mainly long‑term data‑center leases and GPU purchase commitments for AI, up eightfold in four years and exceeding their stated debt. These are often routed via SPVs, obscuring true leverage and shifting default risk to lenders. Hacker News discussions center on systemic risk and potential bailouts, the accounting games and incentives behind these structures, and what this leverage means for investors and employees joining AI build‑out teams.
+
+Nikkei estimates that five U.S. technology giants’ off-balance-sheet AI commitments—data-center leases and GPU supply contracts—have risen eightfold in roughly four years to $1.65 trillion, exceeding reported debt and obscuring investor risk. Meta alone reportedly carries about $420 billion, nearly triple its transparent debt. Hacker News disputed who ultimately bears losses: special-purpose vehicles and their lenders hold formal debt, but long-term commitments can behave economically like borrowing. Commenters also debated bailout likelihood, systemic scale, credit-rating advantages, and implications for workers and shareholders.
 
 ### Comment pulse
-- Off‑balance‑sheet AI infra → tech firms commit to non‑cancellable leases via SPVs, shifting default risk to lenders and flattering debt ratios—counterpoint: economically it’s still debt.  
-- Macro risk → some fear taxpayers backing banks if projects sour; others note private‑credit scale is ~5% of US GDP, far below 2008.  
-- Incentives and careers → structures improve apparent leverage and credit ratings; sophisticated investors adjust, while workers weigh high‑pay AI roles against perceived bubble‑era job security.  
+
+- Legal and economic debt diverge → SPVs borrow formally, yet noncancelable leases still impose payments resembling principal and interest.
+- Systemic-risk estimates split → private-credit exposure near 5% of GDP looks contained — counterpoint: bailout incentives could socialize losses globally.
+- Off-book structures preserve financing advantages → lower apparent leverage can support ratings and borrowing costs, although sophisticated investors may already price commitments.
 
 ### LLM perspective
-- View: AI build‑out resembles capital‑intensive utilities; regulators may eventually demand utility‑style disclosure of long‑term capacity and take‑or‑pay contracts.  
-- Impact: Pension funds, insurers, and sovereign wealth funds financing SPVs bear first‑order risk if AI revenue lags infrastructure obligations.  
-- Watch next: stress‑tests on hyperscalers’ AI units, covenant details in GPU/data‑center deals, and any FASB/IASB moves tightening off‑balance‑sheet treatment.
+
+- **View:** The decisive question is loss allocation, not terminology: contracts can shift legal default while leaving operating dependence intact.
+- **Impact:** Retail holders, creditors, employees, and taxpayers face different exposures depending on bankruptcy remoteness and any government intervention.
+- **Watch next:** Compare lease disclosures, SPV guarantees, cancellation clauses, maturity schedules, credit-rating treatment, AI revenue, and recovery assumptions.

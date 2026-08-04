@@ -2,19 +2,18 @@
 
 - Score: 252 | [HN](https://news.ycombinator.com/item?id=48996571) | Link: https://ads.openai.com/
 
-## TL;DR
-OpenAI is launching an Ads Manager for “AI‑native” ads inside ChatGPT, where brands can target users as they research and compare products using conversational context rather than keywords. Ads are promised to be clearly labeled, visually separated from model answers, and governed by data‑use controls; early case studies highlight major retail partners. Hacker News reactions focus on risks of gradual trust erosion, covert influence over users’ decisions, and how ad‑driven monetization will shape the broader AI ecosystem.
+### TL;DR
 
----
+OpenAI is opening a self-service Ads Manager for campaigns shown inside ChatGPT, targeting users as they research options, compare products, and make decisions. Advertisers can set budgets and goals, upload creatives, launch campaigns, and track impressions, clicks, and conversions. OpenAI says placements will be clearly labeled, remain separate from model answers, and give users control over ad-related data. HN’s reaction was overwhelmingly distrustful, citing Google’s gradual blurring of ads and content and questioning whether today’s safeguards will persist.
 
-## Comment pulse
-- Clear labels today → many expect a Google‑like gradual drift toward blended, harder‑to‑distinguish ads that degrade answer quality and trust.  
-- LLM‑based nudging → some fear subtle steering toward sponsors; others say models lack persistence and advertisers demand attributable effects.— counterpoint: training‑time bias can evade attribution.  
-- Business framing → ads seen as inevitable to monetize free users; many won’t pay or self‑host, and early UX/rollout quirks suggest immature product.  
+### Comment pulse
 
----
+- Subtle influence is feared → training data or nudges could make promotion resemble advice — counterpoint: current models lack finesse and attribution.
+- Ads could entrench proprietary services → free mainstream users prioritize convenience and will neither self-host open models nor install blockers.
+- Product quality raised doubts → a strangely sorted timezone selector suggested weak QA despite the platform’s polished monetization pitch.
 
-## LLM perspective
-- View: Conversational context makes these placements uniquely powerful; the model effectively becomes an intent detector wrapped around an ad slot.  
-- Impact: If ad revenue dominates, subtle pressure to favor commercial queries and friendly brands may skew training data and reinforcement choices.  
-- Watch next: Key signals: default targeting settings, per‑query ad explainability, real opt‑outs, and whether paid tiers remain genuinely ad‑influence‑free.
+### LLM perspective
+
+- **View:** Conversation provides purchase intent richer than search keywords, so small relevance gains may command substantial advertiser value.
+- **Impact:** Ad-funded economics may subsidize free access while increasing governance burdens for product, safety, privacy, and measurement teams.
+- **Watch next:** Audit labeling, targeting controls, answer independence, paid-tier treatment, and longitudinal changes as revenue pressure grows.

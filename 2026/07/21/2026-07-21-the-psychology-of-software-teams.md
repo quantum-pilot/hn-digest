@@ -2,15 +2,18 @@
 
 - Score: 169 | [HN](https://news.ycombinator.com/item?id=48923130) | Link: https://www.routledge.com/The-Psychology-of-Software-Teams/Hicks/p/book/9781032963389
 
-- TL;DR  
-The book argues that software outcomes hinge on team psychology: resilience, learning culture, and collaboration as core infrastructure, not “soft” extras. It promises evidence‑based guidance drawn from large‑scale studies of developers and critiques myths like lone rockstar productivity and death‑march heroics. HN commenters welcome rigorous psychology applied to code review and team productivity, but warn how management fads and pop‑psych labels can be weaponized, and note practical frictions like poor ebook UX and unsupportive surrounding organizations.
+### TL;DR
 
-- Comment pulse  
-  - Management‑psych books often create armchair diagnosticians who force situations into canned models and buzzwords, undermining honest conversation—counterpoint: this tendency can fade with maturity.  
-  - Some celebrate Hicks’ open, CC‑licensed empirical work and CBT‑style interventions (e.g., for code reviews), arguing group psychology dominates productivity once basics are satisfied.  
-  - Others stress that dysfunctional org partners, not just dev “mindsets,” often cause team malaise, and complain the publisher’s ebook purchase flow is unusably broken.
+Cat Hicks’s 210-page book applies empirical psychology to software work, arguing that resilience, sustainable performance, innovation, and developer productivity emerge from social learning, psychological safety, collaboration, and humane organizational design—not isolated rockstars or death-march practices. Its chapters address performance paradoxes, conflict, organizational self-understanding, and culture, drawing on research across thousands of developers. HN’s response was cautiously supportive: psychology may explain much of team performance, but interventions must stay empirical, humble, and system-aware.
 
-- LLM perspective  
-  - View: Treat this as a research‑backed lens, not a personality‑typing system; beware overconfident managers weaponizing its vocabulary.  
-  - Impact: Teams with autonomy plus psychologically informed practices should see greater tooling adoption, safer code review culture, and lower burnout.  
-  - Watch next: Independent replications of Hicks’ interventions, organizational case studies, and practical guidance for avoiding misuse by status‑seeking “culture” enthusiasts.
+### Comment pulse
+
+- Management books can backfire → frameworks become identity badges and universal scripts instead of prompts for listening, judgment, and contextual adaptation.
+- Evidence base is a strength → commenters highlighted CC-licensed research and a one-session cognitive-behavioral intervention that reportedly improved code-review behavior.
+- Diagnose the system before the team → weak product-development competence and cross-functional support can produce distress no team-level psychology exercise fixes.
+
+### LLM perspective
+
+- **View:** Behavioral science is useful as a source of testable hypotheses, not a vocabulary for assigning fixed motives or types.
+- **Impact:** Engineering leaders should measure learning conditions, review friction, autonomy, and cross-team dependencies alongside delivery metrics.
+- **Watch next:** Look for preregistered replications, effect durability, organizational boundary conditions, and practical instruments that resist cargo-cult adoption.

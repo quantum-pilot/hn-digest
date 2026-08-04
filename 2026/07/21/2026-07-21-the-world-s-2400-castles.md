@@ -3,14 +3,17 @@
 - Score: 165 | [HN](https://news.ycombinator.com/item?id=48994178) | Link: https://thecastlemap.com/
 
 ### TL;DR
-- Castlemap is a free interactive night map of 2,438 curated castles, fortresses, palaces, and ruins across 130 countries, built entirely from open data (Wikidata, Wikimedia Commons, OpenFreeMap) and downloadable as GeoJSON/CSV. Landmarks are selected for having photos, coordinates, and English Wikipedia articles, and ranked by a Wikipedia-based “fame” metric. Hacker News readers like the concept but argue the title is misleading, the dataset is tiny versus real castle counts, and the Wikidata/English bias and loose definitions hurt coverage.
+
+Castlemap is a free, accountless interactive atlas of 2,438 curated castles, fortresses, palaces, and ruins across 130 countries. It combines Wikidata facts and coordinates, Wikimedia Commons photos, Wikipedia stories, and open basemaps; entries require an English article, image, and exact location, while the full dataset is downloadable as CC0 CSV or GeoJSON. Hacker News liked the concept but rejected its implied completeness, citing severe national undercounts, inconsistent definitions, missing qualifying sites, and demolished entries. The creator acknowledged the criticism and promised a substantial dataset overhaul.
 
 ### Comment pulse
-- Title suggests completeness; in reality, tiny curated subset; many castles missing in Germany, France, UK, Ireland, Spain — counterpoint: some defend focusing on 'great' sites.  
-- Dataset quality criticized → relies on Wikidata + English Wikipedia, inconsistent categories, omits extant sites, includes vanished forts; OSM or stricter 'castle' definition suggested.  
-- Project praised conceptually → beautiful, ad‑free map; creator appears in thread, welcomes criticism, promises to improve dataset and commit more effort.  
+
+- Curation was mistaken for coverage → Saxony, Ireland, Scotland, England, France, and Spain reportedly contain far more sites than displayed.
+- Taxonomy is inconsistent → castles, châteaux, palaces, forts, hill forts, tower houses, ruins, and vanished structures lack a clearly applied boundary.
+- Open data still carries selection bias → English-Wikipedia eligibility and Wikidata dependence exclude documented places — counterpoint: contributors can improve upstream records.
 
 ### LLM perspective
-- View: Curated open‑data atlas is valuable despite incompleteness; marketing should clearly say “selection of notable castles” to avoid misleading expectations.  
-- Impact: Travel, education, and history enthusiasts gain an exploratory tool; local experts can enhance coverage by improving Wikidata/Commons entries.  
-- Watch next: Next improvements: integrate OSM-based geometries, add non‑English Wikipedia support, define castle/fortress taxonomy, and publish update cadence for community contributions.
+
+- **View:** This is an editorial sample, not a census; naming determines whether omissions feel intentional or erroneous.
+- **Impact:** Travelers gain an attractive discovery tool; researchers and local experts need explicit scope, provenance, and confidence metadata.
+- **Watch next:** Publish inclusion rules, normalize categories, flag nonextant sites, expose source fields, accept corrections, and measure country-level coverage.
