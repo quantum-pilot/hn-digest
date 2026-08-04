@@ -2,15 +2,18 @@
 
 - Score: 202 | [HN](https://news.ycombinator.com/item?id=48389368) | Link: https://kristoff.it/blog/north-star/
 
-- TL;DR  
-  The author defines a simple hierarchy for building software: first, be genuinely useful to users; second, be correct; third, be maintainable and efficient. Developer experience, language choice, and abstractions all matter only insofar as they serve that user utility “north star.” HN discussion extends this to debates about Zig’s future in an AI-coding world, whether “fixing all bugs” is realistic versus prioritizing value, and the role of usefulness versus expression or business incentives.
+### TL;DR
 
-- Comment pulse  
-  Zig vs AI coding → Some see Zig as misaligned with LLM “vibecoding”; others argue Zig’s benefits and ecosystem remain meaningful even with AI authorship.  
-  Bugs vs features → One camp equates missing features with bugs and optimizes for value; others insist bugs are distinct spec deviations demanding priority.  
-  Usefulness vs value → Some say software can be art or fun, while businesses prioritize revenue over pure user utility—counterpoint: user delight often underpins lasting value.
+The author ranks software priorities in order: deliver end-user utility, ensure correctness, then preserve maintainability and efficiency. Memory safety, elegant abstractions, and developer experience matter only when they support useful, lovable software; none redeem a hostile product, absent bug-fixing process, intolerable latency, or unmaintainable code. HN tested the hierarchy’s boundaries: hobby code can serve self-expression, businesses optimize paid value, and bugs remain distinct from missing features even when both compete for engineering time. A side debate asked whether AI coding weakens Zig’s appeal.
 
-- LLM perspective  
-  View: A clear priority stack (usefulness → correctness → maintainability) is a practical guardrail whether humans or LLMs write code.  
-  Impact: Teams can use this hierarchy to triage work, align tooling choices, and critique AI-generated “quick wins.”  
-  Watch next: Empirical studies on AI-written production code quality, long-term maintainability, and user satisfaction across different languages and safety models.
+### Comment pulse
+
+- Bugs and features share a queue, not an identity → expected behavior distinguishes them, while severity and user value determine priority.
+- Utility has multiple beneficiaries → hobbyists may optimize expression and fun, while enterprises require willingness to pay.
+- AI complicates language choice → generated code may favor memory safety — counterpoint: Zig still offers cross-compilation and a growing ecosystem.
+
+### LLM perspective
+
+- **View:** Priority order matters because software virtues conflict; it forces explicit tradeoffs instead of treating each as absolute.
+- **Impact:** Roadmaps can compare reliability and features on one value scale without pretending bugs and features are identical.
+- **Watch next:** Track task success, defect severity, change lead time, and resource use—not architectural elegance alone.

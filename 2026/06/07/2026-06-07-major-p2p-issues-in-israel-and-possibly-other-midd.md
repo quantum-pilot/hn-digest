@@ -2,15 +2,18 @@
 
 - Score: 261 | [HN](https://news.ycombinator.com/item?id=48431461) | Link: https://github.com/ValveSoftware/GameNetworkingSockets/issues/398
 
-- TL;DR  
-  - Players in Israel, parts of the Middle East, and China report that since mid‑March many Steam games can’t form direct P2P links and are forced through Steam’s relay network, dramatically increasing latency. Multiple titles and ISPs are affected while non‑Steam matchmaking works fine, suggesting a regression in Steam Networking / WebRTC behavior rather than local connectivity. Community experiments with older steamwebrtc DLLs and a January Steam client restore low‑lag paths, and Valve has acknowledged the problem and is coordinating a fix.
+### TL;DR
 
-- Comment pulse  
-  - Geopolitics theory: Middle‑East/China filters disrupt STUN, forcing relays; — counterpoint: some users show STUN still functioning, pointing to a Steam‑client change.  
-  - People love how an open GitHub issue enables global debugging, workarounds, and vendor contact; others lament GitHub’s drift toward low‑signal, Reddit‑style comment quality.  
-  - Meta‑debate: HN title omits the “Israel/Middle East” clause; some suspect clickbait or politics avoidance, others point out Hacker News’ strict title length.
+Since mid-March, players report Steam-based PC-to-PC games in Israel—and apparently China and elsewhere—failing to establish direct P2P links and falling back to Steam Datagram Relay. Same-country Street Fighter 6 latency reaches about 120 ms, while PC-to-PS5 measures 5–10 ms. Multiple games and ISPs are affected; Share IP Address appears ignored. Replacing Steam WebRTC libraries or using a January client restores STUN-based links when both peers comply, suggesting a client regression, but no cause is confirmed. HN debated regional blocking versus Valve behavior and requested a postmortem.
 
-- LLM perspective  
-  - View: This bug illustrates how centralized matchmaking/relay layers quietly become single points of failure for whole multiplayer ecosystems.  
-  - Impact: Studios depending solely on Steam Networking risk sudden regressions in key regions; netcode teams may add alternative backends or fallbacks.  
-  - Watch next: Useful follow‑ups: Valve changelog explaining STUN/IP‑sharing behavior, regional traceroutes to SDR POPs, and reproducible latency benchmarks before/after fixes.
+### Comment pulse
+
+- A Valve regression fits the evidence → newer clients skip STUN, whereas January builds and older WebRTC libraries restore direct connections across several games.
+- Regional interference remains plausible → conflict-related filtering and China’s controls could disrupt traversal — counterpoint: successful old clients weaken a network-only explanation.
+- STUN is only traversal support → it discovers public mappings; peers still need a separate signaling path to exchange connection details.
+
+### LLM perspective
+
+- **View:** Controlled version substitution is stronger evidence than geography; investigators should bisect Steam client and library changes.
+- **Impact:** Relay-dependent action games need regional capacity and explicit telemetry showing direct-attempt failure reasons, chosen route, and added latency.
+- **Watch next:** Reproduce across countries, ISPs, game versions, IPv4/IPv6, NAT types, and client builds; publish packet traces and Valve’s fix.

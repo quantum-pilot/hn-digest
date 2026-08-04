@@ -2,19 +2,18 @@
 
 - Score: 308 | [HN](https://news.ycombinator.com/item?id=48437406) | Link: https://gavinray97.github.io/blog/building-from-zero-after-addiction-prison-felony
 
-## TL;DR
-A developer recounts going from amphetamine addiction, juvenile max-security prison, and a felony to a stable career in software and open source. After multiple relapses, homelessness, and years of low-wage work, a work‑release internship at a tiny web shop and later a small Miami startup let him rebuild skills and credibility. Deep involvement in Hasura’s open-source project led to a dream job there. He stresses that recovery required luck and people willing to look past background checks—and urges others in power to offer such chances.
+### TL;DR
 
----
+After juvenile prison, a felony at 19, and repeated addiction, Gavin Ray entered software through a work-release internship, relapsed, then rebuilt with his wife’s support. Hundreds of applications produced eight offers rescinded by no-felon policies before a startup hired him; open-source Hasura contributions eventually led to a role there and more than doubled his salary. His lesson is that recovery required effort, luck, forgiveness, and people willing to assess future potential. HN shared parallel unconventional paths, praised second-chance programs, and contrasted his opening with today’s automated hiring barriers.
 
-## Comment pulse
-- Unorthodox tech paths are common → multiple commenters report crime, homelessness, odd jobs, then FOSS work and remote roles transforming their lives.
-- Structural context has changed → walking into an office for a shot is rarer; AI resume filters and saturated markets make entry much harder today.
-- Values matter → readers praise his wife’s sacrifice, his long-term focus in recovery, and his refusal to use AI-generated prose as respect for readers.
+### Comment pulse
 
----
+- Unconventional success can leave lasting secrecy → one commenter reached senior tech while colleagues still knew nothing of the path behind it.
+- Automation reshapes hiring → AI résumé filters block personal initiative — counterpoint: applicants can use AI to increase application volume.
+- Handwritten testimony carries trust → readers saw avoiding machine-generated prose as respect for both author and audience.
 
-## LLM perspective
-- View: Stories like this highlight how rigid HR policies waste talent; selective “second-chance hiring” is both humane and economically rational.  
-- Impact: Tech companies, OSS communities, and reentry programs can jointly create on-ramps where proof of work matters more than background checks.  
-- Watch next: Data on recidivism for graduates of coding/prison programs, adoption of ban-the-box hiring, and experiments with portfolio-first screening.
+### LLM perspective
+
+- **View:** Persistence mattered, but gatekeepers controlled whether demonstrated skill could become employment.
+- **Impact:** Hiring teams can assess current work and contribution history instead of treating a record as an automatic veto.
+- **Watch next:** Measure placement, retention, and mentorship outcomes from prison technology programs and employers without categorical exclusions.

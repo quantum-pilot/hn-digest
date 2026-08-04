@@ -2,22 +2,18 @@
 
 - Score: 156 | [HN](https://news.ycombinator.com/item?id=48431286) | Link: https://knowablemagazine.org/content/article/technology/2026/cloned-polo-horses
 
-## TL;DR
+### TL;DR
 
-Argentine polo has quietly become a real-world cloning lab: star horses are duplicated via somatic cell nuclear transfer, giving elite teams herds of near-identical mounts. Success rates remain low and costs high (~$40k per foal), yet hundreds of clones are now born annually, cementing Argentina as the global hub. New work combines cloning with CRISPR edits to tweak performance genes, raising sharper questions about animal welfare, genetic bottlenecks, fair play, and whether polo is drifting from sport toward engineered spectacle.
+Argentina has turned polo-horse cloning into a mature industry: Adolfo Cambiaso’s La Dolfina owns more than 150 clones, and six copies of champion mare Cuartetera helped win the 2016 Palermo Open. Somatic-cell nuclear transfer preserves nuclear DNA but not mitochondrial or epigenetic identity, and only about five of every 100 embryos reach term. At roughly $40,000 per birth, the practice raises welfare, transparency, genetic-diversity, and fairness concerns, intensified by five CRISPR-edited foals. HN debated standard genomes or natural-only leagues to keep wealth from deciding competition.
 
----
+### Comment pulse
 
-## Comment pulse
+- Equal genomes could isolate player skill → one-design classes would verify permitted DNA, reducing the advantage of wealthy sponsors buying elite clones.
+- Cloning can freeze exploration → repeatedly copying a 99.99th-percentile horse may suppress new lineages — counterpoint: breeding improvements are slow and uncertain.
+- Gene editing escalates the arms race → five myostatin-modified foals show performance traits may soon be specified rather than discovered through breeding.
 
-- Standardize horses → Some argue polo should mandate a single approved genome or clone line, so outcomes reflect rider skill, not billionaire genetics budgets.  
-- Cloning vs improvement → Critics fear cloning locks in current bloodlines and discourages discovering “better” horses—counterpoint: at the 99.99th percentile, risk–reward favors copying winners.  
-- Tech arms race → Commenters note gene-edited clones push polo toward F1-style engineering; suggestions emerge for natural-breeding-only leagues or even fully robotic “horses.”
+### LLM perspective
 
----
-
-## LLM perspective
-
-- View: Polo is becoming a showcase for applied animal biotech; rules lag behind technical capabilities and commercial incentives.  
-- Impact: Breeders, labs, and governing bodies must balance performance, welfare, diversity, and public legitimacy in a highly visible luxury sport.  
-- Watch next: Mandatory health/mortality reporting, explicit bans/limits on gene edits, and experimentation with standardized-horse or robot-mounted exhibition formats.
+- **View:** Cloning does not replicate an athlete; development, training, mitochondria, epigenetics, and environment still produce individual outcomes.
+- **Impact:** Polo regulators need separate rules for cloned, edited, and naturally conceived horses before competitive norms harden around capital.
+- **Watch next:** Require public embryo, pregnancy, birth-defect, surrogate-welfare, performance, and lineage-diversity data before judging technical maturity.

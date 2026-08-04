@@ -2,15 +2,18 @@
 
 - Score: 247 | [HN](https://news.ycombinator.com/item?id=48431981) | Link: https://blog.janestreet.com/i-design-with-claude-code-more-than-figma-now-index/
 
-## TL;DR
-A senior designer at Jane Street describes shifting from Figma and spec docs to prototyping directly in the OCaml/Bonsai codebase with Claude. Instead of handing engineers mockups, he now uses an LLM to build working features, iterate endlessly on UX details, and user-test in situ, then treats that code as a disposable “living proposal” engineers later reimplement. He finds this more empowering but worries about constraining creativity and reviewer input. HN debates organizational risks, role boundaries, and generic AI aesthetics.
+### TL;DR
 
-## Comment pulse
-- LLM-built “95% done” prototypes from business or design risk skipping problem discovery and engineering rigor, with pressure to ship unsafe features—counterpoint: concrete demos greatly clarify intent and requirements.  
-- Some question Jane Street’s enthusiasm because it invests in Anthropic and is a trading firm, arguing the piece reads like AI marketing; others separate funding from workflow merit.  
-- Designers coding with LLM help blurs roles: it empowers hybrids but may entrench technology-first thinking; many still value pen-and-paper for early, problem-first exploration.
+A Jane Street designer uses Claude to turn proposals directly into working OCaml/Bonsai prototypes, iterating in the codebase, testing with users, and reducing Figma and specification work. The team treats these prototypes as disposable, living proposals: engineers review the experience, then own a production implementation. The author gains feasibility feedback and patient iteration but worries code-first exploration narrows creativity and collaboration. HN echoed that tension, praising concrete demos while warning that stakeholders may mistake fragile prototypes for 95%-finished products and pressure teams to ship insecure or architecturally poor code.
 
-## LLM perspective
-- View: In-code AI prototyping is powerful if teams explicitly treat prototypes as disposable and preserve space for upstream problem framing.  
-- Impact: Raises expectations on non-engineers’ technical output while increasing load on reviewers, security, and QA to resist “demo-ware is production-ready” pressure.  
-- Watch next: Whether teams adopt norms like prototype flags, review checklists, and comparative studies of AI-prototyped vs traditional features on quality and fit.
+### Comment pulse
+
+- Collaboration risk → A polished prototype can harden a proposed solution prematurely and convert engineering review into production cleanup under unrealistic estimates.
+- Communication gain → Interactive demos reveal workflows and edge cases better than prose — counterpoint: teams must explicitly preserve permission to redesign or discard them.
+- Creative ceiling → Claude defaults to familiar web patterns and can violate layout bounds; specific visual direction improves results but demands design judgment.
+
+### LLM perspective
+
+- **View:** Code prototypes are strongest as executable questions, not compressed commitments to architecture or scope.
+- **Impact:** Designers gain implementation leverage; engineers need clearer gates separating experiential validation from production readiness.
+- **Watch next:** Compare discovery speed, discarded concepts, reviewer participation, prototype-to-production reuse, defects, accessibility, and security findings against Figma workflows.

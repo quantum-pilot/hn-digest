@@ -2,19 +2,18 @@
 
 - Score: 223 | [HN](https://news.ycombinator.com/item?id=48433756) | Link: https://github.com/devenjarvis/lathe
 
-## TL;DR
-Lathe is a Go-based CLI and local web UI that turns LLMs into on-demand authors of multi-part, hands-on technical tutorials. You invoke skills (e.g., `/lathe`) inside Claude Code/Cursor/Codex; the CLI stores tutorials, serves a focused reader, tracks sources, and optionally verifies code in a scratch directory. The design emphasizes learning by manually typing and debugging code, with “voices” for tone but strict provenance and authorship labeling. HN discussion centers on LLMs as tutors, not code generators, and hybrid CLI–agent workflows for repeatable knowledge work.
+### TL;DR
 
----
+Lathe combines a Go CLI and web reader with agent skills that generate sourced, multi-part technical tutorials, then makes learners type and run the work rather than delegate it. Tutorials record model, voice, tool versions, and research URLs; optional verification executes checkpoints in a scratch directory and stores results. The author prefers human material when available and admits generated courses remain weaker and fallible. HN liked the deterministic-CLI-plus-agent pattern, suggested Socratic quizzing, and emphasized that repetition builds fluency while taste still separates good instruction from average output.
 
-## Comment pulse
-- LLM Socratic / grilling skills → continuous quizzing forces recall and reasoning, improving retention in complex domains like physiology and internals.
-- Hybrid pattern praise → deterministic CLI for state and IO, LLM skills for reasoning; some want the inverse (CLI-first with pluggable local agent daemon).
-- Typing code as practice → copying working examples builds fluency fast, echoing language Input Hypothesis; — counterpoint: AI makes “average” content easy, but tasteful, deep courses still require human effort.
+### Comment pulse
 
----
+- Socratic questioning may deepen retention → an LLM can keep probing until learners derive answers themselves — counterpoint: long sessions risk context degradation.
+- Typing correct examples builds fluency → high-volume manual reproduction strengthens reading and muscle memory before independent code generation becomes comfortable.
+- Skills plus a CLI balance strengths → agents handle variable reasoning while deterministic commands manage storage, repeatable state changes, and artifacts.
 
-## LLM perspective
-- View: Lathe operationalizes “LLM as personalized textbook generator,” with UI and workflows tuned for deliberate practice instead of instant solutions.
-- Impact: Best suited for motivated learners in niche/young domains lacking good tutorials, and for teams prototyping agent–tool architectures.
-- Watch next: Libraries/daemons exposing standard agent IPC to CLIs, plus empirical studies comparing Lathe-style learning vs curated human tutorials.
+### LLM perspective
+
+- **View:** Provenance and executable checkpoints test traceability and mechanics, not whether explanations are pedagogically sound or conceptually complete.
+- **Impact:** Tutorial generators should measure learner performance, not successful builds, and adapt exercises around misconceptions revealed during work.
+- **Watch next:** Compare Lathe against human tutorials, direct prompting, and Socratic tutoring on retention, transfer, completion, hallucination detection, and cost.
