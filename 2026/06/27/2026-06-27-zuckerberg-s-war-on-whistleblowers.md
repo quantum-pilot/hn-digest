@@ -2,16 +2,18 @@
 
 - Score: 603 | [HN](https://news.ycombinator.com/item?id=48698684) | Link: https://pluralistic.net/2026/06/27/zuckerstreisand-2/
 
-- TL;DR
-    - An ex‑Meta executive, Sarah Wynn‑Williams, wrote a memoir alleging internal abuses and policy failures. Meta responded aggressively—suing, enforcing NDAs, and pushing arbitration—to block publication and punish her. The article argues Meta is trying to terrify thousands of laid‑off or disillusioned employees into silence, especially as it faces AI missteps and financial pressure. HN commenters debate whether this stems mainly from rational fear, petty ego, or power‑display, and discuss legal and technical ways to better protect future whistleblowers.
-    - *Content unavailable; summarizing from title and comments.*
+### TL;DR
 
-- Comment pulse
-    - Many see Meta’s retaliation as fear‑driven deterrence: punish one to scare many, using petty rule‑breaking as a dominance test — counterpoint: others blame childish ego.
-    - Others highlight structures: NDAs, non‑disparagement, and binding arbitration are ubiquitous; commenters argue for time limits, bans on gag clauses, and court‑appealable arbitration.
-    - Some propose cryptographic commitment schemes (hashes on blockchains) so whistleblowers can later prove knowledge; others doubt people plan careers around leaking or trust crypto diaries.
+Cory Doctorow argues Meta’s escalating enforcement against former executive Sarah Wynn-Williams has moved from silencing criticism to demonstrating power. An arbitrator reportedly imposed $50,000 per criticism—over $11 million—and barred her from discussing or promoting Careless People. Although she remained silent at public events, Meta treated a motionless panel appearance as another breach; she has now sued to invalidate the agreement. HN debated whether the motive is deterring other insiders, protecting undisclosed misconduct, or executive ego, while questioning nondisclosure, nondisparagement, and binding-arbitration clauses that privatize speech disputes.
 
-- LLM perspective
-    - View: This episode illustrates how employment contracts, reputational lawsuits, and informal power moves jointly chill internal dissent at dominant tech platforms.
-    - Impact: Whistleblowers, rank‑and‑file employees, and policymakers gain a clearer playbook of both corporate tactics and potential legal‑technical countermeasures.
-    - Watch next: Track US limits on NDAs/arbitration, UK libel‑law reform, and adoption of easy tools for time‑stamped, privacy‑preserving whistleblower evidence.
+### Comment pulse
+
+- Deterrence can justify reputational self-harm → commenters suspected Meta accepts the Streisand effect to frighten other insiders — counterpoint: some favored ego as explanation.
+- Cryptographic commitments could timestamp private diaries → advocates said later disclosure would establish when claims existed; planned documentation might itself invite suspicion.
+- Employment boilerplate deserves limits → commenters favored time-bound NDAs, banning nondisparagement, and preserving court access after mediation or nonbinding arbitration.
+
+### LLM perspective
+
+- **View:** Contractual silence becomes institutional governance when one high-profile penalty shapes what thousands of employees believe they may safely disclose.
+- **Impact:** Whistleblowers face financial ruin; readers lose firsthand evidence; employers gain leverage without public judicial scrutiny.
+- **Watch next:** Track contract validity, arbitration scope, damages calculations, treatment of silent attendance, and statutory limits on employment gag clauses.

@@ -2,16 +2,18 @@
 
 - Score: 199 | [HN](https://news.ycombinator.com/item?id=48698151) | Link: https://danluu.com/discontinuities/
 
-- TL;DR  
-  The article examines “suspicious discontinuities”: jagged jumps in otherwise smooth statistical distributions that reveal where human incentives and hard thresholds bite. Examples include marathon finish times clustering just under round-number goals, school exam scores bunched above pass marks, and income or turnover just below tax and regulatory cliffs. HN commenters extend this to UK and Indian tax rules, childcare subsidies, juvenile criminal law, and more, arguing that poorly designed thresholds quietly distort behavior and opportunity.  
-  *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  - Marathon time spikes near round goals → pace runners and self-imposed targets pull groups to 3:30, 3:45, 2:30 etc., visibly reshaping finish-time histograms.  
-  - Exam-score cliffs alter grading → Polish matura pass at 30% creates chaotic spikes as teachers push borderline students over a life-shaping threshold.  
-  - Policy thresholds distort behavior → UK tax bands, VAT limits, childcare fees, and Indian surcharges yield extreme marginal rates, encouraging under-earning or firms staying small.
+Sharp thresholds turn continuous reality into discontinuous behavior: people lower income to retain subsidies, researchers bunch p-values below 0.05, prosecutors cluster charges at mandatory-minimum cutoffs, graders rescue scores near passing, and athletes chase round finish times. The essay argues these spikes can expose gaming, discretion, discrimination, or ordinary incentives, and recommends histograms, scatterplots, smoother phase-outs, or randomization. HN commenters supplied more tax-cliff examples and personal marathon evidence, though a popular pacer explanation conflicts with the cited study’s within-race analysis.
 
-- LLM perspective  
-  - View: Histograms with sharp edges are x‑rays of incentive design, revealing where goals, rules, or penalties overpower natural variation.  
-  - Impact: Used systematically, these anomalies guide fairer grading, tax, and welfare systems and expose unintended inequities early.  
-  - Watch next: Build open datasets of known discontinuities and evaluate which reforms smooth behavior without reducing transparency or accountability.
+### Comment pulse
+
+- Tax cliffs visibly suppress activity → UK VAT, childcare, and allowance rules, plus Slovenian fees, reportedly make marginal earnings irrational.
+- Round-time peaks reflect goal chasing → runners described accelerating to break targets — counterpoint: pacers alone cannot explain within-race distributions.
+- Polish exam bunching looks humane locally → graders spare borderline students life-changing failure while corrupting the score distribution.
+
+### LLM perspective
+
+- **View:** Discontinuities are diagnostic fingerprints, not proof; causal interpretation still requires institutional context and alternative explanations.
+- **Impact:** Policymakers and system designers can reduce gaming by replacing cliffs with gradual, transparent transitions.
+- **Watch next:** Test suspected manipulation with pre/post comparisons, subgroup consistency, and mechanism-specific data before assigning blame.

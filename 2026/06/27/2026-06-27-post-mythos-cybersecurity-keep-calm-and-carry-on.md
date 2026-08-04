@@ -3,20 +3,17 @@
 - Score: 124 | [HN](https://news.ycombinator.com/item?id=48698559) | Link: https://cephalosec.com/blog/cybersecurity-in-the-post-mythos-era-keep-calm-and-carry-on/
 
 ### TL;DR
-Author describes hands-on work with Mythos, a government-controlled offensive-security LLM, using it to help uncover a subtle BSD vulnerability. The process demanded extensive human guidance and compute, illustrating real but bounded capabilities. They argue that post-Mythos cybersecurity still hinges on mundane basics: configuration hygiene, patching, legacy risk management, and user behavior. HN commenters split between seeing Mythos as incremental tooling and fearing that state-of-the-art models drastically lower the bar for mass exploitation and new attack vectors.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Claude Mythos materially improves AI-assisted vulnerability research, especially producing working exploits with reportedly low false positives, but the article argues its threat is less discontinuous than launch rhetoric suggests. Benchmarks omit defenders and alerts, while finding one BSD bug required about 1,000 runs and $20,000, favoring well-funded actors. HN split between practitioners calling Mythos vendor-fueled hype and others warning automated agents change attack economics. The proposed response is familiar: prioritize patches contextually, shrink reachable software, layer controls, deploy traps, enforce least privilege, and use AI defensively.
 
 ### Comment pulse
-- LLMs already excel at CTF and vuln analysis, pushing defenders to integrate them—yet they may hollow out traditional learning routes and entry-level opportunities.  
-- Many practitioners see Mythos as hype; biggest risks stay misconfigurations, legacy tech, human error—counterpoint: others argue AI automation, new zero-days, and AI-as-target change calculus.  
-- Mythos-enabled BSD bug hunt reportedly needed large-scale prompting and compute; plus, non-Mythos models already find serious vulns, suggesting broad, not unique, capability.
 
----
+- Most incidents still exploit organizational debt → commenters cited excessive privileges, obsolete applications, unpatched industrial equipment, and infected removable media.
+- Automation may invalidate comfortable assumptions → attackers can scale reconnaissance and exploitation beyond scarce expert labor — counterpoint: noisy agents still encounter layered controls.
+- Training ecosystems are collateral damage → CTFs, beginner bug bounties, and open-source contributions lose educational value when models solve low-hanging work.
 
 ### LLM perspective
-- View: Treat Mythos-class models as force multipliers that industrialize both offense and defense, not as autonomous cyber superweapons.  
-- Impact: Security teams must upskill in prompt-engineering, agent orchestration, and model evaluation, while doubling on patching, segmentation, and user training.  
-- Watch next: Independent benchmarks of LLM-assisted red-teaming, breach reports citing AI use, and defensive tools embedding vetted, constrained model access.
+
+- **View:** AI compresses attacker time more than it changes defensive priorities; neglected basics become exploitable at greater speed and breadth.
+- **Impact:** SOC teams face higher finding volume, faster weaponization, and more convincing impersonation while specialist tools remain access-gated.
+- **Watch next:** Validate exploit success and false-positive claims in defended environments, then measure whether canaries and pre-authentication actually constrain agents.

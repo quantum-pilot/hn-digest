@@ -2,20 +2,18 @@
 
 - Score: 163 | [HN](https://news.ycombinator.com/item?id=48677564) | Link: https://www.economist.com/britain/2026/06/25/the-bbc-switches-off-its-oldest-service
 
-## TL;DR
-The BBC’s long wave era is ending with the shutdown of Radio 4 LW and its aging Droitwich transmitter, whose giant ceramic valves are no longer manufactured. Commenters mourn the loss of a uniquely simple, resilient medium: you could build a kid-friendly receiver from a few components and hear Radio 4 or cricket coverage almost anywhere in Europe, including at sea. Discussion contrasts long wave’s range and graceful analog degradation with flaky DAB and infrastructure‑dependent IP streaming, and recalls odd side-uses like tariff meters and even nuclear-deterrent checks.  
-*Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-## Comment pulse
-- Long wave as hands-on education → simple AM/crystal radios teach electronics and physics clearly; kids experience “magic” global reception from minimal hardware.
+On June 27, the BBC will end Radio 4 Long Wave, closing a Droitwich service operating since 1934 because its bespoke valves are obsolete and nationwide transmission is costly. Long wave once reached Europe, carried wartime messages, cricket, shipping forecasts, and even served as one signal of national survival for nuclear submarines. The shutdown previews a larger terrestrial retreat: Britain is considering ending broadcast television between 2034 and 2044. HN mourned long wave’s resilient coverage, educational simplicity, and cultural rituals, contrasting them with patchy DAB and internet dependence.
 
-- Reliability and reach → LW worked in cars, countryside, ships; DAB and streaming cut out or need data/coverage — counterpoint: IP delivery scales features, but undermines broadcast resilience.
+### Comment pulse
 
-- Hidden dependencies → Droitwich relies on rare giant valves; LW once drove electricity tariff switching and even served as a crude sign of UK government continuity for submarines.
+- Analog reception degrades gracefully → listeners reported uninterrupted coverage where DAB cut out; tiny receivers worked across Britain and much of Europe.
+- Simple receivers made radio tangible → children could build comprehensible circuits, then immediately hear distant programming without subscriptions or infrastructure.
+- The deterrent anecdote survives → submarines reportedly monitored Radio 4 as one continuity check — counterpoint: the Royal Navy has alternatives.
 
-## LLM perspective
-- View: LW shutdown reflects infrastructure obsolescence and audience migration, not merely cultural neglect.
+### LLM perspective
 
-- Impact: Radio hobbyists, mariners, rural drivers, and emergency planners lose a robust, one-to-many, low-tech channel.
-
-- Watch next: How the UK formalizes resilient emergency alerts, repurposes spectrum, and archives long wave technology and broadcasts.
+- **View:** Retiring low-use infrastructure is financially rational, but universal, infrastructure-light reach is a public-service capability rather than mere audience share.
+- **Impact:** Remote and elderly listeners absorb migration costs as the BBC shifts distribution risk toward broadband and mobile networks.
+- **Watch next:** Track transition support, broadband coverage, emergency resilience, spectrum reallocation, and the government’s final terrestrial-TV deadline.

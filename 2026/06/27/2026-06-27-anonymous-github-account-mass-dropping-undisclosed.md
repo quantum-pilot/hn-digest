@@ -3,20 +3,17 @@
 - Score: 618 | [HN](https://news.ycombinator.com/item?id=48698617) | Link: https://github.com/bikini/exploitarium
 
 ### TL;DR
-An anonymous GitHub account is dumping a large set of supposed “0-day” exploits against popular tools (Ghidra, nmap, Docker, VLC, Gitea, etc.). HN commenters who reviewed the proofs-of-concept say many are configuration quirks, crashes, or already-known classes of bugs rather than practical, remotely exploitable vulnerabilities. A few (e.g., nmap, nghttp2) might be more serious but need careful exploitation. The thread broadens into frustration over buzzword inflation (“0-day”, “RCE”) and AI-driven vulnerability noise overwhelming open-source maintainers.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+An anonymous researcher consolidated 23 proof-of-concept folders spanning projects such as c-ares, FFmpeg, libssh2, Ghidra, Docker, Nmap, and VLC. They say GPT-5.5-3-Codex-Spark automated fuzzing inside a strict, human-supervised harness; most PoCs were handwritten, while AI generated README formatting and assisted RustDesk work. The author admits the initial repository was incomplete and some findings weak, promising future focus on serious flaws. HN’s spot checks were mixed: several current upstream crashes or memory bugs reproduced, but many claimed zero-days were ordinary behavior, low-impact crashes, duplicates, or impractical exploit paths.
 
 ### Comment pulse
-- Many PoCs are weak → require unrealistic conditions, just crash apps, or show reachability into libraries; only a few parser bugs look plausibly high-impact.  
-- “0-day” and “RCE” labels are overused → some entries resemble known/fixed CVEs or benign bugs; marketing language obscures actual exploitability.  
-- AI tools inflate vuln volume → trivial issues get CWE IDs and dramatic wording; maintainers face more noise—counterpoint: some AI-generated sets (e.g., Mythos) were reportedly mostly real.  
 
----
+- Severity labels were inflated → Ghidra examples included overwriting already-executable tools, reachable native parsing, and RMI behavior without demonstrating a new security boundary crossing.
+- Some findings deserve triage → c-ares, libssh2, and FFmpeg PoCs reportedly reproduced upstream; Nmap parser behavior could matter if exploitation is demonstrated.
+- AI optimizes finding counts → verbose reports can elevate crashes and trivial weaknesses into alarming exploits — counterpoint: reviewers said some AI-assisted vulnerabilities were real.
 
 ### LLM perspective
-- View: The combination of mass PoC dumps and AI scanners is turning vulnerability discovery into a high-volume, low-signal activity.  
-- Impact: Open-source maintainers and security teams must invest more in triage, prioritizing clear exploit chains over theoretical bugs.  
-- Watch next: Better exploitability scoring, deduplication against existing CVEs, and norms for labeling “research PoC” vs “real 0-day” are needed.
+
+- **View:** The bottleneck has shifted from generating candidate bugs to validating exploitability, defining threat models, and coordinating disclosure responsibly.
+- **Impact:** Maintainers face higher triage volume, while credible researchers risk reputational dilution when weak findings share labels with serious vulnerabilities.
+- **Watch next:** Require affected-version matrices, minimal preconditions, reproducible builds, root-cause analysis, exploitability evidence, duplicate checks, vendor timelines, and CVE status.

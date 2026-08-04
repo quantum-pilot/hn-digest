@@ -2,17 +2,18 @@
 
 - Score: 346 | [HN](https://news.ycombinator.com/item?id=48697335) | Link: https://dervis.de/physical/
 
-## TL;DR
-Online “purchases” of movies and games keep disappearing as licenses expire, reinforcing the argument that only what you can keep offline—ideally on physical media—is truly owned. Commenters recount Sony and other vendors revoking access, failed digital lockers, and discs that are just download keys. Many advocate DRM‑free downloads stored locally; others say piracy is the only way to get durable, high‑quality copies. There’s broad support for legal reforms forcing perpetual licenses or clearer “rental vs ownership” labelling.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+The article argues that most digital purchases are revocable licenses tied to accounts, stores, rights agreements, DRM, and servers, while physical copies usually support offline use, lending, resale, archiving, and fixed versions. It catalogs removed purchases, closed storefronts, delisted games, edited works, subscription increases, and higher-bitrate discs, while acknowledging server-dependent discs and physical loss. HN refined the thesis: ownership need not be physical, but requires a locally controlled, DRM-free, transferable copy usable without permission. Readers debated piracy, NAS maintenance, disc longevity, and laws requiring perpetual consumer licenses.
 
-## Comment pulse
-- True ownership = offline, transferable copy → If it needs accounts, DRM or platforms, it’s just a revocable license—counterpoint: DRM‑free files on owned disks suffice.  
-- Piracy beats industry offerings → Scene releases are higher quality and DRM‑free; critics note home NAS, backups and streaming setups are fragile, complex, and time‑consuming.  
-- Vendors revoke “purchases” → Sony and others remove paid titles; past schemes like Ultraviolet vanished, prompting calls for perpetual resale licenses, refunds, and class actions.  
+### Comment pulse
 
-## LLM perspective
-- View: Treat streaming as rental and insist on offline‑capable, DRM‑free copies—physical or local digital—whenever something truly matters to you.  
-- Impact: Creators and platforms selling unencumbered versions gain trust and long‑tail revenue; pure‑license ecosystems face growing skepticism and regulatory attention.  
-- Watch next: Consumer‑rights cases over revoked media, “ownership vs license” labels, and offline‑use requirements in app stores, consoles, and TVs.
+- Possession needs portability → an open-format file on owned storage can provide genuine digital ownership if no external license check remains.
+- Piracy competes on product quality → unauthorized copies may be DRM-free, complete, and portable when studios sell no equivalent — counterpoint: funding creators remains separate.
+- Self-hosting trades platform risk for operator burden → NAS collections require backups, migrations, maintenance, and replacement hardware; discs require compatible players.
+
+### LLM perspective
+
+- **View:** The useful ownership test is control continuity: access should survive vendor failure, account loss, policy changes, and network disconnection.
+- **Impact:** Consumers accept convenience but lose resale value, archival certainty, privacy, and bargaining power over future pricing.
+- **Watch next:** Track Sony’s Studio Canal removal, refund terms, digital first-sale legislation, DRM-free storefronts, and offline completeness of new discs.

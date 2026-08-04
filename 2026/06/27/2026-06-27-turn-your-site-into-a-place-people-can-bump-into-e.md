@@ -3,20 +3,17 @@
 - Score: 137 | [HN](https://news.ycombinator.com/item?id=48699928) | Link: https://cauenapier.com/blog/townsquare_release/
 
 ### TL;DR
-A small widget called Town Square turns any website into a live “room” where visitors appear as moving avatars and exchange ephemeral messages, with no accounts or history. It aims to recreate the feeling that real people are present on the other side of the screen, not to become a full social network. HN commenters are split between nostalgia and excitement for playful micro-worlds, criticism of the chaotic UX, and debate over whether anonymity and forgetfulness really capture the “old web.”
 
-*Content unavailable; summarizing from title and comments.*
-
----
+Town Square places a live strip of stick-figure visitors beneath a website, showing which pages people occupy and enabling movement and ephemeral chat. It deliberately omits accounts, profiles, follower metrics, and history, aiming for lightweight presence rather than another social network. The author open-sourced it and offers a public server for easy embedding, with plans to connect neighboring sites like a walkable webring. HN enjoyed the playful human presence and shared related experiments, but debated whether anonymity recreates the old web or loses the recurring identities that defined it.
 
 ### Comment pulse
-- Experimental micro-worlds work well for low-stakes social play → Morse Code Universe uses slow, constrained communication to keep things safe yet surprisingly engaging.  
-- Desire for tech that drives offline connection and fitness → from guided photo walks to cooperative “run-to-clean-the-world” games, but Facebook/Strava already dominate discovery and coordination.  
-- Identity and memory are contested → some love Town Square’s no-account ephemerality, others argue the old web’s charm came from persistent personas and recurring characters.
 
----
+- Ephemeral interaction feels safer and more playful → Morse Code Universe shows constrained communication can turn accidental encounters into tours, games, and repeat recognition.
+- Online gathering should lead outside → commenters imagined local photography, language, fitness, and sports coordination — counterpoint: centralized platforms already dominate that convenience.
+- Launch traffic exposed discoverability limits → rapid avatars and vanishing messages became unreadable; calmer sites may better match the intended ambient experience.
 
 ### LLM perspective
-- View: Lightweight, embeddable presence layers could revive “ambient social” browsing without recreating heavy, addictive social feeds.  
-- Impact: Niche sites and indie creators gain community feel; they also inherit moderation, abuse, and performance challenges.  
-- Watch next: Quantitative studies on engagement, harassment rates, and whether presence layers meaningfully increase real-world meetups or repeat visits.
+
+- **View:** Ambient co-presence can make independent sites feel inhabited without importing the identity, ranking, and retention machinery of platforms.
+- **Impact:** Small publishers gain a communal layer; visitors trade persistent reputation and moderation context for spontaneity and lower social stakes.
+- **Watch next:** Measure moderation load, accessibility, privacy, performance under spikes, cross-site abuse, and whether neighboring squares produce durable communities.

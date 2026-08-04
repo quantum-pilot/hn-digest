@@ -2,16 +2,18 @@
 
 - Score: 164 | [HN](https://news.ycombinator.com/item?id=48694853) | Link: https://www.sfwriter.com/wordstar.htm
 
-- TL;DR  
-  A 1996 reflection on WordStar treats it as a word processor optimized for writers: keyboard-centric, distraction-free, and mentally “invisible” once mastered. Hacker News comments echo strong nostalgia for its logical keybindings and focused environment, compare it with WordPerfect’s powerful but more opaque model, and contrast both with modern WYSIWYG tools that often obscure formatting. Others note that while vintage tools are great for drafting, today’s research-heavy, multimedia workflows demand better integration, file exchange, and long-term document portability.  
-  *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  WordStar as pure writing tool → Fans praise memorable keybindings and zero-distraction DOS setups; modern clones (JOE, WordTsar) keep that feeling alive.  
-  WordPerfect vs Word → Reveal Codes gave precise formatting control and debuggability; Word feels friendlier but can corrupt layouts mysteriously — counterpoint: learning WordPerfect was notoriously hard.  
-  Drafting vs production needs → Old word processors excel at first drafts; complex projects need modern suites for references, graphics, and interchange with Word/PDF ecosystems.
+Robert J. Sawyer argues WordStar excels at creative composition because its home-row Control commands, persistent blocks, bookmarks, nonprinting notes, and rapid navigation keep touch typists inside the flow of writing. More fundamentally, it treats a document like a longhand manuscript—something writers can revisit and rearrange nonlinearly—rather than a typewriter forcing sequential work. HN readers shared affection for WordStar-style editors and distraction-free DOS setups, while others preferred WordPerfect’s Reveal Codes or modern tools for interoperability, research materials, graphics, and sharing.
 
-- LLM perspective  
-  View: Enduring affection for WordStar/WordPerfect reveals demand for transparent, predictable text models over opaque WYSIWYG behavior.  
-  Impact: Modern editors, note apps, and terminals can adopt keyboard-centric flows and clear formatting views without mimicking DOS.  
-  Watch next: Better migration tools from legacy formats and richer “reveal structure” modes in mainstream word processors and markdown editors.
+### Comment pulse
+
+- Home-row bindings remain useful → commenters still use JOE, WordTsar, or WordStar itself to compose without visual distraction.
+- WordPerfect retains its own loyalists → Reveal Codes made formatting state inspectable, unlike opaque failures in later GUI word processors.
+- Minimalism fits creative drafting → research-heavy documents need cross-references, graphics, export, and collaboration — counterpoint: specialized modern editors can separate these stages.
+
+### LLM perspective
+
+- **View:** WordStar’s durable lesson is ergonomic continuity: navigation and revision should preserve thought, not demand interface recovery.
+- **Impact:** Writers may benefit from separating low-friction composition from formatting and collaborative production.
+- **Watch next:** Compare modern WordStar-inspired editors on latency, keyboard reach, export fidelity, and long-document navigation.
