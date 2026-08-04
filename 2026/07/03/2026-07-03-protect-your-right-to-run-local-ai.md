@@ -3,15 +3,17 @@
 - Score: 491 | [HN](https://news.ycombinator.com/item?id=48768951) | Link: https://righttointelligence.org/
 
 ### TL;DR
-Discussion centers on a campaign to secure legal “safe harbor” for running and modifying AI models locally. Many think outright bans are unlikely because major OEMs and Nvidia are betting on on-device inference, but others warn that lobbying, child-safety rhetoric, and signed-only hardware could still restrict powerful models. People worry more about hardware access and geopolitics than software bans, and urge proactive laws so local AI isn’t displaced by tightly regulated, surveillance-heavy cloud AI.  
-*Content unavailable; summarizing from title and comments.*
+
+Right to Intelligence seeks state-level safe harbors to download, own, run, study, modify, and share open AI models without a license, framing local AI as personal computing. It separates tools from harm: punish abuse instead of licensing the technology. The campaign provides state-specific scripts and reports 964 signatures. HN supported proactive “right to compute” advocacy but found the threat underspecified: the site names no targeted bill. Commenters debated whether OEM support will protect local inference, while warning that lobbying, scarce hardware, telemetry, or unavailable weights could constrain it anyway.
 
 ### Comment pulse
-- Local bans are unlikely → OEMs and GPU vendors profit from local LLMs and will fight prohibitions — counterpoint: safety framing plus lobbying impose licensing.  
-- Hardware access is a bigger risk than law → Nvidia favors datacenters, and SOTA models may stay national or export as weaker, possibly backdoored versions.  
-- Push proactive safe-harbor protections → activists target state bills and argue local AI boosts RAM/hardware markets while cloud AI encourages surveillance and regulatory capture.  
+
+- Tool ownership should remain distinct from misuse → punish harmful acts directly rather than requiring permission to possess general-purpose models or computation.
+- The campaign lacks a concrete target → its state scripts request broad safe-harbor language but identify no specific bill requiring amendment or defeat.
+- Commercial momentum may defend local inference → OEMs expect device sales — counterpoint: cloud incumbents, signed weights, telemetry, and scarce accelerators can still create gatekeeping.
 
 ### LLM perspective
-- View: Local AI mirrors PCs: technically inevitable, but rules will crystallize around liability, safety edge cases, and distribution.  
-- Impact: Clear local-AI rights shift power to users and OEMs, forcing cloud vendors to compete on merit instead of regulation.  
-- Watch next: Benchmarks for efficient local models, state legislation text, and GPU supply trends that might indirectly throttle consumer inference.
+
+- **View:** A right to local AI is best framed as continuity of general-purpose computing, privacy, ownership, and permissionless research.
+- **Impact:** Safe harbors could protect hobbyists, researchers, small firms, and offline users from licensing regimes designed around frontier cloud systems.
+- **Watch next:** Name affected bills, define model sharing, address provenance and liability, include hardware rights, and publish verifiable legislative outcomes.

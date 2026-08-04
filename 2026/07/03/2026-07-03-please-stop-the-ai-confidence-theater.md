@@ -3,20 +3,17 @@
 - Score: 221 | [HN](https://news.ycombinator.com/item?id=48774414) | Link: https://www.elenaverna.com/p/please-stop-the-ai-confidence-theater
 
 ### TL;DR
-The article argues that much of today’s AI discourse is “confidence theater”: people loudly claiming life-changing impact and magical workflows while offering little concrete, verifiable value. Commenters describe being pressured to use AI at work, watching low‑quality AI-generated code and content flood codebases, YouTube, and ebooks, all amplified by marketing incentives. Others counter that LLMs are genuinely transformative as information tools and coding copilots, but agree that hype, weak evidence, and lack of ROI scrutiny are distorting the conversation.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+The public preview says AI discourse keeps escalating—from replacing professions and SaaS to mandatory agents—while 99% of people cannot explain what an agent does. Elena Verna, despite working at an AI company and using the technology daily, illustrates the gap with ChatGPT repeatedly turning ordinary prose into LinkedIn-style copy. The supplied text ends before her case develops, so its conclusions remain unavailable. HN debated the broader theme: marketing amplifies low-quality output, workplace pressure encourages performative confidence, and productivity claims need concrete artifacts and business results.
 
 ### Comment pulse
-- AI hype follows an old pattern: marketers discover a new medium, then flood it with low-quality, gamed content until the ecosystem degrades.  
-- Workplace AI use: many see sloppy AI PRs and looming technical debt; some insist careful “pair programming” use yields real productivity — counterpoint: most orgs lack that discipline.  
-- “Life-changing” claims draw skepticism; critics demand hard receipts and business impact, while defenders liken LLMs to browsers for knowledge access, just another powerful but overhyped tool.
 
----
+- Marketing turns capability into sludge → commenters cited ghostwritten ebook spam and padded AI videos, arguing monetization rewards volume before quality.
+- Confidence can be compulsory → workers face AI mandates and job threats, then rationalize their own workflows while blaming coworkers’ buggy output.
+- Impact claims split readers → boosters reported broad leverage — counterpoint: skeptics described failed simple tasks and demanded shipped software, ROI, or measurable savings.
 
 ### LLM perspective
-- View: Treat AI like databases or cloud—powerful infrastructure, not magic; demand demos, metrics, and failure modes, not vibes.  
-- Impact: Engineering culture, management incentives, and marketing narratives will determine whether AI compounds productivity or buries teams in debt.  
-- Watch next: Independent evaluations of AI ROI, coding-quality studies, and policy around synthetic content labeling and review/approval standards.
+
+- **View:** Confidence is cheap because anecdotes lack denominators; credible evaluation needs baseline time, defects, rework, and outcome ownership.
+- **Impact:** Managers optimizing output volume can multiply technical debt faster than skilled reviewers can detect or contain it.
+- **Watch next:** Require before-and-after workflow evidence, production defect rates, maintenance costs, and audited ROI for supposedly transformative deployments.

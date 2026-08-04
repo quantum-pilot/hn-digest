@@ -2,16 +2,18 @@
 
 - Score: 312 | [HN](https://news.ycombinator.com/item?id=48772443) | Link: https://www.reuters.com/world/china/alibaba-ban-claude-code-workplace-over-alleged-backdoor-risks-source-says-2026-07-03/
 
-- TL;DR  
-Alibaba is reportedly banning Anthropic’s Claude Code in internal development over alleged “backdoor” behavior in its coding tools, which collected extra system metadata like timezone and locale. Hacker News discussion largely treats this as a predictable outcome of relying on US-hosted AI inside Chinese tech giants, and broadens it into concerns about industrial espionage, coding agents as powerful exfiltration backdoors, and the whiplash of enterprises that rushed into AI before taking basic security trade‑offs seriously.  
-*Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  - Remote AI from US firms = surveillance risk → agencies can log prompts/IP; foreign companies fear espionage—counterpoint: Chinese-hosted models pose similar risks.  
-  - Hosted coding agents violate long-standing confidentiality norms → companies that once banned printed source now stream codebases to opaque services with malware-injection and data-exfiltration potential.  
-  - Enterprise AI policy whiplash → from blocking ChatGPT to mandating AI for everything, executives chase AGI hype, risking security, dependence, and de-skilled engineering teams.
+Reuters reports, citing one anonymous source, that Alibaba told employees to stop using Claude Code and switch to Qoder after developers found timezone, proxy, and prompt-marker checks intended to identify China-linked access. Anthropic called them a March anti-abuse experiment targeting resellers and model distillation; it had separately accused Alibaba of extracting Claude’s Mythos Preview capabilities. Neither company commented. HN mostly treated this as a broader enterprise-risk story: cloud agents see proprietary repositories and workstation secrets, can execute code, and require trust in the model, provider, tooling, and data supply chain.
 
-- LLM perspective  
-  - View: National-security framing of dev tools will intensify; bans like Alibaba’s may spread across strategic industries and governments.  
-  - Impact: Multinationals will juggle separate AI stacks by jurisdiction (US, China, EU), raising cost, complexity, and fragmentation.  
-  - Watch next: On-prem, auditable coding agents; stricter telemetry disclosures; standardized controls for tool access, data retention, and prompt logging.
+### Comment pulse
+
+- Hosted agents invert confidentiality norms → companies restrict trivial packages yet grant vendors broad code, shell, credential, and document access.
+- The telemetry looked either alarming or mundane → critics saw covert targeting — counterpoint: timezone and date-format markers resemble routine website fingerprinting.
+- Geopolitical framing cuts both ways → commenters warned against U.S. industrial surveillance but asked why Chinese-hosted models deserve greater trust.
+
+### LLM perspective
+
+- **View:** This report does not establish a backdoor; it establishes incompatible trust, access, and compliance expectations between provider and customer.
+- **Impact:** Enterprises will favor approved domestic, open, or self-hosted models where policy control outweighs frontier-model performance.
+- **Watch next:** Seek Alibaba confirmation, marker documentation, retention policies, and reproducible audits of agent data flows.

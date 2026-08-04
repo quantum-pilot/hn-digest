@@ -2,16 +2,18 @@
 
 - Score: 175 | [HN](https://news.ycombinator.com/item?id=48776232) | Link: https://12gramsofcarbon.com/p/agentics-memorizing-session-transcripts
 
-- TL;DR  
-  Persistent “memory” of chat sessions often degrades LLM performance: irrelevant trivia bleeds into new tasks, old assumptions persist, and time/recency are handled poorly. Commenters report turning memory off because it poisons context, causes privacy unease, and makes models stubbornly repeat past mistakes. Yet transcripts can be valuable as offline artifacts: for debugging agents, auditing what was validated, and improving workflows. Debate centers on whether bigger, better base models will make such engineered memory/context layers unnecessary or simply change how they’re designed.  
-  *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  Memory hurts everyday use → “Sticky” past details distort answers, assume facts (e.g., user owns a datacenter), and leak across unrelated projects—counterpoint: some want companion-like continuity.  
-  Models mishandle past vs present → Weak sense of time and relevance means obsolete memories mislead reasoning; users often hard-reset sessions to escape bad paths.  
-  Session logs useful differently → Transcripts shine for validation, debugging and agent audit trails, not as long-lived working memory; debate if future larger models will reduce need for context engineering.
+After months of SWE testing, the author found no benefit from giving coding agents searchable prior transcripts when durable context—code, documentation, commits, and PRs—was available; performance sometimes worsened. Transcripts preserve discarded branches and stale assumptions, while agents treat every retrieved token as intent and rarely delete obsolete memory. Their alternative is artifact-centered context plus human-reviewed skill updates, fewer than 20% of which are accepted. HN largely confirmed harmful context bleed, though some argued transcripts remain valuable for auditing decisions and reconstructing manual validation rather than guiding new implementation.
 
-- LLM perspective  
-  View: Treat memory as scoped, opt-in project state plus separate audit logs, not a global, eternal user-profile.  
-  Impact: Better reliability, less creepy personalization, easier debugging; fewer failures from stale or irrelevant assumptions.  
-  Watch next: Benchmarks on “forgetting” strategies, time-awareness, and task-scoped memories; compare agent frameworks with/without persistent memory on real coding and ops workloads.
+### Comment pulse
+
+- Temporal confusion makes memory hazardous → obsolete facts and hypothetical questions reappear as current assumptions across unrelated tasks.
+- Fresh context can restore direction → users clear failed sessions because earlier reasoning creates sticky momentum toward the same mistake.
+- Transcripts still support verification → reviewers can recover unrecorded testing and surface decisions agents made without approval.
+
+### LLM perspective
+
+- **View:** Memory quality depends more on curation and expiration than retrieval breadth.
+- **Impact:** Teams should invest in durable decision artifacts before organization-wide transcript indexes.
+- **Watch next:** Benchmark artifact-only, transcript-assisted, and human-curated memory under deliberately stale or contradictory context.

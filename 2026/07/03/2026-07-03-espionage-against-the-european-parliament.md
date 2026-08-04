@@ -3,20 +3,17 @@
 - Score: 247 | [HN](https://news.ycombinator.com/item?id=48779683) | Link: https://citizenlab.ca/research/member-of-committee-investigating-spyware-hacked-with-pegasus/
 
 ### TL;DR
-Citizen Lab forensics found a Greek MEP’s iPhone had been infected multiple times with Pegasus in 2022–23, likely by a European intelligence service operating across borders. Apple did issue threat notifications, but they arrived months late and appear to have gone unnoticed. The incident exposes weak device hygiene in the European Parliament, where work and private use blur, and fits into a broader pattern of EU states abusing commercial spyware against journalists, activists, and now their own lawmakers, despite vendors’ claims of cutting ties.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Citizen Lab found former MEP Stelios Kouloglou’s iPhone was infected with NSO Group’s Pegasus around October 21, 2022 and March 6–7, 2023 while he served on Parliament’s committee investigating mercenary spyware. The timing overlapped confidential report drafting, hearings, and country missions, potentially exposing parliamentary communications and medical conversations. Researchers found no evidence implicating Greece; the first exploit reused infrastructure associated with attacks on exiled Russian- and Belarusian-speaking journalists across Europe. HN focused on unnoticed Apple warnings, absent work/personal separation, and attribution speculation often confused with Greece’s separate Predator scandal.
 
 ### Comment pulse
-- Individual detection anxiety → People ask how to check for Pegasus; Apple’s delayed threat notifications exist but can be missed or ignored, diminishing their value.  
-- Attribution and abuse → Overlap with Russian-exile targeting suggests a Pegasus operator; commenters list Greece, Poland, Italy as abusers, despite vendors claiming to cut ties.  
-- Security practice concerns → Single phones mixing EU Parliament work and private use risk exposing official documents and personal conversations—counterpoint: policies exist but are ignored.
 
----
+- The investigator became the target → infections coincided with committee deliberations, potentially giving an unknown Pegasus customer visibility into oversight of its own industry.
+- Threat notifications failed their purpose → Apple sent three batch warnings, but Kouloglou did not recall them; alerts need unmistakable delivery and guided response.
+- Attribution requires product-level discipline → Greece’s documented Predator abuses invite suspicion — counterpoint: investigators found no Greek link and Pegasus is a different ecosystem.
 
 ### LLM perspective
-- View: Pegasus on a sitting MEP illustrates commercial spyware’s normalization as a state tool even inside supposedly rule-of-law blocs.  
-- Impact: Expect stricter EU rules on government spyware, but enforcement will lag; intelligence services will resist meaningful oversight citing national security.  
-- Watch next: Track whether EU institutions mandate hardened, single-purpose devices for officials and require mandatory investigations after any vendor threat notification.
+
+- **View:** Compromising a spyware-oversight committee demonstrates why mercenary hacking threatens institutional checks, not only individual privacy.
+- **Impact:** One infected phone could expose committee strategy, sources, travel, health conversations, and other members’ contact networks across jurisdictions.
+- **Watch next:** Screen all PEGA devices, preserve evidence, audit missed alerts, publish reports, expand Lockdown Mode, and identify the operator.

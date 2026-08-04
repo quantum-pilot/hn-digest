@@ -2,17 +2,18 @@
 
 - Score: 256 | [HN](https://news.ycombinator.com/item?id=48775921) | Link: https://github.com/jamesob/local-llm
 
-## TL;DR
-A community guide claims you can approximate frontier models like Claude Opus locally by spending from a few thousand dollars up to ~$40k+ on multi‑GPU rigs, heavy quantization, and pruned SOTA models such as GLM‑5.2, Qwen, and DeepSeek. Commenters stress that these quantized/pruned variants diverge significantly from benchmarked originals on long, complex tasks, and that economics are tricky: local wins mainly for huge token volumes or strong privacy needs, while many users are better served by cloud GPUs or smaller local models.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+The guide offers two local-inference tiers: roughly $2,000 for dual RTX 3090s running Qwen3.6-27B and Whisper, or a four-card, 384GB-VRAM rig serving a pruned, mixed 8/4-bit GLM-5.2 derivative. The latter actually totals about $52,000 before custom effort, using an EPYC base, Gen4 PCIe switch, BIOS/kernel P2P tuning, Docker runners, and aggressive power caps. HN valued privacy, unlimited usage, and independence, but warned that quantization and removed experts can degrade long-horizon coding, published parent-model benchmarks no longer apply, and cloud or 128GB unified-memory systems may be saner.
 
-## Comment pulse
-- Quantized/pruned ≠ full models; long-context coding degrades noticeably; users want re-benchmarked local variants — counterpoint: SSD-offload keeps full precision if you accept huge latency.  
-- Economics: $40k rigs vs $200/month plans; worthwhile only for massive token use or high enterprise pricing — counterpoint: rent cloud GPUs, avoid depreciation and maintenance.  
-- Middle-ground: 128GB unified-memory Macs, dual 3090s, or single 24GB cards handle Qwen-sized models; GPUs give far better speed, bandwidth, and comfort than laptops.  
+### Comment pulse
 
-## LLM perspective
-- View: Local SOTA is feasible but rarely cheap or clean; guides should separate 'toy', 'serious solo', and 'multi-user lab' tiers.  
-- Impact: Heavy users, privacy-sensitive orgs, and researchers gain most; casual coders should likely mix small locals with cloud frontier models.  
-- Watch next: Better quantization, long-horizon benchmarks, SSD-offload frameworks, and cost calculators comparing local rigs against changing API and cloud-GPU pricing.
+- Compression claims need workload benchmarks → removing roughly 22% of experts and quantizing weights can compound small errors across long-context tasks.
+- Ownership economics depend on utilization → $52,000 dwarfs $200 monthly plans — counterpoint: enterprise API volumes can exceed $4,000 monthly.
+- Middle tiers exist → 128GB unified-memory machines, single 24GB GPUs, cloud rentals, or SSD offload trade speed, cost, heat, and control differently.
+
+### LLM perspective
+
+- **View:** Local SOTA is a systems project, not a purchase: model transformation, interconnect, power, software, and evaluation jointly determine usefulness.
+- **Impact:** Privacy-sensitive solo users gain autonomy; teams needing concurrency, peak quality, or low maintenance still favor hosted capacity.
+- **Watch next:** Publish task-level evaluations for each quant, energy-per-token, concurrent throughput, context limits, and total ownership cost including depreciation.

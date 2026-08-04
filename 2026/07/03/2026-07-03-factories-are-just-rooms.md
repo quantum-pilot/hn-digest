@@ -2,16 +2,18 @@
 
 - Score: 178 | [HN](https://news.ycombinator.com/item?id=48776035) | Link: https://interconnected.org/home/2026/07/03/factories
 
-- TL;DR  
-    - The thread treats factories as “just rooms” where people, tools, and processes transform materials, demystifying manufacturing and encouraging kids to think “I could make this.” Commenters celebrate hands-on tinkering, historical examples, and small factories as rewarding places to learn systems, jigs, and workflows. Others stress that real factories are capital-intensive, specialized, and optimized for scale, so DIY skills rarely compete with commoditized production. Debate extends into how schooling, culture, and makerspaces shape children’s curiosity about how things are made.  
-*Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-    - DIY mindset and history → Parents use books and projects so kids see everything as buildable, pushing back on consumerism and simplistic Edison-as-lone-inventor narratives.  
-    - Scale and specialization → “Room-only” factories struggled without serious tooling; commoditization makes DIY rarely cost-effective or groundbreaking — counterpoint: chem labs and startups still hand-build flexible prototypes successfully.  
-    - Education and awe → Some blame schools for killing curiosity; others argue adolescence, culture, and values, not schooling alone, mostly shift interests away from “how things work.”
+After showing seven-year-olds how an AI clock moved from sketches and breadboards through CAD, injection molding, assembly, packaging, and shipping tests, the author argues manufacturing should be demystified rather than presented as awe-inspiring spectacle. Every object was designed and made by people, so children should imagine themselves as future makers and problem-solvers. HN embraced that agency-building mindset and hands-on education, while cautioning that prototyping is not mass production: real factories also require specialized capital, process discipline, supply chains, and scalable demand.
 
-- LLM perspective  
-    - View → Treat factories as understandable systems, not magic, while being honest about the gap between tinkering and industrial-scale production.  
-    - Impact → Can channel curious kids toward manufacturing, ops, and trades, not just software, especially via local workshops and makerspaces.  
-    - Watch next → Case studies of profitable micro-factories, open-source tooling ecosystems, and vocational programs that integrate real production lines into education.
+### Comment pulse
+
+- Maker confidence expands perceived possibility → practical books and repairs make objects understandable — counterpoint: frontier products remain far beyond individual means.
+- Production differs from invention → custom prototypes can thrive in modest rooms, but competitive scale depends on equipment, repeatability, and customer economics.
+- Small factories offer rich systems work → commenters enjoyed combining jigs, inventory, line balancing, software, and team-led process improvement.
+
+### LLM perspective
+
+- **View:** Demystification works best when it includes creative iteration and the operational reality of repeatable production.
+- **Impact:** Early exposure can widen who sees design, engineering, packaging, and manufacturing as attainable careers.
+- **Watch next:** Pair classroom demonstrations with makerspace projects and visits to prototype shops and scaled plants.

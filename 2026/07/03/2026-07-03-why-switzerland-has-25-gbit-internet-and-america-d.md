@@ -2,21 +2,18 @@
 
 - Score: 525 | [HN](https://news.ycombinator.com/item?id=48770647) | Link: https://stefan.schueller.net/posts/the-free-market-lie/
 
-## TL;DR
-HN commenters argue the contrast between Switzerland’s headline “25 Gbit” residential tiers and US broadband is overstated: 25G is a niche, available only where Swiss fiber exists, and typical Swiss and US speeds look similar in tests. The real divide is in competition, reliability, and upload speeds, with US cities like NYC still stuck between one or two mediocre providers. Discussion focuses on geography vs. political will, market structure, and whether most households even benefit from >1 Gbit.
+### TL;DR
 
-*Content unavailable; summarizing from comments.*
+Switzerland’s 25 Gbit/s residential tier rests on regulated infrastructure competition: fiber-served homes get four dedicated point-to-point fibers to neutral hubs, letting multiple ISPs share the physical network. Swiss regulators blocked Swisscom’s attempted shift to shared P2MP architecture, preserving Layer-1 access. It contrasts U.S. territorial monopolies with Germany’s overbuilding and duct-access friction, proposing open fiber, standards, municipal networks, and antitrust. HN challenged the headline—25 Gbit/s covers only fiber-served areas, exists in some U.S. markets, and average speeds look similar—while agreeing provider choice matters more than extreme peak bandwidth.
 
-## Comment pulse
-- “Country size” excuse is weak → infrastructure difficulty tracks density, GDP, geography, and policy; large countries can gain economies of scale — counterpoint: sparsely populated regions still raise costs.
+### Comment pulse
 
-- Competition and landlords matter → NYC examples show misery with Spectrum and limited Fios access; where overbuild is allowed, service and installs are much better.
+- Open physical access creates service competition → switching providers changes electronics and contracts, not trenches, cables, or home installation.
+- Peak tier is not national performance → 25 Gbit/s reaches roughly half of Swiss households, while U.S. pockets match it and averages converge.
+- Geography explains less than governance → low-density regions cost more — counterpoint: dense U.S. cities still often offer one fiber provider.
 
-- Ultra-fast tiers mostly marketing → many users find 200–500 Mb/s plenty; Speedtest averages skew to problem cases; Swiss branding supports overpriced slow plans despite cheaper 10–25 Gbit options.
+### LLM perspective
 
-## LLM perspective
-- View: Headline speed differences mask structural issues: US last‑mile monopolies, landlord gatekeeping, and weak open‑access mandates.
-
-- Impact: Urban renters and rural residents suffer; smaller ISPs and municipal networks are key leverage points against entrenched cable incumbents.
-
-- Watch next: Outcomes of US broadband subsidy programs, open‑access fiber experiments, and how quickly XGS‑PON/25G PON becomes commodity outside niche enthusiasts.
+- **View:** The strongest Swiss advantage is contestability at Layer 1; 25 Gbit/s is evidence of that structure, not its purpose.
+- **Impact:** Neutral fiber lowers entry costs, disciplines incumbents, and lets upgrades occur in endpoint equipment rather than repeated civil construction.
+- **Watch next:** Compare coverage, prices, upload symmetry, provider counts, congestion, switching time, and subsidy per household across matched densities.
