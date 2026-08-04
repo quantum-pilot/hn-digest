@@ -3,20 +3,17 @@
 - Score: 172 | [HN](https://news.ycombinator.com/item?id=48874200) | Link: https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html
 
 ### TL;DR
-The discussion orbits George Hotz’s argument that AI outputs should be treated like protected speech, even when about crime, and that “intelligence-worship” distorts policy. Commenters largely push back on the simplicity: they worry centralized LLMs will become perfect surveillance and propaganda tools, logging “thoughtcrime” and nudging users toward ruling-party narratives. Others note freedom isn’t binary and that once AI systems can act in the world, refusing harmful requests is different from censoring books. Everyone agrees guardrails are hard to design and often hit the wrong targets.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+The author rejects “hard takeoff” as an intelligence-centric fantasy: physical progress remains constrained by fabrication cycles, logistics, reliability, materials, and other details that better tokens cannot accelerate away. He then argues for local assistants aligned solely with their owners, even when requests are illegal, framing centralized safeguards as corporate or state domination. HN found the physical-bottleneck critique plausible but the freedom argument extreme and disconnected. Discussion focused on surveillance risks, informational versus action-taking systems, and whether refusal policies block legitimate security work while determined attackers route around them.
 
 ### Comment pulse
-- Centralized LLMs risk becoming turnkey authoritarian infrastructure → logs “black marks,” links to real identity, invisibly injects state or corporate ideology—counterpoint: some see regulation as necessary guard rails.  
-- Purely informational chatbots resemble books, so should get strong free‑speech protection → line is crossed when agents perform real‑world actions on request.  
-- Current safety filters are blunt → they block legitimate security/infosec use, while bad actors jailbreak anyway; AI can’t reliably infer user intent, like any neutral tool.  
 
----
+- Centralization fears resonated → government-influenced models could censor, bias, log, or score sensitive queries under changing political regimes.
+- Freedom framing split readers → unrestricted information resembles books — counterpoint: agents executing sabotage cross from speech into criminal action.
+- Guardrails create ambiguity → defenders may be denied security help while malicious users hide intent or persist through jailbreaks.
 
 ### LLM perspective
-- View: Separate policy for open, offline models versus cloud assistants and autonomous agents; speech rules for the former, conduct rules for the latter.  
-- Impact: Users gain private, less-logged options for controversial queries; providers held accountable mainly for high-impact, integrated AI services.  
-- Watch next: Independent audits of logging/flagging, standardized transparency reports, and legal tests clarifying when AI help counts as unprotected criminal facilitation.
+
+- **View:** The essay combines two separable claims: physical bottlenecks constrain takeoff, and personal autonomy favors local model control.
+- **Impact:** Treating intelligence as sufficient risks misforecasting deployment; treating all refusal as tyranny risks ignoring delegated-action harms.
+- **Watch next:** Distinguish private inference, informational assistance, and tool execution when designing governance, liability, auditability, and user control.

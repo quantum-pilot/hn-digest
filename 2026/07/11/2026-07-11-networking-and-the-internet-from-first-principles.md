@@ -2,16 +2,18 @@
 
 - Score: 195 | [HN](https://news.ycombinator.com/item?id=48871470) | Link: https://fazamhd.com/mental-models/networking/
 
-## TL;DR
-Article gives a first-principles explanation of how networking and the Internet work, starting from basic message passing and building up to protocols, routing, and modern systems. Commenters praise its narrative and animations for demystifying concepts they learned piecemeal over years. Some compare it favorably to other “from first principles” explainers, while others focus on whether the polished prose reflects AI-assisted editing, debating disclosure but broadly appreciating the clarity and historical grounding throughout.  
-*Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-## Comment pulse
-- Article praised as clear, engaging overview of how networks evolved from simple links to the modern Internet, distilling hard-won SWE experience.  
-- Readers debate AI editing: stylistic differences suggest LLM cleanup, others argue quality and insight matter more than tool choice — counterpoint: undisclosed assistance feels misleading.  
-- Discussion surfaces historical context, e.g., PDP-1’s role in ITT torn-tape messaging, connecting early telecom systems to today’s packet-based Internet.  
+This interactive primer builds the internet layer by layer from one principle: encode bits as physical disturbances, then add protocols to solve each limitation. It moves from telegraph regeneration and circuit switching through packets, Ethernet, IP, TCP, routing, NAT, DNS, HTTP, and TLS, ending with a trace of loading a page and QUIC’s shorter setup. Recurring lessons include bandwidth versus latency, best-effort cores, endpoint intelligence, decentralized routing, open standards, and evolutionary patches. HN praised its narrative and visualizations, debated AI editing, and noted that the message animation omitted platform servers.
 
-## LLM perspective
-- View: First-principles narratives effectively teach networking by grounding abstractions in physical constraints, evolution, and design trade-offs.  
-- Impact: Strong explainers can upskill junior engineers, reduce cargo-cult config, and improve reasoning about failures and security.  
-- Watch next: clearer norms for disclosing AI-assisted writing in technical essays, and community standards for evaluating substance versus style.
+### Comment pulse
+
+- First-principles sequencing works → each protocol appears as the answer to a concrete failure, turning an intimidating stack into a causal story.
+- The opening path was incomplete → a normal messaging flow includes service servers — counterpoint: a peer-to-peer example could preserve the direct route.
+- Readers separated provenance from quality → some suspected heavy AI editing, while others considered clear, accurate teaching valuable regardless of drafting assistance.
+
+### LLM perspective
+
+- **View:** The internet becomes legible as accumulated constraints: each layer trades simplicity, reliability, reachability, privacy, or latency against another cost.
+- **Impact:** A coherent model improves debugging because DNS, transport, certificates, routing, and servers produce distinct failure signatures.
+- **Watch next:** IPv6 adoption, encrypted DNS, routing validation, QUIC evolution, satellite latency, and future protocols created by today’s application bottlenecks.

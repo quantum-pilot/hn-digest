@@ -2,16 +2,18 @@
 
 - Score: 105 | [HN](https://news.ycombinator.com/item?id=48870258) | Link: https://www.bloomberg.com/news/features/2026-07-07/why-it-s-so-difficult-to-produce-100-american-made-medical-gloves
 
-- TL;DR  
-  US efforts to build American-made medical glove production after COVID ran into economics and chemistry, not factory incompetence. Domestic plants can make gloves but at roughly double Asian prices, and depend on nitrile-butadiene rubber feedstocks largely produced abroad because US petrochemistry shifted to shale gas. Commenters debate whether subsidies and Pentagon-style contracts were naive handouts or rational resilience investments, and whether the US needs full-scale domestic glove manufacturing or merely credible surge capacity for future crises.  
-*Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse
-  - Core problem is economics, not know-how → Domestic plants can technically make gloves but at roughly double the cost, so hospitals revert to cheaper imports.
-  - Feedstock constraints raise structural costs → NBR latex relies on butadiene from Asian/European crackers; US shale gas shift reduces local supply, entrenching Malaysia’s cost advantage.
-  - Resilience vs efficiency debate → Some see domestic capacity as national security; others question billions for idle plants—counterpoint: standby capacity resembles insurance.
+The excerpt describes Blue Star NBR’s federally financed Virginia plant, intended to restore domestic nitrile-glove material production, nearing sale for parts after receiving $123 million. HN argued the broader failure was commercial rather than technical: US plants could make gloves, but at roughly twice the imported cost and without buyers. Commenters traced the disadvantage upstream to scarce domestic NBR latex and butadiene, then debated whether pandemic resilience justifies higher ongoing costs. Others questioned contract milestones, accountability, and whether policy should fund continuous production or preserve rapidly scalable emergency capacity.
 
-- LLM perspective
-  - View: Treat medical gloves like strategic stockpile items, with explicit resilience premiums and periodic stress-tests of domestic surge capacity.
-  - Impact: Clearer federal procurement signals could justify long-term investments in feedstocks, automation, and dual-use plants for other nitrile products.
-  - Watch next: Compare cost of maintaining onshore capacity versus expanding diversified import sources plus larger strategic PPE reserves.
+### Comment pulse
+
+- Production capability existed → factories lost on price and demand, not know-how — counterpoint: unused capacity still has option value during supply emergencies.
+- The bottleneck begins upstream → limited domestic butadiene and NBR latex make local gloves expensive before labor or factory economics enter.
+- Public funding needs enforceable delivery → commenters wanted milestone payments, transparent outlays, penalties, and clarity on what capability taxpayers actually purchased.
+
+### LLM perspective
+
+- **View:** Resilience behaves like insurance: its value appears during disruption; its premium is the peacetime cost gap and idle capacity.
+- **Impact:** Subsidizing final assembly without securing feedstocks and customers can create stranded plants rather than a functioning domestic supply chain.
+- **Watch next:** Plant sale, contract remedies, feedstock strategy, purchase guarantees, stockpile rotation, surge tests, and cost of resilient capacity.

@@ -3,20 +3,17 @@
 - Score: 156 | [HN](https://news.ycombinator.com/item?id=48875377) | Link: https://antjs.org
 
 ### TL;DR
-Ant is a new JavaScript runtime and ecosystem marketed as hand-built by a solo developer. Commenters uncovered that early versions reused code from the AGPL-licensed Elk engine, likely via LLM assistance, so the “from-scratch” narrative and accompanying blog posts feel overstated, even though the author says the current engine was rewritten. Others note this still showcases how much infrastructure individuals can now build. Naming clashes with Apache Ant and ant.design, plus a jokey company site, further prompt questions about branding and trust.  
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Ant presents a from-scratch JavaScript runtime with its own Ant Silver engine, npm-package compatibility, direct TypeScript execution, a package installer, default Fetch-style serving, and an npm-compatible registry. It ships as an 8.6 MB binary for macOS and Linux and claims 5.4 ms Hono cold starts, 100% compat-table coverage, WinterTC conformance, and installs up to 40 times faster than npm. Its security feature is a KVM or Hypervisor.framework sandbox with explicit filesystem and network access. HN’s excitement about solo, AI-assisted systems work was tempered by provenance, trust, branding, and benchmark-verification concerns.
 
 ### Comment pulse
-- Code provenance questioned → early Ant code resembled Elk JS via LLM, making “hand-built” claims feel misleading — counterpoint: author says February rewrite replaced it.  
-- Solo dev capability highlighted → commenters amazed one person can build a JS runtime and ecosystem, suggesting AI tools compress work that once required teams.  
-- Branding and trust worries → name collides with Apache Ant and ant.design, and a jokey company site undercuts perceived professionalism for a foundational runtime.  
 
----
+- Provenance dominated trust → commenters cited an early AGPL-derived codebase — counterpoint: the author says February’s rewrite replaced it and now receives review.
+- AI changes project economics → one developer can attempt runtime engineering once associated with teams, though maintainability remains unproven.
+- Naming created avoidable friction → Apache Ant and Ant Design already occupy strong associations for long-time developers.
 
 ### LLM perspective
-- View: Ambitious solo runtimes can be valuable, but they must be brutally transparent about origins, licensing, and AI assistance.  
-- Impact: If Ant stabilizes technically and reputationally, it could become a lean alternative JS host for embedded or specialized environments.  
-- Watch next: Watch for independent audits, clear AGPL compliance statements, real-world benchmarks, and whether the project migrates to an organization-owned repository.
+
+- **View:** A small runtime is compelling only if compatibility, correctness, security boundaries, and maintenance survive workloads beyond curated demos.
+- **Impact:** Independent engines could diversify JavaScript infrastructure, but a new registry and runtime also fragment trust and package governance.
+- **Watch next:** Publish reproducible benchmarks, conformance details, sandbox threat models, provenance history, audits, and production case studies.

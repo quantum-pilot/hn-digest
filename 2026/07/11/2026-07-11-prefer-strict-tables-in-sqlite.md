@@ -3,16 +3,17 @@
 - Score: 202 | [HN](https://news.ycombinator.com/item?id=48873940) | Link: https://evanhahn.com/prefer-strict-tables-in-sqlite/
 
 ### TL;DR
-SQLite historically allows almost any value in any column, treating types as hints. STRICT tables, introduced recently, finally enforce declared types, appealing to developers used to Postgres or enterprise SQL. HN commenters mostly favor strict typing for catching bugs and protecting shared databases, but note SQLite’s defaults prioritize backward compatibility, embedded single-app use, and easy schema evolution. They also question SQLite’s own justification for flexible typing, arguing that in practice it can hide schema bugs and allow subtle data corruption.
 
-*Content unavailable; summarizing from title and comments.*
+Appending STRICT to a SQLite table makes declared types enforceable: invalid text-to-integer writes fail, bogus type names are rejected, and columns require one of six supported types, while lossless conversions and ANY preserve flexibility. The author recommends it for catching data-integrity bugs, but notes existing tables require copy-and-clean migrations, pre-3.37 clients cannot read strict schemas, and flexible tables still suit messy imports or key-value data. HN wanted stricter defaults, yet emphasized SQLite’s backward compatibility and embedded, single-application niche, where compile-time checks and easy schema evolution may outweigh redundant runtime validation.
 
 ### Comment pulse
-- SQLite’s safety features require opt-in: foreign_keys PRAGMA, STRICT per-table; strict-by-default is rejected to avoid breaking existing apps across version upgrades—counterpoint: this preserves buggy behavior indefinitely.  
-- Fans of flexible typing highlight in-place schema evolution for embedded, single-app databases, claiming compile-time checks and ownership of all writers make runtime type enforcement redundant.  
-- Others report the opposite: loose typing hides bugs, lets wrong-type values silently persist, and can make identifying and repairing corrupted rows costly or impossible.  
+
+- Strictness makes the schema a contract → multiple writers can trust declared types — counterpoint: one embedded application may already guarantee them statically.
+- Changing the default would break compatibility → SQLite preserves old behavior, but the lack of a database-wide strict pragma creates repetitive, mixed enforcement.
+- Flexible typing eases ingestion and evolution → heterogeneous values can preserve messy source data or defer migrations, at the cost of downstream validation.
 
 ### LLM perspective
-- View: Treat SQLite as two modes—STRICT for shared or user-facing data, flexible only for private, tool-internal caches.  
-- Impact: Wider STRICT adoption would narrow gaps with Postgres/MySQL, making SQLite more suitable for small multi-process services and serious analytics.  
-- Watch next: Community pressure for a global STRICT pragma, richer types via CHECK constraints, and tooling that surfaces mixed-type anomalies.
+
+- **View:** STRICT is a boundary choice: runtime validation matters where independent components exchange data and assumptions can diverge.
+- **Impact:** Failing on write localizes corruption early; accepting anything shifts discovery to readers, where original intent may already be unrecoverable.
+- **Watch next:** Global strict-mode proposals, migration tooling, mixed-schema linting, compatibility floors, ORM support, and measurable overhead under real write workloads.

@@ -2,16 +2,18 @@
 
 - Score: 161 | [HN](https://news.ycombinator.com/item?id=48817539) | Link: https://www.iroh.computer/blog/an-iroh-powered-smart-fan
 
-- TL;DR  
-  - An enthusiast project uses iroh, a secure peer‑to‑peer networking stack, to control a “smart fan” without relying on cloud services. Commenters like the strong endpoint‑to‑endpoint encryption and view iroh as a promising basis for secure IoT, but criticize the current design as too heavy for embedded hardware and missing an embedded QUIC stack. Others debate what “smart” should mean in a fan and point to simpler IR‑hub solutions, while the iroh team signals interest in Matter/Thread integration.  
-  - *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  - Secure IoT via iroh → Built‑in end‑to‑end encryption is promising for devices, but fan setup uses much RAM and lacks an embedded‑friendly QUIC stack.  
-  - Meaning of “smart fan” → Some want better aerodynamics and low noise; others define “smart” as added computation — counterpoint: Noctua fans optimize airflow.  
-  - Practical control options → Critics prefer cheap IR hubs integrated with Google Home; others ask for iroh integration with Matter/Thread to reduce custom, one‑off setups.
+The project turns an ESP32, DHT22, and 5V fan into a Rust controller reachable without an app-specific cloud. Iroh supplies encrypted device-to-device networking over local connections or optional relays; irpc exposes temperature, humidity, status, and threshold methods; a WebAssembly page connects by endpoint ticket; and hysteresis prevents rapid fan toggling. The finished build adds a printed enclosure and separate QR codes for read-only and authenticated control. HN liked endpoint encryption but questioned 4 MiB PSRAM, the simple secret, and DIY complexity versus cheap hubs, while asking about Matter interoperability.
 
-- LLM perspective  
-  - View: Using iroh for small projects usefully pressure‑tests secure IoT patterns, even if hardware profiles are currently over‑provisioned.  
-  - Impact: If iroh gains lightweight QUIC and Matter bindings, it could become a default stack for privacy‑respecting, self‑hosted smart devices.  
-  - Watch next: Embedded iroh demos on sub‑megabyte MCUs, open reference designs for fans/sensors, and Home Assistant integrations using standardized schemas.
+### Comment pulse
+
+- Endpoint encryption improves IoT’s baseline → direct identities reduce bespoke cloud trust — counterpoint: full relay support consuming 4 MiB PSRAM limits embedded practicality.
+- Smart control is not smarter mechanics → automatic thresholds add behavior, while commenters argued airflow, acoustics, and blade design determine fan quality.
+- DIY autonomy competes with convenience → inexpensive infrared hubs already integrate with voice ecosystems, motivating requests for Matter and Home Assistant compatibility.
+
+### LLM perspective
+
+- **View:** The compelling architecture separates device identity from application infrastructure: browsers dial hardware directly, while optional generic relays solve reachability.
+- **Impact:** Open peer-to-peer networking can reduce vendor lock-in, but memory footprint, provisioning, recovery, and authorization remain product-level engineering work.
+- **Watch next:** Smaller QUIC stacks, key rotation, Wi-Fi recovery, schema evolution, self-hosted relays, and Matter or Home Assistant bridges.

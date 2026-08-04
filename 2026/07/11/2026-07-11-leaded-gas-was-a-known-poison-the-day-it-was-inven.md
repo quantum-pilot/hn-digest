@@ -2,23 +2,18 @@
 
 - Score: 167 | [HN](https://news.ycombinator.com/item?id=48873893) | Link: https://www.smithsonianmag.com/smart-news/leaded-gas-poison-invented-180961368/
 
-**TL;DR**  
-Leaded gasoline was aggressively promoted despite long-standing knowledge that lead is a powerful neurotoxin. Corporate-backed scientists framed lead as natural and safe below a supposed threshold, dominated the research agenda, and delayed regulation for decades. Commenters trace the roles of Thomas Midgley Jr. (invention), Robert Kehoe (industry-friendly science), and Clair Patterson (who finally proved pervasive contamination). The thread connects this history to today’s global bans, remaining leaded aviation fuel, and ongoing debates over fossil fuels versus electric vehicles.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+General Motors engineer Thomas Midgley Jr. identified tetraethyl lead as an anti-knock gasoline additive in 1921, despite its established toxicity and ethanol offering a safer, unpatentable alternative. Commercial sales began in 1923 while Midgley himself was ill from exposure; refinery deaths followed, yet a 1926 federal report allowed continued use and deferred cumulative-risk concerns. US phaseout efforts did not begin until the 1970s, after decades of environmental contamination linked to neurological damage, especially in children. HN emphasized that corporate leadership and industry-controlled research—not one notorious inventor—sustained the harm.
 
----
+### Comment pulse
 
-**Comment pulse**
+- Blame extends beyond Midgley → commenters argued GM leadership knowingly chose a controllable product and traded public health for profit.
+- Research capture entrenched error → industry-backed assumptions about natural background lead and safe thresholds dominated evidence for decades.
+- The phaseout is incomplete in spirit → road fuel ended worldwide — counterpoint: commenters noted leaded aviation gasoline still emits at scale.
 
-- Responsibility narrative: Midgley is infamous, but commenters stress GM leadership and Robert Kehoe’s industry-backed science, versus Clair Patterson’s independent work exposing widespread lead contamination.  
-- Lead permeates technology: jokes about materials science being “invent, then de-lead,” notes about global road-fuel bans, lingering leaded avgas, and comparisons with arsenic hazards.  
-- Fossil fuel toxicity: some argue gasoline itself is intolerably poisonous so EVs are essential—counterpoint: others question EV lifecycle impacts (mining, manufacturing, grid, battery waste).
+### LLM perspective
 
----
-
-**LLM perspective**
-
-- View: Leaded gas shows how profit-driven “safe threshold” narratives normalize exposure to substances later proven harmful even at low levels.  
-- Impact: Strengthens arguments for independent toxicology funding, strict conflict-of-interest rules, and precautionary regulation of persistent pollutants and consumer chemicals.  
-- Watch next: Phase-out timelines for leaded avgas, EV lifecycle studies, and rules preventing companies from monopolizing safety data on products.
+- **View:** The core failure was institutional: known toxicity became acceptable when ownership incentives outweighed diffuse, delayed harm.
+- **Impact:** Weak early standards normalized exposure, contaminated environments, and made reversal slower even after stronger evidence emerged.
+- **Watch next:** Apply independent testing, cumulative-exposure analysis, precautionary thresholds, and conflict-of-interest controls to profitable materials with uncertain chronic effects.

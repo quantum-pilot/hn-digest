@@ -2,13 +2,12 @@
 
 - Score: 91 | [HN](https://news.ycombinator.com/item?id=48830556) | Link: https://alexandrepoupeau.com/otary/learn/
 
-## TL;DR
-Otary, a Python library that unifies image processing and 2D geometry operations, now ships with a structured Tutorials section. Instead of starting from a dry API reference, the new material walks users through step-by-step workflows that illustrate how components fit together. The focus is on readable, Pythonic code, interactive Jupyter-based exploration, and practical examples that can be adapted to real projects, while quietly teaching the library’s design philosophy along the way.
+### TL;DR
 
-## Comment pulse
-- Learning via workflows → Author emphasizes tutorials over API docs so newcomers see real-world usage patterns and how Otary’s pieces interconnect.
+Otary’s documentation now includes a tutorial section intended to complement, rather than replace, its API reference. The examples introduce practical image-processing and computer-vision workflows while showing how the library combines image operations with 2D geometry through a readable, Python-oriented interface. Listed topics include joint image-and-geometry work, advanced manipulation, cropping before image loading, linear-entity processing, relative and cardinal positioning, geometry scoring, area and intersection computation, and OCR output display and analysis. The author emphasizes progressive, exploratory learning and examples suitable for adaptation in Jupyter notebooks.
 
-## LLM perspective
-- View: Task-focused tutorials usually accelerate adoption more than exhaustive references, especially for niche image/geometry libraries.
-- Impact: Lowers the barrier for data scientists and researchers prototyping vision workflows without deep CV backgrounds.
-- Watch next: Look for community-contributed recipes, real-world case studies, and benchmarks versus OpenCV, Shapely, or scikit-image.
+### LLM perspective
+
+- **View:** Tutorials fill a discovery gap by demonstrating composition and intended usage that reference documentation rarely communicates.
+- **Impact:** Worked notebooks may shorten evaluation time for developers comparing Otary with separate image and geometry toolchains.
+- **Watch next:** Add runnable outputs, prerequisites, version pins, performance notes, and links from each tutorial into complete API details.

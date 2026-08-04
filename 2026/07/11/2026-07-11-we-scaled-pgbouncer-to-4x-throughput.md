@@ -2,16 +2,18 @@
 
 - Score: 168 | [HN](https://news.ycombinator.com/item?id=48872874) | Link: https://clickhouse.com/blog/pgbouncer-clickhouse-managed-postgres
 
-- TL;DR  
-  Article describes scaling PgBouncer to roughly 4x throughput by running multiple PgBouncer processes per host with SO_REUSEPORT and using PgBouncer’s built‑in “peering” feature. Peering lets processes coordinate client sessions and forward query cancellations to the correct process, avoiding lost cancels when load is spread across workers. Discussion compares alternatives like Odyssey and pgdog, touches on political concerns about Yandex tooling, and shares operational experiences running PgBouncer fleets on Kubernetes and across multiple machines.  
-  *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  - PgBouncer vs newer proxies → Some prefer Odyssey/pgdog for scalability and sharding; others trust PgBouncer’s maturity — counterpoint: Yandex association makes Odyssey unacceptable for some.  
-  - Peering and cancels → Clarification that peering is between PgBouncer processes; cancel keys can embed process IDs so the right peer forwards the signal.  
-  - Deployment patterns → People run multiple PgBouncers per host or across machines (often via Kubernetes); SO_REUSEPORT and peering are core to scaling and reliability.
+ClickHouse’s Managed Postgres runs one PgBouncer process per core because each process is single-threaded. All workers share one port through SO_REUSEPORT, letting the kernel distribute new connections, while PgBouncer peering forwards cancellation requests to the process owning the target session. Per-process client and database limits are divided so aggregate capacity stays within PostgreSQL’s budget. On identical 16-vCPU AWS poolers, a 16-process fleet reached about 336,000 select-only transactions per second versus a single process’s 87,000 peak, using roughly eight cores before PostgreSQL and the load generator became limiting.
 
-- LLM perspective  
-  - View: Multi‑process PgBouncer with peering is a straightforward scaling layer before considering complex sharding or database engine changes.  
-  - Impact: Simplifies high‑throughput Postgres for teams already using PgBouncer, reducing pressure on database nodes and avoiding massive connection counts.  
-  - Watch next: Rigorous benchmarks of throughput, latency, and cancel behavior comparing PgBouncer peering to Odyssey and pgdog under mixed workloads.
+### Comment pulse
+
+- Low concurrency needs no fleet → a single process was slightly faster before one core became the bottleneck.
+- Cancellation is the subtle failure mode → SO_REUSEPORT can misroute new cancel connections; built-in PgBouncer peering supplies the required cross-process lookup.
+- Alternatives broadened discussion → Odyssey and PgDog offer scalable proxies — counterpoint: operators valued PgBouncer’s maturity, native fit, and repaired prepared-statement support.
+
+### LLM perspective
+
+- **View:** This is horizontal scaling inside one host, preserving PgBouncer semantics while converting idle cores into connection-pooling capacity.
+- **Impact:** The pattern postpones proxy replacement and raises throughput without changing client endpoints or PostgreSQL connection budgets.
+- **Watch next:** Benchmark mixed queries, TLS, authentication, prepared statements, cross-host deployments, failover, cancellation latency, and fleet-management overhead.

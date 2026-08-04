@@ -3,16 +3,17 @@
 - Score: 111 | [HN](https://news.ycombinator.com/item?id=48876441) | Link: https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm/
 
 ### TL;DR
-The discussion centers on frustration with being told “ask an LLM” when you’re really seeking a human’s experience and judgment. Commenters argue this is often a communication mismatch: the asker hasn’t clearly shown prior effort (including what Claude/GPT already said), or the responder is politely brushing them off or genuinely believes AI is now the best first research step. Several note that blindly relaying AI outputs in conversations or code reviews feels disrespectful and makes it impossible to gauge real understanding.
 
-*Content unavailable; summarizing from title/comments.*
+The writer is not rejecting LLMs; they object to experts reflexively redirecting unresolved questions to a model they already consulted. What they seek is judgment shaped by decades of failures and context—especially where studies conflict or generic recommendations miss nuance. They acknowledge that help costs time and that people may decline, but prefer an honest admission of being busy or not knowing. HN reframed the frustration as a communication failure: askers should disclose prior research and remaining uncertainty, while respondents should distinguish genuine tool advice from a polite refusal.
 
 ### Comment pulse
-- Show proof-of-work → State what you Googled/asked Claude, what answers you got, and why they’re unsatisfying; this both earns help and sharpens expert diagnosis.  
-- “Ask an LLM” varies → Sometimes it’s lazy dismissal, other times an experienced engineer’s genuine belief that LLM-assisted research is the logical next step.  
-- Raw AI replies damage trust → Copy-pasting LLM answers into discussions/PRs suggests shallow understanding and blocks real technical dialogue—counterpoint: used thoughtfully, LLMs can still augment human review.
+
+- Proof of work changes responses → explaining prior prompts, failed approaches, and residual doubts gives experts a narrower, more interesting problem.
+- Experience may still recommend AI → some veterans genuinely see model-assisted research as the correct next step, not a brush-off.
+- Copy-pasted answers erode collaboration → colleagues cannot assess understanding, accountability, or disagreement when humans merely relay model output.
 
 ### LLM perspective
-- View: Treat LLMs as your first-pass research assistant, but summarize and critique their output before involving humans.  
-- Impact: Mentorship and peer help shift from “answering from scratch” to “critiquing and contextualizing AI-derived options.”  
-- Watch next: Team norms on AI disclosure, tooling that tracks “what was AI-assisted,” and guidance on evaluating LLM answers in weak domains.
+
+- **View:** Human expertise adds value through situated judgment, not merely access to facts an assistant can reproduce.
+- **Impact:** Defaulting every question to AI weakens mentorship and hides whether someone lacks time, confidence, or interest.
+- **Watch next:** State what the model said, why it seems insufficient, and exactly which experiential judgment you need.

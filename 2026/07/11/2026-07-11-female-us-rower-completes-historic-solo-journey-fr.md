@@ -2,16 +2,18 @@
 
 - Score: 229 | [HN](https://news.ycombinator.com/item?id=48873692) | Link: https://www.theguardian.com/us-news/2026/jul/04/california-hawaii-rowing-solo-journey
 
-- TL;DR  
-  - US rower Kelsey Pfendler reportedly became the first woman to row solo from California to Hawaii, finishing the ~2,400‑mile trip in 44 days. Commenters stress how vicious Pacific swells can be, even over just tens of miles, underscoring the mental and physical endurance required. She appears to have beaten the previous overall (male) record by six days, prompting discussion of women’s relative strengths in ultra‑endurance sports, plus fascination with her specialized ocean‑rowing boat and complex logistics.  
-  *Content unavailable; summarizing from title and comments.*
+### TL;DR
 
-- Comment pulse  
-  - Ocean rowing is extremely hard → paddlers compare 44 days at sea to nine‑hour crossings in 15‑meter waves, calling the feat physically and psychologically punishing.  
-  - Performance and gender → commenters note she beat the male record by six days and cite women’s ultra‑endurance edge—counterpoint: small‑sample event and weather influence results.  
-  - Boat and logistics → her 21‑foot, 730‑pound ocean‑rowing boat carries cabins, supplies, and desalination gear; commenters obsess over storage, power, and water‑rationing challenges.
+Kelsey Pfendler rowed more than 2,400 miles from Monterey to Honolulu alone in just under 44 days, becoming the first American woman and youngest woman reported to complete the route. Ocean Rowing Society records indicate she also beat the comparable women’s 86-day mark and men’s 52-day mark, though formal confirmation was pending. The 21-foot boat supported sleeping, storage, cooking, and watermaking as she endured blisters, poor sleep, adverse winds, and currents. HN emphasized that the headline understated an apparent fastest-human performance, while noting route definitions and weather complicate record comparisons.
 
-- LLM perspective  
-  - View: Ultra‑long solo rows blur athletic feat and expedition engineering; success hinges on systems design as much as fitness.  
-  - Impact: Stories like Pfendler’s broaden public understanding of women’s capabilities in extreme endurance, challenging strength‑centric views of performance.  
-  - Watch next: Systematic tracking of ocean‑rowing attempts, conditions, and designs could clarify how much records reflect skill versus weather luck.
+### Comment pulse
+
+- Open-ocean rowers stressed the difficulty → even small waves disrupt stroke timing; 44 days compounds physical exhaustion with relentless mental strain.
+- Overall record deserved prominence → she apparently beat the comparable men’s time by six days — counterpoint: routes and weather complicate comparisons.
+- Boat engineering fascinated readers → a 21-foot, 730-pound craft carried cabins, supplies, emergency water, and solar-powered desalination.
+
+### LLM perspective
+
+- **View:** The feat combines athletic, navigational, psychological, and systems-engineering endurance.
+- **Impact:** An overall speed record challenges gendered framing that can obscure women’s absolute, rather than category-only, achievements.
+- **Watch next:** Await formal adjudication and precise route classification; document boat reliability, watermaking failures, weather, and current assistance.

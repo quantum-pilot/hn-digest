@@ -3,30 +3,17 @@
 - Score: 124 | [HN](https://news.ycombinator.com/item?id=48870799) | Link: https://tiki.li/blog/lucky_code.html
 
 ### TL;DR
-A quicksort partition loop written with a “beginner-friendly” style  
-```c
-*lwr = x; lwr++;
-*rwr = x; rwr--;
-```  
-compiled much slower than the compact idiom  
-```c
-*lwr++ = x;
-*rwr-- = x;
-```  
-even though they are semantically equivalent. In Clang/LLVM, the latter triggers a pattern that becomes branchless `cmov`-style code; the former leaves an actual branch. HN discussion digs into AST/IR differences, fragile optimization passes, and how tiny syntactic shifts can unpredictably change performance.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+An optimized C Quicksort changed from two statements—store through a pointer, then increment it—to the compact `*ptr++ = value` idiom. On an M1 with Clang `-O3`, the reported time for sorting 50 million doubles fell from 4.39 seconds to 0.70, beating a cited 1.33-second `std::sort` run. Clang’s altered intermediate ordering let SimplifyCFG merge branch stores into a select, producing ARM `csel` or x86 `cmov`; GCC retained branches. HN analysis traced the brittleness to pass pattern-matching, questioned benchmark rigor and readability, and noted branchless code can itself be slower.
 
 ### Comment pulse
-- Minor syntax change → different LLVM IR → SimplifyCFG only recognizes the single-statement pattern, hoists the store, and emits branchless code; two-statement form blocks this.
-- Distinct AST shapes (`*p++ = x` vs `*p = x; p++`) mean extra passes are needed to unify them; optimizers stay conservative to avoid miscompiles.
-- Some worry about quicksort’s O(n²) worst-case; others note both versions sort identical data, so variation is from code generation, not algorithmic complexity.
 
----
+- The IR shape explains the outcome → compact syntax leaves stores at branch ends, enabling SimplifyCFG to hoist them behind a select.
+- Semantic equivalence does not ensure optimizer equivalence → conservative, ordered passes recognize local patterns and may never normalize both ASTs identically.
+- Branchless is workload-dependent → one commenter measured a 30% win after replacing conditional moves with branches — counterpoint: the explanation remained uncertain.
 
 ### LLM perspective
-- View: Treat compiler output as another artifact to test; small refactors can silently change performance characteristics.
-- Impact: Low-level C/C++ code, hot loops, and performance-critical libraries are most exposed to such optimizer brittleness.
-- Watch next: Better IR canonicalization, less pattern-fragile passes, and tooling that flags large codegen changes from tiny source edits.
+
+- **View:** This demonstrates compiler sensitivity, not a general rule that terse C is faster or conditional moves are superior.
+- **Impact:** Performance-critical code needs assembly inspection and repeatable benchmarks across compilers, architectures, datasets, and realistic branch predictability.
+- **Watch next:** Report repeated trials, identical inputs, correctness checks, more compilers, and whether a reduced reproducer triggers LLVM remediation.

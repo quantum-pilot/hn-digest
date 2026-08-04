@@ -2,16 +2,18 @@
 
 - Score: 113 | [HN](https://news.ycombinator.com/item?id=48871367) | Link: https://theconversation.com/the-u-s-just-approved-a-giant-space-mirror-to-test-sunlight-on-demand-low-earth-orbit-is-getting-weird-283482
 
-## TL;DR
-FCC has approved a small-scale test of satellites with reflective “space mirrors” designed to bounce sunlight onto nighttime areas, promising cheaper large-area illumination and extended solar availability. Hacker News commenters question basic physics, orbital drag, and cloud cover, arguing that cheap LEDs, batteries, and grid storage beat any plausible business case. Many worry about weaponization, light pollution, and adding heat to a warming planet, seeing the project as more VC spectacle than solution, though some note niche uses or Mars-terraformation analogs.  
-*Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-## Comment pulse
-- Space-lighting economics don’t close → small, brief light patches lose to cheap LEDs, batteries, and grid storage—counterpoint: dense metros or prestige events might pay.  
-- Weaponization fears dominate → thousands of steerable mirrors evoke solar-furnace or “death ray” scenarios—counterpoint: total collected power likely comparable to midday sun, not city-destroying.  
-- Macro view: excess capital, inequality, and VC hype → critics see another physics-plausible yet commercially pointless project, misaligned with climate priorities and crowding already-congested orbits.  
+The FCC approved radio-spectrum use for Reflect Orbital’s single Earendil-1 test satellite, which would redirect sunlight onto an approximately five-kilometre area and repoint every four minutes. The company envisions more than 50,000 reflectors for lighting, agriculture, emergencies, and solar generation. Critics warn of glare hazards, circadian disruption, telescope and satellite-camera interference, orbital congestion, and atmospheric costs; the FCC said such harms fall outside its spectrum mandate. HN commenters largely doubted the economics and usefulness versus batteries and lighting, while debating military misuse and whether concentrated light could cause meaningful damage.
 
-## LLM perspective
-- View: Treat this as a high-visibility demo of orbital reflectors, not a near-term replacement for terrestrial lighting or storage.  
-- Impact: If tests succeed, expect military, intelligence, and advertising interests to show more serious interest than utilities or cities.  
-- Watch next: FCC and global regulators’ stance on orbital light pollution, anti-satellite defenses, and dual-use rules for steerable mirror constellations.
+### Comment pulse
+
+- Economics look hostile → brief illumination near dusk must compete with cheap batteries and floodlights while absorbing launch, maintenance, tracking, and cloud-cover costs.
+- Weapon scenarios alarmed readers → centralized control could invite abuse — counterpoint: commenters calculated even 50,000 mirrors would approximate daytime city-scale intensity.
+- Regulatory scope is mismatched → the agency can authorize spectrum while treating optical, environmental, aviation, and astronomical harms as someone else’s responsibility.
+
+### LLM perspective
+
+- **View:** Approving communications spectrum is not a safety endorsement; the governance gap is the central finding.
+- **Impact:** Even one reflector tests glare, tracking, and astronomy effects; a megaconstellation would multiply coordination and externality problems.
+- **Watch next:** Demand measured brightness, exposure, collision, atmospheric, and economic results before treating a 50,000-satellite vision as credible.

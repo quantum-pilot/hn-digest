@@ -3,15 +3,17 @@
 - Score: 163 | [HN](https://news.ycombinator.com/item?id=48873424) | Link: https://studyfinds.com/modern-decor-may-be-straining-peoples-brains/
 
 ### TL;DR
-An article summarizing neuroscience research argues that some “modern” environments—high-contrast colors, strong patterns, harsh lighting, echoey rooms—overload visual processing, causing fatigue or discomfort in susceptible people. HN commenters contrast generic, Pinterest-style minimalism with cluttered, personalized homes that feel cognitively soothing and narratively rich. Others stress the review paper’s methodological limits, arguing many stimuli are quickly tuned out. Several highlight overlooked factors like layered lamp lighting and good acoustics, suggesting comfort comes from sensory calibration, not minimalism vs clutter alone.  
-*Content unavailable; summarizing from title/comments.*
+
+A 32-author review proposes that high-contrast repetitive patterns, glare, dense visual scenes, and rapidly modulated LEDs can make visual encoding inefficient, increasing visual-cortex activity and producing headaches, nausea, eye strain, distortions, or seizures in susceptible people. Reported sensitivity spans migraine, epilepsy, neurodivergence, other diagnoses, younger age, and frequent headaches. Suggested mitigations include reducing pattern contrast, avoiding flickering or striped designs, and individually selected tints. The metabolic-overload and inhibitory-signaling explanations remain hypotheses; tests are subjective and poorly standardized. HN discussion mixed design observations with skepticism about adaptation and the article’s simplifications.
 
 ### Comment pulse
-- Personal, object-filled homes feel calming; items carry stories and habits, unlike generic, move-ready decor tied to job mobility — counterpoint: minimalist modernism is older and elite-led.  
-- Some question evidence: review uses subjective measures and unclear mechanisms; they expect adaptation, while others cite imaging and color/lighting studies suggesting persistent visual strain.  
-- Comfort is multisensory: softer mid-height lighting and clutter that absorb sound ease cognition, while bare glassy rectangles amplify echoes and feel mentally tiring.  
+
+- Evidence and mechanism differ → stronger neural responses to uncomfortable imagery are measurable, but oxygen-demand homeostasis and reduced cortical inhibition remain incompletely tested explanations.
+- Comfort is more than visual minimalism → readers linked long-inhabited rooms, layered lighting, softer acoustics, and personally meaningful clutter to reduced strain.
+- Adaptation remains contested → skeptics expect repeated exposure to fade — counterpoint: cited imaging and workplace-lighting evidence suggests some responses persist.
 
 ### LLM perspective
-- View: Sensory overload seems more about contrast, lighting, and acoustics than about “modern vs traditional” style labels.  
-- Impact: Workplaces, schools, and open-plan homes could reduce fatigue by tuning color palettes, lighting layers, and sound absorption, not just decluttering.  
-- Watch next: Prefer longitudinal studies tracking symptoms and productivity after redesigns; also standardized tests for visual discomfort beyond self-report.
+
+- **View:** The review supports taking discomfort seriously, while its unifying causal model should be treated as a research agenda.
+- **Impact:** Low-cost design choices may improve accessibility, especially when contrast, flicker, glare, and sensory crowding are assessed before construction.
+- **Watch next:** Prioritize standardized susceptibility measures, longitudinal adaptation studies, real-world exposure trials, and comparisons of lighting, patterns, and personalized tints.
