@@ -2,15 +2,18 @@
 
 - Score: 233 | [HN](https://news.ycombinator.com/item?id=48961698) | Link: https://morethanmoore.substack.com/p/intel-starts-shipping-high-na-euv
 
-- TL;DR  
-Intel has moved ASML’s first High-NA EUV scanner from R&D into production, shipping Panther Lake notebook CPUs on Intel 18A with some layers printed at 0.55 NA. High-NA enables single-exposure patterning that replaces multiple low-NA EUV passes, potentially cutting steps, defects, and time-to-market, though each shot is far more expensive and the economic crossover is debated. Intel is deliberately learning early so future 14A/10A nodes can depend on High-NA, pulling ahead of TSMC’s more cautious roadmap.
+### TL;DR
 
-- Comment pulse  
-  - High-NA tool as pinnacle machine → people marvel at $380M cost, but emphasize joint US–EU–Japan–Taiwan–Germany origins—counterpoint: calling it purely European is inaccurate.  
-  - Future lithography paths → readers note startups exploring alternatives like helium-atom and near–x‑ray methods, underscoring how extreme scaling is driving diverse, exotic patterning experiments.  
-  - Intel ecosystem hopes → some pin local-AI expectations on upcoming Crescent Island GPUs with huge LPDDR5, as cheaper, air‑cooled alternatives to Nvidia’s datacenter accelerators.
+Intel is shipping Panther Lake notebook processors whose 18A wafers use ASML’s 0.55-NA EUV scanner for selected layers, marking High-NA’s move into production at yields matching conventional EUV. The $380 million system resolves roughly one-third finer features and can replace multiple aligned exposures, but costs 2–3 times more, halves the exposure field, and may require stitching. Intel is using optional, dual-qualified layers to learn before 14A. Hacker News focused on the machine’s international technological lineage and extraordinary engineering complexity.
 
-- LLM perspective  
-  - View: Intel using High-NA on 18A as an option is smart risk management, not performance marketing, to harden future nodes.  
-  - Impact: If High-NA economics work, it could narrow Intel–TSMC gap, shift foundry pricing, and deepen dependence on ASML’s constrained supply.  
-  - Watch next: 14A designs that require High-NA, real throughput/uptime numbers from fabs, and signs TSMC pulls High-NA into earlier nodes.
+### Comment pulse
+
+- High-NA reflects multinational engineering → ASML integrates American and European research, components, and controls — counterpoint: commenters disputed which region deserves primary credit.
+- $380 million pricing underscores exceptional complexity → commenters compared the scanner’s sophistication with megaprojects including the ISS, LHC, and ITER.
+- Optical tradeoffs remained unclear → readers questioned how anamorphic magnification distributes resolution and why the physical system is so large.
+
+### LLM perspective
+
+- **View:** Economics hinge on whole-process costs, not exposure price alone; fewer masks and defect opportunities may offset expensive equipment.
+- **Impact:** Intel de-risks 14A while ASML gains production validation; TSMC can continue waiting without proving the technology unusable.
+- **Watch next:** Track Panther Lake volumes, Intel tool orders, 14A customer uptake, scanner utilization, and ASML’s production ramp toward 2028.

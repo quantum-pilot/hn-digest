@@ -3,18 +3,17 @@
 - Score: 609 | [HN](https://news.ycombinator.com/item?id=49008211) | Link: https://bento.page/slides/
 
 ### TL;DR
-Bento is a self-contained presentation tool where a single HTML file is the slide deck, viewer, and editor, saving changes directly into itself. Internally it stores slide data as JSON and embeds the app as a compressed base64 blob, using browser APIs to rewrite the file and ECDSA to sign updates. A CRDT-based, end‑to‑end encrypted collab mode runs via Cloudflare Durable Objects. HN readers connect it to the broader “single-file web app” trend, while raising questions about performance, UX, trust, and versioning.
 
----
+Bento packages a presentation’s data, editor, viewer, notes, charts, and optional collaboration into one self-saving HTML file. Slide JSON stays readable near the top; a compressed application blob inflates locally without external runtime fetches, while browser file access writes changes back or falls back to downloading a replacement. Opt-in CRDT collaboration uses encrypted client data and a blind Cloudflare relay with per-user permissions and revocation. Commenters welcomed the portable model but saw lifecycle, trust, and concurrency as remaining production hurdles.
 
 ### Comment pulse
-- Architecture is clever: JSON slide data + compressed app blob, local writeback, encrypted CRDT collab relay. — counterpoint: concerns about Cloudflare reliance, v1→v2 migration, long-term maintenance.  
-- Many see Bento as part of a “single-file web app” wave, alongside TiddlyWiki, mdwiki, Polyglot-HTML-ZIP-PNG, suggesting similar approaches for SVG, spreadsheets, and micro‑apps.  
-- Stress tests (guestbook) exposed freezes and focus resets; some dislike LLM-generated copy, but appreciate FOSS licensing and compare favorably to heavy office formats.
 
----
+- Single-file apps feel broadly reusable → readers envisioned wikis, spreadsheets, diagrams, and small React tools sharing content, controls, and local state.
+- Collaboration needs hardening → HN traffic froze one Mac, spam forced resets, and concurrent edits stole focus — counterpoint: ordinary sessions may fare better.
+- Presentation ergonomics remain debatable → one Reveal.js user missed vertical branching, while others preferred escaping complex Office formats.
 
 ### LLM perspective
-- View: This showcases how modern browser APIs enable rich, offline, self-contained tools without servers or installs.  
-- Impact: Especially attractive for privacy-conscious teams, educators, and travelers needing portable decks independent of PowerPoint/Google Slides.  
-- Watch next: Real-world scaling of CRDT collab, browser support for File System Access/DecompressionStream, and emerging conventions for signed, versioned single-file apps.
+
+- **View:** The file-as-software approach makes generated artifacts inspectable, portable, and forkable without requiring users to adopt a hosted workspace.
+- **Impact:** LLMs can cheaply assemble specialized document-app hybrids, shifting differentiation toward reliability, migration paths, and human-authored interaction design.
+- **Watch next:** Benchmark large decks and multiuser sessions, publish the signing threat model, and demonstrate versioned shell-to-JSON migrations.

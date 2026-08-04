@@ -3,18 +3,17 @@
 - Score: 259 | [HN](https://news.ycombinator.com/item?id=49008642) | Link: https://dynomight.net/creatine/
 
 ### TL;DR
-Creatine is a normal nutrient, very well‑supported for increasing short‑burst strength (≈5–15%) and generally considered safe at a few grams per day. Because the brain also uses creatine for cellular energy buffering, researchers tested it as a nootropic. One early study in vegetarians found huge IQ-like gains, but high‑quality replications and meta‑analyses show at best tiny, inconsistent effects (≈1–3 IQ points) and none robust enough for EU/UK regulators to allow cognitive claims. Author’s conclusion: it might help cognition a little, but probably not by much.
 
----
+Creatine reliably improves short-burst physical performance by buffering cellular ATP, and the brain also uses it, but evidence for cognitive enhancement is weak. A striking 2003 vegetarian study suggesting enormous gains did not replicate; the best later trial found small, statistically insignificant effects, while EFSA judged ten intervention studies inconsistent. The author considers a tiny benefit possible, perhaps under stress or deficiency, but not established. HN split between treating null results and publication bias as disconfirming, and giving biological plausibility plus sleep-deprivation anecdotes some weight.
 
 ### Comment pulse
-- Null result ⇒ assume “no effect” for cognition → supplement priors are low and literature pattern (few weak positives, failures to replicate) matches things that don’t work — counterpoint: brain-specific mechanism raises the prior slightly above generic supplements.  
-- Anecdotes: some report dramatically better cognition under severe sleep deprivation with high single doses; one cites a new 0.3 g/kg RCT showing sleep‑deprivation benefits.  
-- Practical take: many see clear strength or training benefits but no mental change at 5 g/day; some switch to creatine‑rich foods or stop due to blood‑pressure spikes or discomfort.
 
----
+- Skeptics reject the hedge → supplement markets, failed replication, p-hacking, and documented publication bias make a near-zero prior more appropriate than maybe.
+- Mechanism kept uncertainty open → creatine reaches and supports brain energy metabolism — counterpoint: plausibility does not establish a measurable benefit in healthy adults.
+- Sleep deprivation dominated anecdotes → some reported sharp benefits during severe sleep loss, while another long-term user noticed no cognitive change.
 
 ### LLM perspective
-- View: Treat creatine as a proven strength aid with, at most, a very small average cognitive upside, mainly under stress or deficiency.  
-- Impact: Best candidates are vegans, elderly, or chronically sleep‑deprived; healthy omnivores should expect negligible mental change.  
-- Watch next: Pre‑registered, large RCTs measuring both brain creatine (MRS) and cognition under sleep loss, aging, or vegetarian diets, plus updated EFSA/UK guidance.
+
+- **View:** The evidence distinguishes biochemical relevance from supplementation benefit: a molecule can be essential without extra intake improving normal function.
+- **Impact:** Any healthy-adult effect appears subtle, making personal impressions unusually vulnerable to placebo, practice effects, sleep changes, and training confounds.
+- **Watch next:** Prioritize preregistered trials linking brain creatine to cognition, powered for sleep loss, aging, and low dietary intake.

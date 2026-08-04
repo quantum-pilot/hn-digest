@@ -2,19 +2,18 @@
 
 - Score: 233 | [HN](https://news.ycombinator.com/item?id=49013036) | Link: https://citizendot.github.io/articles/fake-job-interview-git-hook-malware/
 
-## TL;DR
-A fake recruiter offered an unusually high-paid Python “contract-to-hire” role, then sent a FastAPI take-home test. The repo looked normal until a hidden `.git/hooks/pre-commit` script appeared: it fetched OS-specific payloads from a hard-coded IP, installed a secondary Bash script, then Node, then an obfuscated `parser.js` plus a Hardhat-based toolchain likely aimed at stealing crypto or other sensitive tokens. Variants hide triggers in `.vscode` launch configs. The project itself was a cloned OSS repo; only the hidden malware was custom. Lesson: never blindly run git hooks or open unknown projects in your editor.
+### TL;DR
 
----
+A supposed recruiter offered a lucrative Python role and sent a polished take-home project based on an innocent public FastAPI repository. Its visible dependencies were clean, but the included `.git` directory contained hooks that silently fetched OS-specific remote payloads when candidates ran Git commands. Later stages installed tooling and launched an obfuscated Node script with candidate-specific identifiers, apparently targeting tokens or cryptocurrency assets; related campaigns hide execution commands in `.vscode`. HN readers reported similar compromises and focused on workspace trust, overlooked hidden files, and the limits of safety-filtered malware analysis.
 
-## Comment pulse
-- Others report similar “interview” repos with malware → sophisticated social engineering, sometimes likely targeted at maintainers of popular packages.
-- Malware-embedded take-home projects are now recurring → git hooks and dev tooling are underappreciated attack surfaces — counterpoint: few devs expect `git commit` itself to be dangerous.
-- VSCode workspace trust blocks such launch configs, but UX is weak → users often click through without understanding that “trust” may execute arbitrary commands.
+### Comment pulse
 
----
+- The campaign may target high-value developers → one commenter found malware after a credible CTO interview and suspected selection through a 43-million-download NPM package.
+- Trust prompts help only when noticed → VS Code blocks workspace execution after rejection — counterpoint: commenters said the warning rarely communicates the exact command.
+- Automated analysis was inconsistent → Claude refused the obfuscated script while Gemini explained it, frustrating readers who needed defensive inspection.
 
-## LLM perspective
-- View: LLMs can help reverse-engineer obfuscated payloads, but safety filters can also block useful defensive analysis.
-- Impact: Developers, recruiters, and OSS maintainers must treat interview codebases like untrusted binaries, not neutral homework.
-- Watch next: Better defaults in git/IDEs (hook warnings, trust prompts) and platform guidelines for secure technical-interview workflows.
+### LLM perspective
+
+- **View:** The assessment was the exploit delivery mechanism: plausible work requirements ensured victims executed repository-controlled behavior themselves.
+- **Impact:** Developers handling unfamiliar interview code need the same isolation and provenance checks used for untrusted production dependencies.
+- **Watch next:** Track recruiter identities, payload infrastructure, credential theft, wallet indicators, and IDE or Git warnings exposing automatic execution.

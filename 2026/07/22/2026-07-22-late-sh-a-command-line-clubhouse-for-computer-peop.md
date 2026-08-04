@@ -2,19 +2,18 @@
 
 - Score: 306 | [HN](https://news.ycombinator.com/item?id=49001127) | Link: https://late.sh/
 
-- TL;DR  
-late.sh is a terminal-based “clubhouse” you join via ssh, using your SSH key as identity instead of logins. Inside is a TUI with chat, shared ASCII artboard, radio, games, and work profiles. An optional companion CLI handles local audio, voice, and media. The project emphasizes privacy (only key fingerprints, no IP logs) and suggests throwaway keys for anonymity. HN readers like the concept and old-internet vibe, but raise concerns about default usernames, curl-piped installers, and publishing server fingerprints.
+### TL;DR
 
-- Comment pulse  
-Identity via SSH username → work accounts may reveal real names; advice: use pseudonymous user@, new key, publish fingerprints — counterpoint: backend stores only fingerprints.  
+Late.sh is a terminal-based social clubhouse reached with a normal SSH client. It combines live chat, radio, games, shared ASCII art, news, challenges, and work profiles; an optional companion adds local audio, voice rooms, YouTube, and image pasting. Identity comes from an SSH-key fingerprint rather than passwords or OAuth, with a documented throwaway-key option. Hacker News liked the nostalgic, low-friction format but flagged default usernames, unpublished host-key verification, and a curl-to-shell installer as security and consent pitfalls.
 
-Install and companion CLI → people like SSH-only access but want clearer docs on companion features; curl|bash without prominent repo link feels risky and opaque.  
+### Comment pulse
 
-Vibe and UX → compared to tilde.town/BBSs; theming, artboard, radio, and games create a cozy, nostalgic hacker hangout.  
+- Username privacy needs explicit warning → SSH may expose a work machine’s full-name account — counterpoint: choose a pseudonymous user and disposable key.
+- Operational trust needs work → users requested a published host fingerprint and objected to curl-to-shell installation despite source-inspection alternatives.
+- The concept rekindles old-web community appeal → SSH-only access, selectable themes, and shared spaces recalled tilde communities without browser-platform overhead.
 
-- LLM perspective  
-View → Novel example of SSH-as-social-platform, blending minimal accounts with rich multiuser features and media via a companion client.  
+### LLM perspective
 
-Impact → Could inspire more privacy-preserving, low-bandwidth communities for developers, students, and regions with poor browsers or locked-down environments.  
-
-Watch next → Document host keys, moderation, backups, and scaling plans so trust and usability hold if community grows quickly.
+- **View:** SSH is the product’s differentiator and its sharp edge: familiar protocol defaults become visible social-account decisions.
+- **Impact:** Terminal-native communities gain an unusually portable interface, while maintainers inherit identity, moderation, persistence, and client-security responsibilities.
+- **Watch next:** Publish host-key fingerprints, clarify username derivation before login, harden installer guidance, and test planned screen sharing across platforms.

@@ -2,19 +2,18 @@
 
 - Score: 221 | [HN](https://news.ycombinator.com/item?id=48969200) | Link: https://hashcloak.com/blog/tutorial-introduction-to-formal-verification-with-lean-(part-1)
 
-## TL;DR
-This tutorial walks cryptography engineers through using Lean 4 as a proof assistant by fully formalizing the one-time pad as a Shannon cipher. It introduces Lean basics (`#eval`, `Vector`, `ZMod 2`), defines length-indexed `BitString`s, then proves core XOR properties (commutativity, associativity, identity, self‑inverse). These lemmas support a `ShannonCipher` structure and a correctness proof that OTP decryption inverts encryption. An epilogue ties formal verification to blockchain work, while HN comments surface more Lean resources, debate tactics vs explicit proofs, and discuss Lean+LLM synergies.
+### TL;DR
 
----
+This beginner-oriented walkthrough uses Lean 4 to formalize a one-time pad from first principles. It models fixed-length bitstrings as vectors over ZMod 2, defines XOR componentwise, and proves commutativity, associativity, identity, and self-inverse properties before packaging encryption, decryption, and correctness in a generic ShannonCipher structure. The final proof shows decrypting XOR-based encryption returns the message. Along the way, it teaches dependent types, lambdas, structures, InfoView, simplification, extensionality, and tactics, while acknowledging that verified models can still diverge from compiled implementations.
 
-## Comment pulse
-- Beginner onramps to Lean → links to syntax primers, intuition about axioms, Natural Numbers Game, and “Little Prover/Little Typer” as complementary proof-thinking resources.  
-- Tactic-based proofs seen as both opaque and essential → automation hides boilerplate, improves maintainability; Lean still allows explicit proof objects — counterpoint: some doubt this means tactics “won” beyond HN.  
-- Lean, compilers, and AI → commenters foresee Lean-like languages plus LLMs for efficient, verified code; cite Vitalik’s “vibe-coding” and OpenATP using LLMs as provers.
+### Comment pulse
 
----
+- Lean’s onboarding ecosystem drew praise → commenters repeatedly recommended the Natural Number Game and concise primers for building dependent-type intuition.
+- Tactics appear central to Lean’s appeal → they hide routine steps and improve maintenance — counterpoint: explicit proof objects reveal more to readers.
+- LLM-assisted verified programming looks promising → machine-checked invariants can constrain generated code, with commenters already benchmarking automated provers.
 
-## LLM perspective
-- View: Tutorials that mirror standard texts (like Boneh–Shoup) are ideal scaffolds for AI-assisted formalization of real cryptographic protocols.  
-- Impact: Lowers the barrier for practitioners to adopt proof assistants, especially in blockchain, where protocol mistakes are costly.  
-- Watch next: Benchmarks of LLMs inside ATP harnesses, Lean-specific proof agents, and more end-to-end verified zkVM / circuit implementations.
+### LLM perspective
+
+- **View:** Lean offers an unusually strong feedback loop for LLMs because every proposed proof is mechanically checked.
+- **Impact:** Models can automate tedious proof search while humans retain control over specifications, abstractions, and trust boundaries.
+- **Watch next:** Whether AI-generated proofs remain readable and robust as formalized systems move beyond toy cryptographic constructions.

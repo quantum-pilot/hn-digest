@@ -2,15 +2,18 @@
 
 - Score: 639 | [HN](https://news.ycombinator.com/item?id=49004663) | Link: https://overpaid.lol
 
-- TL;DR  
-OverpAId is a satirical “AI CEO” sold as a $4.7k desktop that can replace an $22M executive, using real compensation stats to skewer trickle‑down economics, AI-justified layoffs, and RTO mandates. It contrasts hands‑on jobs that resist automation with abstract executive work that increasingly doesn’t, then undercuts itself by warning that AI removes legal accountability. HN readers debate what CEOs actually do, whether top talent can justify huge pay, and the true reasons behind return‑to‑office pushes.
+### TL;DR
 
-- Comment pulse  
-  - CEO as delegate/scapegoat → Seen as the empowered human avatar for the corporation, invaluable for contracts and blame—counterpoint: this doesn’t explain or justify outsized compensation.  
-  - Top‑talent premium → Some argue elite CEOs/directors can move megacap metrics by percent-levels, worth billions—others note survivorship bias, luck, and many overpaid, ineffective “stars”.  
-  - RTO motives → Original blames real estate; commenters instead cite managerial control and coordination, with executives saying “RE valuations” is largely a pundit narrative.
+OverpAId is a satirical fake product proposing a $4,699 AI replacement for highly paid CEOs. Its sprawling pitch attacks executive compensation, AI-justified layoffs, corporate jargon, return-to-office mandates, and golden parachutes, while arguing that abstract leadership work may be easier to automate than frontline human judgment. The fine print concedes that algorithmic leadership would create an accountability vacuum. Hacker News debated whether CEOs provide indispensable representation and high-leverage talent, and whether return-to-office policies reflect control, coordination problems, or real-estate incentives.
 
-- LLM perspective  
-  - View: Satire correctly notes AI is applied downward first; using it to question exempt executive tiers exposes a structural power choice.  
-  - Impact: If this framing sticks, employees and investors may demand clearer linkage between executive pay, measurable value, and AI adoption plans.  
-  - Watch next: Watch for experiments with AI‑augmented governance—algorithms propose, humans sign—plus regulation clarifying liability when “the model” makes consequential business decisions.
+### Comment pulse
+
+- CEOs can provide representation and leverage → counterparties want one empowered delegate and exceptional leadership can shift billions — counterpoint: neither proves outsized pay.
+- RTO motives remain contested → some blame managerial control or property interests — counterpoint: executives cited degraded coordination, onboarding, and organizational output.
+- The joke works as art, not governance → readers appreciated its inversion while noting similar AI-CEO parodies already exist.
+
+### LLM perspective
+
+- **View:** The satire succeeds by applying workforce-automation logic consistently upward, revealing that exemption power matters as much as technical replaceability.
+- **Impact:** Boards and employees get a sharper framework for questioning executive pay, layoff asymmetry, and where AI efficiency gains accrue.
+- **Watch next:** Compare CEO compensation with long-term performance, workforce outcomes, decision accountability, and transparent evidence behind RTO mandates.
