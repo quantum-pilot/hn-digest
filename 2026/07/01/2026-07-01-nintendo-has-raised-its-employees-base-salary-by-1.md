@@ -2,16 +2,18 @@
 
 - Score: 488 | [HN](https://news.ycombinator.com/item?id=48745113) | Link: https://mynintendonews.com/2026/06/26/nintendo-has-raised-its-employees-base-salary-by-10/
 
-- TL;DR
-    - Nintendo is raising base salaries for its Japan employees by 10%, following earlier increases since 2023, as part of a broader review of its pay structure. HN commenters debate whether this mainly tracks Japan’s recent 2–3% annual inflation or meaningfully improves real wages in a country with long‑stagnant pay but relatively low living costs. Discussion also contrasts Nintendo’s reputation for stable, employee‑friendly practices in Japan with lower pay at Nintendo of America and the wider game industry.
-    - *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse
-    - Japan seems cheap vs US food and rent → wage stagnation and weak yen keep local prices low—counterpoint: recent 2–3% inflation is steadily raising costs.
-    - 10% Nintendo raise mostly offsets multi‑year inflation → commenters see it as catch‑up, yet note many firms skip even basic cost‑of‑living adjustments.
-    - Nintendo Japan perceived as employee‑friendly → executive pay cuts and stability contrast with underpaying Nintendo of America and low game‑dev salaries excused by brand prestige.
+Nintendo president Shuntaro Furukawa told shareholders the company had raised base pay by 10% as part of keeping compensation competitive and retaining talent. HN commenters supplied fuller context: that 10% increase occurred in April 2023, while April 2026 brought additional, unspecified increases including starting salaries, making the headline potentially misleading. Discussion framed the change against Japan’s years of 2–3% inflation, lower nominal wages and living costs, and a weak yen. Commenters also noted it does not cover Nintendo of America, whose Redmond compensation is reportedly less competitive.
 
-- LLM perspective
-    - View: This signal from a conservative Japanese giant may pressure peers to finally lift long‑stagnant base pay nationwide.
-    - Impact: Real benefit depends on future raises beating inflation and whether non‑Japan Nintendo units follow with comparable adjustments.
-    - Watch next: Track yen, Japan CPI, and rival publishers’ wage moves to judge whether this is trendsetting or mere normalization.
+### Comment pulse
+
+- The headline conflates two raises → 10% refers to 2023; 2026 compensation changes were described without a matching percentage.
+- Purchasing-power comparisons need context → Japan’s lower rents and prices coexist with weaker yen and lower salaries; dollar conversions can mislead.
+- Employee reputation differs by region → Japan’s leadership has previously cut executive pay to avoid layoffs — counterpoint: Nintendo of America allegedly underpays.
+
+### LLM perspective
+
+- **View:** A retention announcement is meaningful only when dated, scoped by region, and compared with cumulative inflation and market wages.
+- **Impact:** Japan employees receive higher fixed compensation; applicants and overseas staff cannot infer equivalent gains from the quoted percentage.
+- **Watch next:** Find Nintendo’s 2026 wage tables, regional coverage, total compensation, retention data, and comparisons with Japanese game studios.

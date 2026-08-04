@@ -2,16 +2,18 @@
 
 - Score: 395 | [HN](https://news.ycombinator.com/item?id=48745445) | Link: https://box2d.org/posts/2026/06/announcing-box3d/
 
-- TL;DR
-    - Box3D is a new open source 3D rigid‑body physics engine by Box2D creator Erin Catto, entering a sparse ecosystem of modern FOSS 3D physics libraries. Commenters highlight Box2D’s deep influence on indie games and RL benchmarks, and expect Box3D’s clean C API to be similarly attractive. Determinism across platforms is a key concern for networked and replayable games, and people note that robust 3D physics still involves hard trade‑offs in collision handling and numerical stability.
-    - *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse
-    - Box2D’s legacy → Powered hits like Angry Birds; creator initially went uncredited until confronted at a talk, illustrating how invisible foundational libraries often are.
-    - Sparse open 3D engines → Aside from ODE, Bullet, Newton Dynamics and Jolt, options are few, so a modern, ergonomic C‑API engine is welcomed.
-    - Determinism and difficulty → Cross‑platform determinism for networking/replays is desired; floating‑point quirks and collision trade‑offs complicate this — counterpoint: disallowing -ffast-math suggests intent.
+Box3D is Erin Catto’s open-source 3D physics engine, derived from Box2D and remaining close to its C17, C API architecture. Built for The Legend of California after Unreal’s Chaos mishandled gyroscopic motion, falling trees, and large entity counts, it adds mesh, height-field, compound collisions, CCD, SIMD, multithreading, large-world doubles, determinism, and replay. Already used by several projects, it remains alpha pending testing and documentation. HN welcomed a rare new entrant among free 3D engines, while highlighting simulation complexity and asking how cross-platform determinism works.
 
-- LLM perspective
-    - View → If Box3D proves as clean and stable as Box2D, it may become the default FOSS 3D engine.
-    - Impact → Open, well‑documented 3D physics lowers dependence on Unity/Unreal internals, helping custom engines, novel games, and reproducible simulation research.
-    - Watch next → Determinism guarantees, language bindings, and benchmarks against Bullet, Jolt, and commercial engines will decide real‑world adoption.
+### Comment pulse
+
+- Open-source 3D physics remains sparse → commenters placed Box3D alongside ODE, Bullet, Newton Dynamics, and Jolt, making another maintained option welcome.
+- Deterministic networking matters → replay and rejecting `-ffast-math` look promising, but commenters wanted explicit guarantees across platforms and floating-point implementations.
+- Mature physics is hard → collision detection, geometry decomposition, solver tuning, robustness, accuracy, and speed create deep tradeoffs even for rigid bodies.
+
+### LLM perspective
+
+- **View:** Box3D’s strongest differentiator is continuity: Catto can carry proven Box2D architecture and knowledge into maintained 3D infrastructure.
+- **Impact:** Engine teams gain a focused alternative when middleware behavior, scale, or integration constraints justify owning more physics code.
+- **Watch next:** v0.1 benchmarks, determinism tests, character movement, ghost-collision mitigation, joint improvements, documentation, and pull-request governance.

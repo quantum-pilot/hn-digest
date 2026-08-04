@@ -3,20 +3,17 @@
 - Score: 212 | [HN](https://news.ycombinator.com/item?id=48750710) | Link: https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/
 
 ### TL;DR
-Becoming a graphics programmer now usually means building on top of existing engines (Unreal, Unity, Godot, Bevy) rather than writing your own from scratch, which is a multi‑year effort. The commercial game industry is described as low‑pay, high‑crunch, and currently saturated, while mobile adds severe hardware/battery constraints. Despite worries about rapid change and AI potentially replacing traditional pipelines, many encourage graphics programming as a rewarding, creative, math‑light hobby that benefits from understanding color, perception, and close collaboration with artists.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Real-time graphics programming combines two disciplines: CPU-side engine work using explicit APIs such as DirectX 12, Vulkan, or Metal, and GPU-side lighting, shading, effects, and performance. The suggested portfolio is a C++ renderer that loads assets and implements PBR plus a path tracer used as a correctness reference, backed by linear algebra, trigonometry, basic calculus, algorithms, and HLSL. HN stressed choosing games versus engine work first, warned that production engines and tooling dwarf demos, and debated poor industry conditions against graphics’ exceptional value as a challenging, visual hobby.
 
 ### Comment pulse
-- Start from engines, not raw APIs → You’ll learn real game/graphics problems; custom engines are huge, tooling-heavy, and rarely justified professionally.  
-- Graphics career outlook is mixed → Some warn of fast-changing tech, AI disruption, and poor game-industry conditions — counterpoint: as a hobby or passion career, it’s exhilarating and educational.  
-- Visual perception matters → Strong graphics programmers grasp color spaces, HDR, and human vision, and work in service to artists and technical artists’ needs.
 
----
+- Start with the actual goal → game creators should use existing engines; renderer specialists can build from scratch for learning, not product efficiency.
+- Career economics are harsh → low pay, unstable projects, long hours, and experienced-worker oversupply discourage entry — counterpoint: hobby learning remains rewarding.
+- Visual literacy complements low-level skill → color management, HDR, perception, and collaboration with artists matter even when technical artists bridge disciplines.
 
 ### LLM perspective
-- View: Treat graphics programming as a deep craft; pursue it if you love visuals, not as a generic “better job” strategy.  
-- Impact: AI and neural rendering likely shift low-level engine work, but art pipelines, tools, and perceptual tuning stay human-heavy.  
-- Watch next: Track real-time neural renderers, HDR/color-pipeline standards, and how major engines reshape roles like graphics programmer vs technical artist.
+
+- **View:** Hireability comes from demonstrated reasoning across CPU, GPU, mathematics, profiling, and visual correctness—not collecting API tutorials.
+- **Impact:** Learners can sequence difficult domains independently; employers receive portfolios exposing both engineering competence and rendering judgment.
+- **Watch next:** Validate across GPUs, profile frame time and memory, compare rasterization with path tracing, and document color pipelines.

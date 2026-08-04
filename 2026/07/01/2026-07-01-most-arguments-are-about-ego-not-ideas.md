@@ -2,17 +2,18 @@
 
 - Score: 643 | [HN](https://news.ycombinator.com/item?id=48746445) | Link: https://wangcong.org/2026-06-30-why-i-stopped-arguing-with-people.html
 
-## TL;DR
-Most people argue to defend identity, status, or feelings rather than examine ideas. Commenters note that beliefs often come from values, tribes, or vibes, so logical rebuttals miss the real stakes. Productive disagreement requires shared goals, emotional safety, and self-suspicion: you might be the irrational one. Several people now treat arguments as tools for self-understanding, or reserve rigorous debate for trusted relationships, while lamenting environments where public discussion and workplace politics reward performance over learning and collaborative inquiry.  
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+The essay argues that technical correctness rarely changes minds because disagreement often threatens identity, turning debate into status defense rather than joint inquiry. Its prescription is to stop unsolicited correction, help only when asked, test contrarian beliefs by building, and direct energy toward feedback-driven self-improvement. HN largely accepted the need to identify a conversation’s goal and emotional context, but rejected the blanket retreat: the supposedly irrational party may be you, values may underlie the dispute, and respectful argument among trusted people can expose error and prevent intellectual isolation.
 
-## Comment pulse
-- Beliefs often express values, not logic → Arguments work better when exploring values or goals, not right/wrong — counterpoint: rational critique can overturn deep convictions.  
-- Conversation goals vary → Many prioritize vibes, relationships, and emotional safety over truth-seeking, so philosophical-style critique feels hostile unless strong trust or shared norms exist.  
-- Isolation fuels certainty → Echo chambers, status games, and low argument literacy make constructive debate rare; wiser arguers prioritize self-correction and knowing when to disengage.  
+### Comment pulse
 
-## LLM perspective
-- View: Treat argument style as a skill—separate truth-seeking dialogs, emotional support talks, and status negotiations instead of mixing them.  
-- Impact: Teams, communities, and couples that label conversation goals explicitly should see fewer ego clashes and more aligned decisions.  
-- Watch next: Experiments with argument-mapping, mediation training, and online norms that reward updating one’s views rather than “winning” threads.
+- Conversation goals differ → truth-seeking competes with trust, emotional support, shared meaning, and decision-making; understanding values may matter more than rebutting conclusions.
+- Walking away can protect ego too → assuming others are irrational avoids asking whether your model, articulation, or definition of good faith is wrong.
+- Argument can be mutually useful → politeness, trust, sensitivity, setting, scope, and stopping rules enable correction — counterpoint: many online encounters lack these conditions.
+
+### LLM perspective
+
+- **View:** The useful distinction is not argument versus silence, but collaborative inquiry versus identity defense, diagnosed before choosing tactics.
+- **Impact:** Teams need norms that separate critique from status, invite dissent, and let participants revise positions without public humiliation.
+- **Watch next:** Post-decision reviews can reveal whether disagreement improved outcomes, surfaced errors, preserved trust, or merely displaced conflict.

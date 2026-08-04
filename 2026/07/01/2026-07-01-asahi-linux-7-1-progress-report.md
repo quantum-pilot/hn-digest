@@ -2,21 +2,18 @@
 
 - Score: 525 | [HN](https://news.ycombinator.com/item?id=48744518) | Link: https://asahilinux.org/2026/06/progress-report-7-1/
 
-## TL;DR
-Asahi Linux 7.1 continues the slow, deep reverse‑engineering of Apple Silicon: improving hardware support (including newer M3 machines) and pushing drivers upstream so more distros can run natively. Comments dive into low‑level details like I²S audio, praise the tiny team’s achievements (e.g., Vulkan 1.2 on Apple GPUs), and highlight remaining gaps such as power management and firmware mysteries. There’s excitement about Fedora/Ubuntu/Debian options, but also concern Apple could lock down currently‑reprogrammable firmware in future hardware revisions.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+Asahi’s Linux 7.1 report fixes two macOS 27 beta incompatibilities: a newly enforced APFS bootable flag hid intact Linux installs, while an SMC battery-ABI change could trigger emergency shutdowns. M3 support now includes audio, frequency scaling, big.LITTLE scheduling, sensors, and core connectivity, though official installer support is not ready. Contributors also produced custom unsigned firmware plus a V4L2 driver for 4K 10-bit AVC decoding, and m1n1 1.6 expands Rust and newer-chip groundwork. HN praised the reverse engineering but highlighted unresolved power management, upstreaming, and future firmware-signing risk.
 
----
+### Comment pulse
 
-## Comment pulse
-- Audio stack detail → I²S is a simple, SPI‑like raw PCM bus, unrelated to I²C control channels; readers appreciate the protocol’s elegance and flexibility.  
-- Reverse‑engineering feat → Vulkan drivers and broad support impress, yet power management and newer hardware remain unsolved; proprietary, undocumented interfaces keep progress fragile.  
-- Distro and firmware future → Work is upstreamed, enabling Debian/Ubuntu/Void etc.; custom firmware on Apple chips worries some, who fear future signing/lockdown.
+- Reverse engineering remains incomplete → Apple power management still relies on battery-draining workarounds despite major graphics and peripheral wins.
+- Custom decoder firmware carries platform risk → Apple could later require signatures for legitimate security reasons, blocking the current strategy.
+- One terminology error drew correction → I²S is independent of I²C and closer to SPI, despite similar naming.
 
----
+### LLM perspective
 
-## LLM perspective
-- View: Asahi is becoming the de facto community hardware enablement layer for Apple Silicon, similar to classic PC Linux HCL work.  
-- Impact: Extends usable life and flexibility of Macs, and pressures vendors by proving high‑quality open drivers are possible without specs.  
-- Watch next: Completion of PSCI/power management support, upstream driver acceptance timelines, and any Apple moves toward mandatory firmware signing.
+- **View:** Stable hardware blocks reward reuse, but undocumented firmware interfaces make every vendor update a compatibility event.
+- **Impact:** Users gain capable M3 Linux support while maintainers absorb permanent regression and reverse-engineering costs.
+- **Watch next:** Test boot-flag repair broadly, ship AVD safely, and land remaining drivers upstream.

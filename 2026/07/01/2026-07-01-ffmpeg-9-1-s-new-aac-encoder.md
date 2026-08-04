@@ -3,19 +3,17 @@
 - Score: 260 | [HN](https://news.ycombinator.com/item?id=48747116) | Link: https://hydrogenaudio.org/index.php/topic,129691.0.html
 
 ### TL;DR
-FFmpeg 9.1 ships a new built‑in AAC encoder that massively improves on FFmpeg’s old, artifact‑prone one and approaches or surpasses Apple’s CoreAudio at comparable constant bitrates. This matters because AAC remains the default in RTMP live streaming (YouTube, Twitch, OBS), where Opus isn’t widely supported despite clearly superior quality, especially at low bitrates. Discussion also highlights a long‑hidden AAC decoder bug around perceptual noise substitution, heavy reliance on 48 kHz tuning, and the mix of human listening and objective metrics in codec design.  
-*Content unavailable; summarizing from title/comments.*
+
+FFmpeg 9.1 receives a ground-up AAC encoder rewrite covering rate control, rate-distortion optimization, and PNS, TNS, intensity-stereo, and mid/side tools. On 3,000 music tracks, its strict-CBR mode reportedly beats FDK-AAC and Apple’s encoder on Zimtohrli and ViSQOL metrics, though speech testing is limited, exact downmix settings matter, and 48 kHz is best tuned. HN noted Opus still scores much better, but AAC remains essential for RTMP streaming and broad device support; replacing FFmpeg’s artifact-prone encoder could therefore improve many default workflows.
 
 ### Comment pulse
-- Opus clearly outperforms AAC in these tests, especially at 64 kbps → but AAC dominates streaming/device support, and Opus’s spec/licensing quirks hinder use in games and appliances. — counterpoint: “works pretty much anywhere” for many users.  
 
-- New FFmpeg AAC fixes old chirping/low‑quality output → may now rival CoreAudio CBR, reducing need for Apple/FDK/qaac workarounds; lack of robust VBR still keeps CoreAudio attractive to some.  
-
-- Codec tuning exposed a long‑standing PNS bug and AAC’s sample‑rate‑dependent windows → encoder is optimized for 48 kHz, aligning with pro standards, video sync, OS/DAC defaults, and Opus’s 48 kHz‑centric design.
+- Compatibility preserves AAC’s relevance → YouTube, Twitch, OBS, and many clients still assume H.264 video paired with AAC audio.
+- Benchmark leadership needs broader validation → Apple TVBR may remain competitive, and speech plus user-supplied artifact samples are under-tested.
+- PNS exposed decoder defects → combining synthetic noise with TNS or stereo tools could distort noise and collapse imaging.
 
 ### LLM perspective
-- View: This release makes “default FFmpeg AAC” finally a safe, high‑quality choice for most practical streaming and recording setups.  
 
-- Impact: Broad FFmpeg/OBS ecosystems benefit; fewer users need proprietary encoders or codec research just to get decent AAC audio.  
-
-- Watch next: Add strong VBR modes, expand listening tests versus Opus/CoreAudio, and propagate PNS‑related decoder fixes across players and libraries.
+- **View:** A strong default encoder matters more operationally than the theoretically best codec.
+- **Impact:** Streamers and recorders may gain better sound without proprietary Core Audio or FDK installations.
+- **Watch next:** Run independent ABX tests across speech, music, sample rates, bitrates, and decoder implementations.

@@ -2,16 +2,18 @@
 
 - Score: 565 | [HN](https://news.ycombinator.com/item?id=48745456) | Link: https://blog.playstation.com/2026/07/01/physical-disc-production-ending-in-january-2028-for-new-games-releasing-on-playstation-consoles/
 
-- TL;DR  
-  - Sony will stop producing physical discs for new PlayStation games in Jan 2028, pushing the ecosystem fully toward DRM‑encumbered downloads. Commenters see this as another anti‑consumer move from a company already deleting purchased movies and closing old stores, reinforcing that digital “purchases” are revocable licenses. Concerns center on game preservation, loss of resale and lending, and higher long‑term prices without a used market, alongside worries about the knock‑on decline of Blu‑ray media and broader cultural memory.  
-  - *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  - Digital shift erodes trust → Sony’s rootkits, deleted movies, and store closures show digital items are revocable, not owned — counterpoint: DRM‑free storefronts partially mitigate.  
-  - Preservation fears → always‑online DRM, shutdown activation servers, and illegal circumvention under DMCA mean many console games may vanish when companies or licenses die.  
-  - Incentives → publishers kill used discs to keep $60 pricing, while disc games get cheap on resale; losing PlayStation discs threatens Blu‑ray manufacturing.
+Sony will stop manufacturing discs for all new PlayStation games released from January 2028, citing consumer preference for digital distribution; earlier disc releases remain unaffected, and retailers may sell digital formats. HN viewed the move primarily as a transfer of control: players lose resale, lending, price competition, offline possession, and a preservation path while Sony strengthens its storefront. Recent removals from digital libraries deepened distrust. Counterarguments noted that modern discs often depend on patches anyway, and well-run or DRM-free digital stores can outlast users’ physical collections.
 
-- LLM perspective  
-  - View: This accelerates games’ shift from products to subscriptions, making consoles resemble closed streaming appliances rather than durable entertainment hardware.  
-  - Impact: Collectors, preservationists, and price‑sensitive players lose most; PC, handheld emulation, and DRM‑free platforms become comparatively more attractive.  
-  - Watch next: EU digital‑goods regulation, console jailbreak crackdowns, and whether Nintendo/Microsoft keep physical releases longer as a differentiator.
+### Comment pulse
+
+- Used markets discipline pricing → one 2016 title cost $11 on disc versus $60 digitally, illustrating Sony’s incentive to eliminate resale.
+- Preservation is already incomplete → discs without patches, DLC, activation servers, or connectivity may not retain a finished playable game.
+- Digital is not inherently rental → DRM-free downloads remain locally ownable — counterpoint: PlayStation’s controlled storefront offers no equivalent guarantee.
+
+### LLM perspective
+
+- **View:** The decisive distinction is revocable platform access versus transferable, locally preservable ownership.
+- **Impact:** Players lose secondary-market leverage; Sony gains pricing control and lower physical-distribution obligations.
+- **Watch next:** Track retailer competition, archival exceptions, storefront shutdown policies, and whether rivals retain physical releases.

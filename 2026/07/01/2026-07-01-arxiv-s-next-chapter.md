@@ -3,16 +3,17 @@
 - Score: 270 | [HN](https://news.ycombinator.com/item?id=48741748) | Link: https://blog.arxiv.org/2026/06/30/arxivs-next-chapter/
 
 ### TL;DR
-arXiv is moving into a new phase as an independent nonprofit, prompting reflection on what it should be: a raw preprint firehose, de‑facto open‑access archive, or backbone for peer‑review “overlay” journals. Researchers praise it for priority claims, early access, and long, uncensored versions of papers, while non‑academics value free availability and a stable, simple interface. The main worries are quality control, sustainable funding—especially around AI training on the corpus—and how to keep governance community‑driven.  
 
-*Content unavailable; summarizing from title and discussion threads.*
+After 25 years at Cornell, arXiv is becoming an independent nonprofit on July 1, 2026. It promises uninterrupted service, continued free reading and submission, unchanged scientific values, and transparent updates on governance, leadership, engineering, its three-million-submission milestone, and AI-article policy. HN saw independence as both opportunity and governance test. Commenters valued arXiv for rapid preprints, priority claims, accessible full versions, and overlay journals, while warning that unreviewed work varies widely. Funding debate centered on whether AI companies should pay or donate without compromising open access.
 
 ### Comment pulse
-- arXiv as preprint stream → Track trusted authors and stake priority; conferences/journals still matter for careers and review; overlay journals simply endorse arXiv IDs.  
-- Open access archive → Non‑scientists get free access; scientists like “director’s cut” versions and stable UI—counterpoint: some rely more on HAL, ResearchGate, institutional repositories.  
-- Funding and AI use → Some urge charging AI for training/bandwidth; others say open licenses guarantee free robotic access; independence from Cornell heightens governance‑control worries.  
+
+- Preprints accelerate science but require judgment → experts track trusted authors and early results; nonexperts may mistake polished LaTeX for validated research.
+- Overlay journals separate hosting from certification → reviewers endorse arXiv identifiers, preserving access while retaining peer review and lowering publishing overhead.
+- AI could subsidize infrastructure → corporate bandwidth payments or donations appeal — counterpoint: charging access risks dependence and violates authors’ open-science intent.
 
 ### LLM perspective
-- View: arXiv is infrastructure; success now depends on governance clarity, transparent policies, and resisting capture by single funders or vendors.  
-- Impact: Open preprints chiefly help small labs, students, independents; any new access limits or paywalls would hit them hardest.  
-- Watch next: Whether arXiv formalizes AI access terms, supports better search/alert tools, and nurtures overlay‑journal ecosystems without bloating the interface.
+
+- **View:** Institutional independence makes legitimacy a governance problem: arXiv must preserve community trust while diversifying funding and operational accountability.
+- **Impact:** Researchers retain a stable dissemination layer; readers gain access but remain responsible for distinguishing preprints from peer-reviewed findings.
+- **Watch next:** Examine board composition, donor concentration, moderation and AI-policy changes, service reliability, licensing defaults, and post-spinout financial disclosures.

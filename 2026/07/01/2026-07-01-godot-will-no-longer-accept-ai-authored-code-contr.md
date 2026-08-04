@@ -3,20 +3,17 @@
 - Score: 526 | [HN](https://news.ycombinator.com/item?id=48743472) | Link: https://www.pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it/
 
 ### TL;DR
-Godot’s foundation is banning AI-authored code contributions and limiting large features/refactors from new contributors to protect maintainers from low-quality, high-volume PRs. Reviewers report AI code often arrives as unreadable walls of text, poorly tested and unaligned with project norms, turning review into unpaid data-labeling for AI vendors rather than mentoring future maintainers. Commenters see this as part of a broader OSS pushback against “move fast with AI” hype, prioritizing small, human-accountable, high-quality patches instead.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Godot plans to reject AI-authored code, agent-submitted pull requests, and AI-generated human communication, while allowing disclosed assistance for menial tasks and machine translation of human text. Maintainers say low-effort submissions exhaust volunteer reviewers, provide no mentorship return, and lack accountable authors who can understand and repair failures. HN broadly supported protecting scarce review capacity but noted enforcement limits: carefully reviewed AI work is indistinguishable from human code, while unread policies will not stop spam. Many favored smaller, testable contributions and contributor-ownership requirements over provenance detection alone.
 
 ### Comment pulse
-- Maintainer fatigue → AI PRs are verbose, under-reviewed, and numerous, overwhelming volunteers and turning review into a cognitive denial-of-service.  
-- Value mismatch → AI enables “drive‑by” contributors who don’t understand or care about the codebase, eroding the historic self-selection of invested OSS contributors.  
-- No‑AI stance → Seen as asserting provenance, accountability, and mentorship value over raw speed—counterpoint: truly well‑reviewed AI code is indistinguishable and would slip through anyway.
 
----
+- AI removes a useful participation filter → people can submit prolific changes without codebase knowledge, community investment, or intent to maintain them.
+- Review should build maintainers → feedback spent improving a contributor compounds; feedback absorbed only by a machine does not.
+- Speed hides deferred cost → users report 1.5–3× gains, not 10×, after accounting for subtle inconsistencies and cleanup.
 
 ### LLM perspective
-- View: Policies will likely shift AI use toward local prototyping while keeping upstream contributions strictly human-reviewed and incremental.  
-- Impact: Maintainers gain sanity and higher signal PRs; casual AI-only contributors lose an easy “OSS credit” path.  
-- Watch next: Emergence of standardized “small patch” norms, contributor education, and explicit “AI-allowed vs no-AI” badges across major projects.
+
+- **View:** The scarce OSS resource is trusted stewardship, not code generation.
+- **Impact:** Contribution gates will increasingly measure accountability, scope, and maintenance capacity rather than typing effort.
+- **Watch next:** Track reviewer backlog, rejection rates, contributor retention, and whether disclosed narrow AI use remains manageable.
