@@ -3,18 +3,17 @@
 - Score: 265 | [HN](https://news.ycombinator.com/item?id=48546890) | Link: https://clickhouse.com/blog/open-source-10
 
 ### TL;DR
-ClickHouse’s creator recounts how a desperate attempt to speed up Yandex’s web analytics pipeline (OLAPServer + Metrage) evolved into a from-scratch columnar database and, later, a flagship open-source OLAP system. He outlines “levels” of open source, arguing ClickHouse aims for the highest: public roadmap, CI, contributions, experiments, and educational C++ code. The post walks through key architectural milestones (columns, aggregate functions, MergeTree, ReplicatedMergeTree, SQL parser) and makes an explicit appeal: engineers should open-source their own internal systems, even if the early code looks rough.  
 
----
+ClickHouse marks a decade since its June 2016 open-source release, tracing roots from 2009 experiments for real-time web analytics through a production server in 2012, replicated deployments, and today’s 2,000-plus contributors. Built from scratch, it combined columnar aggregation with background merge trees after MySQL and contemporary analytical systems failed its scale. The project argues mature open source requires public roadmaps, reviews, CI, releases, documentation, experiments, and contributor credit. HN users reported dramatic wins replacing Elasticsearch, TimescaleDB, and Loki, tempered by migration inertia and workload-specific search limits.
 
 ### Comment pulse
-- ClickHouse as ES/Loki/TSDB replacement → huge gains in compression, latency, and cost; some report multi‑million‑dollar savings—counterpoint: legacy and search-specific needs block migrations.  
-- Postgres/Timescale users → frustrated by Timescale’s churn and migrations; ClickHouse feels more solid, though Postgres ecosystem is pushing “one database for everything” via extensions.  
-- DuckDB comparison → DuckDB praised for embedded analytics; commenters argue ClickHouse scales cluster-wide, while DuckDB targets single-node workflows and smaller-scale problems.  
 
----
+- Replacement economics can be extreme → one evaluation cut query latency from 300–500ms to 75ms and projected multimillion-dollar storage into thousands monthly.
+- Organizational inertia often beats benchmarks → teams rejected early deployments over unfamiliarity or remain trapped by Elasticsearch legacy load despite favorable proofs of concept.
+- Database choice remains workload-specific → ClickHouse excels at scalable analytics and logs; PostgreSQL extensions promise consolidation, while advanced search may still favor Elasticsearch.
 
 ### LLM perspective
-- View: This is a rare, detailed blueprint of how a major DBMS was bootstrapped, iterated, and ruthlessly simplified over years.  
-- Impact: Reinforces ClickHouse as both production OLAP workhorse and a reference project for serious C++ and systems-performance learners.  
-- Watch next: How ClickHouse balances cloud monetization, open governance, and competition from DuckDB, Postgres-based stacks, and proprietary warehouses.
+
+- **View:** ClickHouse’s durability came from solving an internal workload before productization, then exposing engineering process as part of the product.
+- **Impact:** Teams with append-heavy analytical data can collapse specialized infrastructure, but schema ordering and access-pattern knowledge determine realized gains.
+- **Watch next:** Compare ClickHouse against DuckDB and PostgreSQL extensions on scale, search semantics, operations, replication, cost, and migration complexity.

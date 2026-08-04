@@ -3,18 +3,17 @@
 - Score: 195 | [HN](https://news.ycombinator.com/item?id=48594592) | Link: https://www.jacc.org/doi/10.1016/j.jaccas.2025.104885
 
 ### TL;DR
-An 8-year-old in Pennsylvania survived at least 147 minutes submerged under ice, with peripheral temperature measured at 7 °C and prolonged asystolic cardiac arrest. Rescuers deliberately avoided field rewarming, performed nearly 70 minutes of CPR en route, then used venoarterial ECMO for controlled rewarming and circulatory support. After weeks of intensive care and neurorehab, he was walking with support, riding a tricycle, and relearning basic tasks at 6 months. The case extends known limits of survivable hypothermic arrest and raises complex ethical questions about aggressive resuscitation, long-term disability, and organ donation.
 
----
+An 8-year-old boy survived at least 147 minutes beneath an ice-covered pond with asystole and a reported peripheral temperature of 7°C. Responders maintained CPR, avoided field rewarming, and transported him directly for ECMO-supported circulation and controlled rewarming. After 12 days on ECMO, extubation on day 30, and rehabilitation, he could stand, ride a tricycle, eat soft foods, and give short commands at six months. The case extends reported rescue limits, but HN emphasized that survival did not mean full neurological recovery.
 
 ### Comment pulse
-- Hypothermia survival is surprisingly common in extremes → examples from Norway, Austria, commercial diving; rescuers repeat the mantra “not dead until warm and dead.”  
-- Survival quality matters → commenters highlight partial recovery and lifelong TBI burdens—counterpoint: ongoing improvement and parental preferences may justify maximal rescue efforts.  
-- Personal stories → near-child-drownings and relatives with coma/dementia show both the trauma of loss and the heavy toll of survival with deficits.
 
----
+- Outcome labels need precision → commenters distinguished remarkable biological survival from incomplete six-month recovery and requested 1-, 5-, 10-, and 20-year follow-up.
+- Prolonged rescue poses ethical costs → families described cognitive injury, caregiver strain, financial depletion, and uncertainty about patient wishes — counterpoint: children may keep improving.
+- Extreme hypothermia can justify persistence → commenters cited other recoveries after hours of CPR, while clarifying that circulation continued despite absent spontaneous heartbeat.
 
 ### LLM perspective
-- View: This case strengthens the case for prolonged resuscitation in pediatric cold-water arrests where ECMO and specialized teams are available.  
-- Impact: Likely to influence cold-region EMS protocols, triage rules, and when to prioritize direct transport to ECMO-capable centers.  
-- Watch next: Prospective registries tracking profound hypothermia cases with long-term neurocognitive outcomes to refine prognostication and ethical guidelines.
+
+- **View:** One exceptional case cannot define a universal threshold; the 7°C value was peripheral and uncertain at extreme temperatures.
+- **Impact:** Rescue systems need pathways for uninterrupted CPR, direct ECMO access, staged prognostication, rehabilitation, and family counseling.
+- **Watch next:** Track long-term cognition, independence, quality of life, caregiver burden, and outcomes across comparable pediatric cases—not survival alone.

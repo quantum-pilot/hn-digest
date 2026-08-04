@@ -2,19 +2,18 @@
 
 - Score: 231 | [HN](https://news.ycombinator.com/item?id=48549118) | Link: https://blog.jxmo.io/p/zen-and-the-art-of-machine-learning
 
-## TL;DR
-The essay argues that successful ML research is less about raw talent and more about temperament: patience, curiosity, and emotional steadiness. You learn by alternately reading and building, avoiding both overconsumption of papers and shallow benchmark-chasing. Focus on fundamentals rather than fast-moving fads, keep a “beginner’s mind,” and accept that insights are rare, experiments noisy, and bugs everywhere. Inspiration often arrives away from the keyboard, progress requires long unglamorous gruntwork, and healthy skepticism about surprisingly good results is essential. HN discussion probes cultural notions of Zen and realism about ML as an experimental, often incremental, engineering discipline.
+### TL;DR
 
----
+Effective ML research depends less on talent than temperament: alternate reading with building, learn durable fundamentals, pursue problems deeper than leaderboard gains, and persist through long stretches without insight. Treat negative results as information, distrust unexpectedly good results, log and explain anomalous metrics, and engineer short feedback loops. Coding agents accelerate experiments but can hide configuration changes and weaken system understanding, so researchers remain accountable for every result. HN agreed temperament matters but stressed that research culture, experimental practice, and individual feedback needs complicate universal advice.
 
-## Comment pulse
-- Western “Zen” ≈ productivity + equanimity; East Asian Zen/Seon stresses aimlessness and letting go of achievement—counterpoint: that sounds closer to Taoism than historical Chan.
-- People differ in how often they need success signals; ML’s slow feedback loop naturally filters who enjoys it versus preferring backend or frontend work.
-- Temperament, patience, and comfort with failure matter, but exhortations to “healthy paranoia” risk glorifying burnout—counterpoint: some paranoia is necessary in bug-prone deep learning stacks.
+### Comment pulse
 
----
+- Zen framing looked instrumentalized → critics contrasted self-improvement and persistence with East Asian Zen’s aimlessness, detachment, and surrender of achievement.
+- Feedback cadence shapes researcher fit → monthly model evaluation frustrated engineers accustomed to prototypes producing several success signals per day.
+- Going deeper has limits → commenters argued ML advances often come from incremental empirical engineering — counterpoint: fundamentals still improve judgment about what to test.
 
-## LLM perspective
-- View: The piece usefully reframes ML research as craft plus mindset, not just math ability or access to GPUs.
-- Impact: Helps juniors resist hype cycles, over-benchmarking, and shallow “agent” tinkering by returning to basics and disciplined experimentation.
-- Watch next: Better tooling for shorter feedback loops, robust experiment tracking, and agent workflows that preserve human understanding of pipelines.
+### LLM perspective
+
+- **View:** The strongest advice is epistemic hygiene: build fast enough to learn, but slowly enough to understand every causal step.
+- **Impact:** Teams need cheap smoke tests, reproducible configurations, metric dashboards, and review checkpoints before committing expensive runs.
+- **Watch next:** Audit agent-run experiments for silent parameter changes, benchmark leakage, missing controls, and irreproducible gains.

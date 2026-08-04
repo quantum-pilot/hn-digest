@@ -2,15 +2,18 @@
 
 - Score: 327 | [HN](https://news.ycombinator.com/item?id=48600093) | Link: https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19/
 
-## TL;DR
-Norway will largely prohibit generative AI for pupils aged 6–13, tightly supervise use for 14–16-year-olds and explicitly teach “proper” AI use only in upper secondary school. The policy responds to falling test scores and worries that digital tools, from smartphones to tablets and chatbots, erode reading, writing and math skills; it’s paired with a shift back to physical books and stricter discipline. Hacker News discussion splits between applauding protection of core cognition and warning of overreach, inequality and lost AI literacy.
+### TL;DR
 
-## Comment pulse
-- Foundational-skills camp: early schooling should emphasize reading, writing, arithmetic; generative tools encourage shortcutting and shallow thinking, risking long-term cognitive decline and dependence on commercial platforms.  
-- Skeptics: blanket bans feel reactionary; compare to hypothetical internet bans; argue AI can be adaptive tutor and that school-only restrictions worsen class-based AI fluency gaps.  
-- Practitioners: many teachers report AI-fueled plagiarism, busywork automation, and extra policing burden—counterpoint: others say root problem is hype that devalues education, not classroom tools.  
+Norway will generally keep generative AI out of grades 1–7, allow cautious teacher-supervised use for ages 14–16, and teach appropriate use at 17–19, beginning in late August. The policy follows falling test scores, a 2024 smartphone ban in schools, and plans to restore more books after decades of classroom digitization. Officials argue younger pupils must practice reading, writing, and mathematics without skipping foundational steps. HN broadly supported delaying cognitive offloading but disputed whether the rule targets harmful substitution precisely enough.
 
-## LLM perspective
-- View: Age-tiered AI policies make sense, but should differentiate passive answer generators from constrained tutoring systems with auditability.  
-- Impact: Norway becomes a live experiment in post-digital schooling; outcomes will influence EU education standards, vendor strategies, and parent expectations.  
-- Watch next: studies on scores and wellbeing, trials of AI tutors, and whether restrictions cover homework or only school-managed devices.
+### Comment pulse
+
+- Foundations resemble pre-calculator arithmetic → supporters said polished LLM output lets children bypass work before they can judge whether answers are sound.
+- School-only limits may deepen inequality → affluent families can teach AI fluency at home while disadvantaged pupils lose access — counterpoint: uncertain tools justify caution.
+- Existing use was substantive → a Norwegian parent reported ChatGPT-assisted brainstorming, feedback, speeches, presentations, and homework through school-managed iPads.
+
+### LLM perspective
+
+- **View:** Age-banded rules are defensible only if they distinguish generative substitution from guided tutoring, accessibility support, and information retrieval.
+- **Impact:** Educators receive clearer boundaries but must replace AI-dependent activities and establish what supervised use means for ages 14–16.
+- **Watch next:** Compare cohorts on literacy, mathematics, independent writing, cheating, teacher workload, and socioeconomic AI-fluency gaps after implementation.

@@ -4,24 +4,16 @@
 
 ### TL;DR
 
-The JAWBONE Act, introduced by Senators Ted Cruz and Ron Wyden, would let people sue federal officials who coerce platforms, broadcasters, or AI providers into suppressing lawful speech, and would require transparency around such government–platform contacts. EFF backs the bill, citing its case over ICEBlock, an app Apple removed after federal pressure. EFF also stresses that platforms retain their own First Amendment right to moderate content, and that not all government–platform communication is unconstitutional.
-
----
+The bipartisan JAWBONE Act, introduced by Senators Ted Cruz and Ron Wyden, would let people sue officials who coerce or attempt to coerce broadcasters, online services, or AI providers into suppressing lawful, First-Amendment-protected speech. It would also make government communications about users’ expression more transparent. EFF supports the goal, citing pressure that led Apple to remove ICEBlock, but warns that legitimate government-platform information sharing must remain possible and that private platforms retain their own editorial rights. HN discussion focused on the coalition’s unusual politics and cautious cross-partisan support.
 
 ### Comment pulse
 
-- Clever acronym culture → Commenters joke about JAWBONE’s backronym, comparing it with the USA PATRIOT Act’s elaborate name and branding games in US legislation.  
-
-- Trust gap on sponsors and EFF → Some praise Wyden–Cruz bipartisanship and EFF’s support; others insist those facts don’t guarantee the bill’s merits or purity of motives.  
-
-- Free speech politics shift → Non‑US readers welcome non‑right support for speech, but resent that far‑right parties often appear as its loudest champions—counterpoint: commenters note liberals also push speech restrictions.  
-
----
+- Support crossed ideological lines → EFF backing and Democratic co-sponsorship reassured some — counterpoint: others said labels and endorsements cannot establish sound policy.
+- The bill may protect unexpected speakers → commenters observed Cruz-backed language could benefit ICEBlock, whose stated purpose conflicts with his likely priorities.
+- Legislative branding impressed readers → JAWBONE expands to Justice Against Weaponized Bureaucratic Overreach to Networked Expression, earning praise for its constructed acronym.
 
 ### LLM perspective
 
-- View: This bill mainly targets informal state pressure channels revealed around COVID, immigration enforcement, and platform moderation controversies.  
-
-- Impact: If enforced, it could chill backroom takedown “requests” and push agencies toward formal, reviewable legal processes.  
-
-- Watch next: Definitions of “coerce,” scope for AI providers, and whether disclosure rules create meaningful, public logs of government moderation contacts.
+- **View:** The core drafting challenge is distinguishing coercion from persuasion without shielding officials from accountability or chilling routine threat reporting.
+- **Impact:** Users gain a statutory remedy and evidence trail; agencies and platforms inherit documentation, review, and escalation duties.
+- **Watch next:** Examine definitions, intent standards, available damages, transparency exceptions, standing rules, and treatment of national-security or emergency requests.

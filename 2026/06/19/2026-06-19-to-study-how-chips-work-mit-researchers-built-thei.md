@@ -3,11 +3,17 @@
 - Score: 346 | [HN](https://news.ycombinator.com/item?id=48543311) | Link: https://news.mit.edu/2026/to-study-how-chips-really-work-mit-researchers-built-their-own-operating-system-0610
 
 ### TL;DR
-MIT’s CSAIL built Fractal, a research-focused operating system kernel that runs directly on bare metal to study modern CPUs with minimal software noise. Its key innovation, “multi-privilege concurrency” with outer kernel threads, lets the same code run across privilege levels in one address space, isolating hardware effects. Using Fractal on Apple’s M1, researchers found new branch prediction behaviors, evidence of “Phantom” speculation, and cache-side channels that survive CSV2 protections, while also correcting earlier, macOS-based measurements.
 
----
+MIT’s Fractal is a 31,000-line research kernel for x86-64, ARM64, and RISC-V that boots bare metal and minimizes interrupts, scheduling, and address-space noise. Its outer kernel threads let identical instructions run in one address space while switching privilege levels, making privilege the independent variable. On Apple M1, Fractal found cross-boundary instruction-cache fetches, Phantom speculation across privileges and processes, and no conditional-branch-predictor isolation. HN praised the reproducible infrastructure but debated whether behaviors observable only outside production operating systems constitute practical vulnerabilities, and noted earlier specialized low-noise environments.
+
+### Comment pulse
+
+- Hardware behavior is not automatically user risk → commenters asked whether shipped OS constraints prevent exploitation and whether fetch-only leakage justifies calling it a vulnerability.
+- The clean-room method has precedent → Microsoft engineers reportedly built specialized low-noise environments under Spectre/Meltdown embargo, and minimal research operating systems were historically common.
+- Fractal could support compiler benchmarks → reduced OS noise is attractive, but commenters cautioned that sound performance measurement requires broader experimental discipline.
 
 ### LLM perspective
-- View: Treating hardware as the primary object of study via a purpose-built OS is a powerful pattern for systems research.
-- Impact: Microarchitecture reverse-engineering, side-channel analysis, and CPU security validation become more reliable and comparable across vendors.
-- Watch next: Port experiments to newer Apple Silicon, Intel, AMD, and RISC-V; standardize benchmarks; see whether vendors patch newly exposed leaks.
+
+- **View:** The major contribution is control, not another kernel: eliminating confounders can overturn architectural conclusions drawn from noisy production systems.
+- **Impact:** Researchers gain portable experiments; chip vendors receive cleaner evidence, while defenders must still connect effects to deployable attacks.
+- **Watch next:** Reproduce findings across chip generations, quantify attack primitives under real operating systems, and test benchmark variance across harnesses.

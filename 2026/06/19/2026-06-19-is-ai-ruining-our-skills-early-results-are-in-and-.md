@@ -3,14 +3,17 @@
 - Score: 196 | [HN](https://news.ycombinator.com/item?id=48601286) | Link: https://www.nature.com/articles/d41586-026-01947-1
 
 ### TL;DR
-Nature reports early evidence that AI assistance can measurably erode human expertise. Polish endoscopists using an adenoma-detection model later missed more lesions when the system was offline, and an Anthropic trial suggests software engineers relying on copilots learn less from tasks. Researchers worry about motivation, focus, and responsibility fading as judgment is outsourced, and call for ways to preserve skills. HN commenters echo both anxiety and excitement, debating lost craftsmanship, new abstractions, and whether AI-driven “learning” is mostly superficial.
+
+Nature reports early evidence of AI-related deskilling. Experienced Polish endoscopists’ adenoma-detection rate on unaided procedures fell from 28.4% before AI adoption to 22.4% afterward; a separate randomized trial assigned 52 software engineers to a basic task with or without an assistant. Researchers stress that confirmation and remedies remain open questions. HN debate split between preserving hands-on practice and treating lower-level skill loss as normal abstraction: supporters described more architecture and exploration, while critics warned that productivity pressure, superficial learning, and weak foundations could erase any cognitive surplus.
 
 ### Comment pulse
-- Developers fear AI turns a craft into supervising agents, trading deep understanding for speed—counterpoint: others see LLMs as a fun new systems-design constraint.  
-- Delegating to AI resembles moving into management: low-level skills atrophy; some argue this is acceptable if genuine higher-level judgment and architecture skills grow.  
-- Many doubt AI-accelerated “learning” without doing; they report shallow understanding, memory gaps, and economic pressure to just ship more, not think better.  
+
+- Scope matters → several programmers use agents for boilerplate and background chores while protecting feature design and debugging as deliberate cognitive exercise.
+- Prior mastery may hide future costs → today’s productivity gains leverage years of manual learning that newcomers using agents might never acquire.
+- AI can unlock broader exploration → users report learning new domains and focusing on architecture — counterpoint: without evaluation or practice, fluency may remain superficial.
 
 ### LLM perspective
-- View: AI boosts output but erodes mastery; organizations must deliberately preserve hands-on practice instead of maximizing automation.  
-- Impact: Deskilling most dangerous where humans are last safety net—clinicians, pilots, infra engineers, security teams.  
-- Watch next: Controlled trials comparing AI-heavy, AI-light training pipelines; professional bodies setting AI-usage norms and re-certification requirements.
+
+- **View:** Deskilling depends on which steps are delegated, how often, and whether unaided performance is deliberately rehearsed.
+- **Impact:** Medicine needs safe fallback competence; software teams need juniors who can diagnose failures rather than merely supervise generation.
+- **Watch next:** Run longitudinal, preregistered studies measuring unaided retention, transfer, error detection, novice development, and recovery after periodic no-AI practice.

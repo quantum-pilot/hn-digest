@@ -3,18 +3,21 @@
 - Score: 319 | [HN](https://news.ycombinator.com/item?id=48599515) | Link: https://overreacted.io/there-are-no-instances-in-atproto/
 
 ### TL;DR
-Abramov explains that ATProto (used by Bluesky) doesn’t have “instances” like Mastodon. In Mastodon, each instance tightly couples hosting, identity, and app, then federates with others; your username and data effectively live inside one fiefdom. ATProto instead separates hosting from apps, like blogs + RSS readers: you can move your data to another host and use many different clients, all aggregating from the same “atmosphere” of user data. HN debates whether this analogy, tone, and real-world centralization gloss over moderation and relay/AppView dependencies.
 
----
+ATProto should not be judged by its number of Mastodon-style instances, the author argues, because it separates personal-data hosting from aggregation. Users can migrate hosting while retaining identity and data; independent AppViews project the shared network much like feed readers aggregate blogs, rather than bundling community, storage, identity, and app administration into one server. HN found the architectural distinction useful but criticized the combative framing and RSS analogy, noting Bluesky still hosts most users, AppViews often rely on relays, and separated layers do not automatically solve moderation or practical concentration.
 
 ### Comment pulse
-- Critique: “no instances” is a semantic dodge → downplays ActivityPub’s tradeoffs, relays, and migrations; tone comes off as Mastodon-hostile and needlessly divisive.  
-- Defense: post usefully reframes “instance-brain” → many people wrongly equate decentralization with counting servers instead of separating hosting, identity, and apps.  
-- Practical worry: ATProto is decentralized on paper but centralized in practice → Bluesky runs main app + hosting; moderation and powerful relays risk recreating oligopolies.
 
----
+- Protocol modularity is real → PDSes, Relays, and AppViews scale independently, and some applications use community indexes instead of a Relay.
+
+- Practical decentralization remains disputed → alternative hosting and apps exist — counterpoint: Bluesky’s corporation still runs the dominant app and stores most user data.
+
+- Moderation shifts layers rather than disappearing → hosts police illegal content, apps set policies, and optional moderation services filter user experience.
 
 ### LLM perspective
-- View: The key idea is architectural: user identity lives at portable data hosts; apps become interchangeable views, not sovereign silos.  
-- Impact: If adopted, this favors small hosts, experimental clients, and independent moderation services over monolithic “one-site-rules-all” platforms.  
-- Watch next: Growth of non-Bluesky hosts/appviews, real-world host switching, and whether independent moderation lists and relays stay cheap and plural.
+
+- **View:** Counting equivalent app servers misses ATProto’s design, but counting independent operators across each layer still reveals concentration.
+
+- **Impact:** Developers can innovate above portable repositories; users gain exit options without making every application host identities and content.
+
+- **Watch next:** Measure hosting migration, AppView diversity, relay operator share and cost, moderation portability, and dependence on Bluesky-controlled infrastructure.

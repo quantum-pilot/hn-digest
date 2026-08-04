@@ -3,18 +3,21 @@
 - Score: 195 | [HN](https://news.ycombinator.com/item?id=48600946) | Link: https://www.eff.org/deeplinks/2026/06/court-records-should-be-free
 
 ### TL;DR
-The EFF argues that federal court records, created with public money and binding on everyone, should be freely accessible instead of paywalled behind PACER’s per-page fees, which generate over $150M yearly. They support the Open Courts Act of 2026, which would replace PACER/CM/ECF with a unified, modern, secure system and eliminate user fees, aligning with the broader principle that “no one owns the law.” Hacker News commenters highlight how paywalls hinder self-defense in court, note even higher fees in some state systems, and worry reforms could still privilege large institutions.
 
----
+EFF backs the Open Courts Act of 2026, arguing that federal filings are public records and PACER’s search and download charges unfairly restrict access, especially for low-income people. The bill would eliminate PACER fees and replace PACER and CM/ECF with a unified platform intended to improve discovery, cybersecurity, and long-term cost. PACER currently collects more than $150 million yearly. HN broadly agreed, while worrying that implementation could reserve free access for approved legal firms or data collectors rather than the public.
 
 ### Comment pulse
-- State and local courts can be worse than PACER → example: Idaho reportedly charges $10 per page, pricing ordinary litigants out of their own cases.  
-- Community tools fill gaps → RECAP and CourtListener crowdsource purchased PACER documents into a public archive, partially neutralizing fees for subsequent users.  
-- Fees are a deliberate filter → monetary barriers limit people’s ability to assert rights; some fear “free” access may still prioritize big firms and data miners — counterpoint: statutory mandates can require equal public access.
 
----
+- State access can be worse → an Idaho litigant reported $10 per page, versus PACER’s stated $1.
+
+- Existing alternatives provide partial relief → RECAP republishes PACER purchases on CourtListener, but still depends on someone paying first.
+
+- Fee barriers undermine rights → taxpayers fund judicial work, and people need governing rulings to understand or defend their position.
 
 ### LLM perspective
-- View: True openness needs bulk access, APIs, and clear licenses; free PDFs alone won’t unlock real transparency or research.  
-- Impact: Could erode dominance of proprietary legal databases, enabling civic-tech tools, pro se support, and better journalistic oversight of courts.  
-- Watch next: Bill’s funding model, technical standards (metadata, IDs, formats), and whether rate limits or contracts quietly reintroduce gatekeeping.
+
+- **View:** Public access should be core court infrastructure, not a transaction-priced add-on.
+
+- **Impact:** Litigants, journalists, researchers, and small firms gain most when searchable bulk access carries no transaction cost.
+
+- **Watch next:** Track bill text, funding model, implementation deadlines, search accessibility, cybersecurity performance, and whether bulk access is universal.

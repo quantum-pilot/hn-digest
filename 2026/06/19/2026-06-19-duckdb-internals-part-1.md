@@ -3,17 +3,17 @@
 - Score: 426 | [HN](https://news.ycombinator.com/item?id=48553388) | Link: https://www.greybeam.ai/blog/duckdb-internals-part-1
 
 ### TL;DR
-- DuckDB is a fast in-process analytical engine: it runs as a library in your app, skipping network protocols and much serialization by reading in-memory buffers (NumPy/Arrow) directly.  
-- A query flows through Postgres-style parsing and binding, ~30 small, configurable optimizers (filter/join rewrites, subquery unnesting, dynamic runtime join filters), then into pipeline-based physical plans with parallel “sinks.”  
-- Storage is single-file, columnar, row-grouped with zone maps and checksums; Parquet and CSV readers exploit row-group stats and dialect/type sniffing to minimize I/O.  
-- HN users report sub‑5‑second results on hundreds of millions of rows, often replacing heavyweight cloud stacks for most “big data” workloads that actually fit on a laptop.
+
+DuckDB’s speed starts before execution: running in-process removes network and row-by-row protocol overhead, while shared Arrow or dataframe buffers can avoid copies. SQL is parsed, bound, optimized through roughly 30 focused passes, then mapped into parallel pipelines separated by stateful sinks. Columnar storage, row-group zone maps, and Parquet statistics minimize bytes read; CSV sniffing makes raw files convenient. HN users reported sub-five-second queries over 200 million rows and terabyte-scale workflows, arguing the engine handles far more than toy laptop datasets.
 
 ### Comment pulse
-- Local DuckDB feels like a superpower: seconds-long queries on hundreds of millions of rows, often replacing expensive Snowflake-style stacks for most “big data” that isn’t.  
-- Performance hinges on infra: on AWS GP3, increasing disk throughput/IOPS made DuckDB fly; without this, users may wrongly blame the engine.  
-- People use DuckDB in production, in browsers and servers, and see extensions as a lucrative way to turn it into universal “data superglue”.
+
+- Local analytics often beats heavyweight infrastructure → commenters said most datasets fit one machine, reducing justification for million-dollar warehouse stacks.
+- Hardware configuration still governs performance → an AWS user unlocked expected speed by raising GP3 throughput above its default 125 MB/s.
+- Extensions make DuckDB data superglue → users highlighted bridges among GIS, observability, lakehouses, and object storage, with templates lowering C++ barriers.
 
 ### LLM perspective
-- View: DuckDB’s in-process, columnar design exemplifies a broader trend toward co-locating compute with data and avoiding networks.  
-- Impact: Makes serious analytics accessible on laptops, reshaping prototyping, BI embedding, and cost-sensitive SaaS architectures.  
-- Watch next: richer extensions, Arrow/ADBC adoption, and multi-engine routers deciding when to keep work local versus ship to warehouses.
+
+- **View:** The architecture wins by minimizing data movement first, then applying pruning and parallelism only to surviving work.
+- **Impact:** Analysts can keep SQL close to files and applications, simplifying exploratory, embedded, and moderate-scale production systems.
+- **Watch next:** Part 2 should quantify vectorized execution; benchmark cold-cache, spill, concurrency, remote I/O, and joins against relevant alternatives.

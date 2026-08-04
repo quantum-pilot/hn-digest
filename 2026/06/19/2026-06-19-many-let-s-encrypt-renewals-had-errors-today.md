@@ -3,18 +3,21 @@
 - Score: 156 | [HN](https://news.ycombinator.com/item?id=48594715) | Link: https://letsencrypt.status.io/#2026
 
 ### TL;DR
-Let’s Encrypt had a short API incident where traffic between datacenters was disrupted, causing increased 400/500 errors and “degraded performance” but not a full outage. Staff say it lasted roughly 90 minutes and most issuance still succeeded, but multiple users report repeated renewal failures throughout the day, criticizing the status page wording as minimizing impact. Discussion widens to certificate-expiry UX, the push for ever-shorter certificate lifetimes, operational best practices for renewals, and whether viable, similarly free ACME-based alternatives to Let’s Encrypt exist.
 
----
+Let’s Encrypt reported degraded ACME API performance after an upstream network event disrupted traffic between two data centers on June 18. Some clients received 400 or 500 responses, though most requests succeeded; traffic was rerouted by 16:35 UTC, restoring normal success rates, while operations continued with reduced redundancy into June 19. HN disputed the incident’s practical severity: Let’s Encrypt described roughly 90 minutes of elevated errors, but some users saw repeated total failure. Commenters stressed automation renews weeks early, so an issuance outage should not produce expired certificates.
 
 ### Comment pulse
-- Scope of incident → LE says ~90 minutes of partial failures; several admins report 0% success for many attempts, questioning “degraded performance” wording and asking for concrete success-rate metrics.  
-- Expired certs and UX → Some want softer warnings for just-expired certs; others argue strict blocking plus pre-expiry alerts is essential to expose broken renewal processes.  
-- Ecosystem / alternatives → ZeroSSL, Google Trust Services, SSL.com cited; others worry about CA centralization, suggest DNS-published keys or regional public CAs—counterpoint: replacing Web PKI is extremely hard.
 
----
+- Status language obscured user impact → aggregate success remained high, yet individual clients reported more than 10 consecutive internal-server errors.
+
+- Expiry warnings should remain strict → softer grace periods confuse users and reward broken renewal processes — counterpoint: pre-expiry alerts could prompt earlier fixes.
+
+- Shorter certificate lifetimes increase issuance dependence → commenters questioned resilience and sought free ACME alternatives, including ZeroSSL, Google Trust Services, and SSL.com.
 
 ### LLM perspective
-- View: Incidents like this stress why clients must retry, randomize renewal times, and avoid running certs close to expiry.  
-- Impact: Sysadmins and IoT vendors need monitoring on expiry windows, not just “did ACME run today,” plus clearer mapping from ACME errors to alerts.  
-- Watch next: More multi-CA ACME support, government-backed free CAs, and status pages that publish real-time success-rate graphs to reduce confusion.
+
+- **View:** The incident was limited at platform scale but severe for affected clients, making both aggregate and per-client metrics necessary.
+
+- **Impact:** Operators with early, retried renewals absorb transient CA failures; last-minute workflows expose users to preventable TLS outages.
+
+- **Watch next:** Seek the root-cause report, failure-rate timeline, retry behavior analysis, redundancy restoration, and guidance for resilient ACME clients.
