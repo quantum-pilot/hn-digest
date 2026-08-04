@@ -3,18 +3,17 @@
 - Score: 145 | [HN](https://news.ycombinator.com/item?id=48246889) | Link: https://horace.io/brrr_intro.html
 
 ### TL;DR
-Horace He explains deep-learning performance from first principles: GPU time decomposes into compute (FLOPs), memory bandwidth (moving tensors), and overhead (Python/framework/kernel launches). Modern accelerators are optimized for dense matmuls; most other ops are bandwidth-bound and slow because of DRAM traffic, not math. The key optimization is operator fusion, which reduces memory accesses and can make `cos(cos(x))` cost ~`cos(x)`. A roofline-style example shows when workloads shift from memory- to compute-bound. Finally, Python/framework overhead is huge for small ops, but mostly hidden for large, asynchronous kernels.
 
----
+The article replaces grab-bag GPU tuning with a three-regime model: workloads are limited by compute, memory bandwidth, or framework and launch overhead, and each needs different fixes. Large matrix multiplications exploit tensor cores; small pointwise operations often spend far more time moving data than calculating, making operator fusion especially valuable. Tiny kernels expose Python and PyTorch dispatch costs, while asynchronous execution can hide them for larger work. HN praised the framework but warned that optimizations rarely transfer cleanly across ONNX, TensorRT, runtimes, hardware, or production failure modes.
 
-*Comment pulse*
-- Nvidia’s dominance → TFLOPs, bandwidth, and interconnects have scaled aggressively for years; a 30-year incumbent still out-iterating newer rivals.
-- Performance portability is chaotic → the “same” model in PyTorch, ONNX, ONNX Runtime, TensorRT behaves differently across runtimes/hardware; tuning is deeply platform-specific.
-- Python vs A100 FLOPs comparison → some call it a category error; others say the apples-to-oranges contrast usefully illustrates overhead vs specialized throughput — counterpoint: core-count differences blur the ratio.
+### Comment pulse
 
----
+- Portable optimization is elusive → export format, execution provider, target GPU, and tuning memory can each change the effective model.
+- Optimization is not resilience → production systems also need predictable failure behavior and graceful degradation, which the performance model does not cover.
+- Python-versus-A100 is illustrative, not literal → critics called it a category error — counterpoint: defenders say it dramatizes orchestration overhead.
 
 ### LLM perspective
-- View: Treating performance as compute vs bandwidth vs overhead is a reusable mental model for diagnosing slow training/inference.
-- Impact: Helps practitioners prioritize: fusion and layout for memory-bound parts, batching and async execution for overhead-bound ones.
-- Watch next: Better profilers exposing achieved FLOPs/bandwidth per op, and compilers that fuse more patterns automatically across frameworks and backends.
+
+- **View:** The framework is a roofline-style decision tree: measure utilization first, then optimize the resource actually saturated.
+- **Impact:** Teams can discard irrelevant optimizations early, reducing experimentation around faster hardware, custom kernels, and language rewrites.
+- **Watch next:** Benchmark end-to-end latency, kernel timelines, achieved bandwidth, FLOPS, and degradation under memory pressure on each deployment target.

@@ -3,18 +3,17 @@
 - Score: 131 | [HN](https://news.ycombinator.com/item?id=48243021) | Link: https://www.psypost.org/tiktok-disproportionately-served-anti-democratic-videos-during-the-2024-election-study-finds/
 
 ### TL;DR
-NYU Abu Dhabi researchers audited TikTok’s 2024 U.S. election recommendations using 323 bot accounts across three states and political “training” conditions, plus a user survey. Even when starting with different or no political preferences, TikTok’s For You feed consistently showed more conservative and especially anti–Democratic Party videos, with topic skews (e.g., immigration and crime for Democrats, abortion for Republicans). The effect is robust but only measures exposure, not persuasion or platform intent, and may partly reflect content supply.
 
----
+A Nature study audited TikTok with 323 new bot accounts across New York, Texas, and Georgia during the 2024 election, collecting more than 280,000 recommendations. Republican-trained bots received 11.5% more same-party content than Democratic-trained bots, while Democratic bots saw 7.5% more cross-party material; the skew centered on anti-Democratic videos. Results survived 48 robustness checks and broadly matched a 1,008-user survey. HN debated whether algorithms, paid political operations, creator supply, anti-Democratic leftists, or voter demand produced the pattern. The study measured exposure, not persuasion or intent.
 
 ### Comment pulse
-- Algorithm isn’t the whole story → well-funded, tech-savvy right-wing political operations can buy reach and shape what “organically” trends on platforms.  
-- Anti-Democratic ≠ uniformly pro-Republican → many left-wing creators attacked Democrats from the left, so negative Dem content includes intra-left disillusionment.  
-- Causality and blame debated → some say pro-GOP content reflects voter demand; others cite foreign influence, right-wing misinformation ecosystems, and ownership politics.
 
----
+- Exposure can be purchased upstream → well-funded aligned groups shape content supply and engagement signals before recommendation algorithms rank anything.
+- Anti-Democratic is not synonymous with pro-Republican → left-wing creators also criticized the party, complicating ideological classification and causal interpretation.
+- Election outcome does not resolve causality → popularity could drive recommendations — counterpoint: controlled initial interests were designed to isolate algorithmic treatment.
 
 ### LLM perspective
-- View: Treat algorithmic audits like this as recurring infrastructure, not one-off studies, and extend beyond English and short new-user histories.  
-- Impact: Platform policy teams, campaign strategists, and regulators must assume feeds are structured environments, not neutral reflections of public opinion.  
-- Watch next: Standardized transparency rules for recommender systems, traceable political ad ecosystems, and cross-platform, cross-language exposure-to-attitude studies.
+
+- **View:** The audit establishes asymmetric outcomes under controlled onboarding, but cannot distinguish ranking mechanics from available content supply.
+- **Impact:** New users may encounter cross-partisan negativity before establishing preferences, potentially shaping perceived political norms.
+- **Watch next:** Replicate with real-user histories, full multimodal analysis, paid-content metadata, multiple languages, and cross-platform audits.

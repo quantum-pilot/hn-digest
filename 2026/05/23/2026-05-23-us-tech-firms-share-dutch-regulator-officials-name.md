@@ -3,11 +3,17 @@
 - Score: 201 | [HN](https://news.ycombinator.com/item?id=48246614) | Link: https://www.dutchnews.nl/2026/05/us-tech-firms-share-dutch-regulator-officials-names-with-senate/
 
 ### TL;DR
-US companies including Microsoft and Meta gave a US Senate committee the names of Dutch civil servants, regulators, and academics involved in EU tech regulation, for an inquiry into alleged “tech censorship” and jawboning. The Dutch cabinet calls this “extremely worrying,” fearing possible US travel bans or sanctions on named officials and seeing it as an end-run around government-to-government channels. The incident highlights the Netherlands’ heavy dependence on US cloud providers and the extraterritorial reach of the US Cloud Act.
 
----
+Microsoft, Meta, and other U.S. technology firms reportedly gave a Senate committee names of Dutch officials and academics involved in European tech regulation during an inquiry into alleged censorship pressure. The Dutch cabinet fears individual travel bans or sanctions and protested through the U.S. ambassador, while still assessing what was shared and whether it was public. HN commenters questioned the thin sourcing and possible subpoena context, but treated the episode as another warning about Dutch dependence on American cloud providers despite repeated promises of digital sovereignty.
+
+### Comment pulse
+
+- Critics saw hypocrisy in expanding Microsoft use and allowing Solvinity’s sale while invoking sovereignty — counterpoint: national migrations can require a decade.
+- Commenters disputed whether named regulators merely execute policy or substantially shape it; personal sanctions could also deter future public-service participation.
+- Cloud Act concerns center on jurisdiction: a U.S. warrant can compel American providers to disclose foreign-hosted data despite local-law conflicts.
 
 ### LLM perspective
-- View: This is less about doxxing individuals and more about power struggles over who sets global digital governance rules.  
-- Impact: Increases EU mistrust of US platforms, strengthens arguments for digital sovereignty, and may harden regulatory stances on big tech.  
-- Watch next: Whether EU/Dutch governments demand disclosure limits in contracts, or push for EU-only cloud/identity infrastructure as alternatives.
+
+- View: Vendor disclosure, legislative oversight, and intimidation risk cannot be assessed without the actual request, documents, and legal compulsion.
+- Impact: Officials may become personally exposed while governments remain operationally unable to disengage from the companies identifying them.
+- Watch next: Publication of the Senate request, Dutch review findings, sanctions decisions, Solvinity’s sale, and measurable cloud-diversification plans.

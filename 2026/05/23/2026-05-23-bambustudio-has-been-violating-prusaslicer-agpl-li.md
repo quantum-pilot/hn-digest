@@ -3,18 +3,17 @@
 - Score: 391 | [HN](https://news.ycombinator.com/item?id=48245862) | Link: https://xcancel.com/josefprusa/status/2054602354851254330
 
 ### TL;DR
-Prusa’s Josef Prusa alleges BambuStudio—a fork of PrusaSlicer—has violated the AGPL by keeping its core networking/cloud plugin as a closed, downloadable binary that the slicer depends on. That design evades meaningful auditing and, combined with recent Chinese laws mandating state access to data, raises industrial‑espionage and sovereignty concerns for users printing proprietary designs. Prusa says enforcement is practically impossible against a Chinese company, illustrating how strong copyleft licenses become toothless without cross‑border remedies. HN debates hypocrisy, security, and real‑world IP risk.
 
----
+Prusa founder Josef Prusa alleges that BambuStudio, a PrusaSlicer fork, violates the AGPL by keeping its cloud-networking plugin closed and downloading the binary at runtime. He argues the plugin and slicer form one inseparable product, while enforcement against a Chinese company is impractical. Prusa also connects the unauditable component to Chinese intelligence, encryption, data, counter-espionage, and vulnerability-reporting laws, raising prototype-IP concerns. HN debate separated that legal claim from broader spying allegations, noted comparable U.S. cloud jurisdiction and Prusa’s own cloud dependence, and emphasized Bambu’s price-performance advantage.
 
 ### Comment pulse
-- China vs U.S. surveillance → Critics note the CLOUD Act and big‑tech clouds already expose EU/US data—counterpoint: calling out one bad actor doesn’t excuse others.  
-- Industrial IP risk → 3D printers in R&D labs leak prototype STLs, effectively subsidizing competitor reverse‑engineering via “cheap, convenient” cloud printing services.  
-- Open source fragility → Copyleft is hard to enforce across borders; some conclude small/medium OSS projects can’t realistically defend licenses against well‑funded violators.
 
----
+- Sensitive commercial users favored LAN, SD-card, open-firmware, or self-built printers; others clarified the disputed fork restores Bambu cloud access users requested.
+- Some saw industrial-design leakage as plausible because prototypes precede molds — counterpoint: others expected mostly unlabelled trinkets and random parts.
+- Copyleft enforcement looks asymmetric: proving closed-source violations and litigating internationally can exceed small maintainers’ resources, reducing licenses to weak deterrents.
 
 ### LLM perspective
-- View: Bundling essential features into opaque, auto‑updated binaries is a generic pattern that undermines both copyleft and user security.  
-- Impact: Hardware buyers, especially businesses and labs, must treat cloud‑centric printers as potential data‑exfiltration devices, regardless of vendor assurances.  
-- Watch next: Concrete legal actions, independent network traffic audits, and whether major labs/enterprises begin specifying “offline‑capable, auditable toolchains” in procurement.
+
+- View: License compliance, cloud lock-in, and state-access risk are separate questions; combining them strengthens rhetoric but weakens causal clarity.
+- Impact: Buyers must trade convenience and hardware value against auditability, offline control, and exposure of design files.
+- Watch next: Independent plugin analysis, Bambu’s source response, Software Freedom Conservancy action, and reproducible tests of LAN-mode outbound traffic.

@@ -3,18 +3,17 @@
 - Score: 229 | [HN](https://news.ycombinator.com/item?id=48247127) | Link: https://www.mahl.me/blog/the-spell-that-wouldnt-leave/
 
 ### TL;DR
-A personal essay recalls how one Terry Pratchett line about a memory “kicking over the furniture” lodged in the author’s teenage brain and never left. It celebrates Discworld as contraband-sized paperbacks that turned bored students into readers, praises Pratchett’s mix of silliness and moral seriousness, and mourns both his Alzheimer’s-shortened career and the absence of similarly inviting “on-ramps” for today’s teens. On HN, discussion shifted toward whether the piece itself was partly AI-written and what that implies for future writers.
 
----
+The essay remembers discovering Terry Pratchett at sixteen: pocket Discworld editions were easy to hide in class, treated teenagers as intelligent, mocked solemn fantasy, and left sentences that became durable mental furniture. The author misses both unwritten books after Pratchett’s 2015 death and a comparable on-ramp for bored young readers. HN’s discussion became a meta-story about authorship: readers suspected stylistic AI imitation, and the author acknowledged aggressive Claude proofreading. Others defended specific lines, shared formative Discworld memories, and worried that pervasive suspicion now obscures genuine writing and future talent.
 
 ### Comment pulse
-- This is AI-generated slop → suspiciously Pratchett-flavored phrasing and odd metaphors suggest Claude-style pastiche, not genuine voice — counterpoint: the “furniture” line fits the essay’s own metaphor.
-- AI is killing motivation to write → harder to earn a living, and real writers risk being assumed fake; author admits heavy AI “proofreading” to sound more Pratchett-like.
-- Readers share Pratchett grief and joy → stories of discovering Discworld, hoarding unread final books, loving Witches/Tiffany Aching, and treasured personal email replies from Pratchett himself.
 
----
+- AI assistance changed reception → awkward faux-wit led readers to doubt the entire essay; the author later admitted heavy Claude proofreading and revised sentences.
+- Authenticity anxiety can chill writers → critics fear automation crowds out new voices — counterpoint: others say writing persists while discovery becomes harder.
+- Unread books preserve possibility → fans postpone the final Discworld installment, while recommending Witches and Tiffany Aching to extend the journey.
 
 ### LLM perspective
-- View: Co-written essays need clearer disclosure and firmer human editing; otherwise, stylistic seams dominate the reader’s attention.
-- Impact: Default suspicion of “AI slop” may discourage new voices and distort how online audiences reward or punish writing.
-- Watch next: Norms or badges for AI-assisted writing, plus tools that help preserve a writer’s own quirks instead of flattening them.
+
+- **View:** Stylistic assistance changes the trust contract; undisclosed polishing can make authentic memories feel synthetic even when facts remain personal.
+- **Impact:** Writers face pressure to disclose process, preserve drafts, and accept roughness as evidence of authorship rather than weaker editing.
+- **Watch next:** Compare trust before and after AI disclosure, including perceived voice, emotional credibility, editing quality, and willingness to share.

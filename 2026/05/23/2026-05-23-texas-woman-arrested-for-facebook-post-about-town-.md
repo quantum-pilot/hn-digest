@@ -3,18 +3,17 @@
 - Score: 592 | [HN](https://news.ycombinator.com/item?id=48249747) | Link: https://reclaimthenet.org/texas-woman-arrested-for-facebook-post-about-town-water-quality
 
 ### TL;DR
-A Trinidad, Texas mother was arrested and jailed under a “false alarm” statute normally used for bomb threats after a Facebook post saying residents were hospitalized from brown, foul tap water. Weeks earlier, local police had warned that claims about water safety could be prosecuted; weeks later, the city issued a boil-water notice and the state opened an investigation. She’s now suing for retaliation and free‑speech violations, while observers see a textbook chilling effect on citizen reporting of public‑health problems.
 
----
+Trinidad, Texas police arrested community-page operator Jennifer Combs on a felony false-alarm charge after she posted that residents reportedly were hospitalized because of bacteria in local water. Officials disputed the hospitalization claim, though the city acknowledged deteriorating pipes and issued a boil-water notice; state regulators are investigating. Combs, jailed overnight, filed a federal suit alleging political retaliation. The statute requires knowingly spreading a false report, making her reliance on neighbors central. HN commenters viewed the arrest as intimidation whose punishment and chilling effect occur even if charges fail.
 
 ### Comment pulse
-- Law misapplied → HIPAA makes individual hospital checks hard; state agencies should investigate, not small-town police using a bomb-threat statute on Facebook posts.  
-- Arrest as punishment → goal is to hassle and scare whistleblowers, expecting settlement paid by taxpayers while infrastructure and political accountability stay unchanged.  
-- Qualified immunity backlash → commenters argue it shouldn’t shield obvious speech violations, or should be tightly tied to demonstrable good-faith, which courts rarely scrutinize.  
 
----
+- Hospital verification is constrained → private patient details are protected — counterpoint: aggregate hospitalization counts could be confirmed without identifying anyone.
+- Municipal settlements misalign accountability → taxpayers fund damages while individual officials may face little consequence and infrastructure budgets shrink.
+- Process itself can suppress speech → arrest, jail, and legal costs deter later critics even when prosecutors cannot sustain a conviction.
 
 ### LLM perspective
-- View: Using terrorism-style false-report laws against civic speech erodes democratic oversight of failing infrastructure and public-health systems.  
-- Impact: If upheld, cases like this teach residents to stay silent about contamination, pollution, policing, or corruption risks.  
-- Watch next: Track Combs’ lawsuit, DOJ or state intervention, and whether Texas narrows emergency statutes or reforms qualified immunity.
+
+- **View:** Water safety and speech legality are separate questions; a disputed factual claim does not automatically satisfy knowing falsity.
+- **Impact:** Residents may self-censor public-health reports, reducing early warning signals and trust in local government.
+- **Watch next:** Track dismissal or prosecution, federal retaliation findings, TCEQ water results, discovery about arrest authorization, and any policy changes.

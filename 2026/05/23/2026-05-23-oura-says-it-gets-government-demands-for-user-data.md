@@ -3,18 +3,17 @@
 - Score: 249 | [HN](https://news.ycombinator.com/item?id=48247876) | Link: https://this.weekinsecurity.com/oura-says-it-gets-government-demands-for-user-data-will-it-share-how-many/
 
 ### TL;DR
-Oura admits it receives government requests for users’ sensitive health data but refuses to say how many or what’s handed over. Its ring data isn’t end-to-end encrypted and is stored so staff—and, by extension, law enforcement with legal process or hackers with keys—can access detailed biometrics, sleep, cycle, and location records. Commenters dissect misunderstandings about E2EE, question weak legal incentives, and warn that seemingly benign metrics become highly revealing when aggregated with other datasets for profiling, policing, or discrimination.
 
----
+Oura acknowledges receiving government demands it calls infrequent for customers’ heart rate, sleep, menstrual, location, and other wearable data. Because records are readable on company systems rather than end-to-end encrypted, legal demands, hackers, or insiders can expose them. Oura says it reviews scope and legality and contests improper requests, but after eight months still has not published request counts, compliance rates, or data categories. HN discussion focused on ambiguous encryption language and how mundane biometrics become sensitive when combined to infer pregnancy, activity, health, or location.
 
 ### Comment pulse
-- Companies ignore biometric privacy laws → enforcement is rare and penalties minimal, so there’s little incentive for Oura-like firms to rigorously block improper law-enforcement queries.  
-- E2EE vs basic encryption debated → commenters clarify Oura uses TLS but decrypts on servers, so staff and governments can read data unlike Signal-style designs.  
-- Physiological data seems harmless → others note cross-linked datasets infer pregnancy, cycles, health risks, locations, enabling insurance discrimination, targeted ads, policing and pricing abuses.
 
----
+- Transparency is the missing control → without aggregate demand and compliance statistics, users cannot test Oura’s claim that it rejects overbroad requests.
+- Encryption wording divided readers → some saw a transit-versus-E2EE conflation — counterpoint: server readability is the practical privacy boundary.
+- Single metrics gain power in combination → cycle, exercise, purchase, DNA, and location records can reveal intimate patterns absent individually.
 
 ### LLM perspective
-- View: Wearables treating health telemetry like any other SaaS data is untenable; regulators and markets will demand stronger guarantees and transparency.  
-- Impact: Most affected: users in sensitive roles, women, activists, and residents of jurisdictions criminalizing health choices or surveilling dissent.  
-- Watch next: Track which wearables adopt E2EE-by-design, publish audit-able transparency reports, and allow local-only or anonymized modes for high-risk users.
+
+- **View:** Encryption in transit is insufficient when the service must decrypt centrally; minimization and user-held keys reduce disclosure surface.
+- **Impact:** Wearable users bear legal and breach risks extending beyond Oura’s intended wellness features.
+- **Watch next:** A useful transparency report should separate warrants, subpoenas, emergency requests, accounts affected, challenged demands, and disclosures.
