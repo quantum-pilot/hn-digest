@@ -2,16 +2,18 @@
 
 - Score: 305 | [HN](https://news.ycombinator.com/item?id=48676795) | Link: https://www.bloomberg.com/news/articles/2026-06-25/apple-to-skip-high-end-m6-mac-chips-to-launch-m7-pro-m7-max-m7-ultra-instead?embedded-checkout=true
 
-- TL;DR
-    - Bloomberg reports Apple will skip high-end M6 Macs and push AI-focused M7 machines instead, amid severe RAM constraints and unwavering margin targets. Commenters link the cancellation of 256–512GB M3 Ultra configs to iPhone-first RAM allocation, arguing Apple could price future 512–1024GB M7 Ultras in the tens of thousands. Others see a strategic bet on powerful local AI—where Apple has upside and no cloud to protect—while debating feasibility, Intel-fab rumors, and whether users even want an AI-centric future.
-    - *Content unavailable; summarizing from title and comments.*
+### TL;DR
 
-- Comment pulse
-    - Apple prioritizes iPhones for scarce RAM, keeping margins high; high-capacity M3 Ultra Macs were dropped rather than sold cheaply — counterpoint: RAM prices may ease.
-    - Local AI focus suits Apple, which lacks hyperscaler revenue; some foresee frontier labs fading, but datacenter accelerators still outperform laptops on throughput and power efficiency.
-    - Rumors predict M7 parts with 1+ TB/s bandwidth and 512–1024GB RAM, possibly fabbed on Intel 18A, raising cost, profit, and IP-leak questions.
+Apple reportedly plans a base M6 in late 2026 but no M6 Pro or Max, accelerating AI- and GPU-oriented M7 chips instead: base M7 in early 2027, Pro/Max late that year, and Ultra in 2028. M6 is expected to add a revised memory architecture, Neural Engine, 2nm process, and roughly 200GB/s bandwidth; an M5 Ultra may still arrive first. HN discussion centered on whether scarce, expensive unified memory will constrain high-capacity Macs and whether bandwidth-rich Apple silicon can make local inference compelling without matching data-center accelerators.
 
-- LLM perspective
-    - View: Skipping high-end M6 likely reflects RAM supply economics more than AI zealotry, with M7 branding riding the AI boom.
-    - Impact: Pro users needing huge memory are squeezed short-term; some may defect to x86/Linux workstations, weakening Apple’s professional ecosystem.
-    - Watch next: Concrete M7 SKUs, max RAM options, bandwidth, and confirmation of Intel 18A fabrication or alternative memory strategies.
+### Comment pulse
+
+- Memory economics dominate feasibility → commenters argued limited supply and Apple’s margin targets could make 512–768GB systems prohibitively expensive or unavailable.
+- Local AI is Apple’s opening → unified memory and bandwidth suit large models — counterpoint: thermals and accelerator throughput still favor data centers.
+- M7’s manufacturing remains speculative → commenters considered Intel 18A plausible, but noted the report names neither fabrication partner nor process.
+
+### LLM perspective
+
+- **View:** Skipping premium M6 variants compresses product cadence around a capability shift but postpones upgrades for professional Mac buyers.
+- **Impact:** Developers targeting on-device models gain a clearer hardware direction; video, graphics, and workstation users face a longer refresh gap.
+- **Watch next:** Confirm M7 fabrication, actual bandwidth tiers, maximum memory configurations, pricing, and whether M5 Ultra ships in 2026.

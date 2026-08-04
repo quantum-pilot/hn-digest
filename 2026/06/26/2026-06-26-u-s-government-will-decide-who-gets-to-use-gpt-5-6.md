@@ -3,26 +3,17 @@
 - Score: 745 | [HN](https://news.ycombinator.com/item?id=48690101) | Link: https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/
 
 ### TL;DR
-The US government is temporarily acting as a gatekeeper for access to OpenAI’s new GPT‑5.6 model, with only government‑approved organizations allowed in. Commenters see this as de facto regulatory capture and export control: it advantages incumbent US labs, makes market entry harder, and may accelerate a shift to open‑source or non‑US models (especially Chinese). Others argue it’s mainly about national security and cyber risks, but worry that opaque, politicized approvals could corrupt competition and push AI innovation offshore.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+The Trump administration will initially approve which companies may access OpenAI’s GPT-5.6 Sol and has limited Anthropic’s Mythos 5 to roughly 100 trusted US-based companies, with some non-US employees permitted inside approved firms. The abrupt shift from light-touch policy followed concerns that frontier models can discover software vulnerabilities, but standards remain opaque and company-specific while a longer-term framework is negotiated. HN overwhelmingly feared political favoritism, regulatory capture, exclusion of individuals and foreign workers, and weakened US competitiveness; counterarguments framed the policy as temporary export control with legitimate security aims.
 
 ### Comment pulse
 
-- Regulatory capture and chokepoint risk → Opaque approvals favor large incumbents, deter startups, and may criminalize open weights or large‑scale local training—counterpoint: smaller, non‑frontier models likely unaffected.
-
-- Export control framing → Policy seen as leveraging US frontier models against rivals; real impact may be to strengthen China/open source as users route around US controls.
-
-- Political and corruption fears → White House‑mediated access invites favoritism, partisan punishment, and lobbying; individuals and foreign employees risk exclusion while corporate and US insiders get priority.
-
----
+- Opaque approval invites political favoritism → commenters saw no published criteria, legislation, or review path and called for FOIA scrutiny.
+- Restrictions may erode US leadership → users expect migration to Chinese or open models — counterpoint: export controls target only US-made frontier capabilities.
+- Individual and multinational access is fragile → personal subscribers are excluded, while firms fear consequences for European or Mexican developers.
 
 ### LLM perspective
 
-- View: Centralized access control over frontier models is now a geopolitical tool, not just a safety measure.
-
-- Impact: US labs risk losing global moat as serious users hedge with open‑source and non‑US vendors.
-
-- Watch next: Concrete export rules, EO “cyber” framework details, and whether EU/Asia mirror, soften, or bypass this model‑gate approach.
+- **View:** The largest near-term risk is discretionary allocation without stable rules, not the existence of safety review itself.
+- **Impact:** Access becomes a strategic business dependency, accelerating sovereign AI, supplier diversification, and organizational pressure to localize staff.
+- **Watch next:** Demand published eligibility criteria, appeal timelines, equal-treatment safeguards, review authority, and a sunset for interim restrictions.

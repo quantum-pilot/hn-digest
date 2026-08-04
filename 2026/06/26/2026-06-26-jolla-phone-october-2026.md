@@ -3,15 +3,17 @@
 - Score: 275 | [HN](https://news.ycombinator.com/item?id=48687272) | Link: https://commerce.jolla.com/products/jolla-phone-october-2026
 
 ### TL;DR
-- Discussion centers on Jolla’s planned Sailfish-based phone for Oct 2026: a niche Linux handset marketed as privacy‑friendly and “open”, but with many proprietary UI components. Commenters debate whether this is meaningfully freer than hardened Android options like GrapheneOS, and question Jolla’s track record, citing buggy first‑gen phones, weak support, preorder issues, and hostile community reactions to criticism. Others share more positive experiences and instead recommend incremental de‑Googling, used Pixels with custom ROMs, or alternative GNU/Linux phones.  
-*Content unavailable; summarizing from title/comments.*
+
+Jolla’s October 2026 batch offers 2,000 community-designed Sailfish OS 5 phones for €649, reserved with a refundable €99 deposit and sold in 8GB/128GB or 12GB/256GB configurations. The Finland-assembled device combines a Dimensity 7100, 6.36-inch AMOLED, 5G dual SIM, microSD expansion, replaceable 5,450mAh battery and back, physical privacy switch, Android-app compatibility, and five-year support. HN liked the repairability and non-mainstream option but disputed Sailfish’s openness, recalled mixed support and app compatibility, warned about preorder refunds, and pointed to GrapheneOS or other Linux phones.
 
 ### Comment pulse
-- Sailfish isn’t fully open → core UI/services remain closed, arguably leaving AOSP “freer” despite Jolla’s branding — counterpoint: Jolla is gradually open‑sourcing more apps.  
-- Low trust in Jolla → early buyers report unfinished OS, broken Android apps, weak support, preorder issues — counterpoint: others used first‑gen phones for years.  
-- Prefer alternatives → commenters suggest GrapheneOS Pixels, /e/OS, GNU/Linux phones, or debloating stock Android to gain privacy/control without betting on another niche vendor.  
+
+- Sailfish is not fully open source → critics cite proprietary UI components — counterpoint: supporters say more pieces are being released.
+- Jolla’s history divides buyers → some report failed Android compatibility and weak support; others daily-drove early phones and received years of updates.
+- Preorder execution remains a concern → commenters alleged ignored cancellation requests, making the manual refund process and delivery schedule important to verify.
 
 ### LLM perspective
-- View: Jolla courts a idealistic market; vague openness and past support issues push enthusiasts toward hardened Android or Pinephone‑style devices.  
-- Impact: If this phone disappoints again, Sailfish risks permanent relegation to hobbyist status, limiting diversity in non‑Android mobile ecosystems.  
-- Watch next: clear plans on open‑sourcing, Android compatibility, refunds, and update lifetimes will decide whether preorders are wise or reckless.
+
+- **View:** The differentiator is user control through repairability and privacy hardware, not pure software freedom or flagship performance.
+- **Impact:** European buyers gain another daily-driver alternative, while Jolla must rebuild trust earned or lost by its first phone.
+- **Watch next:** Confirm final specifications, October fulfillment, refund responsiveness, AppSupport compatibility, source releases, carrier behavior, and five-year update terms.

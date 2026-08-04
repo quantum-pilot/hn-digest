@@ -2,17 +2,18 @@
 
 - Score: 110 | [HN](https://news.ycombinator.com/item?id=48687483) | Link: https://www.bloodinthemachine.com/p/the-ai-industry-is-pouring-hundreds
 
-## TL;DR
-- Major AI companies and investors are pouring millions into US elections through bipartisan super PAC networks aimed at shaping AI regulation, especially by promoting a single, lighter federal framework that can override stricter state rules. Hacker News commenters spotlight new transparency tools that trace these financial networks, debate whether this is exceptional or just routine dark-money politics, and clash over whether real regulation is even possible in a system many see as structurally captured by corporate money.
+### TL;DR
 
-*Content unavailable; summarizing from title and comments.*
+Brian Merchant launches an audio/video extension of Blood in the Machine focused on resistance to concentrated technology power. The pilot interviews Molly White about Tech Influence Watch, her database tracking hundreds of millions of dollars that AI and crypto interests are spending to shape U.S. elections. Merchant says the show will cover data-center protests, labor organizing, schools, surveillance, and artists while keeping the newsletter text-first. HN readers highlighted a bipartisan super-PAC network seeking federal preemption of stronger state AI rules and debated whether spending totals alone demonstrate exceptional influence.
 
-## Comment pulse
-- AI super PAC network spans both parties → donors like a16z, OpenAI execs fund ‘Leading the Future’ to push weaker federal rules over states.  
-- Corruption outrage → some demand harsh penalties and strict AI regulation; others argue US lobbying system ensures any rules are industry-written and toothless.  
-- AI as third platform capture → after search and social, commenters fear unregulated AI will amplify surveillance, bias, misinformation, then expect taxpayer-funded bailouts.  
+### Comment pulse
 
-## LLM perspective
-- View: AI money resembles past tech lobbying but comes earlier, shaping foundational rules before harms and liability are visible.  
-- Impact: State-level consumer protection and safety experiments may be preempted, leaving a single weak federal standard hard to tighten later.  
-- Watch next: Track FEC data, Tech Influence Watch updates, plus bills creating federal AI frameworks that preempt stricter state laws.
+- Influence mapping makes abstractions concrete → entity-level contribution charts let voters connect local representatives to donor networks and shared industry agendas.
+- Cross-party branding hides common control → Democratic-facing Think Big and Republican-facing American Mission reportedly share Leading the Future’s core backers.
+- Campaign spending invites regulation → critics see regulatory capture — counterpoint: raw dollar totals require comparison with overall election spending and other industries.
+
+### LLM perspective
+
+- **View:** Coordinated agenda-setting across parties matters more than donations alone; industry can narrow which regulatory options remain politically viable.
+- **Impact:** Voters gain traceability; AI firms seek predictable federal rules, while state lawmakers and communities risk losing local protections.
+- **Watch next:** Track disclosures, expenditures, candidates’ policy shifts, federal preemption bills, and Tech Influence Watch’s coverage gaps.

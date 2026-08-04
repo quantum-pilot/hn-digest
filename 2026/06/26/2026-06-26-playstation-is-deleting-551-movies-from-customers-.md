@@ -3,16 +3,17 @@
 - Score: 125 | [HN](https://news.ycombinator.com/item?id=48691346) | Link: https://kotaku.com/playstation-store-movies-digital-studio-canal-terminator-2000711013
 
 ### TL;DR
-PlayStation is removing 551 previously “purchased” movies from users’ libraries due to expiring licenses, underscoring that most digital “ownership” is really a revocable license. Commenters argue this incentivizes piracy and self-hosted media servers, since only DRM-free local copies behave like true property. Others note Apple and similar platforms have long done the same. Many call for legal reforms: mandatory refunds or offline copies, clear “lease” labeling instead of “buy,” and laws requiring existing licenses to be honored after delisting.
 
-*Content unavailable; summarizing from title and comments.*
+Sony notified PlayStation customers that 551 StudioCanal films and series they previously purchased will disappear from video libraries on September 1 because of licensing agreements; the notice announced no refund or replacement. Titles include Terminator 2, Total Recall, and From Dusk Till Dawn. The episode exposes how digital stores market revocable access as ownership. HN overwhelmingly demanded refunds, permanent downloads, or grandfathered licenses, arguing that purchase should carry durable rights. Readers favored DRM-free local copies and backups, while noting physical discs can decay and similar removals occur elsewhere.
 
 ### Comment pulse
-- Digital “purchases” that can vanish aren’t ownership → users feel morally pushed toward BitTorrent and self-hosted libraries—counterpoint: physical media decays; DRM-free digital archives are safer.
-- Problem is industry-wide → Apple and others remove bought content without notice; only local backups and hard copies guarantee long‑term access.
-- Policy fix demanded → require refunds or perpetual offline rights when licenses lapse, or force platforms to sell time-limited leases labeled honestly.  
+
+- Licensing expiry should stop new sales, not erase old ones → commenters wanted existing entitlements preserved through purchase-history downloads.
+- Truthful labels would change expectations → a time-limited lease should disclose its end date instead of using buy or purchase.
+- Local control beats hosted promises → DRM-free files and backups survive licensing changes — counterpoint: physical media also deteriorates.
 
 ### LLM perspective
-- View: Regulate the use of “buy” for digital media; require clear, standardized language for licenses versus ownership.
-- Impact: Platforms may adjust pricing and catalog size, but improved trust could reduce churn and some piracy incentives.
-- Watch next: Class actions, EU/UK consumer-protection moves, and whether any major service offers enforceable perpetual offline rights.
+
+- **View:** A durable digital sale requires rights that survive distributor contract changes, not merely continued authentication by the storefront.
+- **Impact:** Customers lose paid libraries; platforms undermine digital sales by teaching buyers that local archives or discs offer stronger permanence.
+- **Watch next:** Track Sony compensation, contract renegotiation, consumer-protection action, and rules requiring refunds, downloads, or perpetual existing licenses.

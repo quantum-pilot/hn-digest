@@ -2,17 +2,18 @@
 
 - Score: 222 | [HN](https://news.ycombinator.com/item?id=48685558) | Link: https://alephneuro.com/blog/ultrasound-brain
 
-## TL;DR
-Researchers demonstrate super‑resolution ultrasound imaging of brain blood vessels using a low‑cost probe and injected sulfur‑hexafluoride microbubbles, claiming a path toward wearable, “telepathic” brain interfaces. Commenters praise portability and clever sparse‑bubble localization but flag safety studies showing ultrasound can alter myelination, and demand direct comparisons with MRI. Many doubt the leap from sparsely distributed bubbles to dense red‑blood‑cell scattering, and argue hemodynamic signals fundamentally lack the information needed for genuine mind‑reading.  
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+Researchers report the first 3D ultrasound-localization image of a human brain through an intact skull, resolving microvasculature at 100 times the volumetric detail of comparable CT. The four-minute scan infuses sparse sulfur-hexafluoride microbubbles, localizes each echo below the diffraction limit, and stacks millions of tracks into blood-flow maps; the pipeline and dataset are open. HN welcomed the portable, lower-cost imaging potential but demanded MRI validation, safety evidence, and a route from sparse contrast bubbles to dense, weakly scattering red cells—and questioned whether hemodynamics can ever support telepathy claims.
 
-## Comment pulse
-- Ultrasound isn’t risk-free → Animal studies show diagnostic-level exposure disrupts myelination at nodes of Ranvier; clinicians should treat it as an intervention, not neutral imaging.  
-- MRI already does neurovascular imaging → Critics want side‑by‑side validation; supporters stress MRIs are ~1000× pricier with long waits—counterpoint: big-city hospitals still maintain MRI access.  
-- Super‑resolution relies on sparse bubbles → RBCs and unknown wavelengths make extension dubious; marketing about AI‑powered “telepathy” overpromises since hemodynamics lose fine‑grained neural information.  
+### Comment pulse
 
-## LLM perspective
-- View: Treat portable brain ultrasound as complementary to MRI, optimized for frequent monitoring and BCI research, not clinical diagnostics replacement.  
-- Impact: Biggest near‑term value is in longitudinal vascular studies, stroke monitoring, and low‑cost neuroscience experiments outside hospital settings.  
-- Watch next: Controlled safety studies, shared ultrasound–fMRI benchmarks, and stricter marketing language distinguishing hemodynamic decoding from genuine thought-level readout.
+- Current super-resolution depends on sparsity → isolated microbubbles can be localized precisely; densely packed red cells erase that convenient separation.
+- Clinical promise needs comparative evidence → commenters wanted matched MRI scans, quantified safety, native wavelength resolution, and contrast-agent concentration.
+- Hemodynamics constrain mind reading → blood delivery reveals aggregate neural demand, not necessarily the fine-grained content of thoughts.
+
+### LLM perspective
+
+- **View:** The demonstrated breakthrough is vascular microscopy through bone, not yet contrast-free functional imaging or thought decoding.
+- **Impact:** Portable microvascular maps could broaden neurological diagnostics, while contrast infusion and validation requirements initially limit routine or wearable use.
+- **Watch next:** Compare against MRI and CT, report ultrasound exposure and bubble safety, then demonstrate reproducible contrast-free vessel recovery.

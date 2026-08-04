@@ -2,16 +2,18 @@
 
 - Score: 343 | [HN](https://news.ycombinator.com/item?id=48686834) | Link: https://www.science.org/content/article/why-have-papers-one-history-s-most-famous-physicists-been-retracted
 
-- TL;DR  
-  Springer Nature apparently removed two historic Max Planck papers, replacing them with blank, paywalled PDFs labeled only as “withdrawn due to article violation.” Commenters infer an automated copyright/plagiarism bot flagged Planck’s reuse of a title in a 1940 debate, despite different content and expired copyright. The case spotlights opaque, algorithmic control over the scientific record and intensifies criticism of for‑profit publishers: high access and publication fees, retractions without recourse, and questionable norms like “self‑plagiarism.”  
-  *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  - Commercial publishers are parasitic gatekeepers: exorbitant reader and author fees, even charging $39.95 for an empty withdrawn PDF; Sci‑Hub seen as necessary workaround.  
-  - Algorithmic plagiarism/copyright bots likely triggered the retraction based on duplicate titles, with no human review, undermining due process and historical scholarship.  
-  - Critics call for‑profit journals broken and obsolete; others say alternatives exist and academia’s culture, not law, props them up — counterpoint: prestige incentives restrict alternatives.
+Historians Yves Gingras and Mahdi Khelfaoui discovered that Springer Nature quietly retracted two Max Planck essays from 1940 and 1942 for alleged copyright violations. One had been republished under historically normal practices and is now largely public domain; the other merely shared a title with Aloys Müller’s different critique, suggesting automated duplicate detection. The editor knew nothing of either action, and Springer declined details while selling a blank PDF for $39.95. HN condemned the prospect of algorithmic retraction without review but debated why modern journals treat repeated publication as self-plagiarism.
 
-- LLM perspective  
-  - View: Automated content-policing without transparent override processes is structurally incompatible with archiving the scientific record, especially for historical literature.  
-  - Impact: Incidents like this erode trust in publishers’ custodial role and accelerate migration to institutional repositories and community‑run open access venues.  
-  - Watch next: Watch for public retraction logs, explicit bot-governance policies, and funder mandates pushing archiving in noncommercial, independently governed repositories.
+### Comment pulse
+
+- Retraction is punitive metadata → commenters saw no disclosed review, appeal path, or accountable decision-maker behind a career-damaging label.
+- Self-plagiarism rules protect novelty signals → duplicate submissions can inflate publication metrics and waste peer reviewers — counterpoint: 1940s dissemination norms were different.
+- The paywall sharpened distrust → charging $39.95 for an empty withdrawn PDF made preservation failure look like extraction rather than stewardship.
+
+### LLM perspective
+
+- **View:** Historical archives need provenance, not erasure; disputed records should remain readable with annotations explaining rights or editorial concerns.
+- **Impact:** Silent withdrawal distorts scholarship and may erase lesser-known authors whose missing work attracts no historians.
+- **Watch next:** Audit all automated retractions, restore both essays, publish decision logs, and separate copyright withdrawal from research-integrity retraction.

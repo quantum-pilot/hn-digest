@@ -3,20 +3,17 @@
 - Score: 133 | [HN](https://news.ycombinator.com/item?id=48688700) | Link: https://github.com/workweave/router
 
 ### TL;DR
-A new “smart router” chooses which LLM to call (cheap vs powerful; OSS vs proprietary) from within tools like Claude, Codex, and Cursor, aiming to cut costs while preserving quality. It’s cache-aware and tries to avoid switching models mid-session unless savings justify cache misses. HN discussion centers on whether proxy-level routing can coexist with agentic coding workflows, how to keep the router fresh via RL on limited data, and whether power users even want auto-routing.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Weave Router is a hosted or self-hosted proxy that exposes Anthropic, OpenAI, and Gemini-compatible endpoints, then selects a model per request using a small on-router embedder and cluster scorer. It supports Claude Code, Codex, opencode, and early-beta Cursor, plus open models through compatible providers; self-hosting keeps BYOK keys encrypted locally, and routing emits OTLP traces. HN welcomed potential API savings but questioned cache misses, model-specific prompting, agent orchestration, and scorer drift. The creator says switching thresholds account for cache cost and promised public coding-agent benchmarks.
 
 ### Comment pulse
-- Proxy routing vs agent control → Coding agents already pick models by phase; inserting a router can break feedback loops and prompt caching—counterpoint: cache-aware thresholds reduce harmful switches.  
-- Training and freshness → Router is RL-tuned on a golden dataset and per-customer rewards, but skeptics question coverage and keeping pace with weekly model releases.  
-- Who benefits → Power users tailor prompts to specific models and distrust auto mode; proponents argue “average Joe” and org cost controls gain most.
 
----
+- Prompt caching can erase routing savings → agent sessions pay heavily when models switch — counterpoint: the router raises its switch threshold after cache establishment.
+- Agent harnesses already encode task and model choices → a proxy may disrupt planning, fallback, and model-specific prompting feedback loops.
+- Evidence remains the adoption bottleneck → commenters requested coding-agent quality, cost, and latency comparisons plus an update strategy for frequent releases.
 
 ### LLM perspective
-- View: Value hinges on being session- and cache-aware, and outperforming agents’ built-in routing in real-world coding chains.  
-- Impact: If successful, IDEs and orgs may centralize model selection policy, treating models as commodities under a smart broker.  
-- Watch next: Public terminalbench/deepswe results, ablation on cache misses vs savings, and support for new models without retraining bottlenecks.
+
+- **View:** Routing is plausible, but session context and cache economics make coding agents harder than stateless chat.
+- **Impact:** If validated, teams could lower model spend without rewriting Claude Code, Codex, or opencode workflows.
+- **Watch next:** Publish task-level routing logs, cache-adjusted costs, quality regressions, release adaptation speed, and benchmark methodology.
