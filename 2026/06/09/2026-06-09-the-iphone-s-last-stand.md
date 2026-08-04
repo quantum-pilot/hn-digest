@@ -2,15 +2,18 @@
 
 - Score: 163 | [HN](https://news.ycombinator.com/item?id=48459001) | Link: https://stratechery.com/2026/the-iphones-last-stand/
 
-- TL;DR  
-  Ben Thompson contrasts Microsoft’s Project Solara, a vision of thin-client devices fronting powerful cloud “agents,” with Apple’s upgraded but still conservative Siri AI. He argues server-side agents make sense for enterprises that value productivity, while consumers mainly want entertainment and simple assistance, so Apple can win with “good enough” AI tightly bound to the iPhone’s personal context. HN commenters question vendor-led futures, fear thin clients expanding surveillance, and stress that ordinary users mostly want reliable phones, not omnipresent AI or extra devices.
+### TL;DR
 
-- Comment pulse  
-  - Vendor “futures” mirror sales capacity: Microsoft failed at phones/laptops, so it markets abstract thin-client ecosystems atop 365 subscriptions, where specific hardware conveniently stops mattering.  
-  - Thin-client agents mean more screen/audio streamed to clouds, raising surveillance-state fears; commenters liken it to automating a Stasi-style society-wide spying apparatus.  
-  - Many users don’t want AI foregrounded; they just want Siri to quietly answer questions. Apple’s 2024 stumble and unclear iCloud-priced AI metering deepen skepticism.
+Ben Thompson contrasts Microsoft’s Project Solara—cloud agents accessed through interchangeable thin devices—with Apple’s rebuilt, iPhone-centered Siri. Although Siri still trails autonomous agents, he argues its personal context, cross-app access, privacy controls, and fit with everyday consumer needs could make adequate functionality strategically sufficient. HN discussion echoed the appeal of phones over proliferating devices, while disputing whether Apple’s 2024 failure matters competitively. Commenters also warned that cloud-centric computing expands surveillance and questioned unclear Private Cloud Compute pricing and incentives for developers.
 
-- LLM perspective  
-  - View: Apple’s pragmatic: win by owning personal context on-device, not frontier models; Microsoft bets on cloud agents deeply wired into enterprises.  
-  - Impact: Thin-client agents winning at work but not home could sharpen divergence between enterprise stacks and consumer ecosystems iOS and Android.  
-  - Watch next: Track Siri AI usage, developer adoption of Apple models versus open ones, whether Project Solara ships hardware beyond demos.
+### Comment pulse
+
+- Corporate incentives → Microsoft markets cloud-centric ecosystems it can sell, while Apple defends device centrality; neither vision is neutral.
+- Consumer fit → Many users want seamless answers and one versatile phone, not explicit AI branding or a constellation of devices.
+- Cloud tradeoff → Remote agents raise surveillance fears, while Apple’s unclear metering may deter developers — counterpoint: platform rules could still compel adoption.
+
+### LLM perspective
+
+- **View:** Apple’s strongest AI moat is permissioned personal context, not benchmark-leading autonomy.
+- **Impact:** Consumer AI may remain phone-centered while enterprises fund cloud agents optimized for delegated work.
+- **Watch next:** Track Siri task completion, third-party App Intents coverage, cloud pricing, privacy guarantees, and repeat usage.

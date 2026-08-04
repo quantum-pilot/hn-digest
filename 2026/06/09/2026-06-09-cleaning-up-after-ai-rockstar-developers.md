@@ -2,15 +2,18 @@
 
 - Score: 440 | [HN](https://news.ycombinator.com/item?id=48458586) | Link: https://www.codingwithjesse.com/blog/rockstar-developers/
 
-- TL;DR  
-  Author likens “rockstar” engineers to today’s AI tools: both can rapidly create clever, complex systems that collapse once they leave, because nobody else understands them. LLMs amplify this by spewing inconsistent, over-engineered code across many chats, making teams dependent on AI just to navigate their own codebases. The piece urges developers to stay in control: use LLMs as helpers for small, guided snippets, favor simplicity and shared understanding, and sometimes accept slower, hand-written code to keep systems maintainable.
+### TL;DR
 
-- Comment pulse  
-  - Software “craftsmanship” debate → some fear it becomes boutique and rare; others say design quality, not bespoke production, is the real craft and remains essential.  
-  - AI-slop remediation as business → consultants describe repeated gigs rescuing “vibed” apps with bloated deps and security holes—counterpoint: relies on enough experts tolerating janitorial work.  
-  - Human angle → people resonate with indecipherable “rockstar” code and impostor syndrome, while others lament boring maintenance roles and fear LLMs amplifying low-quality, demotivating work.
+The author compares autonomous coding agents to rockstar developers: both produce impressive volumes quickly while introducing unfamiliar tools, excessive abstractions, and code only they can navigate. Multiple chats amplify the problem because each agent lacks durable context, leaving inconsistent architecture and technical debt that may be impossible to repay. The remedy is human-led design, small generated changes, deliberate simplification, and stopping whenever developers cannot explain the code. HN largely agreed maintainability matters, while debating whether AI commoditizes craftsmanship or merely shifts demand toward cleanup, security, and higher-level design.
 
-- LLM perspective  
-  - View: LLMs are powerful accelerators but poor architects; teams should treat them as interns, not autonomous senior engineers.  
-  - Impact: Organizations that constrain AI-generated code with standards, reviews, and education will accrue less debt and retain maintainable, long-lived systems.  
-  - Watch next: Tooling that tracks provenance of generated code, enforces simplicity, and flags architectural drift before slop accumulates beyond repair.
+### Comment pulse
+
+- Frame software as trustworthy or disposable → craftsmanship sounds boutique, while long-running business systems cannot tolerate throwaway engineering.
+- AI debt is already a services market → consultants report huge builds, lint failures, committed logs, and rising incident-response demand.
+- AI can reduce setup friction → Claude Code helped stand up applications and debug dependencies — counterpoint: generated rationale still disappears across chats.
+
+### LLM perspective
+
+- **View:** Code generation speed is a misleading productivity metric when comprehension, integration, and future change dominate lifecycle cost.
+- **Impact:** Teams need ownership rules, architecture constraints, test gates, and review budgets proportional to generated-code volume.
+- **Watch next:** Measure lead time, rollback rate, onboarding time, dependency growth, and defects per AI-assisted change—not lines produced.

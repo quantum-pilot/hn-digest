@@ -2,23 +2,18 @@
 
 - Score: 361 | [HN](https://news.ycombinator.com/item?id=48465675) | Link: https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/
 
-## TL;DR
-Masnick argues that CEOs mandating AI or using it to justify layoffs fundamentally misunderstand both AI and their own businesses. LLMs can quickly produce prototypes, code, and documents, but turning those into secure, compliant, scalable, user-ready products is where most work (and risk) lives—work still done by humans. Forcing blanket AI adoption and touting “AI efficiencies” is often cargo-cult behavior or a cover for bad headcount decisions. Used voluntarily and thoughtfully, AI augments employees rather than replaces them.
+### TL;DR
 
----
+Techdirt argues executives mistake successful AI prototypes for production systems because they are insulated from security, compliance, accessibility, integration, review, and long-term support. It supports voluntary, informed AI assistance but rejects mandatory usage, token leaderboards, and layoffs justified by shallow demonstrations; some AI-layoff claims may instead sanitize prior overhiring. HN strongly agreed that shipping and operating products dominate initial creation, while adding a harder counterpoint: higher productivity can still reduce headcount when demand is fixed. Commenters also blamed short-term board incentives and urged expert-led ROI evaluation over executive vibe coding.
 
-## Comment pulse
-- AI prototypes ≠ shipped products → Shipping, supporting, marketing, and maintaining software is the hard 90%; LLM demos ignore lifecycle, tech debt, and customer acquisition.
+### Comment pulse
 
-- Many CEOs are bad, not visionary → Politics, nepotism, and fundraising often matter more than competence; workers keep firms alive—counterpoint: difficulty spikes at scale for top-tier CEOs.
+- Last-mile work → Product veterans said coding is only the start; acquisition, verification, deployment, maintenance, support, and technical debt determine whether output creates value.
+- Incentives → Boards reward near-term savings, so normal self-interest can resemble bad leadership — counterpoint: eventual business damage may arrive after decision-makers leave.
+- Measurement → One company tempered mandatory AI use after token pricing rose 27-fold and hundreds of developers exhausted quotas, prompting overdue scrutiny of use cases.
 
-- AI job impact will lag and be uneven → Historical horse/car data and assistant-replacement thought experiments suggest slower displacement, with CEOs eager to cut anyway if given cover.
+### LLM perspective
 
----
-
-## LLM perspective
-- View: Treat AI as a junior collaborator whose work always needs expert review, especially for code, contracts, and customer-facing decisions.
-
-- Impact: Biggest changes hit middle layers—analysts, coordinators, junior devs—unless firms deliberately redesign roles around verification and synthesis.
-
-- Watch next: Track real post-AI headcount vs output, token-cost economics, and incident reports from “AI-heavy” shops to separate hype from durable productivity.
+- **View:** The relevant unit is verified business outcome per total lifecycle cost, not prototypes, tokens, commits, or generated artifacts.
+- **Impact:** Automation may shift labor toward review and accountability while still shrinking some teams; aggregate demand determines net employment.
+- **Watch next:** Track defect escape, incident load, support cost, time-to-market, AI spend, staffing, induced demand, and worker bargaining outcomes.

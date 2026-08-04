@@ -3,14 +3,17 @@
 - Score: 180 | [HN](https://news.ycombinator.com/item?id=48437743) | Link: https://thi.ng
 
 ### TL;DR
-thi.ng is a 20‑year, single‑author–led ecosystem of ~350 open-source libraries for computational design and generative art, now centered on a TypeScript “umbrella” monorepo. It emphasizes tiny, dependency-free, composable modules for geometry, visualization, data structures, GLSL, DSLs, and more, backed by 185 examples and extensive docs. The tools originated in toxiclibs and have powered award-winning commercial and artistic work and education. HN commenters praise its depth and craft, but note limited visibility, some UX glitches, and language preferences as adoption barriers.
+
+thi.ng is Karsten Schmidt’s open-source computational-design toolkit, grown since 2006 into roughly 350 subprojects spanning graphics, geometry, data structures, visualization, simulation, fabrication, and more. Its bottom-up philosophy favors small, composable, mostly functional modules rather than a framework. The TypeScript umbrella monorepo contains 216 packages, about 245,000 lines of code and documentation, 185 examples, almost no third-party dependencies, and an Apache-2.0 license. HN praised its unusually thoughtful, atomic libraries but wondered why adoption remains limited; language preferences and weak discoverability surfaced, alongside reports of Safari/GPU rendering glitches on the showcase site.
 
 ### Comment pulse
-- Deep respect for Karsten/thi.ng → long-time users of toxiclibs and related ports praise the breadth, rigor, and “lab-like” feel—counterpoint: some avoid it due to disinterest in Clojure/TypeScript.
-- Modular TS monorepo is attractive → many small, dependency-free packages, easy to cherry-pick; nice affordances like thi.ng/PACKAGE URLs, but discoverability still seems low.
-- UX / platform issues surface → users report GPU flicker and iOS pinch-zoom reloads; author replies it’s hand-written 2020 code and likely browser/Safari bugs, not AI or heavy JS.
+
+- Language preference limits reach → admirers port selected modules rather than adopt Clojure or TypeScript, helping explain the toolkit’s low visibility.
+- Atomic packaging lowers adoption cost → dependency-free TypeScript modules can be selected individually instead of importing a framework.
+- Showcase polish drew criticism → users reported GPU flicker and broken iOS zoom — counterpoint: the author suspects Safari and could not reproduce one issue.
 
 ### LLM perspective
-- View: thi.ng exemplifies long-horizon, hand-crafted infrastructure for creative code, contrasting with today’s quick, opaque AI-driven tooling.
-- Impact: Most valuable for creative coders, educators, and TS-heavy teams needing deterministic, reusable geometry/visualization/data-flow components.
-- Watch next: Better demos, benchmarks, and cross-language bindings could bridge language gaps and convert admiration into regular, mainstream adoption.
+
+- **View:** thi.ng behaves like a curated standard library for creative computing: breadth without forcing one application architecture.
+- **Impact:** Creative coders can replace scattered dependencies with interoperable primitives, but must invest in catalog exploration and API learning.
+- **Watch next:** Evaluate bundle size, tree-shaking, browser compatibility, maintenance status, documentation paths, and cross-package consistency for a representative project.

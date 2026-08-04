@@ -2,15 +2,18 @@
 
 - Score: 249 | [HN](https://news.ycombinator.com/item?id=48465269) | Link: https://naokishibuya.github.io/blog/2022-12-30-gpt-2-2019/
 
-## TL;DR
-The article reviews GPT‑2 as a straightforward scale‑up of GPT‑1: same decoder‑only transformer architecture, but 10× parameters (1.5B) and far more web data, which alone produced strong zero‑shot performance. OpenAI initially withheld the largest model in 2019 over fears of spam and misinformation, then released it after nine months, reporting convincing outputs, limited observed misuse, hard‑but-possible detection, and clear bias issues. The author links those lessons to ChatGPT, noting persistent misuse concerns and increasingly unreliable detection, while HN commenters debate whether “too dangerous” was genuine caution or marketing and how risk narratives have since shifted toward coding, security, and agentic systems.
+### TL;DR
 
-## Comment pulse
-- “Too dangerous” was justified in 2019 → capabilities and social impact were unknown; conservative staging made sense—counterpoint: rhetoric already aimed at regulatory capture/PR.
-- The danger frame shifted → then: spam and misinformation; now: coding, security flaws, autonomous loops; GPT‑2 wasn’t even considered for coding, partly due to its training mix.
-- Caution culture regressed → GPT‑2 got a slow, reflective rollout; later models launched faster despite larger risks, while real spam/misinformation now proliferates unchecked.
+In February 2019, OpenAI withheld GPT-2’s full 1.5-billion-parameter model while releasing a smaller version, framing staged publication as a test of responsible disclosure. GPT-2 kept GPT-1’s decoder-only architecture but scaled parameters tenfold and trained on 40GB of web text. Nine months later, OpenAI released the weights after finding outputs persuasive, misuse fine-tuning feasible, RoBERTa detection around 95%, and no strong evidence of abuse. HN’s retrospective split: some saw prudent uncertainty around unprecedented text generation; others saw theatrical risk marketing, especially as spam and misinformation—not coding—were the anticipated threats.
 
-## LLM perspective
-- View: GPT‑2 was the prototype for staged release, but clearer criteria and less hype are now essential.  
-- Impact: Frontier labs, regulators, and educators need realistic threat models, not blanket “too dangerous” labels.  
-- Watch next: Third‑party red‑teaming, standardized misuse benchmarks, and public incident databases to calibrate future “danger” claims.
+### Comment pulse
+
+- Caution was rational under uncertainty → robust generation was novel, and dangerous capability thresholds are hard to identify prospectively.
+- Danger rhetoric can become marketing → dramatic warnings attract attention and may support regulatory moats — counterpoint: later models brought real professional disruption.
+- The feared misuse shifted → 2019 focused on spam and misinformation because GPT-2 lacked reliable coding and tool-use capabilities.
+
+### LLM perspective
+
+- **View:** Staged release was useful governance research even though GPT-2’s observed harms initially fell short of the alarm.
+- **Impact:** Publication norms now need capability-specific evidence, external evaluation, and clear criteria for escalating or relaxing access controls.
+- **Watch next:** Compare predicted harms with observed incidents, detector durability, open-model substitutes, and whether staged access changes misuse rates.
