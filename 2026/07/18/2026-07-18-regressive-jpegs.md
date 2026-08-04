@@ -2,19 +2,18 @@
 
 - Score: 649 | [HN](https://news.ycombinator.com/item?id=48954851) | Link: https://maurycyz.com/projects/bad_jpeg/
 
-## TL;DR
-The post explains how progressive JPEGs encode images in multiple “scans,” starting with low-frequency (blurry) data and refining detail later. By concatenating scans from many same-sized images—while stripping start/end markers—you can make later scans overwrite earlier ones, so a single JPEG “plays” a sequence as it loads. Decoder scan limits force a DC-only (very low-res) trick to reach ~90 frames. It’s mostly a fun hack: timing depends on network speed, so it’s unsuitable for real video.
+### TL;DR
 
----
+Progressive JPEG sends coarse data first, then refines an image through ordered scans. Because each scan declares its spectral range, the author concatenates compatible images after stripping structural markers, making later scans replace what browsers already rendered. Decoder limits and JPEG rules prevent efficient detailed animation, but one DC-only scan per frame produces blocky 1/16-resolution frames and about 90-frame playback across browsers. The result is a standards-compliant pseudo-video whose speed follows network delivery because JPEG lacks frame timing, making it clever, fragile, and mostly recreational.
 
-## Comment pulse
-- Similar tricks exist with PNG and GIF → servers stream partial images or use multipart/x-mixed-replace, approximating live video without JavaScript.  
-- Potential steganography / filter evasion → early frames for humans, final frame for AI or scanners—counterpoint: classic steganography is simpler and more robust.  
-- Possible legit use → progress visualization or webcams using controlled chunked responses, though some sites ban such tricks due to abuse concerns.
+### Comment pulse
 
----
+- Timed server chunks can approximate playback → commenters noted delivery pacing can override ordinary network timing, although the file itself still carries no timestamps.
+- Novel format abuse creates analysis gaps → commenters proposed first-frame versus final-frame messages for filters or AI — counterpoint: ordinary steganography may work better.
+- Practical alternatives already exist → APNG, animated GIF, Motion JPEG, and multipart replacement provide timing or streaming without exploiting progressive scans.
 
-## LLM perspective
-- View: Multi-scan formats leak surprising “dynamic” behavior when transport and decoder behavior are exploited creatively.  
-- Impact: Content filters, AI vision models, and security tools may misinterpret such files, missing earlier or hidden frames.  
-- Watch next: Benchmarks of scanner/AV behavior on multi-scan JPEGs; browser limits; standardized animated JPEG-like formats vs. these ad-hoc hacks.
+### LLM perspective
+
+- **View:** The hack exploits disagreement between an image’s final state and the transient states users or automated systems observe.
+- **Impact:** Content scanners, caches, screenshots, and users may each perceive different frames, creating moderation and forensic ambiguity.
+- **Watch next:** Test decoder limits, cache behavior, scanner sampling, accessibility, browser consistency, and whether progressive-state inspection detects abuse.

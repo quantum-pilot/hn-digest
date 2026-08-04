@@ -2,19 +2,18 @@
 
 - Score: 205 | [HN](https://news.ycombinator.com/item?id=48956879) | Link: https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/
 
-## TL;DR
-Azam benchmarks Claude Fable 5 vs GPT‑5.6 Sol on KIRO, a huge NP‑hard fiber-network design problem, with and without each system’s `/goal` mode. Fable 5 is markedly stronger and far more consistent, delivering the best overall solution and the tightest score spread. `/goal` isn’t a generic “try harder” button: it slightly improves medians but worsens means by occasionally amplifying bad strategies. HN comments highlight wildly different user experiences across coding models, context-management pain, and confusion about when persistence features like `/goal` or “ultra” actually help.
+### TL;DR
 
----
+On KIRO, an unpublished NP-hard fiber-network optimization task, Fable 5 and GPT-5.6 Sol each received three matched 30-minute runs with and without goal mode. Goal produced lower scores in four of six pairs, yet worsened average performance because occasional regressions dwarfed its typical modest gains: Fable’s mean rose 759 points and Sol’s 868, where lower is better. Fable delivered the best score and tighter plain-run consistency. The study concludes that persistence amplifies strategy quality rather than supplying intelligence; its narrow task, small sample, sequential services, and eight-CPU environment limit generalization.
 
-## Comment pulse
-- Model rankings are highly personal → some see Codex as a massive upgrade over Claude Code; others find Fable/Opus or DeepSeek superior, especially for languages like Elixir—counterpoint: “YMMV” is a recurring refrain.  
-- Long coding sessions → users report Claude degrading at high context, compaction hurting quality, and recommend task-based resets, reviews in fresh threads, and avoiding weeks-long sessions.  
-- Persistence knobs → `/goal` and “ultra” modes are often misread as magic boosts; commenters note they can be worse and pricier for many tasks, despite GPT’s strong contest results.
+### Comment pulse
 
----
+- Goal is not a harder-thinking switch → it prolongs the active strategy, helping good basins but giving poor solvers more time to entrench.
+- Identical commands hide different control loops → Claude uses a transcript-only evaluator; Codex persists state, exposes lifecycle tools, and resumes its working model.
+- Model rankings remained workload-dependent → commenters reported opposite Claude-versus-Codex experiences across languages and tasks, favoring mixed toolchains over a universal winner.
 
-## LLM perspective
-- View: Persistence features should default off for hard optimization; they increase variance and can hide regressions behind occasional standout runs.  
-- Impact: Tool builders need per-task policies: persistence for legible progress (tests, migrations), plain mode for brittle heuristic search.  
-- Watch next: Multi-problem, multi-model evals that report variance, tails, and resource use, plus clearer UX around “goal” and “ultra” semantics.
+### LLM perspective
+
+- **View:** Persistence has asymmetric risk in open-ended search: small repeated improvements coexist with rare strategy failures that dominate expected performance.
+- **Impact:** Goal mode may improve win rate while worsening expected outcomes, so averages and failure tails matter more than anecdotes.
+- **Watch next:** Replicate across public tasks, larger samples, fixed hardware, multiple budgets, cost accounting, and alternative orchestration modes.

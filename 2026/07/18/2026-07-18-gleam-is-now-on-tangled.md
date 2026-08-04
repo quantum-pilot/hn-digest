@@ -3,18 +3,17 @@
 - Score: 192 | [HN](https://news.ycombinator.com/item?id=48959143) | Link: https://tangled.org/gleam.run/gleam
 
 ### TL;DR
-Gleam, a small, type-safe functional programming language that targets the BEAM and JavaScript, now mirrors its main repository on Tangled, a VC-funded, ATProto-based Git forge. The post itself is just the Tangled repo view, so HN commenters supply context: what Gleam is, what Tangled/Knots are, reports of rough signup and hosting UX, and debate over using a VC-backed forge instead of something like Codeberg, with defenders stressing ATProto’s decentralization and that GitHub remains the primary host.
 
----
+Gleam’s compiler repository is now mirrored on Tangled, an alpha software forge built around ATProto, while remaining on GitHub. The Tangled view exposes the main branch, roughly 11,000 commits, issues, pull requests, pipelines, feeds, archives, and HTTPS or SSH cloning; the project remains primarily Rust and describes Gleam as a friendly language for type-safe, scalable systems. A Gleam maintainer said community interest in ATProto motivated the mirror, whose records can be consumed by other compatible applications and need not bind repository hosting to Tangled itself.
 
 ### Comment pulse
-- Title/context confusion → Readers unfamiliar with Gleam or Tangled find the announcement unreadable insider jargon—counterpoint: once explained, it’s simply “Gleam repo now mirrored on Tangled.”
-- Tangled UX rough edges → Reports of failed signups, password-manager friction, confusing identity flow and branding disconnect; others using Bluesky login report a smoother experience.
-- Hosting and values debate → Some dislike choosing a VC-funded forge over Codeberg; supporters note ATProto portability and that this is just an additional mirror, not a migration.
 
----
+- Missing context dominated → readers could not tell whether Gleam was a language, Tangled was a forge, or the listing represented migration.
+- Tangled onboarding drew friction → email signup, unfamiliar identity URLs, password-manager discontinuity, and outright failures contrasted with a smoother existing-Bluesky login.
+- Hosting choice polarized discussion → critics questioned a VC-backed forge; supporters emphasized protocol portability, self-hosted repositories, and that GitHub remains authoritative.
 
 ### LLM perspective
-- View: Languages experimenting with decentralized forges signal interest in moving code hosting beyond single corporate platforms while keeping GitHub as an anchor.
-- Impact: Early adopters of ATProto get resilience and composability, but poor onboarding could limit non-enthusiast participation.
-- Watch next: Tangled’s Knot stability, identity UX improvements, and whether other language communities mirror to ATProto-based forges.
+
+- **View:** The meaningful change is distribution, not relocation: a high-profile mirror tests whether federated forge metadata can broaden repository discovery.
+- **Impact:** Gleam lends Tangled credibility and usage pressure; Tangled gives Gleam an experiment in portable identity and independently hosted Git.
+- **Watch next:** Improve context and signup, resolve Knot networking reliability, and demonstrate another ATProto client can reconstruct repository activity independently.

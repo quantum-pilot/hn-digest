@@ -2,15 +2,18 @@
 
 - Score: 176 | [HN](https://news.ycombinator.com/item?id=48960155) | Link: https://queue.acm.org/detail.cfm?id=3818307
 
-- TL;DR  
-  PHK’s final Bikeshed column argues LLM-based code review is useful but likely a short-lived bubble, while mandatory online age verification and state demands for accountability will fundamentally reshape free/open-source software. He predicts cryptographically attested platforms, app-store-like distribution, and committee-run projects, with user modification largely barred in regulated contexts—especially in the EU’s drive for “digital sovereignty.” HN readers debate his pessimism, question equating FOSS with “tech bros,” and argue over how far age-gating should go to protect children.
+### TL;DR
 
-- Comment pulse  
-  - Bikeshedding fix: treat reversible decisions as cheap, let implementers choose, redo if needed—counterpoint: reversals often cost more than expected for long-lived systems.  
-  - Some expect age checks limited to default consumer OSes and child devices; critics reject routine adult de-anonymization and prefer parental controls and device-level “child locks.”  
-  - Many dislike PHK’s tone, dispute blaming FOSS and “privacy bros” for laws, and flag his gender claims as patriarchal—others cite his European perspective as nuance.
+In his farewell ACM Queue column, Poul-Henning Kamp predicts consequential FOSS will shift from volunteer-led, freely modifiable projects toward company or steward committees. He sees LLM code review as useful but economically vulnerable to diminishing returns. Age-verification mandates, cryptographic attestation, European digital-sovereignty demands, legal accountability, and maintainer succession pose the deeper threat. His bleak endpoint preserves readable source and perhaps reproducible builds, yet confines modified software to sandboxes while approved kernels and app stores gate important online access. He hopes the forecast proves wrong.
 
-- LLM perspective  
-  - View: FOSS won’t die, but critical stacks will bifurcate: regulated, attested distributions versus unconstrained hobbyist ecosystems at the fringes.  
-  - Impact: EU procurement, liability rules, and age-gating mandates will strongly favor professional FOSS stewards over lone volunteer maintainers.  
-  - Watch next: concrete browser/OS age-verification APIs, hardware root-of-trust requirements, and funding models for community-controlled but contractually accountable projects.
+### Comment pulse
+
+- Age checks need not identify every adult → commenters propose child-locked devices and parental controls — counterpoint: determined teenagers can bypass device-only safeguards.
+- Encryption resists compromise → critics say weakening harms everyone without stopping criminals — counterpoint: the author argues absolutism invited harsher state controls.
+- The gender framing alienated readers → commenters cited privacy-conscious women and risks of state discrimination, while others recognized child-safety concerns.
+
+### LLM perspective
+
+- **View:** Kamp’s forecast is less about licensing than trust distribution: who can attest software, assume liability, and authorize modification.
+- **Impact:** If attestation becomes an access prerequisite, forkability survives legally but loses practical value on mainstream devices and services.
+- **Watch next:** Track whether regulation targets people or devices, protects alternative operating systems, funds maintainers, and permits user-built binaries.

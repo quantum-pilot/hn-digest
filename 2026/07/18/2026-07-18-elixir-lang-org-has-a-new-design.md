@@ -2,15 +2,18 @@
 
 - Score: 157 | [HN](https://news.ycombinator.com/item?id=48959042) | Link: https://elixir-lang.org/
 
-## TL;DR
-Elixir’s official site has been redesigned into a modern, product-style homepage focused on clarity and adoption: a crisp “simple from zero to scale” message, concrete use cases (web, embedded, ML, data, IoT), and short code samples showing pipelines, Phoenix LiveView, Nerves, Nx/Bumblebee, Broadway, and distributed Erlang. It prominently features production users, open-source stewards, and community links. Hacker News reactions are largely positive, with praise for Elixir itself, plus accessibility concerns about dark-heavy design and mode switching.
+### TL;DR
 
-## Comment pulse
-- New design feels more polished → a shinier, clearer homepage is seen as important marketing to attract newcomers and signal a healthy ecosystem.  
-- Accessibility concern → dark-heavy design and light/dark mixing make reading harder; people want system-preference-aware theming or a prominent light-mode toggle.  
-- Elixir love → admired for elegance, concurrency, LiveView, and ecosystem; a few long-time Ruby/Erlang users nitpick syntax and perceived speed trade-offs.
+Elixir’s redesigned homepage reframes the language around a “zero to scale” promise: fast development, maintainable code, and Erlang-derived reliability from solo projects through distributed systems. It pairs concise value propositions with runnable-looking examples for Phoenix and LiveView, Nerves, Nx and Bumblebee, Broadway and Membrane, and Erlang distribution. Production logos, case studies, package links, community channels, and open-source stewards add adoption proof. The page also foregrounds Elixir 1.20’s gradual types and presents web, embedded, machine learning, media, and IoT as first-class domains.
 
-## LLM perspective
-- View: The site reframes Elixir as a practical, batteries-included platform across domains, not just a niche Erlang descendant.  
-- Impact: Helps engineering leaders and newcomers quickly see fit—especially for real-time web, data pipelines, and ML integration.  
-- Watch next: Track onboarding materials, case-study depth, and whether accessibility/theming feedback gets folded into iterative design updates.
+### Comment pulse
+
+- Redesign mostly praised → commenters saw a polished homepage as useful for adoption and paired that goodwill with gratitude for Elixir 1.20.
+- Accessibility prompted the sharpest criticism → dark-first and alternating light/dark sections troubled some readers, who wanted a prominent toggle or system-preference support.
+- Language enthusiasm stayed high → users praised concurrency and LiveView, while a dissenting voice questioned runtime speed and another found syntax less elegant than Ruby.
+
+### LLM perspective
+
+- **View:** The redesign sells an ecosystem, not syntax alone; domain-specific examples make Elixir’s concurrency and reliability story tangible.
+- **Impact:** Broader positioning can attract unfamiliar developers, provided accessibility and performance expectations remain as carefully presented as the happy path.
+- **Watch next:** Add theme controls, validate accessibility, keep examples current, and measure whether visitors reach installation, documentation, and case studies.

@@ -3,18 +3,17 @@
 - Score: 267 | [HN](https://news.ycombinator.com/item?id=48958269) | Link: https://environment.ec.europa.eu/news/ban-destruction-unsold-clothes-and-shoes-enters-application-2026-07-17_en
 
 ### TL;DR
-The EU now bans large companies from destroying unsold but usable clothes, accessories and shoes, forcing them to sell (including discounting), donate or prepare items for reuse, with medium-sized firms following in 2030. Destruction is only allowed in narrow cases (e.g. unsafe, counterfeit, rejected donations) and must prioritize recycling, with proof and public reporting. HN discussion centers on regulatory burden vs necessity, potential loopholes (exports, IP tricks), effects on niche sizes, and whether taxes would be better than outright bans.
 
----
+From 19 July 2026, large EU companies may no longer destroy unsold clothing, accessories, or footwear; medium-sized firms follow in 2030, while small and micro businesses are exempt. Companies must instead sell, discount, donate, repair, refurbish, or remanufacture usable stock. Narrow exceptions cover unsafe, damaged, counterfeit, rights-infringing, or charity-rejected goods, with evidence, annual disclosure, five-year records, inspections, and fines. The rule targets the estimated 264,000–594,000 tonnes of European textiles destroyed before use annually and makes recycling the fallback when authorized destruction is unavoidable.
 
 ### Comment pulse
-- Regulation vs bureaucracy → Some fear endless reporting obligations; others say exemptions are optional, rules integrate with existing systems, and small firms are exempt—counterpoint: even “optional” processes raise costs.  
-- Loopholes and scope → Concerns about exporting stock for destruction or abusing IP exemptions; defenders argue ESPR’s product passports and paper trails make such schemes criminal and expensive.  
-- Market effects and policy design → Worries about rarer sizes being under-produced and brands raising prices; others argue this pushes smaller batches, recycling and better design instead of a simple pollution tax.
 
----
+- Compliance costs are disputed → critics foresee cumulative reporting burdens — counterpoint: reports attach only to exemptions, reuse existing records, and exclude small firms.
+- Inventory behavior may improve → commenters expect smaller batches, better sizing, resale, and donations — counterpoint: firms may drop uncommon sizes or exploit offshore loopholes.
+- Waste hierarchy remains contested → some favor an outright ban to stop brand-scarcity destruction, while others prefer disposal fees and stronger recycling incentives.
 
 ### LLM perspective
-- View: The ban shifts the default from “destroy surplus” to “optimize inventory and reuse,” directly attacking fast-fashion overproduction incentives.  
-- Impact: Fashion brands, logistics providers and recyclers must build systems for traceability, secondary markets, and higher-quality, more predictable production.  
-- Watch next: How Digital Product Passports roll out, enforcement intensity by member states, and whether similar bans extend to electronics and other high-waste categories.
+
+- **View:** The rule converts unsold inventory from disposable brand-management residue into a tracked asset requiring an auditable end-of-life decision.
+- **Impact:** Retailers gain incentives to forecast demand, improve durability, and build resale channels; niche sizing could suffer initially.
+- **Watch next:** Monitor exemption rates, export patterns, donation capacity, fines, disposal volumes, price effects, and availability of uncommon sizes.

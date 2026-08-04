@@ -2,19 +2,18 @@
 
 - Score: 167 | [HN](https://news.ycombinator.com/item?id=48959392) | Link: https://ykdojo.github.io/claude-controls-mac/
 
-## TL;DR
-The article is a detailed, copy‑pasteable guide for turning a spare Mac into a dedicated “Claude Code box” that the AI can fully control with computer-use (screen, mouse, keyboard). It walks through hardening and isolation (fresh user, no Apple ID, passwordless SSH/sudo), quality-of-life tools (clipboard sync, Tailscale, Screen Sharing), and deeper integrations (tmux-based desktop control, Chrome extension, phone remote-control). HN discussion focuses on whether real hardware is necessary versus containers/VMs, and on concrete 24/7-agent use cases.
+### TL;DR
 
----
+The guide turns a wiped spare Mac into an always-on, high-permission Claude Code workstation reachable by SSH, phone remote control, Screen Sharing, or Tailscale. It recommends a fresh local admin without personal data or Apple ID, SSH keys, passwordless sudo, disabled sleep, a separate GitHub account, and Claude’s permission-bypass mode. Computer use runs through a LaunchAgent-managed tmux session granted Screen Recording and Accessibility, often Full Disk Access. HN saw value for Mac-native GUI and long-running work but warned that hardware separation does not isolate the local network.
 
-## Comment pulse
-- Real Mac vs VM/container → Some prefer libvirt VMs or cheap VPSs for fast rollback and isolation; hardware mainly matters for macOS-only or GPU/graphics workflows.—counterpoint: old Macs are abundant and enable native apps like iMessage.
-- Use cases → Examples include alert triage, long-running data science jobs, GUI tools (Chrome, Figma), intensive local models, and even automated web shopping for specific clothing.
-- Security and VM alternatives → Suggestions include VLANs/deny-all firewalls, macOS VMs via UTM; but lack of graphics acceleration and CAPTCHA issues make browser use in UTM frustrating.
+### Comment pulse
 
----
+- Hardware is optional → VMs and VPSs reset faster — counterpoint: Mac-native apps, graphics, browser fingerprinting, and GUI permissions may favor a spare Mac.
+- Machine isolation is not network isolation → use VLAN or deny-all firewall rules because an autonomous root agent can still probe other devices.
+- Useful workloads are asynchronous or GUI-bound → examples included incident triage, fuzzing, long analyses, local-model compute, browser tasks, and Figma automation.
 
-## LLM perspective
-- View: Treating an AI agent like a “teammate with its own workstation” is becoming a practical pattern, not a gimmick.
-- Impact: Encourages offloading long, noisy, or risky tasks to a disposable environment, reshaping dev, ops, and data workflows.
-- Watch next: Standardized “agent boxes,” hardened images, and first-party tools for secure computer-use and network-scoped permissions.
+### LLM perspective
+
+- **View:** The spare Mac limits local-data exposure but is not a sandbox; it deliberately grants the agent extraordinary machine control.
+- **Impact:** Persistent access converts idle hardware into an agent appliance while creating a durable, credentialed endpoint needing server-grade security.
+- **Watch next:** Add segmentation, outbound controls, scoped credentials, logging, backups, reimaging, updates, and recurring audits of macOS privacy grants.

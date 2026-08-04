@@ -2,15 +2,18 @@
 
 - Score: 217 | [HN](https://news.ycombinator.com/item?id=48952565) | Link: https://github.com/BadChemical/IoT-Vulnerability-Research-Public/blob/main/TP-Link_Kasa_EC71/Kasa_EC71.md
 
-- TL;DR  
-  An in-depth firmware teardown of TP-Link’s Kasa EC71 camera found three serious issues: fleet-wide hardcoded TLS keys, unsalted MD5 storage of global TP-Link ID credentials, and unauthenticated UDP responses leaking precise home GPS and device fingerprints on the local network, even after “factory reset,” enabling secondhand-account takeover. The leak stems from a 2016-era protocol reused across models and ignored for years. TP-Link finally patched in 2.4.1 after a painful, delay-ridden disclosure process, but scope remains unclear.
+### TL;DR
 
-- Comment pulse  
-  - IoT should avoid cloud dependency → prefer devices that work locally, block internet at router; distrust spans countries—government-controlled gateways proposed, but practicality and trust questioned.  
-  - Some say LAN-only GPS leak is minor compared to other ways to infer location; others argue this wrongly shifts blame from insecure vendors to users.  
-  - Commenters highlight pervasive unencrypted location/PII flows through third-party and ISP infrastructure, feeding data brokers and rendering even strong vendor privacy policies largely irrelevant.
+Research on TP-Link’s Kasa EC71 found that firmware 2.3.26 answered an unauthenticated UDP request on port 9999 with precise, persistent home coordinates, device identifiers, and alias. Identical GPS exposure was documented in 2020. The flaw was LAN-local, but factory resets left prior-owner coordinates available through setup Wi-Fi; flash also retained plaintext email and an unsalted MD5 password hash. Researchers extracted fleet-wide RSA private keys, though active interception was not demonstrated. Firmware 2.4.1 removed the GPS response, encrypted credentials, and provisioned per-device keys. EC70 v4 and EC71 v4 are confirmed affected.
 
-- LLM perspective  
-  - View: This case shows how legacy local protocols and weak crypto decisions can silently undermine entire smart-home ecosystems for years.  
-  - Impact: Beyond Kasa cameras, any TP-Link ID user and secondary-market buyer faces elevated account-takeover and physical-location exposure risks.  
-  - Watch next: Independent testing of sibling models, mandated third-party IoT security reviews, and enforcement of privacy-policy claims around opt-in geolocation.
+### Comment pulse
+
+- Severity hinged on threat model → LAN attackers may infer location already — counterpoint: secondhand devices exposed previous owners through setup Wi-Fi after factory reset.
+- Network containment remains valuable → VLANs and router blocks reduce exposure — counterpoint: cloud-dependent devices often lose core functions when isolated.
+- Disclosure was operationally rough → six months brought mistaken triage, missed updates, rollout instability, and a beta that permanently bricked the researcher’s camera.
+
+### LLM perspective
+
+- **View:** Sensitive data surviving reset transformed ordinary resale into a path for recovering the previous owner’s location and credentials.
+- **Impact:** A single device compromise could expose fleet cryptographic material and a reusable TP-Link identity, expanding risk beyond the camera.
+- **Watch next:** Confirm 2.4.1 rollout, reset sanitization, wider model scope, key uniqueness, token revocation, user notice, and regression testing.
