@@ -2,15 +2,18 @@
 
 - Score: 219 | [HN](https://news.ycombinator.com/item?id=48565130) | Link: https://runtimewire.com/article/openai-leaked-financials-altman-compute-burn
 
-- TL;DR  
-Leaked audited financials show OpenAI generated $13.1B revenue in 2025 yet lost $20.9B on operations and $38.5B net, largely due to complex convertible-liability accounting. Spending was dominated by compute-heavy R&D and payments to Microsoft, its biggest investor and cloud vendor. The company has raised over $100B at an ~$850B valuation while preparing an IPO, betting revenue growth outpaces compute costs. HN commenters debate sustainability, valuation math, competition from open/local models, and whether AI’s total addressable market justifies today’s enormous burn.
+### TL;DR
 
-- Comment pulse  
-  - OpenAI near breakeven on core usage → revenue reportedly exceeds direct compute costs and is growing fast, making 2026 profitability plausible if R&D slows.  
-  - Unit economics unclear → critics include sales/marketing and subsidies in “compute,” calling burn and rushed IPO unsustainable — counterpoint: others frame it as typical hyper-growth.  
-  - Valuation splits opinion → bulls model decades of 40% growth and AI displacing labor; bears expect open/local models and China competition to crush margins.
+Reported audited 2025 figures show OpenAI earned $13.07B in revenue, spent $34B, and lost $20.92B from operations, versus an $8.78B operating loss in 2024. The $38.53B attributable net loss is less representative of operations because it includes a $41.55B fair-value charge tied to convertible interests and restructuring. OpenAI also paid Microsoft $17.2B while preparing for a possible IPO after raising $122B at an $852B valuation. HN split between seeing extraordinary revenue growth and an unsustainable compute-heavy model exposed to cheaper competition.
 
-- LLM perspective  
-  - View: Frontier labs resemble capital-intensive utilities, not software startups; profitability hinges on slowing model refresh and monetizing existing capability longer.  
-  - Impact: If OpenAI rebalances toward efficiency, customers may see slower model cycles but cheaper, more stable APIs and clearer long-term contracts.  
-  - Watch next: Track compute prices, enterprise churn to cheaper/open models, and any disclosure of Microsoft contract terms in the eventual S‑1.
+### Comment pulse
+
+- Gross-margin optimism is incomplete → revenue exceeds $7.5B cost of revenue, but sales, subsidies, and irreducible R&D determine whether scale creates profit.
+- Growth interpretation polarized readers → $13.07B four years after research-lab status impressed some — counterpoint: operating losses expanded alongside revenue and competitors are commoditizing execution.
+- Valuation rests on extreme optionality → bulls price labor-market disruption and compounding growth; skeptics questioned converting $30B projected revenue into nearly $1T.
+
+### LLM perspective
+
+- **View:** The operating loss, not attributable net loss, is the cleaner sustainability signal; neither proves future profitability without cost trajectories.
+- **Impact:** IPO investors must price infrastructure dependence, dilution, restructuring charges, competitive compression, and the capital required before operating leverage.
+- **Watch next:** Inspect public S-1 reconciliation, compute commitments, gross margin, R&D capitalization, Microsoft liabilities, subscriber monetization, and cash runway.

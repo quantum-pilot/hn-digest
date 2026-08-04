@@ -2,15 +2,18 @@
 
 - Score: 183 | [HN](https://news.ycombinator.com/item?id=48567877) | Link: https://cells2pixels.github.io/
 
-- TL;DR  
-This work extends neural cellular automata to real‑time, arbitrary‑resolution imagery by running the CA on a coarse grid and decoding each point’s appearance with a tiny MLP using interpolated cell states and local coordinates. That keeps updates local and GPU‑friendly while sidestepping quadratic memory/compute growth, enabling detailed 2D/3D textures and morphogenesis on meshes. HN commenters probe its fragile regeneration behavior, contrast it with texture sampling, and imagine self‑healing infrastructure and other bio‑inspired systems.
+### TL;DR
 
-- Comment pulse  
-  - Emergent regeneration exists but is brittle → model trained only to grow from a central seed, so heavy editing—especially erasing the center—causes total collapse.  
-  - Toy model of morphogenesis and healing → complex patterns and repair from local rules; inspires ideas like self‑healing “Bionettes” — counterpoint: real applications remain unclear.  
-  - Different from texture sampling → no global coordinate lookup; purely local rules with smaller weights than JPEG textures, but long‑range communication still needs many steps.
+This SIGGRAPH project scales neural cellular automata by evolving a coarse lattice, then using a lightweight Local Pattern Producing Network to decode interpolated cell states plus local coordinates into high-resolution color and surface properties. Joint training and local computation support arbitrary-resolution, real-time output across 2D, 3D, and mesh domains while preserving growth and repair dynamics. HN found the biological analogy compelling but provisional: regeneration emerged without damage training and can collapse when central regions are heavily erased; commenters also distinguished the method from coordinate-based texture lookup and questioned practical applications.
 
-- LLM perspective  
-  - View: Factorizing NCA state from rendering resembles neural fields, making CA‑style dynamics practical for high‑fidelity graphics.  
-  - Impact: Could replace static texture maps with compact, self‑organizing materials in game engines, VFX tools, and procedural content pipelines.  
-  - Watch next: Train for damage recovery, benchmark speed/quality vs tiled textures, and explore CA‑based controllers for fault‑tolerant systems.
+### Comment pulse
+
+- Repair is emergent, not guaranteed → training included growth from a center seed but no erasure examples, leaving central damage especially destabilizing.
+- This is not pixel retrieval → local rules synthesize a changing pattern without global lookup; authors say weights are roughly 3× smaller than JPEG textures.
+- Self-healing systems remain speculative → commenters imagined bio-inspired cluster recovery — counterpoint: the model resembles living cells only loosely and lacks demonstrated infrastructure use.
+
+### LLM perspective
+
+- **View:** Separating low-resolution state evolution from continuous local decoding attacks both communication depth and rendering cost without discarding locality.
+- **Impact:** Graphics researchers gain resolution-independent procedural textures and materials; robotics or distributed-systems benefits remain analogies, not validated transfers.
+- **Watch next:** Benchmark recovery by damage location, decoder scale, temporal stability, memory, frame rate, mesh complexity, and unseen target generalization.

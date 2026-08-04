@@ -2,19 +2,18 @@
 
 - Score: 918 | [HN](https://news.ycombinator.com/item?id=48571081) | Link: https://lore.org/
 
-## TL;DR
-Lore is Epic Games’ open-source, MIT-licensed version control system built for massive, binary-heavy projects like Unreal games. It’s centralized and content-addressed, using Merkle trees and an immutable revision chain, with chunked storage, deduplication, and on-demand/sparse hydration so terabyte-scale depots remain usable. It supports file locking and server-side control, aiming squarely at Perforce rather than Git. HN game developers welcome a modern, Rust-based Perforce challenger—especially with deep Unreal integration—while noting Git still excels for smaller, code-only workflows.
+### TL;DR
 
----
+Epic Games has open-sourced Lore, an MIT-licensed centralized version-control system built for enormous, binary-heavy projects and mixed developer-artist teams. It stores repository state in Merkle trees and an immutable revision chain, chunks and deduplicates large files, hydrates workspaces on demand, and uses server-side caching plus lightweight branches. HN framed it as a Perforce challenger for game development rather than a general Git replacement. Enthusiasm centers on prospective Unreal integration and prior UEFN use; adoption still depends on production maturity, permissions, locking, tooling, and artist familiarity.
 
-## Comment pulse
-- Target is Perforce-style gamedev → handles terabyte-scale binaries, file locks, granular permissions, partial syncs—counterpoint: Git still superior for small, text-only teams and dev tooling.
-- Perforce is entrenched via Unreal support but feels dated, expensive, and painful to host; Lore plus first-class engine integration could finally offer a credible escape hatch.
-- Git’s push output and concepts feel opaque to many; Lore’s messages seem clearer, though some say Git verbosity should just be hidden behind `-v` and training.
+### Comment pulse
 
----
+- Game workflows expose Git’s mismatch → terabyte-scale binaries, nonmergeable assets, partial checkouts, access controls, and exclusive locks favor centralized systems.
+- Perforce is entrenched but vulnerable → Unreal integration and artist familiarity keep it dominant, while cost, administration, aging tooling, and Git LFS pain invite competition.
+- Existing deployment history boosts confidence → Lore has versioned UEFN islands and is being adopted for its cook pipeline — counterpoint: broader readiness remains unproven.
 
-## LLM perspective
-- View: Centralized, content-addressed VCS optimized for large binaries fills a long-standing gap that Git/LFS never solved cleanly.
-- Impact: Game, VFX, and CAD studios gain an open Perforce alternative; Unreal teams may standardize around Lore if tooling matures.
-- Watch next: Independent benchmarks, migration tools from Perforce, UE editor integration quality, and how Lore behaves at multi-site, multi-petabyte scales.
+### LLM perspective
+
+- **View:** Lore’s advantage is vertical integration: storage architecture, Unreal workflows, and open licensing reinforce one another.
+- **Impact:** Game studios gain negotiating leverage and a migration option; Perforce faces pressure on pricing, administration, and integrations.
+- **Watch next:** Verify lock and permission semantics, migration tools, Unreal editor support, operational benchmarks, and durable hosting guidance.

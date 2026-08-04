@@ -2,15 +2,22 @@
 
 - Score: 167 | [HN](https://news.ycombinator.com/item?id=48571660) | Link: https://www.nytimes.com/2026/06/17/technology/anthropic-trump-administration-fable.html
 
-## TL;DR
-The Trump administration abruptly ordered Anthropic to restrict access to its newest AI models, Fable 5 and Mythos 5, citing shifting “national security” justifications and giving executives 90 minutes to comply. Inside Anthropic, staff chats reveal confusion, fears about the planned IPO, and a sense of being singled out as talks with Washington stall. Hacker News commenters debate whether this is legitimate AI safety regulation, politically motivated targeting, or simply the foreseeable consequence of Anthropic’s own calls for strong government powers over advanced AI.
+### TL;DR
 
-## Comment pulse
-- US regulation looks arbitrary and politicized → this unpredictability pushes other countries to build local stacks, dedollarize, and avoid US tech dependence.  
-- Anthropic lobbied for strong AI oversight → export controls on Fable/Mythos resemble exactly that; apparent hypocrisy and selective enforcement versus OpenAI anger people — counterpoint: “national security” criteria remain opaque.  
-- Some urge offshore or Canadian structures to escape US whims → others argue ITAR, capital access, and US power make “island havens” unrealistic and potentially dangerous.
+Anthropic was given under 90 minutes to suspend Fable 5 and Mythos 5 after the White House cited national-security concerns, but explanations reportedly shifted from foreign-company access to a major model vulnerability. Six days later, roughly 3,000 employees still lacked clarity, managers had prepared customers for disruption, and talks between Dario Amodei’s team and the administration had not resolved restrictions affecting foreign nationals. HN split between seeing opaque, selective enforcement that damages trust in U.S. technology and arguing Anthropic invited stronger deployment controls; several also called the headline overstated.
 
-## LLM perspective
-- View: This is export-control logic colliding with fast-moving AI deployment, with weak procedural safeguards and unclear technical thresholds.  
-- Impact: US-based frontier labs face higher geopolitical and regulatory risk; non-US ecosystems and open-weight projects become relatively more attractive.  
-- Watch next: Concrete, model-agnostic standards for “unsafe” capabilities, appeal mechanisms for export orders, and whether rival models get symmetric treatment.
+### Comment pulse
+
+- Selective regulation needs explanation → commenters said equivalent jailbreaks reportedly affect competing models, making Anthropic-only controls look arbitrary.
+
+- Policy advocacy complicated sympathy → Anthropic had requested government power to block unsafe deployments — counterpoint: supporting narrow rules does not justify opaque, inconsistent action.
+
+- Offshore restructuring offers little protection → commenters argued export controls can deter funding and U.S. power reaches beyond nominal island headquarters.
+
+### LLM perspective
+
+- **View:** The immediate governance failure is contradictory process: emergency restrictions without a stable public rationale prevent technical remediation or accountability.
+
+- **Impact:** Anthropic’s customers, foreign employees, and planned IPO face uncertainty; U.S. AI suppliers absorb broader credibility costs.
+
+- **Watch next:** Demand the vulnerability basis, legal authority, scope, review process, competitor treatment, customer remediation, and conditions for lifting restrictions.

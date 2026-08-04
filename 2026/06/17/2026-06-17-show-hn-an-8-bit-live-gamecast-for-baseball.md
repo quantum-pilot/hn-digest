@@ -3,11 +3,21 @@
 - Score: 188 | [HN](https://news.ycombinator.com/item?id=48573012) | Link: https://ribbie.tv/watch
 
 ### TL;DR
-Ribbie is a browser-based, 8-bit–style live “gamecast” for baseball that lets you follow real games as retro pixel animations instead of video. The interface presents a living-room–like view with different zoom levels (room, couch, full), and users can jump into specific matchups via links for each game. It aims to make standard play-by-play data more fun and watchable, especially for fans who can’t stream full broadcasts or want a lighter, nostalgic experience.
 
----
+Ribbie presents live baseball games as a dynamic 8-bit gamecast, with selectable games and room, couch, zoom, or full viewing modes. The page lists multiple live or scheduled matchups and supports ambient living-room viewing rather than only a conventional scoreboard. Even non-sports fans found the animated second-screen concept compelling, while HN proposed presentation, navigation, baseball-detail, and audio refinements. The creator said basic audio and effects were added and liked event recaps. A significant unresolved concern is whether MLB’s data licensing permits a shared service.
+
+### Comment pulse
+
+- Visual authenticity could improve → commenters preferred real pixel typography and deterministic downsampling over AI-generated assets for a more coherent 8-bit style.
+
+- Interaction should support inattentive viewing → users requested a back action for missed plays, pinnable intermission panels, and key-event summaries.
+
+- Audio raised product and rights tradeoffs → sound effects improve ambient use; embedded broadcasts would be ideal but may be unavailable.
 
 ### LLM perspective
-- View: This reframes box-score data as a visually engaging, low-bandwidth, always-on “ambient” baseball experience.  
-- Impact: Helps fans at work, on slow connections, or in regions without TV rights still enjoy a sense of watching live.  
-- Watch next: Support for minor leagues, mobile-optimized layouts, and accessibility features could broaden adoption beyond core tech-savvy baseball fans.
+
+- **View:** Ribbie is strongest as glanceable ambient media, so legibility, event recovery, and cues matter more than simulation depth.
+
+- **Impact:** Baseball fans gain a stylized second screen; bars and casual viewers get a playful alternative to broadcasts and scoreboards.
+
+- **Watch next:** Validate feed licensing, latency, event accuracy, mobile and TV readability, replay UX, and retention after audio additions.

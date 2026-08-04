@@ -2,19 +2,18 @@
 
 - Score: 329 | [HN](https://news.ycombinator.com/item?id=48570948) | Link: https://charitydotwtf.substack.com/p/ai-demands-more-engineering-discipline
 
-## TL;DR
-Majors argues that once AI made “median engineer–quality” code cheap and fast, code stopped being the core asset and became a disposable cache of understanding. The real product is system behavior in production plus the human knowledge encoded as specs, tests, invariants, and observability. Nondeterministic AI components therefore require *more* engineering discipline—richer evaluation harnesses, tighter feedback loops, and better architecture/behavior artifacts—not a laissez-faire collapse of rigor. HN commenters worry about unreadable AI sludge, unseen tech debt, and where meaningful human work now lives.
+### TL;DR
 
----
+The essay argues that cheap AI generation should make implementations disposable, like immutable infrastructure, while moving durable knowledge into specifications, architecture artifacts, behavioral tests, capture-replay, observability, and production evaluations. Code becomes a materialized view of shared understanding, regenerated rather than endlessly mutated. Because agents are nondeterministic and output volume explodes, teams need shorter feedback loops and stronger validation, not relaxed review. HN agreed knowledge cannot remain only in code, but warned that plausible automated artifacts can overwhelm reviewers and that complete regenerative specifications may approach source code’s complexity.
 
-## Comment pulse
-- AI makes everyone look prolific → distinguishing deep understanding from copypasta is harder; orgs risk drowning in plausible artifacts and unprecedented technical debt.  
-- Reading AI sludge is exhausting → better to treat prompts, plans, and behavioral tests as the durable artifact; giant LLM diffs are effectively unreviewable.  
-- Perfect specs may be as hard as code → yet much modern work is compositional, so “good-enough” models plus LLMs already accelerate useful, non-exotic systems.
+### Comment pulse
 
----
+- Artifact volume obscures competence → prolific agents produce polished code, reviews, and designs, making genuine system understanding harder to identify and increasing hidden debt.
+- Human intent should survive generation → prompts, plans, decisions, and agent sessions are often discarded even though they explain and can recreate the implementation.
+- Regeneration has an information ceiling → specifications reproducing every behavior may become source code — counterpoint: incomplete models can still be useful.
 
-## LLM perspective
-- View: The real leverage is in encoding tacit knowledge into specs, evals, observability, and regeneration workflows; codegen is increasingly commoditized.  
-- Impact: SREs, QA, and tech leads gain prominence; hiring must weight system thinking and evaluation design over raw coding output.  
-- Watch next: Tools that version prompts/sessions as first-class artifacts, standardized eval-in-prod frameworks, and postmortems explicitly tagging AI-induced complexity or debt.
+### LLM perspective
+
+- **View:** AI relocates the bottleneck from production to verification; the scarce resource becomes trustworthy evidence that behavior matches intent.
+- **Impact:** Senior engineers spend less time typing and more time designing constraints, decomposing changes, preserving rationale, and interpreting production evidence.
+- **Watch next:** Measure review load, defect escape, rollback rates, comprehension retention, regeneration fidelity, and system complexity—not lines or PR counts.

@@ -3,14 +3,17 @@
 - Score: 306 | [HN](https://news.ycombinator.com/item?id=48565498) | Link: https://www.reuters.com/world/china/us-holds-off-blacklisting-chinas-deepseek-more-than-100-firms-deemed-security-2026-06-17/
 
 ### TL;DR
-Reuters reports the US Commerce Department has quietly stalled adding China’s AI firm DeepSeek, DRAM maker CXMT and 100+ others to the Entity List, despite interagency approval. Officials fear worsening tensions with Beijing, critics say inaction lets sensitive US tech keep flowing to Chinese military-linked and Russia-supplying companies, and China calls the list politicized economic warfare. Hacker News focuses on DeepSeek’s strong price‑performance, doubts about “national security” rationales, and whether export controls are enforceable or counterproductive.
+
+Reuters reports that the Commerce Department has withheld publication of Entity List additions already approved for DeepSeek, CXMT, and more than 100 firms deemed security risks, apparently to avoid escalating tensions with Beijing. No entities have been added since October, the longest pause in over a decade, despite allegations involving military links, restricted chips, and Russian drones. Listing would restrict U.S. exports to those firms. HN commenters were largely skeptical, emphasizing DeepSeek’s low-cost utility, uneven effects across industries, and the risk that controls accelerate domestic Chinese substitutes.
 
 ### Comment pulse
-- DeepSeek is a superb cheap coding assistant → devs report massive productivity per dollar and, outside the US, largely ignore data-sovereignty worries vs American providers.  
-- Entity List is protectionist → many see “national security” as cover for blocking competitors—counterpoint: others note it’s an export-control tool enforced through contracts and banks.  
-- Controls may be ineffective or self-defeating → export bans can be dodged via third countries and may just accelerate China’s own GPUs and memory production.  
+
+- Price-performance drives adoption → developers report reliable coding help, doubled productivity, and over 100 million monthly tokens for about $2.
+- Entity List effects are asymmetric → it restricts U.S. sales, not purchases; GPU-limited AI labs may adapt, while CXMT could face greater disruption.
+- Security framing is polarized → critics call restrictions economic protectionism — counterpoint: enforcement already operates through contracts, law, banking, and export licensing.
 
 ### LLM perspective
-- View: US export control paralysis creates gray zone where firms are “approved but unlisted,” undermining deterrence and clarity for both sides.  
-- Impact: If DeepSeek stays unlisted, Western devs keep cheap access while US loses leverage to demand safeguards or reciprocity.  
-- Watch next: Track GPU and DRAM supply chains: chokepoints on Nvidia and CXMT matter more than symbolic bans on individual AI labs.
+
+- **View:** Delayed publication turns a security instrument into bargaining leverage, exposing tension between threat mitigation and diplomatic trade management.
+- **Impact:** U.S. suppliers retain uncertain exposure; targeted firms gain time to reroute procurement and reduce dependence on controlled technology.
+- **Watch next:** Monitor actual list publications, license denials, transshipment enforcement, Chinese GPU substitution, and any U.S.-China trade concessions.

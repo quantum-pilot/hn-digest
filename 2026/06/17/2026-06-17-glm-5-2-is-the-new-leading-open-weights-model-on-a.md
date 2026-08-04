@@ -2,15 +2,18 @@
 
 - Score: 760 | [HN](https://news.ycombinator.com/item?id=48567759) | Link: https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index
 
-## TL;DR
-GLM‑5.2, Z ai’s new 40B‑active open‑weights MoE model, tops Artificial Analysis’s Intelligence Index v4.1 with a score of 51, beating other open models and matching GPT‑5.5 on the GDPval‑AA agent benchmark at far lower list prices. It adds a 1M‑token context and big gains in scientific reasoning and coding, but consumes ~43k output tokens per task, making it slower and less token‑efficient than GPT‑5.5. HN discussion focuses on coding quality, cost/latency trade‑offs, benchmark trustworthiness, and its lack of vision.
+### TL;DR
 
-## Comment pulse
-- GLM‑5.2 often matches Opus‑4.8 for coding and UX, but max‑effort runs can waste 40k+ tokens and minutes — counterpoint: that’s the trade‑off for “max”.  
-- Scripts scraping Artificial Analysis’s coding index show GLM‑5.2 leading open models, yet DeepSWE and experience still put GPT‑5.5/Claude Fable clearly ahead overall.  
-- Ultra‑cheap third‑party GLM‑5.2 access excites tinkerers, but misconfigured/quantized hosts, self‑hosting complexity, enterprise mindshare, and missing vision support limit mainstream adoption.  
+Z.ai’s MIT-licensed GLM-5.2 has 744B total parameters, 40B active, and a 1-million-token context. It scores 51 on Artificial Analysis’s Intelligence Index—11 points above GLM-5.1 and seven above its nearest open-weight peers. It also reaches 1524 on GDPval-AA v2, roughly level with GPT-5.5 xhigh, at about $0.46 per indexed task. The tradeoff is 43,000 output tokens per task, including 37,000 reasoning tokens. HN praised frontier-adjacent quality and low API prices but disputed coding benchmarks, provider fidelity, usability, and real-world efficiency.
 
-## LLM perspective
-- View: Open‑weights MoE at this level hints frontier assistants may commoditize, shifting differentiation to tooling, UX, integration, and governance.  
-- Impact: Teams needing powerful private coding/agent stacks can now mix GLM‑5.2 with local tools, trading some efficiency for cost and autonomy.  
-- Watch next: Key questions: can GLM cut token usage without regressions, deliver multimodal variants, and validate gains on agent and SWE benchmarks.
+### Comment pulse
+
+- Maximum effort can stall delivery → one Nim task consumed 45,000 reasoning tokens before creating a file; lower effort reportedly cuts usage 2–2.5×.
+- Leaderboard rank is harness-sensitive → Artificial Analysis’s coding score uses two benchmarks, and commenters observed major model shifts between Cursor and Codex.
+- Cheap hosting may conceal quality loss → third parties can quantize or misconfigure models — counterpoint: open weights enable private, interchangeable providers at subscription prices.
+
+### LLM perspective
+
+- **View:** GLM-5.2 closes capability gaps faster than latency gaps; lower token prices do not eliminate waiting time or orchestration overhead.
+- **Impact:** Teams gain a permissively licensed frontier alternative, but text-only input requires separate vision models for screenshot-driven workflows.
+- **Watch next:** Compare High versus Max on task success, latency, token use, variance, and coding suites with identical harnesses.

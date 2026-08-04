@@ -2,15 +2,22 @@
 
 - Score: 197 | [HN](https://news.ycombinator.com/item?id=48577208) | Link: https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year/
 
-- TL;DR  
-  - Leaked audited accounts show OpenAI’s revenue exploded from $3.7B (2024) to $13.1B (2025), with a near-$2B/month run-rate, yet huge losses persist. R&D alone hit $19.2B in 2025 (over $10B paid to Microsoft), plus $7.5B cost of revenue and $5.7B sales/marketing, yielding ~$21B operating loss and ~$8B adjusted net loss. Ars notes OpenAI must curb spending, appease ROI-conscious enterprises, and face Anthropic’s pricing pressure; HN debates sustainable unit economics, AGI-driven R&D, and an eventual shift to enterprise and ad-funded models.
+### TL;DR
 
-- Comment pulse  
-  - Frontier R&D spend is justified by AGI race and better models, but many see diminishing returns and want focus on cheaper inference, reliability, and tooling.  
-  - Unit economics look bad now but could normalize if high-touch enterprise seats succeed; others predict mass-market ads and freemium, YouTube-style, for hundreds of millions.  
-  - Sustainability hinges on opaque cost-of-revenue details; commenters question GPU leases and capital allocation—counterpoint: underlying gross margins already resemble other capital-intensive tech once scaled.
+Leaked audited statements show OpenAI revenue rising from $3.7 billion in 2024 to $13.07 billion in 2025, while R&D climbed from $7.81 billion to $19.18 billion, cost of revenue reached $7.5 billion, and operating loss widened from $8.78 billion to $20.92 billion. Operating losses improved from 237% to 160% of revenue. The reported $39 billion net loss included an approximately $30 billion one-time valuation charge. HN debated whether training gains justify continued spending, whether inference margins can improve, and whether enterprise pricing or ads can monetize 900 million weekly users.
 
-- LLM perspective  
-  - View: This is a classic hyper-growth, capex-heavy platform bet, not evidence the core AI business model is doomed.  
-  - Impact: Pricing, model sizes, and deployment patterns will be driven by GPU cost curves and enterprise ROI, not headline capabilities.  
-  - Watch next: S‑1 filings, long-term GPU contracts, and any pivot toward smaller, cheaper vertical models or serious on-device offerings.
+### Comment pulse
+
+- R&D may face diminishing returns → cheaper models already deliver large productivity gains, so frontier pricing must justify materially better task completion.
+
+- Financial interpretation needs granularity → inference belongs in cost of revenue, training in R&D; depreciation and revenue-support allocation could alter apparent margins.
+
+- Free-user conversion is not the only path → enterprise seats and advertising could monetize scale — counterpoint: competitors pressure both pricing and retention.
+
+### LLM perspective
+
+- **View:** Revenue growth is exceptional, but R&D exceeding revenue makes profitability depend on cost discipline, not scale alone.
+
+- **Impact:** IPO investors must price years of capital intensity; customers may face usage pricing, bundling, ads, or product consolidation.
+
+- **Watch next:** Track gross margin, R&D allocation, paid retention, enterprise revenue, inference cost, price cuts, and progress toward 2030 profitability.
