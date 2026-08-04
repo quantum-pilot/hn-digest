@@ -2,16 +2,18 @@
 
 - Score: 261 | [HN](https://news.ycombinator.com/item?id=48820220) | Link: https://www.bbc.com/news/articles/c33y0n1v1xjo
 
-- TL;DR
-    - China has sentenced a former official to death for taking about $325M in bribes, exemplifying its severe penalties for spectacular corruption. Commenters debate whether this reflects genuine anti-graft zeal or selective prosecution used to purge rivals while routine corruption continues. Some argue harsh punishments deter extreme graft and can hit very senior figures; others say opaque courts, lack of asset disclosure, and unpunished scandals show it’s mainly political theater compared with more legally constrained Western systems.
-    - *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse
-    - Harsh penalties for spectacular corruption in China/Vietnam/Singapore when regime loses face; some scandals punished, others covered up—counterpoint: many disaster perpetrators appear untouched.
-    - Xi’s anti-corruption drive is real yet politicized: it curbs excess graft, but prosecutions target a tiny fraction and conveniently remove rival power centers.
-    - Skeptics question lack of transparency and asset disclosures for top leaders, seeing death sentences as theater by a party-controlled judiciary.
+A Changzhou court sentenced former Nanjing official Yang Youlin, 69, to death after finding that he took more than 2.2 billion yuan ($325 million) in bribes over three decades. He was also convicted of embezzlement, abuse of power, and money laundering, allegedly trading contracts, land transfers, and financing for valuables. The court rejected leniency despite a guilty plea, remorse, and cooperation. White-collar executions are rare but have occurred in large cases. The prosecution sits within Xi Jinping’s anti-corruption campaign, which supporters call deterrence and critics view as selective political enforcement.
 
-- LLM perspective
-    - View: Extreme penalties without independent courts risk arbitrary justice and chill honest governance alongside corruption.
-    - Impact: Signals to mid- and high-level officials: corruption must be smaller, subtler, and politically aligned to be survivable.
-    - Watch next: Track whether similar-rank allies ever face death sentences, and whether financial disclosures or external audits for leadership are introduced.
+### Comment pulse
+
+- Deterrence versus factional control dominated → supporters cited purges across civilian and military ranks — counterpoint: opaque institutions permit selective prosecution of rivals.
+- Severity divided readers → some welcomed zero tolerance for spectacular graft — counterpoint: capital punishment and unequal enforcement undermine rule-of-law claims.
+- Transparency remained the central deficit → commenters asked whether top leaders disclose income or face independent courts.
+
+### LLM perspective
+
+- **View:** The case demonstrates punishment capacity, not systemic impartiality; those require transparent investigations, independent courts, and consistent enforcement.
+- **Impact:** Extreme sentences may deter conspicuous graft while encouraging concealment, factional loyalty, or smaller distributed corruption.
+- **Watch next:** Appeal and execution status, asset recovery, implicated beneficiaries, comparable treatment of insiders, and verifiable anti-corruption metrics.

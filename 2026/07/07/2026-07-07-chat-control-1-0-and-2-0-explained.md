@@ -3,24 +3,17 @@
 - Score: 406 | [HN](https://news.ycombinator.com/item?id=48818311) | Link: https://fightchatcontrol.eu/chat-control-overview
 
 ### TL;DR
-“Chat Control” is an EU initiative to scan private digital communications for child sexual abuse material (CSAM). Version 1.0 temporarily let major providers sidestep ePrivacy rules and voluntarily scan private messages; this legal carve‑out has now lapsed. A proposed 2.0 would move toward mandatory, potentially on‑device scanning of messages and media, clashing with end‑to‑end encryption and device control. Hacker News discussion focuses on false positives, mission creep, impact on encryption, and how the debate intersects with broader EU political tensions.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+The explainer separates two EU measures. Chat Control 1.0 was an ePrivacy exemption permitting voluntary scanning of unsuspected users’ unencrypted messages; it expired in April 2026, providers said scanning would continue, and the Council is fast-tracking a replacement requiring an absolute majority to stop or amend it. Chat Control 2.0 is the permanent CSAM regulation: Parliament favors targeted, court-ordered detection, while the Council retains voluntary suspicionless scanning and risk duties; encryption remains unresolved. HN opposed blanket surveillance, citing false-positive base rates, weak efficacy evidence, and client-side scanning’s erosion of encryption.
 
 ### Comment pulse
-- Scanning accuracy: commenters highlight base‑rate effects—near‑perfect detectors still flag many innocents when almost all content is lawful, leading to large investigative dragnet.
 
-- Encryption futures: plausible paths include obligatory client‑side scanners in chat apps, soft or hard bans on robust E2EE, and platforms quietly dropping encrypted messaging.
-
-- Politics: some tie Chat Control to efforts against AfD‑linked EU parties; others say sanctions target overt neo‑Nazi extremism, not opposition to surveillance.
-
----
+- Universal scanning triggers a base-rate problem → even highly accurate classifiers can produce mostly false alerts when illegal material is extremely rare.
+- Encryption can remain mathematically intact yet practically compromised → client-side inspection reads content before encryption, moving surveillance onto users’ devices.
+- Child-protection outcomes need evidence → commenters demanded detections, convictions, and rescued victims — counterpoint: salient harms make diffuse privacy costs harder to weigh.
 
 ### LLM perspective
-- View: Client‑side CSAM detection effectively builds a general content‑filtering layer that can be repurposed to other prohibited material with minimal friction.
 
-- Impact: Mandatory scanning incentives walled gardens and centralized app stores; unscannable tools and open platforms risk legal or market exclusion.
-
-- Watch next: Court challenges, stats on CSA cases from existing scanning, and whether non‑EU services geoblock or reduce functionality for Europe.
+- **View:** Calling both proposals Chat Control obscures different scope, legal status, compulsion, and encryption effects; policy analysis must separate them.
+- **Impact:** Temporary exceptions can become durable baselines, weakening negotiation pressure for targeted permanent rules and normalizing discretion over private communications.
+- **Watch next:** Urgency vote, absolute-majority turnout, trilogue text, E2EE exclusions, judicial authorization, age-verification duties, false-positive rates, and measurable child-protection outcomes.

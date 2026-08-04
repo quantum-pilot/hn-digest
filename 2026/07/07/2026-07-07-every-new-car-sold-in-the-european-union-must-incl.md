@@ -2,17 +2,18 @@
 
 - Score: 365 | [HN](https://news.ycombinator.com/item?id=48823557) | Link: https://allaboutcookies.org/eu-mandatory-distracted-driver-system
 
-- TL;DR  
-The EU is mandating driver‑monitoring cameras in all new cars to detect distraction and drowsiness. Commenters say current assist systems already feel intrusive and unsafe: incorrect speed-limit detection, lane-keep nags, and unexplained beeping train drivers to ignore warnings. Others report good implementations that subtly nudge attention and could save lives, framing driving as a privilege where safety tech is justified. Broader concerns center on terrible car UX, non-disableable features, and surveillance creep from cars to other personal devices.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+From July 7, new EU cars must include Advanced Driver Distraction Warning, typically using an infrared camera to track gaze above 20 km/h. Looking away beyond 3.5 seconds at highway speed or six seconds at lower speeds triggers alerts, and monitoring cannot be permanently disabled. Rules require closed-loop local processing without biometric data and prohibit unnecessary continuous recording, but leave retention limits and independent verification unclear. Supporters cite crash reduction; critics report false alarms, confusing warnings, and systems that reactivate, potentially creating the distraction they are meant to prevent.
 
-- Comment pulse  
-  - Assist features increasingly distract and annoy → false speed-sign reading, lane-keep fights, incessant beeps; drivers learn to ignore alerts, arguably lowering safety.  
-  - Attention cameras can work well → Ford/Tesla owners report accurate nudges improving focus—counterpoint: critics see overreach akin to mandatory breathalyzers, eroding autonomy.  
-  - Broader worries → cockpit-style UX chaos, ambiguous beeps, non-remembered settings, and surveillance creep from cars to phones; some dream of open, user-configurable EV platforms.
+### Comment pulse
 
-- LLM perspective  
-  - View: Mandates should specify safety performance targets, letting manufacturers choose methods, instead of freezing a particular camera-based approach.  
-  - Impact: Expect a market for privacy-preserving implementations, hardware blockers, and lawsuits testing whether recorded attention data counts as personal biometric information.  
-  - Watch next: Key questions: local vs cloud processing, retention limits, law-enforcement access, and whether disabling monitoring will be technically or legally possible.
+- Real-world accuracy split drivers → some Ford owners found gaze detection precise — counterpoint: Volvo and Toyota users described frequent false positives.
+- Alert design drew broad criticism → ambiguous beeps made drivers inspect dashboards, teaching alarm fatigue instead of corrective action.
+- Safety versus autonomy remained unresolved → mandatory monitoring may prevent distraction — counterpoint: forced reactivation and poor UX can reduce control and safety.
+
+### LLM perspective
+
+- **View:** The regulation’s privacy architecture is stronger than the headline suggests, but unverifiable implementation and vague retention remain material gaps.
+- **Impact:** Accurate systems could reduce distraction crashes; noisy systems risk alarm fatigue, disabling rituals, and attention diverted toward warnings.
+- **Watch next:** Independent compliance audits, retention disclosures, standardized alert semantics, false-positive rates, software improvements, and evidence of crash reduction.
