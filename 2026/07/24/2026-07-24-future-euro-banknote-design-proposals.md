@@ -3,18 +3,17 @@
 - Score: 111 | [HN](https://news.ycombinator.com/item?id=49033110) | Link: https://www.ecb.europa.eu/euro/banknotes/future_banknotes/html/all-design-proposals.en.html
 
 ### TL;DR
-The ECB is redesigning euro banknotes and has shortlisted ten visual concepts (A–J) by different design studios, ranging from birds and rivers to abstract patterns and “famous people.” The site emphasizes that these are only proposals. Hacker News commenters, having seen the visuals, broadly find most options either too busy or too bland/corporate. Birds and non-human themes are favored as politically neutral, while many still consider the original 2002 euro series with its generic architecture the aesthetic benchmark.
 
----
+The ECB presents ten jury-selected concepts, A through J, for redesigned euro banknotes intended to express Europe’s shared identity and values; none is final. The captured page names each design team but provides no textual descriptions of the artwork, so Hacker News supplied most of the visual reaction. Commenters split over traditional versus experimental layouts, often criticizing busy gradients, tiny text, sketch-like styling, and uneven fronts and backs. Birds-and-rivers attracted support over famous people, while individual favorites included B, E, F, and I; a public survey is available.
 
 ### Comment pulse
-- Design reactions → F seen as most visually interesting but “famous people” controversial; B/E/I judged most like traditional banknotes; many backs weaker than fronts.  
-- Theme preferences → Birds/rivers praised as neutral and inclusive; identifiable humans criticized as politicizing money—counterpoint: some still prefer architecture-based designs for continuity.  
-- Process trust → Skepticism that “professional choosers” will decide, yet there is a public survey, slightly softening cynicism about token public input.
 
----
+- Natural motifs avoid political baggage → birds and rivers appealed because they do not turn imperfect historical figures into shared ideals.
+- Readability competed with novelty → commenters rejected tiny facts, crowded compositions, extreme color, and unfamiliar orientation while finding safer options dull.
+- Front-to-back coherence mattered → several proposals had attractive faces but weaker reverses, including shadow figures, hands, or insufficiently differentiated maps.
 
 ### LLM perspective
-- View: Designing supranational currency is as much about political neutrality and identity-building as graphic design.  
-- Impact: Final motifs will shape everyday symbolism of “Europe” for hundreds of millions and must balance taste, legibility, and anti-counterfeiting.  
-- Watch next: Which overarching theme wins, how security features integrate with aesthetics, and whether survey feedback visibly steers the Governing Council’s choice.
+
+- **View:** A supranational currency needs visual distinction without implying that one nation, person, or aesthetic owns the collective identity.
+- **Impact:** Selection affects everyday accessibility, counterfeit recognition, public legitimacy, and how participating countries see themselves represented.
+- **Watch next:** Publish survey results, test denomination recognition across vision impairments, and evaluate durability and security features on physical prototypes.

@@ -2,15 +2,18 @@
 
 - Score: 352 | [HN](https://news.ycombinator.com/item?id=49036433) | Link: https://www.thehindu.com/news/national/government-orders-github-to-remove-bluetooth-based-chat-app-bitchat-over-security-concerns-jack-dorsey/article71262049.ece
 
-- TL;DR  
-  - India’s cybercrime agency ordered GitHub to take down Jack Dorsey’s Bluetooth mesh chat app Bitchat, arguing its anonymous, infrastructure‑free design lets “anti‑national” actors communicate during internet shutdowns and evade lawful interception. The move follows protesters allegedly using such apps during Delhi demonstrations. Hacker News commenters frame this as part of India’s long pattern of tightly controlling communications, debate whether governments genuinely aim to protect citizens versus entrench power, and worry that similar bans on decentralised, encrypted tools could spread globally.
+### TL;DR
 
-- Comment pulse  
-  - Government control vs safety → Critics say relying on blocking private messaging signals state failure; expect creeping, eventually ubiquitous surveillance of all communications.  
-  - India pattern → Post‑Mumbai 2008 bans on satellite devices, VOIP limits, strict airport checks, and protest crackdowns make this ban unsurprising.  
-  - Mesh tools as safeguards → Encrypted, decentralised comms seen as vital against shutdowns; same “terrorism” logic could outlaw any such protocol—counterpoint: states cite riot/terror response needs.
+India’s I4C ordered GitHub to remove Bitchat, a Bluetooth-mesh messenger that works without internet access, centralized servers, registration, or communication logs. The agency said those properties obstruct lawful interception and could aid terrorism, crime, misinformation, or protest coordination; the notice followed its use around a Jantar Mantar demonstration during an internet shutdown. Jack Dorsey framed the order as hostility to uncensored communication. HN readers overwhelmingly saw censorship and criticized treating private, outage-resistant messaging as inherently dangerous, while others cited India’s post-2008 security posture as context.
 
-- LLM perspective  
-  - View: A direct clash between censorship‑resistant, offline communication and states’ insistence on interceptability and attribution.  
-  - Impact: Chills development and hosting of mesh/anonymous tools; pushes activists toward harder‑to‑trace, potentially riskier underground tech.  
-  - Watch next: Forks and mirrors of Bitchat, broader Indian legal moves on offline protocols, and whether other governments copy this approach.
+### Comment pulse
+
+- Security rationale has historical roots → India tightened communications controls after the 2008 Mumbai attacks, where remote handlers coordinated attackers using outside information.
+- Private communication is the disputed capability → critics said the same architecture supports protests and emergencies — counterpoint: authorities emphasize attribution during violence and terrorism.
+- Repository removal cannot erase a protocol → commenters noted governments can still impose DPI, shutdowns, arrests, and device restrictions despite decentralized design.
+
+### LLM perspective
+
+- **View:** The order targets architectural absence: no operator, registry, or log exists to compel, making decentralization the regulated feature.
+- **Impact:** Developers face hosting risk; protesters and disaster users lose a resilient channel; GitHub becomes an enforcement chokepoint.
+- **Watch next:** Track GitHub’s response, legal challenges, mirrors, app distribution, protocol forks, user enforcement, and future shutdown deployments.

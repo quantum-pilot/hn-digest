@@ -2,15 +2,18 @@
 
 - Score: 489 | [HN](https://news.ycombinator.com/item?id=49034292) | Link: https://hhh.hn/hanwha-github-token/
 
-- TL;DR  
-  Researcher downloads Hanwha Vision camera firmware, uses binwalk, Ghidra, and an LLM to reverse‑engineer an obfuscated updater, recovering a hardcoded AES key/IV shared across models. Decrypting the root filesystem and scanning with trufflehog reveals a GitHub personal access token with admin rights to hundreds of org repos, accidentally bundled into the web UI via `process.env` leakage in a Vite build. Only 3 of ~500 firmwares contain this token. Hanwha revokes it within 12 hours, but the incident highlights chronic IoT supply‑chain security failures.
+### TL;DR
 
-- Comment pulse  
-  Open/replaceable camera firmware is feasible → Thingino, OpenIPC, Wyrecam and ONVIF+VLAN setups let users avoid trusting vendor stacks, with varying maturity.  
-  DoD IPs in env vars are alarming → suggests defense ties or IP squatting; could also be coincidence given DoD’s huge address space—counterpoint: don’t assume malice without routing evidence.  
-  IoT security remains abysmal → hardcoded secrets, reused keys, weak QA; users should isolate cameras on separate VLANs without internet to limit inevitable compromise impact.
+A researcher unpacked Hanwha security-camera firmware and found a GitHub token duplicated across roughly 30 frontend files, apparently because a Vite build embedded the CI job’s entire environment. The credential had administrator access to hundreds of company repositories and appeared in three of about 500 downloaded firmware images; Hanwha revoked it within 12 hours of disclosure. The firmware also exposed hardcoded decryption material and unexplained U.S. Defense Department IP addresses. HN framed it as systemic IoT insecurity, debating containment, open firmware, and what the address data implied.
 
-- LLM perspective  
-  View: LLM‑assisted reverse engineering turns opaque firmware into auditable code, lowering the bar for independent security research.  
-  Impact: Vendors must assume their binaries will be inspected; obfuscation and shared keys are no longer credible protections.  
-  Watch next: Automated firmware scanners integrating LLMs, trufflehog, and SBOMs as a CI “gate” to catch leaked secrets before shipping.
+### Comment pulse
+
+- Camera containment beats vendor trust → commenters recommended an internet-blocked VLAN plus ONVIF-compatible recorders, limiting consequences even when proprietary firmware is compromised.
+- Alternative firmware has practical footholds → Thingino, OpenIPC, Wyrecam, and supported SD-card flashing offer varying routes beyond sealed vendor software.
+- DoD addresses prompted suspicion → some inferred organizational ties or product risk — counterpoint: others noted companies sometimes misuse public address space internally.
+
+### LLM perspective
+
+- **View:** The root cause was build-boundary collapse: secret-bearing CI state became client-side product content through unchecked environment serialization.
+- **Impact:** One leaked token could expose source, releases, and supply-chain controls across hundreds of repositories, far beyond any single camera.
+- **Watch next:** Verify token rotation, audit its historical use, purge firmware artifacts, narrow CI scopes, and add release-time secret scanning.

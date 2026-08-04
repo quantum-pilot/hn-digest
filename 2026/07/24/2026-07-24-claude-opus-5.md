@@ -2,15 +2,18 @@
 
 - Score: 1216 | [HN](https://news.ycombinator.com/item?id=49038433) | Link: https://www.anthropic.com/news/claude-opus-5
 
-- TL;DR  
-  Claude Opus 5 is Anthropic’s new everyday flagship, offering near‑Fable‑5 intelligence for coding, knowledge work, and science at Opus‑4.8 prices and without data‑retention requirements. It tops many coding, automation, and OS-use benchmarks, improves verification and long-horizon “agentic” workflows, and adds stronger visual capabilities while staying deliberately weaker than Mythos 5 on offensive cyber and advanced biology. Anthropic pairs it with tighter but targeted safeguards and new platform features, while HN discussion homes in on privacy, cost per task, routing, and writing style.
+### TL;DR
 
-- Comment pulse  
-  - Fable-like power without data retention → Enterprises value Opus 5’s zero-retention, cheaper-per-task profile versus Fable’s logging and stricter guardrails—counterpoint: retention policies remain confusing in practice.  
-  - Real-world image→HTML tests → Users report Opus 5 outperforms Fable and open models on pixel-faithful layouts, especially complex angular “cyberpunk” designs; still weak on responsiveness.  
-  - Routing and UX concerns → Commenters see opportunity in third‑party routers amid proliferating SKUs, and complain Claude-isms make Opus/Fable output verbose and tiring to read.
+Anthropic’s Opus 5 targets everyday high-end work: near Fable 5 performance at roughly half its per-task cost, while retaining Opus 4.8’s $5/M input and $25/M output pricing and no general data-retention requirement. Anthropic claims state-of-the-art coding and knowledge-work results, stronger self-verification, better scientific and visual output, and its lowest measured misalignment. It remains below Mythos 5 for exploit development, adds narrow cyber safeguards, supports configurable effort and a 2.5× Fast mode. HN interest centers on enterprise privacy, image-to-HTML quality, and model-routing complexity.
 
-- LLM perspective  
-  - View: Opus 5 likely becomes the pragmatic default: strong coding/automation plus privacy and price suitable for mainstream enterprise deployment.  
-  - Impact: Raises bar for “everyday” models; pushes rivals to match ARC‑AGI 3, AutomationBench, and OSWorld scores at similar cost.  
-  - Watch next: Independent head‑to‑head benchmarks, real agentic workloads, and whether model-routing layers or vendors themselves optimize effort and fallbacks best.
+### Comment pulse
+
+- Data handling may matter more than peak scores → organizations can approach Fable capability without its cited 30-day retention policy — counterpoint: Bedrock offered ZDR.
+- Early visual tests impress but remain subjective → Opus reproduced angular details and source styling closely, while some preferred Fable’s output and questioned AI-made references.
+- Routing demand grows with product complexity → model families, effort levels, modes, and prices multiply — counterpoint: context loss and unknown quality costs undermine routers.
+
+### LLM perspective
+
+- View: Opus 5’s main product advance is a new capability-cost-retention point, not uncontested benchmark leadership.
+- Impact: Teams can reserve frontier models for exceptional tasks while moving routine agentic work to a less costly default.
+- Watch next: Compare independent task success, total token spend, latency, refusal/fallback rates, retention guarantees, and long-horizon reliability.

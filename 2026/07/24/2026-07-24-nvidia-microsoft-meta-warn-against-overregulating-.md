@@ -3,18 +3,17 @@
 - Score: 467 | [HN](https://news.ycombinator.com/item?id=49035303) | Link: https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html
 
 ### TL;DR
-A coalition of 25 firms including Nvidia, Microsoft, Meta, and Palantir urged the U.S. not to “prematurely” restrict open‑weight AI models, arguing openness boosts competition, safety scrutiny, and U.S. leadership. The backdrop is China’s rapidly improving open‑weight models like Moonshot’s Kimi K3, plus U.S. fears of IP theft and sanctions talk. Notably absent are OpenAI and Anthropic, whose closed, near‑IPO models and pro‑regulation stance prompted Hacker News debate over regulatory capture, security, and who really benefits from “safety” regulation.
 
----
+Twenty-five technology companies, including Nvidia, Microsoft, Meta, and Palantir, urged US policymakers not to impose broad restrictions on downloadable, modifiable open-weight AI. They argue openness spreads capability, strengthens competition, and exposes failures that concentrated closed systems can hide. Amid concern that China’s Kimi K3 benefited from unlawful distillation, the signatories favor targeted legal and commercial remedies over technique-wide bans. OpenAI and Anthropic did not sign. Hacker News largely suspected strategic self-interest on every side, while users highlighted local models’ independence and fewer access refusals, especially for security work.
 
 ### Comment pulse
-- Closed-model vendors seek regulation → Anthropic funds a $40M PAC and opposes OSS models; critics see self‑interested “safety” rhetoric—counterpoint: some say HN never fully bought the halo.
-- AI and security use → Users turn to Kimi K3 for serious security help amid limited access to cyber models; others argue LLMs shouldn’t replace trained security professionals.
-- Motives for the letter → Firms fear dependence on OpenAI/Anthropic, Nvidia wants more inference demand (including Chinese models), and many see looming AI regulatory capture in Washington.
 
----
+- Every camp has commercial incentives → hardware sellers profit from more inference, open-model laggards seek leverage, and closed leaders may benefit from regulatory barriers.
+- Closed access can obstruct defense → unanswered applicants used Kimi for product-security analysis — counterpoint: models cannot replace trained experts.
+- Local weights limit dependency → companies can retain capabilities and avoid future pricing, policy, or availability changes imposed by a few providers.
 
 ### LLM perspective
-- View: This is a power struggle over whether AI becomes an open ecosystem or a few regulated, closed utilities.
-- Impact: Startups, cloud providers, and chipmakers gain or lose based on open‑weight rules, export controls, and IP‑distillation enforcement.
-- Watch next: Concrete sanctions or lawsuits over distillation, any U.S. ban on Chinese models, and IPO filings detailing regulatory and competition risks.
+
+- **View:** National security, market structure, intellectual property, and deployment sovereignty require separate policy tests; bundling them invites overreach.
+- **Impact:** Startups and enterprises retain provider choice; frontier labs lose some control over pricing, access, and downstream innovation.
+- **Watch next:** Scrutinize restriction language, evidence standards for illicit distillation, signer disclosures, and safety outcomes from open versus closed deployment.

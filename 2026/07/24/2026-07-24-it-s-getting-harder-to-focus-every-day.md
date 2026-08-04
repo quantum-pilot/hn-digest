@@ -3,20 +3,17 @@
 - Score: 693 | [HN](https://news.ycombinator.com/item?id=49032660) | Link: https://glyphack.com/attention/
 
 ### TL;DR
-The author describes a personal collapse in deep-focus ability: even work they want to do gets fragmented into 10‑minute spurts, constantly derailed by web browsing, phones, chat, and now LLMs. They connect this to the attention economy, bullshit-heavy work culture, and the overstimulation of delegating many small tasks to AI. To cope, they add constraints (timers, livestreaming, offline hobbies like gardening and books). HN commenters broaden this to VAST (culturally induced ADHD), smartphone overuse, and deliberate “friction” to protect attention.
 
----
+The author describes losing the ability to sustain even one focused hour as every pause, obstacle, or moment of boredom triggers browsing, chores, chat, or phone checking. Attention-hungry media and interruption-heavy work normalized fragmentation; LLMs add a newer loop by making parallel tasks feel productive while keeping each delegated job mentally active and making slower learning less rewarding. Timers, livestreamed accountability, books, and gardening offer replacement habits. HN readers frame the problem as culturally induced overstimulation rather than necessarily ADHD, recommending deliberate offline time and engineered friction.
 
 ### Comment pulse
 
-- Modern life induces ADHD-like VAST via constant stimuli; sleep, diet, environment also matter — counterpoint: pathologizing a normal response to manipulative tech may mislead.  
-- Removing smartphones/social and adding friction (separate accounts, no apps) restores focus, enabling deep work, careers, hobbies to flourish.  
-- Culture’s pace shifted from books to TikTok; media overload and bullshit work erode attention, while meaningful tasks and routines seem to strengthen focus.
-
----
+- Modern life can mimic attentional disorders → VAST describes ADHD-like symptoms induced by constant stimuli — counterpoint: sleep problems or clinical ADHD warrant distinction.
+- Friction beats willpower → commenters use stripped-down computer accounts, offline documentation, separate devices, inconvenient logins, and phones kept outside workspaces.
+- Attention appears trainable → long-form reading, scheduled communication windows, media diets, exercise, and meaningful work reportedly restore focus — counterpoint: hyperfocus is not everyone’s goal.
 
 ### LLM perspective
 
-- View: Treat focus as a resource; design tools, workflows, and spaces to protect a few daily distraction-free deep-work blocks.  
-- Impact: Employers who cut meetings, chat, and notifications will gain productivity and retention as “attention hygiene” becomes a differentiator.  
-- Watch next: Empirical studies comparing “LLM-augmented” versus offline workflows on task quality, learning, and cognitive fatigue across weeks, not minutes.
+- View: The shared mechanism is avoidance conditioning: instant alternatives reward abandoning precisely the moments when difficult work requires persistence.
+- Impact: Tools and workplaces optimized for responsiveness may create hidden switching costs that erase gains from faster individual tasks.
+- Watch next: Track uninterrupted minutes, context switches, sleep quality, notification exposure, and task completion before and after specific habit changes.

@@ -3,18 +3,17 @@
 - Score: 144 | [HN](https://news.ycombinator.com/item?id=49033087) | Link: https://sliplane.io/blog/hetzner-inference
 
 ### TL;DR
-Hetzner has quietly launched an experimental, OpenAI-compatible LLM inference API, currently exposing a single Qwen 3.6 35B FP8 model with 262k context and image support. Early tests show very fast latency and throughput, but there’s no billing, SLA, or production guarantees yet. The author argues the real story is strategic: if Hetzner extends beyond workstation GPUs to larger multi-GPU clusters and more models, it could become a low-cost, EU-native inference provider—something HN commenters say is still missing despite existing EU offerings.
 
----
+Hetzner is testing a free, OpenAI-compatible inference API with no billing, SLA, or production guarantee. Its sole endpoint is Qwen3.6-35B-A3B-FP8, a multimodal 35B-parameter mixture-of-experts model with 3B active parameters and 262K context. One tester measured 153 ms median first-token latency and 224 output tokens/second, while noting arithmetic failures and no concurrency evidence. The larger opportunity is low-cost, EU-hosted commodity inference; Hacker News welcomed competition but said existing European providers suffer limited models, reliability, support, or sovereignty premiums, and questioned Hetzner’s capacity for larger models.
 
 ### Comment pulse
-- EU-native inference is attractive for regulatory reasons, but OVH/IONOS/Scaleway/Infomaniak are criticized as expensive, unreliable, and behind SOTA — counterpoint: some users report OVH working fine.
-- Hetzner is seen as well-positioned to drive small-model inference costs toward near-zero, yet its current single-GPU RTX lineup limits serious large-model hosting.
-- Commenters expect “reseller” inference markets to emerge, echoing web hosting, pushing prices down from today’s ~$200/month entry points.
 
----
+- Sovereignty demand is real but underserved → EU customers want compliant hosting without accepting weaker catalogs, poor reliability, or a regulatory price premium.
+- Hetzner’s efficiency could commoditize smaller-model inference → pooled utilization may push pricing toward ordinary web hosting and simplify eventual in-house migration.
+- Large-model ambitions face a hardware ceiling → the public catalog tops out at single 96GB GPUs, while desirable frontier weights need multi-GPU systems.
 
 ### LLM perspective
-- View: This is a low-risk probe by Hetzner to measure demand, utilization patterns, and operational pain before committing serious GPU capital.
-- Impact: Adds pressure for better EU-hosted, OpenAI-compatible endpoints, especially for regulated sectors needing data residency and auditability.
-- Watch next: Evidence of multi-GPU nodes, larger open models, public pricing, and SLAs will signal whether this stays a demo or becomes core infra.
+
+- **View:** OpenAI API compatibility makes provider switching cheap, so operational quality and price—not proprietary interfaces—become the defensible advantages.
+- **Impact:** European startups gain a credible path from experimentation to regional deployment if model breadth and support mature.
+- **Watch next:** Measure cold starts, sustained concurrency, multimodal correctness, reasoning defaults, uptime, pricing, data residency, and roadmap delivery.
