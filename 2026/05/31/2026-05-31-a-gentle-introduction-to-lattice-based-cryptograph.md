@@ -3,18 +3,17 @@
 - Score: 165 | [HN](https://news.ycombinator.com/item?id=48318624) | Link: https://cryptography101.ca/wp-content/uploads/lattice-based-cryptography.pdf
 
 ### TL;DR
-Menezes’ notes are a textbook-style, math-forward introduction to lattice-based cryptography with a concrete focus on NIST’s post-quantum standards Kyber (ML-KEM) and Dilithium (ML-DSA). They build from lattice basics (definitions, bases, volume, successive minima) through core hardness assumptions (SVP/SIVP/CVP, SIS, LWE, and their module variants), then detail Kyber/Dilithium constructions, parameters, and attacks via LLL/BKZ. Later chapters cover practical tools like the Number-Theoretic Transform and applications of lattice reduction to classical cryptanalysis, tying abstract theory to real-world security.
 
----
+This 2026 course-style text builds from lattice definitions and hard problems—SVP, SIVP, and CVP—to SIS/LWE and their module variants, then develops NIST-standardized ML-KEM (Kyber) and ML-DSA (Dilithium). It also covers LLL/BKZ basis reduction, concrete security estimation, attacks, applications, and the Number-Theoretic Transform used for efficient polynomial multiplication. Hacker News readers welcome it as a timely, structured route into post-quantum cryptography while exchanging advice on prerequisites and implementation-oriented companion materials that bridge theory and code.
 
 ### Comment pulse
-- Implementers’ view → Kyber can be coded from the spec using standard math; NTT mainly accelerates polynomial ops, similar in spirit to Montgomery form—counterpoint: on-wire formats assume NTT usage.  
-- Learning curve → To really follow, you need algebra, linear algebra, and number theory; the notes are pitched at strong undergrads, not absolute beginners.  
-- Broader context → Lattices feel close to error-correcting codes and post-quantum crypto; readers expect deeper connections and possible reductions to emerge.
 
----
+- Learners recommend pairing the paper with implementation guides for Kyber’s polynomial algebra and NTT, turning abstract definitions into executable understanding.
+- NTT is conceptually optional for ML-KEM but crucial for performance; one commenter cautions that interoperability may depend on its transformed wire representation.
+- Prospective readers identify algebra, linear algebra, and number theory as prerequisites, despite the paper’s introductory framing.
 
 ### LLM perspective
-- View: This sits between research papers and full textbooks, ideal for practitioners wanting rigorous but focused lattice-crypto grounding.  
-- Impact: Lowers the barrier for engineers to safely implement and parameter-audit Kyber/Dilithium in production systems.  
-- Watch next: Better open-source implementations, calibrated BKZ/LLL cost models, and pedagogical tooling for experimenting with lattice attacks.
+
+- **View:** The paper’s layered path from geometry to standardized constructions makes it useful as a curriculum, not a quick primer.
+- **Impact:** Students gain one reference spanning foundations, schemes, reductions, implementation machinery, and exercises.
+- **Watch next:** Track errata, parameter updates, and implementation exercises against current ML-KEM and ML-DSA standards.

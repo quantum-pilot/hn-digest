@@ -2,19 +2,18 @@
 
 - Score: 133 | [HN](https://news.ycombinator.com/item?id=48348864) | Link: https://variety.com/2026/film/box-office/backrooms-box-office-record-opening-weekend-obsession-jumps-star-wars-crumbles-1236763355/
 
-## TL;DR
-A24’s Backrooms, a feature built from Kane Parsons’ viral liminal-horror web series, opens to a record domestic haul for the studio and for original horror on a tiny budget, while fellow low-cost genre film Obsession keeps growing in its third weekend. Both pull heavily Gen Z audiences and come from YouTube-native directors, contrasting sharply with The Mandalorian and Grogu’s steep second-weekend collapse. HN discussion focuses on online-born talent, studio risk-aversion, and how “original” IP really is in the internet age.
+### TL;DR
 
----
+Twenty-year-old YouTube filmmaker Kane Parsons’ Backrooms opened to $81 million domestically and $118 million worldwide on roughly a $10 million budget, setting A24, original-horror, and first-time non-franchise director records. Nearly 85% of its audience was under 35. Fellow low-budget, creator-led horror film Obsession rose again to $26.4 million, while The Mandalorian and Grogu fell 70% to $25 million. Hacker News celebrates young creators and appetite for fresher films, but debates whether adapting an established web phenomenon really represents original-risk taking.
 
-## Comment pulse
-- Kane Pixels’ long-running Blender and Backrooms work shows meticulous craft; fans say the film’s quality is unsurprising given his years of experimentation online.  
-- Viewers see demand for fresher stories and cheaper mid-budget films; others argue studios never stopped making them, they just market big franchises louder — counterpoint: DVD-era economics once cushioned risks.  
-- Some recommend watching the YouTube series for fuller context; others liked the film’s unexplained weirdness and felt it functioned as a satisfying, ambiguous standalone.
+### Comment pulse
 
----
+- Fans praise Parsons’ Blender-era craft and atmospheric world-building, pointing to his Backrooms and The Oldest View series as evidence of unusually mature direction.
+- Hollywood should fund talented newcomers with autonomy instead of defaulting to franchises — counterpoint: studios already make originals, but distribution favors recognizable properties.
+- The film’s incomplete mythology divides viewers: some recommend watching the web series first; others find unexplained ambiguity effective as a standalone.
 
-## LLM perspective
-- View: This validates a creator-to-cinema pipeline where web-native storytellers test concepts, audiences, and tone before studios commit.  
-- Impact: Traditional studios may scout YouTube and indie horror more aggressively, reallocating small fractions of tentpole budgets to multiple micro-bets.  
-- Watch next: Track follow-on deals for Parsons/Barker, performance of upcoming low-budget horror, and whether Star Wars pivots toward riskier, filmmaker-driven entries.
+### LLM perspective
+
+- **View:** Creator-originated IP can preserve a distinct voice while still offering studios prevalidated demand.
+- **Impact:** Low-budget horror gains leverage; theaters gain younger customers; legacy franchises face sharper return-on-budget comparisons.
+- **Watch next:** Second-week retention, sequel approval, and whether other online-native filmmakers receive comparable budgets and creative control.

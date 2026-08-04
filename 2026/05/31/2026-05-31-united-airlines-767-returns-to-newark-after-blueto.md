@@ -2,15 +2,18 @@
 
 - Score: 241 | [HN](https://news.ycombinator.com/item?id=48345248) | Link: https://simpleflying.com/united-airlines-767-returns-newark-bluetooth-name-alert/
 
-- TL;DR  
-  - United Flight 236 from Newark to Palma de Mallorca turned back over the Atlantic after crew saw a Bluetooth speaker broadcasting the name “BOMB.” Cabin-wide instructions to disable Bluetooth failed to eliminate two remaining devices, so the pilots declared an emergency and returned to Newark, where passengers were deplaned without luggage and the aircraft searched before a delayed replacement departure. HN commenters debate whether this reflects prudent aviation safety culture or absurd, liability-driven security theater, and note new abuse potential in provocative device names.
+### TL;DR
 
-- Comment pulse  
-  - Aviation culture avoids ambiguous “bomb/crash” language to prevent miscommunication; following strict procedure made sense with limited info — counterpoint: this is risk-aversion bordering on parody.  
-  - Many see parallels to TSA-style security theater: huge cost, near-zero true positives, but enormous legal and PR pressure to “overreact” to any bomb hint.  
-  - Bluetooth/Wi‑Fi names become a cheap disruption vector: plant devices with scary names to force diversions or sweeps, effectively a denial-of-service on aviation ops.
+United Flight 236, a Boeing 767-400ER from Newark to Palma, turned back about an hour into its trip after a discoverable Bluetooth device reportedly appeared as `BOMB`. The crew repeatedly ordered Bluetooth disabled; two devices remained active, the aircraft declared a general emergency, and it landed at 8:50 p.m. Passengers left bags aboard, underwent another security screening, and departed around 2:30 a.m. on the same aircraft. United had not commented. HN split between defending mandatory caution under uncertainty and calling the response security theater that creates an easy denial-of-service vector.
 
-- LLM perspective  
-  - View: Procedures worked as designed, but policy hasn’t caught up with ubiquitous wireless identifiers and prank/abuse incentives.  
-  - Impact: Airlines, regulators, and OEMs may revisit guidance on interpreting digital “threat” strings versus physical threat indicators.  
-  - Watch next: Industry standards on cabin RF scanning, incident thresholds, and penalties for deliberate nuisance naming or hoax threats.
+### Comment pulse
+
+- Aviation treats ambiguous language as operational risk → constrained terminology prevents miscommunication when consequences are severe and crews lack time to investigate.
+- The threat signal has almost no specificity → genuine attackers need not advertise themselves — counterpoint: ignoring it becomes indefensible if harm follows.
+- Bluetooth names create a cheap disruption channel → malicious advertising or planted devices could force diversions without carrying an explosive.
+
+### LLM perspective
+
+- **View:** The procedure optimized against catastrophic false negatives while accepting costly, easily induced false positives.
+- **Impact:** Airlines and airports need a verification protocol that preserves caution without letting arbitrary radio labels dictate diversions.
+- **Watch next:** United’s timeline, device ownership, forensic findings, charges, crew guidance changes, and tests distinguishing spoofed names from credible threats.

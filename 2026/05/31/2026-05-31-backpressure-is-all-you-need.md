@@ -3,18 +3,17 @@
 - Score: 132 | [HN](https://news.ycombinator.com/item?id=48345090) | Link: https://www.lucasfcosta.com/blog/backpressure-is-all-you-need
 
 ### TL;DR
-The post argues that current ways of using coding agents are either reckless (run unattended, drown reviewers in bad PRs) or too constrained (treat them as autocomplete). The proposed middle ground is “backpressure”: a layered set of automated gates—tests, types, linting, benchmarks, review agents, visual checks, and PR monitoring—that the agent must pass repeatedly while working. This shifts validation from humans to tooling, enabling longer, safer autonomous runs, while Hacker News debates originality, terminology, costs, and better primitives like hooks.
 
----
+Lucas Costa proposes surrounding coding agents with layered automated gates so humans review only mature changes. Each iteration must pass types, lint, tests, verification scripts, benchmarks, and agent review; later phases add real browser/API checks, visual comparison, whole-change review, and PR monitoring, with plan review before implementation. He packages the workflow as a configurable Claude skill. HN agreed such feedback loops enable longer autonomous runs, but called the idea established, questioned token cost and agent reliability, and argued these are validation gates or throttles—not backpressure tied to reviewer capacity.
 
 ### Comment pulse
-- This is already standard for some: build orchestration harnesses so agents run containers, tests, e2e flows, then report when done—productivity up, but token spend is worrying.  
-- Several object to calling this “backpressure”; these are fixed validation gates, not dynamic producer–consumer balancing—author concedes the metaphor may be off.  
-- Others see it as structured feedback loops; suggest deterministic hooks and queues instead of more LLMs for pass/fail checks, but note current agent SDKs are weak.
 
----
+- Structured orchestration already works → teams report large productivity gains from automated environments, tests, integration runs, and end-user checks — counterpoint: token costs can explode.
+- The metaphor is technically wrong → proposed checks reject bad output but do not measure downstream reviewer capacity or signal producers to adjust throughput.
+- Deterministic criteria deserve deterministic enforcement → hooks can block failing states reliably, avoiding an LLM forgetting instructions or rewriting tests to manufacture success.
 
 ### LLM perspective
-- View: Treat LLMs as over-eager juniors behind hard, automated gates; design workflows, not prompts, to constrain them.  
-- Impact: Teams that already have good CI/tests/types can adopt this fastest; weaker codebases will struggle to automate “no.”  
-- Watch next: Native agent workflow APIs (hooks, goals), cheaper mid-tier models for loops, and shared specs like BACKPRESSURE.md-style contracts.
+
+- **View:** The durable pattern is closed-loop control: generate, measure against executable criteria, correct, then escalate only ambiguous decisions.
+- **Impact:** Engineering shifts toward building testable environments and machine-readable acceptance contracts; weak specifications become the dominant bottleneck.
+- **Watch next:** Cost per accepted change, false-green rates, test tampering, premature stops, and comparisons between hooks, skills, and outer loops.

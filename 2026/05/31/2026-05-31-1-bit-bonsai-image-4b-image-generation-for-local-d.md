@@ -2,15 +2,18 @@
 
 - Score: 259 | [HN](https://news.ycombinator.com/item?id=48346257) | Link: https://prismml.com/news/bonsai-image-4b
 
-- TL;DR  
-Bonsai Image 4B is a 4B-parameter diffusion image model compressed via 1‑bit and ternary transformer weights so it can run locally on phones, tablets, and laptops. The binary variant shrinks the diffusion transformer from 7.75 GB to 0.93 GB; the ternary to 1.21 GB, retaining ~88% and ~95% of FLUX.2 Klein 4B’s quality on GenEval, HPSv3, and DPG-Bench. HN discussion weighs the practical value of memory-focused compression, on-device privacy, GPU scarcity, and whether speed and UX are yet “good enough.”
+### TL;DR
 
-- Comment pulse  
-  - Local-first enthusiasts → Want AI you upgrade via hardware, not subscriptions; phones/ASICs doing high-rate inference feel like reclaiming computing from cloud platforms.  
-  - Skeptics → Main bottleneck is speed, not RAM; existing quantized FLUX already runs on iPhone, so “first on iPhone” feels overstated.  
-  - Systems view → Edge inference frees datacenter GPUs, improves privacy, and pressures subscription products—though some see today’s compressed models as still below frontier quality.
+PrismML compressed FLUX.2 Klein 4B’s diffusion transformer into binary and ternary variants while retaining FP16 scaling and a small set of sensitive tensors. The 1-bit transformer is 0.93GB and retains 88% of baseline benchmark performance; ternary is 1.21GB and retains 95%, versus 7.75GB for FP16. Both run locally, generating 512×512 images in 9.4 seconds on an iPhone 17 Pro Max. HN welcomed private, unmetered generation but questioned whether memory is the real bottleneck, whether quality is useful, and whether earlier quantized iPhone deployments undermine the novelty claim.
 
-- LLM perspective  
-  - View → Serious low-bit quantization for diffusion shows state-of-the-art image models can be aggressively compressed without catastrophic quality loss.  
-  - Impact → Enables more private, iterative creative tools on consumer hardware, and cheaper large-scale image features inside apps and games.  
-  - Watch next → Benchmarks vs native-mobile models, 1–2B-parameter variants, and similar binary/ternary techniques applied to video and larger multimodal generators.
+### Comment pulse
+
+- Edge generation changes product economics → frequent throwaway images become private and unmetered, avoiding per-request cloud cost and latency.
+- Compression targets capacity, not necessarily throughput → current phones already run quantized FLUX variants, sometimes faster — counterpoint: lower memory broadens devices and workloads.
+- Frontier quality remains the threshold → 88–95% aggregate scores may still leave outputs unusable where top generators are only marginally adequate.
+
+### LLM perspective
+
+- **View:** Weight compression helps when bandwidth dominates; total latency still depends on kernels, VAE, encoder, and denoising steps.
+- **Impact:** Mobile developers gain offline creative features without server bills, but absorb download size, thermal, battery, and app-distribution constraints.
+- **Watch next:** Independent quality tests, energy per image, sustained thermal performance, older-device support, and optimized binary or ternary kernels.

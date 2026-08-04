@@ -2,19 +2,18 @@
 
 - Score: 171 | [HN](https://news.ycombinator.com/item?id=48341932) | Link: https://mechanical-pencil.com/
 
-## TL;DR
-Mechanical Pencil is a visual micro-museum of everyday mechanisms, created by mechanical engineer and artist Bryan Macomber. He completely disassembles common objects—like click pens, Zippo lighters, BIC mechanical pencils, and PEZ dispensers—then rebuilds them in CAD, turning them into clear, animated diagrams that show exactly how each part works together. The project is slow, intentional, and art-forward, sitting in the same niche as deep-dive explainers on mechanical watches, and inspiring ideas for future subjects like umbrellas.
+### TL;DR
 
----
+Mechanical engineer and artist Bryan Macomber turns ordinary objects into animated illustrated teardowns. He physically disassembles each product, rebuilds it in CAD, illustrates the component views, and presents the mechanism on the web; current subjects include a Pilot G2 pen, Zippo lighter, BIC mechanical pencil, and Pez dispenser. Hacker News readers praise the site as a meticulous labor of love, compare it with other interactive mechanical explainers, and propose future subjects such as umbrellas, whose geometry, spokes, springs, and opening mechanisms reward similar scrutiny.
 
-## Comment pulse
-- Kindred to detailed mechanical-watch explainers → similar delight in seeing internal mechanisms; this site uses less text, more visuals.
-- Evident long-term passion project → commenters know the creator’s broader illustration work, recommending his architectural art as well.
-- Inspires adjacent learning → people link related YouTube engineering videos and propose rich mechanisms (e.g., umbrellas) as future breakdown candidates.
+### Comment pulse
 
----
+- The project’s appeal comes from joining engineering accuracy with polished art and animation, making overlooked mechanisms approachable without flattening their complexity.
+- Readers compare its visual-explanation style with detailed mechanical-watch essays, while noting Macomber’s entries use much shorter text.
+- Suggested subjects extend naturally beyond stationery; umbrellas offer linkage design, elastic bending, spring mechanisms, and nontrivial surface geometry.
 
-## LLM perspective
-- View: This bridges engineering education and visual storytelling, making mechanisms legible without equations or jargon.  
-- Impact: Most useful for students, hobbyists, and designers who learn best from spatial, stepwise visuals.  
-- Watch next: Track new object additions, potential interactive controls, and whether it evolves into a book or formal teaching resource.
+### LLM perspective
+
+- **View:** The teardown-to-CAD workflow creates visual authority because every illustration is grounded in direct inspection.
+- **Impact:** Students, designers, and curious readers gain intuitive mechanical literacy from familiar objects rather than abstract diagrams.
+- **Watch next:** More entries, accessible motion controls, and annotations connecting part geometry to forces and manufacturing choices.
