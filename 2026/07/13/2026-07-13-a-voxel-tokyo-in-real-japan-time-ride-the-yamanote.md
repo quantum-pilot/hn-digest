@@ -3,20 +3,17 @@
 - Score: 329 | [HN](https://news.ycombinator.com/item?id=48890959) | Link: https://jivx.com/densha
 
 ### TL;DR
-A web experience renders Tokyo in voxel art, synced to real Japan time, letting you virtually ride the Yamanote line while reading/listening to Japanese. Commenters like the playful concept and kanji-with-furigana approach, but say the text-to-speech sounds non-native and even misreads furigana, which undercuts its learning value. Others struggle to read text over the moving, low-contrast background and report extremely high frame rates that spike CPU/GPU usage, making the demo hard to use for long.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Densha is a browser-based ambient Japanese study room built around a voxel recreation of Tokyo’s Yamanote line. The scene follows Japan’s real time, weather, and seasons while lo-fi music plays and beginner N5 sentences appear as subtitles and are spoken aloud; users can adjust pace, speed, voice, and night mode. HN readers liked the concept and its low-friction, press-play format, but reported three practical problems: unnatural or incorrect text-to-speech, poor subtitle contrast over moving scenery, and uncapped rendering that drove some browsers near 400 fps and saturated laptops.
 
 ### Comment pulse
-- Concept is charming for lapsed learners: kana comes back quickly, kanji recognition is fuzzy, and furigana makes it approachable again.
-- TTS voice feels subtly non-native and sometimes ignores furigana, reducing trust as a pronunciation aid—counterpoint: some would rather have stylized “Vocaloid”-style voices anyway.
-- Heavy rendering load and no FPS cap cause loud fans, laggy frame updates, and difficulty closing the tab; moving, low-contrast background also hurts text legibility.
 
----
+- Audio quality undermines pedagogy → listeners heard non-native timing and a kanji misreading caused by ignored furigana, making beginner repetition risky.
+- Visual immersion competes with legibility → illuminated voxel windows and constant motion reduce subtitle contrast precisely where learners need sustained attention.
+- Performance appears avoidably expensive → continuous rendering exceeded display needs — counterpoint: capping at 60 fps could retain motion while reducing heat.
 
 ### LLM perspective
-- View: Strong idea—combine ambient city simulation with bite-sized language exposure—but needs better audio, typography, and pacing to become truly educational.  
-- Impact: Best suited to motivated self-learners and Japan enthusiasts; also a case study in browser graphics performance pitfalls.  
-- Watch next: Add FPS limiting, readable overlays, higher-quality/choosable TTS, and simple progress mechanics (word tracking, spaced review, difficulty levels).
+
+- **View:** The product’s differentiator is environmental continuity, but study credibility depends more on accurate language delivery than visual novelty.
+- **Impact:** Fixing pronunciation and accessibility would convert a charming demo into a repeatable beginner-learning habit rather than passive wallpaper.
+- **Watch next:** Validate sentences with native speakers, honor furigana, add subtitle backing, cap animation frames, and publish a low-power mode.

@@ -2,16 +2,18 @@
 
 - Score: 225 | [HN](https://news.ycombinator.com/item?id=48897878) | Link: https://www.whois.com/whois/t.me
 
-- TL;DR  
-  Telegram’s short-link domain t.me (a Montenegrin .me domain, registered via GoDaddy) was put into a suspended/“serverHold” state, breaking shared links without taking Telegram itself offline. Commenters dissect ICANN status codes, note the domain is heavily locked, and speculate on legal or regulatory pressure from countries investigating Telegram. The incident sparks discussion about avoiding dependence on third‑party domains, picking more resilient registrars/TLDs, and even moving communities off Telegram to more controllable or open platforms like Zulip or Matrix.  
-  *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  Resilience/ops: Don’t email or publish raw third-party links; always point to your own redirect domain you can retarget if a service/TLD disappears.  
-  Domain status: ICANN EPP codes (e.g., serverHold, clientRenewProhibited) show t.me is suspended and heavily locked; some locks may be routine or caused by long-term pre‑renewal.  
-  Politics/hosting: Legal probes in Russia, France, India plus GoDaddy’s takedown history and Montenegro’s EU alignment fuel censorship concerns—counterpoint: much alleged abuse is by users, not Telegram directly.  
+A WHOIS snapshot for Telegram’s t.me short-link domain showed four client-prohibited statuses—delete, renew, transfer, and update—despite registration through May 2035 and Google-hosted nameservers. The supplied record does not itself prove suspension: commenters noted ICANN uses `serverHold` for that, while these locks may reflect registrar controls, a legal dispute, or simply the domain already sitting at the ten-year renewal ceiling. HN nevertheless treated the incident as a dependency warning, advocating first-party redirect links and alternate community platforms while speculating, without confirmation, about regulatory pressure and GoDaddy’s role.
 
-- LLM perspective  
-  View: Centralized messaging platforms remain vulnerable to geopolitical and registrar pressure at the DNS/TLD layer, regardless of app popularity.  
-  Impact: Any product using branded short domains or ccTLDs faces availability and trust risks if registries or registrars change posture.  
-  Watch next: Telegram’s domain/registrar moves, policy statements from .me and GoDaddy, and whether more communities shift to federated or self-hosted chat.
+### Comment pulse
+
+- Status interpretation remained unsettled → `clientRenewProhibited` can accompany disputes, but a 2035 expiry and absent `serverHold` weaken the suspension claim.
+- Link indirection paid off → one operator could replace Telegram URLs centrally rather than resend every emailed link.
+- Centralized dependencies worried communities → an Indian functional-programming group had already begun moving from Telegram to Zulip.
+
+### LLM perspective
+
+- **View:** WHOIS locks, DNS resolution, HTTP reachability, and registry hold are separate signals; headlines should not collapse them.
+- **Impact:** Broken short links can sever years of invitations, documentation, and discovery even when Telegram remains reachable.
+- **Watch next:** Confirm RDAP state, DNS answers, registrar notice, registry action, restoration timeline, and whether telegram.me shares the dependency.

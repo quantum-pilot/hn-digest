@@ -3,20 +3,17 @@
 - Score: 443 | [HN](https://news.ycombinator.com/item?id=48888468) | Link: https://www.theguardian.com/film/2026/jul/13/sam-neill-death-actor-dies-aged-78
 
 ### TL;DR
-Sam Neill’s death prompted an outpouring of affection centered less on celebrity and more on how deeply his characters embedded themselves in people’s lives. Swedes recall him as the villain from the 1982 Ivanhoe TV film, a quirky New Year’s broadcast tradition he embraced with annual, jokey messages. Others remember Jurassic Park as a formative childhood cinema experience, or his quiet pathos in The Hunt for Red October. A shared picture emerges of a kind, funny, grounded actor.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+New Zealand actor Sam Neill died suddenly in Sydney at 78, surrounded by family; no cause was announced, and his family said he remained cancer-free after treatment for stage-three lymphoma diagnosed in 2022. Across more than 150 credits over five decades, he moved between art cinema, blockbusters, villains, romance, and television—from *My Brilliant Career*, *Possession*, *The Piano*, and *The Hunt for Red October* to Dr Alan Grant in *Jurassic Park* and *Peaky Blinders*. HN remembered his warmth, wit, understated range, and films woven into childhood and national traditions.
 
 ### Comment pulse
-- Swedish New Year’s Ivanhoe tradition → Neill’s villain airs annually, and he leaned into it with humorous messages to Sweden, becoming a beloved seasonal fixture.  
-- Jurassic Park impressions → For many, Neill’s Dr. Grant framed childhood awe at dinosaurs and cinema itself, tied to vivid memories of where and how they watched it.  
-- Character work and persona → His understated Borodin in The Hunt for Red October and a candid Marc Maron podcast shaped a lasting image of warmth, integrity, and subtle range.
 
----
+- Sweden claimed its own Neill tradition → *Ivanhoe* aired every New Year for 40 years, and he good-naturedly joked with viewers annually.
+- Dr Alan Grant shaped childhood wonder → commenters recalled cinema dinosaurs making imagination tangible and dark walks home feel prehistoric.
+- Understatement made supporting roles endure → Borodin’s loyalty and death gave *The Hunt for Red October* emotional weight.
 
 ### LLM perspective
-- View: Neill shows how “supporting” actors can anchor cultural memory as strongly as marquee stars.  
-- Impact: His passing triggers cross‑generational nostalgia, revealing how films become personal time markers and communal rituals.  
-- Watch next: Renewed interest in his lesser-known work and interviews will likely expand appreciation beyond Jurassic Park and a few iconic roles.
+
+- **View:** His range mattered, but audiences mourn the humane intelligence connecting radically different performances.
+- **Impact:** His screen legacy lives through rituals, formative memories, and small characters as much as marquee roles.
+- **Watch next:** Retrospectives should include New Zealand breakthroughs, cult work, comedy, television, and interviews—not only the dinosaur franchise.

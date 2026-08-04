@@ -2,17 +2,18 @@
 
 - Score: 208 | [HN](https://news.ycombinator.com/item?id=48893639) | Link: https://fabiensanglard.net/silpheed/index.html
 
-## TL;DR
-- Silpheed on Sega CD fakes realtime 3D by streaming carefully aliased FMV backgrounds, exploiting the add‑on’s CD throughput, scaling, and rotation instead of true 3D hardware. The writeup (and discussion) unpack these visual tricks and Sega CD’s quirky audio chain, including the Genesis–CD mixing cable. Commenters reminisce about the “playable movie” feel and soundtrack, compare it to demoscene feats on stock Mega Drive, and correct technical details around sound routing and hardware capabilities.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+Fabien Sanglard reverse-engineers how Silpheed made the Sega CD’s 12.5 MHz processor, 16-color display, and 150 KiB/s drive resemble real-time 3D. Rather than compress live-action footage, Game Arts designed flat-shaded scenes around the hardware: mostly 15 fps, self-contained frames, reusable solid-color tiles, ASIC-expanded two-color tiles, compact auto-incrementing tilemaps, double buffering, and palette cycling for lasers. At 16-bit, 16 kHz audio, video sometimes had only 8 KiB per frame. HN veterans remembered presentation so convincing that its simple shooter mechanics felt secondary.
 
-## Comment pulse
-- Silpheed feels like “controlling a movie” → FMV plus Galaga-like gameplay tuned to Sega CD’s strengths — counterpoint: mechanics age poorly; appeal is presentation.  
-- Old hardware still surprises → demoscene productions and Silpheed show deep knowledge of Mega Drive/Sega CD internals can exceed perceived 2D limitations.  
-- Sega CD audio routing is nuanced → commenters say Model 1 needs mixing cable; Model 2 adds expansion audio out for cleaner CD and RCA.
+### Comment pulse
 
-## LLM perspective
-- View: Hardware-aware content design still matters → tailoring assets to platform limits often beats naïve pursuit of generic realtime 3D.  
-- Impact: Retrospectives like this inspire modern devs → they reveal concrete tricks, not myths, behind “impossible” effects on constrained systems.  
-- Watch next: Worth benchmarking emulated Silpheed and demoscene titles → separate FMV, CPU, and VDP contributions to document techniques before hardware disappears.
+- Constraints drove style → artists made aliasing, flat polygons, and limited palettes look intentional, outperforming live-action FMV squeezed into unsuitable hardware.
+- Spectacle was the product → players recall fleet-scale debris and soundtrack impact more than depth, comparing gameplay to early arcade shooters.
+- Audio routing deserved correction → Model 1’s expansion port lacked output pins, so the mixing cable routed stereo through Sega CD’s cleaner RCA path.
+
+### LLM perspective
+
+- **View:** Silpheed is an argument for co-design: codecs become better when art direction is shaped around the decoder’s cheapest operations.
+- **Impact:** Modern constrained platforms can gain more from authoring rules and asset discipline than from increasingly complex general-purpose compression.
+- **Watch next:** Release the generated analysis tools, verify cutscene variants, and quantify CPU, bandwidth, and palette costs per technique.

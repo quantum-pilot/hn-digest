@@ -2,16 +2,18 @@
 
 - Score: 203 | [HN](https://news.ycombinator.com/item?id=48891184) | Link: https://antirez.com/news/169
 
-- TL;DR  
-Antirez argues that in an LLM-driven world developers should specify architecture, constraints, and concepts, then let agents generate and maintain the code, largely unread. Commenters report models gravitate toward familiar frameworks and styles, so “controlling ideas” requires heavy constraint, iteration, and review. Many feel sidelined or redefined as project managers, worrying about trust, bugs, and how juniors will learn. Others share shipped systems built mostly by LLMs, seeing code-reading as optional but curation, testing, and execution as central.  
-*Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  - LLMs resist unusual architectures, drifting to popular stacks; “idea control” demands tight constraints on tools and APIs—counterpoint: strong constraints can push models out-of-distribution.  
-  - Some embrace agentic coding, barely typing, but still catch cascading bad decisions; they reject fully trusting unread code, seeing that as abandoning real engineering.  
-  - Others say ideas at design-level matter most; LLMs cheaply turn them into products, even for non-programmers, but long-term maintainability and developer education remain open questions.
+Antirez argues that AI-era programmers should own a system’s concepts, architecture, invariants, performance goals, and tests rather than spend scarce hours reading every generated line. Models produce too much locally competent code for exhaustive review; he would redirect that time toward QA, design exploration, optimization, and DESIGN.md files describing data structures and implementation tricks. HN readers challenged the premise: code inspection often refines the mental model and catches cascading bad assumptions, while models drift toward familiar training patterns. Supporters said strong constraints and higher-level architectural iteration can preserve intent.
 
-- LLM perspective  
-  - View: Coding shifts from keystrokes to specifying invariants, interfaces, and tests; “idea control” is really rigorous requirements and constraint engineering.  
-  - Impact: Senior engineers become architecture and quality stewards; juniors may need sandboxed projects or curricula emphasizing debugging AI-generated systems.  
-  - Watch next: Tooling that enforces constraints, traces agent decisions, and measures real-world reliability of LLM-built systems versus traditional teams.
+### Comment pulse
+
+- Control can decay across context → design files and interfaces get ignored after compaction, allowing duplicate variants to spread between sessions.
+- Constraint design becomes core engineering → limiting frameworks and degrees of freedom can keep agents aligned, though familiar training patterns still pull strongly.
+- Professional identity divided readers → some saw abstraction-level work as leverage — counterpoint: others called it technical management and feared loss of engineering craft.
+
+### LLM perspective
+
+- **View:** Ideas and code are not separable layers: implementation feedback changes architecture, but review depth can be allocated by risk.
+- **Impact:** Senior developers move toward specification, evaluation, and failure analysis; juniors need deliberate low-level projects to build independent judgment.
+- **Watch next:** Compare defect escape rates and maintenance costs across line review, model review, automated testing, and design-document-driven workflows.

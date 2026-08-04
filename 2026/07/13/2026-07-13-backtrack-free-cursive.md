@@ -2,16 +2,18 @@
 
 - Score: 248 | [HN](https://news.ycombinator.com/item?id=48888518) | Link: https://mmapped.blog/posts/52-backtrack-free-cursive
 
-- TL;DR  
-Backtrack-Free Cursive describes a custom handwriting style that avoids stroke “backtracking” and pen lifts to maximize writing flow. Commenters compare it with Zaner-Bloser and Italic hands, debating trade-offs between speed, hand comfort, and legibility—especially for i, j, t and dense loops. Some argue such scripts are fine for personal notes but poor for shared text; others note readers use whole-word shapes. The thread veers into national cursive variants and ultimately toward full shorthand systems for extreme efficiency.  
-*Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  - Legibility over speed → fancy i/j/t and dense loops hinder quick reading; fine for personal notes — counterpoint: fluent readers rely on whole-word shapes anyway.  
-  - Global cursive norms vary → Zaner-Bloser, Italic, Dutch "koordschrift" t, Indian x reveal many joins; some think "backtracking" poorly describes these retracing choices.  
-  - Shorthand as next step → orthographic and phonetic systems like Melin or Gregg maximize flow further, trading easier learning against memorability and conventional spelling.
+The author argues that Latin cursive disrupts flow because dots and crossbars leave a mental queue of unfinished strokes. In an analysis of Crime and Punishment, the English text required backtracking in 51% of words, averaging 0.68 additions per word, versus 6.4% and 0.066 in Russian. Their redesigned script adapts SmithHand and Russian forms so x, t, i, and j can be completed continuously, making paper writing smoother and digital stroke-level undo cleaner. HN readers admired the experiment but questioned legibility, terminology, and whether writer speed should outrank reader effort.
 
-- LLM perspective  
-  - View: Script engineering mirrors UX design—optimize separately for private capture, archival legibility, and shared communication.  
-  - Impact: In education, explicitly teaching multiple hands (fast notes, clear print) may outperform one compromised, all-purpose cursive.  
-  - Watch next: Empirical studies comparing note speed, legibility, and recall across backtrack-free cursive, standard cursive, shorthand, and keyboard entry.
+### Comment pulse
+
+- Legibility is the main tradeoff → looped i, j, and tt forms can resemble other letters, adding context-dependent decoding for unfamiliar readers.
+- Audience changes the optimization → personal journals favor speed and pleasure — counterpoint: shared handwriting benefits from familiar forms and slower italic clarity.
+- Shorthand offers a deeper endpoint → orthographic systems preserve spelling, while phonetic systems trade conventional orthography for still greater flow.
+
+### LLM perspective
+
+- **View:** This is interface design at letter scale: minimizing state and secondary actions improves production but shifts complexity into recognition.
+- **Impact:** Private note-takers can personalize aggressively; scripts intended for exchange need reader testing across ages, languages, and writing speeds.
+- **Watch next:** Compare writing speed, error rate, delayed self-reading, unfamiliar-reader accuracy, hand fatigue, and digital undo frequency against standard cursive.

@@ -2,17 +2,18 @@
 
 - Score: 191 | [HN](https://news.ycombinator.com/item?id=48889350) | Link: https://shkspr.mobi/blog/2026/07/another-ridiculous-interrail-holiday-6379km-and-13-countries-over-7-weeks/
 
-TL;DR
-- A 7-week, 6,379 km Interrail through 13 countries highlights how European rail “grand tours” mix adventure with fatigue. The trip (and HN thread) contrasts old-school spontaneity—sleeping on trains, picking random destinations—with today’s need for reservations, apps, and cost-optimization. Commenters debate whether Interrail is past its heyday or actually more popular, how it compares to cheap flights and national passes, and stress that high-intensity city-hopping is energizing but not a restful holiday.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+A couple used a 15-days-in-two-months first-class Interrail pass to cover 6,379 km, 13 countries, two ferries, and roughly 40 train hours across seven weeks. The travelogue finds rail calmer, more central, and less polluting than flying, but documents schedule changes, breakdowns, inconsistent pass recognition, reservation quirks, weak passenger communication, uneven access to lounges, vegan food, Wi-Fi, and air-conditioning, plus travel fatigue. HN contrasted today’s reservation-heavy planning with earlier spontaneity, noted cheaper national passes for single-country travel, and distinguished stimulating travel from genuinely restorative holidays.
 
-Comment pulse
-- Interrail as rite of passage → teaches self-reliance and freedom via rough travel and hostels; safety perceptions shifted with visible homelessness and mental-health crises.
-- Popularity trajectory → some recall past peak; others cite 2024 ticket sales beating 1990s — counterpoint: ultra-cheap flights still attract students for quick trips.
-- Modern logistics and value → reservations required in several countries; national passes can be cheaper; EU DiscoverEU gives 18-year-olds free passes; intense city-hopping exhausts.
+### Comment pulse
 
-LLM perspective
-- View: Interrail now mixes analog wanderlust with digital planning; the trade-off is less serendipity but broader accessibility and safety.
-- Impact: Expanded youth rail schemes could shift travel from planes to trains, cutting emissions while strengthening cross-border cultural familiarity.
-- Watch next: Better pass-reservation integration and transparent quotas would restore spontaneity, making multi-country trips easier for less-experienced or risk-averse travelers.
+- Interrail still enables discovery → much of central and northern Europe allows flexible boarding — counterpoint: high-speed routes increasingly require reservations and pass quotas.
+- A rail pass is not automatically cheapest → national monthly tickets can beat one-country Interrail prices, especially when travelers accept slower regional services.
+- Adventure and recovery are different holidays → frequent cities and transfers can enrich travelers while exhausting anyone who primarily needs rest.
+
+### LLM perspective
+
+- **View:** Rail-pass freedom depends less on coverage than on reservations, quotas, fragmented booking, and reliable disruption notices.
+- **Impact:** Slow itineraries reduce transport stress and emissions, yet repeated transitions can turn leisure into logistics work.
+- **Watch next:** Reservation interoperability, disruption alerts, pass-holder quotas, sleeper and ferry integration, and price comparisons with national rail subscriptions.

@@ -2,17 +2,18 @@
 
 - Score: 331 | [HN](https://news.ycombinator.com/item?id=48887753) | Link: https://countbinface.com
 
-- TL;DR  
-  - Count Binface is a British joke candidate who evolved from Lord Buckethead after a copyright dispute, but behind the bin-helmet is an Oxford-educated political satirist and Thick of It writer. He’s now standing in the Clacton by‑election against Nigel Farage, making the race a clash between populist right and high‑concept parody. HN discussion ranges from UK–US contrasts in education and anti‑intellectualism to the rules around pseudonymous candidates, and whether a protest vote could actually elect him.  
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+Count Binface, Jonathan David Harvey’s bin-headed satirical candidate, is contesting the 2026 Clacton by-election with promises including making 13 August bin day. The character evolved from Lord Buckethead after a copyright dispute and has repeatedly stood against prominent UK politicians, peaking at 92,896 votes in London’s 2021 mayoral race. HN enjoyed the absurd manifesto and Harvey’s unexpected erudition, but discussion centered on opponent Nigel Farage’s disputed resignation strategy, whether anti-Farage voters could coordinate behind Binface, and how UK aliases and parliamentary forms of address would handle an actual victory.
 
-- Comment pulse  
-  - Binface’s sharp Latin and satire highlight UK’s older elite-education tradition, contrasting with perceived US anti-intellectual politics and declining literacy on both sides of the Atlantic.  
-  - Farage’s undeclared gifts, including from a crypto felon, likely triggered this by‑election; commenters see his run as preemptive spin—counterpoint: others call it anti-populist lawfare.  
-  - UK naming rules are loose; MPs are addressed by constituency, so “Count Binface” could serve in costume while concentrating protest votes against Farage.  
+### Comment pulse
 
-- LLM perspective  
-  - View: Parody candidates like Binface pressure the system by exposing absurdities, yet depend on voter frustration staying symbolic, not programmatic.  
-  - Impact: If Binface materially dents Farage’s vote share, it normalizes satire as a tactical tool against polarizing populists.  
-  - Watch next: Track future UK elections for coordinated “single protest” joke candidates unifying opposition when serious parties split the anti-populist vote.
+- Comedy carries institutional memory → Harvey reportedly wrote for *The Thick of It* and studied Classics at Oxford, explaining sharp satire and fluent Latin.
+- Election strategy polarized commenters → critics call Farage’s resignation a diversion from standards scrutiny — counterpoint: supporters describe the inquiry as political lawfare.
+- A victory poses fewer naming problems than assumed → UK aliases are flexible, and MPs address colleagues by constituency rather than personal name.
+
+### LLM perspective
+
+- **View:** Satirical candidacies expose weaknesses in serious politics without requiring voters to decode detailed policy.
+- **Impact:** A concentrated protest vote could turn a novelty candidate into a coordination device under first-past-the-post.
+- **Watch next:** Vote share, turnout, mainstream-party participation, standards findings, and whether the manifesto mixes executable proposals with jokes.
