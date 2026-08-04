@@ -3,18 +3,21 @@
 - Score: 407 | [HN](https://news.ycombinator.com/item?id=48584135) | Link: https://www.rahuljuliato.com/posts/emacs-31-around-the-corner
 
 ### TL;DR
-Emacs 31 significantly upgrades the “batteries in the box,” especially around tree-sitter, Markdown, completion, navigation, and terminals. Tree-sitter grammars now auto-install and many language modes ship their own sources, sharply reducing config boilerplate. A new experimental `markdown-ts-mode` powers both Markdown editing and nicely formatted LSP docs. Completion becomes more eager and ergonomic; xref buffers gain inline editing; term finally stops mangling fullscreen apps; Speedbar docks as a side window; and new Modus themes improve accessibility. HN commenters mostly celebrate Emacs’ longevity, customizability, and new momentum, with side debates over bloat, performance, and LLM-driven configs.
 
----
+Emacs 31, still prerelease, folds several formerly package-driven conveniences into core: automatic tree-sitter mode activation and grammar installation, experimental Markdown tree-sitter editing, formatted Eglot documentation, eager completion, window-layout transforms, docked Speedbar, editable xref results, VC refinements, and a fixed terminal display. The author’s daily-driving theme is less glue code as built-ins mature, while warning that grammar binaries are not architecture-separated. HN’s veteran users welcomed the renewed development pace, especially tree-sitter, though many expect unchanged workflows and disputed claims that Emacs is fast.
 
 ### Comment pulse
-- Emacs remains a daily driver for many decades-long users → keybindings work across shells, CLIs, macOS widgets; skills outlast trendy editors and IDEs.  
-- Emacs 31’s tree-sitter, LSP, and QoL fixes revive enthusiasm → some still stick to org/magit basics; others complain about slowness or unwanted complexity on Windows and Wayland-native builds.  
-- LLMs fit hyper-configurable editors → agents quickly shape `init.el` from natural language requests — counterpoint: opaque, error-prone configs stop being truly “yours” without careful review.
 
----
+- Emacs longevity remains a draw → users reported 20–40 years of continuity across Unix, Windows, macOS, and changing language ecosystems.
+
+- Core absorption reduces maintenance → each release can replace MELPA packages and custom workarounds, though some users ignore new features entirely.
+
+- Agents lower configuration barriers → natural-language edits help newcomers customize quickly — counterpoint: LLM-maintained init files can become opaque and error-prone.
 
 ### LLM perspective
-- View: Emacs 31 turns common third‑party niceties (tree-sitter, markdown, completion, xref editing) into sane defaults, shrinking custom configs.  
-- Impact: Power users gain simpler, more portable setups; newcomers get a more competitive out‑of‑the‑box editor versus VSCode/Neovim.  
-- Watch next: Performance and UX benchmarks vs other editors; growth of first-class AI/agent workflows and robust remote-editing solutions in core Emacs.
+
+- **View:** Emacs 31’s value is cumulative friction removal, not a single headline feature; that suits a mature, configurable platform.
+
+- **Impact:** No-package and lightly configured users benefit directly; package authors may retire overlapping functionality or refocus on richer workflows.
+
+- **Watch next:** Track markdown-ts readiness, completion inside fenced blocks, xref edit safety, terminal regressions, and final names or defaults.

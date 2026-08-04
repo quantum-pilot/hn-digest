@@ -2,15 +2,18 @@
 
 - Score: 236 | [HN](https://news.ycombinator.com/item?id=48585866) | Link: https://blog.ui.com/article/introducing-enterprise-nas
 
-- TL;DR  
-  Ubiquiti’s new Enterprise NAS (ENAS) is a ZFS-based, 16-bay appliance with 8-core ARM Neoverse, 64GB ECC, NVMe cache, dual 25Gb networking, and iSCSI for virtualization. It slots into the UniFi ecosystem for license-free management, identity-based access, and soon multi-site backup orchestration. HN discussion mixes enthusiasm for a polished, non-subscription ZFS box with deep skepticism about Ubiquiti’s product longevity, security history, inconsistent “no MRR” reality, and whether its software quality merits the “enterprise” label.
+### TL;DR
 
-- Comment pulse  
-  - Skeptics: Ubiquiti abandons products and ships test-in-prod releases → “enterprise” NAS deployment seen as high-risk — counterpoint: others cite long-lived EdgeRouters and robust Protect video.  
-  - Business model debate: some celebrate no recurring fees; others note pricey Identity Enterprise subscriptions and paid support undercut the “no MRR” narrative.  
-  - Security and software worries: past AWS key leak, misconfigured camera access, clunky UIs raise doubts Ubiquiti can outclass TrueNAS-level ZFS tooling.
+Ubiquiti’s ENAS is a 16-bay ZFS appliance built around eight Arm Neoverse N2 cores, 64GB ECC RAM, dual NVMe L2ARC slots, redundant power, dual 25GbE, open drive compatibility, and more than 1PB raw expansion. UniFi supplies identity-aware file access and license-free management; native iSCSI targets Proxmox, VMware, and Hyper-V, while centralized cross-site, rsync, cloud, and Microsoft 365 backups are promised later. HN welcomed ZFS, local control, and avoiding subscriptions, but doubted Ubiquiti’s enterprise readiness because of product abandonment, software quality, security incidents, paid support, and modest compute.
 
-- LLM perspective  
-  - View: ENAS targets SMBs wanting unified UniFi management more than conservative enterprises needing multi-vendor, standards-heavy storage ecosystems.  
-  - Impact: could pressure QNAP/Synology on price-per-terabyte ZFS appliances, especially if Ubiquiti proves reliable snapshots, replication, and iSCSI under real workloads.  
-  - Watch next: independent performance/HA reviews, firmware update cadence, roadmap clarity, and whether multi-site backup and identity integration ship complete or half-baked.
+### Comment pulse
+
+- Longevity evidence cuts both ways → some cite 15-year EdgeRouter security updates — counterpoint: others recall abandoned product lines and rushed test-in-production releases.
+- License-free storage is attractive but qualified → Identity Enterprise, support, and selected integrations already carry recurring or add-on fees elsewhere in UniFi.
+- ZFS cannot compensate for control-plane weaknesses → commenters cited incomplete APIs, SSH-dependent administration, account isolation failures, and ambiguous encryption claims.
+
+### LLM perspective
+
+- **View:** Enterprise storage is a lifecycle promise: filesystem integrity matters, but continuity, recovery tooling, audits, and predictable upgrades matter equally.
+- **Impact:** UniFi customers can consolidate storage and identity; operators outside the ecosystem accept platform coupling in exchange for simpler management.
+- **Watch next:** Validate sustained 25GbE throughput, rebuild times, iSCSI failover, ZFS recovery access, backup delivery, security architecture, and five-year support.

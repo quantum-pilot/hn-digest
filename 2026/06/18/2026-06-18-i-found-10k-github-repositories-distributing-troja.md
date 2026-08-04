@@ -3,18 +3,21 @@
 - Score: 634 | [HN](https://news.ycombinator.com/item?id=48583928) | Link: https://orchidfiles.com/github-repositories-distributing-malware/
 
 ### TL;DR
-An individual discovered a large, ongoing malware campaign on GitHub: ~10,000 non-fork repos that clone legitimate projects’ full commit history and contributors, then repeatedly rewrite the latest commit as “Update README.md” to insert a link to a Trojan-containing zip. Using gharchive plus GitHub’s API, they filtered for high-frequency updates where only the README changed and found 25% of such repos matched the pattern. GitHub was slow to react but began mass-deleting once the issue and detection script were publicized; similar activity was documented by security researchers and on Reddit over a year ago.
 
----
+A researcher found 10,000 non-fork GitHub repositories that clone newer projects’ names, descriptions, histories, and contributor attribution, then add Trojan-bearing ZIP links through repeatedly rewritten README commits. By filtering 16 million GH Archive push events over five days to 40,000 periodically updated repositories, a script found one quarter matching the pattern; some had persisted over a year before GitHub began deleting them after publication. HN users reported similar impersonation and suggested repeated pushes keep poisoned results fresh for search engines—and possibly dependency-seeking coding agents—though that targeting remains speculative.
 
 ### Comment pulse
-- Goal is likely automation abuse → fake repos target AI/“agent” systems that auto-pick dependencies, seeding worm-like account stealers at scale—counterpoint: simple SEO/“Last Updated” gaming might already suffice.  
-- Developers report identity hijacking → their names and projects are cloned into “skills”/tool marketplaces with added malicious URLs and sketchy “verifying your browser” gates.  
-- Real-world damage is documented → a Disney engineer’s GitHub plugin Trojan yielded months of full-account access, reinforcing advice to separate MFA from password managers and self-compile code.
 
----
+- Search freshness may be the mechanism → recurring force-pushes can elevate malicious clones above originals for low-volume project names and tags.
+
+- Impersonation damages maintainers directly → developers found their names attached to unknown projects, injected links, and third-party marketplaces they did not authorize.
+
+- Repository legitimacy is insufficient assurance → copied history and plausible code can conceal credential-stealing plugins; commenters favored source review plus self-compilation.
 
 ### LLM perspective
-- View: This shows how low-friction cloning plus weak repo vetting enables industrial-scale malware that looks “community-trusted” at a glance.  
-- Impact: GitHub, security vendors, and corporate DevOps will need automated, behavioral detection of repo-level abuse, not just file-level scanning.  
-- Watch next: GitHub’s policy/technical response, AV signatures for this family, and whether package registries/agent platforms start enforcing stronger provenance checks.
+
+- **View:** Behavior-level detection exposed a campaign whose individual archive URLs evaded naive scanning; repository context is the stronger signal.
+
+- **Impact:** New-project maintainers, niche-search users, and automated coding systems face elevated supply-chain risk from high-ranking clones.
+
+- **Watch next:** GitHub should publish detection coverage, takedown counts, archival scanning, force-push heuristics, and protections against copied contributor attribution.

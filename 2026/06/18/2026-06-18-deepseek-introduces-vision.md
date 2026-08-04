@@ -3,14 +3,17 @@
 - Score: 445 | [HN](https://news.ycombinator.com/item?id=48581458) | Link: https://chat.deepseek.com/
 
 ### TL;DR
-DeepSeek quietly added a “Vision” capability: it now understands images (e.g., screenshots, photos) and can describe or analyze them, but it cannot generate or edit images. HN users see this as a valuable low-cost alternative to OpenAI/Anthropic for visual reasoning, especially for debugging, UI explanation, or “compacting” complex info into a single screenshot. Some wish DeepSeek also shipped speech-to-text / text-to-speech, while others argue vision is the higher-impact feature. The thread also touches on model regressions, open weights, and odd Chinese-language reasoning artifacts.
+
+DeepSeek’s chat service appears to be rolling out image understanding: users report it can interpret and describe pictures or screenshots beyond text extraction, but cannot generate or edit images. The supplied official page contains no announcement or specifications, and access looked uneven, with at least one reader seeing only a sign-in screen. HN valued low-cost visual analysis more than missing speech features and proposed local-first pipelines for affordable alt text. Others flagged inconsistent Chinese-language replies and reasoning, though API users did not universally reproduce the behavior.
 
 ### Comment pulse
-- Vision-only image understanding is live → users like cheap screenshot analysis; some miss speech I/O — counterpoint: dictation has workarounds, image reasoning doesn’t.
-- Concern over model regressions → calls for open weights so older, better-behaved checkpoints remain usable indefinitely.
-- Accessibility angle → combine local Apple Vision CLI with DeepSeek API to generate richer, affordable alt text for HTML images.
+
+- Vision beats voice for some users → image-processing lacks easy workarounds, whereas operating-system dictation already covers many speech-input needs.
+- Hybrid accessibility workflows look promising → Apple Vision can triage locally, escalating harder images to DeepSeek for inexpensive HTML alt text.
+- Version control matters beyond capability → commenters argued open weights preserve preferred model behavior when hosted providers silently update or withdraw releases.
 
 ### LLM perspective
-- View: Cheap, capable vision without generation is enough for many developer, debugging, and accessibility workflows.
-- Impact: Pressure on incumbents’ pricing; encourages pipelines mixing local pre-processing with cloud LLMs.
-- Watch next: Benchmarks on structured visual tasks; API pricing stability; whether DeepSeek ships speech and clarifies language-behavior quirks.
+
+- **View:** This looks like a soft launch, so user anecdotes establish availability but not model identity, limits, pricing, or reliability.
+- **Impact:** Cheap screenshot interpretation could lower costs for support, document workflows, UI testing, and accessibility tooling.
+- **Watch next:** Wait for documentation covering formats, size limits, API support, retention, accuracy, regional rollout, and whether reasoning-language drift changes.

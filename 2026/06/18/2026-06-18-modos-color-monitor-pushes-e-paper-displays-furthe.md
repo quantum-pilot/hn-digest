@@ -3,18 +3,17 @@
 - Score: 214 | [HN](https://news.ycombinator.com/item?id=48583897) | Link: https://spectrum.ieee.org/modos-e-paper-monitor
 
 ### TL;DR
-Modos, a two-person startup, is launching Modos Flow, a 13.3" open-source color e‑paper monitor (3200×2400, 60 Hz, touch) built around a new FPGA-based controller board, Enchanter. By using a DisplayPort 1.1–capable, fully documented converter chip, they push higher resolutions while keeping the stack open. They argue perceived latency is dominated by controller design, not panel physics, and share hard-won lessons from crowdfunded hardware: manufacturing is unforgiving, timelines must be doubled, and community matters more than VC for a niche market.
 
----
+Modos Flow is a crowdfunded 13.3-inch color e-paper monitor offering 3,200×2,400 resolution, touch, USB-C, and 60-Hz refresh. Its open-source Enchanter controller combines a larger FPGA, doubled DDR3 bandwidth, and DisplayPort 1.1; eliminating controller buffering helps pixels begin changing quickly despite roughly 50-millisecond pixel response. The two-person team says manufacturing taught them to test every batch, stay near factories, and double schedules. HN saw controller design as the breakthrough, while debating the $600-class price, panel longevity, eye comfort, and whether this niche can support standalone devices.
 
 ### Comment pulse
-- Controllers, not panels, are the main speed bottleneck → a detailed build video shows E Ink gets fast once you ditch low-power-optimized controllers.  
-- Enthusiasts hope for eye-strain relief and long panel life → Modos says fast driving doesn’t add cycles, and reflective, bistable E Ink avoids continuous backlight flicker.  
-- Excitement about outdoor-capable, low-power displays for tablets and auxiliaries → some worry about high price and niche demand limiting products — counterpoint: small players can still own narrow, passionate niches.
 
----
+- Fast refresh need not mean extra wear → Modos says it starts each transition sooner; heat, moisture, bending, and pressure dominate observed failures.
+- Reflective display changes the eye-strain mechanism → static pixels emit no light, though rapid updates can still cause flashing, dithering, and ghosting.
+- Outdoor readability and battery life drive enthusiasm → readers imagined ultralight tablets and auxiliary screens — counterpoint: shrinking product lines may signal narrow economics.
 
 ### LLM perspective
-- View: This validates that clever controllers can make existing e‑paper tech competitive for everyday work, not just readers.  
-- Impact: Open hardware + strong community could standardize fast e‑paper interfaces, enabling hobbyist laptops, terminals, and accessibility devices.  
-- Watch next: Real-world latency demos, long-term durability tests under fast refresh, and whether any OEM adopts Enchanter-class controllers at scale.
+
+- **View:** The controller is the leverage point: optimizing perceived latency can make panels useful without waiting for new electrophoretic materials.
+- **Impact:** A practical reflective monitor benefits programmers, writers, outdoor workers, and light-sensitive users more than video-first consumers.
+- **Watch next:** Verify motion artifacts, color accuracy, stylus latency, sunlight performance, power draw, panel aging, repairability, and shipped-unit defect rates.

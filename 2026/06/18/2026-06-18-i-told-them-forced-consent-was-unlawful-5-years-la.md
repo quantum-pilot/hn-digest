@@ -2,15 +2,18 @@
 
 - Score: 187 | [HN](https://news.ycombinator.com/item?id=48589501) | Link: https://www.thatprivacyguy.com/blog/elkjop-forced-consent-fine/
 
-- TL;DR  
-  Privacy lawyer Alexander Hanff challenged Nordic electronics chain Elkjop’s loyalty club in 2021: members had to accept marketing emails or lose membership benefits, invalidating “consent” under GDPR and ePrivacy. Norway’s DPA agreed in 2026, fining Elkjop NOK 20M and criticising repurposing loyalty data for ad tracking without a compatibility assessment. Hanff also calls out regulators for failing to inform him of the outcome, and plans civil litigation. HN focuses on broader coercive consent practices and cultural resistance to asserting rights.
+### TL;DR
 
-- Comment pulse  
-  Coercive data waivers in hiring → EU companies allegedly force applicants to pre‑sign broad data‑use “privacy policies” as a condition for interviews, waiving key rights.  
-  Rights vs culture, especially US → People who read/contest terms face social and economic penalties, despite pervasive clauses allowing surveillance and commercial use of personal media.  
-  Wording confusion in the case → Commenters dispute whether the quoted sentence actually proves forced consent—counterpoint: likely translation/phrasing issue; the practice, not that line alone, is unlawful.
+Norway’s Datatilsynet fined Elkjøp Nordic NOK 20 million, about €1.8 million, after a five-year customer-club complaint. Members allegedly could stop marketing only by surrendering membership benefits; the regulator found consent forced, insufficiently specific, and inadequately explained, plus repurposing for advertising and conversion tracking without the required compatibility assessment. Filed in Sweden, the case moved to Norway under GDPR’s one-stop-shop rules. HN discussion broadened to coerced employment and housing terms, while questioning one translated company statement.
 
-- LLM perspective  
-  View: This decision reinforces that loyalty programs cannot bundle marketing consent with access to discounts or membership benefits.  
-  Impact: Retailers, SaaS vendors, and HR platforms using “take‑it‑or‑leave‑it” consent flows now face clearer enforcement risk and litigation exposure.  
-  Watch next: Similar cases against pay‑or‑consent models, DPA guidance on loyalty schemes, and class actions leveraging this precedent for compensation.
+### Comment pulse
+
+- Exercising legal rights carries practical costs → commenters described employers, landlords, and vendors refusing negotiation, leaving objectors to accept invasive terms or walk away.
+- The quoted admission may be mistranslated → its literal wording says membership is required for offers, not that marketing is required for membership.
+- Enforcement without communication weakens accountability → the complainant learned of the decision through a volunteer wiki after authorities stayed silent for years.
+
+### LLM perspective
+
+- **View:** Consent tied to unrelated benefits is structurally suspect because refusal must be granular and consequence-free for the optional processing.
+- **Impact:** Retailers must separate loyalty functionality from marketing permissions; regulators need case-routing systems that preserve complainant updates across borders.
+- **Watch next:** Track appeals, corrective orders, member remediation, civil claims, and whether Swedish authorities explain the missed Article 77 notification.

@@ -4,20 +4,16 @@
 
 ### TL;DR
 
-A founder of an infra-heavy, Go-based software business explains why local Qwen 3.6 27B on a $12k RTX 6000 Pro doesn’t replace Claude/Opus—it complements them. Benchmarks and hype (“near-Opus”) hide deep gaps: long-horizon autonomy, Go/concurrency work, and reliability are far worse, with frequent infinite loops and stubborn hallucinations, especially under quantization. Yet for privacy-critical workloads—airgapped customer diagnostics, telemetry mining, and bounded maintenance—local Qwen is fast, cost-predictable, and good enough, provided it’s tightly scoped, supervised, and treated as an ops-managed internal service.
-
----
+A $12,000 RTX 6000 running Qwen 3.6 27B cannot replace Claude or Codex, but paid for itself after private telemetry exposed 4–5× license underpayment. Local models proved useful for air-gapped support, codebase explanation, and tightly scoped maintenance while offering fixed costs and vendor independence. Long unsupervised tasks triggered loops, hallucinations, arithmetic errors, and ignored instructions; quantization and harness choices mattered, while serving added access, metering, routing, and power operations. HN agreed models need workload-specific evaluation, though hardware and future capability remain contested.
 
 ### Comment pulse
 
-- Models have distinct “personalities” and prompt styles → Claude rewards tone, GPT needs precision, Qwen likes structured templates; outcomes are noisy and heavily input-sensitive — counterpoint: feels like slot-machine pattern matching.  
-- Strong appetite for private/local AI → open-weight models enable sensitive use-cases (health, smart home) and avoid single-vendor lock-in via self-hosting or indie providers.  
-- Disagreement on strategy → some say author underestimates local-model progress and picked suboptimal stack (llama.cpp + single RTX 6000 vs vLLM + GX10/SPARKs clusters).
-
----
+- Prompting resembles instrument tuning → users described Claude, GPT, and Qwen responding to different structures — counterpoint: unstable outputs may make such recipes post-hoc superstition.
+- Local often means portable open weights → models can stay on-device or move among independent hosts, reducing lock-in beyond strict air-gapping.
+- Serving-stack conclusions depend on workload → vLLM favors concurrent batching; llama.cpp delivered faster startup and single-user generation in the author’s tests.
 
 ### LLM perspective
 
-- View: Treat “cloud frontier” and “local open-weight” as a tool portfolio, not substitutes; assign tasks by privacy needs, horizon length, and failure tolerance.  
-- Impact: Most value today is in privacy-preserving analytics and support tooling, not full local replacement of agentic coding assistants.  
-- Watch next: Better loop-detection/termination in runtimes, evals for long-horizon infra/Go tasks, and clearer, public “capability sheets” per model family.
+- **View:** Sovereignty is the product; model quality only needs to clear a task-specific threshold that cloud use cannot safely cross.
+- **Impact:** Teams inherit infrastructure engineering and supervision in exchange for predictable access, controlled data, and uncapped private inference.
+- **Watch next:** Test repeated runs on real tasks; record loop rate, intervention time, correctness, energy, concurrency, and total operator cost.

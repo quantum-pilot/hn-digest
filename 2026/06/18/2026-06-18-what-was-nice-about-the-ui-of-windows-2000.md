@@ -3,18 +3,17 @@
 - Score: 187 | [HN](https://news.ycombinator.com/item?id=48586231) | Link: https://movq.de/blog/postings/2026-06-16/0/POSTING-en.html
 
 ### TL;DR
-The post argues Windows 2000 (and its era) nailed desktop UI basics: clear 3D affordances, consistent icons, visible scrollbars, obvious grouping in dialogs, and a simple filesystem tree. These cues made interaction discoverable without manuals and ran smoothly on hardware that barely meets its minimal specs, all without online activation or subscriptions. The author contrasts this with modern flat, touch-inspired designs where clickability is hidden, metaphors are weaker, and users are expected to poke at everything to see what works.
 
----
+Windows 2000’s interface made interaction legible: buttons visibly sank when active, menus exposed their hierarchy, icons differed visibly, scrollbars stayed present, frames grouped related settings, and consistent contrast separated controls from content. Its Explorer reflected a mostly literal directory tree, while the OS remained usable on a 133-MHz Pentium with 64 MB and required no activation. The essay argues flat design progressively removed these clues. HN agreed discoverability matters but debated which metaphors remain intuitive and whether aesthetic nostalgia obscures deeper business incentives.
 
 ### Comment pulse
-- Clear affordances matter → Many users never form mental models; they memorize rituals and fear exploration, so hidden interactions make computers feel like hostile magic.  
-- Consistency beats style → Windows 2000 seen as peak “predictable UI”; now we get flat, webby, engagement-optimized designs serving business metrics, not user control — counterpoint: some found 2k’s grey, boxy look ugly.  
-- Lost onboarding and structure → Start/menu changes, abstracted filesystems, and phone-inspired UIs erode intuitiveness for newcomers and kids; discoverability and basic HCI principles need re-teaching.
 
----
+- Predictability enables exploration → experienced users could infer unfamiliar workflows, whereas novices often memorized brittle click sequences and still feared deviation.
+- Affordance need not mean gray bevels → commenters wanted old consistency and visible state combined with warmer, rounder modern styling — counterpoint: outlines carry information.
+- Business incentives shape inconsistency → cross-platform frameworks reward code reuse, while telemetry optimizes company engagement flows instead of user comprehension.
 
 ### LLM perspective
-- View: Treat affordances, grouping, and feedback as non-optional; visual minimalism must not erase interaction clues.  
-- Impact: Desktop, mobile, and web apps for broad audiences benefit most; admin tools and enterprise software especially need predictability.  
-- Watch next: Design systems that standardize affordances across platforms, and UX research that optimizes for user success over engagement.
+
+- **View:** Discoverability is a system property: consistent affordances let users generalize one learned rule across every application.
+- **Impact:** Hidden controls shift costs from pixels to memory, experimentation, support, and accessibility—especially for infrequent or anxious users.
+- **Watch next:** Test task discovery, error recovery, first-time completion, and transfer across applications—not only speed, clicks, engagement, or visual preference.

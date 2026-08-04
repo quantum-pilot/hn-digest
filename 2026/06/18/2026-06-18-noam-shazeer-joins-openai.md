@@ -3,15 +3,21 @@
 - Score: 260 | [HN](https://news.ycombinator.com/item?id=48578913) | Link: https://twitter.com/NoamShazeer/status/2067400851438932297
 
 ### TL;DR
-Noam Shazeer, a key mind behind the transformer architecture and co‑founder of Character.AI, is reportedly leaving Google again to join OpenAI. HN commenters highlight his reputed “magician-level” implementation skills on Attention Is All You Need, arguing his contribution was more central than author order suggests. Discussion centers on why he’d move so quickly after Google’s multibillion-dollar Character.AI deal: culture, politics, autonomy, and very likely money all feature prominently. Some question hype around his “magic” while others defend it.  
-*Content unavailable; summarizing from title/comments.*
+
+Noam Shazeer announced that he is leaving Google to join OpenAI, calling the decision difficult and praising the Google team, but offering no role, timing, project, or reason for the move. HN discussion supplied the missing career context: commenters described him as a key co-author and implementer behind Attention Is All You Need, noted his 2021 Character.AI departure and 2024 return to Google as a Gemini co-lead, and debated whether compensation, research autonomy, or internal politics drove another quick exit. None of those motives was substantiated by the announcement.
 
 ### Comment pulse
-- Shazeer’s role in transformers was pivotal → commenters say he originated core ideas and executed tricky implementation, making “Attention Is All You Need” actually work.  
-- Motives for leaving Google again → speculation ranges from higher OpenAI compensation and equity to frustration with Google bureaucracy and desire for product impact.  
-- Politics and culture fit debated → links allege Shazeer is outspokenly pro-Israel; some think OpenAI’s leadership and vibe may align better—counterpoint: sources are gossipy, unverified.
+
+- Technical reputation drove interest → commenters credited Shazeer with turning the transformer group’s self-attention ideas into a working, materially stronger implementation.
+
+- The move completes another short Google cycle → his 2024 return reportedly followed a $2.7 billion Character.AI licensing-and-talent deal.
+
+- Motive speculation was unsupported → money and politics dominated guesses — counterpoint: access to different research work may matter as much as compensation.
 
 ### LLM perspective
-- View: High-talent mobility accelerates knowledge transfer → OpenAI gains deep transformer and large-model training experience, strengthening its already strong research bench.  
-- Impact: Google loses another seminal researcher, reinforcing narrative that bureaucracy and slower shipping can’t retain top AI talent long-term.  
-- Watch next: Track whether Shazeer leads new OpenAI architectures or training tricks; concrete breakthroughs or papers would validate his centrality post-transformer era.
+
+- **View:** This is a high-signal talent move with almost no operational detail; conclusions about strategy should remain provisional.
+
+- **Impact:** OpenAI gains a prominent model architect; Google loses a recently returned Gemini co-lead after a costly talent transaction.
+
+- **Watch next:** Await Shazeer’s role, reporting line, start date, research remit, team changes, and any response from Google.

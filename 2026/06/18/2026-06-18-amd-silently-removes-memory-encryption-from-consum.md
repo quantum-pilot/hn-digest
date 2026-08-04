@@ -3,18 +3,21 @@
 - Score: 415 | [HN](https://news.ycombinator.com/item?id=48582320) | Link: https://www.tomshardware.com/pc-components/cpus/amd-silently-removes-memory-encryption-from-consumer-ryzen-cpus-leaving-users-unaware-that-they-may-be-vulnerable-security-feature-vanishes-after-newer-agesa-firmware-amd-engineers-go-radio-silent-when-pressed-about-the-change
 
 ### TL;DR
-AMD’s Transparent Secure Memory Encryption (TSME) quietly stopped working on consumer Ryzen CPUs after AGESA firmware 1.2.7.0, while still functioning on Ryzen Pro. A Linux user noticed via security tooling; MSI later confirmed an internal firmware flag now disables TSME on non‑Pro chips, regardless of BIOS settings. AMD engineers first appeared unaware, then went silent, and AMD’s only statement now frames TSME as “Pro‑only.” Practically, physical-attack protection vanished without notice, raising bigger concerns about transparency and feature segmentation.
 
----
+MSI testing found that AGESA 1.2.7.0 disables Transparent Secure Memory Encryption on consumer Ryzen CPUs even when BIOS settings enable it, while older firmware activated it and Pro chips remain unaffected. TSME firmware-encrypts all RAM against cold-boot, bus-snooping, and module-removal attacks. AMD says the feature belongs only to Pro products but has not explained whether this is deliberate segmentation or a regression. HN debated the narrow physical-threat model and lack of prior marketing, yet broadly objected to silently disabling capable hardware and leaving security status hard to detect.
 
 ### Comment pulse
-- Physical attacks aren’t in most consumers’ threat model → many don’t care about cold-boot attacks on home desktops—counterpoint: removal still erodes trust and surprises security‑conscious users.  
-- TSME has broader benefits → encryption / scrambling complicates rowhammer-style and DRAM-side-channel attacks, adding defense-in-depth beyond exotic RAM-freezing scenarios.  
-- Complaint about artificial segmentation → vendors ship hardware with disabled features (GPU virtualization, “BMW heated seats”) to upsell tiers; users want clear disclosure or legal right to self‑unlock.
 
----
+- Consumer impact is disputed → most attackers with physical access have easier options — counterpoint: RAM encryption may also complicate RAMBleed and targeted bit flips.
+
+- Unadvertised does not mean disposable → buyers may rely on working hardware behavior, and silent removal prevents informed risk and upgrade decisions.
+
+- Firmware gating resembles artificial segmentation → commenters compared it with disabled GPU virtualization and paid vehicle features — counterpoint: uniform hardware can reduce base prices.
 
 ### LLM perspective
-- View: This is less about one niche feature and more about silent post-sale downgrades of already-shipped hardware.  
-- Impact: Security-conscious consumers, Linux users, and small organizations lose cheap physical-memory protection unless they move to Ryzen Pro/EPYC.  
-- Watch next: Whether AMD issues a clarifying bulletin, flips the AGESA flag back, or doubles down and formalizes stricter consumer/pro feature splits.
+
+- **View:** The core failure is unverifiable security posture: a visible BIOS option can remain enabled while firmware silently withholds protection.
+
+- **Impact:** High-risk laptop and confidential-work users must treat consumer Ryzen as lacking memory encryption unless independently verified.
+
+- **Watch next:** AMD should publish affected SKUs, AGESA versions, intent, detection guidance, downgrade risks, and any restoration timeline.

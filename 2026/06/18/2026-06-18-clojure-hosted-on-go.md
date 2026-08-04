@@ -2,18 +2,18 @@
 
 - Score: 194 | [HN](https://news.ycombinator.com/item?id=48578326) | Link: https://github.com/glojurelang/glojure
 
-## TL;DR
+### TL;DR
 
-Glojure is an early-stage, hosted Clojure interpreter running on Go. It offers a Clojure-style REPL, scripting, and the ability to embed Clojure as a scripting language inside Go applications. Because it’s “hosted,” Go values and Glojure values interoperate directly, with built-in access to many Go standard-library packages and a generator to expose additional ones. It differs slightly from JVM Clojure in numeric types and implementation details, and is currently a tree-walk interpreter prioritizing interop and extensibility over raw performance.  
+Glojure is an early-stage, tree-walk Clojure interpreter hosted on Go, making Go and Glojure values usable in either direction. Version 0.3.0, requiring Go 1.24, offers a REPL, script and expression execution, embeddability inside Go programs, concurrency, and access to many standard-library packages; generated package maps expose more APIs. It runs a substantial transformed subset of core Clojure, but still lacks features, speed, stable compatibility, and tooling. HN response was enthusiastic but centered on maturity, REPL behavior, and ecosystem stewardship.
 
-## Comment pulse
+### Comment pulse
 
-- Go as FP host → People like Go as a target for functional languages, citing Lisette and the strong Go runtime/tooling ecosystem.  
-- Project maturity/maintenance → Users note forks and maintenance locations, and wonder how far Glojure and other Clojure dialects have progressed toward parity—counterpoint: still clearly early-stage.  
-- REPL / dialect interest → Curiosity about whether the REPL compiles to Go or runs on a VM, and enthusiasm for fast-evolving Clojure dialects on non-JVM hosts.  
+- Go is an attractive host → commenters valued its runtime, toolchain, and ecosystem, and pointed to Lisette as another language targeting them.
+- REPL behavior drew scrutiny → readers contrasted direct interpretation with Go compile-and-run loops that often make interactive evaluation slow.
+- Dialect progress matters → commenters asked how far parity advanced since 2024 and noted both original and forked repositories remain synchronized.
 
-## LLM perspective
+### LLM perspective
 
-- View: Hosted Clojure on Go neatly combines Go’s deployment story with Clojure’s expressiveness and macro system.  
-- Impact: Most useful for Go shops wanting dynamic configuration, plugins, or REPL-driven development without leaving their ecosystem.  
-- Watch next: Benchmarks, improved interop generation, and stability guarantees (v1), plus comparisons with Lisette and Joker in real-world tooling use.
+- **View:** Its strongest niche is embeddable scripting for Go applications that want Lisp expressiveness without adopting the JVM.
+- **Impact:** Go developers gain REPL-driven extensibility; Clojure users trade mature libraries and performance for native host interoperability.
+- **Watch next:** Benchmark startup, REPL latency, call overhead, concurrency, memory use, core-library coverage, and package-map ergonomics before production adoption.

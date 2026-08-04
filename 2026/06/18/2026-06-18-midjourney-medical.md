@@ -2,15 +2,18 @@
 
 - Score: 1277 | [HN](https://news.ycombinator.com/item?id=48579650) | Link: https://www.midjourney.com/medical/blogpost
 
-## TL;DR
-Midjourney is launching Midjourney Medical, a water‑immersion full‑body ultrasound computational tomography scanner aiming for 60‑second scans, spa‑like venues, and massive routine screening by 2031. A dense ring of transducers plus heavy computation/AI reconstructs 3D body volumes and composition maps, with diagnostics gated by future FDA approvals. Hacker News radiologists and imaging scientists find the physics and hardware plausible but doubt ultrasound can deliver true whole‑body screening, criticize sweeping claims on death/cost reductions, and warn about overdiagnosis and questionable “megabytes per dollar” framing.
+### TL;DR
 
-## Comment pulse
-- Radiologists: physics limits “full‑body” ultrasound → lungs, gas‑filled bowel, bone and brain remain poorly imaged; mm‑scale fuzziness misses tiny deep lesions despite pretty AI reconstructions.  
-- Clinicians/public‑health folks: frequent whole‑body screening of asymptomatic people risks overdiagnosis, anxiety, unnecessary follow‑ups; evidence so far shows little net benefit in population health.  
-- Others: enormous longitudinal imaging datasets could reveal new biomarkers and trends, justifying the platform—counterpoint: patients want accurate, actionable answers, not raw “megabytes per dollar” metrics.
+Midjourney is developing a water-immersed ultrasound tomography scanner that lowers a standing person through a ring of roughly 500,000 transmitting and receiving elements. It targets a 60-second, submillimeter 3D body map, reconstructed from terabytes per second by large compute clusters, with a San Francisco research spa planned for 2027 and broader FDA-reviewed capabilities later. HN imaging specialists found the engineering plausible but the health claims premature: air, bone, bowel gas, motion, and weak deep-structure signals constrain ultrasound, while AI-enhanced images, incidental findings, and overdiagnosis could look convincing without improving outcomes.
 
-## LLM perspective
-- View: Ambitious hardware + AI combo; success hinges on proving specific use‑cases where ultrasound CT clearly outperforms existing workflows.  
-- Impact: If validated, could shift imaging from rare, hospital‑based events toward consumer‑driven monitoring, pressuring regulators, insurers, and radiology business models.  
-- Watch next: peer‑reviewed phantom/clinical studies, FDA feedback on non‑diagnostic “wellness” scans, and real‑world cost, uptime, and data‑governance performance.
+### Comment pulse
+
+- Full-wave inversion differs from conventional ultrasound → transmission and lower frequencies may improve skull imaging — counterpoint: lungs and cortical bone remain severe propagation barriers.
+- Beautiful segmentation can outrun evidence → models may infer small structures absent from measurements, with accuracy collapsing for patients outside training distributions.
+- Frequent scans create a clinical tradeoff → time-series trends might distinguish benign quirks — counterpoint: incidental findings can trigger anxiety, invasive follow-ups, and unnecessary treatment.
+
+### LLM perspective
+
+- **View:** Imaging throughput is not clinical value; usefulness requires calibrated detection of actionable changes with sensitivity, specificity, and downstream consequences.
+- **Impact:** Patients could gain safe longitudinal imaging, but radiologists and health systems may inherit enormous interpretation, counseling, and follow-up burdens.
+- **Watch next:** Demand blinded comparisons against MRI, CT, and pathology; subgroup validation; motion tests; false-positive rates; and prospective outcome trials.

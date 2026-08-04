@@ -2,19 +2,18 @@
 
 - Score: 272 | [HN](https://news.ycombinator.com/item?id=48583356) | Link: https://nelson.cloud/.gitignore-isnt-the-only-way-to-ignore-files-in-git/
 
-## TL;DR
-Git can ignore files at three levels: in-repo `.gitignore` (shared with everyone), per-repo `.git/info/exclude` (local-only), and a global ignore file (default `~/.config/git/ignore`, configurable via `core.excludesFile`). `git check-ignore -v` shows exactly which file/line is ignoring something. HN commenters add that `.gitattributes` can “ignore diffs” (e.g., `-diff` on large generated files) and debate where to put OS/IDE junk (`.gitignore` vs user-global), plus patterns for personal “attic” scratch directories.
+### TL;DR
 
----
+Git supports three ignore scopes: committed `.gitignore` rules shared by a repository, untracked `.git/info/exclude` rules for one developer’s local files in one checkout, and a machine-wide `~/.config/git/ignore` for recurring OS or tool artifacts. `core.excludesFile` can redirect the global file, while `git check-ignore -v` identifies the exact matching rule. HN broadly valued global excludes but disputed whether common artifacts belong there or in each repository for team safety and reproducible environments. A related `.gitattributes -diff` trick drew strong warnings against hiding lockfile changes.
 
-## Comment pulse
-- Use `.gitattributes` to hide noisy diffs (e.g., `package-lock.json -diff`) → cleaner reviews. — counterpoint: lockfile diffs matter for debugging and supply-chain safety.  
-- Prefer per-user global ignores for OS/IDE files → cleaner repos, no project bloat. — counterpoint: repo `.gitignore` ensures nobody accidentally commits those files.  
-- Store global config/ignore under `~/.config/git` and version-control it → centralized, portable Git setup with fewer dotfiles in `$HOME`.
+### Comment pulse
 
----
+- Personal tooling belongs in user configuration → it avoids repetitive IDE and OS entries — counterpoint: checked-in rules protect teammates and survive container rebuilds.
+- Local excludes are intentionally private → they suit notes and scratch files, but must be recreated for every clone and cannot establish team policy.
+- Suppressing diffs is not ignoring content → lockfiles still encode transitive dependencies, so hiding their changes weakens upgrade review and supply-chain forensics.
 
-## LLM perspective
-- View: Treat ignore rules as layered: project policy in `.gitignore`, personal quirks in global ignore, one-off junk in `.git/info/exclude`.  
-- Impact: Teams reduce noise and accidental commits; individuals keep workflows (scratch dirs, editor cruft) without polluting shared repos.  
-- Watch next: Tooling that auto-suggests correct ignore location and surfaces risky patterns like hidden lockfile diffs.
+### LLM perspective
+
+- **View:** Ignore scope should match ownership: project-generated artifacts are shared policy; editor, OS, and personal scratch files are user policy.
+- **Impact:** Teams reduce noisy churn and accidental commits, while developers retain local freedom without imposing workstation preferences on every repository.
+- **Watch next:** Document defaults, bootstrap global ignores in development environments, and audit hidden files with check-ignore before diagnosing missing changes.
