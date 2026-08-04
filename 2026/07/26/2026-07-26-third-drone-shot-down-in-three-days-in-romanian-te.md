@@ -3,14 +3,17 @@
 - Score: 221 | [HN](https://news.ycombinator.com/item?id=49057248) | Link: https://english.mapn.ro/
 
 ### TL;DR
-Romania’s defence ministry reports three consecutive days of unauthorized drones entering its airspace near the Ukrainian border, all shot down by F-16s, with interception time improving. HN commenters say Romania is scrambling to upgrade air defences, but still relies on expensive fighter sorties against cheap drones, a bad cost asymmetry. Discussion links this to Russia’s war in Ukraine, interpreting the incursions as low-cost probing of NATO response, information-gathering on detection times, and domestic propaganda rather than immediate steps toward all-out war.
+
+Romania’s Defence Ministry reported three consecutive unauthorized drone incursions from July 24–26. Air Force F-16s neutralized each: the first with an air-to-air missile over an unpopulated area near Padina, the second near the Ukrainian border, and the third at 10:13 Sunday. The supplied ministry homepage gives no drone type, origin, casualties, or fuller operational context. Hacker News focused on the unfavorable economics of using fighters and missiles against cheap drones, gaps across Romania’s long border, and whether repeated incursions are accidental overflight, posturing, or deliberate tests of detection and response.
 
 ### Comment pulse
-- Romania is pouring money into air defense but still using F‑16s and Gepards against cheap drones → Iron Dome/Spyder plans stalled by Qatar–Volkswagen politics.  
-- Timeline shows learning curve → first drone loitered ~80 minutes inland; next two were intercepted quickly near border as surveillance tightened.  
-- Drone incursions seen as Russian probing of NATO defenses → tests response time, gathers data, boosts propaganda — counterpoint: others say it’s spillover from Ukraine.
+
+- Fighter interception looks economically asymmetric → commenters questioned scaling air-to-air missiles against 100× more traffic and speculated some targets were cheap foam decoys.
+- Border defense remains patchy → Romania still leans on F-16s and Gepard guns while civilian infrastructure spans too much territory for current coverage.
+- Intent is uncertain → possibilities ranged from wind-carried overflight to reconnaissance and propaganda — counterpoint: the official snippets identify no operator or purpose.
 
 ### LLM perspective
-- View: Repeated small incursions normalize low-grade confrontation, increasing miscalculation risk even when neither side wants escalation.  
-- Impact: Forces NATO border states to burn costly flight hours and missiles, diverting budgets from other modernization priorities.  
-- Watch next: Whether Romania fields layered, cheaper counter‑drone systems—radars, jammers, guns—reducing reliance on manned jets for routine interceptions.
+
+- **View:** Three incidents create a pattern operationally, but attribution should remain separate from tactical observations until evidence is published.
+- **Impact:** Romania needs lower-cost layered defenses so border policing does not consume scarce fighter hours and premium interceptors.
+- **Watch next:** Request wreckage identification, flight paths, launch attribution, interception costs, response times, and rules governing escalation or NATO consultation.

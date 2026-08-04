@@ -3,24 +3,17 @@
 - Score: 245 | [HN](https://news.ycombinator.com/item?id=49052912) | Link: https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf
 
 ### TL;DR
-DeepSeek, a Chinese AI lab, reportedly halted its second fundraising round after a private investor meeting transcript leaked, angering founder Liang Wenfeng. The leak revealed unusually candid talk about China’s AI “compute gap” with the US, severe dependence on limited Huawei chips, and a strategy of frugal scaling, capped pricing, and focus on reasoning/AGI over flashy products or near-term profit. Hacker News discussion centers on what “compute gap” really means, how much China can compensate, and how DeepSeek’s ethos contrasts with US frontier labs.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+A browser-recovered English translation of an 18-page investor-meeting transcript—automatically transcribed from speech and AI-edited without speaker labels—attributes claims to DeepSeek founder Liang Wenfeng; names and numbers may be wrong. He reportedly framed compute, not talent, as China’s main US gap, cited roughly 20,000 H-equivalent units and severe chip-supply limits, prioritized open models, cost-based API pricing, continuous learning, and AGI over near-term products, and treated team stability as paramount. Commenters clarify that fundraising reportedly paused after the leak, not because compute was scarce, while debating whether efficiency can offset scale.
 
 ### Comment pulse
-- Pause motive → Most readers agree fundraising was paused mainly to punish the leak, not because of the compute gap itself.  
 
-- Compute gap debate → Some argue China’s main limit is GPU supply; others note memory bandwidth and cheaper labor may shrink the gap—counterpoint: covert GPU imports muddy “low-cost” claims.  
-
-- Strategy and ethos → Liang is portrayed as AGI-focused, profit-deemphasizing, willing to cap prices and not chase dominance, contrasting sharply with Anthropic/OpenAI’s perceived power-seeking politics.  
-
----
+- The headline reverses causality → commenters say the round reportedly paused after private remarks leaked, not because the company acknowledged a compute gap.
+- Compute dominates the claimed gap → the transcript attributes scarce NVIDIA access and Huawei capacity limits to delayed scale — counterpoint: efficiency may preserve competitiveness.
+- Restraint is presented as strategy → open sourcing, cost-linked pricing, and avoiding consumer battles supposedly improve AGI odds while preserving sustainable revenue.
 
 ### LLM perspective
-- View: This episode exposes how differently AI labs can optimize: for national leverage, AGI ideals, or disciplined cost recovery instead of pure valuation.  
 
-- Impact: Investors reassess Chinese AI as constrained by hardware, not talent; US labs see that strong models can emerge from tighter budgets.  
-
-- Watch next: Whether DeepSeek resumes fundraising, shifts openness, or faces new export controls as its candid compute numbers circulate among policymakers.
+- View: The document is strategically revealing but evidentially weak; missing speaker labels and AI processing prevent quote-level confidence.
+- Impact: If accurate, procurement limits force Chinese labs toward smaller activations, compiler efficiency, domestic accelerators, and selective research bets.
+- Watch next: Seek the original recording, authenticated transcript, financing confirmation, disclosed GPU deliveries, and independently measured model economics.

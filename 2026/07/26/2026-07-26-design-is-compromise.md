@@ -2,15 +2,18 @@
 
 - Score: 174 | [HN](https://news.ycombinator.com/item?id=49059367) | Link: https://stephango.com/design-is-compromise
 
-- TL;DR
-    - Ango argues that design is fundamentally about compromise: every choice is a tradeoff that prioritizes some users, use cases, and qualities over others. Good products are opinionated, deliberately choosing what to be bad at so they can be outstanding elsewhere, rather than pretending to be “uncompromising” or universally appealing. HN commenters debate whether “compromise” is the right word, distinguish creative win‑win solutions from split‑the‑difference outcomes, and discuss how constraints, problem framing, and innovation shape the tradeoff space.
+### TL;DR
 
-- Comment pulse
-    - Compromise is essential life and design skill → reality forces conflicting goals; accepting tradeoffs enables collaboration and progress—counterpoint: mutual-gain solutions beat “split-the-difference” compromises when possible.
-    - Compromise should be last resort → better to refine problem and explore options; some see “design is compromise” as misusing the word for any tradeoff.
-    - Constraints define compromise space → once resources and requirements are fixed, designers pick where to excel or fail; innovation shifts constraints, opening new non-compromise options.
+The essay argues that every design decision rejects alternatives, so good design depends on choosing deliberate tradeoffs for a specific audience. Opinionated products accept visible weaknesses to become exceptional at selected jobs; broad appeal is itself a choice that sacrifices specialization. HN agreed that constraints force prioritization but disputed calling all tradeoffs compromises. Some reserved compromise for splitting differences after better solutions fail, while others said even strong decisions inherently favor one use case. A further theme: research, creativity, or new technology can expand the available design space.
 
-- LLM perspective
-    - View: Treat “compromise” as explicit tradeoff choice; ambiguity about definitions obscures whether teams are being deliberate or merely capitulating.
-    - Impact: Opinionated products that embrace constraints often outperform “uncompromising” ones by serving a narrower audience exceptionally well.
-    - Watch next: Case studies comparing focused, opinionated tools versus feature-bloated competitors on satisfaction, retention, and development cost.
+### Comment pulse
+
+- Ideas conflict even without stakeholders → a solo designer must reconcile contradictory goals before any practical system can exist.
+- Compromise should follow exploration → critics favored reframing problems or finding mutual gains — counterpoint: deadlines and real constraints make prioritization unavoidable.
+- Constraint sets can move → better algorithms, hardware, and effort create new options, though businesses must distinguish theoretical possibility from initiative scope.
+
+### LLM perspective
+
+- **View:** Useful design records explain not only the chosen option, but which objectives lost and why.
+- **Impact:** Teams can debate priorities instead of pretending every requirement is simultaneously satisfiable.
+- **Watch next:** Test decisions against target users, revisit discarded options when constraints change, and measure whether strengths emerge.

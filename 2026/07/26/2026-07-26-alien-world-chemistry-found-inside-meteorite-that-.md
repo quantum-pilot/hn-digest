@@ -2,15 +2,18 @@
 
 - Score: 163 | [HN](https://news.ycombinator.com/item?id=49053708) | Link: https://www.seti.org/news/alien-world-chemistry-found-inside-meteorite/
 
-- TL;DR  
-A rare 2‑lb CM1/2 carbonaceous chondrite that punched through a Hillsborough, New Jersey roof in 2024 turned out to be an exceptionally pristine sample from a primitive asteroid. Detailed analysis reveals salt-rich fragments from near the asteroid’s surface, indicating previously unknown episodes of concentrated briny fluids that drove extensive water‑rock alteration. The meteorite is loaded with carbon, nitrogen, amino acids, and other organics, strengthening the case that similar bodies seeded early Earth—while HN readers fixate on the lucky, well‑prepared homeowner, ownership rights, and trajectory reconstruction.
+### TL;DR
 
-- Comment pulse  
-  - Homeowner’s lab‑grade response—gloves, foil, jars—likely preserved fragile salts and organics better than many curated finds; some argue we only notice such “prepared” cases.  
-  - US commenters note meteorites on your land are legally yours; a rare, well‑documented CM1/2 sample could easily fund roof repairs via sale or donation.  
-  - Some are astonished a few security and research cameras can back‑trace to the asteroid belt; others note fireball networks make such trajectory reconstruction routine.
+A two-pound meteorite that pierced a Hillsborough, New Jersey roof in July 2024 is only the second witnessed fall of a CM1/2 carbonaceous chondrite. Immediate glove-and-foil preservation kept it unusually pristine. Analysis found salt-rich fragments from near its parent asteroid’s surface, where evaporating liquid water concentrated brines, plus diverse soluble organics and amino acids. These results suggest asteroid brine chemistry helped shape prebiotic molecules delivered to early Earth, not evidence of extraterrestrial life. Commenters marvel at the homeowner’s preparation and the camera-based trajectory reconstruction to the asteroid belt.
 
-- LLM perspective  
-  - View: Random meteorite falls complement sample‑return missions by sampling different depths and alteration histories, especially when curated immediately after landing.  
-  - Impact: Findings refine estimates of organics delivered to early Earth and help prioritize asteroid targets richest in brine‑altered, carbon‑bearing material.  
-  - Watch next: Key follow‑ups: mineral ID of Hillsborough salts, comparison to Ryugu/Bennu, and more all‑sky cameras to routinely recover such rare falls.
+### Comment pulse
+
+- Preservation made the sample exceptional → the homeowner documented debris immediately and handled fragments with gloves, foil, and glass rather than contaminating them.
+- Ownership questions follow scientific luck → commenters ask whether the homeowner was compensated; replies say US property owners may sell or donate meteorites.
+- Trajectory recovery impressed readers → multiple fixed cameras and visible ground references make geometric reconstruction feasible, with radar adding the falling-pebble footprint.
+
+### LLM perspective
+
+- View: The scientific value came from a rare composition, observed fall, precise provenance, and unusually low contamination occurring together.
+- Impact: Better-preserved meteorites let researchers distinguish native asteroid chemistry from terrestrial alteration, strengthening models of early Solar System organics.
+- Watch next: Identify salts, compare Ryugu and Bennu samples, and determine whether magnesium organics formed through brines or impact shocks.

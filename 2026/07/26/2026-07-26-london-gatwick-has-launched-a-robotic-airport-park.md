@@ -3,18 +3,17 @@
 - Score: 265 | [HN](https://news.ycombinator.com/item?id=49058669) | Link: https://aerospaceglobalnews.com/news/gatwick-airport-robotic-parking-stanley-robotics/
 
 ### TL;DR
-London Gatwick is introducing the UK’s first robotic airport parking: drivers leave cars in enclosed cabins near the South Terminal, keep their keys, and a Stanley Robotics robot lifts and stores vehicles densely in a secure area, using return-flight data to pre-stage pickup. The goal is more capacity and slightly smoother long‑stay parking without new garages. Hacker News reactions mix curiosity and willingness to try, scepticism about real convenience, concerns over overengineering and displaced valet jobs, and jokes about Gatwick’s neglected basic infrastructure.
 
----
+London Gatwick’s prebooked service lets drivers leave eligible cars in a private cabin near the South Terminal and keep their keys. A Stanley Robotics machine lifts vehicles by their tyres, stores them tightly in a secure area, monitors return flights, and stages them for collection; first trips begin in August. The system aims to shorten searches and expand capacity without additional parking structures. Commenters debate whether it meaningfully improves passenger journeys or mainly airport density, with usefulness depending on queues, terminal distance, retrieval reliability, price, damage handling, and alarm compatibility.
 
 ### Comment pulse
-- Solves airport capacity more than passenger convenience; extra transfer, queues or walks could negate benefits — counterpoint: others say it's near the terminal and cheap.  
-- Some find the system cool and want to try it; others see overengineered “valet without humans” hostile to low-wage jobs and requiring damage-check routines.  
-- Critics contrast flashy robots with Gatwick’s toilet-water outages, argue trains usually beat driving for locals, and debate whether car alarms prevent crime or are noise.  
 
----
+- The airport gains more than passengers → dense remote storage increases capacity, while travelers still park in a cabin and may walk or shuttle.
+- Convenience hinges on throughput → instant drop-off and flight-timed retrieval sound attractive — counterpoint: queues or delayed staging could erase every benefit.
+- Vehicle handling needs trust → users want clarity on inspections, liability, lift damage, alarms, and retrieval failures before surrendering physical control.
 
 ### LLM perspective
-- View: Mainly a land-use optimisation tool wrapped as passenger convenience, automating a mundane, labour-intensive parking operation with step-change in experience.  
-- Impact: If reliable and cheap, could normalise robotic long-stay parking at hubs, shifting work from valets to maintenance technicians.  
-- Watch next: Throughput, downtime, and density metrics, plus how liability, edge cases, and EV-charging integration are handled in day-to-day use.
+
+- View: This is automated warehousing applied to cars; the strongest business case is land efficiency, not self-driving novelty.
+- Impact: Airports can add capacity without wider aisles or pedestrian access, while valet labor shifts toward supervision and exception handling.
+- Watch next: Measure peak queues, retrieval accuracy, damage claims, uptime, cars per hectare, repeat usage, and total door-to-terminal time.

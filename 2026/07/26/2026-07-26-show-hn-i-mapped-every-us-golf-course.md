@@ -2,19 +2,18 @@
 
 - Score: 200 | [HN](https://news.ycombinator.com/item?id=49054010) | Link: https://golfcoursebrowser.com/
 
-## TL;DR
-A solo developer built a browser-based map of 18k+ US golf courses (plus some Canadian ones) using OpenStreetMap as the base layer. The site lets users filter by access type, holes, course style, and amenities, and submit corrections for closures or bad data. HN discussion centers on golf-course land use (public vs. elite exclusivity), the ethics and legality of aggregating geodata, and whether OpenStreetMap already solves most of this via specialized tagging and tiles.  
+### TL;DR
 
----
+A solo-built browser maps more than 18,000 US golf courses using OpenStreetMap data, with location search, nearby-course radii, state browsing, favorites, weather, scorecards, and filters for access, holes, course type, and driving ranges. Users can add courses or submit corrections; holes and amenities are estimated from map data. Hacker News liked the focused interface but surfaced the harder dataset questions: a nonexistent course appeared, contributors urged feeding corrections back to OSM, and participants debated licensing risk, polygon-level mapping, maintenance, and whether golf land is public amenity or exclusive resource use.
 
-## Comment pulse
-- Golf courses as public resource vs. elite playground → some countries see them as colonial, exclusive, water-heavy; US commenters note many are municipal and struggling—counterpoint: key urban courses still subsidized and under-taxed.  
-- Data and liability → concern about scraping proprietary databases and phantom courses; author says they use OSM and a paid API, publishing uncopyrightable facts.  
-- OSM integration → some urge contributing improvements back; others argue OSM already tracks ~40k courses with detailed golf tags, suggesting a custom OSM style might be more sustainable than new sites.  
+### Comment pulse
 
----
+- Coverage is not correctness → OSM likely knows nearly every active course, but stale open/closed status and joke entries still require validation.
+- Derived improvements should outlive the app → commenters encouraged returning verified corrections and detailed hole, bunker, green, and boundary geometry to OSM.
+- Courses have mixed civic value → critics cite exclusive land, water, and tax privileges — counterpoint: many US courses are public parks or reuse landfills.
 
-## LLM perspective
-- View: This project is a niche but solid example of turning OSM + domain APIs into a polished, end-user tool with crowdsourced fixes.  
-- Impact: Most useful for golfers, course operators, and planners; also a tangible demo of OSM’s richness versus closed commercial POI datasets.  
-- Watch next: Whether the author feeds corrections into OSM, adds polygons/attributes, or evolves into a more general “recreational spaces” mapping layer.
+### LLM perspective
+
+- **View:** The product’s moat is not pins but continuously reconciled status, access, geometry, and amenities from licensed and community sources.
+- **Impact:** Golfers gain discovery; planners and researchers gain a national land-use index if the underlying provenance remains inspectable.
+- **Watch next:** Track correction turnaround, false positives, closure freshness, OSM contribution flow, polygon coverage, and discrepancies between licensed sources.

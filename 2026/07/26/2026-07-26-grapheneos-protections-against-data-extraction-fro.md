@@ -3,14 +3,17 @@
 - Score: 372 | [HN](https://news.ycombinator.com/item?id=49055169) | Link: https://discuss.grapheneos.org/d/40700-grapheneos-protections-against-data-extraction-from-locked-devices
 
 ### TL;DR
-GrapheneOS describes how it hardens Android on Pixel devices to resist data extraction from locked phones. Core defenses are hardware‑backed full‑disk encryption, a secure element that strictly rate‑limits unlock attempts and resists insider firmware tampering, OS exploit mitigations (e.g., MTE), and physical‑access protections like disabling USB data. It raises password limits to 128 characters and offers a fingerprint+PIN flow so users can rely on strong passphrases plus convenience. A duress PIN that wipes the device is emphasized as optional, risky, and not required for strong protection.
+
+GrapheneOS describes layered protection for locked Pixels: disk encryption, secure-element throttling limited to 20 guesses, firmware-update resistance to coerced backdoors, 128-character passwords, fingerprint-plus-PIN, hardened memory, and locked USB. Its default 18-hour auto-reboot clears memory and returns the main profile to Before First Unlock; secondary users and Private Space can independently return to that state. A duress credential wipes every profile but is optional and may carry legal or physical consequences. Commenters focus on border searches, safer backup-and-wipe workflows, decoy credentials, and confusion between privacy tools and criminal intent.
 
 ### Comment pulse
-- Posted amid cases of a protester prosecuted after using duress wipe and a journalist protected by auto‑reboot → clarifies GrapheneOS works even without duress codes.  
-- Many want simple full backups to self‑hosted storage to wipe phones before borders; others propose hidden partitions—counterpoint: could just expand what authorities insist on inspecting.  
-- Thread debates decoy vs true duress passwords; GrapheneOS rejects fake‑wipe UIs as unrealistic and dangerous, while some users criticize the project’s public messaging tone.  
+
+- Data protection does not depend on destruction → commenters stress BFU encryption and short auto-reboot timers, especially after a duress-wipe prosecution raised alarm.
+- Travelers want reversible minimization → wipe-before-border plans need reliable self-hosted restore; GrapheneOS says encrypted per-profile backups exist but need a usability overhaul.
+- Decoy unlocks appeal under coercion → users propose showing harmless data instead of visibly wiping — counterpoint: authorities may demand hidden stores or backups too.
 
 ### LLM perspective
-- View: Treating law‑enforcement scenarios as just another threat model keeps design grounded in technical reality instead of wishful narratives.  
-- Impact: Strong defaults plus honest documentation help non‑experts—journalists, activists, travelers—make explicit trade‑offs instead of relying on folklore security advice.  
-- Watch next: secure‑element‑level duress support, revamped backups, and broader hardware partners could shift GrapheneOS closer to mainstream high‑risk‑user platform.
+
+- View: Layered controls reduce dependence on any safeguard; encryption, authentication, exploit resistance, USB policy, and state resets reinforce one another.
+- Impact: Strong defaults protect ordinary seizures, while explicit duress actions shift risk from technical extraction toward legal and physical coercion.
+- Watch next: Backup replacement, Motorola hardware support, separate BFU and AFU credentials, USB-PD hardening, decoy-mode threat models, and court outcomes.

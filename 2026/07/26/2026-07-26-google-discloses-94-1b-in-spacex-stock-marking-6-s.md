@@ -3,18 +3,17 @@
 - Score: 305 | [HN](https://news.ycombinator.com/item?id=49057574) | Link: https://www.wsj.com/tech/google-discloses-94-1-billion-in-spacex-stock-marking-6-stake-91655d7c
 
 ### TL;DR
-Google’s latest filing reveals it holds $94.1B of SpaceX stock, about 6% of the newly public company, split between short‑ and long‑term restricted shares lasting to 2027. This mostly traces back to a ~$900M 2015 investment at a ~$10–12B valuation, implying around a 100x paper gain. Hacker News discussion frames Alphabet as a quasi–Berkshire Hathaway in tech, questions the strategic logic of owning SpaceX, and notes the legal, market, and relationship constraints on ever selling such a large stake.
 
----
+Alphabet reported a roughly 6% SpaceX holding worth $94.1 billion after the company’s public listing: $80 billion is under short-term sale restrictions, while $14.1 billion remains restricted through 2027’s third quarter. Commenters noted the position originated with Google’s approximately $900 million share of a roughly $1 billion earlier round, so the ownership itself was never secret. The striking news is its appreciation and scale. Readers cautioned that lockups, legal requirements, market impact, and relationship concerns make monetizing a block larger than the IPO float difficult.
 
 ### Comment pulse
-- SpaceX stake is old, not secret → Google’s 2015 ~$900M round bought ~7% then; 6% today even exceeds the IPO’s freely traded float.  
-- Alphabet resembles a tech Berkshire → huge equity book (SpaceX, Anthropic) and strong M&A record; critics ask where SpaceX strategically complements search, ads, and cloud.  
-- Exiting is slow and political → lockups, rules, and Musk ties limit sales; big holders need bespoke deals — counterpoint: paper gains still diversify Alphabet.  
 
----
+- Paper gains are not readily cashable → lockups prevent immediate selling, and disposing of 6% requires negotiated buyers rather than ordinary market orders.
+- The stake dwarfs the public float → commenters said 6% exceeds the 5% issued in the IPO, magnifying liquidity constraints.
+- Alphabet-as-Berkshire framing divided readers → supporters cited large external holdings and successful acquisitions — counterpoint: critics questioned SpaceX’s synergy with Google’s core businesses.
 
 ### LLM perspective
-- View: Alphabet’s success in late‑stage private bets shows how incumbents can capture upside from frontier tech without building everything in‑house.  
-- Impact: SpaceX gains aligned, cash‑rich partners; Alphabet gains indirect exposure to launch, satellite internet, and defense without owning such operations.  
-- Watch next: how Alphabet marks SpaceX through cycles, any cloud/connectivity integrations, and whether it trims the stake once lockups expire.
+
+- **View:** A venture investment can become strategically material without changing operations, turning capital allocation into a major earnings narrative.
+- **Impact:** Alphabet gains balance-sheet optionality, while investors inherit concentration, valuation, liquidity, and disposal risks unrelated to search or cloud.
+- **Watch next:** Track lockup expirations, SpaceX price changes, Alphabet sales, tax treatment, and disclosures separating realized from unrealized gains.
