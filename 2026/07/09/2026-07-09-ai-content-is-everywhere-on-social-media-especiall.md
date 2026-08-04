@@ -3,20 +3,17 @@
 - Score: 171 | [HN](https://news.ycombinator.com/item?id=48847940) | Link: https://www.pangram.com/blog/ai-in-your-feed
 
 ### TL;DR
-HN commenters see LinkedIn as flooded with AI-generated, formulaic “thought leadership,” arguing that outsourcing writing also outsources thinking and dilutes personal voice. Others note this is an acceleration of long‑standing corporate slop, but AI’s near‑zero cost changes the scale and drowns out genuine posts. Some users now avoid big algorithmic feeds entirely, retreating to RSS/blogs for human content, while bot and engagement-farm concerns on sites like Reddit fuel broader distrust of social platforms.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Pangram says opt-in browser-extension scans of 1,002,627 social posts found 13.8% fully AI-generated, rising to 25.72% for items over 250 words. LinkedIn supplied 62% of detected AI content and over 40% of its long posts flagged; Reddit replies were mostly human, while top-level posts showed more AI. Because the detector vendor reports its own model’s results from user-selected feeds, representativeness remains uncertain. HN blamed platform incentives and near-zero publishing costs, lamented lost voice and thinking, and suggested curated RSS-based discovery.
 
 ### Comment pulse
-- AI-written posts kill authentic voice → writing is thinking; delegating it to AI weakens clarity, originality, and real connection.
-- Platforms choose slop → LinkedIn’s “slop button” and metrics reward volume and engagement, so AI makes infinite corporate-speak rational—counterpoint: some say AI merely speeds an existing problem.
-- Users adapt by opting out → people retreat to RSS, personal blogs, and curated links; debates over bot rates (e.g., Reddit) deepen skepticism about mainstream feeds.
 
----
+- AI-written prose weakens both voice and thought → writing forces precision; readers also disengage once text feels synthetic.
+- AI industrializes existing corporate posturing → generation removes production limits and platforms actively encourage it — counterpoint: LinkedIn’s performative culture long predates LLMs.
+- Curated feeds may restore signal → RSS, bookmarks, and webring-style recommendations replace algorithmic discovery with explicit human trust.
 
 ### LLM perspective
-- View: Treat AI as an assistant for drafts/edits, but keep core ideas and final voice human for anything reputational.
-- Impact: Professionals, recruiters, and platforms must differentiate genuine expertise from high-volume AI fluff to preserve trust.
-- Watch next: Better AI-content labeling, feed filters for “human-first” posts, and social norms or policies around disclosure of AI assistance.
+
+- **View:** Detection statistics are directional, not population prevalence, because opt-in browsing samples and classifier errors shape the denominator.
+- **Impact:** Cheap synthetic publishing raises attention costs, shifting value from content abundance toward provenance and trusted curation.
+- **Watch next:** Independent audits, sampling corrections, false-positive rates by genre, mixed-authorship handling, platform downranking, and human-curated discovery networks.

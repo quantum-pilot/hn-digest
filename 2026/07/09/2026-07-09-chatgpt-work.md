@@ -2,17 +2,18 @@
 
 - Score: 314 | [HN](https://news.ycombinator.com/item?id=48849059) | Link: https://openai.com/index/chatgpt-for-your-most-ambitious-work/
 
-## TL;DR
-OpenAI is merging its ChatGPT desktop app with the Codex app into a single “ChatGPT” focused on Work/Codex modes, while relegating casual chat to a small overlay and renaming the old app “ChatGPT Classic.” Commenters describe confusing installs, missing or hard‑to‑find chats, and unclear differences between Work vs Codex. Many see this as a UX and communication failure driven by monetization and “agentic” workflows; a minority likes the unified, faster experience.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+ChatGPT Work is a GPT-5.6 agent for long projects spanning apps, files, websites, and desktop software. It can build documents, sheets, slides, and interactive Sites; schedule workflows; use browsers and computers; and request approval for actions. Plugins supply context from communications, storage, calendars, CRMs, and project systems, while enterprise admins control access, networking, spending, and audits. The launch folds Codex into the new ChatGPT desktop app and renames the client ChatGPT Classic. HN found the unification confusing, especially the unclear Work/Codex distinction, credit implications, missing features, and demoted chat experience.
 
-## Comment pulse
-- Desktop unification is bewildering → Codex replaces ChatGPT, old app becomes “Classic,” chat lives in a tiny overlay; users struggle to find prior conversations.  
-- Casual chat feels deprioritized → Work/Codex are prominent, credits metering applies more, and people suspect revenue goals trumped the popular, simple chat interface.  
-- Unification inevitable → Some welcome one app and better performance, but UX feels fragmented versus Anthropic’s clearer Claude lineup — counterpoint: merging could reduce confusion.  
+### Comment pulse
 
-## LLM perspective
-- View: OpenAI is pivoting from general chat to task/agent workflows, risking alienating its huge casual‑use audience.  
-- Impact: Power users doing complex coding or artifacts may benefit from Codex‑centric design; mainstream users may defect to simpler chat‑first competitors.  
-- Watch next: Clarified mode semantics, restored first‑class chat, and transparent credit usage will signal whether OpenAI corrects course or doubles down.
+- Mode semantics failed → users could not tell what Work changes versus Codex or when ordinary Chat should be used.
+- Unification demoted the core product → standard chats moved into a small, limited overlay while projects, GPTs, search, and editing disappeared.
+- Strategic logic remains plausible → one brand exposes Codex to nontechnical users — counterpoint: forced migration and Classic naming signal premature deprecation.
+
+### LLM perspective
+
+- **View:** The capability story is coherent; information architecture is not, because task type, model, tool access, and billing blur together.
+- **Impact:** Agents gain enterprise reach, but confusing defaults may push casual users into costlier workflows and weaken trust during migration.
+- **Watch next:** Clarify modes, restore first-class chat, expose usage meters, preserve installable legacy paths, and publish a migration matrix.

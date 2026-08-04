@@ -2,16 +2,18 @@
 
 - Score: 342 | [HN](https://news.ycombinator.com/item?id=48842611) | Link: https://www.howtogeek.com/why-developers-are-ditching-github-for-codeberg-and-self-hosting-alternatives/
 
-- TL;DR  
-  The piece argues that developers are leaving GitHub for Codeberg and self‑hosted forges like Gitea/Forgejo, but commenters see this more as a niche trend than a mass exodus. Motivations include frustration with GitHub reliability and opaque moderation, dislike of Microsoft, and a desire for control over CI, storage, and data/AI usage. Others highlight strong network effects and free GitHub Actions credits as powerful retention tools, and raise concerns about Codeberg’s anti‑LLM measures degrading basic repo access.  
-  *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  Skepticism of “developers are ditching GitHub” → headline overgeneralizes; examples are few vs GitHub’s scale; GitHub’s free CI credits financially anchor big projects.  
-  Codeberg friction → anti‑LLM protections (adversarial/“are you human” pages) sometimes block or delay repo access; some leave over UX, others applaud resisting scrapers.  
-  Self‑hosting momentum → Gitea/Forgejo users report responsive, “batteries‑included” setups, mirroring to GitHub mainly for backup/discoverability; CI bans and Microsoft distrust push them off GitHub.
+The article argues that outages, Microsoft politics, and GitHub’s aggressive AI direction are nudging some open-source projects—including Ghostty, Zig, and Tenacity—toward Codeberg or self-hosted Gitea, Forgejo, GitLab, and SourceHut. It presents alternatives as increasingly capable without claiming GitHub’s scale has collapsed. HN challenged the headline’s implied exodus, noting only a handful of prominent moves and Ghostty’s incomplete migration. Still, commenters described degraded reliability, opaque account enforcement, and free CI credits as lock-in. Self-hosters praised control and responsiveness but retained GitHub mirrors for discovery, contributions, and backup.
 
-- LLM perspective  
-  View: Moves off GitHub are principled but still marginal; gravity of network effects and CI subsidies keeps most projects put.  
-  Impact: Smaller teams gain autonomy and performance from self‑hosting, while public collaboration remains GitHub‑centric for now.  
-  Watch next: Whether Codeberg/Forgejo improve onboarding and CI, and if GitHub’s AI policies or reliability trigger larger, coordinated migrations.
+### Comment pulse
+
+- The exodus claim lacks scale → several notable projects do not establish a broad migration — counterpoint: reputational decline and subsidized CI may suppress departures.
+- Codeberg’s anti-bot gate can defeat its purpose → some visitors receive adversarial challenges or blocked repository access, prompting maintainers to leave.
+- Self-hosting works well for control → Gitea and Forgejo users report responsive, integrated setups while mirroring to GitHub for reach.
+
+### LLM perspective
+
+- **View:** Forge choice is a decision across uptime, governance, discovery, CI subsidies, moderation risk, and operational burden—not ideology alone.
+- **Impact:** Mirroring separates hosting sovereignty from network effects, letting projects migrate control without abandoning GitHub’s contributor funnel.
+- **Watch next:** Migration rates, mirror activity, CI replacement cost, Codeberg challenge failures, GitHub incident frequency, and contribution flow outside GitHub.

@@ -2,17 +2,18 @@
 
 - Score: 303 | [HN](https://news.ycombinator.com/item?id=48841676) | Link: https://github.com/malisper/pgrust
 
-## TL;DR
-A Rust reimplementation of PostgreSQL, largely generated with LLM help, now passes 100% of the upstream regression suite and claims major speedups: ~1.5× for transactional workloads and ~300× for analytics, approaching ClickHouse on ClickBench. It uses a thread-per-connection model and likely more modern storage/layout techniques. HN discussion is excited but wary: people question benchmark setup and correctness (Jepsen, fsync, MVCC), reviewability of mass‑generated code, the AGPL relicensing, and emphasize real-world shadow-testing and community building.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+pgrust is an AGPL Rust reimplementation of PostgreSQL 18.3 that now passes all 46,066 regression tests and offers wire and SQL compatibility. Its redesign adds a vectorized JIT executor, threads, scheduling, an OOM killer, and optional columnar storage; Graviton4-tuned benchmarks claim 30% higher read-only OLTP throughput and better ClickBench results than ClickHouse. The authors call it buggy and non-production-ready, without PostgreSQL extension compatibility. HN praised the milestone but demanded stronger evidence: Jepsen, fuzzing, crash testing, shadowed production workloads, durability validation, and scrutiny of AI-generated code and benchmark tradeoffs.
 
-## Comment pulse
-- Impressive performance and test results → but real confidence needs Jepsen, heavy fuzzing, and mirrored production traffic comparison—counterpoint: regression suite is still a meaningful baseline.
-- LLM-written code is hard to review → shift scrutiny to tests, fuzzing, and invariants; “vibe coding” without deep specs risks subtle, catastrophic bugs.
-- AGPL relicensing sparks debate → legally fine with PostgreSQL’s BSD-style license, but culturally contentious amid trends of tighter licenses on rewrites.
+### Comment pulse
 
-## LLM perspective
-- View: Using LLMs to “rewrite by tests” is viable only when combined with aggressive differential testing and formalized invariants.
-- Impact: Database projects may adopt Rust+LLMs for subsystems first (storage, query engine) before full drop-in replacements.
-- Watch next: Independent benchmarks, Jepsen reports, shadow-production trials, and clarity on extension safety under the thread-per-connection model.
+- Passing regression tests establishes behavioral breadth → it cannot prove crash safety, concurrency correctness, durability, or performance under pathological production workloads.
+- AI-scale commit volume changes review strategy → collaborators favor auditing proofs, differential fuzzers, and harnesses over inspecting thousands of machine-generated commits.
+- Thread-per-connection promises speed → shared-process failures can widen extension blast radius — counterpoint: extensions remain unsupported, and the project warns against production use.
+
+### LLM perspective
+
+- **View:** Database equivalence is multidimensional; SQL result parity says little about recovery, isolation, replication, resource exhaustion, or operational tooling.
+- **Impact:** Rewrites can unlock architecture changes compatibility constrains, but every optimization expands the validation surface before users can trust data.
+- **Watch next:** Jepsen results, simulated faults, differential fuzzing coverage, recovery behavior, extension ABI, untuned hardware benchmarks, and sustained mirrored-production equivalence.

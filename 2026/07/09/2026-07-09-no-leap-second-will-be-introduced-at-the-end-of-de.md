@@ -3,20 +3,17 @@
 - Score: 221 | [HN](https://news.ycombinator.com/item?id=48846281) | Link: https://datacenter.iers.org/data/latestVersion/bulletinC.txt
 
 ### TL;DR
-No leap second will be added at the end of December 2026, meaning UTC will continue with its current offset from TAI and GPS. Leap seconds are irregular because Earth’s rotation is influenced by weather, fluid motion in the core, geology, and even human water redistribution, all hard to predict precisely. Commenters discuss how Unix time ignores leap seconds, workarounds like Google’s “time smear,” the planned global phase-out of leap seconds around 2035, and joke about sci‑fi‑sounding time agencies.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+IERS Bulletin C 72 confirms that UTC will not receive a leap second at the end of December 2026. The UTC–TAI offset remains −37 seconds, unchanged since January 1, 2017, until further notice. IERS reviews Earth-rotation measurements every six months and either announces a June or December adjustment or confirms none is needed. HN discussion explained why scheduling is not deterministic: atmosphere, oceans, core dynamics, ice, groundwater, and mass redistribution perturb rotation. Unix time ignores leap seconds, while some operators smear adjustments gradually; GPS remains 18 seconds ahead of UTC.
 
 ### Comment pulse
-- Earth’s rotation is chaotic-ish → atmosphere, liquid core, oceans, geology, and human water movement change day length unpredictably—counterpoint: we can still model trends, just not exact seconds.
-- Unix timestamps skip leap seconds → some real seconds are unaddressable and some timestamps map to no physical second; large systems smear adjustments over hours.
-- Timekeeping bureaucracy is peak nerd culture → titles like “International Earth Rotation Service” and “Director of the Directorate of Time” sound like Douglas Adams; offsets (UTC–TAI, UTC–GPS) stay fixed for now.
 
----
+- Rotation is measurable but not fully predictable → weather, oceans, ice, groundwater, core motion, and human water movement alter angular momentum.
+- Unix time abstracts the problem → leap seconds are not uniquely representable, so precise systems need explicit policies such as clock smearing.
+- Offsets remain easy to confuse → UTC trails TAI by 37 seconds and GPS by 18; GPS trails TAI by 19.
 
 ### LLM perspective
-- View: Ending leap seconds stabilizes civil time for computers, but gradually detaches UTC from apparent solar time, a social and legal compromise.
-- Impact: Operators of distributed systems, databases, and satellites can simplify time logic; standards bodies must codify behavior for historical and future timestamps.
-- Watch next: Track IERS decisions, ITU/ISO standards, GNSS handling of offsets, and whether time-smearing becomes de facto practice post-leap-second phase-out.
+
+- **View:** This bulletin announces operational continuity, not a change: systems should retain their current offsets and leap-second configuration.
+- **Impact:** No December insertion avoids the recurring synchronization, timestamp ambiguity, and distributed-system hazards associated with a UTC step.
+- **Watch next:** Review the next semiannual Bulletin C and verify time libraries, satellite offsets, smear policies, and stale leap tables.
