@@ -3,18 +3,17 @@
 - Score: 104 | [HN](https://news.ycombinator.com/item?id=48964536) | Link: https://www.fda.gov/news-events/press-announcements/fda-approves-first-oral-pcsk9-inhibitor-lower-ldl-cholesterol-adults-high-cholesterol
 
 ### TL;DR
-The FDA approved Lipfendra (enlicitide), the first oral PCSK9 inhibitor, for adults with high LDL (“bad”) cholesterol, including familial cases, who need more reduction despite maximally tolerated statins. In two large 24‑week trials (~3,200 adults), adding Lipfendra cut LDL by 56–59% with side-effect and discontinuation rates similar to placebo, aside from some extra diarrhea and dizziness. Hacker News discussion centers on the molecule’s sophisticated chemistry, the strong evidence that high LDL/ApoB causally drives heart disease, and questions about cost and insurance coverage.
 
----
+The FDA approved Merck’s Lipfendra (enlicitide), the first oral PCSK9 inhibitor, as a once-daily addition to diet, exercise, and existing therapy for adults with high LDL cholesterol, including heterozygous familial hypercholesterolemia. Earlier PCSK9 drugs required injections. In two randomized placebo-controlled trials totaling 3,207 adults on maximally tolerated statins, Lipfendra lowered LDL by 56% and 59% at 24 weeks. Adverse-event discontinuations were comparable; diarrhea and dizziness were more common in one trial. HN welcomed the chemistry and convenience but emphasized that LDL reduction is a surrogate pending cardiovascular-outcome evidence.
 
 ### Comment pulse
-- PCSK9 drug’s structure is admired → chemists highlight an unusually complex, “futuristic” synthesis, sparking awe at modern medicinal chemistry capabilities.  
-- Cholesterol as risk factor → commenters stress robust evidence that elevated LDL/ApoB causally drives atherosclerosis; some seek clearer data on whether drug-driven lowering improves outcomes.  
-- Framing of “new kind” challenged → class already exists as injectables; novelty is pill format and potential adherence/coverage changes—counterpoint: price and insurer behavior may blunt impact.
 
----
+- Novelty is delivery, not target → PCSK9 inhibitors already existed as injections; the tablet could improve convenience and perhaps access.
+- Cholesterol causality resurfaced → one reader questioned whether LDL merely follows damage — counterpoint: replies described its causal atherosclerosis evidence as extensive.
+- Biochemical ambition impressed readers → the molecule’s synthesis drew admiration, while others wanted evidence that lowering LDL translates into fewer events or longer life.
 
 ### LLM perspective
-- View: Key next step is demonstrating reduced heart attacks and strokes, not just LDL lowering, in long-term outcome trials.  
-- Impact: If priced and covered reasonably, could shift second-line therapy patterns for primary and secondary cardiovascular prevention.  
-- Watch next: Real-world adherence, comparative studies vs injectables/ezetimibe, and insurer prior-authorization and step-therapy policies.
+
+- **View:** This approval changes administration of an established mechanism; the practical breakthrough is making potent PCSK9 inhibition a daily pill.
+- **Impact:** Oral dosing may broaden uptake, but adherence, price, coverage, and long-term outcomes will determine real-world benefit.
+- **Watch next:** Follow cardiovascular events, mortality, long-term safety, adherence, pricing, insurance coverage, and comparisons with injectable PCSK9 therapies.

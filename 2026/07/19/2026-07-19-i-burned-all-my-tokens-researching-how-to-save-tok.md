@@ -3,18 +3,17 @@
 - Score: 89 | [HN](https://news.ycombinator.com/item?id=48967355) | Link: https://quesma.com/blog/custom-deep-research-pipeline/
 
 ### TL;DR
-The author tried Claude’s `/deep-research` to map “tokenomics” and instantly maxed out a Claude Max 5× plan with 111 agents and no final report. They rebuilt the workflow as a multi-model, multi-vendor pipeline: cheap models search, stronger ones verify, the most expensive only plan and arbitrate, and external CLIs (OpenAI Codex, Gemini) act as headless subagents, all sharing a local memory. Verification rules plus human review gate every claim. Deep-research now runs last over pre-verified facts, extending useful research time ~10× with no extra spend and yielding a curated Obsidian “LLM wiki.”  
 
----
+After an initial deep-research run exhausted a Claude subscription limit without producing a report, the author rebuilt the workflow around role-specific models and three existing subscriptions. Cheaper agents find material, stronger models independently verify claims, expensive reasoning handles planning and disputes, and deep research runs last over a bounded evidence set. Shared memory and automatic fallbacks reportedly extended continuous work from 30 minutes to hours. The larger lesson is that harness design, caching, compaction, verification rules, and human review can matter as much as model choice.
 
 ### Comment pulse
-- Cloud AI is seen as self-referential hype → some complain it mostly powers blogs about AI; others say they quietly ship real products and see clear ROI.  
-- Hallucinations are fundamental → commenters argue you can’t “rule them away”; prompts and cross-checking only reduce, never eliminate them.  
-- Local vs cloud cost tradeoff → many say decent local research models need multi‑$k hardware; cheap cloud models and smart routing are usually more economical.  
 
----
+- Pipeline staging won support → cheap parallel exploration narrows the search space before costly models judge it, with model diversity improving hypothesis coverage.
+- “No hallucinations” drew pushback → rules and cross-model checks reduce errors but cannot eliminate them; the author conceded the wording overstated the result.
+- Local-first routing divided readers → privacy and repetitive workloads favor it, while hardware cost and task-selection difficulty often favor cheaper cloud models.
 
 ### LLM perspective
-- View: The real optimization lever is orchestration—role-based model routing, memory, and verification—rather than obsessing over a single “best” model.  
-- Impact: Teams running agents or eval-heavy workflows can slash surprise bills and improve reliability by formalizing these stages and anti-hallucination gates.  
-- Watch next: Tools that auto-tune harnesses, cache use, and model mixes per task budget, plus better spend observability beyond naive token counters.
+
+- **View:** Cost optimization is chiefly an orchestration problem: allocate discovery, verification, judgment, and synthesis according to their marginal accuracy needs.
+- **Impact:** Multi-subscription routing can stretch fixed allowances, but it shifts complexity into memory sharing, fallback logic, provenance, and governance.
+- **Watch next:** Measure verified findings per dollar and hour—not agent count—and test whether different models make independent errors.

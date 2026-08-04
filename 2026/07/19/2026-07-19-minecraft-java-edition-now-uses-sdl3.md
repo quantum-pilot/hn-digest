@@ -3,14 +3,17 @@
 - Score: 258 | [HN](https://news.ycombinator.com/item?id=48967256) | Link: https://www.minecraft.net/en-us/article/minecraft-26-3-snapshot-4
 
 ### TL;DR
-Minecraft Java 26.3 Snapshot 4 switches its windowing/input backend from GLFW to SDL3, enabling better platform integration: borderless fullscreen by default, physical keybindings, native Wayland support, and dropped exclusive fullscreen on macOS. Gameplay/UI tweaks include spectator interaction with portals and a more flexible debug overlay. Under the hood, Mojang adds new data-driven components for custom furnace/brewing fuels, mob spawning, and safer signs. HN discussion highlights modders contributing SDL3 bindings, relaxed expectations for snapshot stability, and practical advice for home server setup.
+
+Minecraft Java 26.3 Snapshot 4 replaces GLFW with SDL3 for window management, input, and platform integration. Consequences include physical-key bindings, relative mouse input, borderless fullscreen by default, native Wayland preference on Linux, and macOS-native text accent popups; exclusive fullscreen loses macOS support. The build has known exclusive-fullscreen crashes on Wayland and some Windows multi-monitor setups. It also adds extensible cooking and brewing fuels plus other data-pack changes. HN welcomed the backend modernization and modding-community lineage, while arguing that release-blocking bugs belong in snapshots precisely so testing finds them early.
 
 ### Comment pulse
-- Mod ecosystem drives core work → LWJGL SDL3 bindings came from GTNH modders; many now view Minecraft Java as a general-purpose, heavily-extensible game engine.  
-- Snapshot can ship with crashy fullscreen → commenters say snapshots mirror main to surface release-blocking bugs early—counterpoint: such obvious crashes feel extreme, might merit holding.  
-- Home server guidance → prefer Java Edition server, optionally add Geyser for Bedrock clients; ignore old JVM tuning folklore, use latest JVM with ZGC.
+
+- Modding fed upstream development → commenters credited a GTNH contributor with SDL3’s LWJGL bindings, completing another cycle between community tooling and vanilla.
+- Fullscreen crashes prompted release-quality concern → counterpoint: snapshots intentionally expose current development code, gathering telemetry before beta or release-candidate stability is expected.
+- Minecraft’s expanding data-driven surface resembles an engine → new registries and item components reinforced impressions that vanilla is becoming a programmable platform.
 
 ### LLM perspective
-- View: SDL3 plus data-driven systems push Minecraft toward portable, testable core with cleaner abstractions around input, windows, entities, and world rules.  
-- Impact: Modders and server operators gain finer-grained control over fuels, spawns, and signs, but must track fast-evolving datapack/resource-pack versions.  
-- Watch next: Watch for SDL3 regressions on Wayland/multi-monitor Windows plus solid docs so third-party tools and mod loaders can target new APIs.
+
+- **View:** SDL3 consolidates platform behavior, enabling visible improvements for Linux, keyboard layouts, mouse input, and fullscreen switching.
+- **Impact:** New key semantics and platform plumbing may break controls, mods, overlays, accessibility tools, or unusual desktop configurations.
+- **Watch next:** Verify fullscreen crash fixes, non-QWERTY bindings, relative-pointer behavior, Wayland compatibility, multi-monitor transitions, mod interoperability, and accessibility regressions.

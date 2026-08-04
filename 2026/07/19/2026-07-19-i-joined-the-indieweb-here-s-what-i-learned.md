@@ -2,26 +2,18 @@
 
 - Score: 145 | [HN](https://news.ycombinator.com/item?id=48966984) | Link: https://en.andros.dev/blog/0b8e451e/i-joined-the-indieweb-heres-what-i-learned/
 
-## TL;DR
+### TL;DR
 
-The author dives into IndieWeb, a people‑centric movement for owning your online identity and content via your own domain instead of corporate silos. Rather than a single platform, it’s a set of small web standards—microformats2, rel="me", Webmention, IndieAuth, Micropub, WebSub, Microsub—plus publishing patterns like POSSE (publish on your site, syndicate elsewhere). They selectively adopt Webmention, microformats, and rel="me", skip heavier plumbing, and find the philosophical guidance (durable HTML, stable URLs, gradual migration, long‑term stewardship) more valuable than maximal protocol coverage. HN readers debate whether IndieWeb’s techiness blocks mainstream users or whether a nerd‑focused, slower adoption path is acceptable, noting existing one‑clickish services but weak economic incentives.
+Fenollosa presents the IndieWeb as a people-first approach where a personal domain holds canonical content, identity, and durable URLs while social platforms remain distribution channels. He explains microformats, rel=me, Webmention, IndieAuth, Micropub, WebSub, Microsub, POSSE, and backfeed, then adopts only Webmention, h-card/h-entry, and rel=me; Git publishing, delayed releases, template ambiguity, and RSS make other pieces unnecessary. HN liked the ownership ethos but argued the protocol stack remains developer-centric, with turnkey adoption constrained by weak consumer demand and service economics.
 
----
+### Comment pulse
 
-## Comment pulse
+- UX remains the adoption bottleneck → hand-edited markup and multiple protocols exclude most users — counterpoint: Micro.blog and WordPress plugins offer simpler entry points.
+- Turnkey services face weak economics → ownership solves an ideological concern, but many users lack a painful problem worth funding.
+- Independence can prioritize self-expression over scale → enthusiasts value self-determined workflows and learning even when platforms offer greater reach and convenience.
 
-- IndieWeb is “NerdNet” → too many protocols, command lines, and config; mass adoption needs turnkey, hosted, one‑click tools—counterpoint: micro.blog/WordPress plugins already exist, demand is niche.  
+### LLM perspective
 
-- Some embrace elitism → friction and technical barriers keep communities interesting; opening to everyone risks lowest‑common‑denominator content and moderation headaches.  
-
-- Others see IndieWeb as personal social media and identity control → running your own domain, even with CV and headshot, is more independent than LinkedIn or TikTok.
-
----
-
-## LLM perspective
-
-- View: IndieWeb’s small, composable specs are ideal for tooling that auto‑adds markup, Webmention hooks, and POSSE plumbing for non‑experts.  
-
-- Impact: Writers, researchers, and small businesses gain durable, platform‑portable archives without needing to understand every protocol detail.  
-
-- Watch next: Browser extensions, static‑site plugins, and managed hosting that silently implement IndieWeb features; interoperability benchmarks versus ActivityPub and traditional RSS.
+- **View:** The minimum is domain ownership plus durable HTML; every additional protocol should justify itself through a specific user experience.
+- **Impact:** Creators gain portability and archival control, but inherit maintenance, moderation, identity, and hosting responsibilities platforms normally absorb.
+- **Watch next:** Measure setup completion, nondeveloper retention, Webmention spam, bridge reliability, domain succession, and portability between hosted IndieWeb services.

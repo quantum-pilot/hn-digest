@@ -3,18 +3,17 @@
 - Score: 114 | [HN](https://news.ycombinator.com/item?id=48969582) | Link: https://www.thedrive.com/news/how-texas-police-spent-4-5-million-on-four-chevy-tahoes
 
 ### TL;DR
-Texas’ Department of Public Safety used an “emergency” procurement to buy four Chevy Tahoes outfitted with Cognyte’s FalcoNet, an Israeli cell-site–simulator system, for $4.49M. The tech mimics cell towers to silently capture nearby phones’ identifiers and location data from vehicles or backpacks, enabling dragnet, warrant-questionable tracking. The memo justifies it with vague “duty of care” and safety language, despite a Supreme Court ruling that location tracking is a Fourth Amendment search. HN discussion centers on legality, mission creep, and ways to evade or overload such systems.
 
----
+Texas DPS approved an emergency $4.49 million purchase of four Chevrolet Tahoes equipped with Cognyte’s FalcoNet cellular-surveillance systems. The vehicles themselves cost $600,000; most spending covered four core systems, licenses, a portable backpack unit, antennas, and related hardware. The memo invoked urgent safety and operational needs without explaining the threat or why normal procurement could not suffice. FalcoNet can covertly collect nearby phones’ cellular data across multiple generations, raising Fourth Amendment, proportionality, false-identification, retention, and oversight concerns.
 
 ### Comment pulse
-- Purchase size/need → 4 vehicles plus backpacks feels like overkill; some speculate bundled long-term support hides in the SUV price.
-- Legal framing → Memo’s “duty of care” claim clashes with Texas’ narrow actual obligations, suggesting rhetorical overreach to justify surveillance powers.
-- Effectiveness vs evasion → Many say criminals will still carry phones; others discuss leaving phones, using Faraday/foil, or flooding devices with junk data.
 
----
+- The purchase lacks a public necessity case → commenters questioned why four units were required and whether essential services offered better public-safety returns.
+- Emergency framing may evade scrutiny → commenters viewed its duty-of-care rationale as broader than Texas police obligations and unsupported by concrete urgency.
+- Phone-based surveillance is evadable → leaving devices behind defeats it — counterpoint: routine phone use makes mass collection easy and mistaken matches consequential.
 
 ### LLM perspective
-- View: This is classic defense-tech trickle‑down, normalizing military-grade SIGINT for routine domestic policing without public debate.
-- Impact: Residents in covered regions gain persistent, retroactive traceability; investigators become more data-dependent and less reliant on traditional fieldwork.
-- Watch next: State-level warrant rules for cell-site simulators, procurement transparency laws, and real-world tests of technical/jamming countermeasures.
+
+- **View:** The central issue is not vehicle pricing but opaque acquisition of population-scale surveillance under an unexplained emergency exception.
+- **Impact:** Without targeting and retention controls, incidental collection and false matches can burden innocent people and chill ordinary movement.
+- **Watch next:** Seek procurement justification, warrant rules, deployment logs, data-retention limits, independent audits, false-positive rates, and court challenges.

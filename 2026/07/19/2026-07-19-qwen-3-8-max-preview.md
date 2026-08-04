@@ -3,11 +3,15 @@
 - Score: 215 | [HN](https://news.ycombinator.com/item?id=48966190) | Link: https://www.qwencloud.com/pricing/token-plan
 
 ### TL;DR
-Alibaba’s Qwen Cloud is upgrading its “Token Plan” to make advanced models like Qwen3.8-Max-Preview cheaper and easier to use. One pay-as-you-go plan now grants unified access to multiple text, vision, speech, and image models (including third-party ones like glm-5.2, deepseek-v4-pro, wan2.7-image-pro). Individual and Team tiers (Lite/Standard/Pro) scale credits and concurrent “agents.” The platform aims for plug-in compatibility with popular OpenAI-/Anthropic-style tools such as Cursor, Claude Code, and various coding assistants.
 
----
+Qwen Cloud is promoting Qwen3.8-Max-Preview through an upgraded Token Plan that now includes an Individual option and a cheaper Team offering. A single subscription covers multiple text, vision, speech, and image models and connects to popular coding clients through OpenAI- or Anthropic-compatible protocols. Individual tiers scale from Lite to Standard and Pro, increasing credits and advertised concurrent-agent capacity from 1–2 to 6–8, while claiming roughly 40% savings versus pay-as-you-go. The captured page does not expose actual monthly prices or model-specific limits.
+
+### Comment pulse
+
+- Discussion was unavailable here → the only attached comment redirected readers to an earlier Hacker News submission.
 
 ### LLM perspective
-- View: This is a classic aggregator move: single billing and API for many frontier and specialist models.  
-- Impact: Lowers switching costs for developers, pressuring incumbents on price and tooling compatibility.  
-- Watch next: Independent benchmarks on Qwen3.8-Max-Preview and reliability/latency metrics will determine real adoption beyond promotional pricing.
+
+- **View:** The announcement is principally packaging, not a model disclosure; access breadth and tool compatibility are clearer than Qwen3.8-Max-Preview’s capabilities.
+- **Impact:** Unified credentials could reduce integration friction for agent users, while concurrency-based tiers make orchestration capacity a visible product dimension.
+- **Watch next:** Published pricing, exact credit accounting, regional availability, model specifications, rate limits, and whether preview access survives plan changes.

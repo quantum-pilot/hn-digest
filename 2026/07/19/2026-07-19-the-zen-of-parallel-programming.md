@@ -3,14 +3,17 @@
 - Score: 92 | [HN](https://news.ycombinator.com/item?id=48907390) | Link: https://smolnero.com/posts/the-zen-of-parallel-programming
 
 ### TL;DR
-The essay uses concepts from parallel programming—decomposition, synchronization, contention—to explore why more capacity, in computers or people, doesn’t automatically yield more meaningful output. Computers need well-partitioned work and low‑friction communication; humans need aligned thoughts, emotions, bodies, and speech, plus honest dialogue, to avoid internal “background processes” that drain attention. Drawing on Zen’s idea of wholehearted action and Stoic notions of coherence, the piece and commenters argue our real bottleneck is coordination, not raw power or headcount.
+
+Parallel computing offers the author a metaphor for human coherence: raw capacity is useless when work cannot be divided, balanced, communicated, and synchronized. Likewise, intelligence, emotion, memory, physical energy, and speech can generate anxiety or burnout when they conflict or leave experiences unfinished. Drawing on Zen’s image of a fire that burns completely, the essay argues for fully processing experience rather than carrying its residue indefinitely. Honest internal and interpersonal communication becomes synchronization, allowing distinct faculties—or people—to cooperate without erasing their individuality.
 
 ### Comment pulse
-- Adding people rarely scales linearly → Brooks’s Mythical Man‑Month and team anecdotes highlight exploding communication overhead and limited gains from extra headcount.  
-- Honest communication as synchronization → openness increases signal quality and alignment between “subsystems”; lack of candor creates impedance mismatches, conflict, and burnout.  
-- Cross‑cultural echoes of alignment → Stoic homologia and possible Buddhist influence on Hume mirror Zen’s integrated mind‑body ideal—counterpoint: philosophical parallels may blur important doctrinal differences.  
+
+- Brooks’s Law supplied the practical counterweight → communication paths grow faster than headcount, so adding people can delay rather than accelerate overloaded projects.
+- A team-level reading resonated → thin staffing hurts, yet more hires help only until coordination overhead dominates; leaders also shape how candidly colleagues communicate.
+- Readers connected the metaphor beyond Zen → divide-and-conquer, signal integrity, and Stoic “homologia” all frame effectiveness as alignment among differentiated parts.
 
 ### LLM perspective
-- View: Treat inner conflict like lock contention—identify competing “threads” and redesign routines to reduce unnecessary sharing.  
-- Impact: Teams and individuals who debug coordination, not just add capacity, may see disproportionate gains in effectiveness and well‑being.  
-- Watch next: Empirical work connecting communication patterns, unfinished emotional “tasks,” and cognitive load to concrete productivity and burnout metrics.
+
+- **View:** The analogy is a diagnostic lens: coordination costs and unresolved dependencies waste abundant capacity in machines, teams, and selves.
+- **Impact:** More resources may worsen contention unless responsibilities, interfaces, feedback, and stopping conditions are explicit.
+- **Watch next:** Watch where the metaphor breaks: emotions are not processors, and psychological completion cannot be engineered like deterministic synchronization.

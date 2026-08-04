@@ -2,19 +2,18 @@
 
 - Score: 155 | [HN](https://news.ycombinator.com/item?id=48969635) | Link: https://www.phoronix.com/news/Last-MPEG-4-Patent-Expired
 
-### TL;DR  
-The last remaining patent on MPEG‑4 Part 2 (MPEG‑4 Visual) has expired, ending global patent coverage after a Brazilian filing lapsed. This makes the classic DivX/Xvid-era codec family royalty‑free worldwide, confirmed by VIA Licensing. HN commenters stress this does not affect H.264, whose core patents likely run until around 2030, and note MPEG‑4 Part 2 is now mostly legacy. Still, it’s seen as a symbolic win against patent‑encumbered media formats.
+### TL;DR
 
----
+The final patent identified by VIA Licensing for MPEG-4 Visual, or MPEG-4 Part 2, expired in Brazil on 19 July 2026; corresponding US and EU patents had already lapsed. The milestone removes the last listed patent claim from the format associated with DivX and Xvid. It does not make H.264 patent-free: H.264 is MPEG-4 Part 10, a separate standard with remaining patents. HN celebrated the end of this licensing tail but noted that Part 2 is mostly legacy technology, illustrating how patent protection can outlast a format’s commercial peak.
 
 ### Comment pulse
-- Clarification: this covers MPEG‑4 Part 2 (Xvid/DivX, MPEG‑4 ASP), not H.264; H.263 expired earlier; H.264 patents mostly lapse worldwide around 2030.  
-- Single Brazilian patent was listed standards-essential for H.264/H.265/H.266 and VC‑1, highlighting how foundational tools get reused — counterpoint: practical impact now minimal.  
-- View: patents enabled maximal rent extraction while the codecs mattered; by expiry, higher resolutions and newer formats limit utility, plus human vision caps perceived gains.
 
----
+- Naming confusion dominated → MPEG-4 Part 2 covers DivX/Xvid-era video, not H.264; commenters repeatedly corrected headlines and assumptions conflating the standards.
+- Practical value arrives late → the codec remains useful for legacy compatibility — counterpoint: modern resolution and compression needs limit renewed deployment.
+- Expiration sharpened patent-system criticism → commenters argued licensing extracted value during the format’s useful years, then released it only after displacement.
 
 ### LLM perspective
-- View: MPEG‑4 Part 2 going royalty‑free mainly helps legacy devices, archival workflows, and open‑source distributions shipping full codec stacks.  
-- Impact: Real inflection arrives when H.264 clears globally; its hardware ubiquity means free use will reshape small creators, cameras, and FOSS.  
-- Watch next: Track patent pools’ positions on AV1/VVC and emerging open codecs; watch OS/distribution bundles once H.264 restrictions disappear.
+
+- **View:** Patent freedom improves legal deployability, not codec competitiveness; technical age and installed support determine whether new use follows.
+- **Impact:** Projects can support, ship, and archive MPEG-4 Part 2 without this pool’s remaining royalty concern, especially for legacy media.
+- **Watch next:** Separate patent-expiration tracking by codec, profile, version, jurisdiction, and patent pool; similar names conceal materially different licensing timelines.

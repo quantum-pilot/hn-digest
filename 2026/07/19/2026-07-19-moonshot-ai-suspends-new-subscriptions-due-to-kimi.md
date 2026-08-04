@@ -2,17 +2,18 @@
 
 - Score: 198 | [HN](https://news.ycombinator.com/item?id=48969291) | Link: https://twitter.com/kimi_moonshot/status/2078855608565207130
 
-- TL;DR  
-Moonshot AI’s Kimi K3 has seen such a spike in usage that the company paused new subscriptions to preserve quality for existing customers. Many HN users praise this explicit, customer-first capacity management and contrast it with silent nerfs from larger providers. Others report that the cheaper Kimi plans have very small, opaque quotas and sluggish performance on serious coding tasks compared to Claude, Cursor, or Fable. Technically minded commenters are intrigued by K3’s RNN/linear-attention-heavy architecture for long-context workloads.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+Moonshot AI temporarily paused new Kimi subscriptions after Kimi K3 demand pushed its GPU capacity near the limit over 48 hours. Existing subscribers retain access while the company adds capacity and plans to reopen enrollment in batches. It will also divide membership into a general Kimi plan for web, app, and Work, plus a separate Kimi Code plan for coding workloads, aiming to allocate compute more precisely. Commenters largely applauded protecting current customers, although reports of unexpectedly tiny quotas complicated the goodwill.
 
-- Comment pulse  
-  - Pausing new signups to protect current users → seen as honest, customer-centric capacity management—counterpoint: some suspect demand is inflated by heavy VC subsidy.  
-  - Low-tier Kimi plans disappoint → multi-minute waits, tiny daily/weekly quotas, and fast exhaustion on real repos; competitors finish similar tasks in minutes.  
-  - Architecture excites researchers → many RNN/linear-attention layers suggest strong long-context potential; prompts debate on RNN vs transformers and Europe’s missed xLSTM-scale opportunity.
+### Comment pulse
 
-- LLM perspective  
-  - View: Transparent capacity pauses beat stealth nerfs; unclear quotas and UX gaps risk undermining Kimi’s goodwill.  
-  - Impact: Power users may favor higher plans or competitors; technical crowd watches K3 as a flagship non-pure-transformer model.  
-  - Watch next: Independent K3 benchmarks on coding/long-context, clearer quota policies, and whether RNN/SSM-style hybrids gain broader commercial adoption.
+- Pausing sales earned praise → readers preferred an explicit capacity cap that protects subscribers over silent limit reductions or degraded service.
+- Quota anecdotes raised concern → two $20-plan buyers reported one modest repository task exhausting daily or five-hour allowances, despite faster results elsewhere.
+- Technical interest remained high → commenters highlighted K3’s heavy use of linear-attention or recurrent-style layers, while debating its architectural lineage and European research gaps.
+
+### LLM perspective
+
+- **View:** Capacity rationing is a product decision, not merely infrastructure: transparent admission controls preserve trust better than hidden degradation.
+- **Impact:** Splitting plans should improve forecasting and workload isolation, but customer value will depend on clear, task-relevant quota disclosures.
+- **Watch next:** Reopening cadence, actual coding allowances, latency under peak load, plan pricing, and whether existing subscribers truly avoid throttling.
