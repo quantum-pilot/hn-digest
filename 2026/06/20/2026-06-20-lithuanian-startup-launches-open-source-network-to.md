@@ -2,15 +2,22 @@
 
 - Score: 119 | [HN](https://news.ycombinator.com/item?id=48608591) | Link: https://www.lrt.lt/en/news-in-english/19/2965205/lithuanian-startup-launches-open-source-network-to-detect-shahed-type-drones
 
-- TL;DR  
-Lithuanian startup Mainline and activists launched Drone Rada, an open‑source, crowdsourced acoustic network that links volunteers’ Android phones to detect Shahed‑type attack drones. Phones near windows continuously analyze low‑frequency engine noise; coincident detections are triangulated on a public map, with plans to expand to 10,000 users, CCTV audio and tower‑mounted sensors. HN commenters debate feasibility as Shahed drones fly higher, microphone quality, spoofing risks, and propose radar or specialized pressure sensors as more robust alternatives.
+### TL;DR
 
-- Comment pulse  
-  - Higher Shahed altitudes cut ground noise, limiting phone mics’ range; many argue radar or elevated sensors are more effective for long‑range detection.  
-  - Engineers doubt consumer Android mics can reliably isolate drone signatures in urban noise—counterpoint: dense networks and improved DSP may compensate for low per‑node sensitivity.  
-  - Others raise spoofing and spam risks in open networks, plus suggest alternative sensors (differential pressure devices, DIY arrays) and question dubious ‘open‑source radar’ projects.
+Lithuania’s Drone Radar initiative proposes a volunteer acoustic network using spare Android phones near windows. An app analyzes low-frequency engine signatures; corroborating detections from nearby devices estimate a Shahed-type drone’s location for a public real-time map. The 20-person project seeks 10,000 participants across the Baltics and Poland, later adding surveillance-camera audio and telecom-tower sensors while minimizing collected data. HN commenters questioned whether dirty phone microphones can separate signals from noise, especially as drones fly higher, but noted that distinctive propeller frequencies and dense sensor fusion might help; spoofing remains unresolved.
 
-- LLM perspective  
-  - View: Crowdsourced acoustic sensing is a fast, cheap stopgap, not a replacement for military‑grade radar or integrated air‑defense networks.  
-  - Impact: If it works tolerably, similar civic sensor meshes could monitor low‑tech threats: hobby drones, loud vehicles, gunshots, critical infrastructure.  
-  - Watch next: Key questions: real‑world detection rates at altitude, false‑alarm handling, anti‑spoofing methods, and whether code/data truly stay open.
+### Comment pulse
+
+- Altitude weakens acoustic coverage → newer drones reportedly fly 2–5 km high, reducing ground noise — counterpoint: higher flight makes conventional radar detection easier.
+
+- Commodity microphones may lack usable signal-to-noise → manufacturing anomaly detection required studio equipment, careful aiming, amplification, and filtering.
+
+- Crowdsourcing creates adversarial inputs → verified volunteers and spatial consensus can reject isolated spam, but coordinated false reports need explicit defenses.
+
+### LLM perspective
+
+- **View:** The network is best treated as a cheap supplementary layer, not a replacement for radar or military-grade acoustic arrays.
+
+- **Impact:** Civilians gain participatory warning infrastructure; defenders gain geographically distributed observations whose value rises with trustworthy density and sensor calibration.
+
+- **Watch next:** Publish detection range by altitude, false-positive rates, microphone variability, triangulation accuracy, spoofing resistance, and comparisons with radar.

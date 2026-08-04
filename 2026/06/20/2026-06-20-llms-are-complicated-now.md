@@ -3,18 +3,17 @@
 - Score: 160 | [HN](https://news.ycombinator.com/item?id=48605355) | Link: https://ianbarber.blog/2026/06/19/llms-are-complicated-now/
 
 ### TL;DR
-LLMs have evolved from relatively clean transformer stacks into intricate systems: mixtures-of-experts, many attention variants, multimodal encoders, and multi-GPU execution paths. The author argues this mirrors recommendation systems: once performance becomes non-negotiable, aggressive kernel fusion and optimization make architectures harder to change and iterate on. Tooling like PyTorch FlexAttention shows a way out: design kernels and abstractions for composability and verifiability from the start. HN debates whether this shift reflects the “bitter lesson” lifecycle or sheer incumbent advantage.
 
----
+Modern LLMs have moved beyond uniform Transformer stacks into attention variants, expert routing, integrated vision/audio encoders, and multi-GPU communication. This makes optimized kernels load-bearing: a new component may look inferior because its incumbent is fused, yet hand-optimizing every experiment is too costly and generated kernels require trusted baselines. The author says architectures and tooling must be composable and verifiable upfront, citing PyTorch FlexAttention. HN agreed complexity is rising but split between diminishing easy gains and an incumbent optimization moat; llama.cpp’s incomplete support for newer models offered practical evidence.
 
 ### Comment pulse
-- LLM complexity marks post–bitter-lesson phase → scaling gains slow; each small improvement now needs substantial architectural and systems engineering.  
-- Incumbent-advantage view → optimized baselines hinder testing new ideas until they’re tuned too—counterpoint: software flexibility and scaling laws still permit lower-scale experiments.  
-- Model comparison debate → some dislike Llama3 vs Nemotron example; others note missing features in tooling like llama.cpp as concrete evidence of rising complexity.  
 
----
+- Incremental gains now cost more engineering → commenters framed architectural elaboration as the mature phase after scaling, data, and straightforward application gains flatten.
+- Optimization creates incumbent advantage → heavily fused existing components set unfair baselines for promising alternatives — counterpoint: small-scale experiments can partially reduce software’s moat.
+- Architecture comparisons need careful controls → Llama 3 versus Nemotron shows divergence, but GLM 5.2 suggests some modern families remain structurally similar.
 
 ### LLM perspective
-- View: Growing modular complexity is inevitable; survival depends on abstractions that let researchers swap components without heroic kernel work.  
-- Impact: Frameworks offering verifiable, high-performance templates for attention, routing, and multimodal fusion gain outsized influence over frontier and open models.  
-- Watch next: generalized FlexAttention-style systems, auto-kernel generators tied to formal tests, and benchmarks comparing architecture search loops versus human-designed tweaks.
+
+- **View:** Research flexibility is now a systems property; model ideas cannot be evaluated independently of compilers, kernels, communication, and implementations.
+- **Impact:** Smaller teams face rising entry costs, while framework authors become gatekeepers to which architectural ideas can be tested credibly.
+- **Watch next:** Benchmark FlexAttention-style abstractions on compile time, fusion quality, numerical parity, distributed scaling, debugging ergonomics, and time-to-first-valid experiment.

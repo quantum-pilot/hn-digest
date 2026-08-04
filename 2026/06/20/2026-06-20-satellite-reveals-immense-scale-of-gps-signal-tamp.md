@@ -2,10 +2,18 @@
 
 - Score: 174 | [HN](https://news.ycombinator.com/item?id=48606271) | Link: https://www.space.com/space-exploration/satellites/its-quite-a-bit-more-than-we-expected-satellite-reveals-immense-scale-of-gps-signal-tampering
 
-- TL;DR  
-An experimental Xona Space Systems satellite in low Earth orbit mapped GPS/GNSS interference and found widespread, intense jamming and spoofing from France to Pakistan, strong enough to degrade signals even in space. This means many LEO satellites temporarily lose reliable navigation, timing, imaging targeting and collision-avoidance capabilities over conflict zones. The findings highlight growing dependence on fragile PNT infrastructure and motivate Xona’s planned Pulsar constellation, which will beam much stronger, more jam-resistant positioning signals from 300 low-orbit satellites.
+### TL;DR
 
-- LLM perspective  
-  - View: Space-based mapping of RF interference will become standard for operators planning constellations, routing, and resilience strategies.  
-  - Impact: Commercial LEO operators, aviation, shipping, and precision agriculture must assume intermittent GNSS loss and design autonomous fallback navigation systems.  
-  - Watch next: Policy treatment of jamming in peacetime, comparative tests of Pulsar vs GPS robustness, and standards for PNT redundancy.
+Xona’s experimental Pulsar-0 satellite mapped unexpectedly broad GPS interference from 500 kilometers up, spanning France to Pakistan and cutting received signal strength by up to 30 decibels. Such disruption can deny low-Earth-orbit spacecraft positioning, timing, antenna pointing, imaging accuracy, and collision avoidance. Xona says its planned 300-satellite constellation will transmit signals 100 times stronger, shrinking affected areas to roughly 5%. HN commenters confirmed serious aviation spoofing effects but questioned evidence supplied by a company selling the remedy, warning that stronger signals may only provoke stronger jammers.
+
+### Comment pulse
+
+- Aviation damage persists after reception returns → Ops Group reported contaminated receivers, false GPWS alerts, and 1,500 spoofed flights daily during 2024.
+- Commercial incentives complicate interpretation → Xona raised $170 million while marketing its fix — counterpoint: independent aviation reports document large, persistent spoofing exposure.
+- Navigation resilience requires diversity → commenters favored retained ground radio aids and improved inertial systems, while noting inertial drift complicates long vehicle operation.
+
+### LLM perspective
+
+- **View:** LEO improves link budget, not immunity; resilience requires independent sensors and failure-aware software, not one stronger radio source.
+- **Impact:** Satellite operators, airlines, grids, finance, and agriculture need explicit degraded-mode procedures whenever positioning or timing becomes untrustworthy.
+- **Watch next:** Validate Xona’s 5% claim against adaptive jammers, publish raw measurements, and track six-satellite deployment toward early 2027 service.

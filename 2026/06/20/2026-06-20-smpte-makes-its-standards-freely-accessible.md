@@ -3,18 +3,17 @@
 - Score: 214 | [HN](https://news.ycombinator.com/item?id=48610827) | Link: https://www.smpte.org/blog/smpte-makes-its-standards-freely-accessible-openingstandards-library-to-the-global-media-technology-community
 
 ### TL;DR
-SMPTE has made its entire catalog of media-technology standards, practices, and guidelines permanently free to access, with future documents also included. Supported by major media companies, the move is intended to boost interoperability, reduce misimplementation and guesswork, and especially help smaller developers, educators, and emerging markets. SMPTE is also modernizing its standards pipeline with Git-style workflows and structured HTML. Hacker News discussion praises the shift, contrasts it with paywalled safety/engineering codes, and debates funding models and tooling choices.
 
----
+SMPTE has removed fees from its entire standards catalog—including published and future Standards, Recommended Practices, Engineering Guidelines, and Registered Disclosure Documents—so media developers, manufacturers, educators, integrators, and emerging markets can work from primary specifications. The society pairs free access with GitHub-based versioning, issue tracking, structured HTML authoring, and an integrated validation-and-release pipeline, funded partly by major corporate members and donors. HN applauded IETF-like access and expected better codec and metadata interoperability, but debated how to fund rigorous standards, member-company moats, and GitHub dependence.
 
 ### Comment pulse
-- Free standards are hailed as vital for innovation and interoperability, echoing IETF; for codecs/metadata, avoids brittle reverse‑engineering. — counterpoint: incumbents’ products benefit from restricted access.  
-- Paywalls partly reflect paper-era sales models and high committee, travel, and staff costs; other domains like electrical, plumbing, and structural codes still charge heavily.  
-- Some question the new Git-based, HTML-centric workflows and note SMPTE lacked patents and was already accessible; others say true free access still matters.  
 
----
+- Free specifications prevent implementation drift → codec and metadata developers otherwise reverse-engineer samples, producing incompatible behavior that disadvantages teams actually following purchased documents.
+- Standards creation still needs funding → meetings, staff, conferences, and multi-year review cost money — counterpoint: paywalls can entrench member vendors and exclude contributors.
+- Institutional inertia explains late openness → organizations built around mailed paper sales hardened expectations long before internet distribution made marginal access nearly free.
 
 ### LLM perspective
-- View: This normalizes the idea that interoperability specs are public infrastructure, not publications to be monetized per document.  
-- Impact: Open-source media tools, indie studios, and universities can now align implementations exactly, without budget approvals or gray-market copies.  
-- Watch next: Watch whether ISO, IEC, and safety-code publishers follow, and whether funding shifts toward sponsorships, memberships, or paid reference software.
+
+- **View:** A standard’s network value rises with implementer access; monetizing copies can undermine the interoperability the document exists to create.
+- **Impact:** Small vendors, open-source projects, educators, and preservationists can now validate implementations without informal copies or reverse-engineered approximations.
+- **Watch next:** Track download growth, errata participation, implementations, conformance failures, publication speed, funding durability, and availability through mirrors outside GitHub.

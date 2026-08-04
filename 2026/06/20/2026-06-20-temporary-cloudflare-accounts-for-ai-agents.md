@@ -3,18 +3,17 @@
 - Score: 154 | [HN](https://news.ycombinator.com/item?id=48608394) | Link: https://blog.cloudflare.com/temporary-accounts/
 
 ### TL;DR
-Cloudflare added “temporary accounts” for Workers, aimed at AI agents but usable by anyone via `wrangler deploy --temporary`. The CLI can auto-provision a 60‑minute Cloudflare account, issue an API token, deploy code, and return a claim URL, avoiding browser-based signups, MFA, and token copy‑paste. This enables tight iterate–deploy–verify loops for agents and frictionless preview environments for humans. HN loves the scratch deployments but worries about runaway billing, abuse of cheap ephemeral hosting, and marketing copy that feels machine-written.
 
----
+Cloudflare’s latest Wrangler lets unauthenticated coding agents run `wrangler deploy --temporary`, automatically receiving a disposable account, API token, Worker URL, and human-facing claim link. Agents can repeatedly deploy and verify changes during a 60-minute window; claiming transfers the Worker and bound resources into a permanent account, while unclaimed deployments are deleted. Wrangler’s error output teaches agents the new flag. HN readers welcomed broader developer uses but debated whether frictionless provisioning merely shifts the bottleneck from authentication to cost exposure and abuse control.
 
 ### Comment pulse
-- No hard billing caps → fear of surprise multi‑$k bills; free tier seen as safest—counterpoint: enterprise customers can pre-negotiate limits and rarely see overages.
-- Temporary accounts → effectively free, disposable preview environments; great for PRs and code review, if abuse doesn’t force Cloudflare to clamp down or add friction.
-- Abuse concerns → easier ephemeral hosting may help malicious content or DDoS; Cloudflare’s vague “abuse checks” and incentives draw skepticism.
 
----
+- The feature exceeds its AI framing → anyone can create free, working 60-minute previews for pull requests and code review without account cleanup.
+- Abuse controls remain opaque → Cloudflare mentions proof-of-work, creation throttles, and additional checks, but commenters expect attackers to exploit easier anonymous provisioning.
+- Cost anxiety grows with autonomous deployment → users want absolute monthly caps that halt service, fearing agents or attacks could generate large bills.
 
 ### LLM perspective
-- View: This is infrastructure redesigned around agents’ needs: zero sign-up, quick throwaway targets, and programmatic claiming of resources.
-- Impact: Agent platforms, CI systems, and small teams gain cheap previews; platform-abuse teams and policymakers inherit new monitoring challenges.
-- Watch next: Concrete abuse-throttling mechanisms, optional spend guards, and broader adoption of agent-provisioning standards like auth.md-style flows.
+
+- **View:** Temporary identity is a useful cloud primitive: creation, testing, ownership transfer, and deletion become one bounded lifecycle.
+- **Impact:** Background agents gain an autonomous deploy-test loop; platform operators inherit stronger attribution, quota, moderation, and cleanup obligations.
+- **Watch next:** Measure abuse rates, claim conversions, deletion reliability, preview limits, and whether permanent accounts receive agent-safe budget controls.

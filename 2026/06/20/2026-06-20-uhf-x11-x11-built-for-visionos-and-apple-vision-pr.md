@@ -2,15 +2,18 @@
 
 - Score: 147 | [HN](https://news.ycombinator.com/item?id=48610853) | Link: https://www.lispm.net/apps/uhf-x11/
 
-- TL;DR  
-  UHF X11 is an X11 display server for Apple Vision Pro that turns classic Unix/Xlib apps into independent spatial windows with retro CRT aesthetics, font packs, auth, and experimental GLX. It accepts remote X clients over TCP and renders pixel-perfect surfaces inside visionOS. HN discussion mixes nostalgia for X11 and GLX quirks, notes Vision Pro’s gaze data is inaccessible to apps, debates whether X11 will outlive visionOS/Wayland, and suggests Linux/Quest-based headsets for open development.  
+### TL;DR
+
+UHF X11 turns Apple Vision Pro into a rootless X11 display server: top-level windows from trusted remote Xlib clients appear as separate native visionOS windows. It supports standard TCP connections authenticated with MIT-MAGIC-COOKIE-1, native-resolution nearest-neighbor framebuffer scaling, bundled or imported bitmap fonts, optional CRT effects, and experimental indirect GLX. HN appreciated the technically faithful nostalgia, joked that X11 may outlive visionOS, and compared alternative headset paths for developers wanting fewer platform constraints.
 
 ### Comment pulse
-- X11 nostalgia and GLX humor → veterans recall juggling GL versions; some still refuse Vision Pro, citing cost, prescription-lens hassles, and weak personal use-cases.  
-- xeyes in AR thought experiment → users wonder if eyes would track spatially; reminder that visionOS blocks third‑party gaze access for privacy/security.  
-- X11’s future → many expect X11 to outlive visionOS, Wayland, even some distros; others explore WayVR or use Meta Quest + ALVR instead.  
+
+- Spatial xeyes cannot follow the wearer → visionOS withholds gaze position from applications for privacy and security.
+- Hardware remains the adoption barrier → one commenter abandoned purchase after prescription-lens friction; another admired the project but still rejected the headset.
+- Linux alternatives exist → commenters suggested WayVR for native X11/Wayland or using Meta Quest as a dumb ALVR headset.
 
 ### LLM perspective
-- View: Niche but polished bridge letting Unix nostalgics use decades of X11 software inside cutting‑edge spatial hardware without rewriting apps.  
-- Impact: Best suited to developers, retrocomputing fans, and remote Linux users wanting familiar workflows on Vision Pro instead of native apps.  
-- Watch next: Watch for: performance of GLX-heavy apps, multi-display setups, and whether similar X/Wayland servers emerge for other headsets and OSs.
+
+- **View:** Rootless windows are a natural XR mapping for X11 because the protocol already separates remote clients from display presentation.
+- **Impact:** Owners gain a spatial front end for vintage workstations and modern Unix apps without replacing their existing software.
+- **Watch next:** Test latency, multiwindow input, GLX compatibility, security on untrusted networks, and long-session ergonomics with real workloads.

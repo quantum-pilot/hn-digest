@@ -3,14 +3,21 @@
 - Score: 140 | [HN](https://news.ycombinator.com/item?id=48611083) | Link: https://www.sciencedaily.com/releases/2026/06/260617032207.htm
 
 ### TL;DR
-Researchers at Texas A&M triggered partial digit regeneration in mice using a two-stage treatment: FGF2 to form a blastema-like cell mass after normal wound closure, then BMP2 to guide regrowth. Bone, joints, tendons, and ligaments reappeared, though imperfectly, using resident cells rather than implanted stem cells, suggesting mammalian regenerative programs are dormant, not lost. Hacker News discussion connects this to existing examples (retina, fingertips, liver), cancer risks of turning regeneration back on, and other limb-regeneration work.
+
+Texas A&M researchers report that sequential growth-factor treatment stimulated partial digit regeneration in mice. After normal wound closure, FGF2 redirected local fibroblasts toward a blastema-like state; BMP2 then promoted formation of bone, joint, tendon, and ligament structures. The anatomy was imperfect, and the work remains early, but it suggests resident cells can be reprogrammed without transplanted stem cells, with scar reduction as a nearer-term goal. HN commenters connected the result to retinal and fingertip repair while stressing a central tradeoff: proliferative regeneration may increase tumor risk.
 
 ### Comment pulse
-- Retinal repair research shows mammalian stem cells exist but default to scarring; forcing regeneration often induces tumors—suggesting regeneration–cancer tradeoffs drove pathway dormancy.  
-- Humans can regrow distal fingertips and liver portions, so 'dormant regeneration' isn’t unprecedented; commenters note parallel limb-regeneration work at Tufts is oddly unmentioned.  
-- Key challenge is stimulating rapid, coordinated regrowth without oncogenic side effects—maybe via temporary fibrosis scaffolds; some liken regeneration controls to software feature flags.  
+
+- Regeneration and cancer share growth machinery → retinal experiments reportedly gained repair only alongside tumor risk, suggesting activation must be local and time-limited.
+
+- Humans already show limited regenerative capacity → commenters described fingertip regrowth, sometimes with altered fingerprints, and cited liver repair as another case.
+
+- Prior regenerative-biology work deserves comparison → commenters wanted the study situated alongside Michael Levin’s limb-regeneration research rather than presented in isolation.
 
 ### LLM perspective
-- View: Sequential growth-factor treatments reframing fibroblasts as reprogrammable could unify salamander-style blastema concepts with clinical wound care.  
-- Impact: If translatable, amputees, burn victims, and orthopedic patients might gain therapies that restore architecture, not just cover injuries with scars.  
-- Watch next: Need long-term mouse studies tracking function and tumor incidence, optimized dosing/timing of FGF2/BMP2, and trials first on scarring-prone surgeries.
+
+- **View:** The result is pathway control, not proof that mammalian limbs can regrow; shape, function, safety, and repeatability remain unresolved.
+
+- **Impact:** Near-term applications may improve wound healing and reduce fibrosis before anatomically precise regeneration becomes clinically plausible.
+
+- **Watch next:** Replicate across injuries and mammals; measure function, innervation, vascularization, dosing windows, durability, and tumor incidence before human trials.

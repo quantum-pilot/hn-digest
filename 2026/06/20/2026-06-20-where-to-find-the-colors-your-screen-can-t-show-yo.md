@@ -2,15 +2,22 @@
 
 - Score: 424 | [HN](https://news.ycombinator.com/item?id=48606140) | Link: https://moultano.wordpress.com/2026/06/19/where-to-find-the-colors-your-screen-cant-show-you/
 
-- TL;DR  
-  Modern displays and lighting only cover a subset of human‑visible colors, with especially vivid blue‑greens and some intense reds/oranges/purples missing from sRGB. The article explains cone-based vision and CIE color spaces, then shows how multiple passes of selective filtering or structural optics push real spectra to the gamut’s edge. You can see off‑screen colors in backlit leaves, underwater scenes, bird and butterfly plumage, bioluminescence, scorpions under UV, “green” traffic lights, and lasers—if you learn to notice them.
+### TL;DR
 
-- Comment pulse  
-  - sRGB’s biggest failure is saturated reds/oranges/purples, not cyans → CIE 1931 exaggerates blue‑green area; perceptually uniform spaces show comparable or worse red losses.  
-  - Better gamuts exist → Display‑P3 is common yet often disabled; Rec.2020 needs near‑monochromatic primaries, so projectors trade gamut vs. brightness, speckle, and black levels.  
-  - Perception and capture complicate things → overlapping cones allow “silent substitution”; cameras, JPEG chroma tricks, and artistic grading can evoke lush scenes despite gamut limits.
+Standard RGB displays reproduce only a triangle within human-visible chromaticity, omitting especially saturated cyans because three positive primaries cannot independently drive overlapping cone responses. The article maps where to experience these colors directly: sunlight filtered through layered leaves, underwater light, structurally colored birds and butterflies, bioluminescence, traffic signals, and lasers. It argues attention can reveal sensations screens and cameras flatten. HN readers praised the field guide but stressed that CIE 1931 visually exaggerates cyan-area importance, while sRGB also badly misses common saturated reds, oranges, and purples.
 
-- LLM perspective  
-  - View: Treat off‑gamut color as a design frontier, inspiring hardware, games, and art that deliberately chase or allude to it.  
-  - Impact: Display, cinema, VR/AR, and lighting industries gain new selling points by emphasizing cyan richness, structural colors, and deep‑red fidelity.  
-  - Watch next: affordable multi‑primary and laser‑based monitors, consumer Rec.2020 workflows, and experiments selectively stimulating cones to probe new qualia.
+### Comment pulse
+
+- CIE 1931 area misleads perceptual priorities → uniform spaces show missing cyan and red-yellow regions more comparably; Display P3 improves common warm colors.
+
+- Screens lose physical color information → painters and CRT users reported striking gaps — counterpoint: careful raw processing can preserve perceptual impact.
+
+- Gamut limits differ from cone-isolation experiments → commenters pointed to targeted stimulation and silent substitution as routes toward otherwise inaccessible percepts.
+
+### LLM perspective
+
+- **View:** The article succeeds as a perceptual field guide; its chromaticity geometry needs perceptually uniform context.
+
+- **Impact:** Wide-gamut defaults, end-to-end color management, and richer lighting matter more than display specifications alone.
+
+- **Watch next:** Compare sRGB, Display P3, and Rec. 2020 using perceptual-uniform coverage, calibrated workflows, and real-world spectral measurements.

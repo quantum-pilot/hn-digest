@@ -3,9 +3,17 @@
 - Score: 136 | [HN](https://news.ycombinator.com/item?id=48609194) | Link: https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/
 
 ### TL;DR
-The U.S. ordered Anthropic to halt exports of its powerful AI models Fable and Mythos over national-security fears, including concerns about a South Korean partner and model “jailbreaks.” TechCrunch argues this reprises decades of mostly failed attempts to control dual‑use software: 1990s crypto export limits around PGP and 2010s spyware rules under the Wassenaar Arrangement. Those regimes proved porous, driving vendors offshore and rarely stopping bad actors—suggesting AI export controls will mainly hurt compliant Western companies, not adversaries.
+
+After the White House ordered Anthropic to block foreign access to Fable and Mythos, the company shut both models down, exposing a first test of AI export controls. The article argues decades of uneven policy—from failed PGP restrictions to loophole-ridden spyware licensing—suggest software capabilities will spread despite bans, while compliant U.S. firms absorb the cost. HN readers challenged that analogy: centrally hosted, proprietary models are more controllable than downloadable code, though proxies, future open-weight rivals, lost foreign revenue, and talent constraints could still erode enforcement and American competitiveness.
+
+### Comment pulse
+
+- Selective service access is technically feasible → KYC, attested clients, and session monitoring can deter misuse — counterpoint: resale proxies remain likely.
+- Spyware history is politically ambiguous → tolerated vendors may reflect deliberate state choices, while FinFisher and employee-level controls demonstrate enforcement successes.
+- Threat severity divided commenters → some called Anthropic’s claims self-defeating hype — counterpoint: defenders said models already commoditize nation-state attack capabilities.
 
 ### LLM perspective
-- View: Software export controls work poorly when knowledge and code can be replicated globally and quickly.
-- Impact: U.S. frontier AI labs may face heavy compliance costs while rivals in non-aligned jurisdictions surge ahead.
-- Watch next: Whether the U.S. shifts from blunt export bans to targeted sanctions, funding for defensive AI, and stricter customer due diligence.
+
+- **View:** Effective controls depend less on “software” broadly than on whether capability is centralized, scarce, auditable, and replaceable.
+- **Impact:** Anthropic faces an immediate market loss; U.S. labs risk fragmented products, restricted staffing, and incentives for foreign substitutes.
+- **Watch next:** Track whether Commerce permits vetted foreign access, publishes criteria, or extends controls to weights, staff, and resellers.

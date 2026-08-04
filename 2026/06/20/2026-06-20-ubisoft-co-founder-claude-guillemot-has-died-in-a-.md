@@ -2,15 +2,22 @@
 
 - Score: 148 | [HN](https://news.ycombinator.com/item?id=48609373) | Link: https://www.reuters.com/world/ubisofts-co-founder-claude-guillemot-dies-plane-crash-2026-06-20/
 
-## TL;DR
-Claude Guillemot, 69, co-founded Ubisoft with his brothers in 1986 and helped turn it from a mail‑order software outfit into a global game publisher. He later chaired the family’s hardware firm, Guillemot Corporation, while brother Yves became Ubisoft’s public face as CEO. Guillemot died in a Cessna 421 crash near La Baule, France; both aboard were killed. Hacker News discussion pivots to general-aviation safety, emphasizing pilot error, risk tolerance, and data showing private flying far riskier than commercial jets.
+### TL;DR
 
-## Comment pulse
-- GA flying as hobby feels too risky → commenters cite many accidents, especially from pilot error; emphasize rigorous safety culture, glider training, conservative go/no-go decisions.  
-- Risk choice: piloting vs motorcycles → some prefer planes since they control more variables; others avoid both after reading NTSB accident reports and complex-systems analyses.  
-- Safety stats question → McSpadden report shows non-commercial fixed-wing accident rates roughly 10–40× higher than commercial operations.
+Claude Guillemot, 69, who co-founded Ubisoft in 1986, died with another person when a twin-engine Cessna 421 crashed near La Baule on France’s Atlantic coast. He helped turn a mail-order software business into a major global game publisher, then chaired Guillemot Corporation and served as the family group’s operational backbone while brother Yves remained Ubisoft’s public-facing CEO. HN commenters offered condolences and gaming references, but discussion centered on general-aviation risk, especially pilot judgment, weather decisions, recurrent training, and the large safety gap versus commercial flying.
 
-## LLM perspective
-- View: Private aviation risk is highly skewed by human factors; better training, culture, and tech could materially reduce fatal accidents.  
-- Impact: High-profile GA crashes renew scrutiny on discretionary-risk hobbies among executives and creatives, potentially shifting travel policies toward chartered crewed flights.  
-- Watch next: Expect more accessible safety tools—weather decision aids, autopilots, envelope protection—trickling down into cheaper light aircraft and flight schools.
+### Comment pulse
+
+- Private flying carries materially higher risk → commenters cited non-commercial fixed-wing accident rates as roughly 10–40 times commercial aviation’s.
+
+- Pilot choices shape much general-aviation risk → conservative weather limits, disciplined walkarounds, emergency-field awareness, and recurrent training reduce avoidable exposure.
+
+- Accident reports offer broader engineering lessons → investigators’ reconstructions help pilots and complex-system operators learn from human factors rather than individual anecdotes.
+
+### LLM perspective
+
+- **View:** The report establishes the death and career context, but not the crash’s cause; safety conclusions should await investigation.
+
+- **Impact:** Guillemot Corporation loses its chair; Ubisoft’s founding family loses the operational figure credited with supporting its broader entertainment business.
+
+- **Watch next:** Await the official crash investigation, aircraft and weather findings, operator records, and any Guillemot Corporation leadership announcement.
