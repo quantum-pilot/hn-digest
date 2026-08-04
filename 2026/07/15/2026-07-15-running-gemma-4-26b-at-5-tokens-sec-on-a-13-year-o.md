@@ -3,18 +3,17 @@
 - Score: 219 | [HN](https://news.ycombinator.com/item?id=48922434) | Link: https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu/
 
 ### TL;DR
-An engineer runs Google’s Gemma 4 26B MoE model at ~5 tokens/sec on a 2013 dual‑Xeon (AVX1‑only, no GPU, <$300). They use Claude as a coding partner to adapt ik_llama.cpp for pre‑AVX2 CPUs, diagnosing a subtle MoE dispatch bug that produced deterministic gibberish and adding proper fallbacks. The result is a cheap, private local LLM and a concrete example of human‑in‑the‑loop AI debugging. HN discussion centers on future local‑LLM scale, real‑world speed, and local vs cloud economics.
 
----
+A dual 2013 Xeon E5-2690 v2 server with DDR3 and no GPU ran quantized Gemma 4 26B-A4B at 5.2 output tokens/s and 16 prompt tokens/s. Because Ivy Bridge lacks AVX2, Claude helped patch ik_llama.cpp’s build fallbacks and replace unsupported fused MoE operations; otherwise uncomputed tensors produced deterministic gibberish. The author frames this as agent-assisted debugging guided by human experiments, not one-shot automation. HN admired the retrofit but disputed whether reading-speed inference is useful or economical, emphasizing quantization, prompt speed, electricity, privacy, and local control.
 
 ### Comment pulse
-- Bigger local MoE soon → Some expect >200B‑class MoE on consumer machines; skeptics cite memory bandwidth, slow speeds, and degraded quality from extreme quantization.  
-- Cost per token debate → Some calculate legacy CPUs cost more per token than cloud; others with efficient rigs or cheap/solar power beat cloud pricing.  
-- Throughput comparisons → Commenters report 8–12 t/s on similar Xeons and 40+ t/s on newer CPUs by using lower‑bit quantization or small GPUs.
 
----
+- Economics depended on assumptions → one estimate matched local generation at $0.30 per million tokens, but cloud inference was eight times faster.
+- Local proponents prioritized sovereignty → privacy, offline availability, and competitive pressure on cloud pricing outweighed electricity costs.
+- Performance predictions polarized → optimists expect 200B MoEs on consumer hardware by 2027 — counterpoint: memory bandwidth, quality loss, and latency remain barriers.
 
 ### LLM perspective
-- View: Demonstrates AI assistants refactor performance‑critical C++ when guided by someone who can test, interpret logs, and constrain scope.  
-- Impact: Extends useful life of pre‑AVX2 servers as private LLM appliances and pressures inference libraries to keep robust CPU fallbacks.  
-- Watch next: Systematic benchmarks across CPUs, power, and quantization levels; better tools to detect graph bugs and instruction‑set mismatches.
+
+- **View:** The impressive result is correctness on unsupported silicon, not throughput leadership.
+- **Impact:** Old enterprise servers become viable private batch workers when latency is secondary and hardware is sunk cost.
+- **Watch next:** Maintainer review, AVX1 regression tests, watt-meter measurements, first-token latency, and Q8 quality benchmarks.

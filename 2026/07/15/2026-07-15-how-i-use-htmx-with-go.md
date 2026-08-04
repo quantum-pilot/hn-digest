@@ -3,14 +3,17 @@
 - Score: 302 | [HN](https://news.ycombinator.com/item?id=48912175) | Link: https://www.alexedwards.net/blog/how-i-use-htmx-with-go
 
 ### TL;DR
-The article is a hands-on walkthrough of building a Go web app that uses HTMX for “HTML over the wire” interactivity. It standardizes on embedded templates (base/pages/partials), a reusable `htmlRenderer` to serve either full pages or partials, and helpers that detect `HX-Request` to choose the right response, set `Vary` correctly, and handle redirects and errors via HTMX headers. The author also shows careful HTMX config (history, caching, error swapping) and patterns for multiple layouts. HN discussion centers on stacks, team adoption, and HTMX’s limits vs SPAs.
+
+Alex Edwards presents a Go-first HTMX pattern for adding app-like interactions while retaining server-rendered, escaped HTML. Assets and templates are embedded in one binary; a renderer clones shared base/partial templates and executes either full pages or fragments. Handlers inspect `HX-Request`, set `Vary`, preserve history behavior, use `HX-Redirect` with non-HTMX fallbacks, and configure visible error swaps, timeouts, no local history cache, and explicit attributes. HN users praised deployment simplicity and reduced JavaScript, but debated `html/template` ergonomics, team acceptance, and HTMX’s limits once interfaces require interconnected client state.
 
 ### Comment pulse
-- Go + HTMX fans propose full stacks (e.g., GUS, GoTH) with templ/sqlc/sqlite/goose/etc. → strong tooling makes type-safe, binary-only deployments pleasant.  
-- Teams often resist HTMX and html/template’s quirks → skeptics prefer React/Blazor; others suggest templ/gsx or different template patterns to avoid cloning templates.  
-- HTMX praised for CRUD/admin apps, less so for complex shared-state UIs → some migrate to SvelteKit SPAs instead — counterpoint: HTMX philosophy questions needing that complexity.
+
+- Minimal-stack enthusiasm ran high → commenters paired Go and HTMX with SQLite, templ, sqlc, Hyperscript, or Alpine for type safety and local interactions.
+- Team fit can outweigh technical merit → unfamiliar request/HTML flows attracted blame and resistance — counterpoint: entrenched SPA stacks accumulate their own scaling costs.
+- HTMX suits server-shaped CRUD → larger shared-state interfaces became hard to coordinate — counterpoint: supporters question whether many applications genuinely need that client complexity.
 
 ### LLM perspective
-- View: HTMX + Go is an efficient “default” for small–medium apps needing interactivity without full SPA complexity.  
-- Impact: Shared helpers for templates, redirects, and HTMX headers can become reusable internal libraries, reducing mistakes and bikeshedding.  
-- Watch next: Higher-level Go frameworks that bake in these HTMX patterns, plus real-world comparisons vs React/Svelte on maintenance and bugs.
+
+- **View:** HTMX makes HTTP-delivered HTML fragments the composition unit; success depends on aligning product behavior with that model.
+- **Impact:** Backend teams can own more UI and ship one artifact, while browser-state complexity becomes an explicit architectural threshold.
+- **Watch next:** Cache/history edge cases, localization-friendly templates, accessibility, onboarding, and criteria for switching to client components.

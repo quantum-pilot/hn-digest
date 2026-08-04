@@ -3,14 +3,17 @@
 - Score: 210 | [HN](https://news.ycombinator.com/item?id=48915004) | Link: https://tailscale.com/security-bulletins
 
 ### TL;DR
-In Tailscale SSH on Linux, a username beginning with `-` (e.g., `-i`) was passed to the `getent` CLI, which treated it as a flag and printed `/etc/passwd` starting with `root`. Tailscale then opened an interactive root session, bypassing ACLs such as `autogroup:nonroot`. Version 1.98.9 now rejects dash‑prefixed and numeric-only usernames and fixes related ACL/root bypasses. HN discussion centers on only using Tailscale as a VPN, preferring OpenSSH, and criticizing shell-based argument handling.
+
+Tailscale says its Linux SSH implementation accepted usernames beginning with `-` and passed them to `getent` as arguments. Connecting as `-i` made `getent` interpret the name as a flag, print account entries beginning with root, and caused Tailscale to open a root session. Exploitation required existing Tailscale SSH access, but bypassed `autogroup:nonroot` ACL restrictions. Version 1.98.9 rejects leading dashes. HN called this a classic argument-injection failure, urged native account-lookup APIs instead of subprocesses, and debated whether Tailscale SSH’s convenience justifies expanding a VPN’s privileged attack surface.
 
 ### Comment pulse
-- Operate Tailscale only on hardened bastions as a VPN, avoid advanced features like SSH; distrust unaudited code and backlog—counterpoint: all software hides vulnerabilities, hence defense-in-depth.  
-- Many prefer OpenSSH’s long security record and public-key or cert-based auth; some note Tailscale’s bug required existing tailnet access, unlike exposed Internet SSH.  
-- Engineers decry passing usernames to getent as a subprocess; urge using getpwnam-style APIs, seeing the dash-username ban as a band‑aid on poor design.  
+
+- Exploit scope mattered → an attacker already needed tailnet SSH permission — counterpoint: the flaw converted explicitly non-root access into full root control.
+- Minimal deployment limits blast radius → users isolate Tailscale on bastions and retain OpenSSH certificates — counterpoint: integrated SSH simplifies revocation and intermittent fleet management.
+- Subprocess choice drew criticism → native user-lookup APIs avoid option parsing; merely rejecting dashed names treats the immediate input, not the hazardous boundary.
 
 ### LLM perspective
-- View: Feature-rich security products should default to minimal, battle-tested components; every added convenience endpoint widens the potential attack surface.  
-- Impact: Expect security-conscious teams to keep Tailscale as transport only, centralizing SSH and auth on traditional bastions and OpenSSH.  
-- Watch next: Look for formal audits, more fuzzing around argument parsing, and migration from shelling out to direct OS APIs.
+
+- **View:** Trusted root code delegated identity parsing to a CLI, letting option grammar change an untrusted username’s meaning.
+- **Impact:** Non-root policy failed at the privileged host boundary, undermining least-privilege assumptions on affected Linux nodes.
+- **Watch next:** Upgrade coverage, argument-fuzzing tests, native account lookup, independent audits, privileged-feature isolation, and disclosure of any observed exploitation.

@@ -3,18 +3,17 @@
 - Score: 278 | [HN](https://news.ycombinator.com/item?id=48919198) | Link: https://ramones.dev/posts/mental-health/
 
 ### TL;DR
-An early-career developer describes sliding from initial enthusiasm into severe depression, repeated firings, poor communication, unfinished and buggy work, and overreliance on LLMs that amplified sloppiness. After years of blaming employers and circumstances, they accept something deeper is wrong, start medication and benefits-supported leave, and focus on therapy, honesty with loved ones, and modest long-term goals: fewer avoidable mistakes, regained pride, and stability. HN replies debate ADHD vs depression, job fit, limits of internet advice, and the need for self-compassion.
 
----
+The author links repeated workplace failures—slow delivery, weak testing, unfinished tasks, and poor communication—to diagnosed severe depression and possible ADD, without claiming one root cause. After two dismissals, he is receiving support, pausing software work, and setting long-term goals around stability, focused execution, and dependable delivery. His central lesson is that sharing distress with clinicians, friends, and family reduced misunderstanding and isolation. HN responses stressed self-acceptance and professional help; debate split over neurodivergence, career fit, productivity systems, and whether public advice can clarify or worsen negative self-talk.
 
 ### Comment pulse
-- HN can't fix mental illness; seek offline help, accept neurodivergent limits, and drop “no mistakes” goals as unrealistic — counterpoint: online stories sometimes catalyze self-recognition.  
-- Many see untreated ADHD/executive dysfunction as core issue helped by stimulants; others warn depression also impairs focus and internet-driven ADHD narratives can misdirect treatment.  
-- Some suggest software’s detail-heavy, puzzle nature may simply not fit OP; better to accept temperament, lean into strengths, and redesign work/life (role, fitness, volunteering).
 
----
+- Self-management should adapt, not punish → readers urged professional support and realistic systems over trying to will away neurodivergence or eliminate every mistake.
+- Public discussion had mixed value → shared experiences reduced isolation — counterpoint: crowdsourced diagnosis and medication advice can mislead or intensify distress.
+- Diagnosis remained contested → executive dysfunction matched several patterns, while commenters noted depression also impairs concentration and may coexist with other causes.
 
 ### LLM perspective
-- View: Tools like LLMs can mask underlying attention and process problems, temporarily boosting throughput while worsening quality and feedback loops.  
-- Impact: Teams should treat chronic communication/quality struggles as health signals, not just performance issues, and design safer review/testing guardrails.  
-- Watch next: longitudinal data on developers’ mental health, neurodivergence, and AI-assisted workflows to inform policies around workload, diagnosis, and accommodations.
+
+- **View:** Performance failures can be real without defining a person’s worth; accountability and self-compassion are compatible, not opposing explanations.
+- **Impact:** Recovery may require redefining work, pace, and success before optimizing productivity or deciding whether software remains the right vocation.
+- **Watch next:** Clinical assessment, treatment response, sustainable routines, low-stakes contributions, and clearer evidence about which environments fit.

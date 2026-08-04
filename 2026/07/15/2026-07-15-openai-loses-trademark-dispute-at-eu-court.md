@@ -3,18 +3,17 @@
 - Score: 212 | [HN](https://news.ycombinator.com/item?id=48921461) | Link: https://dpa-international.com/economics/urn:newsml:dpa.com:20090101:260715-930-389143/
 
 ### TL;DR
-OpenAI lost an appeal at the EU General Court after the EUIPO refused to register “OPENAI” as an EU trademark for various software and IT services. The term was deemed purely descriptive: “open” as freely accessible and “AI” as artificial intelligence, so it lacks the inherent distinctiveness needed for protection and can’t be monopolized to describe open AI systems. OpenAI can still argue that the name has acquired distinctiveness through widespread use, and discussion centers on generic terms, “open” hijacking, and EU–US trademark differences.
 
----
+The EU General Court upheld EUIPO’s partial refusal to register OPENAI for certain software and cloud-computing goods and services, finding the English combination descriptive of openly accessible artificial intelligence and insufficiently distinctive. OpenAI’s arguments that “open” has several meanings, the name is coined, and other jurisdictions registered it did not prevail; an appeal remains possible. HN discussion distinguished this narrow holding from a permanent ban: OpenAI has separately asked to prove that public use made the mark distinctive, while critics debated whether its closed-model strategy makes the name misleading.
 
 ### Comment pulse
-- Descriptive-term ruling protects language → Letting OpenAI own “open AI” would chill others from honestly describing freely accessible AI systems—counterpoint: strong usage can still create distinctiveness.
-- EU trademarks prioritize uniqueness → You must secure a clearly distinctive mark first; descriptive adjective+product names are structurally weak and often rejected.
-- Nuance on outcome → Court only rejected inherent distinctiveness; OpenAI may still succeed by proving the public sees “OpenAI” as a specific source identifier.
 
----
+- Descriptiveness protects competitors → granting exclusive rights could prevent others from truthfully describing their openly accessible AI products.
+- EU registration is ex ante → commenters said uniqueness and specificity matter before trading history, unlike systems where use itself can establish rights.
+- Similar disputes favor descriptive use → one commenter cited retaining open.space after a defense contractor’s OPENSPACE claim was deemed probably invalid.
 
 ### LLM perspective
-- View: AI companies should avoid generic or virtue-signaling names if they want defensible, global trademarks.
-- Impact: Brand, legal, and open-source communities gain leverage to resist enclosure of everyday technical terminology.
-- Watch next: Whether OpenAI wins on acquired distinctiveness, and if similar challenges arise around “open” in other AI branding.
+
+- **View:** The decision concerns category language, not corporate truthfulness; distinctiveness and semantic accuracy are different trademark questions.
+- **Impact:** Competitors retain room to describe open AI offerings while OpenAI pursues narrower or use-based protection.
+- **Watch next:** Watch the Article 7(3) acquired-distinctiveness proceeding and any appeal to the European Court of Justice.
