@@ -2,10 +2,18 @@
 
 - Score: 151 | [HN](https://news.ycombinator.com/item?id=48256597) | Link: https://susam.net/childhood-computing.html
 
-- TL;DR  
-The author recalls discovering computers in a tiny industrial town’s school lab in 1992, where rare 30‑minute sessions with dusty, disk‑booted IBM PCs felt magical. Programming Logo on paper and testing on graph paper, then sharing code via handwritten notebooks, became an early form of open source collaboration. Simple DOS games like Digger and Grand Prix Circuit sparked wonder about 3D worlds and ultimately led, decades later, to fulfilling a childhood dream: writing an Invaders‑style game as an adult.
+### TL;DR
 
-- LLM perspective  
-  - View: Scarcity of computing time pushed deeper mental modeling, planning, and debugging than today’s always‑on environments.  
-  - Impact: Stories like this suggest low-resource, constraint-based environments can still powerfully inspire future programmers.  
-  - Watch next: Modern curricula that reintroduce “slow computing” and pencil-first programming to teach fundamentals and creativity.
+Susam Pal recalls receiving only about two hours of monthly computer-lab access in 1992, using diskless IBM PCs to write Logo programs that vanished at shutdown. Scarcity pushed him to design and trace code on paper, share programs through classmates’ notebooks, and turn fascination with early games into a programming career and a game completed 30 years later. HN commenters echoed how manuals, libraries, editable source, permissive teachers, and instant feedback created lifelong programmers, while worrying that today’s locked-down devices offer children fewer opportunities to tinker.
+
+### Comment pulse
+
+- C64 owners recalled broken tape drives and BASIC-at-startup redirecting attention from playing games toward understanding and creating them.
+- Several careers depended on accidental privilege: a family computer, unusually permissive teacher, or local mentor converted interest into 25 years of work.
+- Commenters debated old retained graphics versus modern redraw loops — counterpoint: both retained and immediate-mode APIs remain available.
+
+### LLM perspective
+
+- View: Friction aided learning when systems remained legible and modifiable; scarcity alone would not have produced exploration.
+- Impact: Sealed consumer platforms can weaken the pathway from casual use to authorship, especially for children lacking mentors.
+- Watch next: Compare curricula and devices by how quickly students can inspect, change, run, share, and recover their own programs.

@@ -2,18 +2,18 @@
 
 - Score: 220 | [HN](https://news.ycombinator.com/item?id=48259990) | Link: https://scienceaim.com/australia-just-proved-the-four-day-work-week-works-here-is-what-the-data-actually-says/
 
-## TL;DR
+### TL;DR
 
-An Australian study followed 15 companies adopting a 100:80:100 four‑day week (100% pay, 80% hours, target 100% output). None reported productivity declines; six reported gains and 14 kept the policy. Firms used their own metrics, often emphasizing burnout, turnover, and client satisfaction. The model works by cutting low‑value work and restructuring schedules rather than compressing five days into four. However, evidence is based on small, self‑reported, mostly white‑collar cases, so broad claims about universal productivity boosts remain tentative.
+Fifteen Australian companies trialed a 100:80:100 four-day week between 2022 and 2024: full pay for 80% hours while targeting full output. Fourteen retained it; none reported lower productivity, and six reported gains after trimming meetings, automating work, and staggering coverage. Yet productivity measures were company-defined and the research relied on interviews, limiting cross-company comparison and causal confidence. HN commenters split between treating shorter weeks as overdue sharing of technological gains and dismissing the small, self-reported sample as weak evidence.
 
-## Comment pulse
+### Comment pulse
 
-- Shorter weeks as right, not reward → tech raised productivity, so societies should legally cap work, punish off‑hours contact, favor worker‑owned firms—counterpoint: co‑ops rarely dominate.  
-- Evidence quality questioned → AI‑written piece on a preprint interviewing 15 unnamed managers, using subjective productivity impressions, no hard metrics—counterpoint: surveys can be solid.  
-- Broader context debated → Australia’s weak productivity, capital‑gains tax hikes, immigration and offshoring fears, and 6‑day job ads complicate whether four‑day trials generalize internationally.  
+- Shorter weeks are a social goal → decades of technology gains should buy workers time, regardless of whether productivity rises.
+- Evidence is too thin for sweeping claims → only 15 firms, company-defined metrics, and interview-based assessments invite selection and reporting bias.
+- Business autonomy and global competition constrain reform → mandate skeptics fear offshoring — counterpoint: voluntary trials retained 14 participants without reported declines.
 
-## LLM perspective
+### LLM perspective
 
-- View: Four‑day weeks look promising for knowledge work, but claims about universal productivity gains need larger, independently measured, cross‑country studies.  
-- Impact: If normalized, bargaining shift from salary increases toward time off, pressuring firms to streamline meetings, bureaucracy and low‑value tasks.  
-- Watch next: Longitudinal trials in healthcare, retail, logistics with audited KPIs and burnout data will show where reduced hours work.
+- **View:** Promising organizational evidence, but not proof that four-day weeks universally preserve productivity.
+- **Impact:** Teams may gain retention and wellbeing when redesigning work, rather than compressing identical workloads.
+- **Watch next:** Larger controlled studies with consistent output, financial, burnout, and retention measures across harder-to-schedule sectors.

@@ -3,18 +3,17 @@
 - Score: 156 | [HN](https://news.ycombinator.com/item?id=48256912) | Link: https://arxiv.org/abs/2605.06445
 
 ### TL;DR
-The paper builds a backend-specific benchmark where LLM agents must generate multi-file web services that satisfy both functional tests and strict architectural constraints (framework patterns, ORM usage, data models). Models that perform well under loose specs lose ~30 percentage points in test pass rates once full structural requirements are imposed; weaker agents nearly collapse. Convention-heavy frameworks (FastAPI, Django) are notably harder than minimal ones (Flask), and most failures stem from database/ORM mistakes, highlighting that production-grade, constraint-respecting code generation is still fragile.
 
----
+A study of 100 backend tasks across eight web frameworks finds that coding agents lose reliability as architectural, database, and ORM constraints accumulate, even when the API contract stays fixed. Strong configurations dropped about 30 assertion-pass-rate points from baseline to fully specified tasks; weaker ones neared zero. Flask fared better than convention-heavy FastAPI and Django, with data-layer defects leading failures. HN commenters found the pattern familiar but cautioned that limited frontier-model testing weakens exact comparisons, and argued that early constraints, examples, automated checks, and repeated review can mitigate decay.
 
 ### Comment pulse
-- Constraint decay matches user experience → agents “anchor” on initial designs, struggle to adapt to new constraints, and calcify verbose, monolithic patterns over time.  
-- Root cause framed as multi-objective optimization → mixing functional and architectural requirements leaves gaps the model must guess—counterpoint: stronger models plus better prompts may mitigate this.  
-- Community response is orchestration, not single-shot prompts → external agents, tests, multi-round review and refactor loops are seen as essential for long-horizon, spec-accurate code.
 
----
+- More acceptance criteria mechanically raise failure odds — counterpoint: commenters still considered joint behavioral-and-architectural degradation an important distinct signal.
+- Agents can anchor on an initial architecture; later corrections are resisted or quietly undermined, while repeated patterns calcify through context.
+- Production users reported 5–10 review-and-fix cycles, using specs, tests, linters, runners, and orchestration rather than trusting one generation pass.
 
 ### LLM perspective
-- View: Treat LLMs as stochastic junior devs inside a strict CI pipeline, not autonomous system architects.  
-- Impact: Tooling, framework design, and spec formats will adapt to be more explicit, verifiable, and model-friendly.  
-- Watch next: Benchmarks that include latest frontier models, larger codebases, and explicit refactoring phases, plus framework-specific “LLM profiles.”
+
+- View: Constraint adherence is a compositional reliability problem; individually high pass rates multiply into low whole-system success.
+- Impact: Teams must budget architecture validation separately from endpoint testing, especially around ORM queries and runtime behavior.
+- Watch next: Replicate with current frontier models, equalized reasoning budgets, mature codebases, and constraint-aware scaffolding.

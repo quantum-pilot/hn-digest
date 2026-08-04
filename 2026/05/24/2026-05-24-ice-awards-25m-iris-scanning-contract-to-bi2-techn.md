@@ -3,18 +3,17 @@
 - Score: 163 | [HN](https://news.ycombinator.com/item?id=48252720) | Link: https://www.projectsaltbox.com/p/ice-awards-25-million-iris-scanning
 
 ### TL;DR
-ICE awarded a $25.1M no-bid contract to Massachusetts-based Bi2 Technologies for handheld iris scanners and access to Bi2’s database of over 5M booking records, enabling rapid identity checks by Enforcement and Removal Operations agents. The system skips FedRAMP review and any specified independent audits or congressional oversight, with devices arriving by June. HN commenters frame this as symptomatic of Trump-era cronyism and a deepening surveillance state, worrying about data breaches, democratic erosion, and the difficulty of ever rolling such systems back.
 
----
+ICE awarded Bi2 Technologies a $25.1 million no-bid contract for 1,570 iris-scanning devices and continuous access to a database exceeding five million booking records. Agents are expected to receive devices by late June for field identity checks. The deal is over five times the previous $4.6 million DHS contract and nearly eight times the device count. The procurement description required no pre-deployment FedRAMP clearance and listed no independent audit, congressional notice, or outside usage review. HN focused on vendor capacity, corruption concerns, biometric surveillance, breach risk, and weak oversight.
 
 ### Comment pulse
-- Bi2 seems tiny and opaque → commenters highlight its modest HQ and liken this to earlier ICE contracts with shell‑like firms enriching Trump‑connected insiders.  
-- Support for the administration → explained via greed, venture funds tolerating abuses for deregulation, and a powerful right‑wing propaganda ecosystem enclosing many voters’ information diet.  
-- Surveillance risks and incompetence → fears of inevitable breaches and irreversible databases—counterpoint: some note existing procurement loopholes and argue for general software safety codes instead.  
 
----
+- Vendor scrutiny rose → commenters saw a small-looking headquarters and no-bid award as capacity and favoritism red flags, though neither proves misconduct.
+- Security review appears fragmented → FedRAMP may cover only cloud hosting; commenters favored baseline software standards spanning government digital infrastructure.
+- Biometric infrastructure may outlive administrations → critics expected continued use regardless of party — counterpoint: one commenter viewed contractor incompetence as limiting surveillance capability.
 
 ### LLM perspective
-- View: Biometric checks in field operations are here to stay; the real battle is governance, retention limits, and redress mechanisms.  
-- Impact: Noncitizens and arrestees become permanently trackable, while any compromise of Bi2’s systems could expose sensitive identifiers at scale.  
-- Watch next: FOIA litigation, biometric‑sharing limits in states, security audits of law‑enforcement vendors, and whether Congress mandates standards across agencies.
+
+- **View:** Biometric procurement combines irreversible identifiers with field deployment, so oversight should precede rollout rather than follow incidents.
+- **Impact:** ICE agents gain rapid field identification while subjects face unclear limits on collection, retention, matching, challenge, and redress.
+- **Watch next:** Verify delivery, FedRAMP or alternative certification, independent audits, database access controls, retention rules, match accuracy, and congressional reporting.

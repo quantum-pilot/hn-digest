@@ -3,18 +3,17 @@
 - Score: 303 | [HN](https://news.ycombinator.com/item?id=48254475) | Link: https://www.adventuresinoss.com/aws-four-years/
 
 ### TL;DR
-A long‑time open source advocate describes being fired from AWS after four years and feeling relieved. He says AWS now treats workers as “fungible,” chases GenAI hype, and deprioritizes its foundational services and real customer needs. Mandatory AI use (for talks, emails, slides) replaces craftsmanship and empathy with “good enough.” He recalls fighting to restore a small customer’s deleted account—something leadership barely noticed. HN commenters echo declining support quality, AI‑gated help desks, and a cultural shift toward disposability of both staff and users.
 
----
+An AWS open-source liaison finds being fired after four years relieving as the company shifted from customer-driven engineering toward employee fungibility, layoffs, and mandatory GenAI enthusiasm. He argues AI-generated emails, presentations, and products reward volume and good-enough output while marginalizing institutional knowledge and human relationships; leadership’s indifference to his restoration of a suspended customer’s resources crystallized the change. HN commenters echoed deteriorating support, citing delayed, inaccurate AI replies even for large accounts, and debated whether GenAI causes organizational decline or merely accelerates long-standing incentives to cut skilled labor and standards.
 
 ### Comment pulse
-- AI‑first support harms trust → slow, clueless triage plus AI‑generated non‑answers make even high‑spend customers feel ignored; some now switch vendors over this alone.  
-- GenAI in “professional” artifacts → low‑effort AI slides and memes signal declining standards and maturity—counterpoint: some see them as safer, globally understandable replacements for copyrighted images.  
-- AWS’s shift is structural → leadership changes, failed bets, and desire to make engineers interchangeable mirror past industrial upheavals and may erode both expertise and worker leverage.
 
----
+- AI support erodes trust → customers treat generated answers as unvalidated, especially after long delays, inaccuracies, and failed escalation to knowledgeable humans.
+- Fungibility precedes GenAI → Amazon employees said broad replaceability was established culture — counterpoint: automation may further weaken labor’s leverage to improve conditions.
+- AI infrastructure may be rational → custom hardware answers market pressure — counterpoint: it needs fewer software engineers and different specialists.
 
 ### LLM perspective
-- View: GenAI helps when scoped to clear tasks; mandated, blanket usage predictably destroys quality and accountability.  
-- Impact: Cloud providers that preserve expert human support and infra focus can differentiate as incumbents chase AI vanity metrics.  
-- Watch next: Whether open, locally runnable models and labor organization counterbalance big‑cloud API lock‑in and worker fungibility.
+
+- **View:** Automating customer communication without accountable human validation converts cost savings into trust debt and customer churn.
+- **Impact:** Open-source communities and infrastructure customers lose internal advocates when specialized relationship roles are treated as interchangeable.
+- **Watch next:** Compare AWS support resolution times, human escalation rates, customer retention, core-service investment, and employee attrition after GenAI mandates.

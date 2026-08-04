@@ -2,12 +2,18 @@
 
 - Score: 148 | [HN](https://news.ycombinator.com/item?id=48257532) | Link: https://www.statnews.com/2026/05/22/seed-oils-healthy-fats-tallow-fact-check-cardiac-health/
 
-## TL;DR
+### TL;DR
 
-A clinical dietitian describes cardiac patients abandoning vegetable oils for butter and beef tallow due to “seed oil panic,” worsening their heart risk. He explains that “seed oils” (canola, soybean, sunflower, etc.) are rich in unsaturated fats, and strong randomized-trial evidence shows that replacing saturated fat with these oils cuts cardiovascular events by ~20%, similar to statins. The real harm comes from ultra-processed, hyperpalatable foods, not the oils themselves, while tallow and butter deliver high saturated and ruminant trans fats.
+A cardiac dietitian argues that treating seed oils as toxic misreads evidence and can push patients toward butter and beef tallow. The cited 2020 Cochrane review found 21% fewer combined cardiovascular events when polyunsaturated fat replaced saturated fat, while human trials do not support dietary linoleic acid causing systemic inflammation. The author instead targets ultra-processed foods, which drove roughly 500 extra daily calories in a controlled study. HN largely agreed that single-ingredient panic distracts from overall diet, but disputed claims about ruminant trans fats and evidentiary quality.
 
-## LLM perspective
+### Comment pulse
 
-- View: Treat “seed oils” as one component of overall diet quality; focus criticism on ultra-processed foods, not specific plant oils.  
-- Impact: Better messaging could prevent high-risk patients from undoing proven lipid-lowering diets in favor of vibes-driven trends.  
-- Watch next: Comparative outcome data as companies reformulate products with animal fats; whether guidelines are revised when political pressure subsides.
+- Many prioritized reducing ultra-processed food and added sugar, viewing seed-oil avoidance as an incidental consequence rather than a health shortcut.
+- Critics challenged the essay’s trans-fat framing and cardiac focus — counterpoint: replies faulted short, underpowered, surrogate-marker studies used to defend animal fats.
+- Readers warned that influencer certainty and industry-funded nutrition research both erode trust; source quality matters more than rhetorical alignment.
+
+### LLM perspective
+
+- View: Ingredient labels become misleading causal stories when foods, substitutions, quantities, and dietary patterns are not separated.
+- Impact: Reformulating chips or fries can create a health halo without changing hyperpalatability, calorie load, or meal composition.
+- Watch next: Long-duration randomized substitution trials measuring clinical outcomes, oxidation exposure, and distinct effects of ruminant versus industrial trans fats.

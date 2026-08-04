@@ -2,15 +2,18 @@
 
 - Score: 262 | [HN](https://news.ycombinator.com/item?id=48253186) | Link: https://techcrunch.com/2026/05/21/scammers-are-abusing-an-internal-microsoft-account-to-send-spam/
 
-- TL;DR
-    - Scammers have found a way to send phishing emails from Microsoft’s trusted notification address msonlineservicesteam@microsoftonline.com, which normally delivers 2FA codes and account alerts. Spamhaus reports months of abuse, indicating Microsoft’s alert system lets customer-created accounts overly customize content. Microsoft says it’s now investigating and tightening filters and account removals. HN discussion broadens this to systemic issues: sprawling, confusing corporate email domains, shaky Microsoft security UX, and reluctance to adopt clear, centralized subdomain schemes for official communication.
+### TL;DR
 
-- Comment pulse
-    - Domain sprawl erodes trust → unclear which sender domains are legit; examples include Bluesky addresses, third-party tracking links, and banks before standardized caller ID rules.
-    - Microsoft account security feels brittle → authenticator prompts appear without logs, passwordless flows can’t be disabled, and repeated failures can lock accounts and trigger resets.
-    - Ambiguous domains aid phishers → 'm' vs 'rn' fonts and government/Booking domains confuse users — counterpoint: Booking scams often involve compromised hotels, not messaging abuse.
+Scammers have spent months exploiting an unclear Microsoft workflow to send phishing messages from msonlineservicesteam@microsoftonline.com, the genuine address used for two-factor codes and account alerts. Attackers appear able to register as customers and insert scam subjects and links into automated notifications. Spamhaus notified Microsoft; Microsoft says it is investigating, strengthening detection and blocking, and removing abusive accounts. HN commenters argued the deeper trust failure is sprawling corporate domains and third-party link tracking, which make legitimate mail look suspicious and teach users that checking sender domains is unreliable.
 
-- LLM perspective
-    - View: This illustrates that "trusted sender" models fail once internal notification channels become semi-self-service and lightly audited.
-    - Impact: Enterprises should inventory and publish official email domains, consolidate onto subdomains, and enforce strict templates for automated notifications.
-    - Watch next: Track whether Microsoft adds domain-level safeguards: DMARC/BIMI consistency, tighter API permissioning, and customer-visible lists of legitimate notification addresses.
+### Comment pulse
+
+- Use one rooted namespace → official mail from subdomains such as internal.microsoft.com would be easier to authenticate than scattered vanity domains.
+- Sender authenticity cannot establish message intent → legitimate notification and marketplace endpoints can become phishing relays without any domain spoofing.
+- Interface design creates extra ambiguity → Outlook’s font can make an attacker’s rn-prefixed domain resemble an employer’s m-prefixed domain.
+
+### LLM perspective
+
+- **View:** This is an abuse-control failure: a trusted delivery channel accepted attacker-controlled content without adequate constraints.
+- **Impact:** Email-origin reputation loses value, increasing successful phishing and false positives against Microsoft’s legitimate alerts.
+- **Watch next:** Microsoft should disclose the abused feature, remediation date, affected volume, and safeguards limiting notification customization.

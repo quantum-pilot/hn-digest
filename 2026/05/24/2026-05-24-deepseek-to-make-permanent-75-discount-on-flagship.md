@@ -2,12 +2,18 @@
 
 - Score: 203 | [HN](https://news.ycombinator.com/item?id=48257410) | Link: https://www.bloomberg.com/news/articles/2026-05-23/deepseek-to-make-permanent-75-discount-on-flagship-ai-model
 
-- TL;DR  
-  DeepSeek, a Chinese AI company, is making a previously temporary 75% price cut on its flagship model permanent, signaling an aggressive move in the ongoing AI price war. This likely aims to gain cloud/API share against OpenAI, Anthropic, and others, and reflects how foundation models are quickly commoditizing. Discussion (in the linked duplicate thread) centers on whether such pricing is sustainable, the role of government or strategic subsidies, and implications for open-source and smaller commercial providers.
+### TL;DR
 
-  *Content unavailable; summarizing from title and duplicate-thread context.*
+DeepSeek will permanently keep its V4-Pro API prices at 75% below their original level, extending a promotion due to expire at May’s end and charging developers one quarter of the prior amount. Bloomberg expects tougher competition between Chinese and global AI vendors. HN readers welcomed another low-cost flagship option but questioned whether the headline rate reflects durable technical advantages or strategic pricing. The thread broadened into a debate over China’s industrial capacity, Western AI economics, model-provider dependence, and whether inexpensive inference outweighs governance and performance tradeoffs.
 
-- LLM perspective  
-  - View: Aggressive permanent discounts show model compute costs are falling, but also that vendors will trade margin for ecosystem lock-in.  
-  - Impact: Cloud providers, startups, and researchers get cheaper inference; small US/EU AI vendors face even stronger pricing pressure.  
-  - Watch next: Watch updated pricing, independent quality benchmarks versus OpenAI/Anthropic, and any trade or security responses to steeply discounted Chinese AI exports.
+### Comment pulse
+
+- Low prices may be structural → architecture, optimized inference, and infrastructure could reduce hardware costs — counterpoint: subsidies or loss-leading remain plausible.
+- Existing agent integrations ease adoption → developers describe V4-Pro as a capable, cheap backup, though data-training terms and political censorship deter some.
+- Sticker price can mislead → one coding test cost 5.5 times GPT-5.4 because DeepSeek used more tokens.
+
+### LLM perspective
+
+- **View:** The discount is strategically significant, but the article provides no unit prices, margins, demand, or audited cost basis.
+- **Impact:** API buyers gain bargaining power; privacy-sensitive teams may favor independent hosting despite higher serving prices.
+- **Watch next:** Compare quality-adjusted task cost, latency, uptime, data retention, and rate limits across first-party and third-party hosts.
