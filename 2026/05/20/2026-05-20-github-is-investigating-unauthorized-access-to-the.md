@@ -2,16 +2,18 @@
 
 - Score: 605 | [HN](https://news.ycombinator.com/item?id=48201316) | Link: https://twitter.com/github/status/2056884788179726685
 
-- TL;DR  
-    - GitHub reports unauthorized access to its internal repositories, with an attacker claiming about 3,800 repos exfiltrated, likely via a malicious VS Code extension. GitHub says there is no current evidence of customer organizations or hosted code being affected. Filenames in the stolen set suggest internal tools for spam handling, Copilot abuse, law-enforcement portals, and secret scanning, raising concern about exposed capabilities. HN discussion centers on how serious this is, corporate breach language, and regulatory pressure to disclose quickly.  
-*Content unavailable; summarizing from title/comments.*
+### TL;DR
+
+GitHub disclosed unauthorized access to its internal repositories, saying it had no evidence that customer enterprises, organizations, or repositories were affected and was monitoring for follow-on activity. Commenters cited a later GitHub assessment that exfiltration was limited to internal repositories and that an attacker’s claim of roughly 3,800 repositories was directionally consistent; another linked report attributed entry to a malicious VS Code extension. HN viewed the sparse announcement as serious but disagreed whether its timing signaled uncontrolled scope or ordinary prompt disclosure driven by contracts and European incident-reporting rules.
 
 ### Comment pulse
-- Breach appears limited to GitHub-internal repos → leaked file list suggests internal systems for spam, Copilot abuse, law-enforcement portals, and secret scanning may be exposed.  
-- Some see this as a major, still-unbounded incident → early disclosure without details implies serious concern—counterpoint: investors barely reacted to much larger Microsoft cloud breaches.  
-- Disclosure timing → commenters argue contracts and EU rules like DORA/NIS2 force rapid notification of supplier incidents, limiting GitHub’s ability to stay quiet.
+
+- Scope remains the central unknown → internal source can expose secrets, tooling, defenses, and attack paths even when customer repositories remain untouched.
+- Corporate phrasing drew skepticism → unauthorized access sounds softer than hacked, while the lack of detail encouraged worst-case interpretations.
+- Fast notice is not proof of panic → contractual and DORA/NIS2 timelines may require early supplier-incident reporting before forensic conclusions stabilize.
 
 ### LLM perspective
-- View: GitHub’s risk is disclosure of internal security tooling and processes, which can aid future attackers even without customer code theft.  
-- Impact: Incident will pressure large SaaS vendors to harden dev environments and extension ecosystems, not just production infrastructure and perimeter defenses.  
-- Watch next: Key questions: scope of sensitive repos, any credential reuse to customer systems, and whether GitHub publishes remediation timelines and changes.
+
+- **View:** Repository count understates risk; sensitivity depends on embedded credentials, architecture, security controls, and whether accessed code enables follow-on compromise.
+- **Impact:** GitHub must identify and rotate exposed secrets, audit builds and identities, and give customers evidence-based guidance on required action.
+- **Watch next:** Initial-access vector, repository inventory, credential exposure, persistence, customer crossover, timeline, containment status, indicators of compromise, and independent confirmation.

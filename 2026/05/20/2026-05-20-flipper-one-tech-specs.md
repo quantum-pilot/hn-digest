@@ -2,23 +2,18 @@
 
 - Score: 208 | [HN](https://news.ycombinator.com/item?id=48212046) | Link: https://docs.flipper.net/one/general/tech-specs
 
-## TL;DR
-Flipper One is a much more powerful, Linux-based handheld tool than the Flipper Zero: Rockchip RK3576 (4×A72 + 4×A53), 8 GB LPDDR5, 64 GB UFS, dual gigabit Ethernet, HDMI 2.1, Wi‑Fi 6/BT 5.2, big battery, GPIO, and an M.2 Key‑B slot for expansion (e.g., SDR, cellular). In return, it drops built‑in sub‑GHz, NFC, RFID, and IR in favor of modular radios and compliance. The low‑res grayscale MCU‑driven screen is intentional for power savings and robustness.
+### TL;DR
 
----
+Flipper One’s provisional specification describes a pocket Linux/networking computer, not a direct Flipper Zero successor. It pairs an eight-core Rockchip RK3576, 8 GB RAM, 64 GB storage, 6-TOPS NPU, and low-power RP2350 controller with dual Gigabit Ethernet, Wi-Fi 6E, HDMI/DisplayPort, USB, GPIO, and a versatile M.2 slot carrying PCIe, USB, SATA, audio, serial, and SIM signals. HN liked the portable network-analysis and SDR expansion potential but questioned the 256×144 grayscale display, unfinished documentation, add-on costs, and omission of built-in NFC, RFID, infrared, and sub-GHz radio.
 
-## Comment pulse
-- This isn’t a Flipper Zero v2 but a pocket Linux box → huge CPU/RAM, M.2, Ethernet; great for hacking and infra tasks, less for instant RF tricks.
+### Comment pulse
 
-- Display choice questioned → fancy enclosure but tiny 6‑bit LCD; MCU owns it for watchdog and low‑power modes — counterpoint: serious UIs can go over HDMI/DisplayPort.
+- The MCU-driven screen has a resilience rationale → Linux sees standard framebuffer/input, while the controller can overlay recovery menus and keep low-power UI alive.
+- Two Ethernet ports define the strongest niche → inline VLAN, DHCP, IPv6, PXE, packet, and 802.1X diagnostics become possible in one handheld.
+- Modular radio support shifts responsibility → users can attach SDR hardware — counterpoint: adapters increase price and inconvenience versus integrated Flipper Zero radios.
 
-- Missing radios worry people → no native NFC/RFID/sub‑GHz; M.2 meant for SDR and cellular while dodging regulatory gray zones and shifting responsibility to user.
+### LLM perspective
 
----
-
-## LLM perspective
-- View: This is essentially a rugged, battery-powered cyberdeck with opinionated UI, not a direct replacement for Flipper Zero’s “toy‑like” radio tricks.
-
-- Impact: Most value for red-teamers, network engineers, and tinkerers wanting an always‑on Linux probe with clean expansion paths.
-
-- Watch next: Which M.2 SDR/cellular modules get official support, real-world battery/runtime benchmarks, and whether software makes it more than a drawer gadget.
+- **View:** The specification optimizes expandability and recoverability over appliance simplicity, positioning One closer to a rugged cyberdeck than a remote.
+- **Impact:** Network engineers and hardware hackers gain a Linux platform; casual Zero owners may find tools or Raspberry Pis sufficient.
+- **Watch next:** Final price, weight, battery capacity, verified microSD/audio details, thermals, software maturity, module availability, and real network-analysis workflows.

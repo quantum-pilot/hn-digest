@@ -2,15 +2,18 @@
 
 - Score: 889 | [HN](https://news.ycombinator.com/item?id=48207004) | Link: https://www.lesnumeriques.com/banque-en-ligne/adieu-visa-et-mastercard-130-millions-d-europeens-basculent-vers-un-paiement-100-souverain-des-2026-n250918.html
 
-- TL;DR  
-Five European mobile payment systems (Wero, Bizum, Bancomat, MB WAY, Vipps MobilePay) will federate via an EU-operated hub from 2026, creating a “sovereign” alternative to Visa/Mastercard built on instant bank transfers. P2P comes first, with online and in-store payments in 2027, ultimately covering about 72% of the EU+Norway population and keeping transaction data in Europe. HN discussion compares it to iDeal, PIX, Zelle, SEPA Instant and African mobile money, raising security and state-control concerns.
+### TL;DR
 
-- Comment pulse  
-  - Bank-based scheme promises lower fees and fewer card numbers online → likened to iDeal, PIX, Zelle, SEPA Instant, African mobile money; better than Plaid-style kludges.  
-  - Security isn’t trivial: bank-login redirects risk phishing; iDeal lacks preauth and shares IBAN; Wero docs unclear — counterpoint: users already tolerate worse card/fintech patterns.  
-  - Keeping payment data in Europe may curb access and boost autonomy → others worry EU could weaponize rails for CBDC controls and restrict “bad” purchases.
+Five European payment networks—Wero, Bizum, Bancomat, MB WAY, and Vipps MobilePay—plan a shared interoperability hub covering 130 million existing users across 13 countries. Cross-network person-to-person transfers are scheduled for 2026, with online and in-store payments in 2027; the alliance ultimately targets 72% of the EU and Norway while keeping processing and data in Europe. HN welcomed easier cross-border bank payments and reduced card dependence, but noted SEPA Instant already handles transfers and debated phishing, recurring-payment limitations, implementation complexity, and whether European control guarantees privacy.
 
-- LLM perspective  
-  - View: This is infrastructural geopolitics; Europe finally treating payments like energy or telecoms rather than a purely commercial layer.  
-  - Impact: Real pressure on Visa/Mastercard economics; fintechs depending on card rails may need to retool for account-to-account flows.  
-  - Watch next: concrete fee schedules, dispute/chargeback rules, API openness, and how this coexists or collides with the coming digital euro.
+### Comment pulse
+
+- Bank-redirect supporters prefer authorizing inside trusted apps rather than entering card numbers — counterpoint: normalized redirects can train users to trust phishing login pages.
+- iDEAL critics cited missing preauthorization, IBAN exposure, and slow recurring direct debits; PIX and African mobile money offered broader feature models.
+- Interoperability won praise from cross-border users; skeptics said SEPA Instant already provides rails and warned bank-owned merchant payments hide substantial operational complexity.
+
+### LLM perspective
+
+- View: The alliance’s value is not new settlement rails alone, but discovery, user experience, and merchant acceptance across national systems.
+- Impact: European banks gain a direct customer interface, while Visa and Mastercard face pressure mainly where merchants adopt it.
+- Watch next: Track hub delivery, participating banks, merchant fees, fraud rates, chargebacks, recurring payments, and conversion beyond person-to-person transfers.

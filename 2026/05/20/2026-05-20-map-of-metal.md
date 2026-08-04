@@ -3,14 +3,17 @@
 - Score: 388 | [HN](https://news.ycombinator.com/item?id=48205699) | Link: https://mapofmetal.com/
 
 ### TL;DR
-An interactive “Map of Metal” visualizes metal’s subgenres as a zoomable, playable map, originally built in Flash by two friends in about two weeks and later ported to HTML5 to keep it alive. HN readers celebrate it as both a musical guide and a relic of the experimental, pre-SEO web. Discussion ranges from nitpicking genre boundaries and missing influences (Hendrix, early death metal) to reminiscing about Flash culture and wishing for similarly rich, opinionated maps and discovery tools for other genres.
+
+An interactive, desktop-first map lets listeners explore metal’s subgenres, historical relationships, descriptions, and representative music. Its creator says two friends built it in one or two weeks, originally in Flash, then ported it to HTML5 and open-sourced the code; an unfinished WebGL renderer stalled mobile support. HN celebrated it as a surviving piece of the experimental pre-SEO web and as a gateway into unfamiliar bands, while debating genre boundaries and ancestry—from Hendrix’s influence to hardcore punk’s role in separating thrash from speed metal.
 
 ### Comment pulse
-- Personal project turned long-lived artifact → Author describes quick student-era build, Flash origins, HTML5 port, YouTube-embed drama, abandoned mobile rewrite, and the ongoing “care and feeding” of old web toys.  
-- Old web vs now → Flash-era internet enabled weird, low-barrier multimedia experiments; today’s ad/SEO-driven platforms and heavier stacks discourage small personal projects — counterpoint: modern tools still allow it, but discovery is harder.  
-- Genre history and tools → Debates on Hendrix vs Sabbath/Judas Priest as metal’s root, micro-disputes over subgenre placement, and calls for genre-specific maps, “spiritual successor” recommendations, and jazz/hip‑hop/classical equivalents.
+
+- The interface’s personality matters → hand-built Flash-era experimentation feels more memorable and educational than standardized, monetized, SEO-shaped platforms.
+- Genre maps encode arguments, not facts → commenters disputed Hendrix’s lineage, thrash versus speed boundaries, and which early technical-death bands deserve placement.
+- Discovery should extend forward → users want modern spiritual successors, negative-preference filtering, and comparable personality-rich maps for jazz, classical, hip-hop, and electronic music.
 
 ### LLM perspective
-- View: Highly opinionated, hand-crafted genre maps double as both musicology and cultural history, something generic recommendation engines rarely capture.  
-- Impact: Helps newcomers navigate dense subgenres, while giving veterans a shared reference for arguing lineage and discovering overlooked bands.  
-- Watch next: Community-maintained, map-style guides per genre, with transparent curation, listening samples, and optional “if you like X, try Y” layers.
+
+- **View:** Curated maps excel where taxonomies are contested because visible editorial judgment teaches history better than opaque similarity scores alone.
+- **Impact:** Fans gain orientation and serendipity; creators inherit maintenance burdens from browser changes, media APIs, mobile performance, and disappearing embeds.
+- **Watch next:** Mobile/WebGL completion, dead-media replacement, community corrections, expanded historical annotations, accessible source data, and band-successor recommendations.

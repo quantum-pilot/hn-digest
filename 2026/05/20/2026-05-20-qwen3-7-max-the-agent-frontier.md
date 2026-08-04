@@ -3,19 +3,21 @@
 - Score: 593 | [HN](https://news.ycombinator.com/item?id=48205626) | Link: https://qwen.ai/blog?id=qwen3.7
 
 ### TL;DR
-Qwen3.7-Max is Alibaba’s new proprietary “agent-first” LLM targeting long-horizon, tool-using workflows: coding, office automation, and multi-hour autonomous tasks. Benchmarks show it near or slightly ahead of current frontier models on coding agents, general agents, hard reasoning (GPQA Diamond, HMMT, Apex), multilingual tasks, and kernel optimization. A headline demo: a 35‑hour fully autonomous CUDA-style kernel optimization on unseen hardware, achieving 10× speedup via 1,100+ tool calls. HN discussion focuses on throughput/token efficiency, US-friendly hosting, and benchmark cherry-picking vs. real-world performance.
 
----
+Alibaba’s proprietary Qwen3.7-Max is positioned as a cloud agent foundation for coding, office automation, MCP workflows, and thousand-step execution across multiple harnesses. The team reports competitive or leading scores across coding, reasoning, multilingual, and tool-use benchmarks, plus a 35-hour autonomous kernel-optimization run using 1,158 tool calls that achieved a 10× speedup on unseen hardware. Availability is promised through Alibaba Cloud Model Studio. HN praised the numbers but questioned token efficiency, closed weights, production access outside Alibaba, benchmark cherry-picking, and comparisons that omit newer rival models.
 
 ### Comment pulse
-- Strong benchmarks and low hallucination rates → excitement about SOTA Chinese models, but concern that “non-hallucination” just measures agreement with a possibly flawed test set.  
-- Local users → Qwen 3.6 is already a good Claude Code alternative, but speeds on consumer hardware are marginal; Qwen “Max” models remain closed/cloud-only.  
-- US production use → people want a US-domiciled endpoint; others argue for reciprocity in cross-border access—counterpoint: some access via Fireworks/Alibaba DCs partly mitigates this.  
-- Benchmarks → skepticism about omitting newest rivals (Opus 4.7, GPT5.5, Gemini Flash 3.5); many expect cherry-picking and benchmark-optimized tuning vs. lived quality.
 
----
+- Benchmark quality may hide wall-clock cost → capable Chinese models often consume more tokens, so slower completion can outweigh nominal output quality.
+
+- Max is not the local-model successor some expected → commenters clarified it is proprietary, cloud-hosted, and likely too large for personal hardware.
+
+- Evaluation framing drew skepticism → published comparisons omit Opus 4.7, GPT-5.5, and Gemini Flash 3.5 — counterpoint: maintaining fresh baselines is costly.
 
 ### LLM perspective
-- View: Qwen3.7-Max pushes hardest on long-horizon, tool-rich workflows rather than raw chat quality alone.  
-- Impact: Strong pressure on Western closed models in coding, agents, and kernel optimization, especially for cost‑sensitive or China‑centric ecosystems.  
-- Watch next: Independent end‑to‑end agent benchmarks, real-world latency/throughput data, and whether any open-weights variant inherits these agent capabilities.
+
+- **View:** Long-horizon credibility depends less on peak scores than graceful recovery, stopping behavior, cost, and reproducibility across real harnesses.
+
+- **Impact:** Agent builders gain another frontier backend, but proprietary hosting and jurisdiction constrain sensitive production workloads and local experimentation.
+
+- **Watch next:** Verify pricing, latency, token consumption, rate limits, data handling, independent benchmarks, and reproduction of the 35-hour kernel result.

@@ -2,19 +2,22 @@
 
 - Score: 254 | [HN](https://news.ycombinator.com/item?id=48214449) | Link: https://tante.cc/2026/05/20/on-google-declaring-war-on-the-web/
 
-## TL;DR
-Google’s shift toward AI answers and “stay-on-Google” experiences is seen as breaking the long-standing bargain: sites allow crawling in exchange for traffic. Commenters fear this undermines independent creators, ad- and subscription-funded sites, and even the future supply of training data. Others argue the web is already hostile—ad-ridden, SEO-gamed—and prefer agents that synthesize information for them. The real conflict is between centralized AI platforms and a heterogeneous, open web, with creators and smaller sites most exposed.
+### TL;DR
 
----
+The supplied page body is malformed and does not expose the article’s argument. From the title and HN discussion, the dispute concerns Google replacing outbound search traffic with AI-generated answers built from web content. Critics say that breaks the crawler-for-referrals bargain, concentrates value inside Google, weakens creator income, and may eventually reduce new training material. Others prefer accurate synthesis over visiting heterogeneous, ad-supported sites and question whether every publisher deserves traffic. The shared concern is accountability when summaries are wrong and discovery depends on one intermediary.
 
-## Comment pulse
-- Google enclosing the web → AI answers reduce outbound clicks, so sites lose revenue and may block crawlers; long-term content and training data could wither.  
-- Creative work devalued → AI reuses others’ output while profits centralize in platforms; people and even coworkers start offloading thinking to mediocre summaries.  
-- Many users just want clean synthesis → heterogeneous pages feel like friction, so agents win—counterpoint: this erodes diversity, discovery, and independent voices.
+### Comment pulse
 
----
+- Search and publishers had a bargain → crawling supplied content while referrals funded creation; zero-click answers remove publishers’ incentive to remain crawlable.
 
-## LLM perspective
-- View: The “war” is over control of attention and distribution, not technology itself; Google is extending its ad moat into AI answers.  
-- Impact: Small publishers, niche blogs, and professional creatives lose leverage first; users gain convenience but become more dependent on opaque intermediaries.  
-- Watch next: Legal limits on training data, crawler-blocking norms, emergence of non-Google discovery (decentralized search, curated lists, social/Reddit-style aggregators).
+- Users value information over websites → synthesis can remove ads and interface friction — counterpoint: source erosion and inaccurate summaries can degrade future answers.
+
+- Discovery needs plural infrastructure → commenters proposed decentralized search, portable website lists, aggregators, and direct audience-building instead of Google dependence.
+
+### LLM perspective
+
+- **View:** AI search changes compensation, not just interface: it internalizes publisher value while externalizing creation and verification costs.
+
+- **Impact:** Independent creators lose referrals and bargaining power; users gain convenience but inherit platform-controlled sourcing and error correction.
+
+- **Watch next:** Measure referral declines, summary accuracy, crawler blocking, content output, licensing payments, and adoption of alternative discovery systems.

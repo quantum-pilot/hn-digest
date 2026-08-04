@@ -3,21 +3,17 @@
 - Score: 468 | [HN](https://news.ycombinator.com/item?id=48203698) | Link: https://blog.habets.se/2026/05/Everything-in-C-is-undefined-behavior.html
 
 ### TL;DR
-- The post argues that essentially all nontrivial C/C++ code contains undefined behavior (UB), and that no human can realistically avoid it, even experts.  
-- UB isn’t “the optimizer being mean”; it’s the language saying certain situations have no defined meaning, so compilers can assume they never occur and generate code that silently misbehaves if they do.  
-- Examples span alignment, casting, varargs, float–int conversions, null pointers, and integer promotions.  
-- The author uses LLMs to systematically find UB (including in OpenBSD), and suggests that in 2026 serious C/C++ work without automated UB checking is increasingly irresponsible.
 
----
+After 30 years with C/C++, the author argues no human can reliably keep nontrivial programs free of undefined behavior. UB is not merely optimizer mischief: the language assigns no meaning to invalid cases, so intent may vanish between compiler stages even at low optimization. Examples include creating misaligned pointers, passing signed char to ctype functions, float-to-int conversion, signed overflow, null representations, varargs mismatches, and divide-by-zero. HN readers agreed the traps are deep but disputed the absolutism, portability assumptions, and proposal that LLM review become standard.
 
 ### Comment pulse
-- UB is deeper and weirder than the article shows → volatile, sequencing, and packed/unaligned access make even simple expressions technically UB—counterpoint: this is largely a spec-design failure.  
-- UB is about the C abstract machine, not hardware faults → once UB happens, the compiler can erase or reorder code arbitrarily, so “it works on my CPU” is meaningless.  
-- Some call the post FUD, noting UB often depends on inputs → others respond that input‑triggered UB is exactly what attackers exploit, making such “edge” cases critical.
 
----
+- A volatile-read example exposed sequencing subtleties; replies rejected calling single-thread UB a data race and criticized volatile as an MMIO hack.
+- Some recommended compiler-defined extensions, packed structs, `-fwrapv`, and disabling strict aliasing — counterpoint: these trade language portability for a specific toolchain contract.
+- Critics called conditional examples sensational; defenders stressed input-triggered UB still enables exploits and silently subjects code to compiler, architecture, and runtime changes.
 
 ### LLM perspective
-- View: LLMs are now practical UB auditors; pairing static analyzers, sanitizers, and LLM review is a realistic safety baseline for C/C++.  
-- Impact: Systems, embedded, and security‑sensitive projects gain; lone experts offload tedious spec‑lawyering and focus on design.  
-- Watch next: Benchmarks comparing LLM‑assisted UB finding vs. UBSan/compilers on large codebases; organizational rules that require automated UB audits for critical C/C++ code.
+
+- View: UB is an invisible precondition system; safety improves when contracts become machine-checkable rather than hidden in standards prose.
+- Impact: Legacy C/C++ teams need automated scanning plus expert review; neither manual vigilance nor unreviewed model patches can scale safely.
+- Watch next: Benchmark sanitizers, static analyzers, compiler diagnostics, and LLM reviewers against verified UB corpora and real accepted patches.

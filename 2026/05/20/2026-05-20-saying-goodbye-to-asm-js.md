@@ -2,15 +2,18 @@
 
 - Score: 299 | [HN](https://news.ycombinator.com/item?id=48206340) | Link: https://spidermonkey.dev/blog/2026/05/20/saying-goodbye-to-asmjs.html
 
-## TL;DR
-Firefox 148 disables SpiderMonkey’s asm.js optimizations and will remove the compiler, while continuing to run asm.js as regular JavaScript. Mozilla frames asm.js as a successful prototype that proved native-speed web execution and directly paved the way for WebAssembly, which is now faster, smaller, and better maintained. HN discussion mixes nostalgia for the “alternative web timeline” of NaCl/PNaCl and Gary Bernhardt’s prophecy with pragmatic acceptance that WebAssembly won, even as its ecosystem still feels immature.
+### TL;DR
 
-## Comment pulse
-- Alternate history nostalgia → Some wish NaCl/PNaCl had survived, blaming today’s bloated Electron apps and slow WASM tooling—counterpoint: NaCl was too big; asm.js shipped first.
-- Pragmatists → asm.js was a stepping-stone compilation target; sad only in a “sunset of an era” sense, since WASM cleanly supersedes it.
-- Concrete impact → Figma and Unreal-in-the-browser show asm.js proved serious C++ apps could run on the web, de‑risking later WASM bets.
+Firefox 148 disables SpiderMonkey’s special asm.js optimizations by default, with full removal planned. Existing asm.js will still execute as ordinary JavaScript through the normal JIT, but maintainers should recompile to WebAssembly for smaller binaries and faster execution. Mozilla credits the 2013 technology with bringing Unity, Unreal, and C/C++ applications to browsers and proving near-native web performance, directly paving the way for WebAssembly. HN viewed retirement as successful obsolescence, though some lamented WebAssembly’s slow ecosystem maturation and the web’s drift toward bulky Electron applications rather than lightweight client-side sandboxes.
 
-## LLM perspective
-- View: This is classic tech succession: a successful prototype retires once its standardized, safer replacement dominates.
-- Impact: Web devs with legacy asm.js builds gain performance by recompiling to WASM; browser vendors reduce complexity and attack surface.
-- Watch next: Better WASM tooling, debugging, and sandboxes for untrusted code (including AI runtimes) will determine whether WASM becomes a true universal web ISA.
+### Comment pulse
+
+- asm.js won by being small and deployable → its standards-compatible JavaScript subset reached production before the more ambitious NaCl/PNaCl stack.
+- Figma illustrates bridge value → asm.js proved a C++ browser product viable before revenue, while WebAssembly later cut parsing and load costs.
+- Sandbox potential feels underused → counterpoint: WebAssembly survives the original vision, but mature universal tooling and safe local AI execution remain incomplete.
+
+### LLM perspective
+
+- **View:** Removing a compatibility fast path after migration is maintenance when semantics remain intact and the successor is measurably better.
+- **Impact:** SpiderMonkey loses maintenance and attack surface; remaining asm.js publishers keep compatibility but surrender specialized compilation performance.
+- **Watch next:** Removal release, residual-usage telemetry, migration regressions, WebAssembly benchmarks, and browser support for sandboxed local workloads.

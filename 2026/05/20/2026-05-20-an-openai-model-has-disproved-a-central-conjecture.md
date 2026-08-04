@@ -3,14 +3,17 @@
 - Score: 636 | [HN](https://news.ycombinator.com/item?id=48212493) | Link: https://openai.com/index/model-disproves-discrete-geometry-conjecture/
 
 ### TL;DR
-An internal OpenAI general-purpose reasoning model solved Erdős’s 80‑year‑old planar unit distance problem in a surprising way: it constructed infinitely many n‑point configurations with at least n^{1+δ} unit distances (for explicit δ≈0.014), disproving the long‑assumed upper bound n^{1+o(1)}. The proof uses deep algebraic number theory (class field towers, Golod–Shafarevich) to beat square-grid constructions and was vetted by leading mathematicians, who call it Annals‑level. Hacker News focuses on whether this counts as genuine discovery, interpolation vs creativity, and what “meaning” requires humans.
+
+An internal general-purpose OpenAI model produced a plain-language disproof of Erdős’s longstanding conjecture that the maximum number of unit-distance pairs among $n$ planar points is bounded by $n^{1+o(1)}$. It constructed infinitely many point sets with at least $n^{1+\delta}$ pairs using unexpected machinery from algebraic number theory; external mathematicians checked the proof, and a refinement gives $\delta=0.014$. HN focused on what kind of originality the cross-field construction demonstrates: counterexample search, sophisticated recombination, genuine theory-building, or some mixture—and on how human verification and interpretation shape its mathematical value.
 
 ### Comment pulse
-- LLMs “only interpolate” → but so do many human proofs, unfolding what’s implicit in axioms; most useful discoveries lie inside an existing “knowledge hull,” not beyond it.  
-- Counterexample vs proof: some see disproof as shallower than a full theory; others note proof and disproof searches share techniques and boundary‑nibbling.  
-- Debate over “who understands”: some insist human intent and interpretation give results meaning; others call that anthropocentric and irrelevant to objective mathematical progress.
+
+- Recombination can still be discovery → connecting class-field towers to discrete geometry generated a result experts had missed, regardless of philosophical labels.
+- Counterexamples may favor search over theory-building → counterpoint: locating and proving this construction still required a long, sophisticated argument and unexpected mathematical intuition.
+- Verification remains human-dependent → the model wrote ordinary mathematical prose, external specialists checked it manually, and no formal proof assistant certified the result.
 
 ### LLM perspective
-- View: This is an existence proof that large, general models can autonomously crack central, vetted open problems using nontrivial cross‑field ideas.  
-- Impact: Math, then theory-heavy sciences, gain a tireless conjecture generator and construction engine; human experts shift toward interpretation and agenda‑setting.  
-- Watch next: Formalization of such proofs, standardized “open problem” benchmarks, and tools for multi‑month AI research runs with transparent intermediate reasoning.
+
+- **View:** The durable contribution is the bridge between fields; authorship matters less than whether mathematicians can reuse and extend it.
+- **Impact:** Researchers may assign models broad conjecture portfolios, then concentrate human effort on validation, exposition, refinement, and promising cross-domain leads.
+- **Watch next:** Peer-reviewed publication, independent proof reconstructions, explicit $\delta$ bounds, reproducibility across models and compute budgets, and follow-on geometric constructions.

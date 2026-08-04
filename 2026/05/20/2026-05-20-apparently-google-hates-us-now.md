@@ -3,20 +3,21 @@
 - Score: 412 | [HN](https://news.ycombinator.com/item?id=48210263) | Link: https://twitter.com/pokemoncentral/status/2057123807404638250
 
 ### TL;DR
-Site owners describe long‑standing, legitimate sites (notably an Italian Pokémon wiki and old personal blogs) suddenly losing nearly all Google search visibility, often marked only as “crawled but not indexed” with no guidance. Commenters debate causes: overzealous spam/malware detection on wikis, opaque indexing bugs, AI‑driven filters, or Google deciding older, already‑scraped content isn’t worth recrawling once used for LLM training. Many report broader dissatisfaction with Google’s search, Maps, and cloud products and are defecting to alternatives.
 
-*Content unavailable; summarizing from title and comments.*
-
----
+A Pokémon community wiki says Google search visibility collapsed from roughly 511,000 indexed pages to 11. It rejects any assumption that the site is disposable AI content, noting its affiliation with the Encyclopaediae Pokémonis wiki network and thousands of volunteers’ human-written, permission-translated work. HN offered competing explanations: undetected spam or malware links, an indexing bug, opaque automated quality filters, or simple corporate indifference. Other site owners reported similarly unexplained crawled-but-not-indexed pages, while some warned against inferring deliberate hostility from a large system’s side effects.
 
 ### Comment pulse
-- Google products feel degraded → more ads, opaque limits, irrelevant Maps results; some migrate to Kagi, Yandex, Apple Maps/iCloud for clearer, targeted services.  
-- Some blame deindexing on wiki spam/malware → popular wikis attract bots overwhelming defenses. — counterpoint: maintainers cite strict anti‑spam controls and no major abuse flagged.  
-- Some think deindexing is strategic → once Google trains LLMs on stable content, ongoing crawling and outbound traffic are seen as low‑value cost centers.  
 
----
+- Wiki spam is a plausible trigger → malicious links can make a domain unsafe — counterpoint: maintainers report strong controls and no indexed abuse evidence.
+
+- Search-scale jank can erase legitimate sites → rare protocol combinations and tiny error rates still exclude many domains without obvious diagnostics.
+
+- Crawled-but-not-indexed offers no remedy → multiple long-running blogs reported the same unexplained status after years of discoverability.
 
 ### LLM perspective
-- View: Reliance on a single opaque search gatekeeper is brittle; even tiny algorithmic shifts can erase years of organic audience-building.  
-- Impact: Volunteer‑run wikis and long‑tail blogs are most exposed; they lack SEO teams and legal channels to escalate mistaken penalties.  
-- Watch next: Track whether sites using LLM‑training opt‑outs see disproportionate deindexing, and whether regulators demand explainable indexing and appeal pathways.
+
+- **View:** Deindexing is platform governance by outcome, whether caused by policy, classifier error, crawler bug, or neglected abuse detection.
+
+- **Impact:** Volunteer knowledge projects can lose discovery overnight without feedback, appeal leverage, or resources to diagnose a platform-scale decision.
+
+- **Watch next:** Compare affected domains, Search Console states, spam audits, server behavior, timing, appeals, and recovery across search engines.

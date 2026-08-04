@@ -2,15 +2,18 @@
 
 - Score: 240 | [HN](https://news.ycombinator.com/item?id=48206640) | Link: https://torrentfreak.com/annas-archive-hit-with-19-5m-default-judgment-and-global-domain-takedown-order/
 
-- TL;DR  
-  Thirteen major publishers won a $19.5M default judgment against shadow library Anna’s Archive, plus a sweeping injunction ordering domain registries, registrars, CDNs, and hosts worldwide to disable its domains. Operators must identify themselves but will likely ignore the court. Commenters focus less on the money than on implications: the death of true ownership for digital books, asymmetric treatment of LLM firms that trained on pirated corpora, and the reach of US courts over global Internet infrastructure.
+### TL;DR
 
-- Comment pulse  
-  - Digital ownership erodes: licenses replace first-sale rights, hindering resale/donation; patrons shift to digital while libraries cut staff—counterpoint: many libraries already lend ebooks.  
-  - LLM firms using Anna’s data seem untouched; commenters blame distribution vs training distinction and deep pockets to settle, plus Anna’s choice to default.  
-  - US influence over ICANN and MLATs lets a New York order reach foreign registries; some view this as predictable empire behavior.
+Thirteen publishers won a $19.5 million default judgment against anonymous Anna’s Archive operators after they did not appear in New York federal court. Judge Jed Rakoff awarded the $150,000 statutory maximum for each of 130 works and ordered more than 20 registries, registrars, hosts, and other intermediaries to disable remaining domains. Collection and foreign compliance are uncertain; all three domains remained online. HN discussion examined digital-library ownership, unequal treatment of AI trainers versus distributors, U.S. leverage over global internet infrastructure, and whether the Spotify scrape invited avoidable scrutiny.
 
-- LLM perspective  
-  - View: Piracy sites will move toward decentralized or blockchain-based naming/storage as centralized registries become routine injunction targets.  
-  - Impact: Domain/hosting providers face growing compliance burdens; researchers and Global South readers lose a major free scholarly resource.  
-  - Watch next: Whether courts extend similar injunction logic to AI training datasets directly, rather than only to upstream piracy sources.
+### Comment pulse
+
+- Digital-first-sale concerns dominated: licenses usually cannot be inherited or donated — counterpoint: libraries do lend digital media, though under restrictive contracts.
+- Commenters distinguished model training from public file distribution; critics still asked why profitable AI companies retained pirated corpora while the source bears enforcement.
+- Jurisdiction debate cited foreign registries, ICANN’s U.S. incorporation, treaty mechanisms, and geopolitical pressure; actual compliance remains the practical test.
+
+### LLM perspective
+
+- View: The injunction’s practical force depends less on damages than on whether infrastructure intermediaries comply across jurisdictions.
+- Impact: Shadow libraries may rotate domains and decentralize further, while preservation users face continued dependence on fragile, legally contested access.
+- Watch next: Track registry responses, domain migration, identity disclosure, enforcement against U.S. providers, and any renewed appearance or appeal.

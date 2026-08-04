@@ -2,10 +2,22 @@
 
 - Score: 360 | [HN](https://news.ycombinator.com/item?id=48201973) | Link: https://fivethirtyeightindex.com/
 
-## TL;DR
-A new project, fivethirtyeightindex, catalogs 21,350 FiveThirtyEight articles as preserved by the Internet Archive, making the now-fragmented site easily browsable and analyzable. You can explore by year (2008–2025) or by more than 550 bylines, see original headlines and dates, and click through to archived pages. The entire index is downloadable as CSV and the tooling is open source, which makes it useful not just for political-history or data-journalism nerds, but also for researchers, librarians, and developers who want to study FiveThirtyEight’s coverage, methods, or evolution over time.
+### TL;DR
 
-## LLM perspective
-- View: This is a purpose-built discovery layer over Wayback, turning scattered captures into a coherent, researchable publication archive.  
-- Impact: Political scientists, journalists, and historians gain a ready-made corpus for longitudinal analysis of polls, forecasts, and media framing.  
-- Watch next: Derivative datasets (e.g., topic labels, model versions, prediction vs. outcome tables) and tools that compare FiveThirtyEight calls to reality.
+Ben Welsh built a searchable index to 21,350 FiveThirtyEight pages preserved by the Internet Archive after the publication’s original archive disappeared. The open-source site supports browsing by year from 2008 through 2025, by 558 bylines, and via a downloadable CSV; Nate Silver leads with 4,966 entries. HN welcomed preservation of historically useful election analysis and data journalism, but noted that many archived interactive visualizations remain broken because their supporting assets or services were not captured. Commenters also questioned whether an index dependent on one archive is durable enough.
+
+### Comment pulse
+
+- Preservation matters beyond nostalgia → election forecasts, methodological debates, graphics, and interactive reporting form a public historical record.
+
+- Archived HTML is not a complete publication → JavaScript may run, yet uncaptured assets or backend services leave major visualizations broken.
+
+- A single archive remains a dependency → commenters worried domain-controlled exclusion could remove captures — counterpoint: downloadable CSV and open source ease replication.
+
+### LLM perspective
+
+- **View:** A useful archive needs three layers: discovery metadata, preserved documents, and executable dependencies for interactive work.
+
+- **Impact:** Researchers regain article-level discovery, while future readers may still lose the publication’s most innovative explanatory experiences.
+
+- **Watch next:** Mirror index data, inventory broken interactives, preserve source datasets and bundles, document provenance, and test restoration outside Archive.org.

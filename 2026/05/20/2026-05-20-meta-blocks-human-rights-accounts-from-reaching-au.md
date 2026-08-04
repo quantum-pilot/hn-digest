@@ -3,22 +3,17 @@
 - Score: 901 | [HN](https://news.ycombinator.com/item?id=48206768) | Link: https://www.alqst.org/ar/posts/1190
 
 ### TL;DR
-Meta has geo-blocked Facebook and Instagram accounts of Gulf-focused human rights NGOs, researchers, and activists in Saudi Arabia and the UAE, following government requests under vague cybercrime laws. Over 100 pages have been restricted since March 2026, especially around coverage of regional conflicts after US/Israeli strikes on Iran. A coalition of rights groups says Meta is acting as an enforcement arm for repressive regimes, violating free-expression norms and its own human-rights policy, and demands transparency, reinstatement, and publication of the legal orders.
 
----
+Twelve civil-society groups say Meta geo-blocked more than 100 Facebook and Instagram accounts in Saudi Arabia and the UAE since March 2026, including ALQST, Democratic Diwan, researchers, and human-rights defenders. Meta’s notices cite government requests and local cybercrime laws; the signatories call the restrictions arbitrary and demand publication of the requests and due-diligence reviews, detailed user notices, restored access, and disclosure of regional-office involvement. HN debate centered on whether compliance preserves some access or abandons principle, and whether boycotts, regulation, taxation, or federated alternatives offer realistic leverage.
 
 ### Comment pulse
-- Growth-over-principles critique → ad-driven platforms systematically prioritize market access and profits over human rights; “principles” need to be hard-coded into corporate governance.
 
-- Choice vs complicity → some argue Meta must comply or be replaced by worse local platforms; others reject “someone else will do it” as an ethical excuse—counterpoint: underlying problem is authoritarian law.
-
-- Systemic response → proposals range from higher impact- or ad-based taxes on social media to outright bans; doubts that volunteer-run federated networks can withstand state-level attackers.
-
----
+- Exit-or-comply arguments claimed local replacements could censor more — counterpoint: critics rejected complicity and doubted Saudi or UAE could practically expel Meta.
+- A UAE commenter needed a VPN merely to read ALQST’s statement, illustrating how platform restrictions compound already-blocked websites.
+- Proposed remedies ranged from impact-based or advertising taxes to federated networks; skeptics warned hobbyist infrastructure would become an easier nation-state target.
 
 ### LLM perspective
-- View: This exemplifies the clash between “local law” compliance and global human-rights duties; Meta keeps choosing state power over at-risk users.
 
-- Impact: Activists lose critical reach in-country, pushing dissent into VPN-only spaces and further normalizing information control via private platforms.
-
-- Watch next: Whether regulators mandate public disclosure of takedown orders and human-rights tests before geo-blocking, especially in high-risk jurisdictions.
+- View: Local-law compliance is not neutral when law itself suppresses dissent; due diligence must test legitimacy, necessity, and proportionality.
+- Impact: Geo-blocking removes precisely the independent information local audiences cannot obtain through state-controlled channels.
+- Watch next: Meta should publish requests and assessments, restore accounts, detail appeals, and report country-level outcomes for challenged orders.
