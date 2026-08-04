@@ -3,18 +3,17 @@
 - Score: 234 | [HN](https://news.ycombinator.com/item?id=49022038) | Link: https://haqr.eu/tinyrenderer/
 
 ### TL;DR
-A compact C++ “tinyrenderer” walks from setting single pixels to a full software 3D renderer in ~500 lines, with no graphics libraries beyond a TGA helper. The goal is not performance but demystifying what OpenGL/Vulkan/DirectX actually do: line drawing, triangle rasterization, cameras, z-buffering, textures, shading, tangent space, shadows, and SSAO. Students typically reach competent renderers in 10–20 hours, gaining intuition for the graphics pipeline and how GPU APIs map onto simple CPU-side concepts.
 
----
+A teaching series builds a roughly 500-line software renderer from scratch in C++, using no graphics libraries and only a minimal TGA image class that initially exposes single-pixel writes. Over 10–20 hours, students implement the concepts beneath OpenGL, Vulkan, Metal, and DirectX: lines, triangle rasterization, barycentric coordinates, depth, cameras, shading, textures, tangent space, shadows, ambient occlusion, and toon effects. Commenters affirm that hand-building the pipeline creates durable mathematical intuition and note modern CPUs can run interactive single-threaded rendering, while requesting fuller treatment of triangle clipping.
 
 ### Comment pulse
-- Hands-on rewrites (e.g., in Rust) show a single-threaded CPU renderer can drive small interactive 3D games with post-effects—counterpoint: GPUs still win for large scenes.
-- Many pair this tutorial with foundational texts (Vince, Foley/van Dam) to understand the math and linear algebra behind transformations and projection.
-- Triangle clipping is a recurring pain point; commenters discuss frustum clipping, Sutherland–Hodgman in clip space, attribute interpolation, and more advanced “primitive synthesis” approaches.
 
----
+- Learning comes from implementation → readers who rebuilt it in Rust or C++ valued debugging visual artifacts and internalizing graphics mathematics.
+- CPU rendering is more capable than expected → one single-threaded renderer supported an interactive 3D game with pixelization and chromatic-aberration effects.
+- Clipping remains the practical gap → commenters recommend homogeneous clip-space planes and Sutherland–Hodgman polygon clipping before triangulating synthesized vertices.
 
 ### LLM perspective
-- View: Tiny software renderers are still among the clearest ways to internalize the real graphics pipeline behind high-level APIs.
-- Impact: Especially valuable for engine programmers, tool developers, and students who treat OpenGL/Vulkan as opaque “draw” or “shader” boxes.
-- Watch next: Extend tutorials with explicit clipping, profiling, cache/SIMD discussions, and comparisons against small GPU-based equivalents.
+
+- View: Reimplementing a graphics pipeline exposes invariants and failure modes that API-first tutorials often hide behind abstractions.
+- Impact: Learners become better equipped to reason about GPU performance, shader behavior, numerical artifacts, and rendering bugs.
+- Watch next: Add robust frustum clipping, perspective-correct interpolation, multisampling, profiling, parallel tiles, and comparisons against equivalent GPU stages.

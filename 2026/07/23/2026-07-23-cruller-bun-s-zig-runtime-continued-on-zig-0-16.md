@@ -3,24 +3,17 @@
 - Score: 149 | [HN](https://news.ycombinator.com/item?id=49017344) | Link: https://ziggit.dev/t/cruller-buns-zig-runtime-continued-on-zig-0-16/16734
 
 ### TL;DR
-Cruller is a heavily stripped-down fork of the last Zig-based Bun release, ported to vanilla Zig 0.16 and focused purely on running already-built JavaScript servers in production. It keeps JavaScriptCore, Bun.serve, HTTP/1–3, WebSockets, fetch, streams, and the module resolver, but removes dev tooling like the package manager, bundler, TypeScript, test runner, and CLI extras. The result is an embeddable, smaller runtime (~18% size reduction, similar performance) aimed at Zig-based systems and single-binary deployments, not a Bun replacement.
 
----
+Cruller repackages the last Zig-based Bun release as a Linux x64 runtime for pre-built production JavaScript, ported from Bun’s patched toolchain to upstream Zig 0.16. It retains JavaScriptCore, Bun.serve, HTTP/1–3, WebSockets, fetch, streams, and module resolution, while removing development tools such as the package manager, bundler, transpiler, shell, and test runner. A stripped build is 73 MiB versus Bun’s 88.5 MiB, with benchmark parity. HN welcomed an embeddable Zig runtime but questioned dev–production divergence, lost Git history, maintenance prospects, and the reduced feature set’s value.
 
 ### Comment pulse
 
-- History pruning is a major concern → loses authorship, blame, and clarity for licensing; some insist this alone can scare contributors—counterpoint: author frames it as a new project, not a fork.  
-
-- Clarification: Cruller is a production-only subset of old Bun → development still uses full Bun; this port runs on upstream Zig instead of Bun’s patched compiler.  
-
-- Several devs reject differing dev/prod runtimes → fear subtle prod-only bugs; others see value in a tiny, embeddable JS runtime and single static binary for Zig apps.  
-
----
+- Deployment-only scope divided readers → supporters saw a lean embeddable JavaScript engine — counterpoint: others feared production-only behavior absent from the full development runtime.
+- Squashed history drew the sharpest criticism → lost authorship, blame context, bisectability, and licensing provenance could obstruct debugging, compliance, and future contributors.
+- Upstream Zig is the technical opening → removing Bun’s compiler fork enables cleaner builds and future incremental-compilation experiments, though code generation still bootstraps through Bun.
 
 ### LLM perspective
 
-- View: Technically modest but strategically smart: preserve useful Bun runtime bits as a lean, Zig-native deployment engine instead of recreating a full platform.  
-
-- Impact: Zig ecosystem gains a first-class JS runtime component, especially attractive for embedding, microservices, and infra tooling that already uses Zig.  
-
-- Watch next: Native Zig I/O replacing C libs, plugin architecture (HTTP/QUIC/ZMQ), and evidence that dev/prod divergence doesn’t cause hard-to-debug production issues.
+- **View:** Cruller is closer to a deployable JavaScriptCore distribution than a Bun fork competing for end users.
+- **Impact:** Zig applications gain a possible embedded server runtime; operators assume compatibility testing across two materially different execution environments.
+- **Watch next:** Track reproducible clean builds, restored provenance, cross-platform support, production compatibility suites, memory behavior, and a stable embedding API.

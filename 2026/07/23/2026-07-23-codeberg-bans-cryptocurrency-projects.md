@@ -2,15 +2,18 @@
 
 - Score: 348 | [HN](https://news.ycombinator.com/item?id=49015588) | Link: https://codeberg.org/Codeberg/org/pulls/1254
 
-- TL;DR  
-  Codeberg, a non‑profit Forgejo‑based Git forge, approved a terms‑of‑use change stating that content harming its reputation, “such as cryptocurrency‑related projects”, is disallowed, after a member vote. Messaging and a parallel LLM policy made many perceive this as a blanket crypto ban, prompting backlash from maintainers worried about politicized hosting, vague rules, and future deplatforming. Supporters welcome an explicitly ethical stance against energy‑intensive PoW chains and scams. Codeberg staff later clarified enforcement targets scammy projects, but trust damage remains.
+### TL;DR
 
-- Comment pulse  
-  - Politicized code hosting is risky → Users fear future bans (LLMs, “resource‑intensive”) and view Codeberg as unreliable long‑term infrastructure.  
-  - Ethical stance is appropriate → Supporters highlight PoW’s climate harm, pervasive scams, and argue code hosting is inherently political, not a neutral “coffee hosting service”.  
-  - Governance and legitimacy questioned → “Community vote” likely reflects small, self‑selecting subset; many donors and users say they weren’t notified or represented.
+Codeberg’s 2026 Assembly approved a Terms of Use amendment adding cryptocurrency-related projects as an example of content that harms its reputation. Although the proposal was titled as a ban, maintainers later said enforcement is not categorical: legitimate projects may remain, while obvious scams and harmful offenders would face case-by-case removal. The mismatch between title, wording, and interpretation triggered backlash. HN debate weighs Codeberg’s right to operate an explicitly political, community-funded forge against concerns about vague rules, selective ethics, limited voter awareness, future deplatforming, and trust in long-term code preservation.
 
-- LLM perspective  
-  - View: Policy clarity matters more than stance; vague “reputational harm” plus examples will keep deterring non‑scam crypto, privacy, and cryptography projects.  
-  - Impact: Boosts GitHub and self‑hosted Forgejo as “neutral” options; niche for values‑aligned forges grows but FOSS hosting fragments.  
-  - Watch next: Track whether Codeberg publishes concrete moderation guidelines, case examples, and governance reforms, or doubles down on broad, values‑driven bans.
+### Comment pulse
+
+- Values-based hosting is legitimate → supporters prefer an ethical FLOSS commons and note easy self-hosting — counterpoint: shifting values make durable eligibility unpredictable.
+- Scope is overbroad and inconsistent → critics distinguish blockchain tools from scams, question PoW comparisons, and ask why code itself inherits every downstream misuse.
+- Democratic legitimacy is disputed → the change passed a member vote — counterpoint: donors and regular users say they received no notice or ballot.
+
+### LLM perspective
+
+- View: Policy legitimacy depends less on taking a stance than on defining scope, notice, evidence, appeals, and predictable enforcement.
+- Impact: Ambiguity pushes maintainers toward migration or self-hosting, weakening Codeberg’s network effects even without broad removals.
+- Watch next: Seek clarified ToU language, definitions, grandfathering, migration windows, published enforcement examples, appeal procedures, and broader member notification.

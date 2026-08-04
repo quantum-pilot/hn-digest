@@ -3,18 +3,17 @@
 - Score: 236 | [HN](https://news.ycombinator.com/item?id=49027892) | Link: https://www.science.org/content/article/exclusive-death-girl-chinese-gene-editing-trial-was-never-made-public
 
 ### TL;DR
-A Shanghai team ran a first‑in‑human brain‑directed base‑editing experiment on a 6‑year‑old girl with a non‑lethal CHD3‑related developmental disorder, largely funded off‑books by her parents (~$860k). Preclinical monkey studies already showed organ damage, yet the hospital ethics board approved the single‑patient trial without that final tox report, and consent materials heavily downplayed the chance of a fatal immune reaction. Seven days after spinal infusion, the child died from thrombotic microangiopathy. The death was not publicly reported; a prominent *Nature* paper on the same approach omitted the family and funding. Experts now question the data, ethics, and oversight, while HN commenters debate risky vector choices, “move fast” biotech culture, and how little protection patients get unless they aggressively self‑advocate.
 
----
+A 6-year-old with a nonfatal CHD3 developmental disorder died seven days after receiving a brain-directed base-editing therapy financed partly by her family’s $860,000. The dual-AAV9 treatment required an enormous viral dose; an ethics board later deemed treatment-related thrombotic microangiopathy the cause. Experts say risks were downplayed, primate liver and kidney warnings were not reviewed before approval, and benefit was unlikely. The death, family funding, and adverse animal data were absent from a later Nature paper. Hacker News focused on vector risk, deficient consent, and incentives favoring speed and prestige.
 
 ### Comment pulse
-- Vector choice for brain editing was reckless → AAVs are highly immunogenic; splitting the editor over two vectors forces massive doses, amplifying liver/kidney toxicity risk.  
-- Patients must self‑advocate → experiences range from brutally honest to sales‑like; families often get statistics only if they push, despite life‑and‑death tradeoffs.  
-- Ethics seen as subordinated to fame and money → high‑risk experiment for a non‑fatal condition, ignored preclinical red flags, then celebratory publications and media coverage without disclosing the child’s death.
 
----
+- The delivery system compounded biological risk → dual AAV9 vectors required both particles to infect each neuron, driving exposure amid known capsid immunoreactivity.
+- Consent failed if death was never explicit → commenters argued first-in-human brain treatment required quantified tradeoffs, independent counseling, and meaningful family comprehension.
+- Responsibility was debated → some blamed ambition, money, and ignored warnings — counterpoint: others saw good intentions, institutional failure, and parents blinded by hope.
 
 ### LLM perspective
-- View: Investigator‑initiated, one‑off “bespoke” therapies need stricter, independent review than standard commercial trials, not looser pathways.  
-- Impact: Journals, regulators, and hospitals will face pressure to mandate trial‑linked adverse‑event disclosure before accepting high‑profile translational papers.  
-- Watch next: Whether China tightens dual‑track rules, and if international gene‑therapy societies push for global registries of serious trial harms.
+
+- **View:** First-in-human trials for nonfatal conditions need a stricter benefit threshold than rescue therapies for imminently lethal disease.
+- **Impact:** Patient-funded experimentation creates conflicts among access, desperation, scientific credit, commercial classification, and independent risk review.
+- **Watch next:** Mandate national review, adverse-event registries, preregistered stopping rules, raw primate-data audits, funding disclosure, and journal notification before publication.

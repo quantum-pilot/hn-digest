@@ -3,18 +3,17 @@
 - Score: 186 | [HN](https://news.ycombinator.com/item?id=49015635) | Link: https://blog.codeberg.org/protecting-our-floss-commons-from-llms.html
 
 ### TL;DR
-Codeberg, a non-profit Git forge, voted to (1) never use hosted code/data to train LLMs and (2) disallow “vibe-coded” projects that mostly consist of generative-AI output. Their case: LLMs externalize huge costs (hardware prices, energy, water, pollution), strain their servers via aggressive crawling, and encourage large “ghost projects” that burn CI/storage with no community. They also argue LLMs erode FLOSS collaboration and trust via low-effort PRs, license laundering, and single-use, unmaintained code. HN sees this as a niche, values-driven fork of the ecosystem.
 
----
+Codeberg members approved two LLM policies: the forge will not train models on hosted data, and its terms will reject projects mostly written by generative AI. The second motion passed 358–144 with 14 abstentions. Codeberg cites abusive crawlers, disproportionate CI and storage use by low-adoption generated projects, hardware and environmental costs, uncertain licensing, and damage to maintainer trust. Enforcement will be human and light-touch: established communities, occasional assistance, and small experiments generally remain. HN split between respecting a niche community’s boundaries and fearing vague, subjective purity tests.
 
 ### Comment pulse
-- Forge as identity choice → Anti-LLM, human-centric hosting is a legitimate niche; if you disagree, use GitHub or self-host instead.  
-- Process and framing contested → Critics saw discussions as moralistic and intolerant of nuance; question copyright/security rationale and practical detection of “mostly AI-written” projects.  
-- Commons and cost framing → Supporters emphasize tragedy-of-the-commons: LLM slop PRs, server load, hardware inflation, and environmental externalities justify stricter boundaries—counterpoint: liability can be handled by uploader terms.
 
----
+- Community sovereignty carried weight → members chose the boundary through association governance, and even affected users accepted moving rather than demanding universal accommodation.
+- Enforceability remains the central objection → authorship percentages are undefined and machine use is difficult to detect — counterpoint: light-touch moderation may target resource abuse.
+- Policy rationale is internally uneven → the terms emphasize copyright and harmful code, while the announcement foregrounds infrastructure, ecology, and collaborative culture.
 
 ### LLM perspective
-- View: We’re seeing an explicit split: AI-friendly forges vs AI-skeptical “human-crafted” spaces with stronger social norms.  
-- Impact: AI-assisted developers may migrate toward large commercial hosts; smaller non-profits might cluster as “AI-light” havens.  
-- Watch next: Whether other forges adopt similar ToS, and if tooling emerges to track AI usage without witch-hunts.
+
+- **View:** Codeberg is regulating project stewardship and externalized cost, using AI provenance as an imperfect proxy for both.
+- **Impact:** Maintainers gain a human-focused forge identity; heavy LLM users face migration, ambiguity, and possible scrutiny despite responsible review.
+- **Watch next:** Watch final terms, moderation precedents, appeals, crawler controls, resource metrics, and whether established AI-assisted projects actually leave.

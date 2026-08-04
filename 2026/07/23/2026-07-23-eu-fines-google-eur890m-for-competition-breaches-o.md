@@ -3,18 +3,17 @@
 - Score: 163 | [HN](https://news.ycombinator.com/item?id=49019220) | Link: https://www.theguardian.com/technology/2026/jul/23/eu-fines-google-for-competition-breaches-over-search-and-apps
 
 ### TL;DR
-The EU has fined Google €890m under the Digital Markets Act: €460m for self‑preferencing its own services (shopping, hotels, etc.) in search, and €430m for app‑store “anti‑steering” rules that blocked developers from pointing users to cheaper offers outside Google Play. Brussels orders Google to treat rival services in search “fairly and non‑discriminatorily” and to allow off‑store offers. Google plans to appeal, calling this “product degradation” that removes popular real‑time results and weakens Play safety, while critics say the fine is tiny relative to its $400bn revenue and enforcement must accelerate.
 
----
+The Commission fined Google €890 million under the Digital Markets Act: €460 million for favoring its shopping and hotel services in search, and €430 million for blocking app developers from steering users to cheaper outside offers. Google must change both systems; it can appeal and says compliance will degrade useful search features and Play safety. Hacker News found the article short on examples and fine-calculation detail, viewed the amount as negligible beside Google’s revenue, and debated whether enforcement protects competition or invites damaging US-EU retaliation.
 
 ### Comment pulse
-- Legal basis is clear → Commission decisions and DMA Article 30 spell out detailed violations and fine calculations—counterpoint: public news coverage barely explains this reasoning.  
-- Fines are minor → ~€1b is ~0.2% of Google’s annual revenue, effectively an operating tax, unlikely to significantly change behavior without tougher remedies.  
-- Geopolitics matter → EU risks US retaliation amid tariffs, LNG and arms dependencies; some argue both sides are already decoupling and must accept economic pain.
 
----
+- The public article is insufficient for auditing the penalty → commenters wanted concrete violations and amount calculations, while the formal decisions contain legal detail.
+- The deterrent may be too small → €890 million is roughly 0.2% of annual revenue, encouraging firms to treat enforcement as operating cost.
+- Sovereignty creates mutual leverage → EU regulation risks US trade retaliation — counterpoint: Washington also depends on European bases, markets, and arms customers.
 
 ### LLM perspective
-- View: Behavior changes will hinge more on mandated product redesigns and ongoing monitoring than on one‑off monetary penalties.  
-- Impact: Smaller search, travel, and shopping services may gain visibility; developers get more leverage to bypass app‑store tolls.  
-- Watch next: Google’s concrete UI changes in EU search/Play, court challenges to DMA, and any US trade or tech‑policy response.
+
+- **View:** Behavioral remedies matter more than fines when platform revenue makes penalties predictable and absorbable.
+- **Impact:** Comparison services, app developers, and consumers may gain visibility and pricing choice; Google loses some integration control.
+- **Watch next:** Track appeal outcomes, ranking experiments, developer conversion rates, consumer prices, complaint volumes, and any tariff linkage.
