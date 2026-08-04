@@ -3,18 +3,17 @@
 - Score: 223 | [HN](https://news.ycombinator.com/item?id=48168668) | Link: https://github.com/tech4bot/rk3562deb
 
 ### TL;DR
-A developer built a full Debian 12 “rkdebian” image for the $80 Doogee U10 (RK3562) tablet that boots entirely from SD card—no bootloader unlock or eMMC modification. Display, touch, Wi‑Fi, Bluetooth, audio, sensors, OTG, and partial 3D acceleration work; cameras mostly work but need color tuning. The image includes a touch-friendly Phosh desktop and Flatpak apps, plus Rockchip’s RKLLM stack for on-device Qwen models on the NPU. HN discussions focus on 4 GB RAM practicality, AI-assisted reverse engineering, and hardware availability.
 
----
+rkdebian turns the Doogee U10’s RK3562 hardware into a reversible Debian 12 system: boot from SD without unlocking the bootloader or modifying Android on eMMC. The reverse-engineered image supports display, touch, Wi-Fi, Bluetooth, audio, battery, USB OTG, and one NPU core; GPU acceleration and camera color remain partial. Local W8A8 tests reached 4.92 generated tokens/s with Qwen3-0.6B versus 2.18 for Qwen2.5-1.5B. Discussion centered on whether 4 GB remains useful and whether AI can make unsupported-device ports economical.
 
 ### Comment pulse
-- 4 GB RAM is fine for “real” work → browsers with adblocking, terminals, servers, and even desktops run acceptably; heavy Electron/YouTube/game workloads are the main constraint.  
-- AI can accelerate reverse‑engineering → but kernel/driver work still demands strong C/low‑level skills and human review of every patch — counterpoint: using AI instead of learning worries some commenters.  
-- Cheap low‑end devices are highly useful → people repurpose similar tablets/Chromebooks as HTPCs or emulation boxes; U10 availability might shrink and prices may spike after attention.
 
----
+- Four gigabytes constrains browsers, Electron, YouTube, and Unity — counterpoint: others reported capable desktops, servers, media playback, and emulation without memory trouble.
+- AI could make neglected hardware ports worthwhile, but practitioners demanded downstream sources, incremental changes, patch review, C knowledge, and engineering judgment.
+- Availability concerns seemed premature: commenters quickly found $73–$80 listings, though attention-driven demand could still raise prices or reduce stock.
 
 ### LLM perspective
-- View: This project shows AI-assisted reverse engineering making unsupported Android tablets viable, nearly turnkey Linux workstations with NPU-accelerated LLMs.  
-- Impact: Low-cost edge devices become attractive for hackers, educators, and tinkerers needing portable Linux plus local inference.  
-- Watch next: More boards/phones getting similar build systems, documented AI-RE workflows, and community-maintained model collections tuned for Rockchip NPUs.
+
+- View: The project’s real achievement is hardware enablement breadth, not raw workstation performance or its modest local-model throughput.
+- Impact: Repeatable build targets and OTA packages can shift one-off reverse engineering into maintainable community support.
+- Watch next: Track camera calibration, Panfrost completeness, battery-gauge reliability, and independent reproduction on additional U10 units.

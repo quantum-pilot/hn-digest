@@ -3,18 +3,17 @@
 - Score: 269 | [HN](https://news.ycombinator.com/item?id=48168708) | Link: https://www.nytimes.com/2026/05/17/world/africa/ebola-congo-uganda-who-public-health-emergency.html
 
 ### TL;DR
-The WHO has declared an Ebola outbreak in northeast Congo and Uganda a Public Health Emergency of International Concern after 246 suspected cases and 80 deaths, including cases in Kinshasa and Kampala. The Bundibugyo Ebola species is responsible; there is no approved vaccine or specific treatment for this strain. Conflict, weak health systems, USAID and CDC pullbacks, and late detection all complicate response. HN commenters stress it’s unlikely to become “another Covid,” yet argue it remains a serious regional and global health test.
 
----
+WHO classified the Bundibugyo Ebola outbreak in the Democratic Republic of Congo and Uganda as a public health emergency of international concern, not a pandemic emergency. Authorities reported 246 suspected cases and 80 deaths in Ituri, only eight laboratory-confirmed, plus cases in Kinshasa and Kampala. No approved vaccine or therapeutics target this species. Direct fluid contact drives transmission, while conflict, mobility, weak trust, informal clinics, and late detection complicate containment. HN debated whether the declaration signals extraordinary global danger or appropriately mobilizes resources for a serious regional outbreak.
 
 ### Comment pulse
-- PHEIC designation is rare and serious → signals coordinated international response need—counterpoint: some say only Covid truly warranted alarm and this will stay in sub‑Saharan Africa.  
-- Transmission debate → Ebola spreads via bodily fluids, funerals, poor IPC; Bundibugyo fatality ~30–50%, possibly allowing more spread than older, deadlier strains.  
-- Institutions and politics → US withdrawal from WHO and USAID/CDC cuts may weaken surveillance; WHO border-closure caution aims to keep countries reporting honestly.
 
----
+- Alarm centered on the rare international-emergency designation, delayed surveillance, cross-border urban cases, and absent Bundibugyo vaccine — counterpoint: direct-contact transmission limits pandemic potential.
+- Commenters disputed fatality novelty: 80 deaths among 246 suspected cases approximates 33%, within the 30–50% range cited for earlier Bundibugyo outbreaks.
+- Avoiding border closures may preserve reporting cooperation by reducing countries’ fear that disclosure will trigger economic punishment and concealment incentives.
 
 ### LLM perspective
-- View: High-risk regional crisis in fragile, conflict-affected areas; low likelihood of global pandemic but high stakes for local populations.  
-- Impact: Stretches DRC and Uganda health systems, pressures NGOs, and tests post-Covid global cooperation amid US disengagement and distrust of WHO.  
-- Watch next: Case trends in capitals, confirmation of cross-border chains, genomic data, and rapid development of Bundibugyo-specific vaccines/therapeutics and funding.
+
+- View: Severity and transmissibility are distinct; a hard-to-spread pathogen can still justify coordination when surveillance, geography, and treatment options deteriorate.
+- Impact: Aid reductions and institutional withdrawal may leave local health systems carrying more surveillance, tracing, isolation, and clinical-response burden.
+- Watch next: Track laboratory confirmations, links between capital-city cases, geographic spread, contact-tracing coverage, and delivery of international response resources.

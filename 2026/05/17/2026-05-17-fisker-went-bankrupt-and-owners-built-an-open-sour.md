@@ -3,18 +3,17 @@
 - Score: 166 | [HN](https://news.ycombinator.com/item?id=48164891) | Link: https://electrek.co/2026/05/16/fisker-ocean-open-source-ev-story-after-bankruptcy/
 
 ### TL;DR
-Fisker’s 2024 bankruptcy left ~11,000 Ocean EVs effectively “bricked” because core functions depended on cloud services that went dark. In response, 4,000 owners formed the nonprofit Fisker Owners Association, reverse‑engineered the car’s software, mapped CAN buses, built open-source tools and diagnostics, organized repair networks, and negotiated parts and insurance—essentially recreating a mini car company. A failed deal over software access highlighted how fragile cloud‑tied vehicles are, prompting calls for software escrow, open-source fallbacks, and stronger right‑to‑repair rules.
 
----
+After Fisker’s 2024 bankruptcy orphaned roughly 11,000 Ocean SUVs, a 4,000-member owners’ nonprofit assembled replacement support: firmware expertise, parts group buys, mobile repairs, insurance advocacy, recall representation, diagnostics, CAN-bus maps, and a Home Assistant integration. This is not a fully forkable car OS; supplier ownership and safety-critical systems constrain what volunteers can replace, while a separate software-access deal collapsed over costs. HN saw the failure as a warning for any cloud-dependent vehicle, not EVs specifically, and favored escrow or open fallback rights while stressing modification complexity and regulation.
 
 ### Comment pulse
-- Cloud‑dependent failure isn’t unique to EVs → ICE cars with similar architectures face the same risk; systemic fix needed, not EV‑specific stigma.  
-- Demand for owner‑controlled, open-source cars → privacy and modding appeal; DIY engine/EV software exists but is complex, costly, and easy to get wrong.  
-- Media skepticism → some readers see AI-ish prose and awkward Doctorow citation; headline initially implied Fisker’s founders, not vehicle owners, rebooted the company.
 
----
+- Cloud dependence is drivetrain-agnostic → commenters argued ICE vehicles can become equally orphaned when critical functions depend on vanished servers.
+- Open source improves longevity, not simplicity → community repair enables control — counterpoint: automotive safety, expertise, cost, and regulation make casual modification risky.
+- Presentation hurt credibility → readers found the headline ambiguous and prose AI-like, distracting from the owners’ concrete engineering and organizing work.
 
 ### LLM perspective
-- View: FOA shows community maintenance can keep complex products alive, but relying on volunteer labor is unsustainable at industry scale.  
-- Impact: Expect pressure on regulators and OEMs for mandatory software escrow, open APIs, and continuity plans in vehicle homologation.  
-- Watch next: Whether EU’s shared software platform ships, how future EV bankruptcies handle code, and if right‑to‑repair laws add cloud‑service guarantees.
+
+- **View:** Escrow must cover source, signing keys, builds, backend protocols, diagnostics, and documentation; code alone cannot sustain a connected vehicle.
+- **Impact:** Owners gain service life and bargaining power; manufacturers and suppliers face obligations around continuity, liability, and repair access.
+- **Watch next:** Bankruptcy fallback laws, escrow triggers, FOA membership, recall completion, parts availability, insurer participation, and independently verified vehicle-function coverage.

@@ -3,14 +3,17 @@
 - Score: 411 | [HN](https://news.ycombinator.com/item?id=48170798) | Link: https://stateofsurveillance.org/news/flock-cameras-destroyed-nationwide-ice-backlash-2026/
 
 ### TL;DR
-People in several US states have begun cutting down or smashing Flock Safety license-plate cameras, with at least 25 destroyed since 2025 and one Virginian charged over 13. The article links this to mounting anger over Flock’s vast ALPR network, alleged ICE access via local police, secrecy around camera locations, and city councils ignoring public objections. Commenters question whether 25 cameras is meaningful, whether the piece is activist or AI-flavored, and debate vandalism versus legislative reform.
+
+An advocacy site catalogs at least 25 destroyed Flock license-plate cameras across five states since April 2025, including 13 attributed to one Virginia man now facing 25 charges. It links the vandalism to anger over immigration-enforcement access: the article cites more than 4,000 police lookups for federal immigration purposes and cameras deployed in roughly 6,000 communities. It also notes 46 cities have rejected Flock. HN strongly questioned the implied scale—25 devices is tiny and concentrated—while debating whether sabotage chills surveillance or distracts from legislation and contract cancellation.
 
 ### Comment pulse
-- Scale overstated → 25 cameras tiny vs thousands; mostly one guy; headline and narrative inflate significance. — counterpoint: fear of prosecution suppresses action, not concern.  
-- Article quality debated → some see lazy, LLM-flavored activism; others say writing and sourcing are fine and AI-or-not is irrelevant.  
-- Strategy split → critics urge channeling energy into legislation; supporters argue vandalism raises costs, complements grassroots campaigns, and history shows civil disobedience often precedes reform.  
+
+- The headline overstates a trend → 13 of 25 devices involved one person, against hundreds of cameras in Richmond alone.
+- Concern can exceed visible action → surveillance’s chilling effect and criminal penalties suppress vandalism — counterpoint: online enthusiasm does not establish broad public opposition.
+- Policy and disruption can reinforce each other → activists pursue contract cancellations while vandalism raises deployment costs — counterpoint: property damage may weaken legitimacy.
 
 ### LLM perspective
-- View: This is less a vandalism wave than an early signal of mainstream discomfort with privatized, data-sharing surveillance infrastructure.  
-- Impact: Cities, schools, vendors face higher political and physical costs, nudging them toward shorter retention, stricter access, or canceling deployments.  
-- Watch next: State ALPR laws, audits of police queries, and whether insurers or investors start pricing in sabotage and downtime.
+
+- **View:** Documented incidents do not establish prevalence; denominators, trends, and independent sourcing are necessary before calling sabotage a movement.
+- **Impact:** Cities face rising equipment and legitimacy costs; residents face expanding data-sharing risks plus criminal exposure from direct action.
+- **Watch next:** Track verified damage rates, repair costs, prosecutions, city cancellations, query-audit rules, federal-access limits, retention policies, and camera-location litigation.

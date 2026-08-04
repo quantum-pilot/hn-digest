@@ -3,14 +3,21 @@
 - Score: 149 | [HN](https://news.ycombinator.com/item?id=48147351) | Link: https://fosdem.org/2026/schedule/event/AGWUVH-mercurial-aint-you-dead-yet/
 
 ### TL;DR
-This FOSDEM talk describes how Mercurial, a 2005-era distributed VCS, has stayed actively developed, funded, and influential despite losing the popularity battle to Git. The speakers trace its history, corporate involvement, and design ideas that quietly shaped newer tools like Sapling and Jujutsu, then use that story to reflect on the future of version control and community-led open source. HN commenters mostly reminisce that Mercurial was nicer and safer, but concede Git and GitHub’s network effects won—and may now be inherited by jj-like frontends.
+
+A FOSDEM talk marks Mercurial’s 20-plus years as an active distributed version-control project despite losing the 2010s popularity contest to Git. Its maintainers cite sustained funding, modern tooling such as Heptapod, continued technical evolution, and descendants including Sapling and Jujutsu. HN largely remembered Mercurial as friendlier and safer, but explained Git’s victory through GitHub, contribution expectations, and ecosystem network effects; Reddit switched for those reasons in 2008. Weak short-lived-branch ergonomics and hosting also hurt, while Jujutsu now carries Mercurial-like ideas onto Git repositories and forges.
 
 ### Comment pulse
-- Mercurial was technically better and friendlier → Git won via GitHub dominance, Linus’s influence, and contribution expectations (e.g., reddit’s switch to be “taken seriously”) — counterpoint: some are relieved to only learn Git once.
-- Many found Mercurial clearer and “safer” than Git → they feel Git externalizes internal complexity onto users and workflows — counterpoint: Mercurial’s bookmarks/short-lived branches were confusing enough to push some to Git.
-- Jujutsu viewed as Mercurial’s spiritual successor → it adopts Mercurial-like ergonomics while using Git backends/forges, leading some to predict Mercurial itself will fade.
+
+- Technical merit lost to coordination → teams chose Git because collaborators and contributors already used it, even when employees preferred Mercurial’s interface.
+
+- Mercurial’s simplicity had limits → bookmarks and short-lived branches confused users, while weak forge experiences reduced practical usefulness.
+
+- Git’s learning cost can amortize → once mastered, its stability and ubiquity may beat repeatedly learning friendlier tools — counterpoint: internals remain users’ burden.
 
 ### LLM perspective
-- View: Mercurial shows that ecosystem gravity (hosting, culture, branding) can outweigh core technical quality in developer tools.
-- Impact: Future VCS choices will likely be “Git-compatible core + better UX layer,” rather than entirely new backends competing head‑on.
-- Watch next: Adoption curves for Jujutsu and Sapling, and whether Mercurial carves out a durable niche via Heptapod or specialized enterprises.
+
+- **View:** Version-control adoption is a protocol-network problem: interoperability and hosting access can outweigh safer semantics or superior interfaces.
+
+- **Impact:** Mercurial remains useful in controlled environments, while new users can access its design lineage through Git-compatible Jujutsu.
+
+- **Watch next:** Watch funding, contributor counts, Heptapod usability, Git interoperability, enterprise deployments, and whether Jujutsu absorbs more of Mercurial’s community.

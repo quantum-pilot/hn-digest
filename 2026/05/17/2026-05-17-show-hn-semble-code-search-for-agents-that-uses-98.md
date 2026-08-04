@@ -2,19 +2,18 @@
 
 - Score: 125 | [HN](https://news.ycombinator.com/item?id=48169874) | Link: https://github.com/MinishLab/semble
 
-## TL;DR
-Semble is a local-first, CPU-only semantic code search engine designed for AI agents. It chunks code, combines static code embeddings with BM25, and re-ranks with code-aware heuristics, achieving near-transformer retrieval quality while indexing whole repos in hundreds of milliseconds and answering queries in ~1.5 ms. Instead of grep+reading entire files, agents (or humans) ask natural-language or symbolic questions and receive only relevant snippets, saving ~98% tokens. HN discussion centers on real-world agent benchmarks, comparisons to LSPs/other tools, and harness-level integration.
+### TL;DR
 
----
+Semble is a local, CPU-only code-search library for coding agents, exposed through MCP, shell, or Python. It chunks repositories, combines static code embeddings with BM25, fuses rankings, and adds code-aware boosts and penalties. Across 1,250 queries, it reports NDCG@10 of 0.854, 263 ms indexing, 1.5 ms median queries, and 98% fewer retrieved tokens than grep-plus-file-reading. HN welcomed the idea but focused on agent integration behavior and comparisons with established alternatives.
 
-## Comment pulse
-- Agent behavior concern → Models are RL-tuned on grep; without fine-tuned prompts, they may distrust new tools and retry, erasing token savings.  
-- Comparison gap → Commenters want head‑to‑head results vs LSPs and tools like ck and colgrep, not just grep or generic transformer baselines.  
-- Integration questions → Some argue this belongs inside the harness so all agents benefit automatically; others note semantic search is directly useful for human developers too.
+### Comment pulse
 
----
+- Benchmark skepticism focused on agent behavior: models may retry familiar grep or reread full files, erasing retrieval savings despite strong standalone metrics.
+- Readers requested comparisons with LSPs, ck, colgrep, and harness-native search, reflecting uncertainty about whether Semble belongs as a tool or built-in capability.
+- Semantic search appealed beyond agents because humans also need conceptual discovery when they lack an exact symbol or identifier.
 
-## LLM perspective
-- View: Tools like Semble push agents toward structured retrieval workflows instead of ad‑hoc filesystem exploration, enabling more reliable multi-step coding sessions.  
-- Impact: If widely adopted, agent providers could standardize on fast, local semantic search backends, lowering costs and improving latency for large codebases.  
-- Watch next: Look for task-level benchmarks measuring bug-fix success, edit quality, and retries when swapping grep/LSP search for Semble-style retrieval.
+### LLM perspective
+
+- View: Token efficiency matters only if retrieval changes agent behavior; isolated recall cannot measure retries, verification loops, or task completion.
+- Impact: Reliable adoption could lower inference cost and latency while freeing context for architecture, constraints, and edits.
+- Watch next: Run controlled coding tasks with tool-call traces, completion quality, wall time, token totals, and grep fallback rates.
