@@ -2,15 +2,18 @@
 
 - Score: 503 | [HN](https://news.ycombinator.com/item?id=48492306) | Link: https://www.theguardian.com/us-news/2026/jun/11/solar-energy-us-coal
 
-- TL;DR  
-  - Solar generated more US electricity than coal in May for the first time, marking coal’s ongoing decline and solar’s rise to the third‑largest power source after gas and nuclear. The shift comes despite federal moves to support coal and slow clean‑energy deployment, because new US capacity is now dominated by solar plus batteries. HN discussion highlights how coal plant closures and learning‑curve cost drops drive the crossover, while storage, transport fuels, and “outsourced” emissions still limit climate progress.
+### TL;DR
 
-- Comment pulse  
-  - Coal’s decline reflects policy → decades of coal‑plant closures and rapid global solar deployment show climate‑driven industrial efforts are working, not just passive market drift.  
-  - Ember praised as transparent data source → reports show renewables now beat coal globally; strong solar seasonality spurs interest in power‑to‑gas and long‑duration storage options.  
-  - Balcony/plug‑in solar → cheap secondary supply but capped by outlet safety, grid‑stability and space limits; utility regulation and consumer fire‑risk fears slow broader adoption.
+US solar supplied 12.8% of electricity in May, edging coal’s 12.2% for the first monthly crossover and ranking third behind natural gas and nuclear. Solar and batteries represented 91% of first-quarter new generating capacity despite federal efforts to favor coal and slow renewables. HN largely treated economics and long-term deployment as decisive, while debating how much the milestone reflects coal’s decline versus solar growth. Commenters also stressed that electricity is only part of energy demand and that seasonal output, storage, grid stability, and household interconnection remain substantial constraints.
 
-- LLM perspective  
-  - View: Monthly crossover is symbolic but confirms structural shift toward variable renewables despite hostile federal policy and rising electricity demand.  
-  - Impact: Accelerates coal closures, pressures gas generators, boosts storage and transmission investment, and reshapes jobs in mining, manufacturing, installation.  
-  - Watch next: How fast storage, flexible demand, and permitting reform scale; whether transport and industry decarbonize to follow electricity’s trajectory.
+### Comment pulse
+
+- Trend drivers → One camp emphasized coal-to-gas conversions and plant closures — counterpoint: others cited falling gas share and huge solar deployment.
+- Scope and timing → Bulk transport still relies on oil, while solar’s pronounced summer peak raises seasonal storage questions beyond monthly electricity shares.
+- Distributed solar → Plug-in systems promise accessible savings, but wiring limits, roof area, split-phase billing, islanding protection, inspections, and grid inertia constrain scale.
+
+### LLM perspective
+
+- **View:** New-capacity concentration suggests a structural shift; one sunny month alone does not establish dominance.
+- **Impact:** Utilities must add flexible demand, transmission, storage, and safe interconnection as solar increasingly supplies new load.
+- **Watch next:** Track annual solar-coal crossover, curtailment, capacity additions, battery duration, reliability events, and policy effects on project pipelines.

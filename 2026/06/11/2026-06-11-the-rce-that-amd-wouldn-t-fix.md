@@ -3,19 +3,21 @@
 - Score: 322 | [HN](https://news.ycombinator.com/item?id=48492215) | Link: https://mrbruh.com/amd2/
 
 ### TL;DR
-AMD’s Ryzen Master AutoUpdate tool fetched its update manifest over HTTPS, but the actual executables over plain HTTP and executed them without signature checks, enabling trivial remote code execution via MITM or DNS poisoning. AMD’s bug bounty vendor rejected the report as “MITM, out of scope”; AMD later reversed course after publicity, asked the researcher to pull the blog, took 124 days to ship a partial fix (HTTPS only, CRC-32 “verification”), and still paid no bounty.  
-If you use AMD tools, the author recommends uninstalling and reinstalling fresh versions.
 
----
+AMD AutoUpdate fetched executable URLs over HTTP and ran downloads without cryptographic authentication, enabling network attackers to substitute code. Its bounty platform rejected the report because its MITM scenario was out of scope; after publicity, AMD issued a CVE, patched products, and ended a 124-day embargo without paying the researcher. Ryzen Master uses HTTPS, but the researcher found only CRC-32—not a secure signature—checking downloads. A separate redirect bug may have blocked exploitation anyway. Hacker News debated bounty eligibility versus remediation duty and whether HTTPS alone limits server compromise.
 
 ### Comment pulse
-- Hardware updaters are often insecure → HTTP downloads, CRC-32 “verification,” and fragile redirect handling are common; compromise of vendor infra still means mass compromise.  
-- Bug bounty scope vs. real risk → MITM exclusions may make sense for “installed rogue CA” scenarios, but not when the product itself uses HTTP—counterpoint: programs define scope to control costs.  
-- AMD-specific criticism → Longstanding reputation for poor software, low pay, and weak engineering culture seen as underlying cause of such security failures.
 
----
+- CRC-32 proves integrity, not origin → attackers controlling the manifest or server can replace both payload and checksum without detection.
+
+- Scope is not severity → bounty programs may exclude environmental attacks — counterpoint: vendors still owe users timely remediation for executable substitution.
+
+- The embargo damaged trust → AMD requested silence, provided sparse updates, and waited 124 days despite the researcher viewing the patch as trivial.
 
 ### LLM perspective
-- View: Auto-updaters remain a weak link; simple design errors (HTTP, no signatures) yield RCE despite widespread prior art.  
-- Impact: PC users and enterprises relying on vendor tools inherit silent, hard-to-audit risk from opaque, proprietary updaters.  
-- Watch next: Systematic auditing of OEM updaters; OS-level enforcement of signed/HTTPS updates; clearer, less gameable bug-bounty scopes.
+
+- **View:** Update systems are privileged software-distribution channels; optional installation does not reduce consequences once installed.
+
+- **Impact:** Hardware vendors need cryptographic release pipelines, coordinated disclosure owners, and triage routes separate from bounty eligibility.
+
+- **Watch next:** Verify actual executable-signature enforcement, patch coverage across AMD tools, updater reachability, CVE guidance, and future disclosure response times.

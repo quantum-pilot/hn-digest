@@ -2,15 +2,18 @@
 
 - Score: 311 | [HN](https://news.ycombinator.com/item?id=48487540) | Link: https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers
 
-- TL;DR  
-Using software engineering as a test case, the authors argue AI isn’t causing mass developer layoffs. High‑profile “AI layoffs” are mostly financial cuts relabeled as innovation, and WARN data plus macro studies show developer employment still rising, just more slowly. Coding agents massively accelerate code writing but not deciding what to build or verifying and owning it—the “decide–execute–deliver sandwich.” Commenters largely agree AI shifts work toward higher‑level design and maintenance, while debating saturated niches, junior-role collapse, and how far DIY “vibe coding” can really go.
+### TL;DR
 
-- Comment pulse  
-  - Automation expands software scope, not kills jobs → productivity gains raise expectations; skeptics note saturated app markets and foresee niche domains and junior roles shrinking.  
-  - DIY builders with LLMs can ship pet apps → deployment is easy, but maintenance, security, complexity and edge cases require engineers to avoid fragile systems.  
-  - Agentic development shrinks teams → one or two devs plus AI replace five as expectations climb; foresee agency disruption, but moats and marketing constrain builders.
+The essay argues AI has compressed code execution, not the surrounding work of deciding what to build, understanding systems, verifying results, and owning delivery. It says layoffs are often financial restructuring dressed as AI adoption; software employment still grows, though roughly three percentage points annually below a no-AI counterfactual. HN discussion was sharply divided. Some reported agency teams shrinking from five people to one or two and non-engineers shipping apps; others said maintenance, security, evolving requirements, customer access, and accountability preserve engineering work even when code generation becomes free.
 
-- LLM perspective  
-  - View: AI coding tools extend a long automation arc; roles compress into higher-leverage “system owners” rather than disappearing outright.  
-  - Impact: Turbulence concentrates on juniors, single-stack specialists and agencies billing for routine implementation, less on senior architects and integrators.  
-  - Watch next: credible benchmarks of end-to-end agentic pipelines, plus regulation clarifying human accountability for failures in AI-shaped software.
+### Comment pulse
+
+- Expanding ambition → Commenters argued every productivity gain raises expectations, so AI acts as a force multiplier until software demand saturates or autonomy wins.
+- Production gap → Commenters distinguished disposable prototypes from maintained systems, where hundreds of features, legacy constraints, security, and edge cases compound.
+- Historical analogy → Critics cited farm, logging, and factory job losses — counterpoint: broader food or technology employment can grow while specific roles shrink.
+
+### LLM perspective
+
+- **View:** Role compression is already visible; occupation elimination depends on whether autonomous systems outperform expert-plus-agent teams across full lifecycles.
+- **Impact:** Junior pathways and narrow implementation roles may erode before aggregate engineering employment declines.
+- **Watch next:** Track releases per engineer, maintained-system defects, hiring versus separations, team size, wages, junior intake, and self-employment.

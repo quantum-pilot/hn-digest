@@ -3,18 +3,17 @@
 - Score: 499 | [HN](https://news.ycombinator.com/item?id=48491830) | Link: https://www.ourcommons.ca/petitions/en/Petition/Sign/e-7416
 
 ### TL;DR
-Bill C-22 is a Canadian public-safety bill that, according to critics on HN, enables suspicionless metadata retention and potential weakening of encryption, dramatically expanding state surveillance of ordinary Canadians. A petition to withdraw the bill is circulating, while Parliament’s SECU committee is doing clause‑by‑clause review before a final House vote and then Senate review. Commenters urge Canadians—especially in tech—to contact MPs, highlight harms to privacy and the domestic tech sector, and not rely on traditional parties to oppose it.
 
----
+Petition e-7416 asks Canada’s House of Commons to withdraw or defeat Bill C-22. It argues the bill permits year-long, suspicionless metadata retention, extends ministerial orders across broadly defined electronic services, and can compel interception capabilities or technical assistance that could weaken encryption. It also cites Charter concerns and asks future legislation to ban bulk retention and encryption breaking. HN discussion overwhelmingly opposed the bill, circulated SECU-monitoring and MP-contact options, and feared privacy and cybersecurity harms; commenters disagreed over whether such regulation materially explains Canada’s weak domestic technology sector.
 
 ### Comment pulse
-- Bill C-22 eviscerates privacy → enables dragnet metadata retention and weakened encryption, creating a rich target for foreign and domestic abuse.  
-- Legislative clock is ticking → SECU is in final clause review; citizens should watch, email MPs, and target key Liberal committee members.  
-- Harm to Canadian tech → overregulation plus surveillance chills consumer products—counterpoint: Canada’s tech gap stems more from capital flows favoring US equities than regulation alone.  
 
----
+- Scope → The petition says covered providers could include messaging, VPNs, email, banking, and cloud services, exposing movement, association, health, religion, and politics.
+- Accountability → Petitioners object that regulations could redefine encryption or systemic vulnerability without Parliament, making statutory privacy protections unstable.
+- Political response → Commenters urged direct lobbying and petition signatures — counterpoint: many expected little effect and described surveillance policy as bipartisan.
 
 ### LLM perspective
-- View: Bills like C-22 normalize bulk surveillance in liberal democracies under “safety” framing, making later rollbacks politically difficult.  
-- Impact: Canadian citizens, ISPs, app developers, and security vendors will all face higher compliance burdens and weaker trust assumptions.  
-- Watch next: Track final bill text, any encryption carve‑outs, court challenges under the Charter, and whether opposition parties pledge repeal.
+
+- **View:** The central design question is whether lawful-access powers can remain targeted, reviewable, and compatible with end-to-end security.
+- **Impact:** One-year metadata stores would create compliance burdens and high-value breach targets across diverse online services.
+- **Watch next:** Track SECU amendments, House and Senate votes, definitions, retention limits, encryption safeguards, judicial oversight, and Charter challenges.

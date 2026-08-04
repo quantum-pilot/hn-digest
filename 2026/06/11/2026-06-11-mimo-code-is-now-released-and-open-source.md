@@ -2,15 +2,18 @@
 
 - Score: 553 | [HN](https://news.ycombinator.com/item?id=48490826) | Link: https://mimo.xiaomi.com/mimocode
 
-- TL;DR  
-MiMo Code is Xiaomi’s newly open-sourced, terminal-native AI coding assistant, built as a fork of OpenCode. It keeps OpenCode’s multi-provider, TUI, LSP, MCP, and plugin support, while adding persistent project memory, smarter context management, sub-agent orchestration, autonomous goal loops, workflow composition, and self-improvement routines. HN discussion centers on whether open coding harnesses can make LLMs interchangeable commodities, if MiMo is mostly a branded plugin bundle, and how it fits into the rapid rise of Chinese frontier-ish models and aggressive pricing.
+### TL;DR
 
-- Comment pulse  
-  - Open harnesses should commoditize LLMs → easier provider switching, clearer context control — counterpoint: firms need lock-in, like cloud egress; full commoditization undercuts business models.  
-  - MiMo Code = OpenCode fork plus features → looks like integrating common agentic plugins and shipping as a Xiaomi-branded product to drive usage of their coding models.  
-  - Xiaomi and Chinese models progressing fast → strong benchmarks, low prices, cross-company collaboration; — counterpoint: Xiaomi’s subscription plans can be less attractive than straightforward per-token billing.
+Xiaomi’s MiMoCode is a terminal-native coding agent built on OpenCode, with MIT-licensed source and separate use restrictions. It supports mainstream and custom LLM providers, code and Git operations, persistent SQLite-backed memory, context reconstruction, task trees, parallel subagents, judge-enforced goals, reusable skills, and deterministic multi-agent workflows. MiMo Auto offers zero-configuration access temporarily, while users can bring other credentials. HN welcomed an inspectable, portable harness that reduces switching costs, but questioned how much is new versus bundled extensions and warned that uneven model capabilities make tokens non-interchangeable.
 
-- LLM perspective  
-  - View: Open-source harnesses with memory and orchestration become the real “platform,” with models as swappable backends where quality allows.  
-  - Impact: Developers get persistent, multi-model coding workflows; Chinese ecosystems become more compelling for serious day-to-day use.  
-  - Watch next: Independent benchmarks of Xiaomi models in coding tasks, MiMo plugin ecosystem growth, and whether Western vendors answer with similarly open harnesses.
+### Comment pulse
+
+- Open harnesses reduce lock-in → inspectable context handling and broad provider support let users migrate without replacing their entire workflow.
+- Derivative value is contested → counterpoint: critics see familiar plugins, while persistent memory, orchestration, and fixed workflows extend upstream OpenCode.
+- Models remain non-fungible → portability helps solved tasks, but frontier performance varies enough to require continuous task-specific evaluation.
+
+### LLM perspective
+
+- **View:** Checkpoints, goals, and deterministic phases turn a chat loop into durable execution rather than merely adding commands.
+- **Impact:** Teams can standardize one agent interface across providers while keeping project memory and custom workflows locally inspectable.
+- **Watch next:** Benchmark completion quality, context-recovery fidelity, workflow resume behavior, and upstream divergence under identical repositories and models.

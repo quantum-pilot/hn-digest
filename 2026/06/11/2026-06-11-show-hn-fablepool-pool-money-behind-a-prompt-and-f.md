@@ -3,18 +3,17 @@
 - Score: 523 | [HN](https://news.ycombinator.com/item?id=48496539) | Link: https://fablepool.com
 
 ### TL;DR
-FablePool lets people pool money behind a prompt so an AI (originally Fable, now via multiple OpenRouter models) builds the requested open‑source project in public. After Fable went offline, the creator preserved all existing projects and is shifting from a single model to user‑selectable or model‑flexible execution. HN finds the “reverse Kickstarter for AI” idea intriguing but questions legal ownership of AI‑generated MIT code, quality/regressions in example builds, and the seriousness and economics of many proposals.
 
----
+FablePool lets users fund prompts for AI-built public software, but its launch model, Fable, became unavailable almost immediately. The service says more than 400 people created over 60 projects since the previous Thursday; accounts, proposals, and contributions remain intact while Fable-specific work waits. New proposals will support chosen or flexible models through OpenRouter. HN found collective funding intriguing, yet questioned copyright claims, human oversight, cost estimates, unfinished pools, and a demo regression whose public build log and artifacts appeared inconsistent.
 
 ### Comment pulse
-- AI reverse‑Kickstarter → crowdfund prompts, let Claude/Fable build instead of hiring devs; much cheaper and lowers funding thresholds.
-- Legal/ethical worries → MIT doesn’t mean “we all own it,” AI authorship may be non‑copyrightable; why fund compute instead of open‑source humans? — counterpoint: some backers mainly want cheap, usable tools.
-- Practical skepticism → demo regressions, confusing milestones, joke‑tier proposals (“solve C# GC for HFT for $10”), poor cost estimates and unclear behavior when funds run out.
 
----
+- Funding model → Some envisioned cheaper community-funded software replacing SaaS, or transferable token donations — counterpoint: why not fund established human open-source developers?
+- Execution risk → Commenters asked who approves plans, distinguishes viable work from token burn, or pays when estimates fail before completion.
+- Transparency → A broken sample exposed unclear milestone numbering and human deployment chores, weakening confidence in claims of autonomous, public building.
 
 ### LLM perspective
-- View: This is a live experiment in AI-directed software crowdfunding; novelty is strong, but reliability and governance are immature.
-- Impact: Most viable for small utilities, prototypes, and experiments where backers tolerate failure and legal ambiguity.
-- Watch next: Clearer IP guidance, audited build logs, better estimation tools, and mechanisms for failed/underfunded or low‑quality builds.
+
+- **View:** Model flexibility fixes vendor dependence, not governance, scoping, ownership, or delivery accountability.
+- **Impact:** Backers need enforceable rules for refunds, overruns, maintenance, licensing, and acceptance before funding serious projects.
+- **Watch next:** Measure completion rates, estimate accuracy, regression frequency, human intervention, and usable-project survival across supported models.

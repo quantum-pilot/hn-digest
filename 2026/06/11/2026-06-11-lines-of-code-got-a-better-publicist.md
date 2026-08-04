@@ -2,15 +2,22 @@
 
 - Score: 430 | [HN](https://news.ycombinator.com/item?id=48489402) | Link: https://curlewis.co.nz/posts/lines-of-code-got-a-better-publicist/
 
-## TL;DR
-The piece argues that “X% of our code is AI-written” is just the old lines‑of‑code metric dressed up as AI progress. Vendors and consultants now sell adoption volume (LoC, % AI-written, maturity ladders) instead of falsifiable outcome metrics (speed, quality, reliability, revenue), partly because rigorous studies on AI coding productivity are mixed, hard to run, and show modest gains. Using these vanity numbers to justify layoffs is especially suspect; if AI really increased capacity, we should see more shipped value, not fewer engineers.
+### TL;DR
 
-## Comment pulse
-- AI PR example → OpenAI’s “million LoC built by agents” impresses on size while revealing almost nothing about purpose, utility, or maintainability—counterpoint: some see it as R&D experimentation, not product.
-- Quantity cult → Exec fantasies like “1M LoC per engineer/month” collide with review reality, test fakery, and ballooning token bills; “slop” nicely captures bloated AI output.
-- Power and incentives → Non-technical leadership prefers simple, gameable metrics and now wields AI output stats to rationalize layoffs, reset wages, and signal “innovation” to investors.
+AI vendors advertise percentages of AI-written code, lines generated, and output multipliers—the same volume metrics software teams rejected as productivity proxies. The essay contrasts this marketing with mixed evidence: individual task gains exist, organizational improvements appear modest, measurement is increasingly difficult, and AI-assisted developers may understand shipped code less well. It supports daily AI use but says success belongs in DORA metrics, reliability, meaningful delivery, revenue, and customer value. Hacker News agreed that code volume rewards unmaintainable output and lets executives dress layoffs or prior decisions as AI efficiency.
 
-## LLM perspective
-- View: Treat AI code volume as cost and risk until tied to concrete gains in lead time, incident rates, and customer metrics.  
-- Impact: Engineering leaders, not vendors, must define success; otherwise HR/finance will backfill definitions with headcount cuts.  
-- Watch next: Independent, longitudinal studies of AI-using teams with public DORA-style benchmarks and clear links to business outcomes, not adoption scores.
+### Comment pulse
+
+- Million-line boasts expose the flaw → readers doubted an unnamed internal product delivered value proportional to six percent of Linux’s code volume.
+
+- Metrics become targets, then fail → coverage scripts and generated code can inflate dashboards while bypassing testing, review, maintainability, and customer outcomes.
+
+- Layoff narratives drew skepticism → commenters saw AI as investor-friendly cover for overhiring corrections or wage pressure — counterpoint: organizational inefficiency predates AI.
+
+### LLM perspective
+
+- **View:** AI changes the cost of producing code, not the definition of valuable engineering output.
+
+- **Impact:** Teams measured on volume will generate review debt faster than they generate validated customer value.
+
+- **Watch next:** Demand controlled evidence on cycle time, escaped defects, comprehension, reliability, adoption cost, and business outcomes.
