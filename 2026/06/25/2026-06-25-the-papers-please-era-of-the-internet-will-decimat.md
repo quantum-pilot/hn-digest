@@ -2,16 +2,18 @@
 
 - Score: 267 | [HN](https://news.ycombinator.com/item?id=48679608) | Link: https://expression.fire.org/p/the-papers-please-era-of-the-internet
 
-- TL;DR  
-Governments and platforms are moving toward mandatory ID and age checks online, risking an always-identified “papers, please” internet. The article (via FIRE) warns this enables pervasive tracking, censorship, and chilling of anonymous speech. HN commenters debate whether privacy-preserving cryptographic credentials or DMV-style keypairs could square safety with anonymity, but others argue enforcement inevitably ties credentials to real identities. Many see this as a political battle, not a technical one, with weak public concern and likely workarounds via parental controls or airgapped systems.  
-*Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  - Privacy-preserving anonymous credentials and DMV-generated keypairs could prove age without identity—counterpoint: real deterrence requires linking credentials to people, enabling punishment and mission creep.  
-  - Some say parental controls and better device defaults address minors’ access; broad online ID is unnecessary, unpopular in tech circles, and mainly serves surveillance interests.  
-  - Others foresee a split world: compromised everyday devices plus offline, frozen-in-time “safe” machines, as data-sharing becomes risky under pervasive identity mandates.
+FIRE argues online age assurance inevitably becomes identity infrastructure, forcing adults and minors to surrender biometrics, IDs, banking links, or platform profiles before speaking. Australia’s under-16 ban reportedly leaves about 70% of children on social media while creating breach and phishing risks; the UK may tighten enforcement and target VPNs, as US states and Congress pursue similar rules. HN debated privacy-preserving anonymous credentials, but skeptics said preventing credential sharing ultimately requires real-world identity and enforcement. Others favored parental controls and warned the public underestimates anonymity’s value.
 
-- LLM perspective  
-  - View: Online age-gating is being used as a wedge to normalize universal identity infrastructure that outlives its child-protection justification.  
-  - Impact: If centralized ID wins, anonymity for dissent, whistleblowing, and marginalized groups erodes first; commercial tracking and political control intensify.  
-  - Watch next: whether laws mandate privacy-preserving protocols, independent audits, and data-minimization—or quietly default to broad, linkable government or vendor databases.
+### Comment pulse
+
+- Anonymous credentials could prove age without correlation → cryptographic advocates proposed selective proofs — counterpoint: transferable tokens undermine enforcement unless tied to identity.
+- Parental controls offer a narrower intervention → commenters preferred device-level limits and parental responsibility over universal checkpoints affecting every user.
+- Privacy advocacy lacks public urgency → commenters called this a defining fight, while others said majorities support restrictions or remain indifferent.
+
+### LLM perspective
+
+- **View:** A system can minimize disclosed attributes, but governance determines whether issuers log, correlate, revoke, or expand verification beyond age.
+- **Impact:** Universal checks chill sensitive speech and create high-value identity stores while shifting child-safety responsibility from families to infrastructure.
+- **Watch next:** Compare bypass rates, breach incidence, retention periods, false classifications, VPN restrictions, and constitutional challenges across jurisdictions.

@@ -3,16 +3,17 @@
 - Score: 468 | [HN](https://news.ycombinator.com/item?id=48671468) | Link: https://9to5mac.com/2026/06/23/lastpass-notifies-users-of-yet-another-data-breach/
 
 ### TL;DR
-A new incident tied to a compromised LastPass marketing/market‑research vendor (Klue) exposed customer contact and CRM data—names, phone, email, addresses, and sales/support records. LastPass says password vaults and master passwords weren’t touched, but many HN commenters view this as yet another trust‑eroding event in a long pattern. Discussion centers on security theater in enterprises, the risks of sharing identifiable data with third parties, and whether users should move to local/open‑source password managers or alternative login models like email‑based magic links.
 
-*Content unavailable; summarizing from comments and title.*
+LastPass notified customers that attackers breached market-research partner Klue and accessed names, phone numbers, emails, physical addresses, support cases, and sales data through integrations with Salesforce and Gong. Password vaults were not affected. LastPass revoked Klue access, rotated API tokens, contacted law enforcement, investigated scope, and warned that exposed context could enable targeted phishing. HN remained deeply distrustful given LastPass’s 2015 and 2022 incidents, questioned why identifiable data reached a research vendor, and favored local password managers; some stressed that this breach did not expose passwords.
 
 ### Comment pulse
-- Repeated incidents erode trust in hosted password managers → many see continued use as security theater, though some argue vault encryption limits real user harm. — counterpoint: breaches often spur better security investment.
-- Vendor Klue’s compromise shows supply‑chain fragility → critics question why LastPass handed over identifiable CRM data instead of anonymized aggregates, and note many other tech firms were also impacted.
-- Users suggest alternatives → local/open‑source tools (KeePassXC, pwsafe) plus self‑chosen sync, or even “reset each time” and email‑magic‑link login, making email the de facto root identity.
+
+- Vendor data minimization failed → commenters saw no reason Klue needed names, addresses, and support details instead of anonymized research data.
+- Repeated incidents destroyed confidence → users recommended KeePassXC or Password Safe with locally controlled vaults and optional self-managed sync.
+- Scope matters → critics treated any recurrence as disqualifying — counterpoint: vault encryption still served users because passwords remained inaccessible.
 
 ### LLM perspective
-- View: Treat cloud password managers as breach‑assumed; evaluate by damage containment, not marketing claims.
-- Impact: Security teams may revisit vendor lists, CRM data sharing, and whether to centralize secrets with any single SaaS provider.
-- Watch next: Comparative audits of managers’ architectures, enterprise migration patterns, and adoption rates of passkeys and passwordless/email‑based logins.
+
+- **View:** The immediate risk is contextual phishing, while the governance failure is excessive customer-data propagation across SaaS vendors.
+- **Impact:** Organizations must treat CRM and support metadata as sensitive authentication-adjacent material, not harmless business contact data.
+- **Watch next:** Confirm affected-customer counts, token permissions, retention practices, Klue’s other impacted clients, ransom disclosures, and phishing campaigns.

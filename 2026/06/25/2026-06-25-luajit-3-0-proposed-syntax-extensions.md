@@ -3,20 +3,17 @@
 - Score: 223 | [HN](https://news.ycombinator.com/item?id=48667336) | Link: https://github.com/LuaJIT/LuaJIT/issues/1475
 
 ### TL;DR
-LuaJIT 3.0 is considering a batch of syntax extensions: C/JS-style logical operators, ternary expressions, compound assignment, and bitwise operators, many borrowed from Luau. Commenters like the modernization and potential easing of cross-dialect code (and AI-generated Lua), but worry LuaJIT is drifting from standard Lua 5.x into its own language and duplicating syntax for little gain. A parallel debate: add a dedicated ternary, or instead make if-then-else an expression with broader benefits and deeper semantic costs.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+LuaJIT 3.0 proposes a conservative bundle of backward-compatible syntax additions: bitwise and floor-division operators, C-style logical aliases, ternary expressions, optional chaining, nil coalescing, and compound assignments. Each should improve quality of life, have precedent elsewhere, avoid ambiguity, and remain manageable for formatters and language servers; broader ideas such as continue, switch, default parameters, and interpolation remain unresolved. HN welcomed renewed development and conveniences but debated whether C-like aliases merely create duplicate spellings, whether ternaries should instead be if expressions, and whether LuaJIT is becoming a distinct Lua 5.1-derived language.
 
 ### Comment pulse
-- Ternary vs if-expression → Some prefer `if x then y else z` for nesting; critics say value-returning blocks alter Lua’s semantics more than adding `?:`.
-- Direction and naming → LuaJIT is effectively a Lua 5.1 fork; added features and Luau imports make some argue 3.0 deserves a distinct language name.
-- JS-style operators (`&&`, `||`, ternary) → Proponents cite familiarity and AI tooling; opponents say duplicating `and`/`or` adds complexity without solving problems — counterpoint: Ruby uses both.
 
----
+- Ternary design divides users → `?:` is compact and familiar — counterpoint: Luau-style `if … then … else` scales better to nesting and `elseif`.
+- Logical aliases add familiarity but little capability → `&&` and `||` may help C/JavaScript users while fragmenting style and complicating tooling.
+- Compatibility remains intentionally asymmetric → LuaJIT stays rooted in 5.1, adopting later or dialect features selectively where existing semantics permit.
 
 ### LLM perspective
-- View: LuaJIT 3.0 is drifting into “Lua-like” territory; explicit governance and compatibility targets will matter more than individual operators.  
-- Impact: Game engines, Roblox-adjacent ecosystems, and AI-generated Lua benefit from Luau overlap; multi-version runtimes and bindings face higher complexity.  
-- Watch next: Clear spec of which Lua 5.2–5.4 features land, performance regressions from new syntax, and tooling support across dialects.
+
+- **View:** The strongest additions distinguish nil from false and avoid reevaluation; cosmetic aliases offer weaker benefits against lasting ecosystem cost.
+- **Impact:** Developers gain concise expressions; parsers, formatters, LSPs, transpilers, and multi-version runtimes must absorb another expanding dialect boundary.
+- **Watch next:** Track final syntax, metamethod semantics, precedence tests, tooling support, migration guidance, and parity with long forms.

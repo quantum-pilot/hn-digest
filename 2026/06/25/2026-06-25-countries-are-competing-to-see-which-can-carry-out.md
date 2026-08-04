@@ -2,16 +2,18 @@
 
 - Score: 290 | [HN](https://news.ycombinator.com/item?id=48672764) | Link: https://mullvad.net/en/why-privacy-matters/state-mass-surveillance
 
-- TL;DR  
-Governments and major platforms appear locked in a race to normalize mass surveillance, using real‑name rules, KYC, and centralized services to eliminate anonymity online. Commenters fear the early, open internet was a brief anomaly, with VPNs and pseudonyms becoming progressively criminalized or blocked. Others accept extensive monitoring as a fair price for safety and order, citing Singapore’s cleanliness and low crime. Many expect mission creep from counter‑espionage tools and predict more sites will demand identity verification just to participate.  
-*Content unavailable; summarizing from title and comments.*
+### TL;DR
 
-- Comment pulse  
-  - Open internet is fading: ID-linked devices and KYC shrink anonymity; VPNs are temporary, often blocked or regulated — counterpoint: some users just leave surveilled platforms.  
-  - Singapore cited as surveillance champion: cameras and social policing deliver cleanliness and safety; some praise this tradeoff, others add it to ‘do not visit’ lists.  
-  - States justify expanding data collection via foreign interference and crime; tech and VCs see profit in identity-based platforms; users realize they’re the product, not customers.
+Mullvad argues state mass surveillance has become a global contest spanning democracies and authoritarian regimes. It traces US Section 702, PRISM, Upstream, XKeyscore, data-broker purchases, Britain’s Tempora, EU surveillance proposals, Russia’s SORM, and China’s internet, biometric, and neighborhood monitoring. Its prescription is targeted, court-authorized surveillance—not population-scale collection—plus encryption and privacy tools. HN discussion was pessimistic about centralized platforms, mandatory identity checks, and VPN restrictions, but divided over trade-offs: some accepted pervasive cameras for Singapore-style safety, while others saw inevitable mission creep and eroding anonymity.
 
-- LLM perspective  
-  - View: Mass surveillance is converging with commercial tracking; regulatory KYC will make anonymous mainstream participation rare within a decade.  
-  - Impact: People needing privacy for safety—journalists, activists, minorities—will be pushed to harder-to-use tools, offline organizing, or self-censorship.  
-  - Watch next: Laws on VPNs and age/KYC checks, OS-level identity features, and whether large communities adopt privacy-preserving, decentralized alternatives.
+### Comment pulse
+
+- Online anonymity is shrinking → commenters expect KYC to spread from Reddit to other communities as laws and platform incentives converge.
+- Singapore embodies the core trade-off → critics cite normalized peer surveillance — counterpoint: former residents value safety, cleanliness, and strict enforcement.
+- VPNs are an incomplete defense → providers face blocking and identity mandates, while exit networks attract abuse and residential-proxy circumvention.
+
+### LLM perspective
+
+- **View:** The crucial boundary is not surveillance technology itself, but whether collection is targeted, reviewable, proportionate, and contestable.
+- **Impact:** Identity mandates and platform concentration can turn ordinary browsing into durable cross-service dossiers without explicit intelligence collection.
+- **Watch next:** Track Section 702 reform, EU chat-control votes, age-verification mandates, data-broker access, and encryption-backdoor proposals.

@@ -2,17 +2,18 @@
 
 - Score: 599 | [HN](https://news.ycombinator.com/item?id=48672732) | Link: https://www.reuters.com/world/asia-pacific/apple-raises-prices-macbooks-ipads-memory-costs-skyrocket-2026-06-25/
 
-- TL;DR  
-Apple quietly hiked US prices across most Macs, iPads, and several accessories, with many base models up $100–$300 and high‑end configurations rising even more (e.g., +$500 for some MacBook Pros, $2k for a 128 GB RAM upgrade). Commenters link this to surging DRAM and compute demand from AI players like OpenAI, arguing consumer hardware is now competing with data centers. The thread mixes anger at Apple and “AI tax” narratives with broader reflections on inflation, cheap computing history, and a growing sense of tech‑future pessimism.  
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+Apple raised prices across Macs, iPads, Apple TV, and HomePod as AI data centers diverted memory supply and drove DRAM prices up as much as 98% in early 2026, with another 58–63% quarterly increase forecast. The entry MacBook Neo rose from $599 to $699; selected MacBook and iPad configurations increased $150–$300, while iPhones were unchanged for now. Apple shares fell nearly 5%. HN expected broader industry hikes, debated whether Apple mismanaged procurement or protected margins, and stressed that cheaper historical computing does not soften today’s affordability shock.
 
-- Comment pulse  
-  - Price jumps are steep across Macs, iPads, Vision Pro; RAM upgrades feel predatory—counterpoint: Apple is just passing through market DRAM spikes, not uniquely at fault.  
-  - Historically, compute per dollar is vastly cheaper, but wages, healthcare, and education overshadow that; tool price hikes still hurt day‑to‑day workers.  
-  - Many see an “AI tax”: AI giants hoard memory/compute, hardware worsens in affordability, and software jobs feel less secure and more commoditized.
+### Comment pulse
 
-- LLM perspective  
-  - View: Consumer devices are now second‑class citizens behind AI data centers in the silicon and DRAM queue.  
-  - Impact: Power users, students, and small studios may delay upgrades, buy used, or leave Apple for cheaper, “good‑enough” PCs.  
-  - Watch next: DRAM capacity announcements, high‑end RAM/GPU street prices, and whether other OEMs follow with similar mid‑cycle hikes.
+- AI infrastructure externalizes a consumer hardware tax → memory makers prioritize higher-margin accelerator demand, tightening supply for PCs, tablets, consoles, and phones.
+- Apple’s scale invites scrutiny → critics cite its cash and purchasing leverage — counterpoint: global component prices still reward suppliers selling to the highest bidder.
+- Long-run compute abundance misses household reality → performance per dollar improved dramatically, but necessary tools becoming costlier still pressures wages, education, and small businesses.
+
+### LLM perspective
+
+- **View:** AI demand is no longer a cloud-only cost; it now reallocates physical supply across the entire electronics market.
+- **Impact:** Consumers delay upgrades; device makers trade volume against margin; memory suppliers gain leverage; developers face pricier hardware.
+- **Watch next:** Track iPhone launch pricing, retail inventory lag, DRAM contract prices, rival increases, shipment declines, and new fabrication capacity.

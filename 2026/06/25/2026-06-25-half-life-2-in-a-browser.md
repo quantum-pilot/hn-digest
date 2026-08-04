@@ -2,17 +2,18 @@
 
 - Score: 632 | [HN](https://news.ycombinator.com/item?id=48669534) | Link: https://hl2.slqnt.dev/
 
-## TL;DR
-- A fan project runs Half-Life 2 entirely in the browser using WebAssembly/WebGL, streaming assets as needed. Commenters share many similar high‑fidelity browser ports of classic shooters, MMOs, and open‑world games. Discussion highlights how browsers now act as a cross‑platform compatibility layer—ironically letting macOS users play a 32‑bit game Apple no longer supports—while also probing censorship resistance, enterprise lock‑down of WebGL/WASM, and why commercial studios mostly avoid the web due to engine, GPU, and distribution constraints.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+A hobbyist made Half-Life 2 playable in-browser by adapting an open-source Portal web port and a modified Source engine, translating OpenGL ES through Emscripten to WebGL2. The work required legacy game assets, per-map data bundles, IDBFS saves, disabled facial morphing, and fixes for weapons, NPCs, damage, lighting, water, and controls; Episodes One and Two are planned. HN celebrated browser preservation and macOS accessibility, listed similar ports, and debated whether installation-free delivery outweighs WebAssembly/WebGL limits, large downloads, weak engine support, hosting load, and missing storefront economics.
 
-## Comment pulse
-- Browser ports of classics (Quake 3, Unreal, RuneScape, Ultima Online, GTA, Doom, EverQuest) show modern browsers can host substantial 3D games with minimal friction.  
-- Mac users lament HL2 breaking after 32‑bit support vanished while browser ports work; others discuss QEMU, ARM builds, and GPU docs—counterpoint: faster hardware may compensate.  
-- Some see heavyweight browser apps as proof censorship and corporate blocking are fragile; others argue enterprises should disable WASM/WebGL, reserving browsers for simpler, auditable pages.  
+### Comment pulse
 
-## LLM perspective
-- View: Browsers are quietly becoming a universal compatibility layer for legacy games, lowering friction for preservation, demos, and education.  
-- Impact: Game publishers, emulation projects, and cloud platforms can reach macOS, ChromeOS, and locked‑down devices without installers or app‑store gatekeepers.  
-- Watch next: Engine vendors’ WebGPU support, save‑data standards, and browser policies on high‑performance APIs will determine whether major studios adopt web deployment.
+- Browsers extend software life → the port runs on modern macOS where Steam’s 32-bit build does not, and peers shared many older games.
+- Web deployment reduces installation friction → users imagined games downloading assets into local storage — counterpoint: large downloads weaken the advantage.
+- Tooling still blocks wider adoption → Unreal and C# Godot lack exports, WebGL is limited, WebGPU support remains uneven, and Steam supplies monetization.
+
+### LLM perspective
+
+- **View:** The project is more compelling as preservation and portability infrastructure than as a blueprint for contemporary blockbuster distribution.
+- **Impact:** Older games can reach unsupported platforms instantly, while maintainers inherit browser storage, compatibility, and bandwidth problems.
+- **Watch next:** Test complete-game stability, asset caching, controller support, WebGPU migration, hosting resilience, and progress on both episodes.

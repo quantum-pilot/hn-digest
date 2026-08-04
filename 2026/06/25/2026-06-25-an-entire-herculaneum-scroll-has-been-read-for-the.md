@@ -3,16 +3,17 @@
 - Score: 887 | [HN](https://news.ycombinator.com/item?id=48675179) | Link: https://scrollprize.org/firstscroll
 
 ### TL;DR
-Researchers have, for the first time, virtually read an entire carbonized scroll from Herculaneum, using high‑resolution CT scans plus machine‑learning models to segment, unwrap, and detect faint ink without opening it. The text, likely philosophical, is part of a small private library buried by Vesuvius. Commenters include a Vesuvius Challenge team member explaining the pipeline, people reflecting on ancient and modern imagination, and others highlighting how thousands of yet‑unread scrolls could radically expand our picture of the ancient world.  
 
-*Content unavailable; summarizing from title/comments.*
+Researchers virtually unwrapped and read the surviving core of PHerc. 1667, the first rolled Herculaneum papyrus recovered continuously end to end without physical opening. Phase-contrast X-ray microtomography mapped its tightly wound layers; reconstruction software flattened roughly 1.4 metres of surface, machine learning exposed faint ink, and papyrologists reviewed about 22 Greek columns. The fragmentary text appears to be a second-century-BC Stoic ethics treatise linked to Aristocreon. HN celebrated the milestone while probing ink-model hallucinations, throughput, and whether undiscovered scrolls could reshape knowledge of antiquity.
 
 ### Comment pulse
-- Ancient vs modern imagination → commenters marvel at Aristocreon’s scroll and note classical proto‑sci‑fi; — counterpoint: others argue human imagination stayed constant, only knowledge expanded.  
-- ML and CT breakthroughs → Vesuvius Challenge member mentions 3D segmentation, virtual unwrapping, ink‑detection; others fear hallucinated letters and ask about labeled data and speed.  
-- Rediscovering antiquity and tech optimism → part of Herculaneum excavated; thousands more scrolls could rewrite history; commenters celebrate AI work beyond advertising and medicine.  
+
+- Validation matters as much as detection → commenters asked how labeled data and model features prevent invented letters; papyrologist review anchors interpretation.
+- Scale is the next frontier → readers wanted automation and speed figures, especially if hundreds of sealed rolls or further libraries emerge.
+- Open collaboration restored optimism about technology → contestants became researchers, while public data and code let outsiders verify and extend the work.
 
 ### LLM perspective
-- View: Non‑destructive reading of carbonized texts shifts archaeology toward data science, where algorithms become standard excavation tools.  
-- Impact: Classicists, historians, and philosophers gain access to sources bypassing medieval copying bottlenecks, potentially overturning long‑held narratives about ancient thought.  
-- Watch next: Key metrics: pages deciphered per week, error rates versus human epigraphers, and whether funding appears for Herculaneum excavation and scanning.
+
+- **View:** The breakthrough is a reproducible evidence chain: scan geometry, recovered ink, expert transcription, and independent confirmation from higher-resolution data.
+- **Impact:** Classicists gain access to primary texts previously excluded by fragility, potentially reducing the survival bias created by medieval copying.
+- **Watch next:** Measure per-scroll processing time, publish ink-detector error rates, and test the pipeline across differently damaged rolls.

@@ -2,16 +2,18 @@
 
 - Score: 238 | [HN](https://news.ycombinator.com/item?id=48657049) | Link: https://dev.karltryggvason.com/you-cant-unit-test-for-taste/
 
-- TL;DR  
-  The discussion argues that “taste” in software and product design—things like subtle code quality, UX friction, or legal risk appetite—can’t be fully captured in specs or unit tests. You can externalize parts of it via docs, design records, or tooling, but debugging and encoding human judgment quickly exceeds what can be formalized. LLMs and agents are powerful support tools and “vibe-coders,” yet still need human gates for evaluation, UX, and risk, plus raise IP concerns when skills are fully codified.  
-  *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  Taste resists full formalization → specs and tests can cover correctness, but nuance still needs human review or explicit validation gates—counterpoint: partial externalization via comments/AST metrics still helps.  
-  LLMs work best as supervised assistants → “vibe-coding” with plan/revise cycles and human steering yields good results, but models remain poor at UX and beta-testing judgment.  
-  Externalizing taste has ownership risks → once encoded as agent skills, employers may claim IP; side threads critique LLMs’ “tasteless” legal strategies and some geospatial tech choices.
+A developer built a points-of-interest pipeline for a virtual-running app, reducing 13 million GeoNames records to 725,000 candidates, matching them to routes, and ranking them with Wikimedia signals plus an LLM. Haiku’s generated descriptions hallucinated locations, populations, and elevations, so Wikipedia text replaced them; the model remained only as a subjective ranking input. Route-specific biases and spatial clustering still required manual tuning because no universal ground truth defines an interesting stop. HN debated whether taste can be formalized, favoring human validation and supervised AI over fully automated judgment.
 
-- LLM perspective  
-  View: Treat “taste” as a human-in-the-loop signal, not a unit-testable property; build workflows that assume irreducible tacit judgment.  
-  Impact: Dev, UX, and legal work shift toward guiding and auditing agents, with personal “taste” becoming a differentiating skill.  
-  Watch next: Preference-learning models, automated UX probes, and agent frameworks with first-class human approval stages and transparent IP boundaries.
+### Comment pulse
+
+- Explicit criteria make some preferences testable → commenters proposed documentation, evaluation gates, and manual QA — counterpoint: tacit judgment cannot be fully externalized.
+- Process quality governs agent usefulness → plan-and-revise cycles, architectural decision records, and end-user evaluation can keep humans responsible for direction.
+- Alternative signals may reduce ad hoc ranking → QRank aggregates page views across Wikimedia projects, offering a more direct popularity measure than language count.
+
+### LLM perspective
+
+- **View:** The design separates factual generation from preference scoring, assigning the model only the lower-stakes task its errors can tolerate.
+- **Impact:** Product teams need route-specific overrides and visible inspection tools when optimizing subjective outputs across culturally uneven datasets.
+- **Watch next:** Compare QRank, language count, and model ratings against user-selected landmarks; track hallucination, geographic coverage, and diversity.

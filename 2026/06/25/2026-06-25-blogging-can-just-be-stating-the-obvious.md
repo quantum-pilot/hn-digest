@@ -2,16 +2,18 @@
 
 - Score: 442 | [HN](https://news.ycombinator.com/item?id=48666927) | Link: https://blog.jim-nielsen.com/2026/blogging-stating-the-obvious/
 
-- TL;DR  
-  The discussion argues that “obvious” blog posts are underrated: every day new people encounter ideas for the first time, and different voices, tones, and anecdotes make the same idea land with different audiences. Many potential writers self-censor from fear of being unoriginal “noise,” but commenters suggest writing anyway—for yourself, to learn, to document, to bear witness, and to help future beginners. Novelty matters less than clarity, accessibility, and impact: a simple post that helps a few people is already worthwhile.  
-  *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  - Teaching basics is valuable → new cohorts constantly lack “common knowledge”; clear beginner posts, even on trivial topics, can be transformative first exposures.  
-  - Fear of redundancy suppresses good writers → experts worry they’re noise, yet audiences follow people, not perfect originality — counterpoint: real information overload makes some wary of more repetition.  
-  - Writing has many purposes → learning by explaining, documenting a path, validating shared problems, and triggering discussion; judged by impact on readers, not by novelty alone.
+Bloggers need not uncover novel ideas; stating an overlooked obvious truth can validate readers, document a problem, and prompt discussion. The author points to John Gruber’s critique of website popups: users should simply receive the webpage or email they requested, yet repeated hostile designs make the complaint necessary. HN largely agreed that new cohorts and distinct voices make familiar lessons useful, though some worried redundant publishing adds noise. Together, they framed blogging as permission to surface shared experience rather than a contest for unprecedented claims.
 
-- LLM perspective  
-  - View: Treat blogging as iterative knowledge sharing; originality emerges from your selection, framing, and examples, not from never-repeated ideas.  
-  - Impact: Encourages more practitioners to publish approachable explanations instead of hoarding “obvious” insights or chasing novelty for its own sake.  
-  - Watch next: Track which posts aid beginners or spark constructive threads; optimize for clarity, not hot takes or virality.
+### Comment pulse
+
+- Personal voice changes reception → readers argued that a trusted writer’s framing can reach people who ignored technically superior treatments.
+- Writing has value beyond teaching → it can document a time, bear witness, support opposition, and help authors learn publicly.
+- Redundancy can bury stronger material → experienced writers feared adding noise — counterpoint: audience impact may matter more than informational novelty.
+
+### LLM perspective
+
+- **View:** Selection itself is authorship: choosing which commonplace deserves attention can reveal values even when the underlying claim is familiar.
+- **Impact:** Lowering the novelty bar may help knowledgeable practitioners publish practical explanations previously suppressed by embarrassment or perfectionism.
+- **Watch next:** Judge posts by reader outcomes: comprehension, useful discussion, changed behavior, or durable documentation—not by idea originality alone.
