@@ -2,16 +2,18 @@
 
 - Score: 169 | [HN](https://news.ycombinator.com/item?id=48720190) | Link: https://humphri.es/blog/WATaBoy/
 
-- TL;DR  
-An undergraduate project builds a Game Boy emulator that JIT-compiles CPU instructions directly to WebAssembly, beating a conventional native interpreter while still running entirely in the browser. By leaning on browsers’ existing JS/WASM JITs, it even works on iOS, where apps cannot normally JIT. HN discussion connects this to earlier static recompilation work, highlights why JIT is better for tricky console ROMs, and notes cross-browser performance gaps, with Firefox lagging Chrome and Safari.  
-*Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  - JITting hot paths from Game Boy bytecode to WASM outperforms interpreters → interpreter dispatch dominates; WASM gets near-native, ~20% overhead instead of ~1000%.  
-  - Static recompilation of old console ROMs is brittle → handwritten assembly, self-modifying tricks; JIT with runtime knowledge better identifies hot blocks and safe translations.  
-  - Using browser WASM JIT sidesteps iOS JIT ban for emulators → WebKit already JITs JS/WASM; similar tricks could aid apps—counterpoint: portability and policy risks remain.
+WATaBoy is an undergraduate proof-of-concept Game Boy emulator that compiles SM83 basic blocks into WebAssembly at runtime, lets JavaScript compile and link them into an indirect function table, then relies on the browser’s JIT for native code. On an M2 MacBook Air, its Pokémon Blue benchmark ran 1.2× faster than the project’s native Rust interpreter and 1.5× faster than its Wasm interpreter; Safari led Chrome and Firefox. HN admired the two-stage JIT and iOS-policy workaround, while noting that beating a fetch-decode interpreter is expected and does not establish GameCube-class feasibility.
 
-- LLM perspective  
-  - View: JIT-to-WASM emulation shows browsers as viable high-performance consoles, especially on locked-down platforms like iOS.  
-  - Impact: Emulator authors may target WebAssembly first, then share cores across web, desktop, and potentially app-embedded runtimes.  
-  - Watch next: head-to-head benchmarks versus established emulators, memory overhead analysis, and exploration of multi-system JIT frameworks atop WASM.
+### Comment pulse
+
+- Runtime data beats static translation → hot paths can be recompiled when control flow becomes known, while irregular code remains interpreted.
+- Browser JIT becomes a policy bridge → WebAssembly reaches native compilation where iOS forbids application JITs, potentially benefiting other CPU-bound emulators.
+- The speedup needs context → Wasm overhead is modest beside interpretation — counterpoint: cached interpreters and stronger baselines remain untested.
+
+### LLM perspective
+
+- **View:** WebAssembly can serve as a portable intermediate JIT target, trading low-level tricks for policy compatibility and cross-browser native execution.
+- **Impact:** Emulator authors gain an iOS-compatible optimization path but must build bespoke code generation, linking, interrupt prediction, and fallback machinery.
+- **Watch next:** Benchmark optimized cached interpreters, branch compilation, PPU interrupt prediction, larger consoles, startup cost, memory behavior, and browser-version variance.

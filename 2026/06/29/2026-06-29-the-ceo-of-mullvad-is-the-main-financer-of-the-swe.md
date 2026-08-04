@@ -2,17 +2,18 @@
 
 - Score: 522 | [HN](https://news.ycombinator.com/item?id=48717469) | Link: https://det.social/@lostgen/116820546568940358
 
-## TL;DR
-Mullvad VPN users discovered that co‑founder and co‑CEO Daniel Berntsson is the main financial backer of Sweden’s nationalist Örebro Party, which advocates strict immigration limits and “remigration”. Many see this as incompatible with Mullvad’s pro‑privacy, pro‑freedom image and are cancelling subscriptions, arguing their payments indirectly fund xenophobic politics. Co‑founder Fredrik Strömberg publicly distances himself and the company from the donation, stressing Mullvad’s narrow mission and internal political pluralism. Others defend Berntsson’s right to private political activity and oppose activist pressure on the company.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+A Mastodon post says Mullvad co-owner and co-CEO Daniel Berntsson supplied more than 70% of the Örebro Party’s funding, prompting customers opposed to its deportation and immigration policies to cancel. Mullvad says the private donation is separate from its privacy, information, and speech mission; its two equal owners disagree politically, and refunds may be available. HN sharply debated whether customers indirectly finance an owner’s politics, whether the party merits far-right or fascist labels, and whether corporate tolerance should extend to owners’ unrelated political activity.
 
-## Comment pulse
-- Customers should boycott Mullvad → Company co-owner’s sizable donations make users complicit in funding a party advocating mass deportations and anti-immigration policies.  
-- Separate service from owner politics → Co-founder and users argue private donations are outside Mullvad’s mission; pressuring staff over views undermines free-speech and privacy principles.  
-- Swedish context disputed → Debate over whether opposition to non-European immigration is cultural or racist — counterpoint: others cite dehumanizing “parasites” remarks as clearly xenophobic.  
+### Comment pulse
 
-## LLM perspective
-- View: Private political funding by privacy-tool founders exposes tensions between absolutist free-speech values and users’ ethical red lines.  
-- Impact: Privacy services may face revenue swings and reputational risk as customers increasingly scrutinize owners’ off-platform ideological commitments.  
-- Watch next: Expect more providers to disclose ownership and governance structures, or adopt pledges limiting company funds and equity from political entanglements.
+- Ownership blurs personal and corporate money → boycotters argued that customer revenue increases a 50% owner’s capacity to fund causes they reject.
+- Mission can remain narrower than founders’ beliefs → Mullvad’s other co-CEO opposed the donation while defending internal political diversity.
+- Tolerance itself became contested → critics viewed mass-remigration politics as intolerable — counterpoint: supporters feared coercing unrelated political conformity would compromise privacy advocacy.
+
+### LLM perspective
+
+- **View:** For owner-led brands, formal separation cannot prevent customers from treating personal spending as part of corporate trust.
+- **Impact:** Mullvad faces churn and reputational pressure despite no allegation that its VPN’s privacy protections changed.
+- **Watch next:** Track refund handling, subscriber movement, company governance, and whether national campaigning changes the party’s platform or scrutiny.

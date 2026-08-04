@@ -3,20 +3,17 @@
 - Score: 348 | [HN](https://news.ycombinator.com/item?id=48718102) | Link: https://en.sedaily.com/international/2026/06/29/samsung-sk-hynix-micron-sued-in-us-over-memory-price-fixing
 
 ### TL;DR
-US chipmakers Samsung, SK Hynix, and Micron are being sued in the US for alleged memory price‑fixing, with plaintiffs pointing to coordinated supply cuts (e.g., DRAM generations like DDR3/DDR4) and surging prices as circumstantial evidence. Commenters note a long history of proven DRAM cartels but also how hard it is legally to prove an explicit agreement. Debate centers on whether discontinuing older RAM is normal product evolution or collusive supply restriction, and on whether current antitrust penalties meaningfully deter such behavior amid booming AI‑driven demand.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Fourteen consumers and three small businesses sued Samsung, SK hynix, and Micron in California, alleging the DRAM producers coordinated supply cuts and legacy-memory phaseouts from 2022, helping raise prices roughly 700% over four years. They seek class certification for buyers of DRAM-containing products and treble damages; Jefferies expects no price effect through year-end. HN split over whether recurring allegations and market concentration justify suspicion or whether the cited manufacturing shifts reflect ordinary modernization without evidence of an agreement.
 
 ### Comment pulse
-- Lawsuit echoes past DRAM cartels → prior convictions and recurring accusations suggest systemic issues; small fines vs profits mean weak deterrence.  
-- Capacity shifts to DDR5 are normal → turning off DDR3/DDR4 fabs can be efficient modernization, not proof of collusion — counterpoint: persistent DDR4 demand makes universal exit economically suspicious.  
-- AI hyperscalers hoard components → massive forward buys of RAM/SSDs/GPUs may distort markets; some call for antitrust and energy‑based taxes on inefficient LLMs.
 
----
+- Prior misconduct weakens trust → Samsung and SK hynix previously received DRAM price-fixing penalties, yet a similar 2022 case could not establish agreement.
+- Legacy demand remains substantial → commenters cited AM4 desktops and embedded devices that still need DDR4 or DDR3, often with expensive redesign paths.
+- Capacity reallocation can be legitimate → HBM remains DRAM and newer DDR5 production needs resources — counterpoint: coordinated withdrawal could leave profitable demand unmet.
 
 ### LLM perspective
-- View: The real hinge is distinguishing normal capacity migration from coordinated under‑supply using hard communications evidence, not just parallel behavior.  
-- Impact: If plaintiffs win, memory pricing, supply planning, and AI build‑outs could face tighter scrutiny and higher compliance overheads.  
-- Watch next: Court rulings on discovery, any revealed internal communications, and whether regulators extend attention from DRAM to AI hardware supply chains.
+
+- **View:** Oligopoly conduct is hard to distinguish from synchronized rational strategy unless discovery reveals communications or abnormal capacity decisions.
+- **Impact:** Class certification would expand exposure from 17 plaintiffs to downstream purchasers across PCs, devices, and retail inventories.
+- **Watch next:** Monitor certification, evidence of coordination, DDR4 availability, supplier margins, and whether regulators open parallel antitrust actions.

@@ -3,20 +3,17 @@
 - Score: 319 | [HN](https://news.ycombinator.com/item?id=48719027) | Link: https://twitter.com/i/status/2071277885646868536
 
 ### TL;DR
-Instagram is reportedly reusing users’ photos inside ads for Meta’s smart glasses, relying on broad, longstanding Facebook/Instagram terms that grant rights over user content. Commenters note this isn’t new—Facebook has used names and photos in sponsored content for a decade—but worry more about non‑consenting people who appear in those photos. Many feel trapped: small businesses and event organizers rely on Instagram as their only public presence, making “just quit Meta” unrealistic even as distrust resembles attitudes toward smoking.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Instagram is reportedly placing users’ photos into advertisements for Meta Glasses, prompting criticism that the tactic will deepen distrust among people already suspicious of Meta’s data practices. HN noted that Facebook’s terms have permitted commercial use of names, profile pictures, and content since at least 2013, making the practice familiar rather than novel. The discussion focused on consent gaps for people merely appearing in photos, audience controls, and Meta’s network power: quitting is difficult when small businesses, events, and social discovery increasingly depend on Instagram.
 
 ### Comment pulse
-- Meta using user photos in ads is old behavior → broad ToS already permit name, profile pic, and content in sponsored posts—counterpoint: few users truly understood or consented.
-- Consent problem extends beyond the uploader → people appearing incidentally in photos never agreed to be faces in Meta’s advertising ecosystem.
-- Lock‑in via small businesses and events → Instagram functions as de‑facto web + newsletter, so quitting hurts users more than businesses.
 
----
+- Contractual permission is not meaningful awareness → broad terms have allowed sponsored use since 2013, but commenters doubted users read or understood them.
+- Consent does not stop at the uploader → people appearing incidentally in photos may never have agreed to commercial reuse.
+- Exit is constrained by network effects → businesses and cultural events rely on Instagram — counterpoint: some users still choose deletion or nonparticipation.
 
 ### LLM perspective
-- View: This normalizes platforms treating all user content as an ad asset, blurring boundaries between expression, endorsement, and exploitation.
-- Impact: Creators, bystanders in photos, and small businesses become involuntary participants in Meta’s marketing funnel, with limited exit options.
-- Watch next: Regulatory focus on image/likeness rights, third‑party appearance consent, and interoperability so businesses aren’t tied to a single ad-driven channel.
+
+- **View:** Using personal imagery in ads converts social participation into implied endorsement, regardless of formal permission.
+- **Impact:** Users and bystanders bear reputational risk; Meta gains memorable creative without direct compensation.
+- **Watch next:** Clarify audience restrictions, bystander rights, jurisdictional terms, opt-outs, and labeling of personalized ad imagery.

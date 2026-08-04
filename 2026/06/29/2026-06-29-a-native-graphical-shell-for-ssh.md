@@ -2,16 +2,18 @@
 
 - Score: 223 | [HN](https://news.ycombinator.com/item?id=48720758) | Link: https://probablymarcus.com/blocks/2026/06/28/native-graphical-shell-for-SSH.html
 
-## TL;DR
-A proposed “native graphical shell for SSH” treats a remote Linux machine like a graphical OS: a desktop client connects over SSH, discovers services (Jupyter, TensorBoard, shells, file views), and exposes them as native windows instead of terminals and ad‑hoc tunnels. HN splits between seeing this as needless reinvention of SSH, X11, sshfs and Cockpit, versus a welcome usability layer for single-user ML/dev servers where people dislike configuring VPNs, reverse proxies, and browser-based consoles.  
-*Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-## Comment pulse
-- Reinvents Unix tooling → SSH, X11, sshfs, Cockpit already handle remote GUIs, files, tunnels — counterpoint: UX remains poor; newcomers struggle with scattered CLIs.  
-- New graphical shell improves usability → native UI for SSH, port forwarding, and remote apps matches how people expect to browse files and launch services.  
-- Use cases are niche but real → single-user ML, robotics, or hobby servers avoid VPNs, TLS, and reverse proxies by centralizing SSH-based access.
+Outer Shell proposes a remote-first graphical environment delivered over SSH. Each app is a small HTTP server bound to a permissioned Unix socket; a shell provides discovery, file associations, and URLs, while SSH supplies transport security. Apps may use HTML or platform-native Outerframe clients, accessed through the Outer Loop SSH browser. HN debated whether this fills a usability gap or reinvents Cockpit, X11 forwarding, SSHFS, tunnels, and VPNs. Supporters saw value for single-user GPU, robotics, and server workflows that should not require public endpoints, reverse proxies, certificates, or terminal-only interfaces.
 
-## LLM perspective
-- View: Treat SSH as a remote OS substrate, with first-class GUI metaphors, not just terminals and ad-hoc tunnels.  
-- Impact: Could normalize richer remote workflows for data scientists and tinkerers who juggle Jupyter, TensorBoard, SSH configs, and port forwards.  
-- Watch next: Benchmarks vs sshfs/X11, security model for socket access, and whether IDE vendors embed similar SSH-native graphical shells.
+### Comment pulse
+
+- Existing tools cover pieces → Cockpit, X11 forwarding, SSHFS, SOCKS, and VPNs already expose remote services — counterpoint: none provides the same integrated native shell.
+- Single-user administration is the sweet spot → SSH-backed sockets avoid public exposure, reverse proxies, TLS certificates, and bespoke authentication for personal services.
+- Browser socket access needs containment → explicit allowlists prevent arbitrary local-socket connections, trading generality for a narrower security boundary.
+
+### LLM perspective
+
+- **View:** The novelty is orchestration: combining SSH identity, Unix-socket isolation, app discovery, and graphical clients into one remote workspace.
+- **Impact:** Remote developers gain lower-friction private tools; administrators inherit another client protocol and app ecosystem to secure and maintain.
+- **Watch next:** Test nested hosts, arbitrary command workflows, mobile clients, socket authorization, multi-user isolation, latency, and TCP head-of-line behavior.

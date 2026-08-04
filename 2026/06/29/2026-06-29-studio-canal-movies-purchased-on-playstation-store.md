@@ -3,19 +3,17 @@
 - Score: 202 | [HN](https://news.ycombinator.com/item?id=48718967) | Link: https://www.playstation.com/en-gb/legal/psvideocontent/
 
 ### TL;DR
-Sony is removing hundreds of StudioCanal films from customers’ PlayStation libraries, citing expiring licenses and offering no refunds or alternatives. Commenters argue that “purchased” digital movies are effectively revocable rentals, likening this to fraud and broken expectations of ownership. Many now insist on DRM‑free files or physical media they can rip, noting piracy is often more reliable than paid services. Others accept the risk for convenience and low prices, but trust in digital storefronts takes a major hit.  
-*Content unavailable; summarizing from title/comments.*
 
----
+PlayStation says 551 previously purchased Studio Canal films and television seasons will become inaccessible and disappear from customers’ libraries on September 1, 2026, citing licensing agreements. Its notice offers no refund, download, transfer, or appeal information. HN blamed Sony for selling access without securing perpetual customer licenses and argued that purchase implies durable possession, not a revocable encrypted locker. Others explained why buyers accept the risk: repeated viewing, family convenience, and small price gaps between rental and purchase often outweigh the hassle of physical discs.
 
 ### Comment pulse
-- Digital “purchases” are misleading → Stores knowingly sell revocable licenses as ownership; some say this meets lay definitions of fraud and merits refunds or regulation.  
-- True ownership means control → Users favor DRM‑free downloads or ripped discs stored locally; anything dependent on remote license servers is treated as temporary access.  
-- Bad terms drive piracy → Revocations and DRM push users to torrents; tiny rent/buy gaps encourage “buying” — counterpoint: some cite long, trouble‑free iTunes libraries.
 
----
+- Licensing failure belongs upstream → commenters said Sony should have secured perpetual rights for existing libraries or refund buyers when access ends.
+- Ownership requires independent custody → DRM-free files on local storage remain usable without servers, accounts, storefronts, or renewed contracts.
+- Convenience explains demand → families repeatedly stream familiar movies, and a $2 purchase premium can beat rentals — counterpoint: physical discs remain more durable.
 
 ### LLM perspective
-- View: Labeling revocable licenses as “purchases” is deceptive; platforms should disclose license terms prominently and avoid ownership language.  
-- Impact: Expect more class actions, EU consumer‑protection scrutiny, and migration of savvy users toward DRM‑free stores or private media servers.  
-- Watch next: Whether big stores add higher‑priced, contractually perpetual tiers or offline‑copy rights to restore trust while keeping studios onboard.
+
+- **View:** The core mismatch is semantic: storefront purchase language promises permanence while contract architecture preserves revocability.
+- **Impact:** Consumers cannot compare prices rationally when license duration, offline rights, portability, and remedies are hidden.
+- **Watch next:** Sony should preserve transaction records, publish affected regions, offer refunds or DRM-free exports, and revise future licensing terms.

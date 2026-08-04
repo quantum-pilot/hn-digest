@@ -3,19 +3,17 @@
 - Score: 945 | [HN](https://news.ycombinator.com/item?id=48714529) | Link: https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026
 
 ### TL;DR
-The argument is that online age‑verification is not just about protecting children, but about building the infrastructure to permanently tie speech to verified identities. Once every user must prove age (and devices must prove integrity), states and platforms can link all posts, reads, and clicks to real people, at scale, via AI and logging. HN commenters fear this leads to a permissioned, government‑gated internet, while some argue the safety benefits may resemble driver’s licenses and feel societally acceptable.  
-*Content unavailable; summarizing from title/comments.*
 
----
+The author argues age-verification mandates are identity infrastructure disguised as child protection: once online accounts are routinely linked to government IDs, authorities can automate attribution of speech that previously required subpoenas, OSINT, or overcoming VPNs and Tor. The predicted endpoint is scalable monitoring and enforcement against lawful but inconvenient expression. HN extended the concern to device attestation and permissioned internet access, warning that privacy-preserving technical schemes can normalize government-approved hardware. Counterarguments said proponents may understand downstream effects but weigh child safety differently, much as societies accept identity-based licensing for roads.
 
 ### Comment pulse
-- Age checks + device attestation → end of anonymous computing; “untrusted” devices lose access, centralizing power with states and major vendors.  
-- Age‑verification mandates create liability, nudging most sites into government‑mediated access and easier speech control—counterpoint: some see this as like licensing roads for safety.  
-- Critics decry hypocrisy: people opposing age‑gating often accept speech controls (e.g., BDS or Gaza suppression) when they align with personal politics.
 
----
+- Device attestation may become the structural layer → proving age privately could still require locked operating systems and approved, unmodified devices.
+- Liability drives expansion → cautious sites may verify everyone whenever uncertain age creates legal exposure, turning exceptions into default access gates.
+- Tradeoffs are contested → critics prioritize anonymity and autonomy — counterpoint: others accept government identity controls when safety gains seem proportionate.
 
 ### LLM perspective
-- View: Age verification, device attestation, and AI moderation together form a de facto global identity layer for speech.  
-- Impact: Chills dissent, weakens whistleblowing and journalism sources, and marginalizes users needing anonymity (minors, activists, abuse victims).  
-- Watch next: Concrete bills mandating online ID, OS attestation in browsers/ISPs, and deployment of AI classifiers tied to legal identity logs.
+
+- **View:** The privacy question is whether age eligibility can remain unlinkable across services and speech.
+- **Impact:** Mandates could reshape both anonymity and which devices may participate in public digital life.
+- **Watch next:** Audit retention, cross-service correlation, attestation requirements, law-enforcement access, and anonymous credential alternatives.

@@ -3,20 +3,17 @@
 - Score: 342 | [HN](https://news.ycombinator.com/item?id=48719485) | Link: https://investors.rocketlabcorp.com/news-releases/news-release-details/rocket-lab-acquire-iridium-historic-deal-creating-fully
 
 ### TL;DR
-Rocket Lab’s purchase of satellite operator Iridium is read as a vertical-integration move: like SpaceX using Starlink to guarantee steady launch demand and in‑house spacecraft work. Commenters debate whether a growing number of constellations will create severe space junk, light pollution, and atmospheric contamination, versus arguments that LEO satellites are sparse, short‑lived, and increasingly deorbited by design. Others focus on Rocket Lab’s shift from New Zealand icon to effectively American company due to defense ties, regulation, and capital markets.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Rocket Lab agreed to buy Iridium for roughly $8 billion, offering $54 per share through $27 cash plus Rocket Lab stock, with a mid-2027 close pending approvals. The deal combines launch and satellite manufacturing with Iridium’s L-band spectrum, 2.55 million subscribers, 500-plus partners, and recurring communications and positioning revenue. Rocket Lab expects to build and launch Iridium’s next constellation while internalizing launch margins. HN viewed guaranteed replenishment demand as a hedge for Rocket Lab’s scale-up while debating orbital debris, launch compatibility, and its shift from New Zealand roots.
 
 ### Comment pulse
-- Space-junk worry → more launches mean more debris, night-sky clutter, and reentry microparticles; proposals include an “orbit value tax” to fund cleanup — counterpoint: LEO sats are sparse and decay fast.  
-- Strategic rationale → Iridium gives Rocket Lab baseline launch demand and satellite manufacturing work, mirroring SpaceX/Starlink; confusion persists over what orbits Electron vs. future Neutron can actually reach.  
-- National identity and regulation → NZers lament Rocket Lab’s “Americanization,” but export controls, DARPA/Intelligence funding, and US capital markets made US incorporation and work migration almost inevitable.
 
----
+- Vertical integration provides baseline demand → Iridium replenishment can fill Rocket Lab’s launch manifest and satellite factory while reducing third-party costs and market cyclicality.
+- Orbital externalities remain contested → cheaper launches could increase debris and atmospheric particulates — counterpoint: decay requirements and affordable deorbit capacity may improve disposal.
+- Corporate identity follows capital and regulation → commenters traced Rocket Lab’s U.S. parentage to financing, government contracts, export controls, acquisitions, and Neutron operations.
 
 ### LLM perspective
-- View: This deal tightens the trend toward vertically integrated space firms controlling launch, spacecraft, and services.  
-- Impact: Smaller operators may struggle to compete without similar integration or anchor-tenant constellations.  
-- Watch next: Regulatory moves on orbital debris and spectrum, Neutron’s capabilities, and whether rivals pursue their own constellation acquisitions.
+
+- **View:** This is a platform acquisition: spectrum and subscribers matter as much as spacecraft, turning hardware sales into service economics.
+- **Impact:** Rocket Lab gains recurring cash flow and captive missions; Iridium gains integrated access to manufacturing and launch for modernization.
+- **Watch next:** Track bridge-loan refinancing, dilution, regulatory review, Neutron readiness, constellation capital costs, spectrum strategy, and integration of 500 partners.

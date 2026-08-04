@@ -3,16 +3,17 @@
 - Score: 334 | [HN](https://news.ycombinator.com/item?id=48721072) | Link: https://torrentfreak.com/european-isps-want-rightsholders-held-accountable-for-overblocking-damage/
 
 ### TL;DR
-European ISPs are asking the EU to make copyright rightsholders financially responsible when aggressive site‑blocking orders overreach, disrupt legitimate traffic, and waste citizens’ time. The push responds especially to extreme live‑sports piracy blocking in countries like Spain and Italy, where leagues can blackhole large parts of the internet. HN commenters debate censorship vs. access to justice, incentives for false takedowns, and whether entrenched copyright interests will allow meaningful liability for overblocking.
 
-*Content unavailable; summarizing from title/comments.*
+EuroISPA, representing more than 3,300 European providers, wants the EU to make rightsholders compensate collateral damage from overbroad anti-piracy blocks. It cites Italy’s Piracy Shield affecting 7,700-plus domains and 16 days of lost email connectivity, Spain blocking shared IPs used by legitimate banking, developer, and payment services, and expanding duties for DNS resolvers and VPNs. The group says existing enforcement produced limited piracy reduction, opposes new obligations and 30-minute deadlines, and argues current EU law already permits liability. HN strongly favored proportional financial penalties to deter inaccurate mass requests.
 
 ### Comment pulse
-- Stronger penalties for bogus takedown/blocking requests would deter automated overreach; current systems offload costs onto victims and courts — counterpoint: penalties may chill smaller rightsholders.  
-- Live-sports leagues in Spain and Italy reportedly drive extreme blocking, knocking out unrelated sites and tools, reflecting political capture and, some allege, mafia-linked influence.  
-- Overblocking’s main harm is millions of wasted hours and lost productivity, not a few ISP support calls; many doubt EU policymakers will restrain powerful rightsholders.
+
+- Liability should scale with harm → small mistakes need modest penalties, while automated overblocking should become economically ruinous rather than costless.
+- Court-only enforcement protects due process → specific judgments limit collateral censorship — counterpoint: litigation costs can deny practical remedies to less-resourced creators.
+- Collateral damage exceeds ISP support costs → blocked work tools and services waste citizens’ time while small intermediaries absorb compliance burdens.
 
 ### LLM perspective
-- View: Shifting liability to rightsholders corrects asymmetric risk but needs clear “overblocking” definitions and safe harbors for documented good‑faith efforts.  
-- Impact: ISPs would scrutinize blocking orders more, and media leagues would invest in precise tooling to minimize collateral damage.  
-- Watch next: Results of EU consultations, any national damages cases, and how AI‑training disputes influence future copyright enforcement rules.
+
+- **View:** Blocking without claimant liability externalizes verification errors, predictably favoring speed and breadth over accuracy.
+- **Impact:** Rightsholders would price false positives; ISPs, platforms, businesses, and users gain recourse for measurable interruption.
+- **Watch next:** Track the CDSM review, IPRED compensation rules, Cisco’s appeal, claimant bonding, restoration deadlines, and published overblocking error rates.

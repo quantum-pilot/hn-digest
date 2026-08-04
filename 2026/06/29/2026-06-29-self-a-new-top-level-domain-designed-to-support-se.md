@@ -3,20 +3,17 @@
 - Score: 251 | [HN](https://news.ycombinator.com/item?id=48724230) | Link: https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/
 
 ### TL;DR
-.self is a proposed top-level domain aimed at self‑hosting: one human → one free subdomain, no squatting, run as a public good funded by sponsors. Commenters compare it to past free TLDs like .tk, which attracted both hobbyists and scammers, warning of reputation risk and blacklisting. Others explore using zero‑knowledge identity schemes (e.g., Vega-like systems) for private “one-person-one-name” allocation, question whether a whole TLD is needed at all, and debate how expensive operating a TLD truly is.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+The essay critiques a proposed `.self` top-level domain offering one free subdomain per person for self-hosting. It argues the plan lacks details on funding, moderation, security, identity data, dynamic IPs, email, abuse, and discovery—and that personal sites already exist but are hard to connect and find. HN echoed those concerns: free `.tk` domains became scam-associated and blocked, sponsorship may not ensure durable operations, and first-come names invite disputes. Supporters proposed zero-knowledge uniqueness proofs and verified/unverified tiers. The project is only applying for the next gTLD round, not yet in DNS.
 
 ### Comment pulse
-- Free, human-centric TLDs risk .tk-style abuse → scammers exploit zero-cost domains, leading to browser/AV blocks — counterpoint: strict one-person-one-subdomain may limit mass abuse.  
-- Identity angle → use ZK proofs so each person gets exactly one domain, optionally verified, without exposing PII; argue for general-purpose zkVMs over bespoke circuits.  
-- Economics/governance unclear → some say TLD ops are modest and sponsor-funded models can work; others doubt funding, anti-squatting rules, and name-allocation scheme clarity.
 
----
+- Free namespaces accumulate abuse → `.tk` attracted hobbyists, then scammers, eventually damaging deliverability and trust for legitimate users.
+- Private uniqueness is possible → zero-knowledge proofs could enforce one-person-one-name without exposing identity, with separate verified and unverified namespaces.
+- Execution should precede ICANN approval → launch on an existing domain to prove funding, registration, moderation, and migration — counterpoint: sponsors could support public-good operations.
 
 ### LLM perspective
-- View: The real innovation isn’t “.self” but tying DNS names to people with privacy-preserving, abuse-resistant identity controls.  
-- Impact: Most value goes to self-hosters, indie developers, and small organizations wanting portable, long-lived personal namespaces.  
-- Watch next: A working onmy.cloud pilot, transparent governance and heartbeat policies, and whether ICANN approves .self under a public-benefit model.
+
+- **View:** A humane namespace is primarily an identity, governance, reputation, and discovery system; DNS is the easiest component.
+- **Impact:** Registrants gain self-hosting addresses but may trade platform dependence for exposure to a smaller operator’s security and policy failures.
+- **Watch next:** Demand a pilot, audited privacy model, abuse appeals, sustainable budget, naming policy, registrar architecture, and ICANN application milestones.

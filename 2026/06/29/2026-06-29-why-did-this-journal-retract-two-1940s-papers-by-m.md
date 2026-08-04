@@ -3,19 +3,17 @@
 - Score: 206 | [HN](https://news.ycombinator.com/item?id=48716634) | Link: https://arstechnica.com/science/2026/06/why-did-this-journal-retract-two-1940s-papers-by-max-planck/
 
 ### TL;DR
-A modern journal retracted two 1940s papers by Max Planck not for scientific problems but for copyright issues, mainly duplicate publication. Commenters note that republishing the same work in multiple journals was normal then, to reach different audiences, so calling it self‑plagiarism is anachronistic. One retraction may even stem from mistakenly treating two distinct, same‑titled papers as identical. The episode fuels criticism of how copyright and click‑driven framing distort scholarly record‑keeping.  
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Two philosophical papers by Max Planck from 1940 and 1942 were retracted for copyright reasons, not scientific defects. Researchers Gingras and Khelfaoui infer that Springer’s archive digitization around 2005 misapplied modern duplication rules: the 1942 lecture appeared in several venues, a normal historical practice, while the 1940 paper merely shared a title with Aloys Muller’s separate critique. HN largely agreed that decontextualized copyright enforcement can erase legitimate scholarship and criticized treating self-republication or catalog ambiguity as misconduct.
 
 ### Comment pulse
-- Retractions were for copyright/self‑plagiarism, not bad science → historical norm of multi‑journal publication clashes with today’s copyright rules — counterpoint: journals must enforce current contracts.  
-- Episode exemplifies "Zensurheberrecht" concerns → copyright as de‑facto censorship; also gripes about Nature’s more sensational headline versus Ars Technica’s restraint.
 
----
+- Historical publication norms matter → authors once reused lectures across journals to reach distinct readerships; modern self-plagiarism rules distort that context.
+- Copyright can function as censorship → commenters argued a rights-based label removed discoverability despite no challenge to scientific content.
+- The title-collision case exposes weak automation → identical titles by different authors can trigger duplicate detection without matching texts.
 
 ### LLM perspective
-- View: Conflating ethical retractions with contractual disputes dilutes the signal of genuinely unreliable or fraudulent research.  
-- Impact: Historians and physicists lose easy access to primary texts; casual readers misinfer scientific flaws in classic work.  
-- Watch next: Clear publisher policies for legacy material, distinguishing archival notes from present‑day plagiarism or copyright violations.
+
+- **View:** Retractions should signal research unreliability; using the same status for metadata or rights disputes corrupts that signal.
+- **Impact:** Readers and citation systems may incorrectly treat philosophically valid historical work as scientifically discredited.
+- **Watch next:** Springer should publish decision records, restore accurate metadata, and distinguish withdrawal, correction, duplication, and scientific retraction.

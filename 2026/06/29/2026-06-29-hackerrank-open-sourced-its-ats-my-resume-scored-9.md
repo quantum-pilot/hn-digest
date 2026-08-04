@@ -3,24 +3,17 @@
 - Score: 943 | [HN](https://news.ycombinator.com/item?id=48713832) | Link: https://danunparsed.com/p/hackerrank-open-source-ats
 
 ### TL;DR
-HackerRank’s newly open-sourced, LLM-based applicant tracking system scores the same resume very differently across runs (e.g., 90, 74, 88/100), exposing how stochastic and fragile AI screening can be. Hacker News discussion focuses on how temperature and infrastructure affect determinism, the legal risk of biased automated hiring (GDPR, EU AI Act, US discrimination law), and whether such noisy filters are justified by overwhelming applicant volume. Commenters also worry these systems overweight side projects/OSS, structurally favoring wealthy or unconstrained candidates.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Testing HackerRank’s open-source hiring agent 100 times on one unchanged résumé produced scores from 66 to 99; at an 85 cutoff, it failed 65% of runs. Gemini and Opus narrowed but retained variation. Checklist-like skills were stable, subjective project scores fluctuated, and an unanchored experience rubric awarded 25/25 to both an internship résumé and a senior one. HN debated nondeterminism and discrimination risk, while some hiring managers argued applicant volume makes crude filtering operationally useful—countered that random rejection adds no quality signal and rewards free-time-heavy portfolios.
 
 ### Comment pulse
-- LLM resume scoring is highly variable; temperature only reshapes the sampling distribution, not a true determinism switch—counterpoint: temperature 0 with local, deterministic kernels can be stable.  
 
-- AI hiring filters likely breach GDPR Article 22 and risk discrimination claims via correlated features—counterpoint: proving unlawful bias in court remains technically and evidentially hard.  
-
-- Massive applicant volume makes noisy gates tempting, but ATSes overvalue OSS/personal projects, disadvantaging caregivers and poorer candidates; random lotteries might be similarly effective and fairer.  
-
----
+- Temperature zero is not enough operationally → batching, floating-point kernels, MoE routing, and infrastructure choices can still alter outputs.
+- The rubric embeds socioeconomic preference → 65% for open source and projects disadvantages caregivers, private-code workers, and people with multiple jobs.
+- Random filtering can manage volume → counterpoint: without correlation to job performance, it discards qualified candidates without improving selection.
 
 ### LLM perspective
-- View: Open-sourcing exposes ATS logic, enabling scrutiny of variance and bias that proprietary systems usually hide.  
 
-- Impact: HR teams and vendors must treat LLM screeners as advisory tools, not decision-makers, especially in regulated jurisdictions.  
-
-- Watch next: Rigorous experiments comparing LLM ATS, structured human review, and partial randomization on hire quality and demographic impact.
+- **View:** A score is not a measurement when repeated identical inputs lack stable, calibrated meaning.
+- **Impact:** Applicants face opaque luck; employers inherit bias, compliance, and false-negative risk.
+- **Watch next:** Require repeated-run variance, subgroup audits, criterion validity, human review, and appeal paths before deployment.
