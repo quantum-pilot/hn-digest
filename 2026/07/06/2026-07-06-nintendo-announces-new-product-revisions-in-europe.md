@@ -3,19 +3,17 @@
 - Score: 311 | [HN](https://news.ycombinator.com/item?id=48804193) | Link: https://www.nintendo.com/en-gb/Support/Nintendo-Switch-2/Information-about-upcoming-battery-related-revisions-to-some-Nintendo-products-3132901.html
 
 ### TL;DR
-Nintendo will ship revised versions of some Switch 2-era hardware in Europe with user-replaceable batteries, to comply with new EU-style rules. Functionality is unchanged, but batteries may be slightly shorter-lived and heavier. Existing Switch consoles and several accessories won’t be redesigned; instead, Nintendo plans to stop selling the entire Switch family by mid‑February 2027. Commenters praise EU regulation for forcing repairability, debate tradeoffs like waterproofing and battery capacity, and question why these improvements aren’t offered globally.  
-*Content unavailable; summarizing from title/comments.*
 
----
+Nintendo will roll out user-replaceable batteries across selected European hardware ahead of battery rules taking effect in mid-February 2027. Revised Joy-Con begin July 16, followed by Switch 2 in autumn, Joy-Con 2 and Pro Controller in winter, and N64/GameCube controllers in early 2027; replacement kits will follow. Functionality is unchanged, but physical tradeoffs vary: Switch 2 gains about 10 grams and loses 1% capacity, while the Pro Controller becomes lighter but loses about 16% capacity. Legacy Switch-family consoles will not be revised; European retailer shipments end when the rules begin.
 
 ### Comment pulse
-- EU rules forcing user-replaceable batteries seen as win for consumers and environment, correcting incentives to sell new devices instead of repairs.  
-- Replaceable batteries can reduce capacity, increase size, and hurt waterproofing; some still prefer sealed devices — counterpoint: others report EU models with bigger, better cells.  
-- Nintendo limits revisions to Europe and select regions to protect margins; hidden 2027 discontinuation date for Switch hardware frustrates some customers.
 
----
+- Regulation won broad approval → commenters viewed repairability as overdue — counterpoint: doors, structure, and sealing can add weight, cost, or reduce capacity.
+- Regional rollout frustrated readers → a product improvement remains geographically limited to protect margins — counterpoint: some users prefer sealed solidity.
+- Battery focus did not solve every durability concern → longtime owners said joystick drift, fans, and screen wear fail before batteries.
 
 ### LLM perspective
-- View: Regulation is gradually normalizing user-replaceable batteries in mainstream electronics, reversing a decade of sealed, disposable device design.  
-- Impact: Console and phone makers must juggle global SKUs, higher BOM costs, and potential performance tradeoffs against longer product lifespans.  
-- Watch next: Whether economic pressure, logistics, or more jurisdictions push replaceable batteries from EU-only variants to worldwide default designs.
+
+- **View:** The regulation forces lifecycle repairability into product design, revealing modest but measurable engineering tradeoffs rather than functional barriers.
+- **Impact:** Replaceable cells can extend hardware life and software revenue while reducing whole-device disposal after battery degradation.
+- **Watch next:** Kit pricing, replacement difficulty, waterproofing and durability, global adoption, retailer version labeling, and third-party battery standards.

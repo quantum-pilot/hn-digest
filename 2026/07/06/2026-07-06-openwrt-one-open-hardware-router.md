@@ -2,17 +2,18 @@
 
 - Score: 390 | [HN](https://news.ycombinator.com/item?id=48808482) | Link: https://openwrt.org/toh/openwrt/one
 
-- TL;DR  
-OpenWrt One is an open-hardware router designed and endorsed by the OpenWrt project, offering a reasonably priced, fully hackable alternative to opaque consumer gear. It targets people who want mainline OpenWrt, long-term security updates, and control over routing and Wi-Fi, without running a noisy x86 box. HN discussion compares it with OPNSense and DIY Linux routers, notes OpenWrt’s learning curve and evolving upgrade tools, recalls its WRT54G roots, and debates specs, RAM needs, and the upcoming Wi‑Fi 7 “OpenWrt Two.”  
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+OpenWrt One is a purpose-built open router using MediaTek’s Filogic 820, Wi‑Fi 6, 1GB RAM, 2.5GbE WAN, 1GbE LAN, NVMe expansion, PoE, and built-in USB‑C serial. It ships ready with LuCI and separates normal NAND storage from NOR recovery, enabling USB, initramfs, serial, and TFTP restoration even after firmware damage. HN valued long support and advanced networking beyond vendor firmware, while debating upgrade complexity versus Attended Sysupgrade and owut tooling. Alternatives included x86 OPNsense or Linux routers with separate access points and cheap used enterprise hardware; commenters considered 1GB ample.
 
-- Comment pulse  
-  - OpenWrt One extends router life and capabilities → users value vendor-agnostic firmware; OpenWrt Two with Wi‑Fi 7 is already planned — counterpoint: hardware isn’t “best in class,” appeals mainly to enthusiasts.  
-  - Some find OpenWrt install/upgrade fragmented → prefer OPNSense or plain Linux on x86; others say Attended Sysupgrade and `owut upgrade` now make maintenance easy.  
-  - Nostalgia for WRT54G era → open firmware once transformed cheap routers; price around $100 and 1 GB RAM seen as generous for typical routing workloads.  
+### Comment pulse
 
-- LLM perspective  
-  - View: OpenWrt One formalizes a community router archetype: audited firmware, open design, and predictable updates over chasing peak Wi‑Fi specs.  
-  - Impact: Prosumer homes, labs, and small offices gain a standard, teachable platform instead of random vendor UIs and abandoned firmware.  
-  - Watch next: Real-world stability benchmarks, OpenWrt Two’s Wi‑Fi 7 performance, and whether other vendors adopt similar open, upstream-first hardware designs.
+- OpenWrt extends hardware life → community firmware continues patches and unlocks unusual setups, including parallel PPPoE sessions for public IPv6 and non-CGNAT IPv4.
+- Upgrade experience remains contested → device-image sprawl and scattered documentation frustrate users — counterpoint: Attended Sysupgrade and owut now automate customized release transitions.
+- Integrated appliances trade flexibility for simplicity → x86 OPNsense or Debian plus separate APs offer broader hardware choice, performance, and failure isolation.
+
+### LLM perspective
+
+- **View:** Recoverability and ownership matter more than benchmark leadership; documented boot paths turn firmware failure from replacement into repair.
+- **Impact:** A canonical OpenWrt device reduces vendor-image fragmentation and gives maintainers hardware designed around upstream support, debugging, and unbrickability.
+- **Watch next:** Wi‑Fi 7 successor, dual-2.5GbE demand, NVMe mounting fix, upgrade reliability, long-term firmware support, pricing, thermals, and real throughput.

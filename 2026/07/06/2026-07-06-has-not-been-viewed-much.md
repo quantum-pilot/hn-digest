@@ -2,16 +2,18 @@
 
 - Score: 446 | [HN](https://news.ycombinator.com/item?id=48799155) | Link: https://iamwillwang.com/notes/has-not-been-viewed-much/
 
-- TL;DR  
-  A small web toy (likely from a museum collection) surfaces artworks that “haven’t been viewed much,” letting people browse the long tail of almost‑unseen pieces. Commenters describe the experience as addictive and oddly intimate, like stumbling onto forgotten books, unplayed songs, or obscure YouTube videos. Some celebrate rescuing overlooked culture; others note that “reviving” underused items can conflict with pragmatic curation needs. The thread widens into a meditation on discovery, obscurity, and the ethics of digital archaeology.  
-  *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  Surfacing neglected works is delightful → Feels like cultural archaeology; users enjoy specific finds (e.g., Shin Hanga prints, “Honorable Mr. Cat”).  
-  Rescuing the “unloved” can harm curation → Borrowing discard‑marked library books or skewing stats can block healthy rotation—counterpoint: preservation advocates see value in reviving obscurities.  
-  Parallel platforms exist → Forgotify, vid404, PetitTube, astronaut.io show zero‑view or low‑view media, scratching the same curiosity/dopamine itch.
+A small browsing project uses the Art Institute of Chicago API’s `has_not_been_viewed_much` flag to surface overlooked artworks. The field is true when an artwork’s museum webpage has received fewer than 200 views since January 1, 2010. Rather than explain low attention, the page invites visitors to encounter the works directly, beginning with Robert MacPherson’s circa-1867 photograph of Roman Forum ruins. HN readers found the random discovery loop unusually compelling, shared favorite finds, and connected it to rescuing neglected library books, forgotten literature, zero-play songs, and scarcely viewed videos.
 
-- LLM perspective  
-  View: Long‑tail surfacing tools reveal hidden cultural value while exposing biases in recommendation and popularity metrics.  
-  Impact: Museums, libraries, and platforms may rethink how they track, surface, and preserve rarely accessed items.  
-  Watch next: Usage data from such projects; policies on deaccessioning, long‑tail preservation, and “rarely viewed” discovery modes in mainstream apps.
+### Comment pulse
+
+- Serendipity delighted readers → randomness turned low-view art into an addictive discovery loop, with several commenters sharing unexpectedly personal connections.
+- Rescuing neglect became contentious → borrowing disposal-marked books preserves forgotten work — counterpoint: artificial loans can corrupt libraries’ evidence for responsible weeding.
+- Scarcity creates itself → projects like Forgotify remove items from their own eligible pool once attention arrives.
+
+### LLM perspective
+
+- **View:** A neglected-content flag becomes a curation primitive, replacing popularity ranking with intentional exposure to the long tail.
+- **Impact:** The interface can redistribute attention cheaply while revealing how recommendation systems normally compound existing popularity.
+- **Watch next:** Whether visits update promptly, selection remains random, metadata explains context, and increased exposure meaningfully changes preservation or scholarship.

@@ -3,19 +3,17 @@
 - Score: 191 | [HN](https://news.ycombinator.com/item?id=48767211) | Link: https://clojure.org/news/2026/07/02/clojure-1-13-alpha1
 
 ### TL;DR
-Clojure 1.13 adds “checked keys”: an opt‑in way for map access and destructuring to assert that certain keys are present, throwing clear errors when they’re missing. This tightens a long‑standing pain point of Clojure’s nil‑punning map lookups, where missing keys silently return `nil` and failures surface far from the cause. HN discussion centers on trade‑offs between pragmatism and correctness, how this compares to specs/schemas, and whether it aligns with Clojure’s philosophy of small, opt‑in core features.  
-*Content unavailable; summarizing from title/comments.*
 
----
+Clojure 1.13.0-alpha1 introduces opt-in checked map destructuring: `:keys!`, `:syms!`, and `:strs!` throw when required keys are absent, while keys after `&` can document or validate accepted-but-unbound inputs. A new `req!` lookup reports missing keys, and keyword-only PersistentArrayMaps now remain arrays through 64 entries rather than eight for faster small-map access. HN split over philosophy: supporters expect earlier, clearer failures for misspellings and bad nesting; skeptics prefer nil-punning, assertions, or boundary schemas. The feature remains additive and runtime-checked, not static typing.
 
 ### Comment pulse
-- Missing-key defaults cause rare but severe bugs → runtime checks near the call site are worth a tiny loss of convenience.
-- This could be done with assertions or schemas → having lightweight, inline checks in core improves documentation and error locality — counterpoint: some doubt it meets the bar for a core feature.
-- Feature fits Clojure’s philosophy → opt‑in, no breaking changes, and codifies a common pattern; complements, not replaces, spec/Malli and optional static typing.
 
----
+- Silent nils defer diagnosis → a misspelled or misplaced required key can propagate until an unrelated failure, obscuring the original defect.
+- Inline checks bridge a tooling gap → they document a function’s immediate contract without introducing a separate spec or Malli schema.
+- Runtime throwing is deliberately optional → callers retain nil-punning — counterpoint: skeptics question whether assertions already cover this narrow need.
 
 ### LLM perspective
-- View: Checked keys formalize a widespread idiom, reducing “mystery nils” without abandoning dynamic flexibility.
-- Impact: Library authors, API boundaries, and data-heavy services gain clearer contracts and faster debugging.
-- Watch next: ClojureScript parity, tooling support (REPL messages, linters), and patterns combining checked keys with spec/Malli.
+
+- **View:** Checked keys add a concise local contract for dynamic maps while preserving Clojure’s open-map and nil-friendly defaults.
+- **Impact:** Earlier failures should reduce debugging distance for malformed inputs, especially before teams adopt comprehensive schemas.
+- **Watch next:** ClojureScript parity, error-message quality, adoption patterns, and whether checked destructuring reduces production incidents without encouraging excessive exceptions.

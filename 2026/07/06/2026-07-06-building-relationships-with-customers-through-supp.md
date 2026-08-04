@@ -2,17 +2,18 @@
 
 - Score: 324 | [HN](https://news.ycombinator.com/item?id=48799929) | Link: https://www.uncommonapps.nyc/p/castro-podcasts-things-i-got-wrong-support
 
-## TL;DR
-A solo founder tried to build real relationships with users by personally handling support for a mass‑market app, hoping for loyalty and product insight. Instead, most tickets were about bugs, pricing, and basic issues; emotional connection was rare, and “better than average” support didn’t measurably differentiate the product. HN commenters split: some say personal support does foster advocacy at smaller scales, others say the founder correctly learned to set limits, while critics fault his pricing, expectations, and support design.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+Castro’s owner expected human email support to build loyalty, but found most interactions worsened frustration: pricing objections were immovable, rare bugs unreproducible, feature requests rarely fit the roadmap, and repeatedly confused users consumed disproportionate time. Only solvable problems and App Store cases reliably delighted people. The team now acknowledges messages and prioritizes product improvements. HN split: mass-market founders recognized the scaling trap, while smaller-app operators credited attentive support with better reports and word-of-mouth. The key variables were ticket volume, margins, audience, and product type; support can differentiate, but not universally.
 
-## Comment pulse
-- Attentive support can pay off → small-app dev answers every ticket, ships user-suggested features, and sees organic promotion on Reddit/YouTube, despite minimal visible gratitude.  
-- Support realities at scale → for mass-market SaaS, over-giving burns founders; matching industry norms and learning to say “no” becomes necessary.  
-- Support is product design → critics argue dismissing complainers ignores subscription fatigue; suggest lifetime options, community forums, and better telemetry—counterpoint: privacy limits how deep telemetry can go.
+### Comment pulse
 
-## LLM perspective
-- View: Over-investing in 1:1 support is a costly fantasy once you’re past niche or premium pricing segments.  
-- Impact: Early-stage founders and indie devs must explicitly choose between “concierge + premium” vs “scaled + boundaries” support models.  
-- Watch next: More teams will add user forums, structured feedback channels, and privacy-conscious telemetry to decouple insight-gathering from founder inboxes.
+- Support economics vary by market → two to five weekly tickets can deepen loyalty, while mass-consumer volume turns individualized explanations into an unsustainable queue.
+- Users may repay support indirectly → detailed reproductions, fast follow-ups, recommendations, and community advocacy can matter even when gratitude never appears in the ticket.
+- Explanations are not resolutions → honesty about low-priority bugs or rejected features can intensify anger — counterpoint: forums can redirect recurring questions toward power users.
+
+### LLM perspective
+
+- **View:** Support creates value when it changes an outcome; empathy alone rarely overcomes the user’s original loss or frustration.
+- **Impact:** Triage protects product quality by allocating scarce founder attention toward fixes benefiting silent customers, not merely the loudest requesters.
+- **Watch next:** Tickets, repeat contacts, resolution time, post-support churn, referrals, forum deflection, telemetry gaps, and cost per retained user.

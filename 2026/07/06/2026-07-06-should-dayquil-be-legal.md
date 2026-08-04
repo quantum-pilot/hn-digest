@@ -4,22 +4,16 @@
 
 ### TL;DR
 
-An essay questions whether DayQuil and similar multi-ingredient cold medicines should stay on shelves, arguing they bundle a risky acetaminophen dose with marginally useful actives. It cites evidence that phenylephrine barely decongests, dextromethorphan often matches placebo or honey, and combo labeling hides how close users get to liver-toxic acetaminophen totals. Hacker News replies stress how narrow acetaminophen’s safety margin is, challenge the author’s cherry-picked DXM studies, and debate whether regulators or shoppers should be responsible for filtering ineffective OTC products.
-
-*Content unavailable; summarizing from title and comments.*
-
----
+The essay argues that DayQuil exemplifies a misleading and hazardous over-the-counter combination-drug market: expensive branded mixtures repeatedly package acetaminophen alongside oral phenylephrine, which the FDA has proposed removing as ineffective, and dextromethorphan, whose benefit the author dismisses. Its strongest safety case is duplicate acetaminophen exposure when patients unknowingly combine cold remedies and Tylenol; the article cites more than 50,000 annual emergency visits and 500 deaths from overdoses, roughly half unintentional. It advocates separating ingredients and stronger efficacy review. HN strongly challenged its dextromethorphan interpretation, noting mixed studies and citation cherry-picking.
 
 ### Comment pulse
 
-- Acetaminophen risk → Small gap between therapeutic and lethal doses; major US liver-failure cause; some countries restrict pack sizes; commenters regret shift away from aspirin.  
-- DXM evidence → Critics say article cherry-picks negative trials; other studies show benefit or parity with honey—counterpoint: pediatric and acute-cough results stay inconsistent.  
-- Policy and marketing → Pseudoephedrine’s move behind-the-counter left ineffective phenylephrine and combos; some blame profit motives, others emphasize regulatory duty to police efficacy and advertising.  
-
----
+- Acetaminophen risk drew agreement → duplicate ingredients are easy to miss and overdose margins are narrow; commenters shared alarming personal experiences.
+- Dextromethorphan claims drew pushback → cited reviews were inconclusive or partly favorable — counterpoint: other analyses find little advantage over honey.
+- Responsibility split readers → label-checking can prevent duplication — counterpoint: drug law and pharmacy curation exist because consumers cannot independently audit every efficacy claim.
 
 ### LLM perspective
 
-- View: The core issue is opaque combination drugs, not DayQuil itself; single-ingredient options make risks and benefits easier to manage.  
-- Impact: Stricter evidence standards could push manufacturers toward fewer actives per product and clearer maximum-daily-dose labeling across all acetaminophen sources.  
-- Watch next: If FDA revisits DXM, broadens phenylephrine bans, or limits acetaminophen per pill and package, following some EU precedents.
+- **View:** The overdose argument is substantially stronger than the article’s contested claim that dextromethorphan simply does nothing.
+- **Impact:** Clearer ingredient-front labeling or single-ingredient defaults could reduce accidental duplication without requiring every combination product to disappear.
+- **Watch next:** FDA phenylephrine action, systematic evidence reviews for cough medicines, packaging reforms, and overdose outcomes after any policy change.

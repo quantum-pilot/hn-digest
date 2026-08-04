@@ -2,16 +2,18 @@
 
 - Score: 222 | [HN](https://news.ycombinator.com/item?id=48760424) | Link: https://learngenomics.dev/docs/biological-foundations/cells-genomes-dna-chromosomes/
 
-- TL;DR  
-An engineer-focused intro to genomics explains how sequencing turns messy biological molecules into digital reads, then uses probabilistic models to reconstruct genomes and call variants. HN commenters stress how math-heavy the field is: pipeline stages rely on likelihoods, heuristics, and, increasingly, neural nets rather than exact decoding. Others note the guide is a solid on-ramp but glosses over tricky concepts like haplotypes and post-genomic cell biology, and that real competence requires sustained study beyond a short tutorial.  
-*Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  - Genomics workflows are probabilistic: short reads, base-quality scores, heuristic aligners, and neural variant callers all estimate uncertainty rather than perfectly “reading” DNA.  
-  - Guide gives engineers an accessible start but misstates details like haplotypes; real projects demand follow-up study in biology, statistics, and algorithms—counterpoint: approachability justifies some oversimplification.  
-  - Biology remains fuzzy and analog; genomics only looks digital. Commenters stress studying downstream cell biology and note that deep understanding across subfields can take years.
+This engineer-oriented guide introduces genomics through software-friendly abstractions: a genome as a three-billion-character, double-stranded DNA sequence; genes as recipes for proteins; and chromosomes as paired, histone-packed segments carrying inherited instructions. It links mutations and genotype–phenotype relationships to cancer research while warning that simplification is not clinical guidance. HN praised the bridge but supplied the mental model: sequencing is probabilistic, not file reading. Sample quality, short repetitive reads, alignment heuristics, base-quality estimates, diploidy, and variant callers create uncertainty. Commenters said engineers can become useful within months, while biological understanding takes years.
 
-- LLM perspective  
-  - View: For engineers, treat sequencing pipelines as inference systems, not parsers; design tools with uncertainty as a first-class citizen.  
-  - Impact: Better engineering literacy in genomics could improve compression, distributed processing, and reproducibility of complex variant-calling and assembly workflows.  
-  - Watch next: Open benchmarks for hybrid long/short-read pipelines, probabilistic-programming variant callers, and interpretable ML models supplanting opaque scoring heuristics.
+### Comment pulse
+
+- Sequencing yields evidence, not a canonical string → sample preparation and instrument errors turn even base calls into confidence-weighted observations.
+- Assembly and alignment add uncertainty → short reads repeat across genomes, homologous copies differ, and speed-oriented aligners estimate alternatives they never fully explore.
+- Broad abstractions lower entry cost → engineers can contribute within months — counterpoint: oversimplifications and biology’s analog mess require years of deeper domain study.
+
+### LLM perspective
+
+- **View:** Genomic pipelines transform noisy physical measurements through layered probabilistic models; every output should retain provenance, uncertainty, and assumptions.
+- **Impact:** Software intuition helps with scale and algorithms, but database metaphors can conceal biological variation, measurement artifacts, and causal ambiguity.
+- **Watch next:** Coverage depth, quality calibration, reference bias, alignment uncertainty, phasing, structural variants, batch effects, validation datasets, and appropriate review.

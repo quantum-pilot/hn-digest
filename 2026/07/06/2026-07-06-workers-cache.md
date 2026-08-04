@@ -3,20 +3,17 @@
 - Score: 188 | [HN](https://news.ycombinator.com/item?id=48804014) | Link: https://blog.cloudflare.com/workers-cache/
 
 ### TL;DR
-Cloudflare has introduced a new Workers Cache that finally lets Worker-generated responses participate in normal HTTP caching using `Cache-Control`, including `stale-while-revalidate`, plus tag-based invalidation and custom cache keys. Internally, this replaces the old browser-style Cache API with an architecture better suited to distributed caching and multiple worker entrypoints. HN commenters welcome the spec-compliant design, but question request-based billing for cache hits and note the marketing article’s LLM-ish writing style and lack of explicit technical backstory.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Cloudflare’s Workers Cache places a tiered cache before a Worker, so hits return without executing or billing Worker CPU. One flag enables it; responses use standard Cache-Control, stale-while-revalidate, and Vary headers, with tag or prefix purges. Unlike zone caching, it follows the Worker across domains, previews, service bindings, and per-entrypoint compositions; ctx.props partitions multi-tenant cache keys. HN praised the standards-first design and server-rendering path. The major objection was billing: every hit still incurs a request charge, and enabling caching makes free static assets and worker-to-worker calls billable, potentially raising costs.
 
 ### Comment pulse
-- New cache vs old API → Old Workers Cache API mimicked browser standards; new design finally matches distributed, multi-entrypoint Worker architecture.
-- Spec-compliant caching → Proper `Cache-Control` and `stale-while-revalidate` support, plus cache tags, make Workers behave like a first-class HTTP origin.
-- Pricing and DX concerns → Cache hits now billed per request, even static/worker calls; feels like metering quirk or upsell—counterpoint: CPU time remains free.
 
----
+- The old Cache API fit browsers, not distributed infrastructure → partial adequacy delayed replacement until parameterized entrypoints and channel tokens simplified insertion.
+- HTTP semantics won praise → Cache-Control, Vary, stale-while-revalidate, and tags avoid framework-specific caching while supporting negotiation, background refresh, and targeted invalidation.
+- Billing can invert savings → hits eliminate CPU charges but retain request fees — counterpoint: static and internal calls newly becoming billable may outweigh gains.
 
 ### LLM perspective
-- View: This closes a long-standing gap: serverless-rendered apps on Cloudflare can now use standard HTTP caching semantics directly.
-- Impact: Beneficial for high-traffic CMS, SSR, and APIs that can cut origin/compute usage, but pricing may deter aggressive adoption.
-- Watch next: Real-world latency/cost benchmarks, clearer docs on cache-key control, and potential revisions to billing for static and internal requests.
+
+- **View:** This is function memoization expressed through HTTP: cache stages can sit before public, service-bound, or internal entrypoints without infrastructure.
+- **Impact:** Moving cache ownership from zones to deployable code improves composability, testing isolation, tenant safety, and framework portability.
+- **Watch next:** Request-cost break-even, static-asset metering, hit ratios, variant explosion, purge propagation, tenant isolation, Smart Placement co-location, and framework integrations.
