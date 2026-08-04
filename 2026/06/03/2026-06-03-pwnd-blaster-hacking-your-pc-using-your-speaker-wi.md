@@ -3,18 +3,17 @@
 - Score: 633 | [HN](https://news.ycombinator.com/item?id=48382310) | Link: https://blog.nns.ee/2026/06/03/katana-badusb/
 
 ### TL;DR
-A researcher reverse‑engineered the Creative Sound Blaster Katana V2X soundbar and found its custom control protocol (CTP) is fully exposed over Bluetooth Low Energy—no pairing, no auth. Because firmware updates use CTP and only check a trivial SHA‑256 checksum, anyone within ~15 m can flash arbitrary firmware via BLE. The bar is USB‑connected and already enumerates as a HID, so a tiny patch turns it into a remote Rubber Ducky–style keyboard and potential bugging device. Creative’s response: this is not a cybersecurity risk; no vendor fix exists, so the researcher released an unofficial firmware patcher that disables CTP over Bluetooth.
 
----
+A researcher chained two failures in Creative’s Katana V2X soundbar: its Bluetooth Low Energy interface accepts privileged CTP commands without pairing, and its firmware updater verifies only a replaceable checksum, not a signature. From roughly 15 meters away, they flashed custom firmware that made the USB-connected speaker enumerate as a keyboard and type commands into its host PC; its microphone could also enable covert listening. Creative rejected the report as a cybersecurity risk, prompting an unofficial Bluetooth-blocking patch. HN condemned both the design and response.
 
 ### Comment pulse
-- Vendor denial is absurd → remote arbitrary firmware flashing on a USB‑trusted, mic‑equipped device is textbook vulnerability, even if attack radius is small.  
-- Pattern: hardware brands bolt on software/BLE late, often via opaque third parties, leaving unmaintainable, unaudited firmware and no real security ownership.  
-- Some argue practical risk is low (niche device, proximity required) → vendor likely did a crude cost–benefit and decided to ignore it—counterpoint: that normalizes unsafe designs.
 
----
+- Unauthenticated reflashing is a vulnerability → proximity and device ownership constrain likelihood, but arbitrary firmware on a trusted USB peripheral creates severe impact.
+- Peripheral security is systemic → manufacturers often outsource firmware, lack disclosure channels, and neglect signing, patchability, or long-term software ownership.
+- Vendor economics reward denial → a niche, short-range exploit may seem cheaper to ignore — counterpoint: lockout worms and targeted attacks expand liability.
 
 ### LLM perspective
-- View: This is a classic “peripheral as attack vector” case; USB HID + unauthenticated OTA is an especially toxic combo.  
-- Impact: Any BLE‑enabled peripheral with update channels should now be suspect; corporate security baselines need to treat them as potential endpoints.  
-- Watch next: Independent audits of popular USB/BLE peripherals, OS‑level controls over new HID devices, and pressure for signed, authenticated firmware updates.
+
+- **View:** The decisive failure is transitive trust: wireless access inherited firmware authority, which inherited keyboard authority on the PC.
+- **Impact:** Owners face PC compromise and eavesdropping without interacting with the attacker.
+- **Watch next:** Signed firmware, mandatory BLE authentication, radio-disable controls, Creative advisories, and independent testing of related soundbars.

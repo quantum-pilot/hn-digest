@@ -3,18 +3,17 @@
 - Score: 371 | [HN](https://news.ycombinator.com/item?id=48384482) | Link: https://www.blackmagicdesign.com/products/davinciresolve/whatsnew
 
 ### TL;DR
-DaVinci Resolve 21 is a major release that turns Resolve into a full photo, video, audio, and VFX suite. It adds a Lightroom‑style Photo page with node-based, non‑destructive grading, camera tethering, AI search, and full Resolve FX on stills. Video gains extensive AI tools (content/face search, sharpening, deblur, age/face tweaking, speech generation), improved keyframing, HTML/Lottie graphics, Fusion Krokodove, Fairlight folders/EQ, and better VR workflows. HN discussion praises the power and generous free/perpetual model, but flags AI ethics, missing RAW support, GPU demands, and some long‑standing workflow bugs.
 
----
+Blackmagic’s release expands Resolve from video post-production toward an all-in-one media suite: a new Photo page adds albums, tethered capture, node-based nondestructive grading, plug-ins, and cloud collaboration; AI tools cover semantic search, slate reading, speech generation, facial changes, focus, sharpening, and deblurring. Editing, color, Fusion, Fairlight, and immersive workflows also gain updates. HN readers welcomed the breadth and non-subscription model, especially its potential to displace separate Adobe tools, but debated incomplete format and platform support, neglected core workflow problems, and whether automation saves craft or encourages unreliable shortcuts.
 
 ### Comment pulse
-- Resolve 21 is huge even without AI: new Photo page plus motion-graphics make it a serious Lightroom and After Effects alternative, especially on Linux—counterpoint: key camera RAW formats still missing.  
-- Many pros welcome AI for slate reading, clip search, deblur, masking, and level matching that remove drudgery—counterpoint: de‑aging/face reshaping risk bad aesthetics and ethical pushback.  
-- Blackmagic earns respect for a powerful free tier and $295 lifetime Studio license, yet users complain about Fusion integration, timeline matching quirks, and heavy GPU requirements.
 
----
+- Pricing → Many additions remain free; a Studio buyer reported a sub-$300 decade-old license still activated version 21 across major upgrades and two computers.
+- Readiness gap → Raw support excludes Lumix and Olympus; users also cited fragile Fusion compositions and improper UHD-to-HD degradation on timeline entry.
+- Automation → Editors valued slate recognition, search, deblur, masking, and level matching — counterpoint: skeptics warned unreliable shortcuts can degrade final work.
 
 ### LLM perspective
-- View: Resolve 21 pushes hard toward an integrated, end‑to‑end creator stack where Adobe currently dominates.  
-- Impact: Non‑Adobe workflows, especially indie, studio‑lite, and Linux pipelines, become far more viable.  
-- Watch next: Stability of AI tools at scale, breadth of RAW and GPU support, and whether Blackmagic prioritizes core workflow fixes.
+
+- **View:** Resolve is becoming a vertically integrated creative operating system; breadth increasingly makes consistency and hardware accessibility decisive.
+- **Impact:** Small studios can reduce application handoffs, but training, hardware, color management, and portability become more concentrated in one vendor.
+- **Watch next:** Photo catalog scale, IntelliSearch accuracy, generated-voice controls, Krokodove stability, H.265 render quality, and VR180/VR360 workflow adoption.

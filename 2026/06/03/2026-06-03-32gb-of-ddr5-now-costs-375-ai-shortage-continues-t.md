@@ -3,11 +3,17 @@
 - Score: 369 | [HN](https://news.ycombinator.com/item?id=48383241) | Link: https://www.tomshardware.com/pc-components/ddr5/32gb-of-ddr5-now-costs-usd375-minimum-ai-shortage-continues-to-squeeze-pc-building
 
 ### TL;DR
-Consumer DDR5 prices have spiked as AI data centers soak up DRAM and NAND capacity. The cheapest 32GB DDR5 kit now tracks around $375 in the US, up from under $100 a year ago; 64GB is roughly $680 and even 16GB hovers near $200. SSDs that were $38 now approach $200. SK hynix expects constrained memory supply through 2030, while AMD and Intel are prolonging DDR4-era platforms to give builders at least some lower-cost upgrade paths.
 
----
+PCPartPicker data cited by Tom’s Hardware puts the cheapest 32GB DDR5 kit at $374.97, up from sub-$100 pricing a year earlier; 64GB is about $680 and even 16GB starts near $200. The article attributes the surge to AI consuming memory-production capacity and says SK hynix expects constraints through 2030, with SSDs also rising sharply. HN users reported similar consumer and server quotes, but debated how much reflects real wafer and HBM allocation versus panic buying, distributor markups, and opportunistic dynamic pricing.
+
+### Comment pulse
+
+- High prices span the market → builders cited 64GB kits near $900, while one SME received a €200,000 refurbished-server-memory quote.
+- Supply and speculation reinforce each other → AI pre-purchases scarce HBM capacity, while intermediaries raise prices to ration inventory or test willingness.
+- Consumer hardware faces lasting damage → delayed builds reduce demand for motherboards, cases, and cooling — counterpoint: older DDR4 systems and secondary storage remain options.
 
 ### LLM perspective
-- View: AI infrastructure demand is increasingly distorting consumer component pricing, especially commodity memory and storage.  
-- Impact: PC builders, small studios, and hobbyists face delayed upgrades, platform lock-in, or downsizing builds.  
-- Watch next: DRAM capex plans, HBM/DDR5 production mix, and whether AMD/Intel extend DDR4-compatible CPUs further into new generations.
+
+- **View:** Headline prices are observable; attributing shares to AI demand versus channel behavior still requires production and inventory data.
+- **Impact:** PC buyers defer upgrades; small enterprises lose bargaining power; component vendors face shrinking downstream demand.
+- **Watch next:** DRAM wafer allocation, HBM contracts, retail inventory turnover, fab-capacity announcements, and DDR4 or used-market prices.

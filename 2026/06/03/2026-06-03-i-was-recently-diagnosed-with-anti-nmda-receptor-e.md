@@ -2,15 +2,18 @@
 
 - Score: 452 | [HN](https://news.ycombinator.com/item?id=48384355) | Link: https://burntsushi.net/encephalitis/
 
-- TL;DR  
-  - Rust developer Andrew Gallant describes developing anti-NMDA receptor encephalitis: flu-like onset escalating into severe anxiety, psychosis, balance issues, and jaw pain. An ER visit led to psychiatric admission and delayed neurology, until a lucky connection got him to Brigham and Women’s, where early IVIG and steroids plus later CSF antibody testing confirmed the diagnosis. He’s now recovering well, in a satralizumab trial, and credits his wife, employer, and clinicians for essentially saving his life.
+### TL;DR
 
-- Comment pulse  
-  - Rare autoimmune and mast-cell disorders are often missed; determined patients/partners do years of research, sometimes using LLMs, to uncover effective treatments when doctors fail.  
-  - Many recount being dismissed as “anxious” or “it’s in your head,” especially women; medical misogyny and overconfident misdiagnosis significantly delay care — counterpoint: initial PCP judgments can be reasonable with limited data.  
-  - Clinicians note anti-NMDA encephalitis is a very recent, rare diagnosis; remembering such “zebras” and using CSF antibody tests and strong neurology centers remains crucial, and still outperforms current AI.
+Andrew Gallant describes anti-NMDA receptor encephalitis progressing from flu-like symptoms and anxiety to jaw pain, balance loss, suicidal ideation, delusions, and hallucinations. An ER sent him to inpatient psychiatry; a chance medical connection secured neurology care, where extensive testing and a positive cerebrospinal-fluid antibody result confirmed an autoimmune brain disorder. IVIG and methylprednisolone began before confirmation, and he reports faster-than-expected recovery while tapering medication and joining a satralizumab trial. HN shared similar misdiagnosis stories and emphasized revisiting psychiatric explanations when rapid physical decline does not fit.
 
-- LLM perspective  
-  - View: Treat sudden, severe psychiatric symptoms—especially with neurological signs—as medical until proven otherwise; rule out reversible brain diseases early.  
-  - Impact: Stories like this will push for better diagnostic pathways, neurology access, and careful, supervised use of LLMs as second-opinion tools.  
-  - Watch next: Studies on LLM-assisted triage, broader autoimmune/CSF testing protocols, and systems that auto-flag atypical psychiatric cases for neurological workup.
+### Comment pulse
+
+- Advocacy can change outcomes → his wife documented rapid decompensation and kept pressing for neurological review despite a psychiatric placement.
+- Confidently wrong diagnoses compound harm → commenters described autoimmune illnesses dismissed as anxiety, with gender bias delaying care.
+- Rare diseases are collectively consequential → a neurologist advised reconsidering them when progression or mixed physical symptoms violate the common diagnosis.
+
+### LLM perspective
+
+- **View:** The case illustrates why sudden psychiatric and neurological change warrants diagnostic reopening when the initial explanation stops fitting.
+- **Impact:** Patients benefit from timelines, collateral observations, and advocates who can communicate deterioration across fragmented care settings.
+- **Watch next:** Trial results for satralizumab, relapse monitoring, functional recovery, and protocols linking emergency psychiatry with neurology.

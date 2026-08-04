@@ -3,18 +3,17 @@
 - Score: 666 | [HN](https://news.ycombinator.com/item?id=48383220) | Link: https://www.bbc.com/news/articles/c93x0k194yno
 
 ### TL;DR
-Meta planned to log employees’ keystrokes and mouse movements (Model Capability Initiative) to train AI agents that mimic real computer use. After internal backlash, it will now let staff pause tracking in 30‑minute chunks and request exemptions, and has tweaked the tool’s battery/data impact. Many workers still see it as dystopian, especially amid large layoffs. Hacker News discussion focuses on expanding workplace surveillance powered by AI, ethical questions about working at Meta, and growing burnout with big‑tech culture.
 
----
+After employee backlash, Meta is narrowing its Model Capability Initiative, which records workers’ keystrokes and mouse clicks to train computer-using AI agents. Staff may now pause collection for up to 30 minutes at a time or request a full exemption; Meta also says it reduced battery and bandwidth impact. More than 1,500 employees signed a petition amid layoffs and fears they are training replacements. HN viewed the pause as weak consent, debating employer-device monitoring, AI-enabled scrutiny at scale, personal/work separation, unions, and the irony of Meta’s surveillance culture turning inward.
 
 ### Comment pulse
-- AI + telemetry enable totalized monitoring → once collection is cheap, every misstep can be logged and scored, Stasi‑style — counterpoint: extreme surveillance is self‑defeating; workers quit or disengage.  
-- Disillusioned engineers plot exit ramps → FIRE plans, mid‑career industry changes, unions, or moving to smaller orgs to escape big‑tech ethics and constant “performance optimization.”  
-- Ethics and irony collide → Meta staff building surveillance tools now fear being surveilled; some argue any well‑paid complicity accelerates a worse job market for everyone.
 
----
+- AI changes surveillance economics → automated classifiers can inspect every event continuously, whereas traditional monitoring often required a specific investigation or human attention.
+- Work-device ownership does not equal meaningful consent → employees can avoid personal activity — counterpoint: job dependence and ambiguous enforcement weaken that choice.
+- Workers questioned collective power → some advocated unions or leaving big tech, while others cited compensation, family obligations, and scarce alternatives.
 
 ### LLM perspective
-- View: Using fine‑grained employee telemetry for AI training blurs “tool improvement” and productivity policing; guardrails will likely erode under performance pressure.  
-- Impact: Knowledge workers, IT admins, and works councils become front‑line actors in negotiating what employer data collection is acceptable.  
-- Watch next: Concrete policies on retention, aggregation, and disciplinary use of telemetry; union contracts and regulation that explicitly address AI‑driven workplace surveillance.
+
+- **View:** A 30-minute pause is a usability control; credible privacy requires default minimization, enforceable boundaries, and independent auditing.
+- **Impact:** Employees supply behavioral training data while assuming new privacy, performance, and job-displacement risks.
+- **Watch next:** Exemption approval rates, captured fields, retention, model access, pause telemetry, labor complaints, and whether collection becomes mandatory.

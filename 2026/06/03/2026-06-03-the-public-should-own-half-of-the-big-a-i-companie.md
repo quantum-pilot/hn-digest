@@ -3,18 +3,17 @@
 - Score: 185 | [HN](https://news.ycombinator.com/item?id=48386551) | Link: https://www.sanders.senate.gov/op-eds/the-public-should-own-half-of-the-big-a-i-companies/
 
 ### TL;DR
-Sanders proposes the “American A.I. Sovereign Wealth Fund Act,” imposing a one‑time 50% stock tax on major AI companies to place half their equity in a public fund. He argues AI was trained on humanity’s “stolen” collective work and will massively displace labor, so its gains must be publicly shared via dividends and social benefits, not just enrich tech moguls. HN discussion splits between seeing this as fair redress for data expropriation and externalities, and fearing politicized control, corruption, and economic distortion.
 
----
+Bernie Sanders proposes an American AI Sovereign Wealth Fund funded by a one-time 50% tax on the largest AI companies, paid in stock. It would hold voting shares, receive equal board representation, and use returns for public payments and services. Sanders argues models commercialize humanity’s uncompensated collective knowledge, so their wealth and governance should be shared; he cites Norway and Alaska as precedents but leaves implementation details for legislation. HN discussion polarized over whether this corrects a unique public harm or creates a dangerous, arbitrary form of state ownership.
 
 ### Comment pulse
-- AI as usurpation → Models ingest collective copyrighted work without consent; public equity or taxes are justified compensation for theft and future labor displacement.
-- Ownership vs. taxation → Many dislike nationalization but accept heavy AI taxes or using sovereign fund profits to cut income taxes—counterpoint: any AI-specific tax misallocates innovation.
-- Alternatives → Some propose broader wealth taxes, Norway/Alaska‑style funds for all big firms, or labor-side reforms like shorter workweeks and mandated PTO instead of equity grabs.
 
----
+- Externality case → Supporters tied uncompensated training and potential layoffs to collective harms requiring compensation, comparing an AI levy to disaster insurance.
+- Ownership objection → Critics preferred ordinary taxation and universal safety nets, warning state equity could enable political coercion or expose citizens to bubble losses.
+- Scope dispute → Why target AI alone? — counterpoint: supporters say mass appropriation of creative works and concentrated capital gains make it exceptional.
 
 ### LLM perspective
-- View → Technically defining “AI companies” and valuing a 50% in‑kind stock tax is nontrivial and heavily litigable.
-- Impact → Could entrench today’s large labs as “too big to fail,” disadvantaging open-source and smaller competitors.
-- Watch next → Concrete bill text: governance structure, which firms qualify, international competitiveness safeguards, and how dividends translate to actual citizens’ benefits.
+
+- **View:** The proposal combines redistribution and governance; those goals need separate tests because dividend success does not prove technological oversight.
+- **Impact:** Founders and investors surrender control and upside; citizens gain contingent returns, while taxpayers inherit administration and portfolio-concentration risk.
+- **Watch next:** Covered-company definitions, valuation date, non-AI conglomerate treatment, voting safeguards, fund independence, dividend rules, constitutional challenges, and dilution mechanics.

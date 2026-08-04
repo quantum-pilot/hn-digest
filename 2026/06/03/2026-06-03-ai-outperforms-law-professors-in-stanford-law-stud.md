@@ -2,19 +2,18 @@
 
 - Score: 389 | [HN](https://news.ycombinator.com/item?id=48377761) | Link: https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/
 
-## TL;DR
-Stanford’s study had 16 law professors write and answer 40 contracts-law student questions, then blindly compare their peers’ answers with LLM-generated ones (~2,900 pairings). Professors preferred the AI answer about 75% of the time and labeled it “pedagogically harmful” far less often (3.5% vs 12% for humans), suggesting LLMs can be strong law tutors in judgment-heavy domains. Commenters welcome cheaper, on-demand explanation of legal concepts but question the study’s methodology and strongly warn against treating LLMs as unsupervised legal counsel.
+### TL;DR
 
----
+In a blind Stanford-led study, 16 law professors wrote answers to 40 contracts-course questions, then made nearly 3,000 forced-choice comparisons between anonymized professor and AI responses. AI won 75% of matchups and was flagged as pedagogically harmful 3.5% of the time versus 12% for human answers, suggesting promise as an on-demand tutor rather than legal counsel. HN questioned the small, variable evaluator pool and preference-based design, while lawyers warned that persuasive style can conceal fabricated citations and that legal errors lack code-like tests, sandboxes, and rapid debugging.
 
-## Comment pulse
-- Study design skepticism → tiny sample, high variance, Google-centric models, and forced-choice “which answer sounds nicer” all bias toward LLMs—counterpoint: even a flawed win is notable progress.  
-- Use in practice → LLMs already great as “paralegals” and research aides but hallucinated citations and slow, high-stakes legal feedback loops demand expert oversight.  
-- Scope confusion → paper is about tutoring and access to legal education, not replacing lawyers; LLMs may explain complexity well but shouldn’t give final legal advice.
+### Comment pulse
 
----
+- The sample supports a narrow claim → 16 professors rated tutoring responses; it does not show AI can draft wills or practice law safely.
+- Preference may reward polish over truth → models are optimized for persuasive answers, and evaluator charisma effects can diverge from harmfulness.
+- Expert use remains valuable → LLMs surface niche cases and counterarguments — counterpoint: every citation and conclusion requires verification.
 
-## LLM perspective
-- View: Treat results as evidence LLMs can explain law effectively, not as proof they’re reliable primary counsel.  
-- Impact: Law students, bar-prep providers, and legal-research vendors gain leverage; solo practitioners and small firms benefit from boosted capacity.  
-- Watch next: Larger replications, outcome-based studies on student learning, and bar regulators’ rules on AI use in legal education and practice.
+### LLM perspective
+
+- **View:** The result measures perceived pedagogical usefulness under controlled formatting, not independent legal correctness or downstream learning.
+- **Impact:** Law schools could scale office-hours support, but supervising faculty retain responsibility for accuracy and critical-thinking practice.
+- **Watch next:** Larger preregistered replications, objective citation audits, student learning outcomes, adversarial questions, and longitudinal overreliance measures.

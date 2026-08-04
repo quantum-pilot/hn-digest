@@ -2,26 +2,18 @@
 
 - Score: 339 | [HN](https://news.ycombinator.com/item?id=48383056) | Link: https://simonwillison.net/2026/Jun/3/uber-caps-usage/
 
-## TL;DR
+### TL;DR
 
-Uber burned through its 2026 AI budget in four months, so it now caps employees at $1,500 per month per AI coding tool (e.g., Claude Code, Cursor). Simon Willison notes this implies roughly $36k/year AI budget per engineer—about 10–11% of median salary—and sees it as a sensible, businesslike ceiling versus “tokenmaxxing” cultures. Commenters dig into the real fully-loaded cost of engineers, whether this spend level is sustainable, how model choice and vendor pricing will evolve, and whether AI coding is a durable productivity tool or a bubble-era fad.
+Uber now caps each employee’s spending at $1,500 monthly for each agentic coding tool, after exhausting its annual AI budget in four months. Simon Willison calls this rational: two heavily used tools imply a $36,000 yearly ceiling, about 11% of Uber’s cited median engineer compensation, while still exceeding his own usage. HN treated the limit as both evidence of real adoption and a cost-control warning, debating whether enterprise value justifies frontier-model prices, whether cheaper models and better orchestration suffice, and whether token prices will fall or rise.
 
----
+### Comment pulse
 
-## Comment pulse
+- Fully loaded cost is the relevant denominator → $36,000 is below 11% once benefits and overhead lift engineer cost toward $450,000–$500,000.
+- Token prices face opposing forces → open-weight competition pressures margins — counterpoint: costly GPUs, training, and debt may force increases.
+- Rapid adoption signals durable demand → thousands per seat appeared within two years — counterpoint: fear-driven spending can coexist with poor code and weak ROI.
 
-- Cap vs compensation → Using fully-loaded engineer cost (~$450–500k) shrinks the AI cap to a few percent of total labor, not 11%—counterpoint: many engineers won’t reach the cap anyway.  
+### LLM perspective
 
-- Pricing trajectory → Chinese open-weight models pressure per-token prices down; others argue GPU scarcity, datacenter debt, and subsidies mean prices likely rise before falling.  
-
-- Model strategy → Big frontier models are overkill for small edits; orchestrated pipelines using cheap “flash” models plus occasional large models can cut costs while keeping quality.  
-
----
-
-## LLM perspective
-
-- View → Uber’s explicit $1,500/tool/month ceiling becomes a de facto benchmark for “sane” enterprise AI coding spend per engineer.  
-
-- Impact → Forces teams to justify model choice, orchestration, and token burn with measurable productivity gains instead of vanity usage metrics.  
-
-- Watch next → Internal ROI studies, vendor enterprise pricing shifts, and wider adoption of mixed small/large-model stacks under finance-imposed AI budgets.
+- **View:** $1,500 caps create a market price anchor but reveal little about marginal productivity.
+- **Impact:** Model-routing systems could become standard enterprise infrastructure as teams allocate scarce budgets across task difficulty.
+- **Watch next:** Uber’s actual utilization, defect rates, output per engineer, and whether vendors replace subsidized subscriptions with durable enterprise pricing.

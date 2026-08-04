@@ -2,18 +2,18 @@
 
 - Score: 213 | [HN](https://news.ycombinator.com/item?id=48385114) | Link: https://letsencrypt.org/2026/06/03/pq-certs
 
-## TL;DR
+### TL;DR
 
-Let’s Encrypt plans to adopt Merkle Tree Certificates (MTCs) as its main path to post‑quantum‑safe authentication. Conventional post‑quantum signatures (like ML‑DSA) would bloat TLS handshakes to >10 KB and break or slow many real‑world connections. MTCs batch certificates into Merkle trees and let browsers cache signed “landmarks,” keeping handshakes small while making certificate transparency intrinsic. Let’s Encrypt aims for MTC staging in 2026 and production in 2027; meanwhile, servers should already enable hybrid post‑quantum key exchange.
+Let’s Encrypt plans to make Merkle Tree Certificates its route to post-quantum web authentication, targeting staging in late 2026 and production readiness in 2027. MTCs batch certificates under one post-quantum signature, move signed landmarks outside handshakes, and make transparency intrinsic, keeping common handshakes smaller than today’s PKI. Current certificates do not change; operators should prioritize hybrid X25519MLKEM768 key exchange against harvest-now-decrypt-later attacks. HN welcomed avoiding permanently bloated ML-DSA handshakes but questioned landmark synchronization, stale-client fallbacks, non-browser support, and whether quantum risk is truly near-term.
 
-## Comment pulse
+### Comment pulse
 
-- Quantum risk is debated: some see PQ as cheap insurance against “store-now, decrypt-later”; others argue symmetric ciphers like AES remain safe even with quantum.  
-- MTCs praised for efficiency and transparency, but skeptics fear untested designs replacing mature tooling, and suggest layering old+new—counterpoint: extra complexity may outweigh gains.  
-- Downsides raised: servers and clients must handle landmark syncing; non‑browser tools may fall back to large standalone certs, blunting MTC size wins in many environments.  
+- Migration tradeoff → MTCs remove legacy PKI cruft but also discard battle-tested tooling, making ecosystem integration a substantial engineering project.
+- Distribution risk → Browsers can obtain landmarks from vendors; curl-like clients lack an obvious trusted distributor and may rely on larger standalone certificates.
+- Urgency → Hybrid migration offers cheap insurance against harvest-now-decrypt-later risk — counterpoint: skeptics expect cryptographically relevant quantum computers to remain distant.
 
-## LLM perspective
+### LLM perspective
 
-- View: Moving signature bulk out of the handshake mirrors web caching: background sync plus compact proofs instead of heavyweight crypto.  
-- Impact: ACME clients, TLS libraries, and non‑browser tools must be updated or risk degraded performance via oversized standalone certificates.  
-- Watch next: MTC standardization progress, browser landmark-distribution designs, and measurements of handshake failures on flaky or air‑gapped networks.
+- **View:** MTCs trade byte-heavy stateless verification for smaller handshakes backed by continuously distributed, authenticated state.
+- **Impact:** ACME-client maintainers must absorb protocol changes spanning issuance, revocation, transparency, and certificate selection before administrators see benefits.
+- **Watch next:** PLANTS standardization, ACME drafts, root-program requirements, revocation design, fallback frequency, and whether production remains on track for 2027.

@@ -2,10 +2,18 @@
 
 - Score: 214 | [HN](https://news.ycombinator.com/item?id=48377496) | Link: https://discourse.julialang.org/t/pluto-1-0-release/137296
 
-- TL;DR  
-Pluto 1.0 marks Julia’s spreadsheet‑like reactive notebook as “ready” after six years of rapid iteration. The post is really a comprehensive changelog of the last few years: reproducible per‑notebook environments, robust export to standalone HTML/PDF/Julia, fine‑grained control over reactivity, a rich widget and JavaScript API, 16-language localization, education-focused features (better error UX, course-site templates, PlutoTurtles), cautious, opt‑out AI for syntax fixing only, significantly improved editor tooling, and a maturing ecosystem plus formal governance.
+### TL;DR
 
-- LLM perspective  
-  - View: Pluto shows how notebooks can be reactive, reproducible applications, not linear logs—ideal for teaching and interactive research.  
-  - Impact: Julia educators, scientific communicators, and tooling authors get a polished, opinionated environment tightly integrated with the broader Julia ecosystem.  
-  - Watch next: Benchmarks vs Jupyter for large notebooks, broader hosting/deployment options, and whether other ecosystems adopt similar reactive-notebook designs.
+After six years, Pluto 1.0 marks Julia’s reactive notebook as stable; the release itself mainly removes deprecations, while showcasing accumulated capabilities. Cells form a dependency graph and recompute like a spreadsheet, each notebook gets an isolated, versioned package environment, and exports can be self-contained offline HTML containing source and dependencies. The platform also includes rich widgets, teaching templates, accessibility, 16 interface languages, syntax repair, and improved editor tools. HN praised reproducibility and interactive communication but debated output placement, one-statement cells, Julia specificity, and automatic recalculation.
+
+### Comment pulse
+
+- Reactivity beats hidden execution order → users compared Pluto favorably with Jupyter, while citing Marimo, Observable, and Livebook as sibling designs.
+- Document flow remains divisive → output above code aids plot-first reading — counterpoint: others want a bottom-output toggle for top-to-bottom narratives.
+- Automatic recomputation needs escape hatches → expensive workflows benefit from batching; Pluto offers disabled cells and runtime-based confirmation.
+
+### LLM perspective
+
+- **View:** Pluto treats reproducibility as an execution-model property, not documentation users must remember to maintain.
+- **Impact:** Educators can distribute interactive material with fewer environment and cell-order failures across large classes.
+- **Watch next:** Adoption beyond Julia courses, output-position configurability, multi-statement ergonomics, and interoperability with Quarto.

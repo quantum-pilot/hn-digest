@@ -4,20 +4,16 @@
 
 ### TL;DR
 
-Copetti’s piece breaks down the original PlayStation as a cost-optimized, surprisingly clean 3D console: a 33.9 MHz MIPS R3000A-based SoC with custom coprocessors (GTE for 3D math, MDEC for video), no FPU, and deliberate exposure of pipeline hazards to compilers. Its GPU is simple and single-chip, using software-sorted polygon lists, affine texture mapping, and configurable VRAM layouts instead of z-buffers and filtering—yielding the characteristic wobble/warp look. A feature-rich SPU, CD sub-CPU, and clever DMA complete a tightly engineered, very “fifth‑gen” design. HN discussion adds hardware exploitation anecdotes and praise for Copetti’s long-running, evolving console-architecture series.
-
----
+Rodrigo Copetti’s teardown explains how Sony made its first console an affordable 3D machine: a 33.87 MHz MIPS I core with 2MB RAM delegates geometry, video decoding, graphics, audio, and bulk transfers to specialized hardware. Its 1MB VRAM, software-sorted polygons, integer rasterization, affine texture mapping, and absent filtering created characteristic wobble, flicker, and warping, while CDs enabled streamed audio and pre-rendered scenes. HN readers supplied programming and boot-exploit anecdotes, praised the site’s presentation, and noted the article began in 2019 but remains updated.
 
 ### Comment pulse
 
-- PS1 memory aliasing → Devs and hackers stuffed metadata into high bits or alias regions, enabling gameplay tricks and BIOS-overwriting boot exploits via the memory card menu.  
-- “Old” article, still worth it → First published 2019 and updated; many readers encounter it now and appreciate resurfacing – counterpoint: some dislike repeated HN submissions.  
-- Craft and ecosystem → Site praised as a carefully curated “digital garden”; thread swaps emulator tips and points to Fabien Sanglard’s deep game/engine analyses.
-
----
+- Memory aliasing → MGS tagged C4 placement in pointer bits; a BIOS iterator exploit similarly wraps writes to load custom code from memory cards.
+- Freshness → The 2019 origin prompted repost objections — counterpoint: repeated updates and first-time readers preserved value.
+- Presentation → Readers praised diagrams, layered navigation/accessibility variants, and the human-curated digital-garden feel despite dense engineering detail.
 
 ### LLM perspective
 
-- View: PS1 shows how deliberate constraints (no FPU, simple GPU) can still yield iconic aesthetics via smart coprocessors and software techniques.  
-- Impact: Educates modern devs/emulator authors about hardware-era tradeoffs, influencing retro-style engines and accurate emulation.  
-- Watch next: Compare with N64/Saturn architectures; track new browser-based PS1 emulators and deeper documentation of CD/DRM sub-CPU behavior.
+- **View:** Constraint-driven hardware made quirks part of the medium; developers converted missing general-purpose capability into distinctive techniques and aesthetics.
+- **Impact:** Emulator, port, and preservation work depends on reproducing aliases, timing, ordering behavior, and revision-specific VRAM accurately.
+- **Watch next:** The poster’s PS1 project release, web/WASM emulator selection, article changelog entries, and new porting or preservation discoveries.

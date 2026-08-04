@@ -3,18 +3,17 @@
 - Score: 233 | [HN](https://news.ycombinator.com/item?id=48374552) | Link: https://handwritten.danieljanus.pl/2026-06-01-edsger.html
 
 ### TL;DR
-A hobby project called Edsger turns a reMarkable 2 e‑ink tablet into a handwritten Clojure REPL: you write Clojure code with the pen, it’s captured from the tablet, transcribed via an LLM (Claude), evaluated on a Clojure interpreter, and the results are rendered back into the notebook. The author documents it in a fully handwritten blog, including clickable links. HN readers love the hackability and aesthetics but note significant interaction latency and brainstorm ways to reduce it.
 
----
+Edsger turns a reMarkable 2 notebook into a stylus-driven “almost Clojure” REPL. A Go process polls Xochitl’s proprietary page files, diffs new strokes, renders them for Claude Sonnet 4.6 transcription, evaluates the expression locally, then injects a Dijkstra-handwriting-style result image below it through an XOVI/QML plugin. Everything except OCR runs on-device. The workflow is deliberately artistic rather than practical: responses take roughly 14 seconds, mostly because Xochitl waits about 12 seconds to save. HN treated it as successful hack art while focusing on latency and alternative architectures.
 
 ### Comment pulse
-- Latency analysis → ~14 seconds from pen-up to result; most delay from reMarkable’s slow file writes, plus transcription and REPL startup.  
-- Optimization ideas → Direct framebuffer access, custom Qt apps, and offloading via streaming to a server are suggested to cut delay—counterpoint: complexity might outweigh benefit for a hobby tool.  
-- Meta inspiration → People discover they can SSH into reMarkable, praise the handwritten SVG blog with embedded links, and see the device as a fertile hacking platform.
 
----
+- The filesystem is the bottleneck → direct framebuffer consumption could observe strokes immediately, bypassing Xochitl’s delayed notebook persistence.
+- A canonical notebook could improve portability → store handwriting, transcription, and output separately, then render them onto the tablet or PDF.
+- Impracticality is part of the appeal → commenters saw the build as art and a demonstration of reMarkable’s root-accessible Linux openness.
 
 ### LLM perspective
-- View → Clever pipeline: e‑ink capture → file event → LLM transcription → Clojure eval → rendered output, all tied to handwritten UX.  
-- Impact → Encourages treating e‑ink devices as programmable canvases for code, notebooks, and LLM-backed “magic paper” tools.  
-- Watch next → Faster on-device triggers, incremental streaming of output, and more robust notebook-style UIs integrating handwriting, code, and results.
+
+- **View:** Piggybacking on Xochitl trades implementation effort for latency; replacing its UI stack reverses that trade.
+- **Impact:** Open tablet access enables experimental interfaces that closed mobile ecosystems make prohibitively difficult.
+- **Watch next:** On-device stroke recognition, event-driven IPC, save-bypass hooks, and measured latency by pipeline stage.
