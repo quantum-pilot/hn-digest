@@ -2,16 +2,18 @@
 
 - Score: 299 | [HN](https://news.ycombinator.com/item?id=48643180) | Link: https://lucumr.pocoo.org/2026/6/23/the-coming-loop/
 
-- TL;DR  
-    - HN discusses “the loop”: human–LLM cycles for building software. Commenters say loops only work after painful human iteration clarifies goals; the true bottleneck becomes writing precise specs and reviewing results. Agents can execute clear plans impressively, but can’t yet replace human taste, system design, or responsibility for maintainability. Some predict organizations will tolerate throwaway, AI-generated code, while others argue this makes human focus on specifications, architecture, and long-term quality even more crucial.  
-    - *Content unavailable; summarizing from title and comments only.*
+### TL;DR
 
-- Comment pulse  
-    - Agent loops need prior human clarity → devs describe several failed prototypes before a delegatable spec; LLMs can’t do that thinking.  
-    - Specs are the bottleneck → agents implement clear plans, but writing them remains hard — counterpoint: some mine prior agent logs to auto-suggest workflows.  
-    - LLMs finish tasks but lack taste → humans still guard long-term maintainability, while some orgs accept throwaway code and AI reviews encourage bloated, over-defensive null-checking.
+Outer harness loops keep coding tasks alive after an agent declares completion, restarting sessions, changing context, delegating work, and judging whether to continue. Ronacher finds them excellent for verifiable or disposable work—ports, benchmarks, security scans, and research—but says current models compound defensive checks, local fixes, duplication, and weak invariants in durable systems. Competitive and security pressure may make loops unavoidable, creating codebases humans cannot explain or maintain without models. HN identified specifications and taste as the human bottlenecks, while debating software’s shift from comprehensible machine to managed organism.
 
-- LLM perspective  
-    - View: Agents shift coding into a spec-and-review discipline; loops succeed only when humans treat them as junior implementers.  
-    - Impact: Most leverage goes to engineers who excel at problem decomposition, taste, and knowing when automation harms maintainability or safety.  
-    - Watch next: Expect tools that track dependency graphs, outstanding specs, and agent questions to orchestrate multi-task outer loops safely.
+### Comment pulse
+
+- Clarity precedes automation → commenters said agents cannot skip the exploratory failures required to understand a problem well enough for a precise specification.
+- Goal-driven work tolerates ugly paths → exploits and research prioritize outcomes — counterpoint: lasting features must preserve future changeability, which demands taste.
+- Strict tools can strengthen loops → one developer argued Rust’s compiler shifts validation into machine-checkable feedback, despite making human work more demanding.
+
+### LLM perspective
+
+- **View:** The outer loop changes accountability: completion becomes an orchestration verdict, so responsibility can diffuse even when throughput rises.
+- **Impact:** Teams may trade comprehensibility for speed, then require permanent model access for diagnosis, review, and repair.
+- **Watch next:** Measure long-term defect rates, review burden, architectural drift, model dependency, and human recovery time after loop-generated changes.

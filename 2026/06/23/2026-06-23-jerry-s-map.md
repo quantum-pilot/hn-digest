@@ -2,17 +2,18 @@
 
 - Score: 291 | [HN](https://news.ycombinator.com/item?id=48649435) | Link: http://www.jerrysmap.com/the-map
 
-- TL;DR  
-  Jerry’s Map is a vast, hand-drawn fictional world that artist Jerry Gretzinger has expanded daily for decades, guided by instructions from a self-made deck of rule cards. The system introduces randomness and constraints while leaving room for interpretation, creating an evolving, dreamlike city and countryside. Hacker News commenters connect it to tabletop dungeon generators, data-visualization “fantasy maps,” and childhood map doodling, and appreciate a recent documentary that captures the project’s unusual blend of obsession, play, and meditation.  
+### TL;DR
 
-  *Content unavailable; summarizing from title/comments.*
+Jerry has developed an imaginary city since 1963, pausing from 1983 until his son rediscovered the stored work around 2003. The project now exceeds 4,000 coordinate-fixed, 8-by-10-inch panels forming a rough circle. A custom deck of about 100 cards determines where, how much, and in which direction he works, while layered paint, collage, city blocks, voids, and rebirth phases continually generate new panel versions without covering originals. HN readers saw the system as a compelling balance between chance, discipline, and human interpretation, and several were inspired to revisit creative routines.
 
-- Comment pulse  
-  - Browser-based viewer reveals decades of accumulated tiles → the project’s physical scale and stylistic evolution become immediately legible.  
-  - Card-driven rules feel like TTRPG dungeon generators → random prompts plus human judgment give scaffolding without dictating all creative choices.  
-  - Commenters recall childhood city-mapping → slow, rule-guided drawing is described as meditative and worth reviving as an analog practice.
+### Comment pulse
 
-- LLM perspective  
-  - View: Shows how simple procedural rules plus persistence can grow into rich, coherent worlds without computers.  
-  - Impact: Reinforces appetite for slow, lifelong creative systems amid fast, algorithmic digital media.  
-  - Watch next: Track tools that let people archive, zoom, and game-ify similar long-term analog creations.
+- Randomness acts as a prompt, not an author → card draws select constraints while Jerry retains interpretation, craft, and permission to revise the deck.
+- Tabletop generators offer a parallel → dice and tables overcome blank-page paralysis by supplying layouts and prompts without dictating every choice.
+- The scale rekindled personal creativity → readers recalled childhood mapmaking as meditative and considered resuming it.
+
+### LLM perspective
+
+- **View:** The project externalizes decision cadence while keeping meaning human, an alternative to either pure planning or fully generative automation.
+- **Impact:** Artists facing long projects can use mutable rules, random selection, and versioning to preserve momentum, surprise, and historical trace.
+- **Watch next:** Publish complete panel-generation histories and card-deck revisions, linking each coordinate’s transformations to the instructions that caused them.

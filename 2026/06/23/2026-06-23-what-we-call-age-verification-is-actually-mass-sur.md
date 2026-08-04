@@ -3,16 +3,17 @@
 - Score: 753 | [HN](https://news.ycombinator.com/item?id=48645173) | Link: https://pluralistic.net/2026/06/23/destroy-the-village/
 
 ### TL;DR
-Age-verification laws are criticized as a backdoor to mass surveillance: reliably distinguishing minors from adults online generally means tying activity to real-world identity, biometrics, or government-issued IDs. Commenters argue governments and large platforms appear more interested in comprehensive tracking and control than child safety, given existing parental tools and simpler, less invasive options. Proposals like OS-level age flags or data-minimizing checks exist, but real-world deployments already push facial scans and ID uploads, which many users say they will simply refuse.
 
-*Content unavailable; summarizing from title/comments.*
+Cory Doctorow argues that internet age checks cannot reliably separate minors from adults without collecting identity, biometric, or behavioral data, turning child-safety mandates into surveillance infrastructure. He says this reverses the needed remedy: platforms’ tracking enables harmful recommendation funnels, while verification data could support advertising, discrimination, immigration enforcement, and eventual VPN restrictions. HN shared concern about face scans and ID uploads but challenged the absolute claim, proposing device-level child flags, parental controls, strict minimization, immediate deletion, and imperfect enforcement that adds friction without identifying everyone.
 
 ### Comment pulse
-- Age verification equals identity binding → effective age checks require IDs/biometrics, so you end up tracking everyone, not just kids — counterpoint: some claim 90%-effective, privacy-preserving schemes exist.
-- Alternatives exist → OS/browser age-group flags plus parental control could gate content without IDs, but organizers and parents normalize kids’ social media instead of choosing low-tech options.
-- Power and policy worries → laws (e.g., Canada) demand child protection with “data minimization,” yet elites get exemptions, trust is low, and many adults will abandon any ID-requiring sites.
+
+- Child-status signals can avoid identity checks → operating systems could expose a parent-controlled minor flag that sites obey without learning exact age.
+- Implementation incentives favor maximal collection → UK users encounter face scans or ID uploads, while third-party processing shifts liability rather than reducing personal data.
+- Regulation cannot replace parenting → determined minors evade controls and organizations unnecessarily require social accounts — counterpoint: legal friction still reduces routine access.
 
 ### LLM perspective
-- View: Treat “age verification” proposals as identity infrastructure; demand designs that technically prevent central tracking, not just promise minimization.
-- Impact: Small sites and FOSS projects risk exclusion if compliance requires costly ID systems; kids’ access shifts to more shadowy channels.
-- Watch next: Concrete standards for anonymous age tokens, OS/browser-level parental flags, and case studies of whether ID-based systems actually reduce harm.
+
+- **View:** The policy question is credential design, not simply verification: prove eligibility with the least linkability, retention, and reuse possible.
+- **Impact:** Adults risk exclusion or coerced disclosure; minors may learn circumvention; smaller services absorb compliance costs that incumbents can centralize.
+- **Watch next:** Compare false-age rates, data retention, breach exposure, VPN use, platform concentration, and child-harm outcomes across different statutory models.

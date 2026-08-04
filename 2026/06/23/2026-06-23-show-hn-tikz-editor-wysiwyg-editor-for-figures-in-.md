@@ -3,19 +3,17 @@
 - Score: 311 | [HN](https://news.ycombinator.com/item?id=48645437) | Link: https://tikz.dev/editor/
 
 ### TL;DR
-A new open‑source WYSIWYG TikZ editor lets users draw figures visually and get LaTeX/TikZ code, targeting students and researchers who dislike hand‑coding diagrams. The author reports building it heavily with Codex/ChatGPT (≈700M tokens), illustrating how consumer subscriptions can subsidize serious dev work. Power users criticize the “naive” output: everything uses absolute coordinates instead of TikZ’s relative positioning and anchors, trading readable, idiomatic code for predictable editing behavior. Discussion compares it with specialized diagram tools and praises TikZ’s impact on academic communication.  
-*Content unavailable; summarizing from title/comments.*
 
----
+TikZ Editor is an MIT-licensed visual and source editor for LaTeX figures, available on the web and as a desktop app. It keeps canvas edits and TikZ code synchronized while preserving existing whitespace, opens full TeX documents with multiple figures, imports SVG/IPE/PPTX, and exports SVG/PDF/PNG. Common shapes, paths, trees, matrices, loops, and styling work; some advanced constructs remain partial or unsupported. HN praised the polished interface and openness, but questioned absolute-coordinate output that sacrifices TikZ’s semantic positioning. The creator cited ambiguity between editable geometry and preserving author intent.
 
 ### Comment pulse
-- Massive LLM-assisted development → ~700M tokens via Codex/ChatGPT made a solo side project feasible, effectively converting subscription time into significant engineering capacity.  
-- Code-quality concern → Editor emits absolute coordinates and ignores TikZ idioms like anchors, making output less maintainable—counterpoint: relative code complicates later interactive edits.  
-- Ecosystem context → Users mention q.uiver, TikZiT, circuit2tikz, TikZ-CD, LyX, showing strong demand for domain-specific LaTeX diagram editors in math/CS workflows.
 
----
+- Semantic TikZ improves maintainability → anchors, relative positions, and alignment constraints express intent better than coordinates generated for every element.
+- Direct manipulation creates ambiguous edits → dragging a relatively positioned node could alter its reference, offset, or newly introduced coordinate.
+- AI materially accelerated development → roughly 700 million Codex tokens cost about $500 through subscriptions versus an estimated $15,000 at API rates.
 
 ### LLM perspective
-- View: Hybrid WYSIWYG+code is ideal: visual authoring, then optional refactoring into idiomatic TikZ for power users.  
-- Impact: Students and non-expert LaTeX users gain access to TikZ quality without its steep learning curve.  
-- Watch next: Features like “beautify TikZ code” and CAD-like constraint systems could bridge editable geometry with human-readable source.
+
+- **View:** A bidirectional editor succeeds when generated code remains idiomatic enough for humans, not merely render-equivalent and mechanically editable.
+- **Impact:** Students and researchers gain faster diagram iteration; experienced TikZ authors may resist workflows that flatten abstractions into coordinates.
+- **Watch next:** Benchmark round-trip fidelity on hand-written documents, expand decorations and plots, and test constraint-aware dragging against real academic figures.

@@ -2,16 +2,18 @@
 
 - Score: 287 | [HN](https://news.ycombinator.com/item?id=48644781) | Link: https://www.404media.co/madison-square-garden-made-dossier-on-activists-who-opposed-facial-recognition/
 
-- TL;DR  
-  Madison Square Garden reportedly kept a dossier of people critical of its facial-recognition program, then had that and other data exposed in a major hack. The venue has long used facial recognition to deny entry to disfavored individuals, including lawyers at firms litigating against it and some vocal critics. Hacker News discussion centers on privacy and biometric security, whether private venues should face limits on surveillance-based bans, and proposals ranging from strict regulation to outright prohibition.  
-  *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  - Facial recognition misuse + data breach → shows corporate surveillance incompetence; calls for legal limits and revoking MSG’s tax break — counterpoint: taxation shouldn’t be a policy lever here.  
-  - Some see facial recognition as useful for spotting violent repeat offenders, but insist on transparent rules, audits, and appeals; others reject any corporate biometric tracking outright.  
-  - Property-rights camp: private venues may exclude individuals by any disclosed method; critics argue quasi-public stadiums plus immutable biometrics demand stronger public-accommodation protections.
+Madison Square Garden’s breached 45GB cache contained profiles of three facial-recognition critics, including contact details, social accounts, quotations, and tweet screenshots. The finding deepens concerns about a system MSG has used since 2018 to deny entry to lawyers affiliated with opposing firms and other critics. HN commenters saw the dossiers and insecure storage as evidence for biometric-surveillance rules, but split over remedies: ban facial recognition, impose transparent exclusion and appeals standards, revoke MSG’s tax exemption, or preserve private venues’ discretion to refuse entry.
 
-- LLM perspective  
-  - View: Stadium-scale facial recognition should require explicit legal frameworks: purpose limits, retention caps, auditability, and ban on retaliatory blacklists.  
-  - Impact: Sports teams, concert promoters, and biometric vendors face regulatory, reputational, and cybersecurity risks from opaque surveillance programs.  
-  - Watch next: New York state/City bills on biometric use, breach-driven lawsuits, and whether major leagues or insurers impose minimum privacy standards.
+### Comment pulse
+
+- Public subsidy changes the bargain → critics argued MSG’s property-tax exemption should not coexist with arbitrary exclusion backed by biometric tracking.
+- Face matching can bar known violent attendees → transparent criteria, audits, and appeals could constrain misuse — counterpoint: consent advocates reject routine biometric processing.
+- Private-property rights remain contested → some defend individualized refusal of entry; others treat major subsidized venues as public accommodations requiring stronger duties.
+
+### LLM perspective
+
+- **View:** The central risk is not identification accuracy but unreviewable power: surveillance converts criticism and association into enforceable access decisions.
+- **Impact:** Activists, litigants, workers, and ordinary patrons face chilling effects even without confirmed denial, because biometric identifiers cannot be replaced.
+- **Watch next:** Investigate authorship, access logs, retention practices, watchlist criteria, false matches, appeals, and whether stolen biometric templates expose patrons.

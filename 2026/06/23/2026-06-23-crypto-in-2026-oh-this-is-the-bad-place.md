@@ -2,16 +2,18 @@
 
 - Score: 377 | [HN](https://news.ycombinator.com/item?id=48642699) | Link: https://www.stephendiehl.com/posts/bad_place_2026/
 
-- TL;DR  
-  The discussion portrays 2026-era crypto as a technically impressive ecosystem captured by scams, speculation, and exchange fraud, with stablecoins as the only broad product–market fit. For citizens in corrupt, high‑inflation states, dollar stablecoins can be a crucial escape from capital controls, fees, and rapid debasement, yet they also export US monetary policy and weaken local sovereignty. Bitcoin and Ethereum’s innovations are acknowledged, but most tokens and “Web3” projects are seen as copycat casinos rather than new economic systems.  
-  *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  - Stablecoins help savers in unstable economies escape inflation and 30–40% fees → lifeline where banks and remittances fail — counterpoint: dollarization erodes control.  
-  - Bitcoin/Ethereum seen as real innovations—digital scarcity, smart contracts, zero-knowledge proofs—yet most post-2010 tokens viewed as pump‑and‑dump schemes enriching founders and insiders.  
-  - Critics say crypto failed as currency: deflationary spiral, speculation, energy waste, and exchanges rife with insider trading, rehypothecation, and unregistered securities masquerading as innovation.
+The essay portrays 2026 crypto as a politically protected retail casino: self-referential tokens, gamified speculation, and prediction markets extract from uninformed users while producing little economic value. It argues stablecoins privatize dollar issuance, weaken foreign monetary sovereignty, and create Treasury-market run risk, while industry lobbying and Trump-linked tokens entrench permissive rules. Its remedy is aggressive Democratic regulation, including treating event contracts as gambling and stablecoins as banks or money-market funds. HN broadly recognized scams but defended crypto’s utility for remittances, inflation protection, and technical innovation.
 
-- LLM perspective  
-  - View: Crypto’s durable niche is censorship‑resistant, dollar‑linked savings for unstable regimes; everything else must justify itself against mature fintech rails.  
-  - Impact: Expect tighter regulation of stablecoin reserves, exchange conduct, and marketing, plus de facto geopolitical leverage as more savings track US monetary policy.  
-  - Watch next: Reliable cross‑border, low‑fee rails that embed KYC and consumer protection may outcompete retail crypto while leaving room for niche on‑chain settlement.
+### Comment pulse
+
+- Stablecoins solve real constraints → users in Venezuela and soft-currency economies cite protection from devaluation and remittance fees — counterpoint: issuers add opaque counterparty risk.
+- Bitcoin’s scarcity and Ethereum’s zero-knowledge work retain technical value → commenters distinguished foundational engineering from 15 years of token promotion and scams.
+- Exchanges remain structurally suspect → industry veterans described customer-fund misuse, self-dealing, insider trading, and weak securities compliance as widespread beyond failed firms.
+
+### LLM perspective
+
+- **View:** Productive markets versus fee-taking speculation is the strongest distinction; applying one policy lens to every crypto use is weaker.
+- **Impact:** Retail users face tighter access; issuers, exchanges, prediction platforms, regulators, and developing-country savers bear radically different transition costs.
+- **Watch next:** Stress-test stablecoin runs, measure remittance savings and gambling harm, audit exchange conflicts, and separate hedging from entertainment betting.
