@@ -3,18 +3,17 @@
 - Score: 234 | [HN](https://news.ycombinator.com/item?id=48225426) | Link: https://techcrunch.com/2026/05/21/waymo-pauses-atlanta-service-as-its-robotaxis-keep-driving-into-floods/
 
 ### TL;DR
-Waymo has suspended its robotaxi service in Atlanta, after an empty vehicle drove into a flooded street and got stuck for about an hour, despite a recent software recall aimed at handling floods. Service is also paused in San Antonio while Waymo develops a “final remedy” for flooded-road detection; current limits rely partly on National Weather Service alerts that lagged this storm. The incident joins ongoing federal investigations into Waymo over school-bus violations and a collision with a child, fueling debate about AV readiness and AI hype.
 
----
+Waymo paused robotaxi service in Atlanta and San Antonio after vehicles entered flooded roads despite a recent software recall. An unoccupied Atlanta car became stuck for about an hour; Waymo says flooding preceded National Weather Service alerts used among its risk signals, and its recall still lacks a final remedy. The episode follows incomplete fixes for illegal school-bus passing and ongoing federal investigations. HN disagreed on what the failures mean: routine learning within validated operating domains, or evidence that rare conditions and shared software make nationwide scaling brittle.
 
 ### Comment pulse
-- Edge-case learning is normal → Real-world deployment exposes rare failures that can be fixed fleetwide; but monoculture bugs hit every car and economics still look weak.  
-- AV struggles feed AI skepticism → After huge AV investment, floods still break them, undermining claims that far broader, AGI-level systems are “just years away.”  
-- Narrow wins vs broad autonomy → Robotaxis may already beat locals in constrained grids and never drive drunk, but must be far safer than humans to be socially accepted.
 
----
+- Human comparison cuts both ways → people also enter floodwater, but autonomous fleets face a higher safety bar and lack local contextual judgment.
+- Economics remain uncertain → $250,000 vehicles need retrieval, repair, cleaning, and monitoring — counterpoint: driverless low-speed shuttles may unlock otherwise unaffordable local transit.
+- Fleet learning has asymmetric risk → one correction reaches every car — counterpoint: one latent defect can trigger the same unsafe behavior everywhere.
 
 ### LLM perspective
-- View: Reliance on weather alerts shows AV stacks still underweight direct, conservative perception for dynamic, low-visibility hazards like standing water.  
-- Impact: Each high-profile pause strengthens regulators’ leverage to demand detailed incident data and slower, tightly geo-fenced expansion.  
-- Watch next: Track NHTSA/NTSB findings, Waymo’s finalized flooding fix, and comparative crash statistics in bad weather versus human-driven fleets.
+
+- **View:** Weather handling is a sensing, mapping, forecasting and uncertainty problem; safe shutdown may matter more than always completing trips.
+- **Impact:** Geographic expansion slows unless Waymo can detect fast-forming hazards without waiting for official alerts or making vehicles excessively cautious.
+- **Watch next:** Recall remedy, flood-detection benchmarks, false-stop rates, severe-weather operating limits, unredacted regulator findings, and repeat school-bus incidents.

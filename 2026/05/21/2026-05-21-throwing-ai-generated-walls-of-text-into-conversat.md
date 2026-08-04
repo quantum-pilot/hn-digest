@@ -2,15 +2,22 @@
 
 - Score: 473 | [HN](https://news.ycombinator.com/item?id=48219992) | Link: https://noslopgrenade.com/
 
-## TL;DR
-The article criticizes “slop grenades”: pasting AI-generated walls of text into chats or email where a human answer would be one concise sentence. This behavior dodges personal judgment, wastes others’ time, and shuts down real conversation, even when technically correct. The author urges using AI to clarify and compress, not inflate. Hacker News commenters largely agree, describing these dumps as stressful and performative, though some suggest treating them as a cultural quirk that needs norms and gentle coaching.
+### TL;DR
 
-## Comment pulse
-- AI chats resemble dreams: personally fascinating, socially dull → coworkers resent being forced to read logs; long AI replies feel stressful and low‑value.  
-- Some call slop grenades “I tried to help” culture → critics say without willing listeners it’s rude — counterpoint: tolerate rare cases as good‑faith mistakes.  
-- Readers want a “view prompt” button: prompts are concise, AI text bloated; long AI docs let people fake effort, making it hard to politely object.
+The site labels pasted AI-generated walls of text in chat or email as slop grenades: answers whose length overwhelms a conversational medium and forces recipients to extract the one useful sentence. Its Redis-versus-Memcached example contrasts a generic feature survey with a direct, context-specific choice based on required pub/sub. The author argues people ask colleagues for judgment, not output they could generate themselves. HN largely agreed on brevity and disclosure, while debating whether verbosity is a rude faux pas, a good-faith communication difference, or sometimes necessary context.
 
-## LLM perspective
-- Treat LLMs as drafting and compression tools: generate, then aggressively edit down to one‑sentence answers plus optional collapsible detail.  
-- Workplaces will likely formalize norms: label AI content, forbid raw dumps in chat, encourage bullets or links to fuller docs.  
-- Expect tooling to auto‑summarize long messages, surface original prompts, and flag likely AI‑generated walls for sender review before posting.
+### Comment pulse
+
+- Good faith does not erase recipient cost → some framed verbosity as cultural difference — counterpoint: a communication norm needs willing listeners, not only speakers.
+
+- Expanded prose can counterfeit effort → an AI-polished document occupies the status once earned by drafting, refining, and structuring an argument.
+
+- Long messages can be appropriate → tailored context helps a known recipient — counterpoint: generic generation cannot infer which details that person needs.
+
+### LLM perspective
+
+- **View:** The failure is not AI authorship but unedited delegation: generation externalizes drafting cost while pushing filtering cost onto recipients.
+
+- **Impact:** Teams lose response speed, accountability, and conversational turn-taking when volume becomes a substitute for judgment.
+
+- **Watch next:** Set channel-specific length norms, require provenance, lead with decisions, preserve optional context, and measure whether recipients act faster.

@@ -3,14 +3,17 @@
 - Score: 556 | [HN](https://news.ycombinator.com/item?id=48220105) | Link: https://blog.google/products/ads-commerce/google-marketing-live-search-ads/
 
 ### TL;DR
-Google is weaving Gemini into Search ads: conversational “Discovery” answers, AI-written “Highlighted Answers” inside AI Mode, AI-powered Shopping explainers, and chat-based “Business Agent” lead forms. It’s also expanding “Direct Offers” with AI-built promo bundles, native checkout, and travel deals embedded in AI responses. Google pitches this as more helpful, transparent, clearly-labeled “Sponsored” guidance. Hacker News sees it largely as hyper-personalized, hard-to-escape persuasion, amplifying hallucination risks, ad fraud concerns, and political manipulation fears, and pushing users toward Google alternatives.
+
+Google is testing Gemini-generated ads that answer questions, insert sponsored products into AI Mode recommendations, explain shopping results, and host brand chat agents. It is also expanding Direct Offers with AI-built promotion bundles, native checkout, and travel deals. Google says ads remain labeled and include an independent AI explainer, citing a survey in which 75% reported faster decisions with AI Mode. HN commenters saw personalized persuasion, hallucinated product claims, and political-ad misuse as risks, though some argued relevance may improve and reduced checkout friction matters more than manipulation.
 
 ### Comment pulse
-- AI explainers in ads = weaponized targeting → users get context-shaped pitches that may hallucinate features, crossing into deceptive or outright fraudulent advertising.  
-- New formats deepen behavioral influence → conversational logs train models to persuade even aware users, with special anxiety around political messaging and disinformation. — counterpoint: past studies suggest modest real-world persuasion effects.  
-- Many vow to abandon Google Search and block bots → calls grow for a public, neutral web index/API, independent of ad-driven companies.
+
+- Hallucination risk could create false claims or omit real features; commenters proposed advertiser-supplied structured datasheets with verbatim facts selected by AI.
+- Personalized persuasion alarmed readers, especially for politics — counterpoint: one cited research suggesting frictionless purchasing outperforms attempts to create unwanted demand.
+- Some welcomed potentially relevant ads, but others said the announcement made Search unusable and renewed calls for public, independently accessible web indexing.
 
 ### LLM perspective
-- View: This is the clearest fusion yet of large language models with the core revenue engine of a major platform.  
-- Impact: Advertisers gain powerful personalization; users lose more neutral search space; regulators inherit harder-to-audit, dynamically generated ad claims.  
-- Watch next: Ad-transparency rules for AI copy, restrictions on political targeting, independent audits of hallucination rates and conversion lift for these formats.
+
+- View: Separate retrieval from generation; models should choose verified facts, not invent advertiser claims or silently blend sponsorship with advice.
+- Impact: Search becomes a conversion funnel where ranking, explanation, conversation, discounting, and checkout increasingly share one operator.
+- Watch next: Require claim provenance, hallucination audits, political-ad exclusions, persuasion-data limits, clear labels, and independent conversion studies.

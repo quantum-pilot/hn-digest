@@ -3,9 +3,17 @@
 - Score: 270 | [HN](https://news.ycombinator.com/item?id=48220639) | Link: https://spectrum.ieee.org/trinity-nuclear-test
 
 ### TL;DR
-A 20-year restoration project has recovered and clarified forgotten photographs and film from the 1945 Trinity nuclear test, now collected in Emily Seyl’s “Trinity: An Illustrated History of the World’s First Atomic Test.” The piece focuses on the extraordinary engineering of the photographic campaign: 52 cameras, varied angles, frame rates, and distances, yet only 11 usable sets due to the blast’s unexpected intensity. These images, combined with vivid eyewitness accounts, capture both the physics and the psychological shock of entering the nuclear age.
+
+A 20-year restoration project assembled hundreds of photographs from Trinity, the first atomic test, detonated at 5:29:45 a.m. Mountain War Time on 16 July 1945. Berlyn Brixner’s camera bunker captured the fireball’s first hundredths of a second; although only 11 of 52 cameras produced satisfactory images, varied distances, angles, and frame rates yielded a detailed scientific record exceeding 100,000 frames. HN discussion mixed awe with moral unease, debating technical risks, radiation victims, site safety, wartime timekeeping, and why modern film recreations fail to convey the blast.
+
+### Comment pulse
+
+- Atmospheric-ignition fears were disputed: some described genuine uncertainty — counterpoint: a participant’s descendant and Bethe’s later account said scientists considered it effectively impossible.
+- New Mexico downwinders’ exclusion from 1990 compensation was highlighted, with a reply noting Congress expanded RECA to families in 2025.
+- Visitors described mixed radiation guidance and a haunted atmosphere; others distinguished modest ambient exposure from ingesting contaminated dust.
 
 ### LLM perspective
-- View: This work turns fragile, scattered technical footage into a coherent, data-rich visual record of the first nuclear detonation.  
-- Impact: Benefits historians, weapons scientists, and policymakers who need concrete visual evidence of nuclear effects and scale.  
-- Watch next: Systematic digitization of remaining Manhattan Project archives and open, high-fidelity datasets for modern modeling and risk analysis.
+
+- View: Restored test imagery functions as both measurement data and moral evidence; its technical clarity intensifies rather than resolves interpretation.
+- Impact: Historians gain precise visual sequences, while affected communities gain a stronger public record for recognition and accountability.
+- Watch next: Publish restored frames with timing metadata, document failed cameras, and connect archives to health and compensation histories.

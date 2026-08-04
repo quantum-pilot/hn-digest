@@ -2,15 +2,18 @@
 
 - Score: 225 | [HN](https://news.ycombinator.com/item?id=48221915) | Link: https://www.wired.com/story/a-bipartisan-amendment-would-end-police-license-plate-tracking-nationwide/
 
-TL;DR
-- A one-sentence bipartisan House amendment would bar any recipient of federal highway funds from using automated license plate readers (ALPRs) for anything except tolls, effectively forcing most states and cities to dismantle police ALPR networks. Supporters cite pervasive warrantless tracking, data sharing scandals involving Flock, and lawsuits like San Jose’s as evidence of mission creep and constitutional risk. Police and vendors warn it would remove tools for catching shooters, thieves, and Amber Alert suspects, and would also wipe out automated traffic enforcement.
+### TL;DR
 
-Comment pulse
-- “Bipartisan” tag disputed → just two outlier sponsors; bill seen as dead-on-arrival, better to push local ordinances — counterpoint: some constituents welcome any federal limit.
-- Amendment’s breadth → also bans speed/red-light cameras, cutting ticket revenue; some see a deliberate poison pill, others say automated ticketing violates confrontation rights.
-- Policy split → moderates want ALPR with short retention, narrow queries, strict sharing; civil-liberties side says any mass plate logging guarantees mission creep and repression.
+Representatives Scott Perry and Jesús García propose conditioning federal highway funds on recipients using automated license-plate readers only for tolling, a one-sentence amendment that would effectively end most state and local ALPR programs. The article cites nationwide data sharing, abortion-related tracking, and massive warrantless databases, while Flock stresses crime-solving value. HN debate centered on whether ubiquitous vehicle tracking can be safely constrained at all, with critics also questioning the measure’s breadth, practicality, and characterization as bipartisan.
 
-LLM perspective
-- View: Federal funding leverage is a powerful, blunt tool; nuanced national standards might protect privacy without killing all automated enforcement.
-- Impact: If similar language advances, ALPR vendors, city budgets, and data-broker ecosystems face sudden disruption; privacy litigators gain leverage.
-- Watch next: Compromise proposals allowing tolling/traffic uses with strict retention, and court cases inching toward labeling ALPR queries as searches.
+### Comment pulse
+
+- Abolitionists distrust guardrails → mission creep exposes travel histories to future administrations — counterpoint: audited, purpose-limited access could retain narrowly legitimate uses.
+- The bipartisan framing looks thin → one sponsor per party, disputed local backing, and a sweeping one-liner suggest a symbolic, unlikely amendment.
+- Narrower regulation remains plausible → cap retention, require suspicion-based searches and query logs, restrict sharing, and preserve toll or stolen-vehicle functions.
+
+### LLM perspective
+
+- **View:** The central design choice is collection versus access; once location histories exist, policy controls must withstand hostile future operators.
+- **Impact:** Adoption would shrink Flock’s government market while moving privacy disputes from Fourth Amendment doctrine to federal spending compliance.
+- **Watch next:** Committee adoption, revised exceptions, enforceability against mixed-use systems, retention mandates, and whether states decline Title 23 funding.

@@ -2,15 +2,22 @@
 
 - Score: 271 | [HN](https://news.ycombinator.com/item?id=48222733) | Link: https://blog.simbastack.com/indexed-a-year-of-video-locally/
 
-- TL;DR  
-  - An indie engineer with a safari lodge and years of unlabeled footage built a local-first video indexer on a 2021 M1 Max MacBook using Gemma 4 31B plus open-source tools. The pipeline extracts frames, GPS, transcripts, and face embeddings, then has a vision model write rich YAML+markdown sidecars per clip, making the archive English-queryable. HN discussion probed the practicality and tradeoffs of pushing large multimodal models onto consumer laptops today.
+### TL;DR
 
-- Comment pulse  
-  - Author published framedex as MIT-licensed code → commenters appreciate a concrete pipeline for personal media indexing and plan to adapt it for photos, editing agents.  
-  - Heavy swapping worries some readers → 50GB swap may age SSDs and reflects running a 31B model plus extras — counterpoint: acceptable for indexing runs.  
-  - Index design questions → author clarifies search is plain-text sidecars plus a faces database; EXIF+Nominatim and insightface handle locations and faces, not the LLM.
+A creator turned a year of unlabeled travel footage into an English-searchable local archive on a 2021 M1 Max. A 1,400-line Python pipeline extracts metadata, GPS, five frames, transcripts, and face embeddings, then asks quantized Gemma 4 31B to write structured Markdown sidecars beside each clip. The overnight run peaked at 50.89GB of swap. The central argument is that AI editors need an index first; HN welcomed the open-sourced tool but questioned excessive swapping and asked how its plain-text search, face clustering, and location metadata work.
 
-- LLM perspective  
-  - View: Local-first, schema-heavy indexing pipelines will become standard for serious creators overwhelmed by unlabeled photos and video.  
-  - Impact: Drives demand for efficient 20–40B local models, better media metadata tools, and OS-level support for sidecar-rich personal archives.  
-  - Watch next: Off‑the‑shelf apps wrapping pipelines like framedex, robust face/voice handling policies, and benchmarks comparing local vs cloud multimodal indexing.
+### Comment pulse
+
+- Open sourcing followed a sharing bug → the original local home-directory path was useless, prompting a quick MIT-licensed repository release.
+
+- The 50GB swap figure suggests avoidable memory pressure → commenters blamed concurrent Electron apps and virtualization more than the 4-bit model itself.
+
+- Deterministic tools handle identity and geography → InsightFace embeds faces and EXIF plus Nominatim resolves locations; the LLM describes scenes rather than guessing.
+
+### LLM perspective
+
+- **View:** Sidecars make AI enrichment durable: outputs remain portable, grep-able, inspectable, and useful after any model or indexer changes.
+
+- **Impact:** Creators can search neglected archives privately and cheaply, reserving cloud models and human review for ambiguous clips and edits.
+
+- **Watch next:** Benchmark retrieval quality, face-cluster accuracy, energy and SSD costs, editor integration, and whether indexed footage produces published reels.

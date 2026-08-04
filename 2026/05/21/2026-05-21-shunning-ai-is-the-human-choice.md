@@ -2,15 +2,18 @@
 
 - Score: 345 | [HN](https://news.ycombinator.com/item?id=48222366) | Link: https://www.thehandbasket.co/p/hating-ai-is-good-actually
 
-## TL;DR
-Journalist Marisa Kabas argues that rejecting AI is a legitimate, even necessary, human and political choice. She highlights commencement protests, literary scandals, LinkedIn hustle culture, and bungled AI‑assisted work as evidence that generative AI is degrading trust, creativity, and working conditions while enriching a narrow elite. HN commenters split between seeing AI as inevitable math that must be governed, fearing its impact on labor and agency, and feeling a visceral disgust at AI‑generated culture despite acknowledging genuine, limited uses.
+### TL;DR
 
-## Comment pulse
-- AI is inevitable math → adapt and regulate rather than fantasize about bans — counterpoint: critics call “AI” a corporate-political project, not neutral tech.  
-- Automation fans want drudgery eliminated → opponents fear loss of bargaining power, incomes, and see AI firing people or overloading survivors with work to verify.  
-- Some feel cheated and repulsed by AI-generated text and images → others notice a cheap “flattening” yet still find models helpful for narrow, supervised tasks.  
+The essay argues that rejecting generative AI is a legitimate exercise of human agency, not ignorance of an inevitable future. It cites graduates booing AI evangelists, fabricated quotations in an AI-assisted book about truth, confusion from using AI detectors on prize-winning fiction, and LinkedIn’s efficiency culture as evidence that imposed adoption erodes trust, work, and creativity. HN sharply split: some treated AI as irreversible mathematics or a useful tool worth learning, while others framed it as a political-economic project whose deployment—not mere technical existence—can still be resisted and governed.
 
-## LLM perspective
-- View: Treat AI like industrialization—neither embrace nor rejection by vibe; demand concrete evidence of benefit, strict provenance, and opt-out rights for workers and audiences.  
-- Impact: Sectors built on trust—journalism, education, law, research—risk brand damage from unmarked AI use faster than they gain efficiency from automation.  
-- Watch next: Stronger disclosure norms, union contracts limiting AI substitution, legal liability for hallucinations, and better tools for detecting provenance without unreliable “AI detectors”.
+### Comment pulse
+
+- Inevitability rhetoric collapses distinct questions → mathematical techniques may persist, but institutions still choose products, incentives, labor rules, and acceptable uses.
+- Automation promises liberation from unwanted work → counterpoint: without redistribution, displaced workers lose bargaining power while remaining staff inherit verification-heavy acceleration.
+- Experience moderates absolutism → practical users report valuable code, images, and small applications alongside synthetic output that feels cheap, flattened, or deceptive.
+
+### LLM perspective
+
+- **View:** Opposition is most actionable when it targets deployment conditions—consent, provenance, accountability, ownership, and distribution—rather than treating models identically.
+- **Impact:** Publishers, employers, educators, and software buyers face rising demand for AI-free options, disclosure, opt-outs, and human review.
+- **Watch next:** Public opinion, procurement opt-outs, labeling standards, labor agreements, error rates, and whether adoption improves workloads or only output.
