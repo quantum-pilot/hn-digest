@@ -2,23 +2,18 @@
 
 - Score: 559 | [HN](https://news.ycombinator.com/item?id=48447935) | Link: https://lowtechguys.com/musicdecoy/
 
-## TL;DR
-Music Decoy is a tiny macOS utility that prevents Apple’s Music app from auto-launching when you hit the Play key or a Bluetooth device sends play/pause. It “wins” by registering the same bundle identifier as Apple Music, so the system thinks Music is already running and does nothing; no polling or background work. You can optionally redirect media keys to another player via a defaults setting. HN discussion praises the elegance, debates Apple’s behavior, and shares alternative workarounds.
+### TL;DR
 
----
+Music Decoy prevents macOS from opening Music when an idle Play command arrives. It simply stays running under Music’s bundle identifier, causing the Remote Control Daemon to believe the system app is already open; version 1.1 can instead launch a configured player such as Spotify. The workaround preserves media-key controls, unlike disabling the daemon, and avoids continuously killing Music. HN admired the zero-work bundle-ID collision, shared remapping alternatives and a live-performance failure case, but split over whether Apple’s default is hostile promotion or reasonable Play-button behavior.
 
-## Comment pulse
-- Elegant system-level hack → Reusing the Music bundle ID avoids daemons, polling, and CPU use; seen as deep-understanding, low-code engineering — counterpoint: most humans and agents default to heavier, cruder solutions.
+### Comment pulse
 
-- Apple Music resentment → Some distrust Apple since iTunes’ breakup and streaming push; others note Music still handles local libraries fine if cloud features are disabled.
+- Elegant mechanism → Matching com.apple.Music exploits rcd’s process check without polling, illustrating how deep system knowledge can remove code rather than add it.
+- Operational risk → Unconfigurable Bluetooth Play events can route unexpected music through live-performance audio systems, making this more than a minor annoyance.
+- Intent debate → Critics see forced Music launches as anticompetitive — counterpoint: others expect an idle Play key to open the bundled player.
 
-- Real-world pain → Musicians and multi-device users risk random Music playback during live sets; some argue it’s still reasonable for Play to open a default player.
+### LLM perspective
 
----
-
-## LLM perspective
-- View: This is a classic “use the platform’s rules against it” fix, unlikely to emerge from generic boilerplate-based coding agents.
-
-- Impact: Benefits power users, performers, and anyone rejecting Apple Music’s nudges while keeping media-key functionality intact.
-
-- Watch next: Whether Apple hardens bundle-ID assumptions or finally exposes a preference to choose/disable the default media responder.
+- **View:** The best workaround intercepts the narrow dispatch assumption while preserving unrelated media controls.
+- **Impact:** Users gain control without daemon changes; the duplicate identifier may still depend on undocumented behavior.
+- **Watch next:** Test macOS updates, code-signing conflicts, Bluetooth call transitions, alternate-player launching, quit discoverability, and resource use.

@@ -3,18 +3,17 @@
 - Score: 365 | [HN](https://news.ycombinator.com/item?id=48446428) | Link: https://martinalderson.com/posts/xais-new-rental-business/
 
 ### TL;DR
-xAI, now inside SpaceX, is leasing huge chunks of its Memphis “Colossus” datacenter to Anthropic and Google: roughly 300MW/220k GPUs for $1.25B/month and another 110k GPUs for $920M/month. If these contracts persist ~18 months, capex for the buildout is effectively repaid, turning xAI into something like a datacenter REIT with an attached AI lab. HN debate centers on whether this is shrewd monetization of scarce compute or valuation-pumping financial engineering, and what it implies about Grok’s competitiveness.
 
----
+Martin Alderson argues xAI’s post-SpaceX-merger economics increasingly resemble infrastructure leasing: Anthropic reportedly pays up to $1.25 billion monthly for 300 MW at Colossus 1, while Google pays $920 million for 110,000 GPUs. If sustained for 18 months, the agreements could recover roughly $40 billion of construction capex, excluding opex and depreciation. He sees both genuine compute scarcity and possible IPO financial engineering, while leasing Grok capacity suggests a frontier-lab retreat. HN split over circular-deal suspicions, valuation multiples, and whether Grok’s quality or xAI’s 122-day build speed matters more.
 
 ### Comment pulse
-- Circular-deal worry → Google owns ~5–6% of SpaceX, so paying SpaceX boosts its own stake’s mark-to-market—counterpoint: demand for compute is clearly non-speculative.  
-- Business model shift → Leasing GPUs looks like infra/REIT economics, not “frontier lab” upside, suggesting Grok underperforms and capital is exiting the model race.  
-- Economics and barriers → Margins look enormous given cheap on-site gas power; real bottleneck is securing and installing GPUs at this scale.
 
----
+- Circularity → Google’s SpaceX stake and fresh equity raise fuel suspicion — counterpoint: scarce, revenue-producing compute gives the leases independent commercial logic.
+- Valuation → $26 billion annualized rental revenue is material, but infrastructure cash flow warrants a different multiple from proprietary frontier-model growth.
+- Execution → Colossus’s 122-day build is a defensible advantage; remaining uncertainty lies in GPU depreciation, contract durability, and total non-power costs.
 
 ### LLM perspective
-- View: This repositioning treats frontier models as tenants on a scarce-capacity grid, not the core value driver.  
-- Impact: Favors players good at mega-project execution; smaller labs may become permanent renters of compute rather than owners.  
-- Watch next: GPU pricing, cancellation-trigger behavior, Grok’s next-generation model, and whether others copy the “AI infra landlord” strategy.
+
+- **View:** xAI may have discovered that selling scarce compute is currently safer than competing for model demand.
+- **Impact:** SpaceX investors gain near-term revenue but face lower infrastructure multiples and concentrated tenant risk.
+- **Watch next:** Track renewals, cancellation use, utilization, depreciation, Grok training allocation, capacity additions, service reliability, and IPO disclosures.

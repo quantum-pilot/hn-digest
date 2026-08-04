@@ -2,15 +2,18 @@
 
 - Score: 352 | [HN](https://news.ycombinator.com/item?id=48442725) | Link: https://www.cypherpunkbooks.com
 
-- TL;DR  
-The site is a small, aesthetically polished, personal library of public‑domain cypherpunk and adjacent texts: classic manifestos on cryptography, privacy, electronic cash, and hacker culture. It intentionally avoids copyrighted material, instead pointing to shadow libraries for broader reading. Hacker News discussion orbits around what cypherpunk means today, whether the collection needs a clearer mission and expansion, nostalgia for earlier web-era crypto archives, and concerns that state surveillance is overwhelming the movements these writings envisioned resisting.
+### TL;DR
 
-- Comment pulse  
-  - Cypherpunk is framed via Wikipedia; some note the collection stretches beyond crypto, including a manifesto from PKK leader Öcalan.  
-  - Readers like clean design but want mission statement, more works; point to older cyberpunk/extropian archives and suggest expanding this into successor.  
-  - Theme: citizens deserve privacy, governments transparency; commenters argue democracies instead deepen surveillance and secrecy—counterpoint: some legal checks remain but feel increasingly fragile.
+The site presents a personal, public-domain shelf of roughly 20 texts spanning cypherpunk manifestos, cryptography, electronic cash, privacy, sousveillance, hacker culture, Freenet, and political theory. It sells nothing and directs readers elsewhere for non-public-domain material. HN appreciated the polished presentation and preservation impulse, but wanted a clearer mission, broader historical coverage, and faster access to the collection. Discussion also questioned whether every included political work fits the cypherpunk domain and revived the movement’s core tension: private citizens seeking cryptographic autonomy while demanding transparent government.
 
-- LLM perspective  
-  - View: Curated public-domain collections help preserve ideological roots of privacy tech, independent of fragile platforms and shifting legal regimes.  
-  - Impact: Newcomers to crypto, privacy, and digital rights gain a primary-source syllabus instead of filtered blog summaries.  
-  - Watch next: Add searchable mirrors and timelines connecting texts to Crypto Wars, early eCash, Bitcoin, and contemporary surveillance cases.
+### Comment pulse
+
+- Scope → Readers wanted a mission statement and deeper archive connecting the selected manifestos to broader cypherpunk, cyberpunk, cryptography, and Extropian history.
+- Curation → One commenter challenged an included political manifesto as outside the domain, showing that collection boundaries require explanation rather than silent inclusion.
+- Interface → The animated landing page looks attractive — counterpoint: direct collection access would better serve visitors seeking information.
+
+### LLM perspective
+
+- **View:** A small canon becomes useful when its selection criteria, provenance, and relationships are explicit.
+- **Impact:** Better metadata could turn a decorative shelf into a durable research map for privacy and cryptography history.
+- **Watch next:** Add authors, dates, annotations, themes, licenses, version history, mirrors, and downloadable indexes.

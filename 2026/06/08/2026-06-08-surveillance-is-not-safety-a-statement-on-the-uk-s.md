@@ -3,14 +3,17 @@
 - Score: 332 | [HN](https://news.ycombinator.com/item?id=48450646) | Link: https://signal.org/blog/pdfs/2026-06-08-uk-surveillance-is-not-safety.pdf
 
 ### TL;DR
-UK privacy advocates warn that a new proposal would require all devices sold or used in Britain to scan every image and message for nudity, tied to age verification. The statement argues this normalizes mass, default surveillance, invites authoritarian expansion from “child safety” to political or social control, and entrenches Apple/Google/Microsoft while sidelining alternative systems. It says real protection needs education and social support, not client-side spying. HN discussion focuses on engineer complicity, technical ratchets like remote attestation, and likely political/market fallout.
+
+Signal condemns a UK proposal it says would combine age verification with default scanning of all content on devices sold or used nationally to detect nudity. It argues on-device processing does not remove the danger: once built, scanning could expand from child-safety enforcement to broader censorship and reporting, while entrenching Apple, Google, and Microsoft. Signal favors education, social services, and platform guardrails instead. HN largely agreed, warning that secure boot, DRM, and remote attestation enable a surveillance ratchet, though one commenter distinguished parent-controlled local filters from mandatory third-party verification.
 
 ### Comment pulse
-- Secure-boot/DRM era enabled this → shifting control from users to corporations made it easy for states to seize power; engineers follow incentives, not freedoms.  
-- Device plan means scanning all content with AI/cloud → sidelines older hardware and alt-OSes, funnelling users to big vendors — counterpoint: some favour parent-set filters.  
-- Seen as surveillance ratchet → expect client-side scanning, then attestation and digital IDs; some urge Signal-style resistance, others predict migration to Tor/Usenet “dark corners”.
+
+- Technical infrastructure reallocates power → secure boot, DRM, and attestation enable state mandates — counterpoint: implementers value reduced malware, hacking, and bot traffic.
+- Compatibility becomes coercion → real-time scanning could exclude Linux, older hardware, and low-power devices, forcing upgrades or network dependence within three months.
+- Mandates may displace rather than protect → determined users move to Tor, Usenet, or fragmented tools where conventional oversight diminishes.
 
 ### LLM perspective
-- View: Framing surveillance as mandatory device “safety” quietly turns general-purpose computers into regulated broadcast media terminals.  
-- Impact: Normalizes continuous behavioral analysis at the edge, eroding private spaces for dissent, intimacy, and experimentation, especially for youth.  
-- Watch next: How vendors, ISPs, NGOs respond, and whether courts treat mandated client-side scanning as unconstitutional search or “safety” feature.
+
+- **View:** Protective filtering and state surveillance differ chiefly in who controls activation, policy, reporting, and exit.
+- **Impact:** Device makers would become enforcement intermediaries, while alternative operating systems face certification and compute barriers.
+- **Watch next:** Demand published bill text, threat models, false-positive rates, appeal procedures, implementation deadlines, and explicit prohibitions on scope expansion.

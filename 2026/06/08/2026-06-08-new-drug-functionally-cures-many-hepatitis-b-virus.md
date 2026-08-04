@@ -3,9 +3,17 @@
 - Score: 272 | [HN](https://news.ycombinator.com/item?id=48440463) | Link: https://www.science.org/content/article/new-drug-functionally-cures-many-hepatitis-b-virus-infections?user_id=66c4bf745d78644b3aa57b08
 
 ### TL;DR
-A phase 3 trial of GSK’s antisense drug bepirovirsen shows a 6‑month course, added to standard antivirals, achieved “functional cures” in 19% of well‑controlled chronic hepatitis B patients and 26% of those with the lowest surface antigen levels, versus 0% on placebo. Patients then remained off all therapy. The drug disables HBV mRNA and boosts immunity but doesn’t remove viral cccDNA, so relapses and long‑term durability remain concerns, as do high global underdiagnosis and uncertain pricing/access.
+
+In two phase 3 trials exceeding 1,800 participants, six months of GSK’s bepirovirsen added to standard antivirals produced a functional hepatitis B cure in 19% of treated patients—233 of 1,220—versus none of 614 placebo recipients; the rate reached 26% among those starting with the least surface antigen. The selected participants already had controlled infection and no cirrhosis or HIV, limiting generalization. HN welcomed the result but stressed that viral cccDNA remains, durability and transmission risk need follow-up, and poor diagnosis, treatment access, and pricing constrain global impact.
+
+### Comment pulse
+
+- Cure terminology → Functional cure means undetectable blood markers six months after treatment; embedded cccDNA persists, so this is not viral eradication.
+- Prevention gap → A vaccine cannot help 240 million existing chronic infections; commenters highlighted uneven access, incomplete diagnosis, and HBV’s liver-cancer burden.
+- Transmission uncertainty → Undetectable virus likely lowers contagiousness greatly — counterpoint: commenters cautioned against equating it with zero risk before long-term evidence.
 
 ### LLM perspective
-- View: Substantial advance over existing HBV therapies, but 19–26% cure in selected patients is far from a universal solution.  
-- Impact: May shift guidelines toward time‑limited regimens and spur investment in antisense plus immune‑modulating combination cures.  
-- Watch next: Longer follow‑up, real‑world adherence, pricing in low‑income countries, and trials in high‑antigen and cirrhotic populations.
+
+- **View:** Patient selection is central; baseline surface-antigen levels may guide who benefits and make population averages misleading.
+- **Impact:** Eligible, already-suppressed patients may stop lifelong antivirals; harder-to-treat and undiagnosed populations remain outside the evidence.
+- **Watch next:** Track multiyear relapse, liver outcomes, transmission, broader-population efficacy, adverse events, regulatory decisions, pricing, and delivery capacity.

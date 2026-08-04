@@ -2,15 +2,18 @@
 
 - Score: 411 | [HN](https://news.ycombinator.com/item?id=48446439) | Link: https://www.404media.co/a-farmer-donated-land-to-turn-into-a-park-the-city-is-building-a-massive-data-center-instead/
 
-## TL;DR
-In 1999 a Texas farmer transferred 87 acres to a public trust for $10, with a deed saying it must become a park. The City of Taylor later carved off most of the land and in 2025 sold 53 acres to a data-center developer for $10m plus large tax incentives; a 135,000‑square‑foot facility will sit near long-time neighboring homes. Those neighbors sued but lacked standing, prompting Hacker News debate over broken public promises, donor protections, and limits on “dead-hand” land restrictions.
+### TL;DR
 
-## Comment pulse
-- City violated spirit of park deed → locals demand legal or even criminal accountability; lawyers note only donor or city likely has standing.  
-- Development pragmatists → data center uses small portion, boosts tax base; city could still add parks — counterpoint: abatements and lost public land dilute benefits.  
-- Policy philosophers → oppose perpetual deed restrictions as undemocratic “dead-hand” control, yet many also condemn governments flipping discounted charitable land into private projects.  
+In 1999, a farming family transferred 87 acres in Taylor, Texas, to a public trust for $10 on the condition that it become a park. The city later sold the property to Blueprint for $10 million; a 135,000-square-foot data center is planned about 500 feet from Pamela Griffin’s home. HN clarified that Griffin’s family were neighbors, not donors, and debated whether their dismissed suit lacked standing. Discussion split between enforcing the public promise and rejecting perpetual deed restrictions, while asking which legal structures can bind future owners.
 
-## LLM perspective
-- View: Conditional gifts need institutional guardians; conservation easements or third-party trusts usually enforce intent better than simple municipal deed clauses.  
-- Impact: Conflicts between data-center siting and green space will grow as AI infrastructure expands into cheaper exurban and rural land.  
-- Watch next: Watch for state reforms on public-land sales, mandatory disclosure of donor conditions, and standardized remedies when governments breach land-use promises.
+### Comment pulse
+
+- Standing, not deed validity, may have decided the lawsuit → the suing neighbors were not the donating family or a party to the transfer.
+- Perpetual restrictions divide property-rights instincts → dead owners should not govern forever — counterpoint: cities should not discard scarce public land or accepted conditions.
+- Donation structure determines enforceability → transferring development rights to an independent conservation easement holder creates an entity with standing to sue.
+
+### LLM perspective
+
+- **View:** A moral restriction without an enduring rights-holder can become legally fragile even when its public purpose remains clear.
+- **Impact:** Donors need reversion clauses, conservation easements, or dedicated entities; neighbors need standing before courts can test the underlying promise.
+- **Watch next:** Track the deed’s exact language, dismissal rationale, remaining acreage, tax rebates, buffer plans, and any enforceable park commitment.

@@ -3,18 +3,17 @@
 - Score: 750 | [HN](https://news.ycombinator.com/item?id=48440792) | Link: https://igerman.cc/blog/dopamine-fracking/
 
 ### TL;DR
-The essay coins “dopamine fracking” for the practice of over-optimizing experiences—through metrics, money, and algorithms—to extract the strongest, simplest possible dopamine hit. Like synthetic strawberry flavor replacing real strawberries, this strips away texture, variation, and meaning from culture, hobbies, and even relationships, leaving homogenized “sludge” people forget is a downgrade. The author’s only remedy is personal: reducing feeds, uninstalling apps, exiting obviously manipulative content. HN commenters extend the idea to kids’ YouTube, classic cultural theory, and attention-maximizing design.
 
----
+The author defines dopamine fracking as industrial optimization that strips complex activities into repeatable, concentrated rewards, using synthetic strawberry flavor as a metaphor for culture losing texture, context, and variety. Applied to feeds, entertainment, hobbies, and relationships, analytics and scale reward whatever maximizes consumption until substitutes crowd out richer originals. The response is personal: remove trigger-driven channels and apps, set boundaries, and recognize the pattern. HN liked the metaphor but linked it to older culture-industry critiques and argued the mechanism is sustained attention, not necessarily intense dopamine spikes.
 
 ### Comment pulse
-- YouTube kids’ content exemplifies dopamine fracking: low-effort, manipulative spam optimized for engagement; platforms chase profit while parents often abdicate supervision.
-- The concept fits Adorno, Bradbury, and industrial food metaphors: mass media and processed products train people to prefer cheap facsimiles over rich originals.
-- Mechanism debate: not just big dopamine spikes but endless micro-intrigue to trap attention; society may adapt—counterpoint: dependence on distraction already weakens agency.
 
----
+- Children’s video feeds show the pattern → copied clips, random split-screen footage, AI narration, and emotional calls-to-action optimize cheaply for engagement.
+- Responsibility is contested → platforms profit from exploitative recommendations — counterpoint: parents choose whether young children watch YouTube unsupervised.
+- The pattern predates algorithms → Adorno’s culture industry and Bradbury’s media dystopia already described commodification, standardization, and addictive consumption.
 
 ### LLM perspective
-- View: Distinguish healthy optimization (clarity, usability) from “fracking” that collapses multidimensional experiences into pure engagement metrics.
-- Impact: Creators, educators, and parents must treat attention as a finite resource, not something to be maximally harvested.
-- Watch next: Better metrics (satisfaction, retention without compulsion), platform-level friction for infinite feeds, and longitudinal studies on “fracked” vs unfracked media use.
+
+- **View:** The strongest critique targets incentive-driven homogenization, avoiding unsupported claims about literal dopamine chemistry.
+- **Impact:** Platforms, creators, and consumers adapt toward measurable retention, making slower, ambiguous experiences progressively harder to finance and discover.
+- **Watch next:** Compare retention-optimized and chronological feeds on content diversity, session length, recall, satisfaction, and post-session regret.
