@@ -2,16 +2,18 @@
 
 - Score: 163 | [HN](https://news.ycombinator.com/item?id=48793492) | Link: https://www.acc.org/about-acc/press-releases/2025/03/17/15/35/cannabis-users-face-substantially-higher-risk
 
-- TL;DR  
-  An observational study reportedly using ~5M electronic health records finds cannabis users have much higher odds (≈4–6x) of heart attack, even after basic health controls. Commenters question the methodology: tobacco, alcohol, route of use (smoked vs edibles), dosage, duration, and socioeconomic status are poorly separated, so cannabis may be acting as a proxy for broader risk factors. Still, frequent use—especially smoking—likely stresses the cardiovascular system and clusters with unhealthy habits, so “safe” is doubtful, but the true risk size is unclear.  
-  *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  - Study overstates cannabis causality → key confounders (tobacco, socioeconomic status, stress, diet, exercise) aren’t well controlled; large odds ratios seem implausible. — counterpoint: edibles also acutely raise heart rate/blood pressure.  
-  - Heavy cannabis use tracks life problems → many users self‑medicate for stress or depression; others start healthy then spiral as use drives inactivity, overeating, and functional decline.  
-  - Route, dose, and chemistry matter → inhaling burnt particulate is known cardiovascular risk; commenters want data split by smoking vs ingestion and by THC/CBD levels.
+Two 2025 observational analyses associate cannabis use with cardiovascular harm. In 4.6 million records, otherwise healthy users under 50 had over six times the heart-attack risk and elevated stroke, heart-failure, and cardiovascular-death risk over roughly three years. A separate 12-study meta-analysis covering 75 million people found a smaller 50% increase; seven studies were positive, four null, and one slightly negative. Neither design proves causation, and pooled data could not consistently control dose, duration, route, tobacco, or other drugs. HN treated the sixfold headline cautiously while accepting plausible cardiovascular risk.
 
-- LLM perspective  
-  - View: Treat cannabis like any psychoactive: benefits possible, but chronic heavy use, especially smoked, likely harms cardiovascular and overall health.  
-  - Impact: Public messaging, clinicians, and policymakers should avoid “harmless weed” narratives and communicate uncertainty plus known smoke-related risks.  
-  - Watch next: Large cohorts distinguishing route, frequency, co‑use (tobacco/alcohol), and socioeconomic status, with time‑to‑event analyses for first cardiovascular incident.
+### Comment pulse
+
+- Confounding dominated → readers wanted dose, duration, route, tobacco, other drugs, income, stress, diet, and activity separated before accepting effect size.
+- Smoking offered a plausible pathway → inhaled combustion products harm cardiovascular health — counterpoint: commenters noted edible cannabis can also raise heart rate and pressure.
+- Direction of causality split anecdotes → distress can drive heavy use — counterpoint: users described cannabis worsening weight, inactivity, work, and relationships.
+
+### LLM perspective
+
+- **View:** Relative risks need absolute event rates; a large multiplier may still represent few events in a young cohort.
+- **Impact:** Clinicians gain reason to ask about cannabis; consumers need risk information differentiated by dose, frequency, formulation, and route.
+- **Watch next:** Prospective cohorts with toxicology-verified exposure, dose-response curves, smoking-versus-edible comparisons, co-use controls, and absolute event rates.

@@ -2,17 +2,18 @@
 
 - Score: 287 | [HN](https://news.ycombinator.com/item?id=48794750) | Link: https://popcar.bearblog.dev/its-about-ownership/
 
-## TL;DR
-Discussion centers on how modern games—console and PC—are almost always licensed, not owned, whether bought digitally or on disc. Commenters argue consumers should get property‑like rights: transfer, offline play, and protection from revocation or store shutdowns, possibly enforced by regulation or mandated DRM‑free fallbacks. Others, including a longtime dev, say guaranteeing perpetual play, especially for server‑backed games, is technically and economically unrealistic. Platform power (Sony, Steam), piracy as preservation, and ideas like regulated digital resale all surface.  
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+PlayStation’s plan to stop producing discs for new games in 2028 matters less as a format change than as removal of console users’ last transferable, resellable, rentable, and preservable license. The author contrasts Sony’s single-store walled garden with PCs, where DRM-free stores, backups, modification, and circumvention remain possible, and warns that subscriptions could replace purchases entirely. HN favored digital-age consumer protections requiring transferability, irrevocable access, and DRM release when services close. Critics disputed that Steam constitutes ownership and argued persistent online games cannot always remain operable without costly parallel development.
 
-## Comment pulse
-- Digital "purchases" should mimic physical ownership → transfer, offline use, no revocation; require DRM‑free fallback when services end — counterpoint: hard for online, server‑heavy games.  
-- Games are licensed, not bought → ban word "buy" and accept time‑limited access; guaranteeing perpetual play, especially MMOs, would raise costs and limit innovation.  
-- Platforms chase subscriptions over ownership → consoles, Steam, etc. restrict resale and transfer; some rely on piracy as de‑facto preservation and consumer leverage.
+### Comment pulse
 
-## LLM perspective
-- View: Digital ownership needs a legal definition separating "license" vs "sale" and codifying minimum rights for transfer, offline use, and continuity.  
-- Impact: Gamers, publishers, and platforms would face clearer obligations; could spur escrowed DRM‑free builds or sunset patches as standard business practice.  
-- Watch next: Track EU and FTC actions on digital goods, class‑action suits over revoked libraries, and technical standards for interoperable license transfer or secondary markets.
+- “Buy” should imply durable rights → consumers want transfer, resale, lending, backups, and continued access after stores or authentication servers disappear.
+- PC openness is an incomplete safeguard → GOG provides DRM-free packages, but Steam licenses remain nontransferable and launcher bypasses are revocable loopholes.
+- Preservation mandates need scope → offline games can receive lock-free fallbacks — counterpoint: MMORPGs depend on proprietary servers, player populations, and licensed components.
+
+### LLM perspective
+
+- **View:** Physical media is merely today’s enforcement mechanism; the durable principle is user-controlled access independent of vendor continuity.
+- **Impact:** Disc removal concentrates pricing, licensing, preservation, and succession power in one platform account and storefront.
+- **Watch next:** Sony’s transfer policy, offline guarantees, escrowed DRM-free builds, shutdown obligations, truthful “buy” labels, and exemptions for server-dependent games.

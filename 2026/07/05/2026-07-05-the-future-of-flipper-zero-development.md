@@ -3,20 +3,17 @@
 - Score: 204 | [HN](https://news.ycombinator.com/item?id=48796552) | Link: https://blog.flipper.net/future-of-flipper-zero-development/
 
 ### TL;DR
-In a blog post on Flipper Zero’s roadmap, the company says core firmware goals are largely complete and future work will prioritize maintenance, SDK stability, and community contributions while internal engineering shifts to new products. HN commenters debate whether that means the device is effectively on life support or just “done”, question mixed signals about reduced real‑time engagement alongside an AMA, argue over bans on discussing alternative firmwares, and note the device’s subcultural overlaps and practical uses like cloning some RFID keys.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Flipper Devices reversed course after backlash over reduced official firmware work, allocating limited resources to maintenance and community contributions while keeping new hardware as its priority. Firmware 1.0, released in 2024, moved features into microSD-loaded apps to escape a 700 KB flash limit and stabilized its API/SDK. Feature requests now go through GitHub Discussions and weekly vote-based review; pull requests face stricter scrutiny, especially AI-generated low-level code, plus mandatory published integration tests. HN read this as maintenance mode, while developers argued the platform is complete and alternative firmware supplies experimentation.
 
 ### Comment pulse
-- Furry-heavy visuals → fits the anthropomorphic dolphin mascot and a cybersecurity scene already known for an above-average furry presence.  
-- Project is “feature complete” → team shifts to maintenance, SDK support, new products; critics see minimal life support and mixed signals about engagement (e.g., AMA).  
-- Users favor unofficial firmware with pentest tools → complain about Discord bans; defenders cite legal risk — counterpoint: others see it as heavy-handed “Russian” control.
 
----
+- Maintenance-mode interpretation persisted → critics saw minimal life support — counterpoint: a core developer said official goals are complete and apps carry most functionality.
+- Alternative firmware divides the community → unofficial builds restore pentesting features — counterpoint: official-channel restrictions may reduce customs, legal, and reputational risk.
+- Communication policy looked inconsistent → the company ended real-time engagement yet closed the announcement by scheduling a live AMA.
 
 ### LLM perspective
-- View: Treat Flipper Zero as stable hardware + community platform; official firmware needn't innovate rapidly once core capabilities and SDK mature.  
-- Impact: Maintenance focus encourages third-party firmware ecosystems, but risks fragmentation and user confusion about “official” vs “best” experience.  
-- Watch next: Track how they handle legally gray features and moderation; policy clarity will affect retailer relationships and long-term device legitimacy.
+
+- **View:** A hardware platform can be finished without being abandoned; the distinction depends on review latency, fixes, and API stability.
+- **Impact:** Voting and mandatory tests shift prioritization and quality work toward contributors while protecting a small official team.
+- **Watch next:** Weekly review throughput, merged community patches, critical-bug response times, test coverage, SDK compatibility, and policy toward alternative firmware.

@@ -3,16 +3,17 @@
 - Score: 528 | [HN](https://news.ycombinator.com/item?id=48790689) | Link: https://unsung.aresluna.org/if-youre-a-button-you-have-one-job/
 
 ### TL;DR
-Author argues that UI buttons should maintain a strict contract: every acknowledged press equals one action. They criticize the Nothing Phone’s photo-rotation button, which emits haptic/sound feedback for each tap but silently drops extra presses during its rotation animation, breaking that contract and making rapid multi-rotations unpredictable, especially for accessibility users. Commenters debate debouncing vs buffering, note that real buttons juggle multiple jobs (state, feedback, action), and explain how typical UI frameworks let visual feedback drift out of sync with actual behavior.
 
-*Content unavailable; summarizing from title/comments.*
+A rotation button should honor every accepted tap—or clearly reject it. On iPhone, rapid taps are buffered or accelerate the animation, so eight quarter-turn commands complete two full rotations. On a Nothing Phone, taps during animation still trigger sound and haptics but are discarded, forcing users to wait. The author calls this a failure for situational power users doing repetitive work. HN agreed feedback must correspond to execution, but rejected universal buffering: debouncing protects accidental double-taps and users with tremors, so controls need explicit states or system-level repeat settings.
 
 ### Comment pulse
-- One-press-one-action contract → If a tap produces haptic/sound, it must trigger the action or none at all—counterpoint: some accessibility users want extra presses discarded.  
-- Buttons juggle multiple roles → Label intended action, reflect mode, execute commands, show progress; “you had one job” framing hides this complexity.  
-- Desynced feedback is common → UI components animate instantly, while handlers may cancel or fail actions, so color changes or beeps no longer guarantee success.  
+
+- Queueing versus debouncing depends on intent → repeated rotations are meaningful — counterpoint: submissions and tremor-induced presses often should execute once.
+- Feedback is a contract → sound, haptics, or color imply acceptance; if execution is blocked, disable the control or signal cancellation.
+- Buttons have multiple jobs → labels, state, progress, and action must stay synchronized despite independent UI and backend failures.
 
 ### LLM perspective
-- View: Treat input events and side effects transactionally: either both feedback and action occur, or neither, per press.  
-- Impact: Clearer button contracts reduce cognitive load, help motor-impaired users, and cut subtle bugs in high-frequency actions like photo browsing.  
-- Watch next: System-wide accessibility toggles for tap debouncing and repeat-ignoring seem preferable to every app inventing conflicting button behaviors.
+
+- **View:** The invariant is not every tap executes; it is that observable acknowledgment accurately predicts what the system will do.
+- **Impact:** Predictable controls reduce attention costs for repetitive work and prevent uncertain users from compensating with extra taps.
+- **Watch next:** Interaction tests covering burst input, slow animations, failed handlers, motor impairments, cancellation, and platform accessibility preferences.

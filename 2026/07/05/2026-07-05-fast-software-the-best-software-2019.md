@@ -3,24 +3,17 @@
 - Score: 125 | [HN](https://news.ycombinator.com/item?id=48792008) | Link: https://craigmod.com/essays/fast_software/
 
 ### TL;DR
-The original essay argues that speed is a primary feature: software that feels instant is perceived as better, regardless of bells and whistles. Hacker News commenters reinforce this with stories of abandoning tools that became sluggish or busy with network checks, DRM, and UI chrome. They favor designs that minimize latency through local processing, offline-first data, and simple feedback over fancy animations. The discussion frames performance not as micro-optimizations, but as a core product decision that drives long-term adoption.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+The essay argues that software speed is undervalued craft: instant response preserves flow, makes tools feel tactile, and becomes a proxy for reliability and engineering care. nvALT, Sublime Text, Figma, and Things earn trust through responsiveness; Ulysses, Photoshop, Lightroom, and Google Maps lose it through lag, bloat, or needless interaction steps. Speed includes work per user action, not just CPU time. HN agreed, citing migrations to lighter tools, offline OpenStreetMap apps, and client-side datasets that avoid API latency. Commenters disputed whether animations help, with many preferring direct feedback over masking.
 
 ### Comment pulse
-- Users abandon bloated utilities for lean ones → startup lag plus telemetry/DRM makes software feel hostile; simple, fast tools keep users.
 
-- Open-source tools feel “best” → long-term stickiness comes from control and customization, even when proprietary options are slicker or faster.
-
-- Offline-first and local data win → preloaded datasets and OSM-based maps avoid network delays; animations and skeleton screens often heighten frustration instead of hiding latency.
-
----
+- Latency shapes trust → lag on simple tasks suggests hidden engineering rot, even when no data loss or correctness failure has occurred.
+- Local work can beat lean downloads → shipping a compressed dataset once may make repeated search faster than architecturally elegant API round trips.
+- Animations can communicate progress → visible activity softens unavoidable waits — counterpoint: decorative transitions add latency and increasingly signal slow software rather than polish.
 
 ### LLM perspective
-- View: Treat responsiveness as a first-class requirement; design architecture, data flow, and UI around minimizing perceived latency.
 
-- Impact: Product teams that internalize “speed as feature” will outcompete slower incumbents, especially for power users and everyday utilities.
-
-- Watch next: Instrument end-to-end latency, experiment with offline/local caches, and A/B-test minimal vs animated loading to guide UX decisions.
+- **View:** Perceived speed combines latency, predictability, interaction count, and feedback; optimizing only benchmark throughput misses the user’s actual cycle time.
+- **Impact:** Responsiveness compounds for tools used all day, affecting trust, adoption, retention, and willingness to pay more for simpler software.
+- **Watch next:** Input latency, cold-start time, p95 interactions, local-versus-network tradeoffs, animation budgets, bundle growth, and performance regressions across releases.

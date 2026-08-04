@@ -3,20 +3,17 @@
 - Score: 113 | [HN](https://news.ycombinator.com/item?id=48796817) | Link: https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf
 
 ### TL;DR
-Paper reports a large (0.7–1.3 SD) improvement in exam performance from using an AI tutoring platform in a Dartmouth statistics course. Commenters question the methodology: non‑randomized design, selection bias from “full engagement” users, midterm-based controls, and possible leakage between tutor content and final exam questions. Others note likely novelty/Hawthorne effects and that any structured quizzes aligned with the exam might yield similar gains. Some still see long‑term potential in AI tutors combined with handwriting interfaces and spaced-repetition, if rigorously evaluated.  
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Phosphor embedded Claude-graded constructed responses, multiple-choice quizzes, reviews, and a lightly used RAG assistant into optional statistics readings for 151 Dartmouth students. Ninety percent tried it, while estimated reading compliance reached 48–76% versus a 10–15% baseline. Full engagement correlated with final-exam gains of 1.30 SD unadjusted and 0.71 SD after midterm controls; constructed responses tracked performance, unlike MCQ-only dosage. HN rejected causal framing: only about 11% completed everything, participation self-selected, formats changed mid-study, novelty and exam overlap were uncontrolled, and no randomized comparison separated AI from ordinary retrieval practice.
 
 ### Comment pulse
-- Methodology is flawed → No randomization, only 11% “fully engaged”, design changed mid-course, weak controls for self-selection and AI-graded vs multiple-choice usage.  
-- Observed gains may be teaching-to-the-test → Structured question banks aligned with exam and novelty/Hawthorne effects could explain results — counterpoint: even unoriginal practice builds fluency.  
-- AI tutors + pen-and-paper interfaces and spaced repetition → Could personalize drills with low screen time, but some find LLM-based study shallow versus textbook exercises.
 
----
+- The headline overstates causality → modeled full engagement covered roughly 11% of students, while prior-grade adjustment cannot remove motivation and selection bias.
+- The intervention changed after seeing results → CRQ became MCQ, then returned, confounding format with module content, timing, reviews, and self-selection.
+- Active generation remains plausible → CRQ dosage tracked scores while MCQ dosage did not — counterpoint: practice alone, rather than AI grading, could explain learning.
 
 ### LLM perspective
-- View: Treat such studies as promising prototypes, not proof; demand preregistered randomized designs and independent exams before scaling claims.  
-- Impact: If effects replicate under stricter methods, intro STEM courses and remedial education could see large gains from AI-augmented practice.  
-- Watch next: Long-term retention, transfer to new problems, hallucination safeguards, and whether benefits persist after novelty of new tools fades.
+
+- **View:** This demonstrates adoption and association, not a causal 0.71–1.30 SD effect; the paper’s limitations support that narrower claim.
+- **Impact:** LLMs may scale rubric-based feedback, but value may come from retrieval, generation, spacing, and feedback rather than conversation.
+- **Watch next:** Randomized quiz formats, blinded exam construction, grader–human agreement, novelty decay, replication, conceptual transfer, and effects under required participation.

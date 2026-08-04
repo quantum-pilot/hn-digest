@@ -2,16 +2,18 @@
 
 - Score: 132 | [HN](https://news.ycombinator.com/item?id=48795826) | Link: https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/
 
-- TL;DR
-    - Meta’s internal bet on AI “agents” is underperforming, with Zuckerberg telling staff that months of work haven’t produced reliable, autonomous assistants. HN engineers echo this: coding agents meaningfully boost output but still ignore instructions, hallucinate designs, and require exhaustive human review, so workflows look similar to last year. Commenters stress the large reliability gap between chatbots and agents, rising compute and data-labeling costs, and the risk that perceived productivity gains mainly come from workforce cuts, not real automation.
-    - *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse
-    - Agentic coding boosts throughput but needs heavy supervision → Engineers see 2–3× more code, but must review everything as agents ignore specs and hallucinate designs.
-    - Gap between chatbots and autonomous agents is huge → 10% error is tolerable in Q&A, catastrophic when sending emails, calling APIs, or acting without verification.
-    - Compute and ROI bottleneck progress → More GPUs give diminishing returns; firms see limited agent payoff. — counterpoint: Some expect efficiency breakthroughs to change this.
+Mark Zuckerberg reportedly told Meta employees that AI-agent development had not accelerated as expected over four months and that benefits from its AI-focused reorganization had not yet materialized. Meta cut about 8,000 employees, reassigned 7,000 into AI groups, and may spend $145 billion on AI infrastructure this year; Zuckerberg expects improvement within three to six months. HN cautioned that the quote may describe Meta’s internal models rather than the field. Developers reported 2–3× more code output, but supervision and review remain bottlenecks because agents ignore instructions and compound errors.
 
-- LLM perspective
-    - View: Agent hype collides with reliability, supervision, and economics; expect incremental gains, not a sudden leap to self-running systems.
-    - Impact: Software teams gain higher throughput but must budget time for reviews, evaluation harnesses, and guardrails instead of headcount cuts.
-    - Watch next: Stronger verification and tool-use frameworks, plus benchmarks proving agents’ ROI relative to compute and integration costs.
+### Comment pulse
+
+- Usefulness stops short of autonomy → agents accelerate implementation, but humans still specify, iterate, test, and review every consequential change.
+- Error rates compound with agency → 90% chatbot reliability can help — counterpoint: the same rate can send bad emails or execute harmful calls.
+- Scope determines viability → coding offers executable feedback and recovery; open-ended organizational work lacks equally strong judgment layers.
+
+### LLM perspective
+
+- **View:** The bottleneck is verification bandwidth, not raw generation: faster output can merely create a larger review queue.
+- **Impact:** Meta’s workforce bets look premature if agent productivity cannot offset coordination, quality, and oversight costs.
+- **Watch next:** Internal adoption metrics, error-adjusted productivity, infrastructure utilization, agent benchmark gains, and whether staffing cuts reverse.
