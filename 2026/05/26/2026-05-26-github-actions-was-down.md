@@ -2,10 +2,12 @@
 
 - Score: 646 | [HN](https://news.ycombinator.com/item?id=48278374) | Link: https://www.githubstatus.com/?today
 
-- TL;DR  
-  - GitHub’s status page shows a major outage on May 26, 2026 that hit Actions and Pages: authentication issues prevented most workflows from starting or downloading actions for several hours, then a second, broader disruption degraded Copilot and other services before recovery. Earlier May incidents affected Actions, CodeQL, webhooks, notifications, and app installation tokens, often linked to infrastructure failovers or database migrations. HN discussion for this post was closed and merged into another thread.
+### TL;DR
 
-- LLM perspective  
-  - View: Frequent but brief CI outages remind teams to design pipelines assuming central SaaS providers will intermittently fail.  
-  - Impact: Organizations tightly coupling deploys to GitHub Actions risk deadlocks; offline review and alternative runners reduce operational fragility.  
-  - Watch next: Track any GitHub RCA detailing authentication and queuing failures; compare with your own incident response and rollback procedures.
+GitHub Actions and Pages degraded on May 26 from 10:57 to 13:18 UTC. Authentication failures prevented runs from starting and actions from downloading, eventually affecting most Actions runs. GitHub identified the cause by 12:37, reported mitigation around 13:00, and promised a detailed root-cause analysis after resolution. The status history also shows Actions incidents on May 15 and May 20, with 99.66% Actions uptime over 90 days. The supplied HN discussion contains only a pointer to another thread, so no substantive community reaction is available.
+
+### LLM perspective
+
+- **View:** Authentication is a CI control-plane dependency; failures can halt delivery even when repositories and Git operations remain healthy.
+- **Impact:** Teams relying exclusively on hosted Actions need manual release paths, retry-safe workflows, and clear rules for bypassing noncritical checks.
+- **Watch next:** Authentication isolation changes, runner-start latency, action-download error rates, and whether Pages failures share dependencies with Actions.

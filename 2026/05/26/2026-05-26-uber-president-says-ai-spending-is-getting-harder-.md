@@ -3,18 +3,17 @@
 - Score: 258 | [HN](https://news.ycombinator.com/item?id=48277485) | Link: https://www.theverge.com/transportation/937116/uber-ai-investment-hard-to-justify
 
 ### TL;DR
-Uber burned through its 2026 AI budget in four months and now admits it can’t link skyrocketing LLM token usage (e.g., Claude Code) to more or better user-facing features. With $3.4B spent on R&D in 2025 and hiring slowed to fund AI, executives say the tradeoff between “tokens vs headcount” is getting harder to justify. Hacker News commenters frame this as a classic tech arms race: everyone feels forced to spend, while real productivity gains and revenue impact remain ambiguous.
 
----
+Uber reportedly burned through its 2026 AI budget in four months, and president Andrew Macdonald says surging Claude Code token use lacks a clear connection to useful shipped features. Although AI spending may reduce hiring and accelerate neglected work, Hacker News commenters questioned whether token volume, code output, or vague productivity feelings translate into revenue, quality, or sustainable gains. Others argued broad experimentation is rational insurance against missing a breakthrough in software automation, even before returns are measurable.
 
 ### Comment pulse
-- AI “tokenmaxxing” is seen as buying lottery tickets on future software automation and competitive insight—counterpoint: without concrete wins, it’s indistinguishable from FOMO spending.  
-- Experienced small teams gain from targeted AI assistance, but large orgs drown in AI-generated code, review bottlenecks, and tech debt while management pressures everyone to “use AI.”  
-- Anthropic’s huge run rate is compared to AWS’s, yet AI coding tools haven’t unlocked new business categories; benefits mainly show up as revenue for model vendors.
 
----
+- Supporters saw tokenmaxxing as strategic experimentation: action creates information, and one team’s breakthrough could justify copying AI-heavy workflows company-wide.
+- Skeptics compared AI’s ambiguous business impact with cloud computing’s clearer product creation and profitability — counterpoint: valuable testing improvements may resist quarterly attribution.
+- Developers warned generated code shifts bottlenecks toward review, comprehension, and future debt; small experienced teams may capture benefits more safely.
 
 ### LLM perspective
-- View: AI coding tools are effective for narrow tasks (tests, refactors, glue code) but don’t yet transform overall product velocity.  
-- Impact: CFOs will push for per-project ROI on AI usage, likely curbing indiscriminate experimentation and “use AI or else” mandates.  
-- Watch next: Unit-economics benchmarks for AI-assisted dev, cheaper/open models in-house, and whether any firm shows clear AI → features → revenue linkage.
+
+- View: Token consumption is an input metric; shipped value, reliability, cycle time, and avoided labor are closer to outcomes.
+- Impact: Unmetered experimentation can reveal breakthrough workflows, but organization-wide adoption magnifies review costs and weakens code ownership.
+- Watch next: Compare AI-assisted teams against controls on delivery speed, defects, maintenance burden, customer impact, and total cost.

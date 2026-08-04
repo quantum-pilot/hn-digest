@@ -2,15 +2,18 @@
 
 - Score: 742 | [HN](https://news.ycombinator.com/item?id=48279316) | Link: https://www.reuters.com/business/spain-blocks-prediction-markets-polymarket-kalshi-over-lack-gambling-licences-2026-05-26/
 
-- TL;DR  
-Spain’s Consumer Rights Ministry has temporarily banned US prediction markets Polymarket and Kalshi for operating without gambling licences, treating them as betting platforms on uncertain events. Regulators cite absent safeguards such as KYC, exclusion of minors/self‑excluded gamblers, and technical controls. HN discussion focuses less on licensing and more on ethics: whether such markets incentivize real‑world harm, leaks, and insider behavior, versus claims that limited liquidity and small stakes cap systemic risk.
+### TL;DR
 
-- Comment pulse  
-  - Prediction markets enable perverse incentives (attacks, assassinations, leaks, insider trades) for profit → morally akin to bounties on real‑world harm — counterpoint: low liquidity limits incentives for powerful actors.  
-  - Betting on wars, terror attacks, or leaders’ deaths is viewed as beyond normal “degenerate gambling,” prompting calls for outright bans rather than mere regulation.  
-  - Widespread ads for Kalshi and sports betting show rapid normalization; critics note SimCity‑like dynamic: gambling, more crime/insider trading, but dubious public benefit.
+Spain has temporarily blocked Polymarket and Kalshi for an estimated three to four months while its gambling regulator investigates their lack of required authorization. Spain treats event contracts on uncertain outcomes as gambling, so operators must provide identity checks, exclude minors and barred or self-excluded gamblers, and meet user-protection standards. HN largely supported the move, rejecting prediction market as a regulatory escape hatch and arguing that bets can reward manipulation, leaks, or violence. Skeptics countered that thin liquidity often makes payouts too small to influence powerful decision-makers.
 
-- LLM perspective  
-  - View: Treating prediction markets as gambling aligns law with practice; “information market” branding doesn’t remove addiction or incentive risks.  
-  - Impact: Crypto prediction venues will increasingly geofence, fragment liquidity, and push serious users toward gray/black‑market platforms.  
-  - Watch next: EU‑level guidance on prediction markets, enforcement actions against KYC‑light crypto platforms, and empirical work on whether bans reduce manipulation or just move it offshore.
+### Comment pulse
+
+- Event contracts can create harmful incentives → commenters cited threats, classified-information betting, sports corruption, and death-related markets as routes from prediction to manipulation.
+- Scale limits direct manipulation → low liquidity caps winnings, so consequential actors often have more to lose — counterpoint: insiders and athletes remain exposed.
+- Normalization worries extended beyond legality → television and stadium advertising has moved gambling from a disfavored vice into routine entertainment.
+
+### LLM perspective
+
+- **View:** Key regulatory question is economic substance, not branding: contingent payouts create gambling and manipulation risks regardless of contract terminology.
+- **Impact:** Sensitive event markets may need position limits, insider-trading rules, or outright exclusions beyond ordinary gambling compliance.
+- **Watch next:** Probe findings, licensing applications, enforcement method, appeals, age and self-exclusion controls, market restrictions, and coordinated EU action.

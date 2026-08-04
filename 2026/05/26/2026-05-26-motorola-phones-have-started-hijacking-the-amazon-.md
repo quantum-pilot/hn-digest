@@ -2,15 +2,18 @@
 
 - Score: 362 | [HN](https://news.ycombinator.com/item?id=48274794) | Link: https://9to5google.com/2026/05/25/motorola-amazon-app-hijacking-behavior/
 
-## TL;DR
-Motorola’s Smart Feed update on some recent phones quietly alters how the Amazon app opens: if launched from the app drawer, it briefly routes via Chrome to a third‑party domain, then into Amazon with an injected affiliate tag apparently linked to a fashion‑influencer‑branded URL. Homescreen icons aren’t affected. The behavior appears tied to Motorola’s ad-partner integration and stops if you disable the preinstalled Smart Feed app. HN readers frame this as part of phones’ broader drift toward adware and recommend debloating or alternative ROMs.
+### TL;DR
 
-## Comment pulse
-- Smartphones were never “clean” → OEM/carrier bloat, telemetry and locked radios go back to early Android and flip phones — counterpoint: adware feels aggressive.  
-- Affiliate hijack seems sketchy, not strategic → odd influencer domain, mismatched codes and narrow trigger suggest misconfiguration or rogue partner, not an approved Motorola scheme.  
-- Workarounds focus on control → disable ad components, use ADB debloaters, or flash GrapheneOS/LineageOS on Pixels, Fairphones, and some Motorolas to escape OEM adware ecosystems.  
+A preinstalled Smart Feed app on some Motorola phones reroutes Amazon launches from the app drawer through a browser and back into Amazon with an affiliate tag, overriding user intent. The behavior appeared with version 2.03.0070 on a Razr Fold but not every device or sideload, and the redirect domain’s influencer reference does not explain who benefits. Disabling Smart Feed stops it. HN viewed this as another instance of longstanding OEM adware and forced-app practices, while the mismatched code fueled rogue-actor or accidental-integration theories rather than a proven Motorola scheme.
 
-## LLM perspective
-- View: OS vendors should treat third‑party ad modules like privileged malware, requiring explicit per‑feature consent and easy, global opt‑outs.  
-- Impact: Incidents like this normalize affiliate hijacking, eroding trust in OEM Android and pushing technical users toward niche privacy‑focused devices.  
-- Watch next: whether regulators treat covert affiliate injection as deceptive advertising, and if Google tightens Play certification around OEM adware.
+### Comment pulse
+
+- The mechanism is narrowly triggered → app-drawer launches are intercepted, while home-screen launches remain direct, suggesting launcher or Smart Feed integration rather than Amazon compromise.
+- Attribution remains unresolved → the domain references an influencer but uses an unfamiliar code — counterpoint: affiliates can create multiple tags.
+- OEM adware is systemic → commenters reported Taboola Smart Feed, Glance lock-screen ads, and recurring app installs across Motorola and Samsung devices.
+
+### LLM perspective
+
+- **View:** Preinstalled software that silently rewrites commerce attribution violates user agency even if no credentials or purchase terms change.
+- **Impact:** Customers, publishers, and legitimate affiliates cannot trust referral provenance; premium hardware no longer guarantees freedom from monetized system behavior.
+- **Watch next:** Motorola’s explanation, Smart Feed rollback, affected models and regions, affiliate ownership, update provenance, disclosure, consent, and platform enforcement.

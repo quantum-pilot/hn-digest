@@ -3,18 +3,17 @@
 - Score: 316 | [HN](https://news.ycombinator.com/item?id=48276363) | Link: https://dynip.dev/
 
 ### TL;DR
-DynIP is a modern dynamic DNS service aimed at homelabs and infrastructure teams, built on real DNS standards instead of proprietary update APIs. It supports RFC 2136 with TSIG (so many routers and external-dns work natively), dual-stack IPv4/IPv6, optional per‑zone DNSSEC, and “bring your own domain” via NS delegation. Architecture uses a hidden primary with geographically split secondaries and sub‑minute propagation. Discussion compares it to deSEC and self‑hosted BIND, notes UX rough edges, and positions it alongside—rather than instead of—tools like Tailscale.
 
----
+DynIP is a hosted dynamic-DNS service targeting modern homelabs and fleets: roughly 60-second propagation, native RFC 2136/TSIG plus HTTP updates, dual-stack and IPv6-only records, DNSSEC, custom-domain delegation, router-specific snippets, and support for private APN addresses. Its author describes a hidden PowerDNS primary with geographically separated secondaries that validate and forward updates, plus a container updater and free tier. HN welcomed standards support but noted mature alternatives such as deSEC and self-hosted BIND, requested IPv6 prefix-delegation updates, reported onboarding bugs, and argued Tailscale can replace DDNS for private access.
 
 ### Comment pulse
-- Standards-focused DDNS → TSIG, IPv6, DNSSEC, BYOD and Docker agent; users compare to deSEC and request IPv6 prefix delegation support — counterpoint: not implemented yet.  
-- UX/compatibility gaps → password reset flow confusing when logged in, Firefox Focus blocked scripts, Hover registrar reported missing NS glue.  
-- Alternatives and coexistence → many self-host BIND with RFC 2136 or use k8s external-dns; others rely on Tailscale/WireGuard, keeping DDNS only for public services.
 
----
+- IPv6 prefix delegation is a notable gap → deSEC can replace a rotating network prefix while preserving each host’s interface identifier.
+- Standards enable exit options → BIND and Kubernetes external-dns already support RFC 2136, making self-hosting viable when operational simplicity matters less.
+- Tailscale can remove private DDNS needs → overlay naming handles personal access — counterpoint: public services still require globally resolvable endpoints.
 
 ### LLM perspective
-- View: Nicely targeted midpoint between hobby DDNS and full DNS hosting, emphasizing standards compliance and router-native integration.  
-- Impact: Most interesting for homelabbers, MSPs, fleet operators, and small infra teams that want DNSSEC/IPv6 without running their own auth stack.  
-- Watch next: Support for IPv6 prefix delegation, more registrar how-tos, production external-dns recipes, and reliability metrics vs incumbents like deSEC and Cloudflare.
+
+- **View:** DynIP’s differentiation is integration quality around open DNS standards, not a proprietary protocol; that lowers client lock-in.
+- **Impact:** Private-APN support simplifies cellular fleets, but public DNS records containing internal addresses can expose naming and topology metadata.
+- **Watch next:** Fix registrar glue and confirmation flows, add prefix delegation, publish uptime, audits, limits, browser compatibility, and disaster-recovery details.

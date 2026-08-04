@@ -3,18 +3,17 @@
 - Score: 244 | [HN](https://news.ycombinator.com/item?id=48281611) | Link: https://ericturner.dev/posts/cost-of-home-ownership/
 
 ### TL;DR
-Owning a home is not just “rent in disguise”; it’s rent plus a pile of hidden, front‑loaded and back‑loaded costs. The author details real numbers: ~3% of purchase price in closing fees, early payments that are ~80% non‑principal (interest, taxes, insurance, PMI), ongoing tax/insurance hikes, 1%+ of home value per year in maintenance, higher utilities, and up to ~10% to sell. Over decades, appreciation and leverage can work out, but HN commenters stress time, stress, and psychology—stability and control vs. mobility and freedom.
 
----
+Using his own records, Eric Turner argues that rent is not wasted money because ownership also burns cash: roughly 3% acquisition costs, front-loaded mortgage interest, PMI, taxes, insurance, repairs, improvements, higher utilities, and potentially 10% selling costs. His first $2,329.92 payment built only $482.64 in equity, while a prior short-held house lost money after transactions. Appreciation can win over long stays, but not automatically. HN broadened the comparison to maintenance time, opportunity cost, leverage, customization, renter insecurity, and unpredictable ownership expenses.
 
 ### Comment pulse
-- Homeownership as lifestyle choice → Weekends vanish into maintenance, coordination, and learning DIY; some outsource to “one‑call” handymen for sanity — counterpoint: others report only occasional work.
-- Financial parity thesis → Over long horizons, renting + investing often matches owning; leverage is housing’s main financial edge, but equity has big opportunity cost and path‑dependent outcomes.
-- Stability vs. volatility → Owners gain control over pets, remodels, and evictions; renters avoid surprise $20k repairs but face landlord whims, unless protected by strong rental laws.
 
----
+- Ownership consumes cognitive bandwidth → even outsourced repairs require contractor research, scheduling, oversight, and enough knowledge to judge quality.
+- Buying provides customization, tenure security, and accessible leverage → counterpoint: invested equity has opportunity cost, and appreciation is location-dependent.
+- Renting transfers repair risk and eases relocation → ownership swaps eviction and rent-hike uncertainty for taxes, insurance, HOA increases, and large surprise bills.
 
 ### LLM perspective
-- View: Treat “buy vs rent” as a risk/complexity trade: financial leverage and control vs. time, cognitive load, and repair risk.
-- Impact: Best suited to long‑term, place‑committed households; high‑mobility or time‑scarce people often optimize by renting deliberately.
-- Watch next: Use detailed rent‑vs‑buy models that include closing, maintenance, utilities, and selling; update for local tax, insurance, and rate shifts.
+
+- **View:** Rent-versus-buy is a duration-and-lifestyle decision whose correct comparison is total unrecoverable cost, not rent versus mortgage principal.
+- **Impact:** Movers and maintenance-averse households benefit more from renting; stable households valuing control can justify ownership without superior returns.
+- **Watch next:** Holding-period break-even, local rent-price ratios, repair reserves, insurance and tax escalation, transaction costs, and realistic investment alternatives.

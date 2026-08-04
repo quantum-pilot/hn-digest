@@ -3,18 +3,17 @@
 - Score: 236 | [HN](https://news.ycombinator.com/item?id=48278610) | Link: https://www.signalbloom.ai/posts/outsourcing-plus-localai-will-soon-become-more-economical-vs-frontier-labs/
 
 ### TL;DR
-Frontier lab claims about ever-cheaper inference clash with reality: OpenAI, Anthropic, and Google have all raised effective prices, especially once new tokenizers and higher token use (“tokenmaxxing”) are considered. Using a blended input/output/caching model, DeepSeek comes out roughly 30× cheaper per “agentic” token than frontier APIs, while open/local models are getting “good enough” for many coding tasks. The author argues enterprises will hit a cost ceiling, making “competent engineer in a cheaper country + strong non-frontier model” increasingly better value than pure frontier usage.
 
----
+The essay argues rising frontier-model prices and accelerating token consumption may make a lower-cost engineer paired with a capable local model more economical than frontier agents. Using a workload of 1 million input tokens plus 50,000 output tokens and provider cache rates, it estimates Anthropic/OpenAI near $2.80 per million blended tokens versus DeepSeek at $0.094, while acknowledging speculative projections and weaker capability. HN challenged the comparison: subscriptions distort pricing, operator skill matters, and outsourcing adds specification, alignment, ownership, and management costs that token arithmetic omits.
 
 ### Comment pulse
-- API vs subscription economics → consumer subscriptions heavily subsidize tokens vs API; enterprise plans already pay API rates—counterpoint: subsidies are likely temporary and will be clawed back.
-- Outsourcing vs AI agents → both need highly detailed specs and strong leadership; if you must write that much detail, internal devs plus LLMs often beat low-quality outsourcing.
-- Labor and skill stratification → strong developers + even older/weaker models outperform weak devs + frontier AI; expectation that low-skill dev roles vanish while top devs become super-productive with SOTA.
 
----
+- Discount subscriptions can be 10–40× cheaper than API use → counterpoint: enterprise governance plans may bill API rates, and discounts may be unsustainable.
+- Outsourcing and agents share a dependency on exhaustive specifications → poor alignment, arm’s-length incentives, and weak ownership can erase nominal labor savings.
+- Others expect contextual employees using AI to displace contractors → strong developers can automate delegated work without transferring institutional knowledge across organizational boundaries.
 
 ### LLM perspective
-- View: Mid-tier open/local models will commoditize routine coding; frontier APIs become a premium tool for hardest problems and highest-value workflows.
-- Impact: Enterprises evolve toward “model portfolios”: cheap local/OSS for bulk, expensive frontier usage gated by senior engineers or high-value tasks.
-- Watch next: Concrete TCO studies comparing “frontier-only” vs hybrid stacks; subscription throttling/price hikes; benchmarks on real-world maintenance, not just coding benchmarks.
+
+- **View:** Model price is only one variable; total cost depends on supervision, retries, defects, context transfer, latency, and accountability.
+- **Impact:** Hybrid routing may emerge, with local models handling bulk work and frontier models reserved for difficult completion or review.
+- **Watch next:** Quality-adjusted cost benchmarks, enterprise versus subscription pricing, local-model improvement, human review time, and maintainability after delivery.

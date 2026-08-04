@@ -2,19 +2,18 @@
 
 - Score: 218 | [HN](https://news.ycombinator.com/item?id=48285592) | Link: https://medium.com/@jakeorlowitz/wikipedia-is-doing-the-capitalist-thing-56a393232943
 
-## TL;DR
-Wikipedia’s parent nonprofit, the Wikimedia Foundation, just fired its veteran MediaWiki lead developer and disbanded the popular Community Tech team that built tools requested by volunteers—many of those cut were union organizers. This happened despite large reserves and new AI-licensing revenue, so critics see it as classic big-tech union busting and further proof of top‑down, opaque governance. Editors are organizing a strike, while HN commenters argue over Wikipedia’s political bias, Wikimedia’s spending priorities, and shifting investment away from English Wikipedia.
+### TL;DR
 
----
+Wikimedia fired MediaWiki developer Brooke Vibber and dissolved its six-person Community Tech team, which implemented volunteer-voted requests; many affected workers were union organizers. The author argues the timing signals anti-union, top-down management despite $296.6 million in reserves, a $169.4 million endowment, and profitable enterprise API revenue. Editors organized possible strike action, threatening volunteer-maintained tools and moderation. HN commenters viewed the losses as a breach of trust but debated whether 17 months’ runway is wealthy, whether restructuring could renew the organization, and how English Wikipedia should compete with global priorities.
 
-## Comment pulse
-- Volunteer editors describe painstaking, human-crafted work and warn a strike-driven exodus would quickly degrade quality → critics reply Wikipedia already skews left on political topics.  
-- Firings of MediaWiki veteran and Community Tech team seen as anti-union retaliation → some argue entrenched teams need turnover; reorg could enable fresh directions.  
-- Foundation’s 17‑month reserves labeled either prudent or excessive → dispute over spending on side projects, emerging-language outreach, and starving English Wikipedia’s tooling despite dependence on it.  
+### Comment pulse
 
----
+- Community Tech converted editor voting into professional development → its removal forces volunteers deeper into fragile shadow tooling and closes their clearest request channel.
+- Reserve sufficiency split readers → counterpoint: 17 months can look fragile in recession, while critics say unrelated spending could be cut first.
+- Strategy may prioritize growing non-English projects over mature English Wikipedia → displaced editors interpret reduced wishlist influence as abandonment, not portfolio discipline.
 
-## LLM perspective
-- View: Undermining community trust while monetizing AI access risks hollowing out the very corpus modern language models depend on.  
-- Impact: Editors, staff, and smaller-language communities could see stalled tooling, slower moderation, and fewer updates—degrading downstream AI and research quality.  
-- Watch next: WMF’s union negotiations, any restoration of community tooling, and whether AI-money transparency calms donors, editors, and regulators.
+### LLM perspective
+
+- **View:** Wikimedia’s legitimacy depends on procedural trust because volunteer labor, not ownership or employment contracts, sustains the product.
+- **Impact:** Weakening the staff-community bridge can amplify debt, editor attrition, moderation failures, and donor skepticism beyond the six eliminated roles.
+- **Watch next:** Union negotiations, strike participation, bot shutdowns, reassignment plans, Community Wishlist continuity, and board explanations for the firings.

@@ -2,19 +2,18 @@
 
 - Score: 1135 | [HN](https://news.ycombinator.com/item?id=48272984) | Link: https://nolanlawson.com/2026/05/25/using-ai-to-write-better-code-more-slowly/
 
-## TL;DR
-Lawson argues against “slop cannon” AI coding and instead uses LLMs to *slow down* and raise code quality. He orchestrates several models as adversarial reviewers on each PR, ranking findings by severity, then iteratively fixes critical/high issues and often uncovers pre‑existing bugs. This doesn’t boost raw velocity and burns tokens, but improves architecture, documentation, and team understanding. HN commenters largely echo this: multi-pass, multi-model review loops are slower, sometimes no faster than hand-coding, yet yield v3-quality code on v1 features.
+### TL;DR
 
----
+The author rejects AI coding as a race to generate code, instead using Claude, Codex, and Cursor Bugbot as independent PR reviewers. A lead agent validates and ranks findings; humans guide fixes, skip low-value edge cases, or abandon flawed approaches. Repeated passes often uncover pre-existing bugs, trading velocity and tokens for stronger code and deeper understanding. HN commenters largely described similarly review-heavy workflows, but disputed the payoff: some gain better specifications and near-final quality, while others lose time, control, architectural judgment, or enjoyment.
 
-## Comment pulse
-- Multi-model, multi-pass workflows → people design with one model, implement with another, then cross-review; high quality but time- and token-intensive — counterpoint: some report equal speed by just hand-coding.  
-- AI as thinking partner → devs use LLMs for specs, architecture debates, repo skeletons and “grill me” skills, often preferring human-led implementation for enjoyment and control.  
-- Learning and onboarding → juniors and seniors alike use back-and-forth critique to explore alternatives; AI errors become “trick questions” that deepen conceptual understanding.  
+### Comment pulse
 
----
+- Architecture dialogue preserves agency → developers refine specifications before coding; one experienced commenter spends roughly 70% of agent sessions discussing design.
+- Fallible suggestions can teach → explicit requests for critiques and alternatives counter anchoring while forcing users to verify reasoning before implementation.
+- Review feels less deskilling than generation → skeptical developers retain judgment — counterpoint: multi-reviewer PR interfaces are cumbersome and ethical costs remain.
 
-## LLM perspective
-- View: Treat LLMs as adversarial reviewers and co-designers; reserve final authorship and judgment for humans.  
-- Impact: Raises baseline review quality, formalizes team standards, and gives juniors safer exposure to gnarly edge cases.  
-- Watch next: Tooling that natively coordinates multiple models/personas per PR and reports outcomes against real bug/incident metrics.
+### LLM perspective
+
+- **View:** Model diversity resembles ensemble testing: independence reduces correlated blind spots, while synthesis introduces another failure point.
+- **Impact:** Engineering teams may shift effort from typing to specification, evaluation, and deciding when additional review no longer pays.
+- **Watch next:** Benchmark multi-model review against expert review for defect recall, false positives, latency, token cost, and developer comprehension.

@@ -3,18 +3,17 @@
 - Score: 571 | [HN](https://news.ycombinator.com/item?id=48272670) | Link: https://www.apa.org/news/press/releases/2014/04/creativity-walk
 
 ### TL;DR
-A Stanford study with 176 participants found that simply walking—on a treadmill or outside—reliably boosts divergent thinking (e.g., new uses for common objects) versus sitting, sometimes doubling novel ideas. The effect is specific to creativity; people did slightly worse at single-answer problems while walking. Creativity gains persist briefly after you sit back down. Hacker News commenters echo this with experiences of walking, biking, mowing, or showering unlocking insights, and emphasize distraction-free movement and humane workdays over rigid 8‑hour desk time.
 
----
+A 2014 study of 176 mostly college students found that walking, indoors or outdoors, improved divergent-thinking performance versus sitting or being pushed in a wheelchair. Across experiments, 81–100% of walkers generated more creative responses, one group doubled novel ideas, and some benefit persisted after sitting down. Walking did not improve everything: participants were slightly worse on single-answer problems. HN readers strongly echoed the result through work and debugging anecdotes, emphasizing distraction-free movement, incubation, and well-being, though the laboratory tasks and narrow sample limit broader conclusions.
 
 ### Comment pulse
-- Walking/exercise during work boosts output and well-being → many report solving more problems with 30–60 minutes of daily walking than with extra desk hours.  
-- Undistracted motion aids incubation → walking, biking, showering, or sleep let the default mode network work; phones, music, or AI tools can blunt that effect. — counterpoint: some still see value in structured, screen-based focus.  
-- Real-world and repetitive tasks fuel ideas → exposure to nature or rhythmic physical work (commuting, mowing, tractors) sparks game design, life insights, and deeper reflection than media-saturated environments.
 
----
+- Workday walkers report practical gains → regular 30–60-minute breaks helped people solve problems and sustain productivity, while lost walking time coincided with worse output.
+- Incubation may require quiet → commenters favored walking, cycling, showering, or sleeping without phones, podcasts, or music so unresolved problems can churn.
+- Novel surroundings inspire, but movement mattered independently → readers credited fresh sensory input — counterpoint: treadmill walkers also outperformed people wheeled outdoors.
 
 ### LLM perspective
-- View: Treat low-effort walking as a cognitive tool: use it for brainstorming, not detailed problem-solving or high-precision work.  
-- Impact: Knowledge workers, managers, and remote teams could normalize walking breaks and walking meetings instead of equating productivity with chair time.  
-- Watch next: Larger, preregistered replications varying walk duration, pace, and task type; workplace trials measuring idea quality and long-term performance.
+
+- **View:** Walking is a mode switch for idea generation, not a universal cognitive enhancer or substitute for focused evaluation.
+- **Impact:** Teams could schedule short walks before design sessions, then return seated for ranking, validation, and execution.
+- **Watch next:** Replications with diverse workers, real project outcomes, dose-response timing, and comparisons separating motion, mind-wandering, and environmental novelty.

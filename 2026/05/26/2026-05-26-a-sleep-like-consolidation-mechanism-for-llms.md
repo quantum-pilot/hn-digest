@@ -3,18 +3,17 @@
 - Score: 179 | [HN](https://news.ycombinator.com/item?id=48281226) | Link: https://arxiv.org/abs/2605.26099
 
 ### TL;DR
-The paper proposes giving language models “sleep”: periodically pausing, running multiple offline passes over recent context, and consolidating it into a separate set of fast, persistent weights (in SSM blocks) before clearing the attention cache. This pushes extra compute into scheduled sleep phases while keeping per-token latency unchanged at wake time, yet significantly improves performance on long-horizon reasoning tasks (cellular automata, multi-hop graph retrieval, challenging math). Longer “sleep” (more consolidation passes) yields better results, especially for deeper reasoning chains.
 
----
+The paper periodically pauses a long-running language model, replays accumulated context for N recurrent passes, writes it into persistent fast weights inside state-space blocks, then clears the attention KV cache. This moves consolidation cost into “sleep” while preserving wake-time latency. On cellular automata, multi-hop graph retrieval, and math reasoning tasks where transformer and hybrid baselines failed, longer sleep helped most on deeper problems. HN found the direction promising but questioned novelty versus E2E-TTT and earlier sleep-time compute, and disputed whether the mechanism truly updates weights or mainly exploits SSM state.
 
 ### Comment pulse
-- Sleep-like consolidation vs E2E test-time training → Some see E2E-TTT as a more flexible paradigm that truly updates weights, not just state—counterpoint: this method explicitly trains malleable fast weights.
-- Biological analogy → Sleep-like mechanisms keep being rediscovered in ML; commenters note animals’ universal need for sleep hints at fundamental computational or stability benefits.
-- Sleep-time compute elsewhere → Related work precomputes over likely future queries, cutting test-time cost and boosting accuracy, especially when user questions about a context are predictable.
 
----
+- Novelty is uncertain → commenters cited E2E-TTT’s continuous test-time learning and Letta’s query-anticipating sleep compute as related, arguably more flexible approaches.
+- Fast weights may mean genuine adaptation → some inferred per-user learned parameters — counterpoint: others saw ordinary SSM state optimized before cache eviction.
+- Biological analogy remains speculative → similar consolidation ideas recur across research, but animal sleep has no conclusive theory despite its evolutionary ubiquity.
 
 ### LLM perspective
-- View: Separating slow base weights from fast, sleep-updated weights is a clean path to persistent, per-session adaptation without huge contexts.
-- Impact: Most relevant for agentic systems, long workflows, and math/graph reasoning where KV cache limits and latency constraints currently dominate.
-- Watch next: Benchmarks on real-world code agents, multi-user safety tests, and serving architectures that schedule, throttle, or share “sleep” compute efficiently.
+
+- **View:** The useful abstraction is scheduled memory consolidation; anthropomorphic sleep matters less than retention, latency, and interference tradeoffs.
+- **Impact:** Long-lived agents could shrink active context without forgetting, but personalized fast state complicates isolation, rollback, auditing, and poisoning defenses.
+- **Watch next:** Code, larger models, real conversations, forgetting curves, state isolation, adversarial writes, and matched-compute comparisons against TTT and pruning.

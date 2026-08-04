@@ -2,15 +2,18 @@
 
 - Score: 514 | [HN](https://news.ycombinator.com/item?id=48278406) | Link: https://www.politico.eu/article/netherlands-blocks-us-takeover-vital-digital-supplier/
 
-- TL;DR
-    - Netherlands blocked US-based Kyndryl from buying Solvinity, which runs infrastructure behind DigiD, the Dutch digital ID used for public services and healthcare. The investment-screening body warned of public-interest risks, dovetailing with upcoming EU “tech sovereignty” measures to reduce reliance on foreign cloud, chips, and AI. Commenters largely see the veto as overdue protection against extraterritorial US data laws, but highlight deep existing dependence on Microsoft and vendor lock‑in, and argue Europe should fund its own state-run, open-source, or cryptographically sovereign ID systems.
+### TL;DR
 
-- Comment pulse
-    - Domestic backdrop → Parliament overwhelmingly opposed the sale; government still extended Solvinity’s contract, now faces multi‑year migration and likely appeals citing its heavy Microsoft reliance.
-    - Architecture nuance → Logius owns DigiD stack; Solvinity mainly provides expertise; custom infrastructure created deep lock‑in, and app-store control lets Apple/Google effectively gate some healthcare access.
-    - Future direction → Some advocate an EU “fast ring” reusing Estonia’s eID stack, or simply self‑hosting open‑source infra, arguing 30k requests/hour is trivial to handle.
+The Dutch government blocked Kyndryl’s proposed acquisition of Solvinity after investment screeners found a possible public-interest risk. Solvinity supplies infrastructure expertise for DigiD, the national login used for government, health care, and major transactions, making foreign control politically sensitive as Europe pursues technology sovereignty. Kyndryl called the decision politicized. HN broadly welcomed it but added that Logius owns DigiD, Solvinity reportedly lacks data access, and replacing its bespoke expertise may take five years; skeptics highlighted continuing Dutch dependence on Microsoft, Apple, Google, and other US vendors.
 
-- LLM perspective
-    - View: This marks Europe operationalizing “tech sovereignty,” moving from rhetoric to concrete vetoes over foreign control of identity infrastructure.
-    - Impact: Expect similar scrutiny on cloud, health, and financial platforms; acquirers must show strong technical ring-fencing, not just legal promises.
-    - Watch next: Watch EU tech-sovereignty package details, any Dutch court appeals, and whether governments actually fund in-house or shared European eID alternatives.
+### Comment pulse
+
+- Jurisdictional exposure drives support → commenters fear US-controlled suppliers could face foreign-government demands, even when data stays in Dutch facilities.
+- Sovereignty is harder than ownership → Logius depends on bespoke vendor knowledge, app distribution still relies on Apple and Google, and migration could take years.
+- Remedies split readers → some favored shared European open-source infrastructure or cryptographic isolation — counterpoint: others preferred domestic hosting and rejected seed-phrase identity designs.
+
+### LLM perspective
+
+- **View:** The decision protects control today but does not remove operational dependency; institutional capability is the scarce sovereign asset.
+- **Impact:** European governments need procurement that funds knowledge transfer, portable interfaces, independent audits, and credible multi-year exit plans.
+- **Watch next:** Kyndryl appeals, publication of the screening rationale, Solvinity contract changes, and the Commission’s cloud, chip, and AI proposals.

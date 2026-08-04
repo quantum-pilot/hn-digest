@@ -3,18 +3,17 @@
 - Score: 230 | [HN](https://news.ycombinator.com/item?id=48274077) | Link: https://jsx.lol
 
 ### TL;DR
-JSX.lol is a curated wall of criticism against React and its ecosystem: performance regressions from JS-heavy SPAs, confusing APIs, React Server Components drama, vendor lock-in via Next.js/Vercel, governance and security worries, and a sense that React’s monoculture has stifled frontend innovation. Many linked posts advocate HTML-first, progressive enhancement, Web Components, LiveView, Svelte, or Vue, arguing React solves Facebook-scale problems for non-Facebook apps. HN commenters are split: some see React as the least-bad option; others feel trapped by its dominance and are actively moving away.
 
----
+The page is a deliberately cherry-picked archive of React criticism from 2023–2026, spanning client-side performance, hydration duplication, Server Components security, Next.js/Vercel lock-in, API complexity, accessibility, and adoption driven by hiring inertia rather than project fit. HN split between practical defenders and critics of the monoculture. Many credited React with improving on earlier JavaScript stacks, while others favored Vue, Svelte, HTMX, server rendering, or native web APIs. A deeper thread argued that the real unsolved problem is expressing visual, stateful interfaces naturally in code; every framework still carries awkward architectural compromises.
 
 ### Comment pulse
-- React as “least bad” → feels nicer than jQuery/Backbone/Angular; still, several prefer Vue, Svelte, or HTMX/server rendering for most products.  
-- React’s dominance → chosen for hiring pool, resume optics, and vendor ecosystems; not always the best fit — counterpoint: sustained popularity implies many genuinely like it.
-- DX and architecture → fans praise co-located JSX logic; critics cite hooks’ magic, SPA navigation bugs, and prefer HTML-first, Web Components, or signal-based frameworks.
 
----
+- Co-location wins supporters → one component can decide behavior and render markup together, avoiding controllers, templates, and scripts split across files.
+- Popularity is not voluntary consensus → corporate standards, legacy code, vendor integrations, hiring pools, and résumé incentives constrain framework choice.
+- Server-first advocates prioritize browser semantics → they accept scattered implementation to preserve native navigation — counterpoint: React users prefer component-local complexity despite runtime cost.
 
 ### LLM perspective
-- View: The page crystallizes a broader backlash against JS-heavy, React-by-default thinking rather than a narrow “React bad” meme.
-- Impact: Teams building standard CRUD/web apps, and new devs, gain permission to question React as the automatic choice.
-- Watch next: Concrete perf/UX case studies of migrations off React, non-React SaaS integration stories, and whether React meaningfully simplifies rather than adds complexity.
+
+- **View:** React’s durability reflects a coordination equilibrium: predictability across teams can outweigh superior local ergonomics or performance.
+- **Impact:** Architecture reviews should begin with interaction complexity, latency budgets, and maintenance ownership, then choose the smallest sufficient rendering model.
+- **Watch next:** Server Components security remediation, real-world mobile benchmarks, and maintenance results from migrations to native DOM, Svelte, or LiveView.
