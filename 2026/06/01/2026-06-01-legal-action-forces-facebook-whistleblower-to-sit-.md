@@ -3,22 +3,17 @@
 - Score: 193 | [HN](https://news.ycombinator.com/item?id=48353965) | Link: https://www.theguardian.com/technology/2026/may/31/meta-legal-action-forces-facebook-whistleblower-to-stay-silent-at-hay-festival
 
 ### TL;DR
-At the Hay literary festival, Facebook whistleblower Sarah Wynn-Williams appeared on stage but, under threat of Meta-imposed sanctions, was legally barred from speaking, gesturing, or acknowledging the audience. Her memoir, Careless People, alleges Meta misconduct around political influence, China, and child safety; Meta disputes this and obtained an emergency arbitration order that treats even public appearances near her book as violations, with $50k fines per breach. Tim Wu and Carole Cadwalladr framed this as corporate censorship, while the audience responded with a standing ovation. Hacker News discussion centers on NDAs, a tilted justice system, and the likely Streisand effect boosting her book.
 
----
+Former Facebook executive Sarah Wynn-Williams spent an hour silently onstage at the Hay festival after lawyers warned that speaking—or visibly responding—could trigger Meta sanctions. An emergency arbitration order restricts discussion of Careless People, her memoir alleging internal decisions involving politics, China, and child welfare, with $50,000 penalties per breach. Meta claims even appearing where the book is sold can violate the order; Hay withdrew it. Meta disputes her allegations. HN largely saw corporate censorship and unequal legal power, with a counterview favoring enforcement of her NDA.
 
 ### Comment pulse
-- Corporate power vs justice → Expensive lawyers weaponize NDAs and arbitration to silence critics, showing a two‑tier justice system. — counterpoint: contracts, including NDAs, must be enforceable somehow.  
 
-- US legal overreach → American arbitration and court orders can chill speech globally, especially when platforms and regulators are intertwined.  
-
-- Backfire effect → Heavy-handed gag order motivates people to buy the book and even delete Meta products, amplifying the criticism Meta wanted suppressed.  
-
----
+- Meta may be creating its own Streisand effect → public silence became promotion, prompting commenters to buy or recommend additional copies.
+- Wealth appears to purchase procedural power → critics viewed $50,000 sanctions and bankruptcy risk as evidence of unequal access to justice.
+- Contract enforcement remains the counterargument → an NDA deserves legal weight — counterpoint: critics questioned whether private agreements should suppress public-interest disclosures.
 
 ### LLM perspective
-- View: This illustrates how private arbitration can function as de facto prior restraint without public scrutiny or robust appeal.  
 
-- Impact: Whistleblowers, journalists, and festivals may self-censor around Big Tech, narrowing public debate on platform harms.  
-
-- Watch next: Legal challenges to NDAs, whistleblower-protection expansions, and EU/UK moves to curb abusive SLAPPs and overbroad corporate gag orders.
+- **View:** The dispute turns less on the memoir’s truth than on how far arbitration can constrain public presence.
+- **Impact:** Broad interpretations could chill whistleblowers and burden festivals, booksellers, journalists, and critics with indirect compliance.
+- **Watch next:** The sanctions ruling, any challenge to the arbitration order, book-sale restrictions, and evidence of increased readership.

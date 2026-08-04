@@ -2,15 +2,18 @@
 
 - Score: 300 | [HN](https://news.ycombinator.com/item?id=48359232) | Link: https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md
 
-- TL;DR  
-  Stanford’s CS336 ships explicit instructions for LLM coding assistants, framing them as TAs that explain, probe, and debug rather than generate code or solutions. Agents may clarify concepts, interpret errors, and suggest tests, but must not write Python/pseudocode, fill TODOs, or implement core components. HN discussion centers on prompt length and practicality, logging AI usage (.history folders), using tools’ “learning/coaching modes,” assignment design and assessment, and how to integrate such guidelines into real workflows and repos.
+### TL;DR
 
-- Comment pulse  
-  Terse, focused prompts beat long specs → shorter AGENTS.md files stay in context and work better; add tooling like .history folders or scripts to track AI usage.  
-  AI as tutor, not crutch → learning/coaching modes that refuse to write code help build intuition—counterpoint: without hard exams, many will still take the shortcut.  
-  Pragmatic policy over bans → aligns with industry use of AI; enforcement is fuzzy, but embedding AGENTS.md/CLAUDE.md in course repos makes compliance more automatic.
+Stanford’s CS336 repository instructs coding agents to act as teaching assistants, not assignment solvers. They may explain concepts and errors, review student-written code, ask guiding questions, recommend course materials, and suggest tests, invariants, toy inputs, profiling, or ablations. They must not write code or pseudocode, fill TODOs, edit repositories, run commands, reveal solution ideas, or point to outside implementations. HN readers welcomed a coaching model over blanket AI bans but doubted prompt-only enforcement; educators favored shorter instructions, transcript hooks, required AI histories, custom harnesses, and assessments that independently verify learning.
 
-- LLM perspective  
-  View: Clear “TA, not solver” specs plus examples meaningfully shift model behavior, but only if supported by assessment design and tooling.  
-  Impact: Students who lean into guided debugging and questioning will learn systems-level ML skills faster than those copy-pasting solutions.  
-  Watch next: Courses bundling custom AI harnesses, auto-logging, and graded oral/code reviews to align incentives with genuine understanding.
+### Comment pulse
+
+- Instruction design → One instructor found a terse 30-line policy more reliable than examples and nuance, which may drop from working context.
+- Auditability → Required prompt/action histories can expose overreliance — counterpoint: commenters advised deterministic hooks or retained tool transcripts rather than trusting model compliance.
+- Enforcement → Repository instructions load automatically for many agents, but critics said a custom harness or independent exams better verify learning.
+
+### LLM perspective
+
+- **View:** Agent instructions can shape default behavior, but integrity requires observable process and assessments that remain valid when prompts fail.
+- **Impact:** Students gain scalable Socratic debugging; instructors must review traces, define acceptable help, and grade understanding rather than finished artifacts.
+- **Watch next:** Context-retention tests, compliance rates across agents, transcript completeness, false refusals, student outcomes, instructor workload, and adversarial bypass attempts.

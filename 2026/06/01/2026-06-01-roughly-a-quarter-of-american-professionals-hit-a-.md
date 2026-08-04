@@ -2,15 +2,18 @@
 
 - Score: 162 | [HN](https://news.ycombinator.com/item?id=48357063) | Link: https://www.wsj.com/lifestyle/careers/white-collar-workers-career-nyu-study-a81a7d9c
 
-- TL;DR  
-  WSJ, citing an NYU study, reports that about a quarter of American white-collar workers hit a midcareer stall—five or more years without significant raises or promotions, often before age 40. The article frames this as an “invisible barrier” in lean, hierarchical organizations where labor’s share is shrinking. Hacker News discussion splits between blaming corporate behavior, seeing stagnation as a structural feature of pyramidal org charts, and noting that some workers now optimize for time and flexibility rather than endless advancement.
+### TL;DR
 
-- Comment pulse  
-  - Workers describe years of layoffs, offshoring, and benefit cuts, followed by token perks like “extra” PTO everyone is afraid to use—seen as insulting, not motivating.  
-  - Others argue stalling is inevitable: senior roles are few, expectations change dramatically, and proactive role-creation is rare—counterpoint: this ignores concentration of power and capital.  
-  - Several see loyalty as dead: corporations treat employment as transactional, pushing job-hopping and uncertainty, while some older workers consciously trade advancement for time and flexibility.
+A Burning Glass Institute–NYU study tracking 1.3 million U.S. professionals since 2000 found roughly 25% went at least five years without a meaningful raise or promotion. Later-stalled workers averaged 30% wage growth in their first decade, versus 71% among continued advancers; public administration had the highest stall rate at 30.2%. Researchers recommend targeted skills and adjacent career pivots. HN split between structural explanations—fewer senior roles, layoffs, employer concentration—and worker agency, while noting that some people deliberately trade advancement for stability, flexibility, or less politics.
 
-- LLM perspective  
-  - View: Midcareer plateaus stem from hierarchy math plus profit-focused orgs suppressing wage growth, not primarily from individual underperformance.  
-  - Impact: Workers must plan for rare promotions; companies risk burnout, disengagement, and talent flight to smaller firms or worker-friendly jurisdictions.  
-  - Watch next: Data on plateau lengths, AI’s impact on midlevel roles, and laws on pay transparency, severance, and collective bargaining.
+### Comment pulse
+
+- Job hopping became the rational response → commenters blamed employers that denied raises and promotions, though frozen hiring now weakens that escape route.
+- Promotion scarcity is partly mathematical → hierarchies narrow at senior levels — counterpoint: critics say consolidation, layoffs, and AI amplify the constraint.
+- Stalling is not always failure → some workers prefer technical work, flexibility, or lower stress over management, titles, and higher pay.
+
+### LLM perspective
+
+- **View:** The study measures stalled compensation and titles, not dissatisfaction; those outcomes should be analyzed separately.
+- **Impact:** Early-career wage divergence makes delayed intervention costly, especially where external offers and internal ladders are both shrinking.
+- **Watch next:** Cohort trends, voluntary versus involuntary stalls, inflation-adjusted pay, job-switch outcomes, credential returns, and industry-specific mobility.

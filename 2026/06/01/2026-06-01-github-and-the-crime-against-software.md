@@ -2,22 +2,18 @@
 
 - Score: 186 | [HN](https://news.ycombinator.com/item?id=48361064) | Link: https://eblog.fly.dev/githubbad.html
 
-## TL;DR
+### TL;DR
 
-The article argues GitHub has become a case study in infrastructural decay: frequent incidents, misleading uptime claims, and prioritizing Copilot/“agentic” AI features over reliability and performance. The author measures GitHub, GitLab, and Codeberg with throttled-network tests, HAR analysis, heap snapshots, and PageSpeed. GitHub ships ~15–22 MiB, hundreds of assets, and ~70–150 MiB RAM usage for simple pages—graded F versus GitLab (D+), Codeberg (C+), and the author’s own lean site (A–). Conclusion: big-tech forges are wasteful and user-hostile; diversify or self-host.
+Efron Licht argues GitHub’s outages and bloated interface reflect incentives favoring Copilot growth over reliability. Testing identical empty repositories over throttled 3G, he measured GitHub’s landing page at 291 requests, 15MB transferred, roughly 21 seconds to load, and 69MiB steady-state heap; Codeberg used 11 requests, about 1MB, three seconds, and 14MiB. HN sympathized and discussed mirroring or self-hosting, but emphasized that issues, reviews, CI, history, integrations, and social signals—not Git repositories—create the hardest lock-in.
 
----
+### Comment pulse
 
-## Comment pulse
+- Multi-push makes source redundancy trivial → one Git remote can push simultaneously to GitHub, GitLab, and Codeberg.
+- Platform metadata creates durable dependency → issues, pull requests, wikis, discussions, boards, and CI embody institutional knowledge Git cannot replicate.
+- Alternatives feel cleaner → users praised Codeberg, Gitea, Forgejo, Tangled, and Radicle — counterpoint: GitHub’s discoverability and star economy remain powerful.
 
-- Mirror repos across GitHub, GitLab, Codeberg → trivial via multiple push URLs; real lock‑in is issues, PRs, CI, and accumulated workflow metadata.  
-- Self‑hosted forges (Gitea, Forgejo, Tailnet‑exposed Mac mini) → users report feeling “free,” using GitHub only when employers demand it.  
-- GitHub stars create platform lock‑in → stars influence adoption and can be bought, giving GitHub social capital control—counterpoint: some moves (e.g., nginx) were mainly about Git vs Mercurial.
+### LLM perspective
 
----
-
-## LLM perspective
-
-- View: There’s room for lightweight, opinionated forges that treat AI as optional, not the navigation center of the UI.  
-- Impact: Teams with strict latency/bandwidth constraints, regulated environments, or long-lived projects benefit most from migrating or self-hosting.  
-- Watch next: Tools that export/import issues, PRs, and stars between forges could meaningfully erode GitHub’s practical lock‑in.
+- **View:** The measurements expose real client cost, but one manually sampled, throttled test cannot establish architecture-wide causation.
+- **Impact:** Teams seeking resilience need metadata exports, mirrored CI definitions, and tested fallback procedures—not merely additional push URLs.
+- **Watch next:** Repeated cross-browser benchmarks, incident rates, SLA credits, metadata-export standards, and adoption of self-hosted alternatives.

@@ -2,15 +2,18 @@
 
 - Score: 168 | [HN](https://news.ycombinator.com/item?id=48360054) | Link: https://30fps.net/pages/255-vs-256-division/
 
-- TL;DR  
-Normalizing 8‑bit RGB to floats has two common schemes: divide by 255 (0→0.0, 255→1.0, GPU standard) or bias by 0.5 and divide by 256 (mid‑tread quantizer, slightly lower theoretical quantization error, bins centered between integers). The article shows that for typical image processing, 255 is preferable because it matches existing encoders and keeps 0 as detectable black; 256 only helps if you fully control encoding/decoding. Commenters note the visual difference is tiny, except in analog/DAC contexts and fragile production pipelines.
+### TL;DR
 
-- Comment pulse  
-  - For 8‑bit digital images, 255 vs 256 barely matters visually; but in analog VGA DACs, quantization steps directly map to voltages, making mismatches obvious.  
-  - Some argue truncation creates the half‑sized edge bins; propose scaling with 255.999 or similar to fully use 256 codes without skewing distributions.  
-  - Debate: are 0 and 255 true black/white, clipped values, or sentinels? Pipelines assume 0→0.0, 255→1.0 for masking — counterpoint: real scenes rarely reach physical zero.
+For ordinary 8-bit image processing, decode channels as value/255: it preserves exact 0.0 and 1.0, round-trips losslessly, matches GPU and common-file conventions, and avoids surprising masks or alpha. Mapping each code to (value+0.5)/256 gives equal-width bins, exact binary fractions, slightly lower theoretical reconstruction error, and simpler dithering, but only helps when one controls both encoding and decoding. HN agreed the visual difference is usually negligible yet debated endpoint meaning; hardware voltage ladders, clipping, low-bit color, and zero-sensitive compositing make the convention operationally significant.
 
-- LLM perspective  
-  - View: Treat normalization choice as protocol, not taste: match whatever encoding your input images actually used to avoid systematic bias.  
-  - Impact: Misaligned encode/decode rules cause subtle banding and alpha glitches; they compound when assets pass through many tools or denoising passes.  
-  - Watch next: If you design a format, document the quantizer, add round‑trip tests, and provide reference conversions for GPUs and shaders.
+### Comment pulse
+
+- Exact endpoints are semantic contracts → masks and premultiplied alpha often require 0.0 and 1.0; midpoint decoding can leak pixels or transparency.
+- Equal bins model quantized intervals better → no physical sample is exactly known — counterpoint: saturated 255 may represent arbitrary clipping, not a centered interval.
+- At low bit depth, scaling is visible → 2-bit blue and 3-bit red/green voltage ladders share only endpoint levels, distorting grays and gradients.
+
+### LLM perspective
+
+- **View:** This is chiefly a protocol question, not a precision contest; decode according to the producer’s quantization contract.
+- **Impact:** Library authors should expose explicit conversion modes and document endpoint, rounding, clamping, and color-space assumptions.
+- **Watch next:** Round-trip, mask, alpha, dithering, clipping, and cross-library tests covering both formulas and mixed encode/decode failures.

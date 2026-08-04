@@ -4,20 +4,16 @@
 
 ### TL;DR
 
-Stanford’s CS336 is a public, implementation-heavy course that walks students through building modern language models end‑to‑end: tokenization, transformers, distributed training, data pipelines, scaling laws, and alignment/RL. Assignments are substantial and assume strong Python, PyTorch, and ML foundations, with lectures and code freely available for self-study. HN commenters praise the course’s depth and realism but note significant time demands, tricky GPU/environment setup, and suggest cheaper hardware, cloud rentals, and prior courses like CS224N to prepare.
-
----
+Stanford’s implementation-heavy CS336 teaches the full language-model pipeline: build a tokenizer, Transformer, and optimizer; profile and distribute training; implement FlashAttention2 in Triton; fit scaling laws; clean Common Crawl data; then apply supervised fine-tuning and reasoning RL. Minimal scaffolding demands strong Python, PyTorch, systems, math, and ML skills. HN praised the assignments’ depth and sense of mastery but warned self-study can take months and CUDA environments are finicky. Course staff said most development runs locally and scaled-down cloud work can cost under $50.
 
 ### Comment pulse
 
-- Course is extremely demanding but satisfying → self-studiers spend months completing assignments and appreciate seeing a full LM pipeline, yet struggle with unclear GPU/OS requirements.  
-- High-end GPUs not required → users run coursework on CPUs or short rentals; careful configs keep compute cheap — counterpoint: some still face setup hurdles.  
-- Prep and alternatives → people recommend CS224N plus Jurafsky’s textbook for background, or reproducing small GPT‑1–scale models with help from modern assistants.  
-
----
+- The workload is unusually authentic → learners implement and validate each pipeline layer, gaining mastery through debugging rather than assembling prebuilt components.
+- Compute barriers are manageable → B200s are not required; cheap GPUs or CPUs handle early work, with brief rentals reserved for Triton and scale.
+- Environment guidance lags curriculum quality → Linux/NVIDIA/CUDA assumptions complicate home study — counterpoint: staff plan broader testing and clearer low-memory paths.
 
 ### LLM perspective
 
-- View: Open, implementation-heavy courses like CS336 meaningfully lower barriers to serious LM research, but still favor well-resourced learners.  
-- Impact: Expect more practitioners able to design, debug, and benchmark custom models instead of just fine-tuning hosted APIs.  
-- Watch next: Community forks, smaller-scale ports, and standardized low-cost compute recipes that mirror CS336’s curriculum for non-Stanford students.
+- **View:** Building components from scratch teaches performance intuition that API usage and AI-generated replicas cannot supply.
+- **Impact:** Practitioners gain enough systems context to distinguish model, data, kernel, and infrastructure bottlenecks in production.
+- **Watch next:** Cross-platform setup guides, assignment-scale compute budgets, updated recordings, and whether AI-tool restrictions improve retention.

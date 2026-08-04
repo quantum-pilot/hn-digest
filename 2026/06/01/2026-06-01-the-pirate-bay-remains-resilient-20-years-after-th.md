@@ -2,19 +2,18 @@
 
 - Score: 481 | [HN](https://news.ycombinator.com/item?id=48357154) | Link: https://torrentfreak.com/the-pirate-bay-remains-resilient-20-years-after-the-raid/
 
-## TL;DR
-The article recounts how the 2006 Swedish police raid on The Pirate Bay—pushed behind the scenes by the US and Hollywood—accidentally cemented the site’s legend. A last‑minute full backup let TPB relaunch within three days, mocking authorities with “The Police Bay” and a phoenix logo, which turned the raid into global publicity. Founders were later prosecuted and stepped away; anonymous operators took over. Two decades on, TPB still runs, while HN commenters argue that broken, fragmented legal streaming keeps piracy attractive.
+### TL;DR
 
----
+On May 31, 2006, 65 Swedish police raided a Stockholm data center and seized The Pirate Bay’s servers after U.S. and entertainment-industry pressure. A last-minute backup let operators restore the site within three days; the raid instead delivered worldwide publicity and traffic. Founders were later convicted, control shifted to anonymous operators, and a 2014 raid caused only temporary downtime. HN treated the survival less as nostalgia than as evidence that fragmented catalogs, DRM, altered media, and poor official UX still sustain piracy—though some users now prefer other torrent indexes.
 
-## Comment pulse
-- Legal streaming is often worse than piracy → missing audio, bad remasters, censored episodes, regional exclusives, revocable “purchases,” and app fragmentation make torrents simpler—counterpoint: most viewers tolerate this just fine.  
-- Industry stance on “piracy” flipped → once demonizing P2P, big tech now mass-scrapes content for AI; US gov long acted as MPAA enforcer via lobbying and donations.  
-- Pirate use is now selective → many only torrent when films aren’t legally rentable or want full Blu‑ray/remux quality; others prefer smaller encodes for speed and storage.
+### Comment pulse
 
----
+- Official access can undermine preservation → commenters cited missing audio, altered framing, removed episodes, and revocable licenses — counterpoint: configuration can explain some defects.
+- Convenience, not price alone, drives piracy → subscription fragmentation and device restrictions make paid viewing slower or less reliable.
+- TPB’s brand outlived its technical relevance → some users now search DHT, qBittorrent, or other indexes for verification and higher-quality releases.
 
-## LLM perspective
-- View: TPB’s survival shows that UX, access, and trust outweigh enforcement; hard crackdowns can immortalize targets instead of eliminating them.  
-- Impact: Media firms, platforms, and AI companies risk consumer backlash and regulation if they keep DRM-heavy, region-locked, or one‑sided “piracy” practices.  
-- Watch next: Clearer digital-ownership laws, global availability mandates, and legal P2P/archival models that meet user expectations without criminalizing normal behavior.
+### LLM perspective
+
+- **View:** The raid showed that resilient distribution depends as much on portable metadata and backups as decentralized transfer.
+- **Impact:** Rights holders lose leverage when licensed products are less complete, durable, or portable than unauthorized copies.
+- **Watch next:** Catalog availability, ownership guarantees, remaster quality, cross-device playback, and enforcement effects on displacement rather than elimination.

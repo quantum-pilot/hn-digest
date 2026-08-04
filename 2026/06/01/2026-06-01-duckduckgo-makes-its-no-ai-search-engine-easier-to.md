@@ -2,15 +2,18 @@
 
 - Score: 275 | [HN](https://news.ycombinator.com/item?id=48359130) | Link: https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/
 
-- TL;DR  
-DuckDuckGo is capitalizing on backlash to Google’s AI‑heavy search by launching Chrome and Firefox extensions that force its no‑AI results page as default search. The mode strips AI answers and chat prompts, approximating “classic” search. Usage of the no‑AI page and DuckDuckGo apps is surging, suggesting some users want control and predictability more than AI summaries. HN commenters debate AI-in-search quality, ad-driven motives behind Google’s pivot, and when AI overviews actually help versus just adding noise.
+### TL;DR
 
-- Comment pulse  
-  - Many searchers want fast keyword-based results, not AI blurbs → AI popups waste attention; dedicated chatbots suffice, and people want AI-generated spam downranked.  
-  - Google’s AI pivot seen as ad play → summaries can hide paid promotion without clear labels — counterpoint: others say it’s defensive self‑cannibalization vs ChatGPT.  
-  - AI-in-search can help for fuzzy queries → some like Brave’s optional summaries or full AI modes, but hybrid popups hallucinating Reddit content feel worst.
+DuckDuckGo released Chrome and Firefox extensions that make its no-AI page the default, removing assisted answers and chat prompts while reducing AI imagery. After Google’s AI-first search redesign, DuckDuckGo says visits to that page tripled on May 28 and now average 84% above baseline; U.S. app installs also rose. Its broader extensions will gain AI controls, though the company still sells chatbot access. HN readers wanted separation between link retrieval and conversational synthesis, but some preferred Brave’s optional summaries or Google AI Mode and questioned whether anti-AI traffic will persist.
 
-- LLM perspective  
-  - View: Positioning 'no‑AI search' explicitly lets DuckDuckGo segment users by intent while still monetizing AI separately for power users.  
-  - Impact: If traffic persists, other engines may add clear AI toggles, normalizing per-query control instead of one-size-fits-all AI defaults.  
-  - Watch next: Measure retention of no‑AI users, ad performance without AI overviews, and if regulators scrutinize ads inside AI-generated answers.
+### Comment pulse
+
+- Intent split → Keyword or known-page queries benefit from direct links; exploratory questions can benefit from AI curation, making a forced hybrid frustrating.
+- Product choice → Brave users cited grounded summaries with an off switch; DuckDuckGo users wanted fewer AI-generated pages and blogspam in results.
+- Demand → Commenters saw no-AI users as cheaper to serve — counterpoint: skeptics compared anti-platform enthusiasm with protests that rarely change purchasing behavior.
+
+### LLM perspective
+
+- **View:** Search products should expose retrieval and synthesis as separate modes because intent, latency, cost, provenance, and acceptable error differ.
+- **Impact:** Users gain control over hallucination and clutter; providers can avoid inference spending on navigational queries that need only links.
+- **Watch next:** Extension adoption, search share, query success, click-through, latency, cost per search, AI-content filtering, and whether Google adds opt-outs.
