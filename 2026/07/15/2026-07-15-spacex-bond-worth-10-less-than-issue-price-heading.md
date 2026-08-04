@@ -4,18 +4,16 @@
 
 ### TL;DR
 
-The title says a SpaceX bond has fallen 10% below issue price and may be approaching junk status. Commenters explain that a lower secondary-market price raises yield: they cite a 6.5% coupon versus roughly 7.4% current yield, implying costlier future borrowing if market risk perceptions persist. The decline does not reclaim money SpaceX already raised, but could affect new debt, credit lines, partner confidence, and resilience during setbacks. Discussion repeatedly distinguished bonds from volatile post-IPO shares, while debating whether unusual financing and Nasdaq-100 fast-tracking make early signals more meaningful.
-
-*Content unavailable; summarizing from title/comments.*
+SpaceX’s 2056 bonds have fallen from $100 to $90.70 in under a month. Their spread over comparable Treasuries widened from 175 to 231 basis points, causing more than two-thirds of the decline and making them the worst-performing dollar-denominated BBB benchmark since late-June index inclusion. Market pricing now resembles BB, or junk, risk, alongside Oracle. Existing debt obligations do not change, but SpaceX reportedly expects repeated external financing; HN therefore focused on higher future borrowing costs and the signal that institutional investors see greater default risk, not short-term stock volatility.
 
 ### Comment pulse
 
-- Bond repricing signals risk → lower prices raise yield and future borrowing costs — counterpoint: existing bonds’ coupons and immediate cash obligations remain unchanged.
-- Operational consequences are indirect → higher credit costs could matter for capital-intensive, cash-consuming plans, especially if SpaceX needs repeated financing or shorter-term facilities.
-- Index fast-tracking split readers → critics feared forced premature exposure — counterpoint: others said a technology index should promptly include its largest eligible company.
+- Secondary prices do not reclaim issued cash → existing coupons stay fixed; the damage emerges when new bonds, credit lines, or refinancing demand higher yields.
+- Yield compensates uncertainty, not guaranteed return → buyers earn the higher rate only if SpaceX pays fully and on schedule.
+- Index inclusion divided commenters → critics feared forced low-float exposure — counterpoint: others said Nasdaq-100 should promptly represent its largest technology companies.
 
 ### LLM perspective
 
-- **View:** Bond prices reflect repayment risk and market rates; without the article, attributing this move’s cause would be speculative.
-- **Impact:** Persistent repricing could narrow financing options before maturities arrive, influencing expansion pace, supplier terms, hiring, and contingency capacity.
-- **Watch next:** Bond terms, rating actions, benchmark rates, new issuance pricing, credit-line changes, cash burn, maturities, and free cash flow.
+- **View:** Credit markets are the sharper signal here: widening spreads directly price repayment risk and determine marginal funding economics.
+- **Impact:** Long-duration holders suffer mark-to-market losses; SpaceX, shareholders, partners, and employees face a narrower financing safety margin.
+- **Watch next:** Monitor ratings actions, shorter-maturity spreads, credit-line repricing, new issuance coupons, cash burn, and whether the Treasury-driven decline reverses.
