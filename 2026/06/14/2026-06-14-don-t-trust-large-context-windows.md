@@ -3,18 +3,17 @@
 - Score: 256 | [HN](https://news.ycombinator.com/item?id=48524620) | Link: https://garrit.xyz/posts/2026-05-06-dont-trust-large-context-windows
 
 ### TL;DR
-Large advertised context windows (200k–1M tokens) don’t behave uniformly: models have a “smart zone” where attention is reliable and a “dumb zone” where recall and reasoning degrade, often well before the limit. Coding agents rapidly push sessions into this dumb zone. The author treats context as a scarce budget: keep live context small, frequently start fresh sessions, and hand off via concise, human-written artifacts (specs, plans, PRDs). HN comments debate anecdotal impressions vs benchmarks and share various strategies for controlling context growth.
 
----
+The article warns that advertised context capacity is not equivalent to reliable working memory: studies and experience suggest attention degrades gradually, with coding agents potentially entering a weak zone near 100,000 tokens. Auto-compaction helps only after quality has fallen and may summarize with an already-degraded model. The author instead starts fresh sessions from concise, human-written specs and stores decisions in PRDs, plans, and handoff artifacts. HN responses challenged any universal cutoff: usable range varies sharply by model, version, harness, and task, with some reporting strong performance beyond 500,000 tokens.
 
 ### Comment pulse
-- LLM practice feels like cargo culting → non-determinism, rapid model churn, and weak theory make rigorous, shared “best practices” hard to establish or verify.  
-- Constrain tools to recursive sub-calls → keep the main thread tiny while burning millions of tokens off-thread; aligns with user costs, not vendor revenue.  
-- Long-context quality is model- and version-specific → some push Claude Opus to 800k tokens, others see failures <100k; cited studies may already lag current models.
 
----
+- Anecdotes cannot establish thresholds → standardized tests offer rigor — counterpoint: older studies may not describe current models, harnesses, or real agent workloads.
+- Keep orchestration context lean → dispatch tool-heavy work to subagents and return compact results; one-level recursion reportedly handles million-line repositories without compaction.
+- Persistent memory can become noise → concise repository docs, indexes, and checklists preserve decisions while remaining inspectable by humans and selectively retrievable.
 
 ### LLM perspective
-- View: Design workflows assuming only a modest prefix is reliable, and periodically distill progress into external, structured documents the model can re-ingest.  
-- Impact: Agent frameworks, IDE integrations, and “AI memory” systems should prioritize document generation, indexing, and retrieval over ever-larger flat context windows.  
-- Watch next: Public long-context benchmarks on latest models, plus tools that visualize where attention/recall degrades across an active session.
+
+- **View:** Context is a relevance budget, not storage; capacity claims matter only when retrieval quality survives realistic workloads.
+- **Impact:** Agent systems shift toward hierarchical orchestration, explicit artifacts, and task-scoped sessions rather than endlessly accumulating transcripts.
+- **Watch next:** Benchmark modern models by task accuracy across context positions, compaction timing, artifact retrieval, and subagent overhead.

@@ -3,18 +3,17 @@
 - Score: 717 | [HN](https://news.ycombinator.com/item?id=48533848) | Link: https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe/
 
 ### TL;DR
-An ebook author found a fully standards-compliant EPUB—passing epubcheck and working on Kindle, Apple Books, and others—was flagged as “corrupted” on Kobo. Root cause: Kobo routes standard EPUBs through Adobe’s ancient RMSDK engine, whose CSS parser silently chokes on valid modern CSS (here, `max-width: min(150px, 30vw)`), offering no error and just dropping the book. Kobo actually ships a newer WebKit-based renderer but only uses it for its proprietary KEPUB format, illustrating how DRM-driven, stagnant implementations sabotage the open EPUB ecosystem.
 
----
+An EPUB that passed EPUBCheck 3.3 and opened in Kindle, Apple Books, and Thorium appeared corrupted on Kobo because its Adobe RMSDK renderer silently rejected valid modern CSS: `max-width: min(150px, 30vw)`. Replacing it with a fixed width restored compatibility. Kobo also has a maintained WebKit renderer, but invokes it only for files named `.kepub.epub`, making conversion or renaming another workaround. HN criticized Adobe’s opaque, DRM-driven legacy stack, while some argued EPUB’s browser-derived living standards exceed what slowly updated embedded readers can realistically support.
 
 ### Comment pulse
-- Adobe’s pattern: fragile platforms, weak QA, poor support → Flash’s fall and RMSDK’s stagnation continue this history of unreliability and user-hostility.  
-- RMSDK access is effectively closed; combined with publisher dependence on Adobe DRM, this looks like anticompetitive lock-in blocking independent ereader innovation.  
-- Pragmatists: target EPUB 2/3.1 and avoid modern CSS; convert to KEPUB to trigger Kobo’s better renderer — counterpoint: entrenches fragmentation and proprietary quirks.
 
----
+- Validation proves conformance, not compatibility → EPUBCheck cannot predict undocumented parser crashes, so publishers still need device and renderer matrices.
+- KEPUB sidesteps the legacy path → kepubify, Calibre, or the double extension select Kobo’s newer renderer and restore features such as cross-page highlighting.
+- Standards scope is contested → modern CSS is valid — counterpoint: embedded readers are not evergreen browsers, and EPUB’s living dependencies can break old books.
 
 ### LLM perspective
-- View: Standards plus validators are insufficient when dominant runtimes lag; publishers need explicit “minimum runtime” targets like browser support matrices.  
-- Impact: Locked-down renderers with DRM incentives concentrate power in a few vendors, constraining typography, accessibility, and experimental publishing formats.  
-- Watch next: Useful follow-up: a public EPUB compatibility matrix, automated ADE/RMSDK regression tests, and tools that auto-flag CSS unsupported on common devices.
+
+- **View:** The failure is layered: permissive specifications, incomplete validation, frozen implementations, silent error handling, and extension-based renderer selection compound.
+- **Impact:** Independent publishers absorb compatibility testing and support costs that proprietary DRM vendors and device makers externalize.
+- **Watch next:** Build ADE, Kobo, Kindle, and WebKit render tests; track renderer retirement, EPUB profiles, CSS baselines, and actionable diagnostics.

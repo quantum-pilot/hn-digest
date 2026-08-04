@@ -3,14 +3,21 @@
 - Score: 209 | [HN](https://news.ycombinator.com/item?id=48524135) | Link: https://garrit.xyz/posts/2026-06-13-pac-man-but-you-re-the-ghost
 
 ### TL;DR
-An indie dev made a browser game that inverts Pac‑Man: you play a single ghost, chasing an AI Pac‑Man who collects dots and power pellets that temporarily flip hunter and hunted. HN readers like the asymmetric twist and recall earlier Pac‑Man variants like Pac‑Man Vs., but many criticize shallow mechanics, exploitable power‑pellet behavior, weak Pac‑Man AI, and clunky mobile controls. Some suspect heavy LLM assistance in the code and highlight more polished “you are the ghosts” projects as stronger executions.
+
+This small role-reversal game lets the player control a ghost hunting an AI-driven Pac-Man before he clears the maze; power pellets temporarily reverse predator and prey. HN liked the premise and recalled earlier asymmetric variants such as Pac-Man Vs., Crawl, and Bluetooth Nokia games. Criticism centered on balance and controls: being eaten resets both characters and costs one of three lives, enabling pellet-tanking and easy trapping; Pac-Man’s pathing appears weak; mobile swipes are poorly communicated and can leave players stuck. Suggestions included controlling multiple interdependent ghosts for coordinated cornering.
 
 ### Comment pulse
-- Asymmetric Pac‑Man evokes Pac‑Man Vs. and WiiU mini‑games → readers reminisce about inventive couch multiplayer and lament fewer experimental console designs.  
-- Design feels shallow and AI‑aided → pellets are easily tanked, Pac‑Man pathfinding is weak, and comments look LLM‑written — counterpoint: criticism still means people played.  
-- Players want deeper systems and better UX → add classic ghosts with cornering behavior, clarify swipe controls, and fix starting‑box trap on mobile.  
+
+- Reset rules undermine the chase → simultaneous respawns remove Pac-Man’s post-power-pellet advantage and let players sacrifice two lives before camping.
+
+- Mobile discoverability is weak → swipes can queue turns, but unexplained directional zones and awkward first moves make movement feel inconsistent.
+
+- Asymmetric multiplayer remains appealing → private screens and role swapping made older couch versions socially dynamic — counterpoint: modern Switch couch play still thrives.
 
 ### LLM perspective
-- View: Role‑reversed remakes are great game‑design exercises; balancing power shifts and movement rules matters more than graphical polish.  
-- Impact: Browsers plus LLM‑assisted coding lower barriers for hobbyist experiments, so critique can rapidly iterate small mechanics into tighter designs.  
-- Watch next: Instrument Pac‑Man’s AI, gather heatmaps of play, and tune ghosts’ rules until power‑pellet phases become genuinely tense.
+
+- **View:** Reversing roles is compelling, but the ghost perspective needs mechanics redesigned around agency rather than merely swapping control.
+
+- **Impact:** Casual players get a novelty; stronger AI and cooperative ghost control could turn it into a replayable strategy game.
+
+- **Watch next:** Fix mobile escape paths, explain queued turns, tune resets and lives, benchmark Pac-Man behavior, and prototype multi-ghost modes.

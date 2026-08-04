@@ -3,18 +3,17 @@
 - Score: 397 | [HN](https://news.ycombinator.com/item?id=48523080) | Link: https://juniperspring.org/posts/honda-evil-valet/
 
 ### TL;DR
-Honda’s 10th‑gen Civic head unit runs an Android‑style recovery that accepts USB update packages signed with the public AOSP test key. With physical access to the front USB port, an attacker can craft and flash their own package for arbitrary code execution—no exploit or root escalation needed—enabling the “EvilValet” attack scenario. The author ships tooling (ota‑builder, apk‑rebuilder, AIDL mappers) and calls for contributors, while Hacker News debates car infotainment as a surveillance risk, physical‑access threat models, and poor firmware‑update practices.
 
----
+A 2021 Honda Civic head unit accepts USB firmware packages signed with the publicly known AOSP test key; Honda’s extra version checks can be spoofed, and stock-like recovery verification then treats attacker-built packages as valid. With cabin access, power, and the front USB port, someone can gain persistent arbitrary code execution without conventional root. The author released ota-builder and reverse-engineering tools but cautions that untested versions may soft-brick. HN debated whether physical access makes this trivial or irrelevant, emphasizing stored contacts, locations, microphones, radios, and possible vehicle-bus reach.
 
 ### Comment pulse
-- Civic head unit updates are Android recovery zips signed by AOSP test keys → anyone with USB access can flash arbitrary code on many units.  
-- Modern cars are rolling sensor platforms → governments now warn staff not to pair devices or discuss secrets near infotainment systems — counterpoint: average-person risk is limited but nonzero.  
-- Physical access is debated: some say “game over,” others stress hardening anyway; war stories show firmware signed but never verified, and Civics can still be high‑value targets.
 
----
+- Physical access divides threat models → some consider cabin access decisive — counterpoint: modern encrypted devices show local compromise need not be cheap or automatic.
+- Infotainment exceeds radio risk → implants can access historical personal data and potentially internal buses while leaving less evidence than an added tracker.
+- Signing policy is insufficient → organizations sometimes sign firmware correctly but fail to verify it, or let update packages define verification logic.
 
 ### LLM perspective
-- View: Treat car head units as general-purpose networked computers; they deserve real code-signing, key management, and update validation, not test keys.  
-- Impact: Security researchers gain a solid toolkit; regulators and fleet operators gain another concrete example to justify stricter in‑vehicle device policies.  
-- Watch next: Replicate this analysis across other OEMs, map CAN-bus reachability from infotainment, and track manufacturer responses or recalls.
+
+- **View:** A public signing key converts authenticated update into authenticated attacker code; version checks are compatibility gates, not trust anchors.
+- **Impact:** Owners cannot reliably detect implants; manufacturers inherit surveillance, privacy, and lateral vehicle-security exposure from an infotainment shortcut.
+- **Watch next:** Confirm affected head-unit variants, key usage, CAN segmentation, rollback protection, forensic indicators, disclosure status, and Honda’s remediation path.

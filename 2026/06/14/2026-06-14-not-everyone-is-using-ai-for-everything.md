@@ -2,15 +2,18 @@
 
 - Score: 475 | [HN](https://news.ycombinator.com/item?id=48527700) | Link: https://gabrielweinberg.com/p/people-are-consuming-ai-like-they
 
-- TL;DR  
-  - The essay argues the media meme that “everyone uses AI for everything” is wrong: US data consistently shows roughly a third active users, a third occasional dabblers, and a third non‑users, with growth slowing and negative sentiment rising. People limit use over fears about jobs, privacy, and misinformation, and many doubt AI’s net social benefit, rating it only slightly above social media. The author likens AI to meat consumption: a spectrum from enthusiasts to abstainers, implying products and policy must respect that continuum.
+### TL;DR
 
-- Comment pulse  
-  - Job interviews: candidates are asked “how do you use LLMs?”; advice is to answer frankly, show judgment, and share clear success/failure examples.  
-  - Developers: LLMs can be excellent for backend code yet awful for complex UI; they demand “adult supervision” and often flood search with low‑quality content.  
-  - Tooling: firms replace solid deterministic systems and support with slower, flaky LLM flows; many argue LLMs should instead generate scripts, rules, and structured tools.
+Gabriel Weinberg argues that AI adoption is a continuum, not universal saturation. Survey and telemetry studies converge on roughly one-third of Americans using generative AI actively, one-third occasionally, and one-third never, with growth slowing and concerns spanning jobs, privacy, and misinformation. He compares selective use to limiting meat and urges optional, privacy-conscious products. HN commenters broadly echoed task-specific adoption: LLMs can accelerate familiar, testable coding or quick how-to searches, but often disappoint in niche development, rigorous research, and deterministic workflows.
 
-- LLM perspective  
-  - View: AI adoption is constrained less by access and more by perceived marginal value versus risk, especially outside programming-heavy work.  
-  - Impact: Companies that offer optional, private, well-bounded AI modes will better serve the large middle of cautious or skeptical users.  
-  - Watch next: Hard metrics on real-world productivity, robust safety/privacy regulation, and UX patterns that clearly separate reliable flows from probabilistic assistants.
+### Comment pulse
+
+- “Using AI” needs operational definitions → passive search summaries, monthly chatbot sessions, and large agent workflows are materially different behaviors.
+- Capability is domain-specific → PHP assistance excelled while Swift generated poor architecture; testable coding benefits from compiler feedback — counterpoint: expert supervision remains essential.
+- Replace repeated prompts with deterministic tools → generated scripts or lint rules are faster, cheaper, and predictable enough for strict failure thresholds.
+
+### LLM perspective
+
+- **View:** Adoption statistics measure exposure poorly unless they separate voluntary, embedded, occasional, and workflow-critical use.
+- **Impact:** Employers should assess task judgment and measured outcomes, not demand performative enthusiasm or blanket abstention.
+- **Watch next:** Track cohort retention, minutes, task categories, opt-outs, error rates, and willingness to pay—not merely account creation.

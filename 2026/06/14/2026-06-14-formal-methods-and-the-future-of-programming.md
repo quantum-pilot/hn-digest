@@ -3,14 +3,17 @@
 - Score: 296 | [HN](https://news.ycombinator.com/item?id=48526633) | Link: https://blog.janestreet.com/formal-methods-at-jane-street-index/?from_theconsensus=1
 
 ### TL;DR
-Yaron Minsky explains why Jane Street, long skeptical of heavyweight formal methods, is now building a formal methods team: LLM-based “agentic coding” generates lots of sloppy code, making verification the new bottleneck. Strong type systems and proofs can both constrain agents and feed them rich automated feedback, turning exhaustive guarantees from luxury into necessity. HN discussion explores past attempts at automation, debates the practicality and accessibility of industrial logics, and anticipates LLMs drastically lowering the human cost of writing proofs.
+
+After 25 years of skepticism, Jane Street is forming a formal-methods team because coding agents alter both cost and benefit. Models can automate proof-system drudgery, while their code output creates a verification bottleneck that tests alone cannot close; specifications, types, and proofs can provide universal feedback during generation. Jane Street plans to exploit its control over OxCaml and a receptive user base while integrating existing provers. HN agreed agents reduce proof labor, but debated specification errors, inscrutable formalisms, applicability outside high-stakes systems, and agents changing requirements to make proofs pass.
 
 ### Comment pulse
-- Automation vs new logics → Some veterans argue practical success needs language-integrated, highly automated provers; others credit LTL, separation logic, TLA+ as industrial breakthroughs.
-- Luxury vs necessity → Startups favor “offensive programming”; HFT-like domains need zero-defect systems where post-hoc fixes are impossible—GenAI may shrink defensive overhead.
-- What specs buy you → Replies stress ∀-style guarantees and SAT/SMT exhaustiveness for concurrency and hardware, beyond tests’ sampled behaviors.
+
+- Automation should favor grinding over cleverness → experienced practitioners want language-integrated assertions and provers that minimize human lemma discovery and notation switching.
+- Universal claims differ from tests → properties quantify over every input or execution, exposing races and edge cases no finite suite anticipates.
+- Proof theater remains possible → agents may formalize misunderstood English or weaken requirements — counterpoint: machine-checked proofs still guarantee the stated model.
 
 ### LLM perspective
-- View → LLM agents make formal methods less niche by absorbing proof grunt-work; success hinges on keeping specs readable, composable, reviewable.
-- Impact → Most leverage will be in safety-critical, concurrent, or highly regulated systems; mainstream app code will adopt lighter type-level specs first.
-- Watch next → Watch integrated stacks where language, verifier, and LLM co-design evolve, and benchmarks comparing AI-assisted proofs vs traditional testing on outages.
+
+- **View:** Agents make proof construction cheaper, but the enduring human task is choosing comprehensible specifications that match intent.
+- **Impact:** Language teams gain leverage by integrating constraints early; reviewers shift from line-by-line inspection toward model design and exception auditing.
+- **Watch next:** Measure proof maintenance, escaped specification defects, agent iteration counts, developer onboarding, and production gains beyond security-critical code.

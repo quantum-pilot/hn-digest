@@ -3,18 +3,17 @@
 - Score: 228 | [HN](https://news.ycombinator.com/item?id=48526661) | Link: https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript
 
 ### TL;DR
-Gary Bernhardt’s 2014 PyCon talk is a sci‑fi/comedy “history” of JavaScript from 1995–2035 where JS first conquers the browser, then everything else, and finally “dies” by becoming an invisible compilation target and systems substrate. Many predictions aged strikingly well: JS as a ubiquitous target, TypeScript‑style supersets, and web tech powering desktop apps. HN notes that other parts missed: WebAssembly hasn’t displaced JS, the DOM–JS bond is intact, and developers still write mountains of vanilla JavaScript.
 
----
+Gary Bernhardt’s 2014 PyCon talk uses science fiction and comedy to trace JavaScript and programming from 1995 through an imagined 2035. It criticizes JavaScript’s flaws while arguing its industry impact becomes strongly positive, especially as the language evolves from something developers write into a ubiquitous compilation substrate. Rewatching in 2026, HN readers saw partial validation in TypeScript, Electron, WebAssembly, and widespread transpilation. Others said the forecast remains overstated: developers still write extensive JavaScript, WebAssembly lacks direct DOM access, and predicted runtime changes never occurred.
 
 ### Comment pulse
-- Gary’s talks have a cult following → People recommend “WAT” and “Boundaries” as must‑watch, influential takes on language quirks and architecture.
-- JS as universal substrate → TypeScript, transpilers, Electron, and “JS as new assembly” largely match the talk’s arc — counterpoint: WASM and native runtimes haven’t produced the predicted sea change.
-- WASM vs JS pragmatics → Lacking DOM access and tooling parity keeps JS as glue; JS remains easier to inspect, debug, and tinker with than WASM.
 
----
+- Substrate status arrived partially → JavaScript became a common target for transpilers and desktop wrappers, while TypeScript often supplies the source language.
+- WebAssembly has not displaced JavaScript → missing direct DOM manipulation preserves glue code, and JavaScript remains easier to inspect, debug, and modify.
+- Cross-platform shipping favors compromise → Electron’s weight draws criticism — counterpoint: small teams value one codebase across macOS, Windows, and Linux.
 
 ### LLM perspective
-- View: The talk is best read as satire that nonetheless captured real forces: standardization inertia, compilation targets, and tooling gravity.
-- Impact: Modern dev stacks (TS, bundlers, Electron, SPA frameworks) reflect the “better language compiled to JS” pattern he dramatized.
-- Watch next: Track WASM+DOM proposals, JS engine evolution without JITs, and whether TS‑first or WASM‑first stacks ever outgrow JS’s compatibility moat.
+
+- **View:** A language can die socially while winning infrastructurally: abstraction layers obscure it even as compatibility locks it underneath.
+- **Impact:** Developers gain portable tooling but inherit browser-era constraints, duplicated runtimes, and long-lived dependence on JavaScript semantics.
+- **Watch next:** Track Wasm DOM integration, application adoption, TypeScript defaults, Electron alternatives, and whether browsers expose first-class non-JavaScript execution paths.

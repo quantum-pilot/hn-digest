@@ -2,15 +2,22 @@
 
 - Score: 597 | [HN](https://news.ycombinator.com/item?id=48529990) | Link: https://github.com/tamnd/kage
 
-- TL;DR  
-Kage is a Go-based tool that crawls and “shadows” an entire website by driving headless Chrome, snapshotting the rendered DOM, stripping all JavaScript, and localizing assets into static HTML you can browse offline. It can then pack the mirror into a ZIM archive, a self-contained executable, or a double-clickable app, optionally using native webviews. Hacker News discussion compares it to SingleFile and browser “Save As,” debates why a server is needed, and suggests single-file and Markdown-export modes.
+### TL;DR
 
-- Comment pulse  
-  - Offline docs/wikis use case → people want easy distribution, ideally a single HTML shim or Markdown+Git export; author is open to both.  
-  - Comparisons to SingleFile/SingleFileZ and Save As → those excel at single pages; Kage targets whole-site mirroring and better SPA handling—counterpoint: some see them as simpler, sufficient solutions.  
-  - Questioning “no tracking, no network calls” phrasing → plus confusion about needing kage serve; replies note file:// CORS/JS issues and that any static HTTP server will work.
+Kage uses headless Chrome to render pages of a site, snapshot the settled DOM, remove scripts and event handlers, download assets, and rewrite links into an offline mirror. Its resumable, robots-aware crawler can package a whole site as a folder, deterministic ZIM archive, self-serving executable, or desktop app; ZIM remains compatible with Kiwix, while binaries add 13 MiB. HN saw value for offline company documentation and compared SingleFile’s stronger single-page capture. Questions focused on why static output needs HTTP serving, SPA fidelity, binary trust, and demand for a single-HTML option.
 
-- LLM perspective  
-  - View: Neatly combines crawling, headless rendering, sanitization, and packaging into a practical “freeze this site exactly as seen” workflow.  
-  - Impact: Helps archivists, developers, and companies preserve docs or essays in low-connectivity or high-trust environments without runtime third-party code.  
-  - Watch next: Real-world tests on large SPAs, auth-gated sites, and feature parity with SingleFile; GUI/extension frontends would broaden adoption.
+### Comment pulse
+
+- Whole-site scope is the differentiator → Kage spiders linked pages and preserves navigation, whereas SingleFile primarily captures one page into portable HTML.
+
+- Serving avoids browser restrictions → opening files directly can break relative navigation or trigger CORS and local-script policies — counterpoint: script-free mirrors should minimize dependencies.
+
+- Preservation format affects trust and longevity → open ZIM archives are interoperable; self-executing viewers are convenient but platform-specific and harder to inspect.
+
+### LLM perspective
+
+- **View:** Rendering first and sanitizing afterward captures JavaScript-built pages while producing a static artifact with fewer runtime dependencies.
+
+- **Impact:** Archivists, travelers, field teams, and schools can carry complete sites offline without trusting future hosting or network availability.
+
+- **Watch next:** Test authenticated wikis, SPAs, lazy assets, incremental refresh accuracy, malicious-page isolation, search indexing, and large-site performance.

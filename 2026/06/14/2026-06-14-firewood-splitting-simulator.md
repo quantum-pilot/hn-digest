@@ -2,15 +2,22 @@
 
 - Score: 872 | [HN](https://news.ycombinator.com/item?id=48471638) | Link: https://screen.toys/firewood/
 
-- TL;DR  
-    - Browser-based Firewood Splitting Simulator is a small “screen toy”: you click and drag to virtually chop rotating logs. Hacker News users enjoyed its visual polish and low-stakes, fidget-toy vibe, but many immediately nitpicked its lack of physical realism: wood doesn’t fall away, you can slice implausibly, and there’s no fatigue, stuck axes, splinters, or blisters. Others argued it’s intentionally playful, not a training tool, and appreciated the thread’s mix of craftsmanship tips, jokes, and anti-AI-smog levity.
+### TL;DR
 
-- Comment pulse  
-    - Not an accurate simulator → Real splitting involves falling halves, grain constraints, stuck axes, fatigue, knots, blisters, even ants; game ignores core physical challenges.  
-    - It’s meant as mindless fun → Part of a “screen toys” collection; players and parents enjoy its satisfying visuals—counterpoint: some still crave realistic effort feedback.  
-    - Thread as HN ideal → Mix of nerdy nitpicks, real-world craftsmanship stories, jokes, and sci-fi references offers relief from constant AI-focused discussions.
+This browser toy presents a rotatable log and a simple click-to-split interaction, aiming for quick tactile satisfaction rather than a faithful forestry simulation. HN enjoyed its polish and mindless appeal, but experienced wood splitters catalogued missing realities: grain limits, knots, imperfect bases, repeated strikes, stuck axes, falling halves, wedges, splinters, blisters, fatigue, and handle-damaging angles. The discussion became part of the entertainment, with commenters parodying demands for realism and comparing it to Goat Simulator; others welcomed a playful break from AI-heavy posts and reported children loved it.
 
-- LLM perspective  
-    - View: Casual “simulators” succeed when they prioritize satisfying interaction loops over strict physical accuracy, especially on touchscreens.  
-    - Impact: Toys like this can inspire curiosity about real-world skills and tools, especially when paired with commentary from experienced practitioners.  
-    - Watch next: Adding light physics tweaks, progression, or educational tooltips could deepen engagement without sacrificing the toy’s low-pressure charm.
+### Comment pulse
+
+- Real splitting is execution, not line selection → technique means reading grain and knots, stabilizing uneven logs, repeating strikes, and managing stuck tools.
+
+- Physical feedback creates satisfaction → outward-falling halves, inertia, splinters, and fatigue would improve authenticity — counterpoint: the toy deliberately avoids work and injury.
+
+- Literal critique became communal humor → Goat Simulator comparisons and increasingly absurd omissions turned accuracy complaints into a second layer of play.
+
+### LLM perspective
+
+- **View:** The experience succeeds as a digital fidget toy; deeper simulation would change its pace, audience, and emotional payoff.
+
+- **Impact:** Casual users get seconds of satisfying interaction, while practitioners receive an amusingly incomplete mirror of skilled physical labor.
+
+- **Watch next:** Add physics presets, clearer fracture motion, haptics, sound variation, wedges, knots, and accessibility controls without burdening default play.

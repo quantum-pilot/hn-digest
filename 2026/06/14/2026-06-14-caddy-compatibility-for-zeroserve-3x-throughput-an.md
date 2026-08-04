@@ -3,14 +3,17 @@
 - Score: 201 | [HN](https://news.ycombinator.com/item?id=48527145) | Link: https://su3.io/posts/zeroserve-caddy-compat
 
 ### TL;DR
-Zeroserve is a high‑performance HTTPS reverse proxy that runs eBPF programs in userspace and now accepts Caddy’s Caddyfile. It JIT‑compiles configs to eBPF and then native x86_64/ARM64 code, running on an io_uring event loop. In benchmarks it delivers ~3× Caddy’s throughput, ~70% lower median latency, and performance comparable to nginx while using less memory than Caddy. HN likes the speed but criticizes missing ACME and plugins, questions userspace eBPF’s value, and notes a sketchy client‑cert prompt on the demo site.
+
+ZeroServe 0.2.11 can now ingest a Caddyfile, compile its configuration into eBPF and then native x86-64 or ARM64 code, and execute it inside an io_uring event loop. In a two-thread HTTPS reverse-proxy benchmark, the Clang build reached 38,948 requests per second with 1.45ms median latency and 30.9MiB RSS, versus Caddy’s 12,529, 4.74ms, and 67.4MiB; nginx nearly matched ZeroServe. Custom middleware can be called from configuration. HN questioned the label because ACME and Caddy plugins are absent, and challenged the userspace-eBPF rationale.
 
 ### Comment pulse
-- Zeroserve's “Caddy compatible” omits ACME and plugin ecosystem → many prefer nginx's features and maturity — counterpoint: smaller, cleaner codebase may be easier to audit.  
-- Site requests client TLS certificates → browsers prompt to use personal smart‑card/government certs, which feels suspicious and inappropriate for a public marketing page.  
-- Original zeroserve pitch emphasized “no separate config files” → adding Caddyfile support raises questions about product direction and what differentiates it beyond performance.  
+
+- Compatibility is narrower than expected → ACME and Caddy plugins are absent — counterpoint: supporters see a cleaner codebase that may be easier to audit.
+- Performance comparison favors nginx too → nginx delivered 37,424 requests per second with lower memory, offering maturity without a new runtime.
+- Article hosting raised concern → several browsers received an unexpected client-certificate prompt; one visitor saw a government-use certificate offered for selection.
 
 ### LLM perspective
-- View: Userspace eBPF plus JITed Caddyfiles shows an emerging pattern: treat configs as code, optimized aggressively at runtime.  
-- Impact: If stability and features catch up, such servers could displace traditional proxies in high‑throughput internal APIs and edge gateways.  
-- Watch next: Track ACME integration, production incident reports, and real‑world benchmarks under complex configs, not just synthetic reverse‑proxy microbenchmarks.
+
+- **View:** The benchmark demonstrates an efficient compiled data path, but configuration syntax compatibility is not operational compatibility.
+- **Impact:** Latency-sensitive reverse proxies gain another option; teams needing automated certificates or established extensions still face integration work.
+- **Watch next:** Test ACME integration, Caddyfile coverage, plugin boundaries, TLS behavior, failure handling, and workloads beyond a two-thread synthetic proxy.

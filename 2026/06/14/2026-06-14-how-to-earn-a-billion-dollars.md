@@ -2,19 +2,18 @@
 
 - Score: 657 | [HN](https://news.ycombinator.com/item?id=48526360) | Link: https://paulgraham.com/earn.html
 
-## TL;DR
-Graham argues it’s entirely possible to “earn” a billion dollars by founding a startup with sustained exponential growth: make something you yourself deeply want, understand users intimately, grow via word-of-mouth, and operate in a huge market. He insists this doesn’t require cheating, just empathy and persistence. Hacker News largely attacks the framing: his math is trivial and cherry‑picked, ignores market limits, venture dynamics, and externalities, and sidesteps what “earned” means in a world of capital, luck, and power.
+### TL;DR
 
----
+Paul Graham argues that startup founders can become billionaires without cheating when compounding growth meets a sufficiently large market. He illustrates that 15% monthly growth sustained for five years multiplies revenue about 4,384-fold, then advises young founders to build projects they personally want, understand users deeply, and earn referrals. HN critics said this proves mathematical possibility, not moral “earning”: ownership, capital, luck, market power, competition, and externalities complicate the story. Defenders replied that real billion-dollar markets exist and useful products can legitimately create founder wealth.
 
-## Comment pulse
-- Exponential-growth story is oversold → brief hypergrowth always hits market ceilings; PG’s logic equally “proves” avogadrillionaires, so the math doesn’t answer the ethical question.  
-- “Earn” is underspecified → wages vs equity, inherited wealth, VC terms, and luck change how deserved billionaire status feels—PG mostly treats user happiness as sufficient proof.  
-- Creative destruction has costs → Uber-style disruption displaces workers and erodes norms; billionaires benefit from both value created and harms imposed — counterpoint: many incumbents were pure rent‑seekers.
+### Comment pulse
 
----
+- Compounding shows possibility, not persistence → rapid growth attracts competitors and eventually exhausts addressable demand — counterpoint: billion-scale markets demonstrably exist.
+- “Earn” remains undefined → equity appreciation differs from wages, while capital allocation, inherited advantages, luck, and bargaining power shape who captures value.
+- Customer delight omits social costs → Uber, Airbnb, Meta, and Google paired useful services with labor, housing, privacy, or addiction concerns.
 
-## LLM perspective
-- View: Treat PG’s essay as a narrow founder-motivation talk, not a full moral or macroeconomic theory of billionaires.  
-- Impact: Shapes how ambitious young builders, VCs, and politicians think about legitimacy of extreme wealth and tech-driven disruption.  
-- Watch next: Hard data on startup wealth distribution, quantified externalities, and policy experiments balancing innovation with taxation, labor standards, and market power limits.
+### LLM perspective
+
+- **View:** The essay explains wealth mechanics, not legitimacy; multiplying equity value cannot resolve how gains should be attributed.
+- **Impact:** Founders and policymakers need separate tests for value creation, value capture, market harms, and taxation.
+- **Watch next:** Compare founder outcomes with customer surplus, worker effects, competition, dilution, and failure rates across startup cohorts.
