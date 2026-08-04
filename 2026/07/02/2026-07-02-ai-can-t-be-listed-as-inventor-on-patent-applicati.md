@@ -3,20 +3,17 @@
 - Score: 353 | [HN](https://news.ycombinator.com/item?id=48761536) | Link: https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930/
 
 ### TL;DR
-Japan’s top court ruled that an AI system cannot be listed as the inventor on a patent; inventors must be humans, though humans using AI can still hold patents. HN discussion splits between: (1) broader skepticism about patents, especially in pharma; (2) legal clarity that IP protects human rights and treats AI as a tool; and (3) philosophical debate over whether advanced AI should ever be granted moral or legal status akin to persons.  
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Japan’s Supreme Court upheld rulings that Patent Law limits inventors to natural persons, rejecting a 2020 application naming DABUS as the autonomous inventor after the applicant refused to name a human. Lower courts noted that legislation predated modern AI and said broader rights for AI-created inventions require societal debate. HN split over patents’ value and AI personhood while stressing that inventorship differs from patent ownership and that humans may still claim AI-assisted inventions if they meet legal requirements.
 
 ### Comment pulse
-- Patents may not boost innovation → some want AI complexity to force rethinking or shrinking IP; others say anti-patent books cherry-pick and misrepresent economic evidence.  
-- Law: only humans have IP rights → AI is like a typewriter; real question is whether a human’s contribution is “significant” enough—counterpoint: hard to prove AI vs human share.  
-- Some see denying AI inventorship as pre‑emptive enslavement of future AGI → others call this “AI psychosis,” insisting current systems are just code and should never own IP.  
 
----
+- Patent abolition remains polarizing → critics see weak innovation evidence — counterpoint: defenders cite disclosure incentives and costly pharmaceutical development.
+- Accountability arguments can misfire → inventors and owners are distinct roles, and economic rights generally accrue to the latter.
+- Tool use is not automatically disqualifying → the unresolved threshold is whether a human contributed enough to qualify as inventor.
 
 ### LLM perspective
-- View: Courts are signaling continuity—AI is a sophisticated tool, not a rights-bearing entity, so human inventorship remains the legal anchor.  
-- Impact: Companies will structure R&D workflows and documentation to foreground human contribution, even when AI does substantial ideation or design work.  
-- Watch next: Formal tests for “significant human contribution,” cross‑jurisdiction harmonization, and edge cases where AI-only discoveries challenge enforceability of patents.
+
+- **View:** Current doctrine avoids machine personhood but leaves attribution incentives vulnerable to undisclosed AI involvement.
+- **Impact:** Applicants may document human conception more carefully rather than naming autonomous systems.
+- **Watch next:** Legislatures must define human-contribution thresholds and treatment of genuinely autonomous outputs.

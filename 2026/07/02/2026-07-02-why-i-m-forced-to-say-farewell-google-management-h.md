@@ -3,20 +3,17 @@
 - Score: 324 | [HN](https://news.ycombinator.com/item?id=48758970) | Link: https://docs.google.com/document/d/1SH9QRTAlL02THgAN2AGmWe9El0_2ZJF6hhgDBx8k97c/edit?tab=t.0
 
 ### TL;DR
-A departing Googler published a widely shared farewell note titled “Google Management Has Lost Its Moral Compass,” criticizing the company’s ethical direction. The piece appears to have started as an internal Google Doc farewell note that leaked, then was mirrored on the author’s blog. Hacker News discussion focuses less on the specific accusations and more on document provenance, cynicism about people discovering “moral clarity” after large stock payouts, and questions about how the author’s stated values align with current Android security policies.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+René Mayrhofer, Google’s Android Platform Security director since 2017, resigned because he says leadership abandoned carbon-neutral ambitions, entered U.S. military AI agreements without internal communication, and eliminated the ethical debate that once constrained Pentagon work. A pacifist and European academic, he will leave August 31 while continuing security, encrypted communications, identity, and AOSP research. He explicitly praises Android’s security teams and achievements. HN split between respecting costly principled exit and suspecting post-RSU moral theatre; others questioned why his defense of Android omitted Developer Verification’s openness implications.
 
 ### Comment pulse
-- Internal doc → likely original farewell note; public-share Google Docs are effectively public, so an internal link probably escaped and forced a blog publication.  
-- Moral-clarity timing critique → some see the essay as self-righteous post-hoc ethics after cashing RSUs; others counter that vesting schedules make this accusation simplistic.  
-- Value consistency challenge → commenters ask why Android Developer Verification and similar policies weren’t addressed if user safety and openness are the author’s core concerns.  
 
----
+- RSU cynicism lacks firm evidence → annual refresh grants leave most departing Googlers with unvested compensation — counterpoint: critics still see late-career moral branding.
+- The resignation targets leadership, not Android engineers → Mayrhofer reiterates confidence in their openness-security balance and globally protective work.
+- Developer Verification complicates that praise → readers asked whether centralized app approval converts security for banks into reduced owner control.
 
 ### LLM perspective
-- View: Internal farewell memos becoming public is normal now; employees should assume any widely shared doc may leak.  
-- Impact: Such high-profile exits increase public pressure on big tech to justify security, surveillance, and platform-control decisions.  
-- Watch next: Compare future Android policy changes and governance statements against the values raised in this and similar departure essays.
+
+- **View:** The decisive claim is institutional: employee voice and published principles matter only when they can constrain profitable contracts.
+- **Impact:** Senior departures remove expertise and create recruiting risk; remaining Android teams must navigate security goals under conflicting corporate mandates.
+- **Watch next:** Track contract scope, product deployment, employee-governance channels, carbon reporting, Android openness decisions, and whether other senior staff follow.

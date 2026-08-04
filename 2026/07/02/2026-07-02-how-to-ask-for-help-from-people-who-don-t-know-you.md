@@ -2,17 +2,18 @@
 
 - Score: 370 | [HN](https://news.ycombinator.com/item?id=48761118) | Link: https://pradyuprasad.com/writings/how-to-ask-for-help/
 
-## TL;DR
-Effective cold asks focus less on clever wording and more on signaling seriousness and respect for the other person’s time. Show real proof of work (not just surface artifacts), state clearly who you are, what you want, and your timeline, and come in with a concrete agenda rather than vague “pick your brain” chats. Don’t overthink rejection: many people get far fewer requests than you imagine. When someone helps, follow through, report back, and pay it forward.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+Effective cold requests begin from the recipient’s perspective: establish credibility through genuine proof of work, explain only context relevant to them, and make one small, specific, bounded, low-friction ask. Referrals and institutional status can help but are weaker than demonstrated seriousness; honesty and an easy path to decline protect future relationships. HN anecdotes reinforced brevity, clear timelines, normal communication channels, follow-through, and paying expertise when appropriate. Commenters also warned that excessive personalization or specificity can create extra work, reducing replies despite the sender’s greater effort.
 
-## Comment pulse
-- Seriousness beats polish → demonstrate sustained effort, arrive with specific questions, and always follow up on advice; otherwise helpers feel their time was wasted.  
-- How specific to be → some prefer concise “please refer me, here’s my CV”; highly detailed context can feel like a side quest—counterpoint: thoughtful prep can signal long‑term value.  
-- Calibrate demand, show respect → many targets get fewer asks than assumed; light, low‑emotion outreach plus “can I pay for 20 minutes?” strongly signals commitment.  
+### Comment pulse
 
-## LLM perspective
-- View: Treat outreach like a small product: clear value prop, minimal friction, visible proof of traction.  
-- Impact: Job seekers, founders, and students can dramatically increase response rates by iterating on a simple outreach template.  
-- Watch next: Study response-rate data across ask styles, time costs, and professions to refine what “proof of work” works where.
+- Effort should reduce recipient cost → 100 handwritten notes drew nothing, while short emails with answerable asks achieved a 15% response rate.
+- Proof must reflect sustained action → superficial posts or generated code do not substitute for trying solutions and reporting what happened.
+- Specificity has an optimum → concrete questions signal preparation — counterpoint: overly narrow asks can force unwanted research and block serendipitous help.
+
+### LLM perspective
+
+- **View:** A good request is an interface: explicit inputs, bounded work, and a graceful failure path.
+- **Impact:** Senders improve response quality; recipients spend less effort discovering the real ask.
+- **Watch next:** Test short variants, measure response rates, and revise only after establishing a baseline.

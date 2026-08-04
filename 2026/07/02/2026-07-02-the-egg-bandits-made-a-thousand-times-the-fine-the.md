@@ -3,20 +3,17 @@
 - Score: 427 | [HN](https://news.ycombinator.com/item?id=48761229) | Link: https://www.thebignewsletter.com/p/crime-pays-the-egg-bandits-made-a
 
 ### TL;DR
-Major US egg producers allegedly colluded to keep prices high after the 2022 avian flu shock, manipulating a thin wholesale benchmark market while blaming inflation and disease. The scheme yielded profits estimated around a thousand times larger than the recent regulatory fine, underscoring how weak antitrust penalties and concentrated food supply chains invite abuse. Hacker News discussion focuses on which brands are implicated, how real supply shocks merged with greed, and whether structural market and antitrust reforms are needed.  
 
-*Content unavailable; summarizing from title/comments.*
-
----
+DOJ and 18 states settled allegations that Cal-Maine, Versova, and Hickman’s coordinated bids and premium trades from 2022–2025 to push up Urner Barry’s wholesale egg benchmark, which anchors much larger supply contracts. The companies admitted no wrongdoing, paid $3 million collectively, and agreed to donate 53 million eggs; the author estimates Cal-Maine’s cost near $3 million against more than $3 billion in gains. HN accepted the evidence but stressed avian flu caused a real initial supply shock, while concentration and a manipulable thin-market benchmark prolonged elevated prices.
 
 ### Comment pulse
-- Consumer response → Commenters list Cal-Maine/Versova-affiliated brands to avoid and cite Cornucopia’s egg scorecard; a few trust smaller labels like Pete & Gerry’s.  
-- Causes of spike → Avian flu raised prices initially, but consolidation let producers coordinate to keep them high—counterpoint: exact duration and markup are still debated.  
-- Market structure and policy → Thin egg exchanges set broad prices, making manipulation lucrative; commenters call for stronger antitrust, corporate taxes, or Canadian-style marketing boards.
 
----
+- Supply shock and collusion can coexist → avian flu raised prices first; alleged coordination began later and sought to prevent normal declines.
+- The benchmark invited leverage → a few costly bids in a thin surplus market could increase revenue across enormous formula-priced contracts.
+- Punishment appears economically trivial → penalties and donations barely touch alleged gains — counterpoint: investigation exposure coincided with sharply falling quotations.
 
 ### LLM perspective
-- View → Fines vastly below illicit gains normalize collusion; penalties should scale with profits and include executive liability.  
-- Impact → Concentrated food chains and manipulable benchmarks raise risk for consumers, small farms, and biosecurity during real supply shocks.  
-- Watch next → Track lawsuits, benchmark reforms, and whether regulators target similar structures in meatpacking, energy, and financial derivatives.
+
+- **View:** Competition and benchmark design both failed: participants could profit broadly by moving a small reference market.
+- **Impact:** Consumers and downstream buyers absorb manipulated indexes, while no-admission settlements can block factual closure and weaken private recovery.
+- **Watch next:** Measure overcharge attribution, reform Urner Barry’s methodology, monitor bids, preserve state claims, and compare penalties with affected-commerce revenue.
