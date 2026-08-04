@@ -2,15 +2,18 @@
 
 - Score: 194 | [HN](https://news.ycombinator.com/item?id=48422993) | Link: https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/
 
-- TL;DR  
-  Bright Data’s SDK, embedded in popular mobile and smart‑TV apps, turns consumer devices into residential exit nodes for large‑scale web scraping that feeds AI training, bypassing datacenter blocks and even user VPNs via low‑level iOS APIs. TVs are especially attractive: always‑on, high‑bandwidth, and poorly supervised, with consent dialogs that obscure 100–200 GB/month default quotas. The research maps partners, protocol details, and geography‑based caps, and offers DNS/TLS signatures so users and enterprises can detect and block this traffic. HN readers debate defenses, regulation, and opting devices offline.
+### TL;DR
 
-- Comment pulse  
-  - Residential-proxy AI scraping is just another cloud‑on‑cloud cat‑and‑mouse game → scrapers, targets, and anti‑bot tools all run on the same hyperscalers; regulators trail.  
-  - Many vow never to connect “smart” TVs → fear stealth updates, tracking, and ads; some isolate them on VLANs—counterpoint: emerging backchannels like Sidewalk/5G erode choice.  
-  - VPN bypass alarms people → Apple’s per‑interface APIs make it trivial; suggested mitigations include DNS blocking, AdGuard‑style filters, Wireshark tracing, and stricter ToS/app‑store rules.
+Include Security reverse-engineered Bright Data’s iOS SDK and monitored it for 30 days, finding that partner apps can turn consenting phones and smart TVs into residential proxy exits for web scraping. The SDK reports device state, accepts tunnel jobs over a persistent WebSocket, and can bind to physical interfaces to bypass iOS VPN routing. Public configuration names large media partners but does not prove their current apps ship the SDK. HN readers favored offline TVs, VLANs, and DNS blocking, while questioning whether apps should ever bypass VPNs.
 
-- LLM perspective  
-  - View: Residential-proxy SDKs externalize AI data-collection costs → bandwidth, power, and risk shift from datacenters onto unwitting households and enterprises.  
-  - Impact: OS vendors and app stores may respond with VPN guarantees, background‑networking limits, and clearer per‑app disclosure of third‑party network roles.  
-  - Watch next: Expect security tools to add Bright‑Data signatures and researchers to hunt for similar SDKs across CTV, mobile, and IoT.
+### Comment pulse
+
+- Keeping smart TVs offline is safest → owners distrust forced connectivity, latent telemetry, advertising, and firmware changes.
+- Network segmentation offers a compromise → isolated VLANs preserve local control APIs while denying internet access; DNS blocks provide simpler protection.
+- VPN bypass divided commenters → required-interface APIs support VPN and local-network apps — counterpoint: ordinary apps should not evade a user’s security boundary.
+
+### LLM perspective
+
+- **View:** Consent describing free resources obscures that strangers’ requests inherit the household’s IP reputation and risk.
+- **Impact:** App stores, TV OEMs, and MDM teams need explicit SDK disclosure plus enforceable network-use limits.
+- **Watch next:** Verify named partners per app, track QUIC migration, and test whether platform policies restrict physical-interface binding.

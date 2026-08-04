@@ -2,15 +2,18 @@
 
 - Score: 241 | [HN](https://news.ycombinator.com/item?id=48420148) | Link: https://salvagedcircuitry.com/sigma-45mm.html
 
-- TL;DR  
-An electronics‑savvy photographer buys a “dead” Sigma 45mm mirrorless lens, carefully tears it down, and systematically traces power from the mount contacts through the DC‑DC buck stage. The culprit is a tiny 0603 input fuse; replacing it restores full autofocus and aperture control. Along the way he teaches PCB forensics, safe lens disassembly, and deeper debugging paths (MCU, flash, motor driver). HN comments debate what fuses actually protect and how electronic, firmware‑driven lenses are changing photography and repair.
+### TL;DR
 
-- Comment pulse  
-  - Fuses in microelectronics rarely protect semiconductors; they’re sized to prevent fires and dead batteries, not 30‑ns overcurrent spikes — counterpoint: added zeners/resistors can coordinate protection.  
-  - Some hail USB‑C, firmware‑updatable lenses and app control as a big usability gain; others prefer robust manual‑focus or cine glass and body‑driven firmware updates.  
-  - Readers adopt the author’s screw‑on‑tape method; watchmakers suggest Rodico putty, cardboard “maps,” and stress the necessity of true JIS drivers over Phillips.
+A pristine Sigma 45mm f/2.8 produced an image but none of its electronic controls worked. The author documented a teardown, verified the mount’s 10-terminal flex cable, followed power into the control PCB, and found an open 0603 fuse ahead of a TI buck converter. Replacing it with an estimated 2 A, 32 V fast-blow part restored operation in under an hour; the failure cause remains speculative. HN readers praised the diagnostic craft and repair tips while debating fuse behavior and whether modern, software-rich lenses improve photography or add fragility.
 
-- LLM perspective  
-  - View: Modern autofocus lenses are full embedded systems; many “dead” units hide fixable single-component faults, not mysterious failures.  
-  - Impact: Hobbyists and repair shops gain confidence probing DC-DC stages, BGAs, and flex cables, extending gear lifetimes and reducing e-waste.  
-  - Watch next: Manufacturers publishing specs, test pads, and modular lens electronics that make diagnosis and fuse or flex replacement routine.
+### Comment pulse
+
+- Failure theory → The author suspected overcurrent, but commenters argued the converter’s 30 ns delay cannot explain a fuse opening — counterpoint: protection topology matters.
+- Lens design → Firmware, programmable controls, and autofocus expand capability; others highlighted renewed manual-focus photography and cinema’s durable mechanical conventions.
+- Bench practice → Readers endorsed mapping screws on double-sided tape and using true JIS drivers, with Rodico or labeled cardboard as alternatives.
+
+### LLM perspective
+
+- **View:** The repair succeeds because diagnosis follows energy flow before replacing complex assemblies, a broadly reusable electronics strategy.
+- **Impact:** Component-level repair can rescue costly optics, but undocumented ratings force judgment that should be tested against schematics or measurements.
+- **Watch next:** Measure startup and autofocus current, identify the original fuse, and inspect recurrence before accepting the proposed failure mechanism.

@@ -3,18 +3,17 @@
 - Score: 150 | [HN](https://news.ycombinator.com/item?id=48419571) | Link: https://andersmurphy.com/2026/06/05/the-perils-of-uuid-primary-keys-in-sqlite.html
 
 ### TL;DR
-Author benchmarks SQLite with different primary-key strategies. With `WITHOUT ROWID`, using random UUID4 as the primary key turns the clustered index into a random write pattern, causing heavy B-tree rebalancing and making inserts roughly 14–16× slower than the default integer `rowid`. Time-ordered UUID7 restores locality and gets close to rowid performance, still slightly slower from 16‑byte keys. UUID4 with `rowid` is better than UUID4 `WITHOUT ROWID` but worse than UUID7. Discussion focuses on when UUIDs are worth their costs versus bigint keys.
 
----
+In SQLite, ordinary tables cluster rows by a sequential 64-bit `rowid`; `WITHOUT ROWID` instead clusters on the declared primary key. Benchmarking million-row insert batches, an integer key stayed near 0.7 seconds, random 16-byte UUIDv4 keys degraded to 12.6 seconds, and time-ordered UUIDv7 held near 1.26 seconds. Profiling attributed UUIDv4’s 14–16× slowdown to random B-tree insertion, rebalancing, and I/O; retaining `rowid` plus a UUIDv4 index still reached 7.1 seconds. HN favored integers locally and UUIDv7 for cross-device creation, while noting UUIDv4 hides sequence and timestamps.
 
 ### Comment pulse
-- UUIDs overused; prefer bigint except distributed/opaque IDs; beware JS rounding; UUIDs help client‑generated IDs, optimistic UIs, but enlarge indexes and hurt joins.  
-- Post seen as argument for UUIDv7: near-rowid performance yet globally mergeable IDs for multi-device sync; random PKs on clustered indexes stay pathological.  
-- UUIDv7 leaks time; integers leak sequence; UUIDv4 hides both but slows inserts; some argue real culprit is using WITHOUT ROWID with random keys.
 
----
+- Choose IDs from coordination needs → integers suit one local database; UUIDv7 simplifies offline creation, device sync, merges, splits, and deduplication.
+- Every identifier leaks differently → integers reveal counts and neighbors, UUIDv7 reveals time — counterpoint: UUIDv4 sacrifices locality to hide both.
+- SQLite’s alias is exact → `INTEGER PRIMARY KEY`, not `INT PRIMARY KEY`, becomes `rowid` and avoids a separate index.
 
 ### LLM perspective
-- View: Pick primary keys by workload: write-heavy SQLite tables want monotonic, compact keys; hideable IDs can live in secondary columns.  
-- Impact: Mobile apps, embedded tools, and sync engines using SQLite should revisit ORM defaults that blindly choose UUIDv4 as clustered primary key.  
-- Watch next: Need mixed read/write benchmarks, varying row sizes and page sizes, plus guidance on combining rowid with UUIDv7 for external references.
+
+- **View:** The core variable is insertion locality, not UUID branding; key order, width, and index role interact.
+- **Impact:** Sync-heavy apps can retain client-generated IDs without UUIDv4’s worst write costs by choosing ordered identifiers.
+- **Watch next:** Benchmark reads, deletes, joins, database size, row widths, and multi-device merge workloads alongside insert speed.

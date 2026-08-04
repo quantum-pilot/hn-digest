@@ -2,17 +2,18 @@
 
 - Score: 143 | [HN](https://news.ycombinator.com/item?id=48426022) | Link: https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241
 
-- TL;DR  
-Police forces in England and Wales have been told to stop using generative AI (such as Microsoft Copilot) for drafting court statements until proper risk assessments and governance are in place. Concerns include hallucinated facts, cascading errors when AI-written reports feed later AI use, and over-reliance on “just review the output,” which often fails in practice. Commenters debate whether AI can ever be trusted in evidentiary narratives, suggest video-based statements instead, and highlight political hype around AI as a cure for low productivity.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+Police.AI has told forces in England and Wales to pause commercial generative-AI use for court statements, disclosure schedules, and other justice work until systems meet checks appropriate to evidence beyond reasonable doubt. The warning follows West Midlands Police using Copilot material that invented a football match in a dossier. Yet the £115 million program still targets workload savings equivalent to 3,000 officers, including CCTV search and harmful-image classification. HN doubted check-every-output policies, arguing layered AI-derived records, complacent review, and machine-scale volume can contaminate evidence faster than humans can verify it.
 
-- Comment pulse  
-  - “Check everything AI produces” is unworkable → high output volume, subtle errors, and human complacency undermine meaningful review—counterpoint: some argue strict user responsibility norms could partially offset this.  
-  - Eroding trust in police → judges may ask officers under oath if AI helped draft reports, challenging the presumption that police testimony is inherently reliable.  
-  - Rethink workflows → capture prompt verbal/video statements, auto‑transcribe for text, preserving freshness and body language while making AI tampering harder than with pure text.
+### Comment pulse
 
-- LLM perspective  
-  - View: Use AI only for low-stakes boilerplate and admin; keep factual narratives written directly by accountable humans.  
-  - Impact: Legal systems may require explicit disclosure of AI assistance in any document submitted to courts.  
-  - Watch next: National policing guidance, audits of deployed AI tools, and case law on excluding or discounting AI-shaped evidence.
+- Verification chains can become self-referential → later AI documents may validate against earlier AI summaries, preserving invented facts under a convincing surface.
+- Output volume defeats supervision → treating each generation as a low-trust coworker demands vigilance that cannot scale with machine-speed production.
+- Witness wording is evidence → contemporaneous video narration plus separate corrections preserves authorship and body language; automation can handle transcription instead.
+
+### LLM perspective
+
+- **View:** Generated statements exceed clerical assistance when wording affects credibility, inference, or disclosure obligations.
+- **Impact:** Police and prosecutors need provenance logs, named accountability, approved models, reproducible outputs, and independent validation before courtroom use.
+- **Watch next:** Measure false assertions, omissions, reviewer detection, verification-adjusted time savings, downstream propagation, disclosure failures, and challenged convictions.

@@ -2,15 +2,18 @@
 
 - Score: 259 | [HN](https://news.ycombinator.com/item?id=48423762) | Link: https://pokeemerald.com/
 
-- TL;DR  
-Browser-based WebAssembly port of Pokémon Emerald runs the GBA game locally at extremely high frame rates via an 11.6 MiB wasm binary. Players use keyboard controls mapped to Game Boy buttons, with some friction around discovering the mappings. Early testers treat the post as a live playtest, reporting crashes in specific battle menus and odd text-rendering issues. The thread focuses on usability polish, bug reports, and curiosity about how far this approach can go for fully in-browser retro gaming.
+### TL;DR
 
-- Comment pulse  
-  - Control discoverability is weak → on-screen buttons hide that Z/X/Enter/Shift are mapped; users request remappable keys and Start key — counterpoint: emulator veterans expect Z/X.  
-  - Early testers surface correctness bugs → battle menu can crash, some item or reward texts show raw numbers instead of names, requiring further debugging.  
-  - Core features extend beyond a toy demo → saving works reliably, people hope for link-style trading, and compare efforts with other recent WASM game ports and static recompilers.
+pokeemerald-wasm packages the game into an 11.6 MiB WebAssembly build playable in a browser, with on-screen directional and A/B/Start/Select controls, keyboard input, and selectable speed. The page exposes separate display and game FPS counters, but the supplied content does not substantiate the title’s 100,000-FPS figure or explain the porting approach. HN users confirmed that saves persist and welcomed fast-forwarding, while reporting a Pokémon combat-menu crash, item names rendered as numbers, and failed trading attempts. Requests focused on visible key instructions, remapping, and more ergonomic defaults; the author promised fixes.
 
-- LLM perspective  
-  - View: Fan-made WASM ports plus decompilation projects hint at a browser-native retro ecosystem, bypassing traditional emulators and installations.  
-  - Impact: If performance and compatibility improve, classrooms, tournaments, and casual play could shift to self-contained URLs instead of ROM managers.  
-  - Watch next: Benchmarking networked features like trading or multiplayer in WASM ports will show whether browser-based retro gaming can support social mechanics.
+### Comment pulse
+
+- Core persistence works → users verified saving, making the browser build usable beyond a demonstration.
+- Input needs discoverability → Z/X mappings were guesswork for newcomers, and fixed Enter/arrow layouts motivated remapping requests.
+- Compatibility remains incomplete → selecting Pokémon during battle can crash, some item names become numbers, and trading attempts failed.
+
+### LLM perspective
+
+- **View:** The practical milestone is stateful browser play; an unexplained headline FPS number contributes little.
+- **Impact:** A compact browser build lowers launch friction for players and creates an accessible target for porting experiments.
+- **Watch next:** Publish build methodology, benchmark definitions, source availability, save-storage behavior, compatibility tests, and networking plans.

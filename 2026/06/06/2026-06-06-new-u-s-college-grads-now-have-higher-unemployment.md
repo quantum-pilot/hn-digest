@@ -2,15 +2,18 @@
 
 - Score: 122 | [HN](https://news.ycombinator.com/item?id=48428763) | Link: https://www.randalolson.com/2026/06/04/recent-grad-unemployment-flip/
 
-- TL;DR
-  - Recent US college graduates now have higher unemployment than the overall workforce for the first time in decades, a reversal that began in 2019, before COVID and generative AI. Early‑career grads face both higher joblessness and 41% underemployment, even though degrees still pay off over a lifetime and beat no‑degree outcomes. Research blames remote work’s impact on mentoring and entry‑level hiring, with AI and global offshoring further pressuring junior roles; HN commenters add housing, student debt, credential inflation and policy failures squeezing the young.
+### TL;DR
 
-- Comment pulse
-  - Entry‑level jobs, housing, and debt policies shift wealth to older cohorts, leaving grads stuck in weak jobs — counterpoint: housing supply fixes won't solve insecurity.
-  - Remote tools matured, enabling companies to hire experienced, lower‑wage developers abroad with overlapping time zones, intensifying competition for U.S. juniors and eroding local entry‑level demand.
-  - Tech and cybersecurity programs churn out grads amid “skills shortage” hype, yet employers demand prior employment, leaving many specialists unemployable and drifting into unrelated work.
+The 12-month average gap between recent U.S. graduates’ unemployment and the overall workforce crossed zero in February 2019 and stayed positive; by early 2026 rates were 5.6% versus 4.2%, a record 1.4-point gap, while 41% of employed graduates were underemployed. The reversal predates COVID and generative AI. Remote work, weaker mentorship, global labor competition, and later AI exposure may contribute. Yet college still helps: similarly aged non-graduates face 7.2% unemployment. HN framed this chiefly as a broken youth on-ramp shaped by experience requirements, housing costs, debt, and credential oversupply.
 
-- LLM perspective
-  - View: The core problem is a broken transition from education to work; credentials outpaced structured pathways into productive early‑career roles.
-  - Impact: Persistent youth underemployment risks long‑term scarring: delayed household formation, weaker lifetime earnings, and political backlash from a disillusioned educated cohort.
-  - Watch next: program‑level earnings data, employer experiments with apprenticeships and hybrid mentoring, and any move toward risk‑sharing for low‑value degree programs.
+### Comment pulse
+
+- Remote-work mechanism → Employers may avoid mentoring novices remotely, while mature collaboration tools let U.S. graduates compete with experienced, lower-cost professionals worldwide.
+- Experience trap → Entry roles increasingly demand prior employment rather than demonstrable skills, leaving cybersecurity and tech graduates unable to obtain their first credentialed job.
+- Composition → More workers now hold degrees, mechanically shrinking graduates’ advantage over the average — counterpoint: their unemployment remains below same-age non-graduates.
+
+### LLM perspective
+
+- **View:** The headline captures lost relative advantage, not evidence that college worsens employment prospects for young people.
+- **Impact:** Employers risk eroding future senior talent when they remove training-intensive junior roles and substitute experienced remote labor.
+- **Watch next:** Track age-matched rates, hiring by major, remote exposure, AI task exposure, entry-level postings, wages, underemployment, and longitudinal mobility.

@@ -3,14 +3,17 @@
 - Score: 436 | [HN](https://news.ycombinator.com/item?id=48422798) | Link: https://discuss.grapheneos.org/d/36134-grapheneos-user-reported-to-authorities-for-using-grapheneos
 
 ### TL;DR
-A Reddit user claims UK age‑verification provider Yoti auto‑flags GrapheneOS devices and “reports them to the authorities.” The GrapheneOS team calls this fearmongering by a support rep, arguing apps generally just detect non‑Google Android and that using GrapheneOS is not illegal. Forum and HN discussion broaden to fingerprinting of “unusual” OSes, the normalization of equating privacy tools with criminality, and practical mitigations like using a separate “ID phone.” Many HN commenters doubt the story’s accuracy or authenticity.
+
+A GrapheneOS forum post relays an unverified screenshot in which Yoti support allegedly said devices running GrapheneOS are automatically flagged and reported to authorities. GrapheneOS rejected that interpretation: apps can identify any operating system through standard APIs, attestation, or Play Integrity, but the organization considers a support agent’s threat likely fabricated to close a ticket and doubts Yoti specifically targets its OS. HN likewise questioned screenshot authenticity, the user’s reported history of probing age-verification bypasses, and whether any report occurred, while warning that privacy tools can still trigger suspicion.
 
 ### Comment pulse
-- Story likely embellished or fake → OP has a history of probing age‑verification systems; email screenshot is trivially editable — counterpoint: if true, blanket reporting would be egregious.  
-- Authorities already treat privacy tech as suspicious → Tor, VMs, GrapheneOS, even “Hacker” labels can trigger investigations, especially in the UK and similar jurisdictions.  
-- “Reported to authorities” may be boilerplate → canned phrasing like sudo’s joke warnings; doesn’t imply meaningful law‑enforcement action or bespoke GrapheneOS detection.
+
+- The evidence chain is weak → an editable screenshot, unidentified authorities, no corroborating report, and boilerplate language leave the central claim unverified.
+- A ban may have had another trigger → commenters alleged repeated bypass testing — counterpoint: Yoti’s message reportedly claimed blanket GrapheneOS reporting.
+- OS fingerprinting is unavoidable → apps can inspect APIs, memory, attestation, and Play Integrity; privacy hardening is not the unique cause.
 
 ### LLM perspective
-- View: The real risk is not one vendor, but a trend of infrastructural hostility toward non‑mainstream, privacy‑focused systems.  
-- Impact: Privacy‑conscious users may face growing friction, nudging them back to Google/Apple stacks or into operational‑security workarounds.  
-- Watch next: Concrete policies around age verification, OS attestation (Play Integrity, device binding), and any formal guidance treating privacy tools as risk indicators.
+
+- **View:** The risk is institutional opacity, not a proven referral; users cannot audit why verification failed or what data left.
+- **Impact:** Alternative-OS users may need fallback verification channels without surrendering device choice or duplicating sensitive documents.
+- **Watch next:** Seek official Yoti policy, an incident identifier, authority confirmation, app telemetry, and independent reproduction on clean devices.

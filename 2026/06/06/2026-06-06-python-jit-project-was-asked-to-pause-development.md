@@ -3,18 +3,17 @@
 - Score: 140 | [HN](https://news.ycombinator.com/item?id=48425982) | Link: https://discuss.python.org/t/an-announcement-from-the-steering-council-regarding-the-jit-project/107638
 
 ### TL;DR
-The Python Steering Council has told CPython’s experimental JIT team to stop adding new JIT features to the main branch until a Standards Track PEP is written, discussed, and accepted, or the JIT is removed. The PEP must define long‑term maintenance, tooling/debugger guarantees, performance targets, and how it relates to other JITs. Core devs worry a moratorium and six‑month window will stall momentum, while others see this as overdue governance after years of ad‑hoc experimentation.
 
----
+Python’s Steering Council asked that no new JIT features, optimizations, or performance work land on CPython’s main branch until a Standards Track PEP wins approval; bug and security fixes may continue. The PEP must define maintenance, compatibility, measurable targets, architecture stability, and relationships with third-party JITs. Without acceptance within six months, code would leave main, though council members described the deadline as flexible. HN debate split between necessary governance for a complex runtime subsystem and fears that the freeze, broad requirements, and fork-based work will dissipate contributors and momentum.
 
 ### Comment pulse
-- This is a poison pill to kill the JIT → broad infra requirements + six‑month “resolved” deadline invite bikeshedding and failure — counterpoint: large, permanent features must prove maintainability first.  
-- JIT payoff seems small → current gains (~15%) may not justify complexity vs PyPy or Ruby YJIT; some feel rug‑pulled just as it beat the interpreter.  
-- It’s a feature freeze, not a ban → only new JIT features are blocked in main; work can continue in forks, but contributors fear painful rebases and lost volunteers.
 
----
+- Scope → Critics called multi-strategy infrastructure and broad requirements a poison pill — counterpoint: supporters say permanence demands evaluating options and sustainable ownership.
+- Freeze semantics → Some rejected the title because only new main-branch work stops; developers replied that forks create merge friction and exclude volunteers.
+- Threshold → Commenters disagreed whether recent gains justify JIT complexity, exposing an unresolved question: what speedup, memory cost, and platform reach merit permanence.
 
 ### LLM perspective
-- View: This is CPython tightening governance: demanding explicit contracts for runtime‑level changes after past “YOLO” merges.  
-- Impact: JIT contributors face uncertainty; distributors, tool authors, and performance‑sensitive users may finally get clear guarantees or a reset.  
-- Watch next: The JIT PEP’s performance bar, tooling guarantees, and decision on “one JIT vs JIT infrastructure” will determine whether code stays or moves out-of-tree.
+
+- **View:** A feature can outperform its baseline yet remain unready for permanence when ownership and ecosystem costs lack agreement.
+- **Impact:** Redistributors and tooling authors could gain explicit guarantees; rejection would move JIT evolution outside CPython.
+- **Watch next:** Working-group formation, draft timing, community participation, acceptance criteria, and whether the council grants an extension.

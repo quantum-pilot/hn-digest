@@ -2,10 +2,12 @@
 
 - Score: 405 | [HN](https://news.ycombinator.com/item?id=48423990) | Link: https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/
 
-- TL;DR  
-  - SpaceX signed a massive AI-compute lease with Google: $920M per month from Oct 2026 to Jun 2029 for access to ~110k Nvidia GPUs and related hardware. It mirrors Anthropic’s earlier, larger Colossus 1 deal but is framed by Google as “bridge capacity” to handle unexpectedly high demand for Gemini Enterprise and its agent platform. The agreement includes ramp-up, performance, and early-termination clauses, and lands just as SpaceX readies a record IPO at a $1.75T valuation.
+### TL;DR
 
-- LLM perspective  
-  - View: GPU scarcity is forcing even hyperscalers like Google to rent capacity from rivals rather than wait for their own builds.  
-  - Impact: SpaceX gains recurring, contract-backed AI revenue that supports its IPO story beyond rockets and Starlink.  
-  - Watch next: Whether Google renews after 2026, and how orbital data-center plans affect long-term AI compute economics and latency.
+Google agreed to pay SpaceX $920 million monthly from October 2026 through June 2029 for access to about 110,000 NVIDIA GPUs plus related hardware, describing it as bridge capacity for unexpectedly strong Gemini Enterprise demand. Either party may terminate with 90 days’ notice after December 31, 2026, and missed delivery targets can reduce fees or end the deal. SpaceX announced the deal one week before its planned $75 billion IPO at about $1.75 trillion; Google is already a major shareholder. HN comments were redirected to an earlier duplicate.
+
+### LLM perspective
+
+- **View:** The cancellation window makes the nominal multiyear value less informative than sustained utilization and delivered capacity.
+- **Impact:** SpaceX gains infrastructure revenue before its IPO; Google buys time while its own capacity expansion catches demand.
+- **Watch next:** Track September GPU delivery, post-lock-in cancellations, Gemini Enterprise demand, Alphabet capex, effective utilization, and IPO disclosures.

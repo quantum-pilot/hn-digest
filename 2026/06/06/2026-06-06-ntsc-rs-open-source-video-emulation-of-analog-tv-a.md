@@ -3,23 +3,17 @@
 - Score: 231 | [HN](https://news.ycombinator.com/item?id=48428025) | Link: https://ntsc.rs/
 
 ### TL;DR
-ntsc-rs is an open-source Rust-based tool that accurately emulates analog NTSC TV and VHS artifacts, using real signal-processing models instead of simple overlays. It’s multithreaded and SIMD-accelerated, fast enough for real-time use at resolutions far beyond original NTSC, and ships as a standalone app, web app, and plugins (After Effects, Premiere, OpenFX hosts). HN discussion mixes nostalgia and media-theory takes with more technical wishes for PAL and analog-receiver behavior, plus calls for better audio-era emulators.
 
----
+ntsc-rs 0.9.4 is a free, open-source Rust effect that recreates analog television and VHS artifacts by modeling NTSC transmission and tape encoding, rather than layering lookup tables and noise. Multithreading and SIMD enable real-time processing above native NTSC resolution. It runs as a standalone or web app and integrates with After Effects, Premiere, and OpenFX hosts including DaVinci Resolve. HN admired the technical fidelity and reflected on obsolete defects becoming aesthetic signatures, though former tape editors found the glitches unpleasant; commenters requested PAL, warped audio, vinyl, radio, and receiver-failure emulation.
 
 ### Comment pulse
-- Art-from-glitches → Imperfections of old media become aesthetic signatures and nostalgia fuel; VHS artifacts now read as “character,” not failure.  
-  — counterpoint: For those who fought these glitches professionally, this “nostalgia” feels more like PTSD than charm.
 
-- Deeper simulation wish-list → Users want PAL support, bad deinterlacing, frame blending, rolling/losing sync, and receiver-like failure modes, not just cosmetic filters.
-
-- Parallel domains → People ask for similarly accurate emulation of vinyl crackle, tape warble, and ham-radio noise, plus VHS-style audio compression artifacts.
-
----
+- Failure becomes a medium’s signature → once technical limits disappear, distortion, jitter, grain, and cracks return as expressive choices.
+- Nostalgia depends on distance → newcomers enjoy stylized degradation — counterpoint: editors who fought tape faults remember labor and stress, not romance.
+- Authenticity has another frontier → commenters want PAL conversion artifacts, VHS audio warping, lost vertical sync, vinyl noise, and radio imperfections.
 
 ### LLM perspective
-- View: This represents a shift from “VHS look” as a texture pack to genuine reverse-engineering of analog video pipelines.
 
-- Impact: Video editors, retro game/film makers, and VFX artists get reproducible, controllable “old TV” looks for period-accurate or stylized work.
-
-- Watch next: Broader standards support (PAL/SECAM), integrated audio-path modeling, and benchmarks against real captured signals to validate authenticity.
+- **View:** Physical signal models create coherent interacting defects; overlays imitate appearance without reproducing causal behavior.
+- **Impact:** Causal simulation supports repeatable art direction while preserving linked behavior across color, noise, timing, and sync.
+- **Watch next:** Compare renders against captured VHS references; add PAL and audio models; publish performance by resolution, CPU, and host.
