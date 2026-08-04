@@ -3,14 +3,17 @@
 - Score: 131 | [HN](https://news.ycombinator.com/item?id=48622778) | Link: https://apertvs.ai/
 
 ### TL;DR
-- Apertus is a Swiss-led, fully open foundation LLM stack (data, code, weights, methods) targeting EU-compliant, multilingual deployments and “sovereign AI” use cases. It joins OLMo, K2 and Nemotron in the small club of (mostly) open-training models, emphasizing reproducible pipelines over mere open weights. HN likes the sovereignty and research benefits but questions whether a committee-style project can keep pace with frontier models, and notes that local-vs-cloud UX, not openness alone, may decide real-world adoption.
+
+Apertus is a Swiss AI Initiative foundation-model effort from EPFL, ETH Zurich, and CSCS, releasing training data, code, weights, methods, and alignment documentation for reproducibility and technological sovereignty. It claims EU AI Act-oriented opt-outs, PII removal, memorization controls, 8B/70B competitiveness, and training across 1,000-plus languages. HN welcomed full pipelines as more sovereign than open weights alone because communities can train successors, not merely fine-tune. Skeptics questioned committee-speed competitiveness, while discussion split over whether today’s priority is frontier access or making local inference usable for ordinary people.
 
 ### Comment pulse
-- Open pipelines, not just weights, drive sovereignty → full recipes let anyone train successors if vendors close — counterpoint: Chinese labs build frontier‑level models.  
-- Some say true “state of the art” must be open → closed Claude/GPT are “cutting‑edge” but unverifiable; open weights define the knowable frontier.  
-- Concern shifts from openness to local vs cloud UX → self‑hosting remains niche; poor tooling and hardware needs mean most people default to centralized services.
+
+- Fully open has a strict meaning → OLMo 3.1 and K2 Think V2 publish complete pipelines and datasets; Nemotron retains proprietary data portions.
+- Chinese labs are not mere distillers → commenters credited their published RL, architecture, and training research plus strong parameter efficiency and non-Nvidia systems.
+- Local adoption is a UX problem → command-line runtimes, model formats, hardware limits, and weak marketing deter users — counterpoint: most consumers prefer hosted services.
 
 ### LLM perspective
-- View: Apertus strengthens the tiny pool of fully open, legally careful LLMs, especially for EU‑regulated, multilingual, government or telecom deployments.  
-- Impact: Researchers, smaller firms, and institutions get a transparent benchmark stack for safety research, data‑governance experiments, and sovereign AI narratives.  
-- Watch next: Published training recipes, hard benchmarks versus Nemotron/OLMo/K2, and whether they can iterate quickly enough to match commercial leaps.
+
+- **View:** Sovereignty is a stack property: transparent artifacts, compute access, deployment tooling, legal control, and skilled teams must align.
+- **Impact:** Even a non-leading release can build expertise, making subsequent training runs cheaper, faster, and less dependent on foreign providers.
+- **Watch next:** Publish datasets, opt-out implementation, PII and memorization audits, compute costs, multilingual breakdowns, independent benchmarks, and turnkey local packages.

@@ -3,14 +3,21 @@
 - Score: 147 | [HN](https://news.ycombinator.com/item?id=48616713) | Link: https://github.com/namgyaaal/avoxelgame
 
 ### TL;DR
-- An experimental voxel game engine is implemented in Dyalog APL on top of SDL3’s GPU API (Vulkan/Metal/DirectX), as a personal “can APL do this?” bet. The repo shows it’s playable but buggy, with platform-specific build steps and shader compilation requirements. HN readers mostly treat it as a delightful curiosity: they’re intrigued by how APL’s array notation maps to voxel worlds, wonder about performance versus C++/Rust, and discuss passion projects, honesty, and creativity in an AI-saturated era.
+
+An experimental voxel game uses Dyalog APL for game logic and SDL3 for graphics, testing whether array-oriented notation makes voxel development easier. It supports movement, jumping, camera control, block selection and placement, multiple GPU backends, and macOS, Linux, and Windows setup paths. The author explicitly labels it buggy: Windows performance regressed, DirectX 12 is unsupported there, repeated play can crash, and memory may leak. HN readers admired the unusual pairing and debated whether voxel grids make APL naturally suitable or merely an entertaining constraint.
 
 ### Comment pulse
-- Esoteric-language game dev as art project → APL voxel engine and Excel-only RPGs show games as a canvas for playful technical experiments.  
-- Interest in APL-specific insights → Readers want details on APL’s ergonomics and performance versus C++/Rust for voxel rendering—counterpoint: raw speed may matter less than expressiveness here.  
-- Voxel model matches array thinking → A voxel grid aligns naturally with APL’s multidimensional arrays, making the “weird” part just the symbols, not the data model.
+
+- Voxel worlds suit array languages → commenters argued the domain’s multidimensional data makes APL’s notation less strange than the engine choice appears.
+
+- The README’s candor builds trust → calling the project experimental and buggy invited technical curiosity instead of overselling an unfinished engine.
+
+- Performance remains the unanswered test → readers requested like-for-like benchmarks against C++ or Rust implementations before judging APL’s practicality.
 
 ### LLM perspective
-- View: Treat this as a design probe into how array languages express real-time, stateful graphics workloads.  
-- Impact: Could inspire niche tooling and educational material showing APL for simulations, not just finance or puzzles.  
-- Watch next: Benchmarks vs. simple C/Rust engines; blogs on debugging, memory management, and GPU interop patterns in APL.
+
+- **View:** The project tests where array-language expressiveness survives contact with graphics APIs, platform tooling, and mutable game state.
+
+- **Impact:** APL learners gain a concrete systems example; engine developers gain evidence about which voxel operations benefit from array primitives.
+
+- **Watch next:** Benchmark frame time, memory, chunk generation, meshing, and Windows backends; document which APL idioms simplified or complicated development.

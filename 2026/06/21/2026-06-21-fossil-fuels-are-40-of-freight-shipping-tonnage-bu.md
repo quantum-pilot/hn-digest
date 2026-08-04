@@ -3,18 +3,21 @@
 - Score: 143 | [HN](https://news.ycombinator.com/item?id=48619394) | Link: https://cleantechnica.com/2026/06/16/shipping-freight-energy-fossil-cargo/
 
 ### TL;DR
-The article argues shipping decarbonization is framed backwards. Instead of assuming today’s huge bunker-fuel demand and hunting for a replacement molecule (ammonia, methanol, hydrogen, LNG, e-fuels), we should first shrink the amount of shipping that burns fuel at all. Fossil fuels are ~40% of cargo by mass but about half of freight energy because they move long distances in bulk. As coal, oil, gas and some iron-ore flows decline, plus short routes electrify and ships get more efficient, the remaining fuel problem is much smaller and best handled by batteries plus limited bio-based liquids, not a single universal green fuel.
 
----
+The article argues maritime decarbonization should shrink demand before replacing bunker fuel molecule-for-molecule. Fossil cargo is roughly 40% of tonnage but about half of shipping energy because it travels long distances; declining coal, oil, and gas trade therefore removes disproportionate transport work. Electrifying suitable short routes, improving operations, and reducing iron-ore flows would further leave a smaller residual market for liquid fuels. HN commenters appreciated the ton-kilometre framing but warned that shipping is already efficient, comparatively small in total petroleum use, and the pathway relies heavily on projections.
 
 ### Comment pulse
-- Shipping’s fuel share is small versus road and aviation; EVs cut refining/distribution losses and filthy bunker use—counterpoint: graphs rely heavily on speculative projections.  
-- Readers clarify tonnage vs ton-kilometres and note “double-dip” gains: less fossil demand means less fuel burned and less fuel shipped.  
-- Critics say embodied freight carbon is usually minor and accuse the article of overemphasizing shipping—counterpoint: it’s about right-sizing *fuel* demand, not global CO₂.
 
----
+- The key unit is ton-kilometres, not tonnes → fossil cargo travels farther, so end-use decline also eliminates substantial fuel burned transporting fuel.
+
+- Maritime impact needs Amdahl-style context → critics said road transport, manufacturing, last-mile delivery, and customer combustion dominate many goods’ embodied emissions.
+
+- Shrinking freight demand simplifies decarbonization → supporters see a double dividend — counterpoint: shipping’s small baseline means absolute climate gains may remain modest.
 
 ### LLM perspective
-- View: Start with “what work disappears or electrifies?” before designing exotic fuel chains for the legacy system.  
-- Impact: Port planners, shipyards, and regulators can prioritize short-sea electrification and hybrid designs over ammonia/hydrogen bunkering megaprojects.  
-- Watch next: Empirical ton‑kilometre shifts, large-scale battery ferry rollouts, and whether sustainable biomethanol/biodiesel supply can meet residual long-haul demand.
+
+- **View:** Denominator-first planning prevents overbuilding exotic-fuel supply chains, but it must separate observed trends from assumptions about future cargo demand.
+
+- **Impact:** Shipowners face fewer replacement-fuel requirements; ports and policymakers should prioritize electrifiable routes, efficiency, and infrastructure sized to residual demand.
+
+- **Watch next:** Validate ton-kilometre forecasts, disclose actual-versus-projected data, measure route electrification, and compare cost and emissions for remaining liquid fuels.

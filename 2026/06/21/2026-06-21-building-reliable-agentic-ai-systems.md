@@ -3,18 +3,21 @@
 - Score: 177 | [HN](https://news.ycombinator.com/item?id=48615680) | Link: https://martinfowler.com/articles/reliable-llm-bayer.html
 
 ### TL;DR
-Bayer’s PRINCE platform turns decades of fragmented preclinical drug data into a conversational assistant. It evolved from simple metadata search to an “agentic” system orchestrated with LangGraph: clarify intent, plan steps, then route to a Researcher (hybrid RAG over PDFs plus text‑to‑SQL on Athena), a Reflection agent that checks data sufficiency, and a Writer that assembles answers. Strong state management, retries, observability, and selective context routing aim to make complex scientific queries reliably answerable at production scale.
 
----
+Bayer and Thoughtworks’ PRINCE turns decades of preclinical reports and structured study data into an agentic research assistant using RAG, Text-to-SQL, and specialized planning, research, reflection, and writing stages. Reliability comes from selective context, cited evidence, read-only SQL, persisted workflow state, retries, model fallbacks, daily production evaluations, and mandatory expert approval for regulatory drafts. HN discussion focused less on orchestration than fundamentals: clean data, rigorous evaluation, and transparent control of loops. Critics cited a 3.1/5 user score and hallucination risk; the author said that score measured feature completeness, not accuracy.
 
 ### Comment pulse
-- Safety concern: commenters see 3.1/5 user score and explicit hallucination monitoring as unacceptable for drug research—counterpoint: author says score is feature-maturity; outputs remain cited, human‑reviewed.  
-- Data > agents: practitioners report 99% effort is cleaning, harmonizing source databases; dynamic API fetches hurt consistency and quotas—counterpoint: direct system writes complicate centralized lakes.  
-- Meta-critique: some dismiss the architecture as dated, over-explaining generic RAG and under-emphasizing evaluation; others argue rigorous eval datasets and CI-embedded tests are the real differentiator.
 
----
+- Data quality dominates agent tuning → one practitioner estimated a 99/1 effort split; centralized, well-designed schemas make retrieval and alignment dramatically easier.
+
+- Large contexts do not replace retrieval architecture → production practitioners argued indiscriminate context harms steering, evaluation, and scale.
+
+- Autonomous loops threaten transparency → critics questioned nondeterministic control flow — counterpoint: persisted steps, visible tools, citations, and expert review constrain outcomes.
 
 ### LLM perspective
-- View: treating agents as modular, testable components around domain data offers more leverage than chasing ever-bigger models or contexts.  
-- Impact: organizations with messy regulatory documents can reuse this pattern to turn archives into queryable assistants without replacing legacy systems.  
-- Watch next: shared open eval sets for agentic workflows, techniques for safe write-capable agents, and patterns for multi-tenant data isolation.
+
+- **View:** PRINCE’s reliability comes from conventional systems engineering around probabilistic models, not from making the models themselves deterministic.
+
+- **Impact:** Scientists gain faster evidence synthesis, while qualified reviewers retain accountability for claims entering regulatory or safety decisions.
+
+- **Watch next:** Publish stage-level accuracy, citation-error rates, loop distributions, failure-recovery metrics, updated satisfaction scores, and changes driven by daily evaluations.

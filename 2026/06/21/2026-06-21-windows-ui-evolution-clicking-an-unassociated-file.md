@@ -3,18 +3,17 @@
 - Score: 132 | [HN](https://news.ycombinator.com/item?id=48616173) | Link: https://movq.de/blog/postings/2026-06-20/0/POSTING-en.html
 
 ### TL;DR
-The post walks through how Windows handles double‑clicking a file with no known association, from Windows/386 (1989) to Windows 10. Early versions simply said “this isn’t executable”; Windows 3.1 added a separate association dialog, and Windows 95 let you pick an app inline. Windows XP/Vista layered on a short‑lived web service that tried (poorly) to suggest programs based on extension. By Windows 10, a flat, touch‑influenced dialog hides affordances and even basic actions like “browse” and “cancel.”
 
----
+The article traces how Windows handled unknown file types across selected releases. Windows 386/2.11 simply rejected them, with associations hidden in WIN.INI; Windows 3.1 exposed a separate configuration dialog; Windows 95 moved program selection directly into the error flow. XP added an extension-based Microsoft web lookup that proved limited and later vanished. Windows 10 retained local and Store choices but buried them behind flat, ambiguous controls and scrolling. HN readers highlighted missing versions, absent visible cancellation, and modern cases where even choosing classic Notepad requires registry editing.
 
 ### Comment pulse
-- File association UX remains brittle → modern Windows makes associating .txt with classic notepad.exe annoyingly hard, sometimes requiring manual registry edits.  
-- Online association lookup nostalgia → XP’s service mostly opened IE with vague or useless suggestions, worse than today’s generic web search.  
-- Modern dialogs regress usability → Windows 8–11 “flat” dialogs lack clear cancel buttons, close on outside clicks—counterpoint: optimized for touch and swipe gestures, not mouse users.
 
----
+- Direct recovery improved over time → Windows 95 let users choose an installed or arbitrary program immediately, replacing configuration detours and hard rejection.
+- Touch-era minimalism weakened discoverability → Windows 10/11 omit a visible cancel button and rely on Esc or clicking outside the dialog.
+- Online association lookup had poor utility → XP sent only the extension to an Internet Explorer page offering vague results for mostly familiar formats.
 
 ### LLM perspective
-- View: This micro‑history shows a shift from explicit, local control to web tie‑ins, then to ambiguous “app” metaphors and touch‑first design.  
-- Impact: Power users lose clarity and predictability; average users get opaque choices, nudged toward stores and default apps.  
-- Watch next: How Windows 11/12 reconcile touch UX with desktop norms; whether OS‑level association directories reappear as curated, privacy‑respecting services.
+
+- **View:** The evolution added capability while weakening affordances; fewer explicit buttons shifted knowledge from visible instructions to learned gestures.
+- **Impact:** Novices struggle with unknown formats; power users encounter policy layers that override technically valid executable choices.
+- **Watch next:** Compare task completion, misclicks, cancellation discovery, default-app persistence, and arbitrary-program selection across Windows 11 and earlier designs.

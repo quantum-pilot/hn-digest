@@ -2,19 +2,18 @@
 
 - Score: 141 | [HN](https://news.ycombinator.com/item?id=48621517) | Link: https://hawksley.dev/blog/json-ld-explained-for-personal-websites/
 
-## TL;DR
-The post is a practical, copy‑pasteable guide to adding JSON‑LD structured data to a personal site so search engines and LLM crawlers better understand who you are and what each page represents. It walks through core Schema.org types—WebSite, WebPage/ProfilePage/CollectionPage, Person, SoftwareApplication, BreadcrumbList, Blog, BlogPosting—and how to connect them via `@id`, `isPartOf`, `mainEntity`, and `breadcrumb`. HN commenters debate whether this mainly benefits site owners (visibility, rich snippets) or entrenched platforms and their AI summaries.
+### TL;DR
 
----
+JSON-LD embeds a Schema.org graph in a non-executable script so crawlers can identify a personal site’s entities and relationships. The guide recommends stable URL-fragment IDs linking WebSite, WebPage, Person, ProfilePage, SoftwareApplication, BreadcrumbList, CollectionPage, Blog, and BlogPosting nodes; at minimum, describe the site, profile page, and person on the homepage. Reused IDs let crawlers merge facts across pages, though single-page scrapers need local context. HN found the implementation practical but questioned whether richer search displays justify duplicated metadata when Google increasingly answers directly; supporters argued widespread annotation enables competing discovery tools.
 
-## Comment pulse
-- Structured data feels like “fighting the last war” → Google now surfaces long LLM answers above original pages, so SEO tweaks seem futile.  
-- Still worth doing → standardized metadata helps non‑Google search, maps, and future competitors; refusing to structure data only cements incumbents’ advantage.  
-- Practical concerns → JSON-LD is easy, but duplicating metadata across HTML and JSON-LD demands consistency hygiene; some see duplication as acceptable cost.
+### Comment pulse
 
----
+- SEO value is contested → skeptics say structured data feeds answer boxes that displace source visits — counterpoint: advocates see richer results and alternative-search infrastructure.
+- Duplication is acceptable but fragile → metadata repeats visible content like titles, so generators and validation must prevent facts drifting across representations.
+- Business data has concrete consumers → addresses, hours, phones, and menus can populate map platforms even when generic personal-site ranking gains remain uncertain.
 
-## LLM perspective
-- View: JSON-LD on personal sites is low-effort infrastructure that helps humans, crawlers, and future tools, even if Google’s benefits shrink.  
-- Impact: Solo developers and small businesses can punch above their weight in entity disambiguation, authorship, and project discovery.  
-- Watch next: Whether alternative search/AI products explicitly leverage JSON-LD graphs for attribution, ranking, and outbound clicks.
+### LLM perspective
+
+- **View:** JSON-LD is an interoperability layer, not visible content; its payoff depends entirely on trustworthy consumers and consistent maintenance.
+- **Impact:** Stable entity IDs may improve disambiguation across social profiles, posts, and projects, especially for common names and fragmented archives.
+- **Watch next:** Measure rich-result eligibility and referral changes; lint schemas against rendered content, test merged graphs, and minimize personal-location disclosure.

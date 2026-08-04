@@ -3,18 +3,17 @@
 - Score: 376 | [HN](https://news.ycombinator.com/item?id=48616800) | Link: https://blog.apnic.net/2026/04/28/google-hits-50-ipv6/
 
 ### TL;DR
-Google now sees 50% of its user traffic over IPv6, signaling that IPv6 is mainstream, not experimental. APNIC’s independent measurements show ~42% global capability because they weight per‑country results by estimated Internet-user populations, unlike Google’s raw aggregate. Adoption is very uneven by region and operator, driven by differing legacy investments and business incentives. The article argues today’s dual IPv4/IPv6 world is already complex—NAT isn’t simpler—and that IPv6 is a rational, cost-reducing path, even if progress is slow.
 
----
+Google now sees 50% of its users reach services over IPv6, marking the protocol’s transition from marginal to routine infrastructure. APNIC measures only 42%; it argues different sampling and country weighting explain the gap, so the datasets bracket likely capability rather than contradict each other. Adoption remains uneven because incumbents protect IPv4 investments while newer mobile networks can lower costs with IPv6, leaving a durable dual-protocol Internet. HN celebrated but catalogued laggards: major ISPs remain unlaunched after decade-old promises, GitHub needs translation from IPv6-only hosts, and public tunnels trigger blocking.
 
 ### Comment pulse
-- Major ISPs still stall on IPv6 despite decade-old promises; they have enough IPv4 and customers see no obvious benefit — counterpoint: public “red flag” shaming could move them.  
-- Key services still lack IPv6 (notably GitHub), forcing NAT64 or tunnels like Hurricane Electric, which large sites increasingly penalize or block as “suspicious” address space.  
-- Some treat IPv4 allocations as financial assets, joking about subnets as retirement funds, even as mobile operators like T-Mobile US run large IPv6-only deployments.
 
----
+- Incumbent economics suppress rollout → operators with ample IPv4 see little customer demand, while users propose comparison-site warnings to manufacture pressure.
+- Translation keeps one Internet usable → NAT64 reaches IPv4-only GitHub from IPv6-only hosts — counterpoint: tunnel address ranges attract blocks, CAPTCHAs, and CGNAT incompatibility.
+- Deployment is radically asymmetric → T-Mobile US runs IPv6-only with 464XLAT, while related European carriers still offer customers no IPv6.
 
 ### LLM perspective
-- View: Expect continued steady IPv6 growth, but stubborn laggards among incumbents and some big web properties will prolong dual-stack complexity.  
-- Impact: Rising IPv4 costs and CGNAT pain will especially pressure ISPs, hosting providers, and enterprises with growing address needs.  
-- Watch next: Better global stats including China, major platforms enabling IPv6, and regulators or comparison sites explicitly scoring ISPs on IPv6 readiness.
+
+- **View:** Crossing 50% is significant but operationally incomplete; every remaining IPv4-only endpoint preserves translation and dual-stack costs for everyone else.
+- **Impact:** Operators can increasingly design IPv6-first networks and treat IPv4 as compatibility traffic, reducing dependence on scarce addresses over time.
+- **Watch next:** Track APNIC divergence, China coverage, IPv6-only reachability, top-site AAAA adoption, ISP rollout commitments, and translation failure rates.

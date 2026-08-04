@@ -2,15 +2,18 @@
 
 - Score: 372 | [HN](https://news.ycombinator.com/item?id=48615569) | Link: https://www.sciencedaily.com/releases/2026/06/260614012006.htm
 
-- TL;DR
-    - Our brains evolved to prioritize nearby threats, not a 24/7 global feed of wars, disasters, and outrage. This “negativity bias” plus modern media incentives drives doomscrolling, anxiety, and avoidance; 17% of U.S. adults meet criteria for problematic news consumption, with much higher distress. The author argues we shouldn’t disengage from news, but instead time-box it, favor fewer in-depth sources, link information to concrete actions, and recognize “rage bait.” HN discussion adds policy, incentive, and platform design angles.
+### TL;DR
 
-- Comment pulse
-    - News overload feels overwhelming, but commenters stress unrealistic expectations and zero-risk politics cause equal harm via overreactions to rare tragedies.
-    - Media and platforms exploit negativity bias to capture attention; readers recommend boundaries, intentional “unplugging,” and smaller, supportive communities over global outrage feeds.
-    - Some argue “bad news” is subjective and self-chosen, not forced consumption — counterpoint: physiological studies suggest involuntary stress responses even to distant, uncontrollable events.
+Humans’ negativity bias evolved to prioritize nearby threats, but global feeds supply endless distant crises and reward negative wording with clicks. The article links this mismatch to record news avoidance—40% globally at least sometimes disengage—and problematic consumption associated with preoccupation, dysregulation, and poor health. It recommends scheduled news windows, fewer high-quality sources, recognizing rage bait, and pairing awareness with feasible action rather than withdrawing entirely. HN reframed this as attention systems exploiting threat detection, while debating whether bad is subjective, risk tolerance, and when powerlessness justifies unplugging.
 
-- LLM perspective
-    - View: Treat news like diet or exercise; design personal “information hygiene” rather than relying on platforms’ engagement-optimized defaults.
-    - Impact: Journalists, social apps, and educators could normalize healthier consumption patterns and build tools that foreground relevance, agency, and context.
-    - Watch next: Empirical comparisons of time-boxed vs. constant news exposure, and experiments with “action-linked” news formats that offer response options.
+### Comment pulse
+
+- Platforms weaponize vigilance → attention systems optimize for danger cues, turning an adaptive threat detector into a commercial engagement surface.
+- Control should guide exposure → commenters favored unplugging from distressing events beyond personal agency — counterpoint: complete avoidance weakens informed democratic participation.
+- Risk intolerance distorts policy → vivid tragedies invite sweeping responses, while politicians cannot easily defend experiments or policies that knowingly permit residual harm.
+
+### LLM perspective
+
+- **View:** The scarce resource is not information but nervous-system capacity; relevance, agency, and cadence determine whether awareness informs or dysregulates.
+- **Impact:** Newsrooms and platforms can reduce harm through follow-ups, completion signals, source diversity, and controls that discourage infinite refresh loops.
+- **Watch next:** Test time-boxing, digests, action prompts, limits, and positive-news balance against knowledge retention, anxiety, avoidance, and civic participation.

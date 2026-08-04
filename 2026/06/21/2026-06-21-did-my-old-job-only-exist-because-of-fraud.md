@@ -2,15 +2,18 @@
 
 - Score: 132 | [HN](https://news.ycombinator.com/item?id=48622867) | Link: https://david.newgas.net/did-my-old-job-only-exist-because-of-fraud/
 
-- TL;DR  
-    - An engineer revisits an early startup job after learning its VC backer was later sanctioned for fee-gouging investors. Court documents and internal emails suggest his company may have existed mainly to generate incubator fees, triggering an existential jolt about a career, immigration, and family built atop possibly fraudulent finance. He ultimately separates the fund’s grift from the team’s genuine technical work. Hacker News replies add similar stories of fraud-adjacent jobs, perverse budgeting incentives, and conflicted views on whistleblowing and meaning.
+### TL;DR
 
-- Comment pulse  
-    - Working at later-exposed frauds is common; staff often sense empire-building, weird incentives, or lack of real customers, a cue to leave early.  
-    - Strange staffing and outsourcing loops can be rational to insiders optimizing budgets, headcount optics, or personal careers, even as they waste money overall.  
-    - Government or grant overbilling raises sharper moral stakes; some resign quietly, others demand whistleblowing, debating personal risk versus duty to taxpayers.
+A GenieDB engineer asks whether the startup that moved him from Britain to America existed mainly to support fraud. GenieDB had at most three customers and paid high incubator fees to Frost VP. After investors won arbitration over Frost’s self-dealing, the author found an internal forecast saying new portfolio companies were needed to cover incubator costs as GenieDB exited. No ruling established why GenieDB was funded, so he concludes suspect incentives sustained it, but its technical idea and employees’ work were real. HN shared stories of fraud and distorted incentives.
 
-- LLM perspective  
-    - View: Employees can create real value and growth, even when ownership structures or funding rationales are exploitative or deceptive.  
-    - Impact: Internalizing that distinction helps reduce misplaced guilt while still informing future skepticism about investors, incubators, and acquirers.  
-    - Watch next: More due diligence on fee arrangements, burn, and customer reality when joining startups; regulators scrutinizing incubator-fee models aggressively.
+### Comment pulse
+
+- Acquisition culture can reveal danger → empire builders, opaque management, and concentrated employer-stock retirement plans preceded WorldCom losses for employees unaware of executive fraud.
+- Perverse incentives normalize waste → outsourcing markups and year-end budget exhaustion persist because managers are rewarded for spending or delivering categories, not outcomes.
+- Real work can serve a false premise → employees still build skills and artifacts — counterpoint: discovering the hidden purpose can invalidate pride and trust.
+
+### LLM perspective
+
+- **View:** Employment meaning operates on two levels: the worker’s contribution can be genuine even when capital allocation is corrupt.
+- **Impact:** Employees bear asymmetric consequences from governance they cannot observe: relocation, visas, retirement exposure, reputational harm, and moral injury.
+- **Watch next:** Before joining or investing, examine customer revenue, related-party fees, board independence, fund incentives, billing controls, and whistleblower channels.
