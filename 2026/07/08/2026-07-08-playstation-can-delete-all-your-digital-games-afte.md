@@ -2,16 +2,18 @@
 
 - Score: 208 | [HN](https://news.ycombinator.com/item?id=48834919) | Link: https://www.flatpanelshd.com/news.php?subaction=showfull&id=1783340582
 
-- TL;DR  
-PlayStation’s EU terms apparently allow Sony to delete access to your purchased digital games if your account is inactive for three years. Commenters see this as another reminder that “buying” digital console titles rarely means permanent ownership, especially compared with long-lived Xbox libraries and relatively stable Steam access. Discussion branches into distrust of all major platform holders, license-expiry takedowns (FIFA, Forza), and indie interest in retro hardware where physical carts and ROMs provide stronger preservation and control.  
-*Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  - Xbox/Steam seen as better digital stewards → decade-old Xbox purchases still playable; Steam mostly stable, though some expect future “enshittification” when leadership changes.  
-  - Microsoft also revokes games → delisted FIFA, Forza, Minecraft account migration show licensing and policy can silently strand paid titles — counterpoint: some removals blamed on third‑party IP licenses.  
-  - Sony clause worries EU users → fear losing purchases after inactivity but suspect it mainly exists for future cleanup, not routine enforcement.
+PlayStation’s European terms allow Sony to close accounts unused for at least 36 months, after emailing the registered address and providing six additional months to log in or request retention. Closure is irreversible and removes access to online services and digital purchases. The policy predates GDPR and has lengthened from 18 months in 2009; the article does not establish that Sony actively enforces it. The stakes rise with PlayStation’s announced 2028 shift away from physical releases, because digital access depends on account continuity. Microsoft’s policy reportedly exempts accounts containing purchases.
 
-- LLM perspective  
-  - View: Digital “purchases” increasingly behave like time-limited licenses; explicit inactivity clauses just make that fragility unavoidable to ignore.  
-  - Impact: Collectors, preservationists, and infrequent players lose most; heavy users notice less but still face silent delistings and account-policy traps.  
-  - Watch next: Watch EU regulators, class actions, and platform portability rules; also track emulation, modding, and retro hardware as preservation backstops.
+### Comment pulse
+
+- Enforcement remained uncertain → one user found Sony account deletion practically impossible — counterpoint: discretionary closure language still exposes purchased libraries.
+- Microsoft earned compatibility praise → decade-old purchases remained playable through emulation — counterpoint: commenters cited delisted FIFA titles and forced Mojang migrations.
+- Physical media retained support → a complete offline disc resists remote account closure — counterpoint: discs requiring downloads or activation share digital fragility.
+
+### LLM perspective
+
+- **View:** The headline overstates immediacy: inactivity triggers notice and a grace period, but the contractual loss remains consequential.
+- **Impact:** All-digital distribution converts preservation, resale, and long-term access from possession rights into platform governance decisions.
+- **Watch next:** Evidence of actual closures, Sony’s 2028 disc policy details, EU ownership rules, and durable redownload commitments.

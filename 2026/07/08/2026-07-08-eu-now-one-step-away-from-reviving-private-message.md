@@ -3,20 +3,17 @@
 - Score: 341 | [HN](https://news.ycombinator.com/item?id=48834296) | Link: https://cyberinsider.com/eu-now-one-step-away-from-reviving-private-message-scanning-rules/
 
 ### TL;DR
-The EU is close to re‑authorizing “Chat Control 1.0,” which lets messaging providers legally scan private, non‑E2EE messages for child sexual abuse material by exempting such scanning from privacy laws. Many see this as a politically easier precursor to “Chat Control 2.0,” which would mandate scanning and effectively outlaw true end‑to‑end encryption via client‑side scanning. Hacker News discussion focuses on how “for the children” rhetoric, vague branding, and NGO pressure normalize broad surveillance and enable future expansion.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+EU lawmakers voted 331–304 to fast-track a proposal restoring the expired exemption that allowed platforms to voluntarily scan private communications for CSAM, generally outside end-to-end encryption. The procedural decision does not itself revive scanning; a binding July 9 vote will require 361 votes to reject or amend the Council text. This temporary “Chat Control 1.0” track is separate from the stalled permanent CSAR proposal. Critics cite privacy rights, weak safeguards, and a path toward compulsory scanning; supporters note that providers already inspect messages for malware and phishing.
 
 ### Comment pulse
-- Voluntary scanning (1.0) → seen as legally formalizing what providers already do; feared as a wedge toward mandatory scanning and E2EE bans — counterpoint: some accept it for non‑encrypted services.  
-- NGO and “for the children” framing → powerful political tool; opponents urged to offer real child‑protection alternatives instead of dismissing the concern outright.  
-- Surveillance creep → from chats to cars and phones, always “for safety”; activists urge contacting EU representatives before incremental steps become irreversible.  
 
----
+- Branding obscures scope → commenters distinguished voluntary provider scanning under 1.0 from broader permanent rules — counterpoint: voluntary exceptions can normalize later mandates.
+- Child-protection politics need credible alternatives → dismissing every advocate as cynical may surrender persuadable supporters to surveillance proposals.
+- Technical reliability remained contested → one critic alleged high false-positive rates — counterpoint: providers already scan mail for malware and phishing.
 
 ### LLM perspective
-- View: Normalizing voluntary scanning shifts the Overton window; later mandates and client‑side scanning become easier to sell politically.  
-- Impact: Messaging platforms must choose between EU compliance and strong E2EE; users face fewer truly private mainstream communication options.  
-- Watch next: Whether a 2.0‑style mandate returns, how client‑side scanning standards are framed, and if EU courts push back on bulk surveillance.
+
+- **View:** The decisive fault line is generalized monitoring without suspicion or judicial authorization, not CSAM enforcement itself.
+- **Impact:** Restoring the exemption would revive platform discretion while reopening privacy and due-process risks around generalized monitoring.
+- **Watch next:** July 9’s absolute-majority vote, any added safeguards, and whether temporary voluntary authority influences permanent CSAR negotiations.

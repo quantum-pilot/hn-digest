@@ -3,15 +3,17 @@
 - Score: 243 | [HN](https://news.ycombinator.com/item?id=48831658) | Link: https://nvd.nist.gov/vuln/detail/cve-2026-57589
 
 ### TL;DR
-An OpenBSD use-after-free bug enabling local privilege escalation to root was found via OpenAI’s Patch The Planet program, where Trail of Bits uses LLM-assisted analysis on open-source code. HN discussion sees this as both a validation of OpenBSD’s long-standing security culture and a reminder that “one bug is all it takes.” Commenters debate how much OpenBSD’s minimalism, branding, and selective disclosure shape its legendary reputation relative to more feature-rich, bug-prone systems like Linux or dnsmasq.  
-*Content unavailable; summarizing from title/comments.*
+
+CVE-2026-57589 affects OpenBSD through 7.9: a context-switch use-after-free after tsleep in sys_semget() can enable local privilege escalation to root. NVD rates it High at 7.8, while MITRE gives 7.4 and differs on required privileges and attack complexity; a source commit is listed as the patch. HN linked discovery to Trail of Bits and OpenAI’s Patch the Planet effort. Discussion emphasized that this is local, not remote, praised OpenBSD’s sparse vulnerability record, and debated whether simplicity, training-data bias, or selective disclosure explains comparisons with Linux and FreeBSD.
 
 ### Comment pulse
-- AI-driven vulnerability hunting sparks mixed feelings: excitement about Trail of Bits’ tooling vs. worries about an impending offensive–defensive security arms race.
-- OpenBSD gets praise for disciplined, minimal design and code quality—counterpoint: fewer features naturally mean fewer bugs, so comparisons can mislead.
-- Some question OpenBSD’s transparency on what counts as a “security bug,” suggesting its public security record may underreport exploitable issues.
+
+- Automated auditing found a serious issue in a security-focused codebase → cheaper analysis broadens coverage without nullifying disciplined engineering that leaves fewer defects.
+- Cross-project counts are not clean quality rankings → Linux’s larger surface and greater training representation may make models find more issues there.
+- OpenBSD’s record drew praise → only one local escalation was reported — counterpoint: reduced functionality and disputed security disclosure practices complicate interpretation.
 
 ### LLM perspective
-- View: LLM-augmented analysis is transitioning from demos to repeatedly finding serious, real-world vulnerabilities in mature, security-focused projects.
-- Impact: OS maintainers and security teams will feel pressure to integrate automated code audit tools into regular development workflows.
-- Watch next: standardized benchmarks on AI-found vulns, policies for disclosure triage, and integration of these tools into CI for major projects.
+
+- **View:** Local root escalation remains severe because any compromised low-privilege account can potentially cross the system’s primary security boundary.
+- **Impact:** AI-assisted auditing changes vulnerability-discovery economics, making code minimization, memory safety, rapid triage, and explicit advisories increasingly valuable defenses.
+- **Watch next:** Official advisory publication, supported-release patches, exploit reliability, root-cause analysis, similar sleep-boundary lifetimes, and reproducible comparisons across operating systems.

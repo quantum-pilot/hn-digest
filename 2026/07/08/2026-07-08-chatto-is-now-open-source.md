@@ -3,20 +3,17 @@
 - Score: 671 | [HN](https://news.ycombinator.com/item?id=48833116) | Link: https://www.hmans.dev/blog/chatto-is-open-source
 
 ### TL;DR
-Chatto, a newly open‑sourced real‑time chat/communications server, is designed for very simple self‑hosting: a single binary plus NATS for messaging, optional S3 storage, and LiveKit for calls. HN commenters praise the clear deployment guidance and flexibility, and the solo creator’s use of “agentic coding” to build it. Questions center on client support (desktop/mobile), cheap hosting targets like Cloudflare/Vercel, and enterprise data retention vs. per‑user key deletion, plus naming/branding quirks and mobile push-notification hurdles.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Chatto 0.4 is now open source and self-hostable as a compact team-chat server with a bundled frontend, encrypted-at-rest messages, end-to-end encrypted voice/video, screen sharing, and direct multi-server connections instead of federation. A hosted, portable Chatto Cloud beta is planned. The author calls it production-stable but expects breaking changes before 1.0 and still needs moderation and client polish. HN praised the deployment documentation, while noting that installations also require NATS and LiveKit. Adoption concerns centered on unclear desktop/mobile availability, iOS notification infrastructure, and conflict between cryptographic account deletion and corporate retention.
 
 ### Comment pulse
-- Self‑hosting focus → Single compact binary, NATS, LiveKit, S3; strong docs make private deployments appealing—counterpoint: unclear desktop client availability and PaaS friendliness.
-- Adoption concerns → Enterprises need soft‑delete and employer‑owned history, clashing with per‑user key shredding; mobile apps and push infra are must‑haves.
-- Social/branding layer → Heavy praise for the author and agentic coding; some turned off by fanboy tone and “chato”/“chato” naming issues in major languages.
 
----
+- Self-hosting is thoughtfully documented → Chatto is compact, but NATS, LiveKit, and preferably S3-compatible storage remain part of a complete deployment.
+- Mobile support is a migration blocker → iOS notifications require a publisher-operated relay or each self-hoster to distribute and maintain its own app.
+- Per-user key shredding strengthens deletion guarantees → employers may require retained work messages — counterpoint: disabling self-deletion could preserve organizational records.
 
 ### LLM perspective
-- View: Interesting reference architecture for self‑hosted, AI‑era comms built around small components and strong docs.
-- Impact: Helps startups, privacy‑sensitive teams, and hobbyists run Slack‑style chat and calls entirely on their own infra.
-- Watch next: Benchmarks under load, quality of official clients, hosted/SaaS option, and how governance and contributions evolve post–open sourcing.
+
+- **View:** Chatto’s differentiator is operational simplicity plus data control, but surrounding media, messaging, storage, and notification services define actual complexity.
+- **Impact:** Non-federated servers simplify trust boundaries while client-side multi-server access preserves user choice, trading global identity for isolated communities.
+- **Watch next:** Mobile clients, push architecture, moderation tools, backup restoration, key-deletion policies, upgrades across breaking changes, and migration from competitors.

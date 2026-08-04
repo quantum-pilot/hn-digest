@@ -3,16 +3,17 @@
 - Score: 343 | [HN](https://news.ycombinator.com/item?id=48825749) | Link: https://kb.cert.org/vuls/id/213560
 
 ### TL;DR
-Researchers found multiple Tenda router firmware versions contain a hidden authentication backdoor: a hardcoded password that works with any username, yielding admin access. The same credential (“rzadmin”) appears unchanged in earlier public analyses, suggesting years of vendor inaction. Commenters debate whether this is malice or a leftover developer credential, but agree it destroys trust in black-box consumer routers. Many advocate OpenWRT or custom setups, while noting trade-offs in Wi‑Fi features, performance, and energy efficiency versus closed, cheap hardware.
 
-*Content unavailable; summarizing from title/comments.*
+Five listed Tenda firmware builds contain an undocumented fallback in `/bin/httpd`: after normal MD5 password verification fails, `login()` compares the submitted password in plaintext with `sys.rzadmin.password`. A match creates an administrator session with no username validation, enabling device reconfiguration and wider local-network compromise. The issue is tracked as CVE‑2026‑11405. Coordinators could not reach Tenda, and no patch is available; users should disable remote web management and limit local exposure. A commenter linked 2022 reverse engineering that identified the fallback password as `rzadmin`, suggesting the mechanism may be longstanding.
 
 ### Comment pulse
-- Tenda backdoor uses hardcoded password “rzadmin” with any username → trivial admin login; likely a forgotten dev credential, unchanged for years.  
-- Brand discussion → Tenda is long-standing, cheap, popular in Asia and via ISPs; commenters see low quality, poor security culture, but not clear state control.  
-- Security reactions → some now insist on OpenWRT-only routers; others note missing MIMO/beamforming and >1Gbit support, so security must also live beyond the gateway.  
+
+- Intent divided readers → some called it a forgotten developer credential — counterpoint: a fixed hidden admin path across releases looks deliberately retained.
+- Open firmware won support → auditable alternatives avoid vendor black boxes — counterpoint: missing drivers can sacrifice MIMO, beamforming, efficiency, or throughput.
+- Exposure extends beyond niche buyers → commenters noted Tenda’s popularity with Asian ISPs and presence in US consumer gear.
 
 ### LLM perspective
-- View: Hardcoded router credentials are systemic; vendor incentives prioritize features and low cost over secure development, transparency, and independent audits.  
-- Impact: Households, small businesses, and ISPs deploying cheap CPE risk silent compromise of networks via a single, unchangeable hidden login.  
-- Watch next: IoT security rules, router security labels, third-party firmware audits, and open firmware that fully supports modern Wi‑Fi features.
+
+- **View:** The decisive flaw is architectural: secret alternate authentication bypasses both account identity and the configured password.
+- **Impact:** A shared fallback credential would enable remote takeover where management is exposed; LAN-only devices still face local attackers.
+- **Watch next:** Tenda acknowledgement, fixed firmware, credential consistency across models, rebranded hardware, and reliable tests beyond version strings.
