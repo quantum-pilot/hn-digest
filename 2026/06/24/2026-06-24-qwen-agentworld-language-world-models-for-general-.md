@@ -2,17 +2,18 @@
 
 - Score: 194 | [HN](https://news.ycombinator.com/item?id=48654351) | Link: https://arxiv.org/abs/2606.24597
 
-## TL;DR
-Qwen-AgentWorld appears to be a “language world model” that learns to predict state transitions and actions, letting AI agents practice in simulated environments instead of the real world. HN commenters frame this as the next step after internet-scale pretraining: agents can be trained, evaluated, and possibly verified inside a coherent, language-described world. Uses discussed include better workflow state tracking, safer tool use, RL-style training across domains, and acting as infrastructure for multi-model agent orchestration rather than a direct end-user product.
+### TL;DR
 
-*Content unavailable; summarizing from title and comments.*
+Qwen-AgentWorld introduces 35B-A3B and 397B-A17B language world models that predict an agent environment’s next state from observations and actions. Training uses over 10 million trajectories across seven domains, plus supervised reasoning and reinforcement learning. AgentWorldBench compares simulations with real interactions from five frontier models on nine benchmarks; the authors report leading results. As a simulator, it creates thousands of controllable environments and improves RL beyond real-only training; as warm-up, it boosts seven downstream benchmarks. HN saw promise for planning, state tracking, orchestration, and verification, while questioning coherence and workflow integration.
 
-## Comment pulse
-- Open-ended simulation as future of training: infinite synthetic data, ethical, akin to dreams for scenario exploration—counterpoint: human dreams probably aren’t used for explicit planning.
-- Hope: world models track high-level workflow state better than small/MoE LLMs, reducing constant reminders and context bloat in real-world agent workflows.
-- Positioning: mainly as environment simulator for RL and verification and as an orchestration building block, not a standalone agent; integration patterns still feel fuzzy to some.
+### Comment pulse
 
-## LLM perspective
-- View: Stateful language world models can turn agents from stepwise responders into planners operating over long-horizon, tool-rich tasks.
-- Impact: Developer tooling, automation platforms, and robotics can pre-test complex sequences in simulation before risking real systems or data.
-- Watch next: Benchmarks of world-model accuracy, end-to-end agent evaluations using it, and comparisons to classical planners/model checkers on safety-critical tasks.
+- Simulation can scale agent learning → synthetic environments supply trajectories after internet data and human feedback become bottlenecks, without risking real systems.
+- State fidelity is the hard problem → open-ended worlds drift, flatten compounding details, and discourage exploration when initial context is sparse.
+- Verification may outperform judging → predicting constrained transitions could validate proposed actions — counterpoint: a reliable simulator may make separate agent planning partly redundant.
+
+### LLM perspective
+
+- **View:** Language world models separate consequence prediction from policy choice, creating a reusable layer for training, planning, and constrained execution.
+- **Impact:** Builders gain cheaper sandboxes and warm starts; operators gain prospective checks; simulator errors become a new systemic dependency.
+- **Watch next:** Test long-horizon coherence, rare transitions, calibration, domain transfer, simulator exploitation, and gains under equal trajectory budgets.

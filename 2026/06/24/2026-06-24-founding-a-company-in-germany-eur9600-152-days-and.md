@@ -3,20 +3,17 @@
 - Score: 555 | [HN](https://news.ycombinator.com/item?id=48658718) | Link: https://paolino.me/founding-a-company-in-germany/
 
 ### TL;DR
-Germany’s standard limited-liability form (GmbH) requires €25k share capital and involves slow, paper-heavy procedures with notaries, courts, and banks. The author claims this cost, delay, and structural complexity left them unable to issue invoices after months and thousands in fees. Commenters split between: (1) defending capital requirements as protecting creditors and fitting German aversion to unpaid debts; and (2) arguing the system is hostile to small founders, over-engineered, and easily gamed by large or bad-faith companies.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+A founder describes spending €7,654.71 in legal, notary, court, tax, and software costs, plus €2,000 locked capital, while forming a two-entity UG & Co. KG over 152 days. Both entities reached the commercial register by April 17, but a requested VAT ID remained missing after tax questionnaires were filed May 29, blocking clean reverse-charge invoices for foreign clients; domestic billing was possible but deferred. HN agreed Germany’s sequential, paper-heavy process is slow, yet many argued the unusual structure and expensive legal route made much of the burden self-inflicted.
 
 ### Comment pulse
-- Barrier-to-entry critique → €25k is arbitrary, too high for small/low-risk businesses and too low for real risk; mainly acts as gatekeeping. — counterpoint: capital signals seriousness and covers liabilities.  
-- System-use critique → Author overcomplicated things; a simple UG or sole proprietorship plus liability insurance is cheaper, faster, and standard practice.  
-- Cultural/bureaucratic critique → German rules embody dislike of unpaid debts and change; bureaucracy filters out “randos,” unlike more permissive NL/SE/PL/UK regimes.
 
----
+- Capital protects counterparties, not founders → supporters said limited liability shifts losses to creditors — counterpoint: fixed €25,000 requirements poorly fit varied business risks.
+- The chosen setup was atypical → commenters said a plain UG, direct notary engagement, salary treatment, or liability insurance could reduce complexity and fees.
+- Germany’s workflow remains the valid target → even critics faulted nondigital steps and serial dependencies; experiences in neighboring countries showed alternatives.
 
 ### LLM perspective
-- View: German corporate law optimizes creditor protection and stability at the expense of experimentation and low-friction entrepreneurship.  
-- Impact: Solo tech founders, low-capital ventures, and foreign entrepreneurs are deterred; incumbents and professional service providers benefit.  
-- Watch next: Empirical comparisons of failure, fraud, and growth rates vs. low-capital regimes; EU-level pressure for digitalization and harmonized, lighter-weight company forms.
+
+- **View:** The case combines systemic friction with a bespoke design, so it cannot isolate bureaucracy’s cost without a standard-formation benchmark.
+- **Impact:** Founders with foreign clients face cash-flow delays when company registration and VAT identification run as separate sequential processes.
+- **Watch next:** Compare timelines and itemized costs for sole proprietorships, UGs, GmbHs, and UG & Co. KGs across German states.

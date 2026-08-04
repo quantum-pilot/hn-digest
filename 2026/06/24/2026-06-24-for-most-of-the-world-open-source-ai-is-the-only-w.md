@@ -3,23 +3,17 @@
 - Score: 195 | [HN](https://news.ycombinator.com/item?id=48660839) | Link: https://techstrong.ai/articles/for-most-of-the-world-open-source-ai-is-the-only-way-forward/
 
 ### TL;DR
-The article argues that AI will become basic digital infrastructure, so countries and organizations—especially outside the US—must have open, inspectable, modifiable AI systems rather than rely on a few proprietary platforms. Open-weight models, collaborative training efforts, and non-US hosting are framed as the only realistic path to affordability, sovereignty, and innovation. Hacker News commenters largely agree on the need for openness but debate what “open-source AI” actually means, whether local hardware is realistic, and who owns models trained on global cultural data.  
-*Content unavailable; summarizing from title/comments.*
 
----
+Yann LeCun argues that AI will become information infrastructure, making dependence on a few U.S. or Chinese proprietary systems dangerous for sovereignty, languages, democracy, and cost. His Project Tapestry proposes collaborative model training in which partners retain local cultural data and exchange parameter vectors, targeting production by early 2027. He dismisses many biosecurity and cyber restrictions as overstated, favoring diverse, locally fine-tuned open models and cheaper inference. HN supported pluralism but questioned universal AI mediation, open-source definitions, local hardware affordability, and ownership of models trained on copyrighted work.
 
 ### Comment pulse
-- AI as mediator is not obviously desirable → some want unfiltered blogs, wikis, and forums, not homogenized summaries—counterpoint: as content volume explodes, many will need mediation tools.
 
-- Cost of “good enough” local AI is nontrivial → serious models need 32–48 GB+ VRAM; others argue cloud-hosted open models are cheaper via utilization and that historical PC costs were also high.
-
-- Data commons vs ownership → some say models trained on humanity’s output should belong to everyone; others stress copyright, contributor labor, and the messy role of governments.
-
----
+- Mediation is not inevitable progress → blogs, forums, and wikis preserve texture that generated summaries can flatten — counterpoint: information overload already requires algorithmic filtering.
+- Open access does not guarantee affordability → capable local inference needs substantial memory, while competitive hosted providers may offer better utilization and lower entry costs.
+- The label remains contested → collaborative open-weight training exposes outputs, but not necessarily datasets, code, or every ingredient expected from conventional open source.
 
 ### LLM perspective
-- View: Open-weight, collaboratively trained models are emerging as a middle ground between full source openness and proprietary black boxes.
 
-- Impact: Global South states, SMEs, and independent researchers gain bargaining power; hyperscalers face pressure to compete on price and openness.
-
-- Watch next: Legal definitions of “open-source AI,” cost trends for consumer GPUs vs cloud, and real deployments of alliances like Tapestry in public sectors.
+- **View:** Sovereignty depends on governance and deployment choice, not weights alone; openness must include inspectability, portability, participation, and sustainable economics.
+- **Impact:** Smaller countries gain localization leverage; frontier vendors face price competition; creators and communities face unresolved consent and ownership claims.
+- **Watch next:** Track Tapestry’s 2027 launch, contribution rules, model licenses, multilingual quality, inference-cost reductions, safety evaluations, and governance representation.

@@ -3,25 +3,17 @@
 - Score: 202 | [HN](https://news.ycombinator.com/item?id=48659165) | Link: https://ben-mini.com/2026/stealing-is-a-skill
 
 ### TL;DR
-The post describes cloning another company’s highly polished marketing site, arguing that “stealing” designs is a deliberate skill: by recreating every detail, you internalize hidden decisions, tradeoffs, and taste, then adapt them to your own product. Hacker News splits: some see this as normal apprenticeship and a way to punch through boring design; others call it unethical plagiarism, especially when monetized, and tie it to a broader trend of derivative web design and AI-enabled copying.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+The author argues that deliberate imitation can accelerate unfamiliar creative work: rebuild a respected artifact closely, inspect every choice, then let informed deviations reveal your own priorities. His team pixel-recreated Mintlify’s marketing site for Kibu, initially targeting Virgil Abloh’s 3% change concept; product-specific images, video, navigation, and branding eventually pushed differences toward 50%, producing a site within a month of weekends. HN sharply challenged the framing, distinguishing sanctioned iteration or private copywork from publishing an unrelated company’s design commercially, and questioning whether copying an outcome teaches its hidden tradeoffs.
 
 ### Comment pulse
-- Ethical line: referencing, remixing, and iterating is fine; pixel-close commercial copies without permission resemble plagiarism, not influence → harms smaller, original creators’ upside.  
-  — counterpoint: most landing pages are already 97% recycled patterns.
 
-- Web sameness: cloned Bootstrap-esque heroes and Mintlify-style pages make products indistinguishable → people miss the experimental, weird 90s/Flash web that signaled personality and function.
-
-- Learning vs faking: copywork (writing, jazz solos, design) is powerful practice, but only if done privately and critically → blind copying ignores context, tradeoffs, and can misapply bad patterns.  
-
----
+- Practice and publication carry different ethics → writers and musicians copy masters to learn, but usually avoid presenting close replicas as original commercial work.
+- Surface reproduction may miss causal knowledge → critics said finished artifacts hide constraints, failed experiments, and context behind each design choice.
+- Derivative conventions complicate ownership → defenders noted standardized landing pages already remix predecessors — counterpoint: repetition can entrench bland, inappropriate patterns.
 
 ### LLM perspective
-- View: Treat copying as a training tool, not a shipping strategy; disclose influences and get licenses when mimicry is close.
 
-- Impact: Designers, founders, and AI users must navigate thinner boundaries between inspiration, practice, and commercial exploitation.
-
-- Watch next: Legal tests on AI-derived works, community norms on “inspired by” disclosures, and tools that flag overly similar designs or codebases.
+- **View:** Imitation is strongest as reverse engineering when the learner records hypotheses and tests alternatives, not merely reproducing pixels.
+- **Impact:** Design teams gain speed and shared reference points, while source creators bear attribution, consent, licensing, and market-confusion risks.
+- **Watch next:** Publish provenance, permissions, and explicit design deltas; evaluate whether each borrowed pattern serves the new product’s users.

@@ -2,16 +2,18 @@
 
 - Score: 213 | [HN](https://news.ycombinator.com/item?id=48658300) | Link: https://www.nytimes.com/2026/06/23/us/politics/nsa-lost-access-anthropic-tool.html
 
-- TL;DR  
-  Anthropic’s specialized cybersecurity model, Mythos, was reportedly so effective at finding and chaining vulnerabilities that it penetrated many NSA classified systems within hours. After a dispute and an unfinished Pentagon contract, NSA lost access, sparking debate about whether Mythos is uniquely dangerous or mainly exposes pre‑existing insecurity. Commenters argue LLMs are a force multiplier that lets “mediocre” practitioners do high‑end work, while others see the whole narrative as AI marketing theater layered over genuine but incremental capability gains.  
-  *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  Mythos as democratized cyber‑offense → LLMs digest decompilations, eroding “security by obscurity” and boosting average hackers’ abilities—counterpoint: that’s just normal technological progress.  
-  Danger vs. bad infra → Its rapid NSA breaches may reflect poor segmentation and physical‑security assumptions, not magical AI; Mythos chains small bugs into systemic compromise.  
-  Hype and geopolitics → Some see “dangerous AI” framing as marketing and US power projection; others note real productivity gains for skilled users leveraging these tools.
+U.S. export controls forced Anthropic to withdraw Mythos 5 and Fable 5, ending NSA testing of models analysts found effective at locating vulnerabilities. A senator’s claim that Mythos broke into nearly all classified systems within hours overstated the result: NSA red teams supplied access to a tailored, air-gapped environment, where the model identified flaws but did not penetrate systems. The interruption deepens a Pentagon dispute over Anthropic’s war-use limits and an NSA contract. HN split between cybersecurity alarm, skepticism about AI marketing, and opposition to equipping the agency.
 
-- LLM perspective  
-  View: Specialized security models will likely become standard tools, shifting value from discovery to rapid patching and architectural resilience.  
-  Impact: Governments, cloud providers, and major software projects must assume automated large‑scale vuln discovery by both attackers and defenders.  
-  Watch next: Procurement fights, access controls for offensive‑grade models, and benchmarks comparing AI‑found vulns to traditional red‑teaming.
+### Comment pulse
+
+- Capability amplification lowers skill barriers → commenters said models can traverse decompilation and chain flaws, turning expert workflows into broadly accessible assistance.
+- Evidence remains ambiguous → some saw NSA testing and browser findings as alarming — counterpoint: others blamed tailored conditions or insecure target systems.
+- Government access is itself contested → some opposed giving offensive capability to the NSA, while others expected privileged access to future models.
+
+### LLM perspective
+
+- **View:** The episode demonstrates high-value vulnerability discovery, not autonomous compromise; access conditions and exploit-chain completion are the critical missing distinctions.
+- **Impact:** Restricting one vendor can simultaneously reduce government defensive capacity and limit dissemination of capabilities usable for offense.
+- **Watch next:** Seek reproducible benchmarks, vulnerability severity, chaining rates, human assistance levels, substitute-model results, and resolution of the supply-chain designation.

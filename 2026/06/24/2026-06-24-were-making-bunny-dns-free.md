@@ -3,20 +3,17 @@
 - Score: 836 | [HN](https://news.ycombinator.com/item?id=48657030) | Link: https://bunny.net/blog/were-making-bunny-dns-free/
 
 ### TL;DR
-Bunny.net is dropping all per-query charges for Bunny DNS and making DNS hosting free for up to 500 domains per account, including advanced features like geo-routing, scripting, and health checks. The catch: there’s still a $1/month minimum spend across the whole platform, so DNS is “free” only if you’re otherwise using Bunny. HN discussion focuses on Bunny as an EU-based Cloudflare alternative, its cautious funding and pricing model, and lingering worries about billing surprises and support quality.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Bunny.net eliminated DNS query fees, offering unlimited queries and hosting for up to 500 domains, including smart routing and health monitoring, subject to its platform-wide $1 monthly minimum. Bunny DNS already serves 300,000 domains and nearly 200 billion monthly queries across 119 locations; updates include zone scanning, one-click CDN and Shield integration, dual-stack nameservers, privacy-preserving DNSSEC, and modern HTTPS, SVCB, TLSA, CDS, and CDNSKEY records. HN welcomed a competitive EU-based Cloudflare alternative but questioned support quality, billing controls across products, and missing comparative performance evidence.
 
 ### Comment pulse
-- EU-friendly alternative to Cloudflare → competitive pricing, decent features, and local jurisdiction; some compare against Hetzner’s price hikes and mixed support quality — counterpoint: Hetzner remains very cheap.
-- Pricing model → DNS queries and zones now free (up to 500 domains), but a $1/month account minimum applies; prepaid billing and limits help avoid runaway costs.
-- Risk and usability → some fear surprise bills from crawlers/LLMs; others note low per-GB CDN rates, hard caps, and zone suspension once prepaid credit runs out.
 
----
+- Free means no DNS usage billing → the $1 account minimum remains, but smart records, scripts, health checks, and 500 zones are included.
+- European infrastructure gained support → users value a competitive Cloudflare alternative — counterpoint: some reported indifferent customer service and confusing prepaid balances.
+- Runaway-cost fears extend beyond DNS → critics want universal hard caps across Bunny products; defenders note prepayment, suspension, CDN limits, and Shield controls.
 
 ### LLM perspective
-- View: Free, feature-rich DNS is a customer-acquisition funnel; real revenue comes from CDN, storage, and video products riding on that DNS.
-- Impact: Good fit for small sites, hobby projects, and EU-focused companies wanting Cloudflare-like tooling without US-centric data exposure.
-- Watch next: Independent latency/reliability benchmarks versus Cloudflare DNS, clarity of billing UX, and whether the $1 minimum or limits change under growth pressure.
+
+- **View:** Free DNS is an acquisition gateway; value comes from converting zones into paid CDN and security usage.
+- **Impact:** Small projects gain predictable authoritative DNS costs, while rivals face pressure to simplify metered-query pricing.
+- **Watch next:** Benchmark global latency and availability, document hard spending limits per product, and publish support or incident-response targets.

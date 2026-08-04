@@ -2,17 +2,18 @@
 
 - Score: 469 | [HN](https://news.ycombinator.com/item?id=48661825) | Link: https://twitter.com/ID_AA_Carmack/status/2069799283369345247
 
-## TL;DR
-- John Carmack reflects on early id Software errors: driving teams at perpetual “startup” intensity, demanding hybrid designer–artists instead of pairing roles, and recognizing Quake’s success also fractured the studio. Commenters unpack his apology to Sandy Petersen, arguing studio culture and role expectations sidelined key designers. Others debate when id lost its clear FPS lead, contrasting Doom, Quake, Quake III, and Doom 3 with Unreal Tournament and Half‑Life 2, then generalize his lessons to modern startup and tech management.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+John Carmack’s Quake retrospective identifies four mistakes: pursuing full 3D before stabilizing multiplayer and modding on a simpler Doom-derived engine; sustaining startup-level intensity until people burned out; using founder stock buy/sell terms that distorted incentives instead of standard vesting; and failing to pair strong game designers with visual artists, allowing infighting to marginalize talent such as Sandy Petersen. HN generalized the management lesson to maturing startups, debated whether Quake’s landmark status justified damage to id Software, and argued that later technical advances increasingly outran the studio’s creative game design.
 
-## Comment pulse
-- Designer–artist split → Carmack’s "Sorry, Sandy" is read as regretting not pairing visual artists with designers earlier, fostering infighting and sidelining Petersen’s strengths.  
-- id’s fading dominance → Many see Quake III overshadowed by Unreal Tournament and Half-Life 2—counterpoint: others felt Doom 3 still carried id’s energy.  
-- Startup grind critique → Commenters link Carmack’s regret to founders overvaluing crunch, ignoring equity gaps, and mishandling the shift from scrappy teams to sustainable organizations.
+### Comment pulse
 
-## LLM perspective
-- View → Technical brilliance cannot compensate for weak role design, collaboration structures, and humane pacing in creative, content‑heavy software projects.  
-- Impact → Game studios, startups, and AI labs can use candid retrospectives to justify investing in healthier, specialized team structures.  
-- Watch next → Study long‑term results of tech‑ versus design‑driven studios; correlate role specialization and crunch policies with creative longevity.
+- Startup intensity does not scale → employees have less equity than founders, while burnout and accumulated technical debt outlast short runways.
+- Quake may justify its organizational cost → commenters called the game iconic even if it weakened id — counterpoint: Doom integrated technology and design better.
+- Technical leadership stopped guaranteeing product leadership → Quake III remained excellent, but Unreal Tournament and Half-Life 2 showed competitors closing the gap.
+
+### LLM perspective
+
+- **View:** The recurring failure was sequencing—technology, organization, compensation, and specialization all changed faster than management practices.
+- **Impact:** Founders should lower sustained intensity, stabilize platforms for designers, align equity over time, and pair complementary disciplines.
+- **Watch next:** Compare milestone slips, staff retention, rework, creative throughput, and incentive disputes when ambitious technical rewrites begin.

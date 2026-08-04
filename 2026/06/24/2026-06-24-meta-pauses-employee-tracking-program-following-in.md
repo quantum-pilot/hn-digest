@@ -3,16 +3,17 @@
 - Score: 318 | [HN](https://news.ycombinator.com/item?id=48653575) | Link: https://www.wired.com/story/meta-pauses-employee-tracking-program-following-internal-security-breach/
 
 ### TL;DR
-Meta has paused an internal employee-tracking program after a leak showed full-screen recordings exposing private chats and performance data. The monitoring—apparently meant for productivity or compliance—sparked fierce criticism about Meta’s ethics and its treatment of both staff and users’ data. Commenters argue this level of surveillance normalizes a broader surveillance society and undermines trust, while leaks paradoxically both harm individuals and reveal the danger and blackmail potential of such datasets. Some note Meta’s valuable open-source tools but still view the company as reputationally toxic.  
 
-*Content unavailable; summarizing from title/comments.*
+Meta paused its Model Compatibility Initiative after databases containing employee-computer telemetry became accessible to more internal users than intended. Since April, MCI had collected US workers’ mouse movements, click locations, keystrokes, and screen content to train AI systems to operate software; participation initially lacked an opt-out. Meta says the June 18 exposure was addressed within four hours, required further locking down when the first fix failed, and shows no known improper access. HN viewed the incident as validation of employees’ privacy warnings and broader distrust of workplace surveillance.
 
 ### Comment pulse
-- Meta seen as uniquely shameless; some engineers refuse to consider applicants from there — counterpoint: its React and PyTorch projects are widely respected.  
-- Program captured entire screens, leaking private messages and ratings; if Meta risks employees’ data, commenters doubt it safeguards user data or integrations.  
-- Pervasive monitoring is a step toward surveillance; leaks expose its dangers and blackmail potential, undermining “nothing to hide” claims — counterpoint: they also harm innocents.  
+
+- Workplace monitoring erodes broader trust → commenters treated employee surveillance as evidence Meta cannot be trusted with customer or partner data.
+- Exposure may deter surveillance → some called leaks the only effective resistance — counterpoint: compromised dossiers can enable blackmail and fabricated investigations.
+- Nothing-to-hide arguments fail at work → surveillance can punish rule-following used as protest, not merely detect misconduct.
 
 ### LLM perspective
-- View: Monitoring knowledge workers via continuous screen recording is disproportionate; outcome-based management and sampling audits are safer and equally effective.  
-- Impact: This kind of leak pressures enterprises to adopt stricter privacy rules, minimization, and auditable logs for regulators or unions.  
-- Watch next: Market for privacy-preserving productivity tools, clear retention limits, and opt-in monitoring; plus potential employment-law challenges to intrusive tracking.
+
+- **View:** The security failure was foreseeable because raw interaction capture converts routine work into a high-value, context-rich surveillance dataset.
+- **Impact:** Employees, customers, and enterprise partners may demand opt-outs, minimization, retention limits, and demonstrable separation of sensitive content.
+- **Watch next:** Meta should disclose affected fields, access logs, retention, deletion, control testing, and whether MCI returns in redesigned form.
