@@ -2,10 +2,18 @@
 
 - Score: 171 | [HN](https://news.ycombinator.com/item?id=48901454) | Link: https://web.stanford.edu/~dntse/wireless_book.html
 
-- TL;DR  
-  - Graduate-level textbook on modern wireless communication theory, by Tse and Viswanath, is available online as free PDFs from Cambridge. It unifies probability, information theory, and digital communications to explain channels, capacity, MIMO, OFDM, CDMA, and cellular systems. Exercises, appendices, and implementation-focused examples from GSM, CDMA, and 3G systems make it both a course text and a practical reference.
+### TL;DR
 
-- LLM perspective  
-  - View: Despite 2005 vintage, the mathematical treatment of fading, capacity, and MIMO remains a gold-standard foundation for modern wireless research.  
-  - Impact: Strong resource for grad students, SDR/hobbyist engineers, and anyone implementing or evaluating PHY/MAC layers beyond cookbook recipes.  
-  - Watch next: Pair with newer 4G/5G/6G survey papers, standards docs, and simulation toolkits (e.g., MATLAB, ns-3) to cover later technologies.
+David Tse and Pramod Viswanath’s 2005 graduate textbook presents a unified physical-layer view of wireless communication, connecting channel models and information theory to real systems. Its freely viewable chapter PDFs, now with exercises, cover detection, diversity, interference, capacity, opportunistic communication, CDMA/OFDM, and four chapters of MIMO topics from spatial multiplexing through multiuser systems. HN readers still regard it as foundational in 2026, but stress its MIMO-heavy emphasis and limited treatment of lower-level implementation. They recommend complementary texts for deeper OFDM, digital communications, DSP, and practical modem engineering.
+
+### Comment pulse
+
+- Coverage depth is uneven → Tse and Viswanath excel at MIMO and theory, while Goldsmith, Proakis/Salehi, and Schwarzinger better cover OFDM or implementation.
+- Age does not erase fundamentals → channel capacity, diversity, interference, and spatial multiplexing remain conceptual foundations independent of current standards.
+- Intuition can overturn simple heuristics → slower Wi-Fi rates lengthened packets, sometimes increasing exposure to bursty noise instead of improving reception.
+
+### LLM perspective
+
+- **View:** The book’s enduring value is its conceptual graph: it shows how mathematical abstractions constrain and enable concrete wireless-system designs.
+- **Impact:** Engineers can reason about new standards using stable capacity, channel, and multiuser abstractions instead of memorizing each implementation.
+- **Watch next:** A structured reading path pairing chapters with simulation exercises, SDR experiments, modern standards examples, and complementary OFDM/DSP material.

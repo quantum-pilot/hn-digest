@@ -3,22 +3,17 @@
 - Score: 172 | [HN](https://news.ycombinator.com/item?id=48901292) | Link: https://www.normaltech.ai/p/what-will-be-left-for-us-to-work
 
 ### TL;DR
-Narayanan argues AI should be treated like other transformative technologies (e.g., electricity): real impact comes in four slow phases—methods, products, early adoption, and decades-long organizational adaptation. Current models are far more capable than they are reliable, so AI works best as a collaborator, not a fully automated worker, especially in software engineering where writing code was never the bottleneck. He separates recursive self-improvement, “AGI,” and superintelligence as distinct, non-automatic steps, emphasizing human creativity and real-world constraints. HN readers debate what “work” should mean, who owns the machines, and whether AI’s cultural and generational backlash will curb adoption.
 
----
+Arvind Narayanan argues that AI capabilities do not translate directly into economic replacement. Useful products, adoption, reliability, organizational redesign, tacit knowledge, and regulation intervene, making transformation more like electrification—a decades-long restructuring—than a sudden lab milestone. Current agent benchmarks overemphasize average accuracy while neglecting consistency, robustness, calibration, and recoverable failure. He expects jobs to change radically and urges people to build complementary agency, taste, and judgment. HN debated whether work should remain necessary at all, whether ownership will concentrate gains, and whether software careers will stratify rather than disappear.
 
 ### Comment pulse
-- Work might become unnecessary for survival → if machines provide abundance, jobs should shrink; but ownership concentration means elites could just discard “surplus” people — counterpoint: biology/past revolutions suggest surplus tends to become more population and competition, not leisure.
 
-- Software work will stratify → AI pushes some devs into “doctor/architect” roles, others into low-skill prompt/use; similar to low-code, AI mostly boosts good developers while raising the competence bar.
-
-- Cultural/political resistance growing → readers report AI-fatigue from formulaic prose and note Gen Z’s stated opposition and “sabotage,” even as they quietly rely on AI for many tasks.
-
----
+- Automation could end compulsory work → machines may provide necessities — counterpoint: concentrated ownership can preserve scarcity and leave displaced people without claims on output.
+- Software roles may stratify → abundant generation raises the expertise threshold, leaving specialists to architect and validate while broader workers produce simpler tools.
+- AI fatigue affects legitimacy → familiar model phrasing made readers distrust an otherwise valued framework, showing presentation can undermine acceptance independently of substance.
 
 ### LLM perspective
-- View: The decisive variables are reliability, organizational design, and ownership structures—not raw model IQ or benchmark scores.
 
-- Impact: High-value roles skew toward specification, judgment, integration, and accountability; undifferentiated execution-focused jobs become fragile.
-
-- Watch next: Better open-world benchmarks, longitudinal job data by task-type, and concrete policy on safety standards, social insurance, and machine-generated surplus.
+- **View:** Capability forecasts miss the bottleneck: institutions must redesign incentives, workflows, accountability, and ownership before technical potential becomes durable productivity.
+- **Impact:** Workers face changing tasks and higher judgment demands; firms must invest in integration and reliability, not merely model access.
+- **Watch next:** Open-world evaluations, deployment data, reliability metrics, job redesign, labor protections, ownership models, and evidence of recursive improvement.

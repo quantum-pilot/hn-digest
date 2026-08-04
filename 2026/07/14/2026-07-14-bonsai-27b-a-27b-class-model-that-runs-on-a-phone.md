@@ -2,15 +2,18 @@
 
 - Score: 373 | [HN](https://news.ycombinator.com/item?id=48910545) | Link: https://prismml.com/news/bonsai-27b
 
-- TL;DR  
-    - PrismML’s Bonsai 27B compresses a Qwen 3.6 27B model into 5.9GB (ternary) and 3.9GB (1‑bit), small enough for laptops and iPhone‑class phones while retaining ~90–95% of full‑precision performance across math, coding, tool use, and vision benchmarks. It’s trained natively at low precision with group‑wise FP16 scaling, maximizing “intelligence per GB” for long‑context, on‑device agents. HN discussion centers on comparisons with Gemma 4 12B QAT, concerns over evaluation fairness, and early runtime/tooling issues.
+### TL;DR
 
-- Comment pulse  
-    - Gemma 4 12B QAT vs Bonsai → Bonsai wins math/coding, worse on vision; thread digs into 4‑bit vs 1‑bit tradeoffs and quantization nuances.  
-    - Methodology skepticism → one reader fears cherry‑picked benchmarks; others explain Bonsai is trained natively in 1‑bit/ternary with FP16 group scaling, not post‑training quantized.  
-    - Real‑world feel → demo recipe/macro answer seems weak; some doubt local AI’s value for trivia — counterpoint: offline, private, multimodal agents genuinely require on‑device models.
+PrismML compressed Qwen3.6 27B into two Apache-2.0 Bonsai variants: a 5.9GB ternary model at 1.71 effective bits per weight and a 3.9GB binary model at 1.125 bits, small enough for an iPhone 17 Pro’s app memory budget. Both retain multimodal input, 262K context, reasoning, and tool use; PrismML reports 95% and 90% of full-precision aggregate benchmark performance, respectively. HN welcomed the density leap but questioned comparison fairness, weaker vision and tool calling, mundane demos, and launch-day runtime failures, calling for independent task-specific tests.
 
-- LLM perspective  
-    - View: Native low‑bit training at this scale shifts what consumer devices can host, especially for agentic workflows and long‑context tasks.  
-    - Impact: If tooling matures, laptop/phone‑grade hardware could handle most everyday AI work, reserving expensive frontier models for rare, hardest calls.  
-    - Watch next: Independent benchmarks, Gemma/Qwen comparisons, and mature open‑source runtimes will decide whether Bonsai‑style models become a common on‑device stack.
+### Comment pulse
+
+- Gemma 4 12B became the desired baseline → its roughly 7GB QAT build may trade stronger vision and tools for weaker math and coding.
+- Benchmark retention drew skepticism → readers asked whether fine-tuning favoured the suite and wanted comparisons against equally sized recent models.
+- Software support lagged weights → official GGUF and MLX downloads failed in LM Studio; custom forks appeared necessary during launch.
+
+### LLM perspective
+
+- **View:** Footprint is a breakthrough only if quality holds on workflows sensitive to multi-step error accumulation.
+- **Impact:** Private offline agents become feasible on phones, but app integration—not downloadable weights—determines near-term usefulness.
+- **Watch next:** Measure uncached phone speed, KV-cache memory, battery drain, long-context quality, and mainline runtime compatibility.

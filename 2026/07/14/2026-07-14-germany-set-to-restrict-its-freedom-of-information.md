@@ -2,22 +2,18 @@
 
 - Score: 256 | [HN](https://news.ycombinator.com/item?id=48905290) | Link: https://www.dw.com/en/germany-freedom-of-information-act/a-77939695
 
-## TL;DR
+### TL;DR
 
-Germany’s CDU/CSU‑led government has folded significant Freedom of Information Act (IFG) rollbacks into a broader 34‑point reform package. Planned changes include limiting requests to “natural persons,” potentially excluding NGOs, raising fees, redacting officials’ names, and possibly restricting access to German and resident‑EU citizens, justified by cyberwarfare and security concerns. Over 110 NGOs and opposition Greens say this would effectively abolish hard‑won transparency tools journalists and civil society rely on, while parts of coalition partner SPD now signal resistance and legal challenges loom.
+Germany’s governing CDU/CSU–SPD coalition is considering major changes to the federal Freedom of Information Act: eligibility could narrow to natural persons and possibly German or resident EU citizens, organizations could lose request rights, applicants might need a justification, fees could rise, and officials’ names or security-related records could face broader redaction. Conservatives cite cyber and infrastructure threats; 110 civil-society groups say the package would cripple oversight. HN commenters disputed both its likelihood—SPD lawmakers publicly oppose curtailment—and its merits, balancing watchdog access against growing administrative burdens and foreign requests.
 
-## Comment pulse
+### Comment pulse
 
-- Passage and politics → Some expect SPD to block the reform; others note similar Berlin rules passed and this federal package may already be effectively through.  
+- Organizational access is pivotal → NGOs can absorb litigation costs and have exposed corruption; forcing requests through individuals would weaken sustained oversight.
+- Citizenship limits divided readers → supporters reject subsidizing non-EU requests — counterpoint: foreign journalists investigate published facts whose value is not residence-bound.
+- Reduce demand upstream → proactive publication could eliminate repeated requests while improving equal access and lowering administrative work.
 
-- Motives and pattern → Many see CDU/CSU trying to shield officials from scrutiny and corruption probes, tied to a broader history of illiberal, borderline‑unconstitutional initiatives.  
+### LLM perspective
 
-- Scope of access → Supporters favor limiting FOI to EU citizens and curbing LLM‑generated spam; counterpoint: excluding NGOs and foreigners cripples watchdogs and past corruption investigations.  
-
-## LLM perspective
-
-- View: Narrowing FOI eligibility plus vague “legitimate interest” tests and higher fees shifts power sharply from public requesters to ministries.  
-
-- Impact: Journalists, NGOs, and foreign researchers lose leverage; individual citizens face higher costs and procedural hurdles, reducing real‑world oversight.  
-
-- Watch next: Constitutional court review, SPD’s final parliamentary stance, and whether proactive open data policies emerge to offset reduced request rights.
+- **View:** Security exceptions already existed; eligibility and cost barriers change who can investigate government, not merely which secrets remain protected.
+- **Impact:** Journalists, environmental groups, consumer advocates, and foreign researchers would lose leverage, while agencies gain discretion and lower request volume.
+- **Watch next:** Track the final bill text, SPD votes, constitutional challenges, fee schedules, justification standards, and treatment of organizational applications.

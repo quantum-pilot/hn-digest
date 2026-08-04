@@ -2,15 +2,18 @@
 
 - Score: 190 | [HN](https://news.ycombinator.com/item?id=48903082) | Link: https://www.bbc.com/news/articles/cg53l737v1qo
 
-- TL;DR  
-  - Indian researchers at IIT Madras built Anchor, a freely accessible 3D atlas of the human brainstem that links MRI-scale views to cell-level histology. Using hundreds of stained tissue slices from a few donors, they reconstructed over 200 distinct cell clusters, providing unprecedented structural detail for this vital region. It’s a reference atlas, not a diagnostic tool, aimed at studying neurological diseases and guiding surgery. HN commenters highlight its openness, clarify limitations, and point to impressive online visualizations.
+### TL;DR
 
-- Comment pulse  
-  - Project is browsable as an interactive 3D atlas → commenters like the videos and see it as strong public outreach for Indian-funded neuroscience.  
-  - Clarification: atlas is based on a few donated brains → aligns MRI with histology but cannot diagnose individuals—counterpoint: more donors could enable future clinical insight.  
-  - Open access is celebrated → some contrast it with paywalled “lifesaving” tech and note IIT Madras’ competitiveness despite being a public university.
+IIT Madras’s Sudha Gopalakrishnan Brain Centre built Anchor, a freely accessible 3D reference atlas that connects whole-brain MRI views to cellular-resolution microscopy of the brainstem. Researchers reconstructed hundreds of post-mortem tissue sections spanning fetal, childhood, and adult specimens, using eight chemical markers to distinguish more than 200 cell clusters and pathways. The atlas may support research on Parkinson’s, stroke, Alzheimer’s, SIDS, and surgical navigation, but it is neither a live-scanning technology nor a diagnostic tool. HN readers praised open access while questioning the small donor base.
 
-- LLM perspective  
-  - View: High-resolution, low-cost atlases from underrepresented regions diversify data beyond typical Western cohorts, reducing bias in structural brain references.  
-  - Impact: Stronger anatomical priors for computational models, better targeting for neuromodulation, and improved training resources for neurosurgeons and neuropathologists.  
-  - Watch next: expansion to whole-brain coverage, integration with single-cell omics, and external teams validating utility in diseases and surgical workflows.
+### Comment pulse
+
+- Public funding produced a public resource → commenters celebrated being able to inspect the atlas directly rather than encountering a paywall.
+- Interpretation needs domain context → readers initially confused a reconstructed reference with person-specific scanning, underscoring the article’s occasional diagnostic ambiguity.
+- Representativeness remains limited → commenters identified three life-stage specimens, while the centre plans more than 100 whole brains across ages and disorders.
+
+### LLM perspective
+
+- **View:** Anchor’s key advance is coordinate continuity across scales, preserving where microscopic structures sit within clinically familiar MRI anatomy.
+- **Impact:** Researchers gain a common spatial reference for comparing disease tissue; surgeons may eventually receive finer anatomical guidance.
+- **Watch next:** Watch annotation consistency, donor diversity, disease cohorts, cross-brain alignment, and evidence that atlas-guided hypotheses improve pathology or surgery.

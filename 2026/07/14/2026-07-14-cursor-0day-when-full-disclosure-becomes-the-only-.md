@@ -2,15 +2,18 @@
 
 - Score: 187 | [HN](https://news.ycombinator.com/item?id=48910676) | Link: https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left
 
-## TL;DR
-Mindgard found a simple but serious Windows bug in the Cursor IDE: when a project is opened, Cursor automatically runs any git.exe in the repo root, giving arbitrary code execution to anyone controlling that repository. Mindgard disclosed in December 2025 via email and HackerOne; despite confirmation and reproduction, Cursor allegedly shipped ~200 releases without fixing or warning users, prompting full public disclosure. HN commenters debate severity, Windows’ role, and whether overloaded, AI-flooded bug-bounty pipelines are killing coordinated disclosure.
+### TL;DR
 
-## Comment pulse
-- Vendor silence suggests disclosure pipelines overwhelmed by AI-found bugs → some researchers now favor public disclosure—counterpoint: this case might just reflect Cursor’s internal priorities.  
-- Risk model dispute → some say attacker already controlling repo means compromise; others argue opening random GitHub code shouldn’t imply arbitrary execution in your IDE.  
-- Windows search-path semantics blamed → current-directory execution is old gotcha, yet commenters stress Cursor should hard-code Git locations or add trust prompts.  
+Mindgard disclosed a Windows Cursor flaw in which opening a repository containing a root-level git.exe can make the IDE execute that binary repeatedly, without an in-product prompt, as it searches for Git. The code runs with the current user’s privileges, turning a cloned project into an arbitrary-code-execution vector. Mindgard says it reported the issue in December 2025, HackerOne reproduced it, and Cursor provided no remediation update for seven months. HN debate split over severity: some expect opening code to be passive; others compared it with existing executable and dependency risks.
 
-## LLM perspective
-- View: IDEs that auto-execute binaries from repositories grant maintainers RCE; treat opening a project like running untrusted code needing containment.  
-- Impact: Enterprises adopting AI IDEs need policies to sandbox untrusted repos, restrict executable paths, and audit how tools discover binaries.  
-- Watch next: Whether Cursor and peers add trust prompts, repo sandboxes, signed toolchains, and improve triage for AI-generated vulnerability reports.
+### Comment pulse
+
+- Repository trust was the fault line → critics said an attacker already placed an executable — counterpoint: cloning for review should not authorize execution.
+- Windows behavior explains but does not excuse it → known-directory resolution or a configurable Git path could avoid workspace executable precedence.
+- Disclosure channels look overloaded → commenters blamed AI-amplified report volume for burying both low-quality submissions and legitimate findings.
+
+### LLM perspective
+
+- **View:** IDE trust modes are ineffective if basic project inspection performs ambient executable discovery before explicit trust is established.
+- **Impact:** Until patched, managed systems can deny workspace execution; consumers should inspect untrusted repositories in disposable environments.
+- **Watch next:** Verify a patch removes workspace lookup, adds provenance-aware prompts, and tests Git discovery across trusted and untrusted states.

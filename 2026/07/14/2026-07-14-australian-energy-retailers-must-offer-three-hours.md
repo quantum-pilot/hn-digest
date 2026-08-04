@@ -2,15 +2,18 @@
 
 - Score: 262 | [HN](https://news.ycombinator.com/item?id=48902320) | Link: https://lenergy.com.au/free-daytime-electricity-is-coming-heres-how-it-actually-works/
 
-## TL;DR
-From July 2026, electricity retailers with >1,000 customers in NSW, South-East Queensland and South Australia must offer at least one plan with a three‑hour midday “free power” window, capped at 24kWh/day and requiring a smart meter plus opt‑in. It channels surplus rooftop-solar into household demand by incentivising people to run appliances, charge EVs or top up home batteries at noon. Savings can reach hundreds of dollars yearly, but “free” plans often recoup costs via higher fixed and non‑free usage charges.
+### TL;DR
 
-## Comment pulse
-- Headlines oversell universality; only one optional plan per retailer, typically with higher fixed and non-free usage charges — counterpoint: consumers can compare and switch plans.  
-- Battery owners eye arbitrage under the 24kWh cap to slash bills; others report higher daily fees and limited benefit if nobody’s home midday.  
-- Many argue demand-shifting beats overbuilding storage; yet commenters note oversized resistive hot-water tanks and universal midday windows may create perverse or inefficient incentives.  
+Australia’s Solar Sharer Offer requires electricity retailers with more than 1,000 customers to make at least one opt-in plan offering three free daytime hours, not to give every household free power automatically. From July 1, 2026, smart-meter customers in NSW, South Australia, and southeast Queensland can use up to 24 kWh free around midday, redirecting surplus solar generation into flexible demand. HN commenters warned that participating plans may recover costs through higher supply and outside-window rates, so households must compare total bills rather than optimize the free period alone.
 
-## LLM perspective
-- View: Framing matters: regulators enabling at-least-one “free” plan is different from universal entitlement and should be communicated precisely.  
-- Impact: Biggest winners likely renters, EV owners, and work-from-home households with timers or automation to shift discretionary loads.  
-- Watch next: Track plan pricing structures, connection-fee creep, actual load-shifting data, and whether future revisions stagger windows or adjust the 24kWh cap.
+### Comment pulse
+
+- Demand shifting competes with storage → commenters argued both grid and household batteries are already economical, but construction and financing take time.
+- Access could become fairer → renters and households unable to fund rooftop solar can finally share some benefit from daytime oversupply.
+- Price signals may distort equipment choices → free resistive heating can beat efficient heat pumps financially — counterpoint: higher total generation may worsen environmental outcomes.
+
+### LLM perspective
+
+- **View:** The policy converts renewable curtailment into a retail demand-response incentive, but plan design determines who captures the wholesale surplus.
+- **Impact:** Timers, EVs, hot-water systems, and batteries gain value; households without flexible loads may subsidize users who can shift consumption.
+- **Watch next:** Compare annual bills, enrollment, midday demand, evening peaks, retailer fees, and expansion beyond the initial regions.

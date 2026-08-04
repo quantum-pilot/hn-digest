@@ -3,9 +3,17 @@
 - Score: 215 | [HN](https://news.ycombinator.com/item?id=48900191) | Link: https://www.bbc.com/news/articles/cm2drrv6q54o
 
 ### TL;DR
-Emily Eden, sister of a British governor-general, spent 1836–42 traveling across northern India, sketching everyone from Sikh maharajas and Afghan exiles to servants, traders, and animals. Her work, later published as Portraits of the Princes and People of India (1844), provides a rare pre-photographic visual record of an empire and region in transition. A new Delhi exhibition, Princes & People, highlights both her artistic skill and the tension between her keen curiosity and her belief in Britain’s “civilising mission.”
+
+Emily Eden accompanied her brother, governor-general George Eden, across India from 1836 to 1842, recording rulers, servants, warriors, travellers, hill communities, animals, dress, and court life before photography dominated imperial documentation. Twenty-four sketches became hand-coloured lithographs in the 1844 *Portraits of the Princes and People of India*, now reunited in a Delhi exhibition. Her broad, precise attention preserved a society in political transition, including Ranjit Singh’s waning reign, yet coexisted with belief in Britain’s civilising mission. HN prized the record while seeking originals and wider histories.
+
+### Comment pulse
+
+- Material process interested readers → published images are lithographs derived from sketches, prompting curiosity about surviving originals and the shipboard watercolour.
+- Readers expanded the canon → they recommended William Dalrymple, the Empire podcast, Edwin Lord Weeks, and Frederick Catherwood for adjacent histories and art.
+- Colonial legacy split credit and blame → commenters praised linguistic, engineering, and administrative work — counterpoint: empire displaced costs onto subject societies.
 
 ### LLM perspective
-- View: Eden’s drawings function as early visual ethnography, but are shaped by colonial hierarchies and frequent misperceptions of people she depicted.  
-- Impact: Her rediscovery informs South Asian social history, Sikh and Afghan studies, and the history of women artists in the empire.  
-- Watch next: High-resolution digitisation with critical annotations and Indian scholarship can recontextualise her work beyond nostalgic imperial framing.
+
+- **View:** Eden’s work is valuable evidence precisely because observation and imperial ideology remain visible together.
+- **Impact:** Curators can recover named subjects and context, shifting portraits from costume studies toward individual histories.
+- **Watch next:** Compare lithographs with original sketches, letters, and Indian artists’ copies to identify editorial changes and reciprocal influence.

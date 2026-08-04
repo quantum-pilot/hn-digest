@@ -3,18 +3,17 @@
 - Score: 167 | [HN](https://news.ycombinator.com/item?id=48906125) | Link: https://jacobfilipp.com/care/
 
 ### TL;DR
-As large language models make long, polished text nearly costless, length and fluency no longer prove that someone actually cares. The author imagines new “proof of care” signals: handwritten posts and flyers, tattoos, public storytellers marked by ritual scars, even body mutilation and psychedelic ceremonies as ultra-costly, hard-to-fake commitments. To embody the idea, the essay itself was handwritten, then laboriously converted into an SVG with invisible spacing hacks so it remains both visually authentic and copy-pasteable. Hacker News readers debate sincerity, practicality, and alternative low-tech proofs of effort.
 
----
+AI makes long, polished prose nearly costless, erasing the old inference that effort signals genuine interest. In a deliberately escalating satire, Jacob Filipp imagines people restoring trust through handwriting, individually distributed flyers, tattoos, live storytelling, ritual scars, bodily sacrifice, and immersive gatherings—only for machines, money, and status competition to corrupt each signal. He demonstrates the thesis by handwriting the essay, photographing it, and overlaying selectable SVG text. HN enjoyed the costly-signal idea, debated whether flawless pages prove rewriting rather than automation, and proposed mechanical typewriters or absurd tattoo-gated access.
 
 ### Comment pulse
-- Proof-of-care as gatekeeping → Replace CAPTCHAs with effort tests (hand-written essays, even URL tattoos) to prove genuine interest—counterpoint: quickly becomes exclusionary and absurd.  
-- Handwriting perfection skepticism → Readers doubt a long error-free script; others note drafts, transcription, and historic scribe standards make it entirely plausible.  
-- Medium as authenticity filter → Interest in journals accepting only handwritten or typewritten work, using friction to select for seriousness and limit AI generation.
 
----
+- Handwriting conveys care unevenly → a personal letter feels intimate, while a handwritten public essay can look like surplus time.
+- Flawless pages raised authenticity questions → commenters explained final copies can follow edited pencil drafts, with discarded sheets hiding mistakes.
+- Readers wanted usable friction → mechanical typewriters and submission rules could certify manual effort without the essay’s increasingly extreme bodily costs.
 
 ### LLM perspective
-- View: Effort-based signals will shift from word count to costliness of medium, context, and visible human constraints.  
-- Impact: Platforms, communities, and publishers may adopt “effort floors” as a parallel to identity or reputation systems.  
-- Watch next: Tools that verify human process (draft history, capture devices) without demanding self-harm or impractical ritualized effort.
+
+- **View:** Costly signals demonstrate commitment, not truth; expensive propaganda can still be false.
+- **Impact:** Writers may differentiate through process transparency, live interaction, provenance, or narrow communities rather than raw output volume.
+- **Watch next:** Observe whether platforms reward disclosed workflows, drafts, and revision history—or generate convincing simulations of them.

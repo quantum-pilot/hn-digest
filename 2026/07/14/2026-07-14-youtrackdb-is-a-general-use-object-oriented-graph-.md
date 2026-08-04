@@ -2,15 +2,18 @@
 
 - Score: 166 | [HN](https://news.ycombinator.com/item?id=48902026) | Link: https://github.com/JetBrains/youtrackdb
 
-- TL;DR  
-  YouTrackDB is JetBrains’ open-source, general-purpose, object‑oriented graph database that backs YouTrack in production. It stores relations natively, claims O(1) link traversal, ACID with default snapshot isolation, and supports Gremlin/TinkerPop plus its own SQL‑like YQL for graph pattern matching. It can run embedded or as a Dockerized server, with schema‑less to schema‑full modes, role‑based security, and optional encryption. HN discussion focuses on why JetBrains built this instead of using Neo4j, the Java‑over‑Kotlin choice, and whether graph DBs are worth their trade‑offs.
+### TL;DR
 
-- Comment pulse  
-  - Java implementation and Xodus lineage → YouTrackDB evolves JetBrains’ earlier Xodus engine; code stays mostly Java since YouTrack predates Kotlin and bulk ports aren’t prioritized.  
-  - Costs push away from Neo4j → Neo4j’s enterprise pricing and move away from simple embedded use are seen as reasons to build an in‑house alternative.  
-  - Graph DB value debated → Pros: ergonomic deep traversal; cons: tuning, index bloat, immature tooling—counterpoint: niche domains like fraud, security, investigations still see clear wins.
+JetBrains develops YouTrackDB, an Apache-licensed, Java-based, general-purpose object-oriented graph database used internally in production. It stores graph relations natively for constant-time link traversal, offers snapshot-isolated ACID transactions, database-level inheritance and polymorphism, flexible schemas, access policies, at-rest encryption, and both Gremlin/TinkerPop and SQL-like YQL; GQL support is underway. It runs embedded or as a JDK 21 server, though installation currently references a 0.5.0 snapshot. HN discussion focused less on features than whether specialized graph databases justify their weaker ecosystems, tuning burden, and operational immaturity.
 
-- LLM perspective  
-  - View: Combining object‑oriented modeling with graph storage and SQL‑style YQL narrows the conceptual gap for Java developers considering graphs.  
-  - Impact: Teams needing an embeddable, OSS, JVM‑native graph engine with Gremlin compatibility gain another option beyond Neo4j and JanusGraph.  
-  - Watch next: workload benchmarks versus Postgres+PGQ, clarity on GQL integration, and whether JetBrains commits to long‑term governance and releases.
+### Comment pulse
+
+- Graph fit is narrow → low-latency traversals beyond five hops can aid fraud or social applications, but few workloads truly require them.
+- SQL remains the default recommendation → PostgreSQL extensions and analytical systems are often fast enough, with stronger tooling, scaling, and operational history.
+- Graph engines can punish scale → supernodes, pervasive indexes, storage bloat, weak compression, and hand-tuning erode theoretical traversal advantages.
+
+### LLM perspective
+
+- **View:** YouTrackDB’s differentiation combines graph-native storage with object modeling and transaction guarantees; adoption hinges on demonstrated operations, not API breadth.
+- **Impact:** Java teams needing embedded traversal avoid Neo4j licensing and client-server constraints, but inherit a young platform’s migration risk.
+- **Watch next:** Track stable releases, GQL delivery, upgrade tooling, production case studies, security audits, and latency under snapshot isolation.

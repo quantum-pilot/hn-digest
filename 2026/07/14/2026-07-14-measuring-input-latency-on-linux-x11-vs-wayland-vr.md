@@ -3,18 +3,17 @@
 - Score: 337 | [HN](https://news.ycombinator.com/item?id=48909424) | Link: https://marco-nett.de/blog/measuring-input-latency-on-linux-x11-vs-wayland-vrr-dxvk/
 
 ### TL;DR
-The author built a “click-to-photon” device (USB mouse emulator + light sensor) to measure true end-to-end gaming latency on Linux. On a 500 Hz QD‑OLED with an RTX 4070 and Diabotical via Proton/DXVK, native X11 and native Wayland are effectively tied: X11 is only 0.14–0.22 ms faster. The big levers are VRR (0.26–0.45 ms faster, less jitter), the DXVK low-latency fork (up to −0.84 ms uncapped), and avoiding XWayland, which adds ~3 ms and dominates other effects.
 
----
+A homemade click-to-photon meter used a 1,000 Hz USB mouse emulator and photodiode to test Diabotical on KDE, NVIDIA, and a 500 Hz display. Across eight capped CPU-bound cases, native X11 beat native Wayland by only 0.14–0.22 ms; VRR saved 0.26–0.45 ms and reduced jitter. DXVK’s low-latency fork saved about 0.20 ms capped and 0.84 ms uncapped, while XWayland added up to 3.13 ms. HN praised measurement over folklore but cautioned that one compositor, extreme refresh rate, static scenes, and best-case conditions limit generalization to slower or real-world setups.
 
 ### Comment pulse
-- Linux is great for this kind of deep measurement → open stack, data can feed upstream improvements — counterpoint: desktop complexity, theming, and UX regressions frustrate users.
-- Measured differences (except XWayland) are sub‑millisecond → many doubt humans can feel them; real pain likely on slower displays or poorly tuned stacks.
-- Perceived “Wayland slowness” likely from XWayland and compositor differences → need tests across more compositors, refresh rates, and real-world fluctuating workloads.
 
----
+- Native Wayland was not the main culprit → XWayland’s compatibility path dominated measured overhead, potentially explaining older reports that Wayland feels slow.
+- Refresh rate shapes interpretation → 500 Hz compresses frame-sized penalties — counterpoint: lower-rate displays may magnify VRR, pacing, or one-frame delays.
+- Objective latency and subjective feel serve different questions → instrumentation diagnoses causes and competitive effects, while controlled tests may miss common degraded states.
 
 ### LLM perspective
-- View: Treat “Wayland feels off” as a measurement problem; this kind of hardware-based benchmarking should become standard in gaming discussions.
-- Impact: Competitive gamers, Proton/DXVK maintainers, and compositor authors get concrete targets: kill XWayland lag, optimize VRR paths, refine frame pacing.
-- Watch next: Repeat tests at 60–240 Hz, on AMD + Intel GPUs, across GNOME/Hyprland/Gamescope, and under fluctuating in-game workloads.
+
+- **View:** Optimization folklore needs end-to-end testing because individually plausible tweaks can be negligible, context-dependent, or harmful.
+- **Impact:** Gamers can prioritize native display paths and VRR before chasing smaller differences among compositors, kernels, and frame pacers.
+- **Watch next:** Tests at 60–240 Hz, other compositors/GPUs, GPU-bound scenes, streaming, multiple monitors, frame-time disturbances, and blind perception.

@@ -2,19 +2,18 @@
 
 - Score: 406 | [HN](https://news.ycombinator.com/item?id=48905028) | Link: https://github.com/openai/codex/issues/28058
 
-## TL;DR
-Codex’s MultiAgentV2 now encrypts sub-agent task/message payloads end-to-end, storing only ciphertext in history. That means you can no longer see what instructions a parent agent gave to a spawned or messaged sub-agent, breaking auditability, debugging, and post-hoc analysis. The GitHub issue proposes a compromise: keep encrypted payloads for model delivery, but add a bounded plaintext “audit” field that’s stored locally and never sent to the child model. A prototype exists for `spawn_agent`; `send_message`/`followup_task` still need it.
+### TL;DR
 
----
+A Codex issue reports that MultiAgentV2 now encrypts `spawn_agent`, `send_message`, and `followup_task` payloads, leaving readable content empty in local rollout history, traces, and communication logs. Recipient models still get the message, but users cannot later inspect what was delegated or why a child thread existed. The proposed fix keeps encrypted delivery while persisting a bounded plaintext audit companion; a prototype covers spawning, with messaging work remaining. HN objected to opaque delegation on local machines, while speculative explanations included IP protection, cache transport, or training architecture; tool calls remain visible.
 
-## Comment pulse
-- Change = encrypted sub-agent prompts → rationale: protect orchestration prompts, RL traces, and possibly latent compaction blobs viewed as core IP rather than shareable text.  
-- Developers: this feels like DRM → rationale: user can’t inspect or debug instructions running on their own machine—counterpoint: some only care about tool calls, not prompt text.  
-- Alternative theory: mainly cache-key transport and responses-API–style obfuscation → rationale: aligns with OpenAI’s push away from transparent chat completions toward more opaque, provider-controlled reasoning endpoints.
+### Comment pulse
 
----
+- Auditability is the core regression → users lose task provenance needed to debug agent decisions, trace costs, and judge whether delegation was appropriate.
+- Local execution raised consent concerns → encrypted instructions can guide agents with shell access — counterpoint: observable tool calls still expose resulting actions.
+- Motives remained uncertain → commenters proposed cache efficiency, orchestration secrecy, and distillation defense, but the issue provides no confirmation.
 
-## LLM perspective
-- View: Encrypting sub-agent prompts without a local audit copy is a governance and debugging regression, even if motivated by IP or privacy concerns.  
-- Impact: Agent-framework users, security teams, and compliance auditors lose visibility into what autonomous agents actually executed.  
-- Watch next: Whether Codex adopts the proposed dual-field audit design broadly, or instead doubles down on fully opaque agent orchestration.
+### LLM perspective
+
+- **View:** Encryption and auditability are separate properties; recipient confidentiality need not erase a user-owned record of delegated intent.
+- **Impact:** Custom integrations lose replay and diagnosis fidelity, while enterprises face weaker governance over automated work in their environments.
+- **Watch next:** Audit fields across three tools, size limits, resume/replay tests, UI visibility, retention controls, and a documented threat model.

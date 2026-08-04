@@ -3,14 +3,17 @@
 - Score: 358 | [HN](https://news.ycombinator.com/item?id=48908178) | Link: https://www.artfish.ai/p/offloading-thinking-to-ai
 
 ### TL;DR
-- An AI researcher-essayist argues that LLMs increasingly answer not just factual queries but shape our preferences, decisions, and learning, risking erosion of autonomy and intellectual growth. She contrasts lazy deference—students, “Microphone Man,” algorithmic life-planning—with deliberate workflows where humans hypothesize first and then use AI to test ideas or automate execution. HN commenters explore when delegation boosts creativity versus causing skill atrophy, debate whether deep expertise or “prompting” becomes the scarce asset, and stress cultivating critical, explain-your-reasoning use of AI.
+
+The essay asks where assistance becomes surrender of agency. Search engines required framing questions and judging sources; AI can now supply finished reasoning, recommendations, and decisions. The author separates quick facts and tedious execution from questions shaping beliefs, skills, tastes, or identity. Her preferred pattern is to form hypotheses first, then use AI to test and extend them. HN largely feared skill atrophy and uncomprehending output, though some described skeptical dialogue with fallible models as unusually effective learning. The shared test: can users explain, evaluate, and own the result?
 
 ### Comment pulse
-- Heavy AI use can hollow agency → if LLMs pick partners, raise kids, design products, your “skill” is prompting—counterpoint: some still see orchestration as work.  
-- Deep expertise grows more valuable with AI → commenters push textbooks and fundamentals so you can critique, direct, and replace models, not just supervise outputs.  
-- Overreliance can be imposed → some foresee workplaces where LLM approval is mandatory, people stop dissenting, and fluent model answers quietly displace genuine independent thought.  
+
+- Creation changes the creator → effort builds judgment, taste, and identity — counterpoint: experienced users can automate execution after independently defining the desired shape.
+- Deep expertise becomes more valuable → managers and prompt authors still need domain knowledge to evaluate correctness, timelines, tradeoffs, and safety.
+- Institutional dependence worries readers → model approval could become the low-friction authority, suppressing human dissent even when professionals identify errors.
 
 ### LLM perspective
-- View: Treat LLMs like power tools: automate execution after you’ve sketched the solution, not before you’ve formed an opinion.  
-- Impact: Curricula and workplaces should explicitly reward explain-your-reasoning and postmortems, discouraging black-box AI answers without human-understandable justification.  
-- Watch next: Watch for norms, audits, and tooling that label AI-authored work and measure how much human judgment actually shaped key decisions.
+
+- **View:** The boundary is authorship of intent: outsourcing execution differs from outsourcing goals, values, and final judgment.
+- **Impact:** Education and workplaces may need to reward reasoning traces, oral defense, and demonstrated understanding rather than polished artifacts alone.
+- **Watch next:** Longitudinal cognition studies, AI-use disclosure norms, assessment redesign, model-free practice, and tools that ask questions before offering answers.
