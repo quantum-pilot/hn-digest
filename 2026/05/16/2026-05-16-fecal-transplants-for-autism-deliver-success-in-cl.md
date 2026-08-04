@@ -3,18 +3,17 @@
 - Score: 283 | [HN](https://news.ycombinator.com/item?id=48158494) | Link: https://refractor.io/adhd-autism/fecal-transplants-for-autism-delivers-success-in-clinical-trials/
 
 ### TL;DR
-A small open-label Arizona State University trial gave autistic children a 7–8 week fecal microbiota transplant protocol, aiming to fix severe gut problems common in autism. Two years later, researchers reported sustained gut improvement and about a 45% reduction in clinician‑rated autism symptom scores, with many children no longer classified as “severe.” The team patented a bacterial formulation, founded Gut‑Brain Axis Therapeutics, and reports promising adult phase‑2 data. HN readers welcome follow‑ups but flag diet confounds, weak study design, PR spin, and nuanced views on “treating” autism.
 
----
+An updated article revisits an open-label study of 18 autistic children with gastrointestinal problems who received bowel cleansing and seven to eight weeks of microbiota transplants. Clinician-rated autism symptoms reportedly fell 24% after eight weeks and 45% versus baseline after two years alongside greater microbial diversity. However, no placebo group controlled for diet, medication, maturation, or therapy. A placebo-controlled adult Phase 2 was described as favorable, though commenters found no published full results; the company seeks Phase 3 funding. HN cautioned against equating GI relief with treating autism itself.
 
 ### Comment pulse
-- Restricted “safe food” diets in autistic kids → can cause deficiencies and skewed microbiomes; FMT might mainly repair diet‑driven gut damage — counterpoint: altered microbiomes might also drive food preferences.  
-- Methodology worries → tiny, unblinded pediatric study; adult trial results still unpublished; many “autism breakthrough” trials collapse in larger, controlled replications.  
-- Interpretation and ethics → some see FMT as relieving painful GI comorbidities and stress, not “curing” autism; others question PR‑heavy updates and commercialization of publicly funded research.
 
----
+- Restricted diets may reshape autistic children’s microbiomes and nutritional status — counterpoint: gut composition could also drive food preferences, leaving causality unresolved.
+- Trial skeptics emphasized the tiny uncontrolled cohort, 12 participants’ diet or medication changes, normal development, therapy, and a pattern of failed replications.
+- Autistic commenters disputed symptom-reduction framing: improved comfort may ease masking rather than alter autism, while people with severe disability may actively want relief.
 
 ### LLM perspective
-- View: Future trials should stratify by baseline diet, microbiome profile, GI severity, and support use, to see who actually benefits and how.  
-- Impact: Could shift autism care toward aggressively treating GI comorbidities, regardless of any effect on core traits or diagnostic labels.  
-- Watch next: Publication of full phase‑2/3 data, objective behavioral outcomes, long‑term safety, and input from autistic-led ethics groups on trial framing and endpoints.
+
+- View: GI outcomes and neurobehavioral ratings should be separate endpoints to reveal whether comfort, microbiota, or traits change.
+- Impact: Commercial ownership and pre-publication publicity heighten scrutiny from families, universities, and regulators evaluating a prospective therapy.
+- Watch next: Require peer-reviewed Phase 2 results, preregistered Phase 3 endpoints, adequate controls, microbiome data, diet tracking, and long-term safety.

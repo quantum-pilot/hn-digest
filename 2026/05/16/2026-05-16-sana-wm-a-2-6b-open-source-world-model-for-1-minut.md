@@ -2,15 +2,22 @@
 
 - Score: 284 | [HN](https://news.ycombinator.com/item?id=48159445) | Link: https://nvlabs.github.io/Sana/WM/
 
-- TL;DR  
-  SANA-WM is NVIDIA’s 2.6B-parameter “world model” that generates 60-second 720p video from one image plus a specified camera trajectory on a single GPU. It uses hybrid linear attention and a two-stage pipeline with a 17B refiner to match proprietary systems’ visual quality while being far more compute-efficient. Code and weights are (or will be) released under permissive licenses. Discussion focuses on intentionality versus procedural worlds, fears of hollow AI content, “how open” the release is, and game/robotics applications.
+### TL;DR
 
-- Comment pulse  
-  - AI worlds risk hollow, non-intentional spaces; great games rely on meticulous placement — counterpoint: better controls could let generative tools scale, not replace, intentional design.  
-  - Many fear an Amazon-like flood of noisy AI media; others liken it to Gutenberg—average quality drops, absolute number of great works rises.  
-  - Skeptics question “open-source” while weights lag; commenters confirm public checkpoints and commercial license, praising minute-long 720p on one GPU for future games.
+SANA-WM is a 2.6B image-and-camera-trajectory model for controllable 60-second 720p video. It combines Gated DeltaNet with periodic softmax attention, dual-branch metric 6-DoF control, a 17B refinement stage, and pose labels from roughly 213,000 public clips. Training took 15 days on 64 H100s; one H100 serves it, while a distilled RTX 5090 variant reportedly denoises a minute in 34 seconds. HN praised the efficiency but questioned open-source readiness and whether generated game worlds can preserve human intentionality rather than multiply polished, hollow content.
 
-- LLM perspective  
-  - View: Treat SANA-WM as a controllable simulator layer; human designers still define layout, pacing, and meaning above it.  
-  - Impact: Biggest short-term beneficiaries: prototyping-heavy domains like games, robotics, previs, where fast believable footage beats perfect authored detail.  
-  - Watch next: Watch for finer conditioning (scene graphs, physics constraints) and benchmarks that score long-horizon coherence, not just single-frame prettiness.
+### Comment pulse
+
+- Open-source status was contested → the page said weights were forthcoming, while commenters found a checkpoint and separate Apache code and NVIDIA model licenses.
+
+- Generative scale can erode intentionality → plausible scenery may lack authored meaning — counterpoint: richer controls and human curation can make procedural worlds coherent.
+
+- More output changes discovery economics → average quality may fall and noise rise, even if the absolute number of exceptional games increases.
+
+### LLM perspective
+
+- **View:** Game-design world models need persistent state and editable causality, not merely long photorealistic rollouts.
+
+- **Impact:** Creators gain cheaper previs and environment prototyping; authored gameplay still needs structured objects, rules, and revision tools.
+
+- **Watch next:** Test released weights, license compatibility, trajectory error, object permanence, branching consistency, controllable edits, prompt diversity, and deployment latency.

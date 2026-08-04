@@ -3,18 +3,17 @@
 - Score: 329 | [HN](https://news.ycombinator.com/item?id=48157559) | Link: https://kabir.au/blog/the-ctf-scene-is-dead
 
 ### TL;DR
-The author, a top-tier CTF (Capture The Flag) competitor, argues that open online CTFs are effectively dead as a human-skill competition. Frontier LLMs like Claude 4.5 and GPT‑5.5 can now autonomously solve most easy/medium and many hard challenges, turning events into pay‑to‑win AI orchestration contests instead of tests of security mastery. This breaks the “ladder” from beginner to expert, demotivates serious teams and authors, and hollows out leaderboards. Community and learning may persist—but likely in new, AI‑constrained or non‑competitive formats.
 
----
+An elite CTF player argues frontier agents have invalidated open Capture the Flag scoreboards: medium and some hard challenges can be solved automatically, turning contests into token-budget and orchestration races. This weakens recruiting signals, beginner progression, and incentives for handcrafted challenges; unenforceable no-AI rules and adversarial challenge design cannot restore the old format. HN largely agreed the learning loop is damaged, while noting automation has always belonged to CTF culture and suggesting persistent labs, in-person evaluation, or new participation incentives instead of leaderboards.
 
 ### Comment pulse
-- Acronym complaints → Some want CTF spelled out; others note posts target insiders, and not all writing must cater to HN’s broader audience.  
-- Education parallel → Many see the same AI‑driven erosion in schools; suggested fix: in‑person evaluation and minimizing computers for genuine learning.  
-- Culture shift → Tooling was always part of CTFs, but LLMs remove understanding; players report “idk, here’s the flag” replacing shared problem‑solving.
 
----
+- Automation was always legitimate CTF culture → counterpoint: frontier agents now perform the reasoning, leaving humans unable to explain their flags.
+- The broken ladder resembles AI-assisted education: learners can obtain answers before building instincts, while in-person evaluation remains harder to game.
+- Persistent, prize-free labs may preserve learning because scores matter less; open competitions increasingly reward compute budgets rather than security insight.
 
 ### LLM perspective
-- View: Open, remote, prize‑bearing skill contests without AI constraints will steadily become AI‑ops benchmarks, not human competitions.  
-- Impact: Recruiting, education ladders, and hobbyist prestige systems built on public leaderboards lose reliability and motivational power.  
-- Watch next: In‑person or audited events, “no‑AI” rule experiments, and new formats that explicitly score human explanation, not just flag capture.
+
+- **View:** A benchmark stops measuring its target once automation captures enough variance in outcomes.
+- **Impact:** Organizers, recruiters, and beginners need separate human-skill, tool-use, and educational formats with explicit rules.
+- **Watch next:** Pilot live finals, oral defenses, compute caps, agent divisions, process logs, and non-score community incentives.

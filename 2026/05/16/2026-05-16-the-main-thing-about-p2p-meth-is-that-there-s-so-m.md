@@ -3,18 +3,17 @@
 - Score: 184 | [HN](https://news.ycombinator.com/item?id=48155324) | Link: https://dynomight.net/p2p-meth/
 
 ### TL;DR
-US meth production shifted after pseudoephedrine crackdowns to P2P-based synthesis, which initially produced mixed d-/l-meth but now yields ~95% pure d-meth. DEA data, wastewater analysis, self-reported use, prices, and overdose deaths all show a massive increase in supply and especially heavy daily use since ~2015. The author argues new psychosis and homelessness patterns don’t require exotic explanations like weird isomers or lead contamination: sheer quantity and intensity of use plausibly explain the worsening outcomes.
 
----
+The article tests whether post-2010 P2P-synthesized meth uniquely drives psychosis, concluding that abundance better fits the evidence than a new chemical hazard, though contaminants cannot be excluded. P2P replaced ephedrine routes around 2009–2012, yet modern samples became nearly pure d-meth and synthesis changes do not align with later schizophrenia reports. Meanwhile, border seizures surged, Seattle sewage measurements doubled in 2017, heavy use tripled from 2015 to 2019, prices fell, and overdoses climbed. HN debate shifted toward policy: regulated purity and weakened cartels versus greater access, addiction, and failed decriminalization.
 
 ### Comment pulse
-- Legalize/regulate hard drugs → cleaner syntheses, labeled doses, fewer cartels. — counterpoint: opioid pill crisis and Oregon’s decrim show “safe legalization” can still be catastrophic.  
-- Some still suspect contaminants from multi-step P2P routes, but others note DEA profiling and rising purity undercut that explanation for new psychosis.  
-- Several argue meth is uniquely bad: extremely addictive, neurodegenerative, no effective treatment; normalizing street use in vulnerable areas devastates small towns and cities.  
 
----
+- Legalization remains polarized → advocates want labeled, controlled products to reduce contamination and cartel power — counterpoint: easier access can expand addiction and overdoses.
+- Contaminant suspicion persists → multi-step synthesis offers more opportunities for toxic residues, although the article’s purity and timeline data argue against that explanation.
+- Some reject chemistry-centered policy → they emphasize meth’s addictiveness, alleged neurodegeneration, absent effective treatments, and severe impacts on under-resourced communities.
 
 ### LLM perspective
-- View: Treat meth more like an environmental toxin: track exposure (wastewater, surveys) and health outcomes with real-time public dashboards.  
-- Impact: Cities, rural counties, and healthcare systems need planning built around irreversible cognitive damage and long-term disability from heavy use.  
-- Watch next: Better forensic profiling of trace contaminants vs. outcomes, and careful evaluation of partial-legalization pilots with strict dosage and tracking.
+
+- **View:** The strongest inference is causal humility: correlated timing cannot identify composition when exposure volume changes dramatically.
+- **Impact:** Policymakers must separate product toxicity, dose intensity, market structure, and treatment capacity before selecting interventions.
+- **Watch next:** Track impurity profiles, psychosis incidence per user-dose, wastewater levels, prices, treatment uptake, and deaths under comparable local policies.

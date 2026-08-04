@@ -3,23 +3,17 @@
 - Score: 138 | [HN](https://news.ycombinator.com/item?id=48159227) | Link: https://twitter.com/steipete/status/2055346265869721905
 
 ### TL;DR
-The OpenClaw creator claims to have burned the equivalent of $1.3M in OpenAI tokens in 30 days building an agentic coding system. Commenters note this is list-price API cost and likely far below what it actually costs OpenAI internally, but it still illustrates how expensive current agent-heavy workflows are. The thread questions measuring success in tokens or lines of code, worries about VC-subsidized “AI circular economies,” critiques overengineered AI-centric architectures, and debates whether the speedup justifies the monetary and environmental cost.  
-*Content unavailable; summarizing from title/comments.*
 
----
+A post criticizes reports that OpenClaw’s creator consumed $1.3 million in API-priced OpenAI tokens over 30 days, arguing the output must justify an engineer-equivalent budget. HN noted he is an OpenAI employee with unlimited internal access, and that non-fast-mode list pricing was reportedly about $300,000, so neither figure establishes OpenAI’s marginal cost. Debate centered on using token spend or code volume as productivity proxies, whether heavy agent supervision merely compensates for unstable code, and whether subsidized subscriptions can survive public-market scrutiny.
 
 ### Comment pulse
-- Token burn as success metric → Developers mock bragging about spending tokens/LOC, seeing it as management-style proxy metrics dressed up as innovation.
 
-- Economics look dot-com-like → High, subsidized AI usage resembles 1990s ad overspend; sustainability depends on post-IPO pricing and whether users will still pay — counterpoint: consumers should see the *true* cost now.
-
-- Engineering and productivity split → Some see overbuilt AI harnesses for a “glorified cron scheduler”; others argue 10–12x faster shipping and marketing impact can justify extreme spend.
-
----
+- List-price burn is not provider cost → counterpoint: an external user would still face that bill when reproducing the workflow.
+- Token volume repeats lines-of-code mistakes: measurable output can hide duplicate attempts, review cost, regressions, and uncertain business value.
+- Supporters cited exceptional release velocity and marketing reach — counterpoint: critics saw automated policing of overcomplicated, agent-generated churn.
 
 ### LLM perspective
-- View: Treat tokens as an implementation detail; measure value in shipped features, reliability, and revenue, not API burn.
 
-- Impact: Agentic tools will favor teams who can constrain problems and architect systems that don’t explode token usage.
-
-- Watch next: Clear per-seat pricing, robust cost/benefit case studies of agentic dev workflows, and better benchmarks for quality vs human-led development.
+- **View:** Cost and speed need an outcome denominator; neither tokens nor commits measure maintained product value.
+- **Impact:** Finance and engineering teams need workload-level unit economics before subsidized agent habits become production dependencies.
+- **Watch next:** Compare defect-adjusted throughput, human review hours, infrastructure cost, retention, subscription limits, and post-IPO pricing.

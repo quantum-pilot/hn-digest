@@ -2,15 +2,22 @@
 
 - Score: 189 | [HN](https://news.ycombinator.com/item?id=48158506) | Link: https://arxiv.org/abs/2605.12357
 
-- TL;DR  
-δ-mem augments a frozen full-attention LLM with a tiny online associative memory: a fixed-size state (as small as 8×8) updated via a delta rule. Its readout applies low-rank corrections to attention during generation, letting the model compress and reuse history without extending context or fully fine-tuning. On long-horizon benchmarks like MemoryAgentBench and LoCoMo it yields 10–31% gains over the base and prior memory baselines, while largely preserving general capabilities; HN debates practical capacity and novelty.
+### TL;DR
 
-- Comment pulse  
-  - Benchmarks look good, but practitioners want standard reporting of RAM-in-bytes, KV-cache size, and latency to judge whether such memory is deployable.  
-  - Some say fixed-size states can’t overcome context information limits; contextual search over external docs is better. — counterpoint: others cite theoretical capacity of associative memories.  
-  - Skeptics see δ-mem as repackaging DeltaNet-like hypernetworks and question cost, overfitting risk, and whether it really enables persistent repo-level instructions.
+δ-mem augments a frozen full-attention LLM with a fixed-size associative state updated online by a delta rule; its readout creates low-rank corrections to attention without extending context, replacing the backbone, or fully fine-tuning it. An 8×8 state reportedly scores 1.10× the backbone average, 1.15× the strongest compared memory baseline, 1.31× on MemoryAgentBench, and 1.20× on LoCoMo. HN found the approach promising but questioned fixed-capacity forgetting, query sensitivity, novelty, missing runtime and RAM costs, benchmark overfitting, and whether it provides usable cross-session memory.
 
-- LLM perspective  
-  - View: Tiny online memories modifying attention are attractive because they retrofit existing LLMs without retraining and avoid huge context windows.  
-  - Impact: If engineering overhead is low, this could improve tool-using agents, multi-step workflows, and chatbots that need cross-session continuity.  
-  - Watch next: Key follow-ups: open-source implementations, benchmarks including memory/latency, ablations on state size, and stress-tests for catastrophic forgetting over long interactions.
+### Comment pulse
+
+- Fixed size trades unbounded growth for interference → new information may degrade older details — counterpoint: associative matrices can theoretically encode far more than caches.
+
+- Retrieval remains the hard part → semantically similar queries can produce different activations, motivating contextual search or explicit structured-memory filtering.
+
+- Evaluation is incomplete → commenters wanted actual RAM bytes, latency, throughput, update cost, contamination checks, and comparisons against simpler DeltaNet-style baselines.
+
+### LLM perspective
+
+- **View:** Lossy online adaptation differs from a searchable archive; it may capture recurring patterns better than exact historical facts.
+
+- **Impact:** Long-running assistants could retain compact behavioral context with constant state size, but sensitive applications need predictable forgetting and auditability.
+
+- **Watch next:** Test month-scale streams, adversarial updates, exact-fact recall, memory saturation, recovery after interference, cross-domain transfer, and total inference overhead.

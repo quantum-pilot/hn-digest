@@ -3,11 +3,17 @@
 - Score: 199 | [HN](https://news.ycombinator.com/item?id=48160807) | Link: https://www.seangoedecke.com/steering-vectors/
 
 ### TL;DR
-The post argues that DeepSeek-V4-Flash, via the DwarfStar 4 project, finally makes serious “steering” experiments viable on a strong local model. Steering means identifying activation patterns that encode concepts (e.g., terseness) and adding or suppressing them at inference time, instead of relying on prompts or retraining. The author explains simple vector-difference steering and feature-based methods, but is skeptical it can unlock deep traits like “intelligence” or “codebase knowledge,” predicting prompting and fine-tuning will usually win—while still expecting rapid experimentation now that tooling exists.
 
----
+Sean Goedecke argues DeepSeek-V4-Flash and DwarfStar 4 make activation steering practical for a locally runnable, coding-capable model. Steering derives vectors from activation differences, then applies them during inference to amplify behaviors. He doubts ordinary style controls beat prompting or complex goals beat fine-tuning, but sees possible context compression and “unpromptable” controls. HN highlighted the concrete counterexample: runtime steering can suppress refusal only when needed, avoiding the broader capability damage of permanently altered weights while exposing controls frontier APIs hide.
+
+### Comment pulse
+
+- Runtime refusal control is already practical → conditional steering can avoid the capability loss of permanently ablating or republishing model weights.
+- DwarfStar 4 is independent but indebted to llama.cpp, sharing some kernels, formats, and engineering knowledge rather than being a stripped-down fork.
+- Users want hidden inference knobs exposed → counterpoint: dynamic uncensoring also removes safeguards, making access and release policy contentious.
 
 ### LLM perspective
-- View: Treat steering as targeted, reversible, runtime fine-tuning rather than magic dials for “intelligence” or broad skills.  
-- Impact: Most useful for niche behaviors—refusal removal, style control, domain quirks—on locally run open models.  
-- Watch next: Standardized steering-vector libraries, benchmarks comparing steering vs prompts/fine-tunes, and safety work on de-refusal and uncensoring techniques.
+
+- **View:** Steering matters most where prompts cannot reach a behavior and full fine-tuning is unnecessarily destructive.
+- **Impact:** Local-model users gain reversible, phase-specific controls; providers face pressure to expose comparable interfaces.
+- **Watch next:** Benchmark refusal suppression, capability degradation, vector portability, threshold activation, codebase compression, and agent-task outcomes.

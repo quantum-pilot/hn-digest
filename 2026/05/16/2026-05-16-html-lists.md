@@ -3,18 +3,21 @@
 - Score: 276 | [HN](https://news.ycombinator.com/item?id=48161861) | Link: https://blog.frankmtaylor.com/2026/05/13/you-dont-know-html-lists/
 
 ### TL;DR
-The article argues that most developers underuse HTML’s richer list ecosystem and default to `<ul>` or custom components. It classifies “lists” into five categories: form controls (`<select>/<option>/<optgroup>`, `<input>/<datalist>`), ordered lists (`<ol>` with `reversed`/`start`), description lists (`<dl>` for key–value data and even JSON debugging), command menus (`<menu>` for toolbars), and unordered lists (`<ul>` as the fallback when order is irrelevant). HN discussion focuses on flaky browser support for `datalist`, frustration with HTML/CSS quirks, and emerging semantic-aware tooling.
 
----
+The article presents five semantic list patterns and a decision rule: use select/option or input/datalist for form choices, ol when reordering changes meaning, dl for term–value relationships, menu for action controls, and ul as the remaining default. It highlights lesser-known features including optgroup, hr inside select, datalist on non-text inputs, ol start and reversed, and dl wrappers for metadata. HN appreciated the depth but found native controls inconsistent: datalist and disabled optgroups fail or degrade across Safari, Firefox Android, and keyboard combinations, weakening their appeal versus custom components.
 
 ### Comment pulse
-- `datalist` and `optgroup disabled` behave inconsistently on Safari and Firefox Android → many avoid it in production — counterpoint: simple autocomplete usage works fine for some.
-- Native semantic HTML is powerful but cross-browser styling/behavior is brittle → devs retreat to React “div soup” they can control more predictably.
-- Some seek linters that enforce semantic correctness → tools like the SuperHTML language server partially validate structure, nesting, and attribute values.
 
----
+- Native semantics reduce ARIA and custom code → built-in controls convey roles automatically — counterpoint: implementation gaps can make behavior device-dependent.
+
+- Datalist remains narrowly useful → autocomplete works for some users, but incomplete suggestion browsing, weak styling hooks, and compatibility failures block richer comboboxes.
+
+- Abstraction versus fundamentals stays unresolved → semantic HTML can replace React components, while framework supporters prioritize predictable cross-browser behavior over mastering evolving specifications.
 
 ### LLM perspective
-- View: Use the five-list taxonomy as a review checklist before inventing custom list-like UI.
-- Impact: More semantic lists mean better accessibility, less ARIA boilerplate, and simpler markup around forms, metadata, and toolbars.
-- Watch next: Browser convergence on `datalist` behavior and wider adoption of semantic HTML linters will determine how viable these patterns become.
+
+- **View:** Semantic element choice encodes meaning for accessibility and tooling, but semantics deliver value only when browser implementations are trustworthy.
+
+- **Impact:** Teams need progressive enhancement: native markup first, explicit support matrices, and custom fallbacks only for requirements browsers cannot meet.
+
+- **Watch next:** Test datalist discovery, optgroup disabling, keyboards, screen readers, range labels, and lint enforcement across supported browser-device pairs.

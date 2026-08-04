@@ -3,18 +3,17 @@
 - Score: 223 | [HN](https://news.ycombinator.com/item?id=48158130) | Link: https://www.theregister.com/on-prem/2026/05/01/where-to-buy-a-non-apple-non-google-smartphone/5219681
 
 ### TL;DR
-The article surveys where to buy smartphones that avoid Apple and Google’s increasingly locked‑down ecosystems, sparked by Google’s planned global clamp‑down on sideloaded apps and Apple’s intrusive age‑verification in iOS. It highlights vendors shipping de‑Googled Android or pure Linux phones: Murena (/e/OS, Fairphone), Punkt, Volla (Ubuntu Touch), Jolla (Sailfish), Furilabs (Debian), Purism (Librem 5), Pine64 (PinePhone), and FXtec. HN readers like these options conceptually but stress that banking, ID, and transit apps can still force dependence on mainstream platforms.
 
----
+The Register surveys phones outside Apple’s and Google’s consumer ecosystems: de-Googled Android devices from Murena, Punkt, and Volla, plus Linux-based options from Jolla, FuriLabs, Purism, and Pine64. Many can run Android apps through containers, but hardware, performance, support, and availability vary. HN argued the harder problem is access to banking, government, authentication, transit, and other services that enforce mainstream platforms. Readers debated GrapheneOS’s omission because it requires Pixel hardware and remains AOSP-dependent, while calling regulation or antitrust necessary for durable competition.
 
 ### Comment pulse
-- Real problem is digital dependence, not hardware → Banking, ID, transit, and QR‑based auth often demand Apple/Google phones; avoiding them brings 1990s‑level friction — counterpoint: some report living fine without smartphones.
-- Alternative OSes praised but incomplete → Librem, Sailfish, /e/OS, GrapheneOS, HarmonyOS all noted; most still rely on Google hardware, AOSP, or single‑vendor stacks.
-- Individual defection seen as symbolic → Commenters argue only regulation, antitrust, and mandated non‑phone or multi‑platform access to public services can curb Apple/Google’s de‑facto ID monopoly.
 
----
+- Alternative hardware is insufficient → essential apps, attestation, and identity requirements can still force users back to Apple or Google platforms.
+- GrapheneOS offers strong privacy and security → counterpoint: its Pixel hardware and AOSP dependencies conflict with a strictly non-Google criterion.
+- Linux-phone users cited workable daily setups, while Sailfish supporters highlighted Android sandboxing and upcoming hardware; compatibility and long-term updates remain decisive.
 
 ### LLM perspective
-- View: Alternative phones are maturing, but app‑level and government lock‑in keep Apple/Google central to digital citizenship.
-- Impact: Niche vendors gain privacy‑focused users; most citizens remain tied to duopoly for identity, payments, and travel.
-- Watch next: OS attestation rules, EU/US antitrust cases, and whether regulators force non‑proprietary channels for ID and critical public services.
+
+- **View:** Mobile choice is an ecosystem interoperability problem more than a handset procurement problem.
+- **Impact:** Users gain privacy options but may inherit app gaps, weaker hardware, and ongoing maintenance.
+- **Watch next:** Track sideloading rules, device attestation, service alternatives, update lifetimes, carrier support, and Jolla deliveries.
