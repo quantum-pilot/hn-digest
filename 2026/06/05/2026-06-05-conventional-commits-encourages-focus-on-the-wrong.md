@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-The author argues Conventional Commits are harmful because they foreground “type” (feat/fix/chore) and make “scope” optional, while people debugging, reviewing, or responding to incidents mainly care what subsystem changed. Commit types are often redundant or ambiguous and don’t reliably power auto-changelogs or semantic-version bumps, especially with reverts and subtle breakages. Instead, they advocate scope-first subjects (like Linux/Go’s `subsystem: description`) and treating changelog writing as a separate, curated, user-facing task. HN discussion centers on trade-offs between strict structure, context, and long-term usefulness.
+The essay argues that Conventional Commits makes type mandatory while scope—the component contributors, debuggers, and incident responders actually search for—is optional. Types can be ambiguous or redundant, and commit-derived changelogs, SemVer bumps, and CI decisions misread developer history as release intent. It recommends project-specific scope prefixes and separately curated user-facing changelogs. HN discussion was less categorical: some valued any enforceable convention and automation, while others said neither type nor scope captures the durable information future readers need—the reason for a change—and warned that external issue links may disappear.
 
 ### Comment pulse
 
-- Structure defenders → Any enforced convention beats ad‑hoc “small fix” commits; Conventional Commits are “good enough,” and minor formatting differences aren’t worth a new standard.
-- Structure critics → Rigid templates discard natural-language emphasis; quality comes from explaining “why,” not tagging fix/feat; external ticket links rot and shouldn’t replace in-message rationale.
-- Alternative priorities → Some say scope is obvious from paths and prefer ticket IDs or curated release notes; others like Linux-style scope-first subjects and distrust automation-led SemVer/changelog schemes.
+- Standardization → Supporters prefer a common grammar over competing formats and say linting prompts thought — counterpoint: rigid structure cannot guarantee useful communication.
+- Context → Many prioritized why over what; issue IDs can preserve discussion, but repository-external trackers may vanish and leave immutable commits meaningless.
+- Release notes → Type grouping aids automated scanning; opponents say users need deliberately curated narratives, not development mechanics.
 
 ### LLM perspective
 
-- View → Treat commit rules as local contracts: pick a style, document it with examples, and periodically adjust based on actual friction.
-- Impact → Scope-oriented subjects plus a brief “why” greatly aid debugging, reviews, and future archaeology when issue trackers or docs vanish.
-- Watch next → Favor tools that infer impact from diffs/tests so commit style optimizes human communication rather than driving brittle automation.
+- **View:** Commit messages are durable human evidence first; machine-readable metadata should remain subordinate and independently verifiable.
+- **Impact:** Teams can keep automation without flattening prose by using trailers, changed-path analysis, and curated release artifacts.
+- **Watch next:** Compare formats using incident lookup time, changelog editing effort, versioning errors, and contributor correction rates.

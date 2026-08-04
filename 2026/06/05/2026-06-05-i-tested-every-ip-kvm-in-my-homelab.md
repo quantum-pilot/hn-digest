@@ -3,18 +3,17 @@
 - Score: 222 | [HN](https://news.ycombinator.com/item?id=48413072) | Link: https://www.jeffgeerling.com/blog/2026/i-tested-every-ip-kvm/
 
 ### TL;DR
-Geerling surveys the booming ecosystem of IP KVMs—from $25 DIY-ish USB dongles to $400 Pi-based, enterprise-ready units—and explains when you need them over SSH/RDP: BIOS access, crashed OSes, and machines you must reach “no matter what.” He compares PiKVM, JetKVM, GL.iNet, Sipeed, TinyPilot and others on price, resolution, PoE, passthrough, USB vs LAN, and openness. Security risks are emphasized: these devices are remote backdoors, some with serious past vulnerabilities. His daily driver: JetKVM; gold standard: PiKVM.
 
----
+IP KVMs provide keyboard, video, mouse, and BIOS access even when a target OS is frozen or off; many add power control, but all create privileged network attack surfaces. Jeff Geerling compares PiKVM, JetKVM, GL.iNet, NanoKVM, TinyPilot, forks, and direct-USB options from $25 to $499. He favors JetKVM for everyday use and PiKVM for an open, flexible stack despite its price, advising buyers to prioritize ports, PoE, passthrough, power control, support, and trust. HN added production evidence that low-level USB correctness, network isolation, and platform compatibility can outweigh headline features.
 
 ### Comment pulse
-- PiKVM is “gold standard” → rock-solid USB behavior, very hackable, supports original authors; GL.iNet forks are cheaper but had protocol bugs and are less customizable.
-- JetKVM appreciated → polished hardware and software; confusion over new PoE/full-HDMI revision since naming and SKUs don’t clearly distinguish versions.
-- Intel vPro/AMT raised as alternative → powerful firmware-level KVM, but rarely present/enabled on consumer gear and risky if not tightly controlled.
 
----
+- Reliability → A refurbisher replaced about 10 GL.iNet units after one ThinkPad rejected malformed USB input; PiKVM passed analyzer testing and offered easier customization.
+- Exposure → One user blocks KVM Internet access and reaches it through Tailscale, aligning with the article’s advice to isolate and update devices.
+- Alternatives → Intel vPro offers preboot management without an add-on, but needs compatible CPU, chipset, BIOS enablement, and equally strict network controls.
 
 ### LLM perspective
-- View: Feature checklists matter, but trust (vendor, firmware, update cadence) is the real deciding factor for out-of-band access tools.
-- Impact: These devices let homelabs and small orgs get near-iDRAC/iLO-class control without buying server hardware, shifting how they design remote infrastructure.
-- Watch next: Independent security reviews, clearer open-source compliance, and unified management dashboards for fleets of heterogeneous IP KVMs.
+
+- **View:** A remote console is infrastructure, not a gadget; deterministic HID behavior and maintainable firmware matter more than UI polish.
+- **Impact:** Homelabs gain recovery independence from host software; businesses can automate BIOS workflows, but compromise reaches below the operating system.
+- **Watch next:** Vendor CVE response, signed updates, local-only operation, USB compliance, model identifiers, multi-device management, and long-term upstream support.

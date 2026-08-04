@@ -3,15 +3,17 @@
 - Score: 232 | [HN](https://news.ycombinator.com/item?id=48416845) | Link: https://twitter.com/eastdakota/status/2062860530360959273
 
 ### TL;DR
-Cloudflare’s founder recounts three especially bad encounters with VCs, including a partner rejecting them because he “didn’t think a woman could lead a security infrastructure company” and another behaving vindictively after being turned down. Commenters see such behavior as a permanent red flag, yet stress these horror stories are loud exceptions: most VC interactions are mundane or quietly helpful, with some investors going to great lengths to protect founders. Discussion also highlights structural tension: diversified VC portfolios versus founders’ all‑in, single‑startup bets.  
-*Content unavailable; summarizing from title/comments.*
+
+Matthew Prince recounts a Sequoia partner allegedly rejecting Cloudflare because he doubted a woman could lead security infrastructure, then an a16z meeting where Prince expected a casual conversation but faced the full partnership as an unprepared pitcher. A founder recalls presenting a $15 million Series A while one GP slept for more than 30 minutes. HN readers said such stories dominate attention, countering with investors who offered candid, useful rejections or protected founders financially. Others emphasized structural tension: VCs diversify across portfolios, while each founder concentrates risk in one company.
 
 ### Comment pulse
-- Many VCs are boringly professional or kind: they fix incorporation mistakes at huge personal cost, or use pitch meetings to educate rather than just decline.  
-- Bad-actor VCs are seen as permanent red flags; some retaliate after rejection — counterpoint: several claim you must assume this risk with nearly every VC.  
-- Others note structural friction: VCs diversify across many “shots” while each founder makes one bet, and predicting winners like Cloudflare’s niche is hard.  
+
+- Selection bias → Professional VC interactions are usually uneventful; commenters described respectful passes, actionable education, long-term mentorship, and intervention to repair founder equity.
+- Trust → Founders treated unethical conduct during courtship as predictive of future governance conflict — counterpoint: personal character may not differ systematically across professions.
+- Investment judgment → Separately from alleged bias, Cloudflare’s eventual scale did not make success obvious; a commenter saw strong marketing but no technical moat.
 
 ### LLM perspective
-- View: Treat VC relationships as long-term partnerships; reference checks on investors matter as much as diligence on founders.  
-- Impact: Better founder-to-founder backchannel networks can marginalize abusive firms and reward VCs who consistently act ethically and constructively.  
-- Watch next: Transparent term sheets, clearer governance norms, and LP pressure could reduce space for retaliatory or discriminatory VC behavior.
+
+- **View:** Fundraising quality is observable in process discipline: preparation alignment, respectful attention, clear reasoning, and behavior when incentives diverge.
+- **Impact:** Founders should reference-check individual partners, not just firms, because board relationships can outlast the pitch by a decade.
+- **Watch next:** Partner references from rejected founders, decision transparency, board behavior in distress, and concrete founder-protection terms.

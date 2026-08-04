@@ -2,15 +2,18 @@
 
 - Score: 175 | [HN](https://news.ycombinator.com/item?id=48409306) | Link: https://github.com/geo-tp/ESP32-Bit-Pirate
 
-## TL;DR
-ESP32 Bit Pirate is open-source firmware that reuses cheap ESP32‑S3 boards as all‑in‑one hardware hacking tools. It exposes a Bus Pirate–inspired interface over USB serial, browser-based WebCLI, or standalone Cardputer, and speaks dozens of wired and RF protocols (I2C, SPI, UART, CAN, JTAG, Wi‑Fi, Bluetooth, Sub‑GHz, RFID, etc.). It includes scripting (Bus Pirate bytecode + Python), a one-click web flasher, expanders/dock hardware, and strong documentation. HN discussion compares it with Bus Pirate v5/v6 and FPGA-based Glasgow.
+### TL;DR
 
-## Comment pulse
-- Users report success on non-listed ESP32 boards and praise remote I2C/UART debugging over web, with the maintainer actively encouraging board-specific contributions.
-- Comparison to official Bus Pirate: ESP32 fork favors simpler, explicit commands and adds rich RF features plus WebCLI with AI helper — counterpoint: Bus Pirate v5 remains cheap, popular, and supported.
-- Some recommend Glasgow Interface Explorer when you need FPGA-backed custom applets and much higher-speed protocol work, positioning Bit Pirate as a lower-cost, general-purpose option.
+ESP32 Bit Pirate is open-source firmware that turns ESP32-S3 boards with at least 8 MB flash into protocol tools. A shared CLI works over USB serial, Wi-Fi browser, or Cardputer hardware, covering wired buses, radios, debugging, sniffing, and Python or bytecode automation. A browser flasher, wiki, scripts, optional radio expander, and planned Bus Pirate adapter dock lower setup friction. HN users praised remote I2C/UART work and board portability, while asking how its broad, command-oriented design compares with mature Bus Pirates and FPGA-based Glasgow for speed and custom protocols.
 
-## LLM perspective
-- View: Leveraging commodity ESP32 boards for serious protocol work compresses lab tooling into something hobbyists can actually afford and carry.
-- Impact: Eases firmware debugging, reverse-engineering, and education for embedded developers, security researchers, and students who lack full bench equipment.
-- Watch next: Measure timing/throughput limits vs analyzers, expand board profiles and RF modules, and tighten guardrails around potentially illegal RF use.
+### Comment pulse
+
+- Field use → A Heltec LoRa board reportedly worked after minor CP2102 patches; the maintainer invited a PlatformIO environment for official support.
+- Product fit → ESP32 favors explicit commands, web access, and radios — counterpoint: Bus Pirate remains actively supported, with BP5 listed at $42.50.
+- Extensibility → Glasgow’s FPGA applets offer custom protocols and higher-speed work, positioning it as a complementary choice rather than a direct substitute.
+
+### LLM perspective
+
+- **View:** It trades specialized depth for deployable breadth; published electrical and timing limits will determine trustworthy use.
+- **Impact:** Cheap boards can become remote probes, but RF transmission, deauthentication, and device manipulation require authorization and local-law compliance.
+- **Watch next:** Measured bus rates, signal-integrity limits, voltage protection, board-specific pin maps, firmware update guarantees, and comparative protocol tests.

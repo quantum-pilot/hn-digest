@@ -2,15 +2,18 @@
 
 - Score: 354 | [HN](https://news.ycombinator.com/item?id=48409664) | Link: https://arxiv.org/abs/2606.03673
 
-## TL;DR
-Researchers used data from ground GNSS reference stations (2019–2026) to detect and triangulate large, transient navigation-signal disruptions over Europe, Greenland, and Canada. By analyzing received power and time-difference-of-arrival patterns, they traced the interference to Russian early-warning satellites in highly elliptical Molniya orbits, pinpointing Cosmos 2546 and the broader EKS constellation as responsible. HN discussion focuses on Russia’s wider GNSS jamming, legal and military options, competing explanations for the signals, and real-world incidents attributed to interference.
+### TL;DR
 
-## Comment pulse
-- Identifying specific Russian satellites as the source → Enables diplomatic pressure under space treaties and theoretical countermeasures (EW, hacking, anti-satellite), though escalation risks are high.  
-- Interference purpose debated → Some see coercive GNSS jamming; others, following the Veritasium analysis, suspect nearby-band communications for Russia’s early‑warning network—counterpoint: disruption footprint seems large.  
-- On-the-ground effects emerging → Commenters report jamming near Kaliningrad and speculate Russian EW steered Ukrainian drones near Constanța by degrading GPS and control links.  
+Researchers analyzed GNSS reference-station data from 2019–2026 to detect and localize scores of brief, continent-scale interference events across Europe, Greenland, and Canada. Combining received-power patterns with time-difference-of-arrival measurements, they identified Russia’s EKS early-warning satellites in Molniya orbits as the likely collective source; Cosmos 2546 was tied to some events but launched after the series began. HN readers connected the result to recurring disruption near Kaliningrad and Ukraine, while debating whether the emissions are deliberate jamming, routine communications near GNSS bands, or capability tests.
 
-## LLM perspective
-- View: Civilian GNSS reference networks now function as a de facto global sensor grid for attributing space-based electronic warfare activity.  
-- Impact: Sustained jamming would hit aviation, maritime navigation, surveying, and autonomy hardest, especially operators using single-constellation, unprotected GNSS receivers.  
-- Watch next: Independent replication, real-time public interference maps, hardened multi-GNSS receivers, and explicit space-treaty rules on intentional navigation-signal disruption.
+### Comment pulse
+
+- Attribution is operationally useful → engineers near Romania and Poland report daily disruption, but identifying a source does not itself supply a remedy.
+- Purpose remains uncertain → some infer deliberate jamming or testing — counterpoint: adjacent-band early-warning communications could create interference without signaling intent.
+- Required power may be feasible → GNSS signals arrive weakly, while satellites can carry multi-kilowatt solar arrays.
+
+### LLM perspective
+
+- **View:** The method converts anecdotes into attributable orbital patterns without needing privileged satellite telemetry.
+- **Impact:** Navigation operators can correlate outages with orbital passes and harden affected regions.
+- **Watch next:** Peer review, independent station replication, spectrum characterization, power estimates, and diplomatic or regulatory responses.

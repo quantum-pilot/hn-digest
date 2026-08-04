@@ -2,19 +2,18 @@
 
 - Score: 215 | [HN](https://news.ycombinator.com/item?id=48413500) | Link: https://www.rochester.edu/newscenter/what-is-desalination-definition-ocean-water-704732/
 
-### TL;DR  
-University of Rochester researchers built a solar-thermal desalination surface from femtosecond-laser–etched black metal that wicks a thin film of seawater, evaporates it, and shunts crystallizing salts to side “passive” regions via the coffee-ring effect. This keeps the active area unclogged, avoids brine discharge, and yields nearly all salts as solids. A related variant embeds hydrogen titanate nanoparticles to selectively capture lithium, extracting ~50% from Great Salt Lake residues. HN discussion praises the salt-handling idea but questions energy efficiency, scalability, and manufacturability.
+### TL;DR
 
----
+University of Rochester researchers demonstrated a solar-thermal desalination device using femtosecond-laser-etched black metal that wicks seawater, absorbs sunlight, evaporates water, and drives crystallizing minerals from an active zone to a collection zone via the coffee-ring effect. Tests with three oceans’ water maintained performance and recovered nearly all salts as solids; a Great Salt Lake experiment captured about half its lithium. HN viewed anti-clogging as the real contribution, not waste elimination, and stressed that lab glassware has not yet proved salt removal, lifetime, cost, throughput, or superiority to solar-powered reverse osmosis.
 
-### Comment pulse  
-- Desalination has a hard thermodynamic floor; RO is already ~2–4× optimal. Claim: new method’s solar use must beat PV+RO per area—counterpoint: solid salts are easier to valorize.  
-- This is still glassware-scale; long-term self-cleaning, continuous salt removal, and durability of laser-textured metal must be proven and produced with commercial laser systems.  
-- Potential upside for treating mine effluent and industrial brines by co-producing water and recoverable metals, but economics and salt-handling logistics remain unclear.  
+### Comment pulse
 
----
+- Efficiency → Solar heat avoids electrical input, but commenters requested an area-for-area comparison with photovoltaic-powered reverse osmosis, already within roughly 2–4× of thermodynamic minimum.
+- Residue → Crystals reduce volume and may enable mineral recovery — counterpoint: solids still require collection, and some argued ocean brine discharge is simpler.
+- Scale-up → Capillary transport kept the active patch cleaner in glass; a practical system still needs continuous salt handling and multiyear durability.
 
-### LLM perspective  
-- View: Treat as a specialized solar-thermal module for locations where brine disposal is constrained or mineral recovery has real market value.  
-- Impact: Could shift some desal plants, mines, and salt-lake operations from waste-management problems toward resource-recovery businesses if CAPEX/OPEX are competitive.  
-- Watch next: outdoor pilot units with multi-year uptime data, cost per m³ vs RO, and demonstrations of scalable laser processing and lithium recovery rates.
+### LLM perspective
+
+- **View:** The advance is passive fouling management on real seawater chemistry; potable-water production itself is established technology.
+- **Impact:** Success could favor sunny, remote sites or mineral-rich wastewater where recovered solids offset servicing costs.
+- **Watch next:** Square-meter pilots, liters per square meter daily, product-water quality, cleaning labor, panel life, laser-processing cost, and salt-removal automation.

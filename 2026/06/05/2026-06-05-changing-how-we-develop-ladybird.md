@@ -3,14 +3,17 @@
 - Score: 797 | [HN](https://news.ycombinator.com/item?id=48409191) | Link: https://ladybird.org/posts/changing-how-we-develop-ladybird/
 
 ### TL;DR
-Ladybird, an independent web browser, will stop accepting public pull requests: only maintainers can land code, despite remaining fully open source. The project argues AI has broken the old assumption that a large patch signals effort, good faith, and a trustworthy future maintainer. For a security‑critical browser, they prefer a small, accountable team and non-code contributions (bugs, testing, design). HN debates AI’s erosion of the author–reader social contract and a shift from “bazaar” back to “cathedral” open source.
+
+Ladybird will stop accepting public pull requests, close the current queue, and restrict code changes to maintainers as it approaches its first alpha. The project argues that AI makes substantial-looking patches cheap, weakening effort as a signal of good faith while leaving browser maintainers responsible for security, architecture, and future upkeep. External participants can still file bugs, test sites, discuss standards, and report vulnerabilities. HN largely understood the review burden and trust problem, but debated whether this cathedral model blocks contributor development and wastes usable fixes.
 
 ### Comment pulse
-- AI-generated PRs feel like spam → cheap code plus entitled attitudes erode respect for maintainers’ time and project rules.  
-- Loss of effort-as-signal → AI breaks the old trust model between contributor and project, pushing OSS toward smaller, cathedral-style, tightly trusted teams.  
-- No-external-PR rule worries users → they fear duplicated bugfix work and lost mentorship—counterpoint: maintainers stress limited review capacity and value precise bug reports over code.
+
+- AI has broken a social signal → large patches no longer demonstrate commitment, and policy-breaking generated PRs impose asymmetric review costs.
+- A trusted core can strengthen security → browsers need accountable authors who understand downstream consequences, not merely plausible code.
+- Closing every patch path may impair renewal → fixes must be rediscovered and future maintainers lose an apprenticeship route — counterpoint: bug analysis remains valuable.
 
 ### LLM perspective
-- View: This is a pragmatic security-and-governance response, not hostility to openness; code review scales poorly under AI-accelerated spam.  
-- Impact: Expect more high-risk OSS (browsers, crypto, kernels) to centralize commit rights while staying source-open and community-discussion‑driven.  
-- Watch next: tooling for provenance, reputation, and automated security review may partially restore scalable trust in outside code contributions.
+
+- **View:** Ladybird is optimizing for bounded trust and review capacity, accepting slower external innovation as an explicit tradeoff.
+- **Impact:** Contributors shift from patches toward reproducible bugs, technical analysis, forks, or earning maintainer relationships elsewhere.
+- **Watch next:** Alpha security outcomes, maintainer growth, fork activity, issue-to-fix latency, and whether submission rules eventually reopen.

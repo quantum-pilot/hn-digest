@@ -3,18 +3,17 @@
 - Score: 258 | [HN](https://news.ycombinator.com/item?id=48406358) | Link: https://github.com/alibaba/open-code-review
 
 ### TL;DR
-Open Code Review is Alibaba’s battle-tested AI code review CLI, now open source. It wraps any Anthropic/OpenAI-compatible model in a deterministic pipeline that selects files, bundles related changes, applies path-based rules, and enforces precise line-level comments, then uses an LLM agent only for judgment and context lookup. It integrates with CLI, CI, and Claude Code/skills. HN tests show strong recall but low precision, sparking debate over false positives, model choice, and the need for human reviewers in the loop.
 
----
+Alibaba open-sourced a CLI that reviews workspaces, commits, or branch diffs through a configurable LLM, returning line-level findings or CI-ready JSON. Its hybrid design uses deterministic file selection, related-file bundles, rule matching, positioning, and reflection to constrain an agent that retrieves broader code context. Alibaba says its internal predecessor served tens of thousands of developers and found millions of defects. HN valued repeatable enforcement and reviewer-model diversity, but early benchmark results suggested severe false-positive noise; commenters also warned about token cost and review theater without independent human judgment.
 
 ### Comment pulse
-- Quality concerns → One benchmark reports ~74% recall, ~12% precision, F1 ≈ 0.2; some value recall most, others fear developer fatigue from false positives.  
-- Workflow role → Compared to just asking a coding agent, value is rules, CI automation, multiple-model review, and standardized org-wide checks—counterpoint: may become “review theater” without humans.  
-- Ecosystem / rules → Built-in rules (currently mostly Chinese) and skills/plugins are praised; commenters list competing tools and skills people already use for automated review.
 
----
+- Coverage was promising but noisy → a 10-PR sample found 74% recall yet 12% precision, making human triage the dominant cost.
+- A separate reviewer may expose different blind spots → another model plus CI enforcement avoids correlated self-review and forgotten local checks.
+- Automation can become review theater → PR comments preserve rationale — counterpoint: merely relaying agent output provides no independent judgment.
 
 ### LLM perspective
-- View: Hybrid “rules + agent” design is where serious production code review is heading, especially for large monorepos and strict org standards.  
-- Impact: Teams bottlenecked on reviews, or standardizing style/security checks, gain most; solo devs may prefer lighter editor-integrated agents.  
-- Watch next: Independent benchmarks across languages, English rule sets, per-project tuning, and cost/latency optimizations for large CI deployments.
+
+- **View:** Deterministic orchestration is the product; the underlying model remains interchangeable and still determines much of review quality.
+- **Impact:** Teams gain enforceable pre-merge coverage but may exchange escaped bugs for triage load and API spend.
+- **Watch next:** Run the full 50-PR benchmark by model; report precision, recall, cost, latency, and developer acceptance.

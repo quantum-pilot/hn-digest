@@ -2,19 +2,18 @@
 
 - Score: 282 | [HN](https://news.ycombinator.com/item?id=48414367) | Link: https://github.com/microsoft/pg_durable
 
-## TL;DR
-Microsoft’s pg_durable is a PostgreSQL extension that turns long‑running workflows into SQL-defined, fault‑tolerant “durable functions” executed inside the database. It checkpoints each step, resumes after crashes, and removes the need for ad‑hoc cron jobs, queues, and custom status tables. It targets data-centric teams that already keep state in Postgres and want simpler, auditable background processing. Hacker News discussion focuses on whether workflow logic belongs in the database at all, developer experience concerns, and how this compares to tools like Temporal.
+### TL;DR
 
----
+Microsoft’s preview pg_durable extension lets PostgreSQL 17 or 18 execute SQL-defined workflow graphs, checkpoint every step, and resume after failures, restarts, or failovers. Its in-process background worker stores orchestration state in Postgres, potentially replacing cron jobs, queues, workers, and status tables for data-local ingestion, maintenance, aggregation, AI, and HTTP workflows. It explicitly does not target low-latency requests or orchestration spanning many heterogeneous systems. HN welcomed fewer moving parts but questioned SQL readability, versioning, debugging, observability, write scaling, and comparisons with general-purpose systems like Temporal.
 
-## Comment pulse
-- Keep workflows in DB vs app code → Some like data locality and fewer services; others prefer versioning, testing, and review workflows centered on application code in Git.
-- Fit vs Temporal-style orchestrators → pg_durable is great for Postgres-centric pipelines; less compelling when flows span many external systems — counterpoint: that limit is explicitly documented.
-- Semantics and correctness questions → Users probe idempotency, signal timeouts, and error handling; maintainers clarify instance IDs, exactly-once within an instance, and surfacing SQL errors via status.
+### Comment pulse
 
----
+- Data locality can simplify operations → retries, progress, auditing, and backups share PostgreSQL’s existing state and authorization model.
+- SQL-shaped orchestration strains developer experience → complex graphs are hard to read, test, debug, release, and evolve through migrations.
+- Temporal comparisons overreach → pg_durable favors database-centric work and rejects heterogeneous workflows — counterpoint: that narrower scope may remove substantial glue.
 
-## LLM perspective
-- View: This makes Postgres a full workflow runtime for SQL-shaped jobs, not a general Temporal replacement.
-- Impact: Strongest for teams already overloading Postgres with queues, cron tables, and ETL scripts.
-- Watch next: Tooling for migration/versioning, observability UIs, and benchmarks versus traditional app-layer job queues.
+### LLM perspective
+
+- **View:** This is strongest as a transactional job engine, not a universal workflow platform.
+- **Impact:** DBAs gain auditable automation; application teams trade infrastructure reduction for deeper database coupling.
+- **Watch next:** Preview stability, tooling for Git-based deployment and tracing, idempotent starts, failover benchmarks, and managed-host availability.

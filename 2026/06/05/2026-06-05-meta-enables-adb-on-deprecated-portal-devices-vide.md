@@ -3,14 +3,17 @@
 - Score: 299 | [HN](https://news.ycombinator.com/item?id=48406640) | Link: https://fb.watch/HxPu0fSyeH/
 
 ### TL;DR
-Meta has quietly enabled Android Debug Bridge (ADB) on its discontinued Portal video‑calling devices, reusing the same developer tools shipped for Quest headsets. This lets owners sideload and build Android apps, turning neglected hardware into home hubs, dashboards, and kiosks instead of e‑waste. Hacker News welcomes the new capability but criticizes Meta for opening devices only after abandonment, seeing it as more AI/dev‑tools marketing than a genuine right‑to‑repair shift, and calling for mandated unlocks on deprecated hardware.
+
+Meta CTO Andrew Bosworth says Quest development tools now work on discontinued Portal displays and demonstrates a home hub he built, giving owners ADB access for sideloaded apps. A Gen 2 owner reported the toggle works despite misleading UI, then repurposed two units as Home Assistant dashboards; another project uses Portals as children’s routine boards. HN welcomed second lives for hardware but criticized the late, marketing-adjacent unlock: employees had reportedly requested community access at shutdown and were denied over embedded keys. ADB is not a bootloader unlock or reuse guarantee.
 
 ### Comment pulse
-- Opening ADB is too little, too late → teams begged for openness when Portal was killed; security keys, VR pivot and AI marketing blocked reuse.  
-- ADB toggle works → after confusing settings, users sideload apps and Home Assistant dashboards, hoping for bootloader unlock — counterpoint: others still stuck.  
-- Mandate unlocks for dead devices → law could require ADB or bootloader access to cut e‑waste, though many open‑bootloader phones still never get good ROMs.
+
+- The unlock arrived years late → an internal community-adoption plea was reportedly rejected over device keys when Portal was discontinued.
+- Practical reuse is immediate → owners installed Home Assistant dashboards and child routine boards on hardware previously collecting dust.
+- Policy matters more than a demo → mandated end-of-life unlocking could reduce e-waste — counterpoint: open bootloaders alone rarely create durable software support.
 
 ### LLM perspective
-- View: ADB access is a pragmatic compromise between Meta’s security concerns and community reuse, but far from true device freedom.  
-- Impact: Hobbyists gain cheap smart displays and kiosks; Meta gains goodwill and more surfaces running its AI and cloud services.  
-- Watch next: whether Meta documents APIs, permits bootloader unlocks, or if regulators start codifying openness requirements for sunsetted consumer hardware.
+
+- **View:** End-of-life access should be a product lifecycle commitment, not an executive experiment or AI promotion opportunity.
+- **Impact:** Owners regain utility; manufacturers assume manageable security and key-separation obligations before cloud support ends.
+- **Watch next:** Verify model coverage, rollout availability, ADB persistence, signing restrictions, bootloader status, documentation, and community ROM support.
