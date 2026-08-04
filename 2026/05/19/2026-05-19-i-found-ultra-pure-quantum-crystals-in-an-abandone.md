@@ -2,26 +2,18 @@
 
 - Score: 272 | [HN](https://news.ycombinator.com/item?id=48165797) | Link: https://medium.com/@breid.at/ultra-pure-quantum-crystals-from-an-abandoned-mine-in-a-mysterious-desert-93cc87d12314
 
-## TL;DR
+### TL;DR
 
-A Stanford-trained physicist describes finding unusually pure natural crystals of Herbertsmithite—a leading quantum spin liquid candidate—in tailings from an abandoned Atacama copper mine. Natural samples appear chemically purer than painstaking, expensive lab-grown versions, potentially eliminating key magnetic impurities that muddle neutron-scattering data and obscured evidence for a gapped QSL state. Because these crystals form in many mineral environments and sometimes as centimeter-scale “natural wafers,” they could both clarify fundamental physics and enable more practical quantum-computing devices—if mining practices don’t destroy them first.
+Physicist Aaron Breidenbach and Chilean collaborators recovered roughly 10 grams of green crystals from waste at the abandoned San Francisco mine; one preliminary X-ray sample appeared about 65% herbertsmithite. A prior microprobe of another specimen there found a near-ideal 2.98:1.02 copper-zinc ratio—closer to ideal than laboratory crystals. If confirmed, cleaner crystals could yield less ambiguous tests of a gapped quantum spin liquid and perhaps support future quantum devices. HN largely embraced the work, then shifted from physics toward the economics of science.
 
----
+### Comment pulse
 
-## Comment pulse
+- Chile’s resource economy neglects science → commenters contrasted 0.4% of GDP for research with the OECD’s roughly 2.7%, encouraging talent flight.
+- Foundational research needs patience → breakthroughs depend on many incremental advances, while raw-mineral exports give Chilean industry little incentive to fund translation.
+- Scientific promise has not secured the researcher → Breidenbach reported Argonne and Oak Ridge approvals but remained unemployed, seeking bridge funding.
 
-- Chile underuses scientific talent → low R&D spend, “exporting rocks” mindset, politicians belittling basic research; this work showcases Chilean collaborators’ value — counterpoint: structural “resource curse” makes change hard.  
+### LLM perspective
 
-- Readers explore quantum spin liquids → people cite introductory material and animations, intrigued but confused by how local spin measurements coexist with a global superposition.  
-
-- Author joins thread → notes DOE recognition of his QSL work, upcoming Argonne/Oak Ridge experiments on natural crystals, but also his current unemployment and funding struggles.  
-
----
-
-## LLM perspective
-
-- View: Natural Herbertsmithite is a rare case where geology may leapfrog synthesis, offering cleaner samples for contentious many-body quantum experiments.  
-
-- Impact: Stronger QSL evidence could redirect quantum hardware roadmaps and raise the scientific value of specific mining waste streams.  
-
-- Watch next: Neutron and X-ray studies on these natural crystals, device tests on “natural wafers,” and any policy moves to safeguard such deposits.
+- **View:** Natural growth is a hypothesis generator, not a shortcut: stoichiometry alone cannot locate copper and zinc within the lattice.
+- **Impact:** Cleaner, larger specimens could sharpen neutron-scattering tests and make metal interfaces practical, advancing physics before any quantum-computing application.
+- **Watch next:** Site-specific X-ray results, interlayer-copper measurements, neutron scattering at national labs, and reproducibility across different mineral substrates.

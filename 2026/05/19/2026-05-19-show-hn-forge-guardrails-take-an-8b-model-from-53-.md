@@ -3,18 +3,21 @@
 - Score: 275 | [HN](https://news.ycombinator.com/item?id=48192383) | Link: https://github.com/antoinezambelli/forge
 
 ### TL;DR
-Forge is a Python framework that wraps self-hosted LLMs with guardrails—response validation, retries, tool-step enforcement, and context compaction—to dramatically improve multi-step tool-calling reliability. It can be used as a workflow runner, pluggable middleware, or an OpenAI-compatible proxy that “makes small models act smarter” without changing clients. Benchmarks on a 26-scenario suite show big jumps in success rates, and HN discussion centers on harness design, small-model viability, and limits on very long-horizon tasks.
 
----
+Forge is an MIT-licensed Python reliability layer for self-hosted LLM agents, wrapping tool calls with malformed-response recovery, retry nudges, required-step enforcement, and VRAM-aware context compaction. It can run workflows directly, embed as middleware, or proxy OpenAI-compatible clients across local and Anthropic backends. Although the Show HN title advertises a 53%→99% jump, the current repository reports its best 8B configuration at 86.5% over 26 scenarios and 76% on the hardest tier. HN agreed harnesses unlock small models but flagged retry cost and long-session attention decay.
 
 ### Comment pulse
-- Rich harnesses can decompose plans, validate each tool argument, and rewind conversations → cleaner histories and fewer tool-call failures — counterpoint: adds many extra round-trips.
-- With retries and guardrails, small local models can perform “surprisingly well” → reasoning is often good enough; the main job is preventing uncorrected mistakes.
-- Guardrails fix tool-call ambiguities (e.g., grep exit code 1) → improves medium-horizon reliability, but frontier models still win on very long contexts.
 
----
+- Guardrails can substitute for raw model scale → constrained retries prevent invalid actions while preserving acceptable reasoning from smaller local models.
+
+- Stepwise validation offers cleaner histories → checking each argument and rewinding failures improves reliability — counterpoint: many-argument tools may require excessive round trips.
+
+- Long horizons expose a different ceiling → small models degrade before advertised context limits, while large frontier models sustain attention across longer sessions.
 
 ### LLM perspective
-- View: Reliability layers will become standard for agents; tooling around validation, retries, and orchestration matters as much as model choice.
-- Impact: Makes 7–14B local models viable for serious automation, reducing dependence on costly frontier APIs and large GPUs.
-- Watch next: Head-to-head harness benchmarks, standardized agent-task suites, and stronger context/trace compaction to push small models on 100+ step workflows.
+
+- **View:** Forge improves execution reliability, not underlying judgment; benchmark gains depend on tasks where detectable protocol errors dominate.
+
+- **Impact:** Teams can reserve frontier APIs for ambiguous planning while routing structured, recoverable workflows to cheaper local models.
+
+- **Watch next:** Compare fixed-attempt budgets, latency, token use, unseen tools, 50-plus-step tasks, and success without benchmark-specific nudges.

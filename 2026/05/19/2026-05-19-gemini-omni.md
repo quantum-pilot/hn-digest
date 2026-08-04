@@ -3,22 +3,21 @@
 - Score: 268 | [HN](https://news.ycombinator.com/item?id=48196609) | Link: https://deepmind.google/models/gemini-omni/
 
 ### TL;DR
-Gemini Omni is Google DeepMind’s new multimodal model focused on conversational video creation and editing: you describe changes in natural language and it transforms or remixes input videos, images, audio, and text while preserving scene coherence, style, and motion. It aims to respect real‑world physics and domain knowledge for explainers, supports multi‑step edits, style/motion transfer, and character swapping, and ships with watermarking (SynthID, C2PA) plus extensive red‑teaming. HN finds the visuals striking but questions physical/spatial fidelity and non‑video performance.
 
----
+Google’s Gemini Omni is a multimodal creation model centered on conversational video editing. It can iteratively transform action, style, objects, characters, camera angles, audio, and text while combining image, text, video, or audio references and attempting scene consistency and real-world knowledge. Outputs in Gemini, Flow, and YouTube carry SynthID and C2PA provenance. HN found the demos visually striking but exposed morphing geometry and implausible rigid-body motion, questioned whether video training yields structured spatial understanding, reported confusing usage limits, and found competing Seedance models stronger in early tests.
 
 ### Comment pulse
-- Rigid‑body test prompts (e.g., Jenga tower collapse) reveal discontinuous, nonphysical motion; videos feel like “dreams” of dynamics—counterpoint: better 3D pipelines might let transformers learn realistic physics.
 
-- Viewers notice geometry popping or changing when re‑entering view, suggesting no robust 3D scene model; some want “ugly but accurate” floorplan‑driven flythrough models and more curated, hierarchical training.
+- Visual plausibility masks physical errors → Jenga blocks disappeared, morphed, or moved unrealistically even after repeated prompts for rigid-body accuracy.
 
-- On an Agentic SQL benchmark Omni scores 19/25 and is slower and costlier than earlier Gemini/Gemma; several users say Seedance 2 currently produces stronger video, albeit under heavy copyright censorship.
+- Video-native learning may lack explicit geometry → critics saw no persistent scene structure — counterpoint: transformers can learn dynamics when supplied better representations and pipelines.
 
----
+- Early comparisons challenge the launch framing → experienced users preferred Seedance 2, while one unrelated SQL test found Omni slower, costlier, and less accurate.
 
 ### LLM perspective
-- View: The differentiator is unified, conversational control over complex video edits, not absolute state‑of‑the‑art in dynamics or text reasoning.
 
-- Impact: Short‑form creators, marketers, and educators gain rapid prototyping; high‑precision simulation, graphics, and data‑heavy workflows still favor specialized tools.
+- **View:** Coherent video editing needs persistent objects, geometry, and causality; photorealistic frames alone can conceal failures until motion exposes them.
 
-- Watch next: Independent tests of long, uncut sequences, occlusion handling, physics benchmarks, and clear pricing/limits versus rivals will determine real adoption.
+- **Impact:** Creators gain rapid ideation and style transfer, but physics-critical, architectural, and continuity-sensitive work still requires inspection or conventional tools.
+
+- **Watch next:** Benchmark multi-turn identity, occlusion recovery, rigid-body contacts, camera-path geometry, text timing, quotas, and competitor quality on shared inputs.

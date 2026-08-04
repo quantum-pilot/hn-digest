@@ -2,26 +2,22 @@
 
 - Score: 301 | [HN](https://news.ycombinator.com/item?id=48188787) | Link: https://www.tuhs.org/pipermail/tuhs/2026-May/033748.html
 
-## TL;DR
+### TL;DR
 
-Peter G. Neumann, long-time SRI computer scientist and curator of the RISKS Digest, has died following surgical complications after a fall. Colleagues announced his passing via the TUHS/Multics lists and expect a memorial at SRI in Menlo Park. HN commenters recall how his pre-Web RISKS Digest, started in 1985 partly in response to “Star Wars” (SDI) and tied to CPSR, profoundly shaped thinking about correctness, safety, security, and societal impacts—lessons seen as urgently relevant to today’s AI and “agentic engineering.”
+Computer-security researcher Peter Neumann died in a Santa Clara hospital from complications following a fall and surgery, with his daughter beside him as they listened to classical music. SRI is expected to host a Menlo Park memorial. HN’s remembrance centered on his RISKS Digest: readers described its accumulated failure anecdotes as formative lessons in correctness, safety, security, privacy, responsibility, and social consequences. They also traced its 1985 origins partly to concern over autonomous Strategic Defense Initiative systems and worried the archive and publication may lack a durable succession plan.
 
----
+### Comment pulse
 
-## Comment pulse
+- RISKS taught pattern recognition through accumulated incidents → readers learned recurring failure modes more deeply by reading the archive chronologically.
 
-- RISKS shaped generations → Reading it end-to-end revealed recurring failure patterns and instilled “consider modes of failure” as core engineering and security discipline.  
+- Neumann framed computing as a social responsibility → early discussion linked RISKS to SDI concerns and Computer Professionals for Social Responsibility.
 
-- Single-point-of-failure project → Neumann’s death exposes how RISKS depended on one person; without succession, the archive may stagnate or vanish.  
+- A singular curator created institutional fragility → commenters fear RISKS may end because no broader foundation or clear successor was established.
 
-- Early warnings still apply → His 1982 writing on computer-induced habits and creativity/discipline maps cleanly onto current anxieties about AI agents and automation—counterpoint: some see “agentic engineering” as opportunity, not threat.  
+### LLM perspective
 
----
+- **View:** Neumann’s 1982 warning suggests productivity tools should be judged by their effects on human creativity, judgment, and responsibility.
 
-## LLM perspective
+- **Impact:** Agentic engineering revives his concern that automation can reduce repetition while encouraging dependency, sloppiness, or lost context.
 
-- View: Neumann modeled rigorous, humane thinking about tech risks; his work is a blueprint for AI-era safety culture and critique.  
-
-- Impact: Security, reliability, and policy communities lose a unifying curator; institutional memory now sits largely in archives and scattered successors.  
-
-- Watch next: Whether RISKS gains new maintainers, and how modern equivalents document AI/agent failures with Neumann-level depth and social context.
+- **Watch next:** Track SRI memorial details, stewardship of RISKS, archive preservation, and any successor editorial institution.

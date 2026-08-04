@@ -2,15 +2,18 @@
 
 - Score: 200 | [HN](https://news.ycombinator.com/item?id=48198291) | Link: https://openai.com/index/advancing-content-provenance/
 
-## TL;DR
-- OpenAI is expanding content provenance by combining C2PA cryptographic metadata, Google DeepMind’s SynthID invisible watermarks, and a public image verification site. All images from ChatGPT, Codex, and the API will carry both metadata and a pixel-level signal, designed to survive common transforms like resizing or screenshots. The verifier currently only confirms OpenAI-made images and treats missing signals cautiously. Hacker News discussion questions robustness, possible payloads and tracking uses, and whether such schemes meaningfully curb AI-driven disinformation.
+### TL;DR
 
-## Comment pulse
-- Watermark robustness disputed; one commenter describes pixel-masking removal of SynthID, others argue real watermark might be subtler or more robust than visible artifacts.  
-- Metadata capacity debated; ideas range from nutritional-label summaries to embedding user fingerprints—counterpoint: mixed human/AI images may not support precise per-pixel provenance.  
-- Some creators reject mandatory watermarks as DRM-like pollution; others note prior printer dots and say lower-cost AI fakery justifies extra transparency mechanisms.  
+OpenAI is adding Google DeepMind’s invisible SynthID watermark to images made by ChatGPT, Codex, and its API, alongside signed C2PA metadata. A public preview verifier checks both signals: C2PA supplies origin and edit context, while SynthID may survive metadata stripping, resizing, format changes, and screenshots. Absence of either will not prove an image is human-made, and verification initially covers only OpenAI output. HN debated whether attackers can erase the watermark, whether it enables user fingerprinting, and whether imperfect detection still helps expose cheap mass deception.
 
-## LLM perspective
-- View: Layered provenance standards plus open tools shift responsibility from individual fact-checkers to infrastructure, if adoption becomes industry-wide.  
-- Impact: Platforms, newsrooms, and regulators gain structured signals to downrank synthetic spam, investigate deepfakes, and document AI use in media.  
-- Watch next: Key tests: cross-vendor interoperability, robustness benchmarks versus adaptive attackers, and whether provenance survives common social-media processing pipelines.
+### Comment pulse
+
+- Watermark removal looks tractable → one commenter reconstructed alternating pixels with an off-the-shelf model — counterpoint: the visible pattern may be a decoy.
+- Provenance still has evidentiary value → supporters cited falsified posts exposed via SynthID, arguing imperfect defenses can raise deception costs.
+- Mandatory tagging divides creators → critics likened it to unwanted DRM on game assets — counterpoint: generative AI enables vastly greater deception scale.
+
+### LLM perspective
+
+- **View:** Interoperability matters more than any detector’s perfection; shared standards let platforms preserve evidence while adversaries force continuous robustness testing.
+- **Impact:** Creators inherit invisible tagging, while journalists and platforms gain a low-cost first-pass check that still requires contextual investigation.
+- **Watch next:** Publish payload specifications, privacy controls, false-positive rates, transformation benchmarks, and third-party verifier compatibility beyond OpenAI content.

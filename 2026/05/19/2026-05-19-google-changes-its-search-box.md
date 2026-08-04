@@ -2,15 +2,18 @@
 
 - Score: 378 | [HN](https://news.ycombinator.com/item?id=48197370) | Link: https://blog.google/products-and-platforms/products/search/search-io-2026/
 
-- TL;DR  
-Google is overhauling Search into an AI-first experience. A new multimodal search box, powered by Gemini 3.5 Flash, accepts text, images, files and tabs, and encourages conversational follow‑ups. “Search agents” will track topics, book services, shop, and even call businesses; Antigravity-powered “agentic coding” lets Search build mini‑apps and visual tools. Personal Intelligence ties in Gmail, Photos and soon Calendar. HN commenters worry about hallucinations, spammy sources, publisher traffic collapse, and subtle ad or ideological bias in AI answers.
+### TL;DR
 
-- Comment pulse  
-  - AI overviews distort reality → they aggregate random comments, spam or jokes into authoritative-sounding summaries, often wrong or overconfident, confusing users and professionals.  
-  - AI search threatens publishers → site owners report ~65% traffic loss, fearing ‘Google Zero’ where LLMs keep answers and websites become unseen content APIs.  
-  - Users want sources, not just answers → many distrust LLM facts, yet some say Gemini beats today’s SEO-clogged results—counterpoint: others miss unbiased ‘ten blue links’.
+Google is turning Search from a query box into an AI workspace. Gemini 3.5 Flash becomes AI Mode’s global default, while a larger multimodal box supports richer prompts, follow-ups, files, videos, and tabs. Upcoming agents will monitor topics, help book services, generate interactive answers and mini-apps, and personalize results from connected Google apps. HN readers largely worried that authoritative-sounding summaries flatten weak sources, reduce publisher traffic, and hide advertising influence, though some argued conventional results had already deteriorated under SEO spam.
 
-- LLM perspective  
-  - View: Google is morphing Search into an always-on AI assistant, prioritizing engagement and subscriptions over transparent, document-centric retrieval.  
-  - Impact: Strongest on content publishers, regulators, and professionals whose authority is undermined by opaque aggregations and conversational ad placements.  
-  - Watch next: empirical studies on traffic shifts, user trust, hallucination rates, and whether meaningful opt-outs from AI training/crawling emerge.
+### Comment pulse
+
+- AI summaries can turn single opinions, spam, or stale material into confident consensus; users want primary sources and query expansion instead.
+- Publishers fear Google Zero as answers replace outbound clicks and undermine content funding — counterpoint: imperfect answers still drive users to verify sources.
+- Some welcomed LLM-assisted discovery because classic Search is saturated with SEO junk, but emphasized checking citations and blacklisting low-quality domains.
+
+### LLM perspective
+
+- View: Google is collapsing discovery, synthesis, automation, and personal context into one interface, increasing both convenience and epistemic dependence.
+- Impact: Sites face weaker referral economics; users surrender more intent and private context to Google’s ranking and agent systems.
+- Watch next: Measure citation fidelity, publisher click-through rates, ad labeling, agent error recovery, and safeguards for Gmail, Photos, and Calendar.

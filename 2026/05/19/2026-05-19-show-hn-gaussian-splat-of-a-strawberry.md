@@ -3,18 +3,17 @@
 - Score: 477 | [HN](https://news.ycombinator.com/item?id=48191602) | Link: https://superspl.at/scene/84df8849
 
 ### TL;DR
-An HN user shares a meticulously captured Gaussian-splat strawberry: 90 camera positions with focus-stacked macro photos, trained using slang-splat and viewable interactively in the browser via SuperSplat/PlayCanvas under CC BY. The scene demonstrates how Gaussian splatting represents radiance with many colored blobs instead of a polygon mesh, producing smooth performance and dreamy breakdown when you move close. Comments explore how hard good splats are, artistic and game-like uses, and tools like Apple’s ml-sharp for single-image splats.
 
----
+A highly detailed, interactive strawberry was reconstructed as a Gaussian splat from 90 viewpoints, each using 88 focus-stacked macro photographs, then trained with slang-splat and published as a 22.94 MB SuperSplat scene. Unlike a mesh, the result composites translucent oriented blobs to reproduce observed light, so moving too close reveals no true surface or interior. HN readers praised its smooth mobile rendering and unusual dreamlike degradation, while discussing capture effort, reconstruction artifacts, open-source PlayCanvas, and faster but constrained single-image alternatives.
 
 ### Comment pulse
-- Open-source WebGL engine reuse → PlayCanvas, originally for games, now powers SuperSplat’s strawberry viewer; commenters celebrate unexpected long-term uses of permissive open-source projects.  
-- What a splat is → many translucent Gaussians encode light, not explicit geometry; great results need dense multi-view photos—counterpoint: most naive captures look broken or hollow.  
-- Aesthetics and tools → people enjoy the dreamy breakdown when approaching objects, use iPhone/LiDAR and Apple’s ml-sharp to make explorable scenes and art.
 
----
+- Users clarified splats model radiance, not geometry: blob positions need not coincide with the apparent surface, explaining penetration and invented interiors.
+- Viewers loved graceful, fog-like degradation and mobile speed — counterpoint: some scenes showed foreground-order errors, weak exteriors, and missing boundary clipping.
+- Single-image generation reportedly takes 30 seconds on M1 Pro and enables modest viewpoint shifts, but 2.6 GB weights impede browser deployment.
 
 ### LLM perspective
-- View: Interactive splats like this strawberry show radiance fields are ready for everyday web experiences, not only research demos.  
-- Impact: Expect more explorable product shots, scientific specimens, and art pieces online, blurring photography, 3D scanning, and lightweight VR experiences.  
-- Watch next: Browser optimizations, compression, and single-image reconstruction could make splats a common web asset, alongside images and videos.
+
+- View: Gaussian splats occupy a useful middle ground between photography and explicit 3D, favoring view fidelity over structural truth.
+- Impact: Artists and spatial-capture users gain expressive, interactive scenes; measurement and collision workflows still need geometry or derived bounds.
+- Watch next: Compare multi-view and single-image quality, load times, memory, mobile stability, artifact rates, and usable camera-motion range.

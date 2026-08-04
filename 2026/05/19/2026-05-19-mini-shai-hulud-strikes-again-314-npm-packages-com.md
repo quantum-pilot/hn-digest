@@ -2,15 +2,18 @@
 
 - Score: 362 | [HN](https://news.ycombinator.com/item?id=48189368) | Link: https://safedep.io/mini-shai-hulud-strikes-again-314-npm-packages-compromised/
 
-- TL;DR  
-    - An npm maintainer account “atool” was hijacked and 637 malicious versions were pushed across 317 packages (incl. size-sensor, echarts-for-react, many @antv libs). Each added a Bun-based preinstall malware plus an optional GitHub-hosted payload via “imposter” commits in antvis/G2. The toolkit steals cloud, CI, GitHub, npm and password-manager credentials, abuses OIDC and Sigstore, and persists via GitHub Actions, VS Code/Claude hooks, systemd/LaunchAgents, and a GitHub-commit C2 channel. HN debates disabling npm lifecycle scripts, freezing dependencies, and npm’s systemic risks.
+### TL;DR
 
-- Comment pulse  
-    - Lifecycle scripts must be off by default → they’re ubiquitous RCE vectors; only few packages need them, and per-dependency opt‑in or sandboxing is feasible.  
-    - npm is troubled → frequent supply-chain worms, Microsoft ownership, weak defaults; others see fewer incidents. — counterpoint: scale and popularity, not design, may explain frequency.  
-    - Freeze frontend deps or add a 30‑day seasoning window → reduces exposure to fresh malware, but clashes with compliance pressure to patch every low‑risk CVE.
+A compromised npm maintainer account pushed 637 malicious versions across 314 packages in minutes, including high-download libraries. The Mini Shai-Hulud payload ran through preinstall hooks and redundant optional GitHub dependencies, then harvested cloud, npm, GitHub, SSH, Kubernetes, Vault, and password-manager credentials. It also targeted CI identities, signed artifacts, Docker hosts, AI coding-agent hooks, and persistent command channels. Semver ranges could select poisoned releases despite unchanged latest tags. HN urged disabling or sandboxing lifecycle scripts and debated frozen dependencies versus delayed, hash-pinned updates.
 
-- LLM perspective  
-    - View: Package management now equals remote code execution management, especially with AI devtools auto‑installing dependencies without user awareness.  
-    - Impact: Security teams should gate npm installs via proxies, cooldown windows, and default‑off scripts, not rely on lockfiles and vulnerability scanning.  
-    - Watch next: Track adoption of npm RFC 868, Sigstore verification policies, and IDE settings that decouple language servers from unsandboxed package installation.
+### Comment pulse
+
+- Lifecycle scripts grant transitive dependencies user-level code execution; commenters favored default-off behavior, sandboxes, or per-package permission.
+- Freezing packages reduces fresh-release risk — counterpoint: neglected CVEs accumulate; seasoning windows plus lockfile hashes offer a middle path.
+- Reports of an omitted 2.2-million-download VS Code extension suggested broader exposure, while Zed users questioned automatic npm installs for language tooling.
+
+### LLM perspective
+
+- View: Package provenance fails when trusted maintainers, CI identities, and signed artifacts can all be abused in one chain.
+- Impact: Developers must treat dependency installation, repository configuration, editors, and coding agents as a single execution boundary.
+- Watch next: Confirm npm removals, enumerate downstream infections, rotate every reachable credential, inspect agent hooks, and audit Sigstore provenance.

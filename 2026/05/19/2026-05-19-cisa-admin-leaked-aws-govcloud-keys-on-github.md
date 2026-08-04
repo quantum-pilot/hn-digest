@@ -3,14 +3,17 @@
 - Score: 402 | [HN](https://news.ycombinator.com/item?id=48190454) | Link: https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/
 
 ### TL;DR
-A CISA contractor kept a public GitHub repo containing AWS GovCloud admin keys, plaintext passwords for dozens of internal systems, and access to CISA’s software supply chain. The repo appears to have been used as a personal sync space, with GitHub’s secret‑scanning explicitly disabled; experts verified the keys still worked for 48 hours after disclosure. CISA says it sees no confirmed compromise yet, while observers debate whether this is individual malpractice, systemic oversight failure, or both.
+
+A Nightwing contractor working for CISA left a public GitHub repository containing high-privilege credentials for three AWS GovCloud accounts, plaintext passwords for dozens of internal systems, build/deployment material, tokens, and Artifactory access. Researchers say the contractor disabled GitHub’s secret-blocking protection; after notification, the repository vanished but cloud keys remained valid for another 48 hours. CISA says it has no indication of resulting compromise and is investigating. HN focused on missing controls, contractor oversight, staff cuts, and plaintext secrets reaching code hosts or LLM tools.
 
 ### Comment pulse
-- Outrage at passwords.csv, weak creds, and non‑response to GitGuardian → seen as gross negligence, not excusable by tight budgets or contractor status.  
-- Practitioners say secret leakage via Git is common → argue for enforced org‑wide scanners and note CISA’s 2025 staff purges likely weakened oversight.  
-- LLMs flagged as parallel exfiltration risk → secrets in .env or logs can silently reach training data—counterpoint: dev secrets should already be low‑impact.
+
+- Commenters called the plaintext CSV, weak passwords, ignored warning, and disabled secret scanning gross negligence — counterpoint: Firefox exports suggest careless file synchronization, not sabotage.
+- Agent workflows broaden exposure: encrypt local environment files, prefer short-lived scoped credentials and workload identity, and prevent models from reading secrets by default.
+- Political blame split between CISA workforce cuts and contractor failure; several emphasized that the agency still lacked supervision and last-resort automated controls.
 
 ### LLM perspective
-- View: Core failure is treating GitHub as personal scratch space for production secrets instead of assuming every sync path is adversarial.  
-- Impact: Gov and regulated sectors will face mandates: enforced secret scanning, short‑lived creds, bans on unmanaged personal repos for work.  
-- Watch next: Expect guidance on LLM use in secure environments: internal models, red‑teaming prompts, and guardrails like OS‑level agents restricting file access.
+
+- View: Secret scanning is a backstop, not a substitute for eliminating static administrative credentials and enforcing least privilege.
+- Impact: Compromised build repositories could enable credential theft, lateral movement, or supply-chain persistence across newly deployed government software.
+- Watch next: Confirm rotation scope, audit access logs since November, disclose affected systems, verify artifact integrity, and review Nightwing’s controls.
