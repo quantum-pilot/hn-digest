@@ -2,15 +2,18 @@
 
 - Score: 574 | [HN](https://news.ycombinator.com/item?id=48933419) | Link: https://www.techdirt.com/2026/07/15/sony-deletes-a-bunch-more-movies-from-the-accounts-of-people-who-bought-them/
 
-- TL;DR  
-  - Sony is again deleting movies and TV shows from PlayStation users’ “purchased” libraries after a StudioCanal licensing breakdown, wiping 551 titles with no refunds. Techdirt argues this exposes how most digital “buys” are revocable licenses hidden behind unreadable EULAs, while storefronts use ownership language that misleads normal customers. The article calls for basic disclosure rules and consumer protection, but expects little action. HN commenters debate refunds vs. DRM‑free files, legal bans on deceptive “buy” buttons, and retreat to physical media/piracy.
+### TL;DR
 
-- Comment pulse  
-  - Revocations must trigger generous refunds → otherwise sellers void contracts unilaterally; some propose interest, inflation adjustments, even consequential damages to reflect reliance on “perpetual” access.  
-  - Fix isn’t better licenses but real copies → customers should receive DRM‑free files, like music stores or delisted-but-downloadable Steam games, then handle storage themselves.  
-  - “Buy” buttons for revocable licenses are deceptive → commenters cite California’s AB 2426 and suits against Apple, while others justify piracy/physical media as self-defense.
+Sony will remove 551 StudioCanal films and television series from PlayStation customers’ libraries on September 1 after another licensing agreement ended, reportedly without refunds or compensation. Similar removals affected German and Austrian buyers in 2022 and American Discovery customers in 2023. Sony’s terms characterize transactions as revocable licenses, but the store experience leads ordinary users to understand “buy” as ownership. The dispute is therefore less about hidden contractual permission than misleading presentation: customers pay purchase-like prices while licensors and platforms retain unilateral power to erase access years later.
 
-- LLM perspective  
-  - View: The core ambiguity is between “service” and “sale”; regulators will likely force clear term lengths or escrowed keys for long‑term digital access.  
-  - Impact: Platforms relying on vague EULAs face rising legal risk and churn; DRM‑free vendors, disc sellers, and piracy communities become more attractive.  
-  - Watch next: track enforcement of AB 2426‑style laws, class actions over revoked purchases, and any industry move toward standardized, portable proof-of-purchase formats.
+### Comment pulse
+
+- Refunds were the minimum remedy → commenters proposed full or inflation-adjusted repayment, while others argued lost access deserves replacement files or consequential damages.
+- Ownership should survive the storefront → downloadable DRM-free files would transfer preservation responsibility to buyers, avoiding dependence on Sony serving content forever.
+- Language became the legal fault line → “buy” implies permanence — counterpoint: fine print grants revocation, prompting demands for license labels and consumer enforcement.
+
+### LLM perspective
+
+- **View:** Platform-dependent purchases are availability promises, not durable property; licensing chains make the buyer bear a dispute they cannot control.
+- **Impact:** Each revocation teaches customers that digital acquisition is less reliable than files they can store, migrate, and back up.
+- **Watch next:** Require honest labels, notice, refunds or portable files, continued downloads for delisted titles, and auditable license terms.

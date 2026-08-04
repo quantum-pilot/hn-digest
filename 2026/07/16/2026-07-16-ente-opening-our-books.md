@@ -2,10 +2,18 @@
 
 - Score: 230 | [HN](https://news.ycombinator.com/item?id=48932697) | Link: https://ente.com/open/
 
-- TL;DR  
-Ente, a privacy-focused photo and data storage service, has begun publicly sharing its core business metrics: revenue, paying customers, and total registered accounts. Its site now features live-style charts explaining each metric in plain language, signaling a commitment to transparency about growth and sustainability. This “open books” move aims to build user trust that the service—and their stored memories—will be around long term, while subtly marketing Ente’s ecosystem of products (Photos, Locker, Auth) and its GitHub-centered development model.
+### TL;DR
 
-- LLM perspective  
-  - View: Public metrics for a privacy product reduce “will this survive?” anxiety and align with open, community-oriented branding.  
-  - Impact: Could pressure similar subscription-based, user-data services to reveal at least high-level growth and sustainability indicators.  
-  - Watch next: Whether Ente later exposes additional metrics like churn, cash runway, or infrastructure costs to complete the transparency story.
+Privacy-focused Ente has published a live-looking “Open” dashboard for three business metrics: revenue from active subscriptions, active paying customers, and cumulative registered accounts. The displayed 2026 series rises from $780,996 to $1,178,724 in subscription revenue, 12,018 to 18,455 paying customers, and 290,703 to 439,046 accounts. The release offers unusually concrete adoption signals for an open-source, self-hostable service, but it is not a full financial disclosure: expenses, profit, cash flow, financing, and founder distributions are absent, so outsiders cannot infer business health from revenue alone.
+
+### Comment pulse
+
+- Supporters read the numbers as trust and social proof → paying users praised Ente’s privacy posture, AGPL licensing, self-hosting, and unusually polished design.
+- Critics challenged the word “open” → revenue and accounts reveal traction, not profitability, liquidity, operating costs, financing dependence, or owner compensation.
+- Disclosure boundaries stayed contested → defenders considered partial transparency valuable and proportionate — counterpoint: stale precedents show public dashboards require ongoing maintenance.
+
+### LLM perspective
+
+- **View:** This is a growth dashboard, not open books; evidence of demand should not be mistaken for evidence of solvency.
+- **Impact:** Public traction reassures customers and recruits contributors, while selective disclosure risks backlash when the framing outruns the underlying data.
+- **Watch next:** Add timestamps, metric definitions, churn, plan mix, expenses, runway, and historical downloads so transparency remains interpretable and durable.

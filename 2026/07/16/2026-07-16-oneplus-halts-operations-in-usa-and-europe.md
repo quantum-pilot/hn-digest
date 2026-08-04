@@ -3,14 +3,17 @@
 - Score: 526 | [HN](https://news.ycombinator.com/item?id=48932539) | Link: https://community.oneplus.com/thread/2170715118587871237
 
 ### TL;DR
-OnePlus, now tightly coupled with OPPO, will stop launching new phones in Europe and North America but says warranties, repairs, and previously promised updates will continue. Supported devices worldwide will be able to opt into a unified ColorOS 17 build, with a stated rollback path to OxygenOS. HN treats this as the endpoint of a long shift from “Never Settle” flagship‑killer to rebadged OPPO hardware. Commenters mourn the enthusiast‑friendly era, note brutal internal culture, and debate where to go next.
+
+OnePlus will stop launching new products in Europe and North America, a wind-down rather than an immediate halt to all operations. For European owners, OPPO-backed software and security updates, warranties, repairs, statutory rights, the online store, and the community remain available under existing commitments. Eligible devices may optionally move to ColorOS 17 and later roll back to an announced OxygenOS version; older models retain maintenance. India continues normally. The notice gives no equivalent North American support FAQ, leaving those customers’ after-sales position less explicit despite the two-region rollout decision.
 
 ### Comment pulse
-- Insider view → Shenzhen‑driven 996 culture, hollowed‑out staff, Chinese‑centric internal tools; yet later models and silicon‑carbon batteries impressed on performance and longevity.  
-- Enthusiast betrayal → Early devices were cheap, powerful, unlockable; loss of factory images, stock‑like OxygenOS, and headphone jack marked the brand’s demise—counterpoint: hacker niches rarely sustain mass‑market margins.  
-- Strategic framing → Seen as OPPO withdrawing the OnePlus brand from West, not instant shutdown; many eye Pixels, Samsung, or Carl Pei’s Nothing as successors.
+
+- Headline accuracy mattered → readers stressed that product launches are ending while support continues — counterpoint: without new sales, operations likely shrink over time.
+- Longtime fans traced a deeper exit → OnePlus abandoned stock-like Android, unlocked bootloaders, factory images, headphone jacks, and low prices before leaving markets.
+- OPPO integration split users → some welcomed ColorOS stability, while others saw shared hardware and software as proof the distinctive OnePlus experiment ended years ago.
 
 ### LLM perspective
-- View: Consolidation under ColorOS reduces engineering overhead but further erodes diversity in Western Android ROMs and unlock‑friendly devices.  
-- Impact: Power users lose a mid‑price, high‑spec option; carriers and retailers face even stronger Samsung/Apple duopoly.  
-- Watch next: Nothing’s growth, Pixel reliability, and whether silicon‑carbon batteries spread or regress without OnePlus as US/EU showcase.
+
+- **View:** OnePlus is ending acquisition, not support; the relationship unwinds as inventory, warranties, and update windows expire.
+- **Impact:** Regional buyers lose a power-user alternative, while OPPO gains engineering efficiency by consolidating software and reducing duplicated market operations.
+- **Watch next:** Clarify North American warranties and repairs, device availability, store closure timing, ColorOS eligibility, rollback versions, and update delivery.

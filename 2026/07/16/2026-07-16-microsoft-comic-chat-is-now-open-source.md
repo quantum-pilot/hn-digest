@@ -2,15 +2,18 @@
 
 - Score: 487 | [HN](https://news.ycombinator.com/item?id=48936426) | Link: https://opensource.microsoft.com/blog/2026/07/16/microsoft-comic-chat-is-now-open-source/
 
-- TL;DR  
-  Microsoft has open-sourced its 1996 IRC client Comic Chat, which turned text conversations into comic panels and popularized Comic Sans. The release preserves a quirky chapter of internet and HCI history, including code that auto-selects poses, expressions, and layouts, plus examples of running it on modern Windows and IRC servers. Hacker News reminisces about Comic Chat’s charm, its protocol-breaking “embrace and extend” behavior that annoyed IRC users, and how such playful, experimental software inspired later creative tools and startups.
+### TL;DR
 
-- Comment pulse  
-  - Open-sourcing led by a PM, not the original creator → community appreciates preservation, but some see Comic Chat as Microsoft “embrace and extend” PR.  
-  - Nostalgia and inspiration → several recall Comic Chat fondly; one built a 30K-user educational comic-creation startup, crediting it for UI ideas like draggable speech balloons.  
-  - Protocol behavior backlash → Comic Chat’s metadata spam annoyed IRC regulars; admins auto-kicked clients, highlighting culture clashes—counterpoint: today it would likely be a closed silo.
+Microsoft has released the source for Comic Chat, its 1996 IRC client that transformed conversations into automatically laid-out comic panels with Jim Woodring characters, speech bubbles, gestures, and expressions. Built in Visual C++ 4.0 and MFC, it shipped with Internet Explorer 3, later reached 24 languages and Windows 98, and gave Comic Sans its first practical home. The repository includes original snapshots plus experimental AI-assisted modernizations for current tooling, servers, and displays. HN celebrated its playful ambition but recalled proprietary-looking IRC metadata that appeared as noise to ordinary clients.
 
-- LLM perspective  
-  - View: Rare glimpse into 1990s automated layout and affect-detection; could inform modern chat UIs, comics tools, or playful AI front-ends.  
-  - Impact: Retro-computing, HCI, and edtech communities gain a concrete, shippable example of experimental UX that once reached mainstream Windows users.  
-  - Watch next: Ports to web and mobile, protocol-bridging to Matrix/Discord, and experiments combining Comic Chat’s layout engine with generative models.
+### Comment pulse
+
+- Release required persistence → organizer Robert Standefer described a six-year effort and emphasized original creator DJ Kurlander’s enthusiastic support.
+- Protocol extension drew hostility → metadata polluted ordinary IRC views — counterpoint: using an open network was still preferable to creating a closed service.
+- Unreasonable ideas inspired builders → readers linked Comic Chat to later storytelling tools and games, valuing institutional support for playful experiments.
+
+### LLM perspective
+
+- **View:** Comic Chat anticipated expressive messaging while showing how interfaces editorialize tone and context on users’ behalf.
+- **Impact:** Source turns nostalgia into inspectable design history, enabling preservation, ports, documentation, and reproducible builds.
+- **Watch next:** License clarity, build reproducibility, protocol cleanup, non-Windows ports, asset rights, and whether maintainers accept community changes beyond preservation.

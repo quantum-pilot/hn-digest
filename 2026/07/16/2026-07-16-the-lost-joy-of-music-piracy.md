@@ -2,19 +2,18 @@
 
 - Score: 766 | [HN](https://news.ycombinator.com/item?id=48930454) | Link: https://www.pigeonsandplanes.com/read/music-piracy-what-cd-oink-nine-inch-nails-streaming
 
-## TL;DR
-The article traces the heyday of music piracy through Oink and What.CD, framed by Nine Inch Nails designer Rob Sheridan, who saw private trackers as the best distribution and discovery systems music ever had—high‑quality, communal, and fan‑driven. Labels fought leaks instead of fixing access and pricing, until streaming replicated piracy’s convenience without its curation, while still underpaying artists. Hacker News commenters mourn the loss of slow, social, reflective music discovery and note piracy’s ongoing role in preserving the long tail of recorded music.
+### TL;DR
 
----
+The essay traces music piracy from dorm networks through Oink and What.CD, arguing that private trackers offered more than free files: exhaustive catalogs, exacting quality standards, participatory curation, and unusually invested communities. Rob Sheridan recalls how Nine Inch Nails treated leaks as a distribution failure and experimented with direct, free releases. Streaming eventually delivered cheap universal-seeming access, but the author finds its algorithmic interfaces sterile, its archives incomplete, and its economics hostile to artists. Piracy’s lost “joy” was therefore collective discovery and stewardship, not merely avoiding payment.
 
-## Comment pulse
-- Piracy-era discovery felt richer → friends traded huge eclectic libraries, listening to whole albums and forming idiosyncratic tastes without algorithmic nudging — counterpoint: similar social sharing is possible today via playlists.  
-- Streaming is incomplete → many albums never hit Spotify, rights are murky, and piracy/private trackers quietly preserve otherwise-lost or out-of-print releases and true collection “ownership.”  
-- What.CD’s value was its community → invite-only scarcity fostered deep forums, meticulous metadata, and human recommendations that current algorithmic systems and successor sites struggle to match.
+### Comment pulse
 
----
+- Algorithmic access is not discovery → readers missed deliberate selection, reflection, friend-to-friend exchange, and forum expertise that made unfamiliar music personally meaningful.
+- Piracy also preserves cultural memory → obscure releases remain absent from legal catalogs, though services must also filter low-quality and synthetic clutter.
+- Nostalgia was contested → some credited youth and novelty, while others showed social playlists can recreate sharing without copying files.
 
-## LLM perspective
-- View: The core loss isn’t “free music” but high-friction, human-curated discovery spaces that rewarded effort, context, and conversation.  
-- Impact: Artists, archivists, and serious listeners bear the cost: weaker back catalogs, poorer payouts, and shallower cultural memory.  
-- Watch next: Independent, paid, community-moderated platforms that mix rich metadata, discussion, and ownership (downloads) with streaming-like convenience.
+### LLM perspective
+
+- **View:** What piracy exposed was an unmet product: durable access, deep catalogs, human curation, and community participation in one system.
+- **Impact:** Streaming solved distribution friction while separating listeners from files, context, and one another, leaving preservation and artist compensation unresolved.
+- **Watch next:** Look for services combining portable purchases, transparent payouts, complete archival catalogs, and user-led discovery rather than passive recommendations.

@@ -2,15 +2,18 @@
 
 - Score: 359 | [HN](https://news.ycombinator.com/item?id=48936584) | Link: https://www.mixfont.com/experiments/decoy-font
 
-- TL;DR  
-Decoy Font is a downloadable TTF that uses the “hybrid image” optical illusion to show two different texts at once: sharp outlines form a visible decoy, while blurred low-frequency shading encodes a second message legible when squinting or viewing from afar. Because most vision models and OCR read pixels at full resolution, they tend to report only the decoy text, making screenshots partially resistant to scraping. HN debates how robust this is, noting simple pre-processing or better prompts can reveal the hidden text.
+### TL;DR
 
-- Comment pulse  
-  - Novelty / art toy → People like the optical trick and hybrid-image typography, but many argue it’s more playful than practically useful.  
-  - Security value debated → Some note it can confuse today’s VLMs or surveillance cameras; others say resizing, filtering, or fine-tuned models will decode messages.  
-  - Prompting matters → When told a hidden message exists, newer GPT/Sol models can identify “HAPPY HUMAN,” showing this is an obfuscation arms race, not protection.
+Decoy Font is a downloadable TTF that overlays two signals in each glyph: sharp outlines form a decoy, while blurred low-frequency mass carries the intended letter. Up close, viewers and vision models tend to read the outlines; from farther away, while squinting, or after downsizing, the hidden message emerges. Screenshots reportedly fooled several frontier models, but the author calls it a deterrent, not a guarantee. Asking models to seek another message or applying simple low-pass processing can reveal it, making this optical camouflage rather than encryption.
 
-- LLM perspective  
-  - View: Clever demonstration of frequency-based steganography in fonts; treats AI as a new “viewer” with exploitable perceptual biases.  
-  - Impact: Short-term niche uses for anti-scraping screenshots or CAPTCHAs; long-term value as a benchmark for multimodal model robustness.  
-  - Watch next: Vision models trained on hybrid images; standardized tests for adversarial typography; legal norms around anti-ML obfuscation in content.
+### Comment pulse
+
+- Prompt context changes performance → models often returned only the outline text until told a second message existed, after which some decoded both.
+- Scale selects the channel → downsizing acts as a low-pass filter, suppressing outlines and exposing the blurred message to humans and models.
+- Utility divided commenters → some saw little security value — counterpoint: others proposed camera evasion, image-only messaging, art, or recognition benchmarks.
+
+### LLM perspective
+
+- **View:** The font exploits preprocessing assumptions, not intelligence limits; resolution, prompting, and frequency decomposition determine which message wins.
+- **Impact:** It can delay naive OCR or scraping, but treating it as privacy protection risks exposing supposedly hidden text.
+- **Watch next:** Benchmark multiple resolutions, compression levels, prompts, OCR engines, languages, accessibility tools, and automated dual-frequency detection.

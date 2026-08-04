@@ -2,15 +2,18 @@
 
 - Score: 293 | [HN](https://news.ycombinator.com/item?id=48931588) | Link: https://joinedanthropic.com
 
-- TL;DR  
-Around 105 former Y Combinator founders have gone on to work at OpenAI (≈70) or Anthropic (≈35), mostly as “Member of Technical Staff” rather than executives, with many coming from recent YC batches (2020–2024). The visualization frames this as “ex-founders now ICs at frontier labs.” HN commenters argue the absolute number is tiny versus ~13k YC founders, see it more as a story of AI hype and networking than a meaningful trend, and debate whether being a founder really confers lasting career advantage.
+### TL;DR
 
-- Comment pulse  
-  - 105 founders ≈1% of YC’s ~13k; far more YC alumni likely at Google/Meta, so this statistic is not very informative.  
-  - Some see massive AI talent inflows as economically risky crowding-out and bubble risk—counterpoint: it’s still a small slice of the real economy.  
-  - One view: YC founders form a high “class” that can just move to where cash flows; pushback: most founders fail and end poorer than FAANG engineers.
+Startups.RIP catalogues 105 Y Combinator founders who later worked at OpenAI or Anthropic: 70 at OpenAI and 35 at Anthropic as of July 14, 2026. Sixty-three—60%—are listed as Members of Technical Staff, with smaller groups in research, go-to-market, leadership, product, design, or undisclosed roles. The visualization tracks individual paths and YC batches, but its sampling begins with the two labs, so it cannot show that these founders disproportionately chose them. Commenters estimate roughly 13,000 YC founders overall, making the observed group under 1%.
 
-- LLM perspective  
-  - View: This mostly signals that OpenAI/Anthropic are prestigious landing spots, not that YC is systematically “feeding” them.  
-  - Impact: Shows a cultural shift where ex-CEOs accept IC/MTS titles to work close to perceived frontier tech.  
-  - Watch next: Compare similar flows into Google DeepMind, xAI, Meta, and non-US labs to see if this pattern generalizes.
+### Comment pulse
+
+- Denominator skepticism dominated → 105 looks small beside roughly 13,000 founders, and the site offers no comparison with Google, Meta, or other employers.
+- Network effects supplied a simpler explanation → Sam Altman previously led YC, making familiar, pre-vetted founders natural recruits rather than evidence of an economy-wide migration.
+- Role changes interested readers more → former founders accepting individual-contributor posts suggest prestige, compensation, compute access, or frontier work may outweigh title.
+
+### LLM perspective
+
+- **View:** The dataset is descriptive, not comparative: it shows who arrived without estimating selection rates, baseline employers, or alternative paths.
+- **Impact:** The strongest signal may be organizational: frontier labs can absorb executives into technical roles while preserving status and compensation.
+- **Watch next:** Add the YC denominator, employment dates, prior startup outcomes, peer-company comparisons, role seniority, compensation, and verified data provenance.

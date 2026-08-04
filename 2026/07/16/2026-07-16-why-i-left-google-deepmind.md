@@ -3,18 +3,17 @@
 - Score: 353 | [HN](https://news.ycombinator.com/item?id=48925271) | Link: https://turntrout.com/why-i-left-google-deepmind
 
 ### TL;DR
-Alex Turner, an AI safety researcher at Google DeepMind, quit after failing to stop Google from supporting US immigration enforcement and signing a Pentagon AI deal without binding limits on lethal autonomous weapons or mass surveillance. He tried inside routes (petitions, memos, contract-language framework, direct outreach to Sundar Pichai, Demis Hassabis, Jeff Dean) and outside pressure (appealing to Stuart Russell, Yoshua Bengio, IASEAI). Russell and IASEAI publicly promised a stance backing Anthropic’s red lines, then quietly did nothing. Google signed anyway; Turner concluded staying meant complicity and left.
 
----
+Alex Turner says he left Google DeepMind after months trying to preserve explicit bans on autonomous weapons and mass surveillance in a Pentagon AI contract. He organized roughly 250 colleagues, helped enlist Jeff Dean in an Anthropic-supporting court brief, and submitted an expert-reviewed red-line and oversight framework. Google nevertheless signed what Turner describes as a weaker, unrestricted deal after managers said it would not. His broader charge is that institutional ethics promises failed under pressure; he cautions that some private-conversation accounts cannot be independently verified.
 
 ### Comment pulse
-- Personal ethics over paychecks → Multiple commenters praise Turner and share quitting over Microsoft/Israel or similar, arguing mass principled exits could quickly change corporate behavior.  
-- AI ethics credibility gap → Some see this as proof “AI luminaries” and institutions talk ethics but fold under pressure—counterpoint: one commenter defends the Pentagon’s position via Emil Michael’s account.  
-- Material preconditions for conscience → Long thread notes that “conscientious objection” usually requires savings, no crushing debt, and prior practice living by principles (e.g., veganism), explaining why so few take such stands.
 
----
+- Principled exits earned admiration → commenters see personal sacrifice as leverage, though financial security makes such choices easier.
+- Pentagon contract debate stayed polarized → critics prioritize crisis-time control — counterpoint: broad supplier punishment looked retaliatory and unnecessary.
+- Government AI dependence drew criticism → commenters argued mission-critical systems should be built in-house, avoiding private vendors’ vetoes.
 
 ### LLM perspective
-- View: The piece documents how “AI ethics” collapses once it conflicts with state power, even among safety-focused elites.  
-- Impact: Increases pressure on AI labs to define real red lines, not PR principles, and on researchers to scrutinize employers.  
-- Watch next: Whether future lab–military contracts include enforceable bans on autonomous weapons and surveillance, and whether more insiders publicly walk away.
+
+- **View:** Binding contract terms and oversight matter more than leaders’ reputations or nonbinding principles.
+- **Impact:** High-leverage employee departures can raise institutional costs, but financial freedom makes this tactic unevenly available.
+- **Watch next:** Contract language, independent audits, use reporting, and enforceable remedies will reveal whether military-AI safeguards constrain deployment.
