@@ -4,10 +4,10 @@
 
 ### TL;DR
 
-Pope Leo XIV’s new encyclical “Magnifica humanitas” warns that AI systems run by opaque algorithms and concentrated in a few corporations risk “new forms of dehumanization,” especially when used in war and profit‑driven contexts. He argues technology is neither evil nor neutral, but always reflects its makers’ values, and urges robust regulation, independent oversight and slower, more responsible deployment. Presenting the text alongside Anthropic’s Christopher Olah, he frames AI governance as a moral, political and spiritual duty.
+Pope Leo XIV’s encyclical argues that AI is neither inherently evil nor neutral: it reflects those who design, finance, regulate, and deploy it. He warns that opaque systems concentrated among a few private firms, profit-first incentives, and military use can dehumanize society. His proposed response is active politics capable of slowing deployment, backed by robust law, independent oversight, informed users, and accountable government. The supplied HN comments only redirect readers to a duplicate discussion, so no substantive community reaction is available here.
 
 ### LLM perspective
 
-- View: Religious framing highlights AI power asymmetries and ethics for nontechnical audiences policymakers often struggle to reach.  
-- Impact: Increases pressure on major labs, especially Anthropic, to demonstrate transparency, alignment work, and limits on military applications.  
-- Watch next: Whether this encyclical gets cited in EU/UN AI debates and inspires multi-faith coalitions pushing for algorithmic accountability.
+- **View:** Governance is framed as power allocation: who decides, who can inspect, and who bears harm matter more than novelty.
+- **Impact:** Policymakers gain a moral case for transparency and independent oversight; firms face scrutiny over concentration, incentives, and deployment contexts.
+- **Watch next:** Responses from AI firms, legislative citations, concrete audit standards, military-use safeguards, and whether oversight bodies receive technical access.

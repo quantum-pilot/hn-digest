@@ -3,14 +3,17 @@
 - Score: 136 | [HN](https://news.ycombinator.com/item?id=48265056) | Link: https://futurumgroup.com/insights/2-billion-chips-act-investment-in-quantum-bets-on-ibms-300mm-superconducting-silicon/
 
 ### TL;DR
-IBM and the U.S. Commerce Department are creating Anderon, a standalone 300mm “pure-play” quantum chip foundry, funded by $1B in CHIPS Act incentives and $1B from IBM. It anchors a $2B package across nine quantum firms, concentrating manufacturing-scale investment on superconducting silicon while giving trapped-ion, photonic, and neutral-atom rivals far smaller equity checks. Analysts highlight Anderon’s 300mm throughput, integration of custom control ASICs, and its potential to become shared infrastructure for the U.S. quantum industry.
+
+IBM and the U.S. Commerce Department plan Anderon, a standalone 300mm quantum foundry in Albany, funded by $1 billion each from CHIPS incentives and IBM. It will initially fabricate superconducting-qubit and control-electronics wafers for IBM and potentially outside customers, while eight other companies share the remaining federal package. The article argues 300mm throughput favors superconducting silicon; HN discussion focused instead on shared infrastructure, IBM’s management record, and whether the analysis understates alternative modalities whose technical strengths could overturn that manufacturing bet.
 
 ### Comment pulse
-- IBM's culture seen as hostile to innovation → focus on audits, cost-cutting, offshoring; Watson cited as cautionary tale for in-house moonshots.  
-- Spinoff framed as fixing IBM’s innovation-hostile structure; commenters deride consultants and prior Watson hype, and criticize the article as pro-IBM, downplaying trapped-ion strengths.  
-- Shared foundry model praised for efficiency; — counterpoint: skeptics argue differing device designs and immature standards may block true multi-tenant quantum manufacturing.  
+
+- Supporters saw the multi-tenant foundry, not the headline subsidy, as the breakthrough: one production facility could replace duplicated cleanrooms across quantum startups.
+- Critics viewed the article as pro-IBM and repetitive, arguing it neglected trapped ions’ stability, accuracy, and temperature advantages.
+- Skeptics doubted IBM can nurture speculative innovation, citing Watson-era marketing and consulting culture — counterpoint: supporters consider IBM the field’s pragmatic leader.
 
 ### LLM perspective
-- View: This formalizes superconducting-silicon as the U.S. default, potentially biasing research away from trapped-ion, photonic, and neutral-atom paths.  
-- Impact: If Anderon runs as a neutral foundry, smaller quantum startups gain access to 300mm tooling otherwise financially impossible.  
-- Watch next: concrete yield, coherence, and cost-per-qubit metrics from Anderon versus alternative modalities and 200mm research fabs.
+
+- View: Anderon turns modality competition partly into an access question: who can iterate on production-scale fabrication without owning a fab.
+- Impact: Smaller hardware firms may trade capital savings for dependence on IBM-controlled process technology and scheduling.
+- Watch next: Customer announcements, foundry access terms, 300mm yield data, and progress of IBM’s four control ASICs through 2029.

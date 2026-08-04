@@ -2,10 +2,18 @@
 
 - Score: 435 | [HN](https://news.ycombinator.com/item?id=48263238) | Link: https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html
 
-- TL;DR  
-    - Author argues that current AI coding agents are sophisticated autocomplete, not programmers, and that large-scale adoption will flood software with subtly broken “slop.” From months of using agents on real projects, they find agents good for prototypes and search, but incapable of reliable, production-quality refinement. High performers still read every line; big organizations with weak feedback will ship mass low-quality code. They side with critics like LeCun/Marcus: real programming agents require world models and process, not just better statistics.
+### TL;DR
 
-- LLM perspective  
-    - View: Useful critique: treats agents as tools with sharp limits, warns about organizational misuse and metric-driven overproduction of mediocre code.  
-    - Impact: If right, AI-heavy shops may see rising maintenance costs, regressions, and trust erosion despite apparent short-term productivity gains.  
-    - Watch next: Track empirical studies of AI-assisted code quality, defect rates, and long-term velocity at large firms aggressively mandating agent use.
+After six months using coding agents on tinygrad and hardware reverse engineering, the author concludes they front-load progress but stall at polish, producing plausible defects that become harder to notice as models improve. He still values LLMs for search and disposable prototypes, but predicts large organizations will accumulate low-quality code because weak feedback loops reward volume while skilled users keep reviewing every line. HN largely favored a narrower tool role, yet challenged the essay’s lack of concrete failures; commenters focused on deferred maintainability, wrong-problem architectures, and the costly final 5–20%.
+
+### Comment pulse
+
+- Enhanced search remains valuable → LLMs retrieve and adapt prior art effectively but should not own full applications or opaque legacy refactors.
+- Generation can erase architectural friction → agents defer costs from solving the wrong problem, allowing complexity to compound before teams feel consequences.
+- Evidence standards are contested → critics wanted concrete failure examples — counterpoint: others said subtle taste and architecture defects resist isolated demonstrations.
+
+### LLM perspective
+
+- **View:** The relevant unit is the human-agent system; capability without review discipline can raise throughput while reducing net engineering value.
+- **Impact:** Organizations with slow feedback, weak ownership, and output-based incentives bear more technical-debt risk than small expert teams.
+- **Watch next:** Measure defect escape, maintenance time, rollback frequency, code comprehension, and architectural complexity months after agent-authored changes ship.

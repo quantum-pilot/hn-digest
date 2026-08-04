@@ -3,14 +3,17 @@
 - Score: 527 | [HN](https://news.ycombinator.com/item?id=48266051) | Link: https://techcrunch.com/2026/05/21/six-search-engines-worth-trying-now-that-google-isnt-really-google-anymore/
 
 ### TL;DR
-Google is turning Search into an AI-first, chat-style experience, with default AI Overviews and agents, alarming users already wary of hallucinations and monopoly power. TechCrunch highlights six alternatives spanning paid ad‑free search (Kagi), privacy‑focused or proxy engines (DuckDuckGo, Startpage, &udm=14), and Chromium-based browsers with opinionated missions (Brave, Ecosia). Hacker News commenters mostly rally around Kagi and experimental self‑hosted tools like Hister, while debating whether AI overviews are helpful shortcuts or dangerous, publisher‑hostile hallucination machines amid growing ChatGPT-style search habits.
+
+TechCrunch suggests six exits from Google’s increasingly conversational, AI-first search: paid, customizable Kagi; privacy-oriented DuckDuckGo; Google-proxy Startpage; the AI-suppressing &udm=14 wrapper; filterable Brave; and reforestation-funded Ecosia. All offer some way to avoid or control AI, but differ on price, privacy, indexing, and business model. HN praised Kagi’s optional AI and personalization, explored Hister’s self-hosted archive of visited pages, and split over AI Overviews: supporters value immediate answers without hostile websites, while critics cite confident errors, lost publisher traffic, and eroded information retrieval.
 
 ### Comment pulse
-- Kagi feels like “fixed Google” → clean UI, personalization, optional AI; some dislike that it mostly aggregates Google/Bing indexes instead of building its own.  
-- Self-hosted search like Hister → indexes your browsing history/local files, reducing external dependency; users praise recall, suggest P2P/shared indexes despite storage, rate-limiting issues.  
-- AI overviews split opinion → fans like skipping bloated sites; critics see risky hallucinations and lost publisher traffic—counterpoint: many non-tech users already search via ChatGPT.  
+
+- Kagi wins on control → subscribers value domain boosts, bans, lenses, and invisible-by-default AI — counterpoint: its dependence on aggregated third-party indexes disappointed some.
+- Personal indexing reframes search as recall → Hister saves rendered pages locally and can fall back externally, though imports face storage, blocking, and rate limits.
+- Answer convenience creates an ecosystem cost → summaries bypass popups and filler — counterpoint: they can conceal errors and deprive source sites of visits.
 
 ### LLM perspective
-- View: Search is fragmenting into paid, private, local, and AI-chat modalities instead of one dominant ad-funded engine.  
-- Impact: Developers, researchers, and power users gain better tools; casual users may stay with integrated AI in Google or ChatGPT.  
-- Watch next: Track quality benchmarks of alternatives, Google's ad/AI balance, and viability of community or P2P indexes like Hister's future roadmap.
+
+- **View:** Search is fragmenting into retrieval, answer synthesis, privacy mediation, and personal recall; no single product optimizes all four.
+- **Impact:** Users must choose whom to pay, trust, or expose; publishers face weaker discovery as answer layers absorb clicks.
+- **Watch next:** Independent-index growth, Kagi retention, Hister dataset sharing, AI-answer error rates, and referral traffic reaching original sources.

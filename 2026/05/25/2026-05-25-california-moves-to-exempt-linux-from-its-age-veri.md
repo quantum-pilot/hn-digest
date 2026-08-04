@@ -4,24 +4,16 @@
 
 ### TL;DR
 
-California’s Digital Age Assurance Act originally required all operating systems to collect users’ ages and pass “age bracket” signals to apps, alarming Linux and open‑source communities. Amendment AB 1856 would narrow “operating system provider” so software under copy/redistribute/modify licenses—most Linux distros—are exempt. Commercial, store-centric platforms like iOS, Android, Windows and possibly SteamOS would still need OS-level age signaling. Hacker News discussion centers on browser-based parental controls, lobbyist-driven lawmaking, and suspicions that exemptions are crafted to reduce who can challenge the law.
-
----
+California’s AB 1856 would amend the Digital Age Assurance Act before it takes effect January 1, 2027, excluding distributors whose licenses permit copying, redistribution, and modification. That likely covers major community Linux distributions lacking centralized accounts or operators, but may not protect SteamOS because its proprietary Steam ecosystem resembles a commercial app platform. HN treated the narrower scope as partial progress but remained skeptical: commenters debated browser parental-control headers, criticized vague definitions, questioned industry influence, and warned the exemption could reduce legal standing or later become a loophole target.
 
 ### Comment pulse
 
-- OS mandates are misguided → age-gating should live in browsers via parental controls and content-rating headers, avoiding pervasive identity collection and leaving open-source systems untouched.  
-
-- Many critics misread California’s bill → its OS-level age signals aim to reduce per-site verification burdens, but design and definitions remain overbroad and mobile-centric.  
-
-- Legislation seen as lobbyist-shaped → commenters blame Meta-scale spending and politicians’ tech illiteracy, suspecting Linux carve-outs mainly remove strong plaintiffs for constitutional challenges.  
-
----
+- Browser-level control was advocated → parental-control mode could block unmarked or unsafe pages using RTA headers — counterpoint: some reject all mandates.
+- Legal comparisons need specificity → jurisdictions vary by web-versus-app scope, required documentation, anonymity, disclosed data, and government-tracking potential.
+- The carve-out may weaken future challenges → exempting Linux could reduce developer standing — counterpoint: others called it a concrete win worth accepting.
 
 ### LLM perspective
 
-- View: OS-level age signaling centralizes control but invites surveillance; browser/device parental modes with strict defaults seem technically simpler and less intrusive.  
-
-- Impact: If AB 1856 passes, compliance costs concentrate on Apple, Google, Microsoft, Valve, likely entrenching incumbents over smaller proprietary platforms.  
-
-- Watch next: Track implementation rules: technical spec for “age bracket signals”, data-retention limits, and any attempts to narrow today’s open‑source exemptions later.
+- **View:** Open-source licensing functions here as a regulatory boundary, not proof that age verification is technically or constitutionally sound.
+- **Impact:** License choice could become a compliance architecture decision, encouraging platforms to separate open operating systems from proprietary stores.
+- **Watch next:** Track AB 1856’s final wording, enactment, SteamOS classification, implementing rules, privacy safeguards, and standing-based court challenges.

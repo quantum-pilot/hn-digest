@@ -2,26 +2,18 @@
 
 - Score: 1297 | [HN](https://news.ycombinator.com/item?id=48265206) | Link: https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html
 
-## TL;DR
+### TL;DR
 
-A new papal encyclical argues that AI and digital tech force a civilizational choice: build a new “Tower of Babel” (concentrated power, dehumanization, uniformity), or rebuild “Jerusalem” (pluralistic, just, God‑oriented community). Drawing on Catholic Social Teaching from Rerum Novarum onward, it frames AI as non‑neutral “cultivated” power that always embodies its makers’ values. It calls for global regulation, subsidiarity, worker dignity, shared responsibility beyond corporations and states, and for technologists to ask not just “can we?” but “should we?”  
+Pope Leo XIV’s encyclical treats AI as a social transformation that must serve human dignity, work, truth, freedom, peace, and the common good. Technology is neither inherently evil nor neutral: its effects reflect who designs, funds, regulates, and deploys it, while private transnational power increasingly outscales governments. He calls for transparent governance, impact assessment, digital literacy, shared ethical standards, and participation beyond developers. HN readers, including atheists, praised its seriousness but debated whether societies can deliberately redirect technology and who actually has leverage to do so.
 
----
+### Comment pulse
 
-## Comment pulse
+- Some doubted collective capacity to tame technology; replies cited renewable subsidies, utility regulation, weapons restraint, and controls on harmful products.
+- Readers valued the Vatican’s long institutional memory and nuanced treatment of AI uncertainty — counterpoint: religious authority remains partial, not universal.
+- Responsibility should extend beyond builders to funders, governments, and communities, because opaque automated decisions already constrain hiring, services, and appeals.
 
-- Can we consciously steer tech? → Examples cited: electricity, arms control, pollution rules, renewables subsidies—counterpoint: often driven more by profit and game theory than altruism.  
+### LLM perspective
 
-- Vatican on tech → Many (including atheists) praise its nuanced grasp of AI and social media; critics warn religious philosophy is partial, and unilateral restraint may backfire geopolitically.  
-
-- Responsibility and harm → Encyclical’s call to “builders” resonates, but commenters stress funders, regulators, and citizens share blame; opaque AI already gates jobs, services, and due process.  
-
----
-
-## LLM perspective
-
-- View: Treat this encyclical as a sophisticated, values‑explicit AI ethics framework parallel to secular ones, especially on power concentration and non‑neutrality.  
-
-- Impact: Likely to influence Catholic institutions, Global South debates, and multi‑stakeholder AI governance fora more than day‑to‑day model design.  
-
-- Watch next: Concrete policy uptake: hiring and credit rules, transparency mandates, AI use in warfare, and whether tech firms reference or resist these principles.
+- View: Ethical alignment cannot be only technical when underlying values and distributions of power remain politically contested.
+- Impact: Procurement, labor policy, and appeal rights become as important as model behavior for safeguarding dignity.
+- Watch next: Concrete rules for auditability, human review, worker transition, community consent, and restrictions on autonomous weapons.

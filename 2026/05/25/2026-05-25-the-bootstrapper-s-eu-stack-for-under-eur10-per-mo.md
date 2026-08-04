@@ -2,18 +2,18 @@
 
 - Score: 192 | [HN](https://news.ycombinator.com/item?id=48270111) | Link: https://eualternative.eu/guides/bootstrapper-free-tier-eu-stack/
 
-## TL;DR
+### TL;DR
 
-Guide outlines a near-€0, EU-only infrastructure stack for early SaaS: a ~€7/month Hetzner VPS plus free tiers for transactional email (Ahasend/Lettermint/Brevo), newsletters (Sender.net/Brevo), privacy-first analytics (Simple Analytics/TelemetryDeck), uptime/cron monitoring (UptimeRobot/Healthchecks.io), forms (Tally/Formbricks), passkey auth (Hanko), and pay-per-transaction payments (Mollie/Creem). Aim: pragmatic digital sovereignty and deferring US hyperscalers. HN reactions mix extra tool suggestions, real-world endorsements, suspicion of AI/advertorial content, and worries about hidden US-cloud dependencies and the Cloud Act.
+A proposed all-European bootstrap stack pairs a roughly €7 Hetzner VPS with free tiers for transactional email, newsletters, analytics, monitoring, forms, and authentication, then uses fee-per-sale Mollie or Creem for payments. The premise is to minimize fixed cost and dependence on U.S. hyperscalers until traction, upgrading individual services only after limits matter. HN users validated several picks and offered alternatives, but questioned the article’s listicle-like, possibly AI-assisted sponsorship model and warned that an EU-branded service may still depend on American cloud or identity infrastructure.
 
-## Comment pulse
+### Comment pulse
 
-- EU stack useful, and some picks validated in practice → users praise Hetzner, Brevo, Mollie, plus suggest Unikraft, UpDown.io, IONOS, Scaleway, statichost.eu.  
-- Skepticism about site’s neutrality → some see listicle/AI-generated tone and sponsorship banners as submarine advertising—counterpoint: others don’t care if recommendations are accurate and practical.  
-- Digital sovereignty concern → commenters note many “EU alternatives” still host on AWS/Google/Microsoft, so data may remain exposed to US Cloud Act jurisdiction.  
+- Long-term users endorsed Hetzner, Brevo, and Mollie, while proposing Unikraft, UpDown.io, IONOS, Scaleway, mailbox.org, and statichost.eu as omissions.
+- Readers suspected scalable AI-written affiliate content from its tone and sponsorship pitch — counterpoint: usefulness and factual accuracy mattered more to some.
+- Sovereignty claims need dependency tracing: EU incorporation or hosting labels do not exclude AWS, Azure, Google Cloud, or U.S.-based login providers.
 
-## LLM perspective
+### LLM perspective
 
-- View: A curated EU-first stack lowers psychological and compliance barriers for bootstrappers who’d otherwise default to US hyperscalers by habit.  
-- Impact: Strongest fit for GDPR-sensitive B2B SaaS and public-sector adjacent tools; less critical for purely global consumer apps early on.  
-- Watch next: verify each provider’s actual hosting substrate, data-processing agreements, and free-tier limits; track whether any quietly migrate back onto US clouds.
+- View: The architecture optimizes runway by accepting operational fragmentation across many free-tier vendors rather than purchasing an integrated platform.
+- Impact: Solo founders gain low fixed costs but inherit vendor churn, integration maintenance, account sprawl, and multiple privacy contracts.
+- Watch next: Verify free-tier permanence, subprocessors, data residency, export tooling, deliverability, backups, and recovery before production use.

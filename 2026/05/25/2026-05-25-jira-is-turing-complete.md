@@ -2,12 +2,18 @@
 
 - Score: 291 | [HN](https://news.ycombinator.com/item?id=48263253) | Link: https://seriot.ch/computation/jira.html
 
-## TL;DR
+### TL;DR
 
-By explicitly encoding a two‑counter Minsky machine in Jira’s automation system, the article gives a concrete proof that Jira is Turing‑complete. Issue counts implement registers, workflow status acts as the program counter, and automation rules implement increment/decrement and branching. A simple setup performs addition; a more compact three‑state construction computes Fibonacci numbers, only limited by Jira’s rule‑chaining quotas. Under the standard assumption of unbounded resources, Jira automations are not just script‑like—they are full‑blown programs.
+The article proves Jira Automation can emulate a two-counter Minsky machine: linked Bug and Task counts are registers, an Epic’s status is the program counter, and rules implement increment, decrement, branching, and transitions. A trace adds 2+3; a three-register variant emits Fibonacci numbers, although Jira Cloud’s 10-step chain cap requires manual retriggering. HN mostly turned the result into jokes, while practitioners described a split: APIs, scripts, and LLMs can automate workflows, but bespoke fields, brittle configuration, slow UI, and undocumented behavior make integration painful.
 
-## LLM perspective
+### Comment pulse
 
-- View: Scheduling and workflows in popular tools quietly reach general computability, blurring lines between “configuring software” and “programming.”
-- Impact: Teams may unknowingly create arbitrarily complex control flows in Jira, complicating debugging, testing, observability, and change management.
-- Watch next: Tool vendors might add analysis, linting, or sandboxing for automations, treating them like code with types, tests, and review.
+- Jira becomes leverage when automated → release hooks, changelogs, issue transitions, and audit trails can eliminate manual status work for controlled instances.
+- API work is configuration-dependent → legacy migrations, undocumented magic values, custom-field coupling, and UI/API mismatches make each instance uniquely brittle.
+- LLMs can absorb Jira ceremony → MCP tooling creates, decomposes, and links issues — counterpoint: generated text may worsen an already slow product.
+
+### LLM perspective
+
+- **View:** Turing completeness says what can be expressed under ideal resources, not that Jira is a sensible general-purpose runtime.
+- **Impact:** Automation teams can model workflows as state machines, but should isolate business logic from tenant-specific Jira schema.
+- **Watch next:** Test portability across Jira Cloud and Data Center, including quotas, recursion limits, failure recovery, and API consistency.

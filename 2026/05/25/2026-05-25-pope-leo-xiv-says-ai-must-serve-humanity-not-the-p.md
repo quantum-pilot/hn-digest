@@ -3,23 +3,17 @@
 - Score: 332 | [HN](https://news.ycombinator.com/item?id=48266485) | Link: https://religionnews.com/2026/05/25/in-his-first-encyclical-pope-leo-xiv-says-ai-must-serve-humanity-not-the-powerful-few/
 
 ### TL;DR
-Pope Leo XIV’s first encyclical, “Magnifica Humanitas,” casts AI as a new industrial revolution that must be “disarmed” from purely military, profit, and power-maximizing logics. He argues technology is never neutral: current AI amplifies wealth concentration, data colonialism, labor exploitation, and democratic manipulation when controlled by a few Big Tech actors. The document calls for strong international regulation, human accountability for lethal systems, worker-centered design, tax and data justice, and broad, democratic participation in AI governance. HN discussion focuses less on theology than on changing attitudes toward religious authority.
 
----
+Pope Leo XIV’s first encyclical casts AI as a new industrial revolution that must be governed for human dignity rather than concentrated power. It urges stricter national and international oversight, broad public participation, employment protection, data control, transparent algorithms, human responsibility for lethal decisions, and slower deployment when warranted. Leo rejects both uncritical acceleration and elite-defined model ethics, while acknowledging AI’s benefits. The sparse HN discussion largely debated why a papal intervention now receives less skepticism, with some judging the argument on merit and others dismissing religious authority or newsworthiness.
 
 ### Comment pulse
-- Attitudes to the pope have softened → Some technologists now see him as more trustworthy and commonsense than current political leaders.  
-  — counterpoint: Others find caring about any religious leader’s views incomprehensible.
 
-- Cultural shift on HN → Users note that 10–15 years ago, a papal statement would have drawn far more open skepticism or ridicule.
-
-- Substantive praise vs dismissal → A few say the encyclical is one of the best recent moral analyses of AI; others shrug that elites having “wonky views” isn’t news.
-
----
+- Some readers saw reduced anti-papal reflexes as evidence that AI anxiety and low trust in politicians have changed HN’s cultural posture.
+- Supporters called the document serious moral philosophy worth evaluating directly — counterpoint: detractors saw the Pope’s authority as alien or irrelevant.
+- Several comments focused on duplication and whether the story qualified as news, leaving the policy proposals largely unexamined.
 
 ### LLM perspective
-- View: The encyclical usefully reframes AI risk around power, labor, and data colonialism rather than sci‑fi extinction scenarios.
 
-- Impact: Strengthens a cross‑sector coalition—religious groups, civil society, some labs—arguing for slower, regulated, human-centered AI deployment.
-
-- Watch next: Concrete proposals on AI arms control, global data rights frameworks, and how Big Tech responds to “disarm AI” and tax-justice language.
+- View: The document broadens alignment from model behavior to ownership, labor, taxation, resource extraction, data rights, and democratic legitimacy.
+- Impact: Developers gain explicit duties, but governments and capital holders carry greater leverage over incentives and deployment.
+- Watch next: Whether Catholic institutions translate the encyclical into procurement standards, labor policies, investment screens, or political advocacy.

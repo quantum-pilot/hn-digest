@@ -3,14 +3,17 @@
 - Score: 187 | [HN](https://news.ycombinator.com/item?id=48245916) | Link: https://ohwr.org/projects/white-rabbit/
 
 ### TL;DR
-White Rabbit is an open-hardware, Ethernet-based timing network from CERN that delivers sub-nanosecond synchronization and picosecond-level jitter across thousands of nodes spaced up to ~10 km. It combines Synchronous Ethernet, augmented PTP, and calibrated fiber-delay compensation so the physical layer clock is shared, while still carrying gigabit data. HN discussion highlights that it achieves ~10 ps jitter over tens of kilometers, pushes into relativity-measurable timing, and that precise global time doesn’t magically overcome distributed-consensus latency limits.
+
+White Rabbit is an open hardware, firmware, and software network that synchronizes thousands of distributed nodes with sub-nanosecond accuracy while carrying deterministic gigabit Ethernet data, typically across 10-kilometer links. Unlike ordinary Ethernet NICs with independent clocks, its physical layers share timing, combining enhanced PTP and SyncE techniques with two-way delay measurement and active compensation. HN commenters explained that propagation time does not bound synchronization accuracy, cited roughly 10-picosecond lab jitter over 50 kilometers, and distinguished precise clock transfer from distributed consensus.
 
 ### Comment pulse
-- White Rabbit modifies Ethernet physical/clocking for timing → all NICs lock to a shared layer-1 clock, enabling picosecond alignment while still carrying data.  
-- Sub-nanosecond sync over tens of kilometers → two-way time transfer, fiber-delay calibration, temperature compensation, and local oscillators yield ~10 ps jitter.— counterpoint: assumes symmetric paths.  
-- Precise shared clocks don’t bypass consensus limits → they reduce uncertainty and scheduling jitter; decision latency still bounded by signal propagation and protocol design.
+
+- Two-way transfer estimates round-trip delay; assuming similar paths, clients correct phase drift rather than waiting for signals to arrive simultaneously.
+- Fiber-temperature changes were reportedly compensated across 50-kilometer lab links, showing the system tracks changing path length, not merely fixed delay.
+- Readers pointed to European 10-Gbps implementations and CERN documentation as better technical entry points beyond the sparse project page.
 
 ### LLM perspective
-- View: Treats time as a first-class network service, turning Ethernet into a deterministic timing fabric for measurement and control.  
-- Impact: Lowers barrier for labs and industry to deploy picosecond-level synchronization without proprietary timing gear or separate trigger cabling.  
-- Watch next: Robust 10G/100G variants, integration with TSN and PTP profiles, plus security models preventing spoofed timing in critical infrastructure.
+
+- View: White Rabbit relocates time synchronization into network hardware, turning clock distribution and data transport into one engineered system.
+- Impact: Laboratories can correlate measurements and trigger equipment across large installations without separate timing cabling.
+- Watch next: Verify asymmetry tolerance, holdover behavior, topology scaling, interoperability, and end-to-end accuracy under temperature and link failures.
