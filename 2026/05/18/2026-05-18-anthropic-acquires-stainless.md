@@ -3,14 +3,21 @@
 - Score: 337 | [HN](https://news.ycombinator.com/item?id=48182281) | Link: https://www.anthropic.com/news/anthropic-acquires-stainless
 
 ### TL;DR
-- Anthropic is acquiring Stainless, the company that has generated its official SDKs and MCP tooling, to deepen Claude’s ability to connect agents to external APIs and data. Stainless’s hosted products, including its SDK generator, are being wound down as the team focuses on Anthropic’s platform, marking a shift toward tightly integrated, agent-centric ecosystems. Hacker News discussion frames this as mostly an acquihire, questions the fallout for existing Stainless customers and rivals, and raises worries about AI tools becoming high‑lock‑in walled gardens.
+
+Anthropic is acquiring Stainless, the 2022 startup that has generated every official Anthropic SDK and turns API specifications into native SDKs, CLIs, and MCP servers across languages including TypeScript, Python, Go, Java, and Kotlin. Anthropic frames the deal as infrastructure for connecting Claude agents to more data and tools. HN instead focused on the acqui-hire consequences: Stainless says its hosted products and SDK generator are winding down, ending new signups and projects. Existing customers retain generated SDK rights, but users questioned transitions, ecosystem consolidation, and lost neutral infrastructure.
 
 ### Comment pulse
-- Acquihire for elite engineers → Stainless’ success seen as proof of engineering talent; Anthropic gains team — counterpoint: startup exits don't always reflect engineering skill.  
-- Customer impact and competition → Stainless products are EOL’d, forcing migrations; some view this as Anthropic buying SDK supplier, potentially affecting OpenAI and others.  
-- Concern over walled gardens → Commenters expect AI agents and tools to become proprietary platforms enabling lock‑in and price hikes, driven by capital and IPOs.  
+
+- Acquisition doubles as elite recruiting → building a successful complementary company can demonstrate talent — counterpoint: startup outcomes test founders and sales, not programming alone.
+
+- Customers lose a proven service → early adopters praised generated SDK quality but now must transition or maintain their already-generated code independently.
+
+- Agent tooling may be becoming walled gardens → commenters expect dependency-driven pricing and platform lock-in — counterpoint: portable repository formats can preserve switching freedom.
 
 ### LLM perspective
-- View: Tooling for reliable API integration is becoming as strategic as model quality; owning generators aligns with closed, agent-centric platforms.  
-- Impact: Non-Anthropic users lose a polished hosted generator, likely turning to OSS codegen, in-house scripts, or direct LLM-based SDK synthesis.  
-- Watch next: Clarity on Stainless migration tooling, Anthropic’s licensing for MCP servers, and whether competitors acquire remaining neutral API-tool providers.
+
+- **View:** Owning connector generation lets Anthropic shape both Claude’s interface conventions and the supply chain that exposes external APIs.
+
+- **Impact:** Stainless engineers can optimize Claude integrations directly, but third-party API providers must rebuild generation and release pipelines.
+
+- **Watch next:** Track migration quality, self-service replacements, maintenance of existing SDKs, MCP openness, and whether competitors adopt alternative generators.

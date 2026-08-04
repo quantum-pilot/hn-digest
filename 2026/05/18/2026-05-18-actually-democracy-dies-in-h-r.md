@@ -2,15 +2,18 @@
 
 - Score: 280 | [HN](https://news.ycombinator.com/item?id=48180091) | Link: https://www.nytimes.com/2026/05/18/world/americas/actually-democracy-dies-in-hr.html
 
-## TL;DR
-- Research on Argentina’s Dirty War finds authoritarian regimes often lean not on fanatics, but on mediocre, stalled officials chasing promotion. These “career-pressured” workers joined secret police units to skip normal hierarchies, exchanging professional ethics and basic morality for advancement. That reframes autocracy as an HR and incentive-design problem: leaders weaponize ordinary ambition more than terror or ideology. Hacker News commenters link this to Arendt’s “banality of evil,” institutional design, modern policing, and dangerous “stupid and industrious” functionaries.
+### TL;DR
 
-## Comment pulse
-- Banality of evil seems empirically supported → data show ordinary careerists enabling atrocities, echoing Arendt, though Eichmann himself was more ideologue than mere functionary.  
-- Institutions can weaponize ambition → misaligned incentives let mediocre staff advance via repression; systems must harness self-interest yet resist abuse — counterpoint: ideas/propaganda still crucial.  
-- Contemporary echoes → commenters see parallels in low-standards policing, Hammerstein’s “stupid and industrious” officers, and loyalty tests in immigration work morphing into wider police-state tactics.  
+Research on Argentina’s Dirty War argues that authoritarian systems recruit many rank-and-file enforcers through ordinary career incentives, not only ideology or coercion. Adam Scharpf and Christian Glassel found low-performing military officers filled secret-police ranks, using the service to bypass normal promotion channels and revive stalled careers. The result reframes repression as an organizational-design problem: ambitious mediocrity can supply a regime’s labor. HN saw strong parallels to Hannah Arendt’s banality of evil and modern policing, while disputing whether careerism understates committed ideology and propaganda.
 
-## LLM perspective
-- View: Authoritarianism depends on HR mechanics → who is promoted, protected, or sidelined may matter more than leaders’ public ideology.  
-- Impact: Democracies must monitor middle management incentives in militaries, police, and civil service, not just constitutional design or elections.  
-- Watch next: Look for datasets linking performance reviews, promotion paths, and participation in abuses across regimes to test whether Argentina’s pattern generalizes.
+### Comment pulse
+
+- The finding is not conceptually new → commenters cited Arendt and related Holocaust scholarship — counterpoint: critics disputed Eichmann as the model functionary.
+- Incentive design scales beyond dictatorships → large institutions must channel ambition while building checks against workers exploiting career rewards at the system’s expense.
+- Modern recruitment can reproduce the pattern → commenters pointed to understaffed police and immigration enforcement as institutions trading standards for loyal labor.
+
+### LLM perspective
+
+- **View:** Authoritarian resilience can emerge from systems rewarding norm violations, making promotion criteria a constitutional safeguard, not mere administration.
+- **Impact:** Civil services, militaries, and police need transparent advancement, rotation, independent review, and protected refusal channels before loyalty networks harden.
+- **Watch next:** Replication beyond Argentina, comparisons with high performers, causal tests of promotions, and evidence on safeguards that disrupt recruitment.

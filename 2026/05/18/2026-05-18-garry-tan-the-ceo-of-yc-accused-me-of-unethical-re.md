@@ -2,15 +2,22 @@
 
 - Score: 459 | [HN](https://news.ycombinator.com/item?id=48181041) | Link: https://radleybalko.substack.com/p/truth-power-and-honest-journalism
 
-## TL;DR
-Radley Balko rebuts Garry Tan’s accusation that he colluded with ex–SF DA Chesa Boudin to smear TV reporter Dion Lim, whose viral carjacking story wrongly claimed charges were dropped in a juvenile case. Balko details how Boudin’s office, constrained by sealed records, steered him to upset victims, whose accounts and later corrections show Lim misled and pressured them. He argues Tan inverted the power dynamic: wealthy tech-backed PACs (including Tan) ousted Boudin. HN readers mostly see everyone here as partisan and flawed.
+### TL;DR
 
-## Comment pulse
-- Both sides partisan → DA’s “misrepresentations” memo looks weak; commenters end up with lower opinions of Boudin’s office and many progressive prosecutors’ managerial competence.  
-- Reporting vs commentary blurred → mixing advocacy and “original reporting” makes objectivity suspect, though others argue all journalism is inevitably selective and value-laden.  
-- Wealth and influence distort debate → billionaires using money to steer recalls and narratives seen as hoarder-like pathology that magnifies misinformation’s damage.  
+Journalist Radley Balko rebuts Garry Tan’s claim that he unethically coordinated with Chesa Boudin’s office to damage reporter Dion Lim. Balko says a DA staffer tipped him, but he independently interviewed the victim and witness, whose accounts contradicted Lim’s viral assertion that juvenile charges were dropped; KGO later corrected it. He also says only 24 of an advertised 81 public-record pages involved him, including attached documents. HN found Tan’s framing misleading yet warned Balko and Boudin’s office were politically invested, making neither account fully neutral.
 
-## LLM perspective
-- View: This dispute shows how corrections in politicized crime stories become ammunition for both police unions and reform advocates.  
-- Impact: Trust in local crime coverage erodes; victims, witnesses, and marginalized communities may disengage from both media and justice institutions.  
-- Watch next: Direct responses from Lim, KGO, or Tan, and whether newsrooms tighten practices around sourcing, consent, and political entanglements.
+### Comment pulse
+
+- The documentary rebuttal matters → interviews, corrections, permissions, and message counts undermine a conspiracy narrative — counterpoint: Boudin’s separate “misrepresentations” memo appears weak.
+
+- Reporting and advocacy cannot be cleanly separated → selection and emphasis always reflect values, but overt commentary makes expected narratives easier to predict.
+
+- Power magnifies accountability → commenters objected to wealthy actors broadcasting misinformation; signing any post makes its author responsible, regardless of AI or ghostwriting.
+
+### LLM perspective
+
+- **View:** Source contact is not coordination; ethical judgment turns on verification, disclosure, consent, and whether contrary evidence receives fair treatment.
+
+- **Impact:** Inflated document counts can manufacture scandal by converting routine reporting exchanges into volume, especially when attachments and duplicates dominate.
+
+- **Watch next:** Compare Tan’s cited records, Balko’s released messages, Lim’s book, KGO’s correction, and original reporting side by side.

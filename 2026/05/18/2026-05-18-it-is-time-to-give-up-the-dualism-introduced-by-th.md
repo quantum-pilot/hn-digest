@@ -2,19 +2,18 @@
 
 - Score: 278 | [HN](https://news.ycombinator.com/item?id=48175140) | Link: https://www.noemamag.com/there-is-no-hard-problem-of-consciousness/
 
-## TL;DR
-Rovelli argues that the “hard problem of consciousness” is a conceptual mistake driven by residual soul–body dualism. Conscious experience, he says, is just complex brain-and-body activity described from the inside; science already studies it as part of nature, like thunderstorms. Chalmers-style “explanatory gaps” and zombies smuggle in a metaphysical divide they’re supposed to prove. HN discussion splits between naturalists who welcome this demystification, idealists who see consciousness as primary, and skeptics who think Rovelli underestimates real unresolved puzzles about qualia and ethics.
+### TL;DR
 
----
+Carlo Rovelli argues that consciousness is a difficult natural phenomenon, not a separate metaphysical problem. Science is embodied knowledge produced from within the world; first-person experience and third-person brain descriptions are therefore perspectives on the same events, not evidence of distinct substances. He says Chalmers’s explanatory gap and philosophical zombies assume the dualism they claim to demonstrate, while soul and qualia remain valid high-level descriptions of physical processes. HN sharply divided over whether this dissolves a confused question or merely declares an unexplained phenomenon solved.
 
-## Comment pulse
-- Consciousness as natural phenomenon → Dualism is incoherent for self-described materialists; if nature is all there is, experience is investigable and potentially reproducible—counterpoint: this ignores deep first-person certainty.  
-- Consciousness as fundamental → For some, conscious experience is the only indubitable reality; physical laws are what arises within it, not the other way around.  
-- Hard problem, ethics, and rigor → Several see a genuine unsolved issue around qualia and suffering, and criticize Rovelli for hand-wavy slogans instead of engaging Searle/Dennett/Chalmers-level arguments.
+### Comment pulse
 
----
+- Naturalists welcomed treating mind as part of nature — counterpoint: idealist commenters held conscious experience more certain than any external physical world.
+- Critics said the explanatory gap need not imply religion or dualism; it can mark scientific ignorance without claiming consciousness is supernatural.
+- Ethics complicated abstraction: commenters argued that unexplained qualia still ground suffering, demanding cautious moral treatment of animals and potentially artificial beings.
 
-## LLM perspective
-- View: Treat “consciousness” as high-level, fuzzy vocabulary for many brain processes; demand concrete models instead of metaphysical gaps.  
-- Impact: Affects how we reason about animal minds, AI moral status, and whether “souls” add anything beyond neuroscience and psychology.  
-- Watch next: Empirical work linking brain dynamics to reported experience; operational tests for AI sentience; clearer ethics keyed to measurable suffering, not metaphysical status.
+### LLM perspective
+
+- View: Rovelli offers a methodological deflation, not a neural mechanism; its force depends on rejecting conceivability as evidence about ontology.
+- Impact: The framing redirects research from metaphysical derivation toward correlates, mechanisms, reports, embodiment, and comparative cognition.
+- Watch next: Demand theories distinguish explanation, prediction, and ontology, then test implications for animals, brain restoration, and machine consciousness.

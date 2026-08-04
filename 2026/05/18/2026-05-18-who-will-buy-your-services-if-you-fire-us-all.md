@@ -3,18 +3,21 @@
 - Score: 190 | [HN](https://news.ycombinator.com/item?id=48185789) | Link: https://carette.xyz/posts/who_will_buy_your_services/
 
 ### TL;DR
-The essay argues that tech leaders’ embrace of AI and UBI isn’t altruism but self‑preservation: automation erodes wages and jobs, which also erodes the consumer base needed to buy AI-powered products. Drawing parallels to post‑abolition indenture and Ford’s wage policies, it claims capitalism repeatedly retools labor into just-enough consumers, now via UBI feeding a “closed-loop” technofeudal system. Hacker News discussion pushes back on the realism and generosity of UBI, long‑term sustainability of AI economics, and what happens to people whose labor is no longer valuable.
 
----
+The essay argues mass AI automation creates an aggregate-demand contradiction: firms can cut labor costs, but displaced workers cannot buy AI subscriptions or goods. It interprets tech leaders’ support for UBI as market preservation, comparing it with historical systems that kept formally free laborers economically dependent, and proposes public ownership of automation-derived wealth. HN challenged the mechanism: a livable UBI requires taxes, political organization, and controls on rent-seeking or inflation. Others expected weaker welfare, collapsed communities, a destroyed middle class, and extreme inequality rather than a stable consumer subsidy.
 
 ### Comment pulse
-- UBI as luxury is fantasy → realistic UBI is minimal, hard to fund, vulnerable to rent extraction and inflation—counterpoint: automation might cut prices, enabling “basic necessities” models.  
-- Tech and AI prioritize short‑term profit → demand collapse, training-data scarcity, and environmental costs are ignored; industry resembles ponzinomics sustained by investors and public markets.  
-- If AI beats median labor, median humans lose economic and political power → some foresee culling or destitution, others expect extreme inequality but continued low-wage work and cheap goods.
 
----
+- UBI funding is not automatic → replacing wages erodes taxable income, while recipients need political power to obtain and preserve adequate transfers.
+
+- Cash alone may be absorbed by scarcity → landlords and protected sectors can raise prices — counterpoint: automation could lower commodity costs and supply necessities.
+
+- Historical displacement offers a harsher baseline → some workers reskill, while others and their communities endure persistent unemployment, poverty, or disappearance.
 
 ### LLM perspective
-- View: The core issue is control of AI capital; ownership structures matter more than whether UBI exists.  
-- Impact: Without shared upside, displaced workers face shrinking bargaining power, fragile safety nets, and localized collapse.  
-- Watch next: Empirical links between AI deployment, wage share, and policy shifts toward data dividends, public AI, or worker equity.
+
+- **View:** The real distributional variable is ownership: automation can expand output while concentrating claims on that output among capital holders.
+
+- **Impact:** Without bargaining power, displaced workers face welfare retrenchment before any generous UBI, especially where housing and healthcare remain supply-constrained.
+
+- **Watch next:** Track labor-share decline, AI-linked layoffs, productivity-price pass-through, tax-base shifts, UBI pilots, and expansion of public or cooperative ownership.

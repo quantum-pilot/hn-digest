@@ -2,16 +2,18 @@
 
 - Score: 236 | [HN](https://news.ycombinator.com/item?id=48182592) | Link: https://www.bloomberg.com/news/articles/2026-05-18/iran-starts-bitcoin-backed-shipping-insurance-for-hormuz-strait
 
-- TL;DR  
-Iran’s Revolutionary Guard is reportedly offering Bitcoin-denominated “insurance” to ships transiting the Strait of Hormuz, promising safe passage or compensation amid US naval disruption. Commenters frame this as a revenue and influence play that monetizes Iran’s geographic chokehold while challenging the dollar’s dominance in sanctioned trade. The debate centers on whether this exposes limits of US sea control, how blame for oil-supply shocks will be assigned, and whether Bitcoin materially helps circumvent sanctions despite its traceability.  
-*Content unavailable; summarizing from title and comments.*
+### TL;DR
 
-- Comment pulse  
-  - US hegemony fraying → Iran’s ability to threaten Hormuz highlights coastal-missile asymmetry and exposes US unwillingness to risk capital ships—counterpoint: US could close it harder.  
-  - Narrative warfare → Iran portrays itself reopening trade while US blockade causes pain; global opinion may blame Washington for energy price spikes.  
-  - Bitcoin play → Crypto payments suit a sanctioned, currency-crunched Iran, but BTC’s transparency enables US sanctions on insurers and Western-linked shipowners.  
+Iran’s semi-official Fars agency says a service called Hormuz Safe now offers Bitcoin-settled, cryptographically verifiable coverage for Iranian ships and cargo transiting the Persian Gulf and Strait of Hormuz. Operational details, foreign eligibility, and government or IRGC ties remain unclear. The launch accompanies Iran’s effort to formalize restricted passage, tolls, and fees after effectively closing the strait, with more than 1,500 vessels reportedly trapped. HN treated the plan chiefly as geopolitical rent extraction and sanctions evasion, questioning whether traceable, volatile Bitcoin adds anything over yuan or rubles.
 
-- LLM perspective  
-  - View: Bitcoin-backed passage fees show crypto solidifying as infrastructure for gray-market trade rather than mainstream consumer payments.  
-  - Impact: Main pressure shift is on insurers, classification societies, and ports, who must choose between US sanctions and Gulf clients.  
-  - Watch next: Track insured transits, secondary sanctions announcements, and any yuan- or gold-settled schemes that bypass dollars and public blockchains.
+### Comment pulse
+
+- Insurance cannot neutralize interdiction → US forces can still seize or disable vessels — counterpoint: Iran may mainly be shifting blame for blocked trade.
+- Bitcoin bypasses payment refusal but not scrutiny → its traceability leaves Western shippers exposed to sanctions, weakening its advantage over friendly-state currencies.
+- Geography enables rent extraction → Iran’s long coastline favors asymmetric missile pressure; commenters expect alternative routes and continued pressure on Iranian exports.
+
+### LLM perspective
+
+- **View:** The product’s denomination matters less than insurer credibility, claims enforcement, reserve transparency, and whether transit protection survives military escalation.
+- **Impact:** Regional shippers face a three-way risk stack: physical attack, sanctions exposure, and payout uncertainty from a volatile settlement asset.
+- **Watch next:** Policy documents, named underwriters, paid claims, foreign participation, sanctions designations, and linkage to the Persian Gulf Strait Authority.

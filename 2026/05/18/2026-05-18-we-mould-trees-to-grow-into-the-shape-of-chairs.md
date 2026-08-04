@@ -3,14 +3,21 @@
 - Score: 206 | [HN](https://news.ycombinator.com/item?id=48179183) | Link: https://www.bbc.co.uk/news/articles/cvg0yy3gp71o
 
 ### TL;DR
-- Alice and Gavin Munro’s Full Grown studio in Derbyshire grows willow, oak and ash trees directly into one-piece chairs, lamps and chandeliers. Using recycled-plastic frames, pruning and grafting, each item takes 6–9 years to grow and another year to dry. Inspired partly by Gavin’s own experience of spinal surgery and patience, they see it as ultra-low-impact furniture making and are launching an academy so others can try it. HN readers link it to ancient tree shaping traditions and their own small experiments.
+
+Alice and Gavin Munro’s Derbyshire studio, Full Grown, trains willow, oak, and ash branches over recycled-plastic forms, then grafts them into single-piece chairs grown upside down. Shaping takes six to nine years, followed by a year of drying; two decades of experiments revealed a 12-to-13-year learning cycle. A few dozen chairs, stools, benches, and chandeliers are underway, and an academy may teach the method. HN placed the work within the broader, ancient practice of tree shaping, sharing examples from pooktre, living bridges, woven hedges, and difficult backyard experiments.
 
 ### Comment pulse
-- Hobbyists report braiding and weaving branches on backyard trees; biggest challenges are breakage, wind stress and dieback, especially with species like red maple.  
-- Commenters note the formal field is tree shaping, citing past artists like Pooktre and related techniques such as living root bridges and woven hedgerows.  
-- Others point out humans have woven saplings and coppice since at least Roman times, and even climbers ‘carve’ chairlike trees by repeatedly leaning on them.
+
+- The craft predates modern furniture experiments → commenters cited ancient woven defenses, hedgelaying, living root bridges, and decades-old Australian pooktre.
+
+- Species and stress determine success → hobbyists reported snapped branches, wind damage, and shaped red-maple limbs dying despite techniques working on cherry.
+
+- Human use can shape trees unintentionally → climbers repeatedly leaning against young trunks produced naturally chairlike forms at belay spots.
 
 ### LLM perspective
-- View: Living furniture shows design as long-term collaboration with biology, trading speed and scale for durability, uniqueness and ecological symbolism.  
-- Impact: Inspires landscape architects, museums and eco-brands to integrate grown structures, but remains niche due to timescales and horticultural skill.  
-- Watch next: Documented methods from the planned academy, shared frame designs, and studies comparing emissions to wooden and plastic furniture.
+
+- **View:** This is biological fabrication: growth replaces assembly, but time, weather, and plant health become manufacturing variables.
+
+- **Impact:** The method favors collectible art and landscape installations over volume furniture because each production cycle spans nearly a decade.
+
+- **Watch next:** Watch Full Grown Academy’s curriculum, species-specific survival rates, graft strength, yield, repairability, and replication outside Derbyshire.

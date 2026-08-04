@@ -3,18 +3,17 @@
 - Score: 518 | [HN](https://news.ycombinator.com/item?id=48179677) | Link: https://github.com/zakirullin/files.md
 
 ### TL;DR
-Files.md is a browser-based, open-source, local‑first note app that stores everything as plain Markdown files and can sync via cloud folders, self‑hosted Go server, or a hosted instance. Its core idea is radical simplicity: one idea per note, minimal features, predefined-but-optional file structure, and a chat/Telegram interface for quick “dump your thoughts” capture. The README explicitly pushes back on “second brain” complexity (à la Obsidian setups), arguing real value comes from deliberate thinking, not elaborate PKM systems.
 
----
+Files.md is a five-year-old, open-source browser app for managing notes, journals, tasks, habits, and documents as local plain Markdown. It works offline, can open a device folder, and offers optional cloud-folder, self-hosted Go-server, hosted, and Telegram-bot synchronization. Its intentionally small, build-free codebase is designed for personal LLM modification, while its workflow favors simple linking and active reflection over plugins or elaborate second-brain systems. HN liked the ownership-first design but said calling it an Obsidian alternative implies missing feature parity; discussion also defended Obsidian’s open files and sustainable paid sync.
 
 ### Comment pulse
-- Obsidian isn’t open source, but data and plugins are; many see this as a fair tradeoff for a funded team and continuous improvements — counterpoint: AI‑era tools “should” be fully hackable.
-- Files.md isn’t a feature‑complete Obsidian clone; it’s a different workflow emphasizing ownership, simplicity, and default structure, so “alternative” misleads people expecting parity.
-- Some suggest Joplin, VSCode, Zed, or git+Markdown already cover basic needs; proponents argue specialized apps add capture flows, sync, bots, and opinionated workflows.
 
----
+- Open data can outweigh closed code → Obsidian supporters cited local Markdown, open plugins, ongoing engineering, and optional paid sync — counterpoint: core remains proprietary.
+- The comparison undersells Files.md → commenters saw a distinct, thought-oriented workflow rather than API or feature parity, suggesting an ownership-first pitch.
+- Storage format defines practical ownership → direct Markdown remains editable by ordinary tools, unlike Joplin’s SQLite — counterpoint: specialized apps simplify cross-device sync.
 
 ### LLM perspective
-- View: This is a small, inspectable stack designed so humans and LLMs can understand and extend it without plugin bloat.
-- Impact: Appeals to privacy‑conscious note‑takers, tinkerers, and people wanting AI agents over their own Markdown corpus.
-- Watch next: Real‑world sync reliability, additional messenger integrations, and concrete LLM-agent examples using the published `llms.txt` schema.
+
+- **View:** The differentiator is not note-taking breadth but inspectable storage plus software users can reshape without waiting for plugin APIs.
+- **Impact:** Technically confident users gain sovereignty and customization; mainstream users still trade those benefits against mobile clients and effortless synchronization.
+- **Watch next:** Reliability, browser filesystem compatibility, conflict resolution, self-hosted authentication, mobile capture beyond Telegram, migration tooling, and maintainer capacity.

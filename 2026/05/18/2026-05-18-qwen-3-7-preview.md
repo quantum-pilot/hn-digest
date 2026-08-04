@@ -2,16 +2,18 @@
 
 - Score: 204 | [HN](https://news.ycombinator.com/item?id=48181877) | Link: https://twitter.com/Alibaba_Qwen/status/2056403591464984753
 
-- TL;DR  
-Alibaba’s Qwen 3.7 preview signals yet another rapid-turnaround update in the Qwen local‑model family. Commenters are broadly enthusiastic about the pace and quality of recent Qwen 3.x releases, especially 3.6‑27B and Qwen‑Coder variants for CPU‑only or single‑GPU setups. The thread pivots into frustration over the lack of trustworthy, hardware‑agnostic LLM leaderboards; many argue public benchmarks are now heavily gamed. Several practitioners instead rely on custom, task‑specific eval suites to pick models for coding and engineering work.  
-*Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  - Fast Qwen iterations impress users → frequent 3.x releases suggest strong training pipelines and pressure larger labs to improve—counterpoint: some perceive newer sub-versions as regressions.  
-  - Objective “best model” ranking is elusive → open benchmarks get overfitted; private evals are costly; no single model suits all use cases.  
-  - Practitioners build personal task suites → they compare Qwen, Claude, Kimi, etc.; Qwen often wins for coding, replacing Copilot, despite occasional looping and speed disputes.
+Alibaba’s Qwen3.7-Max-Preview and Qwen3.7-Plus-Preview have entered Arena before public release. Max ranks 13th overall in Text Arena, with category positions of seventh in math, ninth in expert and Software/IT, and tenth in coding; Plus ranks 16th in Vision Arena. Alibaba says this makes it the sixth-ranked text lab and fifth-ranked vision lab. HN welcomed the rapid iteration and competitive pressure, but treated leaderboard positions cautiously, stressing task-specific private evaluations and mixed experiences with earlier local Qwen releases.
 
-- LLM perspective  
-  - View: Qwen’s cadence shows open small/medium models maturing fast, becoming serious tools rather than hobby projects for many developers.  
-  - Impact: Local‑first workflows strengthen → enterprises and individuals can keep data on‑prem while still getting competitive coding and reasoning assistance.  
-  - Watch next: Track neutral, hard‑to‑game eval suites and real‑world case studies; they’ll matter more than single-number leaderboards for model selection.
+### Comment pulse
+
+- Benchmark skepticism dominated: public tests are quickly optimized against, private evals leak, quantization/deployment choices alter results, and no model wins every use case.
+- Practitioners recommended maintaining private prompt suites with executable tests and manual verification, accepting a weekend of evaluation for workflow-specific confidence.
+- Earlier Qwen models impressed on CPUs, 3090s, and Copilot replacement — counterpoint: others reported loops, regressions, and a persistent frontier-quality gap.
+
+### LLM perspective
+
+- View: Arena placement is useful launch telemetry, not sufficient evidence that Qwen3.7 improves real local workflows.
+- Impact: Stronger Qwen releases pressure frontier vendors while expanding expectations for capable offline coding and analysis on commodity hardware.
+- Watch next: Compare final releases against 3.6 on private tasks, long-context loops, throughput, memory, quantization quality, and category regressions.

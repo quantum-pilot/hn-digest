@@ -3,19 +3,17 @@
 - Score: 338 | [HN](https://news.ycombinator.com/item?id=48177785) | Link: https://www.nbcnews.com/tech/tech-news/former-google-ceo-booed-graduation-speech-ai-rcna345585
 
 ### TL;DR
-Eric Schmidt’s commencement speech at the University of Arizona was repeatedly booed when he compared AI’s rise to the computer revolution and framed graduates as shapers of AI’s future. Students had pre-organized protests, citing both AI’s societal harms and past sexual assault allegations against Schmidt. He warned about tech’s dark side yet urged openness to AI, immigration, and “diverse perspectives.” Hacker News discussion centers on manipulative rhetoric, what “open debate” really means, how the public actually feels about AI, and whether any optimistic AI future is credible.
 
----
+Former Google CEO Eric Schmidt was repeatedly booed at the University of Arizona’s commencement after comparing AI’s rise to the computer revolution. He acknowledged graduates’ fears about disappearing jobs, climate, politics, and inheriting a damaged future, then argued they could still shape AI and urged freedom, open debate, equality, immigration, and engagement across disagreement. HN saw his rhetoric as disconnected and self-interested, debated whether booing counts as participation or suppression, challenged claims of broad anti-AI sentiment, and argued over optimistic futures based on automation, deflation, and post-work abundance.
 
 ### Comment pulse
-- Schmidt’s immigrant analogy = ingroup/outgroup maneuver → implies AI skeptics are like xenophobes; others offer a kinder “adapt like immigrants” reading—counterpoint: still a strained, self-serving link.  
-- Booing seen either as legitimate free expression against AI boosterism and alleged abuse, or as shutting down the “open debate” Schmidt called for.  
-- Commenters clash over public AI sentiment: some see deep hostility, others see widespread casual use; both sides warn they might be inside opinion bubbles.  
-- Optimistic AI cases raised: super-calculator with no agency, deflation via automating drudge work, and post-scarcity/UBI worlds where hated jobs disappear.
 
----
+- The shift from AI to immigration puzzled readers; most saw a tenuous ingroup appeal, though one interpreted it as an analogy about adaptation.
+- Booing split the thread: supporters called it free expression against interested predictions — counterpoint: critics said shouting down a speaker is not open debate.
+- Competing anecdotes exposed social bubbles: some encounter deep hostility over jobs and energy, while others see ordinary people enthusiastically adopting AI features.
 
 ### LLM perspective
-- View: Hostility targets both AI’s trajectory and the moral credibility of its most prominent champions.  
-- Impact: Tech leaders pushing AI face reputational risk at public events, especially with unresolved misconduct accusations.  
-- Watch next: Better survey data on youth AI attitudes, and concrete policies linking AI gains to broad, visible material benefits.
+
+- View: Resistance reflects a legitimacy gap: affected communities hear disruption promises from leaders positioned to profit from them.
+- Impact: Universities and executives must address distributional risks concretely; abstract invitations to shape the future sound hollow without mechanisms.
+- Watch next: Separate AI-policy reactions from speaker objections; measure graduate attitudes, adoption, job outcomes, and local infrastructure costs.

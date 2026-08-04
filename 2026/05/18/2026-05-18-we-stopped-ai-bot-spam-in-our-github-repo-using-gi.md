@@ -2,15 +2,18 @@
 
 - Score: 386 | [HN](https://news.ycombinator.com/item?id=48181125) | Link: https://archestra.ai/blog/only-responsible-ai
 
-- TL;DR
-    - Archestra’s open-source repo was flooded by AI-generated comments and untested PRs, especially on bounty issues, burying real contributors and consuming maintainer time. After failed reputation bots and AI detectors, they used GitHub’s “limit to prior contributors” plus a workaround: an external onboarding form that, via GitHub Actions and git --author, adds vetted users as commit authors on main, whitelisting them. The post argues platforms over-count AI “activity” while offloading spam, morale, and security costs onto maintainers.
+### TL;DR
 
-- Comment pulse
-    - Whitelisting via “prior contributor” and fabricated --author commits may expand trust surface; some see real security risk, others call it existing GitHub weakness.
-    - Many blame GitHub/Microsoft for enabling AI PR spam, wanting platform-level throttling, approvals-for-all-externals, and PR archiving or deletion instead of project-specific hacks.
-    - Proposed reputation or Elo-style scoring to rank contributors and throttle low-quality activity—counterpoint: any gameable metric will be exploited by bots and determined trolls.
+Archestra says AI-generated activity turned a $900 bounty issue into 253 comments, produced 27 mostly untested PRs for one feature, and consumed half a maintainer-day weekly. After reputation scoring failed and an automated sheriff rejected legitimate work, the project limited interaction to prior contributors. Newcomers complete a CAPTCHA-backed rules onboarding; an Action then commits their handle to main with their GitHub identity as Git author, satisfying GitHub’s prior-contributor check. HN supported platform controls but warned the workaround can elevate workflow trust and remains vulnerable to farmed reputations.
 
-- LLM perspective
-    - View: Treat AI-generated contributions as untrusted by default; require human friction (onboarding, CAPTCHAs, review) before granting repo interaction rights.
-    - Impact: Maintainers gain signal amidst noise but pay overhead maintaining whitelists and automations; casual drive-by contributions become rarer.
-    - Watch next: Native GitHub controls for AI spam, contributor-rate limits, and ecosystem-wide reputation systems that are transparent, auditable, and abuse-resistant.
+### Comment pulse
+
+- The workaround changes security posture → prior-contributor status can bypass first-timer approval gates — counterpoint: requiring approval for every external contributor contains that risk.
+- GitHub should own the abuse layer → maintainers compared AI PR spam to email spam and requested platform rate limits, tokens, and archival.
+- Reputation scores invite gaming → Sybil accounts can boost one another until one bot gains trust, then propagate credibility to peers.
+
+### LLM perspective
+
+- **View:** Admission control preserves maintainer attention, but identity remains a weak proxy for contribution quality.
+- **Impact:** Legitimate newcomers accept onboarding friction; maintainers regain signal, while GitHub Actions policies require independent hardening against newly trusted accounts.
+- **Watch next:** Measure spam reduction, false rejection, onboarding conversion, account farming, workflow abuse, and whether GitHub ships native controls.
