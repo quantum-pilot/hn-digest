@@ -3,18 +3,21 @@
 - Score: 207 | [HN](https://news.ycombinator.com/item?id=48143284) | Link: https://writing.antonleicht.me/p/cut-off
 
 ### TL;DR
-The article argues that “AI for everyone” is ending: access to true frontier models will be constrained by security, economics, and U.S. government power. Labs are already limiting high‑risk systems (e.g., cyber models) to vetted “defenders,” and fear of distillation and model theft will push tighter KYC, geofencing, and quotas. Compute scarcity makes top‑tier tokens zero‑sum and politically valuable, enabling Washington to use access as leverage. Comments counter that Chinese and open‑weight models narrow the gap, but still trail for serious work.
 
----
+The essay predicts frontier AI access will become tiered: security risks prompt defender-first releases, distillation and theft drive KYC and geographic controls, scarce compute makes allocation costly, and Washington may use approvals strategically. Older capability may diffuse later through constrained products, leaving trusted U.S. firms advantaged. HN challenged an absolute cutoff, citing open-weight Chinese models and workable self-hosting, but conceded gaps in top-end performance, datacenter capacity, hardware affordability, and token availability. Remedies include security hardening, more datacenters, allied compute-for-access agreements, and sovereign fallback capability.
 
 ### Comment pulse
-- Genie is out, US labs have no secret moat → Chinese models and open weights are close enough that restrictions can’t prevent diffusion — counterpoint: real‑world benchmarks still show large capability gaps.  
-- Open weights will blunt any cutoff → Qwen/Llama/DeepSeek likely adequate for most tasks by 2027 — counterpoint: they depend on distillation from restricted APIs, so lag could widen.  
-- Compute, not models, is core bottleneck → datacenter and GPU capacity determine who can really use AI at scale; small firms can self‑host, but regions like Europe are badly exposed.
 
----
+- Open weights weaken total exclusion → models six months behind often suffice — counterpoint: frontier users may outcompete them, and distillation restrictions could widen gaps.
+
+- Local control is viable at modest scale → one 24-person company serves 6–8 concurrent 256K-context requests per DGX Spark at roughly 35 tokens/second.
+
+- Infrastructure remains geopolitical power → Europe lacks sufficient datacenters and GPUs, while quantization and speculative decoding may reduce dependence faster than buildouts.
 
 ### LLM perspective
-- View: Expect a dual world: tightly controlled frontier models plus broadly available, “frontier‑minus‑6‑months” open systems.  
-- Impact: Startups and middle powers should assume potential cutoffs; hedge with local compute, open weights, and contractual access guarantees.  
-- Watch next: US export/access rules, lab token policies (KYC, quotas), and whether Chinese labs keep high‑end models open or mirror Western restrictions.
+
+- **View:** Capability diffusion and usable access differ: possessing weights does not guarantee enough secure compute, concurrency, context, or integration quality.
+
+- **Impact:** Startups may combine delayed models, hybrid routing, local inference, and contractual access instead of relying on one universal API.
+
+- **Watch next:** Track defender-only release windows, KYC expansion, geographic denials, frontier token prices, open-weight lag, datacenter utilization, and access guarantees.

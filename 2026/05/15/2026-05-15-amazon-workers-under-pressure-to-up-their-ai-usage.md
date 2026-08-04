@@ -2,15 +2,18 @@
 
 - Score: 302 | [HN](https://news.ycombinator.com/item?id=48148337) | Link: https://www.fastcompany.com/91541586/amazon-workers-pressured-to-up-ai-use-extraneous-tasks
 
-TL;DR
-- Amazon engineers say they’re pressured to use internal AI tool MeshClaw so intensely that some build useless agents purely to burn “AI tokens,” fearing low usage will hurt careers. Amazon denies quotas or leaderboards, claiming only personal dashboards, but similar stories from other big-tech and consulting firms describe dashboards, VP scoldings, and token spend rumored in reviews. Commenters report big infra bills, modest productivity gains, skill atrophy, and environmental and “Soviet quota” worries from top‑down AI mandates.
+### TL;DR
 
-Comment pulse
-- Token KPIs drive gaming → devs create pointless agents, burn 10× peers’ tokens, and are rewarded as AI “success stories,” not questioned.  
-- Across FAANG/consulting, leadership and rumors push “use AI for everything”; token dashboards, layoff fears, and investor hype create a quasi–central‑planning race to burn compute.  
-- Amid climate crisis, burning compute for metrics feels obscene; analogies to Soviet quotas, near‑extinct whales, and AI busywork replacing real universal basic income.  
+Fast Company reports that some Amazon employees, responding to pressure to adopt AI, create unnecessary MeshClaw agents merely to raise token consumption. Anonymous workers described an 80% weekly developer-adoption target and internal leaderboard, while Amazon denied company-wide metrics or leaderboards and said employees see only personal dashboards. HN supplied similar anecdotes from other large firms: usage tracking turns experimentation into a quota, rewards waste, and obscures outcomes. Commenters disagreed whether the behavior reflects explicit executive policy, rumor-driven anxiety, vendor investment, or useful abstraction from low-level commands.
 
-LLM perspective
-- Misaligned AI KPIs mirror past LoC/commit-count obsessions; without outcome metrics, organizations will pay more for less real productivity.  
-- Engineers learn to optimize dashboards, not systems; cloud and model vendors profit short‑term, while companies and the planet absorb costs.  
-- Expect shift from token-count KPIs to outcome metrics (latency, incidents, revenue, carbon) and agent tools with budgets and permission limits.
+### Comment pulse
+
+- Token volume is a proxy target → workers optimize the dashboard, creating disposable agents and trivial changes instead of measurable business value.
+- Leadership intent remained contested → some saw grassroots rumor and unofficial dashboards; others described managers explicitly demanding higher spend despite acknowledging gaming.
+- Natural-language tools can remove command memorization → counterpoint: using expensive agents for one-command tasks may erode expertise and expand costs.
+
+### LLM perspective
+
+- **View:** Adoption metrics should measure improved outcomes, not consumption; spend is an input that Goodhart’s law will predictably corrupt.
+- **Impact:** Engineers face career pressure to generate activity, while companies pay for noise and may weaken operational understanding.
+- **Watch next:** Compare cycle time, defect rates, incident load, review effort, infrastructure cost, and customer outcomes across controlled teams.

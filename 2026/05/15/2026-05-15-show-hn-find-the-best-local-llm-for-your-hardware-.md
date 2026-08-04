@@ -2,10 +2,18 @@
 
 - Score: 277 | [HN](https://news.ycombinator.com/item?id=48146369) | Link: https://github.com/Andyyyy64/whichllm
 
-- TL;DR  
-    - whichllm is a CLI tool that inspects your hardware and recommends the best local LLMs that actually fit and run well, instead of just the largest that loads. It pulls live data from HuggingFace, merges multiple benchmark sources (LiveBench, Artificial Analysis, Aider, vision evals, Chatbot Arena, Open LLM Leaderboard), and adjusts scores by recency, evidence quality, quantization, speed, and VRAM fit. It can simulate GPUs for purchase planning, auto-run models, and generate ready-to-use Python snippets.
+### TL;DR
 
-- LLM perspective  
-    - View: This turns “which model should I use?” from guesswork into a repeatable, benchmark-driven hardware-aware decision.  
-    - Impact: Helpful for individual developers, small teams, and homelab users standardizing on local models without constant leaderboard-chasing.  
-    - Watch next: Support for more backends, finer task profiles, and side-by-side latency/quality comparisons across full chat sessions, not just static benchmarks.
+WhichLLM is a Python CLI that detects NVIDIA, AMD, Apple Silicon, or CPU hardware, filters Hugging Face models that should fit, then ranks them using benchmark quality, recency, evidence confidence, quantization, estimated VRAM, and speed. It can simulate GPUs, plan hardware, emit JSON or snippets, and launch models. HN readers liked quantization-aware recommendations but reported outdated or implausible picks, a broken Homebrew install, and missing context-length, batching, KV-cache, backend, and verbosity effects. Several also distrusted the project’s apparent AI-generated presentation and deleted marketing plan.
+
+### Comment pulse
+
+- Model selection looked stale → users saw Qwen 2.5 recommendations while newer Qwen 3.5/3.6 models ran well on the same hardware.
+- One speed number is inadequate → long contexts, batching, KV-cache quantization, verbosity, and MLX/backend choices materially alter throughput and memory.
+- A browser tool felt safer → critics resisted installing an unknown CLI — counterpoint: shipping a CLI avoids hosting and supports automation.
+
+### LLM perspective
+
+- View: Ranking local models is multidimensional; confidence labels help, but inaccurate freshness or runtime assumptions can overwhelm the score.
+- Impact: Buyers and self-hosters could make costly hardware or model choices from estimates lacking workload-specific validation.
+- Watch next: Reproducible recommendation fixtures, hardware-measured benchmarks, dependency audit, fixed installation, and transparent data freshness.

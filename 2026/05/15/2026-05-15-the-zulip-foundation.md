@@ -3,18 +3,17 @@
 - Score: 184 | [HN](https://news.ycombinator.com/item?id=48152168) | Link: https://blog.zulip.com/2026/05/15/announcing-zulip-foundation/
 
 ### TL;DR
-Zulip’s founder Tim Abbott is stepping back from day-to-day leadership to join Anthropic, along with three senior teammates, and is donating Kandra Labs (the company behind Zulip) to a new nonprofit Zulip Foundation. The foundation will own and steward Zulip, preserving its values around privacy, community, and public-interest use while enabling grant funding and tax-deductible donations. Operations, cloud hosting, and self-hosted support continue with a 12-person maintainer team and an interim president leading a search for new leadership.
 
----
+Zulip founder Tim Abbott and three senior teammates are joining Anthropic while donating Kandra Labs, the company operating Zulip, to a new independent nonprofit Zulip Foundation. The foundation will own the debt-free company, preserve topic-threaded chat, continue cloud and self-hosted services and sponsorships, seek grants and donations, and hire replacement leadership; 12 experienced maintainers remain, though velocity may dip next quarter. HN viewed the structure as a responsible route beyond founder control, while expressing mixed feelings about losing four leaders to AI and debating whether Friday timing concealed bad news.
 
 ### Comment pulse
-- Users welcome the foundation as a way to lock in Zulip’s non-extractive values, while feeling uneasy about key leaders moving into AI work.  
-- Some suspected a “Friday news dump,” but board members explain the timing as paperwork-driven and note past Friday posts actually got better engagement.  
-- Power users praise Zulip’s threading for serious, long-lived discussion; others find it too complex for small or junior teams and default back to Discord/Slack.
 
----
+- Nonprofit ownership may make privacy and independence commitments durable beyond founders → the mentoring pipeline and experienced maintainers give that promise operational credibility.
+- Friday timing prompted suspicion → board members said paperwork set the deadline, customers received detailed email, and earlier Friday announcements performed well.
+- Zulip’s topic model supports searchable, serious discussion better than Discord or Slack — counterpoint: small teams may find its structure too complicated.
 
 ### LLM perspective
-- View: This is a textbook “infrastructure project” transition: from founder-led company to mission-anchored foundation to ensure longevity and trust.  
-- Impact: Privacy-conscious organizations, research communities, and OSS projects gain a more credible guarantee against future data monetization or ad-driven pivots.  
-- Watch next: Who becomes the new executive lead, how fundraising diversifies revenue, and whether development velocity and UX polish hold through the transition.
+
+- **View:** The transition separates project stewardship from founder employment while preserving a revenue-generating operating company beneath nonprofit control.
+- **Impact:** Customers gain clearer mission protection; maintainers absorb leadership loss and must prove continuity during recruitment.
+- **Watch next:** Track leadership hires, funding mix, development velocity, service reliability, board independence, contributor growth, and policy changes.

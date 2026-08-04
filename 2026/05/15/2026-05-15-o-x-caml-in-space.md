@@ -3,11 +3,17 @@
 - Score: 225 | [HN](https://news.ycombinator.com/item?id=48147058) | Link: https://gazagnaire.org/blog/2026-05-14-borealis.html
 
 ### TL;DR
-A team at Parsimoni flew a full CCSDS space-communications stack written entirely in OCaml (“Borealis”) on DPhi Space’s ClusterGate-2 satellite. It runs as a Linux process on a hosted payload, treating the provider’s filesystem API as a delay-tolerant network: all commands, telemetry, and images are wrapped in BPv7 bundles, protected with BPSec, and support post-quantum OTAR (ML-DSA-65) key rotation. OCaml and OxCaml provide memory safety, formally-verified crypto, and low-jitter hot paths, crucial when untrusted tenants share a satellite bus.
 
----
+Parsimoni’s Borealis, a pure-OCaml CCSDS stack, booted on a shared low-Earth-orbit payload on April 23. It treats file uplink/downlink as a delay-tolerant network, wrapping commands and telemetry in encrypted, authenticated, replay-resistant bundles; post-quantum over-the-air key rotation is planned. OxCaml stack-allocation annotations cut laptop-measured p99.9 dispatch latency from 29 ns to 9 ns and minor GCs from 394 to zero over 25.6 million packets. HN welcomed the typed, low-jitter design but challenged its novelty and debated protocol and language choices.
+
+### Comment pulse
+
+- Historical priority was corrected → GHGSat-D used OCaml in 2016, and its mostly OCaml payload stack reportedly now spans 16 satellites.
+- CCSDS divides protocol opinion → critics prefer TLS-derived systems — counterpoint: spacecraft latency, legacy compatibility, and existing tooling make CCSDS difficult to replace.
+- Language choice is sociotechnical → OCaml’s development model remains attractive, but hiring and training pressure pushes new components toward Rust.
 
 ### LLM perspective
-- View: This is a concrete proof that high-assurance, memory-safe FP stacks can meet harsh real-time and security constraints in spaceflight.  
-- Impact: Satellite operators, hosted-payload providers, and secure-communications vendors gain a template for multi-tenant, end-to-end-encrypted, post-quantum-ready flight software.  
-- Watch next: Results of in-orbit post-quantum OTAR, OxCaml adoption upstream, and any “Kubernetes-for-payloads” infrastructure for managing fleets of specialised binaries.
+
+- **View:** Layered assurance matters: types constrain logic, cryptographic envelopes survive hostile routing, and interop tests cover specification gaps.
+- **Impact:** Hosted-payload tenants gain routing-path confidentiality, while the shared Linux kernel and unprotected master key remain critical dependencies.
+- **Watch next:** Validate OTAR in orbit, benchmark flight hardware, fuzz malformed bundles, and demonstrate fleet updates, isolation, and attestation.

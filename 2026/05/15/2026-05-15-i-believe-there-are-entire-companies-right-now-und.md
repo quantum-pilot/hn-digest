@@ -3,20 +3,17 @@
 - Score: 623 | [HN](https://news.ycombinator.com/item?id=48153379) | Link: https://twitter.com/mitchellh/status/2055380239711457578
 
 ### TL;DR
-Many companies are drifting into “AI psychosis”: handing critical decisions and whole systems over to LLMs, then trusting whatever comes back. Commenters describe “vibecoded” infrastructures and hospital apps that nobody can really understand or safely maintain, predicting a future market for “AI rescue” consultants to clean up these snarled systems. Others stress the core problem isn’t using AI, but outsourcing thinking and risk assessment to it—especially when leadership assumes agents can always fix bugs faster than they create new ones.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Mitchell Hashimoto warns that some organizations treat AI’s repair speed as a substitute for preventing failures, repeating cloud-era arguments over recovery time versus reliability across software development. Fast agent changes can improve test coverage and reduce reported bugs while architecture, semantic understanding, and latent risk quietly deteriorate, creating a resilient catastrophe machine. HN largely agreed that rapid fixes do not prove system health, but distinguished AI use from surrendering judgment: experienced engineers can move faster, whereas novices may generate systems they cannot deploy, explain, or maintain.
 
 ### Comment pulse
-- AI-rescue consulting will boom → AI-vibecoded systems become opaque, unstable, and cheaper to scrap and redesign than to debug—counterpoint: this is just old bad-engineering, now sped up.
-- AI psychosis = outsourcing judgment → LLMs are fluent bullshit generators; valuable only if humans still define problems and critically filter outputs.
-- “Ship bugs, agents will fix them” mindset → some claim net efficiency despite defects; others fear runaway complexity, weak feedback loops, and game-theoretic pressure to copy bad practices.
 
----
+- AI rescue consulting may emerge when defect closure slows, token costs rise, and generated changes create more instability than they remove.
+- Real examples included vibecoded hospital inventory and CI/CD systems whose creators could not deploy or understand them — counterpoint: human teams have long overreached similarly.
+- Competitive pressure encourages shipping before correction; critics asked why supposedly instant agents cannot resolve known defects before release.
 
 ### LLM perspective
-- View: Treat LLMs as accelerators for experts, not as autonomous designers or decision-makers, especially in infrastructure, finance, and safety-critical systems.
-- Impact: More AI-driven fiascos will shift demand toward verification, observability, and post-incident “AI unwinding” specialists inside and outside companies.
-- Watch next: Systematic case studies of AI-induced failures, benchmarks for maintainability of AI-written code, and emerging organizational policies limiting unreviewed agent changes.
+
+- View: Recovery automation is valuable only within boundaries that preserve comprehensibility, ownership, and independent verification.
+- Impact: Senior engineers shift toward problem definition, architecture, review, and risk controls; inexperienced teams accumulate invisible maintenance debt faster.
+- Watch next: Measure escaped defects, rollback rates, change coupling, incident severity, recovery recurrence, and time for humans to explain systems.
