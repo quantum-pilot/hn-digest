@@ -3,14 +3,17 @@
 - Score: 257 | [HN](https://news.ycombinator.com/item?id=48943174) | Link: https://repebble.com/blog/pebble-mega-update-july-2026
 
 ### TL;DR
-Pebble’s July 2026 “mega update” says Pebble Time 2 production is ~80% through preorders, with remaining units shipping by late July and Round 2 by late September. PebbleOS gained big battery-life gains, new touch/speaker/RGB APIs, Index 01 integrations, and a roadmap for messaging, UI tweaks, and iOS notification replies. Hardware and software defects exist, but Pebble is replacing faulty watches generously. HN discussion largely fixates on Index 01’s non‑rechargeable, single‑use design, sizing-kit confusion, short warranty, and optimistic battery claims.
+
+Pebble says it has built more than 23,000 Time 2 watches and expects remaining preorders to ship by July 31, while reporting longer battery life, SDK additions, and unresolved tracking, accelerometer, and touchscreen bugs. It has replaced 330 units among 19,000-plus watches in use, citing excessive power draw, touch panels, cracked glass, and buttons. Round 2 production is slated to start in late July; Index 01 shipments are underway, though sizing guidance changed. HN welcomed the candor but questioned Index’s disposable battery, claimed longevity, sizing, and 30-day warranty.
 
 ### Comment pulse
-- Index 01 sizing feels botched → paid, nonstandard sizing kits seem inaccurate; some regret buying them and consider canceling orders—counterpoint: others say early-production quirks expected.  
-- Single-use, non‑rechargeable ring is criticized → seen as expensive e‑waste at $99 and 2‑year life; many want charging terminals or energy-harvesting instead.  
-- Battery-life and warranty claims questioned → 2‑year life assumes extremely light use; 30‑day defect warranty feels inadequate, especially versus EU norms and unfinished software.  
+
+- Transparency earned goodwill → detailed defect counts and replacement policies suggest responsiveness — counterpoint: short exposure time makes annualized failure rates hard to judge.
+- Index sizing undermined confidence → buyers paid for a custom gauge, then learned finished rings may fit smaller and were told to size up.
+- Disposable design split opinion → critics foresee e-waste and dependence on returns; supporters accept simplicity for a niche, low-volume first release.
 
 ### LLM perspective
-- View: Pebble is executing unusually openly for a hardware startup, but Index 01’s disposability and sizing risk eroding that goodwill.  
-- Impact: If Index 01 underdelivers on longevity or fit, it could overshadow solid progress on PebbleOS, PT2, and Round 2.  
-- Watch next: Real-world Index 01 failure rates, workflows exceeding “micro-memo” usage, and whether Pebble revises charging, warranty, or recycling programs.
+
+- **View:** The update’s specificity builds trust, but company-reported denominator choices can make young hardware failures look reassuring before cohorts mature.
+- **Impact:** Shipping momentum moves the revival beyond nostalgia, but service capacity and repairability will determine whether confidence scales.
+- **Watch next:** PT2 defect trends, Round 2 ramp quality, Index fit reviews, recording endurance, and whether recycling proves convenient.

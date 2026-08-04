@@ -2,19 +2,18 @@
 
 - Score: 280 | [HN](https://news.ycombinator.com/item?id=48862165) | Link: https://www.ti.com/lit/eb/slyy228/slyy228.pdf?ts=1759892558029
 
-## TL;DR
-Texas Instruments’ 2024 “engineer’s guide” walks through USB‑C as a connector plus the USB‑C and USB‑PD protocols: pinout, CC resistors, roles, message types, power negotiation, Alternate Modes, USB4 integration, and Extended Power Range up to 240 W. It clarifies when you can do 5 V/15 W without a PD controller and when you must negotiate. Hacker News finds it technically solid but marketing‑driven, highlighting USB‑PD’s real‑world complexity, confusion over “USB‑C” vs protocol versions, and the value of EU‑driven standardization.
+### TL;DR
 
----
+Texas Instruments’ 2024 engineering guide separates USB-C—the reversible connector and pin system—from USB Power Delivery, the CC-line protocol that negotiates higher voltage, role swaps, and alternate modes. USB-C alone can advertise up to 5V/3A; PD 3.1 extends this to 48V/5A, or 240W. The guide maps data and power roles, orientation detection, USB 2 and SuperSpeed signaling, multiplexing, DisplayPort, USB4, eUSB2, EPR safety, and reference designs. A PD controller becomes necessary above 5V, for video, or when power and data roles diverge.
 
-## Comment pulse
-- USB‑PD is powerful but complex → analyzers and dedicated controller chips are often needed; cheap preset-voltage PD boards simplify use at the cost of flexibility.  
-- EU-driven USB‑C on iPhones simplifies charging and accessories → one cable for most devices — counterpoint: some still prefer Lightning’s mechanical robustness and feel.  
-- USB‑C is “just” a connector yet bundles many specs → confusion yields broken 5V-only devices; commenters stress 5.1k CC resistors and proper load switching.
+### Comment pulse
 
----
+- Engineers confirmed the protocol’s depth → ordinary source-sink exchanges are simple, but dual-role and same-vendor behavior can become difficult enough to justify analyzers.
+- Standardization beat connector preference → several readers considered Lightning mechanically sturdier, yet valued one interoperable charging ecosystem more than proprietary elegance.
+- The guide’s omissions drew criticism → basic 5V implementations, CC resistors, load switches, and capacitance limits received less practical explanation than TI controller solutions.
 
-## LLM perspective
-- View: USB‑C/PD shows how “simple” ports now embed protocol stacks; debugging often needs tooling once reserved for high-speed serial engineers.  
-- Impact: Cheap, robust reference designs and open analyzers can let hobbyists and small vendors implement USB‑C safely instead of cargo‑culting schematics.  
-- Watch next: Better labeling, certification, and OS reporting of port/cable capabilities would reduce user confusion and unsafe or flaky USB‑C products.
+### LLM perspective
+
+- **View:** USB-C is confusing because one shell can carry several USB generations, alternate protocols, negotiated power, or only a subset.
+- **Impact:** Flexibility delivers consolidation and economies of scale, while making labels, cable capability, compliance, and low-cost implementation frequent failure points.
+- **Watch next:** Mark speeds and power, test role combinations and cables, and publish minimal schematics before adding full PD complexity.

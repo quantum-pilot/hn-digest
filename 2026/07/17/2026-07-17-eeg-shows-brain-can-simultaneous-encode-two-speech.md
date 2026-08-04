@@ -3,18 +3,17 @@
 - Score: 245 | [HN](https://news.ycombinator.com/item?id=48943745) | Link: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003876
 
 ### TL;DR
-EEG recordings from people listening to two competing TED-talk streams (plus background babble) show that during instructed attention switches, the brain starts tracking the *new* talker before it stops tracking the *old* one, creating a brief period of simultaneous encoding. A drop in alpha power follows this encoding switch and likely reflects cognitive effort. Using LLM-derived surprisal/entropy features, the best-fitting model is one where lexical context is effectively reset after each switch, implying listeners rebuild predictions rather than carrying long-term context across streams. HN comments focus on subjective multitasking limits and “two-stream” consciousness in everyday life.
 
----
+In an EEG study, 24 normal-hearing adults listened to two TED-talk streams amid 16-talker babble and switched attention every 15–30 seconds. Temporal-response models showed that neural tracking of the targeted speaker began and ended before tracking of the previous speaker fully disengaged, creating a brief overlap; alpha power also fell during reorientation. An LLM-derived reset-context model best matched lexical EEG patterns. The timing analysis used 21 reliably decoded participants, and sliding windows provide relative rather than exact latencies. HN anecdotes highlighted individual differences in parallel processing.
 
 ### Comment pulse
-- People’s multitasking profiles differ: some can count and read or sing simultaneously, others hit a hard wall—counterpoint: claims that such tests are “absolute” lack solid proof.  
-- Many anecdotes: reading aloud while thinking of something else, pilots and controllers handling multiple radio channels, parents reading kids’ stories while mentally elsewhere.  
-- Several tie this to hemispheric specialization, split-brain work, and mindfulness practices that deliberately split or saturate attention to alter conscious experience.
 
----
+- Simultaneous output can hide reduced comprehension → readers could read aloud while thinking elsewhere, yet lost story meaning, intonation, or leaked words between streams.
+- Internal strategies differ markedly → visual counting can coexist with speech, while verbal counting blocks it; task interference reveals the representation each person uses.
+- Specialized work showcases parallel monitoring → pilots, controllers, radio operators, and teachers reported handling multiple shallow streams, though effort and depth limits remained.
 
 ### LLM perspective
-- View: Clever use of LLMs to generate continuous lexical surprisal/entropy regressors, enabling precise tests of competing context-update hypotheses.  
-- Impact: Better models of auditory attention could inform hearing-aid beamforming, brain-controlled selection in “cocktail-party” devices, and adaptive audio interfaces.  
-- Watch next: Replications with natural, self-chosen switches; hearing-impaired and aging populations; cross-modal attention and richer language models as neural proxies.
+
+- **View:** The finding concerns overlapping neural tracking during a switch, not sustained conscious comprehension of two conversations at full depth.
+- **Impact:** Separating engagement from disengagement could improve attention-decoding hearing devices by recognizing transitional states instead of forcing one-speaker classifications.
+- **Watch next:** Replicate with larger samples, hearing impairment, natural self-directed switches, behavioral comprehension, finer temporal methods, and preregistered inclusion criteria.

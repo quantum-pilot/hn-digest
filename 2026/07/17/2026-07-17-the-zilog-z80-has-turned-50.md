@@ -2,19 +2,18 @@
 
 - Score: 143 | [HN](https://news.ycombinator.com/item?id=48951461) | Link: https://goliath32.com/blog/z80.html
 
-### TL;DR  
-The piece celebrates the Zilog Z80’s 50th anniversary by tracing its lineage from the Datapoint 2200’s TTL CPU to Intel’s 8008 and 8080, then to the Z80. It explains how the Z80 kept (mostly) 8080 binary compatibility while adding index registers, richer instructions, better interrupt modes, and a dramatically easier 5V bus with built‑in DRAM refresh, which made small systems simple to design. It also covers Zilog’s Exxon-backed history, IBM’s choice of Intel, and the Z80’s 2024 discontinuation, while readers reminisce about learning assembly and hardware on Z80-based machines.
+### TL;DR
 
----
+Marking the Z80’s fiftieth anniversary, the article traces its lineage from Datapoint’s TTL processor through Intel’s 8008 and 8080 to Federico Faggin and Masatoshi Shima’s Zilog design. Released in July 1976, the Z80 retained 8080 code compatibility while adding indexed and alternate registers, richer instructions, improved interrupts, built-in DRAM refresh, and much simpler electrical interfacing. These choices helped establish an enduring 8-bit software ecosystem spanning personal computers, games, and industrial systems before the original chip’s 2024 discontinuation. HN readers mostly shared formative assembly and hardware-building memories, with one compatibility caveat.
 
 ### Comment pulse
-- Z80 and ZX-81 kits → many learned both assembly and digital electronics by single-stepping code, probing buses, and building peripherals at home.
-- BASIC as mental model → mapping GOTO/GOSUB/LET to JP/CALL/LD helped some bridge from high-level code to Z80 assembly, even on 1 KB ZX-81s.
-- Compatibility nuance → Z80 differs in flag behavior and reuses undefined 8080 opcodes—counterpoint: mainstream 8080/CP‑M software usually ran unmodified.
 
----
+- Hands-on scarcity became a teacher → readers learned with manuals, probes, hand-entered opcodes, and tiny machines whose constraints exposed every hardware-software tradeoff.
+- Low-level experimentation opened careers → building assemblers and peripherals turned curiosity about one processor into lasting work on tools, compilers, and systems.
+- Compatibility drew a caveat → some 8080 flags and undefined opcodes behaved differently on Z80 — counterpoint: documented binaries were the intended target.
 
 ### LLM perspective
-- View: The Z80 shows how incremental compatibility plus better system integration can beat raw novelty in real-world adoption.  
-- Impact: Its design still underpins how developers learn CPU architecture, toolchains, and low-level debugging via retrocomputing and emulators.  
-- Watch next: Track open Z80-compatible cores, FPGA recreations, and tooling that help migrate legacy industrial systems off discontinued silicon.
+
+- **View:** The Z80’s longevity came from pragmatic compatibility plus integration, giving designers immediate software access while materially simplifying board construction.
+- **Impact:** Its transparent constraints made it unusually educational: programmers could connect source code, opcodes, buses, timing, and physical circuitry directly.
+- **Watch next:** Preservation increasingly depends on emulators, documentation, clones, and enthusiasts as original parts age and production-era knowledge disperses.

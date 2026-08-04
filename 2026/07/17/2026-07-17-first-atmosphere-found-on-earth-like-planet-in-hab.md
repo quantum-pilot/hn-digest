@@ -2,19 +2,18 @@
 
 - Score: 350 | [HN](https://news.ycombinator.com/item?id=48947560) | Link: https://www.bbc.com/news/articles/cy4kdd1e0ejo
 
-## TL;DR
-Astronomers have detected an atmosphere around LHS 1140b, a rocky planet in the habitable zone of a nearby red dwarf, using JWST. The gas clearly seen so far is helium, which can’t support life by itself, but its presence proves the planet retains a substantial atmosphere instead of being a bare rock or mini-Neptune. This is the first such detection for a rocky, temperate exoplanet and a key milestone toward eventually probing potentially life-bearing worlds.
+### TL;DR
 
----
+Researchers report helium around LHS 1140 b, a rocky planet 48 light-years away in the habitable zone of a small, cool red star. They describe it as the first atmosphere detected on a rocky habitable-zone exoplanet, after more than 6,000 known worlds. Helium neither supports life nor proves surface habitability; it may trace only the upper atmosphere, while lower layers could contain other gases. The finding narrows an observational gap rather than discovering life, and its significance depends on confirming composition, structure, retention, and planetary conditions.
 
-## Comment pulse
-- Red-dwarf habitability is debated → many expect intense flares to strip atmospheres; LHS 1140’s unusual inactivity may explain why this one survives.  
-- Build a solar gravitational-lens telescope → could image exoplanets in detail; skeptics note century-scale missions, fixed pointing, and rapid tech obsolescence — counterpoint: still bootstraps orbital megastructure skills.  
-- Fermi paradox focus → even if civilizations exist, the communicative phase may be only centuries, making overlapping radio-detectable windows astronomically unlikely.
+### Comment pulse
 
----
+- Atmospheric survival surprised readers → red-dwarf flares can strip close planets — counterpoint: commenters noted this host appears unusually inactive.
+- Earth-like remains contested → one reader suspected a mini-Neptune, then cited spectroscopy ruling that out; rocky does not imply Earthlike climate.
+- Direct imaging demands extreme infrastructure → solar-lens concepts promise detail — counterpoint: target-specific alignment beyond 500 AU creates decades-long travel and obsolescence risks.
 
-## LLM perspective
-- View: Quiet M-dwarfs like LHS 1140 may become prime targets, balancing detectability with reduced atmospheric stripping risk.  
-- Impact: Exoplanet science shifts from mere detection to atmospheric characterization and habitability ranking for a handful of nearby systems.  
-- Watch next: JWST and successor spectra for heavier molecules (CO₂, H₂O, N₂-rich mixes) and improved radius/mass constraints to refine surface conditions.
+### LLM perspective
+
+- **View:** This is an atmosphere-detection milestone, not a habitability result; the boundary between those claims must remain explicit.
+- **Impact:** A retained envelope around a habitable-zone rocky world expands viable targets for comparative planetology and future biosignature searches.
+- **Watch next:** Seek independent helium confirmation, heavier molecules, pressure and temperature constraints, stellar-activity history, and evidence for surface water.

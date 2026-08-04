@@ -2,19 +2,18 @@
 
 - Score: 161 | [HN](https://news.ycombinator.com/item?id=48952880) | Link: https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/
 
-## TL;DR
-Kaiser Permanente call-center nurses say algorithmic monitoring and strict call-time targets push them to rush complex or emotionally intense calls, undermining patient safety and basic compassion. Management dashboards track “average handle time,” scripts limit advice to a few items, and a 2024 pilot used AI to grade “empathy” from voice tone, which nurses found inaccurate and harassing. Kaiser denies using call length for discipline and frames AI as safety-focused. Unions are now making AI and surveillance central in contract talks and California legislation, seeking transparency, limits on AI emotion analysis, and protections for clinicians who override automated recommendations.
+### TL;DR
 
----
+Kaiser advice nurses say surveillance and efficiency scoring pressure them to keep calls under 15 minutes, follow scripts, limit guidance, and recover from traumatic conversations in seconds, displacing clinical judgment and compassion. A 2024 pilot also used AI to rate vocal empathy and tone; it ended that November but may return. Kaiser denies using average handle time for performance and says tools receive human oversight. No call-time patient complaints were found, leaving demonstrated harm uncertain as unions bargain and California lawmakers consider worker protections.
 
-## Comment pulse
-- Core issue is metrics and surveillance, not generic “AI” → time quotas, scripting, cost-cutting incentives distort care priorities. — counterpoint: some AI tools genuinely improve documentation and translation.  
-- AI “empathy scoring” seen as fundamentally misguided → reduces nuanced human interaction to a gamified score, invites bias and micromanagement.  
-- Clinicians report upside from AI scribes and medical LLMs → less typing, better focus on patients, but risk of escalating billing and insurer-provider arms race.
+### Comment pulse
 
----
+- The article may conflate technologies → commenters distinguished conventional productivity metrics from the discontinued empathy pilot and urged tool-by-tool evaluation.
+- Clinical AI can reduce burden → users cited live translation, note summarization, ambient documentation, and wearable alerts — counterpoint: monitoring can ration attention and autonomy.
+- Optimization incentives remain central → commenters saw providers and insurers deploying AI against each other, with patient care absorbing the resulting friction.
 
-## LLM perspective
-- View: Treat each AI deployment as a specific intervention with measurable benefits, risks, and worker input, not as generic “AI in healthcare.”  
-- Impact: Call-center and bedside staff need guardrails against metric-driven misuse; patients need transparency about recording and automated analysis.  
-- Watch next: Outcomes from SB 947/AB 1883/AB 2575, union contract language on AI, and rigorous audits of AI-driven triage and discharge tools.
+### LLM perspective
+
+- **View:** Governance is the safety issue: which metric controls work, who can contest it, and what evidence validates it.
+- **Impact:** Scoring empathy or speed can convert care into proxy optimization, amplifying burnout, cultural bias, and clinically unsafe shortcuts.
+- **Watch next:** Demand system inventories, patient consent, subgroup audits, override protection, appeal paths, outcome studies, and worker participation before deployment.

@@ -3,18 +3,17 @@
 - Score: 183 | [HN](https://news.ycombinator.com/item?id=48947490) | Link: https://improvesomething.today/responses-to-problems/
 
 ### TL;DR
-The author, a consultant, describes three common responses to problems besides actually solving them: pushing problems around (local optimization that improves one area while worsening another), preserving problems (the Shirky Principle: people and institutions whose status depends on a problem persisting), and promoting new problems (every solution elevates a new #1 issue, so problem-solving never ends). HN commenters extend this to governments, experts, and consultants, debate incentives versus incompetence, and note that selectively ignoring most “problems” is often rational.
 
----
+Consultant Brian Kerr classifies three organizational responses that masquerade as problem-solving. “Pushing” improves one area by worsening another because local incentives reward narrow optimization; fix the system view above the participants. “Preserving” occurs when people or institutions depend on the problem that justifies their role, so plans must account for who loses if it disappears. “Promoting” recognizes that every solution creates side effects or elevates the next-ranked issue. His practical answer is shared visualization: map the problem landscape, agree on it, and deliberately select only the few problems worth solving.
 
 ### Comment pulse
-- Many issues should be ignored → attention is scarce; it’s often better to surface and tackle a few higher-leverage, overlooked problems.  
-- Governments/NGOs may preserve social problems → budgets and power track visible crises — counterpoint: constraints and incompetence usually explain more than deliberate problem-preservation.  
-- Experts and departments can entrench “their” problems → roles, fiefdoms, and NIH bias reward patching symptoms; outside consultants expose system effects but rarely implement fixes.
 
----
+- Selective neglect was the missing fourth response → readers argued most apparent problems should be ignored so attention stays on the consequential minority.
+- Problem preservation became polarized → incentive-based accounts of government failure met strong counterarguments about complexity, recurring maintenance, limited resources, and conspiratorial overreach.
+- Experts can preserve their own niche → root fixes threaten status or require harder mobilization, while endless bespoke solutions can hide not-invented-here motives.
 
 ### LLM perspective
-- View: Treat “pushing, preserving, promoting” as diagnostic labels during retrospectives to spot non-obvious failure modes of problem-solving.  
-- Impact: Helps leaders and ICs reframe conflicts from personal failings to structural incentives, making change less adversarial.  
-- Watch next: Lightweight mapping tools (dependency diagrams, causal loops) integrated into planning rituals to visualize where problems move or multiply.
+
+- **View:** The taxonomy diagnoses incentives, not character; identical behavior may reflect dependency, constraints, uncertainty, local optimization, or rational triage.
+- **Impact:** Leaders who reward local metrics manufacture displaced problems, while organizations built around remediation may resist fixes without transition paths.
+- **Watch next:** Diagram incentives, downstream effects, beneficiaries, maintenance needs, and opportunity costs before deciding whether to solve, tolerate, or ignore.
