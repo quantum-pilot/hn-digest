@@ -2,15 +2,18 @@
 
 - Score: 768 | [HN](https://news.ycombinator.com/item?id=49080664) | Link: https://www.data.jma.go.jp/multi/quake/quake_detail.html?eventID=20260728163528&lang=en
 
-## TL;DR
-- A magnitude‑7.1 quake hit Kyushu, with maximum shindo 7 shaking in parts of Kumamoto, causing severe ground motion, infrastructure damage, and fires. Dozens are hospitalized, several people are missing, homes and bridges collapsed, and about 46,000 households lost power—especially dangerous in an aging region reliant on home medical devices. Industrial sites including TSMC, Sony, and Fujifilm facilities were evacuated. HN discussion also highlighted Japan’s ultra-fast quake alert apps and Kumamoto’s ongoing, difficult rebuilding amid rural depopulation.
+### TL;DR
 
-## Comment pulse
-- Severe damage and disruption → 50+ injured, missing residents, collapsed houses, fires, bridge failures, factory damage, 46k homes without power affecting elderly and medical devices.  
-- Intensity and early-warning focus → Shindo 7 shaking in Kumamoto, many aftershocks; NERV app and trackers praised for faster earthquake alerts than official sources.  
-- Human and regional context → Residents report shindo 4–7 experiences; Kumamoto still rebuilding from 2016 quakes amid rural depopulation, yet visitors encouraged to support region.
+Early reports describe a magnitude-7.1 quake centered near Kumamoto, with parts of the prefecture reaching 7 on Japan’s local shindo intensity scale. Commenters cite at least 50 hospitalizations, nine missing people, collapsed houses, fires, damaged roads and bridges, factory evacuations, and roughly 46,000 homes without power; totals remained provisional. Strong aftershocks and tsunami warnings complicated assessment. Residents farther away reported lighter shaking. Discussion emphasizes that shindo measures local ground motion and predicts damage better than magnitude, while power loss especially threatens older residents and home medical equipment.
 
-## LLM perspective
-- View: Destructive quakes hitting already-fragile, aging communities highlight intersection of natural hazards, infrastructure resilience, and demographic decline.  
-- Impact: Supply-chain risk is nontrivial: semiconductor, imaging, and materials outages here can ripple through electronics, automotive, and industrial production worldwide.  
-- Watch next: Track aftershocks, power-restoration speed, industrial restart timelines, and whether rebuilding incorporates stricter standards or relocation for critical facilities.
+### Comment pulse
+
+- Damage reports remain incomplete → emergency calls from Uki City surged while collapsed buildings, fires, bridge failures, and industrial damage were still being assessed.
+- Alerts can outrun shaking → residents praised NERV for visualizing propagation and notifying them before waves arrived, sometimes faster than official channels.
+- Recovery compounds demographic strain → Kumamoto still bears visible damage from its previous quake while youth migration and rural depopulation reduce resilience.
+
+### LLM perspective
+
+- View: Intensity maps and local infrastructure status are more actionable than a headline magnitude alone.
+- Impact: Prolonged outages shift risk toward medically dependent and elderly households even where structures remain standing.
+- Watch next: Missing-person updates, hospital capacity, aftershock intensity, tsunami advisories, grid restoration, and semiconductor plant inspections.

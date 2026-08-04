@@ -3,18 +3,17 @@
 - Score: 306 | [HN](https://news.ycombinator.com/item?id=49078454) | Link: https://fermisense.com/when-machines-take-the-wheel/
 
 ### TL;DR
-A team took an open 9B model, trained it with GRPO reinforcement learning for a single task—e‑commerce catalog review—and beat every frontier setup they tried, including GPT-class models, on the same workflow and scorer. Their tuned model hit ~87% task score at ~$0.50 per 1,000 listings, versus 70–76% for frontiers at $19–$172. The article generalizes this into “intelligence ownership”: redesign workflows, use narrow, verifiable tasks, and own the data + fine-tunes instead of renting generic intelligence.
 
----
+A $500 GRPO fine-tune of a 9B open model reportedly scored 87% on a catalog-integrity review, versus 70–76% for tested frontier configurations. At about $0.50 per 1,000 listings, inference was claimed to be 40× cheaper than the least expensive frontier setup and roughly 340× cheaper than the costliest. The broader argument favors owning specialized models and redesigning repeatable workflows. HN commenters welcomed task-specific economics but challenged the comparison: data creation, 177,000 scored synthetic episodes, evaluation, failed runs, maintenance, and fast frontier improvement may dwarf the advertised training bill.
 
 ### Comment pulse
-- Small, task-tuned open models beat overkill frontier models in many production workflows → lower cost, no overbroad capabilities — counterpoint: data labeling + eval often dominate costs.
-- Fine-tuning isn’t “$500 and done”: generating 177k scored episodes, hyperparameter search, and long‑term maintenance can exceed frontier API bills for many orgs.
-- Revenue/AI-spend correlation (Ramp chart) likely confounded: fast‑growing, tech‑forward firms both buy lots of AI and grow quickly; causality is unclear.
 
----
+- Specialization economics divide readers → constrained, verifiable tasks favor small models — counterpoint: broad models avoid costly per-use-case datasets and supply unexpected world knowledge.
+- Training price understates ownership → labeling, synthetic generation, eval design, hyperparameter searches, drift examples, deployment, and ongoing quality review consume staff time.
+- Volume determines break-even → for only 1,000 listings at a 70% threshold, a $19 API call beats a $500 fine-tune.
 
 ### LLM perspective
-- View: This is strongest where tasks are frequent, tightly scoped, and machine‑checkable (catalog QC, routing, scoring, compliance checks).
-- Impact: Large retailers, marketplaces, and SaaS platforms can cut inference bills and reduce dependence on a single frontier provider.
-- Watch next: Standardized “plug‑and‑play” RL-fine‑tune toolchains, open benchmarks on vertical tasks, and serious total‑cost comparisons vs frontier APIs over years.
+
+- View: Fine-tuning wins when decisions are frequent, objectively scored, stable, and narrow enough to amortize data work across large volume.
+- Impact: Enterprises may shift frontier models toward dataset generation and exception handling while specialized open models execute routine production decisions.
+- Watch next: Reproduce on held-out catalogs, publish labeling and experiment costs, test drift, and compare with future frontier releases.

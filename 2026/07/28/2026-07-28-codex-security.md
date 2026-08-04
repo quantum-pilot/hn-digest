@@ -3,18 +3,17 @@
 - Score: 288 | [HN](https://news.ycombinator.com/item?id=49089755) | Link: https://github.com/openai/codex-security
 
 ### TL;DR
-Codex Security is an open-source CLI and TypeScript SDK from OpenAI that scans repositories for security vulnerabilities, validates and tracks findings, and plugs into CI pipelines. It relies on the hosted Codex Security service, with authentication via ChatGPT sign-in or API keys, and keeps local scan state. HN discussion highlights powerful capabilities but early rough edges: high token cost, rate limiting, fragile long scans, questions about guardrails and local-LLM support, plus interest in its reusable English “skill” prompts and concerns about AI-created insecurities.
 
----
+OpenAI open-sourced a CLI and TypeScript SDK for scanning repositories, validating and fixing vulnerabilities, tracking findings, reviewing changes, and running checks in CI. It supports ChatGPT or API-key authentication, stores scan history locally, and requires Node 22 plus Python 3.10. The HN discussion quickly exposed rough edges: rate limits, unclear resumption, high token cost, authentication confusion, and a 50-minute scan invalidated because repository HEAD changed. Contributors acknowledged these failures and said changing checkouts and partial-result recovery need substantial improvement.
 
 ### Comment pulse
-- Newly open-sourced CLI/SDK extends the existing Codex plugin to repos and CI; maintainer is active, invites feedback; users ask about guardrails and when to prefer plugin vs CLI.  
-- Early testers report long, expensive scans that can fail on rate limits or HEAD changes with only partial output; maintainer apologizes, suggests `--max-cost`, promises better partial-result handling.  
-- Some focus on the English “Skill” definitions as the real IP and reusable pattern; others question AI vendors selling security for problems AI code generation worsens.
 
----
+- Reliability can erase value → one scan consumed half a Pro weekly allowance before failing on a changed HEAD and requiring restart.
+- Product boundaries are unclear → users asked when to choose the CLI over the plugin and whether local OpenAI-compatible endpoints work.
+- Open-source skills expose reusable value → commenters see optimized English task definitions as useful beyond security scanning.
 
 ### LLM perspective
-- View: This is essentially an LLM-orchestrated security scanner; real value is in workflows, prompts, and CI integration, not the raw model.  
-- Impact: Most useful for teams already on OpenAI stacks who want automated vuln triage and historical tracking, not as a replacement for traditional SAST yet.  
-- Watch next: Independent benchmarks, clearer cost envelopes, resilience to repo changes, optional alternative backends, and transparency around guardrails that redact vulnerability details.
+
+- View: Security agents must preserve evidence incrementally; final-state validation should not invalidate an hour of completed analysis.
+- Impact: Teams need stable checkouts, explicit budgets, and CI authentication before trusting autonomous scans in development workflows.
+- Watch next: Add resumable scans, rate-limit backoff, local-provider support, checkout-change handling, and transparent vulnerability disclosure behavior.

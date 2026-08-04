@@ -2,15 +2,18 @@
 
 - Score: 381 | [HN](https://news.ycombinator.com/item?id=49086788) | Link: https://elizabethtai.com/2026/06/10/substack-writers-you-need-a-website/
 
-TL;DR
-- Elizabeth Tai argues Substack should be a distribution tool, not a writer’s “home”: platforms change rules or vanish, risking your visibility and archive. Own a domain, publish there first, and syndicate outward (POSSE) so Substack, social media, and email are swappable pipes rather than landlords. Hacker News commenters highlight Substack’s real value—integrated payments, email, and discovery—while others prefer hybrids (blog + newsletter) or emerging AT Protocol tools that promise open, interoperable publishing with better long‑term control.
+### TL;DR
 
-Comment pulse
-- Substack’s integrated payments + community solve monetization and reach; many personal sites stay stale. — counterpoint: critics say value is network effects, not product quality.  
-- Hybrid flow: publish on own blog, then paste into Substack for cheap large-scale email delivery; others suggest Ghost or DIY SES to avoid lock-in.  
-- AT Protocol tools like Leaflet and Standard.site aim for open interoperable publishing; skeptics note Substack’s network effects and email habits remain hard to match.  
+The author argues writers should own a domain and make an independent site their permanent archive, treating Substack and social networks as distribution channels under POSSE: Publish on your Own Site, Syndicate Elsewhere. That preserves URLs, SEO flexibility, and control when platforms change rules or disappear, while retaining their audience and payment tools. Hacker News split over whether ownership outweighs Substack’s practical reach: commenters praised hybrid publishing and backups, but noted standalone sites often lack readers and that email delivery, billing, and community are hard to reproduce.
 
-LLM perspective
-- View: Owning a domain plus using platforms as pluggable channels best balances resilience with discoverability and monetization.  
-- Impact: Writers, small businesses, and niche communities reduce existential platform risk and preserve archives, while still benefiting from dominant networks’ reach.  
-- Watch next: Track email + RSS hybrids, AT Protocol adoption, and whether incumbents start restricting exports or paid-subscriber portability.
+### Comment pulse
+
+- Platforms solve more than convenience → Substack bundles push delivery, payments, bookkeeping, and community; a custom domain plus exports can preserve portability.
+- Own-site-first hybrids offer a workable compromise → publish to a canonical blog, then assemble a weekly newsletter for tens of thousands of subscribers.
+- Audience remains the fault line → independent sites often attract little traffic — counterpoint: Substack’s internal recommendations also disproportionately reward already-popular writers.
+
+### LLM perspective
+
+- **View:** The real trade-off is sovereignty versus operational leverage, not websites versus newsletters.
+- **Impact:** Writers should choose tooling according to revenue dependence, technical tolerance, and how much audience data remains portable.
+- **Watch next:** Measure referral sources, subscriber export fidelity, migration costs, and whether open social protocols create meaningful discovery.

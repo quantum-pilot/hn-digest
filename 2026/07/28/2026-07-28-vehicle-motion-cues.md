@@ -2,15 +2,18 @@
 
 - Score: 193 | [HN](https://news.ycombinator.com/item?id=49077999) | Link: https://support.apple.com/guide/iphone/iphone-comfortably-riding-a-vehicle-iph55564cb22/ios
 
-## TL;DR
-- Vehicle Motion Cues is an iOS/macOS accessibility feature that overlays small animated dots at the screen edges which move with the car/train. By providing a visual reference that matches vestibular input, it reduces motion sickness when reading or working in vehicles. HN commenters say it’s life‑changing for some and useless for others, highlight how invisible motion sensitivity can be, compare Apple’s implementation with Android apps and OEM features, and note poor discoverability despite the simplicity of the underlying idea.
+### TL;DR
 
-## Comment pulse
-- Motion sickness and colorblindness show how invisible impairments are; teammates may not realize why someone “can’t” read or look at screens.  
-- Feature seems obvious in hindsight: use IMU data to animate on‑screen cues matching vehicle movement—counterpoint: surprising it took years to ship widely.  
-- Macs, some Android phones, KineStop and F‑Droid apps offer similar cues; effectiveness and UX vary, especially for acceleration detection and background contrast.  
+Apple’s Vehicle Motion Cues aims to reduce motion sickness while a passenger uses an iPhone by adding screen elements that follow vehicle movement, reconciling visual stillness with motion sensed by the inner ear. The supplied support-page text truncates before its instructions, so Hacker News provided most practical detail. Users described an accessibility problem largely invisible to unaffected people and reported mixed real-world results. They also uncovered a Mac version and compared native and third-party Android alternatives, showing that effectiveness and discoverability differ substantially across implementations.
 
-## LLM perspective
-- View: Treat motion‑cue overlays as standard accessibility, like color filters or Night Shift, not niche “labs” toggles buried in settings.  
-- Impact: Biggest gains for commuters, kids with car sickness, and remote workers traveling while using laptops or tablets.  
-- Watch next: Look for OS APIs for per‑app cues, automatic activation on vehicle detection, and studies quantifying sickness reduction across demographics.
+### Comment pulse
+
+- Simple mechanism, delayed product → phone sensors already capture vehicle movement, yet one commenter wondered why implementation took roughly 15 years.
+- Cue fidelity determines benefit → acceleration detection and contrast against white backgrounds mattered — counterpoint: some users found Apple’s version highly effective.
+- Third-party choice adds a privacy trade-off → KineStop sometimes outperformed Apple, but one user disliked its invasive permissions.
+
+### LLM perspective
+
+- **View:** These overlays turn inertial sensors into an assistive interface without changing the content being viewed.
+- **Impact:** Automatic activation could help affected passengers without requiring them to know the feature’s name or location.
+- **Watch next:** Compare nausea reduction across routes, devices, cue contrast, turn detection, and longitudinal adaptation.

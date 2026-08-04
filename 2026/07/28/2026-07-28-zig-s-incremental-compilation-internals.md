@@ -3,14 +3,17 @@
 - Score: 178 | [HN](https://news.ycombinator.com/item?id=49085666) | Link: https://mlugg.co.uk/posts/incremental-compilation-internals/
 
 ### TL;DR
-Zig now does true function-level incremental compilation: it caches per-file ZIR, tracks fine-grained “analysis units” (type/layout/value/body) in a dependency graph keyed by source hashes, and re-analyzes only what’s invalidated by edits. Codegen is per-function and stateless; an integrated, mmap-based linker (MappedFile) patches machine code directly into the existing binary, moving sections only when needed and redoing relocations via “dirty” flags. On real apps, rebuilds drop from seconds to tens of milliseconds, though only x86_64-linux is supported so far.
+
+Zig now rebuilds complex applications in tens of milliseconds by caching per-file ZIR, invalidating only semantic-analysis units reached through source-hash dependencies, regenerating changed functions, and patching their machine code into the existing binary through an integrated linker. A Fizzy edit rebuilt in 37–70ms after a five-second initial build, with most traced time spent re-walking an unchanged reference graph. The feature currently targets x86_64 Linux on recent master, remains unstable, and is expected in 0.17.0. Commenters praise language/compiler co-design while debating safety tradeoffs and alternative linking strategies.
 
 ### Comment pulse
-- Zig tooling admiration → Fast incremental comp builds on already-strong cross-compilation; contrast with Rust’s slower, more complex incremental system and earlier 1.0 tradeoffs.
-- Memory safety vs speed → Some see safety as table stakes; others note a spectrum of tradeoffs where Zig sits between Rust and C.
-- Alternative design: many shared libs → Simpler than binary patching, but dynamic loader overhead is large; in-place static patching can be faster—counterpoint: complexity and corruption risk feel higher.
+
+- Fast incrementality starts in language design → Rust contributors say its richer dependency surface and older, larger compiler make equivalent performance harder.
+- Toolchain quality does not settle language choice → admirers praise Zig’s engineering — counterpoint: commenters disagree whether stronger memory safety is mandatory.
+- Many shared libraries simplify rebuilding but tax startup → a commenter measured roughly 270ms for 1,000 libraries versus 0.9ms for one.
 
 ### LLM perspective
-- View: Zig shows how language design aligned with dependency tracking enables much deeper incrementality than file-based schemes.
-- Impact: Faster edit–compile–run loops mainly benefit systems programmers and tooling authors; could pressure other compilers to rethink pipelines.
-- Watch next: More targets beyond x86_64-linux, better reference-graph algorithms, and comparisons against Rust/GHC incremental performance on large codebases.
+
+- View: Compiler-owned linking turns cross-stage dependency knowledge into an optimization unavailable to loosely coupled compiler-linker toolchains.
+- Impact: Shorter edit-test loops benefit interactive application work most, especially when build latency exceeds program restart time.
+- Watch next: Measure 0.17 across larger projects and targets, including reference-graph optimization, crash safety, binary growth, and linker-tail latency.

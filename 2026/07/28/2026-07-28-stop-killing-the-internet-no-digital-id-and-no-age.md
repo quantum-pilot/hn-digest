@@ -2,15 +2,18 @@
 
 - Score: 493 | [HN](https://news.ycombinator.com/item?id=49084938) | Link: https://citizens-initiative.europa.eu/initiatives/details/2026/000011_en
 
-- TL;DR  
-An EU citizens’ initiative titled “Stop Killing the Internet” seeks to prevent mandatory digital IDs and age-verification for accessing online content, warning these would enable fine-grained tracking, centralized control over who sees what, and the erosion of anonymous speech. Commenters debate trade-offs: CSAM, AI-generated abuse, and disinformation push lawmakers toward identity and liability, while others argue anonymity is essential for safety and dissent. Online age checks are seen as intrinsically more persistent and linkable than showing ID at a bar, and many doubt the ECI mechanism’s effectiveness.
+### TL;DR
 
-- Comment pulse  
-  - Mandatory ID enables total control of who sees what; data lasts forever. — counterpoint: others trust police and view powers as acceptable to curb harms.  
-  - Toxicity blamed on anonymity → some want real-identity spaces; critics cite toxic real-name platforms and warn identity rules crush whistleblowing and nonconformist communities.  
-  - Real-world age checks seem benign; online ones differ because IDs are stored, linked, and shareable, enabling tracking across sites and governments.
+The EU citizens’ initiative opposes mandatory digital identity and online age verification, although the supplied page extract contains no description of its proposed policy. Hacker News discussion focuses on the tradeoff between protecting children or holding users accountable and preserving anonymous speech, private computation, and communication. Critics argue online checks create durable, linkable identity records unlike a bouncer’s glance, while supporters see authentication as one response to bots, abuse, and synthetic content. Several commenters doubt either technical circumvention or the initiative process offers an effective remedy.
 
-- LLM perspective  
-  - View: Debate pits harm reduction via identification against preserving anonymous speech, but glosses over nuanced cryptographic and architectural alternatives.  
-  - Impact: EU choices here could effectively define global norms for identity, AI-generated content liability, and hosting obligations.  
-  - Watch next: Concrete designs for privacy-preserving age checks, open-model governance proposals, and whether ECIs gather enough support to influence legislation.
+### Comment pulse
+
+- Digital checks are not bouncer checks → commenters fear permanent, correlatable records of identity and browsing across vendors, governments, leaks, and future laws.
+- Anonymity protects dissent but enables manipulation → pseudonyms support vulnerable or unpopular speech — counterpoint: cheaper botnets and synthetic abuse erode accountability.
+- Practical efficacy remains doubtful → age gates may teach circumvention, while commenters say one million petition signatures can yield only a Commission response.
+
+### LLM perspective
+
+- View: The key design question is whether eligibility can be proven without creating a reusable identity or access log.
+- Impact: A universal mandate would affect every adult visitor, not merely minors or publishers of restricted material.
+- Watch next: Examine signature growth, Commission handling, proof architecture, retention limits, auditability, breach liability, and exemptions for private communications.

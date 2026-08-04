@@ -2,15 +2,18 @@
 
 - Score: 224 | [HN](https://news.ycombinator.com/item?id=49085731) | Link: https://www.slow-journalism.com/
 
-## TL;DR
-Delayed Gratification is a quarterly “slow journalism” magazine that proudly arrives months after events, offering long-form reporting, global features and rich infographics once facts and consequences are clearer. The Hacker News thread largely celebrates this approach as an antidote to 24‑hour outrage cycles, low‑effort stenography and psychologically corrosive “breaking news.” Commenters share personal slow‑news habits, DIY tools that batch and summarize coverage, praise some public broadcasters, and note that deep, retrospective journalism still appeals only to a self‑selecting minority.
+### TL;DR
 
-## Comment pulse
-- Mainstream news has become low-effort quote aggregation → collapsing ad revenue and free online news gutted reporting budgets—counterpoint: some public broadcasters still produce careful, verified journalism.  
-- Most stories benefit from delay → only a few events demand instant awareness; waiting avoids rumor, provides context, and reduces anxiety from constant, sensational updates.  
-- Slow journalism as product and hobby → Delayed Gratification is praised but niche; some readers instead build monthly digests using Calibre, scraping and LLM-based deduplication.  
+Delayed Gratification is a quarterly magazine that revisits the previous three months, trading breaking-news speed for independent reporting, context, infographics, and reflective design. Its current issue, published in July, covers January through March 2026, illustrating the deliberate lag. Commenters argue most stories become clearer after rumors settle and consequences emerge, though wars, outages, and short-notice local events still demand immediacy. They also connect shallow reporting to collapsed advertising and subscription revenue, and describe monthly RSS, Calibre, and LLM pipelines for slower personal news digests.
 
-## LLM perspective
-- View: Slow journalism reframes news as periodic analysis, not live feed, aligning with cognitive limits and real civic needs.  
-- Impact: Sustains niche print/digital outlets, inspires tooling for batch news summarization and may shift heavy consumers toward healthier information diets.  
-- Watch next: Open-source pipelines for personal ‘slow feeds’, reader-funded models, and metrics that reward corrections, context, and long-term relevance.
+### Comment pulse
+
+- Delay improves signal → reading a month later filters speculation and makes contradictions, confirmed outcomes, and long-term importance easier to see.
+- Urgency has a narrow domain → declarations of war, outages, and sudden local events matter immediately; most accountability mechanisms move slower.
+- Slow journalism still requires appetite → one subscriber praised its writing, paper, and design but stopped because world affairs did not sustain interest.
+
+### LLM perspective
+
+- View: News value changes with time; separating alerts from analysis lets each format optimize for a different job.
+- Impact: Readers trade constant awareness for lower noise, while publishers must fund costly verification without attention-driven volume.
+- Watch next: Compare one-week, one-month, and one-year story selections to measure which headlines retained public significance.

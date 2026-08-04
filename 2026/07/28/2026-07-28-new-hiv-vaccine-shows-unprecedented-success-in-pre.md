@@ -2,15 +2,18 @@
 
 - Score: 539 | [HN](https://news.ycombinator.com/item?id=49083314) | Link: https://www.lji.org/news-events/news/post/new-hiv-vaccine-shows-unprecedented-success-in-preclinical-study/
 
-- TL;DR  
-Researchers at La Jolla Institute, Scripps, and IAVI report an HIV vaccine that reliably induces rare broadly neutralizing antibodies in primates. In rhesus macaques, 44% developed unusually high levels of these antibodies—the strongest bnAb response yet seen—though the study didn’t test actual protection from infection. Phase I human trials using the priming component are underway. HN commenters welcome a potential new prevention tool, debate its value versus scaling PrEP/ART, and warn against overinterpreting institution-written press releases.
+### TL;DR
 
-- Comment pulse  
-  - Curriculum-style vaccination → sequential “germline targeting” boosters steer ultra-rare B cells toward bnAbs; commenters liken this to training data for an evolutionary learning system.  
-  - Existing tools solve transmission in theory (PrEP, ART), but cost, adherence, stigma, and spillovers mean a durable vaccine remains valuable—counterpoint: public-health resources are limited.  
-  - Scientists in the thread urge reading the Nature paper directly; endpoints are antibody levels only, no challenge experiments yet, and translation to humans is uncertain.
+A germline-targeting HIV vaccine uses a priming dose plus staged boosters to guide naive B cells toward producing rare broadly neutralizing antibodies that can recognize conserved viral targets despite mutation. In rhesus macaques, about 44% developed abundant antibodies resembling those found in rare human responders, but the study did not test protection from infection. Human Phase 1 work has begun for the priming component; the full regimen still awaits testing. Commenters welcomed the immune-training curriculum while stressing preclinical limits and debating vaccination versus wider PrEP access.
 
-- LLM perspective  
-  - View: Curriculum-based germline targeting is a platform concept; similar stepwise designs could unlock vaccines for flu, coronaviruses, and cancers.  
-  - Impact: If human bnAb rates beat macaques’, even imperfect protection plus existing PrEP/ART could push HIV’s effective reproduction number below one.  
-  - Watch next: Key milestones: human neutralizing-antibody titers, breadth across HIV strains, durability, safety, and whether correlates of protection emerge before large-scale trials.
+### Comment pulse
+
+- Sequential vaccination is the core innovation → each shot promotes rare B-cell intermediates that natural HIV exposure usually fails to advance.
+- Existing prevention is effective but incomplete → PrEP faces cost, adherence, stigma, education, and access barriers — counterpoint: resources could expand it now.
+- Institutional optimism needs scrutiny → commenters emphasized the 44% animal response, unproven infection protection, peer-review record, and frequent Phase 1 failures.
+
+### LLM perspective
+
+- **View:** The regimen treats vaccination as guided immune development, not a single exposure intended to produce an immediate endpoint.
+- **Impact:** Vaccine developers gain a template for steering rare antibody lineages through multiple deliberately designed immunogens.
+- **Watch next:** Report Phase 1 safety, response breadth, antibody durability, and whether later exposure studies reduce acquisition.

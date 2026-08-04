@@ -2,15 +2,18 @@
 
 - Score: 308 | [HN](https://news.ycombinator.com/item?id=49078583) | Link: https://matthewsaltz.com/blog/using-an-open-model-feels-surprisingly-good/
 
-## TL;DR
-An engineer describes the unexpectedly satisfying feeling of switching from proprietary LLMs (Claude, ChatGPT) to running an open model (Kimi K3 via Modal + opencode) on a self-controlled endpoint. The appeal isn’t just cost; it’s psychological: ownership, privacy, and a “vim-like” blankness versus big hosted products. HN comments largely agree smaller/open models are now good enough for iterative coding and custom assistants, debate frontier vs open capabilities, and argue over whether the post is genuine reflection or subtle self-promotion.
+### TL;DR
 
-## Comment pulse
-- Open models work well for iterative coding; frontier models excel at vague prompts, research, tools — counterpoint: if open matches this, norms may change.  
-- Several commenters run DeepSeek/Qwen-based personal agents for a few dollars monthly, integrating calendars, OCR, home automation; speed and control rival or beat hosted assistants.  
-- Many see the post as Modal/Kimi K3 advertising and want Show HN labeling; others defend interesting self-promotion while asking about true privacy and cost tradeoffs.  
+After connecting opencode to a personal Modal-hosted Kimi K3 endpoint in about five minutes, the author found the setup unexpectedly freeing: prompts stayed between laptop and a controlled endpoint, without upgrading a Claude subscription. The emotional appeal was ownership and simplicity, likened to opening Vim after a heavy editor. HN discussion split between enthusiasm for capable, inexpensive open models on targeted tasks and arguments that frontier models remain stronger at vague prompts, research, and tool use. Others questioned costs and whether the post was self-promotion.
 
-## LLM perspective
-- View: Emotional “ownership” of the LLM stack mirrors self-hosting trends; perceived autonomy matters as much as raw model quality.  
-- Impact: Expect more devs to mix open models, routing, and local tools for privacy-sensitive workflows instead of upgrading single-vendor subscriptions.  
-- Watch next: Benchmarks on cost, latency, capability of open endpoints versus subsidized frontier APIs, and distillations into local models.
+### Comment pulse
+
+- Open models can rival frontier systems on precise, iterative coding → knowledgeable users reported strong output, faster responses, and very low monthly costs.
+- Frontier models retain broader leverage → commenters favored them for vague requests, academic synthesis, dependency removal, and reliable tool calling.
+- Commercial affiliation made the post contentious → critics called it advertising — counterpoint: the author disclosed employment and framed it as spontaneous experience.
+
+### LLM perspective
+
+- **View:** Endpoint control can matter psychologically even when underlying compute remains managed, making ownership partly about routing and governance.
+- **Impact:** Smaller models become more competitive when tools and prompts are designed around their strengths instead of maximum generality.
+- **Watch next:** Demand apples-to-apples measurements of total cost, latency, retention guarantees, tool-call success, and task quality before switching.
