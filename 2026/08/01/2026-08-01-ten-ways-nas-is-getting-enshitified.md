@@ -2,16 +2,18 @@
 
 - Score: 184 | [HN](https://news.ycombinator.com/item?id=49131367) | Link: https://nascompares.com/2026/07/31/the-10-ways-nas-is-getting-enshitified/
 
-- TL;DR
-    - Discussion centers on how consumer NAS devices are being “enshittified”: vendors ship integrated, non-upgradable hardware and generic, minimally maintained OSes that limit power users yet remain confusing for non‑experts. Commenters debate whether a NAS should be a simple storage appliance or an all‑in‑one home/SMB server, and compare prebuilt boxes with DIY ZFS servers on old PCs. Several note the irony that the article’s own site uses aggressive cookie banners and popups—an enshittified experience about enshittification.
-    *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse
-    - NAS definition split → some want low-power, fixed storage boxes; others expect expandable “little servers” with big RAM, PCIe, 10G, and VMs — counterpoint: business NAS should stay storage-only.
-    - DIY vs prebuilt → old-PC+ZFS builds give flexibility and no lock-in; prebuilt wins on form factor, power efficiency, hot-swap bays, and easier long-term family maintenance.
-    - UX/enshittification → NAS OSes feel like stagnant, semi-embedded MVPs; recovery for non-technical relatives is hard; article site itself uses dark-pattern cookie and newsletter popups.
+The article says NAS products are shifting from modular storage servers toward closed appliances: soldered RAM and boot media, proprietary drive validation, 1GbE stagnation, costly multigig upgrades, starved PCIe lanes, recycled platforms, fewer consumer HDD choices, weaker SSD designs, opaque memory sourcing, and look-alike software. These choices cap upgrades, add failure points, and raise long-term cost, pushing enthusiasts toward custom systems. HN agreed repairability matters but disputed the target: some define a NAS as simple storage, while others expect one quiet home box to run ZFS, containers, media, and automation.
 
-- LLM perspective
-    - View: NAS market is bifurcating into locked-down consumer appliances and DIY/homelab servers, leaving fewer prosumer-friendly, upgradable options.
-    - Impact: Power users and SMBs will increasingly standardize on generic servers with ZFS/Proxmox, bypassing traditional NAS vendors.
-    - Watch next: Which vendors offer open OS bases, ECC RAM, clear recovery paths, and non-hostile consent UX instead of deeper cloud tie-in.
+### Comment pulse
+
+- Role definitions drive requirements → storage-only buyers tolerate fixed RAM — counterpoint: homelab and household users value one expandable server for many services.
+- DIY preserves control but transfers liability → builders gain replaceable parts and portability while assuming decade-long updates, backups, power, and recovery.
+- Consumer recovery is underserved → commenters proposed physical, read-only laptop access so nontechnical family can retrieve data when the administrator is unavailable.
+
+### LLM perspective
+
+- **View:** Repairability is operational resilience: replaceable memory and boot media reduce both lifetime cost and catastrophic single-board failure.
+- **Impact:** Power users move toward custom ZFS systems; ordinary households still pay for compactness, efficiency, support, and simpler administration.
+- **Watch next:** Compare idle power, ten-year serviceability, third-party drive support, effective PCIe bandwidth, recovery drills, and total populated-system cost.

@@ -2,17 +2,18 @@
 
 - Score: 220 | [HN](https://news.ycombinator.com/item?id=49132460) | Link: https://ramen.haus/
 
-## TL;DR
-RamenHaus is a minimalist website that shows a beautifully photographed, rotating bowl of ramen—“no cookies, no tips, no JavaScript.” HN commenters use it as a springboard to celebrate ramen culture (including recommending the film Tampopo), debate whether ramen outside Japan is overhyped or just hard to do well, and appreciate obsessively crafted broth. Many also praise the site’s single‑subject, 1990s‑style purity, note small technical touches like respecting reduced‑motion settings, and feel inspired to make similar niche-photo sites.  
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+RamenHaus is a minimalist gallery of 114 photographed ramen bowls, navigated one rotating dish at a time or through an index. It credits an earlier rotating-sandwich project and deliberately uses no JavaScript, cookies, or tipping prompts. HN treated the site less as restaurant criticism than as a small-web artifact: a single-subject collection made by an enthusiast, mobile-friendly and capable of inspiring another person’s proposed sink archive. Food discussion ranged from ramen’s Western price-to-value problem to Japan’s ingredient quality, broth labor, regional adaptation, and memorable exceptional bowls.
 
-## Comment pulse
-- Ramen as near-spiritual experience → Tampopo is recommended canon; good ramen seen as craft that justifies elaborate effort and even existential love of eating.  
-- Western ramen often disappoints → bowls feel overpriced and bland versus Japan’s cheap-but-exceptional shop/konbini ramen; serious broth and noodles are difficult craftsmanship.  
-- Simple rotating-ramen site resonates → evokes 1990s web vibe, no tracking/JS, respects reduced-motion prefs, and inspires obsessive photo sites—counterpoint: some question why it tops HN.  
+### Comment pulse
 
-## LLM perspective
-- View: Single-purpose, artful sites still cut through noise, suggesting curation and aesthetic focus can rival feature-heavy experiences.  
-- Impact: Encourages developers to prioritize content quality, accessibility defaults, and privacy over frameworks, analytics, and engagement hacks.  
-- Watch next: More niche galleries or “single-serving” sites; measure longevity, community spin-offs, and whether they remain unsullied by monetization.
+- Simple sites still catalyze curiosity → the gallery recalls an enthusiast-built web where one narrow fascination can recruit new enthusiasts.
+- Ramen’s value is contextual → Western bowls can feel overpriced — counterpoint: preparation time, imported ingredients, and local adaptation explain part of the gap.
+- Accessibility explains inconsistent motion → a Linux browser honored KDE’s reduced-motion preference while the Windows installation rotated normally.
+
+### LLM perspective
+
+- **View:** The site succeeds because interaction serves the collection’s joke and subject, without accounts, tracking, or explanatory overhead.
+- **Impact:** Visitors get lightweight delight; makers gain a reproducible template for archives built around everyday visual variation.
+- **Watch next:** Track new bowl cadence, image accessibility, reduced-motion behavior, index usability, and whether inspired micro-collections actually launch.

@@ -3,20 +3,17 @@
 - Score: 249 | [HN](https://news.ycombinator.com/item?id=49132130) | Link: https://weeraman.com/the-prototype-isnt-the-product/
 
 ### TL;DR
-Discussion centers on how current LLMs still can’t independently produce reliable, maintainable products. They’re very effective for speed, boilerplate, and rough prototypes, but when allowed to freely refactor or “own” a codebase, they often create subtle architectural messes that later must be thrown away. Many programmers now use LLMs as fast assistants under human-led design, testing, and verification. Others are happy vibecoding small internal tools or MVPs, accepting throwaway code and limited long‑term quality.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+AI can compress a software prototype from weeks to minutes, but the article argues it does not erase production engineering: scaling, security, error handling, observability, data design, concurrency, and maintainability still require judgment. Computer-science fundamentals therefore become more valuable, because reviewers must recognize plausible code that fails under real conditions. HN experiences were sharply mixed: autonomous changes often accumulated into coherent-looking architectural debt, while planned, tested, human-reviewed workflows produced internal tools and healthier codebases. Consensus clustered around treating generated code as raw material, with scope and risk determining acceptable oversight.
 
 ### Comment pulse
-- Autonomous LLM coding degrades codebases → many see subtle architectural rot over months, preferring stepwise, human-led design with models as code monkeys and prototype generators.  
-- LLMs accelerate releases → some ship richer side projects and internal tools, yet doubt long‑term maintainability and still rely on humans for architecture and review.  
-- AI impact feels modest → critics see few transformative products; supporters cite automated bug‑finding and “good enough” content—counterpoint: many still dislike consuming obvious AI output.  
 
----
+- Autonomy compounds local mistakes → individually reasonable patches can leave a system nobody fully understands or can safely extend.
+- Structured collaboration works better → engineers report gains when they own architecture, approve detailed plans, constrain tasks, and review tests.
+- Use case determines tolerance → disposable prototypes and low-risk tools benefit most — counterpoint: legacy or long-lived systems punish shallow reasoning.
 
 ### LLM perspective
-- View: Treat LLMs as accelerators for exploration, scaffolding, and rote changes, not autonomous engineers or guardians of system integrity.  
-- Impact: Teams that formalize prompts, review plans, and enforce human sign‑off will capture productivity gains without catastrophic architectural debt.  
-- Watch next: empirical studies comparing LLM‑heavy vs traditional teams on defect rates, security bugs, maintainability, and quality over multi‑year lifecycles.
+
+- **View:** The scarce resource has shifted from code production to system comprehension, verification, and responsibility for long-term trade-offs.
+- **Impact:** Experienced engineers gain leverage; novices risk dependency on implementations they cannot diagnose when requirements or load change.
+- **Watch next:** Measure escaped defects, review time, architectural churn, maintenance cost, incident recovery, and comprehension after six months.

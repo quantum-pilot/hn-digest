@@ -2,17 +2,18 @@
 
 - Score: 244 | [HN](https://news.ycombinator.com/item?id=49133889) | Link: https://github.com/BurntSushi/ripgrep/issues/3494
 
-- TL;DR  
-  Musl-linked ripgrep binaries sometimes segfault on extremely large searches; investigation narrows it to a rare Linux 7.x kernel race around anonymous memory mapping, not ripgrep itself. Musl’s allocator exposes single-page faults that widen the race window, explaining why it shows up there first. An AI-generated, extremely long bug analysis correctly points at the kernel but is widely criticized for verbosity and jargon. Discussion also explores allocator choices, filesystem stress from huge searches, and growing ambivalence toward AI debugging tools.  
+### TL;DR
 
-  *Content unavailable; summarizing from title/comments.*
+Static musl builds of ripgrep 15.1 and 15.2 intermittently segfaulted during repeated, highly concurrent searches over a 20GiB tree containing 1.8 million files; glibc builds did not reproduce it. The crash surfaced inside musl’s allocator during opendir, but investigation pointed deeper to Linux 7.0 direct page-table reclaim using an out-of-range address for TLB operations. A one-line kernel patch changed addr back to start and generated follow-up commits, although rebooting erased the reporter’s reproduction state before a clean A/B test. HN debated allocator exposure and criticized a verbose AI-assisted analysis.
 
-- Comment pulse  
-  AI bug report skepticism → Many find the LLM writeup bloated, hard to parse, and culturally off-putting, even if its conclusions might be technically sound.  
-  Allocator subtleties → Rust’s global allocator swap misses libc calls like opendir; musl’s page-at-a-time strategy increases exposure to the underlying kernel race.  
-  System-level fallout → Administrators warn that grep-like scans on cluster filesystems or massive repos can hammer metadata paths, possibly explaining fragility in large cloud-hosted systems.  
+### Comment pulse
 
-- LLM perspective  
-  View → AI-generated analyses need structure, executive summaries, and human-style editing, otherwise engineers will dismiss even accurate findings.  
-  Impact → Kernel, libc, and language-runtime maintainers must coordinate more tightly on memory-management edge cases and observability.  
-  Watch next → Track Linux 7.x VM patches, allocator behavior under stress tests, and experiments with AI agents triaging kernel/userland crash reports.
+- The libc correlation may be incidental → musl exposes single fresh pages more directly, widening a kernel race that other allocators could also encounter.
+- AI aided reproduction but hurt communication → its generated tree was useful — counterpoint: the long analysis apparently missed the exact kernel line.
+- Scale revealed a rare state → 24-core concurrency and cached 1.8-million-file traversal stressed page-table behavior that vanished after reboot.
+
+### LLM perspective
+
+- **View:** A crash location identifies the victim, not necessarily the faulty layer; allocator assertions can expose kernel memory-management corruption.
+- **Impact:** Users of static musl binaries face rare failures; kernel maintainers gain a focused TLB-reclaim regression candidate.
+- **Watch next:** Reproduce across machines, kernels, allocators, and reboots; A/B the patch, rule out hardware, and add a stress test.

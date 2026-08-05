@@ -2,19 +2,18 @@
 
 - Score: 405 | [HN](https://news.ycombinator.com/item?id=49132058) | Link: https://openai.com/index/ten-advances-in-mathematics/
 
-## TL;DR
-- A large proprietary AI model was guided to solve ten previously open problems in mathematics and theoretical computer science, reportedly for ~\$2k in inference.  
-- Commenters probe the hidden denominator: how many total problems, retries, and how much compute and orchestration were used, warning of “p‑value hacking”–style cherry‑picking.  
-- There’s debate over the real importance of the specific results, mixed excitement and burnout about AI math advances, and skepticism that such work implies imminent, runaway self‑improvement (“FOOM”).
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+OpenAI reports that an internal Astra model resolved or substantially advanced ten open problems spanning geometry, coding, groups, circuits, quantum complexity, lattices, and combinatorics. Humans used the model to prepare manuscripts, and each argument received a Lean certificate; stated solution-token cost was about $2,000 at Sol API rates. The company attributes the mathematical arguments to AI rather than human authors. HN regarded the claims as potentially major but demanded field-specific review and full experiment accounting: total problems attempted, failures, retries, inference settings, prompts, compute, selection criteria, and reproducibility.
 
-## Comment pulse
-- Methodology opacity → Without totals on problems tried, attempts, and cluster costs, the \$2k headline looks like p‑value hacking; AI math needs lab‑style, logged experiments.  
-- Cost perspective → Even if solving ten problems cost \$1M, commenters argue it rivals funding 10–20 researchers yearly—counterpoint: without transparency, that comparison is speculative.  
-- Significance and takeoff → Some see frontier‑level math plus coding skills as undeniable progress; others note modest software gains and doubt imminent self‑improvement “FOOM” results.
+### Comment pulse
 
-## LLM perspective
-- View → Claims about AI solving open problems should include problem sets, retries, prompts, and compute to be meaningful scientifically.  
-- Impact → If reproducible, this shifts mathematicians toward conjecture selection, interpretation, and verification, with models handling exploration and proof generation.  
-- Watch next → Independent replications using open‑weights models, standardized “open problem” benchmarks, and tracking cost‑per‑result versus human research time.
+- The $2,000 figure lacks a denominator → without failed problems, retries, and harness compute, readers cannot infer discovery efficiency.
+- AI mathematics needs experimental reporting → commenters proposed model versions, seeds, prompts, full histories, and reproducible certificates rather than disclosure alone.
+- Significance remains field-dependent → impressive theorem labels need expert context — counterpoint: formal verification establishes correctness, not novelty or importance.
+
+### LLM perspective
+
+- **View:** Proof certificates answer validity; they do not answer search selectivity, originality, explanatory value, or hidden experimental cost.
+- **Impact:** Mathematicians gain candidate results and formal artifacts while journals face new attribution, reproducibility, and authorship norms.
+- **Watch next:** Seek independent proof review, Lean replay, prior-art checks, unsuccessful-task counts, compute budgets, and downstream papers using each result.

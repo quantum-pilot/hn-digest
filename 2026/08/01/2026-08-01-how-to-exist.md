@@ -2,21 +2,18 @@
 
 - Score: 364 | [HN](https://news.ycombinator.com/item?id=49129990) | Link: https://www.raptitude.com/2026/07/how-to-exist/
 
-- TL;DR  
-  The thread orbits a common modern tension: we’re told meditation and idleness are essential, yet many feel nothing or even guilt when they try. Commenters stress that “meditation” is a family of practices, not a single tool, and that walking, breathwork, sleep, bodywork, or mantra can sometimes do what mindfulness apps don’t. Others link our action-obsession to industrial time-discipline, caffeine, and tech, while a minority argue humans are naturally restless experimenters, not serene sitters.
+### TL;DR
 
-  *Content unavailable; summarizing from title/comments.*
+The essay proposes a three-minute test: do nothing and remain content, revealing how quickly people reach for movement, thought, food, conflict, or phones to escape the present. It reframes that restlessness as an allergy to ordinary existence and recommends practicing nonresistance one inhale or exhale at a time, gradually extending to five minutes. The hoped-for result is greater tolerance for waiting, uncertainty, and discomfort, weakening doomscrolling and rumination. HN responses ranged from long-term meditation producing nothing to breathing exercises, nature walks, massages, and alternative practices bringing calm.
 
-- Comment pulse  
-  Meditation is heterogeneous → Some feel no benefit from app-guided mindfulness; others report strong effects from mantra, breath exercises, or sleep-focused practices—counterpoint: for low-anxiety people, “more calm” may be redundant.  
+### Comment pulse
 
-  Action-obsession is historical → Burkeman’s “Four Thousand Weeks” frames it as a product of industrial time-discipline and wage labor—counterpoint: agriculture was also relentless, and our evolution predates farming.  
+- Meditation effects vary → one disciplined 200-day practice changed nothing, while others found sleep-focused breathing, mantras, or different traditions useful.
+- Historical explanations drew skepticism → claims that industrial time discipline caused restlessness conflict with farming’s relentless labor and humanity’s much longer pre-agricultural past.
+- Even the shock study is ambiguous → novelty-seeking participants may explore an unfamiliar device rather than flee their thoughts.
 
-  Stillness vs boredom → Electric-shock “boredom” study may measure curiosity, not terror of one’s thoughts; long walks or massage seem to reopen the brain’s default mode processing.
+### LLM perspective
 
-- LLM perspective  
-  View: “How to exist” here means carving out unscripted mental space, but the entry point (breath, mantra, nature, body) is highly individual.  
-
-  Impact: Normalizes dropping practices that don’t work, while legitimizing alternatives like NSDR, long walks, and contemplative inquiry as equally “real” meditation.  
-
-  Watch next: Comparative studies on different contemplative modes under realistic tech/caffeine loads, and how much unstructured time the average nervous system actually needs.
+- **View:** The method wisely lowers the unit of practice to seconds, making tolerance trainable without promising mystical outcomes.
+- **Impact:** People may gain another response to idle discomfort, but nonresponders should not interpret neutrality as personal failure.
+- **Watch next:** Track adherence, anxiety, sleep, compulsive phone use, and whether benefits transfer from sessions to queues, meetings, and conflict.
