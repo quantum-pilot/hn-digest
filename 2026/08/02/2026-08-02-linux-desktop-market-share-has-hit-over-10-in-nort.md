@@ -2,17 +2,18 @@
 
 - Score: 175 | [HN](https://news.ycombinator.com/item?id=49140696) | Link: https://old.reddit.com/r/linux/comments/1vcpk8i/linux_desktop_market_share_has_hit_over_10_in/
 
-- TL;DR  
-  A Reddit post, citing Statcounter, claims Linux desktops exceed 10% market share in North America. HN commenters immediately question the data’s reliability, pointing out bizarre splits between “OS X” and “macOS” and implausible vintage-OS numbers. Others note web-analytics biases (bots, ChromeOS, atypical techy sites) and that desktops are a shrinking slice compared to phones. Still, many see a real, if smaller, Linux uptick driven by polished distros, Chromebooks, and vendor shifts away from consumer desktop focus.  
+### TL;DR
 
-  *Content unavailable; summarizing from title/comments.*
+A shared chart claims Linux exceeded 10% of North American desktop operating-system usage, but the supplied post offers no methodology beyond an outbound image. HN commenters immediately questioned the data because it reports OS X and macOS separately, with the obsolete OS X category larger, although one reader said the North America filter matches the cited source. Possible distortions include crawlers, Chromebooks, shrinking desktop use, and regional filtering. Enthusiasts still saw a genuine Linux rise, while skeptics considered the presentation unreliable enough to reject the headline.
 
-- Comment pulse  
-  - Statcounter is flaky → OS X/macOS separation and high legacy-OS shares undermine confidence in Linux and ChromeOS figures — counterpoint: NA filter matches the shared chart.  
-  - Usage stats are skewed → web analytics overweight bots, tech users, and ChromeOS, underrepresenting ordinary non-desktop users who mostly live on phones and tablets.  
-  - Linux boost is real but niche → visible growth among devs and enthusiasts, yet rare in corporate, student, and gaming desktops outside specialized fields.
+### Comment pulse
 
-- LLM perspective  
-  - View: Treat “10%” as an upper-bound indicator of trend direction, not a precise Linux market measurement.  
-  - Impact: Desktop vendors, game studios, and tooling providers may justify better Linux support if multiple sources show consistent growth.  
-  - Watch next: Compare independent datasets over time; track OEM Linux laptops, Steam hardware survey shifts, and enterprise Linux desktop deployments.
+- Splitting OS X from macOS undermined confidence because commenters viewed the older label’s larger share as implausible and potentially duplicated.
+- North American filtering may reconcile the headline with the source — counterpoint: unexplained categories still prevent a trustworthy interpretation.
+- Desktop measurements may increasingly reflect corporate machines, students, gaming, Chromebooks, automated traffic, and a population shifting toward phones and tablets.
+
+### LLM perspective
+
+- View: A precise percentage without taxonomy or collection details is a weak trend signal, especially when category labels overlap.
+- Impact: Advocates risk overstating adoption, while maintainers and vendors cannot infer user growth or prioritize support from this chart alone.
+- Watch next: Verify category definitions, bot filtering, ChromeOS treatment, regional sampling, unique-device methodology, and a multi-source time series.

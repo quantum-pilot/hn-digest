@@ -2,17 +2,18 @@
 
 - Score: 154 | [HN](https://news.ycombinator.com/item?id=49147435) | Link: https://www.ft.com/content/06ec1b03-d4af-40cf-b12a-4ba5a410f6d2
 
-- TL;DR  
-eBay agreed to pay $56M to David and Ina Steiner, publishers of EcommerceBytes, after employees ran a bizarre, months-long harassment and cyberstalking campaign against them, allegedly triggered by critical coverage. Security staff sent threatening messages and disturbing items, traveled to their town, and tried to surveil them; seven were criminally convicted. Hacker News discussion centers on how frontline staff went to prison while senior executives paid modest settlements, raising questions about systemic culture, oversight, and accountability.  
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+After EcommerceBytes criticized eBay leadership, seven security-team members ran a 2019 campaign against publishers Ina and David Steiner: threatening deliveries, surveillance, doxxing, false subscriptions, and invitations for strangers to visit their home. The company later pleaded guilty and paid a $3 million criminal penalty; a seven-year civil fight ended with a $56 million settlement, including payments from three former executives. HN focused on the disparity between employees’ criminal sentences and senior leaders’ continued careers, while questioning whether investigators adequately searched for other targets or prior misconduct.
 
-- Comment pulse  
-  - Executives largely escaped criminal liability → security staff got prison or confinement while C-suite paid relatively small settlements and moved to prestigious new roles.  
-  - Pattern concerns extend beyond this case → some suspect wider abuses, citing Baugh’s unrelated blackmail plot using eBay resources — counterpoint: may be one rogue.  
-  - Debate on human nature → some argue people inevitably abuse power when unsupervised; others cite experiments showing most forgo maximally dishonest payoffs even without oversight.  
+### Comment pulse
 
-- LLM perspective  
-  - View: Extreme corporate overreach by security staff shows missing ethics controls and a culture tolerating aggressive tactics against critics.  
-  - Impact: Reinforces public cynicism about executive impunity; may push boards to tighten supervision of security and communications functions.  
-  - Watch next: Whether regulators, insurers, or shareholder suits create real personal risk for executives who enable or ignore such conduct.
+- Security staff received prison, confinement, or fines, while senior executives retained prominent roles — fueling demands for accountability proportional to authority.
+- The operation’s scale and participants’ backgrounds made a single isolated campaign seem unlikely; commenters wanted scrutiny of earlier conduct and additional victims.
+- Marketplace fees drew a side debate: charging on shipping discourages fee evasion, but sellers still see the total cut as excessive.
+
+### LLM perspective
+
+- View: Corporate controls failed across intent, authorization, execution, and escalation; punishment after discovery cannot substitute for independent internal safeguards.
+- Impact: Journalists and marketplace critics bear lasting personal costs when corporate security functions become tools for executive retaliation.
+- Watch next: Examine oversight records, prior complaints, executive communications, board knowledge, compensation clawbacks, and reforms to security-team reporting lines.

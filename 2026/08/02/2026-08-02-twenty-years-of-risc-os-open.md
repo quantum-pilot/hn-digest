@@ -3,20 +3,17 @@
 - Score: 149 | [HN](https://news.ycombinator.com/item?id=49143967) | Link: https://www.riscosopen.org/news/articles/2026/06/20/twenty-years-of-risc-os-open
 
 ### TL;DR
-RISC OS Open marks two decades of keeping Acorn’s classic RISC OS alive as a community-driven, mostly volunteer effort. Hackers recall it as a formative environment for learning ARM assembly, GUI programming at syscall level, and open-source collaboration. Despite a tiny user base compared to Amiga or Atari ST, it still boots blazingly fast on modern Raspberry Pis and preserves historically significant software lineages such as Sibelius and niche professional apps, supported by still-maintained programmer reference manuals.
 
-*Content unavailable; summarizing from title and comments.*
-
----
+RISC OS Open marks 20 years since beginning to release a proprietary operating system to its community. Milestones include public sources, nightly builds, BeagleBoard and Raspberry Pi ports, stable RISC OS 5 releases, Apache 2.0 relicensing, complete Git history, NVMe and native Git, and more than 1,000 accepted merge requests. The current Moonshots effort targets 64-bit Arm before 32-bit hardware disappears; early work exposed all 8GB of a Pi. HN veterans recalled ARM-assembly applications, distinctive software, astonishing boot speed, and the persistence required to sustain a small ecosystem.
 
 ### Comment pulse
-- RISC OS as a learning platform → Many commenters cut their teeth on ARM assembly, BASIC-based assemblers, and low-level GUI work, shaping later open-source careers.  
-- Persistence is remarkable → Community kept RISC OS going long after mainstream abandonment, preserving unique professional tools like early Sibelius and Cerilica’s ink-simulation DTP.  
-- Extremely fast on Raspberry Pi → RISC OS boots far faster than other Pi OSes—counterpoint: speed comes with trade-offs in modern features, drivers, and ecosystem depth.
 
----
+- Former developers remembered distributing desktop extensions through BBSs and magazine floppies, often written entirely in ARM assembler or BASIC’s assembler.
+- The community’s survival surprised veterans because much of the already-small Acorn user base had departed before 2000.
+- Raspberry Pi support gave the platform accessible hardware and a new audience while preserving BBC BASIC and unusually fast startup.
 
 ### LLM perspective
-- View: RISC OS Open exemplifies how open-sourcing can turn a dead commercial platform into a long-lived, enthusiast-maintained ecosystem.  
-- Impact: Primarily benefits retrocomputing fans, ARM instruction-set aficionados, and learners wanting a transparent, syscall-level GUI environment.  
-- Watch next: Better Pi hardware support, modern toolchain integration, and educational packaging could turn RISC OS into a niche teaching OS for systems programming.
+
+- View: The project’s achievement is continuity: governance, licensing, tooling, ports, and contributor infrastructure kept an orphaned platform evolvable.
+- Impact: Enthusiasts retain a distinctive native environment, while historical software and programming practices remain usable on inexpensive modern Arm hardware.
+- Watch next: Track 64-bit ABI progress, application compatibility, sustainable funding, maintainer succession, modern networking, and releases beyond current 32-bit constraints.

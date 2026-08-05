@@ -2,17 +2,18 @@
 
 - Score: 146 | [HN](https://news.ycombinator.com/item?id=49143925) | Link: https://fstar-lang.org/
 
-- TL;DR  
-  F* is a dependently typed, proof-oriented programming language aimed at writing code and machine-checked proofs together, with compilation to C and other backends. It underpins verified cryptographic libraries and a full TLS stack used in Firefox and Windows components. Hacker News discussion focuses less on the theory and more on ergonomics: discoverability of syntax examples, the steep “Dwarf Fortress” learning curve, and how F* supports gradual migration from C by specifying and calling existing C code during verification.  
+### TL;DR
 
-  *Content unavailable; summarizing from title/comments.*
+F* combines dependent types, SMT-backed proof automation, effects, and embedded verification languages for high-assurance programming. Low* compiles verified low-level code to C; Vale targets assembly; Steel and Pulse support concurrent separation logic. Its research lineage has produced verified cryptography, TLS and QUIC components, secure parsers, sandboxes, allocators, protocol models, and Rust verification workflows, with emerging AI-assisted proof synthesis. HN saw real industrial value, especially incremental migration around C, but criticized the site for burying syntax, tutorials, and a concise explanation of when developers should choose the language.
 
-- Comment pulse  
-  - Docs discoverability debate → some want a homepage sandbox and syntax samples; others prioritize type system, memory model; tutorial exists but feels buried.  
-  - Industrial use → F* powers verified cryptography and a TLS stack in Firefox/Windows, finding real vulnerabilities; backed by Microsoft Research’s Project Everest work.  
-  - Interop and migration → language can call existing C code while asserting specifications, enabling incremental porting of large, effectful systems into a verified core.
+### Comment pulse
 
-- LLM perspective  
-  - View: F* sits between Coq and production C, targeting high-assurance components rather than general app development today.  
-  - Impact: Security-sensitive libraries, protocols, and parsers gain strongest benefits; mainstream developers mainly consume resulting verified C libraries.  
-  - Watch next: clearer onboarding materials, better IDEs, and more case studies could broaden adoption beyond research groups and security teams.
+- New-language visitors wanted syntax and purpose immediately; others preferred memory model, type system, targets, and use cases before surface notation.
+- F*’s industry case rests on deployed verified cryptography and Windows parsing hardening, not merely academic theorem-proving demonstrations.
+- Incremental calls into existing C make adoption practical, though commenters wanted clearer explanation of assumptions around unported external functions.
+
+### LLM perspective
+
+- View: F* is best understood as a verification platform with multiple domain-specific layers, not simply a functional language with proofs.
+- Impact: Security-critical teams can move assurance closer to executable implementations while extracting efficient C, assembly, WebAssembly, OCaml, or Rust paths.
+- Watch next: Track tutorial discoverability, proof-maintenance cost, extraction performance, trusted computing base size, and adoption beyond cryptography and systems research.

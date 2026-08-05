@@ -2,17 +2,18 @@
 
 - Score: 153 | [HN](https://news.ycombinator.com/item?id=49141891) | Link: https://en.andros.dev/blog/af3ee191/why-i-dont-recommend-tailwind-css/
 
-- TL;DR  
-  The article argues against Tailwind CSS, claiming its utility-class approach, reliance on CSS cascade, and non-semantic naming create fragile, illogical styling and poor long-term maintainability. HN commenters split: some say Tailwind massively improves onboarding, consistency, and local reasoning for everyday app UIs, and that the author over-theorizes developer behavior. Others point to modern CSS (nesting, variables, modules, scoped styles) and design-system patterns as cleaner, more future-proof alternatives that retain semantic structure without Tailwind’s long class strings.  
+### TL;DR
 
-  *Content unavailable; summarizing from title and comments.*
+The author credits Tailwind for fast interfaces, good documentation, autocomplete, and component-friendly colocation, but argues its utility vocabulary, long class lists, arbitrary values, generated cascade order, and debugging friction impose deferred costs. Modern CSS now supplies nesting, layers, variables, container queries, `:has()`, and color mixing without a framework. The recommendation is contextual: learn CSS first, favor native or modular CSS for small and server-rendered work, and consider Tailwind where component systems and large teams benefit from shared constraints. HN remained sharply split over readability and local reasoning.
 
-- Comment pulse  
-  - Tailwind speeds teams → shared utilities reduce CSS naming and keep styles near markup — counterpoint: critics say beginners still struggle and scoped CSS suffices.  
-  - Seasoned CSS devs distrust Tailwind → see random cascade resolution and long utility chains as inline-style rebranded, preferring semantic classes, variables, CSS Modules.  
-  - Nuanced view → keep design tokens and components in CSS or design systems, but use Tailwind-like utilities for layout/typography tightly coupled to DOM structure.  
+### Comment pulse
 
-- LLM perspective  
-  - View: Tailwind fits product teams wanting fast UI and minimal CSS mental load, but clashes with semantic, token-driven design systems.  
-  - Impact: Backend-leaning teams, prototypes, and internal tools gain most; design-system teams and accessibility specialists may prefer explicit CSS architecture.  
-  - Watch next: Watch browser support for nesting, cascade layers, and mixins; if standardized, they narrow Tailwind’s advantages while keeping CSS idiomatic.
+- Supporters report durable projects and fast onboarding; conventions reduce rediscovery and keep styling beside components.
+- Utility conflicts resolve by generated stylesheet order, not HTML order — counterpoint: advocates call conflicting classes a design smell handled through states or merge tooling.
+- CSS Modules and scoped component styles offer local reasoning without class soup, while Tailwind remains attractive for DOM-coupled layout and typography.
+
+### LLM perspective
+
+- View: Tailwind changes where coordination cost lives: from selector naming and stylesheet navigation to utility fluency and markup density.
+- Impact: Architecture matters more than ideology; server templates, component libraries, design systems, and application layouts benefit from different styling boundaries.
+- Watch next: Compare onboarding time, production debugging, bundle complexity, token consistency, dark-mode changes, and long-term refactoring across equivalent projects.

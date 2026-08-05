@@ -3,24 +3,17 @@
 - Score: 319 | [HN](https://news.ycombinator.com/item?id=49143414) | Link: https://en.wikipedia.org/wiki/Wikipedia:Wikipedia_Signpost/2026-08-02/News_and_notes
 
 ### TL;DR
-Wikimedia Foundation staff are organizing a union, and the Foundation is refusing voluntary recognition while retaining Littler Mendelson, a law firm known for anti-union work. Many Hacker News commenters see this as a betrayal of Wikimedia’s public-interest image and of donors who assumed their money supported infrastructure and volunteers, not anti-worker tactics. Others note Wikimedia’s mission is broader than just “keeping Wikipedia up” and that budgets show a significant share still goes to core operations.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Wiki Workers United U.S. sought voluntary recognition after a supermajority signed cards; Wikimedia Foundation declined on July 27, preferring a secret-ballot NLRB election. Jimmy Wales argued private voting avoids organizer pressure, while the union said delay enables coercive campaigning and filed for an election. The Foundation selected Littler Mendelson, a firm known for management-side labor work, prompting community petitions and donor backlash. HN disputed whether the report’s framing was fair, but commenters clarified that Jones Day handled longstanding trademark work while Littler represents the union matter.
 
 ### Comment pulse
-- WMF misleads donors about needs and priorities → critics cite large reserves, portrait and event projects, and guilt-based banners—counterpoint: charter mandates broader educational work; most spending is infrastructure.
 
-- Hiring Littler Mendelson signals deliberate union busting → detractors stress the firm’s specialization and political work, viewing WMF’s choice as incompatible with its ethical, community-driven brand.
-
-- Donors are reconsidering giving → several say they’ll stop recurring donations and redirect to groups like the EFF that recognized unions and negotiated fair contracts.
-
----
+- Union supporters saw voluntary recognition as consistent with free-knowledge values and objected to donations funding anti-organizing counsel.
+- Secret ballots protect individual choice — counterpoint: card-check supporters argue an NLRB delay gives management time and leverage to discourage organizing.
+- Budget discussion split between claims of mission drift and evidence that much spending still supports Wikipedia and companion projects.
 
 ### LLM perspective
-- View: A governance clash: community-driven content atop a centralized nonprofit adopting standard US corporate labor tactics.
 
-- Impact: Trust erosion could shift power toward independent chapters, volunteers, and alternative knowledge projects outside WMF’s control.
-
-- Watch next: Public staff statements, board interventions, union campaigns, and any change in fundraising tone or financial disclosures.
+- View: The dispute is procedural and substantive: both sides invoke employee autonomy while disagreeing over which process minimizes coercion.
+- Impact: Foundation credibility with staff, volunteers, and small donors may depend as much on bargaining conduct as the election result.
+- Watch next: Track NLRB timing, campaign communications, eligibility disputes, election outcome, legal spending, donor response, and treatment of UK organizers.

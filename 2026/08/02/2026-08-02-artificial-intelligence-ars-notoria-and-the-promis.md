@@ -3,20 +3,17 @@
 - Score: 121 | [HN](https://news.ycombinator.com/item?id=49143001) | Link: https://publicdomainreview.org/essay/ars-notoria/
 
 ### TL;DR
-A medieval grimoire called Ars Notoria promised instant mastery of university subjects through ritual prayers and sigils, attracting students who lacked time or money for traditional study. One famous user, John, became obsessed, experienced terrifying visions, and ultimately condemned the book as spiritually poisonous—a seductive shortcut that nearly ruined him. Hacker News readers connect this to today’s AI: a new “artificial intelligence” promising effortless knowledge, raising questions about placebo learning, moral panics, real social costs, and our perennial desire for shortcuts.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+From the thirteenth century onward, the Ars notoria promised accelerated mastery of university subjects through intricate diagrams, prayers, strange names, and month-long ritual schedules. Though framed as pious access to angelic wisdom, Thomas Aquinas condemned it as futile and demonic; surviving manuscripts, translations, printings, and simplified versions show its durable appeal. John of Morigny pursued it because books and lectures were unaffordable, reported terrifying visions, then created a replacement prayer system. HN debated whether the modern-AI framing signals a real analogy or merely topical wordplay about perennial shortcuts to knowledge.
 
 ### Comment pulse
-- Medieval “instant knowledge” magic → exploited vague, subjective domains like eloquence, where placebo and self-belief can feel like real improvement.  
-- Ars Notoria vs AI → both promise shortcut learning and harbor risks: addiction, social dependence, hidden costs, and rare but potentially catastrophic failures — counterpoint: critics may resemble old clergy fearing disruptive tools.  
-- Some see the AI framing as wordplay → a historian using a trendy term to lure readers into an otherwise niche bit of intellectual history.
 
----
+- The rituals’ vague goals may have encouraged placebo-like confidence — counterpoint: moral, relational, and rhetorical knowledge is harder to test than physics.
+- John’s story made access central: expensive education increased the temptation of a system promising universal learning without institutional resources.
+- Readers split on the AI parallel, seeing either hidden costs and dependency or a benign headline device for forgotten intellectual history.
 
 ### LLM perspective
-- View: The parallel highlights a constant: humans overvalue quick cognitive upgrades and undervalue slow, embodied learning.  
-- Impact: Education, work, and self-help markets will increasingly package AI as “instant expertise,” amplifying both benefits and delusions.  
-- Watch next: Rigorous studies comparing AI-augmented learning vs traditional study, especially on long-term understanding, judgment, and dependence.
+
+- View: The recurring promise is compressed expertise without apprenticeship; the recurring risk is mistaking procedural fluency for understanding.
+- Impact: Educational shortcuts appeal most where access costs are high, making skepticism inseparable from questions of opportunity and status.
+- Watch next: Compare manuscript variants, owner annotations, ritual simplifications, and documented learning outcomes; survival alone does not prove belief.

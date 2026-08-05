@@ -2,21 +2,18 @@
 
 - Score: 186 | [HN](https://news.ycombinator.com/item?id=49143188) | Link: https://www.ft.com/content/0f9b2fe7-bde4-4f5f-b49e-93ccb5da9ea8
 
-**TL;DR**  
-US Treasury has intervened in foreign-exchange markets to support the yen, a rare step aimed at stabilizing Japan’s currency without forcing it to dump US Treasuries or hike rates sharply. Commenters link Japan’s weak yen to high oil prices and trade imbalances, and see US motives in protecting bond markets, carry trades, and a key ally before elections. Others note the move is historic but not unprecedented, and view Bessent’s public “buy yen” note as deliberate jawboning.  
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
-
----
+After the yen neared a 40-year low around ¥164 per dollar, it jumped as much as 3% amid Japanese intervention estimated near ¥8.45 trillion. The New York Fed also performed a dollar-yen rate check for the US Treasury, a possible precursor to purchases, while Japanese officials described support beyond rhetoric. The Bank of Japan held rates at 1%, but governor Kazuo Ueda signaled faster increases if inflation warranted. HN debated whether US help protects Treasury demand and delays disruptive Japanese tightening, while noting intervention may fade without lasting rate support.
 
 ### Comment pulse
-- Japan’s weak yen plus costly oil strain its import bill; selling Treasuries or hiking rates risk spiking US yields, so Washington props yen instead.  
-- Intervention labeled “historic” but similar US actions occurred in 1998 and 2011; older commenters recall 1990s serial crises shaping today’s policymakers.  
-- Bessent’s “buy yen” notepad and modest $5–10B firepower viewed as jawboning; some say goal is postponing carry-trade unwind past US elections — counterpoint: effect minimal.  
 
----
+- This would be the first US yen-support action since 1998, not unprecedented; 2011 coordination instead weakened the currency after Japan’s earthquake.
+- A visible Treasury note may have signaled intended buying so markets moved first — counterpoint: commenters doubted $5–10 billion could provide lasting force.
+- Supporting yen could preserve carry-trade demand for US debt and postpone rate normalization, though commenters disputed Japan’s incentives to sell Treasuries.
 
 ### LLM perspective
-- View: Cross-border FX support now doubles as debt-management tool, limiting forced Treasury selling while masking domestic monetary-policy conflicts.  
-- Impact: Japan, EM borrowers, and global bond funds remain exposed; a disorderly yen move could still trigger margin calls and contagion.  
-- Watch next: Watch BOJ rate signals, US auction demand, and oil prices; together they’ll reveal if intervention bought time or just headlines.
+
+- View: Currency intervention can reset short-term expectations, but monetary-policy divergence determines whether traders eventually retest the defended level.
+- Impact: Japan faces import inflation and policy credibility pressure; US bonds may react if Japanese savings or carry trades unwind.
+- Watch next: Confirm transaction amounts, Fed participation, reserve changes, September rate odds, oil prices, repeat interventions, and movement toward ¥162–¥164.

@@ -2,16 +2,18 @@
 
 - Score: 187 | [HN](https://news.ycombinator.com/item?id=49145590) | Link: https://pudding.cool/2026/07/essential-words/
 
-- TL;DR  
-  Researchers compared mid‑20th‑century “core English” word lists for learners with modern lists and found big shifts. Earlier lists emphasized everyday life, politeness, and individual character (humble, loyal, polite); newer ones emphasize institutions and identity (community, organization, gender, ethnic). The piece argues that what we teach beginners quietly tracks cultural focus. HN commenters highlight how vocabulary choice is goal‑specific, the lack of good data on real spoken language, and debates over whether identity terms reflect inequality, globalization, or just changing discourse.  
-  *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  - Vocabulary “basics” are domain‑dependent (travel, news, TV, workplace); frequency lists miss conversation, toddler-talk, slang, and concrete life-words.  
-  - Shift from character words to identity/society words signals focus on groups and structures—counterpoint: could be globalization and media, not inequality per se.  
-  - Building useful frequency lists is hard; corpora overrepresent written/web text, distorting priorities for actual learners.
+Comparing the 1953 General Service List with its 2023 successor, the analysis finds 628 words removed, 1,153 added, and coverage rising from about 84% to over 90%. Highly concrete vocabulary fell from 21% to 14%, while institutional, analytical, process-oriented, and qualifying language expanded; adverbs nearly doubled. The author reads this as life moving from bodies, tools, food, and local relationships toward systems and distant institutions. HN stressed that any “essential” list depends on corpus, learner goals, and scarce natural-conversation data.
 
-- LLM perspective  
-  - View: ESL curricula should branch early by learner goals, not pretend there’s a single universal “basic vocabulary.”  
-  - Impact: Textbook publishers, app designers, and tests need more spoken, domain-specific corpora and periodic cultural recalibration.  
-  - Watch next: Open conversational corpora, longitudinal updates to “general service” lists, and evaluations of goal-tuned vocab sets on learner outcomes.
+### Comment pulse
+
+- Travel, television, newspapers, supermarkets, religion, childhood, and workplace life demand different vocabularies; no frequency ranking serves every learner.
+- Recorded media poorly represents ordinary speech, while observation changes conversation and raises ethical problems, leaving natural-language corpora unusually thin.
+- Some attributed social-category vocabulary to inequality or globalization — counterpoint: the lists demonstrate changed frequency, not a single historical cause.
+
+### LLM perspective
+
+- View: The lists measure communicative utility within sampled corpora, so cultural interpretation is suggestive rather than causal.
+- Impact: Teachers should pair broad core vocabulary with domain modules grounded in learners’ actual destinations, media, homes, work, and communities.
+- Watch next: Replicate across corpora, regions, age groups, genres, and lemma rules; measure learning outcomes for concrete versus abstract sequencing.

@@ -2,16 +2,18 @@
 
 - Score: 139 | [HN](https://news.ycombinator.com/item?id=49093845) | Link: https://foldingglobes.com/globes
 
-- TL;DR  
-    - Folding-globe templates let you print and assemble polyhedral paper worlds, often based on icosahedra, from standard sheets. Commenters dissect geometric efficiency (rotating the icosahedron for larger globes), and swap workflows: Photoshop’s Flexify plugin, Blender+papes, and Python tools for Dymaxion-style isospheres from 360° imagery. Others chase more realistic products—true-color Earth with clouds or kid-friendly political globes—and lament that modern map apps make political boundaries and area comparisons harder to explore than old paper atlases did.  
-    *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-    - Polyhedron layout can be optimized → rotating an icosahedron 14° yields ~10% larger globes from the same sheet; shows HN’s love of precise geometric hacks.  
-    - Image tools support custom nets → Flexify, Blender + papermodel, and pydymax let users turn maps or 360° photos into polyhedral or Dymaxion-style globes.  
-    - Desire for realism and teaching → people want true-color, clouded Earth and political globes; online maps under-serve politics — counterpoint: disputed borders make “accuracy” contentious.
+MapScaping offers free, print-ready paper globe templates spanning Solar System bodies, Earth imagery, environmental datasets, earthquakes, volcanoes, meteorites, heritage sites, tectonics, and time zones. A custom builder can change shapes or pin locations, while users print and fold the resulting nets. HN quickly proposed a 14-degree icosahedron rotation for roughly 10% more size, synchronized workflows using projection tools, and true-color cloudy Earth variants. The main unmet request was a kid-friendly political globe, complicated by disputed borders and sparse political-map experiences online.
 
-- LLM perspective  
-    - View: Paper globes sit at intersection of geometry, visualization, and craft, encouraging hands-on understanding of projections and spatial distortion.  
-    - Impact: Accessible tools for generating custom nets democratize globe-making for classrooms, hobbyists, and citizen scientists without specialized GIS software.  
-    - Watch next: Standardized pipelines from satellite imagery or OpenStreetMap to printable nets, plus shared repositories of textures and boundary presets.
+### Comment pulse
+
+- Makers shared workflows using Flexify, Blender, Python isospheres, NASA maps, and AI-generated nets, showing multiple routes from imagery to foldable geometry.
+- True-color Earth is elusive because satellite calibration and atmospheric limb effects vary; physical paper also makes smooth spheres lumpy.
+- Political labels help children — counterpoint: disputed territories make any single school-oriented border set politically contentious.
+
+### LLM perspective
+
+- View: A simple printable artifact becomes a compact interface between cartography, geometry, data visualization, fabrication, and geographic politics.
+- Impact: Teachers and hobbyists gain tactile, customizable models without specialized equipment, while template design determines legibility and assembly difficulty.
+- Watch next: Add synchronized previews, political-label options with dispute metadata, optimized net rotation, calibration guidance, and accessible assembly instructions.

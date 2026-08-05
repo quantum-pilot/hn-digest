@@ -2,23 +2,18 @@
 
 - Score: 159 | [HN](https://news.ycombinator.com/item?id=49145937) | Link: https://github.com/wie-project/kakehashi
 
-## TL;DR
-Experimental project “Kakehashi” aims to run macOS command‑line binaries natively on Linux ARM by recreating a macOS-like userspace/ABI, similar in spirit to Wine for Windows. Early prototypes work for 7‑Zip (multi‑threaded, but ~5.2× slower than native), curl (200+ options tested), and Xcode’s Git (basic commands). HN discussion centers on overlap with Darling, feasibility of expanding to broader macOS tooling (and maybe GUIs/AU plugins), performance vs. VM-like approaches, and legal/distribution trade‑offs.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+Kakehashi is a Rust, CLI-first userspace layer that loads macOS ARM64 Mach-O binaries on Linux aarch64, supplies a freestanding libSystem, and translates BSD syscalls without JIT instruction emulation. Current demonstrations run multithreaded Darwin 7-Zip and curl, including HTTPS, with host filesystem bridging and 4 KiB or 16 KiB pages. A 309 MiB archive took 54.8 seconds versus Linux-native 44.1 seconds, about 1.24× slower. GUI, codesigning, Apple frameworks, complete curl, and stable Xcode tools remain unsupported. HN welcomed the direction but stressed its early scope and overlap with Darling.
 
----
+### Comment pulse
 
-## Comment pulse
-- macOS-on-Linux userspace like Wine is plausible → Darling shows precedent; combining efforts might avoid duplication — counterpoint: Kakehashi explicitly isn’t derived from Darling, suggesting differing architectures/goals.  
+- Native ARM execution leaves syscall crossings as the main tax; replacing an O(n²) allocator reduced an earlier roughly 5.2× slowdown substantially.
+- Cheap Linux ARM CI could beat hosted macOS pricing for Darwin CLI tests — counterpoint: GUI, notarization, and Xcode UI workloads still require macOS.
+- Commenters asked about target-version behavior, shell environment fidelity, proprietary-rootfs approaches, Audio Units, and cooperation with Darling’s ARM64 work.
 
-- Users want “real macOS” semantics → questions about matching specific macOS versions, filesystem quirks, uname output, and running scripts expecting Darwin-like tools and behavior.  
+### LLM perspective
 
-- Using a copied macOS rootfs might be easier → could avoid re‑implementing frameworks, but then it’s effectively a VM, with more overhead and messy redistribution/licensing.
-
----
-
-## LLM perspective
-- View: A focused CLI-first layer is tractable; GUI/framework parity with macOS will be the real cliff.  
-- Impact: ARM devs on Linux (e.g., Apple Silicon with Asahi, SBCs) gain access to macOS-only toolchains and vendor CLIs.  
-- Watch next: performance benchmarks vs. native/VM, broader binary compatibility matrix, and any collaboration/contrast with Darling’s eventual ARM64 support.
+- View: The narrow compatibility slice is strategically sound: prove useful CLI binaries before attempting the API surface of desktop macOS.
+- Impact: Cross-platform projects could test Darwin command-line artifacts on cheaper Linux ARM capacity while retaining macOS runners for platform-bound stages.
+- Watch next: Add Git stability, versioned Darwin semantics, broader syscalls, correctness suites, reproducible performance, licensing boundaries, and comparisons with Darling.
