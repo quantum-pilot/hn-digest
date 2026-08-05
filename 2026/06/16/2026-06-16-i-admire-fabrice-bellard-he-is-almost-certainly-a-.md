@@ -4,9 +4,7 @@
 
 ### TL;DR
 
-The title-only post praises Fabrice Bellard as probably the stronger overall programmer. HN discussion focused less on ranking and more on Bellard’s repeated choice of difficult, broadly useful problems, including FFmpeg, QEMU, QuickJS, TinyC, telecom, and numerical work. Commenters argued his distinction lies in making hard capabilities simpler and building prototypes others maintain for careers. Debate centered on whether he mainly translates specifications into C or performs substantial algorithm design and reverse engineering; several warned that mythologizing elite programmers can obscure their concrete accomplishments.
-
-*Content unavailable; summarizing from title/comments.*
+John Carmack praises Fabrice Bellard as probably the stronger overall programmer. HN discussion focused less on ranking and more on Bellard’s repeated choice of difficult, broadly useful problems, including FFmpeg, QEMU, QuickJS, TinyC, telecom, and numerical work. Commenters argued his distinction lies in making hard capabilities simpler and building prototypes others maintain for careers. Debate centered on whether he mainly translates specifications into C or performs substantial algorithm design and reverse engineering; several warned that mythologizing elite programmers can obscure their concrete accomplishments.
 
 ### Comment pulse
 
