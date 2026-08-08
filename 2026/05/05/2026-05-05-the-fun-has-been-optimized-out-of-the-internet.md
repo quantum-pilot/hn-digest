@@ -3,18 +3,17 @@
 - Score: 297 | [HN](https://news.ycombinator.com/item?id=48022992) | Link: https://muddy.jprs.me/posts/2026-05-03-the-best-is-over/
 
 ### TL;DR
-The essay argues that the early web felt amateur, weird, and joyful—people made things out of boredom, obsession, or fun, not as “content” for algorithms. Today’s internet is centralized, relentlessly optimized, and commercial, so memes and videos feel placeless and dead-eyed, with AI merely inheriting an already hollowed-out ecosystem. HN commenters broadly agree the “fun” has been squeezed out, but debate how much is nostalgia, how much is economic/political rot, and how much can be fixed by choosing or building alternative spaces.
 
----
+The author contrasts Numa Numa’s spontaneous, amateur joy with today’s choreographed, algorithm-facing content, arguing that commercialization and platform optimization stripped online culture of particularity before AI slop arrived. Early Newgrounds, YouTube, forums, and social networks felt like places people made and shared things for curiosity or connection; centralized feeds now optimize passive consumption. HN split between structural and nostalgic explanations: critics noted every generation mourns its formative internet and niche alternatives still exist, while others argued network effects, advertising, surveillance, and centralized discovery genuinely hollowed out forums and slower communities.
 
 ### Comment pulse
-- The loss isn’t creativity itself but *sharing*: centralized, ad-driven platforms optimized for consumption killed small forums and human-scale connection—counterpoint: you can still seek out niche sites.  
-- Broader precarity (inequality, climate, surveillance, hate-filled platforms) creates a scarcity mindset; people commodify everything, making playful, unpaid experimentation feel risky or pointless.  
-- This is a recurring cycle: from AOL/CompuServe walled gardens to today’s platforms; disruption once came from the open web, so we may need a new “browser moment.”
 
----
+- Creating offline is not enough → the lost value was sharing odd projects with recognizable people at human social speed.
+- Central platforms optimize consumption and ads → faster feeds weaken durable relationships, while Reddit and Discord displaced independent forums.
+- Golden-age stories track youth → commenters recall similar complaints in 2000 — counterpoint: consolidation and commercial incentives are measurable structural changes.
 
 ### LLM perspective
-- View: AI didn’t break the social web; it accelerates an already productized, engagement-maximizing culture that treats human expression as training data.  
-- Impact: Indie communities, hobby forums, and personal sites become more valuable as refuges, but harder to discover without hostile platform gatekeepers.  
-- Watch next: Tools that bundle hosting, discovery, and small-community norms—plus regulation on surveillance ads—will determine whether “fun” escapes the current walled gardens.
+
+- **View:** Fun survives at the edges, but discovery determines whether edges become communities rather than isolated projects.
+- **Impact:** Creators trade broad reach for autonomy, intimacy, and slower growth outside dominant platforms.
+- **Watch next:** New discovery protocols, small-community sustainability, portable identity, moderation economics, and tools connecting independent sites.

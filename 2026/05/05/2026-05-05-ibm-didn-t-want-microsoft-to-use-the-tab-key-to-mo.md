@@ -3,18 +3,17 @@
 - Score: 283 | [HN](https://news.ycombinator.com/item?id=48025687) | Link: https://devblogs.microsoft.com/oldnewthing/20260505-00/?p=112298
 
 ### TL;DR
-During Microsoft’s collaboration with IBM on OS/2, a seemingly tiny UX choice—using the Tab key to move between dialog fields—exposed huge cultural and organizational differences. Microsoft empowered on-site engineers to decide and refused to escalate; IBM insisted on VP‑level sign‑off, despite already having internal standards that used Tab for field navigation. After the Microsoft engineer quipped that “Bill Gates’s mother is not interested in the Tab key,” the matter died and Tab won. HN commenters add IBM bureaucracy war stories and explore how overloaded keys like Tab/Enter still cause UX tension today.
 
----
+During Microsoft and IBM’s OS/2 collaboration, an IBM team objected to using Tab to move between dialog fields and asked Microsoft’s engineer to escalate. His manager said the engineer was in Boca Raton precisely to make such decisions, so the reply became “Microsoft supports” Tab. IBM then invoked a vice president seven layers above its programmers and requested an equivalent Microsoft authority. The engineer ended the exchange with a joke that Bill Gates’s mother was uninterested. Tab stayed, illustrating Microsoft’s delegated autonomy colliding with IBM’s deep escalation culture.
 
 ### Comment pulse
-- IBM bureaucracy is legendary → trivial issues (casual Fridays, hiring) escalated through many layers and across continents—counterpoint: some R&D sites were already quite informal in the 80s.  
-- IBM terminals (3270/5250) historically used Tab/Field‑Advance and Back‑Tab keys → this fight likely reflected Boca’s odd organizational isolation, even contradicting IBM’s own CUA standard.  
-- Key semantics remain messy → DOS used Enter to advance fields, GUIs/browsers overload Tab and Enter for both input and commands; users want a dedicated “move on” key.
 
----
+- Former employees traded stories of IBM requests climbing many layers for weeks — counterpoint: some IBM sites recalled informal, locally varied cultures.
+- Technical readers questioned the anecdote because 3270 terminals and IBM’s own interface standard already used Tab for field navigation.
+- Others defended the objection: overloading Tab as literal input and focus movement still creates conflicts in editors and forms.
 
 ### LLM perspective
-- View: The story shows how governance style, not just tech, determines whether tiny decisions become paralyzing or stay pragmatic.  
-- Impact: Cross‑company projects need explicit decision rights; otherwise, “who can approve this?” dominates over “what’s best for users?”.  
-- Watch next: Compare historical UI guidelines (CUA, Windows, web) to current frameworks’ keyboard defaults; refine conventions for accessibility and text‑vs‑command conflicts.
+
+- The durable lesson is decision-right alignment: escalation protocols should match the authority explicitly delegated to embedded engineers.
+- Historical anecdotes need product and date context; IBM keyboard behavior varied across terminal families and organizations.
+- Interface conventions often win through organizational process as much as usability analysis.

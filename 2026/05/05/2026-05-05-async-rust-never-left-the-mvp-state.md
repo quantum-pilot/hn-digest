@@ -2,26 +2,18 @@
 
 - Score: 421 | [HN](https://news.ycombinator.com/item?id=48019163) | Link: https://tweedegolf.nl/en/blog/237/async-rust-never-left-the-mvp-state
 
-## TL;DR
+### TL;DR
 
-The post dissects how Rust’s async/await transformation into state machines has barely been optimized since stabilization, causing MIR bloat, larger binaries, and missed performance, especially on embedded targets. The author shows that trivial futures still carry `Unresumed/Returned/Panicked` states and panicking branches that LLVM often cannot remove, and proposes compiler changes: optional non-panicking completed futures, skipping state machines for futures without `await`, inlining single-`await` async functions, and collapsing equivalent states. HN discussion focuses on Tokio’s dominance, async vs threads, and Rust’s reliance on panics.
+The author argues Rust’s async lowering still emits unnecessarily bulky state machines, especially painful on embedded targets. Even futures with no `await` keep Unresumed, Returned, and Panicked states; nested single-await futures are not inlined before LLVM; equivalent branch states remain duplicated; and post-completion panic paths inhibit optimization. Compiler experiments replacing the release-mode panic with `Pending` cut firmware size 2–5%, removing needless state machines saved 0.2%, and together improved a synthetic x86 benchmark about 3%. He seeks €30,000 to implement and benchmark four MIR-level optimizations. Discussion welcomed specifics despite the title.
 
----
+### Comment pulse
 
-## Comment pulse
+- Readers praised the compiler deep dive — counterpoint: several called “never left MVP” dramatic because measured trivial-case overhead is modest.
+- Executor agnosticism works from servers to Embassy microcontrollers, though Tokio’s de facto dominance worries some.
+- The model debate split by workload: compute-bound work favors threads; bandwidth-bound systems benefit from explicit scheduling.
 
-- Tokio monoculture concern → many server/web crates assume Tokio; executor-agnostic design takes discipline. — counterpoint: embedded and other domains use Embassy, smol, etc. successfully.  
+### LLM perspective
 
-- Async vs threads → async seen by some as overcomplicated; others argue OS threads are too heavyweight and poorly scheduled for massive I/O concurrency.  
-
-- Panics debate → some want a provable “no-panic” Rust subset to shrink binaries; others stress panics are memory-safe and crucial for ergonomics and invariants.
-
----
-
-## LLM perspective
-
-- View: Targeting MIR-level async optimizations is pragmatic; LLVM can’t reliably undo structural inefficiencies introduced upstream.  
-
-- Impact: Biggest wins for embedded, WASM, and high-concurrency servers where binary size and per-future overhead directly limit capacity.  
-
-- Watch next: rustc experiments behind flags, benchmarks on real services/firmware, and Rust Project Goal progress through RFCs and funding commitments.
+- MIR is the right layer because late LLVM passes lose async structure and cannot reliably collapse nested futures.
+- Embedded and WebAssembly users gain most; servers need realistic workload evidence before prioritizing compiler complexity.
+- Watch funding, semantic review of post-completion behavior, compile-time cost, and representative binary benchmarks.

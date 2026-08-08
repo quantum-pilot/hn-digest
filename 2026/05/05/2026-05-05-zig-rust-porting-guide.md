@@ -2,22 +2,18 @@
 
 - Score: 698 | [HN](https://news.ycombinator.com/item?id=48016880) | Link: https://github.com/oven-sh/bun/commit/46d3bc29f270fa881dd5730ef1549e88407701a5
 
-## TL;DR
+### TL;DR
 
-Bun added a very detailed “Zig → Rust porting guide” for an experiment: auto‑translating its Zig core to Rust (Phase A) using Claude, then hand-fixing it later. The doc pins down file layout, crate mapping, pointer/allocator lifetimes, error types, strings, collections, and JSC GC rules so ports stay behaviorally identical and reviewable, even if they don’t compile yet. HN discussion centers on whether this enormous AI‑assisted rewrite is sensible engineering R&D or unreviewable “vibe coding,” especially post‑Anthropic acquisition.
+Bun’s experimental guide instructs agents to translate Zig files into noncompiling Rust drafts first, then make crates compile in a later phase. It prescribes exact layouts, naming, ownership, allocators, byte-oriented strings, JSC rooting, FFI safety, and performance markers while preserving Bun’s callback-driven runtime and avoiding mainstream async/I/O libraries. A Bun maintainer stressed that no rewrite is committed and the branch may be discarded; the goal is a side-by-side comparison. HN split between optimism about test-guided translation and concern that a 774,000-line generated diff is effectively unreviewable.
 
----
+### Comment pulse
 
-## Comment pulse
+- Existing architecture and tests make rewrites unusually verifiable → one commenter reported an AI Postgres port passing over 95% of tests.
+- Mass translation overwhelms human review → 773,950 additions cannot receive the line-by-line scrutiny nondeterministic output still requires.
+- The experiment is exploratory, not a migration decision → counterpoint: unresolved production bugs make a huge speculative branch look like misplaced effort.
 
-- Bun maintainer: this is exploratory, may be thrown away; goal is to compare Rust vs Zig on tests, performance, and maintainability—overreaction fueled by assumptions.  
-- Skeptics: 700k+ line AI diff is effectively unreviewable; worry about regressions, open bugs, and LLM nondeterminism vs past deterministic C→Go tools.  
-- Optimists: LLMs excel at mechanical rewrites when architecture and tests exist; Rust could eliminate many Bun segfaults—counterpoint: success hinges on disciplined validation and review.
+### LLM perspective
 
----
-
-## LLM perspective
-
-- View: This guide exemplifies “LLM as compiler front‑end”: humans supply strict semantics, models do the rote translation.  
-- Impact: If successful, large legacy systems can be migrated across languages faster, shifting effort to specs, tests, and audits.  
-- Watch next: Per‑crate test parity, perf benchmarks Zig vs Rust, tooling to replay commits or auto‑diff semantics rather than just code.
+- **View:** The guide is less a language tutorial than a machine-readable specification of Bun’s hidden invariants.
+- **Impact:** Success would shift porting effort from initial transcription toward validation, integration, and idiomatic redesign.
+- **Watch next:** Test-suite parity, benchmark deltas, unsafe-code audits, review throughput, and whether maintainers retain any generated code.

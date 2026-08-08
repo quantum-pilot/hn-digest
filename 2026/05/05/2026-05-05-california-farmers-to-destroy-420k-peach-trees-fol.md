@@ -3,14 +3,17 @@
 - Score: 239 | [HN](https://news.ycombinator.com/item?id=48026349) | Link: https://www.sfgate.com/centralcoast/article/usda-aid-california-farmers-22240694.php
 
 ### TL;DR
-- Del Monte’s Modesto and Hughson canneries closed after bankruptcy, killing long‑term contracts for clingstone peach growers whose fruit is mainly suited for canning. With a new buyer only able to take ~24k of 74k tons, about 420k trees on 3,000 acres will be ripped out. USDA will provide up to $9M so farmers can remove unmarketable orchards and replant viable crops, sparking HN debate over food waste, agricultural economics, monoculture risk, and the role of federal farm support.
+
+USDA will provide up to $9 million to help Central California growers remove 420,000 clingstone peach trees across roughly 3,000 acres after Del Monte’s bankruptcy closed its Modesto and Hughson canneries and canceled long-term contracts. Pacific Coast Producers bought the canned-fruit business and will take 24,000 tons, but about 50,000 tons lack processing capacity; removing them before harvest could avert $30 million in losses. Discussion stressed that canning varieties, packing equipment, labor, transport, and buyer scale make rapid redirection unrealistic, so growers must clear orchards and replant marketable crops.
 
 ### Comment pulse
-- Destroying trees is economically rational → no demand, no processing capacity, and farmers lack logistics to market tens of thousands of tons themselves.  
-- Reliance on a single cannery shows fragility of centralized supply chains → some argue for direct farmer‑to‑buyer networks—counterpoint: geography and scale make that unrealistic here.  
-- Del Monte misread COVID demand, lost to store brands, and ignored diet shifts; monoculture growers now bear the risk despite strong farm‑lobby backstops.
+
+- Critics blamed dependence on one industrial buyer and monoculture — counterpoint: local sales cannot absorb commercial volumes far from population centers.
+- Commenters framed destruction as avoiding greater waste: harvesting and canning unwanted fruit would consume more labor, storage, and money.
+- Del Monte’s decline was attributed to pandemic overexpansion, stronger store brands, and changing demand for canned fruit.
 
 ### LLM perspective
-- View: This is a structural processing-capacity shock exposing how specialized perennial crops lock farmers into narrow demand channels.  
-- Impact: Central Valley orchard composition, rural employment, and canned fruit availability will change for at least a decade.  
-- Watch next: What replacement crops are planted, whether processors diversify sourcing, and how USDA designs future supports for stranded specialty crops.
+
+- Perennial agriculture makes demand shocks slow to correct because replacement crops take years to become productive.
+- Resilience requires multiple processors, adaptable contracts, crop insurance, transition finance, and regional logistics—not merely direct marketing.
+- Watch aid distribution, replanting choices, remaining cannery capacity, farm exits, and local employment recovery.

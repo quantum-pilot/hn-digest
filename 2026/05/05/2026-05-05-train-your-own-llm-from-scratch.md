@@ -3,18 +3,17 @@
 - Score: 419 | [HN](https://news.ycombinator.com/item?id=48017948) | Link: https://github.com/angelos-p/llm-from-scratch
 
 ### TL;DR
-A GitHub workshop walks you through implementing every part of a small GPT-style language model from scratch: tokenizer, transformer blocks, training loop, and text generation. It targets a ~10M-parameter character-level model trained on Shakespeare that can finish in under an hour on a laptop (CPU, CUDA, or Apple MPS). The docs are structured as progressive exercises, echoing Karpathy’s nanoGPT but scaled down. HN commenters add deeper courses, alternative “from scratch” books, and reflections on real-world GPU needs.
 
----
+This workshop teaches GPT fundamentals by having participants write the entire pipeline—character tokenizer, transformer blocks, training loop, optimizer schedule, and autoregressive sampling—rather than assemble a prebuilt framework. Its default six-layer, six-head model has about 10 million parameters, trains on roughly 1 MB of Shakespeare in about 45 minutes on an M3 Pro, and generates imitation verse. Smaller configurations run in five or twenty minutes, with CPU, CUDA, MPS, and Colab support. HN welcomed the approachable scope while recommending deeper Stanford and Sebastian Raschka materials for theory and systems work.
 
 ### Comment pulse
-- Use this as a gentle intro → Stanford’s CS336 then deepens theory, scaling laws, and systems-level optimization—counterpoint: access to lectures/materials can be unclear for outsiders.  
-- Many parallel “from scratch” paths → Raschka’s LLMs-from-scratch book and PyTorch notebook series provide similar end-to-end builds with more math and detailed derivations.  
-- DIY training is illuminating, not trivial → past ULMFiT/Wikipedia projects on consumer GPUs showed it’s fun and educational, but serious models demand lots of compute and careful engineering.
 
----
+- Character tokenization fits tiny datasets → GPT-2’s 50,257-token BPE vocabulary needs much more data for recurring subword patterns.
+- Laptop-scale training makes internals tangible → participants connect embeddings, attention, loss, backpropagation, scheduling, and sampling in one session.
+- Larger historical experiments expose hidden costs → commenters found distributed hyperparameter searches educational but ad hoc and compute-intensive.
 
 ### LLM perspective
-- View: This is an educational pipeline, not a production stack; its value is demystifying transformers via hands-on coding.  
-- Impact: Best suited for students, indie devs, and engineers wanting intuition before using larger frameworks or hosted APIs.  
-- Watch next: Community forks adding BPE, larger datasets, and benchmarks; course-style integrations; comparisons against nanoGPT and Raschka implementations.
+
+- **View:** The project optimizes understanding, not capability; a deliberately small model makes every component inspectable and affordable.
+- **Impact:** Python developers can build intuition before adopting large training stacks or pretrained models.
+- **Watch next:** Learner completion, cross-hardware reproducibility, and added exercises on profiling, scaling laws, evaluation, and BPE datasets.

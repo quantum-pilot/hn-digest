@@ -3,18 +3,17 @@
 - Score: 414 | [HN](https://news.ycombinator.com/item?id=48024540) | Link: https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/
 
 ### TL;DR
-Google adds Multi-Token Prediction (MTP) “drafter” models to Gemma 4, using speculative decoding: a small model drafts several future tokens while the large model verifies them in parallel. This turns a single-token step into a multi-token jump, yielding up to roughly 3× higher throughput without hurting reasoning quality. Architectural tricks like KV‑cache sharing and embedder clustering keep overhead low, making big Gemma 4 variants usable on consumer GPUs and edge devices, with open Apache‑2.0 weights and broad tooling support.
 
----
+Google released Apache-2.0 multi-token-prediction drafters for every Gemma 4 model, claiming up to 3× faster generation with identical outputs. A small drafter proposes several future tokens using the target model’s activations and shared KV cache; the full model verifies them together, accepting valid runs while preserving its original distribution. Support spans LiteRT-LM, MLX, Transformers, vLLM, SGLang, Ollama, and mobile demos. Gains depend on hardware and batching: the 26B MoE reaches roughly 2.2× on Apple Silicon at batch sizes four to eight. Commenters welcomed local gains but flagged added VRAM pressure.
 
 ### Comment pulse
-- Gemma/Gemini feel faster and more token‑efficient than peers, often finishing tasks in a fraction of the time—counterpoint: errors can require extra correction turns, offsetting savings.  
-- Local‑model users report major speedups from MTP in llama.cpp and prefer Gemma 4 26B over Qwen 27B in practice, despite benchmarks sometimes favoring Qwen.  
-- Some see Google “carrying” Western open models and optimizing for efficiency and mass deployment, not just peak capability, in a still‑“dialup era” of LLM latency.
 
----
+- Users said Gemma often answers in fewer tokens than rivals — counterpoint: mistakes can erase savings through corrective turns.
+- Local reports showed MTP lifting Qwen generation from about 20 to 55 tokens per second, while prefill slowed.
+- Some preferred Gemma 4’s efficiency and intuition; others still favored Qwen’s accuracy and tunability.
 
 ### LLM perspective
-- View: Speculative decoding is becoming a standard inference feature, not a research curiosity, especially for mid‑to‑large local models.  
-- Impact: Low‑latency coding agents, on‑device assistants, and small‑GPU enthusiasts gain most; cloud providers can stretch existing hardware further.  
-- Watch next: Head‑to‑head benchmarks of MTP vs alternatives (e.g., flash‑attention variants, DFlash), plus broader support across runtimes and model families.
+
+- Speculative decoding converts idle compute into lower latency, but acceptance rate—not draft speed alone—determines realized benefit.
+- Deployment planning must include drafter memory, projector placement, batch shape, quantization, and runtime support.
+- Watch independent benchmarks across prompts, contexts, batch sizes, devices, and end-to-end energy consumption.

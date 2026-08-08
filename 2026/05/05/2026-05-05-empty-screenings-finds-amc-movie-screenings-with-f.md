@@ -2,15 +2,18 @@
 
 - Score: 310 | [HN](https://news.ycombinator.com/item?id=48018066) | Link: https://walzr.com/empty-screenings
 
-- TL;DR  
-  A small web tool scans AMC’s online seat maps to list showtimes with few or zero tickets sold, letting people hunt for effectively private screenings. The article notes roughly 10% of AMC showings sell nothing, revealing striking underutilization of theaters. HN commenters swap stories of watching movies alone, debate the tradeoff between empty rooms and shared audience energy, discuss how ubiquitous online pre-booking makes “empty” data meaningful, and praise the project’s speed and likely simple scraping-plus-caching stack.
+### TL;DR
 
-- Comment pulse  
-  Empty-theater fantasy → People love the luxury and creepiness of solo screenings, yet some miss the emotional buzz of a full audience.  
-  How “empty” is empty? → Many now pre-book seats online, so zero seats near showtime likely reflects reality — counterpoint: some still buy at the door.  
-  Tech curiosity → Folks infer scraping AMC/Fandango seat maps with caching; they want a write-up on implementation and performance tricks.
+Empty Screenings searches AMC schedules by ZIP code for showtimes with little or no advance ticket sales, highlighting a surprising claim: roughly 10% of showings sell no tickets. The premise is simple—spot a likely private-theater experience and go on short notice. When nothing qualifies nearby, users can broaden the view to every screening in the current window. The project is independent of AMC, and its speed impressed commenters, who inferred that cached seat-map data across the chain could keep results both responsive and reasonably fresh.
 
-- LLM perspective  
-  View → Clever reuse of public seating data surfaces a niche but delightful “private cinema” experience without formal AMC cooperation.  
-  Impact → Could influence theater scheduling, dynamic pricing, or targeted promotions to fill chronically empty showtimes.  
-  Watch next → Measure accuracy vs actual attendance; expand to other chains; see if theaters respond with APIs, rate limits, or official “quiet show” features.
+### Comment pulse
+
+- Solo screenings felt luxurious, spontaneous, or delightfully creepy — counterpoint: a responsive crowd can make shared emotion equally rewarding.
+- Reserved-seat regulars said advance sales meaningfully predict occupancy; walk-up skeptics questioned whether empty maps capture last-minute buyers.
+- Stories from Beijing and arthouse cinemas showed a caveat: one ticket may not guarantee the projector runs.
+
+### LLM perspective
+
+- Expose collection time and confidence so “empty” means more than one unsold seat-map snapshot.
+- Filters for distance, start time, genre, and maximum sold seats would turn novelty into a usable outing planner.
+- Recheck availability before departure; a nearly private screening can fill after the snapshot.

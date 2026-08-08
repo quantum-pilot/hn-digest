@@ -2,16 +2,18 @@
 
 - Score: 238 | [HN](https://news.ycombinator.com/item?id=48021368) | Link: https://twitter.com/brian_armstrong/status/2051616759145185723
 
-- TL;DR  
-    - Coinbase is cutting ~14% of staff and reorganizing around a leaner, AI-centric structure: no “pure managers,” bigger spans of control, and tiny “AI‑native” pods, including solo hybrid roles combining engineering, design, and product. Commenters see AI as branding over a crypto bear-market cost cut, question whether 15+ direct reports and one-person teams are workable, and worry about dehumanizing language, “network state” ambitions, and possible age-discrimination embedded in “AI-native” hiring.  
-    *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-    - Crypto critics frame Coinbase as a “neo-feudal” venture; Armstrong’s network-state interests and stories of staff as “biological units” deepen fears of worker disposability.  
-    - Practitioners say “player-coach” leaders and 15+ reports make real management impossible; solo pods jeopardize continuity when that all-in-one contributor departs.  
-    - Some tie timing to looming weak earnings and EPS trends; “AI-native talent” language sparks age-bias concerns—counterpoint: AI fluency depends on mindset, not birth year.
+Coinbase is cutting 14% of staff, citing a crypto downturn and AI-enabled productivity. Brian Armstrong says the company will cap hierarchy at five layers below CEO/COO, give some leaders 15-plus reports, eliminate pure managers, and test AI-native pods—including one-person teams combining engineering, design, and product. US departures receive at least 16 weeks’ pay, two extra weeks per year served, the next equity vest, and six months of COBRA. HN doubted AI was the primary cause, pointing instead to lower trading revenue, and warned the proposed structure concentrates workload and knowledge.
 
-- LLM perspective  
-    - View: AI narratives are becoming a corporate license to freeze headcount high, shrink management, and normalize extreme individual workload.  
-    - Impact: Middle managers and broad-skilled ICs face heavier scopes, weaker support, and faster institutional knowledge loss.  
-    - Watch next: Coinbase’s output vs. burnout, attrition in one-person teams, any discrimination cases, and whether other exchanges adopt similar AI-native org patterns.
+### Comment pulse
+
+- Fifteen direct reports dilute coaching and evaluation → managers may become nominal coordinators without enough context to support individuals.
+- One-person multidisciplinary pods reduce handoffs → they also create key-person risk when the sole operator leaves or cannot maintain generated systems.
+- AI can expand individual output → executives frame layoffs as redesign — counterpoint: Coinbase itself listed the crypto down market first.
+
+### LLM perspective
+
+- **View:** This is an organizational experiment whose success requires outcome evidence, not anecdotes about generated code.
+- **Impact:** Remaining employees inherit broader roles, weaker specialization, and potentially higher coordination and accountability burdens.
+- **Watch next:** Delivery, incidents, attrition, manager load, product quality, earnings, and whether headcount rebounds after the cycle.

@@ -3,18 +3,17 @@
 - Score: 1205 | [HN](https://news.ycombinator.com/item?id=48019219) | Link: https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/
 
 ### TL;DR
-Chrome now downloads a ~4 GB Gemini Nano AI model (`weights.bin` in `OptGuideOnDeviceModel`) onto eligible desktops, often silently and per user profile. Deleting it usually triggers a re-download unless hidden flags or enterprise policies are used. The article argues this violates EU ePrivacy/GDPR rules on consent and transparency, and estimates 6k–60k tonnes CO₂e for one global push, plus real costs for metered users. HN discussion splits between “it’s just an update” and concerns over consent, bloat, bandwidth, and admin pain.
 
----
+Alexander Hanff reports that an untouched Chrome profile downloaded Gemini Nano weights into `OptGuideOnDeviceModel`: roughly 4 GB, installed in the background, with deletion followed by re-download unless AI flags or policy disable it. Filesystem events, Chrome state, feature flags, and updater logs form his evidence chain. He argues the default violates European consent and transparency rules and estimates one global rollout could emit 6,000–60,000 tonnes CO2e, depending on eligible devices. His remedy is explicit opt-in, download-on-first-use, visible model management, persistent removal, and published deployment impact.
 
 ### Comment pulse
-- It’s just part of Chrome → installing extra components is covered by agreeing to auto‑updates—counterpoint: 4 GB and AI/privacy implications aren’t comparable to a dictionary file.  
-- Silent AI weights + Prompt/Summarizer APIs → any site can trigger multi‑GB model downloads; bad for metered links, per‑user installs, and surveillance/btc‑miner analogies.  
-- Sysadmin view → per‑user 4 GB on NFS and lab PCs is disastrous; want system‑wide install or to block Chrome entirely in managed environments.
 
----
+- Critics saw unrequested 4 GB as materially different from routine browser updates — counterpoint: installing Chrome and accepting updates may cover bundled features.
+- Sysadmins highlighted per-user storage amplification: thousands of profiles can turn one model into terabytes and repeated lab downloads.
+- Others noted metered connections, while some users could not find the file, suggesting rollout or eligibility differences.
 
 ### LLM perspective
-- View: On‑device models in mainstream browsers are inevitable; the real issue is UX and governance, not the technology itself.  
-- Impact: Enterprises, schools, and metered‑access users will push back hardest, driving policies, forks, or bans on default Chrome.  
-- Watch next: Chrome release notes and admin templates, regulator responses in EU/UK, and whether competitors market “no forced AI downloads.”
+
+- Verify actual deployment counts and transfer energy before treating the emissions bands as measured impact.
+- A system-wide cache could reduce institutional duplication, but explicit controls should govern download, removal, and webpage access.
+- Separate local-model settings from cloud AI surfaces; shared branding can obscure where prompts are processed.

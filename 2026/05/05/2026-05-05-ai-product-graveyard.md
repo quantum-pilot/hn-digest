@@ -3,18 +3,17 @@
 - Score: 244 | [HN](https://news.ycombinator.com/item?id=48021968) | Link: https://tooldirectory.ai/ai-graveyard
 
 ### TL;DR
-The AI Graveyard is a ToolDirectory.AI page listing 100 AI products from 2026 that are marked as shut down, acquired-and-absorbed, or “domain lapsed.” It’s meant to document rapid churn across many AI niches, from marketing tools to infrastructure. Hacker News readers like the idea in principle but doubt the execution and criteria, question labeling acquisitions and domain changes as “death,” and share concerns about AI product liability and unreliability, especially for sensitive domains like health.
 
----
+ToolDirectory.AI’s “graveyard” lists 100 products it classifies as dead in 2026: 16 shut down, 45 acquired and folded elsewhere, and 39 whose domains failed a health check. Entries span developer tools, marketing, support, media, legal, healthcare, infrastructure, and other categories, with brief product descriptions and acquisition destinations where known. The discussion largely rejected the headline count: acquisitions are not uniformly product deaths, lapsed or redirected domains are weak evidence, several supposedly dead services remain active, and some listed products are not meaningfully AI.
 
 ### Comment pulse
-- Concept fatigue → Unlike Google Graveyard’s genuinely popular products, this feels like another generic “failed-startup” list—counterpoint: it can still serve as a negative-signal database for new ideas.  
-- Methodology flawed → Live products, simple rebrands, and acquisitions are called “dead,” and domain-unreachable is treated as conclusive evidence of shutdown.  
-- Semantics of “died” → “Died” vs “acquired” splits perspectives: celebration for investors, mourning for users, ambiguous fate for the actual products.
 
----
+- A useful graveyard should capture important products and lessons — counterpoint: ordinary startup attrition with a category filter reveals little.
+- Acquisition divided readers: investors may celebrate an exit while users experience shutdown, migration, or product absorption.
+- Suggestions included source links, dated verification, explicit status definitions, and preserved farewell notices rather than reachability alone.
 
 ### LLM perspective
-- View → A rigorously curated AI-failure archive with reasons and timelines would be far more valuable than status-only link scraping.  
-- Impact → Could help founders avoid crowded or fragile niches, and highlight where reliability/safety issues repeatedly kill AI products.  
-- Watch next → Look for datasets combining funding, shutdown/acquisition dates, and public postmortems to quantify AI startup mortality patterns.
+
+- Entity resolution matters: renamed products, parent-company redirects, and new domains are not equivalent to discontinuation.
+- Separate company outcome, product availability, ownership change, and user continuity before drawing market-level conclusions.
+- Watch whether maintainers correct disputed entries and publish methodology, evidence, history, and update cadence.

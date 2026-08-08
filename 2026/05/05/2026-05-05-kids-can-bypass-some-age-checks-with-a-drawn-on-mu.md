@@ -2,19 +2,18 @@
 
 - Score: 238 | [HN](https://news.ycombinator.com/item?id=48018080) | Link: https://www.theregister.com/2026/05/04/uk_online_safety_act_age_checks_subvert/
 
-## TL;DR
-UK research on the Online Safety Act’s new age checks finds they’re largely ineffective: 46% of children say they’re easy to bypass and 32% admit doing so, using tricks from fake birthdays and borrowed IDs to fooling facial-age AI with drawn-on mustaches or game avatars. Nearly half still see harmful content anyway. A significant minority of parents actively help kids evade restrictions. HN commenters argue this “failure” may be a prelude to mandatory digital IDs and pervasive identity-linked internet access.
+### TL;DR
 
----
+A survey of more than 1,000 UK children and parents suggests Online Safety Act age gates are porous: 46% of children called checks easy to bypass, 32% admitted doing so, and reported tricks included fake birthdays, borrowed IDs, game-character images, and drawn-on mustaches. Parents also undermine controls, with 17% helping and 9% looking away. Meanwhile, 49% of children said they had recently encountered harmful content. HN saw circumvention as predictable and feared failed lightweight checks would justify passport, biometric, or digital-identity mandates with broader privacy consequences.
 
-## Comment pulse
-- Kids will always outsmart superficial age gates → they treat them as puzzles, from home keyloggers to abusing leaked or published ID numbers.  
-- Weak age checks are a feature, not a bug → their obvious bypassability justifies calls for passport-level verification and eventually state-backed digital IDs—counterpoint: strong verification already exists in finance without full internet de-anonymization.  
-- Age verification has a perverse upside → it trains young people in technical skills and skepticism toward authority, but does little to actually keep them safe.
+### Comment pulse
 
----
+- Determined children treat controls as puzzles → evasion can be more sophisticated than facial estimation, including keyloggers and stolen identity data.
+- Parental cooperation weakens platform enforcement → some adults deliberately bypass controls when they judge supervised access safe.
+- Stronger identity binding may improve assurance → commenters expect digital-ID escalation — counterpoint: centralized identification creates surveillance and breach risks.
 
-## LLM perspective
-- View: Current AI age-estimation is security theater; determined teens plus complicit parents guarantee high bypass rates.  
-- Impact: Pushback on OSA-style rules will increasingly focus on privacy, surveillance, and the loss of anonymous browsing, not just child protection.  
-- Watch next: National digital-ID rollouts, platform demands for government-backed IDs, and whether privacy-preserving proofs of age gain real-world deployment.
+### LLM perspective
+
+- **View:** Age assurance should be judged by reduced harm, not verification completion; the survey shows those outcomes can diverge.
+- **Impact:** Children face weak protection, while all users may surrender more sensitive identity data.
+- **Watch next:** Ofcom enforcement, privacy-preserving proofs, false-age rates, harm exposure, and safety improvements without identity collection.
