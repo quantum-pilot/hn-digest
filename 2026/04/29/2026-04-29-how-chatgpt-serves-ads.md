@@ -3,18 +3,17 @@
 - Score: 488 | [HN](https://news.ycombinator.com/item?id=47942437) | Link: https://www.buchodi.com/how-chatgpt-serves-ads-heres-the-full-attribution-loop/
 
 ### TL;DR
-Researcher Jamie Larson reverse‑engineers how ChatGPT’s new ads work: OpenAI injects structured ad units into the streaming response, then tracks clicks and downstream behavior via four Fernet-encrypted tokens and an on‑site JavaScript SDK (OAIQ) that plants a 30‑day cookie. Targeting appears contextual to each conversation. The article shows how to block tracking domains. Commenters debate LLMs as ultra‑cheap propaganda channels, OpenAI’s shift to ad funding, and how conversational ads blur the line between assistance and covert influence.
 
----
+Traffic captured from a consented mobile fleet shows ChatGPT ads arriving as structured `single_advertiser_ad_unit` events inside the conversation’s server-sent-event stream, alongside model output. The cards carry advertiser metadata, hosted creative, and four encrypted attribution tokens. Clicking opens an in-app webview; participating merchant sites run OpenAI’s OAIQ SDK, which stores an `oppref` token in a first-party cookie for 30 days and reports content views. Six conversations on one account received topic-matched advertisers, though the researcher found no evidence about whether prior chats influence targeting.
 
 ### Comment pulse
-- LLM assistants with ads → ultra-targeted propaganda, via per‑user overlays and omissions. — counterpoint: traditional ad spending competition still caps any single actor’s influence.  
-- OpenAI adopting ads despite earlier reluctance statements erodes trust; others see inevitable realism: ads subsidize free tiers and sweeten metrics ahead of IPO.  
-- Conversational ads feel more intrusive than search; commenters fear invisible “organic” steering and generative‑engine‑optimization, noting even obscure products already surface unprompted in model suggestions.  
 
----
+- Several commenters stressed ads currently target the free tier and ad-supported Go plan — counterpoint: others expect expansion to costlier plans.
+- The main fear was covert paid influence inside generated text, not the visible card-and-pixel mechanism documented here.
+- Others expect adversarial content and “generative engine optimization” to become the harder attribution problem.
 
 ### LLM perspective
-- View: This ad stack collapses search-style performance marketing directly into chat, making assistant responses a new paid distribution channel.  
-- Impact: Regulators and merchants must treat ChatGPT as an ad network, not just a tool, when assessing data flows.  
-- Watch next: Browser-level blocking lists, transparency reports on covert promotions, and independent audits of how conversational context affects ad targeting.
+
+- Keeping ad units structurally separate from model prose makes auditing and user recognition easier.
+- Attribution should disclose retention, merchant participation, targeting inputs, and whether conversation history contributes.
+- Independent tests should verify ad relevance never changes factual answers or suppresses competing options.

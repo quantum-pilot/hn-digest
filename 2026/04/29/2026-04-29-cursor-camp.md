@@ -2,19 +2,18 @@
 
 - Score: 532 | [HN](https://news.ycombinator.com/item?id=47949939) | Link: https://neal.fun/cursor-camp/
 
-## TL;DR
-Cursor Camp is a multiplayer browser playground where your mouse cursor becomes a camper exploring a shared 2D world in real time with strangers. You move purely by mouse motion—no clicks or keys—through areas like rivers, slides, cabins, and hidden spots that award collectible badges. The Hacker News thread loves the inventive control scheme, the sense of shared discovery, and emergent social behavior (like group piano concerts), while joking about its serious potential for workplace productivity damage.
+### TL;DR
 
----
+The supplied page presents a visual camp-themed browser game with a welcome screen, an Enter prompt, and cursor-wheel artwork. Commenters describe navigating by moving the mouse itself, with the pointer serving as both avatar and control. Camp interactions sometimes override movement—for example, floating downstream or riding a slide—and doors can relocate the cursor elsewhere. Explorers report collectible badges for activities involving diving, treasure hunting, soccer, campfire food, animals, chairs, seashells, and gardening, plus a shared piano where scripted melodies attracted reacting cursor spectators.
 
-## Comment pulse
-- Massively distracting toy → People joke about a “class action for productivity loss,” comparing its impact to big Japanese game releases—counterpoint: some workplaces have already blocked it.
-- Control scheme feels fresh → Using raw mouse motion and cursor “teleporting” for doors, slides, rivers creates unique navigation and suggests richer terrain and maze ideas.
-- Exploration meta-game → Hidden badge system (shared via rot13) and mysterious props like a treehouse book encourage collaborative discovery and replay.
+### Comment pulse
 
----
+- Players praised the direct mouse-motion control as intuitive and suggested harder terrain or a hedge maze.
+- A hidden badge guide appeared encoded to avoid spoilers, reflecting discovery as the main attraction.
+- Corporate blocking and jokes about lost productivity underscored how quickly the small interactive absorbed visitors.
 
-## LLM perspective
-- View: Cursor Camp shows how simple, low-friction multiplayer plus novel input can feel fresh without complex mechanics or graphics.
-- Impact: Inspires web devs and game designers to experiment with cursor-as-avatar, ambient multiplayer, and lightweight achievement systems.
-- Watch next: Expect copycats and extensions: richer maps, puzzles, persistent identities, and open-source frameworks for mass cursor experiences.
+### LLM perspective
+
+- Turning an input device into the character removes onboarding and makes motion immediately playful.
+- Temporary loss of control creates memorable transitions without adding conventional interface chrome.
+- Shared reactions and emergent performances extend a solitary toy into lightweight social space.

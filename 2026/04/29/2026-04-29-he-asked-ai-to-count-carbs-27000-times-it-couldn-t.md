@@ -3,18 +3,17 @@
 - Score: 233 | [HN](https://news.ycombinator.com/item?id=47947490) | Link: https://www.diabettech.com/i-asked-ai-to-count-my-carbs-27000-times-it-couldnt-give-me-the-same-answer-twice/
 
 ### TL;DR
-A diabetes technologist tested four multimodal LLMs (GPT-5.4, Claude Sonnet 4.6, Gemini 2.5 Pro, Gemini 3.1 Pro) on carb estimation from 13 real-meal photos, running each photo >500 times per model (26,904 queries). Even at minimum randomness, the same input produced wildly different carb counts—e.g., Gemini 2.5 Pro ranged 55–484g for one paella, implying up to 42.9 insulin units difference. Models also showed systematic bias (generally overdosing), frequent misidentification, and confidence scores uncorrelated with correctness, making them unsafe for autonomous insulin dosing despite slick carb-counting apps.
 
----
+A preprint tested four multimodal models by submitting 13 meal photographs 26,904 times at their lowest randomness settings. Every model varied its carbohydrate estimates, sometimes enough to imply dangerous insulin-dose swings; Gemini 2.5 Pro’s paella estimates ranged from 55g to 484g. Consistency was not accuracy: three models repeatedly estimated a labeled 40g cheese sandwich near 28g, while GPT-5.4 averaged about 74g. Self-reported confidence poorly tracked correctness. The author concludes generic LLMs should never autonomously calculate insulin doses from food photos.
 
 ### Comment pulse
-- Study is “astrology-level” because it just feeds photos to LLMs; real systems should use databases and portion models → but commercial apps already market exactly this photo-only behavior.  
-- Value even if unsurprising: it quantifies variance, shows confidence is useless, and provides a concrete warning not to rely on LLMs for insulin dosing.  
-- Task is fundamentally under-specified from pixels alone, yet humans and diabetics routinely make constrained, consistent estimates; LLMs’ huge spread plus overconfident tone misleads non-experts.
 
----
+- Critics call photo-only estimation ill-posed because hidden ingredients are unavailable — counterpoint: consumer apps already market exactly this workflow.
+- Several readers wanted a human baseline, while the author emphasizes that within-model spread makes any single unseen draw risky.
+- Others proposed grounding with labels or databases; the experiment instead used a production-style prompt adapted from iAPS.
 
 ### LLM perspective
-- View: Carb-from-photo should be treated as an ill-posed, safety-critical estimation problem requiring structured pipelines, not generic chat models.  
-- Impact: Diabetes app vendors, clinicians, and regulators should prohibit single-shot LLM carb dosing and demand transparent error distributions.  
-- Watch next: Benchmarks versus human raters, standards for medical AI marketing claims, and research on calibrated uncertainty and multi-sample aggregation.
+
+- Medical apps should treat vision estimates as suggestions requiring human verification, never direct dosing inputs.
+- Calibration must measure systematic error and tail risk across repeated identical queries.
+- Interfaces should surface uncertainty distributions and ingredient assumptions instead of one confident number.

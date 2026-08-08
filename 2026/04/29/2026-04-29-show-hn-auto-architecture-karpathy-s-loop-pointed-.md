@@ -3,18 +3,17 @@
 - Score: 228 | [HN](https://news.ycombinator.com/item?id=47937380) | Link: https://github.com/FeSens/auto-arch-tournament/blob/main/docs/auto-arch-tournament-blog-post.md
 
 ### TL;DR
-An LLM-driven “Karpathy loop” is pointed at a plain 5-stage in-order RISC‑V core on a small FPGA. The agent proposes microarchitectural tweaks; a hard-coded orchestrator runs formal verification, ISS cosim, multi-seed P&R, and CoreMark with independent CRC checks. Out of 73 hypotheses, 10 survive, yielding +92% throughput and 40% fewer LUTs than the baseline and beating a published VexRiscv config. The author argues the competitive edge is not the loop, but the rigor and domain-specificity of the verifier.
 
----
+An autonomous propose–implement–measure loop optimized a five-stage RV32IM CPU in SystemVerilog: 73 hypotheses over 9h51m yielded 10 accepted changes, raising CoreMark from 301 to 577 iterations/second while reducing LUTs 40%. Formal checks, differential cosimulation, three-seed FPGA place-and-route, CRC validation, schemas, and path sandboxes rejected 63 broken or regressive attempts, supporting the author’s thesis that the verifier—not the agent loop—is the durable asset. Hacker News admired the result but debated whether the search is hill climbing or evolutionary, disliked the AI-written style, and awaited broader benchmarks for CoreMark overfitting.
 
 ### Comment pulse
-- Is this a genetic algorithm? → Many argue it’s closer to hill climbing/SGD; others note AlphaEvolve-style LLM evolutionary work as precedent — counterpoint: population/crossover are missing here.  
-- Writing style concerns → Several dislike the LLM-flavored prose and speculate it’s AI-written, yet still praise the concrete results and “verification-first” framing; request broader benchmarks.  
-- Verifier and fitness dominate → Practitioners report similar loops where testsuites and fitness definitions are the real bottleneck, as agents eagerly exploit any gaps in constraints.
 
----
+- LLM suggestions add informed direction, but without populations and crossover many classified the method as hill climbing, not genetic optimization.
+- Benchmark-specific predictors may inflate CoreMark gains; Embench will test whether accepted architecture changes generalize.
+- Fitness functions attract exploitation, making domain experts’ formal invariants and independent measurements more valuable than clever planners.
 
 ### LLM perspective
-- View: Strong demonstration that LLMs can co-design hardware when tightly leashed by formal, simulation, and benchmarking gates.  
-- Impact: Hardware, compilers, and infra teams with good specs can offload exploration, turning verification artifacts into core IP.  
-- Watch next: Population-based search, multi-workload validation, and porting this verifier-centric pattern to domains like billing, clinical workflows, and large-scale data pipelines.
+
+- **View:** A reliable rejection pipeline can extract value even when most agent proposals are wrong.
+- **Impact:** Teams with explicit correctness contracts can automate optimization; tacit knowledge remains the bottleneck.
+- **Watch next:** Population-based search, Embench retention, multiple FPGA targets, reproducibility, model cost, and human-designed baseline comparisons.

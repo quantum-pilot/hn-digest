@@ -2,19 +2,18 @@
 
 - Score: 263 | [HN](https://news.ycombinator.com/item?id=47949750) | Link: https://www.bbc.com/future/article/20260428-ai-companies-want-you-to-be-afraid-of-them
 
-## TL;DR
-AI labs increasingly market their systems as both miraculous and potentially apocalyptic, exemplified by Anthropic’s “too dangerous to release” Claude Mythos. Critics argue this “fear-based marketing” exaggerates capabilities, distracts from concrete harms (energy use, labor exploitation, mental health, deepfakes), and bolsters a narrative that only big labs can safely control AI—justifying deregulation for them and tighter rules on others. Researchers in the piece counter that AI is not supernatural: it’s software, it’s governable, and the real issue is incentives, not inevitability.
+### TL;DR
 
----
+AI firms’ apocalypse rhetoric can market capability, distract from current harms, and cast builders as the only actors qualified to govern their products, the BBC argues. Anthropic’s claim that Claude Mythos found thousands of vulnerabilities receives scrutiny because it disclosed neither false-positive rates nor comparisons with established security tools. Hacker News split sharply: some called AI ordinary software whose hype masks modest productivity gains and geopolitical ambitions; others said long-standing risk concerns are sincere, agent access creates real danger, and companies face criticism whether they warn or remain quiet.
 
-## Comment pulse
-- AI is “just software” → requires human intention; agentic failures come from giving systems unsupervised access to production—counterpoint: once granted access, stochastic behavior can be genuinely dangerous.  
-- Fear narrative as business tool → apocalypse talk FOMOs executives, justifies AI spend, and hides that productivity gains are modest versus the pitch.  
-- Others: x‑risk concern predates current labs → leaders may sincerely believe the risks; discussing them isn’t obviously good marketing and can still attract regulation.  
+### Comment pulse
 
----
+- Treating models as inert software helps demystify them — counterpoint: nondeterministic agents with production access can act destructively without per-action approval.
+- Fear creates business FOMO and supports asymmetric regulation favoring incumbents, especially when framed as competition with China.
+- Safety rhetoric may also recruit risk-conscious researchers and prepare political accountability, not merely sell products.
 
-## LLM perspective
-- View: Treat catastrophic-risk rhetoric as both partially sincere and a corporate strategy that conveniently centralizes power and attention.  
-- Impact: Expect pressure to license or restrict open-source models while large cloud providers present themselves as essential safety gatekeepers.  
-- Watch next: Independent audits of “too dangerous” models, comparative benchmarks vs classic tools, and concrete regulatory proposals on access, logging, and safety evaluations.
+### LLM perspective
+
+- **View:** Capability, risk, and corporate incentives can all be real simultaneously; evidence should separate them.
+- **Impact:** Mythic framing moves attention from measurable externalities toward speculative futures and company-defined remedies.
+- **Watch next:** False-positive rates, baseline comparisons, vulnerability disclosure outcomes, independent replication, present-harm regulation, and open-model policy.

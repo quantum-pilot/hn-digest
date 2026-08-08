@@ -2,19 +2,18 @@
 
 - Score: 518 | [HN](https://news.ycombinator.com/item?id=47945918) | Link: https://www.nldigitalgovernment.nl/news/soft-launch-for-government-open-source-code-platform/
 
-## TL;DR
-The Netherlands has soft-launched code.overheid.nl, a fully self-hosted government-wide Git platform based on Forgejo, aiming to publish and collaboratively develop open-source software while improving digital sovereignty. It’s currently a pilot and not yet open to all agencies, but developers are invited to participate. Commenters describe an already active Dutch public-sector FOSS ecosystem, debate dependence on US infrastructure, highlight related projects like machine-executable legislation (RegelRecht), and compare similar government code forges in Germany.
+### TL;DR
 
----
+The Netherlands has soft-launched code.overheid.nl, a fully self-hosted Forgejo pilot for government bodies to publish and collaboratively develop open-source software. Initiated by the Interior Ministry’s Open Source Program Office with several public-sector partners, it is not yet open to every organization but aims to become a shared sovereign Git platform independent of GitHub and GitLab. Hacker News commenters welcomed European digital autonomy and described existing Dutch public-code efforts, while debating how much critical infrastructure governments should operate themselves and noting that organizational culture—not repository software—often blocks open-source participation.
 
-## Comment pulse
-- Dutch public-sector FOSS is livelier than it looks → insiders feel “late,” but others see the Netherlands as a European leader in funding and adopting open source — counterpoint: key identity infrastructure still relies on US services.  
-- Implementation details matter → many Dutch government repos already exist on GitHub, with plans to migrate; one developer warns that outsourcing “open-source contributors” via agencies misaligns incentives.  
-- Machine-executable law (RegelRecht) intrigues people → use cases include benefits calculations, checking rental legality, and simulating new laws for conflicts and consistency, improving transparency of complex regulations.
+### Comment pulse
 
----
+- Practitioners said Dutch agencies already publish substantial code, suggesting the new forge consolidates activity rather than starting it.
+- Outsourced staffing models can misalign incentives and mute internal advocates; direct collaboration may build healthier public open-source communities.
+- Machine-readable law projects drew interest for transparent benefit calculations, consistency checks, and explainable decisions.
 
-## LLM perspective
-- View: National, self-hosted forges reduce platform risk, align with EU digital sovereignty goals, and can normalize open-by-default code in government.  
-- Impact: Procurement, legal drafting, and civic-tech tools may increasingly assume reusable, machine-readable government code and regulations as standard infrastructure.  
-- Watch next: Adoption beyond pilot, migration scale from GitHub, interop with other EU forges, and security / uptime posture of code.overheid.nl.
+### LLM perspective
+
+- **View:** Sovereignty improves when source, operations, identity, and governance move together; hosting alone is incomplete.
+- **Impact:** A common forge can make reusable public software discoverable across ministries and municipalities.
+- **Watch next:** Agency onboarding, repository migration, uptime, identity hosting, contributor rules, procurement changes, and whether public reuse grows.

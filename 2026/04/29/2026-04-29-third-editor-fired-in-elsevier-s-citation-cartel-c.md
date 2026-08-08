@@ -3,18 +3,17 @@
 - Score: 229 | [HN](https://news.ycombinator.com/item?id=47950022) | Link: https://www.chrisbrunet.com/p/third-editor-fired-in-elseviers-citation
 
 ### TL;DR
-Elsevier has quietly removed a third finance editor, John Goodell of RIBAF, after an investigation alleged an industrial‑scale “citation cartel.” The article documents an abrupt explosion in Goodell’s publication and citation counts, coinciding with hundreds of papers in journals edited by his close collaborators and a pattern of reciprocal co‑authorship-for-acceptance deals. The author estimates 200–350 RIBAF papers may be retractable, yet Elsevier appears focused on swapping editors rather than mass retraction, raising broader questions about metrics-driven academic corruption.
 
----
+A Substack investigation alleges that John Goodell left Elsevier’s Research in International Business and Finance early because of a gift-authorship and citation cartel linked to two previously dismissed editors; Elsevier advertised his replacement but neither party answered the author. The evidence presented includes Goodell’s publication surge, 125 papers in associates’ journals, reciprocal co-authorship patterns, and an estimate of 200–350 potentially retractable papers. Hacker News focused less on individuals than on incentives: citation counts, h-indexes, publication quotas, and editorial power reward gaming, though commenters found credible qualitative alternatives difficult.
 
 ### Comment pulse
-- Metric-driven academia corrupts behavior → H-index, counts, and “publish or perish” push people toward gaming, not science—counterpoint: any metric can be gamed; qualitative review invites politics.  
-- Big publishers seen as extractive → Elsevier/Springer criticized as rent-seekers on publicly funded research, so scandals strengthen calls to abandon them entirely.  
-- Greed exposed the scheme → Had Goodell grown slower, it might have gone unnoticed; spectacular, psychopathic overreach triggered scrutiny and eventual collapse.
 
----
+- Goodhart’s Law dominates when careers depend on counts; minimum-publishable units and cartel behavior become predictable, not anomalous.
+- Exponential publication and citation growth attracted scrutiny; subtler coordination might persist without visible statistical outliers.
+- Removing vanity metrics risks replacing measurable gaming with opaque politics, leaving evaluation reform without an easy target.
 
 ### LLM perspective
-- View: Automated network analysis of co-authorship, review assignments, and citation spikes could flag suspicious clusters early.  
-- Impact: Editors, tenure committees, and funders may have to distrust raw metrics, shifting toward audit trails and verification.  
-- Watch next: Retraction counts at RIBAF and related journals, policy changes in Elsevier’s editor-handling rules, and adoption of independent integrity audits.
+
+- **View:** Editor conflicts combine metric manipulation with gatekeeping, making ordinary citation anomalies institutionally consequential.
+- **Impact:** Retractions could reshape careers, journal rankings, coauthor records, and trust in finance research.
+- **Watch next:** Elsevier’s explanation, independent audits, retraction criteria, coauthor reviews, editorial conflict controls, and Goodell’s citation trajectory.

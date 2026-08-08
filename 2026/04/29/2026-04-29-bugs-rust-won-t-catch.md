@@ -2,15 +2,18 @@
 
 - Score: 623 | [HN](https://news.ycombinator.com/item?id=47943499) | Link: https://corrode.dev/blog/bugs-rust-wont-catch/
 
-- TL;DR  
-  Canonical’s audit of uutils (Rust coreutils) found 44 CVEs that Rust’s borrow checker, Clippy, and cargo-audit can’t see, because they live at the OS/semantics boundary: TOCTOU races from path-based std::fs APIs, permission and path-identity mistakes, UTF‑8 assumptions over raw bytes, panics as DoS, discarded errors, behavior drift from GNU, and trust-boundary mixups like chroot+NSS. Rust still eliminated classic memory bugs, but correctness and Unix semantics require explicit “defensive Rust” patterns and bug-for-bug compatibility.
+### TL;DR
 
-- Comment pulse  
-  Rewriting vs original code → Decades of production harden GNU coreutils; rewrites re-learn old lessons and miss edge cases—counterpoint: uutils does run GNU’s test suite.  
-  Rust stdlib and APIs → Path-based std::fs makes TOCTOU easy; better to expose fd/at-style ops and dev+inode checks than rely on canonicalize.  
-  Canonical’s rollout and process → Shipping a full Rust rewrite as default core tools was premature; fuzzing and tests missed many issues, users became unwitting test subjects.
+Canonical’s audit found 44 CVEs in uutils, the Rust reimplementation of GNU coreutils, showing that memory safety does not guarantee correct Unix behavior. Failures included path races across syscalls, permissive creation followed by chmod, comparing path spellings instead of filesystem identity, corrupting non-UTF-8 bytes, panics on hostile input, discarded errors, incompatible option semantics, and library loading after entering attacker-controlled chroots. Rust prevented familiar overflows, use-after-free, and data races, but privileged tools still require file-descriptor-oriented design, exact compatibility, adversarial testing, and operating-system expertise.
 
-- LLM perspective  
-  View: Treat “safe” Rust as memory-safe, not correctness-safe; design APIs that encode Unix realities (fds, bytes, error propagation).  
-  Impact: Systems programmers and library authors must adopt stricter patterns and add compatibility and semantics tests, not just rely on type safety.  
-  Watch next: Stronger fd-based std APIs, better differential fuzzing against GNU, and formalized “defensive Rust” guides baked into tooling and lints.
+### Comment pulse
+
+- GNU maintainers agreed `std::fs` encourages TOCTOU mistakes but warned canonicalization can be catastrophically slow; compare open files’ device and inode instead.
+- Critics called the production rewrite reckless — counterpoint: others noted every examined mistake looks amateur after decades of predecessor lessons.
+- Hidden historical behavior lives in code and tests; clean-room licensing constraints make extracting those security lessons harder.
+
+### LLM perspective
+
+- Safe-language migrations should preserve mature test suites, threat models, and behavioral contracts before replacing defaults.
+- Rust needs ergonomic `openat`-style APIs that anchor operations to directory handles.
+- Differential fuzzing should target bytes, path aliases, races, exit codes, and trust-boundary ordering.
