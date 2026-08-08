@@ -3,18 +3,17 @@
 - Score: 392 | [HN](https://news.ycombinator.com/item?id=48107997) | Link: https://blog.maximeheckel.com/posts/on-rendering-the-sky-sunsets-and-planets/
 
 ### TL;DR
-Heckel walks through building a physically based sky and planetary-atmosphere renderer in WebGL/React Three Fiber, starting from first principles of atmospheric scattering. He models Rayleigh, Mie, and ozone effects via raymarching and lightmarching, adds depth-aware post-processing so the atmosphere interacts with scene geometry, and extends it to spherical planet shells with eclipses and Martian skies. To make it performant, he experiments with Sebastian Hillaire–style LUTs for transmittance, sky color, and aerial perspective, trading some accuracy and generality for speed.
 
----
+Maxime Heckel builds a browser shader from first principles: raymarch atmospheric density, apply Beer’s Law plus Rayleigh, Mie, and ozone terms, then light-march toward the Sun to produce day, sunset, and sunrise colors. Depth reconstruction turns the flat sky into scene-aware fog; ray-sphere intersections and logarithmic depth extend it to planetary shells, eclipses, and Mars-like presets. A partial LUT implementation precomputes costly transmittance and sky data. HN praised the interactive pedagogy and browser performance, while noting the demo unrealistically turns black immediately after sunset instead of showing twilight.
 
 ### Comment pulse
-- Technical inspiration → Readers link related work by Sebastian Lague, Nishita et al., and personal engine experiments, reinforcing that Rayleigh/Mie models give huge visual payoff.
-- Physical accuracy nit → Twilight shouldn’t vanish as soon as the sun sets; real sky stays lit until ~18° below horizon — counterpoint: might be out-of-scope for a demo.
-- Practical excitement → People praise the depth and polish, noting how browsers/phones now handle atmospheric scattering once limited to offline or desktop engines.
 
----
+- Graphics enthusiasts valued calm, technically deep explanations and shared related planet, cloud, and classic 1993 scattering implementations.
+- Browser and mobile capability impressed readers; compact equations can upgrade a static skybox into a full day-night cycle.
+- The sunset model lacks atmospheric twilight — counterpoint: physically tracing post-sunset sunlight may be impractical, while common approximations can cover 18°.
 
 ### LLM perspective
-- View: The article is a rare full-stack walkthrough: physics, GLSL, engine integration, and performance engineering in one coherent pipeline.
-- Impact: Web/indie graphics devs gain a reusable blueprint for “AAA-looking” skies and planets without custom engines or C++.
-- Watch next: Benchmarks of LUT vs full raymarch, WebGPU compute-based versions, and more accurate twilight/eclipses would round this out into a reference implementation.
+
+- View: The tutorial’s strongest abstraction is separating physical ingredients, scene integration, and caching, letting readers trade accuracy against real-time cost.
+- Impact: Web developers can add physically grounded skies, fog, planetary atmospheres, eclipses, and alien presets without moving beyond browser shaders.
+- Watch next: Complete Hillaire’s 3D aerial-perspective and multi-scattering LUTs, test WebGPU compute paths, and model twilight and occlusion more accurately.

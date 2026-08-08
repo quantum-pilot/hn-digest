@@ -3,14 +3,17 @@
 - Score: 514 | [HN](https://news.ycombinator.com/item?id=48106024) | Link: https://matklad.github.io/2026/05/12/software-architecture.html
 
 ### TL;DR
-Matklad argues software architecture is mostly learned through practice and constrained by social structures, not formal design methods. Using rust-analyzer, he shows how technical choices (simple builds, isolated crashy features, stricter “spine”) were driven by contributor incentives: core hackers vs weekend warriors. He urges occasionally shaping incentives, but usually adapting to them, noting experiments can unexpectedly become critical infrastructure. He recommends talks, essays, and a few books over any single canonical text, while HN adds heuristics and classic architecture literature.
+
+Software architecture is learned chiefly by designing and maintaining real systems, not by memorizing universal rules. Matklad argues that organizational incentives shape code more than technical knowledge: rust-analyzer’s fast, dependency-light build attracted contributors, while crash isolation allowed loosely reviewed features without risking its carefully engineered core. When incentives cannot change, architecture should adapt to them, though experiments may become permanent infrastructure. HN commenters emphasized comparing several long-lived projects, understanding domain vocabulary, and treating “it depends” as essential; some wanted more architecture-specific sources beyond general design advice.
 
 ### Comment pulse
-- Design heuristics → coherent idea, minimal surprise, explicit state, single data truth, naming, and costs guide systems—counterpoint: every rule depends heavily on context.  
-- Best architecture training → maintain large multi-team systems across several orgs; compare designs; observe incentives like billable-hours and promotions favoring greenfield over long-term maintenance.  
-- Architecture references → Shaw and Garlan, Mary Shaw’s work, hexagonal architecture, REST, and Architecture of Open Source Applications emphasize history, constraints, and connectors over components.  
+
+- Maintaining multiple large systems teaches architecture better than greenfield creation because history, scale, and comparison reveal consequences.
+- Naming and domain vocabulary deserve heavy investment; interfaces and data models survive implementations and are costly to change.
+- Rules remain contextual — counterpoint: recurring heuristics such as explicit state, isolated coupling, and single sources of truth still guide incomplete decisions.
 
 ### LLM perspective
-- View: Architecture emerges from incentives plus constraints; leaders should design contribution pathways as deliberately as module boundaries and data models.  
-- Impact: Researchers and scientists can treat “scientific code” as social systems, aligning tooling with publication timelines and transient contributor availability.  
-- Watch next: Study how build friction, test latency, and review policies affect contributor retention and architectural quality in open tools.
+
+- View: Architecture is incentive design expressed through technical boundaries; quality standards can intentionally differ between a spine and peripheral features.
+- Impact: Researchers can improve scientific software by shortening feedback loops and isolating risky contributions, even when publication incentives remain unchanged.
+- Watch next: Evaluate architecture over maintenance years, contributor onboarding time, failure containment, migration costs, and whether experimental components become permanent.

@@ -2,17 +2,18 @@
 
 - Score: 217 | [HN](https://news.ycombinator.com/item?id=48110021) | Link: https://www.bloomberg.com/news/articles/2026-05-12/ebay-rejects-gamestop-s-56-billion-takeover-as-not-credible
 
-- TL;DR  
-eBay has rejected a roughly $56B takeover proposal from GameStop, calling the offer not credible and its financing questionable. Hacker News commenters mostly welcome the rejection, wary of a meme-stock, private-equity-style leveraged deal that could hurt small sellers on a platform many depend on. Some see limited strategic logic in combining GameStop’s physical footprint with eBay-style recommerce, but doubt GameStop’s shrinking core business and stock-driven war chest make it a safe or competent acquirer.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+eBay rejected GameStop CEO Ryan Cohen’s unsolicited $56 billion bid as neither credible nor attractive, potentially setting up a proxy fight. The offer values eBay at $125 per share—half cash, half GameStop stock—and requires about $20 billion of borrowing despite GameStop’s roughly $10 billion market value. Cohen promises $2 billion in first-year savings and proposes using 1,600 US stores for collectible authentication and fulfillment. Commenters, including regular eBay buyers and sellers, mostly feared a leveraged takeover would damage a functioning marketplace, though some saw strategic value in physical secondhand infrastructure.
 
-- Comment pulse  
-  - eBay users relieved → platform works reasonably well for buyers/small sellers; fear a highly leveraged takeover would slash support, raise fees, and destabilize livelihoods.  
-  - GameStop viewed as weak acquirer → shrinking physical-game retail and meme-driven stock make $56B bid look reckless — counterpoint: Ryan Cohen’s Chewy exit reassures investors.  
-  - Synergy idea debated → fans imagine GameStop stores as drop-off hubs for eBay-style resale; critics say niche, long-tail inventory makes physical showrooms inefficient and pointless.
+### Comment pulse
 
-- LLM perspective  
-  - View: This looks more like financial engineering around meme equity than an industrial logic merger of complementary marketplaces.  
-  - Impact: Rejection signals boards are still wary of meme-fueled bidders, protecting operationally sound platforms from overleveraged ownership experiments.  
-  - Watch next: Does GameStop chase smaller ecommerce buys, pivot to capital returns, or shrink as stores and meme aura fade?
+- eBay users praised its mature transaction and dispute experience and preferred continuity over cost-cutting by a smaller, riskier buyer.
+- Supporters saw stores as consignment, authentication, and shipping hubs — counterpoint: eBay’s strength is distributed niche inventory no storefront can meaningfully stock.
+- Skeptics called GameStop’s retail model obsolete; defenders cited Cohen’s Chewy history and cash raised from the meme-stock episode.
+
+### LLM perspective
+
+- View: Financing credibility, not theoretical retail synergy, is the immediate obstacle.
+- Impact: A proxy campaign could distract eBay even if the acquisition never becomes financeable.
+- Watch next: Committed lenders, board nominees, shareholder response, revised terms, and evidence behind the $2 billion savings estimate.

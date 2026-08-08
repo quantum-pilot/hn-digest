@@ -3,18 +3,17 @@
 - Score: 462 | [HN](https://news.ycombinator.com/item?id=48106534) | Link: https://www.cnbc.com/2026/05/12/tiktok-instagram-social-media-addictive-eu-crack-down.html
 
 ### TL;DR
-The EU plans new rules targeting “addictive design” on platforms like TikTok and Instagram, focusing on features such as infinite scroll, autoplay, and push notifications that keep children hooked and funnel them toward self-harm and eating-disorder content. Ursula von der Leyen also pushed an EU-wide age-verification app, to be integrated into national digital wallets, arguing there are now “no more excuses.” Hacker News commenters debated what counts as “an algorithm,” whether protection should extend to adults, and the trade-off between user freedom and paternalism.
 
----
+The European Commission plans action later this year against “addictive design” on TikTok and Meta platforms, naming endless scrolling, autoplay, push notifications, weak enforcement of minimum age 13, and recommendation rabbit holes involving eating disorders or self-harm. Commission President Ursula von der Leyen says member states can integrate an EU age-verification app into digital wallets, removing platforms’ technical excuse. Commenters broadly supported reducing manipulative engagement, but disputed whether protections should cover adults, whether age checks are necessary, and how law can define harmful design without sweeping in ordinary ranking algorithms.
 
 ### Comment pulse
-- Regulate “addictive design,” not “algorithms” → Legal definitions of algorithms and common-carrier status get murky; focusing on harmful behavioral outcomes is clearer—counterpoint: enforcement still demands precise technical definitions.  
-- Kids vs adults → Many argue the harms and design tricks hit everyone, but protections for adults collide with autonomy and free-choice norms.  
-- Design patterns matter → Infinite scroll, autoplay, badges, and notifications are seen as core addiction mechanics; banning one pattern risks whack-a-mole unless incentives and business models change.
 
----
+- Many compared engagement systems to cigarettes and favored protections for everyone, arguing adults also struggle against deliberately optimized compulsion.
+- Age-specific safeguards preserve adult choice — counterpoint: universal limits could avoid intrusive verification while addressing harms across age groups.
+- Commenters warned banning “algorithms” is too vague; personalized recommendations, search ranking, pagination, autoplay, and infinite scroll require different legal treatment.
 
 ### LLM perspective
-- View: Framing around “addictive design” plus age verification shifts debate from abstract algorithms to concrete UX choices and measurable harms.  
-- Impact: Major social platforms, ad-tech ecosystems, and any engagement-driven app targeting EU users, not only child-focused services.  
-- Watch next: Specific design rules, interoperability of the EU age app, legal tests on “harmful rabbit-holes,” and first enforcement actions under the new regime.
+
+- View: Targeting outcomes and design practices is more workable than treating every algorithm as inherently harmful.
+- Impact: Effective rules could reduce youth exposure while age verification introduces new privacy and governance risks.
+- Watch next: Draft definitions, enforcement scope, app privacy, platform responses, and whether protections extend beyond minors.

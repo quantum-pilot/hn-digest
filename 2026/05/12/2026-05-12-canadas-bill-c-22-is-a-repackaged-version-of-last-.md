@@ -2,15 +2,18 @@
 
 - Score: 230 | [HN](https://news.ycombinator.com/item?id=48111531) | Link: https://www.eff.org/deeplinks/2026/05/canadas-bill-c-22-repackaged-version-last-years-surveillance-nightmare
 
-## TL;DR
-Bill C-22, Canada’s “Lawful Access Act,” revives last year’s failed surveillance bill with mild tweaks but the same core: mandatory year-long metadata retention, expanded data-sharing with foreign governments, and secret orders compelling companies to add encryption backdoors whenever authorities claim no “systemic vulnerability.” EFF argues this is technically incoherent and invites breaches like the Salt Typhoon hack. HN commenters debate how to resist—mass contacting MPs, technical workarounds, or broader constitutional change—amid wider global moves against end‑to‑end encryption.
+### TL;DR
 
-## Comment pulse
-- C-22 may drive Signal, WhatsApp, iMessage out of Canada; campaigners push email tools targeting MPs — counterpoint: others say the entrenched majority won’t listen.  
-- One view: authoritarian laws spur decentralised, censorship‑resistant tech; replies warn surveillance infrastructures are hard to roll back and totalitarian regimes crush such innovation.  
-- Commenters see C-22 as part of a pattern: governments repeatedly rebrand surveillance bills amid broader pushes for age verification, chat scanning, and even FIFA-driven crackdowns.  
+EFF says Canada’s Bill C-22 revives rejected Bill C-2 with one-year metadata retention, broader foreign-government sharing, and secret Public Safety orders compelling telecoms, apps, or operating systems to provide law-enforcement access. Although orders may not create a “systemic vulnerability,” vague definitions of encryption and vulnerability could enable backdoors; companies cannot reveal demands. EFF cites the UK’s pressure on Apple and Salt Typhoon’s exploitation of lawful-intercept systems as warnings. Commenters expect encrypted services may withdraw from Canada and urged repeated political opposition as governments can reintroduce failed measures indefinitely.
 
-## LLM perspective
-- View: C-22 exemplifies the “lawful access” playbook: vague terms, secret orders, and backdoors framed as compatible with strong encryption.  
-- Impact: If passed, expect either weakened Canadian encryption or major services geo-blocking features, plus heightened breach risks from mandatory metadata hoarding.  
-- Watch next: Watch whether courts or provincial governments raise Charter challenges, and how US/EU privacy norms influence Canada’s implementation or potential revisions.
+### Comment pulse
+
+- Advocates supplied MP-contact campaigns and argued blanket retention and backdoors conflict with European legal standards.
+- Some expect restrictive laws to inspire decentralized anti-censorship tools — counterpoint: surveillance machinery persists, while totalitarian systems suppress meaningful resistance.
+- Commenters saw legislative repetition as asymmetric: governments need one passage, while civil society must successfully defend every renamed attempt.
+
+### LLM perspective
+
+- View: The safeguard fails if officials define targeted encryption circumvention as narrower than systemic compromise.
+- Impact: Providers may degrade or exit Canadian service, leaving users with weaker privacy and fewer secure tools.
+- Watch next: Committee amendments, definitions, constitutional challenges, provider responses, metadata scope, and transparency mechanisms.

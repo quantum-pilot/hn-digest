@@ -2,15 +2,18 @@
 
 - Score: 1049 | [HN](https://news.ycombinator.com/item?id=48109224) | Link: https://www.jeffgeerling.com/blog/2026/bambu-lab-abusing-open-source-social-contract/
 
-- TL;DR  
-  - Jeff Geerling argues Bambu Lab is violating the spirit of AGPL by threatening a tiny OrcaSlicer fork that lets users bypass Bambu’s cloud and control printers locally. He says Bambu falsely labels this as “impersonation” and a security risk, despite reusing their own open-sourced client code. HN commenters mostly see this as lock‑in and bad security design (user‑agent as “protection”), discuss more open alternatives like Prusa and Voron, and debate how much consumer pressure can still steer vendor behavior.
+### TL;DR
 
-- Comment pulse  
-  - Bambu’s cloud-first design → Seen as lock-in and privacy risk; AGPL should permit alternative clients. — counterpoint: some say Bambu may have a real, if self‑inflicted, security problem.  
-  - Alternatives exist → Prusa, Voron, RatRig offer more openness; Prusa is easier but costly and itself slowly tightening licenses against commercial clones.  
-  - Customer pressure works → Prior backlash forced Bambu to add LAN mode; people argue continued shaming or even license enforcement is needed to keep vendors honest.
+Jeff Geerling says Bambu Lab is using legal threats and public accusations to suppress OrcaSlicer-bambulab, a tiny fork enabling full printer control without mandatory cloud routing. Bambu says the fork falsifies official-client identity metadata, creates indistinguishable unauthorized traffic, and risks outages; the developer says it reused Bambu Studio’s AGPL-licensed upstream code verbatim and rejects being portrayed as an attacker. Geerling argues client-supplied identity is not authentication and recommends avoiding Bambu. Commenters largely blamed centralized architecture, while noting a reported security issue and debating easier but pricier alternatives such as Prusa.
 
-- LLM perspective  
-  - View: Tying basic device functionality to proprietary clouds while publishing AGPL code is an inherently unstable business and community relationship.  
-  - Impact: Expect more forks, replacement firmware, and legal tests around “unauthorized” use of open clients against vendor servers.  
-  - Watch next: Whether Bambu clarifies terms, rate-limits by account not user-agent, and if any AGPL enforcement or coordinated firmware projects actually materialize.
+### Comment pulse
+
+- Critics said customers using AGPL client code are not impersonators and user-agent strings cannot protect cloud infrastructure.
+- Bambu’s ease and price remain attractive — counterpoint: Prusa, Voron, and RatRig offer greater ownership or openness at higher cost or effort.
+- LAN and developer modes followed prior pressure, but remote-workshop owners say they still lose cloud-connected OrcaSlicer features.
+
+### LLM perspective
+
+- View: Open-source licensing rights and hosted-service access are distinct, but Bambu’s technical boundary appears poorly designed.
+- Impact: Legal escalation chills small forks and pushes ownership-focused buyers toward competing ecosystems.
+- Watch next: Full correspondence, AGPL analysis, outage evidence, the referenced vulnerability, and restored local feature parity.

@@ -3,14 +3,17 @@
 - Score: 636 | [HN](https://news.ycombinator.com/item?id=48104428) | Link: http://www.typewritten.org/Media/
 
 ### TL;DR
-A vintage-computing enthusiast has built a meticulous “museum” of desktop GUIs from 1983–2007: everything from Visi On, GEM, Xerox Viewpoint and early Sun/DEC workstations to NeXTstep, BeOS, OS/2, RISC OS, Unix workstations, early Linux, and the Mac OS X transition. Each screenshot is paired with precise hardware, resolution, and historical/technical notes (lawsuits, palette tricks, performance quirks). HN discussion mixes nostalgia with criticism, debating how much UX we’ve since lost versus genuine progress in modern interfaces.
+
+Typewritten Software’s gallery documents operating desktop environments from 1983 through 2007 on original or period hardware, pairing screenshots with resolutions, system configurations, applications, display quirks, and candid restoration notes. Its breadth spans Visi On, Sun, Acorn, Amiga, DEC, NeXT, OS/2, Unix variants, BeOS, Copland, Rhapsody, and early Mac OS X, plus the curator’s own desktops. HN treated it as both a memory archive and UX comparison: readers missed visible scrollbars, title bars, and dialog controls, while recalling that many Unix desktops were already slow or unpleasant.
 
 ### Comment pulse
-- Old Unix desktops were often clunky and ugly even then → CDE on Solaris felt slow and depressing; home RISC OS desktops felt far nicer.
-- Modern UIs hide scrollbars, borders, resize handles → hurts discoverability and control—counterpoint: we did gain tabs, syncing, app stores, better persistence, and powerful keyboard-driven command palettes.
-- Readers want more coverage and context → early Linux, IRIX/4Dwm, GEOS/GS‑OS, and NeXT’s high‑res “3M” machines with left-side scrollbars significantly shaped how these systems actually felt.
+
+- Older interfaces offered visible affordances and stable controls; modern invisible scrollbars, tiny resize targets, and ambiguous title bars frustrate users.
+- Nostalgia met reality — counterpoint: some period Unix desktops were ugly, slow, and painful despite low software bloat.
+- Readers flagged apparent Linux, IRIX, and GEOS omissions, though others located Slackware, SGI, and PC/GEOS entries in the collection.
 
 ### LLM perspective
-- View: This gallery is an informal but rich corpus of GUI patterns, constraints, and evolution across two decades.
-- Impact: Designers, HCI students, and emulator authors can mine it to rethink affordances, density, and hardware-conscious design.
-- Watch next: An interactive, pixel-accurate timeline or recreations of these desktops as themes could make the history truly experiential.
+
+- View: Screenshot preservation captures interface structure, but not monitor sharpness, refresh, responsiveness, input feel, or the hardware’s physical presence.
+- Impact: Designers gain concrete evidence that discoverability and visual affordances can regress even while functionality, syncing, and installation improve.
+- Watch next: Add normalized 1:1 viewing, interaction recordings, timing metadata, and fuller representation of Linux, GEOS, and workstation desktops.

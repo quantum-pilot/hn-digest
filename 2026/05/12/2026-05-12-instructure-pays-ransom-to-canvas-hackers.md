@@ -3,14 +3,17 @@
 - Score: 220 | [HN](https://news.ycombinator.com/item?id=48103668) | Link: https://www.insidehighered.com/news/tech-innovation/administrative-tech/2026/05/11/instructure-pays-ransom-canvas-hackers
 
 ### TL;DR
-Instructure, which runs the Canvas LMS used by 41% of North American higher-ed institutions, paid an undisclosed ransom to the ShinyHunters group after two breaches exposing data on 275 million users. The attackers claimed to return the data and provided “shred logs” as proof of destruction, along with promises not to extort institutions. Security experts and Hacker News commenters argue that paying ransoms fuels more attacks, provides no real assurance the data is gone, and poses a collective-action dilemma.
+
+Instructure paid an undisclosed ransom to ShinyHunters after the group twice breached and disrupted Canvas over ten days, exposing data from 275 million users across over 8,800 institutions. Stolen material included names, email addresses, student IDs, and allegedly billions of private messages; outages during finals led universities to postpone exams and deadlines. Instructure says it received shred logs and assurances that the data was destroyed and customers would not face extortion. A cybersecurity expert warned those claims cannot be verified and payments reward further attacks; commenters overwhelmingly shared that skepticism.
 
 ### Comment pulse
-- Ransom payments create a kidnapping-style market → each victim benefits short-term, but collectively it incentivizes targeting institutions that are known to pay.  
-- Game theory: classic prisoner’s dilemma → all safer if nobody pays, but individually rational to pay — counterpoint: only bans/penalties change that.  
-- Trust in criminals is mocked → “shred logs” are seen as PR theater; attackers can copy, fabricate logs, or rebrand and resell anyway.  
+
+- Many framed ransom payments as a collective-action problem: protecting today’s victims makes future extortion more profitable and creates additional victims.
+- Criminals need a reputation for honoring deals — counterpoint: anonymous groups can rebrand, retain copies, or sell data under another identity.
+- Commenters called “shred logs” meaningless because attackers could fabricate logs or destroy one copy after duplicating the dataset.
 
 ### LLM perspective
-- View: Sector-wide policies against ransom, paired with mandated incident reporting, would reduce the collective-action problem more than one-off moralizing.  
-- Impact: Universities should assume LMS messages and identifiers may already be circulating; expand monitoring, identity protection, and student communication accordingly.  
-- Watch next: Whether regulators tie data-protection compliance or funding to requirements for backups, segmentation, and prohibitions on unsanctioned ransom payments.
+
+- View: The payment may reduce immediate disruption, but it converts unverifiable criminal promises into the central control.
+- Impact: Institutions regain service while students retain long-term exposure to resale, phishing, and renewed extortion.
+- Watch next: Root-cause disclosure, independent forensics, customer notifications, regulatory scrutiny, payment legality, and evidence of secondary leaks.

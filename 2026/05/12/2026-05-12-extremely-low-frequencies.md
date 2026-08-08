@@ -3,22 +3,17 @@
 - Score: 199 | [HN](https://news.ycombinator.com/item?id=48104041) | Link: https://computer.rip/2026-05-09-extremely-low-frequencies.html
 
 ### TL;DR
-- The piece traces how navies solved the problem of talking to submerged submarines, from early surface radios and trailing buoys to very‑low‑frequency (VLF) and finally extremely‑low‑frequency (ELF) systems.  
-- VLF (3–30 kHz) can reach ~100 feet underwater but requires kilometer‑scale antennas and only supports slow, one‑way traffic, mainly “orders to surface.”  
-- ELF (≈70–80 Hz) demanded state‑sized ground‑dipole antennas for just a few bits per minute, serving only as “pagers” telling nuclear subs to come shallow for real orders.  
-- Huge costs, severe inefficiency, local interference, environmental lawsuits, and the Cold War’s end meant the US ELF network (Clam Lake and Republic) ran for only 15 years before shutdown in 2004.  
-- Russia, China, and India still operate ELF systems, turning the US effort into a cautionary tale about military procurement, sunk costs, and politically toxic infrastructure—even when the underlying physics works well.
 
----
+J. B. Crawford traces submarine radio from early VLF discoveries through the US Navy’s Cold War pursuit of ELF, whose longer wavelengths penetrated deeper seawater but demanded gigantic, inefficient ground-dipole antennas and transmitted only about one letter every five minutes. Repeated plans shrank under cost, technical, environmental, health, and anti-nuclear opposition until synchronized Wisconsin and Michigan sites became operational in 1989, radiating eight watts from 2.6 megawatts input. The pager-like system closed in 2004 after 15 years; VLF endured, while China, India, and Russia retain ELF systems.
 
 ### Comment pulse
-- Classified Navy work wasn’t benign → some readers suspect Cold War “experiments” harmed people and question family pride in such careers — counterpoint: others see it as routine deterrence work.  
-- Serendipity matters → the key VLF insight began with an accidentally dropped coil, illustrating how “that’s funny…” moments often precede real breakthroughs.  
-- Industry reuse → drilling companies now use ELF‑like ground‑dipole telemetry to send data 5+ miles up through rock at a few hertz.  
 
----
+- A drilling engineer described using 2–10 Hz ground telemetry to send data through five miles of rock, showing ELF’s civilian utility.
+- Readers delighted in accidental discovery and monumental engineering — counterpoint: the operational system converted 2.6 megawatts into only eight radiated watts.
+- Cutler’s 3-megawatt deicing system and surviving Jim Creek transmitter made the infrastructure’s scale especially tangible.
 
 ### LLM perspective
-- View: ELF shows how technically correct ideas can still be strategically marginal once full system, politics, and economics are considered.  
-- Impact: Submarine comms converged on VLF plus better missiles, satellites, and procedures, not ever‑deeper but ultra‑weak ELF.  
-- Watch next: Compare current Chinese/Russian ELF deployments, assess redundancy with satellite links, and model survivability under modern anti‑satellite warfare.
+
+- View: The program’s strongest achievement was demonstrating feasibility; its weakest assumption was equating unique capability with practical necessity.
+- Impact: Procurement persistence converted an experimental site into service, then preserved it only briefly.
+- Watch next: Whether modern signal processing changes reception economics without changing the fundamental antenna physics.

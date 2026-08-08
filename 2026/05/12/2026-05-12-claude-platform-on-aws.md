@@ -2,19 +2,18 @@
 
 - Score: 218 | [HN](https://news.ycombinator.com/item?id=48103042) | Link: https://claude.com/blog/claude-platform-on-aws
 
-## TL;DR
-Claude Platform on AWS is a new way to use Anthropic’s full Claude Platform while tying access, identity, and billing into an organization’s existing AWS setup. Unlike Claude on Amazon Bedrock (where AWS runs the service and data stays inside AWS), Anthropic itself operates this new platform and processes data outside the AWS boundary, but it still uses AWS IAM, CloudTrail, and consolidated AWS invoices. HN commenters focus on naming confusion, procurement/billing benefits, and tradeoffs with Bedrock’s stricter data-residency model.
+### TL;DR
 
----
+Claude Platform on AWS is generally available, exposing Anthropic’s native API through AWS IAM, CloudTrail, consolidated billing, and spend commitments, with same-day models, features, and betas. It includes Managed Agents, Advisor, web tools, code execution, Files, Skills, MCP, caching, citations, batches, and Console eval tools. Unlike Bedrock, Anthropic operates this service and processes data outside the AWS boundary; Bedrock retains AWS as processor for residency needs. Commenters saw procurement and feature parity as the main benefits but found the branding confusing and questioned migration, credits, throughput, operations, and EU inference.
 
-## Comment pulse
-- Naming is confusing → “on AWS” but data processed outside AWS; practically it lets enterprises route AI spend and IAM/SSO through AWS — counterpoint: muddies Bedrock’s clear data-governance story.  
-- Capabilities vs Bedrock → this exposes full Claude Platform (agents, tools, console) vs just models; some unsure if benefits justify refactoring from Bedrock or fit with credits.  
-- Data and regions → Bedrock keeps AWS as data processor for strict residency; this new option doesn’t, and people question whether EU-based inference is supported.
+### Comment pulse
 
----
+- Enterprises can reuse IAM, SSO, FinOps, contracts, invoices, and commitment discounts instead of establishing separate Anthropic procurement rails.
+- Startups questioned whether AWS credits apply and whether added features justify refactoring from Bedrock’s multimodel interface.
+- Native features arrive immediately — counterpoint: Bedrock offers clearer AWS-bound governance and potentially stronger operational reliability.
 
-## LLM perspective
-- View: This is mainly a distribution and procurement play, not a new model, but important for serious enterprise adoption.  
-- Impact: Security, finance, and compliance teams gain fewer blockers; startups with AWS-centric stacks may still prefer Bedrock’s multi-model flexibility.  
-- Watch next: Clearer regional inference options (EU), Terraform/CloudFormation resources, and benchmarks comparing latency, throughput, and reliability vs Bedrock.
+### LLM perspective
+
+- View: This is an AWS access and commercial wrapper around Anthropic-operated infrastructure, not a new residency option.
+- Impact: Procurement-heavy organizations gain faster adoption, but reviews must distinguish two similarly named data-processing paths.
+- Watch next: EU inference, credit eligibility, Terraform support, throughput, uptime, pricing parity, and private-offer discounts.
