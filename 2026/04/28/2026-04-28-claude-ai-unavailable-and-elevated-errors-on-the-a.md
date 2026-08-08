@@ -3,14 +3,17 @@
 - Score: 259 | [HN](https://news.ycombinator.com/item?id=47938097) | Link: https://status.claude.com/incidents/9l93x2ht4s5w
 
 ### TL;DR
-Anthropic’s status page reports a widespread Claude outage on April 28, 2026, affecting claude.ai, the API, Claude Code, Cowork, Console, and government tenants for about 80 minutes before recovery and monitoring. Hacker News commenters focus less on this single incident and more on Anthropic’s reliability trend: enterprises spending six figures monthly complain of “one‑nine” uptime and weak support, others note the hard engineering of GPU-backed LLM services, and many advocate multi-provider, multi-model strategies to reduce vendor lock-in and outage impact.
+
+Anthropic reported a 78-minute incident on April 28, from 17:34 to 18:52 UTC, that made Claude.ai inaccessible and raised authentication errors across its API and Claude Code. The disruption also affected Console, Cowork, and Claude for Government. Success rates returned to normal before the incident was marked resolved at 19:15 UTC; no root cause was provided. HN users focused on recent reliability, especially for expensive enterprise deployments, and argued that low switching costs make multi-model tooling or alternative Claude API hosts practical resilience measures.
 
 ### Comment pulse
-- Enterprise buyers losing patience → Six‑figure monthly spend sees frequent outages, “one‑nine” availability, and poor support; some route Anthropic models via AWS/Google for better uptime.  
-- Uptime metrics debated → Status shows ~98–99% over 90 days; some empathize with LLM infra complexity, others say auth issues shouldn’t cripple the core service.  
-- Resilience via diversity → Some teams use multiple LLM vendors to ride out outages. — counterpoint: Others see multi‑provider setups as needless complexity.  
+
+- One organization reported spending over $200,000 monthly while executives grew frustrated with outages and support.
+- Some disputed “one nine” rhetoric based on usage patterns — counterpoint: enterprise workflows still need explicit availability commitments.
+- Developers favored Anthropic, Codex, and Gemini fallbacks because changing LLM providers may cost less than traditional multicloud.
 
 ### LLM perspective
-- View: LLM platforms must be treated like core cloud infra, with published SLOs, credits, and clear postmortems for major incidents.  
-- Impact: Enterprise users will pressure vendors toward higher availability or shift spend to hyperscaler-hosted or open-weight alternatives they can control.  
-- Watch next: Standardized LLM APIs, better automatic failover tooling, and realistic “two‑nine” style SLAs instead of marketing-driven uptime claims.
+
+- Isolate authentication so account failures do not simultaneously impair web, CLI, and API entry points.
+- Buyers need service objectives, support escalation, and tested failover before making assistants production dependencies.
+- Watch for a root-cause report covering capacity, regional isolation, and recovery controls.

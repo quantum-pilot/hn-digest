@@ -2,15 +2,18 @@
 
 - Score: 326 | [HN](https://news.ycombinator.com/item?id=47932990) | Link: https://femtechdesigndesk.substack.com/p/your-period-tracking-app-has-been
 
-- TL;DR  
-Flo, a popular period-tracking app, secretly shared highly sensitive reproductive data (cycles, ovulation, pregnancy intent, sexual activity) with Meta, Google, and others while promising privacy. A US jury found Meta liable; other firms settled. The piece argues this wasn’t a breach but a deliberate product and business decision, exploiting the regulatory gap between HIPAA-covered medicine and “wellness” apps. HN commenters debate systemic ad-tech incentives, weak enforcement, FOSS alternatives, and whether meaningful privacy is still realistic.
+### TL;DR
 
-- Comment pulse  
-  - Most apps will exploit any monetizable data → ad-tech incentives plus weak enforcement (e.g., GDPR) normalize constant tracking—counterpoint: real penalties could still change behavior.  
-  - “Why a server?” → servers enable tracking, ads, marketing analytics; genuinely useful sync/partner-sharing rarely comes with E2E encryption or least-privilege designs.  
-  - FOSS/offline period trackers exist (drip, Menstrudel, etc.) → users want open formats so they can migrate data when apps turn exploitative.
+A class action covering 13 million Flo users found reproductive information—including cycles, ovulation, and pregnancy intentions—was passed to Meta, Google, and Flurry between 2016 and 2019 despite privacy assurances. An August 2025 jury found Meta liable; the others settled. The author argues this was intentional product architecture, not a breach, exposing how wellness apps evade HIPAA and obscure consent. Hacker News favored offline or end-to-end-encrypted alternatives, stronger enforcement, and portable data standards, while noting servers can support synchronization and trusted sharing.
 
-- LLM perspective  
-  - View: Treat “wellness” apps handling bodily data as healthcare-grade, with bans on secondary ad use by default.  
-  - Impact: Stronger precedent may push designers, PMs, and investors toward privacy-first architectures or local-only tracking.  
-  - Watch next: Regulatory follow‑ups on health-ad tracking, standardized export formats, and mainstreaming of audited FOSS reproductive‑health tools.
+### Comment pulse
+
+- Advertising SDKs may have been added for campaign attribution, but product teams remain responsible for understanding their downstream collection.
+- Cross-device sync does not require plaintext centralization; local-first, peer-to-peer, or end-to-end-encrypted designs can preserve convenience.
+- Open-source trackers exist across platforms, yet a common export schema is needed so users can leave abandoned or unethical apps.
+
+### LLM perspective
+
+- **View:** Health-data sensitivity comes from inference and context, regardless of whether HIPAA formally covers the collector.
+- **Impact:** Post-Dobbs users face risks beyond advertising when intimate histories can be subpoenaed, breached, or repurposed.
+- **Watch next:** Damages, appeals, regulator action, SDK audits, offline defaults, encryption, deletion guarantees, and interoperable cycle-data formats.

@@ -2,15 +2,18 @@
 
 - Score: 250 | [HN](https://news.ycombinator.com/item?id=47932028) | Link: https://github.blog/changelog/2026-04-27-github-copilot-code-review-will-start-consuming-github-actions-minutes-on-june-1-2026/
 
-- **TL;DR**  
-  GitHub is changing how Copilot code reviews are billed: starting June 1, 2026, each review on private repos will both consume AI Credits and use GitHub Actions minutes on hosted runners, with overages billed at standard Actions rates. Public repos stay free for Actions minutes. Organizations are urged to review Actions usage, budgets, and runner setup. HN discussion frames this as part of a broader end to AI subsidies and questions Copilot’s value versus cheaper, stronger competitors and local/open models.
+### TL;DR
 
-- **Comment pulse**
-  - AI pricing normalization → subsidies are ending; vendors now probe how high prices can go without losing customers—counterpoint: many enterprise APIs already run at profitable unit economics.
-  - Copilot singled out → seen as weaker and now dramatically pricier than Cursor/Claude/etc., so hikes look like self-sabotage unless Microsoft reverses after cancellations.
-  - Metrics distortion → Copilot review comments inflate PR activity stats, obscuring human engagement and sometimes triggering negative performance perceptions for authors.
+From June 1, every Copilot code review will consume AI Credits, while reviews on private repositories will also use GitHub Actions minutes because the agent runs on hosted runners. Included minutes apply first; excess usage is billed at standard Actions rates, while other runner choices follow their own billing models. Public-repository Actions remain free. The change covers Pro, Pro+, Business, Enterprise, and directly billed reviews from unlicensed organization members. HN readers viewed the two-part charge as AI subsidy withdrawal and questioned whether Copilot’s review quality justifies rising, harder-to-predict costs.
 
-- **LLM perspective**
-  - View: Tying agentic reviews to Actions minutes exposes their real infra cost and forces teams to explicitly value automated review quality.
-  - Impact: Finance, platform, and eng leads must jointly tune Copilot usage, Actions budgets, and “when to trigger review” policies.
-  - Watch next: Compare TCO of Copilot vs editor-native agents vs self-hosted models; demand clearer bot-vs-human metrics and per-feature cost dashboards.
+### Comment pulse
+
+- Some expect all AI vendors to raise prices as subsidies end — counterpoint: others argue frontier APIs already carry healthy margins.
+- Critics called Copilot weaker than competing assistants and warned higher prices could drive cancellations despite GitHub integration.
+- Maintainers want bot comments separated from human metrics because automated feedback can falsely signal community engagement.
+
+### LLM perspective
+
+- Organizations should forecast reviews per repository and set separate Actions and AI budgets before rollout.
+- Unit-cost dashboards should attribute each review across both meters in one record.
+- Watch cancellation rates, review adoption, and whether competitors copy dual-meter billing.

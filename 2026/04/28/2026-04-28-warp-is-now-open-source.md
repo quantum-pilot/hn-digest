@@ -2,15 +2,18 @@
 
 - Score: 222 | [HN](https://news.ycombinator.com/item?id=47937349) | Link: https://github.com/warpdotdev/warp
 
-- TL;DR  
-  Warp, a GPU-accelerated Rust terminal that bundles AI “agentic” features and UI panels (file tree, diffs, MCP integrations), has open‑sourced its client on GitHub under AGPL/MIT. The commercial focus shifts to Oz, Warp’s separate agent/orchestration platform, with OpenAI backing the new repo; the built‑in agent harness itself remains server‑side. Hacker News reactions mix enthusiasm with complaints that Warp’s UI feels heavy versus Ghostty/iTerm2, curiosity about the business model, and ethical arguments over earlier Alacritty-derived origins.
+### TL;DR
 
-- Comment pulse  
-  - UX overload: some find Warp overwhelming vs iTerm2/Ghostty, and move to simpler tools like cmux; team replies you can disable AI and extra panels.  
-  - Motivation/open-source strategy: users ask why VC-backed app opens now; founder says OSS client accelerates dev while business shifts to Oz platform; stars pre-existed.  
-  - Ethics/licensing: critics say Warp profited off an Alacritty fork without paying; others note permissive license allows this; founder says they collaborated—counterpoint: typical open-source exploitation.
+Warp has published the client code for its Rust-based agentic terminal/development environment in a repository containing AGPL and MIT licenses. The release exposes application and supporting code, while its FAQ says the built-in agent harness remains server-side and closed. Warp’s founder says the business has shifted toward Oz agents and orchestration, making an open client natural and enabling community customization. Hacker News welcomed the move but found Warp’s interface increasingly overwhelming, questioned OpenAI sponsorship and prior Alacritty reciprocity, and explained that the repository’s 29,000-plus stars predated the source release.
 
-- LLM perspective  
-  - View: Open-sourcing the Rust client under AGPL/MIT gives transparency and hackability, but server-side agent stack remains a competitive, closed advantage.  
-  - Impact: Terminal ecosystem may consolidate around agent-aware frontends; existing projects like Ghostty, kitty, cmux will feel pressure to match integrations.  
-  - Watch next: Contributor traction on this large Rust codebase, and whether lightweight, non-AI forks emerge for users preferring simpler terminals.
+### Comment pulse
+
+- Users want richer terminal abstractions but not a dense editor-agent UI; configurable feature visibility may bridge Ghostty and full Warp.
+- Existing stars came from the former issues-only repository, so launch-day totals do not represent overnight adoption.
+- Critics faulted Warp for limited Alacritty reciprocity — counterpoint: contributors and Warp’s founder said the projects collaborated initially under permissive terms.
+
+### LLM perspective
+
+- **View:** Open-sourcing the client creates auditability and customization without decentralizing the hosted agent business.
+- **Impact:** Contributors can change terminal UX while Warp monetizes orchestration, separating community surface from proprietary service.
+- **Watch next:** Build reproducibility, external contribution velocity, license boundaries, ACP support, telemetry controls, and whether server dependencies limit forks.

@@ -2,15 +2,18 @@
 
 - Score: 234 | [HN](https://news.ycombinator.com/item?id=47938184) | Link: https://waymo.com/blog/shorts/waymo-in-portland/
 
-- TL;DR  
-  Waymo is beginning manual testing in Portland as a step toward launching its robotaxi service, pitching it as a Vision Zero and anti–drunk driving tool backed by local officials and MADD. Commenters note the timing: Portland’s transit agency is slashing service amid a budget crisis and looming payroll-tax repeal, while rideshare pay rules tighten. Many see Waymo as a high-priced taxi that can’t replace buses, though users praise its safety and reliability versus Tesla’s slower-moving FSD ambitions.
+### TL;DR
 
-- Comment pulse  
-  - Transit crisis context: TriMet cuts service and payroll-tax funding is at risk; critics fear Waymo diverts focus from rebuilding robust, low-cost public transit.  
-  - Hands-on users report Waymo drives more smoothly and confidently in city edge cases than Tesla FSD, and is actually usable unsupervised as a commercial robotaxi.  
-  - Some dream of road-trip camper-robotaxis, but others argue trains and buses already solve 80% of needs—counterpoint: autonomous cars still help for gear-heavy, last-mile trips.
+Waymo has begun manually driving vehicles around Portland to map streets, bridges, and traffic patterns while working with officials and groups toward an eventual commercial deployment. The company frames robotaxis as supporting Vision Zero and impaired-driving prevention, citing a 13-fold reduction in serious-injury crashes where it already operates; no launch date or service area is specified. Hacker News users praised Waymo’s confident edge-case handling but warned that an expensive taxi cannot replace Portland’s shrinking transit network, questioned suburban coverage, and highlighted streetcar tracks, construction, and unusual signals as local tests.
 
-- LLM perspective  
-  - View: Portland will test whether cities adopt AVs as complements to, or replacements for, struggling transit and basic street-safety investments.  
-  - Impact: Transit agencies, taxi drivers, and disability advocates must adapt pricing, coverage, and regulation as AVs cherry-pick profitable corridors.  
-  - Watch next: pricing versus Uber/Lyft, coverage beyond downtown, incident reports with Portland’s rail network, and any city subsidies or caps.
+### Comment pulse
+
+- TriMet faces layoffs, route cuts, and a $300M shortfall, making robotaxi arrival politically salient but not equivalent capacity.
+- One Houston rider found Waymo calmer than Tesla FSD and unexpectedly shifted toward transit after experiencing freedom from driving.
+- Rail interactions remain a concern — counterpoint: commenters expect automated vehicles to outperform humans at crossings over comparable driving hours.
+
+### LLM perspective
+
+- **View:** Portland’s weather and mixed street-running rail provide a meaningful expansion test beyond warm, car-centric markets.
+- **Impact:** Robotaxis may complement late-night and accessibility gaps while potentially competing with drivers and transit funding narratives.
+- **Watch next:** Regulatory approval, geofence boundaries, fares, fleet size, rain performance, streetcar incidents, accessibility, and links with TriMet.

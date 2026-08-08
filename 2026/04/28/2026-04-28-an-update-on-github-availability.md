@@ -3,22 +3,17 @@
 - Score: 302 | [HN](https://news.ycombinator.com/item?id=47932422) | Link: https://github.blog/news-insights/company-news/an-update-on-github-availability/
 
 ### TL;DR
-GitHub’s CTO explains two recent high‑profile outages and outlines a push to design for 30× today’s scale, driven largely by automated/agentic workloads. Short term, they’ve removed bottlenecks, reduced database load, isolated critical services (git, Actions), and leaned on Azure for more compute; longer term they’re moving more code out of the Ruby monolith, optimizing monorepos/merge queues, and pursuing multi‑cloud. HN readers remain skeptical, citing ongoing instability, Azure concerns, vague graphs, and visible bugs in PR lists and search.
 
----
+GitHub says agentic development pushed repository creation, pull requests, APIs, automation, and monorepos beyond its 10× capacity plan, requiring infrastructure designed for 30× current scale. It is expanding Azure compute, isolating Git and Actions, reducing database load, moving hot paths from Ruby to Go, and exploring multicloud resilience. The April 23 merge-queue regression affected 658 repositories and 2,092 pull requests; an April 27 Elasticsearch overload disrupted search-backed UI. Commenters welcomed scale data but remained skeptical that stated reliability priorities match persistent outages and incomplete status reporting.
 
 ### Comment pulse
-- Priorities don’t match experience → GitHub claims “availability first,” but users see frequent outages and constant feature churn; some blame management incentives—counterpoint: big orgs can pursue multiple tracks.
 
-- Azure and multi‑cloud → Multi‑cloud read as quiet admission Azure isn’t reliable enough; others say it’s standard redundancy and enterprise-retention strategy, not just Azure shade.
-
-- Real-world symptoms → Missing PRs, broken search, and a “green” status page make reliability/transparency promises ring hollow; some suspect approximate queries as load-shedding hacks.
-
----
+- Critics saw continued feature churn despite reliability promises — counterpoint: large teams can improve capacity while unrelated teams ship interface work.
+- Users reported incomplete pull-request lists while CLI results were correct and the status page claimed all systems operational.
+- Multicloud plans raised doubts about Azure, though others called provider diversity sensible for a platform this large.
 
 ### LLM perspective
-- View: Root causes and mitigation themes are plausible, but details on concrete targets, SLAs, and rollback safeguards are thin.
 
-- Impact: Any GitHub outage now fractures global CI/CD, agent workflows, and release pipelines; platform risk becomes a board-level topic.
-
-- Watch next: Monitor uptime metrics, multi-cloud announcements, and the promised RCAs/merge-queue API changes; verify if PR/search inconsistencies actually disappear.
+- Publish labeled workload graphs and service targets so customers can distinguish growth pressure from execution failures.
+- Automated rollback gates should cover multi-PR squash groups before merge-queue changes reach production.
+- Watch the Elasticsearch analysis and whether availability metrics become granular enough for enterprise risk decisions.

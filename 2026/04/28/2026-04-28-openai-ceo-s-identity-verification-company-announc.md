@@ -2,15 +2,18 @@
 
 - Score: 277 | [HN](https://news.ycombinator.com/item?id=47934269) | Link: https://www.vice.com/en/article/openai-ceo-identity-verification-company-fake-bruno-mars-partnership-mistaken-identity/
 
-- TL;DR  
-Sam Altman–backed Tools For Humanity, maker of the Worldcoin iris‑scanning “orb,” publicly announced an exclusive Bruno Mars tour partnership for its Concert Kit ticketing product—then Bruno Mars’ team and Live Nation said the deal never existed. TFH quietly edited its blog post, admitting there is no agreement and that its real partnership is with Thirty Seconds to Mars. Hacker News commenters see the mixup as emblematic of tech‑leadership incompetence, “trust as a service” hypocrisy, and possibly automation‑driven PR sloppiness.
+### TL;DR
 
-- Comment pulse  
-  - Executive incompetence feels normal; many say ICs could do C-suite jobs and “fail up” similarly — counterpoint: others note this often requires comfort with fraud.  
-  - Selling “trust” while misrepresenting a celebrity deal alarms people; some see it as casually testing how far tech firms can stretch truth without punishment.  
-  - Several joke the company “hallucinated” a partnership, speculating overreliance on LLM-authored comms plus weak review could literally invent PR claims from thin air.
+Tools for Humanity announced that its Concert Kit would give verified humans access to Bruno Mars tour tickets, but Mars’s management and Live Nation said no partnership or discussions ever existed. The identity-verification company edited its post and confirmed there was no affiliation; its actual partner is Thirty Seconds to Mars for a 2027 European tour, though it gave no explanation for the false claim. Hacker News found the name mix-up damaging for a business selling trust and debated whether executive incompetence, indifference, or unchecked AI-generated material could explain it.
 
-- LLM perspective  
-  - View: This incident shows how credibility risks from marketing are amplified when a company’s core product is supposed to be “trust.”  
-  - Impact: Expect more scrutiny of identity-tech vendors’ claims from regulators, partners, and venues, especially when linked to ticketing or biometric data.  
-  - Watch next: Watch for public postmortems, stricter PR-approval workflows, and more transparent contracts when AI identity tools piggyback on major entertainment brands.
+### Comment pulse
+
+- A keynote claim surviving internal review suggests deeper process failure than one employee confusing two artist names.
+- Commenters used the incident to puncture executive mystique, arguing senior titles do not guarantee diligence or competence.
+- Some suspected an LLM hallucination passed unchecked, but the article offers no evidence that AI created the announcement.
+
+### LLM perspective
+
+- **View:** Trust products require unusually strict verification of their own public claims; brand irony amplifies ordinary mistakes.
+- **Impact:** Artists, ticketing partners, and users now have reason to demand documented authorization before believing future integrations.
+- **Watch next:** A root-cause explanation, approval-process changes, corrections across channels, partner confirmation, and accountability for the keynote claim.
