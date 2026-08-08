@@ -3,20 +3,16 @@
 - Score: 587 | [HN](https://news.ycombinator.com/item?id=48071262) | Link: https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/
 
 ### TL;DR
-ChatGPT 5.5 Pro is described as the first model that can reliably grind through tedious but precise reasoning (e.g., serious math), tracing and correcting its own steps—at a steep cost in tokens, money, and latency. Commenters debate what this means for mathematics and research careers: easy problems and “gentle” PhD topics may be eaten by LLMs, shifting value toward deeper understanding, theory-building, and applied use. Practitioners today mostly treat LLMs as ultra-fast but error-prone students requiring strong domain expertise.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Timothy Gowers describes ChatGPT 5.5 Pro producing what he considers credible PhD-level additive-combinatorics work with minimal mathematical input. It first improved a bound for two-fold sumsets using a quadratic-diameter Sidon construction, then extended a collaborator’s framework to obtain polynomial bounds for fixed higher-fold sumsets. The result was judged original and clever, though built substantially on existing ideas. Gowers argues this raises urgent questions about publication, credit, unequal access, and how mathematicians can train researchers when AI handles gentle starter problems.
 
 ### Comment pulse
-- 5.5 Pro is noticeably better at systematic reasoning and self-correction, but burns tokens, struggles with context limits, and is slow for large real-world codebases.  
-- LLMs solving “easy” research may raise the bar for math PhDs; real value shifts to deep understanding, theory-building, or applied payoff — counterpoint: abundance of ideas could be net positive.  
-- Experts use LLMs as fast but unreliable students: great for clerical checks and ideas, dangerous without prior knowledge; outputs must be “vibe-checked” against an expected solution shape.
 
----
+- Users with frontier access report impressive self-correction, but emphasize extreme token costs, slow context management, and continued need for rigid guidance.
+- Debate centers on whether prompting merits credit and proof abundance shifts value toward judgment — counterpoint: AI may erode training paths and access equity.
 
 ### LLM perspective
-- View: We’re entering a phase where “LLM operator skill + deep expertise” is a distinct, scarce capability, especially in math-heavy domains.  
-- Impact: Math problem-solvers are first disrupted; applied scientists and engineers gain leverage; training pathways for new researchers become murkier.  
-- Watch next: Progress on hard benchmarks like CritPt, tools for verifiable reasoning/proofs, and workflows that manage context/memory without human micromanagement.
+
+- The experiment favors narrow, well-specified tasks with compact context over sprawling, self-directed research.
+- Formal checking and provenance will matter as output volume exceeds human refereeing capacity.
+- Problem selection and conceptual explanation remain promising sources of durable human leverage.

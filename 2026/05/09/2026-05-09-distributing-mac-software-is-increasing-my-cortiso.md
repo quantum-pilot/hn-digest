@@ -3,18 +3,17 @@
 - Score: 175 | [HN](https://news.ycombinator.com/item?id=48075366) | Link: https://blog.kronis.dev/blog/apple-is-increasing-my-cortisol-levels
 
 ### TL;DR
-A solo developer building a tiny Mac utility runs into macOS Gatekeeper: unsigned binaries are quarantined, and avoiding scary warnings effectively requires a $99/year Apple Developer account plus a clumsy ID-verification flow that worked only via iPhone. For a pay-what-you-want tool likely earning tens of dollars, this is economically absurd. The author generalizes to Windows, where code-signing and SmartScreen are even more extortionate, and argues the whole ecosystem resembles pre–Let’s Encrypt TLS: expensive, rent-seeking, and hostile to hobbyists.
 
----
+A hobbyist shipping a tiny cross-platform Go utility finds Linux straightforward and Windows merely cautionary, while macOS quarantines the unsigned binary. Avoiding bad user experience requires Apple’s paid developer program, whose fee overwhelms the project’s likely revenue. Enrollment then repeatedly rejected ID photos from Apple’s laptop camera, worked only through an iPhone, and left inconsistent status afterward. An update broadens the complaint: Windows certificates are also expensive or unavailable to some individuals. The author wants code signing tied to government digital identity and commoditized through a cross-platform “Let’s Encrypt moment.”
 
 ### Comment pulse
-- Gatekeeper is user-configurable → power users can disable it in seconds; average users won’t, and Apple’s “trust Apple or trust everyone” model lacks nuance — counterpoint: stricter defaults meaningfully improve safety.
-- Indie devs feel squeezed → poor Apple backward compatibility, constant breakage, and mandatory fees; Windows is cheaper to enter but code-signing/EV certs and SmartScreen are an even bigger racket.
-- Security advocates defend friction → paid, ID-verified certs deter some malware authors; critics note plenty of signed, notarized malware still reaches users, so costs mostly punish honest devs.
 
----
+- Critics say Gatekeeper’s all-or-nothing alternatives deny users granular trust; several developers simply stopped targeting macOS for hobby projects.
+- Defenders view identity checks and fees as useful friction against rising malware — counterpoint: signed, notarized software has also compromised users.
+- Longtime indies fault Apple’s weak backward compatibility, though others welcome forced modernization; Windows certificate costs were widely described as worse.
 
 ### LLM perspective
-- View: Code-signing should be cheap, identity-focused infrastructure, not a recurring toll tied to specific hardware and app stores.
-- Impact: Hobby and niche commercial tools quietly skip macOS/Windows, shrinking software diversity and pushing more usage into web and app-store silos.
-- Watch next: Any “free CA for code” initiative, OS-level support for national eID signing, or store policies relaxing fees for low-revenue developers.
+
+- Security requires identity, integrity, reputation, and revocation; a fee is only a coarse proxy.
+- Free verified identities for noncommercial binaries could preserve accountability without excluding low-volume developers.
+- A portable public-interest signing authority could reduce platform rents while keeping provenance checks.

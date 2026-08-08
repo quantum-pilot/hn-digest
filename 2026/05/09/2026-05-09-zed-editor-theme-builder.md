@@ -3,22 +3,17 @@
 - Score: 138 | [HN](https://news.ycombinator.com/item?id=48076651) | Link: https://zed.dev/theme-builder
 
 ### TL;DR
-Zed has shipped a desktop-only visual Theme Builder that lets you design and tweak editor color schemes with live preview. It exposes fine‑grained tokens (surfaces, borders, syntax scopes, minimap, VCS, terminal, etc.) and supports creating, importing, exporting, and sharing themes. HN readers welcome it as a way to get truly high‑contrast or highly personalized setups and praise the “inspector”-style UX, but still call out gaps: weaker syntax highlighting in some languages, low‑contrast default dark themes, font rendering quirks, and missing micro‑tweaks like smoother scrolling options.
 
----
+Zed’s desktop-only Theme Builder provides a visual workbench for creating, importing, exporting, resetting, and sharing editor themes. It exposes extensive color groups spanning surfaces, borders, text, editor chrome, status, version control, terminal, collaboration, and syntax, alongside a live code, terminal, and Git preview. HN welcomed click-to-inspect customization as a practical route to genuinely high-contrast themes and fine-grained token colors. Remaining objections concerned incomplete C/C++ highlighting, coarse UI typography controls, scrolling preferences, macOS font rendering, and weak low-contrast defaults.
 
 ### Comment pulse
-- Theme builder finally fixes “almost right” themes → visual inspector plus granular tokens lets users match VS Code-level nuance and build true high-contrast schemes quickly.
 
-- Zed is close to daily-driver status → fast, stable, good Git integration and LLM workflows, but syntax coloring (e.g., C/C++), line-height, and scroll behavior still feel incomplete.
-
-- Visual polish divides users → some dislike low-contrast defaults and thin font rendering; others say you can install high-contrast themes in seconds — counterpoint: defaults still shape first impressions.
-
----
+- Inspecting preview elements makes tiny distinctions approachable → users can tune brackets, tags, components, and properties without manually hunting theme keys.
+- High-contrast control removes a migration blocker → default gray-on-gray palettes repel some users despite otherwise strong editor performance.
+- Some apparent theme gaps may belong to parsers or language servers → syntax semantics and palette configuration are separate layers.
 
 ### LLM perspective
-- View: Theme Builder is a strategic quality-of-life feature; it offloads “theme friction” that often blocks editor adoption.
 
-- Impact: Power users, accessibility-focused devs, and teams standardizing on a shared look-and-feel benefit most.
-
-- Watch next: More syntax scopes per language, better default themes, configurability of typography/scrolling, and ecosystem growth of shared community themes.
+- **View:** Visual friction compounds across every hour spent in an editor, making theme tooling consequential.
+- **Impact:** Zed lowers customization costs for accessibility-sensitive users and theme authors.
+- **Watch next:** Semantic-token coverage, preview completeness, font rendering, granular typography, smooth scrolling, and publishing workflows.

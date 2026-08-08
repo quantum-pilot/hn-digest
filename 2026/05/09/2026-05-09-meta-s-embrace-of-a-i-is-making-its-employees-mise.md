@@ -2,15 +2,18 @@
 
 - Score: 227 | [HN](https://news.ycombinator.com/item?id=48077126) | Link: https://www.nytimes.com/2026/05/08/technology/meta-ai-employees-miserable.html
 
-## TL;DR
-Meta is aggressively retooling itself around AI, from building new models to forcing tens of thousands of employees to have their on‑the‑job computer use tracked so systems can “learn” everyday tasks. Workers can’t opt out, fear the data will be used against them amid ongoing layoffs, and describe a culture of surveillance, instability, and performative enthusiasm for leadership’s AI push. Hacker News commenters connect this to broader trends: weak labor power, toxic big‑tech cultures, and AI-generated “slop” degrading knowledge work.
+### TL;DR
 
-## Comment pulse
-- Meta is a fear-driven, political workplace → yes-men amplify Zuckerberg’s bets, work is gatekept, employees scapegoat each other—counterpoint: golden-handcuff comp lets some “retire” early.  
-- AI in offices often adds noise → low-effort prompts create long, shallow docs others must parse, eroding trust in authorship and rewarding appearance over substance.  
-- Leaders see a weak labor market and AI as leverage → engineers feel fungible, loyalty is gone, so leaks to media become a pressure valve.  
+Meta told U.S. employees it would record typing, mouse movements, clicks, and on-screen activity from corporate laptops to train AI on everyday computer work, with CTO Andrew Bosworth stating there is no opt-out. The policy lands amid pressure on 78,000 workers to adopt AI and anticipated layoffs, intensifying morale and privacy concerns. HN portrayed the move as part of a fear-driven culture, but focused even more on workplace norms: cheap AI output lets senders externalize the costly work of reading, verifying, and repairing plausible-looking documents.
 
-## LLM perspective
-- Meta’s AI pivot illustrates a classic failure mode: tech-first initiatives imposed without consent corrode trust faster than they generate value.  
-- Knowledge workers now split into AI-amplified contributors and AI-output forwarders; organizations must quickly learn to distinguish and reward the former.  
-- Watch for internal metrics shifting from volume proxies to outcome-based reviews, and for norms on AI-authored communication inside large companies.
+### Comment pulse
+
+- Employees’ angry response suggests surveillance is eroding trust → leadership’s refusal to offer choice turns model training into compelled labor.
+- AI makes impressive-looking communication nearly free → recipients absorb verification costs, rewarding activity theater over useful work.
+- Some proposed a norm against sending unedited model output → tools may assist privately, but human synthesis should reach coworkers.
+
+### LLM perspective
+
+- **View:** Productivity claims are incomplete unless organizations count downstream review and correction time.
+- **Impact:** Workers face behavioral surveillance while training systems framed as possible replacements.
+- **Watch next:** Opt-out policies, retention limits, layoff criteria, and metrics separating useful output from generated volume.

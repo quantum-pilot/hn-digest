@@ -2,10 +2,18 @@
 
 - Score: 125 | [HN](https://news.ycombinator.com/item?id=48040306) | Link: https://mceglowski.substack.com/p/bitter-lessons-from-the-isspresso
 
-## TL;DR
-Using the ISSpresso coffee machine as a case study, Cegłowski shows that human spaceflight costs are dominated by safety certification, hidden system couplings, and harsh environments—not launch prices. NASA’s exhaustive standards and review process exist to prevent small devices from endangering the ISS in ways that are nearly impossible to debug in orbit. Even with cheap Starship-scale rockets, Mars missions will still spend billions on ultra-reliable, lightweight surface and life-support systems, unless we reform testing, fly more, and accept controlled risk.
+### TL;DR
 
-## LLM perspective
-- View: Space remains hardware- and process-limited; launch startups don't erase the need for conservative engineering when lives are at stake.  
-- Impact: Cheap launch mostly benefits uncrewed, high-volume experiments; crewed Mars timelines remain constrained by qualification cycles and surface-entry mass bottlenecks.  
-- Watch next: Track reusable life-support modules, commercial stations, and Mars EDL tech; they show whether certification costs can amortize across flights.
+ISSpresso, a 20-kilogram orbital espresso machine, illustrates why cheaper launches alone will not make human spaceflight cheap. Ordinary hardware becomes expensive when every failure mode—fire, leakage, interference, fracture, contamination, interface mismatch—must be tested, documented, and certified because one component can endanger an entire habitat. Mars compounds this through long dormancy, dust, partial gravity, autonomous operation, and difficult heavy landings. The author proposes building flight heritage with more launches and robots, improving Mars landing capacity, retiring obsolete safety rules, and enabling bounded amateur experimentation.
+
+### Comment pulse
+
+- Readers loved the fracture-control diagram and viewed it as an unusually complete real-world finite-state machine.
+- Solar discussion attributed heater trouble to sustained load, inrush current, or undersized inverters rather than resistive loads being inherently exotic.
+- Some questioned spending on coffee — counterpoint: Lavazza may have funded it, while familiar food supports long-duration crew morale.
+
+### LLM perspective
+
+- A safety ratchet needs explicit retirement criteria, or historical hazards become permanent design taxes.
+- Test commodity payloads first on noncritical robotic missions, where failure teaches without threatening crews.
+- Mission budgets should model qualification and integration separately from transport to expose the true bottleneck.

@@ -2,15 +2,18 @@
 
 - Score: 161 | [HN](https://news.ycombinator.com/item?id=48071496) | Link: https://techrights.org/n/2026/05/08/Over_97_of_the_Linux_Foundation_s_Budget_Goes_Not_to_Linux.shtml
 
-- TL;DR  
-  The Techrights piece argues the Linux Foundation has “mission creep,” highlighting that only ~2.95% of its ~$310M budget goes directly to the Linux kernel while executives focus on buzzword-friendly initiatives. It frames this as neglect of Linux and unfair treatment of Torvalds. Hacker News commenters largely counter that the remaining funds predominantly support a vast portfolio of open-source projects (cloud, AI, tooling), with low overhead, and say the real question is how much spending isn’t supporting open source at all.
+### TL;DR
 
-- Comment pulse  
-  - LF as mega-umbrella → Manages funding, infra, and governance for hundreds of OSS projects; critics call it the BlackRock of open source.  
-  - Kernel share vs ecosystem → About $8M to Linux kernel vs ~$180M to ancillary OSS; supporters say these layers drive Linux adoption — counterpoint: article calls this mission drift.  
-  - Techrights credibility dispute → Several note Techrights’ long history of personal attacks and ideological purity tests, undermining trust in its framing of the numbers.
+Techrights calculates from the Linux Foundation’s 2025 annual report that only 2.95% of its budget directly supports the Linux kernel, portraying this as obscured mission creep and “openwashing” within an organization forecasting more than $310 million in revenue. HN largely rejected the framing: roughly 65% reportedly funds or administers a vast portfolio including Kubernetes, Node.js, PyTorch, KiCad, Zephyr, containerd, and many other open-source projects, while corporate overhead is about 5%. Critics argued the relevant question is support for open source overall, not kernel spending alone.
 
-- LLM perspective  
-  - View: Headline overstates problem; the issue is governance transparency and ensuring Linux itself isn’t strategically underfunded.  
-  - Impact: Kernel devs, corporate sponsors, and downstream distros may reassess whether LF spending aligns with their priorities.  
-  - Watch next: Independent audits, clearer project-level budgets, and alternate non-profit hosts (e.g., SPI, Software Conservancy) competing for flagship projects.
+### Comment pulse
+
+- Fiscal hosting lets projects receive earmarked sponsorship without building accounting infrastructure → centralized administration can efficiently widen open-source support.
+- Kernel-only accounting understates the Linux ecosystem → adjacent tools drive adoption and depend on shared governance, infrastructure, and events.
+- Some still worry about institutional priorities → counterpoint: participation is voluntary, alternatives exist, and cited overhead appears modest.
+
+### LLM perspective
+
+- **View:** The headline is striking but semantically weak because “Linux” and “Linux kernel” are not interchangeable.
+- **Impact:** Misframing distracts from legitimate governance questions about allocation, donor influence, and measurable project benefits.
+- **Watch next:** Publish program expenditures, restricted-fund flows, executive compensation, and kernel-specific trends across multiple years.

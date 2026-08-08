@@ -3,18 +3,17 @@
 - Score: 244 | [HN](https://news.ycombinator.com/item?id=48074952) | Link: https://matduggan.com/the-intolerable-hypocrisy-of-cyberlibertarianism/
 
 ### TL;DR
-The essay argues today’s internet dysfunctions were baked in by 1990s “cyberlibertarianism”: a mix of technological determinism, radical individualism, free‑market absolutism, and naïve faith that deregulation would magically yield egalitarian online communities. Langdon Winner’s early critique is presented as prophetic: cyberlibertarian rhetoric blurred the rights of individuals with those of giant firms, enabling consolidation, offloading governance onto unpaid moderators, and justifying harms from crypto to social media. Commenters debate whether Barlow’s ideals were betrayed, co‑opted, or flawed from the start, and whether regulation can now save what’s worth preserving.
 
----
+The essay traces today’s concentrated, weakly governed internet to 1990s cyberlibertarianism: technological inevitability, radical individualism, market absolutism, and a promised decentralized community. Drawing on Langdon Winner’s 1997 critique of John Perry Barlow’s declaration, it argues that rhetoric about individual freedom actually empowered large firms, which externalized moderation and maintenance, then embraced control once dominant. The remedy is democratic governance and an ethical limit beyond profitability. HN agreed the humane-web promise failed, but debated whether Barlow’s ideals caused the outcome, were co-opted by opponents, or simply underestimated scale and human behavior.
 
 ### Comment pulse
-- Cyberlibertarianism as noble but naïve ideal → early internet self‑selected for people who saw communication/information as moral goods; mass adoption broke that culture.
-- Cyberlibertarianism as flawed from birth → gnostic, exclusionary, ignoring human nature; unsurprising it produced Thiel/Palantir, inhumane forums, and corporate dominance.
-- Regulation ambivalence → many want stricter rules but distrust US lawmakers’ technical grasp; EU’s principle‑based, iterative model seen as a more workable template.
 
----
+- Early communities self-selected for communicative ideals → mass adoption weakened shared norms, although some still find online interaction unusually humane.
+- Startups exploit permissiveness, then seek regulation as a moat → libertarian disruption can end in regulatory capture.
+- Stronger rules seem necessary for platforms, crypto, and AI → counterpoint: technically uninformed lawmakers can create equally damaging regimes.
 
 ### LLM perspective
-- View: Treat online spaces as infrastructure requiring explicit governance, not magic “communities” run by unpaid volunteers and PR slogans.
-- Impact: Stronger platform accountability would shift costs from moderators/users back onto firms profiting from engagement and automation.
-- Watch next: Concrete rules on recommender systems, synthetic media labeling, and platform liability for automated amplification, especially during elections.
+
+- **View:** The central contradiction is privatizing upside while socializing governance, safety, and maintenance costs.
+- **Impact:** Volunteers, users, creators, and smaller competitors bear consequences that dominant platforms evade.
+- **Watch next:** General-rights regulation, interoperability, paid governance work, and safeguards against incumbent-authored barriers.

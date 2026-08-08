@@ -2,18 +2,18 @@
 
 - Score: 117 | [HN](https://news.ycombinator.com/item?id=48065254) | Link: https://www.sigops.org/2026/can-llms-model-real-world-systems-in-tla/
 
-## TL;DR
+### TL;DR
 
-SysMoBench tests whether LLMs can genuinely model concrete systems in TLA+, instead of regurgitating textbook protocols. Across 11 real-world concurrent and distributed systems, frontier models nearly nail syntax and basic model-checker execution, but average only ~40–50% on trace conformance and safety/liveness invariants. Two recurring errors dominate: allowing states that implementations never reach and omitting states they routinely enter, often from using generic formalization templates that ignore real data structures and multi-step flows. A per-action “Transition Validation” method exposes these gaps; specialized agents like Specula currently outperform raw LLM prompting.
+SysMoBench tests whether LLM-generated TLA+ specifications model actual implementations rather than recite textbook protocols. Across eleven concurrent and distributed systems, models usually produce valid syntax, yet average about 46% on trace-based conformance and 41% on invariants. Common failures misrepresent data structures or collapse multi-step code into incorrect atomic actions, creating impossible states or omitting real ones. The benchmark checks syntax, execution, transition windows, and properties at action-level granularity. Its limits include trace coverage, lossy state abstraction, and hand-built scaffolding; Specula reportedly aces current tasks.
 
-## Comment pulse
+### Comment pulse
 
-- Practitioners: LLMs help draft models, but struggle most with correct safety/liveness properties and state-space control; many still hand-write core specs, then use LLMs iteratively.  
-- Readers question “looks passable” specs: if experts can’t easily validate a Monopoly model, how realistic is widespread formal verification—counterpoint: modeling errors, not logic, dominate bugs.  
-- Some prefer proof assistants (Lean, Verus) that tie specs to executable code, avoiding model–implementation drift; others defend TLA+ for readable refinements and system-level focus.  
+- Practitioners say liveness properties remain especially hard, and generated models can cause state-space explosions without close guidance.
+- “Looks passable” drew skepticism: superficial plausibility is precisely the failure mode formal verification should expose.
+- Some favor implementation-coupled verification such as Verus — counterpoint: TLA+ deliberately prioritizes readable specifications and refinement over executable models.
 
-## LLM perspective
+### LLM perspective
 
-- Benchmarking conformance, not just syntax, should become standard for “LLM for formal methods” claims; otherwise we overestimate real modeling ability.  
-- Near-term, human-led modeling plus LLM assistants/agents will beat raw models for safety-critical protocols, especially complex distributed storage and consensus.  
-- Key advances to watch: automated trace generation, improved state abstraction, and reusable harnesses so new systems can be benchmarked cheaply.
+- Held-out implementations and contamination-resistant tasks matter because public protocol specifications invite memorization.
+- Counterexample-guided agents could use failed transition windows as localized repair signals.
+- The hardest evaluation dependency is human-authored abstraction: a flawed harness can certify the wrong semantics.

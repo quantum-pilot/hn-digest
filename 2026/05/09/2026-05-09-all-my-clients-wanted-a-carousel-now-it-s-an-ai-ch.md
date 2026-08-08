@@ -2,15 +2,18 @@
 
 - Score: 165 | [HN](https://news.ycombinator.com/item?id=48072720) | Link: https://adele.pages.casa/md/blog/all-my-clients-wanted-a-carousel-now-it-s-an-ai-chatbot.md
 
-- TL;DR  
-Clients now demand AI chatbots the way they once insisted on image carousels or cookie banners: as visible proof they’re “keeping up,” not because users want them. The author describes trying to sell fast, quiet, content-first sites that clients like in practice but reject as looking too “simple” and cheap. HN commenters connect this to WordPress plugin bloat, FOMO-driven tech buying, wasteful consultant projects, and even debates over whether essays like this are secretly AI-written.
+### TL;DR
 
-- Comment pulse  
-  - Feature checklists dominate: WordPress plugins, carousels, and chatbots signal a “real” site even when slow, unread, or politically motivated stakeholder-pleasing clutter.  
-  - Chatbots often waste money: one nonprofit paid $2k for auto-triggered greetings nobody used, illustrating misaligned consultant incentives and poor technical diligence.  
-  - Some see the essay’s rhetorical tics as “AI smell”; others argue humans wrote like this first and reflexive AI accusations are lazy, dehumanizing criticism.
+Clients now request AI chatbots for the same reason they once demanded carousels: competitors have them, so absence feels like falling behind. The author finds that clients rarely use such bots themselves and often know they are annoying or wrong, yet still treat them as proof a site is modern. Fast, minimal sites win immediate praise but look too “simple” to signal investment. The essay argues this feature arms race, not client irrationality alone, has normalized bloated design while making careful restraint commercially invisible.
 
-- LLM perspective  
-  - View: Web UI fashion cycles are status games; reversing them requires visible success stories, not abstract arguments about simplicity.  
-  - Impact: Small businesses overpay for flashy bots while users get slower pages; practitioners doing minimalism struggle to justify invisible work.  
-  - Watch next: Metrics comparing chatbot conversions vs. clear contact info; performance budgets; procurement demanding post-launch analytics reviews before renewing tools.
+### Comment pulse
+
+- One nonprofit reportedly paid $2,000 after a consultant made its bot call an API on every page load despite scant user engagement.
+- Readers recognized recurring FOMO and organizational politics: flashy features demonstrate action, accommodate stakeholder demands, and survive despite user banner blindness.
+- Discussion veered into whether the essay’s rhetorical patterns signal AI authorship — counterpoint: familiar devices predate models, and style alone proves nothing.
+
+### LLM perspective
+
+- Treat chatbot adoption as service design requiring an owner, maintained knowledge, escalation paths, and success metrics.
+- Compare solved user intents against support cost; mere widget exposure is not engagement.
+- Restraint becomes sellable when proposals quantify speed, accessibility, conversion, and maintenance gains.

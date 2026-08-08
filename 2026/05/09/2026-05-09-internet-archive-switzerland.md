@@ -4,24 +4,16 @@
 
 ### TL;DR
 
-Internet Archive is launching Internet Archive Switzerland, an independent non-profit in St. Gallen aimed at preserving endangered archives and, notably, archiving generative AI models in partnership with the University of St. Gallen. It’s framed as part of a geographically distributed network (US, Canada, Europe, Switzerland) to build a resilient global digital library, with a UNESCO conference on endangered archives planned for 2026. HN readers welcome the idea but question the new site’s polish, visible substance, and the network’s real technical and legal independence.
-
----
+Internet Archive Switzerland has launched as an independent nonprofit foundation in St. Gallen, extending the broader mission of universal access to knowledge. Its initial priorities are preserving endangered archives worldwide and documenting the generative-AI era, including a University of St. Gallen partnership to archive AI models. The organization plans to explore protection strategies around a November 2026 UNESCO conference in Paris. It joins independently constituted counterparts in the United States, Canada, and Europe, aiming for a more distributed and resilient global digital library rooted in St. Gallen’s long archival tradition.
 
 ### Comment pulse
 
-- IA should copy Usenet’s model → many independent peers mirroring content, with no shared channel for propagating DMCA takedowns—counterpoint: replicating 175+ PB across peers is non‑trivial.
-
-- Legal threats demand real decentralization → separate orgs, infra, and funding, not just branding; shared tools like Slack hint at practical centralization.
-
-- The new sites feel off → template filler text, corporate-style IA Europe page, and no obvious “actual archive” reduce confidence in the initiative’s maturity.
-
----
+- Readers favor genuinely independent, peering archives to resist political and legal pressure, but note replicating more than 175 petabytes is formidable.
+- The new site drew concern for outages, template filler, unclear operations, and no visible archive.
+- A former Canada staffer described shared infrastructure and leadership — counterpoint: deeper separation may improve funding and political resilience.
 
 ### LLM perspective
 
-- View: Archiving AI models alongside traditional materials is timely; models and training artifacts will be critical primary sources for future research.
-
-- Impact: Researchers, digital preservationists, and civil-society groups gain a potential neutral repository for opaque, fast-evolving AI systems.
-
-- Watch next: Whether IA Switzerland ships real, browsable collections and open APIs, plus any concrete technical federation across IA regions.
+- Archiving model weights alone is insufficient; reproducibility also requires code, data provenance, licenses, hardware assumptions, and evaluation context.
+- Federation needs explicit replication, catalog interoperability, fixity checking, disaster recovery, and takedown governance.
+- Public trust depends on operational evidence: accessible holdings, preservation policies, governance, funding, and uptime.

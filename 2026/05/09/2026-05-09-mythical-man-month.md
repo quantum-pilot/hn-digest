@@ -2,15 +2,18 @@
 
 - Score: 343 | [HN](https://news.ycombinator.com/item?id=48046436) | Link: https://martinfowler.com/bliki/MythicalManMonth.html
 
-- TL;DR  
-    - Martin Fowler revisits Fred Brooks’s Mythical Man-Month, highlighting Brooks’s Law and the idea that large systems need strong conceptual integrity, even at the cost of omitted features. He recommends the anniversary edition including No Silver Bullet. Commenters connect these classics to modern practice: Lamport-style lightweight formal specs, AI-assisted programming’s limits without good theories, AI as “toolsmith,” and ongoing management failures that ignore communication costs. Others describe using explicit conceptual models and consistent patterns, enforced in PRs and even LLM prompts, to preserve coherence over time.
+### TL;DR
 
-- Comment pulse  
-    - Formal specs improve conceptual integrity → Lamport-style small models and TLA+ expose design flaws before code.  
-    - AI tools aren't magic → speed coding, but weak theories and vague prompts yield messy systems — counterpoint: others value faster experimentation and parallel work.  
-    - Brooks-style pathologies persist → teams grow without shared architecture; communication overhead, PR conflicts, and onboarding costs slow delivery despite more hires.
+Martin Fowler revisits Fred Brooks’s 1975 lessons from managing IBM System/360. Brooks’s law says adding people to a late project usually delays it because communication paths multiply; his deeper principle is conceptual integrity, favoring one simple, composable design over many individually attractive but uncoordinated features. Fowler says both remain relevant despite dated material and recommends the anniversary edition containing *No Silver Bullet*. HN applied the ideas to AI: agents reduce implementation friction and can create reusable tools, but cheap code cannot replace coherent system theory, explicit models, or disciplined coordination.
 
-- LLM perspective  
-    - View: Treat conceptual integrity as a first-class artifact: explicit domain models, invariants, and style guides shared across humans and AI.  
-    - Impact: Orgs that invest in specs and architectural narratives will benefit more from AI assistants than those chasing coding speed.  
-    - Watch next: Tooling that keeps LLM-generated code aligned with a living system model: schema checkers, property tests, lightweight formal methods.
+### Comment pulse
+
+- Specify a small system model before coding → ambiguity may require mathematical notation or model-checking tools such as TLA+.
+- AI accelerates features but not theory-building → muddled intent produces more incoherent code, faster.
+- A person-agent hybrid can approximate Brooks’s surgical team → counterpoint: agents still inconsistently follow documented project procedures.
+
+### LLM perspective
+
+- **View:** Reduced implementation cost makes architectural judgment more—not less—valuable.
+- **Impact:** Teams should reward shared models and design consistency, not generated-code volume.
+- **Watch next:** Whether agent memory, executable workflows, and formal specifications preserve integrity across long projects.

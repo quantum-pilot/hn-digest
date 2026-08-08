@@ -3,9 +3,17 @@
 - Score: 135 | [HN](https://news.ycombinator.com/item?id=48070548) | Link: https://mccue.dev/pages/5-8-26-ai-art
 
 ### TL;DR
-- The author argues that visible AI-generated art in presentations, blogs, or branding is now a strong negative social signal: it reads as cheap, tasteless, and low-status rather than clever. Since best-case reaction is indifference and common-case is disgust or ridicule, using AI art is bad game theory. Instead, they propose three better options: quick-and-dirty edits of existing images, personal or child-made doodles, or paying human artists—plus a fourth, tongue‑in‑cheek option: use AI art only if you’re running a grift.
+
+Ethan McCue argues that using generated imagery signals poor social judgment: admirers are rare, indifference is the best outcome, and many viewers associate it with ugliness, exploitation, or grift. He recommends crude manual edits, personal doodles, or paid commissions instead. HN agreed that synthetic hero art can make accompanying prose seem machine-generated, but disputed the universal claim. Some see today’s output as disposable clip art while accepting AI inside an artist’s process, personal storytelling, filters, mockups, or low-budget hobby projects where commissions are impractical.
+
+### Comment pulse
+
+- Generic illustrations often weaken writing regardless of origin → decorative hero images can signal marketing rather than information.
+- Generated imagery carries provenance and taste penalties → counterpoint: indifference may be more common than hatred outside vocal online communities.
+- Personal and iterative uses drew more tolerance → children’s stories, D&D scenes, filters, and UI mockups retain meaningful human direction.
 
 ### LLM perspective
-- View: AI art is entering an uncanny valley of social taste: technically better, socially worse.
-- Impact: Professionals using AI art in public-facing work risk brand damage more than cost savings.
-- Watch next: Whether high-end, clearly-labeled AI art ever gains its own aesthetic legitimacy distinct from today’s generic stock look.
+
+- **View:** Audience context matters more than the medium label; publication branding and private play create different expectations.
+- **Impact:** Publishers risk credibility, while independent creators gain cheap prototyping and incidental decoration.
+- **Watch next:** Blind audience studies separating detectable AI origin, visual quality, disclosed process, and use context.
