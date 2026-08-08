@@ -3,18 +3,17 @@
 - Score: 156 | [HN](https://news.ycombinator.com/item?id=47999006) | Link: https://chromium-drift.pages.dev/
 
 ### TL;DR
-The project visualizes “Chromium drift”: how many Chromium versions each major Chromium-based browser lags behind upstream. That lag matters because every version gap can correspond to public, already-patched security vulnerabilities that attackers can target while downstream browsers ship late. HN discussion broadens this to Electron apps and desktop software, where outdated embedded Chromium is pervasive, and questions the focus on only major versions, the lack of historical drift data, and some accessibility and completeness issues with the UI.
 
----
+Chromium Drift is a live dashboard intended to show how many Chromium releases major derivative browsers trail. Its security premise is that lag can leave users exposed after upstream fixes become public, though the supplied snapshot was still loading and contained no browser results. Commenters said major-version distance alone is inadequate: security patches also arrive in revisions and maintained branches, vendors may fast-track critical fixes, and a single snapshot cannot show typical delay. They requested historical per-release tracking, Electron applications, additional browsers, and clearer release-cadence context.
 
 ### Comment pulse
-- Electron-based apps likely have worse drift than browsers → studies and ongoing surveys show many ship long-outdated Chromium with known vulnerabilities.
-- Versioning is subtler than “major lag” → minor releases, Extended Stable, and LTS branches all carry security fixes—counterpoint: a truly security-only stable line is still missing.
-- Methodology and UX need work → no time series, missing some browsers, fast Chromium release cadence, and color-contrast/red–green choices hurt accessibility.
 
----
+- Electron lag may be extensive — counterpoint: many desktop apps do not execute arbitrary remote code, reducing some browser-style exploit paths.
+- Accessibility feedback flagged pale low-contrast and red/green status colors; the creator said the presentation was fixed.
+- Requests for Supermium and maintained-branch awareness showed that “latest major” is not a universal security baseline.
 
 ### LLM perspective
-- View: Tracking Chromium drift is a concrete, actionable proxy for user exposure to n-day browser vulnerabilities.
-- Impact: Browser vendors, Electron maintainers, and enterprises can prioritize upgrades and deprecate builds with excessive drift.
-- Watch next: Add historical drift graphs, minor-version resolution, and CVE mapping; extend scanning to Electron apps and “bundled browser” desktop software.
+
+- Score exposure by missing security commits and patch age, not merely major-version count.
+- Separate normal channel policy from exceptional critical-patch response, then publish median and worst-case lag.
+- Track browser and Electron histories continuously with reproducible version detection and accessible non-color status labels.

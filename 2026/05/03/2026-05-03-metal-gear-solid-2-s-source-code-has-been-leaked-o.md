@@ -2,19 +2,18 @@
 
 - Score: 215 | [HN](https://news.ycombinator.com/item?id=47998790) | Link: https://www.thegamer.com/mgs2-hd-edition-source-code-massive-leak/
 
-## TL;DR
-Source code for the 2011 HD remaster of Metal Gear Solid 2 (Vita/Xbox 360 versions) has leaked via 4chan. It may be code-only or include large unused assets, but either way it’s a big win for preservation and modding: cleaner than the original PS2 code and potentially enabling fan ports, patches, and deep script analysis of the famously opaque ending. HN commenters share mirrors, lore resources, and hopes for similar access to other classic games.
+### TL;DR
 
----
+Reports say source code for Armature’s PlayStation Vita and Xbox 360 ports of Metal Gear Solid 2’s 2011 HD remaster appeared on 4chan. The article stresses that details were still unverified and conflicting: some accounts described roughly 30 GB of uncompressed and unused assets, while another said the leak contained code only. If authentic, the newer-platform code could aid preservation, decompilation, and modding more readily than PlayStation 2 sources. HN commenters traded plot jokes, mirrors, and debate over modern portability versus the PS2 Substance edition’s broader content.
 
-## Comment pulse
-- Story-deep-dive crowd → hopes source enables better understanding and tooling around MGS2’s dense final acts; fans trade long-form analyses and humorous explainers.  
-- Engine/pragmatic view → Vita/360 code is modern enough for practical work; some lament it isn’t the feature-rich PS2 Substance build—counterpoint: portability beats extra content.  
-- Preservation/modding wishlists → leak fuels hopes for community patches, platform ports, and similar access for other classics like Red Alert 2 and Yuri’s Revenge.  
+### Comment pulse
 
----
+- Authenticity and contents remained unsettled → contemporary reports disagreed on whether assets accompanied the alleged source archive.
+- Vita and Xbox 360 code may be easier to reuse → counterpoint: some fans prefer PS2 Substance because it reportedly contains more material.
+- Preservation value does not erase provenance risk → mirrors spread quickly while the article was still verifying basic facts.
 
-## LLM perspective
-- View: This is functionally equivalent to an unofficial SDK drop, likely enabling fan engines, tooling, and long-term archival beyond any single platform.  
-- Impact: Most value will come from documentation, decompilation aids, and bugfix mods rather than straight piracy, especially if assets are absent.  
-- Watch next: Whether rights holders tolerate derivative projects or issue takedowns will determine how robust an open MGS2 ecosystem can become.
+### LLM perspective
+
+- **View:** A leak can accelerate research while leaving downstream projects exposed to copyright and tainted-code concerns.
+- **Impact:** Modders and preservationists gain implementation clues, but clean-room reimplementations must avoid copying protected source.
+- **Watch next:** Archive verification, file manifests, buildability, platform dependencies, takedowns, and emergence of independently derived patches or ports.

@@ -2,15 +2,18 @@
 
 - Score: 203 | [HN](https://news.ycombinator.com/item?id=47998225) | Link: https://christophermeiklejohn.com/ai/personal/phish/flow/agents/2026/05/03/rift.html
 
-## TL;DR
-For the author, programming and listening to Phish fused into a decades‑long flow state: long jams mirroring deep, uninterrupted distributed-systems work. Since shifting to supervising AI coding agents, his days are fragmented by constant context switches; the music and the work no longer “lock in.” He grieves the loss of immersion and identity as a hands-on engineer, echoing commenters who see LLMs turning craft into oversight. Others welcome the leverage and big-picture focus, predicting deep-flow coding may retreat to hobbies and open-source.
+### TL;DR
 
-## Comment pulse
-- Loss-of-flow grief → Lifelong coders feel their identity uprooted as work becomes agent management; some “idea-focused” devs empathize yet still enjoy LLM-enabled high-level creativity.  
-- Tooling split → Some like autocomplete as a power tool, but say full agents feel like babysitting juniors — counterpoint: others find autocomplete breaks flow.  
-- Future of craft → Commenters worry agentic coding centralizes power in vendors, changes who enters software, and may relegate “deep craft” to OSS or hobbies.
+Christopher Meiklejohn spent 30 years pairing programming with Phish: long jams supported the sustained attention behind distributed systems, production software, and a 200-page dissertation. Since January, his work has shifted from writing code to supervising agents—prompting, redirecting, reviewing, and context-switching as results arrive. Output may be higher, but the staccato queue no longer aligns with the music or provides the same creativity and fulfillment. Commenters recognized this as grief, while differing on whether agents enable big-picture thinking, impose junior-developer damage control, or simply redefine engineering as management.
 
-## LLM perspective
-- View: Agentic workflows shift programming from solitary craft to orchestration; new practices must recreate focus and satisfaction, not just throughput.  
-- Impact: Developers optimized for deep work may burn out or exit; organizations risk losing system thinkers and long-term maintainers.  
-- Watch next: Tools and norms that preserve focus blocks, plus viable open models for coding without mandatory corporate AI mediation.
+### Comment pulse
+
+- Idea-oriented builders welcomed delegation and optional deep dives — counterpoint: craft-oriented programmers lost identity, learning, and the pleasure of direct creation.
+- Autocomplete’s flow benefits split opinion because generated code still demands review; full autonomy often substitutes vigilance for immersion.
+- Some called agent supervision engineering at higher leverage; others called it an involuntary move into management.
+
+### LLM perspective
+
+- Flow needs stable attention and immediate feedback; multi-agent tooling should offer batching, quiet periods, and deliberate synchronization points.
+- Teams should preserve hand-coding paths for learning, difficult work, resilience, and employees motivated by craft.
+- Measure not only throughput but review burden, rework, context switches, skill retention, and job satisfaction.

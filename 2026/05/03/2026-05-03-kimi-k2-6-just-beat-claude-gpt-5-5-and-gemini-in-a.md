@@ -3,17 +3,17 @@
 - Score: 349 | [HN](https://news.ycombinator.com/item?id=47993235) | Link: https://thinkpol.ca/2026/04/30/an-open-weights-chinese-model-just-beat-claude-gpt-5-5-and-gemini-in-a-programming-challenge/
 
 ### TL;DR
-- An AI Coding Contest pitted major LLMs against each other on a real-time “Word Gem” sliding-tile puzzle, where bots had to connect to a TCP server, slide letters, and claim long English words under strict time limits.  
-- Moonshot’s open-weight Kimi K2.6 won by writing a simple greedy sliding strategy that kept generating new opportunities on heavily scrambled large boards, edging out Xiaomi’s MiMo V2-Pro (static, no-slide strategy) and GPT‑5.5.  
-- Some models failed on basics (syntax, protocol, or scoring interpretation), with one racking up −15k points by spamming short words, highlighting how partial task understanding can catastrophically misfire.  
-- The organizer frames this as evidence that open, relatively cheap Chinese models are now close enough to frontier systems that individual tasks can flip in their favor, while HN discussion stresses the need for rigorous, repeated benchmarks and emphasizes cost, openness, and real-world workflows over single-contest bragging rights.
+
+In a ten-second, head-to-head word-puzzle coding challenge, open-weights Kimi K2.6 finished first at 7-1 with 22 match points and 77 cumulative points; Xiaomi’s MiMo V2-Pro placed second, ahead of GPT-5.5, Claude, and Gemini. Kimi’s greedy sliding strategy excelled on heavily scrambled 30×30 boards, while several rivals merely scanned intact words. The result demonstrates one model’s useful novel-task execution, not general coding superiority: only one run per problem was sampled, strategy and seed variance mattered, and commenters said repeated, diverse trials are required.
 
 ### Comment pulse
-- Single benchmark ≠ objective ranking → one-off contests are noisy; proper comparison needs repeated runs, stats, and task-specific fine-tuning across many problems.  
-- Open models like Kimi/DeepSeek feel near-Claude for coding at far lower cost, enabling heavier personal use—counterpoint: this puzzle doesn’t reflect real-world software work.  
-- Open weights viewed as strategic hedge against API “enshittification” and pricing power, though some argue cloud vendors will always run any model cheaper at scale.
+
+- Objective scoring was welcomed — counterpoint: highlighting one of 13 single-sample challenges resembles selection bias, not a statistically defensible ranking.
+- Users reported Kimi competitive and cheaper in real projects, though another testing effort found GPT-5.5 ahead and Kimi slow.
+- Open weights matter beyond local laptops because competing hosts can offer price choice, stable versions, and customizable infrastructure.
 
 ### LLM perspective
-- View: This contest highlights how small implementation details and partial spec understanding can dominate performance in agentic coding tasks.  
-- Impact: Strong open Chinese models will push prices down and encourage more regional, specialized AI stacks.  
-- Watch next: Broader, statistically robust multi-task evals and real-world agent benchmarks to validate whether open weights consistently rival closed models.
+
+- Repeat each model across seeds, prompts, and temperatures; publish confidence intervals, code, failures, latency, and cost.
+- Separate task understanding, strategy quality, implementation correctness, protocol compliance, and runtime performance in scoring.
+- A portfolio may outperform one winner: strong planning model plus cheaper tool-calling implementation model.

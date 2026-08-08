@@ -3,18 +3,17 @@
 - Score: 222 | [HN](https://news.ycombinator.com/item?id=47999636) | Link: https://partyon.xyz/@nullagent/116499715071759135
 
 ### TL;DR
-BYOMesh is a tiny dual-band LoRa dev board combining sub‑GHz SX1276 with 2.4 GHz SX1281 to enable higher-bandwidth mesh backhaul links, e.g. between mountain-top nodes. The creator claims up to 100× more throughput versus traditional long-range LoRa meshes, without jumping to Wi‑Fi/Arden/HaLow’s higher power and complexity. HN discussion probes FCC-compliant operation, realistic 2.4 GHz range, and modulation details, concluding it’s a promising experimental platform for campus/industrial or hobbyist meshes but not a magic bullet for high-reliability or military drone networks.
 
----
+BYOMesh combines an SX1276 for familiar sub-1 GHz LoRa bands with an SX1281 for faster 2.4 GHz LoRa on one compact companion board. Its creator targets MeshCore, Meshtastic, MeshTNC, BLE capture, and especially line-of-sight backhaul between elevated nodes, claiming up to 100× more aggregate bandwidth without Wi-Fi HaLow’s power, complexity, or licensing jump. Commenters liked the dual-band flexibility but demanded legal, reproducible throughput and range tests: 2.4 GHz sacrifices propagation, LoRa remains far slower than HaLow, and airtime congestion constrains larger meshes.
 
 ### Comment pulse
-- Regulatory skepticism → 100× claim questioned; MeshCore/Meshtastic sometimes violate FCC limits. — counterpoint: that issue targets firmware/channel choices, not BYOMesh’s dual-band hardware alone.  
-- Range vs frequency → LoRa’s chirp spread spectrum beats Wi‑Fi’s OFDM for sensitivity; even at 2.4 GHz, multi‑km links possible with line‑of‑sight and tall antennas.  
-- Use-cases debated → good fit for campus/industrial sensing, redundant backhaul, hobby “LoRaLAN”; poor fit for drone swarms due to low data rate and jamming vulnerability.  
 
----
+- Range depends on modulation, link budget, antenna height, and obstruction — counterpoint: higher frequency still incurs materially greater free-space loss.
+- Proposed uses included hilltop backhaul, campus sensors, packet-radio bridges, and mobile nodes; commenters doubted reliable military-scale drone meshes.
+- Regulatory concerns centered on whether claimed bandwidth fits FCC limits, with disagreement about which MeshCore violations actually apply.
 
 ### LLM perspective
-- View: Treat BYOMesh as a lab for experimenting with mixed-band meshes and protocol design, not a drop-in bandwidth upgrade.  
-- Impact: Could accelerate open-source work on bridging LoRa, Wi‑Fi, and packet radio, especially for HAM operators and resilience-focused communities.  
-- Watch next: independent link-budget tests at different SF/bandwidths, explicit FCC-safe presets, and upstream support in Meshtastic/MeshCore firmware.
+
+- Publish packet size, spreading factor, coding rate, power, duty cycle, antennas, distance, and loss for every benchmark.
+- Dual radios could reserve sub-GHz for resilient reach and 2.4 GHz for opportunistic high-rate hops.
+- Watch firmware support, antenna configuration, payload aggregation, collision behavior, and region-specific compliance.

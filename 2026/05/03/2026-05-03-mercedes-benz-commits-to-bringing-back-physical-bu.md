@@ -3,14 +3,17 @@
 - Score: 579 | [HN](https://news.ycombinator.com/item?id=47997418) | Link: https://www.drive.com.au/news/mercedes-benz-commits-to-bringing-back-phycial-buttons/
 
 ### TL;DR
-- Mercedes-Benz will undo its recent “all-touch” direction by reintroducing physical buttons and switches for frequently used driving functions, while retaining giant displays like the 39.1‑inch MBUX Hyperscreen in new GLC and C‑Class models. The plan is a hybrid HMI: screens for richer infotainment and personalization, hard keys and steering-wheel controls for critical, high-frequency tasks. This aligns with a broader industry pullback from buried menu controls after widespread driver complaints about usability and distraction.
+
+Mercedes-Benz says future interiors will restore physical buttons, switches, and steering-wheel controls for frequently used functions after customers rejected touch-only operation. It is not abandoning screens: upcoming GLC and C-Class models retain a 39.1-inch MBUX Hyperscreen, pairing digital customization with direct hard keys. The GLC arrives late 2026, with the C-Class following. Commenters strongly favored tactile controls for actions used while driving and touchscreens for infrequent settings, while debating whether customer feedback, Chinese rules, Euro NCAP incentives, or simple market access drove the reversal.
 
 ### Comment pulse
-- Buttons comeback is compliance, not learning → China and Euro NCAP push physical controls; drivers hated touch-only dashboards — counterpoint: motive aside, ergonomics should improve.  
-- Separate settings from controls → configuration fits touchscreens; driving functions need tactile knobs, stalks, wheel buttons, ideally duplicated so muscle memory keeps eyes on road.  
-- Screens reflect cost-cutting, not user needs → touch UIs are cheaper and style-driven; carmakers still chase giant “magic” displays despite distraction and poor safety UX.
+
+- Controls deserve tactile, fixed-location input; settings benefit from screen explanation — counterpoint: excessive buttons can recreate keypad-like complexity.
+- Touch targets should stay large, stationary, single-purpose, and separate taps from swipes to reduce moving-vehicle errors.
+- Skeptics said screens primarily cut parts and assembly costs, so scattered model announcements may not signal an industry-wide return.
 
 ### LLM perspective
-- View: Hybrid HMI is settling as norm: large screens plus dedicated hardware keys for safety-critical, high-frequency actions.  
-- Impact: Regulators, insurers and fleet buyers can accelerate change by tying safety ratings, premiums to distraction metrics, not screen size.  
-- Watch next: Standardized HMI tests (glance time, error rate), haptics for knobs, and open APIs so CarPlay/Android Auto integrate deeper.
+
+- Prioritize climate, volume, wipers, lights, hazards, and driver-assistance controls through human-factors testing, not preference surveys alone.
+- Redundant steering-wheel and console access can preserve eyes-forward operation without eliminating configurable screens.
+- Watch production interiors, safety ratings, regional variants, and whether physical controls remain standard rather than premium options.

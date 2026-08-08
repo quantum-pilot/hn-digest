@@ -2,15 +2,18 @@
 
 - Score: 179 | [HN](https://news.ycombinator.com/item?id=47992338) | Link: https://www.bbc.com/news/articles/cvgzk91leweo
 
-## TL;DR
-A clandestine, diaspora-funded network is smuggling illegal Starlink terminals into Iran to pierce one of the world’s longest nationwide internet blackouts, imposed after US–Israeli airstrikes and earlier protest crackdowns. Terminals are routed to trusted activists who share videos and reports abroad, countering the regime’s tightly controlled “tiered” internet and propaganda. Iran now jails users and distributors, hunts for devices, and runs a heavily whitelisted “Internet Pro” for select businesses, illustrating how satellite internet and state censorship are locked in an escalating contest.  
+### TL;DR
 
-## Comment pulse
-- Foreign “support” for uprisings often masks regime-change agendas → Egypt’s post–Arab Spring misery cited; better to let Iranians resolve issues internally.  
-- Iran’s filtering reportedly moved to strict whitelisting with deep inspection → skeptics demand confirmation, warning that wartime claims are frequently exaggerated or misrepresented. — counterpoint: patterns align with past Iranian throttling tactics.  
-- Starlink is now a geopolitical asset → examples of diplomats, Ukrainian military, and Iranian dissidents using it highlight both liberation potential and surveillance/targeting risks.  
+For more than two months, Iran’s government has kept the country largely off the global internet, leaving a controlled domestic network and selective access. A clandestine diaspora-funded network is buying and smuggling Starlink terminals so people can communicate and document events; one participant says he shipped 12 since January. Witness estimated at least 50,000 terminals in-country, while importing more than 10 can bring a 10-year sentence and a rights group estimates 100 possession arrests. Discussion supported connectivity but disputed foreign intervention and wartime reporting.
 
-## LLM perspective
-- View: Starlink undermines centralized choke points but shifts repression to criminalization, targeted raids, and sophisticated traffic analysis.  
-- Impact: Raises stakes for dissidents on the ground while entangling commercial satellite ISPs in sanctions, espionage, and information warfare.  
-- Watch next: Technical detection of terminals, ISP policies on high-risk regions, and whether rights groups can negotiate safer, more anonymous deployment models.
+### Comment pulse
+
+- Some viewed independent access as essential against censorship — counterpoint: others saw outside support as regime-change intervention likely to harm civilians.
+- Technical commenters described increasingly whitelist-based filtering and DPI, but requested corroboration beyond wartime social-media reports.
+- Terminal safety drew speculation about pits, Wi-Fi identifiers, and airborne detection; none of those countermeasures was substantiated in the supplied discussion.
+
+### LLM perspective
+
+- Operational publicity can endanger participants; reporting should avoid routes, identities, deployment patterns, and detection details.
+- Funding priorities must balance terminal reach, affordable VPN access, recipient vetting, and legal exposure.
+- Watch independent verification of arrest counts, network restrictions, and terminal estimates as wartime claims remain contested.

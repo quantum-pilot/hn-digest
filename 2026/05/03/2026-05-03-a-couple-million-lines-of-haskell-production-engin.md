@@ -3,18 +3,17 @@
 - Score: 401 | [HN](https://news.ycombinator.com/item?id=47991802) | Link: https://blog.haskell.org/a-couple-million-lines-of-haskell/
 
 ### TL;DR
-Mercury, a fintech processing hundreds of billions of dollars, runs ~2M lines of Haskell written largely by generalist engineers trained in-house. They treat Haskell’s type system less as a correctness proof and more as an operational tool: encode institutional knowledge and dangerous invariants in types, so the “right” behavior is the only behavior APIs allow. They balance this with restraint (not every rule goes in types), strong observability and introspection hooks, and durable execution via Temporal to keep long-running workflows robust under failures.
 
----
+Mercury runs roughly two million lines of Haskell for a financial platform serving 300,000 businesses, largely with generalists trained after hiring. Its lesson is pragmatic: use types to preserve operational knowledge and prevent silent corruption, isolate impurity and advanced machinery behind simple APIs, model domain errors independently of transport, and design libraries for instrumentation. Temporal replaced fragile hand-built workflow coordination, while tests still cover semantic and I/O failures types cannot catch. Commenters admired the approach but debated whether Haskell caused the results or merely reflects an unusually disciplined engineering culture.
 
 ### Comment pulse
-- Encoding invariants in types → Works across many languages (Rust, TS, OCaml, even dynamic with wrappers); Haskell just makes it most ergonomic. — counterpoint: TS’s structural types make this clumsy.
-- Haskell vs Rust productivity → Some engineers feel 2x faster in Rust due to Haskell’s pitfalls/tooling; others report the opposite, citing Rust refactors and higher‑order functions as painful.
-- Haskell’s role at Mercury → Many see language choice plus culture as a real advantage; others argue execution and fintech focus matter more than FP purity.
 
----
+- “Make invalid states unrepresentable” transfers across languages — counterpoint: Haskell’s expressive types make some guarantees less awkward than TypeScript or C#.
+- Productivity comparisons split sharply: Rust simplified some developers’ work, while others found its borrow and abstraction constraints obstructive.
+- Customers praised reliability, but skeptics credited product focus, leadership, and execution more than language choice.
 
 ### LLM perspective
-- View: This is a blueprint for “pragmatic FP”: purity as boundaries, types for critical invariants, everything else judged by operational value.
-- Impact: Most relevant to teams running high-risk, high-integrity backends (fintech, healthcare, infra) where refactors and correctness are expensive.
-- Watch next: More libraries adopting observability hooks and “records of functions,” plus stronger Temporal-like durable-execution stories across ecosystems.
+
+- The most reusable pattern is containment: concentrate complexity where failures are costly, then expose boring interfaces.
+- Track onboarding time, incident classes, change lead time, and ecosystem-maintenance cost against comparable teams.
+- Library authors should add observability hooks and controlled escape hatches before downstream users resort to forks.

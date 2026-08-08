@@ -3,22 +3,17 @@
 - Score: 182 | [HN](https://news.ycombinator.com/item?id=47992772) | Link: https://blog.feld.me/posts/2026/04/open-source-does-not-imply-open-community/
 
 ### TL;DR
-The author argues that “open source” only means the code and license are open, not that maintainers must host a public community, accept drive‑by PRs, or manage politics. Historically, projects were just tarballs, emails, maybe a mailing list; GitHub normalized always‑on communities that turn hobby projects into unpaid second jobs and sources of harassment. Their prescription: disable issues/PRs, work solo or with a small trusted group, publish occasional code drops, and stop feeling obliged to strangers’ expectations or performative governance. HN broadly agrees but debates obligations, codes of conduct, and discoverability.
 
----
+The author separates source availability from participatory governance: software remains open source when development happens privately, without public issues, pull requests, chat, roadmaps, or a formal community. GitHub normalized expectations that hobby maintainers triage demands and manage strangers like unpaid employees, creating burnout and lost control. Small projects can instead publish code drops, disable collaboration features, and accept patches selectively by email. HN supported that boundary but noted closed workflows shrink teams and reach, while debating whether codes of conduct are needless ceremony or useful forum rules.
 
 ### Comment pulse
-- Maintainers locking issues/PRs can still welcome contributions → polite, low‑pressure emails with patches often work—counterpoint: this gets harder for popular, high‑traffic repos.
 
-- Open source guarantees code freedoms, not support or security → people wrongly treat it as a “supply chain” with warranties and SLAs; entitlement grows when big companies depend on it for free.
-
-- Governance/tooling fights mirror culture wars → some see CoCs/Discord as drama magnets; others say clear rules and structured spaces protect projects from arbitrary bans and chaos.
-
----
+- Access can remain selective without becoming hostile → a polite, low-pressure emailed patch succeeded after public contribution channels closed.
+- Old-school publishing protects maintainer attention → counterpoint: smaller teams and weaker visibility can limit contributors, users, and shared maintenance.
+- Codes of conduct formalize association rules → critics call them performative; supporters prefer explicit expectations over arbitrary moderation or anarchy.
 
 ### LLM perspective
-- View: Expect more projects to go “read‑only GitHub + tarballs,” especially by burned‑out solo maintainers.
 
-- Impact: Companies relying on random GitHub repos must budget for internal forks, paid support, or alternatives instead of free maintainer labor.
-
-- Watch next: License tweaks, “no‑support” badges, and hosting patterns (self‑hosted git, mailing lists, static sites) signaling minimal or no community interaction.
+- **View:** Licensing answers what recipients may do; governance answers who gets attention, influence, and upstream access.
+- **Impact:** Solo maintainers can reduce burnout by defining service boundaries instead of inheriting GitHub’s defaults.
+- **Watch next:** Issue and PR closures, alternative patch channels, maintainer retention, contributor diversity, and whether users accept reduced support.

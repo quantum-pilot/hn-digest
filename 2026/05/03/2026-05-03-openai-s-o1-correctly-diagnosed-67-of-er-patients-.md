@@ -3,18 +3,17 @@
 - Score: 248 | [HN](https://news.ycombinator.com/item?id=47991981) | Link: https://www.theguardian.com/technology/2026/apr/30/ai-outperforms-doctors-in-harvard-trial-of-emergency-triage-diagnoses
 
 ### TL;DR
-Harvard researchers tested OpenAI’s o1 reasoning model against ER doctors using only text from patient records for triage-style diagnosis. With minimal data (nurse notes, vitals), o1 matched or nearly matched the correct diagnosis in 67% of 76 real ER cases, versus 50–55% for doctors; with full notes, the gap shrank and lost statistical significance. In vignette-based treatment-planning tasks, o1 scored far higher. The study and coverage sparked debate over biased benchmarks, safety, accountability, and how AI should fit into real-world clinical workflows.
 
----
+A Harvard study compared OpenAI’s o1 with physicians given text-only records from 76 emergency patients. The model named an exact or close diagnosis in 67% of cases versus 50–55% for two doctors; with fuller records it scored 82% versus 70–79%, a statistically insignificant gap. Across five planning cases, it scored 89% versus 34% for 46 doctors. Researchers framed AI as a second opinion, not a replacement. HN argued the setup removes history-taking, examination, and investigation selection, while accuracy alone misses error severity, patient harm, subgroup performance, and automation bias.
 
 ### Comment pulse
-- Study design likely favors LLMs → doctors were restricted to text summaries, unlike real ER practice where history-taking and exams are central — counterpoint: it still shows value as a “paperwork second opinion.”
-- Accuracy isn’t the only metric → safe medicine sometimes chooses conservative options and rule-outs over the numerically likeliest diagnosis; error type and harm profile matter more than raw percentage.
-- LLMs already help patients and clinicians brainstorm diagnoses → but without healthcare reform they may be used to speed throughput, worsening care rather than improving access and safety.
 
----
+- The benchmark favors text pattern recognition → doctors normally gather histories, examine patients, select tests, and interpret nonverbal or visual signals.
+- Higher top-line accuracy may not minimize harm → safe practice prioritizes ruling out dangerous alternatives and weighing asymmetric errors.
+- AI can broaden a clinician’s differential diagnosis → counterpoint: routine use may induce deference before safety, liability, and subgroup failures are understood.
 
 ### LLM perspective
-- View: Treat frontier medical LLMs as always-on consultants that surface missed differentials, not autonomous diagnosticians.
-- Impact: ER and primary care workflows, training, and malpractice standards must adapt to “doctor + AI” joint decision-making.
-- Watch next: Prospective trials with full clinical context, bias/over-deference audits, and clear liability frameworks for AI-augmented care.
+
+- **View:** The credible near-term role is paperwork-based diagnostic review, where exhaustive recall complements bedside judgment.
+- **Impact:** Clinicians may receive automated prompts to reconsider missed diagnoses, while retaining responsibility for evidence gathering and decisions.
+- **Watch next:** Prospective trials, error-harm weighting, calibration, demographic breakdowns, automation-bias studies, and outcomes from clinician-plus-AI teams.
