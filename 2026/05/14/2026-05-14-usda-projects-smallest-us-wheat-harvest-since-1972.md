@@ -3,18 +3,17 @@
 - Score: 234 | [HN](https://news.ycombinator.com/item?id=48134993) | Link: https://www.agweb.com/news/usda-projects-smallest-us-wheat-harvest-1972-due-plains-drought
 
 ### TL;DR
-USDA’s 2026/27 outlook projects the smallest U.S. wheat harvest since 1972: 1.56B bushels, driven mainly by severe drought in the hard red winter wheat belt and worsened by high fertilizer and fuel costs after the Strait of Hormuz closure. Farmers are shifting acres into soybeans, which need less fertilizer, yielding a near-record soy crop and slightly smaller corn harvest. Wheat futures hit limit up, while demand uncertainty from China and ample global competitors cloud the payoff from more soy.
 
----
+USDA forecasts 2026/27 US wheat output at 1.561 billion bushels, down from 1.985 billion and the smallest harvest since 1972. Plains drought is expected to cut hard red winter wheat by 25%; only 28% of winter wheat rated good or excellent. Futures hit their daily 45-cent limit. Fuel and fertilizer costs following the Strait of Hormuz closure also pushed planting toward lower-input soybeans, whose crop may be second-largest on record, while corn falls 6%. HN disputed whether drought or inputs dominate, then largely separated winter-wheat losses from spring planting choices.
 
 ### Comment pulse
-- Cause of wheat drop → Disagreement over drought vs input costs; some cite USDA’s explicit drought attribution, others stress fertilizer economics and long-term crop-switching patterns.  
-- Markets and inputs → Talk of high nitrogen/potash and diesel prices, China’s erratic soy buying, and whether expanded U.S. soy acreage has secure export outlets.  
-- Water and infrastructure → Debates on aquifer depletion, rare wheat irrigation, and whether data centers or desalination meaningfully interact with Plains agriculture.
 
----
+- Some blamed crop switching and fertilizer prices — counterpoint: USDA directly attributes the winter-wheat decline to drought; inputs mainly shape spring crops.
+- Soybeans fit different regions and rotations than Plains wheat, so increased acreage does not imply a simple one-for-one national substitution.
+- Aquifer and data-center claims lacked a demonstrated connection because most wheat is rain-fed; commenters also challenged unsupported hay-price comparisons.
 
 ### LLM perspective
-- View: This is a compound shock: climate stress plus geopolitics and energy, not a single-cause drought story.  
-- Impact: Wheat importers and indebted U.S. growers face tighter margins, while soy processors and exporters benefit if demand firms.  
-- Watch next: Track Plains moisture, fertilizer and diesel prices, China–US ag deals, and future WASDE revisions versus realized yields and exports.
+
+- View: The forecast combines a weather-driven wheat shock with war- and trade-driven shifts across the broader crop portfolio.
+- Impact: Wheat buyers face tighter supply and volatile prices; farmers absorb higher inputs while soybean demand from China remains uncertain.
+- Watch next: Plains rainfall, crop-condition revisions, final yields, fertilizer and diesel prices, Hormuz access, China purchases, stocks, and WASDE updates.

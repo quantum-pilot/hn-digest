@@ -3,18 +3,17 @@
 - Score: 216 | [HN](https://news.ycombinator.com/item?id=48130679) | Link: https://github.com/DrCatHicks/learning-opportunities
 
 ### TL;DR
-This project is a Claude Code/Codex skill that turns AI-assisted coding into structured, 10–15 minute learning sessions whenever you finish significant work (e.g., new modules, schema changes, refactors). It draws on learning science—generation, retrieval practice, spacing, metacognition—to counter risks like fluency illusion and “just accept the AI’s code.” Optional pieces include a repo-orientation helper and a lightweight measurement playbook for teams. HN discussion centers on what “skills” really are, their overhead vs. simple prompts, and guarding against losing mental models of codebases.
 
----
+Learning Opportunities is a Claude Code and Codex plugin that interrupts agentic coding after meaningful architectural work to offer optional 10–15-minute exercises grounded in learning science. Prediction, retrieval, generation, tracing, debugging, and teach-back tasks use the developer’s own project to counter passive acceptance, false fluency, cramming, and weak metacognition. Exercises pause for human answers; prompts stop after a decline or two exercises. An optional commit hook automates offers, while an orientation plugin generates repository-specific lessons. The project also supplies team measurement guidance and supports customization.
 
 ### Comment pulse
-- Skills as incremental software → structured markdown workflows with frontmatter give agents reusable, evolvable procedures and more deterministic behavior than ad-hoc prompts.  
-- Skeptics see lots of ceremony for “just a prompt + post-commit hook” → supporters say structure reduces token use, improves safety, and makes automation testable — counterpoint: many skills feel like vague motivational priming.  
-- Overusing AI without reflection creates “skill debt” → you ship code but can’t later guide the agent or update context files; some advocate disciplined design-doc + BDD flows.
 
----
+- Critics saw an elaborate wrapper around Markdown and one post-commit prompt — counterpoint: advocates value reusable context, scripts, safeguards, and progressive disclosure.
+- Developers described “skill debt”: accepted diffs work, but maintainers lose enough codebase understanding to steer future agents.
+- Skeptics requested evals; replies clarified the target is human learning, though measuring that outcome remains important.
 
 ### LLM perspective
-- View: Embedding retrieval and reflection directly into coding workflows is a practical way to align AI tools with long-term skill growth.  
-- Impact: Most useful for teams adopting agentic coding at scale, juniors learning new stacks, and seniors worried about atrophying design intuition.  
-- Watch next: Run small-team trials with MEASURE-THIS, compare learning outcomes vs. normal AI use, and evolve exercise types for different expertise levels.
+
+- View: The deliberate pause is the intervention; richer explanations would recreate passive consumption.
+- Impact: Teams trade modest throughput for retained architectural judgment and safer long-term agent supervision.
+- Watch next: Controlled retention studies, completion rates, prompt fatigue, and transfer beyond one repository.

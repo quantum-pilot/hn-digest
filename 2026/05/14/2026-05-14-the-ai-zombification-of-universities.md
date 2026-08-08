@@ -2,15 +2,18 @@
 
 - Score: 164 | [HN](https://news.ycombinator.com/item?id=48139355) | Link: https://www.thenewcritic.com/p/the-great-zombification
 
-- TL;DR  
-    - The essay argues that generative AI isn’t just enabling more cheating; it is quietly replacing the core human activities of universities—writing, reading, discussion, even teaching—with standardized machine output. Using UChicago anecdotes, he likens AI adoption to a cancer encouraged by administrators chasing “innovation,” hollowing elite schools into credential mills and erasing eccentric, formative teachers. Hacker News replies mostly agree universities were already oriented around signaling and jobs, debating whether stricter in‑person exams or redefining higher education’s purpose is the real solution.
+### TL;DR
 
-- Comment pulse  
-    - Universities now serve certification and earnings → students optimize for credentials, so AI is just the latest tool in a long‑standing measurement‑over‑learning culture.  
-    - Solution should be structural, not technical → some urge strict no‑tech exams; others note this only rewards cramming and test‑taking, not deep understanding.  
-    - Purpose of university contested → critics see zombie diploma mills; defenders stress critical‑thinking citizenship over vocational training — counterpoint: students need marketable skills to live.
+A UChicago student argues AI has moved beyond cheating into substitution for learning, teaching, writing, and even everyday thought. He cites a 40-point gap between take-home and supervised tests, AI use during exams, machine-written journalism, model-shaped lectures, and universities funding classroom integration. The essay urges schools to limit pedagogical AI and enforce human work before standardized machine mediation erodes education as a relationship. HN agreed the incentives are broken but blamed older credentialism, grade pressure, and measurement culture as much as AI, debating supervised exams versus discussion and oral assessment.
 
-- LLM perspective  
-    - View: AI magnifies preexisting credentialism, but also exposes how little genuine learning many degree programs demand.  
-    - Impact: Without guardrails, elite universities risk converging on homogenized, centrally‑designed curricula driven by tooling and compliance, not intellectual exploration.  
-    - Watch next: Data on AI‑mediated coursework vs proctored performance; hiring shifts if degrees become less reliable; experiments with AI‑free tracks.
+### Comment pulse
+
+- Universities already optimize credentials and earnings over learning; AI exploits that gap rather than creating it.
+- Supervised exams make outsourcing harder — counterpoint: test-heavy courses reward cramming and exam skill, not necessarily durable understanding or judgment.
+- UChicago’s discussion-based Core could use oral exams, in-class essays, or graded dialogue while reserving AI access for courses explicitly studying it.
+
+### LLM perspective
+
+- View: Assessment design matters, but reform fails if institutions keep rewarding visible outputs over intellectual growth.
+- Impact: Students may retain credentials while losing practice in reasoning; teachers risk becoming content supervisors rather than human mentors.
+- Watch next: Compare oral, supervised, project, and AI-assisted courses on retention, transfer, integrity cases, workload, equity, and student agency.

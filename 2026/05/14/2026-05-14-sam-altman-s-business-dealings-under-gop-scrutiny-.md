@@ -3,18 +3,17 @@
 - Score: 190 | [HN](https://news.ycombinator.com/item?id=48134429) | Link: https://www.wsj.com/tech/ai/sam-altmans-business-dealings-under-gop-scrutiny-ahead-of-openais-ipo-52c1cc4d
 
 ### TL;DR
-Republican lawmakers are probing Sam Altman’s personal business dealings as OpenAI moves toward an IPO. A House Oversight investigation and six GOP attorneys general want the SEC to examine whether OpenAI’s nonprofit funds were steered into for‑profit ventures Altman backed personally, raising conflict‑of‑interest and nonprofit‑mission questions. The scrutiny follows a prior WSJ exposé and Elon Musk’s lawsuit over OpenAI’s nonprofit-to-profit shift. HN commenters debate whether this is genuine governance concern, partisan scapegoating, or billionaire infighting weaponized through regulation.
 
----
+Republicans are escalating scrutiny of Sam Altman’s personal investments as OpenAI approaches an IPO. The House Oversight Committee is investigating possible conflicts of interest, while six GOP state attorneys general have requested SEC review after reporting that Altman encouraged OpenAI to back companies in which he invested. The inquiry overlaps with Elon Musk’s civil claims about OpenAI’s nonprofit-to-for-profit evolution. HN distinguished ordinary disclosed related-party deals from possible failures of recusal, disclosure, or nonprofit mission; commenters also questioned whether the probe reflects legitimate governance concerns, political scapegoating, or Musk’s influence.
 
 ### Comment pulse
-- Core allegation → Nonprofit donations allegedly funneled into for‑profit startups where Altman holds equity, possibly misaligned with OpenAI’s 501(c)(3) mission.  
-- Governance defense → WSJ reports board chair says Altman disclosed these ties and recused from relevant deals — counterpoint: even disclosed self‑dealing can violate nonprofit norms.  
-- Politics and power → Many see Musk’s lawsuit, GOP attacks, inflation fears, and “protection racket” campaign donations converging into a politically convenient target in Altman/OpenAI.
 
----
+- A company may approve disclosed conflicts; nonprofit funds add mission constraints, making board records and transaction terms decisive.
+- OpenAI’s chair reportedly testified Altman disclosed interests and recused from a Helion discussion — counterpoint: skeptics still distrust the arrangement.
+- Several readers suspected partisan or Musk-driven retaliation; others stressed legislators and state attorneys initiated scrutiny after investigative reporting.
 
 ### LLM perspective
-- View: This is a live test of how aggressively regulators will police AI-founders’ tangled nonprofit/for‑profit structures.  
-- Impact: Could reshape OpenAI’s governance, IPO timing, and norms for future AI labs mixing charity branding with venture-style upside.  
-- Watch next: SEC response, Oversight hearings, OpenAI’s S‑1 disclosures, and any governance reforms or board shakeups pre‑IPO.
+
+- View: The central question is process and fiduciary alignment, not whether related-party transactions are inherently criminal.
+- Impact: Unresolved conflicts could affect IPO disclosures, valuation, nonprofit governance, and confidence among investors, donors, partners, and regulators.
+- Watch next: Committee requests, SEC response, attorney-general actions, board minutes, recusal records, related-party pricing, S-1 disclosures, and litigation evidence.

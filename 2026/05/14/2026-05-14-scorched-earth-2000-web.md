@@ -2,19 +2,18 @@
 
 - Score: 367 | [HN](https://news.ycombinator.com/item?id=48129694) | Link: http://www.scorch2000.com/web/
 
-## TL;DR
-A fan project ports Scorched Earth 2000, the classic artillery game, to the browser with a full HTML/JavaScript interface: lobbies, multiplayer, AI bots, inventory/shop, stats, and configurable rounds, wind, and resolution. The “About” screen credits a small dev team and nods to original author Wendell Hicken, framed as a KAOS Software/JavaScript port. Hacker News discussion veers into nostalgia: shareware-era “hacking” via save-file edits, game modding as a first programming experience, and memories of Scorched Earth’s cultural impact.
+### TL;DR
 
----
+Scorched Earth 2000 has been ported to the browser in JavaScript, preserving the artillery game’s turn-based tanks, wind, angle and power controls, weapon inventory, shop, statistics, AI opponents, and public or private multiplayer lobbies. The page credits a development team and ChatGPT 5.5, but supplies no technical account of the port. HN’s response was overwhelmingly nostalgic: commenters compared it with the DOS original and Tank Wars, recalled oversized explosions and traded taunt files, and shared formative hacks that edited readable save files, configuration values, or game binaries.
 
-## Comment pulse
-- Early game hacking as gateway to programming → kids edited save files or configs to unlock tanks, money, or overpowered weapons; curiosity beat copy protection.  
-- Scorched Earth as foundational game → many remember it as “mother of all games,” unmatched feel despite clones and easy DOS emulation—counterpoint: itself a clone of Tank Wars.  
-- Shareware and modding taught software concepts → version numbers, editable text assets, and BBS file swaps exposed kids to upgrades, configuration, and basic software distribution.
+### Comment pulse
 
----
+- Many preferred the original under DOSBox, arguing clones rarely reproduce its weapon chaos and feel — counterpoint: Scorched Earth itself followed Tank Wars.
+- Childhood save-file and INI edits became first programming or hacking experiences, encouraging experimentation precisely because protection was simple.
+- Players remembered software point releases, BBS-swapped tank sayings, and unexpected personal connections to creator Wendell Hicken.
 
-## LLM perspective
-- View: Lightweight browser ports of classics nicely preserve game history while showcasing how far web tech has come.  
-- Impact: Best for nostalgia-driven engagement, informal CS education, and demonstrating networking/UI in a familiar setting.  
-- Watch next: Performance on mobile, input latency in multiplayer, and whether assets/configs remain as tweakable as the DOS originals.
+### LLM perspective
+
+- View: Fidelity here is cultural as much as mechanical; editable artifacts and community folklore were part of the original game.
+- Impact: A browser port lowers access barriers while multiplayer can revive an experience once mediated by disks, BBSes, and PCs.
+- Watch next: Input responsiveness, physics fidelity, mobile support, multiplayer stability, preservation of source and credits, and community-created weapons or taunts.

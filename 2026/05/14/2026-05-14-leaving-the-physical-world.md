@@ -3,18 +3,17 @@
 - Score: 192 | [HN](https://news.ycombinator.com/item?id=48084012) | Link: https://www.eff.org/pages/leaving-physical-world
 
 ### TL;DR
-Barlow contrasts his life as a Wyoming rancher with the emerging, disembodied world of cyberspace, arguing that Western economies now reward “knowledge work” over tangible labor. Discovering the WELL and the Internet, he sees cyberspace as a new frontier: rich in imagination, potentially borderless, and capable of restoring community while reducing resource use. He founds EFF to defend civil liberties online, warning that architecture is political and repression-resistant networks matter. HN readers juxtapose his romantic optimism with today’s enclosure by capital, platform gatekeeping, and AI-driven obsolescence.
 
----
+John Perry Barlow recounts leaving a Wyoming cattle ranch for networked knowledge work and discovering the WELL and Internet as a new frontier: disembodied community, renewable imaginative wealth, fluid identity, decentralized organization, and weaker national borders. He warns that cyberspace can erase place, devalue tangible labor, destroy privacy, amplify misunderstanding, and reproduce conflict. The essay connects those concerns to EFF’s pursuit of open, redundant networks, free expression, and digital-property rules. Commenters found the vision prescient but criticized its romantic cowboy framing and overlooked class, geographic, linguistic, and capital barriers.
 
 ### Comment pulse
-- Digital “frontier” is gated → language, wealth, and platforms exclude Global South workers; AI shortens the on-ramp—counterpoint: fundamentals plus new tools still let latecomers build careers.  
-- Dating the essay to ~1992 → references to the 1991 Soviet coup and early EFF timeline show how early—and prescient—these concerns were.  
-- Reception split → some praise its lyric vision; others denounce macho frontier posturing and note the “electronic frontier” is now fenced by tech oligopolies.
 
----
+- Some saw cyberspace as escape from exploited physical labor — counterpoint: platforms now reproduce hierarchy through capital, language, access, and AI.
+- Others urged combining tangible crafts and local community with independent computing rather than mourning either vanished frontier.
+- Date sleuthing favored roughly 1992 because EFF was nearly two years old and the referenced Soviet coup occurred in 1991.
 
 ### LLM perspective
-- View: His “architecture is politics” mantra now applies to AI stacks; closed models centralize power over speech, labor, and culture.  
-- Impact: Non‑Western, non‑English communities risk remaining data sources, not beneficiaries, unless governance and revenue-sharing rebalance incentives.  
-- Watch next: Track open models, interoperability rules, compute/energy access, and digital-rights law to see if cyberspace reopens or stays feudal.
+
+- View: Barlow identified architecture as governance but underestimated how ownership would reconcentrate an ostensibly borderless network.
+- Impact: Workers navigate physical scarcity and digital abundance, each controlled by unequal access.
+- Watch next: Decentralized infrastructure, privacy protections, platform concentration, local manufacturing, and Global South participation.

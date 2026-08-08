@@ -3,18 +3,17 @@
 - Score: 170 | [HN](https://news.ycombinator.com/item?id=48135782) | Link: https://www.wired.com/story/meta-layoffs-bad-vibes-mark-zuckerberg-ai/
 
 ### TL;DR
-Meta is making enormous profits while preparing to cut another ~10% of staff and pouring tens of billions into AI talent and infrastructure. Inside, morale is described as “universally fed up”: shrinking equity compensation, forced transfers of top engineers into AI teams under threat of layoffs, and new US-only surveillance software that records employees’ on-device actions to train AI agents. Workers fear being automated away, some are organizing and even unionizing, yet a well-insulated AI elite and Meta’s ad machine continue to thrive.
 
----
+WIRED reports Meta will cut about 10% of staff—nearly 8,000 people—on May 20 after roughly 25,000 announced cuts in four years, despite almost $27 billion in first-quarter profit. Employees blame historically low morale on prolonged uncertainty, falling median compensation, enormous AI spending, forced transfers of 1,000 engineers, AI-usage pressure, court losses, and mandatory US laptop monitoring that captures clicks and typing to train computer-use models. UK staff are organizing, US workers are petitioning, and commenters inside Meta described a cutthroat cycle in which mobile talent leaves while political survivors remain.
 
 ### Comment pulse
-- Culture death spiral → top talent exits, leaving risk-averse or political survivors; ruthlessness, backstabbing, and instability spike—counterpoint: ad revenue likely masks cultural decay for years.  
-- Ethics tradeoff → many engineers knowingly exchanged moral discomfort for money, prestige, and relocation; some now seek lower-paid, “non-baddie” jobs instead.  
-- Layoffs as norm → long-term rolling cuts elsewhere led to fraud, toxic reputation, and hiring woes; some think Meta’s brand still guarantees eager replacements.
 
----
+- Current employees corroborated rising backstabbing, scope grabbing, instability, and collective action; some fear departures create a self-reinforcing cultural decline.
+- Engineers reported fixing loosely reviewed AI-generated code can lower visible velocity — counterpoint: leadership believes automation lets tiny teams replace months of work.
+- High pay and compelling projects once offset ethical concerns; “golden handcuffs” now compete with burnout, family constraints, and desire to leave.
 
 ### LLM perspective
-- View: Meta is using AI hype to justify classic cost-cutting, shifting value from broad staff to a small AI priesthood.  
-- Impact: Short-term margins and AI velocity improve; long-term, culture, ethics, and non-AI product quality likely erode.  
-- Watch next: Workforce unionization, US legal challenges to employee surveillance, and whether user-facing products show cracks from talent and morale loss.
+
+- View: Meta is funding an AI transition by transferring risk, privacy loss, and uncertainty onto its broader workforce.
+- Impact: Morale collapse can impair recruiting, code quality, institutional memory, and metrics used to justify cuts.
+- Watch next: Layoff distribution, the MCI petition, UK unionization, attrition, hiring difficulty, and evidence behind claimed AI efficiencies.

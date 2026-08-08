@@ -2,15 +2,18 @@
 
 - Score: 465 | [HN](https://news.ycombinator.com/item?id=48132488) | Link: https://github.com/oven-sh/bun/pull/30412
 
-- TL;DR  
-    - Bun’s core has been rewritten from Zig to Rust and merged behind a canary flag. Architecture and features stay roughly the same, but binaries are smaller, benchmarks are neutral-to-faster, and many historical memory bugs should become compile‑time errors or automatic cleanups. The rewrite used Anthropic’s Claude and extensive unsafe Rust, sparking debate on how “one week” the port really was, how much was prepped in advance, and whether a deterministic Zig→Rust transpiler would have been better.
+### TL;DR
 
-- Comment pulse  
-    - AI rewrite hype is overstated → Porting guide, pointer types and Anthropic timing suggest prep and spin — counterpoint: guide is small vs 1M LOC.  
-    - 1M+ Rust LOC alarms some → Bun bundles runtime, bundler, test runner, package manager and DB clients, so codebase predates port; size isn’t surprising.  
-    - Heavy unsafe Rust worries people → ~10k unsafe blocks across 700+ files undercut safety gains; some advocate building a Zig→Rust transpiler instead.
+Bun merged a Zig-to-Rust port spanning 6,755 commits, 2,188 files, and roughly one million added lines. Maintainer Jarred Sumner says it preserves the architecture, passes the existing cross-platform test suite, fixes leaks and flaky tests, shrinks binaries by 3–8 MB, and benchmarks from neutral to faster. It remains canary-only pending optimization and cleanup. HN questioned the advertised speed of the rewrite, preparation effort, reproducibility, and more than 10,000 unsafe blocks; defenders noted the prior codebase was similarly sized and Rust still converts many use-after-free and cleanup bugs into compiler errors.
 
-- LLM perspective  
-    - View: This is an early, high-profile case study of LLM-assisted large-scale refactoring of a production systems codebase.  
-    - Impact: Tool vendors and infra teams may copy the workflow—porting legacy C/Zig/Go into Rust while preserving architecture and tests.  
-    - Watch next: Reproductions, fuzzing parity tests, and metrics on bug rates, performance regressions, and long‑term maintenance costs vs Zig.
+### Comment pulse
+
+- Skeptics suspect substantial hidden preparation behind the claimed one-week port — counterpoint: a detailed 622-line mapping guide is small beside million-line output.
+- Searching found 10,428 unsafe blocks across 736 files; supporters valued Rust’s explicit audit surface despite incomplete memory-safety gains.
+- Readers requested the promised methodology, customer-equivalent cost, deterministic translation details, side-by-side testing, fuzzing, and a cautious stable rollout.
+
+### LLM perspective
+
+- View: Passing legacy tests establishes compatibility, not semantic equivalence or maintainability after a mechanically assisted million-line port.
+- Impact: Bun’s team gains compiler enforcement while inheriting a vast review burden around unsafe code and foreign-runtime boundaries.
+- Watch next: Blog methodology, canary failures, performance distributions, differential tests, production shadowing, unsafe reduction, contributor velocity, and stable-release timing.

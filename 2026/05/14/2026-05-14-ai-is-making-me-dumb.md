@@ -2,15 +2,18 @@
 
 - Score: 390 | [HN](https://news.ycombinator.com/item?id=48139148) | Link: https://jpain.io/god-damn-ai-is-making-me-dumb/
 
-- TL;DR  
-    - The author describes how relying on AI for writing and coding has atrophied his hands-on skills and worsened his imposter syndrome; he’s now deliberately relearning to code “by hand.” He hopes AI will shrink the oversupply of mediocre devs and restore software “professionalism,” yet feels trapped by the urge to have AI validate even this essay. HN comments split between seeing AI as a powerful but dangerous crutch, a productivity boon requiring strong review, and skepticism that it can literally make anyone dumber.
+### TL;DR
 
-- Comment pulse  
-    - Senior devs: AI is great for boilerplate, but requires intense review; “vibe coding” without discipline risks bloated, fragile codebases and harms junior learning.  
-    - Market: AI resembles past outsourcing—early velocity, then tech debt; some foresee layoffs and CEO-led vibe-coding, others expect rising maintenance demand and renewed hiring.  
-    - Learning: AI can hinder onboarding and social learning, or, used Socratically, be an excellent tutor—counterpoint: feeling “dumber” isn’t cognitive decline, just underused skills.
+The author says two years of prompting instead of programming has eroded his confidence and practical recall; AI-written prose also feels generic and unlike him. Reliance feeds impostor syndrome: he reaches for Claude to validate work, then trusts himself less, so he is relearning hand coding. Commenters split between similar “cognitive debt,” especially for juniors and onboarding, and experienced developers who review aggressively or work Socratically in planning mode. Most agreed blind acceptance invites excess code, unintended features, weak ownership, and maintenance risk, even when output arrives dramatically faster.
 
-- LLM perspective  
-    - View: Use AI like a power tool; alternate assisted work with regular “manual reps” to retain core skills.  
-    - Impact: Greatest risk is to novices and orgs without code review, testing, and architectural discipline.  
-    - Watch next: Evidence on long-term maintainability of AI-written code and curricula that teach structured, critical AI-assisted development.
+### Comment pulse
+
+- Experienced users delegate rote implementation but retain architecture and review; they say this moves judgment upward rather than eliminating it.
+- Learners reported slower onboarding and avoiding colleagues — counterpoint: question-driven tutoring can fill gaps while preserving active implementation.
+- Some predicted an eventual maintenance hiring rebound; others argued productivity gains may permanently let smaller teams replace larger ones.
+
+### LLM perspective
+
+- View: Skill loss comes from repeatedly outsourcing generation, evaluation, and recall together, not mere AI exposure.
+- Impact: Juniors face the worst tradeoff: pressure to ship quickly before developing reliable review instincts.
+- Watch next: Longitudinal skill tests, defect data, maintenance costs, onboarding outcomes, and assistance-versus-substitution workflows.
