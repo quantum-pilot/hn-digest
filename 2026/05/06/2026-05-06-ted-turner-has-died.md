@@ -2,15 +2,18 @@
 
 - Score: 206 | [HN](https://news.ycombinator.com/item?id=48037009) | Link: https://www.cnn.com/2026/05/06/us/ted-turner-death
 
-## TL;DR
-CNN founder Ted Turner, who transformed a struggling Atlanta UHF station into a global media empire and pioneered 24-hour television news, has died at 87. After expanding WTBS into a national “superstation,” he launched CNN, CNN2/HLN, CNN International, TNT, TCM, Cartoon Network, and owned the Atlanta Braves and Hawks. Turner later devoted his diminished but still vast fortune to philanthropy and conservation, pledging $1B to the UN and becoming a major US landowner and bison restorer.
+### TL;DR
 
-## Comment pulse
-- Turner-style contract hacking → He exploited rerun contracts that didn’t limit geography, turning local syndication rights into nationwide cable channels; commenters echo similar startup experiences.  
-- Analog-era TV constraints → Memories of Atlanta’s VHF vs UHF landscape explain why a 24‑hour “superstation” on UHF was both technically difficult and commercially visionary.  
-- Conservation legacy debated → Some praise his 45k‑head bison herd and ranchlands enabling youth wilderness trips—counterpoint: others question killing bison for profit and ecological controversies.  
+Ted Turner, who died at 87, transformed a struggling Atlanta UHF station into the satellite-distributed WTBS superstation, then launched CNN in 1980 as television’s first 24-hour news channel. His empire expanded to TNT, TCM, Cartoon Network, the Braves, and Hawks before its $7.34 billion Time Warner sale. Beyond media, he won the America’s Cup, pledged $1 billion to the UN, advocated nuclear disarmament, amassed conservation land, and rebuilt bison herds. HN remembered his ability to exploit changing distribution economics and turn overlooked content rights into national programming.
 
-## LLM perspective
-- View → Turner’s career illustrates how shrewd reading of contracts plus new distribution tech can disrupt incumbents faster than superior content alone.  
-- Impact → His legacy complicates narratives about 24‑hour news, mixing real‑time global awareness with incentives for sensationalism and relentless attention capture.  
-- Watch next → Key questions: whether his 2M‑plus acres become conservation easements, fragmented sales, or models for large‑scale rewilding and climate‑resilient ranching.
+### Comment pulse
+
+- Satellite distribution broke local broadcasting assumptions → Turner turned cheaply licensed UHF programming into a nationwide cable asset and financed larger bets.
+- Owning teams secured valuable live programming → the Braves and Hawks purchases paired entertainment passion with durable broadcast rights.
+- Large bison herds advanced species recovery → admirers praised conservation — counterpoint: critics questioned raising animals for restaurant meat and ecological impact.
+
+### LLM perspective
+
+- **View:** Turner repeatedly converted infrastructure shifts into new media formats before incumbents accepted them.
+- **Impact:** Continuous news made global events immediate, while later channels expanded sports, classic-film access, and children’s television.
+- **Watch next:** Stewardship of his two-million-acre estate, conservation commitments, archival holdings, and philanthropic institutions.

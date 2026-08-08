@@ -3,18 +3,17 @@
 - Score: 641 | [HN](https://news.ycombinator.com/item?id=48031261) | Link: https://us.starlabs.systems/pages/starfighter
 
 ### TL;DR
-Star Labs’ StarFighter is a 16" Linux-first performance laptop: 4K 16:10 120 Hz matte IPS screen, Intel Core Ultra or Ryzen 9, up to 64 GB LPDDR5X, lots of ports, open-coreboot/EDK II firmware with LVFS updates, removable magnetic webcam with chassis storage, hardware wireless kill switch, haptic glass trackpad, and an “open” 1‑year warranty allowing disassembly and OS changes. HN likes the feature set but worries about its 3+ years of shipping delays, pricing, RAM costs, and EU-compatibility of its warranty/charger policies.
 
----
+Star Labs’ StarFighter is a €1,846-and-up 16-inch Linux laptop offering Intel Core Ultra or Ryzen 9 processors, up to 64 GB of soldered LPDDR5X, a matte 3840×2400 120 Hz display, coreboot/EDK II firmware, LVFS updates, wireless kill switch, detachable webcam, haptic trackpad, and extensive ports. Its open warranty permits disassembly, upgrades, alternative operating systems, and custom firmware. HN liked the screen, connectivity, and repair-friendly policy but urged waiting for independent reviews after a roughly three-and-a-half-year path from announcement to apparent availability, repeated schedule slips, and unclear regional warranty compliance.
 
 ### Comment pulse
-- Shipping and trust → Announced 2022, repeatedly slipped; commenters urge waiting for real reviews despite some positive Reddit/previous-model experiences.  
-- Market timing → High RAM prices squeeze small vendors and buyers; upgradable laptops (Framework, others) partly mitigate by letting users add memory/storage later.  
-- Design, pricing, legality → Strong specs and ports but soldered RAM, odd CPU price gaps, forced charger, 1‑year warranty raise value and EU-law concerns—counterpoint: service reputation and coreboot support impress.
 
----
+- Open firmware and warranty give owners meaningful control → five years of updates still feels short for a premium durable machine.
+- High-resolution matte display and many ports attract Linux buyers → soldered RAM, no Ethernet, bundled charger, and option pricing weaken configurability.
+- Long development raises delivery risk → commenters recommend independent reviews — counterpoint: some owners report positive experiences with Star Labs products and support.
 
 ### LLM perspective
-- View: Technically compelling “Linux-native” flagship, but execution risk (delays, transparency, policies) will determine whether it escapes niche status.  
-- Impact: Most relevant to Linux/power users in Europe/North America choosing between Framework/System76/Tuxedo for open firmware and good displays.  
-- Watch next: Independent thermals/battery/QA reviews, clearer EU warranty/charger compliance, and confirmation of long-term coreboot/LVFS support for newer CPU generations.
+
+- **View:** Trust is the limiting specification; shipping history and accurate product imagery matter as much as hardware.
+- **Impact:** Buyers valuing firmware control gain rare choice but absorb early-adopter and vendor-longevity risk.
+- **Watch next:** Third-party battery and thermal tests, delivery times, regional warranty terms, firmware upstreaming, and repair documentation.

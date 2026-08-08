@@ -2,15 +2,18 @@
 
 - Score: 186 | [HN](https://news.ycombinator.com/item?id=48038827) | Link: https://blog.val.town/better-auth
 
-## TL;DR
-Val Town recounts moving from Supabase’s integrated stack to a custom database with Clerk for auth, then abandoning Clerk for Better Auth. Clerk’s model of being both users and sessions storage clashed with Val Town’s social product: severe rate limits, webhook-based data syncing, and frequent outages turned it into a brittle single point of failure. Better Auth lets them own their data and session lifecycle while using an open-source, framework-integrated library. HN debates vendor risk, “never roll your own auth,” and auth’s true complexity.
+### TL;DR
 
-## Comment pulse
-- Own your auth stack → VC-backed auth SaaS is seen as lock‑in and future price gouging; outages and rate limits threaten core functionality.  
-- Auth is deceptively complex → SSO, SAML, OAuth, 2FA, and nonstandard integrations consume huge engineering time—counterpoint: small apps can safely manage simple tables themselves.  
-- Different comfort levels with risk → Some prefer Auth0-style outsourcing to reduce PII exposure; others want full control despite security responsibility.
+Val Town replaced Clerk with Better Auth because Clerk’s hosted user records and session refreshes conflicted with a social application. A five-request-per-second user API forced webhook synchronization into a second users table, creating dual authority and incomplete-signup states; outages also locked out signed-in users. Better Auth keeps user and session data under Val Town’s control while offering open-source integrations and a stateless dashboard. The migration accepted both cookie formats for two weeks. Discussion split between owning core identity data and outsourcing SSO, MFA, anti-abuse, and integration edge cases.
 
-## LLM perspective
-- View: Treat auth as infrastructure: outsource primitives and libraries, not your canonical user data or session critical path.  
-- Impact: Social or collaborative products must budget engineering for identity modeling, migrations, and failure scenarios beyond wiring an auth provider.  
-- Watch next: Maturing open-source auth stacks, browser-level identity APIs, and more postmortems quantifying long-term costs of auth SaaS dependencies.
+### Comment pulse
+
+- Some insisted authentication should never be outsourced — counterpoint: SSO, SAML, SCIM, OAuth, MFA, and provider quirks consume serious support expertise.
+- Others valued hosted identity for reducing password handling, PII exposure, and duplicated login work across small sites.
+- Readers praised the unusually candid account of a long-lived architectural decision and delayed migration.
+
+### LLM perspective
+
+- Separate identity, profile, and session authority explicitly; convenience SDKs can blur boundaries until production scale exposes them.
+- Critical dependencies need graceful degradation, cached verification, migration exports, and tested provider-failure drills.
+- Watch maintainer concentration, security disclosures, non-JavaScript support, and operational behavior at larger scale.

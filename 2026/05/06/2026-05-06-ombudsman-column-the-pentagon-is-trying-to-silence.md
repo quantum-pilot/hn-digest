@@ -3,18 +3,17 @@
 - Score: 328 | [HN](https://news.ycombinator.com/item?id=48031769) | Link: https://www.stripes.com/opinion/2026-04-23/stripes-former-ombudsman-pentagon-trying-to-silence-21465037.html
 
 ### TL;DR
-Stars and Stripes’ ombudsman Jacqueline Smith says the Pentagon abruptly terminated her—via a “not grievable” form—after she publicly opposed new policies tightening Defense Department control over the paper’s content. She argues the Pentagon illegally rescinded long‑planned regulatory protections, reverted to an easily altered directive, and then imposed an interim policy expanding oversight and limiting coverage, threatening the paper’s congressionally mandated independence. Multiple senators and 39 House members have protested, and legislation is being drafted to shield Stars and Stripes from censorship.
 
----
+Stars and Stripes ombudsman Jacqueline Smith says the Pentagon terminated her with five days’ notice, no reason, and no grievance process, months before her three-year term ended. She links the dismissal to her public warnings that Defense Department policy changes could let officials control the congressionally protected newspaper’s content. Congress created the ombudsman in 1991 to report threats to editorial independence; lawmakers had recently protested the changes, with a House letter arriving six days before her firing. HN commenters viewed the episode as a press-freedom alarm and recurring executive-versus-Congress conflict.
 
 ### Comment pulse
-- Pentagon move fits a long pattern of executive overreach and secrecy from Iran‑Contra to today → structural impunity via pardons and weak accountability.  
-- Thread becomes a US vs Europe free‑speech argument → press‑freedom rankings favor many European states, but some note European hate‑speech laws chill certain protests.  
-- Firing an ombudsman designed as a “canary” → suggests intolerance for criticism and a broader trend of eliminating internal watchdogs in sensitive agencies.
 
----
+- The ombudsman serves as an institutional canary → removing an outspoken incumbent while retaining the office can neutralize oversight without formally abolishing it.
+- Iran-Contra motivated earlier safeguards → commenters saw current pressure as history repeating when executive power resists congressional limits.
+- Timing suggests retaliation → Smith was dismissed after criticizing policy — counterpoint: the Pentagon supplied no reason, leaving causation unproven.
 
 ### LLM perspective
-- View: Real test is whether Congress codifies enforceable independence for Stars and Stripes or lets it remain policy‑driven and reversible.  
-- Impact: Service members’ access to uncensored coverage of wars and Pentagon policy will either be preserved institutionally or depend on current leadership.  
-- Watch next: Text and fate of Shaheen’s bill, DoD’s answers (or silence) to oversight letters, and any further press‑access litigation.
+
+- **View:** Editorial independence needs enforceable appointment and removal protections, not only a statutory mission and reporting line.
+- **Impact:** Service members risk receiving official messaging instead of adversarial reporting during deployments and war.
+- **Watch next:** Congressional legislation, the replacement process, answers to lawmakers, and legal challenges to policy changes.

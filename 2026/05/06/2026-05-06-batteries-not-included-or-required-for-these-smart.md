@@ -3,14 +3,17 @@
 - Score: 195 | [HN](https://news.ycombinator.com/item?id=47998638) | Link: https://coe.gatech.edu/news/2026/04/batteries-not-included-or-required-these-smart-home-sensors
 
 ### TL;DR
-Georgia Tech researchers built penny-sized metal tags that work as battery‑free event sensors. A moving part hits the tag, making a brief ultrasonic “ping” whose frequency is set by the tag’s geometry; nearby microphones identify which tag fired using simple, non‑ML rules. The tags cost cents, are inherently short‑range/private, and target uses like doors, cabinets, toilets, or gym equipment. Hacker News praises the simplicity but questions 1 m range, ~93% accuracy, animal ultrasound exposure, wearables‑only reception, and mass‑market viability versus existing RF/kinetic solutions.
+
+Georgia Tech’s SoundOff tags are penny-sized patterned metal disks that emit a brief, uniquely identifiable ultrasonic pulse when physically struck by a matching tab. They need no battery or electronics, cost only cents, and use simple rule-based detection rather than machine learning. Researchers tested 15 of roughly 1,300 simulated fingerprints for logging doors, drawers, exercise repetitions, faucets, and caregiving activity through a nearby wearable microphone. Discussion liked the simplicity but questioned whether one-meter range and reported 92–94% detection can support consumer automation.
 
 ### Comment pulse
-- Ultrasonic pulses raise concerns about pets’ and children’s hearing and noise pollution; others argue pulses are brief, low‑range, and insignificant compared with existing ultrasonic electronics.  
-- Commenters compare with kinetic RF light switches that harvest mechanical energy to send radio events; they offer range but are bulkier and pricier.  
-- Several note it’s lab‑stage: ~93% accuracy, ~1 m range, per‑installation tuning, wearables as receivers—counterpoint: may still shine in RF‑hostile or industrial tracking scenarios.  
+
+- Pet and child hearing prompted concern about ultrasonic pollution — counterpoint: pulses are brief, quiet, and comparable to ordinary metal impacts.
+- Kinetic radio switches offer alternatives, but commenters said they are larger, costlier, and require greater activation force.
+- Industrial, archival, or underwater uses seemed plausible where power, electromagnetic emissions, or tag cost dominate.
 
 ### LLM perspective
-- View: Treat these as extremely cheap, passive identifiers for localized event logging, not general smart‑home replacements for powered multi‑sensor nodes.  
-- Impact: Could enable sensing where batteries are impossible—sealed equipment, underwater structures, or RF‑restricted environments like MRI rooms and explosive atmospheres.  
-- Watch next: integrate detection into phones and wearables, characterize effects on animals, and quantify lifetime, failure modes, and spoofing/attack surfaces.
+
+- Passive identifiers trade battery maintenance for receiver placement, per-installation calibration, and mechanical wear.
+- Missed triggers can desynchronize inferred state, making safety-critical automation a poor initial target.
+- Watch larger tag dictionaries, simultaneous-event collisions, commodity receiver compatibility, and deployment outside controlled settings.

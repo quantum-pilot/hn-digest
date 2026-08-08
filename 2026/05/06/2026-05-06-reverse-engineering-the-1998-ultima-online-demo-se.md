@@ -2,19 +2,18 @@
 
 - Score: 224 | [HN](https://news.ycombinator.com/item?id=48032976) | Link: https://draxinar.github.io/articles/2026-05-01-uodemo-reverse-engineering.html
 
-## TL;DR
-A long‑running fan project has fully reverse‑engineered the 1998 Ultima Online demo server: ~5,000 MSVC5-era functions were painstakingly decompiled and reimplemented in C99, instruction‑matched against the original binary. The author restored disabled systems (like predator–prey “ecology”), fixed crashes and gameplay bugs, added missing skills, ported to 64‑bit, and supports many client versions and encryption schemes. They’re seeking original server data files to further improve authenticity. HN commenters reminisce about UO shards jump‑starting their careers and compare UO’s emergent sandbox design to today’s safer MMOs.
+### TL;DR
 
----
+After a decade of intermittent work, Draxinar released a portable C99 reconstruction of the 1998 Ultima Online demo server: roughly 5,000 MSVC x86 functions translated by hand and checked instruction-by-instruction against the binary. The demo contained much of the live production server, enabling restoration of disabled spawning, decay, and predator-prey systems, plus reconstructed world data, 64-bit support, accounts, and clients through 2007. LLMs helped finish the project, though the methodology remained manual and binary-grounded. HN readers celebrated both game preservation and UO’s enduring role in launching programming careers.
 
-## Comment pulse
-- Reverse‑engineering details are admired, but some devs wanted deeper tooling/LLM/RE war stories; network stack seems pure TCP, surprising for an MMO—counterpoint: simpler reliability often beat early UDP quirks.  
-- UO private shards remain active; Outlands is cited as a well‑run, very harsh, “classic‑feeling” server with thousands online and a large Discord community.  
-- The UO emulator/shard scene taught many commenters web, scripting, networking, and systems skills, often directly leading to first programming jobs and careers.
+### Comment pulse
 
----
+- Matching recompiled functions against original instructions constrains decompilation → intentional bug fixes and platform adaptations remain explicitly tagged.
+- Missing historical save, region, and resource files limit fidelity → the author requests archives and can strip player data before release.
+- UO’s private-server ecosystem taught scripting and networking → several commenters traced professional careers to childhood shard projects.
 
-## LLM perspective
-- View: This is high‑value software archaeology, showing how to recreate complex legacy systems with verifiable, binary‑faithful C rather than guessy decompilation.  
-- Impact: Benefits game historians, emulator authors, and MMO designers studying 1990s server architectures and emergent-systems design like UO’s ecology and resource models.  
-- Watch next: Whether original server save and resource files surface, plus more documented workflows for combining LLMs with strict binary equivalence checks in RE projects.
+### LLM perspective
+
+- **View:** This is executable archaeology: preserve behavior, document deviations, and recover design intent from artifacts.
+- **Impact:** Researchers and players gain inspectable server internals instead of depending on aging binaries or approximate emulators.
+- **Watch next:** Archival file recovery, netcode validation, reproducible builds, expanded process documentation, and community testing.

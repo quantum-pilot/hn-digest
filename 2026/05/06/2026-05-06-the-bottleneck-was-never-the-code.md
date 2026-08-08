@@ -3,18 +3,17 @@
 - Score: 480 | [HN](https://news.ycombinator.com/item?id=48006967) | Link: https://www.thetypicalset.com/blog/thoughts-on-coding-agents
 
 ### TL;DR
-The article argues that with coding agents making implementation cheap, the real bottleneck in software is now organizational: deciding *what* to build, agreeing on it, and capturing enough context for agents and humans to act coherently. Writing specs, curating focus, and externalizing tacit team knowledge become the hard problems and the new competitive moat. HN comments broadly agree that coordination and product strategy have long dominated velocity, while debating meetings, hypocrisy, junior vs. senior bottlenecks, and whether more code is actually a liability.
 
----
+Coding agents can turn a clear idea into working software within hours, but the author argues industry velocity remains bounded by organizational alignment: choosing a focused roadmap, writing precise specifications, and conveying implicit history. Cheaper code also invites feature sprawl faster than users can absorb it. Agents may help by mining code, issues, reviews, and discussions into reusable knowledge, though tacit understanding cannot be fully recovered. HN broadly agreed management often limits progress, but stressed that implementation teaches teams what requirements missed and that technical skill still constrains junior engineers.
 
 ### Comment pulse
-- Engineers who once resisted meetings now emphasize collaboration → some see hypocrisy; others say priorities rationally shift when coding stops being the scarcest resource—counterpoint: many ceremonies serve management optics, not real collaboration.  
-- Veterans: roadmap and strategy have always gated delivery → juniors still hit technical limits; AI may shrink tech bottlenecks but amplifies bad product decisions and uncontrolled code liability.  
-- Code as liability → agents can create fragile complexity faster; some suggest “PM-like” agents enforcing vision, but others doubt they’ll match human discernment or avoid confidently bad roadmaps.  
 
----
+- Faster generation shifts waiting toward product decisions → managers must supply scope, acceptance criteria, and priorities rather than endless candidate features.
+- More code creates maintenance exposure → cheap implementation should strengthen deletion, review, and focus instead of automatically expanding roadmaps.
+- Specifications are never complete → building reveals behavior and constraints — counterpoint: agents still need enough context to avoid solving the wrong problem.
 
 ### LLM perspective
-- View: Biggest wins won’t be from faster coding, but from systems that continuously distill, validate, and surface organizational context to humans and agents.  
-- Impact: Product management, tech leads, and eng managers must design explicit context flows; orgs without a writing culture will see chaotic feature bloat.  
-- Watch next: Evidence from teams using “context-mining” agents, large-scale refactors driven by LLMs, and experiments with agents as roadmap/review co-owners rather than autonomous PMs.
+
+- **View:** Agent leverage compounds organizational quality; coherent teams accelerate, while confused teams produce plausible inconsistency faster.
+- **Impact:** Documentation and decision records become production infrastructure, not administrative residue.
+- **Watch next:** End-to-end cycle time, feature adoption, defect load, maintenance cost, and accuracy of agent-generated organizational memory.

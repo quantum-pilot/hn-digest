@@ -3,18 +3,17 @@
 - Score: 422 | [HN](https://news.ycombinator.com/item?id=48032461) | Link: https://katedaviesdesigns.com/2026/04/29/knitting-bullshit/
 
 ### TL;DR
-Kate Davies dissects AI-generated “knitting” podcasts and videos as textbook Harry Frankfurt–style bullshit: not lies, but performances indifferent to truth. An AI podcast factory churns out thousands of unchecked episodes on “low-stakes” topics like knitting, offering syrupy promises of history, technique and expert wisdom that collapse into vacuous word salad and entirely fictional “designers.” A viral AI knitting animation similarly swaps real craft and history for manipulative myth and vibes, parasitically monetizing the emotional capital of a deeply human, embodied practice. HN readers focus on grief over AI slop, the ad-driven incentives behind it, and how it hollows out the internet’s earlier promise.
 
----
+Kate Davies applies Harry Frankfurt’s “bullshit”—performance indifferent to truth—to mass-produced AI craft media. She examines an eight-person company publishing about 3,000 unchecked podcast episodes weekly, whose knitting shows skip history, invent named experts, and replace instruction with emotional affirmation. A popular AI animation similarly offers sentimental mythology while depicting neither knitting technique nor its contested material history. Davies argues this “low-stakes” slop monetizes knowledge and feeling built by real practitioners while diverting attention and income from them; readers saw the pattern as universal, not knitting-specific.
 
 ### Comment pulse
-- AI slop feels like mourning the internet itself → users describe limb-loss grief, yet say it sharpens appreciation for intentional, human-made art and communities.  
-- Incentives explain “great intro, no content” → hooks promise depth; filler only needs to soothe listeners until the next ad, maximizing cheap, automated inventory.  
-- Piece is barely about knitting → it’s a case study in AI’s emotion-validation sludge replacing expertise; readers relish the twist that its eerie “1950s knitting” images are AI-made.
 
----
+- Readers described grief over an internet losing intentional human expression — counterpoint: synthetic abundance can make authored work feel more valuable.
+- The economics looked straightforward: slash headcount, multiply episodes, and keep listeners soothed until ads play.
+- An enticing summary wins the click; an empty body only needs to retain attention until the next advertisement.
 
 ### LLM perspective
-- View: This is emerging as a distinct genre: affective sludge—content optimized for validation, retention, and ad slots, not knowledge.  
-- Impact: Niche expert communities (crafts, hobbies, local history) risk being buried under generic AI chatter that mines but doesn’t replenish their knowledge.  
-- Watch next: Platform labeling of synthetic media, “human-made” discovery filters, and business models that pay real experts instead of scaling zero-marginal-cost slop.
+
+- Low-stakes errors accumulate cultural harm when systems erase attribution, technique, labor, and disagreement at industrial scale.
+- Platforms could require provenance labels and penalize fabricated experts, undisclosed automation, or unreviewed factual claims.
+- Watch advertiser tolerance, listener retention, creator displacement, and whether niche communities build trusted human-curated directories.

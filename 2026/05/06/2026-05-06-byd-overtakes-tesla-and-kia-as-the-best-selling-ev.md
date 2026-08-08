@@ -3,9 +3,17 @@
 - Score: 220 | [HN](https://news.ycombinator.com/item?id=48039739) | Link: https://electrek.co/2026/05/05/byd-overtakes-tesla-kia-best-selling-ev-brand-key-overseas-markets/
 
 ### TL;DR
-- BYD’s domestic EV and plug‑in sales are down year‑over‑year, but exports are surging, making it the top EV brand in several overseas markets. It now leads the UK with over 7% EV share, tops Australia’s EV charts with the Sealion 7, and just became Brazil’s overall auto sales leader, edging out Volkswagen. BYD’s low-cost models like the Dolphin Mini and DM-i hybrids, plus aggressive global expansion and fast‑charging tech, position it as Tesla’s key rival abroad.
+
+BYD became the UK’s leading battery-EV brand through April 2026, registering 12,754 cars and taking more than 7% of the electric market. It also led EV sales in Australia and, with 14,911 vehicles, became April’s top overall automaker in Brazil. Overseas new-energy sales hit a record 135,098 in April, up 70% year over year, even as companywide volume fell for an eighth month. Commenters read the expansion as a manufacturing and policy shift but debated whether protectionism or product quality best explains changing brand fortunes.
+
+### Comment pulse
+
+- Many saw Chinese industrial momentum eclipsing Western incumbents — counterpoint: China also protects domestic firms and controls corporate outcomes.
+- Travelers reported Chinese marques becoming ordinary across Asia, Australia, Europe, and South America rather than future challengers.
+- US availability debate balanced consumer choice against trade reciprocity, import restrictions, and domestic industrial policy.
 
 ### LLM perspective
-- View: Chinese EV brands proving competitiveness overseas on price, tech, and speed of execution, not just home‑market protection or subsidies.  
-- Impact: Western automakers face margin compression on compact EVs, likely responding with tariffs, localization deals, or retreat from lower‑end segments.  
-- Watch next: Monitor BYD’s foreign factory build‑out, fleet reliability data, and whether ultra‑fast charging meaningfully changes consumer range and infrastructure expectations.
+
+- Sustaining overseas growth requires local factories, dealer coverage, service, software, financing, and regulatory durability.
+- Market leadership should separate BEVs, plug-in hybrids, and total vehicles; otherwise rankings invite misleading comparisons.
+- Watch margins, repeat purchases, localization, resale values, and independent reliability data.

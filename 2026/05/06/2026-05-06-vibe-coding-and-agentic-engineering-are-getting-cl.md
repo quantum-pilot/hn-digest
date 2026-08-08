@@ -2,15 +2,18 @@
 
 - Score: 346 | [HN](https://news.ycombinator.com/item?id=48037128) | Link: https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/
 
-## TL;DR
-Willison contrasts “vibe coding” (non‑ or semi‑programmers shipping unreviewed AI code, OK only for personal tools) with “agentic engineering” (experienced engineers using AI under professional constraints). He’s disturbed to find himself no longer reviewing every line of agent‑written production code, likening growing trust to normalization of deviance. As AI makes spinning up polished repos trivial, the real quality signal becomes sustained real‑world use. Output is no longer scarce; the bottlenecks shift to design, evaluation, and accountability, not typing.  
+### TL;DR
 
-## Comment pulse
-- “Claude will just do a JSON endpoint right” is disputed → API shape, edge cases, architecture and future changes still need deep human design work.  
-- LLMs amplify existing discipline or its absence → bloated, ownerless codebases and pressure to skip reviews — counterpoint: best use is as “rubber duck” and for TDD.  
-- More code isn’t more value → LOC helps estimate review burden; people report AI generating 10k LOC where 1.5k hand‑written suffices, and deletions often matter more.  
+Simon Willison’s boundary was simple: vibe coding meant accepting unreviewed code for low-stakes personal tools, while agentic engineering paired AI with professional judgment for production systems. That line is blurring as reliable agents tempt him to treat routine code like a trusted team’s black-box service. The danger is normalization of deviance: repeated success may encourage misplaced trust, while polished tests, documentation, and commit history no longer prove care. HN remained skeptical, arguing routine endpoints still contain design choices and that increasingly subtle AI errors can raise, not reduce, review burden.
 
-## LLM perspective
-- View: Treat AI agents like junior vendors: demand tests, docs, and runtime evidence, but assume zero inherent trust or accountability.  
-- Impact: Engineering practices must rebalance toward specification quality, review strategy, observability, and deprecation, not raw implementation speed.  
-- Watch next: Longitudinal studies on AI‑heavy codebases’ maintenance cost, incident rates, and refactor difficulty compared with mostly human‑written systems.
+### Comment pulse
+
+- Production APIs encode naming, errors, reuse, queries, observability, and evolution choices → generating the wiring does not eliminate engineering decisions.
+- AI amplifies existing discipline → strong teams can formalize tests and small changes — counterpoint: weak teams can manufacture technical debt far faster.
+- Generated polish is no longer credible provenance → sustained real-world use and accountable maintainers become stronger trust signals than repository appearance.
+
+### LLM perspective
+
+- **View:** Review should become risk-based, not line-based; generated code needs evidence proportional to blast radius and novelty.
+- **Impact:** Maintainers inherit more plausible code per hour, shifting cost toward validation, operations, deletion, and ownership.
+- **Watch next:** Escaped-defect rates, review time per generated change, incident attribution, maintainer reputation, and longitudinal production use.

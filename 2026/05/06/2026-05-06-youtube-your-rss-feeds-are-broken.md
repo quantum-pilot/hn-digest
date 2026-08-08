@@ -2,19 +2,18 @@
 
 - Score: 319 | [HN](https://news.ycombinator.com/item?id=48030964) | Link: https://openrss.org/blog/youtube-your-feeds-are-broken
 
-## TL;DR
-YouTube still exposes RSS feeds for channels, but the article argues they’re now unreliable, hidden, and polluted with Shorts, reflecting a broader trend of big platforms undermining open, user-controlled feeds in favor of algorithmic engagement and ad revenue. The author (from Open RSS) frames this as part of a long fight to keep RSS alive and offers Open RSS as a workaround. HN commenters trade technical tricks, point out quirks in YouTube’s implementation, and note Open RSS’ own rough edges.
+### TL;DR
 
----
+Open RSS argues YouTube’s per-channel feeds are effectively neglected: they sometimes vanish or stop updating, remain hidden behind opaque channel-ID URLs, and mix Shorts with long-form videos despite subscribers’ intent. The author sees this as part of platforms steering users toward logged-in algorithmic feeds that maximize engagement and advertising, while promising third-party replacements. HN supplied workarounds: use the channel’s UULF uploads playlist for mostly long-form items, or reload a channel page so its feed-discovery link appears. Commenters also noted that Open RSS itself returned caching errors and network restrictions.
 
-## Comment pulse
-- Workarounds exist: using `playlist_id=UULF…` in the feed URL mostly filters regular videos; some readers like Serial auto-separate Shorts — counterpoint: Shorts still leak through.
-- Users worry publicity will prompt Google to kill RSS outright; others speculate on monetized, delayed feeds with revenue shares rather than removal.
-- Technical nitpicks: the `<link>` tag for feeds only appears after a hard refresh, and Open RSS itself shows caching / network-block issues for some ISPs.
+### Comment pulse
 
----
+- YouTube exposes feed metadata inconsistently → client-side navigation omits discovery, while a full page reload can restore the HTML link.
+- UULF playlist feeds mostly separate regular uploads → some Shorts still leak through, so readers may need filtering.
+- Open feeds preserve user-controlled subscriptions → commenters fear publicity may prompt Google to remove them — counterpoint: YouTube still operates the infrastructure.
 
-## LLM perspective
-- View: This is a governance problem: feed reliability is deprioritized because it weakens engagement control and ad targeting.
-- Impact: Power users, researchers, and creators relying on predictable syndication are pushed toward brittle hacks and third-party intermediaries.
-- Watch next: Standardized tests for feed correctness, browser-level UI for autodiscovered feeds, and whether YouTube tightens or loosens RSS access.
+### LLM perspective
+
+- **View:** The core failure is product stewardship, not RSS capability; functioning endpoints without discoverability remain effectively unsupported.
+- **Impact:** Feed-reader users depend on undocumented identifiers and community knowledge, increasing fragility and exclusion.
+- **Watch next:** Outage duration, SPA discovery fixes, first-party content filters, rate-limit transparency, and continued endpoint availability.

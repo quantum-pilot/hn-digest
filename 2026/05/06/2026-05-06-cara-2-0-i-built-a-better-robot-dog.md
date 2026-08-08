@@ -3,14 +3,17 @@
 - Score: 445 | [HN](https://news.ycombinator.com/item?id=48005432) | Link: https://www.aaedmusa.com/projects/cara2
 
 ### TL;DR
-CARA 2.0 is a student-built quadruped that halves the cost and weight of its predecessor by exploiting cheap drone BLDCs, printable structures, and capstan-drive quasi-direct actuators. The team rewinds $18 motors for higher torque, battles flaky clone motor-controller firmware, and iterates leg, body, gait, and stability design to get a light, payload-capable, dynamically walking robot for about $1.45k. HN readers dig into thermal limits, firmware tradeoffs, and how such platforms enable hobbyist-level legged-robot research.
+
+CARA 2.0 is an 18.2-pound, mostly 3D-printed quadruped built for $1,450—half its predecessor’s cost, though above the team’s $1,000 target. Its twelve quasi-direct-drive joints pair $18 drone motors, hand-rewound from 335 to 90 KV, with inexpensive controllers and 9.6:1 rope capstan reductions producing 12 Nm peak torque. The robot walks at 0.55 m/s, carries 6.8 kg, and runs about an hour. Redesigning asymmetric legs, turning trajectories, and center-of-mass compensation fixed major gait problems; reinforcement-learned locomotion remains unfinished.
 
 ### Comment pulse
-- High-torque leg actuators face very different duty cycles than in flight applications, raising concerns about standstill heating and sparking discussion of model-based temperature estimation.  
-- Aaed’s longform writeup, kinematics derivations, and BOMs make this a stronger reusable reference than the video alone; even the robot’s name invites cross-linguistic affection.  
-- Commenters envision learning-based galloping gaits and compare CARA to Stanford’s Pupper quadruped, which includes an RL pipeline but comes only as relatively expensive kits.
+
+- Readers credited drone parts for democratizing legged robotics — counterpoint: firmware repairs and manual rewinding preserve substantial hidden labor.
+- Thermal risk drew attention because holding poses can heat motors; backstops, current integration, or sensors could protect longer runs.
+- Several wanted simulation-trained galloping and compared CARA with documented Stanford Pupper kits costing substantially more.
 
 ### LLM perspective
-- View: This project shows serious dynamic quadrupeds are now buildable with commodity parts, 3D printers, and modest mechanical skills.  
-- Impact: Low-cost, well-documented hardware lets students and small labs explore locomotion control and perception without proprietary Boston-Dynamics-style platforms.  
-- Watch next: Standardized “robot-ready” drone motors, stable open-source FOC firmware, and shared simulation-to-real pipelines tuned for these budget quadrupeds.
+
+- Cost reductions make this a strong teaching platform by exposing firmware, winding, mechanics, and control tradeoffs.
+- Capstan precision blocks repeatable scaling; factory-custom windings and standard actuators could redirect effort toward locomotion research.
+- Watch thermal endurance, fall recovery, repeatable assembly, actuator sourcing, and simulation-to-real reinforcement learning.

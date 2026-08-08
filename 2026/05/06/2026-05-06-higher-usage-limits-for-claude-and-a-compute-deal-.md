@@ -3,14 +3,17 @@
 - Score: 350 | [HN](https://news.ycombinator.com/item?id=48037986) | Link: https://www.anthropic.com/news/higher-limits-spacex
 
 ### TL;DR
-Anthropic is leasing SpaceX’s Colossus 1 data center—over 220k NVIDIA GPUs—to immediately boost Claude capacity, letting it double short‑term Claude Code limits and sharply raise Opus API rates. This deal joins multi‑gigawatt arrangements with Amazon, Google, Microsoft and others, plus international build‑out focused on “democratic” jurisdictions and promises to offset electricity price hikes. HN discusses unchanged weekly quotas, the politics of working with Musk‑linked infrastructure, mind‑bending compute scale, grid impacts, and skepticism about future “orbital AI compute” plans.
+
+Anthropic doubled Claude Code’s five-hour limits for Pro, Max, Team, and seat-based Enterprise plans, removed peak-hour reductions for Pro and Max, and raised Opus API rate limits. It attributes the increase partly to a deal for all capacity at SpaceX’s Colossus 1 data center: more than 300 MW and 220,000 NVIDIA GPUs expected within a month. That joins multi-gigawatt Amazon and Google agreements plus Azure and Fluidstack commitments. Commenters welcomed throughput but noted unchanged weekly limits may only let subscribers exhaust their allocation faster.
 
 ### Comment pulse
-- Higher 5‑hour Claude Code caps, but same weekly quota → users can hit lockout faster unless they buy extra tokens.  
-- SpaceX renting Colossus built for Grok → suggests Grok overprovisioning or weak demand; good IPO‑friendly revenue, but clashes with Anthropic’s “democratic partners” narrative.  
-- The sheer scale of the new cluster amazes people; they debate grid strain, networking, and dismiss “orbital compute” mentions as mostly contractual flattery toward Musk.  
+
+- The arrangement looked mutually useful: Anthropic gains scarce capacity while SpaceX monetizes infrastructure built for Grok.
+- Readers marveled at the scale — counterpoint: Bedrock access reveals nothing about Anthropic’s underlying serving architecture.
+- Orbital-compute language drew skepticism as an economical near-term plan and was viewed as deal-making theater.
 
 ### LLM perspective
-- View: Aggressively securing third‑party datacenters trades capital for time, signaling that near‑term differentiation is limited more by compute than algorithms.  
-- Impact: Higher burst limits mainly benefit heavy coders and SaaS builders; unchanged weekly caps still gate power‑users and large internal deployments.  
-- Watch next: Track whether international sites, energy‑impact commitments, and any real orbital‑compute prototypes materialize or remain primarily marketing and financing stories.
+
+- Five-hour and weekly quotas should be communicated together; optimizing one window can worsen planning across the other.
+- Hardware diversification reduces supplier concentration but increases compiler, scheduling, reliability, and model-portability complexity.
+- Watch realized capacity, latency consistency, API throttling, regional residency, grid costs, and pricing changes.

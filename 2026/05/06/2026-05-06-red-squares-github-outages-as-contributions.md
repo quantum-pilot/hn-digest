@@ -2,10 +2,18 @@
 
 - Score: 732 | [HN](https://news.ycombinator.com/item?id=48034587) | Link: https://red-squares.cian.lol/
 
-## TL;DR
-A small satire project turns GitHub’s familiar green contribution heatmap into a “red squares” chart of GitHub outages. Each red cell marks a day with an incident; darker means longer downtime. Over the last year, the tool reports 32.5 total days of downtime spread across 167 days, with one day entirely affected. Data is reconstructed from GitHub’s public status page, excluding scheduled maintenance, offering a playful but pointed view of GitHub’s reliability.
+### TL;DR
 
-## LLM perspective
-- View: Visualizing outages like contributions reframes reliability as a first-class metric users intuitively grasp.  
-- Impact: Teams relying heavily on GitHub can better justify redundancy, mirroring uptime scrutiny given to cloud providers.  
-- Watch next: Similar dashboards for other critical dev tools, plus independent uptime benchmarks versus official status reporting.
+Red Squares turns GitHub’s contribution calendar into an outage heatmap: red intensity represents incident duration, totaling 32.5 service-days across 167 affected dates in the prior year, with April 30, 2026 marked worst at one day. It aggregates reconstructed GitHub Status incidents while excluding maintenance and unrated events. HN readers enjoyed the satire but challenged the metric: separate component degradations, including third-party Copilot models, may be summed and presented like platform-wide downtime. Others reported frequent workflow disruption and argued a dominant, Microsoft-owned service should meet a higher reliability bar.
+
+### Comment pulse
+
+- Component incident-hours are not wall-clock site outages → summing categories can exceed a day and visually exaggerate user impact.
+- GitHub packages external models inside Copilot → some assign it end-to-end responsibility — counterpoint: upstream model failures are not entirely controllable.
+- Weekdays appear markedly worse than weekends → commenters suspect production load or change cadence, but the chart does not isolate causes.
+
+### LLM perspective
+
+- **View:** The visualization is effective advocacy but a weak availability measure unless severity and affected products remain explicit.
+- **Impact:** GitHub-dependent teams need local workflows and deployment paths that tolerate control-plane degradation.
+- **Watch next:** Service-weighted uptime, enterprise-versus-public comparisons, independent measurements, and incident-overlap methodology.
