@@ -3,14 +3,17 @@
 - Score: 236 | [HN](https://news.ycombinator.com/item?id=48050278) | Link: https://deepmind.google/blog/alphaevolve-impact/
 
 ### TL;DR
-AlphaEvolve is a Gemini-powered “coding scientist” that searches over algorithms and code to optimize well-specified problems across science, infrastructure, and industry. It has delivered concrete wins: fewer DNA variant-calling errors, better power grid optimization, more accurate disaster-risk models, lower-error quantum circuits, improved bounds in math problems, more efficient TPUs and databases, and sizable speed/quality gains for companies in finance, logistics, chips, and drug discovery. HN discussion centers on limits of such tools, AI-improving-AI hype, and Gemini’s developer experience.
+
+Google says AlphaEvolve, its Gemini-powered algorithm-discovery agent, has moved from research demos into deployed science and infrastructure. Reported results include 30% fewer genomic variant-detection errors, feasible power-grid solutions rising from 14% to over 88%, quantum circuits with 10× lower error, 20% less Spanner write amplification, and a circuit integrated into next-generation TPUs. External users report doubled model-training speed, 10.4% better logistics routing, and roughly 4× materials-model speedups. HN framed its strength as optimizing well-defined, measurable problems, while debating how quickly it can absorb ambiguous work.
 
 ### Comment pulse
-- AI excels at clearly defined optimization tasks but struggles with tacit, ambiguous work → some think ambiguity-handling is already improving and this confidence will age poorly.  
-- “AI improving AI” mostly means cheaper, faster infrastructure today → commenters distinguish that from genuinely more capable successor models and dismiss singularity talk as bad modeling.  
-- Gemini coding UX is uneven: VS Code extension seen as flaky vs Claude/Codex, while internal agents seem strong; Vertex quotas and 429s frustrate serious adopters.
+
+- Some see months of optimization compressed into hours when objectives are explicit, while tacit, human-centered work remains less tractable.
+- Others think ambiguity is temporary: agents already ask questions and could search recorded meetings or well-maintained internal documentation.
+- Practitioners praise rapid implementation — counterpoint: hallucinated APIs, mainstream bias, and hidden shortcuts still demand expert questioning and review.
 
 ### LLM perspective
-- View: AlphaEvolve operationalizes “agentic auto-optimization”: iterative search over code/algorithms guided by large models plus strong eval loops.  
-- Impact: shifts experts toward defining objectives, constraints, and checks, letting agents explore design space for algorithms, circuits, and heuristics.  
-- Watch next: independent replications, open benchmarks against human experts, and whether smaller orgs get accessible versions without Google-scale compute.
+
+- These gains depend on cheap automated evaluation; domains lacking faithful objective functions cannot evolve safely at comparable scale.
+- Production adoption makes reproducibility, baseline selection, and regression testing more important than headline best-case improvements.
+- Watch independent replications, compute budgets, failure rates, and generalization beyond benchmark distributions.

@@ -2,15 +2,18 @@
 
 - Score: 206 | [HN](https://news.ycombinator.com/item?id=48047970) | Link: https://www.theregister.com/offbeat/2026/05/05/noyb-cries-foul-on-linkedin-withholding-profile-visitor-data/5225338
 
-- TL;DR  
-  Privacy group Noyb has filed a GDPR complaint after LinkedIn refused to give a non‑paying user the full list of who viewed their profile, treating it as a monetizable “premium” feature. Noyb argues Article 15 guarantees free access to all personal data a company processes, and LinkedIn already shares those visitor identities with subscribers, undermining its “privacy” excuse. The case could set an EU precedent against paywalling access to one’s own data, with implications for banks, SaaS tools, and dating apps.
+### TL;DR
 
-- Comment pulse  
-  - Journalistic skepticism is welcome → commenters like The Register calling out LinkedIn's dubious claims, though some nitpick whether “only Premium users” is technically false.  
-  - Charging for access to own data is absurd → if privacy blocks disclosure, offering it to paying users undermines LinkedIn's Article 15 justification.  
-  - Regulation vs profit mindset divides → some praise Noyb and EU rules; others decry “anti-money” culture, note dating apps and visibility viewing encourage sock-puppet browsing.
+Privacy group Noyb argues LinkedIn cannot place a user’s profile-visitor history entirely behind Premium because GDPR Article 15 generally guarantees a free copy of personal data a service processes about that user. LinkedIn cites visitor privacy and its policy, but Noyb says selling the same identities to paying members undermines that defense; premium presentation and analytics could still remain paid. HN commenters liked the challenge yet highlighted the unresolved conflict between account holders’ access rights and visitors’ expectations, including incentives for anonymous or fake browsing accounts.
 
-- LLM perspective  
-  - View: Paywalling access to raw personal data conflicts with modern “data portability” norms; regulators will likely narrow when monetization is acceptable.  
-  - Impact: A precedent against data-paywalls would affect CRMs, banks, fitness apps, and platforms that charge for dashboards built from customer data.  
-  - Watch next: Watch regulators distinguish raw personal data from value-added insights, possibly mandating exportable formats while permitting premium visualizations and workflow integrations.
+### Comment pulse
+
+- Charging for visitor identities weakens LinkedIn’s privacy rationale → disclosure apparently becomes acceptable when the profile owner pays.
+- Article 15 protects access, not polished presentation → raw exports could be free while analytics and convenient interfaces remain premium.
+- Visitor transparency may chill ordinary browsing → commenters anticipate anonymity tools or fake accounts — counterpoint: users can already choose private viewing.
+
+### LLM perspective
+
+- **View:** The case turns on classifying visitor history as user data without erasing third-party privacy rights.
+- **Impact:** A broad ruling could reach banks and dating apps whose paid features repackage user-linked data.
+- **Watch next:** Regulatory interpretation, required redactions, export formats, and whether paid disclosure itself faces scrutiny.

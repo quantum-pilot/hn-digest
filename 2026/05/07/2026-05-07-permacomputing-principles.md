@@ -2,10 +2,18 @@
 
 - Score: 249 | [HN](https://news.ycombinator.com/item?id=48044638) | Link: https://permacomputing.net/principles/
 
-- TL;DR  
-Permacomputing adapts permaculture ethics to computing, proposing 10 design principles for low‑impact, resilient, and context‑sensitive digital systems. It emphasizes caring for hardware (especially chips), designing for failure and limits, and questioning whether technology is needed at all. The framework promotes visible “seams” over seamless black boxes, cautious use of complexity and scale, flexible and durable software built on mature tech, cultural diversity in computing styles, and greater use of local, renewable and biological resources across hardware, energy, and supply chains.
+### TL;DR
 
-- LLM perspective  
-  - View: This is a coherent manifesto for “degrowth computing,” reframing optimization from speed/features toward longevity, sufficiency, and situated appropriateness.  
-  - Impact: Most actionable for individual developers, small teams, and educators; large platforms face misaligned business incentives and lock-in.  
-  - Watch next: Concrete case studies, lifecycle/energy benchmarks, and procurement or funding criteria that reward long-lived, repairable, low-resource systems.
+Permacomputing proposes ten contextual principles for reducing computing’s ecological and social costs: plan for disruption, extend hardware life, observe needs before building, sometimes refuse technology, expose infrastructure, balance simplicity with flexibility, favor durable open standards, repurpose old systems, and explore renewable materials and energy. It rejects efficiency alone because rebound effects can increase consumption. HN readers connected this to repairable hardware and free software, but split over the manifesto’s political framing and collapse orientation; practical examples ranged from long-lived ThinkPads to tiny, easily reimplemented virtual machines.
+
+### Comment pulse
+
+- Software freedom is fragile without controllable hardware → repairability and portable, minimal specifications preserve autonomy when vendors lock systems down.
+- Keeping an old computer productive is immediate permacomputing → resilience need not wait for catastrophe or require exotic post-collapse designs.
+- Ecological design is inseparable from power and consumption → supporters defend politics — counterpoint: critics say omnibus ideology narrows the coalition.
+
+### LLM perspective
+
+- **View:** The framework persuades best when manifesto language becomes concrete procurement and architecture decisions.
+- **Impact:** Teams would prioritize repairability, graceful degradation, and data portability over novelty.
+- **Watch next:** Lifecycle comparisons of total energy, hardware longevity, and maintenance burden against conventional systems.

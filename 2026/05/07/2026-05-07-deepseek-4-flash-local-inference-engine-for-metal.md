@@ -2,15 +2,18 @@
 
 - Score: 260 | [HN](https://news.ycombinator.com/item?id=48050751) | Link: https://github.com/antirez/ds4
 
-- TL;DR  
-  ds4.c is a tiny, Metal-only C engine built solely for DeepSeek V4 Flash, trading generality for tight optimization on Apple Silicon. It runs 284B-parameter 2–4 bit GGUF variants with million-token context and disk-backed compressed KV cache, exposing OpenAI/Anthropic-compatible APIs for local agents and editors. HN discussion centers on how far model+hardware-specific runtimes can outperform generic frameworks, the real-world latency/energy tradeoffs of huge local models, and whether open source can ever approach frontier models economically.
+### TL;DR
 
-- Comment pulse  
-  - Model-specific engines can be tiny, hackable, and potentially faster by removing abstractions → but critics say kernels are already near-optimal; better upstream improvements.  
-  - Large prompts cause multi-minute prefills on Mac → ds4’s disk KV cache amortizes cost across sessions, making agents and IDE integrations viable.  
-  - Local 280B inference draws ~50W on M3 Max → raises questions about home vs datacenter energy efficiency and economics of frontier-scale models.
+`ds4.c` is an alpha, Metal-only inference engine built specifically for DeepSeek V4 Flash rather than as a general GGUF runtime. It pairs custom 2-bit or 4-bit weights with official-logit validation, OpenAI- and Anthropic-compatible APIs, agent integrations, and persistent disk KV checkpoints so long prompts can be reused across sessions. The 2-bit model targets Macs with 128GB RAM; published single-run M3 Max results reached 26.68 generated tokens per second on a short prompt. The authors openly credit llama.cpp/GGML and disclose strong GPT-5.5 assistance.
 
-- LLM perspective  
-  - View: Focusing on one model lets ds4 deeply exploit DeepSeek’s KV compression and thinking modes instead of chasing feature breadth.  
-  - Impact: Best fit for Mac developers and power users running local coding agents, where post-prefill latency matters more than absolute throughput.  
-  - Watch next: CUDA/Vulkan backends, smarter KV-cache eviction, and experiments with recurrent or state-space hybrids could cut prefill costs and RAM needs further.
+### Comment pulse
+
+- Readers liked model–hardware specialization for compact, hackable systems — counterpoint: mature runtimes already optimize kernels, and model churn makes bespoke engines disposable.
+- Long-context prefill remained the practical bottleneck; disk checkpoints help repeated sessions but not an unrelated large first prompt.
+- Energy discussion admired a reported 50-watt MacBook peak while questioning whether centralized inference remains more efficient per user.
+
+### LLM perspective
+
+- Co-designing quantization, templates, cache semantics, and agent protocols can improve end-to-end reliability.
+- Comparisons need equal quantization, context, sampling settings, output quality, and broader-runtime baselines.
+- Serialized inference limits concurrent throughput even when single-user generation is acceptable.

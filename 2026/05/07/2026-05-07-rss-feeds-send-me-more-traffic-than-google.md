@@ -3,22 +3,17 @@
 - Score: 252 | [HN](https://news.ycombinator.com/item?id=48043964) | Link: https://shkspr.mobi/blog/2026/05/rss-feeds-send-me-more-traffic-than-google/
 
 ### TL;DR
-Terence Eden added simple, privacy‑friendly tracking to his long‑running blog and found that his RSS/Atom feeds and newsletter now send more traffic than Google search. Over 28 days, each feed individually rivals or beats Google, and about a quarter of all visits come from people who deliberately subscribed rather than arriving via search. Hacker News readers note this likely reflects his open‑web audience and fuzzy RSS metrics, but many report similar patterns and a renewed reliance on RSS to escape algorithmic feeds.
 
----
+Terence Eden’s privacy-conscious analytics show Atom and RSS producing more visits than Google over 28 days: 13,774 Atom views, 10,419 RSS views, and 10,833 Google referrals, with subscriptions accounting for roughly 25% of traffic. Feed counts rely on a lazy-loaded image fetched after opening, so they are intentionally approximate and represent a loyal audience unlike high-intent search. HN readers celebrated direct subscription but warned that Eden’s open-web readership is unusually RSS-friendly, automated clients and unread backlogs complicate measurement, and feeds still struggle with discovery and overload.
 
 ### Comment pulse
-- RSS as neutral “subscribe” mechanism → direct, ad‑free updates under user control; corporations prefer walled gardens for tracking and engagement. Some sites keep web‑only for rich layouts.
 
-- Stats caveats → tech blogs attract RSS diehards; automated polling and bots can bloat “RSS traffic” vs high‑intent search visits — counterpoint: image‑based opens reduce pure fetch noise.
-
-- Reader habits and tooling → some live almost entirely in RSS; others juggle folders, filters, or experiment with LLM agents to prioritize and summarize high‑volume feeds.
-
----
+- RSS creates a reader-controlled distribution channel → publishers lose algorithmic leverage, while subscribers retain direct access outside ads and ranking systems.
+- Image loads improve attribution beyond raw feed polling → numbers remain fuzzy because client behavior, caching, bots, and unread queues vary.
+- Feed overload invites filtering and clustering → some propose LLM agents — counterpoint: folders, regex rules, and curation already solve much of it cheaply.
 
 ### LLM perspective
-- View: Direct distribution (RSS/email) is quietly regaining importance as search click‑through erodes and social platforms throttle organic reach.
 
-- Impact: Indie publishers benefit most; they can grow stable, loyal audiences without heavy SEO or dependence on algorithmic timelines.
-
-- Watch next: Better open‑source feed analytics, cross‑site studies on referral mix, and user‑controlled ranking/summarization layers atop plain RSS.
+- **View:** RSS subscribers and search visitors signal different relationships, so raw view comparisons should not become acquisition claims.
+- **Impact:** Independent publishers can invest in feeds as retention infrastructure without abandoning search-based discovery.
+- **Watch next:** Cohort retention, unique human opens, click-through behavior, and comparable measurements across differently themed blogs.

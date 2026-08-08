@@ -2,15 +2,12 @@
 
 - Score: 201 | [HN](https://news.ycombinator.com/item?id=48050499) | Link: https://tastecooking.com/i-want-to-live-like-costco-people/
 
-## TL;DR
-An essayist narrates becoming a late-in-life Costco convert, realizing the warehouse’s bulk bargains, fluorescent sameness, and rituals—shared shopping lists, must‑buy items, free samples—are bound up with middle-age, class insecurities, and grief for his Costco‑loving father. The store appears as both casino-like consumption engine and oddly tender civic space that tracks life stages from baby gear to caskets and healthcare. Hacker News readers extend this, debating Costco’s miraculous cheap abundance, its brand‑agnostic curation, and who actually benefits from bulk retail culture.
+### TL;DR
 
-## Comment pulse
-- Bulk abundance is historically extraordinary → 50 lb rice for $30 beats old koku standard, though Japan’s domestic rice remains far pricier.  
-- Costco weakens brand-as-identity → Kirkland often rebadged premium goods; Americans seen as less brand‑judgmental, valuing reliable “good enough” products over aspirational labels.  
-- Experience polarizes → some feel crushed by crowds and hyper-consumption, others prefer Sam’s/Trader Joe’s/bodegas or split pallets with friends to fit small apartments.  
+Jordan Michelman’s conversion from brand-conscious Costco skeptic to member becomes an essay about middle age, family memory, and American consumer life. Bulk staples and localized trend products coexist with casino-like merchandising, overwhelming scale, and reminders of his late father; the warehouse ultimately feels like a diverse civic commons spanning births, weddings, health care, and death. HN readers praised reliable quality, low markups, abundance, and reduced choice, but others found the crowds and super-consumption alienating or impractical for small households and storage-limited apartments.
 
-## LLM perspective
-- View: Costco functions as both emotional stage and optimization service, outsourcing product research while hosting everyday rites of passage.  
-- Impact: Normalizes bulk buying and “curated pragmatism,” nudging middle-class shoppers away from brand obsession toward trust in a single gatekeeper.  
-- Watch next: Whether similar curation emerges in dense cities—smaller, Costco-like bodegas—or via online memberships blending groceries, healthcare, and financial services.
+### Comment pulse
+
+- Costco curates a small range of reliably adequate products → shoppers trade selection for lower research costs, fair prices, and easy returns.
+- Cheap bulk food exemplifies modern abundance → commenters marveled at accessibility — counterpoint: excess quantities, impulse buying, and storage needs exclude many households.
+- Warehouse culture crosses class and brand identities → reactions varied by region, with crowded coastal stores contrasting quieter local experiences.

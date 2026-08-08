@@ -3,18 +3,17 @@
 - Score: 185 | [HN](https://news.ycombinator.com/item?id=48045012) | Link: https://aniket.foo/posts/20260505-netboot/
 
 ### TL;DR
-Author sets up a fully diskless Debian 13 environment for a Windows gaming PC, booting over the network from a ZFS-backed iSCSI volume via PXE and netboot.xyz. Proxmox hosts ZFS and iSCSI, an Asus router with dnsmasq handles DHCP/TFTP redirection, and a custom iPXE script sanboots the iSCSI LUN or falls back to the Debian netinstaller. This keeps Windows disks untouched, centralizes GRUB on the NAS, and makes OS rebuilds easy, at the cost of slower installs.
 
----
+A home-lab guide boots Debian 13 on a gaming PC without repartitioning its Windows NVMe drives. A Debian/Proxmox server hosts netboot.xyz, TFTP, an authenticated iSCSI target, and a ZFS zvol; router-side dnsmasq directs PXE clients into an iPXE menu. On first boot, the menu falls back to Debian’s installer, which connects to the remote LUN and installs the whole system, including GRUB, there. Subsequent boots use `sanboot` from that same target. The author accepts slower network installation because models and other heavy data remain on local NVMe.
 
 ### Comment pulse
-- GRUB is overcomplicated → rEFInd, systemd-boot, or ZFSBootMenu offer simpler, EFI-native boot flows with fewer moving parts and easier recovery—counterpoint: rEFInd’s auto-discovery can feel bloated.
-- UEFI entries rarely need manual updates → most setups use GRUB or a stable EFI-stub filename; simple scripts or hooks can atomically swap kernels without touching NVRAM.
-- iSCSI vs NBD for network root → iSCSI widely supported and stable across OSes; NBD has improved performance/specs but tooling and initramfs support still lag for diskless boot.
 
----
+- Bootloader debate favored rEFInd or systemd-boot over GRUB — counterpoint: the remote-disk design avoids modifying local EFI state.
+- Readers compared iSCSI’s broad OS support with NBD’s modern tooling, performance features, and weaker diskless-boot integration.
+- An LTSP veteran recalled centrally updated diskless office fleets, showing the pattern scales beyond one experimental workstation.
 
 ### LLM perspective
-- View: Network-booted Linux lets you keep a “clean” CUDA/LLM environment while leaving a gaming Windows install untouched.
-- Impact: Home labs gain datacenter-like PXE/iSCSI workflows for model experimentation, snapshots, and quick OS rollbacks on shared hardware.
-- Watch next: Robust NBD/dracut support, turnkey PXE+iSCSI+ZFS kits, and guides for mixing this with GPU passthrough and model storage on fast local NVMe.
+
+- Availability now depends on router, server, storage pool, and network; each deserves a recovery path.
+- Credentials embedded in boot scripts create exposure and rotation tradeoffs; prefer machine-specific secrets.
+- Test cold boots and network interruption, not just successful installation, before trusting the setup.

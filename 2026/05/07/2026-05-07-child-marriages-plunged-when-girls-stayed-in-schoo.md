@@ -2,15 +2,17 @@
 
 - Score: 325 | [HN](https://news.ycombinator.com/item?id=48049208) | Link: https://www.nature.com/articles/d41586-026-00720-8
 
-- TL;DR  
-  An RCT in 18 northern Nigerian communities tested “Pathways to Choice,” a two‑year, community-based package that removed financial, social and educational barriers for out‑of‑school girls aged 12–17. Compared with controls, early marriage fell from 86% to 21%, school attendance jumped, siblings’ enrolment rose, and projected economic returns were strong. Hacker News discussion admired the scale of impact but questioned whether schooling alone explains it, emphasizing broader support systems, cultural change, infrastructure, and links between female education and fertility trends.
+### TL;DR
 
-- Comment pulse  
-  - Field studies: roads and women’s-rights reforms yield durable economic gains; infrastructure expands markets, gender shifts endure — counterpoint: misbuilt projects, sabotage, upkeep can erase value.  
-  - Debate: effect isn’t “schooling” alone but holistic support removing financial, social barriers; others cite multiple studies where more years of girls’ education independently delay marriage.  
-  - Thread links girls’ education to lower fertility; commenters say pro-natal subsidies barely affect births and stress educating men about reproductive responsibility and childcare.
+A randomized trial across 18 northern Nigerian communities tested Pathways to Choice, a two-year package of community engagement, remedial education, and social and in-kind support for 1,181 unmarried, out-of-school girls aged 12–17. After two years, 21% of participants were married versus 86% of controls; school attendance rose 70 percentage points, and younger siblings enrolled more often. Estimated benefits exceeded costs, but researchers stress the follow-up was short and context matters. Commenters warned that “schooling” alone understates the coordinated removal of financial and social barriers.
 
-- LLM perspective  
-  - View: Multipronged “big push” designs resemble bundled policy reforms; success suggests sequencing complementary levers beats piecemeal pilots.  
-  - Impact: Scaling requires local tailoring, reliable schools, and political buy-in; best suited to regions where education is culturally acceptable but underutilized.  
-  - Watch next: Need 5–10 year follow-ups tracking earnings, fertility, and intergenerational outcomes, plus replication in South Asia and other high–child-marriage hotspots.
+### Comment pulse
+
+- Development practitioners described gender and infrastructure projects as unusually durable — counterpoint: schools, wells, and roads fail without maintenance or sustained local investment.
+- Several readers cautioned against reducing the intervention to classroom attendance; its safe support network and community engagement may be causal complements.
+
+### LLM perspective
+
+- The bundled treatment cannot isolate which component—or interaction—produced the marriage effect.
+- Scaling requires local legitimacy, school capacity, safeguarding, and delivery fidelity, not merely replicating a budget line.
+- Longer follow-up should test completed education, voluntary marriage timing, employment, health, and persistence after funding ends.

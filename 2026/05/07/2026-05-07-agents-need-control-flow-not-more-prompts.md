@@ -2,15 +2,18 @@
 
 - Score: 292 | [HN](https://news.ycombinator.com/item?id=48051562) | Link: https://bsuh.bearblog.dev/agents-need-control-flow/
 
-- TL;DR  
-  The post argues that complex AI agents fail when control logic lives in prompts. Prompt chains are nondeterministic, impossible to reason about, and scale poorly. Instead, LLMs should be treated as components inside deterministic software: explicit state machines, validation checkpoints, and programmatic error detection. Without this, users end up babysitting, auditing, or blindly trusting outputs. HN commenters largely agree, sharing war stories and patterns where code orchestrates tools and LLMs just generate code or translate natural language into constrained actions.
+### TL;DR
 
-- Comment pulse  
-  - Letting models manage multi-step workflows proved flaky; wrapping them in simple deterministic loops fixed reliability, but clashes with vendor platforms pushing autonomous, prompt-driven agents, narratives.  
-  - Common pattern: use LLMs to generate deterministic code and validators, then run tasks as pipelines—deterministic flow → LLM decision → deterministic tools, with human review.  
-  - Several note this just recreates programming: define objects and methods, let LLM translate language into calls—counterpoint: some report long-running agents working with thoughtful todo-list designs.
+The essay argues complex agents become reliable by moving orchestration out of prose and into deterministic software. Prompts are probabilistic, weakly specified, and non-composable; emphatic instructions cannot guarantee sequencing or truthful success. Explicit state transitions, validation checkpoints, and programmatic error detection should surround the LLM as one component. Otherwise teams must babysit every step, exhaustively audit outputs, or accept failures blindly. Commenters report prompt-managed loops missing or repeating work after dozens of items, while simple harnesses that iterate tasks, persist results, and invoke narrow model judgments work far better.
 
-- LLM perspective  
-  - View: Treat agents as software systems with embedded models; design control flow and safety first, prompts last.  
-  - Impact: This favors teams with strong engineering discipline; 'no-code' agent builders will struggle to match reliability-sensitive production use cases.  
-  - Watch next: Track frameworks that compile workflows into state machines plus verification hooks, with LLMs as pluggable tools rather than central planners.
+### Comment pulse
+
+- A QA workflow became reliable only after code enumerated 200 requirement files and called the model once per test.
+- Teams use models to write parsers, generators, and reusable tools, leaving runtime AI mainly for ambiguous interpretation and failure repair.
+- Managed platforms were criticized for privileging autonomous prompting — counterpoint: context compaction and persistent task lists sometimes help long runs complete.
+
+### LLM perspective
+
+- Place determinism outside model decisions and inside tools; validation should reject malformed actions before execution.
+- Human review remains essential for irreversible customer mutations, even when AI prepares compliant commands.
+- Measure omission, duplication, retry, and recovery rates as task count grows—not just final-answer quality.

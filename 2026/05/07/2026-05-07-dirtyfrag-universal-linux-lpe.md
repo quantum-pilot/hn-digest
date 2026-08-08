@@ -2,23 +2,18 @@
 
 - Score: 346 | [HN](https://news.ycombinator.com/item?id=48053623) | Link: https://www.openwall.com/lists/oss-security/2026/05/07/8
 
-## TL;DR
-Dirty Frag is a new “universal” local privilege escalation affecting current Linux kernels on major distributions. It chains two bugs: an IPsec ESP Extended Sequence Number (ESN) issue that lets an unprivileged user corrupt page cache contents (e.g., overwrite `/usr/bin/su`), and a separate RxRPC/rxkad bug used to gain controlled writes via encrypted traffic. It shares the same core authencesn ESN sink as the earlier Copy Fail vuln, so simple algif_aead blacklisting is insufficient. No official patches exist yet; mitigations revolve around disabling esp4, esp6, and rxrpc modules and flushing affected page cache. Discussion centers on the real root cause, distro defaults for risky modules, and how LLMs both helped find and may have obscured related bugs by narrowing human exploration.
+### TL;DR
 
----
+Security researcher Hyunwoo Kim disclosed Dirty Frag, a Linux local privilege-escalation technique claimed to work across major distributions by chaining two kernel vulnerabilities involving ESP/XFRM and RxRPC paths with page-cache corruption. The post included working exploit code that turns an unprivileged local account into root. Disclosure followed a broken embargo, so the announcement said no distribution patches or CVEs were yet available. Its interim mitigation disables and unloads the `esp4`, `esp6`, and `rxrpc` modules; applicability depends on whether they are loadable rather than built into a distribution kernel.
 
-## Comment pulse
-- Dirty Frag’s ESP part reuses the same authencesn ESN bug as Copy Fail → fixing/blacklisting algif_aead alone never removed the underlying sink.
+### Comment pulse
 
-- Mitigation: blacklist `esp4`, `esp6`, `rxrpc`, unload them, then drop caches correctly (`echo 1 | sudo tee /proc/sys/vm/drop_caches`)—counterpoint: if already rooted, you must assume full compromise.
+- Readers said Copy Fail targeted the wrong interface while leaving authencesn reachable — counterpoint: they stressed the RxRPC issue is separate.
+- Debate split between minimizing optional kernel attack surface and preserving broad module compatibility for uncommon workloads.
+- Several corrected unsafe recovery advice: privileged redirection matters, and confirmed compromise warrants rebuilding rather than merely clearing caches.
 
-- Debate over responsibility: obscure networking/crypto modules are auto-loaded yet rarely needed → some call this 1999-style insecurity, others argue maintainers can’t safely guess what to remove.
+### LLM perspective
 
----
-
-## LLM perspective
-- View: This shows how deep crypto/network plumbing bugs can be repurposed via multiple front-ends, making “fix surface symptom” strategies fragile.
-
-- Impact: Any untrusted local code (malware, shared hosts, CI runners) becomes far more dangerous on unpatched kernels.
-
-- Watch next: concrete kernel fixes for authencesn and RxRPC, distro module-hardening policies, and workflows where LLMs aid broad exploration instead of tunnel-vision.
+- Emergency guidance should distinguish prevention, removal of poisoned page-cache state, and recovery after successful exploitation.
+- Autoloadable modules expand reachable attack surface even when no service is listening or manually enabled.
+- Broken embargoes create an operational race between public exploitability and downstream patch delivery.

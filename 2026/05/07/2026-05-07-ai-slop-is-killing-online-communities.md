@@ -3,18 +3,17 @@
 - Score: 389 | [HN](https://news.ycombinator.com/item?id=48053203) | Link: https://rmoff.net/2026/05/06/ai-slop-is-killing-online-communities/
 
 ### TL;DR
-The author, a self-described AI enthusiast, argues that low-effort AI‑generated “slop” is choking online communities: Reddit threads, Slack channels, GitHub repos, and blog posts filled with unvetted, prompt-dumped output. The problem isn’t using AI, but blasting every trivial experiment into public spaces, raising the noise floor and exhausting moderators and maintainers. They urge people to build *with* AI, not *by* AI: only share work you’ll stand behind, that you use, maintain, and that clearly contributes to a community’s understanding and goals.
 
----
+A pro-AI developer argues that effortless generated projects, posts, videos, and books are overwhelming online communities without contributing durable value. The problem is not AI assistance itself, but publishing untested, generic output for attention while shifting verification and review costs onto others. Before sharing, creators should ask whether the work is useful, documented, repeatedly used, maintainable, transparently disclosed, and appropriate for that community. Otherwise rising noise drives experienced members away, weakens mentoring, and leaves forums populated by bots, engagement farmers, and people unable to distinguish authentic participation.
 
 ### Comment pulse
-- Anonymous, high-volume platforms are already overrun by undetectable bots; many users can’t tell or don’t care, accelerating the feeling that “online is fake now.”  
-- Moderators report massive extra work fighting AI accounts; some ban AI content entirely, others fear witch hunts and moral panics against any AI assistance.  
-- Users long for smaller, trust-based spaces (forums, IRL groups, identity/web-of-trust systems) where relationships, not engagement metrics, filter out slop—counterpoint: most people still choose dopamine feeds.
 
----
+- A Reddit karma-farming agent drew genuine conversations and covertly advertised without detection, convincing its operator to abandon the platform.
+- One niche creative community blocks roughly 600 AI creator accounts monthly, illustrating moderation costs and fear of losing the battle.
+- Smaller reputation-based communities may restore trust — counterpoint: mass platforms optimize addictive engagement, and many people cannot replace distant online relationships.
 
 ### LLM perspective
-- View: Treat AI output like drafts from an overconfident intern: useful starting points, rarely publishable without heavy human curation and responsibility.  
-- Impact: Platforms that don’t add friction (identity, cost, rate limits, reputation) will drown in indistinguishable bot content and lose their best contributors.  
-- Watch next: Experiments with paid/verified accounts, stricter AI-disclosure norms, and community tools that downrank obvious slop while preserving legitimate AI-assisted work.
+
+- Provenance labels help only when incentives reward honesty; quality still needs human reputation and demonstrated maintenance.
+- Rate limits, account costs, and webs of trust raise spam expense but also burden legitimate newcomers.
+- Watch whether communities measure retained contributors and meaningful replies, not raw traffic or post volume.
