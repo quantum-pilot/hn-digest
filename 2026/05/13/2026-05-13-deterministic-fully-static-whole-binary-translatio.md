@@ -3,18 +3,17 @@
 - Score: 289 | [HN](https://news.ycombinator.com/item?id=48117810) | Link: https://arxiv.org/abs/2605.08419
 
 ### TL;DR
-Elevator is a static translator that converts entire x86‑64 binaries to AArch64 without heuristics or runtime help by enumerating every feasible interpretation of each byte. This yields huge binaries (with large code-size growth and multi‑fold slowdown vs native) but fully deterministic, testable output suitable for certification and signing, unlike JITs. HN discussion highlights that beating widely used generic JIT emulators is expected, with some specialized translators remaining faster, yet regulated environments may value Elevator’s predictability over performance and size.
 
----
+Elevator deterministically translates whole x86-64 executables into self-contained AArch64 binaries without source, debug symbols, layout assumptions, heuristics, or runtime fallback. It treats every byte as potentially data, opcode, or operand, builds a superset control-flow graph, and pre-generates each feasible path from ISA-derived code tiles, pruning only abnormal termination. SPECint 2006 results match or beat QEMU user-mode JIT, while producing inspectable, testable, certifiable, signable output. Commenters emphasized the tradeoff: roughly 50× text growth, sevenfold executed instructions, incomplete ISA coverage, single-threading, and no exception unwinding.
 
 ### Comment pulse
-- Elevator vs JITs → Beating QEMU’s TCG JIT seems easy; specialized x86↔AArch64 JITs are faster — counterpoint: some domains prize static determinism over speed.
-- Cost of guarantees → Exploring all possible code paths inflates .text by ~50× and slows runtime ~5×; prototype also lacks threading, exceptions, full ISA coverage.
-- Indirect jumps → A simple method maps source addresses to translated blocks via a table; slower than direct jumps but indirect branches are infrequent.
 
----
+- Certification was the standout use case because regulated systems require deployed code to match reviewed artifacts and may prohibit JITs.
+- QEMU is a broad multiarchitecture baseline — counterpoint: specialized Box64 and FEX reportedly run faster where JIT is allowed.
+- Indirect jumps can map original targets to translated blocks through a lookup table, adding overhead mainly outside tight loops.
 
 ### LLM perspective
-- View: Treating every byte as code and data resembles exhaustive symbolic decoding; conceptually simple, trading human heuristics for mechanical completeness.  
-- Impact: Could extend software lifetimes by migrating unmaintained x86 binaries onto cheaper ARM hardware in safety-critical or highly regulated deployments.  
-- Watch next: Techniques to shrink binaries without losing soundness, plus added support for multithreading, signals, and Linux exception unwinding.
+
+- View: Determinism and ahead-of-time verifiability, not peak speed or compactness, define Elevator’s novelty.
+- Impact: Legacy binaries could migrate across architectures in aviation, medical, and other assurance-heavy environments.
+- Watch next: Threads, exceptions, full-ISA support, binary-size reduction, and specialized-translator comparisons.

@@ -3,18 +3,17 @@
 - Score: 208 | [HN](https://news.ycombinator.com/item?id=48116207) | Link: https://ericswpark.com/blog/2026/2026-05-12-my-graduation-cap-runs-rust/
 
 ### TL;DR
-A Purdue student hacked together a Rust-powered graduation cap that lights up when the tassel moves, using an ATtiny85, WS2812B LEDs, a reed switch, and a USB-C power bank. Getting Rust to run on the ATtiny85 required forking `avr-hal` and `ws2812-avr` and patching clock settings, so the two-hour coding session was mostly tool-wrangling, while hardware took 3+ hours. Hacker News enjoyed the “married to the blog title” commitment and veered into a debate about US cap-and-gown rental practices.
 
----
+A Purdue graduate built a tassel-triggered LED display under a rented graduation cap, replacing the rejected idea of setting it on fire. A reed switch and magnet detect tassel movement, while an ATtiny85 drives 48 WS2812B LEDs from a USB-C power bank. Rust firmware took about two hours because avr-hal and ws2812-avr needed forks and patches for the chip and 16 MHz clock; hardware took more than three. He will not wear it, judging the result too tacky. Commenters agreed Rust’s extra difficulty was justified by the title.
 
 ### Comment pulse
-- Rust-on-ATtiny for a joke title → Commenters love the dedication to aesthetics and wordplay over practicality—counterpoint: some would have preferred a simpler Arduino-based build.
-- Cap/gown rentals are overpriced and sometimes mandatory → Many report $90–130 fees and no-ceremony-without-regalia rules—counterpoint: others say their schools allowed cheap purchase or options.
-- People game or skip ceremonies to avoid costs → Sharing gowns across time slots, skipping in-person graduation, or doing online programs all cited as ways to dodge regalia markups.
 
----
+- Readers celebrated choosing Rust chiefly to make the headline work, despite Arduino libraries being easier.
+- The $94 mandatory rental drew disbelief — counterpoint: US schools vary widely, with many selling regalia or letting graduates keep caps.
+- Some suggested sharing rentals across non-overlapping ceremonies or skipping commencement entirely to avoid single-use regalia costs.
 
 ### LLM perspective
-- View: This project nicely illustrates “fun-first” engineering: a contrived tech choice (Rust, ATtiny85) becomes a small exploration of embedded ecosystems.
-- Impact: Encourages students and hobbyists to treat ceremonies and milestones as excuses for playful hardware experiments, not just formalities.
-- Watch next: More robust Rust support for small AVRs, plus better docs and examples for ultra-low-resource microcontrollers and wearable LED builds.
+
+- View: A constrained novelty project makes unfamiliar embedded tooling memorable and exposes ecosystem gaps.
+- Impact: Published ATtiny85 patches and source lower the next builder’s cost beyond the cap’s brief demonstration.
+- Watch next: Upstream chip support, power safety, reed-switch reliability, and less seizure-prone animations.

@@ -3,14 +3,17 @@
 - Score: 242 | [HN](https://news.ycombinator.com/item?id=48123015) | Link: https://ossresistance.com/
 
 ### TL;DR
-- The manifesto argues that since companies depend on open source, engineers should quietly maintain and fix those projects during work hours, treating it as normal infrastructure work instead of unpaid “hobby” time. It encourages “direct action” within legal limits: negotiate IP carve‑outs, avoid exposing confidential code, don’t overdo it. HN readers largely agree on the goal but debate employer IP ownership, legal risk, and whether “resistance” framing helps or just adds needless drama.
+
+Homebrew maintainer Mike McQuaid argues that maintaining open-source dependencies should count as ordinary engineering, even when employers refuse to formalize it: review patches, update dependencies, and fix shared infrastructure during work hours while still meeting commitments. He rejects unpaid nights and permission-seeking but warns maintainers to inspect contracts, negotiate OSS carve-outs, protect secrets, avoid client-billed or regulated work, and recognize the greater risk for junior or precarious staff. Commenters largely supported employer-funded maintenance yet disputed covert “resistance,” noting work-for-hire ownership can make unauthorized publication legally impossible.
 
 ### Comment pulse
-- Frame OSS work as risk reduction and free upstream maintenance → many employers happily approve contributions when they see concrete business benefits, not “charity” coding.  
-- Work-for-hire rules and client IP clauses → upstreaming fixes can trigger long legal reviews; some avoid such jobs — counterpoint: others say enforcement is rare.  
-- “Resistance” branding → some see it as unnecessary provocation or social-media theatrics; others think strong language is needed to highlight chronic underinvestment in OSS maintenance.  
+
+- Successful contributors frame upstreaming as free expert review, eliminated private-fork maintenance, and protection of dependencies the employer already uses.
+- Critics preferred calling it routine engineering — counterpoint: companies often prioritize visible features while neglecting even their own foundational infrastructure.
+- Work hours, employer equipment, client billing, and related job duties strengthen company ownership claims and can trigger lengthy legal review.
 
 ### LLM perspective
-- View: Treating OSS maintenance as routine engineering work aligns incentives better than hero-maintainer culture or after-hours “passion” expectations.  
-- Impact: If normalized, this shifts budget and performance metrics toward reliability and shared infrastructure, not just feature output and vanity OKRs.  
-- Watch next: Progress markers: more companies adopting balanced IP agreements, clear OSS-contribution policies, and job descriptions explicitly mentioning upstream maintenance duties.
+
+- View: The ethical case is strong; the weak link is treating organizational permission and copyright ownership as separable.
+- Impact: Senior maintainers can normalize upstream work, while vulnerable employees bear disproportionate termination, immigration, and IP risk.
+- Watch next: Balanced IP agreements, blanket project approvals, budgeted maintenance time, and employer challenges to contributions.

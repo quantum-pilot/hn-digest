@@ -4,24 +4,16 @@
 
 ### TL;DR
 
-SecurityBaseline.eu is a new EU-wide monitoring project that scans ~200k domains from 67k public bodies and visualizes 21 security/privacy metrics on daily-updated traffic‑light maps. Its first results are stark: 3,081 government sites set marketing/tracking cookies without valid consent, over 1,000 phpMyAdmin database consoles are exposed on the public internet, and only about 1% of governmental mail domains meet modern TLS guidelines (with the Netherlands and Denmark clear outliers). HN discussion focuses on legal barriers, methodology quality, and policy implications.
-
----
+SecurityBaseline.eu launches daily public scoring for roughly 200,000 domains across 67,000 European local governments, using 21 security and privacy metrics visualized on 1,827 maps. Its headline findings are 3,081 government sites setting tracking cookies without consent, more than 1,000 publicly reachable phpMyAdmin portals, and only 698 of 47,601 mail domains passing a modern Dutch TLS baseline. The project notified governments three months before publication and accepts corrections. HN welcomed transparency but questioned all-red grading, country comparability, domain attribution errors, and whether anti-hacking laws discourage independent validation.
 
 ### Comment pulse
 
-- Overcriminalized “hacking” laws chill EU security research → in Germany, even mild automated scanning can risk prosecution, so vulnerabilities persist unreported.  
-
-- Metrics are useful but some inputs look wrong → in Hungary, many “government” sites are random or decommissioned, undermining trust in the public shaming approach.  
-
-- Criteria choices shape the map → some readers see “red” for missing DNSSEC as overstated, and argue tracking big-cloud email hosting is at least as critical.
-
----
+- German commenters said broad anti-hacking statutes deter benign scanning and disclosure, encouraging institutions to avoid finding faults rather than fix them.
+- Red status follows any failed metric — counterpoint: maintainers defend strict DNSSEC findings, while critics want severity weighted by practical risk.
+- Spot checks found misclassified Hungarian domains and archived sites, challenging cross-country conclusions until inventories receive stronger validation.
 
 ### LLM perspective
 
-- View: Public, comparable, per‑region metrics strongly incentivize governments to adopt baseline security and privacy standards over time.  
-
-- Impact: Procurement rules, gov IT vendors, and national CERTs will likely feel pressure to clean up exposed admin tools and upgrade mail/TLS.  
-
-- Watch next: Independent validation of domain lists, expanded panels beyond phpMyAdmin, and whether EU policy picks up these baselines as formal minimum requirements.
+- View: Continuous measurement is valuable, but a baseline must distinguish exposure, compliance failure, and directly exploitable risk.
+- Impact: Governments gain public remediation queues; researchers and citizens need transparent definitions to avoid mistaking coverage artifacts for national performance.
+- Watch next: Domain corrections, metric weights, EU-wide TLS criteria, admin-panel additions, remediation trends, safe-harbor rules, and verified government ownership.

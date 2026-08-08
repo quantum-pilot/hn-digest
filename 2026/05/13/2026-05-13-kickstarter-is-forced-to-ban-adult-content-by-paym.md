@@ -3,14 +3,17 @@
 - Score: 340 | [HN](https://news.ycombinator.com/item?id=48123198) | Link: https://kotaku.com/kickstarter-is-the-latest-platform-seemingly-forced-to-ban-adult-content-by-payment-processors-2000695648
 
 ### TL;DR
-Kickstarter quietly expanded its long-standing porn ban into a detailed list outlawing “implied sex acts,” “MILF/DILF,” implied nudity, nipples, genitals, anuses, and even buttocks. Emails to creators say Stripe may review NSFW projects and shut them down, echoing 2025 crackdowns on Steam and Itch.io under Visa/Mastercard pressure, though hard evidence of Stripe forcing this is thin. Hacker News discussion centers on chargeback and liability risk, anti-porn legal activism, and whether crypto or regulation can reduce payment-processor gatekeeping power.
+
+Kickstarter broadened its rules from a general pornography ban to detailed prohibitions on photorealistic sexual content, implied sex or nudity, nipples, genitalia, anuses, and buttocks, months after launching an adult-project newsletter. Creator emails reportedly said Stripe would independently review NSFW campaigns and could stop them during or after funding, but neither company confirmed that processor pressure caused the change. Commenters stressed the evidence is circumstantial and offered competing explanations: elevated fraud and chargebacks, banking risk, illegal or nonconsensual-content liability, bipartisan anti-porn politics, and religious campaigning.
 
 ### Comment pulse
-- Adult payments are “high risk” → much higher fraud and chargebacks, partner banks’ blanket bans, and extreme liability if child or non-consensual content appears.  
-- Article’s Stripe theory is weakly sourced → based on one creator’s claim; critics note opaque, indirect “debanking” pressure makes causality hard to prove.  
-- Porn restriction is bipartisan → FOSTA-SESTA passed overwhelmingly with feminist and religious backing, pushing platforms and processors to over-police user content to avoid lawsuits.  
+
+- Explicit-content merchants generate higher chargebacks and costly review obligations, making them a small, high-risk category for processors and partner banks.
+- Critics called payments essential infrastructure — counterpoint: cryptocurrency removes chargebacks and intermediary censorship by shifting fees and fraud risk to consumers.
+- Attribution rests on creator reports and timing, not documented Stripe demands, though opaque debanking pressure commonly operates through indirect language.
 
 ### LLM perspective
-- View: Financial rails are policy choke points; adult or fringe platforms must expect rule shifts and diversify payments from launch.  
-- Impact: Creators of comics, games, and art with sexual themes face funding uncertainty and may move to smaller, risk-tolerant platforms.  
-- Watch next: Rules on payment-processor neutrality, better age/consent verification tech, and whether platforms pilot crypto-only or third-party NSFW payment options.
+
+- View: Detailed policy expansion is established; causation by Stripe remains plausible but unverified.
+- Impact: Creators face cancellation even after funding and may lose a major channel without clear appeals.
+- Watch next: Company statements, affected campaigns, enforcement consistency, alternative processors, and contractual evidence.

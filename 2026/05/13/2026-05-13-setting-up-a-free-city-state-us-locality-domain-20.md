@@ -2,15 +2,18 @@
 
 - Score: 461 | [HN](https://news.ycombinator.com/item?id=48122635) | Link: https://fredchan.org/blog/locality-domains-guide/
 
-- TL;DR  
-  The article explains how U.S. residents can register a free subdomain like `name.city.state.us`: find a delegated locality, get free nameservers via Amazon Lightsail, complete the old Interim .US Domain Template, email it to the locality registrar, then configure DNS (e.g., for web or game servers). Discussion highlights how fragile and bureaucratic this ecosystem is: tiny legacy registrars are disappearing, undelegated cities require notarized government letters, a new self-service portal is flaky, and .us privacy rules remain awkward.
+### TL;DR
 
-- Comment pulse  
-  - Locality domains are fragile niche infrastructure → many are run by aging one-person ISPs; when they die, renewals and transfers hit bureaucratic walls — counterpoint: some report success with polite, local notary-backed requests.  
-  - Undelegated or reclaimed localities are hard to obtain → registrars now demand notarized government letters, and city staff often lack procedures, time, or incentives to help private applicants.  
-  - Tooling and policy are creaky → localitymanagement.us is overloaded and buggy; .us bans WHOIS privacy, though locality WHOIS currently exposes only registrar, not registrant, details.
+US locality domains such as name.city.state.us can still be registered free when the locality has a delegated manager. The guide recommends locating that registrar from an old list, creating nameservers in Amazon Lightsail before applying, completing the Interim .US Domain Template, emailing it, then configuring DNS after manual approval. Eligible applicants need a US nexus; gen.state.us may cover independent entities. Undelegated localities generally require government involvement. HN users confirmed the process works but described dead operators, expiring infrastructure, notarized city letters, overloaded portals, and bureaucracy that can strand existing domains.
 
-- LLM perspective  
-  - View: Locality domains are fun, historically rich, but too fragile and manual to be a primary namespace for most users.  
-  - Impact: Best for hobbyists, civic hackers, and nostalgia projects; production services should pair them with conventional TLDs.  
-  - Watch next: Whether NTIA/Neustar modernize delegation rules, stabilize the portal, or communities replicate locality-style naming under independent domains.
+### Comment pulse
+
+- The decentralized registrar model depends on tiny consultancies and individuals; deaths or unpaid hosting can threaten every domain under a delegation.
+- Boston applicants encountered notarized-government-letter requirements despite private use — counterpoint: polite, local engagement may make approval less impossible than expected.
+- Locality WHOIS hides applicant addresses behind registrar data, unlike ordinary .us registrations; applicants still submit personal details on legacy forms.
+
+### LLM perspective
+
+- View: The zero-dollar price conceals institutional risk: control depends on obsolete records, manual gatekeepers, and unclear succession.
+- Impact: Personal sites gain memorable civic identity, but owners may face outages or transfer barriers beyond normal registrar support.
+- Watch next: Delegation continuity, portal reliability, authoritative policy updates, succession procedures, locality approvals, DNSSEC, and preservation of historic domains.

@@ -3,16 +3,17 @@
 - Score: 208 | [HN](https://news.ycombinator.com/item?id=48126848) | Link: https://www.dailyprincetonian.com/article/2026/05/princeton-news-adpol-proctoring-in-person-examinations-passed-faculty-133-years-precedent
 
 ### TL;DR
-- Princeton is ending 133 years of unproctored in‑person exams: starting July 1, instructors must supervise all exams but only as non-interfering witnesses.  
-- The shift responds to rising cheating, especially via phones and AI, and a collapse in peer reporting: ~30% of seniors admit cheating; ~45% saw violations they didn’t report; 0.4% reported.  
-- Many campus stakeholders, including Honor Committee leaders, backed the change as a necessary deterrent; critics fear erosion of a distinctive honor culture. HN debates trust, surveillance, and exam design.
+
+Starting July 1, Princeton will require instructors to proctor every in-person exam, reversing a 133-year ban created with its student Honor Code. Proctors will witness and document suspected misconduct but leave adjudication to the student-run Honor Committee; staffing ratios and monitoring rules remain undecided. The change responds to phones, generative AI, rising cases, and students’ reluctance to report peers. A 2025 survey found 29.9% admitted cheating, 44.6% observed unreported violations, and 0.4% reported one. HN largely favored supervision while debating whether it sacrifices a valuable high-trust culture.
 
 ### Comment pulse
-- Honor codes are collapsing → Phones, AI, and low trust make reporting impractical, so schools default to proctoring — counterpoint: society was never truly high‑trust.  
-- Proctoring feels fairer than snitching → Many prefer being watched to accusing classmates, especially in fields like medicine or engineering where competence literally affects lives.  
-- Cheating spike reflects system design → Large rote exams, post‑COVID detachment, and ubiquitous AI push students to treat degrees as games, not moral commitments.
+
+- Honor systems turn integrity into personal and peer responsibility — counterpoint: present survey data show that compact no longer deters or reports misconduct.
+- Phones and multimodal models make covert copying trivial; readers favored device-free rooms and active supervision rather than forcing classmates to police classmates.
+- Some blamed post-COVID disconnection and credential optimization; project-based courses may deter outsourcing better than large, rote lower-division exams.
 
 ### LLM perspective
-- View: This is a symbolic break with honor-only regimes, signaling AI has structurally changed assessment, not just marginally.  
-- Impact: Expect other elite universities to quietly follow, normalizing proctored exams and reshaping student expectations around surveillance and peer responsibility.  
-- Watch next: Cheating stats post‑policy, Honor Committee caseload shifts, and whether exams move toward open‑book or project‑based assessments.
+
+- View: Proctoring restores observable evidence but treats symptoms; assessment design and campus norms determine whether cheating remains rationalized.
+- Impact: Students lose an unusual trust ritual while faculty assume witness duties without replacing peer-led adjudication.
+- Watch next: Final monitoring rules, accessibility safeguards, case rates, false reports, student sentiment, and changes in project-based assessment.

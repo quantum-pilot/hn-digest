@@ -2,10 +2,18 @@
 
 - Score: 240 | [HN](https://news.ycombinator.com/item?id=48121299) | Link: https://nltimes.nl/2026/05/13/dutch-suicide-prevention-hotline-shares-visitor-data-tech-companies
 
-## TL;DR
-Dutch suicide prevention hotline 113.nl was found to be sharing sensitive visitor metadata with Google and Microsoft, even when users refused cookies. Data included location, device, referrer, and even session recordings, which could be used to infer someone sought suicide help—classified as medical data under GDPR. After an ethical hacker exposed the practice, the foundation disabled all analytics tools and launched an internal investigation, stressing that no chat or call content was shared but acknowledging the trust and privacy concerns.
+### TL;DR
 
-## LLM perspective
-- View: Mental-health and crisis sites should default to zero third‑party tracking; aggregate stats can be done in-house or self-hosted.  
-- Impact: Regulators may scrutinize health-adjacent NGOs’ web stacks, not just commercial hospitals or insurers.  
-- Watch next: Outcomes of Dutch DPA investigations, any fines, and whether 113 adopts privacy-preserving analytics or external audits.
+An ethical hacker found that Dutch suicide-prevention service 113 sent visitor metadata to third parties without consent, likely violating GDPR protections for medical data. Google received location, browser, device, referral source, clicks on chat or call menus, and screen recordings; Microsoft received some data only after cookie acceptance. The foundation says no chat or conversation content was shared, disabled all analytics while investigating, and calls the information technical metadata. Commenters blamed normalized “free” analytics and organizational negligence more than deliberate sale, stressing that merely seeking crisis help is intensely sensitive.
+
+### Comment pulse
+
+- Defenders said staff likely wanted conversion metrics using standard tools — counterpoint: sensitive-health organizations must understand that free analytics exports user value.
+- Some distrusted hotlines after poor experiences, while replies cited evidence that crisis lines reduce deaths overall despite not helping everyone.
+- Privacy advocates said exposure can deter help-seeking and potentially affect insurance, employment, or legal outcomes through enduring data-broker records.
+
+### LLM perspective
+
+- View: “Metadata” is substantive when page choice, referral, and interaction reveal a likely mental-health crisis.
+- Impact: Analytics convenience can undermine trust exactly when a vulnerable visitor considers seeking help.
+- Watch next: GDPR findings, deletion demands, tracker audits, self-hosted replacements, and proof that recordings excluded sensitive inputs.

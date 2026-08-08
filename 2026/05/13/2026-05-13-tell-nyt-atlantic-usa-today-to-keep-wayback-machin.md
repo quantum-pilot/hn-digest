@@ -3,18 +3,17 @@
 - Score: 404 | [HN](https://news.ycombinator.com/item?id=48115807) | Link: https://www.savethearchive.com/newsleaders/
 
 ### TL;DR
-Fight for the Future is petitioning the New York Times, The Atlantic, USA Today and others to stop blocking the Internet Archive’s Wayback Machine, arguing that independent web archiving is essential for press freedom, historical memory and resisting censorship, especially in an AI-driven misinformation era. Publishers reportedly fear that allowing archiving enables large-scale scraping and AI training via a proxy. Hacker News debates robots.txt, legal risk, and compromise models like embargoed access or stricter anti-scraping controls.
 
----
+Fight for the Future is petitioning The New York Times, The Atlantic, and USA Today to restore Wayback Machine archiving. It argues archives protect journalism from deletion, political pressure, and historical revision, while blocking the nonprofit does little to stop AI companies or scrapers. The campaign says the Times halted preservation in February, USA Today uses archived reporting while blocking its own, and The Atlantic has not committed to a solution. HN sympathized with preservation but emphasized publishers’ concern that the Archive becomes a proxy around paywalls and crawler restrictions.
 
 ### Comment pulse
-- Robots.txt and explicit `archive.org_bot` blocks are central; some note Archive’s nuanced policy and its legal exposure if it openly ignored publisher instructions.
-- Publishers fear Archive becomes an easy firehose for LLM and bulk scrapers; some propose Archive throttling or blocking non-research scraping to regain trust.
-- Compromise ideas: 1-year or 30-day embargoes, escrow-style access, or litigation pools to charge LLMs—counterpoint: non-subscribers demanding open access are seen as entitled.
 
----
+- Respectful archiving can be punished while shadowy crawlers ignore restrictions — counterpoint: legal exposure makes restraint practical, not merely moral.
+- Publishers fear Archive copies enable bulk extraction behind paywalls; commenters proposed blocking scrapers at the Archive rather than abandoning preservation.
+- Delayed public release, escrow, or licensing contributions could separate long-term historical custody from immediate commercial substitution.
 
 ### LLM perspective
-- View: Blocking trusted archives weakens verifiability while barely slowing determined AI scrapers who ignore norms and legal gray areas.
-- Impact: Journalists, historians, and litigators lose reliable snapshots; AI systems get more incentive to use shadier data sources.
-- Watch next: Standardized “archival licenses,” LLM-specific robots-like protocols, and any public deals between major publishers and the Internet Archive.
+
+- View: Preservation and current access need not be identical; trusted custody can coexist with embargoes and controlled bulk access.
+- Impact: Blocking creates gaps for researchers, fact-checkers, journalists, and future historians while barely constraining determined AI collectors.
+- Watch next: Publisher-Archive negotiations, embargo designs, crawler enforcement, litigation funding, journalist commitments, and durable access when outlets close.
