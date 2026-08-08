@@ -3,18 +3,17 @@
 - Score: 160 | [HN](https://news.ycombinator.com/item?id=48082676) | Link: https://til.andrew-quinn.me/posts/replacing-a-3-gb-sqlite-database-with-a-7-mb-fst-finite-state-trandsucer-binary/
 
 ### TL;DR
-A Finnish–English “pocket dictionary” app needed fast offline prefix search over tens of millions of agglutinative word forms. A trie-based Go implementation stayed small for base words but blew up when inflections were added, leading to a hacked-on 3 GB SQLite FTS database download. Revisiting the problem in Rust with BurntSushi’s `fst` crate, the author rebuilt the mapping as a finite state transducer (a minimal DAFSA-style automaton), shrinking it to a 10 MB static binary—while learning value from first shipping the “bad easy” SQLite solution.
 
----
+A Finnish-English dictionary outgrew its 60 MB trie when inflected forms expanded from about 400,000 entries to 40–60 million, so the author temporarily shipped a 3 GB SQLite FTS database. Rebuilding the static lookup with Rust’s `fst` crate produced a 10 MB binary—a roughly 300× reduction—because a finite-state transducer shares repeated suffixes as well as prefixes. HN celebrated first shipping the obvious working solution, while warning that temporary architecture can entrench itself and noting the technique’s older DAFSA/DAWG lineage.
 
 ### Comment pulse
-- Start with the dumb-but-obviously-correct version → it works, builds intuition, then serves as an oracle when you optimize later.  
-- LLM twist: use it to write the simple reference implementation plus exhaustive tests, then let it generate aggressive optimizations guarded by those tests.  
-- FSTs/DAFSAs have a rich history from DAWG and Scrabble engines; key win is merging identical suffix subgraphs, not regex-style pattern matching.
 
----
+- Starting with SQLite bought correctness and an oracle for optimization → counterpoint: provisional designs can become prohibitively entrenched.
+- Readers traced FSTs through DAWGs, DAFSAs, and Scrabble structures → specialized representations often rediscover mature ideas.
+- Some questioned the headline comparison → ordinary compression could shrink SQLite, though not necessarily preserve equivalent searchable access.
 
 ### LLM perspective
-- View: FSTs are ideal when you have a large, static string-to-value map with heavy prefix/suffix redundancy and tight memory constraints.  
-- Impact: Offline search tools, dictionaries, and embedded NLP can become dramatically smaller and more responsive on low-end hardware.  
-- Watch next: Better FST builders, language-agnostic bindings, and benchmarks versus compressed SQLite/tries on real-world corpora and devices.
+
+- **View:** Optimize after real data exposes the dominant redundancy.
+- **Impact:** Static corpora benefit most; frequently updated indexes may surrender the advantage.
+- **Watch next:** Compare cold latency, build memory, and compressed-database distribution—not just raw file sizes.

@@ -3,18 +3,17 @@
 - Score: 143 | [HN](https://news.ycombinator.com/item?id=48083007) | Link: https://mathoverflow.net/questions/43690/whats-a-mathematician-to-do
 
 ### TL;DR
-An anxious undergrad on MathOverflow asks whether non-geniuses can still “contribute to mathematics” now that Gauss and Euler have already done the great things. The standout reply, by Bill Thurston, reframes the issue: mathematics’ real product is clarity and shared understanding, not isolated theorems. Math only truly exists in a living community that learns, teaches, re-expresses, and occasionally revolutionizes ideas. Other answers echo: you don’t need to be a prodigy; exposition, collaboration, and persistence generate genuine new contributions over time. HN commenters generalize this to all culture, stress pedagogy, and debate AI’s effects on this “living community.”
 
----
+An undergraduate worries that only Gauss-level originality counts and asks what an ordinary mathematician can contribute. MathOverflow’s enduring answer reframes the product of mathematics as clarity and shared understanding, sustained by a living community—not isolated theorems or priority claims. Learning deeply, teaching, writing exposition, building tools, collaborating, and organizing existing knowledge all preserve ideas and can open paths to original work. HN strongly endorsed pedagogy and maintenance, while debating whether modern mathematics has exhausted useful low-hanging fruit and whether applications, curiosity, or AI will drive future progress.
 
 ### Comment pulse
-- Living culture matters more than isolated results → many see mathematics (and civilization) as something that must be continually re-understood and re-taught—counterpoint: some think LLMs may act as synthetic stewards.  
-- Work in service of goals → several suggest math flourishes when tied to concrete projects or cross-disciplinary needs; AI could become the ever-available “other discipline” collaborator.  
-- Pedagogy as high-impact math → commenters praise communicators (3blue1brown, Sal Khan, Numberphile) and worry poor exposition will make advanced math effectively unreachable to humans.
 
----
+- Mathematical culture must live in people, not archives → counterpoint: some believe models can preserve and transmit knowledge synthetically.
+- Collaborating on concrete goals can expose valuable problems → counterpoint: historically useful abstractions often began without applications.
+- Pedagogy is foundational infrastructure → clearer exposition shortens decades of prerequisite learning and keeps research accessible to future humans.
 
 ### LLM perspective
-- View: AI can extend the mathematical community’s memory and translation capacity, but cannot replace human judgment about meaning, importance, or beauty.  
-- Impact: Mathematicians may shift toward problem-finding, conceptual synthesis, and teaching, delegating some technical grind to tools.  
-- Watch next: rigorous evaluation of AI-generated proofs, human–AI coauthor norms, and funding or promotion systems that reward exposition and education.
+
+- **View:** Contribution spans discovery, compression, transmission, tooling, and stewardship; originality is only one axis.
+- **Impact:** Institutions rewarding publications alone underinvest in the work making later discoveries possible.
+- **Watch next:** Whether AI strengthens expert communities or displaces the apprenticeship that sustains them.

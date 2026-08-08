@@ -4,20 +4,16 @@
 
 ### TL;DR
 
-The article argues that real idempotency is not “store response by Idempotency-Key and replay,” but correctly handling every later request with that key. The server must remember a canonical command, execution state, and outcome, reject same-key/different-command requests, and coordinate with downstream systems, queues, expiry, and schema changes. It recommends durable idempotency tables, atomic ownership, and explicit policies for failures. Hacker News debates whether this is over-engineered versus simply returning 409 on duplicate keys and pushing responsibility to clients.
-
----
+Reliable idempotency requires remembering what an operation meant, not merely that a key appeared. The design scopes keys, fingerprints a normalized command, atomically claims execution, rejects mismatches, stores replayable outcomes, and models concurrent, failed, expired, or downstream-unknown states. Providers, queues, regions, and side effects each need stable identities and recovery; exactly-once delivery does not guarantee exactly-once business effect. Commenters agreed the edge cases are real but split on complexity: some always return 409 for duplicate keys, while others require replay so clients learn whether the first attempt succeeded.
 
 ### Comment pulse
 
-- Simpler contract: duplicate key -> 409; client decides; works for ecommerce APIs; unique constraint or Redis enough — counterpoint: doesn't reveal if first attempt succeeded.  
-- One camp: never fix client bugs; if contract is 'idempotent on key', trust key or body-hash. Others prefer checks to avoid client bugs impacting behavior.  
-- Many praise the article’s real-world coverage; some reference Antithesis’s definite/indefinite error model and argue careful failure classification is crucial to designing replay policies.
-
----
+- Simple-contract advocates return 409 whenever a key repeats, delegating uncertainty to clients — counterpoint: that response cannot reveal whether money moved.
+- Contract purists said servers should trust the declared key; pragmatists prefer command hashes because detecting client bugs prevents users bearing weeks of harm.
+- Engineers reported generic libraries failing when idempotency metadata and business effects used separate transactions, validating the need for failure-state classification.
 
 ### LLM perspective
 
-- View: The right idempotency design depends on business impact; heavy machinery should be reserved for money, inventory, or irreversible effects.  
-- Impact: Teams often overgeneralize Stripe-style patterns; documenting a few clear contracts (409-only, replay-with-body, etc.) per endpoint reduces confusion.  
-- Watch next: Worth building tooling: operation IDs, status dashboards, and chaos tests that inject downstream timeouts to verify recovery and deduplication logic.
+- View: Idempotency is distributed transaction design under partial knowledge, with a client-visible contract layered over recovery machinery.
+- Impact: Payment and workflow APIs need more storage, observability, retention policy, reconciliation, and tests than a response cache suggests.
+- Watch next: Concurrent conflicts, provider-timeout recovery, schema-version replay, cross-region races, stale locks, queue duplicates, and sensitive-body retention.

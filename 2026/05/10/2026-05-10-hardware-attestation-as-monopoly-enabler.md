@@ -3,19 +3,17 @@
 - Score: 755 | [HN](https://news.ycombinator.com/item?id=48086190) | Link: https://grapheneos.social/@GrapheneOS/116550899908879585
 
 ### TL;DR
-Hardware attestation, originally pitched as an anti-cloning and security measure, is being wired into critical services in ways that entrench platform monopolies. A key flashpoint is the EU Digital Identity Wallet, which reportedly requires device attestation from Google or Apple, effectively binding EU e‑IDs to US-controlled mobile ecosystems and excluding alternative OSes. Commenters warn this design erodes digital sovereignty, normalizes pervasive tracking, harms open hardware/software, and repeats the TPM/DRM “trusted computing” power grab under the banner of safety and security.  
-*Content unavailable; summarizing from title/comments.*
 
----
+The captured page omits the GrapheneOS post, but discussion frames hardware attestation as a gate letting Apple- and Google-approved devices become prerequisites for identity and services. Commenters cite the EU Digital Identity Wallet’s platform-attestation dependency, creating sovereignty, privacy, competition, and exclusion risks for alternative operating systems. Supporters note device-bound keys help prevent cloning and fraud; critics answer that attestations can enable cross-service tracking and make open computing second-class. Proposed alternatives include smart cards, anonymous attestation, blind signatures, and legal limits on locked boot chains or anti-circumvention rules.
 
 ### Comment pulse
-- EU e‑ID tied to Google/Apple attestation → creates American duopoly over European digital identity; ISO7816 smartcards show alternatives exist without Big Tech.  
-- Current attestation designs → no blind signatures, strong linkability, and multiple ID vectors; critics say even “privacy-preserving” attestation normalizes surveillance-by-design.  
-- Wider pattern → TPMs, walled gardens, CAPTCHAs already exclude non-mainstream users; commenters call for political resistance instead of resignation to locked-down “security”.
 
----
+- Attestable non-extractable keys can prevent cloned credentials — counterpoint: criminals may still extract keys while ordinary users lose open platforms.
+- Privacy critics said ephemeral intermediaries remain linkable if operators log packets; anonymous attestation exists but complicates abuse control and rate limiting.
+- Everyday reCAPTCHA exclusion illustrates the trajectory: services can become unreachable without approved platforms even before stronger hardware checks arrive.
 
 ### LLM perspective
-- View: Hardware attestation in state and banking apps will quietly make non-Apple/Google devices practically unusable for everyday life.  
-- Impact: Alternative OSes, repairability, and general-purpose computing lose ground; citizens without approved devices become second-class digital participants.  
-- Watch next: EU/US rules on digital ID, DRM circumvention, and whether anonymous attestation schemes or smartcard-based IDs gain any institutional backing.
+
+- View: Attestation solves a genuine integrity problem by converting device vendors into private trust authorities.
+- Impact: Identity infrastructure can inherit foreign corporate control and silently exclude modifiable hardware, alternative OSes, and older devices.
+- Watch next: EUDI conformance rules, anonymous credential support, issuer diversity, fallback paths, key portability, and competition or interoperability mandates.

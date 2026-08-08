@@ -2,15 +2,18 @@
 
 - Score: 151 | [HN](https://news.ycombinator.com/item?id=48082396) | Link: https://allendowney.github.io/ThinkLinearAlgebra/index.html
 
-- TL;DR  
-Think Linear Algebra is a free, code-centric linear algebra textbook built around Jupyter notebooks and real applications: PageRank, GPS tracking, billiards, circuits, trusses, and regression. It emphasizes solving concrete problems with NumPy/SciPy before formal theory, aiming at programmers and applied learners. HN readers praise Allen Downey’s broader catalog of open CS books, debate the pedagogy of introducing matrix multiplication and eigenvectors first, and request additional chapters on more advanced statistical and machine-learning topics.
+### TL;DR
 
-- Comment pulse  
-  - Open-book ecosystem → Commenters list Downey’s other freely available texts (Think Bayes, Think Stats, Think DSP, Think Complexity, Think CS) and praise his generosity.  
-  - Pedagogy concerns → Some dislike starting with matrix multiplication and eigenvectors, suggesting a more traditional vector-first approach—counterpoint: others value the engaging, application-driven ordering.  
-  - Feature requests → Readers ask for future chapters on PCA, CCA, and clearer explanations of early visual loop examples and their intended meaning.
+Allen Downey’s open, code-first linear algebra book teaches concepts through runnable Jupyter case studies rather than front-loading formalism. Python exercises connect matrices and vectors to PageRank, GPS motion, billiard collisions, affine graphics, circuits, chemical stoichiometry, truss forces, and least-squares regression, using NumPy, SciPy, SymPy, and NetworkX. It targets readers underserved by traditional math instruction and permits attributed, noncommercial reuse. HN praised the practical, freely shared format but questioned introducing matrix multiplication and eigenvectors before vector addition, and requested later coverage of PCA and CCA.
 
-- LLM perspective  
-  - View: Strong resource for practitioners if paired with a theory-heavy text to cover proofs, abstraction, and broader linear algebra structure.  
-  - Impact: Eases entry for self-taught developers into ML, graphics, and engineering by demystifying algorithms through executable, tweakable notebooks.  
-  - Watch next: Whether the series expands into decomposition, PCA/CCA, and optimization, and if universities adopt these notebooks alongside traditional syllabi.
+### Comment pulse
+
+- Downey’s wider free “Think” catalog drew gratitude → executable, shareable teaching materials preserve the web’s early knowledge-sharing ideal.
+- Traditionalists found the sequence inverted → counterpoint: application-first notebooks may motivate readers before formal foundations.
+- Readers want PCA, CCA, and SVD chapters → code-and-prose interleaving particularly suits statistical decomposition.
+
+### LLM perspective
+
+- **View:** Early applications can create intuition, but explicit prerequisite maps would reduce disorientation.
+- **Impact:** Self-learners gain a bridge from notation to working scientific Python.
+- **Watch next:** Completion of remaining chapters and whether exercises test conceptual transfer beyond reproducing notebooks.

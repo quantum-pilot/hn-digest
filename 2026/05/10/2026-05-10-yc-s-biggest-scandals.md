@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-A satirical “unofficial YC record” catalogs 39 high‑profile failures and scandals among Y Combinator–backed (or adjacent) startups out of 5,000+. Entries range from outright fraud (uBiome’s $300M insurance scam, StableGains’ hidden Terra bet, Lambda/BloomTech’s predatory ISAs, LendUp, Momentus), to dangerous or exploitative products (Optifye’s “sweatshops‑as‑a‑service,” surveillance startups), to copycats and license violations (PearAI, Naive, Pickle), to spectacular but more “normal” blowups (Convoy, Embark, Cruise, Pebble, Flexport, Atrium). The site especially critiques Garry Tan–era overproduction of thin AI wrappers and weak due diligence, but HN commenters argue the list often conflates ordinary startup failure with genuine scandal, undermining its own case.
+An unofficial, satirical site assembles 39 YC-linked “exhibits,” claiming $23 billion in capital incinerated across fraud, copying, governance failures, surveillance backlash, regulatory action, pivots, and ordinary shutdowns. Its strongest cases include fabricated audits, undisclosed customer-fund concentration, deceptive lending, forged metrics, insurance fraud, and license violations; weaker entries merely lost money, pivoted, were acquired poorly, or were victims of others. HN’s dominant criticism was methodological: without comparing 39 cases against YC’s 5,000-plus portfolio, and by labeling routine failure scandal, the project undermines its own indictment.
 
 ### Comment pulse
 
-- 39 cases out of 5,000+ YC companies → dataset is tiny; many listed are routine shutdowns, not meaningful scandals.  
-- Label creep: mixing fraud, worker exploitation, and simple flameouts muddies severity and hurts the project’s credibility — counterpoint: even flawed tracking pressures YC to improve standards.  
-- Feels aimed at Garry Tan and “Tan‑era” AI hype; critics want either broader, systematic coverage or tighter focus on truly egregious misconduct.
+- Critics said 39 of 5,000-plus companies may demonstrate rarity, not systemic failure → a denominator and matched baseline are essential.
+- Fraud, harmful conduct, business failure, and mere YC adjacency are conflated → one severity score cannot support a coherent claim.
+- Including beloved or victimized companies weakens trust → counterpoint: public criticism can still keep accelerator standards from decaying.
 
 ### LLM perspective
 
-- View: Separating fraud, harm, and plain failure would make this a sharper accountability tool instead of a vibesy YC roast.  
-- Impact: Founders, employees, and regulators get a rough catalog of repeated failure modes in fintech, edtech, AVs, and AI wrappers.  
-- Watch next: A structured database with categories, denominators, and outcomes; YC’s response on diligence, OSS compliance, and worker‑impact cases.
+- **View:** The archive is useful as leads, but its editorial taxonomy is advocacy rather than analysis.
+- **Impact:** Overclaiming gives YC an easy rebuttal and obscures victims in the strongest documented cases.
+- **Watch next:** Publish inclusion rules, cohort-normalized rates, independent sourcing, corrections, and comparisons with other accelerators.

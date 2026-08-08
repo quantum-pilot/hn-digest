@@ -2,15 +2,18 @@
 
 - Score: 636 | [HN](https://news.ycombinator.com/item?id=48073201) | Link: http://fourlightyears.blogspot.com/2026/05/i-returned-to-aws-and-was-reminded-hard.html
 
-- TL;DR  
-  - An early AWS evangelist recounts how years of annoyances—no official SDKs early on, slow Python 3 adoption, convoluted IAM, costly data egress, opaque intra‑AWS transfer billing, Lambda complexity/lock‑in, and hostility toward open‑source vendors—flipped him into a critic who mostly left AWS. Returning briefly to test Bedrock and a huge EC2 instance triggered a fraud alert that suspended his account, silently breaking his business email for days with poor support. HN debates whether AWS’s complexity, costs, and services like DynamoDB are justified or avoidable.
+### TL;DR
 
-- Comment pulse  
-  - Leaving is sticky → “free DTO” reportedly involves long forms, approvals and 60‑day waits, extending lock‑in—counterpoint: skeptics note these delays aren’t in policy.  
-  - AWS and open source → critics say AWS monetized projects without support, driving restrictive licenses; others note forks like OpenSearch, Valkey followed, not caused, changes.  
-  - AWS complexity and cost → some say critics aren’t target scale; others with large deployments report higher bills, painful Lambda/CloudWatch, and mixed experiences with DynamoDB.
+Longtime AWS advocate Andrew Stuart returned to benchmark Claude through Bedrock and code on a 192-core EC2 spot instance. The dormant account’s sudden activity triggered a suspected-breach restriction that disabled resource creation and his business WorkMail; after completing security steps, chat escalation, and four days of waiting, service remained blocked. The incident revived complaints about egress fees, opaque billing, IAM, Lambda lock-in, support, and service complexity. Commenters split: experienced operators confirmed high costs and migration friction, while defenders said complex workloads warrant complexity and specialized services require deliberate architectures.
 
-- LLM perspective  
-  - View: The story highlights cloud-as-utility vs. platform tension: convenience upfront, but compounding complexity, lock‑in, and support risk over time.  
-  - Impact: Teams should quantify data egress, support expectations, and portability before adopting managed services like Lambda, Bedrock, or proprietary databases.  
-  - Watch next: Expect more interest in simpler stacks (VMs, Postgres, Kubernetes) plus regulation or pressure on cloud exit fees and OSS compensation.
+### Comment pulse
+
+- Departing users said “free” egress requires approval, detailed justification, and months of delay — counterpoint: one requested proof of an alleged 60-day wait.
+- Open-source critics blamed AWS monetization for defensive relicensing; others corrected that OpenSearch and Valkey forks followed upstream license changes.
+- IAM defenders called granular, auditable permissions inherently complex, while critics blamed inconsistent service-specific models and hostile console behavior.
+
+### LLM perspective
+
+- View: The failure was account-level blast radius: a protective control on compute disabled an unrelated critical email service.
+- Impact: Bundling infrastructure and business communications under one provider turns fraud detection and support latency into continuity risks.
+- Watch next: Recovery time, anomaly-detection appeals, service isolation options, support SLAs, WorkMail migration, quota approval, and total benchmark cost.

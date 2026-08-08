@@ -3,18 +3,17 @@
 - Score: 328 | [HN](https://news.ycombinator.com/item?id=48048684) | Link: https://www.amusingplanet.com/2026/05/emerich-juettner-one-dollar.html
 
 ### TL;DR
-Emerich Juettner, a poor Austrian immigrant in 1930s–40s New York, secretly printed laughably bad counterfeit $1 bills using a hand press in his kitchen. Because people rarely scrutinize single dollars and he spent them sparingly, he evaded the Secret Service for nearly a decade, triggering its largest and longest counterfeit investigation. Discovered only after a fire exposed his plates, he received a token sentence, became a folk hero, and ultimately earned more from a Hollywood film than from crime. Hacker News debates enforcement proportionality, monetary trust, and small-bill economics.
 
----
+From 1938 to 1948, New Yorker Emerich Juettner printed crude one-dollar notes with zinc plates, passing only a few at a time where low denominations escaped scrutiny. Despite a decade-long, unusually expensive Secret Service hunt, he was exposed only after firefighters tossed his belongings outside and children found the plates. Juettner confessed, served four months of a year-and-a-day sentence, paid a $1 fine, and later earned more from the film *Mister 880*. HN debated why authorities pursued such a tiny operation and noted each dollar then carried meaningful purchasing power.
 
 ### Comment pulse
-- Better tellings exist → Readers recommend a 1949 New Yorker series and the film Mister 880 as richer accounts than this short article.  
-- Why such a huge case? → Secret Service must protect currency trust and deter any threshold of counterfeiting—counterpoint: spending a decade on tiny losses seems misallocated.  
-- Follow the money → $1 then was meaningful; side discussion covers 1940s NYC rents, modern small-note discounting in Africa, and regional counterfeit patterns in Argentina/Costa Rica.
 
----
+- Some saw disproportionate enforcement against trivial losses → counterpoint: agents lacked hindsight about scale, and deterrence protects confidence in currency.
+- Inflation adjustments challenged the “chump change” framing → one 1940s dollar could cover far more necessities than one today.
+- Readers recommended the 1949 *New Yorker* account and film → source quality and where a retelling ends materially shape the story.
 
 ### LLM perspective
-- View → Juettner exploited behavioral blind spots: people ignore low-value transactions even when security signals are terrible.  
-- Impact → Financial security work must model human attention, not just technical safeguards; “crudeness” isn’t protection if nobody looks.  
-- Watch next → Data on low-denomination counterfeits versus digital micropayment fraud could show where public trust actually fails today.
+
+- **View:** Juettner succeeded through operational restraint and inattentive verification, not technical quality.
+- **Impact:** Low-value fraud can remain individually small yet institutionally sensitive.
+- **Watch next:** Compare contemporary reporting with later retellings for evidence behind the claimed investigation cost and sentencing rationale.

@@ -3,18 +3,17 @@
 - Score: 210 | [HN](https://news.ycombinator.com/item?id=48085095) | Link: https://dbushell.com/2026/04/29/github-is-sinking/
 
 ### TL;DR
-The author argues GitHub’s reliability and user experience have degraded badly since the Microsoft acquisition: more outages, aggressive AI features, spammy “slop” repos, and overcomplicated Actions/CI. They stress that Git ≠ GitHub; centralized forges are optional add‑ons, not requirements. Their advice: start treating GitHub as a liability, have an exit plan, and migrate gradually to alternatives like Codeberg/Forgejo, Gitea, GitLab, or self‑hosted setups—or even just plain Git over SSH if that fits your collaboration style.
 
----
+David Bushell argues GitHub’s worsening outages, bot activity, AI-generated code volume, fake stars, Actions complexity, and Microsoft-era product direction make it a liability rather than essential infrastructure. Because Git is distributed, he recommends gradual migration or mirroring to alternatives such as Codeberg and Forgejo, self-hosting, or even plain SSH, while keeping an exit plan. Commenters confirmed rate-limit and availability frustrations but disputed causation: some blamed agent-driven load or Azure migration, while others noted the chart’s perfect pre-acquisition uptime looks like inconsistent status reporting rather than proof Microsoft caused the decline.
 
 ### Comment pulse
-- Root cause is disputed: some blame AI‑driven traffic 10×‑ing load; others note uptime issues started years before LLM adoption — counterpoint: Microsoft’s Azure migration and culture changes hurt too.  
-- Users report spurious “secondary rate limit” errors and being forced to log in; messaging feels like default‑deny disguised as rate‑limiting and erodes trust.  
-- Alternatives aren’t perfect: GitLab seen as clunky and slow to improve; some surprisingly prefer Bitbucket’s simplicity; others happily self‑host for a few dollars monthly.  
 
----
+- Unauthenticated users reported secondary rate limits on ordinary commit-history views; logging in or hard-refreshing sometimes bypassed the failure.
+- AI may have multiplied repository and CI load — counterpoint: the cited reliability decline begins years before agentic coding became widespread.
+- Alternative-forge users disagreed sharply over GitLab and Bitbucket usability, reinforcing that migration trades one platform’s weaknesses for another’s.
 
 ### LLM perspective
-- View: GitHub’s combination of corporate incentives and AI‑amplified noise makes over‑reliance risky; diversification of hosting is strategically prudent.  
-- Impact: Open‑source maintainers, small teams, and CI‑heavy orgs are most exposed to outages and policy shifts on a single commercial platform.  
-- Watch next: growth of Codeberg/Forgejo, real‑world adoption of federated forges, and whether GitHub reins in AI slop and clarifies infrastructure limits.
+
+- View: The strongest argument is portability and redundancy; the weakest is attributing a noisy availability graph to one corporate event.
+- Impact: Projects can reduce lock-in by mirroring code, externalizing CI, exporting issues, and documenting recovery paths.
+- Watch next: GitHub’s capacity fixes, status methodology, AI workload growth, migration tooling, federation progress, and reliability data across alternatives.

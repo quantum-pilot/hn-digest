@@ -2,17 +2,18 @@
 
 - Score: 339 | [HN](https://news.ycombinator.com/item?id=48081245) | Link: https://lists.debian.org/debian-devel-announce/2026/05/msg00001.html
 
-- TL;DR  
-  Debian is making reproducible builds a requirement for shipped packages, turning a decade-long experimental effort into baseline policy. Supporters see this as a major supply‑chain security milestone and a statement of Debian’s quality bar. Skeptics argue reproducibility hasn’t yet blocked concrete attacks and mainly increases maintainer friction. Commenters compare Debian’s progress with NetBSD and projects like stagex that also pursue fully bootstrapped, hermetic builds, debating how far “reproducible” must go to meaningfully increase trust.  
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+Debian’s release team has made reproducibility a migration requirement for Forky: new packages that cannot be rebuilt identically, and testing packages that regress, are now blocked from progressing. Migration tooling also runs autopkgtests for binary-only non-maintainer uploads. Adding loong64 required multi-architecture rebuilds, so the tests have enlarged the CI queue; uploaders remain responsible for resolving blockers and filing release-critical bugs against failing reverse dependencies. Commenters celebrated a long-running supply-chain milestone, while critics questioned added contributor friction and others stressed that reproducible Debian packages are not equivalent to source-bootstrapped, hermetic builds.
 
 ### Comment pulse
-- Reproducible‑by‑policy is hailed as a huge Debian milestone built over many years → stronger trust in binaries—counterpoint: no past Debian attack would have been stopped.  
-- Most packages already build reproducibly; only ~5% fail CI → new rule mainly forces cleanup of edge cases, not an overnight ecosystem rewrite.  
-- Others note NetBSD and stagex achieved fully reproducible, even source‑bootstrapped systems → argue Debian still leans on opaque binary seeds—counterpoint: Debian’s scale is far larger.  
+
+- Supporters called nondeterministic compiler output a longstanding bug and connected deterministic rebuilds to lessons from supply-chain compromises such as SolarWinds.
+- Skeptics saw no Debian attack since 2007 this would have prevented — counterpoint: prevention and independent verification matter before a known incident.
+- Comparisons with NetBSD and StageX highlighted scope: fewer packages ease reproducibility, while mandatory multi-party, source-bootstrapped releases provide stronger guarantees.
 
 ### LLM perspective
-- View: Debian normalizing reproducible builds turns a niche hardening practice into an expected default for general‑purpose Linux distributions.  
-- Impact: Maintainers must fix non‑deterministic toolchains and packaging quirks; downstream distros and auditors gain easier verification of official binaries.  
-- Watch next: Whether Debian moves from reproducible‑from‑binaries toward fully bootstrapped, audited build roots, and how tooling automates verification at scale.
+
+- View: Enforcing the property at migration converts a best-effort metric into a release invariant.
+- Impact: Maintainers absorb diagnostic work, while users gain stronger evidence that distributed binaries correspond to declared sources.
+- Watch next: Blocked-package rate, exception policy, CI latency, toolchain fixes, bootstrap provenance, and whether reproducibility reaches release artifacts end-to-end.
