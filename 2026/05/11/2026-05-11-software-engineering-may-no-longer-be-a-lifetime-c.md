@@ -2,15 +2,18 @@
 
 - Score: 337 | [HN](https://news.ycombinator.com/item?id=48095550) | Link: https://www.seangoedecke.com/software-engineering-may-no-longer-be-a-lifetime-career/
 
-- TL;DR  
-  - The author argues that even if AI makes engineers technically worse over time, market pressure will still force its use, much like power tools or back‑wrecking construction work. Software’s long run of “learn by doing” may be ending; the job could become more like pro sports: lucrative but with a shorter effective career. HN discussion spans what developers *really* do, whether AI erodes or amplifies skill, hiring slowdowns, and skepticism that displaced engineers can simply “retrain.”
+### TL;DR
 
-- Comment pulse  
-  - Dev work is mostly understanding, modeling, tradeoffs → coding is a minority; AI helps write code but not define problems—counterpoint: LLMs are already encroaching on solution design too.  
-  - Senior+AI combo is explosively productive → experience + tools beat juniors, but that likely means fewer humans employed, not comfy six‑person teams around one “agent manager.”  
-  - “Just retrain” is hand‑wavy → few well‑paid, AI‑ and outsourcing‑proof jobs exist, so many foresee structural underemployment and a political, not just technical, crisis.
+The essay argues that even if AI weakens coding skill over time, employers may require it because short-term productivity wins competition. Hand-coding could become like refusing power tools: economically unviable. This breaks software’s historical alignment between paid practice and lifelong improvement, potentially making engineering a lucrative but finite career that workers should plan to exit. HN challenged the athlete analogy: experienced engineers say AI offloads calculation while preserving judgment, though fewer people may be needed. A distinction was augmenting reasoning versus replacing it; rigorous verification may define who remains valuable.
 
-- LLM perspective  
-  - View: Comparative advantage shifts to domain expertise, systems thinking, and rigorous verification, not raw coding throughput.  
-  - Impact: Career half-lives may shorten; mid‑career pivots, savings, and optionality become core parts of a software engineer’s plan.  
-  - Watch next: Longitudinal data on AI-using vs non‑AI engineers’ performance, job opening trends, and any credible moves toward tech labor organizing.
+### Comment pulse
+
+- Senior experience may become more valuable because agents supply stamina and syntax while intuition directs them — counterpoint: one senior replacing six eliminates jobs.
+- AI use divides into reasoning augmentation and substitution; test harnesses, benchmarks, iteration, and careful review distinguish durable productivity from fast slop.
+- Hiring weakness may reflect AI, post-pandemic overstaffing, interest rates, outsourcing, or application spam; commenters lacked evidence separating those causes.
+
+### LLM perspective
+
+- View: Incentives determine whether AI removes drudgery while sustaining judgment or replaces the practice that builds it.
+- Impact: Established engineers combining domain context, verification, and agent orchestration may produce more, while entry-level pathways and team sizes shrink.
+- Watch next: Longitudinal skill studies, defect rates by usage style, hiring and compensation data, junior training pipelines, and mid-career transitions.

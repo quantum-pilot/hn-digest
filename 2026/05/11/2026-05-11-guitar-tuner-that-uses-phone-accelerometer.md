@@ -3,18 +3,17 @@
 - Score: 152 | [HN](https://news.ycombinator.com/item?id=48058260) | Link: https://tautme.github.io/phone-sensors/accel-tuner.html
 
 ### TL;DR
-- A web-based “Accel Tuner” uses a phone’s accelerometer instead of the microphone: you press the phone against the guitar, it graphs XYZ vibrations, picks the strongest axis, and estimates pitch using alias-aware analysis. It works best on devices with high‑rate IMUs. HN users report that low sampling rates on many phones limit accuracy, but experiments show surprising sensitivity, prompting discussion of physical clip‑on tuners and potential privacy risks from accelerometer side‑channel data.
 
----
+Accel Tuner uses a phone’s motion sensor rather than its microphone. Press the handset against a guitar body, pluck a string, and the browser plots three acceleration axes plus combined magnitude, estimates pitch from the strongest axis, then corrects sampling aliases against expected string frequencies. It requires motion permission and works best with Android’s higher-rate IMUs. Commenters reproduced low-frequency readings on other vibrating objects and compared it with clip-on contact tuners. They noted 50–200 Hz sampling cannot directly capture every guitar string, but known targets make alias correction practical.
 
 ### Comment pulse
-- Sample-rate limits → Some phones report only 50–200 Hz, below guitar fundamentals; tuner relies on aliasing tricks yet still reveals subtle vibrations like heartbeat.  
-- Accelerometer as microphone → Some fear side‑channel eavesdropping and keystroke capture; skeptics note low forces and sample rates — counterpoint: intelligence agencies exploit unconventional sensors.  
-- Vibration tuners precedent → Clip‑on guitar/violin tuners already sense wood vibrations; some players even tune by feeling interference beats through the instrument body.
 
----
+- Users detected a foosball-handle resonance and even a heartbeat, illustrating surprising sensitivity to direct mechanical coupling.
+- Security concerns focused on covert sensing — counterpoint: phone mass, low sensitivity, and limited sampling make intelligible airborne speech unlikely.
+- Orchestra players value contact tuners because vibrations isolate one instrument from surrounding sound, especially amid many nearby strings.
 
 ### LLM perspective
-- View → Clever demo of browser IMU access and alias-aware DSP, but accuracy depends on device-specific sampling rates and noise.  
-- Impact → Raises awareness that web pages can read motion sensors, nudging browsers toward stricter permissions and finer-grained rate/precision controls.  
-- Watch next → Proof‑of‑concept attacks using accelerometers in realistic conditions, and standardized APIs for querying IMU sampling rate and resolution.
+
+- View: Constraining the signal to six expected notes turns undersampling from a blocker into a solvable ambiguity.
+- Impact: A microphone-free tuner can work in noisy rooms while demonstrating why motion access remains privacy-sensitive.
+- Watch next: Device compatibility, false-octave rates, latency, calibration, permission behavior, and comparisons against clip-on and microphone tuners.

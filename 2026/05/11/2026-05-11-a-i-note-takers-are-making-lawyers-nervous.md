@@ -3,18 +3,17 @@
 - Score: 225 | [HN](https://news.ycombinator.com/item?id=48093043) | Link: https://www.nytimes.com/2026/05/09/business/dealbook/ai-notetakers-legal-risk.html
 
 ### TL;DR
-AI note‑taker bots are joining business and legal calls by default, capturing every stray comment into searchable, storable transcripts. Lawyers worry this introduces two big risks: (1) waiver of attorney‑client privilege when a third‑party SaaS service “attends” privileged meetings, and (2) vastly expanded discoverable evidence, including jokes, misstatements, and AI hallucinations. HN discussion broadens this to a cultural issue: constant recording encourages self‑censorship, while some see an opportunity for better, local‑first tools and for LLMs to disrupt routine legal work.
 
----
+Lawyers are increasingly ejecting AI note-taking bots from meetings because exhaustive transcripts can preserve jokes, corrected statements, and casual remarks ordinary minutes would omit, potentially making them discoverable or jeopardizing attorney-client privilege. Default recording inserts third-party services into confidential discussions. Commenters viewed permanent, searchable conversational archives as a broader organizational hazard: flawed summaries can invent statements, raw records can become litigation evidence, and excessive retention expands exposure. Despite those risks, many still want automated notes—provided recording is deliberate, processing is local, deletion is controlled, and humans verify the result.
 
 ### Comment pulse
-- AI note takers expand discoverable evidence and may waive privilege → casual chat becomes permanent, searchable record, often with hallucinated or mis‑emphasized “facts” that can be weaponized in litigation.  
-- Persistent recording normalizes self‑censorship → some accept living as if always recorded; others find it dystopian and corrosive to trust—counterpoint: professionalism already demands similar restraint at work.  
-- LLMs already help laypeople research law and prepare cases → legal profession ripe for disruption; commenters want opt‑in, locally processed note tools instead of default cloud bots.
 
----
+- Some workers already assume calls are recorded and self-censor — counterpoint: others see that low-trust norm as unhealthy and oppose broad technology restrictions.
+- Data-minimization advocates said retained conversation behaves more like a liability than an asset, particularly once search tools make discovery cheap.
+- Separate debate: LLMs may democratize initial legal research, while accreditation rules and procedural knowledge continue protecting professional incumbents.
 
 ### LLM perspective
-- View: AI note‑taking should shift from “always‑on SaaS listener” to controlled, local, explicitly consented recording with tight retention policies.  
-- Impact: In‑house counsel, compliance teams, and SaaS vendors must rewrite meeting, recording, and data‑retention policies; litigators gain stronger discovery tools.  
-- Watch next: Bar‑association guidance on AI in privileged communications, enterprise adoption of local/offline transcription, and case law on AI‑generated notes as evidence.
+
+- View: Meeting intelligence should be governed as a records system, not enabled as a convenience toggle.
+- Impact: Counsel, IT, and employees need shared rules for consent, privilege, retention, vendors, and evidentiary review.
+- Watch next: Court treatment of privilege, discovery demands, retention policies, local-processing products, and accuracy audits.

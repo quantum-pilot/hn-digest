@@ -3,18 +3,17 @@
 - Score: 209 | [HN](https://news.ycombinator.com/item?id=48085685) | Link: https://www.cocoawithlove.com/blog/matrix-multiplications-swift.html
 
 ### TL;DR
-Gallagher rewrites Karpathy’s `llm.c` GPT‑2-style trainer in Swift, then pushes handwritten matrix multiplies from ~2.8 Gflop/s (painfully slow) to ~1.1 Tflop/s on an M3 Max. He systematically removes Swift `Array` CoW overhead with `MutableSpan`, enables FMA via Swift Numerics’ `Relaxed` math, uses loop tiling and `InlineArray`, adds multithreading with `DispatchQueue.concurrentPerform`, then taps undocumented AMX instructions and finally Metal GPU kernels (with tiling). The goal is educational: show how real ML libraries squeeze performance, not replace them. HN focuses on the rarity of such deep Swift-performance writeups, FMA correctness flags, and GPU vs CPU tuning complexity.
 
----
+Matt Gallagher optimizes GPT-2 training matrix multiplication in Swift on an M3 Max without production libraries. Basic Swift ran at 2.8 Gflop/s, 15–20× slower than C, mainly from array copy-on-write checks and conservative floating point. MutableSpan, relaxed FMA, InlineArray unrolling, and `concurrentPerform` pushed CPU Swift past C; AMX and tiled Metal reached 1.1 Tflop/s, a 382× speedup. The result still produces under 12 tokens/s, so the author recommends Apple frameworks. HN praised the tutorial but cautioned that `-ffast-math` is broader than needed and noted how difficult GPU peak utilization is.
 
 ### Comment pulse
-- Swift performance guide → Rare, high-quality deep dive into Swift optimization; nostalgia for Gallagher’s earlier Cocoa/Swift posts as canonical explanations.  
-- FMA vs fast-math → Use `-ffp-contract=fast` for FMA without `-ffast-math`’s broader, risky rewrites—counterpoint: compilers still overvalue legacy bitwise reproducibility.  
-- GPU performance gap → Peak FLOPs overstate real throughput; tuned kernels and ecosystems (e.g., CUDA) matter—counterpoint: some argue GPU tuning isn’t much harder than CPUs.
 
----
+- Readers valued a rare, reproducible Swift optimization path spanning compiler output, memory semantics, threading, matrix accelerators, and GPU kernels.
+- For FMA, `-ffp-contract=fast` is safer than blanket `-ffast-math`, which permits other transformations that can damage numerical accuracy.
+- M3 Max’s theoretical 15 Tflop/s misleads — counterpoint: workload ceilings, memory locality, and tuned kernels matter more than headline GPU throughput.
 
 ### LLM perspective
-- View: This is a template for methodical performance work: profile, change one thing, validate, repeat across the whole stack.  
-- Impact: Swift/Apple‑silicon devs gain a concrete roadmap for bridging from naive code to near-library-level ML performance.  
-- Watch next: Compare against Accelerate/BNNS/MPSGraph/CoreML; add mixed precision, batching, and larger models to stress real-world training throughput.
+
+- View: The 382× gain came from matching computation to memory layout and hardware hierarchy, not from changing the mathematical algorithm.
+- Impact: Swift can match C for numeric loops, but safety and readability erode once manual parallelism and undocumented hardware enter.
+- Watch next: Production-library comparisons across BLAS, BNNS, CoreML, and MPSGraph; M4 SME results; power efficiency; larger models; numerical-error analysis.

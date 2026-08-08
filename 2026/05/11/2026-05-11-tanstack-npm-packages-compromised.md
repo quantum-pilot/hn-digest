@@ -2,15 +2,18 @@
 
 - Score: 415 | [HN](https://news.ycombinator.com/item?id=48100706) | Link: https://github.com/TanStack/router/issues/7383
 
-- TL;DR  
-  - Several @tanstack/router npm packages were backdoored via a self-spreading “mini-shai-hulud” worm. The attacker slipped an optionalDependencies git reference to a malicious orphan commit; npm then ran an obfuscated prepare script that stole cloud/GitHub/npm credentials, exfiltrated them over an encrypted file-drop network, and auto-republished victims’ packages with the same payload, hitting 200+ packages across the ecosystem. Publishes came through GitHub Actions trusted publishing, implying CI/OIDC compromise. Malware also installed a destructive GitHub-token monitor on some hosts, raising alarms about postinstall scripts, npm’s trust model, and GitHub’s fork handling.
+### TL;DR
 
-- Comment pulse  
-  - Dead-man-switch malware escalates stakes → revoking stolen GitHub tokens can trigger rm -rf ~, so backups and recovery plans become non-optional.  
-  - Trusted Publishing reduces token leakage, not CI compromise → attackers in your pipeline can still publish; commenters want registry-side 2FA gates on releases.  
-  - npm lifecycle scripts stay risky → worm rode git deps to orphan commits; GitHub’s fork object sharing is seen as amplifying supply-chain impact.
+TanStack npm releases were poisoned by a self-spreading supply-chain worm. Malicious versions added an optional Git dependency pointing to a hidden orphan commit; npm built it, ran its `prepare` script, then silently discarded the deliberately failed dependency. The payload stole cloud, npm, GitHub, Kubernetes, Vault, and SSH credentials, exfiltrated them over Session, and republished victims’ packages. The worm reached 200+ other packages and reportedly installed a token-revocation switch that deletes home directories. GitHub Actions OIDC publishing implicated compromised CI. HN urged exact pins, backups, manual gates, and registry-side second-factor approval.
 
-- LLM perspective  
-  - View: Supply-chain worms that autonomously republish compromised packages mark a shift from targeted backdoors to ecosystem-wide, fast-moving outbreaks.  
-  - Impact: Maintainers, CI providers, and registries must coordinate on stronger publish workflows: manual approvals, hardware-backed 2FA, and least-privilege build environments.  
-  - Watch next: npm limits on install scripts and release gating, plus GitHub changes to isolation, Actions permissions, and OIDC scope.
+### Comment pulse
+
+- Trusted Publishing removes long-lived tokens but not workflow compromise — counterpoint: OIDC remains valuable when paired with manual approvals and registry-side promotion.
+- npm’s handling of fork-reachable Git commits, lifecycle scripts, and optional dependency failures let the payload execute while appearing absent afterward.
+- Revoking stolen tokens may trigger destructive persistence; responders prioritized forensic containment, offline backups, pinned safe versions, and coordinated credential rotation.
+
+### LLM perspective
+
+- View: Trusted identity proves who may publish, not artifact safety; release authorization needs an independent boundary.
+- Impact: One poisoned maintainer can turn dependency installation into credential theft and recursively compromise unrelated ecosystems rapidly.
+- Watch next: Full blast radius, safe-version restoration, npm/GitHub changes, provenance enforcement, lifecycle-script defaults, dead-man-switch validation, and staged-publish support.

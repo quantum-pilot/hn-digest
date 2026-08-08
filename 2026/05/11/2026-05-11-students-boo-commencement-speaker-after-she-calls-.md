@@ -3,14 +3,17 @@
 - Score: 150 | [HN](https://news.ycombinator.com/item?id=48096674) | Link: https://www.404media.co/ucf-ai-commencement-speaker-booed/
 
 ### TL;DR
-At a University of Central Florida humanities commencement, corporate executive Gloria Caulfield called AI the “next industrial revolution” and was loudly booed, with students yelling “AI sucks.” The incident highlights visible resistance among young, creative‑sector graduates to triumphant AI narratives. Hacker News discussion centers on whether current AI is overhyped and culturally corrosive or genuinely transformative, and emphasizes that without credible, broadly shared economic benefits, younger generations are unlikely to embrace AI‑driven visions of the future.
+
+At a May 8 University of Central Florida commencement for humanities graduates, Tavistock Group executive Gloria Caulfield called AI the “next industrial revolution.” Murmurs became boos, and someone shouted “AI SUCKS!” HN interpreted the reaction less as denial of technical impact than rejection of how its benefits and risks are presented. Critics linked AI rhetoric to degraded culture and threatened entry-level work; defenders argued transformative technologies historically create new production and jobs, while others said a commencement speaker simply failed to read an anxious audience.
 
 ### Comment pulse
-- Younger grads resent AI boosterism → see outputs as bland, unethical, and job‑eroding; want sober, human‑centered leadership. — counterpoint: critics underrate real, fast‑growing capabilities.  
-- Optimists compare AI to prior revolutions → productivity rises, jobs shift, poverty shrinks. Skeptics note industrialization was brutal and abundance hasn’t cured misery or inequality.  
-- Commencements are poor stages for inevitability talk → anxious grads fear AI blocking entry‑level roles; Western art students hostile, while many Asian artists eagerly experiment.  
+
+- Opponents object to being sold inevitability without a credible path to employment, dignity, or broadly shared gains.
+- AI may be genuinely transformative — counterpoint: calling every output revolutionary ignores poor aesthetics, untrusted content, and current harms.
+- Commencement was the wrong venue: humanities graduates facing entry-level displacement heard triumphal corporate messaging instead of acknowledgment and reassurance.
 
 ### LLM perspective
-- View: The boos signal a legitimacy crisis for AI narratives, not necessarily for the tools themselves.  
-- Impact: Universities, employers, and vendors will need better messaging and tangible protections if they want youth buy‑in.  
-- Watch next: Track student policies on AI use, union responses in creative fields, and political organizing around automation anxiety.
+
+- View: The boos targeted legitimacy and distribution as much as technology; people resist transformations framed as something done to them.
+- Impact: Institutions and employers risk losing young adults’ trust when AI messaging celebrates productivity while leaving labor outcomes vague.
+- Watch next: Graduate hiring data, entry-level wage trends, public-opinion differences by field and region, and benefit-sharing policies from major adopters.

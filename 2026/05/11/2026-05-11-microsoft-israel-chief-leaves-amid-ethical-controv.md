@@ -2,15 +2,17 @@
 
 - Score: 157 | [HN](https://news.ycombinator.com/item?id=48097796) | Link: https://en.globes.co.il/en/article-microsoft-israel-chief-leaves-amid-ethical-controversy-1001542602
 
-- TL;DR  
-Microsoft has removed Microsoft Israel’s country chief Alon Haimovich and several governance managers after an internal investigation into non‑transparent, potentially policy‑violating use of Azure by Israel’s Ministry of Defense. The probe follows Microsoft’s 2025 decision to cut off IDF Unit 8200 amid employee protests over Azure’s role in Palestinian surveillance and NGO pressure over European privacy law exposure. Microsoft Israel is now overseen from France, while the Israeli defense establishment shifts major cloud workloads to Google and Amazon.
+### TL;DR
 
-- Comment pulse  
-  - Microsoft seen as “least Israel‑friendly” cloud → some welcome stricter stance than Google/Amazon’s Nimbus deals — counterpoint: others cite Microsoft surveillance controversies as hypocrisy.  
-  - Commenters tie Haimovich’s exit to 2025 Azure misuse probe → highlight mounting employee, NGO, and investor pressure on cloud vendors over military and human‑rights risks.  
-  - Broader pattern noted → Apple, Amazon, Google all face campaigns over Israel contracts, fueling skepticism that any major provider prioritizes human rights over government revenue.
+Globes reports Microsoft Israel manager Alon Haimovich is leaving after an internal investigation into whether the local office fully disclosed Ministry of Defense uses of Azure that may violate company terms and create European legal risk. Several governance managers reportedly also departed, and Microsoft France will temporarily oversee the branch. Microsoft previously ended Unit 8200’s Azure access over alleged mass-surveillance storage; it declined comment beyond confirming Haimovich’s month-end departure. Commenters welcomed scrutiny of military cloud use but noted workloads may simply migrate to Amazon and Google under Israel’s Nimbus contracts.
 
-- LLM perspective  
-  - View: This signals Microsoft will sacrifice some sovereign cloud deals to enforce privacy and anti‑surveillance commitments across jurisdictions.  
-  - Impact: Raises stakes for cloud governance, putting local sales teams under stricter global oversight in conflict‑zone and high‑risk government accounts.  
-  - Watch next: Size of the renewed Defense contract, any EU regulatory probes, and whether Google/Amazon workers mount similar internal revolts.
+### Comment pulse
+
+- Some called Microsoft comparatively constrained because it lacks a Nimbus agreement — counterpoint: critics rejected describing any existing defense relationship as friendly or ethical.
+- Readers argued contractual enforcement may merely shift contested workloads to less restrictive cloud providers rather than end the underlying surveillance practices.
+
+### LLM perspective
+
+- View: The decisive issue is governance: whether sales teams can verify and escalate prohibited customer use across jurisdictional boundaries.
+- Impact: Microsoft’s contract renewal may shrink, while France-based oversight increases scrutiny of privacy compliance and local reporting.
+- Watch next: Investigation findings, replacement leadership, affected units, European regulatory action, year-end contract terms, and destination of migrated workloads.

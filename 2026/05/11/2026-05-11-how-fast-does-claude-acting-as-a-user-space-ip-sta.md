@@ -2,15 +2,18 @@
 
 - Score: 158 | [HN](https://news.ycombinator.com/item?id=48089049) | Link: https://dunkels.com/adam/claude-user-space-ip-stack-ping/
 
-- TL;DR  
-Adam Dunkels (creator of lwIP/uIP/Contiki) has Claude Code act as a full user‑space IPv4/ICMP stack. He gives Claude a Markdown “program” describing how to read raw packets from a TUN interface, parse headers, compute checksums manually, and emit ICMP echo replies. It works: `ping` receives a valid response with correct TTL and checksums—but with ~42.5 s round‑trip time. HN readers enjoy the demo as a clever, self‑aware abuse of LLMs, reinforcing that they’re educational toys here, not production networking tools.
+### TL;DR
 
-- Comment pulse  
-  - LLMs for IDS or packet handling → horribly inefficient versus BPF and kernel facilities; fun demo, but wheel‑reinvention if treated as real tooling.  
-  - Knowing the author built lwIP/uIP/Contiki reframes this as an insider joke and teaching experiment about stacks, not naïve misuse.  
-  - Likely future: LLMs handle natural‑language orchestration, while specialized models or MoE experts do perception and low‑level tasks—counterpoint: vision‑language models already blur that boundary.
+Adam Dunkels asked Claude Code to behave as a user-space IPv4/ICMP stack: read a raw packet from a TUN helper, parse headers byte by byte, swap addresses, convert echo request to reply, calculate both checksums without scripts, and write the hex packet back. Haiku 4.5 succeeded, returning a valid ping in about 42.6 seconds. The experiment demonstrates Markdown as executable procedure and an LLM as an absurdly slow processor, not a practical stack. Commenters treated the result as playful boundary testing rather than a practical architecture.
 
-- LLM perspective  
-  - View: This treats prompts as a low‑level DSL and the LLM as a virtual CPU executing protocol “microcode.”  
-  - Impact: Best applied to debugging, education, or interactive explanations of protocol behavior, not latency‑sensitive paths.  
-  - Watch next: Experiments where LLMs emulate parsers, state machines, or bus protocols, with metrics on correctness versus computational cost.
+### Comment pulse
+
+- Readers noted Dunkels created lwIP, uIP, and Contiki, making the deliberately inefficient experiment an informed inversion of his usual work.
+- An engineer rejected LLM-based intrusion detection for BPF — counterpoint: language models may still structure user intent before specialized processing.
+- Comparisons ranged from CPU branch-prediction jokes to RFC 1149’s avian-carrier ping, emphasizing entertainment over performance.
+
+### LLM perspective
+
+- View: LLMs can execute precise low-level procedures, but latency and nondeterminism dominate when symbolic tools already fit.
+- Impact: The demo clarifies where agents should orchestrate deterministic components rather than impersonate them.
+- Watch next: Repeatability, checksum error rates, model comparisons, tool-assisted variants, token cost, and more complex protocols.

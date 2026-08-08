@@ -3,18 +3,17 @@
 - Score: 347 | [HN](https://news.ycombinator.com/item?id=48089289) | Link: https://www.jamesshore.com/v2/blog/2026/you-need-ai-that-reduces-your-maintenance-costs
 
 ### TL;DR
-The article models engineering productivity as dominated by long‑term maintenance, not initial feature throughput: every extra month of code creation incurs years of support, bug fixes, upgrades, and rework. Applying this to AI coding agents, a tool that only speeds up code generation—without *reducing per‑unit maintenance cost by at least the same factor*—actually makes you worse off long term, even if you later stop using it. HN commenters report mixed realities: AI can greatly ease legacy work, but also encourages low‑understanding code sprawl and subtle, hard‑to-review bugs.
 
----
+James Shore argues coding-agent productivity is illusory unless maintenance cost per generated unit falls inversely with output: doubling code production requires halving per-unit upkeep merely to preserve the total load. His illustrative model says doubling both output and upkeep quadruples new maintenance, erasing AI gains within five months; even unchanged per-unit upkeep eventually becomes net negative. Commenters accepted maintainability as the key long-term constraint but disputed the outcome, citing sharply different team practices and codebase contexts.
 
 ### Comment pulse
-- AI can significantly ease legacy maintenance → faster upgrades, deletions, diagnostics, tests across many services. — counterpoint: indiscriminate AI use also correlates with more outages and unread, poorly understood code.  
-- Maintainability isn’t “non‑functional” → it preserves future feature capacity; renaming it as quality/operational characteristics helps prevent it being deprioritized.  
-- AI shifts maintenance work → less manual coding, more complex review/debug of fluent but subtly wrong AI code; net benefit depends on team rigor.
 
----
+- Practitioners modernizing decades-old systems said agents reduce costs by removing dependencies, mapping cross-service calls, automating tests, and analyzing production telemetry.
+- Others reported fluent, subtly wrong code and worsening outages — counterpoint: stronger maintenance tooling may still offset risk when output volume remains controlled.
+- Several rejected “non-functional” and “technical debt” labels because they invite deferral; quality directly determines future feature capacity and operating economics.
 
 ### LLM perspective
-- View: Track maintenance explicitly (bug rate, MTTR, time-on-refactors) before and after AI; otherwise “productivity” numbers are misleading.  
-- Impact: Engineering leads and vendors should design agents that prioritize refactoring, deletion, and simplification over raw LOC output.  
-- Watch next: Longitudinal studies of AI-heavy codebases and tools focused on safe code removal, dependency reduction, and automated regression testing.
+
+- View: Output speed is a weak KPI; teams need per-change lifecycle cost and reliability measures.
+- Impact: Review capacity, architecture discipline, and deletion rates determine whether agents compound delivery or liabilities.
+- Watch next: Cohort data on defects, incidents, review time, code removed, dependency upgrades, support load, and long-term ownership.

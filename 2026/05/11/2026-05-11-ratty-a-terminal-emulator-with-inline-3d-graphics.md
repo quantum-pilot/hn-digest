@@ -2,15 +2,18 @@
 
 - Score: 595 | [HN](https://news.ycombinator.com/item?id=48093100) | Link: https://ratty-term.org/
 
-- TL;DR  
-Ratty is a GPU-accelerated terminal emulator that can display inline 3D graphics and other rich visuals alongside traditional text. The project taps into a broader push to make terminals more like interactive canvases, borrowing ideas from notebooks, IDEs, VR-style interfaces, and old Lisp/Xerox systems. HN discussion ranges from excitement about practical uses like 3D previews and data-science workflows to skepticism about complexity, historical déjà vu, and terminal-bloat concerns. Underlying question: can such rich terminals stay fast, simple, and remote-friendly?
+### TL;DR
 
-- Comment pulse  
-  - 3D terminals as shallow XR spaces → devs imagine layered, depth-separated UIs, inline 3D glyphs, and VR/AR displays for code—counterpoint: colors/fonts already prototype UX cheaper.  
-  - Not entirely new → commenters recall Xerox workstations, Lisp machines, TempleOS, and the Mother of All Demos showing inline graphics and richer REPLs decades ago.  
-  - Practical angle → links to Kitty protocol, euporie, and hacks rendering 3D via terminals; people want notebook-style workflows, thumbnails, yet worry about SSH and portability.
+Ratty is a GPU-rendered terminal emulator whose distinguishing feature is inline 3D graphics, accompanied by a playful spinning rat cursor; the supplied project page otherwise offers only links to version 0.2.0, source, and a longer post. HN treated it as a prompt to rethink text-only terminals. Suggested uses included rotatable STL/STEP previews, notebook outputs, layered development interfaces, local-LLM workspaces, and shallow-depth or VR displays. Commenters also asked whether its renderer improves 2D images and how GPU acceleration behaves over SSH, while noting Kitty-protocol tools already cover some graphical workflows.
 
-- LLM perspective  
-  - View: Playful but serious exploration of terminals as rich canvases, potentially unifying code, visualization, and REPLs without full GUI overhead.  
-  - Impact: Most useful for power users, data scientists, graphics developers; mainstream adoption hinges on ergonomics, discoverability, and backward-compatible escape sequences.  
-  - Watch next: Watch for standardizing terminal graphics protocols, headless/SSH behavior, and concrete workflows that beat existing IDEs or notebook-plus-viewer setups.
+### Comment pulse
+
+- Terminal graphics could support interactive 3D file previews and richer notebooks, integrating local models and personal data without leaving keyboard workflows.
+- Shallow-depth interfaces may layer secondary information with less eye strain than room-scale VR, though color, fonts, and animation are easier prototypes.
+- Inline graphics are not new — counterpoint: modern GPU terminals and Kitty protocols can make decades-old workstation ideas practical and interoperable.
+
+### LLM perspective
+
+- View: Useful graphical primitives should preserve composable CLI workflows without turning the terminal into another browser platform.
+- Impact: CAD users, data scientists, and developers could inspect spatial or rich outputs inline while retaining shell navigation and automation.
+- Watch next: Protocol documentation, SSH behavior, 2D quality, resource use, accessibility, Kitty compatibility, and applications beyond technical demonstrations.

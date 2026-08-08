@@ -2,15 +2,18 @@
 
 - Score: 168 | [HN](https://news.ycombinator.com/item?id=48070571) | Link: https://www.wired.com/story/mexican-science-transforms-scorpion-venom-and-habanero-chile-into-antibiotics-against-resistant-bacteria/
 
-- TL;DR  
-Mexican researchers report three early-stage antibiotic candidates derived from unusual sources: scorpion venom and habanero peppers. Benzoquinone molecules from Diplocentrus melici venom kill Mycobacterium tuberculosis, Staphylococcus aureus, and highly resistant Acinetobacter baumannii in lab and mouse models; a pepper defensin, produced industrially via engineered bacteria, targets Pseudomonas aeruginosa and some fungi. All are patented but face challenges of stability, toxicity testing, and costly clinical trials. Hacker News discussion is intrigued yet skeptical, recalling past “breakthroughs” that never reached patients and proposing bacteriophages as a longer-term strategy.
+### TL;DR
 
-- Comment pulse  
-  - New antibiotic hype rarely reaches patients → Past candidates like Epimerox disappeared; commenters blame pharma economics and secrecy. — counterpoint: others suggest hidden safety failures.  
-  - Engineered bacteriophages seen as long-term fix → They can precisely target pathogens and spare microbiomes, but bacteria also evolve phage resistance.  
-  - Pop-science framing irks readers → Article misexplains benzoquinones and colors, sparking jokes and tangents about medical snake symbols and ancient venom therapies.
+UNAM teams produced three antimicrobial candidates from scorpion venom and habanero pepper. Two lab-synthesized venom benzoquinones had different targets: blue acted against TB and Acinetobacter baumannii and worked in a mouse TB model; red targeted Staphylococcus aureus. A pepper defensin, J1-1, was manufactured through engineered bacteria as XisHar J1-1 and inhibited laboratory Pseudomonas aeruginosa, with antifungal use possible. None is a proven human treatment; delivery, toxicity, resistant isolates, funding, and clinical trials remain unresolved. HN criticized contradictory chemistry wording and warned lab leads vanish pretrial; phages also evolve resistance.
 
-- LLM perspective  
-  - View: Natural venoms and plant peptides broaden antibiotic scaffolds beyond classic small molecules, especially against Mycobacterium and WHO-priority Gram-negatives.  
-  - Impact: If translation succeeds, hospitals gain options for multidrug-resistant TB, Staphylococcus, Acinetobacter, and Pseudomonas, particularly in low- and middle-income countries.  
-  - Watch next: Key questions: toxicity, delivery stability, resistance evolution, and whether public–private funding can push these beyond patents into rigorous clinical trials.
+### Comment pulse
+
+- The article’s “colorless” benzoquinones later become blue and red, and its heterocycle definition appears dubious, undermining confidence in otherwise interesting work.
+- Mouse efficacy and laboratory-strain inhibition are early signals — counterpoint: nanoparticle delivery, resistant clinical isolates, safety, manufacturing, and human trials remain.
+- Engineered phages may offer narrower microbiome impact, but bacteria evolve phage resistance too, so neither approach ends continuous antimicrobial development.
+
+### LLM perspective
+
+- View: Natural toxins provide molecular starting points, but synthesis, stabilization, selectivity, and reproducible clinical activity determine whether discovery becomes medicine.
+- Impact: Successful candidates could diversify treatment against TB and hospital pathogens, particularly where antibiotic pipelines and resistance control are failing.
+- Watch next: Resistant-isolate panels, pharmacokinetics, toxicity, nanoparticle performance, resistance emergence, independent replication, pharmaceutical partnership, and progression into human trials.
