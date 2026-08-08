@@ -2,19 +2,18 @@
 
 - Score: 133 | [HN](https://news.ycombinator.com/item?id=47948526) | Link: https://github.com/EnterpriseDB/barman
 
-## TL;DR
-Barman is an open‑source, Python-based backup and disaster recovery manager for PostgreSQL, supporting remote backups of multiple servers and maintained by EnterpriseDB. It integrates tightly with PostgreSQL’s native backup tools and is widely used with CloudNativePG in Kubernetes to stream WAL and store backups in object storage (e.g., S3). Discussion centers on tuning WAL limits in K8s, Barman’s now‑mature S3/cloud support, trade‑offs versus pgBackRest, and alternative tools emerging after pgBackRest’s temporary archival.
+### TL;DR
 
----
+Barman is an EnterpriseDB-maintained, Python-based disaster-recovery tool for PostgreSQL. It centralizes remote backups for multiple servers, aiming to reduce operational risk and assist DBAs during recovery in business-critical environments. The GPLv3 project moved from SourceForge to GitHub beginning with version 2.13; the repository shows version 3.18.0 released in March 2026. Its source tree includes the application, documentation, tests, and auxiliary scripts, while separate project resources provide installation guidance, downloads, community help, and professional support.
 
-## Comment pulse
-- Barman via CloudNativePG in Kubernetes is reliable → but WAL volume limits must be tuned and monitored or WAL growth will stop the database for safety.
-- Earlier Barman felt disk-only, pushing users to pgBackRest for S3 → modern Barman Cloud and CNPG plugins add solid object-store support — counterpoint: non-cloud backups need separate setups.
-- Barman uses PostgreSQL’s own backup utilities → reduces maintenance across PG versions but sacrifices some custom optimizations; pgxbackup and Databasus cover other niches in the ecosystem.
+### Comment pulse
 
----
+- CloudNativePG users called backup and restore solid but warned that poorly tuned WAL limits can fill volumes and halt database availability.
+- An S3-support concern was corrected by users pointing to Barman Cloud and its CloudNativePG object-storage plugin.
+- Commenters compared it with pgBackRest, praising native PostgreSQL utilities while noting fewer custom optimizations and some large-upload limitations.
 
-## LLM perspective
-- View: Design around native Postgres tooling is strategically wise; lowers coupling to internal formats and version churn.
-- Impact: CloudNativePG users, managed Postgres vendors, and self-hosters gain a de facto standard backup stack post-pgBackRest uncertainty.
-- Watch next: Track performance improvements, S3 storage-class controls, and whether pgxbackup or successors maintain competitive features and community governance.
+### LLM perspective
+
+- Recovery drills matter more than successful backup-job status alone.
+- WAL growth needs monitoring, thresholds, and capacity planning alongside retention policy.
+- Tool selection should weigh recovery objectives, storage targets, scale, and operator complexity.

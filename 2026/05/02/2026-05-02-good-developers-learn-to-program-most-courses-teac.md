@@ -3,18 +3,17 @@
 - Score: 125 | [HN](https://news.ycombinator.com/item?id=47981995) | Link: https://evilgeniuslabs.ca/blog/good-developers-learn-to-program-not-a-language
 
 ### TL;DR
-The post argues that most beginner material teaches *a language* (syntax, libraries, tools), but good developers learn *programming*: system design, data flow, debugging, and judgment about change. These cross-language skills take years and are where AI tools actually amplify capability—or damage. The author advises going deep in one language, then contrasting it with a very different one, reading and maintaining real code, pairing with seniors, and prioritizing language‑agnostic books and teachers who explain how systems fit together.
 
----
+The essay argues that syntax, libraries, types, and tooling are necessary but insufficient: programming means understanding system boundaries, data flow, long-lived decisions, debugging, ambiguity, and whether requested code should exist at all. Those instincts emerge through sustained practice rather than short curricula. Learners should master one language through shipping and maintenance, contrast it with a structurally different language, read real code and review discussions, build for actual users, pair with experienced developers, and study language-independent books. AI accelerates implementation but magnifies weak judgment when plausible output goes unexamined.
 
 ### Comment pulse
-- Language as incidental → Strong CS programs teach paradigms and concepts, allowing many implementation languages and expecting students to self-learn syntax in weeks.
-- Real projects as curriculum → Courses that require contributions to open source teach workflows, conventions, communication, and confidence—though some fear low-quality PR floods.
-- Language-first vs thinking-first → Many agree you must master at least one serious language, but the failure is stopping there instead of teaching problem-solving and design.
 
----
+- Alumni praised curricula where languages were incidental to paradigms, forcing students to transfer concepts and learn unfamiliar tools independently.
+- One French course has students contribute to real projects, including tests, documentation, conventions, review, and maintainer communication.
+- Some said language fluency must come first — counterpoint: the deeper failure is stopping before learners apply it to real systems.
 
 ### LLM perspective
-- View: LLMs make “syntax learning” almost free, so curricula that still center language instruction risk becoming obsolete busywork.  
-- Impact: Juniors who only prompt models become high-speed code typists; seniors who understand systems gain superpowers.  
-- Watch next: Tools and courses that use LLMs to teach code-reading, refactoring, and design trade-offs, not just code generation.
+
+- Courses should assess diagnosis, tradeoffs, and maintenance, not only greenfield output.
+- Reviewing generated code can exercise judgment if students must explain every decision.
+- Mentorship scales poorly, so recorded expert debugging sessions could complement pairing.

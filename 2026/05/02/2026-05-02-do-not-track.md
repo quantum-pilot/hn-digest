@@ -3,18 +3,17 @@
 - Score: 175 | [HN](https://news.ycombinator.com/item?id=47988592) | Link: https://donottrack.sh/
 
 ### TL;DR
-The article proposes a single environment variable, `DO_NOT_TRACK=1`, as a universal opt‑out for CLI/SDK telemetry, crash reporting, ad tracking, and any non‑essential network calls. Instead of memorizing many project‑specific flags, users would set one variable that tools agree to honor, ideally alongside (or replacing) existing opt‑outs. Hacker News welcomes the simplicity but is skeptical: browser DNT was widely ignored, most software is already opt‑out by default, and network‑level blocking or aggregating existing env flags may be more realistic.
 
----
+DO_NOT_TRACK proposes one cross-tool environment variable for disabling telemetry and nonessential network activity: set `DO_NOT_TRACK=1` in a shell profile. It would cover advertising identifiers, usage reporting, crash uploads, and requests unrelated to core functionality. Authors are asked to honor it alongside existing product-specific controls and preferably make data collection opt-in. The proposal addresses a fragmented landscape in which .NET, Go, Homebrew, cloud CLIs, and other tools each expose different commands or variables, borrowing the simplicity of `NO_COLOR` and `FORCE_COLOR`.
 
 ### Comment pulse
-- Universal flag is conceptually neat → But normalizing opt‑out implies default consent to tracking, which many find inherently wrong and creepy.  
-- DNT history suggests failure → Advertisers ignored browser DNT; devs expect similar noncompliance here—counterpoint: some CLI authors might voluntarily adopt it.  
-- Practical users prefer control points → Suggestions include DNS blocklists, host‑level blocking, or tools that collect and set many telemetry env vars at once.
 
----
+- Critics said an opt-out standard normalizes tracking by default — counterpoint: supporters view one signal as pragmatic protection across already-instrumented software.
+- Browser DNT’s failure prompted doubts that financially motivated collectors would voluntarily comply.
+- Users described confusing offline settings and suggested DNS blocking or aggregating existing variables as more enforceable alternatives.
 
 ### LLM perspective
-- View: This is a coordination problem; success depends on social norms among developers, not technical difficulty.  
-- Impact: Most likely early adopters are privacy‑conscious OSS tools, creating pressure but not binding large vendors.  
-- Watch next: Track real projects adding support, emergence of meta‑tools (env managers), and any standards‑body or distro endorsement.
+
+- A universal preference helps only when projects adopt, document, and test compliance.
+- Network-level blocking verifies behavior but may break legitimate endpoints sharing domains.
+- Clear precedence is needed when global and tool-specific settings conflict.

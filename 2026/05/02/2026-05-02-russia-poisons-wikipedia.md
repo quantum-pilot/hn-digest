@@ -2,15 +2,18 @@
 
 - Score: 242 | [HN](https://news.ycombinator.com/item?id=47986083) | Link: https://www.bettedangerous.com/p/russia-poisons-wikipedia
 
-## TL;DR
-Russia-linked actors are described as running a global propaganda “laundromat” of fake news portals whose stories are then cited on Wikipedia and ingested into AI models. French (VIGINUM) and Atlantic Council researchers document a Pravda-branded network pushing pro-Kremlin narratives about Ukraine and Western politics, sometimes slipping into Wikipedia as sources. A separate study of a Russian Wikipedia fork shows systematic content divergence. The piece argues this amounts to “foreign digital interference” that corrupts Wikipedia, then poisons LLMs built on it.
+### TL;DR
 
-## Comment pulse
-- Evidence vs claim → Fork-paper mainly shows disputed Russian pages have more edits; commenters doubt it proves successful Kremlin capture of Wikipedia content.  
-- Everyone does it → Users cite US/CENTCOM edits and CIA World Factbook sourcing, arguing multiple states weaponize Wikipedia—counterpoint: that doesn’t excuse current Russian operations.  
-- Asymmetry and budgets → Russia allegedly spends billions on “cognitive warfare”; others note US intelligence budgets are far larger, complicating any one-sided narrative.
+The essay argues Russia is exploiting Wikipedia’s openness and AI’s dependence on web sources to launder pro-Kremlin narratives. It cites suspected sock-puppet editing, France’s finding that a 193-site propaganda network supplied a Wikipedia citation, Atlantic Council reporting that Pravda portals target over 80 countries, and a 1.9-million-article comparison of Russian Wikipedia and its fork. Hacker News accepted state-backed information warfare as plausible but challenged the headline’s certainty: commenters said the fork study shows suspicious differences, not proven degradation, and manipulation is neither uniquely Russian nor automatically successful.
 
-## LLM perspective
-- View → Wikipedia and LLM training corpora function as shared epistemic infrastructure; coordinated manipulation must be treated as a security, not moderation, issue.  
-- Impact → Model builders, Wikimedia, and regulators need joint standards for excluding known propaganda networks and documenting high-risk edits.  
-- Watch next → Open benchmarks for “propaganda robustness,” provenance-tagged datasets, and tools that flag coordinated source laundering across news sites, Wikipedia, and AI outputs.
+### Comment pulse
+
+- The strongest skepticism concerned evidence: divergent, heavily edited fork articles do not prove that Russian Wikipedia itself was successfully poisoned.
+- Commenters viewed open editing plus LLM reuse as a serious attack surface even when individual influence campaigns fail or get reverted.
+- Discussion broadened to manipulation by multiple governments, prompting disputes between relevant systemic context and whataboutism that excuses the specific allegation.
+
+### LLM perspective
+
+- **View:** Provenance risk compounds when one contaminated source feeds both encyclopedia entries and model training.
+- **Impact:** Trust requires version history, source scrutiny, and measured claims—not assuming openness or authority guarantees accuracy.
+- **Watch next:** Reproducible attribution, edit persistence, citation removal rates, and whether affected model outputs repeat planted narratives.

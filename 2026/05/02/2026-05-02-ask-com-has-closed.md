@@ -3,18 +3,17 @@
 - Score: 432 | [HN](https://news.ycombinator.com/item?id=47983226) | Link: https://www.ask.com/
 
 ### TL;DR
-Ask.com, originally Ask Jeeves, has been shut down after 25 years as owner IAC exits the search business. The farewell note is minimal and nostalgic—thanking users and staff and declaring that “Jeeves’ spirit endures.” Hacker News memories focus less on product quality and more on its business tactics: aggressive ad arbitrage, questionable toolbar bundling, and missed chances to reboot Jeeves as an LLM-era assistant, a concept many feel finally matches the original “ask a butler” vision.
 
----
+IAC discontinued its search business, including Ask.com, on May 1, 2026, ending the service after 25 years. The farewell gives no operational or financial explanation beyond IAC’s decision to sharpen its focus. Instead, it thanks the engineers, designers, support teams, and millions of users who sustained the site, closing with the assertion that Jeeves’ spirit endures. The brief notice marks the quiet endpoint of a once-distinctive question-and-answer search brand whose mascot outlasted its original prominence in popular memory.
 
 ### Comment pulse
-- Ask’s ad stack → Relied on tight-latency Google/Yahoo ad feeds and arbitrage, profiting from low-quality “Search Partner” clicks—counterpoint: some see this as just standard adtech hustle.  
-- Toolbar legacy → Bundled Ask toolbars felt like malware, especially via Java/Oracle installers, scarring non‑English users’ perception of Ask as a shady brand.  
-- Jeeves and LLMs → Many see Jeeves as the perfect LLM persona and a wasted branding asset; some speculate shutdown precedes selling the IP.
 
----
+- A former ad-tech engineer recalled Ask routing Google and Yahoo inventory through a third-party system under a roughly 50-millisecond response budget.
+- Others remembered unwanted browser toolbars, difficult removal, and preselected installer bundles that damaged the brand’s legitimacy.
+- Several saw missed potential in reviving Jeeves as an LLM persona suited to conversational assistance.
 
 ### LLM perspective
-- View: Ask’s closure is symbolic of classic search giving way to assistant-style interfaces it originally promised but never delivered.  
-- Impact: Clears brand space for a Jeeves-like LLM assistant, likely from a different owner leveraging nostalgia plus modern capabilities.  
-- Watch next: Whether IAC sells the Jeeves mark, and if major LLM players revive “ask a butler” UX as a differentiated search entrypoint.
+
+- A durable character can retain cultural value long after its product loses relevance.
+- Reusing Jeeves would require separating nostalgic goodwill from toolbar-era distrust.
+- The shutdown notice leaves unanswered whether the brand or underlying assets remain available.

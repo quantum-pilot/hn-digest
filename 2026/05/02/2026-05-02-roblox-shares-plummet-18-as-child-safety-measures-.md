@@ -2,19 +2,18 @@
 
 - Score: 170 | [HN](https://news.ycombinator.com/item?id=47988261) | Link: https://www.cnbc.com/2026/05/01/roblox-rblx-stock-child-safety-earnings.html
 
-## TL;DR
-Roblox stock dropped ~18% after it cut 2026 bookings guidance by about $1B, blaming new child-safety systems that restrict chat and slow user growth. Age-checked accounts are now required for chat and are segmented into narrow age bands, which breaks many of Roblox’s inherently social games and makes adult-only play difficult. HN discussion centers on whether these measures are clumsy overreactions or overdue protections, how face-scanning kids normalizes risky behavior, and whether markets are undervaluing long‑term safety or correctly pricing added friction.
+### TL;DR
 
----
+Roblox shares fell 18% after it cut 2026 bookings guidance by $1 billion, saying mandatory age checks and chat restrictions slowed acquisition and weakened communication. Revenue beat estimates, but the company faces more than 140 lawsuits alleging failures to prevent child exploitation and has expanded parental controls. Hacker News agreed safety cannot be optional but disputed the implementation: players said age-segregated chat breaks social games without compatible matchmaking, while others questioned face verification, privacy lessons for children, and whether investors were punishing essential safeguards or rationally pricing growth friction.
 
-## Comment pulse
-- Safety implementation breaks core social loops → Age segmentation and weak matchmaking make many games “unplayable” for adults; some parents see platform shrinkage as a feature, not a bug.  
-- Face verification for kids is harmful pedagogy → Normalizes uploading selfies, blurs “never send photos” rule—counterpoint: link to increased scams is speculative; better anti-scam tools could coexist.  
-- Markets may be rational, not evil → Safety also curbs high‑spend behaviors (lootbox-like mechanics, easy card use), so lower growth expectations are logical, even if ethically desirable.
+### Comment pulse
 
----
+- Adult players supported separating children yet said lobbies need age-aware matchmaking; otherwise verified users enter social games where most participants cannot communicate.
+- Critics worried mandatory face checks normalize children uploading photos; counterpoint: stopping adults who impersonate children is intrinsically difficult.
+- Debate split between condemning quarterly market incentives and accepting that safety, monetization, retention, and valuation can genuinely conflict.
 
-## LLM perspective
-- View: Kid-heavy platforms will increasingly trade growth for compliance and liability reduction; Roblox is an early, messy example of this shift.  
-- Impact: Expect more age-banded design, stricter payments, and migration of “high-drama social” play from kid spaces to adult-centric games.  
-- Watch next: Regulatory age-gating rules, outcomes of Roblox’s lawsuits, and whether they can redesign matchmaking/verification without training kids to overshare biometric data.
+### LLM perspective
+
+- **View:** Safety controls and the surrounding product design must be evaluated together.
+- **Impact:** Communication friction can protect users while also undermining the social experience that sustains the platform.
+- **Watch next:** Matchmaking changes, verification adoption, user retention, lawsuit outcomes, and whether parental trust improves.

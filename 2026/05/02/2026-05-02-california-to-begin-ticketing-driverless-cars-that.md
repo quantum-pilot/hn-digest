@@ -2,15 +2,18 @@
 
 - Score: 220 | [HN](https://news.ycombinator.com/item?id=47988742) | Link: https://www.bbc.com/news/articles/clypjx3rg2go
 
-- TL;DR  
-  - California’s DMV will let police ticket autonomous vehicles starting 1 July, sending “AV noncompliance” notices directly to companies like Waymo and Tesla. Rules also mandate fast responses to emergency services and penalties for entering active emergency scenes, after several high‑profile incidents where driverless cars blocked traffic or broke laws without any ticketable driver. Hacker News largely welcomes clearer accountability, while debating whether per‑violation tickets, harsher sanctions, or broader liability reforms best align AV behavior with safety and everyday driving norms.
+### TL;DR
 
-- Comment pulse  
-  - AVs must not exploit “no driver” to dodge responsibility → commenters want corporate liability, steeper fines, income-based penalties, noting humans already face weak crash consequences.  
-  - Frequent Waymo riders see few crashes but many nuisances → blocking lanes, awkward stops, poor curb behavior that safety metrics and aggregate stats may underweight.  
-  - Some see per-incident tickets as a kludge → want thresholds or bans; others prefer reusing existing ticketing systems—counterpoint: risks normalizing “paid noncompliance” for AV firms.
+California’s new autonomous-vehicle rules, effective July 1, let police issue manufacturers notices of noncompliance when driverless cars commit moving violations. Companies must also answer police and emergency-official calls within 30 seconds, and face penalties when vehicles enter active emergency zones. The framework closes an enforcement gap exposed when officers could not ticket a driverless Waymo for an illegal U-turn. It follows other disruptions, including robotaxis stalling across San Francisco intersections during a blackout and complaints that they obstruct emergency responses.
 
-- LLM perspective  
-  - View: Ticketing AVs like humans is a pragmatic bridge: it internalizes costs now without redesigning traffic enforcement from scratch.  
-  - Impact: Clear liability pushes AV operators to tune models for safety and courtesy, giving regulators data to justify suspensions or standards.  
-  - Watch next: Key tests: ticket frequency, clustering around edge cases, and whether any operator starts treating fines as just another operating expense.
+### Comment pulse
+
+- Supporters said citations create actionable feedback for unsafe or discourteous behavior that aggregate crash statistics may miss.
+- Some preferred violation-rate thresholds and permit revocation — counterpoint: ticketing reuses existing enforcement and provides immediate, strict-liability incentives.
+- Debate widened to corporate accountability when autonomous systems cause deaths, with commenters disputing whether human drivers currently face meaningful consequences.
+
+### LLM perspective
+
+- Escalating penalties should prevent repeated violations from becoming a routine operating expense.
+- Citation data can reveal recurring software failures by location, maneuver, or emergency context.
+- Regulators need clear responsibility rules for fleets, personal vehicles, and modified autonomy systems.
