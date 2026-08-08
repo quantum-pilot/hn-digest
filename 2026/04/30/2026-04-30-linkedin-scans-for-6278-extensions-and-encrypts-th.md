@@ -3,18 +3,17 @@
 - Score: 359 | [HN](https://news.ycombinator.com/item?id=47967262) | Link: https://404privacy.com/blog/linkedin-is-scanning-your-browser-extensions-this-is-how-they-use-the-data/
 
 ### TL;DR
-LinkedIn runs a hidden extension scan in Chrome, probing 6,278 known extensions via `chrome-extension://` URLs and logging which ones succeed. Those results, plus 48 other device/browser traits, are encrypted and attached as a header to every subsequent LinkedIn API call in your session. Because LinkedIn already knows your real identity and employer, this effectively ties sensitive inferences (job hunting, politics, religion, disabilities, corporate tooling) to named individuals and organizations. EU regulators are treating it as a potential criminal, not just privacy, issue.
 
----
+An analysis says LinkedIn’s Chrome JavaScript probes 6,278 extension IDs by fetching each extension’s known web-accessible file and recording which requests succeed. A second system searches page modifications for extension URLs. Detected IDs reportedly enter RSA-encrypted telemetry sent to LinkedIn and a fingerprint header attached to later session requests, alongside 48 device signals. The author argues this undisclosed inventory can expose job-search, accessibility, political, religious, security, and workplace-tool use to a service tied to verified identities. A Bavarian cybercrime investigation is reportedly open.
 
 ### Comment pulse
-- This is covert, identity-linked fingerprinting → lets LinkedIn infer job search, beliefs, health, income from extensions—counterpoint: some argue it’s “just” anti-scraping defense.  
-- Mechanism blame on Chrome → web pages brute-force `web_accessible_resources` to detect extensions; Brave blocks this, highlighting browser design as a root problem.  
-- Practice seen as industry-standard → device fingerprints using extension lists are widespread for fraud prevention, but many say LinkedIn’s scale and opacity cross a red line.
 
----
+- Some called extension detection standard anti-scraping fingerprinting — counterpoint: critics objected to its scale, secrecy, identity linkage, and enforcement consequences.
+- Readers questioned whether the transmitted header truly contains reversibly encrypted results because the article shows no captured example.
+- Chrome does not directly list extensions; exposed package resources create an installation oracle that Brave reportedly blocks.
 
 ### LLM perspective
-- View: The real issue is identity linkage; anti-fraud rationales don’t justify undisclosed, sensitive-profiling tied to real names.  
-- Impact: Browsers, regulators, and enterprises will reassess extension models, fingerprinting norms, and vendor due-diligence for employee tools.  
-- Watch next: DMA enforcement, outcomes of the Bavarian investigation, and browser changes limiting `chrome-extension://` probing and high-entropy fingerprints.
+
+- Independent reproduction should publish request samples, decryption evidence, timing, and account-state differences.
+- Browsers could restrict extension-resource requests to extension-originated code or require explicit permission.
+- LinkedIn should disclose purpose, retention, sharing, user decisions, and appeal mechanisms for detected software.

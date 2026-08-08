@@ -2,15 +2,18 @@
 
 - Score: 327 | [HN](https://news.ycombinator.com/item?id=47957101) | Link: https://www.jcvi.org/media-center/j-craig-venter-genomics-pioneer-and-founder-jcvi-and-diploid-genomics-inc-dies-79
 
-- TL;DR  
-  J. Craig Venter, dead at 79, was a central, controversial architect of modern genomics and synthetic biology. The obituary highlights his role in ESTs, the first human-genome drafts, synthetic minimal cells, and global ocean metagenomics, plus his habit of building aggressive, pivot-prone companies. HN commenters add vivid personal stories—from Vietnam trauma to ocean racing—and debate his tactics in the Human Genome race and life-extension ventures, while largely crediting him with accelerating biology’s shift into a data-driven engineering discipline.
+### TL;DR
 
-- Comment pulse  
-  - Larger-than-life risk-taker mixing war-medic past, ocean expeditions, hard-driving startups → inspired many careers. — counterpoint: Others saw opportunism with public genome data/patents.  
-  - His private human-genome race forced public project to accelerate computational assembly → many credit competition for faster, cheaper genomics.  
-  - Work on Human Longevity and $25k concierge medicine felt ironic given cancer death → sparks reflection on limits of current life-extension tech.
+Genomics pioneer J. Craig Venter died in San Diego at 79 after unexpected side effects from treatment for recently diagnosed cancer. He accelerated gene discovery with expressed sequence tags, led work on the first human-genome drafts and a high-quality diploid genome, and helped create the first self-replicating bacterial cell controlled by a chemically synthesized genome. His Sorcerer II expedition used metagenomics to uncover millions of marine microbial genes. Venter also founded JCVI and co-founded Synthetic Genomics, Human Longevity, and Diploid Genomics, combining ambitious science with institution-building.
 
-- LLM perspective  
-  - View: Venter exemplifies how individual ambition plus new instrumentation can compress scientific timelines by decades, despite social friction.  
-  - Impact: Genomics, metagenomics, and synthetic biology now underpin drug discovery, agriculture, and climate research; his institutional legacy keeps those pipelines running.  
-  - Watch next: Expect renewed investment in whole-genome cohorts, minimal cells, and engineered organs, plus debate over commercialization of foundational biological data.
+### Comment pulse
+
+- Personal acquaintances remembered an adventurous, polarizing figure whose sailing, Vietnam service, and scientific ambition made him unusually vivid.
+- Admirers credited his competitive private effort with accelerating genome assembly — counterpoint: critics disputed how much public data and credit it appropriated.
+- His companies’ pivots—from biofuels toward engineered transplant organs and longevity services—illustrated both reach and commercial volatility.
+
+### LLM perspective
+
+- His career helped shift biology toward scalable computation, sequencing, and genome construction.
+- The public-private genome race remains a case study in incentives, access, patents, and attribution.
+- JCVI’s continuation will test whether founder-driven institutions can sustain bold programs after succession.

@@ -2,16 +2,18 @@
 
 - Score: 298 | [HN](https://news.ycombinator.com/item?id=47962548) | Link: https://www.construction-physics.com/p/how-an-oil-refinery-works
 
-## TL;DR
-- Crude oil is a tangled mix of thousands of hydrocarbons. Refineries first separate it by boiling point in massive atmospheric and vacuum distillation columns, then reshape the fractions with catalytic and thermal cracking, reforming, isomerization, and hydrotreating to maximize high‑value products like gasoline, diesel, jet fuel, petrochemical feedstocks, and lubricants.  
-- Using Chevron’s Richmond plant and India’s huge Jamnagar complex, the piece emphasizes that refineries are conceptually simple but operate at staggering, city‑scale throughput and complexity.
+### TL;DR
 
-## Comment pulse
-- Games match reality → Players of Factorio/GregTech and SimRefinery recognize the refinery flow; these games model multi‑step petrochemical chains surprisingly well.
-- Oil as material, not fuel → Engineers lament burning such a versatile feedstock instead of prioritizing plastics, chemicals, and long‑lived materials—counterpoint: current economics still favor combustion.
-- Primary energy critique → Readers note the article’s framing of oil’s energy share ignores waste heat and efficiency issues, raising the “primary energy fallacy.”
+Refineries turn crude oil’s thousands of hydrocarbons into usable products by first separating fractions according to boiling point. Atmospheric distillation handles most crude; vacuum distillation separates heavier material without temperatures that trigger unwanted cracking. Catalytic and thermal crackers convert low-value heavy molecules into lighter products, while reforming, isomerization, and hydrotreating adjust structure or remove impurities. Interconnected units route outputs into gasoline, diesel, jet fuel, lubricants, gases, coke, and feedstocks. The conceptual operations are often simple; enormous throughput, storage, and process integration create the complexity and cost.
 
-## LLM perspective
-- View: Treat refineries as modular graphs of unit operations; that mental model transfers well from games to real engineering.
-- Impact: As combustion declines, refineries will reorient toward petrochemicals, hydrogen integration, and heavier upgrading instead of pure fuel output.
-- Watch next: Track refinery reconfiguration projects, Nelson complexity shifts, and regional capacity changes as policies tighten and transport electrifies.
+### Comment pulse
+
+- A Jamnagar resident described the 1.4-million-barrel-per-day complex as an engineering wonder whose physical scale overwhelms diagrams.
+- Critics said primary-energy comparisons omit combustion waste heat and argued petroleum may be more valuable as material feedstock than fuel.
+- Players recognized refinery flow diagrams from Factorio and GregTech, where byproducts and linked processing chains teach similar systems thinking.
+
+### LLM perspective
+
+- Refinery value depends on product mix and conversion depth, not crude capacity alone.
+- Complexity enables heavy or sour feedstocks but adds capital, energy use, maintenance, and failure coupling.
+- Decarbonization analysis should separate transport fuels from hard-to-replace petrochemical inputs.

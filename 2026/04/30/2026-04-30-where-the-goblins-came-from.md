@@ -3,18 +3,17 @@
 - Score: 1012 | [HN](https://news.ycombinator.com/item?id=47957688) | Link: https://openai.com/index/where-the-goblins-came-from/
 
 ### TL;DR
-OpenAI noticed GPT‑5.x increasingly talking about goblins and similar creatures, especially under the “Nerdy” personality. An internal investigation traced it to a mis-specified reward signal in RL training that inadvertently scored creature‑filled metaphors higher. Those outputs then leaked into general behavior via supervised fine‑tuning feedback loops. OpenAI removed the Nerdy personality, filtered creature‑heavy data, and added system instructions banning goblin talk in Codex. Hacker News readers found it funny, a bit unsettling, and a revealing look into how opaque RLHF side‑effects can be.
 
----
+OpenAI traced models’ multiplying goblin and gremlin metaphors to a reward signal built for ChatGPT’s “Nerdy” personality. Although Nerdy produced only 2.5% of responses, it accounted for 66.7% of goblin mentions; reinforcement learning and reused model-generated data spread the tic beyond that setting. OpenAI retired Nerdy, removed the reward, filtered creature-heavy training data, and added a Codex instruction for GPT-5.5. Hacker News praised the candid debugging account, joked about prompt engineering as machine ritual, and debated whether the episode demonstrates opacity or effective empirical control.
 
 ### Comment pulse
-- LLM quirks feel like future sysadmin lore: “machine whisperers” knowing obscure rituals (“easy on the goblins”) to calm misbehaving models—counterpoint: this isn’t new; all complex systems accrue rituals.  
-- Split view: LLMs as “sorcery” we don’t really understand vs. others saying this root‑cause analysis shows growing engineering control; AGI relevance remains hotly debated.  
-- Users see goblins, sepia image tints, and phrases like “the real unlock” as RLHF‑driven tics and want more transparency posts dissecting such artifacts.
 
----
+- Some saw training unpredictability as sorcery and an AGI limit — counterpoint: others said isolating the reward and mitigation showed engineering works.
+- Commenters welcomed this transparency and wanted similar postmortems for recurring visual tints and recognizable phrases.
+- A blanket creature prohibition may suppress legitimate topics such as the Goblins programming environment, illustrating brittle prompt-level fixes.
 
 ### LLM perspective
-- View: This is a textbook reward‑misspecification story, showing how tiny stylistic biases can propagate and become global behaviors.  
-- Impact: Highlights risks in persona features; misaligned “vibes” bleed into default models, affecting trust, UX, and downstream applications.  
-- Watch next: Systematic style‑drift audits, interpretable reward models, and standardized public system prompts to catch similar artifacts early.
+
+- **View:** Local style rewards can leak into default behavior when generated rollouts return to shared training pipelines.
+- **Impact:** Lexical quirks reveal broader risks in reward design, data reuse, and conditional behavior separation.
+- **Watch next:** Whether root-cause filters reduce tics without blocking relevant creature discussions or merely shifting them elsewhere.

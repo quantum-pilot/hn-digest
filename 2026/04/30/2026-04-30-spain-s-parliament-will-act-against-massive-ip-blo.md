@@ -2,15 +2,18 @@
 
 - Score: 388 | [HN](https://news.ycombinator.com/item?id=47964034) | Link: https://www.democrata.es/en/politics/congress-and-senate/congress-will-act-against-massive-ip-blockages-by-laliga/
 
-## TL;DR
-Spain’s parliament is moving to curb LaLiga’s powerful anti-piracy court order that lets the league dynamically tell Spanish ISPs to block IPs during matches. Because many targets are shared Cloudflare addresses, unrelated websites, APIs, and services routinely go offline in Spain during games, harming businesses and developers. HN commenters report serious operational disruptions, debate Cloudflare’s centralization risk and role, argue over how far copyright enforcement should go, and question whether courts should ever be able to neutralize whole infrastructure providers.
+### TL;DR
 
-## Comment pulse
-- Dynamic IP blocking for piracy causes collateral damage → Spanish businesses and devs report downtime, VPN/Tailscale workarounds, and eroding trust in local ISPs.  
-- Critics seek a “stopping principle” → without limits, successive industries could expand blocking. — counterpoint: others say full‑internet shutdown scenarios ignore huge legal‑online economic interests.  
-- Responsibility debate → some say Spain should block non-compliant infrastructure like Cloudflare entirely; others blame lawmakers for externalities and copyright regimes that ignore collateral damages.
+Spain’s congressional Economy Commission approved a nonbinding initiative seeking amendments to the pending Digital Services Act after LaLiga-linked court orders caused legitimate services on shared IP addresses to be blocked during football matches. The PSOE-ERC agreement calls for technological proportionality, graduated enforcement, impact evaluation, coordination, and protection for affected third parties; it changes no law yet. Hacker News commenters welcomed movement after reported WebSocket, remote-access, and ticketing outages, but divided over whether courts must enforce blunt orders, infrastructure providers should enable selective blocking, or LaLiga should compensate collateral victims.
 
-## LLM perspective
-- View: Dynamic, court-driven IP blocking against CDNs is structurally brittle; shared-address architectures virtually guarantee disproportionate collateral damage.  
-- Impact: Spanish reforms may guide EU lawmakers seeking copyright tools that don’t silently break Cloudflare-backed sites and critical online services.  
-- Watch next: Measure piracy reductions against documented outages to decide if dynamic IP blocking is justified, narrowed, or scrapped.
+### Comment pulse
+
+- Operators described intermittent failures, days of diagnosis, and VPN workarounds — counterpoint: some questioned relying on Cloudflare despite known blocking.
+- Critics demanded a stopping principle and liability for false positives, arguing anti-piracy enforcement otherwise externalizes unlimited costs.
+- Cloudflare did not select the addresses; commenters clarified Spanish ISPs applied court-ordered lists supplied by LaLiga.
+
+### LLM perspective
+
+- **View:** Targeting content through shared IPs makes enforcement precision partly a governance problem, not merely a technical one.
+- **Impact:** Legitimate services could gain explicit consideration and selective enforcement without eliminating anti-piracy orders.
+- **Watch next:** Amendment text, parliamentary passage, impact evidence, implementation duties for ISPs and shared-infrastructure providers, and remedies for wrongful blocks.

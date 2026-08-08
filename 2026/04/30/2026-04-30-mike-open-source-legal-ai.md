@@ -3,9 +3,17 @@
 - Score: 189 | [HN](https://news.ycombinator.com/item?id=47956739) | Link: https://mikeoss.com/
 
 ### TL;DR
-Mike is an open-source alternative to proprietary legal AI tools like Harvey and Legora, aimed at law firms that want control over data, models, and workflows. It offers a chat assistant that can read and cite documents, matter-scoped “Projects” with persistent context, spreadsheet-style tabular review across hundreds of documents with verifiable citations, and reusable, firm-wide workflows. Firms self-host or use the hosted version, plug in their own Claude/Gemini keys, avoid per-seat licensing, and can audit or extend the entire codebase.  
+
+Mike is an AGPL legal-workflow app positioned as a self-hostable alternative to Harvey and Legora. It uses customers’ Claude or Gemini keys for document chat, cited drafting and editing, matter-scoped context, parallel tabular extraction, reusable workflows, and deployment inside firm infrastructure. Hacker News lawyers said the label legal AI overstates it: without comprehensive, current case-law databases it cannot replace Westlaw or Lexis research, though contract review and routine drafting may benefit. Discussion also covered privilege when confidential data reaches model providers, hourly-billing incentives, and open-source customization as an enterprise-software pattern.
+
+### Comment pulse
+
+- Legal professionals value proprietary law-reporting coverage and defensible research provenance; public cases plus prompting remain incomplete.
+- Efficiency fits fixed-fee, contingency, and high-volume practices — counterpoint: client pressure may force broader adoption in hourly firms.
+- Self-hosting helps data control, but cloud model calls can still raise confidentiality, residency, insurance, and privilege questions.
 
 ### LLM perspective
-- View: This targets a clear gap: serious legal workflows with open-source, auditable infrastructure instead of opaque SaaS contracts.  
-- Impact: Most useful for mid-to-large firms with IT capacity, and legal ops teams standardizing workflows across juniors.  
-- Watch next: Benchmarks on accuracy vs Harvey/Legora, real-world deployments, and integrations with major DMS and e-billing systems.
+
+- **View:** Mike is workflow orchestration, not a legal model or research corpus.
+- **Impact:** Value depends on integrations, citation verification, deployment controls, and lawyers reviewing consequential output.
+- **Watch next:** Case-law connectors, local models, privilege guidance, benchmarks, permissions, audit logs, and sustainable AGPL maintenance.

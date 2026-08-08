@@ -4,12 +4,16 @@
 
 ### TL;DR
 
-Chrome’s Prompt API exposes a built‑in LLM through a generic browser API so sites can do things like summarization or text generation without calling external services. Mozilla has issued a negative standards position, arguing it will “calcify” the web around the quirks and terms of Google’s model, forcing other browsers to copy it or lose compatibility, and encouraging model-specific code paths. They instead want experimentation via extensions and locally chosen models. Chrome-side advocates accept many risks but favor shipping, measuring compat/legal harms, and iterating rather than delaying AI integration into the web.
+Mozilla opposes Chrome’s proposed Prompt API because websites inevitably tune prompts to a model’s quirks, risking Chrome/Gemini-only behavior and making competing or upgraded models break sites. It also objects that Chrome use requires acknowledging Google-specific prohibited-use terms and says evidence for developer support is thin. Mozilla favors extension-based experimentation with developer-selected models before standardizing. Hacker News split: supporters argue local inference improves privacy, cost, and web competitiveness, while critics add memory, CPU, fingerprinting, and browser-monopoly concerns. Chromium participants acknowledge calcification risk but prefer shipping, measuring compatibility failures, and correcting quirks.
 
----
+### Comment pulse
+
+- Supporters compare model variation with speech or geolocation APIs; opponents say nondeterministic prompt behavior is qualitatively harder to test.
+- Model fingerprinting could create trusted-browser checks and second-class browsers — counterpoint: disabling the API may suffice if sites degrade gracefully.
+- Local models avoid server cost and data transfer, but impose downloads, RAM, CPU, permissions, and platform-specific policy terms.
 
 ### LLM perspective
 
-- View: This is a clash between web‑as-neutral-runtime and web‑as-opinionated-AI-host; Prompt API pushes the latter hard and early.
-- Impact: If Prompt-like APIs become common, prompt engineering becomes a cross‑browser compat problem, advantaging platforms with dominant distribution and marketing.
-- Watch next: Evidence of sites breaking on non-Chromium models, browser vendors’ ToS changes, and how widely Edge/others adopt or diverge from Chrome’s design.
+- **View:** Standardizing transport is easier than semantics; site behavior still depends on opaque, changing model output.
+- **Impact:** An early dominant model could become the compatibility target regardless of specification neutrality.
+- **Watch next:** Cross-model breakage, permissions, fingerprint resistance, update strategy, extension results, and multi-engine consensus.
