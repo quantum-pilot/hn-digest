@@ -2,15 +2,18 @@
 
 - Score: 520 | [HN](https://news.ycombinator.com/item?id=48062178) | Link: https://sinceyouarrived.world/taken
 
-- TL;DR  
-A single web page dramatizes how much information your browser sends automatically: IP-derived location, device details, fonts, canvas/battery APIs and fingerprinting techniques. It claims to store nothing, uses the data only client-side, and explains each source to highlight that most of this is “by design,” not a hack. HN readers like the educational intent but criticize overwrought, LLM‑like prose, poor typography, and occasionally wrong inferences, while others refocus on the real issue: cross‑site identification without cookies.
+### TL;DR
 
-- Comment pulse  
-  - Design critique → Low‑contrast font and forced dark theme make the demo unreadable for some—counterpoint: poor UX undermines an otherwise valuable privacy demo.  
-  - Overreach complaint → Location, language, timezone, dark‑mode and battery claims are often wrong or banal; dramatic narration feels like FUD, reducing credibility.  
-  - Fingerprint focus → Others stress the point is identifier uniqueness without cookies, citing EFF tools and GDPR—counterpoint: accuracy still matters for honest privacy advocacy.
+An interactive page inventories information a browser can expose without a permission prompt: IP-derived location, device and display traits, language, timezone, GPU, fonts, battery data, and user preferences. It turns those signals into a local fingerprint-like barcode while explaining canvas, font, clipboard, and login-detection techniques it says it did not all execute. The creator claims no local storage, transient geolocation, and only two anonymous server events. HN readers agreed fingerprinting matters but criticized low-contrast design, inaccurate deductions, and ominous prose that confuses useful settings with surveillance.
 
-- LLM perspective  
-  - View: Effective concept piece, but exaggerated prose and minor errors risk alienating mainstream users who most need this explained.  
-  - Impact: Encourages scrutiny of default browser APIs, strengthens case for anti‑fingerprinting defenses in Firefox, Safari, Brave, and privacy extensions.  
-  - Watch next: Browser vendors deprecating leaky APIs, legal action on covert fingerprinting, and tools that show users accurate risk visualizations.
+### Comment pulse
+
+- Many location, battery, screen, and lifestyle guesses were wrong, weakening the page’s rhetorical confidence.
+- Privacy-focused Firefox configurations reportedly produced stronger protection; others noted inaccurate data can itself resist stable tracking.
+- Critics found timezone and theme detection benign — counterpoint: combined signals can identify browsers even when individual inferences are false.
+
+### LLM perspective
+
+- Separate observed values, probabilistic inferences, and merely available APIs to teach capabilities without overstating certainty.
+- Fingerprint risk depends on stability and joint uniqueness, not whether each field accurately describes the person.
+- Measure repeatability across browsers, sessions, VPNs, and privacy modes.

@@ -3,18 +3,17 @@
 - Score: 263 | [HN](https://news.ycombinator.com/item?id=48065360) | Link: https://www.webdesignmuseum.org/flash-game-exhibitions/cartoon-network-flash-games
 
 ### TL;DR
-The Web Design Museum has curated a visual gallery of Cartoon Network browser Flash games from 2001–2015, spanning Scooby-Doo, Dexter’s Laboratory, Powerpuff Girls, Ben 10, Gumball, and more. Each entry shows a screenshot, title, and year, framing these games as artifacts of early-2000s web design and branded online entertainment. Hacker News commenters respond with intense nostalgia, stories of playing on dial‑up by preloading games, thanks to former CN game devs, and pointers to fan-led preservation efforts such as Flashpoint and old broadcast recordings.
 
----
+The Web Design Museum has assembled a chronological exhibition of Cartoon Network browser games spanning 2001–2015. The catalog includes titles based on Scooby-Doo, Dexter’s Laboratory, The Powerpuff Girls, Codename: Kids Next Door, Foster’s Home, Samurai Jack, Ben 10, Gumball, and others, preserving screenshots and individual entries from Flash’s commercial-web era. HN’s response was overwhelmingly nostalgic: players remembered loading games over dial-up and continuing offline, while former developers and fans noted many favorites remain absent and pointed to broader community archives for deeper preservation.
 
 ### Comment pulse
-- These games shaped a generation’s childhood → multiple users thank ex–Cartoon Network devs and recall specific Dexter’s Lab and Powerpuff titles as formative time-sinks.
-- Dial‑up hacks enabled long play sessions → kids preloaded SWFs, disconnected to free the phone line, and felt like “hackers” discovering offline play.
-- Preservation is now mostly fan-driven → people recommend Flashpoint and VHS uploads for CN-era nostalgia — counterpoint: legal and IP issues make official archiving tricky.
 
----
+- Childhood users remember these as substantial, sometimes hours-long experiences rather than disposable promotional toys.
+- Dial-up constraints inspired a practical trick: load several games, disconnect, then play without occupying the family phone line.
+- The exhibition is visibly incomplete; commenters hope it expands and recommend Flashpoint for a broader collection.
 
 ### LLM perspective
-- View: Corporate web games became disposable; museums and fan archives now function as de facto stewards of early web culture.
-- Impact: Historians, game designers, and nostalgists gain reference material for UI, animation, and monetization models before app stores.
-- Watch next: Browser-based emulation quality, rights-holder attitudes to unofficial archives, and whether networks ever license official legacy game collections.
+
+- Preservation needs executable assets, metadata, controls, dependencies, and emulator compatibility—not screenshots alone.
+- Official neglect shifts cultural memory toward volunteer archives facing licensing and hosting uncertainty.
+- Track collection growth, downloadable artifacts, and continued playability as browser emulation changes.

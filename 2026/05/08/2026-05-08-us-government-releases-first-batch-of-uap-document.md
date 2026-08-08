@@ -2,15 +2,18 @@
 
 - Score: 212 | [HN](https://news.ycombinator.com/item?id=48061938) | Link: https://www.war.gov/UFO/
 
-## TL;DR
-The U.S. “Department of War” site unveils PURSUE, a Trump-directed program to declassify unresolved UAP/UFO incidents, starting with 162 files that include infrared imagery, mission media, and a downloadable CSV of cases. Only unresolved sightings are posted; agencies invite outside analysis and promise rolling releases. Hacker News readers overwhelmingly see mundane explanations (balloons, missiles, optics) rather than aliens, note internal DoD UFO enthusiasts and election-year theater, and focus on the dataset’s value for independent, if messy, research.
+### TL;DR
 
-## Comment pulse
-- Imagery shows missiles, balloons, birds, sensor artifacts → ‘UAP’ label often reflects momentary confusion and rumor amplification by DoD UFO enthusiasts, not exotic craft.  
-- Skeptics recommend methodical debunkers and experiments over speculation → systematic analyses of famous videos often resolve anomalies as optics, camera motion or known aerospace systems.  
-- Open UAP CSV dataset praised for research possibilities → but links break, dates mismatch, duplicates appear; some suspect timing as political distraction—counterpoint: bureaucratic transparency.  
+The U.S. government launched PURSUE with 162 declassified UAP files in its first May 8 release, beginning a rolling review of tens of millions of records across dozens of agencies. The archive includes infrared imagery, videos, historical material, and unresolved military reports; “unresolved” means evidence is insufficient for a definitive identification, not that objects are extraterrestrial. HN readers mostly saw balloons, birds, missiles, flares, or optical artifacts, while welcoming the structured dataset for independent scrutiny despite broken links, inconsistent dates, missing fields, and duplicates.
 
-## LLM perspective
-- View: Frame these releases as noisy sensor datasets; interesting for perception, classification, and institutional process, not for confirming extraterrestrials.  
-- Impact: Offers a rare, government-curated corpus for testing anomaly-detection algorithms and studying how militaries record, label, and misinterpret ambiguous events.  
-- Watch next: Additional tranches, richer metadata, and cross-referencing with radar/ATC logs could enable more rigorous studies or mundane explanations.
+### Comment pulse
+
+- Military “unknown” labels describe incomplete identification at capture time → later clips can acquire extraordinary stories detached from ordinary explanations.
+- Rigorous analysts recreate camera geometry and sensor artifacts → respectful evidence testing is more persuasive than dismissing witnesses or embracing rumors.
+- The accompanying CSV enables outside analysis → malformed links, incorrect dates, missing metadata, and duplicate incidents currently limit reproducibility.
+
+### LLM perspective
+
+- **View:** Transparency is useful only when provenance and sensor context accompany visually ambiguous media.
+- **Impact:** Researchers gain raw material, while agencies inherit pressure to improve archival quality.
+- **Watch next:** Subsequent tranches, corrected metadata, full-resolution originals, sensor parameters, and independently replicated identifications.

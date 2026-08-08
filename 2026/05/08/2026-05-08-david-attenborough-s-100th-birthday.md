@@ -3,18 +3,17 @@
 - Score: 407 | [HN](https://news.ycombinator.com/item?id=48061884) | Link: https://www.bbc.com/news/articles/cp3pww9g0p5o
 
 ### TL;DR
-Sir David Attenborough turns 100, prompting tributes from the UK royal family, celebrities, environmental groups and broadcasters celebrating his seven‑decade career popularizing natural history and climate awareness. A Royal Albert Hall concert with orchestral performances, TV retrospectives, and a WWF “What a Wonderful World” film mark the occasion. Tributes emphasize his unique ability to make global environmental issues feel personal, his influence on generations of scientists and viewers, and his embodiment of the BBC’s public‑service mission.
 
----
+David Attenborough turned 100 amid tributes from King Charles, Queen Camilla, Prince William, Prince Harry, fellow broadcasters, actors, musicians, and conservation organizations. A Royal Albert Hall concert capped a week of BBC programming, revisiting landmark wildlife sequences with orchestral music and guests. Attenborough joined the BBC in 1952 and transformed popular natural-history television through series including Life on Earth, The Blue Planet, and Planet Earth, later connecting that wonder directly to climate advocacy. Admirers emphasized his rare ability to inspire public affection for nature across several generations.
 
 ### Comment pulse
-- Personal proximity → HN readers share local Richmond anecdotes and bookshop stories, framing Attenborough as a down‑to‑earth neighbor — counterpoint: others find the hyper‑local tone oddly parochial online.  
-- Inspiration pipeline → Many credit his documentaries for sparking careers in biology; dozens of species named after him, though field biology jobs are scarce and insecure.  
-- Cultural trivia → Stories link him to TV‑driven yellow tennis balls and note Google’s birthday easter egg, while joking about Google still harvesting sharing data.
 
----
+- Scientists and field biologists credit his documentaries with shaping careers; more than 50 taxa reportedly bear names honoring him.
+- Viewers recall formative childhood recordings, local bookshop anecdotes, and a broadcaster who still considers Richmond his ideal home.
+- A claim that he inspired yellow tennis balls delighted readers — counterpoint: commenters sought stronger sourcing and noted formal adoption dates.
 
 ### LLM perspective
-- View: Attenborough shows how sustained, rigorous storytelling can shift public baselines on nature, biodiversity loss, and climate without overt partisanship.  
-- Impact: His work normalized large‑budget, science‑driven wildlife series and created a global “emotional archive” of pre‑collapse ecosystems.  
-- Watch next: Who inherits his role, whether broadcasters keep funding ambitious natural history, and how archives are reused to motivate concrete conservation policy.
+
+- His durable impact pairs scientific seriousness with accessible storytelling, without simplifying away wonder.
+- Cultural influence is diffuse: career choices, conservation values, and institutional trust accumulate over decades.
+- The next legacy test is whether successors sustain attention while documenting accelerating ecological loss.

@@ -3,18 +3,17 @@
 - Score: 362 | [HN](https://news.ycombinator.com/item?id=48061566) | Link: https://meshtastic.org/docs/introduction/
 
 ### TL;DR
-Meshtastic is an open-source project that turns cheap LoRa radios into long‑range, low‑bandwidth, off‑grid text-messaging mesh networks, with encrypted, battery-efficient links that don’t need licenses or cell service. Devices rebroadcast each other’s packets, forming a dynamic mesh that works best when many nodes exist in an area. HN commenters compare it with Meshcore and Reticulum: Meshtastic favors simple, flood-based routing and casual hobby use, while others prioritize more structured routing, broader reach, and richer tooling. Community density largely determines which system feels “alive.”
 
----
+Meshtastic is a community-run open-source system that turns inexpensive LoRa radios into long-range, off-grid text and location networks. Nodes rebroadcast received messages, forming a decentralized mesh without dedicated routers or cellular service; radios can work standalone or pair with one phone through Bluetooth, Wi-Fi, or USB. It offers encryption, long battery life, optional GPS, and operation in generally license-free regional bands. In practice, usefulness depends heavily on local node density, terrain, antenna placement, and community activity, while LoRa’s limited bandwidth constrains ambitions beyond short messages.
 
 ### Comment pulse
-- Meshtastic uses chatty flood routing; Meshcore adds fixed repeaters and cached paths for efficiency → better long-distance reliability — counterpoint: in some cities Meshtastic traffic dominates.
-- Utility is highly location-dependent → some see silent telemetry ghosts, others have active statewide meshes, maps, and ham-club integrations.
-- Enthusiasts want richer, internet-like capabilities → experiment with Reticulum, IP tunnels over LoRa, and home-automation alerts, but bandwidth limits keep things mostly to short text and telemetry.
 
----
+- Starter hardware can cost roughly $40, but high antenna placement and nearby participants matter more than the board alone.
+- Meshcore advocates prefer fixed repeaters and cached routes over Meshtastic’s chatty flooding — counterpoint: choose whichever network has active local coverage.
+- Users value the early-internet community feel, emergency alerts, and radio-club overlap; sparse regions resemble a ghost town.
 
 ### LLM perspective
-- View: Treat Meshtastic/Meshcore as complementary radio “modes”; pick based on local adoption, not abstract technical purity.
-- Impact: Strong on resilience education, radio skills, and local community-building; realistic emergency backup for short messages, not general internet replacement.
-- Watch next: Dual-stack nodes (Meshtastic + Meshcore/Reticulum), better cross-mesh gateways, and standardized mapping/diagnostics to expose real coverage and health.
+
+- Flood routing favors mobility and simplicity but spends scarce airtime as node counts rise.
+- Maps undercount private nodes, so visible coverage is only a rough adoption signal.
+- Watch for interoperable bridges, better diagnostics, and protocols supporting useful traffic beyond telemetry and chat.

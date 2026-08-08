@@ -3,9 +3,17 @@
 - Score: 289 | [HN](https://news.ycombinator.com/item?id=48035420) | Link: https://storica.club/blog/pinocchio-in-italian/
 
 ### TL;DR
-Collodi’s original 1881 Pinocchio is a much darker, more satirical story than the Disneyfied memory: the puppet is hanged, kills the cricket, loses his feet, is flayed into a donkey-skin drum, and wanders through grotesque punishments. Collodi, a political satirist writing for pay in a new nation-state, used this brutality to mock moralizing children’s literature and school panics. Yet the book’s enduring impact was linguistic: written in accessible Tuscan, it became a foundational school text that helped standardize Italian.
+
+Collodi originally ended his 1881 serial with Pinocchio hanged dead; children’s letters prompted 21 more chapters featuring a corpse-like Blue Fairy, a cricket hammered dead, burned-off feet, boys becoming donkeys, and an attempted donkey-skin drum. The violence reflects a satirist mocking sentimental moral instruction, not modern children’s fantasy. Written in accessible Florentine Tuscan, the schoolroom classic also helped spread standard Italian after unification. HN noted that such cruelty was ordinary in contemporary folk tales, debated whether sanitized stories underserve children, and challenged the simplified claim that Italy simply chose Tuscan.
+
+### Comment pulse
+
+- Older tales permit arbitrary suffering and imperfect justice → some children use symbolic cruelty to process dangers that sanitized narratives cannot address.
+- Pinocchio’s transformations follow its picaresque wooden-puppet premise → “weirdness” mainly arises from comparison with Disney and modern safety norms.
+- National-language history is more gradual than government selection → an established literary vernacular and Manzoni’s formalization preceded curricular enforcement.
 
 ### LLM perspective
-- View: Pinocchio shows how “children’s literature” historically mixed horror, satire, and pedagogy far more than today’s sanitized versions.
-- Impact: As a school staple in plain Tuscan, it functioned as mass language infrastructure, not just entertainment.
-- Watch next: Compare linguistic influence of other canonical school texts (e.g., Grimm in German, Pushkin in Russian) on national standardization.
+
+- **View:** Adaptation changes content and the audience’s sense of what children’s literature historically allowed.
+- **Impact:** Reading originals exposes satire, language history, and cultural assumptions erased by familiar franchises.
+- **Watch next:** Compare editions and translations for cuts, moral additions, dialect choices, and adoption claims.
