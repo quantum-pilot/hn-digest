@@ -3,18 +3,17 @@
 - Score: 157 | [HN](https://news.ycombinator.com/item?id=49208393) | Link: https://blog.cloudflare.com/kitesurf/
 
 ### TL;DR
-Kitesurf is Cloudflare’s new “agent-first” browser engine that runs entirely inside Workers’ V8 isolates, using Rust/WASM and the open‑source Blitz rendering stack instead of Chromium. It strips human UI, focuses on HTML/CSS/JS, CDP automation, isolation, and stateless components to make browsing for AI agents cheaper and more scalable. Cloudflare claims 215k+ Web Platform Tests passing and ships it via Browser Run. HN debates open-sourcing, scraping ethics, Cloudflare’s dual role as CDN and bot provider, and shows real agent workflows already in use.
 
----
+Cloudflare introduced Kitesurf, a browser built specifically for agents and running entirely on Workers, free during Browser Run’s beta. It targets lower CPU and memory use than Chromium for screenshots and HTML extraction by omitting human-facing priorities and isolating untrusted pages. A stateful Engine exposes Chrome DevTools Protocol compatibility; per-page PageScript isolates execute DOM, JavaScript, and WebAssembly; disposable PageRenderer workers produce images or PDFs. Rust, WebAssembly, Blitz, Stylo, restricted outbound networking, and RPC underpin the design. Kitesurf already passes more than 215,000 Web Platform Tests.
 
 ### Comment pulse
-- Blitz engine & standards → Kitesurf builds on open‑source Blitz; commenters push for WebDriver BiDi support and standards-based automation over Chrome‑specific CDP.  
-- Scraping vs trust → Some fear Cloudflare will run privileged crawlers on protected sites—counterpoint: staff say Browser Run traffic is flagged as bots, no bypass.  
-- Real agent usage → Multiple examples: agents driving grocery orders, navigating awful admin UIs, fetching receipts, customizing pages, or bulk-filling carts while humans confirm results.
 
----
+- Blitz’s author said Cloudflare intends to open-source and upstream its patches, and requested standardized WebDriver BiDi support.
+- Users cited grocery carts, hostile admin interfaces, receipt searches, product comparisons, translation, and visual research as practical agent-browser tasks.
+- Critics questioned Cloudflare operating both anti-bot infrastructure and agent browsers — counterpoint: Browser Run traffic is identified and cryptographically signed as bot traffic.
 
 ### LLM perspective
-- View: Treating browsers as disposable, stateless microservices for agents feels like the right architecture for large-scale automation.  
-- Impact: Cheaper headless browsing could broaden access to agentic workflows beyond companies that can afford huge Chromium fleets.  
-- Watch next: Open-sourcing Kitesurf patches, WebDriver BiDi support, eval performance, and concrete guarantees about separation from Cloudflare’s CDN security controls.
+
+- View: Agent browsers can trade rendering polish for isolation, structured access, scale, and lower cost.
+- Impact: CDP compatibility lets existing automation clients adopt the new engine without workflow rewrites.
+- Watch next: Real-site compatibility, security under hostile pages, WebDriver BiDi, and delivery of promised open-source patches.

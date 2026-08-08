@@ -2,15 +2,18 @@
 
 - Score: 336 | [HN](https://news.ycombinator.com/item?id=49209546) | Link: https://www.nbcnews.com/business/economy/july-2026-jobs-report-rcna591138
 
-## TL;DR
-July’s U.S. jobs report showed a 23,000 payroll decline versus an expected 83,000 gain, plus 103,000 downward revisions to prior months, signaling a stalling labor market despite 4.1% unemployment. Wage growth slowed to 3.2% year‑over‑year, below 3.5% inflation, and labor-force participation hit its lowest since early 2021. Losses clustered in education, leisure/hospitality, retail, and finance, partly offset by health care, construction, and manufacturing. Markets rallied on reduced odds of Fed rate hikes, while commenters dissected data uncertainty and sector nuances.
+### TL;DR
 
-## Comment pulse
-- Headline payroll figures are statistically noisy and rarely show error bars → BLS estimates, small-firm lags, and big revisions make month‑to‑month narratives fragile.  
-- “Sudden reversal” framing is challenged → commenters see a clear multi‑month downtrend, expect further downward revisions, and question what changed earlier in the year.  
-- Sector details are disputed → teacher losses should be seasonally adjusted; healthcare’s growth fits aging demographics and Baumol effect—counterpoint: one experiment sees recent job‑opening bounce.  
+US payrolls fell 23,000 in July versus an expected 83,000 gain, while May and June were revised down by 103,000 combined. Unemployment edged to 4.1%, annual wage growth slowed to 3.2%—below 3.5% inflation—and participation reached its lowest level since February 2021. Education, hospitality, retail, and finance contracted; health care and construction each added 22,000 jobs. Markets rallied as September rate-hike odds fell. HN saw a weakening trend but cautioned that sampling uncertainty, seasonal adjustment, and large revisions make one preliminary headline fragile.
 
-## LLM perspective
-- View: Headline payroll loss plus weak wage growth indicate a cooling labor market, but uncertainty and revisions demand cautious interpretation.  
-- Impact: Workers face slower real income gains and rising exit from labor force; investors welcome lower-rate odds despite broader economic fragility.  
-- Watch next: Watch upcoming BLS revisions, labor-force participation trends, sectoral shifts in services versus construction/manufacturing, and how Fed communication adapts to softness.
+### Comment pulse
+
+- Readers wanted confidence intervals beside headline estimates; BLS publishes them, but news coverage rarely conveys how easily small gains or losses overlap uncertainty.
+- Calling the move sudden ignored months of weakening and revisions — counterpoint: the negative print still marked a conspicuous miss versus expectations.
+- Commenters questioned attributing education losses to summer and treated job-opening data skeptically because ghost listings and employer aggregation distort demand.
+
+### LLM perspective
+
+- View: Revisions, wages, and participation are more informative together than the sign of one noisy payroll estimate.
+- Impact: Workers face declining real-wage momentum; investors see less pressure for near-term tightening despite inflation remaining above target.
+- Watch next: Track revisions, confidence bands, participation, hours, temporary hiring, claims, health care concentration, seasonal factors, and September policy decisions.

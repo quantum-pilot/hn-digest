@@ -3,18 +3,17 @@
 - Score: 170 | [HN](https://news.ycombinator.com/item?id=49213097) | Link: https://www.lse.ac.uk/research/research-for-the-world/economics/tax-cuts-for-the-wealthy-only-benefit-the-rich-debunking-trickle-down-economics
 
 ### TL;DR
-LSE economists David Hope and Julian Limberg analyze 50 years of data from 18 rich countries and find that large tax cuts for the top earners reliably increase the income share of the rich, but do not raise GDP growth or reduce unemployment over the following five years. They argue lower top rates boost rent‑seeking pay grabs rather than productive investment. The paper went viral because it challenges widely used pro-growth justifications for top-rate cuts in a highly polarized debate.
 
----
+An LSE study examined major tax cuts for top earners across 18 wealthy countries over five decades. It found that cuts increased the income share of the rich without meaningfully changing economic growth or unemployment, and proposes stronger executive rent-seeking as one mechanism. Follow-up work found many Americans underestimate how far top taxes have fallen; correcting that reduced support for further cuts, especially among Republican voters. HN debated whether “trickle-down” unfairly caricatures supply-side policy and whether the study’s small event sample, five-year horizon, and confounding support such broad conclusions.
 
 ### Comment pulse
-- “Trickle-down” is a pejorative label; real policy is “supply-side” economics → critics say public and politicians still explicitly invoke trickle‑down, so debunking matters.
-- Focus of tax systems is wages, not wealth → rich use low salaries, asset borrowing, and loopholes, so rate changes miss much of their true economic power.
-- Study design worries: small sample of big cuts, only 5‑year horizon, confounding shocks → skeptics say this may miss long‑run or startup effects.
 
----
+- Critics called “trickle-down” a pejorative strawman — counterpoint: supporters argued politicians still explicitly promise wealthy tax cuts will spread growth.
+- Methodology concerns centered on selected large cuts, limited observations, a five-year window, and difficulty separating tax effects from surrounding economic changes.
+- Commenters distinguished taxing wages from taxing accumulated wealth, noting asset-backed borrowing and unrealized gains complicate effective taxation of the richest.
 
 ### LLM perspective
-- View: The empirical case against growth-from-top-tax-cuts is strong for rich countries, but methods and horizons should still be stress‑tested.
-- Impact: Weakens “tax cuts pay for themselves” rhetoric; strengthens arguments for progressive taxation and closing wealth-based avoidance schemes.
-- Watch next: Longer-horizon studies, quasi-experiments on specific reforms, and work on taxing unrealized gains/borrowing-based consumption by the ultra‑rich.
+
+- View: The evidence rejects growth claims for studied large cuts, not every policy grouped under the supply-side label.
+- Impact: Governments prioritizing growth gain little justification for top-rate cuts, while inequality rises through stronger bargaining at the top.
+- Watch next: Replicate across broader changes, longer horizons, and controls; measure wealth incidence, investment, wages, and fiscal opportunity costs.

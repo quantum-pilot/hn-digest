@@ -2,15 +2,18 @@
 
 - Score: 211 | [HN](https://news.ycombinator.com/item?id=49207236) | Link: https://www.ign.com/articles/ramageddon-continues-another-year-as-2027-memory-capacity-is-reportedly-sold-out
 
-- **TL;DR**
-  - DRAM and high-bandwidth memory capacity from Samsung, SK Hynix, and Micron is reportedly fully booked through 2027, mostly by AI customers using long‑term contracts. That, plus growing NAND demand, is already pushing up prices for RAM, SSDs, and memory-heavy devices like consoles and gaming PCs, with little relief expected before new fabs come online. HN commenters unpack HBM’s heavy wafer usage, debate whether memory makers and AI firms are creating an artificial squeeze, and discuss workarounds, local AI, and inflation impacts.
+### TL;DR
 
-- **Comment pulse**
-  - HBM demand → wafer bottleneck: stacked dies use ~3× the wafer capacity per bit vs DDR5, tightening DRAM supply and encouraging lucrative long-term AI contracts.
-  - Some want a USB-like standard to reuse old DIMMs; others argue swap/cheap Optane or SSDs already cover “slow RAM,” and USB standards are chaos.
-  - Concern over AI’s resource use and inflation, especially in poorer countries—counterpoint: RAM is a tiny share of consumer budgets compared with food or energy.
+A report cited by IGN says Samsung, SK Hynix, and Micron have already sold their entire 2027 DRAM and HBM manufacturing capacity, largely through multiyear commitments from AI companies; the manufacturers have not confirmed it. The article expects further consumer RAM price increases and notes rising NAND demand, citing a 1 TB Western Digital SSD that climbed from about $110 to $189. Commenters stressed that HBM consumes substantially more wafer capacity per bit than DDR5, tightening ordinary memory supply across phones, PCs, consoles, and embedded systems.
 
-- **LLM perspective**
-  - View: AI training workloads are effectively outbidding all other sectors for advanced memory; capacity auctions, not tech limits, dominate availability.
-  - Impact: Expect slower PC and console spec growth, more cloud-rental models, and greater incentive for memory-efficient software and model architectures.
-  - Watch next: Track HBM4 density/efficiency, new fabs’ ramp timelines, export controls on Chinese DRAM, and whether local, smaller models offset hyperscaler demand.
+### Comment pulse
+
+- HBM3E reportedly consumes about three times DDR5’s wafer capacity per bit, with HBM4 expected to require still more.
+- Some proposed slower memory tiers or Optane-backed swap — counterpoint: latency and bandwidth make them poor RAM substitutes.
+- Users debated AI’s benefits against hardware scarcity, accessibility use cases, and broader consumer inflation.
+
+### LLM perspective
+
+- View: The key constraint is wafer allocation, not simply unusually high retail demand.
+- Impact: Long purchase agreements can keep upgrade prices elevated well beyond one product cycle.
+- Watch next: Manufacturer confirmation, new fab capacity, contract durations, and NAND pricing.

@@ -2,19 +2,18 @@
 
 - Score: 158 | [HN](https://news.ycombinator.com/item?id=49210077) | Link: https://www.fastcompany.com/91576086/ai-psychosis-is-the-new-leadership-blind-spot-ai-leadership-blind-spots
 
-### TL;DR  
-A leadership coach warns that “AI psychosis” isn’t literal madness but a creeping over‑reliance on chatbots for judgment. Surveys show 74% of executives trust AI advice more than colleagues, and 44% would defer to it over their own views. Symptoms: leaders stop rigorously checking AI-generated writing (“workslop”), mandate AI use without governance, and let bots overrule human teams—eroding trust and dissent. HN comments argue this mostly exposes long-standing executive detachment, while noting that lazy AI use also accelerates reasoning atrophy.
+### TL;DR
 
----
+The essay borrows the unofficial term “AI psychosis” to describe a milder executive failure: overtrusting a fluent, agreeable system until it displaces judgment and dissent. It cites surveys in which 74% of executives trusted AI advice more than colleagues or friends, 44% would defer to it over themselves, and 78% lacked confidence in passing an independent AI-governance audit within 90 days. Three warning signs are lightly reviewed “workslop,” mandates introduced before controls, and leaders using chatbot verdicts to override experienced employees, discouraging future objections.
 
-### Comment pulse  
-- AI as executive crutch → C-suites were already out of touch; LLMs provide a confident, sycophantic oracle that further sidelines expert ICs and real constraints. — counterpoint: incentives and survivorship bias also shape exec behavior.  
-- Deference to AI as self-worship → Leaders like AI answers because they’re conditioned by their own prompts, turning “you’re right” into “that’s right” and reinforcing ego more than truth.  
-- AI and work quality → Used lazily, AI-written emails expose low effort and judgment; used with equal rigor, it can raise standards but not replace critical thinking.
+### Comment pulse
 
----
+- Commenters said AI magnifies existing executive isolation because it confidently validates assumptions while lacking company-specific history.
+- Others argued fluent presentation should not outrank substantive but imperfect employee communication.
+- AI-assisted work can still improve quality — counterpoint: low-effort output exposes weak judgment and erodes trust.
 
-### LLM perspective  
-- View: The core risk is governance and organizational psychology; AI just amplifies existing power distances, politicking, and appetite for comforting answers.  
-- Impact: Most dangerous in hierarchies where dissent is already costly; AI becomes the ultimate yes‑man, accelerating culture rot and bad decisions.  
-- Watch next: Auditable AI decision trails for executives, leadership training on adversarial use of AI, and metrics linking AI reliance to error and trust.
+### LLM perspective
+
+- View: The core risk is authority laundering: leaders mistake personalized fluency for independent evidence.
+- Impact: Staff stop raising concerns when an opaque assistant becomes the final arbiter.
+- Watch next: Auditable review practices, dissent channels, and outcome comparisons between human and AI advice.

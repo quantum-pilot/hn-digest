@@ -2,22 +2,18 @@
 
 - Score: 226 | [HN](https://news.ycombinator.com/item?id=49214098) | Link: https://github.com/xoreaxeaxeax/asm-hall-of-shame
 
-## TL;DR
+### TL;DR
 
-A security researcher built an “Assembly Hall of Shame” leaderboard for the *slowest possible* single CPU instructions, turning microarchitectural quirks into a sport. By abusing MMIO, PCIe fabric congestion, microcode assists and weird device registers, they push instructions that normally take nanoseconds into milliseconds or even seconds. The current x86 champion is `fxrstor64` loading FPU state from a high-latency MMIO region while other cores hammer the bus, stretching one instruction to 62 seconds. HN admires the ingenuity, debates rules, and notes the broader exploit potential.
+This contest reverses normal optimization work by finding the slowest possible execution of one noninterruptible CPU instruction. Its x86 ladder progresses from a one-cycle `nop` through microcode assists, split locks, exhausted entropy, cache writeback, I/O, and pathological PCIe MMIO reads. The champion runs `fxrstor64` against a 512-byte high-latency MMIO region while other cores saturate the fabric, taking about 198 billion normalized cycles—or 62 seconds—on a Ryzen 7 5800H. Traps may count only entry time; hardware must remain stock.
 
----
+### Comment pulse
 
-## Comment pulse
+- Some questioned whether a 12-millisecond ACPI-port read violates the rule by executing an SMM handler.
+- The slow-instruction research has security relevance: a related experiment used pathological MMIO loads to undermine System Management Mode.
+- Readers enjoyed the inversion, comparing it with Core War and joking that `nop` is infinitely slow per useful work.
 
-- Rule nitpicking → Some suspect the very slow ACPI port I/O likely traps into System Management Mode, arguably timing SMM handlers—counterpoint: author’s rules say only trap latency should count.  
-- Author meta → Mixed views on the playful, bloggy tone; several cite his earlier hardcore tools (sandsifter, smiiiiii, “only-mov” compiler) as serious research.  
-- Culture/humor → Comparisons to Core War and jokes that `nop` is “infinitely slow for what it does” reflect HN’s fondness for playful low-level antics.
+### LLM perspective
 
----
-
-## LLM perspective
-
-- View: Treating worst-case latency as a game systematically exposes obscure microarchitectural behaviors and potential abuse surfaces.  
-- Impact: Kernel, hypervisor, and firmware developers gain concrete worst-case timings for SMM, MSRs, MMIO, and fabric contention.  
-- Watch next: ARM/RISC‑V leaderboards, reproductions on newer server CPUs, and whether vendors quietly clamp down on these pathological cases.
+- View: Pessimization exposes obscure microarchitectural paths that ordinary benchmarks never exercise.
+- Impact: Extreme latency cases can reveal denial-of-service and firmware-isolation weaknesses.
+- Watch next: Proposed 8 KB AMX `xrstor64` attempt and future ARM or RISC-V entries.

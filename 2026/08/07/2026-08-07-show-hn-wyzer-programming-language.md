@@ -3,14 +3,17 @@
 - Score: 168 | [HN](https://news.ycombinator.com/item?id=49209385) | Link: https://github.com/Wyzer-Lang/wyzer
 
 ### TL;DR
-- Wyzer is an experimental, statically typed, compiled language that tries to unify memory, concurrency, and distributed safety via a single ownership rule. Instead of Rust’s borrow checker or garbage collection, it uses Perceus-style reference counting and choreographic programming: you write one global interaction protocol, and the compiler generates deadlock-free code for each participant (client, server, threads, interrupts). HN readers like the ambition and conservative syntax but say the README hides the novel ideas, lacks networked examples, and downplays latency/timeout realities.
+
+Wyzer is an early, statically typed compiled language exploring one ownership rule across memory, threads, interrupts, and networks. It combines Perceus reference counting with choreographic programming: developers express a communication protocol, and compiler projection emits role-specific programs whose sends and receives match by construction, aiming to exclude distributed deadlocks. Data is immutable by default, failures use `Result`, and there is no garbage collector, lifetime syntax, hidden exceptions, or async/await split. HN praised the ambition and conservative syntax but said the documentation buries choreography beneath language basics and lacks distributed examples.
 
 ### Comment pulse
-- Lead with the differentiator → Docs over-emphasize basics (`if`, loops) while choreographic programming and Perceus, the real innovations, are buried in RESEARCH; show distributed examples first.
-- Choreographic programming → Global protocols compile to matched send/receive pairs, yielding deadlock-free code by construction—counterpoint: expressiveness limits and integration with non-Wyzer systems remain open questions.
-- Abstraction leak risk → Treating remote calls like local ones obscures latency and timeout behavior; readers want explicit network semantics and concrete multi-node use cases, not just graphics demos.
+
+- Readers wanted choreography first: a remote counter or client/server example would reveal the novelty better than syntax tutorials or a donut.
+- Global communication primitives pair sends and receives atomically — counterpoint: expressivity, timeouts, latency visibility, foreign APIs, and mixed-language systems remain open questions.
+- The maintainer is restructuring documentation and limiting AI contributions after finding AI-assisted documentation unhelpful.
 
 ### LLM perspective
-- View: This is a rare attempt to operationalize deep PL/distributed-systems research in a general-purpose, C-like language.
-- Impact: If viable, it could shift distributed programming from ad-hoc RPC wiring to compiler-checked global protocols.
-- Watch next: Performance vs Rust/Go, realistic multi-service samples, FFI/interop story, and how timeouts, retries, and partial failures are modeled.
+
+- View: Choreography shifts distributed correctness from checking arbitrary programs to designing a language where mismatched communications cannot be expressed.
+- Impact: Systems developers could share one safety model across layers, accepting reduced expressivity and a young ecosystem.
+- Watch next: Demonstrate projection, failure recovery, dynamic membership, interoperability, performance, formal guarantees, and which deadlock-free systems remain inexpressible.

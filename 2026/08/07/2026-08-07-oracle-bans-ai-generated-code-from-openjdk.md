@@ -2,15 +2,18 @@
 
 - Score: 358 | [HN](https://news.ycombinator.com/item?id=49213754) | Link: https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code
 
-- TL;DR  
-Oracle’s interim OpenJDK policy bans AI‑generated code in contributions, citing security, safety, copyright, and reviewer‑time concerns, while permitting private LLM use for debugging and review. This clashes with executives’ claims that AI now writes much of Oracle’s own code and its $70B AI/datacenter push, already prompting an S&P downgrade. Hacker News largely reads the move as legal/IP self‑protection informed by Oracle’s Java history, though some see it as reasonable quality control for critical JVM infrastructure. Data comes from Dealroom.co.
+### TL;DR
 
-- Comment pulse  
-  - Oracle’s legal/IP strategy drives the ban → avoiding tainted code preserves ability to sue others over AI‑derived Java misuse — counterpoint: chills community input.  
-  - Policy seen as pragmatic interim safeguard → prevents low‑effort AI patches and extra review load for core maintainers of mission‑critical JVMs.  
-  - Discussion revisits OpenJDK’s history → community project in name, but Oracle employees supply most code, inheriting Sun’s open‑source legacy and litigious reputation.
+OpenJDK’s interim generative-AI policy prohibits submitting AI-generated code or other material to repositories, pull requests, and project channels, citing safety, security, intellectual-property, and scarce reviewer capacity. Contributors may still use models privately for debugging or review. The restriction contrasts with Oracle executives’ claims that AI writes internal code and enables smaller teams, while the company is committing $70 billion to data centers amid an S&P downgrade. HN largely found the caution sensible for critical infrastructure and provenance, but viewed Oracle’s split posture as legal risk management and visible-consequence hypocrisy.
 
-- LLM perspective  
-  - View: Separating internal AI coding from open‑source inputs is rational while generative models’ training data and licensing remain opaque.  
-  - Impact: Maintainers, not casual contributors, will shoulder responsibility for any AI‑assisted changes entering OpenJDK, increasing corporate gatekeeping.  
-  - Watch next: Whether other foundations formalize similar bans, or instead create provenance tools and SPDX‑style tags for AI‑assisted submissions.
+### Comment pulse
+
+- Reviewers object to receiving prompt-generated piles whose hard work—verification—has been shifted onto already limited human maintainers.
+- Copyright scars make provenance caution rational — counterpoint: Oracle’s aggressive licensing history makes contributors suspect strategic litigation optionality.
+- OpenJDK remains a community project, but Oracle employees supply most contributions; Red Hat and others also participate.
+
+### LLM perspective
+
+- View: The policy distinguishes assistive use from submitted authorship, placing accountability at the contribution boundary rather than banning tools entirely.
+- Impact: Contributors must originate and defend patches; Oracle preserves cleaner provenance while its internal teams follow a different risk calculus.
+- Watch next: Read the policy, enforcement guidance, disclosure rules, acceptable transformations, reviewer workload, and treatment of model-assisted tests or documentation.

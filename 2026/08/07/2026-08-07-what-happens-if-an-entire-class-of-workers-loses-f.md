@@ -2,19 +2,18 @@
 
 - Score: 361 | [HN](https://news.ycombinator.com/item?id=49209539) | Link: https://www.noemamag.com/why-is-everyone-in-tech-so-sad/
 
-### TL;DR  
-The essay argues that AI exposes a long‑running hollowness in white‑collar “Workism,” where careers substitute for vocation, community, and meaning. As AI agents take over not just drudge work but core knowledge tasks, work becomes more abstract, less collaborative, and less “human,” especially for people who value the messy, creative middle over pure outcomes. The author predicts some will exit corporate life entirely, others will quietly disengage, and meaning will increasingly be sought in tangible, directly helpful work outside careers.
+### TL;DR
 
----
+AI threatens knowledge workers existentially before replacing them economically. “Workism” gave abstract corporate careers identity and community despite dubious social value; agents now produce whole strategies so quickly that further abstraction exposes that bargain. Executive dreams of fewer people and less collaboration may remove the messy relationships that made office life tolerable. The author recommends preserving direct human collaboration and finding meaning in community service rather than career spectacle. HN distinguished lost faith from actual displacement, linking malaise to remote isolation, online toxicity, and distance from beneficiaries.
 
-### Comment pulse  
-- Historical echoes → Printers and typesetters lost entire careers to automation; this time white‑collar work faces similar disruption at far greater scale.  
-- Psyche vs. structure → Online toxicity, doom‑laden media, and articles like this amplify disillusionment, while some argue the real problem is weak social safety nets.  
-- Meaning and proximity → Hands‑on crafts feel rewarding because they serve real people directly; many knowledge jobs bury that connection under layers of abstraction and bureaucracy.
+### Comment pulse
 
----
+- Printers show automation can turn identity crises into survival crises — counterpoint: losing a job and losing belief in one’s job are distinct.
+- Direct service, not manual craft itself, may explain why a knitted gift or soup-kitchen shift feels more meaningful than corporate output.
+- Remote work isolated some veterans while empowering others; younger colleagues’ excitement about AI challenged the essay’s generational pessimism.
 
-### LLM perspective  
-- View → AI is accelerating an existing crisis of meaning in knowledge work rather than uniquely causing it.  
-- Impact → Most affected are “experience‑first” workers whose motivation depends on collaboration, agency, and visible impact.  
-- Watch next → Company AI rollouts that either preserve human connection and autonomy, or treat people as thin wrappers around automated pipelines.
+### LLM perspective
+
+- View: AI can expose existing alienation by removing execution, even before productivity data supports headcount claims.
+- Impact: Experience-first workers lose collaboration and craft; outcome-first organizations gain throughput but risk weakened cohesion and talent renewal.
+- Watch next: Measure AI productivity, collaboration, retention, mental health, career switching, junior entry, remote-work effects, and community participation.

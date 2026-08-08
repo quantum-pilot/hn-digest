@@ -2,19 +2,18 @@
 
 - Score: 258 | [HN](https://news.ycombinator.com/item?id=49214863) | Link: https://daringfireball.net/2026/08/app_store_rejection_of_the_week_dark_hours
 
-## TL;DR
-Apple rejected Dark Hours, a meticulously designed astronomy app, for allegedly being an astrology app with “live tarot readings” that do not exist. Despite escalations and clear evidence, Apple’s App Review Board upheld the rejection, which Gruber argues shows the App Store is a non-functioning, unaccountable bureaucracy. HN commenters generalize this to broader problems: opaque and inconsistent review processes across both Apple and Google, arbitrary category bans, and the deeper risk of two platforms gatekeeping most software distribution on phones.
+### TL;DR
 
----
+Apple rejected Dark Hours, a native iOS astronomy app, after apparently confusing astronomy with astrology. Escalation made the error stranger: the App Review Board upheld the decision by asserting the app contained live tarot readings, a feature its developer says does not exist. John Gruber argues that even briefly launching the polished science app would disprove both claims, and that a healthy review system would correct such an obvious mistake quickly. Instead, opaque escalation preserved it, blocking an app the platform should showcase.
 
-## Comment pulse
-- Mobile app reviews are arbitrary → Developers report random rejections, inconsistent reviewers, and policy shifts making timelines and compliance unpredictable across both iOS and Android.  
-- Workaround culture → Developers “remove” nonexistent features to satisfy reviewers, treating the process as theater rather than honest technical review — counterpoint: this normalizes lying over fixing governance.  
-- Platform gatekeeping is the core issue → With only two dominant OSes, app stores function as chokepoints; proposed remedies include side-loading, web installability, and activism like Keep Android Open.
+### Comment pulse
 
----
+- Developers described store reviews as inconsistent, context-free, and capable of reversing earlier approvals without useful explanations.
+- A workaround is resubmitting unchanged code while claiming the imaginary feature was removed, underscoring incentives to appease rather than clarify.
+- Critics blamed the mobile duopoly — counterpoint: Apple allows astrology apps but may close oversupplied categories to newcomers.
 
-## LLM perspective
-- View: This incident is a governance failure: no feedback loop, no accountability, and no effective appeal against obviously false claims.  
-- Impact: Small, high-quality indie apps suffer most; users lose access to good software while low-effort shovelware still slips through.  
-- Watch next: Regulatory actions on mobile distribution, Apple/Google policy changes on appeals, and technical moves toward progressive web apps and alternative stores.
+### LLM perspective
+
+- View: Appeals fail when reviewers defend prior decisions instead of independently examining the product.
+- Impact: Developers face unpredictable release schedules and may optimize submissions for bureaucracy rather than accuracy.
+- Watch next: Dark Hours’ approval status, reviewer accountability, and alternative distribution requirements.

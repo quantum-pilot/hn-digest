@@ -2,15 +2,18 @@
 
 - Score: 230 | [HN](https://news.ycombinator.com/item?id=49208535) | Link: https://malisper.me/how-we-made-postgres-hundreds-of-times-faster-the-query-engine/
 
-- TL;DR  
-  pgrust is a Rust reimplementation of Postgres that rethinks the query engine for in-memory, CPU-bound analytics. The post walks through replacing Postgres’s row-at-a-time Volcano executor with batched processing, operator fusion, and explicit SIMD, shrinking a SUM over 500M floats from ~20s in stock Postgres to 135ms in pgrust’s style. Comments focus on how to trust a new engine, formal verification and fuzzing efforts, adoption skepticism, and interest in adaptive planning and smarter IO/thread scheduling.
+### TL;DR
 
-- Comment pulse  
-  - Correctness is top priority → author uses formal proofs, fuzzing, external testers; already found ~100 pgrust and ~20 Postgres bugs — counterpoint: only ~15% covered.  
-  - Users want advanced planning and scheduling → excitement about adaptive planning, plus questions on IO and thread schedulers to fix noisy-neighbor workloads.  
-  - Adoption remains debated → many doubt organizations will trust a non-core fork; others argue real gains and new capabilities can override conservatism.
+pgrust 0.2 reports 30% better OLTP performance than PostgreSQL and a 300× ClickBench advantage, with its redesigned query engine contributing roughly 10×. A miniature Volcano executor shows why: processing one row per virtual `next()` call took 1.3 seconds; 1,024-row stack batches cut that to 480ms, operator fusion to 358ms, and ARM SIMD to 135ms. The benchmark used warm data, disabled PostgreSQL parallelism, and isolates only part of total database overhead. HN admired the engineering but treated correctness, production behavior, and institutional trust as harder adoption barriers than speed.
 
-- LLM perspective  
-  - View: Modern vectorized Rust engine plus Postgres compatibility echoes DuckDB/ClickHouse, but targets full SQL surface and OLTP+OLAP.  
-  - Impact: Could become an analytical replica or accelerator for existing Postgres deployments, reducing need to ETL into separate columnar systems.  
-  - Watch next: Stability under Jepsen-style tests, JIT operator fusion, WAL-based mirroring, and whether core Postgres adopts similar batching/scheduling ideas.
+### Comment pulse
+
+- The author has formally or differentially tested about 15% of the surface, finding roughly 100 pgrust bugs and 20 PostgreSQL bugs.
+- Performance work must survive real cache, I/O, and noisy-neighbor conditions; synthetic improvements do not always move production profiles.
+- Some wanted optimizations upstream — counterpoint: adaptive planning, work stealing, and architectural changes may exceed PostgreSQL’s incremental design path.
+
+### LLM perspective
+
+- View: Row-at-a-time abstraction costs become dominant when storage is fast; batching restores locality before specialization removes abstraction entirely.
+- Impact: Analytics users gain a PostgreSQL-compatible candidate, but operators inherit a new implementation’s correctness and continuity risk.
+- Watch next: Publish full ClickBench configuration, query-level results, WAL mirroring readiness, scheduler behavior, verification coverage, and JIT details.

@@ -2,15 +2,18 @@
 
 - Score: 359 | [HN](https://news.ycombinator.com/item?id=49211386) | Link: https://patronview.com/news/99-percent-of-my-website-traffic-is-bots/
 
-- TL;DR  
-  - A 1.5M‑page philanthropy database found ~214 bot page loads per human view, mostly from SEO, AI crawlers, and residential botnets. Using Cloudflare WAF, the author now blocks whole countries, data-center ASNs, misbehaving AI crawlers, empty/ancient user-agents, and rate-limits everything else, judged by a “pages crawled per visitor referred” metric. Bots generate 99% of traffic and most cost. HN debates Cloudflare as gatekeeper, harm to atypical users and tools, hosting choices, and LLMs freeloading on web content.
+### TL;DR
 
-- Comment pulse  
-  - Cloudflare as de facto gatekeeper → owners outsource access control; JS-free, old-browser, or scripted access often blocked, so real users silently lose information access.  
-  - Alternative defenses like Anubis proof-of-work → add friction and slow sites; scrapers can afford CPU, humans on phones pay the latency and battery cost.  
-  - Cost focus → use cheaper static/VPS hosting instead of Cloudflare D1; others report Claude fetching 200k+ pages for 0–1 referrals—counterpoint: LLMs’ value isn’t direct traffic.
+PatronView’s owner found server logs showing 1.28 million pages served in a week against 5,977 analytics pageviews—about 214 unobserved loads per visible one. After waves from hundreds of thousands of IPs, declared AI crawlers, cloud hosts, and residential proxies, he built Cloudflare rules that block low-value bots and challenge datacenters, stale browsers, and abnormal rates. Claude once fetched 35,000 pages per referred visitor; Amazon reached 117,000 daily requests. The rules reduced traffic with few human solves, but require continual tuning and motivate pay-per-crawl economics.
 
-- LLM perspective  
-  - View: “Pages crawled per visitor” is a pragmatic metric; site owners can justify or deny bots based on measurable reciprocity.  
-  - Impact: Stricter bot blocking and Cloudflare-style controls will increasingly marginalize atypical clients, headless tools, and research crawlers without clear governance.  
-  - Watch next: pay-per-crawl markets, standardized crawler identities, and browser-level consent signals could rebalance incentives between site operators and AI/search platforms.
+### Comment pulse
+
+- Critics warned Cloudflare-based gatekeeping excludes legitimate scripts, JavaScript-disabled users, VPNs, old systems, and regions.
+- Others recommended proof-of-work or cheaper hosting — counterpoint: determined headless and residential scrapers can absorb friction or mimic humans.
+- Commenters distinguished occasional public-data collection from repeated industrial recrawling that externalizes infrastructure costs.
+
+### LLM perspective
+
+- View: Referral-adjusted crawl volume is a practical value metric, though not a universal access principle.
+- Impact: Small publishers increasingly need edge defenses or must subsidize machine consumption.
+- Watch next: Pay-per-crawl adoption, residential-proxy defenses, and false-positive measurements.
