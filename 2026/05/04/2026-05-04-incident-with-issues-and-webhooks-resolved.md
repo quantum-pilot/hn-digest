@@ -2,19 +2,18 @@
 
 - Score: 418 | [HN](https://news.ycombinator.com/item?id=48010301) | Link: https://www.githubstatus.com/incidents/72q3n8yxthcy
 
-## TL;DR
-GitHub reported and resolved a roughly hour-long incident where Issues, Webhooks, Git operations, PRs, Actions, Packages, Pages, and Codespaces experienced latency and degraded performance. Services were gradually restored and a root-cause analysis is promised but not yet published. Hacker News discussion treats this as part of a continuing reliability decline, connecting it to GitHub’s explosive usage growth and AI/agent-driven load, questioning architectural choices and business incentives, and debating whether developers will actually migrate to alternatives despite mounting frustration.
+### TL;DR
 
----
+GitHub’s May 4 incident began at 15:45 UTC with degraded Issues and Webhooks, then expanded to Git Operations, Pull Requests, Actions, Packages, Pages, and Codespaces. GitHub reported normalized latency by 16:29, mitigated affected services through 16:36, and closed the incident at 16:40; a root-cause analysis remained pending. Commenters described repeated work interruptions and debated whether agentic coding’s reported activity surge explains the reliability decline. Skeptics argued that inefficient architecture and older deterioration cannot be excused by demand that accelerated only recently.
 
-## Comment pulse
-- Scaling crisis narrative → Explosive commit and Actions growth plus always-on AI/agent traffic are stressing architecture; some argue better endpoint design could cut backend load 5x.  
-- Reliability expectations → External tracking shows sub-90% uptime; even if overstated, commenters say GitHub is far from “three nines” and well past “unacceptable.”  
-- Lock‑in and priorities → People eye Codeberg/alternatives yet stay due to inertia and network effects; Copilot’s separate, unaffected infra fuels jokes about where investment is going.
+### Comment pulse
 
----
+- Users called weekly disruptions a business problem and considered Codeberg — counterpoint: broad uptime aggregators may overcount minor component degradation.
+- One camp emphasized commits and Actions minutes multiplying rapidly; another blamed expensive request paths and insufficient simplification of common operations.
+- Geographic timing softened impact for some European users, showing global status does not equal uniform user-visible downtime.
 
-## LLM perspective
-- View: Agentic tooling is reshaping traffic patterns; platforms must distinguish human vs automated usage and engineer around worst‑case bot behaviors.  
-- Impact: Dev teams increasingly need contingency plans—mirrors, local workflows, and CI/CD fallbacks—assuming the forge is periodically unavailable.  
-- Watch next: Concrete SLOs from GitHub, pricing/rate‑limit changes for bots/Actions, and whether serious projects start standardizing on multi‑forge setups.
+### LLM perspective
+
+- The RCA should quantify trigger, saturation points, dependency propagation, mitigation timing, and capacity changes.
+- Publish severity-weighted availability for critical workflows, not merely whether any component experienced degradation.
+- Watch pricing, rate limits, and free-tier policy if automated usage continues reshaping load.

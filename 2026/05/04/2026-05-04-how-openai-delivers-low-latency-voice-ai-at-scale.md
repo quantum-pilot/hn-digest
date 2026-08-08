@@ -2,19 +2,18 @@
 
 - Score: 221 | [HN](https://news.ycombinator.com/item?id=48013919) | Link: https://openai.com/index/delivering-low-latency-voice-ai-at-scale/
 
-## TL;DR
-OpenAI explains how it serves real-time voice AI (ChatGPT voice, Realtime API) to hundreds of millions of users over WebRTC while running everything on Kubernetes. Traditional “one UDP port per session” WebRTC doesn’t scale well in cloud clusters (port exhaustion, security, autoscaling, and state stickiness). They instead use a split design: a stateless UDP relay with a tiny public port footprint plus a stateful “transceiver” that owns WebRTC state. Routing is encoded into ICE ufrag, enabling first-packet steering, global relays near users, and consistently low latency without changing client-side WebRTC.
+### TL;DR
 
----
+OpenAI reworked its WebRTC stack for point-to-point voice sessions by separating a stateless UDP relay from stateful transceivers. Clients still use standard WebRTC through a small set of public ports; ICE username fragments encode routing hints so the relay can steer the first packet to the transceiver owning ICE, DTLS, SRTP, and session state. Geo-steered signaling and distributed ingress shorten the network path, while a narrow Go implementation avoids kernel bypass. Commenters praised the Pion-based design but stressed that transport latency cannot fix premature turn-taking or older voice-model capabilities.
 
-## Comment pulse
-- WebRTC nerds happy: OpenAI uses Pion and standard WebRTC; article praised as a great real-world scaling case and learning resource.  
-- UX complaints: ultra-fast turn-taking plus aggressive VAD makes GPT interrupt natural pauses; users want smarter pause handling or configurable delay—counterpoint: this is above-transport, not network latency.  
-- Capability gap: realtime voice stuck on older GPT‑4o; some prefer Grok or Gemini Flash Live 3.1 for smarter, tool-using conversations despite OpenAI’s superior voice stack.
+### Comment pulse
 
----
+- Users with natural pauses found responses intrusive — counterpoint: that is endpointing behavior, while low transport delay enables faster interruption.
+- Some engineers questioned optimizing WebRTC before model speed; others valued a reusable, globally scalable media foundation.
+- The cited 900 million is potential ChatGPT reach, not disclosed concurrent voice usage, limiting capacity interpretation.
 
-## LLM perspective
-- View: Smart, minimal WebRTC changes let infra scale without fragmenting client behavior or depending on exotic kernel networking.  
-- Impact: Any large voice/developer platform on Kubernetes can copy the relay+transceiver pattern to tame UDP and keep infra simple.  
-- Watch next: Better VAD/turn-taking models, user-configurable interaction timing, and deployment of frontier models into this low-latency stack.
+### LLM perspective
+
+- Measure end-to-end latency by transport, VAD, model inference, synthesis, and playback; optimize the dominant tail.
+- Offer configurable pause tolerance or push-to-talk without sacrificing rapid barge-in.
+- Publish p50/p95 setup and media latency, packet loss, relay overhead, failover behavior, and regional load.

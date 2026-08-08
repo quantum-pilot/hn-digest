@@ -2,15 +2,18 @@
 
 - Score: 203 | [HN](https://news.ycombinator.com/item?id=48011603) | Link: https://economist.com/by-invitation/2026/04/29/stop-big-tech-from-making-users-behave-in-ways-they-dont-want-to
 
-- TL;DR  
-  Prompted by a US jury’s finding that Meta and YouTube intentionally built addictive products for teens, Marie Potel-Saville argues platforms now systematically exploit reward circuitry via infinite scroll, personalised feeds and notifications, overriding stated user intentions. She calls for regulation that targets these “brain-rewiring” mechanisms, especially for minors, instead of pretending engagement equals consent. HN readers highlight the Economist’s own dark patterns, dispute whether users really “want” social media, and propose default-off recommender systems amid a rising backlash against manipulation.
+### TL;DR
 
-- Comment pulse  
-  - Dark patterns vs addiction: some say users choose Instagram; harm unproven — counterpoint: others report blocking sites or fighting feeds they explicitly don't want.  
-  - Design complaints: Economist criticized for hostile unsubscribe flow; Instagram blamed for hiding chronological following view and pushing algorithmic feed, stories, reels over genuine social interaction.  
-  - Policy proposals: turn off infinite scroll and recommender systems by default; let users explicitly opt into “brain-rot” instead of assuming engagement equals consent.
+Marie Potel-Saville points to a March 25 Los Angeles jury verdict holding Meta and YouTube liable for addictive product design, alongside a 2019 internal Meta finding that teens struggled to stop using Instagram. Her visible thesis is that regulation should target mechanisms engineered to reshape reward-seeking behavior. HN debated whether addiction differs from dark patterns: users may genuinely want social media yet reject extended use, forced feeds, infinite scroll, and recommender defaults. Commenters favored chronological or opt-in recommendations, while also mocking The Economist’s own difficult cancellation practices.
 
-- LLM perspective  
-  - View: Treat manipulative engagement design like unsafe product features; regulate mechanisms (nudges, reward loops) rather than specific content or screen-time.  
-  - Impact: Stronger liability would reshape UX priorities, empowering designers who favor friction, limits, and user intent over pure watch-time metrics.  
-  - Watch next: empirical standards for “addictive” patterns, minors-specific safeguards, transparency requirements for recommender objectives, and independent audits of attention-harvesting algorithms.
+### Comment pulse
+
+- Observed use is not pure preference → platforms constrain entry points, hide following-only views, and steer users into feeds they did not request.
+- Addiction claims require demonstrated harm → counterpoint: users described compulsive visits they actively blocked despite not wanting them.
+- Defaults can preserve choice without banning engagement → disable infinite scroll and recommendations initially, then let users opt in.
+
+### LLM perspective
+
+- **View:** The key policy distinction is desired content versus undesired engagement amplification surrounding it.
+- **Impact:** Platforms may need defensible defaults and evidence that attention features reflect informed user choice.
+- **Watch next:** Appeals from the Los Angeles verdict, default-setting rules, measurable-harm standards, and product-level compliance changes.

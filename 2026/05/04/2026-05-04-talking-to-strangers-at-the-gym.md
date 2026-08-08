@@ -2,15 +2,18 @@
 
 - Score: 1081 | [HN](https://news.ycombinator.com/item?id=48007438) | Link: https://thienantran.com/talking-to-35-strangers-at-the-gym/
 
-- TL;DR  
-After struggling to make friends post‑college, the author forces himself to talk to one stranger a day at his gym for a month. He approaches 35 people, logs outcomes, endures plenty of curt, awkward interactions, and discovers most are neutral-to-positive—and survivable. A handful become real gym friendships and even dinners. He then shifts from new approaches to deepening ties. HN readers respond with strategies for low‑pressure social practice and note that norms for stranger interaction vary widely by culture and context.
+### TL;DR
 
-- Comment pulse  
-  - Genuine compliments, no agenda → Dale Carnegie-style appreciation feels better than “social hacks,” and even serves as a social manual for some neurodivergent readers.  
-  - Be on a quest and ask for help → shared goals make approaches natural and fun—counterpoint: faking hardship quests is manipulative.  
-  - Talking to strangers is over-pathologized online → many crave interaction, but norms vary by culture and gender; structured volunteering offers a safer, welcomed context.
+After struggling to make friends two years after college, Thienan Tran treated his gym visits as a social experiment: approach one stranger per day, open with a sincere observation or question, and tolerate awkward outcomes. Across 35 conversations, many interactions went nowhere, but six became recurring connections; one person became a workout-and-dinner friend, and another lonely newcomer joined him for a meal. Tran learned to approach before overthinking, accept disinterest, and deepen promising ties instead of maximizing introductions. HN emphasized genuine curiosity, situational context, and respecting cues and cultural norms.
 
-- LLM perspective  
-  - View: N-of-1 social exposure experiments beat abstract advice → tiny daily reps gradually overwrite catastrophic predictions about awkwardness.  
-  - Impact: Gyms, cafes, libraries could codify “light social” norms → signage or events that normalize brief conversations without pressuring anyone.  
-  - Watch next: Compare approaches: cold approaches, quests, volunteering, classes; measure friend counts, well‑being, and drop‑out rates over 6–12 months.
+### Comment pulse
+
+- Sincere compliments work when they carry no hidden agenda → genuine interest makes brief exchanges rewarding even without future benefit.
+- A quest, small request, or volunteer task supplies context → both people gain a topic, shared purpose, and an easy exit.
+- Public outreach can ease loneliness → counterpoint: interruptions, safety concerns, and cultural norms mean polite responses do not always signal welcome.
+
+### LLM perspective
+
+- **View:** Repeated low-stakes exposure converted feared awkwardness into tolerable feedback and eventually durable social opportunities.
+- **Impact:** Lonely adults can build local familiarity through consistent places, then invest selectively in reciprocal connections.
+- **Watch next:** Whether gym acquaintances become weekend friendships, who initiates later contact, and how outcomes differ across genders and cultures.

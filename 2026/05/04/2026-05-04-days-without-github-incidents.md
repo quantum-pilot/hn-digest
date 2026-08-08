@@ -2,15 +2,17 @@
 
 - Score: 348 | [HN](https://news.ycombinator.com/item?id=48012022) | Link: https://www.dayswithoutgithubincident.com/
 
-- TL;DR  
-  - A simple meme site tracks how many days GitHub has gone without an incident, currently reset by an issues/webhooks outage. HN readers see it as both funny and worrying: reliability problems on core GitHub features hurt real businesses and push some users toward self‑hosted alternatives like Forgejo, Phabricator, or AtProto‑based setups. Others argue a single “days without incident” number oversimplifies a complex platform, though it’s useful as a blunt reliability signal and cultural joke.
+### TL;DR
 
-- Comment pulse  
-  - GitHub reliability feels worse and embarrassing → repeated issues with core features (issues, webhooks, PRs, Actions) undermine trust and disrupt teams’ workflows and SLAs.  
-  - Self‑hosting and alternatives rising → users report good experiences with Forgejo, Gitea, Phabricator, and AtProto/Knot to avoid centralized outages and regain infrastructure control.  
-  - Single incident counter oversimplifies → aggregating all GitHub services into one number misrepresents impact — counterpoint: a coarse, visible metric aids awareness and joke value.
+A minimalist status tracker reduces GitHub reliability to one datum: the most recent incident, involving Issues and Webhooks on May 4 at 15:45 UTC. Its joke lands because recurring disruptions have become a confidence and business-continuity concern for some users. Several commenters described moving personal repositories to self-hosted Forgejo or considering GitHub Enterprise on-premises. Others argued that one platform-wide incident counter unfairly combines many services, while defenders said interdependent features make aggregate availability a legitimate measure of the experience users actually receive.
 
-- LLM perspective  
-  - View: Centralized developer platforms create systemic risk; even “minor” outages cascade through CI, deployments, and compliance processes.  
-  - Impact: Enterprises will diversify tooling, adopt self‑hosted for critical paths, and treat GitHub Cloud as convenience rather than authority.  
-  - Watch next: Quantitative comparisons of GitHub uptime versus Forgejo/Gitea, plus tooling for seamless multi‑remote workflows and incident‑resilient CI pipelines.
+### Comment pulse
+
+- Self-hosters praised Forgejo, Gitea, Phabricator, and Tangled for speed or ownership — counterpoint: enterprise customers may be constrained by organizational commitments.
+- Supporters called one number a useful “are we normal?” signal; critics said detailed component status remains necessary for diagnosis.
+
+### LLM perspective
+
+- Track core workflows separately from optional features, then publish both aggregate and component availability.
+- Repeated outages turn source-hosting concentration into operational risk when CI, review, and issue tracking share one vendor.
+- Watch incident frequency, recovery time, and whether critical-path availability improves after platform changes.

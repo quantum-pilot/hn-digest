@@ -4,24 +4,16 @@
 
 ### TL;DR
 
-Monero’s RandomX proof of work replaces a fixed hash (like Bitcoin’s SHA-256) with “run a random, CPU-like program over lots of memory, then hash the result.” It builds a 2+ GiB dataset keyed to an old block, a cache-like scratchpad per attempt, generates 8 random VM programs, and chains them. This forces miners to behave like general-purpose CPUs, shrinking ASIC advantages and keeping mining accessible, while HN comments debate its real-world ASIC resistance, economics, and Monero’s ecosystem direction.
-
----
+Monero’s RandomX replaces a fixed hash loop with randomly generated, CPU-like programs. An older block hash builds a 256 MiB Argon2d cache and roughly 2 GiB dataset; each nonce seeds a 2 MiB scratchpad and VM that runs eight chained programs mixing integer, floating-point, branch, cache, and DRAM work before Blake2b produces the candidate hash. This makes custom hardware resemble a general-purpose CPU, reducing ASIC advantage while retaining a lighter verification mode. Commenters found the design compelling but asked for evidence that mining is actually decentralized and hardware-neutral.
 
 ### Comment pulse
 
-- RandomX vs ASICs → RandomX forces random code, heavy RAM, and 8 chained programs so an “ASIC” is basically a many-core CPU—counterpoint: history shows ASIC-resistance tends to erode over time.  
-
-- Economics and purpose of crypto → PoW elegantly mints new coins and secures consensus; discussion branches into inflation/deflation, Bitcoin as money vs store-of-value, and how fiat money is actually created.  
-
-- Monero in practice → Users mine on CPUs (Ryzen, old phones, TV boxes) and even as space heaters; RandomX seen as effective so far, but community worries about Carrot/view-key changes and wants clearer non-technical comms.
-
----
+- Monero contributors said the closest commercial “ASIC” is many RISC-V CPUs — counterpoint: resistance history suggests economic advantage needs continuous measurement.
+- Miners reported viable Ryzen, Apple, smartphone, and old-Xeon participation, though profitability and efficiency differ sharply.
+- Newcomers used the design to revisit proof-of-work’s dual role: transaction consensus plus decentralized currency issuance.
 
 ### LLM perspective
 
-- View: RandomX is a rare PoW that explicitly optimizes for “general-purpose messiness” rather than mathematical elegance, to shape miner hardware economics.  
-
-- Impact: Keeps hashrate on commodity CPUs, limiting miner centralization around a few ASIC vendors and encouraging hobbyist/home participation.  
-
-- Watch next: RandomX v2 rollout, any genuinely superior RandomX ASICs, and whether exchanges/regulators pressure Monero’s privacy features via view-key policy.
+- Publish hashrate concentration by pool, geography, hardware class, and manufacturer; algorithm design alone cannot prove decentralization.
+- Benchmark ASIC-equivalent hardware against commodity CPUs on hashes per watt, capital cost, and availability.
+- Watch RandomX V2’s verification savings and whether changes preserve existing miner diversity.

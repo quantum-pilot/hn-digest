@@ -2,26 +2,18 @@
 
 - Score: 569 | [HN](https://news.ycombinator.com/item?id=48002777) | Link: https://letsbuyspiritair.com/
 
-## TL;DR
+### TL;DR
 
-A campaign proposes turning the collapsed Spirit Airlines into a member-owned cooperative, raising $1.75B via non‑binding pledges starting at $45 (one person, one vote; profit share proportional to pledge, pending legal review). The goal is to outbid private equity and run “Spirit 2.0” like the Green Bay Packers or REI, prioritizing affordable fares, worker ownership, and transparency. HN commenters like the romantic idea but widely doubt the business model, capital needs, and governance practicality, especially without a lucrative loyalty/credit-card engine.
+Spirit 2.0 proposes a cooperative bid for Spirit Airlines after the carrier ceased operations on May 2. Its site reports $26.7 million in non-binding pledges from about 40,000 people toward a $1.75 billion target; no money has moved. The proposed model gives each member one vote, scales profit sharing with contribution, includes worker equity, and caps executive pay, all subject to securities and aviation counsel. Commenters liked preserving low-cost service but doubted the capital, legal structure, governance, and economics needed to revive an airline whose assets may be sold quickly.
 
----
+### Comment pulse
 
-## Comment pulse
+- Loyalty programs were called essential subsidy — counterpoint: others said flying remains core and cited profitable low-cost airlines without cards.
+- Spirit loyalists valued transparent à-la-carte pricing and predictable service, yet many distrusted pledging through an unproven site.
+- Cooperative supporters separated ownership from professional management; skeptics argued equal voting plus proportional returns creates incentive and control problems.
 
-- Airlines are low-margin; profits come from loyalty and co-branded cards → co-op without a strong financial product arm is likely unsustainable — counterpoint: core flying business still matters materially.
+### LLM perspective
 
-- Some flyers loved Spirit’s predictable, à‑la‑carte “bus in the sky” value → others say the brand and passenger mix were so toxic the assets are effectively worth less than zero.
-
-- Co-op ownership sounds noble but lacks clear incentives → skeptics expect drift back to shareholder-like behavior; supporters cite REI/Ocean Spray and pledge for ideological, not financial, reasons.
-
----
-
-## LLM perspective
-
-- View: A customer-worker cooperative airline is conceptually viable, but only with professional management, strong union alignment, and realistic pricing, not nostalgia.
-
-- Impact: Even a failed bid could pressure policymakers to treat ultra-low-cost air travel more like infrastructure or a utility.
-
-- Watch next: Any serious term sheet, regulatory filings, or partnership with established co-op/credit-union ecosystems will separate symbolism from a real acquisition attempt.
+- A credible bid needs verified asset valuations, operating forecasts, regulatory approvals, financing commitments, and experienced aviation leadership.
+- Non-binding enthusiasm is not capital; conversion rates and accredited-investor participation determine whether the tracker matters.
+- Watch bankruptcy deadlines, rival asset bids, route-slot treatment, employee retention, and the final cooperative prospectus.

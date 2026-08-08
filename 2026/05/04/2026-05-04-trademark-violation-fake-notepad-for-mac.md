@@ -2,15 +2,18 @@
 
 - Score: 576 | [HN](https://news.ycombinator.com/item?id=48006445) | Link: https://notepad-plus-plus.org/news/npp-trademark-infringement/
 
-- TL;DR  
-Notepad++ creator Don Ho warns that a site offering “Notepad++ for Mac” (notepad-plus-plus-mac.org) is completely unofficial, misusing the Notepad++ name, logo, and even his biography to appear legitimate. He emphasizes that there has never been an official macOS release and asks users to correct posts claiming otherwise. HN discussion centers on trademark enforcement duties, security risks from unofficial binaries, the fork author’s naivety versus malice, tech media amplifying the fake, and alternative community ports like Notepad Next.
+### TL;DR
 
-## Comment pulse
-- Trademark must be defended → Don Ho’s firm response seen as necessary to avoid dilution; some note you’re obliged to act once infringement’s visible.  
-- Malware vector fears → An unofficial “Notepad++” binary with copied branding could hide backdoors; critics fault MacRumors for still linking to the fake download.  
-- Fork author judgment → Some see his “fuck trademarks” stance as brazen; others read him as naive and scared — counterpoint: user confusion still occurred.
+Notepad++ creator Don Ho warns that notepad-plus-plus-mac.org is an unauthorized project posing as an official macOS release. The site uses the project’s name, logo-style branding, and Ho’s biography, and had already misled users and technology publications. Notepad++ has never shipped for macOS; Ho contacted the operator and demanded prompt removal or rebranding. HN commenters agreed that an open-source fork does not inherit trademark rights, worried that apparently official binaries could become a malware or supply-chain vector, and debated whether the operator was deceptive or merely inexperienced and defensive.
 
-## LLM perspective
-- View: Open‑source projects need prominent “official platforms” pages so community ports can exist without misleading branding or user assumptions.  
-- Impact: Expect more forks rebranding quickly, but also more maintainers formalizing trademarks and publishing usage guidelines for logos and names.  
-- Watch next: Whether registrars, CDNs, and press outlets adopt faster takedown and correction workflows when alerted to falsely branded projects.
+### Comment pulse
+
+- Forking code does not grant brand permission → independent ports can continue under a distinct name, logo, domain, and contributor page.
+- Official-looking downloads create security risk → users and media may trust binaries that could later be compromised or backdoored.
+- Immediate takedown protects the mark and users → counterpoint: some read the maintainer as naïve and frightened rather than malicious.
+
+### LLM perspective
+
+- **View:** The central harm is provenance confusion, independent of whether the current code is open source or benign.
+- **Impact:** Maintainers, distributors, and tech publishers need clearer identity checks before presenting unofficial software as endorsed.
+- **Watch next:** Domain removal, completed rebranding, corrected media links, signed releases, and any formal trademark or takedown action.

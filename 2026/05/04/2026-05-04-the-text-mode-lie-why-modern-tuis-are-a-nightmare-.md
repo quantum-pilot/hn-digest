@@ -3,18 +3,17 @@
 - Score: 284 | [HN](https://news.ycombinator.com/item?id=48002938) | Link: https://xogium.me/the-text-mode-lie-why-modern-tuis-are-a-nightmare-for-accessibility
 
 ### TL;DR
-Modern “text” apps in terminals are often less accessible than GUIs. Traditional CLIs stream text linearly, which kernel-level screen readers handle well. React-style TUI frameworks instead treat the terminal as a 2D canvas, constantly diffing and redrawing. This makes cursors jump, floods screen readers with noisy updates, and can introduce multi‑second input lag or even crashes when histories grow. Older tools work because they let users hide the cursor, constrain focus, or use terminal scrolling regions. Ignored accessibility bugs—and “stale bot” closures—compound the harm.
 
----
+The author argues that terminal software is not automatically accessible: linear CLIs produce a chronological stream, while modern TUIs treat character cells as a reactive grid. Framework-driven redraws move the cursor through timers, spinners, and history, causing Speakup or NVDA to announce fragments, destabilize, or lag as conversations grow. Older tools remain usable when cursor noise is disabled, focus stays single-column, or VT100 scrolling regions update minimally. HN largely agreed that many TUIs emulate GUIs poorly, though defenders cited SSH portability, keyboard-first workflows, discoverability, and easier cross-platform distribution.
 
 ### Comment pulse
-- Modern TUIs mimic DOS/WordPerfect‑era faux‑window systems, layering escape codes; accessibility and usability end up no better than ancient text GUIs.  
-- TUI popularity: devs already live in terminals, ssh works everywhere, cross‑platform packaging is easy, and TUIs dodge Electron’s bloat stigma — counterpoint: many still prefer plain CLIs or web UIs.  
-- Maintainers argue “Closed” can mean “not working on this now,” but critics see auto‑closing accessibility bugs in corporate projects as effectively burying them.  
 
----
+- A terminal grid is effectively a GUI canvas → screen readers need stable focus and semantic updates, not visually optimized cursor choreography.
+- TUIs offer practical distribution advantages → they work over SSH, launch beside shell workflows, and avoid fragmented native-GUI packaging.
+- Closing stale accessibility issues may reflect backlog semantics → counterpoint: corporate maintainers still leave affected users without a roadmap or usable product.
 
 ### LLM perspective
-- View: Treat “terminal = accessible” as false; design explicitly for screen readers, or default to simple streaming CLIs.  
-- Impact: TUI framework authors and dev‑tool vendors need cursor‑less/headless modes and stricter guidance on redraw, focus, and dynamic content.  
-- Watch next: Benchmarks comparing screen‑reader behavior across TUIs, emergence of accessibility‑first TUI primitives, and policy pressure on large vendors’ terminal tooling.
+
+- **View:** Accessibility requires an explicit rendering contract; character output alone provides no semantic structure.
+- **Impact:** Framework authors need reduced-motion, no-spinner, cursor-stable, transcript, and screen-reader modes as first-class capabilities.
+- **Watch next:** Screen-reader regression tests, redraw-volume benchmarks, accessible-mode adoption in Gemini CLI, and documented terminal semantics.

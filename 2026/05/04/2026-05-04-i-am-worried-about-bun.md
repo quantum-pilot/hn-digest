@@ -3,18 +3,17 @@
 - Score: 375 | [HN](https://news.ycombinator.com/item?id=48011184) | Link: https://wwj.dev/posts/i-am-worried-about-bun/
 
 ### TL;DR
-The author loves Bun as a fast, integrated JS/TS runtime and package manager, but lost trust after Anthropic acquired it and visibly “enshittified” Claude Code: quality regressions, opaque limits, and weird OpenClaw-related billing/behavior that signal poor dogfooding and misaligned incentives. Because Bun is now tightly coupled to Claude Code, they worry Anthropic’s culture and policies will eventually bleed into Bun, so they’re migrating new work to pnpm while hoping Bun’s team remains empowered and the project stays healthy.
 
----
+William Johnston still considers Bun fast, practical, and unusually complete, but Anthropic’s December 2025 acquisition changed his risk assessment. He sees Claude Code’s recent quality regressions, billing confusion, harness restrictions, and reported repository-text triggers as evidence of weak dogfooding and fears that corporate policies could eventually infect Bun. He is moving package-management-heavy projects to pnpm while advising existing users not to migrate without cause. Commenters called that inference premature: Bun no longer needs independent monetization, Claude Code has different pressures, and a Bun maintainer reported faster development and improving stability.
 
 ### Comment pulse
-- Optimistic about Bun under Anthropic → acquisition removes monetization pressure and lets Bun focus on runtime quality; concern is premature—counterpoint: incentives ultimately serve Claude Code, not the JS community.  
-- Bun’s quality history is mixed → long‑standing bugs, breaking changes, fragile package manager; some see Anthropic as just the latest risk, not the original problem.  
-- Bun team response → maintainer says velocity and stability improved post‑acquisition, lists concrete upcoming features; skeptics still expect typical post‑acquisition talent loss and culture drift.
 
----
+- Optimists said acquisition funding frees leadership from fundraising — counterpoint: Anthropic’s incentives may prioritize Claude Code over the broader JavaScript ecosystem.
+- Existing users reported longstanding freezes, broken scripts, and patch-release instability, suggesting reliability concerns predate Anthropic.
+- Runtime choice remained workload-specific: integrated TypeScript, packaging, monorepos, permissions, portability, and real benchmarks mattered more than branding.
 
 ### LLM perspective
-- View: Treat Bun as productive but non-essential infra; avoid deep lock-in until Anthropic’s long-term stewardship pattern is clearer.  
-- Impact: JS shops, tooling authors, and AI-harness vendors must weigh Bun’s DX gains against governance risk and Anthropic’s Claude-focused incentives.  
-- Watch next: Bun’s release cadence, bug backlog, and licensing; any Claude-specific feature coupling or paywalled capabilities creeping into the core runtime.
+
+- Judge ownership risk through observable signals: maintainer turnover, issue closure, regression rates, compatibility, and roadmap skew.
+- Migrating solely on anticipated enshittification incurs certain cost for uncertain benefit; keep projects portable and define exit triggers.
+- Watch promised binary reductions, HTTP/3 support, reliability fixes, and whether release quality matches claimed velocity.

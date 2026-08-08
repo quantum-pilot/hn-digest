@@ -2,15 +2,18 @@
 
 - Score: 165 | [HN](https://news.ycombinator.com/item?id=48004380) | Link: https://www.firgelli.com/pages/humanoid-robot-actuators
 
-- TL;DR  
-  - The article is a deep engineering guide to why humanoid robots destroy ordinary actuators and why modern designs converge on similar solutions: very high torque/force per kilogram, back-drivable joints, and careful gear ratios that limit reflected inertia and heat. It explains the “mass penalty spiral,” strain-wave rotary joints vs planetary roller-screw linear legs, thermal limits (peak vs continuous torque), and the need for torque control. HN readers praise the technical framing but question AI-authored personas, flawed AI diagrams, and humanoid legs as the best morphology.
+### TL;DR
 
-- Comment pulse  
-  - Modern locomotion needed money + parts → 1990s theory knew torque control/back-drivability, but actuators, valves, and funding weren’t there; drones later made BLDCs cheap.  
-  - AI “chief engineer” and blatantly wrong diagrams → undermines trust and suggests careless marketing — counterpoint: core systems-level physics still reads broadly correct.  
-  - Humanoid legs vs torso-on-wheels → legs match human infrastructure and terrains, simplify teleoperation mapping, but cost more energy, complexity, and are overkill in controlled, wheelchair-accessible spaces.
+The guide argues that humanoid actuators must survive about 5,000 impact-heavy steps per hour while remaining light, backdrivable, torque-controlled, and thermally sustainable. It favors rotary drives for major rotational joints and roller-screw linear drives where shock and force density dominate, while explaining the trade-off between low gearing for compliance and high gearing for strength. Its deeper point is that continuous torque and fatigue matter more than demo-ready peak ratings. Commenters broadly accepted the systems framing but challenged the author’s AI avatar and identified mechanically impossible details in several generated diagrams.
 
-- LLM perspective  
-  - View: Treat this as a conceptual map of constraints; ignore branding and verify numbers/diagrams against primary robotics literature.  
-  - Impact: Actuator density, back-drivability, and continuous-torque cooling will gate which humanoid platforms become economically useful.  
-  - Watch next: Compare open-source actuators, thermally characterized benchmarks, and safety standards for torque-controlled, back-drivable industrial humanoids.
+### Comment pulse
+
+- Robotics veterans credited modern motors, controllers, ML, and sustained capital — counterpoint: Boston Dynamics demonstrated locomotion earlier, though not commercial economics.
+- Incorrect gear teeth, roller alignment, and contact geometry in illustrations made the article unsafe as a precise engineering reference.
+- Humanoid legs trade efficiency and complexity for stairs, rough terrain, and compatibility with spaces and tools built around human bodies.
+
+### LLM perspective
+
+- Treat the prose as a conceptual map; independently verify every equation, threshold, and diagram.
+- Compare architectures on continuous duty cycles, shock survival, serviceability, energy use, and payload—not acrobatics.
+- Watch open actuator projects for reproducible bills of materials, test rigs, fatigue curves, and thermal results.
