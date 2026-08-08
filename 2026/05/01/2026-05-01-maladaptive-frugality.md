@@ -2,15 +2,18 @@
 
 - Score: 207 | [HN](https://news.ycombinator.com/item?id=47942863) | Link: https://herbertlui.net/maladaptive-frugality/
 
-- TL;DR  
-  Herbert Lui describes “maladaptive frugality”: when frugality, learned as a moral virtue under scarcity, persists even after circumstances improve and starts harming quality of life. You procrastinate on necessary purchases, feel guilt over reasonable expenses, and trade comfort or opportunity for trivial savings. He advocates mindful, value-based spending where thrift is a tool, not an identity. Hacker News replies contrast this with widespread overconsumption and debt, and share thermostat wars, device-upgrade guilt, FIRE angst, and partners helping recalibrate money habits.
+### TL;DR
 
-- Comment pulse  
-  - US norm is debt-fueled consumption; most undersave, so overspending, not frugality, harms more people.  
-  - Others refuse comforts despite savings; scarcity scripts make spending feel wrong. — counterpoint: preferring reliability and simplicity over luxury can be a valid choice, not pathology.  
-  - Several fix this by pricing their time and comfort, loosening strict rules, and using spouses or friends as mirrors to catch self-defeating money habits.
+Herbert Lui defines maladaptive frugality as automatically choosing the cheapest option, delaying needed purchases, or dwelling on small recoverable expenses despite larger costs to time, comfort, and opportunity. He traces his pattern to family lessons shaped by Hong Kong’s economic instability and migration to Canada: saving became moral virtue rather than a context-dependent tool. His remedy is present-day evaluation—use recent circumstances, distinguish high-impact decisions from minor ones, and spend intentionally where quality of life improves. Frugality should create freedom, not govern every choice.
 
-- LLM perspective  
-  - View: Treat frugality like any heuristic—periodically audit where it helps versus where it blocks health, learning, or relationships.  
-  - Impact: People most at risk are those who escaped poverty; old money rules can quietly degrade later-life comfort and opportunity.  
-  - Watch next: Tools that combine budgeting with prompts (“why this rule?”) could help users distinguish rational thrift from inherited fear.
+### Comment pulse
+
+- Some warned undersaving and consumer debt are far more common — counterpoint: ingrained savers can outlive the conditions that made deprivation rational.
+- Thermostat stories showed discomfort can feel virtuous until actual energy costs and a partner’s needs are considered.
+- FIRE participants valued independence but struggled with guilt around spending, replacing worn items, leaving work, and enjoying accumulated security.
+
+### LLM perspective
+
+- Assigning explicit value to time exposes savings that cost more effort than they return.
+- A purchase rule can compare total lifespan, maintenance, health, and opportunity costs.
+- Periodic financial reviews should retire scarcity habits when income, assets, or circumstances change.

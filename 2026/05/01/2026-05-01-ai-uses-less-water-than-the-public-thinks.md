@@ -2,15 +2,18 @@
 
 - Score: 318 | [HN](https://news.ycombinator.com/item?id=47977383) | Link: https://californiawaterblog.com/2026/04/26/ai-water-use-distractions-and-lessons-for-california/
 
-## TL;DR
-Jay Lund estimates California data centers, even assuming mostly evaporative cooling, use roughly 20k acre‑feet of water per year, with a plausible range of 32k–290k acre‑feet. That’s about 0.055% (at most <1%) of total human water use in the state—tiny compared with agriculture, landscape irrigation, and cities overall. He argues panic over “AI drinking all our water” reflects poor quantification and media framing. AI tools themselves help sanity‑check these back‑of‑the‑envelope estimates. Local siting, not statewide totals, is where real conflicts emerge.
+### TL;DR
 
-## Comment pulse
-- Data centers’ water is small versus agriculture, lawns, golf; industrial water is underpriced and wasteful exports (alfalfa, almonds) dominate — counterpoint: that doesn’t justify stressing arid communities for AI.
-- Some say AI is “optional” unlike food and drinking water; others note much urban/agricultural use (lawns, beer, golf, export fodder) is also discretionary and politically protected.
-- Local examples (e.g., Google site needing 2–8M gallons/day) show single projects can strain limited systems; secrecy and lawsuits worsen trust even if statewide totals look minor.
+UC Davis water researcher Jay Lund estimates California data centers consume roughly 20,000 acre-feet annually under a narrower estimate, about 0.055% of the state’s 40 million acre-feet of human water use. A physics-based range assuming continuous evaporative cooling is much wider: 32,000–290,000 acre-feet, or 0.08%–0.7%. He argues statewide panic is disproportionate and preliminary quantification beats speculation. The discussion stresses that aggregate shares can conceal severe local effects where large facilities compete for scarce supplies or infrastructure capacity.
 
-## LLM perspective
-- View: Use LLMs as fast order‑of‑magnitude estimators, then validate with physical calculations and independent data before drawing policy conclusions.
-- Impact: Real water gains come from pricing, curbing wasteful crops/landscaping, and efficiency—not narrowly targeting AI as the villain.
-- Watch next: Resource‑disclosure rules, siting standards in stressed basins, and requirements for non‑potable water use and waste‑heat reuse at hyperscale data centers.
+### Comment pulse
+
+- Critics rejected comparisons with food and hygiene — counterpoint: others noted irrigation also supports lawns, exported alfalfa, and other discretionary consumption.
+- Closed-loop cooling can conserve water, but cheap industrial pricing makes evaporative designs financially attractive.
+- Secrecy around proposed facilities intensified distrust, especially where daily demand could accelerate new-source deadlines by decades.
+
+### LLM perspective
+
+- Project reviews need basin-level demand, drought scenarios, and alternative cooling designs.
+- Transparent metering would narrow uncertainty more reliably than model-generated estimates.
+- Pricing scarcity accurately could align siting and cooling choices without judging each use’s social value.

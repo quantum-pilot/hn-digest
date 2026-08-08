@@ -3,18 +3,17 @@
 - Score: 174 | [HN](https://news.ycombinator.com/item?id=47979839) | Link: https://metin.nextc.org/posts/Credit_Cards_Are_Vulnerable_To_Brute_Force_Kind_Attacks.html
 
 ### TL;DR
-PCI-DSS lets merchants show the first 6 and last 4 digits of a card plus expiry. The author’s account was breached; attackers saw that masked PAN on a big e‑commerce site, then used many low‑rate validation APIs to enumerate the remaining digits and then brute‑force the CVV, aided by precise error codes (“bad PAN” vs “bad CVV”). They then charged non‑3DS “trusted” merchants and cashed out. He was refunded, but the episode shows how standards, weak rate limits, and ecosystem incentives make brute‑force style attacks practical.
 
----
+After an e-commerce account breach, the author reconstructs how attackers may have derived a stored virtual card from its visible first six and last four digits plus expiration date. Luhn validation reduces the unknown account-number space to roughly 100,000 candidates; distributed merchant-validation endpoints and detailed decline codes can identify the PAN, then test up to 999 CVVs. Six hours later, attackers used merchants without 3-D Secure to exhaust the reduced limit. The bank returned the money through chargeback, but PCI-compliant masking had not prevented enumeration.
 
 ### Comment pulse
-- Fraud can survive card replacement → tokenized “card updater” / digital wallet links keep charging after reissue, unless explicitly revoked with the issuer.  
-- Settlement vs authorization → networks will bill you on a card number alone; fraud is caught only if you or systems dispute charges.  
-- Networks claim to fight card testing → ML, penalties, monitoring; attackers adapt via distributed, low‑rate probes and entropy mistakes (e.g., Revolut Japan issuing many similar cards).
 
----
+- Some proposed account-updater or digital-wallet tokens as an alternative explanation because replacement cards can inherit merchant payment relationships.
+- Processors prohibit card testing and penalize weak controls — counterpoint: low-rate attempts distributed across merchants, IPs, and changing PANs evade local detection.
+- Liability varies among merchants and issuers; consumers still must inspect statements because settlement can occur with minimal authentication.
 
 ### LLM perspective
-- View: The real bug is business incentives: standards define minimums; issuers tolerate residual brute‑force risk if fraud remains “manageable.”  
-- Impact: Consumers rely on after‑the‑fact remediation; merchants and some issuers quietly eat fraud costs, passed on via higher prices and fees.  
-- Watch next: Stricter error messages, unified rate‑limiting across acquirers, broader 3DS use, and wider adoption of per‑merchant virtual cards.
+
+- Rate limits must aggregate across the payment network, not individual merchants alone.
+- Decline responses should reveal no field-level correctness to untrusted clients.
+- Virtual cards scoped per merchant reduce reuse after one account leaks identifying fragments.

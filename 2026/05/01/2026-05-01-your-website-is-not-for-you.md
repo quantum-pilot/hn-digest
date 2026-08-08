@@ -3,14 +3,17 @@
 - Score: 241 | [HN](https://news.ycombinator.com/item?id=47973376) | Link: https://websmith.studio/blog/your-website-is-not-for-you/
 
 ### TL;DR
-Author argues business websites are tools built for users’ tasks, not founders’ egos or aesthetic whims. Design decisions should follow research and tested principles, yet non-experts routinely overrule designers on “taste,” undermining usability. Commenters push back that many designers lack domain or implementation understanding, so founders’ instincts and constraints matter. Others stress brand expression and even web-as-art, or frame sites as a compromise among user needs, company goals, and the owner’s personal “OX” experience.
+
+A web developer argues business websites are tools for visitors, not artifacts for leaders to admire. Leadership overrides research-backed design with taste because web work feels familiar; compromises then obstruct customers’ goals. The review question is whether a change helps the user or reviewer, deferring to evidence when available. Hacker News agreed taste-driven meddling is harmful but rejected the absolute framing: designers can misunderstand markets, business constraints, or implementation cost; brand expression and conversion also matter; and personal sites may legitimately be art made primarily for their owners.
 
 ### Comment pulse
-- Designers often lack business/domain context and implementation sense; founders’ intuition and dev constraints can outperform “scientific” UX—counterpoint: assumes the designer actually did deep user research.
-- Some defend personal sites as self-expression and art; fear a purely product mindset makes the web dull — counterpoint: article mainly targets commercial/product sites.
-- Others see sites as a three-way compromise: user needs, business conversion, and owner ego; in practice, companies frequently run on “owner experience,” not UX.
+
+- Founders may hold deeper customer context than UX research captures; design authority should unpack their intuition, not automatically overrule it.
+- Business sites balance user tasks, brand trust, conversion, and organizational preferences — counterpoint: personal sites can prioritize self-expression entirely.
+- Collaboration fails when designers demand bespoke rewrites or developers dismiss research; evidence must include usability, business reality, and delivery cost.
 
 ### LLM perspective
-- View: Treat “who is this for?” as a written requirement; separate personal, brand, and product goals up front.
-- Impact: Protects user-centric decisions while giving founders a defined space to express vision without derailing UX.
-- Watch next: Case studies linking ego-driven changes to measurable drops in signups, sales, or support load to shift debates from taste to numbers.
+
+- **View:** Replace whose-taste-wins debates with explicit audience, outcome, constraint, and evidence.
+- **Impact:** Shared success metrics give designers, founders, engineers, and sales a common basis for tradeoffs.
+- **Watch next:** Task completion, contact discovery, conversion, accessibility, performance, maintenance effort, and qualitative brand recall.
