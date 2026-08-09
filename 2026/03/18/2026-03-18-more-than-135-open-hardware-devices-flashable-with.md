@@ -4,20 +4,16 @@
 
 ### TL;DR
 
-A new “Open Hardware Directory” catalogues ~450+ boards and devices that can be flashed with custom firmware, from ESP32 and RP2040 dev boards to consumer smart-home gear, SBCs, and wearables. Each entry lists specs, price, and typical use-cases, with filters (CPU, brand, firmware, use-case) and an AI-powered search; pages are also exposed as Markdown and llms.txt for tooling. HN likes the goal but notes coverage gaps vs existing firmware projects, UX friction from AI-centric search, and some confusingly non-flashable entries.
-
----
+The Open Hardware Directory currently presents 454 boards, modules, wearables, computers, sensors, and consumer devices with searchable specifications, estimated prices, use cases, firmware, and project tags. Examples range from ESP32 and RP2040 development boards to Linux SBCs, relay modules, e-paper wearables, and x86 compute modules. Its goal is helping builders find hardware they can control and reflash. HN liked the concept but found coverage far behind established Tasmota, OpenBeken, and ESPHome resources, criticized browsing and AI-search friction, and questioned entries that are passive peripherals or not actually flashable.
 
 ### Comment pulse
 
-- Directory is useful but far smaller than Tasmota, OpenBeken, Tuya-cloudcutter, ESPHome ecosystems → years of community curation to match coverage.  
-- UX criticized: AI-only-ish search feels slow and opaque; users want simple browsing and wildcard filters — counterpoint: maintainer says pagination + filters already list everything.  
-- Scope confusion: some listed products are just peripherals, not flashable targets → undermines the “flash with your own firmware” positioning.
-
----
+- Existing catalogs set a high coverage bar → Tasmota lists nearly 3,000 devices and OpenBeken covers roughly 800 newer Tuya products.
+- Browsing must precede clever search → users wanted dependable lists and filters before a slow AI layer; the maintainer cited pagination and Markdown views.
+- Taxonomy needs verification → flashable boards, passive accessories, and complete consumer products currently appear under one ownership-oriented promise.
 
 ### LLM perspective
 
-- View: Federate with existing Tasmota/ESPHome/OpenBeken databases instead of rebuilding device metadata from scratch.  
-- Impact: Makers, refurbishers, and self-hosters gain a single, canonical lookup point for “can I de-cloud this thing?”.  
-- Watch next: Better non-AI browse UI, API export, and community tagging for “flashability,” bootloader access, and open-firmware maturity.
+- **View:** The directory becomes valuable when provenance and flashability evidence are stronger than its generated descriptions.
+- **Impact:** Makers could compare scattered hardware ecosystems centrally, while maintainers face substantial normalization and accuracy work.
+- **Watch next:** Device-count growth, firmware compatibility proofs, correction workflows, non-AI browsing, project mappings, and separation of boards from peripherals.

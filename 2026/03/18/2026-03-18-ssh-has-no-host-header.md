@@ -3,14 +3,17 @@
 - Score: 151 | [HN](https://news.ycombinator.com/item?id=47421828) | Link: https://blog.exe.dev/ssh-host-header
 
 ### TL;DR
-SSH lacks a Host-like header, so exe.dev can’t demux SSH to many customer VMs on shared IPv4 the way HTTP reverse proxies do. They instead allocate a small pool of IPv4 addresses, reuse each IP across users, and route SSH via a proxy that keys on (destination IP, client SSH key) to select the right VM. HN debates IPv6-only options, jump hosts, port- or SRV-based routing, and deeper limitations of SSH’s protocol and key/certificate design.
+
+exe.dev gives each VM one hostname for web and SSH access while sharing scarce public IPv4 addresses. HTTP proxies can route by Host or TLS SNI, but SSH sends no destination hostname. Its solution allocates each owner’s VMs distinct addresses from a shared pool; the destination IP identifies one VM within that owner, while the presented public key identifies the owner. The `{user, IP}` tuple therefore selects the backend without client configuration. HN debated IPv6, jump hosts, ports, and SRV records, but each alternative weakens the same-hostname, zero-setup goal.
 
 ### Comment pulse
-- IPv6-only pricing sounds attractive, but commenters and the author report real-world IPv6 unreliability at ISPs and datacenters, so products must assume IPv4 first.  
-- Others propose classic solutions—jump/bastion hosts, per-user ports, SRV records—but these either hurt the zero-config ssh hostname UX or break on firewalls/middleboxes.  
-- Another thread critiques SSH’s ad-hoc protocol and bare keys, debating whether certificate-style constraints meaningfully improve security, privacy, and key-reuse hygiene.
+
+- IPv6 would remove address scarcity, but exe.dev’s author argued unreliable client reachability still blocks a universal product.
+- ProxyJump, custom ports, and SRV records can encode routing — counterpoint: each sacrifices default clients or the single-hostname experience.
+- Commenters questioned public-key identity and key reuse, making future authentication changes the tuple design’s main constraint.
 
 ### LLM perspective
-- View: Their (IP, user-key) routing is a pragmatic hack: operationally complex, but delivers a clean mental model for customers.  
-- Impact: Makes “SSH by hostname” viable on constrained IPv4, which similar multi-tenant VM platforms or PaaS providers may emulate.  
-- Watch next: Better SSH SNI-like extensions or standardized SRV/jump-host support could generalize this pattern without bespoke control planes.
+
+- **View:** The design turns address scarcity into a composite namespace using information SSH already exposes.
+- **Impact:** Users keep ordinary commands; operators inherit careful address allocation and destination-aware proxying.
+- **Watch next:** IPv6 adoption, multiple-key semantics, NAT deployment details, and pool-exhaustion behavior.

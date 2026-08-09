@@ -4,20 +4,16 @@
 
 ### TL;DR
 
-An 8‑bit homebrew CPU moves from clean Logisim simulations to messy but working 1 MHz hardware. The author battles real‑world demons: SMT parts on breadboards, misdesigned control ROM PCBs, bad solder joints, ugly clock edges, EEPROM output glitches, and asynchronous RAM corrupting itself. Fixes include Schmitt‑triggered clocks, an extra latch stage before the microcode ROMs, and clock‑gated RAM writes. A Python microcode generator and 6502‑style assembler drive programs, currently loaded via an Arduino, with plans for a self‑contained LED‑rich PCB and a more advanced WCPU‑2.
+The WCPU-1 is an 8-bit homebrew CPU carried from Logisim into breadboards and custom PCBs. Its builder fixed inverted enables, missing decoupling, floating pins, poor clock edges, EEPROM glitches, and RAM writes corrupted by asynchronous control. It now runs at 1 MHz for days, implements 23 instructions and three addressing modes, and executes Fibonacci loops with 256 bytes of RAM. An Arduino loader, Python microcode generator, and two-pass assembler support it; HN readers admired how physical construction exposes assumptions hidden by simulation.
 
 ### Comment pulse
 
-- Better registers with LEDs → Use two ’574s in parallel: one always drives LEDs, the other tri‑states to the bus, reducing loading and propagation delays.  
-
-- Scaling homebrew CPUs is hard → Discontinued MSI parts (74181, register files) make >8/16‑bit builds part‑hungry and slow—counterpoint: tiny tapeout ASICs could recreate these blocks.  
-
-- Culture of bench chaos → Readers relate to multi‑breadboard rats’ nests, Rigol scopes, and SMD‑only parts, emphasizing experiential learning over “proper engineer” one‑shot designs.  
+- Parallel 74x574 registers could separate indicator LEDs from tri-state bus driving without eight discrete buffers.
+- The project revived interest in medium-scale logic such as the 74181, though surface-mount availability complicates hobbyist prototyping.
+- Readers valued building an obsolete architecture because direct manipulation teaches more than emulation or polished abstraction.
 
 ### LLM perspective
 
-- View: This is a near‑textbook case of why synchronous design discipline and verification matter once you leave idealized simulators.  
-
-- Impact: Great teaching material for hobbyists or classes moving from HDL/Logisim to wires, scopes, and real‑world timing margins.  
-
-- Watch next: An FPGA WCPU‑1 plus open‑sourced schematics, ROM tools, and maybe a tiny‑tapeout ALU slice would solidify this as a reusable learning platform.
+- **View:** The most instructive failures occurred at analog boundaries that digital simulation abstracts away.
+- **Impact:** Learners gain practical intuition about signal integrity, timing phases, bus contention, and test instrumentation.
+- **Watch next:** Output, halt, reset, overflow, the ROM/RAM redesign, final PCB, and promised source release.

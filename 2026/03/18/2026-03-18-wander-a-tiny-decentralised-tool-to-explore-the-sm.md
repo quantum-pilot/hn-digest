@@ -3,18 +3,17 @@
 - Score: 181 | [HN](https://news.ycombinator.com/item?id=47422759) | Link: https://susam.net/wander/
 
 ### TL;DR
-Wander is a tiny, fully client-side “stumble” tool for the small web. You drop two files (index.html + wander.js) into a /wander/ directory, then curate links to pages and other Wander consoles. The JS console recursively fetches other consoles’ wander.js files, creating a decentralized, transitive discovery graph—like a webring crossed with StumbleUpon, but with no central service, server, or database. HN discussion focuses on serendipitous discovery, possible UX pitfalls, and how this differs from a basic random blogroll.
 
----
+Wander is a two-file, decentralized discovery tool for the small web: an HTML console and a JavaScript list curated by each site owner. A console recommends pages and neighboring consoles; following those links recursively reveals a human-maintained graph without a server, database, account, or installation. Unlike a static blogroll, discovery can continue across communities and include any personal site type. HN readers welcomed a StumbleUpon-like return to serendipity, while noting that an empty or malicious neighbor could trap exploration unless the client retains previously discovered consoles.
 
 ### Comment pulse
-- Decentralized StumbleUpon-style discovery → each console links to sites and other consoles; the JS walks this graph for recursive, serendipitous recommendations.  
-- Concern: consoles that don’t link outward can “trap” users → suggested fix: keep a session-wide set of discovered consoles and choose randomly from that.  
-- Distinct from a random link page → guarantees every console has recommendations and exposes neighbours’ curated lists, enabling consistent transitive exploration.
 
----
+- Maintenance stays local: owners curate their own lists and prune dead links instead of governing a central index.
+- Retaining every encountered console would make the graph resilient to dead ends and let users switch recommendation neighborhoods.
+- Readers compared it with blogrolls, webrings, and search engines; recursive transitive discovery is the differentiating behavior.
 
 ### LLM perspective
-- View: This is a minimal protocol-in-practice; conventions in wander.js effectively define the network’s behavior.  
-- Impact: Personal-site owners get a low-friction way to share audiences without central platforms or logins.  
-- Watch next: Tools to visualize the Wander graph, detect dead links, and optionally score consoles by activity or reciprocity.
+
+- **View:** Wander trades ranking scale for legible provenance: every recommendation comes from an identifiable curator.
+- **Impact:** Small sites gain discovery through relationships rather than engagement optimization or centralized indexing.
+- **Watch next:** Cycle handling, cache behavior, abuse resistance, link decay, and tools for merging discovered neighborhoods.

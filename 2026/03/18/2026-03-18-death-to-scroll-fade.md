@@ -2,15 +2,18 @@
 
 - Score: 343 | [HN](https://news.ycombinator.com/item?id=47426932) | Link: https://dbushell.com/2026/01/09/death-to-scroll-fade/
 
-- TL;DR  
-  Bushell argues that “scroll fade” animations—elements fading/sliding into view as you scroll—are mostly a tacky, late-stage client request that hurts usability, accessibility, and performance. He calls out vestibular issues, cognitive overload, Core Web Vitals and SEO risks, and the fact that nobody budgets proper testing, so it’s not a “quick win” but a fragile architectural choice. Commenters broaden the rant to sticky headers, iOS/Safari scroll effects, and wish for default “reader mode” or truly static page rendering.
+### TL;DR
 
-- Comment pulse  
-  - Sticky headers that hide/show on scroll are loathed → they distract, obscure text, and resist ad-block removal—counterpoint: some prefer “reappear on scroll up” as compromise.  
-  - Reader mode is baseline → people want clutter-free, static pages, even full-page prerendered images; current “Clown Mode” defaults persist to stop sites sabotaging reader mode.  
-  - Some barely notice scroll fade, others say SaaS marketing sites and LLM-designed pages overuse it; one theory traces it to smoothing lazy-loading “blips” into animations.
+The author condemns generic scroll-triggered opacity and Y-axis animations as tacky, distracting, and deceptively expensive late-stage additions. Motion can aggravate vestibular disorders, increase cognitive load, behave inconsistently across devices, and potentially damage Largest Contentful Paint; reduced-motion preferences protect only users who know to opt out. The proposed standard is purposeful design plus real performance, usability, and bounce-rate testing—or no animation. HN broadened the complaint to sticky headers, reader modes, and iOS fades, while some argued subtle implementations can guide attention without becoming noticeable.
 
-- LLM perspective  
-  - View: Treat motion like typography—intentional, sparse, and testable; default to no scroll-linked animation unless it clearly aids comprehension or orientation.  
-  - Impact: Overuse of scroll effects harms accessibility and conversion on marketing sites, where stakeholders chase “pop” instead of measurable outcomes.  
-  - Watch next: Browser-level “strict static” modes, richer motion preferences, and design systems that flag scroll-triggered animation as high-cost, opt-in components.
+### Comment pulse
+
+- Reader mode should be normal browsing → users want content without sites manipulating visibility, motion, or viewport assumptions.
+- Sticky headers provoke similar frustration → disappearing and reappearing chrome repeatedly covers the sentence users are trying to revisit.
+- Prevalence was disputed → marketing sites and generated designs use fades widely — counterpoint: restrained versions may work precisely because users overlook them.
+
+### LLM perspective
+
+- **View:** Animation earns its cost only when it communicates state or hierarchy better than immediate, stable content.
+- **Impact:** Designers and clients inherit accessibility, cross-platform, performance, and testing obligations for an otherwise cosmetic request.
+- **Watch next:** Measured LCP and bounce effects, reduced-motion compliance, browser-level motion controls, and generated-site style convergence.

@@ -2,15 +2,18 @@
 
 - Score: 838 | [HN](https://news.ycombinator.com/item?id=47421442) | Link: https://www.otherstrangeness.com/2026/03/14/have-a-fucking-website/
 
-- TL;DR  
-  The piece is a profanity-laced argument that every business or creator should own at least a barebones website (and email list) instead of living entirely inside Facebook/Instagram. A simple page with hours, prices, menu/services, and contact details works for everyone and isn’t subject to bans, rule changes, or logins. HN commenters mostly agree, but underline how hard this still is for non-technical, time-poor owners, debate whether Google Maps/Instagram already suffice, and note many people actively prefer walled gardens.
+### TL;DR
 
-- Comment pulse  
-  - Small sites hard for normies → many steps (content, hosting, domains, updates); time-poor owners prefer delegating or platforms — counterpoint: AI lets others build/sell sites.  
-  - No website feels unprofessional → some customers see missing site as red flag and pick competitors; others say Maps/Instagram already provide hours, menus, reviews sufficiently.  
-  - Profane, nostalgic tone divides readers → some love the 90s-open-web ideal; others note most people actively prefer walled gardens and are thriving there.
+The essay urges businesses, artists, and creators to maintain a simple independent site containing essentials such as prices, menus, hours, work samples, and contact details. Social platforms exclude nonusers, harvest data, suppress outbound links, and can erase reach through bans or rule changes; a domain and mailing list provide a durable base. HN broadly favored ownership but stressed that setup, hosting, payments, updates, and even deciding what to publish exceed many owners’ time or expertise. Some businesses succeed with public Google Maps listings or social feeds alone.
 
-- LLM perspective  
-  - View: The core ask is minimal: a static page with hours, services, prices, contact; social can remain secondary.  
-  - Impact: If AI tools target true novices end‑to‑end (domain, hosting, updates), agencies and freelancers may shift to oversight, not coding.  
-  - Watch next: Look for integrations where POS or booking systems auto-generate and update sites, so owners never touch HTML, dashboards, or prompts.
+### Comment pulse
+
+- A basic site signals professionalism → customers can evaluate offerings without accounts, login prompts, or platform-specific navigation.
+- Technical simplicity is relative → exhausted owners may lack vocabulary, hosting knowledge, maintenance access, and time even for one page.
+- Social media already reaches the target audience → some shops see little incremental value — counterpoint: platform presence is not durable ownership.
+
+### LLM perspective
+
+- **View:** The useful model is a stable canonical page supplemented by platforms, not an elaborate site replacing every discovery channel.
+- **Impact:** Small organizations gain accessible information and portability, but someone must own updates, security, and domain renewal.
+- **Watch next:** Low-maintenance publishing services, cross-posting from social feeds, domain portability, and whether assistants can maintain accurate pages autonomously.

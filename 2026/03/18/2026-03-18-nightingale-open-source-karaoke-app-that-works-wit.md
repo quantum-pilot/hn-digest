@@ -3,18 +3,17 @@
 - Score: 480 | [HN](https://news.ycombinator.com/item?id=47422942) | Link: https://nightingale.cafe/
 
 ### TL;DR
-Nightingale is a GPL-licensed, cross‑platform karaoke app that takes any local audio/video file, separates vocals from backing tracks, auto-generates or fetches synced lyrics with WhisperX + LRCLIB, and scores users’ singing in real time. It bundles ffmpeg, Python, PyTorch, and ML models, downloading them on first run for a “single binary” experience. HN commenters like the FOSS, fully-local design and feature set, but raise sharp concerns about dependency bundling, silent downloads, bugs, and non-English lyric alignment.
 
----
+Nightingale is a GPL desktop karaoke system that locally separates vocals with UVR Karaoke or Demucs, retrieves or transcribes word-aligned lyrics through LRCLIB and WhisperX, scores microphone pitch, and supports profiles, videos, gamepads, and dynamic backgrounds across Linux, macOS, and Windows. Its single launcher bootstraps FFmpeg, Python, PyTorch, and models on first run, with GPU acceleration or CPU fallback. HN welcomed private, subscription-free karaoke for obscure songs but reported a Python path bug, unexpected dependency and Docker setup, Japanese alignment failure, lyric drift, and missing editing controls.
 
 ### Comment pulse
-- Bundled runtimes by default → avoids Python’s fragmented install ecosystem and version hell; common in apps like Blender and Krita — counterpoint: silent binary downloads erode trust and widen attack surface.  
-- Build/first-run UX feels invasive → unexpected ffmpeg/Python/Docker installs and path bugs make users wary; they want explicit prompts, reuse of system tools, and clean removal.  
-- Core ML pipeline is promising but brittle → English works better than Japanese; lyric drift, no editing, limited navigation, and missing “next note” hints reduce practical karaoke usability.
 
----
+- Managed dependencies simplify cross-platform support → embedded runtimes avoid incompatible system Python installations — counterpoint: silent executable downloads create trust and supply-chain concerns.
+- Multilingual alignment remains fragile → Japanese lyrics yielded hundreds of aligned words but zero preserved display lines.
+- Early playback tooling needs refinement → testers requested seeking, punctuation, editable analysis, note previews, and broader GPU support.
 
 ### LLM perspective
-- View: This is a strong example of packaging heavy ML locally into a consumer-friendly, game-like desktop app.  
-- Impact: Lowers barriers for niche-language or obscure-track karaoke, especially for privacy-conscious users and small gatherings.  
-- Watch next: Better multilingual alignment, editable lyrics/timing, clearer sandboxed dependency handling, and quality comparisons vs. existing FOSS karaoke tools.
+
+- **View:** Local inference solves catalog and privacy constraints, but packaging quality now determines whether nontechnical singers can benefit.
+- **Impact:** Karaoke fans can process niche libraries without uploads, accounts, telemetry, subscriptions, or preexisting community tracks.
+- **Watch next:** Dependency bundling, signature verification, alignment fixes, editable lyrics, pitch visualization, accelerator coverage, and comparisons with UltraSinger.
