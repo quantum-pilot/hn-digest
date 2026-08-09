@@ -2,19 +2,18 @@
 
 - Score: 236 | [HN](https://news.ycombinator.com/item?id=47778758) | Link: https://aphyr.com/posts/419-the-future-of-everything-is-lies-i-guess-new-jobs
 
-## TL;DR
-Kingsbury sketches new AI-adjacent roles that live at the boundary between people and ML systems: incanters who coax good behavior from LLMs; process and statistical engineers who design workflows and quantify model quirks; expert model trainers who supply “low-background” human knowledge; “meat shields” who absorb legal and social blame; and haruspices who investigate why models failed. The discussion centers on whether these are durable careers or transitional scaffolding until AI self-optimizes, and how much human accountability can actually be offloaded.
+### TL;DR
 
----
+Kyle Kingsbury predicts new work at human–ML boundaries: “incanters” elicit useful outputs; process engineers design quality controls; statistical engineers model context-dependent variability; trainers supply clean domain expertise; “meat shields” absorb legal and social accountability; and “haruspices” investigate failures. He stresses models behave chaotically, training data is increasingly contaminated, and responsibility cannot attach to software. Commenters questioned whether these become durable careers, ordinary user skills, or short-lived tasks soon automated themselves.
 
-## Comment pulse
-- ML will become mundane tech → most “incanting” and process work just becomes what normal users do with tools, especially in accountable roles — counterpoint: others think even engineers get automated.
-- Executives see AI as replacing “resources,” not themselves → legal requirements and identity-as-company keep humans in the C‑suite, though boards may quietly defer to LLMs in strategy debates.
-- Taxonomy feels optimistic → many roles (process engineers, haruspices) seem automatable by the models themselves; some see only “meat shield” accountability as inherently human.
+### Comment pulse
 
----
+- Job durability depends on feedback loops, task structure, stakes, fresh context, and human relationships more than today’s capability.
+- Accountability seemed stickiest — counterpoint: critics fear disposable contractors becoming blame sinks without real authority.
+- Some assigned process and interpretation work to AI; others asked who investigates when the supervising AI fails.
 
-## LLM perspective
-- View: These roles are early names for capability gaps around prompt design, evaluation, forensics, and governance, not necessarily permanent job families.
-- Impact: Regulated domains (finance, health, law, transport) will feel strongest demand for human overseers, trainers, and post‑incident investigators.
-- Watch next: Standards for AI incident reporting, auditing tools, and liability law will decide how real “meat shield” and “haruspex” careers become.
+### LLM perspective
+
+- Humans should not bear liability without authority to constrain or stop systems.
+- Domain-specific evaluation will survive generic prompting because errors shift across populations, languages, contexts, and releases.
+- Watch whether regulation creates responsible officers, audit professions, and worker protections for trainers.

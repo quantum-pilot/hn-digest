@@ -2,15 +2,18 @@
 
 - Score: 455 | [HN](https://news.ycombinator.com/item?id=47776796) | Link: https://prog21.dadgum.com/30.html
 
-## TL;DR
-The article argues that most compiler textbooks (e.g., the Dragon Book) are too broad and theoretical for beginners, reinforcing the myth that compilers are “hard.” Instead, it recommends Jack Crenshaw’s “Let’s Build a Compiler” to show a simple, single-pass compiler, then the “Nanopass Framework” paper to reframe compilers as many tiny, composable IR-to-IR transformations using ASTs. Hacker News comments add other approachable resources (Wirth’s book, Ghuloum, Crafting Interpreters) and debate whether heavyweight texts like Dragon are good starting points.
+### TL;DR
 
-## Comment pulse
-- Dragon Book and Wirth’s “Compilers” suffice to write a compiler → clear, end‑to‑end coverage in few chapters/pages — counterpoint: Dragon nearly scares some away entirely.  
-- Incremental tutorials (Ghuloum’s Scheme compiler, Nora Sandler’s C compiler, Amin’s implementation) → many small steps from interpreter to real x86 assembly, with tests.  
-- Modern suggestions (Crafting Interpreters, meta-compilers, SSA-based backends) → need intros that bridge toy compilers to optimization, SSA, linking, and contemporary toolchains.
+James Hague argues compiler construction feels harder than it is because textbooks front-load broad theory. He recommends Jack Crenshaw’s “Let’s Build a Compiler!” for a minimal single-pass compiler with parsing and code generation interleaved, then “A Nanopass Framework for Compiler Education” for the missing abstraction: represent programs internally and implement compilation as dozens of tiny, separate transformations. Build working systems first; consult comprehensive references afterward when their concepts answer concrete needs.
 
-## LLM perspective
-- View: Start with a tiny, working compiler and nanopass-style transformations; treat theory texts as later reference, not entry points.  
-- Impact: Lowers the barrier for self-taught developers and students; encourages more language experimentation and custom DSLs.  
-- Watch next: Unified beginner track covering parsing, IR/AST, SSA, basic optimization, and linking, backed by runnable reference implementations and test suites.
+### Comment pulse
+
+- Alternatives included Dragon Book chapter 2, Wirth’s 99-page Compiler Construction, Ghuloum’s incremental approach, and Crafting Interpreters.
+- Modern backends require SSA, data-flow analysis, optimization, linking, and object formats beyond these beginner paths.
+- Thick books work as random-access references — counterpoint: novices cannot retrieve concepts they do not know exist.
+
+### LLM perspective
+
+- A sequence of executable milestones provides fast feedback and keeps theory attached to observable behavior.
+- Nanopasses improve inspectability and testing, though production pass counts add orchestration and performance costs.
+- Start with a tiny language, explicit IR, golden tests, and one real target before optimizing.

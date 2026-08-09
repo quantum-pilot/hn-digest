@@ -3,14 +3,17 @@
 - Score: 204 | [HN](https://news.ycombinator.com/item?id=47784045) | Link: https://substack.com/home/post/p-193593234
 
 ### TL;DR
-A Dunwoody, Georgia resident used public-records logs to show that Flock Safety’s camera network—covering parks, schools, libraries, roads, and a Jewish community center—has been massively oversharing live and recorded video with over a thousand outside agencies and giving Flock staff “owner-level” access. Employees, especially sales staff, routinely view cameras pointed at children’s pools, gymnastics rooms, preschool areas, and playgrounds, while disabling MFA and audit trails. This contradicts Flock’s public claims and raises serious questions about oversight, legality, and local officials’ judgment.
+
+A Dunwoody resident says public-records logs show Flock employees, including sales staff, opening live or recorded feeds from public and private cameras at libraries, playgrounds, pools, fitness rooms, preschool areas, and gymnastics facilities. He argues permissions, automated sharing, missing users, disabled safeguards, and incomplete audit trails make accountability impossible. The logs record when viewing begins but not when it ends, so suspicious pauses do not prove continuous watching or intent. He urges contract cancellation and an independent audit.
 
 ### Comment pulse
-- Cloud cameras in schools and kids’ spaces are fundamentally wrong → local, on-prem video systems with strict access would avoid third-party surveillance.  
-- Local activists fought the Flock renewal → council delayed, then unanimously expanded the contract once public attention waned, eroding trust.  
-- Sales and BD staff having live access to random cameras is indefensible → defenders say they need real feeds for demos — counterpoint: create isolated demo environments.
+
+- Commenters ask why vendor salespeople can access sensitive feeds and say council renewal despite public objections deepened distrust.
+- Some favor on-premises video storage; others argue self-hosting adds expertise and camera-security burdens. — counterpoint: surveillance itself is the deeper problem.
+- One local says sustained community resistance is exhausting, and many residents struggle to see surveillance’s downstream harms.
 
 ### LLM perspective
-- View: This is not “misuse” but a predictable outcome of centralized, vendor-controlled surveillance sold as turnkey safety.  
-- Impact: City councils, school boards, HOAs, and insurers will face growing liability and political risk from such contracts.  
-- Watch next: Stronger procurement standards (on-prem options, least-privilege access, real audits) and state laws limiting third-party access to child-focused venues.
+
+- Access logs need session-end events, purpose codes, case identifiers, immutable identities, and alerts for sensitive-camera use.
+- Vendor staff should receive time-limited, camera-scoped access only through approved support workflows.
+- The article identifies anomalies, not motives; independent review should preserve logs and seek explanations before drawing conclusions.

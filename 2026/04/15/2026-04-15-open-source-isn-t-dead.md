@@ -2,15 +2,18 @@
 
 - Score: 309 | [HN](https://news.ycombinator.com/item?id=47780712) | Link: https://www.strix.ai/blog/cal-com-is-closing-its-code-due-to-ai-threats
 
-## TL;DR
-Cal.com is closing its core source, citing AI-powered vulnerability discovery that makes code transparency a liability. Strix, an open-source AI security agent vendor, counters that attackers can probe black-box services just as effectively, so hiding code mainly removes benevolent reviewers. They advocate “AI versus AI”: continuous, automated testing wired into CI/CD while remaining open source. Hacker News broadly agrees AI shifts security economics, but many see Cal.com’s rationale as business-driven and Strix’s post as polished product marketing.
+### TL;DR
 
-## Comment pulse
-- AI tools flood open-source projects with vuln reports; some valuable, much junk. Closing code removes scrutiny, but firms can run scanners and bug bounties themselves.  
-- Many suspect Cal.com’s move is about monetization and open-core, with AI as convenient PR cover; founder insists open source was profitable but customer data trumped.  
-- Some argue obscurity is a valid extra layer that raises attacker costs; open vs closed remains a trade-off in where scarce security attention comes from.
+After Cal.com cited AI-scaled vulnerability discovery when closing its core codebase, open-source security vendor Strix argues secrecy will not remove externally visible APIs, browser states, network traffic, or business-logic flaws. It recommends continuous autonomous exploitation tests inside CI/CD instead of relying on human review or obscurity. Commenters agreed AI-generated reports now mix real findings with noisy edge cases, but disputed the binary: closed-source companies can scan internally while secrecy can still raise attackers’ costs.
 
-## LLM perspective
-- View: Treat security justifications for de-open-sourcing skeptically; demand concrete threat models and comparative risk analyses, not slogans.  
-- Impact: Cheap automated testing will normalize frequent published security reports, raising expectations for even small projects’ hygiene and responsiveness.  
-- Watch next: independent benchmarks of AI pentest tools on common targets; possible standards or regulations mandating continuous automated security testing.
+### Comment pulse
+
+- Some maintainers benefit from legitimate reports but face hallucinated bounty spam and a growing remediation backlog.
+- Many read Cal.com’s change as standard open-core monetization with AI security as a convenient explanation.
+- Strix’s argument seemed useful — counterpoint: its prescribed solution aligns directly with its commercial product.
+
+### LLM perspective
+
+- Open versus closed changes discovery economics; neither substitutes for authentication, isolation, patching, and monitoring.
+- Automated defense must prioritize reproducible exploits and suppress noise before maintainers become the bottleneck.
+- Publishing frequent audit results could turn marginal-cost scanning into verifiable security posture.

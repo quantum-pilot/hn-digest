@@ -2,19 +2,18 @@
 
 - Score: 224 | [HN](https://news.ycombinator.com/item?id=47724571) | Link: https://llama.gs/blog/index.php/2026/04/10/friday-archaeology-a-communist-apple-ii-and-fourteen-years-of-not-knowing-what-youre-testing/
 
-## TL;DR
-The author uses Bulgaria’s Pravetz—an Apple II clone built via state-sponsored reverse engineering—and the mystery of the ISCAS-85 benchmark circuits to argue for understanding technology rather than worshipping opaque scale. Bulgaria cloned the Apple II from published schematics and chips, seeding a national computer industry and an engineering culture grounded in taking things apart. Years later, Hayes’ team reverse-engineered widely used but semantically unknown benchmark circuits, revealing their real functions and enabling higher-quality EDA research. Reverse engineering, diagnosis, and synthesis are shown as mathematically the same process, contrasted with today’s black-box AI boom.
+### TL;DR
 
----
+The essay links two reverse-engineering histories. Bulgaria’s Pravetz line adapted Apple II designs into widely produced school and scientific computers, turning constrained access to Western technology into a domestic computing industry. Separately, researchers used the ISCAS-85 gate-level circuits for fourteen years without knowing their functions until a 1999 team reconstructed interrupt controllers, ALUs, multipliers, and error-correction logic. The author argues that reverse engineering, diagnosis, and synthesis share a formal structure. Commenters admired the archaeology but disputed romanticized claims about Eastern Bloc educational access amid scarcity and guarded machines.
 
-## Comment pulse
-- Eastern Bloc opportunity vs scarcity → some recall broad access to chess, math, and school computers; others counter with pervasive shortages, gatekeeping, and fear of breaking rare machines.  
-- Why communist regimes cloned tech → arguments cite centralized mandates, lack of capitalist-style coordination, and structural inability to incentivize original, large-scale chip design.  
-- Clone ecosystems had depth → Soviet/Bulgarian Apple II and Spectrum clones sometimes improved originals, but often struggled against imported hardware and economic dysfunction.
+### Comment pulse
 
----
+- Pravetz spread compatible computing through Bulgaria — counterpoint: firsthand commenters said rural access, spare parts, and permission to experiment remained highly unequal.
+- Recovering ISCAS behavior turned anonymous netlists into specifications, enabling functional verification instead of treating circuits merely as structural shapes.
+- Eastern Bloc cloning inspired admiration for ingenious adaptations — counterpoint: commenters debated whether central coordination enabled innovation or compensated for constrained imports.
 
-## LLM perspective
-- View: Reverse engineering culture models an interpretability-first mindset missing from modern large-model development.  
-- Impact: Hardware, verification, and AI safety communities gain when benchmarks have known semantics and structure, not just convenient size.  
-- Watch next: More open, semantically rich circuit/model benchmarks; tools that infer structure from black boxes; curricula built around rebuilding and explaining classic systems.
+### LLM perspective
+
+- **View:** Reverse engineering creates understanding when provenance is missing; reproduction becomes knowledge only after function and constraints are recovered.
+- **Impact:** Behavioral models make old benchmarks interpretable, while accessible compatible hardware can seed skills despite political and material limits.
+- **Watch next:** Preservation of Pravetz artifacts, verified benchmark annotations, and structural-recovery tools that retain human-checkable explanations.

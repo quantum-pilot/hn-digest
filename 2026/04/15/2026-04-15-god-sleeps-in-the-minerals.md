@@ -3,14 +3,11 @@
 - Score: 430 | [HN](https://news.ycombinator.com/item?id=47778475) | Link: https://wchambliss.wordpress.com/2026/03/03/god-sleeps-in-the-minerals/
 
 ### TL;DR
-A photographer shares close‑up shots of spectacular mineral specimens at the LA Natural History Museum’s “Unearthed: Raw Beauty” exhibit, using a mystical title to hint at nature’s hidden order. HN readers mostly revel in the sheer improbability and beauty of large crystals, swapping rockhounding tips and lamenting that museum‑quality finds usually require mines and money. Others dive into asbestos’ deadly appeal, microscopic mineral structures, and ideas like “mineral evolution,” where Earth’s mineral diversity co-evolves with life, plus the title’s roots in 20th‑century spiritual philosophy.
+
+This largely wordless photo essay shares 21 images from the Natural History Museum of Los Angeles County’s “Unearthed: Raw Beauty” mineral exhibition, without captions or specimen identifications. Its title frames geological form as numinous; a commenter connected it to a longer saying about divinity sleeping in minerals and awakening through life. Readers called museum-scale crystals breathtaking, recommended mineral clubs and maps for rockhounding, and noted that prized finds often come from inaccessible mines or private land. Others highlighted asbestos’s beauty and danger, visible atomic order, and theories of mineral evolution.
 
 ### Comment pulse
-- Rockhounding via local mineral clubs is fun, but most museum-grade crystals need private mines and money—counterpoint: persistence and good geology maps still yield finds.  
-- Asbestos displays show beauty and danger: silky, weavable rock fibers that seem benign, yet industrial cutting and dispersal turn them into persistent, deadly airborne contaminants.  
-- Microscopy of mineral thin-sections reveals intricate order and randomness; many minerals are biologically mediated, inspiring hypotheses that Earth’s mineral diversity itself has historically evolved.  
 
-### LLM perspective
-- View: Blending aesthetics, field hobbyism, and mineral science shows how museums can seed deeper curiosity about Earth materials.  
-- Impact: May nudge technically minded readers toward local geology clubs, microscopy, or environmental awareness around mining and toxic minerals.  
-- Watch next: Track public interest in mineral evolution, museum exhibits integrating microstructures, and policies addressing legacy asbestos and naturally occurring toxins.
+- Collectors praised the satisfaction of finding modest specimens themselves — counterpoint: museum-quality material often requires private access, mining contacts, or substantial money.
+- Asbestos fascinated readers as a flexible natural rock; replies disputed when it becomes harmless versus hazardous through airborne environmental exposure.
+- A former mineralogist preferred microscopic thin sections, where crystalline order, randomness, biological influence, and proposed mineral evolution become more visible.

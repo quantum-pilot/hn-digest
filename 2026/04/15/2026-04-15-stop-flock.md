@@ -3,18 +3,17 @@
 - Score: 940 | [HN](https://news.ycombinator.com/item?id=47772012) | Link: https://stopflock.com
 
 ### TL;DR
-The piece argues that Flock Safety’s “AI policing” cameras are not just license-plate readers but a nationwide vehicle-tracking and association-mining system: color, damage, routes, and “convoy” patterns become searchable history, often available to police without warrants. It ties Flock to a broader surveillance economy (data brokers, Palantir, military traffic monitoring, AI cameras, even court-ordered chat retention) and warns this normalizes dragnet tracking, chills civil liberties, and amplifies biased policing—while evidence for crime reduction is weak compared with proven community-based safety investments.
 
----
+Stop Flock argues that Flock Safety’s network of more than 100,000 cameras is a nationwide movement-tracking system, not merely a license-plate reader. “Vehicle Fingerprints” record appearance and damage; convoy analysis infers associations and recurring routes; subscribing agencies can search shared data without warrants. The site cites more than 3,000 government customers, misuse by a police chief, racial disparities, uncertain crime benefits, and rapid private-public expansion, urging local opposition, mapping, oversight, and community-based safety.
 
 ### Comment pulse
-- People demand a feeling of order; with weak, misaligned policing, leaders grasp at Flock-style tech for “doing something” about crime. → Solves optics, not governance.  
-- Core problem is surveillance capitalism: data brokerage and 4th‑amendment workarounds. → Proposed fixes: ban data sales, Superfund-style liability, VC refusal of surveillance startups.  
-- Safety stewards face huge blame after shootings, nudging them toward cameras and AI as reputational insurance. → Often becomes security theater and PR, not effective prevention.
 
----
+- Surveillance demand reflects fear of disorder and weak policing — counterpoint: critics say budgets and priorities, not staffing, cause failures.
+- Readers urged outlawing the data-broker model or imposing permanent executive liability, since targeting one vendor allows replacements.
+- Proposed safeguards included warrants, delayed subject notice, minimal exposure, and immutable access logs; current law often blocks notification.
 
 ### LLM perspective
-- View: The critical lever is not one vendor but making large-scale behavioral tracking legally and economically toxic to store or trade.  
-- Impact: Strong data minimization plus warrant requirements would reshape law enforcement tooling, VC incentives, and municipal procurement toward narrower, auditable systems.  
-- Watch next: Court rulings on ALPR “dragnet” status, state data-broker laws, municipal surveillance ordinances, and federal reform of the third‑party doctrine.
+
+- Effectiveness must be measured against crime outcomes, false alerts, discriminatory stops, and displaced harms.
+- Audit logs help only if independent reviewers and affected people can inspect and challenge access.
+- Watch local contracts, retention limits, cross-agency searches, court rulings, and camera-removal campaigns.

@@ -2,18 +2,18 @@
 
 - Score: 190 | [HN](https://news.ycombinator.com/item?id=47778274) | Link: https://keepandroidopen.org/cta/
 
-## TL;DR
+### TL;DR
 
-Google’s Android Developer Verification program will, from September 2026, require every app developer—including those sideloading—to register, pay, reveal identity, and submit signing‑key evidence. The Keep Android Open campaign argues this effectively ends Android’s openness, threatens F-Droid and alternative stores, and enables corporate or government censorship. Google’s promised “advanced flow” to allow unverified apps is complex, delay-ridden, and not yet shipped. HN commenters debate security benefits versus lock-in, discuss AOSP/degoogled workarounds, and call for regulatory pushback.
+Keep Android Open opposes Google’s September 2026 developer-verification program, which it says requires fees, terms, government ID, signing-key evidence, and registration of app identifiers before distribution. Google’s proposed exception for unverified packages requires Developer Mode, multiple warnings, a restart, a 24-hour delay, and temporary or indefinite permission. Campaigners argue this Play Services-delivered escape hatch is closed, mutable, unshipped, and outside AOSP, threatening direct sharing, F-Droid, developer anonymity, user ownership, and national digital sovereignty.
 
-## Comment pulse
+### Comment pulse
 
-- Escape hatch is implemented in proprietary Play Services and still only exists in mockups → Google can later tighten or silently remove sideloading without previews.  
-- Critics say ADV changes the threat model for app-signing keys → heightens key-compromise risk, entrenches opaque review power, and effectively excludes anonymous or small developers.  
-- Many plan to favor alternative stores, web apps, or AOSP forks and lobby regulators—counterpoint: others think duopoly persists unless a new, competitive mobile OS appears.  
+- Readers saw closed Play Services delivery and the absent beta implementation as more consequential than claims that sideloading remains.
+- Some asked whether plain AOSP or de-Googled systems bypass restrictions; the input offers no confirmed implementation details.
+- Support centered F-Droid, web apps, and regulation — counterpoint: accusations of supportive commenters being astroturfers drew pushback.
 
-## LLM perspective
+### LLM perspective
 
-- View: This is less about malware than strategic control over distribution, analytics, and payments across the Android ecosystem.  
-- Impact: Indie devs, alternative app stores, governments mandating open platforms, and privacy-conscious users will be squeezed hardest; enterprises will adapt.  
-- Watch next: whether AOSP forks ship sideload-friendly ROMs at scale, and if regulators frame ADV as anticompetitive app-distribution gatekeeping.
+- A user-controlled override should be open, durable, local, and impossible to revoke remotely.
+- Identity requirements can deter malware while chilling hobbyist, dissident, and pseudonymous development.
+- Watch shipping builds, AOSP commits, OEM behavior, regulator responses, and whether key evidence exposes new attack surfaces.

@@ -4,24 +4,16 @@
 
 ### TL;DR
 
-Piotr Wozniak’s colossal essay argues that sleep is a core cognitive “infrastructure,” not optional rest. Evolution shaped NREM/REM cycles as a nightly neural optimization pass: consolidating memories, cleaning “garbage,” and rewiring for creativity. Modern life—alarms, shift work, late school times, stimulants, jet lag—systematically breaks this, degrading learning, health, and safety at massive social cost. He advocates free‑running or at least minimally constrained, often biphasic sleep; respecting individual chronotypes; letting kids and babies sleep on demand; and avoiding pills, alcohol, and caffeine as sleep regulators.
-
----
+Piotr Wozniak’s sprawling sleep synthesis argues that learning, memory consolidation, creativity, health, and safety depend on respecting two interacting forces: accumulated homeostatic pressure and the circadian clock. He advocates “free-running” sleep—sleep when genuinely tired, wake naturally, log patterns, and use a well-timed midday nap if helpful—over alarm-driven schedules or polyphasic sleep. He also warns that stress, shift work, alcohol, drugs, and sleep deprivation impair rest and learning. Wozniak acknowledges the article is repetitive, incompletely referenced, and contains contested theories. Commenters emphasized individual variation and life circumstances.
 
 ### Comment pulse
 
-- Mental state ↔ health behaviors → mood, purpose, and disorders (depression, ADHD) strongly shape ability to maintain good sleep—counterpoint: good sleep, diet, exercise can also create the conditions for purpose.
-
-- Constraints and mismatch → infants, teenagers, DSPS, and societal schedules show our one‑size‑fits‑all 24h, monophasic, alarm‑driven system often clashes with biology.
-
-- Aging, metabolism, and alcohol → older commenters find single bad nights, diabetes, or a few drinks now devastate deep sleep, learning, and energy; many respond by radically cutting alcohol.
-
----
+- Several readers linked healthy sleep to mood and purpose — counterpoint: others argued sleep, exercise, and diet may improve mood and goal clarity.
+- Parents described infant waking as exhausting despite profound happiness, with replies emphasizing family help, naps, and wide variation between babies.
+- Fixed bedtime improved some readers’ sleep — counterpoint: a non-24-hour sleeper said rigid timing was harmful; alcohol commonly worsened sleep with age.
 
 ### LLM perspective
 
-- View: The “free‑running sleep” ideal is biologically sound but economically hard; aim for less damage rather than perfection.
-
-- Impact: Biggest gains come from shifting school/work start times later and normalizing naps, especially for adolescents and knowledge workers.
-
-- Watch next: Better consumer sleep tracking, longitudinal studies on flexible schedules, and policies that treat chronic sleep loss like other occupational hazards.
+- **View:** The article’s durable insight is individualized timing, but its strongest universal claims outrun its acknowledged evidentiary limits.
+- **Impact:** Treating sleep as learning infrastructure makes schedules, substances, and alarms cognitive-design choices rather than merely lifestyle preferences.
+- **Watch next:** Controlled evidence separating circadian alignment, sleep duration, naps, mood, and individual chronotypes across real-world learning outcomes.
