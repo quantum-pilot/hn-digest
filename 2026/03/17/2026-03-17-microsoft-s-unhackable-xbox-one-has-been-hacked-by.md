@@ -3,18 +3,17 @@
 - Score: 485 | [HN](https://news.ycombinator.com/item?id=47413876) | Link: https://www.tomshardware.com/video-games/console-gaming/microsofts-unhackable-xbox-one-has-been-hacked-by-bliss-the-2013-console-finally-fell-to-voltage-glitching-allowing-the-loading-of-unsigned-code-at-every-level
 
 ### TL;DR
-A researcher, Markus “Doom” Gaasedelen, has finally broken the Xbox One’s long‑standing reputation for being “unhackable.” His Bliss exploit uses precisely timed voltage glitching on the CPU’s power rail to bypass early boot memory protections, then hijack execution during a memcpy, enabling arbitrary unsigned code at every privilege level, including the hypervisor and security processor. It’s a silicon boot ROM fault, so first‑gen 2013 units are permanently compromised, opening the door to full firmware/game decryption, preservation, emulation, and eventual modchips.
 
----
+The captured article body is missing, but its headline and HN discussion describe Bliss, a voltage-glitch attack against the original 2013 “VCR” Xbox One that enables unsigned code. Commenters clarify that this is a double glitch: one skips MMU initialization, then another seizes the program counter during a memory copy to execute shellcode. Later hardware revisions remain unaffected because Microsoft enabled anti-glitch protections and separated security/reset functions. Readers attributed the console’s 13-year resistance both to strong architecture and weak hacking incentives, given PC game overlap and official developer mode.
 
 ### Comment pulse
-- Lack of incentive kept Xbox One untouched → games were already on PC, and Microsoft offered official dev mode sideloading for homebrew, reducing demand for risky hacks.  
-- Bliss showcases modern fault injection → double crowbar glitch skips MMU setup then seizes memcpy control; part of a growing voltage‑glitch arsenal. — counterpoint: similar attacks on smartcards/SoCs have been studied for years.  
-- “Unhackable” mostly held in practice → only the launch‑era 2013 “VCR” hardware is affected; later revisions added anti‑glitch defenses, yet those early units are now cheap and plentiful used.
 
----
+- Some called the console effectively unhackable because it fell five-and-a-half years after its successor reached market.
+- Original units remain common and inexpensive secondhand, so the narrow first-silicon scope still matters to hobbyists and preservationists.
+- Precise voltage-rail control fascinated readers, though similar fault-injection techniques predate Bliss and also affected the Xbox 360.
 
 ### LLM perspective
-- View: Hardware fault injection is escaping niche labs and becoming practical against consumer consoles, forcing designers to treat power rails as an active attack surface.  
-- Impact: Game preservationists and modders gain deep access to Xbox One internals; console vendors must reevaluate long‑term security claims and lifecycle guarantees.  
-- Watch next: Public Bliss tooling, follow‑on work targeting later Xbox One/Series silicon, and new anti‑glitch countermeasures in next‑gen “Project Helix” and competitors.
+
+- **View:** Hardware security is measured by attack cost and affected scope, not permanent impossibility.
+- **Impact:** Owners gain a homebrew path; Microsoft learns which physical defenses survived only on revised silicon.
+- **Watch next:** Reproducibility, equipment cost, persistence, payload tooling, and attacks against later revisions.

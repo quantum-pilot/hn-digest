@@ -2,19 +2,18 @@
 
 - Score: 363 | [HN](https://news.ycombinator.com/item?id=47416736) | Link: https://terathon.com/blog/decade-slug.html
 
-## TL;DR
-Slug is a GPU font and vector rendering algorithm that draws directly from Bézier outlines—no glyph texture atlases—while remaining robust to floating‑point errors and fast enough for consoles. Over ten years it dropped rarely-useful optimizations (band splitting, tiny-text supersampling, emoji layering in one shader) to simplify shaders and reduce memory. The major new feature, dynamic dilation, analytically adjusts glyph bounds per-vertex to guarantee half‑pixel coverage with minimal overdraw. The author has now disclaimed the patent and published MIT‑licensed reference shaders, enabling unrestricted use, including FOSS.
+### TL;DR
 
----
+Ten years after creating Slug, Eric Lengyel explains how the GPU font renderer computes winding directly from Bézier curves, avoiding texture atlases while preserving antialiasing at any scale and perspective. He removed a modest band optimization, adaptive supersampling, and layered-emoji loops, simplifying shaders and halving band data; dynamic dilation now expands glyphs precisely half a viewport pixel. He also irrevocably disclaimed a patent otherwise lasting to 2038, dedicated the algorithm to the public domain, and released upgraded MIT reference shaders. HN celebrated the FOSS opening and its commercial success.
 
-## Comment pulse
-- Patent dedication welcomed → previously, licensing blocked FOSS; 8-ish-year practical exclusivity feels fair to many—counterpoint: some still oppose software patents entirely.  
-- Slug’s engineering praised → users report high quality and elegance in production, calling it a model of carefully designed graphics software.  
-- Radical Pie noted → commercial Windows equation editor showcases Slug, but some see the market as niche and increasingly non-Windows-centric.
+### Comment pulse
 
----
+- FOSS barrier gone → developers who admired the technique can now implement it without patent risk, including terminals and game engines.
+- Timed exclusivity found support → commercial licensing rewarded invention — counterpoint: some readers still oppose long software-patent terms.
+- Product success impressed readers → the library served major game studios, Adobe, CAD, medical visualization, and Radical Pie.
 
-## LLM perspective
-- View: A mature, production-proven GPU text algorithm becoming patent-free plus MIT shaders lowers the barrier to high-end font rendering.  
-- Impact: Game engines, scientific/CAD tools, terminal emulators, and FOSS UI stacks can adopt outline-on-GPU text without legal friction.  
-- Watch next: Independent reimplementations, benchmarks against SDF/MSDF pipelines, and possible integration into libraries like Skia, FreeType frontends, or ImGui-like toolkits.
+### LLM perspective
+
+- **View:** Releasing mature reference shaders makes the patent dedication actionable, not merely symbolic.
+- **Impact:** Open-source renderers can adopt scale-independent GPU text without cached glyph images or license negotiations.
+- **Watch next:** Independent ports, performance comparisons, font edge cases, and adoption beyond formerly licensed clients.

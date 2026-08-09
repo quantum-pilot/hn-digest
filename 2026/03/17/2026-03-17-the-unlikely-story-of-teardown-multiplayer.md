@@ -2,15 +2,18 @@
 
 - Score: 214 | [HN](https://news.ycombinator.com/item?id=47366435) | Link: https://blog.voxagon.se/2026/03/13/teardown-multiplayer.html
 
-- TL;DR  
-  Teardown’s long-awaited multiplayer seemed impossible: fully destructible voxel worlds, mods, and chaotic physics are notoriously hard to sync over networks. Dennis Gustafsson describes evolving from a bandwidth‑hungry prototype to a hybrid model: deterministic, command-based destruction plus unreliable state sync for motion within a 1 Mbit budget. They kept scripting and modding via shared server/client scripts, streamed UI as delta-encoded draw commands, enabled limited join-in-progress by replaying command logs, and spent a year merging divergent branches while preserving backward compatibility.
+### TL;DR
 
-- Comment pulse  
-  Floating-point determinism is tricky → Within one ISA you can mostly succeed; cross-CPU requires restricted ops, stable FPU modes, and avoiding aggressive compiler optimizations.  
-  Business choice praised → Shipping multiplayer as a free update, not a sequel, feels consumer‑friendly; Coffee Stain’s handling of Satisfactory/Valheim suggests solid long‑term support.  
-  Voxel-space physics curiosity → Fully discrete, grid-aligned physics looks wrong; converting voxel chunks to meshes stays pragmatic — counterpoint: some enjoy weird, intentionally discrete worlds.
+Teardown’s developers retrofitted multiplayer into a released, moddable, destructible-voxel game after an early bandwidth-heavy prototype failed. Their hybrid architecture replicates structural changes as ordered deterministic commands, while transforms and velocities use per-client prioritized, unreliable state updates capped around 1 Mbit; clients simulate locally and accept corrections. Server-run terminals stream delta-compressed draw commands, and late joiners replay a bounded command history. HN admired the achievement, especially making destruction deterministic years later, while discussion explored floating-point consistency across CPUs and why globally grid-constrained voxel physics produces awkward rotations and collisions.
 
-- LLM perspective  
-  View: Mixing deterministic command streams with lossy state sync is a strong template for networking highly dynamic, partially deterministic simulations.  
-  Impact: Shows small teams can retrofit demanding multiplayer into shipped single-player sandboxes, guiding other indies with destructible or systemic worlds.  
-  Watch next: Benchmarks or talks on their new engine’s simplified multiplayer, and whether they pursue cross-platform determinism beyond Steam networking.
+### Comment pulse
+
+- Cross-platform determinism requires controlling compilers, rounding, NaNs, underflow, and approximate instructions; practitioners disagreed on how restrictive this is.
+- Readers called the original game a technical marvel and praised adding determinism to an engine never designed for multiplayer.
+- Folding multiplayer into one product preserved the community — counterpoint: sustaining the retrofit may still require new purchases or monetization.
+
+### LLM perspective
+
+- **View:** Selective determinism replicates irreversible structure exactly while allowing transient motion merely to converge.
+- **Impact:** Existing players and mod authors gain multiplayer without splitting the installed base.
+- **Watch next:** Cross-architecture desync telemetry, late-join limits, snapping under chaos, and lessons transferred to the new engine.

@@ -2,15 +2,18 @@
 
 - Score: 493 | [HN](https://news.ycombinator.com/item?id=47408205) | Link: https://apenwarr.ca/log/20260316
 
-- TL;DR
-    - The author argues each extra approval layer slows work about 10x in wall‑clock time, because waiting and coordination dominate actual coding. AI accelerates writing code but not getting it approved, so more automation just feeds a clogged review pipeline or encourages skipping reviews and shipping low‑quality “slop.” He instead pushes Deming‑style systemic quality: fewer review layers, stronger automation, trust, and small modular teams that design quality in. HN discussion focuses on shifting reviews earlier, misaligned incentives, and keeping reviews lightweight but useful.
+### TL;DR
 
-- Comment pulse
-    - Shift-left advocates: replace reviews with upfront design sessions, dailies, pair programming, linters; 90% of issues disappear — counterpoint: architecture emerges during coding, management resists pairing.
-    - Reviews as volunteer’s dilemma: authorship gets promotions, reviewers get little credit, so people prioritize shipping; yet reviewing teaches juniors and is core to effective leadership.
-    - Optimize value/effort: keep reviews quick, focused on “does it work and not break things,” accept follow-up fixes; long nitpicky cycles just trigger the 10x slowdown.
+Approval layers multiply wall-clock latency: the author’s rule of thumb turns a 30-minute fix into five hours with peer review, 50 hours with architecture approval, and 500 hours across teams. Faster AI coding only floods that unchanged queue; simply deleting review produces unowned defects. Drawing on Deming, the proposed alternative is to eliminate whole classes of review through better systems, root-cause fixes, automation, modular interfaces, small trusted teams, and genuine stop-the-line authority. HN agreed queues and incentives matter, but disputed whether design sessions can replace discoveries made during implementation.
 
-- LLM perspective
-    - View: Treat LLMs as accelerators for refactoring, testing, and boundary experiments, not excuses to bypass human judgment or process design.
-    - Impact: Teams that shrink approval chains and invest in tests, linters, and ownership will benefit most from AI-generated speedups.
-    - Watch next: Measure delivery time and defects as teams cut reviews, and benchmark LLM refactoring plus test-generation against human baselines.
+### Comment pulse
+
+- Shift review left → pairing, design sessions, and linters prevent most late comments — counterpoint: architecture often changes only after implementation exposes constraints.
+- Review is under-rewarded → authorship earns credit while reviewers absorb blocking work, production risk, and learning responsibilities.
+- Fast approval has tradeoffs → some teams achieve minutes through priority and SLAs; others associate speed with mounting technical debt.
+
+### LLM perspective
+
+- **View:** Review should generate durable controls that prevent recurrence, not repeatedly catch identical mistakes.
+- **Impact:** AI-heavy teams need WIP limits and quality ownership before increasing code-generation capacity.
+- **Watch next:** End-to-end cycle time, escaped defects, review-queue age, modularity experiments, and whether trust survives agent-generated PRs.

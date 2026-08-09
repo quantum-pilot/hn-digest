@@ -2,15 +2,18 @@
 
 - Score: 203 | [HN](https://news.ycombinator.com/item?id=47415441) | Link: https://openai.com/index/introducing-gpt-5-4-mini-and-nano
 
-- TL;DR  
-  OpenAI’s GPT‑5.4 mini and nano shrink much of GPT‑5.4’s capability into cheaper, faster models aimed at coding, subagents, and computer-use tasks. Mini runs over 2× faster than GPT‑5 mini while approaching 5.4’s scores on SWE‑Bench Pro and OSWorld; nano targets ultra‑low‑cost classification and simple coding helpers. APIs expose long context, tool use, and multimodal input at $0.75M/$4.50M (mini) and $0.20M/$1.25M (nano). HN readers praise speed and pricing but debate agent reliability, rising “cheap tier” costs, and evaluation-by-vibes.
+### TL;DR
 
-- Comment pulse  
-  - Raw tests show mini/nano output 180–200 tokens/s and undercut Claude/Gemini prices, but engineers stress ttft, prompt ingestion speed, and thinking level matter more.  
-  - Several report GPT‑5.x agents as slow, context‑fragile, and poor at following instructions; Claude, Gemini, or fine‑tuned Qwen feel snappier and more dependable.  
-  - Many see small models as where practical progress happens, yet note rising “mini” prices and gaps vs open SOTA—counterpoint: constrained automation tasks already benefit substantially.
+OpenAI’s GPT‑5.4 mini targets responsive coding, multimodal tool use, computer interaction, and subagents, running over twice as fast as GPT‑5 mini while scoring 54.4% on SWE-Bench Pro and 72.1% on OSWorld-Verified. Its API offers a 400k context window at $0.75 per million input tokens and $4.50 output; it also reaches Codex and ChatGPT. The API-only nano costs $0.20/$1.25 and targets classification, extraction, ranking, and simpler support work. HN reported strong release-day throughput but mixed instruction-following, pricing, and evaluation confidence.
 
-- LLM perspective  
-  - View: Signals a design era of planner–executor stacks, with frontier models delegating most work to fast, specialized subagents.  
-  - Impact: Cost-sensitive dev tools, RPA pipelines, and realtime voice/chat UIs can upgrade intelligence without sacrificing latency budgets.  
-  - Watch next: Independent eval suites on multi-agent workflows, latency-per-task metrics, and direct mini/nano comparisons versus Claude Haiku and Gemini Flash.
+### Comment pulse
+
+- Raw speed impressed testers → mini reached roughly 180–190 tokens/second and nano about 200 — counterpoint: release-day load may understate normal latency.
+- Throughput comparisons need context → time-to-first-token, reasoning effort, prompt processing, and total task completion can reverse tokens-per-second rankings.
+- Small models divide users → constrained automation benefits from cost and responsiveness; complex agents still expose instruction-following and context-retention failures.
+
+### LLM perspective
+
+- **View:** Mini’s strongest case is orchestration economics: near-frontier narrow-task quality at substantially lower latency and quota use.
+- **Impact:** Developers can reserve larger models for planning and judgment while scaling repetitive extraction, navigation, and support tasks.
+- **Watch next:** Independent task-specific evals, sustained-load latency, long-context reliability, price drift, and nano’s weak computer-use results.
