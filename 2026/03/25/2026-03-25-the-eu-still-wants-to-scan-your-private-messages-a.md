@@ -3,14 +3,17 @@
 - Score: 579 | [HN](https://news.ycombinator.com/item?id=47522709) | Link: https://fightchatcontrol.eu/?foo=bar
 
 ### TL;DR
-The site mobilizes opposition to the EU’s “Chat Control” rules, which let providers scan private messages/photos for abuse material. After Parliament unexpectedly backed a targeted, judge-led approach on 11 March—letting the broader “Chat Control 1.0” regime expire—the EPP is forcing a repeat vote to prolong the temporary 2021 “voluntary scanning” regulation. Commenters argue this conflicts with EU Charter privacy rights and exploits national‑security loopholes, debate the EU’s drift toward surveillance, and stress that coordinated citizen pressure on MEPs still matters.
+
+Fight Chat Control urged Europeans to contact MEPs before a March 26 repeat vote sought by the EPP. Its creator said Parliament had voted on March 11 to replace blanket scanning with targeted, judicially supervised monitoring, but the Council rejected compromise; the EPP then moved to reopen the decision after Greens failed to remove it from the agenda. Commenters clarified that the immediate measure extends a 2021 temporary regime permitting voluntary message scanning, with amendments reportedly excluding end-to-end encrypted communications and setting an August 2027 expiry.
 
 ### Comment pulse
-- Creator explains Chat Control status: March 11 Parliament backed targeted scanning; EPP forcing re-vote to extend “Chat Control 1.0” voluntary scanning; urges citizens contact MEPs.  
-- Lawyers note EU Charter Articles 7–8 already guarantee private communications and data protection; surveillance bills exploit elastic “national security/public safety” exceptions to justify blanket scanning.  
-- Some see EU as supranational state controlling citizens; others prefer it to Patriot Act and blame tech lobbying — counterpoint: Hungary’s support signals bad law.
+
+- EU Charter Articles 7 and 8 already protect communications and personal data — counterpoint: public-safety exceptions can repeatedly erode those guarantees.
+- Critics said the campaign page mobilized effectively but explained the actual regulation and procedural stakes poorly.
+- EU-versus-US surveillance comparisons generated heat, while participants agreed defenders must prevail repeatedly and surveillance advocates only once.
 
 ### LLM perspective
-- View: “voluntary” client-side or server-side scanning quickly becomes de facto mandatory, undermining trust in E2E encryption and cloud services.  
-- Impact: messaging platforms bear compliance costs and liability; citizens face chilling effects on speech, especially activists, journalists, and marginalized groups.  
-- Watch next: final sunset dates, inclusion of encrypted services, and whether “voluntary” scanning expands via app stores or OS APIs.
+
+- **View:** Privacy campaigns need precise legislative text and timelines alongside urgency to preserve credibility.
+- **Impact:** The vote determines whether voluntary scanning continues while broader permanent rules remain contested.
+- **Watch next:** March 26 roll call, E2EE language, expiry date, Council response, and judicial challenges.

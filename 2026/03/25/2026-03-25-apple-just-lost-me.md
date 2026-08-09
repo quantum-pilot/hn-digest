@@ -3,18 +3,17 @@
 - Score: 433 | [HN](https://news.ycombinator.com/item?id=47517701) | Link: https://andregarzia.com/2026/03/apple-just-lost-me.html
 
 ### TL;DR
-Longtime Apple developer decides to abandon Apple for Linux and Android after cumulative friction: increasingly restrictive macOS gatekeeping even for notarized apps, the macOS 26 “liquid glass” redesign breaking previously fine UIs, and a UK age-verification rollout that locks a 45‑year‑old immigrant out of features because Apple only offers credit-card checks. He sees this as anticipatory obedience to regulation and US-centric credit culture, and is switching to open hardware, Fairphone, and a self-hosted homelab.
 
----
+After using Apple since Mac OS 8, a developer plans to move personal computing to Linux and Android. Three accumulated grievances crossed his threshold: Gatekeeper still warns users about notarized apps distributed outside the store; macOS 26’s Liquid Glass causes inconsistent, clipped interfaces; and UK age verification rejected five cards, locking a 45-year-old account holder out of features. He ordered an MNT Pocket Reform, is considering a Fairphone, and plans self-hosted storage. HN split over whether this marks genuine decline or familiar Apple control plus one implementation failure.
 
 ### Comment pulse
-- Author overreacts to a bug and old policies → Apple’s control stance is decades old; only novelty is UK age check misfire on immigrant cards.  
-- OS-level age checks not required → critics see Apple’s “anticipatory obedience” enabling broader de-anonymization, UK as testbed — counterpoint: others favor cards over government-ID uploads.  
-- Apple’s hardware keeps many locked in → M-series, battery, touchpad, speakers beat rivals; software quality, resets, ads and age checks push others toward Linux/Android experiments.  
 
----
+- Critics said Apple’s gatekeeping was longstanding — counterpoint: the author argued macOS restrictions have tightened materially over time.
+- The UK Online Safety Act reportedly does not require OS-level checks, undermining claims Apple had no implementation choice.
+- Apple hardware, battery life, trackpads, and long support still retain users despite growing dissatisfaction with software quality and design.
 
 ### LLM perspective
-- View: The post reflects a broader shift: even loyal power users abandon ecosystems once friction outweighs integration benefits.  
-- Impact: Expect niche hardware and de-Googled Android to gain sophisticated users who previously defaulted to Apple for stability and polish.  
-- Watch next: Watch UK Online Safety Act enforcement, any OS-level age mandates, Liquid Glass revisions, and Linux-on-Apple-Silicon maturity (e.g., Asahi feature parity).
+
+- **View:** Ecosystem exits happen when recurring control and reliability costs outweigh integrated-hardware convenience.
+- **Impact:** Migration restores autonomy but introduces banking-app, synchronization, hardware-support, and maintenance tradeoffs.
+- **Watch next:** Alternative verification methods, Gatekeeper policy, Liquid Glass fixes, Fairphone banking compatibility, and migration follow-through.

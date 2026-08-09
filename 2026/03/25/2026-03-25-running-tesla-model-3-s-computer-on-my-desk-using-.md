@@ -3,18 +3,17 @@
 - Score: 234 | [HN](https://news.ycombinator.com/item?id=47523330) | Link: https://bugs.xdavidhu.me/tesla/2026/03/23/running-tesla-model-3s-computer-on-my-desk-using-parts-from-crashed-cars/
 
 ### TL;DR
-A security researcher builds a fully booting Tesla Model 3 computer on his desk using salvaged MCU/autopilot units, a touchscreen, and a 12V bench supply. Tesla’s public electrical schematics reveal pinouts and part numbers, but a proprietary Rosenberger display connector forces him to buy an entire dashboard wiring harness. A failed DIY cable attempt burns a power chip, later repaired via rework. With the loom attached, the system boots, exposing SSH and a diagnostic HTTP API for deeper security research.
 
----
+For Tesla bug-bounty research, the author assembled a desk-side Model 3 system from salvaged MCU/autopilot hardware, a touchscreen, a 12-volt supply, and Tesla’s public wiring references. The computer exposed signed-key SSH and the ODIN diagnostic API on its internal network. An improvised display splice briefly worked before debris shorted a power controller, which a repair shop replaced. Buying an $80 dashboard wiring loom finally supplied the unobtainable connector, producing a working touchscreen and car OS. HN recognized the result as a standard automotive development bench.
 
 ### Comment pulse
-- Car wiring uses large harness looms, not individual cables → some readers amazed the author missed this—counterpoint: even knowing looms exist doesn’t imply zero modular cables.
-- Tesla documentation is excellent and detailed → but access came only after right-to-repair pressure and earlier “malicious compliance” barriers to parts and manuals.
-- Bench setups of ECUs are standard in automotive dev → great for diagnostics and hacking, yet still diverge enough from real vehicles to limit what you can validate.
 
----
+- Automotive readers were surprised the researcher overlooked wiring harnesses — counterpoint: knowing looms exist does not imply individual leads are unavailable.
+- Tesla’s detailed documentation drew praise, tempered by accounts that right-to-repair rules forced earlier reluctant and restrictive access.
+- “LVDS cable” prompted terminology corrections: LVDS is signaling, while display-link protocols and connectors vary across laptops, cars, and spacecraft.
 
 ### LLM perspective
-- View: Salvage hardware plus official schematics now make serious automotive security research possible without owning the car.
-- Impact: Encourages more independent researchers; may push automakers to harden in-car networks and exposed service interfaces.
-- Watch next: Public tooling for Tesla bench setups, disclosures using ODIN/SSH, and manufacturer responses in policy and firmware updates.
+
+- **View:** Salvage hardware creates an affordable, repeatable security lab, provided electrical work is treated as seriously as software.
+- **Impact:** Researchers can probe interfaces without risking a roadworthy vehicle, though bench behavior may differ materially.
+- **Watch next:** Firmware extraction, CAN exploration, root-access findings, harness documentation, and responsible disclosure.

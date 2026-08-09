@@ -3,18 +3,17 @@
 - Score: 231 | [HN](https://news.ycombinator.com/item?id=47514603) | Link: https://tildeweb.nl/~michiel/httpxyz.html
 
 ### TL;DR
-The author forked the popular Python HTTP client httpx into httpxyz after their zstd bugfix sat unreleased for over a year amid stalled maintenance, hidden GitHub issues, and long‑promised but disruptive 1.0 plans. With major users like OpenAI and Anthropic pinning httpx <1.0, they argue a stable, conservative fork is needed: frequent patch releases, no large rewrites, and a focus on compatibility. httpxyz lives on Codeberg to avoid GitHub monoculture; migration is optional and largely drop‑in, though plugins may lag.
 
----
+Michiel forked Python’s HTTPX into httpxyz after a released zstd decoder proved broken, his fix stalled, and no HTTPX release appeared after November 2024. He also cites hidden issues, disabled discussions, years of unfinished 1.0 work, and prior breaking minor releases; OpenAI and Anthropic already exclude 1.0 in dependency constraints. Httpxyz promises conservative maintenance, no rewrite, shared stewardship, and Codeberg hosting. Immediate migration is optional, and plugin compatibility remains uncertain. HN agreed maintenance is a valid concern but questioned adding another client fork.
 
 ### Comment pulse
-- Ecosystem churn → People recommend alternatives like pyreqwest, niquests, and aiohttp; trade‑offs include Trio support, performance, and trust in project governance.  
-- Forking norms → Some say hinting at a fork feels like a threat; better to quietly fork than argue over stewardship—counterpoint: signaling intent can pressure for maintenance.  
-- Fragmentation vs stdlib → Debate over Python’s many HTTP clients; others note most languages ship awkward HTTP APIs because getting “simple and complete” right is inherently hard.
 
----
+- Some urged joining Niquests or using Pyreqwest instead, citing stronger performance and avoiding further ecosystem fragmentation.
+- Announcing a contemplated fork can sound threatening — counterpoint: unmerged fixes and blocked participation make an implemented fork legitimate leverage.
+- Readers blamed Python’s weak standard HTTP client, while others noted friendly, comprehensive async HTTP APIs challenge most language ecosystems.
 
 ### LLM perspective
-- View: httpxyz formalizes what many already do informally: pin versions and rely on de‑facto “LTS” behavior from community forks.  
-- Impact: Teams depending on httpx gain a clearer risk‑management option, but must track yet another HTTP client in evaluations.  
-- Watch next: Whether httpxyz gains plugin ecosystem, CI adoption by big libs, and documented migration benchmarks versus niquests, aiohttp, and pyreqwest.
+
+- **View:** A maintenance fork succeeds through dependable releases and governance, not merely dissatisfaction with upstream.
+- **Impact:** Users gain an escape path but must absorb namespace, extension, and dependency compatibility costs.
+- **Watch next:** Release cadence, security response, downstream adoption, plugin support, and collaboration with competing clients.

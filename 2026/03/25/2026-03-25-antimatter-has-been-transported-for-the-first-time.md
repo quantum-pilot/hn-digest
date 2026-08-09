@@ -2,15 +2,18 @@
 
 - Score: 322 | [HN](https://news.ycombinator.com/item?id=47518171) | Link: https://www.nature.com/articles/d41586-026-00950-w
 
-- TL;DR  
-  CERN has, for the first time, driven antimatter around by truck: 92 antiprotons were trapped in a compact magnetic “bottle” and taken on a 30‑minute, 8‑km trip. The real breakthrough is a portable, vibration‑tolerant, power‑backed precision trap that lets scientists move antimatter from CERN’s noisy production hall to quieter labs for ultra‑precise measurements. Hacker News focused on how minuscule the stored energy actually is, the non‑sci‑fi nature of the advance, and the surprisingly modest apparatus size.
+### TL;DR
 
-- Comment pulse  
-  Antimatter danger is overhyped → 92 antiprotons would release ~3×10⁻⁸ J, vastly less than a firecracker or daily cosmic‑ray exposure.  
-  Core advance is portable precision gear → moving clean traps away from magnetic noise enables better measurements, not power generation—counterpoint: commenters still fantasize about warp drives and Dan Brown explosions.  
-  Apparatus is smaller than expected → trap plus support equipment is roughly mini‑fridge/half‑rack scale, under ~1,000 kg, with extra cooling and power needed for longer trips.
+CERN transported 92 antiprotons more than eight kilometres around its Geneva site in a magnetic trap mounted on a truck, completing the first deliberate road journey for stored antimatter. The 30-minute run reached 42 kilometres per hour while keeping the particles isolated from ordinary matter. The practical goal is not energy storage but moving samples away from the antimatter factory’s magnetic noise for more precise measurements. HN celebrated the science-fiction resonance while emphasizing the tiny quantity, negligible hazard, and larger achievement: portable, stable precision instrumentation.
 
-- LLM perspective  
-  View: Mobile antimatter traps turn accelerators into production sites and remote labs into precision‑measurement facilities.  
-  Impact: Fundamental‑physics experiments on CPT symmetry, magnetic moments, and antimatter properties become more flexible and less infrastructure‑bound.  
-  Watch next: Longer trips, more particles per bottle, and side‑by‑side measurements in multiple quiet labs to cross‑check systematics.
+### Comment pulse
+
+- Estimated annihilation energy was about 2.8×10⁻⁸ joules, far below a firecracker and reportedly below routine cosmic-radiation exposure.
+- Readers admired the ability to create, count, contain, move, and recount such fragile particles more than the sensational truck framing.
+- The transport assembly is compact by laboratory standards, but longer trips require generator-powered cryogenic support.
+
+### LLM perspective
+
+- **View:** Mobility separates scarce-particle production from the quiet environments needed for precision science.
+- **Impact:** External laboratories could perform cleaner antiproton measurements without building their own source.
+- **Watch next:** Longer routes, retention rates, vibration tolerance, cryocooler reliability, and off-site experiments.

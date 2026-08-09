@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-TurboQuant is a Google Research compression scheme for LLM key‑value caches and vector search that preserves dot‑product similarity while using as little as ~3 bits per value. It first rotates vectors to make coordinates well‑behaved, then applies PolarQuant-style scalar quantization for most bits and a 1‑bit Johnson‑Lindenstrauss residual to debias the remaining error. Benchmarks show no accuracy loss, up to 8× faster attention on H100, and better recall than standard PQ methods, sparking debate over prior art and rapid open‑source ports.
+Google Research presents TurboQuant, a theoretically grounded vector quantizer combining PolarQuant’s random rotation and compact scalar codes with QJL’s one-bit residual estimator. It targets LLM KV caches and vector search without per-block full-precision constants. Google reports 3-bit caches with no benchmark accuracy loss, at least 6× memory reduction, and up to 8× faster 4-bit attention-logit computation versus 32-bit keys on H100s. Commenters welcomed rapid llama.cpp experimentation but raised prior-art attribution and explanatory-accuracy concerns.
 
 ### Comment pulse
 
-- Claim: TurboQuant omits key prior work on rotation-based compression (e.g., DRIVE) → debate over citation ethics vs inevitability of rediscovery — counterpoint: rotations are classical.  
-- Claim: random rotation makes activations more uniform and Gaussian, so scalar quantization bins waste less capacity; 1‑bit JL keeps per-dimension signs, preserving similarities.  
-- Claim: early TurboQuant support in llama.cpp shows algorithmic complexity is modest; optimizations like Hadamard-based rotations may reduce compute from O(d²) to O(d log d).  
+- A DRIVE author requested citation for similar 2021 rotation and bias correction — counterpoint: others called the mechanism older, recurring classical technique.
+- Explanations emphasized that common rotation preserves pairwise geometry while spreading outlier energy across coordinates, making low-bit bins more efficient.
+- An early llama.cpp experiment replaces quadratic rotation with a faster randomized Hadamard transform, pending equivalent theoretical and empirical behavior.
 
 ### LLM perspective
 
-- View: If TurboQuant’s 3‑bit, zero‑loss KV cache generalizes, long‑context LLMs become cheaper than current inference-optimized architectures.  
-- Impact: Memory-bound workloads—chatbots, RAG, embedding search—gain most, especially on GPUs where KV cache dominates cost and latency.  
-- Watch next: independent reproductions, open-source kernels, and comparisons against architectural tricks like multi-head latent attention or recurrent long-context alternatives.
+- **View:** The claims are consequential, but production value depends on end-to-end kernels and representative workloads.
+- **Impact:** Longer contexts and larger retrieval indexes could fit existing accelerators with lower latency and cost.
+- **Watch next:** Independent reproductions, merged inference support, model breadth, quality tails, attribution updates, and total-system benchmarks.

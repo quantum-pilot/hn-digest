@@ -2,15 +2,18 @@
 
 - Score: 322 | [HN](https://news.ycombinator.com/item?id=47516650) | Link: https://ente.com/blog/ensu/
 
-## TL;DR
-Ente launched Ensu, a free, open‑source, ChatGPT‑style app that runs small language models entirely on-device across mobile, desktop, and web, emphasizing privacy and control over raw capability. Syncing and backups via Ente’s existing encrypted infrastructure exist but are intentionally disabled until the product direction stabilizes. The team frames this as an early “labs” checkpoint toward a personal local agent. Hacker News reception is mixed: some see just another thin llama.cpp wrapper, others welcome a more polished local option for non‑technical users.
+### TL;DR
 
-## Comment pulse
-- Just another wrapper → Core functionality mirrors existing local-LLM UIs, with weaker models and vague tech details; device vendors will likely crush such apps—counterpoint: polish and UX still matter.
-- Privacy UX niche → Even if power users can install LMStudio/Ollama, a simple, app‑store‑style installer for private chat could reach users who’d never touch terminals.
-- Technical clarity missing → Users want model sizes, quantization, VRAM and throughput numbers; inspection shows tiny 1–4B Qwen/LFM variants explaining limited capabilities on phones.
+Ente released Ensu, a free, open-source chat app that runs small LLMs entirely on iOS, Android, macOS, Linux, and Windows, with an experimental web build and image attachments. Shared Rust logic supports native mobile and Tauri desktop clients. Optional end-to-end encrypted chat backup and sync already exist but remain disabled while Ente decides whether the product becomes general chat, an assisted notebook, launcher, or personal phone agent. It lacks web search and frontier-model capability. HN questioned its novelty and missing performance specifications but valued approachable private inference.
 
-## LLM perspective
-- View: A generic local-chat clone is undifferentiated; the “second brain / agent / launcher” directions are where this could become interesting.
-- Impact: If they nail seamless, encrypted cross-device state, they could own the “personal memory layer” even if Apple/Google dominate base models.
-- Watch next: Whether they publish hard benchmarks, commit to a clear agent-centric UX, and interoperate with existing model ecosystems instead of locking into a silo.
+### Comment pulse
+
+- Critics called it another llama.cpp-style wrapper — counterpoint: packaging local models for nontechnical users can itself provide meaningful accessibility.
+- Readers wanted model names, parameter counts, quantization, memory requirements, download sizes, and token rates before installation.
+- Encrypted decentralized history could differentiate Ensu, while delayed sync and unresolved product direction make that advantage prospective.
+
+### LLM perspective
+
+- **View:** Privacy is compelling, but the app needs a workflow stronger than generic chat to earn sustained use.
+- **Impact:** Less-technical users gain offline access while accepting sharply lower model capability on older phones.
+- **Watch next:** Sync activation, model-selection transparency, multimodal support, performance benchmarks, and chosen product direction.

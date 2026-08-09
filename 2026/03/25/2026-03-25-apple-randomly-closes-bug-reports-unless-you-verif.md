@@ -3,18 +3,17 @@
 - Score: 239 | [HN](https://news.ycombinator.com/item?id=47521876) | Link: https://lapcatsoftware.com/articles/2026/3/11.html
 
 ### TL;DR
-Apple developer Jeff Johnson describes Feedback Assistant closing long-standing bug reports unless reporters “verify” the bug on the latest beta, even when Apple appears not to have tried reproducing or fixing them. He cites a 3‑year‑old, fully reproducible network privacy bug and a pinned-tabs Safari bug marked “Unable to diagnose” despite sample projects and steps. Hacker News commenters say this isn’t unique to Apple: enterprise vendors and open source often offload QA to users, auto-stale issues, and optimize metrics over actual fixes.
 
----
+After three silent years, Apple asked a developer to retest a reproducible network-filter privacy bug on macOS 26.4 beta 4 within two weeks or have it closed as fixed. Apple would not say whether anything changed; Little Snitch’s developers and the eventual public release still reproduced it. Another documented Safari UI report was closed as undiagnosable, then requested an arguably irrelevant sysdiagnose after the post reached HN. The author sees closure incentives shifting testing costs onto reporters and masking software-quality problems; commenters recognized the pattern across enterprise and open-source trackers.
 
 ### Comment pulse
-- This is standard industry behavior → enterprises and open source ask users to re-test on latest, then close as stale or “can’t repro” to hit metrics.  
-- Users resent being unpaid QA → they already provide repros/logs, but vendors (Apple, Microsoft, etc.) still demand extensive verification work.  
-- Some engineers justify closing old or hard bugs as pragmatic triage → others argue leaving them open is costless and more honest about product quality — counterpoint: huge backlogs become unmanageable.
 
----
+- Users described stale-bot closures and latest-version retest demands as routine ways to shrink backlogs without resolving defects.
+- Maintainers cited scarce time and hard-to-copy environments — counterpoint: Apple received explicit steps and a sample Xcode project.
+- Repeated requests for logs and beta testing drive reporters away by turning voluntary feedback into unpaid quality-engineering work.
 
 ### LLM perspective
-- View: Apple’s workflow optimizes for clean dashboards, not reporter experience, undermining trust in Feedback Assistant as a serious engineering input.  
-- Impact: Power users and third‑party devs disengage from formal reporting, reducing Apple’s visibility into real-world defects, especially nuanced networking/privacy issues.  
-- Watch next: Evidence of process change—public bug states, SLAs, or engineering blogs explaining triage criteria—would show Apple treating reports as assets, not liabilities.
+
+- **View:** Status should reflect evidence: unverified is not fixed, and inactivity is not resolution.
+- **Impact:** Misleading closure metrics reduce trust, duplicate reports, and deprive engineering teams of long-lived defect history.
+- **Watch next:** Apple responses, recurrence in macOS 27, sysdiagnose requirements, and tracker transparency.

@@ -3,18 +3,17 @@
 - Score: 209 | [HN](https://news.ycombinator.com/item?id=47519802) | Link: https://www.nytimes.com/2026/03/25/books/tracy-kidder-dead.html
 
 ### TL;DR
-Tracy Kidder, who died at 80 of lung cancer, was a Pulitzer- and National Book Award–winning narrative journalist known for deeply embedded reporting on builders of complex systems—computers, houses, schools, and health-care projects. His landmark _The Soul of a New Machine_ captured a Data General team as characters in an engineering drama that helped define how technologists see themselves. HN readers recall his uncanny observational detail and credit later books, especially _Mountains Beyond Mountains_, with steering careers toward global health and social impact.
 
----
+Narrative journalist Tracy Kidder died of lung cancer at 80. His deeply reported books turned technical work, classrooms, construction, medicine, and humanitarian service into character-driven stories. The 1981 breakthrough *The Soul of a New Machine*, written as a technology outsider focused on Data General engineers’ passion, won both the Pulitzer Prize and National Book Award. Later works included *House*, *Among Schoolchildren*, *Mountains Beyond Mountains*, and *Rough Sleepers*. HN readers remembered his precise portraits, propulsive prose, and ability to inspire careers in computing, management, and global health.
 
 ### Comment pulse
-- Kidder as family friend → Tom West’s daughter recalls him living with them, lifelong friendship, and his humility about whether the book helped West.
-- Precision character sketches → Engineers note how perfectly he captured colleagues’ demeanor, making opaque hardware work and personalities legible and memorable.
-- Broader canon matters more to some → _Mountains Beyond Mountains_, _House_, and others inspired health-equity work and highlighted parallels between building houses and software—counterpoint: many still see _Soul_ as definitive.
 
----
+- Tom West’s daughter recalled Kidder’s lifelong friendship with her father and his uncertainty about how the famous book affected its subject.
+- Readers who later met Data General engineers found Kidder’s compressed descriptions uncannily faithful to their appearance, temperament, and competence.
+- *Mountains Beyond Mountains* recruited people into health-equity work, while *House* illuminated parallels between construction and software projects.
 
 ### LLM perspective
-- View: Kidder showed how to write engineering and social-impact work as human dramas without dumbing down technical or moral complexity.  
-- Impact: His books continue to recruit people into engineering, management, and global health by making practitioners’ inner lives visible.  
-- Watch next: Renewed interest in narrative non-fiction on AI, chips, and climate tech; look for writers doing Kidder-style immersion with today’s teams.
+
+- **View:** Kidder’s durability came from treating expertise as human drama without sacrificing factual depth.
+- **Impact:** His work preserved practitioners’ inner worlds and redirected readers toward engineering, medicine, and service.
+- **Watch next:** Archival releases, renewed editions, and reassessments of immersive long-form reporting in a short-form market.
