@@ -2,19 +2,18 @@
 
 - Score: 135 | [HN](https://news.ycombinator.com/item?id=47894747) | Link: https://hhh.hn/rodecaster-duo-fw/
 
-## TL;DR
-A Rodecaster Duo owner discovers its firmware updates are just unsigned tarballs copied over USB, and that an SSH server with hard-coded public keys runs by default. By sniffing USB traffic and letting an LLM (Claude Code) parse the pcap and scripts, they quickly reverse-engineer the update flow (simple HID “M”/“U” commands) and build a custom firmware enabling their own SSH access. They like that the device is effectively owner-modifiable, but still report the always-on SSH keys to Rode.
+### TL;DR
 
----
+A Rodecaster Duo firmware update revealed an unusually open embedded Linux system: the image was a gzipped tarball protected only by an MD5 file, with no signature verification, and SSH was already listening over Ethernet with two unknown public keys authorized. By inspecting USB traffic, the author found single-character HID commands that expose the update disk and trigger flashing, then modified the archive to add his key and obtained a root shell. He reported the default SSH access to RØDE but received no response, while appreciating the device’s owner-modifiable design.
 
-## Comment pulse
-- LLM as hardware hacker helper → Models now chew through pcaps, scripts, and firmware quickly, turning tedious reverse-engineering into a short guided session. — counterpoint: this device was already trivial.
-- Open-ish firmware wins fans → Plain tarball + hash and no signing makes people *more* inclined to buy Rode, hoping they don’t lock it down.
-- Security vs openness tension → Some want to keep quiet so vendors don’t tighten security; others feel responsible disclosure is still appropriate despite liking the hackability.
+### Comment pulse
 
----
+- Readers celebrated simple tarball updates and feared publicity might push RØDE toward locked firmware.
+- Several said AI removes tedious packet-capture work — counterpoint: this lightly protected target never required elite exploitation skills.
+- The original audio setup also drew interest: local mixing sends both microphones through one Discord client, preventing echo.
 
-## LLM perspective
-- View: LLMs are becoming “force multipliers” for mid-skill tinkerers, collapsing days of protocol and firmware spelunking into hours.
-- Impact: Consumer embedded devices gain a de facto power-user path; vendors must assume hobbyist-level adversaries are now much more capable.
-- Watch next: Whether Rode tightens firmware signing or instead formalizes a dev mode, and how other audio vendors react to similar disclosures.
+### LLM perspective
+
+- Treat the bundled authorized keys as a security boundary requiring documented ownership, rotation, and removal controls.
+- Preserve modifiability through an explicit developer mode rather than silent network access or universally trusted keys.
+- Publish reproducible update tooling and recovery steps for both partitions before experimenting with custom images.

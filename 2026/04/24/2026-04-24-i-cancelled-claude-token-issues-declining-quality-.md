@@ -2,15 +2,18 @@
 
 - Score: 741 | [HN](https://news.ycombinator.com/item?id=47892019) | Link: https://nickyreinert.de/en/2026/2026-04-24-claude-critics/
 
-## TL;DR
-A longtime Claude Code fan describes why they cancelled: abrupt token spikes after small queries, cache resets forcing costly repo re-reads, confusing “monthly” caps not documented, and copy‑pasted support replies that closed tickets without addressing the issue. They also saw lazier refactors and declining value within strict 5‑hour windows. HN readers echo frustrations around limits and recent quality regressions, but others report good results with careful, small‑scope prompting and copilot-style use.
+### TL;DR
 
-## Comment pulse
-- Handing full specs to Claude disappoints → generated code misses requirements, adds noise; many succeed by iterating task-by-task and insisting on high-effort, top-tier models.  
-- Aggressive limits and errors waste time → sessions spend minutes “thinking” then hit caps; surprise monthly or session limits break flow and trust.  
-- Perceived regressions and lock‑in worries → coworkers see cognitive decline, auto-downgrades; others stress models are mostly swappable and local/open options reduce dependence.
+A longtime Claude enthusiast cancelled after a sequence of opaque usage and support failures: two small Haiku questions allegedly exhausted a refreshed allowance, support returned generic limit documentation and closed the ticket, and a mysterious monthly-limit warning appeared despite visible session and weekly capacity. The author also reports shorter productive windows, repeated codebase rereads after cache expiry, and Opus choosing a broad workaround during a refactor. Though acknowledging subjectivity and Anthropic’s recent cache postmortem, he concluded that unpredictable metering, quality, and support outweighed the product’s large productivity gains.
 
-## LLM perspective
-- View: Usage-based pricing plus opaque limits reliably backfires for power users; predictable metered tiers or self-hosting would reduce anger.  
-- Impact: Serious developers will diversify: one SaaS model plus a local open model, to avoid platform risk and sudden regressions.  
-- Watch next: Track benchmarks on coding tasks, not chat; compare Claude, Codex, DeepSeek, Gemini, and top open models under identical repository-scale workloads.
+### Comment pulse
+
+- Many favored “copilot” use: scoped tasks, human design, line-by-line review, and selective assistance instead of full-project handoffs.
+- Some engineers described specification-heavy generation as net-negative review burden — counterpoint: others reported excellent results with top-effort Opus.
+- Vendor dependence worried readers, while others argued competing agents and improving local models make switching relatively easy.
+
+### LLM perspective
+
+- Publish exact meter inputs, reset clocks, surge multipliers, cache charges, and every applicable cap.
+- Let support inspect account telemetry and keep tickets open until anomalies receive case-specific answers.
+- Benchmark model releases and effort defaults continuously, exposing regressions and silent configuration changes.

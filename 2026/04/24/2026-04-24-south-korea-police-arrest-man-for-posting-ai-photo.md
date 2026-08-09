@@ -3,18 +3,17 @@
 - Score: 218 | [HN](https://news.ycombinator.com/item?id=47887683) | Link: https://www.bbc.com/news/articles/c4gx1n0dl9no
 
 ### TL;DR
-South Korean police arrested a man who generated and shared an AI image of a runaway zoo wolf on a road, causing authorities to redirect their search and issue emergency texts. He’s being investigated for “disrupting government work by deception,” carrying up to 5 years in prison or a 10M won fine. Hacker News discussion centers on whether this is modern “crying wolf,” how much blame falls on a prankster versus overly credulous police, and how AI’s ease amplifies such hoaxes.
 
----
+South Korean police arrested a man who shared an AI image falsely placing escaped wolf Neukgu at a Daejeon intersection. Authorities redirected their search, issued an emergency alert, and displayed the image at a briefing; he reportedly acted for amusement and could face five years for obstruction by deception. The wolf was captured safely nine days after escaping. Hacker News agreed deliberate resource diversion can warrant punishment, but questioned whether the image was submitted as a report or merely posted online, and why officials acted without verification.
 
 ### Comment pulse
-- Deliberate misinformation in emergencies is a “social DoS” → diverts scarce public-safety resources and could endanger lives, so criminal penalties seem reasonable.  
-- Police appear to have acted on an unverified random post → some see this as bureaucratic embarrassment and face-saving — counterpoint: they’d be blamed even more if a real sighting were ignored.  
-- Tech angle matters → AI makes convincing fakes trivial “crimes of opportunity,” unlike slower Photoshop work; others argue the core failure is institutional gullibility, not new tools.
 
----
+- Knowingly diverting emergency resources resembles a denial-of-service attack and can endanger unrelated people needing those services.
+- The article omits crucial context: whether the creator targeted authorities, labeled the image, or simply posted it where police found it.
+- AI made convincing deception nearly effortless — counterpoint: Photoshop or recycled photographs could create the same verification failure.
 
 ### LLM perspective
-- View: Laws should distinguish intentional hoaxes from careless sharing, with clear thresholds for criminal liability when online content triggers official action.  
-- Impact: Expect tighter verification protocols for citizen media in emergencies and more cautious use of images in government briefings.  
-- Watch next: Court outcome in this case, SK legal guidance on AI-generated evidence, and operational standards for validating public tips before mass alerts.
+
+- **View:** Intent, accompanying text, and delivery path matter more legally and ethically than the image-generation tool.
+- **Impact:** Emergency agencies need rapid media-authentication procedures that preserve responsiveness without treating every social post as verified evidence.
+- **Watch next:** Formal charges, released message context, evidentiary standards, image provenance systems, and changes to police verification protocols.

@@ -3,18 +3,17 @@
 - Score: 157 | [HN](https://news.ycombinator.com/item?id=47885014) | Link: https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro
 
 ### TL;DR
-DeepSeek-V4 is an open-source Mixture-of-Experts LLM family with 1M-token context, a 1.6T-parameter Pro model (49B active) and a 284B Flash model (13B active). A hybrid attention scheme plus compression yields roughly an order-of-magnitude KV cache savings for long contexts, while benchmarks put V4-Pro-Max at or near frontier closed models in coding and many reasoning tasks. HN discussion focuses on how (and how slowly) it might run locally, its value versus Claude/GPT, and impressive quality-per-dollar.
 
----
+DeepSeek-V4 introduces two million-token Mixture-of-Experts models: Pro has 1.6 trillion total parameters with 49 billion activated per token, while Flash has 284 billion total and 13 billion active. Hybrid compressed attention is claimed to cut Pro’s one-million-token single-token inference FLOPs to 27% of V3.2 and its KV cache to 10%; training used more than 32 trillion tokens plus specialist reinforcement learning and distillation. Published evaluations show strong open-model coding and reasoning, though not universal frontier leadership. HN praised price-performance but corrected assumptions that active parameters determine memory fit.
 
 ### Comment pulse
-- Can it run locally? → MoE uses 49B active params, quantization and streaming make it possible but painfully slow—counterpoint: Flash + future distillations may be practical.
-- Competitiveness → Many see DeepSeek as ~2 months behind top proprietary models, yet already “good enough” to replace Claude Sonnet in some setups.
-- Practical value → Users report Flash solving tricky Common Lisp bugs; ultra-low cost enables billions-token evaluations that would be unaffordable on closed APIs.
 
----
+- Routing activates different experts per token, so all weights still need storage; disk streaming is theoretically possible but painfully slow.
+- One Flash user reported excellent Common Lisp code after feeding back an initial runtime error.
+- Some estimate a two-month frontier gap — counterpoint: benchmark parity may not transfer to specific production tools or workflows.
 
 ### LLM perspective
-- View: Million-token context plus explicit “thinking modes” is a notable step toward practical long-doc reasoning and controllable depth.
-- Impact: Strong, cheap open models pressure API pricing, enable on-prem deployments, and broaden access for research and smaller companies.
-- Watch next: Community quantizations/distills, real 1M-token use cases, and head-to-head tool-use/latency benchmarks versus latest GPT, Claude, Gemini.
+
+- Independent tests should measure full one-million-token retrieval, reasoning degradation, latency, memory, and cost.
+- Distilled or quantized derivatives may matter more locally than hosting the full 1.6-trillion-parameter model.
+- Publish serving details and comparable reasoning budgets before interpreting cross-vendor benchmark differences.

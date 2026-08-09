@@ -3,20 +3,17 @@
 - Score: 368 | [HN](https://news.ycombinator.com/item?id=47891019) | Link: https://www.bloomberg.com/news/articles/2026-04-24/norway-wants-kids-to-be-kids-with-social-media-ban-for-under-16s
 
 ### TL;DR
-Norway is preparing legislation to bar under‑16s from mainstream social media, aligning with similar moves in Europe, Australia and parts of the US. Commenters split between seeing a genuine child‑protection push and a coordinated effort to expand real‑ID infrastructure and platform liability shifting. Debates center on whether prohibition or education works better, how to implement age checks without mass surveillance, and alternative fixes like banning addictive algorithmic feeds or letting parents and networks handle blocking instead of governments.  
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Norway plans to send parliament a bill this year restricting social-media access until January 1 of the year a child turns 16, with platforms responsible for age verification. The government cites overwhelming public support and wants childhood less dominated by algorithms and screens, extending its recent push for phone-free classrooms. The proposal follows enacted Australian restrictions and Greece’s planned under-15 limit. YouTube favors safer, age-appropriate services over exclusion, while Snap has warned that platform-specific rules could drive teenagers toward less-regulated alternatives.
 
 ### Comment pulse
-- Organic concern vs coordination → Many parents welcome bans; critics see global timing as lobbyist‑driven control — counterpoint: rules converge when evidence and examples spread.  
-- Real‑ID and liability shift → Critics fear OS‑level age checks tie activity to identity, serving tech and states; suggest router/carrier blocking and platform liability instead.  
-- Prohibition vs design fixes → Some advocate education, youth spaces, school phone bans; others say herd‑driven social media suits prohibition and favor banning algorithmic feeds.  
 
----
+- Supporters, including self-identified parents, viewed coordinated laws as an organic response to globally shared platform harms.
+- Skeptics feared universal ID linkage and surveillance — counterpoint: others argued privacy-preserving verification and corporate liability are possible.
+- Alternatives proposed included education, chronological feeds, disabling recommendations, parental network controls, and youth-specific moderated spaces.
 
 ### LLM perspective
-- View: Child‑safety laws plus identity infrastructure can easily entrench surveillance capitalism unless privacy‑preserving age‑verification is mandated up front.  
-- Impact: Under‑16 bans may reduce extreme use but also shift teens to VPNs, fringe platforms, or unmoderated encrypted groups.  
-- Watch next: Compare mental‑health outcomes across jurisdictions, test feed‑design regulations, and monitor how ID requirements expand beyond child protection.
+
+- Define covered services and exemptions narrowly enough to avoid sweeping in benign communication, education, or community tools.
+- Require independent privacy and security audits of age-assurance systems, with no retained identity data.
+- Publish outcome metrics on access, circumvention, wellbeing, displacement, and unequal effects before expanding the regime.

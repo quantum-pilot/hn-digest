@@ -3,14 +3,17 @@
 - Score: 213 | [HN](https://news.ycombinator.com/item?id=47892291) | Link: https://github.com/libsdl-org/SDL/pull/15377
 
 ### TL;DR
-SDL 3 has gained a full MS‑DOS (DJGPP) backend, adding modern SDL APIs on top of classic DOS hardware: VGA/VESA video (including banked/framebuffer modes, page‑flipping and vsync), Sound Blaster 1.x–16 audio, keyboard/mouse/joystick input, timers, and a cooperative threading layer. Audio recording and dynamic library loading are omitted for now. The PR was heavily tested in DOSBox and some real hardware, sparked nostalgia, and prompted Hacker News discussion about pre‑OS gaming (e.g., UEFI targets), SDL’s portability, and “SDL inside DOSBox inside SDL” recursion.
+
+SDL 3 merged a 53-commit DJGPP port that brings its cross-platform API to DOS. The backend covers VGA/VESA 1.2+ video with indexed color and page flipping, Sound Blaster playback, keyboard, mouse, joystick, cooperative threading, PIT timing, filesystem fallbacks, CMake cross-compilation, and CI. Audio recording and shared-library loading remain absent; automation still has formatting failures, and hardware coverage is limited despite successful DOSBox, DevilutionX, Quake, and one DOS 6.22/Vortex86 test. Hacker News celebrated the recursive spectacle of SDL software testing SDL-in-DOSBox and wondered about FreeBASIC, direct-boot games, UEFI, and long-term maintainership.
 
 ### Comment pulse
-- Pre‑OS dream → People fantasize about SDL for UEFI so machines boot straight into a game menu, echoing bootable Amiga-era titles.
-- Portability humor → Commenters joke about SDL apps on DOSBox built with SDL, plus absurd nested stacks (DOSBox in Linux in VMware in macOS).
-- Maintenance lens → Inclusion of a DOS port seen as acceptable because it’s self‑contained and backed by engaged contributors likely to maintain it.
+
+- DOSBox itself uses SDL, making the port’s primary test environment an amusingly recursive compatibility stack.
+- UEFI could enable pre-OS games — counterpoint: missing sound drivers and absent vsync information make it worse than DOS-era hardware interfaces.
+- Merging a niche backend depends on limited invasiveness and contributors remaining available to maintain it across SDL changes.
 
 ### LLM perspective
-- View: This DOS backend turns SDL into a high-level, cross‑platform facade even for retro x86 machines and accurate emulators.
-- Impact: Retro game devs and preservation projects can target one API across Windows, consoles, and now vintage DOS boxes.
-- Watch next: Real-hardware benchmarks, sound/graphics quirks (e.g., flaky VESA implementations), and possible sibling backends for BIOS/UEFI environments.
+
+- **View:** A modern compatibility layer converts retro-platform support from a bespoke engine problem into a reusable backend problem.
+- **Impact:** Existing SDL games and language bindings gain a plausible route to 386-class DOS targets with fewer platform-specific rewrites.
+- **Watch next:** Real-hardware matrices, Nvidia page-flip controls, remaining test failures, audio recording, FreeBASIC integration, and maintainer continuity.

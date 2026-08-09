@@ -3,14 +3,17 @@
 - Score: 248 | [HN](https://news.ycombinator.com/item?id=47885377) | Link: https://www.nature.com/articles/s41467-026-71264-8
 
 ### TL;DR
-A small but dense human study tracked 31 habitual coffee drinkers and 31 non-drinkers through baseline, 2-week abstinence, and 3-week reintroduction of caffeinated vs decaf coffee. Coffee clearly altered the gut microbiome, neuroactive fecal metabolites (indoles, GABA), urinary caffeine/polyphenol metabolites, and inflammatory cytokines, often in ways partly independent of caffeine. Behaviorally, drinkers were more impulsive and emotionally reactive; abstinence reduced both. Caffeinated coffee improved anxiety and processing speed, while decaf boosted memory, sleep, and activity. HN readers focus on withdrawal, migraine/anxiety trade-offs, and industry funding.
+
+A study of 62 healthy adults compared habitual coffee drinkers with non-drinkers, then asked drinkers to abstain for two weeks before randomizing them to caffeinated or decaffeinated coffee for three weeks. Metagenomics and metabolomics found coffee-associated changes in specific gut species and metabolites, some shifting during abstinence or reintroduction independently of caffeine. Behavioral and immune measures also moved, often inconsistently. Self-selected baseline groups, 15–16-person intervention arms, numerous secondary tests, and acknowledged confounders make these intriguing associations and short-term responses—not proof of health effects or gut-to-brain causation.
 
 ### Comment pulse
-- Caffeine quitting stories → intense, sometimes months-long mood crashes, but later better weight control, fewer cravings, and more stable mood—counterpoint: some feel permanently sluggish without it.  
-- Coffee and migraines → several report major migraine reduction after quitting; even decaf can trigger issues, reminding that “decaf” still contains appreciable caffeine.  
-- Trust in results → some flag coffee-industry funding; others note findings (more impulsivity, memory worse in drinkers) hardly look like marketing spin.
+
+- Readers traded sharply divergent withdrawal stories, from months of depression and fewer migraines to sluggishness without caffeine and no noticeable mood change.
+- Funding by an industry coffee group drew skepticism — counterpoint: commenters noted several reported findings were unflattering to coffee.
+- Personal reports emphasized dose, sleep, mental health, migraines, and habit, underscoring individual variability rather than a universal verdict.
 
 ### LLM perspective
-- View: Coffee’s net health effect is likely modestly positive on average but highly individual, especially for mood, sleep, and headaches.  
-- Impact: Clinicians, nutritionists, and individuals could eventually tailor coffee advice using microbiome, migraine/anxiety history, and sleep profiles.  
-- Watch next: Larger, longer RCTs comparing coffee, pure caffeine, and placebo with microbiome + cognition endpoints and preregistered, non-industry funding.
+
+- Replicate with larger, diverse cohorts and randomize coffee initiation among non-drinkers.
+- Pre-register fewer behavioral endpoints and formal mediation tests connecting microbes, metabolites, and cognition.
+- Measure stool transit, brewing method, dose, diet, sleep, genetics, and longer-term outcomes.

@@ -4,20 +4,16 @@
 
 ### TL;DR
 
-In 2009, Patrick McKenzie compared his Bingo Card Creator desktop shareware with a new web version and found the web app financially overwhelming: fewer funnel steps, ~2x trial‑to‑paid conversion, and much cheaper AdWords customer acquisition. Web delivery also removed install/upgrade issues, neutered casual piracy by tying value to the server, enabled analytics and A/B testing, and allowed rapid iteration. Despite personally preferring native apps, he concluded that for a solo commercial developer, web apps strictly dominated desktop at that time.
-
----
+In 2009, Patrick McKenzie concluded that the web version of Bingo Card Creator strictly dominated its Swing desktop predecessor as a business. With essentially the same product, web trials converted to purchases at 2.32% versus 1.35%, advertising acquisition cost fell from $20 to $9, and only 3 of the latest 50 customers needed support versus 15 on desktop. He attributed the gap to eliminating installation and version fragmentation while gaining centralized analytics, segmentation, A/B testing, rapid deployment, and resistance to casual piracy, despite personally preferring native software.
 
 ### Comment pulse
 
-- Web wins for indie businesses → higher conversion, lower ad spend, less piracy and easier iteration; but hobbyists/OSS devs don’t care about funnels, CAC, or telemetry.  
-- Context matters → post reflects 2009 shareware and his career pivot; critics say installer friction is overstated and native apps still excel for heavy creative/scientific tools.  
-- Desktop renaissance inside orgs → some teams replace fragile web stacks with packaged desktop/PWA tools, trading 24/7 infra complexity for simpler deployment on managed machines.  
-
----
+- Readers stressed the conclusion served a 2009 commercial SaaS goal, not open-source hobbies or today’s desktop ecosystem.
+- Creative, scientific, and privacy-sensitive work still favors local performance, stable interfaces, files, and offline control.
+- Critics called the 17-step funnel dated or inflated — counterpoint: others recalled those frictions as realistic at publication.
 
 ### LLM perspective
 
-- View: Platform choice should start from goals—revenue, longevity, openness, UX—not from 2009-era conversion math alone.  
-- Impact: Indie devs still benefit from web-style analytics and experimentation, but can pair them with native clients or offline-first designs.  
-- Watch next: Updated cross-platform case studies comparing desktop, web, and mobile economics under app stores, hosting costs, and privacy expectations.
+- Re-run the experiment by task category, acquisition channel, platform, and customer willingness to install.
+- Separate conversion lift from self-selection; highly motivated users may disproportionately choose an installed or mobile client.
+- Compare total ownership: hosting, operations, security, offline resilience, accessibility, longevity, and forced-change costs.

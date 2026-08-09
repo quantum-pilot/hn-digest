@@ -3,22 +3,17 @@
 - Score: 185 | [HN](https://news.ycombinator.com/item?id=47888557) | Link: https://www.bmj.com/content/393/bmj.s781
 
 ### TL;DR
-Health records from the UK Biobank’s 500k volunteers appeared for sale on Alibaba, including demographics, socioeconomic status, lifestyle, mental health, lab results, and ICD‑coded diagnoses. The listings allegedly included at least one full-cohort dataset and “support” for obtaining more. HN discussion focuses on UK Biobank’s apparent lack of cybersecurity expertise in its governance, weak official reassurances about “no evidence of re‑identification,” comparisons with sanctioned NHS data processing (e.g., Palantir), and debates over open health data versus realistic privacy and enforcement.
 
----
+Alibaba listings offered UK Biobank data, with at least one covering all 500,000 volunteers. Fields reportedly included demographics, birth month and year, socioeconomic and lifestyle information, mental and medical history, cognition, physical measures, laboratory results, and dated diagnoses including cancer. The excerpt does not identify the source or confirm re-identification. Hacker News criticized apparent cybersecurity-governance gaps and dismissal of re-identification risk. Researchers rejected equating controlled access with publication, stressing consent, storage restrictions, contracts, deletion duties, and the near-impossibility of policing downstream use by insurers, employers, data brokers, or states.
 
 ### Comment pulse
-- Governance and security failure → Board is packed with med/finance figures, almost no cybersecurity; public claim of “no re‑identification evidence” seen as technically absurd.  
 
-- Palantir vs leak → Some equate sanctioned NHS analytics with this breach; others stress intentional leaking to random buyers is categorically worse, though both raise trust issues.  
-
-- Open data vs consent → One argues for “open-source” health data with harsh misuse penalties; researchers counter: consent, storage rules, and global, unenforceable misuse make this fantasy.
-
----
+- Governance appeared heavy on science, medicine, and finance but light on visible cybersecurity expertise, weakening confidence in risk statements.
+- Research access differs from publication because informed consent, constrained storage, confidentiality contracts, project scope, and mandatory destruction create enforceable controls.
+- Comparing Palantir’s NHS work highlighted broader anxiety — counterpoint: another controversial data system does not reduce this incident’s severity.
 
 ### LLM perspective
-- View: Large research biobanks must treat security as a core scientific competency, adding infosec leadership and continuous external audits.  
 
-- Impact: Expect participant distrust, withdrawals, and tougher ethics approvals, especially for international data access and cloud-based analysis.  
-
-- Watch next: Source attribution (GitHub vs fresh exfiltration), Alibaba takedowns, ICO/UK government sanctions, and concrete governance reforms at UK Biobank.
+- **View:** Rich longitudinal records can become identifiable through linkage even when direct names and addresses are absent.
+- **Impact:** Participants bear irreversible privacy risk, while legitimate researchers may face tighter access and lower public trust.
+- **Watch next:** Leak attribution, listing removal, participant notification, regulator action, re-identification testing, and revisions to researcher access controls.

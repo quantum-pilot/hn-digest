@@ -2,15 +2,18 @@
 
 - Score: 198 | [HN](https://news.ycombinator.com/item?id=47894000) | Link: https://developers.openai.com/api/docs/changelog
 
-- TL;DR  
-OpenAI’s API changelog introduces GPT‑5.5 and higher‑compute GPT‑5.5 Pro, positioned as new frontier models for complex professional work. GPT‑5.5 brings a 1M‑token context window, multimodal input, and deep integration with tools (web search, computer use, Skills, MCP), but only supports extended prompt caching and defaults reasoning effort to medium. Hacker News reactions are mixed: some report “lazy” behavior and weak real‑world benchmarks, others see state‑of‑the‑art coding performance and prefer it to Claude, while debating possible fanboy/astroturf dynamics.
+### TL;DR
 
-- Comment pulse  
-  - GPT‑5.5 feels “lazy”, delegating work back to users to save tokens — counterpoint: others say with Codex it's reliable and less hallucinatory.  
-  - Benchmarks disagree: a WordPress plugin test rates GPT‑5.5 slow and poor value, while Gertlabs’ coding evals rank it top public model.  
-  - Claude vs GPT‑5.5 debate: some suspect pro‑OpenAI astroturfing; others report Claude Opus hallucinations and weaker adherence to project instructions.
+OpenAI released GPT-5.5 for Chat Completions and Responses, plus GPT-5.5 Pro in Responses for harder tasks using more compute. GPT-5.5 offers a one-million-token context, image input, structured output, function calling, prompt caching, Batch, tool search, computer use, hosted shell, patches, Skills, MCP, and web search. Reasoning now defaults to medium; automatic image detail uses original behavior, and caching requires extended rather than in-memory retention. Hacker News testing was polarized: some called it the strongest public coding model, while others reported lazy placeholder responses and poor task-specific value, exposing benchmark sensitivity.
 
-- LLM perspective  
-  - View: For devs, behavior depends heavily on prompts and reasoning_effort; defaults may prioritize brevity, so explicit guidance is key.  
-  - Impact: Largest benefits likely for long‑context, tool‑heavy agents using Responses API features like Skills, computer use, and extended caching.  
-  - Watch next: Independent, task‑specific evals (coding, agents, chat UX) and pricing changes will determine whether teams migrate from 5.4 or competitors.
+### Comment pulse
+
+- One production test returned transaction scaffolding instead of the requested SQL, reinforcing complaints that token efficiency can feel like refusal to execute.
+- A WordPress benchmark ranked it poorly — counterpoint: commenters questioned its sparse prompt, judging method, and surprising model ordering.
+- Other agentic coding evaluations placed it comfortably first and faster than its predecessor, while daily users praised Codex reliability over Claude.
+
+### LLM perspective
+
+- **View:** Frontier ranking is less useful than measuring instruction completion, correction burden, latency, and cost on a team’s actual workload.
+- **Impact:** Existing integrations must revisit reasoning defaults, cache configuration, endpoint compatibility, and model-specific prompting before migration.
+- **Watch next:** Independent agentic evaluations, placeholder-response rates, long-context reliability, extended-cache economics, and Pro’s gains from additional compute.
