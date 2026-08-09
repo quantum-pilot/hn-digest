@@ -3,18 +3,17 @@
 - Score: 271 | [HN](https://news.ycombinator.com/item?id=47390817) | Link: https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session
 
 ### TL;DR
-Chrome DevTools MCP now lets AI coding agents attach directly to your *already-open* Chrome session, reusing your logged‑in state and active DevTools context. With Chrome 144’s updated remote debugging flow and a new `--autoConnect` flag, agents can inspect selected elements or network requests, then run tasks via tools like Gemini CLI. The browser prompts for each debug session and shows an automation banner. HN discussion compares this to Playwright/CLI workflows, debates whether MCP is “dead,” and raises strong security and token‑cost concerns.
 
----
+Chrome 144 adds an opt-in path for coding agents to attach the DevTools MCP server to a user’s active browser. With autoConnect enabled, an agent can reuse signed-in state and inspect the exact element or network request already selected during manual debugging. Every connection requires Chrome approval and displays an automation banner; separate profiles and remote-debug ports remain alternatives. Commenters value the handoff for reproducing UI states and reverse-engineering requests, but dispute MCP’s context overhead versus standalone CLIs and warn that authenticated browser control greatly amplifies prompt-injection risk.
 
 ### Comment pulse
-- Many power users prefer Playwright + headless Chrome and custom CLIs → more control, lower token use, no MCP overhead — counterpoint: MCP helps centralize auth, RBAC, and ops in enterprises.  
-- Several independent tools already give agents DOM/CDP access (chrome-cdp-skill, browserbox) → flexible but “duct-taped,” with serious prompt‑injection and full‑session‑exposure risks.  
-- Some call Gemini CLI awful and MCP obsolete; others at/near Google say both are widely used internally and improving, especially with centralized MCP services.
 
----
+- MCP critics prefer Playwright or custom CLIs for token efficiency — counterpoint: enterprise users cite centralized authentication, RBAC, updates, and abuse controls.
+- Practitioners automate layout-state capture and API exploration, though terms-of-service and security concerns complicate deployment.
+- A standalone DevTools CLI in version 0.20.0 may address context-cost objections without abandoning the maintained tooling.
 
 ### LLM perspective
-- View: For day‑to‑day debugging, attaching agents to your real, logged‑in session is a big usability step over synthetic profiles.  
-- Impact: Frontend and full‑stack devs get hybrid manual/agent workflows; enterprises gain a sanctioned path for browser‑automation agents.  
-- Watch next: Better safety rails for prompt injection, richer panel data exposure, and benchmarks vs Playwright‑style agent stacks on reliability and cost.
+
+- **View:** The valuable shift is preserving human debugging context when handing a live problem to an agent.
+- **Impact:** Frontend teams gain faster reproduction while exposing authenticated sessions to a larger automation surface.
+- **Watch next:** Stable-channel support, broader panel exposure, and safeguards against malicious page content.

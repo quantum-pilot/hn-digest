@@ -3,18 +3,17 @@
 - Score: 205 | [HN](https://news.ycombinator.com/item?id=47384032) | Link: https://robertsdotpm.github.io/cryptography/tcp_hole_punching.html
 
 ### TL;DR
-The article presents a deterministic TCP hole punching scheme that needs only the peer’s IP: both sides independently derive all parameters (time bucket, port list, punch timing) from local time. A shared “bucket” is computed from the current timestamp with clock-skew tolerance, then used as a PRNG seed to pick identical source ports; non-blocking sockets spam SYNs, and a simple leader/follower handshake selects the winning connection. It’s explicitly a testing tool, trading coverage for simplicity and relying on NATs that preserve source ports, which many commenters question; discussion centers on real-world NAT behavior, practicality vs. complexity, and the argument that IPv6 is the true fix.
 
----
+The proposed test harness strips TCP hole punching down to one shared input: the peer’s WAN IP. Both hosts quantize local time into a common bucket, deterministically derive 16 candidate ports, open reusable nonblocking sockets, and repeatedly send SYNs. If several connections succeed, the numerically greater WAN IP elects one by sending a single-byte marker. This avoids signaling infrastructure and makes experiments easy, but works only when clocks align and both NATs preserve source ports; randomized mappings and CG-NAT sharply reduce coverage.
 
 ### Comment pulse
-- NAT port preservation is a fragile assumption → many CPEs, CG-NATs randomize ports or even egress IPs, so success rates may be low — counterpoint: author knowingly trades coverage for simplicity.  
-- If peers already exchange IPs, they could also agree on ports or brute-force multiple ones → the minimal extra complexity may not justify this scheme’s constraints.  
-- TCP hole punching seems unreliable on real hardware; UDP works better → some want standardized in-band signaling or just widespread IPv6 instead of clever NAT workarounds.
 
----
+- Readers question how often consumer NATs preserve ports — counterpoint: the author explicitly sacrifices coverage for a simple experimental harness.
+- pfSense and some carrier setups reportedly randomize ports or even egress IPs, defeating deterministic coordination.
+- Several commenters prefer standardized mapping behavior or IPv6 over increasingly elaborate traversal techniques.
 
 ### LLM perspective
-- View: Clever deterministic parameter derivation is valuable for reproducible experiments, but shouldn’t be mistaken for a generally robust P2P connectivity solution.  
-- Impact: Most useful to networking researchers, protocol designers, and people debugging NAT behavior; less so to mainstream app developers behind CG-NAT.  
-- Watch next: Empirical success-rate studies across router models, CG-NATs, and ISPs; comparisons with STUN/TURN and IPv6-based alternatives.
+
+- **View:** Its elegance is pedagogical: isolate the punching mechanism by deliberately excluding robust discovery and negotiation.
+- **Impact:** Useful for controlled tests, but unsuitable as a general peer-to-peer connectivity layer.
+- **Watch next:** Publish success rates across home routers, enterprise firewalls, CG-NATs, clock skew, and operating systems.

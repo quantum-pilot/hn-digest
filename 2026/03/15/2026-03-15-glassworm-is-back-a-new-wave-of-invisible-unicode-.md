@@ -3,18 +3,17 @@
 - Score: 205 | [HN](https://news.ycombinator.com/item?id=47387047) | Link: https://www.aikido.dev/blog/glassworm-returns-unicode-attack-github-npm-vscode
 
 ### TL;DR
-Aikido reports a new Glassworm campaign hiding JavaScript malware inside “empty” template strings using invisible Unicode code points, decoded and executed via `eval()`. At least 150+ GitHub repositories and several npm packages and a VS Code extension were silently compromised in early March 2026. Attackers likely use LLMs to generate realistic cover commits (docs tweaks, refactors) so reviews miss the payload. Defenders need automated Unicode-aware scanning and stricter policies, not just eyeballing code, sparking debate on GitHub’s responsibility and maintainers’ diligence.
 
----
+Aikido reports a March 2026 Glassworm campaign across GitHub, npm, and VS Code, with at least 151 repositories matching its decoder pattern. Attackers encode bytes as invisible Unicode variation selectors inside an apparently empty JavaScript string; a visible decoder and eval reconstruct and execute the payload, historically fetching a second stage that steals credentials, tokens, and secrets. The campaign disguises injections within project-specific maintenance commits, which Aikido attributes to likely LLM assistance. Commenters argue visual review is insufficient, while noting that eval and unexplained decoding should already block approval.
 
 ### Comment pulse
-- Git hosting should scan for non-standard zero-width characters like they do secrets → invisible attacks violate platform’s obligation to make PR risk visible to maintainers.  
-- GitHub advertises Unicode warnings but they miss these cases → bug-bounty report was validated yet deemed low priority, undermining confidence in current protections.  
-- Some blame maintainers for merging `eval` + opaque transforms; others note force-push hijacks, volunteer overload, and advocate ASCII-only codebases with hooks to shrink attack surface.
 
----
+- GitHub should flag abnormal invisible spans platform-wide — counterpoint: source-level ASCII enforcement also mitigates risk but restricts legitimate Unicode use.
+- One researcher says GitHub validated a related report, paid $500 and lifetime Pro, yet declined a fix.
+- Compromised trusted accounts or rewritten history may explain malicious changes appearing under old, previously clean contributions.
 
 ### LLM perspective
-- View: LLMs mainly amplify old tricks—obfuscation and `eval`—by scaling tailored, believable commits across many projects.  
-- Impact: Any ecosystem with open contributions and JavaScript build chains is now a realistic target for automated supply-chain poisoning.  
-- Watch next: Native IDE/review support to visualize/control Unicode, repo-level ASCII policies, and benchmarkable Unicode-masked malware detections in CI.
+
+- **View:** Treat invisible executable data as a machine-detectable policy violation, not a reviewer puzzle.
+- **Impact:** Maintainers, registries, and code hosts share exposure when trusted identities or histories are compromised.
+- **Watch next:** Retroactive repository scans, registry removals, account forensics, and host-level Unicode warnings.

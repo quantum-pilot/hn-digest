@@ -2,15 +2,17 @@
 
 - Score: 305 | [HN](https://news.ycombinator.com/item?id=47386116) | Link: https://r2d3.us/visual-intro-to-machine-learning-part-1/
 
-- TL;DR
-    - Interactive essay walks through building a decision-tree classifier to distinguish San Francisco from New York homes. It introduces features, decision boundaries, split points, false positives/negatives, recursion, tree depth, and the training–test split, then shows how a perfectly accurate training tree overfits and fails on new data, motivating bias–variance. HN readers, ten years on, still treat it as a gold-standard explorable explanation, share similar resources, and wish for more mid-depth, visual explainers for modern ML and LLMs.
+### TL;DR
 
-- Comment pulse
-    - Original creator appears → answers questions; a reader asks how to build similar visualizations for data pipelines and whether more articles are planned.
-    - Educators praise it as a go-to ML intro and share curated lists of “S-tier” interactive explainers, adding updated links and their own visualization tools.
-    - Readers note it debuted in 2015 yet still feels advanced; some lament the lack of newer work from the authors or similarly polished LLM explainers.
+This interactive explainer teaches classification by deciding whether homes belong to San Francisco or New York. Starting with elevation, it adds price and seven total features, then shows how a decision tree recursively chooses split points that make branches purer. More depth raises training accuracy from 84% to 96% and eventually 100%, but performance on unseen test data deteriorates: the tree has learned irrelevant distinctions, illustrating overfitting. Commenters still regard the decade-old, scroll-driven visualization as an exemplary middle ground between dense papers and shallow summaries.
 
-- LLM perspective
-    - View: Explorable explanations like this clarify nontrivial math by grounding concepts in one consistent visual metaphor and concrete dataset.
-    - Impact: Best suited for newcomers, product teams, and policymakers who need intuition for ML behavior without diving into notation or code.
-    - Watch next: Extend this approach to end-to-end data pipelines, deep learning, and LLM internals, then validate learning gains through controlled educational studies.
+### Comment pulse
+
+- Educators repeatedly reuse the explainer because animation turns abstract features, branches, false positives, and overfitting into visible transitions.
+- Readers shared collections of similar interactive resources and asked whether the creators plan more material after a decade.
+
+### LLM perspective
+
+- **View:** The durable lesson is methodological: intuitive boundaries become measurable splits, then must survive unseen data.
+- **Impact:** Beginners gain vocabulary and intuition before encountering the mathematics behind split selection.
+- **Watch next:** A modern follow-up could complete the promised connection between overfitting and the bias–variance tradeoff.

@@ -3,18 +3,17 @@
 - Score: 182 | [HN](https://news.ycombinator.com/item?id=47389784) | Link: https://www.bbc.com/reel/video/p0n61dg3/grandparents-are-glued-to-their-phones-families-are-worried
 
 ### TL;DR
-Older adults are increasingly glued to smartphones, worrying their families much like concerns once focused mainly on kids. The BBC interview with Charlie Warzel (riffing on his Atlantic essay) asks whether this is genuine harm—loneliness, radicalization, scams, and passive scrolling—or younger generations projecting their own screen anxieties onto parents and grandparents. Hacker News commenters broaden it: today’s hyper-optimized feeds addict everyone, with seniors and children especially vulnerable, while some argue older people’s autonomy and need for stimulation should be respected.
 
----
+A BBC discussion asks whether rising device use among older adults reflects harmful compulsion, loneliness, or younger relatives projecting their own screen anxieties. HN commenters describe parents absorbed by Facebook, questionable news, games, and messenger feeds, sometimes with dementia worsening vulnerability to rage-inducing content. Others defend scrolling as autonomy, stimulation, and companionship during retirement, loss, or limited mobility. The broader consensus is that algorithmic attention capture is not a youth-only problem; free time, isolation, and little experience with today’s optimized feeds can expose any generation.
 
 ### Comment pulse
-- Screen addiction is cross‑generational → Phones plus algorithmic feeds are designed to fill free time; seniors, kids, unemployed all fall in because they have large “time holes”.  
-- Some defend seniors’ scrolling → Empty-nest parents have their own lives; phones can ease isolation and disability—counterpoint: like alcohol, excess signals deeper unmet needs.  
-- Observed reality is bleak → Many see parents/grandparents lost in Facebook/TikTok/news conspiracies; older and younger users hit today’s “hyper-addictive hellscape” without gentler-internet training.
 
----
+- Multigenerational proximity reportedly reduced scrolling through conversation, meals, and games — counterpoint: older adults may reasonably prefer independent routines.
+- Some users remove recommendations and short videos, substituting subscribed channels, books, paper, or deliberate desktop browsing.
+- Commenters argue older and younger newcomers meet an already optimized attention environment without gradual exposure to its manipulative patterns.
 
 ### LLM perspective
-- View: Treat senior phone use like any habit: distinguish harmless leisure from addiction using observable impacts on mood, sleep, relationships.  
-- Impact: Families, clinicians, and designers all need senior-specific digital literacy, scam awareness, and less manipulative default experiences.  
-- Watch next: Longitudinal studies on older adults’ screen time vs. cognition, depression, social ties; platform-level controls that relatives can collaboratively configure.
+
+- **View:** Age is less predictive than free time, isolation, cognitive vulnerability, and exposure to algorithmic feeds.
+- **Impact:** Families need concern without infantilizing older adults or treating all screen use as equivalent.
+- **Watch next:** Age-stratified evidence linking specific activities, usage patterns, loneliness, cognition, and wellbeing.

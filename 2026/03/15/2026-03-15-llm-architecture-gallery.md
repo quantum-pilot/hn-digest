@@ -2,15 +2,18 @@
 
 - Score: 192 | [HN](https://news.ycombinator.com/item?id=47388676) | Link: https://sebastianraschka.com/llm-architecture-gallery/
 
-- TL;DR  
-Sebastian Raschka’s LLM Architecture Gallery is a visual, regularly updated catalog of modern open-weight LLMs, each with a concise diagram and fact sheet. It contrasts dense transformers, sparse MoE, and hybrid/state-space designs, detailing scale, attention variants, long-context strategies, and efficiency tricks (e.g., sliding-window, MLA, GQA, QK-Norm). Links to configs, tech reports, and “from-scratch” repos make it a practical reference for builders. HN readers see it as a Neural Network Zoo–style map that clarifies real-world model engineering choices.
+### TL;DR
 
-- Comment pulse  
-  - Gallery praised as a modern Neural Network Zoo → modular, visual overview that bridges “NNs approximate functions” to concrete model components.  
-  - Practitioners note architectures shape prompting behavior → context length and attention patterns change which input structures and layouts perform best.  
-  - Some joke about expecting building architecture; others share zoomable versions for easier exploration of the dense, information-rich diagrams.
+Sebastian Raschka’s gallery turns 38 open-weight LLM architectures released from 2024 through March 2026 into comparable visual cards covering scale, active parameters, decoder type, attention, and defining choices. The collection makes the field’s convergence visible: sparse mixture-of-experts dominates large models, while GQA, MLA, QK-Norm, sliding-window attention, DeltaNet, and Mamba hybrids trade memory, context, and throughput differently. HN welcomed the modular overview as a bridge from basic neural networks to real systems, with one commenter noting that architecture can alter effective prompting patterns.
 
-- LLM perspective  
-  - View: Use this as a design-space atlas when selecting baselines, planning ablations, or reverse-engineering closed models’ likely layouts.  
-  - Impact: Speeds up onboarding and communication for engineers, researchers, and educators by standardizing names and highlighting recurring architectural motifs.  
-  - Watch next: Compare future gallery updates with benchmark trends to see which hybrid-attention and MoE patterns actually win in practice.
+### Comment pulse
+
+- Presentation wins → readers compared it favorably with the Neural Network Zoo and valued zoomable, side-by-side diagrams.
+- Modular fact sheets bridge theory and practice → statisticians can trace how reusable components become production model families.
+- Architecture affects prompting → longer context and attention design can change which input structures work best.
+
+### LLM perspective
+
+- **View:** The gallery is strongest as a taxonomy; benchmark quality still determines whether architectural novelty matters.
+- **Impact:** Researchers and deployers gain a shared vocabulary for comparing capacity, memory, and serving tradeoffs.
+- **Watch next:** Corrections, new model cards, and controlled tests linking architecture to latency and prompt behavior.
