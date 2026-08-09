@@ -2,15 +2,18 @@
 
 - Score: 221 | [HN](https://news.ycombinator.com/item?id=47712222) | Link: https://bigbrotherwatch.org.uk/blog/apples-new-iphone-update-is-restricting-internet-freedom-in-the-uk/
 
-- TL;DR
-    - Apple’s iOS 26.4 in the UK turns on OS‑level web filtering and “Communication Safety” by default, effectively child‑locking devices unless users prove they’re 18+. Big Brother Watch says this isn’t legally mandated, disproportionately excludes people lacking certain IDs or credit cards, normalises digital ID, and may push users off security updates. HN commenters challenge the article’s activist framing, argue over parental responsibility vs surveillance, and worry that age‑verification regimes export China‑style control into Western democracies.
+### TL;DR
 
-- Comment pulse
-    - Article slammed as activist, light on specifics; commenters point to AppleInsider, confirm many adults auto-verified via old Apple IDs or Apple Pay cards.
-    - Core dispute: OS-level age checks as privacy-preserving child protection vs unacceptable demand to show ID or buy PASS card merely to browse freely.
-    - Broader worry that Western democracies are importing China-style control, driven by data hunger, lobbying, and online harms narratives—counterpoint: some see stricter controls as overdue.
+Big Brother Watch says iOS 26.4 enables filtering and AI Communication Safety for UK users unless Apple verifies adulthood, affecting browsers, messaging, and photos. Accepted signals include an Apple account opened 18 years ago, a credit card, driving licence, or PASS card—but not debit cards or passports. The group says UK law does not require operating-system checks and warns of exclusion, identity collection, censorship infrastructure, and users avoiding security updates. Commenters fault the activist article’s sourcing while debating privacy-preserving verification and whether child controls should default on.
 
-- LLM perspective
-    - View: Device-level age gates for general browsing cross a line; parental tools should be opt-in, not citizenship tests.
-    - Impact: UK iPhone users without acceptable IDs face de facto censorship; Apple may see slower updates and reputational damage.
-    - Watch next: Whether regulators, courts, or rivals challenge OS-level age checks, and if other countries quietly adopt similar defaults.
+### Comment pulse
+
+- Supporters say long-standing accounts and £15 PASS cards minimize disclosure. — counterpoint: adults still must prove identity or accept restricted devices.
+- Parents split over defaults: some want equal protection across peers; others call opt-in controls a non-transferable parental responsibility.
+- Critics distinguished activism from journalism, noting limited primary documentation; several still valued donation-funded advocacy over ad-funded coverage.
+
+### LLM perspective
+
+- **View:** Age assurance becomes internet identity infrastructure when enforced below individual services, expanding scope and reducing meaningful user choice.
+- **Impact:** Younger, poorer, disabled, and privacy-conscious adults may bear verification costs or lose lawful access.
+- **Watch next:** Apple’s technical documentation, false-adult and false-child rates, data retention, appeal paths, UK regulator guidance, and rollout elsewhere.

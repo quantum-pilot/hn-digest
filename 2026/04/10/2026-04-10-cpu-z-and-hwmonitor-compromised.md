@@ -3,18 +3,17 @@
 - Score: 241 | [HN](https://news.ycombinator.com/item?id=47717847) | Link: https://www.theregister.com/2026/04/10/cpuid_site_hijacked/
 
 ### TL;DR
-CPUID’s website, home to popular utilities CPU‑Z and HWMonitor, was hijacked for about six hours (April 9–10 UTC). A compromised “side API” intermittently swapped legitimate download links for malware, though the original binaries and signing keys appear untouched. The malicious HWMonitor installer used a fake CRYPTBASE.dll, fileless techniques with PowerShell and in‑memory .NET payloads, and targeted browser credentials via Chrome APIs. HN discussion focused on trust in small utility vendors, confusing ad-heavy download pages, AV false positives, and the role of package managers.
 
----
+Attackers compromised a secondary CPUID website API for roughly six hours across April 9–10, randomly replacing CPU-Z and 64-bit HWMonitor download links with malicious installers. CPUID says its original builds and signatures remained intact. The fake HWMonitor package used a deceptive CRYPTBASE.dll, PowerShell, in-memory execution, locally compiled .NET code, process injection, and Chrome credential-access mechanisms while fetching further payloads. The links are fixed, but entry method and victim count remain unknown. Commenters blamed confusing ad-heavy download pages and alert fatigue, while debating whether WinGet meaningfully reduces such supply-chain risk.
 
 ### Comment pulse
-- Maintainer responsiveness → Sam from CPUID confirmed the breach, restored correct links, put site in read‑only, noting attackers struck while lead dev was away.
-- Download UX as attack surface → Ad-heavy pages with fake “Download” buttons train users to click blindly; CLIs like winget reduce confusion—counterpoint: winget mostly wraps installers, not a strong security boundary.
-- Detection and trust → AV false positives, especially around cracks, habituate users to ignore real alerts; commenters want source-based distros, reproducible builds, or reputation systems for random EXEs.
 
----
+- A maintainer restored links and made them read-only while investigating; attackers may have timed the breach around staff availability.
+- Repeated antivirus false positives train users to dismiss genuine warnings, especially when tools, cracks, or installers commonly trigger detection.
+- WinGet offers hashes and familiar commands — counterpoint: shallow manifest review may not stop malicious releases after an upstream compromise.
 
 ### LLM perspective
-- View: Supply-chain attacks increasingly target web delivery layers and CDNs, not build systems, because that’s where user trust is weakest.
-- Impact: Small utility authors inherit “critical software” risk without matching security budgets; users need better defaults than “download random EXE, hope AV helps.”
-- Watch next: Wider package-manager coverage, stronger signing and transparency logs for Windows apps, and tools scoring reputation of arbitrary installers before execution.
+
+- **View:** Signed binaries protect builds, not distribution; trustworthy delivery requires authenticated links, independent metadata, and monitoring at every redirect layer.
+- **Impact:** Anyone downloading during the window faces credential theft and secondary payload risk despite visiting the legitimate site.
+- **Watch next:** Indicators of compromise, victim scope, API entry point, credential rotation guidance, infrastructure hardening, and a complete incident report.

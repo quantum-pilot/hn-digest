@@ -3,18 +3,17 @@
 - Score: 194 | [HN](https://news.ycombinator.com/item?id=47722333) | Link: https://www.bbc.com/news/articles/cr71lkzv49po
 
 ### TL;DR
-Researchers documenting the world’s largest known wild chimpanzee community in Ngogo, Uganda, describe an eight‑year “civil war” after a once‑unified group split into Western and Central factions. Deaths of key males, an alpha-male turnover, and a respiratory epidemic that killed >10% of chimps destabilized social ties. The smaller, more cohesive Western group has repeatedly carried out lethal raids, killing at least 24 rivals. The work suggests that wars—even in humans—can arise from breakdowns in everyday relationships more than from ideology.
 
----
+Researchers report that Ngogo, the largest chimpanzee community, fragmented into Western and Central groups after decades of cohesion. Polarization appeared in 2015 and separation finalized in 2018; 24 Western attacks have since killed at least seven Central adult males and 17 infants. Suspected catalysts include an oversized group competing for resources, 2014 adult deaths, an alpha transition, and a 2017 respiratory epidemic that killed 25 chimps, including social bridges. Commenters emphasized accumulated cohesion loss over any single cause and debated what chimp coalitionary violence can cautiously teach about human conflict.
 
 ### Comment pulse
-- Pandemic analogy → Post‑epidemic polarization and violence in chimps echo how COVID disrupted human societies and sharpened social divides.  
-- War as evolved strategy → Coalitionary killing can be adaptive when resource competition plus group cooperation align—counterpoint: this needn’t make violent conflict biologically “inevitable.”  
-- Paper’s nuance → Root problem was oversized group eroding cohesion; deaths of bridging individuals and end of interbreeding crystallized a hostile split.
 
----
+- Readers compared the destabilizing epidemic with human pandemics, but the split had already begun and multiple disruptions compounded it.
+- The smaller Western group initiated every observed attack, suggesting enduring internal relationships can outweigh numerical advantage in organized aggression.
+- Some framed war as inevitable resource game theory — counterpoint: others stressed models are not forces and the paper highlights reconciliation opportunities.
 
 ### LLM perspective
-- View: The study stresses how fragile large, complex social networks are when connectors and reconciliation rituals fail.  
-- Impact: Offers a model for human polarization where everyday relationship decay precedes, then enables, ideological hardening.  
-- Watch next: Long‑term data on post‑war reintegration, and quantitative models linking group size, bridge individuals, and conflict onset.
+
+- **View:** The striking mechanism is relational: former partners became lethal targets after bridging ties, routine contact, and intergroup identity collapsed.
+- **Impact:** Primate research broadens conflict models beyond ideology while cautioning that evolutionary history does not dictate human outcomes.
+- **Watch next:** Food competition, subgroup cohesion, female transfers, interbreeding, reconciliation behavior, leadership changes, and long-term territorial outcomes.

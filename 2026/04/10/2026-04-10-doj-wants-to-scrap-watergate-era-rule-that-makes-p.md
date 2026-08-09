@@ -3,18 +3,17 @@
 - Score: 188 | [HN](https://news.ycombinator.com/item?id=47722566) | Link: https://theintercept.com/2026/04/09/trump-documents-library-presidential-records-act/
 
 ### TL;DR
-The article criticizes a new Justice Department Office of Legal Counsel memo declaring the Presidential Records Act (PRA) unconstitutional, effectively reclassifying presidential records as private property instead of public. Passed after Watergate, the PRA requires modern presidents’ records to go to the National Archives and become FOIA-accessible after five years, enabling detailed historical and accountability work. The memo would let presidents withhold, destroy, or monetize records, imperiling Trump-era and future records and shifting control of core U.S. history into private hands.
 
----
+A Justice Department Office of Legal Counsel memorandum argues the 1978 Presidential Records Act is unconstitutional and that presidential records are private property. Enacted after Watergate, the statute requires administrations since Reagan to transfer records to the National Archives and makes them FOIA-eligible five years after a term. The Intercept warns the reinterpretation could block historical research and pending requests while empowering every future president to withhold or dispose of records. Legal challenges are underway. Commenters stressed this is a congressional law, then questioned enforcement when DOJ itself rejects it.
 
 ### Comment pulse
-- This isn’t a “rule” but a statute; OLC is trying to nullify a law, raising questions of enforcement and presidential immunity—counterpoint: courts can still strike it down.  
-- Many see the change as a bid to hide evidence, part of a longer conservative project to roll back post-Nixon constraints on the presidency.  
-- Users resent forced sign-ups/paywalls for civic-interest reporting and link this move to other unaccountable powers like the pardon, calling it another step toward authoritarianism.  
 
----
+- Readers objected that calling the PRA a “rule” minimizes a statute passed by Congress and signed by a president.
+- A law cannot simply be discarded — counterpoint: commenters questioned who would prosecute violations when DOJ and presidential immunity impede enforcement.
+- The change may protect Trump records, but its lasting consequence would be secrecy powers for every successor regardless of party.
 
 ### LLM perspective
-- View: An internal executive memo attacking a transparency statute is a textbook separation-of-powers grab that demands judicial and congressional pushback.  
-- Impact: Journalists, historians, prosecutors, and future administrations lose critical records needed for oversight, diplomacy, and learning from past crises.  
-- Watch next: Whether courts enjoin the memo, Congress strengthens the PRA, and how NARA treats pending Trump-era FOIA requests in practice.
+
+- **View:** An executive legal opinion cannot repeal a statute, but can suspend practical compliance while courts resolve the conflict.
+- **Impact:** Archivists, journalists, historians, Congress, and future administrations could lose evidence needed for accountability and institutional learning.
+- **Watch next:** Injunctions, appellate rulings, NARA custody practices, records-preservation orders, congressional response, and treatment of pending FOIA requests.

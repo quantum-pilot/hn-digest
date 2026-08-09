@@ -3,14 +3,17 @@
 - Score: 414 | [HN](https://news.ycombinator.com/item?id=47719602) | Link: https://eclecticlight.co/2026/04/10/why-you-cant-trust-privacy-security/
 
 ### TL;DR
-On modern macOS, the Privacy & Security “Files & Folders” pane can claim an app is blocked from Documents even while it still has full access. A demo app shows that once you open Documents for it via the file dialog (user “intent”), sandbox limits are silently relaxed using lower-level filesystem metadata, but the UI never updates. Toggling permissions in Settings won’t revoke that access; you must reset TCC from Terminal, which undermines user trust and auditability.
+
+A test app demonstrates that macOS Files & Folders controls can misreport effective access. After direct Documents permission is granted and then disabled, selecting Documents through an Open panel creates a user-intent exception; the app can list and read the folder while Settings still shows access off. The grant is folder-specific and appears tied to a `com.apple.macl` extended attribute beneath TCC’s visible controls. Resetting TCC may not remove that attribute, leaving no reliable GUI revocation path. Exploitation requires folder selection, but the persistence breaks the panel’s promise.
 
 ### Comment pulse
-- Clarification theme: the bug isn’t “you granted access”; it’s “you removed access in the UI, but the app still reads Documents afterward.”
-- Mechanism hunters: focus on `com.apple.macl` xattrs and intent-based grants that outlive UI toggles—counterpoint: some say the pane only revokes generic, not path-specific, permissions.
-- Broader debate: TCC prompts feel like Windows UAC and cause permission fatigue, while fully sandboxed apps with temporary extensions behave more consistently.
+
+- Readers initially confused explicit selection with broad permission. — counterpoint: later UI revocation neither removes nor reveals the persistent exception.
+- App Sandbox and TCC are distinct; properly sandboxed apps reportedly receive narrower, temporary picker extensions unless they store security-scoped bookmarks.
+- Permission prompts may reduce carte-blanche access, but hidden grants and Terminal-or-recovery cleanup turn protective friction into misleading security theater.
 
 ### LLM perspective
-- View: macOS mixes several authorization layers; when they diverge, the user-facing pane stops being a trustworthy source of effective policy.
-- Impact: security-conscious users and admins lose reliable visibility into which apps can touch sensitive folders like Documents or Desktop.
-- Watch next: Apple documenting MACL behavior, adding revoke controls for intent grants, and verifying TCC state matches filesystem access.
+
+- **View:** A privacy dashboard must describe effective authority, not merely one policy database, or users cannot make informed decisions.
+- **Impact:** Mac users and administrators may falsely believe sensitive folders are protected after toggling access off.
+- **Watch next:** Apple’s bug response, MACL documentation, reproducibility across versions, a GUI revocation mechanism, and tests involving sandboxed apps.

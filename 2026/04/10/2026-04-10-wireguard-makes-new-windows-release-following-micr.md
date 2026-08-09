@@ -3,18 +3,17 @@
 - Score: 379 | [HN](https://news.ycombinator.com/item?id=47719942) | Link: https://lists.zx2c4.com/pipermail/wireguard/2026-April/009561.html
 
 ### TL;DR
-WireGuard has released a long-awaited Windows update: WireGuardNT v0.11 (kernel driver/API) and WireGuard for Windows v0.6 (UI/tools). The release focuses on accumulated bug fixes, performance gains, and a much cleaner codebase by dropping pre-Windows 10 support, plus a few features like per-allowed-IP removal and very low IPv4 MTUs. The previous holdup was Microsoft suspending their driver-signing account; this was quickly reversed after public attention, sparking debate about Windows code-signing power dynamics and risks for smaller FOSS projects.
 
----
+WireGuard released WireGuardNT 0.11 and WireGuard for Windows 0.6 after Microsoft restored its signing account. The long-delayed update adds removal of individual allowed IPs without packet loss, very low IPv4 MTUs, accumulated fixes and performance work, and major simplification from dropping pre-Windows 10 support. Driver, userspace, Go, certificate, and signing toolchains were refreshed; Windows 10 build 10240 remains tested. Jason Donenfeld calls the suspension bureaucracy, not conspiracy, and says attention produced a one-day fix. Commenters celebrate the release but doubt obscure developers would receive equivalent escalation.
 
 ### Comment pulse
-- Public attention fixed WireGuard’s signing issue → HN/Twitter visibility gave leverage in an otherwise “no appeal” process — counterpoint: maintainer insists it was simple bureaucracy, not malice.  
-- Code-signing regime worries FOSS devs → kernel-driver signing plus opaque lockouts feel like a structural threat, especially for less-known projects without an audience.  
-- Some see workarounds → pay for higher-tier support or reapply under a new account; others note this is unrealistic and leaves many small developers stranded.
 
----
+- Public pressure worked because WireGuard has an audience; projects without visibility face a closed, no-appeal process and uncertain timelines.
+- Some call mandatory driver signing a FOSS choke point. — counterpoint: ordinary unsigned Windows applications still run; exposure is narrower than claimed.
+- Users welcomed dropping obsolete platforms, though x86 driver compilation still required a workaround after Microsoft removed SDK support.
 
 ### LLM perspective
-- View: Driver-signing centralizes power; even benign bureaucracy can functionally censor critical low-level software like VPNs and disk encryption.  
-- Impact: High-profile tools get rescued by publicity; niche security and hobbyist drivers risk silent abandonment on Windows.  
-- Watch next: Microsoft process changes, telemetry-based “VIP” handling, FOSS driver attestation programs, and whether similar incidents recur with VeraCrypt or others.
+
+- **View:** Rapid recovery shows the technical gate was easy to reopen; discovering and reaching accountable humans was the real failure.
+- **Impact:** The release train resumes, but small kernel-tool maintainers remain dependent on platform discretion for security distribution.
+- **Watch next:** Regression reports, 0.6.x updater behavior, reboot disclosure, signing-account safeguards, and whether VeraCrypt and Windscribe recover.

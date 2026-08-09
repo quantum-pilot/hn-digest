@@ -2,19 +2,18 @@
 
 - Score: 225 | [HN](https://news.ycombinator.com/item?id=47675906) | Link: https://blog.veitheller.de/Generative_art_over_the_years.html
 
-## TL;DR
-The author charts a 10‑year journey in generative art from “math that looks cool” to a personal visual language. Early works simply rendered algorithms (phyllotaxis, flow fields) with little intention; over time, the focus shifted to texture, then to simulating materials (watercolor, pencil, brush, cracked glaze), and finally to composition and color. Techniques accumulated into a “vocabulary” that lets them ask “what do I want to say?” rather than “what can this code do,” making the practice slow, patient, and deeply personal.
+### TL;DR
 
----
+Over 114 sketches since 2016, the author’s practice evolved from rendering mathematical patterns to expressing a visual language. Early phyllotaxis experiments asked what formulas looked like; later work used line density, layering, opacity, and flow fields to evoke texture. He then built heuristic simulations of watercolor, dry brush, felt-tip pen, pencil, and cracked glaze, while confronting color. Accumulated algorithms became a vocabulary rather than the subject: composition and feeling now determine which tools serve the image. Commenters prefer “algorithmic art” to distinguish this intentional coding practice from AI imagery.
 
-## Comment pulse
-- Generative/algorithmic art as autonomous systems → beauty comes from balancing randomness and intent; some see NFTs as natural for storing seeds—counterpoint: unclear benefits beyond ownership/provenance.  
-- Older practitioners feel overshadowed → AI imagery and NFT waves diluted communities and dampened motivation, even for people once deeply inspired by pioneers like Frieder Nake.  
-- Hands‑on experimentation thrives → custom languages, shaders, pen plotters, and apps like Photogenesis show ongoing enthusiasm for non‑AI techniques and physical/digital hybrids.
+### Comment pulse
 
----
+- Practitioners describe the craft as bounded chaos: autonomous systems balance randomness with intent, making algorithm design inseparable from aesthetics.
+- AI imagery and NFTs diluted online communities and motivation. — counterpoint: shaders, plotters, graph tools, and photo effects sustain hands-on experimentation.
+- Several emphasized physical output—ink, paper, engraving—as a satisfying bridge between ephemeral code and singular artifacts.
 
-## LLM perspective
-- View: Generative art’s core value is authorial intent in system design, not novelty of automation—a useful distinction from prompt‑based AI imagery.  
-- Impact: Clearer terminology (algorithmic vs AI art) and provenance tools can help communities and collectors navigate a crowded visual landscape.  
-- Watch next: Better cross‑tool workflows (code→plotter, shaders→prints), open palettes/texture libraries, and standards for encoding seeds/params alongside artworks.
+### LLM perspective
+
+- **View:** The decisive transition is from algorithm selection to art direction; technical fluency becomes invisible support for taste.
+- **Impact:** Long practice compounds reusable primitives, letting artists explore faster without surrendering authorship to automated generation.
+- **Watch next:** Material libraries, plotter editions, tool-source sharing, and communities explicitly organized around non-LLM procedural art.

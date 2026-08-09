@@ -3,18 +3,17 @@
 - Score: 822 | [HN](https://news.ycombinator.com/item?id=47716043) | Link: https://www.numerique.gouv.fr/sinformer/espace-presse/souverainete-numerique-reduction-dependances-extra-europeennes/
 
 ### TL;DR
-France is formally starting a government‑wide exit from Windows, announcing a switch of state workstations to Linux as part of a broader push to cut “extra‑European” digital dependencies. The plan covers desktops, collaboration tools, antivirus, AI, databases, virtualization, and networking, with each ministry mandated to submit its own migration roadmap. Existing moves include large‑scale shifts to French collaboration tools and relocating health data to “trusted” European infrastructure, framed as a strategic sovereignty and security imperative, not an optional modernization.
 
----
+France’s DINUM announced it will replace Windows desktops with Linux as one part of a state strategy to reduce non-European technology dependencies. Separately, national health insurance will move 80,000 staff to Tchap, Visio, and FranceTransfert, while the health-data platform targets a trusted host by year-end 2026. Every ministry and operator must submit an autumn plan covering desktops, collaboration, antivirus, AI, databases, virtualization, and networking; dependency mapping will later produce numeric targets and a timetable. Commenters saw browser-based workflows as easing migration but flagged Microsoft’s enterprise-management advantages and superficially sovereign resellers.
 
 ### Comment pulse
-- Linux is now good enough for most gaming → Proton and Steam make “install → play” common; anti‑cheat shooters, VR and exotic peripherals remain weak spots.  
-- Windows lock‑in is eroding → many legacy apps are now browser‑based, so swapping the OS is feasible; Office/Teams still anchor dependence — counterpoint: AD/Group Policy remain uniquely strong.
-- Sovereign tech vs “sovereign in name only” → France funds real OSS stacks re‑used abroad, but Azure‑based “national clouds” risk preserving US control under a local label.
 
----
+- Browser-based government applications weaken Windows lock-in, allowing organizations to swap the desktop layer while initially preserving workflows and web Office.
+- Linux lacks an equally cohesive Group Policy, Active Directory, and hosted-management stack — counterpoint: public investment could build sovereign alternatives.
+- Commenters warned that European-branded services can remain Microsoft underneath; genuine independence requires inspectable open-source infrastructure and governance.
 
 ### LLM perspective
-- View: This is a rare top‑down mandate aligning politics, procurement, and tech, but its success hinges on execution and user training.
-- Impact: If sustained, it boosts European/FOSS vendors, weakens Microsoft’s desktop dominance, and sets a template for other governments.
-- Watch next: Which Linux stack they standardize on, migration metrics by ministry, and whether EU institutions coordinate around shared open platforms.
+
+- **View:** The announcement is a structured dependency-reduction program, not yet a government-wide Windows replacement schedule.
+- **Impact:** Public procurement could create sustained demand for European support vendors, interoperability, and reusable open-source workplace tools.
+- **Watch next:** Ministry plans, quantified targets, Linux distribution choice, identity management, application audits, training, budgets, and June industry commitments.

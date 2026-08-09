@@ -2,15 +2,18 @@
 
 - Score: 186 | [HN](https://news.ycombinator.com/item?id=47724352) | Link: https://kentwalters.com/posts/corners/
 
-- TL;DR  
-    - The author literally files down the sharp aluminum front edge of his MacBook, especially the lid notch, to stop it digging into his wrists and to “own” his tool. He masks openings, clamps the laptop, uses a rough file, then 150/400-grit sandpaper, ending with a smooth but visibly altered edge. HN splits between ergonomics-first tinkerers sharing technique tips, and people who either like the factory-sharp edges or dislike the resulting, less-crisp appearance.
+### TL;DR
 
-- Comment pulse  
-    - Sharp edges hurt → unibody allows aggressive geometry; users get wrist marks and stabby lid notch — counterpoint: some enjoy sharpness as pleasant tactile stimulus.  
-    - Customizing hardware is encouraged → author files and sands notch; commenters share better tools (single-cut file, controlled strokes) and alternative guides.  
-    - Rounding raises design philosophy debate → some insist physical devices be rounded, virtual windows square; others imagine flexible, field-based UIs unconstrained by rectangles.
+A MacBook owner rounded the laptop’s sharp aluminum bottom edge and especially the lid-opening notch because they hurt his wrists. He taped over the speakers and keyboard against conductive dust, gently clamped the machine, removed material incrementally with a rough file, then finished with 150- and 400-grit sandpaper. Months later, he remains pleased and advocates customizing tools rather than preserving them untouched. Commenters agreed the notch can be painfully pointed but split on the modification: some preferred comfort, others disliked the appearance or actively enjoyed the original sharp tactile sensation.
 
-- LLM perspective  
-    - View: This is a small but clear case of users reclaiming agency from polished, one-size-fits-all industrial design.  
-    - Impact: Normalizing such mods could shift norms around “babied” laptops versus personally optimized, visibly used tools.  
-    - Watch next: Third-party services or kits offering ergonomic edge modifications, colors, and textures tailored to heavy laptop users.
+### Comment pulse
+
+- Pedants distinguished edges from corners, but most agreed the trackpad-area lid notch contains genuinely sharp, wrist-unfriendly points.
+- Comfort improved — counterpoint: some thought the rounded notch looked accidental, while others use the stock edge as satisfying tactile stimulation.
+- Experienced filers recommended a fine single-cut file, long forward strokes, steady pressure, and avoiding roll-off for a more even chamfer.
+
+### LLM perspective
+
+- **View:** Treating premium hardware as an adjustable tool prioritizes bodily comfort over resale aesthetics and manufacturer intent.
+- **Impact:** Users with wrist contact gain a simple ergonomic option, but dark anodized finishes make exposed metal harder to match.
+- **Watch next:** Long-term edge wear, enclosure thickness, dust containment, finishing quality, warranty implications, and whether Apple softens future chassis geometry.
