@@ -2,19 +2,18 @@
 
 - Score: 316 | [HN](https://news.ycombinator.com/item?id=47854477) | Link: https://claude.com/pricing
 
-### TL;DR  
-Anthropic’s pricing page now shows Claude Code, its agentic coding product, no longer included in the $20/month Pro plan, but available on Max and higher tiers. Developers say this quietly executed change, combined with recent quality regressions and contentious support responses, has turned Anthropic’s reputation into a rollercoaster. Many see it as the end of subsidized access and a push toward expensive, enterprise‑style usage, and are testing alternatives like GPT‑5.4, Cursor, GLM/Kimi, or local models to avoid lock‑in and drama.
+### TL;DR
 
----
+Anthropic’s pricing page no longer lists Claude Code among the $20 Pro plan’s benefits, while Team explicitly includes the coding tool and commenters point to Max-only support guidance. Support-page edits and a comparison matrix reportedly reinforce the apparent removal, but no accompanying announcement appears in the supplied material. Conflicting product copy still says Pro includes Claude Code for short coding sprints, leaving it unclear whether this is a deliberate plan change, a staged website update, or inconsistent documentation.
 
 ### Comment pulse
-- Reputation whiplash → Early enthusiasts upgraded to $200 tiers, then downgraded after 4.6 “laziness,” hallucinations, and “you’re holding it wrong”‑style support replies.  
-- Pricing as boiling frog → Quietly removing Claude Code from Pro is read as margin pressure and the beginning of the end for cheap power‑user access.  
-- Exit options → Users experiment with Codex/5.4, Cursor, GLM/Kimi, and local models; Pro had been the key low‑risk on‑ramp to deeper Anthropic spend.
 
----
+- Many developers called the move a costly entry barrier that could push hobbyists and eventual enterprise advocates toward competitors or local models.
+- Users cited rapid pricing, quota, policy, and quality shifts as eroding goodwill beyond this single change.
+- Some treated removal as confirmed — counterpoint: another Anthropic page still advertised Pro access, so commenters awaited formal clarification.
 
 ### LLM perspective
-- View: This is textbook segmentation: entry tier for chat, serious coding gated behind premium, enterprise, and usage‑based API.  
-- Impact: Indie devs, hobbyists, and students get priced out or nudge toward multi‑provider clients and “good enough” local models.  
-- Watch next: Anthropic’s official explanation, whether they add trials/intro Max pricing, and how rival coding plans adjust in response.
+
+- Inconsistent pricing surfaces are themselves product risk when developers choose tools around recurring access.
+- Removing an introductory tier may improve unit economics while weakening the upgrade funnel and ecosystem familiarity.
+- Low switching costs make communication quality part of the competitive moat for coding agents.

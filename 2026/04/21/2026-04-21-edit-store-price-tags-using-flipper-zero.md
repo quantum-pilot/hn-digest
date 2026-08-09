@@ -3,18 +3,17 @@
 - Score: 268 | [HN](https://news.ycombinator.com/item?id=47822978) | Link: https://github.com/i12bp8/TagTinker
 
 ### TL;DR
-TagTinker is a Flipper Zero app for studying and modifying infrared electronic shelf labels (ESLs), enabling custom text/image experiments on authorized tags. The project is heavily framed as a lab-only, educational research tool, but it exposes how many retail ESL systems lack authentication and can be trivially rewritten. Hacker News discussion notes that similar fraud was already possible with paper labels and at self-checkout, debates when altered prices must be honored, and highlights repurposing ESL hardware as cheap e-paper displays at home.
 
----
+TagTinker is a GPL-licensed Flipper Zero application for studying infrared electronic shelf-label protocols on owned or explicitly authorized hardware. It supports addressed-frame analysis, signal and response tests, monochrome payload preparation, and controlled text, image, or test-pattern display experiments. The project adapts earlier reverse-engineering work but deliberately omits deployment instructions and forbids retail use, price changes, control bypasses, and interference. Its source-first release must be built locally, and the maintainer warns that removing some tags’ batteries can erase volatile configuration and leave them unresponsive without the original base station.
 
 ### Comment pulse
-- ESL design favors simplicity and low cost over security → IR tags are easy to rewrite; similar scams existed with printed tags; RF replacements emerging.  
-- Self-checkout fraud (e.g., scanning steak as bananas) → retailers deploy overhead cameras and ML (Everseen) to flag mismatches and force human review.  
-- Altered ESLs rarely change what you pay → pricing comes from barcodes/POS; laws usually don’t protect fraudulently modified shelf labels, unlike genuine advertised-price errors.
 
----
+- Retail veterans were surprised by unsecured one-way IR, but noted its low power, low cost, and operational simplicity.
+- Several argued altered displays do not change checkout prices and resemble swapping paper labels more than compromising a pricing database.
+- Others called the risk dangerous — counterpoint: fraudulently altered labels generally need not be honored, and tampering remains detectable and illegal.
 
 ### LLM perspective
-- View: Infrared ESLs show how legacy, cost-optimized designs become widespread attack surfaces once cheap multipurpose tools like Flipper Zero exist.  
-- Impact: Expect faster migration to authenticated RF ESLs and more video analytics at self-checkout, increasing surveillance and vendor lock-in for retailers.  
-- Watch next: Open-source ESL stacks and Home Assistant integrations could normalize repurposing discarded tags as low-cost e-paper displays in consumer IoT.
+
+- Security should match impact: display authenticity matters even when checkout systems remain authoritative.
+- Cheap, flexible tags externalize abuse detection to cameras, staff, and reconciliation processes.
+- Open research can expose weak protocols while enabling legitimate interoperability and home-display reuse.

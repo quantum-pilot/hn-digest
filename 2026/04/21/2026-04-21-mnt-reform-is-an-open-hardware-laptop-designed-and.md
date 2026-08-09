@@ -3,18 +3,17 @@
 - Score: 270 | [HN](https://news.ycombinator.com/item?id=47834689) | Link: http://mnt.stanleylieber.com/reform/
 
 ### TL;DR
-MNT Reform is a fully open-hardware laptop line built in Germany, aimed at people who want to understand, repair, and modify every part of their machine. The linked page is a long-term owner’s notebook: it documents hardware quirks (trackball pressing on screen, bezel screws scuffing the wrist rest), side‑panel replacements, antenna and battery options, OS support (Debian, Alpine, 9front), and small Linux fixes for audio and LEDs. HN commenters highlight the Pocket Reform, the upcoming Reform Next, and debate price versus openness and robustness.
 
----
+Stanley Lieber’s living notebook chronicles several MNT Reform laptops from 2021 onward, documenting purchases, resale, and a loaner alongside repairs, accessories, operating systems, and configuration files. The Berlin-built open-hardware machine uses an aluminum-and-acrylic case and exposes source files and service documentation, but the diary records screen pressure marks, case wear, broken sleeve pulls, Wi-Fi tuning, and intermittent Linux audio. Hacker News owners praised the Reform and Pocket Reform’s mechanical keyboards, modular upgrades, and community, while weighing rough edges, battery-life uncertainty, high RK3588 pricing, and remaining firmware blobs.
 
 ### Comment pulse
-- Pocket Reform/Reform 2 as daily “hacker” machines → cozy mechanical keyboard, ortholinear layout learnable, mod-friendly design encourages long-term use.
-- Ecosystem appeal → swappable compute modules, RK3588 boards already proven in home servers and CI; Reform Next continues this modular path.
-- Price and “openness” questioned → 1450 EUR for RK3588 seems steep; some see blobs as compromise — counterpoint: niche R&D, small runs, and unusually robust, repairable hardware justify it.
 
----
+- Owners described unusually durable, cozy machines that reward tinkering — counterpoint: usability still depends on tolerating hardware and Linux rough edges.
+- Modular compute boards and standard batteries promise long service lives, making upgradeability central to the value rather than benchmark performance.
+- The €1,450 RK3588 configuration prompted debate over small-scale R&D costs and how “open” hardware remains when boot firmware includes blobs.
 
 ### LLM perspective
-- View: Reform shows a viable niche for truly user-serviceable, document-first laptops, beyond ThinkPad refurb/mod scenes.
-- Impact: Best suited to developers, OS tinkerers, and hardware-curious users who value control over peak performance or polish.
-- Watch next: How Reform Next handles trackpad/SoC choices, long-term parts availability, and mainline support for audio, power, and GPU/NPU features.
+
+- **View:** This is a repairable enthusiast platform whose premium buys agency, documentation, and longevity more than polished mainstream convenience.
+- **Impact:** Users can keep hardware useful through board swaps and community fixes, but must absorb integration work and component uncertainty.
+- **Watch next:** Reform Next battery life, trackball options, trackpad supply, upstream RK3588 support, firmware openness, and compatibility across modular generations.

@@ -3,18 +3,17 @@
 - Score: 265 | [HN](https://news.ycombinator.com/item?id=47851948) | Link: https://www.reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-ai-training-data-2026-04-21/
 
 ### TL;DR
-Meta will deploy a “Model Capability Initiative” tool on US employees’ work machines to log mouse movements, clicks, keystrokes and occasional screenshots, feeding data into AI agents meant to autonomously perform computer-based tasks. Management says the data won’t be used for performance reviews and will be safeguarded, while simultaneously planning 10% global layoffs and restructuring jobs around “AI builders.” Labor-law experts warn this is real-time white‑collar surveillance that would likely be illegal under EU rules, and HN commenters deeply distrust Meta’s assurances.
 
----
+Meta will install its Model Capability Initiative on U.S. employees’ computers, recording mouse movements, clicks, keystrokes, and occasional screen snapshots from work apps and sites to train agents on human computer use. The company says the data will not inform performance reviews and that sensitive content has safeguards, without detailing exclusions. The program accompanies an AI-led workforce overhaul, including agent adoption and planned 10% layoffs; legal experts said Europe would likely prohibit it. Hacker News expected chilling effects and distrusted Meta’s limits, while some considered monitoring unsurprising on employer-owned hardware.
 
 ### Comment pulse
-- Employee–employer power skew → Constant logging shows how little autonomy US workers have, worsened by tying healthcare and livelihood to employment.
-- Surveillance chilling effect → Always-on monitoring will suppress dissent and informal chats; others say privacy on work devices was already illusory—counterpoint: passive capability differs from continuous collection-at-scale.
-- Meta trust deficit → Few believe “not for performance” claims; yet high compensation and ongoing layoffs mean most staff will comply despite misgivings.
 
----
+- Continuous capture changes the workplace even if review is automated — counterpoint: some already assume everything on a company device is observable.
+- Meta’s training-only promise drew near-total skepticism, especially amid repeated layoffs and unspecified protections for sensitive material.
+- Commenters noted the irony of Meta employees facing surveillance, though that criticism blurred individual workers with corporate privacy decisions.
 
 ### LLM perspective
-- View → This is Meta turning everyday UI usage into proprietary human–computer-interaction training data, effectively industrializing “RL from employees.”
-- Impact → Stronger in-house agents could accelerate internal automation, especially of routine white-collar tasks, amplifying job-cut incentives.
-- Watch next → Detailed data-retention policies, opt-out options, EU regulators’ reactions, and whether other big techs quietly mirror this approach.
+
+- **View:** The central risk is purpose drift: training telemetry can become productivity evidence unless policy and access barriers are enforceable.
+- **Impact:** Employees may move candid discussion off-device, self-censor routine work, and bear surveillance while helping automate their own tasks.
+- **Watch next:** Collection scope, opt-outs, retention, sensitive-data filters, worker challenges, European treatment, and any linkage between telemetry and employment decisions.

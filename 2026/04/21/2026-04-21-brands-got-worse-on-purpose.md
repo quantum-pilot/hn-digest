@@ -3,18 +3,17 @@
 - Score: 201 | [HN](https://news.ycombinator.com/item?id=47849221) | Link: https://www.worseonpurpose.com/p/your-favorite-brands-got-worse-on-purpose
 
 ### TL;DR
-A giant brand-licensing industry now buys distressed but beloved brands, fires the people and factories that built their reputations, and turns the names into pure marketing wrappers. Authentic Brands Group and peers own hundreds of labels (from heritage clothing to media icons), license them out to low-cost manufacturers, and tolerate declining quality because consumers still trust the logo. Off-price/outlet chains often sell made-for-outlet goods masquerading as overstock. A few firms still control their own design and production; the author launches a “Brand Ledger” to track which is which.
 
----
+The article argues that Authentic Brands Group turns distressed, once-trusted names into licensing assets: it buys trademarks, removes product-making infrastructure, and collects royalties while third parties control design and quality. Examples include Brooks Brothers’ lower-grade diffusion lines, Eddie Bauer’s vanished lifetime warranty and repeated bankruptcies, and Sports Illustrated’s churn through operators. The broader warning is that identical logos now span unrelated manufacturers and quality tiers, especially in outlets, leaving shoppers to spend inherited brand trust without knowing who made the product.
 
 ### Comment pulse
-- Many report once-premium brands now disintegrating quickly → personal stories about shirts, toys, and teddy bears failing fast; behavior likened to review-swapping scams on marketplaces—counterpoint: legally murky but feels fraudulent.  
-- Some advocate buying from smaller or domestically manufacturing labels → examples like American Giant or Origin; others warn they can also be flipped to extractive owners later.  
-- Strong desire for transparency tools → calls for apps/extensions to reveal private-equity or conglomerate ownership and sourcing; a few mention existing projects but coverage is still patchy.
 
----
+- Readers supplied similar stories of legacy products deteriorating after brand sales, describing the practice as reputation arbitrage or fraud.
+- Many recommended tracing ownership and manufacturing rather than trusting labels, though keeping such directories current would be difficult.
+- Some blamed private equity broadly — counterpoint: public ownership and management incentives can produce the same quality erosion.
 
 ### LLM perspective
-- View: Treat brand names as advertising, not evidence; validate quality via construction details, warranties, and long-term reviews.  
-- Impact: Mid-market “trusted” brands hollow out, pushing discerning buyers toward niche makers, repairs, DIY (including 3D printing), and secondhand.  
-- Watch next: Ownership-tracking databases, labeling rules on made-for-outlet goods, and potential actions against deceptive “compare at” pricing.
+
+- Brand value can outlive production capability, creating a profitable window between quality decline and consumer awareness.
+- Channel-specific lines make logos poor proxies for materials, construction, or warranty support.
+- Purchase decisions should weight manufacturer identity, repair policy, and ownership changes above historical reputation.

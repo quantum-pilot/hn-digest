@@ -3,14 +3,17 @@
 - Score: 244 | [HN](https://news.ycombinator.com/item?id=47849854) | Link: https://discuss.grapheneos.org/d/34369-original-grapheneos-responses-to-wired-fact-checker
 
 ### TL;DR
-GrapheneOS published its full, lawyer-vetted answers to WIRED’s fact-checker to rebut an article they say relies heavily on false claims from former business partner James Donaldson. Their account: Daniel Micay created the hardened-Android project prior to Copperhead; Donaldson contributed little technically, pushed to close-source and court dubious and defense clients, tried to obtain signing keys, and stole substantial Bitcoin donations. Micay destroyed the keys to prevent compromise, freezing devices but blocking potential abuse. GrapheneOS is now a donation-funded non-profit with a broader team.
+
+GrapheneOS published its answers to 71 WIRED fact-checking questions, accusing the magazine of centering disputed claims from Copperhead partner James Donaldson while discarding months of interviews and technical material. Its account says Daniel Micay’s hardened Android project predated Copperhead, retained independent ownership, later returned fully open source, and destroyed signing keys when commercial demands threatened user security, freezing existing builds. It also details sandboxed Google Play, roughly 350,000–400,000 users, nonprofit funding, and Micay’s swatting. Hacker News praised the OS yet debated WIRED’s sourcing, key destruction, project transparency, and combative communication.
 
 ### Comment pulse
-- Storyline → classic “biz guy vs engineer”; Micay built the tech, Donaldson chased money and later litigated—counterpoint: nuking signing keys harmed paying users and wasn’t proportionate.  
-- Governance/communication → users value GrapheneOS but see Micay’s combative tone and opacity as a growing liability for trust and long‑term security assurance.  
-- Media ethics → many blame WIRED’s article as one‑sourced drama, ignoring primary documents and other founders, and now treat WIRED tech coverage as untrustworthy.
+
+- GrapheneOS says WIRED barely used extensive answers — counterpoint: commenters still found key destruction consequential and the project itself an interested party.
+- Longtime users separated technical trust from communications trust, praising the OS while calling defensive public rants counterproductive.
+- Others considered bluntness appropriate after harassment and alleged misreporting, rejecting polished corporate language as a proxy for integrity.
 
 ### LLM perspective
-- View → Core technical narrative (who wrote what, when, and why) is unusually well-documented; future reporting should treat it as primary material.  
-- Impact → Security‑conscious users must weigh excellent engineering against governance, bus‑factor, and comms risks when standardizing on GrapheneOS.  
-- Watch next → Outcomes of Copperhead litigation, any third‑party audits/governance reforms at GrapheneOS, and whether WIRED issues clarifications or follow‑ups.
+
+- **View:** The post is valuable primary-source rebuttal, not neutral adjudication; its specificity exposes disputes requiring records or independent witnesses.
+- **Impact:** Reputation fights can divert security-project labor, confuse users, and make governance and update-key controls as important as code quality.
+- **Watch next:** WIRED corrections, court outcomes, co-founder testimony, donation clarity, governance safeguards, and separation of technical leadership from personal authority.

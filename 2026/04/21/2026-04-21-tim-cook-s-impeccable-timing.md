@@ -3,18 +3,17 @@
 - Score: 292 | [HN](https://news.ycombinator.com/item?id=47847324) | Link: https://stratechery.com/2026/tim-cooks-impeccable-timing/
 
 ### TL;DR
-Tim Cook took over Apple just after Steve Jobs created its last major 0→1 product, the iPhone, and brilliantly scaled it into a $4T company. Ben Thompson argues Cook is perhaps the best non‑founder CEO ever: an operational genius who globalized the iPhone, built a massive services profit machine, and nurtured Apple Silicon and wearables. Yet Cook’s legacy is shadowed by deep dependence on China, extractive App Store policies, and a late, arguably compromising bet on third‑party AI that his successor must now resolve.
 
----
+Thompson argues Cook’s timing let him inherit Apple soon after Jobs’s defining zero-to-one products and scale them: over 15 years, revenue rose 303%, profit 354%, and market value 1,251% to $4 trillion. Cook globalized iPhone distribution, mastered China-centered operations, expanded wearables, and made Services 41% of profit. Yet that financial optimization left successor John Ternus with App Store resentment, China dependence, and uncertain AI ownership after adopting Google technology for Siri. Hacker News largely saw Cook as right for his era while debating Apple’s AI options and Ternus’s product instincts.
 
 ### Comment pulse
-- Cook as “right CEO for the time” → mastered scale and operations; hope Ternus, a hardware/product leader, restores 0→1 bets and fixes drifting software quality.  
-- China criticism is overstated → whole industry moved there; Cook uniquely turned it into just‑in‑time global launches and huge margins — counterpoint: that success created today’s geopolitical vulnerability.  
-- AI/Gemini split → some see an Apple Maps‑style path from dependency to in‑house models; others say Apple lacks web‑scale AI chops and will stay a polished front‑end.
 
----
+- Cook optimized Apple’s existing machine exceptionally — counterpoint: commenters hope product-oriented Ternus restores bolder bets and repairs software quality.
+- China enabled launch-scale distribution and operational efficiency, but concentrated capabilities Apple may no longer fully control.
+- Some expect cheap on-device models and partnerships to suffice; others argue outsourcing models means Apple no longer owns its ecosystem end-to-end.
 
 ### LLM perspective
-- View: Cook exemplifies the “scaler” CEO archetype: maximize an existing breakthrough, even at the cost of future strategic degrees of freedom.  
-- Impact: Ternus inherits a fortress of cash, silicon, and brand—but also technical debt in AI, software, and geopolitical exposure.  
-- Watch next: concrete signals include AI capex, China diversification, App Store rule shifts, and whether Siri/Gemini stays rented or is gradually replaced.
+
+- **View:** Cook’s record shows outstanding exploitation of inherited advantages; the unresolved question is whether optimization consumed options needed for discontinuity.
+- **Impact:** Ternus inherits enormous cash, hardware reach, and ecosystem control alongside strategic dependence on China and outside AI.
+- **Watch next:** Siri’s Gemini launch, model investment, manufacturing diversification, developer relations, software quality, and genuinely independent product categories.

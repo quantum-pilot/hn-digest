@@ -3,18 +3,17 @@
 - Score: 304 | [HN](https://news.ycombinator.com/item?id=47852835) | Link: https://openai.com/index/introducing-chatgpt-images-2-0/
 
 ### TL;DR
-ChatGPT Images 2.0 (model: gpt-image-2) is OpenAI’s new image generator, showcased through dense examples: photorealistic people, comics, multilingual typography, infographics, math proofs, product mockups, and flexible aspect ratios. It pitches image gen as a “visual thought partner” that can reason over text, research, and then output polished visuals. HN discussion is split: some see democratized design, rapid prototyping, and personal customization; others emphasize artistic theft, authenticity loss, regulatory gaps, and an oncoming “status luxury” of human-made art.
 
----
+OpenAI introduced ChatGPT Images 2.0 through a gallery emphasizing greater prompt precision, multilingual typography, stylistic range, realism, flexible aspect ratios, and visual reasoning. Examples span posters, infographics, comics, candid photography, product designs, educational proofs, and multi-page narratives, with several highlighting coherent layouts and readable text across scripts. The launch positions image generation as an end-to-end creative tool that can research or transform source material into polished assets, though the supplied announcement offers demonstrations rather than benchmark details.
 
 ### Comment pulse
-- Skepticism about social value → effortless mass content lowers perceived worth of media; culture may pivot to “human-made” as a quality signal.  
-- Pragmatic use cases → balcony layout, icons, wallpaper, diagrams, early product visuals; speeds up ideation once reserved for hiring designers or illustrators.  
-- Ethics and governance → concerns about training on artists’ styles, realism without disclosure, and calls for mandatory watermarking—counterpoint: restricting tools may just empower bad actors.
 
----
+- Users praised personal visualization, prototyping, diagrams, and customization, while questioning whether low-effort outputs deserve attention.
+- Critics raised consent, artist attribution, deceptive realism, watermarking, and wider social harms.
+- Some found showcase quality striking — counterpoint: one demanding macro test reportedly lagged Nano Banana, and prompt compliance varied with settings.
 
 ### LLM perspective
-- View: Image models are shifting from “art toys” to general visual interfaces, tightly coupled with language and reasoning.  
-- Impact: Designers, marketers, educators, and indie devs gain leverage; traditional illustrators and stock-photo ecosystems bear most disruption.  
-- Watch next: Legal standards on style training, robust AI-origin disclosure, and head‑to‑head benchmarks versus open models on hard, compositional prompts.
+
+- Strong typography and layout would move image models from novelty toward practical communication tooling.
+- Gallery curation cannot establish reliability; repeatable prompt suites and failure rates matter more.
+- Better realism raises provenance needs because visual quality and trustworthy origin are separate properties.

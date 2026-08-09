@@ -2,15 +2,18 @@
 
 - Score: 214 | [HN](https://news.ycombinator.com/item?id=47847124) | Link: https://fsfe.org/news/2026/news-20260420-01.html
 
-- TL;DR  
-  - FSFE analyzed Apple’s EU Digital Markets Act interoperability process and found 56 developer requests, none yet leading to a shipped, new interoperability feature. Apple uses a request-based, paid-account system, often rejecting access to JIT, NFC, BLE Audio, or push alternatives by claiming they’re outside DMA scope, despite its own docs suggesting otherwise. FSFE argues this burdens small/free‑software developers and calls for open standards and tougher enforcement. HN commenters dispute FSFE’s framing, point to in-progress requests, and debate security vs openness and user choice.
+### TL;DR
 
-- Comment pulse  
-  - FSFE is misrepresenting outcomes → 21% of requests are in Apple’s implementation phase, so “no solutions” feels premature — counterpoint: DMA expected interoperability by default, not years later.  
-  - Interop must be “built in from the start” is wrong → many APIs need private incubation before being locked in as public guarantees.  
-  - Users didn’t “allow” closed platforms → devices are employer- or budget-constrained; DMA targets competition (stores, payments), not absolute sideload-anything freedom.
+An FSFE report says Apple’s DMA interoperability process has yielded no released solutions from 56 requests as of March 22, despite the law’s promise of free access to iOS and iPadOS-controlled features. Of 43 closed requests, 27 are confidential; none of 16 public closures produced a new capability. FSFE highlights denials involving JIT compilation, NFC, Bluetooth LE Audio, and notification alternatives, arguing Apple applies narrow interpretations that conflict with its documentation and burden developers with fees, reviews, and potentially 24-month implementations.
 
-- LLM perspective  
-  - View: Apple’s request-based system preserves maximum discretion, shifting legal and procedural burden onto smaller and free‑software developers.  
-  - Impact: Real competition around wallets, browsers, and system APIs may stall unless regulators push for default, documented access rather than case-by-case gates.  
-  - Watch next: EC enforcement actions, concrete API openings (NFC, JIT, notifications), and whether other gatekeepers copy Apple’s “formal compliance, practical friction” pattern.
+### Comment pulse
+
+- Several readers objected that 21% of requests reportedly remain in implementation, making “no solutions” sound more final than the evidence supports.
+- Supporters replied that rights meant to exist by default lose practical value when access requires case-by-case permission and years of waiting.
+- Debate split on platform openness — counterpoint: staged private incubation can stabilize APIs before interoperability becomes a durable public promise.
+
+### LLM perspective
+
+- Track outcomes separately as released, rejected, confidential, and in development to avoid conflating delay with denial.
+- A request system concentrates scope interpretation with the gatekeeper regulators intend to constrain.
+- Effective enforcement needs measurable deadlines, appeal transparency, and access that does not depend on a paid account.

@@ -3,14 +3,17 @@
 - Score: 198 | [HN](https://news.ycombinator.com/item?id=47851885) | Link: https://britannica11.org/
 
 ### TL;DR
-A developer rebuilt the 1911 Encyclopædia Britannica into Britannica11.org, a fast, structured web edition with ~37k articles, section navigation, cross-references, contributor index, volume/page provenance, and links to scanned pages. HN readers praise the interface and historical value but request better surfacing of scans, optional side‑by‑side text/image views, Wikipedia‑style in‑text links, and a clearer entry flow. There’s strong interest in a downloadable, well-structured dataset for digital humanities and ML training, plus discussion of the encyclopedia’s dated, opinionated tone and pre‑WWI worldview.
+
+Britannica11.org presents the 1910–1911 Encyclopædia Britannica as 36,691 searchable, cross-referenced, annotated articles spanning 28 volumes. The reconstruction adds section navigation, contributor and topic indexes, article metadata, preserved volume-and-page provenance, and links to original scans while retaining ancillary material. Its creator says the difficult work was parsing multi-page entries, headings, tables, mathematics, languages, footnotes, and plates into structured records. The result makes a historically influential—and often dated or prejudiced—reference work substantially easier to browse and study.
 
 ### Comment pulse
-- Site is impressive and fast; users want clearer scan links, optional text–image side‑by‑side, working in-article search, and auto-links between mentioned topics. — counterpoint: Wikisource already offers side-by-side with sometimes better math/footnote fidelity.  
-- Multiple commenters ask for a bulk, structured export for research and model training, and seek explicit licensing and commercial-use terms, including for small, non–Big Tech entities.  
-- Readers note the opinionated, sometimes shocking early‑1900s views and genre-mixing prose; some now use LLMs to summarize and critique such historical texts in modern language.  
+
+- Readers praised the site’s speed and navigability, while requesting side-by-side scan comparison and clearer entry points.
+- Fidelity checks found missing mathematical content and a misplaced footnote, underscoring the value of page-level provenance.
+- Dataset access drew interest — counterpoint: a useful bulk release should preserve structure, not merely expose plain text.
 
 ### LLM perspective
-- View: This is effectively a high-quality, curated historical corpus with structure far beyond a bare OCR dump or raw scans.  
-- Impact: Useful for historians, digital humanists, and ML practitioners needing temporally anchored, opinionated reference text with reliable provenance.  
-- Watch next: Release of a documented, structured export; comparison benchmarks versus Wikisource; clear licensing for research and commercial model training.
+
+- Structured provenance turns OCR errors from hidden defects into reviewable, correctable discrepancies.
+- Historical encyclopedias are valuable as snapshots of period knowledge, rhetoric, and bias—not current authority.
+- A TEI or relational export could enable computational humanities research beyond ordinary browsing.

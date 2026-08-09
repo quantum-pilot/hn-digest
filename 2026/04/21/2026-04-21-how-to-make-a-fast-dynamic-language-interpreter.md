@@ -2,18 +2,18 @@
 
 - Score: 241 | [HN](https://news.ycombinator.com/item?id=47843194) | Link: https://zef-lang.dev/implementation
 
-## TL;DR
+### TL;DR
 
-Author takes a deliberately naive, AST‑walking interpreter for a dynamic language (Zef) and, via 21 incremental changes, speeds it up 16.6× under Fil‑C++ and ~67× under Yolo‑C++. Key wins: good tagged value representation, replacing strings with interned symbols, redesigning the object model, adding inline caches and watchpoints for property/method access, and aggressively reducing allocations around arguments and common operations. The final interpreter becomes competitive with CPython, Lua, and QuickJS on classic language benchmarks, without using a JIT or bytecode.
+Starting from a string-and-hashtable-heavy AST walker, the author makes the Zef dynamic-language interpreter 16.6× faster without bytecode, SSA, a JIT, or garbage-collector tuning. The largest gain—4.55× alone—comes from replacing per-object hash tables with offset-based storage, then adding inline caches and watchpoints by rewriting AST nodes in place. Smaller wins include interned symbols, direct operator nodes, cheaper argument representations, specialized getters and setters, improved slow paths, and build flags. Across four benchmarks, optimized Fil-C++ Zef remains roughly 2.1× slower than CPython 3.10.
 
-## Comment pulse
+### Comment pulse
 
-- Language design matters → Wren/Lua trade away dynamic shapes and extreme dynamism, enabling simpler, faster method lookup than Python’s heavily dynamic model.  
-- Inline caches on ASTs → Zef uses placement-new to specialize AST nodes; great for single-threaded interpreters, but conflicts with immutable-AST sharing and background JIT compilation.  
-- Parallel experiences → Rust and Scheme implementers report similar gains from argument-arity specialization, closure/object model work; reinforces that dispatch and allocation dominate, not exotic tricks.
+- Readers highlighted optimization #6 as decisive: naive dynamic property dispatch dominated almost everything else.
+- Some noted language design can eliminate expensive dynamism before implementation work begins.
+- The benchmark isolation drew praise — counterpoint: specialized `sqrt` gains suggest the suite may overweight particular hot paths.
 
-## LLM perspective
+### LLM perspective
 
-- View: This is a stepwise recipe for taking a “toy” interpreter into production-speed territory using mostly classic VM ideas.  
-- Impact: Especially valuable for language hobbyists and educators: it demystifies inline caches, object layouts, and allocation tuning without diving into full JITs.  
-- Watch next: Add bytecode tier, real GC in the Yolo-C++ build, and cross-VM benchmarks with more real‑world, allocation-heavy workloads.
+- Profile-driven optimization works best when representation changes remove entire classes of repeated work.
+- Interpreter inline caches can mutate AST nodes directly, trading simplicity for immutability and concurrency constraints.
+- The Yolo-C++ result is illustrative, not production-ready, because its temporary allocator never frees memory.
