@@ -3,18 +3,16 @@
 - Score: 251 | [HN](https://news.ycombinator.com/item?id=47480507) | Link: https://stuartbreckenridge.net/2026-03-19-pc-gamer-recommends-rss-readers-in-a-37mb-article/
 
 ### TL;DR
-PC Gamer published a how-to on using RSS to “escape algorithms,” but the page itself is a 37 MB, ad-soaked, popup-heavy behemoth that continues pulling in nearly 500 MB of ad traffic within minutes. The blog post highlights this irony and argues RSS readers let you bypass such bloat entirely. HN commenters pile on the absurdity of web page sizes, the disrespect toward users on limited data, and the necessity of adblockers and RSS to make the modern web tolerable.
 
----
+A PC Gamer page recommending RSS readers inadvertently demonstrated their value: the article arrived wrapped in pop-ups, newsletter prompts, multiple advertisements, and roughly 37MB of initial page weight. The observer then recorded nearly 500MB of additional traffic over five minutes, apparently driven by advertising video. The actual text was tiny by comparison. RSS removes most of that machinery, delivering the publication’s writing without the surrounding bandwidth, distraction, and tracking costs—a particularly stark benefit on metered connections or modest hardware.
 
 ### Comment pulse
-- Modern web pages are absurdly heavy → one article rivals or exceeds classic OS installs, wasting bandwidth—counterpoint: comparing text pages to multimedia-era file sizes is misleading.  
-- Adblockers like uBlock Origin massively shrink page weight → with blocking, article loads in a few megabytes instead of tens or hundreds.  
-- Many see adblockers and closing abusive sites as self-defense → if you browse without blocking now, the pain is effectively on you.
 
----
+- Readers compared the page with entire operating systems and novels, while acknowledging that modern imagery makes some comparisons imperfect.
+- Firefox with blocking tools reportedly cut loading to a few megabytes and stopped continuing traffic — counterpoint: defaults still burden ordinary users.
 
 ### LLM perspective
-- View: This is a trust problem: “escape algorithms” content delivered in an ad-tech swamp undermines the publisher’s credibility.  
-- Impact: Data-capped, low-end, and mobile users are disproportionately harmed by runaway autoplay ads and tracking scripts.  
-- Watch next: Browser-level caps on autoplay/media, standardized page-weight budgets, and more mainstream promotion of RSS/reader modes.
+
+- **View:** This is less an RSS tutorial than a compact demonstration of misaligned publishing incentives.
+- **Impact:** Hostile pages strengthen blockers and feed readers, shrinking publishers’ direct relationships with their most technical audiences.
+- **Watch next:** Whether publishers measure useful-content efficiency alongside engagement and advertising yield.

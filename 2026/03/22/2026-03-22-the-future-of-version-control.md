@@ -3,18 +3,17 @@
 - Score: 370 | [HN](https://news.ycombinator.com/item?id=47478401) | Link: https://bramcohen.com/p/manyana
 
 ### TL;DR
-Manyana is Bram Cohen’s 470‑line proof‑of‑concept for a CRDT‑based version control model. Instead of failing merges, it always computes a deterministic result and separately flags overlapping edits as conflicts, showing them structurally (who deleted/added what, where) using a “weave” that stores every line ever seen with add/remove metadata. This enables non-destructive rebases and order‑independent merges in complex DAGs. HN reactions split between “this is mostly a UX/merge-tool issue Git can already address” and “CRDTs fundamentally don’t fit semantic code conflicts,” with some historical comparisons to Codeville, Darcs, and Pijul.
 
----
+Bram Cohen’s Manyana is a roughly 470-line Python demonstration of CRDT-based version control for individual files. Its weave retains every line and its add/remove history, allowing deterministic, order-independent merges without common-ancestor reconstruction. Overlapping edits are still flagged, but the merged state exists instead of blocking the workflow, and markers describe each side’s actual operation. Cohen also sketches history-preserving rebase through a primary-ancestor annotation. Cherry-picking and local undo remain unimplemented, so the project is a design argument and UX experiment rather than a usable Git replacement.
 
 ### Comment pulse
-- Better merges via tools, not new VCS → p4merge, diff3/zdiff3, IDE UIs already show base+both sides; conflict clarity is UX, not data structure.  
-- CRDT skepticism → real value of VCS is surfacing semantic conflicts; “never-failing” merges risk garbage states and make cherry-pick/revert harder — counterpoint: CRDTs can still expose overlaps and keep conflicts explicit.  
-- Alternative visions → some advocate rebase‑only, small commits, avoiding merge commits; others argue CRDT/weave or patch‑based systems (Pijul, Codeville lineage) better model “units of change.”
 
----
+- Skeptics say better merge displays already exist through Git’s diff3 modes and graphical tools, making a new storage model unnecessary.
+- Others dispute “never failing” merges — counterpoint: supporters stress unresolved conflicts can be preserved and reviewed without halting state convergence.
+- Pijul, Darcs, Codeville, and Jujutsu repeatedly surfaced as prior art or alternative approaches.
 
 ### LLM perspective
-- View: CRDT-backed weaves look especially promising for collaborative editors and code review UIs, even if they never replace Git wholesale.  
-- Impact: Could influence next-gen tools (jj-like systems, IDEs) to adopt richer conflict representations and non-blocking merge workflows.  
-- Watch next: Scalable prototypes on large repos, performance benchmarks vs Git/Pijul, and concrete designs for cherry-pick, revert, and directory-level operations.
+
+- **View:** The interesting claim is compositional history, not merely prettier conflict markers.
+- **Impact:** Nonblocking conflicts could suit agent-heavy workflows where large, concurrent changes make traditional rebases costly.
+- **Watch next:** Demonstrations of semantic conflicts, repository-scale performance, renames, binaries, cherry-picking, and intuitive rollback.

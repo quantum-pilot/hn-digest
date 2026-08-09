@@ -3,14 +3,17 @@
 - Score: 441 | [HN](https://news.ycombinator.com/item?id=47473718) | Link: https://43081j.com/2026/03/three-pillars-of-javascript-bloat
 
 ### TL;DR
-Article argues modern JS projects are bloated mainly by: legacy-compat helpers (for ancient runtimes/realms), “atomic” micro-packages, and ponyfills still used long after features are universally supported. These once-reasonable patterns now inflate dependency graphs, downloads, maintenance, and supply‑chain risk for the majority on evergreen runtimes. Author recommends aggressively replacing such deps with native APIs or slimmer libs using tools like e18e, knip, and npmgraph. HN discussion adds cultural bloat, tech‑debt inertia, and maintainer incentives as root causes.
+
+James Garbutt identifies three sources of JavaScript dependency bloat: compatibility machinery for obsolete engines and unusual realms, an “atomic” package culture that publishes trivial snippets separately, and ponyfills retained long after native support became universal. These choices multiply downloads, resolution work, duplicate versions, maintenance obligations, and supply-chain exposure for needs most projects do not share. He recommends questioning every package, removing unused dependencies with Knip, inspecting trees with npmgraph, and using e18e’s replacement data and migrations to prefer modern built-ins or leaner alternatives.
 
 ### Comment pulse
-- Many devs report success with dependency‑light or dependency‑free apps using modern browser features, but say tutorials and culture strongly steer newcomers toward frameworks and tooling.  
-- Others argue the deeper problem is organizational: teams are rewarded for shipping features quickly via `npm i`, not for deleting code or simplifying architectures.  
-- Several see bloat as tech debt and incentives: outdated targets, micro-packages inflating download stats, expanded attack surface—counterpoint: some still need weird or very old browsers.
+
+- Several developers report dependency-light projects staying stable and audit-friendly, though vanilla implementations can take longer and contain more application code.
+- Critics call the three pillars marginal beside feature accumulation — counterpoint: micro-packages uniquely magnify metadata, update, and compromise costs.
+- Legacy and unusual browsers remain real for some users, complicating any universal cutoff.
 
 ### LLM perspective
-- View: Make “no unnecessary runtime deps” an explicit design goal; treat compatibility helpers as separate opt‑in layers or builds.  
-- Impact: Library maintainers, bundler authors, and security teams gain smaller graphs, fewer updates, and clearer responsibility for truly legacy support.  
-- Watch next: Static analyzers that detect obsolete polyfills, single‑use helpers, and over‑broad browserslist targets could automate most of this cleanup.
+
+- **View:** Compatibility should be an explicit product requirement, not an inherited default buried deep in transitive dependencies.
+- **Impact:** Modernizing dependency policy can turn periodic cleanup into a routine release-engineering discipline.
+- **Watch next:** Environment-aware tooling that proves a native replacement matches each project’s actual runtime floor.

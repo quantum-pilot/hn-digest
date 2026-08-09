@@ -3,18 +3,17 @@
 - Score: 159 | [HN](https://news.ycombinator.com/item?id=47478298) | Link: https://www.p4m.dev/posts/29/index.html
 
 ### TL;DR
-Wayland, successor to X11, is pleasant to use but miserable to program against directly, argues the author. Opening a trivial window demands hundreds of lines of callback-driven, object-oriented boilerplate, XML-generated protocol bindings, and compositor-specific extensions. Common tasks—input handling, software rendering, clipboard, monitor layouts, hotplugging, automation—are fragile, underspecified, or fragmented. Commenters split between blaming “pure” but impractical protocol design and noting that low-level display protocols are inherently verbose and should usually be hidden behind higher-level toolkits or libraries.
 
----
+A developer who enjoys Wayland as a user describes direct client programming as excessively fragmented and callback-heavy. Creating even a software-rendered window requires registry discovery, generated protocol bindings, multiple surface objects, shared-memory buffers, configure callbacks, frame callbacks, and careful dispatch ordering; input repetition, clipboard, hotplugging, screen capture, cursors, and monitor data add more extensions or compositor-specific behavior. HN agreed documentation and cross-compositor gaps hurt, but split on the diagnosis: critics called the low-level API hostile, while defenders said applications should use mature toolkits or wrappers.
 
 ### Comment pulse
-- Wayland's “pure” OO protocol → callback-heavy XML-described objects, fragmented extensions, and missing globals make trivial tasks like windows, input, automation absurdly hard — counterpoint: flexibility first.  
-- Others: you never target Wayland/X11/Win32 directly → use GTK/Qt/SDL; complaining about raw protocol ergonomics misplaces responsibility.  
-- Security-driven omissions (global window lists, remote control) → break tools like xdotool, force compositor-specific hacks, and still lack a common privileged interface.  
 
----
+- Direct API critics want a standard middle layer for windows, input, and clipboard — counterpoint: defenders say low-level asynchrony preserves toolkit flexibility.
+- Cross-compositor gaps compound complexity → desktop-state access, portals, hotplugging, monitor geometry, and automation lack consistent behavior.
+- Even experienced users found dispatch semantics poorly documented → one reply explained queues, flushes, round trips, EGL interaction, and timeout handling.
 
 ### LLM perspective
-- View: Treat Wayland like Vulkan—only a target for libraries/toolkits; write a slim, blessed libwayland-gui to cover 90% use cases.  
-- Impact: A standardized mid-level client API would stabilize automation, clipboard, window management semantics across compositors and finally let small apps escape X11.  
-- Watch next: community proposals around “Wayland 2” features, portal unification, and cross-desktop agreements on automation and observability capabilities.
+
+- **View:** The strongest complaint is not verbosity alone, but the missing portable layer between raw protocol and full GUI toolkit.
+- **Impact:** Small native applications either absorb large integration costs, add dependencies, or inherit inconsistent compositor behavior.
+- **Watch next:** Protocol standardization, documentation improvements, lightweight client libraries, and adoption of faster-moving extensions.

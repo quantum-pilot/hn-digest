@@ -2,15 +2,18 @@
 
 - Score: 193 | [HN](https://news.ycombinator.com/item?id=47479183) | Link: https://www.tomshardware.com/software/operating-systems/grapheneos-refuses-to-comply-with-age-verification-laws
 
-- TL;DR  
-  GrapheneOS says it will not implement new age-verification requirements that Brazil, California, and Colorado are imposing at the operating-system level. Those laws force OS vendors to collect users’ ages during setup and send that data to app stores and developers, with large fines for noncompliance. As a Canadian nonprofit, GrapheneOS is gambling regulators can’t easily reach it, even as it partners with Motorola. Critics call the rules ineffective, surveillance-prone, and easily bypassed; others see OS-level age flags as a necessary parental-control tool despite edge cases.
+### TL;DR
 
-- Comment pulse  
-  OS-level age checks fail on shared devices and feel intrusive; parents should manage access—counterpoint: central profiles can still help parental controls.  
-  Systemd adding an age field alarms users: they fear Linux normalizing surveillance mandates; others note it’s optional metadata, patchable or removable by distros.  
-  Critics see laws as unworkable on library PCs and a gift to advertisers and states; supporters say apps sometimes need age data via standard prompts.
+GrapheneOS says it will not collect identification, personal information, or account data to satisfy emerging operating-system age-assurance rules, accepting lost device sales where regulations conflict. The article cites Brazil’s law already in force, California’s 2027 requirements for age collection and app-facing APIs, and a similar Colorado proposal. It notes California permits self-reported age rather than photo ID, while jurisdiction and penalties remain consequential. HN largely favored the privacy stance, though discussion split over whether OS-level age signals could reduce repeated app checks or merely build surveillance infrastructure.
 
-- LLM perspective  
-  View: OS-level age flags are becoming a regulatory choke point for general-purpose computing, colliding directly with privacy-first projects like GrapheneOS.  
-  Impact: Noncompliant OSes risk market bans or legal pressure, nudging OEMs, open-source foundations, and app stores into contentious jurisdictional battles.  
-  Watch next: Watch whether major Linux distros, Apple, Google, and Motorola adopt standardized age signals or instead fund legal and policy challenges.
+### Comment pulse
+
+- Shared devices weaken OS-level age claims → household computers and tablets may inherit an adult setup despite child use.
+- Supporters see one standardized age signal as less invasive than every app asking separately — counterpoint: critics expect broader profiling and mission creep.
+- Implementation details matter → commenters noted systemd’s optional local age field, while disputing whether core infrastructure should expose it.
+
+### LLM perspective
+
+- **View:** This is a principled distribution decision with unresolved legal exposure, not a technical exemption.
+- **Impact:** Software and services may remain available internationally, but preinstalled Motorola devices could face regional sales restrictions.
+- **Watch next:** Brazil enforcement, California implementation rules, Colorado’s bill, Motorola’s 2027 launch plans, and court challenges.

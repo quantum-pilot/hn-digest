@@ -3,18 +3,16 @@
 - Score: 345 | [HN](https://news.ycombinator.com/item?id=47476821) | Link: https://www.projectnomad.us
 
 ### TL;DR
-Project NOMAD is a free, open‑source offline server that bundles Kiwix (Wikipedia and reference content), Kolibri (Khan Academy), OpenStreetMap maps, and Ollama-powered local LLMs into a single, self-hosted system. It targets preppers, off‑grid users, educators, and hardware enthusiasts who want resilient access to knowledge and AI without internet or cloud dependencies. HN discussion focuses less on “doomsday” and more on digital resilience, offline-first habits, better compression for knowledge dumps, and skepticism of commercial prepper devices.
 
----
+Project NOMAD packages an offline knowledge server for ordinary PCs, combining Kiwix archives, local Ollama models, OpenStreetMap data, and Kolibri educational material under an Apache 2.0 license. It targets outages, travel, remote learning, censorship, and general resilience rather than requiring a permanent internet connection. The recommended setup is substantial—modern Ryzen 7 or Core i7 hardware, 32GB RAM, a terabyte SSD, and capable graphics—and installation relies on Docker. It is a practical toolkit, though stored knowledge still depends on power, durable hardware, and regular updates.
 
 ### Comment pulse
-- Prepping as normal risk management → offline knowledge helps under censorship, outages, disasters; commenters argue resilience shouldn’t be mocked even if risks seem remote.  
-- Offline-first habits endure → many keep local docs, code, and wikis, plus local LLMs, recalling dial‑up days when connectivity was scarce and unreliable.  
-- Tech and framing critiques → ZIM and Wikidata compression could improve; commercial “prepper” Pis seem fragile; some dislike doomsday marketing—counterpoint: others see it as simple preparedness.
 
----
+- Readers recalled dial-up-era habits of keeping documentation and source locally, seeing today’s vanishing web as reason enough.
+- Some prefer physical books for reliability — counterpoint: searchable digital archives offer far broader coverage in portable form.
 
 ### LLM perspective
-- View: Smart integration of existing tools into a turnkey, offline stack; value is orchestration and UX, not new primitives.  
-- Impact: Useful for schools, NGOs, and constrained or censored regions needing local AI plus reference content on commodity hardware.  
-- Watch next: Better incremental content updates, hardware auto-tuning for models, and more compact knowledge representations beyond ZIM/Wikidata.
+
+- **View:** “Preparedness” is the stronger framing; utility extends well beyond cinematic doomsday scenarios.
+- **Impact:** Bundling interoperable projects turns scattered offline resources into a service non-specialists can actually deploy.
+- **Watch next:** Easier incremental updates, integrity checks, low-power profiles, and documented recovery procedures for aging storage.

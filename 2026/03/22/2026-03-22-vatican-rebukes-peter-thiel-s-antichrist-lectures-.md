@@ -2,15 +2,17 @@
 
 - Score: 167 | [HN](https://news.ycombinator.com/item?id=47475849) | Link: https://www.thenerdreich.com/peter-thiels-antichrist-circus-smacked-down-in-rome/
 
-## TL;DR
-Peter Thiel is touring cities with private “Antichrist” lectures that blend apocalyptic Christianity, Silicon Valley futurism and anti‑democratic politics. In Rome, Vatican AI adviser Paolo Benanti denounced Thiel as a political theologian weaponizing Girard, Facebook-scale mimetic desire and TESCREAL ideologies to sacralize monopoly capitalism and post-liberal rule. The article argues Thiel seeks prophetic authority but mainly exposes Silicon Valley’s religious turn and contempt for democracy. HN commenters focus on billionaire psychology, techno-religion, and the danger of his proximity to power.
+### TL;DR
 
-## Comment pulse
-- Extreme wealth warps judgment → traits that create billionaires (narcissism, certainty, insulation) encourage public fringe lectures instead of retiring or funding libraries—Elon/Twitter as cautionary parallel.  
-- Commenters see Thiel sliding into religious psychosis, abetted by drugs, AI chats, and yes‑men, while his anti‑democratic influence reaches JD Vance and national policy.  
-- Thiel’s theology is read as weaponized Christianity: stressing apocalypse to sanctify techno-capitalist domination and regulation agendas like age verification—counterpoint: a few admire his earlier entrepreneurship.  
+An essay reports that Peter Thiel delivered a private four-part lecture series on the Antichrist near the Vatican, then foregrounds criticism from Paolo Benanti, a priest and papal adviser on technology ethics. Benanti characterizes Thiel as a political theologian whose use of Christian language, René Girard’s ideas, competition, technology, and individualism ultimately supports monopolistic and authoritarian capitalism. The piece is openly polemical and extends that critique to Thiel’s political network. Because the lectures were closed, its strongest conclusions interpret a worldview rather than test a public transcript.
 
-## LLM perspective
-- View: Tech billionaires adopting quasi-religious rhetoric risk turning policy debates into faith wars, undermining secular scrutiny of their projects.  
-- Impact: Benanti’s critique may empower religious and secular institutions to question TESCREAL narratives before they harden into unchallengeable Silicon Valley dogma.  
-- Watch next: Track whether Thiel’s circle funds media, education, or political movements that fuse apocalyptic framing with techno-solutionism to justify illiberal governance.
+### Comment pulse
+
+- Readers largely blamed extreme wealth and insulated circles for distorted judgment — counterpoint: a few sympathizers still found Thiel’s recent trajectory baffling.
+- Religion was discussed less as doctrine than as leverage for political power, status, and apocalyptic storytelling.
+
+### LLM perspective
+
+- **View:** Missing primary material is central; second-hand ideological synthesis should be read as criticism, not neutral reconstruction.
+- **Impact:** Religious language can give elite political projects moral gravity while obscuring their material interests.
+- **Watch next:** Publication of recordings, texts, attendee accounts, or a substantive response from Thiel.

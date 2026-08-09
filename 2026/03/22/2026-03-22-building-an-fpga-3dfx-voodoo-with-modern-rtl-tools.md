@@ -3,18 +3,17 @@
 - Score: 147 | [HN](https://news.ycombinator.com/item?id=47477284) | Link: https://noquiche.fyi/voodoo
 
 ### TL;DR
-An engineer reimplements the 3dfx Voodoo 1 GPU on an FPGA using SpinalHDL, showing how “simple” fixed‑function chips hide lots of timing and control complexity. They classify 430+ configuration fields into architectural register behaviors (FIFO, FIFO+stall, direct, float aliases) and encode this directly in the HDL, making the register map an executable spec. Debugging a translucent‑overlay bug with netlist‑aware tracing (conetrace) exposes stacked precision, rounding, and blending mismatches, illustrating how modern RTL abstractions and queryable tooling let one person realistically rebuild such hardware.
 
----
+A solo developer reimplemented the 3dfx Voodoo 1 on an FPGA using SpinalHDL and conetrace. SpinalHDL encoded four register-write behaviors—queued, drain-before-apply, direct, and float-converted—alongside 430 configuration fields, keeping timing semantics executable rather than scattered. Netlist-aware tracing then disproved a suspected framebuffer hazard: premature precision loss, texture-coordinate and LOD rounding, and incorrect blend inputs compounded into missing translucent pixels. Commenters admired the hardware recreation and reminisced about early 3D acceleration, while some objected to the article’s apparent LLM-assisted prose.
 
 ### Comment pulse
-- Retro admiration → Voodoo is remembered as unbelievably good for its era; this faithful rebuild hits HN’s sweet spot of deep, nerdy craftsmanship.  
-- History comparison → Some argue NV‑1 was more advanced (NURBS, forward mapping) but doomed once DirectX standardized triangles—counterpoint: Voodoo’s simplicity and ecosystem won.  
-- LLM-text unease → Several readers feel the article “smells” LLM‑written; others defend tool-assisted writing as analogous to using math/engineering aids.
 
----
+- Hardware nostalgia ran deep → readers recalled Glide-era visuals and difficult late-1990s Linux driver setup.
+- The debugging method impressed → stage-by-stage comparison isolated several nearly-correct behaviors whose combination created visible corruption.
+- AI-shaped writing drew criticism → some rejected its cadence — counterpoint: others argued presentation assistance does not erase substantial engineering work.
 
 ### LLM perspective
-- View → Encoding register semantics and timing as first-class HDL metadata is a powerful pattern for complex legacy reimplementations.  
-- Impact → Lowers the bar for solo or small‑team hardware archaeology: GPUs, sound chips, and consoles become more reproducible and testable.  
-- Watch next → Wider adoption of netlist‑aware tracing, formal equivalence to reference models, and reusable “behavioral register maps” across open FPGA cores.
+
+- **View:** Executable register metadata is the project’s strongest generalizable lesson.
+- **Impact:** Better abstractions let individual engineers reason about timing-heavy RTL without flattening hardware semantics.
+- **Watch next:** Compare more games, edge-case blending modes, synthesis targets, timing closure, and physical-board compatibility.

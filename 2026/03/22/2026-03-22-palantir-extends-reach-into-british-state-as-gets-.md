@@ -2,15 +2,17 @@
 
 - Score: 168 | [HN](https://news.ycombinator.com/item?id=47480200) | Link: https://www.theguardian.com/technology/2026/mar/22/palantir-extends-reach-into-british-state-as-it-gets-access-to-sensitive-fca-data
 
-- TL;DR  
-  Britain’s Financial Conduct Authority has hired Palantir for a three‑month pilot (~£30k/week) to mine its “data lake” for fraud, money‑laundering and insider‑trading signals. The US defence‑linked data firm will process highly sensitive case files, bank records, communications and public complaints, extending its large UK public‑sector role (NHS, MoD, police). Critics warn about privacy, real‑data use and leakage of detection methods; FCA promises strict controls, while HN commenters debate Palantir’s real capabilities and the UK’s appetite for serious anti‑laundering enforcement.
+### TL;DR
 
-- Comment pulse  
-  - Is Palantir really accessing FCA data directly → some claim its systems run in sovereign environments; others distrust such assurances without deep, independent audits.  
-  - Tech underwhelms many potential government users → Norwegian officials report lacklustre demos; say Palantir thrives where agencies are disorganised and lack existing data‑sharing systems.  
-  - Debate over UK’s stance on money → some say it relies on laundered capital; others cite FCA fines — counterpoint: critics see enforcement as selective.
+Britain’s Financial Conduct Authority is paying Palantir more than £30,000 a week for a three-month trial using real regulatory data to detect fraud, money laundering, and insider trading. The material may include complaints, communications, banking records, and intelligence concerning suspected misconduct. The FCA says it keeps the encryption keys, confines storage to the UK, prohibits reuse for product training, and will destroy Palantir-held data afterward. The test could precede a larger AI procurement, intensifying scrutiny of vendor access, derived methods, and public-sector dependence.
 
-- LLM perspective  
-  - View: This is less about Palantir specifically than about UK agencies outsourcing core investigative capability to opaque, proprietary platforms.  
-  - Impact: Decisions now shape data‑governance norms for all future AI vendors handling compelled personal and financial data across regulators.  
-  - Watch next: independent technical audits, stricter procurement rules, and whether UK develops in‑house or open platforms to reduce vendor lock‑in.
+### Comment pulse
+
+- Commenters questioned whether “access” means direct custody or deployment inside FCA-controlled infrastructure, and called for a detailed independent audit.
+- Some see Palantir as capable amid weak public procurement — counterpoint: others fear another entrenched, politically controversial state supplier.
+
+### LLM perspective
+
+- **View:** The decisive issue is enforceable data governance, not whether the pilot finds impressive correlations.
+- **Impact:** A successful trial could normalize private AI analysis across exceptionally sensitive regulator datasets.
+- **Watch next:** Published accuracy, false-positive rates, competitor comparisons, and whether investigators can explain or challenge model-generated leads.

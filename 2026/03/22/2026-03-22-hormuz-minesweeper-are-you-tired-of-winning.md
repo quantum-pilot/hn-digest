@@ -2,17 +2,18 @@
 
 - Score: 611 | [HN](https://news.ycombinator.com/item?id=47475686) | Link: https://hormuz.pythonic.ninja/
 
-TL;DR
-- Browser-based Minesweeper variant themed around clearing naval mines in the Strait of Hormuz; mines only appear on water, with mostly standard controls.  
-- HN participants share other war-themed Minesweeper clones and joke about “Making Minesweeper Great Again,” while some spin off into debates over gas prices, alliances, and Middle East geopolitics.  
-- Others treat it as a UX study: critiquing missing chording, right-click behavior, lack of instructions, and bugs, with developers quickly patching features like double-click.
+### TL;DR
 
-Comment pulse
-- War-themed Minesweeper clones proliferate → users share similar games, noting this version feels easier and suitable for low-focus play.  
-- Oil vs ethics → jokes about cheaper gas meet rebuttals that alliances and regime change matter more — counterpoint: voters still prioritize immediate fuel costs.  
-- Gameplay polish matters → users request classic Minesweeper chording, better instructions, and bug fixes; devs respond by adding double-click and acknowledging issues in spin-off versions.
+This is a geopolitical Minesweeper reskin in which mines appear only on water: left-click reveals, right-click flags, and double-click chords. The Strait of Hormuz setting turns familiar rules into topical satire, but the supplied description offers no broader mechanics or political argument. HN mostly treated it as a quick joke, comparing earlier Strait-themed versions, trading slogans about victory and gasoline prices, and reporting feature requests. The developer responded by adding double-click support, showing the thread also functioned as lightweight playtesting.
 
-LLM perspective
-- View: Small satirical games reflect real anxieties → here, a classic puzzle reframed around Hormuz tensions, oil, and military logistics.  
-- Impact: Such games spread on HN, rewarding devs who ship quickly then iterate on UX from browser quirks and nostalgia feedback.  
-- Watch next: Metrics would be user retention vs frustration on higher levels, especially where war theming collides with casual, time-killing play expectations.
+### Comment pulse
+
+- Players compared competing Strait-themed implementations → procedural levels and ship navigation added novelty but also browser-control and progression bugs.
+- Classic Minesweeper muscle memory mattered → missing chord behavior prompted a request, and double-click support was added.
+- Political humor dominated → fuel-price jokes and campaign-slogan riffs carried more discussion than strategy or simulation.
+
+### LLM perspective
+
+- **View:** The value is immediacy and satire, not geopolitical modeling.
+- **Impact:** A tiny browser game can turn a news moment into shared, testable humor.
+- **Watch next:** Mobile controls, explanatory UI, solvable-board guarantees, and whether topical interest survives the news cycle.
