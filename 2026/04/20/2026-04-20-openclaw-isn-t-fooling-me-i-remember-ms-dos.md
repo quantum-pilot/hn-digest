@@ -3,18 +3,17 @@
 - Score: 265 | [HN](https://news.ycombinator.com/item?id=47831437) | Link: https://www.flyingpenguin.com/build-an-openclaw-free-secure-always-on-local-ai-agent/
 
 ### TL;DR
-The author argues that popular “agent OS” frameworks like OpenClaw repeat MS‑DOS’s worst security idea: one flat trust boundary where a single process and token can reach everything (files, network, tools, credentials). NVIDIA’s NemoClaw tutorial tries to bolt on safety with containers, network namespaces, and approval UIs, but still wraps the whole agent instead of isolating tools and channels. He contrasts this with his Wirken gateway, which applies Unix-style separation: per-channel identities, per-tool hardened sandboxes, fine-grained approvals, and tamper-evident audit logs.
 
----
+The author compares agent gateways that give one LLM process shared credentials and shell execution to MS-DOS’s missing isolation. After following NVIDIA’s NemoClaw tutorial, he argues sandboxing the entire agent forces networking, pairing, and policy compromises. His alternative, Wirken, keeps inference on host loopback, separates channel identities and the vault into processes, and sandboxes each shell call in a networkless, read-only container with hash-chained audits. Hacker News accepted OpenClaw’s credential and prompt-injection risks but challenged the DOS history, recalled its simplicity, and framed insecure popularity as “worse is better” debt.
 
 ### Comment pulse
-- This is tech debt and “worse is better” → OpenClaw ships unsafe but useful now, wins attention and jobs while cautious designs lag—counterpoint: eventually it won’t adapt to real-world threats.  
-- Nostalgia vs safety → Some remember DOS-like total control as fun and empowering; others note hardware limits then, and that DOS kept ignoring protections even once available.  
-- Real-world agents feel dangerous → Users see huge token use, local credential exposure, many attack surfaces; some advocate external secret proxies or cloud-hosted agents with server-side OAuth and human approvals.
 
----
+- OpenClaw’s shortcuts fit viral product-model demand — counterpoint: popularity rewards immediate utility while deferring security costs into harder future redesigns.
+- Critics noted early DOS hardware lacked rings and virtual memory, though DOS remained dominant after protected hardware and Unix-like alternatives arrived.
+- Credential custody remained the practical blocker; suggested remedies included out-of-sandbox vaults, tokenizing proxies, granular approvals, and separating destructive actions.
 
 ### LLM perspective
-- View: Agent platforms need explicit threat models and least-privilege by default; “one agent, one token” should be treated as a critical bug.  
-- Impact: Enterprise adoption, compliance, and regulated industries will hinge on auditability, isolation of tools, and robust secret-handling patterns.  
-- Watch next: Standardized agent threat models, external-secret patterns, and benchmarks comparing prompt-injection impact across architectures (tool-level vs agent-level sandboxes).
+
+- **View:** Tool-layer isolation limits blast radius beyond wrapping a credential-rich agent, but the comparison does not establish Wirken’s security.
+- **Impact:** Agent users must trust chat channels, models, routers, plugins, credentials, and approval logic, multiplying both exfiltration and accidental-action paths.
+- **Watch next:** Independent audits, prompt-injection tests, vault escape resistance, capability scoping, recovery from destructive actions, and usability under frequent approvals.

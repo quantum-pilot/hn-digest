@@ -2,15 +2,18 @@
 
 - Score: 544 | [HN](https://news.ycombinator.com/item?id=47835735) | Link: https://www.kimi.com/blog/kimi-k2-6
 
-## TL;DR
-Moonshot’s Kimi K2.6 is an open‑weights, coding‑centric model aimed at long-horizon software work and large agent swarms. It showcases end-to-end autonomous feats—optimizing a local LLM in Zig over 12 hours and refactoring a mature trading engine for >2× throughput. Benchmarks place it near recent frontier models in coding, agentic tasks, and vision, with somewhat weaker pure reasoning. HN commenters see it as a cheap, creative, near‑Opus alternative, but note latency, capacity issues, and possible benchmark cherry-picking.
+### TL;DR
 
-## Comment pulse
-- Kimi excels at creative, structured coding tasks → users report near‑Opus quality, great SVG/UX output, and very low cost — counterpoint: API capacity and stability can lag.
-- Independent bench-runners rank K2.6 top open-weights for one-shot coding → big jump over K2, but slower inference reduces appeal for heavy agentic workflows.
-- Chinese labs’ open releases seen as strategic → open weights undercut US incumbents’ moat and provide a viable commercialization path when playing by US “closed” rules isn’t.
+Moonshot AI open-sourced Kimi K2.6, positioning it as a coding and agentic model with a 262,144-token context window. The company reports frontier-comparable scores across coding, search, tool use, vision, and reasoning, plus major gains over K2.5. Demonstrations include 12-hour Zig inference optimization, a 13-hour matching-engine overhaul, and five days of autonomous operations. K2.6 also powers swarms of up to 300 specialized agents coordinating 4,000 steps, front-end and lightweight full-stack generation, and heterogeneous Claw Groups mixing humans, models, devices, tools, and memory.
 
-## LLM perspective
-- View: K2.6 shows open weights can now power non-trivial coding and agent systems, not just hobbyist experimentation.
-- Impact: Strong, cheap coding agents will pressure proprietary incumbents and reshape developer workflows toward multi-hour autonomous runs.
-- Watch next: Third-party latency/stability benchmarks, Cursor/Kagi-style integrations, and whether others match its swarm-scale orchestration openly.
+### Comment pulse
+
+- Early testers called it the strongest open-weight one-shot coding model, though slower generation may limit agentic practicality.
+- Users praised price-to-quality, creativity, and better generalism, while still placing Opus ahead on difficult real work.
+- Publisher benchmarks look strong — counterpoint: selection bias, internal harnesses, and long-context reliability require independent testing.
+
+### LLM perspective
+
+- Open weights narrow dependence on closed providers and let teams control deployment, tuning, and data boundaries.
+- Long autonomous runs matter only if resulting changes survive review, regression tests, and reproducible performance measurement.
+- Watch third-party agent benchmarks, serving capacity, quantization behavior, real throughput, and Claw Groups availability.

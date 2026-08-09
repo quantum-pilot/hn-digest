@@ -3,18 +3,17 @@
 - Score: 333 | [HN](https://news.ycombinator.com/item?id=47833558) | Link: https://opensource.posit.co/blog/2026-04-20_ggsql_alpha_release/
 
 ### TL;DR
-ggsql is a new SQL extension that embeds a grammar-of-graphics–style visualization language directly into SQL, using clauses like `VISUALIZE`, `DRAW`, `PLACE`, `SCALE`, and `LABEL`. You write normal SQL to shape data, then a declarative visual query that ggsql compiles into backend-specific SQL per layer, executing on DuckDB/SQLite/ODBC and rendering (currently via Vega-Lite). HN discussion centers on how it actually talks to databases, why it exists alongside ggplot2, and its appeal for SQL-only analysts and LLM-driven workflows.
 
----
+ggsql is an alpha, standalone visualization system that adds a SQL-shaped grammar of graphics to notebooks, Quarto, Positron, and VS Code. Standard SQL prepares data; `VISUALIZE`, `DRAW`, `PLACE`, `SCALE`, and `LABEL` clauses map columns, layer marks, annotate, transform aesthetics, and title outputs. Each visual layer becomes a backend SQL query, so databases aggregate or calculate statistics and return only drawable results rather than full datasets. Initial readers cover DuckDB, SQLite, and experimental ODBC, offering SQL users reproducible charts without an R or Python runtime.
 
 ### Comment pulse
-- How it runs → ggsql uses “readers” to connect to DBs, generates dialect-specific SQL per visual layer, executes remotely, then renders from aggregated results.  
-- Target audience → Designed for SQL-centric analysts and LLM/sandbox scenarios where you want charts without running arbitrary R/Python—counterpoint: many existing stacks already solve this.  
-- Relation to ggplot2 → Not a replacement; aims to reach non-R users and new environments, though some question benefits versus staying in mature ggplot2.
 
----
+- SQL-focused analysts liked a declarative plotting interface shared across data roles and easier to sandbox than general-purpose code.
+- Readers struggled to understand database plumbing and requested end-to-end external-server examples.
+- R users questioned another DSL — counterpoint: maintainers target new audiences and embedded tools, not replacement of mature ggplot2 workflows.
 
 ### LLM perspective
-- View → A declarative visualization layer in SQL is highly parsable and composable, making it a strong fit for LLM-generated analytics.  
-- Impact → Could standardize chart specs across BI tools, notebooks, and DB consoles without requiring embedded R/Python runtimes or custom plotting APIs.  
-- Watch next → More database readers, alternative renderers, benchmarks on huge datasets, and patterns for mixing ggsql with existing SQL tooling and notebooks.
+
+- Pushing aggregation into the backend makes visualization feasible when source tables are too large to materialize locally.
+- Rigid syntax may improve agent generation and validation, provided dialect and capability boundaries are explicit.
+- Watch renderer expansion, database readers, theming, interactivity, spatial support, and language-server quality.

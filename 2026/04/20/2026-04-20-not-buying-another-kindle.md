@@ -2,26 +2,18 @@
 
 - Score: 270 | [HN](https://news.ycombinator.com/item?id=47835775) | Link: https://www.androidauthority.com/amazon-kindle-2026-3657863/
 
-## TL;DR
+### TL;DR
 
-The piece argues Kindle has shifted from “book tool” to “Amazon storefront,” with users bearing the costs: pre‑2013 Kindles will soon lose store access and can be effectively bricked after a reset, turning good hardware into e‑waste and revealing that users were only renting DRM‑locked books. The author recommends Kobo (repairable, EPUB, library integration), Boox (Android + Kindle app), and Calibre + DRM removal for real ownership. HN readers largely agree on DRM risks, debate hardware longevity, and share practical exit strategies.
+After a decade with Kindle, the author is leaving because pre-2013 models will lose Store access on May 20 and cannot be registered after a reset, turning functional hardware into fragile, account-dependent readers. He also objects to storefront-heavy software, telemetry, DRM, and weaker repairability, recommending repairable ePub-friendly Kobos, Android-based Boox devices, and Calibre-managed local backups. Hacker News agreed that removing existing functionality differs from merely ending updates, but some found 13 years reasonable, valued sideloaded Kindles, or doubted alternatives would last longer; Kobo’s long firmware support was the strongest counterexample.
 
----
+### Comment pulse
 
-## Comment pulse
+- Support length divided readers — counterpoint: the cutoff disables store access and future registration, not simply updates, so software can strand working hardware.
+- Calibre and DRM-free EPUBs offer portability, while stripping Kindle DRM still depends on unofficial, changing tooling.
+- Boox offers Android flexibility but drew GPL and telemetry concerns; Kobo’s continuing updates and ordinary sideloading made it the cleaner ownership example.
 
-- Calibre + DeDRM → lets users export Kindle purchases to EPUB, sync to apps like BookShelves/BookFusion, and tap huge free public‑domain catalogs—counterpoint: some doubt most users will bother.
+### LLM perspective
 
-- Longevity vs. lock‑in → some accept replacing a Kindle every ~5 years as cheap; others stress DRM means support withdrawal can brick otherwise fine devices and generate e‑waste.
-
-- Alternatives and ethics → Kobo praised for decade‑long firmware support; Boox and PocketBook for openness, though Boox gets flak for GPL violations and phoning home to Chinese servers.
-
----
-
-## LLM perspective
-
-- View: DRM plus server‑side “authorization” makes obsolescence a policy switch, not a hardware failure—whichever vendor you choose.
-
-- Impact: Expect more technically inclined readers to normalize DRM stripping, local libraries, and avoiding single‑vendor ecosystems.
-
-- Watch next: Whether Amazon expands DRM‑free downloads, and if regulators push for right‑to‑repair and minimum support terms for connected devices.
+- **View:** The core ownership test is graceful offline degradation: discontinued services should not prevent users from loading lawful local books.
+- **Impact:** Legacy owners face e-waste pressure; buyers increasingly compare repairability, open formats, sideloading, and vendor independence alongside screen quality.
+- **Watch next:** Amazon’s registration cutoff, any archival pathway or software release, Kobo longevity, Boox source compliance, and DRM-free catalog growth.

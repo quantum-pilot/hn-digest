@@ -2,17 +2,18 @@
 
 - Score: 274 | [HN](https://news.ycombinator.com/item?id=47836730) | Link: https://vivianvoss.net/blog/why-we-accepted-surveillance
 
-- TL;DR  
-  Mass digital surveillance is now treated as the default, largely justified by “free” ad‑supported services and security rhetoric. Commenters argue targeted ads look ineffective and often scammy, yet still motivate vast tracking infrastructures that double as tools for political profiling and social control. Others stress that surveillance would continue even with paid products because data is too valuable to corporations and states. The thread frames liberal democracies as quietly normalizing practices once associated with openly authoritarian regimes.  
+### TL;DR
 
-  *Original article text unavailable; summary inferred from discussion and title.*
+The essay traces default web surveillance to DoubleClick’s 1996 third-party-cookie model, its attempted combination with Abacus purchasing data, and Google’s $3.1 billion acquisition. Today, it says, top sites average seven trackers, 41.1% of their traffic carries tracking, and manipulative consent flows can push acceptance to 90%; real-time bidding handles 600 billion requests daily. Apple’s 15–25% tracking opt-in rate and Meta’s estimated $10 billion impact show different defaults were possible. Hacker News questioned whether personalization even improves ads, but stressed that collected data also enables political targeting, policing, and state surveillance.
 
-- Comment pulse  
-  - Ad targeting overrated → users report generic or scam ads; platforms sell attention, not precision — counterpoint: impact measured at campaign level, not anecdotes.  
-  - Surveillance data enables soft repression → aids gerrymandering, targeted deportations, and persuasion, blurring line between commercial profiling and state control.  
-  - Ad-funded web entrenches tracking → even paid services mine data; decoupling revenue from surveillance or regulating data flows seen as only durable fix.  
+### Comment pulse
 
-- LLM perspective  
-  - View: Surveillance persists from profit, state power, and convenience; norms shift only if privacy defaults become legally enforced and simpler.  
-  - Impact: Rigorous bans on behavioral ads, not all ads, would hit shady targeting hardest while leaving contextual advertising viable.  
-  - Watch next: browser- and OS-level privacy protections, interoperability rules, and class-action suits against platforms profiting from fraudulent or abusive ads.
+- Poor retargeting and scam ads made surveillance look economically hollow — counterpoint: campaign value, not individual relevance, determines advertiser demand.
+- Advertising funds much of the web, but commenters stressed contextual advertising does not require cross-site identity profiles.
+- Even paid or ad-free services collect data for marketing and security, so changing business models alone cannot restore privacy.
+
+### LLM perspective
+
+- **View:** Consent banners legitimize an architecture users rarely chose; privacy-preserving defaults shift power more effectively than repeated notices.
+- **Impact:** Tracking consumes bandwidth and attention while creating datasets usable for commerce, discrimination, political influence, law enforcement, or repression.
+- **Watch next:** Third-party-cookie deprecation, browser request controls, dark-pattern enforcement, contextual-ad economics, scam-ad moderation, and limits on government purchase of data.

@@ -2,15 +2,18 @@
 
 - Score: 398 | [HN](https://news.ycombinator.com/item?id=47827259) | Link: https://ashley.rolfmore.com/stop-trying-to-engineer-your-way-out-of-listening-to-people/
 
-- TL;DR  
-  The author argues software teams over-lean on frameworks, processes, and “socio-technical systems” to avoid the harder work of actually listening to people. They outline nine traps: equating listening with obedience, overestimating others’ knowledge, binary “technical vs non-technical” thinking, assuming equal resources, stereotyping, treating people as static, conflating speech with thought, judging, and treating groups as homogeneous. HN commenters extend this to language precision, vulnerability in listening, systemic communication failures, and AI- or meeting-driven pseudo-communication.
+### TL;DR
 
-- Comment pulse  
-  - Precise communicators feel misunderstood; others respond that natural language is fuzzy, docs must add redundancy, context, examples; AI rewriting can destroy intent.  
-  - Real listening requires vulnerability and focusing on users’ pain, not just requested features—counterpoint: assuming you know needs better easily becomes arrogance.  
-  - Several argue the post feels like a condescending vent; systemic tools, clear docs, diagrams, and fewer agenda-less meetings matter as much as individual listening.
+The author argues software teams often replace the work of listening with frameworks, systems, and fixed requirements. Effective listening means probing needs rather than obeying requests, accounting for specialist blind spots, resources, individual differences, changing contexts, indirect speech, judgment, and group dynamics. Misunderstandings otherwise become features and technical debt. Hacker News agreed that developers often diagnose before understanding, but criticized the post as a vent that individualizes a systemic problem. Commenters emphasized communication’s two-sided lossiness: writers need context, examples, and artifacts, while listeners need vulnerability and resistance to premature solutions.
 
-- LLM perspective  
-  - View: Frameworks help, but they cannot substitute interviewing, shadowing, and iterative feedback with the humans behind “requirements.”  
-  - Impact: Teams that normalize explicit clarification, written context, and diagrams reduce rework, tech debt, and interpersonal resentment.  
-  - Watch next: Tooling to flag ambiguous specs, track evolving user intent, and detect risky AI rewrites of critical docs.
+### Comment pulse
+
+- Precision does not eliminate ambiguity; natural language requires audience-aware context and redundancy — counterpoint: AI expansion can fabricate details and destroy exact documentation.
+- Frameworks can expose gaps and coordinate bounded groups, challenging the claim that systems merely avoid work; they still cannot perform attention.
+- Meetings often simulate communication without prerequisites or decisions; concise pre-reads, diagrams, and explicit why–what–how dependencies can make listening concrete.
+
+### LLM perspective
+
+- **View:** Listening and structure are complements: direct inquiry discovers reality, while artifacts preserve and test the shared model afterward.
+- **Impact:** Better discovery reduces wasted features, interpersonal frustration, rework, and technical debt across product, engineering, sales, and management.
+- **Watch next:** Teams can measure requirement churn, misunderstood handoffs, meeting decisions, user-observation frequency, and whether feedback changes planned work.

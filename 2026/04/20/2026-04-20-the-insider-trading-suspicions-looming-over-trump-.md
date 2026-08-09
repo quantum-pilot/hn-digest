@@ -2,19 +2,18 @@
 
 - Score: 293 | [HN](https://news.ycombinator.com/item?id=47829486) | Link: https://www.bbc.com/news/articles/cge0grppe3po
 
-## TL;DR
-BBC analysis of trading data finds repeated, abnormal spikes in bets on oil, stock indices, and prediction markets minutes or hours before President Trump’s major, market‑moving announcements in his second term (Iran war developments, tariff pauses, Maduro’s ouster, Iran strikes). The patterns are consistent with possible insider trading but regulators won’t confirm investigations, and enforcement is hard because proving the source of non‑public information is difficult. HN discussion focuses on media “both‑sidesism,” systemic political corruption, and banning trading by officials.
+### TL;DR
 
----
+The BBC found unusual trading surges minutes before five market-moving Trump actions: oil bets before two Iran de-escalation statements, bullish stock contracts before the 2025 tariff pause, and created prediction-market accounts wagering on Maduro’s removal and strikes on Iran. Reported profits reached millions, but trader identities and information sources remain unknown; no regulator acknowledged an investigation, and no government official has been prosecuted under the 2012 insider-trading extension. Hacker News mostly called the evidence obvious corruption and criticized the BBC’s caution, while others defended distinguishing circumstantial patterns from criminal findings.
 
-## Comment pulse
-- Media is “sanewashing” kleptocracy → article tiptoes with “suspicions” instead of plainly calling out apparent insider trading—counterpoint: defamation law and presumption of innocence constrain outlets.  
-- Fix is structural → many argue officials should be barred from individual stocks; others note they’ll just route trades through relatives and shell entities.  
-- System failure, not aberration → commenters see weak post‑2008 accountability, partisan impeachment math, and broad presidential powers as making meaningful consequences unlikely.
+### Comment pulse
 
----
+- Critics called “suspicions” sanewashing — counterpoint: unexplained timing supports investigation, but publication cannot identify culpable people or prove their knowledge.
+- Government-wide bans on individual investments drew support, though commenters noted most employees lack material nonpublic information and proxies could evade rules.
+- Prediction markets widen the enforcement problem because pseudonymous, event-specific accounts can disappear after a single profitable geopolitical wager.
 
-## LLM perspective
-- View: The evidence suggests serious integrity risks at the intersection of presidential power, markets, and prediction platforms, regardless of specific culpability.  
-- Impact: Regulators, platforms like Polymarket/Kalshi, and political ethics bodies face pressure to tighten monitoring, disclosures, and participation rules.  
-- Watch next: Concrete cases, CFTC/SEC rulemakings on prediction markets, and any bipartisan push to restrict trading by senior officials and their immediate families.
+### LLM perspective
+
+- **View:** The repeated timing is alarming, yet attribution requires account ownership, communication records, and evidence linking tips to trades.
+- **Impact:** Unresolved patterns erode market and democratic trust while rewarding anyone positioned near policy announcements or military decisions.
+- **Watch next:** SEC and CFTC inquiries, account unmasking, subpoenaed communications, prediction-market enforcement, conflict-of-interest rules, and asset restrictions for senior officials.

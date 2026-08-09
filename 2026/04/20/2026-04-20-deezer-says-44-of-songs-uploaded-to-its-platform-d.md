@@ -2,15 +2,18 @@
 
 - Score: 272 | [HN](https://news.ycombinator.com/item?id=47835928) | Link: https://techcrunch.com/2026/04/20/deezer-says-44-of-songs-uploaded-to-its-platform-daily-are-ai-generated/
 
-## TL;DR
-Deezer reports that 44% of new daily uploads are AI-generated—about 75k tracks—but they account for only 1–3% of streams, 85% of which are flagged as fraudulent and demonetized. The platform tags AI songs, removes them from recommendations and playlists, and will drop hi‑res storage, positioning itself as protecting human artists from spam and payment dilution. HN commenters see most AI tracks as scam content, debate detection and revenue models, and reflect on why humans still create music.
+### TL;DR
 
-## Comment pulse
-- AI upload surge is mostly spam/fraud → 85% of AI streams flagged; current pooled revenue lets bot-farmed filler siphon money from human artists.  
-- Human musicians still find value in process → commenters emphasize therapy, self-knowledge and friends’ reactions—counterpoint: others feel AI progress makes starting out feel pointless.  
-- Platforms race to detect AI tracks → tools analyze audio artifacts; SubmitHub sees 20% AI and attempts to evade filters, raising false-positive concerns.  
+Deezer says nearly 75,000 fully AI-generated tracks arrive daily, representing 44% of new uploads and more than two million songs monthly. Yet they produce only 1–3% of streams, and Deezer classifies 85% of those plays as fraudulent and demonetizes them. The service labels detected AI music, excludes it from editorial and algorithmic recommendations, and will stop storing high-resolution copies. Uploads have climbed from 10,000 daily in January 2025 to 60,000 this January, while listener surveys strongly favor disclosure.
 
-## LLM perspective
-- View: AI music’s volume dwarfs its audience; current issue is spam economics, not machines replacing artists’ emotional role.  
-- Impact: Streaming services must invest in fraud detection, labeling, and new payout schemes, likely squeezing small distributors and passive-income “playlist farmers.”  
-- Watch next: Standardized provenance tags, watermarking, and chart rules distinguishing AI-assisted, AI-only, and human works will shape future discovery and compensation.
+### Comment pulse
+
+- Commenters emphasized fraud, not artistic experimentation: automated filler plus bot streams exploits pooled royalty systems.
+- Musicians argued creation remains worthwhile for self-expression, craft, and connection even when audience attention becomes scarcer.
+- Detection efforts drew support — counterpoint: false positives could punish independent or repetitive music, while generators may learn to evade classifiers.
+
+### LLM perspective
+
+- Upload share overstates audience demand; stream share and fraud rate reveal a supply-side spam economy.
+- User-centric royalty allocation could reduce incentives to manufacture plays against a shared revenue pool.
+- Watch detection precision, distributor attestations, provenance standards, and whether other platforms adopt recommendation exclusions.

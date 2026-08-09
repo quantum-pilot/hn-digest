@@ -4,20 +4,16 @@
 
 ### TL;DR
 
-A Swiss public‑TV investigation, based on a major internal data leak, reports that Tesla logged over 2,400 sudden‑acceleration complaints and 1,000+ Autopilot‑related crashes, many marked “unresolved,” while still treating public roads as a large‑scale testbed. One fatal case is reconstructed via supposedly “corrupted” data, suggesting Tesla knew of an Autopilot failure the night of the crash. A US jury awarded $243M in damages, and Justice Department and NHTSA probes into Tesla’s autonomy practices are ongoing.
-
----
+RTS says leaked Tesla records contained 2,400 unintended-acceleration complaints and 1,000 Autopilot-related crashes, many unresolved, supporting allegations that the company knew of failures while testing on roads. It highlights pedestrian Naibel Benavides’s death: experts recovered crash data Tesla called corrupted, and a jury held Tesla and the driver responsible, awarding $243 million; a judge upheld the verdict, with appeal possible. Hacker News noted Tesla’s poor disclosure record but challenged the headline, saying the leak dates to 2023, concerns older Autopilot, and does not itself prove fatal crashes were concealed.
 
 ### Comment pulse
 
-- Tesla disengaging Autopilot less than a second before impact → some see this as data‑dodging; others argue it’s a safety fail‑safe to avoid uncontrolled behavior post‑crash.  
-- Article’s evidentiary depth → critics say numbers and “concealment” mechanisms are still vague, relying on anecdotes and a pre‑2023 leak—counterpoint: the outlet is mainstream, not a fringe hit piece.  
-- Scope and novelty → some note this concerns legacy Autopilot, not current FSD, and that the underlying leaked data has been public for years; headline seen as sensational.
-
----
+- Some saw one-second pre-impact disengagement as suspicious — counterpoint: disabling control after an unavoidable collision may protect occupants and responders.
+- Tesla says its safety report counts FSD active within five seconds; commenters questioned whether that captures delayed human re-engagement after automation.
+- Several readers found RTS’s evidence too vague and its title stronger than the article, despite the jury verdict and ongoing investigations.
 
 ### LLM perspective
 
-- View: The real issue is not raw crash counts but incentives to under‑report, obscure telemetry, and externalize experimental risk onto non‑consenting road users.  
-- Impact: Regulators, insurers, and courts will increasingly demand independent access to logs and safety metrics, not just manufacturer‑curated statistics or marketing dashboards.  
-- Watch next: Standardized incident reporting for driver‑assist systems, black‑box access rules, and whether future verdicts hold OEMs liable for software design, not just driver misuse.
+- **View:** The verdict establishes accountability; broader concealment claims require separating complaints, verified defects, Autopilot involvement, and reporting decisions.
+- **Impact:** Drivers, pedestrians, regulators, and investors need reliable event data because supervision handoffs shift risk onto people with little warning.
+- **Watch next:** Appeal outcome, DOJ and NHTSA findings, crash-data preservation, reporting definitions, disengagement timing, and distinctions between Autopilot and FSD.

@@ -3,21 +3,17 @@
 - Score: 351 | [HN](https://news.ycombinator.com/item?id=47834184) | Link: https://tryterra.co/research/sauna-effect-on-heart-rate
 
 ### TL;DR
-- Analysis of ~59k wearable records from 256 users compared each person’s sauna days to their own non-sauna days.  
-- Sauna days showed more activity plus a same-night minimum heart-rate reduction of about 3 bpm, even after adjusting for activity, suggesting an added recovery/autonomic effect.  
-- For women, a meaningful reduction appeared mainly in the luteal phase, hinting that cycle timing matters.  
-- Commenters like the idea but challenge device precision, stats, confounding, and stress that this is exploratory, not an exercise replacement or health outcome study.
 
----
+Terra analyzed about 59,000 wearable records from 256 self-logging sauna users, comparing each person’s sauna and non-sauna days. Sauna days had more activity and higher daytime heart rates, yet minimum nighttime heart rate averaged about 3 bpm, or 5%, lower after activity adjustment; among women, a meaningful difference appeared only in the luteal phase. The authors interpret this as a possible recovery signal, not a clinical outcome. Hacker News called the work exploratory, citing unreported modeling details, wearable precision, minimum-value sensitivity, selection, hydration, sauna dose and timing, and reverse causation.
 
 ### Comment pulse
-- Blog is exploratory data science → critics say methods are under-specified, n is miscommunicated, and peer-review standards aren’t met for strong claims.  
-- Wearable accuracy and metrics questioned → tiny HR changes, use of minimum vs percentiles, sensor artifacts from heat, hydration confounding, temporal correlations all need tighter handling.  
-- Personal reports: saunas and very hot showers help people fall asleep and reduce stress — counterpoint: no evidence they deliver exercise-like long-term health gains.
 
----
+- Within-person comparisons reduce cross-user bias — counterpoint: self-selected sauna days can still differ in hydration, sleep readiness, timing, or unmeasured recovery behaviors.
+- Critics questioned using a minimum heart rate, which may amplify sensor glitches, rather than reporting raw distributions or robust percentiles.
+- A lower short-term marker does not show sauna replaces exercise or improves long-term outcomes; no such endpoint was measured.
 
 ### LLM perspective
-- View: Treat this as hypothesis-generating evidence that heat-stress plus cooling may modulate nighttime autonomic balance.  
-- Impact: Can inform consumer guidance, app features, and study design, but not clinical advice or exercise-substitution claims yet.  
-- Watch next: Randomized crossover sauna trials with controlled environment, richer HRV/BP metrics, and longitudinal links to morbidity and mortality.
+
+- **View:** The signal is hypothesis-generating: statistically adjusted association cannot identify sauna as the cause without clearer methods and prospective controls.
+- **Impact:** Readers should not substitute heat exposure for exercise based on a three-beat wearable difference or infer sex-specific guidance yet.
+- **Watch next:** Peer review, preregistered replication, raw distributions, wearable validation, sauna dose and timing, hydration controls, and longitudinal health outcomes.

@@ -3,14 +3,17 @@
 - Score: 291 | [HN](https://news.ycombinator.com/item?id=47839951) | Link: https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-growing/
 
 ### TL;DR
-The article surveys emerging “AI resistance” tactics: coordinated efforts like r/PoisonFountain to feed crawlers plausible-but-wrong code, tools such as Miasma to serve endless garbage to bots, experiments in poisoning video summarizers, and social-media in-jokes designed to mislead training data while remaining obvious to humans. The author frames this as peaceful, legal pushback against companies that ignore robots.txt and strain small sites. Hacker News commenters mostly treat poisoning as an interesting but likely temporary technical attack, and debate data scarcity, ethics, and power.
+
+The author sees rising anti-AI resistance in efforts to poison unauthorized training crawlers: a Reddit community aims to serve subtly broken code at scale, tools generate bot-targeted junk pages, and social-media users post plausible nonsense for scrapers to ingest. A transcript exploit against video summarizers reportedly stopped working, illustrating the temporary nature of such attacks. The author frames poisoning as peaceful retaliation against bots that ignore `robots.txt`, hide behind proxies, strain small sites, and appropriate human work without consent.
 
 ### Comment pulse
-- Data poisoning as protest → Seen as technically fun but transient; large labs can filter, adapt training, or switch to proprietary/walled-garden data.  
-- Scraping consent and costs → Even if poisoning won’t cripple models, it can raise costs for crawlers that ignore robots.txt and overload small sites.  
-- Cultural shift on “free information” → Defenders say it’s consistent: oppose uses that decontextualize work, erase attribution, and centralize control—counterpoint: looks like “free for me, not for thee.”
+
+- Supporters viewed poisoning as one of few consent-enforcement tools available to site owners facing aggressive scrapers and bandwidth costs.
+- Skeptics said filters and adversarial training will neutralize public attacks, while abundant clean or curated data limits their impact.
+- Debate revisited “information wants to be free” — counterpoint: resisting unattributed corporate extraction can align with preserving public access.
 
 ### LLM perspective
-- View: Grassroots poisoning is unlikely to “kill” models, but it meaningfully reframes scraping as contested, not automatic.  
-- Impact: Increases pressure for licenses, paywalled data deals, and stronger crawler identification and rate-limiting infrastructure.  
-- Watch next: Empirical studies on model robustness to adversarial web noise; legal cases around scraping rights; standardized opt-out/compensation mechanisms.
+
+- Poisoning may impose collection costs without meaningfully changing a foundation model’s aggregate behavior.
+- Bot-only misinformation still risks contaminating search, archives, accessibility tools, and human knowledge.
+- Watch for crawler authentication, enforceable opt-outs, provenance systems, and measured poisoning-resistance benchmarks.
