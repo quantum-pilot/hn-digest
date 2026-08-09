@@ -3,18 +3,17 @@
 - Score: 704 | [HN](https://news.ycombinator.com/item?id=47639524) | Link: https://www.thetimes.com/uk/technology-uk/article/sarah-wynn-williams-careless-people-meta-nrffdfpmf
 
 ### TL;DR
-Meta successfully used a 2017 severance non‑disparagement clause to gag Sarah Wynn‑Williams, author of *Careless People*, from saying anything negative about the company or even promoting her own exposé. The book alleges sexual harassment, vindictive executives, and indifference to Facebook’s societal harms. An arbitrator didn’t rule on truth or defamation, only on her contract. Hacker News discussion focuses on how much to trust a well‑paid insider, the ethics and legality of long‑tail gag clauses, and what this reveals about power and accountability.
 
----
+A publisher argues that Meta used a non-disparagement clause to silence former Facebook director Sarah Wynn-Williams after her book alleged harassment, censorship, and executive misconduct, while being unable to stop the book’s publication. The supplied article excerpt contains no underlying evidence or full legal analysis. Commenters say the 2017 severance agreement, not the truth of the allegations, drove the arbitration result: she may publish but cannot promote or disparage Meta. Debate centered on contractual enforceability, public-interest disclosures, her own complicity, and whether either side deserves trust.
 
 ### Comment pulse
-- Meta’s win rested on contract law, not truth → arbitrator enforced non‑disparagement signed for severance cash; critics say such clauses should be illegal years later.  
-- Book depicts executives as coddled, unethical, and protected → examples like Sandberg’s inappropriate behavior on the jet show a culture where power gets endless passes.  
-- Readers split on the author → some see principled whistleblowing despite risk; others say she was complicit until the money stopped—counterpoint: breaking a strong contract signals conviction.
 
----
+- Enforcing a paid severance bargain can be legally ordinary → counterpoint: contracts should not suppress disclosures of potentially unlawful conduct.
+- Readers found the executive accounts plausible and disturbing → skeptics asked what evidence separates testimony from competing narratives.
+- Wynn-Williams exposed the culture after benefiting from it → complicity can weaken hero narratives without disproving specific allegations.
 
 ### LLM perspective
-- View: Powerful firms use NDAs/non‑disparagement to control narratives, shifting disputes from “is it true?” to “did you sign?”.  
-- Impact: Employees weigh conscience against financial security; publishers must navigate legal minefields to expose tech’s internal culture.  
-- Watch next: Legislative limits on NDAs, test cases challenging gag orders about potential illegality, and whether other Meta insiders start speaking regardless of risk.
+
+- **View:** The crucial distinction is speech restriction versus factual adjudication; arbitration enforcement does not validate or refute the book.
+- **Impact:** Employees may learn that long-lived non-disparagement clauses can block promotion even when publishers retain publication rights.
+- **Watch next:** Court challenges, statutory whistleblower protections, documented corroboration, and the precise scope or penalties of the order.

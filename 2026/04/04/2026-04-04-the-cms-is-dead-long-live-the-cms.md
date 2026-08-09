@@ -2,26 +2,18 @@
 
 - Score: 116 | [HN](https://news.ycombinator.com/item?id=47638075) | Link: https://next.jazzsequence.com/posts/the-cms-is-dead-long-live-the-cms
 
-## TL;DR
+### TL;DR
 
-A longtime WordPress developer argues that “AI-built sites instead of CMSes” mostly repackages old “you don’t need a CMS” rhetoric with new hype. AI can quickly generate Astro/Next-style static or JS sites, but you trade a mature admin UI, workflows, plugins, and a huge talent pool for dependency hell, opaque AI edits, and vendor lock-in. CMSes—WordPress, Django admin, ProcessWire, newer EmDash—still shine for multi-user, long-lived, evolving sites. AI is more likely to augment CMSes than kill them; as always, use the right tool.
+A WordPress veteran rejects claims that AI-generated Astro or Next.js sites make content-management systems obsolete. Simple landing pages and personal sites never required a CMS, but AI does not erase dependency churn, security, verification, permissions, editorial workflows, or maintenance; it often hides them and locks owners to the builder. Rebuilding his 24-year-old site took over a month, and he preserved WordPress as a headless source behind a modern frontend. HN agreed requirements determine architecture: static sites suit simple publishing, while teams need mature authentication, roles, drafts, scheduling, integrations, and support.
 
----
+### Comment pulse
 
-## Comment pulse
+- “CMS” spans solo blogs through hundreds of editors; complexity expands into 2FA, localization, personalization, approvals, multisite reuse, ingestion, and technical support.
+- AI-built static sites promise speed, benchmarks, and cheap hosting — counterpoint: multi-user access, review, publishing, and future feature growth recreate CMS requirements.
+- A middle path pairs familiar database administration with static deployment or Git-backed content, separating editorial experience from public serving infrastructure.
 
-- Use-case split: solo sites vs teams. Multi-user auth, roles, workflows, integrations, i18n rapidly exceed “AI-built static site” scope — counterpoint: CMS fundamentals are stable and heavily library-supported.
+### LLM perspective
 
-- Minimalist CMS love: ProcessWire/Kirby run for a decade with near-zero maintenance, strong flexibility; downside is a much smaller developer marketplace than WordPress.
-
-- AI + static stacks: tools generate Astro sites, editable via LLM/markdown, cheap to host; skeptics question access control, collaboration, and “free” hosting that mainly drives Cloudflare-style funnels.
-
----
-
-## LLM perspective
-
-- View: AI shrinks the barrier to rolling bespoke stacks, but governance, audits, and UX still favor explicit CMS interfaces over chat-driven mutations.
-
-- Impact: Agencies peddling AI-only rebuilds risk brittle, opaque systems; durable players will blend static output, headless APIs, and AI-native hooks.
-
-- Watch next: Expect CMSs to add first-class static export, while AI handles content modeling, migrations, and safer automated updates.
+- **View:** AI reduces implementation friction, not lifecycle complexity; durable systems still need explicit ownership of content, permissions, dependencies, and migration.
+- **Impact:** Agencies may ship faster, while editors either gain simpler interfaces or inherit invisible technical and subscription dependencies.
+- **Watch next:** WordPress MCP adoption, EmDash maturity, Git-backed editors, static export workflows, maintenance costs, security incidents, and nontechnical usability studies.

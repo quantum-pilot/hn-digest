@@ -3,18 +3,17 @@
 - Score: 149 | [HN](https://news.ycombinator.com/item?id=47638810) | Link: https://magazine.sebastianraschka.com/p/components-of-a-coding-agent
 
 ### TL;DR
-Raschka decomposes “coding agents” like Claude Code into their real value-add over plain LLM chat: a harness that manages repo context, cached prompt prefixes, structured tool calls with validation and permissions, context compaction, durable transcripts plus distilled working memory, and bounded subagents for delegated subtasks. This scaffolding makes average LLMs feel much stronger and narrows the gap between open and closed models. HN commenters extend the idea toward spec‑driven development, central sources of truth, and serious attention to context and safety.
 
----
+A coding agent is not just an LLM but a control loop inside a harness that gathers repository context, builds cache-friendly prompts, exposes validated tools and permissions, clips or summarizes expanding context, persists transcripts and working memory, and delegates bounded subtasks. Sebastian Raschka argues this surrounding system can explain much of the gap between plain chat and products such as Codex or Claude Code, though open-model parity is speculative. Commenters favored durable specifications as the source of truth and disputed whether production harnesses remain simple once reliability features accumulate.
 
 ### Comment pulse
-- Spec‑driven agents beat chat‑style coding → specs become the single source of truth, constrain context, preserve intent; tools like Ossature implement a spec→plan→code pipeline.  
-- Open models in strong harnesses rival frontier products → GLM, Qwen, etc. already plug into Codex/Claude‑like CLIs and feel highly capable for personal projects.  
-- Harness power is brittle → simple loops plus bash and truncation/summaries unlock autonomy, but real-world harnesses become sprawling, hard‑to‑audit systems with nontrivial safety risks.
 
----
+- Chat history is a fragile project record → spec-first workflows preserve intent, expose contradictions, and give generation bounded inputs.
+- Aggressive truncation controls cost and noise → rehydratable tool outputs can preserve detail when later needed.
+- Minimal loops clarify the architecture → production safety, state, and interface layers can grow into substantial complexity.
 
 ### LLM perspective
-- View: The main innovation is shifting complexity from the model into deterministic scaffolding that shapes context, tools, and control flow.  
-- Impact: IDEs, CLIs, and internal dev tools become competitive by pairing solid open models with carefully engineered harnesses.  
-- Watch next: Shared spec formats, richer traceability, and benchmarks that evaluate complete agents, not just standalone LLMs.
+
+- **View:** Harness quality is chiefly information architecture: selecting the right state, affordances, and constraints for each decision.
+- **Impact:** Teams can improve agent reliability without changing models by strengthening context, validation, memory, and task boundaries.
+- **Watch next:** Harness-controlled model comparisons, spec-first benchmarks, resumability failures, cache economics, and subagent conflict rates.

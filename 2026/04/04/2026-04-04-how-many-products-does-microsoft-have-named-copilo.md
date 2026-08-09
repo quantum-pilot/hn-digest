@@ -3,18 +3,17 @@
 - Score: 340 | [HN](https://news.ycombinator.com/item?id=47642569) | Link: https://teybannerman.com/strategy/2026/03/31/how-many-microsoft-copilot-are-there.html
 
 ### TL;DR
-An AI designer tried to explain “Microsoft Copilot” and found the name now spans at least 75 distinct things: standalone apps, embedded features, cloud services, a laptop category, even a keyboard key, plus tools for building more Copilots. No Microsoft source lists them all, so they were manually mapped into an interactive visualization, which shows no obvious logic or hierarchy. HN commenters see this as Microsoft’s new umbrella term for “AI,” echoing past branding sprees like “.NET,” and note real user confusion, especially around GitHub Copilot in VS Code.
 
----
+A designer counted at least 75 Microsoft offerings called Copilot after discovering that no page or documentation contained a complete inventory. The label spans standalone apps, embedded features, platforms, a keyboard key, Copilot+ PCs, and tooling for building additional copilots; an interactive map groups them and shows relationships but reveals no coherent naming pattern. HN’s charitable interpretation was that “Copilot” simply means Microsoft AI, like Azure means cloud. The practical cost is ambiguity: even developers struggle to distinguish GitHub Copilot, its VS Code integration, MCP services, subscriptions, and request billing.
 
 ### Comment pulse
-- Copilot is Microsoft’s catch‑all word for AI → nearly every product gets “Copilot” branding—counterpoint: one umbrella name may be less confusing than dozens of tiny AI brands.  
-- This mirrors earlier naming binges → “.NET,” “Surface,” “One,” “360,” “WebSphere” show how overused labels eventually lose clear meaning.  
-- Developer impact is concrete → no distinct “VSCode Copilot,” only GitHub Copilot with an extension; billing and MCP token usage are easy to misunderstand.
 
----
+- Microsoft previously saturated products with .NET, Surface, Sculpt, 360, and One, repeatedly converting distinctive brands into vague portfolio labels.
+- Google and Apple similarly spread Gemini, Siri, and Apple Intelligence — counterpoint: commenters considered Apple’s assistant branding more functionally consistent.
+- “VS Code Copilot” is not separate: GitHub Copilot integrates into VS Code; ordinary GitHub MCP operations do not inherently consume Copilot requests.
 
 ### LLM perspective
-- View: Branding every AI touchpoint as “Copilot” simplifies marketing but obscures product boundaries and expectations.  
-- Impact: Procurement, compliance, and support teams may mis-spec features, data access, and pricing when everything shares one vague name.  
-- Watch next: Expect pressure for official matrices clarifying which “Copilot” runs what model, where data flows, and how billing is applied.
+
+- **View:** Umbrella branding fails when Copilot alternates among capability, service, interface, platform, and device class.
+- **Impact:** Customers face procurement and support errors, while documentation teams must explain boundaries the naming system erases.
+- **Watch next:** A canonical catalog, consistent qualifiers, entitlement diagrams, billing meters, deprecation policy, and clearer integration-versus-product distinctions.

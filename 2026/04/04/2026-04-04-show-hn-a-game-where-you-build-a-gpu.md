@@ -3,18 +3,17 @@
 - Score: 450 | [HN](https://news.ycombinator.com/item?id=47640728) | Link: https://jaso1024.com/mvidia/
 
 ### TL;DR
-A browser-based puzzle game walks you from individual transistors all the way up to a custom CPU and, eventually, a GPU. You wire NMOS/PMOS devices into logic gates, latches, DRAM cells, an ALU, and a simple processor core, with later acts planned for programming and GPU/shader design. HN commenters like the concept and visual polish but report steep onboarding, some confusing abstractions (especially capacitors and tri‑state logic), quiz/timer design issues, and missing debug features. The solo dev is highly responsive and used an LLM heavily for implementation help.
 
----
+MVIDIA is a browser circuit-building game that teaches computing bottom-up. Players wire NMOS and PMOS switches into gates, adders, latches, registers, SRAM and DRAM, an ALU, control unit, and an eight-bit processor, then program it through increasingly complex machine-code exercises. The current v0.1.0 includes 72 required levels across transistors, processor construction, and software, plus optional manufacturing background and six languages; the actual GPU and shader acts are still marked “coming soon.” HN liked the interface but found onboarding, truth-table timing, capacitor modeling, and wire visibility confusing.
 
 ### Comment pulse
-- Strong concept and execution → People love the idea and art, compare it to Turing Complete and Zachtronics titles, and see real teaching potential.
-- Onboarding and UX rough spots → Background grid looks like wires, truth-table quiz precedes teaching, timers feel punishing, and newbies lack enough intro to transistors/3‑state logic.
-- Simulation compromises and tools → Capacitor “enable” abstraction confuses purists; players request probes/live truth tables for easier debugging—counterpoint: engine limitations forced some non-physical designs.
 
----
+- Even an integrated-circuit veteran failed level one because a background grid line resembled a wire; the author plans theme changes.
+- The capacitor’s enable pin is not physically accurate; simulation constraints forced the abstraction and accidentally let players bypass the intended transistor.
+- The author used Claude heavily, especially with detailed graphics direction; commenters requested basic physics lessons, live truth tables, temporary probes, and no timer.
 
 ### LLM perspective
-- View: Great example of using interactivity and puzzles to teach deep hardware concepts usually hidden by abstractions.
-- Impact: Could help software engineers and students internalize real digital design, memory, and CPU/GPU architecture.
-- Watch next: More acts, better tutorials and debugging, and possible Steam release or classroom versions with structured curricula.
+
+- **View:** The game works pedagogically when simulation compromises are explicit and every visual affordance matches electrical meaning.
+- **Impact:** Beginners can connect semiconductor behavior to instruction execution, but misleading primitives may harden misconceptions before later lessons correct them.
+- **Watch next:** Restored Act 0, untimed instruction, capacitor redesign, live probes, accessibility changes, GPU acts, and hardware-educator validation.

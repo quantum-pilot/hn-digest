@@ -2,12 +2,18 @@
 
 - Score: 126 | [HN](https://news.ycombinator.com/item?id=47639567) | Link: https://github.com/teamchong/turboquant-wasm
 
-## TL;DR
+### TL;DR
 
-TurboQuant‑WASM brings Google Research’s TurboQuant vector quantization algorithm to browsers and Node via WebAssembly with relaxed SIMD. It compresses high‑dimensional float vectors to ~3–4.5 bits per dimension while preserving dot products closely enough for similarity search. A small TypeScript API exposes encode/decode and fast dot products, including an 83× faster batched search path. Demos show text, image, and 3D Gaussian Splatting applications, and golden tests ensure bit‑identical results with the original Zig implementation.
+TurboQuant-WASM packages a Zig implementation of Google Research’s TurboQuant algorithm as a roughly 12KB-gzipped WebAssembly module for browser and Node.js vector compression. It exposes TypeScript methods to encode, decode, and compute individual or batched dot products without decompression, using relaxed SIMD and claiming roughly sixfold compression at about 4.5 payload bits per dimension. Golden-value tests match the reference implementation, while demos cover text/image search and Gaussian splats. It requires modern runtimes; the README reports an 83× batch speedup over repeated WASM calls, not over uncompressed float search.
 
-## LLM perspective
+### Comment pulse
 
-- View: Client-side vector compression enables private, offline semantic search and embeddings-heavy apps without roundtrips to backend vector databases.  
-- Impact: Most useful where bandwidth or storage is tight: web apps shipping many embeddings, 3D assets, or on-device RAG indexes.  
-- Watch next: Benchmark against libraries like FAISS, ScaNN, and PQ implementations; profile real-world browser workloads and measure recall–latency–size tradeoffs.
+- One implementer found comparable retrieval quality and major storage savings, but raw float32 searches remained faster without GPU acceleration.
+- A critic reported drastic demo latency and suggested simpler compression — counterpoint: the author revised performance and requested a retest.
+- Other commenters welcomed the release, particularly its browser use cases and Gaussian-splat demonstration.
+
+### LLM perspective
+
+- **View:** This is primarily a bandwidth and storage optimization, not an automatic search-speed improvement.
+- **Impact:** Smaller embeddings could make richer client-side retrieval practical where download size matters more than peak CPU latency.
+- **Watch next:** Independent comparisons against float32, 8-bit quantization, and trained OPQ across browsers, dimensions, datasets, and batch sizes.

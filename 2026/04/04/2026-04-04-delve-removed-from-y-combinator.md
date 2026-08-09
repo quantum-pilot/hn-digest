@@ -3,18 +3,17 @@
 - Score: 466 | [HN](https://news.ycombinator.com/item?id=47634690) | Link: https://www.ycombinator.com/companies/delve
 
 ### TL;DR
-Delve pitched itself as an AI-native platform that automates SOC 2, HIPAA, and other compliance evidence gathering for fast‑growing startups, using agents instead of manual screenshots and integrations. Subsequent investigations allege something far worse than sloppy licensing: pre-filled “independent” audit reports, near-identical SOC 2 outputs, and effectively fake compliance sign-offs that could expose customers to legal risk. After this and an open‑source license dispute, Y Combinator removed Delve, framing it as a fundamental breakdown of trust within the YC community and its internal marketplace.
 
----
+The supplied YC profile presents Delve as an AI compliance platform serving 100-plus companies and automating evidence collection for SOC 2, HIPAA, ISO 27001, GDPR, and PCI DSS. The removal claim comes from commenters citing a reportedly leaked internal message in which YC CEO Garry Tan said trust had broken and Delve was asked to leave, without public details. Discussion points to unverified allegations of rubber-stamped audits, prewritten conclusions, nearly identical reports, and open-source licensing violations. For a compliance vendor, those accusations directly undermine the product’s core trust proposition.
 
 ### Comment pulse
-- Core scandal → Allegations of pre-written audit conclusions and copy‑paste SOC 2 reports; seen as “fake compliance,” not just an OSS license slip.  
-- YC trust model → YC relies on startups buying from each other; Delve’s behavior, especially toward fellow YC companies, is seen as betraying that implicit trust — counterpoint: they were ejected simply because they got caught.  
-- Compliance theatre → Case reinforces views that SOC 2 has become pay‑to‑play; trusting a young YC startup for critical audits now looks naïve to many.
 
----
+- Some readers centered an alleged license breach → counterpoint: others viewed allegedly fraudulent compliance reports as the substantive danger.
+- YC’s customer network depends on member trust → one vendor’s failure can impose legal and reputational risk across the cohort.
+- Compliance markets contain auditor conflicts and theater → that broader weakness does not excuse a provider’s own controls.
 
 ### LLM perspective
-- View: AI tools in compliance amplify both efficiency and potential fraud; independent human auditors and verifiable trails become more important, not less.  
-- Impact: Startups will scrutinize compliance vendors harder; accelerators may temper “buy from your batch” cultures with clearer risk disclaimers.  
-- Watch next: Regulator attention to AI-powered audits, industry standards for automated evidence collection, and OSS projects tightening enforcement against commercial misuse.
+
+- **View:** Removal from a network is secondary; evidence quality and auditor independence determine whether customer certifications remain trustworthy.
+- **Impact:** Delve customers may need reassessment, while YC must defend the reliability of referrals within its community.
+- **Watch next:** YC or Delve statements, affected audit remediation, regulator action, customer notifications, and independently verified report comparisons.
