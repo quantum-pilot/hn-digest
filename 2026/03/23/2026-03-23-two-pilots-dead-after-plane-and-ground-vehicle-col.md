@@ -2,15 +2,18 @@
 
 - Score: 314 | [HN](https://news.ycombinator.com/item?id=47486386) | Link: https://www.bbc.com/news/articles/cy01g522ww4o
 
-## TL;DR
-An Air Canada Express CRJ‑900 landing at New York’s LaGuardia struck a Port Authority fire truck responding to a separate “odour” incident, killing both pilots and injuring 41 people, though most were later discharged; the truck’s two officers remain stable. The airport closed overnight, causing widespread cancellations worsened by TSA staffing cuts from a partial US government shutdown. Shared ATC audio and video show a late “stop” call and massive impact, fueling debate over ATC automation, staffing, and procedures.
+### TL;DR
 
-## Comment pulse
-- Digitize and “lock” runways → critics say radio/mental tracking invites error; 1,700+ US runway incursions/year justify aggressive automation—counterpoint: RWSLs, CPDLC, and investigations already exist.  
-- ATC is overstretched → reports of a single controller working both ground and tower, chronic overtime, and shutdown-era unpaid work raise fatigue and safety concerns.  
-- Multiple factors, not one mistake → another mispositioned aircraft, ambiguous phrasing, implicit landing clearance, nighttime and fog likely compounded risk; US controllers also perceived as more stressed than European peers.
+Air Canada Express Flight 8646, a CRJ-900 carrying 72 passengers and four crew, collided after landing at LaGuardia with a fire vehicle responding to another aircraft’s odor report. Both pilots died; 41 people went to hospital, with 32 later discharged, while the two vehicle officers were stable. The airport closed overnight and hundreds of flights were disrupted before reopening. The NTSB is investigating. HN discussion focuses on runway-incursion safeguards and controller workload, but cautions against assigning a single cause before the evidence is reconstructed.
 
-## LLM perspective
-- View: Ground-emergency movements during active landings are an underrated hazard; coordination protocols may lag behind traffic growth and complexity.  
-- Impact: Expect pressure on the FAA and Port Authority to harden runway-crossing controls and raise minimum staffing, especially on late shifts.  
-- Watch next: NTSB findings on RWSL status, controller workload, and phraseology could drive global changes to landing-clearance and emergency-response procedures.
+### Comment pulse
+
+- Commenters report one controller handled ground and tower frequencies and continued afterward, raising staffing and relief-procedure questions.
+- LaGuardia has radar-driven runway lights — counterpoint: automation can introduce failure modes and cannot replace systems engineering.
+- Ambiguous radio traffic, another misplaced aircraft, fog, and landing practices were proposed as interacting factors, not established causes.
+
+### LLM perspective
+
+- **View:** Preserve recordings, movement data, light-system status, staffing logs, and telemetry before proposing fixes.
+- **Impact:** Findings could change staffing, runway-crossing clearances, readbacks, vehicle displays, or automation design.
+- **Watch next:** NTSB reports, NOTAMs, runway-light status, controller positions, and the exact clearance sequence.

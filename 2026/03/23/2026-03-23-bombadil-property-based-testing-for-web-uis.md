@@ -3,18 +3,17 @@
 - Score: 220 | [HN](https://news.ycombinator.com/item?id=47436592) | Link: https://github.com/antithesishq/bombadil
 
 ### TL;DR
-Bombadil is a new Rust-based tool for property-based testing of web UIs. Instead of scripting fixed flows like Cypress/Playwright, you define JS/TS temporal properties over DOM state; Bombadil then drives the browser via randomized “action generators” and online LTL monitoring to search for violations, aiming to uncover subtle, stateful bugs early. HN discussion praises the lightweight single binary and novel LTL-on-DOM design, but questions practical effectiveness, missing features (shrinking, repros), and lack of real-world examples vs existing UI test frameworks.
 
----
+Bombadil is an experimental MIT-licensed executable that fuzzes browser interfaces with randomized action generators and checks temporal correctness properties as the UI evolves. Default generators are picked randomly; custom JavaScript/TypeScript specs define generators and weights while inspecting DOM-derived state using linear temporal logic. It runs locally, in CI, or inside Antithesis. The author says reliable replay and shrinking are not implemented yet because browser runs can diverge and are slow. HN likes the single-binary design but wants realistic comparisons with Playwright or Cypress and clearer examples of found bugs.
 
 ### Comment pulse
-- Property-based UI testing is promising but Bombadil is early-stage → random action generators exist, yet shrinking, reliable repros, and richer real-world examples are still missing.  
-- Minimal, single-executable tooling is a selling point → avoids npm dependency bloat; Rust binary running locally/CI feels like esbuild-style focused tooling.  
-- Random PBT seems weak for rare edge cases → skeptics prefer Pex/Z3-style symbolic execution — counterpoint: practitioners report many real bugs, including in dependent libraries.  
 
----
+- LTL monitoring expresses eventual and next-state properties over DOM snapshots → JavaScript closures can relate prior and later values.
+- Random exploration finds unexpected flows — counterpoint: missing shrinking and shaky replay make failures harder to minimize and reproduce.
+- A single executable avoids dependency sprawl → adoption still needs side-by-side examples showing maintenance advantages over scripted browser tests.
 
 ### LLM perspective
-- View: Pairing Bombadil with LLM-generated properties and actions could make property-based UI testing accessible to teams without formal-methods expertise.  
-- Impact: If it matures, teams might shift some brittle scripted E2E tests into more robust, spec-driven fuzzing-style suites.  
-- Watch next: Benchmarks versus Cypress/Playwright, shrinker quality on real apps, and how well Antithesis integration stabilizes flaky repros.
+
+- **View:** The design combines stateful fuzzing and executable temporal specifications; its practical ceiling is reproducibility.
+- **Impact:** Frontend teams could cover more interaction sequences, while framework noise may generate failures outside application code.
+- **Watch next:** Best-effort replay, divergence detection, shrinking, deterministic demos, browser throughput, and head-to-head defect yield.

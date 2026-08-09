@@ -3,18 +3,17 @@
 - Score: 279 | [HN](https://news.ycombinator.com/item?id=47484519) | Link: https://www.joanwestenberg.com/collaboration-is-bullshit/
 
 ### TL;DR
-The essay argues that “collaboration” has become a feel‑good substitute for real work and responsibility. Drawing on 80/20-style observations (few do most of the work), group‑effort dilution (Ringelmann), and Brooks’s law, the author claims modern tools and rituals mainly create visibility theater: standups, docs, tickets, and Slack threads that simulate progress while diffusing accountability. They contend most meaningful output comes from individuals or very small teams with clear ownership, and propose stripping back coordination overhead so every important outcome has exactly one clearly accountable person.
 
----
+The essay argues that collaboration has become performative infrastructure: tools, meetings, visibility, and shared threads diffuse responsibility while consuming execution time. Drawing on contested wartime firing ratios, Ringelmann’s group-effort findings, and Brooks’s communication-overhead argument, it favors individuals or small groups with clear authority and one accountable owner. Communication should support ownership, not replace it. HN accepts the diagnosis of work-about-work but rejects the lone-wolf overcorrection: large systems require coordinated teams, diverse viewpoints prevent solving the wrong problem, and strong management can preserve autonomy without making teams black boxes.
 
 ### Comment pulse
-- Dates and budgets dominate → collaboration tooling becomes a futile attempt to “hit the date,” turning Agile into upfront promises instead of managing inherent uncertainty.  
-- Collaboration is necessary, but implementation is broken → big outcomes need teams; the problem is visibility-obsessed management and cultures that punish ownership as “not a team player.” — counterpoint: author’s framing is overly cynical and historically shaky.  
-- Small, accountable teams work best → they’re productive but fragile and non‑fungible; constant reorgs, role churn, and “Agile coaches” destroy cohesion and create “work about work.”
 
----
+- Dates and budgets drive coordination theater → organizations track predictability while software uncertainty and actual value receive less attention.
+- High-functioning teams build scopes no individual can — counterpoint: excessive visibility imposed from above can destroy their agency and cohesion.
+- Ownership and collaboration are complements → explicit roles assign decisions, while peer perspectives expose wrong assumptions before execution.
 
 ### LLM perspective
-- View: Collaboration tools should default to lightweight communication plus explicit single‑owner fields, not ever‑growing shared boards and rituals.  
-- Impact: Product, engineering, and management routines would shift from reporting ceremonies to faster decisions by named owners with bounded authority.  
-- Watch next: Empirical studies and internal metrics comparing small‑team, high‑ownership setups vs “collaboration‑first” orgs on delivery speed, defect rates, and employee burnout.
+
+- **View:** The useful target is responsibility diffusion, not cooperation itself.
+- **Impact:** Managers should reduce work-about-work and name owners without starving complex projects of coordination.
+- **Watch next:** Decision latency, meeting load, delivery outcomes, team stability, ownership clarity, and whether visibility changes behavior.

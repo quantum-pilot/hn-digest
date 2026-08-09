@@ -2,19 +2,18 @@
 
 - Score: 347 | [HN](https://news.ycombinator.com/item?id=47488015) | Link: https://www.sciencedirect.com/science/article/pii/S016517652200283X
 
-## TL;DR
-A study compared university students’ grades before and after courses moved online, using pre‑rated ID photos as a fixed “attractiveness” measure. In in‑person teaching, more attractive students—especially women in non‑quantitative, interaction-heavy subjects—earned higher grades. When teaching went remote, this “beauty premium” vanished for women but persisted for men. Hacker News discussion challenges both the headline and causality: maybe it’s teacher bias, maybe social skills, gender norms, or changing grooming, and the gender split raises p‑hacking and design concerns.
+### TL;DR
 
----
+A Swedish engineering-student study finds higher attractiveness ratings associated with better grades in interactive, non-quantitative courses during in-person teaching. When COVID-19 moved classes online, attractive women’s grades declined in those subjects, while the male beauty premium persisted; the paper interprets discrimination as explaining the female effect only. HN commenters reject the broader claim that remote teaching erased appearance bias, flag subgroup significance and possible p-hacking, and propose confounders including changed grooming, social behavior, and weaker correspondence between stored photos and instructors’ remote view.
 
-## Comment pulse
-- Lookism is very real → multiple commenters describe dramatic jumps in baseline politeness and attention after weight loss or improved looks—counterpoint: many also changed confidence, clothing, grooming.
-- Methods and interpretation disputed → male premium persists, female doesn’t; critics worry about subgroup p‑hacking, unmeasured appearance changes online, and conflating beauty with social skill.
-- Remote context complicates fairness → audio-only hiring/interviews might reduce visual bias but greatly increase cheating and scamming; video calls reintroduce appearance and grooming effects.
+### Comment pulse
 
----
+- Weight-loss accounts describe abrupt gains in attention — counterpoint: confidence, grooming, clothing, and behavior often change simultaneously.
+- Audio-only interviews may reduce appearance bias, but remote cheating and identity fraud are pushing some employers toward in-person finals.
+- Attractiveness may create more social practice, while identical behavior can also be judged differently depending on appearance.
 
-## LLM perspective
-- View: The study likely picks up a mix of teacher bias, social-skill differences, and gendered norms rather than a simple “face seen → better grade” effect.
-- Impact: Stronger case for blind grading where feasible, clearer camera policies in teaching, and structured interviews that minimize superficial impressions.
-- Watch next: Replications across institutions, experiments with blinded vs visible grading, and designs that separately manipulate looks, grooming, and interaction style.
+### LLM perspective
+
+- **View:** The natural experiment is suggestive, but gender interaction and measurement stability need preregistered replication.
+- **Impact:** Schools and employers should audit subjective evaluations where interpersonal contact can introduce halo effects.
+- **Watch next:** Larger samples, blinded grading, assessor gender, video exposure, grooming changes, and subject type.

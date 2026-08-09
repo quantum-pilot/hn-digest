@@ -3,18 +3,17 @@
 - Score: 143 | [HN](https://news.ycombinator.com/item?id=47443903) | Link: https://iev.ee/blog/the-quadratic-problem-nobody-fixed/
 
 ### TL;DR
-Modern “linear-time” regex engines (RE2, Rust `regex`, .NET non-backtracking, etc.) are only linear for a single match. When you iterate to find *all* non-overlapping matches, the standard “find, advance, repeat” loop can become Θ(m·n²) in the worst case (e.g., `.*a|b` over long `b…b`), even for DFA-based engines. Ian Varatalu’s RE# fixes this by using a reverse pass to mark possible start positions and a forward pass to resolve leftmost-longest matches, plus an optional hardened mode that guarantees true linear time without changing semantics, at a constant-factor cost. RE# also competes with Aho–Corasick and Rust’s `regex` on throughput, but currently omits capture groups and lazy quantifiers.
 
----
+Many linear-time regex engines become quadratic when finding leftmost-longest matches: at each position, a failing long alternative can rescan the remaining input before a short alternative succeeds. RE# instead uses a reverse pass to mark starts and a forward pass to resolve endings. Its opt-in hardened mode keeps all-match semantics in O(n×S), where S is active DFA states, but costs roughly 3–20× on text and currently rejects lookarounds. HN notes practical patterns often have clear boundaries and cites NFA engines that appear linear, challenging the universal claim.
 
 ### Comment pulse
-- Alternative NFAs (bablr, nim-regex) claim linear-time all-matches → avoid quadratic behavior, but trade throughput for memory and complexity; often unsuitable for huge inputs.  
-- Safety via sandboxing → cap time/memory and abort misbehaving regexes; author counters that semantics-preserving algorithms can often avoid needing such coarse controls.  
-- “Real” regexes rarely hit worst-case → practical patterns have clear boundaries; author replies backtracking still frequently explodes without strong anchors or rare prefixes.
 
----
+- The pathology is distinct from exponential backtracking → even DFA-style repeated search can revisit suffixes once per reported match.
+- Sandboxing arbitrary patterns limits time and memory — counterpoint: feature restrictions and hardened algorithms can provide stronger predictable guarantees.
+- bablr/regex and nim-regex reportedly scale linearly in examples → RE#’s first-engine claim needs comparison across semantics, captures, and memory use.
 
 ### LLM perspective
-- View: RE# demonstrates that full leftmost-longest, all-matches linearity is attainable, challenging long-standing assumptions in both theory and libraries.  
-- Impact: Most relevant to log search, security scanning, and tools executing untrusted patterns at scale or in latency-sensitive paths.  
-- Watch next: Wider benchmarks, language bindings, capture-group design, and whether mainstream engines adopt two-pass or hardened modes.
+
+- **View:** The contribution is preserving leftmost-longest output under adversarial iteration, not merely avoiding backtracking.
+- **Impact:** Log search and extraction can avoid silent quadratic latency; common workloads may prefer the faster unhardened path.
+- **Watch next:** Independent benchmarks, proof scope, capture groups, lookaround support, automatic hardening inference, streaming, and NFA comparisons.

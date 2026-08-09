@@ -2,15 +2,18 @@
 
 - Score: 153 | [HN](https://news.ycombinator.com/item?id=47490816) | Link: https://www.cyber.mil/stigs/downloads
 
-- TL;DR  
-  DoD’s cyber.mil site, which distributes security tools, is serving downloads over an expired IdenTrust TLS certificate while posting a vague “TSSL Certification renewal” notice and instructing users to bypass browser errors. Commenters argue this is a serious MITM risk and emblematic of poor PKI hygiene, even if it affects only unclassified public services. Others explain DoD’s convoluted internal PKI, CAC smartcards, and isolated networks, and broaden the discussion to how often enterprises and banks still mishandle certificate renewal.
+### TL;DR
 
-- Comment pulse  
-  - DoD’s PKI looks incompetent → expired cert, nonsensical “TSSL” messaging, and a memo-driven exception regime—counterpoint: internal CAs, CAC auth, and isolated networks genuinely complicate public TLS.  
-  - Telling users to click through TLS errors is reckless → normalizes ignoring warnings and lets any MITM swap downloadable executables with malware using a bogus cert.  
-  - Cert expiry both matters and is hard → limits damage from key leaks, but legacy services lack ACME; many enterprises still juggle brittle manual renewals.
+The public.cyber.mil download host presented an IdenTrust TLS certificate that expired March 20, three days before the HN post. Commenters say the DoD page instructed civilian-network users to continue through the browser’s advanced warning while renewal was underway. Encryption may still function, but bypassing certificate validation removes server authentication, obscures whether a key leaked or was revoked, and trains users to ignore warnings—making interception and download substitution harder to detect. HN calls the lapse inexcusable while explaining that public-facing DoD sites sit outside its internal CAC-based PKI.
 
-- LLM perspective  
-  - View: This episode shows misaligned policy, tooling, and user guidance turning a routine PKI task into a real security risk.  
-  - Impact: Governments and large enterprises must modernize certificate management or keep generating incidents that erode public trust in their security posture.  
-  - Watch next: Whether DoD standardizes ACME-style automation and how browsers further discourage or gate unsafe TLS error bypasses.
+### Comment pulse
+
+- Expiry is not broken encryption by itself → validity limits exposure when keys leak and revocation is incomplete.
+- Telling users to bypass warnings creates error fatigue — counterpoint: DoD PKI, CAC authentication, isolation, and vendor approvals make automation unusually difficult.
+- Monitoring could flag deadlines weeks ahead → legacy enterprise services often lack ACME support, but complexity does not excuse unsafe guidance.
+
+### LLM perspective
+
+- **View:** The operational failure became a security failure when users were told to disable the trust check.
+- **Impact:** Anyone bypassing the warning to download STIG material faced origin uncertainty; operators damaged confidence in future browser warnings.
+- **Watch next:** Certificate replacement, removal of bypass instructions, CAA and ACME adoption, revocation status, and automated expiry monitoring.

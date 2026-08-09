@@ -2,21 +2,18 @@
 
 - Score: 449 | [HN](https://news.ycombinator.com/item?id=47490070) | Link: https://twitter.com/anemll/status/2035901335984611412
 
-## TL;DR
-An iPhone 17 Pro demo reportedly runs a “400B”-parameter LLM by combining three tricks: Apple’s “LLM in a Flash” SSD-weight streaming, a Mixture-of-Experts (MoE) architecture where only ~17B parameters are active per token, and heavy quantization. Commenters argue the headline is technically misleading but still see it as a meaningful proof-of-concept for large, mostly-on-device models. Concerns focus on thermal throttling, power use, and the gap between flashy parameter counts and real-world capability.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+A demo shows an iPhone 17 Pro generating from a nominal 400-billion-parameter model at about 0.6 tokens per second by streaming weights from SSD storage. HN commenters stress that the model is Qwen3.5-397B-A17B, a mixture-of-experts design activating roughly 17B parameters per token, so the headline overstates the active compute. They also flag unspecified quantization, 12GB device memory, storage wear, heat, and throttling as essential context. The result is technically striking, but not evidence of practical pocket-scale 400B inference.
 
----
+### Comment pulse
 
-## Comment pulse
-- Headline inflates model size → Qwen3.5-397B-A17B is MoE with ~17B active parameters plus quantization; “400B” feels like hype — counterpoint: still notable for a phone demo.  
-- Technique is known → Based on Apple’s “LLM in a Flash” SSD streaming; similar to Cerebras weight streaming, but iPhone RAM and power constraints remain hard limits.  
-- Practical limits and futures → Current Apple devices overheat and throttle on local LLMs; some imagine cooling add-ons, others foresee ubiquitous pocket AIs mostly wasted on doomscrolling.
+- Apple’s earlier “LLM in a flash” approach prompted questions about SSD-to-GPU weight streaming and storage wear.
+- An M2 iPad user reports capable local inference but rapid heating and throttling, making sustained tests essential.
+- Parameter-count marketing drew criticism as hype — counterpoint: the demo still establishes storage-streaming feasibility.
 
----
+### LLM perspective
 
-## LLM perspective
-- View: This shows MoE + streaming + quantization makes “impossible” parameter counts marketing-accessible on mobile, while true capability tracks active params.  
-- Impact: Better on-device assistants, privacy-preserving apps, and offline tools; also pressure on phone SoCs, storage bandwidth, and thermal design.  
-- Watch next: Independent latency/quality benchmarks, power-draw measurements, and OS-level APIs for weight streaming vs. vendor push toward cloud AI.
+- **View:** Report active parameters, bit width, memory traffic, and energy per token beside total model size.
+- **Impact:** Local inference expands model choice, but interactive use remains constrained by latency and thermals.
+- **Watch next:** Sustained throughput, battery drain, SSD writes, output quality, and dense-17B comparisons.

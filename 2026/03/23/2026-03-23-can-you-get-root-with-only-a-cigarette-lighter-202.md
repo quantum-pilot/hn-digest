@@ -3,18 +3,17 @@
 - Score: 173 | [HN](https://news.ycombinator.com/item?id=47453462) | Link: https://www.da.vidbuchanan.co.uk/blog/dram-emfi.html
 
 ### TL;DR
-Buchanan shows you can do practical electromagnetic fault injection (EMFI) with a €1 cigarette‑lighter piezo igniter instead of lab gear. The piezo’s high‑voltage spike, aimed near DDR memory lines, occasionally corrupts or blocks individual writes. By arranging sensitive data structures (e.g., JavaScript engine objects, kernel metadata) at precise physical addresses and repeatedly glitching, he turns rare bitflips into powerful exploit primitives (addrof/fakeobj, kernel pwn). It works on LPDDR4/5 and ARM, but newer consoles with memory encryption blunt simple bitflip attacks.
 
----
+A 2011 laptop gained a root shell after a piezoelectric lighter induced repeatable DDR bus bit flips through a wire soldered to one data pin. The exploit filled half of RAM with level-zero page tables, forced uncached translations, corrupted a page-table entry, then gained physical-memory read/write access and replaced the cached first page of the setuid su binary. Reliability was roughly 50% over SSH with the screen off and 20% in a graphical session, with frequent crashes. Later tests reportedly extended the technique to LPDDR4/5 and ARM.
 
 ### Comment pulse
-- Research scope → Works on LPDDR4/5, ARM; piezo is a cheap EMFI source; electronic version via fast mux ICs or commercial tools like ChipSHOUTER.  
-- Consoles & mitigations → Switch kernel can be pwned; Switch 2’s memory encryption makes single‑bit flips useless—counterpoint: full‑write blocking glitches might still be exploitable.  
-- Culture & standards → People reminisce about “glitching” vending machines; others gripe that JEDEC paywalls the DDR specs needed to study and harden against these attacks.
 
----
+- The lighter supplies only the electromagnetic fault → careful antenna placement, memory spraying, cache eviction, and exploit logic create privilege escalation.
+- Random interference is unreliable — counterpoint: targeting a data line made one bit predictable enough for repeated exploitation.
+- Follow-up work reached Switch 1 and WebKit primitives → Switch 2 memory encryption makes one flip corrupt an entire cache line.
 
 ### LLM perspective
-- View: This turns “lab‑only” EMFI into a kitchen‑table attack, shrinking the gap between academic hardware hacking and real‑world exploitation.  
-- Impact: SoC vendors and browser/console teams must treat low‑cost physical attackers as realistic, not hypothetical, especially for jailbreak and DRM scenarios.  
-- Watch next: Compare EMFI robustness of memory encryption schemes, evaluate ECC/rowhammer defenses against targeted glitches, and standardize affordable EMFI test setups for product security reviews.
+
+- **View:** This is a physical fault-injection demonstration, not a remotely exploitable software vulnerability.
+- **Impact:** Attackers with device access can challenge memory-isolation assumptions; consumer hardware may lack defenses against deliberate glitches.
+- **Watch next:** ECC behavior, DDR4/5 variants, electronic triggering, hypervisor escape, memory encryption, and reproducibility across platforms.

@@ -3,18 +3,17 @@
 - Score: 244 | [HN](https://news.ycombinator.com/item?id=47493460) | Link: https://ykumar.me/blog/eclip-autoresearch/
 
 ### TL;DR
-An ML researcher wired Karpathy’s Autoresearch loop into an old eCLIP-style vision–language model, letting Claude Code autonomously edit `train.py`, run 5‑minute experiments, and accept/revert changes. Under tight sandboxing and a new Ukiyo-e dataset, the agent mostly did bug fixing and hyperparameter tuning, cutting mean rank by 54% and achieving strong Recall@5, but architectural “moonshots” largely failed. HN sees this as an emerging pattern: LLMs as automated, semi-smart hyperparameter/experimentation engines—useful, but far from fully autonomous research.
 
----
+A researcher revived an older eCLIP project and let Claude Code run a constrained hypothesize-edit-train-evaluate loop on roughly 11,000 annotated Japanese prints. Across 42 short experiments on one RTX 4090, it committed 13 changes, reverted 29, and cut validation mean rank from 344.68 to 157.43; full training reached 34.30 test mean rank. The largest gain came from fixing a temperature clamp, then hyperparameter tuning, while architectural and moonshot ideas mostly failed. HN sees a reasoning-guided optimization tool whose value depends on cheap experiments, clear metrics, and sandboxing.
 
 ### Comment pulse
-- LLMs help surface prior art and ideas but most suggestions are noisy; automation only pays off when experiments are cheap and fast.  
-- Autoresearch is essentially a loop around a single prompt file (program.md) directing iterative edits, training, eval, and revert/commit.  
-- Debate: classic AutoML/HPO exists, but LLMs can read code, papers, and curves to make more informed trial choices—counterpoint: still unclear if this beats tuned grid/random search.
 
----
+- Overnight search turns low-value suggestions into useful discoveries → it works only when trials are fast enough to waste.
+- The loop resembles hyperparameter optimization with contextual judgment → unlike blind search, an LLM can inspect code and prior techniques.
+- Extensive prompts and permissions invite skepticism — counterpoint: targeted scaffolding produced measurable gains while limiting arbitrary code and network access.
 
 ### LLM perspective
-- View: Treat agents as tireless junior researchers for bug-hunting and HPO, not as creative theorists or architecture designers.  
-- Impact: Small ML teams with spare GPU cycles gain leverage by automating low-level experimentation and sanity-checking old codebases.  
-- Watch next: Standardized Autoresearch benchmarks, comparisons vs Optuna/BO, and better safety/sandbox patterns for long-running autonomous loops.
+
+- **View:** The result demonstrates efficient bug-finding and tuning, not autonomous discovery in open-ended research.
+- **Impact:** Researchers can delegate repetitive experiments while retaining metric design, dataset choices, safety boundaries, and final interpretation.
+- **Watch next:** Held-out replication, median-rank optimization, compute and token costs, multi-change planning, longer runs, and comparisons with AutoML baselines.

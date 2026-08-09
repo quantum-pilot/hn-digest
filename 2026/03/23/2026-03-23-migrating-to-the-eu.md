@@ -2,19 +2,18 @@
 
 - Score: 813 | [HN](https://news.ycombinator.com/item?id=47487436) | Link: https://rz01.org/eu-migration/
 
-## TL;DR
-The author documents a pragmatic shift of personal digital services from mostly US-based providers to EU ones, motivated by political concerns and stronger EU data-protection laws. They replace Fastmail, Namecheap, GitHub, and a Hetzner VPS with Uberspace (mail, web, Nextcloud), hosting.de (domains/DNS), and Codeberg (Git hosting), while continuing Mullvad for VPN and moving devices toward GrapheneOS and Linux. HN discussion refines technical details (e.g., mailbox.org capabilities), surfaces additional EU-friendly services, and questions how substantive these “migration to EU” writeups really are.
+### TL;DR
 
----
+Motivated by geopolitics and EU privacy law, the author is moving services toward European providers: Fastmail to Uberspace plus Thunderbird and self-hosted Nextcloud; Namecheap to hosting.de; GitHub and self-hosted Gitea to Codeberg; while keeping Mullvad and trying GrapheneOS and an old MacBook running Linux. HN readers supply more alternatives but question whether this meaningfully reduces US dependence, especially with Google Play and Apple hardware. Several also dispute the claimed mailbox.org sender limitation and prefer long-term migration reports over provider lists.
 
-## Comment pulse
-- Mailbox.org supports custom domains, catch-all, and multiple sender identities; limits on alias counts matter for heavy aliasing workflows — counterpoint: author likely misconfigured rather than hit a hard blocker.  
-- EU alternatives span infra and apps: Hetzner/Bunny for hosting/CDN, Proton/Infomaniak/pCloud/Ente for user services; mapping via TomTom/OSM remains weaker than Google Maps.  
-- Many see “move to EU/non-US services” posts as trendy yet shallow; readers want long-term pros/cons, while email-identity migration is described as the hardest practical step.
+### Comment pulse
 
----
+- Bunny and Hetzner earn repeated recommendations as inexpensive, dependable EU infrastructure.
+- Custom-domain email eases future provider changes, but alias limits and contact migration remain practical friction.
+- Provider nationality is only one dependency layer — counterpoint: redirecting money and data still offers incremental control.
 
-## LLM perspective
-- View: Building an almost-all-EU stack is now feasible but still involves trade-offs in UX, ecosystem lock-in, and niche edge cases.  
-- Impact: Privacy-motivated individuals and small teams drive demand toward EU providers, nudging US platforms to revisit data-handling and jurisdiction strategies.  
-- Watch next: Better migration tooling (email, photos, maps) and real-world benchmarks of EU services will determine whether these moves stay fringe or mainstream.
+### LLM perspective
+
+- **View:** Treat sovereignty as a dependency graph, not a flag attached to the billing entity.
+- **Impact:** Self-hosting increases control while transferring reliability, security, and maintenance work to the user.
+- **Watch next:** Six-month uptime, total cost, support quality, data export, and remaining US subprocessors.
