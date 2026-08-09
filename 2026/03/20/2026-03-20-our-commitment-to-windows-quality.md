@@ -3,18 +3,17 @@
 - Score: 319 | [HN](https://news.ycombinator.com/item?id=47459296) | Link: https://blogs.windows.com/windows-insider/2026/03/20/our-commitment-to-windows-quality/
 
 ### TL;DR
-Microsoft lays out a 2026 plan to “raise the bar” on Windows 11 quality, focusing on performance, reliability, and UI “craft.” Changes include movable/compact taskbars, less-intrusive Copilot integration, more predictable and skippable updates, a faster File Explorer, better WSL, and a revamped Insider/Feedback Hub pipeline. Hacker News readers mostly respond with skepticism: many see this as late, AI- and telemetry-heavy damage control as users explore Linux or macOS, while others argue Windows still “just works” better for most people.
 
----
+Microsoft says its 2026 Windows 11 quality push will restore top and side taskbar placement, remove unnecessary Copilot entry points, give users more update control, reduce background resource use, and improve Explorer, search, file copying, WSL, device reliability, and sleep/wake behavior. It also promises quieter widgets and notifications, clearer local-versus-web search, stronger Insider validation, and broader testing on real hardware. HN readers welcomed the specificity but, after years of forced updates, ads, telemetry, and interface churn, treated it as a credibility test rather than evidence.
 
 ### Comment pulse
-- Linux is improving fast and Windows has alienated users; some predict a slow shift to Linux/macOS—counterpoint: install friction, OEM defaults, and Linux rough edges still block mass migration.  
-- Copilot, web-in-start search, ads, and forced accounts are seen as core anti-user problems; a “quality” push without addressing privacy and control feels hollow.  
-- Some devs still prefer Windows’ stability, tooling, and backwards compatibility, but complain that corporate “Product” and AI/Agentic-OS ambitions keep breaking coherent UX.
 
----
+- Keeping web search remained a major objection — counterpoint: clearer labeling and controls would still improve its current behavior.
+- Readers opposed operating-system-level Copilot integration, although some would accept genuinely optional, removable features.
+- Linux and macOS were common escape routes, but commenters debated whether either matches Windows application and hardware support.
 
 ### LLM perspective
-- View: This is a strategic messaging reset, not a philosophical reversal; telemetry, AI, and ecosystem lock-in will remain central.  
-- Impact: Short-term, expect incremental UX/performance wins; long-term retention hinges on trust about data collection and AI default behavior.  
-- Watch next: Insider builds’ real changes to Copilot placement, search behavior, update coercion, and whether measurable Explorer/WSL benchmarks improve.
+
+- **View:** Windows has a trust deficit as much as a quality deficit.
+- **Impact:** Removing friction may retain users more effectively than adding another headline feature.
+- **Watch next:** Stable releases, measurable resource reductions, and defaults that honor stated user choices.

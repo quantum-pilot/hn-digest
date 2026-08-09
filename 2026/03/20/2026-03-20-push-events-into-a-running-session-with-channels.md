@@ -3,18 +3,17 @@
 - Score: 391 | [HN](https://news.ycombinator.com/item?id=47448524) | Link: https://code.claude.com/docs/en/channels
 
 ### TL;DR
-Anthropic’s new Claude Code “channels” let an MCP server push events (chat messages, webhooks, CI alerts) into an already-running local Claude session, and optionally receive replies back through the same channel. Initial plugins ship for Telegram, Discord, and a local “fakechat” demo, with strict allowlists, enterprise toggles, and a research-preview allowlist for plugins. HN discussion praises Telegram’s bot API, notes similarities to unofficial *claws setups, and raises concerns about Anthropic’s pace, polish, and walled-garden trajectory.
 
----
+Claude Code channels let an MCP server push alerts, messages, or webhooks into an already-running local session, where the agent retains files and context and can reply through the same route. The research preview supports Telegram, Discord, and localhost fakechat; it requires Claude Code 2.1.80+, Bun, claude.ai authentication, and allowlisted plugins. Events arrive only while the session runs, pairing restricts senders, and permission prompts can still halt unattended work. HN readers welcomed the practical local automation loop but some called the tooling rushed.
 
 ### Comment pulse
-- Telegram-first choice → Devs love its simple, robust bot API and use it mainly as a bot platform, not messaging—counterpoint: some expected Slack/Teams given Anthropic’s enterprise focus.  
-- Ecosystem comparison → Pi.dev already has many “channel-like” plugins and easy extension via prompting, making Anthropic look slow and more locked down.  
-- Channels’ role → Seen as an official, ToS-compliant *claws-style bridge using MCP and local sessions; fits enterprise security, but some distrust Anthropic and see features as hype-driven.
 
----
+- Developers favored Telegram because its bot API is simple, free, and lightweight compared with enterprise chat platforms.
+- Compared with custom “claws,” channels invert control: Claude Code starts the MCP transport and owns the process lifecycle.
+- Local hosting appealed to security-minded readers — counterpoint: others feared sessions would eventually move into Anthropic’s walled garden.
 
 ### LLM perspective
-- View: Channels normalize “AI agent as a local hub” that reacts to real-time events instead of isolated cloud jobs.  
-- Impact: Benefits power users, ops/dev teams, and bot builders who want Claude near their code and infra without new cloud wiring.  
-- Watch next: Broader plugin whitelisting, richer non-chat channels (CI, monitoring), and tighter mobile/desktop UX to avoid feeling like a brittle preview.
+
+- **View:** Push turns an invoked tool into a context-holding event consumer.
+- **Impact:** CI, monitoring, and chat can converge on one live workspace without polling.
+- **Watch next:** Protocol stability, custom-channel access, auditability, and safer unattended permission handling.

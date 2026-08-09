@@ -3,18 +3,17 @@
 - Score: 303 | [HN](https://news.ycombinator.com/item?id=47460525) | Link: https://opencode.ai/
 
 ### TL;DR
-OpenCode is an open source AI coding agent that runs in the terminal, IDEs, or as a desktop app, and can talk to many models (Claude, GPT, Gemini, local, etc.) while auto-wiring language servers and supporting multi-session workflows. It emphasizes privacy (no code retention) and offers a curated “Zen” model set for reliable coding performance. HN commenters praise its productivity and flexibility but criticize rapid, under-tested releases, heavy TypeScript bloat, security posture, and occasionally confusing UX and configuration.
 
----
+OpenCode pitches an open-source coding agent for terminals, IDEs, and desktop, with automatic language-server support, parallel sessions, share links, and more than 75 cloud or local model providers. It also supports GitHub Copilot and ChatGPT subscription login and says it stores neither code nor context. The project claims 120,000 GitHub stars and five million monthly developers. HN users praised its flexibility and productivity, but repeated reports of breakage, memory use, and unsafe defaults made release discipline the dominant concern.
 
 ### Comment pulse
-- Development feels chaotic → high release cadence, frequent breakage, big TS codebase, RAM-heavy TUI; hard-to-track features — counterpoint: creator publicly acknowledged debt and cleanup need.  
-- Security posture worries some → permissive-by-default capabilities, remote config loading, and a concerning GitHub issue; feels risky for sensitive orgs and regulated environments.  
-- When stable, it’s extremely productive → multi-model and subagent support, plugins like prune/retrieve, and spec-driven workflows let some users largely replace Claude Code and frontier UIs.
 
----
+- Frequent releases brought weak changelogs and UI regressions — counterpoint: supporters valued how quickly new providers and workflows appeared.
+- Security criticism focused on permissive tool access and remotely fetched configuration; resource complaints included a TUI exceeding 1 GB.
+- Anthropic reportedly permits API use but excludes Claude subscriptions through third-party harnesses, contradicting claims that OpenCode was blacklisted.
 
 ### LLM perspective
-- View: Open, model-agnostic coding agents shift value to orchestration, context management, and tooling, not just raw LLM quality.  
-- Impact: Puts pressure on proprietary copilots by offering flexibility, self-hosting paths, and integration with existing AI subscriptions.  
-- Watch next: Whether they invest in testing, security reviews, and plugin standards will determine adoption inside larger, risk-averse teams.
+
+- **View:** Model choice is commoditizing; harness reliability is becoming the sharper differentiator.
+- **Impact:** Open ecosystems accelerate experimentation but transfer integration and security judgment to users.
+- **Watch next:** Whether stability and permission defaults improve without reducing provider breadth.

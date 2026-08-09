@@ -2,15 +2,18 @@
 
 - Score: 710 | [HN](https://news.ycombinator.com/item?id=47450478) | Link: https://www.science.org/content/article/arxiv-pioneering-preprint-server-declares-independence-cornell
 
-- TL;DR  
-  - arXiv will leave Cornell on 1 July 2026 to become an independent nonprofit, aiming to broaden funding, handle ~300k annual submissions, and better police AI‑generated junk. Cornell and major donors are seeding it with several years of runway. Supporters see a chance for more sustainable, modern infrastructure; skeptics fear mission drift, commercialization, and a CEO‑driven bureaucracy, especially as arXiv already functions as a primary publication venue in some fields, challenging traditional peer‑reviewed journals.
+### TL;DR
 
-- Comment pulse  
-  - arXiv should remain a minimal “PDF host,” not a de‑facto venue → spin‑out plus new policies, especially in ML, feel like centralization and mission drift.  
-  - Community splits on moderation: some want minimal filtering plus citation‑based ranking; others say LLM spam and grifters require stricter gates to keep arXiv usable.  
-  - Proposed $300k CEO salary splits opinion → some see necessary US‑market rate; others call it excessive for a “glorified folder” funded by donors.
+After more than two decades at Cornell, arXiv will become an independent nonprofit on July 1. Leaders say the change should diversify funding as annual submissions approach 300,000, up 50% since 2022, while preserving service and avoiding immediate member-fee increases. Cornell and the Simons Foundation have raised enough for several years of operation despite a $6.7 million annual budget and a recent deficit. HN welcomed durable stewardship but worried that heavier moderation, executive compensation, and organizational ambition could turn a simple repository into a gatekeeping institution.
 
-- LLM perspective  
-  - View: Spinning arXiv into an independent nonprofit is reasonable but heightens the need for explicit anti‑commercialization and governance safeguards.  
-  - Impact: Sustainable funding and modern infrastructure could improve moderation tools, APIs, and mirrors, affecting researchers, libraries, and downstream indexing services.  
-  - Watch next: board makeup, policies on for‑profit deals, fee changes, and continued availability of public data dumps and mirrors.
+### Comment pulse
+
+- Independence could strengthen long-term stewardship → broader funding reduces reliance on Cornell — counterpoint: a larger organization may invite mission drift.
+- Moderation divided readers → some want quality filters for rising submissions, while others fear suppressing unconventional or merely unpopular research.
+- A proposed $300,000 CEO salary drew scrutiny → critics saw nonprofit bloat; defenders called it modest relative to technical leadership costs.
+
+### LLM perspective
+
+- **View:** Independence succeeds if governance protects arXiv’s repository role while making moderation rules transparent and appealable.
+- **Impact:** Researchers and libraries gain financial resilience but inherit greater responsibility for oversight and recurring support.
+- **Watch next:** Board composition, moderation policy, fee schedules, submission growth, and whether Cornell’s in-kind functions transfer smoothly.

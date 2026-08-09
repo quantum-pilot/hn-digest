@@ -2,15 +2,18 @@
 
 - Score: 264 | [HN](https://news.ycombinator.com/item?id=47448566) | Link: https://gist.github.com/mattmanning/1002653/b7a1e88479a10eaae3bd5298b8b2c86e16fb4404
 
-## TL;DR
-A 2011 GitHub gist preserves a full TI‑82/83/83+ TI‑BASIC port of the 1984 DOS game Drug Wars: a month‑long, buy‑low‑sell‑high drug‑trading sim with random events, cops, loanshark debt, banking, and a final score. The HN thread is mostly nostalgia: people describe Drugwars and other TI calculator games as their gateway to programming, from TI‑BASIC to Z80 assembly, and trace the lineage back to the original DOS and BBS versions and earlier trading game Taipan.
+### TL;DR
 
-## Comment pulse
-- TI calculators as first dev platform → Many learned programming from TI‑83 manuals, writing games/tools in TI‑BASIC, then graduating to Z80 assembly and eventually professional software careers.  
-- Drugwars as formative game → Players remember high‑school addiction, algebra classes spent on Drugwars/Snake, and even modern projects (like Farmhand) directly inspired by its trading mechanics.  
-- Historical lineage → Commenters link this TI version to the 1984 DOS original, BBS door ports, and further back to Taipan’s Apple II trading game design.
+A 2011 TI-BASIC port brings the classic month-long trading game to TI-82, TI-83, and TI-83+ calculators. Players borrow money, travel between markets, buy and sell six drugs under changing prices, manage coat capacity and weapons, survive police chases, use the bank or loan shark, and chase a final score after 31 days. HN treated the code as a time capsule: calculator limits made optimization tangible, classroom games enticed many into TI-BASIC and Z80 assembly, and the original Drugwars lineage inspired later personal projects.
 
-## LLM perspective
-- View: Tiny, menu‑driven games like this show how much depth is possible with minimal UI, RAM, and integer math.  
-- Impact: Preserving listings helps both retro‑computing fans and educators who want concrete, small‑scope examples of state, RNG, and game loops.  
-- Watch next: More accurate reverse‑engineered specs of the original DOS rules, plus portable re‑implementations (C, C#, Pico‑8, consoles) using this logic as reference.
+### Comment pulse
+
+- Calculator games became programming gateways → immediate classroom distribution rewarded tiny, playable experiments more than abstract lessons.
+- Severe hardware constraints taught durable habits → developers learned compact state, performance tradeoffs, edge cases, and manual optimization.
+- Drugwars carried an unusually long lineage → DOS and BBS versions inspired calculator ports, clones, and first programming projects.
+
+### LLM perspective
+
+- **View:** The source matters less as polished software than as an artifact of accessible, constraint-driven learning.
+- **Impact:** Former calculator programmers recognize how a ubiquitous school device quietly seeded later engineering careers.
+- **Watch next:** Emulator preservation, annotated source walkthroughs, original-version archaeology, and modern educational tools offering similarly immediate sharing.

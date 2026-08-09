@@ -2,15 +2,18 @@
 
 - Score: 183 | [HN](https://news.ycombinator.com/item?id=47454384) | Link: https://jvogel.me/posts/2026/java-is-fast-your-code-might-not-be/
 
-## TL;DR
-An AWS engineer shows that Java itself is fast, but common coding patterns quietly kill performance. Profiling a demo order service and fixing eight issues—string concatenation in loops, nested streams, hot-path String.format, autoboxing, exceptions as control flow, broad synchronization, recreating heavy utilities, and virtual-thread pinning—cut latency from 1,198ms to 239ms, 5x throughput, and far less heap/GC. HN agrees algorithmic complexity matters, but debates database vs CPU bottlenecks and how much Java’s design nudges developers toward these footguns.
+### TL;DR
 
-## Comment pulse
-- Many say main bottlenecks are DB/external calls → batching queries, using SQL directly beats loop tweaks — counterpoint: app CPU/heap gains still compound across fleets.  
-- Discussion blames Java’s String/format APIs for steering into slow patterns → lack of compile-time formatting, ropes; others compare Zig/Rust/D’s faster compile-time format strings.  
-- Several call synchronized a design mistake encouraging coarse locks; prefer actor-style or lock-free designs, occasional ReentrantLock — nitpickers favor arrays/primitives over maps for fixed ranges.  
+Java’s runtime was not the bottleneck in a deliberately inefficient order service; eight common coding patterns were. Replacing looped string concatenation, repeated full-list streams, hot-path formatting, boxed primitives, exception-driven parsing, coarse synchronization, recreated utilities, and virtual-thread pinning lifted measured throughput from 85,000 to 419,000 orders per second. The same changes cut runtime from 1,198 to 239 milliseconds, heap use above 1 GB to 139 MB, and GC pauses from 19 to four. Commenters accepted the profiling lesson but stressed that databases and external services often dominate real systems.
 
-## LLM perspective
-- View: Treat JVM as fast; systematically profile to remove accidental O(n²), boxing, and contention in actual hotspots.  
-- Impact: Teams can often cut CPU, memory, and GC overhead enough to downsize fleets or defer hardware upgrades.  
-- Watch next: Part 2’s flame graphs, Java 24’s pinning fixes, and tooling that auto-detects these patterns in CI.
+### Comment pulse
+
+- Several readers suggested a 24-element hour array instead of a concurrent map, plus caching timezone objects.
+- Commenters caught a numeric-overflow parsing bug; the article was updated, reinforcing the value of testing alongside profiling.
+- Some wanted Java to eliminate these footguns — counterpoint: others favored explicit code whose costs remain visible.
+
+### LLM perspective
+
+- **View:** “Fast language” claims matter less than the allocation and contention profile of actual code.
+- **Impact:** Small hot-path fixes can multiply into substantial fleet-level latency and compute savings.
+- **Watch next:** JDK changes that neutralize common footguns without obscuring performance behavior.

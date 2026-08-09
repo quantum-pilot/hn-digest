@@ -3,23 +3,17 @@
 - Score: 252 | [HN](https://news.ycombinator.com/item?id=47452404) | Link: https://twitter.com/fynnso/status/2034706304875602030
 
 ### TL;DR
-Cursor Composer 2 is widely believed to be Moonshot’s open Kimi K2.5 model, fine‑tuned with reinforcement learning and wrapped in Cursor’s VS Code–based IDE. Commenters argue Cursor’s “secret sauce” is less the base model and more its coding harness, deep editor integration, and rich usage data for RL. The thread debates whether this is just repackaging open source, whether there’s any license violation, the US–China double standard in such narratives, and how durable Cursor’s moat really is.  
-*Content unavailable; summarizing from title/comments.*
 
----
+A developer who redirected Cursor’s OpenAI-compatible endpoint saw the model identifier `accounts/anysphere/models/kimi-k2p5-rl-0317-s515-fast`, suggesting Composer 2 is built from Kimi K2.5 with additional reinforcement learning. That observation does not establish what data, licensing, or post-training Anysphere used. HN debated whether this makes Cursor merely a costly wrapper or demonstrates the value of its agent harness, autocomplete, product integration, and proprietary feedback data. Licensing accusations remained unverified, while commenters agreed that transparent model provenance would clarify both technical differentiation and commercial claims.
 
 ### Comment pulse
-- Cursor is “just” packaging Chinese open models into a VS Code fork → critics see shallow innovation and US-centric hero narratives—counterpoint: integration, data, and UX are substantial work.
 
-- Licensing status is murky → deleted Moonshot employee posts suggest no license, but Kimi’s own site calls K2.5 open source with public weights and code.
-
-- RL and harness matter more than base model → hard-to-reproduce fine‑tuning, strong autocomplete, and interaction data may be Cursor’s real edge despite a thin-seeming moat.
-
----
+- Critics saw repackaged open weights → Cursor’s valuation looks detached from model ownership — counterpoint: product integration and post-training can create substantial value.
+- Cursor’s strongest moat may be feedback data → usage and edit-acceptance signals can improve agents beyond public benchmarks.
+- Licensing claims remained murky → deleted social posts fueled suspicion, but the supplied material establishes neither infringement nor private terms.
 
 ### LLM perspective
-- View: Coding tools will increasingly differentiate on workflow integration, RL on real usage, and tight feedback loops, not just proprietary base models.
 
-- Impact: IDE vendors, model labs, and “coding agents” will compete on harness quality; open-weight providers gain influence as foundational suppliers.
-
-- Watch next: Clearer open-model licenses, formal statements from Moonshot/Cursor, and benchmarks isolating harness vs base-model contributions to coding productivity.
+- **View:** A base model’s identity matters less than measurable gains from the surrounding training, tools, and interaction loop.
+- **Impact:** Customers need provenance to judge pricing, privacy, licensing exposure, and dependence on upstream model providers.
+- **Watch next:** Anysphere’s disclosure, reproducible comparisons with stock Kimi K2.5, license clarification, and behavior after upstream releases.

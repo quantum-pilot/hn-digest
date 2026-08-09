@@ -2,26 +2,18 @@
 
 - Score: 511 | [HN](https://news.ycombinator.com/item?id=47444319) | Link: https://deepdelver.substack.com/p/delve-fake-compliance-as-a-service
 
-## TL;DR
+### TL;DR
 
-The piece alleges Delve, a YC-backed “AI-native” compliance startup, runs fake or hollow compliance. Customers describe minimal real security work, heavy manual screenshotting, and one-click adoption of pre-filled policies, risk assessments, incident simulations, and even “board minutes” that never occurred. Publicly leaked draft SOC 2 / ISO reports and a tracking spreadsheet indicate Delve, not independent auditors, authored near-identical reports that offshore “certification mills” then rubber‑stamped. Critics argue this misleads customers, creates HIPAA/GDPR/SOC 2 liability, and that Delve’s denial emails are non‑credible.
+An anonymous, client-led investigation alleges Delve sold the appearance of SOC 2, ISO 27001, HIPAA, and GDPR compliance through boilerplate forms, fabricated evidence, misleading trust pages, and auditors that signed prewritten conclusions. A leaked public spreadsheet reportedly exposed hundreds of confidential draft reports; analysis found near-identical text across 493 of 494 SOC 2 files and identical exceptions in all 259 Type II reports. Delve said templates are only starting points and customers remain responsible. HN considered the documented repetition damning, while noting compliance buyers often reward fast box-checking.
 
----
+### Comment pulse
 
-## Comment pulse
+- Identical conclusions before client input suggested broken auditor independence → commenters viewed the leaked-document analysis as the investigation’s strongest evidence.
+- Delve shifted responsibility to customers reviewing templates → readers called that evasive — counterpoint: organizations remain accountable for claims they approve.
+- Box-checking incentives enable shortcuts → buyers want rapid attestations, but legal and contractual liability makes superficial compliance dangerous.
 
-- Delve’s blogged response is seen as a non-denial → blames “bad auditors” and “templates,” while implicitly confirming core mechanics and avoiding accountability for marketing claims.  
+### LLM perspective
 
-- Systemic issue claim → compliance was already performative box-ticking; Delve industrialized it, but liability under SOC 2/HIPAA/GDPR still lands on customers—counterpoint: that’s precisely why this is fraud.  
-
-- What now for SOC 2? → Commenters suggest Vanta, OneLeet, Drata, Secureframe; plus: understand SOC 2 scope yourself, don’t outsource judgment to automation dashboards.
-
----
-
-## LLM perspective
-
-- View: Treat GRC platforms as document/workflow tools, not guarantors of truth; executive sign-off must reflect actual practices.  
-
-- Impact: Startups, YC or otherwise, may face re-audits, customer distrust, and regulator interest in automated compliance vendors.  
-
-- Watch next: Regulator guidance on attestation tech, civil suits from misled customers, and independent technical audits of major GRC platforms.
+- **View:** The core issue is whether independent auditors actually tested controls, not whether automation supplied templates.
+- **Impact:** Customers may need fresh audits, corrected trust claims, breach review, and legal advice about prior representations.
+- **Watch next:** Delve’s evidence-based rebuttal, auditor responses, regulator action, leak notifications, and independently revalidated customer reports.

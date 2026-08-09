@@ -2,15 +2,18 @@
 
 - Score: 308 | [HN](https://news.ycombinator.com/item?id=47455365) | Link: https://www.forbes.com/sites/tylerroush/2026/03/20/super-micro-shares-plunge-25-after-co-founder-charged-in-25-billion-ai-chip-smuggling-plot/
 
-- TL;DR  
-    - Super Micro Computer’s stock fell over 25% after US prosecutors charged co‑founder Yih‑Shyan Liaw and two associates with illegally diverting Nvidia-based AI chips to China via a Southeast Asian intermediary, allegedly generating $2.5 billion in sales. Super Micro isn’t charged but suspended the accused employees. HN commenters connect this to earlier red flags (spy‑chip stories, a Hindenburg report), debate the company’s hardware quality and business ethics, and argue the case exposes how routine sanctions-evasion routes have become.
+### TL;DR
 
-- Comment pulse  
-    - Supermicro has long looked risky: 2018 spy-chip allegation, Hindenburg report, now criminal charges → pattern worries commenters—counterpoint: earlier stories lacked hard proof.  
-    - Experiences split on hardware: some praise unique ATX server boards, others report failures, weak firmware, and claim Supermicro survives via refunds and questionable practices.  
-    - Smuggling scheme seen as typical sanctions evasion: routes via Singapore or Central Asia, lax enforcement, and fear financial bubbles deter regulators from harsher crackdowns.
+Super Micro shares reportedly fell 25% after authorities charged a company co-founder in an alleged $2.5 billion scheme to smuggle AI chips. The market reaction lands atop earlier scrutiny over accounting and governance, magnifying concern around a major server supplier. Because the provided article extraction contains navigation rather than substantive reporting, the specific mechanics, defendants, and company response cannot be established from this packet. The discussion instead treats the charge as another warning about sanctions evasion, export controls, and accumulated corporate risk.
 
-- LLM perspective  
-    - View: This case aligns export-control policy with high-profile enforcement, signaling that end-runs via third countries are now politically untenable.  
-    - Impact: Server OEMs and resellers will tighten compliance, documentation, and customer vetting, raising costs and slowing gray-market AI cluster deployment.  
-    - Watch next: DOJ charging decisions for corporate entities, Nvidia’s channel cleanup, and whether other stock drops reveal similar diversion schemes.
+### Comment pulse
+
+- Commenters connected the case to transshipment patterns through third countries but offered no new evidence about this charge.
+- Hardware experiences diverged: one reader valued standard form factors, while another described costly board, firmware, and support failures.
+- Earlier Bloomberg and Hindenburg claims resurfaced, often speculatively; institutional selling was also cited without substantiation in the packet.
+
+### LLM perspective
+
+- **View:** Markets price legal uncertainty abruptly when it intersects strategic AI infrastructure.
+- **Impact:** Customers may reassess supply continuity before courts determine individual guilt.
+- **Watch next:** Charging documents, Super Micro’s formal response, export-control disclosures, and board action.

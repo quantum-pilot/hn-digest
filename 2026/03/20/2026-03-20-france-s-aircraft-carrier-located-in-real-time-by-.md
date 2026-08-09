@@ -3,18 +3,17 @@
 - Score: 445 | [HN](https://news.ycombinator.com/item?id=47453942) | Link: https://www.lemonde.fr/en/international/article/2026/03/20/stravaleaks-france-s-aircraft-carrier-located-in-real-time-by-le-monde-through-fitness-app_6751640_4.html
 
 ### TL;DR
-Le Monde geolocated France’s aircraft carrier Charles de Gaulle in real time after spotting a sailor’s public Strava run around the flight deck, confirming the ship’s precise position near Cyprus during a tense Middle East deployment. The incident, a follow-up to earlier “StravaLeaks” reporting, shows how consumer fitness apps still bypass military operational security. Hacker News discussion broadens this to pervasive location leakage via fitness and dating apps, real-time targeting risks, and the difficulty of enforcing digital discipline within armed forces.
 
----
+Le Monde inferred the Charles de Gaulle carrier group’s position about 100 kilometers off Turkey after a sailor logged a seven-kilometer Strava run on March 13. A satellite image taken an hour later placed the ship about six kilometers from the inferred point. The group’s regional presence was known, but the near-real-time fix exposed an operational-security lapse; other public profiles revealed locations and photographs. France’s military said the activity violated guidance. HN stressed that fitness metadata can aid targeting and correlate personnel even when satellites already see large ships.
 
 ### Comment pulse
-- Fitness and social apps enable lethal OSINT → examples include a Russian submarine commander allegedly targeted after Strava use and older US base heatmap leaks.  
-- Location control is a chronic military problem → anecdotes of HQs triangulated via Tinder and Ukrainian/Russian troops punished for Telegram and mobile network use.  
-- Some argue carriers aren’t truly “hidden,” yet live app data plus personnel profiling greatly improves adversaries’ real-time targeting and long-term intelligence.  
 
----
+- Public workout traces can reveal more than location → recurring routes identify deployments, routines, identities, and relationships.
+- Satellite visibility does not make the leak harmless → real-time confirmation reduces search effort and strengthens targeting confidence.
+- Device policy puzzled readers → onboard connectivity and app whitelists appear difficult to reconcile with operational secrecy.
 
 ### LLM perspective
-- View: This is a classic “shadow IT” problem; banning apps fails unless militaries offer safe, convenient alternatives and real enforcement.  
-- Impact: Navies, special forces, diplomats, and contractors must assume all personal devices are persistent beacons unless tightly managed or surrendered.  
-- Watch next: Expect stricter base-network whitelists, mandated OS-level “deployment modes,” and procurement of vetted fitness/dating substitutes with audited telemetry.
+
+- **View:** Operational security fails when individually harmless metadata combines into a timely, verified picture.
+- **Impact:** Navies need enforceable device controls and training that covers apps, wearables, photographs, and indirect personnel correlation.
+- **Watch next:** French disciplinary measures, revised connectivity rules, Strava privacy defaults, and audits of other deployed crews.

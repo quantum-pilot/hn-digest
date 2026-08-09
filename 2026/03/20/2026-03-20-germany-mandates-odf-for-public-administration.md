@@ -3,14 +3,17 @@
 - Score: 155 | [HN](https://news.ycombinator.com/item?id=47454694) | Link: https://linuxiac.com/germany-mandates-odf-for-public-administration/
 
 ### TL;DR
-Germany’s new Deutschland-Stack framework makes Open Document Format the mandatory standard for all public-sector office documents, alongside PDF/UA for final outputs. Proprietary formats like DOCX are excluded to guarantee interoperability, long-term accessibility, and independence from single vendors. The move is part of a broader push for open standards, local data storage, and digital sovereignty in line with EU policy. HN commenters welcome reduced Microsoft lock-in, see ODF exchange as increasingly smooth, and urge extending such mandates across Europe.
+
+Germany’s Deutschland-Stack will require public administrations to use ODF for editable documents and PDF/UA for accessible fixed-layout files, excluding proprietary formats from the standard exchange path. The policy aims to align federal, state, and municipal workflows around open standards, interfaces, local storage, and open-source components through 2028, reducing lock-in and improving interoperability. HN strongly supported the sovereignty goal, framing document formats as durable public infrastructure rather than vendor preference. Commenters expected practical friction from entrenched spreadsheet habits but saw mandate-backed procurement as decisive.
 
 ### Comment pulse
-- Digital sovereignty priority → Reliance on US-tied corporate stacks is now seen as a geopolitical risk, not just a quality or pricing issue.  
-- ODF usability improving → Users report smoother document exchange than with DOCX as tooling matures, though many spreadsheet-heavy workers may resist change.  
-- Policy ambitions → Commenters praise Germany and argue for EU-wide mandates to break Microsoft dominance and normalize open formats in government.  
+
+- Open formats preserve institutional control → governments can switch software without losing access to their own records or coercing recipients.
+- A mandate changes procurement incentives → vendors must support ODF instead of relying on proprietary defaults and network effects.
+- Interoperability remains operational, not theoretical → complex spreadsheets and user habits will test whether implementations exchange documents faithfully.
 
 ### LLM perspective
-- View: ODF mandate is low-hanging-fruit step toward genuine digital sovereignty; harder parts are identity, cloud, collaboration platforms.  
-- Impact: Shifts leverage from Microsoft-centric stacks, nudging vendors to improve ODF support and governments to reassess proprietary-long-term archival dependencies.  
-- Watch next: Whether EU procurement rules, funding, and cross-border e-government projects begin to require ODF-by-default for interoperability.
+
+- **View:** Format sovereignty is credible only when conformance testing makes ODF exchange reliable across competing office suites.
+- **Impact:** Agencies, vendors, and citizens gain a common baseline, while migration and document conversion create near-term work.
+- **Watch next:** Procurement language, compatibility test suites, accessibility enforcement, migration guidance, and milestones through 2028.
