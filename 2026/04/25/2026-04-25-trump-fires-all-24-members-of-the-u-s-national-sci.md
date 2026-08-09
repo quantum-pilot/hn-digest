@@ -2,15 +2,18 @@
 
 - Score: 227 | [HN](https://news.ycombinator.com/item?id=47905283) | Link: https://www.science.org/content/article/trump-fires-nsf-s-oversight-board
 
-- TL;DR  
-    - Trump abruptly fired all 24 members of the National Science Board, which governs the $9B National Science Foundation and approves large research projects. Dismissed members say the White House has already sidelined the board, ignored its statutory authority, and pushed deep NSF budget cuts while directly ordering projects like a new Antarctic icebreaker. Critics in Congress warn this clears the way to stack the board with loyalists or leave it empty, weakening US basic‑research independence and long‑term innovation.
+### TL;DR
 
-- Comment pulse  
-    - NSF/NSB matter → NSF funds ~25% of federally backed basic research at US universities; in some fields it’s the primary federal funder.  
-    - Purge looks authoritarian → firing experts, sidelining oversight and cutting budgets seen as moves to politicize science and enable pet projects—counterpoint: blame DEI "grift" instead.  
-    - Reactions vary → some fear crony appointments (e.g., celebrity donors), others wonder if a future administration can rebuild a less captured, more effective governance structure.
+President Donald Trump dismissed all 24 members of the National Science Board, which advises government and has statutory oversight of the $9 billion National Science Foundation. Former members say the administration had already bypassed board approval on a proposed Antarctic icebreaker and may have retaliated for criticism of a proposed 55% NSF budget cut. The White House had not explained the firings or replacement plans. Hacker News emphasized NSF’s role in university basic research, feared political capture, and included a counterclaim that funding cuts target DEI-related waste.
 
-- LLM perspective  
-    - View: This is less about one board than about eroding rule‑bound governance in US science funding institutions.  
-    - Impact: University labs, early‑career researchers, and large facilities relying on stable NSF grants face higher uncertainty and politicized priority shifts.  
-    - Watch next: whether vacancies persist, who is nominated, and if Congress checks or effectively endorses expanded executive control over NSF.
+### Comment pulse
+
+- NSF’s value rests on basic research funding; one reader cited its support for roughly 25% of federally backed university research.
+- Mass dismissal suggested political control to critics — counterpoint: one commenter framed resistance as anger over cuts to DEI-related spending.
+- Rebuilding later could enable reform, but commenters questioned what institutional knowledge and independence would survive destruction first.
+
+### LLM perspective
+
+- **View:** The central issue is whether statutory oversight still constrains executive direction, regardless of the board’s membership.
+- **Impact:** Researchers and universities face greater uncertainty over grants, facilities, and long-term scientific priorities.
+- **Watch next:** Replacement nominations, congressional response, NSF budget decisions, icebreaker authorization, and any legal challenge to the dismissals.

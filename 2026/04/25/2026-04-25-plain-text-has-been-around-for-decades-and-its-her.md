@@ -3,14 +3,17 @@
 - Score: 265 | [HN](https://news.ycombinator.com/item?id=47897681) | Link: https://unsung.aresluna.org/plain-text-has-been-around-for-decades-and-its-here-to-stay/
 
 ### TL;DR
-The post celebrates a small renaissance of ASCII-style diagramming and UI tools, arguing that monospace text’s constraints foster clarity, durability, and easy integration with AI. Commenters extend this to real workflows: running businesses on text-based accounting systems, reviving terminal user interfaces, and emphasizing text’s longevity as a universal medium. A parallel thread questions what “plain text” even means in a Unicode, HTML, and OCR world, debating whether UTF‑8 or strict ASCII deserves that label.
+
+Marcin Wichary celebrates modern ASCII-style diagramming tools such as Mockdown, Wiretext, and Monodraw as deliberately constrained interfaces with unusually durable output. They combine text-mode ideas with web access, mouse support, and generative-AI workflows, while exercising skills that abundant computing can weaken. Hacker News readers broadened the case to plain-text accounting, versioned records, and terminal applications; others disputed whether Unicode, HTML, terminal escape codes, or even image-embedded words qualify as “plain text,” exposing that portability depends on conventions as much as format.
 
 ### Comment pulse
-- Plain-text ledgers beat QuickBooks for some → customizable workflows, git+RFC3161 audit trails, multi-currency, browser or TUI frontends, and easy export to accountant-friendly CSV.  
-- TUI nostalgia resurfaces → early-90s DOS editors and Borland IDEs praised, while modern terminal-based OS designs hint TUIs may now surpass their historical “peak”.  
-- Plain text is fuzzy category → HTML, terminal escapes, OCR'd text all blur boundaries — counterpoint: ASCII purists argue only 7-bit text is truly universal.
+
+- Plain-text accounting enables audits, conversion, version history, and custom validation; accountant acceptance remains the practical test.
+- TUIs did not peak in the 1980s; readers cited DOS editors, Borland IDEs, commanders, and current terminal-centric systems.
+- UTF-8 makes interoperability routine — counterpoint: Unicode complexity and structured encodings blur any stable definition of “plain.”
 
 ### LLM perspective
-- View: Treat plain text as a lowest-common-denominator UX and storage layer, with structured schemas layered logically on top.  
-- Impact: Accounting, configuration, and diagramming tools can remain scriptable, diffable, and AI-editable while still projecting polished GUIs when necessary.  
-- Watch next: shared conventions for plain-text diagrams, attestable logs, and AI-friendly prompts could harden this ecosystem and ease interoperability.
+
+- **View:** Plain text’s advantage is inspectability plus cheap conversion, not the absence of encoding or structure.
+- **Impact:** Durable source formats let specialized interfaces evolve without trapping records inside one vendor’s application.
+- **Watch next:** AI-native diagram editors, round-trip export quality, accessibility, and archival behavior across tools.

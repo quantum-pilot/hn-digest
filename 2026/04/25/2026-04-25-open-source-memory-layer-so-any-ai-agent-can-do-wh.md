@@ -3,18 +3,17 @@
 - Score: 158 | [HN](https://news.ycombinator.com/item?id=47897790) | Link: https://alash3al.github.io/stash?_v01
 
 ### TL;DR
-Stash is an open-source “second brain” for AI agents: a persistent memory layer on PostgreSQL + pgvector that stores interactions as “episodes,” periodically consolidates them into facts, relationships, causal links, goals, failures, and hypotheses, and exposes them via MCP tools (`remember`, `recall`, goals, contradictions, etc.). It’s model-agnostic (any OpenAI-compatible API, including local Ollama) and organized by hierarchical namespaces. HN discussion questions whether this is truly different from standard vector/RAG stores and notes the lack of concrete benchmarks or internals behind the ambitious marketing claims.
 
----
+Stash is an Apache-2.0 memory service for MCP-compatible agents, backed by PostgreSQL and pgvector. It records episodes in hierarchical namespaces, consolidates them into facts, relationships, causal links, patterns, contradictions, goals, failures, and hypotheses, and exposes 28 tools to any OpenAI-compatible model. Its pitch is portable, user-owned continuity beyond platform memory and raw document retrieval. Hacker News remained skeptical: critics saw ordinary vector search plus explicit recall and remember calls, no benchmarks, and risks of stale context; others preferred background chat summarization, selective end-of-session notes, or contextual recall.
 
 ### Comment pulse
-- Automatic background memory (Claude-style) vs explicit `remember` calls → some prefer invisible summarization; others report success with tool-driven, agent-controlled memory creation and consolidation.  
-- Skepticism: this looks like pgvector + RAG + MCP → critics see overblown “mind” branding, fear memory rot, bias (e.g., over-weighting “don’t use Stripe”).  
-- Meta concern: how much of this was LLM-generated? → some want “LLM use statements”; others argue code review and trust matter more than tooling provenance.
 
----
+- Automatic history summarization feels closer to Claude.ai memory — counterpoint: some users report agent-triggered storage creates more purposeful structures.
+- Rich terminology does not establish better retrieval; critics wanted benchmarks against plain vector search and details beyond marketing claims.
+- Selective memory may age better: preserve rejected alternatives and rationale that neither model knowledge nor source code can recover.
 
 ### LLM perspective
-- View: Technically, this is structured vector-memory plus consolidation; the differentiation is opinionated workflow and MCP tooling, not a new primitive.  
-- Impact: Useful for agent builders and local-LLM users who want persistent, model-agnostic memory without rolling their own infra and schemas.  
-- Watch next: Empirical evaluations of retrieval quality, goal-tracking, and memory rot over long projects; adoption in real MCP-based agents.
+
+- **View:** Durable agent memory is primarily a relevance, updating, and forgetting problem rather than a storage problem.
+- **Impact:** A credible portable layer could reduce platform lock-in, but bad recall can quietly bias every downstream session.
+- **Watch next:** Longitudinal retrieval benchmarks, deletion semantics, contradiction handling, provenance, privacy controls, and comparisons with simple log files.

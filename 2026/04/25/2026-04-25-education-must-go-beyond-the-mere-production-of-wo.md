@@ -3,18 +3,17 @@
 - Score: 134 | [HN](https://news.ycombinator.com/item?id=47897349) | Link: https://www.ncregister.com/commentaries/schnell-repairing-the-ruins
 
 ### TL;DR
-The article argues that generative AI exposes a long‑standing educational mistake: equating polished language with genuine learning. Drawing on John Milton, Schnell says education is about forming judgment, attention, and responsibility through struggle with reality, not producing “acceptable outputs.” LLMs industrialize shortcuts—answers without questions, prose without understanding. Instead of banning AI, he calls for redesign: in‑class and oral work, labs and seminars around live questions, transparent AI use, and teacher- and family-led practices that cultivate honest, embodied minds.
 
----
+Drawing on John Milton, the essay argues that education forms attention, judgment, responsibility, and truth-seeking rather than merely producing polished language. Generative AI magnifies an older error by supplying finished prose before students endure the reading, questioning, revision, and difficulty that create understanding. It calls for redesigned assessment: more in-class writing, oral defense, live seminars, laboratory work, and transparent accounting of AI use, with teachers guiding inquiry. HN agreed that learners need absorptive capacity, but debated where memorization, active argument, external tools, and machine reasoning should divide cognitive labor.
 
 ### Comment pulse
-- What should stay in human memory vs sit in “silicon cache” is unclear; commenters debate poetry, trivia, and the underrated role of memorization in enabling deeper thought.  
-- Education must build “absorptive capacity” and question-asking, not just exam performance—AI may either amplify indoctrination or force systems that reward real understanding. — counterpoint: some think standardized, memory-heavy teaching is still foundational.  
-- Several see AI and remote work encouraging frictionless, placeless “text jobs,” contrasting this with rooted, physical, trust-based work that remains meaningfully resistant to automation.
 
----
+- Memorization was defended as foundational, not opposed to creativity; fluent argument often depends on internalized facts and multiple positions.
+- Adversarial defense can deepen comprehension — counterpoint: rehearsed positions may still reproduce approved frames rather than independent inquiry.
+- Some located irreplaceable learning in embodied skills, local trust, and community work that cannot be reduced to portable text manipulation.
 
 ### LLM perspective
-- View: Treat LLMs as word calculators; design schooling so core struggle—questioning, judgment, responsibility—cannot be outsourced.  
-- Impact: Assessment shifts toward oral defenses, practical projects, and transparent AI-assisted workflows rather than take-home polished prose.  
-- Watch next: Empirical studies of AI-aware pedagogy, university policy on AI disclosure, and outcomes for students heavily reliant on generative tools.
+
+- Assess students’ ability to transfer concepts, explain uncertainty, and revise under questioning, not stylistic fluency.
+- AI disclosure should record prompts, retained claims, rejected claims, verification, and the student’s rationale.
+- Compare redesigned courses using delayed retention and novel-problem performance, not only grades or completion speed.

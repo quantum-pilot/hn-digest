@@ -2,19 +2,18 @@
 
 - Score: 157 | [HN](https://news.ycombinator.com/item?id=47900398) | Link: https://github.com/MartinGalway/C64_music
 
-## TL;DR
-Veteran C64 composer/programmer Martin Galway has released GPL-licensed 6502 assembly source for his classic SID soundtracks, exposing the underlying music drivers he used across the 1980s. The repository is intended for study, modification, and new compositions, and documents the evolution from his first- to second-generation players. Hacker News discussion focuses on how these custom, timing-critical sound engines define the music’s character, the difficulty of mapping them into modern pattern languages or AI workflows, and strong nostalgia around C64-era audio.
+### TL;DR
 
-## Comment pulse
-- Fans still enjoy these tunes via online SID players and videos → some once used C64 monitor cartridges to rip and dissect Galway’s music by hand.
+Commodore 64 composer Martin Galway has published GPL-3.0 assembly sources for the music systems behind Wizball and Game Over, inviting people to study, rebuild, modify, and create new music with attribution. The repository documents Ocean assembler directives and identifies Wizball’s player as his first-generation design, used from 1984 to mid-1987; a later engine began with Athena. HN celebrated the preservation value and childhood memories, while stressing that Galway’s sound lives in precisely timed SID-register changes—not merely melodies that can be transcribed into modern pattern notation.
 
-- SID engines are interrupt‑driven trackers → they tweak filters/envelopes/ring‑mod per frame; pattern transcriptions lose timing. — counterpoint: Wizball’s driver reportedly ticks at 200 Hz.
+### Comment pulse
 
-- Experimenters use Claude and GPT as tooling → they fetch .sid files, build players or JS reimplementations, but Strudel/Tidal conversions still sound unlike the originals.
+- Wizball reportedly drives interrupts at 200 Hz on PAL and NTSC, exceeding the commonly assumed 50 Hz SID-driver cadence.
+- Attempts to port melodies into Strudel were recognizable at best — counterpoint: web players wrapping original SID code preserved authenticity.
+- Readers reconstructed obscure Ocean directives, identifying `DSP` as displacement and `DFC` as a PETSCII-producing data definition.
 
-## LLM perspective
-- View: Treat these annotated drivers as a benchmark dataset for learning how low‑level synthesis techniques map to perceived musical style.  
+### LLM perspective
 
-- Impact: Emulator authors, tracker developers, and chip‑music composers gain reference implementations clarifying timing, data formats, and hardware‑pushing tricks.  
-
-- Watch next: Toolchains that assemble and play these sources in browsers/DAWs, plus objective audio similarity metrics versus original game soundtracks.
+- Preservation should include assembler versions, build commands, memory maps, expected binaries, and emulator test fixtures.
+- Separate musical data from playback code only if timing, modulation, envelopes, and filter automation remain representable.
+- Additional rights-cleared sources could illuminate the transition between Galway’s player generations.

@@ -3,18 +3,17 @@
 - Score: 140 | [HN](https://news.ycombinator.com/item?id=47902816) | Link: https://boilingsteam.com/framework-laptop-13-pro-announced/
 
 ### TL;DR
-Framework’s new Laptop 13 Pro is a substantial redesign that fixes many earlier complaints while preserving the modular, repairable ethos. It gains a stiffer CNC aluminum chassis, larger 74Wh battery with claimed ~20-hour video playback, a custom 700-nit 120Hz 3:2 touchscreen, haptic trackpad, Dolby Atmos side speakers, and faster Intel Panther Lake or AMD Ryzen AI boards. RAM stays user‑replaceable via LPCAMM2. Backward compatibility mostly holds, and, for the first time, Framework offers Ubuntu preinstalled—currently outselling the Windows variant. Prices start at $1,199 DIY.
 
----
+Framework’s Laptop 13 Pro redesign keeps the platform’s modular premise while upgrading rigidity, battery, display, and inputs. It uses a CNC aluminum chassis, 74 Wh battery, haptic touchpad, replaceable LPCAMM2 memory, and a custom 2880×1920 touch IPS panel with 30–120 Hz refresh. New Intel Panther Lake boards remain interchangeable with older Laptop 13 chassis and motherboards, although the battery, bottom cover, and input deck move together. Ubuntu is a certified preinstalled option. HN welcomed Linux demand and repairability but debated premium pricing, unverified battery claims, and preordering before reviews.
 
 ### Comment pulse
-- Expansion card bays → Some users report cards pulling out with cable removal; others find them very tight—likely batch variance; 13 Pro introduces a new latch system.  
-- Price vs MacBook → Spec-for-spec, Framework costs more, but fans argue long-term savings via upgrade kits, repairability, and avoiding Apple’s soldered, glossy, macOS-only ecosystem.  
-- Intel vs AMD configs → Panther Lake expected to win on battery and iGPU; AMD lacks ultra-low-power cores, USB4, and suspend-to-RAM—benchmarks awaited.
 
----
+- UK comparisons put matched configurations above some MacBook Pros — counterpoint: owners value future upgrades, repairs, Linux, and matte screens.
+- Reports differed on loose expansion cards in older batches; the Pro’s latch redesign may resolve the concern.
+- Intel appears promising, but AMD-versus-Panther-Lake performance, suspend, USB4, and battery comparisons need shipping hardware.
 
 ### LLM perspective
-- View: This pushes “right-to-repair + Linux-first” laptops from hobbyist niche toward a viable premium segment.  
-- Impact: Pressure on major OEMs to justify soldered RAM, glossy-only panels, and weak Linux support at similar price points.  
-- Watch next: Independent battery/perf tests, Linux power-management polish, and whether LPCAMM2 becomes a cross-vendor standard.
+
+- Verify 20-hour streaming under Linux, mixed workloads, suspend, variable refresh, and multiple brightness levels.
+- Calculate five-year ownership cost including repairs, upgrade kits, resale, memory, storage, ports, and charger.
+- Early Ubuntu demand is encouraging; sustained sales and firmware support will show whether Linux-first hardware scales.

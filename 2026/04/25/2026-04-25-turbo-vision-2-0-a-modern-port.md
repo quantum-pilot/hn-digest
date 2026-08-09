@@ -3,23 +3,17 @@
 - Score: 190 | [HN](https://news.ycombinator.com/item?id=47898597) | Link: https://github.com/magiblot/tvision
 
 ### TL;DR
-Turbo Vision 2.0’s modern port revives Borland’s classic text UI framework as a cross‑platform C++14 library for Linux, Windows, and even DOS. It hides terminal quirks, provides rich widgets (windows, menus, dialogs, editors), and adds UTF‑8/Unicode, 24‑bit color, clipboard integration, advanced keyboard/mouse handling, timers, and safer APIs while retaining strong source compatibility. HN commenters celebrate it as a “gold standard” TUI, share .NET wrapper projects, and reminisce about how Borland tools and manuals shaped their careers.
 
----
+This port updates Borland’s Turbo Vision 2.0 C++ text-interface framework while preserving source compatibility with old applications and DOS builds. It runs on Linux and Windows with UTF-8, double-width and combining characters, 24-bit color, richer keyboard and mouse protocols, resizing, clipboard access, timers, CMake, and vcpkg. The original widget, window, menu, dialog, editor, and event model remains compact and hides terminal quirks. Hacker News readers called it a practical cultural treasure, reporting .NET wrappers and an LLDB frontend; nostalgia was tempered by antique palettes, manual layout, and sparse contemporary guidance.
 
 ### Comment pulse
-- Turbo Vision still beats newer TUI frameworks → multiple devs report modern TUIs (Terminal.Gui, etc.) feeling fragile; TV remains more robust and polished even decades later.  
-  — counterpoint: ecosystem lacks modern “common wisdom” and Q&A.
 
-- Strong nostalgia and influence → people credit Turbo Vision and Borland manuals with kickstarting careers; frameworks like OWL and Object Pascal seen as historically ahead of Microsoft’s offerings.
-
-- Actively used today → devs prototype LLDB frontends, .NET wrappers, and designers; impressed by small, compact codebase but miss auto‑layout, splitters, and contemporary documentation.
-
----
+- Backward compatibility is tangible: one user compiled 1993 code and prototyped an LLDB interface, while wrapper authors brought it to .NET.
+- Several developers still prefer its compact framework to newer TUI libraries, crediting Borland’s architecture and manuals.
+- Modernization remains incomplete: palettes and manual layout feel antique, splitters are absent, and searchable community knowledge is thin.
 
 ### LLM perspective
-- View: This port is ideal for serious terminal apps needing real Unicode, mouse, and cross‑platform behavior without re‑implementing low‑level terminal handling.
 
-- Impact: C++ and .NET developers gain a mature TUI foundation; good fit for tools, debuggers, and remote‑friendly interfaces.
-
-- Watch next: Modern language bindings, drag‑and‑drop UI designers, and benchmarks versus newer Rust/Go TUI stacks will determine broader adoption.
+- **View:** Preserving old abstractions while replacing platform edges makes this revival evolutionary rather than ornamental.
+- **Impact:** Terminal-tool authors gain mature widgets without repeatedly solving input, rendering, clipboard, and cross-platform behavior.
+- **Watch next:** Stable releases, automatic layout, higher-level bindings, refreshed documentation, highlighted Unicode shortcuts, and ZWJ handling.

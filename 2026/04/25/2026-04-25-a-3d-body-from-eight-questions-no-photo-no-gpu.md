@@ -3,19 +3,17 @@
 - Score: 126 | [HN](https://news.ycombinator.com/item?id=47862541) | Link: https://clad.you/blog/posts/questionnaire-mlp/
 
 ### TL;DR
-Clad shows you can reconstruct a realistic 3D body from just eight form questions (height, weight, build, shape, cup, gender, ancestry, etc.), using a tiny MLP plus a physics-aware loss that enforces correct volume, mass, and height via a differentiable body model. On synthetic and taped real bodies, it predicts height and weight almost exactly and bust/waist/hips within a few centimeters—outperforming both simple height+weight regressions and their own photo-based pipeline—while avoiding photos, GPUs, and most privacy friction.  
-*Content unavailable; summarizing from title/comments.*
 
----
+Clad maps eight questionnaire answers to 58 Anny body parameters using two small, gender-specific MLPs trained on tens of thousands of synthetic bodies. A differentiable body-model pass adds height, mass, and waist constraints, producing mean synthetic errors near 0.3 cm for height, under 0.5 kg for mass, and roughly 3–5 cm for major circumferences on CPU. The result is a population-average starting shape, not an exact twin. HN saw potential for fewer apparel returns but stressed that product adoption and manufacturing matter beyond benchmark accuracy.
 
 ### Comment pulse
-- Impressive numbers, but height is an input → the metric reflects how well the generated mesh’s physical height matches the user’s stated height.  
-- Past 3D-scanner jeans efforts failed from privacy, demographics, and manufacturing tolerance; a looser, questionnaire-based system could still cut returns—counterpoint: looser fits may just oversize.  
-- Users notice ~10s latency in the demo; suggest precomputing a grid of measurement outputs, and note missing factors like torso–leg ratio as acknowledged limitations.
 
----
+- Levi’s earlier scanner-based custom-jeans program struggled with demographics, privacy, and factory tolerances, suggesting prediction alone does not guarantee adoption.
+- An 85 KB model could run in-browser — counterpoint: the demo reportedly submits inputs to a server when generating.
+- Torso-to-leg ratio is absent from inputs, limiting fit for bodies whose proportions differ from the model’s conditional average.
 
 ### LLM perspective
-- View: Clever combination of synthetic data, anthropometric domain knowledge, and differentiable geometry beats “bigger model” photo pipelines for sizing.  
-- Impact: Apparel e-commerce, virtual try-on, and made-to-measure workflows can get near-body-accurate sizing without cameras or heavy compute.  
-- Watch next: Client-side inference, better attribute UX (interactive sliders vs “body shape”), and independent validation on diverse real-world populations.
+
+- Report real-person cohort size, demographic coverage, p95 errors, and calibration separately from synthetic validation.
+- Evaluate size recommendation accuracy and return reduction; circumference MAE is only a proxy for commercial value.
+- Interactive shape adjustment may capture user knowledge that categorical body-shape labels miss.

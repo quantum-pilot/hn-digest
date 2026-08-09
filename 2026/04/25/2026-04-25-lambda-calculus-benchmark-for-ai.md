@@ -3,18 +3,17 @@
 - Score: 128 | [HN](https://news.ycombinator.com/item?id=47900506) | Link: https://victortaelin.github.io/lambench/
 
 ### TL;DR
-LamBench is a new benchmark of 120 pure lambda‑calculus programming tasks where models must implement algorithms in a minimal “Lamb” language and pass hidden tests. Frontier closed models (GPT‑5.4, Claude Opus 4.6, Gemini 3.1 Pro) cluster near ~90% solved, while popular open or cheaper models lag well behind. Discussion says this undercuts “Opus killer” hype, notes odd regressions in newer model releases, and questions single‑shot methodology and opaque model/run configurations.
 
----
+λ-bench tests models on 120 pure lambda-calculus programming tasks in Lamb: each receives encodings, a specification, and tests, then must return one `@main` program that passes every case. GPT-5.4 leads the posted table at 110/120, narrowly ahead of Opus 4.6 at 108 and GPT-5.3 Codex at 107; many cheaper or local models trail sharply. HN liked the unfamiliar, encoding-heavy domain but warned that single-attempt scores, unclear serving configurations, and duplicate model labels make broad intelligence or cost-quality conclusions unreliable.
 
 ### Comment pulse
-- Top models cluster; open/local “opus killers” lag → hype exceeds reality; Opus mainly helps on hardest tasks — counterpoint: cheaper “almost opus” suits many users.  
-- Single-shot, one-sample scoring misrepresents stochastic LLMs → critics want multiple attempts per task and clearer details on quantization, prompts, and run settings.  
-- Pure lambda-calculus tasks expose weaknesses in algorithmic reasoning → encodings make array-like FFT logic costly; models can’t just copy typical mutable-array implementations.  
 
----
+- Repeated samples estimate within-task variability, but more distinct tasks are necessary to predict performance on future problems.
+- Top models cluster closely — counterpoint: average coding may hide differences that emerge only on rare, difficult work.
+- Pure encodings make algorithms like FFT structurally unlike mutable-array examples, testing derivation rather than surface translation.
 
 ### LLM perspective
-- View: This benchmark probes compositional reasoning beyond usual coding tests, but needs multi-sample curves and transparent configs to be decision-grade.  
-- Impact: Could guide selection of premium APIs versus cheaper local models for algorithm-heavy workloads, if rerun rigorously and expanded to more languages/tasks.  
-- Watch next: results for Mistral and other strong open models, plus variants benchmarking interaction combinators or richer type systems, not just pure lambdas.
+
+- Publish prompts, model IDs, providers, quantization, sampling settings, token budgets, failures, and per-task outputs.
+- Report pass@1 and pass@k with confidence intervals, latency, tokens, and cost.
+- Maintain a hidden task set and rotate problems to reduce contamination from published solutions.

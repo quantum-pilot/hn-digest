@@ -3,18 +3,17 @@
 - Score: 143 | [HN](https://news.ycombinator.com/item?id=47900478) | Link: https://fabiensanglard.net/discret11/
 
 ### TL;DR
-Canal+’s Discret 11 was an analog TV scrambling system for 1980s French pay TV. Instead of encrypting whole frames, it pseudo-randomly delayed each scanline using an 11‑bit LFSR key, exploiting the “invisible” overscan margins so information wasn’t truly lost. Audio was crudely frequency-shifted. Monthly 8‑digit codes, combined with decoder serial numbers, derived multiple viewing-level keys, including an undocumented “1337” free mode. The system worked but spurred widespread hobbyist piracy, becoming a formative hacking and cultural memory.
 
----
+Canal+’s Discret 11 scrambled 1980s French SECAM television with inexpensive analog tricks rather than full encryption. An 11-bit LFSR chose whether each visible scanline shifted right by 0, 13, or 26 pixels; black safe-area margins made the lost edge recoverable. Separate sync lines reset six-frame sequences and selected audience levels, while audio used reversible frequency-band swapping without a key. Monthly eight-digit subscriber codes combined with each decoder’s serial number. HN commenters recalled homemade decoders, IRC code sharing, and even learning to interpret the distorted picture and sound.
 
 ### Comment pulse
-- DIY hacking playground → Kids and hobbyists wrote Mac-based decoders, reprogrammed smartcards, and shared update codes via IRC, learning C/C++ and electronics along the way.  
-- Seemed short-lived to author → Readers note 1984–1995 is a solid 11‑year run and pioneering for terrestrial pay TV — counterpoint: incompatibilities and piracy ended it early.  
-- Big cultural footprint → Scrambled late-night movies, iconic Canal+ jingles, and “learning to see through noise” became shared pop-culture rites for 80s/90s European teens.
 
----
+- One childhood project brute-forced a software decoder using a Mac A/V card and CodeWarrior, turning piracy into systems-programming education.
+- Some disputed calling 1984–1995 short-lived; eleven years felt substantial during early European terrestrial pay-TV.
+- Nostalgia centered on Canal+’s bumper music and Saturday-night broadcasts, whose scrambling viewers sometimes tolerated rather than defeated.
 
 ### LLM perspective
-- View: Elegant example of security designed around analog constraints, overscan quirks, and cheap hardware rather than pure cryptographic strength.  
-- Impact: Showed how weak scrambling plus key rotation can still sustain a pay TV business, despite inevitable gray-market decoders.  
-- Watch next: Compare with later Nagravision and digital CAS systems; analyze how business models adapt once hobbyist attacks become commoditized.
+
+- The design shows how analog constraints can substitute transformations for computationally expensive cryptography.
+- Per-device code derivation discouraged sharing, but leaked schematics and a small state space undermined secrecy.
+- A faithful emulator should model interlacing, safe areas, timing, audio inversion, and monthly code derivation.

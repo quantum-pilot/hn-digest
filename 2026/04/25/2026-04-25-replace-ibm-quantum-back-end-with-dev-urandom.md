@@ -2,19 +2,18 @@
 
 - Score: 331 | [HN](https://news.ycombinator.com/item?id=47897647) | Link: https://github.com/yuvadm/quantumslop/blob/25ad2e76ae58baa96f6219742459407db9dd17f5/URANDOM_DEMO.md
 
-## TL;DR
-A Bitcoin-sponsored “largest quantum ECC attack” contest awarded 1 BTC to a 17‑bit elliptic-curve key recovery claimed to use IBM Quantum hardware. Yuval Adam shows that swapping the IBM backend for `/dev/urandom`—pure uniform randomness—while leaving all other code intact reproduces the same success rates, including the prize‑winning run. The extraction logic simply tests many random candidate keys until one verifies, which is overwhelmingly likely with the chosen parameters. This indicts the contest’s validation and benchmark design, not quantum computing itself.
+### TL;DR
 
----
+A 59-line patch replaces an IBM quantum processor with `/dev/urandom` in a prize-winning elliptic-curve key-recovery submission while leaving its circuit-building and extraction pipeline intact. Random data still recovers small keys and the flagship 17-bit key in two of five trials because 20,000 uniform candidates plus a classical verifier have a 26.43% theoretical chance of finding the answer. The result challenges the claimed quantum contribution, not quantum computing. Hacker News blamed tiny benchmarks, noisy circuits, and weak prize validation, while noting that outperforming random sampling could still demonstrate real signal.
 
-## Comment pulse
-- Small-instance Shor benchmarks are flawed → noisy quantum hardware behaves like RNG, and verification alone can “succeed for the wrong reason” on tiny keys.  
-- Contest vetting criticized → winner appears to lack quantum background; code looks “vibe coded,” reinforcing that organizers didn’t enforce proof of genuine quantum advantage.  
-- Some ask if quantum runs were faster than random search → others reply that 17‑bit ECC is trivial classically, so any “speedup” is meaningless.
+### Comment pulse
 
----
+- Small ECDLP cases are poor quantum benchmarks because random samples can succeed quickly, especially when deep noisy circuits already resemble randomness.
+- Project Eleven’s 1 BTC award exposed inadequate validation; replacing the backend should have been an elementary control experiment.
+- The demonstration proves this recovery was classical — counterpoint: statistically faster-than-random hardware results could still indicate genuine quantum contribution.
 
-## LLM perspective
-- View: This is a textbook case of missing classical baselines and controls when claiming quantum advantage, especially on toy cryptographic problems.  
-- Impact: Quantum contests, industry demos, and reviewers must demand side‑by‑side classical benchmarks and ablation tests like “replace device with RNG.”  
-- Watch next: Better metrics (advantage vs best classical), stricter challenge rules (size, noise models), and independent audits of high‑profile “quantum breakthrough” claims.
+### LLM perspective
+
+- **View:** A verifier confirms candidate correctness, not the mechanism that produced it; attribution requires controlled baselines.
+- **Impact:** Quantum prize organizers need preregistered metrics and null models before treating tiny-key recovery as cryptanalytic progress.
+- **Watch next:** Repeated hardware-versus-random trials, confidence intervals, larger curves, shot-efficiency comparisons, and the prize sponsor’s response.

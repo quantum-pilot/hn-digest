@@ -3,14 +3,17 @@
 - Score: 221 | [HN](https://news.ycombinator.com/item?id=47899844) | Link: https://github.com/nex-crm/wuphf
 
 ### TL;DR
-- WUPHF is an open-source CLI/app that lets multiple LLM “employees” (Claude, OpenAI, etc.) collaborate via Slack-like chats while maintaining a shared Markdown+Git knowledge base—an auto-updated Karpathy-style “LLM wiki” backed by a fact store, evals, and CI. Agents can research, refactor docs, and keep project memory consistent with minimal human input. Discussion focuses less on the tooling and more on whether AI-maintained wikis are useful at all, raising concerns about noise, quality, and over-automated note‑taking versus human-curated hybrids.
+
+WUPHF lets Claude, Codex, and OpenClaw agents collaborate through a shared, Git-backed Markdown wiki. Repository activity shows structured facts, relationship queries, BM25 retrieval, SQLite storage, team skills, benchmarking, and a web interface; the stated goal is autonomous work without losing context. Hacker News focused less on implementation than epistemics: automated notes can externalize low-value details and organize rough ideas, but unchecked agents may generate unreadable, unverified knowledge debt. Commenters favored human curation, selective capture, collaboration between proliferating memory projects, and agents that escalate unresolved questions to people.
 
 ### Comment pulse
-- Note-taking should be human-first → building mental models needs active writing; some only use agents as “digital secretaries” to organize and cross-link existing notes.  
-- LLM-run wikis disappoint → studies show lower quality; unsupervised agents bloat docs, so many insist on human review — counterpoint: short AI stubs may help.  
-- Ecosystem is fragmented → multiple “LLM wiki” projects appear; commenters want shared memory designs, maybe StackOverflow-like human-curated graphs with agents asking questions when stuck.
+
+- Manual note-taking builds the author’s mental model — counterpoint: agents can handle structure while humans still read and judge sources.
+- Automatic accumulation easily becomes an attic of plausible noise; utility falls when nobody verifies, prunes, or revisits the material.
+- Similar systems are proliferating, prompting calls for shared work or simpler combinations such as an Obsidian vault with existing search tools.
 
 ### LLM perspective
-- View: This is primarily an agent-orchestration and memory system; success hinges on strict write-policies, evals, and periodic human refactoring.  
-- Impact: Most valuable to teams drowning in tickets/docs who can afford experimentation; less compelling for individuals optimizing personal understanding.  
-- Watch next: Shared schemas for agent memory, benchmarks of wiki usefulness, and patterns for pruning LLM noise without losing context.
+
+- **View:** A useful shared brain must make forgetting and provenance as deliberate as writing and retrieval.
+- **Impact:** Agent teams gain continuity, while owners inherit responsibility for silent drift across every task that consumes the wiki.
+- **Watch next:** Human-maintained baselines, long-run retrieval quality, fact-conflict handling, growth limits, audit trails, and cross-agent portability.

@@ -3,18 +3,17 @@
 - Score: 214 | [HN](https://news.ycombinator.com/item?id=47902416) | Link: https://github.com/niri-wm/niri/releases/tag/v26.04
 
 ### TL;DR
-Niri 26.04, a scrollable-tiling Wayland compositor, ships its most requested feature: compositor-level blur via the `ext-background-effect` protocol, including an efficient “xray” mode and fine-grained window/layer/popup rules. The release also adds optional config includes, pointer warping for smoother horizontal scrolling, and substantial screencasting upgrades (cursor metadata, dynamic target tweaks, IPC and stop-cast actions, wlr-screencopy fixes). There are numerous animation, input, and IME fixes, plus new GPU profiling via Tracy to tune heavy effects like blur.
 
----
+Niri 26.04 expands the scrollable-tiling Wayland compositor with long-requested blur, using efficient cached “xray” wallpaper blur by default and regular live-background blur when configured. Screencasting gains cursor metadata, delayed dynamic targets, status IPC, and force-stop controls; optional config includes, edge-to-edge pointer warping, IME pop-up fixes, and extensive input and rendering repairs also land. A push-based render-list refactor removes temporary allocations and measured 2–3× faster construction, reaching 8× on an old Eee PC. HN users praised the horizontal-strip model for reducing layout management and keeping task-related windows spatially adjacent.
 
 ### Comment pulse
-- Niri as daily driver → Multiple users report long-term switching from Windows/KDE/i3/sway, praising reduced layout micro‑management and great fit with ultrawide monitors.  
-- Scrollable-tiling mental model → People move from per-app fullscreen workspaces to per-project workspaces, keeping “editor+browser+terminal” visible and pushing new windows right instead of reshaping layouts.  
-- macOS ecosystem → OmniWM’s “Niri mode” gives Mac users similar scrollable-tiling; widely praised as usable daily—counterpoint: its demo video is off‑putting and undersells the tool.
 
----
+- Traditional tilers can force pre-organization when a fourth window appears; Niri lets new windows extend right without shrinking existing ones.
+- Users commonly retain workspaces per project while scrolling among editors, terminals, references, and transient tools within each.
+- Mac users pointed to OmniWM’s Niri-like mode — counterpoint: commenters found its presentation weak despite usable daily behavior.
 
 ### LLM perspective
-- View → Niri is turning scrollable-tiling from an experiment into a coherent UX pattern, now polished enough for mainstream dev workflows.  
-- Impact → Linux power users and eventually macOS (via OmniWM) get tiling benefits without constant manual layout curation.  
-- Watch next → Wider `ext-background-effect` adoption, ext-image-copy-capture support, more bars/panels consuming Niri’s screencast IPC, and benchmarks on blur/xray performance.
+
+- Benchmark blur’s GPU time, power, and frame pacing across integrated, discrete, multi-GPU, and animated-wallpaper setups.
+- Cast IPC enables visible recording indicators; shell adoption can turn the capability into a practical privacy safeguard.
+- Optional includes improve immutable and private configurations while preserving validation when present files are malformed.

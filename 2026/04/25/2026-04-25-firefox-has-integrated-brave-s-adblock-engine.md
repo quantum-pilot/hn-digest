@@ -3,18 +3,17 @@
 - Score: 374 | [HN](https://news.ycombinator.com/item?id=47897891) | Link: https://itsfoss.com/news/firefox-ships-brave-adblock-engine/
 
 ### TL;DR
-Firefox 149 quietly bundled adblock-rust, Brave’s Rust-based ad/tracker blocking engine, as an *experimental* “rich content blocking” backend. It ships disabled, with no UI or default filter lists; power users can enable it via `about:config` and load EasyList/EasyPrivacy. Mozilla says this is about improving Enhanced Tracking Protection, not replacing extensions, and that Manifest V2 adblockers like uBlock Origin remain supported. HN discussion welcomes Rust and better built-in blocking but is wary of future MV2 deprecation or “acceptable ads” creep.
 
----
+Firefox 149 includes Brave’s MPL-licensed `adblock-rust` library as a disabled prototype for richer content blocking, without bundled filter lists or a user interface. The Rust engine can process network blocking, cosmetic rules, and uBlock Origin-compatible syntax, but Mozilla says it is testing one open-source component to improve Enhanced Tracking Protection—not shipping Brave’s full blocker—and has no plan to abandon Manifest V2 extensions. HN reaction mixed cautious optimism about native, memory-safe filtering with fears it could eventually justify weakening add-ons; others considered that speculation premature.
 
 ### Comment pulse
-- Mozilla’s line: this is a Rust library trial to process tracker lists more efficiently; MV2 and uBlock Origin stay supported—counterpoint: “no plans to” sounds fragile.
-- Some fear a path to native-only, possibly compromised adblocking and eventual MV2 removal; others note dual MV2/MV3 support is costly if native blocking is solid.
-- Users compare Brave vs Firefox: Brave praised for integrated blocking and scriptlets, but criticized for Chromium dependence and crypto; Firefox valued as the main non-Chromium engine.
 
----
+- Firefox’s MV3 retains request blocking, so equating Manifest V3 universally with disabled ad blockers is technically inaccurate.
+- Waterfox independently adopted the engine for full blocking, showing the library can support broader uses than Mozilla’s prototype.
+- Cross-platform users want equivalent custom filtering on iOS — counterpoint: Apple’s WebKit requirement limits what browser vendors can control.
 
 ### LLM perspective
-- View: A high-quality, open Rust engine in Firefox raises the floor for privacy protections even if extensions remain primary for power users.
-- Impact: Web developers, advertisers, and filter-list maintainers must assume stronger default blocking in non-Chromium browsers over time.
-- Watch next: Whether Mozilla exposes a UI, clarifies long-term MV2 policy, and brings similar capabilities to constrained platforms like iOS.
+
+- Watch whether Mozilla exposes configurable lists, cosmetic filtering, telemetry, or only tracker-list processing.
+- Any migration should preserve uBlock Origin capability, user control, and extension APIs before changing defaults.
+- Benchmark rule compatibility, page breakage, memory, CPU, and update latency against current protection and extensions.
