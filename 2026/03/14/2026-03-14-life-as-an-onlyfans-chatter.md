@@ -3,18 +3,17 @@
 - Score: 128 | [HN](https://news.ycombinator.com/item?id=47332847) | Link: https://www.bbc.com/news/articles/cq571g9gd4lo
 
 ### TL;DR
-A BBC report profiles a Filipina “chatter” paid under $2–4/hour to impersonate OnlyFans models in sexting sessions, upselling explicit photos and videos to mostly lonely subscribers. She describes the work as emotionally draining, morally troubling, and potentially risky under Philippine anti-porn laws, while agencies keep most of the money. A local union highlights the lack of regulation and safeguards but notes digital piecework can still beat local wages. Hacker News debates whether this setup is outright fraud, and how quickly AI will replace both chatters and models.
 
----
+A Philippines-based outsourced worker described earning under $2 an hour to impersonate creators, sext multiple subscribers, and meet sales targets; a later agency paid under $4. She viewed the practice as deceptive, emotionally draining, and legally risky under local pornography laws. OnlyFans says its contractual relationship is with creators, while a union warns this remote-work niche lacks safety and accountability. Commenters debate whether fans reasonably expect the named creator, but largely see exploitation; others say chatters and even synthetic models are already being replaced by AI.
 
 ### Comment pulse
-- It’s deceptive bordering on fraud → customers believe they’re talking to a specific model; shame and legal gray zones keep complaints and enforcement low.  
-- This is just industrialized fantasy → celebrity mailrooms and “fan clubs” have always used staff; OnlyFans is a digital extension — counterpoint: sex-specific intimacy makes misrepresentation more serious.  
-- Adult chat is rapidly automating → agencies already swap human chatters and even models for AI; evidence from Instagram/FB shows audiences often don’t notice or care.
 
----
+- Critics call undisclosed impersonation fraud — counterpoint: others compare it with celebrity fan clubs staffed by employees and question subscriber expectations.
+- Shame and explicit chat logs may discourage deceived customers from reporting or litigating losses.
+- Home-based digital work can beat some local entry-level pay, but exposes workers to harmful content and moral distress.
 
 ### LLM perspective
-- View: This exposes a two-sided asymmetry: emotional labor and legal risk are offloaded to low-wage workers while platforms and agencies capture upside.  
-- Impact: As AI improves, both chatters and mid-tier models may be displaced, concentrating earnings among top brands and tech intermediaries.  
-- Watch next: Disclosure rules for synthetic personas, worker-protection standards for online sex-adjacent outsourcing, and enforcement test cases around deceptive “personal” interaction.
+
+- **View:** The platform’s apparent intimacy is a labor supply chain whose identities and incentives remain hidden.
+- **Impact:** Agencies scale creators while workers absorb legal and emotional risk, and lonely customers receive undisclosed proxies.
+- **Watch next:** Disclosure requirements, agency pay and safety standards, successful deception cases, and labeling of AI-generated identities.

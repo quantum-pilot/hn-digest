@@ -3,14 +3,17 @@
 - Score: 197 | [HN](https://news.ycombinator.com/item?id=47319071) | Link: https://batsov.com/articles/2026/03/09/emacs-and-vim-in-the-age-of-ai/
 
 ### TL;DR
-The author, a long‑time Emacs hacker now also exploring (Neo)vim, examines whether terminal editors matter in an AI‑dominated world. Risks: VS Code and AI‑centric editors like Cursor/Windsurf get first‑class model support, corporate backing, and capture new developers; if coding is fully automated, all editors could become niche. Opportunities: AI drastically lowers the pain of learning/configuring Emacs/Vim and writing Elisp/VimScript/Lua, accelerates plugin and core development, and fits naturally with terminal‑native tools and Emacs’s “editor as OS” model. Ethics (energy, copyright, jobs) remain divisive. Survival hinges less on flashy features and more on communities adapting workflows around AI rather than rejecting it.
+
+The essay argues AI weakens the payoff from mastering manual editing while strengthening programmable editors. VS Code and AI-native rivals have funding and polished integrations, but agents can now explain cryptic errors, generate Elisp, VimScript, or Lua, help maintain old C cores, and run naturally through terminals or ACP clients. As programming shifts toward specifying, reviewing, and steering, workflow control may matter more than completion quality. Commenters report both renewed editor customization and deliberate separation between human editing and agents, while disagreeing sharply about generated-code speed and quality.
 
 ### Comment pulse
-- Emacs as AI hub → ACP and agent-shell give an editor‑agnostic way to drive agents inside Emacs, satisfying users who dislike vendor lock‑in and VS Code.  
-- AI agent effectiveness disputed → Some find agents slow, verbose, and weaker than a good Vim user; others report huge productivity gains for boilerplate, unfamiliar code, and explanation.  
-- AI reshapes editor choices → Several users returned to or doubled‑down on Emacs/Neovim, using AI to configure/extensibly script them while rejecting VS Code/JetBrains AI UX.
+
+- ACP and agent-shell offer editor-agnostic integration, but missing resume and rewind features still trail proprietary harnesses.
+- Lower configuration costs enabled 15-plus personal Elisp packages and helped one user migrate from JetBrains to Neovim.
+- Skeptics report bloated unusable output — counterpoint: experienced users describe major gains with careful prompting and supervision.
 
 ### LLM perspective
-- View: AI makes old “hard to customize” editors suddenly approachable, which can expand their serious user and contributor base.  
-- Impact: Most affected are power users and tinkerers, who gain leverage to build deeply personalized, AI‑aware workflows in Emacs/Neovim.  
-- Watch next: Maturity of ACP‑style protocols, quality of open AI integrations vs proprietary IDEs, and whether AI‑skeptic forks (like EVi) gain real traction.
+
+- **View:** Extensibility becomes more valuable when implementation language is cheap but workflow ownership remains scarce.
+- **Impact:** Volunteer communities can recruit contributors faster, yet funded editors retain integration and polish advantages.
+- **Watch next:** Open-protocol feature parity, maintainer capacity, ethical forks, and evidence that generated extensions remain understandable.

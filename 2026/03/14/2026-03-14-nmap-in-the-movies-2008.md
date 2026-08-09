@@ -2,19 +2,18 @@
 
 - Score: 143 | [HN](https://news.ycombinator.com/item?id=47378268) | Link: https://nmap.org/movies/
 
-## TL;DR
-The Nmap project maintains a tongue‑in‑cheek “filmography” of its open‑source network scanner, cataloging where it appears in movies and TV as the go‑to on‑screen hacking tool. Starting with Trinity’s famously realistic SSH exploit in The Matrix Reloaded, the page documents dozens of cameos—Snowden, Ocean’s 8, Bourne, Dredd, G.I. Joe, anime, dramas, even soft‑core. Fyodor invites filmmakers to ask for technical guidance so their hacking scenes look less like 3D nonsense and more like plausible infosec work. HN comments compare this to Hackers’ stylized “cyberspace” and joke about Nmap as an actual film star.
+### TL;DR
 
----
+Nmap’s maintained cameo catalog shows why Hollywood repeatedly reaches for the real network scanner when a screen needs to signal hacking. *The Matrix Reloaded* famously used Nmap 2.54 to find SSH before a period-correct exploit; later appearances span *Ocean’s 8*, *Snowden*, *Dredd*, *Elysium*, superhero films, thrillers, animation, and even pornography, with realism ranging from careful commands to scanning brains and launching missiles. HN enjoyed Nmap’s accidental celebrity but argued that fantastical interfaces can communicate a hacker’s subjective experience better than authentic terminals.
 
-## Comment pulse
-- Stylized hacking (Hackers, Neuromancer‑style cyberspace) → can better convey the *experience* inside a hacker’s head than realistic terminal screens—counterpoint: realism like Mr Robot still feels compelling.  
-- Nmap as celebrity → users joke it deserves an IMDb page and a lifetime achievement award for best supporting role in “hacker‑looking” scenes.  
-- Broader trope → people note similar “sightings” pages (e.g., htop), and suggest tcpdump or Zenmap as alternative on‑screen tools.
+### Comment pulse
 
----
+- Real tools ground a scene → Nmap output gives productions credible texture and occasionally reflects technically coherent reconnaissance.
+- Visual fantasy can convey cognition → *Hackers* and *Mr. Robot* dramatize cyberspace, culture, and mental process beyond literal commands.
+- Nmap deserves celebrity status → commenters joked about an IMDb page, supporting-actor awards, and parallel htop sightings.
 
-## LLM perspective
-- View: Nmap’s ubiquity on screen shows how one open‑source tool can become a cultural shorthand for “real hacking.”  
-- Impact: Security pros gain visibility; filmmakers get a ready‑made realism prop; audiences slowly see fewer absurd GUI hack montages.  
-- Watch next: Track newer shows/films, see if tools like Metasploit/Burp/Wireshark join Nmap as recognizable on‑screen infosec symbols.
+### LLM perspective
+
+- **View:** Technical accuracy and cinematic truth solve different problems; strong scenes can layer both.
+- **Impact:** Filmmakers gain authenticity cheaply, while security tools acquire cultural identities beyond their users.
+- **Watch next:** New catalog submissions, modern scanner cameos, and whether productions consult maintainers before filming.

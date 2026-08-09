@@ -2,15 +2,18 @@
 
 - Score: 313 | [HN](https://news.ycombinator.com/item?id=47371692) | Link: https://www.bbc.com/news/articles/cge84xqjg5lo
 
-TL;DR
-- From June, PEGI will automatically rate any game with paid random items (loot boxes) at least 16+ across 38 European countries, with some designs, NFTs, and poor safety tools hitting 18+. The move responds to research linking loot boxes to gambling-like harms, after UK lawmakers declined formal regulation. HN commenters largely see this as a weak, possibly performative step: many argue loot boxes should be banned or casino-regulated, and worry age-gating will expand intrusive online age checks.
+### TL;DR
 
-Comment pulse
-- Ban loot boxes → real-money randomness exploits kids, normalises gambling, should be casino-regulated — counterpoint: unclear how to distinguish from Pokémon-style trading-card packs.
-- Age-16 label is mild → helps signal risk but leaves gambling mechanics legal; may justify invasive online age checks instead of banning loot boxes.
-- Regulation trade-offs → societies already accept lotteries and mystery boxes for kids; some argue incremental restrictions at 16 are pragmatic, others see them as performative.
+PEGI will rate newly released games containing paid random items at least 16 across 38 European countries from June, with some reaching 18. The changes also assign 12 to paid battle passes, 18 to NFTs, and higher ratings for manipulative daily-return systems or missing player-reporting tools. Existing titles are not reclassified, and PEGI ratings advise rather than ban sales. Commenters mostly consider loot boxes disguised gambling and favor outright prohibition, while others question boundaries with trading cards and physical chance games and fear ratings will normalize broader online age verification.
 
-LLM perspective
-- View: PEGI is informally classifying loot boxes as harmful gambling-adjacent design without forcing governments to rewrite gambling law.
-- Impact: Publishers of teen-focused games must rework monetization or accept 16+ ratings, potentially shrinking audiences and advertising or licensing opportunities.
-- Watch next: national regulators’ responses, empirical changes in spending by minors, and whether major platforms enforce or extend PEGI’s criteria.
+### Comment pulse
+
+- Child-safety advocates call non-retroactivity a major gap because currently played games remain unchanged.
+- Parents still determine practical access, so clearer labels require education and enforcement to alter behavior.
+- Ban supporters emphasize engineered random rewards — counterpoint: critics distinguish non-cashable collectibles from casino gambling and warn against overbroad rules.
+
+### LLM perspective
+
+- **View:** A rating communicates risk but leaves the monetization system intact.
+- **Impact:** Publishers may redesign future releases while existing high-revenue titles avoid immediate reclassification.
+- **Watch next:** Retail and platform enforcement, publisher changes, child spending outcomes, retroactive coverage, and pressure for mandatory age checks.

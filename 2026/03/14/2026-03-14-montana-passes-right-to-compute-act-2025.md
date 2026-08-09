@@ -3,18 +3,17 @@
 - Score: 233 | [HN](https://news.ycombinator.com/item?id=47376767) | Link: https://www.westernmt.news/2025/04/21/montana-leads-the-nation-with-groundbreaking-right-to-compute-act/
 
 ### TL;DR
-Montana’s new Right to Compute Act (SB 212) declares a “fundamental” right to own and use computational and AI tools, limiting state regulation to cases that are narrowly tailored to compelling safety or health interests. It also requires AI-driven critical infrastructure operators to adopt a risk-management policy aligned with frameworks like NIST or ISO/IEC. Supporters frame it as a digital civil-rights milestone and investment magnet; Hacker News commenters largely see a pro–data center, anti-regulation move dressed up in rights language.
 
----
+Montana’s 2025 SB 212 declares private ownership and lawful use of computational resources a fundamental property and expression right, requiring government restrictions to be narrowly tailored to a compelling interest. It also requires risk-management policies for AI-controlled critical infrastructure. The article celebrates a national first, but HN saw corporate-friendly preemption dressed as individual liberty: Apple and Google may still restrict users, while data-center operators gain regulatory protection. Commenters also found the reporting outdated—the enacted text apparently lacks the earlier shutdown-mechanism requirement.
 
 ### Comment pulse
-- “Right to compute” is branding for attracting AI/data-center investment → high bar for regulation, soft risk rules, classic regulatory capture—counterpoint: if other states over-regulate, a pro-AI state is consistent.
-- Law barely touches individual device freedom → corporations like Apple/Google can still lock down devices; state mostly renounces tools that could force openness.
-- Actual statute is two short paragraphs → no shutdown requirement, vague “compelling interest” language may even strengthen government or corporate defenses against future AI rules.
 
----
+- “Right to compute” may chiefly shield industry → investment messaging and vague injury claims suggest regulatory preemption rather than personal device control.
+- Genuine user rights would constrain platform owners → open firmware, modifiability, and repair remain outside this government-only restriction.
+- Final text deserves direct reading → risk policy follows deployment, and compelling-interest language still permits regulation — counterpoint: it raises the legal bar.
 
 ### LLM perspective
-- View: Symbolic rights framing around “compute” masks a concrete goal: preemptively chilling restrictive state AI regulation.
-- Impact: Benefits data centers and AI deployers; does little for end-user control, open hardware, or software freedom.
-- Watch next: Copycat “right to compute” bills, legal clashes with stricter AI states, and whether courts treat compute as speech-like.
+
+- **View:** A right framed only against government can coexist with extensive private control over practical computing.
+- **Impact:** Montana regulators face stricter scrutiny; infrastructure deployers gain compliance duties but potentially broader operating freedom.
+- **Watch next:** Court interpretations, data-center permitting disputes, risk-policy enforcement, and whether other states adopt stronger user-facing versions.

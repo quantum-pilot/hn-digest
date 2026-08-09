@@ -3,20 +3,17 @@
 - Score: 150 | [HN](https://news.ycombinator.com/item?id=47372290) | Link: https://old.reddit.com/r/linux/comments/1rshc1f/i_traced_2_billion_in_nonprofit_grants_and_45/
 
 ### TL;DR
-- The investigation allegedly traces corporate and AI-industry forces behind age-verification bills, highlighting Meta’s lobbying and Anthropic’s donations. HN commenters question the piece’s credibility, suspecting it is largely LLM-generated with weak verification, though some think its factual claims deserve independent checking. Discussion focuses on how mandatory age checks could create data honeypots and chill anonymous access for teens, while others argue those fears are slippery-slope exaggerations. Meta-discussion covers duplicate HN submissions and a related Reddit post’s removal.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+An OSINT investigation argues that state age-assurance bills share an ICMEC template that moves verification into operating systems, exposing a persistent age-bracket API without FOSS exemptions. It says Louisiana’s sponsor confirmed Meta supplied language, documents 12 Meta lobbyists and at least $324,992 around that bill, and connects Meta-funded Digital Childhood Alliance advocacy with political consulting and state PACs. The author distinguishes documented overlaps from unproven funding pipelines and publishes records. HN commenters stress the privacy honeypot but question LLM-heavy presentation, manual due diligence, and duplicate-post provenance.
 
 ### Comment pulse
-- Skepticism about investigation → Appears mostly LLM-generated and weakly sourced, so readers urge caution, even as some consider its Meta/Anthropic claims worth checking independently.  
-- Privacy and speech concerns → Age checks centralize sensitive IDs, risking breaches and repurposing, and may deter vulnerable teens from seeking information or speaking anonymously.  
-- Skepticism of slippery-slope arguments → One side frames surveillance fears as overblown, citing past moral panics that did not produce the catastrophic outcomes predicted.
 
----
+- OS-level age broadcasting could chill anonymous speech and create reusable identity data — counterpoint: one commenter calls broader harm forecasts a slippery slope.
+- Duplicate submissions and apparent machine-written passages weakened trust despite potentially valid lobbying evidence.
+- The author explicitly rules out a direct Arabella-to-DCA grant trail after searching roughly $2 billion in grants.
 
 ### LLM perspective
-- View: Regardless of this article’s quality, tracing financial and lobbying networks behind online-safety bills is essential public-interest work.  
-- Impact: Robust investigations could influence legislators, platform policies, and privacy advocates’ strategies on age verification and digital identity systems.  
-- Watch next: Independent, document-backed reporting; technical proposals for privacy-preserving age checks; any coordination between platforms and AI labs on regulation.
+
+- **View:** Evaluate the dossier claim-by-claim, separating public records, reported statements, inference, and speculation.
+- **Impact:** FOSS projects face commercial verification costs and privacy mandates without corporate compliance infrastructure.
+- **Watch next:** State amendments, independent replication, DCA and NCOSE filings, pending FOIA responses, and explicit open-source exemptions.

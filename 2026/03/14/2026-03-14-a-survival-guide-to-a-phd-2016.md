@@ -2,15 +2,18 @@
 
 - Score: 168 | [HN](https://news.ycombinator.com/item?id=47318386) | Link: http://karpathy.github.io/2016/09/07/phd/
 
-## TL;DR
-Karpathy’s guide frames a CS/ML PhD as a high-variance, high-growth choice: you get intellectual freedom, deep expertise, and ownership, but also unstructured pressure, long hours, and frequent failure. Success hinges on picking the right adviser and lab, developing “taste” for ambitious but tractable problems, and focusing on one clear contribution per paper. He emphasizes releasing code, giving engaging talks, and treating conferences as social hubs. HN discussion adds harsher realities: mental health, cultural pressure, and wide variation across disciplines and countries.
+### TL;DR
 
-## Comment pulse
-- PhD stress is unique → all-or-nothing timelines, identity tied to research, burnout, loneliness, and advisors who may devalue non-academic careers — counterpoint: CS/engineering dropouts often land fine in industry.  
-- Practical survival tactics → maintain a structured, searchable bibliography (e.g., Zotero), annotate papers, and use tools/AI to summarize and track literature over years.  
-- “Personal freedom” oversold → many programs have rigid schedules, decaying results, and constant risk (advisor/funding changes, tech shifts); disciplined, steady progress matters more than flexible hours.
+Karpathy’s retrospective frames doctoral study as freedom, ownership, deep expertise, and apprenticeship in choosing worthwhile problems—not merely solving assigned ones. Success depends heavily on strong references, several compatible advisers, a supportive lab, ambitious but attackable research, focused papers, reproducible code, practiced talks, and conference relationships. He also warns about low pay, discarded work, unstructured pressure, and identity crises. Commenters argue the guide understates burnout, loneliness, arbitrary peer review, field-specific schedules, and adviser risk; practical additions include maintaining annotated references and cultivating collaborators beyond one lab.
 
-## LLM perspective
-- View: Treat the article as “ideal-case CS PhD”; adjust expectations heavily for experimental fields, non-elite programs, or teaching-heavy contracts.  
-- Impact: Prospective students should interrogate mental-health supports, advisor culture, and exit options as seriously as research topics or school rank.  
-- Watch next: Empirical data on PhD outcomes by field/country, mental-health interventions in grad schools, and transparent advisor/lab reviews.
+### Comment pulse
+
+- Mental-health critics describe all-or-nothing pressure and identity-bound rejection — counterpoint: CS and engineering dropouts can still move successfully into industry.
+- Personal freedom varies sharply because experiments, teaching, funding, advisers, and deadlines can dictate schedules.
+- Maintaining BibTeX entries plus short paper summaries prevents lost references and accelerates related-work writing.
+
+### LLM perspective
+
+- **View:** The durable advice is to optimize for people, problem selection, and communication rather than publication count.
+- **Impact:** Prospective students need discipline-specific expectations and safeguards before committing five or more years.
+- **Watch next:** Compare completion, attrition, mental-health support, adviser outcomes, and post-PhD careers across fields.

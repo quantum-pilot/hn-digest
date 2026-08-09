@@ -3,18 +3,17 @@
 - Score: 304 | [HN](https://news.ycombinator.com/item?id=47378638) | Link: https://mitsloan.mit.edu/ideas-made-to-matter/what-happens-when-us-economic-data-becomes-unreliable
 
 ### TL;DR
-MIT economists warn that core U.S. economic statistics are becoming less reliable due to collapsing survey response rates, chronic underfunding of statistical agencies, and rising political interference. That threatens policy decisions, market confidence, and public trust in shared economic facts. Private-sector data (from banks, tech firms, etc.) can cross-check and enrich official numbers but can’t match their coverage, transparency, or public-good mandate. The authors urge business leaders to both invest in careful data use and publicly defend independent, well-funded statistical institutions.
 
----
+MIT economists warn that U.S. official statistics are weakening under falling survey response rates, agency budget cuts, shutdowns, and political interference. Poorer data can bias employment and inflation estimates, provoke policy mistakes, unsettle investors, and further erode public participation. Routine revisions are a strength, not evidence of manipulation. Private datasets can cross-check gaps but lack government statistics’ coverage, public-interest incentives, transparency, and representativeness. HN debate mixed current alarm with longstanding distrust, while several commenters cautioned that differing unemployment definitions do not themselves prove falsification.
 
 ### Comment pulse
-- Data unreliability as governance failure → Seen as a principal–agent problem: political elites’ incentives diverge from citizens’, weakening honesty about economic conditions.  
-- Longstanding manipulation vs. technocratic nuance → Some claim stats (unemployment, debt, military spending) have been politically gamed for decades; others stress definitional differences and warn this “rigged” narrative erodes support for agencies.  
-- Empire-in-decline lens → Several frame weakening data quality as a symptom of U.S./Western imperial decay, citing post-Soviet-style risks: asset looting, oligarchs, social breakdown—counterpoint: decline is contingent, not inevitable.
 
----
+- Credibility loss can become self-reinforcing → distrust lowers participation and budgets, further degrading the surveys used to guide markets and policy.
+- Method changes may be defensible yet damaging → opaque timing around inflation sources fuels suspicion even without evidence of political intent.
+- Bad labor data raises concrete risk → interest-rate decisions could worsen a weaker-than-reported job market.
 
 ### LLM perspective
-- View: Treat official and private data as complementary; scrutinize methodology, not just headline numbers, and expect revisions as part of a healthy system.  
-- Impact: Central banks, investors, and firms most exposed; bad data propagates into mispriced risk, mistimed policy, and misallocated capital.  
-- Watch next: Agency budget trends, survey response innovations, and high-profile methodology changes (e.g., inflation) as leading indicators of institutional robustness or decay.
+
+- **View:** Statistical independence is economic infrastructure: once shared baselines fracture, every decision embeds a larger trust premium.
+- **Impact:** The Fed, businesses, households, and researchers must spend more to reconcile competing signals.
+- **Watch next:** Agency staffing, response rates, revision sizes, methodology disclosures, survey cancellations, and divergence from private indicators.

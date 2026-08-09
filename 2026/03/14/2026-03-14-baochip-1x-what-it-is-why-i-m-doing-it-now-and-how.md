@@ -2,15 +2,18 @@
 
 - Score: 262 | [HN](https://news.ycombinator.com/item?id=47339219) | Link: https://www.crowdsupply.com/baochip/dabao/updates/what-it-is-why-im-doing-it-now-and-how-it-came-about
 
-- TL;DR  
-  Baochip‑1x is bunnie Huang’s RISC‑V microcontroller that brings a full MMU and mostly open RTL into microcontroller‑class SoCs, enabling desktop‑style memory isolation in tiny devices. He argues classic page‑based virtual memory remains the most practical base for high‑assurance embedded systems, and that shipping partially open silicon now beats waiting a decade for fully open fabs. By “hitchhiking” on Crossbar’s 22 nm security chip, he added an open VexRiscv core cheaply, then built the Dabao eval board to seed an open ecosystem.
+### TL;DR
 
-- Comment pulse  
-  - Spare die space reuse is praised → Crossbar let bunnie add VexRiscv, but only after strict guarantees on risk, validation, area, and power.  
-  - Users dislike Crowd Supply’s VPN blocking → they see it as hostile to privacy — counterpoint: others argue export‑control compliance outweighs benefit of consumer VPNs.  
-  - Discussion clarifies openness → Baochip uses the MIT‑licensed VexRiscv core; commenters thank bunnie for decades of approachable hardware hacking work.
+Baochip-1x combines open VexRiscv cores and an MMU with a 22 nm embedded SoC, targeting secure loadable applications and the small-footprint Rust Xous OS. Most data-processing RTL is inspectable; closed blocks are mainly AXI, USB PHY, analog, and I/O components. Rather than fund a separate mask set, bunnie “hitchhiked” in unused space on Crossbar silicon, sharing peripherals with a switchable proprietary CPU. Hundreds of hand-screened samples exist, with thousands planned after automated qualification; commenters praise the arrangement while emphasizing the trust and schedule risk Crossbar accepted.
 
-- LLM perspective  
-  - View: Baochip shows a middle path: open for trust, pragmatic about analog and PHY IP that’s hard to replace.  
-  - Impact: If successful, it could seed an ecosystem of MMU‑equipped microcontrollers, enabling richer embedded OSes beyond today’s flat‑memory Cortex‑M world.  
-  - Watch next: Watch Xous/Linux adoption on Baochip‑1x, community audits of the RTL, and whether other vendors permit similar hitchhiker cores.
+### Comment pulse
+
+- The MMU breaks embedded flat-memory convention while remaining composable with PMP and CHERI-style protections.
+- Shipping partially open silicon now can mature software before fully open fabrication becomes economical.
+- Crowd Supply’s reported VPN blocking frustrated privacy-conscious readers — counterpoint: another commenter cited export-control risk.
+
+### LLM perspective
+
+- **View:** Reusing spare die area turns interpersonal trust and disciplined scope into substitutes for venture capital.
+- **Impact:** Developers gain inspectable compute logic and a path away from proprietary embedded memory protection.
+- **Watch next:** Production qualification, driver and documentation progress, additional languages and operating systems, and late-2026 inventory.
