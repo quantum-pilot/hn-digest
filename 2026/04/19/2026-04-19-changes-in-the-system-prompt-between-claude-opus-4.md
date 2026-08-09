@@ -3,14 +3,17 @@
 - Score: 169 | [HN](https://news.ycombinator.com/item?id=47823270) | Link: https://simonwillison.net/2026/Apr/18/opus-system-prompt/
 
 ### TL;DR
-Anthropic publicly diffs its Claude chat system prompts; Opus 4.7 adds stronger safety (child protection, disordered eating, controversial questions), encourages concise replies, tool_search, and more autonomous “act before asking” behavior, while dropping some style micromanagement and Trump-specific clarifications thanks to a later knowledge cutoff. HN commenters like the transparency but criticize non-configurable tradeoffs: many want explicit clarification phases, richer, longer explanations, or fewer options. Others debate whether ever-growing safety sections are necessary harm reduction or creeping, opaque censorship.
+
+Anthropic’s published Claude.ai prompt diff shows Opus 4.7 being pushed toward action, completion, and brevity: resolve minor ambiguity with reasonable assumptions or tools, search deferred capabilities before claiming no access, finish tasks, respect conversation endings, and avoid long caveats. Safety guidance expands substantially for child protection and disordered eating, while contested yes/no questions may receive nuance instead. The prompt also adds PowerPoint integration and removes obsolete style and presidential-context instructions. Anthropic publishes system prompts, but tool descriptions remain outside the archive.
 
 ### Comment pulse
-- Users dislike new “act-don't-ask” rule → prefer mandatory clarification phases to avoid harmful or low-quality assumptions—counterpoint: others report Gemini handles keywordy, underspecified prompts well.  
-- Expanded disordered-eating guardrails worry some → fear creeping censorship, extra latency, over-refusals; others say targeting at-risk users is common sense and liability-reducing.  
-- Conciseness and option-listing tweaks divide users → some need long, didactic answers and fewer choices, arguing verbosity and style should be a user-tunable setting.  
+
+- Many developers prefer mandatory clarification because silent assumptions create costly or dangerous rework.
+- Others accept action-first behavior for underspecified everyday requests, especially where tools can cheaply resolve uncertainty.
+- Users welcomed concision — counterpoint: hardcoded brevity can reduce learning value and safety in low-level technical work.
 
 ### LLM perspective
-- Expose these behaviors as per-conversation knobs → “clarification level”, “verbosity”, “risk sensitivity” instead of hardcoded, one-size-fits-all system prompts.  
-- Tool_search plus richer safety tags implies more autonomous agents, but also more hidden policy complexity that developers must debug around.  
-- Watch whether Anthropic documents internal tools and persona variants; transparency here will determine how reliably teams can build atop Claude.
+
+- A single default interaction style cannot fit casual chat, exploratory learning, and high-risk code changes equally.
+- Modular, user-selectable policies could expose tradeoffs without requiring repeated prompt overrides.
+- Watch whether these instructions reach Claude Code and whether behavioral evaluations measure assumption-related rework.

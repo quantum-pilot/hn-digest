@@ -3,14 +3,17 @@
 - Score: 110 | [HN](https://news.ycombinator.com/item?id=47777715) | Link: https://nanopass.org/
 
 ### TL;DR
-Nanopass is a Scheme/Racket embedded DSL for building compilers as many tiny transformation passes over a sequence of intermediate representations, reducing boilerplate and clarifying each stage. Hacker News discussion centers on whether numerous small passes actually simplify real-world compilers: critics describe cross-pass entanglement, redundancy, slower compilation and harder debugging; fans report flexible reordering and clear invariants with 40–50 passes. Commenters note that optimal pass count is language-dependent, and high-quality, many-pass compilers like Chez Scheme can still compile quickly.
+
+The Nanopass Framework is an embedded DSL for building compilers from many small transformation passes and intermediate representations. It aims to remove repetitive scaffolding so compiler implementations remain understandable and maintainable as each stage rewrites or analyzes a narrowly defined language form. The project site points newcomers to its GitHub repository and documentation. Discussion, however, makes clear that the architecture’s appeal is conditional: fine-grained stages can expose ordering and valid analyses, but cross-pass dependencies, repeated representation conversion, and debugging may become expensive.
 
 ### Comment pulse
-- Many passes sound clean, but cross-pass dependencies, redundancy and debugging pain arise; mislocated features accumulate tech debt. — counterpoint: some nanopass users liked reordering passes.  
-- Optimal pass/IR count is language-specific; Scheme naturally splits into lexer, parser, macro expander, alpha renaming, CPS transform, closure conversion, optimizations, then codegen.  
-- More passes and IR conversions can slow compilers, especially with pointers and recomputed flow graphs. — counterpoint: Chez Scheme still compiles ~100 KLOC/s with optimization.  
+
+- Practitioners praised tiny rewrites for making pass ordering explicit and allowing analyses or optimizations to move cleanly.
+- Others reported feature interactions turning nominally separate stages into tangled dependencies, with extra runtime and maintenance costs.
+- More passes improve conceptual separation — counterpoint: the right granularity depends heavily on language semantics, representation choices, and compiler goals.
 
 ### LLM perspective
-- View: Nanopass suits research/teaching or rapidly evolving languages; industrial compilers may prefer coarser passes plus robust analysis infrastructure.  
-- Impact: Frameworks encoding IR evolution declaratively could make refactoring pass pipelines safer, with better invariants and automated validation between stages.  
-- Watch next: Useful future work: integrated visualizers for IRs and pass effects, enabling stepwise debugging across dozens of transformations.
+
+- Treat pass count as an empirical design variable, not a doctrine.
+- Define explicit invariants for every intermediate representation and ownership rules for analysis data.
+- Profile transformation costs and debugging workflows before committing to dozens of representations.

@@ -3,9 +3,11 @@
 - Score: 376 | [HN](https://news.ycombinator.com/item?id=47824976) | Link: https://decipher.sc/2026/04/19/vercel-says-internal-systems-hit-in-breach/
 
 ### TL;DR
-Vercel disclosed a breach of its internal systems affecting a “limited subset” of customers, traced to a compromised third‑party AI tool using a Google Workspace OAuth app. The incident likely impacts many organizations beyond Vercel. The company has brought in incident response experts, notified law enforcement, and published IOCs but has not specified which systems or how many customers were hit. Customers are urged to review activity logs, rotate environment variables, and use Vercel’s “sensitive” env var storage.
+
+Vercel says unauthorized access reached internal systems and affected a limited, unspecified subset of customers. The intrusion originated through a compromised Google Workspace OAuth application belonging to an unnamed third-party AI tool; Vercel published the app identifier as an indicator of compromise and warned that the broader compromise may affect hundreds of users across organizations. The company engaged incident-response specialists and law enforcement. Customers are advised to inspect activity logs, rotate environment variables, and mark secrets such as API keys sensitive so Vercel stores them unreadably.
 
 ### LLM perspective
-- View: This is another OAuth/SaaS supply‑chain incident, where a trusted third‑party app becomes the real enterprise entry point.  
-- Impact: Any Vercel customer that authorized the implicated AI tool, plus other organizations using that OAuth app, may face downstream compromise.  
-- Watch next: Clearer blast-radius disclosure, app vendor identification, and whether regulators push for stricter third‑party OAuth security and transparency.
+
+- Immediate scope uncertainty shifts investigation burden onto customers and administrators.
+- Third-party OAuth consent can create organization-wide trust paths disproportionate to an app’s business value.
+- Watch for related victims, named vendor disclosure, customer counts, and confirmed data access.

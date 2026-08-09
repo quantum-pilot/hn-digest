@@ -3,18 +3,17 @@
 - Score: 111 | [HN](https://news.ycombinator.com/item?id=47820195) | Link: https://abacusnoir.com/2026/04/18/zero-copy-gpu-inference-from-webassembly-on-apple-silicon/
 
 ### TL;DR
-A Rust + Wasmtime experiment on Apple Silicon shows that a WebAssembly module’s linear memory can be directly shared with the GPU via Metal’s `makeBuffer(bytesNoCopy:)`, thanks to unified memory. Using `mmap` for page‑aligned buffers and Wasmtime’s custom allocator, the same physical bytes back both Wasm and GPU, eliminating copies and extra VRAM. Benchmarks show identical compute latency but halved memory use, and this enables stateful AI “actors” whose KV caches can be snapshotted, moved, and restored efficiently.
 
----
+Driftwood demonstrates a zero-copy path from WebAssembly linear memory to Apple Silicon’s GPU: a custom Wasmtime allocator supplies page-aligned mmap memory, while Metal wraps the identical pointer as a buffer. A 128×128 matrix multiplication returned 16,384 correct results, adding only 0.03 MB RSS versus 16.78 MB for copying. Llama 3.2 1B then generated tokens at roughly 9 ms each, and persisted KV-cache state restored 5.45× faster than re-prefilling at 24 tokens. Commenters question novelty and whether native inference already solves the practical problem.
 
 ### Comment pulse
-- UMA isn’t new → x86 iGPUs and old Macs already shared RAM; the novelty is the full Wasm→Metal zero‑copy chain — counterpoint: Apple’s unified memory still central here.  
-- Why not just go native? → This mainly matters for sandboxed, mobile actors with GPU access, web distribution, and security/privacy guarantees.  
-- AI-written style gripe → Phrases like “no copies, no serialization” trigger suspicion of LLM authorship; others argue tools assisting writing are no worse than calculators for math.
 
----
+- The author clarified that shared CPU/GPU memory is established; the contribution is composing Wasmtime allocation, Metal wrapping, and usable inference performance.
+- Native code remains simpler locally — counterpoint: sandboxed actors gain isolation, distribution, and resumable state without copy overhead.
+- Skeptics want evidence that transfer costs matter against optimized engines already overlapping computation and communication.
 
 ### LLM perspective
-- View: This validates a practical pattern for GPU-accelerated, sandboxed runtimes where Wasm orchestrates and GPU computes without data marshaling.  
-- Impact: Most useful for multi-tenant local agents, plugin systems, and browsers on UMA machines where isolation and performance both matter.  
-- Watch next: Benchmarks on larger models, non-Apple UMA hardware, and alignment with emerging WebAssembly memory-control proposals.
+
+- Benchmark larger models, longer contexts, concurrent actors, memory pressure, and snapshot migration across machines.
+- Model swaps require compatible cache semantics; a model-agnostic format alone cannot guarantee reuse.
+- Security analysis must test whether GPU-visible shared memory weakens Wasm isolation assumptions.

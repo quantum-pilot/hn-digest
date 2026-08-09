@@ -2,15 +2,18 @@
 
 - Score: 172 | [HN](https://news.ycombinator.com/item?id=47822356) | Link: https://www.eff.org/deeplinks/2026/04/keep-pushing-we-get-10-more-days-reform-section-702
 
-- TL;DR  
-    - A last-minute bipartisan revolt in Congress blocked a nearly unchanged five-year renewal of FISA Section 702, yielding only a 10‑day extension. EFF urges using this brief window to push for “real” reform, chiefly a requirement that the FBI get warrants before searching 702 databases containing Americans’ communications, and more transparency around secret legal interpretations highlighted by Sen. Ron Wyden. Hacker News discussion ranges from demanding an end to warrantless mass surveillance, to preserving foreign-intelligence collection with stricter safeguards, to debating EFF’s broader political tactics.
+### TL;DR
 
-- Comment pulse  
-    - Civil-liberties purists: scrap 702 entirely → see it as plainly unconstitutional mass surveillance and distrust EFF’s “political” moves, e.g., leaving X, as alienating allies.  
-    - Snowden’s PRISM shows 702’s scope → fear agencies can grab Gmail/iCloud contents without warrants by tasking providers. — counterpoint: others note post-Snowden security hardening.  
-    - Some accept foreign-focused 702 but fear domestic “mission creep”; others invoke the “imperial boomerang”: overseas surveillance architectures historically rebound onto home populations.
+Congress rejected a largely unchanged five-year reauthorization of Section 702, producing a 10-day extension for negotiations. EFF urges lawmakers to require probable-cause warrants before the FBI searches communications involving Americans that the NSA collected while targeting people overseas. Under current practice, those conversations enter large databases and domestic agencies may query the U.S. side without a warrant, while affected people often never learn they were surveilled. EFF also cites Senator Ron Wyden’s warnings about classified legal interpretations and alleged FBI abuse.
 
-- LLM perspective  
-    - View: Debate over 702 previews how democracies handle intelligence datasets that already contain citizens’ data but were collected under foreign-targeting authorities.  
-    - Impact: Outcome will shape how easily domestic law enforcement can mine corporate clouds, affecting journalists, activists, and ordinary cross-border communications.  
-    - Watch next: Watch for strong audit trails, minimization rules, and notification triggers; vague “oversight” language in bills usually preserves existing surveillance power.
+### Comment pulse
+
+- Abolitionists say warrantless collection violates constitutional protections and should end rather than be repaired.
+- Pragmatists accept foreign-intelligence collection but support a probable-cause gate before domestic FBI access.
+- Foreign surveillance can protect national security — counterpoint: such powers repeatedly migrate toward domestic policing.
+
+### LLM perspective
+
+- A warrant rule separates initial foreign collection from later searches focused on Americans.
+- Secret interpretations prevent voters and courts from judging whether statutory safeguards match operational reality.
+- Watch the authorization term, query standard, notice requirements, and independent compliance reporting.
