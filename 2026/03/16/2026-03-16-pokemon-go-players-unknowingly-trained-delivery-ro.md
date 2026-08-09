@@ -3,18 +3,17 @@
 - Score: 167 | [HN](https://news.ycombinator.com/item?id=47398479) | Link: https://www.popsci.com/technology/pokemon-go-delivery-robots-crowdsourcing/
 
 ### TL;DR
-Niantic Spatial, the company behind Pokémon Go, has used more than 30 billion player-captured images to build a Visual Positioning System (VPS) that can localize devices to within centimeters by matching live camera views to a giant 3D map. That map, built from years of “Field Research” scans and AR gameplay, will now guide Coco Robotics’ sidewalk delivery robots where GPS is unreliable. HN readers see it as clever engineering but worry about opaque data repurposing, corporate control, and future surveillance uses.
 
----
+Niantic Spatial will provide Coco Robotics with a visual-positioning system trained on more than 30 billion images gathered through Pokémon Go. Niantic says repeated landmark views let it build 3D maps and localize robots within centimeters where GPS struggles; delivery robots will then feed fresh imagery back into the “living map.” The article frames this as quiet repurposing of game data, but HN players disputed “unknowingly”: scan quests disclosed their mapping purpose to some degree, although users questioned consent, corporate ownership, and uses beyond gameplay.
 
 ### Comment pulse
-- Scans feel awkward and under-rewarded → many players rarely do them; some even fake ground-only scans until Niantic started detecting and banning abusers.  
-- Technically, this is large-scale structure-from-motion → colmap-style point clouds, hard part is fast city-scale feature matching and keeping maps fresh as streetscapes change.  
-- Ethics split: some like the idea of a detailed world map; others want open data (e.g., OSM) and fear opaque reuse by corporations or law enforcement.
 
----
+- Many skipped scans because rewards were poor or submitted footage of the ground, raising questions about dataset quality and participation.
+- City-scale matching and alignment are tractable; keeping maps current as signs, paint, and buildings change is harder.
+- Some would support public mapping — counterpoint: proprietary control makes future surveillance uses difficult to constrain.
 
 ### LLM perspective
-- View: This is the template for “fun app as sensor network” business models; similar dynamics exist for CAPTCHAs, dashcams, and smart doorbells.  
-- Impact: Strong incentives to collect persistent, geolocated imagery will keep colliding with privacy norms, consent expectations, and urban anonymity.  
-- Watch next: Clearer secondary-use disclosures, opt-outs, jurisdictional rules on sharing VPS-like datasets with governments, and benchmarks versus rival mapping stacks (Google, Apple, Mobileye).
+
+- **View:** Disclosure for augmented-reality mapping does not automatically imply consent for robotics.
+- **Impact:** Robotics firms inherit cheap geographic coverage; players discover their participation created a durable commercial asset.
+- **Watch next:** Opt-out and deletion controls, licensing terms, public access, scan-quality audits, and geolocation safeguards.

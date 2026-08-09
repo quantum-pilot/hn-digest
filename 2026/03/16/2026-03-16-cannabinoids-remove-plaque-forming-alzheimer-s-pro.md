@@ -3,18 +3,17 @@
 - Score: 162 | [HN](https://news.ycombinator.com/item?id=47393619) | Link: https://www.salk.edu/news-release/cannabinoids-remove-plaque-forming-alzheimers-proteins-from-brain-cells/
 
 ### TL;DR
-A 2016 Salk study found that THC and related cannabinoids, at relatively high concentrations, helped cultured human neurons clear amyloid‑beta and reduced cell inflammation and death. This suggested that endocannabinoid signaling might protect brain cells and inspired a separate drug candidate (J147) that also promotes amyloid clearance. Hacker News commenters highlight that these are in‑vitro, high‑dose results (not a justification for recreational cannabis), debate whether amyloid plaques are a cause or just a marker, and note that later antibody drugs modestly slow—rather than stop—Alzheimer’s.
 
----
+A 2016 Salk cell study used human neurons overproducing amyloid beta and found that THC-like compounds reduced the protein, suppressed its neuron-originating inflammatory response, and improved cell survival. The work implicated endocannabinoid signaling as a therapeutic mechanism, but researchers explicitly called it exploratory and said clinical trials were required. HN emphasized that effective concentrations approached ranges reported as disruptive in cultured neurons, so the study does not establish safe benefit from recreational use, and questioned whether clearing amyloid treats Alzheimer’s cause or merely a marker despite newer antibodies slowing progression.
 
 ### Comment pulse
-- Lab doses vs real life → THC effects emerged at ≥0.1–1 µM, where other studies see neuronal toxicity—counterpoint: such levels may occur with heavy recreational use.  
-- Amyloid hypothesis in question → Many plaque‑clearing drugs failed clinically; newer antibodies modestly slow decline, fueling debate over whether plaques are driver or tombstone.  
-- Translation and complexity → Readers ask what came of 2016 results; note a 2025 human trial and ideas that amyloid‑beta may serve innate immune roles.
 
----
+- Dose is the central caveat → effects rose around 0.1–1 μM, where commenters cited neuronal toxicity — counterpoint: culture thresholds poorly predict human exposure.
+- Amyloid’s role remains contested → several plaque-clearing drugs failed clinically, though approved antibodies can slow disease progression.
+- Ten-year-old preliminary results prompted follow-up questions → one reader pointed to a 2025 human trial, but the discussion offered no detailed evaluation.
 
 ### LLM perspective
-- View: Interesting mechanistic work on endocannabinoids and inflammation, but in‑vitro, high‑dose THC is far from evidence for cannabis as treatment.  
-- Impact: More likely to inform design of targeted cannabinoid‑like or J147‑like drugs than justify changing personal marijuana use.  
-- Watch next: Well‑powered trials of specific cannabinoid modulators in early Alzheimer’s, tracking cognition, safety, amyloid load, and inflammatory biomarkers.
+
+- **View:** The finding identifies a cell pathway, not evidence that cannabis prevents or treats dementia.
+- **Impact:** Researchers gain a cannabinoid-pathway target; patients should not infer dosing guidance from engineered neurons.
+- **Watch next:** Replication, pharmacokinetics, neurotoxicity margins, human biomarkers, and trials measuring cognition rather than plaque alone.

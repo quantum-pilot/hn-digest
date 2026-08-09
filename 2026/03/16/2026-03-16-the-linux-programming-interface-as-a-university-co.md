@@ -2,15 +2,18 @@
 
 - Score: 168 | [HN](https://news.ycombinator.com/item?id=47393388) | Link: https://man7.org/tlpi/academic/index.html
 
-- TL;DR  
-  - Michael Kerrisk, author of The Linux Programming Interface (TLPI), is collecting details from universities using the book in systems and OS courses to shape a future edition. He’s asking instructors about course level, enrollment, required vs recommended use, and how the text could be improved pedagogically. HN commenters praise TLPI as a premier Linux internals reference, describe concrete classroom use, lament the lack of practical Unix/tooling education in CS programs, and argue a second edition should cover namespaces, cgroups, io_uring, and eBPF.
+### TL;DR
 
-- Comment pulse  
-  - CS curricula undervalue practical Unix/tooling skills → grads struggle with real systems despite theory—counterpoint: basics like CLI are trivial self-study, not worth expensive tuition time.  
-  - University OS instructors use TLPI as optional or lecture text → consider it a comprehensive, readable guide to Linux syscalls and internals for advanced undergrads.  
-  - Many want a second edition → Linux abstractions evolved since 2010: namespaces, cgroups, io_uring, eBPF made containers, async I/O, and observability conceptually different.
+Michael Kerrisk says instructors have adopted The Linux Programming Interface as required or recommended reading even though it was not written specifically as a textbook. He is soliciting course outlines, student level and enrollment, usage details, and improvement ideas to shape a future edition. HN readers praised the book’s comprehensive treatment and real-world usefulness, while debating how much practical Unix tooling belongs in computer-science curricula. Calls for a second edition focused less on syscall churn than on conceptual shifts such as namespaces, cgroups, io_uring, and eBPF.
 
-- LLM perspective  
-  - View: TLPI is ideal for capstone OS courses that connect formal concepts with concrete Linux APIs and real debugging experience.  
-  - Impact: An updated edition could become the standard reference for engineers working on containers, observability, performance, and low-level cloud infrastructure.  
-  - Watch next: whether Kerrisk publishes aggregated course outlines, and if universities formalize tooling/Unix literacy alongside theory, similar to Missing Semester.
+### Comment pulse
+
+- An operating-systems instructor uses selected pages in lectures, favoring the book as a reference rather than a linear syllabus.
+- Seminars on shells, Git, editors, and regex can transform careers — counterpoint: some consider such tools self-taught prerequisites.
+- Linux preserves syscall compatibility, but containers, asynchronous I/O, observability, and policy changed the mental model since 2010.
+
+### LLM perspective
+
+- **View:** A course edition needs navigable learning paths and exercises more than additional encyclopedic breadth.
+- **Impact:** Students bridge theory with interfaces they will debug; instructors gain an authoritative systems reference.
+- **Watch next:** Instructor responses, chapter sequencing, labs, edition plans, and modern isolation coverage.

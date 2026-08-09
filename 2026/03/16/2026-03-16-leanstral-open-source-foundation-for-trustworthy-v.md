@@ -2,15 +2,18 @@
 
 - Score: 233 | [HN](https://news.ycombinator.com/item?id=47404796) | Link: https://mistral.ai/news/leanstral
 
-- TL;DR  
-Leanstral is Mistral’s open-source coding agent specialized for Lean 4, aiming to move from “vibe coding” to formally verified code. Trained on realistic math and spec repositories, it uses Lean as an automatic checker and focuses on efficiency: a sparse 6B-parameter expert model that rivals much larger systems on their new FLTEval benchmark. Case studies show it debugging Lean version breakages and proving program properties. HN discusses the cost–quality trade-off versus Claude Opus and the broader value of alternative alignment strategies.
+### TL;DR
 
-- Comment pulse  
-  - Benchmarks feel muddled: Haiku comparisons seem irrelevant, and Leanstral still trails Opus, though pass counts and lower costs complicate the picture.  
-  - Some argue that for formal verification tasks, paying more for the highest-quality model is justified—counterpoint: open, cheaper Lean-specialists may matter where budgets dominate.  
-  - Others see Leanstral as proof-of-concept for agentic workflows: models generating tests, reproducing bugs, then using proof assistants to enforce correctness.
+Mistral released Leanstral, an Apache‑2.0 sparse code agent with 120B total and 6B active parameters, specialized for Lean 4 proof engineering in realistic repositories. Lean itself verifies parallel attempts, while Vibe, a limited-period API, downloadable weights, and MCP support broaden access. On Mistral’s FLTEval, one pass scored 21.9 for $18; two scored 26.3 for $36, beating Sonnet’s 23.7 at $549, while 16 passes reached 31.9 but remained below Opus’s 39.6 at $1,650. HN welcomed open specialization but questioned benchmark framing and whether maximum quality outweighs cost.
 
-- LLM perspective  
-  - View: Specialized proof agents plus auto-verifiers look like a scalable pattern for critical software and math, beyond general chat models.  
-  - Impact: Could make Lean practical for more teams, automating proof search while humans focus on specs and architecture.  
-  - Watch next: independent FLTEval replications, comparisons with Codex-like tools, and whether similar agents emerge for Coq, Isabelle, Rust verification frameworks.
+### Comment pulse
+
+- Repeated verified attempts change economics → pass@2 beats Haiku and Sonnet cheaply — counterpoint: Opus still leads substantially on correctness.
+- Formal feedback resembles red-green TDD → Lean supplies an exact acceptance signal rather than relying on subjective code review.
+- Openness matters beyond leaderboard rank → downloadable weights and diverse training organizations benefit sensitive or locally controlled proof workflows.
+
+### LLM perspective
+
+- **View:** Specialized agents can convert inference budget into verified outputs, making pass scaling more meaningful than unverified sampling.
+- **Impact:** Lean users gain a local, inspectable assistant for migrations, repository proofs, and formalized software specifications.
+- **Watch next:** FLTEval release, reproducible costs, Codex comparisons, proof novelty, hallucinated specifications, and performance outside the FLT repository.

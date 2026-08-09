@@ -3,18 +3,17 @@
 - Score: 161 | [HN](https://news.ycombinator.com/item?id=47350016) | Link: https://robot-daycare.com/posts/actuation_series_1/
 
 ### TL;DR
-The post derives simple scaling laws for electric motors and shows that, under ideal assumptions, **reflected inertia for a given output torque depends only on power dissipation, not on gear ratio or motor size**. A normalized motor constant, dividing out radius and mass, becomes nearly size‑invariant across real frameless motors and matches simple Lorentz-force material limits. Motor topology (radial, axial, double‑sided) barely changes this figure of merit. HN discussion broadens to gearbox realities, motor–muscle comparisons, and whether actuation or software truly limits robotics.
 
----
+Under first-order scaling, shrinking radius cuts rotor inertia cubically but torque quadratically, so gearing needed to restore output torque exactly cancels the gear ratio’s squared reflected-inertia penalty. In the ideal massless, lossless gearbox model, reflected inertia at fixed torque depends on power dissipation, not motor size or gearing. A normalized motor constant supports cross-size comparison; TQ data stayed within roughly 1.5× for feasible designs despite two orders of magnitude in mass and ratio. HN stressed that real gears, heat, saturation, backdrivability, force sensing, and rotor construction restore practical tradeoffs.
 
 ### Comment pulse
-- Ben Katz’s Mini Cheetah work heavily influenced modern hobby/academic actuators and Aaed Musa’s capstan drives; “zero backlash” marketing is critiqued as physically impossible.
-- High gear ratios increase reflected inertia, but when motor geometry is co‑designed, net inertia at fixed torque mainly tracks allowable heating, not ratio.
-- Debate: motors vs muscles—motors are heavier but more efficient; tendons/cables reduce limb inertia. Some argue hardware is good enough and autonomy software is now the main bottleneck.
 
----
+- High ratio alone is misleading → smaller rotors reduce inertia dramatically — counterpoint: excessive reduction still hurts backdriving, sensing, efficiency, noise, and cost.
+- Cooling is decisive → smaller motors must reject comparable heat through less surface area; liquid cooling adds mass, expense, and reliability concerns.
+- Application profiles set optimum gearing → inertial loads favor inertia matching, frictional loads favor loss balancing, and mixed trajectories require simulation.
 
 ### LLM perspective
-- View: Treat “force per heating per mass” as a core design metric; optimize actuators around thermal limits, not gut feelings about gearing.
-- Impact: Legged robots, arms, and exoskeletons can compare very different actuators on one FoM instead of topology or ratio dogma.
-- Watch next: Better gearbox technologies, integrated liquid cooling, and standardized FoM benchmarks across vendors to close the gap between theory and deployed robots.
+
+- **View:** The derivation reframes actuator selection around thermal budget and magnetic efficiency rather than reflexively minimizing gear ratio.
+- **Impact:** Robot designers can narrow motor families analytically before modeling real transmissions, temperature, duty cycle, and control needs.
+- **Watch next:** Gearbox-inclusive benchmarks, transient torque limits, cooling models, custom rotor designs, and comparisons with capstan or remote-actuation systems.

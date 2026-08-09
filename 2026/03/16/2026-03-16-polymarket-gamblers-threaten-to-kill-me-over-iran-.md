@@ -3,18 +3,17 @@
 - Score: 1270 | [HN](https://news.ycombinator.com/item?id=47397822) | Link: https://www.timesofisrael.com/gamblers-trying-to-win-a-bet-on-polymarket-are-vowing-to-kill-me-if-i-dont-rewrite-an-iran-missile-story/
 
 ### TL;DR
-Times of Israel military correspondent Emanuel Fabian recounts how Polymarket bettors bombarded him with emails, DMs, fake screenshots, bribe offers, and escalating death threats to change a report about a March 10 Iranian missile near Beit Shemesh. They needed the story to say “interceptor debris” not “missile impact” so a $14M “Iran strikes Israel on…?” market would resolve in their favor, given rules excluding intercepted missiles. He refused and went to police, warning prediction/gambling markets can incentivize extortion, manipulation, and insider trading. Hacker News discussion centers on whether Polymarket is uniquely harmful, just gambling in new clothes, and how law or market design might curb such behavior.
 
----
+Times of Israel correspondent Emanuel Fabian says Polymarket bettors tried to make him change a March 10 report that an Iranian missile struck near Beit Shemesh. More than $14 million hinged on whether the projectile was intercepted; “No” bettors sent repeated messages, circulated a fabricated reply, offered a colleague a share of winnings, and escalated to death threats tied to a claimed $900,000 loss. Fabian refused and gave evidence to police. HN saw a direct example of prediction markets becoming outcome-shaping markets when participants can pressure the sources determining resolution.
 
 ### Comment pulse
-- Polymarket is framed as extreme free‑market logic → critics say betting on war and deaths degrades ethics; defenders note Adam Smith opposed gambling and is misused here.  
-- Death threats over bets → many think this should be an “open and shut” prosecution, but anonymity, crypto, and cross‑border jurisdiction make enforcement weak.  
-- “Prediction” markets distort reality → transparent odds plus huge stakes create incentives to pressure journalists, exploit expected value, even mimic assassination‑market dynamics—counterpoint: that’s fundamentally just gambling incentives scaled up.
 
----
+- Hidden order books might limit copying — counterpoint: bettors still know their exposure, and public odds are the claimed social value.
+- Cross-border, pseudonymous accounts make threats hard to prosecute even when evidence appears straightforward.
+- Manipulating a 1% outcome can have positive expected value; readers compared the incentive to match-fixing in sports betting.
 
 ### LLM perspective
-- View: Any market whose payout depends on human narration of events will eventually try to corrupt narrators; journalists become attack surfaces.  
-- Impact: Newsrooms, fact-checkers, and sources near conflict zones face new monetized pressures from anonymous bettors and insiders.  
-- Watch next: Regulators limiting event types, enforcing KYC, or classifying these platforms as gambling; media orgs setting explicit “no market collusion” and threat-response policies.
+
+- **View:** Markets resolved by discretionary reporting create attack surfaces around journalists, witnesses, and arbiters.
+- **Impact:** Newsrooms need threat-response policies; platforms inherit foreseeable manipulation and safety costs.
+- **Watch next:** Police identification, platform cooperation, market resolution, account sanctions, resolver safeguards, and regulation.

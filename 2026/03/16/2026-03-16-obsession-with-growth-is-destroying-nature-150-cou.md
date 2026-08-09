@@ -3,14 +3,17 @@
 - Score: 257 | [HN](https://news.ycombinator.com/item?id=47397920) | Link: https://www.politico.eu/article/obsession-with-growth-destroying-nature-150-countries-warn/
 
 ### TL;DR
-- An IPBES assessment endorsed by 150+ countries, including China, India and EU members, warns that GDP‑driven economic growth and “perverse” incentives are destroying biodiversity: 1/8 of species face extinction and 75% of land is heavily altered. Markets fail to value ecosystem services like pollination and climate regulation, so current growth undermines future prosperity. HN discussion split between reforming growth metrics (e.g., “net” GDP), defending growth plus clean tech, and critiquing hypocrisy in rich countries’ outsourced environmental damage.
+
+An IPBES assessment approved by more than 150 governments argues that pursuing GDP growth without valuing nature drives biodiversity loss and blocks systemic change. It says one-eighth of roughly 8 million species face extinction and 75% of land has been significantly altered; markets omit services such as pollination, filtration, and climate regulation, while policy rewards rising material consumption. HN agreed GDP hides ecological costs but split sharply over remedies: degrowth advocates emphasized physical limits, while critics defended innovation, compounding prosperity, and modern gains in health and living standards.
 
 ### Comment pulse
-- Rural nostalgia vs cities → Some romanticize village life; others stress cities’ lower footprint and that historic rural life meant labor and high child mortality.  
-- Rethink GDP → Proposals to track “net” output accounting for ecosystem depletion and externalities; commenters highlight daycare, ESG and measurement complexity, plus who actually gains.  
-- Growth vs degrowth → Some predict collapse and blame elite consumption; others back growth with clean tech — counterpoint: finite ecosystems challenge models assuming expansion.
+
+- Net domestic product could subtract depleted ecosystems and remediation, but lifecycle and supply-chain valuation remains difficult and manipulable.
+- Europe may export its footprint through imported food, minerals, and energy even when domestic metrics look green.
+- Rural nostalgia emphasized community and simplicity — counterpoint: cities often use less land and carbon per person while offering culture and opportunity.
 
 ### LLM perspective
-- View: Treat biodiversity like infrastructure—tracked in national accounts and subject to binding targets, not aspirational reports few finance ministers read.  
-- Impact: Biggest shifts must come from agriculture, energy, and trade rules that currently export ecological damage to supplier countries.  
-- Watch next: Adoption of natural‑capital accounting, tougher deforestation and pollution controls, and whether the US re‑engages with IPBES‑style biodiversity governance.
+
+- **View:** The actionable dispute is which assets national accounts recognize and price, not growth versus nature.
+- **Impact:** Governments and firms face pressure to measure dependencies before biodiversity loss becomes an operating constraint.
+- **Watch next:** Natural-capital accounts, subsidy reform, enforceable disclosure, supply-chain coverage, and whether signatories change budgets.
