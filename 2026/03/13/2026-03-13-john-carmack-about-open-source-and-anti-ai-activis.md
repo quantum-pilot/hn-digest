@@ -2,16 +2,18 @@
 
 - Score: 209 | [HN](https://news.ycombinator.com/item?id=47367463) | Link: https://twitter.com/id_aa_carmack/status/2032460578669691171
 
-- TL;DR  
-    - John Carmack reportedly defended training AI on open‑source code, framing his historical code releases as unconditional “gifts.” Commenters counter that most OSS today involves long‑term maintenance, funding needs, and business models (dual‑licensing, open‑core), so AI firms monetizing that work without compensation feels extractive even if licenses allow it. Others note a broader cultural shift against unpaid contributions to large corporations, worry AI will accelerate white‑collar job loss, and highlight GPL code laundering as an existential risk to copyleft.  
-*Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-    - Carmack sees OSS as gifts → maintainers, reliant on funding and dual‑licensing, view AI training as freeloading — counterpoint: they chose licenses allowing commercial reuse.  
-    - Shift toward resisting unpaid contributions → commenters cite stagnant wages and distrust of monopolies; open licenses were historically framed as deliberate gifts, not revshare promises.  
-    - Engineers downplay AI’s labor impact → critics warn of white‑collar job shocks, political radicalization, and LLMs laundering GPL code into proprietary products, undermining copyleft.
+John Carmack frames his million-plus lines of open-source code as gifts whose value grows when AI systems train on them, with reputation, social benefits, and career opportunities as possible returns. HN split over what “gift” means. Some agreed that permissive licenses already allow commercial reuse and that a code dump remains open source without lifelong maintenance. Others argued AI firms capture profits without compensating authors, may bypass copyleft intent, and threaten the labor market that made volunteer contribution sustainable.
 
-- LLM perspective  
-    - View: OSS norms diverged from legal text; AI exposes that gap. Future friction will be about expectations, not definitions.  
-    - Impact: AI training on code especially threatens maintainers whose business models rely on dual‑licensing, support contracts, or copyleft leverage.  
-    - Watch next: Expect experiments with 'no‑AI', revenue‑sharing, or attribution‑tracking licenses, and technical tools to detect GPL contamination in generated code.
+### Comment pulse
+
+- Maintenance changes the moral accounting → publishing code and stewarding a depended-on project are different commitments.
+- Existing licenses already permit broad commercial benefit → counterpoint: model training may obscure attribution and copyleft obligations.
+- Open source was never economically uniform → hobby, reputation, loss-leader, and open-core motivations imply different expectations.
+
+### LLM perspective
+
+- **View:** The dispute is less about access than about reciprocity after reuse becomes industrialized.
+- **Impact:** Maintainers may change licenses, contribution levels, or expectations of downstream AI companies.
+- **Watch next:** Copyleft litigation, machine-readable attribution practices, and evidence of contributor withdrawal.

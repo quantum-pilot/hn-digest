@@ -3,18 +3,17 @@
 - Score: 533 | [HN](https://news.ycombinator.com/item?id=47362613) | Link: https://tui.studio/
 
 ### TL;DR
-TUI Studio is a Figma-style visual editor for building terminal UIs: drag-and-drop components, CSS-like layout (absolute, flex, grid), multiple color themes, and saving designs as `.tui` JSON. It aims to export production-ready code to six popular TUI frameworks (Ink, BubbleTea, Blessed, Textual, OpenTUI, Tview), but export is non-functional in this alpha, so it’s currently a layout/prototyping tool. HN discussion focuses on TUI vs GUI philosophy, aesthetics, and whether an export-less alpha is practically useful.
 
----
+TUI Studio is an alpha visual editor for terminal interfaces: users drag 21 components onto a live ANSI canvas, arrange them with absolute, Flexbox, or Grid layouts, apply eight themes, and save portable `.tui` JSON locally without an account. It promises exports for Ink, Bubble Tea, Blessed, Textual, OpenTUI, and Tview, but code generation is not functional yet, making this primarily a layout prototype today. Discussion splits over whether mouse-driven visual design betrays keyboard-first TUIs; others cite decades of graphical terminal applications.
 
 ### Comment pulse
-- Alpha limitations → Without working code export or resize behavior details, it’s only a visual mockup tool, not a full TUI development workflow yet.  
-- What is a TUI? → Disagreement whether mouse-support and GUI-like widgets make it a “GUI in disguise”; others cite Turbo Vision, Zellij, and terminal constraints as defining TUIs.  
-- Aesthetics and UX → Some want dense, text-first TUIs and dislike “low-res GUIs”; others argue historical TUIs were exactly that and value mouse-aided discoverability.
 
----
+- The editor lowers layout friction → instant cell-based feedback may beat repeated edit-run cycles across several TUI frameworks.
+- Production utility is deferred → without code export, designs still require manual translation and maintenance.
+- “TUI” describes the rendering medium, not one interaction style → counterpoint: GUI-like controls can sacrifice compact keyboard workflows users expect.
 
 ### LLM perspective
-- View: Useful as a visual TUI wireframing tool today; real value arrives only when robust multi-framework export ships.  
-- Impact: Could lower barriers for designers/devs to prototype TUIs, especially for SSH-centric tools and CLI-driven products.  
-- Watch next: Shipping exports, handling terminal resizing responsively, and validating generated code quality in real projects across the six target frameworks.
+
+- **View:** A framework-neutral intermediate format could matter more than the editor if exporters preserve semantics cleanly.
+- **Impact:** TUI authors gain rapid mockups now; cross-framework handoff remains aspirational.
+- **Watch next:** Working exporters, resize constraints, keyboard navigation, round-tripping, and accessible component metadata.

@@ -3,20 +3,17 @@
 - Score: 386 | [HN](https://news.ycombinator.com/item?id=47336100) | Link: https://channelsurfer.tv
 
 ### TL;DR
-Channel Surfer is a web app that turns YouTube into “cable TV”: about 40 genre channels with continuously playing, curated videos and CRT-style visual noise. Instead of algorithmic recommendations and infinite choice, you pick a mood and just surf. HN commenters love the constrained, nostalgic, background-TV experience as an antidote to shorts and clickbait, and trade tips on other ways to de-algorithmize YouTube, from subscriptions-only viewing to RSS+mpv setups and aggressive ad/element blocking.  
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Channel Surfer is a free web app that recasts YouTube subscriptions as a 2000s-style cable guide: themed channels, a time grid, and scheduled playback replace choosing individual videos. Because YouTube does not expose subscriptions to websites, users run a local importer on their signed-in subscriptions page, review the detected channels, then add or refresh them manually. Commenters enjoyed the nostalgic, bounded experience and its deliberate reduction of algorithmic choice, while noting simpler alternatives such as RSS, the standard subscriptions page, or hiding recommendations and Shorts.
 
 ### Comment pulse
-- Cable-like wrapper reduces YouTube choice overload → fixed channels, curated videos, CRT-style CSS effects evoke nostalgia and make background watching pleasant.  
-- Minimalist fixes → rely on subscriptions page, disable autoplay and watch history, or block shorts and side recommendations with uBlock/Brave element hiding.  
-- RSS-based workflows → elfeed, elfeed-tube, mpv, plus scripts give digest-style viewing and control without visiting YouTube—counterpoint: harder to discover entirely new channels.  
 
----
+- Less choice can feel better → scheduled channels restore serendipity and stop every viewing session becoming a search-and-ranking decision.
+- The illusion is carefully built → themed curation, grain, interlacing, and a grid evoke cable despite using ordinary YouTube playback.
+- Some users already self-curate → RSS, mpv, ad blockers, and disabled history offer more control without adopting a simulated broadcast schedule.
 
 ### LLM perspective
-- View: Channel-style interfaces could generalize to other algorithmic feeds, trading personalization for intentional, mood-based browsing.  
-- Impact: Helps heavy YouTube users who want passive, TV-like consumption without shorts or engagement-optimized recommendations dominating choices.  
-- Watch next: Measure watch-time quality and distraction, experiment with collaborative curation, and test mobile/TV apps versus browser-only experiences.
+
+- **View:** The product’s real feature is constraint: interface design changes viewing behavior without needing a new recommendation model.
+- **Impact:** Subscription-heavy viewers gain a calmer lean-back mode; creators gain no direct distribution guarantee.
+- **Watch next:** Easier imports, shared channel packs, mobile support, and whether YouTube changes page structure.
