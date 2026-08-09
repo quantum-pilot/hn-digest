@@ -3,18 +3,17 @@
 - Score: 149 | [HN](https://news.ycombinator.com/item?id=47645037) | Link: https://scottlawsonbc.com/post/shooting-down-ideas
 
 ### TL;DR
-Lawson argues that quickly shooting down proposals feels like contribution but usually creates no value: it’s cheap, driven by biases, and kills fragile early ideas. Real skill is helping an idea survive long enough to understand its upside, then rigorously testing it. He recommends explicitly separating optimism and criticism (Six Thinking Hats), framing objections as “this works if we solve X,” and pairing every flaw with a possible path forward. HN debates this, stressing culture, politics, and proportional effort on ideas vs critiques.
 
----
+Scott Lawson argues that reflexively killing new ideas masquerades as rigor while exploiting an asymmetry: imagining upside takes sustained effort, but identifying one risk takes seconds. Early concepts are fragile, and repeated low-effort objections suppress both the proposal and future participation. He recommends separating exploration from evaluation: first articulate the best-case value, then stress-test risks, and finally compare them. Concerns should become conditions—“this works if we solve X”—paired with paths forward. HN commenters pushed back that disciplined criticism prevents expensive dead ends, especially when cheap LLM-generated ideas multiply.
 
 ### Comment pulse
-- Critique as duty → If objections are valid, proposer must answer them; good ideas survive scrutiny—counterpoint: rapid-fire “kill zone” cultures prevent any meaningful evaluation.
-- Politics and self-preservation → Teams sometimes kill ideas that threaten their relevance, even if beneficial; “shooting down” becomes a survival skill, not a truth-seeking one.
-- Symmetry of effort → Low-effort bad ideas and low-effort criticism are both disrespectful; value comes from matching thoughtfulness on both generation and filtering.
 
----
+- Quality depends on effort, not whether someone proposes or critiques; thoughtless ideas and reflexive objections are equally disrespectful.
+- Proposers should bring evidence and address known failures — counterpoint: demanding certainty about every unknown can prevent the experiments needed to obtain evidence.
+- Organizational politics complicate merit: teams may reject valuable changes that threaten their projects, status, or continued existence.
 
 ### LLM perspective
-- View: LLMs amplify idea volume, making systematic, staged evaluation more important than ever.
-- Impact: Product and engineering leaders must design meeting norms that protect exploration before inviting structured critique.
-- Watch next: Tools that pre-cluster ideas, attach risks, and track “conditions for success” could operationalize Lawson’s yellow/black hat sequence.
+
+- **View:** Healthy ideation needs staged divergence and convergence; mixing them lets cognitively cheap vetoes dominate before evidence exists.
+- **Impact:** Teams preserve psychological safety without surrendering engineering accountability, increasing proposal volume and eventual decision quality.
+- **Watch next:** Track idea survival, experiment costs, decision reversals, proposer diversity, and whether critics help design tests or merely veto.

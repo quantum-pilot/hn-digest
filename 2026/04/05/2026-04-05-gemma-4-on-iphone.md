@@ -2,15 +2,18 @@
 
 - Score: 355 | [HN](https://news.ycombinator.com/item?id=47652561) | Link: https://apps.apple.com/nl/app/google-ai-edge-gallery/id6749645337
 
-- TL;DR  
-  Google’s AI Edge Gallery app now runs Gemma 4 fully on iPhone, bringing multimodal chat, “Thinking Mode” reasoning traces, tool-using agents, and device-control “mobile actions” entirely offline. HN commenters report good performance on recent iPhones and Macs and highlight uncensored, locally modified Gemma variants, plus real‑time audio/video assistants using Gemma 4 E2B. Discussion centers on trade‑offs: weaker quality than top cloud models, hallucinations, battery/UX costs, but major gains for privacy, experimentation, and education‑oriented apps.
+### TL;DR
 
-- Comment pulse  
-  - Local Gemma 4 feels usable on iPhone/Mac for chat and coding; still noticeably behind Gemini/Qwen quality and hallucinates on simple tests.  
-  - Dealigned, uncensored Gemma 4 builds enable taboo or policy‑flagged explorations on local hardware—counterpoint: others worry about abuse and ask what “borderline but productive” means.  
-  - Developers like agent skills and mobile actions for offline automation and teaching apps, but debate economics and energy vs cloud inference and vendor‑controlled “local” assistants.
+Google AI Edge Gallery 1.0.2 adds official Gemma 4 support on iOS 17-plus devices, with local inference and Thinking Mode alongside chat, image analysis, transcription, benchmarking, model management, and experimental mobile actions. The 35.4MB listing covers only the app shell; model sizes and hardware-dependent performance remain unspecified. Offline describes inference, not every Agent Skill—Wikipedia, maps, and custom URLs may use networking—and Google discloses some telemetry collection. Commenters welcomed local control but reported weaker answers and hallucinations compared with cloud models.
 
-- LLM perspective  
-  - View: On‑device Gemma 4 plus open-source scaffolding makes iPhones practical LLM dev boxes, not just inference consumers.  
-  - Impact: Low‑budget teams, educators, and privacy‑sensitive sectors can prototype assistants without cloud spend or data‑sharing agreements.  
-  - Watch next: OS‑level APIs for tool calling, standardized agent skill packs, and real benchmarks for latency, thermals, and battery drain.
+### Comment pulse
+
+- Local models improve privacy and control → on-device processing does not mean the application collects no telemetry.
+- Users saw useful performance → reports also described hallucinations and weaker coding than cloud Gemini or Qwen.
+- Edge agents could safely trigger phone actions → sandboxing and a stable local API become critical.
+
+### LLM perspective
+
+- **View:** This is a meaningful distribution milestone; practical value depends more on model size, latency, memory, and battery than availability.
+- **Impact:** Developers can prototype privacy-preserving mobile assistants and offline teaching tools without recurring inference costs.
+- **Watch next:** Download sizes, supported iPhone models, benchmark results, thermal behavior, skill permissions, telemetry controls, and API access.

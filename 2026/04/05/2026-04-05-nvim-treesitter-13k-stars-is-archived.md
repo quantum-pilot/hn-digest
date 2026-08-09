@@ -3,18 +3,17 @@
 - Score: 158 | [HN](https://news.ycombinator.com/item?id=47644667) | Link: https://github.com/nvim-treesitter/nvim-treesitter/discussions/8627
 
 ### TL;DR
-nvim-treesitter, a core Neovim plugin with 13k+ stars, has been archived after a heated GitHub discussion about releases and version support. A user complained that the plugin abruptly dropped Neovim 0.11 support, blocking updates on their distro. The maintainer replied bluntly that the plugin had long required 0.12, was still “experimental,” and that users should pin commits instead of expecting stable releases. The exchange escalated, and shortly after, the repo was archived, sparking debate about user entitlement, maintainer burnout, and aggregator-style plugins’ maintenance costs.
 
----
+The 13.5K-star nvim-treesitter repository was archived read-only on April 3, one day after a user asked why the plugin tracks latest commits instead of publishing stable releases. A reply then attacked immediate removal of Neovim 0.11 support after 0.12, calling the maintenance burden trivial and complaining that Arch’s package delay blocked updates. The supplied discussion does not state why the owner archived the project. HN largely inferred maintainer burnout and debated whether the rude complaint merely triggered an existing breaking point, while some called archiving a multi-maintainer project an overreaction.
 
 ### Comment pulse
-- User rudeness vs entitlement → Some see the complainer as an entitled jerk; others say “entitled” users are often just frustrated, passionate feedback — counterpoint: he had many upgrade paths.
-- Aggregator plugin problem → Centralizing parsers/queries (like nvim-treesitter, null-ls, Mason) creates endless maintenance; better to manage parsers/LSPs manually or separate query repos.
-- Archiving decision → Many sympathize with burnout and applaud stepping away; others call full archival, despite other contributors, an overreach and disproportionate reaction.
 
----
+- Aggregating many parsers and queries imports every upstream configuration change; commenters suggested manual management or separating volatile queries from installer code.
+- Some defended blunt users as passionate signals of broken workflows — counterpoint: hostility toward unpaid maintainers is strategically counterproductive and personally corrosive.
+- Supporters hoped the maintainer finds peace; critics questioned whether one contributor should freeze a repository shared with other maintainers.
 
 ### LLM perspective
-- View: This highlights how critical OSS infra often rests on a few people’s patience, not formal support guarantees.
-- Impact: Neovim users must pin commits, roll their own parser management, or rally around a community fork/governance change.
-- Watch next: Whether a maintained fork appears, queries get decentralized, or Neovim core provides a more sustainable treesitter integration model.
+
+- **View:** Centralizing volatile parsers and queries created a maintenance surface whose social cost may have exceeded its technical utility.
+- **Impact:** Users lose an update hub while parser, query, and Neovim version churn shifts integration work downstream.
+- **Watch next:** Ownership transfer, unarchiving, maintained forks, query-repository separation, release policy, and compatibility windows for Neovim versions.

@@ -2,19 +2,18 @@
 
 - Score: 329 | [HN](https://news.ycombinator.com/item?id=47648404) | Link: https://zencapital.substack.com/p/sad-story-of-my-google-workspace
 
-## TL;DR
-A solo-founder’s Google Workspace super-admin account was auto-flagged as “hijacked” after he removed his recovery phone number while traveling abroad. Google suspended the account, instantly killing email, forwards, calendar, Meet, Drive, payroll access, and all services using Google OAuth, with a 30-day recovery timeline and broken self-service flows. Multiple support tickets bounced around without resolution; only an internal escalation via sympathetic Googlers restored access. HN discussion centers on cloud lockout risk, weak Google support, and avoiding single points of failure.
+### TL;DR
 
----
+While traveling from Australia to Britain, a Google Workspace administrator removed his recovery phone because Gmail kept demanding SMS despite an authenticator, passkey, backup codes, and logged-in devices. Google interpreted the change as hijacking, suspended the sole super-admin account, stopped inbound mail and forwarding, and broke Calendar, payroll, CRM, task management, and Google-based logins. DNS ownership verification and four support cases produced contradictory loops and a proposed 30-day wait; after more than 40 hours, Google employees restored access. HN blamed both brittle recovery and an unplanned dependency stack.
 
-## Comment pulse
-- Google support is unreliable → users report broken promos, refunds never paid, decade-long unexplained bans, and useless forums gatekept by unpaid “experts.”  
-- Cloud lockout is a systemic risk → plan for sudden bans with backups, alternate identity providers, and “external backups” outside the SaaS platform. — counterpoint: laws, not just individual hygiene, may need fixing.  
-- SSO deepens fragility → “Login with Google/Apple/Facebook” centralizes failure; ex-Googlers abandon Gmail once they lose insider escalation paths.
+### Comment pulse
 
----
+- Critics urged disaster planning and external backups — counterpoint: consumers also need enforceable recourse when paid providers lock them out without functional support.
+- Avoiding “Login with Google” reduces correlated failure; independent credentials keep one suspended identity provider from disabling unrelated services.
+- Stories about unresolved Pixel benefits, payments, search delisting, and account bans reinforced reluctance to buy Google services without internal escalation access.
 
-## LLM perspective
-- View: Treat major cloud accounts as eventually-failing dependencies; architect around revocability like you would for hardware or colocation.  
-- Impact: Small businesses and non-technical users are most exposed, since their “IT department” is a black-box algorithm and tier‑0 support.  
-- Watch next: Better multi‑IdP support, turnkey Workspace backup tools, and regulation mandating data export and human appeal paths before termination.
+### LLM perspective
+
+- **View:** Authentication resilience needs independent recovery paths, not multiple factors terminating inside one provider’s risk engine.
+- **Impact:** Single-admin Workspace tenants can lose communications and federated applications simultaneously, turning fraud protection into an operational outage.
+- **Watch next:** Add secondary super-admins, offline credentials, alternate mail routing, exportable backups, tested break-glass access, and non-Google payroll authentication.

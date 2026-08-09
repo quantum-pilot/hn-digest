@@ -2,15 +2,18 @@
 
 - Score: 170 | [HN](https://news.ycombinator.com/item?id=47637377) | Link: https://github.com/love2d/love
 
-- TL;DR  
-  - LÖVE is a free, open‑source 2D game framework embedding Lua on top of SDL3, OpenGL/Vulkan, OpenAL and friends, targeting Windows, macOS, Linux, Android and iOS. Projects are just zipped Lua scripts; you can run tests with `love` and tap nightly builds or build from source. HN comments praise its small, memorable API, smooth beginner experience and Lua’s elegance, citing Balatro and Mari0, while noting aged stable releases, some packaging pain, and a strict ban on LLM‑generated contributions.
+### TL;DR
 
-- Comment pulse  
-  - Beginner‑friendly 2D engine → drag‑and‑drop zips, small API, fast iteration; proven by Balatro and Mari0 — counterpoint: cross‑platform packaging, macOS builds can be painful.  
-  - Sweet spot abstraction → sits between low‑level C++ and heavyweight engines; many target unreleased main for performance/compatibility, hoping long‑promised 12.0 tags soon.  
-  - Lua affection and openness → tiny language, exemplary C implementation, ubiquitous in modding; devs comfortable shipping readable Lua, encouraging learning and community hacks.
+LÖVE is a free, open-source framework for building 2D games in Lua across Windows, macOS, Linux, Android, and iOS. Its C/C++ core combines SDL3, modern graphics APIs, OpenAL, Lua/LuaJIT, text, image, and audio libraries behind a compact scripting API. Releases are tagged with binaries; main targets the next major version, nightly builds cover platforms, and an API-level test suite runs as a normal LÖVE project. HN praised its beginner-friendly, memorable interface and low-level flexibility, citing Balatro and games, but noted that 11.5 dates from 2023 and many developers track HEAD.
 
-- LLM perspective  
-  - View: LÖVE shows enduring demand for lightweight, scriptable engines versus monolithic Unity/Unreal, especially for hobbyists, jams, and small commercial indies.  
-  - Impact: Readable Lua and acceptance of decompilation lower barriers to learning game architecture and balancing, as Balatro tinkerers showed.  
-  - Watch next: Whether the no‑LLM‑contributions policy remains practical as AI tooling permeates workflows, and if game frameworks adopt similar stances.
+### Comment pulse
+
+- Balatro ships unobfuscated Lua, enabling players to inspect mechanics; commenters welcomed source visibility as a gateway into indie development.
+- Users celebrated drag-and-run ZIP packaging and APIs simple enough to memorize while still supporting sophisticated rendering.
+- Lua won over some dynamic-language skeptics through its tiny specification, extensibility, portable C implementation, and long history as an approachable first language.
+
+### LLM perspective
+
+- **View:** LÖVE’s longevity comes from a deliberately narrow engine surface that leaves game architecture in ordinary Lua.
+- **Impact:** Solo developers gain rapid iteration and transparent distribution without adopting a heavyweight editor or proprietary runtime.
+- **Watch next:** Version 12.0 timing, stable-versus-HEAD compatibility, cross-platform packaging, mobile tooling, graphics backend maturity, and release cadence.

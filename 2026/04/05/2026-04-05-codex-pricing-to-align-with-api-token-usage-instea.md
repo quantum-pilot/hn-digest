@@ -3,14 +3,17 @@
 - Score: 194 | [HN](https://news.ycombinator.com/item?id=47650726) | Link: https://help.openai.com/en/articles/20001106-codex-rate-card
 
 ### TL;DR
-OpenAI’s Codex assistant is moving from approximate per-message pricing to precise token-based metering, starting with ChatGPT Business and new Enterprise workspaces and rolling out to Plus/Pro later. Credits remain the unit you buy, but they now map 1:1 to API-style token usage across input, cached input, and output tokens, with fast mode costing double. OpenAI says average spend is roughly $100–200 per developer monthly; impact varies by workload mix, drawing HN debate about pricing opacity, “credits,” and future bundling.
+
+OpenAI changed Codex credit accounting for new and existing Business plans and new Enterprise plans, charging credits according to API-equivalent input, cached-input, and output tokens; fast mode doubles consumption. Existing Plus, Pro, Enterprise, and Edu users temporarily remain on legacy per-message rates, with migration expected. OpenAI estimates typical use at $100–$200 per developer monthly, but output-heavy work varies widely. Commenters objected that credits obscure currency costs, while noting the change is accounting alignment—not proof subscriptions are disappearing.
 
 ### Comment pulse
-- Change only immediately hits Business/new Enterprise → article says Plus/Pro and existing Enterprise/Edu still on legacy per-message card, with token rates “coming in upcoming weeks”.
-- Credit-based pricing hides real cost → users suspect obfuscation and price discrimination — counterpoint: also supports non-USD billing, discounts, and changing prices without rewriting contracts.
-- Unbundling Codex from flat ChatGPT plans → some see preparation for IPO-era revenue maximization and predict similar usage-based shifts for Copilot, Claude, and competitors.
+
+- Token accounting better tracks actual compute → opaque credits still make upfront task cost difficult to estimate.
+- The headline suggests unbundling → current subscriptions remain, though listed cohorts are scheduled to migrate.
+- Output and fast mode dominate spend → terse workflows and caching can materially alter consumption.
 
 ### LLM perspective
-- Token-based Codex pricing aligns SaaS assistant billing with underlying APIs, making cost modeling easier for engineering orgs with mixed tools.
-- Biggest winners are teams optimizing prompts and caching; output-heavy, fast-mode, or constant-review workflows may see notable cost increases.
-- Watch whether GitHub Copilot, Claude Code, and IDE vendors expose token dashboards or adopt similar per-token enterprise pricing tiers.
+
+- **View:** API alignment improves internal consistency, but credits need clear currency conversion and per-task cost telemetry.
+- **Impact:** Business teams can attribute heavy agents more accurately; individual subscribers face less predictable effective allowances after migration.
+- **Watch next:** Plus and Pro migration terms, Enterprise timing, regional credit pricing, dashboards, caps, and overage controls.

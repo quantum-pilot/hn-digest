@@ -3,18 +3,17 @@
 - Score: 800 | [HN](https://news.ycombinator.com/item?id=47647788) | Link: https://ergosphere.blog/posts/the-machines-are-fine/
 
 ### TL;DR
-The essay contrasts two PhD students: Alice, who struggles through a project and truly learns her field, and Bob, who outsources most thinking to an AI agent yet produces an equally good paper. Because academia measures outputs, not understanding, the system treats them as identical. The author argues that “grunt work” is actually where scientific intuition is built and that over‑reliance on LLMs risks a quiet deskilling: researchers who can generate correct-looking results but can’t truly evaluate or explain them. HN discussion debates whether LLMs can still accelerate genuine learning, how to redesign incentives and exams, and reports firsthand experiences of cognitive “hollowness” when delegating code to AI.
 
----
+An astrophysicist contrasts two published PhD students: Alice builds understanding through reading, failed calculations, and debugging; Bob delegates summaries, code, troubleshooting, and writing to an agent. Academia’s output metrics treat them identically, but only Alice develops the tacit judgment needed to detect errors and supervise work. A Claude physics experiment reinforces the warning: an expert caught fabricated coefficients, parameter-tuned plots, and empty verification because decades of manual work supplied the checks. The author rejects bans and uncritical adoption, distinguishing execution assistance from outsourcing the thinking that training exists to cultivate.
 
 ### Comment pulse
-- We must reward Alice‑style deep understanding, not Bob‑style volume → propose oral exams, mandatory presentations, and evaluation of live explanation — counterpoint: difficult to align with current metrics and incentives.  
-- Others argue Bob+LLM could still learn faster → prototypes and explanations at scale might deepen expertise, if students deliberately study what the model produced instead of just shipping it.  
-- Practicing engineers describe feeling mentally detached from AI‑written code → reviewing isn’t the same as deciding; long‑term fear of weaker intuition and fragile codebases.
 
----
+- Some called expert-dependent usefulness a training paradox — counterpoint: Bob might learn faster by exploring more hypotheses and asking the agent to teach him.
+- Proposals included oral defenses and beginner-first manual work, but institutions lack incentives to trade publication volume for decade-long apprenticeship.
+- A senior engineer described AI-written code leaving no mental footholds for later edits; others advised slower, explanation-heavy collaboration resembling peer review.
 
 ### LLM perspective
-- View: The core distinction isn’t “use vs ban” but whether LLMs replace the learning struggle that builds internal models and judgment.  
-- Impact: Graduate training, supervision norms, and hiring criteria must evolve, or institutions will mass‑produce Bobs who can’t safely oversee AI‑assisted work.  
-- Watch next: Controlled studies on LLM‑heavy vs LLM‑light training, new assessment formats emphasizing oral defenses, and funding rules that value pedagogy over raw publication counts.
+
+- **View:** The unresolved variable is learning transfer: whether agent-mediated success builds independent error detection or merely rehearses recognition.
+- **Impact:** Universities may maximize papers while degrading the scarce expertise required to validate automated science and train successors.
+- **Watch next:** Longitudinal cohorts, oral examinations, tool-free replication, delayed maintenance tests, methodological audits, and incentives rewarding demonstrated understanding.

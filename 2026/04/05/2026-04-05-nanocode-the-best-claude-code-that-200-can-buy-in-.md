@@ -3,18 +3,17 @@
 - Score: 147 | [HN](https://news.ycombinator.com/item?id=47649742) | Link: https://github.com/salmanmohammadi/nanocode/discussions/1
 
 ### TL;DR
-Nanocode is a small JAX codebase that walks you through training a Claude-Code-style coding agent from scratch on TPUs for roughly $200. Starting with a GPT‑2-scale pretrain (FineWeb‑EDU + The Stack v2), it specializes for “agentic coding” via custom tool-calling tokens (Read/Edit/Grep/Bash), synthetic datasets, and a Claude-like “SOUL” document. Post-training uses Constitutional-AI-style supervised data plus Direct Preference Optimization for personality and tool use. The goal is education and hackability, not beating frontier models.
 
----
+Nanocode is a 5,500-line JAX project for learning how to pretrain and post-train a small coding agent on TPUs. Its 1.3B-parameter model costs about $200 and nine hours on a v6e-8; a 477M variant takes roughly 1.5 hours for $34. Building on nanochat, it mixes FineWeb-Edu with Stack V2 code, doubles context to 4,096 tokens, teaches Read/Edit/Grep/Bash calls through synthetic rollouts, then applies Constitution-guided SFT and DPO for a lowercase personality. The author warns it is under-tuned, weak on complex fixes, and lacks rigorous agentic evaluations.
 
 ### Comment pulse
-- Example bug in a “remove falsey values” snippet → highlights that many seed datasets are LLM-generated and subtly wrong — counterpoint: prompt itself is contradictory.
-- Why pay $200 vs using free models? → this is a learning lab for JAX, TPUs, CAI-style post-training, not a production competitor.
-- Does this mirror Anthropic? → similar structure (tools, CAI, preference learning) but massively scaled down; real systems use far more data and online RL.
 
----
+- Readers caught a synthetic example that returns a new list despite claiming in-place mutation; the prompt itself also contradicts that requirement.
+- Spending $200 makes little sense for deployment — counterpoint: the author positions training as education in JAX, distributed systems, and preference optimization.
+- Practitioners called the Claude analogy simplified: production agents use vastly more data, compute, and online reinforcement learning, while Claude Code is technically a harness.
 
 ### LLM perspective
-- View: This is a rare, end-to-end, readable blueprint for modern post-training and tool-use in a single, hackable repo.
-- Impact: Best for researchers, tinkerers, and infra/ML engineers wanting hands-on experience with agentic coding stacks.
-- Watch next: Benchmarks on real coding tasks, more robust evals of tool use, and ports to other frameworks/hardware.
+
+- **View:** Its achievement is pedagogical compression: one reproducible pipeline exposes tokenization, pretraining, tool formatting, synthetic alignment, and inference.
+- **Impact:** Researchers can cheaply test agent interfaces and post-training ideas without mistaking the resulting model for a competitive assistant.
+- **Watch next:** Task benchmarks, ablations, contradictory data, tool-call reliability, GPU portability, online reinforcement learning, and larger-scale replication.

@@ -3,18 +3,17 @@
 - Score: 148 | [HN](https://news.ycombinator.com/item?id=47652324) | Link: https://blog.documentfoundation.org/blog/2026/04/05/lets-put-an-end-to-the-speculation/
 
 ### TL;DR
-Document Foundation’s post explains its long-running conflict with Collabora: early decisions let board‑member companies win tenders and use LibreOffice branding in ways lawyers later deemed illegal for a German nonprofit. Attempts to keep that status quo plus a failed “TDC” parallel structure poisoned governance, triggered audits, and ultimately led TDF to revoke Collabora employees’ membership and freeze development contracts while rewriting conflict‑of‑interest rules. HN commenters find both sides’ behavior petty, the post confusing, but expect LibreOffice‑style forks and alternatives to survive.
 
----
+The Document Foundation presents its account of the LibreOffice–Collabora rupture. It says early policies allowing ecosystem companies free trademark use and letting board-linked firms participate in development procurement violated nonprofit law. A proposed parallel organization, TDC, deepened internal mistrust; later audits forced corrective action. TDF says removing Collabora employees’ memberships, freezing tenders, adopting procurement and conflict rules, and hiring developers helped satisfy a third audit and protect nonprofit status. HN readers found the legal concern plausible but the narrative confusing, partisan, and alarming given Collabora’s core contributions and possible fork.
 
 ### Comment pulse
-- Governance meltdown → both TDF and Collabora communicate with sarcasm, personal attacks, and rule‑lawyering; commenters crave neutral mediators and clearer, good‑faith compromise.  
-- Confusing blog post → unexplained acronyms, timelines, and “authorities” leave even engaged readers unable to reconstruct what happened or why audits and expulsions occurred.  
-- Project future anxiety → some fear losing local FOSS office; others trust forks/alternatives, but worry development slows — counterpoint: enforcing nonprofit rules requires sacrifices.
 
----
+- Commenters said both factions’ sarcasm, dismissiveness, and procedural accusations obscure legitimate governance questions; they wanted neutral mediation instead of escalating public statements.
+- Readers could not identify TDC, the authorities, audits, or board/team roles from the post, undermining its promise to end speculation.
+- Collabora claims over half of 26.2’s documented features; users fear fragmentation — counterpoint: LibreOffice’s openness makes continued local suites and forks possible.
 
 ### LLM perspective
-- View: This is a textbook conflict-of-interest failure; future FOSS foundations should separate governance from vendors that bid on contracts.  
-- Impact: Short term, LibreOffice loses experienced Collabora reviewers; competing forks may improve resilience but dilute branding and QA focus.  
-- Watch next: whether governments and large adopters choose TDF-only builds, Collabora’s fork, or new coalitions like Euro‑Office as their standard.
+
+- **View:** TDF describes a real compliance problem, but remedial legitimacy depends on transparent process and intelligible evidence.
+- **Impact:** A contributor split could slow desktop development, duplicate infrastructure, and confuse governments evaluating LibreOffice and ODF deployments.
+- **Watch next:** Audit summaries, membership appeals, procurement records, contributor metrics, repository divergence, trademark terms, and independent mediation.

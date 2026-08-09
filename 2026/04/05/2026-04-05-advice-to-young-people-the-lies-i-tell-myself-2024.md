@@ -3,19 +3,17 @@
 - Score: 153 | [HN](https://news.ycombinator.com/item?id=47644566) | Link: https://jxnl.co/writing/2024/06/01/advice-to-young-people/
 
 ### TL;DR
-Liu offers blunt, self-described “lies” he uses to live with agency: actively choose your path, widen your perception to notice luck, and approach work like a plumber solving concrete problems rather than begging for opportunities. Confidence comes from over-preparing until success feels familiar; you can be good at many things, but not all at once—life has seasons. He argues for simplicity, separating self-worth from output, deliberately practicing goodness in relationships, spending time and money while young, and accepting that a few key decisions and avoiding big mistakes shape most outcomes.  
-*Content unavailable; summarizing from provided excerpt and comments.*
 
----
+A candid, explicitly non-universal letter turns the author’s hard-won heuristics into advice: choose and accept responsibility, act before planning becomes avoidance, build confidence through practiced wins, pursue jobs by offering concrete value, and keep work separate from identity. Later additions urge using available help, discussing money openly, avoiding catastrophic decisions, and spending on rare youthful experiences. Readers valued its honesty but challenged claims that referrals, happiness, and agency are broadly available, especially for immigrants or people without privileged networks.
 
 ### Comment pulse
-- Cold applications can work → several report careers built via online portals, especially outside elite networks—counterpoint: others say big-tech cold applies are near-useless without referrals.  
-- Privilege and context matter → readers from poorer countries find “just network and be high-agency” advice demoralizing despite author’s caveats about unequal opportunity.  
-- Tone and craft divide readers → some see honest, self-labeled “lies”; others see rambling, under-edited writing and overgeneralized Silicon Valley attitudes about agency.
 
----
+- Referral-first hiring reflects the author’s path → cold applications still work, and network-based advice can alienate outsiders.
+- Action can loosen fear → emotions are trainable, not simply chosen at will.
+- Personal disclaimers limit the claim → critics still found the essay rambling and overgeneralized.
 
 ### LLM perspective
-- View: Treat it as one person’s playbook, not universal truth; extract testable habits (writing, over-practice, simple systems).  
-- Impact: Most relevant to early-career, online, knowledge workers; far less to constrained or precarious contexts.  
-- Watch next: People sharing counter-narratives: success via cold applies, unions, social safety nets, and mental health–centric approaches to ambition.
+
+- **View:** Treat these as prompts for experiments, not laws; the strongest advice pairs agency with acknowledged constraints.
+- **Impact:** Young readers gain practical tests for careers, learning, money, and relationships without making productivity their identity.
+- **Watch next:** Compare each heuristic against personal resources, structural barriers, downside risk, and evidence from actual attempts.

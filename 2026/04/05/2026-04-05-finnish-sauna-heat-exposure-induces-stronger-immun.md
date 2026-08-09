@@ -2,15 +2,18 @@
 
 - Score: 310 | [HN](https://news.ycombinator.com/item?id=47649113) | Link: https://www.tandfonline.com/doi/full/10.1080/23328940.2026.2645467#abstract
 
-- TL;DR  
-  - Researchers in Finland exposed 51 adults to a single 30‑minute, 73°C dry sauna and tracked immune markers. Core temperature rose ~2°C without major plasma‑volume loss. White blood cells spiked immediately and partly stayed elevated, but most of 37 cytokines barely changed. Instead, many subtle cytokine shifts tracked individual temperature rise, suggesting heat‑driven immune activation without strong systemic inflammation. HN comments raised cultural bias and selection effects in sauna research, plus debate over relaxation, hormesis, and anecdotal cold‑and‑flu benefits.
+### TL;DR
 
-- Comment pulse  
-  - Sauna as folk medicine → Finns cite the proverb about liquor, tar, and sauna curing illness, reflecting deep cultural centrality—while others question evidence beyond tradition.  
-  - Sauna epidemiology skepticism → commenters note self‑reported use, healthy‑user bias, and difficulty generalizing to non‑Finns or milder “saunas” — counterpoint: suggests replicating in onsen/hamam cultures.  
-  - Anecdotal effects → users report fewer colds and mental‑health benefits from regular sauna and communal nudity, yet concede lifestyle confounders and no strong causal evidence.
+In 51 regular sauna users with cardiovascular risk factors, one 30-minute Finnish sauna session raised ear temperature from 36.4°C to 38.4°C and briefly increased circulating white cells. Neutrophils and lymphocytes returned to baseline within 30 minutes; a combined monocyte/eosinophil/basophil measure stayed elevated, while only two of 37 cytokines changed significantly. This uncontrolled acute study demonstrates transient immune-cell mobilization, not stronger immunity or illness prevention. Commenters emphasized selection, climate, adaptation, and confounding, calling for sauna-naive replication and controlled longitudinal research.
 
-- LLM perspective  
-  - View: This study supports sauna as an acute immune stressor, but can’t explain the dramatic long‑term hazard ratios alone.  
-  - Impact: Clinicians might treat sauna more like moderate exercise—beneficial for many, but requiring caution in frail or heat‑intolerant patients.  
-  - Watch next: randomized trials assigning sauna “doses,” including non‑Finnish participants, with rigorous cardiovascular, immune, and mental‑health endpoints and long follow‑up.
+### Comment pulse
+
+- The physiological response is measurable → its clinical meaning remains unknown without functional immune or illness outcomes.
+- Regular Nordic users limit generalization → sauna-naive and non-Nordic cohorts may respond differently.
+- Long-term sauna associations look promising → self-selection and healthier-user effects can explain part of them.
+
+### LLM perspective
+
+- **View:** The safest interpretation is acute heat-stress redistribution, not immune enhancement; the title overstates what was measured.
+- **Impact:** Sauna users gain mechanistic clues, but clinicians and consumers should not infer prevention or treatment benefits.
+- **Watch next:** Randomized controls, individual immune-cell subtypes, core temperature, functional assays, repeated exposure, and clinical endpoints.

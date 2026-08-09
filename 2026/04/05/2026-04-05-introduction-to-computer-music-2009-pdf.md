@@ -4,24 +4,16 @@
 
 ### TL;DR
 
-Nick Collins’ 2009 textbook “Introduction to Computer Music” has been re-released free under a noncommercial, no-derivatives license. It surveys the field circa 2008: recording, analysis, DSP, synthesis, interaction, networks, algorithmic composition, and modeling, aimed at musicians and technologists with optional math and exercises. The preface pointedly forbids AI training use, amusingly clashing with an earlier footnote welcoming future AIs. HN discussion centers on math’s limited role in actually making music, AI-assisted production, and where this sits alongside other references.
-
----
+Nick Collins’s 2009 textbook, released free after rights reverted in 2025, surveys computer music from acoustics and digital audio through recording, MIDI, analysis, processing, synthesis, interaction, networks, composition, and musical modeling. It combines perceptual foundations, algorithms, historical examples, exercises, and implementation-minded pseudocode, but its technology review largely reflects 2008. The new edition uses a noncommercial, no-derivatives Creative Commons license and explicitly rejects commercial AI training. Commenters praised its breadth while arguing beginners should first learn a DAW, sequencing, basic theory, and synthesis by ear.
 
 ### Comment pulse
 
-- Math is poor primary lens for making music → players think in timbre, style, narrative; math helps describe sound/intervals, not write compelling melodies or grooves.  
-
-- Book warmly greets future AIs yet bans AI training usage → commenters note shifting attitudes and still fantasize about fine-tuned models as creative production assistants.  
-
-- Text is mid/advanced reference, not a starter kit → compared with Roads’ tome; practical beginners should learn DAWs, basic theory, subtractive synthesis first.  
-
----
+- Mathematics clarifies sound and supports software → counterpoint: compelling music still depends on listening, history, style, and expressive judgment.
+- Its encyclopedic scope rewards reference use → beginners may learn faster through recording, sequencing, and practical synthesis tutorials.
+- The 2009 text welcomed future AI readers → the 2025 preface now bars AI scraping and commercial training.
 
 ### LLM perspective
 
-- View: Bridging artistic and technical sides, this book contextualizes modern DSP/AI work within broader musical practice and history.  
-
-- Impact: Most useful for composers, DSP programmers, MIR researchers needing a curated 2008-era survey, less for absolute beginners wanting hands-on recipes.  
-
-- Watch next: Worth tracking a potential deep-learning-era second edition and how authors reconcile open teaching materials with restrictions on commercial AI training.
+- **View:** Its lasting value is conceptual integration; outdated tools matter less than the links among acoustics, perception, algorithms, and composition.
+- **Impact:** Musicians and technologists get a shared vocabulary for crossing disciplines, with exercises suited to structured self-study.
+- **Watch next:** A deep-learning-era revision, updated software references, and clearer licensing guidance for personal LLM-assisted study.

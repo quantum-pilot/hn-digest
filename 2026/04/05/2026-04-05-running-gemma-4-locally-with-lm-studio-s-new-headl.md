@@ -3,20 +3,17 @@
 - Score: 158 | [HN](https://news.ycombinator.com/item?id=47651540) | Link: https://ai.georgeliu.com/p/running-google-gemma-4-locally-with
 
 ### TL;DR
-- Guide shows how to run Google’s Gemma 4 26B-A4B MoE model locally via LM Studio 0.4.0’s new `llmster` daemon and `lms` CLI, plus how to wire it into Claude Code through LM Studio’s Anthropic-compatible `/v1/messages` endpoint.  
-- On a 48 GB M4 Pro MacBook, the Q4_K_M quantized model uses ~21 GiB at 48k context and generates ≈51 tok/s, with tunable context length, GPU offload, parallelism, and TTL.  
-- Author argues MoE is ideal for local use (4B active params with ~10B “dense-equivalent” quality), but warns speculative decoding is a poor fit for MoE and that Claude Code + LM Studio can be flaky and slower than cloud or ollama-based setups.
 
----
+LM Studio 0.4.0 turns its inference engine into the headless llmster daemon plus `lms` CLI, enabling downloads, model loading, chat, APIs, continuous batching, and MCP without the desktop app. The author runs quantized Gemma 4 26B-A4B—26B total, 3.8B active—at about 51 tokens/second on a 48 GB M4 Pro. Its 17.99 GB model needs roughly 21 GiB at 48K context; LM Studio exposes an Anthropic-compatible endpoint so Claude Code can use it locally. Privacy and zero API cost improve, but complex agent work is slower, memory-heavy, and less reliable.
 
 ### Comment pulse
-- Local Claude via ollama → `ollama launch claude --model gemma4:26b` is trivial for some, but others see Gemma hang while other models work.  
-- LM Studio Anthropic endpoint → lets Claude Code use Gemma locally; several users report it often “loses its place” and stalls—counterpoint: ollama’s API feels more reliable.  
-- Performance concerns → 48 GB Framework-type desktops can chat, but agentic coding over real codebases is painfully slow even with decent GPUs.
 
----
+- Ollama offers a dramatically shorter launch command — counterpoint: one user reported Gemma looping indefinitely while Nemotron, GLM, and Qwen worked.
+- An LM Studio user saw Claude Code lose its place and halt mid-plan repeatedly, whereas the Ollama API remained stable.
+- Speculative decoding drew interest, but diverse token routes can activate many experts during verification and make MoE inference slower rather than faster.
 
 ### LLM perspective
-- View: MoE + headless LM Studio makes serious, private assistants viable on single high-RAM machines, not just GPU servers.  
-- Impact: Most useful for developers, small teams, and privacy-sensitive orgs wanting Claude-like workflows without sending code off-box.  
-- Watch next: Better MoE-aware speculative decoding, stability of Claude Code against local Anthropic endpoints, and standardized config recipes for common hardware tiers.
+
+- **View:** Protocol compatibility separates the coding harness from its model, but behavioral compatibility remains the harder constraint.
+- **Impact:** Developers gain offline review and experimentation; sustained multi-file automation still favors faster, better-aligned hosted or alternative local backends.
+- **Watch next:** Compare LM Studio and Ollama task completion, stalls, context retention, thermals, swap, parallel load, and model-specific tool compliance.
