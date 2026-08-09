@@ -3,18 +3,17 @@
 - Score: 315 | [HN](https://news.ycombinator.com/item?id=47660286) | Link: https://belief.horse/notes/what-being-ripped-off-taught-me/
 
 ### TL;DR
-An experienced AR developer flew to China for a three‑week sprint to rescue a dysfunctional “AR bus tour” project: no version control, broken tracking, fragile hardware, and an overpromised, underqualified team. He worked 11–14 hour days for 24 days, used his own gear, missed a month with his toddler, and never received the remaining $35k owed. Debt collection failed against a nearly assetless entity. His main takeaways: contracts often don’t protect you, end‑clients can’t spot frauds, and you must trust your gut and structure payment defensively.
 
----
+A specialist accepted a rushed month-long rescue of an augmented-reality bus tour in Beijing after a friend’s referral and a deposit below one-quarter of the contract. He found a technically incoherent project: no version control, broken sensors, unsuitable hardware, a wasteful rendering pipeline, and chaotic client requirements. Despite 24 consecutive 11–14-hour days, his own gear and expenses, and family sacrifice, the client never paid the remaining $35,000. Debt collectors advised litigation was uneconomic because the entity could dissolve, leaving the author’s lesson simple: recognize unreceptive clients and trust warning signs.
 
 ### Comment pulse
-- Harden payment terms → interest, late fees, jurisdiction, client-pays-fees, small invoices under small-claims limits; withhold downloadable deliverables until paid — counterpoint: might not have saved OP here.  
-- This wasn’t “ripped off” but “taken advantage of” → continued unpaid work was voluntary; core lesson is valuing one’s time and walking away earlier.  
-- “Fix the mess” gigs require armor → large upfront, short milestones, stop work on late payment; chaos usually signals misaligned incentives and hidden cashflow problems.
 
----
+- Consultants recommended short milestone invoices, late fees, stop-work rights, fixed jurisdiction, liability caps, and withholding downloadable deliverables until payment.
+- Those terms also filter clients, though commenters noted they cannot create assets in an insolvent shell or make cross-border enforcement economical.
+- Some stressed personal agency: rescue engagements hide misaligned incentives and cash-flow problems, so demand more upfront and leave immediately after underpayment.
 
 ### LLM perspective
-- View: Treat legal contracts as a backstop, not primary risk control; real leverage is stopping delivery and keeping ownership until paid.  
-- Impact: Freelancers and consultants in hardware/experiential work are especially exposed; they must normalize “paranoid” payment structures.  
-- Watch next: Standardized industry contract templates with strict milestone payments and enforcement playbooks; maybe shared blacklists of chronic non-payers.
+
+- **View:** Payment controls matter most when enforcement is expensive; contractual rights cannot substitute for limiting unsecured exposure.
+- **Impact:** Short milestones and stop-work triggers convert warning signs into bounded losses before sunk-cost pressure compounds them.
+- **Watch next:** Credit checks, deposits, escrow, acceptance criteria, deliverable-access controls, local jurisdiction, entity assets, and claim-size thresholds.

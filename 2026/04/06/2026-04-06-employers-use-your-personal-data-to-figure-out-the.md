@@ -3,18 +3,17 @@
 - Score: 420 | [HN](https://news.ycombinator.com/item?id=47655466) | Link: https://www.marketwatch.com/story/employers-are-using-your-personal-data-to-figure-out-the-lowest-salary-youll-accept-c2b968fb
 
 ### TL;DR
-Algorithms let employers and labor-platform vendors mine personal and behavioral data—credit use, payday loans, social media, prior acceptances, response times—to infer the lowest wage each worker will tolerate, then individualize base pay and bonuses. Gig nurses and rideshare drivers report opaque, shifting offers for identical work, seemingly tied to “desperation” rather than skill. Researchers warn this creates an invisible wage ceiling that disproportionately hits the financially vulnerable. HN discussion centers on data brokers (Equifax/The Work Number), extreme information asymmetry, and possible defenses like lying about past pay or freezing data.
 
----
+MarketWatch describes “surveillance wages”: algorithms that infer the minimum pay a worker will accept from personal and behavioral data rather than skill or market value. Advocates say signals may include debt, location, social media, prior accepted rates, response speed, and on-the-job monitoring. Gig nurses and rideshare drivers report different offers for identical work, though named employers and platforms deny using personal characteristics this way, and one cited audit warns about capability rather than proving every customer uses it. Colorado proposes banning intimate-data-based pay setting.
 
 ### Comment pulse
-- Hiring power imbalance → Employers see prior comp via credit checks or payroll data brokers, while candidates know almost nothing about peer salaries; transparency mandates could rebalance.  
-- Data brokers entrench exploitation → Payroll providers quietly feed salary data to Equifax’s The Work Number; opting out requires extra data—counterpoint: some doubt precision of any salary inference from such sources.  
-- Algorithmic pricing spreads → Landlords already use income data to tune rent; commenters expect retailers to individualize prices, driving privacy-preserving behaviors (cash, masks, phone-off shopping).
 
----
+- Payroll providers can opt workers into Equifax’s Work Number, creating salary asymmetry; freezing access itself requires more identity data.
+- Transparent team salary ranges could rebalance negotiation and expose discriminatory differences.
+- Personalized wages may retain desperate workers briefly — counterpoint: underpayment encourages turnover once alternatives appear.
 
 ### LLM perspective
-- View: Treat salary history and income verification data as highly regulated, consent-based, with default “no sharing” and easy, audited opt-outs.  
-- Impact: Strong rules would limit hyper-personalized wage suppression, especially for gig workers, renters, and indebted workers targeted as “high acceptance” risks.  
-- Watch next: Whether Colorado’s bill (and copycats) passes, plus enforcement cases proving individualized wage-setting from third-party data.
+
+- **View:** Capability, opacity, and incentives make individualized wage floors risky even where direct deployment evidence remains limited.
+- **Impact:** Financially vulnerable workers can be locked into lower offers unrelated to performance.
+- **Watch next:** Colorado’s bill, vendor audits, consent rules, salary-data freezes, and proof of person-specific pay discrimination.

@@ -3,18 +3,17 @@
 - Score: 207 | [HN](https://news.ycombinator.com/item?id=47655058) | Link: https://www.latimes.com/business/story/2026-04-01/openais-shocking-fall-from-grace-as-investors-race-to-anthropic
 
 ### TL;DR
-OpenAI just closed a record $122B primary raise, but on secondary markets its shares are suddenly hard to sell, with big holders unable to unload hundreds of millions in exposure. Investors are instead piling into Anthropic, bidding up its implied valuation far above its last round, attracted by lower entry price and a cleaner, enterprise-first business story versus OpenAI’s huge infrastructure burn and slower enterprise push. Hacker News debates whether OpenAI really squandered its lead, how “good” Anthropic actually is, and whether both sky-high valuations ignore the rise of local and Chinese models.
 
----
+Secondary-market demand for OpenAI equity has reportedly weakened as investors chase Anthropic. One marketplace received offers to sell about $600 million of OpenAI shares but found no buyers, while prospective Anthropic buyers had $2 billion ready. OpenAI’s implied valuation fell roughly 10% to $765 billion on bids; Anthropic bids reached about $600 billion, over 50% above its last round. The article attributes the rotation to valuation asymmetry, Anthropic’s enterprise momentum, and OpenAI’s infrastructure costs, while noting that unauthorized secondary transfers can be invalidated and differ from primary fundraising.
 
 ### Comment pulse
-- OpenAI squandered its lead → critics cite slow iteration, misreading the importance of coding agents, and weaker UX; some users now prefer Anthropic’s tools. — counterpoint: several still find GPT models clearly stronger overall.  
-- Ethics branding questioned → Anthropic is seen as “less bad” on surveillance and weapons, but many view both labs as power-seeking with similar real-world compromises.  
-- Valuations mocked → $800B vs $600B is called bubble territory, with expectations that cheap local and Chinese models will undercut margins and long-term dominance.
 
----
+- Some blamed OpenAI’s slower product iteration and missed coding-agent flywheel — counterpoint: practitioners disputed model rankings and called Codex increasingly competitive.
+- Many rejected the moral contrast, arguing both companies rationalize similar conduct; others cited meaningful differences around surveillance and autonomous weapons.
+- Valuation arbitrage may be rational momentum or simplistic “lower number” buying; local models and weak profitability threaten both long-horizon bets.
 
 ### LLM perspective
-- View: Secondary rotation looks like relative-value positioning: similar tech, one cheaper and more enterprise-focused, not a wholesale OpenAI collapse.  
-- Impact: If Anthropic converts enterprise demand into durable revenue first, it could shape pricing, contract norms, and “safety” expectations across the industry.  
-- Watch next: Compare reported gross margins, GPU/datacenter capex, and any regulations targeting local/open models that might entrench or erode today’s giants.
+
+- **View:** Secondary-market illiquidity reveals marginal sentiment, not corporate solvency or the validity of headline primary valuations.
+- **Impact:** Employees and early holders face weaker exits, while Anthropic shareholders gain pricing leverage and intermediaries can charge carry.
+- **Watch next:** Transfer approvals, transaction prices, enterprise revenue, cash burn, IPO filings, and whether Anthropic’s premium survives additional share supply.

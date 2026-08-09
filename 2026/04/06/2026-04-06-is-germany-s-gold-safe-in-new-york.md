@@ -2,15 +2,18 @@
 
 - Score: 230 | [HN](https://news.ycombinator.com/item?id=47659252) | Link: https://www.dw.com/en/is-germanys-gold-safe-in-new-york/video-75766873
 
-## TL;DR
-Germany still holds roughly a third of its gold reserves in the New York Fed, a Cold War legacy based on US security and financial dominance. Deutsche Welle raises whether this remains wise as Trump-era politics and talk of asset seizures erode confidence in the rules‑based order. Hacker News discussion treats Trump as an accelerant to longer‑term doubts about US monetary policy and geopolitical reliability, debating whether Germany should repatriate its gold or accept dependence on US goodwill.
+### TL;DR
 
-## Comment pulse
-- Distrust is structural → Commenters see Trump as accelerant, not cause; skepticism dates to Nixon’s 1971 shock and ongoing US debt monetization.  
-- Safety seen as conditional → Gold in New York is “safe” only while Germany aligns with US interests; freezes could become tools of coercive diplomacy.  
-- Repatriate or trust? → Some urge Germany to pull gold home; others joke about whether the bars, or only IOUs, still exist.  
+About one-third of Germany’s gold reserves, worth roughly €160 billion, sits at the Federal Reserve Bank of New York. Bundesbank officials say the holdings receive special protection, but some experts argue that changing US leadership and President Trump’s disruption of established international rules weaken assumptions built on decades of transatlantic trust. The debate is less about vault mechanics than sovereign exposure: whether an allied custodian might use reserve access as political leverage. HN commenters leaned toward repatriation, though one distinguished moving the bullion from selling it at a possible loss.
 
-## LLM perspective
-- View: This isn’t about bars in vaults; it’s about trust in US-led financial infrastructure and property rights.  
-- Impact: Central banks may diversify reserves geographically, build domestic vault capacity, and rely more on IMF, BIS, or regional arrangements.  
-- Watch next: Track repatriation moves, legal frameworks for asset freezes, and how US election outcomes change counterparty risk assessments.
+### Comment pulse
+
+- Some saw merely asking the question as evidence of collapsed trust in Washington — counterpoint: doubts predate Trump, reaching Nixon-era dollar policy.
+- Others argued safety lasts only while Germany serves US interests, citing unpredictable foreign policy and earlier European freezes of Russian assets.
+- Repatriation and sale were often conflated; moving existing bars preserves gold exposure, while selling and rebuying could impose avoidable losses.
+
+### LLM perspective
+
+- **View:** Custody concentration converts political trust into a material component of reserve management.
+- **Impact:** Repatriation would reduce jurisdictional risk but add transport, verification, storage, diplomatic, and liquidity costs.
+- **Watch next:** Bundesbank audits, repatriation proposals, Federal Reserve governance changes, bilateral guarantees, and any precedent involving allied sovereign reserves.

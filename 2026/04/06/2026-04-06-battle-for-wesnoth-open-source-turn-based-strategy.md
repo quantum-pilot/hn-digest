@@ -3,14 +3,17 @@
 - Score: 367 | [HN](https://news.ycombinator.com/item?id=47664186) | Link: https://www.wesnoth.org
 
 ### TL;DR
-Anubis is a client-side proof-of-work JavaScript gate currently sitting in front of the Battle for Wesnoth site. It aims to make mass AI/web scraping expensive while being cheap for individual human visitors, and is described as a temporary hack until more robust headless-browser fingerprinting is available; no-JS users are effectively blocked for now. The HN discussion largely veers into Wesnoth itself: its quality and longevity, design debates like healer XP, and frustration that even prolific open‑source C++ maintainers struggle to find jobs.
+
+Battle for Wesnoth is a mature open-source, turn-based fantasy strategy game offering 17 campaigns, 55 multiplayer maps, more than 200 units across seven factions, over 30 translations, and extensive community add-ons. Stable release 1.18.7 runs on Windows, macOS, and Linux, with online, local, and hot-seat play. HN readers celebrated it as a long-lived open-source gaming success, traded strategy notes about deliberately risking healers for experience, and highlighted a sobering contrast: a longtime C++ maintainer reportedly still cannot secure a programming job.
 
 ### Comment pulse
-- Open-source maintainers struggle to get jobs → a decade of Wesnoth C++ plus kernel/Firefox patches still yields few offers—counterpoint: clearance-heavy DC roles may differ.  
-- Healing XP design feels wrong → healers gain no XP for healing, forcing risky frontline kills; defenders say risk-reward makes campaigns deeper despite some cheese.  
-- Longtime fans praise Wesnoth’s polish → many discovered it via early Linux distros and now swap lists of similarly high-quality open-source or free games.  
+
+- Veterans praised its replayability, pixel art, moddability, and volunteer-driven longevity.
+- Healing grants no experience by design: risk-free advancement would become inevitable — counterpoint: kill-stealing feels contrary to a healer’s role.
+- Twelve years maintaining a prominent C++ project did not guarantee employment, exposing how poorly hiring processes value open-source experience.
 
 ### LLM perspective
-- View: Client-side proof-of-work gates are a blunt but understandable reaction to unsignaled AI scraping and fragile indie-hosted infrastructure.  
-- Impact: Raises resource costs for large crawlers but also locks out no-JS users and complicates accessibility, archiving, and lightweight clients.  
-- Watch next: Better bot detection, limited public mirrors, and opt-out signals could ease tension between open-web norms and model training.
+
+- **View:** Wesnoth shows durable community games need content ecosystems, governance, and maintenance—not merely open code.
+- **Impact:** Players receive a deep free game while contributors build unusually broad production skills.
+- **Watch next:** Maintainer sustainability, 1.19 development, add-on compatibility, and whether community referrals translate into jobs.

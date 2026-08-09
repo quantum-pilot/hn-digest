@@ -3,18 +3,17 @@
 - Score: 243 | [HN](https://news.ycombinator.com/item?id=47656622) | Link: https://moonrf.com/
 
 ### TL;DR
-MoonRF is an open-source, C‑band software-defined phased-array project aimed at making Earth-Moon-Earth (EME) and advanced RF experiments accessible. It offers a $49–99 4‑antenna SDR tile (QuadRF), a 72‑antenna “Mini” array, and a 240‑antenna, ~1.5 kW “Moon” array designed for moon-bounce, RF imaging, and radio astronomy. HN commenters praise the serious engineering and low price-per-aperture, debate whether EME is more marketing than necessity, and scrutinize both the open-source claims and the “AI/agentic” branding.
 
----
+MoonRF plans to ship an open-source, software-defined phased-array platform in July 2026. Its $49–$99 QuadRF tile combines four C-band antennas; 18 tiles form a 72-antenna Mini, while 60 tiles form a 240-antenna, one-metre Moon array priced at $2,499–$4,999 for Earth-Moon-Earth radio, astronomy, and sensing. The large array is projected to draw 1.5 kW and transmit 240 W. HN admired the engineering but questioned calling unreleased hardware open source, the Raspberry Pi interface choices, and whether moon bounce needs a phased array.
 
 ### Comment pulse
-- Open-source status questioned → skeptics dislike calling it open before shipping; others link to active GitHub and licenses — counterpoint: hardware/schematics availability and timing still matter.  
-- Engineering and architecture lauded → creative Pi 5 MIPI “camera/display as SDR I/O” hack impresses, but some prefer standard PCIe/USB and doubt the “Agentic Transceiver” AI workflow claims.  
-- Usefulness vs alternatives → phased array seen as overkill for slow-moving Moon compared to cheaper dishes; others note far higher power than Starlink and strong educational/experimental value.
 
----
+- Video interfaces provide cheap high-speed I/O, though PCIe could improve portability and simplify the signal path.
+- A motorized dish is cheaper for the slow-moving Moon — counterpoint: phased arrays offer software steering, no moving parts, and broader experiments.
+- Readers doubted the “agentic transceiver” claims and noted radar capability may require only firmware changes.
 
 ### LLM perspective
-- View: If documentation stays strong, this becomes a reference platform for serious hobbyist/academic RF, not just a novelty EME toy.  
-- Impact: Lowers the barrier for learning phased arrays, radio astronomy, and high-speed SDR pipelines, especially for universities and clubs.  
-- Watch next: Release of full hardware files, reproducible moon-bounce demos, and ports to non–Raspberry Pi SBCs with cleaner high-speed interfaces.
+
+- **View:** The modular SDR tiles may matter more than the attention-grabbing moon-bounce use case.
+- **Impact:** Amateur radio and research groups could access coherent arrays at unusually low prices.
+- **Watch next:** Shipped hardware, published source and licenses, measured gain, thermal behavior, regulatory limits, and reproducible EME contacts.

@@ -2,15 +2,18 @@
 
 - Score: 253 | [HN](https://news.ycombinator.com/item?id=47660954) | Link: https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/
 
-- TL;DR  
-German police publicly identified Russian national Daniil Maksimovich Shchukin as “UNKN/UNKNOWN,” alleged mastermind of the GandCrab and REvil ransomware syndicates that popularized double‑extortion attacks. Krebs details their affiliate model, billion‑dollar haul, and high‑profile hits like Kaseya, plus links tying Shchukin to older hacker aliases and OSINT such as birthday photos. Hackers at Germany’s CCC apparently named him in a 2023 talk, fueling Hacker News debates over cooperation with authorities and whether this constitutes “doxxing”.
+### TL;DR
 
-- Comment pulse  
-  - CCC-linked researchers reportedly outed Shchukin in a 2023 talk; commenters wonder if BKA reused that work or conducted parallel investigations.  
-  - Long thread on “doxxing”: some reserve it for unethical exposure; others cite 1990s usage for deanonymizing hackers for arrest — counterpoint: state accusations aren’t ethical.  
-  - Others note language drift: calling a wanted notice “doxxing” feels wrong to some, especially since US filings named Shchukin years earlier.
+Germany’s BKA says Russian Daniil Maksimovich Shchukin, 31, was “UNKN,” leader of the GandCrab and REvil ransomware groups, and names Anatoly Sergeevitsch Kravchuk, 43, as another suspect. Authorities attribute at least 130 German attacks to the network; two dozen allegedly caused more than €35 million in damage and nearly €2 million in extortion. GandCrab and REvil professionalized ransomware-as-a-service and double extortion before REvil collapsed after US infiltration. Shchukin is believed to remain in Russia, making identification different from arrest.
 
-- LLM perspective  
-  - View: This case shows ransomware leaders aren’t anonymous; OSINT and conference leaks can expose them long before formal indictments.  
-  - Impact: Higher identification risk may deter some criminals but mostly drives gangs into friendlier jurisdictions and better operational security.  
-  - Watch next: Cross-border warrants, crypto seizures, and insurer policy changes; also whether police engage with hacker communities without burning trust.
+### Comment pulse
+
+- A 2023 CCC talk had already identified Shchukin, raising questions about how novel or independent the BKA attribution is.
+- Readers disputed “doxxing”: historically it can mean unmasking hackers, but modern usage implies unethical exposure.
+- Naming a wanted suspect is justified by alleged harm — counterpoint: criminal accusations do not automatically erase privacy rights.
+
+### LLM perspective
+
+- **View:** Public attribution increases pressure but offers limited enforcement while suspects remain in Russia.
+- **Impact:** Victims gain accountability; operators lose pseudonymity and may face travel constraints or asset seizures.
+- **Watch next:** Evidence releases, international warrants, arrests outside Russia, cryptocurrency recovery, and confirmation linking “UNKN” to Shchukin.

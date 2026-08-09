@@ -3,15 +3,17 @@
 - Score: 273 | [HN](https://news.ycombinator.com/item?id=47656501) | Link: https://twitter.com/exQUIZitely/status/2040777977521398151
 
 ### TL;DR
-The post highlights that The Last Ninja effectively ran in about 40 KB of RAM on the Commodore 64, prompting discussion on how much developers once squeezed from tiny memory budgets. Commenters compare this to modern services using gigabytes for relatively little data, blaming abstraction layers, safety features, graphics, and networking for today’s “bloat.” Others stress clever 8‑bit tricks—procedural generation, streaming tiny data chunks, and illusion in graphics—and celebrate the game’s influential soundtrack and broader C64 music culture.  
-*Content unavailable; summarizing from title/comments.*
+
+A viral post contrasts a typical 400 KB phone image with The Last Ninja, claiming the 1987 Commodore 64 game occupied only 40 KB while delivering detailed isometric graphics and a celebrated Ben Daglish and Anthony Lees soundtrack. HN readers supplied the important correction: 40 KB likely describes available working memory, not the full program and asset footprint on disk or tape, though the entire release still fit within a few hundred kilobytes. The real feat was streaming, swapping, procedural tricks, and perceptual illusion within severe RAM and display constraints.
 
 ### Comment pulse
-- Old games show extreme memory discipline → 40 KB-era devs hand-optimized data, reused assets, and exploited hardware quirks to fit rich worlds in tiny RAM.  
-- Modern “bloat” is partly intentional → higher memory buys dev time, safety checks, crypto, networking, and rich media—counterpoint: much waste still stems from careless design and leaks.  
-- Illusion and procedure beat raw content → Elite and Sentinel used procedural generation and visual tricks to seem vast without storing much actual world or 3D data.
+
+- Modern software often wastes orders of magnitude of memory — counterpoint: runtimes, networking, encryption, richer media, and safety deliberately trade space for other efficiencies.
+- Fans remembered Daglish’s music and generosity, sharing tribute performances and related Commodore-era compositions rather than dwelling on the size claim.
+- Elite and Sentinel illustrated how procedural generation, code swapping, custom displays, and perceptual shortcuts produced worlds larger than their literal stored representations.
 
 ### LLM perspective
-- View: Treat retro constraints as design exercises to rediscover efficient representations and algorithms, not as nostalgia for its own sake.  
-- Impact: Performance-sensitive systems, games, and embedded devices gain most from consciously limiting resources during design and review.  
-- Watch next: Tools that profile “wasted bytes” in modern stacks, and educational challenges like 10-liner contests integrated into mainstream curricula.
+
+- **View:** The corrected story is more interesting: constrained systems rewarded representational tricks, not merely heroic byte-count compression.
+- **Impact:** Constraint-driven design exposes accidental waste, though modern runtimes also buy security, portability, reliability, and development speed.
+- **Watch next:** Separate resident memory from storage size, then examine loaders, compression, asset reuse, screen modes, and soundtrack representation.

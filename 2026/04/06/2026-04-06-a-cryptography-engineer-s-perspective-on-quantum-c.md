@@ -3,18 +3,17 @@
 - Score: 300 | [HN](https://news.ycombinator.com/item?id=47662234) | Link: https://words.filippo.io/crqc-timeline/
 
 ### TL;DR
-The author, a practicing cryptography engineer, has shifted from “we have time” to “we’re late” on post-quantum cryptography. Two new papers dramatically reduce qubit and gate estimates needed to break 256-bit elliptic curves, tightening credible timelines for cryptographically relevant quantum computers to around 2029. He argues risk management, not certainty, should drive decisions: assume a non-trivial chance of CRQC this decade. That means deploying ML-KEM for key exchange and ML-DSA-44 for authentication now, skipping hybrids, while leaving 128-bit symmetric crypto unchanged.
 
----
+Cryptography engineer Filippo Valsorda says recent algorithm and error-correction papers, plus expert warnings, changed his quantum-risk assessment: organizations should finish migrating asymmetric cryptography by 2029 rather than wait for certainty. He urges ML-KEM key exchange now, pure ML-DSA-44 authentication rather than complex hybrids, warnings for classical key exchange, and retirement of new non-post-quantum schemes. Symmetric 128-bit encryption remains adequate. HN skeptics accepted the risk framing but disputed skipping hybrid signatures and questioned whether authentication is as urgent as protecting recorded traffic.
 
 ### Comment pulse
-- Skeptics reconsider timelines → Clear risk framing (can’t be 99% sure CRQC won’t exist by 2030) convinces some that “RSA is fine” is no longer defensible.  
-- Priority debate: key exchange vs. signatures → Some say only session keys are urgent; author and others note timestamps, crypto identities, and tight timelines make signatures urgent too.  
-- Hybrid vs. pure PQ → Some see skipping hybrids as reckless given immature PQ; author argues hybrid auth adds complexity and delays migration—counterpoint: hybrids raise attack cost if PQ breaks.
 
----
+- Key exchange is the immediate priority because recorded traffic can be decrypted later; signatures generally lack that retrospective exposure.
+- The author argues rotation lead times make authentication urgent too, especially timestamps, identities, and ecosystems that could be forged or stranded.
+- Pure ML-DSA simplifies migration — counterpoint: hybrids hedge against undiscovered classical flaws in newer post-quantum algorithms.
 
 ### LLM perspective
-- View: Treat CRQC as a looming safety deadline; optimize for migration speed and simplicity, not cryptographic elegance.  
-- Impact: TLS/SSH stacks, PKI, cryptocurrencies, TEEs, and archival storage systems must plan full PQ rollouts and deprecation timelines now.  
-- Watch next: Concrete hardware roadmaps, large-scale ML-KEM/ML-DSA deployments, and any real-world cryptanalysis or side-channel breaks of lattice schemes.
+
+- **View:** Migration deadlines should follow credible worst-case risk, not median hardware forecasts.
+- **Impact:** Protocol owners face larger signatures, downgrade hazards, compatibility breaks, and obsolete attestation roots.
+- **Watch next:** Independent review of new resource estimates, 2029 roadmaps, and production evidence for ML-DSA interoperability.

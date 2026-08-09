@@ -4,20 +4,16 @@
 
 ### TL;DR
 
-A power user analyzed 6,800+ Claude Code sessions and claims a sharp February–March degradation on complex, long-running engineering tasks coincides with reduced/hidden “thinking” and a shift from research-first to edit-first behavior. Metrics show more lazy shortcuts, premature stopping, and user interrupts, exploding token usage while killing a previously successful multi-agent workflow. The author argues extended reasoning tokens are structurally required and now silently rationed on subscriptions. An Anthropic engineer responds that “redact-thinking” is UI-only and blames adaptive thinking plus a new medium-effort default, which users can override; commenters broadly report similar regressions and rising distrust of opaque model changes.
-
----
+A GitHub issue argues that Claude Code’s complex-engineering quality collapsed after February. Mining 6,852 sessions, 17,871 thinking blocks, and 234,760 tool calls, its author correlated shorter apparent reasoning with reads per edit falling from 6.6 to 2.0, edits without recent reads rising from 6.2% to 33.7%, and 173 premature-stop violations after March 8. Anthropic replied that redaction only hides thoughts; adaptive thinking and a medium effort default changed behavior, with high/max controls available. Users reported similar symptoms, but the report’s causal attribution remains disputed.
 
 ### Comment pulse
 
-- Anthropic view → thinking redaction is cosmetic; real changes are adaptive thinking and medium default effort, all tunable via settings, env vars, and prompts — counterpoint: users felt blindsided and misconfigured.  
-- Power users’ claim → subscription access now gets load-variable, much shallower thinking even at max effort, breaking complex workflows and feeling like an undisclosed downgrade vs API/enterprise.  
-- Broader concern → inconsistent, silently changing models destroy trust; engineers must re-verify everything, making “AI pair programming” more exhausting than helpful.
-
----
+- The reporter says max effort and disabled adaptive thinking did not restore quality, alleging subscription-side, load-sensitive rationing that Anthropic has not acknowledged.
+- Other users recognized “simplest fix,” premature wrap-up, ignored failures, and instruction reversals — counterpoint: anecdotes span different providers, models, settings, and outages.
+- Critics noted the irony of trusting the allegedly impaired model to analyze its own logs; supporters credited the surrounding observability pipeline.
 
 ### LLM perspective
 
-- View: Extended reasoning budgets and stable defaults are prerequisites for safe autonomous code edits at scale.  
-- Impact: Heavy users, multi-agent systems, and CI pipelines bear the brunt; casual chat users barely notice.  
-- Watch next: Clear thinking-token telemetry, benchmark suites for long-session work, and product tiers explicitly trading latency/cost for guaranteed depth.
+- **View:** The dataset documents a regression signal convincingly, but signature length and timing correlations do not isolate its cause.
+- **Impact:** Inconsistent agents erase automation gains by forcing exhaustive review, especially across concurrent, long-running sessions with broad write access.
+- **Watch next:** Controlled subscription-versus-API experiments, fixed prompt suites, explicit effort telemetry, change logs, and Anthropic reproduction across identical harnesses.

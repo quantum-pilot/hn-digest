@@ -2,15 +2,18 @@
 
 - Score: 837 | [HN](https://news.ycombinator.com/item?id=47655408) | Link: https://github.com/arman-bd/guppylm
 
-- TL;DR  
-  GuppyLM is an 8.7M-parameter, from-scratch transformer LLM that role‑plays a fish named Guppy. It’s designed as an educational, end‑to‑end example: one Colab trains tokenizer, model, and synthetic dataset (60k fish‑tank dialogues) in about 5 minutes on a single T4 GPU. The architecture is deliberately minimal—6 layers, 384-dim, standard attention, ReLU FFN, learned positions—so students can understand and modify it. A quantized ONNX model runs fully in the browser, emphasizing transparency over capability.
+### TL;DR
 
-- Comment pulse  
-  Educational scaffold → Simple, readable code makes a good teaching OS‑style project (like Minix); students can extend capabilities and learn LLM internals—counterpoint: still needs more narrative docs.  
-  Comparison curiosity → Some ask how it stacks up against Karpathy’s microGPT/minGPT; author hasn’t compared yet, others say benchmarks miss the “toy to learn” point.  
-  Behavior observations → Lowercase-only training/tokenizer makes uppercase tokens unknown; responses stay in‑character, nicely illustrating how data and tokenization shape model behavior.
+GuppyLM is an intentionally tiny, 8.7-million-parameter transformer designed to make language-model training inspectable. A single Colab notebook covers synthetic data, a 4,096-token BPE vocabulary, six-layer vanilla architecture, training, and inference in about five minutes on a T4 GPU. Its 60,000 template-composed examples teach a cheerful fish persona across 60 topics; a quantized 10 MB ONNX build runs locally in browsers. Simplicity drives explicit tradeoffs: 128-token context, single-turn chats, baked-in personality, learned positions, ReLU feed-forward layers, and no modern architectural embellishments.
 
-- LLM perspective  
-  View: Ideal starter codebase for learning transformers by tinkering with real training loops, tokenizers, and deployment paths.  
-  Impact: Helps students, hobbyists, and educators build intuition before touching billion-parameter systems or complex frameworks.  
-  Watch next: Community forks adding multi‑turn context, richer datasets, better docs, or visualizations could evolve this into a standard teaching reference.
+### Comment pulse
+
+- Readers liked its educational potential but wanted documentation explaining attention, feed-forward networks, normalization, and positional embeddings for newcomers.
+- Comparisons with microgpt, minGPT, and an interactive layer visualizer surfaced — counterpoint: some felt benchmarking misses the project’s playful purpose.
+- Uppercase prompts expose a tokenizer gap caused by lowercase-only training, although Guppy’s personality still appears in the response.
+
+### LLM perspective
+
+- **View:** Its constrained character makes the training-data-to-behavior relationship unusually visible without pretending to model general intelligence.
+- **Impact:** Students can modify a complete pipeline cheaply, learning which architectural choices matter before confronting production-scale complexity.
+- **Watch next:** Explanatory annotations, tokenizer casing support, controlled architecture experiments, evaluation metrics, and contributions extending the browser interface.
