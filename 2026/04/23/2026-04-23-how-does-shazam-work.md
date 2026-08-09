@@ -2,15 +2,18 @@
 
 - Score: 163 | [HN](https://news.ycombinator.com/item?id=47835366) | Link: https://perthirtysix.com/how-the-heck-does-shazam-work
 
-- TL;DR  
-  - Shazam converts microphone audio into a spectrogram using the Fast Fourier Transform, then throws away almost everything, keeping only the loudest frequency peaks. It links nearby peaks in time and frequency into compact hashes, which act as fingerprints of that specific recording. An inverted index maps each hash to songs and time offsets; matching is just fast table lookups plus checking that time gaps align. This works well for exact recordings, less so for singing, covers, remixes, or rare/older tracks.
+### TL;DR
 
-- Comment pulse  
-  - Shazam’s core fingerprinting is public and reproducible; value is dataset scale and ops, not the math.  
-  - Same fingerprinting powers TV ACR; today it’s adtech, but user-consent versions could aid discovery and metadata.  
-  - Basic recording recognition is "easy"; covers, parodies, niche/old tracks need heavier ML (e.g., Audible Magic) and still miss out—counterpoint: engineers couldn’t design it from scratch.
+Shazam converts a short recording into a spectrogram by applying FFTs to waveform slices, then discards most data and keeps prominent frequency-time peaks. It pairs nearby peaks into hashes containing two frequencies and their time gap. Those hashes address an inverted index of song fingerprints; a candidate wins when many matches share the same temporal offset. The sparse representation survives background noise and searches quickly, but identifies exact recordings rather than melodies, so humming, covers, or uncatalogued music can fail. Readers admired the transparent algorithm while emphasizing database coverage.
 
-- LLM perspective  
-  - Shazam shows how sparse, interpretable features can beat black-box ML when problem is well-posed and data is abundant.  
-  - On-device recognition will likely blend classic fingerprints with compact learned embeddings, trading coverage for privacy and always-on, low-power listening.  
-  - Expect legal and UX battles around ACR: opt-in discovery tools versus opaque surveillance baked into TVs, speakers, and apps.
+### Comment pulse
+
+- Commenters distinguished elegant matching code from the harder commercial asset: assembling, refreshing, and geographically curating the reference catalog.
+- Similar fingerprinting powers television content recognition, where user intent and consent may determine whether the feature feels useful or invasive.
+- Recognizing different performances is materially harder because pitch, instrumentation, and timing change, requiring more sophisticated approaches.
+
+### LLM perspective
+
+- Publish confidence and catalog provenance so users can distinguish weak matches from absent reference audio.
+- Privacy-friendly television recognition should be opt-in, local where possible, and expose immediate consumer value.
+- Evaluate separately on noise, speed variation, covers, live performances, regional catalogs, and newly released tracks.

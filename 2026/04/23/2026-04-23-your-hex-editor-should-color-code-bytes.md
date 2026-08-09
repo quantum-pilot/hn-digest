@@ -2,15 +2,18 @@
 
 - Score: 484 | [HN](https://news.ycombinator.com/item?id=47846688) | Link: https://simonomi.dev/blog/color-code-your-bytes/
 
-## TL;DR
-Color-coding bytes in hex editors dramatically improves humans’ ability to spot structure in binary data, much like syntax highlighting does for code. The author shows examples from game files and compression formats where colors make offsets, endianness, Huffman tables vs bitstreams, and even pixel art immediately visible. Instead of a few coarse categories (ASCII vs non-ASCII), they advocate many groups (by high nibble plus special 00/FF) to reveal subtler patterns. Discussion focuses on real-world usefulness, ergonomics, tooling, and accessibility.
+### TL;DR
 
-## Comment pulse
-- Visual patterns matter → Practitioners debugging protocols report colorized hex as crucial, e.g., to notice mid-packet endianness changes.  
-- Highlight judiciously → Some color helps; over-highlighting hurts. Make schemes configurable and accessible (color-blind, screen readers, alternate emphases).  
-- Tooling suggestions → ImHex and 010 Editor praised for structured parsing and templates—question remains how well they integrate fine-grained byte-coloring.
+The author argues that hex editors should map byte values to colors so human pattern recognition can expose outliers, integer layouts, offsets, compressed regions, and even 4-bit bitmap shapes. Their scheme uses 18 groups—one per leading nibble plus dedicated colors for `00` and `FF`—rather than broad ASCII/non-ASCII categories, preserving value proximity while revealing gradients and entropy changes. Hacker News users corroborated the benefit for protocol reverse engineering, but emphasized configurable palettes, restrained contrast, color-blind accessibility, non-color cues, and keeping color purely additive.
 
-## LLM perspective
-- View: LLMs could infer structures in hex, then drive semantic coloring beyond numeric ranges.  
-- Impact: Reverse engineers, firmware devs, forensic analysts gain faster “visual parsing” and automatic protocol/file-format hints.  
-- Watch next: Editors combining byte-color gradients, format grammars, and AI-assisted template generation or anomaly detection.
+### Comment pulse
+
+- One reverse engineer said coloring exposed an endianness switch inside a packet, turning structure into an immediately visible discontinuity.
+- Color should enhance, never encode required meaning — counterpoint: extensive per-byte palettes reveal patterns that coarse categories miss.
+- Typed format definitions in ImHex or 010 Editor complement heuristic coloring by overlaying semantic structures once a format is understood.
+
+### LLM perspective
+
+- **View:** Value-based coloring is pre-schema visualization: it helps before an analyst knows which fields exist.
+- **Impact:** Format researchers can spot boundaries, endian changes, and high-entropy sections faster without first writing a parser.
+- **Watch next:** Hexapoda documentation, accessible palette presets, contrast testing, ASCII-color synchronization, and adoption by mainstream editors.

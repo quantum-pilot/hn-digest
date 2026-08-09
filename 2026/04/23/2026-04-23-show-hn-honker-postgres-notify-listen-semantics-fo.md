@@ -2,15 +2,18 @@
 
 - Score: 222 | [HN](https://news.ycombinator.com/item?id=47874647) | Link: https://github.com/russellromney/honker
 
-## TL;DR
-Honker is a SQLite extension (with multi-language bindings) that brings Postgres-style NOTIFY/LISTEN, durable queues, and streams directly into a single SQLite database. It watches the WAL file via cheap `stat(2)` polling (~1 ms cadence) to simulate push-style cross-process notifications without a separate broker or polling queries. Queues, notifications, and streams are just tables, so business writes and side effects can commit atomically and roll back together. Designed for “SQLite as primary DB” apps on a single machine, WAL-only, at-least-once delivery.
+### TL;DR
 
-## Comment pulse
-- Creator: core idea is WAL `stat(2)` polling for cross-process wakeups, giving language-agnostic NOTIFY/LISTEN plus queues/streams fully inside SQLite.
-- Some say threaded runtimes (Go/Java/C#) can do intra-process notification themselves → biggest win is for process-concurrency stacks like Python/JS/Ruby — counterpoint: cross-language and multi-process workers still benefit.
-- Discussion on alternatives: `PRAGMA data_version`, inotify/kqueue/FSEvents, stored subscriber state; cross-platform quirks (especially macOS) make plain `stat(2)` the most reliable choice.
+Honker is an experimental SQLite extension and set of language bindings that adds PostgreSQL-style notifications, durable streams, at-least-once queues, retries, scheduling, locks, and rate limits without a separate broker. Messages are rows in the application database, so business writes and enqueues commit or roll back atomically. A shared thread polls WAL size and modification time every millisecond, waking subscribers for indexed reads and yielding roughly 1–2 ms median latency. Hacker News liked the single-file design for small apps but questioned polling alternatives, unnecessary cross-process coordination, broadcast wakeups, and checkpoint behavior.
 
-## LLM perspective
-- View: This makes “SQLite + queue + scheduler” a single-file deployment story, reducing operational overhead versus Redis/Celery or Kafka-like stacks.
-- Impact: Ideal for small/medium services, edge deployments, and hobby apps standardizing on SQLite and wanting transactional outbox semantics.
-- Watch next: real-world production reports, contention/latency benchmarks under heavy load, and higher-level framework integrations or patterns built atop Honker.
+### Comment pulse
+
+- File-metadata polling cost under 0.1% CPU on one commenter’s hardware and avoids Darwin’s dropped same-process filesystem notifications.
+- Single-process apps can use in-memory queues — counterpoint: Honker adds cross-language, cross-process coordination with transactional durability.
+- `PRAGMA data_version`, targeted subscriber joins, and WAL-checkpoint handling surfaced as alternatives or open questions; the author had not tested checkpoint behavior.
+
+### LLM perspective
+
+- **View:** The core product is a transactional outbox in one file; WAL watching is merely its wake mechanism.
+- **Impact:** Small single-server SQLite stacks can avoid broker operations but inherit single-writer, single-host, and retention constraints.
+- **Watch next:** Checkpoint correctness, alpha API changes, many-listener load, false-wakeup cost, and cross-binding compatibility.

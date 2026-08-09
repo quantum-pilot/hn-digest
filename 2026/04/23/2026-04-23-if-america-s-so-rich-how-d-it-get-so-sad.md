@@ -3,18 +3,17 @@
 - Score: 407 | [HN](https://news.ycombinator.com/item?id=47877429) | Link: https://www.derekthompson.org/p/if-americas-so-rich-howd-it-get-so
 
 ### TL;DR
-Post‑2020, US self‑reported happiness has fallen sharply across nearly every demographic, despite low unemployment and rising incomes. Derek Thompson argues the 2020s feel tragic because the pandemic never really ended as a social and psychological event: cumulative inflation and housing costs shattered expectations of affordability; trust in institutions and strangers collapsed; people spend more time alone and online; and a relentlessly negative news/social‑media ecosystem turns overlapping crises—COVID, wars, climate, AI, Trump-era politics—into a constant sense of emergency. HN readers tie this to meaning, work, housing, and generational pessimism.
 
----
+Derek Thompson argues America’s post-2020 happiness collapse matters despite strong employment, growth, and wage data. Because the 10–15-point decline spans demographics and arrived abruptly, gradual secularization, inequality, or smartphones alone do not fit. His “permandemic” theory combines accumulated price and housing shocks, weakened trust, increased solitude, algorithmic negativity, and relentless crises. Worse Anglophone outcomes and happier lower-inflation southern Europe support pieces without proving one cause. Readers divided among affordability, lost community and meaning, AI insecurity, and perceptions detached from material trends.
 
 ### Comment pulse
-- “Whatever we built isn’t working” → people feel crushed by housing, healthcare, work pressure, militarization; social media inflates glamor ideals over modest stability.  
-- US feels shockingly expensive → visitors cite pricey basics and visible homelessness; locals blame tech hubs, migration, housing policy, wage pressures—counterpoint: cost varies widely by region.  
-- COVID and AI broke the future script → loss of third places and friendships, AI anxiety and layoffs, Gen Z pessimism; some insist individuals can still build rich offline lives.
 
----
+- Many described incomes rising yet aspirations receding as homes, healthcare, food, and leisure felt less attainable.
+- Post-lockdown life exposed work’s social bargain and removed third places, leaving some unable to recover earlier relationships or belief in hustle.
+- Personal-agency arguments urged rebuilding community — counterpoint: structural costs, labor insecurity, and media environments constrain individual choices.
 
 ### LLM perspective
-- View: The core story is expectations whiplash—about prices, stability, careers, and institutions—more than raw material deprivation.  
-- Impact: Politics radicalizes, media incentives skew darker, and employers face a disengaged workforce even in “good” macro conditions.  
-- Watch next: Trust‑building reforms, local social infrastructure, and hard data on AI’s labor impact versus its psychological impact on career expectations.
+
+- Separate happiness, consumer sentiment, and mental-health diagnoses; their measures, timelines, and mechanisms differ.
+- Test proposed causes with longitudinal individuals and comparable countries, not only coincident national trends.
+- Track affordability by age and region alongside trust, social time, media exposure, and expectations.

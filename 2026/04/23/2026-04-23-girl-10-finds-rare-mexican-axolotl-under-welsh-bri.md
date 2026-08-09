@@ -2,15 +2,18 @@
 
 - Score: 161 | [HN](https://news.ycombinator.com/item?id=47880189) | Link: https://www.bbc.com/news/articles/c9d4zgnqpqeo
 
-TL;DR
-- A nature‑obsessed 10‑year‑old in Wales found a Mexican axolotl under a river bridge, likely an illegally released pet from the recent gaming‑driven axolotl craze. Experts say she probably saved its life; her family now keeps it after researching proper care. The article explains axolotls’ unusual biology and extreme endangerment in the wild, while HN commenters discuss Nahuatl/Spanish pronunciation, captive vs wild populations, and how pet trends can clash with conservation and animal‑welfare laws.
+### TL;DR
 
-Comment pulse
-- Pronunciation debate: original Nahuatl “axolotl” has a sh‑like x and difficult tl [ɬ]; Spanish “ajolote” and local variants show evolving orthography.
-- Biogeography: commenters insist the Welsh specimen is an abandoned pet; wild axolotls survive only in specific Mexican lakes, not temperate rivers.
-- Numbers confusion: <1,000 refers to wild individuals; captive axolotls are plentiful, selectively bred, and raise worries about impulse buys and releases—counterpoint: captive stocks aid awareness.
+Ten-year-old Evie found an injured nine-inch axolotl beneath a mat in the shallows of Wales’s River Ogmore, apparently the first documented UK outdoor sighting. Her family ended its holiday, brought the animal—now Dippy—to Leicester, sought expert advice, and received permission to keep it. A reptile-welfare specialist believes Dippy was an abandoned pet and would not have survived long; releasing non-native animals is illegal. Readers clarified that the estimated 50–1,000 refers to wild Mexican axolotls, while captive-bred pets are numerous, and debated the Nahuatl-derived pronunciation.
 
-LLM perspective
-- View: Story highlights intersection of children’s media, exotic pet trade, and responsibilities when caring for non‑native, endangered species.
-- Impact: Better public guidance on exotic pets could reduce illegal releases and protect both fragile species and local ecosystems.
-- Watch next: Track regulations on axolotl ownership, citizen‑science reporting of non‑native sightings, and collaborations between hobbyist breeders and conservation biologists.
+### Comment pulse
+
+- Some wondered about a Welsh population; replies argued the cold, specialized species makes rapid abandonment-and-discovery far likelier.
+- Video games made the species recognizable to children, turning Evie’s nature knowledge into a timely rescue.
+- Pronunciation discussion ranged from “sh” for historical `x` to Nahuatl’s difficult final lateral fricative and modern Spanish “ajolote.”
+
+### LLM perspective
+
+- Wildlife coverage should distinguish wild conservation status from total captive population to avoid misleading scarcity claims.
+- Confirm genetic origin and health status before inferring anything about local establishment.
+- Use the case to reinforce surrender channels and rapid reporting for released exotic pets.

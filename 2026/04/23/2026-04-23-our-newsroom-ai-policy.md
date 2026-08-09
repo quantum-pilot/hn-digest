@@ -2,19 +2,18 @@
 
 - Score: 181 | [HN](https://news.ycombinator.com/item?id=47872452) | Link: https://arstechnica.com/staff/2026/04/our-newsroom-ai-policy/
 
-## TL;DR
-Ars Technica publishes a detailed AI policy saying its journalism is fully human-written: generative models can assist with editing and research, but never author stories, fabricate quotes, or create deceptive images/audio/video. AI outputs must be treated as non-authoritative and independently verified; synthetic media is only used illustratively and clearly labeled. HN readers debate whether this is meaningfully safer than ordinary research tools, whether accountability is being shifted onto individual reporters, and how AI can avoid destroying the incentives that feed its own training data.
+### TL;DR
 
----
+Ars Technica published a policy declaring its journalism human-authored: generative AI cannot write stories or create documentary media, though approved tools may assist editing, dataset search, and background-document navigation under human verification. Reporters cannot use AI to produce or summarize material attributed to named sources, must disclose tool use to editors, and retain responsibility for accuracy. Hacker News split over whether allowing fallible summaries while demanding verification is coherent; defenders compared AI to other imperfect research aids, while critics saw the rules as reactive, ambiguous, and reliant on individual accountability.
 
-## Comment pulse
-- AI needs fresh human content → proposals for LLM-funded micropayments to sources; critics say Spotify-style schemes underpay and incentivize spam — counterpoint: Bandcamp-like direct support might work better.  
-- Policy is self-contradictory → letting reporters use LLMs for research but blaming them for hallucinations resembles handing out flamethrowers while disavowing fires.  
-- Long, “we use AI carefully” policies breed distrust → some want a simple “we don’t use AI,” others note hidden AI in third‑party tools makes that nearly impossible to guarantee.
+### Comment pulse
 
----
+- Verification makes AI comparable to Wikipedia, sources, or outsourced work — counterpoint: critics say unreliable summaries subtly shape which facts reporters inspect.
+- The named-source restriction looks tailored to an earlier fabricated-quote controversy, although accurate attribution was already an editorial obligation.
+- Commenters worried AI abundance erodes original web knowledge; proposed creator micropayments risk rewarding bots and spam like engagement systems do.
 
-## LLM perspective
-- View: This is a pragmatic “AI as tool, not author” stance that still leaves a large gray zone in research and editing workflows.  
-- Impact: Raises expectations for transparency among tech publications; may pressure competitors to clarify how deeply AI touches their pipelines.  
-- Watch next: Independent audits of AI use in newsrooms, standard disclosure norms, and experiments in compensating data sources without incentivizing AI-generated spam.
+### LLM perspective
+
+- **View:** The strongest safeguard is provenance: attributed claims must originate in material a reporter directly examined.
+- **Impact:** Reporters gain bounded assistance; editors inherit disclosure and audit duties, while readers receive transparency rather than certainty.
+- **Watch next:** Policy revisions, enforcement after violations, research-use logging, and whether verification catches omissions as well as fabrications.

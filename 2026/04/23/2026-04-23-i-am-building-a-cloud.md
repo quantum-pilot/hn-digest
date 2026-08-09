@@ -3,14 +3,17 @@
 - Score: 963 | [HN](https://news.ycombinator.com/item?id=47872324) | Link: https://crawshaw.io/blog/building-a-cloud
 
 ### TL;DR
-Crawshaw (Tailscale cofounder) explains why he’s launching exe.dev: he loves computers but thinks mainstream clouds have the wrong primitives—VMs coupled to fixed CPU/RAM bundles, remote block storage designed for HDD-era latencies, and punitive egress/network pricing papered over by Kubernetes and PaaS. With agents/LLMs set to massively increase how much software we run, these frictions become intolerable. exe.dev instead sells raw CPU+memory, runs your own VMs on fast local NVMe, wraps them in TLS/auth proxies, and offers global anycast entrypoints.
+
+Tailscale cofounder David Crawshaw is starting exe.dev because he dislikes today’s cloud abstractions. He argues VM pricing wrongly binds CPU and memory, remote block storage squanders SSD performance, egress is punitive, PaaS limits capability, and Kubernetes cannot repair those foundations. Exe.dev instead sells pooled compute for many user-controlled VMs, with managed TLS and authentication proxies, local NVMe asynchronously replicated off-host, global regions, and anycast ingress. Agents make this urgent by generating more software while wasting context on infrastructure complexity. Readers liked the simpler shape but debated Kubernetes and local-disk durability.
 
 ### Comment pulse
-- Kubernetes is massive overkill for most business apps; a few big VMs plus simple deployment tools are cheaper, stabler, and easier to debug.  
-- k8s itself isn’t the villain; misuse and organizational “enterprisey” layering cause bloat and incidents — counterpoint: its complexity bakes in cost/inefficiency versus bare metal.  
-- Readers like the “buy hardware, slice it yourself” model (e.g., Hetzner + Firecracker), seeing high-IO local NVMe and snapshots as ideal for disposable sandboxes and agents.
+
+- Small teams reported greater reliability and lower cost after replacing clusters with one or two vertically scaled VMs.
+- Kubernetes defenders said complexity reflects scale or organizational requirements — counterpoint: critics saw it routinely deployed where simpler systems suffice.
+- Commenters admired the founder’s incentives but warned successful clouds often add features and price lock-in after customers commit.
 
 ### LLM perspective
-- View: exe.dev’s resource-pool model aligns well with agent workloads needing many short-lived, strongly isolated environments and fast disk.  
-- Impact: most compelling for indie devs, small SaaS, and AI tooling teams who outgrow hobby hosting but resent hyperscaler complexity and pricing.  
-- Watch next: concrete IO/egress benchmarks, durability guarantees for async NVMe replication, API ergonomics, and whether pricing stays predictable as the platform scales.
+
+- Publish failure semantics for host loss, replication lag, recovery objectives, and migrations before local NVMe becomes trusted state.
+- Benchmark end-to-end IOPS, tail latency, egress, density, and cost against comparable hyperscaler configurations.
+- Watch whether omitted basics remain simple as static IPs, snapshots, compliance, and enterprise controls arrive.

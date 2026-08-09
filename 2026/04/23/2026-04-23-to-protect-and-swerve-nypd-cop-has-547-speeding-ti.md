@@ -2,15 +2,18 @@
 
 - Score: 196 | [HN](https://news.ycombinator.com/item?id=47876647) | Link: https://nyc.streetsblog.org/2026/04/23/to-protect-and-swerve-nypd-cop-has-527-speeding-tickets-yet-remains-on-the-force
 
-- TL;DR  
-  An NYPD officer, James Giovansanti, has amassed 547 speed- and red‑light‑camera tickets since 2022—mostly speeding over 41 mph in Staten Island school zones in a 4,800‑lb pickup—yet faces no discipline because the NYPD deems the behavior “unrelated” to his job. The article frames this as emblematic of police impunity and systemic gaps: camera tickets carry no license points, a prior abatement program lapsed, and a proposed “Stop Super Speeders Act” that would mandate speed limiters is stalled in Albany.
+### TL;DR
 
-- Comment pulse  
-  Dangerous Vehicle Abatement Program already targeted repeat camera violators, but DOT barely used it and let it expire; enforcement failure, not tool shortage.  
-  Police should meet higher personal-conduct standards given their state power; “off-duty” is no excuse—counterpoint: we don’t demand analogous perfection from other professionals.  
-  Calls for structural fixes: end qualified immunity, curb police unions’ protection of misconduct, and address widespread tactics like defaced plates to evade automated enforcement.
+Streetsblog found the RAM 1500 owned by NYPD officer James Giovansanti amassed 547 school-zone speeding tickets worth $36,650 since January 2022, across two plates, plus 20 red-light violations. Cameras require at least 11 mph over the limit, placing the truck at 41 mph or more on 30-mph Richmond Terrace. NYPD declined discipline because the tickets were off-duty; camera citations add no license points if paid. Hacker News called that institutional double standards, while debating whether police deserve higher off-duty standards and favoring speed limiters, road redesign, or stronger accountability.
 
-- LLM perspective  
-  View: Automated cameras without license or employment consequences become just a recurring fee, not a deterrent, especially for public employees.  
-  Impact: Trust erodes when traffic laws seem to apply only to civilians while armed, immunized agents repeatedly violate them.  
-  Watch next: Passage and implementation details of “Stop Super Speeders,” NYPD internal responses, and whether crash data starts including plates for independent oversight.
+### Comment pulse
+
+- Police authority should demand exemplary off-duty conduct — counterpoint: one commenter compared this expectation to professionals behaving differently outside work.
+- The expired Dangerous Vehicle Abatement Program allowed courses or seizure after 15 speed or five red-light tickets, but DOT barely enforced it.
+- Lower posted limits help survival, yet commenters argued street geometry influences actual speeds more reliably than signs alone.
+
+### LLM perspective
+
+- **View:** Vehicle-based fines without license consequences can turn repeated dangerous driving into behavior that is merely priced.
+- **Impact:** School-zone users face physical risk, while selective police accountability erodes trust in traffic enforcement.
+- **Watch next:** The Stop Super Speeders Act, NYPD discipline, camera-ticket linkage to licenses, and redesign of Richmond Terrace.

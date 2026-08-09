@@ -2,19 +2,18 @@
 
 - Score: 227 | [HN](https://news.ycombinator.com/item?id=47878208) | Link: https://www.telegraph.co.uk/business/2026/04/23/hairdryer-used-trick-weather-sensor-34000-polymarket-bet/
 
-## TL;DR
-French police are investigating alleged manipulation of a Paris Charles de Gaulle airport weather station, likely by heating the sensor (possibly with a battery hairdryer), to win Polymarket bets on daily high temperatures. Two evening spikes from ~18°C to 21–22°C, priced as <1% likely, produced about $34k in winnings. Météo‑France found physical tampering evidence and filed a complaint; Polymarket switched to another station. HN commenters zoom in on how prediction markets incentivize real‑world data fraud and erode “ground truth”.
+### TL;DR
 
----
+French police are investigating suspected tampering with Météo‑France’s Charles de Gaulle sensor after late-evening readings jumped from roughly 18°C to 21°C on April 6 and 22°C on April 15. Polymarket settled Paris daily-high markets from that single station; the unlikely outcomes reportedly paid about $34,000, including $21,000 to one trader. A battery hairdryer is only a forum theory, not an established method. The market has switched to Le Bourget data. Readers framed the episode as an oracle problem: bets create incentives to corrupt shared physical measurements.
 
-## Comment pulse
-- Sensor fraud is common → Farmers, insurers, and others have long gamed rain/temperature gauges for larger payouts; this is just a flashy, small-scale instance.  
-- Prediction markets magnify externalities → Extra incentives to tamper physical sensors corrupt climate, research, and possibly aviation data—counterpoint: pilots likely rely on onboard sensors for critical calculations.  
-- Markets about meta, not truth → Savvy traders model manipulation and human behavior, not weather itself; naive participants and gambling addicts end up subsidizing these sophisticated strategies.
+### Comment pulse
 
----
+- Accurate public weather data bears the externality: protecting sensors or discarding anomalies imposes costs beyond losing gamblers.
+- A commenter cited a $6.5 million crop-insurance fraud case, arguing environmental-instrument manipulation predates prediction markets.
+- Some traders model manipulation itself — counterpoint: that may price abuse, but does not protect the underlying measurement.
 
-## LLM perspective
-- View: Any public, single-source physical sensor tied to money will be attacked; redundancy and tamper-resistance must be assumed requirements.  
-- Impact: Weather services, insurers, climate researchers, and airports will have to harden infrastructure and audit trails, raising costs for everyone.  
-- Watch next: Regs on prediction markets, standards for “financially linked” sensors, and technical work on detecting anomalous physical-world data.
+### LLM perspective
+
+- Settlement rules should aggregate independent stations and define anomaly handling before markets open.
+- Data providers need tamper evidence, access logging, redundant sensors, and rapid cross-checks without obscuring public observations.
+- Regulators should clarify fraud liability, winnings recovery, and platform duties when traders can influence the oracle.

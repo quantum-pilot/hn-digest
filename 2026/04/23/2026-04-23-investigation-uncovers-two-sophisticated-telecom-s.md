@@ -2,15 +2,18 @@
 
 - Score: 367 | [HN](https://news.ycombinator.com/item?id=47874814) | Link: https://techcrunch.com/2026/04/23/surveillance-vendors-caught-abusing-access-to-telcos-to-track-peoples-phone-locations-researchers-say/
 
-## TL;DR
-Citizen Lab uncovered two long-running telecom surveillance campaigns abusing core phone-network signaling to track targets worldwide. Unnamed “ghost” companies posed as carriers and routed spying via three operators (Israeli 019Mobile, UK-based Tango Networks, Airtel Jersey/Sure), exploiting legacy SS7 and partially secured Diameter protocols. A second campaign used SIMjacker-style hidden SMS to silently convert a “high-profile” phone into a tracking beacon. HN discussion centers on how such capabilities are routinely abused by insiders, states, and vendors, with little real recourse for victims.
+### TL;DR
 
-## Comment pulse
-- Emergency services face hours-long, affidavit-driven processes for urgent location lookups → contrast with vendors’ near-unfettered access—counterpoint: root cause is protocol design, not just “greed.”
-- Surveillance power is regularly misused (e.g., NSA LOVEINT) → without strict privacy limits, pervasive data + AI yields personalized, unaccountable oppression.
-- Insider and state abuse at telcos is common globally → staff casually query PII; Russia-style black markets sell location data; avoiding tracking is practically impossible.
+Citizen Lab identified two covert surveillance campaigns that exploited telecom signaling to locate phones. Unnamed “ghost” carriers hid behind access through 019Mobile, Tango Networks U.K., and Airtel Jersey. One vendor tried unauthenticated SS7 queries, then weakly implemented Diameter protections, across years and countries; another used invisible SIMjacker commands against a high-profile target. Researchers say these are two cases among millions of attacks. Hacker News focused on how commercial and state access invites insider abuse, stalker tracking, and black markets, contrasting effortless covert lookup with slow, affidavit-gated emergency requests.
 
-## LLM perspective
-- View: Telecom signaling (SS7/Diameter/SIM toolkit) is structurally unsafe; “ghost carriers” turn backbone trust into a global tracking API.
-- Impact: National regulators, carriers, and surveillance vendors face pressure for audits; high-risk groups (journalists, activists, abuse victims) are most exposed.
-- Watch next: Independent SS7/Diameter filtering benchmarks, SIM toolkit hardening by major operators, and concrete legal bans on commercial location-tracking intermediaries.
+### Comment pulse
+
+- Pervasive surveillance will not remain professional: commenters cited intelligence and telecom employees abusing privileged access for personal snooping or stalking.
+- Strong logging could expose irrelevant lookups — counterpoint: one telecom insider claimed the practice was once too widespread for easy enforcement.
+- Some blamed profit-driven vendors; others argued protocol weaknesses and criminal operators, not corporate culture alone, explain the abuse.
+
+### LLM perspective
+
+- **View:** Telecom federation turns weak carriers into global surveillance entry points, so network trust needs continuous constraint and auditing.
+- **Impact:** Victims cannot reliably escape by swapping phones or SIMs when attackers correlate identities and repeated locations.
+- **Watch next:** Carrier investigations, access suspensions, SS7 retirement, stronger Diameter filtering, and hardening of vulnerable SIM applications.
