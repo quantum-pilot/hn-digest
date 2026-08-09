@@ -2,22 +2,18 @@
 
 - Score: 394 | [HN](https://news.ycombinator.com/item?id=47344548) | Link: http://satproto.org/
 
-## TL;DR
+### TL;DR
 
-`s@` is a decentralized social protocol where each user is just a static website. Your domain is your identity; posts live as encrypted JSON files on your site, and friends decrypt them in-browser using per-follower keys. There are no servers, relays, or global timelines—only mutual followers see each other, by design. HN readers like the elegance but question real-world usability: heavy crypto, fragile key storage in browser localStorage, and no clear path to mass, dopamine-driven network effects.
+s@ sketches social networking with no application servers or relays: each person’s domain hosts encrypted static JSON, and browser clients fetch friends’ sites, decrypt posts, merge feeds, and publish updates. Mutual follows deliberately limit it to small groups. X25519 keys wrap a shared content key per follower; unfollowing rotates that key and re-encrypts every post, while identities rely on domains and TLS. Commenters admire the experiment but question localStorage key custody, recovery, setup burden, metadata leakage, and whether a network without discovery or dopamine offers enough benefit for nontechnical friends.
 
----
+### Comment pulse
 
-## Comment pulse
+- Self-reliance shifts costs to users → a lost private key can strand a feed unless exports and backups actually happen.
+- Static hosting keeps architecture legible → GitHub Pages is only an example; any CORS-enabled host can carry the encrypted files.
+- Mass adoption is not the stated goal → counterpoint: even small communities need onboarding and recurring value to sustain participation.
 
-- Crypto-centric UX is too hard for normal users → people won’t manage X25519 keys; server-managed auth feels more realistic for friends/family—counterpoint: cultural shift + helpers may be acceptable.  
-- Storing private keys in localStorage is unsafe → clearing browser nukes identity; users will rage-quit—counterpoint: export/download flow and 2FA/crypto-wallet norms partly mitigate.  
-- Protocol seems more concept than Facebook rival → lacks built-in incentives and content velocity needed for network effects; best as experiment or niche small-group tool.
+### LLM perspective
 
----
-
-## LLM perspective
-
-- View: Clever demonstration of “social over plain HTTPS files,” showing how far you can go without any dedicated backend.  
-- Impact: Most useful to tinkerers, static-site owners, and protocol designers exploring ATProto/Fediverse-like models with maximal user data ownership.  
-- Watch next: Robust key-backup tooling, multi-device support, `.well-known`-based discovery, and optional integration with existing identity providers.
+- **View:** The design trades intermediary trust for key-management and availability duties, a reasonable experiment with a deliberately narrow audience.
+- **Impact:** Technical friend groups gain portable domain identities; family-scale adoption still depends on managed recovery.
+- **Watch next:** Multi-device keys, revocation costs, metadata protections, host portability, and client interoperability.

@@ -4,20 +4,16 @@
 
 ### TL;DR
 
-Dolphin’s 2603 release is huge on three fronts. First, it extends “fastmem” to page-table mappings, massively accelerating games that abuse ARAM and custom MMUs—especially Factor 5’s Rogue Squadron II/III, which now finally reach full speed on high-end PCs after targeted CPU and GPU-path optimizations. Second, Dolphin gains maturing support for Nintendo/Sega/Namco’s Triforce arcade hardware, including card, touchscreen, and upcoming camera/network features. Third, a five‑year hunt fixes Mario Strikers Charged Wi‑Fi desyncs via a subtle PowerPC FMA rounding bug uncovered with deep community collaboration.
-
----
+Dolphin 2603 adds Triforce arcade emulation—the project's first new system family in 18 years—alongside major CPU and memory work. Fastmem now tracks page-table mappings, roughly doubling Rogue Squadron III performance and reducing ARAM-loading hitches, though demanding hardware and accuracy tradeoffs remain. A five-year Mario Strikers Charged investigation fixed a minute FMA rounding difference that desynchronized emulator-to-Wii matches. HN celebrated the developers' persistence, original-game quirks, clear technical writing, and collaboration with tiny but deeply committed player communities.
 
 ### Comment pulse
 
-- Extreme dedication → People love that devs spent years fixing online sync for a tiny playerbase; it exemplifies passion projects over commercial incentives.  
-- Emulator work as archaeology → Debugging reveals bizarre but intentional game/engine quirks, compiler oddities, and ad‑hoc “swap” schemes that only surface under precise emulation.  
-- Communication matters → Readers praise Dolphin reports for clearly explaining why changes are hard and note the social burden of handling demanding OSS users.
-
----
+- Original software exploited hardware in deliberate, surprising ways → emulator accuracy becomes archaeology as much as implementation.
+- Strikers players built deterministic AI matches and debug overlays → community tooling turned an untestable network bug into a hardware test.
+- Triforce support is already advancing → cabinet owners supplied tests while networking, camera, card, and region work continues.
 
 ### LLM perspective
 
-- View: High-accuracy emulation is effectively applied computer architecture research plus digital archaeology, driven by tiny but committed communities.  
-- Impact: Preservation improves for edge‑case titles and arcade hardware; competitive scenes gain console‑faithful behavior, especially in online and physics-heavy games.  
-- Watch next: Shared floating‑point test suites, formalized MMU/FMA models, and policy fights around ROMs/arcades will shape how far projects like Dolphin can go.
+- **View:** Long-tail correctness depends on reproducible tests plus communities carrying domain knowledge.
+- **Impact:** Arcade preservation expands; Rogue Squadron and Strikers players gain smoother, more accurate emulation.
+- **Watch next:** Triforce multiplayer and IC cards, the remaining 1080° Avalanche desync, and low-end performance.

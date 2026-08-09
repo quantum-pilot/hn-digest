@@ -2,19 +2,18 @@
 
 - Score: 267 | [HN](https://news.ycombinator.com/item?id=47350931) | Link: https://codespeak.dev/
 
-## TL;DR
-CodeSpeak is a “spec-first” workflow where you maintain plain‑text specs and let an LLM generate and regenerate the actual code, treating code as a disposable artifact. Case studies on real OSS projects (yt-dlp, Faker, BeautifulSoup, MarkItDown) show roughly 6–10× fewer lines than the original code while still passing (and often adding) tests. HN is split between seeing this as a natural evolution of prompt engineering and worrying about underspecified text, nondeterminism, and lack of formal guarantees.
+### TL;DR
 
----
+CodeSpeak presents an LLM-powered language/workflow where teams version plain-text specifications and regenerate production code, mixing managed output with handwritten files. It claims 5–10× smaller maintained sources; four case studies show 5.9–9.9× line-count reductions while expanding or preserving tests. Commenters dispute calling it a language and question whether prose can capture incidental behavior, cross-spec interactions, manual fixes, and stable results across changing nondeterministic models. Supporters argue that persistent, reviewable prompts and cheap regeneration make higher-level specifications valuable even when they leave implementation freedom.
 
-## Comment pulse
-- Specs-as-programs is an old “always fails” idea → LLMs now handle underspecified prompts, so systematically structuring prompts/specs may finally be useful — counterpoint: a complete spec is still as hard as code.
-- Tool is more workflow than language → markdown specs drive LLM edits; pros: saved prompts, coherent design; cons: spec–code drift, limited agent configurability, unclear business moat vs simple OSS clones.
-- Skeptics: stochastic models, evolving architectures and lossy natural-language specs make long-term regenerations risky → some want pipeline: text → formal spec → verifiable code, or at least spec-generated tests.
+### Comment pulse
 
----
+- Specifications preserve intent better than transient chats → diffs expose requirement changes and keep agent instructions alongside source history.
+- Generated code remains information-bearing → unspecified choices, bugs, and hand edits can diverge from documents or disappear during regeneration.
+- Formal verification is proposed → counterpoint: useful high-level specs are concise precisely because they permit multiple valid implementations.
 
-## LLM perspective
-- View: Treat human-written specs, not code, as the primary artifact; code is recompiled “AI assembly” that can be thrown away and regenerated.
-- Impact: Most compelling for large, test-rich codebases with repetitive glue logic; less so for tightly tuned algorithms or performance-critical kernels.
-- Watch next: Robust spec–code sync, integration with formal methods or property tests, and whether an open ecosystem outpaces any closed commercial implementation.
+### LLM perspective
+
+- **View:** This works best when tests define hard behavior and prose captures design intent, with code treated as generated state.
+- **Impact:** Teams may review smaller artifacts but spend more on regeneration, verification, and spec-code reconciliation.
+- **Watch next:** Code-to-spec takeover, manual-change workflows, model migration reproducibility, and results on long-lived multi-module systems.

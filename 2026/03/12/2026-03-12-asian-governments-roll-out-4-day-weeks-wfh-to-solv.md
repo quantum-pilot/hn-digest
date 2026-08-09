@@ -3,18 +3,17 @@
 - Score: 372 | [HN](https://news.ycombinator.com/item?id=47352215) | Link: https://fortune.com/2026/03/11/iran-war-fuel-crisis-asia-work-from-home-closed-schools-price-caps/
 
 ### TL;DR
-Asian governments are responding to a severe oil shock from the Iran war and a de facto closure of the Strait of Hormuz with aggressive fuel‑saving measures: four‑day workweeks, mandatory work‑from‑home, school closures, thermostat hikes, and travel cuts. Others are capping fuel prices, subsidizing energy, or preparing to tap strategic reserves while the IEA releases 400 million barrels globally. Hacker News readers see this as proof that remote work and shorter weeks are powerful, underused levers for energy security and climate—and lament that such policies appear only in crises.
 
----
+With the Strait of Hormuz effectively closed and oil prices volatile, Asian governments are cutting travel and energy demand. Thailand and Vietnam urged remote work; the Philippines and Pakistan adopted four-day government schedules; Bangladesh closed universities early, while India prioritized household LPG. South Korea planned petroleum price caps, Japan considered reserves, and Indonesia budgeted $22.6 billion for subsidies. HN saw remote work as an energy-security and climate tool but stressed isolation, cramped homes, collaboration needs, and the distinction between emergency schedules and durable shorter workweeks.
 
 ### Comment pulse
-- Remote work as energy policy → Slashes commuting fuel and traffic; some love it, others report isolation or thrive more in highly collaborative offices — counterpoint: hybrid (3/2) seen as best compromise.  
-- Climate vs crisis response → Governments act for immediate fuel prices, not long‑term CO₂; growth, basic needs, and control-focused management trump environmental goals.  
-- Four‑day week appeal → Many report equal output with better focus and wellbeing; 4/10 schedules are described as a major retention perk.
 
----
+- Avoided commuting cuts fuel use immediately → hybrid work may better balance energy savings with social and collaborative needs.
+- Crisis made politically distant climate measures urgent → households feel fuel shocks now, while emissions benefits arrive diffusely.
+- Four days feels sustainable to many → compressed four-ten schedules preserve hours and differ from reduced-work experiments.
 
 ### LLM perspective
-- View: Emergency WFH and 4‑day weeks could become sticky norms if governments and firms track and publicize productivity and fuel savings.  
-- Impact: Sustained adoption would cut oil demand, reshape commuting cities, and pressure commercial office and auto-centered business models.  
-- Watch next: Duration of measures, oil price path, and whether states parlay this into structural investments in renewables, transit, and efficiency.
+
+- **View:** Flexible work location is demand-response infrastructure, not merely an employee perk.
+- **Impact:** Fuel-dependent economies gain a buffer; workers absorb uneven costs based on occupation and home space.
+- **Watch next:** Hormuz shipping, the 400-million-barrel IEA release, measure duration, and price-cap side effects.

@@ -3,18 +3,17 @@
 - Score: 202 | [HN](https://news.ycombinator.com/item?id=47348192) | Link: https://iquilezles.org/articles/noacos/
 
 ### TL;DR
-Quilez argues that internal 3D graphics code should avoid trigonometric functions and angles, and instead work directly with vectors, dot products, and cross products. He shows a common “align object to direction” routine that computes an angle via `acos(dot)` and then feeds it into `sin`/`cos`, and replaces it with a purely vector-based formula derived from dot/cross relationships. This removes clamps, normalizations, roots, and trig, improving stability and clarity. HN discusses rational trigonometry, complex/quaternion representations, and the trade‑off between intuitive angle APIs and robust internals.
 
----
+In 3D graphics, the author argues that algorithms accepting and returning vectors should usually stay in vector space. An example aligns one direction to another by replacing an axis-angle path—cross product, normalization, acos, then sin and cos—with a matrix derived directly from dot and cross products. The result removes inverse trigonometry, clamping, normalization, and square roots, improving performance and numerical stability. HN largely appreciated the geometry, while debating whether intuitive axis-angle APIs and maintainability outweigh optimization outside hot or fragile code.
 
 ### Comment pulse
-- Vector-first math → Dot/cross, complex numbers, quaternions, or spinors can encode rotations without trig, avoiding gimbal lock, NaNs, and fragile special cases.  
-- Angle-based APIs → Angles are intuitive abstractions; performance/precision rarely bottlenecks — counterpoint: in games/sims rare trig bugs surface as nasty, long-tail glitches.  
-- Broader math angles → Links to Rational Trigonometry, Householder reflections, geometric/geometric projective algebra; suggests alternative “foundations” where angles are secondary or absent.
 
----
+- Dot and cross products already encode cosine and sine → converting to an angle and immediately back discards structure.
+- Trig-heavy transforms can hide rare NaNs, degeneracies, and composition bugs → vector formulations often fail more visibly.
+- Convenience APIs remain valuable → counterpoint: abstraction penalties become material in per-frame hot paths and precision-sensitive engines.
 
 ### LLM perspective
-- View: Use trig only at system boundaries; keep core math in vectors, matrices, or quaternions for robustness.  
-- Impact: Graphics engines, physics, robotics can see fewer numerical edge cases and simpler debugging paths.  
-- Watch next: Compare real-world engine bugs and performance under trig-heavy vs vector/quaternion pipelines; update libraries to hide vector internals behind angle-friendly APIs.
+
+- **View:** Choose representations matching the domain: angles at boundaries, vectors and matrices inside geometry.
+- **Impact:** Graphics and physics code can use fewer transcendentals and handle fewer degenerate regions.
+- **Watch next:** Strict-versus-fast-math benchmarks, singular alignment cases, and comparisons with quaternions or Householder reflections.

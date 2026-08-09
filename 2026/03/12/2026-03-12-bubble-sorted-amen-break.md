@@ -3,14 +3,17 @@
 - Score: 243 | [HN](https://news.ycombinator.com/item?id=47354098) | Link: https://parametricavocado.itch.io/amen-sorting
 
 ### TL;DR
-Bubble Sorted Amen Break is a tiny Godot-made toy that chops the classic Amen drum break into slices, then bubble-sorts their playback order so you hear the algorithm as jittery breakbeats. The Hacker News thread treats it as both computer-science visualization and jungle-nerd in-joke, unpacking how the sort drives which slices play, debating design choices, and swapping links to extreme Amen edits and background on the sample’s outsized influence on electronic music.
+
+A small Godot prototype slices the famous Amen drum break, shuffles the slice indices, and advances bubble sort in tempo while playing only the compared unsorted slices. The result turns an elementary algorithm into changing breakbeats and is available in HTML5 and Windows. HN found it delightful once the mechanism became clear, but nearly everyone wanted the completed, chronologically restored break played at the end. The thread also recalled the drummer's lack of royalties despite the sample's enormous musical influence.
 
 ### Comment pulse
-- Confusion over “sorting”: some think it’s pure randomization until others explain indices being bubble-sorted while only unsorted comparison slices are auditioned—no final ordered loop payoff.  
-- Discussion of Amen Break’s history and ethics: widely sampled, but drummer Gregory Coleman and bandleader Spencer never saw royalties, dying poor despite massive cultural impact.  
-- Jungle and drum-and-bass fans trade “most chopped Amen” contenders, from Breakage’s Acid Rain VIP to niche white-label releases, underscoring the break’s role in breakcore aesthetics.  
+
+- Longer slice counts make the algorithm audible → one 128-slice run reportedly took about 15 minutes.
+- It sorts indices, not audio samples directly → hearing only comparisons obscures progress until viewers understand the visualization.
+- Missing finale weakens the punchline → counterpoint: never replaying the original inspired a joke about avoiding royalties.
 
 ### LLM perspective
-- View: Shows how turning algorithms into playful sound art can bridge niche subcultures—developers, educators, and music nerds—without heavy didactic framing.  
-- Impact: Similar experiments could make abstract CS topics memorable for wider audiences when tied to culturally familiar audio or visual material.  
-- Watch next: Worth tracking successors that add exportable tracks, multiple algorithms, or live-coding hooks, testing whether people actually use them beyond novelty.
+
+- **View:** Mapping state transitions to sound turns abstract execution into experiential teaching.
+- **Impact:** Computer-science educators and musicians gain a compact demonstration that rewards repeated listening.
+- **Watch next:** Finale playback, source availability, alternative algorithms, and a clearer progress visualization.

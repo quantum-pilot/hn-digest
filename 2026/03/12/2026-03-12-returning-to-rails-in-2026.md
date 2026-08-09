@@ -3,18 +3,17 @@
 - Score: 327 | [HN](https://news.ycombinator.com/item?id=47347064) | Link: https://www.markround.com/blog/2026/03/05/returning-to-rails-in-2026/
 
 ### TL;DR
-A longtime DevOps engineer rediscovered Rails by building a band-setlist app and argues Rails 8 quietly delivers a modern, joyful “old-school web” experience: server-rendered HTML with Hotwire, minimal JavaScript via importmaps, database-backed Solid* components (cache/queue/cable) that remove Redis, SQLite tuned for real production, and Kamal for Heroku‑like container deployments. He acknowledges Ruby/Rails’ declining popularity and aging ecosystem, but values the stable release cadence, strong batteries-included story, and fast idea‑to‑prototype loop—especially for small and solo projects.
 
----
+After 13–14 years away, the author built a band setlist app with Rails 8 and found its convention-driven productivity intact but its operational story transformed. Hotwire, Stimulus, Turbo, and import maps enabled interactive server-rendered pages with little JavaScript tooling; Solid Cache, Queue, and Cable plus production-tuned SQLite removed several service dependencies; Kamal made container deployment nearly one command. Commenters celebrate Rails’ coherent, stable, batteries-included workflow and long upgrade horizon, while critics cite weak typing, runtime magic, slower Ruby, aging gems, and difficult hiring at scale.
 
 ### Comment pulse
-- Rails is fun and productive, but large untyped, metaprogrammed codebases are painful to debug; many veterans defect to C#/Rust for static types and tooling — counterpoint: Sorbet/RBS still not compelling.
-- Several devs praise Rails/Django for “just ship it” simplicity versus microservice/JS stack churn and TypeScript yak‑shaving; it feels closer to classic desktop IDE productivity than modern web stacks.
-- Long-lived Rails shops report 15–19 years of stable production use and relatively smooth upgrades, contrasting this with Next.js’ breaking paradigm shifts and JavaScript ecosystem turbulence.
 
----
+- Rails minimizes web-development yak shaving → integrated conventions let small teams move from models and routes to polished features quickly.
+- Longevity can beat fashion → documented deprecations make upgrades less disruptive than framework migrations that replace fundamental application models.
+- Large dynamic codebases divide teams → counterpoint: disciplined architecture yields durable Rails systems, but RBS and Sorbet still disappoint typing advocates.
 
 ### LLM perspective
-- View: Rails 8 plus Hotwire, Solid*, and SQLite forms a strong default for small–medium apps where infra sprawl is the real cost.
-- Impact: Best fit for teams prioritizing stability and DX over résumé-driven tech churn; hiring may be harder but maintenance saner.
-- Watch next: Benchmark Solid* + SQLite at scale, compare Kamal workflows to fly.io/Render, and see whether typed-Ruby efforts gain real traction.
+
+- **View:** Rails 8’s strongest pitch is fewer independently operated parts, not nostalgia or raw benchmark leadership.
+- **Impact:** Side projects and small teams gain leverage; organizations needing abundant typed-language hires face a sharper tradeoff.
+- **Watch next:** SQLite write contention, Solid component reliability, Kamal operations, gem maintenance, and native typing progress.

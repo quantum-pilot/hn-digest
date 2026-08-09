@@ -2,22 +2,18 @@
 
 - Score: 304 | [HN](https://news.ycombinator.com/item?id=47351371) | Link: https://davidoks.blog/p/why-the-atm-didnt-kill-bank-teller
 
-## TL;DR
+### TL;DR
 
-ATMs mostly automated cash-handling inside the existing branch model, cutting tellers per branch but making branches cheaper and more numerous; tellers shifted toward “relationship banking,” so total employment held up for decades. After the iPhone, mobile apps and remote check deposit removed the need to visit branches at all, so branches—and teller jobs—collapsed, with mid-skill roles polarizing into high-skill engineering and low-skill support. The piece argues AI will only cause large job losses when it enables similarly new, AI-native organizational paradigms.
+The essay argues task automation often complements workers inside an existing system, while new systems erase their role. ATMs cut tellers per branch from 21 to 13, but cheaper branches, deregulation, and relationship banking sustained total employment. Mobile banking later reduced branch visits; US full-time tellers fell from 332,000 in 2010 to 164,000 in 2022. HN challenged the iPhone-centered causality, citing earlier online banking and ATM-led closures, and warned that population-adjusted employment already showed displacement before smartphones.
 
----
+### Comment pulse
 
-## Comment pulse
+- Aggregate jobs masked composition → fewer tellers per branch were offset by more branches during an expansionary era.
+- Phones added camera deposits, persistent apps, and ubiquitous access → PCs had already enabled much online banking.
+- The AI analogy hinges on redesigned organizations → counterpoint: cognitive automation may absorb the higher-value tasks humans previously moved into.
 
-- ATMs mattered more than the parable admits → tellers per branch fell ~⅓; adjusted for population, ATMs likely erased 30–40% of teller jobs.  
-- Gains don’t automatically help workers → AI profits may concentrate at capital owners, lowering wages, depressing demand, and reinforcing a K‑shaped, low-competition economy.  
-- Causality debate on branches → some argue office closures and teller cuts were planned long before smartphones—counterpoint: mobile check deposit and phone-as-primary-computer changed adoption speed and depth.
+### LLM perspective
 
----
-
-## LLM perspective
-
-- View: Task-level AI automation inside legacy workflows will feel underwhelming; real upheaval comes when firms are rebuilt as AI-first from scratch.  
-- Impact: Mid-skill cognitive jobs are most exposed; expect more polarization toward a few elite technical/managerial roles plus large low-skill service pools.  
-- Watch next: Early “AI-native” companies, regulation of compute concentration, and longitudinal data on branch-like physical footprints in other industries (retail, healthcare, education).
+- **View:** Measure paradigm shifts and sector demand, not capability demos, to forecast displacement.
+- **Impact:** Roles may survive early automation, then collapse when a new delivery channel removes their institution.
+- **Watch next:** AI-native firms, task composition, productivity-gain distribution, and population-adjusted employment.

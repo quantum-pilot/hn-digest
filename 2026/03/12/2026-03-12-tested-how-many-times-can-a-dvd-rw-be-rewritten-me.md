@@ -4,20 +4,16 @@
 
 ### TL;DR
 
-A hardware archivist spent over six months empirically testing how many rewrite cycles various DVD±RW discs survive on a Lite-On iHAS120 drive, fully automating burn–verify–read–quality-scan loops via Opti Drive Control and pyautogui. Failure was defined as the first verify error; DVD-RWs effectively did double cycles because each rewrite triggered a full erase. Results varied widely by brand and speed: a Memorex 8x DVD+RW died at 106 cycles, Sony 6x DVD-RWs at ~200, a Japanese Victor JVC 6x DVD-RW reached 639 verified cycles (effectively >1000 erases), and a TDK 4x DVD+RW hit 413. Across 5,248 burns and ~4,020 drive-hours, both drives kept working, highlighting how much media quality and write speed matter for longevity.
-
----
+A half-year automated torture test repeatedly burned, verified, transfer-tested, and quality-scanned several DVD±RW discs using two Lite-On iHAS120 drives. Most samples failed verification after roughly 100–400 useful rewrites; a TDK 4× DVD+RW reached 850, and the lone TDK 2× DVD-RW passed 1,008 before testing stopped. Because DVD-RW underwent a full erase before each write, its physical cycling was roughly double. Results vary by one aging sample and drive pairing and do not measure post-cycling retention, but they undercut a universal 1,000-write expectation.
 
 ### Comment pulse
 
-- People underestimated DVD±RW endurance → Many assumed “a few rewrites at best,” are surprised by hundreds of successful cycles; compare it to modern SSD wear anxiety.  
-- Tech nostalgia and media quirks → Stories of DVD-RW/DVD-RAM and magneto‑optical (MiniDisc) underline how capable, yet poorly marketed, rewritable optical media were.  
-- Practitioner validation → Former optical-driver engineer confirms: media brand is critical, slower burns age better, and real-world drives often violate standards—counterpoint: consumers rarely saw this nuance.
-
----
+- The experiment’s scale impressed readers → 5,248 burns and 4,020 drive-hours produced evidence for media most people abandoned years ago.
+- Brand labels are insufficient → drive firmware, manufacturer codes, age, speed, and individual defects strongly shape burn quality and endurance.
+- Slower can be sturdier → industry experience likewise favored conservative write speeds and carefully qualified media for archival reliability.
 
 ### LLM perspective
 
-- View: This is a rare, methodical, long‑run endurance test that exposes huge variability hidden behind identical “RW” logos.  
-- Impact: Archivists, retro‑computing fans, and anyone using optical backup can choose media and speeds more rationally.  
-- Watch next: Similar automated stress‑tests for BD‑RE, SD cards, and consumer SSDs, with cross‑drive comparisons instead of single‑drive results.
+- **View:** “First failed verification” is operationally useful but noisy because marginal discs sometimes succeeded on the following cycle.
+- **Impact:** Anyone maintaining optical workflows should qualify exact media-drive combinations and avoid treating RW as archival.
+- **Watch next:** More samples, other burners, controlled storage age, and retention tests after heavy cycling.

@@ -3,14 +3,17 @@
 - Score: 236 | [HN](https://news.ycombinator.com/item?id=47345393) | Link: https://micahflee.github.io/ice-contracts/
 
 ### TL;DR
-An interactive “DHS Contracts Explorer” site visualizes data hacked from the Department of Homeland Security’s Office of Industry Partnership, listing thousands of organizations that applied for S&T-focused contracts, with filters by program, geography, and award metrics. Commenters note the dataset actually covers only a small research/innovation office and appears incomplete compared with official spending databases. Discussion turns to how much of this should already be public, what the leak adds in practice, and doubts about DHS’s tech procurement judgment.
+
+An interactive explorer presents 1,409 contract records and 6,885 contractor rows taken from DHS's Office of Industry Partnership, covering 640 unique contract companies, 39 states, $844.6 million in awards, and $442.6 million in obligations. It supports company, program, phase, award-type, date, and map filtering. HN quickly established that this is not a complete DHS or ICE vendor list: OIP sits within the Science and Technology Directorate, several known contractors are absent, and much awarded-contract information is already public.
 
 ### Comment pulse
-- Scope is narrow → Data tracks Office of Industry Partnership science-tech programs only; users note many known ICE/DHS contractors and awards missing versus USAspending.  
-- Transparency vs secrecy → Some insist all contractor and award info is already public/FOIA-able; others see leak revealing obscure, poorly supervised arrangements.  
-- Tech value debate → Energy-harvesting jacket contract mocked as costly gimmick—counterpoint: commenters note such wearable power R&D is difficult but potentially useful for first responders.
+
+- Scope matches OIP innovation programs rather than agency-wide procurement → ICE framing was considered misleading.
+- Leaked application data may exceed public award records → counterpoint: the displayed awarded side is incomplete and readily cross-checkable.
+- Readers scrutinized unusual grants and vendors → technical ambition alone did not prove waste or misconduct.
 
 ### LLM perspective
-- View: Explorer mainly enhances accessibility and pattern-spotting across DHS R&D applicants, rather than uncovering wholly unknown contracts.  
-- Impact: Could aid journalists, auditors, and activists in identifying concentration of awards, odd vendors, or programs misaligned with homeland-security needs.  
-- Watch next: Compare against future leaks and official databases to quantify omissions, then push for standardized published federal contracting metadata.
+
+- **View:** This dataset is a narrow procurement index, not an authoritative map of DHS relationships.
+- **Impact:** Researchers can connect applicants, awards, programs, and geography, but must verify every consequential inference.
+- **Watch next:** Provenance, schema documentation, omitted programs, and reconciliation against official spending records or FOIA responses.
