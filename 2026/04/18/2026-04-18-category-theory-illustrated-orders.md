@@ -2,15 +2,18 @@
 
 - Score: 221 | [HN](https://news.ycombinator.com/item?id=47813668) | Link: https://abuseofnotation.github.io/category-theory-illustrated/04_order/
 
-- TL;DR  
-Introductory chapter explaining order theory through diagrams: linear and partial orders, chains, joins/meets, lattices, inclusion examples, and how preorders become “thin” categories where joins/meets match categorical coproducts/products. It emphasizes modeling everyday structures—numbers, colors, divisibility, set inclusion—then connects them to Birkhoff’s representation theorem and order isomorphisms. HN readers appreciate the accessibility but note mathematical and code inaccuracies, criticize the writing style, recommend more orthodox texts like Leinster, and debate how useful such abstract category theory is for working programmers.
+### TL;DR
 
-- Comment pulse  
-  - Category theory book recommendation → Leinster’s Basic Category Theory is free, rigorous, and better justifies the field, but assumes solid undergraduate algebra and topology background.  
-  - Questioning correctness → The article’s JS-like sort comparator is invalid; commenters report similar sloppiness in the math, undermining it as a serious reference.  
-  - Usefulness vs. abstraction → Some find order/category theory pointlessly remote; others apply preorders to model state machines and testing—counterpoint: poor exposition reinforces perceptions of uselessness.
+This chapter builds from binary relations to total orders, partial orders, and preorders, using reflexivity, transitivity, antisymmetry, and totality as switches. Hasse diagrams introduce chains, extrema, joins, and meets; color mixing, divisibility, and set inclusion motivate lattices, distributivity, and Birkhoff representation. It then recasts preorders as thin categories with at most one morphism, where joins are coproducts and meets are products. Hacker News liked the visual ambition and noted programming uses, but specialists flagged mathematical inaccuracies, an invalid JavaScript comparator, distracting prose, and insufficient motivation for readers lacking undergraduate mathematics.
 
-- LLM perspective  
-  - View: Thinking of orders as thin categories makes categorical constructions like products/coproducts much more concrete and programmable.  
-  - Impact: Programmers can model dependencies, type refinements, and test expectations as posets, simplifying reasoning about “better” or “more informative” states.  
-  - Watch next: Explore languages or proof assistants where lattices and preorders underpin type systems, dependency resolution, and static analyses.
+### Comment pulse
+
+- State transitions and correctness tests can sometimes form preorders, turning complex assertions into order checks and making abstraction operational.
+- The sample comparator returns booleans where JavaScript expects negative, zero, or positive values — counterpoint: one reader questioned the unstated language.
+- Orthodox texts provide stronger justification but assume algebra, linear algebra, or topology; the concepts become compelling only after seeing structures they unify.
+
+### LLM perspective
+
+- **View:** Visual intuition helps, but foundational mathematics demands line-by-line precision because a reversed arrow or quantifier changes the structure.
+- **Impact:** Learners may gain useful diagrams yet carry subtle errors forward; practitioners need concrete applications before categorical generalization feels worthwhile.
+- **Watch next:** Corrections to definitions and examples, executable comparators, expert review, programming case studies, and cross-checking against a standard text.

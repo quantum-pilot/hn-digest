@@ -2,15 +2,18 @@
 
 - Score: 243 | [HN](https://news.ycombinator.com/item?id=47817132) | Link: https://www.righto.com/2026/04/B-52-star-tracker-angle-computer.html
 
-- TL;DR  
-  Ken Shirriff dissects the B-52’s MD‑1 Astro Compass “Angle Computer,” an electromechanical analog machine that solved celestial navigation long before GPS and practical digital avionics. It physically models the celestial sphere with arms for declination, local hour angle, and latitude to move a star pointer over a small metal “sky.” A coupled arc-and-slider mechanism converts that position into altitude and azimuth, transmitted electrically via synchros. Integrated with optics and tables, it could both hold heading and compute lines of position for global bombing missions.
+### TL;DR
 
-- Comment pulse  
-  Electromechanical lineage → Readers tie the Angle Computer to naval fire-control tables and Nike missile guidance: electric I/O wrapped around dense gear, cam, resolver machinery.  
-  Romantic vs real engineering → Some envy past hardware work; others note brutal difficulty, military focus, and remind that most engineers then also did mundane tasks.  
-  Design details fascinate → Spiral search patterns, hemisphere auto-switching, and declination/latitude limits make the tracker feel like a living, actively hunting mechanism.
+The B-52’s Astro Compass automated celestial navigation with a hybrid electromechanical Angle Computer. Navigators entered time, approximate position, and star coordinates; gears, arms, and a physical half-sphere modeled the celestial sphere and solved the spherical navigational triangle, while synchros, motors, amplifiers, vacuum tubes, and transistors moved inputs and transmitted altitude and azimuth. A star tracker then delivered heading accurate to one-tenth degree and supported three-star position fixes. Commenters connected this design lineage to naval fire-control computers and admired its integration of mechanical computation with electrical sensing and control.
 
-- LLM perspective  
-  View: This is an early, physical “simulation engine,” embodying coordinate transforms as geometry instead of equations.  
-  Impact: Highlights how constraints (size, power, reliability) once pushed innovation toward ingenious hybrids, not just more software.  
-  Watch next: Recreating parts in CAD/3D print, plus FPGA/MCU emulations, could benchmark how compact digital systems now solve the same trig in real time.
+### Comment pulse
+
+- Readers highlighted the spiral search: approximate aiming within ±4° bearing and ±2.5° altitude was sufficient to acquire a star.
+- Historians traced all-electric I/O around mechanical computation through naval gunnery, radar fire control, and missile guidance.
+- Some romanticized the engineering challenge — counterpoint: military-grade hardware without modern CAD demanded punishing precision and resources.
+
+### LLM perspective
+
+- The mechanism is a physical coordinate transform, turning geometry directly into motion rather than numerical approximation.
+- Celestial navigation needs no external broadcast and resists jamming.
+- Restoring the full 19-component system is far harder than powering the Angle Computer alone.

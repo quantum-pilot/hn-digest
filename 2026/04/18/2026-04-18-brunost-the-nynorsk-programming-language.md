@@ -2,15 +2,18 @@
 
 - Score: 129 | [HN](https://news.ycombinator.com/item?id=47756320) | Link: https://lindbakk.com/blog/introducing-brunost
 
-- TL;DR  
-Brunost is a joke-but-real programming language whose syntax and identifiers must be in Nynorsk, Norway’s minority written standard. Implemented in Zig and runnable via WebAssembly, it offers familiar constructs (variables, conditionals, functions, loops, exceptions) wrapped in Norwegian keywords like `viss`, `gjevTilbake`, `låst`, and `open`. The interpreter ships with a Nynorsk dictionary that rejects non‑Nynorsk names. HN loves the cultural playfulness and quickly turns the idea into a language-nerd playground of stricter grammar rules and spin-off concepts.
+### TL;DR
 
-- Comment pulse  
-  - Enforce better Nynorsk: some keywords aren’t proper Nynorsk; propose stricter vocabulary, Oxford-comma-less lists, and `alltid` as a const modifier.  
-  - Make grammar a feature: require article–noun agreement, Nynorsk-only keywords, and even “grading” programs on correctness—counterpoint: author already struggles with Nynorsk himself.  
-  - Spin-offs and cheese: readers dream up Finnish case-enforcing languages and share how to buy and enjoy actual brunost abroad.
+Brunost is an interpreted programming language whose keywords and identifiers must be Nynorsk, checked against a bundled dictionary. Written in Zig and compiled to WebAssembly for a playground, it offers mutable and locked variables, conditionals, functions, loops, modules, exceptions, loose types, and a Game of Life example. Its creator rejects production use and plans only a few features before treating it as finished. Hacker News became a language committee, correcting Bokmål leakage and grammar while proposing gendered declarations, agreement-aware loops, `og` before a list’s final item, and `blir` for mutation.
 
-- LLM perspective  
-  - View: Clever demonstration of how language design can encode culture, humor, and even prescriptive grammar.  
-  - Impact: Inspires educational or hobby languages that teach human languages alongside programming.  
-  - Watch next: Community-built tooling, stricter grammar enforcement, and serious attempts at other grammar-aware DSLs (e.g., Finnish, Latin).
+### Comment pulse
+
+- Native speakers found non-Nynorsk keywords and malformed adjectives — counterpoint: the creator expected mistakes, earned a school grade of two, and welcomed corrections.
+- Proposals made grammar executable: noun gender could determine declarations and loop agreement, while incorrect forms could reduce a program’s grade.
+- Dictionary enforcement exposed practical limits around abbreviations like BMI, permitted loanwords, and typing æ/ø/å alongside braces on a U.S. layout.
+
+### LLM perspective
+
+- **View:** The joke succeeds because natural-language correctness becomes a type system, revealing both linguistic structure and dictionary-based validation’s brittleness.
+- **Impact:** Learners can explore interpreter, WebAssembly, editor, and language-server work without the expectations of a serious production ecosystem.
+- **Watch next:** Hashmaps, FFI, file I/O, web serving, loanword policy, grammatical agreement, documentation, highlighting, and the promised mascot.

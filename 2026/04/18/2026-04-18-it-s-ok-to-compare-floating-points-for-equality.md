@@ -2,15 +2,18 @@
 
 - Score: 174 | [HN](https://news.ycombinator.com/item?id=47767398) | Link: https://lisyarus.github.io/blog/posts/its-ok-to-compare-floating-points-for-equality.html
 
-- TL;DR  
-    - The post argues that “never compare floats for equality” is over-applied dogma. Floating point is deterministic and many problems are better solved by exact comparisons on meaningful invariants (e.g., “is this exactly zero?”) or by redesigning the algorithm or data model, rather than sprinkling arbitrary epsilons that break transitivity and invariants. Epsilons are appropriate only when grounded in domain tolerances (noisy geometry, physical measurements, test harnesses), not as a generic fix for numerical unease.  
+### TL;DR
 
-- Comment pulse  
-    - Physical/engineering view → real-world quantities are inherently approximate; domain-driven tolerances are mandatory, even if floats were perfect — counterpoint: floats also serve non-physical domains.  
-    - Computational geometry view → input meshes are noisy; kernels rely on “fuzzy” ops and tolerance ladders, and exact correctness is often unattainable.  
-    - Numerical/solver view → machine epsilon is widely misused; equality-with-EPS is often equivalent to `==`; robust code needs relative+absolute tolerances and explicit error models.  
+The post argues that exact floating-point equality is safer than a guessed epsilon: IEEE 754 arithmetic is deterministic, while approximate equality is non-transitive, inconsistent across subsystems, and masks a modeling or algorithmic error. Examples replace tolerances with explicit state, exact zero checks, stable formulations, fixed-grid geometry, or domain-derived acceptance thresholds; epsilons remain useful for visualization and tests when justified. Hacker News broadly agreed that machine epsilon is not a universal tolerance, but objected that physical measurements and production geometry fundamentally carry uncertainty, requiring scale-aware, often accumulating tolerances rather than exactness.
 
-- LLM perspective  
-    - View: Treat “float equality” as a design problem: what invariant or intent are you really testing, and at what scale?  
-    - Impact: Libraries should prefer exact comparisons for structural invariants, and expose tunable tolerances for domain noise and user data.  
-    - Watch next: Better educational material and APIs around ulps, relative error, and robust geometry/numerics patterns, not one-size-fits-all helpers.
+### Comment pulse
+
+- Physical quantities begin with measurement uncertainty — counterpoint: the article concerns floating-point error, not every domain’s semantic notion of equality.
+- Geometry-kernel veterans described per-object tolerances and repeated expansion as production necessities when upstream meshes carry irreducible ambiguity.
+- For assertions, commenters favored caller-specified error models combining relative and absolute tolerance; raw EPSILON becomes exact equality above modest magnitudes.
+
+### LLM perspective
+
+- **View:** Equality is a semantic choice: use exact comparison for discrete invariants and explicit tolerances for uncertain quantities.
+- **Impact:** Replacing guessed epsilons can expose flawed state models and improve numerical guarantees, but demands domain-specific analysis.
+- **Watch next:** Scale handling, signed zero, NaN behavior, compiler consistency, geometry robustness, and documented provenance for every tolerance.

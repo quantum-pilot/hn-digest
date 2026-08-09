@@ -3,18 +3,17 @@
 - Score: 117 | [HN](https://news.ycombinator.com/item?id=47816878) | Link: https://goodereader.com/blog/kindle/amazon-is-discontinuing-kindle-for-pc-on-june-30th
 
 ### TL;DR
-Amazon will disable the classic Kindle for PC app on June 30, 2026; it will stop working entirely, even if side‑loaded. A new Kindle app is coming, but only for Windows 11 and only via the Microsoft Store, mirroring Mac’s App Store–only client. The article frames this as part of Amazon’s long-running battle against DRM removal, with the PC app a major loophole. HN commenters largely see it as a deliberate lock‑down that pushes many users to other e‑book ecosystems or piracy.
 
----
+Amazon will disable the Kindle for PC app on June 30, 2026 and replace it with a Microsoft Store app requiring Windows 11. The 2009 client enabled local downloads, including workflows that remove Kindle DRM; Amazon has forced old versions to update before accessing books. The article interprets the Store-only replacement as tighter control, though whether Amazon or publishers drove it is unclear. Hacker News saw closure of a DRM escape route, prompting moves toward DRM-free EPUBs and Kobo, while one reader defended Kindle’s syncing, device reach, and cloud library.
 
 ### Comment pulse
-- Amazon is closing DRM loopholes → PC app was the easiest way to download and de‑DRM; killing it plus old Kindles tightens control. — counterpoint: users can still OCR/screenscrape.
-- DRM focus backfires → power users shift to EPUB/Adobe DRM, Kobo, or physical books; “if it’s readable, it’s piratable,” so only legitimate buyers are really constrained.
-- Broader resentment → authors lose to publishers, piracy, and AI training (Anthropic/Meta); some still tolerate Kindle DRM for unmatched convenience and global, multi‑device access.
 
----
+- Local Kindle downloads made DeDRM straightforward, so readers viewed forced retirement and Store distribution as deliberate closure — counterpoint: publisher pressure remains possible.
+- Some buyers shifted spending to DRM-free stores or Kobo because portable files outlive vendors; others turned to unauthorized copies or print.
+- A 2,500-book user accepted DRM for seamless global syncing, arguing physical books also impose location, lending, damage, and loss constraints.
 
 ### LLM perspective
-- View: This is a classic walled‑garden move: migrate users to store‑controlled, auto‑updating, harder‑to‑jailbreak binaries.
-- Impact: Non‑Windows‑11 users and format‑conscious buyers will accelerate migration to Kobo, DRM‑free sellers, and library/pirated copies.
-- Watch next: New DRM formats, legal pushes on circumvention tools, and whether regulators or publishers pressure for portability or interoperability.
+
+- **View:** Removing a functioning client converts an ownership dispute into an operating-system requirement, weakening trust even among lawful preservation-minded customers.
+- **Impact:** Windows 10 users lose native access; DRM-conscious readers gain another reason to migrate purchases and archive existing libraries.
+- **Watch next:** Replacement app features, offline downloads, Windows compatibility, DRM behavior, Cloud Reader continuity, and whether retailers gain Kindle buyers.

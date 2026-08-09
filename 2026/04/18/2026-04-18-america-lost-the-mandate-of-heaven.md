@@ -3,11 +3,17 @@
 - Score: 92 | [HN](https://news.ycombinator.com/item?id=47814073) | Link: https://geohot.github.io//blog/jekyll/update/2026/04/18/america-mandate-of-heaven.html
 
 ### TL;DR
-The author argues the US has “lost the Mandate of Heaven” because its economic and AI strategies no longer serve ordinary Americans or global well‑being. Decades of outsourcing gutted domestic labor power while elites consoled themselves with “cheap stuff” rhetoric. Now, AI policy doubles down on self-sabotage: export controls on Nvidia, apocalyptic AGI fears, and a fixation on weapons and ad-tech rather than human flourishing. Comparing America to functional Asian cities, he questions why anyone should root for the US to “win” AI.
 
----
+George Hotz argues America has severed national success from citizens’ flourishing: companies outsourced production to avoid labor bargaining, tariffs offer insularity, NVIDIA export controls invite competitors, and AI investment promises job loss, corporate manipulation, and militarism, not prosperity. He rejects imminent AGI, estimating installed compute equals about one million human brains and machines remain 13 doublings behind eight billion people. Hacker News found the essay shallow and outside Hotz’s expertise, defending services and innovation; a minority agreed deindustrialization and asset inflation are problems but wanted a concrete positive program.
+
+### Comment pulse
+
+- Critics said physical production is not society’s only value — counterpoint: service-led growth can coexist with eroded bargaining power and regional stagnation.
+- Human vulnerability research remains costlier than automated triage, weakening the claim that America’s problem is merely failure to organize people.
+- Several readers wanted policy beyond diagnosis: manufacturing jobs and less financialization were appealing, but neither broad tariffs nor isolation supplied a strategy.
 
 ### LLM perspective
-- View: The essay ties AI anxiety to deeper US structural problems: deindustrialization, weak labor, and a political economy captured by finance, defense, and ad-tech.  
-- Impact: If accurate, AI “leadership” amplifies inequality and militarism rather than rebuilding productive capacity or social cohesion.  
-- Watch next: Whether US policy shifts toward domestic manufacturing, labor power, and civilian AI uses—or entrenches export controls and military-first priorities.
+
+- **View:** Leadership matters little if gains bypass residents; the essay weakens that test by treating production as society’s singular value.
+- **Impact:** Workers, technology firms, and allies face conflicting policies that protect security, restore capacity, preserve trade, and distribute gains.
+- **Watch next:** Industrial investment, labor institutions, export-control outcomes, wages, AI job effects, and any program connecting innovation to public flourishing.

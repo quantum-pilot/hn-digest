@@ -3,11 +3,17 @@
 - Score: 229 | [HN](https://news.ycombinator.com/item?id=47818305) | Link: https://www.theguardian.com/world/2026/apr/18/iran-war-bets-ethics-concerns
 
 ### TL;DR
-Online prediction platforms like Polymarket and traditional oil futures markets saw over $1bn of unusually well-timed trades around key moments in the US‑Israel war on Iran: airstrikes, Khamenei’s assassination and a Trump‑announced ceasefire. A handful of anonymous traders repeatedly made large, high‑confidence bets minutes or hours before price‑moving announcements. Regulators and academics say this strongly suggests insider use of classified or non‑public information, but enforcement is hamstrung by legal gray zones, blockchain anonymity and a politically weakened CFTC.
 
----
+Unusually timed wagers preceded several Iran-war developments: about 150 Polymarket accounts bet on 27 February strikes; one user won $553,000 before Ali Khamenei’s killing; and oil traders placed $580 million and $950 million bearish positions shortly before de-escalatory Trump announcements. None is proven illegal, but the scale and timing prompted a Public Citizen complaint and reported CFTC scrutiny. Enforcement faces anonymous wallets, uncertain futures law, and a depleted commission. Commenters argue insider participation destroys market trust, disadvantages retail gamblers, and could create incentives to influence state decisions.
+
+### Comment pulse
+
+- Some view prediction markets as information aggregation or hedging, with informed traders paid for revealing knowledge.
+- Critics call them wealth transfers from retail gamblers to algorithms and security-cleared insiders.
+- Suspicious winners warrant scrutiny — counterpoint: without total volumes, losses, hedges, and base rates, profitable timing alone cannot prove misconduct.
 
 ### LLM perspective
-- View: Prediction markets now blur gambling, finance and intelligence leaks, exposing how conflict decisions can be quietly monetized in real time.  
-- Impact: Regulators, intelligence agencies, and political insiders face new scrutiny; market data itself becomes a signal of looming covert actions.  
-- Watch next: CFTC enforcement outcomes, state–federal jurisdiction fights, and whether Congress actually bans officials from political and war-related prediction markets.
+
+- The gravest risk is officials shaping policy to settle positions, not merely trading before announcements.
+- Cross-market surveillance must connect wallet activity, commodity positions, identities, communications, and information access.
+- Watch CFTC staffing, subpoenas, platform controls, prosecutions, and the proposed federal-employee ban.

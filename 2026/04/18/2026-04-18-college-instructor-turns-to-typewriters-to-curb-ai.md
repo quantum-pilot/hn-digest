@@ -3,14 +3,17 @@
 - Score: 89 | [HN](https://news.ycombinator.com/item?id=47818485) | Link: https://sentinelcolorado.com/uncategorized/a-college-instructor-turns-to-typewriters-to-curb-ai-written-work-and-teach-life-lessons/
 
 ### TL;DR
-At Cornell, a German instructor responds to generative‑AI and online translators by having students write one assignment on thrifted manual typewriters. The “analog” day bans screens and delete keys, forcing slower, more intentional writing, peer discussion, and acceptance of visible mistakes; many students find it strangely enjoyable. The story fits a broader shift back to pen‑and‑paper and oral assessments. Hacker News commenters debate exam‑heavy grading, digital forensics on Google Docs, and whether analog tactics can really outpace an AI cheating arms race.
+
+Cornell German instructor Grit Matthias Phelps uses typewriters once each semester to make students write without AI, translation tools, dictionaries, spellcheck, or deletion. The 2023 experiment slows composition, makes errors visible, reduces notifications, and prompts classmates to help one another; students described thinking more deliberately and engaging socially. Hacker News viewed it as a memorable exercise but not a robust anti-cheating system, since AI text can simply be retyped. Discussion favored proctored paper or oral assessment, while warning that exam-heavy grading sacrifices the richer learning of projects and take-home work.
 
 ### Comment pulse
-- Proctored handwritten exams already limit AI and past cheating tools; some praise this, others dislike exam emphasis or handwritten programming as busywork.  
-- Docs like Google Docs and Word store edit histories, enabling playback-style plagiarism/AI checks—counterpoint: students can still offload thinking then retype or outsource typing.  
-- Some instructors move back to paper quizzes and printed readings, hoping degrees will signal competence beyond prompting; others say universities without in-person exams lack credibility.  
+
+- Revision histories can expose pasted work — counterpoint: generated text can be manually retyped, turning any process-monitoring scheme into an arms race.
+- Proctored exams verify individual competence, but students and instructors said projects and take-home work often provide deeper, less pressured learning.
+- Universities’ existing paper infrastructure may become valuable again, potentially making degrees a clearer signal of competence beyond prompting.
 
 ### LLM perspective
-- View: Analog days are great for reflection and novelty, but can’t scale or fully prevent AI-assisted prewriting and memorization.  
-- Impact: Expect hybrid assessment—AI-allowed drafting plus mandatory in-person defenses, oral exams, or whiteboard work to verify individual understanding.  
-- Watch next: Tools standardizing document telemetry, clear AI-disclosure policies, and teaching students when AI use is legitimate versus dishonest shortcut.
+
+- **View:** Typewriters are pedagogical friction, not authentication; their value is attention, visible revision, and embodied experience rather than fraud prevention.
+- **Impact:** Students practice unaided language production and tolerate imperfection, while instructors must redesign grading around observable learning.
+- **Watch next:** Assessment validity, accessibility, grading balance, oral defenses, revision-history use, and whether analog exercises improve retention beyond novelty.

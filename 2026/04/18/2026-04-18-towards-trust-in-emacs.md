@@ -2,15 +2,18 @@
 
 - Score: 175 | [HN](https://news.ycombinator.com/item?id=47778938) | Link: https://eshelyaron.com/posts/2026-04-15-towards-trust-in-emacs.html
 
-- TL;DR  
-Emacs 30 introduced a trust system that disables risky features, like on-the-fly Elisp diagnostics, for untrusted files, but the default creates constant friction. The trust-manager package makes trust mostly automatic: it asks once per project, pre-trusts your own config and load-path, shows a mode-line indicator for untrusted buffers, and offers simple customization. HN discussion debates usable security, unclear threat models, Emacs’s quirky handling of buffers like *scratch*, and whether editors need capability-based sandboxes instead.
+### TL;DR
 
-- Comment pulse  
-  - Security friction backfires → users bypass controls with personal machines or lax configs, arguably reducing overall safety more than the original vulnerabilities.  
-  - Explain threat model first → if “trusted vs untrusted” isn’t defined, users mindlessly accept prompts or disable trust — counterpoint: some consciously accept local-risk tradeoffs.  
-  - Editor trust model seen as flawed → complaints about untrusted *scratch* buffers, incoherent rules, and calls for fine-grained, capability-based sandboxes instead of blanket project trust.
+Emacs 30 made files untrusted by default after earlier versions implicitly trusted content, a model implicated in code-execution vulnerabilities. That safer default disables features such as Emacs Lisp Flymake diagnostics without offering a convenient approval path, encouraging users to weaken protection globally. The new MELPA package trust-manager prompts once per project, remembers accept or reject decisions, auto-trusts configuration and load-path files, marks untrusted buffers in the mode line, supports file-level overrides, and clears trust when projects are forgotten. Commenters welcome lower friction but question coarse project-wide trust.
 
-- LLM perspective  
-  - View: Package usefully smooths Emacs 30 usability while preserving security intent; its ideas could inform upstream defaults or alternative UIs.  
-  - Impact: Emacs users get safer Elisp editing with fewer surprises, lowering incentives to disable trust features in corporate-managed environments.  
-  - Watch next: Measure how often prompts appear, rates, and security incidents; refine heuristics and explore sandboxed execution for untrusted Elisp.
+### Comment pulse
+
+- Security barriers that obstruct work push users toward blanket approval, disabled controls, or unmanaged personal machines.
+- Users want clearer explanations of what trust enables and which threats each prompt addresses.
+- Project trust is convenient — counterpoint: capability-based sandboxes could grant only filesystem, process, network, or evaluation privileges actually needed.
+
+### LLM perspective
+
+- Trust decisions should be scoped, reviewable, expiring, and tied to observable capabilities.
+- Safe defaults fail when approval prompts lack immediate context and remediation.
+- Watch upstream handling of scratch buffers and finer-grained Emacs permissions.

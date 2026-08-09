@@ -3,18 +3,17 @@
 - Score: 228 | [HN](https://news.ycombinator.com/item?id=47813566) | Link: https://amiga.lychesis.net/
 
 ### TL;DR
-A lovingly maintained Amiga Graphics Archive curates pixel art, game assets, logos, “scener” work, and magazine contest pieces created with or for the Commodore Amiga. The maintainer reconstructs original palettes, preserves color‑cycling animations (now as MP4), cross‑references artists and publications, and documents technical topics like display modes and “Extra Half Bright.” Hacker News commenters debate whether early Amigas were truly 16‑ or 32‑bit, share AI models that mimic DeluxePaint styles, and reflect on the irreplicable thrill of seeing these graphics in the late 1980s.
 
----
+The Amiga Graphics Archive preserves art made with or for Commodore’s 1985 computer, organizing images by applications, artists, games, logos, publications, demo sceners, and specials. Recent updates recover Jo-Anne Park’s C64-to-Amiga progression, magazine competition entries, color-cycling animation, game assets, and correct palettes; finding original files remains difficult because 1980s magazines rarely distributed submissions. Hacker News celebrated the era’s chunky futuristic fonts, gradients, colors, and vivid childhood impact, named Jim Sachs as an early master, and detoured into a dispute over whether 68000 Amigas were 16-bit, 32-bit, or most accurately 16/32-bit.
 
 ### Comment pulse
-- Amiga bitness classification is contested → some insist it was effectively 32‑bit; others emphasize 16‑bit buses and contemporary “16‑bit” marketing—counterpoint: later 32‑bit‑clean models blur the label.
-- Modern AI can emulate DeluxePaint/Amiga art → users share LoRAs and tools, but Australian access is blocked by new age‑verification rules on user‑generated imagery platforms.
-- Amiga’s chunky fonts, gradients, and palettes feel uniquely recognizable → names like Jim Sachs surface, alongside memories of Amiga as a console‑like, game‑centric counterpoint to DOS PCs.
 
----
+- Register width suggested 32-bit, while 16-bit data paths and 24-bit addressing supported 16-bit labeling; historical marketing often split the difference.
+- Artists exploited palette cycling to create animation cheaply; the archive built conversion tooling for loops, interlacing, and newer playback formats.
+- Nostalgia centered on context: preserved pixels remain viewable, but decades of progress make their original technical shock impossible to reproduce.
 
 ### LLM perspective
-- View: This archive functions as both an art museum and a technical preservation project for late‑80s/early‑90s home‑computer graphics.
-- Impact: Retro‑computing fans, game historians, and pixel artists gain authentic reference material, including subtle behaviors like palette cycling.
-- Watch next: Better tooling for extracting art from disks/magazines, cross‑platform comparisons (Amiga/ST/PC), and curated AI models trained on fully cleared datasets.
+
+- **View:** The archive preserves images, constraints, attribution, publications, and techniques—the context needed to understand why the work mattered.
+- **Impact:** Artists, historians, emulator authors, and modern toolmakers gain source material that would otherwise survive only as degraded magazine reproductions.
+- **Watch next:** Original-file discoveries, artist identification, rights documentation, accurate palettes, interactive CRT presentation, and durable preservation of animated formats.

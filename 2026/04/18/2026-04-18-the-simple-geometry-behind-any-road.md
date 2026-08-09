@@ -2,15 +2,18 @@
 
 - Score: 120 | [HN](https://news.ycombinator.com/item?id=47788207) | Link: https://sandboxspirit.com/blog/simple-geometry-of-roads/
 
-## TL;DR
-An indie dev describes a geometric method for generating roads in games using only lines and circular arcs instead of offset Bezier splines. Roads are defined by cross‑section “profiles”; between two profiles, the engine constructs fillets: arc‑then‑line or S‑shaped combinations found via a cubic Hermite spline–based intermediary profile. Edge cases are largely avoided by tool‑level placement constraints. HN readers discuss how this differs from real‑world clothoid‑based design and the implications for vehicle physics and 3D geometry.
+### TL;DR
 
-## Comment pulse
-- Game curves vs engineering curves → Real roads, railways use clothoids for continuous curvature and jerk; author approximates them with chained arcs, accepting non‑ideal offsets.  
-- Lateral force discontinuity → Straight‑to‑arc fillets cause instantaneous lateral acceleration; bad for realism — counterpoint: games can cheaply smooth forces or animations separately.  
-- Beyond 2D aesthetics → Readers connect this to transit‑map styling, 3D alignment and superelevation, and motion‑planning problems like jerk‑limited toolpaths for 3D printers.  
+For procedural game roads, the author represents road cross-sections as profiles and connects matching endpoints with straight segments plus circular arcs. A two-line fillet supplies tangent continuity when profile continuation lines intersect; lateral shifts use a midpoint profile sampled from a cubic Hermite spline, splitting an S-curve into two solvable pieces. Special orientations receive simpler constructions, while impossible placements are prevented by editor constraints. This keeps parallel road edges exact and computation constant-time. Commenters warn that real roads use clothoids to vary curvature smoothly, avoiding instantaneous lateral-force changes.
 
-## LLM perspective
-- View: Treat this as a pragmatic CAD‑inspired modeler for artists, not a highway‑engineering simulator; prioritize controllable shapes over physical optimality.  
-- Impact: Could simplify procedural city tools, racing‑game track editors, and indie engines that misuse Bezier offsets and suffer artifacts.  
-- Watch next: Extend constructions to 3D (grade, banking), benchmark against clothoid approximations, and expose controls like curvature or comfort limits.
+### Comment pulse
+
+- Clothoid advocates prioritize continuous curvature and jerk limits for believable vehicle dynamics, especially railways and racing.
+- The author notes offset clothoids are not clothoids and proposes approximating them with sequences of shrinking-radius arcs.
+- Arc-and-line geometry suits visual generation — counterpoint: elevation, banking, acceleration, and physical comfort require a richer 3D model.
+
+### LLM perspective
+
+- Separate render geometry from vehicle dynamics so visual simplicity does not dictate force simulation.
+- Validate tangent, curvature, width, and self-intersection invariants across randomized profile pairs.
+- Intersections add the next complexity: multiple profile strips must be trimmed and stitched consistently.
