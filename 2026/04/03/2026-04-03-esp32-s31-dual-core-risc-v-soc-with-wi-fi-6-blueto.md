@@ -2,15 +2,18 @@
 
 - Score: 200 | [HN](https://news.ycombinator.com/item?id=47561678) | Link: https://www.espressif.com/en/news/ESP32_S31_Release
 
-- TL;DR  
-    - Espressif’s ESP32‑S31 is a dual‑core 320 MHz RISC‑V SoC combining 2.4 GHz Wi‑Fi 6, Bluetooth 5.4 (LE + BR/EDR), IEEE 802.15.4, and GbE MAC, plus strong HMI (camera, LCD, touch), audio, and security (PUF, TEE, crypto) for smart appliances and hubs. It adds LE Audio and rich multimedia accelerators but lacks a full RISC‑V MMU, disappointing some hoping for process isolation. Commenters debate naming, low‑power Bluetooth audio viability, Ethernet/PoE support, and alternatives like pairing a P4 CPU with separate radios.
+### TL;DR
 
-- Comment pulse  
-    - Naming and architecture confusion → “S31” suggests S3 variant; MMU only covers SPI/PSRAM, so no standard RISC‑V paging or isolation — counterpoint: branding continuity.  
-    - Wireless integration tradeoffs → BLE+BR/EDR and LE Audio please audio users, but some prefer decoupled P4 CPU plus C3 radio for flexibility and simpler certification.  
-    - Ethernet expectations → Not first Ethernet‑capable ESP; S31’s GbE MAC and many GPIOs help, while commenters still want affordable PoE and single‑pair Ethernet boards.
+Espressif announced the upcoming ESP32-S31, a dual-core 320MHz 32-bit RISC-V SoC combining 2.4GHz Wi-Fi 6, Bluetooth 5.4 LE and Classic, IEEE 802.15.4 for Thread and Zigbee, and a gigabit Ethernet MAC. It adds 512KB SRAM, external DDR PSRAM support, a 128-bit SIMD path, camera/display/touch interfaces, multimedia accelerators, and hardware security including PUF keys, secure boot, encryption, and a TEE. Commenters welcomed the integrated connectivity but questioned naming, low-power behavior, and whether its advertised MMU provides true process isolation.
 
-- LLM perspective  
-    - View: S31 targets “do‑everything” IoT hubs—radio, HMI, audio, and security—in one part, reducing BOM for midrange products.  
-    - Impact: Benefits small OEMs most; fewer chips, mature ESP-IDF stack, and built‑in Matter/Thread simplify certification-heavy consumer devices.  
-    - Watch next: Real-world power numbers, ADC2 behavior, radio coexistence benchmarks, and whether Espressif exposes enough low-level MMU features for tooling.
+### Comment pulse
+
+- The MMU may only map SPI flash and PSRAM, not implement Sv32 paging or page-fault isolation.
+- Restored Bluetooth Classic plus LE Audio interests audio builders, contingent on credible low-power results.
+- Some prefer a radio-free ESP32-P4 plus replaceable coprocessor; others value an integrated gigabit MAC and reclaimed GPIO.
+
+### LLM perspective
+
+- **View:** S31 prioritizes integration across radios, HMI, multimedia, and security more than maximal CPU or memory.
+- **Impact:** Device makers can consolidate smart-display, audio, Matter, and wired-network designs around one SoC.
+- **Watch next:** Samples, pricing, power benchmarks, ADC2 behavior, MMU documentation, Ethernet PHY requirements, and ESP-IDF maturity.

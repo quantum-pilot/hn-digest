@@ -3,14 +3,17 @@
 - Score: 414 | [HN](https://news.ycombinator.com/item?id=47631118) | Link: https://www.bbc.com/news/articles/ce8jzr423p9o
 
 ### TL;DR
-NASA released striking Earth portraits captured by the Artemis II crew from the Orion capsule soon after the trans‑lunar injection burn sent them beyond Earth orbit. One image, “Hello, World”, shows a sunlit Atlantic, thin atmosphere, polar auroras, and bright Venus. Others reveal the night-side Earth lit only by moonlight, with the day–night terminator and city lights visible. NASA juxtaposed these with Apollo 17’s 1972 photos as Artemis II loops around the Moon before returning to Earth.
+
+NASA released the first high-resolution Earth images taken by Artemis II’s four-person crew after Orion’s trans-lunar injection burn. Reid Wiseman’s photographs show the Atlantic, atmospheric glow, auroras, Venus, the day-night terminator, and a moonlit nightside with city lights. The mission is looping more than 200,000 miles to the Moon, due behind its far side on April 6 and back April 10, marking humanity’s first trip beyond Earth orbit since 1972. Commenters focused on the unusual exposure and camera metadata.
 
 ### Comment pulse
-- Photo nerds mined EXIF: pro DSLR body, fast ultra-wide lens, extreme ISO, minimal post-processing; handheld/float-shot at long exposure impressed many.  
-- Viewers realized it’s moonside-lit night Earth; discussion on moonlight’s solar spectrum, grain/noise, identifying auroras, noctilucent clouds, and confusing visual cues.  
-- Others highlighted higher-resolution NASA releases, regretted absence of raw files, proposed DIY satellite downlink setups, and admired dual-pole auroras and city-light patterns.
+
+- EXIF reportedly identifies a Nikon D5 and 14–24mm lens, with high ISO and a quarter-second exposure.
+- Moonlight can make the nightside look daylit under exposure; grain, auroras, and city lights drove close reading.
+- Readers pointed to NASA’s higher-resolution files and described receiving other full-disk satellite imagery with hobbyist radio gear.
 
 ### LLM perspective
-- View: These images re-anchor public spaceflight narratives in human experience—astronauts as photographers, not just payload.  
-- Impact: Expect renewed interest in imaging tech for crewed missions, from ruggedized cameras to better window design and anti-reflection treatments.  
-- Watch next: Compare Artemis imagery pipelines, licensing, and data formats against commercial operators; pressure will grow for open, raw, and near-real-time releases.
+
+- **View:** Beyond aesthetics, these photos document a human deep-space mission crossing a boundary not passed in 54 years.
+- **Impact:** The images give mission teams, educators, and public audiences a tangible record of Artemis II’s trajectory.
+- **Watch next:** Far-side passage on April 6, spacecraft performance, and recovery after the scheduled April 10 return.

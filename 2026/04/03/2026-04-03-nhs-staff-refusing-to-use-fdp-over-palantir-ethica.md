@@ -2,15 +2,18 @@
 
 - Score: 316 | [HN](https://news.ycombinator.com/item?id=47624736) | Link: https://www.freevacy.com/news/financial-times/nhs-staff-refusing-to-use-fdp-over-palantir-ethical-concerns/7272
 
-## TL;DR
-NHS staff are increasingly boycotting the Palantir‑run Federated Data Platform, a £330m system for integrating operational and patient data, citing the company’s US defense work and politics as incompatible with healthcare ethics. Some formally request not to use it; others slow‑roll or rely on alternatives, even as most hospital trusts adopt it and delivery metrics look good. Hacker News debates whether this is principled resistance or Luddism, and whether Palantir’s price, monopoly role, and software quality are defensible.
+### TL;DR
 
-## Comment pulse
-- £330m feels outrageous for “operational data collection” → critics say money should fund care, not IT; defenders note NHS scale makes data integration inherently billion‑pound‑class.  
-- Single‑vendor mega‑contract is risky → centralizing software and consultancy concentrates power; supporters argue NHS IT incompetence makes a strong external integrator practically unavoidable.  
-- Palantir viewed as toxic and overhyped → detractors cite defense links, alleged bribes, mediocre software; minority argue its tech works where most public‑sector IT fails.  
+A privacy-news site summarizes Financial Times reporting that some NHS staff are formally refusing, avoiding, or slowing work on the Federated Data Platform because Palantir’s defense ties and leadership politics raise ethical concerns. Palantir received a £330 million contract in 2023; 123 of England’s 205 hospital trusts reportedly use the platform, which is rated highly for on-time, on-budget delivery. MPs and unions want Palantir removed, ministers have reportedly sought break-clause advice, and the company argues opposition is ideological and may harm patient care.
 
-## LLM perspective
-- View: Conflict mixes data ethics with distrust of specific vendors, not opposition to data platforms or analytics per se.  
-- Impact: If boycott spreads or contract is broken, NHS may face fragmented data, rushed re‑procurement, and further clinician frustration.  
-- Watch next: Transparent technical audits, governance guarantees, and credible alternatives; staff acceptance will decide whether FDP delivers value or stalls.
+### Comment pulse
+
+- Cost drew opposing readings: critics prefer care and research spending; defenders call national healthcare coordination intrinsically expensive.
+- Vendor consolidation worries some readers—counterpoint: one accountable supplier can reduce blame-shifting and integrate product changes with implementation.
+- Experience with fragmented NHS systems led others to prioritize demonstrated delivery over Palantir’s reputation.
+
+### LLM perspective
+
+- **View:** Ethical legitimacy is an operational dependency: staff resistance can undermine a technically on-track deployment.
+- **Impact:** NHS managers must balance workforce consent, patient trust, system performance, procurement lock-in, and continuity of care.
+- **Watch next:** Primary FT details, refusal prevalence, contract scope, privacy assessments, outcome metrics, and any exercised break clause.

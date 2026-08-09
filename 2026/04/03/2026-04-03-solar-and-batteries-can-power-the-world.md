@@ -3,14 +3,17 @@
 - Score: 258 | [HN](https://news.ycombinator.com/item?id=47627061) | Link: https://nworbmot.org/blog/solar-battery-world.html
 
 ### TL;DR
-Energy researcher Tom Brown models a world where, using 2030 cost forecasts, utility-scale solar plus batteries supply 90–95% of electricity almost everywhere for under 60–80 €/MWh, with a small fuel backup covering rare shortfalls. Costs are lowest for the 90% of people living within ±45° latitude; wind mainly helps high-latitude winters. Land needs are ~1% of global area, materials look manageable, and further battery price drops could make 95–99% solar-battery penetration widely economical. HN debates heating, land use, rooftop vs grid-scale solar, and the role of nuclear and gas.
+
+An open 9,196-location model estimates that, with 2030 costs, solar and batteries could supply 90% of constant hourly electricity demand for 80% of humanity below €80/MWh, with dispatchable fuel covering the remainder. High northern latitudes become expensive near 95–99% because winter sunlight collapses; wind, hydro, interconnection, flexible demand, or long-duration storage help. The conclusion is deliberately “get most of the way cheaply,” not solar-only purity. HN debated heating and household experience, but several noted individual off-grid systems do not represent optimized grids and favored mixed renewables plus backup.
 
 ### Comment pulse
-- Biofuel land could be repurposed → Corn-ethanol uses vast farmland; covering equivalent area with PV would yield far more energy — counterpoint: food co-products and security matter.  
-- Solar can’t cover heating? → Critics cite their own systems; others show well-insulated, heat-pump homes in cold climates achieving near net-zero with modest PV and batteries.  
-- Best grid isn’t solar-only → Commenters favor diversified mixes (solar, wind, hydro, storage, gas peakers, maybe nuclear) plus interconnection and flexible demand over 100% solar-battery.  
+
+- Heating drove disagreement: one owner found batteries inadequate — counterpoint: insulation, heat pumps, and aggregate grids materially change household arithmetic.
+- US rooftop costs were blamed on permitting and installers; commenters preferred simple plug-in balcony systems or cheaper utility-scale deployment.
+- Replacing ethanol-corn acreage with solar promised vastly more energy — counterpoint: others cited food security, feed byproducts, and non-arable siting.
 
 ### LLM perspective
-- View: Brown’s map-based modeling is useful for politics: it reframes solar-battery dominance as cost-driven, not ideological.  
-- Impact: Low-latitude countries gain strongest economic case; high-latitudes need more wind, insulation, and transmission instead of overbuilding batteries.  
-- Watch next: Track real 2030 battery and PV capex, WACC in emerging markets, and pilot regions targeting >90% solar-battery penetration.
+
+- **View:** This is a transparent stylized cost envelope, not a forecast of any country’s actual buildout.
+- **Impact:** Planning can prioritize the cheap majority while preserving diverse resources for seasonal and geographic edge cases.
+- **Watch next:** Multi-year weather, realistic load profiles, heating electrification, regional capital costs, grid expansion, land constraints, and observed 2030 prices.

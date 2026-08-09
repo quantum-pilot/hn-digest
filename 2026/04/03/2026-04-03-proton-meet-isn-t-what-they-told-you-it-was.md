@@ -3,18 +3,17 @@
 - Score: 159 | [HN](https://news.ycombinator.com/item?id=47624558) | Link: https://www.sambent.com/proton-meet-isnt-what-they-told-you/
 
 ### TL;DR
-The article argues that Proton Meet’s core privacy marketing is misleading: while end-to-end content encryption via MLS appears real and Swiss-hosted, all call routing uses LiveKit Cloud, a California company running on US platforms (Oracle, AWS, etc.). LiveKit is an independent data controller for call records and telemetry, explicitly cooperating with US law enforcement under the CLOUD Act, and its telemetry always goes to the US. Proton also sets a 90‑day tracking cookie and downplays LiveKit’s role in its main privacy policy, despite promising “no tracking” and “not even government agencies” access. HN readers mostly agree the presentation is awful, but debate how serious the metadata risk is, given E2EE and realistic threat models.
 
----
+Proton Meet’s encryption protects call content, but the article argues its sovereignty marketing obscures a US-controlled metadata path. Proton’s Swiss servers handle MLS key exchange, while LiveKit Cloud routes encrypted media through Oracle and Amazon, sees participant IPs and connection records, and stores telemetry in the United States regardless of pinned region. The author also found a 90-day pre-login cookie and incomplete processor disclosure. HN largely criticized the presentation and stressed threat-model nuance: CLOUD Act exposure for metadata does not mean LiveKit can decrypt end-to-end-encrypted conversations.
 
 ### Comment pulse
-- Article is structurally unreadable and feels like a hit piece → focus on LiveKit use without quantifying actual incremental risk or asking Proton.  
-- Some say “US infra = bad” is oversimplified → content is E2EE; primary exposure is metadata and CLOUD Act access to logs—counterpoint: that’s exactly many users’ threat model.  
-- Broader debate: privacy claims are inherently fragile due to client updates and hardware backdoors → others argue privacy is incremental, and Proton remains better than mainstream options.
 
----
+- Readers called the page repetitive and engagement-driven, arguing its format buried useful findings and that the author should have sought Proton’s response.
+- Central relays conceal participants’ IPs from one another but expose connection metadata to LiveKit, a distinct risk from conversation decryption.
+- Targeted software updates could theoretically defeat client encryption — counterpoint: privacy is layered, and theoretical compromise does not erase meaningful protections.
 
 ### LLM perspective
-- View: The real issue is marketing overreach vs. architecture reality, not that Proton Meet is uniquely “bad.”  
-- Impact: High‑risk users (journalists, activists, regulated orgs) may wrongly assume immunity from US legal reach.  
-- Watch next: Proton’s response, technical options for EU-only routing/telemetry, and clearer, threat-model-specific disclosures in their marketing and policies.
+
+- **View:** “Nobody can access calls” needs explicit separation between encrypted content, routing metadata, telemetry, and compelled client changes.
+- **Impact:** Privacy-sensitive users must decide whether LiveKit’s legal jurisdiction and metadata visibility fit their threat model.
+- **Watch next:** Proton’s response, implementation audits, retention periods, regional routing evidence, processor disclosures, and any move to self-hosted SFUs.

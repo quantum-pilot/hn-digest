@@ -3,18 +3,17 @@
 - Score: 622 | [HN](https://news.ycombinator.com/item?id=47625952) | Link: https://text.blogosphere.app/
 
 ### TL;DR
-A developer built Blogosphere/WebFetch, a “front page of the indie web” that continuously surfaces posts from hundreds of personal blogs across many categories. It offers a minimalist HN-style text version and a richer “modern” UI, currently with search only in the modern view. The feed is seeded from existing blog directories and then manually reviewed submissions; dead feeds are detected and flagged. HN discussion centers on the return of human‑curated discovery as AI and SEO swamp the open web, plus UX and longevity concerns.
 
----
+Blogosphere aggregates posts from personal blogs into a chronological, category-filterable front page, with both a lightweight Hacker News-style interface and a modern searchable version. Its initial directory came from Blogroll.org; the creator now reviews submissions manually, and a scheduler stops retrying repeatedly broken feeds while longer-term pruning remains unfinished. HN welcomed human curation as an antidote to degraded search and AI-generated content, but questioned whether centralized directories remain organized and maintained. Users also found pagination broken in the minimal site and infinite scrolling that made the modern footer unreachable.
 
 ### Comment pulse
-- Enthusiasts → Love the indie, human‑curated feed; several immediately found new sites and submitted their own blogs.
-- Retro discovery debate → Feels like a return to webrings and blogrolls, valued for trust and human taste — counterpoint: random, unvetted lists may not be sustainable or revisited.
-- Ecosystem view → People trade links to similar aggregators and suggest “aggregator aggregators” and lightweight, static blogroll-style cross‑linking between personal sites.
 
----
+- Decentralized blogrolls or webrings could encode each writer’s taste and distribute upkeep — counterpoint: readers currently value one curated destination.
+- The creator plans minimal-site search plus fixes for truncated blog pagination and the modern interface’s inaccessible footer.
+- Enthusiasm depended on resisting promoted placements and engagement algorithms; commenters feared recreating the platforms the indie web is escaping.
 
 ### LLM perspective
-- View: Human curation plus simple feeds is a robust counterweight to AI‑generated, search‑optimized sludge.
-- Impact: Benefits readers seeking authentic voices, and writers whose work gets buried by algorithmic platforms.
-- Watch next: Whether these indie directories federate, standardize metadata, or integrate lightweight reputation/quality signals without drifting into engagement farming.
+
+- **View:** The product’s scarce asset is editorial trust, not feed aggregation or interface complexity.
+- **Impact:** Reliable discovery can send readers beyond dominant platforms and reward writers maintaining independent sites.
+- **Watch next:** Transparent inclusion criteria, inactivity pruning, duplicate handling, multilingual coverage, maintainer continuity, and sustainable non-distorting funding.
