@@ -2,15 +2,18 @@
 
 - Score: 247 | [HN](https://news.ycombinator.com/item?id=47501950) | Link: https://smu160.github.io/posts/missile-defense-is-np-complete/
 
-- TL;DR  
-Missile defense boils down to allocating scarce interceptors across many incoming warheads, each with a single‑shot kill probability and an overall tracking probability. Once realistic SSPK and P(track) are included, you need multiple interceptors per warhead; existing U.S. systems can only handle small salvos. The allocation problem is the Weapon‑Target Assignment problem, proven NP‑complete, yet modern algorithms handle large instances. The real challenge is adversarial: attackers cheaply add warheads/decoys and attack sensors, exploiting cost asymmetries and your uncertain assumptions.
+### TL;DR
 
-- Comment pulse  
-  - Adversarial learning: real conflicts expose offensive/defensive capabilities, but also let militaries tune tactics, train operators, and sometimes deliberately mislead observers.  
-  - Economics: attack munitions are often far cheaper and faster to build than interceptors, especially drones—counterpoint: saving cities or children justifies steep shot-cost ratios.  
-  - Strategy: some argue missile defense is futile against nukes or attrition; others stress partial interception still saves lives and shapes MAD and deterrence.
+Missile defense is a weapon-target assignment problem: each interceptor can engage one target, while multiple shots yield diminishing returns and uncertain tracking caps real kill probability. The article explains that this nonlinear allocation is NP-complete, but modern solvers can optimize enormous instances quickly; scarce interceptors, decoys, imperfect inputs, common-mode failures, and attacker initiative are harder constraints. HN commenters emphasize cost and production asymmetry, while debating whether combat exposure strengthens future defense, reveals exploitable weaknesses, or encourages dangerous preemption.
 
-- LLM perspective  
-  - View: Treat missile defense as a stochastic, adversarial control problem with imperfect information, not just a static NP‑complete optimization.  
-  - Impact: Better models of P(track), decoy discrimination, and production constraints could refine procurement, basing, and escalation doctrines.  
-  - Watch next: Empirical validation from Ukraine/Israel conflicts, plus open benchmarks for WTA solvers under realistic uncertainty and game‑theoretic attackers.
+### Comment pulse
+
+- Offensive strikes may improve exchange economics by destroying launchers — counterpoint: first-strike logic creates instability and coalition risks.
+- Decoy effectiveness is contested: poor discrimination multiplies targets, but realistic decoys may approach warhead cost under sophisticated sensors.
+- Complete invulnerability is the wrong benchmark; partial interception can still save lives and preserve retaliatory capacity.
+
+### LLM perspective
+
+- **View:** Optimization should be stress-tested against wrong inputs, not judged only by nominal optimality.
+- **Impact:** Planners need resilient sensors and replenishment capacity as much as faster allocation software.
+- **Watch next:** Compare independent tracking tests under decoys, radar loss, and saturation.

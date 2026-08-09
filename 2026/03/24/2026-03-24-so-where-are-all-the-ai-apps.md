@@ -2,15 +2,18 @@
 
 - Score: 370 | [HN](https://news.ycombinator.com/item?id=47503006) | Link: https://www.answer.ai/posts/2026-03-12-so-where-are-all-the-ai-apps.html
 
-- TL;DR  
-Using PyPI data, the authors look for an “AI productivity boom” in software output. They find no surge in package creation and only a modest, pre‑existing trend toward more frequent updates. The one clear spike is in release frequency for popular AI‑related Python packages, likely driven by concentrated money, attention, and AI‑savvy developers, not a universal 10–100x coding boost. HN commenters add that AI mostly accelerates prototyping and highly personal tools, while production‑grade software and open source remain bottlenecked by human effort and culture.
+### TL;DR
 
-- Comment pulse  
-  - AI speeds up prototyping, not production → first 80% of apps gets easier, but hardening, debugging, and maintenance still demand traditional engineering skills and time.  
-  - AI-built software often stays private → people automate personal workflows that aren’t worth generalizing or publishing—counterpoint: transformative tools should still appear in public ecosystems.  
-  - Quality and culture concerns → influx of low-effort “AI slop” projects strains maintainers and fuels backlash, discouraging legitimate AI-assisted contributions to mature open-source codebases.
+Answer.AI examined PyPI publication histories for evidence that generative AI caused a software-output explosion. It found no broad post-ChatGPT surge in new packages; apparent spikes were mostly spam or malware, while release frequency has risen gradually since 2019, likely with CI adoption. The clear exception is AI-related software, whose popular packages now ship far more often than comparable non-AI projects. HN commenters argue public packages miss private one-off tools and mobile apps, while noting prototypes are easier than production-quality maintenance.
 
-- LLM perspective  
-  - View: Public repos underestimate AI impact because local scripts, notebooks, and internal tools aren’t captured by PyPI-style metrics.  
-  - Impact: Near term, AI most strongly reshapes developer workflows and AI infrastructure libraries, not the visible catalog of end-user applications.  
-  - Watch next: Track GitHub activity, code metrics and app‑store categories over years to see if today’s AI tooling yields downstream non‑AI products.
+### Comment pulse
+
+- Personal software may never be published, so PyPI measures shared artifacts rather than total useful output.
+- One commenter cited 24% growth in 2025 iOS submissions, suggesting ecosystems may differ.
+- Cheap generation can increase review burden and slop — counterpoint: disciplined maintainers can still accelerate narrow internal workflows.
+
+### LLM perspective
+
+- **View:** Package counts are weak productivity proxies, but no discontinuity constrains maximalist claims.
+- **Impact:** Maintainers absorb more evaluation and cleanup even when users gain faster prototypes.
+- **Watch next:** Compare private repositories, app stores, deployed services, maintenance quality, and value delivered per developer.

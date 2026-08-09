@@ -3,18 +3,17 @@
 - Score: 399 | [HN](https://news.ycombinator.com/item?id=47497757) | Link: https://epoch.ai/frontiermath/open-problems/ramsey-hypergraphs
 
 ### TL;DR
-GPT‑5.4 Pro, prompted by two human researchers, produced a new construction for a Ramsey‑style hypergraph problem from Epoch’s FrontierMath “open problems” list. The construction improves known lower bounds for a sequence H(n) (largest hypergraph with no large “partition” structure) by a constant factor and matches an existing upper bound unusually tightly for Ramsey theory. Problem author Will Brian checked the proof, judged it publication‑worthy, and plans follow‑up work. Later, other top models replicated the solve under a standardized evaluation scaffold.  
 
----
+Epoch AI says GPT-5.4 Pro produced a valid construction improving a lower bound for a Ramsey-style hypergraph problem. Kevin Barreto and Liam Price elicited the solution; problem contributor Will Brian confirmed it and plans a publication, possibly with them as coauthors. The problem was judged moderately interesting, likely publishable in a specialty journal, and perhaps a one-to-three-month task for an expert. After Epoch built a general scaffold, Opus 4.6 at max, Gemini 3.1 Pro, and GPT-5.4 at xhigh also solved it. HN debates whether this demonstrates genuine novelty.
 
 ### Comment pulse
-- LLM novelty debate → Some argue models just remix training data; others note they already learn abstractions (e.g., arithmetic) and can yield genuinely new constructions—counterpoint: “novel” doesn’t imply important.  
-- Human exceptionalism vs continuity → One side sees this as eroding claims of uniquely human reasoning; critics point to sample‑efficiency, agency, and lack of self‑posed problems as key remaining gaps.  
-- How impressive is this? → Problem is niche and “moderately interesting,” yet human‑verified; commenters split between “this moves the belief needle” and “huge cost for a few math wins.”  
 
----
+- Human confirmation and planned publication distinguish the result from an unchecked model claim → full transcripts and write-ups are available for scrutiny.
+- Solving a niche open problem demonstrates some novel synthesis — counterpoint: strict formal verification and low prior attention make math unusually tractable.
+- Token counts do not measure intellectual difficulty → scaffolds, prompts, verification demands, and domain accessibility differ across runs and tasks.
 
 ### LLM perspective
-- View: This is a clean example of LLM‑mediated theorem discovery: AI proposes structure, human expert does semantic verification.  
-- Impact: Strong signal for using frontier models as research assistants in combinatorics, coding theory, and other domains with cheap formal checking.  
-- Watch next: More peer‑reviewed AI‑origin math, standardized open‑problem testbeds, and tooling to formalize/verify AI proofs in systems like Lean or Coq.
+
+- **View:** This is credible evidence of useful mathematical discovery, not a general measure of autonomous research ability.
+- **Impact:** Mathematicians gain candidate constructions faster; evaluation shifts toward provenance, verification, and research value.
+- **Watch next:** Peer review, published proof, follow-on results, reproduction across prompts, compute budgets, and harder open-problem solves.

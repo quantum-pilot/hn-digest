@@ -2,15 +2,18 @@
 
 - Score: 228 | [HN](https://news.ycombinator.com/item?id=47503617) | Link: https://github.com/ssrajadh/sentrysearch
 
-- TL;DR  
-  - Open-source tool SentrySearch uses Google’s Gemini Embedding 2 to chunk dashcam footage, embed raw video into a shared vector space with text, and deliver sub‑second semantic search results and auto-trimmed clips via a simple CLI. It explains costs (~$2.50/hour), preprocessing tradeoffs, and limitations like heuristic scene detection. HN commenters are excited about practical uses and editing workflows but deeply worried about how scalable AI video search accelerates police, commercial, and drone-enabled panopticon-style surveillance.
+### TL;DR
 
-- Comment pulse  
-  - AI video search enables panopticon-style surveillance via natural-language queries over city, police, and consumer cameras—counterpoint: current costs, latency, and fragmented ownership slow real-time surveillance.  
-  - Makers want to integrate this into custom dashcam viewers and other embedding experiments, validating demand for turnkey “describe it, find it” tooling.  
-  - People speculate about creative tools: video editors powered by semantic queries that auto-generate edit decision lists to remove or isolate specific content.
+SentrySearch turns MP4 dashcam footage into searchable vectors using Gemini Embedding 2, which places video and text in the same 768-dimensional space without transcription or frame captions. It chunks overlapping windows, preprocesses them, skips likely-still footage, stores embeddings locally in ChromaDB, and returns a trimmed clip for natural-language queries in under a second after indexing. HN users immediately saw editing and personal-archive uses, but the dominant concern was scalable camera surveillance once cost, latency, and centralized access fall.
 
-- LLM perspective  
-  - View: Direct video-text embeddings make many niche “needle-in-haystack” video search problems suddenly tractable without transcription pipelines.  
-  - Impact: Most immediate adopters: fleet operators, security teams, editors, quantified-self folks with wearables or dashcams drowning in unstructured footage.  
-  - Watch next: Key questions: evaluation benchmarks, robustness to adversarial scenes, on-device or open-weight models that reduce cloud dependency and privacy risk.
+### Comment pulse
+
+- A Premiere-style workflow could locate or remove scenes and produce an editable decision list rather than a final cut.
+- Dashcam owners see obvious benefit in retrieving incidents without manually scrubbing recordings or removing storage media.
+- Local open-weight models could keep footage private — counterpoint: cheap centralized systems enable pervasive, queryable surveillance.
+
+### LLM perspective
+
+- **View:** The core advance is cross-modal retrieval over moving imagery, not merely faster captions.
+- **Impact:** Archivists, editors, drivers, and investigators gain search; bystanders lose practical obscurity.
+- **Watch next:** Benchmark chunk-boundary recall, false still-frame skips, preview pricing, and local-model quality.

@@ -3,18 +3,17 @@
 - Score: 288 | [HN](https://news.ycombinator.com/item?id=47498924) | Link: https://lnav.org/
 
 ### TL;DR
-lnav is a long‑lived, terminal-based log viewer that merges, tails, searches, filters, and SQL-queries logs locally without servers or setup. It auto-detects formats, handles compression on the fly, and can outperform typical shell pipelines on large files via an integrated SQLite engine. HN comments split between fans who’ve used it for years in production and newcomers who find its TUI, colors, and discoverability (exiting, help, man pages) confusing, prompting discussion of themes, onboarding, and alternatives like Grafana or custom TUIs.
 
----
+lnav is a serverless terminal viewer that merges, tails, searches, filters, and queries logs. It automatically detects formats, opens compressed files, exposes log data through SQLite, and claims better CPU and memory performance than standard tools on a 3.3GB access log. Long-time HN users praise its lightweight handling of web-server and lab-device logs, with a history reaching 2009. Critics found the interface, colors, initial indexing, and exit behavior confusing; the maintainer points to pager-style keys, built-in themes, extensive internal help, and improvements in newer releases.
 
 ### Comment pulse
-- Mature, lightweight log navigator → Users report success monitoring many servers and lab devices since ~2009, praising low overhead and effectiveness for multi-source logs.
-- Steep-ish UX for newcomers → Some can’t tell what’s happening, struggle to exit, and dislike colors; maintainer notes pager-like keys, themes, and improved recent versions — counterpoint: others say `q` works and man page exists in their distro.
-- Desire for “TUI Grafana” for JSON → One wants log dashboards in-terminal; others say lnav already beats Grafana for quick searches, while pointing to treewalker and vnlog+feedgnuplot as alternatives.
 
----
+- Local multi-file analysis avoids Grafana’s operational weight → users value automatic parsing, merging, querying, and low resource use.
+- Discoverability frustrates newcomers — counterpoint: q exits, pager conventions apply, grayscale is configurable, and recent versions removed extra prompt processes.
+- Some users want a TUI for structured JSON and charts → alternatives mentioned include Treewalker, vnlog, and feedgnuplot.
 
 ### LLM perspective
-- View: lnav nicely bridges basic CLI tools and full log platforms, especially for SSH-centric debugging and small deployments.
-- Impact: Best suited for individual developers, SREs, and small ops teams who lack or distrust heavyweight logging stacks.
-- Watch next: More discoverable UI cues (exit/help hints, progress during indexing) and first-class JSON workflows could broaden adoption.
+
+- **View:** lnav occupies a useful middle ground between shell primitives and centralized observability stacks.
+- **Impact:** Operators can inspect small-scale or ad hoc logs without deploying centralized storage or running a service.
+- **Watch next:** Indexing responsiveness, packaging consistency, structured-JSON workflows, theme defaults, current-version documentation, and large-file benchmarks.

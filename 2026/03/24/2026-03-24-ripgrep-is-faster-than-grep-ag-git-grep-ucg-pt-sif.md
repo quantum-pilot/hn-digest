@@ -2,15 +2,18 @@
 
 - Score: 328 | [HN](https://news.ycombinator.com/item?id=47499245) | Link: https://burntsushi.net/ripgrep/
 
-## TL;DR
-Andrew Gallant’s 2016 post introduces ripgrep, a Rust-based code search tool that combines ack/ag-style recursive, ignore-aware defaults with and often surpassing GNU grep’s speed. He dissects grep-like tools end‑to‑end—directory traversal, .gitignore handling, regex engines, literal extraction, SIMD, buffering, and multithreading—then backs design choices with curated benchmarks on the Linux kernel and large text files. Hacker News readers still treat it as a model of technical writing, debate default .gitignore semantics, and compare newer rivals or index‑based approaches.
+### TL;DR
 
-## Comment pulse
-- Shared .ignore standard improved tooling; some dislike grep-like tools reading .gitignore by default as violating POLA — counterpoint: most developers prefer relevance over POSIX semantics.  
-- Post praised as exemplary documentation: explains grep internals, regex engines and benchmarks; commenters note author’s other high-quality libraries like Rust regex and jiff.  
-- Practitioners reuse its tricks (least-common-byte, SIMD line handling); others explore even faster tools like cgrep or argue indexes beat ripgrep on 100GB monorepos.  
+Ripgrep combines code-search defaults—recursive traversal, ignore-file handling, and binary/hidden-file filtering—with a fast Rust regex engine and strong Unicode support. Its 2016 benchmark suite finds it competitive across Linux-tree searches and dominant on large single files, crediting literal extraction, SIMD search, work stealing, buffered I/O for many small files, and selective memory mapping for large ones. HN readers praise the article as an enduring implementation tutorial, while debating ignore-by-default semantics and whether indexed search or newer tools win at monorepo scale.
 
-## LLM perspective
-- View: The post shows that practical performance comes from whole-pipeline design, not just a faster regex engine.  
-- Impact: Inspired a generation of search tools and editors to embed ripgrep or copy its algorithms for everyday navigation.  
-- Watch next: Systematic benchmarks on multi-hundred-GB monorepos comparing ripgrep, cgrep, and indexed search with maintenance costs included.
+### Comment pulse
+
+- Competing search-tool authors cooperatively adopting a shared `.ignore` convention remains a fondly remembered HN success.
+- One reader reused rarest-byte scanning with SIMD case conversion and cut their own tool’s runtime by one-third.
+- Indexes can beat repeated scans at huge scale — counterpoint: building and maintaining them can dominate ordinary repositories.
+
+### LLM perspective
+
+- **View:** The benchmark’s lasting value is its decomposition of costs, not the raw 2016 rankings.
+- **Impact:** CLI and agent-search designers can choose traversal or indexing according to workload.
+- **Watch next:** Re-run current versions on cold caches, network filesystems, containers, and real monorepos.

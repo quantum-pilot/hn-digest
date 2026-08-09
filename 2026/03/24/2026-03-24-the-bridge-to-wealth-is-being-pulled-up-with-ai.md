@@ -4,24 +4,16 @@
 
 ### TL;DR
 
-The essay models human traits as Gaussian (e.g., IQ, conscientiousness) but wealth as power-law, then shows how 20th‑century credentials formed a bridge: IQ → degrees → high income → capital accumulation. AI, it argues, is rapidly collapsing the market premium for routine cognitive work, so inherited wealth increasingly dominates life outcomes, pushing society toward a de‑facto aristocracy. Interactive simulations suggest a 5–10 year window where AI‑fluent domain experts can still convert skill into capital. HN readers debate both the economics and the essay’s credibility.
-
----
+The essay argues that intelligence and other traits regress toward the mean, while inherited wealth compounds through law; twentieth-century credentials temporarily connected ability to income and capital. It predicts AI will erode the wage premium for cognitive work, remove entry-level mobility rungs, and leave ownership as the dominant intergenerational advantage, with a five-to-ten-year opening for domain experts who adopt AI early. HN discussion challenges the evidence, model assumptions, and grandiose presentation, countering that commoditized AI may broaden opportunity and that real incomes have not yet validated the forecast.
 
 ### Comment pulse
 
-- Skeptics: AI is a cheap commodity improving everyone’s leverage; if access stays broad, the “bridge” isn’t gone, just different — counterpoint: purchasing power and inequality already look worse.
-
-- Metrics debate: median real income alone misleads; housing, healthcare, and wealth concentration show many professionals slipping despite flat or rising nominal pay.
-
-- Meta + behavior: many see the piece as LLM-written and astroturfed, while others link its thesis to crypto/meme-stock manias and “elite overproduction” anxieties.
-
----
+- Critics allege AI-written prose and inorganic votes — counterpoint: supporters attribute flagging to discomfort with the conclusion.
+- Flat median income misses housing, healthcare, and wealth distribution, though inflation measurement itself is disputed.
+- Some connect weakened conventional mobility to crypto and meme-stock speculation as increasingly attractive roulette.
 
 ### LLM perspective
 
-- View: The model is plausible but highly assumption-sensitive; taxation, inheritance law, and AI access policies could blunt or reverse the “new aristocracy” dynamic.
-
-- Impact: If IQ’s wage premium shrinks, over-investment in elite credentials becomes irrational; pathways via ownership, equity, and entrepreneurship gain relative importance.
-
-- Watch next: Track IQ–income elasticity, intergenerational wealth elasticity, labor share vs capital returns, and whether open models stay competitive with proprietary AI.
+- **View:** This is a scenario model, not a demonstrated causal forecast; its coefficients and thresholds need sensitivity tests.
+- **Impact:** The policy issue is who owns productivity gains and whether labor can still accumulate assets.
+- **Watch next:** Labor share, entry-level employment, real compensation, wealth mobility, and open-model access.

@@ -3,20 +3,17 @@
 - Score: 216 | [HN](https://news.ycombinator.com/item?id=47508246) | Link: https://twitter.com/soraofficialapp/status/2036532795984715896
 
 ### TL;DR
-OpenAI is shutting down Sora as a standalone AI‑video app/social network, despite its initial wow factor and short‑term creative frenzy. HN commenters say novelty and poor retention, not lack of raw capability, doomed it: people played intensely for weeks, then stopped. Strategically, OpenAI seems unwilling to subsidize an AI‑TikTok competitor in a crowded, low‑margin space when compute is scarce and AGI research is the priority. AI video continues, but as a feature inside ChatGPT, not its own product.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+OpenAI announced that Sora is being retired, thanking users and promising later details on app and API timelines plus ways to preserve creations, but offering no reason in the post. HN commenters describe a familiar arc: striking first-generation novelty, weak repeat use, and tighter safety or copyright limits that reduced the fun. Many separate the standalone product’s failure from the medium itself, expecting video generation to continue inside ChatGPT or other workflows; others point to high compute costs and poor social-feed differentiation.
 
 ### Comment pulse
-- Fun but fleeting → many users binged Sora for days, then never returned; no enduring use case beyond novelty, so retention cratered.  
-- Strategy and cost → running high‑end video models for free social content wastes compute better spent on core models and revenue‑generating products.  
-- Product fit → a feed of only AI videos competes with TikTok/FB’s mixed AI+human slop; without IP remixing, Sora’s content was less sticky.
 
----
+- One user enjoyed initial image-to-video experimentation but found no durable habit or reason to return.
+- A safety framework published one day earlier prompted speculation that risk, not demand, drove the closure.
+- A generic feed offered little beyond existing social media — counterpoint: creation inside conversational workflows may still be valuable.
 
 ### LLM perspective
-- View: This is a classic “cool demo, weak product-market fit” moment for frontier AI capabilities.  
-- Impact: Shifts OpenAI toward platform features over standalone consumer socials, and pressures rivals to justify video compute.  
-- Watch next: Whether integrated AI video gains real professional workflows (ads, previz, explainer content) instead of pure entertainment toys.
+
+- **View:** The shutdown signals product-market mismatch more clearly than failure of the underlying video models.
+- **Impact:** Creators need export guarantees when cloud-native media tools disappear.
+- **Watch next:** Preservation tooling, API sunset dates, model migration, and video’s possible return inside ChatGPT.

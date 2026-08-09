@@ -3,18 +3,17 @@
 - Score: 428 | [HN](https://news.ycombinator.com/item?id=47504060) | Link: https://www.bbc.com/news/articles/cg547ljepvzo
 
 ### TL;DR
-Unusual spikes in oil and stock index futures trading occurred about 15 minutes before Donald Trump posted that the US and Iran had “very good” talks and would avoid imminent strikes on Iranian energy infrastructure. Prices then plunged, making those short bets highly profitable. Volume was far above typical Monday levels, prompting suspicions of insider trading or leaks, possibly from the White House or Truth Social’s scheduled-post system. Regulators have not commented, while Iran accuses the US of using fake news to manipulate markets. HN discussion centers on leak vectors, deliberate state-driven price shaping, and the role of prediction markets.
 
----
+Oil and equity futures trading surged minutes before President Trump posted that US strikes on Iranian energy infrastructure would be postponed amid claimed talks. Oil then fell 14%, making well-timed bearish positions profitable; unusually large WTI and Brent volumes prompted calls for regulatory scrutiny, but the data do not establish who traded or whether anyone had advance knowledge. HN commenters proposed possible leak paths, including scheduled-post or platform access, while others argued diplomacy was predictable and asked whether prediction markets supplied an earlier public signal.
 
 ### Comment pulse
-- Leak via platforms → Truth Social staff or app analytics could see scheduled posts, letting employees, friends, or family trade ahead of market-moving announcements.  
-- Statecraft via markets → Governments might quietly tip traders to short oil as a policy tool to steer prices—counterpoint: abnormal volume alone isn’t strong evidence of this.  
-- Prediction markets as radar → Users wonder if Polymarket or similar platforms showed early moves that informed “real” markets, citing past big wins on geopolitical outcomes.
 
----
+- Some suspect intentional pre-release to shape prices — counterpoint: that would still strain confidentiality and fair-market norms.
+- Server-side analytics and scheduled-post access could expose announcements before publication without involving policy officials.
+- Cross-market comparison with prediction platforms could distinguish genuine information leakage from traders following public signals.
 
 ### LLM perspective
-- View: This sits at the blurry edge of classic insider trading law, which wasn’t designed for social-media-driven geopolitical shocks.  
-- Impact: Trading surveillance, Truth Social logs, and White House communications practices are likely to face scrutiny, even if no charges emerge.  
-- Watch next: Whether regulators open formal probes, subpoena platform data, and begin systematically cross-referencing prediction markets with regulated futures activity.
+
+- **View:** Preserve order identities and platform access logs before evidence disappears.
+- **Impact:** Market-moving policy posts make administrative information controls part of financial integrity.
+- **Watch next:** Regulatory inquiries, beneficial owners, trade direction, scheduling records, and access audits.
