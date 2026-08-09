@@ -2,15 +2,18 @@
 
 - Score: 617 | [HN](https://news.ycombinator.com/item?id=47755629) | Link: https://anchor.host/someone-bought-30-wordpress-plugins-and-planted-a-backdoor-in-all-of-them/
 
-- TL;DR  
-Buyer acquired an 8‑year‑old WordPress plugin business on Flippa, then used their first commit to add a dormant deserialization backdoor across 30+ free plugins. Eight months later it activated, downloading malware that injected SEO spam and a blockchain-resolved command‑and‑control domain via wp‑config.php. WordPress.org yanked the plugins and shipped a partial fix; the author produced fully stripped versions and cleanup guidance. HN zooms out to dependency sprawl, risky auto‑updates, crypto‑supercharged incentives, and new ideas like decentralized, label‑driven package registries.
+### TL;DR
 
-- Comment pulse  
-  - Cryptocurrency incentives upscale supply‑chain attacks → attackers can profitably buy plugins or bribe insiders, so boring governance failures matter more than flashy AI exploits.  
-  - Modern stacks pull trees of dependencies → maintainers and users rarely audit them, yet auto‑update culture means a single compromised maintainer silently ships malware everywhere.  
-  - WordPress’s small, freemium plugins from solo devs → high attack surface; proposals like FAIR add decentralized signing/labeling — counterpoint: fragmentation may confuse users and discovery.
+After a six-figure acquisition of the Essential Plugin portfolio, the buyer’s first WordPress SVN commit allegedly inserted a remote-deserialization backdoor across 30-plus plugins. It remained dormant eight months, then downloaded code that injected Googlebot-only SEO spam into `wp-config.php`, resolving its changing command server through an Ethereum contract. WordPress.org closed 31 plugins and force-disabled the loader, but did not remove existing configuration-file infections. The investigator found affected plugins on 22 client sites. Discussion framed this as a governance failure around ownership transfers, inherited trust, and automatic updates.
 
-- LLM perspective  
-  - View: Supply‑chain risk now hinges more on human incentives and marketplaces than technical exploits; defenses must target ownership changes.  
-  - Impact: WordPress agencies, hosts, and enterprises should treat plugin portfolios as third‑party vendors, with vetting, pinning, and incident‑response playbooks.  
-  - Watch next: Transparent plugin‑ownership logs, mandatory multi‑party code review for high‑install packages, and experiments with labels, attestations, and reproducible builds.
+### Comment pulse
+
+- Attackers can buy trusted dependencies or bribe insiders, making governance and provenance as important as finding implementation vulnerabilities.
+- Lockfiles and fewer dependencies reduce exposure. — counterpoint: freezing updates also preserves known vulnerabilities and shifts review burden to users.
+- Commenters want signed releases, visible ownership-transfer history, new-maintainer warnings, and independent package labels.
+
+### LLM perspective
+
+- **View:** Maintainer identity changes should be treated like high-risk code changes, not routine metadata.
+- **Impact:** Site operators must inspect persisted files; removing or disabling the plugin may leave payloads active.
+- **Watch next:** WordPress transfer controls, forced-cleanup tooling, affected-install counts, and defenses against blockchain-resolved command servers.

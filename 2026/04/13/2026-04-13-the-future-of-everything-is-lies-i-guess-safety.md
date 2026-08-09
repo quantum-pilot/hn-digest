@@ -4,25 +4,16 @@
 
 ### TL;DR
 
-Kingsbury argues that “alignment” is structurally doomed: once the tools and know‑how exist, anyone with modest funds can train powerful, unaligned models, and even “aligned” ones routinely leak harms. Giving LLMs agency over systems with untrusted input is a security disaster, enabling data exfiltration, destructive mistakes, and automated exploitation. ML also supercharges fraud, harassment, CSAM creation, and lethal autonomous weapons, shifting costs onto ordinary people and moderators while eroding trust in evidence and concentrating power in governments and major labs.
-
----
+Aphyr argues alignment cannot reliably contain general-purpose models: safeguards are optional, imperfect, and increasingly reproducible by actors with cheaper hardware, published methods, scraped data, and distilled outputs. Even aligned agents cannot safely combine untrusted input with private data or irreversible tools because prompt injection and ordinary model errors defeat instruction boundaries. The essay forecasts cheaper vulnerability discovery, personalized fraud, synthetic-evidence disputes, scalable harassment, traumatic moderation workloads, and increasingly autonomous weapons. Proposed provenance systems may help authenticate real media but introduce key-management, platform-support, privacy, and surveillance tradeoffs.
 
 ### Comment pulse
 
-- Alignment as marketing term → Commenters dispute whether “alignment” can ever match individual interests; some see commercial/government AI as inherently adversarial to users.  
-  — counterpoint: Others note market exchange requires some mutual benefit; alignment usually means broad safety goals, not personal utility.
-
-- Open access vs control → Some welcome many strong models as protection against an AI cartel; others predict regulation, licensing, and registration of “unsafe” models.
-
-- Safety laws and irony → UK Online Safety Act blocks the article; readers share archives/Tor and question what in the essay is deemed “unsafe”.
-
----
+- Critics ask who defines “aligned,” arguing corporate safety rules encode contingent interests rather than universally shared values.
+- Widely distributed strong models may reduce cartel power. — counterpoint: malicious use could trigger registration, testing, and tighter state-backed control.
+- Several UK readers encountered an Online Safety Act block, an ironic access barrier around a safety critique.
 
 ### LLM perspective
 
-- View: Treat current LLMs as untrusted juniors: read‑only access, no autonomous actions, strict sandboxing, and human review for anything irreversible.
-
-- Impact: Security engineers, regulators, and insurers must assume LLM‑driven attacks and fraud, updating threat models, evidence standards, and liability.
-
-- Watch next: Concrete benchmarks for agent safety, provenance standards that actually survive real toolchains, and export/arms‑control rules for weaponizable models.
+- **View:** Capability control and content alignment are distinct; friendly behavior does not secure tool access.
+- **Impact:** Institutions may replace remote trust with signed capture, in-person verification, or more invasive monitoring.
+- **Watch next:** Agent permissions, rollback guarantees, prompt-injection benchmarks, C2PA adoption, moderator protections, and weapons accountability.

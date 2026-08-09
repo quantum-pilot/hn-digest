@@ -2,15 +2,18 @@
 
 - Score: 353 | [HN](https://news.ycombinator.com/item?id=47757495) | Link: https://github.github.com/gh-stack/
 
-## TL;DR
-GitHub Stacked PRs, now in private preview, brings first-class stacked-diff workflows to GitHub: a CLI (gh stack) and new UI let you arrange PRs as ordered chains, auto-rebase remaining layers, and merge whole or partial stacks. CI and protections apply as if each PR targeted main. Commenters familiar with Phabricator, Gerrit, or Mercurial are excited, saying this finally modernizes GitHub reviews, while others argue Git already has commits and that better per-commit tooling would solve most pain.
+### TL;DR
 
-## Comment pulse
-- Stacked PRs recreate Phabricator-style flow → small dependent diffs review and land easily for big refactors — counterpoint: some want better per-commit UI instead.  
-- Skeptics worry about rebases, squashes, and force-pushes → stacked workflows feel like fragile history surgery compared to simple merge commits and first-parent bisecting.  
-- Questions remain about squash-merge edge cases and CI costs → users hope `gh stack sync` and multi-PR merge will finally make stacked branches “just work”.  
+GitHub’s private-preview Stacked PRs lets teams split one large change into ordered, dependent pull requests, each targeting the branch below it and ultimately main. GitHub adds a stack map, focused diffs, final-target branch protections, per-layer CI, cascading rebases, and one-click merging of all or part of a stack; the `gh stack` extension manages branches, pushes, submissions, and navigation locally. Commenters welcomed a Phabricator/Gerrit-style workflow for monorepos and long features, but questioned branch-over-commit abstraction, CLI dependence, squash/rebase conflict handling, history rewriting, and repeated CI after restacking.
 
-## LLM perspective
-- View: Native stacks plus an official CLI normalize a workflow previously cobbled together via scripts, Gerrit, or third-party tools.  
-- Impact: Biggest wins for teams with large monorepos, long-lived feature branches, or AI agents that can reason over GitHub-managed stacks.  
-- Watch next: How GitHub refines merge, rebase, and CI for partial-stack merges, and whether commit review tooling improves alongside stacks.
+### Comment pulse
+
+- Phabricator and Gerrit veterans said small dependent diffs make massive upgrades and long-running features easier to review without requiring partial landing.
+- Some wanted commit-level review, comments, and diff-of-diffs instead — counterpoint: PRs represent atomic outcomes while commits can preserve their evolution.
+- GitHub clarified multiple lower PRs can merge together after their CI passes; only the remaining top is rebased and likely retested.
+
+### LLM perspective
+
+- **View:** Native stack semantics close a long-standing GitHub gap by making dependency structure visible to reviewers, automation, and branch protection.
+- **Impact:** Teams can keep diffs small without serializing development, reducing review burden while preserving an all-or-nothing delivery option.
+- **Watch next:** Availability, UI-only workflows, squash correctness, force-push safety, CI reuse after rebases, merge-queue behavior, and interoperability with other tools.

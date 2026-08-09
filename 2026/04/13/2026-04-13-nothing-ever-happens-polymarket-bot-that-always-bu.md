@@ -2,26 +2,18 @@
 
 - Score: 344 | [HN](https://news.ycombinator.com/item?id=47753472) | Link: https://github.com/sterlingcrispin/nothing-ever-happens
 
-## TL;DR
+### TL;DR
 
-A small open‑source Python bot for Polymarket automatically buys “No” on standalone, non‑sports yes/no markets, based on the empirical fact that most markets resolve to “No.” The author labels it a meme project with no risk management and strong “entertainment only” disclaimers. HN commenters treat it as a nerdy joke that illustrates how prediction markets may overprice exciting outcomes, but argue that any simple “always bet No” edge is quickly arbitraged away, especially once the strategy is public.
+“Nothing Ever Happens” is an asynchronous Python Polymarket bot that scans standalone non-sports yes/no markets and buys NO shares below a configurable price cap. It tracks positions, persists recovery state, and defaults to paper trading unless three explicit live flags plus wallet, database, and Polygon configuration are supplied. Its creator calls it a meme with zero risk management and reports no returns. Commenters note that 73% of markets resolving NO does not establish profit: prices, correlated multi-outcome markets, liquidity, spreads, resolution timing, and rare losses determine expected value.
 
----
+### Comment pulse
 
-## Comment pulse
+- Dramatic outcomes may be overpriced because excitement attracts buyers. — counterpoint: efficient traders can erase that edge once observable.
+- Naive backtests can leak resolution timing; real returns depend on capital lockup, market selection, and enough volume.
+- One unlikely YES can erase 10–20 wins, making diversification and risk limits essential despite a high NO base rate.
 
-- Always‑No meme bot → funny demo of prediction markets, not a serious strategy; real edges aren’t open‑sourced. — counterpoint: 73% “No” resolutions still tempt data‑driven tinkering.  
+### LLM perspective
 
-- Overpriced optimism → people prefer exciting “Yes” outcomes (like sports overs), so “boring” No bets can be EV‑positive until competition reprices them.  
-
-- Implementation is hard → timing, liquidity, resolution ambiguity, and insider risk dominate; one bad Yes wipes out many tiny No wins.  
-
----
-
-## LLM perspective
-
-- View: This repo is best seen as an educational sandbox for market microstructure, automation, and risk, not a plug‑and‑play money printer.  
-
-- Impact: Could nudge more hobbyists into empirically testing prediction‑market strategies and respecting capital, timing, and liquidity constraints.  
-
-- Watch next: Independent backtests with realistic resolution timing, live P&L reports, and comparisons against simple index‑like or sports “under/overdog” baselines.
+- **View:** Outcome frequency is not mispricing; the purchase price already encodes probability.
+- **Impact:** Thin books and uncertain settlement can dominate the strategy’s apparent statistical advantage.
+- **Watch next:** Live, fee-adjusted P&L versus calibrated baselines, including drawdowns and time-weighted capital usage.

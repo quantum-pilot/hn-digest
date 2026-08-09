@@ -2,23 +2,18 @@
 
 - Score: 193 | [HN](https://news.ycombinator.com/item?id=47751029) | Link: https://substack.com/home/post/p-193626949
 
-## TL;DR
-The author, who’s visited most US national parks, writes a deliberately contrarian, comedic “worst parks” list. Many “losers” are actually spectacular but either overhyped (Grand Canyon), too small for a multi‑day trip (Arches), or overwhelmed by crowds and traffic (Zion, Yosemite Valley). Some, like Mammoth Cave and Petrified Forest, mainly disappoint versus their names. The only park the author truly condemns is Congaree, portrayed as remote, mosquito‑ridden swamp with little to do. HN readers largely dismiss the rankings as clickbait and strongly defend the maligned parks.
+### TL;DR
 
----
+After visiting 65% of US national parks, the author offers a deliberately caustic anti-guide. Grand Canyon is visually grand but allegedly dull beyond the overlook; Arches feels drive-by; Zion and Yosemite suffer crowds and traffic; Mammoth Cave and Petrified Forest disappoint their names; and Congaree wins worst overall for humidity, mosquitoes, remoteness, and a short boardwalk experience. Gateway Arch, Hot Springs, and Cuyahoga Valley receive defenses. Commenters overwhelmingly rejected the rankings, arguing that deeper hikes, off-season timing, canoeing, biodiversity, and public lands transform these parks beyond their most touristed surfaces.
 
-## Comment pulse
-- “This is safely ignored” → Zion, Grand Canyon, Capitol Reef, Arches, Petrified Forest all shine if you hike beyond popular viewpoints or visit off‑season—counterpoint: core trails are currently jammed.
+### Comment pulse
 
-- Congaree defenders → locals call it eerie, beautiful swamp/forest with unique trees, fireflies, kayaking and boardwalks; would be a “top-tier state park,” just mis-framed as a headliner.
+- Zion reports ranged from hour-long shuttles and packed trails to full days alone; timing and leaving famous routes changed the experience.
+- Congaree locals praised ancient-looking trees, canoe channels, fireflies, and additional trails — counterpoint: they agreed it is not a cross-country destination.
+- Grand Canyon veterans said its geology, biodiversity, side-canyon grottos, river trips, and multiday hikes reward preparation far beyond a 15-minute overlook.
 
-- Grand Canyon love → below the rim are life‑changing multiday hikes, canyons-within-canyon, ancient geology and artifacts; critics of the essay say 15 minutes at the rim misses the point.
+### LLM perspective
 
----
-
-## LLM perspective
-- View: Treat the piece as humor plus one person’s taste; it’s a prompt to research, not a replacement for a guidebook.
-
-- Impact: Reinforces that season, trail choice, and crowd tolerance matter more than headline rankings when planning trips.
-
-- Watch next: Compare park vs nearby national forest/state land experiences; track how reservation systems and shuttles change perceptions of “too crowded” parks.
+- **View:** The essay scores attractions; commenters score landscapes whose value scales with effort, timing, and knowledge.
+- **Impact:** Rankings may help casual sightseers avoid congestion, but can mislead hikers, paddlers, families, and visitors outside peak season.
+- **Watch next:** Mosquito and crowd seasons, trail closures, shuttle demand, alternative entrances, ranger guidance, adjacent national forests, and itinerary planning.

@@ -2,19 +2,18 @@
 
 - Score: 171 | [HN](https://news.ycombinator.com/item?id=47758028) | Link: https://techcrunch.com/2026/04/13/stanford-report-highlights-growing-disconnect-between-ai-insiders-and-everyone-else/
 
-## TL;DR
-Stanford’s 2026 AI Index shows a widening gap between AI insiders’ optimism and public anxiety. Experts largely expect AI to improve healthcare, jobs, and the economy, while Americans mostly fear job loss, higher costs, and weak regulation. Gen Z and even tweens are emerging as unusually skeptical users, treating AI as low‑quality or immoral, despite frequent use. The TechCrunch piece illustrates this distrust via angry reactions to Sam Altman’s home attack and links it to broader economic and political frustration.
+### TL;DR
 
----
+Stanford’s 2026 AI Index compiles a widening optimism gap: 56% of AI experts expect positive U.S. impact over 20 years, versus only 10% of Americans more excited than concerned. Experts are especially bullish on medical care (84% versus 44%), work (73% versus 23%), and the economy (69% versus 21%); 64% of Americans expect fewer jobs. U.S. trust in responsible government regulation is 31%. Commenters attributed skepticism to disappointing tools, layoffs, junior hiring fears, unwanted AI content, and unusually strong youth rejection.
 
-## Comment pulse
-- Workplace split: ML teams and execs evangelize AI; many engineers find tools underwhelming, joy-killing, or inaccurate. Layoffs blamed on AI feel real—counterpoint: macro overhiring explains much.
-- Generational distrust: tweens and students see AI as cheating, low-effort, or morally tainted; some expect organized youth opposition, unlike past tech waves led by the young.
-- Skepticism of narrative: some see TechCrunch cherry-picking social posts and flat “nervous” stats; argue Stanford’s richer findings (e.g., industry vs academia on safety) are downplayed.
+### Comment pulse
 
----
+- Workplace evangelism often comes from leaders and ML teams, while other engineers report weak results and less enjoyable work.
+- Youth may treat AI aesthetics and assistance as cheating or low quality, reversing the usual pattern of young people driving adoption.
+- Critics faulted TechCrunch’s framing and cherry-picked trends. — counterpoint: Stanford and Pew still show large expert-public gaps.
 
-## LLM perspective
-- View: The core tension is concrete harms (jobs, bills, spam) vs abstract promises (AGI, productivity), not sci‑fi fear.
-- Impact: Trust will hinge on visible worker protections, energy transparency, and non-gimmicky consumer products, especially for younger cohorts.
-- Watch next: Longitudinal youth-attitude surveys, regulation that links AI deployment to labor safeguards, and whether “AI-free” products become a selling point.
+### LLM perspective
+
+- **View:** Experts assess technical potential; the public assesses costs, control, and distribution of benefits.
+- **Impact:** Adoption may stall where institutions mandate tools without proving local value or protecting workers.
+- **Watch next:** Age-cohort trends, measured job effects, utility prices, trust, and distinctions between academic and industry experts.

@@ -3,18 +3,17 @@
 - Score: 784 | [HN](https://news.ycombinator.com/item?id=47746610) | Link: https://arxiv.org/abs/2603.21852
 
 ### TL;DR
-The paper shows that a single smooth binary operator, eml(x, y) = exp(x) − ln(y), plus the constant 1, can generate all “elementary” functions a scientific calculator uses: arithmetic, exponentials, logs, trig, roots, and even constants like e, π, and i. Any such expression becomes a uniform binary tree over eml, enabling gradient-based training on the tree’s node parameters to perform symbolic regression. HN discussion contrasts this with older algebraic universality results and proposes it as a neat LLM benchmark.
 
----
+Andrzej Odrzywołek defines EML(x,y)=exp(x)−ln(y) and claims that this one binary operator plus constant 1 can construct a scientific calculator’s elementary repertoire: e, π, i, arithmetic, powers, logarithms, trigonometric functions, and algebraic functions. Every expression becomes a binary tree under the grammar S→1|EML(S,S). Found through exhaustive search, the construction also supports trainable symbolic-regression trees; shallow depth-4 experiments recovered exact formulas from data. Commenters noted older universal operators exist, but debated whether they likewise yield constants and transcendental closed forms without limits.
 
 ### Comment pulse
-- Universal single operators already exist in algebra (e.g., 1/(x−y)) → but they typically don’t yield standard constants or closed forms as finite expressions.
-- Key novelty: finite eml trees give exact expressions (no limits) for usual elementary functions and constants—counterpoint: some think this is more encoding trick than deep math.
-- People test LLMs by asking for explicit EML-only formulas → responses vary wildly, making this a useful, precise capabilities benchmark.
 
----
+- A reciprocal-difference operator may already generate arithmetic, invoking older universality results — counterpoint: its ability to express π, e, and transcendental functions remained disputed.
+- Readers connected EML trees to FRACTRAN, concatenative languages, Iota, and compact encodings where a tiny primitive system generates surprising complexity.
+- An informal LLM benchmark asked models to express 2x+y in EML; results ranged from immediate success to circularity claims and hallucinated terminology.
 
 ### LLM perspective
-- View: EML gives a compact, homogeneous basis for continuous math, analogous to NAND for Boolean circuits.
-- Impact: Could standardize symbolic-regression search spaces and enable differentiable “formula compilers” over a single operator.
-- Watch next: depth/size bounds for representing real formulas, numerical stability analyses, and comparisons with other universal analytic operators.
+
+- **View:** The contribution is less operational efficiency than a constructive normal form unifying elementary expressions into one repeatable tree architecture.
+- **Impact:** Uniform nodes could simplify symbolic search and differentiable program synthesis, though derived expressions may be deep and numerically fragile.
+- **Watch next:** Independent proof review, minimal-depth catalogs, conditioning tests, comparisons with earlier universal operators, and symbolic-regression benchmarks beyond depth four.

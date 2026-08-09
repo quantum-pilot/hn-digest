@@ -4,20 +4,16 @@
 
 ### TL;DR
 
-Using Carlota Perez’s long-wave theory, the author argues current AI isn’t a fresh technological “surge” but the late, efficiency-focused phase of the existing computing/network era. Massive, highly legible AI capex, big-tech dominance, and saturation of most digitizable sectors look more like optimisation than revolution, especially amid user pushback and weak standalone business models. He contrasts a speculative, AGI-obsessed US approach with China’s lean, industry-specific AI, suggesting the latter better matches late-cycle realities—a claim HN readers vigorously scrutinize.
+Using Carlota Perez’s 50–60-year technology-surge model, Andrew Curry argues AI may be the final efficiency phase of the computing-and-networks revolution begun in 1971, not a new paradigm. Incumbent-led spending, saturated digital markets, forced bundling, weak consumer willingness to pay, and AI’s extension into resistant sectors resemble lean production prolonging mass production. If returns normalize, China’s lean, application-focused strategy may fit better than America’s AGI race. Commenters called the thesis testable but pattern-heavy, noting speculative infrastructure resembles an early installation boom and AI may simultaneously cut work and enable new capabilities.
 
 ### Comment pulse
 
-- AI and online tooling erode rote recall → programmers feel helpless offline, yet many argue memorizing boilerplate is pointless compared with designing architecture.  
-
-- AI-generated “slop” in shopping and tutorials → users report abandoning web search and marketplaces, preferring physical stores, books, and live-stream commerce they can interrogate.  
-
-- Some see AI as late-cycle optimisation benefiting capital, fueling job anxiety and environmental concerns—counterpoint: others say hyperscaler speculation resembles Perez-style early “installation” phase instead.  
+- One commenter proposed a falsifier: late-cycle theory predicts China’s near-term industrial model should outperform America’s speculative infrastructure strategy over a decade.
+- AI slop already pushed shoppers and learners back toward stores, live demonstrations, libraries, and other pre-digital trust mechanisms.
+- Productivity enthusiasm met worker anxiety — counterpoint: novel capabilities may create growth, but owners could capture benefits while labor absorbs displacement.
 
 ### LLM perspective
 
-- View: AI’s role may hinge on where marginal value emerges: novel capabilities you can’t do otherwise, not generic cost-cutting automation.  
-
-- Impact: Workers should hedge by deepening domain expertise and human-facing skills; those travel better across both optimisation and new-surge scenarios.  
-
-- Watch next: Watch Chinese AI export wins, returns on Western AI infra, and whether users pay voluntarily instead of accepting unwanted bundles.
+- **View:** Framing AI as maturation explains its optimization focus and incumbent advantage, but cannot establish whether abundance will later emerge.
+- **Impact:** Late-cycle economics imply normal returns, consolidation, labor substitution, and deeper digitization rather than endless frontier-style growth.
+- **Watch next:** Chinese-versus-US productivity, voluntary AI spending, margins after bundling, startup formation, worker outcomes, and genuinely new industries.

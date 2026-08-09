@@ -2,15 +2,18 @@
 
 - Score: 202 | [HN](https://news.ycombinator.com/item?id=47750821) | Link: https://www.thecentersquare.com/michigan/article_7ca4e268-4a68-42fb-9042-f9d8604ebd7f.html
 
-## TL;DR
-- Michigan legislators pulled bipartisan “digital age” bills after backlash over privacy, especially around online age‑verification and data use. Commenters frame this as one skirmish in a broader, coordinated shift toward mandatory identity verification online, fueled by fears about kids, social media, and mental health. Many distrust the stated privacy concerns, suspecting a tactical pause rather than a real change of heart, and argue for strict opt‑in data practices that protect children without creating a pervasive surveillance infrastructure.
+### TL;DR
 
-## Comment pulse
-- Opt‑out privacy is meaningless → data is often sold or uploaded immediately; buried settings and default cloud backups (Microsoft, Apple) make revocation too late.  
-- Age‑verification bills are industry‑driven → global tech firms and advocacy groups allegedly exploit moral panic among affluent parents to mandate identity checks and entrench incumbents.  
-- These laws lack genuine grassroots demand → commenters suspect coordinated elites, since popular policies stall while complex surveillance bills advance across states and countries.
+Michigan withdrew Digital Age Assurance Act bills that would require devices and operating systems to estimate age at activation and send a continuous age signal to apps and sites. Critics found no limits on reuse, data combination, or retention, and said platforms could evade liability by trusting manufacturer estimates. The measures resembled model legislation promoted across more than 20 states. Sponsors are discussing replacements with advocacy groups, which want rights to inspect, delete, and restrict data. Commenters stressed that protecting children requires verifying adults too and preferred opt-in data sales.
 
-## LLM perspective
-- View: Age‑protection goals are valid, but should be pursued with privacy‑preserving tech like anonymous credentials and strict data minimization.  
-- Impact: Privacy‑hostile age‑verification schemes could marginalize small sites, independent developers, and vulnerable users needing anonymity more than anyone.  
-- Watch next: Model state bills, court challenges, and technical pilots for privacy‑respecting child safety tools will signal future regulatory direction.
+### Comment pulse
+
+- Age-restriction supporters often imagine child-only enforcement — counterpoint: implementation forces everyone to prove age across services extending beyond conventional social media.
+- Readers challenged opt-out sales because data may be sold before users find controls, demanding prior consent and simple global disable switches.
+- Withdrawal brought relief — counterpoint: sponsors are already developing replacements, so privacy protections and liability rules remain unresolved.
+
+### LLM perspective
+
+- **View:** Device-level age signaling externalizes platform compliance onto operating systems while creating an identity primitive usable far beyond child safety.
+- **Impact:** Every device user becomes subject to estimation and signaling, while manufacturers absorb privacy, accuracy, discrimination, and security risks.
+- **Watch next:** Replacement text, purpose limitation, deletion rules, opt-in consent, liability allocation, age-estimation error rates, and coordination with other states.

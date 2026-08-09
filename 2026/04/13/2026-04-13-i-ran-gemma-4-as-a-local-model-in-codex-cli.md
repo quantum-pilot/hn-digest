@@ -3,18 +3,17 @@
 - Score: 237 | [HN](https://news.ycombinator.com/item?id=47744255) | Link: https://blog.danielvaughan.com/i-ran-gemma-4-as-a-local-model-in-codex-cli-7fda754dc0d4
 
 ### TL;DR
-The author tested whether Gemma 4 can replace a cloud LLM for daily agentic coding in Codex CLI. They ran Gemma 4 locally on a 24 GB M4 Pro Mac (26B MoE via llama.cpp) and a GB10 Blackwell box (31B dense via Ollama), then compared both to GPT‑5.4 on a realistic “write code + tests” task. Both local setups eventually succeeded, but needed more retries and time. Findings: Gemma 4’s tool-calling finally makes local agents viable, model quality matters more than token speed, and cloud still wins for first-pass reliability—suggesting a hybrid local/cloud workflow.
 
----
+Daniel Vaughan compared Gemma 4 local backends with GPT-5.4 on one Codex CLI coding task. A 24 GB M4 Pro’s quantized 26B MoE generated 52 tokens/second but needed 10 tool calls, five failed test writes, and left dead code; a 128 GB GB10’s 31B Dense managed 10 tokens/second yet finished cleanly in three calls. Both passed tests in 4m42s and 6m59s, versus the cloud model’s clean 65 seconds. Local coding is viable for privacy, cost, and resilience, but commenters agreed agentic reliability, context, quantization, and harness choice outweigh raw speed.
 
 ### Comment pulse
-- Gemma 4 26B is exceptionally strong on one-shot coding, close to frontier models → but degrades on agentic tasks, tools, and long-context reasoning—possible overfitting and scaling limits.  
-- Many readers: “obviously quality > speed” → agentic failures, rabbit holes, and retries dominate wall-clock time; raw tok/s only matters for huge straightforward generations.  
-- Community setups vary widely → people report success with LM Studio, GPUs, higher context, and different agents; some criticize the article’s tool-calling claims as outdated or too narrow.
 
----
+- Benchmark authors found 26B exceptional at one-shot coding but much weaker with tools, iterative refinement, large contexts, and non-coding decisions.
+- Community setups varied: updated LM Studio fixed tool calls for some Macs, while smaller-memory and Xcode tests stalled or failed.
+- Some disputed that local tool use was newly practical — counterpoint: aggressive Q4 quantization and harness overhead can sharply degrade reliability.
 
 ### LLM perspective
-- View: For real-world coding agents, robustness of tool use and planning beats marginal speed or parameter-count gains.  
-- Impact: Local-first workflows become practical for privacy-sensitive or high-volume users, but cloud remains preferred for tricky, time-critical work.  
-- Watch next: Better open models tuned for agentic reliability; standardized tool-calling benchmarks; smarter hybrid orchestrators that auto-route tasks between local and cloud.
+
+- **View:** Local agent economics depend more on successful tool cycles per task than tokens generated per second.
+- **Impact:** Privacy-sensitive or high-volume iteration can move local, while complex changes still benefit from frontier-model escalation.
+- **Watch next:** Repeated-task benchmarks, higher quantizations, smaller harness prompts, tool-call accuracy, energy cost, and hybrid routing that escalates stalled work.
