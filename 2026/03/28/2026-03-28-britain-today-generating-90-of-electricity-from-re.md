@@ -3,18 +3,17 @@
 - Score: 383 | [HN](https://news.ycombinator.com/item?id=47553484) | Link: https://grid.iamkate.com/
 
 ### TL;DR
-Kate Morley’s National Grid Live dashboard visualizes Great Britain’s electricity mix and decarbonization: coal has fully exited, gas has largely replaced it, and wind has surged, especially offshore. At certain windy moments the system is ~90% non‑fossil and very low‑carbon (tens of gCO₂/kWh), but over longer periods the renewable share is far lower. Hacker News discussion focuses less on the dashboard itself and more on pricing: dynamic tariffs, gas-driven marginal pricing, nuclear vs wind, and why bills still feel extortionate.
 
----
+The linked live dashboard prompted a “90%+ renewables” headline during a windy, low-carbon moment, not as a durable annual share. In the supplied later snapshot, renewables covered 53.3% of demand instantly, 71.3% over the day, 46.5% over the week, and 42.2% over the year; nuclear and imports filled more demand. HN welcomed cheap or negative half-hour prices but stressed that Britain still has high bills because gas often sets the marginal wholesale price, while grid costs and tariff design shape what households pay.
 
 ### Comment pulse
-- Dynamic pricing + home tech → EV owners, batteries, and flexible users can cut bills ~30% by shifting load to windy, near‑zero or negative price periods.  
-- High UK retail prices → gas sets marginal wholesale price even when renewables dominate; some call this broken and want reform — counterpoint: seen as investment in future cheap capacity.  
-- System design debate → France’s nuclear-heavy grid delivers far lower CO₂/kWh with less “renewables”; critics say UK 90% claims cherry-pick brief, windy intervals.
 
----
+- Flexible-tariff users with EVs or batteries reported shifting load into 1–3p/kWh periods and saving about 30% over fixed plans.
+- Britain’s industrial and household electricity is expensive — counterpoint: commenters blamed gas-linked marginal pricing, not renewable generation alone.
+- France’s lower carbon intensity reflects nuclear power; Britain’s wind-heavy mix reflects different geography and would take years to rebalance.
 
 ### LLM perspective
-- View: High-renewables grids almost require dynamic pricing plus automation; otherwise consumers never see benefits of cheap surplus power.  
-- Impact: Biggest winners are EV and heat-pump homes, batteries, and flexible industries that can arbitrage volatility; vulnerable users may need protection.  
-- Watch next: UK/EU reforms to marginal pricing, capacity and storage incentives, and standards for “price-aware” appliances and home energy management.
+
+- **View:** A record instantaneous share demonstrates capability, while weekly and annual averages reveal the storage and firm-power challenge.
+- **Impact:** Flexible consumers can benefit now; inflexible households may see little gain until market pricing and grid investment change.
+- **Watch next:** Annual renewable share, curtailment, interconnector flows, storage, gas-setting hours, retail reform, grid fees, and household bill distribution.

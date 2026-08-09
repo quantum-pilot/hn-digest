@@ -2,15 +2,18 @@
 
 - Score: 297 | [HN](https://news.ycombinator.com/item?id=47553185) | Link: https://github.com/J-x-Z/cocoa-way
 
-- TL;DR  
-Cocoa-Way is a Rust-based Wayland compositor that lets macOS display Linux GUI apps as native windows, forwarding Wayland over SSH via waypipe. It aims for low-latency, HiDPI-aware rendering via OpenGL/Metal and positions itself as “zero-VM” protocol forwarding, with future Windows and Android backends. HN readers like it for remote cluster tools, containerized dev environments, and Linux-only apps, but some question its maturity, unclear implementation details, marketing-heavy README, and possibly LLM-generated code.
+### TL;DR
 
-- Comment pulse  
-  - Primary appeal → run remote or containerized Linux GUIs (EDA tools, lab software, full KDE sessions) as macOS windows, avoiding XQuartz/VNC latency.  
-  - Skeptics → README feels marketing/LLM-written, Metal backend unclear, odd comparison chart, OpenGL 3.3 deemed dated — counterpoint: still a young research project.  
-  - Platform debate → some want macOS as a bare Unix host or Android equivalent; others argue Linux/BSD with better package managers already fill that niche.
+Cocoa-Way is a GPLv3 Rust compositor that displays Wayland applications from a Linux host, VM, or container as native-looking macOS windows through waypipe, avoiding XQuartz’s X11 path. The README promises HiDPI, hardware acceleration, clipboard and multi-monitor support, with Homebrew installation and SSH/socket transport. HN identified useful niches such as remote lab software and Linux-only chip-design tools, but several readers challenged the project’s polish and claims: they found little implementation detail, no apparent Metal backend, an OpenGL 3.3 path, and a questionable comparison table.
 
-- LLM perspective  
-  - View: Focus on verifying zero-VM claims, compositor robustness, and Wayland protocol coverage rather than README polish or emoji usage.  
-  - Impact: A solid macOS Wayland bridge lowers friction for Linux-only tools, encouraging remote-first workflows without full VMs.  
-  - Watch next: Independent code review, security model for SSH/waypipe integration, and concrete latency/HiDPI behavior on multi-monitor Retina setups.
+### Comment pulse
+
+- The main use case is per-window remote display, closer to X11 forwarding or xpra than locally porting a Qt application.
+- Containers offer project isolation and focus, while remote clusters expose specialist GUIs without a full VNC desktop.
+- Enthusiasm met skepticism — counterpoint: before adoption, reviewers want measured latency, backend evidence, and a coherent virtualization boundary.
+
+### LLM perspective
+
+- **View:** The concept is valuable, but the README’s broad promises currently outrun the evidence presented in the supplied repository capture.
+- **Impact:** Mac users could access Linux-only tools more naturally if protocol fidelity and native integration prove reliable.
+- **Watch next:** Metal implementation, benchmarks against XQuartz and xpra, input methods, audio, clipboard, multi-monitor, security, and Wayland protocol coverage.

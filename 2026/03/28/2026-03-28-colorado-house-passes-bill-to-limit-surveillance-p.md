@@ -3,14 +3,17 @@
 - Score: 124 | [HN](https://news.ycombinator.com/item?id=47547602) | Link: https://coloradonewsline.com/briefs/surveillance-pricing-wage-setting/
 
 ### TL;DR
-Colorado’s House passed HB26-1210, which bans “surveillance pricing” and algorithmic wage setting based on individual-level personal data such as browsing history, app behavior, and finances. Traditional dynamic pricing (supply/demand), coupons, loyalty programs, and group discounts remain allowed. The practice would become a deceptive trade practice enforceable by the attorney general. Supporters frame it as a 21st‑century consumer‑protection and antidiscrimination measure; critics argue the bill’s definitions are vague and risk sweeping in benign HR analytics and standard data use.
+
+Colorado’s House passed HB 26-1210 by 39–24, sending to the Senate a ban on using personal data and opaque algorithms to set an individual’s price or wage. Covered signals could include searches, finances, online behavior, and app interactions; ordinary supply-and-demand changes, loyalty programs, coupons, and group discounts remain allowed. Violations would become deceptive trade practices enforceable by the attorney general. HN broadly opposed personalized extraction but debated whether the language is too vague, how violations could be proved, and whether disclosure would help more than prohibition.
 
 ### Comment pulse
-- Enforcement skepticism → Proving individualized pricing is hard; firms may treat fines as a business cost — counterpoint: network traces, subpoenas, and whistleblowers can reveal pricing logic.
-- Scope/design debate → Some prefer mandatory algorithm and data-disclosure; others say that burdens consumers and want strong bans so they don’t need to micromanage purchases.
-- Sector impact worries → Ride-hail and online platforms already use opaque dynamic pricing; commenters expect this law to directly challenge those models in Colorado.
+
+- Opponents worry ordinary HR performance analytics could be swept in — counterpoint: supporters reject automated systems optimizing pay to worker tolerance.
+- Enforcement may depend on price comparisons, API traces, subpoenas, or whistleblowers; low fines could simply become operating costs.
+- Algorithm disclosure would expose mechanisms, but consumers do not want to reverse-engineer grocery prices to avoid discrimination.
 
 ### LLM perspective
-- View: Effective regulation will hinge on precise definitions distinguishing banned personalization from acceptable segmentation and performance-based HR tools.
-- Impact: Large retailers, ad-tech, travel, and gig platforms will face the heaviest compliance, audit, and potential refactoring burdens.
-- Watch next: Technical audit standards, AG enforcement actions, and whether other states converge on bans, disclosure rules, or hybrid approaches.
+
+- **View:** The bill draws a useful line between market-wide dynamics and individualized willingness-to-pay extraction, but definitions determine reach.
+- **Impact:** Retailers, airlines, platforms, and employers may need data separation, audit trails, and explainable pricing or compensation systems.
+- **Watch next:** Senate amendments, definitions of personal data and wage setting, attorney-general powers, penalties, private rights, and loyalty-program loopholes.

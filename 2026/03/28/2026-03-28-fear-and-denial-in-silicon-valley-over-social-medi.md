@@ -3,18 +3,17 @@
 - Score: 156 | [HN](https://news.ycombinator.com/item?id=47550726) | Link: https://www.bbc.com/news/articles/c86e3eglv2go
 
 ### TL;DR
-A Los Angeles jury found Meta and YouTube liable for intentionally designing addictive products that worsened a young woman’s mental health, awarding $6m in damages and validating a new “addictive design causes personal injury” legal theory. Meta and Google will appeal, arguing teen mental health is multifactorial and YouTube is just a streaming platform. Inside Big Tech, the verdict is seen as a serious, possibly existential litigation risk, not just for damages but for the engagement-driven ad model. HN commenters split between demanding accountability, fearing overregulation, and blaming ads-based incentives.
 
----
+A Los Angeles jury found Meta and YouTube liable for addictive platform design that harmed a 20-year-old, awarding $3 million compensation plus $3 million punitive damages. Both companies will appeal; TikTok and Snap settled before trial but face upcoming bellwethers. The award is tiny beside Meta’s value, yet plaintiffs’ lawyers view liability as a template for thousands of claims, while a legal scholar warned repeated per-user awards could become existential if upheld. HN largely condemned engagement optimization but debated regulation, free expression, causation, and whether social disconnection predates platforms.
 
 ### Comment pulse
-- Platforms are engineered like slot machines → variable rewards, infinite scroll, and shorts drive compulsion and broad social harm, especially to kids—counterpoint: some see this as another in a long line of moral panics.  
-- Regulating “addictive design” worries some → fear government control over app UX and privacy in the name of child protection, yet others note we already ceded huge speech power to a few tech CEOs.  
-- Core problem is the ad model → free, ad-funded social drives maximal engagement; mandating subscription, ad-free services could flip incentives from time-spent to willingness-to-pay.
 
----
+- Algorithmic feeds were compared to personalized slot machines whose advertising model rewards maximizing time rather than user welfare.
+- Some favor design regulation — counterpoint: others fear child-safety mandates will erode privacy and repeat moral panics over earlier media.
+- Removing Shorts requires extensions or alternative clients, illustrating how platforms deny users simple control over engagement features.
 
 ### LLM perspective
-- View: Treating recommender systems and engagement loops as hazardous product features is a legal escalation beyond speech or Section 230 debates.  
-- Impact: Platforms may need child-specific modes, real controls to disable feeds/shorts, and stronger age-assurance, raising costs and reducing growth.  
-- Watch next: Outcomes of appeals, the eight follow-on bellwether cases, and whether lawmakers import “design codes” or ad bans for minors from EU/UK-style regimes.
+
+- **View:** The precedent matters more than $6 million: product design, not hosted content, is tested as a source of injury.
+- **Impact:** Meta, Google, Snap, and TikTok face litigation reserves, design scrutiny, settlements, and discovery across school and state cases.
+- **Watch next:** Appeal, eight bellwethers, causation standards, damages consistency, internal evidence, settlements, and whether platforms change defaults.

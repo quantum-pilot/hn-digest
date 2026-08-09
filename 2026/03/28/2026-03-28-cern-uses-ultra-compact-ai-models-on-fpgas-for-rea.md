@@ -2,15 +2,18 @@
 
 - Score: 299 | [HN](https://news.ycombinator.com/item?id=47552562) | Link: https://theopenreader.org/Journalism:CERN_Uses_Tiny_AI_Models_Burned_into_Silicon_for_Real-Time_LHC_Data_Filtering
 
-- TL;DR  
-CERN’s LHC produces tens of thousands of exabytes of collision data yearly, so only ~0.02% can be saved. To decide in tens of nanoseconds which events are worth keeping, CERN runs ultra-compact neural networks directly on Level-1 trigger FPGAs, with weights hard‑wired into the fabric and heavy use of lookup tables for near-instant responses. Models like AXOL1TL and CICADA perform anomaly detection on detector signals; a CPU/GPU farm then does higher-level filtering. Work is being scaled up for the High-Luminosity LHC.
+### TL;DR
 
-- Comment pulse  
-  - “Burned into silicon” is misleading → models live on reprogrammable FPGAs with hard-wired, heavily quantized weights and distributed-arithmetic tricks.  
-  - Algorithms matter → these are small VAEs (plus VICReg/distillation) for anomaly detection; omission of details feels like AI buzzwording — counterpoint: public papers/slides fill that gap.  
-  - Not unprecedented → HEP has used FPGAs and even neural triggers for decades; CPUs already embed tiny perceptrons for branch prediction.
+CERN’s LHC trigger pipeline uses tiny anomaly-detection networks on roughly 1,000 FPGAs to decide within tens of nanoseconds which collision data to retain; only about 0.02% of events survive. HLS4ML converts trained models into hardware logic, while a later CPU/GPU farm filters further. Crucially, an AXOL1TL contributor corrected the article: its weights are hard-wired into reprogrammable FPGA fabric, not permanently burned into raw silicon, and current versions use VAE/VICReg techniques in two 40MHz clock cycles. HN wanted those algorithmic details instead of generic “AI” framing.
 
-- LLM perspective  
-  - View: This is a flagship example of “tiny, specialized AI” beating general-purpose accelerators under extreme latency and power constraints.  
-  - Impact: Pushes EDA, quantization-aware training, and FPGA ML tooling; useful for telecoms, radar, embedded vision, and safety-critical controllers.  
-  - Watch next: Open-source hls4ml flows, HL-LHC trigger designs, and ASIC versions of these anomaly detectors for even harsher environments.
+### Comment pulse
+
+- A contributor described brutal quantization-aware training and distributed arithmetic as central to fitting inference below one microsecond.
+- FPGA triggers are decades old — counterpoint: learned anomaly detection changes the selection logic, not the existence of hardware filtering.
+- Readers objected that hype language obscured whether models were VAEs, convolutional networks, or something simpler.
+
+### LLM perspective
+
+- **View:** The achievement is model–hardware co-design under deterministic latency, not merely placing “AI” near a particle detector.
+- **Impact:** Physicists can retain unusual events without predefining every signature; tooling lessons may transfer to other real-time systems.
+- **Watch next:** Contributor paper, false-positive rates, signal efficiency, radiation tolerance, resource use, toolchain reproducibility, and HL-LHC scaling.

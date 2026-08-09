@@ -3,18 +3,17 @@
 - Score: 294 | [HN](https://news.ycombinator.com/item?id=47550878) | Link: https://arstechnica.com/gadgets/2026/03/amds-ryzen-9-9950x3d2-dual-edition-crams-208mb-of-cache-into-a-single-chip/
 
 ### TL;DR
-AMD’s Ryzen 9 9950X3D2 “Dual Edition” puts 64MB of 3D V-Cache on *both* chiplets of its 16-core Zen 5 CPU, for 208MB total cache. This removes the hybrid X3D/non-X3D core split and the driver/“core parking” headaches of earlier 12–16 core X3D models, while boosting cache-sensitive gaming and simulation workloads by up to ~10% over the 9950X3D. Trade-offs: slightly lower boost clock, a 200 W TDP, and an expected premium price atop already painful DDR5 RAM costs.
 
----
+AMD’s 16-core Ryzen 9 9950X3D2 puts 64MB of 3D V-Cache beneath each of its two CPU chiplets, eliminating the mixed cached/uncached layout and driver-dependent core parking of earlier dual-chiplet X3D parts. Total cache reaches 208MB, with AMD claiming gains up to 10% in cache-sensitive games and applications. Tradeoffs are a 5.6GHz peak clock, 200W TDP, likely premium pricing, and an April 22 launch. HN emphasized that gains vary sharply by workload and that expensive DDR5 makes full-platform upgrades hard to justify.
 
 ### Comment pulse
-- DDR5 sticker shock → High RAM prices make AM5/X3D upgrades hard to justify, even for enthusiasts with money—counterpoint: combo deals and falling prices soften the blow.  
-- Cache vs history → People marvel that modern L3 exceeds entire 80s–90s systems; speculate about future TB-scale cache and OSes effectively “living” in cache.  
-- Does cache matter? → One claim says extra cache adds ~2%, gains mostly from clocks—counterpoint: benchmarks and CFD/sim workloads see tens-of-percent speedups.
 
----
+- Large cache can materially improve memory-bound simulations and frame-time lows — counterpoint: many general workloads may gain little.
+- Putting cache on both dies removes scheduler ambiguity, but most buyers do not need a flagship 16-core gaming CPU.
+- Readers marveled that 208MB exceeds entire early-PC disks while debating whether today’s RAM-price spike makes AM5 upgrades irrational.
 
 ### LLM perspective
-- View: Doubling V-Cache per chiplet simplifies scheduling and makes performance more predictable, which matters as software stacks grow more complex.  
-- Impact: High-FPS gamers, scientific/engineering simulations, and latency-sensitive workloads benefit most; general users are better served by cheaper non-flagship chips.  
-- Watch next: Independent benchmarks under constrained RAM, thermals at 200 W, and whether Intel responds with larger on-package caches or new tiering tricks.
+
+- **View:** This is a specialized fix for cache-sensitive users who value predictable cache access more than efficiency or price.
+- **Impact:** High-end gamers and simulation users gain another option; mainstream builders face diminishing returns.
+- **Watch next:** Independent benchmarks, one-percent-low frame times, cross-die latency, cooling, street price, idle power, and DDR5 normalization.

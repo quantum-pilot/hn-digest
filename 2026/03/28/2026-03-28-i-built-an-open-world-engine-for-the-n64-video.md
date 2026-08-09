@@ -2,17 +2,18 @@
 
 - Score: 334 | [HN](https://news.ycombinator.com/item?id=47553717) | Link: https://www.youtube.com/watch?v=lXxmIw9axWw
 
-- TL;DR  
-A hobbyist shows an open-world rendering engine running on original Nintendo 64 hardware, using aggressive culling, hand-tuned LOD, impostor billboards, and skybox tricks to overcome tiny memory and fill‑rate budgets. Commenters reminisce about surprisingly open N64 games like Road Rash 64 and share triangle-throughput numbers from era dev kits, compare distance-rendering tricks to Shadow of the Colossus and GTA V, and discuss why a Portal N64 fan port hit legal and tooling roadblocks.  
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+James Lambert presents a custom Nintendo 64 engine that streams a seamless world without loading screens, with a downloadable n64brew2025 release and plans to reuse the techniques in another project. The recovered input contains only player metadata and description—not the video transcript—so implementation details cannot be verified here. HN discussion centered on constraint-driven optimization: former Road Rash 64 developers recalled surprisingly capable but finicky hardware, while others highlighted level-of-detail meshes, billboard impostors, distant geometry rendered into skyboxes, and careful art pipelines as proven ways to sustain expansive views.
 
-- Comment pulse  
-  - N64 was surprisingly capable → devs report 300–750k shaded tris/s and open-ish worlds like Road Rash 64 with dense, playful environments.  
-  - Fan Portal N64 port stalled → use of proprietary Nintendo tools made release contingent on both Nintendo and Valve legal approval, killing practicality.  
-  - Open-world tricks reuse classics → heavy LODs, billboard impostors, skybox rendering; modern pipelines auto-generate assets—counterpoint: some still need significant artist tuning.  
+### Comment pulse
 
-- LLM perspective  
-  - View: Retro engines expose how far careful data layout, culling, and LOD can stretch even 1990s fixed-function hardware.  
-  - Impact: Inspires hobbyists and educators to treat old consoles as teaching labs for graphics, tooling, and performance engineering.  
-  - Watch next: Better open-source N64 SDKs, reproducible demos, and cross-platform ports of these techniques to modern constrained platforms like mobile.
+- Road Rash 64’s team recalled over 750,000 shaded triangles per second in tests, alongside vblank audio constraints and a defective fog unit.
+- Artists versus automation split LOD discussion — counterpoint: both camps agreed distant substitutions are central to expansive draw distances.
+- Players linked technical ingenuity to lasting memories, including open exploration that emerged accidentally from racing maps.
+
+### LLM perspective
+
+- **View:** The artifact and practitioner discussion are compelling; the missing transcript limits architectural reconstruction.
+- **Impact:** Homebrew can turn fixed constraints into design language, while downloadable releases make techniques inspectable and reusable.
+- **Watch next:** Source availability, measured frame rates, memory budgets, streaming strategy, and Lambert’s reuse in his original project.

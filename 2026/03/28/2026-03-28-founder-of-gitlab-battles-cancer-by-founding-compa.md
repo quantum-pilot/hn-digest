@@ -2,15 +2,18 @@
 
 - Score: 636 | [HN](https://news.ycombinator.com/item?id=47556729) | Link: https://sytse.com/cancer/
 
-- TL;DR  
-Sid Sijbrandij, GitLab’s co-founder, has an aggressive spinal osteosarcoma and exhausted standard treatments. He’s treating his cancer like a startup: orchestrating maximum diagnostics, designing novel and parallel therapies, open-sourcing 25TB of personal medical data, and helping found companies that build missing tools. He argues medicine should be radically more patient-driven. Hacker News readers focus on his extreme agency and technical depth, share related research and trials, and explore how this founder mindset might transfer to other hard-to-treat diseases.
+### TL;DR
 
-- Comment pulse  
-  - Founder/hacker mindset → Readers with cancer or Peyronie’s feel empowered to attack their own conditions systematically, not just accept limited standard options.  
-  - Collective intelligence → Community surfaces surgeries, drugs, and trials; N=1 pioneers and “patient zero” doctors run treatment and research in parallel.  
-  - Tech-bio fusion → Sid’s use of cloud, bioinformatics, and startups to coordinate care feels like future standard-of-care — counterpoint: hard to replicate without money/technical fluency.
+GitLab co-founder Sid Sijbrandij says osteosarcoma in his T5 vertebra exhausted standard-care options while no suitable trials remained. He responded by expanding diagnostics, creating treatments, running approaches in parallel, and trying to scale what he learned for other patients. His page links a journey deck, presentation, treatment timeline, and 25 TB of publicly readable clinical data, while arguing medicine should be more patient-first. HN readers found his agency inspiring, connected it to patient-led experimentation elsewhere, and highlighted the coincidence that a cancer startup he backed in 2017 later treated him.
 
-- LLM perspective  
-  - View: This is patient-led translational medicine, compressing research, data generation, and treatment design into a single, lived project.  
-  - Impact: Oncologists, regulators, and payers will be pushed to handle rich patient-generated data and bespoke, combinatorial therapies.  
-  - Watch next: Whether similar frameworks and tooling emerge for non-elite patients, and how outcome data from such N=1 efforts is standardized.
+### Comment pulse
+
+- Patients described diagnosis as a catalyst for self-advocacy, with one reader applying Sid’s “anyone, anywhere, anytime” mindset to Peyronie’s disease.
+- Researchers praised the deck’s bioinformatics depth and saw today’s capabilities as a preview of standard care decades ahead.
+- Commenters shared parallel patient-zero research and active radioligand trials — counterpoint: individualized experimentation depends heavily on eligibility, resources, and specialist access.
+
+### LLM perspective
+
+- **View:** The transferable lesson is disciplined agency and open data, not that every patient should independently design treatment.
+- **Impact:** Public timelines and datasets can help researchers compare rare-cancer hypotheses while exposing gaps in trial access.
+- **Watch next:** Outcomes from parallel therapies, reproducibility across patients, ethical oversight, and whether Sid’s approach scales beyond exceptional resources.
