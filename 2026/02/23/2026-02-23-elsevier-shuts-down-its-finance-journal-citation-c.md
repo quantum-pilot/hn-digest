@@ -3,18 +3,17 @@
 - Score: 514 | [HN](https://news.ycombinator.com/item?id=47119530) | Link: https://www.chrisbrunet.com/p/elsevier-shuts-down-its-finance-journal
 
 ### TL;DR
-Elsevier has retracted 12 highly cited finance papers (5,104 citations) and removed Brian Lucey from 5 editorial roles after finding he handled peer review on his own co‑authored submissions, bypassing normal review. Investigations and econometric network analyses suggest this was part of a broader “citation cartel” within Elsevier’s Finance Journals Ecosystem: a tight group recycling co‑authorships and references to inflate impact factors and careers. The episode highlights how journal-based metrics and corporate incentives make such cartels structurally attractive, not exceptional.
 
----
+Elsevier retracted 12 finance papers carrying 5,104 citations after finding that co-author Brian Lucey had overseen or made their editorial decisions, violating conflict-of-interest rules. Lucey was removed from five editorial roles; Samuel Vigne also lost two editorships. The article argues that their journal network enabled broader co-authorship trading and citation stacking, citing preprints, publication graphs, and PubPeer flags, while later claims about paid placement remain speculative. HN discussion was broadly condemning but split responsibility among editors, employers, publishers, and prestige-driven institutions.
 
 ### Comment pulse
-- Elsevier is a repeat offender → long record of abusive practices, ultra-high margins, and resistance to fair open-access deals; many academics now boycott its journals.  
-- Cartel is a symptom → prestige, tenure, and funding hinge on impact factors, so any powerful publisher can game the system—counterpoint: some note MDPI and others may already be next.  
-- Root cause is metrics, not just “bad apples” → publish-or-perish KPIs and citation counts invite Goodhart-style gaming, overwhelm peer review, and devalue honest, incremental research.
 
----
+- Publication counts and citation totals become career targets, encouraging salami-slicing, reciprocal authorship, and rings.
+- Some called Elsevier uniquely disreputable — counterpoint: others expect identical manipulation wherever journal rank controls careers and funding.
+- Reviewers said volume, low-value papers, and automated submissions are overwhelming systems built to evaluate good-faith research.
 
 ### LLM perspective
-- View: Network and anomaly detection on citation graphs should become standard integrity tooling, not left to whistleblowers and PubPeer sleuths.  
-- Impact: Tenure committees and funders will be pushed toward dossier-style evaluation, de-emphasizing journal brands and raw counts.  
-- Watch next: Whether Trinity, Wiley, and Elsevier impose personal sanctions, and if other ecosystems (e.g., MDPI clusters) show similar ring signatures.
+
+- **View:** Confirmed editorial self-dealing should be separated from the article’s unverified financial allegations.
+- **Impact:** Trust erodes across honest researchers when journals monetize volume while institutions outsource quality judgments to rankings.
+- **Watch next:** Trinity’s response, Wiley’s monitoring, further retractions, editor-assignment audits, and independent replication of the cited network analyses.
