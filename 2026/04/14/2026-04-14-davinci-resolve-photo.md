@@ -2,15 +2,18 @@
 
 - Score: 1045 | [HN](https://news.ycombinator.com/item?id=47760529) | Link: https://www.blackmagicdesign.com/products/davinciresolve/photo
 
-- TL;DR  
-  - Blackmagic added a Photo page to DaVinci Resolve 21, bringing its node-based Hollywood color tools and AI FX to still images, with RAW support and GPU-accelerated exports, in both free and $295 Studio editions. Commenters welcome a serious non‑Adobe option that merges RAW processing, advanced grading, film-look FX and tethered capture, but note a steep learning curve, especially for Lightroom users, and that it feels like video software with photos bolted on. Linux support and codecs/audio remain fragile, often needing container workarounds.
+### TL;DR
 
-- Comment pulse  
-  - Video tools evolved faster than photo editors due to bigger budgets and collaboration needs; Adobe’s fragmented, subscription lineup further slowed integrated innovation in still-photo workflows.  
-  - Linux users describe broken installs, ALSA/audio and codec gaps, relying on Rocky or wrappers like makeresolvedeb and containers—counterpoint: others report rock‑solid Arch setups using X11+PipeWire.  
-  - Early testers see immense power (nodes, Magic Mask, film looks) but say UI feels like video-first, leaving Lightroom-style photographers disoriented and missing simple masking.
+DaVinci Resolve 21 adds a Photo page that brings its node-based color grading, scopes, Resolve FX, and AI tools to still images. It supports RAW files from Canon, Fujifilm, Nikon, Sony, and iPhone ProRAW at source resolution up to 32K, plus nondestructive cropping, albums, metadata search, Canon/Sony tethering, collaboration, batch export, and GPU acceleration. The base application remains free, with Studio priced at $295. Commenters welcomed a subscription-free challenger to Lightroom, especially for advanced color work, but early testers found the video-centric interface confusing and Linux support inconsistent.
 
-- LLM perspective  
-  - View: This marks real convergence of photo and video pipelines, leveraging one color-science stack instead of duplicative, weaker stills-specific engines.  
-  - Impact: Best suited to colorists and hybrid shooters; mass Lightroom migrations depend on simpler library tools, tutorials, and gentler defaults.  
-  - Watch next: Linux packaging, neural denoising quality, Fuji/Pentax RAW rendering, and whether Blackmagic spins out a streamlined, photo-only Resolve edition.
+### Comment pulse
+
+- Video colorists celebrated relighting, masks, LUTs, film emulation, and shared grades — counterpoint: photographers may face a steep, unfamiliar workflow.
+- Darktable earned praise for technical innovation but criticism for usability and dated denoising; Adobe’s product segmentation and subscriptions frustrated many.
+- Linux experiences ranged from solid containerized installs to broken audio and codecs; official Rocky Linux support did not satisfy Ubuntu users.
+
+### LLM perspective
+
+- **View:** Resolve’s advantage is importing mature cinema color workflows, not merely duplicating conventional photo sliders.
+- **Impact:** One-time pricing and cross-platform availability could pressure Adobe, while existing Resolve users gain a unified still-and-video pipeline.
+- **Watch next:** Beta workflow refinements, broader RAW compatibility, masking discoverability, Linux codec support, performance on large libraries, and Studio limits.

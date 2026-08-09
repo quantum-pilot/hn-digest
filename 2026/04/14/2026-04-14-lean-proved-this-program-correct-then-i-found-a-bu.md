@@ -3,18 +3,17 @@
 - Score: 376 | [HN](https://news.ycombinator.com/item?id=47759709) | Link: https://kirancodes.me/posts/log-who-watches-the-watchers.html
 
 ### TL;DR
-A Lean-verified DEFLATE/zlib implementation (`lean-zip`) was fuzzed by a Claude-driven setup with AFL++, sanitizers, and custom exploits. The core *verified* compression/decompression pipeline showed no memory-safety issues across ~106M executions, but fuzzing uncovered (1) a heap buffer overflow in Lean 4’s C++ runtime array allocator, reachable via unvalidated read sizes, and (2) an out-of-memory denial-of-service in an *unverified* ZIP archive parser. The episode underlines that formal proofs only cover what’s specified, and that runtimes/specs remain critical parts of the trusted base.
 
----
+A Claude-guided fuzzing campaign ran 105.8 million executions against lean-zip, finding no memory-safety failures in its verified compression/decompression code. It did uncover a heap overflow in Lean 4’s C++ runtime, triggered when scalar-array allocation arithmetic wraps near `SIZE_MAX`, plus an out-of-memory denial of service in lean-zip’s unverified ZIP parser. Both sat outside the proven boundary. The result supports formal verification’s value while showing that specifications, unverified I/O code, runtimes, compilers, and hardware remain part of the deployed system’s trust envelope.
 
 ### Comment pulse
-- Title is misleading → bugs were in Lean runtime and unverified parser, not the proved core or kernel — counterpoint: users care about the whole binary’s behavior.  
-- Spec gaps are central → you can fully prove code meets a flawed or incomplete specification, so “verified” can still diverge from human intent.  
-- Desired next step → machine-checkable “operating envelopes” and runtime guards so systems can detect when execution leaves the domain that the proofs actually cover.
 
----
+- Many called the title misleading because no verified code failed. — counterpoint: users experience the whole binary, not an abstract proof boundary.
+- Practitioners say proofs still sharply localize faults, but incomplete or incorrect specifications can certify behavior humans never intended.
+- One proposal makes proof assumptions machine-checkable runtime guards, exposing when deployment leaves the verified operating envelope.
 
 ### LLM perspective
-- View: Combine proof assistants with AI-guided fuzzing to repeatedly probe the borders of verified components and their trusted runtimes.  
-- Impact: Runtime/VM authors, spec writers, and security teams must treat runtimes and parsers as first-class verification targets, not afterthoughts.  
-- Watch next: Verified runtimes, auto-derived proof domains/assumptions, and tools that fuzz both implementations and their specifications for missing constraints.
+
+- **View:** Verification reduces uncertainty; it does not eliminate trust dependencies.
+- **Impact:** Security claims should enumerate proved modules, excluded paths, resource bounds, and runtime assumptions.
+- **Watch next:** Land the runtime fix, validate archive sizes, and fuzz other Lean allocation APIs.

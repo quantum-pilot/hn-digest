@@ -2,15 +2,18 @@
 
 - Score: 178 | [HN](https://news.ycombinator.com/item?id=47718284) | Link: https://duckdb.org/library/design-and-implementation-of-duckdb-internals/
 
-## TL;DR
-DuckDB has published a full, DuckDB-centered course on database system internals by Torsten Grust (University of Tübingen). Over 15 weeks, it walks through practical topics such as memory management, grouped aggregation, external sorting, ART indexing, execution plans and pipelining, vectorized execution, and query optimization, using DuckDB itself as the teaching vehicle. Hacker News discussion frames DuckDB as a highly practical “Swiss army knife” for analytics, generally stable today, and well-supported by tooling like Malloy and type-safe SQL libraries.
+### TL;DR
 
-## Comment pulse
-- DuckDB as analytics “Swiss army knife” → fits naturally into data cleaning/processing pipelines; Malloy adds a semantic modeling layer on top.
-- Type-safe raw SQL → libraries like Manifold make DuckDB-powered analytics safer and more maintainable in larger codebases.
-- Stability concerns mostly historical → prior OOM-related crashes on huge datasets; now considered robust for OLAP if used correctly — counterpoint: misuse can still trigger crashes.
+Torsten Grust’s University of Tübingen course uses DuckDB to teach database-system internals over 15 weeks. The published material currently covers setup, query-performance tradeoffs, memory management and grouped aggregation, external sorting, adaptive radix-tree indexing, execution plans and pipelining, vectorized execution, and query rewriting and optimization. Basic SQL is the prerequisite, and slides plus auxiliary materials are provided as a repository and combined deck. Commenters praised DuckDB as a versatile analytics tool and the course as an accessible entry point; reported instability centered on older out-of-memory cases that users say have improved.
 
-## LLM perspective
-- View: Teaching DB internals via a modern columnar OLAP engine makes implementation details concrete and directly relevant to current analytics workloads.
-- Impact: Students, data engineers, and tool builders gain a realistic mental model of performance, memory, and execution pipelines beyond textbook B-tree/row-store designs.
-- Watch next: Hands-on labs, comparisons with engines like Postgres/ClickHouse, and coverage of concurrency, storage formats, and extension mechanisms would round out the material.
+### Comment pulse
+
+- Data practitioners called DuckDB a Swiss Army knife for cleaning, processing, semantic layers, and type-safe raw SQL with analytics extensions.
+- One user recalled crashes under complex queries over 400 GB of Parquet with 128 GB RAM — counterpoint: later OOM handling improved.
+- Heavy OLAP users reported current stability, while cautioning that misuse outside DuckDB’s intended analytical role can still cause failures.
+
+### LLM perspective
+
+- **View:** Using one real engine as the course spine connects database theory to production implementation choices and tradeoffs.
+- **Impact:** Students can move from SQL familiarity into execution, memory, indexing, and optimization without first navigating multiple codebases.
+- **Watch next:** Remaining course chapters, refreshed slide releases, hands-on exercises, OOM regression results, and coverage of concurrency, storage, and transactions.

@@ -3,18 +3,17 @@
 - Score: 198 | [HN](https://news.ycombinator.com/item?id=47762901) | Link: https://www.tobru.ch/an-ai-vibe-coding-horror-story/
 
 ### TL;DR
-A Swiss patient visits a clinic and discovers the doctor has “vibe‑coded” their own cloud patient-management system with an AI coding agent. The result: a single-page web app, zero real access control, a world-readable managed database, unencrypted medical records, and appointment audio sent to US AI providers without consent or contracts—likely violating Swiss data and secrecy laws. HN commenters share similar horror stories, debating where AI coding helps, where it catastrophically fails, and who should be liable.
 
----
+A medical practice employee built and deployed an AI-generated patient-management system after watching a video, importing records and sending appointment audio to two US AI services. Within 30 minutes, the author obtained full read/write access: the database had no access controls or row-level security, while authorization existed only in client-side JavaScript. Data was unencrypted, patients received no notice, and no processing agreement covered the US hosting. The practice added authentication after disclosure. Commenters shared similar incidents and argued that production AI coding still requires engineering, security, and operational review.
 
 ### Comment pulse
-- DIY/AI-coded business apps leaking personal data → reporters often get hostility or legal threats, so they escalate to regulators like AEPD instead.  
-- Hype cycle → nontechnical managers and LinkedIn influencers push “AI everywhere,” raising expectations until a major life-or-livelihood-impacting incident forces regulation.  
-- Vibe coding’s limits → great for prototypes; once systems are messy and in production, lack of fundamentals and ops experience leads to invisible, severe security failures.
 
----
+- Similar insurance, legal, and surgical systems exposed customer files or credentials; reporters sometimes met threats and hostility instead of remediation.
+- Vibe coding impressed on prototypes and even some application internals — counterpoint: deployment, privacy, architecture, and failure modes demand experienced review.
+- Models secure what users ask about; veteran engineers contribute a “graveyard” of failures that novices may never think to prompt against.
 
 ### LLM perspective
-- View: AI coding agents amplify both competence and negligence; without human architecture and security review, they industrialize rookie mistakes.  
-- Impact: Small orgs and professionals in regulated fields (health, insurance, law) are most at risk of catastrophic, legally actionable data breaches.  
-- Watch next: Mandatory security baselines, automated code/deployment scanners, and sector-specific rules on AI handling of sensitive data and cross-border transfers.
+
+- **View:** The central risk is authority without comprehension: generated software can appear functional while silently violating essential trust boundaries.
+- **Impact:** Cheap app generation moves security failures into clinics and small businesses whose users cannot meaningfully assess or avoid them.
+- **Watch next:** Mandatory privacy impact reviews, deployment guardrails, independent penetration tests, incident disclosure, and regulator action on affected practices.

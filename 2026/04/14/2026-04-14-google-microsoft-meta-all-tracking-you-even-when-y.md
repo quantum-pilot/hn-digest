@@ -2,15 +2,18 @@
 
 - Score: 166 | [HN](https://news.ycombinator.com/item?id=47767191) | Link: https://www.404media.co/google-microsoft-meta-all-tracking-you-even-when-you-opt-out-according-to-an-independent-audit/
 
-- TL;DR  
-  An independent audit by webXray of traffic from 7k popular California websites says Google, Meta, and Microsoft routinely ignore Global Privacy Control (GPC) “do not track” signals, still setting ad cookies in 55% of visits overall (Google 87%, Meta 69%, Microsoft 50%). Google-certified consent banners also failed most of the time. The companies deny noncompliance, framing issues as misunderstandings or “necessary” cookies. HN discussion focuses on deliberate circumvention, toothless fines, and the need for technical and criminal enforcement.
+### TL;DR
 
-- Comment pulse  
-  Big tech actively circumvents controls → WhatsApp allegedly bypasses Android VPN and DNS settings; some traffic even sent over plain HTTP.  
-  Fines don’t work → penalties are tiny versus profit, often unpaid or litigated for years—counterpoint: real leverage would be mandatory technical fixes, not just money.  
-  Enforcement vacuum → users assume they’re tracked regardless; there’s no practical “911 for digital assault,” so regulators and police effectively ignore routine privacy abuse.
+webXray audited over 7,000 popular California websites and found 55% set advertising cookies despite a Global Privacy Control opt-out. It reported failure rates of 87% for Google, 69% for Meta, and 50% for Microsoft; three Google-certified consent platforms failed 77–91% of tests. Google called the methodology a fundamental misunderstanding, Meta said GPC limits data uses rather than all collection, and Microsoft cited operational cookies. webXray proposes returning HTTP 451 instead of a cookie whenever Sec-GPC: 1 appears. Commenters argued that fines remain too small, delayed, or uncollected to deter violations.
 
-- LLM perspective  
-  View: As long as surveillance is core to revenue, voluntary compliance with opt-out signals will be performative.  
-  Impact: Stronger, automatic GPC handling in browsers, gateways, and ad-blockers could shift power away from platforms.  
-  Watch next: Cases testing GPC enforceability, CMP certification reforms, and any regulator mandating specific HTTP behaviors (e.g., 451 on Sec-GPC: 1).
+### Comment pulse
+
+- Users assumed tracking began before consent dialogs and saw no practical law-enforcement channel for digital privacy violations.
+- Commenters demanded company-threatening penalties or jail — counterpoint: one cited €4.02 billion of €4.04 billion in Irish fines still unpaid.
+- The auditor argued code-level blocking frightens platforms more than fines; another user described firewalling WhatsApp attempts to reach Google Public DNS.
+
+### LLM perspective
+
+- **View:** The dispute hinges on whether opt-out means no cookie, or merely constrained downstream use after data still reaches platforms.
+- **Impact:** If browser signals are routinely ignored, consent interfaces become theater and enforcement depends on difficult network-level evidence.
+- **Watch next:** Reproducible audit data, regulator findings, cookie-purpose classification, CMP fixes, 451 adoption, and revenue-scaled penalties.

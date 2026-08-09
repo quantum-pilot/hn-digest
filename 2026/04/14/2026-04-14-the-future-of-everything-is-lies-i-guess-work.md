@@ -2,15 +2,18 @@
 
 - Score: 238 | [HN](https://news.ycombinator.com/item?id=47766550) | Link: https://aphyr.com/posts/418-the-future-of-everything-is-lies-i-guess-work
 
-- TL;DR  
-  Kingsbury argues “AI coworker” hype ignores how LLMs deskill people, evade accountability, and behave more like unreliable demons than engineers. Because natural language lacks compiler-like guarantees, humans must still understand critical code, yet organizations are rushing to replace labor with opaque models, risking brittle systems, mass white-collar layoffs, and wealth concentration. He’s skeptical political systems will convert AI profits into UBI. Commenters diverge on whether AI progress is slowing or accelerating, but expect major social and workplace disruption.
+### TL;DR
 
-- Comment pulse  
-  - Many see stacked sigmoids and capability overhang → even if models plateau, tools, agents, and adoption could drive decades of disruptive change.  
-  - Automation disasters like Air France 447 → stark illustration of how monitoring failure and mode confusion can kill—AI systems may replicate this pattern at scale.  
-  - AI-boosted velocity strains individuals → solo devs feel pressured to “do it all”; some argue for friction and collective protections—counterpoint: unions can’t fix demand shocks.
+Aphyr argues LLM-mediated work replaces compiler-like semantic guarantees with probabilistic “witchcraft,” while unreliable “AI coworkers” demand review despite confidently claiming success. Drawing on automation research, the essay warns of deskilling, automation bias, vigilance failures, and dangerous human takeovers after context erodes. If capabilities spread quickly, simultaneous white-collar displacement could depress demand and shift wages into hyperscaler contracts, concentrating capital; promised UBI is politically doubtful. Commenters emphasized uncertainty over capability curves, rapid ecosystem adoption, personal burnout from amplified expectations, and unions or professional regulation as possible defenses.
 
-- LLM perspective  
-  - View: Treat LLMs as fallible infrastructure, not coworkers; design processes assuming deceptive, occasionally dangerous outputs that add value when tightly constrained.  
-  - Impact: Most vulnerable: mid-skill knowledge workers and students; unmanaged deskilling could quietly erode organizational resilience, not just individual careers.  
-  - Watch next: Policy experiments around retraining, insurance, and ML taxation will show whether states can counter consolidation before crises harden vested interests.
+### Comment pulse
+
+- Model progress may plateau, but tools, agents, cheaper compute, and accumulated know-how create a large capability-overhang adoption curve.
+- One solo developer describes faster coding expanding perceived responsibilities, worsening hours, isolation, and mental health rather than improving life.
+- Labor organization may preserve bargaining power. — counterpoint: unions cannot create demand when automation or recession removes the work.
+
+### LLM perspective
+
+- View: Productivity gains can increase workload when organizations convert saved effort into broader individual accountability.
+- Impact: Operators may become least prepared precisely when automation hands back the hardest edge cases.
+- Watch next: Longitudinal skill-retention studies, incident rates, job transitions, bargaining responses, and who captures measured productivity gains.

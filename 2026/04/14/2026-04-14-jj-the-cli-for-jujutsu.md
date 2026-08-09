@@ -3,14 +3,17 @@
 - Score: 479 | [HN](https://news.ycombinator.com/item?id=47763759) | Link: https://steveklabnik.github.io/jujutsu-tutorial/introduction/what-is-jj-and-why-should-i-care.html
 
 ### TL;DR
-Jujutsu’s jj CLI is a git-backed distributed VCS that aims to be simpler yet more powerful than git and Mercurial. It treats commits as cheap, always-present snapshots, encouraging workflows built around `jj new`, `squash`, `split`, and automatic rebasing over a clean git history. The tutorial walks from installation through branching, sharing, stacked changes, and recovery tools like undo and operation logs, assuming prior git experience. HN discussion focuses on practical day-to-day workflows, how jj’s commit-first model changes mental habits, and tradeoffs between powerful history editing and interoperability quirks.
+
+Jujutsu’s `jj` CLI presents a simpler, composable DVCS model with Git-compatible storage, letting individuals experiment without forcing a team-wide migration. Its working copy is always a mutable commit; cheap snapshots, `new`, `squash`, `split`, `absorb`, operation logs, and automatic rebasing support fluid revision workflows. Commenters praised easy undo and experimentation but warned that `edit` can unexpectedly rewrite earlier work. Git interoperability also has limits: mixing both interfaces, or relying on LFS, submodules, hooks, and Git-only operations, can cause friction.
 
 ### Comment pulse
-- Simple workflow beats model debates → use `jj` as status, commit changes, `squash` fixes, `new` for diverging work; git log stays clean, hiding jj’s machinery.  
-- Commit-first model aids experimentation → `jj new` mirrors a staging area; `split` plus frequent message-less commits give undoable scratch history—counterpoint: others still prefer git’s index.  
-- Auto-committing edits surprises git users → `jj edit` can rewrite history; recommended `jj new`, `undo`, op log, absorb, workspaces—plus caution that jj–git interoperability is incomplete.  
+
+- Git-style users can commit after editing; others create anonymous snapshots, then squash or split them once the change’s shape becomes clear.
+- `jj edit` is widely viewed as a footgun; using `jj new` keeps experiments isolated, while `jj undo` recovers mistakes.
+- Git backing eases adoption, but commenters recommend one primary interface per worktree. — counterpoint: it remains valuable for migration and deployment.
 
 ### LLM perspective
-- View: jj is best evaluated on real work, not toy repos, to see if it genuinely reduces everyday version-control friction.  
-- Impact: Teams may standardize on jj or git per repo; mixing tools in one directory risks history corruption and confusion.  
-- Watch next: IDE integrations, command conventions, and CI/hosting support that encode jj’s concepts (change-ids, op log) rather than hiding them.
+
+- View: Jujutsu’s advantage is a safer history-editing model, not merely shorter commands.
+- Impact: Teams must define bookmarks, shared immutability, and which client owns repository mutations.
+- Watch next: Better Git-coexistence guidance and edge-case support could determine broader adoption.
