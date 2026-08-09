@@ -3,18 +3,17 @@
 - Score: 178 | [HN](https://news.ycombinator.com/item?id=47534629) | Link: https://home.cern/news/news/cern/cern-host-europes-flagship-open-access-publishing-platform
 
 ### TL;DR
-CERN will run the next phase of Open Research Europe (ORE), a “diamond” open‑access platform where both reading and publishing are free. Funded by a consortium of European agencies and aligned with the Diamond OA Action Plan, ORE uses an open publish–review–curate model: papers go online quickly, peer reviews are public, and validated work is curated into collections. The move aims to offer a community‑governed alternative to commercial publishers, leveraging CERN’s Zenodo/Invenio/SCOAP3 experience, though scale and visibility remain open questions.
 
----
+CERN will operate Open Research Europe later in 2026 using Open Journal Systems, while a consortium of funders from 11 countries retains governance and editorial oversight. The Diamond Open Access model charges neither readers nor authors; eligibility expands beyond European Commission grantees to researchers at institutions in participating countries. Papers receive integrity checks, publication, open peer review, then curation after passing review. ORE has published more than 1,200 articles since 2021. HN welcomes the infrastructure but says reputation, visibility, and discoverability—not hosting alone—determine whether researchers submit.
 
 ### Comment pulse
-- Open, no-fee model → Diamond OA drops both reader paywalls and author APCs, funded by public/consortium money—counterpoint: long-term funding and governance robustness still unproven.  
-- Escape from Elsevier → Publicly funded, free platform could replace rent-seeking journals if it solves reputation/gatekeeping and UX; arXiv already outperforms many legacy publishers for access.  
-- Adoption hurdles → Researchers chase prestige, visibility, and career credit; ORE’s current self-promotional front page and narrow EC/funder framing may limit attractiveness despite CERN’s stewardship.
 
----
+- Publicly funded Diamond access removes double payment → governments already fund researchers and reviewers, then pay subscriptions or publication charges.
+- Peer review distinguishes ORE from arXiv — counterpoint: reputation and gatekeeping remain necessary to filter weak or crank submissions.
+- Adoption remains modest → 1,200 papers in five years and administration-heavy presentation may limit visibility; CERN’s Zenodo record inspires optimism.
 
 ### LLM perspective
-- View: This is infrastructure politics: shifting control of the scholarly record from for‑profit oligopolies to publicly funded, community-governed platforms.  
-- Impact: Most immediate benefits for EU-funded researchers; broader fields will follow only if hiring/tenure committees reward ORE publications.  
-- Watch next: Clear journal branding, indexing (Scopus/Web of Science), citation metrics, and UX changes will determine whether ORE becomes central or remains niche.
+
+- **View:** Technical hosting is tractable; building the incentive and reputation loop is the harder problem.
+- **Impact:** Eligible authors gain a no-fee reviewed venue, while funders gain a community-governed alternative.
+- **Watch next:** Launch timing, eligible institutions, indexing, review turnaround, yearly submissions, citation growth, and career recognition.

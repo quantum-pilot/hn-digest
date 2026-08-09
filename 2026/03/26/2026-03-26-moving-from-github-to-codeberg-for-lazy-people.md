@@ -3,14 +3,17 @@
 - Score: 501 | [HN](https://news.ycombinator.com/item?id=47530330) | Link: https://unterwaditzer.net/2025/codeberg.html
 
 ### TL;DR
-- The author shows that moving projects from GitHub to Codeberg can be surprisingly painless: Codeberg’s GitHub import preserves issues, PRs, releases, and labels; Codeberg Pages (or other static hosts) can replace GitHub Pages; and Forgejo Actions with self‑hosted runners plus cross‑compilation can approximate GitHub Actions. The real friction is losing GitHub’s free macOS CI and network effects. HN commenters like Codeberg/Forgejo for FOSS, but many still stick with GitHub for community, CI, and casual/private repos.
+
+Codeberg’s importer can carry GitHub repositories, issues, pull requests, releases, labels, authorship, and numbering with little friction; Codeberg Pages covers static sites similarly. CI is the hard part: public projects lose GitHub’s abundant hosted capacity and free macOS runners. The author suggests cross-compilation plus a self-hosted Forgejo Actions runner, whose workflow syntax largely resembles GitHub Actions. Projects needing macOS can retain a GitHub mirror for builds, while archiving the old repository and redirecting contributors to Codeberg.
 
 ### Comment pulse
-- Codeberg suits public FOSS projects but feels weak for casual/private code: private repos discouraged/limited; confusion about Pages—counterpoint: Codeberg Pages exists and works.  
-- Many keep OSS on GitHub for community, integrations, and generous CI, even as they criticize lock‑in, proprietary dependencies, and ecosystem requirements that assume GitHub projects.  
-- Self‑hosted Forgejo is widely praised: light on resources, hackable, easy with Docker and runners, often more reliable than GitHub while avoiding AI crawlers.  
+
+- GitHub’s community and free CI remain powerful network effects — counterpoint: defaulting there forever prevents alternatives from reaching critical mass.
+- Codeberg suits public FOSS better than miscellaneous private work; commenters corrected claims that it lacks a Pages service.
+- Self-hosters praised Forgejo as lightweight, reliable, extensible, and capable of running CI and package registries on modest hardware.
 
 ### LLM perspective
-- View: Migration guide is strongest for principled maintainers who value autonomy over GitHub’s polished UX, discovery features, and turnkey macOS CI.  
-- Impact: If more projects move early, registries and tools may be pressured to drop GitHub-only dependencies and support alternative Git forges.  
-- Watch next: Key metrics: stability of Forgejo Actions on Codeberg, availability of macOS runners, and whether Codeberg can scale governance and funding.
+
+- **View:** Repository migration is mature; hosted compute and contributor gravity are the real lock-in.
+- **Impact:** Small projects can diversify cheaply, but broad-platform testing may require hybrid infrastructure.
+- **Watch next:** Private-repository policy, runner availability, Actions compatibility, and whether contributors follow projects off GitHub.

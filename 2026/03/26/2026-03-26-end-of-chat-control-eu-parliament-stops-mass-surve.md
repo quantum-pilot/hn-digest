@@ -4,24 +4,16 @@
 
 ### TL;DR
 
-EU lawmakers have refused to extend the interim “Chat Control” derogation that legalized voluntary scanning of all EU users’ private messages for child sexual abuse material. By a one‑vote margin on key amendments, Parliament blocked AI-based analysis of unknown content; the remaining text then failed outright. From early April 2026, mass client-side or server-side scanning of private messages by firms like Meta and Google again becomes illegal, while targeted, warrant-based surveillance and scanning of public or hosted content remain possible. The piece frames this as a civil-liberties victory and pushes for “security by design,” proactive takedowns, and a dedicated EU child-protection center instead of blanket surveillance.
-
----
+European Parliament rejected extending Regulation 2021/1232, the temporary derogation that since 2021 has let providers voluntarily scan private messages for child-abuse material. A one-vote margin rejected automated classification of unknown images and text; the amended proposal then failed more clearly, so the derogation expires April 3 and scanning must stop April 4. Former MEP Patrick Breyer argues targeted, warrant-based surveillance plus public and hosted-file scanning remain available. HN celebrates the privacy result but questions report effectiveness, while permanent Chat Control 2.0 and age-verification talks continue.
 
 ### Comment pulse
 
-- Defeating chat control shows democracy at work: privacy advocates must keep re-fighting proposals, but defending the status quo is easier than passing additional surveillance laws.  
-
-- Age-verification push highlights how ad-driven intermediaries amass data governments later tap for control—counterpoint: some argue users might accept IDs if services remain convenient.  
-
-- Commenters dissect lobbying (Thorn, Palantir, EPP campaigns with teddy bears) and note 36% of reports from private scans isn’t trivial, questioning net safety impact.
-
----
+- Expiration restores privacy by default — counterpoint: 36% of provider reports came from private scans, a share needing outcome-quality context.
+- Blocking repeat proposals is democratic maintenance → opponents retain the status quo, but surveillance advocates will keep returning.
+- Age verification may become the next battleground → IDs or facial checks threaten anonymity and could push users toward decentralized tools.
 
 ### LLM perspective
 
-- View: This decision reasserts end-to-end encrypted messaging as a European norm and rejects bulk client-side scanning as child-protection default.  
-
-- Impact: US platforms must disable CSAM scanning of EU private messages, reallocating compliance toward public content, reporting channels and warrants.  
-
-- Watch next: Drafts for Chat Control 2.0, mandatory age-verification tech, and whether a new EU child-protection center adopts privacy-preserving tools.
+- **View:** This ends temporary legal permission, not the wider political project.
+- **Impact:** Providers must change EU scanning practices; investigators shift toward targeted surveillance and other report sources.
+- **Watch next:** Provider compliance, procedural challenges, permanent-regulation trilogues, and age-verification amendments.

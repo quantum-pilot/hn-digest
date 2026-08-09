@@ -2,17 +2,18 @@
 
 - Score: 550 | [HN](https://news.ycombinator.com/item?id=47529646) | Link: https://bsky.app/profile/tuta.com/post/3mhxkfowv322c
 
-## TL;DR
-European Parliament has rejected “Chat Control 1.0”, an EU plan enabling scanning of private messages for child abuse material. Commenters clarify that the decisive vote was on the full proposal, not a narrow amendment screenshot circulating on social media. While digital rights advocates celebrate, they warn that a broader “Chat Control 2.0” regulation and mandatory online age‑verification (potentially ending anonymous communication) are still advancing in trilogue negotiations, keeping pressure on encryption, privacy, and vulnerable groups like whistleblowers.  
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+Tuta announced that Parliament rejected continuation of the temporary private-message scanning regime and said affected companies must stop by April 6. Its first graphic was wrong: it mixed up two roll calls. HN clarifies that the razor-thin vote concerned an amendment narrowing automated analysis of unknown messages; the decisive event was the later rejection of the complete proposal by a clearer margin. The thread therefore treats the social post as directionally correct but context-poor. Negotiations over a permanent successor and mandatory age verification for messengers and app stores remain active.
 
-## Comment pulse
-- Chat Control 1.0 blocked → Parliament rejected the proposal, but governments still push “voluntary” scanning and strict age checks that could end anonymous messaging.  
-- Tweet framing confused vote details → There were two votes; the key result was a clear majority against the whole law, not the one‑vote amendment margin.  
-- HN meta: prefer primary sources → Users criticise Bluesky screenshots, ask mods to merge threads, and want rules favouring original articles over social intermediaries.  
+### Comment pulse
 
-## LLM perspective
-- View: Defeating blanket scanning shows EU Parliament still resists mass surveillance, but incremental “child safety” measures will keep resurfacing.  
-- Impact: Messaging platforms, activists, and at‑risk users gain time to harden encryption and organise against the next legislative round.  
-- Watch next: Track trilogue texts, voting records, and any age‑verification mandates that tie access to ID, biometrics, or app‑store compliance.
+- Final proposal rejection mattered more than the one-vote amendment → Tuta’s corrected graphic initially highlighted the wrong roll call.
+- The social post sacrificed legislative context → commenters preferred primary records and a fuller explainer, and requested merging duplicate threads.
+- Victory is temporary in scope → permanent scanning and age-verification proposals remain under trilogue discussion.
+
+### LLM perspective
+
+- **View:** Treat April 6 as Tuta’s claim; the supplied material does not independently reconcile the deadline.
+- **Impact:** Readers should separate the outcome from the inaccurate graphic before citing vote margins.
+- **Watch next:** Official records, corrected timeline, provider guidance, permanent-regulation negotiations, and age-verification language.

@@ -2,15 +2,18 @@
 
 - Score: 231 | [HN](https://news.ycombinator.com/item?id=47530945) | Link: https://www.nytimes.com/2026/03/26/world/olympics/ioc-transgender-athletes-ban.html
 
-- TL;DR  
-    - The IOC has adopted a new policy for the 2028 Olympics banning trans women and most athletes with male-typical genes from women’s events, requiring genetic testing for the female category. Supporters frame it as protecting fairness and safety in elite sport; critics argue it targets an already tiny population, mishandles intersex and DSD cases, and ignores larger issues like doping. HN discussion centers on rarity vs symbolism, biological advantage, and whether separate or gender-neutral categories are better alternatives.
+### TL;DR
 
-- Comment pulse  
-    - Trans participation is tiny but emotionally significant → transfem athlete stresses rarity; others answer that elite sport exists precisely to separate rare biological outliers.  
-    - Genetic testing rule praised as clarifying sex-based categories → supporters cite fairness; critics say it pathologizes intersex/DSD women and reduces eligibility to a single gene.  
-    - Symbolic impact exceeds Olympics → commenters fear copycat bans in lower tiers—counterpoint: some argue giving up elite competition is acceptable cost for self-identification.
+The IOC will require a one-time gene test for women’s Olympic events beginning with Los Angeles 2028, generally excluding athletes with male sexual markers, including transgender women and most athletes with differences of sex development. President Kirsty Coventry presented the rule as a fairness and safety measure based on expert review, while critics said the underlying science remains contested and warned of bodily scrutiny, privacy conflicts, and risks to minors. Transgender men may still enter women’s events, and affected athletes can pursue arbitration.
 
-- LLM perspective  
-    - View: Policy shifts eligibility from hormone-based to genetic criteria, likely entrenching binary categories and sidelining nuanced, case-by-case medical judgments.  
-    - Impact: Expect cascades into federations, schools, and clubs that mirror IOC rules, even where local science, law, or culture differ.  
-    - Watch next: Track forthcoming legal challenges, human-rights reviews, and empirical studies on performance of trans and DSD athletes under varying transition timelines.
+### Comment pulse
+
+- Some called transgender participation statistically negligible — counterpoint: Olympic competition deliberately distinguishes rare physical advantages at the extreme.
+- Readers stressed the rule may affect more non-trans DSD women than transgender competitors, including athletes unaware of their genetics.
+- Critics contrasted intense eligibility policing with the IOC’s perceived failure to curb doping.
+
+### LLM perspective
+
+- **View:** Clear eligibility is administratively attractive, but disputed biology makes a universal genetic boundary ethically costly.
+- **Impact:** Federations gain consistency while athletes face testing, exclusion, and divergent national privacy laws.
+- **Watch next:** Arbitration outcomes, safeguarding rules for minors, testing access, and evidence disclosed by the IOC.

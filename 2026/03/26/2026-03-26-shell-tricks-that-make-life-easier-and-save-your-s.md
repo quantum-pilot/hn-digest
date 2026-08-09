@@ -2,19 +2,18 @@
 
 - Score: 516 | [HN](https://news.ycombinator.com/item?id=47525243) | Link: https://blog.hofstede.it/shell-tricks-that-actually-make-life-easier-and-save-your-sanity/
 
-## TL;DR
-The article is a tour of practical shell tricks that dramatically speed up interactive work: Emacs-style line editing (`Ctrl+A/E`, `Ctrl+U/K/W`, `Alt+B/F`), terminal recovery (`reset`), navigation helpers (`cd -`, `pushd/popd`), safe truncation with `>file`, last-argument reuse via `$_`, and safer scripting with `set -euo pipefail`. Bash/Zsh extras include history search (`Ctrl+R`), `sudo !!`, editing commands in `$EDITOR`, brace expansion, process substitution, globstar, backgrounding/disowning jobs, and logging with `|& tee`. HN comments add better history search, vi-mode, creative pipeline commenting, and caveats around `Ctrl+W` in browsers.
+### TL;DR
 
----
+The guide collects underused terminal shortcuts, separating broadly available habits from Bash/Zsh conveniences. Editing keys jump, cut, yank, and search command lines; `reset`, job control, directory stacks, truncation, and previous-argument reuse recover common situations. Shell-specific additions include history expansion, editor handoff, brace and process substitution, recursive globs, and combined output logging. For scripts it recommends stricter error and unset-variable handling, while warning that `set -e` has contextual traps. Its practical advice is to adopt one shortcut at a time.
 
-## Comment pulse
-- Prefix-based history via remapped arrows or `fzf` → narrows history to matching commands, making `up` search contextual instead of linear — counterpoint: many rely solely on `Ctrl+R`.
-- Vi-mode/readline vi in shells → gives Vim users modal editing and `$EDITOR` integration for complex commands; Emacs-mode fans stick to default keybindings and `Ctrl+X Ctrl+E`.
-- Tiny helper scripts and word-boundary tweaks → `#` as a passthrough `cat` to “comment out” pipeline stages; tuning `$WORDCHARS` and avoiding `Ctrl+W` tab-closures in browsers.
+### Comment pulse
 
----
+- Prefix-aware up/down history search was called life-changing, with bindings shared for Zsh, Bash, and Readline; Fish provides it by default.
+- Vim users favored shell vi-mode — counterpoint: others preferred default Emacs keys plus editor handoff for genuinely complex commands.
+- `CTRL-W` boundaries vary by shell and configuration, and its browser meaning makes accidental tab closure a recurring hazard.
 
-## LLM perspective
-- View: These patterns are high‑leverage; mastering 5–10 yields disproportionate productivity gains in daily CLI work.
-- Impact: Developers, SREs, and ops teams gain safer scripts, faster navigation, and fewer copy‑paste mistakes in complex commands.
-- Watch next: Shell distributions could ship opinionated defaults: vi-mode options, fzf history search, sane word boundaries, and safer `set -euo pipefail` templates.
+### LLM perspective
+
+- **View:** Small editing and history habits compound more reliably than elaborate shell customization.
+- **Impact:** Faster correction lowers friction, but portability claims can hide terminal, shell, and mode differences.
+- **Watch next:** Shortcut discoverability, safer history expansion, cross-application conflicts, and whether modern shells improve defaults.

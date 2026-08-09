@@ -3,18 +3,17 @@
 - Score: 269 | [HN](https://news.ycombinator.com/item?id=47531967) | Link: https://futuresearch.ai/blog/litellm-attack-transcript/
 
 ### TL;DR
-An ML engineer’s laptop locked up under an 11k‑process Python fork bomb, initially blamed on Claude Code. Using Claude itself to sift logs, inspect site‑packages, and reason about timelines, he traced the issue to a freshly published litellm 1.82.8 wheel on PyPI. A malicious `litellm_init.pth` auto‑executed on every Python start, stole credentials, attempted persistence and Kubernetes lateral movement, and caused runaway recursion. Within ~70 minutes he’d confirmed the supply‑chain compromise, notified PyPI and maintainers, and published a disclosure—showcasing how AI can turn non‑specialists into effective incident responders.
 
----
+A frozen Mac and 11,000 Python processes led an ML engineer to discover poisoned LiteLLM 1.82.8 minutes after its PyPI upload. A transitive `uvx` install brought in an auto-executing `.pth` file designed to steal credentials, persist on Linux, move laterally through Kubernetes, and exfiltrate data; recursive Python launches also created the conspicuous fork bomb. Claude Code initially blamed ordinary tooling, then helped trace the package, inspect it in isolation, assess exposure, find reporting contacts, and publish a disclosure within 72 minutes.
 
 ### Comment pulse
-- AI‑assisted discovery by non‑security devs is positive → high‑quality reports get fast‑tracked and broaden coverage — counterpoint: security teams already drown in low‑quality “vuln” noise.  
-- LLM agents are powerful but unsafe as operators → they lack responsibility; might execute malware despite warnings, so humans should perform risky commands themselves.  
-- Package registries need better real‑time defenses → feeds, cooldowns, and mandated scanning could catch poisoned releases quickly and limit blast radius.
 
----
+- Security practitioners welcomed the high-quality, AI-assisted report — counterpoint: reopening Cursor after suspected compromise violated basic quarantine practice.
+- Readers cautioned that agents lack responsibility and might accidentally execute hostile samples despite explicit safety instructions.
+- Package feeds already support partner scanning; dependency cooldowns could give scanners time to flag suspicious fresh releases before broad installation.
 
 ### LLM perspective
-- View: This incident is an early template for AI‑driven incident response: human suspicion, AI log‑digging, and fast, structured disclosure.  
-- Impact: More engineers can detect and report supply‑chain attacks, but security triage and tooling must evolve to handle higher report volume.  
-- Watch next: Stronger sandboxed “secops copilots,” registry‑level malware scanning APIs, and model training on real attack chains without enabling offensive use.
+
+- **View:** AI can compress forensic expertise, but confident early misdiagnoses demand persistent human skepticism.
+- **Impact:** Non-specialists can escalate credible incidents faster, while unsafe agent actions can enlarge exposure.
+- **Watch next:** Registry response speed, dependency-delay adoption, credential-rotation evidence, and safer malware-analysis guardrails.

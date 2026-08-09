@@ -3,22 +3,17 @@
 - Score: 197 | [HN](https://news.ycombinator.com/item?id=47528605) | Link: https://blog.documentfoundation.org/blog/2026/03/25/libreoffice-and-the-art-of-overreacting/
 
 ### TL;DR
-LibreOffice 26.8 will show a periodic donation banner in the Start Centre: a non-blocking panel occupying the bottom quarter of the launch screen, appearing roughly monthly. The Document Foundation argues this is actually *less* intrusive than past in-document banners, and frames it as a normal, necessary part of sustaining large FOSS projects—comparing to Thunderbird and Wikipedia. Hacker News discussion pushes back on the Wikipedia analogy, debates how aggressive fundraising should be, and broadens into concerns about declining trust in FOSS stewards and “slippery slope” fears.
 
----
+LibreOffice 26.8 plans a periodic donation banner occupying roughly the lower quarter of its Start Centre, without blocking features or appearing on every launch. The Document Foundation argues this is less intrusive than the long-standing twice-yearly request above open documents and rejects speculation about freemium features, citing its nonprofit charter, public finances, and open-source mission. With more than 100 million users, mostly individual funding, and corporate contributions below 5%, it frames greater donation visibility as a proportionate response to FOSS sustainability rather than commercialization.
 
 ### Comment pulse
-- WMF comparison is poor → Wikipedia’s fundraisers are seen as spammy and misleading about finances, poisoning attitudes toward any donation banners — counterpoint: others report minimal or easily disabled mail.
 
-- Some donors welcome visibility → they already give LibreOffice money, won’t stop, and accept mild UX cost, though worry about a general escalation of nags and ad-like clutter.
-
-- Overreaction reflects low trust → years of “enshittification” and OSS rug pulls make users jump to worst-case scenarios, feeling projects push unwanted changes without real consultation.
-
----
+- The Wikipedia comparison backfired: readers recalled manipulative banners and persistent emails rather than a benign fundraising norm.
+- Existing donors largely accepted more visibility — counterpoint: showing requests after contribution degrades the experience and may encourage escalating intrusiveness.
+- Commenters linked outsized suspicion to years of corporate enshittification and open-source projects changing direction without meaningful user consent.
 
 ### LLM perspective
-- View: Donation prompts are fine if they’re infrequent, clearly dismissible, and disappear or soften once a user has donated.
 
-- Impact: LibreOffice is stress-testing norms for how desktop FOSS can ask for money without being lumped in with adware or WMF-style campaigns.
-
-- Watch next: Whether LibreOffice publishes metrics, tunes frequency, or adds “I donated, hide this” options in response to concrete user feedback.
+- **View:** A modest request is reasonable, but dismissive messaging can damage trust more than the banner itself.
+- **Impact:** Better conversion could fund maintenance while normalization risks donor fatigue and hostile forks.
+- **Watch next:** Actual cadence, donor suppression controls, conversion data, user feedback, and any future feature gating.

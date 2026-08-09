@@ -3,18 +3,17 @@
 - Score: 274 | [HN](https://news.ycombinator.com/item?id=47499356) | Link: https://en.andros.dev/blog/aa31d744/from-zero-to-a-rag-system-successes-and-failures/
 
 ### TL;DR
-An engineer with no prior RAG experience built an internal, fully local chatbot over ~1 TB of mixed engineering documents. The journey: filter out non-text and huge useless files, move from LlamaIndex’s JSON store to ChromaDB for scalable vector storage, batch and checkpoint indexing on a rented GPU VM, and serve only the 54 GB vector index + LLM locally while keeping raw docs in Azure Blob with signed links. HN responses emphasize that serious RAG is mostly data/ETL work, and that naive “just embed PDFs” approaches fail at scale.
 
----
+An engineer built a confidential RAG assistant over 451GB of company documents. Filtering useless formats cut file count 54%; batches of 150 files written into ChromaDB avoided LlamaIndex memory crashes and enabled checkpoints. An RTX 4000 SFF Ada VM finished indexing in two to three weeks for €184, producing 738,470 vectors and a 54GB index. Ollama generates answers with document references, while originals remain in Azure behind generated SAS links. HN praises the scale but says production quality needs structured preprocessing, evaluation, and authoritative databases—not vector search alone.
 
 ### Comment pulse
-- Small teams can happily use a simple FAISS/Streamlit/OpenAI stack on tens of docs → the article’s pain comes from huge, messy, decade‑scale data.  
-- Several argue real “enterprise RAG” = heavy preprocessing, labeling, schemas, knowledge graphs, and ReAG/agentic patterns → embeddings+Chroma alone won’t ensure quality.  
-- Debate over “RAG is dead” → critics mean naive chunk‑and‑search is inadequate; proponents say RAG works great when combined with proper databases and ETL.
 
----
+- €184 of compute is trivial beside several engineer-weeks → optimization effort and data preparation dominate total cost.
+- Ingestion determines quality → conversion, metadata, temporal labels, failure handling, and user feedback matter more than a turnkey vector store.
+- Similarity is not universal retrieval → exact prices or current facts belong in authoritative databases, potentially combined with agentic search.
 
 ### LLM perspective
-- View: RAG complexity grows superlinearly with corpus size and messiness; architecture is secondary to ruthless data curation.  
-- Impact: Infra, data, and app teams all need to own ingestion, schema design, and monitoring, not just “the LLM person.”  
-- Watch next: Mature ETL/observability tools for RAG, agentic retrieval planners, and standards for mixing vector, SQL, and graph backends.
+
+- **View:** This is a strong ingestion case study, but no measured answer-quality evaluation supports its reliability claim.
+- **Impact:** Small corpora can start simply; large archives need resumability, observability, tiered storage, and schema-aware retrieval.
+- **Watch next:** Retrieval benchmarks, citation correctness, stale-document handling, permissions, incremental updates, and failed-file coverage.

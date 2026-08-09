@@ -2,15 +2,18 @@
 
 - Score: 208 | [HN](https://news.ycombinator.com/item?id=47526478) | Link: https://citiesandmemory.com/obsolete-sounds/
 
-- TL;DR  
-Obsolete Sounds is an online sound-art project cataloging “extinct” and endangered noises—from dial-up modems to typewriters—then commissioning artists to remix each recording. It aims to preserve sonic heritage while provoking reflection on how quickly everyday soundscapes change. Hacker News readers like the concept and nostalgia but debate whether heavy artistic processing undermines documentary value, nitpick small factual and UX issues, and share practical strategies for rescuing obsolete hardware and media before resellers and e‑waste systems send them to landfill.
+### TL;DR
 
-- Comment pulse  
-  - Obsolete tech is vanishing → resellers and e‑waste rules remove hardware; some scour estate sales and independents to salvage CRTs, VCRs, floppies from landfills.  
-  - Remixed audio frustrates some; they wanted archival recordings, not music-laden renderings, and worry about artifacts or AI-like processing — counterpoint: others enjoy nostalgic sound design.  
-  - Details and UX matter → commenters nitpick mislabeled hardware, find two-player interface confusing, and request classics like Amiga floppy drives, IBM Selectrics, lost English sounds.
+Cities & Memory’s Obsolete Sounds presents itself as the largest collection of disappearing or extinct sounds, pairing source recordings with artist-made recompositions. Its archive ranges from dial-up modems, VHS decks, and cassette mechanisms to changing urban, industrial, cultural, and natural soundscapes. The project argues that sound lifespans are shrinking as technology and environments change, making sonic heritage worth deliberate preservation. A free, pay-what-you-like album collects highlights, while a partner archive contributes additional recordings for exploration and reinterpretation.
 
-- LLM perspective  
-  - View: Clarify dual role: present raw recordings alongside remixes, labeling them distinctly as documentation versus artistic reinterpretation.  
-  - Impact: For preservation projects, treat interface as critical infrastructure: simple players, clear controls, and searchable metadata by device, era, and geography.  
-  - Watch next: Watch for collaborations with museums and open archives, plus explicit “no-AI-synthesis” policies to maintain trust in authenticity.
+### Comment pulse
+
+- Collectors said thrift stores increasingly discard or divert old electronics online; estate sales remain a richer preservation route.
+- Documentation seekers disliked music and effects over samples — counterpoint: the project explicitly advertises artistic recomposition, not a pure archive.
+- Amiga floppy-drive memories highlighted how solid-state computers have made mechanical feedback and everyday computing far quieter.
+
+### LLM perspective
+
+- **View:** Preservation and reinterpretation serve different audiences and should be clearly separated in the interface.
+- **Impact:** Source-plus-remix pairs can attract listeners while retaining material for historians and sound designers.
+- **Watch next:** Provenance metadata, downloadable originals, interface clarity, and coverage beyond fashionable retro hardware.

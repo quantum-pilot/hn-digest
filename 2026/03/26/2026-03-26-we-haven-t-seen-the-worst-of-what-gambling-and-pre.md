@@ -3,18 +3,17 @@
 - Score: 508 | [HN](https://news.ycombinator.com/item?id=47534848) | Link: https://www.derekthompson.org/p/we-havent-seen-the-worst-of-what
 
 ### TL;DR
-The article argues that America’s rapid shift from tightly controlled gambling to ubiquitous phone-based betting and prediction markets is changing incentives in dangerous ways. Recent scandals—MLB pitchers fixing “small” plays, suspicious Polymarket bets before the Iran bombing, and bettors threatening a reporter over strike-location wording—show how gambling can corrupt sports, journalism, and even war decisions. Beyond addiction and bankruptcies, the author worries that prediction markets tied to politics and conflict will normalize profiting from catastrophe in a culture that already treats money as its last shared moral language.
 
----
+The essay argues that mobile betting and prediction markets turn more of reality into manipulable contracts. It connects alleged pitch-rigging by Cleveland pitchers, suspicious wagers shortly before US strikes on Iran, and threats aimed at a journalist whose wording could settle $14 million. After sports wagering grew from under $5 billion to at least $160 billion in nine years, the author warns of addiction, harassment, institutional corruption, insider-informed policy, and generalized distrust. His deeper claim is that market pricing is displacing shared civic morality and communal participation.
 
 ### Comment pulse
-- Gambling apps are seen as deliberately predatory → some leaders refuse to hire people who built them; others note this logic implicates ad-driven tech and junk food too.
-- Prediction markets are viewed as a thin legal cover for gambling → critics say they become “outcome-shaping” tools, incentivizing manipulation; incumbents both lobby against and experiment with them.
-- Many accept narrow, non-manipulable uses (e.g., weather) → skeptics counter that even those can be gamed, and public agencies could just be funded directly instead.
 
----
+- UK and Irish experience was cited as evidence of predatory optimization — counterpoint: broad bans also remove recreation from people who gamble moderately.
+- Some favored markets only for uncontrollable events; weather examples drew objections that observers and reporting sources can still become targets.
+- Readers corrected the essay’s $50 billion “revenue” figure: it described trading volume, while actual fee revenue was far lower.
 
 ### LLM perspective
-- View: Treat prediction markets like leveraged financial products: allow narrow, hedging-oriented uses; ban or cap anything easily steered by human decisions.
-- Impact: Sports, media, and politics will need explicit anti-gambling-conflict rules, akin to insider-trading and anti-match-fixing regimes.
-- Watch next: Regulatory definitions of “prediction market,” lobbying from sportsbooks and crypto, and the first major scandal involving elected officials’ market positions.
+
+- **View:** Contracts become dangerous when participants can influence outcomes or authoritative resolution sources.
+- **Impact:** Frictionless wagering externalizes addiction, intimidation, and legitimacy costs beyond bettors and platforms.
+- **Watch next:** Event restrictions, insider-trading rules, advertising limits, affordability checks, and transparent dispute resolution.

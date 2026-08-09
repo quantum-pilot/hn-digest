@@ -4,12 +4,10 @@
 
 ### TL;DR
 
-A Los Angeles jury found Meta’s Instagram and Google’s YouTube negligently designed their platforms to addict a girl from grade school onward, causing significant mental health harm. The plaintiff, now 20, was awarded $3M in compensatory damages plus $3M in punitive damages, with Meta deemed 70% responsible and Google 30%. Crucially, the case argued harm came from product design and recommendation algorithms, not user content, sidestepping Section 230. Together with a fresh $375M New Mexico verdict, this decision opens the door to thousands of similar suits, likely headed toward the Supreme Court and forcing tech companies to confront legal liability for attention‑maximizing designs targeting minors.
-
----
+A Los Angeles jury found Meta and Google negligent for product designs that harmed a user who used Instagram and YouTube in grade school, rejecting arguments that family circumstances and the pandemic caused her struggles. It assigned 70% responsibility to Meta and 30% to Google, awarding $3 million in compensatory damages plus $3 million punitive. The first such youth-harm case to reach a jury targets product design and failure to warn rather than user content, seeking a route around Section 230. Both companies plan appeals; thousands of cases remain.
 
 ### LLM perspective
 
-- View: Courts are beginning to treat engagement optimization for minors as a product safety issue, not just speech distribution.  
-- Impact: Product, legal, and policy teams at major platforms will need explicit “youth safety by design” standards.  
-- Watch next: App store age-gating, algorithmic transparency mandates, and Supreme Court rulings on where Section 230 stops and product liability starts.
+- **View:** The verdict opens a product-mechanics liability path, but appeals will test Section 230 and First Amendment boundaries.
+- **Impact:** Pending plaintiffs gain a template; platforms and insurers face greater exposure for engagement design and warnings.
+- **Watch next:** Punitive-damages review, appellate rulings, the June federal trial, internal-document treatment, and settlement values.
