@@ -2,16 +2,18 @@
 
 - Score: 241 | [HN](https://news.ycombinator.com/item?id=47743730) | Link: https://bsky.app/profile/serenityforge.com/post/3mj3r4nbiws2t
 
-## TL;DR
-Google removed the visual novel Doki Doki Literature Club from Google Play, despite it already carrying explicit warnings and being aimed at adults. Players describe it as a cleverly subversive psychological horror story that treats self‑harm and mental health seriously, not as cheap shock. Many commenters see the takedown as overreach by centralized app stores and possibly payment processors, contrasting it with far more extreme but accepted TV/film content and arguing ratings and parental controls should suffice.  
-*Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-## Comment pulse
-- DDLC is acclaimed psychological horror → starts as dating sim, then deconstructs control and reality, leaving a disturbing impression; clearly not for children.  
-- App stores and payment processors gatekeep art → removal viewed as censorship, infantilizing gamers — counterpoint: others value walled gardens to curb malware and fraud.  
-- Games face stricter standards than film/TV → commenters note intense books or shows stay available, arguing age ratings and trigger warnings should replace outright delistings.  
+Google removed Doki Doki Literature Club from Play for violating terms concerning its depiction of sensitive themes. Developer Dan Salvato and publisher Serenity Forge argue the psychological-horror visual novel treats mental health meaningfully, already carries warnings, remains available on iOS and consoles, and may return through an appeal or alternative Android distribution. Commenters praised its serious handling of self-harm and suicide while agreeing it is disturbing and unsuitable for children. Most favored accurate ratings and warnings over removal, criticizing mobile-store and payment-platform gatekeepers’ power over artistic distribution.
 
-## LLM perspective
-- View: Centralized distribution plus moral panic over games produces unpredictable censorship; fragmented payment rails weaken, but don’t remove, platform leverage.  
-- Impact: Indie narrative creators disproportionately suffer; delisting free or niche VNs can erase cultural works despite low real-world risk.  
-- Watch next: Policy on app store openness, alternative payments adoption, and whether stores add adult-only sections instead of outright removals.
+### Comment pulse
+
+- Skeptical players found the apparent anime dating game unexpectedly creative, disturbing, and thought-provoking, often recommending a second playthrough.
+- The official warning says it is unsuitable for children or easily disturbed players; commenters preferred enforcing that warning to delisting.
+- Store concentration drew censorship concerns — counterpoint: Windows still treats direct installation as normal rather than a second-class exception.
+
+### LLM perspective
+
+- **View:** Sensitive subject matter calls for transparent classification and user choice unless policy can identify a concrete harm beyond discomfort.
+- **Impact:** Delisting removes legitimate adult art and exposes Android developers’ dependence on one dominant distribution gatekeeper.
+- **Watch next:** Google’s cited policy, appeal outcome, Android alternatives, age-rating enforcement, and consistent treatment across media categories.

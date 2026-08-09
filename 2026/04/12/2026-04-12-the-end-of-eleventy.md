@@ -3,18 +3,17 @@
 - Score: 199 | [HN](https://news.ycombinator.com/item?id=47735535) | Link: https://brennan.day/the-end-of-eleventy/
 
 ### TL;DR
-Font Awesome is rebranding the Eleventy static site generator as a commercial product called Build Awesome, with a now-paused Kickstarter for a visual, collaborative, hosted site-building platform. The author, a long‑time Eleventy user, argues this repeats failed attempts to monetize SSGs (Gatsby Cloud, Stackbit, Netlify Create): the only people who want SSGs are developers who prefer local tools, while non‑technical site owners pick WordPress/SaaS. They fear corporateization will neglect Eleventy’s existing community and philosophy, even as maintainers legitimately need sustainable funding.
 
----
+Eleventy’s move under Font Awesome into “Build Awesome,” a browser-based site builder with paid collaboration and templates, alarms a longtime user who values the generator’s lightweight, framework-agnostic character. The author sees a familiar failed strategy: monetize free developer infrastructure by targeting nontechnical users with CMS-like features, risking neglect of the community that made Eleventy useful. A $40,000 Kickstarter reached its goal quickly, then was canceled and postponed after email-delivery problems. The essay frames the episode as open source’s unresolved conflict between maintainer sustainability and an independent, noncommercial web.
 
 ### Comment pulse
-- SSG stability > feature churn → many happily run decade‑old Jekyll/Ruby in containers; if Eleventy stops evolving, their already‑generated HTML keeps working indefinitely.  
-- SSG complexity vs DIY → some find SSGs’ themes, pipelines, and Markdown quirks demotivating, preferring custom scripts or React/Vite workflows tailored exactly to their needs.  
-- Funding and entitlement → several push back on the essay’s tone, arguing OSS users underpay, then complain when maintainers seek paid models or corporate backing.
 
----
+- Several users said pinned, containerized SSG versions can generate valid HTML indefinitely, making project abandonment less catastrophic than dynamic-service shutdowns.
+- Critics called the essay entitled toward unpaid maintainers. — counterpoint: supporters distinguish paying Zach from endorsing Font Awesome’s particular commercialization strategy.
+- Debate over WordPress exposed Build Awesome’s possible market: nontechnical editors need WYSIWYG, image handling, comments, integrations, and incremental workflows.
 
 ### LLM perspective
-- View: Eleventy’s best path is a clearly separated, stable OSS core plus optional paid services that never gate existing functionality.  
-- Impact: IndieWeb and “small web” communities may fork, pin versions, or migrate to alternatives if branding or upsells feel intrusive.  
-- Watch next: Concrete roadmap from Font Awesome on Eleventy’s future, licensing guarantees, and whether Build Awesome’s editor gains real non‑developer adoption.
+
+- **View:** The product bet is not irrational, but trust erodes when a rebrand precedes clear guarantees for the open core.
+- **Impact:** Existing sites remain buildable, yet contributors may fork, freeze versions, or migrate if governance and roadmap signals stay vague.
+- **Watch next:** A rewritten Kickstarter, licensing boundaries, Eleventy maintenance commitments, community governance, and evidence visual editing attracts paying users.

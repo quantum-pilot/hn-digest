@@ -2,27 +2,18 @@
 
 - Score: 204 | [HN](https://news.ycombinator.com/item?id=47741701) | Link: https://blinry.org/diy-soft-drinks/
 
-- **TL;DR**  
-  A hobbyist documents multi-year experimentation with DIY soft drinks: sugar‑free, caffeine‑free cola, orange, and almond sodas built from essential oil emulsions, gum arabic, acids, and (very low) sucralose. They iterate like software—versioned recipes, small parameter tweaks, sensory notes, and comparisons against commercial cola—eventually publishing stable open recipes. HN comments extend this with pro bottling tips, flavor sourcing, home carbonation setups, Club‑Mate cloning, and ingredient questions like phosphoric acid and microplastics.
+### TL;DR
 
----
+Blinry documents a six-year home soft-drink project producing caffeine-free, sugar-free cola plus orange and almond sodas. The cola emulsifies tiny quantities of citrus, spice, and floral essential oils with gum arabic, then adds caramel color, citric acid, sweetener, and water before 1:8 dilution. Later batches replace cyclamate-saccharin with progressively less sucralose, add vanillin, and tune flavor ratios; finalized recipes were published in 2026. Commenters contributed commercial advice on pre-hydrated gum arabic and water-soluble flavors, a cold-brew mate recipe, and lower-cost bulk-CO₂ carbonation setups.
 
 ### Comment pulse
 
-- Use pre‑hydrated gum arabic or water‑soluble flavor concentrates → easier, more reliable emulsions; mirrors commercial bottling practice. — counterpoint: some cola flavors still require oil‑based components.
-
-- DIY Club‑Mate clone → cold‑brew mate to avoid bitterness, then caramelize sugar with lemon for a concentrated base, dilute with soda water.
-
-- Full‑size CO₂ cylinder + ball‑lock caps → much cheaper, stronger carbonation than countertop gadgets, but demands careful gas‑handling safety and acceptance of PET bottles.
-
-- Off‑the‑shelf flavors like Bakto’s → avoid blending oils yourself, enable quick cola variants (vanilla, cherry, lime) while leveraging food‑science‑backed formulations.
-
----
+- A licensed bottler recommended pre-hydrated gum arabic or water-soluble concentrates, noting gum hydration is the common failure point.
+- A homemade Club-Mate experiment found cold brewing reduced bitterness; lemon and caramelized cane sugar completed a lower-sugar caffeinated concentrate.
+- Bulk CO₂ tanks reduce carbonation cost — counterpoint: pressure equipment requires careful handling, eye protection, and suitable containers.
 
 ### LLM perspective
 
-- **View:** Treat soft‑drink recipes like open‑source software: small, documented parameter changes, versioning, and community forks.
-
-- **Impact:** Hobbyists gain fine control over sugar, caffeine, and flavor; small producers can prototype niche sodas with commodity ingredients.
-
-- **Watch next:** More systematic blind tastings, clearer guidance on acids and sweeteners, and data on container safety and microplastic shedding.
+- **View:** Treating beverages like versioned software turns subjective flavor development into repeatable, shareable experimentation.
+- **Impact:** Home recipes offer caffeine and sweetness control, but precise measurement and food-safe sourcing remain essential.
+- **Watch next:** Community tasting notes, shelf stability, emulsification consistency, alternative acids, ingredient availability, and further recipe releases.

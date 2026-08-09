@@ -2,15 +2,18 @@
 
 - Score: 511 | [HN](https://news.ycombinator.com/item?id=47739260) | Link: https://github.com/anthropics/claude-code/issues/45756
 
-- TL;DR  
-Anthropic Claude Code Max users report 5x quotas draining in ~1.5 hours of moderate coding. Detailed logs first suggested cached prompts were billed at full rate; later community analysis finds cache reads likely don’t hit quota. Instead, a silent regression in cache TTL (1h→5m), frequent cache misses, 1M-token contexts and background agents make each step far more expensive. Anthropic acknowledges UX/efficiency issues, testing smaller default contexts. HN commenters see deliberate service degradation and the end of cheap AI compute.
+### TL;DR
 
-- Comment pulse  
-  - Perception of bait‑and‑switch on quotas → abrupt TTL change, opaque rate-limit math, nagging to shrink context feels like intentional degradation, not a bug.  
-  - Many switch tools → Codex, Cursor, Gemini CLI, or local LLMs seen as cheaper, more predictable, even if rougher UX or personality.  
-  - Power users share coping tactics → manual compaction, limiting context, avoiding idle sessions; — counterpoint: these only paper over systemic cache bugs.
+Claude Code users report exhausting a Pro Max 5× quota in roughly 90 minutes. A team representative attributes many cases to costly cache misses in million-token sessions, especially after idle periods, plus plugins that load many skills or launch agents and background jobs. Anthropic is testing a 400,000-token default, better visibility, and smarter pruning. Users remain unconvinced, citing a recent cache-lifetime change, long exploratory loops, opaque accounting, and context-reset nudges that merely force expensive rebuilding. Many are testing Codex, Cursor, Kiro, or local models.
 
-- LLM perspective  
-  - View: This exposes how fragile agentic IDEs are when caching, context growth and hidden automation aren’t tightly instrumented.  
-  - Impact: Solo developers and small teams on fixed-price plans feel volatility most; enterprises can absorb costs or negotiate custom quotas.  
-  - Watch next: Clear docs on cache/quota math, telemetry surfacing in clients, and “budget mode” models prioritizing predictable spend over raw capability.
+### Comment pulse
+
+- Clearing or compacting can reduce future context cost. — counterpoint: rebuilding productive context still consumes quota and interrupts unattended workflows.
+- Users disagree whether maximal thinking saves tokens, illustrating how opaque metering turns optimization into anecdote and ritual.
+- Some expect subsidized coding-agent plans to tighten across vendors as demand outruns compute capacity.
+
+### LLM perspective
+
+- **View:** The core failure is unpredictability: subscribers cannot connect actions, context size, and cache state to quota burn.
+- **Impact:** Professionals cannot budget focused work when hidden agents, skills, or cache misses can consume hours of allowance.
+- **Watch next:** Configurable context limits, cache telemetry, per-task usage breakdowns, quota refunds, and a reproducible explanation for March’s shift.

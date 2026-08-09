@@ -3,18 +3,17 @@
 - Score: 179 | [HN](https://news.ycombinator.com/item?id=47737376) | Link: https://phyphox.org/
 
 ### TL;DR
-Phyphox turns a smartphone into a mini physics lab, exposing onboard sensors (accelerometer, microphone, magnetometer, etc.) through ready-made and custom experiments. Data can be exported for analysis and experiments can be remotely controlled via a browser, making it well-suited for classrooms and home projects. Widely adopted in German physics education and award-winning, it sparked HN discussion about sensor sampling limits, clever field uses like locating live wires in walls, and opportunities for richer DIY instrumentation with phones.
 
----
+Phyphox turns iOS and Android phones into portable physics labs, exposing accelerometers, microphones, magnetometers, and other sensors through ready-made or custom experiments. Users can detect pendulum frequency or Doppler shifts, export measurements in common formats, and remotely control runs or download data from a desktop browser. Built at RWTH Aachen, it has received multiple teaching awards and supports worksheets, sensor references, Bluetooth hardware, and an experiment editor. Educators praised its accessibility for student projects, while practitioners highlighted device-dependent sampling limits and creative measurements.
 
 ### Comment pulse
-- Sensor limits matter → Some users see accelerometers capped near 50 Hz; others report 500 Hz, suggesting device-specific hardware/driver constraints—counterpoint: Nyquist/aliasing can still bound useful frequencies.  
-- Real-world hacks abound → Users report locating mains wires via magnetometer FFT of 50 Hz grid fields, plus creative student projects measuring Doppler, elevators, and vacuum acoustics.  
-- Beyond built-ins → Commenters see untapped potential in using cameras as generic data loggers, e.g., digitizing 7‑segment displays on legacy lab instruments.
 
----
+- Families report measuring elevator acceleration, vacuum sound attenuation, and Doppler effects, then exporting data for school-project graphs.
+- One user located live wiring by detecting 50 Hz magnetic fields; aliasing may permit analogous 60 Hz detection.
+- Reported accelerometer limits vary by phone, OS, and distribution, so the sensor database matters before frequency-sensitive experiments.
 
 ### LLM perspective
-- View: Phyphox exemplifies “citizen instrumentation,” turning commodity phones into shareable, scriptable lab tools.  
-- Impact: Lowers cost and friction for school labs, hobbyists, and quick professional measurements without dedicated hardware.  
-- Watch next: Standardized sensor APIs, higher-rate and lower-noise sensors, and video-based measurement tools will broaden experiment types and precision.
+
+- **View:** Phyphox lowers the barrier from owning instruments to asking measurable questions.
+- **Impact:** Classrooms gain a shared lab platform, though heterogeneous phone sensors complicate reproducibility.
+- **Watch next:** Calibrated device profiles, camera-based datalogging, higher-rate access, and clearer anti-aliasing guidance.

@@ -3,18 +3,17 @@
 - Score: 462 | [HN](https://news.ycombinator.com/item?id=47739313) | Link: https://www.the-independent.com/tech/renewable-energy-solar-nepal-bhutan-iceland-b2533699.html
 
 ### TL;DR
-Seven countries (Albania, Bhutan, Nepal, Paraguay, Iceland, Ethiopia, DRC) now generate >99.7% of their *electricity* from renewables, almost entirely from hydro and geothermal. Nearly 50 countries exceed 50% renewable electricity. Researchers argue solar’s rapidly falling costs and efficiency—especially via perovskites—have pushed the world past an “irreversible tipping point” toward clean power dominance by 2050. Hacker News commenters applaud the milestone but stress geographic luck, low grid coverage in poorer countries, import/backup fossil use, and controversies around the cited 100% renewables modeling.
 
----
+Seven countries—Albania, Bhutan, Nepal, Paraguay, Iceland, Ethiopia, and the Democratic Republic of Congo—generated more than 99.7% of consumed electricity from geothermal, hydro, solar, or wind in 2021–22, while another 40 exceeded 50%. Most leaders rely on abundant hydropower; Iceland adds geothermal. The article argues existing wind, water, and solar technologies can displace fossil fuels and cites falling solar costs as evidence of an irreversible shift toward solar dominance by 2050. Britain reached 41.5% renewables in 2022, while Scotland produced an equivalent 113% of consumption.
 
 ### Comment pulse
-- Geography + scale caveats → Most of the seven rely on big hydro or geothermal, small populations, and in places like DRC/Ethiopia, low electrification rates.  
-- Accounting disputes → Instantaneous vs yearly data, imports/exports, biomass counting, and “electricity vs total energy” all complicate 100% or 80%+ renewable claims. — counterpoint: even conservative numbers show strong upward trends.  
-- Jacobson’s WWS framework questioned → His 100% renewables studies faced heavy technical criticism, a failed defamation lawsuit, and skepticism over extreme anti-nuclear assumptions.
 
----
+- Shares can hide imports, drought backup, and low grid access. — counterpoint: others point to rapid solar-wind gains in larger grids.
+- Several disputed headline-adjacent statistics, distinguishing annual generation from favorable daily snapshots and domestic production from total consumption.
+- Hydropower’s dominance prompted debate over replicability: mountains and rivers confer advantages, but storage and interconnects can support less fortunate geographies.
 
 ### LLM perspective
-- View: The headline is real progress but mainly shows what’s possible with exceptional hydro/geothermal resources, not a universal template.  
-- Impact: The stronger message is solar and storage economics making high-renewable grids attractive even in less “blessed” regions.  
-- Watch next: Track annual generation shares, grid reliability, electrification rates, and storage build-out rather than single “100%” milestones.
+
+- **View:** A clean percentage is less informative without demand coverage, imports, reliability, and the underlying generation mix.
+- **Impact:** Hydro-rich countries prove fossil-free grids can work, but offer a limited template for dense, energy-intensive economies.
+- **Watch next:** Track annual consumption-based carbon intensity, electrification access, drought resilience, and whether solar-plus-storage scales without biomass accounting tricks.

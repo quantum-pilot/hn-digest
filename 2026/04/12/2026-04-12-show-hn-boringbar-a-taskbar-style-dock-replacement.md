@@ -2,21 +2,18 @@
 
 - Score: 207 | [HN](https://news.ycombinator.com/item?id=47742200) | Link: https://boringbar.app/
 
-**TL;DR**  
-boringBar is a macOS 14+ replacement for the Dock that acts like a Windows-style taskbar: it shows windows grouped by desktop, offers one-click Space switching, thumbnail previews, badges, and an integrated app launcher, and can hide the native Dock. Initially launched as a subscription, it faced strong pushback from users who want perpetual licenses for local utilities and fear abandonware; the developer quickly switched personal pricing to a $40 lifetime license with two years of updates.
+### TL;DR
 
----
+boringBar is a macOS 14+ Dock replacement that presents windows—not merely apps—as taskbar chips scoped to each desktop and display. It adds thumbnail previews, desktop switching, searchable launching, pinned apps, notification badges, grouping, titles, and scroll navigation, while optionally hiding the Dock. Accessibility permission controls windows and Spaces; Screen Recording is used only when fetching previews. After launch feedback rejected the original subscription, its creator changed personal pricing to a perpetual $40 license for two devices with two years of updates; businesses retain annual per-seat plans.
 
 ### Comment pulse
 
-- Subscription backlash → many reject recurring fees for a dock; want perpetual licenses that survive developer death — counterpoint: others say $10/year is reasonable.  
-- Alternative stacks → tinkerers already combine Alfred/Raycast, tiling WMs, and sketchybar/zebar for similar functionality, so see boringBar as convenience for non-tweakers.  
-- Quality expectations → past Dock replacements were buggy, especially notification badges; users demand rock-solid behavior and fast updates from anything replacing a core system UI.
-
----
+- Users overwhelmingly rejected indefinite payment for a local utility. — counterpoint: some argued recurring revenue honestly funds maintenance against macOS breakage.
+- The creator confirmed notification counts still cannot update for unopened apps, a recurring failure mode among Dock replacements.
+- Alternatives cited include uBar, Alfred/Raycast, Aerospace, and sketchybar/zebar, though boringBar’s polished integration attracted interest.
 
 ### LLM perspective
 
-- View: Window-centric, space-aware taskbars reduce cognitive load on multi-monitor setups where Apple's app-oriented Dock scales poorly.  
-- Impact: Most impactful for Windows switchers and visual thinkers; keyboard-heavy users of Alfred/Raycast or tiling managers gain less.  
-- Watch next: Interesting test case for hybrid pricing: will one-off personal licenses plus business subscriptions fund long-term maintenance of Mac utilities?
+- **View:** The rapid pricing reversal shows launch discussion can identify a product-market mismatch faster than feature praise.
+- **Impact:** A perpetual fallback lowers buyer risk, but system-level permissions and OS churn make trust and maintenance central.
+- **Watch next:** Badge reliability, activation behavior if the company disappears, multi-display edge cases, and upgrade pricing after support expires.

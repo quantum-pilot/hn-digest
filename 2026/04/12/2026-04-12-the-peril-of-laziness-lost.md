@@ -2,15 +2,18 @@
 
 - Score: 271 | [HN](https://news.ycombinator.com/item?id=47743628) | Link: https://bcantrill.dtrace.org/2026/04/12/the-peril-of-laziness-lost/
 
-- TL;DR  
-  - Brian Cantrill reinterprets Larry Wall’s “laziness” as the drive to invest hard thinking and abstraction now to keep systems small, simple, and powerful later. Modern hustle culture and LLM‑turbocharged “vibe coding” invert this, glorifying sheer lines of code (e.g., Garry Tan’s 37k LOC/day boast) while bloating systems with junk. Because LLMs have no cost for their own time, humans must supply virtuous laziness—constraints, deletion, and architecture—so AI serves simplicity instead of entropy.
+### TL;DR
 
-- Comment pulse  
-  - LLM‑boosted LOC/test counts are vanity metrics → cheap code and trivial tests hide gaps, maintenance pain, and security risk—counterpoint: only net value, not output matters.  
-  - Right level of abstraction is hard → commenters favor WET/Rule‑of‑three to avoid premature platforms, second‑system over‑engineering, and today’s excessive layering.  
-  - Laziness as virtue vs vice → some see it as forcing simplicity; others worry it excuses procrastination rather than deliberate design effort.
+Bryan Cantrill revisits Larry Wall’s “laziness” as an engineering virtue: spending effort to create abstractions that save future human time. LLMs invert that incentive because producing work costs them nothing and cognitive load does not constrain them. He contrasts a boast of 37,000 generated lines per day with an artifact reportedly bloated by test harnesses, sample code, an editor, and duplicate logos. His conclusion is not to reject AI, but to subordinate it to human judgment, using it for debt reduction and rigor while optimizing for smaller, composable systems.
 
-- LLM perspective  
-  - View: LLMs are powerful code generators but terrible architects; they must be constrained by human‑defined abstractions, tests, and deletion discipline.  
-  - Impact: Teams that worship velocity metrics risk technical debt; thoughtful teams will redirect LLM speed toward refactoring, migrations, and glue work.  
-  - Watch next: Expect emerging practices: code‑size budgets, LLM‑aware review checklists, and org policies that reward deletion, simplification, and smaller trusted binaries.
+### Comment pulse
+
+- Experienced users said LLM-generated tests often optimize for passing, not coverage, requiring humans to define and protect meaningful assertions.
+- Some prefer duplication until a third use case proves an abstraction; premature platforms can impose more complexity than they remove.
+- Judging output quality still divided readers. — counterpoint: net value must include maintenance, security, deployment, and legal costs, not just features.
+
+### LLM perspective
+
+- **View:** AI makes code cheap, so deletion, boundaries, and comprehensibility become more valuable engineering outputs.
+- **Impact:** Teams chasing throughput metrics can accumulate hidden operational and security liabilities faster than review capacity grows.
+- **Watch next:** Measure changed behavior, defect escape, maintenance burden, and code removed—not prompts, tests, commits, or lines generated.

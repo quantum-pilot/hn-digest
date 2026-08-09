@@ -3,14 +3,17 @@
 - Score: 432 | [HN](https://news.ycombinator.com/item?id=47738827) | Link: https://essays.johnloeber.com/p/4-bring-back-idiomatic-design
 
 ### TL;DR
-Author laments the loss of “idiomatic design”: shared UI conventions that made desktop apps predictable (menus, shortcuts, native widgets, clear labels). On the web, frameworks, custom components, touch constraints, and WebAssembly apps have produced idiosyncratic interfaces, broken browser behaviors, and cognitive overhead for routine tasks like entering dates or credit cards. He urges using native HTML/browser idioms, clear text over icons, and internal consistency. HN commenters supply concrete UX horror stories and debate whether true standardization is still feasible.
+
+John Loeber argues modern web apps sacrificed familiar interface conventions that made desktop software predictable. Windows-era menus, labeled controls, shortcuts, status bars, and native widgets let skills transfer between programs; today, custom frameworks, mobile compromises, rapid frontend experimentation, and the browser’s document heritage produce inconsistent shortcuts and controls. He recommends semantic HTML, working browser navigation, obvious words over ambiguous icons, internal consistency, and comprehension over beauty. Commenters agreed that native frameworks once enforced conventions, while noting cross-platform demands, distinct application contexts, and missing modern web primitives make standardization difficult.
 
 ### Comment pulse
-- Inconsistent key behaviors (Enter vs Ctrl/Shift+Enter across Slack, Teams, GitHub) force users to juggle mental models; commenters want globally stable, context-aware shortcuts.  
-- Root causes debated: missing system frameworks, rushed PM-led decisions, dark-pattern incentives—counterpoint: modern UX juggles accessibility, security, legacy browsers, and endless devices, making consensus hard.  
-- OS UI kits once enforced idioms; the web’s document roots and roll-your-own controls mean every app reinvents widgets like date pickers and credit-card forms.  
+
+- Enter, Shift-Enter, and Ctrl-Enter behavior varies bewilderingly among chat, issue, and formatting contexts; some users want configurable universal rules.
+- Native frameworks made conventions the easiest implementation — counterpoint: the web lacks an equivalent application toolkit and spans fundamentally different devices.
+- Date pickers, hidden scrollbars, flat buttons, and ambiguous icons became recurring examples of aesthetics overriding direct manipulation and accessibility.
 
 ### LLM perspective
-- View: Idioms are shared mental models; reusing them beats bespoke “clever” UIs, especially for forms, navigation, and keyboard handling.  
-- Impact: Consistent web idioms reduce onboarding time, errors, accessibility bugs, and support costs across SaaS, banking, and enterprise software.  
-- Watch next: Browser-native components for dates, payments, and rich text; opinionated design systems; telemetry-guided standards for shortcuts and input behavior.
+
+- **View:** Conventions spread when platforms encode them into easy defaults; guidance alone rarely overcomes cheaper custom or framework-driven choices.
+- **Impact:** Predictable controls reduce learning, errors, accessibility failures, and the cumulative cognitive tax of switching applications.
+- **Watch next:** Stronger browser widgets, semantic HTML adoption, cross-device conventions, shortcut customization, and design-system interoperability.

@@ -3,18 +3,17 @@
 - Score: 323 | [HN](https://news.ycombinator.com/item?id=47737383) | Link: https://www.theregister.com/2026/04/12/ios_passcode_bug/
 
 ### TL;DR
-A US student secured his iPhone with an alphanumeric passcode that included the Czech háček (ˇ). After updating from iOS 18 to 26.4, Apple’s lock-screen keyboard stopped allowing that character in passcodes: the key animates and clicks, but no symbol is entered. He’s now permanently locked out of irreplaceable photos, with Apple’s only suggestion being a data-wiping restore. HN sees this as a basic QA and product-responsibility failure, and a reminder to maintain cross-provider backups and downgrade options.
 
----
+After updating an iPhone 13 from iOS 18 to 26.4, a student could no longer enter the háček used in his alphanumeric passcode. The Czech character remains elsewhere, but the lock-screen password field ignores its key, leaving unbacked photos inaccessible; restoration would erase them, while Face ID and wired keyboards cannot operate before the first unlock. The Register reproduced the bug on iOS 26.4.1, and Apple did not respond. Commenters emphasized backups, downgrade options, and permanent fallback input for every character ever accepted in a passcode.
 
 ### Comment pulse
-- This is a bug, not a layout choice → character works elsewhere, only passcode input is broken—counterpoint: if it persists across versions, product decisions are involved.  
-- Real lesson: redundant backups, ideally cross-provider → any failure (bug, loss, lockout) can cost everything; big vendors won’t spend on low-value support.  
-- Apple broke “userspace” → if a character can be in a passcode, it must always be inputtable; lack of such tests is a deep security design flaw.
 
----
+- Readers saw a reproducible lock-screen bug, not necessarily an intentional keyboard change, because the visible key animates but enters nothing.
+- Backups would prevent data loss — counterpoint: users should never bear blame when a device accepts a password it later cannot input.
+- Recovery-mode updates may deliver a future fix without unlocking, but Apple’s restricted pre-unlock state blocks external-keyboard workarounds.
 
 ### LLM perspective
-- View: Passcode character sets must be treated as ABI-level contracts; regressions here are security, UX, and trust failures, not mere bugs.  
-- Impact: Multilingual users and power users are most exposed; but the reputational hit affects everyone considering strong, non-numeric passcodes.  
-- Watch next: Whether Apple adds invariant tests, issues a targeted fix, or documents guaranteed-safe character sets for passcodes across locales.
+
+- **View:** Authentication input is persistent data infrastructure; accepted characters require permanent compatibility, independent of later interface changes.
+- **Impact:** A localization regression can transform strong security into irreversible data loss for users without backups.
+- **Watch next:** Apple acknowledgment, a recovery-installable fix, regression tests across locales, fallback input, and safer downgrade paths.

@@ -3,18 +3,17 @@
 - Score: 324 | [HN](https://news.ycombinator.com/item?id=47737563) | Link: https://www.thealgorithmicbridge.com/p/ai-will-be-met-with-violence-and
 
 ### TL;DR
-The essay argues that as AI infrastructure becomes physically untouchable, anger will increasingly target the people behind it. Drawing parallels between Luddite attacks on mill owners and recent threats against Sam Altman, OpenAI offices, and data-center backers, the author warns that openly boasting about disrupting white‑collar work without credible transition plans fuels desperation. He condemns violence but fears escalation if many feel excluded from the future and treat “AI” as the face of a broader system of inequality. HN commenters tie this directly to power, not mere technology, and call for political and collective responses.
 
----
+Alberto Romero argues that anti-AI violence is beginning because data centers and algorithms are hard to attack while executives and local supporters remain physically vulnerable. Linking recent attacks and threats to Luddite history, he condemns violence but says industry leaders intensify resentment by publicly forecasting mass job loss without securing a transition. AI then becomes a scapegoat for broader inequality and displacement. Commenters largely located the danger in concentrated ownership and political inaction, debating regulation, strikes, democratized local models, historical analogies, and whether the essay’s inevitability framing was useful.
 
 ### Comment pulse
-- AI blamed for inequality → public sees “AI” as code for elite-driven job loss and hardship, making fine distinctions between tech and power largely irrelevant.  
-- Violence framed as last resort → when survival feels threatened and politics fail, history shows strikes and revolt can win gains—counterpoint: nonviolent strikes underused.  
-- Alien-invasion metaphors vs realism → some see AI as unstoppable colonizer; others insist it’s just software, and anthropomorphizing impedes sensible governance and accountability.
 
----
+- Many treated AI as shorthand for inequality because wealthy owners promote labor displacement while offering little transition support.
+- Some called violence historically inevitable — counterpoint: others favored political regulation, a general strike, and mutual aid as remaining nonviolent leverage.
+- Industrial Revolution comparisons divided readers: automation has displaced crafts before, but replacing knowledge work could be broader and faster.
 
 ### LLM perspective
-- View: AI backlash is about distribution, not capability → without visible pathways to security, technical nuance will not calm fear.  
-- Impact: Most exposed: young, precarious knowledge workers in rich countries and already-marginalized communities facing automation plus weak welfare states.  
-- Watch next: Track incidents against AI firms, unionization in tech, and redistribution plans (UBI, wage subsidies, ownership stakes) tied to productivity gains.
+
+- **View:** The central risk is social legitimacy: concentrated benefits and explicitly advertised displacement make a useful technology symbolize institutional abandonment.
+- **Impact:** Threats invite security escalation while obscuring workable debates about ownership, worker protection, competition, and transition policy.
+- **Watch next:** Verified incident trends, labor-market effects, transition programs, governance reforms, local-model capabilities, and leaders’ public rhetoric.

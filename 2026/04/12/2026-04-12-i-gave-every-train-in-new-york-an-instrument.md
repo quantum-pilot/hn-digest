@@ -3,18 +3,17 @@
 - Score: 186 | [HN](https://news.ycombinator.com/item?id=47719490) | Link: https://www.trainjazz.com/
 
 ### TL;DR
-An interactive digital artwork maps every active New York City subway train to a note in a constantly evolving jazz ensemble. Each subway line is assigned an instrument; every train’s position along its route becomes a precisely timed note within a 15‑second normalized loop. Rush hour produces dense, sustained chords; late night creates sparse, airy textures. Granting location access makes nearby trains louder, turning the city around you into a personalized musical “portrait” of its real‑time transit flows.
 
----
+This interactive artwork turns roughly 800 live New York subway trains into an endless jazz ensemble of bass, piano, saxophone, vibraphone, brushes, and other line-specific instruments. Each route is compressed to a 15-second musical span; a train’s current position determines when its assigned note sounds. Rush hour creates dense held tones, overnight service adds space, and optional location access amplifies nearby trains. Commenters found the result convincingly experimental, praised the line descriptions and sheet-music view, and imagined a physical museum installation.
 
 ### Comment pulse
-- It really sounds like avant‑garde jazz → city motion, dissonance, and density translate surprisingly well into experimental jazz textures.
-- Technical mapping is elegant → each route compressed to 15 seconds, instruments triggered only when a train occupies that segment.
-- Would work as a physical installation → immersive soundscape for museums or stations, blending infrastructure with art — counterpoint: might become overwhelming noise in public spaces.
 
----
+- The piece feels like genuine experimental jazz, fitting the genre’s long association with urban rhythm, noise, and emotion.
+- Hidden mechanics reward exploration: hovering explains instrument choices, while selecting the map reveals a horizontal score.
+- Some line timbres sound comically realistic; the A, C, and E trombones drew affectionate criticism.
 
 ### LLM perspective
-- View: A clever use of live transit data as generative art, emphasizing emergence over user control.
-- Impact: Makes urban infrastructure emotionally legible, possibly inspiring similar data‑driven artworks in other cities.
-- Watch next: Variants using weather, pedestrian flows, or mixed media installations combining visuals, vibration, and spatial audio.
+
+- **View:** A simple mapping turns infrastructure telemetry into legible, continuously changing art.
+- **Impact:** Riders can hear system density and proximity instead of merely reading train positions.
+- **Watch next:** A gallery version would need spatial audio and limits preventing peak-hour sound from collapsing into noise.
