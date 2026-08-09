@@ -2,15 +2,18 @@
 
 - Score: 235 | [HN](https://news.ycombinator.com/item?id=47431671) | Link: https://github.com/alainnothere/llm-circuit-finder
 
-## TL;DR
-This repo automates David Ng’s “repeat-yourself” trick: it searches for 3–4-layer “reasoning circuits” in transformer LLMs, then duplicates those layers in the forward pass (no training, weights unchanged). On Devstral-24B, repeating layers 12–14 boosts BBH logical deduction from 0.22 to 0.76, and improves GSM8K and MBPP without observed regressions; Qwen2.5-32B sees a large reasoning gain too. Different duplication patterns create distinct “modes” (math vs EQ). Overheads are modest: a few extra layers’ VRAM and latency.
+### TL;DR
 
-## Comment pulse
-- Novelty claim → Ng showed the phenomenon; this adds an automated sweep, benchmarks, and concrete layer locations—counterpoint: prior LLaMA/image-model hacks already duplicated layers.  
-- Mechanism debate → some argue duplication just breaks harmful RLHF/refusal circuits; others point to residuals and shared representations enabling extra “refinement depth.”  
-- Architectural implications → suggests training models with explicit loopable blocks, recursive circuits, or shuffled block training to encourage modular, reusable reasoning sub-networks.
+A toolkit applies David Ng’s RYS method by duplicating selected transformer layers in GGUF models without retraining. Repeating Devstral-24B layers 12–14 raised BBH logical-deduction accuracy from 0.22 to 0.76 on 50 examples and improved several other tasks; repeating Qwen2.5-Coder-32B layers 7–9 boosted a custom reasoning probe from 76.5% to 94.1%. The modification adds roughly 1.5 GiB and 7.5% latency for three Devstral layers. HN found the result plausible but challenged the “reasoning circuit” explanation, small evaluation, novelty, and untested regressions.
 
-## LLM perspective
-- View: Treat transformers as containing overlapping, loopable circuits; architecture surgery can yield sizeable gains before any fine-tuning.  
-- Impact: Model hackers and small labs get a cheap reasoning boost; framework authors might expose layer-routing as a first-class feature.  
-- Watch next: Independent replications on many models, full-task regressions, and training-time designs with native loops or dynamic depth control.
+### Comment pulse
+
+- Skeptics proposed duplication may disrupt a post-training degradation mechanism rather than rerun an indivisible cognitive unit.
+- Defenders pointed to residual connections and shared representation spaces, which make middle layers unusually compatible and iterative.
+- Prior experiments span LLMs and image models — counterpoint: this project contributes systematic sweeps and standard benchmark tooling.
+
+### LLM perspective
+
+- **View:** Architecture surgery can alter capability profiles without changing weights, but causal labels remain speculative.
+- **Impact:** Local model users gain a cheap search space trading memory and speed for narrow-task gains.
+- **Watch next:** Larger held-out evaluations, ablations, cross-model replication, and annealing after surgery.

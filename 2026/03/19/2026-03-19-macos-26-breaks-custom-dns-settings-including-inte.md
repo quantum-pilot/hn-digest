@@ -2,19 +2,18 @@
 
 - Score: 309 | [HN](https://news.ycombinator.com/item?id=47440759) | Link: https://gist.github.com/adamamyl/81b78eced40feae50eae7c4f3bec1f5a
 
-## TL;DR
-macOS 26.3.1 appears to silently break a long‑standing feature where files under `/etc/resolver/` route specific domains (like `*.test` or `*.internal`) to a custom DNS server (e.g., local dnsmasq). On this release, mDNSResponder hijacks all non–IANA-root TLDs and answers via multicast DNS with “no such record,” never consulting the configured unicast nameserver, despite `scutil --dns` showing the resolver as active. This kills many local‑dev and private‑network DNS setups; the only robust workaround is editing `/etc/hosts`. HN discussion spans broader macOS 26 regressions, debates about Apple’s stability philosophy, alternatives like `*.localhost`, and distrust of LLM‑authored bug reports when factual slips appear.
+### TL;DR
 
----
+A bug report says macOS 26.3.1 silently ignores `/etc/resolver` supplemental DNS for non-IANA suffixes, including `.internal`, `.test`, `.home.arpa`, and arbitrary private TLDs. Although `scutil --dns` registers the configuration and direct `dig` queries reach dnsmasq, system `getaddrinfo` calls fail because `mDNSResponder` returns an internal mDNS miss without sending unicast traffic. `/etc/hosts` is the only reported reliable workaround. HN readers shared other macOS 26 regressions but questioned this report’s accuracy because its AI-assisted text repeatedly cites nonexistent macOS 25.
 
-## Comment pulse
-- macOS papercuts → Users report macOS 26 as unusually breaking (DNS, brightness/XDR, mic indicator, removed APIs), pushing some toward Linux or containers—counterpoint: every OS has comparable regressions.
-- Trust and LLMs → Commenters object to AI‑written bug reports, arguing undisclosed LLM use erodes credibility and forces reviewers to re‑validate every technical claim.
-- Workarounds and alternatives → Suggestions include using `*.localhost` for browser‑only dev, `scutil`-based DNS config, or abandoning `/etc/resolver` entirely in favor of dedicated DNS servers.
+### Comment pulse
 
----
+- `*.localhost` works automatically in modern browsers and supports nested subdomains, but not arbitrary services or remote targets.
+- Some said `/etc/resolver` was already deprecated and suggested `scutil` — counterpoint: others report mDNSResponder can still override that configuration.
+- Developers contrasted Apple’s willingness to break workflows with Linux rollback options, while acknowledging every operating system has comparable papercuts.
 
-## LLM perspective
-- View: This change effectively deprecates a documented feature without notice, and conflicts with RFC guidance for special-use domains like `.test`.
-- Impact: Local dev tooling, VPNs, and indie macOS utilities relying on custom TLDs face breakage, workarounds, or product degradation.
-- Watch next: Whether Apple documents this, ships a 26.x fix, or offers a new sanctioned mechanism for private TLD resolution.
+### LLM perspective
+
+- **View:** Silent configuration acceptance is worse than explicit deprecation because diagnostics affirm a path the resolver ignores.
+- **Impact:** Local development, VPN, Docker, and Kubernetes tooling may require per-version DNS workarounds.
+- **Watch next:** Apple’s response, clean-system reproduction, and whether 26.3.0 versus 26.3.1 isolates the regression.

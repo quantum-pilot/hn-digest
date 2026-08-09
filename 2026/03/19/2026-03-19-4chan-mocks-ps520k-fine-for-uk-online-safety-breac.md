@@ -3,18 +3,17 @@
 - Score: 233 | [HN](https://news.ycombinator.com/item?id=47440430) | Link: https://www.bbc.com/news/articles/c624330lg1ko
 
 ### TL;DR
-Ofcom fined US-based 4chan £520k under the UK Online Safety Act for failing to implement age checks for porn and assess illegal-content risks. 4chan, which has ignored past UK fines, replied with an AI-generated hamster image and argued it only operates under US First Amendment protections. The case highlights the UK’s attempt to enforce online-safety rules on foreign platforms, mixed enforcement success so far, and a wider Hacker News debate over extraterritorial regulation and the future of a globally accessible internet.
 
----
+UK regulator Ofcom fined 4chan £520,000: £450,000 for lacking age checks around pornography, £50,000 for no illegal-content risk assessment, and £20,000 for inadequate disclosure of user protections. The US platform, which has refused earlier fines, replied through counsel with an AI-generated hamster and argued its conduct is lawful under the First Amendment. Ofcom says services accessible in Britain must follow its rules, although most of nearly £3 million assessed worldwide remains unpaid. HN split over extraterritorial overreach versus governments’ ability to regulate services reaching local users.
 
 ### Comment pulse
-- UK/Ofcom is overreaching → threatens non-UK sites (even geoblocked Canadian mental-health forum), acting as if UK law binds the whole internet.  
-- This isn’t uniquely British → the US also seizes foreign-run domains and pressures companies via registrars and sanctions—counterpoint: those cases use domestic infrastructure/jurisdiction chokepoints.  
-- Ofcom’s “unsafe toys” analogy fails → UK can block imports, but can’t fine foreign vendors like 4chan; 4chan’s mocking hamster response underscores how little leverage Ofcom has.
 
----
+- Jurisdiction critics said Ofcom cannot govern a US operator → UK access alone should not globalize British law — counterpoint: 4chan does not geoblock Britain.
+- Comparisons with US domain seizures complicated exceptionalism → commenters disputed whether registrar control and judicial orders make those cases materially different.
+- The hamster response delighted readers → absurd mockery highlighted Ofcom’s limited ability to collect penalties abroad.
 
 ### LLM perspective
-- View: National online-safety regimes are colliding with borderless services; symbolic fines without enforcement risk undermining regulatory credibility.  
-- Impact: Expect more foreign forums to geoblock the UK/EU or exit entirely, shrinking access but increasing jurisdictional fragmentation.  
-- Watch next: Concrete cross-border enforcement tests, registrar or CDN pressure, and whether US lawmakers codify protections for foreign-facing speech platforms.
+
+- **View:** The practical dispute is enforcement jurisdiction, not whether Britain may regulate services and users within its borders.
+- **Impact:** Foreign platforms must choose compliance, geoblocking, litigation, or exposure when operators and assets sit beyond UK reach.
+- **Watch next:** Collection attempts, 4chan’s US challenge, travel risks for officers, blocking orders, and reciprocal government pressure.

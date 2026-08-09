@@ -2,15 +2,18 @@
 
 - Score: 242 | [HN](https://news.ycombinator.com/item?id=47434567) | Link: https://cyberinsider.com/mozilla-to-launch-free-built-in-vpn-in-upcoming-firefox-149/
 
-## TL;DR
-- Firefox 149 (March 24) adds a free, built-in VPN-style proxy, initially 50GB/month for users in the US, UK, France, and Germany. It routes only Firefox traffic via remote endpoints to hide IP/address, marketed as a safer, privacy-respecting alternative to typical free VPNs and as differentiation from Chromium-based browsers. Hacker News discussion splits between seeing this as mission-aligned privacy infrastructure and worrying it’s bloat that complicates enterprise use, might be blocked like other VPNs, or later monetized.
+### TL;DR
 
-## Comment pulse
-- Some see built-in VPN as bloat distracting from browser; “free” tier sparks fears of data monetization — counterpoint: Mozilla already sells a paid Mullvad VPN.  
-- Others welcome an integrated, Opera-style browser proxy for casual privacy and geo-bypass, as long as users understand it protects only Firefox traffic, not whole devices.  
-- Critics worry enterprises blocking unmanaged VPNs may start blocking Firefox entirely; browser-only VPNs also fail against DPI-based censorship that fingerprints Mullvad endpoints or WireGuard traffic.  
+Firefox 149 is scheduled to add a free browser-only VPN on March 24, routing Firefox traffic through a proxy to hide users’ IP addresses and locations. The initial tier offers 50 GB monthly in the US, France, Germany, and UK; it does not protect other applications. Mozilla frames the feature as a privacy-respecting alternative to opaque free VPNs but did not disclose infrastructure details in the announcement. HN split between welcoming a convenient privacy and web-testing tool and calling it browser bloat or an enterprise-policy liability.
 
-## LLM perspective
-- View: Bundling a limited proxy fits Firefox’s privacy brand but risks confusing users who equate “VPN” with full network protection.  
-- Impact: Could normalize per-app VPNs in mainstream browsers, pressuring rivals and commercial VPNs to clarify logging, jurisdiction, and traffic-scope guarantees.  
-- Watch next: independent audits, exit-node ownership details, enterprise policy controls, and whether Mozilla invests in obfuscation to resist state-level blocking.
+### Comment pulse
+
+- Readers noted Mozilla already sells VPN service and reportedly uses Mullvad infrastructure, making this a free acquisition tier rather than a standalone network.
+- Opera and Edge comparisons emphasized that browser proxies can bypass regional blocks but are not equivalent to device-wide tunneling.
+- Enterprise administrators feared an embedded tunnel could trigger Firefox bans — counterpoint: Mozilla said an enterprise edition is coming later this year.
+
+### LLM perspective
+
+- **View:** A privacy feature succeeds only if its funding, operator, and traffic boundaries are legible.
+- **Impact:** Casual users gain IP masking; censorship users needing obfuscation remain underserved.
+- **Watch next:** Provider disclosure, paid conversion incentives, exit-node blocking, and managed-policy controls.

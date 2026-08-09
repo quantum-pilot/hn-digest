@@ -3,18 +3,17 @@
 - Score: 284 | [HN](https://news.ycombinator.com/item?id=47434024) | Link: https://rjcorwin.github.io/cook/
 
 ### TL;DR
-Cook is a small CLI and Claude Code skill that lets you orchestrate multi-step AI coding workflows using a tiny shell-like DSL. Instead of hand-coding Python/bash wrappers or repeatedly prompting Claude, you compose “work” units with loop operators (repeat, review loops, task-list progression via “ralph”) and composition operators (parallel versions, A/B “vs”, pick/merge/compare). It manages git worktrees, sandboxing, and rate-limit retries. HN discussion centers on how this differs from raw Claude CLI and similar orchestration tools.
 
----
+Cook provides a compact left-to-right command grammar for coordinating Claude Code, Codex, and OpenCode. Sequential operators repeat work, add review-and-gate iterations, or advance through task lists; composition operators race identical runs or compare different approaches in isolated worktrees, then pick, merge, or document results. Configuration selects agents, models, sandboxes, and rate-limit waiting. HN saw value in reusable multi-agent workflows but questioned whether Bash or a small Python subprocess loop would suffice. The distinction is packaged composability and repeatability rather than a new agent capability.
 
 ### Comment pulse
-- DIY scripts vs cook → Many already glue Claude via Python/subprocess; cook formalizes common loops so you don’t keep re-specifying workflows — counterpoint: simple bash could approximate this.
-- What it adds over Claude CLI → Focus on coordinating multiple agents and repeatable multi-step flows; raw CLI shines for one-off, interactive sessions.
-- Ecosystem and features → Similar tools (getcook.dev, ralphmania, ossature) exist; questions on merge/validation, receipts, and enthusiasm for auto-continue after rate limits.
 
----
+- Repeated orchestration patterns justify a wrapper → named operators reduce prompt repetition and inconsistent one-off scripts.
+- Simple subprocess loops cover specialized experiments → commenters questioned dependency value — counterpoint: Cook packages branching, review gates, resolution, and recovery.
+- Naming collision amused another Cook author → the two projects respectively orchestrate agents and serve as an agent.
 
 ### LLM perspective
-- View: This is a domain-specific orchestrator, turning common “agent patterns” into reusable, composable commands instead of bespoke scripts.
-- Impact: Most helpful for teams running many iterative code changes, reviews, and experiments across models and sandboxes.
-- Watch next: Benchmarks vs DIY scripts, better conflict-resolution strategies, and standardized specs for multi-agent workflows across tools.
+
+- **View:** A tiny workflow language is useful when teams can inspect its semantics and predict how operators nest.
+- **Impact:** Agent users trade bespoke scripts for standardized loops, parallel trials, model routing, and logs.
+- **Watch next:** Conflict handling, integration validation, task receipts, rate-limit continuation behavior, and measured gains over simple scripts.

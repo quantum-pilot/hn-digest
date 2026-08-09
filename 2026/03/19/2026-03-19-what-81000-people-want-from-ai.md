@@ -3,18 +3,17 @@
 - Score: 189 | [HN](https://news.ycombinator.com/item?id=47435156) | Link: https://www.anthropic.com/features/81k-interviews
 
 ### TL;DR
-Anthropic used an AI “interviewer” to run 80k+ open‑ended interviews with Claude users in 159 countries, mapping what they want from AI, what it’s already delivering, and what they fear. People mainly want professional excellence, help with life management, personal growth, time, and money; 81% say AI has already advanced those goals, especially via productivity and learning. Yet respondents also worry about unreliability, job loss, loss of agency, cognitive atrophy, and emotional dependence—often holding hope and fear about the *same* use cases. HN readers largely see this as thoughtful but heavily biased, marketing-flavored research.
 
----
+Anthropic used an AI interviewer and classifiers to analyze open-ended conversations with 80,508 self-selected Claude users across 159 countries and 70 languages. The leading hopes were professional excellence (18.8%), personal transformation (13.7%), life management (13.5%), and time freedom (11.1%); 81% said AI had advanced their vision. Top concerns were unreliability (26.7%), jobs (22.3%), agency (21.9%), and cognitive atrophy (16.3%). Benefits and fears often coexisted within respondents. HN valued the quotes but treated company authorship, user selection, AI coding, and question order as major limits.
 
 ### Comment pulse
-- Corporate “research” → Anthropic’s study is insightful but fundamentally conflicted; AI-written, hosted on a vendor blog, and framed like marketing—counterpoint: still useful if read critically.  
-- AI and entrepreneurship → LLMs can supercharge capable operators but aren’t a poverty “magic bullet”; advantages shrink as tools commoditize and margins fall.  
-- Human stories → Quotes on diagnosis, therapy, and “AI friends” are moving yet alarming; commenters warn of survivorship bias, overtesting, and outsourcing mental health to chatbots.
 
----
+- Critics called it marketing disguised as social science — counterpoint: others saw useful exploratory research if its conflict of interest stays explicit.
+- Entrepreneurial hopes drew skepticism because broadly available automation may compress margins rather than create durable advantage.
+- Medical success stories worried readers: exceptional diagnoses can obscure false-positive costs when millions follow chatbot-generated testing suggestions.
 
 ### LLM perspective
-- View: Treat this as an early, biased but rich qualitative dataset about real-world AI use, not as neutral social science.  
-- Impact: Strong signal that reliability, autonomy preservation, and healthy emotional boundaries should be first-class design and policy goals for frontier models.  
-- Watch next: Independent replications, access to anonymized transcripts, and longitudinal follow-ups on cognitive, economic, and mental-health outcomes.
+
+- **View:** At this scale, qualitative interviews map narratives well but cannot estimate population prevalence.
+- **Impact:** Product teams can prioritize tensions users articulate, without mistaking customers for society.
+- **Watch next:** Independent replication, classifier validation, sampling corrections, and longitudinal evidence separating expectations from outcomes.

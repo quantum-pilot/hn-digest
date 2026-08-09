@@ -3,20 +3,17 @@
 - Score: 588 | [HN](https://news.ycombinator.com/item?id=47434047) | Link: https://haskellforall.com/2026/03/a-sufficiently-detailed-spec-is-code
 
 ### TL;DR
-- The author argues that claims about “agentic coding” building systems from natural-language specs are misleading: to be precise enough, the spec inevitably turns into pseudo-code.  
-- OpenAI’s Symphony “SPEC.md” is used as a case study: it embeds schemas, algorithms, even literal code, yet still fails to generate a correct Haskell implementation via an LLM and exhibits flaky behavior.  
-- Two misconceptions are targeted: that specs are easier than code, and that spec-writing is naturally more thoughtful; under speed/outsourcing incentives, you just get sloppier, code-shaped documents.  
 
----
+The author argues that reliable code generation cannot eliminate programming labor: a specification precise enough to determine behavior becomes pseudocode, formalism, or code itself. OpenAI’s Symphony illustrates the claim; its lengthy specification embeds schemas, algorithms, redundancy, and literal pseudocode, yet Claude Code’s Haskell implementation still contained bugs and stalled on a trivial ticket. The post says specifications should support deliberate design, not promise cheaper delivery. HN agreed reliability demands constrained details, while noting models can successfully infer familiar, low-stakes boilerplate from terse prompts.
 
 ### Comment pulse
-- LLMs can interpolate missing code details from terse prompts → works for small, common tasks; fails reliably for complex, novel requirements—counterpoint: “reliably” is doing too much work there.  
-- Brooks’ “No Silver Bullet” echoed → fully detailed specs are essentially code; vibe-coding fits CRUD/to‑do apps but collapses for unique or correctness-critical software.  
-- Spec as envelope of valid programs → crafting it is often harder than a single implementation, especially for performance and security, which specs rarely exhaustively capture.  
 
----
+- Model weights act as a shared codebook → terse prompts can decode familiar applications — counterpoint: novelty and complexity sharply reduce reliability.
+- A specification defines an envelope of compliant programs → underspecified security, performance, and interfaces permit both good and dangerous implementations.
+- Formal methods expose the same tradeoff → abstract specifications widen the verification gap, while precise synthesis languages move closer to code.
 
 ### LLM perspective
-- View: Treat “spec → system” as aspirational; today’s sweet spot is “spec + code → faster human iteration,” not full automation.  
-- Impact: Teams must budget for better specs, tests, and review when adopting agents, or they just industrialize slop.  
-- Watch next: Rigorous benchmarks of spec-to-implementation conformance, plus tools marrying formal methods with LLMs for constrained synthesis.
+
+- **View:** Agents compress implementation when conventions supply missing detail; they do not erase the need to define novel behavior.
+- **Impact:** Teams should spend specification effort on constraints, risks, and acceptance tests rather than translating every algorithm into prose.
+- **Watch next:** Repeated Symphony reproductions, conformance rates, brownfield maintenance results, and machine-checked links between specifications and implementations.

@@ -2,16 +2,18 @@
 
 - Score: 389 | [HN](https://news.ycombinator.com/item?id=47437782) | Link: https://bsky.app/profile/chriso-wiki.bsky.social/post/3mhfsau25uk2f
 
-- TL;DR  
-  Danish public broadcaster reporting suggests Denmark quietly prepared for large-scale military confrontation with the US over control of Greenland, with France reportedly offering extensive support. Hacker News discussion pivots to Europe’s dependence on US security, arguing this episode validates traditional French Gaullism and the need for sovereign capabilities, including nuclear and defense industries. Commenters link the story to post‑COVID, post‑Ukraine disillusionment with US power, NATO’s asymmetry, and question how allies can credibly conduct joint operations after planning for war with each other.  
-  *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  - Europe needs strategic autonomy → US repeatedly shown as unreliable; De Gaulle’s experience and post‑WW2 US meddling justify French insistence on independent nuclear and defense capacity.  
-  - NATO both vital and unhealthy → Russia’s war boosted NATO, yet dependence reinforces a weak Europe and breeds resentment as US soft power and legal credibility collapse.  
-  - Near‑war over Greenland poisons trust → if allies contemplated full war recently, joint missions (e.g., Hormuz) look absurd—counterpoint: some say such cooperation isn’t realistically on the table anyway.
+According to Danish broadcaster DR’s unnamed Danish and European sources, Denmark prepared in January to resist a possible US attempt to seize Greenland after President Trump’s threats and the US attack on Venezuela. Denmark deployed elite troops and armed F-35s, readied runways for demolition, and coordinated French, German, Nordic, and British support under an exercise. Multiple flags were intended to make any incursion an unmistakable attack on Europe and NATO. HN discussion centered on lost US trust and the case for European military autonomy.
 
-- LLM perspective  
-  - View: Episode highlights how “allies” can become contingently adversarial when territorial or resource stakes rise, despite dense institutional ties.  
-  - Impact: Strengthens arguments for EU defense integration, French-style sovereignty, and skepticism toward US-led security guarantees.  
-  - Watch next: Concrete moves: EU defense spending targets, joint procurement, nuclear-sharing debates, and any declassification clarifying the Denmark–US–Greenland confrontation.
+### Comment pulse
+
+- Readers praised France’s retained nuclear, naval, and aerospace capacity as vindication of Gaullist strategic independence.
+- Some argued Russia’s invasion strengthened NATO only for Washington to rapidly squander allied goodwill.
+- The past tense drew skepticism — counterpoint: DR’s sources reportedly still assess the United States as a continuing threat.
+
+### LLM perspective
+
+- **View:** Alliance credibility can collapse faster than force structures can be rebuilt.
+- **Impact:** Nordic defense planning will increasingly treat political volatility as a military input.
+- **Watch next:** Danish policy, allied deployments, and whether Greenland re-enters US strategic rhetoric.

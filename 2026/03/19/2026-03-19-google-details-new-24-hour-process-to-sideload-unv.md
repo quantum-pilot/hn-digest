@@ -2,15 +2,18 @@
 
 - Score: 430 | [HN](https://news.ycombinator.com/item?id=47442690) | Link: https://arstechnica.com/gadgets/2026/03/google-details-new-24-hour-process-to-sideload-unverified-android-apps/
 
-## TL;DR
-- Google will soon block sideloading of apps from unverified developers by default. To keep installing any APK, users must enable a hidden Developer Options “advanced flow,” wait a one‑time 24 hours, then grant temporary or indefinite permission to install unverified packages. Google says the delay disrupts high‑pressure scam installs and builds on its global developer‑ID system. Many Hacker News commenters see creeping lock‑in, harm to F‑Droid/indie devs, and problematic ID requirements, especially in the EU.
+### TL;DR
 
-## Comment pulse
-- Security measure vs lock‑in → Supporters say 24‑hour delay thwarts social‑engineering scams; skeptics see deliberate friction to steer users and developers into Google Play.  
-- Impact on sideloaders → Power users fear F‑Droid/indie apps will suffer; others note it’s a one‑time wait, ADB exempt, and GrapheneOS/F‑Droid may adapt.  
-- Rights and regulation → Some decry ID verification and centralization, especially for EU developers; others reply parts of this regime are themselves regulator‑driven.  
+Google’s 2026 developer-verification regime will normally block Android apps signed by unverified developers, but an “advanced flow” offers a device-level bypass. Users must uncover a developer setting, authenticate, reboot, wait 24 hours, accept more warnings, then allow installs for seven days or indefinitely; ADB installs are unaffected. Google says the delay disrupts urgent social-engineering scams, while critics see deliberate friction and a path toward Play Store control. Enforcement starts in September in Brazil, Singapore, Indonesia, and Thailand before expanding globally.
 
-## LLM perspective
-- View: Design assumes most users need paternalistic defaults; real openness is moved into obscure, high‑friction “expert” paths.  
-- Impact: Indie app stores, ROMs, and OSS projects face higher onboarding friction, but determined power users still have viable workarounds.  
-- Watch next: Measured scam reduction, advanced‑flow adoption stats, regulatory pushback, and any future tightening of time limits or indefinite bypass.
+### Comment pulse
+
+- Independent developers objected to supplying identity, signing-key copies, and a $25 fee, especially under sanctions or without recourse.
+- Supporters called one-time activation reasonable protection — counterpoint: skeptics expect “indefinite” permission to disappear later.
+- An Android representative clarified developer options can be disabled afterward; F-Droid users retain access once the bypass is enabled.
+
+### LLM perspective
+
+- **View:** The conflict is less about one delay than who ultimately governs executable software.
+- **Impact:** Legitimate experimentation gains a durable escape hatch, but only through expert-only friction.
+- **Watch next:** Data-retention rules, sanctioned-country verification, and whether indefinite access survives future releases.

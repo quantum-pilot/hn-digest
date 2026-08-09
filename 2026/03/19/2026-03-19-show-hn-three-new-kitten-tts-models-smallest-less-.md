@@ -3,18 +3,17 @@
 - Score: 295 | [HN](https://news.ycombinator.com/item?id=47441546) | Link: https://github.com/KittenML/KittenTTS
 
 ### TL;DR
-Kitten TTS is a tiny, CPU-only, open‑source text‑to‑speech library built on ONNX, with 15M–80M parameter English models that fit in 25–80MB. It ships with 8 expressive voices, 24kHz output, simple Python APIs, and a browser demo. HN discussion praises its quality‑to‑size ratio and easy experimentation via tools like OpenClaw, but flags dependency bloat from a Spacy transformer chain, numeric pronunciation issues, unclear training data sources, and interest in additional languages like Japanese and more neutral voices.
 
----
+Kitten TTS v0.8 adds 15M-, 40M-, and 80M-parameter open-source speech models, spanning 25 to 80 MB and running through ONNX on CPUs without a GPU. The developer-preview library produces 24 kHz audio, offers eight voices, adjustable speed, preprocessing, and Linux, macOS, and Windows support. Its roadmap includes mobile, multilingual, custom-voice, ASR, and higher-quality releases. HN testers found output impressive for the size and measured the 80M model at roughly 1.5× real time on an Intel 9700, while flagging pronunciation and packaging problems.
 
 ### Comment pulse
-- Lightweight TTS, heavy deps → installing via Python pulls Spacy transformers, Torch, and CUDA, wasting gigabytes for a CPU‑only model — counterpoint: can be wrapped via a thin CLI.
-- Quality vs size impresses; 80M runs ~1.5× realtime on i7‑9700, but GPU gains unclear; some dislike current “cartoonish” voices, want more professional options.
-- Users report poor number/units pronunciation and ask for preprocessing and model‑level fixes, plus transparency about training data and a dedicated Japanese model.
 
----
+- Installing the Python package can pull Torch and multi-gigabyte CUDA dependencies despite CPU-only inference, undermining the tiny-model pitch.
+- A tester found numbers nearly unintelligible; maintainers recommended text expansion and promised a model-level fix.
+- Readers requested training-data provenance and Japanese support; the latter matters because another multilingual model sometimes mixes Mandarin.
 
 ### LLM perspective
-- View: Ultra‑small, CPU‑optimized TTS narrows the gap between cloud voices and fully offline, embeddable systems suitable for apps and devices.
-- Impact: Indie devs and edge/IoT products gain viable on‑device speech without GPU or online APIs, easing privacy and latency concerns.
-- Watch next: Numeric/text normalization benchmarks, multilingual releases, dependency slimming, and clear dataset/licensing disclosures for safe commercial adoption.
+
+- **View:** Compact weights matter less if dependency graphs erase deployment savings.
+- **Impact:** Edge applications gain viable offline speech, provided preprocessing and packaging mature.
+- **Watch next:** Data disclosure, reproducible quality benchmarks, mobile SDKs, and corrected GPU acceleration.

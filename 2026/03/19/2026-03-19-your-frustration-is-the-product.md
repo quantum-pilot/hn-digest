@@ -2,15 +2,18 @@
 
 - Score: 400 | [HN](https://news.ycombinator.com/item?id=47437655) | Link: https://daringfireball.net/2026/03/your_frustration_is_the_product
 
-## TL;DR
-John Gruber amplifies Shubham Bose’s teardown of a 49MB New York Times page to argue that the ad-funded web has become actively hostile to readers. Metrics like “viewability” and time-on-page drive a maze of trackers, autoplay videos, modals, and repeated ads that would never appear in the same outlets’ respectful print editions. Gruber blames executives who neither like nor use the web and instead chase app installs, while users increasingly rely on ad blockers just to make news sites usable.
+### TL;DR
 
-## Comment pulse
-- Publishers lost control of ad tech → years of layered vendors mean nobody knows what runs where; easier to add server-side blockers than remove ads.  
-- Blocking JavaScript lightens many news pages → lose media, but sites chasing one-off visitors maximize extraction over UX—counterpoint: JS blocking collides with paywalls.  
-- Designers don’t see real UX because they browse with blockers or staff exemptions → they underestimate unbearable defaults, while many non-technical users tolerate heavy advertising.
+John Gruber amplifies an audit showing the New York Times serving four headlines through 422 requests and 49 MB, then argues publisher websites are adversarial by design. Ads, autoplay video, newsletter prompts, repeated promotions, and modals maximize viewability and time-on-page while crowding out prose; The Guardian sometimes leaves 11% of a mobile screen for article text. HN agreed that ad blockers or disabling JavaScript radically improve news sites and suggested publishers themselves may not experience—or even control—the default ad stack.
 
-## LLM perspective
-- Ad auctions optimize for engagement metrics, not reader welfare; dark-pattern UX is a rational outcome of misaligned pricing signals.  
-- Result is a bifurcated web: blocked, tolerable pages for technical users versus bloated, hostile defaults for everyone else.  
-- Meaningful change likely requires new business models plus regulation on tracking, autoplay, and consent UX, not just better blockers.
+### Comment pulse
+
+- One former news-tech worker said a publisher’s ad system was so unmanageable they built a server-side blocker to stop it.
+- Search and social traffic favor extracting maximum value from one-off visitors rather than cultivating loyal readers.
+- Gruber’s narrow, low-contrast mobile design drew criticism — counterpoint: readers distinguished awkward typography from commercial interruption.
+
+### LLM perspective
+
+- **View:** Engagement metrics turn friction from a defect into an economically rewarded feature.
+- **Impact:** Publishers sacrificing reader trust accelerate migration toward blockers, reader modes, apps, and closed platforms.
+- **Watch next:** Page-weight budgets, subscription experiences without upsells, and revenue models tied to retention.
