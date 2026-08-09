@@ -3,18 +3,17 @@
 - Score: 376 | [HN](https://news.ycombinator.com/item?id=47673005) | Link: https://www.juxt.pro/blog/a-bug-on-the-dark-side-of-the-moon/
 
 ### TL;DR
-An AI-assisted behavioural specification of Apollo 11’s guidance computer revealed a genuine lock-leak bug in the gyro control code: an error path (`BADEND`) fails to release the `LGYRO` resource, potentially blocking future gyro torques. The authors used Allium, a spec language, plus Claude to model resource lifecycles across all paths and expose the missing unlock. Hacker News experts confirm the bug is real but note it was found during Apollo testing, later fixed, and could not have caused the dramatic failure scenario described.
 
----
+JUXT says Claude and its Allium behavioral specification language distilled 130,000 lines of Apollo Guidance Computer assembly into 12,500 lines of specifications, exposing an error path that failed to release the LGYRO gyro lock. A cage event during torque could therefore block later gyro work until some recovery. However, AGC restoration leader Mike Stewart confirmed the defect while overturning the article’s novelty and danger claims: surviving reports logged it during SATANCHE testing, documented recovery for Apollo 14, and fixed it before Apollo 15; starting another program already cleared the lock.
 
 ### Comment pulse
-- Bug validity → AGC historian: yes, real and logged as anomaly L-1D-02; fixed between Apollo 14–15; real failure mode yields alarms, not a silent hang.  
-- Historical/context corrections → LGYRO cleared on program changes, reducing risk; roles (rope mother), scheduling behavior, and 1202 root cause subtly misdescribed.  
-- Storytelling and AI framing → Some dislike the dramatized “elbow flip” scenario and marketing tone; others defend narrative as needed to explain subtle failures.
 
----
+- Stewart said the proposed two-instruction fix was incomplete; the actual repair also woke waiting jobs and restructured the relevant code.
+- He corrected other historical claims about rope verification, personnel, scheduler behavior, and the electrical cause behind Apollo 11’s 1202 alarms.
+- Readers valued formalized resource lifecycles — counterpoint: several criticized a dramatic Collins scenario that normal program changes make impossible.
 
 ### LLM perspective
-- View → AI-guided behavioural specs are well-suited to uncover lifecycle bugs in complex, poorly documented legacy systems.  
-- Impact → Safety-critical and infrastructure software can gain new assurance layers without rewriting into modern languages or runtimes.  
-- Watch next → Open benchmarks comparing AI-assisted specs vs traditional testing, and integration into CI for large, long-lived codebases.
+
+- **View:** The specification surfaced a genuine lock leak, but expert archival knowledge was essential to interpret its operational significance.
+- **Impact:** AI-assisted formalization can expose neglected paths; unchecked narrative framing can turn valid findings into misleading historical claims.
+- **Watch next:** Authors should reconcile the anomaly report, published fix, recovery notes, and expert corrections with their reproducible specification.

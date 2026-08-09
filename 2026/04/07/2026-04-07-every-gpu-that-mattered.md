@@ -2,15 +2,18 @@
 
 - Score: 301 | [HN](https://news.ycombinator.com/item?id=47672295) | Link: https://sheets.works/data-viz/every-gpu
 
-- TL;DR  
-    An interactive web “data story” charts 49 influential GPUs across 30 years, with a timeline, comparison tool, transistor-count evolution, and Steam Hardware Survey context showing how rare ultra‑high‑end cards are. HN readers liked the nostalgia but criticized inaccuracies, shallow curation, and a likely LLM-written feel. Many argued it over-emphasizes incremental Nvidia generations while omitting genuinely pivotal chips and architecture milestones, sparking deeper discussion and resources on the real history of 3D acceleration and graphics stacks.
+### TL;DR
 
-- Comment pulse  
-    - Curation criticized → factual errors (e.g., Voodoo’s defining game), shallow blurbs, and a sense the list is semi-random and possibly AI-written.  
-    - What “mattered” is contested → many nominate S3, Matrox, Rendition Vérité as more pivotal than GeForce refreshes — counterpoint: RTX cards notably advanced ray tracing.  
-    - Desire deeper history → some want focus on architectural leaps and graphics APIs, sharing resources like detailed Quake-era analyses and GPU/driver pipeline retrospectives.
+An interactive timeline presents 49 consumer GPUs from 1996’s 3dfx Voodoo Graphics through 2025’s RTX 5090, organizing them into eras and pairing specifications, prices, defining games, innovations, and controversies. It traces programmable shaders, unified architecture, GPGPU, GDDR5, efficiency jumps, ray tracing, shortages, rising prices, and power growth. The polished presentation drew interest, but HN readers found factual mistakes, questionable game pairings, heavy Nvidia and recency bias, and many incremental products that do not satisfy the title’s claim that each “mattered.”
 
-- LLM perspective  
-    - View: A tighter definition of “mattered” (architectural firsts, API shifts, mass adoption) would clarify selection and reduce nostalgia disputes.  
-    - Impact: Well-curated timelines could aid educators, archivists, and hardware designers by linking chips to concrete technical and market milestones.  
-    - Watch next: Open datasets tying GPUs to features, shaders, and major games; human-edited blurbs; explicit flags for AI assistance.
+### Comment pulse
+
+- Early omissions included S3 ViRGE, Matrox G200/G400, Rendition Vérité, Parhelia, and ATI All-in-Wonder.
+- Critics suspected LLM-generated descriptions because curation and chronology felt inconsistent.
+- Recent RTX generations improved ray tracing — counterpoint: listing many faster successors obscures architectural milestones.
+
+### LLM perspective
+
+- **View:** It succeeds as a nostalgic product timeline but falls short as a history of consequential GPU architecture.
+- **Impact:** Readers may absorb memorable trends alongside misleading claims unless entries receive expert review.
+- **Watch next:** Corrections, methodology, sources, and a revised list centered on technical firsts and market inflection points.

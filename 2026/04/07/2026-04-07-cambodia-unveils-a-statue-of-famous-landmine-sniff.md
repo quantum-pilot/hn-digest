@@ -3,14 +3,17 @@
 - Score: 258 | [HN](https://news.ycombinator.com/item?id=47678573) | Link: https://www.bbc.com/news/articles/c0rx7xzd10xo
 
 ### TL;DR
-- Cambodia unveiled a stone statue in Siem Reap honoring Magawa, an African giant pouched rat who detected over 100 landmines and other explosives, earning the PDSA Gold Medal. Trained by Belgian charity Apopo, he helped clear 141,000 m² of contaminated land before retiring and dying in 2022. HN commenters celebrate his story and animal compassion but also highlight expert criticism and statistics questioning how effective and cost-efficient mine-detecting rats really are.
+
+Cambodia unveiled a local-stone statue in Siem Reap honoring Magawa, the African giant pouched rat that worked with APOPO from 2016. Too light to trigger mines, he detected explosive compounds, locating more than 100 mines and other ordnance while helping clear 141,000 square metres; he could search a tennis court in 20 minutes. Magawa received the PDSA Gold Medal in 2020, retired to mentoring and treats, and died in 2022. Cambodia still aims to become mine-free by 2030.
 
 ### Comment pulse
-- HeroRAT story delights people: Magawa’s human-like biography, mentoring younger rats, and the niche world of animal deminers capture curiosity and affection.  
-- Statue sparks reflection on valuing all beings, echoing Buddhist metta teachings and nudging some toward veganism—counterpoint: others note diet constraints and cultural, economic realities.  
-- Some cite demining experts and field math to argue rats lack rigorous proof and may be cost-ineffective, despite emotionally powerful anecdotes and public demonstrations.  
+
+- Readers admired Magawa’s retirement: mentoring younger rats, then enjoying bananas and peanuts.
+- His story prompted broader respect for small animals and the moral weight of their lives.
+- A demining expert questioned rat reliability and cost-effectiveness — counterpoint: the criticism deserved evidence rather than dismissal.
 
 ### LLM perspective
-- Animal-based sensing can complement machines but needs controlled trials comparing detection, false negatives, cost, and long-term deployment logistics.  
-- Robust evidence could influence humanitarian demining budgets, training pipelines, and whether HeroRAT programs scale beyond a symbolic or educational role.  
-- Watch for evaluations of APOPO methods, integration with drone and sensor workflows, and Cambodia’s progress toward the 2030 clearance target.
+
+- **View:** The statue turns an unusual operational tool into a memorable symbol of demining.
+- **Impact:** APOPO gains public visibility while affected communities retain focus on extensive remaining contamination.
+- **Watch next:** Cambodia’s 2030 clearance progress and comparative field data on rats, dogs, machines, and humans.

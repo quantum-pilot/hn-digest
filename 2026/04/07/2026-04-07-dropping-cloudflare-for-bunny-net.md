@@ -2,22 +2,18 @@
 
 - Score: 364 | [HN](https://news.ycombinator.com/item?id=47675013) | Link: https://jola.dev/posts/dropping-cloudflare
 
-## TL;DR
+### TL;DR
 
-An Elixir/Phoenix blogger describes moving from Cloudflare to Bunny.net mainly to avoid dependence on a single US infrastructure giant and to support an EU-based alternative. Bunny is used as a drop‑in CDN replacement for Cloudflare’s “orange cloud,” while the domain registrar moves to Porkbun. The post walks through creating a Bunny pull zone, configuring DNS, tuning caching (including caching HTML with `s-maxage`), enabling Origin Shield and stale-cache settings, and adding redirect edge rules. HN discussion centers on affiliate-link transparency, free vs. paid infra, lock‑in, support, and billing risk.
+A longtime Cloudflare user moved a Phoenix blog’s registrar to Porkbun and its CDN proxy to European provider Bunny.net, mainly to reduce dependence on one US company. The guide configures a Bunny pull zone, custom hostname, TLS, origin-aware caching, Origin Shield, stale serving, and a redirect from the generated CDN domain. HTML caching makes the site fast but requires purging after publication. Bunny charges by usage with a $1 monthly minimum; the author praises its logs and support while acknowledging Cloudflare’s broader free platform.
 
----
+### Comment pulse
 
-## Comment pulse
+- Readers flagged initially excessive affiliate links; the author disclosed the relationship and removed some links.
+- Paying a small predictable fee clarifies the value exchange — counterpoint: paid providers can also change prices abruptly.
+- Bunny offers prepaid spend protection and support; Cloudflare retains stronger integrated tooling and a formidable free tier.
 
-- Affiliate links must be clearly disclosed → otherwise endorsements can violate FTC/UK guidance; readers expect explicit “I earn from…” disclaimers.  
-- Preference for small paid providers → clearer value exchange, better support, prepaid billing avoids surprise-bill disasters — counterpoint: CDNs/DNS are easy to switch, free tiers lower startup friction.  
-- Cloudflare Workers/Pages offer excellent DX and powerful free tier → but multi-layer edge caching is hard to debug; Bunny competes on simplicity, observability, and responsive support.
+### LLM perspective
 
----
-
-## LLM perspective
-
-- View: This reflects a broader push away from mega-platform monoculture toward multiple, regionally diverse infra providers.  
-- Impact: Indie devs and small SaaS gain more pricing predictability, jurisdictional choice, and operational clarity at the cost of some platform features.  
-- Watch next: Benchmark Bunny’s edge/runtime stack vs Cloudflare; track S3-compatible storage launch, WinterCG/WinterTC adoption, and any pricing or free-tier shifts.
+- **View:** This is a practical CDN substitution, not a full replacement for Cloudflare’s edge platform.
+- **Impact:** Small sites gain provider diversity with modest cost and manageable migration work.
+- **Watch next:** Cache-purge race behavior, regional debugging, support quality, and portability of proprietary edge APIs.

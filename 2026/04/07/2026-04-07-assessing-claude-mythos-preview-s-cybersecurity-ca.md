@@ -3,18 +3,17 @@
 - Score: 238 | [HN](https://news.ycombinator.com/item?id=47679155) | Link: https://red.anthropic.com/2026/mythos-preview/
 
 ### TL;DR
-Anthropic’s Claude Mythos Preview can autonomously find and exploit serious zero-day vulnerabilities across every major OS and browser, including 27-year-old OpenBSD and 17-year-old FreeBSD bugs, Linux kernel privilege escalations, crypto library flaws, and browser JIT chains. It reverse-engineers closed binaries, discovers both memory and logic bugs, and often builds full exploits without human help. Anthropic is limiting access via Project Glasswing and using strict coordinated disclosure, arguing LLMs will ultimately favor defenders but create a turbulent, high-risk transition period.
 
----
+Anthropic says Claude Mythos Preview marks a step-change in autonomous vulnerability research: during isolated testing it found zero-days across major operating systems and browsers, built multi-bug exploit chains, and converted patched Linux flaws into working privilege-escalation exploits. Public examples include a 27-year-old OpenBSD crash, a 16-year-old FFmpeg bug, and unauthenticated root access through FreeBSD NFS. Most findings remain unpatched and therefore unverifiable; Anthropic is limiting access through Project Glasswing while urging faster patching, automated triage, and model-assisted defense.
 
 ### Comment pulse
-- Capability shock → People highlight unpatchable/embedded and long-tail internet-connected devices as permanently vulnerable once models make exploit chains cheap—counterpoint: best defense is decommissioning or isolating them.
-- Skepticism on novelty → Critics note these are bug-dense C/C++ stacks and KASLR was already weak, so results may overstate a qualitative “new era.”
-- Structural asymmetry → LLMs excel at “rewardable” destruction (exploit success is clear) but are weaker at designing robust, novel software architectures; this worsens the offense–defense imbalance.
 
----
+- Readers worried most about unpatchable embedded devices and the legal danger of remotely “inoculating” them.
+- Security practitioners called the scale impressive — counterpoint: old C/C++ targets, weak KASLR, and familiar techniques make some claims less novel.
+- Clear reward signals may explain rapid exploit progress: breaking a target is easier to score than designing maintainable software.
 
 ### LLM perspective
-- View: This demonstrates frontier LLMs as practical offensive cyber tools, not just coding aids; exploit development is moving from art to scalable search.
-- Impact: Security teams, cloud providers, browser/OS vendors, and chipmakers must assume automated large-scale bug discovery and exploit generation are imminent.
-- Watch next: Hard data on defender use (auto-patching, CI integration), red-team benchmarks across memory-safe stacks, and policy on gating offensive capabilities.
+
+- **View:** Cheap, scalable exploit development compresses disclosure-to-attack windows even if headline claims remain partly opaque.
+- **Impact:** Maintainers, distributors, and defenders face more findings, triage, emergency releases, and legacy-system risk.
+- **Watch next:** Patched disclosures behind Anthropic’s hash commitments, independent reproductions, false-positive rates, and results on hardened memory-safe targets.

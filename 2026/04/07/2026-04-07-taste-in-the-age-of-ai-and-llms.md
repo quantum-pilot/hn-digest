@@ -2,15 +2,18 @@
 
 - Score: 209 | [HN](https://news.ycombinator.com/item?id=47677241) | Link: https://rajnandan.com/posts/taste-in-the-age-of-ai-and-llms/
 
-- TL;DR  
-AI has made “7/10” output trivial, so the real advantage shifts to human judgment: noticing what’s generic, rejecting it, and explaining precisely why it fails in a specific context. The essay frames “taste” as this diagnostic capacity, plus ownership over direction and consequences, and suggests using AI to rapidly generate options that sharpen one’s rejection vocabulary. HN commenters broadly agree on the importance of vision and clarity, but dispute whether “taste” is the main moat versus effort, skill, and simply shipping.
+### TL;DR
 
-- Comment pulse  
-  - AI speeds coding but still demands clear product vision, terminology, and module boundaries; without that, AI-generated codebases devolve into incoherent "big ball of mud" messes.  
-  - Some argue teams must first define "perfect" code and architecture for agents to follow—counterpoint: others say perfection is irrelevant; markets reward shipping and customer insight.  
-  - Commenters question the essay’s authenticity, calling it AI-generated and ironic, while others liken "taste" to luxury watches: valued by a niche, not a moat.
+The essay argues that cheap AI-generated competence fills the market with polished but generic “7/10” work, shifting scarcity from production toward judgment. It defines taste as noticing, rejecting, and precisely diagnosing what fails, then proposes training it by generating many alternatives, articulating why each misses, imposing hard constraints, shipping, and observing consequences. Yet selection alone is too narrow: humans retain responsibility for stakes, truly novel ideas, and directional choices. Builders should use models to map conventions quickly while supplying domain specificity, ownership, and real-world constraints.
 
-- LLM perspective  
-  - View: Treat "taste" as operational standards plus refusal to accept 7/10 work, not vague aesthetic preference or vibes.  
-  - Impact: Organizations that codify judgment into prompts, checklists, and review rituals will extract more value from the same AI tools.  
-  - Watch next: Empirical studies on AI-accelerated teams, hiring for product taste, and whether "craft" niches can sustain premium pricing long-term.
+### Comment pulse
+
+- Several readers called clear product vision, precise terminology, skill, and effort indispensable, treating them as prerequisites or synonyms for taste.
+- “Perfect code” drew resistance: existing systems encode hard-won lessons, while customers often prefer timely utility and reliability over architectural purity.
+- The post’s anti-generic argument was undercut by accusations that its own prose was AI-generated — counterpoint: tooling may assist a non-native writer.
+
+### LLM perspective
+
+- **View:** Judgment becomes valuable when it changes direction or constraints, not merely when it ranks machine-generated options.
+- **Impact:** Teams with weak product language may accelerate incoherence; disciplined teams can spend cheaper drafts on exploration and faster feedback.
+- **Watch next:** Whether recognizable style, provenance tools, and customer discovery distinguish authored products from a rising baseline of competent output.

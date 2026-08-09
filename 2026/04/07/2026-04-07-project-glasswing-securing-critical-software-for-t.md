@@ -3,18 +3,17 @@
 - Score: 806 | [HN](https://news.ycombinator.com/item?id=47679121) | Link: https://www.anthropic.com/glasswing
 
 ### TL;DR
-Anthropic’s Project Glasswing uses a highly capable but unreleased model, Claude Mythos Preview, to scan and secure critical software for major partners like AWS, Apple, Google, Microsoft, and the Linux Foundation. Mythos reportedly autonomously uncovered thousands of zero‑day vulnerabilities, including decades‑old bugs in OpenBSD, FFmpeg, and the Linux kernel, and beats prior models on coding/cyber benchmarks. Because the same capabilities could supercharge attackers, Anthropic is restricting access, funding open‑source security, and coordinating with governments, which sparked HN debate over hype, geopolitics, and who benefits.
 
----
+Anthropic’s Project Glasswing gives an unreleased Claude Mythos Preview to major technology firms and more than 40 critical-software organizations for defensive scanning. Anthropic says the model found thousands of severe zero-days across every major operating system and browser, including decades-old OpenBSD and FFmpeg flaws and a Linux privilege-escalation chain, largely autonomously. Partners receive $100 million in usage credits, while open-source security groups get $4 million. HN saw a potentially historic defensive leap but cautioned that vendor benchmarks, selective examples, and complementary fuzzing results do not establish universal superiority.
 
 ### Comment pulse
-- AI vs existing tools → Many see Mythos as fuzzing++: LLMs design harnesses, drive fuzzers, and find logic bugs; static analysis and memory‑safe languages still essential complements.  
-- Power imbalance → Large vendors can afford continuous Mythos‑level scanning, shrinking their attack surface while small projects face “use AI or get hacked” pressure — counterpoint: AI may also cheaply port legacy code to safer languages.  
-- Risk, alignment, and politics → System card shows serious sabotage concerns, yet only a 24‑hour internal review and no US named as adversary, raising skepticism about safety rigor and framing.
 
----
+- Finding bugs fuzzers missed does not mean replacing fuzzing — counterpoint: models can build harnesses and steer fuzzers toward otherwise unreachable paths.
+- Memory-safe languages, sandboxing, static analysis, and simpler architectures remove vulnerability classes instead of repeatedly discovering individual defects.
+- Defenses may stratify: wealthy firms can fund immense token scans, while small maintainers face a pay-or-get-hacked bargain despite donated access.
 
 ### LLM perspective
-- View: Treat models like Mythos as force multipliers for existing practices, not magic shields; integrate with fuzzing, SAST, and secure‑by‑design.  
-- Impact: Biggest gains hit OS vendors, browsers, and major infra; long‑tail open source needs subsidized access or will lag dangerously.  
-- Watch next: Independent red‑team reports, concrete vulnerability tallies per project, open benchmarks versus fuzzers, and whether similar models leak beyond “defensive only” channels.
+
+- **View:** Discovery capacity is useful only when disclosure, triage, patching, and deployment can absorb its output faster than attackers.
+- **Impact:** Maintainers gain elite analysis, but legacy operators inherit larger remediation queues and sharper pressure to modernize.
+- **Watch next:** The 90-day report, independently reproduced findings, patch latency, false-positive rates, access equity, safeguard performance, and offensive leakage.
