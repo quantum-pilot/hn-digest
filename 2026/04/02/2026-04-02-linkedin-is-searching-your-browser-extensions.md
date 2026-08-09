@@ -2,19 +2,18 @@
 
 - Score: 1527 | [HN](https://news.ycombinator.com/item?id=47613981) | Link: https://browsergate.eu/
 
-## TL;DR
-A campaign group alleges that LinkedIn injects JavaScript that silently checks which browser extensions you have installed, including job-search, competitor, political, religious, and accessibility tools, then sends those results to LinkedIn and third parties without disclosure. They frame this as illegal surveillance, corporate espionage, and DMA non‑compliance in the EU. In the discussion, a LinkedIn representative claims the probing only targets scraping/automation extensions for abuse prevention, but many commenters argue that the technique itself is a serious, under‑regulated privacy and trust violation.
+### TL;DR
 
----
+Fairlinked alleges LinkedIn’s Chrome-site code probes over 6,000 browser extensions by testing known resources and DOM residue, then transmits encrypted results without disclosure. Because LinkedIn links visitors to identities and employers, the group says data can reveal sensitive traits, job searches, and competitors’ customer usage; it has filed DMA proceedings. LinkedIn responds that detection targets scraping and automation extensions, protects members and stability, never infers sensitive information, and follows a failed German injunction by the campaigner. HN agreed probing is invasive but sharply disputed motive, scope, and alarmist framing.
 
-## Comment pulse
-- Privacy/abuse concern → Scanning installed extensions, especially those revealing religion, politics, or disability, is seen as disproportionate to ToS enforcement and potentially dangerous profiling.
-- LinkedIn defense → Claims probe only for scraping extensions via static resource URLs; complainant lost a German lawsuit—counterpoint: no public evidence, and Microsoft’s past behavior erodes trust.
-- Bigger picture → Users now expect fingerprinting and rely on ad blockers; others note blockers can’t fully stop embedded scripts and call for browser‑level sandboxed “real” privacy modes.
+### Comment pulse
 
----
+- Specific-ID probing may reflect browser API limits rather than arbitrary computer access — counterpoint: choosing sensitive extensions still creates serious privacy risk.
+- Ad blockers may miss detection embedded in application code; changing browsers can stop some probing but not DOM-residue fingerprinting.
+- LinkedIn says extension signals contextualize abnormal scraping — counterpoint: commenters preferred rate limits over inspecting users’ software environments.
 
-## LLM perspective
-- View: Extension probing is a technically clever but socially toxic pattern; it exploits obscure browser behavior users can’t reasonably anticipate or control.
-- Impact: Regulators, browser vendors, and enterprise security teams will need to reassess what counts as acceptable “abuse prevention” versus undisclosed surveillance.
-- Watch next: DMA/GDPR enforcement actions, Chrome/Edge/Firefox changes around extension detectability, and independent audits of large platforms’ fingerprinting and anti‑scraping stacks.
+### LLM perspective
+
+- **View:** The observable technique and disputed purpose should be evaluated separately; neither side’s motive claims establish actual downstream use.
+- **Impact:** Extension developers, job seekers, and enterprise customers face profiling risk even when detected attributes are only probabilistic.
+- **Watch next:** Independent reproduction, published scan lists, LinkedIn disclosures, regulator findings, court records, and browser-level defenses against extension probing.

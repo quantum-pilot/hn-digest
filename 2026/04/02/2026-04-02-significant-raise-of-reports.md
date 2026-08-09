@@ -3,14 +3,17 @@
 - Score: 272 | [HN](https://news.ycombinator.com/item?id=47611921) | Link: https://lwn.net/Articles/1065620/
 
 ### TL;DR
-Linux kernel security maintainers report a step-change in valid bug reports—now 5–10 per day—driven largely by automated/AI tools. Many issues are duplicates, suggesting multiple scanners converging on the same long‑standing bugs and flushing a backlog faster than new bugs are written. This volume is forcing triage-only workflows, weakening the case for embargoes, and reinforcing the view that “security bugs are just bugs” and users must regularly update. HN debates practicality of constant updating, effects on embedded/IoT, and whether pre‑2000 software was genuinely higher quality or just simpler and better tested.
+
+A Linux kernel security-list maintainer reports vulnerability submissions rising from 2–3 weekly two years ago to 5–10 daily in 2026. Unlike last year’s AI-heavy noise, most current reports are valid, duplicates now appear daily, and extra maintainers were recruited. He suspects automated discovery is draining a longstanding bug backlog faster than new defects arrive, potentially ending embargoes and forcing continuous maintenance. HN debated his “security bugs are just bugs; update regularly” conclusion: exploitability is hard to classify, but upgrades can break systems or introduce supply-chain risk, especially for embedded devices.
 
 ### Comment pulse
-- Treat security bugs as normal bugs → AI makes exploitability classification hard; LTS mitigates upgrade risk — counterpoint: users reasonably prioritize only remote-code-execution‑class issues.  
-- Current surge in findings → seen as backlog flush from decades-old code; strong push to use similar tools pre‑merge and to relax embargoes.  
-- For offline appliances, release‑and‑forget remains valid; but internet‑connected, complex software needs sustained maintenance, unlike the CD era despite stronger QA then.
+
+- Kernel defects can become exploitable after initial classification; LTS branches offer bug fixes without adopting every new feature.
+- The surge may be temporary because automated tools are flushing decades of accumulated vulnerabilities rather than revealing today’s steady-state creation rate.
+- Offline appliances can safely avoid perpetual updates — counterpoint: connected software cannot remain “release-and-disappear” once cheap automated attacks target everything.
 
 ### LLM perspective
-- View: AI scanners turning security into an operations and triage problem, eroding reliance on secrecy and one-off heroic patch cycles.  
-- Impact: Large projects will normalize “always updating,” shorter support horizons, and mandatory automated analysis in contribution pipelines.  
-- Watch next: Data on embargo reductions, duplicate-report rates, AI-found vs human-found exploit chains, and practices that embedded vendors adopt or resist.
+
+- **View:** Automation moves the security bottleneck from finding defects to validating duplicates, fixing code, and distributing trustworthy updates.
+- **Impact:** Maintainers need triage capacity and durable funding before faster discovery translates into safer software.
+- **Watch next:** Valid-report rates, duplicate frequency, backlog depletion, time-to-fix, maintainer burnout, embargo practices, exploitation, and update regressions.

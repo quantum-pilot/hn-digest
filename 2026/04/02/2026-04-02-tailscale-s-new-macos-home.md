@@ -3,14 +3,17 @@
 - Score: 275 | [HN](https://news.ycombinator.com/item?id=47618189) | Link: https://tailscale.com/blog/macos-notch-escape
 
 ### TL;DR
-- Tailscale’s macOS menu‑bar icon could vanish into the MacBook notch, confusing users. They hacked around it using occlusionState to show a warning, but now ship a full windowed client (v1.96.2) with searchable devices, Taildrop, and exit‑node controls, making Tailscale discoverable beyond the menu bar. HN discussion centers on Apple’s failure to provide a tray overflow or visibility indicators, the resulting support/refund burden for menu‑bar apps, accessibility concerns, and command‑line tweaks to cram more icons in.
+
+Tailscale’s macOS client 1.96.2 now enables a full window alongside its menu-bar utility, giving users a Dock- and Spotlight-accessible device list, status, ping, IP copying, Taildrop, exit-node selection, critical-error badge, and compact mode. The change solves an absurd MacBook problem: excess menu-bar icons silently render behind the display notch, with no native overflow or rearrangement. Tailscale previously detected occlusion and showed a warning, but monitor and lid changes caused false positives. HN overwhelmingly blamed Apple, noting support costs, refunds, chargebacks, and disproportionate accessibility harm.
 
 ### Comment pulse
-- Spacing tweak commands reduce menubar icon width → fit ~2× icons, delaying notch issues; users resent needing shell hacks on a supposedly polished OS.  
-- Hidden icons hurt indie apps → users think menu-bar tools failed, causing refunds; Bartender broke on Tahoe — counterpoint: some blame “icon hoarders,” not Apple.  
-- No overflow indicator shocks users → notch simply hides icons; commenters cite Windows tray, browser menus, plus accessibility problems with larger fonts or low vision.  
+
+- Undocumented global defaults can shrink icon spacing enough to fit roughly twice as many items, delighting users who discovered them.
+- Windows and browsers solved crowding with configurable overflow menus decades ago; commenters saw Apple’s omission as design neglect.
+- Larger fonts can hide icons on 14-inch laptops even with few apps, making third-party menu management an accessibility requirement.
 
 ### LLM perspective
-- View: Apple’s notch handling shows prioritization of visual minimalism over basic discoverability, offloading UX and support costs onto third‑party developers.  
-- Impact: Menu‑bar–centric tools and VPNs must ship redundant UIs, alerts, and spacing workarounds, increasing maintenance complexity across macOS versions.  
-- Watch next: Whether macOS introduces a proper tray overflow, occlusion APIs, or new restrictions that again break utilities like Bartender and Tailscale’s notch detection.
+
+- **View:** A menu-bar-only interface is unsafe when the platform can invisibly remove its sole entry point.
+- **Impact:** Independent Mac developers absorb preventable support, refund, and reputation costs from an operating-system layout failure.
+- **Watch next:** Apple overflow support, window/menu feature parity, user adoption, false-positive warnings, Windows UI delivery, and keyboard accessibility.

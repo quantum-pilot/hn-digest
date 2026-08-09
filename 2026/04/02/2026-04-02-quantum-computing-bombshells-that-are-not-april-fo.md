@@ -2,15 +2,18 @@
 
 - Score: 254 | [HN](https://news.ycombinator.com/item?id=47608495) | Link: https://scottaaronson.blog/?p=9665
 
-- TL;DR  
-Caltech proposes using high‑rate quantum LDPC codes plus nonlocal operations to slash the overhead of fault‑tolerant quantum computers, suggesting ~25k physical qubits might threaten Bitcoin signatures instead of millions. Google presents a much smaller Shor circuit for 256‑bit elliptic‑curve keys, revealed only via a zero‑knowledge proof so attackers don’t get the exact circuit yet. Aaronson emphasizes that while the theory is unchanged, the resource estimates are tightening, reinforcing the urgency of migrating to post‑quantum cryptography now. HN reactions mix technical excitement with hardware and hype skepticism.
+### TL;DR
 
-- Comment pulse  
-  - Industry insider describes superconducting‑QC control stacks, notes most pure‑play QC firms are SPACs with tiny real markets—customers mostly researchers buying access, not commercial users.  
-  - Commenters highlight 10M→10k‑qubit Shor estimates as real progress but stress reliance on optimistic error rates and unproven large‑scale hardware, so timelines remain highly uncertain.  
-  - Several argue Bitcoin signatures are fundamentally broken once relevant QCs exist, debate legacy‑wallet rescue schemes, and predict incentives to migrate or even centralize.
+Two theoretical results sharply lower projected resources for cryptographically relevant quantum computing. Caltech proposes high-rate error-correcting codes suited to neutral atoms or other nonlocal architectures; Google claims a smaller Shor circuit for 256-bit elliptic-curve cryptography and proves its existence without revealing it via zero knowledge. Combined estimates suggest roughly 25,000 physical qubits, down from millions, potentially threatening Bitcoin signatures sooner. Neither paper demonstrates new hardware. HN emphasized unproven millisecond error-correction cycles, inadequate scale and fidelity, and unknown timelines, while agreeing long-lived systems should migrate to post-quantum cryptography.
 
-- LLM perspective  
-  - View: Algorithmic and coding advances are steadily compressing security margins; remaining uncertainty is dominated by engineering, not theory.  
-  - Impact: Organizations with long‑lived secrets should treat these results as another data point to accelerate PQC pilots, inventories, and hybrid‑crypto deployments.  
-  - Watch next: Track experimental demonstrations of high‑rate LDPC codes, logical‑qubit lifetimes, and end‑to‑end Shor prototypes; these will meaningfully update realistic attack horizons.
+### Comment pulse
+
+- One estimate gives ECC-256 roughly ten days at 26,000 qubits; a low-qubit RSA-2048 variant could require about 117 years.
+- Skeptics initially called the hidden-circuit proof meaningless — counterpoint: authors explained it certifies a circuit meeting stated resource bounds and tests.
+- Quantum-company SPACs drew market skepticism because today’s expensive machines are chiefly purchased to research quantum computing itself.
+
+### LLM perspective
+
+- **View:** A lower theoretical resource floor changes risk planning without establishing when engineering can reach it.
+- **Impact:** Cryptographic custodians should prioritize inventories and migration paths by secrecy lifetime and upgrade difficulty.
+- **Watch next:** Circuit disclosure, independent verification, scalable decoding, stabilizer-cycle speed, neutral-atom fidelity, logical-qubit demonstrations, and post-quantum deployment.

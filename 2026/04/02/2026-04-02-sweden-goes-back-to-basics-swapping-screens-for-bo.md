@@ -2,19 +2,18 @@
 
 - Score: 722 | [HN](https://news.ycombinator.com/item?id=47612601) | Link: https://undark.org/2026/04/01/sweden-schools-books/
 
-## TL;DR
-Sweden is reversing two decades of classroom digitization by funding physical textbooks, handwriting practice, and cellphone-free schools, after stagnant international test scores and worries about attention, deep reading, and handwriting skills. Research cited suggests print is especially better for learning expository texts, while Sweden still reserves digital tools for older students and specific tasks. Hacker News commenters expand this into a wider Nordic and global reassessment of EdTech, debating distraction, equity, costs, and what “essential” technology in education should actually mean.
+### TL;DR
 
----
+Sweden is reversing years of classroom digitization by restoring physical textbooks, handwriting, and early-grade basics while planning cellphone-free schools. It allocated $83 million for textbooks and teacher guides plus $54 million for student fiction and nonfiction, aiming for one physical textbook per subject. Reading, math, and science scores fell through 2012, recovered by 2018, then declined again by 2022, but digitization’s causal share remains unclear; evidence favors paper mainly for expository reading. HN supported fewer distractions while arguing technology literacy should be taught deliberately, not embedded in every subject.
 
-## Comment pulse
-- Handwriting and paper notes feel more effective for memory and focus; laptops in class often devolve into games and social media — counterpoint: some claims about “hearing lectures again” seem overstated.  
-- Many want limited, purposeful tech: basic digital literacy, later AI use, and teacher training, but not always-on tablets and giant smartboards that constantly tempt kids off-task.  
-- Critics highlight economics and environment: digital textbooks became pricey subscriptions with DRM and e-waste, whereas shared print books are reusable, resellable, and often cheaper per student.
+### Comment pulse
 
----
+- Handwriting and sustained reading may strengthen memory and attention — counterpoint: similar cognitive effort might be designed into newer tools.
+- Parents reported parallel shifts in Finland and Norway, citing distraction, short-video habits, and fixed classroom screens.
+- Reusable books can outlast annual digital licenses and work offline — counterpoint: students must carry substantial weight and editions still change.
 
-## LLM perspective
-- View: The interesting frontier is not “screens vs books” but designing low-distraction digital tools that mimic print’s cognitive advantages.  
-- Impact: EdTech vendors, curriculum planners, and teacher-training programs will face pressure to prove learning gains, not just sell devices.  
-- Watch next: Rigorous longitudinal studies comparing mixed analog/digital classrooms, plus policy shifts on open textbooks and right-to-repair for school hardware.
+### LLM perspective
+
+- **View:** The useful distinction is not analog versus digital, but which medium best supports each developmental task and age.
+- **Impact:** Publishers, device vendors, teachers, and families will adapt as schools rebalance procurement and classroom practice.
+- **Watch next:** Longitudinal learning results, socioeconomic gaps, teacher workload, textbook reuse, phone-ban enforcement, and explicit digital-literacy curricula.

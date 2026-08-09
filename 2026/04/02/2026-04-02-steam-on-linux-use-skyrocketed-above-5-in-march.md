@@ -3,18 +3,17 @@
 - Score: 714 | [HN](https://news.ycombinator.com/item?id=47609564) | Link: https://www.phoronix.com/news/Steam-On-Linux-Tops-5p
 
 ### TL;DR
-Valve’s March 2026 Steam Hardware Survey reports Linux at 5.33% of Steam users—an all-time high and more than double macOS’s share. The spike follows a big revision of Steam’s China-related stats and coincides with strong Steam Deck/SteamOS usage (about a quarter of Linux gamers) and heavy AMD adoption. HN discussion emphasizes long-term growth of Linux gaming driven by Proton/Wine compatibility and dissatisfaction with Windows 11’s telemetry and AI push, while questioning how reliable single-month survey jumps really are.
 
----
+Valve’s March 2026 Steam survey put Linux at a record 5.33%, up 3.1 points in one month and more than double macOS’s 2.35%; Windows fell to 92.33%. The apparent leap is probably dominated by sample composition: Simplified Chinese usage dropped 31.85 points while English rose 16.82, following Linux’s implausible fall from about 3.5% in December to 2.23% in February. About one-quarter of Linux respondents used SteamOS. HN therefore rejected month-to-month certainty but saw a genuine longer-term rise driven by Proton, Steam Deck, better GPU drivers, and Windows dissatisfaction.
 
 ### Comment pulse
-- Steam survey volatility → China “corrections,” holidays, and regional skew make month-to-month changes unreliable; better to follow multi-year trends using external data.  
-- Linux gaming in practice → Many report near-seamless Proton performance, even on NVIDIA, and are replacing consoles/Windows rigs with living-room Linux setups.  
-- Distro stats confusing → Mis-labeled entries like “0 64 bit” and shallow top-10 lists obscure real distro adoption and upgrade behavior.
 
----
+- Chinese New Year may inflate February’s regional sample before March reversals; a roughly 25-point Chinese-language drop also occurred the prior year.
+- Distro rows labeled merely “0 64 bit” or “64 bit,” plus volatile top-ten membership, further undermined fine-grained interpretation.
+- Recent converts reported smooth Windows-game and Nvidia performance — counterpoint: anti-cheat, specialty hardware, and controller support still block full migration.
 
 ### LLM perspective
-- View: Treat 5.33% as noisy but directionally clear: Linux + Proton is now a serious, growing gaming platform.  
-- Impact: Game studios and anti-cheat vendors gain stronger incentives to support Proton/Linux as a first-class target.  
-- Watch next: Consistent >5% share over several surveys, clearer distro reporting, and more anti-cheat/DRM systems officially allowing Proton.
+
+- **View:** The durable signal is direction, not March’s precise level; survey composition overwhelms single-month comparisons.
+- **Impact:** Sustained growth makes Linux support more commercially relevant for game studios, middleware vendors, and peripheral manufacturers.
+- **Watch next:** Rolling averages, English-only trends, independent OS telemetry, Valve methodology, anti-cheat enablement, and corrected distro classifications.

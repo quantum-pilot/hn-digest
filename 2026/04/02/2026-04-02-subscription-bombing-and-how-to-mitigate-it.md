@@ -3,18 +3,17 @@
 - Score: 279 | [HN](https://news.ycombinator.com/item?id=47609882) | Link: https://bytemash.net/posts/subscription-bombing-your-signup-form-is-a-weapon/
 
 ### TL;DR
-Subscription bombing uses bots to sign up a victim’s email on many sites, flooding their inbox with “welcome” and “reset password” emails so real security alerts get buried. The author spotted low-rate, globally distributed fake signups plus password-reset traffic, then mitigated with behavioral CAPTCHA, stricter bot filtering, and a rule to send only one email until the address is verified. HN comments broaden this to payment-form abuse, layered bot defenses, email-verification negligence, and worries about centralizing control in services like Cloudflare.
 
----
+Subscription bombing weaponizes forms to bury a victim’s genuine fraud alerts under hundreds of welcome and reset emails. Suga detected bots creating accounts with real addresses and garbage names, then requesting resets within 60 seconds; only 1–2 sign-ups per hour came from rotating countries, defeating simple rate limits. Firewall rules halved traffic, Cloudflare Turnstile stopped it, and Suga now sends only one verification email until ownership is proven. HN warned invisible Turnstile can still pass sophisticated automation and described analogous credit-card testing, favoring layered behavioral controls over any single CAPTCHA.
 
 ### Comment pulse
-- Attackers repurpose signup/payment flows to validate stolen credit cards → tiny test charges, refunds, and rotated IPs evade rate limits; “silent blocks” can waste attackers’ time unnoticed.  
-- Newsletter operators: defenses are now “Swiss cheese model” → Turnstile, webdriver detection, honeypots, step-ups; VPN prevalence ruined IP reputation as a simple filter — counterpoint: centralizing on big CAPTCHA providers erodes internet resilience.  
-- Owners of generic emails report constant misdirected receipts and disclosures → companies skip verification to reduce friction and accept some fraud; victims resort to filters and wildcard aliases.
 
----
+- One site processed about 2,000 one-dollar card checks despite Turnstile; silent blocking now fakes generic declines instead of contacting its processor.
+- Newsletter operators combine normal-mode challenges, webdriver detection, honeypots, extra steps, and short bans because VPNs weakened IP reputation.
+- Cloudflare dependence centralizes infrastructure and can exclude users — counterpoint: suppressing all post-verification emails greatly limits harm without universal CAPTCHA friction.
 
 ### LLM perspective
-- View: Treat any unauthenticated email-triggering action (signup, reset, card change) as a high-risk API needing abuse budgets and verification.  
-- Impact: Product teams must weigh conversion friction against real downstream harm; email and payment providers may pressure laggards.  
-- Watch next: Shared best-practice checklists, browser-signal standards, and lighter-weight, privacy-preserving bot checks to avoid overreliance on single vendors.
+
+- **View:** Any unauthenticated action causing third-party email or payment traffic needs its own abuse budget and verification boundary.
+- **Impact:** The primary victims are outsiders, so product metrics and provider penalties must internalize damage the site barely feels.
+- **Watch next:** Per-address velocity, cross-account payment attempts, challenge bypass rates, sender complaints, disposable-email patterns, and issuer notification workflows.
