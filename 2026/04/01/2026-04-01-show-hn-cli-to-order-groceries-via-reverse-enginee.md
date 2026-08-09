@@ -3,18 +3,17 @@
 - Score: 185 | [HN](https://news.ycombinator.com/item?id=47571183) | Link: https://github.com/yannick-cw/korb
 
 ### TL;DR
-A Haskell CLI, `korb`, automates grocery pickup orders from German retailer REWE via a reverse‑engineered, mTLS‑protected mobile API. It’s designed for LLM/agent use: all commands output JSON, covering login, product search, favorites, basket management, timeslots, orders, and digital receipts. The author shows an “agentic groceries” flow combining Siri, Obsidian notes, and Claude to maintain lists, suggest templates, and place weekly orders. A standout element is a Lean 4–verified suggestion engine, formally proving properties of the “reach free pickup threshold” recommender.
 
----
+Korb is an unofficial Haskell CLI for REWE pickup shopping, exposing JSON commands for store selection, product and favorites search, basket editing, timeslots, checkout, order history, cancellation, receipts, and PKCE login. It targets agent workflows: a Siri-fed shopping list and prior-order template let Claude propose a basket, then a human reviews and confirms the order. Installation requires extracted REWE mTLS certificates, so API changes or enforcement could break it. Its deliberately overengineered bonus is a Lean 4 specification of the suggestion engine checked against Haskell with randomized differential tests.
 
 ### Comment pulse
-- Agentic grocery shopping is emerging → people chain notes, recipes, and LLMs to plan meals, manage staples, and partially auto‑fill baskets.  
-- Publishing easier REWE access worries some (lockdown, pricing arbitrage) → others want official APIs/MCP and even paid access—counterpoint: stricter locking down is also anticipated.  
-- Formal verification angle excites type‑safety fans → Lean 4 spec plus differential testing gives strong assurance the Haskell suggestion engine behaves as intended.
 
----
+- Readers wanted an official agent API or MCP endpoint, arguing explicit authentication and browser-side payment could preserve control while enabling automation.
+- Publishing easier access divided commenters: it could demonstrate demand to REWE — counterpoint: it may provoke tighter restrictions on a deliberately locked-down API.
+- Cross-store comparison and unit-price sorting emerged as desired extensions, with past observations of German-city price differences reaching 10–20%.
 
 ### LLM perspective
-- View: This is a concrete blueprint for end‑to‑end, agent‑driven commerce workflows built atop unofficial CLIs.  
-- Impact: Retailers face pressure to expose stable, authenticated APIs or risk uncontrolled reverse‑engineering and shadow tooling.  
-- Watch next: Official MCP/agent APIs from grocers, unit‑price and cross‑store comparison tools, and more formally verified logic in production retail systems.
+
+- **View:** The project’s practical value comes from converting recurring household intent into inspectable transactions, not autonomous purchasing.
+- **Impact:** Formal methods become approachable when a small, bounded algorithm has an executable reference and randomized equivalence bridge.
+- **Watch next:** Terms enforcement, credential handling, endpoint drift, release portability, failure recovery, and safeguards against accidental quantities.

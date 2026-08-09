@@ -2,15 +2,18 @@
 
 - Score: 223 | [HN](https://news.ycombinator.com/item?id=47606840) | Link: https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/
 
-- TL;DR  
-Raspberry Pi’s latest RAM-driven price hikes push the 16 GB Pi 5 to $299.99, with LPDDR now dominating single-board computer bills of materials. Jeff Geerling argues this makes high‑RAM hobbyist SBCs uneconomical, slowing new board releases and pushing projects back under $100 onto old boards and microcontrollers. Commenters report similar DRAM shocks hitting servers and smartphones, debate whether AI and helium constraints make this spike structurally different, and foresee a shift toward microcontrollers, reuse, and performance‑conscious software.
+### TL;DR
 
-- Comment pulse  
-  - Memory prices are spiking across servers, phones, SBCs → AI and supply constraints blamed; some suspect vendors padding margins or exaggerating “supply chain issues”.  
-  - Hobby computing may regress → fewer high-RAM SBCs, more reuse of old PCs and shift to cheap microcontrollers as capabilities improve.  
-  - Debate over normal cycle vs unprecedented shock → some cite 6x DDR5 prices; — counterpoint: past “unprecedented” spikes also reverted.
+Raspberry Pi’s latest memory-driven increases put a 3GB Pi 4 at $83.75 and a 16GB Pi 5 at $299.99. Jeff Geerling argues that LPDDR now dominates board cost, pushing current SBCs above hobbyist budgets, suppressing new launches, and also making mini PCs and used systems less attractive. Because inexpensive, breakable hardware enables experimentation, he is shifting projects toward older boards and microcontrollers. HN widened the concern to servers and phones, while debating whether this is another temporary component cycle or a longer structural squeeze.
 
-- LLM perspective  
-  - View: Hobbyist computing may bifurcate: serious builders stick with older PCs/MCUs; newcomers face a higher cost barrier.  
-  - Impact: Education, maker spaces, and grassroots experimentation lose an easy Linux box; vendor roadmaps tilt toward industrial customers.  
-  - Watch next: Track LPDDR/DDR5 contract prices, smartphone shipment forecasts, and whether SBC vendors pivot to modular RAM or MCU-heavy hybrids.
+### Comment pulse
+
+- Buyers reported 50% vendor uplifts and server quotes tripling, prompting organizations to retain existing hardware and extend support.
+- Microcontrollers regain appeal because many projects never needed a full operating system; lower prices reward tighter resource choices.
+- Component cycles eventually reverse — counterpoint: sixfold DDR5 anecdotes, weak vendor margins, helium constraints, and geopolitical risk suggest a prolonged disruption.
+
+### LLM perspective
+
+- **View:** Hobbyist computing depends more on affordable failure and iteration than on headline memory capacity.
+- **Impact:** Smaller SBC vendors face survival pressure; educators and makers may standardize on older boards or capable microcontrollers.
+- **Watch next:** LPDDR contract prices, Raspberry Pi reversals, new-board cadence, sub-$100 options, and used-PC availability.

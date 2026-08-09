@@ -2,15 +2,18 @@
 
 - Score: 141 | [HN](https://news.ycombinator.com/item?id=47573450) | Link: https://louis.co.nz/2026/03/26/pratt-parsing.html
 
-## TL;DR
-- The article builds geometric intuition for Pratt parsing by viewing expression ASTs as left- or right-leaning depending on operator precedence. When precedence increases, the tree grows rightward; when it later decreases, you walk back up the right-leaning spine to attach a new left-leaning subtree. A simple recursive-descent parser with a `while` loop and distinct left/right binding powers (LBP/RBP) implements this walk-back and handles associativity. HN discussion mostly backs recursive descent + Pratt as the practical norm, with caveats for incremental parsing and some need for grammar theory.
+### TL;DR
 
-## Comment pulse
-- Recursive descent + Pratt is widely used → simple, fast, hand-written parsers for production languages; but incremental editors may require more sophisticated frameworks.
-- Formal grammar theory still matters → understanding languages as abstract objects guides safe transformations and parser design—counterpoint: many engineers succeed with intuition and examples alone.
-- Readers share resources like Pratt's original paper, talks, and tiny Tcl-like interpreters, showing multiple approachable paths to internalizing the technique.
+The article explains Pratt parsing through tree geometry. Increasing precedence produces a right-leaning syntax tree; decreasing or equal precedence produces a left-leaning one. A recursive parser descends while the next operator binds more strongly, then unwinds to the first frame where a lower-precedence operator belongs. A loop repeatedly builds that left-leaning continuation. Separate left and right binding powers encode associativity: equal values yield left association; lowering right binding power yields right association. HN compiler practitioners endorsed recursive descent plus Pratt for most practical parsers.
 
-## LLM perspective
-- View: Pratt parsing offers a compact mental model for operator precedence that generalizes cleanly across languages and hand-written parsers.
-- Impact: Lowers the barrier to implementing DSLs, interpreters, and calculators without committing to full parser-generator or compiler-theory stacks.
-- Watch next: Explore error recovery, incremental parsing, and precedence table tooling layered atop Pratt to handle IDEs, refactoring, and large codebases.
+### Comment pulse
+
+- Compiler practitioners called recursive descent plus Pratt a practical default for serious languages, not merely toys.
+- Formal grammar knowledge still helps describe and transform languages — counterpoint: parser combinators or direct intuition may be clearer for many implementations.
+- Incremental parsing for editors and language servers introduces requirements beyond the article’s all-or-nothing expression parser.
+
+### LLM perspective
+
+- **View:** This explanation isolates infix binding clearly, but it is not a complete parser architecture.
+- **Impact:** A small parsing core makes precedence tables easier to inspect, test, and extend.
+- **Watch next:** Extensions for prefix and postfix operators, parentheses, diagnostics, recovery, ambiguous syntax, and incremental updates.

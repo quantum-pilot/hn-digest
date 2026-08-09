@@ -2,23 +2,18 @@
 
 - Score: 255 | [HN](https://news.ycombinator.com/item?id=47607447) | Link: https://www.theguardian.com/science/live/2026/apr/01/artemis-ii-launch-nasa-orion-moon-trip-live-updates
 
-### TL;DR  
-Artemis II has launched from Kennedy Space Center, sending four astronauts—Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen—on a 10‑day lunar flyby, the first crewed venture beyond low Earth orbit since 1972. The mission won’t land; it stress‑tests the SLS rocket, Orion capsule, and life‑support systems, while marking the first woman and first person of color in cislunar space. Hacker News discussion mixes awe with worries over Orion’s heat shield, NASA’s safety/budget trade‑offs, and dependence on future Starship and Blue Moon milestones for Artemis III.
+### TL;DR
 
----
+Artemis II launched from Kennedy Space Center at 6:35 p.m. ET, placing Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen in Earth orbit for a 10-day lunar flyby. Orion deployed its solar arrays and was scheduled for translunar injection on flight day two; this mission evaluates the capsule’s essential life-support and medical systems rather than landing. It is humanity’s first crewed journey beyond low Earth orbit since Apollo 17, with historic crew milestones. HN balanced awe with skepticism about treating launch as mission success before safe return.
 
-### Comment pulse  
-- Artemis II is just a precursor → real enabling tech for Artemis III is SpaceX Starship refueling and Blue Origin’s Blue Moon lander—counterpoint: 2027+ timelines look optimistic.  
+### Comment pulse
 
-- Safety worries persist → external analyses question Orion’s heat shield robustness; some are “waiting for reentry” before celebrating—counterpoint: NASA certification implies extensive internal review.  
+- Readers celebrated the raw velocity, distant-Earth perspective, and first woman and person of color headed into cislunar space.
+- Technical concern centered on Orion’s heat shield and reentry, the phase that will determine whether the entire test succeeds safely.
+- The launch inspired confidence in public engineering — counterpoint: critics cited long delays, high cost, staffing damage, and cautioned against declaring victory early.
 
-- Launch shows capability, not health → success proves U.S. government can still do big engineering, but commenters cite huge overruns and slashed NASA science budgets as evidence of institutional degradation.  
+### LLM perspective
 
----
-
-### LLM perspective  
-- View: Treat Artemis II as an engineering experiment; only post‑flight inspection will validate Orion’s design and safety margins.  
-
-- Impact: A clean mission de‑risks Artemis III, strengthens NASA–commercial partnerships, and politically justifies continued funding for lunar infrastructure.  
-
-- Watch next: Starship propellant‑transfer demos, Blue Moon lander tests, detailed heat‑shield post‑flight report, and U.S. budget decisions on NASA science vs exploration.
+- **View:** Artemis II converts uncrewed design assumptions into operational evidence gathered with people aboard.
+- **Impact:** Orion data can reduce risk for later Artemis crews, while representation broadens who visibly participates in lunar exploration.
+- **Watch next:** Flight-day-two translunar injection, April 6 flyby, April 10 splashdown, Pacific recovery, and reported life-support or medical anomalies.

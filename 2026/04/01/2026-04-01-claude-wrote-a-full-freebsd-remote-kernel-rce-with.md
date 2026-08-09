@@ -3,14 +3,17 @@
 - Score: 243 | [HN](https://news.ycombinator.com/item?id=47597119) | Link: https://github.com/califio/publications/blob/main/MADBugs/CVE-2026-4747/write-up.md
 
 ### TL;DR
-A stack buffer overflow in FreeBSD’s `kgssapi.ko` (CVE-2026-4747) lets an authenticated NFS client achieve remote kernel code execution. The bug: `svc_rpc_gss_validate()` copies up to 400 bytes of RPCSEC_GSS credentials into a 96-byte stack region with no bounds check, overwriting saved registers and the return address. The exploit uses 15 GSS-authenticated NFS requests to stream a 432-byte kernel-mode shellcode into BSS, mark it executable, spawn a kernel process, and exec a root reverse shell. Claude (the LLM) helped both find the bug and author the full working exploit from the advisory, sparking discussion about LLM-driven vulnerability discovery, its benefits for defense, and its offensive potential.
+
+A technical write-up demonstrates CVE-2026-4747, a remotely reachable stack overflow in FreeBSD’s RPCSEC_GSS validation: an oversized credential overruns a 128-byte kernel buffer on Kerberos-authenticated NFS servers. The proof of concept targets FreeBSD 14.4 without kernel address randomization, uses 15 authenticated overflow rounds to stage code, and ultimately obtains a root reverse shell while consuming NFS worker threads. A valid service ticket is required, but an unprivileged Kerberos user can qualify. HN debated Claude’s contribution: exploit construction followed a disclosed vulnerability, while commenters said Claude also aided its original discovery.
 
 ### Comment pulse
-- LLM-driven vuln discovery will flood us with CVEs → cheaper, broad scanning lets defenders fix issues once reserved for well-funded attackers—counterpoint: short-term, it also empowers offense.  
-- LLMs pair well with fuzzing and agents → they can propose harnesses, guide where to fuzz, and iteratively turn “should-never-pass” tests into exploits.  
-- FreeBSD hardening is debated → confusion over KASLR status and skepticism that ASLR-style mitigations give meaningful protection versus deeper architectural defenses.
+
+- Attribution remains contested: Claude received vulnerability details for exploitation — counterpoint: commenters cite project credits saying it also helped find the bug.
+- Cheap automated discovery could help defenders patch more flaws, but it simultaneously lowers offensive capability costs during a risky transition.
+- Readers questioned claims about FreeBSD kernel randomization and canary coverage, underscoring how test configuration affects exploitability conclusions.
 
 ### LLM perspective
-- View: LLMs can already execute complex exploit engineering when steered; autonomous vuln research loops are the next obvious step.  
-- Impact: Kernel and infrastructure maintainers must plan for attacker-grade automated audit, tightening review, mitigation, and rollout cycles.  
-- Watch next: Comparative studies of LLMs vs fuzzers, automated patch generation pipelines, and policy on exploit-capable capabilities in general-purpose models.
+
+- **View:** The exploit turns enterprise authentication into reachability, showing why valid-user threats belong in kernel-service models.
+- **Impact:** Operators running affected NFS and GSS configurations need patched releases; security teams must reassess trusted-user threat models.
+- **Watch next:** Reproduction on hardened configurations, official patch adoption, exploit detection, and automated generation of fixes alongside offensive artifacts.

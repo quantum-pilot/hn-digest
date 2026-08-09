@@ -2,16 +2,18 @@
 
 - Score: 131 | [HN](https://news.ycombinator.com/item?id=47601405) | Link: https://www.bloomberg.com/news/articles/2026-04-01/openai-demand-sinks-on-secondary-market-as-anthropic-runs-hot
 
-- TL;DR  
-  Secondary-market demand for OpenAI shares is cooling while interest in Anthropic climbs, driven by a perception that both chase similar markets but Anthropic’s valuation looks “cheaper.” Hacker News discussion is skeptical of both: users complain about Anthropic’s product limits and OpenAI’s shaky economics, seeing frontier LLM labs as cash-burning and exposed to rapid open‑source catch‑up. Many view private secondary offerings as hype‑driven, with investors rotating between names rather than doing deep diligence.  
-  *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  Investors rotating from OpenAI to Anthropic → same space, but Anthropic equity looks discounted relative to OpenAI’s far higher valuation — counterpoint: both may simply be wildly overvalued.  
-  Frontier labs as businesses questioned → huge compute costs, thin enterprise use cases, and user-pay plans needing harsh limits signal weak long‑term unit economics.  
-  Product reality lags hype → developers churn among Claude, Copilot, ChatGPT due to limits and bugs, while enterprises stay stuck with slow vendor cycles and legacy choices.
+Private secondary markets are repricing the AI-lab rivalry: brokers reportedly found no buyers for roughly $600 million of OpenAI exposure, with bids implying about $765 billion—10% below its $852 billion round—while Anthropic bids implied roughly $600 billion, over 50% above its $380 billion round. Buyers cite Anthropic’s enterprise strength and OpenAI’s infrastructure burn, despite OpenAI just closing $122 billion in primary financing. HN saw mostly relative-value rotation, not validation of either price, noting both could be overvalued and rapidly changing model quality undermines durable vendor moats.
 
-- LLM perspective  
-  View: Secondary-market froth shows investors pricing relative hype, not fundamentals, in a still-unproven LLM business model.  
-  Impact: Frontier labs face pressure to show sustainable margins, not just user growth, as open-source and incumbents narrow performance gaps.  
-  Watch next: Track actual enterprise retention, per‑token margins, and whether any lab reaches profitability without radical price hikes or hardware pivots.
+### Comment pulse
+
+- Primary investors may preserve ownership percentages, then shed exposure secondarily; company permissions, special-purpose vehicles, and refusal rights make pricing opaque.
+- Banks reportedly waived carry on some OpenAI offerings while retaining roughly 15–20% profit carry for Anthropic, another demand signal.
+- Individual users switch providers monthly or maintain several plans, while lengthy enterprise approvals lock organizations into yesterday’s preferred model.
+
+### LLM perspective
+
+- **View:** Broker indications in illiquid private markets reveal marginal appetite, not a reliable consensus valuation.
+- **Impact:** Employees, early investors, and prospective public shareholders face widening uncertainty about liquidity and eventual returns.
+- **Watch next:** Completed transaction prices, IPO filings, enterprise revenue retention, gross margins, infrastructure commitments, and model-cost convergence.

@@ -2,15 +2,18 @@
 
 - Score: 146 | [HN](https://news.ycombinator.com/item?id=47604155) | Link: https://www.nytimes.com/2026/04/01/technology/spacex-ipo-elon-musk.html
 
-## TL;DR
-SpaceX has confidentially filed for a June IPO, reportedly seeking $50–75B in new capital at a self‑valuation above $1T, potentially making it one of history’s largest offerings and pushing Elon Musk toward trillionaire status. Proceeds are framed as funding Starship, Starlink expansion, and far-future projects like orbital AI data centers, a moon base, and Mars settlement. Hacker News discussion admires SpaceX’s technical achievements but questions market depth, index-fund mechanics that could force widespread buying, and valuations reliant on highly speculative businesses.
+### TL;DR
 
-## Comment pulse
-- IPO mechanics as soft compulsion → Small float plus rapid index inclusion makes 401k/index investors automatic buyers at Musk-set prices—counterpoint: S&P 500 hasn’t yet copied Nasdaq’s rule change.  
-- Valuation seen as fragile → $50–75B raise could exceed market appetite, with macro headwinds and AI cooling prompting comparisons to WeWork-style overreach.  
-- Fundamentals vs fantasy → Huge gains in launch costs and Starlink profits acknowledged, but most doubt near-term orbital data centers, moon base, or Mars colony can justify a $1T+ valuation.
+SpaceX reportedly filed confidentially for a June IPO, seeking $50–75 billion at a valuation above $1 trillion—potentially eclipsing Saudi Aramco’s $29 billion fundraising record. The company spans rockets, Starlink, xAI, Grok, and X; proceeds may fund orbital data centers, lunar and Mars ambitions, xAI working capital, and Twitter-debt retirement. SpaceX projected $15.5 billion of 2025 revenue but has not disclosed audited financials. HN split between admiration for reusable launch and Starlink execution, and skepticism that speculative AI-space projects, conglomerate liabilities, limited market depth, or index buying justify the price.
 
-## LLM perspective
-- View: This IPO is a referendum on how much speculative future cashflow investors will underwrite for a single founder-led, mission-driven firm.  
-- Impact: Passive investors, space-launch competitors, defense procurement, and broadband incumbents will all be repriced against whatever multiple SpaceX achieves.  
-- Watch next: The S‑1’s audited Starlink metrics, capital-expenditure trajectory for Starship, index-inclusion timelines, and any special governance or related-party arrangements with other Musk companies.
+### Comment pulse
+
+- Nasdaq’s reported 15-day inclusion rule raised fears index funds would buy limited-float shares automatically; S&P had only begun reviewing its rules.
+- Raising $75 billion would exceed Aramco’s record by roughly 2.5 times, so even willing buyers might not provide sufficient market depth.
+- A bullish commenter called $16 billion profit — counterpoint: replies identified it as revenue and cited unaudited EBITDA excluding important costs.
+
+### LLM perspective
+
+- **View:** Proven launch and satellite businesses must support the valuation before distant Mars or orbital-compute optionality deserves material weight.
+- **Impact:** Employees gain liquidity, while index investors may inherit exposure to xAI and X risks they never selected.
+- **Watch next:** Public financials, offer size, float, governance, related-party terms, debt use, index eligibility, Starlink margins, and Starship milestones.

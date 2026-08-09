@@ -2,21 +2,18 @@
 
 - Score: 1023 | [HN](https://news.ycombinator.com/item?id=47597085) | Link: https://ccunpacked.dev/
 
-**TL;DR**  
-Unofficial “Claude Code Unpacked” is a visual, click‑through map of Anthropic’s leaked Claude Code CLI: the agent loop from keystroke to response, the 50+ tools and 70+ slash commands, and a gallery of hidden or experimental features like Kairos, UltraPlan, Coordinator Mode, and Bridge. Built quickly by an independent dev using the public repo, it doubles as study notes. HN discussion fixates on the 500k‑line codebase, debating bloat versus necessary defensive engineering and architecture.
+### TL;DR
 
----
+This unofficial interactive guide maps a publicly shared Claude Code source snapshot into an animated agent loop, browsable directory tree, tool and command catalogs, and a list of feature-flagged capabilities such as Buddy, Kairos, UltraPlan, coordinator, bridge, daemon, and inter-session messaging. Its creator built it in hours as a reference for adapting ideas into another agent harness and warns that AI-assisted curation may be wrong or stale. HN’s discussion focused less on the visualization than whether roughly 500,000 lines represent necessary reliability engineering or AI-amplified bloat.
 
-**Comment pulse**
+### Comment pulse
 
-- Author built visualization in hours from leaked 500k‑LOC repo → personal reference for his own agent; commenters ask for source, TS choice.  
-- Huge LOC worries some as “vibecoded” bloat → others note competitors similar size and blame defensive tooling, recovery logic, and context/cost management.  
-- Architecturally, several praise a thin, generic client‑tool layer with innovation and “secret sauce” on the server—counterpoint: better systemic governance could replace brute‑force complexity.
+- The author built the map to navigate a huge codebase and invited corrections, deeper explanations, and comparisons with the minimal pi agent.
+- Defensive state, permissions, recovery, context, and UI can explain scale — counterpoint: some readers suspect layered vibe fixes and weak overarching design.
+- Others praised the client-server split: general local tools let server-side behavior evolve rapidly while keeping proprietary orchestration away from leaked client code.
 
----
+### LLM perspective
 
-**LLM perspective**
-
-- View: Visual reverse‑engineering like this accelerates shared patterns for agent loops, tools, and state, beyond any single vendor.  
-- Impact: Indie and enterprise teams can benchmark their harnesses, spot over‑engineering, and copy proven abstractions instead of reinventing fragile stacks.  
-- Watch next: Standard tool APIs, trace formats, and reliability benchmarks, plus slimmer audited runtimes for local and regulated deployments.
+- **View:** The map is most useful as an orientation aid, not an authoritative architecture specification.
+- **Impact:** Agent builders can compare concrete tool boundaries and control flows before borrowing patterns into smaller harnesses.
+- **Watch next:** Source verification, corrections, shipped-versus-gated labels, generated-code provenance, and whether the guide remains current across releases.

@@ -2,10 +2,18 @@
 
 - Score: 194 | [HN](https://news.ycombinator.com/item?id=47557171) | Link: https://chrisseaton.com/truffleruby/
 
-- TL;DR  
-  - TruffleRuby is a high-performance implementation of Ruby built on the JVM using Graal and the Truffle AST interpreter framework. Originating as an Oracle Labs internship project, it evolved through JRuby incubation into a core GraalVM language, now co-developed with backing from Shopify. The page is a curated index of research papers, detailed blog posts, and conference talks covering TruffleRuby’s optimizations—object layout, JIT techniques, safepoints, metaprogramming, C extensions, and polyglot tooling—showing Ruby as a serious VM and language research platform.
+### TL;DR
 
-- LLM perspective  
-  - View: TruffleRuby exemplifies language VMs as research vehicles, blending academic techniques with production-grade Ruby performance and tooling.  
-  - Impact: Rubyists gain an alternative runtime for CPU-intensive workloads; VM researchers get real-world data and deployment feedback on advanced optimizations.  
-  - Watch next: Track GraalVM releases, TruffleRuby’s C-extension and gem compatibility, and benchmarks versus CRuby and JRuby in typical Rails and background-job stacks.
+TruffleRuby is a Ruby implementation on the JVM built with Graal’s optimizing compiler and Truffle’s AST framework. Chris Seaton began it as a 2013 Oracle Labs internship, open-sourced it inside JRuby in 2014, separated it in 2017, and later integrated it into GraalVM with Shopify sponsorship from 2019. The project’s research spans partial evaluation, object layouts, C extensions, cross-language interoperation, debugging, and low-overhead instrumentation. HN contributors confirmed development continues after Seaton’s death, praising major pure-Ruby speedups while warning that native dependencies and GraalVM licensing remain adoption friction.
+
+### Comment pulse
+
+- A pure-Ruby JPEG codec reportedly ran two-to-three times faster under TruffleRuby, making it worthwhile in library test matrices.
+- More Ruby-native libraries would benefit YJIT, ZJIT, JRuby, and TruffleRuby; FFI or Fiddle can bridge unavoidable native code.
+- GraalVM’s newer terms seem improved — counterpoint: earlier confusion and continued custom licensing already deterred potential adopters.
+
+### LLM perspective
+
+- **View:** TruffleRuby demonstrates that dynamic-language performance can come from runtime specialization, not reflexively moving code into C.
+- **Impact:** Portable Ruby implementations gain leverage when libraries preserve language-level code and test across runtimes.
+- **Watch next:** Compatibility, startup overhead, native-extension support, benchmark breadth, maintainership after Seaton, sponsorship, and licensing clarity.

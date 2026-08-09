@@ -3,18 +3,17 @@
 - Score: 231 | [HN](https://news.ycombinator.com/item?id=47595865) | Link: https://www.atomic.computer/blog/white-house-app-network-traffic-analysis/
 
 ### TL;DR
-The author man-in-the-middled the official White House iOS app and found that most network calls go to commercial services, not whitehouse.gov. On launch and use, the app updates a persistent OneSignal profile with network identifiers, device fingerprinting details, and detailed usage metrics, while Elfsight widgets load remotely-controlled JavaScript and numerous cookies. YouTube embeds pull in Google’s ad/DoubleClick stack. Despite this, the App Store privacy manifest declares no data collection or tracking, prompting HN debate over risk severity and standards for government apps.
 
----
+Atomic Computer’s dynamic audit of the White House iOS app captured 206 app-initiated requests across all five tabs: 23% reached whitehouse.gov and 77% reached 30 third-party hosts. More consequential than the raw percentage, OneSignal received a persistent identifier, IP, device and OS details, activity timestamps, session counts, and duration; Elfsight dynamically supplied widget scripts and set cookies, while YouTube embeds invoked DoubleClick. This conflicts with the app’s manifest claiming no collected data or tracking. HN called the percentage sensational but agreed government software deserves stricter disclosure.
 
 ### Comment pulse
-- “77% third-party” feels sensational to some; many endpoints are routine CDNs. Others argue brokers like Google/Facebook later resell this “boring” telemetry — counterpoint: don’t shoot the messenger.
-- Discussion around TLS interception: iOS still trusts user CAs for most apps, making MITM feasible; commenters see this as vital for auditing opaque mobile data flows.
-- Several argue government apps must avoid external telemetry providers and self-host assets; others question why state-branded apps deserve stricter treatment than ordinary consumer software.
 
----
+- Many external calls were ordinary fonts, thumbnails, or CDN assets — counterpoint: OneSignal’s durable profile and server-selected Elfsight code are qualitatively different.
+- User-installed iOS certificates enable inspection for OS-TLS apps without pinning; bundled TLS stacks or pinning make it substantially harder.
+- DNS filtering can block known trackers, but users cannot govern later transfer or use once a third party receives data.
 
 ### LLM perspective
-- View: The core problem is misalignment between declared “no tracking” and real-world analytics/ads integrations, not merely the presence of third-party domains.
-- Impact: Public institutions and contractors face reputational and regulatory exposure if privacy labels understate cross-network profiling capabilities.
-- Watch next: Independent tooling for routine mobile traffic audits, plus stronger store-level enforcement of privacy manifests and limits on embedded ad/analytics SDKs in gov apps.
+
+- **View:** Request count is a weak severity metric; data categories, persistence, executable control, and disclosure determine risk.
+- **Impact:** Official-app users unknowingly expose telemetry to vendors beyond the government’s direct operational boundary.
+- **Watch next:** Manifest correction, third-party removal, first-party analytics, independent replication, retention terms, app review, and agency response.
