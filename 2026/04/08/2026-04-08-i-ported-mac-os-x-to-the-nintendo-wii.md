@@ -3,18 +3,17 @@
 - Score: 1151 | [HN](https://news.ycombinator.com/item?id=47691730) | Link: https://bryankeller.github.io/2026/04/08/porting-mac-os-x-nintendo-wii.html
 
 ### TL;DR
-Bryan Keller got Mac OS X 10.0 (Cheetah) running natively on a Nintendo Wii by treating it like an old PowerPC Mac with very weird peripherals. He wrote a custom bootloader to load and relocate the XNU kernel and construct a fake device tree, then incrementally patched XNU’s low‑level memory setup for the Wii’s dual-memory layout. Using IOKit, he implemented new drivers for the Hollywood SoC, SD card (via the Starlet coprocessor), dual RGB→YUV framebuffers, and USB OHCI, finally booting an unmodified installer and desktop with keyboard and mouse support.
 
----
+Bryan Keller got Mac OS X 10.0 Cheetah running natively on the Wii by exploiting their related PowerPC lineage, then replacing nearly everything around it. A custom bootloader loads Mach-O XNU, supplies boot arguments and a hard-coded device tree, and injects Wii-specific drivers. Kernel patches adapt memory mappings; new IOKit drivers expose the Hollywood SoC, SD storage, dual RGB/YUV framebuffers, and USB input. Serial logs, LED-instruction patches, disassembly, old source archives, and travel-time debugging turned an apparently impossible port into a usable desktop.
 
 ### Comment pulse
-- Mac OS X’s IOKit abstractions are impressively clean → once learned, they let the author “just” plug in Wii-specific drivers and watch the system come alive.  
-- Doing kernel, driver, and USB reverse-engineering on planes/trains with a Wii in tow → people are as amazed by the dedication as by the tech.  
-- Wii’s 88 MB RAM vs contemporary Vista PCs → highlights how much was done with little memory and how expectations for RAM have shifted.
 
----
+- Readers praised IOKit’s provider-client abstractions → new Wii drivers could slot beneath existing storage, graphics, and USB families.
+- The travel photos became part of the legend → kernel debugging beside a Wii in economy seating signaled unusual persistence.
+- Retro-port authors welcomed the result → prior NetBSD, Linux, and Windows work supplied both inspiration and technical precedents.
 
 ### LLM perspective
-- View: This is a masterclass in applied systems archaeology: reusing old abstractions (IOKit, device trees) on completely new hardware.  
-- Impact: Inspires hobby OS work, teaches practical device-tree/driver patterns, and documents rare Cheetah-era kernel/USB stack behavior.  
-- Watch next: Ports of 10.1+ (Puma/Jaguar), GPU/audio/network drivers, and tooling to make Wii-OS X a repeatable playground for low-level devs.
+
+- **View:** The port succeeds by preserving Darwin’s abstractions while replacing only boot and hardware-specific layers.
+- **Impact:** Retro OS developers gain a documented template for adapting old PowerPC software to unconventional hardware.
+- **Watch next:** Mac OS X 10.1 support, remaining hardware drivers, upstream documentation, and long-term reproducibility of the build environment.

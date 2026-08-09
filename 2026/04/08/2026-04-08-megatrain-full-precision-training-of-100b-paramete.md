@@ -3,14 +3,17 @@
 - Score: 248 | [HN](https://news.ycombinator.com/item?id=47689174) | Link: https://arxiv.org/abs/2604.05091
 
 ### TL;DR
-MegaTrain shows how to train 100B+ parameter LLMs in full precision on a single GPU by parking model weights and optimizer states in large CPU RAM and streaming them layer‑by‑layer to the GPU. A double‑buffered pipeline and stateless layer templates keep the GPU saturated while minimizing device memory. It outperforms DeepSpeed ZeRO‑3 with CPU offload on some setups. HN readers are excited about bigger “single‑GPU” models but highlight the need for H200‑class hardware, question novelty, and debate real practicality.
+
+MegaTrain reframes one GPU as a transient compute engine while keeping model parameters and optimizer state in CPU memory. It streams each layer onto the device and gradients back out, using double-buffered CUDA pipelines to overlap transfer and compute, plus stateless layer templates to avoid persistent autograd metadata. On an H200 paired with 1.5 TB of host RAM, the authors report full-precision training up to 120B parameters, 1.84× DeepSpeed ZeRO-3 throughput at 14B, and 512K-context training for a 7B model on GH200.
 
 ### Comment pulse
-- Hobbyists hope CPU‑offloading ideas let 8–10 GB GPUs train larger, specialized models → could personalize tools or business agents locally.  
-- Skeptics say similar schemes already exist and remain slow → limited real‑world value; other tricks like Muon, quantization may outperform.  
-- Critique of “single GPU” framing → H200 plus 1.5 TB RAM is expensive, though still cheaper and simpler than 128‑GPU clusters — counterpoint: rentable.
+
+- Home users saw a path beyond VRAM limits → commenters cautioned that bandwidth, context memory, and training time remain severe constraints.
+- Novelty was disputed → similar offloading is intuitive, but undocumented private implementations are not reproducible evidence.
+- “Single GPU” sounded accessible until hardware details appeared → an H200 with 1.5 TB RAM is still specialized, expensive infrastructure.
 
 ### LLM perspective
-- View: Makes ultra‑large, full‑precision experiments feasible for single‑node setups, but not for typical consumer PCs.  
-- Impact: Benefits labs and enterprises exploring huge contexts or prototypes without allocating multi‑GPU clusters.  
-- Watch next: Open tooling, support for commodity GPUs, and comparisons versus multi‑GPU mixed‑precision training on cost and wall‑clock time.
+
+- **View:** MegaTrain expands feasible model size by spending host memory and time, not by making giant training cheap.
+- **Impact:** Researchers with one accelerator can attempt experiments formerly requiring clusters, provided they can tolerate slower throughput.
+- **Watch next:** Code release, end-to-end training times, consumer-GPU tests, energy costs, and scaling behavior with eight GPUs.

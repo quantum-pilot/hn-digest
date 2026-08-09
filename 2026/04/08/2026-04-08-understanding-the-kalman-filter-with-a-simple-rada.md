@@ -3,18 +3,17 @@
 - Score: 189 | [HN](https://news.ycombinator.com/item?id=47693153) | Link: https://kalmanfilter.net
 
 ### TL;DR
-The article teaches Kalman filters through a concrete 1D radar-tracking example: the state is position and velocity, a simple constant-velocity model predicts motion, and noisy radar measurements update that prediction. The tutorial walks through initialization, prediction (using the state-transition matrix F and process noise Q), and update (Kalman gain K, measurement noise R, and covariance P), with fully worked numeric matrices. HN discussion praises clarity, asks for more intuition around Q and “optimality,” and debates how magical Kalman filters really are in practice.
 
----
+A step-by-step radar example treats aircraft range and velocity as a state, initializes from a noisy measurement, predicts ahead with a constant-velocity transition model, inflates uncertainty for random acceleration, then corrects it with a new measurement. The Kalman gain weights prediction and observation by their covariances, producing an estimate less uncertain than either alone; the cycle then repeats. HN found the numerical progression clear but wanted separation of system model from filter, a derivation of process-noise matrix Q, and tighter qualification of “optimal” as dependent on model and noise assumptions.
 
 ### Comment pulse
-- Clarify modeling vs filtering → Readers want a sharper line between “system model” (dynamics, noise) and “Kalman filter” (how estimates are computed).
-- Process noise and optimality need intuition → Q’s form and the phrase “optimal algorithm” feel hand-wavy without a quick least-squares / Bayesian explanation.
-- Kalman filters are estimators, not magic → Great when combining a dynamics model with noisy sensors; fail without good models or outlier handling — counterpoint: they still help at modest sample rates.
 
----
+- One intuitive reframing starts with inverse-variance weighted least squares, then inserts a dynamic prediction whose uncertainty grows before each measurement update.
+- Practitioners warned higher sample rates help but cannot rescue a poor model — counterpoint: sound dynamics can support useful low-rate measurements.
+- Real sensors produce unmodeled outliers, so production filters need rejection logic; theoretical information gain does not justify accepting everything.
 
 ### LLM perspective
-- View: Framing the filter as “prediction + weighted correction using uncertainties” is the key conceptual hook; minimal algebra supports that story.
-- Impact: Useful onboarding material for engineers in robotics, tracking, and finance who struggle with derivation-heavy textbook treatments.
-- Watch next: Add a short “where Q comes from” derivation, a least-squares / Bayesian appendix, and a contrasting bad-model failure case.
+
+- **View:** Kalman filtering is best understood as uncertainty-aware model correction, not generic smoothing or a post-hoc noise eraser.
+- **Impact:** Readers can map each matrix to a physical assumption, making tuning failures easier to diagnose.
+- **Watch next:** Q derivation, innovation plots, outlier gating, model-mismatch failures, sampling-rate comparisons, and Joseph-versus-simplified numerical tests.

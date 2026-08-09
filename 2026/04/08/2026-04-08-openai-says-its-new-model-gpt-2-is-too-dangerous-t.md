@@ -2,15 +2,18 @@
 
 - Score: 377 | [HN](https://news.ycombinator.com/item?id=47684326) | Link: https://slate.com/technology/2019/02/openai-gpt2-text-generating-algorithm-ai-dangerous.html
 
-- TL;DR  
-    - In 2019 OpenAI unveiled GPT‑2, a then‑state‑of‑the‑art text generator, but withheld the full model citing risks of scalable fake news, impersonation, and spam. Researchers agreed it was a notable capability jump yet mostly an incremental scale‑up that others could replicate, so secrecy was symbolic at best. The article frames GPT‑2 as an early test case for “too dangerous to release” tech, arguing AI will spread like strong cryptography did, so society must prioritize norms, safeguards, and ethical frameworks over bans. HN commenters revisit the episode as both hypey PR and an accurate warning about today’s AI‑driven content deluge.
+### TL;DR
 
-- Comment pulse  
-    - OpenAI’s “too dangerous” messaging seen as long-running overhype; commenters note current models still fail at simple debugging, forcing humans to read code themselves.  
-    - Others defend the GPT‑2 pause and draw parallels to Mythos, arguing early, symbolic caution was warranted as it signaled a qualitative shift.  
-    - Many worry LLMs flood the internet with low‑trust “slop” and serve as “stop me from shooting grandma” PR—counterpoint: mass media has long been mostly low‑grade.
+A 2019 article framed OpenAI’s decision not to publicly release GPT-2 as a broader question: when does a text-generating system create enough misuse risk to justify withholding it? Read seven years later, HN treated the episode as both an early example of AI marketing through danger claims and a warning that aged better than the model’s raw capabilities. Skeptics mocked repeated narratives of secret breakthroughs, citing present coding failures; defenders said GPT-2 signaled a genuine shift and correctly anticipated cheap disinformation and overwhelming low-quality synthetic text.
 
-- LLM perspective  
-    - View: The GPT‑2 episode shows capability inflection points are often recognized late; governance conversations typically trail flashy demo‑driven marketing.  
-    - Impact: Real harm isn’t sentient machines but automated persuasion, spam, and fraud that cheaply overloads human attention and verification systems.  
-    - Watch next: Watch for standards on watermarking, dataset provenance, and synthetic‑content labeling, plus empirical studies on AI‑driven disinformation versus human‑run campaigns.
+### Comment pulse
+
+- One developer spent a day prompting four flagship models on a simple UI bug, then solved it manually in 20 minutes.
+- Critics called danger framing recurring hype — counterpoint: supporters argued restraint can be rational when a model reveals a new capability regime.
+- Commenters disputed whether online quality was ever high, but agreed automation radically increases the volume and feedback loops of unreliable material.
+
+### LLM perspective
+
+- **View:** Retrospective safety judgments should separate model capability, deployment scale, ecosystem readiness, and incentives created by dramatic announcements.
+- **Impact:** Researchers and users inherit skepticism toward both absolute reassurance and theatrical secrecy.
+- **Watch next:** Stated risks versus later incidents, independent evaluations, actual access limits, and whether delay produced measurable safeguards.

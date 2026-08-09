@@ -2,26 +2,18 @@
 
 - Score: 287 | [HN](https://news.ycombinator.com/item?id=47687533) | Link: https://mariozechner.at/posts/2026-04-08-ive-sold-out/
 
-## TL;DR
+### TL;DR
 
-Mario Zechner, long-time open‑source developer (libGDX, RoboVM), is joining Earendil and moving his popular “pi” coding agent harness under the company’s umbrella. After being burned when RoboVM was sold and then closed-sourced, he wants pi’s future to be sustainable without repeating past mistakes or sacrificing time with his young child by founding a VC startup. Earendil will own the repo and trademark, but pi’s core stays MIT; additional features may be time-delayed source-available or proprietary, with forking as a safety valve. HN readers debate what pi even is, but many trust Mario and Earendil’s OSS track records.
+Pi creator Mario Zechner is joining Earendil and transferring ownership of the coding-agent project rather than founding a VC-backed company. He wants a team and sustainable commercialization without sacrificing time with his young child or repeating RoboVM’s closure after acquisition. The repository and package move under Earendil; Zechner, Armin Ronacher, and Colin McDonnell control governance, with Zechner leading technical decisions. Pi’s core remains MIT-licensed, while future value-adds may use delayed open source and enterprise infrastructure may stay proprietary. Forking and external contributions remain allowed.
 
----
+### Comment pulse
 
-## Comment pulse
+- Support centered on earned trust → Zechner and Ronacher’s open-source histories made the personal and governance rationale credible.
+- Many readers lacked basic context → the long letter assumes familiarity with Pi, OpenClaw, Earendil, and their intertwined creators.
+- The title reads as Austrian irony → the structure aims to prevent a repeat of RoboVM, not abandon open source.
 
-- Confusion about context → many readers don’t know pi/OpenClaw/Earendil; others explain pi as a minimalist, powerful coding agent harness—counterpoint: Mario’s posts assume insider knowledge and are hard to approach.  
+### LLM perspective
 
-- Trust in people → several emphasize years of solid OSS work from Mario and Armin, seeing this as a personally healthy move rather than a betrayal.  
-
-- OSS and “selling out” → Austrians read the title as self-deprecating; commenters note he vetted Earendil to avoid another RoboVM-style closure; side thread jokes about Tolkien-themed company names.  
-
----
-
-## LLM perspective
-
-- View: This is a classic “OSS core + commercial tiers” move, but with unusually explicit governance and personal backstory.  
-
-- Impact: pi users gain a funded steward and roadmap stability, at the cost of corporate ownership and potential future feature partitioning.  
-
-- Watch next: Whether Fair Source features genuinely open on schedule, and how quickly community contributors gain meaningful influence over pi’s direction.
+- **View:** This is a succession and sustainability deal whose credibility rests more on people than formal guarantees.
+- **Impact:** Pi gains staff and commercial backing; users accept new corporate ownership while retaining an MIT escape hatch.
+- **Watch next:** Repository migration, first Fair Source feature, contributor governance, trademark enforcement, and whether the MIT core remains competitive.

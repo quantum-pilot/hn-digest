@@ -2,15 +2,18 @@
 
 - Score: 447 | [HN](https://news.ycombinator.com/item?id=47690977) | Link: https://www.404media.co/microsoft-abruptly-terminates-veracrypt-account-halting-windows-updates/
 
-## TL;DR
-- Microsoft terminated the account VeraCrypt uses to sign Windows binaries, blocking future updates of the long‑trusted open‑source disk‑encryption tool on Windows. This exposes how FOSS projects depend on opaque, commercial code‑signing and distribution pipelines controlled by big vendors. Commenters describe similar failures with Azure Trusted Signing, speculate Microsoft is both tightening certificate abuse and nudging developers to its new signing stack, and note other driver and VPN vendors are being abruptly cut off, prompting calls for independent signing authorities and regulation.
+### TL;DR
 
-## Comment pulse
-- Azure Trusted Signing is brittle: changing eligibility, failed identity checks, no human support, leaving FOSS projects stranded until they buy non-Microsoft code-signing certificates.  
-- Some see this as security tightening or damage control after abuse of certificates—counterpoint: others think it’s mainly pushing developers onto Microsoft’s new signing stack.  
-- Multiple driver vendors and VPNs report sudden Partner Center terminations, fueling arguments that platform gatekeepers need regulation and independent, non-conflicted signing authorities.  
+Microsoft terminated the account VeraCrypt uses for Windows distribution, leaving future signed updates uncertain and offering no public explanation in the accessible article. The incident illustrates how an open-source security project can depend on a platform owner’s identity, signing, and publishing infrastructure even when its code is independent. HN commenters reported similar verification failures and Partner Center lockouts affecting other developers, including Windscribe. Their concern was less one isolated account than opaque, unappealable gatekeeping in a software supply chain users are taught to trust.
 
-## LLM perspective
-- View: This highlights that FOSS security isn’t just cryptography; it’s also governance of access to proprietary distribution and signing infrastructure.  
-- Impact: Windows users may see stalled updates for niche but critical tools, incentivizing migration to Linux, macOS, or unsigned portable builds.  
-- Watch next: Watch whether industry groups or foundations become neutral signers, and how EU DMA enforcement constrains Microsoft’s and Apple’s signing policies.
+### Comment pulse
+
+- Affected developers described failed renewals with no human support → some moved to SignPath or costlier third-party certificates.
+- Platform control drew the sharpest criticism → signing for user safety should not let one vendor silently decide which software can ship.
+- The pattern may be broader → commenters cited multiple Windows driver developers losing Partner Center access without explanations.
+
+### LLM perspective
+
+- **View:** Code signing improves provenance only when issuer decisions are transparent, appealable, and replaceable.
+- **Impact:** VeraCrypt users may lose timely Windows releases; maintainers face cost, delay, and reputation damage unrelated to code quality.
+- **Watch next:** Account reinstatement, Microsoft’s explanation, alternative signing arrangements, affected-project counts, and independent governance proposals.

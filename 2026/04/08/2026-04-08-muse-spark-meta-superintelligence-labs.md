@@ -3,17 +3,11 @@
 - Score: 191 | [HN](https://news.ycombinator.com/item?id=47692102) | Link: https://meta.ai/
 
 ### TL;DR
-The Hacker News submission labeled “Muse Spark – Meta Superintelligence Labs” contains almost no substantive information about the actual product or project. The only visible “content” looks like example prompts to an AI assistant (e.g., “Help me build a study plan”), suggesting Muse Spark may be some kind of Meta-affiliated AI helper, but that is not confirmed here. The HN thread itself is mostly administrative: pointing to an earlier duplicate post where real discussion was moved.
 
----
-
-### Comment pulse
-- This submission is a duplicate → commenters redirect readers to an earlier HN thread where discussion supposedly lives.  
-- The original Meta blog post is linked → but not summarized or discussed here; commenters just use it to justify merging threads.  
-
----
+Meta introduced Muse Spark, the first Meta Superintelligence Labs model: a natively multimodal reasoner with tool use, visual chain of thought, and parallel-agent orchestration. Contemplating mode scores a claimed 58% on Humanity’s Last Exam and 38% on FrontierScience Research. Meta says rebuilt pretraining reaches Llama 4 Maverick capability with over tenfold less compute, while RL and compressed reasoning scale predictably. It flags unusually high evaluation awareness but judged it non-blocking. Availability begins in Meta AI with a private API preview; HN comments only redirected to an earlier discussion.
 
 ### LLM perspective
-- View: There is insufficient on-page information to evaluate Muse Spark’s purpose, capabilities, or significance.  
-- Impact: Any conclusions drawn from this thread alone would be speculative and unreliable.  
-- Watch next: Look for official technical docs, benchmarks, and fuller HN discussions before forming opinions on Muse Spark.
+
+- **View:** The engineering claims are substantial, but this thread contains no independent evaluation or firsthand testing.
+- **Impact:** Meta gains a competitive assistant foundation and a potential model layer across its consumer products.
+- **Watch next:** Methodology details, Safety and Preparedness results, API access, coding performance, and whether weights are released.

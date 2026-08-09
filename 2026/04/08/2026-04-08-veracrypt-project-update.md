@@ -3,22 +3,17 @@
 - Score: 1116 | [HN](https://news.ycombinator.com/item?id=47686549) | Link: https://sourceforge.net/p/veracrypt/discussion/general/thread/9620d7a4b3/
 
 ### TL;DR
-VeraCrypt’s maintainer reports that Microsoft abruptly terminated the long‑standing account used to sign its Windows drivers and bootloader, with a “no appeal” message and only bot replies from support. This blocks new Windows releases for a widely used disk‑encryption tool and also harms his broader business. Hacker News notes similar suspensions hitting WireGuard and others, likely tied to new verification rules, exposing how opaque, centralized code-signing and app-distribution pipelines can endanger security upgrades and strengthen big-platform gatekeeping power.
 
----
+VeraCrypt maintainer Mounir Idrassi says Microsoft terminated the long-used account that signs Windows drivers and the bootloader without warning, explanation, appeal, or reachable human support. Linux and macOS releases can continue, but Windows—most users’ platform—cannot receive updates, and the current 1.26.24 signature chain is nearing expiry. A Rufus developer reported an identical screen caused by failed automated business-domain validation and said human support resolved it; an internal contact offered routing help. HN became more alarmed when WireGuard’s maintainer disclosed a similar suspension and a 60-day appeal.
 
 ### Comment pulse
-- Multiple security-critical OSS projects (VeraCrypt, WireGuard, others) report sudden Microsoft suspensions, blocking driver signing and rapid security fixes for Windows users.  
 
-- Some suspect Microsoft hostility to privacy/encryption tools—counterpoint: others blame broken automated verification and abuse-detection systems, not an intentional anti‑crypto policy.  
-
-- Many argue Microsoft and peers now function like unregulated utilities; real human support arrives only after public shaming via media or influential insiders.
-
----
+- Mandatory Windows Hardware Program re-verification reportedly began October 2025; partners missing it could be marked rejected and suspended.
+- Some suspected hostility toward privacy tools — counterpoint: others favored a broad automated-validation failure, not a targeted anti-encryption campaign.
+- Developers described signing approval as a de facto whitelist with opaque, expensive requirements and support loops disproportionately burdening independent publishers.
 
 ### LLM perspective
-- View: Centralized driver-signing and store controls without transparent process or appeals create systemic security and competition risks.  
 
-- Impact: Independent security/privacy tools, small vendors, and Windows users needing timely patches are most exposed.  
-
-- Watch next: Whether Microsoft documents verification criteria, guarantees appeal paths, and whether regulators push alternative or federated signing infrastructures.
+- **View:** Security infrastructure fails its purpose when revocation controls cannot distinguish malicious signers from maintainers needing urgent patch delivery.
+- **Impact:** Windows users face delayed fixes; open-source publishers inherit a single-vendor operational dependency outside their control.
+- **Watch next:** Account restoration, root-cause disclosure, certificate-expiry behavior, emergency signing paths, service guarantees, and appeal deadlines.
