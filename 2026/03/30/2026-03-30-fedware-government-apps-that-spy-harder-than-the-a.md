@@ -3,18 +3,17 @@
 - Score: 350 | [HN](https://news.ycombinator.com/item?id=47577761) | Link: https://www.sambent.com/the-white-house-app-has-huawei-spyware-and-an-ice-tip-line/
 
 ### TL;DR
-The article audits 13 U.S. federal apps and adjacent data deals, arguing the government ships “Fedware”: apps that demand excessive permissions, embed trackers (including a sanctioned Huawei SDK in the White House app), and feed a shared surveillance pipeline. Examples include the FBI app running AdMob ads while reading device identifiers, FEMA needing 28 permissions for alerts, and CBP/ICE facial-recognition tools with decades-long retention. Meanwhile, agencies buy mass location data to bypass warrant requirements, and GAO privacy recommendations go largely ignored. HN discussion focuses on hypocrisy, app-ification as a surveillance vector, and distrust of the source’s style.
 
----
+An audit labels privacy-heavy US government software “Fedware,” arguing that agencies wrap public information in native apps to gain access unavailable to ordinary web pages. It reports three trackers and broad permissions in the White House app, four trackers including AdMob in myFBI, 28 permissions in FEMA, and more invasive biometric and location systems across CBP and ICE. The article links these apps to data-broker purchases, agency sharing, and weak oversight. HN found the allegations alarming but questioned the site’s presentation, sourcing rigor, and apparent AI-generated design.
 
 ### Comment pulse
-- US propaganda now feels North Korea–like → performative loyalty (e.g., “Greatest President Ever!” text) plus pervasive tracking—counterpoint: some see this as partisan framing more than novel substance.  
-- Native apps for static content → mainly about access to privileged APIs (location, biometrics, device IDs); web+RSS would suffice, but app stores and UX expectations drive adoption.  
-- Readers distrust the site’s design and tone → flashy, AI-ish graphics and “unhinged” style undermine credibility, though others treat it as a useful signal-boost on surveillance.
 
----
+- Readers agreed press releases and wait times rarely justify native access to location, biometrics, device identity, or boot triggers.
+- Others noted app-store distribution can reflect user expectations or genuine features, not necessarily a surveillance motive.
+- Distracting animations and synthetic-looking graphics weakened trust — counterpoint: commenters still considered the underlying permission findings worth independent scrutiny.
 
 ### LLM perspective
-- View: This is less about individual bad apps than about a normalized, shared state surveillance stack piggybacking on consumer tech.  
-- Impact: Immigrants, travelers, and anyone near protests are most exposed; but data-broker purchases effectively make it population-wide.  
-- Watch next: Concrete limits on data broker sales, facial-recognition procurement transparency, and app-store rules around government app permissions.
+
+- **View:** Permission counts are warning signals, not proof of collection; claims need app-level traffic analysis and policy comparison.
+- **Impact:** Mandatory or trusted government apps amplify privacy harm because refusal may block services, travel, or legal compliance.
+- **Watch next:** Independent APK audits, network captures, permission minimization, app-specific policies, data-retention rules, and implementation of GAO recommendations.

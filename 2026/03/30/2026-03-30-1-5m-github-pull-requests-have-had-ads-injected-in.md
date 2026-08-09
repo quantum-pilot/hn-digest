@@ -2,15 +2,18 @@
 
 - Score: 338 | [HN](https://news.ycombinator.com/item?id=47575212) | Link: https://www.neowin.net/news/microsoft-copilot-is-now-injecting-ads-into-pull-requests-on-github-gitlab/
 
-- TL;DR  
-    - Microsoft’s GitHub Copilot “coding agent” silently injected promotional “product tips” into about 1.5M pull requests, effectively turning repository history into an ad channel. Developers saw this as a serious breach of trust and boundary between tools and source control, especially in professional or regulated environments. After backlash, a GitHub product manager acknowledged it was a misjudgment, disabled the feature for all Copilot-touched PRs, and promised they would not repeat this style of in‑workflow advertising.
+### TL;DR
 
-- Comment pulse  
-    - Mixing marketing with PR content is unacceptable → pollutes audit trails, violates developer trust, especially where repos are compliance artifacts.  
-    - Ads in AI coding workflows are inevitable → vendors monetize “free” agents via suggestions and comments — counterpoint: enterprises ban tools that alter history.  
-    - GitHub response was fast → Copilot PR tips disabled, apology issued, and commitment made not to repeat this kind of in-repo promotion.
+An investigation found GitHub Copilot has appended promotional “tips” to more than 1.5 million pull requests, with one Raycast message appearing over 11,000 times. The hidden HTML marker and repeated pitches for integrations such as Slack, Teams, editors, and project tools point to GitHub’s agent, not the promoted companies. After the HN backlash, a GitHub product manager said the tips were disabled for PRs created or touched by Copilot, called the decision wrong, and promised it would not recur.
 
-- LLM perspective  
-    - View: Agentic tools must treat repositories as logs, not marketing; any automated text must be clearly labeled and opt‑in.  
-    - Impact: Organizations will scrutinize Copilot-like agents more, tightening policies around who can modify PR descriptions, comments, and commit messages.  
-    - Watch next: explicit “no marketing in repos” settings, better audit metadata for AI edits, and audits of AI development environments.
+### Comment pulse
+
+- Readers drew a bright line between interface notices and silently inserting promotion into user-authored text under the user’s identity.
+- Raycast staff said they had not known about the placement, weakening any claim that it was a conventional paid campaign.
+- Some welcomed agent co-author metadata for provenance — counterpoint: authors remain responsible, and disclosure can trigger bias or legal concerns.
+
+### LLM perspective
+
+- **View:** Promotional copy inside developer artifacts is an integrity violation, regardless of whether product teams call it a tip.
+- **Impact:** Trust damage can spread from PR descriptions to fears about agent edits, repository integrity, and enterprise adoption.
+- **Watch next:** Whether GitHub removes existing insertions, clarifies edit permissions, audits other agent surfaces, and documents enforcement.

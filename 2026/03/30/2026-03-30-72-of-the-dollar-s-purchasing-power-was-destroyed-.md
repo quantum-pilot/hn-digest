@@ -2,18 +2,18 @@
 
 - Score: 202 | [HN](https://news.ycombinator.com/item?id=47575089) | Link: https://eco3min.fr/en/us-inflation-is-not-linear/
 
-## TL;DR
+### TL;DR
 
-- A 1,357‑month US CPI dataset (1913–2026) finds the dollar has lost 96.9% of its 1914 purchasing power, but the damage is highly uneven. Four short, high‑inflation regimes around the World Wars, 1968–82, and 2021–23 generate about 72% of the total price‑level rise, contradicting the “gentle, constant drip” view of inflation. The work also classifies inflation regimes, shows deflation largely vanishing after the 1950s, and places today’s 2.4% inflation near the long‑run middle.
+Using 1,357 monthly US CPI observations from 1913 through February 2026, the analysis says four inflation episodes—World War I, World War II’s aftermath, the Great Inflation, and post-COVID—produced 72% of cumulative log-price growth while occupying 29% of the timeline. It also calculates that $100 of 1914 purchasing power fell to $3.05, a 96.9% loss. HN challenged the episode boundaries, mixed monetary regimes, and linear purchasing-power chart, arguing the presentation may exaggerate an otherwise familiar story of compounding inflation.
 
-## Comment pulse
+### Comment pulse
 
-- Critics: anchoring to 1914 dollars exaggerates early swings, understates recent ones; events look cherry‑picked; a log chart or trend‑adjusted view might differ.  
-- Others connect findings to war risk: heavy US military spending plus petrodollar challenges could trigger future inflation or dollar weakness—counterpoint: the dollar has recently strengthened.  
-- Several note post‑1995 inflation targeting: decades show low, steady inflation; some say strong currencies hurt manufacturing, so moderate inflation / weaker dollar may help industry.
+- Critics wanted an objective change-point method; hand-selected start and end dates make the 72% headline vulnerable to cherry-picking.
+- A logarithmic price chart would expose proportional changes better — counterpoint: compounding makes early inflation genuinely consequential for today’s price level.
+- Several readers said postwar and fiat-era regimes should not be pooled without structural controls.
 
-## LLM perspective
+### LLM perspective
 
-- View: The episodic framing is useful for risk planning but should be stress‑tested against alternative break‑point and scaling choices.  
-- Impact: Investors, policymakers, and households can model budgets and portfolios around regime shifts rather than assuming smooth, trend‑like inflation.  
-- Watch next: Whether post‑COVID disinflation endures; how deglobalization, energy shocks, or fiscal dominance might trigger the next high‑inflation episode.
+- **View:** The dataset is useful, but the headline is a result of classification choices, not a regime-neutral fact.
+- **Impact:** Poor visualization can turn a defensible compounding calculation into a misleading story about when inflation matters.
+- **Watch next:** Reproducible episode detection, log-scale charts, sensitivity tests, basket-method changes, and comparisons within consistent monetary regimes.

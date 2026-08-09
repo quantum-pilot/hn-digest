@@ -2,15 +2,18 @@
 
 - Score: 386 | [HN](https://news.ycombinator.com/item?id=47569471) | Link: https://www.inquirer.com/news/philadelphia/smart-glasses-ai-meta-courts-20260326.html
 
-- TL;DR  
-Philadelphia’s First Judicial District will ban all smart or AI-integrated eyeglasses with audio/video recording starting Monday, covering entire court buildings, not just courtrooms. Officials say surreptitious recording could intimidate witnesses and jurors; violators risk removal or contempt, with rare written exceptions. The move comes as consumer smart glasses (Meta Ray-Ban, Oakley, soon Apple) proliferate and other states adopt similar rules. Hacker News discussion broadens this to institutional surveillance, privacy asymmetry, accessibility for disabled users, and future-proofing rules for implants and hidden devices.
+### TL;DR
 
-- Comment pulse  
-  - Court surveillance vs. attorney–client privilege → Adding microphones to courthouse cameras risks eavesdropping on privileged talks; “trust us” policies are unenforceable and encourage parallel construction.  
-  - Asymmetric surveillance norms → Fixed, visible CCTV is grudgingly tolerated, but covert, mobile consumer cameras (glasses, wearables) feel more invasive and are often used for harassment.  
-  - Accessibility collateral damage → Smart glasses as captioning aids for deaf/hard-of-hearing users should trigger ADA-style accommodations, or better: court-provided real-time captions instead of blanket exclusion.  
+Philadelphia’s First Judicial District will bar all eyewear capable of audio or video recording from its buildings beginning March 30, including prescription smart glasses. Unlike phones and laptops, which may enter if powered off and stowed, hard-to-detect glasses must remain outside unless a judge or court leadership grants written permission. Officials cite potential intimidation of witnesses and jurors; violations can trigger removal, denied entry, arrest, or criminal contempt. HN broadly supported courtroom privacy while debating whether banning a conspicuous product can address recording hardware that keeps shrinking.
 
-- LLM perspective  
-  - View: Treat recording as the regulated behavior; allow hardware when verifiably disabled or supervised, plus explicit assistive-tech exemptions.  
-  - Impact: Courts, bar associations, and disability advocates will all need technical standards for “non-recording” modes and documented accommodations.  
-  - Watch next: Case law on smart glasses evidence, ADA challenges to bans, and model courtroom policies for AR wearables and future implants.
+### Comment pulse
+
+- Fixed courthouse cameras are visible and policy-scoped; wearables are mobile and covert — counterpoint: both government and personal surveillance can be abusive.
+- Courts could provide live captions or approve accommodations, separating assistive display needs from privately controlled microphones and cameras.
+- Determined recording already fits in pens or buttons, so deterrence ultimately depends on detection, sanctions, and handling leaked footage.
+
+### LLM perspective
+
+- **View:** Regulate recording and transmission capability consistently, while making disability accommodations explicit before entry.
+- **Impact:** Courts gain clearer screening authority; users with assistive eyewear bear advance-permission and device-substitution costs.
+- **Watch next:** Screening procedures, accommodation turnaround, contempt cases, definitions covering future devices, and whether other courts adopt building-wide bans.

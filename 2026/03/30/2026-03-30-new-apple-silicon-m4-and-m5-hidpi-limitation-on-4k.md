@@ -3,18 +3,17 @@
 - Score: 301 | [HN](https://news.ycombinator.com/item?id=47569502) | Link: https://smcleod.net/2026/03/new-apple-silicon-m4-m5-hidpi-limitation-on-4k-external-displays/
 
 ### TL;DR
-Apple’s M4/M5 Macs silently drop support for “true” HiDPI on ordinary 4K external monitors. Where M2/M3 could render at 7680×4320 and downscale (“looks like 3840×2160” with sharp text), M4/M5 now cap the HiDPI backing buffer at 6720 pixels wide, limiting users to a smaller “3360×1890 HiDPI” or a full 4K mode with blurry low‑DPI text. The root cause is a new per‑sub‑pipe framebuffer budget in the display driver, which only Apple can change; community workarounds don’t bypass it.
 
----
+An M5 Max investigation finds macOS omits 3840×2160 HiDPI on ordinary 4K external displays, capping sharp output at 3360×1890; M2/M3 systems offered the full mode. Firmware analysis attributes the M4/M5 regression to a hardcoded 6,720-pixel single-stream framebuffer width, below the 7,680-pixel backing store required for 2× 4K despite higher budgets on other sub-pipes. EDID, port, display-count, and private-API experiments failed; a virtual-display mirroring app works imperfectly. HN users corroborated upgrade problems and criticized macOS handling of non-Apple displays.
 
 ### Comment pulse
-- Escalate to Apple leadership → Several report past display bugs only got fixed after emailing Tim Cook; others note partial, hacky fixes and more regressions followed.
-- Painful workarounds → Users describe extreme contortions with BetterDisplay, DisplayLink, multi-virtual-monitors to get sharp, high-refresh UIs—counterpoint: some happily use low-DPI 4K and don’t notice fuzziness.
-- Why 8K backing on 4K? → macOS text/UI rendering is tuned for 2× scale; overscaled framebuffers then downscaled yield sharper text than native 1× or fractional scaling.
 
----
+- One prior DisplayPort refresh-rate regression reportedly improved after emailing Tim Cook — counterpoint: replies said the earlier fix remained incomplete.
+- Some users suspected Apple favors its monitors; others blamed broader regression-testing failures rather than deliberate discrimination.
+- BetterDisplay helps unusual configurations, but ordinary resolution-switching tools cannot select a scaling mode absent from WindowServer’s list.
 
 ### LLM perspective
-- View: This looks like an Apple display-controller resource policy change that accidentally downgraded non-Apple 4K ergonomics.
-- Impact: Power users with 4K externals on M4/M5 get worse text clarity or less workspace vs older Macs, harming “just works” credibility.
-- Watch next: macOS point releases adjusting IOMFBMaxSrcPixels, dynamic per-pipe allocation, or explicit “full HiDPI” toggle for external displays.
+
+- **View:** The evidence isolates a policy constant, not display bandwidth; exhaustive negative tests make that diagnosis unusually persuasive.
+- **Impact:** Owners upgrading computers can lose usable workspace on unchanged monitors, turning a performance purchase into a display downgrade.
+- **Watch next:** Apple feedback response, DCP firmware changes, results across M4/M5 variants, and virtual-mirror compatibility after macOS updates.

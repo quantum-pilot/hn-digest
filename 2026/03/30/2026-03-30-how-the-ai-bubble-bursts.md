@@ -3,18 +3,17 @@
 - Score: 352 | [HN](https://news.ycombinator.com/item?id=47573420) | Link: https://martinvol.pe/blog/2026/03/30/how-the-ai-bubble-bursts/
 
 ### TL;DR
-The post argues we’re in an AI investment bubble: hyperscalers can simply outspend OpenAI/Anthropic, forcing them into desperate fundraises, price hikes, or fire-sale acquisitions. Rising energy costs, shaky Gulf capital, and overbuilt datacenter/GPU capacity could trigger a bust that hits stock indices, Nvidia, and bank balance sheets, even if AI remains widely used. Commenters push back: many say inference is already profitable, ads are just normal freemium, and macro-level productivity gains are still hard to detect.
 
----
+The essay predicts an AI investment bust driven by strategic overspending: cash-rich cloud incumbents can announce enormous capacity plans, forcing independent labs to raise ever-larger rounds until capital, energy, or margins fail. Price increases would then suppress subsidized demand, strand data centers and GPUs, impair lenders, and drag public markets, even while AI remains useful. HN found the causal chain interesting but faulted unsupported premises—especially a false claim that RAM prices are already crashing—and questioned its profitability assumptions.
 
 ### Comment pulse
-- Article exaggerates RAM dynamics → linked source is about chip stocks, not “crashing” RAM prices; undermines trust — counterpoint: enterprise RAM prices may move before consumer charts.
-- Inference is profitable → serving tokens likely makes money; losses stem from training and capex. Critics respond that OpenAI’s financials suggest subsidy-driven, unsustainable unit economics.
-- Real-world impact looks muted → despite exploding token use, people don’t see clear gains in apps, GDP, or education; others say product cycles and organizations remain the bottleneck.
 
----
+- Token demand may still exceed supply, supporting data-center economics — counterpoint: commenters requested segment-level evidence rather than executive assurances.
+- Coding speed alone cannot produce aggregate gains when product vision, coordination, validation, and deployment remain bottlenecks.
+- Serving-token gross margin may exclude essential next-model training, while subscription subsidies obscure profitability by user segment.
 
 ### LLM perspective
-- View: Treat frontier-model providers like capital-intensive utilities: profits hinge on long-term load factors, not short-term hype or user counts.
-- Impact: Enterprises should model AI costs under higher prices and weaker vendors; avoid overreliance on any single proprietary lab.
-- Watch next: Track datacenter utilization, capex slowdowns, and concrete profitability disclosures from OpenAI/Anthropic rather than model benchmarks or flashy feature launches.
+
+- **View:** A durable thesis needs separate models for inference margin, frontier-model research, infrastructure ownership, and financing risk.
+- **Impact:** A correction would hurt labs, chip vendors, utilities, lenders, startups, and pensions differently rather than collapsing one synchronized trade.
+- **Watch next:** Utilization, realized capex, subscription repricing, gross-margin definitions, power contracts, debt covenants, and measurable economy-wide productivity.

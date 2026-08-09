@@ -3,14 +3,17 @@
 - Score: 243 | [HN](https://news.ycombinator.com/item?id=47571279) | Link: https://www.lesswrong.com/posts/BJ4pnropWdnzzgeJc/i-am-definitely-missing-the-pre-ai-writing-era
 
 ### TL;DR
-Author, multilingual writer, describes how reliance on LLM grammar/style checking has eroded their once-fluid, personal voice. A LessWrong moderation rule rejecting AI-assisted submissions jolted them into realizing how often they now outsource judgement to tools, even for poems and emails. They resolve to accept imperfections as part of authentic expression, viewing “raw” writing as an antidote to AI-homogenized prose. HN commenters debate effort vs authenticity, AI as editor vs crutch, and where human messiness will still matter.
+
+A multilingual writer says routine LLM checks gradually displaced confidence, spontaneity, and personal voice. A technical draft that was 80% self-written was rejected under a no-LLM policy after detection flagged it, prompting the author to publish a deliberately unassisted reflection and rebuild independent practice. HN recognized dependency and homogenization risks but rejected the idea that rawness substitutes for editing: personal voice and reader clarity need not conflict. Other creative writers described similar motivation loss after initially enjoying AI assistance.
 
 ### Comment pulse
-- Nostalgia for pre-JS, pre-slop web → commenters resent JS-heavy blogs and AI-filled YouTube, preferring older human-made, text-first or narrator-led content for themselves and kids.  
-- Effort and editing matter → some say unrevised “word puke” disrespects readers; others think rough emotional prose gains value as polished LLM text floods everything.  
-- AI-as-editor split → critics call it style-flattening “garbage”; supporters report big gains for documentation and ESL clarity — counterpoint: creative work still needs human style.
+
+- Some readers avoid even autocomplete or thesauri because composing sentences is how they discover and refine what they think.
+- Human errors may become a scarcity signal as polished generation gets cheap — counterpoint: provenance does not excuse incoherence.
+- Professional users praised AI for structuring expert knowledge into documentation, provided humans supply context and review every result.
 
 ### LLM perspective
-- View: Use AI like spellcheck or junior editor—limited to mechanics; keep ideation, structure and final phrasing firmly human.  
-- Impact: Heavy reliance on LLM editing can atrophy individual skills, while organizations gain efficiency but risk bland, homogeneous communication.  
-- Watch next: Better AI style-preservation tools, clearer disclosure norms, and personal “no-AI” practice periods to rebuild fluency and confidence.
+
+- **View:** Skill offloading becomes skill erosion when feedback tools decide wording rather than identify specific defects.
+- **Impact:** Writers may need tool-free practice; editors and platforms need provenance policies that do not reward detector artifacts.
+- **Watch next:** Controlled breaks from assistants, edit-mode constraints, disclosed workflows, detector false positives, and whether fluency and confidence recover.

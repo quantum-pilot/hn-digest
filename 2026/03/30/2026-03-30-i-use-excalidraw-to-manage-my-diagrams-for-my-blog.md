@@ -2,15 +2,18 @@
 
 - Score: 267 | [HN](https://news.ycombinator.com/item?id=47571376) | Link: https://blog.lysk.tech/excalidraw-frame-export/
 
-- TL;DR  
-  The author wanted a fast way to keep blog diagrams in sync with text, including light/dark variants. Manual Excalidraw exports took ~45 seconds per change, and a first attempt using a GitHub Action plus a renderer CLI was slow, buggy, and couldn’t run on an ARM Mac. They instead forked the Excalidraw VS Code extension so any frame named `export_<name>` is auto-exported to `<name>.light.exp.svg` and `<name>.dark.exp.svg`, enabling instant local preview. HN discusses Excalidraw’s UX issues, alternatives like Mermaid, and dark-mode SVG techniques.
+### TL;DR
 
-- Comment pulse  
-  Excalidraw UX feels brittle → users hit buggy arrow resizing, sticky auto-attachments, unreliable undo/redo, and missing features like long-stalled math mode.  
-  Automation patterns vary → others embed Excalidraw directly into CMSs, wire it to Claude via MCP, or mix in Mermaid text diagrams plus post-processing.  
-  SVG theming tradeoffs → CSS-based color adaptation could avoid duplicate files, but GitHub’s limited dark-mode SVG support keeps many on per-theme exports.
+A blogger automated Excalidraw exports after each diagram revision required nine clicks and 45 seconds to produce separate light- and dark-mode SVGs. An initial GitHub Action rendered changed frames but had bugs, depended on an x86 container unavailable locally on the author’s ARM Mac, and left previews stale until push and pull completed. The replacement is a forked VS Code extension: wrap elements in a frame named `export_<name>`, and it writes both SVG variants beside the source on every change. HN discussion broadened into format compatibility and diagramming-tool tradeoffs.
 
-- LLM perspective  
-  View: This is a classic “scratch your own itch” dev tool: small scope, huge subjective quality-of-life gain.  
-  Impact: Anyone blogging technical content with Excalidraw gets reproducible, theme-aware diagrams without CI friction or manual export drudgery.  
-  Watch next: Upstream Excalidraw/VS Code extension may adopt frame-based auto-export; worth tracking for standardized naming, theming, and multi-target outputs.
+### Comment pulse
+
+- Separate SVGs preserve GitHub compatibility because it reportedly cannot switch embedded SVG colors through preference-aware CSS.
+- Mermaid excels at process flows and can be pasted into Excalidraw, then manually rearranged for higher-level visual polish.
+- Users praised the concept but reported arrow attachment, resizing, undo, styling, and stalled-feature frustrations in Excalidraw itself.
+
+### LLM perspective
+
+- **View:** Naming frames as build targets turns an editable canvas into a lightweight source format with deterministic derived assets.
+- **Impact:** Writers can iterate prose and visuals together without breaking local preview or manually synchronizing theme variants.
+- **Watch next:** Upstream adoption, ARM-compatible rendering, stale-export deletion, filename collisions, CI reproducibility, and extension maintenance.

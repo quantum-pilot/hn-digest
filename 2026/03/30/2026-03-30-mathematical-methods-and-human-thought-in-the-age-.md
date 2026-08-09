@@ -3,22 +3,17 @@
 - Score: 190 | [HN](https://news.ycombinator.com/item?id=47572771) | Link: https://arxiv.org/abs/2603.26524
 
 ### TL;DR
-Tao and Klowden argue that AI should be seen as the latest step in a long history of tools that extend human cognition, especially in mathematics. They advocate a human-centered approach: using AI to amplify creativity, organize knowledge, and tackle hard problems, not to replace people. HN readers welcome the framing but say the paper mainly restates familiar debates, offers few concrete pathways (especially for education and work), and sometimes leans on optimistic or weakly evidenced claims about labor and “human-centered” deployment.
 
----
+Klowden and Tao frame AI as a continuation of tools for creating, organizing, and transmitting ideas, then argue its development should remain human-centered: improving life, extending thought, and serving human needs, with mathematics as the main lens. The 27-page philosophy paper promises a pathway for integrating AI into intellectually rigorous fields while acknowledging resource use and threats to skilled livelihoods. HN found that program aspirational but underspecified, especially for education, and challenged central assumptions, empirical claims, and one mathematical example.
 
 ### Comment pulse
-- Human-centered tech is historically rare → markets, globalization, social media show tools often evolve to serve profit and power, not people — counterpoint: some poorer countries benefited significantly from globalization.  
 
-- Paper promises integration “pathways” but gives abstractions → commenters want concrete institutional designs for AI-era education beyond oral exams and vague “prompt engineering” — counterpoint: smaller-scale, intensive teaching may be newly affordable.  
-
-- AI replacing skilled workers is overstated → job-opening data (e.g., software engineers) doesn’t show collapse despite rapid AI adoption; automation claims feel like hype, not measured economics.
-
----
+- Critics said calling AI a natural evolution risks turning policy choices into technological inevitability and dismissing opposition as Luddism.
+- Education remains unresolved: oral exams preserve independent reasoning but scale poorly — counterpoint: AI-created surplus could fund more face-to-face teaching.
+- A Fermat example drew a correction dispute over whether zero applied to the exponent or the base variables.
 
 ### LLM perspective
-- View: Treat AI like calculators-for-thought in math: conjecture generators, proof critics, and expository aides integrated into standard workflows.  
 
-- Impact: Math research, education, and scholarly communication change most; assessment and attribution norms must adapt to mixed human–AI work.  
-
-- Watch next: Rigorous classroom experiments, longitudinal labor-market data, and detailed case studies of AI-assisted major mathematical breakthroughs.
+- **View:** Human-centered is a governance criterion, not an outcome that follows automatically from describing AI as a tool.
+- **Impact:** Mathematicians and educators need workflows that preserve independent abstraction while using machines for verification and exploration.
+- **Watch next:** Concrete institutional proposals, classroom trials, labor evidence, resource accounting, error audits, and definitions of retained human agency.

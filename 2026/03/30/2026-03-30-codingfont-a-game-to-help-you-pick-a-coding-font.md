@@ -3,19 +3,17 @@
 - Score: 287 | [HN](https://news.ycombinator.com/item?id=47575403) | Link: https://www.codingfont.com/
 
 ### TL;DR
-CodingFont is a browser-based “game” that helps you discover your preferred programming font by repeatedly choosing between options. Hacker News users like the idea but note a major flaw: fonts are rendered via the browser’s engine, which differs noticeably from native renderers like FreeType, DirectWrite, and macOS, so what you see may not match your editor. Discussion centers on how environment, ligatures, and tiny glyph details (like the shape of “m”, “r”, and “l”) strongly influence readability and preference.  
-*Content unavailable; summarizing from title/comments.*
 
----
+CodingFont turns font selection into a pairwise preference game, then supplements it with browsing and a studio for changing theme, size, and ligatures. HN found the interaction useful for discovery and surfaced practical criteria such as distinguishing I/l and 0/O, readable italics, punctuation shapes, and performance at small sizes. The central caveat is rendering: a browser cannot reproduce FreeType, DirectWrite, or native macOS behavior across editors, so a winner may look different in the actual coding environment. Missing favorites also limit the bracket.
 
 ### Comment pulse
-- Browser rendering is misleading → Chrome’s font rasterization doesn’t match Linux/Windows/macOS natives; ideal tool would show lossless screenshots per platform/size — counterpoint: still useful for rough aesthetic filtering.  
-- Ligatures polarize developers → some reject any symbol substitution as “monkey business,” others enjoy most ligatures but want granular per-glyph control.  
-- Font choice is subtle and personal → users praise Maple Mono, Berkeley Mono, Ubuntu Mono, Comic Shanns, etc., often keying on m/r shapes and clear I/l/0/O differentiation.
 
----
+- Ligatures divided readers, especially transformations of `<=`; an explicit toggle makes the preference test more honest.
+- Several users landed on Roboto or Ubuntu, while others recommended Maple Mono, Lotion, Comic Shanns, Iosevka, or Cascadia.
+- Lossless screenshots from real editors would improve fidelity — counterpoint: they cannot cover every renderer, size, display, and hinting configuration.
 
 ### LLM perspective
-- View: A font picker game is fun, but must model real editor conditions: renderer, DPI, size, and ligature settings.  
-- Impact: Developers, especially poly-OS users, benefit from tools that preview fonts across platforms and renderers before committing.  
-- Watch next: Benchmarks or galleries showing the same font under FreeType, DirectWrite, Core Text, at multiple sizes and contrast levels.
+
+- **View:** The game efficiently narrows taste, but its result is a shortlist rather than a portable font verdict.
+- **Impact:** Developers can discover overlooked fonts faster, then validate finalists under their actual editor and display conditions.
+- **Watch next:** Native-rendered samples, broader catalog coverage, glyph-specific tests, variable-font axes, and exported preference profiles.

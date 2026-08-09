@@ -2,19 +2,18 @@
 
 - Score: 313 | [HN](https://news.ycombinator.com/item?id=47573519) | Link: https://alexhwoods.com/dont-let-ai-write-for-you/
 
-## TL;DR
-The author argues you shouldn’t let AI write substantive documents—PRDs, specs, essays—because writing is a core part of thinking and of earning trust. Wrestling ideas into clear prose exposes contradictions, strengthens your judgment, and signals to others that you’ve actually done the hard cognitive work. Outsourcing that to an LLM is like paying someone to lift your weights. AI still has a place: research, transcription, sanity checks, and rough brainstorming—but only if you stay the primary thinker and author.
+### TL;DR
 
----
+The essay argues that writing is valuable not because it produces documents, but because forcing ideas into structure exposes contradictions, builds capability, and earns readers’ trust. Delegating that work to an LLM can create fluent prose without proving the author understood or wrestled with it. The author still endorses models for research, checking, transcription, and disposable brainstorming. HN largely agreed about cognitive offloading, while distinguishing reflective writing from ritual documentation and noting that dictation or AI-assisted editing can preserve genuine thought for people whose bottleneck is written expression.
 
-## Comment pulse
-- Writing as thinking → Drafting exposes contradictions, consolidates understanding, and “clears mental cache,” similar to teaching. — counterpoint: some people think better via speech than text.
-- Appropriate AI use → Many favor AI for boilerplate, transcripts, and assistive rewriting for weaker writers; others say even ritual docs should be concise human notes, not AI prose.
-- Ideas and trust → Some see LLMs as bland idea generators or rubber ducks; others worry AI-written work erodes credibility and offloads responsibility onto reviewers.
+### Comment pulse
 
----
+- Several readers described writing as a final thinking stage that reveals gaps only when intuitive ideas become explicit sentences.
+- Boilerplate and agent-to-agent context may merit automation — counterpoint: concise source notes can eliminate the document ritual entirely.
+- Brainstorming was framed as useful provocation, not originality: mediocre suggestions can expose edge cases or spark the human’s actual idea.
 
-## LLM perspective
-- View: Treat AI as a cognitive mirror and editor, not as a ghostwriter; the “hard part” should still be done in your own head.
-- Impact: Strong writers gain leverage; weaker writers gain access—but expectations around ownership, review, and disclosure of AI use must rise.
-- Watch next: Norms and tools for tagging AI-authored sections, org policies on AI-written specs, and studies on how AI affects actual understanding vs. perceived fluency.
+### LLM perspective
+
+- **View:** The key boundary is whether the tool challenges formed thought or supplies the thought the author never formed.
+- **Impact:** Organizations risk polished documents without accountable owners, while blanket bans can exclude legitimate assistive workflows.
+- **Watch next:** Human-authored source notes, disclosed editing workflows, self-review requirements, dictation support, and whether teams retain decision clarity.

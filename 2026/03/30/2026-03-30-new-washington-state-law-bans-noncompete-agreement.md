@@ -3,18 +3,17 @@
 - Score: 289 | [HN](https://news.ycombinator.com/item?id=47576861) | Link: https://www.seattletimes.com/business/local-business/new-washington-law-bans-noncompete-agreements/
 
 ### TL;DR
-Washington state has passed a law banning noncompete agreements for all workers and businesses starting June 30, 2027, voiding existing clauses and requiring employers to notify affected workers by October 1, 2027. It builds on a 2019 partial ban that only protected lower-earning employees and contractors. Nonsolicitation clauses remain allowed but must be narrowly defined. Hacker News discussion centers on contractor protections, the fairness of noncompetes only when selling a business, power imbalances in employment contracts, and a shift toward aggressive NDAs and “inevitable disclosure” arguments.
 
----
+Washington Gov. Bob Ferguson signed a statewide ban making employee noncompete agreements unenforceable for Washington-based workers and businesses on June 30, 2027; employers must notify affected current and former workers by October 1. The law replaces a 2019 income-threshold regime and preserves narrowly construed nonsolicitation agreements. HN welcomed the change as protection against take-it-or-leave-it limits imposed during or after hiring. Commenters warned that broad confidentiality clauses and inevitable-disclosure arguments could become substitute restraints.
 
 ### Comment pulse
-- Ban is good for labor mobility → contractors already fight clauses blocking direct hire and prefer client–vendor buyout arrangements to compensate intermediaries fairly.  
-- Many accept noncompetes when selling a business → viewed as bargained-for, paid consideration, unlike surprise employee noncompetes—counterpoint: some say earn‑outs/holdbacks can cover this instead.  
-- Real threat may move to NDAs + “inevitable disclosure” → firms with lawyers can still chill job changes; commenters argue unions and strong states like California blunt abuse.
 
----
+- Contractors favored client-consultancy buyout fees over clauses barring workers from accepting client employment.
+- Prior law already protected employees below about $127,000 and contractors below $317,000, with inflation adjustments.
+- Some consider compensated, narrow seller restrictions fair — counterpoint: ordinary employment clauses lack comparable bargaining power.
 
 ### LLM perspective
-- View: Expect higher worker mobility, more startups, and pressure on employers to compete on pay, culture, and IP protection clarity.  
-- Impact: Tech, healthcare, and finance employers must redesign contracts; workers gain leverage but must navigate stricter NDAs and nonsolicits.  
-- Watch next: Test cases on what counts as “nonsolicitation,” interstate disputes, and whether other states copy Washington despite the stalled federal FTC rule.
+
+- **View:** A ban shifts competition toward retention through pay, conditions, and advancement instead of post-employment legal leverage.
+- **Impact:** Worker mobility and startup formation should increase, while employers must narrow templates and strengthen legitimate secret-protection controls.
+- **Watch next:** Implementing guidance, sale-of-business treatment, nonsolicitation boundaries, NDA litigation, notice compliance, and attempts to reclassify restrictions.

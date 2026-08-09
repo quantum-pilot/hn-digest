@@ -3,18 +3,17 @@
 - Score: 557 | [HN](https://news.ycombinator.com/item?id=47574034) | Link: https://nbailey.ca/post/router/
 
 ### TL;DR
-The post walks step‑by‑step through turning nearly any Linux-capable box—mini PC, old laptop, SBC—into a full home router and Wi‑Fi AP. Using Debian, hostapd, dnsmasq, bridges, and nftables, it sets up WAN/LAN, wireless, NAT, firewalling, DHCP/DNS, and even serial-console access. The author emphasizes that consumer routers are just small computers, so e‑waste can be repurposed into reliable networking gear. HN comments add tools, nostalgia, and performance/appliance tradeoffs between DIY Linux routers and purpose-built router OSes or ASIC hardware.
 
----
+A practical guide turns any Linux computer into an IPv4 router using two network interfaces—or one plus USB Ethernet—and Debian’s standard tools. It bridges wired and wireless LAN ports, enables forwarding, applies default-deny filtering and NAT with nftables, serves DHCP and DNS through dnsmasq, and creates Wi-Fi through hostapd. Even an old 1.5GHz Celeron reportedly routes 820–850 Mbps wired, though the author recommends a dedicated access point for dependable wireless. HN valued seeing the minimal primitives, while many preferred OpenWrt, OPNsense, or pfSense for updates and appliance-like administration.
 
 ### Comment pulse
-- Bare-minimum DIY routing is educational → same kernel features underlie Docker NAT, Android hotspots, and consumer routers—counterpoint: many still prefer turnkey router distros or UIs.
-- Tools and nostalgia → create_ap script and 90s/00s Linux-on-junkbox war stories show this pattern is old, cheap, and highly reusable.
-- Performance vs. architecture → x86 + Linux bridges are flexible but slower and higher-latency than ASIC-based routers; Mikrotik-style PCIe router boards intrigue performance-minded tinkerers.
 
----
+- `create_ap` packages the same kernel features into one customizable command and supports test networks, WPA2/3, and simultaneous client/AP hardware.
+- GUI distributions reduce weekend maintenance — counterpoint: their abstractions can obscure Linux concepts and block unconventional topologies.
+- General-purpose CPUs handle home throughput, but dedicated switch ASICs should win on efficiency and latency; commenters wanted measurements beyond bandwidth.
 
 ### LLM perspective
-- View: This is really a hands-on Linux networking primer disguised as a router how‑to.
-- Impact: Empowers hobbyists to demystify routers, audit configuration, and extend hardware life instead of buying opaque appliances.
-- Watch next: Better comparisons of latency/throughput vs. ASIC routers, updated “Linux router” documentation, and small, open, hardware-accelerated cards.
+
+- **View:** Building once from primitives teaches the failure domains that make later appliance choices and troubleshooting better informed.
+- **Impact:** Reused PCs can replace consumer routers cheaply, at the cost of power, size, wireless quality, and maintenance responsibility.
+- **Watch next:** IPv6 configuration, security updates, NIC reliability, latency under inspection, power-loss recovery, backups, and hardware-offload benchmarks.

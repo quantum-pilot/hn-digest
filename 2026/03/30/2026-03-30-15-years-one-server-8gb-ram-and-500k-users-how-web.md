@@ -3,14 +3,17 @@
 - Score: 275 | [HN](https://news.ycombinator.com/item?id=47570940) | Link: https://community.webminal.org/t/15-years-one-server-8gb-ram-and-500k-users-how-webminal-refuses-to-die/8803
 
 ### TL;DR
-Webminal is a 15‑year‑old, single‑server Linux training site that’s quietly onboarded ~500k users using an almost archival stack: CentOS, Python 2, Flask 0.12, Shellinabox, and User Mode Linux for fully isolated root labs. Two founders, collaborating for years only via shared screen sessions over SSH, have run it ad‑free and mostly at personal expense to serve students who can’t pay. HN commenters respond with nostalgia, highlight how limitations shaped its design, and argue over whether 8GB RAM is excessive or insufficient today.
+
+Webminal has served roughly 500,000 learners since 2011 from one modest CentOS server, originally with 8GB RAM and now reportedly 4GB. The free, owner-funded browser terminal survived a datacenter fire and other outages without ads, tracking, or venture capital. Its modernized interface still wraps a decidedly old stack—Python 2.7, Flask 0.12.5, Shellinabox, and MySQL—while User Mode Linux provides isolated root labs and eBPF powers an anonymized live command ticker. HN saw a compelling case for constrained, durable engineering.
 
 ### Comment pulse
-- Old‑school internet idealism → creator funds Webminal himself, keeps it ad‑free; cost constraints drove SELinux hardening, filesystem quotas, and other careful multi‑tenant tricks.  
-- Unusual collaboration and hosting → cofounders began on a home server, chatting via shared screen; later hopped between clouds, often powered by sponsorships and credits.  
-- Tool choices and scale → UML admired as pragmatic “old” tech; some see 8GB as lavish—counterpoint: others note multi‑user teaching loads quickly exhaust it.
+
+- Concurrent users matter more than 500,000 lifetime accounts; the owner said the current machine actually has 4GB RAM.
+- User Mode Linux was praised as an unusually good fit for safe, low-cost teaching sandboxes.
+- Readers admired the old-web ethos — counterpoint: cloud-shell alternatives offer maintained environments without one volunteer carrying operational risk.
 
 ### LLM perspective
-- View: Shows how tightly scoped goals plus proven tech can outperform elaborate microservices for education platforms and hobby projects.  
-- Impact: Validates low‑cost Linux training for underserved students; may inspire similar single‑box labs in schools and community spaces.  
-- Watch next: If sponsorship funds more RAM/UML instances, and how long Python 2 and Shellinabox remain viable before forced rewrites.
+
+- **View:** The durable design is less about old software than matching narrow requirements and resisting needless complexity.
+- **Impact:** A tiny service can deliver global educational value when isolation, recovery, and operating costs stay disciplined.
+- **Watch next:** Python migration, backup resilience, concurrency limits, kernel isolation, sponsor fatigue, and another provider failure.

@@ -3,18 +3,17 @@
 - Score: 212 | [HN](https://news.ycombinator.com/item?id=47580350) | Link: https://30u30.fyi
 
 ### TL;DR
-A satirical site, 30u30.fyi, juxtaposes notorious Forbes “30 Under 30” fraud cases (Holmes, SBF, Do Kwon, etc.) with a jokey “Fraud Watch” risk index that scores current hyped founders—especially young, elite-school dropouts in AI/crypto. It parodies quant models with an intentionally nonsensical formula and heavy disclaimers. HN discussion splits between seeing it as sharp commentary on perverse startup incentives and fame-driven youth culture, and seeing the “watchlist” of not-yet-accused founders as mean-spirited or borderline defamatory.
 
----
+30u30.fyi combines a sourced gallery of Forbes-recognized founders who were convicted, charged, or accused of major fraud with a deliberately fictional risk index for 45 current founders and startups. The joke formula rewards Forbes-list density, elite-school dropout status, valuation-to-revenue ratios, youth, hype sectors, and an unfalsifiable vibes constant; the site repeatedly says inclusion implies no wrongdoing. HN accepted the historical archive but debated whether explicit satire can justify assigning invented fraud scores to named, unaccused people.
 
 ### Comment pulse
-- Satire exposes incentive traps → youth, hype sectors, and prestige lists nudge founders toward exaggeration and fraud. — counterpoint: many are selected for Machiavellian traits from the start.  
-- “Watchlist” feels like libel → naming real, non‑indicted founders as fraud risks (even with disclaimers) is punching down and reputationally harmful.  
-- Some entries (e.g., Cursor) seem off → lumping real, user-serving companies beside criminals reads more like a grudge than insightful critique.
 
----
+- Cursor’s real users and reported revenue made its 92 score especially jarring — counterpoint: its four listed founders are the joke’s entire premise.
+- Some blamed youthful susceptibility to extreme incentives; others argued the selection simply captures unusually ambitious or Machiavellian personalities.
+- Critics distinguished mocking Forbes from numerically ranking individuals, calling the latter low-effort reputational harm rather than institutional satire.
 
 ### LLM perspective
-- View: Awards and media anointing under‑30 founders are better treated as risk flags than validation of substance.  
-- Impact: Founders, VCs, and journalists may become warier of hype cycles and “prodigy” narratives, especially in AI and crypto.  
-- Watch next: Whether similar “fraud watch” projects appear, and if any trigger real legal pushback over satire versus defamation boundaries.
+
+- **View:** Disclaimer visibility cannot fully neutralize a page whose visual grammar deliberately mimics investigative findings.
+- **Impact:** Named founders bear asymmetric reputational cost, while Forbes and venture culture receive the intended institutional critique indirectly.
+- **Watch next:** Corrections policy, evidence thresholds, separation of allegations from convictions, removals, methodology changes, and any legal complaints.
