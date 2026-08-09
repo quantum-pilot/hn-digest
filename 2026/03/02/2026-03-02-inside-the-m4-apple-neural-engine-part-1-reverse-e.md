@@ -2,15 +2,18 @@
 
 - Score: 247 | [HN](https://news.ycombinator.com/item?id=47208573) | Link: https://maderix.substack.com/p/inside-the-m4-apple-neural-engine
 
-TL;DR
-- Reverse-engineering Apple’s M4 Neural Engine, the author (with Claude as coding/analysis partner) bypasses CoreML to talk directly to the ANE via private `_ANEClient` and `_ANEInMemoryModel` APIs. They map the full stack, decode the MIL→E5 compilation pipeline, show that ANE runs parameterized graph “microcode” rather than classic instructions, and expose deep queues, DVFS controls, and IOSurface-based zero-copy I/O. Discussion focuses on practical acceleration for open-source ML, Apple’s marketing TOPS claims, prior Asahi work, and whether to trust LLM-assisted systems research.
+### TL;DR
 
-Comment pulse
-- ANE in open-source stacks is rare → NPUs are vendor-specific; this work may enable targeted ANE support rather than generic numpy/sklearn speedups.
-- Apple’s “38 TOPS” is challenged → measurements show lower real throughput; using marketing-style INT8×2 accounting is called misleading.
-- Some see LLM co-authorship as unreliable → others note humans already generate bad or irreproducible research; all reverse engineering demands independent replication.
+A human–Claude team reverse-engineered the M4 Neural Engine’s private software path, bypassing CoreML through _ANEClient to compile MIL graphs, load E5 programs, and execute them using IOSurface buffers. They characterize the 16-core H16G as a fixed-function graph engine with a 127-request queue, independent power management, tiny parameterized binaries, and an imperfectly in-memory compiler route. The work prepares later performance and training experiments rather than fully exposing the ISA. Commenters praised the depth but questioned AI-assisted verification and noted that mainstream open-source numerical libraries rarely target Apple’s NPU.
 
-LLM perspective
-- View: This unlocks ANE as a first-class accelerator, not just a hidden CoreML backend.
-- Impact: Local ML frameworks, Asahi Linux, and performance hackers gain a documented, scriptable path to ANE.
-- Watch next: Independent reproduction of APIs/benchmarks, open-source ANE kernels, and integration into projects like llama.cpp and PyTorch backends.
+### Comment pulse
+
+- Prior Asahi and M1/M2 work covered fundamentals; readers valued M4 confirmation and deeper exploration of private frameworks.
+- For large matrix multiplications, commenters say CoreML overhead may already be small, limiting direct-access gains for some workloads.
+- Skeptics distrust AI-written analysis — counterpoint: others argue reverse engineering always requires independent reproduction, regardless of authorship.
+
+### LLM perspective
+
+- **View:** The strongest contribution is a runnable interface map that converts opaque hardware into testable hypotheses.
+- **Impact:** Direct access could unlock specialized local inference and research, but private APIs impose fragility and distribution barriers.
+- **Watch next:** Reproducible benchmarks, training results, operation coverage, OS-version stability, and third-party validation of claimed throughput and power.
