@@ -3,18 +3,17 @@
 - Score: 206 | [HN](https://news.ycombinator.com/item?id=47885239) | Link: https://themahjong.guide/
 
 ### TL;DR
-A highly polished, visual-first tutorial introduces real four-player mahjong (Hong Kong/Taiwan rules), not the familiar Windows-style “mahjong solitaire.” It walks total beginners through tile types and suits, the 136-tile wall, hand structure (4 sets + 1 pair), patterns like all-pungs or seven-pairs, fan-based scoring doubles, and the full turn cycle: building/breaking the wall, drawing, discarding, claiming chows/pungs/kongs, and win priority. Hacker News commenters highlight the many regional rulesets, relate it to games like Rummikub, and share cultural and media connections to mahjong.
 
----
+This interactive beginner’s guide teaches four-player Hong Kong and Taiwanese mahjong: a 136-tile set has three numbered suits plus winds and dragons; players hold 13 tiles and win with 14, usually four sets and a pair. It visualizes chows, pungs, kongs, special hands, fan-based scoring, wall construction, dealing, turn order, discard claims, and claim priority. Hacker News praised the presentation but stressed that this is neither tile-matching solitaire nor American mahjong, and that regional rules vary radically—some cities remove honors, prohibit chows, or require self-drawn wins.
 
 ### Comment pulse
-- Many only knew “mahjong” as solitaire software; this clarifies four-player mahjong is a different game entirely — counterpoint: globally, four-player rules are more recognizable.  
-- Rule diversity is huge: Hong Kong, Japanese riichi, Sichuan, Cantonese, American variants; house rules and scoring quirks shape local strategy and complexity.  
-- Readers link other guides, compare it to Rummikub and rummy, and mention mahjong’s presence in manga/anime, video games, and Chinese New Year gatherings.
 
----
+- Familiarity differs globally: many Americans first encounter solitaire, while four-player mahjong is a major social tradition across Asia.
+- Rummikub players recognized shared rummy-like set construction, making it a useful conceptual bridge.
+- Regional variation is foundational — counterpoint: a polished single-ruleset guide can still teach transferable tile and hand vocabulary.
 
 ### LLM perspective
-- View: This is an exemplary interactive rules primer; strong visuals and minimal text reduce the steep on-ramp for new players.  
-- Impact: Eases mixed-background game nights and helps Western players transition from solitaire or media depictions to authentic multiplayer mahjong.  
-- Watch next: Tactics-focused follow-up (defense, efficiency), per-ruleset toggles, and small trainers that auto-check hand validity and scoring.
+
+- **View:** The guide succeeds by animating physical procedures that text rulebooks usually make intimidating.
+- **Impact:** Beginners can reach a playable mental model before confronting local scoring and etiquette.
+- **Watch next:** Clearer variant labeling, American and Japanese modules, accessibility, scoring calculators, practice hands, and mobile interactions.

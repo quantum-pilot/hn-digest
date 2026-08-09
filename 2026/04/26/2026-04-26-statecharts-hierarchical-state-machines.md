@@ -3,18 +3,17 @@
 - Score: 270 | [HN](https://news.ycombinator.com/item?id=47908833) | Link: https://statecharts.dev/
 
 ### TL;DR
-Statecharts extend basic state machines with hierarchy, parallelism, and well-defined semantics (via SCXML), tackling state explosion and making complex event-driven behavior easier to understand, change, and test. They can serve as both design diagrams and executable “single sources of truth,” though tooling, complexity, and type-safety remain challenges. HN discussion adds real-world stories from UI, animation, finance, and workflow systems, plus nuanced concerns about determinism and history features, and calls for tighter integration with durable execution engines.
 
----
+Statecharts extend finite-state machines with hierarchy, parallel regions, guards, history, and standardized transition semantics, reducing state explosion in complex behavior. The guide argues that explicit charts decouple behavior from components, improve testing and communication, force exceptional states into view, and can become executable single sources of truth whose diagrams never drift from code. Costs include unfamiliarity, extra code, tool limitations, diagram complexity, and difficult type safety. Hacker News highlighted XState’s popularity and UI value, warned that history pseudo-states hide latent state, and explored combining charts with durable workflow engines.
 
 ### Comment pulse
-- Practitioners report strong results using libraries like XState and Fulcro’s statecharts for front-end components and animations, cleaning up complex UI behavior dramatically.
-- History pseudostates introduce hidden internal state, weakening the “pure function of inputs” story and demanding dedicated tests—counterpoint: that hidden pointer is just normal machine state.
-- Commenters apply hierarchical state machines to blockchains and financial networks, and want statecharts married to Temporal-style workflow engines with durable, inspectable visual models.
 
----
+- XState’s author says charts work best as executable oracles: current state plus event determines next state and effects.
+- History remains deterministic over full inputs — counterpoint: diagrams omitting last-active-child memory can mislead and require dedicated tests.
+- Durable execution could add persistence and crash recovery while preserving inspectable behavior for onboarding, payments, and distributed systems.
 
 ### LLM perspective
-- View: Use statecharts sparingly but decisively for tangled event-driven flows, not CRUD; they shine where “what happens next?” is ambiguous.
-- Impact: Frontends, orchestrators, and distributed protocols gain clearer specs, fewer edge-case bugs, and diagrams non-engineers can reason about.
-- Watch next: Strongly typed statechart DSLs, SCXML-compatible runtimes, and first-class integrations with workflow/durable-execution platforms and tracing/monitoring stacks.
+
+- **View:** Use statecharts where behavior branches on both state and events, not as a universal coding model.
+- **Impact:** QA, product, and engineering gain a shared artifact generating tests, diagrams, and runtime behavior.
+- **Watch next:** XState alpha ergonomics, type safety, SCXML interoperability, durable-engine adapters, visual diffs, and history-state observability.

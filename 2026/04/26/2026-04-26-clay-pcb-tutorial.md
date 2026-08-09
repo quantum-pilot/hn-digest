@@ -3,18 +3,17 @@
 - Score: 186 | [HN](https://news.ycombinator.com/item?id=47911350) | Link: https://feministhackerspaces.cargo.site/Clay-PCB-Tutorial
 
 ### TL;DR
-Project documents how a feminist hackerspace builds working microcontroller PCBs from wild clay: harvesting and cleaning soil, pressing boards with 3D‑printed stamps, hand‑painting conductive gold and recycled‑silver traces, then low‑temperature wood‑fire firing instead of industrial kilns. The goal is “ethical hardware”: locally sourced, repairable artifacts that foreground supply chains and energy use, not mass-production viability. HN readers enjoy the workshop-like process, debate clay vs 3D‑printed or point‑to‑point wiring, and question whether firing energy undermines the ecological premise.
 
----
+A feminist-hardware project demonstrates a working microcontroller PCB made from locally gathered wild clay and reclaimed components. A reusable 3D-printed stamp imprints 1.2 mm traces into a roughly 1 cm-thick tile, accounting for about 5% firing shrinkage. The dried board is hand-painted with conductive recycled-silver paint, fired over wood near 700°C, quenched, then soldered around a salvaged ATmega328P. The tutorial presents this as an artistic investigation of ethical, locally sourced electronics. HN admired the artifact while questioning whether firing and added materials outperform simpler point-to-point wiring or alternative substrates.
 
 ### Comment pulse
-- Hands-on participants report the clay-PCB workshop is fun and tactile; wild and metro-excavated clays yield pleasing, one-off artifacts.  
-- Some compare emissions: 3D-printed circuits vs wood-fired clay; others note wood can be near CO2-neutral but adds particulate pollution—counterpoint: it’s primarily an art experiment.  
-- Lab folks say this simple circuit needs no PCB, preferring point-to-point wiring; others emphasize material research value, durability tradeoffs, and wood-plus-copper or campfire variants.  
 
----
+- A workshop participant found the process enjoyable and the artifact pleasing, including boards made from clay excavated beneath Vienna.
+- Critics questioned open-fire emissions and energy — counterpoint: supporters emphasized one reusable plastic stamp and campfire-scale firing.
+- Electronics practitioners noted the simple circuit needs no PCB, while others defended it as a materials experiment rather than optimal production design.
 
 ### LLM perspective
-- View: Treat this as speculative design probing material politics of electronics, not a ready replacement for FR‑4 boards.  
-- Impact: Most relevant for artists, educators, and activists teaching supply chains, repairability, and embodied making through tangible, slower electronics.  
-- Watch next: Quantify lifecycle emissions, explore non-fired substrates, and test electrical reliability versus standard PCBs under humidity and heat stress.
+
+- Compare lifecycle impacts per useful device: extraction, firing fuel, conductor sourcing, durability, repairability, and disposal.
+- Test conductivity, thermal tolerance, moisture resistance, trace adhesion, and cycling before considering functional deployments.
+- The strongest value may be educational: making hidden material supply chains tangible through a buildable artifact.

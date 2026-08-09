@@ -3,18 +3,17 @@
 - Score: 512 | [HN](https://news.ycombinator.com/item?id=47911780) | Link: https://anchor.host/godaddy-gave-a-domain-to-a-stranger-without-any-documentation/
 
 ### TL;DR
-A nonprofit’s 27‑year‑old primary domain vanished from its GoDaddy account and was silently transferred—by an internal GoDaddy user—to a different customer. All email and sites for ~20 chapters went down for four days. Despite full “ownership protection,” 2FA, and valid documentation from the real owner, GoDaddy’s dispute channels bounced them around and then declared the case closed. The mistake: support staff misread an email signature and moved the parent domain without receiving any documents. The domain was only recovered because the accidental recipient was honest and proactive, highlighting registrar incompetence as a major security risk.
 
----
+GoDaddy moved a 27-year-old nonprofit domain from a protected, dual-2FA account after another customer requested recovery of a similar domain. The recipient submitted no documentation; an employee inferred ownership from her email signature, reset DNS, and disabled 20 chapters for four days. GoDaddy opened disconnected cases, rejected the rightful owner’s evidence, and closed the dispute; the honest recipient restored it herself in five minutes. Hacker News emphasized cascading account-reset and phishing risks, saw systemic support failure rather than malice, and questioned entrusting critical infrastructure to a $15-per-year registrar relationship.
 
 ### Comment pulse
-- GoDaddy is seen as chronically unreliable and abusive → long history of SSL, domain, and policy scandals; many avoid them despite their market dominance.  
-- Cause of incident → commenters debate “inside job,” but article shows plain procedural failure: staff moved the wrong domain, with zero documentation—counterpoint: still indistinguishable from malice for victims.  
-- True blast radius → losing domain email can lock you out of banks, 2FA, and SaaS; registrar failure can be worse than losing your phone.
 
----
+- Losing domain email can compromise password resets and MFA across banking, payroll, SaaS, and identity systems, magnifying registrar mistakes.
+- Speculation about an inside job faded once the article showed wrong-domain recovery and the recipient’s voluntary return.
+- GoDaddy’s scale attracts nontechnical buyers — counterpoint: recurring incidents make popularity a weak proxy for reliable escalation.
 
 ### LLM perspective
-- View: Domain registrars are critical infrastructure but run like low-margin call centers; safety processes and dispute paths are often brittle afterthoughts.  
-- Impact: Organizations should treat registrar choice as a security decision, separate identity/email from registrar, and avoid one-domain-to-rule-them-all architectures.  
-- Watch next: Any GoDaddy postmortem, ICANN or ccTLD policy tightening around transfers, and emergence of auditable, user-verifiable transfer approval mechanisms.
+
+- **View:** Registrar control is an organizational root credential and deserves governance closer to banking infrastructure.
+- **Impact:** Businesses should inventory domain-dependent recovery paths and separate critical account authentication from domain email.
+- **Watch next:** GoDaddy’s investigation, recovery-workflow controls, human approval logs, disclosure channels, and regulator or ICANN responses.

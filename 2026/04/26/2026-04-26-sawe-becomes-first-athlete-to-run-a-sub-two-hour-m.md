@@ -3,18 +3,17 @@
 - Score: 197 | [HN](https://news.ycombinator.com/item?id=47914350) | Link: https://www.bbc.com/sport/athletics/articles/crm1m7e0zwzo
 
 ### TL;DR
-Kenyan runner Sabastian Sawe ran 1:59:30 at the 2026 London Marathon, the first sub‑two‑hour marathon in a record‑eligible race, smashing Kelvin Kiptum’s 2:00:35 mark. Debutant Yomif Kejelcha also dipped under two hours (1:59:41), and Jacob Kiplimo ran 2:00:28, underscoring how fast the field has become. Commenters highlight advances in “super shoes,” carb fuelling (90–120 g/hour with gut training), smart pacing, and persistent suspicions about performance‑enhancing drugs despite Sawe’s unusually heavy pre‑race testing.
 
----
+Kenya’s Sabastian Sawe won the 2026 London Marathon in 1:59:30, becoming the first runner below two hours in a record-eligible competitive race and improving Kelvin Kiptum’s mark by 65 seconds. He negative-split 60:29/59:01 and accelerated through the final 10km; debutant Yomif Kejelcha also broke two hours at 1:59:41, while Jacob Kiplimo ran 2:00:28. Tigst Assefa set a 2:15:41 women-only record. Hacker News attributed the extraordinary field to cool conditions, high-carbohydrate gut training, ultralight shoes, and pacing tools, while debating carbon plates and performance-enhancing-drug suspicion despite Sawe’s extensive testing.
 
 ### Comment pulse
-- Tech + nutrition explain the leap → carbon-plated “super shoes” plus gut-trained fuelling at ~100–120 g carbs/hour, enabled by products like Maurten hydrogels.  
-- Conditions + course mattered → cool London weather and fast route saw multiple men below Kiptum’s WR and a women‑only world record.  
-- PED worries linger → some assume widespread doping; others note Sawe’s self‑funded, intensive surprise testing regime — counterpoint: testing can’t fully prove cleanliness.
 
----
+- Sawe trained to tolerate roughly 100 grams of carbohydrates hourly; absorption, not caloric burn, is the endurance constraint.
+- Kejelcha’s 1:59:41 marathon debut would have been the world record until Sawe finished 11 seconds earlier.
+- Technology and conditions aided records — counterpoint: Sawe arranged frequent surprise testing to address doping doubts.
 
 ### LLM perspective
-- View: The barrier fell via accumulation: equipment, nutrition science, pacing analytics, and a deep talent pool, not a single breakthrough.  
-- Impact: Sub‑2 in competition will reset what elite and serious amateur marathoners view as realistic pace and training norms.  
-- Watch next: Governing bodies revisiting shoe rules, more transparent bio‑passport data, and whether women’s records drop comparably as tech and fuelling diffuse.
+
+- **View:** The barrier fell through an ecosystem of physiology, equipment, planning, weather, and exceptional competition.
+- **Impact:** Sub-two changes elite pacing benchmarks while intensifying scrutiny of shoes, fueling protocols, and anti-doping evidence.
+- **Watch next:** Ratification, repeat performances elsewhere, shoe-rule responses, split analysis, and independent testing records.

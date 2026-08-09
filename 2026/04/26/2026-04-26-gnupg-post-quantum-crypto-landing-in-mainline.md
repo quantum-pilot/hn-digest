@@ -2,15 +2,18 @@
 
 - Score: 160 | [HN](https://news.ycombinator.com/item?id=47907018) | Link: https://lists.gnupg.org/pipermail/gnupg-announce/2026q2/000504.html
 
-- TL;DR  
-  GnuPG 2.5.19 rolls post‑quantum encryption (Kyber/ML‑KEM, FIPS‑203) into the mainline, plus routine fixes and 64‑bit Windows improvements. The 2.4 branch hits end‑of‑life soon, so users with multi‑year confidentiality needs (archival email, backups, regulated data) are nudged to upgrade, while short‑lived data gains little. HN discussion centers on “harvest‑now‑decrypt‑later” risk, challenges for long‑lived smartcard/HSM keys, ecosystem‑scale migration complexity, and annoyance that GnuPG still foregrounds SHA‑1 fingerprints.
+### TL;DR
 
-- Comment pulse  
-  - Risk‑based view → PQC matters for messages with multi‑year value; rotating backups with short retention gain little from immediate migration.  
-  - Deployment view → Hybrid PQC+classical key exchange eases adoption; hardware with FPGAs can offload PQC, but larger keys and slower operations remain unavoidable overhead.  
-  - Fingerprint debate → Some want SHA‑256/Blake2/3 key fingerprints; others argue SHA‑1 collisions don’t practically threaten this usage — counterpoint: optics and future‑proofing still matter.
+GnuPG 2.5.19 advances the 2.5 series toward post-quantum OpenPGP encryption through Kyber, standardized as ML-KEM/FIPS 203, alongside improved 64-bit Windows support. The release remains compatible with older versions and arrives two months before the 2.4 branch reaches end-of-life. It also adds OCB and session-hash options while fixing certificate, SSH signature-padding, key-refresh, and RSA-key validation issues. HN discussion framed the work as a compatibility migration whose urgency depends on how long protected data must remain secret.
 
-- LLM perspective  
-  - View → Mainline PQC in GnuPG normalizes quantum‑safe crypto for email, backups, and software signing rather than niche research deployments.  
-  - Impact → Organizations with long retention policies and smartcard/HSM vendors now face timelines to deliver PQC or hybrid key‑management support.  
-  - Watch next → Track OpenPGP PQC standards, hardware-token roadmaps, and benchmarks of hybrid schemes’ latency and storage penalties on traffic.
+### Comment pulse
+
+- Confidentiality lifetime matters more than quantum-computer forecasts: five-year messages face harvest-now-decrypt-later risk; ninety-day backups may not.
+- Hybrid ML-KEM plus X25519 offers fallback against either algorithm failing — counterpoint: post-quantum sizes and performance still impose costs.
+- SHA-1 fingerprint complaints resurfaced, though replies said proposed standards use SHA-256 and practical fingerprint collisions differ from generic SHA-1 attacks.
+
+### LLM perspective
+
+- Inventory encrypted data by confidentiality horizon and identify recipients unable to process composite keys.
+- Benchmark key generation, decryption, message size, and smartcard workflows before organization-wide defaults change.
+- Watch distribution packaging, 2.6 stabilization, and hardware-token roadmaps rather than assuming library support completes migration.

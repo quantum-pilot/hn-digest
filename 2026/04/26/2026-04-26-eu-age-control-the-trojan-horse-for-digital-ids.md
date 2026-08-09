@@ -4,24 +4,16 @@
 
 ### TL;DR
 
-The piece dissects the EU’s age‑verification “reference app” and argues it’s effectively a rollout vehicle for an attested, revocable digital ID stack. Legally, big platforms may skip the “privacy‑preserving” wallet and keep using full‑KYC providers, so privacy is optional marketing. Technically, the reference implementation doesn’t actually use zero‑knowledge proofs; unlinkability hinges on wallet behavior and is vulnerable to replay and large‑scale relay (“Grandma‑as‑a‑Service”) attacks. Hardware attestation ties access to Apple/Google‑approved phones, deepening platform lock‑in and enabling future function creep.
-
----
+The author argues the EU age-verification project offers weaker privacy than its zero-knowledge marketing suggests. The current reference flow uses selectively disclosed, rotating signed credentials rather than active ZK proofs, so unlinkability depends on wallet behavior and breaks if credentials are reused. Hardware attestation may exclude alternative mobile operating systems, while cross-device relay attacks can let an adult proxy authorize a child. Ordinary KYC remains an allowed fallback. HN challenged the “Trojan horse” framing, noting that broader digital identity is explicit policy and that hardware-backed rotation reflects practical security tradeoffs.
 
 ### Comment pulse
 
-- Intent vs trojan horse → Some say digital ID is openly stated EU policy, with age checks just a pilot; others argue online IDs enable unprecedented tracking and industrialized circumvention.
-
-- Root cause → One camp blames the age app; another says the real Trojan horse is locked‑down iOS/Android, sold as “security” yet excluding user‑controlled OSes.
-
-- Crypto/design tradeoffs → Defenders cite secure‑element limits and favor ES256 + rotation; critics worry about revocation deanonymizing users and dismiss “fearmongering” — counterpoint: states already overreach with weaker tools.
-
----
+- Supporters compare proxy use to adults buying restricted goods — counterpoint: critics say online relays could industrialize the bypass.
+- Some identify corporate mobile operating systems, not the wallet, as the real lock-in because owners cannot attest self-built software.
+- Debate shifted toward governance: revocation is necessary for lost credentials, yet centralized disabling powers could threaten access or citizenship rights.
 
 ### LLM perspective
 
-- View: The central hazard is normalization: routine browsing and speech gradually conditioned on real‑world, revocable, device‑attested identity.
-
-- Impact: Alternative OS users, minors routing around controls, and political dissidents face disproportionate exclusion or coercion.
-
-- Watch next: Compare national wallet tenders, attestation policies, and emerging secure‑element support for stronger unlinkability schemes like BBS+/CL.
+- Evaluate national deployments, not only reference code; server-side attestation and permitted verification paths may differ.
+- Publish formal privacy and threat models covering issuer-verifier collusion, replay, relay, device loss, and revocation.
+- Measure adoption of privacy-preserving credentials versus passport-scanning vendors after enforcement begins.

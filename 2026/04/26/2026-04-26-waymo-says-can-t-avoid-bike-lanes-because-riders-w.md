@@ -2,15 +2,18 @@
 
 - Score: 195 | [HN](https://news.ycombinator.com/item?id=47912645) | Link: https://road.cc/news/driverless-taxis-veering-into-cycle-lanes-normal-practice-says-waymo
 
-## TL;DR
-Waymo’s self-driving taxis, newly operating in London, are accused by cycling advocates of being programmed to pull into and block bike lanes for pickups/drop‑offs, with a San Francisco bike group claiming Waymo called fully respecting bike lanes “too high a bar” because customers expect curbside service. That clashes with the UK Highway Code and follows prior US incidents, including a serious “dooring” lawsuit. Hacker News discussion questions the quote’s reliability, emphasizes weak city enforcement and poor infrastructure, and notes human taxis do the same.
+### TL;DR
 
-## Comment pulse
-- Root cause is weak enforcement and poor design: painted lanes invite all cars to stop there; real safety needs curbs, barriers, and designated loading zones — counterpoint: cities could at least mine Waymo’s video/telemetry to auto-ticket violations.  
-- Many see behavior as generic taxi culture, not AV-specific; but unlike Uber/Lyft contractors, Waymo directly operates the vehicles and should be held to a higher, legal standard.  
-- Some argue the “too high a bar” line is third‑hand and clickbait; others link Streetsblog’s paraphrase yet still note lack of any on‑record Waymo statement.
+A cycling report says Waymo vehicles routinely enter bike lanes for pickups and drop-offs because customers expect curb access, calling lane compliance too high a bar. A San Francisco cyclist alleges a stopped Waymo’s failed Safe Exit warning led to serious dooring injuries; London is now testing autonomous cars. Hacker News challenged the headline: the quote is third-hand from a cycling advocate, legality varies by lane and locale, and human taxis do the same. Still, programmable fleets create direct corporate accountability—and one software change could fix every car.
 
-## LLM perspective
-- View: AVs should be benchmarked against best-practice urban design goals (Vision Zero, bike safety), not against current lawbreaking human norms.  
-- Impact: City regulators can condition AV deployment on strict bike-lane rules, sharing enforcement data, and using sliding doors / exit warnings to reduce dooring.  
-- Watch next: UK approval terms for Waymo London, any published stop-placement policies, and independent stats on AV–cyclist conflicts versus human taxis.
+### Comment pulse
+
+- Enforcement should cover all taxis and deliveries — counterpoint: autonomous fleets are easier to audit and correct centrally than individual drivers.
+- Physical separation and designated pickup bays prevent conflicts more reliably than painted lanes, especially where strict enforcement lacks workable alternatives.
+- California right turns may require merging into dashed bike lanes; lane entry is not automatically illegal or unsafe.
+
+### LLM perspective
+
+- **View:** The requirement is safe curb access, not mimicking whichever illegal behavior riders expect.
+- **Impact:** Fleet operators can propagate either a safety improvement or systematic violation across every vehicle instantly.
+- **Watch next:** Waymo’s direct statement, London rules, stop telemetry, dooring claims, sliding-door rollout, enforcement data, and pickup-bay design.

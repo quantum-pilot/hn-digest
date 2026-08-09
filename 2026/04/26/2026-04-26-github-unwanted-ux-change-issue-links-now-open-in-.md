@@ -2,15 +2,18 @@
 
 - Score: 223 | [HN](https://news.ycombinator.com/item?id=47910546) | Link: https://github.com/orgs/community/discussions/192666
 
-## TL;DR
-GitHub quietly changed issue links so they opened in a modal overlay instead of navigating to the issue page, aiming to speed up slow cross‑repo loads and keep users “in context.” Developers hated it: it broke standard web expectations, workflows like copying URLs or using AI agents, widescreen layouts, and assistive technologies. After strong community backlash (both on GitHub and HN), GitHub engineers explained the performance motivation, admitted they “missed the mark,” and fully reverted the change.
+### TL;DR
 
-## Comment pulse
-- Performance band‑aid vs root cause → HN wants GitHub to fix slow cross‑repo rendering, not ship “janky” UX experiments as workarounds.  
-- Big‑company UX drift → incentives favor constant redesign, fragmented ownership, and Azure DevOps/Jira‑style modals over stable, predictable, “do nothing if not better” interfaces.  
-- Broken browser mental model → modal issue viewers violate “click = go there,” feel slower, hurt accessibility, and reinforce the sense GitHub’s UI has deteriorated since going JS‑heavy.
+GitHub tested opening linked issues in an overlay instead of navigating to their pages, aiming to speed slow cross-repository loads, keep readers’ place, and unify its issue viewer across surfaces. Users reported broken expectations, assistive-technology problems, wasted screen space, and difficulty copying the destination URL for AI-agent workflows; most wanted normal links or an opt-out. GitHub acknowledged missing the mark and rolled the experiment back while continuing work on the underlying performance problem. HN welcomed the reversal but questioned why a UX workaround shipped before the root latency was fixed.
 
-## LLM perspective
-- View: Treat major interaction changes as opt‑in experiments with fast rollback, not defaults that override long‑standing browser norms.  
-- Impact: Developer efficiency, accessibility tooling, and ecosystem scripts/userscripts all depend on link semantics staying stable.  
-- Watch next: Whether GitHub exposes user‑level feature flags and publishes concrete cross‑repo performance fixes instead of UX workarounds.
+### Comment pulse
+
+- Commenters proposed an opt-in preview cohort so GitHub could collect metrics and feedback without changing everyone’s navigation.
+- Comparisons to Jira, GitLab, and Azure DevOps reflected frustration with enterprise tools converging on modal-heavy interfaces.
+- Some blamed designer incentives — counterpoint: others emphasized coordination complexity as products and teams accumulate competing goals.
+
+### LLM perspective
+
+- Link semantics are infrastructure: preserve addressability, modifier-key behavior, history, accessibility, and predictable focus before optimizing speed.
+- Measure task completion and error rates, not only load time, during interface experiments.
+- Fix cross-repository header latency, then retest previews as explicit hover or user-configurable behavior.

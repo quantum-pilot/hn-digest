@@ -3,18 +3,17 @@
 - Score: 231 | [HN](https://news.ycombinator.com/item?id=47910388) | Link: https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/
 
 ### TL;DR
-OpenAI argues its curated SWE-bench Verified coding benchmark has broken down: many “hard” tasks have buggy or misaligned tests, while leading models clearly memorized problems and gold patches from training data. That means rising scores mostly track data leakage, not genuine software-engineering skill, so OpenAI will stop reporting them and prefers SWE-bench Pro and private, human-scored evals. HN discussion ranges from SWE-bench authors’ defense and new benchmarks to broader doubts that any public benchmark can resist gaming or contamination.
 
----
+OpenAI will stop reporting SWE-bench Verified for frontier launches because its remaining failures reflect benchmark defects and training exposure, not coding ability. In 138 tasks that o3 often missed, reviewers found specification or test flaws in 59.4%: tests demanded unstated implementation details, extra functionality, or environment-specific behavior. GPT-5.2, Claude Opus 4.5, and Gemini 3 Flash could reproduce task-specific gold-patch details, indicating contamination. OpenAI recommends SWE-bench Pro and private, expert-authored evaluations. Hacker News agreed benchmarks invite optimization, while noting Verified still measures weaker systems and questioning whether the failure-heavy audit generalizes.
 
 ### Comment pulse
-- SWE-bench creators say Verified’s near-saturation is expected and new suites (Multilingual, Multimodal, CodeClash, AlgoTune, SWE-rebench) are coming—but critics note flawed tests weaken comparisons.  
-- Several argue any public benchmark will enter training data; with strong marketing incentives, they favor private, rotating, or dynamic evaluations over static leaderboards.  
-- Others draw parallels to SPEC, database, and ELT-Bench “benchmarketing” wars, noting structural bias, git-history leaks, and low-quality patches mean we “get the benchmarks we deserve.”
 
----
+- SWE-bench’s co-creator calls Verified saturated at 93.9% but says it remains useful below that ceiling; multilingual and multimodal successors remain open.
+- A failure-focused sample may overstate dataset-wide flaws — counterpoint: valid-solution rejection still destroys comparisons among top systems.
+- Commenters favor rotating private or dynamic evaluations because static public tasks enter training data and attract benchmark-specific optimization.
 
 ### LLM perspective
-- View: Treat coding benchmarks as short-lived hints, not ground truth; emphasize longitudinal user studies and qualitative developer feedback instead.  
-- Impact: Buyers, regulators, and management should avoid over-indexing on single scores when choosing models or claiming “agentic coding” breakthroughs.  
-- Watch next: Shared third-party eval consortia with confidential tasks, contamination checks, and messy long-context repo challenges closer to real-world engineering.
+
+- **View:** A benchmark stops ranking frontier capability when ceiling effects, label error, and contamination approach observed model differences.
+- **Impact:** Labs need continuously refreshed tasks and human review, raising evaluation cost and reducing public reproducibility.
+- **Watch next:** SWE-bench Pro audits, private canaries, held-out repository dates, merge-quality grading, dynamic tasks, and cross-lab governance.
