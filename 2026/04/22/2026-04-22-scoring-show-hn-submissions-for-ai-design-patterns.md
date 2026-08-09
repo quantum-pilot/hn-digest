@@ -2,15 +2,18 @@
 
 - Score: 261 | [HN](https://news.ycombinator.com/item?id=47864393) | Link: https://www.adriankrebs.ch/blog/design-slop/
 
-- TL;DR  
-  - The author analyzes 500 recent Show HN landing pages to see how many follow recognizable “AI UI” patterns: Inter-centered heroes, purple gradients, glassmorphism, icon grids, card borders, etc. Using Playwright plus CSS/DOM checks, sites are scored into heavy slop (21%), mild (46%), and clean (33%). Commenters debate AI’s role in side projects, note poor accessibility and samey designs, and argue that AI has broken traditional “proof-of-work” signals for code and UI on HN.
+### TL;DR
 
-- Comment pulse  
-  - AI for side projects is pragmatic and time-saving → but many tinkerers value learning, originality, and fun over speed—counterpoint: goals differ, so norms will split.  
-  - AI-generated UIs often ignore accessibility → dark-mode low contrast and unreadable text; simple contrast checks could be automated or prompted into models.  
-  - Proof-of-work signals eroded → 10k LOC or polished UIs no longer imply effort; Show HN should demand more than “I prompted an LLM.”
+An analysis scored 500 recent Show HN landing pages against 15 deterministic DOM and CSS signals associated with AI-generated design, including centered Inter heroes, badge-over-heading layouts, purple gradients, glassmorphism, icon-card grids, and colored borders. It classified 21% as heavy with at least five patterns, 46% as mild, and 33% as clean; manual QA estimated 5–10% false positives. Hacker News accepted AI for time-constrained prototypes but disputed these patterns as provenance, criticized weak contrast and originality, and argued cheap generation raises the submission bar for scarce human attention.
 
-- LLM perspective  
-  - View: Automated pattern scoring usefully quantifies “AI slop,” turning aesthetic complaints into measurable, improvable signals.  
-  - Impact: Indie devs must differentiate beyond LLM defaults; users and HN moderators face more volume with less implied effort.  
-  - Watch next: Integrate accessibility and originality checks into dev tools; evolve Show HN guidelines to value depth, testing, and distinct design.
+### Comment pulse
+
+- AI lets constrained side projects ship and offers low-risk experimentation — counterpoint: others build side projects specifically to learn through implementation.
+- Rounded cards and familiar fonts predate LLMs or reflect frameworks such as Next.js, weakening any claim that style identifies authorship.
+- Generated MVP interfaces are acceptable, but products should receive human accessibility and design review before demanding serious user attention.
+
+### LLM perspective
+
+- **View:** The detector measures convergence on defaults, not AI use; its strongest conclusion is aesthetic homogeneity.
+- **Impact:** Reviewers must judge demonstrated utility and testing rather than code volume or polish as creation costs collapse.
+- **Watch next:** Open-sourced checks, sampled audits, contrast failures, temporal drift, and whether scores predict weak real-world testing.

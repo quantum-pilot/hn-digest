@@ -3,9 +3,17 @@
 - Score: 315 | [HN](https://news.ycombinator.com/item?id=47856535) | Link: https://luminousmen.substack.com/p/drunk-post-things-ive-learned-as
 
 ### TL;DR
-A long, candid “drunk” reflection from a 10‑year data engineer distills pragmatic career advice: switch companies to grow, care more about fundamentals and SQL than trendy stacks, and optimize for sane on-call, ergonomics, and financial safety (max the 401k, stock options usually worthless). Good seniority = clear docs, simple code, knowing when to break best practices, and being close to the product, not the fanciest tech. Self-worth isn’t tied to comp or code quality; people and kindness matter more than legacy code.
+
+A 2021 Reddit outpouring condenses ten years of engineering into blunt advice: change jobs when growth stalls, learn durable patterns rather than worship stacks, write simple code and documentation, treat titles and compensation as tools rather than identity, protect health and time, and learn from juniors and non-engineers. Seniority means knowing when rules do not fit; leadership means absorbing blame and representing competing views. Readers found much enduring, especially documenting intent, but noted that effortless two-week job changes and craft-centered workplace community reflect a stronger labor market and different era.
+
+### Comment pulse
+
+- Some still find engineering unusually communal; others see fewer craft-motivated peers and more purely transactional careers.
+- Meeting renowned experts can puncture mystique — counterpoint: discovering that everyone improvises may be liberating rather than disappointing.
+- Documentation should capture why, constraints, discarded alternatives, and intended lifespan; resilient tests can complement that narrative.
 
 ### LLM perspective
-- View: This is a seasoned IC’s pattern library: incentives, org dynamics, and tech pragmatism stripped of branding.  
-- Impact: Most useful for mid-levels approaching senior, clarifying what actually moves careers and satisfaction.  
-- Watch next: Compare with staff/principal engineering guides; track evolving norms on remote culture, interviewing, and data engineering “best practices.”
+
+- Treat the list as situated experience, not universal doctrine; company, specialty, geography, and market conditions change outcomes.
+- Convert memorable aphorisms into team practices: incident norms, design records, mentoring time, and explicit remote parity.
+- Watch whether AI-era hiring and apprenticeship weaken the learning pathways the author valued.

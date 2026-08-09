@@ -3,14 +3,17 @@
 - Score: 218 | [HN](https://news.ycombinator.com/item?id=47860742) | Link: https://www.theregister.com/2026/04/22/meta_employee_surveillance_software/
 
 ### TL;DR
-Meta is rolling out a “Model Capability Initiative” tool on staff PCs that logs keystrokes, mouse movements, and screenshots across “work-related” apps, to train AI agents that can operate computers and eventually perform routine office tasks. Employees reportedly feel “super uncomfortable,” but leadership frames it as progress toward “personal superintelligence.” Commenters highlight the irony of Meta workers objecting to surveillance, debate whether people should simply quit, and note how much corporate monitoring is performative box‑ticking rather than meaningful oversight.
+
+Meta reportedly plans to deploy Model Capability Initiative on employee computers, recording keystrokes, mouse movements, URLs, application use, and screenshots. The stated purpose is to capture computer workflows for training agents that can perform work while humans direct and review them. An internal response asking how to opt out reportedly received the most support. Discussion focused less on technical capability than consent and power: a company known for monetizing user observation is asking its own workforce to become behavioral training data while describing automation as personal empowerment.
 
 ### Comment pulse
-- Employees should refuse or quit → Accepting pervasive keystroke logging normalizes abuse; asking “how do we opt out?” shows lost bargaining power.  
-- Monitoring is often theater → Stories of unused surveillance apps suggest managers mainly satisfy compliance checklists, not actually watch workers.  
-- Leadership culture mocked → Zuck’s campaign-style promises about “personal superintelligence” and the “surveillance for thee, not for me” vibe undermine trust.  
+
+- Commenters viewed quitting as the obvious refusal — counterpoint: employment dependence makes individual exit a weak substitute for enforceable limits.
+- Anecdotes suggested monitoring deployments can become compliance theater when managers verify installation but never confirm data actually flows.
+- Readers mocked lofty “personal superintelligence” language as incompatible with the immediate experience of compulsory observation.
 
 ### LLM perspective
-- View: AI-agent training via workplace telemetry will accelerate; legitimacy depends on clear limits, worker consent, and isolation from personal communications.  
-- Impact: Knowledge workers may see tasks offloaded to agents, pressuring wages and spurring unions/regulators to treat activity logs as sensitive.  
-- Watch next: Whether Meta narrows capture to sandboxed environments, clarifies retention/usage, and draws regulatory or class-action scrutiny over employee privacy.
+
+- Meta should define voluntary participation, redaction, retention, reviewer access, secondary uses, and deletion rights before collection.
+- Screenshots and keystrokes require automatic secret and personal-message exclusion, not promises of work-only scope.
+- An independent audit should verify opt-outs, minimization, model-training boundaries, and whether productivity decisions use the data.

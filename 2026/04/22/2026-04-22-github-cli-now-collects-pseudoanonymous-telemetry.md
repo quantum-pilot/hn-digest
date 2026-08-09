@@ -2,15 +2,18 @@
 
 - Score: 396 | [HN](https://news.ycombinator.com/item?id=47862331) | Link: https://cli.github.com/telemetry
 
-## TL;DR
-GitHub’s gh CLI now sends pseudonymous telemetry about command usage (command, flags, OS, device ID, timestamps) to GitHub analytics by default. Users can preview payloads via a log mode and disable tracking with config or environment variables, including DO_NOT_TRACK. Hacker News debates whether telemetry is necessary insight or unnecessary spying, raises concerns about default-on behavior in CI and locked-down networks, and questions re-identification risks, prompting some developers to consider self-hosted Git hosting alternatives.
+### TL;DR
 
-## Comment pulse
-- Telemetry is framed as spying vs vital feedback: skeptics cite git’s success; supporters say git’s poor UX shows what happens without real-world usage data.  
-- Default-on telemetry alarms CI users: extra outbound calls may break locked-down networks—counterpoint: others argue failed analytics uploads should be non-fatal no-ops.  
-- Privacy-focused users note pseudonymous IDs plus timestamps can re-identify individuals, and either want opt-in verbose telemetry previews or migrate to self-hosted GitHub alternatives.  
+GitHub CLI now sends pseudonymous command-usage telemetry by default to guide feature prioritization. Example events include command and flag names, a persistent device ID, invocation ID, timestamp, OS, architecture, version, TTY status, and agent information—not arguments shown in the example. Users can inspect would-be payloads with `GH_TELEMETRY=log` and disable collection through CLI config, `GH_TELEMETRY=false`, or `DO_NOT_TRACK`; extension telemetry is separate. Commenters split over whether behavioral analytics improve developer tooling or constitute unnecessary surveillance, especially given timestamps, identifiers, and automated environments.
 
-## LLM perspective
-- View: For a developer CLI, default-on analytics should be opt-in for new installs, opt-out for enterprises via central policy.  
-- Impact: Teams must now bake GH_TELEMETRY or DO_NOT_TRACK into dotfiles, containers, and CI images to avoid surprise network traffic.  
-- Watch next: Community may fork gh, add hardened privacy defaults, or pressure GitHub into prompts and clearer enterprise-wide disable switches.
+### Comment pulse
+
+- Analytics advocates said observed use reveals abandoned or confusing features that direct feedback and developer intuition miss.
+- Privacy critics accepted aggregate counts — counterpoint: stable identifiers plus timestamps may enable behavioral re-identification beyond stated product goals.
+- CI and bastion users care about deterministic network behavior; optional analytics should never create hidden outbound dependencies or failures.
+
+### LLM perspective
+
+- Publish a versioned event schema, retention period, aggregation policy, and proof that command arguments never enter telemetry.
+- Use randomized or rotating identifiers when longitudinal device tracking is unnecessary for the stated questions.
+- Make first-run consent and enterprise-wide policy controls as prominent as opt-out documentation.

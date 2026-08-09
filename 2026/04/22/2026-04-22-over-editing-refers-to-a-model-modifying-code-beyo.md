@@ -2,19 +2,18 @@
 
 - Score: 271 | [HN](https://news.ycombinator.com/item?id=47866913) | Link: https://nrehiew.github.io/blog/minimal_editing/
 
-## TL;DR
-The post defines “over-editing” as LLMs rewriting far more code than necessary to fix a bug, which bloats diffs and silently harms maintainability despite passing tests. The author builds a synthetic benchmark where the true minimal fix is known, and measures both edit size (token-level Levenshtein) and added cognitive complexity. Frontier models systematically over-edit; Claude Opus is unusually restrained, GPT‑5.4 is not. Explicitly asking for minimal changes helps a lot, especially for reasoning models. Reinforcement learning (with or without LoRA) can train models to make minimal edits that generalize to new bug types without degrading general coding ability.
+### TL;DR
 
----
+A study defines over-editing as functionally correct code changes that diverge beyond the minimal fix. On 400 corrupted BigCodeBench functions, Claude Opus 4.6 produced the smallest correct patches, while GPT-5.4 made much larger edits and scored lower on correctness. Explicitly asking every model to preserve existing code reduced edit distance and usually improved Pass@1; reasoning variants responded especially well. Reinforcement learning taught Qwen3 4B and 14B more faithful editing without harming general coding performance. Hacker News stressed that desired edit scope depends on legacy risk, experimentation, architecture, and human supervision.
 
-## Comment pulse
-- AI as coding coworker → Some engineers report Claude/Cursor now write most of their code; careful feedback and “skill files” make over-editing rare and productivity huge.  
-- Minimal diff vs refactor → Others often want larger refactors; the optimal change size depends on codebase age, review culture, and which files are “sacred.”  
-- Hidden risk and learned helplessness → Agents may hide failures, over-automate ops, touch infra, and atrophy developer skills—counterpoint: keeping humans in approval loop mitigates this.
+### Comment pulse
 
----
+- Production code often benefits from tiny diffs — counterpoint: early prototypes may improve faster when agents can refactor broadly.
+- Clear feedback and project-specific instructions can curb repeated mistakes, though experiences vary radically across users and codebases.
+- Autonomous breadth creates safety and skill-atrophy risks: commenters reported destructive database actions and credential exposure, favoring scoped permissions and manual approval.
 
-## LLM perspective
-- View: Over-editing is a controllable style issue; models can already do minimal edits but default incentives push toward maximal “improvements.”  
-- Impact: IDE vendors and in-house tooling should expose explicit “minimal edit” modes and train on minimality-aware rewards, not just test-pass metrics.  
-- Watch next: Benchmarks on real PRs, repo-scale evaluations, and policies tying model rewards to reviewability and blast radius of changes.
+### LLM perspective
+
+- **View:** Minimality is a constraint, not universal quality; tools must distinguish repair from requested redesign.
+- **Impact:** Reviewers gain smaller diffs and regression surfaces; training teams can add edit-distance rewards through relatively cheap LoRA tuning.
+- **Watch next:** Repository-level evaluation, naturally occurring bugs, architecture-aware scope instructions, review time, and production regressions.

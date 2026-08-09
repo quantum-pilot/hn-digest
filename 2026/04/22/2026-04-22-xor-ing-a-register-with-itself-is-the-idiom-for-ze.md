@@ -3,18 +3,17 @@
 - Score: 199 | [HN](https://news.ycombinator.com/item?id=47859861) | Link: https://devblogs.microsoft.com/oldnewthing/20260421-00/?p=112247
 
 ### TL;DR
-Chen asks why x86 assembly almost always uses `xor r, r` to zero a register instead of equally short `sub r, r`, which even leaves flags “cleaner”. Architecturally, modern x86 cores special‑case both as zeroing idioms with zero-cycle latency and dependency breaking, so they’re effectively identical. The dominance of `xor` seems to have come from early compiler behavior, Intel recommendations, and social convention, not hard technical necessity. Discussion explores microarchitectural intuition, historical CPU quirks, and even steganographic uses of the xor/sub choice.
 
----
+`xor eax,eax` and `sub eax,eax` are equally short zeroing idioms on modern x86, and Intel recognizes both during decoding, renames the destination to an internal zero register, skips execution, and breaks dependency chains. `sub` even clears the auxiliary-carry flag that `xor` leaves undefined. Raymond Chen argues `xor` likely won through path dependence: early compiler preference encouraged programmers and later optimizations. Hacker News debated gate-level simplicity versus identical architectural latency, noted Pentium Pro reportedly optimized only `xor`, contrasted IBM’s `sub` tradition, and proposed using equivalent encodings as a steganographic bit channel.
 
 ### Comment pulse
-- XOR seems “obviously faster” due to no carry propagation → but real CPUs use fast adders, so SUB matches XOR’s single-cycle latency.
-- Historical and vendor quirks: IBM code culture favored `sub`, Z80’s flag behavior favored `xor`; some small IBM CPUs special-cased `xor r,r` for error-handling.
-- Steganography/style: choosing `xor r,r` vs `sub r,r` (or encoding variants) can hide bits or fingerprint an assembly programmer’s style.
 
----
+- XOR’s independent bit gates can use less energy — counterpoint: register files and out-of-order machinery dominate while both idioms have one-cycle latency.
+- IBM systems sometimes favored `sub`; some smaller processors uniquely let self-`xor` bypass parity checks when clearing corrupted storage.
+- Assembly choices reveal authorial style and can encode hidden data because multiple equivalent instruction forms preserve program behavior.
 
 ### LLM perspective
-- View: This is a case study in how folklore, docs, and compilers cement idioms beyond their technical necessity.
-- Impact: Assembly programmers, compiler writers, and performance tuners should prioritize clarity and portability over micro-optimizing indistinguishable idioms.
-- Watch next: Benchmark zeroing idioms across non‑x86 CPUs; examine toolchains for how they normalize or preserve xor/sub stylistic differences.
+
+- **View:** Compiler idioms coevolve: convention informs hardware optimization, then that optimization entrenches the convention.
+- **Impact:** Assembly and compiler authors should prefer recognized idioms unless flags or target-specific behavior matters.
+- **Watch next:** Vendor zero-idiom documentation, microarchitecture benchmarks, flag dependencies, disassembler aliases, and steganographic detection.

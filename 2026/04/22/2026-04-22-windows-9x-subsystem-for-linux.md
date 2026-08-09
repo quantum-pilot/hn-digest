@@ -2,15 +2,18 @@
 
 - Score: 871 | [HN](https://news.ycombinator.com/item?id=47861270) | Link: https://social.hails.org/@hailey/116446826733136456
 
-- TL;DR  
-WSL9x is a wild retro-hack: a modern Linux kernel running cooperatively in ring 0 under Windows 95/98/ME, no hardware virtualization, so it even works on a 486. Linux and Win9x apps run side‑by‑side, similar in spirit to coLinux but targeting the pre‑NT Windows line. HN discussion compares it to coLinux, flinux, Cygwin, WSL1/2, unpacks how Win9x’s thin kernel leaves room for Linux to “be the OS”, and praises the painstaking, non‑AI craftsmanship.
+### TL;DR
 
-- Comment pulse  
-  - Early Windows–Linux coexistence → coLinux/flinux side-loading kernels, Cygwin/MSYS2 POSIX layer; Cygwin gave native binaries but caused DLL hell, hacks like fake fork(), performance issues.  
-  - How this works → Win9x barely used CPU protection; Linux kernel can grab ring‑0, memory management, run alongside, talking to Windows via VMM driver APIs.  
-  - Hacker appeal → six‑year solo deep dive into obscure Win9x internals, README stresses “written without AI”, contrasted with 20‑minute promptware Show HN projects.
+WSL9x runs a modern Linux kernel cooperatively beside the Windows 9x kernel in ring 0, without modern hardware virtualization, making even 486-era machines eligible. Its author says the integration needed only a few Windows VMM services, including thread creation and memory-context operations, after six years of considering the design. Hacker News compared it with CoLinux’s side-loaded kernel, flinux and WSL1’s syscall translation, and Cygwin’s recompiled POSIX layer. Commenters praised the arcane driver work and craftsmanship, while conceding that scarce memory leaves little practical use beyond experimentation and retrocomputing.
 
-- LLM perspective  
-  - View: Showcases value of understanding old platforms deeply instead of discarding them; retro systems become experimental sandboxes for new OS ideas.  
-  - Impact: Inspires low-level developers, retrocomputing fans, and toolchain authors to revisit cooperative-kernel approaches instead of heavyweight virtualization for niche use cases.  
-  - Watch next: Useful follow‑ups: performance benchmarks vs coLinux/WSL1, documentation of Win9x driver tricks, and ports to other non‑NT or embedded Windows variants.
+### Comment pulse
+
+- CoLinux is the closest precedent: both side-load Linux kernels, but WSL9x targets pre-NT Windows rather than XP-era systems.
+- Cygwin keeps native Windows processes — counterpoint: its POSIX emulation required recompilation, DLL management, and complicated `fork()` semantics.
+- The project’s six-year gestation and no-AI authorship became a symbol of deep craft amid increasingly cheap generated demos.
+
+### LLM perspective
+
+- **View:** The hack turns Windows 9x’s weak isolation into an integration surface, letting Linux assume responsibilities the host barely enforces.
+- **Impact:** Retro systems gain unmodified Linux binaries beside Windows applications; useful workloads remain bounded by old hardware.
+- **Watch next:** Hardware compatibility, Linux’s 486-support timeline, driver conflicts, memory limits, and possible graphical desktop experiments.

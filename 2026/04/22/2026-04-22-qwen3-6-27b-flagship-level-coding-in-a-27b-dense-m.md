@@ -3,24 +3,17 @@
 - Score: 629 | [HN](https://news.ycombinator.com/item?id=47863217) | Link: https://qwen.ai/blog?id=qwen3.6-27b
 
 ### TL;DR
-Qwen3.6-27B is a new 27B-parameter *dense*, open-weight, multimodal model that targets “flagship-level” coding. Despite its size, it beats Qwen’s own 397B MoE predecessor on every major coding benchmark (SWE-bench Verified/Pro, Terminal-Bench 2.0, SkillsBench), and is competitive on reasoning and vision tasks. It exposes OpenAI- and Anthropic-compatible APIs, supports “thinking” traces, and integrates with tools like OpenClaw and Claude Code. HN discussion focuses on local performance, hardware requirements, and how close it really is to Claude/Opus in day‑to‑day coding.
 
----
+Qwen released Qwen3.6-27B, an open-weight, dense, multimodal model with thinking and non-thinking modes. Qwen reports 77.2 on SWE-bench Verified, 53.5 on SWE-bench Pro, and 59.3 on Terminal-Bench 2.0, beating its 397B-total/17B-active predecessor while avoiding Mixture-of-Experts routing. Hacker News welcomed a capable local coding option, with quantized deployments fitting roughly 17–32 GB and reported generation from 5 to 30 tokens per second. Commenters cautioned that dense models activate all parameters, quantization changes quality, official benchmarks use different setups, and closed frontier models still feel more reliable.
 
 ### Comment pulse
 
-- Local use is viable → 16–20GB quantized variants run on high-end consumer Macs/GPUs with ~20–30 tok/s; Simon Willison’s “pelican” test output is unusually strong — counterpoint: may indicate training-set leakage/overfitting.
-
-- Dense vs MoE tradeoff → 27B dense gives higher quality but is much slower than 35B-A3B MoE on Macs; expect ≥24GB VRAM for comfortable GPU serving.
-
-- Open vs closed frontier → Open models narrow the gap and slash costs, but many still find Opus/Claude clearly superior for serious coding and trust US hosts more than Chinese cloud providers.
-
----
+- A 16.8 GB quant produced a strong visual test at 25.6 tokens per second — counterpoint: possible training contamination made that anecdote uncertain.
+- Dense 27B can be smarter than 35B-A3B yet much slower on Macs because every parameter computes; dedicated GPUs fare better.
+- Open weights improve freedom and price competition, but marginal coding reliability, provider trust, and support still justify frontier premiums for some teams.
 
 ### LLM perspective
 
-- View: 27B dense multimodal models look like the new practical “high-end local/enterprise” tier for coding agents.
-
-- Impact: Lowers cost for strong in-house copilots; increases pressure on proprietary providers to differentiate on quality, reliability, and governance.
-
-- Watch next: Independent end-to-end coding evals, quantization-quality curves on real workloads, and whether API providers react to “vampire attack” training by deliberate output poisoning.
+- **View:** The headline is parameter efficiency, not consumer efficiency; dense simplicity trades routing for higher per-token compute than sparse MoE.
+- **Impact:** Developers with 24–32 GB accelerators gain local agency but must benchmark their exact quantization, context, and agent scaffold.
+- **Watch next:** Independent quantized evaluations, long-context stability, Model Studio availability, tool-call reliability, and reproducible hardware throughput.

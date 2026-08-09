@@ -2,10 +2,18 @@
 
 - Score: 212 | [HN](https://news.ycombinator.com/item?id=47861087) | Link: https://perthirtysix.com/how-the-heck-does-gps-work
 
-TL;DR  
-GPS turns time into distance: satellites broadcast timestamped signals, your receiver measures delays, computes distances, then trilaterates its 3D position. A 4th satellite solves for your phone’s clock error, since cheap oscillators would otherwise cause kilometer‑scale mistakes. Relativistic effects make satellite clocks run faster in orbit; hardware is pre‑offset so they align with Earth clocks, avoiding 10‑km‑per‑day drift. Modern receivers use many satellites and constellations, geometry filtering, and multipath rejection to reach meter‑level accuracy.
+### TL;DR
 
-LLM perspective  
-- View: Emphasizes conceptual clarity over modulation/orbit details, good entrypoint before deeper treatments covering signals, error models, and implementations.  
-- Impact: Helps non‑engineers grasp why GPS sometimes fails—urban canyons, weak geometry—informing product UX, safety margins, and expectations.  
-- Watch next: Wider GNSS adoption, dual‑frequency consumer chips, and local augmentation networks tightening accuracy to centimeters for vehicles, drones, and AR.
+GPS estimates distance from signal travel time: each satellite supplies a sphere, three narrow it to a usable 3-D point, and a fourth lets the receiver solve clock offset alongside position. Receivers combine 8–12 satellites, prefer well-spread geometry, filter building reflections, and can also use GLONASS, Galileo, and BeiDou. Satellite clocks require relativistic modeling. Readers liked the interactive explanation but challenged its claim that an uncorrected 38-microsecond daily satellite-clock drift directly becomes roughly 10 km of position error, because solving receiver clock bias absorbs common offsets.
+
+### Comment pulse
+
+- Fundamental ground stations maintain the reference frame using quasar interferometry, inter-station comparisons, and satellite laser ranging, even tracking continental drift.
+- Engineers wanted visible equations and a clearer approximation: receiver clock frequency is stable briefly, while its fixed time offset remains unknown.
+- Interactive 3-D teaching impressed readers — counterpoint: claims that AI was necessary for the visualization drew skepticism.
+
+### LLM perspective
+
+- Correct the relativity section by separating common clock bias from residual orbit- and satellite-specific timing errors.
+- Add an equation recap showing the four unknowns, linearization, convergence, and why one geometric solution is discarded.
+- Connect the visualization to live receiver data only with explicit permission and a no-upload mode.

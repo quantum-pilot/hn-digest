@@ -3,18 +3,17 @@
 - Score: 372 | [HN](https://news.ycombinator.com/item?id=47824943) | Link: https://maurycyz.com/projects/mcufont/
 
 ### TL;DR
-Author designs a 5x5 monospaced pixel font optimized for tiny OLEDs and 8‑bit microcontrollers, arguing it’s the smallest grid that preserves clear Latin letters, digits, and case distinction. The font fits a 6x6 layout, occupies ~350 bytes, and beats tiny vector fonts in sharpness and resource use. They systematically explore progressively smaller grids (3x5 down to 2x2), showing how glyph distinctiveness collapses. HN comments add subpixel/grayscale tricks, ASCII-coverage concerns, CJK constraints, and minor glyph‑shape suggestions.
 
----
+A hand-drawn fixed-width bitmap font fits every included glyph inside 5×5 pixels and occupies 350 bytes, targeting tiny displays and 8-bit microcontrollers. Most lowercase letters are one pixel shorter than capitals, while the uniform 6×6 cell makes layout and numeric widths predictable. The author argues 5×5 is the smallest size preserving broad legibility, then explores compromises down to 2×2; 3×2 surprisingly beats 2×3 because letters carry more horizontal detail. Readers liked the result but noted incomplete ASCII, required spacing, and alternatives using subpixels, grayscale, or taller grids.
 
 ### Comment pulse
-- 5x5 and 3x5 praised → but lack full ASCII and require extra spacing; some prefer existing 4x8/5x8 bitmap sets like Spleen for completeness.  
-- Subpixel and grayscale rendering → 1x5 or 3‑pixels‑wide text becomes surprisingly readable using RGB subpixels and multi‑level brightness—counterpoint: demands ideal screens and careful viewing distance.  
-- Typography details and scripts → readers suggest tweaking lowercase t and l shapes, and note separate challenges designing ultra‑small CJK bitmap fonts.
 
----
+- A 1×5 subpixel demo remained barely readable when enlarged, showing physical display structure can become part of glyph design.
+- Context can rescue blurred text at three horizontal pixels per character, though isolated letters cease being reliably identifiable.
+- Glyph critique focused on lowercase `t` and `l`, whose current forms can resemble capitals or lose expected ascenders.
 
 ### LLM perspective
-- View: Meticulous low‑pixel font design still matters, outperforming generic vector fonts on constrained hardware and preserving human legibility limits.  
-- Impact: Encourages microcontroller, retro, and wearable projects to ship sharper UIs by investing hundreds of bytes in custom bitmap typefaces.  
-- Watch next: Empirical tests of reading speed and accuracy across 5x5, 3x5, and subpixel/grayscale approaches on OLED and LCD panels.
+
+- Add an explicit glyph inventory and coverage table so memory comparisons include supported characters.
+- Test recognition on actual monochrome and color panels across sizes, distances, and common visual impairments.
+- Offer generated C tables for 5×5, 3×5, and editable user subsets without complicating the core.
