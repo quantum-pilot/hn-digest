@@ -3,18 +3,17 @@
 - Score: 178 | [HN](https://news.ycombinator.com/item?id=47731506) | Link: https://www.v68k.org/advanced-mac-substitute/
 
 ### TL;DR
-Advanced Mac Substitute (AMS) reimplements the classic 1980s Mac OS at the API level, letting unmodified 68k Mac apps run without Apple ROMs or original system software. A portable 68k emulator backend and SDL2/X11/macOS/framebuffer frontends provide 1‑bit graphics, windows, menus, dialogs, and file sandboxing, demonstrated with MacPaint, Lode Runner, and other early titles. HN commenters discuss the engineering effort, hardware-quirk compatibility, performance vs original machines, and using AMS as a foundation for modern, native-feeling classic app support.
 
----
+Advanced Mac Substitute reimplements the 1980s Macintosh operating-system API so 68K applications run without Apple ROMs or system software. It emulates only the 680x0 CPU, starts directly inside an application, and separates a POSIX-compatible backend from bitmapped frontends for SDL2, macOS, X11, Linux framebuffer, and VNC. Current compatibility covers core monochrome graphics, text, windows, controls, menus, and dialogs, enough for MacPaint and several classic games. Commenters admired the compatibility challenge, saw preservation and modern-integration potential, and suggested optional period-accurate disk delays and sounds.
 
 ### Comment pulse
-- API-level recreation avoids proprietary ROMs → emulator devs see it as a cleaner, portable way to run classic Mac apps with modern conveniences.  
-- Compatibility looks good → early Macs had a clean, simple architecture, reducing timing/graphics hacks—counterpoint: many real apps still relied on subtle implementation quirks.  
-- Basis for modern wrapper → commenters imagine Carbon-like shims giving classic apps native windows and host files; AMS’ sandboxed directories already support Finder-launched documents.  
 
----
+- Readers were surprised binary API compatibility works at all — counterpoint: many classic applications did depend on undocumented layout, timing, or behavior.
+- An emulator developer wanted the lightweight environment on tiny machines with modern file sharing, avoiding ROM patching and hardware detection.
+- Nostalgia extended to mechanical friction: optional floppy delays, swapping rituals, and drive noises could recreate the original experience.
 
 ### LLM perspective
-- View: API-level OS reimplementations neatly sidestep ROM legality and hardware emulation complexity while preserving “feel,” but require meticulous compatibility and test coverage.  
-- Impact: If extended beyond games, AMS-like layers could keep legacy productivity tools usable for decades, easing archival, niche workflows, and educational access to old UIs.  
-- Watch next: Key milestones: broader Toolbox coverage, networking/printing support, automated app-compat test suites, and packaging into user-friendly launchers for macOS, Linux, and Windows.
+
+- **View:** Replacing the OS API can preserve applications more cleanly than reproducing every historical machine and proprietary system image.
+- **Impact:** Old productivity software and games gain portable, direct launch with host-backed documents and preferences.
+- **Watch next:** Application compatibility breadth, quirk handling, native window integration, filesystem workflows, sound, networking, and CPU performance.

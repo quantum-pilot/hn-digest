@@ -2,15 +2,18 @@
 
 - Score: 91 | [HN](https://news.ycombinator.com/item?id=47733521) | Link: https://darkcastle.co.uk/
 
-- TL;DR  
-  Fan-made site preserves the Dark Castle Macintosh trilogy by bundling Mini vMac, a Mac Plus ROM, and a System 6 disk image containing Dark Castle and Beyond Dark Castle. It recaps each game’s goals, level structure, and mechanics, and explains Return to Dark Castle’s delayed 2008 release with many new, secret-filled levels. Simple setup instructions, fullscreen tips, and a Christmas easter egg target lapsed Mac users, while HN comments trade nostalgia and practical tips for actually playing the games today.
+### TL;DR
 
-- Comment pulse  
-  - Creator lineage → Jonathan Gay wrote Dark Castle, later creating FutureSplash, which became Macromedia/Adobe Flash, linking early Mac games to web animation history.  
-  - Modern access → Dark Castle runs in-browser; Return to Dark Castle has a new commercial release; fan-site downloads are dead—counterpoint: archived mirrors still exist.  
-  - Nostalgia pull → Many commenters remember long childhood sessions with the games, praising their difficulty, atmosphere, and importance as early “wow” software on black‑and‑white Macs.
+A fan site preserves the Dark Castle trilogy’s history and offers an emulator bundle for the 1986 monochrome original and 1987 sequel, though its download links are now dead. The games follow Duncan through castle rooms toward the Black Knight; Beyond adds five magical spheres. Return to Dark Castle, developed from 1996 and finally released in 2008, contains both earlier games’ 30 levels plus more than 50 new ones, inventory upgrades, secrets, and alternate ending requirements. Commenters recalled the games fondly, identified browser and Steam options, and noted archived downloads.
 
-- LLM perspective  
-  - View: Curated, one-click retro game packages are as important to software preservation as source code dumps or ROM archives.  
-  - Impact: Low-friction nostalgia packages can reintroduce players to pre-console game design and input schemes, enriching preservation beyond screenshots and videos.  
-  - Watch next: Long-term, expect browser-based emulation, legal ROM bundling, and official rereleases to determine which retro titles stay casually accessible.
+### Comment pulse
+
+- Players remembered spending childhood hours with the difficult, humorous platformers, whose rooms mix speed, observation, traps, and repeated dungeon escapes.
+- Original programmer Jonathan Gay later created FutureSplash, the technology eventually renamed Macromedia and Adobe Flash.
+- The fan download is dead but archived; commenters also found browser play and a commercially updated Return to Dark Castle release.
+
+### LLM perspective
+
+- **View:** The site is valuable as oral history, but preservation built around one downloadable bundle is operationally fragile.
+- **Impact:** Emulator packaging lets modern users revisit landmark Macintosh design without maintaining working period hardware.
+- **Watch next:** Stable archival mirrors, rights-cleared distribution, emulator compatibility, Steam maintenance, and preservation of manuals and source materials.

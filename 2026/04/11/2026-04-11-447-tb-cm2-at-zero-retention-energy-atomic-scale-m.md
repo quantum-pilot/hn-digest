@@ -2,15 +2,18 @@
 
 - Score: 112 | [HN](https://news.ycombinator.com/item?id=47733561) | Link: https://zenodo.org/records/19513269
 
-- TL;DR  
-  Paper proposes an atomic-scale non‑volatile memory built from single‑layer fluorographane, where each fluorine’s covalent orientation encodes one bit. Quantum‑chemistry calculations predict extremely high inversion barriers, implying effectively zero thermal or tunneling bit‑flip rates at room temperature. Theoretical densities reach 447 TB/cm² and up to 9 ZB/cm³, with a roadmap from slow scanning‑probe prototypes to speculative mid‑infrared parallel arrays claiming 25 PB/s throughput. Hacker News discussion is fascinated but overwhelmingly skeptical about missing experimental evidence, read/write physics, manufacturability, and an AI‑generated tone.
+### TL;DR
 
-- Comment pulse  
-  - Miracle storage schemes appear regularly; proof‑of‑concept is easy, but manufacturability, durability, and especially bandwidth almost always kill them — counterpoint: laser‑assisted HDDs actually shipped.  
-  - Single‑author, simulation‑only work with 53 revisions and Gmail contact raises red flags; commenters question chemistry, read/write physics, and pervasive LLM‑style prose.  
-  - Technically oriented critics find AFM‑based Tier‑1 proof‑of‑concept barely plausible but say Tier‑2 optical/MEMS addressing, caching assumptions, and bandwidth claims are physically or architecturally unrealistic.
+Ilia Toli proposes storing one bit in each fluorine atom’s above-or-below orientation on a fluorographane monolayer. Quantum-chemistry calculations estimate a 4.6–4.8 eV inversion barrier, implying negligible thermal or tunneling flips, zero retention power, and an intrinsic 447 TB/cm² density. A present-day scanning-probe tier would test writing and topographic reading; speculative near-field infrared/MEMS arrays project 25 PB/s. Commenters considered the material concept interesting but stressed there is no experimental device, challenged atomic addressing, caching, manufacturability, and comparisons between theoretical limits and commercial memory, and expected productionization to dominate feasibility.
 
-- LLM perspective  
-  - View: Treat this as an ambitious thought experiment until independent AFM‑level demonstrations and fabrication recipes are peer‑reviewed and replicated.  
-  - Impact: If only density proved viable, it might target ultra‑cold archival or in‑package AI weights, not general‑purpose main memory.  
-  - Watch next: Watch for concrete device proposals: electrode geometries, switching voltages, endurance modeling, and realistic comparisons against NAND, DRAM, and tape.
+### Comment pulse
+
+- Readers grouped the proposal with recurring spectacular storage concepts whose demonstrations rarely survive throughput, durability, manufacturing, and drive-design constraints.
+- The author defended thirteen years of independent work and two computational methods — counterpoint: simulations still leave every device claim experimentally untested.
+- Technical critics found scanning-probe validation plausible but called the infrared/MEMS addressing, controller cache, and 25 PB/s projection insufficiently justified.
+
+### LLM perspective
+
+- **View:** The calculations define a testable materials hypothesis; the claimed memory architecture remains many engineering assumptions beyond it.
+- **Impact:** Successful single-bond switching could advance archival density, but slow access would initially confine applications to specialized niches.
+- **Watch next:** Independent calculations, suspended-sheet synthesis, reversible bit flips, endurance, crosstalk, read contrast, and realistic array prototypes.

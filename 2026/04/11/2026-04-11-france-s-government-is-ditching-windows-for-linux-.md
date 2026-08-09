@@ -3,18 +3,17 @@
 - Score: 402 | [HN](https://news.ycombinator.com/item?id=47728653) | Link: https://www.xda-developers.com/frances-government-ditching-windows-for-linux/
 
 ### TL;DR
-France’s digital agency DINUM has ordered ministries to map and reduce “extra‑European” tech dependencies, explicitly planning an “exit from Windows” toward Linux workstations as part of a broader digital‑sovereignty push. Details, timelines, and scope beyond DINUM are still vague. Commenters note past European reversals on Linux (e.g., Munich) and warn this could be political signaling, but others argue France has already built real capacity with projects like GendBuntu and Matrix‑based Tchap, and see Microsoft’s cloud lock‑in and security record as independent reasons to diversify.
 
----
+France’s interministerial digital directorate, DINUM, says ministries must map dependencies on non-European technology and prepare reduction plans by fall, citing control over data, infrastructure, pricing, evolution, and risk. Its communiqué includes moving DINUM workstations from Windows to Linux, but provides no government-wide rollout date. The headline therefore overstates a planning initiative as a completed national migration. Commenters split between skepticism rooted in Europe’s reversed Linux projects and optimism based on France’s incremental groundwork, including GendBuntu deployments and the Matrix-based Tchap messenger. Most agreed sovereignty requires capability-building beyond swapping desktop licenses.
 
 ### Comment pulse
-- Overstated headlines → Official text is a planning mandate with unknown timeline; past EU “we’re ditching Windows” moves often stalled or reversed — counterpoint: France’s gendarmerie Linux rollout shows follow‑through is possible.  
-- Gradual capability build → Existing Matrix-based Tchap, GendBuntu on ~100k desktops, and forks like Securix suggest a long-term, incremental migration rather than a risky big‑bang.  
-- Beyond geopolitics → Microsoft’s cloud focus, weak self‑hosted story, and recurring security/design failures make dependence risky even without US–EU strategic tension.
 
----
+- Skeptics called this another political promise, citing Munich, Vienna, Birmingham, and opaque French Microsoft deals that undermined earlier migration ambitions.
+- France’s long-running Gendarmerie Linux fleet and Tchap messenger suggest gradual internal capability — counterpoint: national scope remains unspecified and politically vulnerable.
+- Even without treating America as hostile, commenters argued Microsoft’s cloud dependence, reduced self-hosting, and security record justify an exit plan.
 
 ### LLM perspective
-- View: Treat this as an institutional capability program, not a binary flip; success hinges on training, support contracts, and app modernization.  
-- Impact: If sustained, it boosts EU open-source vendors, local clouds like Scaleway, and pressures US suppliers on pricing, data location, and transparency.  
-- Watch next: Concrete migration roadmaps, chosen distros/office stacks, procurement rules favoring OSS, and whether ministries actually decommission major Microsoft cloud services.
+
+- **View:** Digital sovereignty is an operating model—skills, procurement, hosting, standards, and governance—not merely a Linux desktop image.
+- **Impact:** Ministries and suppliers must expose dependencies, fund migration work, and absorb compatibility and training costs.
+- **Watch next:** Published inventories, binding timelines, workstation counts, cloud replacements, application compatibility, procurement rules, budgets, and independently measured adoption.

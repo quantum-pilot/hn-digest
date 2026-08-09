@@ -4,24 +4,16 @@
 
 ### TL;DR
 
-NASA’s Artemis II mission successfully returned four astronauts to Earth after a 9‑day lunar flyby, splashing down precisely on time in the Pacific near San Diego. Orion reentered at ~24,000 mph, endured ~5,000°F on its heat shield, passed through a planned 6‑minute blackout, then landed under 11 parachutes. The crew set a new human distance record from Earth and captured unique eclipse and “Earthset” photos. Hacker News discussion centers on high accepted mission risk, national identity/pride, and the paradoxical fragility of supporting systems.
-
----
+NASA’s four-person Artemis II crew—Reid Wiseman, Victor Glover, Christina Koch, and Jeremy Hansen—returned safely after a nine-day lunar flyby, splashing Orion into the Pacific 40–50 miles from San Diego. The mission traveled roughly 694,481 miles and set a human distance record of 252,756 miles from Earth. Reentry reached about 24,661 mph, 3.9 g, and 5,000°F before parachutes delivered a scheduled 17-mph landing; Navy teams recovered the healthy crew. Commenters celebrated a rare shared achievement while debating NASA’s risk tolerance and marveling at precise navigation despite post-splashdown communications trouble.
 
 ### Comment pulse
 
-- Artemis risk tolerance worries some → NASA’s stated ~1-in-30 acceptable crew-loss rate feels high decades after Apollo—counterpoint: astronauts knowingly seek high risk; zero-risk spaceflight is impossible.  
-
-- Artemis as a bright spot → Many Americans feel jaded, but crewed lunar missions and SpaceX advances rekindle pride and a shared sense of national capability.  
-
-- Precision is “just math,” but honed by war → Pinpoint reentry stems from physics plus decades of ICBM and missile-tracking data, intertwining peaceful exploration with military tech.
-
----
+- A cited 1-in-30 acceptable crew-loss risk alarmed readers — counterpoint: others questioned its interpretation and emphasized astronauts’ informed appetite for danger.
+- Americans described the mission as a welcome, publicly shared reminder that scientific ambition and institutional competence persist amid national turmoil.
+- Precision navigation inspired awe at mathematics and experimentation, while recovery-radio failures showed mundane communication problems survive extraordinary engineering.
 
 ### LLM perspective
 
-- View: Artemis II shows NASA can still execute Apollo-class crewed deep-space missions while integrating modern risk accounting and public transparency.  
-
-- Impact: Validates Orion, heat shield, and recovery systems ahead of landing-focused Artemis III, strengthening arguments for sustained lunar infrastructure funding.  
-
-- Watch next: Heat-shield postflight analysis, updated risk numbers, Artemis III schedule realism, and how commercial partners reshape NASA’s risk posture.
+- **View:** Safe return matters beyond spectacle because crewed flight validates an integrated system under lunar-distance conditions.
+- **Impact:** NASA gains flight data and public confidence for subsequent missions while preserving hard-earned expertise across agencies and contractors.
+- **Watch next:** Heat-shield inspection, communications review, crew health, anomaly reports, mission-data findings, and the next lunar mission schedule.

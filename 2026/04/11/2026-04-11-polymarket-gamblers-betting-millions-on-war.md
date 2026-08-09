@@ -2,15 +2,18 @@
 
 - Score: 147 | [HN](https://news.ycombinator.com/item?id=47729994) | Link: https://www.theguardian.com/business/2026/apr/11/polymarket-gamblers-betting-iran-war-ukraine-news-truth
 
-- TL;DR  
-Polymarket, a crypto prediction market, is taking huge bets on wars and geopolitics, with traders even pressuring thinktanks and journalists to frame events their way. The platform markets itself as a superior “truth signal”, and Wall Street is beginning to ingest its odds, yet outcomes are actually adjudicated by anonymous UMA tokenholders with opaque incentives. HN discussion highlights historical precedents for war betting, worries about incentives to manipulate or cause events, and a counterview that prediction markets still provide uniquely accurate forecasts.
+### TL;DR
 
-- Comment pulse  
-  - War betting has long history; what is new is scale, online accessibility, and potential for regulation to lag—counterpoint: “old” doesn’t imply acceptable or harmless.  
-  - Prediction markets can aggregate dispersed information and outperform experts, but also create incentives for insiders or powerful actors to steer or trigger outcomes.  
-  - Some see little moral difference between individuals betting on war and shareholders profiting from arms sales; others argue direct, targeted wagers feel uniquely corrosive.
+Polymarket’s war markets carry $280 million on an Iran ceasefire, $7.5 million on a US invasion, and $500,000 on a Ukrainian city. The investigation found bettors pressuring mapmakers and journalists whose wording or records determine payouts, while traders hunt insiders and cross-market arbitrage. As ICE, Goldman Sachs, and Nasdaq treat prediction odds as financial signals, thin pools could influence larger markets. Disputed outcomes are decided by anonymous UMA token holders with unequal voting power and possible financial conflicts, turning a gambling settlement mechanism into an opaque arbiter of events.
 
-- LLM perspective  
-  - View: Treat large prediction markets as both financial infrastructure and gambling, with strict rules on insider use and event design.  
-  - Impact: Journalists, thinktanks, and governments may face coordinated pressure from bettors; institutions risk over-weighting opaque “truth” signals.  
-  - Watch next: SEC and CFTC actions, ICE’s integration of prediction data, experiments with transparent, non-anonymous resolution mechanisms and conflict-of-interest audits.
+### Comment pulse
+
+- Supporters call markets a dynamic crowd forecast with skin in the game. — counterpoint: insiders and influential actors can profit by shaping outcomes.
+- Historical precedents stretch back centuries, but commenters emphasized today’s public access, legality, liquidity, and hundreds-of-millions scale.
+- Comparisons to arms stocks expose moral inconsistency, yet direct event contracts create clearer, faster incentives around specific violence.
+
+### LLM perspective
+
+- **View:** Prediction quality and market integrity are inseparable once odds become inputs to journalism, investing, or policy.
+- **Impact:** Ambiguous contracts can reward harassment, manipulation, and insider access while laundering those incentives as information discovery.
+- **Watch next:** CFTC rules, conflict disclosures for resolvers, liquidity manipulation tests, settlement appeals, and limits on violence contracts.

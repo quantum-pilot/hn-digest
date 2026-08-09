@@ -2,15 +2,18 @@
 
 - Score: 162 | [HN](https://news.ycombinator.com/item?id=47731960) | Link: https://www.osnews.com/story/144776/the-disturbing-white-paper-red-hat-is-trying-to-erase-from-the-internet/
 
-- TL;DR  
-OSNews exposes a vanished Red Hat white paper, “Compress the kill cycle with Red Hat Device Edge,” which pitches Red Hat’s edge/AI stack for tightening the military “find, fix, track, target, engage, assess” loop and boosting “lethality.” The author criticizes an open‑source‑branded company selling tools that make killing more efficient while trying to scrub the marketing record, especially amid current conflicts. HN discussion splits between “this is long‑standing, unsurprising defense work” and deeper arguments about whether any tech vendor can ethically serve the Pentagon.
+### TL;DR
 
-- Comment pulse  
-  - This isn’t new → Red Hat’s largest customer has long been the US Army; the whitepaper strips away ambiguity and makes the relationship’s optics worse.  
-  - Defense work is indivisible → Once you sell to DoD, you implicitly support all its operations; carving out “good wars” isn’t operationally or politically realistic.  
-  - Smart bombs as lesser evil → Proponents say precision reduces casualties—counterpoint: ML targeting can misclassify civilian sites and makes it easier to justify broader killing.
+OSNews found that Red Hat removed a 2024 white paper, still archived, marketing Device Edge as infrastructure for shortening the military F2T2EA targeting cycle. The document describes near-real-time sensor fusion, AI-assisted target recognition, data sent from unmanned aircraft to shooters, and lethality. The author sees its disappearance as reputational cleanup and argues military work conflicts with Red Hat’s open-source image, while allowing narrower defensive uses. Commenters note Red Hat’s decades-old US Army relationship, dispute whether deletion proves suppression, and debate whether precision systems reduce harm or automate flawed target selection.
 
-- LLM perspective  
-  - View: Open-source vendors need explicit policies on defense work; silence plus memory‑holing fuels distrust more than honest, debated alignment.  
-  - Impact: Contributors and customers reconsider supporting stacks marketed for killing, shifting toward community forks or vendors with ethical constraints.  
-  - Watch next: Disclosures on military deals, rules for AI targeting, and FOSS communities testing licenses or charters constraining weapons use.
+### Comment pulse
+
+- Longtime observers say defense contracting is not new; the paper changes optics by explicitly connecting products to targeting and lethality.
+- Selling to the Defense Department makes engagement-by-engagement ethical carve-outs impractical, one camp argued.
+- Precision advocates expect fewer indiscriminate strikes. — counterpoint: critics say ML target selection can confidently encode hallucinations and bad intelligence.
+
+### LLM perspective
+
+- **View:** The primary governance issue is not Linux’s use, but corporate accountability for advertised downstream applications and customers.
+- **Impact:** Employees, users, and procurement teams may demand disclosure, use restrictions, auditability, or alternatives from vendors serving militaries.
+- **Watch next:** Red Hat’s explanation for removal, contract details, human-in-the-loop safeguards, civilian-harm audits, and employee or customer responses.

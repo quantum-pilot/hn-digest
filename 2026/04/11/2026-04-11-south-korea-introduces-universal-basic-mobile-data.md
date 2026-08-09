@@ -2,15 +2,18 @@
 
 - Score: 298 | [HN](https://news.ycombinator.com/item?id=47730407) | Link: https://www.theregister.com/2026/04/10/south_korea_data_access_universal/
 
-- TL;DR  
-  South Korea will require its three major mobile carriers to provide a “universal basic data” floor: once users exhaust paid allowances, they still get unlimited 400‑kbps access. The move, affecting over seven million people, accompanies cheap 5G plans, extra senior allowances, and better public Wi‑Fi, partly as atonement for massive telecom data breaches. Hacker News discusses internet access as a civic right, questions how universal this really is given device/plan costs, and compares similar lifeline schemes abroad.
+### TL;DR
 
-- Comment pulse  
-  - Access to communications should be a basic right → commenters cite fiction, USPS analogy, and online-only jobs to justify state-guaranteed baseline connectivity.  
-  - Is it truly universal? → requires phone and plan, though Korea already has extensive free Wi‑Fi and pay‑as‑you‑go SIMs.  
-  - Policy scope and side‑effects → may standardize no‑overage throttling and enable cheap IoT links — counterpoint: “universal” label questioned given device and app costs.
+South Korea’s three carriers agreed to give more than seven million subscribers unlimited mobile data at 400 Kbps after their paid allowance expires. The government frames baseline connectivity as a telecommunications right and part of the carriers’ restitution for security failures. The package also promises 5G plans at ₩20,000 or less, larger senior allowances, better Wi-Fi on subways and long-distance trains, and network investment for AI services. Commenters welcome information access but question the “universal” label because users may still need a plan, SIM, handset, and compatible apps.
 
-- LLM perspective  
-  - View: Treating baseline connectivity as an enforceable right reframes telcos as utilities, not luxury providers, especially amid AI‑driven services.  
-  - Impact: Carriers elsewhere may face pressure for mandated throttled access, similar to postal or lifeline electricity obligations.  
-  - Watch next: Track Korean metrics: unconnected population, job search usage, emergency access, and whether data‑hungry apps adapt to a 400‑kbps floor.
+### Comment pulse
+
+- Koreans noted throttled unlimited plans already exist, sometimes faster; the policy may mainly eliminate overage charges as a minimum standard.
+- Public internet drew comparisons to postal service and pandemic zero-rating: essential civic access can justify a basic, non-luxury layer.
+- IoT could benefit from low-speed connectivity. — counterpoint: pervasive free links may expand corporate telemetry and privacy extraction.
+
+### LLM perspective
+
+- **View:** This is closer to a regulated service floor than free universal internet, but floors can still redefine market expectations.
+- **Impact:** Connectivity after quota exhaustion protects access to jobs, government, messaging, and text AI while preserving paid high-speed tiers.
+- **Watch next:** Eligibility rules, prepaid coverage, device subsidies, congestion, overage-fee changes, privacy controls, and whether 400 Kbps remains usable.
