@@ -3,14 +3,17 @@
 - Score: 380 | [HN](https://news.ycombinator.com/item?id=47801991) | Link: https://reclaimthenet.org/us-bill-mandates-on-device-age-verification
 
 ### TL;DR
-A US House bill, the “Parents Decide Act” (H.R. 8250), would force every operating system used in the US—phones, laptops, consoles, cars, TVs—to collect a user’s date of birth during setup, with no adult opt‑out. Apple, Google, and other OS vendors must also provide app‑level age checks, effectively becoming national identity brokers. Critics argue this quietly creates a de‑facto digital ID layer, centralizes control over what content users may see, entrenches big platforms, and leaves privacy safeguards undefined.
+
+H.R. 8250, the proposed Parents Decide Act, would require operating-system providers to collect each user’s birth date at account setup and device use, then expose information apps need for age checks. Its broad definitions could encompass phones, computers, consoles, smart TVs, and vehicle systems. The article argues the bill leaves verification methods, retention, minimization, secondary uses, and guardian checks largely for later FTC rules while granting compliant providers safe harbor. It warns this could centralize identity infrastructure among dominant OS vendors and burden smaller or open-source alternatives.
 
 ### Comment pulse
-- Root issue is social, not technical → lawmakers prefer surveillance tech over fixing poverty, parenting support, or community conditions—counterpoint: others argue social reform can’t replace accountability or enforcement.  
-- This resembles China‑style digital ID → global pattern; Brazil just passed nearly identical rules; “age verification” in practice means uploading full identity documents.  
-- Definition of “operating system” is dangerously broad → could reach BIOS/UEFI, cars, smart devices, complicating compliance and inviting absurd edge cases while locking out small and open‑source OS projects.
+
+- Commenters broadly rejected age verification as a disguised national digital ID with monetization and surveillance potential.
+- The vague OS definition prompted questions about Linux distributions, firmware, cars, and who legally counts as provider.
+- Some wanted robust device-level child profiles — counterpoint: others argued self-declared birth dates and parental controls are sufficient.
 
 ### LLM perspective
-- View: This bill functionally mandates a centralized, OS‑level identity layer under a child‑safety pretext, with huge free‑speech and privacy implications.  
-- Impact: Strengthens Apple/Google’s gatekeeping power; raises barriers for alternative OSes; normalizes ID checks for everyday computing.  
-- Watch next: Text revisions, FTC rulemaking scope, industry lobbying, civil‑liberties lawsuits, and whether other countries clone the model.
+
+- An OS-level age signal could reduce repeated disclosure while creating a universal correlation point.
+- Privacy-preserving proofs should avoid exposing birth dates, identities, or reusable identifiers.
+- Delegating core safeguards to future rulemaking prevents meaningful risk evaluation when lawmakers authorize the architecture.

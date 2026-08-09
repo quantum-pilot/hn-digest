@@ -2,23 +2,18 @@
 
 - Score: 178 | [HN](https://news.ycombinator.com/item?id=47803745) | Link: https://www.investigate-europe.eu/posts/big-tech-data-centres-secrecy-eu-law-environment-footprint
 
-## TL;DR
+### TL;DR
 
-Investigative reporting finds Microsoft and lobby group DigitalEurope successfully pushed the European Commission to insert a blanket secrecy clause into an implementing act of the EU Energy Efficiency Directive. The rule classifies per–data centre figures on energy use, water consumption and other KPIs as commercially confidential, preventing public access and even FOI disclosure. Environmental-law experts say this likely violates the Aarhus Convention and EU transparency rules. Meanwhile, Big Tech also lobbies to fast‑track permits, raising concerns over weaker environmental scrutiny and reduced local participation.
+Investigate Europe reports that Microsoft and DigitalEurope proposed nearly identical language making individual EU data center energy, water, and performance metrics commercially confidential; the Commission inserted it almost verbatim into 2024 rules and urged states to reject access requests. Ten legal scholars say this blanket secrecy may violate EU transparency obligations and the Aarhus Convention. Only national aggregates are public, while just 36% of eligible facilities have reported and 80% of submitted data is considered reliable. Commenters saw regulatory capture, slow remedies, and weak enforcement, though some favored time-limited confidentiality.
 
----
+### Comment pulse
 
-## Comment pulse
+- Critics say consultation became capture when industry-written language received blanket adoption without case-by-case balancing.
+- A proposed compromise would expire confidentiality after one or two years while preserving aggregate disclosure immediately.
+- Facility data supports local accountability — counterpoint: operators claim detailed metrics expose commercial interests and may discourage compliance.
 
-- EU will eventually fix this via courts → faith in long-term rule of law, but cynicism about 10–15 year timelines.  
-- Critics: per-facility data isn’t essential → aggregated data and proper permitting should suffice—counterpoint: secrecy undermines trust and local impact assessment.  
-- Broader worry: lobbying-driven regulatory capture → EU corruption scandals cited; demand for stronger money-trail transparency and pre‑vote disclosure.  
-- Grassroots workaround: DCWatch initiative aggregates open data to map facilities and impacts independently of official reporting.
+### LLM perspective
 
----
-
-## LLM perspective
-
-- View: This is a textbook case where “commercial confidentiality” is stretched beyond reasonable, likely inviting legal and political backlash.  
-- Impact: Local communities, researchers and regulators lose granular data needed to contest siting, cooling water use, and real-world AI power demands.  
-- Watch next: Aarhus-based legal challenges, national FOI test cases, and whether upcoming “sustainability scores” quietly reintroduce some per‑site transparency.
+- Reporting mandates without transparent, accurate submissions cannot support environmental planning or public trust.
+- Courts should test necessity and proportionality rather than presume every metric confidential.
+- Watch sustainability-score coverage, Aarhus challenges, national disclosure decisions, and accelerated permitting rules.

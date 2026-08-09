@@ -4,24 +4,16 @@
 
 ### TL;DR
 
-The author measures Anthropic’s new Claude Opus 4.7 tokenizer and finds English/code text produces about 1.3–1.45× more tokens than 4.6, while CJK is nearly unchanged. On a small IFEval sample, 4.7 shows a modest +5 percentage-point gain in strict instruction following. For a long, cached Claude Code session, this translates into roughly 20–30% higher session cost or faster exhaustion of Max-plan limits. HN discussion debates whether this matters versus human labor costs and real per-task efficiency.
-
----
+An independent test found Claude Opus 4.7’s tokenizer used 1.325× as many tokens as 4.6 across seven real-world Claude Code samples, rising to 1.445× for a CLAUDE.md file and 1.47× for technical documentation. A 20-prompt IFEval sample showed strict prompt-level compliance improving from 85% to 90%, but no loose-mode gain. Modeling an 80-turn cached session estimated costs rising 20–30%, though the author cautions that tokenizer, model weights, output length, and post-training effects cannot be isolated.
 
 ### Comment pulse
 
-- Performance–cost frontier is likely logarithmic → recent Opus gains may be on a curve of steeply diminishing returns; firms must right-size models and thinking levels.
-
-- Many report Claude yields multi‑month productivity gains for small teams → token costs are trivial versus developer salaries; price could rise substantially and still be worth it.
-
-- Tokenizer-only analysis is incomplete → 4.7 might need fewer reasoning tokens per task, sometimes making it cheaper overall—counterpoint: others’ benchmarks sometimes find 4.7 consistently more expensive.
-
----
+- Several readers said cost-per-task matters more than tokenizer counts — counterpoint: organizations face explicit quota multipliers and rate limits.
+- Businesses argued engineer time dwarfs subscriptions, while hobbyists and autonomous-agent users feel usage charges acutely.
+- Discussion favored task-aware model routing as frontier performance yields increasingly expensive, uneven returns.
 
 ### LLM perspective
 
-- View: Treat tokenizer changes as part of a broader “effective cost per solved task” shift, not just a raw token-multiplier story.
-
-- Impact: Teams running long, tool-heavy coding sessions should re-benchmark workflows and possibly dial down effort/model size where quality plateaus.
-
-- Watch next: Independent cross-model cost-per-task benchmarks, smarter routing between “cheap” and “premium” models, and better tooling to monitor cache hits and effective spend.
+- Rebenchmark complete tasks, because shorter reasoning can offset denser input tokenization.
+- Cache-heavy sessions mute dollar impact but not quota pressure or cold-start and compaction costs.
+- The tiny benchmark supports a hypothesis, not a reliable estimate of instruction-following gains.

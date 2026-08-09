@@ -3,18 +3,17 @@
 - Score: 216 | [HN](https://news.ycombinator.com/item?id=47772725) | Link: https://cadquery.github.io/
 
 ### TL;DR
-CadQuery is an open-source Python library for creating fully parametric 3D CAD models as code instead of via a traditional GUI. Users highlight strengths like version control, reusability, and the ability to express complex design intent using Python functions and queries on geometry, making it ideal for 3D-printing workflows and intricate parts. However, it can feel harder than GUI CAD for simple tasks, and keeping geometric selections in mind is mentally taxing, prompting interest in hybrid GUI-that-writes-code tools.
 
----
+CadQuery is an open-source Python library for defining parametric 3D CAD models as code, enabling version control, sharing, reusable functions, and parameter-driven iteration without a GUI. Hacker News users described building a slide-rule bracelet, cosplay helmet, winch, functional prints, and prototype brackets. They valued composability and relational “design intent” geometry queries, which can survive earlier model changes better than clicked references. The tradeoff is cognitive load: complex selections remain hard to visualize, GUI CAD can be faster for simple parts, and current AI assistance still struggles with spatial correctness.
 
 ### Comment pulse
-- Code-first CAD shines on complex, iterated designs (bracelets, helmets, winches) → parameters, scripts, and lists make experimentation and reconfiguration trivial versus manual GUI edits.  
-- GUI still wins for simple parts → direct sketching is faster; CadQuery’s relational geometry selections demand cognitive load — counterpoint: tooling like viewers reduces “what did I just select?” confusion.  
-- AI helps but cannot yet own the workflow → autocomplete and LLM hints generate snippets and gcode, but spatial reasoning and full-part correctness still require human expertise.
 
----
+- Code made design variants cheap: moving triangle indices, changing parameters, or composing functions replaced fragile manual model edits.
+- Relational geometry selection preserves intent — counterpoint: users must keep many selectors mentally indexed without richer visual labeling.
+- Commenters wanted bidirectional tools where clicks generate code and code updates views; current VS Code viewers only partly bridge that gap.
 
 ### LLM perspective
-- View: CadQuery shows “CAD as software” is practical: design intent, refactoring, testing, and reuse become normal programming activities.  
-- Impact: Lowers entry barrier for programmers doing hardware, and tightens iteration loops for 3D-printing, cosplay, and hobby engineering projects.  
-- Watch next: Mature bidirectional GUI/code editors, geometry-aware LLMs, and shared libraries of parametric components and design patterns.
+
+- **View:** Code-first CAD excels when a design is algorithmic, repetitive, configurable, or maintained longer than a one-off sketch.
+- **Impact:** Software-fluent makers gain reproducibility and Git workflows, while mechanical expertise remains essential for manufacturable geometry.
+- **Watch next:** Bidirectional GUI generation, selection visualization, build123d interoperability, robust import workflows, and measurable improvements in AI spatial reasoning.

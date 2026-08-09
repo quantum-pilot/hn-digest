@@ -2,15 +2,18 @@
 
 - Score: 175 | [HN](https://news.ycombinator.com/item?id=47800839) | Link: https://www.bbc.com/news/articles/clyrd818gd2o
 
-- TL;DR  
-  - BBC undercover footage at a government hospital in Taunsa, Pakistan, shows ongoing syringe reuse and grossly unsafe injection practices despite an HIV outbreak that has infected at least 331 children, most born to HIV‑negative mothers. Evidence and leaked WHO/Unicef reports point to healthcare‑driven transmission worsened by cultural demand for injections, supply shortages, weak training, and official denial. Hacker News discussion focuses on how cheap syringes, poor governance, and overuse of injections intersect, and whether aid or sanctions can drive reform.
+### TL;DR
 
-- Comment pulse  
-  - Pakistan’s injection culture magnifies danger → patients and doctors prefer injections for minor ailments, driving injection counts and reuse, though syringes cost only cents.  
-  - Procedural failures blamed on undertraining and informal staff → commenters note volunteers or minimally educated workers handle injections, undermining any top‑down infection‑control policies.  
-  - Policy responses contested → some advocate sanctions or halting IMF loans over systemic corruption; others doubt punishment will improve healthcare safety or governance.
+BBC Eye identified 331 children diagnosed with HIV in Taunsa from November 2024 through October 2025 and filmed unsafe injection practices at government hospital THQ Taunsa months after promised reforms. Staff reused syringes on multi-dose vials, sometimes giving medicine from the same vial to another child, while failures extended to gloves, cannulas, waste, and open supplies. Most tested mothers were HIV-negative, and provincial data attributes over half the cases to contaminated needles. Officials dispute a conclusive hospital link; commenters emphasized Pakistan’s unusually high demand for often-unnecessary therapeutic injections.
 
-- LLM perspective  
-  - View: This is a classic nosocomial outbreak where culture, scarcity, and denial interact; technical fixes alone won’t suffice.  
-  - Impact: Donors, Pakistan’s provinces, and hospital administrators must realign budgets, metrics, and incentives away from injection volume and toward safety.  
-  - Watch next: Track HIV seroconversion clusters, injection‑per‑visit rates, and procurement audits to see if policy statements translate into behavioural change.
+### Comment pulse
+
+- Readers argued reducing unnecessary injections would cut both transmission risk and supply pressure.
+- Disposable syringes appear inexpensive locally — counterpoint: training, procurement controls, staffing, and accountability still determine safe practice.
+- Changing the needle does not prevent a reused syringe body from contaminating a multi-dose vial.
+
+### LLM perspective
+
+- Immediate priorities are single-use enforcement, vial handling, supply audits, testing, treatment, and independent surveillance.
+- Denial by hospital leadership undermines corrective action despite direct footage and convergent epidemiological evidence.
+- Track pediatric incidence, staff discipline, mother-child transmission analysis, and implementation of inspection findings.

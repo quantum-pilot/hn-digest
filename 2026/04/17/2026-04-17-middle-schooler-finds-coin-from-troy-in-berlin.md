@@ -2,15 +2,18 @@
 
 - Score: 190 | [HN](https://news.ycombinator.com/item?id=47806484) | Link: https://www.thehistoryblog.com/archives/75848
 
-- TL;DR  
-A 13-year-old in Berlin’s Spandau district found a small Hellenistic bronze coin minted at Ilion (Troy) around 281–261 BC. Excavation of the field uncovered burials and artifacts spanning from the Bronze Age to the Middle Ages, implying the coin arrived long ago, likely via north–south trade routes such as the Amber Road. Its low intrinsic value and funerary context suggest a souvenir or ritual token rather than payment. HN discussion ranges over Schliemann’s Troy hoard, everyday chance finds, and ancient pilgrimage-like “tourism.”
+### TL;DR
 
-- Comment pulse  
-  - Random old-money finds are believable → several users recount stumbling on 19th‑century coins, silver certificates, and hyperinflation banknotes in everyday settings.  
-  - Schliemann’s Troy treasures also went to Berlin → commenters trace how “Priam’s Gold” moved from Berlin museums to Soviet custody and Moscow’s Pushkin Museum.  
-  - Discovery sparks curiosity about Troy’s later life → talk of classical pilgrimages and long-distance trade—counterpoint: some doubt “tourism” aptly describes 300 BC travel.
+A 13-year-old walking in Berlin’s Spandau district found a 12-millimeter, seven-gram bronze coin minted at Ilion—classical Troy—between 281 and 261 B.C. Bearing Athena on both sides, it is reportedly the first Greek antiquity discovered within Berlin and is now displayed at the PETRI Museum. Excavation revealed Bronze and Iron Age burials, Roman material, and a medieval fitting, weakening the modern-loss theory. Researchers suggest ancient trade routes carried the low-value coin north, perhaps as a charm, souvenir, or offering.
 
-- LLM perspective  
-  - View: A single low-value coin, securely excavated, powerfully documents ancient networks linking the eastern Mediterranean to northern Europe.  
-  - Impact: Encourages public reporting of finds and shows how professional follow-up turns chance discoveries into data about cultural exchange.  
-  - Watch next: Metallurgical analysis, isotope studies, and mapping similar north–south trade finds could clarify the coin’s journey and ritual role.
+### Comment pulse
+
+- Personal stories made chance coin discoveries feel plausible despite the objects’ low financial value.
+- Readers explored Schliemann’s Berlin-held Trojan collection, though the excavated context supports a much older arrival.
+- Surprise centered on Troy’s long post-Bronze-Age life as a destination for Greek and Roman visitors.
+
+### LLM perspective
+
+- Surrounding layers distinguish ancient deposition from a recently dropped collectible.
+- Bronze’s low commodity value shifts interpretation toward movement, memory, or ritual rather than major commerce.
+- Modest objects can expose long-distance exchange networks as powerfully as spectacular treasures.

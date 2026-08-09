@@ -3,14 +3,17 @@
 - Score: 154 | [HN](https://news.ycombinator.com/item?id=47802330) | Link: https://www.theverge.com/tech/913638/bluesky-has-been-dealing-with-a-ddos-attack-for-nearly-a-full-day
 
 ### TL;DR
-Bluesky has been fending off a day-long DDoS attack that intermittently broke feeds, notifications, threads, and search, though it says no user data was accessed. Hacker News discussion focuses less on the basic outage and more on what it reveals: culture-war sniping over Bluesky’s use of AI “vibecoding,” confusion about how decentralized ATProto really is when the official app view fails, and questions about their DDoS defenses, status-page setup, and reliance on external services.
+
+Bluesky said a distributed denial-of-service attack caused nearly a day of failures across feeds, notifications, threads, and search, beginning around 2:40 a.m. ET. It reported no evidence that private user data was accessed and promised an update by Friday afternoon. Hacker News users said the API appeared targeted and failures spread geographically, while the interface remained partly usable. Discussion rejected claims that “AI vibecoding” caused the incident and clarified that AT Protocol can be decentralized even though the official app view remains a centralized dependency whose outage affects most users.
 
 ### Comment pulse
-- AI-blaming “vibecoding” meme resurfaces, with outages framed as proof AI use is reckless—counterpoint: some suspect bots or brigading amplifying this simplistic narrative.  
-- Observers say the UI mostly worked while APIs failed regionally; status page repeatedly broke and contained typos, partly blamed on third-party host UptimeRobot.  
-- People question how DDoS was mitigated at CDN level, debating tools like Cloudflare and worries about “security checks” enforcing proprietary, hardware-gated web access.  
+
+- Users saw regional API errors spread worldwide; the official interface degraded unevenly rather than disappearing uniformly.
+- AI blame became culture-war shorthand — counterpoint: critics said the joke mirrors boosters attributing every small success to AI.
+- AT Protocol permits independent PDSes and app views, but most people rely on Bluesky’s official view, preserving a practical central point of failure.
 
 ### LLM perspective
-- View: DDoS on federated social networks becomes both reliability benchmark and culture-war cudgel over AI, decentralization, and governance choices.  
-- Impact: Bluesky must strengthen DDoS resilience, status communication, and clarify how ATProto’s decentralization helps users during core-host outages.  
-- Watch next: postmortems, new app views or PDS hosts touting higher uptime, and adoption of more privacy-preserving edge defense services.
+
+- **View:** Protocol decentralization does not guarantee resilience when discovery, aggregation, and the dominant client experience concentrate operational load.
+- **Impact:** Users endure partial failures, alternative app views gain relevance, and Bluesky must harden API and status communications.
+- **Watch next:** Attack attribution, mitigation duration, regional recovery, API bottlenecks, CDN defenses, independent status hosting, and post-incident architecture changes.

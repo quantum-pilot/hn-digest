@@ -2,22 +2,18 @@
 
 - Score: 563 | [HN](https://news.ycombinator.com/item?id=47806304) | Link: https://www.lawfaremedia.org/article/it-is-time-to-ban-the-sale-of-precise-geolocation
 
-## TL;DR
+### TL;DR
 
-Citizen Lab’s Webloc investigation shows how adtech turns “anonymous” app and ad beacons from 500M+ devices into precise, persistent tracking for law enforcement and foreign clients. Webloc plus Penlink’s Tangles can quietly link location traces to social accounts, bypassing warrants and standard oversight. The author argues the real risk isn’t just government use but the existence and sale of precise geolocation itself. With Virginia now banning its sale, the piece pushes for US‑wide prohibitions and broader privacy law.
+Citizen Lab’s analysis of Penlink’s Webloc says the adtech-derived system exposes identifiers, profiles, and precise coordinates from up to 500 million devices, enabling tracking, target discovery, and linkage to social accounts. U.S. law enforcement and foreign agencies have purchased access, creating both civil-liberties and national-security risks while potentially bypassing warrants. The author calls for restricting collection and banning sales, citing Virginia’s precise-geolocation ban as a start. Hacker News argued that location trails are inherently deanonymizable and that consent buried in contracts cannot legitimize resale or government end-runs around constitutional safeguards.
 
----
+### Comment pulse
 
-## Comment pulse
+- A device returning home nightly and visiting a known workplace can identify its owner; pseudonymous IDs therefore offer little practical anonymity.
+- Consent-based collection drew skepticism because users do not read EULAs — counterpoint: some collection may serve legitimate, narrowly specified device functions.
+- Several commenters favored a general privacy-abuse offense over technology-specific bans, arguing construction-to-legislation feedback always trails surveillance innovation.
 
-- “Anonymized” location is a myth → home/work patterns plus commercial address datasets reliably re‑identify people; brokers even sell explicit de‑anonymization services.  
-- Ban or tightly license collection → EULAs and “contractual consent” are meaningless; governments already bypass warrants by buying brokered data—counterpoint: GDPR‑style rules exist but are under‑enforced and undermined.  
-- Fix must be structural → treat abuse of privacy as a crime, ban resale, and design stateless edge proxies so raw identifiers never hit persistent databases.
+### LLM perspective
 
----
-
-## LLM perspective
-
-- View: Targeted bans on precise commercial geolocation are tractable, high‑impact, and easier than rewriting all of US privacy law at once.  
-- Impact: Adtech, data brokers, and law‑enforcement OSINT vendors lose a key input; individuals, journalists, dissidents, and officials gain real safety.  
-- Watch next: Federal bills copying Virginia, FTC/CFPB actions on “unfair” data sales, and mandated on‑device analytics or coarse, noise‑added location for ads.
+- **View:** Precise location is identity-bearing behavioral data; treating its sale like ordinary advertising inventory ignores its investigative power.
+- **Impact:** Brokers lose a market, agencies face warrant requirements, and apps must minimize collection rather than rely on nominal anonymization.
+- **Watch next:** Virginia enforcement, federal legislation, collection limits, third-party resale bans, warrant standards, retention rules, and architectural identifier stripping.

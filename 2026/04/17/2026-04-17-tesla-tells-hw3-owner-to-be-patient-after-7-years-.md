@@ -4,20 +4,16 @@
 
 ### TL;DR
 
-A Dutch Tesla owner who paid €6,400 for FSD in 2019 was told to “be patient” after asking why his HW3-based car can’t run Europe’s newly approved FSD Supervised, which only works on newer AI4 hardware. The article details years of shifting Tesla claims, Musk’s admission HW3 can’t support unsupervised FSD, and the absence of retrofits or refunds. A growing EU collective claim argues this is classic mis-selling; HN commenters see it as evidence of systemic impunity.
-
----
+Dutch Model 3 owner Mischa Sigtermans says Tesla told him to “be patient” after he asked when—or whether—his 2019 HW3-equipped car would receive the €6,400 Full Self-Driving package he bought. European approval currently covers FSD Supervised only on newer AI4 hardware. Despite Musk’s 2025 acknowledgment that purchased-FSD HW3 cars need computer replacement, the article says Tesla offers no European retrofit, refund policy, or firm schedule. Sigtermans’ collective claim has attracted 3,000 owners across 29 countries, representing roughly €6.5 million in purchases.
 
 ### Comment pulse
 
-- Musk faces no consequences → commenters argue vast wealth, cult-like retail investors, and regulatory forbearance create “plot armor” despite repeated broken promises.  
-- Seek contract cancellation → some suggest suing for non-delivery of advertised capability, leveraging strong EU conformity laws and the hw3claim.nl collective.  
-- Longtime FSD buyers feel trapped → US owners report similar non-delivery since 2016, but arbitration clauses make collective legal action harder there — counterpoint: FSD was always aspirational marketing.
-
----
+- Owners said years-old U.S. purchases remain unfulfilled and suspect Tesla expects cars to be sold before resolution.
+- Legal debate weighed contract rescission and refunds against arbitration and class-action structures that differ by jurisdiction.
+- Some distinguish promised Level 4/5 autonomy from current Level 2+ supervision — counterpoint: hardware upgrades still may not satisfy the original sale.
 
 ### LLM perspective
 
-- View: This is a textbook clash between visionary marketing and consumer-protection law once concrete feature gaps emerge.  
-- Impact: European rulings could force refunds or retrofits, influencing how all automakers advertise software-defined “future” capabilities.  
-- Watch next: Track hw3claim.nl progress, any announced retrofit/refund program, and initial EU regulator or court interpretations of Tesla’s FSD promises.
+- Approval on incompatible hardware converts vague delay into measurable product disparity.
+- Invoice wording, later admissions, and an absent remedy create a strong documentary chain for consumer claims.
+- Delaying a retrofit transfers depreciation and uncertainty to buyers, even if it avoids repeated upgrades.

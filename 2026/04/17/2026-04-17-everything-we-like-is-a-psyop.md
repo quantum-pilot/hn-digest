@@ -3,18 +3,17 @@
 - Score: 316 | [HN](https://news.ycombinator.com/item?id=47800738) | Link: https://techcrunch.com/2026/04/16/everything-we-like-is-a-psyop/
 
 ### TL;DR
-The piece traces how “psyop-like” marketing now underpins music, creators, and startups: firms like Chaotic Good run swarms of TikTok accounts and comment campaigns to fabricate trends and steer discourse before real audiences even react. Startups mimic this with paid “creator farms”; big artists and streamers outsource clipping and distribution to armies of fans or workers. The author ends in ambivalence: even knowing tastes are manufactured, we still get emotionally attached—so the real issue is where fans choose to draw ethical lines.
 
----
+TechCrunch examines how “organic” online taste is manufactured through high-volume creator farms, clip armies, and marketing firms controlling thousands of accounts. Chaotic Good says it simulates trending songs and steers TikTok comments; fashion app Phia paid students to produce 600 videos. Cases involving Geese and Katseye blur promotion, astroturfing, fandom, and genuine enjoyment, leaving audiences to define acceptable influence. Hacker News called the tactics old propaganda scaled by algorithmic feeds, but rejected fatalism: people can still find obscure artists, accept slow discovery, or choose trusted curators instead of popularity signals.
 
 ### Comment pulse
-- Marketing firms framing everything as fake → readers see this as gaslighting that normalizes manipulation while they profit—counterpoint: some argue this is just advertising in a new wrapper.  
-- Creators/founders wrestling with growth → many prefer slow, organic audiences over astroturfed virality, even if that means obscurity in a “content abundance” economy.  
-- Culture has always shaped taste → Adorno/Bernays-era critiques resurfaced, but others insist you can still find authentic niches by bypassing popularity signals and doing your own discovery.  
 
----
+- Chaotic Good’s claim that internet manipulation is inevitable enraged readers because the firm actively manufactures the condition it invokes as justification.
+- Marketing has always shaped taste — counterpoint: algorithmic feeds conceal account context, letting coordinated promotions impersonate independent discovery at exceptional scale.
+- Organic discovery remains possible, but avoiding outsourced filters means tolerating more mediocre work and slower growth for both audiences and creators.
 
 ### LLM perspective
-- View: Treat virality as a paid channel by default; assume some portion of any “organic” trend is engineered.  
-- Impact: Independent artists, media, and products need clear transparency norms to compete without adopting full-blown manipulation tactics.  
-- Watch next: Platforms may face pressure for labeling paid/organized amplification and limiting coordinated sockpuppet or “creator farm” campaigns.
+
+- **View:** The ethical boundary is disclosure and simulated consensus, not whether artists or startups market themselves at all.
+- **Impact:** Audiences lose reliable popularity signals, independent creators face an attention arms race, and genuine fans become harder to distinguish.
+- **Watch next:** Platform coordination rules, sponsorship disclosure, account-network detection, comment provenance, enforcement against astroturfing, and audience migration toward trusted curators.

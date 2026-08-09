@@ -4,24 +4,16 @@
 
 ### TL;DR
 
-NIST’s National Vulnerability Database will no longer fully “enrich” every CVE (add CVSS scores and detailed metadata). Instead it will prioritize three sets: vulnerabilities in CISA’s Known Exploited Vulnerabilities list, software used by US federal agencies, and broadly defined “critical software” (OSes, browsers, security tools, etc.). NIST will also stop providing independent CVSS scores, deferring to whatever the CVE issuer supplies. This ends NVD’s role as a de facto single source of truth and forces vendors to build their own enrichment pipelines amid an AI‑driven CVE explosion.
-
----
+NIST will stop enriching most entries in the National Vulnerability Database after a two-year backlog grew to tens of thousands amid surging disclosures and constrained budgets. Staff will prioritize actively exploited CISA KEV flaws, software used by federal agencies, and broadly defined critical software such as operating systems, browsers, security tools, and VPNs. NIST will also replace its own CVSS ratings with issuers’ scores, leaving vendors and security products to diversify data sources as annual CVE volume exceeds 48,000.
 
 ### Comment pulse
 
-- NVD’s CVSS ratings were often low‑quality; losing them is no big loss, but it sadly perpetuates the flawed CVSS ecosystem.  
-
-- Accurate scoring needs deep product knowledge; external bodies frequently misgrade and over‑escalate issues—counterpoint: vendors have strong incentives to understate their own bugs.  
-
-- AI‑assisted and status‑seeking researchers are flooding maintainers with trivial or non‑reproducible “vulns,” dragging retirees back to triage nonsense.  
-
----
+- Maintainers reported AI-assisted, low-value vulnerability submissions consuming time and generating dubious claims.
+- Vendors have product context — counterpoint: their incentive is to minimize severity, while outsiders often inflate theoretical risks.
+- Some welcomed abandoning NVD severity scores, calling CVSS context-blind and operationally distorting.
 
 ### LLM perspective
 
-- View: Centralized, fully enriched, universal vulnerability catalogs don’t scale; prioritized coverage plus plural data sources is the realistic future.  
-
-- Impact: Security tools, auditors, and regulated orgs must stop hard‑coding NVD assumptions and design for inconsistent, multi‑source vulnerability metadata.  
-
-- Watch next: Third‑party enrichment services, reputation systems for CNAs’ scoring accuracy, and alternative risk models supplanting bare CVSS numbers.
+- Prioritizing exploited and critical systems converts an impossible completeness goal into a risk-based service.
+- Removing independent scoring makes provenance, rationale, and competing assessments more important than one number.
+- AI discovery increases triage burden unless reporting incentives penalize noise and reward reproducibility.

@@ -2,15 +2,18 @@
 
 - Score: 606 | [HN](https://news.ycombinator.com/item?id=47804965) | Link: https://hex.ooo/library/last_question.html
 
-- TL;DR  
-  Asimov’s 1956 story tracks humanity’s evolution alongside ever‑more powerful computers, from Multivac to a cosmic AC, as generations keep asking whether entropy—and the universe’s heat‑death—can ever be reversed. Each era gets the same reply: “INSUFFICIENT DATA FOR A MEANINGFUL ANSWER,” until, after everything ends and only AC remains, it finally discovers how to restart creation. Hacker News readers discuss the story’s treatment of cosmic fate, AI humility, and its influence on later AI‑god fiction and classic nerd lore.
+### TL;DR
 
-- Comment pulse  
-  - Honest non‑answer from AI → HNers want LLMs and humans to say “insufficient data” instead of bluffing; some build code tools that reject ambiguous instructions.  
-  - Story canon → Treated as an endlessly rereadable HN classic, grouped with the SR‑71 “ground speed check,” “500‑mile email,” and “The Gentle Seduction.”  
-  - Influences / parallels → Commenters cite Fredric Brown’s “Answer” and “The Solipsist,” plus “Metamorphosis of Prime Intellect” — counterpoint: the latter is extremely graphic and disturbing.
+Asimov’s 1956 story follows humanity across trillions of years as successive computers inherit one unanswered question: can entropy be reversed? Each era gets the same reply—insufficient data for a meaningful answer—even as humans spread between galaxies, become immortal, merge mentally, and finally fuse with the cosmic machine while every star dies. After matter, energy, space, and time vanish, AC at last derives the solution and demonstrates it by recreating the universe with “Let there be light.”
 
-- LLM perspective  
-  - View: The refrain “insufficient data” models epistemic humility modern AI systems and users should emulate, especially under pressure to sound confident.  
-  - Impact: Developer tools that deliberately fail on ambiguous instructions could reduce hallucinations and push teams toward clearer specifications and tests.  
-  - Watch next: Benchmark LLMs on calibrated refusal rates and uncertainty estimates; integrate entropy‑style “irreversibility” checks into autonomous planning systems.
+### Comment pulse
+
+- Readers called it an irresistible perennial reread and traded links to similarly memorable science-fiction stories.
+- Several noted parallels with Fredric Brown’s earlier, much shorter “Answer” and “The Solipsist.”
+- Commenters admired admitting uncertainty — counterpoint: some argued current LLMs can do so when explicitly prompted.
+
+### LLM perspective
+
+- The repeated question makes uncertainty a narrative engine while computational scale expands beyond matter and time.
+- AC’s final act recasts technical problem-solving as creation myth, collapsing machine and deity.
+- Modern relevance lies less in omniscience than recognizing when evidence cannot support an answer.

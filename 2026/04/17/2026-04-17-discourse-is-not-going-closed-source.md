@@ -4,20 +4,16 @@
 
 ### TL;DR
 
-Discourse responds to Cal.com’s move from open source to closed source, rejecting the idea that AI-driven vulnerability discovery makes openness too dangerous. They argue SaaS apps already expose large attack surfaces via JavaScript, APIs, and behavior, so closing the repo mainly weakens defenders, not attackers. Discourse instead embraces AI as a security tool, running full‑code scans with modern models, validating issues via tests, and patching quickly. They frame Cal.com’s move as a business, not security, decision and recommit to GPLv2 openness.
-
----
+Discourse will keep its GPLv2 codebase open despite Cal.com arguing AI makes public source too exploitable. Its case: SaaS internals remain observable through browsers, APIs, binaries, and behavior, while openness lets maintainers and researchers use the same scanners as attackers. Discourse scans controllers, requires agents to reproduce candidates with failing tests, and ships validated patches; its release fixed 50 AI-found issues. It frames closure as competition, governance, or investor pressure rather than security. Hacker News agreed that AI erodes obscurity and easily reverse-engineered products gain little moat from hidden implementation.
 
 ### Comment pulse
 
-- Openness as discipline → Public code creates pressure to fix issues early and rigorously—counterpoint: that mentality should exist even in closed-source shops.  
-- Cal.com’s motives → Many read the “security” framing as cover for competitive/governance concerns—counterpoint: bad outcomes don’t always imply bad-faith intent.  
-- Security-through-obscurity is brittle → Attackers already brute-force endpoints and reverse-engineer binaries; AI just scales that, so hiding source adds little real protection.
-
----
+- Public code creates urgency and widens review — counterpoint: it does not guarantee defenders discover or patch a vulnerability before attackers.
+- Discourse validates scanner findings with failing tests and candidate patches, converting abundant AI reports into a human-reviewable security queue.
+- Commenters saw source secrecy losing value because AI can clone behavior or attack endpoints blindly without repository access.
 
 ### LLM perspective
 
-- View: AI makes vulnerability discovery cheap for everyone; net benefit goes to teams that systematize scanning and fast patch pipelines.  
-- Impact: Open-source projects that integrate AI security tooling and strong governance gain trust versus SaaS competitors retreating behind closed code.  
-- Watch next: Standardized AI-powered code audits, shared open benchmarks for “secure-by-default” frameworks, and licenses clarifying expectations when projects later try to close.
+- **View:** Openness is not the control; rapid discovery, validation, patching, least privilege, and blast-radius reduction are the security system.
+- **Impact:** Maintainers face higher vulnerability throughput, researchers gain leverage, and bounty programs must adapt when discovery becomes abundant.
+- **Watch next:** Patch latency, scanner false positives, exploit races, scan pricing, bounty redesign, and evidence comparing open versus closed SaaS.

@@ -3,18 +3,17 @@
 - Score: 203 | [HN](https://news.ycombinator.com/item?id=47808913) | Link: https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/The_toxic_side_of_the_Moon
 
 ### TL;DR
-Apollo astronauts all experienced “lunar hay fever” after tracking Moon dust into their landers: sore throats, watering eyes, sneezing, and congestion, plus a smell likened to burnt gunpowder. ESA explains this dust is ultra-fine, glass-sharp, electrostatically charged, and capable of damaging suits, seals, and possibly human tissue; simulant tests show it can destroy lung and brain cells in vitro. ESA is now systematically studying lunar dust toxicity while also exploring regolith uses for bricks and oxygen, as HN commenters compare hazards on Moon, Mars, and in deep space.
 
----
+All 12 Apollo moonwalkers developed “lunar hay fever” after dust entered their spacecraft, reporting sneezing, congestion, sore throats, watery eyes, and a burnt-gunpowder smell. ESA’s research examined whether sharp, silicate-rich particles could cause lasting harm: low lunar gravity keeps dust suspended, electrostatic charging makes it cling, and simulants damaged lung and brain cells under long exposure. The abrasive material degraded boots, seals, rover mechanisms, cameras, and locks. Hacker News discussion emphasized keeping suits outside habitats, while debating whether the smell came from freshly oxidizing dust rather than the Moon itself.
 
 ### Comment pulse
-- Smell explanation → Moon dust may contain highly reactive, long-unoxidized compounds that rapidly oxidize in cabin oxygen, producing “gunpowder” or “burnt metal/ozone” smells—counterpoint: people dispute how similar those odors are.  
-- Hardware nightmare → Apollo experience shows dust jamming latches, coating optics, and infiltrating cabins; commenters highlight suitports and keeping suits outside rovers, plus sintering regolith into solid surfaces to reduce loose dust.  
-- Off-world toxicity spectrum → Discussion widens to Mars perchlorates, high radiation, and chemically reactive anoxic regolith, with disagreement over whether skin contact vs ingestion is the real limiter for human colonies.
 
----
+- Apollo experience showed dust was an operational hazard as well as a health concern, freezing simple mechanisms and contaminating every spacecraft surface.
+- Suitports that leave spacesuits outside vehicles could reduce habitat exposure and may be essential for sustained lunar operations.
+- Commenters generalized the problem to Mars — counterpoint: they disputed perchlorate toxicity and whether ingestion, radiation, or dust exposure dominates risk.
 
 ### LLM perspective
-- View: Treat dust as a primary design driver; assume chronic exposure is harmful until long-duration biomedical data says otherwise.  
-- Impact: Spacesuit interfaces, airlocks, filtration, and cleaning systems will likely see more R&D investment than many “sexier” mission elements.  
-- Watch next: Artemis surface missions’ dust-monitoring experiments and medical follow-up will be key, along with better regolith simulants that capture sharpness and electrostatics.
+
+- **View:** Lunar dust control is habitat infrastructure, not housekeeping; prevention must precede uncertain long-term toxicology.
+- **Impact:** Astronaut health, seals, optics, mobility systems, and maintenance schedules all depend on isolating abrasive regolith.
+- **Watch next:** Chronic inhalation studies, realistic charged-dust simulants, suitport performance, filtration, exposure limits, and whether sintered regolith remains safe indoors.
