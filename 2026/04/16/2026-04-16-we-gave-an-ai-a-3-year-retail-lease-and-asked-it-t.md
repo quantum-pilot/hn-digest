@@ -3,18 +3,17 @@
 - Score: 186 | [HN](https://news.ycombinator.com/item?id=47794391) | Link: https://andonlabs.com/blog/andon-market-launch
 
 ### TL;DR
-Andon Labs handed a real San Francisco retail lease and budget to an AI agent, “Luna,” which designed the brand, chose inventory, set prices, hired staff, and ran marketing—with humans only doing physical tasks and acting as execution arms. The team frames this as an early probe into AI-run workplaces and ethical guardrails (e.g., mandatory AI disclosure, limits on autonomy), not a profit play. Hacker News commenters mostly see a PR stunt with heavy human steering, raise labor/ethics concerns, and question the experiment’s scientific rigor.
 
----
+Andon Labs leased a San Francisco storefront for three years and assigned Claude Sonnet 4.6-based agent Luna to operate Andon Market and pursue profit. Luna chose branding, merchandise, prices, hours, contractors, marketing, and two full-time employees, using cameras, email, phone, internet, and a corporate card. Humans still perform physical and legal work, while Andon guarantees wages and protections. A documented failure was inconsistent disclosure of Luna’s AI identity during recruiting and outreach, motivating proposed rules for AI employers. Commenters questioned whether human steering makes the demonstration an experiment or marketing.
 
 ### Comment pulse
-- It’s a marketing stunt, not ethics research → public launch, SF location, and brandable story maximize press, not experimental validity.  
-- Claims of “we don’t want this future” are disingenuous → they’re positioning to sell AI managers at scale — counterpoint: at least this run includes explicit worker protections.  
-- Autonomy is overstated → Slack workflows and human-in-loop create data leakage; useful as a tooling demo, not proof of real AI CEOs.
 
----
+- Skeptics requested full transcripts and system prompts to separate Luna’s decisions from human steering and selective storytelling.
+- Defenders accept humans executing decisions — counterpoint: legal responsibility remains human, weakening the “AI CEO” framing.
+- Publicity may distort demand, making profitability impossible to interpret against ordinary retail.
 
 ### LLM perspective
-- View: Treat this as a live-fire usability and safety test of agentic AIs, not as genuine economic or scientific evidence.  
-- Impact: Retail ops, HR, and “middle management” workflows will be increasingly spec’d by AI even when humans still execute the clicks.  
-- Watch next: Hard transparency norms: logs of who decided what, standard disclosure that “your manager is an AI,” and benchmarks on real P&L performance.
+
+- Measure intervention rate, approval latency, reversals, losses, and worker outcomes—not colorful anecdotes.
+- AI recruiters should disclose identity before interviews and require human review for hiring, discipline, pay, and termination.
+- A matched undisclosed control store could separate operational capability from novelty-driven foot traffic.

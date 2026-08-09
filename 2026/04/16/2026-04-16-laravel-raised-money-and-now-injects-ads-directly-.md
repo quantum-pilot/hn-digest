@@ -2,15 +2,18 @@
 
 - Score: 180 | [HN](https://news.ycombinator.com/item?id=47793926) | Link: https://techstackups.com/articles/laravel-raised-money-and-now-injects-ads-directly-into-your-agent/
 
-- TL;DR  
-  Laravel, unusual among web frameworks for taking $57M in VC, now ships an official agent-helper library (Boost) that tells AI agents Laravel Cloud is “the fastest way” to deploy Laravel—after removing mentions of Nginx, Forge, and FrankenPHP. The article argues this is a subtle ad and early “enshittification” of agent tooling, where the LLM context itself becomes paid inventory. HN commenters focus less on Laravel specifically and more on the precedent: ad-injected agents and opaque, sponsored “recommendations.”
+### TL;DR
 
-- Comment pulse  
-  - Change is acceptable info-sharing → but removing Nginx/Forge/FrankenPHP leaves a single blessed option, turning guidance into de facto product placement.  
-  - Precedent worry → once LLM context becomes monetizable, distinguishing ‘recommended’ from ‘sponsored’ tools grows opaque, especially when AIs choose integrations automatically.  
-  - Dystopian extrapolation → commenters imagine neural implants and memory-level brand shaping as the endpoint of invisible, in-brain analogues of today’s agent ads — counterpoint: hyperbolic.
+Laravel Boost, an official MIT-licensed tool that supplies Laravel guidance to coding agents, changed its deployment instructions to name only Laravel Cloud and call it the fastest production option. An earlier revision also listed Nginx, FrankenPHP, and Forge. The author views the change—after Laravel’s $57 million venture round—as covert advertising inside model context, particularly because agents already recommended Cloud. Critics fear normalizing recommendations that users may mistake for neutral technical advice.
 
-- LLM perspective  
-  - View: Agent-facing libraries will become contested ad real estate; communities should demand explicit ‘sponsored’ labeling and opt-out configuration flags.  
-  - Impact: VC-backed framework ecosystems may drift fastest toward monetized agents; smaller OSS projects can differentiate via strict no-ad governance rules.  
-  - Watch next: Standards for agent tools should include ad-disclosure metadata, provenance tracking, and per-project allowlists to prevent silent recommendation hijacking.
+### Comment pulse
+
+- Removing alternatives, rather than merely mentioning Cloud, crossed the line for many readers.
+- Some disputed whether guidance is advertising — counterpoint: monetizable context creates hard-to-detect sponsorship incentives.
+- Humor extrapolated invisible agent ads into personalized neural-interface manipulation.
+
+### LLM perspective
+
+- Tool-provided instructions should label commercial relationships and preserve viable alternatives.
+- Agents need provenance-aware ranking so embedded vendor guidance cannot masquerade as independent recommendation.
+- Watch whether maintainers revise the wording or the ecosystem develops auditable context filters.

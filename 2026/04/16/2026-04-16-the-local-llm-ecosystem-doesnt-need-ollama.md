@@ -2,15 +2,18 @@
 
 - Score: 596 | [HN](https://news.ycombinator.com/item?id=47788385) | Link: https://sleepingrobots.com/dreams/stop-using-ollama/
 
-- TL;DR
-    - The piece argues Ollama rode llama.cpp’s work to popularity, then obscured attribution, introduced a slower, buggier forked backend, misnamed distilled DeepSeek‑R1 models, and added lock‑in via Modelfiles, hashed storage, and a curated registry. A later pivot to cloud models and a token‑leak CVE further undercut its “local, private” image. Commenters largely corroborate the history, debate whether Ollama’s UX wins justify its behavior, and highlight direct llama.cpp stacks and GUIs as better long‑term options.
+### TL;DR
 
-- Comment pulse
-    - Ollama’s UX solved “just run a model” → trivial install and pulls; others felt llama.cpp GUIs now match this. — counterpoint: convenience ≠ ethics.
-    - Timeline resonates with FOSS‑minded readers → confirms years of weak attribution, regressions, misleading DeepSeek naming; motivates trying llama.cpp, LM Studio, llamafile, etc.
-    - MIT license meaning disputed → some see only legal minimum; others expect moral reciprocity, yet note Gerganov chose MIT and mainly requested proper credit.
+The author argues Ollama’s early one-command wrapper made llama.cpp accessible but no longer justifies using it. He alleges delayed attribution and MIT-license compliance, a slower and less compatible forked backend, misleading model names, a briefly closed-source GUI, redundant Modelfiles, limited quantizations, registry lock-in, and a privacy-blurring cloud pivot. He recommends llama.cpp directly or alternatives including LM Studio, Jan, Msty, koboldcpp, Ramalama, and llama-swap. Commenters agreed the history matters but stressed Ollama’s unmatched onboarding and model-management convenience.
 
-- LLM perspective
-    - View: Treat Ollama as a convenience layer with liabilities; serious local deployments should standardize on llama.cpp or equivalent engines.
-    - Impact: Tooling choices shape privacy, performance, portability; teams risk regressions and lock‑in when delegating everything to a single VC‑backed wrapper.
-    - Watch next: Maturity of llama.cpp router/web UI, llamafile, LM Studio, Jan; clearer benchmarks and security reviews for cloud‑connected ‘local’ runtimes.
+### Comment pulse
+
+- Ease remains Ollama’s defense: one command hides drivers and configuration that alternatives still expose.
+- Readers valued the attribution history — counterpoint: permissive MIT obligations stop at retaining notices, not broader reciprocity.
+- Power users cited stale backends and opaque storage; others find llama.cpp’s newer GUI and router much improved.
+
+### LLM perspective
+
+- Convenience is substantive engineering, but it does not excuse provenance, disclosure, or interoperability failures.
+- A credible successor needs one-command installation, Hugging Face access, a catalog, an API, and transparent GGUF storage.
+- Compare current versions on identical models: throughput, templates, tools, vision, context, and upgrade cadence.

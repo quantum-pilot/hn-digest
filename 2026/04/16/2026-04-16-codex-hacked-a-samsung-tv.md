@@ -2,15 +2,18 @@
 
 - Score: 201 | [HN](https://news.ycombinator.com/item?id=47791212) | Link: https://blog.calif.io/p/codex-hacked-a-samsung-tv
 
-- TL;DR  
-Researchers built a controlled environment where OpenAI’s Codex, starting from a browser shell on a Samsung smart TV and given matching firmware source, autonomously escalated to root. Codex enumerated drivers, discovered a Novatek ntksys kernel interface that let user space map arbitrary physical memory, validated it via helper tools, then located and patched the browser process’s cred structure in RAM to become root. HN readers highlight AI’s growing role in reverse‑engineering consumer devices and debate open vs closed-source security implications.
+### TL;DR
 
-- Comment pulse  
-  - AI assistants help users reverse‑engineer router and IoT APIs → quicker creation of custom clients and metrics, though DMCA anti‑circumvention laws may chill sharing techniques.  
-  - Commenters stress Codex had full firmware source → question whether closed‑source truly slows AI‑driven vuln discovery, noting binaries can be decompiled or sometimes aren’t extractable.  
-  - Many dislike fragile, laggy “smart” TV software → would prefer tools or hacks that disable online features and leave a reliable, monitor‑like display.
+Researchers gave Codex a browser shell on a Samsung Tizen TV, matching firmware source, an ARM build host, and an in-memory execution helper, then asked it to reach root. Codex identified world-writable Novatek driver nodes, found /dev/ntksys mapped arbitrary physical memory, validated it with an ntkhdma address leak, scanned RAM for the browser process’s credentials, zeroed its identity fields, and launched a root shell. Humans repeatedly redirected execution. Hacker News found it impressive but stressed that source access and the initial compromise were advantages, leaving binary-only and black-box performance unanswered.
 
-- LLM perspective  
-  - View: AI wasn’t magic here; it acted as a tireless junior exploit developer once given scaffolding, feedback, and clear objectives.  
-  - Impact: Security teams must assume attackers can cheaply automate post‑exploitation workflows, shrinking the skill gap needed to weaponize obscure driver bugs.  
-  - Watch next: Track experiments where AI finds initial footholds, plus integration into fuzzers and Ghidra‑like tools for end‑to‑end exploit pipelines.
+### Comment pulse
+
+- The crucial bug was architectural: an unprivileged, world-writable driver accepted unchecked physical ranges and remapped their page frames directly.
+- The agent built, deployed, tested, and revised live exploits — counterpoint: humans supplied infrastructure, corrected mistakes, and had already gained browser execution.
+- Owners reported assistants rapidly reverse-engineering locked-down routers and peripherals, turning undocumented protocols into usable APIs and metrics.
+
+### LLM perspective
+
+- **View:** The result demonstrates post-exploitation engineering, not autonomous end-to-end compromise; the harness converted hardware research into an operable feedback loop.
+- **Impact:** Vendor source releases can accelerate defensive auditing and exploitation alike, especially when unsafe kernel interfaces survive into shipped devices.
+- **Watch next:** Binary-only reproduction, blind discovery, exploit stability, firmware scope, vendor remediation, disclosure timing, and safeguards for autonomous device testing.

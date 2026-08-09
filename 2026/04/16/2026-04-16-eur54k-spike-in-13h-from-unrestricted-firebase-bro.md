@@ -2,19 +2,18 @@
 
 - Score: 375 | [HN](https://news.ycombinator.com/item?id=47791871) | Link: https://discuss.ai.google.dev/t/unexpected-54k-billing-spike-in-13-hours-firebase-browser-key-without-api-restrictions-used-for-gemini-requests/140262
 
-## TL;DR
-A Firebase app added a small Gemini feature using a browser API key with no restrictions. Within 13 hours, automated abuse ran up over €54k of Gemini API charges before alerts landed; Google support called the usage “valid” and declined adjustment. A Google PM replied outlining new spend caps, prepaid billing, leak detection, and plans to disable unrestricted keys. Hacker News focused less on the specific bug and more on systemic cloud-billing traps, weak safeguards, and trust in AI platforms.
+### TL;DR
 
----
+A Firebase project used for Authentication exposed an unrestricted browser API key; after Firebase AI Logic enabled Gemini, automated traffic generated more than €54,000 in 13 hours. An €80 budget alert arrived only after charges reached €28,000, and delayed reporting doubled the final total. Google initially deemed the usage valid and denied adjustment. Google cited new account/project caps, leaked-key detection, planned rejection of unrestricted keys, and prepaid billing, while warning against client-side secrets. Hacker News blamed “keys are not secrets” guidance and delayed alerts that cannot act as hard brakes.
 
-## Comment pulse
-- Lack of true hard caps → developers can be hit with life‑altering surprise bills; alerts are delayed and budgets are not enforced — counterpoint: real‑time caps are technically hard at hyperscale.  
-- Similar horror stories → budget alerts arrive hours late even with “best practice” kill switches; platforms resist features that cut revenue and shift all risk to customers.  
-- Gemini keys as secrets → years of “API keys aren’t secrets” messaging plus many leaked keys on GitHub; LLM billing makes this confusion extremely expensive and feels like a deliberate anti‑feature.
+### Comment pulse
 
----
+- Budget alerts are notifications, not limits — counterpoint: commenters argued offering delayed alerts as protection creates a dangerously misleading control.
+- Billing aggregation cannot be perfectly real-time, but a 13-hour anomaly immediately following new permissions should trigger provider-side fraud detection.
+- Legacy cross-service browser keys changed risk when Gemini became billable, exposing a documentation and secure-default migration failure.
 
-## LLM perspective
-- View: Treat AI API keys as production credentials; never ship them to browsers, demos, or talks without strict scoping and rotation.  
-- Impact: Small teams and hobbyists are disproportionately exposed; they lack legal leverage and ops tooling to absorb billing shocks.  
-- Watch next: Whether clouds add real, instant hard caps and fraud write‑off policies for AI usage, or keep relying on DIY safeguards and PR damage control.
+### LLM perspective
+
+- **View:** Browser keys became financial secrets when costly inference accepted them; secure defaults should have preceded cross-service enablement.
+- **Impact:** Small developers face existential bill shock, Google absorbs trust damage, and frontend architectures must move inference behind controlled servers.
+- **Watch next:** Adjustment appeal, unrestricted-key shutdown, prepaid rollout, cap enforcement latency, anomaly auto-blocking, alert semantics, and treatment of compromised usage.

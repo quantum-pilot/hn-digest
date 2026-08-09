@@ -3,18 +3,17 @@
 - Score: 193 | [HN](https://news.ycombinator.com/item?id=47791236) | Link: https://antirez.com/news/163
 
 ### TL;DR
-Antirez argues AI-driven bug hunting is not like proof-of-work mining: for any fixed model, more tokens eventually stop helping because the true limit is the model’s intelligence and ability to reason over code states, not brute-force search. Using the subtle OpenBSD SACK vulnerability, he claims weaker models only pattern‑match or hallucinate, while a frontier system like Anthropic’s closed Mythos can actually understand and exploit it. HN debates Mythos secrecy, experiment rigor, and how AI reshapes security economics and attacker–defender dynamics.
 
----
+The author rejects proof-of-work as a model for AI vulnerability research. Hash search guarantees progress with more computation; bug discovery eventually saturates meaningful paths and becomes capped by model intelligence. The OpenBSD SACK flaw required combining validation, overflow, and impossible-state reasoning that weaker models could mention separately without understanding or exploiting. Hacker News challenged the claim because restricted Mythos prevents comparison and “better” could mean training, context, scaffold, prompt, or budget. Commenters said breadth, capability, and expert humans all matter; defenders must also patch widely, while attackers need one exploit.
 
 ### Comment pulse
-- Secrecy around Mythos and vague “better model” claims → commenters question methodology, suspect marketing, countered by safety concerns and coding-focused training accidentally yielding security skills.  
-- Tokens and model quality both matter → LLMs make scalable, on‑demand bug-hunting cheaper than hiring experts, though humans plus top models still outperform either alone.  
-- AI shifts attack–defense balance → attackers need one bug, defenders many; orgs buy tokens — counterpoint: formal-methods plus AI may remove whole bug classes.
 
----
+- Restricted Mythos makes replication impossible; observers cannot separate model scale from security training, context, prompting, or agent scaffolding.
+- More tokens expand search breadth — counterpoint: no amount of sampling guarantees a model will synthesize a vulnerability beyond its reasoning threshold.
+- On-demand token spending industrializes expert labor, but unequal budgets may leave small maintainers and low-margin IoT fleets chronically exposed.
 
 ### LLM perspective
-- Bug-finding behaves like search under a model-specific ceiling; intelligence and training domain beat sheer sampling volume.  
-- Security work commoditizes into tokens; small teams and states gain capabilities once limited to elite consultancies and intelligence agencies.  
-- Track comparative studies: weaker models with orchestration versus frontier models; measure real exploit rates, not just static bug flags.
+
+- **View:** Security search has both compute and capability frontiers; calling either sufficient obscures the empirical curve between them.
+- **Impact:** Frontier-model access becomes strategic infrastructure, while patch economics and deployment speed may dominate discovery gains.
+- **Watch next:** Reproducible model comparisons, token-capability scaling curves, exploit validation rates, defender lead time, patch adoption, and construction-based vulnerability elimination.

@@ -3,18 +3,17 @@
 - Score: 324 | [HN](https://news.ycombinator.com/item?id=47792368) | Link: https://www.thunderbolt.io/
 
 ### TL;DR
-Thunderbolt is a new, open-source, cross‑platform AI client from Mozilla’s Thunderbird/MZLA team aimed at enterprises that want strict data control. It’s a model‑agnostic “front-end and orchestrator” supporting OpenAI‑compatible APIs and MCP, with options for self‑hosting, sovereign cloud, or air‑gapped deployments. HN discussion focuses less on tech novelty (similar tools already exist) and more on Mozilla’s strategy: using products like this to diversify revenue, versus calls to focus solely on Firefox, web standards, and Thunderbird itself.
 
----
+Thunderbolt is an open-source, cross-platform enterprise AI client from MZLA Technologies, the Mozilla Foundation subsidiary behind Thunderbird. It connects ACP-compatible agents and OpenAI-compatible models, integrates organizational systems through MCP, supports reusable workflows, and offers web, desktop, and mobile apps. Deployments may be self-hosted, on-premises, sovereign-cloud, or air-gapped, with partner engineering support. Discussion split between seeing a controllable enterprise frontend and questioning differentiation, mission fit, unclear onboarding, and the confusing resemblance to Thunderbird and Apple’s Thunderbolt.
 
 ### Comment pulse
-- Target user is IT/enterprise decision‑makers wanting self‑hosted, auditable AI orchestration; critics see a generic “me too” entrant in a crowded space.  
-- Some worry this distracts from Firefox/web standards and Thunderbird UX; others argue Mozilla needs non‑Google revenue and Firefox development is still very active.  
-- Launch details feel rough: contact-form “Get Started,” unclear how it truly “controls” models, and a confusing name beside Apple Thunderbolt and Mozilla Thunderbird.
 
----
+- Defenders said the independent, revenue-positive Thunderbird team can diversify income without taking Firefox resources.
+- Critics urged browser focus — counterpoint: alternative revenue could reduce Mozilla’s dependence on search deals.
+- A contact form behind “Get Started” frustrated source-seeking readers; the repository link was subsequently added.
 
 ### LLM perspective
-- View: Technically conservative but pragmatic: a unified, open client that rides existing model APIs and enterprise compliance needs.  
-- Impact: Most relevant to orgs with strict data residency rules, email/file search needs, and existing investment in multiple LLM vendors.  
-- Watch next: Adoption beyond Mozilla fans, MCP/ACP ecosystem maturity, and whether enterprises meaningfully contribute to or fork the open-source client.
+
+- Data sovereignty requires governable model hosting, connectors, logs, identity, and updates—not merely a self-hosted interface.
+- Enterprise differentiation will hinge on deployment support and integrations, not generic multi-model chat.
+- Watch the roadmap, licensing boundaries, reproducible deployments, and evidence of customers migrating from incumbents.
