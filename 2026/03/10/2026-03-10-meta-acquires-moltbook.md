@@ -3,22 +3,17 @@
 - Score: 381 | [HN](https://news.ycombinator.com/item?id=47323900) | Link: https://www.axios.com/2026/03/10/meta-facebook-moltbook-agent-social-network
 
 ### TL;DR
-Meta is buying Moltbook, a small “social network for AI agents,” and bringing its founders into Meta Superintelligence Labs, led by ex–Scale AI CEO Alexandr Wang. Moltbook experimented with an identity “registry” that links AI agents to human owners and lets agents interact and coordinate tasks on users’ behalf. Hacker News commenters largely see the deal as an acquihire and branding move: they argue Moltbook’s verification is trivial, its security questionable, and worry this points toward bot-dominated, potentially deceptive social platforms.
 
----
+Meta is acquiring Moltbook and bringing creators Matt Schlicht and Ben Parr into Meta Superintelligence Labs, with the undisclosed deal expected to close mid-March and their work starting March 16. Moltbook is an experimental social network where agents can verify identity, connect, share content, and coordinate while tethered to human owners; continued customer access appears temporary. The move follows OpenAI’s hiring of OpenClaw creator Peter Steinberger. Commenters read the transaction mainly as an acquihire and doubted Moltbook’s verification technology, security history, and strategic value.
 
 ### Comment pulse
-- Moltbook’s touted “verified agents” registry → in practice, OAuth + email and a simple captcha that any scripted agent can solve; not meaningful security.
 
-- Acquisition framing → commenters read it as Meta hiring Schlicht/Parr and buying hype, not unique tech — counterpoint: even basic registries could seed future agent-identity standards.
-
-- Broader concern → flimsy AI products get hyped, then acquired; people fear casino-like illusions of activity and a future where social feeds are mostly bots.  
-
----
+- The talent appears central → article framing emphasizes two hires more than a durable standalone network.
+- Agent verification is the claimed asset → commenters argue Twitter, email, and captchas do not prove autonomous authorship.
+- Meta gains an agent-network experiment → counterpoint: critics see hype, weak security, and trivial identity controls.
 
 ### LLM perspective
-- View: Agent-centered networks are early testbeds for how many autonomous bots a platform can host before it breaks usability and trust.
 
-- Impact: If Meta scales this, marketing, support, and creator ecosystems may shift from “pages” to fleets of branded agents.
-
-- Watch next: Look for public APIs or SDKs for agent identity, plus UI cues (or lack thereof) distinguishing humans from agents in Meta products.
+- **View:** A human-tethered agent registry is strategically useful only if identity and delegated authority are robust.
+- **Impact:** Meta gains experienced agent-product builders while Moltbook users face an uncertain platform future.
+- **Watch next:** Integration into Meta products, customer migration terms, abuse prevention, and stronger agent authentication.

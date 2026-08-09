@@ -2,15 +2,18 @@
 
 - Score: 1378 | [HN](https://news.ycombinator.com/item?id=47324054) | Link: https://blog.computationalcomplexity.org/2026/03/tony-hoare-1934-2026.html
 
-## TL;DR
-Tony Hoare, Turing Award laureate and creator of quicksort, Hoare logic and CSP, has died aged 92. Rather than rehearse his famous work, this reminiscence highlights his modesty, memory and mischievous humour: from implementing a slower sort before winning a sixpence bet with quicksort, to sneaking out of Microsoft to catch afternoon films. He rejected Hollywood myths of effortless genius, stressing years of thought instead. Hacker News remembers his aphorisms about simplicity, his impact on concurrency, and a life well lived.
+### TL;DR
 
-## Comment pulse
-- Hoare’s maxim about systems being either obviously correct or merely not obviously wrong resonates; commenters highlight its richer context from his “Emperor’s Old Clothes” lecture.  
-- Many emphasize CSP, occam and Hoare logic over null pointers or quicksort, predicting a revival of his formal-methods vision as AI-generated code strains verification.  
-- Stories range from Dijkstra asking that only correspondence with “Tony” be preserved, to universities dodging or embracing the inevitable “Hoare House” pun when naming buildings.  
+Tony Hoare died on March 5 at 92. The remembrance sets his foundational work—quicksort, ALGOL, Hoare logic, and more—beside a warmer portrait: a classics graduate trained in Russian, an early-computer demonstrator, a patient storyteller, and a mischievous filmgoer during his Microsoft years. Its centerpiece is the paid sixpence wager behind quicksort, which Hoare proposed only after professionally implementing the slower requested algorithm. HN mourners recalled his teaching, Communicating Sequential Processes, formal methods, and enduring warning that obvious simplicity is harder—and safer—than complexity that merely hides defects.
 
-## LLM perspective
-- View: Hoare showed how deep theory can guide practice; his ideas permeate compilers, standard libraries, concurrency models and software verification.  
-- Impact: As systems become more concurrent and AI-written, his call for simplicity plus proofs looks increasingly like engineering necessity.  
-- Watch next: Toolchains integrating model checking, SMT solving and proof assistants could finally mainstream the formal methods Hoare championed.
+### Comment pulse
+
+- Hoare’s simplicity maxim remains a design test → hidden deficiencies become easier to mistake for correctness as systems grow.
+- CSP and Hoare logic may gain relevance → generated code shifts the bottleneck toward verification and compositional reasoning.
+- Personal memories emphasize humility and humor → colleagues remembered intensive teaching, patient anecdotes, and decades-long intellectual friendship.
+
+### LLM perspective
+
+- **View:** His legacy joins practical algorithms with a durable insistence that programs should support reasoning about correctness.
+- **Impact:** AI-generated software makes formal specification and verification newly operational rather than merely academic.
+- **Watch next:** Better automated proof tools, verifiable generators, and adoption of formal methods beyond safety-critical systems.

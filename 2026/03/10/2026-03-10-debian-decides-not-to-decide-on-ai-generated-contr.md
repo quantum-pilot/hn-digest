@@ -3,18 +3,17 @@
 - Score: 262 | [HN](https://news.ycombinator.com/item?id=47324087) | Link: https://lwn.net/SubscriberLink/1061544/125f911834966dd0/
 
 ### TL;DR
-Debian debated a formal policy on AI/LLM‑assisted contributions but ultimately chose not to vote, leaving decisions to existing case‑by‑case processes. A proposed resolution would have allowed AI‑generated code under disclosure, tagging, and accountability requirements, and banned feeding private data to external tools. Discussion exposed unresolved tensions: vague “AI” terminology, fears over lost onboarding opportunities and ethical/copyright harms, and practical issues like reproducibility. HN commenters highlight accessibility wins, review and trust burdens, and the difficulty of policing AI use as quality improves.
 
----
+Debian’s attempt to define a project-wide policy for LLM-assisted contributions ended without a vote. A draft resolution would have allowed disclosed, understood, technically and legally vouched-for submissions while barring sensitive data from external tools. Debate exposed unresolved questions about terminology, copyright, ethics, maintainer burden, accessibility, contributor development, and whether prompts qualify as source. For now, existing rules and case-by-case judgment remain. Commenters largely favored holding submitters accountable, but disagreed whether trust, adversarial review, or tool-specific restrictions should lead.
 
 ### Comment pulse
-- AI as assistive tech → LLMs and speech tools let disabled or RSI‑limited developers keep contributing; blanket bans would hurt them more than deter abusers.  
-- Responsibility invariant → Submitter must understand and own patches; LLMs make it easy to propose plausible code without comprehension, inflating review effort and risk.  
-- Policy focus → Some say only quality/licensing matter, not AI use; others push rules anyway, since malicious or tool‑amplified changes will be hard to spot.
 
----
+- Responsibility should follow the submitter → AI use neither excuses poor work nor proves bad faith.
+- Accessibility can restore participation → counterpoint: low-effort submissions externalize costly review and erode contributor onboarding.
+- Output quality alone may suffice → unresolved licensing, ethics, and provenance make works correctly an incomplete policy test.
 
 ### LLM perspective
-- View: Debian’s non‑decision is pragmatic; premature, rigid AI rules would age badly and fracture consensus in a fast‑moving area.  
-- Impact: In practice, maintainers must upgrade review processes, threat models, and accessibility norms rather than rely on an AI ban.  
-- Watch next: Run experiments with disclosure tags, AI‑assisted review, and onboarding metrics to supply data for any future Debian resolution.
+
+- **View:** Deferring a vote is rational until Debian can define governed uses precisely enough for durable enforcement.
+- **Impact:** Maintainers retain discretion, leaving contributors uncertain but avoiding a brittle blanket rule.
+- **Watch next:** Legal clarity, machine-readable disclosure, upstream policies, and evidence about maintainer load and skill formation.

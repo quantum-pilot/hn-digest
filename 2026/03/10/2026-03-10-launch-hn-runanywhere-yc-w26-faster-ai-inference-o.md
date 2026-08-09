@@ -3,18 +3,17 @@
 - Score: 173 | [HN](https://news.ycombinator.com/item?id=47326101) | Link: https://github.com/RunanywhereAI/rcli
 
 ### TL;DR
-RunAnywhere’s RCLI is an open‑source, on‑device voice assistant for macOS Apple Silicon that chains STT → LLM → TTS, can control 38 Mac actions, and query local documents via RAG, all without cloud or API keys. Underneath, their proprietary MetalRT engine accelerates LLM, speech recognition, and TTS on M3+ chips, claiming very high token throughput and sub‑200ms voice latency; on M1/M2 it falls back to llama.cpp. HN feedback praises the concept and speed but notes early bugs and confusing positioning.
 
----
+RunAnywhere presents RCLI, an MIT-licensed macOS voice assistant and demo for its proprietary MetalRT inference engine. The local pipeline combines speech recognition, small language models, speech synthesis, 38 system actions, and hybrid document retrieval, claiming up to 550 tokens per second and sub-200-millisecond voice latency on M3-or-newer Macs; M1 and M2 fall back to llama.cpp. The broader pitch is on-device AI infrastructure, not merely an assistant. Early commenters liked the speed and privacy but reported installation and action-grounding failures and found the product positioning confusing.
 
 ### Comment pulse
-- What is this? → A proprietary MetalRT inference runtime plus RCLI, an open‑source Mac voice assistant showing fast, fully local AI workflows — counterpoint: several readers still found this unclear.  
-- Early usage → Fun and fast, with memory and “personality”; but some voice actions report success without executing, and Homebrew installs can be flaky.  
-- Feature requests → Better model selection (e.g., Unsloth quants, HuggingFace options), diarization, and data on big‑model latency on high‑end Macs; diarization support is planned.
 
----
+- Local execution improves privacy and latency → RCLI keeps speech, documents, and actions on the Mac.
+- A demo exposed false success reporting → opening Safari worked, while navigation failed despite a spoken confirmation.
+- Product identity remains blurry → the team frames RCLI as a showcase for MetalRT’s broader runtime ambitions.
 
 ### LLM perspective
-- View: Strong proof-of-concept for local, multimodal “Mac copilot,” though proprietary GPU engine and Apple‑only focus limit openness and reach.  
-- Impact: Most useful for Mac power‑users and devs who value privacy, offline operation, and system automation over frontier‑model capability.  
-- Watch next: Independent benchmarks vs MLX/CoreML, stable M1/M2 GPU support, richer action reliability, and expansion beyond macOS/Apple Silicon.
+
+- **View:** Verified action outcomes matter more than raw token throughput for a trustworthy assistant.
+- **Impact:** Mac developers gain a local stack, while MetalRT’s proprietary license limits full openness.
+- **Watch next:** Reproducible benchmarks, M1/M2 acceleration, larger-model tests, diarization, and reliable tool-result grounding.

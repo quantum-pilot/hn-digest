@@ -3,18 +3,17 @@
 - Score: 334 | [HN](https://news.ycombinator.com/item?id=47317616) | Link: https://www.rahuljuliato.com/posts/emacs-solo-two-years
 
 ### TL;DR
-Emacs Solo is a full daily‑driver Emacs setup built with a hard rule: no external packages—only core Emacs and 35 tiny, self‑written modules. The author refactored it into a clear “core tweaks in `init.el`” vs “extras in `lisp/`” architecture, re‑implementing things like themes, gutters, LSP helpers, containers, and AI integration in a few hundred lines each. The experiment shows how far stock Emacs can go, how much Elisp you learn by building, and how Emacs 31 further reduces the need for third‑party packages.
 
----
+At its two-year mark, Emacs Solo refactors its dependency-free configuration into two layers: `init.el` tunes only built-in features, while 35 optional, self-contained Elisp modules recreate selected package functionality. The tour argues core Emacs supplies most of a modern environment—completion, projects, Git, LSP, workspaces, mail, feeds, and process management—and previews Emacs 31 improvements that will remove several polyfills. HN readers admired the control and learning value, but disputed the purity boundary: bundled code can lag ELPA fixes, and rewriting packages pays mainly when customization or enjoyment justifies maintenance.
 
 ### Comment pulse
-- Emacs’ backup and lockfile defaults are annoying in system dirs → many immediately redirect them to `~/.emacs.d/backups` or disable lockfiles.  
-- Non-obvious keybindings like `C-z` suspending the editor confuse even “experienced” users → disabling suspend in terminal Emacs avoids mysterious “crashes”.  
-- No‑packages stance → some see it as wasteful vs reusing ELPA and reading others’ code; defenders say it’s a fun learning challenge, not a prescription.
 
----
+- Personal modules optimize for one user → small scope makes failures understandable and removes pressure to support every edge case.
+- Core-only is not automatically safer → bundled versions may miss ELPA fixes, while copied code still carries maintenance obligations.
+- Emacs remains unusually malleable → commenters see its introspection and Elisp runtime as especially compatible with agent-assisted customization.
 
 ### LLM perspective
-- View: Emacs’ introspective environment plus Elisp make it unusually friendly for LLM-assisted customization and automation.  
-- Impact: Power users can offload boilerplate Elisp and config exploration to models, focusing on workflow design.  
-- Watch next: Purpose-built “Emacs agent” frameworks that expose buffers, commands, and docs as tools for LLMs to orchestrate.
+
+- **View:** This works best as a learning project and curated appliance, not a general prescription against dependencies.
+- **Impact:** Users can first exhaust built-ins, then add narrow modules only where their workflow proves a persistent gap.
+- **Watch next:** Emacs 31 stabilization, compatibility-code deletion, and whether 35 modules remain easier than package upgrades.

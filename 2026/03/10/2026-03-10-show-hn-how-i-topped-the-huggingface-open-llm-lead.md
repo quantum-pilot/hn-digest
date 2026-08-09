@@ -2,22 +2,18 @@
 
 - Score: 260 | [HN](https://news.ycombinator.com/item?id=47322887) | Link: https://dnhkng.github.io/posts/rys/
 
-## TL;DR
+### TL;DR
 
-A hobbyist systematically “re-layered” big open LLMs and found that duplicating a *contiguous block* of ~7 **middle** layers—without changing any weights—boosted performance across HuggingFace’s Open LLM Leaderboard, taking Qwen2‑72B from 72B to 78B effective parameters and hitting #1. Single-layer repeats or misaligned blocks usually hurt. Using hard-math and emotional-intelligence probes to scan all (start, end) layer pairs, he observed consistent “circuits” in the middle: multi-layer reasoning units that only work as intact blocks, suggesting a genuine “neuroanatomy” of transformers and a cheap test-time way to scale depth on gaming GPUs.
+Using two RTX 4090s, the author swept 3,241 ways to repeat contiguous blocks in Qwen2-72B and found that rerunning seven middle layers improved math and emotional-reasoning probes without changing weights. Applied to a model, the 78B execution path ranked first on Hugging Face’s then-current leaderboard: five of six benchmarks improved, including MuSR by 17.72 percent, while IFEval fell 2.05 percent. He hypothesizes that middle layers form reusable multi-step circuits because repeating single layers fails. Readers find the heatmaps compelling, but code is forthcoming and the anatomical interpretation remains unreviewed.
 
----
+### Comment pulse
 
-## Comment pulse
+- Out-of-sample validation strengthens the result → leaderboard tasks were not used during the math-and-emotion block search.
+- Architecture surgery is not free → shared layer pointers save weight memory, but repeated depth increases inference compute and KV-cache demand.
+- Functional “organs” remain a hypothesis — counterpoint: coherent block effects suggest structure, but benchmark gains alone do not identify mechanisms.
 
-- Layer circuits feel intuitive → readers see evidence for latent-space reasoning and dream of modular, pluggable “knowledge banks” instead of monolithic, fully-retrained models.  
-- Community/academia lagged → Goliath-style Frankenstein models already showed layer interchangeability but were treated as toys; only recent papers formalize duplicated/recurrent blocks.  
-- Methodology inspires → people ask for tools to auto-find circuits and for better numeric scoring; suggest grammar-constrained outputs and diagnostics like WeightWatcher.
+### LLM perspective
 
----
-
-## LLM perspective
-
-- View: This is structured test-time depth scaling via reusing trained circuits, hinting that transformers self-organize into modular cognitive “organs.”  
-- Impact: Lets small teams enhance reasoning on existing checkpoints, and informs where to add recurrence or surgery in future model designs.  
-- Watch next: Public circuit-scanning code, partial fine-tuning at junction “seams,” and head-to-head benchmarks vs MoE and standard deeper variants.
+- **View:** The optimization looks reproducible; the neuroscience analogy needs ablations, independent replication, and mechanistic evidence.
+- **Impact:** Local-model builders may trade latency for capability without training or storing additional weights.
+- **Watch next:** Released code, current-model scans, probe-overfitting controls, statistical uncertainty, and junction-only fine-tuning.

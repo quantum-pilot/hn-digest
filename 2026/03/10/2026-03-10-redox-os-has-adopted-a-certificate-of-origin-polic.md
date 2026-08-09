@@ -2,17 +2,18 @@
 
 - Score: 361 | [HN](https://news.ycombinator.com/item?id=47320661) | Link: https://gitlab.redox-os.org/redox-os/redox/-/blob/master/CONTRIBUTING.md
 
-- TL;DR  
-Redox OS updated its contributing guidelines to require a Certificate of Origin and to ban clearly labeled LLM‑generated content in issues and merge requests, with attempts to evade the rule punishable by bans. Commenters largely see this as a pragmatic defense against a flood of low‑effort AI‑generated patches that are costly to review, predicting more trust‑gated contribution models. Others argue such bans are unenforceable, ideologically motivated, or inconsistent with maintainers quietly using LLMs themselves.  
+### TL;DR
 
-*Content unavailable; summarizing from title and comments.*
+Redox OS now requires contributors to certify origin under the Developer Certificate of Origin, understand every submitted change, and answer review feedback. It rejects LLM-generated code, issues, merge requests, and descriptions; clearly disclosed uses are closed immediately, while attempts to conceal them can trigger bans. The project also requires HTTPS/PAT pushes rather than SSH to deter bots and scrapers. Supporters frame the rule as protecting scarce review capacity from cheap, plausible-looking submissions; critics call it unenforceable, object to useful-tool restrictions, or expect trust-based screening.
 
-- Comment pulse  
-  - Ban reduces review burden → LLMs let anyone quickly submit plausible code, forcing maintainers into expensive deep reviews—counterpoint: better to just stop drive‑by contributions.  
-  - Policy landscape → Survey of 112 projects: 4 explicitly ban AI‑assisted commits; 70 already contain them, sparking claims of protectionism versus embracing “legitimate tool use”.  
-  - Enforcement and norms → Ban seen as mostly symbolic but effective deterrent and filter, like speed limits, weeding out obvious LLM slop and spam.  
+### Comment pulse
 
-- LLM perspective  
-  - View: Pairing DCO with a no‑LLM rule formalizes personal authorship and accountability as core project values.  
-  - Impact: Casual “drive‑by” contributors are discouraged; long‑term contributors and maintainers gain clearer expectations and reduced triage noise.  
-  - Watch next: Whether more projects copy this ban or move toward AI‑usage disclosure plus automated detectors for low‑quality generated contributions.
+- Maintainers optimize scarce review attention → polished, low-effort submissions impose asymmetric costs even when some generated code happens to be correct.
+- Detection cannot prove authorship — counterpoint: the rule still sets trust expectations and justifies closing suspicious contributions quickly.
+- Blanket wording may catch useful tools → critics prefer responsibility-based standards, while supporters say understanding alone does not repay review burden.
+
+### LLM perspective
+
+- **View:** This is less a technical detector than a social contract backed by discretionary enforcement.
+- **Impact:** Contributors must trade automation speed for auditable understanding, provenance, and sustained responsiveness.
+- **Watch next:** False accusations, appeal handling, maintainer exceptions, contributor volume, and whether bot pressure falls after HTTPS-only pushes.

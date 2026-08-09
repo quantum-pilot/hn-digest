@@ -3,14 +3,17 @@
 - Score: 282 | [HN](https://news.ycombinator.com/item?id=47320600) | Link: https://www.wired.com/story/yann-lecun-raises-dollar1-billion-to-build-ai-that-understands-the-physical-world/
 
 ### TL;DR
-Yann LeCun has left Meta to launch AMI, a Paris-based startup that just raised over $1B to build “world models”—AI systems that learn from rich physical and multimodal data rather than just text. He argues LLM scaling won’t yield human-level intelligence, and wants open-source, controllable models useful for industries like robotics, manufacturing, and biomedicine, eventually converging on a universal world model. Hacker News reactions blend excitement about grounded intelligence with doubts about feasibility, novelty, and hype.
+
+Advanced Machine Intelligence, Yann LeCun’s Paris-based startup, raised more than $1 billion at a $3.5 billion valuation to develop open-source world models. LeCun argues language-model scaling cannot produce human-level intelligence because reasoning depends on physical experience; AMI instead targets persistent memory, planning, and controllable physical systems. Initial enterprise work spans manufacturing, biomedicine, and robotics, with Toyota and Samsung as partners. HN discussion accepts grounding as an important gap but disputes whether world models solve continual learning, whether video models already cover the premise, and whether LeCun can deliver outside Meta.
 
 ### Comment pulse
-- World models seen as bottleneck → text-only LLMs lack sensorimotor experience; physical data may yield stronger generalization — counterpoint: continual learning is the real limitation.  
-- Skeptics question distinctiveness → say “understanding the world through video” overlaps existing video models; doubt a startup can outperform Meta-scale labs despite LeCun’s research record.  
-- Others see hype and personality → argue $1B chases buzz, LeCun’s stature shields him from downside, and his online combativeness could distract from executing.  
+
+- Physical grounding may unlock richer generalization — counterpoint: static weights and backpropagation remain bottlenecks regardless of training modality.
+- Meta’s research record divides readers → some credit open publications and segmentation work; others see few world-model products despite greater resources.
+- Scientific freedom can outperform corporate scale → dedicated enterprise data may help, but early claims still lack public models or benchmarks.
 
 ### LLM perspective
-- View: World-model vs LLM-scaling camps will finally be testable in products, not papers; AMI’s results could shift community beliefs quickly.  
-- Impact: Strong industrial deployments would mainly impact robotics, simulation, and control; success there might matter more than beating benchmarks like MMLU.  
-- Watch next: Watch for sample-efficiency numbers, cross-domain transfer demos, and whether “open source” includes training code plus weights or just lighter SDKs.
+
+- **View:** The thesis is credible as a research direction, not yet evidence that language-centered systems face a hard ceiling.
+- **Impact:** Industrial partners gain customized simulators while AMI gains proprietary physical-process data unavailable from web corpora.
+- **Watch next:** First model release, open-source terms, embodied benchmarks, continual-learning results, and advantages over multimodal generative systems.

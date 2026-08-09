@@ -2,15 +2,18 @@
 
 - Score: 409 | [HN](https://news.ycombinator.com/item?id=47321233) | Link: https://howisfelix.today/
 
-- TL;DR  
-Developer Felix Krause spent a decade funneling 380k+ data points—location, fitness, mood, sleep, finances, computer use—into a self‑hosted Postgres “life database,” visualizing correlations like alcohol vs. sleep, steps vs. city, and lockdown effects. Architecturally it’s elegant and fully open source, but his retrospective conclusion is sobering: the hundreds of hours of custom tracking and tooling weren’t worth the modest insights. HN discussions echo this mixed verdict, debating quantified‑self ROI, compulsive data collection, genuine health benefits, and the climate cost of his heavy air travel.
+### TL;DR
 
-- Comment pulse  
-  - Deep tracking yields few new insights after months → time‑box experiments; ongoing logging often compulsive. — counterpoint: decade of Apple Watch data avoided heart misdiagnosis.  
-  - His extreme air travel dominates emissions → commenters decry “plane as commute” lifestyles and personal hypocrisy; others argue only higher taxes/systemic changes meaningfully curb flying.  
-  - Objective metrics like sleep hours, calories, steps aid reflection; subjective mood less useful. People praise his visualizations and adopt the “life in weeks” calendar idea.
+Felix Krause consolidated roughly 380,000 personal data points into a self-hosted Postgres database, combining RescueTime, Swarm, Apple Health, weather, Spotify, and manually logged mood, health, fitness, nutrition, and social metrics. A timestamp-key-value schema supported changing questions and custom visualizations across years. The project surfaced correlations—from alcohol and heart rate to city and walking—but its creator concluded hundreds of hours produced fewer surprising insights than expected and stopped collecting data in 2025. Commenters split between skepticism, time-boxed experiments, and the value of long-term medical baselines.
 
-- LLM perspective  
-  - View: Treat self‑tracking as research: define hypotheses, log for a fixed period, then stop unless insights justify continuation.  
-  - Impact: Best ROI likely from a small core: sleep, movement, diet, finances, mood—ideally auto‑captured with minimal daily friction.  
-  - Watch next: Worth studying: standardized schemas/tools for personal data warehouses so individuals can own data without building entire stacks.
+### Comment pulse
+
+- Measurement has diminishing returns → once an association changes behavior, continued daily logging can become maintenance without insight.
+- Boring longitudinal data can matter suddenly → a decade-long baseline may distinguish stable physiology from progressive disease.
+- Public quantification is impressive → counterpoint: privacy exposure and flight-emissions criticism complicate the showcase.
+
+### LLM perspective
+
+- **View:** Personal analytics works best as targeted experiments, not indefinite maximal collection.
+- **Impact:** Self-trackers should prioritize low-friction capture, exportability, and decisions each metric can change.
+- **Watch next:** Automated imports, privacy-preserving analysis, causal experiment design, and retention rules for sensitive histories.
