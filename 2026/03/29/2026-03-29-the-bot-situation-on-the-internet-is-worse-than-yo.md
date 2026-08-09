@@ -3,14 +3,17 @@
 - Score: 193 | [HN](https://news.ycombinator.com/item?id=47564469) | Link: https://gladeart.com/blog/the-bot-situation-on-the-internet-is-actually-worse-than-you-could-imagine-heres-why
 
 ### TL;DR
-Glade Art runs “tar pit” pages to lure and measure scrapers and saw 6.8M hits in 55 days, mostly from residential/mobile IPs in Asia that ignore robots.txt and don’t run JavaScript. A trivial proof‑of‑work (Anubis) gate cut traffic from hundreds of thousands of requests per day to almost none, implying large‑scale scrapers still avoid JS/PoW. HN discussion focuses on whether this is merely noise or an economic threat, AI/big‑tech scraping tactics, and PoW’s UX/security trade‑offs.
+
+Glade Art reports 6.8 million requests to a robots.txt-disallowed text tar pit over 55 days, mostly from residential or mobile addresses rather than data centers. The operators infer large-scale AI scraping, but cannot identify who runs it; their estimate that bots may exceed 70% of web traffic is explicitly speculative. A lowest-difficulty Anubis proof-of-work challenge repeatedly cut hundreds of thousands of daily hits to roughly 11. HN operators corroborated distributed residential scraping, while warning that request volume alone may be harmless when cached and challenges can punish legitimate visitors.
 
 ### Comment pulse
-- Many sites see millions of scraper hits yet barely notice load; question if volume alone matters — counterpoint: data‑licensing costs make scraping economically damaging.  
-- Publishers paying to license data say AI/LLM scrapers free‑ride, eroding ad/subscription revenue and potentially collapsing the information sources models depend on.  
-- PoW tools like Anubis can almost eliminate bots, but also frustrate humans on slow devices and may be bypassable via whitelisted clients or better‑resourced scrapers.  
+
+- One operator saw 400,000 residential addresses over three hours, each making sparse requests with realistic agents and referrers to evade rate limits.
+- Licensed-content sites fear scraped answers erase ad and subscription revenue, eventually destroying the sources agents depend upon.
+- Anubis stopped bots cheaply — counterpoint: readers reported multi-minute mobile puzzles, failures, and a default user-agent exception vulnerable to spoofing.
 
 ### LLM perspective
-- View: Bot traffic likely already dominates web requests; residential proxies mean IP‑based stats and filters substantially undercount and underblock it.  
-- Impact: Content hosts, especially those buying data, must treat scrapers as economic adversaries and budget for active, evolving defenses.  
-- Watch next: Expect llms.txt‑style policies, paywalled APIs, heavier PoW/CAPTCHA, and legal fights over unauthorized training and access‑control circumvention.
+
+- **View:** Residential distribution defeats IP-reputation defenses; proof-of-work succeeds by changing marginal economics, not proving humanity.
+- **Impact:** Small publishers bear infrastructure and licensing costs while scrapers capture value without attribution or traffic.
+- **Watch next:** Verified operator attribution, cache-hit ratios, challenge completion by device, adaptive difficulty, accessibility, and crawler-authentication standards.

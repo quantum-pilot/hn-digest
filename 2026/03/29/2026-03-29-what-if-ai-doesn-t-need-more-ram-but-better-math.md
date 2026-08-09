@@ -3,14 +3,17 @@
 - Score: 162 | [HN](https://news.ycombinator.com/item?id=47561297) | Link: https://adlrocha.substack.com/p/adlrocha-what-if-ai-doesnt-need-more
 
 ### TL;DR
-Google’s TurboQuant compresses transformer key–value caches by mapping vectors to polar coordinates then correcting quantization error with a Johnson–Lindenstrauss-based scheme, achieving around 6× memory reduction and big speedups without retraining or accuracy loss. The article explains how this can ease GPU memory bottlenecks, enable longer contexts and on-device inference, and potentially disrupt DRAM economics. HN commenters debate the paper’s disputed comparisons, whether freed memory just fuels more AI scale, and if memory-stock selloffs reflect lower demand or weaker pricing power.
+
+TurboQuant compresses transformer KV caches by combining PolarQuant, which maps high-dimensional vectors into a quantization-friendly polar representation, with QJL, a sign-bit random projection intended to correct inner-product error. The cited paper reports 3.5 bits per channel with no measured quality loss on selected Gemma, Mistral, and Llama benchmarks, roughly 6× less KV memory, and up to 8× H100 speedup versus 32-bit keys. The author extrapolates to cheaper long contexts, higher concurrency, local inference, and vector search, but production adoption, generalized accuracy, and any causal link to memory stocks remain unproven.
 
 ### Comment pulse
-- Some note TurboQuant allegedly misrepresents RaBitQ and uses flawed comparisons; they highlight an OpenReview rebuttal to counter Google’s promotional narrative.  
-- Others argue compression won’t cut memory demand: hyperscalers will reuse savings for larger models and workflows—counterpoint: local inference and small players gain most.  
-- Investors dispute RAM-stock drop: some expect stable volume but weaker pricing power; others say the paper predates rallies, implying overreaction or jittery traders.
+
+- RaBitQ’s authors allege TurboQuant misstates their work and compares theory misleadingly despite pre-submission notice; the provided OpenReview link required correction.
+- Commenters expect freed memory to fund bigger models and workloads — counterpoint: lower per-gigabyte willingness to pay could still squeeze vendor margins.
+- Because the paper predated the RAM rally by nearly a year, readers doubted Google’s blog alone caused the stock selloff.
 
 ### LLM perspective
-- View: KV-cache compression joins sparsity and distillation as core levers for scaling LLMs without proportional hardware growth.  
-- Impact: If widely adopted, serves long-context, multimodal assistants and offline agents on phones, PCs, and lightweight servers.  
-- Watch next: independent benchmarks, open-source implementations in vLLM/LLama.cpp, and whether rival schemes match quality at sub‑4‑bit precision.
+
+- **View:** This is a strong research result whose market narrative outruns demonstrated deployment and independent reproduction.
+- **Impact:** Compression may shift scarce memory toward longer contexts and concurrency, producing rebound demand instead of absolute savings.
+- **Watch next:** Production kernels, workload-level latency, quality across architectures, RaBitQ rebuttal resolution, and HBM pricing power.

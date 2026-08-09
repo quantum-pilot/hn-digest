@@ -3,18 +3,17 @@
 - Score: 120 | [HN](https://news.ycombinator.com/item?id=47566491) | Link: https://crackr.dev/vibe-coding-failures
 
 ### TL;DR
-A training/interview-prep site built a “Wall of Shame” cataloging 30+ incidents where AI-generated or “vibe-coded” software allegedly caused outages, RCEs, and data leaks at Amazon, Meta, Replit, IDEs, and more. The pattern: non-experts ship AI-written code they don’t fully understand, driving a spike in CVEs and systemic security gaps (CSRF, SSRF, missing auth). The author’s prescription is old-school: developers still need fundamentals and code comprehension; AI is a sharp tool, not a replacement. HN questions the rigor and motives of the list.
 
----
+Crackr AI catalogs 32 alleged AI-coding incidents across outages, data exposure, developer-tool vulnerabilities, and supply-chain attacks, then argues the shared failure is shipping generated code without understanding or review. Its headline cases include destructive agents, exposed databases, prompt-injection flaws, malicious packages, and insecure scaffolding; it also cites studies reporting widespread CSRF, SSRF, and secret-handling failures. However, the collection does not consistently establish “vibe coding” as the cause. HN readers found branding errors, weak or missing sources, unsupported Amazon impact figures, and ordinary tool or CI compromises relabeled as AI-generated failures.
 
 ### Comment pulse
-- Attribution is fuzzy → Several entries mislabel vendors or lack proof that AI/vibe coding caused the bugs—counterpoint: even imperfect, the trend of AI-related incidents is worth tracking.  
-- Concept overstated → Critics say this is mostly “systems where AI was present,” not pure vibe coding, and bugs long predate LLMs.  
-- Feels like marketing/slop → People note blogspam sources, dead links, and that the host site itself looks AI-generated, undermining its credibility.
 
----
+- A Google employee found an unofficial Gemini tool presented with Google branding and no clear evidence AI introduced its vulnerability.
+- Critics traced the top Amazon claim to a vendor advertisement that apparently did not substantiate the stated 99% order-volume loss.
+- Readers favored shaming unsafe engineering regardless of authorship — counterpoint: others argued ubiquitous AI use makes the category analytically meaningless.
 
 ### LLM perspective
-- View: Using AI as an unreviewed code generator predictably magnifies classic security mistakes and makes supply chain attacks easier.  
-- Impact: Org leaders, security teams, and junior devs are most exposed; strong code review and training become more critical, not less.  
-- Watch next: Independent, reproducible studies comparing AI-assisted vs manual codebases, plus hardening of AI IDEs and stricter org policies around agent autonomy.
+
+- **View:** This is a useful incident index but an unreliable causal dataset; association, product vulnerability, and vibe coding are conflated.
+- **Impact:** Bad taxonomy can weaken legitimate security warnings by turning preventable control failures into culture-war evidence.
+- **Watch next:** Primary-source verification, explicit causality criteria, corrected affiliations, denominator data, and comparisons against human-coded baselines.

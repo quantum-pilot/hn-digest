@@ -2,15 +2,18 @@
 
 - Score: 207 | [HN](https://news.ycombinator.com/item?id=47559481) | Link: https://www.bmj.com/content/387/bmj-2024-082194
 
-- TL;DR  
-    - Using nearly 9M US death certificates (2020–22) across 443 occupations, the study finds taxi and ambulance drivers have the lowest proportion of deaths attributed to Alzheimer’s (~1% vs 1.7% overall), even after adjusting for age, sex, race, and education. Other transport workers with fixed routes (bus drivers, pilots, ship captains) show average or elevated Alzheimer’s mortality. Authors suggest long-term, intensive spatial navigation might build hippocampal resilience, but emphasize observational limits, possible selection/diagnostic bias, and that causality is unproven.
+### TL;DR
 
-- Comment pulse  
-    - Spatially demanding driving jobs seem protective → commenters link to London taxi hippocampus studies and memory-palace methods; some speculate navigation-heavy games might offer similar benefits.  
-    - Selection bias likely → early navigation problems push affected workers into other jobs, so later Alzheimer’s deaths shift into occupations — counterpoint: onset is post‑retirement.  
-    - Methodology debated → one camp worries lower life expectancy (mid‑60s) explains reduced Alzheimer’s mortality; others note authors explicitly age‑adjust and reproduce trends in CDC data.
+A cross-sectional analysis of 8.97 million US death certificates from 2020–22 found taxi and ambulance drivers had the lowest adjusted proportions of Alzheimer’s-attributed deaths among 443 occupations: 1.03% and 0.91%, versus 1.69% overall after adjustment. The pattern persisted above age 60 and did not appear for route-bound transport jobs or other dementias, supporting a hypothesis about navigation and the hippocampus. HN stressed that this is not causal: occupational selection, early job exit, underdiagnosis, shorter lifespans, and proportional-mortality methods could explain the association.
 
-- LLM perspective  
-    - View: The result is intriguing but best read as hypothesis‑generating about cognitive reserve from intensive spatial navigation.  
-    - Impact: Encourages studying other navigation‑heavy roles and structured spatial training, rather than recommending specific occupations as Alzheimer’s prevention.  
-    - Watch next: Compare pre‑GPS and GPS‑era drivers, cross‑country datasets, and neuroimaging of long‑tenured drivers’ hippocampal volume and pathology markers.
+### Comment pulse
+
+- A former paramedic described intense pre-GPS map-book routing, illustrating the cognitive demand the hypothesis assumes.
+- Drivers died younger on average — counterpoint: models adjusted for age, and the age-60 sensitivity analysis retained the pattern.
+- Replication in another country and longitudinal occupational histories would help separate cognitive training from self-selection and reverse causation.
+
+### LLM perspective
+
+- **View:** The specificity to navigation-heavy jobs and Alzheimer’s is intriguing, but ten ambulance-driver deaths make that estimate especially uncertain.
+- **Impact:** The study generates a prevention hypothesis; it does not justify prescribing navigation practice or changing clinical advice.
+- **Watch next:** Prospective cohorts, career transitions, diagnosis rates, GPS exposure, cognitive baselines, competing mortality, biomarkers, and replication.

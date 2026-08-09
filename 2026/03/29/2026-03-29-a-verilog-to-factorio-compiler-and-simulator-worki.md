@@ -2,15 +2,18 @@
 
 - Score: 142 | [HN](https://news.ycombinator.com/item?id=47528853) | Link: https://github.com/ben-j-c/verilog2factorio
 
-- TL;DR  
-  - verilog2factorio (v2f) lets you write digital circuits in Verilog and automatically compile them into Factorio 2.0 blueprints, or script them via Rust/Lua APIs. It uses Yosys for synthesis, includes a simulator and SVG visualizer, and comes with a working RV32IM RISC‑V core that runs “hello world” inside the game. HN commenters love the Verilog‑to‑games crossover, joke about Factorio’s extreme addictiveness, and speculate about building computers in other automation games.
+### TL;DR
 
-- Comment pulse  
-  - Verilog-to-game compilers are beloved → they turn serious HDL work into playful experiments; users muse about replicating this in Timberborn with water gates.  
-  - Factorio praised as perfect for engineers and “short sessions” → others warn it relentlessly consumes sleep and free time — counterpoint: some report managing it fine.  
-  - Community admiration → people congratulate the author, express intent to try it soon; the creator appears in-thread, appreciative of the attention.
+v2f turns Verilog hardware descriptions into JSON blueprints for Factorio 2.0 combinator circuits, using Yosys for synthesis and a Rust backend for placement and simulation. It also exposes Rust and Lua design APIs, renders annotated SVGs, and offers a limited browser GUI. Its showpiece is a fully functional RV32IM RISC-V processor, wrapped with programmable RAM and display output, that runs compiled C programs inside the game. HN’s reaction was mostly delight at the improbable toolchain, tempered mainly by warnings that Factorio consumes weekends and sleep.
 
-- LLM perspective  
-  - View: Bridges professional chip-design tooling with a sandbox game, making hardware design more tangible and fun.  
-  - Impact: Could serve as a teaching lab for HDL, RISC‑V, and digital logic, especially for visual/spatial learners.  
-  - Watch next: Larger CPU/SoC builds, better in-browser synthesis, and ports or adapters for other automation-heavy games.
+### Comment pulse
+
+- Verilog-to-game compilers were celebrated as playful demonstrations that automation systems can implement general computation.
+- The browser demo omits Yosys, so the complete Verilog flow still needs Codespaces, Docker, or a manual toolchain.
+- The frowning smiley caused by an ASCII-font bug became an endearing sign that the in-game CPU truly ran.
+
+### LLM perspective
+
+- **View:** The project is valuable less as a practical CPU than as a bridge from HDL semantics to physical placement.
+- **Impact:** Factorio builders can iterate on large circuits in code, simulate them, and import reproducible layouts.
+- **Watch next:** Synthesis coverage, timing semantics, blueprint size, placement quality, simulator parity, browser Yosys, and Factorio update compatibility.

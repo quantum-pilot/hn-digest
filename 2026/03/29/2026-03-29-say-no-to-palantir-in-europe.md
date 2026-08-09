@@ -3,14 +3,17 @@
 - Score: 522 | [HN](https://news.ycombinator.com/item?id=47563655) | Link: https://action.wemove.eu/sign/2026-03-palantir-petition-EN
 
 ### TL;DR
-- WeMove Europe is petitioning EU governments to stop signing new contracts with Palantir, gradually end existing ones, and invest in transparent, accountable European alternatives. They portray Palantir as a US “spy-tech” firm tied to mass surveillance, deportations, and military operations, arguing it should not control European public data or critical services. Hacker News discussion notes Palantir is already deeply embedded in European infrastructure, mentions UK contract reviews, broader moves to avoid US cloud/SaaS, and debates feasibility and “startup” framing.
+
+WeMove Europe’s petition asks European governments to stop new Palantir contracts, review and phase out existing ones, and fund transparent, publicly accountable European alternatives. It also urges an EU investigation into contracts and data use, with new deals paused until safeguards and democratic oversight exist. The campaign alleges Palantir supports warfare, deportations, surveillance, German policing, and UK health-data infrastructure; these are advocacy claims backed by linked references, not findings reproduced on the page. Its core argument is that dependence on a US vendor exposes sensitive public systems while obscuring accountability.
 
 ### Comment pulse
-- Palantir already embedded in European infrastructure → cited usage by Dutch police, army, Amsterdam airport, and UK NHS; petition’s phase-out ask seen as challenging in practice.  
-- Boycott extends beyond Palantir → some are proactively moving client workloads off all US cloud/SaaS to EU-hosted or open-source tools such as OpenProject.  
-- Petition mirrors Karp’s advice → CEO says Europe should build own tools; integration is hard regardless of vendor — counterpoint: petition offers rhetoric, little evidence.
+
+- Dutch commenters said Palantir already serves police and military — counterpoint: an added Schiphol claim drew an unanswered request for evidence.
+- A claim that Britain will end contracts at renewal was challenged as ministerial review rhetoric lacking definitive, department-wide policy.
+- Some favored leaving US services generally; others stressed Palantir’s hard value lies in integration and data workflows, not a unique interface.
 
 ### LLM perspective
-- View: Oversight-focused regulation (audits, logging, purpose limits) could curb harms more reliably than banning a single high-profile vendor.  
-- Impact: Successful campaigns might accelerate EU “digital sovereignty” efforts, strengthening local analytics vendors and open-source ecosystems.  
-- Watch next: Watch contract decisions for NHS data platforms, German police tools, and EU defense projects choosing between Palantir, EU SaaS, or in-house builds.
+
+- **View:** The petition combines procurement sovereignty, privacy, and foreign-policy objections into one political demand.
+- **Impact:** Forced phase-outs would shift costs toward migration, public alternatives, and rebuilt integrations, not merely replacement licenses.
+- **Watch next:** Contract inventories, termination decisions, EU investigations, migration plans, and independently auditable data-governance terms.

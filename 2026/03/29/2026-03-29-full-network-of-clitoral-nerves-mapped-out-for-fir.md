@@ -2,15 +2,18 @@
 
 - Score: 220 | [HN](https://news.ycombinator.com/item?id=47564245) | Link: https://www.theguardian.com/society/2026/mar/29/full-network-clitoral-nerves-mapped-out-first-time-women-pelvic-surgery
 
-- TL;DR  
-    - Researchers produced the first 3D map of clitoral nerves using high‑energy X‑ray imaging of two donated pelvises, tracing five branching nerves across the organ and correcting textbook assumptions about how the main dorsal nerve behaves near the tip. The data should reduce nerve damage in pelvic, cancer, cosmetic, gender‑affirming and FGM‑reconstruction surgeries, where sexual function can worsen. HN commenters zoom in on historical erasure from anatomy, the scale of FGM, and the biology of highly innervated “pleasure” zones.
+### TL;DR
 
-- Comment pulse  
-    - Gray’s Anatomy dropped clitoral anatomy for decades → seen as misogyny; some push back on claims past researchers were “idiots,” stressing bias, not individual malice.  
-    - FGM context alarms readers → 230M affected, high rates in some Muslim‑majority countries; reconstruction often helps but ~22% report worse orgasms, motivating nerve‑sparing techniques.  
-    - Why dense genital innervation? → commenters explain evolution favored more nerve endings for high‑resolution sensation, with the brain amplifying signals via somatosensory “homunculus” mapping.
+Using high-energy X-rays on two donated pelvises, researchers produced a detailed 3D map of five branching nerves within the clitoral glans, with routes extending into the hood, mons pubis, and labia. The preprint also suggests the dorsal nerve remains substantial to the glans, contrary to prior anatomical teaching. Better maps could guide surgery after genital mutilation, cancer treatment, gender transition, or cosmetic procedures, but the study is not peer reviewed and has a tiny sample. HN also corrected an oversimplified history of textbook omission.
 
-- LLM perspective  
-    - View: With only two donated pelvises and preprint status, findings are promising but still a very early anatomical draft.  
-    - Impact: Biggest near‑term gains are in surgical planning tools and updated anatomy teaching, including 3D printables and VR trainers.  
-    - Watch next: multi‑patient imaging, correlation with sexual‑function outcomes, and integration into FGM‑reconstruction and gender‑affirmation surgery guidelines and consent processes.
+### Comment pulse
+
+- The clitoris appeared in earlier anatomy texts, disappeared from Gray’s in 1947, and returned decades later; commenters disputed why.
+- Reconstruction usually improves or preserves outcomes — counterpoint: roughly 22% report worse orgasmic experience, making nerve-sparing guidance consequential.
+- Dense innervation improves spatial resolution and noise filtering; cortical amplification cannot recreate detail absent from peripheral signals.
+
+### LLM perspective
+
+- **View:** The map’s surgical value is plausible, but anatomy from two donors cannot establish normal variation.
+- **Impact:** Surgeons and educators gain a better candidate model for avoiding sensory damage and correcting outdated diagrams.
+- **Watch next:** Peer review, larger and diverse donor samples, histological validation, surgical landmarks, outcome studies, and open training models.

@@ -3,18 +3,17 @@
 - Score: 108 | [HN](https://news.ycombinator.com/item?id=47566143) | Link: https://tobiasberg.net/posts/my-macbook-keyboard-is-broken-and-its-insanely-expensive-to-fix/
 
 ### TL;DR
-A MacBook Pro owner’s right arrow key fails and effectively bricks daily use, only to discover Apple rivets the keyboard to the top case, turning a ~€50 part into a ~€730-plus-labor repair. Instead of paying, they disable the key and remap arrows via software, concluding that Apple’s design makes minor issues absurdly expensive and wasteful. The thread broadens into a debate over right‑to‑repair, regulation versus market choice, DIY workarounds, and whether Apple’s value justifies its anti‑repair practices.
 
----
+After a MacBook Pro’s right-arrow key began firing continuously, cleaning failed and the author found the keyboard riveted to the top case. A €50 keyboard would therefore become a €730 assembly plus roughly €100 labor through the straightforward repair path. The temporary fix disables the key and maps arrows to Caps Lock plus IJKL with Karabiner-Elements. HN supplied rougher $20–30 keyboard-only repairs that break the rivets, while debating whether regulation or repairable competitors should address Apple’s design and parts policies.
 
 ### Comment pulse
-- Market, not laws → Buy Framework/ThinkPad if you want repairability; rigid, dense MacBook build is partly incompatible with easy repairs — counterpoint: EU rules on batteries show regulation can work.
-- Right-to-repair specifics → Making parts, manuals, and calibration tools available is the key regulatory lever, especially when Apple’s green marketing clashes with throwaway hardware reality.
-- DIY and alternatives → Some users violently drill out rivets and fit $20–30 keyboards; others argue Apple still wins on price/performance and macOS, despite poor repairability.
 
----
+- DIY replacements are possible, but users described violent rivet removal, difficult disassembly, and real risk of injury or further damage.
+- Build rigidity can conflict with serviceability — counterpoint: critics argued screws and accessible parts would add little weight or compromise.
+- Framework offers repairability but costs more in some markets and cannot provide macOS; Apple’s newer Neo reportedly improves keyboard replacement.
 
 ### LLM perspective
-- View: The real issue is designed-in coupling: cheap, failure-prone parts are fused to expensive assemblies to monetize repairs and discourage longevity.  
-- Impact: Users face higher lifetime costs and more e‑waste; only the most motivated attempt risky DIY fixes or abandon macOS for repairable hardware.  
-- Watch next: Follow right-to-repair legislation, teardown scores of upcoming Macs, and whether Apple’s more-repairable Neo approach spreads to mainstream models.
+
+- **View:** A workaround restores productivity, but a single failed key still exposes a severe mismatch between component and repair granularity.
+- **Impact:** Owners absorb high repair bills, risky labor, external keyboards, or premature replacement of otherwise functional machines.
+- **Watch next:** Air and Pro redesigns, parts pairing, service manuals, keyboard modularity, right-to-repair rules, and total lifecycle cost.

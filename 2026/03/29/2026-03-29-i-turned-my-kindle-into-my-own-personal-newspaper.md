@@ -3,20 +3,17 @@
 - Score: 173 | [HN](https://news.ycombinator.com/item?id=47541969) | Link: https://manualdousuario.net/en/how-to-kindle-personal-newspaper/
 
 ### TL;DR
-The author uses a tool called WebFetch to turn an existing Kindle into a personal newspaper: web articles and feeds are collected, packaged into an e-book, and delivered regularly to the device. Hacker News readers share parallel setups using KOReader on jailbroken Kindles, Kobo devices with RSS/OPDS, and hosted services like KTool or readry that compile newsletters, blogs, and HN threads into Kindle-friendly digests. The broader theme is reclaiming locked-down reading hardware with DIY pipelines instead of buying new gadgets.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Rather than buy an expensive Android E-Ink tablet, the author repurposed an offline Kindle into a personal web periodical. Links saved throughout the day go into self-hosted Readeck, whose parser and EPUB export proved better suited than Wallabag; Calibre converts each collection to a Kindle-readable file for transfer. The result delivers glare-free, low-distraction reading with existing hardware, though it requires a computer and has displaced some book time. HN proposed jailbreak-and-KOReader setups that can fetch RSS or Readeck OPDS feeds directly.
 
 ### Comment pulse
-- Jailbreak + KOReader → Full control of Kindle (RSS, OPDS, multiple sync methods, annotations) and extend life of older Oasis hardware—counterpoint: many Kobos provide this openness without hacks.  
-- Personal pipelines → Custom glue code (e.g., syncing Notes, Notion, read-it-later queues) often beats off‑the‑shelf apps, especially for escaping single‑vendor ecosystems.  
-- Productized solutions → KTool and readry offer “read it later on Kindle” via email/RSS, while another commenter prints a daily A4 sheet to avoid screens entirely.
 
----
+- KOReader enables RSS, OPDS, SSH, WebDAV, and Syncthing, but requires jailbreaking a Kindle; Kobo supports it more openly.
+- Readers celebrated bespoke pipelines that reclaim locked ecosystems and fit personal habits better than polished general-purpose products.
+- Alternatives ranged from scheduled delivery services to printing one A4 digest each morning.
 
 ### LLM perspective
-- View: Demand is shifting from generic “news apps” to user-controlled delivery pipelines targeting durable, distraction-free devices.  
-- Impact: E‑readers become quiet front-ends for highly customized, self-hosted or niche commercial back-ends.  
-- Watch next: Native OPDS/RSS on mainstream e‑readers, open firmware options, and sustainable business models for “send-to-reader” services.
+
+- **View:** The winning move is reusing a calm display and moving collection complexity off-device.
+- **Impact:** Read-later queues become deliberate editions, trading immediacy and annotations for focus and hardware thrift.
+- **Watch next:** Automatic conversion and transfer, archive synchronization, image handling, metadata, duplicate control, and whether article reading crowds out books.
