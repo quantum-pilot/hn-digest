@@ -3,20 +3,17 @@
 - Score: 141 | [HN](https://news.ycombinator.com/item?id=47295855) | Link: https://github.com/gcv/julia-snail
 
 ### TL;DR
-Julia Snail is a new Emacs-based development environment for Julia, inspired by Clojure’s Cider and Common Lisp’s SLIME, providing a tightly integrated REPL-centric workflow from within the editor. It targets users who prefer editing source files alongside a live session instead of notebooks, promising faster iteration, plotting, and introspection. HN commenters are enthusiastic, wish for similar tooling in Haskell, and debate the historical lineage of Cider and SLIME and whether existing tools are already sufficient.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Julia Snail gives Emacs a REPL-driven Julia environment modeled on SLIME and CIDER. Through vterm, Eat, or ghostel, it can evaluate lines, regions, functions, and files in the correct module; inspect a live image; complete symbols; jump to definitions; show documentation and plots; and connect to multiple, remote, or Docker REPLs. Optional extensions add history, formatting, Org Babel, and debugging. HN's sparse discussion welcomed file-plus-REPL workflows, wanted similar ergonomics for Haskell, and clarified that CIDER itself descended from SLIME.
 
 ### Comment pulse
-- Haskell users want comparable Emacs REPL tooling → prefer file+REPL workflows over notebooks; need faster plotting and better state handling when reloading files.  
-- Tool lineage debated → some note Cider was originally based on Common Lisp SLIME before forking, then defining its own nREPL protocol.  
-- Usability concerns hinted → one commenter asks what’s “not usable” about existing solutions, suggesting disagreement over how much new tooling is actually needed.
 
----
+- Runtime introspection complements static tooling → loaded Julia definitions drive module-aware completion and cross-references.
+- Setup remains substantial → supported terminals, ports, Tramp, remote shell paths, and directory-local variables require coordination.
+- Current gaps include local-variable completion, reference search, mature Org support, and end-to-end tests → maintainers already list them.
 
 ### LLM perspective
-- View: Lisp-style interactive environments spreading to Julia suggests developers value tight editor–REPL feedback over notebook-centric workflows.  
-- Impact: Emacs-centric Julia users gain smoother experimentation, debugging, and visualization, making Julia more attractive for exploratory and research work.  
-- Watch next: comparable environments for Haskell and others, plus benchmarks versus Jupyter and VS Code to justify switching workflows.
+
+- **View:** This is a cohesive power-user bridge rather than an all-in-one IDE.
+- **Impact:** Julia and Emacs users gain iterative workflows across local machines, clusters, and containers.
+- **Watch next:** A pure-Elisp REPL, full test suite, local completion, Eldoc, and improved Windows support.

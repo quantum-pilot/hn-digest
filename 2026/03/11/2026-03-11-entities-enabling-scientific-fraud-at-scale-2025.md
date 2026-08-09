@@ -2,16 +2,18 @@
 
 - Score: 249 | [HN](https://news.ycombinator.com/item?id=47335349) | Link: https://doi.org/10.1073/pnas.2420092122
 
-- TL;DR  
-Article and discussion describe industrial-scale scientific fraud: paper mills, LLM-generated manuscripts, predatory journals, and ranking games exploiting metrics-based evaluation. Fraudsters mass-produce incoherent, citation-stuffed papers across fields, polluting literature and inflating institutional standings. Commenters link this to Goodhart’s law and the replication crisis: restrictive top journals, novelty-driven funding, and tenure norms discourage replications and null results. Others note good committees already read work, but bureaucracies, global rankings, and public messaging still over-trust “the numbers,” eroding confidence in science.  
-*Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  - Restrictive top journals and novelty incentives sideline replications/negatives → fraud-prone culture. — counterpoint: root problem is system-wide incentives from funders, media, and tenure.  
-  - Metric fixation (papers, citations, rankings) invites Goodhart/Brandolini dynamics → spam, rage-bait studies, paper mills, and suspect institutional rankings outpacing peer scrutiny.  
-  - Scientists mostly ignore obvious junk and rely on trusted venues, but public sees undifferentiated ‘science’ and reasonably doubts expertise amid visible fraud scandals.
+A PNAS study argues scientific fraud is industrial and coordinated, involving paper mills, brokers, authors, and compromised editors. In PLOS ONE, 45 flagged editors handled 1.3% of papers but 30.2% of retractions; an image-sharing network linked 2,213 papers, only 34.1% retracted. Suspected paper-mill output doubled every 1.5 years versus 15 years for all publications, outpacing retraction and deindexing. HN connected the problem to publication metrics, novelty bias, weak replication incentives, and LLM-generated citation schemes, while warning against crude fraud blacklists.
 
-- LLM perspective  
-  - View: Scientific communication needs a two-tier ecosystem: fast, open archives plus curated, high-rigor venues explicitly separated from metrics gaming.  
-  - Impact: If fraud volume keeps rising, mid-tier institutions and developing countries risk blanket suspicion, harming genuine researchers’ mobility and funding.  
-  - Watch next: Expect bibliometric services, funders, and preprint servers to deploy anomaly detection and replication registries, then bake them into evaluation workflows.
+### Comment pulse
+
+- Goodhart's law rewards papers and citations instead of correctness → negative citations can perversely raise apparent impact.
+- Random funded replications could expose fraud → journals and tenure systems currently favor novelty and positive results.
+- Strong venues and expert networks still filter noise → counterpoint: dependence on reputation disadvantages outsiders as formal review erodes.
+
+### LLM perspective
+
+- **View:** Separating detection, investigation, and sanctions is more credible than leaving all three with conflicted institutions.
+- **Impact:** Researchers and models ingest poisoned literature; targeted subfields may lose a trustworthy cumulative record.
+- **Watch next:** Replication funding, journal hopping, editor networks, scalable image screening, and eventual retraction rates.

@@ -2,21 +2,18 @@
 
 - Score: 139 | [HN](https://news.ycombinator.com/item?id=47337607) | Link: https://sitespy.app
 
-## TL;DR
-A new tool, Site Spy, monitors arbitrary webpages and exposes changes as RSS feeds, focusing on element-level tracking, readable text diffs, and history. It uses a real browser behind the scenes, so it copes better with JavaScript-heavy sites than simple HTML pollers, but can still struggle with anti-bot and complex login flows. HN discussion compares it to open-source options like changedetection.io and urlwatch, and debates whether RSS, email, or direct push notifications are the right primary interface.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+Site Spy monitors webpages in a real browser, records text and optional screenshot snapshots, highlights additions and removals, and publishes changes through RSS, email, push, Telegram, webhooks, an API, or MCP. Users can select an element or describe a desired signal such as price drops; AI filters noise. The free tier covers two hourly watches, with paid plans adding faster checks, more history, browser steps, and team features. Commenters like the diff-first execution but note established self-hosted alternatives and ask about anti-bot defenses, login sessions, and audience-specific alert channels.
 
-## Comment pulse
-- Strong execution for reporters and monitors → browser-based rendering plus text diffs addresses JS-heavy sites better than naive scrapers, though anti-bot and auth flows remain brittle.
+### Comment pulse
 
-- Comparison to changedetection.io/urlwatch → open-source, self-hosted tools are mature and free; Site Spy trades that for smoother browser extension workflow — counterpoint: skepticism about pricing/novelty.
+- Real-browser rendering handles JavaScript sites → aggressive bot protection and complicated authentication remain harder than dynamic HTML itself.
+- RSS is an open integration layer → urgent events usually fit push or email, while feed readers suit changes that can wait.
+- Convenience is the differentiation → counterpoint: changedetection.io and urlwatch already offer capable free, self-hosted monitoring.
 
-- RSS vs alerts split → power users like RSS for workflows; others want email/push for urgent events, suggesting products should offer multiple channels and let users choose.
+### LLM perspective
 
-## LLM perspective
-- View: Element-level, browser-based monitoring with diff views plus RSS is a pragmatic bridge between scrapers and traditional feeds.
-
-- Impact: Helps journalists, researchers, and “slot/stock” hunters monitor hostile or JS-heavy sites with less custom scripting.
-
-- Watch next: Reliability on anti-bot sites, pricing vs OSS, and richer integrations (webhooks, APIs, email-to-RSS bridges) will determine adoption.
+- **View:** The product wins if setup and signal quality justify outsourcing a mature monitoring problem.
+- **Impact:** Reporters, shoppers, job seekers, and agents gain structured change histories without writing scrapers.
+- **Watch next:** Filter accuracy, false negatives, browser-step reliability, anti-bot failure messages, and AI-summary availability.

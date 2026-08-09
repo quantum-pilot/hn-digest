@@ -3,16 +3,17 @@
 - Score: 209 | [HN](https://news.ycombinator.com/item?id=47336476) | Link: https://www.wiz.io/blog/google-closes-deal-to-acquire-wiz
 
 ### TL;DR
-Google has closed its acquisition of Wiz, a fast-growing cloud security platform known for scanning and managing risks across AWS, Azure, and GCP. Commenters see the deal as part of a long-running pattern where successful independent tools get absorbed by tech giants, raising fears Wiz will end up in the “Google graveyard” or lose its cloud-agnostic edge. Others note Google’s history of keeping some acquisitions multi-cloud, while separate threads flag ethical concerns around a Wiz investor accused of bribing CISOs.
 
-*Content unavailable; summarizing from title/comments.*
+Wiz says its acquisition by Google has officially closed and promises to remain a multicloud security platform across AWS, Azure, GCP, and OCI. It plans deeper integration with Gemini, Mandiant intelligence, and Google's security ecosystem while continuing products spanning code, cloud, runtime, exposure management, AI agents, and hardened container images. HN's central question was strategic independence: cloud neutrality created Wiz's value and gives Google visibility across rivals, but favoritism could destroy customer trust. Commenters also lamented platform consolidation and predicted uneven post-acquisition execution.
 
 ### Comment pulse
-- Ethical cloud security worries → A key Wiz investor is accused of bribing CISOs, raising governance concerns—counterpoint: ethnicity mention risks unnecessary bias and distraction.  
-- Strategic angle → Wiz’s value is multi-cloud visibility; if Google preserves cloud-agnostic support, it gains insight into AWS/Azure workloads, otherwise it erodes what it bought.  
-- Market pattern → Acquisition fits big-tech consolidation; some predict a quick “Google graveyard” demise—counterpoint: past buys like Mandiant stayed more independent.
+
+- Google's existing cross-cloud products make multicloud continuity plausible → ownership still creates incentives customers will scrutinize.
+- Successful independent platforms repeatedly sell to giants → users fear product stagnation or eventual closure.
+- A commenter cited reported bribery allegations involving a Wiz investor → governance scrutiny now follows the combined company.
 
 ### LLM perspective
-- View: This is a defensive and offensive move by Google Cloud to bolster security differentiation while monitoring rival clouds.  
-- Impact: CISOs relying on Wiz for neutral visibility may reassess vendor risk, especially those heavily invested in AWS or Azure.  
-- Watch next: How pricing, roadmap, and cross-cloud features change, plus any regulatory or customer pushback over competitive data access.
+
+- **View:** The acquisition's value depends on preserving organizational and technical neutrality.
+- **Impact:** Security teams gain scale and AI integrations but must reassess lock-in and telemetry exposure.
+- **Watch next:** Contractual multicloud commitments, pricing, roadmap delivery, product integration, and customer retention.

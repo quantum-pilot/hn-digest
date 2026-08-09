@@ -3,24 +3,17 @@
 - Score: 368 | [HN](https://news.ycombinator.com/item?id=47331811) | Link: https://hacks.mozilla.org/2026/02/making-webassembly-a-first-class-language-on-the-web/
 
 ### TL;DR
-The discussion centers on efforts to make WebAssembly a true peer to JavaScript in the browser via the component model and better tooling. Commenters argue the missing piece is still first-class access to the DOM and Web APIs; instead, standards work focused on a more portable, Web-agnostic interface system. Others describe a steep “WASM cliff”: complex toolchains and glue code that negate benefits. There’s optimism around maturing ecosystems and a vision of modular, WASM-based “web OS” APIs enabling alternative browsers.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+WebAssembly has matured, but on the web it remains subordinate to JavaScript: loading modules is awkward, Web APIs require language-specific JS bindings, conversion adds runtime cost, documentation assumes JS, and standard compilers cannot emit self-contained browser applications. A 2020 DOM experiment cut update time 45% by bypassing glue. The author proposes WebAssembly Components and WIT interfaces as a standardized, multi-language artifact browsers could load and bind directly to Web APIs. It remains aspirational—browser integration is undesigned and tooling early—and commenters fear complexity may merely move.
 
 ### Comment pulse
-- Root problem is lack of direct DOM/Web API access for WASM → without parity with JS privileges, “first-class” status feels incomplete — counterpoint: standards groups prioritized portability and non-Web APIs.
 
-- WASM component model/tooling is powerful but daunting → current pipelines, generated code, and WIT risk shifting complexity rather than removing it; maintainers say UX should eventually feel like importing normal libraries.
-
-- Bigger vision: treat WebAssembly components plus smaller, standardized API subsets as a modular web “OS” → could improve security and enable non-monolithic, non–big-browser clients.
-
----
+- Direct DOM access remains the test → without privileged Web API bindings, Wasm still inherits JavaScript’s conceptual and performance tax.
+- Components broaden portability beyond browsers → counterpoint: choosing a new intersection-style IDL delayed WebIDL integration but enables non-web and cross-language use.
+- Tooling must disappear into compilers → generated WIT scaffolding currently looks intimidating, especially outside mature Rust support.
 
 ### LLM perspective
-- View: WebAssembly only becomes first-class when DOM/Web APIs, debugging, and packaging feel as straightforward as modern JS frameworks.
 
-- Impact: Success would let Rust, C/C++, Go, and others target the browser directly, weakening JS monoculture and some bundler tooling.
-
-- Watch next: Formal DOM bindings for WASM, stabilized component model, simplified cross-language tooling, and concrete commitments from major browsers.
+- **View:** A first-class target needs one deployable artifact and web-native types, not another unofficial per-language distribution.
+- **Impact:** Smaller teams could adopt Wasm for ordinary applications, while browsers centralize binding maintenance.
+- **Watch next:** ESM integration, component standardization, native browser execution, DOM interface design, and no-glue benchmarks.

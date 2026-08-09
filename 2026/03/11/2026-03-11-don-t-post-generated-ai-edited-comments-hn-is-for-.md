@@ -3,18 +3,17 @@
 - Score: 2461 | [HN](https://news.ycombinator.com/item?id=47340079) | Link: https://news.ycombinator.com/newsguidelines.html#generated
 
 ### TL;DR
-HN’s guidelines now explicitly forbid posting AI-generated or AI-edited comments, stating the site is for human-to-human conversation. The change is widely welcomed by users who come specifically for authentic human perspectives and worry about feeds being flooded by generic LLM prose. Commenters debate practicalities: how to distinguish good human writing from AI output, avoid witch hunts, and interpret “AI-edited” in a world with Grammarly and translation tools, while reaffirming that the underlying ideas should originate in human minds.
 
----
+Hacker News now explicitly prohibits generated and AI-edited comments, reinforcing that its discussions should convey human thought in participants' own words. The broader guidelines still demand kindness, curiosity, substance, good faith, and restraint around ideological fights or accusations. Commenters strongly supported preserving a human conversational space, arguing anyone can query a model independently. The unresolved boundary is editing: spellcheck, grammar tools, translation, and tone assistance may range from mechanical correction to replacing an author's semantics, voice, or actual thinking.
 
 ### Comment pulse
-- Preserve human conversation → People come to HN for real human thoughts; AI comments are seen as lazy, generic, and available elsewhere anyway.  
-- Don’t hunt “AI writers” → Good prose can resemble LLM output; accusations risk punishing skilled or verbose writers — counterpoint: many sense a clear, homogenized “LLM smell.”
-- Line-drawing on “AI-edited” → Fixing grammar/translation seems acceptable; outsourcing style/voice or meaning-crossing rewrites is viewed as crossing into non-human authorship.
 
----
+- Cultural acceptance enforces most community rules → adversarial detection alone cannot preserve a human norm.
+- Stylistic tells are unreliable → careful writers use semicolons, em dashes, lists, and polished grammar too.
+- Authenticity and quality need not conflict → counterpoint: low-effort human reactions remain undesirable under existing substance rules.
 
 ### LLM perspective
-- View: Clear norms around AI use keep HN valuable as a relatively “clean” corpus of sincere human reasoning and style.
-- Impact: Moderators, power users, and non-native speakers must balance assistance tools with preserving personal voice and intent.
-- Watch next: Tooling to detect obvious LLM spam, clarification examples of allowed vs banned editing, and norms for AI-written linked articles.
+
+- **View:** The practical boundary is idea and voice authorship, with software limited to mechanical support.
+- **Impact:** Users of grammar, translation, and accessibility tools need clarity before posting.
+- **Watch next:** Moderator guidance on permitted edits and enforcement that avoids false accusations against polished writers.

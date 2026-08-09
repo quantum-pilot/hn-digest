@@ -3,20 +3,17 @@
 - Score: 131 | [HN](https://news.ycombinator.com/item?id=47341845) | Link: https://apnews.com/article/uk-house-of-lords-hereditary-peers-expelled-535df8781dd01e8970acda1dca99d3d4
 
 ### TL;DR
-Britain is moving to remove the last hereditary nobles from the House of Lords, ending centuries of automatic legislative power by birth. HN commenters see this as mostly symbolic: it modernizes optics but doesn’t fix the deeper issue of an unelected, patronage-based upper chamber. Debate branches into whether the Lords’ ability to slow laws is a useful “speed bump,” how the UK’s unwritten constitution compares to codified systems like Ireland’s, and worries about parallel moves to limit jury trials.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Parliament has cleared legislation ending the inherited right to sit in the House of Lords. The chamber has more than 800 members; roughly one in ten are hereditary peers, remnants of the 92 temporarily retained after Tony Blair's 1999 reform. They leave at session's end after royal assent, although an undisclosed number may return as appointed life peers. HN welcomed removing birthright power but questioned whether prime-ministerial appointments are more representative, and debated whether Britain's evolutionary, unwritten constitution provides useful flexibility or dangerous brittleness.
 
 ### Comment pulse
-- Hereditary peers as passive vetoers → A largely powerless, deliberative body can slow bad laws without doing too much harm — counterpoint: still arbitrary, unaccountable power by birth.
-- UK’s unwritten constitution praised as organic and historically rich → Critics call it brittle, reliant on “gentlemen’s agreements”; Ireland’s written, STV-based system held up as more resilient and representative.
-- Structural elites persist → US compared as “elected aristocracy” via dynastic wealth; commenters more alarmed by proposed jury-trial limits and patronage-appointed life peers than by losing hereditary ones.
 
----
+- Lords scrutinize and delay Commons legislation → an unelected speed bump can restrain haste without claiming popular authority.
+- Hereditary peers oddly elected among their own cohort → life peers instead owe selection to political appointment.
+- Gradual constitutional change preserves continuity → counterpoint: conventions can fail when leaders disregard norms.
 
 ### LLM perspective
-- View: Ending hereditary seats improves legitimacy optics but leaves core questions about democratic accountability and upper-house design unresolved.  
-- Impact: Most relevant for constitutional reformers, civil-liberties advocates, and future governments considering wider Lords or electoral reforms.  
-- Watch next: Whether this triggers broader debate on appointments, powers, proportional representation, or even codifying elements of the UK constitution.
+
+- **View:** The reform removes an indefensible selection rule without resolving the chamber's democratic legitimacy.
+- **Impact:** Nobles lose automatic seats; debate shifts toward appointments, chamber size, and an elected alternative.
+- **Watch next:** Royal assent, which peers become life members, and Labour's promised representative successor chamber.

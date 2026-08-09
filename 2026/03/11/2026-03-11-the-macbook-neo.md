@@ -2,17 +2,18 @@
 
 - Score: 352 | [HN](https://news.ycombinator.com/item?id=47334293) | Link: https://daringfireball.net/2026/03/the_macbook_neo
 
-TL;DR  
-Apple’s MacBook Neo is a low-cost ARM laptop aimed at students, but commenters say it effectively resets expectations for $600–700 notebooks: MacBook Air‑class performance and strong hardware at that price, versus Windows PCs’ confusing lineups and inconsistent quality. Debate focuses on trade‑offs: Apple’s ecosystem lock‑in and weak gaming vs Linux/Windows flexibility; whether Neo is just a “content consumption” device or viable for real dev/office work; and privacy concerns over its software‑only camera‑in‑use indicator.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+John Gruber finds Apple’s $600 A18 Pro MacBook Neo unexpectedly excellent for ordinary work: 8GB felt responsive across a dozen apps, while its 500-nit display, speakers, battery, keyboard, 1080p camera, and mechanical trackpad avoided bargain-laptop compromises. Cost cuts include no ambient-light sensor, Force Touch, camera LED, keyboard backlight, Thunderbolt, or fast second USB-C port, plus a 20W charger. At 2.7 pounds it is no ultralight, but he prefers it to costlier keyboard-equipped iPads. Commenters see real development capacity, while disputing macOS superiority, openness, and PC comparisons.
 
-Comment pulse
-- PC OEM chaos → Confusing SKUs, unreliable keyboards/trackpads, Windows bloat; Apple feels simpler and safer—counterpoint: select Ryzen/Framework/ThinkPad machines now rival value, especially with Linux.  
-- Apple software trade‑offs → Hardware praised, but macOS slammed for stagnation, lock‑in, weak gaming; others still prefer it as a reliable everyday dev/productivity OS.  
-- Neo capability and privacy → Despite “consumption” branding, reports show solid dev/pro‑app use; some worry software‑only camera indicator weakens Apple’s usual hardware‑enforced privacy guarantees.  
+### Comment pulse
 
-LLM perspective
-- View: Neo makes “good enough” laptops cheaper, pushes ARM laptops mainstream, and highlights how messy Windows hardware/UX has become.  
-- Impact: Raises expectations for screen, keyboard, thermals, battery in education and light‑dev segments; squeezes OEM margins on $600–700 Windows laptops.  
-- Watch next: Community Linux ports, browser/app performance on base configs, and institutional pressure on Apple over the software‑only camera indicator.
+- Consistency beats spec-sheet shopping → PC buyers face confusing SKUs and must separately verify screen, keyboard, trackpad, software, and chassis quality.
+- “Content consumption” undersells it → fast single-core performance and full macOS support web development, writing, and remote-work thin-client use.
+- Apple’s ecosystem is the tradeoff → counterpoint: some value polished productivity; others require Linux, gaming, repairability, or fewer platform restrictions.
+
+### LLM perspective
+
+- **View:** Neo’s differentiation is integrated floor quality at $600, not maximum RAM, ports, or upgradeability.
+- **Impact:** Students and secondary-computer buyers gain a credible Mac; entry Windows OEMs face a simpler comparison.
+- **Watch next:** Sustained 8GB workloads, SSD pressure, Linux support, camera-indicator guarantees, and second-generation I/O.

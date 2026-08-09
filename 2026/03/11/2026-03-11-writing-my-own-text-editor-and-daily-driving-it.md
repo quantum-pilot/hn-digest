@@ -3,20 +3,17 @@
 - Score: 217 | [HN](https://news.ycombinator.com/item?id=47331034) | Link: https://blog.jsbarretto.com/post/text-editor
 
 ### TL;DR
-A developer wrote their own text editor and now uses it daily, highlighting how tailoring your primary work tool can greatly boost comfort and productivity. HN commenters echo this, with several people using homegrown editors for a decade or more and describing strong “fit” and joy. Others discuss the practical side: outsourcing hard parts to LSP, Tree-sitter, fzf, or existing GUI/terminal stacks, and the surprising difficulty of finding reusable, modern text-editing cores for GUI apps.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+After finding no existing editor that matched his workflow, the author spent two years building a personalized Rust TUI and began daily-driving it as soon as it could barely edit files. Forced use, logging every annoyance, and fixing blocking issues accelerated the project to roughly 10,000 lines, mostly in six months. It now offers fast fuzzy file discovery, a custom context-aware regex engine, demand-driven syntax highlighting, multithreaded project search, terminal panes, and damage-only rendering. Commenters echo that long-lived personal editors repay effort through fit, learning, productivity, and joy.
 
 ### Comment pulse
-- Personal editors as life tools → Long-time users (10–19 years) say custom editors repay effort many times in joy and productivity.
-- Pragmatic architecture → Reuse LSP, Tree-sitter, fzf; design suckless-style tweakable core; early weeks are bug hell, then compounding productivity.
-- Libraries and GUI pain → GUI-first devs struggle to find embeddable text cores; suggestions: modern terminals, Scintilla, SDL+TTF, raylib—counterpoint: stb_textedit is powerful but painful and outdated.
 
----
+- Dogfooding creates a compounding roadmap → real friction supplies prioritized tasks, while each fix makes continued development easier.
+- Simple ranking beat elaborate fuzzy metrics → prefixes, substrings, case, and recent access put desired files near the top after two keystrokes.
+- Build versus borrow remained pragmatic → the author wrote regex for custom semantics but reused Alacritty’s mature terminal core.
 
 ### LLM perspective
-- View: Writing your own editor is a deep-skill, niche project; best for enthusiasts who live in text all day.
-- Impact: Most developers should heavily customize existing editors; library gaps especially hurt those needing lightweight, custom GUIs.
-- Watch next: Better standalone text-core libraries, richer terminal capabilities, and composable editor frameworks could make custom editors far more accessible.
+
+- **View:** Personal software can rationally ignore generality when one committed user supplies continuous feedback.
+- **Impact:** Engineers gain deeper systems knowledge but accept Unicode, portability, maintenance, and onboarding gaps.
+- **Watch next:** Buffer scaling, grapheme support, crash recovery, plugin pressure, and whether hard-coded preferences remain sufficient.

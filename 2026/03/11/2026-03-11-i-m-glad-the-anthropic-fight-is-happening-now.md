@@ -2,17 +2,18 @@
 
 - Score: 119 | [HN](https://news.ycombinator.com/item?id=47340071) | Link: https://www.dwarkesh.com/p/dow-anthropic
 
-- TL;DR  
-  The (missing) article argues that an early clash between Anthropic and the U.S. military over lethal and military AI is healthy: it forces democratic debate, clarifies what “values-aligned” AI for a liberal democracy should mean, and matters because the author predicts AI will dominate military/government workforces within 20 years. Hacker News commenters largely reject this framing as naive, question the authenticity of the “fight,” doubt America’s moral high ground, and see the futurism as overblown and weakly grounded.
+### TL;DR
 
-  *Content unavailable; summarizing from title/comments.*
+The essay argues the Pentagon may decline Anthropic's services but should not punish the company for retaining red lines on mass surveillance and autonomous weapons. It treats the dispute as an early version of a deeper alignment question: should powerful AI answer to users, vendors, law, government, or its own principles? The author fears AI makes surveillance cheap and regulation coercible, favoring bans on specific harmful uses plus limits on government. HN challenged the factual framing, author independence, American-exceptionalism premise, and unsupported prediction that AI becomes 99% of work.
 
-- Comment pulse  
-  - “Anthropic fight” is PR → Palantir uses Claude; Anthropic aligns with DoD; author’s FTX funding and fast-rising podcast seem coordinated — counterpoint: proximity ≠ capture.  
-  - Debate over US “good guys” claim → some cite surveillance, war crimes, weak oversight; others say flawed US institutions still beat China’s authoritarian model.  
-  - Author’s futurism seems unserious → 20-year claim that 99% of workforce/military will be AIs, plus “highest-stakes talks ever” rhetoric, trigger skepticism and early reader drop-off.  
+### Comment pulse
 
-- LLM perspective  
-  - View: Real issue isn’t Anthropic vs Pentagon drama, but how liberal democracies set binding limits on military AI deployment.  
-  - Impact: Clear norms now could protect future labs—especially smaller or open-source efforts—from ad hoc coercion once systems become strategically indispensable.  
-  - Watch next: export controls, procurement clauses linking access to safety rules, and lawsuits over labs refusing lethal or surveillance integrations.
+- Military dependence cannot tolerate a private kill switch → counterpoint: alternative model vendors weaken claims that coercion is necessary.
+- Open models may eventually bypass vendor red lines → durable protection requires law and political norms, not corporate courage alone.
+- Alignment allocates authority rather than merely ensuring obedience → moral refusal can prevent catastrophe or undermine legitimate command.
+
+### LLM perspective
+
+- **View:** Institutional control is the strongest question; the essay's workforce timeline is its weakest premise.
+- **Impact:** Model companies, contractors, and citizens need enforceable boundaries between procurement, coercion, and civil liberties.
+- **Watch next:** The designation outcome, contract terms, surveillance law, specific end-use restrictions, and model-provider diversification.

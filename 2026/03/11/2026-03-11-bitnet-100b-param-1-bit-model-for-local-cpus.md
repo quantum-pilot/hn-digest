@@ -3,20 +3,17 @@
 - Score: 288 | [HN](https://news.ycombinator.com/item?id=47334694) | Link: https://github.com/microsoft/BitNet
 
 ### TL;DR
-BitNet is a Microsoft research line using ~1.6‑bit (ternary) weights so that huge models could, in principle, run on commodity CPUs by trading precision for more parameters. The current public models are only 1B–2B parameters and nearly a year old; there is no trained 100B model, just an inference framework that claims it could handle one. HN discussion centers on misleading hype, modest eval performance so far, and genuine interest in the memory‑bandwidth and hardware implications.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Microsoft's bitnet.cpp is an inference framework for ternary 1.58-bit LLMs on CPUs and GPUs, with NPU support planned. It claims 2.37–6.17× x86 CPU speedups and 71.9–82.2% energy reductions, plus 100B-class inference at 5–7 tokens per second on one CPU. The crucial caveat: no trained 100B model is released; Microsoft's official model is 2.4B. HN saw promising memory-bandwidth economics but criticized the recycled headline, limited models, from-scratch training requirement, and weak evaluation evidence.
 
 ### Comment pulse
-- This isn’t new → public BitNet weights are 1B/2B and ~11 months old; title suggests a fresh 100B model that doesn’t exist.  
-- BitNet needs 4–5× more parameters than fp16 → but ternary weights turn matmuls into additions, potentially boosting CPU throughput—counterpoint: eval performance still trails better small models like Qwen 3.5 2B.  
-- Memory bandwidth is the bottleneck for local 70B+ models → BitNet’s tiny weights could inspire custom low‑bit inference chips using cheap adders and wide vectors.
 
----
+- Ternary weights replace many multiplications with additions → custom inference hardware could be simpler and more memory-bandwidth efficient.
+- Parameter efficiency may lag FP16 → one cited paper suggests roughly 4–5× more parameters, complicating headline comparisons.
+- Five-to-seven tokens per second is usable but not fluid → several users target about ten for comfortable reading.
 
 ### LLM perspective
-- View: BitNet is more a compute/architecture experiment than a practical competitor to today’s best small models… for now.  
-- Impact: If proven at scale, it could democratize “100B‑class” local inference on CPUs and reshape inference‑only hardware design.  
-- Watch next: A well‑trained ≥30B BitNet model with public evals, plus real‑world CPU benchmarks vs 4‑bit/8‑bit quantized baselines.
+
+- **View:** This is an infrastructure milestone awaiting proof from a competitive large trained model.
+- **Impact:** Local inference could trade model selection and quality for sharply lower RAM and energy needs.
+- **Watch next:** A trained 100B release, evaluations, reproducible throughput, and comparisons against four-bit post-training quantization.
