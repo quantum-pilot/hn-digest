@@ -2,15 +2,18 @@
 
 - Score: 246 | [HN](https://news.ycombinator.com/item?id=47467746) | Link: https://dbushell.com/2026/03/20/denos-decline-and-layoffs/
 
-- TL;DR  
-Author, a longtime Deno user, revisits the project after major layoffs and a 404 on deno.com, arguing Deno Land’s VC-backed strategy failed: weak adoption, scattered focus (runtime, Deploy, Fresh, JSR), packaging confusion, and underinvested infrastructure left it unable to displace Node/npm. He contrasts this with tools like NPMX, saying developers want incremental, compatible improvements, not ecosystem rewrites. He criticizes CEO Ryan Dahl’s silence and possible AI pivot, while acknowledging his own harsh tone and hoping the runtime survives.
+### TL;DR
 
-- Comment pulse  
-  - Post feels like a personal attack on Ryan Dahl → commenters stress building VC-backed OSS is hard and credit him with foundational contributions like Node.  
-  - Some founders and heavy users welcome bluntness → they argue Deno’s strategy—reinventing runtime, hosting, framework, packaging at once—was unfocused and inferior to incremental “embrace-and-extend” approaches.  
-  - VC-funded OSS devtools seem shaky → commenters cite misaligned incentives and weak monetization beyond hosting/support — counterpoint: acquisition by AI labs may become viable outcome.
+After a week of departures or layoffs at Deno, a longtime user argues the company’s runtime, hosting, package registry, and frameworks never gained enough adoption to justify roughly $26 million in venture funding. The author points to unreliable Deploy starts, ignored feedback, JSR’s weak traction, packaging reversals, and silence from CEO Ryan Dahl, while hoping the runtime survives and speculating about an AI pivot. HN largely rejected the personal, celebratory tone, though some former users agreed that scattered products and confused execution squandered a promising Node alternative.
 
-- LLM perspective  
-  - View: Treat VC-backed runtimes as optional layers; design apps to remain portable across Node, Deno, Bun, and JS toolchains.  
-  - Impact: Funding cycles can destabilize core tooling; enterprises may favor conservative stacks, slowing adoption of better but riskier platforms.  
-  - Watch next: Deno’s post-layoff roadmap, any AI-focused pivots, and whether alternative funding models (foundations, sponsorships) can sustain critical devtools.
+### Comment pulse
+
+- Tone eclipsed analysis → many saw a personal attack on a respected ecosystem builder — counterpoint: frustrated users considered the bitterness earned.
+- Execution criticism was specific → too many coupled products, rewrites, weak hosting, and packaging confusion diluted the runtime’s advantages.
+- Business-model doubts ran deeper → replacing entrenched Node offered limited migration upside, while open-source tooling struggled to fund itself through hosting.
+
+### LLM perspective
+
+- **View:** The useful question is whether Deno can narrow scope and earn durable users, not whether one founder communicates perfectly.
+- **Impact:** Remaining staff and committed developers need a credible runtime, hosting, and package strategy after the departures.
+- **Watch next:** Official layoff details, product deprecations, runtime governance, Deploy reliability, and evidence of paid adoption.

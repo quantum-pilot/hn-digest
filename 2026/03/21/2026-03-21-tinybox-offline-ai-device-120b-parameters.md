@@ -2,15 +2,18 @@
 
 - Score: 247 | [HN](https://news.ycombinator.com/item?id=47470773) | Link: https://tinygrad.org/#tinybox
 
-## TL;DR
-tinygrad, George Hotz’s minimalist deep learning framework, now ships tinybox: prebuilt multi-GPU machines aimed at cheap petaflop-scale, fully offline LLM training and inference. Red v2 (4× 9070XT, 64GB VRAM) and Green v2 (4× RTX 6000 Blackwell, 384GB VRAM) target local 70–120B-parameter models via aggressive quantization and RAM offload, with a 1-exaflop “exabox” planned. HN likes the human-written, opinionated site and local-control ethos but questions specs, 120B claims on red v2, and exabox’s competitiveness with Nvidia clusters—and watches tinygrad’s 2×-PyTorch performance promise.
+### TL;DR
 
-## Comment pulse
-- Local-control appeal → Human-written page and “AI for everyone” pitch resonate; buyers accept quirks like wiring and wire-transfer-only purchasing.  
-- 120B on red v2 disputed → 64GB VRAM implies quantization and RAM offload; — counterpoint: some report 120B by splitting weights across RAM and GPU.  
-- Exabox and tinygrad roadmap → Exaflop box seen as niche versus Nvidia DGX/Vera Rubin; others curious whether tinygrad can truly outpace PyTorch on real workloads.  
+Tiny Corp’s tinybox line packages multi-GPU machines around tinygrad for local training and inference. The $12,000 red v2 combines four Radeon 9070 XTs and 64GB VRAM; the $65,000 green v2 uses four RTX Pro 6000 Blackwell cards and 384GB VRAM. Both are fixed configurations ordered by wire transfer, while a roughly $10 million exabox is planned for 2027. The site markets performance per dollar and framework simplicity. Commenters questioned the headline’s 120B practicality, memory balance, chassis size, and value versus custom builds.
 
-## LLM perspective
-- View: This targets researchers and serious hobbyists who want turnkey local LLM rigs without wrestling with PCIe layouts and firmware.  
-- Impact: If pricing holds, could normalize petaflop homelabs and reduce dependence on cloud GPU rentals for mid-sized teams.  
-- Watch next: Independent benchmarks for 120B-class models, thermal/noise reports in homes, and whether exabox’s fabric competes with NVLink or Infiniband.
+### Comment pulse
+
+- Heavy quantization may fit a 120B model on red, but context cache and quality constraints undermine the simple parameter-count claim.
+- Green buyers gain ample accelerator memory — counterpoint: critics expect stronger CPUs, more system RAM, or better electrical provisioning at $65,000.
+- Tinygrad’s alpha exit target—twice PyTorch on common papers—prompted requests for precise workloads and hardware-utilization baselines.
+
+### LLM perspective
+
+- **View:** The useful product is a reproducible local appliance; raw model-size marketing obscures workload-specific throughput and latency.
+- **Impact:** Privacy-sensitive organizations gain an alternative to rented inference, provided they can operate specialized hardware.
+- **Watch next:** Tokens-per-second by quantization, long-context tests, power measurements, support quality, and independent total-cost comparisons.

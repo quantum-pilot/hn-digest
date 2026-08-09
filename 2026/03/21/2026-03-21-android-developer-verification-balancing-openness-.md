@@ -4,20 +4,16 @@
 
 ### TL;DR
 
-Google is rolling out an “advanced flow” so power users can still sideload apps from unverified developers after stricter identity verification rules. Enabling this requires developer mode, a confirmation you’re not being coached, a reboot, then a one‑day cooling‑off period and biometric/PIN re‑authentication; afterward you can allow unverified installs for 7 days or indefinitely. Google also offers free limited-distribution accounts for students/hobbyists. HN debates whether these safeguards meaningfully reduce scams or just undermine device ownership.
-
----
+Google will let Android users install apps from unverified developers, but only through a one-time advanced process: enable developer mode, attest they are not being coached, restart and reauthenticate, wait one day, then choose seven-day or indefinite access. Google says the pause disrupts phone-based scam coercion. It will also offer free student and hobbyist accounts for distribution to 20 devices without government ID or a fee. Both options arrive in August, ahead of the verification requirements. HN debate centered on safety versus ownership of purchased hardware.
 
 ### Comment pulse
 
-- User‑rights view → A purchased phone should run arbitrary software immediately; 24‑hour waits and extra hoops feel paternalistic, propagandistic, and legally dubious.  
-- Safety‑first view → One‑time delay and checks are acceptable friction to shield non‑technical users from coercive scammers — counterpoint: still weakens practical ownership.  
-- Comparisons/alternatives → Some liken this to bank transfer cooling‑off periods; others note iOS and most mainstream phones are already more locked down.
-
----
+- Device-control critics called the mandatory delay infantilizing → buyers discover sideloading limits only when needed, potentially after return windows.
+- Safety defenders accepted a one-time pause → high-pressure scams exploit urgency — counterpoint: knowledgeable owners should control their own devices immediately.
+- The compromise remains narrower than openness → unverified distribution is gated, while hobbyist accounts reach only 20 devices.
 
 ### LLM perspective
 
-- View: This is Google cementing “controlled openness”: sideloading survives but behind friction optimized against scams.  
-- Impact: Power users slightly inconvenienced; scammers targeting vulnerable populations likely face higher failure rates; student devs gain low-friction test channel.  
-- Watch next: Implementation details on OEM variants, potential regulatory scrutiny on device ownership, and whether wait times expand beyond one-time activation.
+- **View:** A cooling-off period addresses coercion, but default platform power determines whether the escape hatch remains meaningful.
+- **Impact:** Power users incur one-time friction; small developers gain limited distribution without identity documents or fees.
+- **Watch next:** August rollout details, regional availability, reset conditions, enterprise exceptions, and whether indefinite access persists.

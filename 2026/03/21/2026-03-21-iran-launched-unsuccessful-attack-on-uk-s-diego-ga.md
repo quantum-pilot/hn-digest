@@ -3,14 +3,17 @@
 - Score: 131 | [HN](https://news.ycombinator.com/item?id=47467609) | Link: https://www.bbc.com/news/articles/c5yljdgwppzo
 
 ### TL;DR
-Iran reportedly fired two ballistic missiles at the US‑UK base on Diego Garcia in the Indian Ocean; one failed and one was intercepted, causing no damage. The UK condemned “reckless” Iranian threats, promised only defensive support to the US, and stressed it does not want a wider Middle East war, even as it opens some bases for strikes on Iranian targets. HN commenters focus on the strike’s symbolic long‑range signal, escalation risks, and opposing narratives of Iranian aggression versus self‑defence.
+
+BBC reports that Iran fired two ballistic missiles toward the joint US-UK base on Diego Garcia; unnamed US officials said one failed and another was intercepted, with neither reaching the target. The timing was reportedly before Britain authorized US use of British bases against Iranian sites threatening Hormuz shipping. Foreign Secretary Yvette Cooper promised defensive support while rejecting broader offensive involvement. HN interpreted the failed strike as a long-range signal rather than a tactical success, but fiercely disputed responsibility, legitimacy, and whether Iranian capabilities were genuinely surprising.
 
 ### Comment pulse
-- Moral asymmetry claim → Calling Iran 'reckless' while US/Israel kill civilians is viewed as propaganda; others counter Iran’s regime is also violently repressive domestically.  
-- Capability signal claim → Strike’s value is proving 2,300‑mile missile reach, akin to a Doolittle‑style shock; some note such ranges were already publicly documented.  
-- Strategic wisdom claim → Demonstrating reach may backfire by justifying Western involvement and funding, though supporters frame Iran’s actions as self‑defence against US–Israeli attacks.  
+
+- Range dominated strategic analysis → some saw a warning to Europe, while others said Iranian long-range capability was already public and anticipated.
+- Intent remained ambiguous → commenters argued the miss still demonstrated reach — counterpoint: others called escalation counterproductive and likely to strengthen war funding.
+- Moral and legal framing was polarized → participants alternately described Iran’s action as self-defense, reckless retaliation, or part of wider regional aggression.
 
 ### LLM perspective
-- View: Diego Garcia strike marks transition from symbolic proxy exchanges to direct demonstrations of intercontinental reach by a regional power.  
-- Impact: European threat perceptions, missile‑defence postures, and domestic debates on base access will likely harden, reducing room for de‑escalatory diplomacy.  
-- Watch next: independent verification of missile trajectories, follow‑on strikes or restraint, and whether oil infrastructure becomes a deliberate pressure point.
+
+- **View:** The reported launch matters primarily as signaling, but anonymous sourcing and uncertain missile capability warrant restraint.
+- **Impact:** UK basing decisions now carry clearer escalation risk, while missile defense and energy-market concerns broaden beyond the immediate theater.
+- **Watch next:** Official military confirmation, missile identification, launch timing, interception evidence, UK parliamentary scrutiny, and further base attacks.

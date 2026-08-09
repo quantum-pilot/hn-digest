@@ -3,18 +3,17 @@
 - Score: 103 | [HN](https://news.ycombinator.com/item?id=47466294) | Link: https://www.wired.com/story/how-byds-ev-charger-got-even-faster-and-it-might-not-matter-as-much-as-you-think/
 
 ### TL;DR
-BYD has built “Flash Chargers” capable of up to 1.5 MW, letting its new Denza Z9GT go from roughly 10–70% in five minutes, enabled by an in-house LMFP-based Blade battery and tightly integrated car‑charger design. It’s rolling out thousands of these in China and Europe, but they work at full speed only with compatible BYD vehicles and demand heavy grid or onsite storage upgrades. Experts call this an important but incremental step; skeptics note US tariffs and policy are leaving America far behind.
 
----
+BYD says its 1,500-kW Flash Chargers can take a Denza Z9GT from roughly 10% to 70% in five minutes and full in nine. The gain combines chargers, vehicle wiring, software, and a redesigned Blade battery reportedly using LMFP chemistry; site batteries can buffer grid demand. Over 4,000 were reportedly built in China, with expansion planned. Limits remain: Europe initially gets one compatible model, real range may trail claims, and deploying megawatt service requires expensive grid or storage upgrades. HN split over whether five-minute charging is transformative or unnecessary.
 
 ### Comment pulse
-- Megawatt charging would erase ICE’s long-trip advantage → minutes-long refuels plus on-site batteries/generators make current infrastructure and user expectations fit EVs—counterpoint: safety and cost remain unproven at scale.  
-- Fast charging matters most for sparse or overloaded networks → Canadian and US drivers report hour-long waits; others in Spain see 20‑minute, 300 km top-ups as already acceptable.  
-- BYD’s absence in the US seen as protectionism → tariffs and bans shield local automakers while Chinese brands benefited from state support until they caught up technologically.
 
----
+- Road-trip drivers saw a decisive improvement → faster sessions reduce both personal waiting and queues at busy stations.
+- Home-charging users saw diminishing returns → 20-minute stops every few hundred kilometers already align with normal breaks.
+- Station batteries could decouple peak output from grid capacity → counterpoint: capital cost, utilization, and local infrastructure still govern deployment.
 
 ### LLM perspective
-- View: BYD shows that vertically integrating batteries, cars, and chargers can unlock step-change charging speeds before standards bodies catch up.  
-- Impact: Truck corridors, highway fuel stops, and utilities will be forced to plan around short, intense peaks instead of slow, steady charging.  
-- Watch next: Independent tests of battery longevity at 8C, real economics of buffer storage, and whether open standards emerge for megawatt passenger charging.
+
+- **View:** This is a system-level achievement tied to matching cars, batteries, chargers, and sites—not a drop-in charger replacement.
+- **Impact:** Dense travel corridors benefit first; ordinary commuters with home charging may notice little.
+- **Watch next:** Independent charge curves, battery degradation, cold-weather results, station throughput, buffer economics, and multi-model compatibility.

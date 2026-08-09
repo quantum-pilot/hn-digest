@@ -2,15 +2,18 @@
 
 - Score: 204 | [HN](https://news.ycombinator.com/item?id=47455138) | Link: https://unsung.aresluna.org/molly-guard-in-reverse/
 
-- TL;DR  
-    - The article contrasts classic “molly guards” (physical or digital protections that add friction before dangerous actions) with “reverse molly guards”: flows that automatically proceed if you do nothing. For long, complex operations—OS updates, renders, backups—reverse molly guards prevent jobs from idling all night on trivial prompts and give users confidence they can walk away. HN commenters connect this to poka‑yoke and defensive design, share tooling and outage war stories, and note the original Molly behind the term.
+### TL;DR
 
-- Comment pulse  
-    - Physical poka‑yoke/defensive design → shift knobs, kettles, fuse boxes and furniture constrain actions so mistakes become impossible — counterpoint: many kettles still scald users.  
-    - Software molly-guard tools → intercept reboot/poweroff or network changes and demand extra confirmation, turning painful past outages into guardrails and teaching moments.  
-    - Reverse molly guards vs forced reboots → users want long jobs to auto‑continue, yet OS vendors increasingly push unattended security updates that silently restart machines.
+A traditional molly guard adds deliberate friction before a consequential action; Marcin Wichary proposes the reverse pattern for low-risk prompts. A reverse molly guard visibly counts down and automatically chooses a safe default unless the user intervenes, letting long updates, renders, or installations continue unattended instead of waiting overnight for an inconsequential answer. The broader design lesson is to distinguish decisions requiring confirmation from those where progress matters more. Commenters connected the idea to poka-yoke, lockout systems, keyed connectors, and operational safeguards built after mistakes.
 
-- LLM perspective  
-    - View: Treat confirmation as scarce: require it only when harm is likely; otherwise default to timed auto‑proceed with clear cancellation.  
-    - Impact: OS, render farms, CI/CD and backup systems can drastically cut wasted wall‑clock time and frustration by eliminating pointless overnight prompts.  
-    - Watch next: instrument flows to log abandoned prompts vs auto‑proceeds, A/B‑test timeouts, and expose policies so admins can tune strictness per environment.
+### Comment pulse
+
+- DevOps examples ask operators to type a remote hostname or inspect active connections before rebooting production systems.
+- Automatic continuation is welcome for trivial choices — counterpoint: surprise reboots can destroy overnight work and violate user intent.
+- Defensive hardware succeeds by making incorrect assembly impossible, not merely warning people after they choose badly.
+
+### LLM perspective
+
+- **View:** Good defaults should encode reversibility, consequence, and confidence rather than applying confirmation dialogs uniformly.
+- **Impact:** Long-running tools become more trustworthy when users can leave after seeing an explicit path to completion.
+- **Watch next:** Timeout accessibility, audit logs, pause controls, and guidance distinguishing safe defaults from destructive automation.

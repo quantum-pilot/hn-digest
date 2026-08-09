@@ -2,15 +2,18 @@
 
 - Score: 141 | [HN](https://news.ycombinator.com/item?id=47435081) | Link: https://github.com/eggricesoy/filmkit
 
-## TL;DR
-FilmKit is a browser-based clone of Fujifilm’s X RAW STUDIO that talks to X‑series cameras over WebUSB/PTP, letting the camera’s own processor handle RAW→JPEG conversion while you manage and tweak film-simulation presets. It adds a local preset library, quick compare, detection of recipes used in existing RAFs, and works on desktop and Android with no installation. HN photographers like finally having a Linux/mobile option, discuss color pipelines and alternatives, and share mixed compatibility reports on older bodies and macOS.
+### TL;DR
 
-## Comment pulse
-- Fuji shooters welcome a no-install preset manager that runs in Chrome on Linux/mobile; some older bodies need tweaks or Wireshark captures to map profile formats.  
-- Thread contrasts camera-processor conversion here with full raw engines like Capture One, RawTherapee, and libraw; Lightroom’s Fuji handling called “wormy” and inferior.  
-- Side debate over spelling RAW vs raw: linguists prefer lowercase correctness—counterpoint: industry and camera manuals overwhelmingly standardize on uppercase “RAW”.
+FilmKit is a beta, static web app that connects to Fujifilm cameras through WebUSB and PTP, letting the camera itself convert RAF files to JPEG. It manages on-camera and local presets, live previews, import/export, automatic preset detection, comparison, mobile use, and Linux access without installation. Reverse engineering combined existing projects with USB captures; a patch-based profile writer preserves unknown bytes. Only the X100VI is verified, and other models need compatibility captures. HN users welcomed the Linux/mobile option but reported both successful connections and model-specific profile failures.
 
-## LLM perspective
-- View: Treating cameras as networked coprocessors via WebUSB hints at broader browser-based tooling for proprietary hardware workflows.  
-- Impact: Fujifilm users, especially on Linux and mobile, gain faster iteration on film recipes without vendor lock-in or desktop installers.  
-- Watch next: expand body support, publish protocol notes, and build generic PTP tools other vendors’ cameras can piggyback on.
+### Comment pulse
+
+- Camera-side conversion is the key distinction → FilmKit orchestrates Fujifilm’s processor rather than recreating proprietary color rendering in JavaScript.
+- Compatibility remains the beta’s main risk → an X-T30 needed profile tweaks, while one GFX body was visible but could not connect.
+- The workflow fills a real gap → users disliked Fujifilm’s native software and wanted fast recipe experimentation without a Windows installation.
+
+### LLM perspective
+
+- **View:** A client-only WebUSB design makes deployment simple, but browser and camera-protocol compatibility become the product boundary.
+- **Impact:** Fujifilm owners gain preset management on Linux and Android while keeping image processing on trusted camera hardware.
+- **Watch next:** Captures from older bodies, firmware-specific quirks, permission guidance, browser support, and a tested compatibility matrix.

@@ -3,18 +3,17 @@
 - Score: 152 | [HN](https://news.ycombinator.com/item?id=47462483) | Link: https://github.com/arnoldrobbins/LinuxByExample-2e
 
 ### TL;DR
-Arnold Robbins has published the companion GitHub repository for his book “Linux Application Development by Example – The Fundamental APIs (2nd Edition).” It contains C source files organized by chapter, covering command-line handling, memory management, file I/O and metadata, processes, signals, networking, i18n, debugging, and more, plus errata and licensing docs. The book itself is commercial; HN discussion orbits around alternative Unix-programming texts, language choices like OCaml, and frustration that the submission doesn’t include the book’s full content.
 
----
+The repository publishes example programs from Arnold Robbins’s second-edition Linux systems-programming book, not the book’s prose. Organized by chapter, its predominantly C code covers command lines, memory, file I/O and metadata, an ls implementation, mounting, processes, signals, limits, networking, internationalization, extended interfaces, and debugging. A Documents folder carries licensing material and future errata; issues can report mistakes. HN discussion was sparse and confused about the submission’s purpose, with readers asking whether the book itself was available and suggesting a more portable OCaml Unix text.
 
 ### Comment pulse
-- Alternative resource: some prefer Leroy/Remy’s OCaml-based Unix-systems text as more portable and higher-level—counterpoint: others find OCaml an odd, less-readable choice for learning Unix programming.
-- Readers ask if there’s a real book; answer: yes, a Pearson/InformIT title, with this repo only hosting example C code and errata.
-- Several question why a paywalled book’s code repo is an HN submission, and thread partially drifts into portability, GUI toolkits, and licensing concerns.
 
----
+- The repository is companion code, not a free manuscript → readers must obtain the published book for the full exposition.
+- An OCaml alternative divided commenters → exceptions simplify error handling and clarify control flow, but can hide the complexity C programmers must confront.
+- Weak repository framing caused confusion → several readers could not tell why a five-commit code archive had been submitted.
 
 ### LLM perspective
-- View: Useful, well-structured C examples for Linux APIs; maximally valuable when paired with the book but still instructive standalone.
-- Impact: Most relevant to Linux-focused systems programmers, CS students, and educators emphasizing practical API usage over pure POSIX portability.
-- Watch next: Whether author/publisher add more documentation, exercises, or a partial freely available text to make the repo self-sufficient.
+
+- **View:** Example code becomes useful when paired with chapter context, build instructions, expected output, and explicit edition mapping.
+- **Impact:** Systems-programming learners can inspect working C examples, but the repository alone provides little instructional narrative.
+- **Watch next:** Errata growth, issue responses, build portability, test coverage, and whether explanatory excerpts or sample chapters appear.
