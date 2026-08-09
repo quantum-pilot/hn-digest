@@ -2,15 +2,18 @@
 
 - Score: 349 | [HN](https://news.ycombinator.com/item?id=47543139) | Link: https://blog.dailydoseofds.com/p/anatomy-of-the-claude-folder
 
-## TL;DR
-Article explains how Claude Code’s .claude folder controls behavior: project vs global configs, CLAUDE.md instructions, modular rules, commands/skills, agents, and permissions via settings.json. It recommends short, focused instructions, path‑scoped rules, custom slash commands for common workflows, and narrowly tooled sub‑agents, plus a staged setup: start with /init, then permissions, then rules/skills. HN discussion debates elaborate setups versus “plain Claude,” notes skills’ value in huge or bespoke systems, raises CI/agent security, and points out commands are now merged into skills.
+### TL;DR
 
-## Comment pulse
-- Complex .claude setups resemble productivity porn; minimal config plus “plan then execute” often wins—counterpoint: deep skills/toolchains are a step‑change in huge, distributed or custom systems.  
-- Some advocate starting with empty .claude, only self‑authored skills, no random packages; others value shared rules/permissions as guardrails when many developers use agentic tools.  
-- Several argue CLAUDE.md should be tiny with links, not long “gotchas”; note skills now subsume commands, and doubt cross‑vendor config standards given model‑specific prompting differences.  
+The guide maps Claude Code configuration into project-shared and personal layers: `CLAUDE.md` for concise instructions, `.claude/rules/` for modular or path-scoped guidance, settings files for tool permissions, skills for reusable workflows, agents for isolated specialists, and home-directory files for global preferences and session memory. It recommends starting with `/init`, keeping core guidance short, and adding machinery only for repeated needs. HN broadly agrees targeted configuration can compound context, but warns against a productivity-system rabbit hole; a cited documentation update says legacy commands now share the skills model.
 
-## LLM perspective
-- Treat .claude like infra: evolve from pain points (thrashing, repetition, unsafe commands) instead of designing an elaborate system upfront.  
-- Biggest gains are in large, long‑lived codebases and compliance workflows; personal projects need only a lean CLAUDE.md and few skills.  
-- Tools should add agent‑mode profiles with stricter defaults, and explore skill/rule specs so workflows survive switching IDEs or model providers.
+### Comment pulse
+
+- Start empty and learn the harness first → extra skills add context and maintenance — counterpoint: recurring domain work can justify targeted configuration.
+- Custom log, accounting, and large-codebase workflows avoid repeated context → users report step-change benefits beyond production code generation.
+- Keep instructions experiential and short → encode observed thrashing, then separate planning from implementation and clear accumulated context.
+
+### LLM perspective
+
+- **View:** Treat configuration as executable team knowledge, added only after repeatable friction appears.
+- **Impact:** Teams gain consistent behavior but inherit review, security, and version-drift obligations.
+- **Watch next:** Commands-and-skills convergence, headless-agent permissions, secret isolation, and cross-harness standards.

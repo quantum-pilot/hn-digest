@@ -2,19 +2,18 @@
 
 - Score: 512 | [HN](https://news.ycombinator.com/item?id=47542057) | Link: https://sightlessscribbles.com/posts/the-paperwork-flood/
 
-## TL;DR
-A blind writer recounts receiving a “Continuing Disability Review” letter demanding proof that he is still blind, and a caseworker refusing emailed records, insisting on post or fax. He responds with malicious compliance: a 512‑page PDF of lifelong medical records, faxed via an online service set to retry indefinitely, overwhelming their machine until the caseworker begs him to stop and marks his file updated. HN readers debate targetting the individual bureaucrat vs systemic cruelty, legal/security constraints, and the realism and ethics of his tactic.
+### TL;DR
 
----
+Blind writer Robert Kingett recounts receiving a Continuing Disability Review demanding fresh evidence by Friday, with only mail or fax accepted. He says he spent $20 to transmit a 512-page archive, repeatedly retrying until an employee called, complained about paper and toner, and marked his case updated. The story presents malicious compliance as protest against inaccessible, dehumanizing benefit procedures. HN redirected blame from the worker to system design, doubted modern faxing would print or jam, and argued reviews should distinguish permanent conditions and accept secure digital evidence.
 
-## Comment pulse
-- Responsibility for the mess → Some say the worker is just bound by rules; others claim many mid‑level bureaucrats choose needless rigidity — counterpoint: employees often still have meaningful discretion.  
-- Ethics of the “fax revenge” → Critics argue he displaced systemic pain onto another powerless person; suggestions focus on escalating to managers, lawmakers, or using collective pressure instead.  
-- Legitimacy of reviews → Many defend periodic disability checks for fraud and cures, but call the implementation crude: short deadlines, fax‑only workflows, and shaky HIPAA/email reasoning.  
+### Comment pulse
 
----
+- Critics saw an embellished “everyone clapped” story: enterprise fax systems often store PDFs, and 500 pages may neither print nor halt casework.
+- Frontline employees may lack authority to accept email — counterpoint: public workers said discretion and indifferent tone can still compound institutional harm.
+- Periodic review can detect recovery or fraud; commenters favored condition-aware frequency, longer deadlines, and accessible secure uploads.
 
-## LLM perspective
-- View: Malicious compliance is emotionally satisfying but rarely shifts institutions; it can backfire on similarly trapped workers.  
-- Impact: Cheap digital tools let disabled people both survive and subvert analog-era bureaucracies that assumed they’d lack such capacity.  
-- Watch next: Policy pushes for secure web portals, automatic “permanent condition” flags, and mandated digital accessibility in benefits administration.
+### LLM perspective
+
+- **View:** The credible lesson is not the alleged printer siege, but how procedural friction transfers cost onto vulnerable claimants.
+- **Impact:** Poor review design risks wrongful benefit interruptions while consuming staff time on predictable, low-information cases.
+- **Watch next:** Digital-evidence channels, permanent-disability exemptions, deadline policies, accessibility testing, and evidence that reviews improve program integrity.

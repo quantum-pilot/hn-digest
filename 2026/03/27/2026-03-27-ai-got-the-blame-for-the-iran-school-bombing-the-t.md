@@ -2,26 +2,18 @@
 
 - Score: 309 | [HN](https://news.ycombinator.com/item?id=47544980) | Link: https://www.theguardian.com/news/2026/mar/26/ai-got-the-blame-for-the-iran-school-bombing-the-truth-is-far-more-worrying
 
-## TL;DR
+### TL;DR
 
-A US strike on Shajareh Tayyebeh primary school in Iran killed ~180 people, mostly young girls. Media and politicians quickly blamed “rogue AI,” especially Anthropic’s Claude, but the targeting actually ran through Palantir’s Maven system, which fuses imagery and sensor data and pushes targets through a highly compressed “kill chain.” The real failure was old: misclassified intelligence, unchecked databases, and a bureaucracy optimized for speed over judgment—then politically shielded by framing the atrocity as an AI glitch instead of a human decision.
+The article argues Claude did not select the Shajareh Tayyebeh school struck by US forces on February 28, killing 175–180 people, mostly girls 7–12. Targeting used Palantir’s Maven; a stale Defense Intelligence Agency record classified the building—converted into a school by 2016—as military. Its indictment is institutional: Maven compresses data fusion, weapon recommendation, approval, and execution toward 1,000 targeting decisions per hour, leaving less time and discretion to catch errors. HN disputes how much review time existed but agrees this was not an LLM hallucination.
 
----
+### Comment pulse
 
-## Comment pulse
+- Speed without battlefield urgency weakened verification → planners should have cross-checked the site — counterpoint: commenters dispute how much notice operators had.
+- Public listings are clues, not targeting proof → direct, current intelligence should distinguish a repurposed school from adjacent military buildings.
+- Claude coverage misdirects accountability → commenters debate its prevalence but distinguish language-model use from Maven’s broader sensing and workflow stack.
 
-- Maven in a preplanned surprise attack → minutes saved didn’t save US lives, so not triple-checking targets was an unforced, culpable human failure — counterpoint: coordination and tempo may still have imposed real time pressure.
+### LLM perspective
 
-- “Police Park” strike story → some see it as AI keyword targeting; others find no solid sourcing and note such dumb mis-targeting long predates modern AI.
-
-- Claude’s role → some insist LLMs are involved via Palantir/Bedrock; others agree focus on Claude is a red herring hiding Pentagon, contractor, and political responsibility.
-
----
-
-## LLM perspective
-
-- View: LLMs’ charisma makes them convenient scapegoats, distracting from opaque, decades-old surveillance and targeting infrastructures.
-
-- Impact: Accountability should target data maintenance, rules of engagement, and command approval, not just model alignment or prompt-logging.
-
-- Watch next: Scrutinize investigations into Maven, kill-chain timing, and any reforms that restore explicit human veto and slower review for civilian-risky targets.
+- **View:** The central failure described is stale truth accelerated by workflow, not autonomous LLM targeting.
+- **Impact:** Targeting organizations need accountable humans, independent validation, and enough time to challenge packaged assumptions.
+- **Watch next:** Official findings, database history, target approvals, Maven’s exact role, civilian-harm review, and legal scrutiny.

@@ -3,18 +3,17 @@
 - Score: 252 | [HN](https://news.ycombinator.com/item?id=47547009) | Link: https://lr0.org/blog/p/macos/
 
 ### TL;DR
-The post complains that macOS 26’s new ultra-rounded window corners are ugly, but argues the real sin is *inconsistency* between apps. Rather than disable System Integrity Protection to flatten everything, the author injects a small AppKit-based dynamic library via `DYLD_INSERT_LIBRARIES` to swizzle private `NSThemeFrame` methods and force a fixed, larger corner radius for third‑party GUI apps. The result: a deliberately “consistently bad” but visually uniform UI, trading purity and safety for sanity.
 
----
+macOS 26’s mixed window radii annoy the author more than roundness itself, so they make third-party AppKit windows uniformly worse: a signed injected dynamic library swizzles private `NSThemeFrame` corner methods to return 23 points, while skipping Apple applications, daemons, and command-line tools. A LaunchAgent sets `DYLD_INSERT_LIBRARIES`, avoiding edits to protected system libraries and therefore preserving SIP. HN broadened the complaint to Tahoe’s pill-shaped tabs, wasted space, resize behavior, and sluggishness, but disagreed about the design premise: many users never maximize windows, especially on ultrawide displays, while others expect edge-to-edge layouts.
 
 ### Comment pulse
-- macOS window model assumes overlapping, non-maximized windows → many users like half-sized, side-by-side apps; others find non-snapping, pill-styled UI elements disorienting and space-wasting.  
-- Performance feels worse in macOS 26 → WindowServer and kernel_task spikes, UI lag, and workarounds erode confidence; some look to QubesOS or AI-built OSes—counterpoint: AI UIs already look worse.  
-- Corner-radius drama = bikeshedding to some → surface nitpicks imply a solid OS; others see it as evidence of opinionated, unfixable design rot.
 
----
+- Overlapping windows with exposed corners are longstanding macOS practice; maximization can waste widescreen space or create excessively long editor lines.
+- Critics called Tahoe a thousand-cut regression — counterpoint: some saw corner outrage as harmless bikeshedding around a capable OS.
+- High WindowServer CPU may reflect apps flooding updates rather than compositor failure, though users reported serious post-upgrade latency.
 
 ### LLM perspective
-- View: Clever, targeted use of method swizzling avoids SIP, but relies on private APIs and global `DYLD_INSERT_LIBRARIES`, so it’s brittle.  
-- Impact: Appeals to power users wanting consistent aesthetics without full theming engines; regular users remain stuck with Apple’s design decisions.  
-- Watch next: Whether Apple locks down such injection vectors, offers official window-theming controls, or third-party window managers fill the gap.
+
+- **View:** Consistency improves coherence, but global injection through private methods is brittle whenever AppKit internals change.
+- **Impact:** The tweak preserves SIP yet affects every eligible process inheriting the environment, so compatibility testing matters.
+- **Watch next:** Selector changes, per-app exclusions, Intel/Apple Silicon behavior, performance impact, and whether Apple normalizes radii upstream.

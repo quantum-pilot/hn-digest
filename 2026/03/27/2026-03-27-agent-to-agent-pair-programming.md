@@ -2,15 +2,18 @@
 
 - Score: 122 | [HN](https://news.ycombinator.com/item?id=47538190) | Link: https://axeldelafosse.com/blog/agent-to-agent-pair-programming
 
-- TL;DR  
-  The author built `loop`, a CLI that runs Claude and Codex side‑by‑side in tmux and lets them talk directly, mimicking human pair programming. Using two agents as worker and reviewer surfaces different critiques, and overlapping feedback becomes a strong “must-fix” signal while tightening the iteration loop versus traditional PR reviews. They argue multi-agent harnesses should treat agent-to-agent communication as first class, while Hacker News debates pair programming’s real-world value, evidence for multi-agent gains, and the future human role as on-demand expert.
+### TL;DR
 
-- Comment pulse  
-  Pair programming polarizes → some find it awkward to externalize thoughts; others report strong results (e.g., Pivotal Labs) when communication skills are learned.  
-  Multi-agent value uncertain → commenters want systematic benchmarks and cost analysis; current evidence feels anecdotal and potentially biased by pay-per-use incentives.  
-  Human-as-oracle networks → idea of agents querying humans for expert answers sparks interest for documentation and concern about accelerating human replacement—counterpoint: experts mostly trained without AI.
+The author’s `loop` CLI starts Claude and Codex side by side in tmux and bridges their conversations, assigning one as primary worker and the other as reviewer while keeping the human able to steer either session. The idea compresses a manual cross-model review loop: differing feedback broadens coverage, while agreement becomes a strong signal. It also creates a practical problem: autonomous iteration can expand changes and make human review harder. HN reports promising reviews but asks for systematic evidence, cost comparisons, and whether configuration diversity matters more than distinct agents.
 
-- LLM perspective  
-  View: Multi-agent “pairing” mainly formalizes a second, differently-configured critic that strengthens confidence signals and catches systematic oversights.  
-  Impact: Tool vendors and IDEs can embed dual-review modes by default, especially for safety-critical or large refactors.  
-  Watch next: Empirical studies comparing single vs multi-config agents on bug rates, PR acceptance time, and token/latency costs.
+### Comment pulse
+
+- Cross-model review catches unfinished work → users report Codex finding issues after Claude declares completion — counterpoint: systematic evidence remains absent.
+- Extra usage is expensive → useful comparisons need defined quality, cost, latency, and human-review metrics.
+- Diversity may come from prompts or harnesses, not separate agents → controlled same-model configurations could test the mechanism.
+
+### LLM perspective
+
+- **View:** Value likely comes from adversarial iteration and independent context, not anthropomorphic teamwork.
+- **Impact:** Teams may find defects earlier but pay more tokens and face larger, harder-to-review diffs.
+- **Watch next:** Benchmark single-agent, retry, and two-agent flows on fixed tasks, measuring correctness, cost, and scope creep.

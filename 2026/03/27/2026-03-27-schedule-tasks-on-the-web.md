@@ -2,15 +2,18 @@
 
 - Score: 281 | [HN](https://news.ycombinator.com/item?id=47539188) | Link: https://code.claude.com/docs/en/web-scheduled-tasks
 
-- TL;DR  
-Anthropic’s Claude Code now supports cloud “scheduled tasks”: recurring, autonomous runs of a prompt against fresh GitHub clones and MCP-connected services, using configurable environments, schedules, and models. Tasks live on Anthropic’s infra, persist across restarts, and can open PRs, send notifications, or sync data without a user online. HN discussion ranges from excitement about end‑to‑end agentic dev workflows, through concerns about error compounding and inference costs, to skepticism that many use cases really need AI rather than simple deterministic automations.
+### TL;DR
 
-- Comment pulse  
-  - Launch welcomed, but contrasted with opaque usage limits and Twitter rumors; some note FUD about “rugpulls,” others say variable pricing and cloud control are normal.  
-  - Some envision end‑to‑end agentic SDLC, but others report cascading errors, messy AI code, and humans losing understanding — counterpoint: promising in narrow, tool-rich workflows.  
-  - Many say cron-like rules handle alerts or web checks cheaper and reliably; AI mainly helps non-coders specify “then” actions or fuzzy notions like “good deal”.
+Claude Code now runs recurring prompts on Anthropic-managed infrastructure even when a user’s computer is off. Cloud schedules support hourly, daily, weekday, weekly, and CLI-customized cadences; each run freshly clones selected GitHub repositories, defaults pushes to `claude/` branches, uses a chosen environment, and creates a reviewable session. Network access, secrets, setup scripts, models, and connectors are configurable, though every existing connector is included by default unless removed. HN saw promise for reviews, CI triage, and stakeholder-driven updates, but warned that nondeterministic agents compound errors and often replace simpler cron jobs.
 
-- LLM perspective  
-  - View: This is essentially managed cron plus an LLM agent wired into GitHub and connectors, exposed via UI and CLI.  
-  - Impact: Most valuable for small teams lacking DevOps: recurring PR grooming, audits, and syncing without standing up CI or custom scripts.  
-  - Watch next: Key to adoption: reliable evals, guardrails on repo mutations, clearer pricing/quotas, and better UIs for defining conditions beyond time-based triggers.
+### Comment pulse
+
+- Fully agentic feedback-to-deployment loops promise speed — counterpoint: each stage can multiply mistakes until no human retains a reliable system model.
+- Conditional alerts need explicit definitions, tools, and evaluations; vague prompts often notify on both positive and negative cases.
+- Natural-language scheduling lowers automation barriers, but deterministic rules remain cheaper and more reliable whenever the condition is formalizable.
+
+### LLM perspective
+
+- **View:** Scheduling solves persistence and orchestration, not judgment; reliable tasks require narrow scope, explicit criteria, and idempotent actions.
+- **Impact:** Teams automate maintenance without always-on machines, while connector and secret exposure becomes a recurring unattended risk.
+- **Watch next:** Run pricing, quotas, failure notifications, connector least privilege, concurrency controls, eval support, and audit retention.

@@ -3,18 +3,17 @@
 - Score: 361 | [HN](https://news.ycombinator.com/item?id=47539825) | Link: https://micahkepe.com/blog/jsongrep/
 
 ### TL;DR
-jsongrep is a Rust CLI that treats JSON as a tree and your query as a regular language over paths (keys/indices). It compiles queries into an epsilon-free NFA, then a DFA, and does a single depth‑first walk of the JSON tree, pruning non-matching branches and using zero‑copy parsing. Benchmarks against jq-like tools on up to 190MB JSON show slower query compilation but much faster search and best end‑to‑end times. HN discussion centers on jq’s syntax, whether speed really matters, and niche big‑data use cases.
 
----
+jsongrep is a Rust CLI for locating JSON values by matching paths, with fields, indices, ranges, wildcards, alternation, optionals, and recursive descent. It compiles its regular path language through a Glushkov NFA into a DFA, then traverses the parsed tree once, pruning nonmatching branches with constant-time transitions; zero-copy parsing adds speed. The author’s benchmarks show it outperforming four Rust-based alternatives on large documents. Crucially, it is a search tool, not a full jq replacement: it lacks filters, arithmetic, interpolation, and transformations, while its richer compile step costs more.
 
 ### Comment pulse
-- jq ergonomics are polarizing → some find its operators arcane and prefer CEL, JavaScript, or Clojure/EDN-based tools—counterpoint: others find jq’s dot/pipe style intuitive and powerful.
-- Speed skepticism → many say jq/yq already feel fast; they value clearer syntax and examples over microsecond wins for typical CLI use.
-- Big-data and ops care → TB-scale ndjson/logs, high-RPS servers, and map-reduce-like shell pipelines do hit jq limits; faster, lower-CPU tools compound into real savings.
 
----
+- Most CLI users prioritize syntax and features because jq feels fast enough — counterpoint: terabyte-scale logs and high-request services expose aggregate costs.
+- Limited expressiveness partly explains the lead → comparing a search subset with transformation tools requires task-specific interpretation.
+- Large-scale operators value habitual efficiency → savings across many servers and repeated jobs can outweigh the learning cost.
 
 ### LLM perspective
-- View: Compiling JSON path queries to DFAs is a clean application of classic automata theory to a very practical niche.
-- Impact: Most casual jq users won’t switch; power users in data/infra and Rust projects embedding JSON search might.
-- Watch next: More expressive yet still-regular query features, benchmarks on ndjson/streaming, and integration with log/metrics pipelines.
+
+- **View:** This is best considered ripgrep for JSON paths, not a drop-in jq replacement.
+- **Impact:** Operations and embedded Rust users gain faster lookup; transformation-heavy workflows still need jq or another language.
+- **Watch next:** Independent benchmarks, memory use, pathological DFA growth, streaming support, and correctness on varied real workloads.

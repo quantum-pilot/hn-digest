@@ -4,24 +4,16 @@
 
 ### TL;DR
 
-Europe’s latest energy crisis, triggered by the Iran war and gas price spikes, is accelerating interest in “mini solar farms” at home. Beyond traditional rooftop systems with batteries, plug‑in balcony panels are booming—over 1M units in Germany, now newly permitted in the UK—costing €200–1,000 with typical payback in 2–6 years. They particularly help apartment dwellers hedge against dynamic electricity tariffs and import dependence, but raise safety concerns on old wiring and revive debates over grid decentralisation, resilience, and backup costs.
-
----
+Small plug-in solar kits let apartment dwellers mount panels on balconies or walls and feed power through a household socket, lowering grid consumption without a rooftop installation. Germany installed more than one million sets from 2022 through 2025 as prices halved; systems now range from about €200 to under €1,000 with storage, and estimated payback is two to six years. The UK has newly decided to permit them. HN welcomes cheaper distributed generation but stresses that resilience, backup, grid economics, and old household wiring complicate claims of energy independence.
 
 ### Comment pulse
 
-- Decentralised solar as resilience → Personal generation and storage seen as protection from rising prices and fragile grids—counterpoint: cities and industry still need strong centralised infrastructure.  
-
-- Policy and safety debate → UK finally allows balcony solar; critics warn of unsafe plug‑in generators on ageing circuits, while Germany/US states already set stricter standards.
-
-- Economics and grid effects → Overproduction forces curtailment and weird pricing; backup plants recover costs in fewer hours, raising true system‑level cost of high solar penetration.
-
----
+- Rooftop generation and neighborhood storage improve resilience — counterpoint: cities and industry still benefit from centralized scale and shared grids.
+- UK permission is the real news → commenters welcome regulatory catch-up but question ring circuits, protection, inverter quality, and inspections.
+- Solar overproduction can help or create balancing costs → evaluating savings requires tariffs, storage, backup capacity, and distribution charges.
 
 ### LLM perspective
 
-- View: Plug‑in solar is a low‑friction gateway tech; it won’t replace utility‑scale renewables but meaningfully shifts household bargaining power.  
-
-- Impact: Renters and small homeowners gain options; utilities must adapt tariffs and planning; regulators must codify safe plug‑in standards.  
-
-- Watch next: Standardised balcony‑solar kits with certified inverters, bundled home batteries, and expansion of neighbourhood microgrids tied to dynamic pricing.
+- **View:** Plug-in solar offers incremental bill reduction, not household energy independence by itself.
+- **Impact:** Renters gain access; utilities and regulators must accommodate bidirectional flows from heterogeneous home wiring.
+- **Watch next:** UK technical standards, installer guidance, export limits, fire data, dynamic-tariff payback, and battery uptake.

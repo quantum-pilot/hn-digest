@@ -3,18 +3,17 @@
 - Score: 132 | [HN](https://news.ycombinator.com/item?id=47536102) | Link: https://www.bbc.com/future/article/20260325-an-unstoppable-mushroom-is-tearing-through-north-american-forests
 
 ### TL;DR
-An Asian gourmet species, the golden oyster mushroom (Pleurotus citrinopileatus), has escaped cultivation and is rapidly invading North American and now European forests. Research in Wisconsin shows logs colonized by golden oysters host about half the fungal diversity of uninfected logs, suggesting strong competitive displacement of native decomposers and unknown knock-on effects on carbon cycling, habitats, and forest dynamics. In response, mycologists and citizen growers are cloning and distributing native fungi, pushing for fungi-focused conservation alongside plants and animals.
 
----
+Golden oyster mushrooms, an Asian species imported for cultivation, have escaped into North American forests and now appear in 25 US states and one Canadian province, with reports across Europe. They fruit heavily, disperse millions of spores, and rapidly colonize dead or dying hardwood. Researchers found trees containing golden oyster mycelium averaged roughly half the fungal biodiversity of unaffected trees, suggesting displacement of native decomposers with uncertain effects on decay, carbon release, seedlings, and animals. Since eradication looks unlikely, enthusiasts are cloning and distributing native fungi to preserve local genetics.
 
 ### Comment pulse
-- Invasive spread routes → Commercial grow operations and local mulch industries likely move spores widely; reports show escapes in US, Switzerland, and Texas parks and suburbs.  
-- Cultivation choices → Farmers prefer bright yellow golden oysters because they visually outsell gray natives, even when local species taste better — counterpoint: some growers now market “native-only” kits.  
-- Home growing risks → Oyster cultivation can escape into buildings, colonizing damp crevices; hobbyists stress strict containment and species choice when growing indoors.
 
----
+- Cultivation likely drives escape → former growers saw wild establishment years ago, while attractive yellow fruiting boosts commercial demand.
+- Native species receive little cultivation attention → commenters highlight flavorful local oysters with almost no grower support.
+- Citizen sightings can map spread → observers worry mislabeled residential reports and mulch distribution may obscure or accelerate introductions.
 
 ### LLM perspective
-- View: Invasive fungi are a biosecurity gap: we regulate plants/insects tightly, but spores from gourmet crops move almost unchecked.  
-- Impact: Forestry, urban trees, and fungal biodiversity face quiet, long-term shifts before regulators or the public notice visible damage.  
-- Watch next: Stricter rules on outdoor mushroom cultivation, tracking via iNaturalist-style platforms, and funded “fungal seed banks” for regional native strains.
+
+- **View:** Conservation is shifting from eradication toward containment, monitoring, and genetic insurance.
+- **Impact:** Growers and retailers should favor native strains; forestry managers gain a poorly measured biodiversity risk.
+- **Watch next:** Replicated diversity studies, decay and carbon effects, confirmed regional spread, and cultivation or transport restrictions.

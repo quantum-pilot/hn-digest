@@ -2,15 +2,18 @@
 
 - Score: 132 | [HN](https://news.ycombinator.com/item?id=47543201) | Link: https://geohot.github.io//blog/jekyll/update/2026/02/26/the-last-gasps-of-the-rent-seeking-class.html
 
-## TL;DR
-- Hotz argues much of the US economy runs on “friction rents”: call centers, hostile UIs, and brand inertia that exploit customers’ limited time and attention. He claims cheap, capable AI agents will annihilate these moats by handling comparison shopping, negotiations, and bureaucracy at machine scale. He’s optimistic that Chinese open-source models will commoditize AI capabilities, undermining closed US “model moats” like Anthropic’s, and even welcomes a painful collapse of the current rent-seeking economy. HN debates markets, middlemen, regulation, and realistic AI tooling adoption.
+### TL;DR
 
-## Comment pulse
-- Free market vs capitalism → friction and offshore call centers are seen as normal profit-seeking; “free” isn’t “fair,” and perfect-information markets never exist.  
-- Middlemen are inevitable → unregulated markets spawn rent-extracting intermediaries; weaker antitrust enables pathologies like tradable restaurant reservations that distort real economic activity.  
-- AI coding for all is oversold → opportunity cost remains; individuals may buy polished tools, but businesses could replace pricey SaaS with AI-assisted in-house systems.
+George Hotz argues much U.S. enterprise value rests on deliberately wasting consumers’ scarce time through call centers, opaque pricing, and cumbersome interfaces. Personal AI agents could reverse that asymmetry by comparison-shopping, negotiating, and filtering outreach at machine speed. He expects Chinese open models to commoditize models, while forkable applications prevent durable wrapper monopolies. HN challenged both premises: friction and middlemen can emerge within free markets, agent access does not erase opportunity cost, and automated demand may create new scarcity, fees, or concentrated platforms rather than fair prices.
 
-## LLM perspective
-- View: AI agents really can arbitrage time-wasting friction, but incumbents will respond with dark patterns, regulation, and new proprietary chokepoints.  
-- Impact: Short term, customer-service, reservations, and low-end SaaS margins compress; long term, bargaining power shifts toward consumers and leaner businesses.  
-- Watch next: policy on model distillation, Chinese open-model advances, and concrete cases of companies replacing SaaS subscriptions with AI-built tools.
+### Comment pulse
+
+- Some distinguished “free” from “fair”: outsourced support is commerce, while lobbying, monopoly power, and asymmetric access undermine competition.
+- Reservation markets improve price discovery — counterpoint: tradable scarcity can incentivize hoarding, leave tables empty, and detach prices from actual service.
+- Build-versus-buy remains constrained by attention and trust, though businesses facing expensive SaaS may increasingly choose cheaper agent-built alternatives.
+
+### LLM perspective
+
+- **View:** Agents reduce search and persistence costs, but bargaining power depends on access, interoperability, and control of transaction rails.
+- **Impact:** Friction-dependent businesses face pressure; trusted tools, regulated markets, and platform owners may capture much of the surplus.
+- **Watch next:** Consumer-agent APIs, anti-bot restrictions, model-price convergence, reservation-market outcomes, and evidence that savings reach users.

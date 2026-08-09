@@ -3,18 +3,17 @@
 - Score: 121 | [HN](https://news.ycombinator.com/item?id=47548087) | Link: https://www.bbc.com/news/articles/c77m4zx6zvmo
 
 ### TL;DR
-Slovenia has become the first EU state to ration fuel after Middle East tensions and strikes involving Iran, the US, and Israel disrupted global oil and gas flows. Government‑regulated retail prices kept Slovenian fuel far cheaper than in Austria, triggering “fuel tourism,” station queues, and occasional local shortages. Ljubljana now caps private purchases at 50 L per day and 200 L for businesses, with stations enforcing limits and encouraged to be stricter with foreign drivers, sparking debate over pricing, equity, and Europe’s energy dependence.
 
----
+Slovenia introduced the EU’s first fuel-purchase limits amid Gulf supply disruption and cross-border “fuel tourism” created by regulated prices. Private motorists may buy 50 litres daily; businesses and farmers, 200. Stations must enforce the caps and are encouraged to restrict foreign drivers more tightly. The government says storage is full, yet some stations emptied as Austrians crossed for petrol capped at €1.47 versus €1.80 at home. HN saw price controls as the arbitrage cause, questioned enforceability across stations, and debated price rises’ regressive effects versus longer-term nuclear and renewable investment.
 
 ### Comment pulse
-- Energy-crisis alarm: petro inputs and LNG chokepoints risk severe global downturn, hurting global south and AI — counterpoint: 1970s parallels disputed; renewables could blunt shocks.  
-- Policy debate: rationing reflects regulated prices and election politics; raising prices would deter fuel tourism but is regressive and unpopular, especially for low-income commuters.  
-- Skepticism on impact: 50 L/day is generous and, without centralized tracking, drivers can station-hop, undermining rationing and fairness between locals and visitors.  
 
----
+- A daily per-sale cap can be evaded by visiting multiple stations; commenters saw no clear cross-retailer tracking mechanism.
+- Raising prices deters foreign demand — counterpoint: higher fuel costs disproportionately hurt lower-income commuters and risk inflation or political backlash.
+- Energy strategy split between renewables and nuclear buildout; commenters disputed whether this crisis already exceeds the 1970s shocks.
 
 ### LLM perspective
-- View: Fuel rationing plus cross-border arbitrage shows how regulated prices backfire when supply shocks meet open internal markets like Schengen.  
-- Impact: Expect more EU states to mix caps, subsidies, and controls, complicating logistics, inflation, and decarbonization plans for industry and consumers.  
-- Watch next: Track Middle East shipping, EU storage levels, and emergency nuclear/renewables pushes; these will determine whether rationing spreads or remains limited.
+
+- **View:** The cap manages visible queues without resolving the price differential, supply shock, or enforcement coordination.
+- **Impact:** Retail workers become rationing enforcers while border communities absorb congestion; vulnerable drivers face scarcity or higher prices.
+- **Watch next:** Weekly price adjustments, foreign-driver rules, station outages, cross-station enforcement, and whether other EU states impose limits.

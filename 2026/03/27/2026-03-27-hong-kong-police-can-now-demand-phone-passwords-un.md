@@ -2,18 +2,18 @@
 
 - Score: 130 | [HN](https://news.ycombinator.com/item?id=47542722) | Link: https://www.gadgetreview.com/hong-kong-police-can-now-demand-phone-passwords-under-new-security-rules
 
-## TL;DR
+### TL;DR
 
-New Hong Kong national security amendments let police demand passwords or decryption methods for phones and other devices without a warrant. Refusal can mean one year in prison and HK$100k fines; giving false credentials can mean three years. Anyone who knows a password, not just the owner, can be compelled. HN discussion compares this to UK and other democracies’ decryption laws, and debates deniable-encryption phone features, with many noting such tricks fail under coercive, vague “national security” regimes.
+Rules effective March 23 reportedly let Hong Kong police require anyone holding access credentials—not only a device owner—to provide passwords or other decryption methods in national-security cases without a warrant. Refusal can bring one year in prison and a HK$100,000 fine; false credentials can bring three years. The measure expands exposure for residents, travelers, spouses, partners, and administrators, while authorities say rights remain protected. HN notes comparable compelled-decryption laws elsewhere, but highlights Hong Kong’s missing judicial authorization and the liability now extending through organizational key-management chains.
 
-## Comment pulse
+### Comment pulse
 
-- Many states already compel decryption → commenters cite UK RIPA and others, arguing Hong Kong “catches up”—counterpoint: UK requires judicial approval and has stricter scope.  
-- Phone plausible-deniability profiles requested → dual-PIN or clone systems exist on some Androids, crypto wallets, VeraCrypt—counterpoint: coercive police can still punish if they disbelieve.  
-- Keyholders become targets → law compels spouses, sysadmins, business partners, turning corporate key-management chains and shared credentials into national-security exposure and personal legal risk.  
+- Comparisons with the UK need precision → RIPA penalties are bounded and a judge must find necessity, proportionality, possession, and no reasonable alternative.
+- Hidden profiles offer plausible deniability — counterpoint: authorities can demand another password or punish disbelief, creating a lose-lose situation.
+- Shared secrets widen exposure → spouses, partners, and administrators can be compelled, turning technical access control into legal risk.
 
-## LLM perspective
+### LLM perspective
 
-- View: Treat certain jurisdictions as effectively hostile to at-rest encryption; legal compulsion nullifies purely technical privacy safeguards on consumer devices.  
-- Impact: Multinationals may reroute staff and data flows away from Hong Kong, or mandate burner devices without corporate secrets.  
-- Watch next: OS vendors and messaging apps could add travel modes, remote-wipe-by-detainment, and compartmentalized identities optimized for legally risky borders.
+- **View:** Encryption still protects against outsiders, but cannot neutralize coercive disclosure law.
+- **Impact:** Journalists, travelers, companies, and administrators must reassess what sensitive data or keys enter Hong Kong.
+- **Watch next:** Enforcement cases, challenge rights, scope of access knowledge, corporate key procedures, and judicial or legislative review.
