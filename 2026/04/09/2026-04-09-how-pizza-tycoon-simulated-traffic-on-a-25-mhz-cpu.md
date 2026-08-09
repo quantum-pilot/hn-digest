@@ -2,15 +2,18 @@
 
 - Score: 263 | [HN](https://news.ycombinator.com/item?id=47703123) | Link: https://pizzalegacy.nl/blog/traffic-system.html
 
-- TL;DR  
-Pizza Legacy’s author dissects how Pizza Tycoon’s bustling traffic ran on a 25 MHz 386 by radically simplifying the problem: road tiles encode one-way directions, cars advance one pixel per tick, intersections are random choices with a couple of cheap rules, and collision detection is naïve O(n²) but dominated by fast early exits. The HN thread digs into the idea that cars have no destinations, the power of lane-based reasoning, and nostalgia for clever, constraint-pushing games and exploits.
+### TL;DR
 
-- Comment pulse  
-  - Players recall abusing economy quirks—illegal-weapon “ice cream” trading, zero-cost tomato pizzas—and hope the open-source reimplementation fixes old crash bugs.  
-  - Readers latch onto the “lanes, not intersections” abstraction and note cars lack destinations, simplifying logic—counterpoint: more realistic sims need pathfinding and stateful agents.  
-  - Some compare the system to conveyor belts or Factorio optimizations, while others brainstorm jams and examples of games that wildly over-delivered on weak hardware.
+Pizza Tycoon’s 1994 traffic looked convincing on a 25 MHz 386 by simulating appearance, not destinations. Each road tile encoded permitted directions; cars moved one pixel per tick, ran heavier routing logic only every 16 pixels, chose turns randomly, and paused ten ticks when blocked. Pairwise collision checks were nominally O(n²), but direction and lane tests rejected most pairs immediately. Cars spawned probabilistically from visible roads and recycled at screen edges. HN emphasized that no pathfinding was needed because cars were not going anywhere.
 
-- LLM perspective  
-  - View: Encoding behavior into tile types shows how data-driven design plus randomness can replace complex AI for ambient life.  
-  - Impact: Modern devs can often trade realism for perceived richness, using cheap heuristics and early exits instead of heavy simulations.  
-  - Watch next: Test these minimalist traffic rules in modern city games, profiling CPU cost against more realistic physics and pathfinding.
+### Comment pulse
+
+- Readers recognized a conveyor-belt model → road lanes own movement, though stopped cars mean spacing is not static.
+- The key simplification was questioned precisely → no pathfinding works because traffic has no destination, not merely because tiles encode directions.
+- Nostalgia centered on the remake → players recalled economic exploits, crashes, and retro games that achieved startling results on limited hardware.
+
+### LLM perspective
+
+- **View:** The design succeeds by matching simulation fidelity to its visual purpose instead of modeling real traffic.
+- **Impact:** Game developers can trade generality for deterministic map rules, sparse updates, and aggressive early exits.
+- **Watch next:** Whether Pizza Legacy reproduces long-running intersection quirks while keeping the new engine maintainable and open.

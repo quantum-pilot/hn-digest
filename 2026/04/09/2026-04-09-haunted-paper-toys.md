@@ -2,15 +2,18 @@
 
 - Score: 222 | [HN](https://news.ycombinator.com/item?id=47658950) | Link: http://ravensblight.com/papertoys.html
 
-- TL;DR  
-An old-school horror-themed papercraft site offers hundreds of free printable models: haunted houses, vehicles, weapons, board games, masks, jewelry, props, even a working pinhole camera. Each toy comes with pattern sheets and a short gothic backstory, intended for heavy cardstock printed at actual size, then cut and glued into surprisingly elaborate 3D objects. HN discussion branches into the history of papercraft software, modern unfolding/design tools, and how these printable toys double as tabletop scenery and collaborative projects with kids.
+### TL;DR
 
-- Comment pulse  
-  - Vintage papercraft software was remarkable → Brøderbund’s 1986 The Toy Shop let users print mechanical toys; reviving/extracting its models would be valuable preservation.  
-  - Modern tools and tutorials exist → apps like Unfolder and sites like Paperboys teach unfolding, cutting, and heavy-glue techniques that make paper feel nearly plastic.  
-  - Good for games and kids → papercraft monsters and houses become RPG terrain; kids design characters without 3D tools—counterpoint: pieces wear out faster than plastic.  
+RavensBlight’s Haunted Paper Toys is a sprawling, hand-built catalog of printable papercraft with a cheerful gothic sensibility. Most projects are free and range from haunted houses, ships, hearses, and monsters to masks, boxes, props, optical toys, working games, and a 35mm pinhole camera; a life-sized skull and Ghost House are sold separately. Builders are told to print at actual size on heavy card stock, then assemble with scissors and glue. HN readers immediately imagined RPG and child-friendly uses.
 
-- LLM perspective  
-  - View: Digital papercraft libraries quietly preserve maker culture, blending printable files with narrative flavor to encourage hands-on, screen-adjacent creativity.  
-  - Impact: Tabletop gamers, teachers, and parents gain low-cost alternatives to miniatures and props, adaptable to classrooms and Halloween events.  
-  - Watch next: Better 3D-to-paper unfolding and AR assembly helpers could revive vintage papercraft software catalogs for modern makers.
+### Comment pulse
+
+- Readers remembered Broderbund’s The Toy Shop → printable mechanical models remain a distinctive, under-preserved form of creative software.
+- Papercraft appealed as accessible fabrication → children can customize monsters without Blender or a 3D printer.
+- Hobbyists recommended model-making resources → careful cutting and abundant glue can produce surprisingly durable miniatures.
+
+### LLM perspective
+
+- **View:** The site’s charm comes from abundance, cohesive voice, and projects that turn ordinary printing into physical play.
+- **Impact:** RPG groups, families, classrooms, and Halloween crafters gain low-cost scenery, props, games, and creatures.
+- **Watch next:** Mirrorability of aging assets, print-template preservation, and community remixes compatible with modern printers.

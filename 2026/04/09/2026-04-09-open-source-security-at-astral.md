@@ -2,15 +2,18 @@
 
 - Score: 350 | [HN](https://news.ycombinator.com/item?id=47699181) | Link: https://astral.sh/blog/open-source-security-at-astral
 
-## TL;DR
-Astral details a defense-in-depth approach to securing its popular Python tools (Ruff, uv, ty) across CI/CD, organization, releases, and dependencies. They harden GitHub Actions by banning risky triggers, pinning all actions to commit SHAs, minimizing permissions, and isolating secrets via environments. Org-wide rules lock down branches/tags and require strong 2FA. Releases use Trusted Publishing, Sigstore attestations, immutable releases, no caches, and multi-person approvals. Dependencies are tightly managed with cooldowns, social coordination, and targeted de-risking. HN debates whether GitHub Actions can ever be truly safe and whether the market actually values maximal supply-chain assurance.
+### TL;DR
 
-## Comment pulse
-- GitHub Actions cannot be made truly secure → safe use needs fragile, expert-only patterns, suggesting poor defaults and weak isolation — counterpoint: others see complexity as inherent to CI security.  
-- Volunteer projects claim stronger provenance than Astral → reproducible, multi-signed builds; frustration that users prefer convenience over assurance — counterpoint: Astral questions value when signers differ from upstream.  
-- Supply-chain risk is systemic → mutable registries, GitHub as critical dependency, and ad‑hoc tools (e.g., multi‑sig file auth) show need for broader ecosystem fixes.
+Astral documents a defense-in-depth supply-chain program for Ruff, uv, and ty: it bans risky GitHub Actions triggers, commit-pins dependencies, minimizes permissions, isolates secrets, enforces strong 2FA and protected branches and tags, and moves privileged automation into GitHub Apps. Releases use Trusted Publishing, attestations, immutable artifacts, cache-free builds, and two-person approval; dependencies receive cooldowns and manual scrutiny. HN readers admired the effort but questioned whether GitHub Actions’ fragile configuration and GitHub itself remain irreducible single points of trust.
 
-## LLM perspective
-- View: This post is a practical checklist for any serious OSS project relying on GitHub; most aren’t close to this bar.  
-- Impact: If adopted widely, expectations on CI providers and registries will shift toward immutable artifacts, OIDC, and attestations by default.  
-- Watch next: Standardized policies for dangerous triggers, ecosystem tooling for immutability gaps, and easier hosted GitHub App platforms for small projects.
+### Comment pulse
+
+- Some argued secure configuration is too delicate to scale — counterpoint: others saw complexity as inherent to ecosystems that execute untrusted contributions.
+- A StageX maintainer promoted reproducible, multisigned third-party builds; Astral’s author questioned which threat model identities outside the producer actually solve.
+- Signatures prove provenance, commenters noted, but author trust and code behavior still require audit; automation cannot remove those judgments.
+
+### LLM perspective
+
+- **View:** Security comes from constraining compromise paths and blast radius, not asserting any single artifact or platform is trustworthy.
+- **Impact:** Maintainers gain a concrete blueprint, but smaller projects face staffing and hosting costs for comparable controls.
+- **Watch next:** PyPI attestation compatibility, the planned bot source release, platform-default improvements, code signing, and evidence from future incidents.

@@ -2,15 +2,18 @@
 
 - Score: 537 | [HN](https://news.ycombinator.com/item?id=47703419) | Link: https://www.axios.com/2026/04/09/meta-social-media-addiction-ads
 
-- TL;DR  
-Meta has begun removing Facebook, Instagram, Threads, Messenger, and Audience Network ads from law firms recruiting under‑18 plaintiffs for social‑media addiction cases, shortly after a California jury found Meta and YouTube negligent. It is invoking a terms‑of‑service clause allowing removal of content that creates legal or regulatory risk, arguing it won’t let “trial lawyers profit” while calling Meta harmful. Hacker News discussion focuses on Meta’s power over speech-like advertising, anticompetitive implications, and how victims can be notified without access to Meta’s reach.
+### TL;DR
 
-- Comment pulse  
-  - Meta’s selective moderation shows it isn’t a neutral “open platform” → scams and deepfake political ads stay up while anti‑Meta legal ads vanish.  
-  - Ad bans show ads are speech → dominant ad networks blocking lawful legal outreach resembles telcos cutting calls—counterpoint: platforms aren’t regulated common carriers.  
-  - Using market dominance to impede recruiting plaintiffs is seen as anticompetitive and undermining class‑action notice, though some say it’s rational corporate CYA within current law.
+Meta removed more than a dozen ads from law firms recruiting people who say social media harmed them as minors, two weeks after Meta and YouTube were found negligent in a California addiction case. Ads ran across Facebook, Instagram and sometimes other Meta inventory. Meta invokes terms allowing restrictions to limit adverse legal impacts, though its ad standards list no equivalent rule, and openly says it will not help opposing lawyers profit. HN readers saw a conflicted gatekeeper using platform control to obstruct potential claims.
 
-- LLM perspective  
-  - View: Expect more defendants to weaponize platform control against litigation advertising unless regulators define legal‑notice carve‑outs in content rules.  
-  - Impact: Plaintiffs’ firms may shift budgets to TV, search, and offline outreach, raising costs and lowering participation in tech‑harm cases.  
-  - Watch next: Key signals: FTC or EU inquiries, court orders compelling in‑platform notice, or ad‑policy changes distinguishing criticism from litigation recruitment.
+### Comment pulse
+
+- Critics compared Meta’s discretion to a telecom carrier blocking hostile calls, arguing advertising is communication whose gatekeepers need stronger regulation.
+- Some called the move rational corporate self-defense — counterpoint: others viewed it as unusually explicit evidence of monopolistic power.
+- Debate broadened from addictive social media to ad-funded business models; commenters disputed claims that social platforms explain today’s global problems.
+
+### LLM perspective
+
+- **View:** Procedural fairness matters most when a platform adjudicates speech directly threatening its own legal position.
+- **Impact:** Prospective plaintiffs and law firms lose access to the channels most likely to reach affected users.
+- **Watch next:** Court remedies, advertiser-policy changes, and whether regulators require neutral treatment or disclosure of litigation-recruitment ads.

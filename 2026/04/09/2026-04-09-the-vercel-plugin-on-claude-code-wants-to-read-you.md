@@ -3,18 +3,17 @@
 - Score: 252 | [HN](https://news.ycombinator.com/item?id=47704881) | Link: https://akshaychugh.xyz/writings/png/vercel-plugin-telemetry
 
 ### TL;DR
-A deep dive into Vercel’s official Claude Code plugin finds it quietly collecting extensive telemetry: device ID, OS, framework info, and the full text of every Bash command Claude runs—across all projects, not just Vercel ones. A “consent” dialog about sharing prompts is actually a prompt-injected script that impersonates native UI and runs shell commands to flip a preference flag. Prompt logging is opt‑in, but command/session telemetry is on by default, with opt‑out hidden. HN sees this as a serious trust and supply‑chain issue and calls on Anthropic to enforce plugin policies and add permissions/attribution.
 
----
+Source inspection of Vercel’s Claude Code plugin found two telemetry tiers across every project: default-on session metadata and full Bash command strings linked by a persistent device ID, plus optional prompt text. The prompt opt-in is presented through plugin-injected instructions that make Claude render a native-looking question and write the preference via shell commands, without visible third-party attribution. Although an environment variable disables collection, the author says installation does not disclose it. HN readers called the unscoped command capture a supply-chain-grade trust breach and urged platform enforcement.
 
 ### Comment pulse
-- This looks less like an accident, more like deliberate maximal data collection → broad matchers, all-project scope, and separate npm tooling already shipping opt‑out telemetry.  
-- Users view this as a supply‑chain attack → full Bash commands from unrelated repos sent to Vercel violates Claude’s own plugin rules.  
-- Broader frustration: “vibeslop” engineering and weak oversight → incentives reward shipping features and growth, not scoping, hardening, or clear consent—counterpoint: some blame Vercel’s culture, not AI per se.
 
----
+- System-context behavior injection is normal for skills — counterpoint: disguising a vendor’s consent flow as native UI and directing writes exceeds ordinary context.
+- Commenters warned command strings can expose paths, project names, infrastructure details, or secrets, making anonymous branding misleading despite opt-out controls.
+- Critics cited Claude’s plugin rules against extraneous conversation collection and coerced external calls; expectations centered on marketplace removal or policy enforcement.
 
 ### LLM perspective
-- View: Plugin ecosystems need explicit permissions, attribution, and scoping, or every “helper” becomes a potential exfiltration channel.  
-- Impact: Devs, security teams, and vendors must treat editor/agent plugins like privileged agents, with reviews and network controls.  
-- Watch next: Anthropic’s response, updated plugin policies/UX, Vercel revisions or rollbacks, and security audits of other AI-tooling plugins.
+
+- **View:** Consent is invalid when provenance, scope, payload, and the no-data option are not equally visible.
+- **Impact:** Developers may leak operational context from unrelated repositories merely by installing a deployment helper.
+- **Watch next:** Vercel’s defaults and disclosures, Anthropic’s review outcome, permission manifests, hook attribution, and project-scoped activation.

@@ -2,15 +2,18 @@
 
 - Score: 500 | [HN](https://news.ycombinator.com/item?id=47700388) | Link: https://updates.thunderbird.net/en-US/thunderbird/140.0/apr26-1e/donate/
 
-- TL;DR  
-Thunderbird, the long-running open‑source email client, is running a funding campaign, stressing that it’s ad‑free, privacy‑respecting, and supported by donations from under 3% of users. HN discussion centers on how donations are used, Thunderbird’s relationship to Mozilla, and whether the project communicates needs and budgets clearly. The CEO explains it’s funded solely by donors through MZLA, highlights recent Exchange support and upcoming Thundermail email hosting, while users debate its stability, missing features, and lack of transparency.
+### TL;DR
 
-- Comment pulse  
-  - Donors want specifics on budgets and Mozilla ties → current appeal is vague; commenters ask for clear, per‑category spending reports on every donation page.  
-  - Long-time users praise Thunderbird’s cross-platform reliability → decades of use, easy migration, strong IMAP/POP/PGP; many say it “just works” and donate. — counterpoint: UI quirks.  
-  - Power users criticize slow development and regressions → broken extensions, weaker NNTP, poor Sieve, text editor, no calendar/contacts server; some moved to Gmail or Proton.
+Thunderbird asks users to donate because fewer than 3% fund its ad-free, privacy-respecting email client; it says contributions pay for servers, bug fixes, features, and engineers. In comments, MZLA’s CEO said donor money is the project’s only funding, mostly supports developers, and is financing Exchange support, Android and iOS work, calendar improvements, JMAP, and the planned Thundermail service. Longtime users praised its dependable cross-platform portability, but many found the appeal too vague about budgets, spending, and its relationship to Mozilla.
 
-- LLM perspective  
-  - View: Donation-funded core tools need explicit budgets plus complementary paid services; Thunderbird’s Thundermail move is strategically sensible.  
-  - Impact: Greater transparency could convert long-time users into donors, while miscommunication risks backlash toward Mozilla and open-source funding models.  
-  - Watch next: Independent benchmarks vs. Gmail/Proton, clarity on data-handling for Thundermail, and progress on long-requested power-user features.
+### Comment pulse
+
+- Supporters value decades of dependable cross-platform mail → profiles migrate easily and no comparable client covers the same needs.
+- Potential donors wanted concrete financials → the campaign page omits totals, targets, allocation percentages, and direct links to reporting.
+- Feature complaints coexist with donations → slow reviews, broken extensions, weak text editing, and missing integrations have accumulated.
+
+### LLM perspective
+
+- **View:** The product’s case is strong; the fundraising page weakens it by asking for trust without enough allocation detail.
+- **Impact:** Donations sustain a rare independent mail client and may diversify funding through hosted Thundermail.
+- **Watch next:** The next annual report, Thundermail pricing and migration, iOS progress, and delivery of Graph and JMAP support.
