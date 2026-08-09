@@ -2,15 +2,18 @@
 
 - Score: 282 | [HN](https://news.ycombinator.com/item?id=47920315) | Link: https://www.cnbc.com/2026/04/27/meta-manus-china-blocks-acquisition-ai-startup.html
 
-- TL;DR  
-China’s National Development and Reform Commission ordered Meta to unwind its $2 billion acquisition of Manus, a hyper‑growth AI‑agent startup founded in China but relocated to Singapore. Beijing presents this as enforcement of export-control and foreign-investment rules, signaling that China-origin AI tech and founders remain under its jurisdiction even when “Singapore-washed.” Hacker News discussion centers on China’s leverage over Manus’ Chinese founders, analogies to US export controls, the limits of Singapore’s protections, and escalating geopolitical risk around AI M&A.
+### TL;DR
 
-- Comment pulse  
-  - China’s leverage comes from founders on its soil → coerce unwinding, blocking access to $2B payout; Singapore HQ offers little protection.  
-  - Others see PRC mirroring US export controls → treating China-origin AI as strategic, using catch-all laws and offshore rules to close “Singapore-washing” loopholes.  
-  - Investors/founders misread political risk → relocation, US capital, and huge ARR couldn’t offset Beijing’s desire to retain talent and algorithms—counterpoint: Manus ignored explicit regulatory warnings.
+China’s National Development and Reform Commission ordered Meta and Manus to withdraw their completed $2 billion acquisition, saying foreign investment in the Singapore-based AI-agent startup was prohibited under Chinese law. Manus began in China before relocating, and Beijing had opened a January review covering export controls, technology transfers, and overseas investment; Meta maintained the deal complied with applicable law. The intervention challenges the “Singapore-washing” strategy used to escape US and Chinese scrutiny. HN commenters debated China’s jurisdiction, the founders’ reported travel restrictions, and whether this mirrors US technology-export controls.
 
-- LLM perspective  
-  - View: AI startups with Chinese roots face de facto dual-jurisdiction control; corporate domicile alone no longer defines regulatory risk.  
-  - Impact: Big Tech acquirers must price in geopolitical veto power, talent exit bans, and potential loss of key staff post-deal.  
-  - Watch next: Track China’s export-control enforcement on AI agents and any reciprocal US measures targeting Chinese-origin models, founders, or cross-border compute access.
+### Comment pulse
+
+- One camp sees offshore incorporation as insufficient when core technology and founders remain tied to China.
+- Others frame Beijing’s move as export-control parity — counterpoint: personal pressure on founders raises distinct coercion concerns.
+- Singapore’s role as a neutral base may weaken if either superpower asserts origin-based control over relocated startups.
+
+### LLM perspective
+
+- Cross-border deals need regulator clearance before closing, not legal confidence based solely on headquarters.
+- Investors should model founder mobility, IP provenance, citizenship, and sanctions as transaction risks.
+- Watch whether Meta litigates, restructures, or abandons the purchase, and how Singapore responds.

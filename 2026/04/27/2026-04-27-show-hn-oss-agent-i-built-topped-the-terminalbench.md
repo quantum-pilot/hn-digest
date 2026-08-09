@@ -2,15 +2,18 @@
 
 - Score: 289 | [HN](https://news.ycombinator.com/item?id=47920787) | Link: https://github.com/dirac-run/dirac
 
-- TL;DR  
-Dirac is an open-source coding agent (VS Code/CLI) optimized for token-efficient large refactors via AST-based context curation, hash-anchored edits, and multi-file batching. On TerminalBench 2 with Gemini‑3‑flash‑preview it tops the leaderboard, beating Google’s harness and other agents while cutting API cost by ~65%. HN discussion probes whether gains generalize beyond Gemini, and how much harness design matters versus model choice. Commenters debate hash-anchor efficiency, language coverage, and raise opt‑out telemetry and proxying concerns for a single‑dev project.
+### TL;DR
 
-- Comment pulse  
-  - Aggressive context tricks → hash-anchored edits, AST-based selection, batched tools, helper scripts; skeptics think file skeletons, not anchors, explain token savings — counterpoint: author disagrees.  
-  - Benchmarks questioned → results currently Gemini‑only; commenters want cross-model runs, latency metrics, and harness-focused leaderboards given huge gains over Google’s official setup.  
-  - Telemetry raises trust issues → tool sends machine ID, errors, web queries via Dirac servers default — counterpoint: author says data minimal, inherited from Cline.  
+Dirac is an Apache-licensed Cline fork that curates coding-agent context through AST-derived file skeletons, hash-anchored edits, batched multi-target tools, and opportunistic context updates. Using Gemini 3 Flash Preview with high reasoning, it scored 65.2% on Terminal-Bench 2, above Google’s 47.6% baseline and Junie’s 64.3%, while its eight-task refactoring suite reports 8/8 successes at $0.18 average cost. Hacker News found the harness gains compelling but requested cross-model and latency tests, questioned anchor-token savings and parser coverage, and flagged default telemetry, hourly feature polling, and web requests routed through Dirac servers.
 
-- LLM perspective  
-  - View: Harness engineering (context curation, tool APIs) increasingly determines real-world coding performance, sometimes more than switching to a slightly better model.  
-  - Impact: Teams shipping AI devtools should invest in AST-aware tooling, deterministic edits, and batching before chasing every new frontier model.  
-  - Watch next: Independent evaluations across multiple model families, plus clearer privacy controls or telemetry-free builds, will decide whether Dirac becomes a trusted default.
+### Comment pulse
+
+- Same-model gains suggest harness design matters, but leaderboard comparisons should span full model–harness combinations and account for benchmark optimization.
+- Batching lists within tools may reliably induce parallelism where weaker models avoid issuing concurrent calls.
+- Telemetry sends machine IDs, usage, and error snippets — counterpoint: the author says inherited Cline behavior stores no PII.
+
+### LLM perspective
+
+- **View:** Efficient context selection may matter more than edit syntax; isolating each optimization would show causal value.
+- **Impact:** Lower token usage makes capable agents viable with cheaper models and repeated repository-scale work.
+- **Watch next:** Independent reproductions, diverse model families, wall-clock latency, telemetry defaults, parser fallbacks, and corrected cache pricing.

@@ -2,15 +2,18 @@
 
 - Score: 243 | [HN](https://news.ycombinator.com/item?id=47919240) | Link: https://quarkdown.com/
 
-- TL;DR  
-  Quarkdown is a free, open-source typesetting system that layers LaTeX‑like power onto readable Markdown, targeting papers, books, docs, wikis and slides via simple .doctype modes. It adds a Turing‑complete macro language, reusable functions, and fast live preview so complex layouts, data‑driven content and multi‑format output come from one source. Hacker News discussion praises the ambition but questions piling complexity onto Markdown, compares it with Pandoc/Quarto/Typst, and flags uncertainty about its layout/evaluation model for serious publishing.
+### TL;DR
 
-## Comment pulse
-- Markdown fans value “half‑WYSIWYG” readability and minimal syntax; they fear Quarkdown’s commands push users toward heavier WYSIWYG tools like Obsidian or even Word.  
-- Others situate Quarkdown among MyST, Pandoc, Quarto, Typst, djot; Typst praised yet abandoned for missing edge cases and conversions, leaving “post‑LaTeX” leadership open.  
-- A reviewer doubts Quarkdown’s layout/evaluation model without Typst‑style context and questions adding functions to documents—counterpoint: macros help DRY workflows for repetitive, structured content.
+Quarkdown is an open-source, programmable Markdown-based typesetting system for papers, books, presentations, documentation sites, and knowledge bases. A single document-type directive selects paged, plain, docs, or slides output; extensions add reusable functions, layout controls, live preview, and LaTeX-like expressive power without boilerplate. Version 2.0 arrived April 23. Hacker News admired the polish but questioned whether programmability defeats Markdown’s readable simplicity, compared its niche with Pandoc, Quarto, MyST, and Typst, and raised concerns about complex page-layout evaluation.
 
-## LLM perspective
-- View: Treat Quarkdown as a domain‑specific programming language for documents, not “Markdown plus,” to set expectations appropriately.  
-- Impact: If templates and tooling mature, it could centralize technical writing workflows split across LaTeX, static‑site generators, and slide builders.  
-- Watch next: real‑world case studies (books, theses), integration with citation/CI pipelines, and clear guarantees about layout determinism and performance.
+### Comment pulse
+
+- Critics value raw Markdown’s half-WYSIWYG readability; extra commands create lookup burden and dependence on live rendering.
+- Supporters see a simpler LaTeX alternative, especially for predictable output and text-first, LLM-assisted editing.
+- Tool choice remains workload-specific: Quarto executes code, Pandoc converts formats, Typst modernizes typesetting; Quarkdown’s distinction is multi-output programmable Markdown.
+
+### LLM perspective
+
+- **View:** Quarkdown succeeds if advanced syntax remains optional and ordinary source stays readable.
+- **Impact:** One source format could unify reports, slides, documentation, and wikis for small teams.
+- **Watch next:** Layout convergence, math ergonomics, Pandoc interoperability, large-document performance, extension stability, and editor support.

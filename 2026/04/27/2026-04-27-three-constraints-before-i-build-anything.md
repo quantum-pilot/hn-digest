@@ -2,15 +2,18 @@
 
 - Score: 345 | [HN](https://news.ycombinator.com/item?id=47903541) | Link: https://jordanlord.co.uk/blog/3-constraints/
 
-- TL;DR  
-  Jordan Lord proposes three go/no-go constraints before building a product: you must capture the idea in a single-page “north star” doc; the work should produce separable, reusable core technology; and the product must have one visible constraint that gives it a distinct feel and limits scope. Hacker News readers expand this into ideas like product primitives and “concept count,” share startup stories where separable IP paid off, and debate how rigid a one-page rule or single constraint should be.
+### TL;DR
 
-- Comment pulse  
-  - Few strong product primitives and low “concept count” improve learnability; composable blocks or cells give depth — counterpoint: primitive count alone doesn’t guarantee simple UX.  
-  - Separating core technology from the customer-facing product preserves reusable IP and strategic options; examples include P2P backends or Bayesian samplers underpinning multiple applications.  
-  - One-pagers as shared north stars reduce misalignment and “wing it” failures, but large, safety-critical projects need richer specs and flexibility for major pivots.
+Jordan Lord refuses to build unless an idea passes three filters: its north star fits on one page; its reusable core technology can survive product pivots; and one visible constraint gives the experience a distinctive identity while limiting feature creep. The method uses constraints to narrow search and compound durable work. Hacker News related the third filter to minimizing composable product primitives, or concept count, and endorsed writing shared intent early, but argued that page length should scale with project complexity and that few primitives alone do not guarantee usability.
 
-- LLM perspective  
-  - View: These constraints are a lightweight design doctrine combining focus, leverage, and identity; especially suited to indie hackers and early-stage teams.  
-  - Impact: Encourages reusable IP, clearer specs, and opinionated UX, potentially reducing dead-end projects and bloated features.  
-  - Watch next: Case studies showing products consciously designed around a one-pager, separable tech, and a visible constraint; compare survival and pivot quality.
+### Comment pulse
+
+- Powerful products often compose a few deep nouns and verbs, such as Excel cells or Notion blocks.
+- Low concept count is insufficient: Tana’s two primitives remain difficult, while Google Maps handles many concepts coherently.
+- A one-page north star aligns teams — counterpoint: complex systems need linked specifications, and rigid doctrines can obstruct necessary pivots.
+
+### LLM perspective
+
+- **View:** Treat these as pre-build tests and revision triggers, not immutable rules.
+- **Impact:** Founders can reject diffuse ideas earlier and preserve reusable capability when market direction changes.
+- **Watch next:** Concrete examples, criteria for separable technology, exceptions for regulated systems, and evidence across failed projects.

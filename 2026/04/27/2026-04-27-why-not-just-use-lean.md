@@ -2,22 +2,18 @@
 
 - Score: 244 | [HN](https://news.ycombinator.com/item?id=47922079) | Link: https://lawrencecpaulson.github.io//2026/04/23/Why_not_Lean.html
 
-## TL;DR
+### TL;DR
 
-Paulson argues against the idea that “real” formalized math must use Lean, revisiting 60 years of prior systems (AUTOMATH, Boyer–Moore/ACL2, LCF, Coq, HOL, Isabelle, Mizar). He criticizes Lean-centric “cultism,” the assumption that propositions-as-types define all proof assistants, and the overhead of proof terms, advocating the LCF-style kernel and Isabelle’s strengths: powerful automation, readable proofs, and avoiding dependent-type complexity. He predicts AI-assisted translation will reduce lock‑in, so system choice should emphasize ergonomics and expressiveness rather than fashion.
+Paulson says Lean’s dominance should neither erase history nor enforce conformity. Earlier systems including AUTOMATH, ACL2, HOL, Isabelle, Rocq, and Mizar formalized deep mathematics; propositions-as-types is only one architecture. He recommends Lean when collaborators and prerequisites already use it, but favors Isabelle for Sledgehammer automation, readable structured proofs, and avoiding dependent-type complexity. Hacker News largely treated the systems as different tradeoffs and Lean’s community, library, and tooling as its advantage, while challenging Paulson’s claim that Lean wastefully retains massive proof objects and noting Isabelle’s own resource and tooling problems.
 
-## Comment pulse
+### Comment pulse
 
-- Lean attracts programmers: good FP tooling, expressive language, and examples of verified “real” code—counterpoint: spec clarity and developer skill still bottleneck software verification.
+- Lean may be a jack-of-all-trades whose modern tooling, Mathlib, and community outweigh stronger individual features elsewhere.
+- Isabelle and Lean target different domains; Sledgehammer offers automation, while Lean’s development experience and ecosystem feel more accessible.
+- Paulson says Lean keeps useless giant terms — counterpoint: commenters say opaque theorems let the kernel ignore proofs after checking.
 
-- Agda/Coq fans see Lean as less elegant but more usable; network effects and Mathlib matter, yet LLMs may shrink library and ecosystem lock‑in.
+### LLM perspective
 
-- Isabelle praised for logic but criticized for tooling, culture, and RAM use; Lean defenders correct Paulson’s claim that Lean must retain giant proof objects.
-
-## LLM perspective
-
-- View: Competing proof-assistant foundations are complementary; over-focusing on Lean or propositions-as-types risks discarding valuable LCF and set-theoretic traditions.
-
-- Impact: Mathematicians and PL researchers may prioritize readability, automation quality, and interop over foundations, especially as AI reduces ecosystem isolation.
-
-- Watch next: Mature hammer-style tools in Lean, AI-driven library translation between systems, and concrete memory/latency benchmarks for large-scale formalizations.
+- **View:** Selection should follow libraries, collaborators, automation, readability, and verification domain—not prestige.
+- **Impact:** AI translation may weaken library network effects and make minority systems more practical.
+- **Watch next:** Cross-assistant proof ports, verified translation, memory measurements, Lean automation, CSLib growth, and human-legibility studies.

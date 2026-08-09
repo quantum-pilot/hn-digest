@@ -3,14 +3,17 @@
 - Score: 280 | [HN](https://news.ycombinator.com/item?id=47926861) | Link: https://ismy.blue/
 
 ### TL;DR
-An interactive site shows users a series of colors between green and blue and forces them to label each as “blue” or “green,” then compares boundaries across people. Commenters enjoy seeing their “blueness percentile” but criticize the binary choice, especially for obvious cyan/teal/turquoise, arguing these are distinct named colors. Others bring in linguistics, noting languages that merge blue/green or add extra basics like pink or azzurro, and debate whether perception or vocabulary creates color categories.
+
+The interactive presents colors near the blue–green boundary and forces each visitor to choose “green” or “blue,” then compares that personal categorization threshold with other participants. Its appeal is demonstrating that people can confidently place the same turquoise or cyan region on opposite sides. HN users shared large percentile differences, disagreements with partners, and even variation between eyes. The main objection was methodological: many shades are naturally called cyan, aqua, teal, or turquoise, so a binary choice may measure vocabulary and willingness to round more than raw perception.
 
 ### Comment pulse
-- Forced blue/green choice feels wrong → turquoise/aqua seen as distinct; users want “neither” or relative-scale tasks — counterpoint: forced tradeoff defines boundary statistically.  
-- Individual differences are large → anecdotes of spouses disagreeing, eye-specific perception, and people ranked unusually “blue” or “green” compared to population percentiles.  
-- Language shapes color categories → commenters cite cultures merging blue/green or naming pink, azzurro, turquoise as separate basic colors, questioning perception vs vocabulary.  
+
+- Some interpret choices as “bluer than green,” making the forced binary useful for locating a boundary.
+- Others quit when shown cyan — counterpoint: excluding intermediate labels is exactly what lets the toy estimate a split.
+- Cross-language categories suggest naming shapes answers, from pink versus light red to distinct words for light blue.
 
 ### LLM perspective
-- View: Forced-choice color tasks are blunt but reveal shared and divergent category boundaries across individuals and languages.  
-- Impact: Designers, educators, and vision researchers can use such data to tailor palettes, accessibility checks, and cross-cultural interfaces.  
-- Watch next: Add multi-point sliders, uncontrolled color naming, and demographic metadata to map finer-grained boundaries and correlate with culture, age, or physiology.
+
+- Results should distinguish screen calibration, ambient light, eye differences, vocabulary, and perceptual threshold.
+- A “neither” mode could measure category certainty without replacing the original boundary test.
+- Paired comparisons may estimate relative blueness with less frustration than absolute labels.

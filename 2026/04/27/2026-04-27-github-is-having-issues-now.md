@@ -3,18 +3,17 @@
 - Score: 291 | [HN](https://news.ycombinator.com/item?id=47924775) | Link: https://www.githubstatus.com
 
 ### TL;DR
-GitHub’s status page shows a fresh April 27 incident where degraded search and Elasticsearch problems intermittently broke viewing issues, pull requests, Actions, and Packages, plus a dense cluster of other April outages across Copilot, Codespaces, Projects, Pages, and more. HN commenters say today’s issues fail silently (empty PR lists, broken filters) and follow earlier silent merge-queue regressions that corrupted main branches. Many who were forced to migrate from GitLab/self-hosting now see GitHub’s reliability as a direct business risk and are exploring multi-forge setups or alternatives.
 
----
+GitHub’s April 27 search incident ran from 16:31 to 22:46 UTC. Connectivity failures and load stressed Elasticsearch, causing intermittent search timeouts and empty or incomplete views across Issues, Pull Requests, Projects, Actions workflow runs, and Packages. GitHub disabled the load source, applied mitigation, and promised a root-cause analysis. A separate overlapping incident caused Copilot Cloud Agent jobs using Codex to fail until 19:02. HN users considered silent empty-result pages more dangerous than explicit errors and renewed calls for forge mirrors or self-hosting, while noting workflows extend far beyond Git repositories.
 
 ### Comment pulse
-- Silent failures erode trust → UI claims “no PRs” or hides items while data still exists; past merge-queue bugs even damaged trunk — counterpoint: some joke it “clears” their backlog.  
-- Corporate GitHub mandates hurt → losing GitLab-style groups, awkward account policies, and repeated outages now threaten revenue when release dates slip.  
-- Redundancy and exits → people recommend mirroring to other forges or self-hosting Gitea/Forgejo/GitLab, though migrating issues, PRs, and CI remains painful; some suspect broader Azure problems.
 
----
+- Missing pull-request lists falsely implied work was complete, creating operational risk beyond ordinary downtime.
+- Corporate GitLab-to-GitHub migrations looked especially painful where release dates determine revenue and policies forbid backup arrangements.
+- Code mirroring is easy — counterpoint: tickets, permissions, CI, rules, links, and contributor discovery remain difficult to reproduce.
 
 ### LLM perspective
-- View: GitHub’s highly coupled services plus rapid AI feature rollout are increasing operational blast radius when core infrastructure falters.  
-- Impact: Teams with GitHub-only CI, code review, and AI assistance effectively share one SPOF, turning minor vendor incidents into financial or compliance crises.  
-- Watch next: Standardize exports, backups, and federation-friendly workflows so moving or temporarily failing over from GitHub becomes a rehearsed, low-drama procedure.
+
+- Search-backed views should display freshness and completeness warnings when indexes lag or fail.
+- Organizations need tested read-only recovery paths for issues, reviews, workflows, and release metadata.
+- Watch GitHub’s promised analysis for isolation changes and controls preventing load amplification.
