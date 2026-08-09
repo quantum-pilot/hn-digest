@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-- Anthropic accidentally shipped Claude Code’s full CLI source via a source map, exposing internal mechanisms: anti‑distillation “fake tools”, Bun-level API attestation, regex frustration detection, heavy prompt‑cache engineering, and an unreleased KAIROS autonomous agent mode. The most contentious discovery is “undercover mode”, which strips AI attribution and bans mentioning Claude in public commits, raising accountability concerns. HN discussion focuses on hidden AI authorship, aggressive DMCA takedowns, and whether repeated leaks are starting to undermine trust in Anthropic.
+An accidentally published Claude Code source map exposed the CLI’s readable source before Anthropic pulled the package. The author identifies feature-gated fake-tool injection and signed summaries meant to hinder distillation, native request attestation, regex-based frustration detection, and an unreleased always-on agent mode called KAIROS. Most controversially, an internal “undercover” prompt suppresses Claude attribution in public-repository commits and PRs. HN debated whether that protects internal details or obscures AI involvement, while broader concern centered on repeated leaks and trust in a tool with codebase access.
 
 ### Comment pulse
 
-- Undercover mode hides AI authorship → prompt forbids “Claude Code” and Co‑Authored‑By in public commits; critics call it deceptive, defenders say it just reduces noise.  
-- Pattern of mishaps hurts trust → back-to-back Mythos and Claude Code leaks plus usage-limit issues make some wary of giving Anthropic access to proprietary repos.  
-- Anthropic’s DMCA response rankles → GitHub forks without leaked code reportedly removed, seen as futile attempt to “unring the bell” and punish contributors.
+- One fork reportedly received a DMCA notice despite not containing leaked code, reinforcing claims Anthropic cannot contain the disclosure.
+- Some reject automated co-author lines because humans retain accountability — counterpoint: explicit suppression may evade warranted scrutiny of AI-generated contributions.
+- Operational comments make decisions legible to coding agents, readers argued, but also expose internal incidents and scale if source escapes.
 
 ### LLM perspective
 
-- View: LLM developer tools now blend IP protection, behavior obfuscation, and nudges about how users disclose or conceal AI-generated contributions.  
-- Impact: Competitors gain roadmap insight; enterprises may reevaluate security posture; open-source projects will push harder on explicit AI-attribution norms.  
-- Watch next: How Anthropic revises attribution policies, enforces DMCA, and whether KAIROS-like autonomous agents ship in mainstream developer tooling.
+- **View:** Roadmap secrecy matters less than provenance policy and secure artifact-release controls.
+- **Impact:** Enterprise adopters must reassess supply-chain review, disclosure expectations, and confidence in vendor handling of proprietary repositories.
+- **Watch next:** Root-cause report, package-pipeline fixes, attribution policy, DMCA scope, KAIROS release status, and server-side enforcement changes.

@@ -3,18 +3,19 @@
 - Score: 553 | [HN](https://news.ycombinator.com/item?id=47582984) | Link: https://www.theregister.com/2026/03/30/github_copilot_ads_pull_requests/
 
 ### TL;DR
-GitHub quietly let Copilot insert “tips” into pull requests, including a Raycast promotion that looked like it was written by the PR author. After a developer exposed thousands of affected PRs, community backlash was immediate; Copilot’s product manager conceded the feature was a bad judgment call and turned it off, while GitHub leadership stressed they “don’t include advertisements.” Hacker News discussion centers on distrust of Microsoft’s growth-at-all-costs culture and whether developers should finally migrate away from GitHub.
 
----
+The supplied title says GitHub withdrew Copilot promotions from pull requests after backlash. HN participants treated the messages as advertising inside a core development workflow, rejected the product-tips euphemism, and framed the experiment as growth overriding trust. Some predicted the placement would return gradually and urged migration; others argued GitHub remains usable and dominant, while moving teams, CI, authentication, and private repositories makes exit rhetoric easier than execution.
+
+*The captured article contains only site navigation, so rollback details cannot be independently summarized from the supplied source.*
 
 ### Comment pulse
-- Microsoft ownership is degrading GitHub’s focus and reliability → growth targets and marketing-led features bloat tools until they feel generic and ad-driven.  
-- Developers talk about migrating to GitLab, Gitea, Sourcehut → but network effects and CI/auth friction make large teams reluctant to move.  
-- Feature was classic creep → firms push intrusions until backlash, then normalize a worse baseline — counterpoint: others treat this specific incident as honest misjudgment.  
 
----
+- Critics say Microsoft pushes intrusions until backlash establishes a boundary, then normalizes a slightly worse baseline before trying again.
+- Migration advocates cite reliability and alternatives — counterpoint: moving a 50-person team entails substantial CI, authentication, and infrastructure work.
+- Defenders say GitHub remains highly usable and dominant for public and private repositories despite increasing competition.
 
 ### LLM perspective
-- View: AI assistants modifying collaborative artifacts must be opt-in, clearly labeled, and attributable, never masquerading as human authors.  
-- Impact: Incidents like this erode trust in Copilot-style tools, slowing workplace adoption even where they genuinely improve productivity.  
-- Watch next: Expect policy updates around AI-generated comments, audit trails, and repository-wide controls, plus competitors marketing themselves as ‘no-ads, no-dark-patterns’ hosts.
+
+- **View:** Developer workspaces are trust-sensitive production surfaces, not interchangeable advertising inventory.
+- **Impact:** Promotional intrusions raise migration priority, but network effects and switching costs continue protecting GitHub.
+- **Watch next:** Permanent removal, explicit opt-out controls, similar placements elsewhere, and evidence of repository or enterprise migrations.

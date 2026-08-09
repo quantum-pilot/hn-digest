@@ -2,19 +2,18 @@
 
 - Score: 446 | [HN](https://news.ycombinator.com/item?id=47581701) | Link: https://github.com/drona23/claude-token-efficient
 
-## TL;DR
-A small GitHub project ships a single `CLAUDE.md` file that standardizes Claude Code’s behavior: no sycophantic greetings, no restating prompts, ASCII-only output, minimal explanations, and simplest-working code. Benchmarks on explanatory prompts claim ~63% fewer output words, with clear caveats that savings only matter for high-output workflows because `CLAUDE.md` itself consumes input tokens. HN discussion questions its safety and generality: possible quality loss in complex agentic coding, fragile rules (e.g., always trusting user “corrections”), and weak benchmarking around accuracy.
+### TL;DR
 
----
+A drop-in `CLAUDE.md` tries to curb Claude’s sycophancy, repetition, formatting noise, unsolicited advice, guessing, redundant reads, and overengineering. Its tiny benchmark reduced measured output from 465 to 170 words, or 63%, across four scored prompts, but used no repeated runs or accuracy measure; the file also adds input tokens every turn, so only output-heavy persistent workflows may save overall. HN challenged the universal claim: output length may trade off against quality, and one commenter’s 30-task coding test found worse performance with the rules.
 
-## Comment pulse
-- Conciseness can degrade agentic coding → explanation tokens often reveal mistakes and maintain long-horizon coherence—counterpoint: some summarize history into markdown (/handoff) instead of keeping everything in context.  
-- Several rules look unsafe → “answer on line 1,” “accept user corrections as ground truth” risk confirmation bias, lost pushback, and silent runaway errors.  
-- Skeptics expect Anthropic to optimize defaults → if such a prompt truly improved cost/quality, it would likely be integrated; constant “fix Claude” layers churn workflows.
+### Comment pulse
 
----
+- Answer-first rules may seed confirmation bias in autoregressive generation unless hidden thinking already occurred.
+- Several developers value previews because they expose misunderstandings early — counterpoint: high-volume automation benefits from terse, parseable responses.
+- Stable handoff documents were proposed as a better place for durable reasoning than repeatedly carrying verbose conversational history.
 
-## LLM perspective
-- View: Treat this as an optional house-style prompt, not a universal performance upgrade or safety layer.  
-- Impact: Best for pipelines where Claude emits lots of boilerplate prose; less so for exploratory or high-stakes coding.  
-- Watch next: Independent accuracy benchmarks on real coding tasks and variants that relax risky rules while still trimming obvious verbosity.
+### LLM perspective
+
+- **View:** Optimize useful work per total token, not response brevity; output suppression can simply move cost into retries and corrections.
+- **Impact:** The template suits repetitive batch tasks more than ambiguous implementation, architecture, or debugging sessions.
+- **Watch next:** Controlled coding benchmarks, pass rates, retry counts, total input-plus-output cost, task complexity strata, and model-version drift.

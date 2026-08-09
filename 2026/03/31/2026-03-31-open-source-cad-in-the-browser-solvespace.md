@@ -2,15 +2,18 @@
 
 - Score: 273 | [HN](https://news.ycombinator.com/item?id=47586614) | Link: https://solvespace.com/webver.pl
 
-## TL;DR
-- Experimental WebAssembly build of the open source parametric CAD tool SolveSpace runs fully client-side in the browser as a static page. It’s fast enough for small models but still buggy, with missing features like fillets and chamfers. HN commenters are excited about zero-install CAD for laser-cutting and hobby parts, yet many now favor more capable tools such as FreeCAD or Dune3D. Discussion broadens to the need for stronger open-source CAD kernels and emerging Rust/WASM projects like vcad.
+### TL;DR
 
-## Comment pulse
-- SolveSpace’s core is elegant but lacks chamfers/fillets; maintainers admit difficulty. Dune3D wraps its engine; many move to FreeCAD—counterpoint: some still prefer SolveSpace’s minimal, playful feel.  
-- FreeCAD’s capabilities and UI now replace Fusion 360 for woodworking/printing; newcomers model parts quickly via tutorials, though one glowing comment feels strangely LLM-optimized.  
-- Browser CAD is expanding: this WASM port, plus Rust-based vcad with its own kernel, hint at code-driven, possibly LLM-assisted, workflows and serious in-browser geometry.  
+SolveSpace now offers an experimental browser build of its compact parametric 2D/3D CAD application, compiled with Emscripten from the latest development branch. It carries a performance penalty and browser-specific bugs, but the maintainers say small models are often quite usable. After its initial load it has no network dependencies, and the generated static files can be self-hosted. HN praised SolveSpace’s lightweight, direct interface for laser-cut parts, while debating whether mature desktop alternatives better serve complex work.
 
-## LLM perspective
-- View: SolveSpace-in-browser proves serious parametric CAD in WASM is viable for small models; enables instant try-out, education, and low-friction design sharing.  
-- Impact: Hobbyists, educators, and fabrication services gain zero-install CAD workflows; desktop tools face pressure for web companions and smoother file exchange.  
-- Watch next: Track chamfer/fillet progress, browser performance on large scenes, NURBS/STEP reliability, and whether shared open kernels emerge across multiple frontends.
+### Comment pulse
+
+- A maintainer says chamfers and fillets top the roadmap, but general cases—especially three-way corners—remain exceptionally difficult.
+- Dune 3D was proposed as a successor — counterpoint: it uses SolveSpace underneath, while FreeCAD offers broader capability.
+- FreeCAD users praised its improved interface and depth, though one found rendering comparatively underdeveloped.
+
+### LLM perspective
+
+- **View:** Browser delivery fits SolveSpace because its compact architecture enables a useful tool without server infrastructure.
+- **Impact:** Students, collaborators, and occasional makers gain zero-install access, while desktop remains safer for serious models.
+- **Watch next:** Browser bug reports, performance on larger assemblies, persistence and file workflows, plus progress on edge finishing.

@@ -3,18 +3,17 @@
 - Score: 270 | [HN](https://news.ycombinator.com/item?id=47592755) | Link: https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html
 
 ### TL;DR
-OpenAI has closed a huge funding round built around $122B of “committed capital” at an $852B post‑money valuation, with Amazon, Nvidia, SoftBank, Microsoft and others involved. It reports $2B in monthly revenue and $13.1B in 2025, but is still unprofitable and cutting some high‑burn projects as it prepares for an IPO. Hacker News commenters focus on how much of this is contingent funding and accounting optics, the aggressiveness of the valuation, and the broader AI-investment mania.
 
----
+OpenAI says it closed a $122 billion committed-capital round at an $852 billion post-money valuation, expanding February’s $110 billion announcement. Amazon pledged up to $50 billion, Nvidia and SoftBank $30 billion each, Microsoft joined undisclosed, and bank channels brought $3 billion from individuals. The company reports $2 billion monthly revenue, 900 million weekly ChatGPT users, and 50 million subscribers, but remains unprofitable while trimming spending before a possible IPO. HN stressed that staged, milestone-dependent commitments are not cash received and make the headline valuation harder to interpret.
 
 ### Comment pulse
-- “$122B raised” is misleading → much is staged, contingent “committed capital,” useful for PR but may never fully materialize — counterpoint: milestone‑based commitments are standard in large rounds.  
-- Valuation looks stretched → ~30× revenue, modest recent growth, heavy compute burn, and opaque revenue accounting versus Anthropic’s GMV‑style numbers complicate comparisons and real margins.  
-- Feels like an AI bubble → capital floods into AI while retail investors get only expensive, indirect exposure via funds like ARK, heightening FOMO and skepticism about sustainability.
 
----
+- Private-company revenue comparisons lack standardized public filings; commenters warned OpenAI and Anthropic may recognize partner sales differently.
+- Skeptics called roughly 30 times annualized revenue aggressive given cash burn — counterpoint: tranches and conditions are routine risk controls in large rounds.
+- Retail access through venture funds drew little enthusiasm because holdings, withdrawal limits, and effective fees dilute the promised exposure.
 
 ### LLM perspective
-- View: This locks OpenAI into hyper‑growth targets, likely prioritizing monetizable features and enterprise deals over more speculative or safety‑centric work.  
-- Impact: Competing labs face pressure to match spend and scale, reinforcing concentration of AI capabilities among a few cloud‑aligned players.  
-- Watch next: The eventual S‑1 will expose true unit economics, capex needs, and how much risk sits on OpenAI versus its cloud partners.
+
+- **View:** “Closed” describes legal commitments here; liquidity, pricing, and dilution depend on tranche terms absent from the article.
+- **Impact:** IPO investors may inherit infrastructure obligations calibrated to private-market optimism rather than demonstrated profit.
+- **Watch next:** S-1 disclosures, cash actually funded, milestone conditions, revenue recognition, compute commitments, margins, and investor-specific pricing.

@@ -3,18 +3,17 @@
 - Score: 799 | [HN](https://news.ycombinator.com/item?id=47582043) | Link: https://idlewords.com/2026/03/artemis_ii_is_not_safe_to_fly.htm
 
 ### TL;DR
-NASA plans to fly four astronauts on Artemis II using an Orion capsule whose Avcoat heat shield shed large chunks during Artemis I re-entry, creating three distinct crew‑killing failure modes: deep spalling voids, shrapnel hitting parachute systems, and melted structural bolts enabling hot-gas intrusion. An Inspector General report and shuttle astronaut/heat‑shield expert Charles Camarda say NASA is soothing itself with weak models and schedule-driven spin. The author argues Artemis II should fly uncrewed, but politics, sunk costs, and “face” are winning.  
 
----
+The essay argues Artemis II should fly uncrewed because Orion’s Artemis I heat shield lost Avcoat chunks and suffered separation-bolt erosion during lunar-speed reentry. NASA attributes spalling to trapped gas and plans a modified trajectory, but cannot reproduce full flight conditions; the installed shield is also less permeable than its predecessor. Former astronaut and heat-shield expert Charles Camarda sees familiar normalization of deviance, while NASA engineers and astronauts express confidence after analysis. HN split over whether likely survival is enough, especially now another near-Earth crewed test precedes the landing attempt.
 
 ### Comment pulse
-- This looks like a replay of Challenger/Columbia → long‑standing safety‑culture failure, normalization of deviance, secrecy, and management incentives overriding engineering judgment.  
-- NASA/astronauts say risk is analyzed and acceptable → critics call that Russian‑roulette logic and see classic groupthink around a dissenting expert.  
-- Technical/policy angle → Orion’s Avcoat differs from Apollo’s honeycomb, size pushes limits; commenters want cheaper uncrewed tests on commercial rockets instead of risking crew.
 
----
+- Safety historians see Challenger and Columbia patterns in schedule pressure, secrecy, constrained dissent, and models used to normalize unexpected damage.
+- NASA has analyzed this failure deeply and Camarda is an outlier — counterpoint: high survival probability can still represent unacceptable crew risk.
+- Apollo also used Avcoat, but applied it in small honeycomb cells; Orion uses blocks on a much larger, heavier capsule.
 
 ### LLM perspective
-- View: The core problem is governance—risk decisions made under political deadlines, with opaque modeling and constrained test options.  
-- Impact: If nothing fails, behavior is rewarded; if it does, human spaceflight faces another long, credibility‑draining freeze.  
-- Watch next: Whether NASA flies any uncrewed lunar‑speed heat‑shield test, and how transparently they publish models, margins, and dissenting analyses.
+
+- **View:** The dispute is not whether the shield probably works, but whether available evidence justifies exposing a crew.
+- **Impact:** An uncrewed rerun costs billions and prestige; a crew loss would halt the program for years.
+- **Watch next:** Reentry performance, recovered shield and bolt damage, parachute-cover inspection, independent-review disclosure, and validation of the replacement design.

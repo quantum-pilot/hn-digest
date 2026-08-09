@@ -3,14 +3,17 @@
 - Score: 602 | [HN](https://news.ycombinator.com/item?id=47582482) | Link: https://ollama.com/blog/mlx
 
 ### TL;DR
-- Ollama 0.19 preview switches its Apple Silicon backend to Apple’s MLX framework, nearly doubling prefill and decode speeds on M5 chips while adding better KV caching and NVFP4 quantization for higher‑fidelity, production‑parity models like Qwen3.5‑35B‑A3B (requires >32 GB RAM). HN discussion focuses on the push toward on‑device AI (Apple’s Foundation Model, MLX tools, SSD‑backed caches) and debates whether local models can truly rival cloud AI on cost, privacy, efficiency, and ergonomics.
+
+Ollama 0.19 previews an MLX backend for Apple Silicon, using unified memory and M5 GPU Neural Accelerators. With Qwen3.5-35B-A3B, Ollama reports prefill rising from 1,154 to 1,810 tokens per second and decoding from 58 to 112, though the comparison uses different quantizations. The release adds NVFP4 support plus cross-conversation cache reuse, prompt checkpoints, and smarter eviction; the showcased model requires over 32GB of unified memory. HN welcomed the speedup but disputed whether local inference beats cloud systems on privacy, energy, utilization, quality, and cost.
 
 ### Comment pulse
-- Embedded Apple models: AFM via apfel CLI is fast and scriptable but limited by 4k context, heavy guardrails, and English‑centric behavior — counterpoint: offline, free.
-- On‑device vs cloud: proponents cite privacy, offline reliability, and ‘good‑enough’ small models; skeptics stress user apathy, B2B economics, and datacenters’ superior speed and continual improvement.
-- Tooling split: some favor MLX stacks like omlx.ai or llama.cpp/Lemonade for flexibility; others stay with Ollama for Docker‑like CLI, simple API, and stable defaults.
+
+- Ollama users value two-command setup, stable API, and model library; critics say llama.cpp or Lemonade offers stronger optimization.
+- Long-context agent users highlighted SSD-backed cold KV caching in other MLX runtimes as the remaining workflow advantage.
+- Personal local-model projects ranged from private journals to scripting — counterpoint: limited memory, guardrails, and language handling still constrain usefulness.
 
 ### LLM perspective
-- View: MLX integration plus NVFP4 support turns high‑RAM Macs into credible local inference nodes for serious coding and agent workflows.
-- Impact: Raises the bar for Apple‑centric dev tools; alternative runtimes must match Ollama’s new speed, caching, and dev‑experience advantages.
-- Watch next: Expect benchmarks on non‑M5 chips, broader NVFP4 model catalog, easier custom‑model import, and potentially SSD‑backed KV caching built into Ollama.
+
+- **View:** The largest practical gain may be cache persistence, because agents repeatedly share long prefixes across branches.
+- **Impact:** High-memory Mac owners get a more credible offline coding stack without changing Ollama’s familiar interface.
+- **Watch next:** Like-for-like quantization benchmarks, older-chip results, model coverage, cache correctness, import tooling, and peak memory.

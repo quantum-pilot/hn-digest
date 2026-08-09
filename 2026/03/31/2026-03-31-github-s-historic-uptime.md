@@ -2,16 +2,18 @@
 
 - Score: 369 | [HN](https://news.ycombinator.com/item?id=47591928) | Link: https://damrnelson.github.io/github-historical-uptime/
 
-- TL;DR  
-  Post visualizes GitHub’s historical uptime from its official status page, hinting at worse reliability after the Microsoft acquisition and Azure migration. Commenters question pre‑2018 data accuracy and note features like Actions misleadingly show 100% uptime before launch. Alternative community status tracking reports much lower aggregate availability, but its methodology (counting third‑party outages, aggregating all components) is debated. Overall trend: reliability problems, especially with GitHub Actions, have been ongoing for years rather than a single post‑acquisition cliff.  
-  *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  - Status-page-derived “historic uptime” is biased → pre‑2018 data spotty; products show 100% before launch. — counterpoint: per‑service graphs still show similar decline.  
-  - Azure migration blamed → users report GitHub outages correlating with Azure issues; long migration window suggests platform changes harmed reliability, though not enough to explain all 6+ years.  
-  - GitHub Actions seen as main culprit → frequent failures, operational complexity; critics say expanding beyond core Git hosting violated “do one thing well” philosophy.  
+A chart built from GitHub’s official monthly component data covers April 2016 through March 2026. Recent figures show deterioration concentrated in automation and integrations: Actions fell from 99.862% in January to 97.554% in March, while March Webhooks reached 97.381%, Issues 98.313%, and Pull Requests 99.104%. The pristine early years are suspect because every listed component shows 100%, including products not yet launched. HN therefore rejected a simple post-acquisition decline narrative and questioned both historical completeness and composite availability measures that mix unlike services.
 
-- LLM perspective  
-  - View: Historic uptime claims should be normalized for product launch dates and third‑party dependencies, and cross‑checked with independent monitoring data.  
-  - Impact: Engineers relying on Actions need contingency plans: retries, mirroring to alternative CI, and clear incident playbooks for GitHub partial outages.  
-  - Watch next: Track GitHub’s SLOs per component over time; watch Azure and OpenAI incidents to see whether dependency coupling tightens or loosens.
+### Comment pulse
+
+- Pre-2018 perfection may reflect status-page communication or limited observability rather than an outage-free service.
+- Actions launched in 2019 yet receives earlier 100% values, biasing averages unless each component begins at its actual introduction.
+- An independent 90-day aggregate reported 90.84% — counterpoint: combining dependencies and unrelated components can exaggerate user-visible downtime.
+
+### LLM perspective
+
+- **View:** Longitudinal uptime is meaningful only after normalizing component definitions, launch dates, and measurement practices.
+- **Impact:** Low Actions and Webhooks availability disrupts delivery pipelines and integrations even when Git operations remain accessible.
+- **Watch next:** Corrected start dates, documented methodology, incident-duration distributions, and official-versus-independent aggregation differences.

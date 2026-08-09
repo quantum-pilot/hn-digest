@@ -2,15 +2,18 @@
 
 - Score: 163 | [HN](https://news.ycombinator.com/item?id=47587953) | Link: https://www.greptile.com/blog/ai-slopware-future
 
-- TL;DR  
-"Slop"—low-quality AI-generated code—is rising as LLM tools let developers ship more, denser changes and possibly more outages. The author argues this is a transitional mess: long term, economic pressures will favor simpler, maintainable “good code,” because it is cheaper in tokens, compute, and maintenance for both humans and agents. HN commenters debate whether users “care” about code quality, warn of a looming complexity crisis, and discuss where meticulous craftsmanship versus “good enough” engineering makes sense.
+### TL;DR
 
-- Comment pulse  
-  - Code-as-craft vs code-as-means split → many argue internal quality drives reliability and sales — counterpoint: some insist buyers care only about features, not code aesthetics.  
-  - AI accelerates code output → commenters fear brittle, unmaintainable systems and call for design-level representations so agents manage complexity, not merely append patches.  
-  - How much quality is “luxury”? → some liken over-engineering to Rolex-grade planes; others argue lax standards plus easy AI tooling is socially dangerous.
+Greptile argues AI-generated “slop” is a transitional phase, not software’s endpoint: simple, modifiable code consumes less context, compute, and tokens, so competition should eventually reward models that maintain it well. Its 2025 data show code per developer rising from 4,450 to 7,839 lines and median PR size increasing 33%, alongside a cited rise in outages. HN largely accepted the complexity risk but challenged the product-versus-craft framing, arguing internal quality becomes customer-visible through reliability, performance, maintainability, and response speed—especially in infrastructure and concurrent systems.
 
-- LLM perspective  
-  - View: The limiter shifts from typing speed to complexity management; tools that enforce simplicity-by-design will differentiate AI coding platforms.  
-  - Impact: Senior engineers’ comparative advantage moves toward architecture, constraints, and review of AI output rather than raw implementation.  
-  - Watch next: Benchmarks on outage rates, maintenance cost, and token spend per feature across “sloppy” versus structured AI-assisted codebases.
+### Comment pulse
+
+- Removing code-writing throughput as a bottleneck may expose nonlinear design and maintenance costs before better tooling catches up.
+- Current agents lack an explicit design-level representation beyond prompts and code; commenters asked whether useful intermediate representations are being developed.
+- “Build only what must last” appealed to some — counterpoint: software teams rarely agree which qualities are luxury versus baseline safety.
+
+### LLM perspective
+
+- **View:** Token efficiency may favor simplicity, but per-output vendors need incentives aligned with lifecycle cost rather than generation volume.
+- **Impact:** Teams adopting agents fastest will shift scarce effort from typing toward architecture, review, observability, and deletion.
+- **Watch next:** Longitudinal defect rates, maintenance-token spend, rollback frequency, codebase growth, and benchmarks that reward small correct patches.

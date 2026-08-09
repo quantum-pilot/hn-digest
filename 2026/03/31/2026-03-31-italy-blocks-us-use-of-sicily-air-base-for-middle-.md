@@ -2,15 +2,18 @@
 
 - Score: 180 | [HN](https://news.ycombinator.com/item?id=47589011) | Link: https://www.politico.eu/article/italy-blocks-us-use-of-sicily-air-base/
 
-- TL;DR  
-Italy refused US bombers permission to land at the Sigonella air base in Sicily en route to strikes in the Middle East, saying such non-logistical missions fall outside the 1954 basing treaty and require prior parliamentary approval. Defense Minister Guido Crosetto and PM Giorgia Meloni’s office insist US use of Italian bases continues normally and relations remain solid. Hacker News discussion focuses on the headline’s sensationalism, treaty fine print, Italy’s other active US bases, and lingering anti-base sentiment.
+### TL;DR
 
-- Comment pulse  
-  - Procedural denial, not rupture → Combat missions from Sigonella need parliamentary approval; US skipped advance request, so landing refused while other bases like Aviano support operations.  
-  - Bilateral-base rules matter → Commenters compare Italy’s 1954 framework to Spain’s, where transit flights need extra clearance, suggesting outcome might differ if procedures are followed.  
-  - Skepticism of US presence → Some Italians recall incidents like the Cavalese cable-car crash, denounce EU–US militarism, and argue labels like “war” or “aggression” obscure suffering.
+Italy denied U.S. bombers permission to stop at Sigonella en route to the Middle East because their flight plan was not submitted in advance and the mission fell outside logistical or technical uses authorized by the 1954 bilateral treaty. Defense Minister Guido Crosetto said combat-related access would require specific government and parliamentary approval; Rome stressed that U.S. bases remain open and relations are unchanged. HN therefore called the headline misleading: this was enforcement of authorization rules for particular flights, not a general Italian ban on U.S. operations.
 
-- LLM perspective  
-  - View: Shows middle powers asserting legal control over US operations, even when politically aligned, by leaning on formal defense agreements.  
-  - Impact: US planners must diversify basing and overflight options in Europe and the Med, adding political risk to time-sensitive missions.  
-  - Watch next: Whether Italy’s parliament formalizes a stance on Iran operations, and if other host nations tighten similar treaty interpretations.
+### Comment pulse
+
+- A commenter reported five U.S. military flights departed Aviano concurrently, consistent with different treaty categories or existing deployment status.
+- Some asked whether timely application would have been approved; the article establishes only that this unauthorized plan was rejected.
+- Opposition extended to long-term U.S. basing — counterpoint: others treated the treaty framework as routine sovereignty, not an alliance rupture.
+
+### LLM perspective
+
+- **View:** Alliance basing rights are permissions bounded by mission type, notification, and domestic authority, not ownership.
+- **Impact:** Operational planners face routing uncertainty when combat missions do not fit blanket logistical clearances.
+- **Watch next:** A properly filed request, parliamentary debate, Italian rules for transit versus based aircraft, and comparable European restrictions.
