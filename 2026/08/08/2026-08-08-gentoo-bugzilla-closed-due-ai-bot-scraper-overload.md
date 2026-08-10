@@ -3,14 +3,17 @@
 - Score: 151 | [HN](https://news.ycombinator.com/item?id=49221864) | Link: https://social.treehouse.systems/@mgorny/117058483039362779
 
 ### TL;DR
-Gentoo’s Bugzilla instance was taken offline after being swamped by high-volume, distributed web scrapers, likely feeding AI training, making the service unusable for its maintainer. The Mastodon thread shows other infra operators seeing similar attacks via botnets and residential proxies, making IP or user‑agent blocking ineffective. HN discussion circles around who’s scraping, how AI’s demand for data is eroding the open web, and proposed defenses—logins, micropayments, proof‑of‑work, or P2P delivery—all with serious usability and equity trade‑offs.
+
+A Gentoo contributor temporarily took Bugzilla offline after suspected LLM scrapers made it unusable, spreading requests across thousands of IPv4 addresses without a blockable pattern. Related maintainers described IPv6 prefix rotation and residential-proxy traffic where each source looks ordinary, defeating simple rate limits. Gentoo may restrict more access to logged-in users. HN discussion centered on an attribution and incentive failure: delegated scraping hides responsibility, while authentication, proof-of-work, micropayments, or CDN defenses all impose cost and friction on legitimate users of public infrastructure.
 
 ### Comment pulse
-- Attribution is murky: some traffic matches big AI companies, but much comes from Southeast-Asia ranges, botnets, and browser-masquerading scrapers using residential IPs.  
-- Operators say valuable data now gets “eaten alive,” forcing logins or lockdowns; others see less AI, more push toward walled‑garden, identity‑gated internet.  
-- Suggested defenses include per-request micropayments or in-browser proof‑of‑work/crypto‑mining gates, but critics say friction, exclusion of poorer users, and wasted time make them untenable.
+
+- Distributed residential proxies make per-IP blocking ineffective; each device behaves normally while aggregate traffic overwhelms volunteer infrastructure.
+- Authentication and proof-of-work preserve servers — counterpoint: both exclude low-power devices, casual readers, archives, and automation.
+- Micropayments could price abusive volume, but international payment friction and transaction fees can cost more than the requested content.
 
 ### LLM perspective
-- AI training’s externalities land hardest on volunteer-run infra, who lack time and tooling to distinguish “good” vs “bad” bots.  
-- Expect more open resources—bug trackers, docs, forums—to hide behind logins, CAPTCHAs, or CDNs, reducing crawlability and casual access.  
-- Standardized bot disclosure, rate‑limit protocols, and enforceable opt‑out mechanisms could rebalance scraping, but need buy‑in from AI labs and regulators.
+
+- **View:** An open bug tracker’s public-good value has become an uncompensated operational liability.
+- **Impact:** Contributors lose productive time; users face outages or gates; scrapers may still obtain data through delegated networks.
+- **Watch next:** Reopening terms, logged-in access, scraper identification, cacheable mirrors, dataset-sharing norms, and upstream accountability.

@@ -2,25 +2,18 @@
 
 - Score: 186 | [HN](https://news.ycombinator.com/item?id=49221939) | Link: https://nate.spot/no-phone-while-poop/
 
-## TL;DR
-The post argues you should leave your phone outside the bathroom and treat toilet time as built‑in, device‑free mental rest. In a nonstop attention economy, that small, guaranteed pause lets your brain consolidate memories, connect ideas, and process emotions instead of consuming more input. The author also notes hygiene (fecal contamination) and health (hemorrhoids from lingering) as downsides of scrolling. HN commenters mostly broaden the point: the real issue is pervasive phone dependence, not just bathroom habits.
+### TL;DR
 
----
+A short personal essay proposes leaving the phone outside the bathroom to reclaim a recurring interval of low input. The author frames quiet toilet time as free reflection that may help the mind process memories, ideas, and emotions, then adds playful warnings about contamination and hemorrhoids. HN readers note that bathroom distraction long predates smartphones through books, magazines, comics, and shampoo labels. The sharper distinction may be intentional reading versus compulsive feeds—and avoiding long sessions—while several argue that anyone’s only phone-free moments should extend beyond the toilet.
 
-## Comment pulse
+### Comment pulse
 
-- Reading on the toilet is longstanding → people used to read labels, comics, magazines; the new problem is endless, low-quality doomscrolling, not reading itself.
+- Bathroom reading predates phones; shampoo labels, comics, books, and magazines show distraction itself is not new.
+- Medium matters less than attention mode: deliberate reading differs from endless feeds, while quiet enables diffuse thought.
+- Duration is the practical concern commenters emphasize; do not turn a brief bodily need into a 30-minute scrolling session.
 
-- Toilet time as diffuse-mode thinking → brief, unfocused breaks (walks, showers, bathroom) often spark insight; enforcing device bans is unrealistic, but intentional offline pockets help.
+### LLM perspective
 
-- Phone use reflects deeper addiction → some blame phones for everything from lack of boredom to falling birthrates; a few note that true mindfulness must extend beyond a few bathroom minutes.  
-
----
-
-## LLM perspective
-
-- View: Treat bathrooms as “no-input zones” by default; it’s an easy structural nudge against constant stimulation.
-
-- Impact: Helps heavy phone users, remote workers, and caregivers carve out guaranteed micro-breaks for emotional and cognitive reset.
-
-- Watch next: Empirical studies on short device-free breaks vs scrolling for stress, creativity, and even bowel health would clarify how big this effect is.
+- **View:** Treat the advice as a habit-design prompt, not a scientific claim about cognition or hygiene.
+- **Impact:** A reliable phone-free cue may create small daily pauses without scheduling formal mindfulness.
+- **Watch next:** Whether the experiment reduces sitting time, compulsive checking, or perceived stress beyond the bathroom.

@@ -2,15 +2,18 @@
 
 - Score: 328 | [HN](https://news.ycombinator.com/item?id=49221668) | Link: https://specification.website/spec/foundations/for-sale-dns/
 
-- TL;DR  
-  RFC 10023 defines a standard `_for-sale` TXT record in DNS so a domain can quietly advertise it’s for sale without parking or disrupting services. A single TXT at `_for-sale.example.com`, starting `v=FORSALE1;` plus one tag (price, URI, text, or proprietary code), targets brokers and automated checkers, not end users. Rules mandate short TTLs, leaf-only placement, and DNSSEC signing. Discussion centers on trademarks, squatting economics, registry “Georgism,” and the enduring value of good domains.
+### TL;DR
 
-- Comment pulse  
-  - Publicly listing domains for sale may weaken positions in trademark/UDRP disputes; anecdotes of big brands pressuring owners—counterpoint: earlier registration dates and trademark classes still matter.  
-  - Georgist-style self-assessed annual taxes on declared domain value proposed to deter squatting; others note registry premium pricing already behaves similarly and can empower capital-rich actors.  
-  - Absence of `_for-sale` records doesn’t imply “not for sale,” but still adds useful signal; commenters note domain trade remains huge despite apps and confusing TLDs.
+RFC 10023 defines an IANA-registered `_for-sale` DNS leaf that lets an owner advertise a live domain without parking it. A TXT record carries `v=FORSALE1;` plus one price, contact URI, free-text note, or proprietary code; multiple records can coexist. Records should use short TTLs, disappear when the offer ends, and ideally be DNSSEC-signed. Prices are nonbinding, while text and URIs are untrusted. HN welcomed a machine-readable discovery channel but raised trademark-dispute risks and cautioned that no record means only “not advertised,” not “unavailable.”
 
-- LLM perspective  
-  - View: Encodes commercial intent in DNS, letting machines discover sale status without polluting UX or relying on fragile WHOIS data.  
-  - Impact: Domain marketplaces, registrars, and large portfolio holders can streamline discovery, valuations, and outreach, potentially reducing spammy purchase emails.  
-  - Watch next: Adoption by big registrars, integration into brokerage APIs, and whether forged records or DNSSEC failures cause fraud.
+### Comment pulse
+
+- The signal fills a discovery gap: privacy-redacted registration data makes welcome purchase inquiries indistinguishable from spam.
+- Public sale declarations may complicate trademark disputes; owners should consider legal posture before advertising a domain they actively use.
+- Absence means “not advertised here,” not necessarily unavailable; adoption must precede reliable negative inference.
+
+### LLM perspective
+
+- **View:** A reversible DNS convention beats replacing a functioning site with a parking page.
+- **Impact:** Brokers gain machine-readable inventory; owners gain visibility without sacrificing traffic or mail.
+- **Watch next:** Registrar tooling, broker adoption, DNSSEC validation, abusive records, and dispute-panel treatment.

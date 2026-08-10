@@ -3,14 +3,17 @@
 - Score: 146 | [HN](https://news.ycombinator.com/item?id=49223079) | Link: https://hackaday.com/2026/08/08/want-energy-efficiency-dude-youre-getting-a-dell/
 
 ### TL;DR
-Jeff Geerling’s tests of a Dell XPS 13 with Intel’s new Core 5 320 show it *slightly* beating Apple’s MacBook Neo in Linpack performance-per-watt (6.21 vs 5.38 GFLOPS/W), and even topping some M3/M4 desktop Macs—suggesting x86’s historic efficiency gap versus ARM is closing. Hacker News commenters like the rigor but stress that this is one matrix-math benchmark with non-Apple BLAS, so it may understate Apple’s potential, and that real-world experience still hinges on GPU, thermals, OS power management, and UX details.
+
+In Jeff Geerling’s HPL Linpack setup, a Dell XPS 13 with Intel’s Core 5 320 produced 127.91 gigaflops at 20.6 watts, or 6.21 GFLOPS/W. The MacBook Neo reached 57.012 gigaflops at 10.6 watts, or 5.38 GFLOPS/W; the Dell also reportedly matched its idle and browsing efficiency. That is an impressive Intel result, not proof that x86 universally beats Arm. HN readers stressed that matrix libraries can reorder results and that battery life, graphics, thermals, fans, displays, and operating systems determine whole-laptop efficiency.
 
 ### Comment pulse
-- Linpack ≠ everything → Benchmark measures matrix math using BLIS/OpenBLAS; a re-run using Apple’s Accelerate on M1 Max nearly doubled GFLOPS/W — counterpoint: still a useful apples-to-apples CPU test.
-- System vs chip → Apple optimizes silicon, OS, and libraries together; Intel’s Wildcat Lake on 18A looks strong, but Neo still leads in GPU and single-core burst.
-- UX over micro-watts → Fans, missing headphone jack, and whether the OS actually sleeps often matter more to buyers than small benchmark efficiency deltas.
+
+- A matrix benchmark measures one workload, not general efficiency; optimized Apple Accelerate results may reorder the table.
+- Performance per watt differs from battery life: peak draw, idle states, display, OS, thermals, fans, and battery capacity matter.
+- The result weakens simplistic ISA claims; process, microarchitecture, libraries, and full-system design dominate x86-versus-Arm labels.
 
 ### LLM perspective
-- View: Intel’s new mobile parts show ISA isn’t destiny; process node and microarchitecture now dominate efficiency comparisons.
-- Impact: Competitive x86 perf/W slows ARM’s inevitability narrative in laptops, especially for Linux-first users and corporate fleets.
-- Watch next: Independent suites mixing web, compile, video, and idle tests across 18A laptops vs M-series and Snapdragon X, with wall-plug measurements.
+
+- **View:** Intel has produced a compelling data point, not a universal efficiency victory.
+- **Impact:** Linux laptop buyers gain high performance without accepting yesterday’s x86 power penalty.
+- **Watch next:** Identical native libraries, sustained workloads, idle energy, battery tests, GPU efficiency, thermals, and retail configurations.

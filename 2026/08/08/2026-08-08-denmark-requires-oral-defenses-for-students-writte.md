@@ -2,15 +2,18 @@
 
 - Score: 482 | [HN](https://news.ycombinator.com/item?id=49224294) | Link: https://mezha.net/eng/bukvy/ca117584_denmark_requires_oral/
 
-TL;DR
-- Denmark now requires upper-secondary HF students to orally defend all major at‑home written assignments, plus tighter digital monitoring and more on‑campus work, to deter AI‑assisted cheating. Teacher and student groups broadly support the move but see it as a stopgap pending longer‑term AI policies. Hacker News commenters note Denmark’s long oral‑exam tradition and Europe’s mixed oral/written models, while debating scalability, examiner bias, accessibility for anxious or disabled students, and whether reviving labor‑intensive vivas is sustainable in mass education.
+### TL;DR
 
-Comment pulse
-- Oral exams already common and seen as fair, revealing understanding and building speaking skills — counterpoint: they’re labor‑intensive and scale poorly for large cohorts.
-- Skeptics: mandating viva-style defenses for all work resurrects pre-modern bottlenecks, disadvantages disabled or anxious students, and undermines mass access that written exams enabled.
-- Supporters cite Germany/Hungary, where mixed oral–written systems work; argue AI-driven fraud leaves few alternatives to more expensive, supervised, in‑person assessment.
+Denmark’s new measures require students in the two-year HF upper-secondary program to defend take-home written work orally, affecting about 9,000 students. Schools are also urged to perform more work on campus, monitor exam screens, restrict accessible content, disclose AI use, and keep oral-exam preparation AI-free. The immediate policy is presented as a first response while educators and students develop longer-term rules. HN participants said oral questioning reveals understanding well and is familiar in Denmark, but warned about staffing costs, inconsistent examiners, scalability, anxiety, disability, and language barriers.
 
-LLM perspective
-- View: Oral defenses shift grading from product to process, making AI a tool students must still intellectually own and explain.
-- Impact: Expect administrative strain: scheduling, training examiners, accessibility accommodations, and appeals will define whether such policies survive beyond pilot stages.
-- Watch next: Key experiment: hybrid models combining monitored handwriting, AI‑use disclosure, and selective vivas to balance integrity, scalability, and inclusion.
+### Comment pulse
+
+- Oral questioning exposes shallow authorship quickly and can reveal understanding more fairly than a single written answer.
+- Live defenses scale poorly and may disadvantage anxiety, speech, hearing, or language differences; accommodations and examiner training are essential.
+- Danes describe restoration, not invention: oral examinations remain familiar but had been reduced partly to save money.
+
+### LLM perspective
+
+- **View:** Defending work tests ownership without banning AI, but changes assessment costs and measured skills.
+- **Impact:** Students must understand submissions; teachers inherit scheduling, consistency, and accessibility burdens.
+- **Watch next:** Defense format, staffing funds, accommodations, false accusations, disclosure rules, and learning outcomes.

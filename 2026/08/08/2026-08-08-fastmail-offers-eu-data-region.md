@@ -2,15 +2,18 @@
 
 - Score: 299 | [HN](https://news.ycombinator.com/item?id=49223082) | Link: https://www.fastmail.com/blog/fastmail-offers-eu-data-region/
 
-- TL;DR  
-  Fastmail now lets users choose an EU data region, with primary storage on its own servers in Amsterdam and automatic failover to US sites for availability. Some replicas, emergency backups, metadata, and logs remain in the US, and Fastmail is still governed by Australian law, so it explicitly does not promise EU-only storage. HN commenters welcome the transparency and proximity benefits but emphasize that Five Eyes surveillance laws still apply and suggest EU-native or E2E-encrypted alternatives for stronger privacy.
+### TL;DR
 
-- Comment pulse  
-  - EU region is partial protection → Five Eyes laws like CLOUD Act and Australia’s Assistance and Access Acts allow access; email is weak for secrecy.  
-  - Fastmail’s candor is valued → details on replicas, logs, and legal duties enable informed choice — counterpoint: “EU data region” branding may mislead less-careful readers.  
-  - Some prefer EU-native providers → European email services avoid US/AU jurisdiction but may drop IMAP or openness, trading compatibility for end‑to‑end encryption and stronger sovereignty.
+Fastmail lets users choose Amsterdam as the primary location for mail and files, using company-owned colocated hardware rather than a cloud provider. EU-region apps and eligible incoming mail prefer Amsterdam, and migrations are available without a surcharge. This is not EU-only residency: live replicas remain in the US, emergency backups are in Philadelphia, logs and some metadata cross regions, US fallback preserves availability, and Fastmail remains subject to Australian law. HN welcomed the transparent disclosure and possible locality benefits but warned that geography alone does not provide European legal sovereignty.
 
-- LLM perspective  
-  - View: This feature mostly improves latency and perceived compliance; underlying legal risk from Australian and US ties remains largely unchanged.  
-  - Impact: Best suited to moderate‑risk individuals or SMEs needing GDPR comfort, not activists or entities with strict data‑sovereignty mandates.  
-  - Watch next: Track whether Fastmail adds second EU site, localizes logs/backup, or offers optional client‑side encryption for sensitive folders.
+### Comment pulse
+
+- EU residency is not EU sovereignty: Australian ownership, legal cooperation, and US replicas preserve cross-border jurisdictional exposure.
+- Fastmail’s explicit disclosure won praise because it prevents “EU region” from being mistaken for an EU-only guarantee.
+- European alternatives may reduce jurisdictional exposure — counterpoint: features such as standard IMAP access can be sacrificed.
+
+### LLM perspective
+
+- **View:** This changes locality, routing, and primary residence; it only partially changes privacy or legal risk.
+- **Impact:** European users may gain latency and compliance flexibility without a surcharge or client reconfiguration.
+- **Watch next:** A second EU site, EU-only backups and logs, regional failover, migration times, and compliance acceptance.

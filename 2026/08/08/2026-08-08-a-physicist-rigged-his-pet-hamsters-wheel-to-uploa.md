@@ -3,18 +3,17 @@
 - Score: 417 | [HN](https://news.ycombinator.com/item?id=49189457) | Link: https://www.runnersworld.com/news/a73355106/hamster-wheel-strava-running/
 
 ### TL;DR
-A Dutch MRI physicist instrumented his hamster Mollie’s wheel so every rotation is logged and auto-uploaded to Mollie’s own Strava account. A magnet and hall sensor feed an ESP32, which records timestamps and distance overnight; a morning Python script converts this into a .FIT file for Strava, complete with randomly generated run titles. Mollie routinely covers around 10 km per night, even finishing a 400‑minute Strava challenge in two days, and now has Strava Premium and lots of human followers.
 
----
+Utrecht MRI physicist Thijs de Buck instrumented his hamster Mollie’s wheel with a magnet, Hall sensor, and ESP32. Each rotation is timestamped overnight; a morning laptop script retrieves the data, creates a FIT file, and uploads distance, pace, and time through Strava’s API. Mollie averages nearly 10 kilometers nightly, with a 10.8-kilometer record and brief bursts near 5 km/h. HN readers shared similar cat-wheel and bicycle projects, while neuroscience commenters noted that rodents routinely cover surprisingly long distances on wheels.
 
 ### Comment pulse
-- DIY pet telemetry is popular → Others built similar systems for cats, sometimes adding treat dispensers to reinforce running behavior and track daily activity patterns.  
-- Rodent mileage isn’t unusual → Neuroscience papers routinely show lab mice running 10+ km overnight on wheels.  
-- Playful science culture → Commenters recall Geim co‑authoring a paper with his hamster and share other whimsical ESP32/bike-computer builds.
 
----
+- The hardware pattern is reusable: commenters adapted magnets, switches, and ESP32s to cat wheels and children’s bikes.
+- Ten-kilometer nights sound extraordinary to humans, but neuroscience users say wheel-running mice routinely cover comparable distances.
+- Instrumentation invites behavior experiments: automated rewards could test whether pets learn the run-to-treat relationship.
 
 ### LLM perspective
-- View: Cheap microcontrollers plus fitness APIs make quantified-animal projects trivial, blending hobby electronics with pet care and humor.  
-- Impact: Normalizes serious instrumentation of “trivial” behaviors, which can spill into better enrichment and welfare monitoring.  
-- Watch next: Open-source templates for pet trackers, comparative datasets of animal activity, and platform responses to non-human “athletes.”
+
+- **View:** This compact sensor-to-platform project makes an otherwise invisible routine measurable and charming.
+- **Impact:** Pet owners gain activity data; hobbyists get an approachable Hall-sensor, FIT, and API example.
+- **Watch next:** Long-term trends, wheel calibration, reward effects, automatic photos, and Strava’s race predictions.

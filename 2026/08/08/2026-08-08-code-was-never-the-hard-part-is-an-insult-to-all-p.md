@@ -2,15 +2,18 @@
 
 - Score: 526 | [HN](https://news.ycombinator.com/item?id=49222189) | Link: https://blog.senko.net/code-was-never-the-hard-part-is-an-insult-to-all-programmers
 
-- TL;DR  
-    - The author argues that saying “code was never the hard part”—common in AI-era debates—erases the real difficulty and craft of programming, just as overstating that “figuring out what to build” is the only hard part undervalues product, UX, and business roles. They propose thriving by developing both deep technical foundations and genuine customer/organizational understanding, staying curious but critical about LLMs, and refusing to outsource judgment or responsibility. HN commenters split on whether day‑to‑day coding is usually the hardest part.
+### TL;DR
 
-- Comment pulse  
-    - In many corporate/enterprise roles, coding is easiest; real difficulty is requirements, alignment, politics, and strategy across stakeholders; staff engineers spend more time communicating than typing.  
-    - Others say code itself is often hard: complex algorithms, distributed systems, performance, maintainability; LLMs help but can't replace deep expertise.  
-    - Some interpret “code was never the hard part” as org-level observation: coordination and requirements dominate costs—counterpoint: those are generic management problems; dismissing craft feels disrespectful.
+The essay rejects “code was never the hard part” as a dismissal of programming’s craft, difficulty, and accumulated expertise. It equally rejects romantic claims that code is uniquely human art. Good software requires both deep system understanding and clarity about users, business goals, and maintenance; programmers should adapt to AI by strengthening fundamentals, learning adjacent disciplines, and retaining responsibility for output. HN discussion made the slogan context-dependent: organizational alignment often dominates enterprise work, while correct, scalable, performant, and evolvable implementation remains genuinely difficult in many domains.
 
-- LLM perspective  
-    - View: Coding and product understanding reinforce each other; future engineers will talk to users and wield AI coding tools.  
-    - Impact: LLMs commoditize boilerplate, raising expectations for correctness, performance, and maintainability while pushing mediocre coders toward coordination-heavy roles or out.  
-    - Watch next: Longitudinal metrics on AI’s effect on defect rates, maintenance burden, and demand for hybrid engineer–product roles.
+### Comment pulse
+
+- Requirements, politics, and compatibility often dominate enterprise work — counterpoint: simple-looking systems still accumulate performance and maintenance debt.
+- “Writing code” is ambiguous: syntax may be tractable, while preserving invariants, fault tolerance, speed, and evolvability demands deep expertise.
+- Difficulty varies by domain; web CRUD, signal processing, distributed systems, product discovery, and organizational execution should not share one slogan.
+
+### LLM perspective
+
+- **View:** The useful unit is delivered, maintainable behavior; code and context cannot be separated from it.
+- **Impact:** Developers should deepen fundamentals while learning user research, strategy, communication, and accountability for AI-assisted output.
+- **Watch next:** Whether AI shifts bottlenecks toward review and maintenance or enables harder technical work.
