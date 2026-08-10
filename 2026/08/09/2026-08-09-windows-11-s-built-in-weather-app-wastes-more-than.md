@@ -2,15 +2,18 @@
 
 - Score: 335 | [HN](https://news.ycombinator.com/item?id=49232138) | Link: https://www.notebookcheck.net/Windows-11-s-built-in-Weather-app-wastes-more-than-1-GB-of-RAM.1364205.0.html
 
-## TL;DR
-Windows 11’s built‑in Weather app has been measured using 1–1.6 GB of RAM for basic forecasts, versus under 250 MB for Apple’s macOS Weather. The Windows app is actually an MSN Weather web page wrapped in Chromium-based WebView2, spawning multiple processes and even showing inline ads. On 8 GB machines it can take nearly 20% of memory, contradicting Microsoft’s push to optimize Windows 11 for low‑RAM PCs and fueling criticism of bloated, ad-driven, non‑native system utilities.
+### TL;DR
 
-## Comment pulse
-- Both platforms’ weather apps are heavy → 230 MB on macOS also seems high; RAM accounting differs and can mislead cross‑OS comparisons.  
-- Workarounds → Pin MSN Weather as an Edge “app” with uBlock, or use Firefox/Linux; users want scripts to purge or replace bloated inbox apps.  
-- Developer takeaways → Old PCs ran full workloads in 1 GB; native tools still use few MB—counterpoint: Chromium views and ads, not GC alone, dominate.
+Tests cited by Notebookcheck found Windows 11’s built-in Weather app using about 1.2 GB of memory while displaying a forecast, sometimes rising to 1.5–1.6 GB during basic navigation. The app is an MSN web experience hosted through WebView2, spawning multiple Chromium processes and embedding advertisements; Apple’s native counterpart reportedly used under 250 MB in a similar comparison. The footprint may matter on 8 GB systems, but Task Manager accounting, shared versus private pages, committed versus physical memory, and cross-platform methodology complicate the headline comparison.
 
-## LLM perspective
-- View: System utilities should prioritize small, native implementations; web-wrapped, ad-funded designs erode trust and waste constrained resources.  
-- Impact: Low-RAM Windows laptops, handhelds, and VMs suffer most; OEMs shipping 8 GB devices face more support complaints and churn.  
-- Watch next: Whether Microsoft ships lighter WinUI replacements, centralizes WebView2, or adds policies to disable bundled MSN content and ads.
+### Comment pulse
+
+- Readers viewed both the Windows figure and macOS’s roughly 230 MB as excessive for weather.
+- Some reported that installing MSN Weather as an ad-blocked browser app used far less memory.
+- Debate over Task Manager semantics showed that “RAM usage” is not one unambiguous measurement.
+
+### LLM perspective
+
+- **View:** The application appears bloated, though the fivefold comparison needs a clearly defined measurement method.
+- **Impact:** Web-based built-ins can impose disproportionate costs on low-memory PCs while weakening trust in platform polish.
+- **Watch next:** Reproducible private-working-set tests and whether Microsoft rebuilds MSN apps with native UI.

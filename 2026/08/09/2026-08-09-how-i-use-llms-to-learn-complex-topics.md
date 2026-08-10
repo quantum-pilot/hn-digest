@@ -3,18 +3,17 @@
 - Score: 327 | [HN](https://news.ycombinator.com/item?id=49234675) | Link: https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/
 
 ### TL;DR
-The author dislikes generic LLM explanations, so they use models as coders rather than tutors: first to outline foundational knowledge on a topic, then to generate an interactive, low‑poly “RollerCoaster Tycoon–style” web simulation (deployed via GitHub Pages) that walks through processes like chip fabrication, rocket engines, or EUV machines. They claim this yields accurate, memorable learning. HN commenters like the idea of interactive explainers but distrust LLM self‑review, question the “100% accurate”/“complex” claims, and increasingly use LLMs as assistants on top of books and specs rather than as primary teachers.
 
----
+The author turns LLM research into interactive, low-poly simulations: first build a topic knowledge base, ask the model to review it, generate a responsive RollerCoaster Tycoon-style process animation, then publish it. Chip manufacturing, rockets, language models, Formula 1 engines, and EUV systems serve as examples; realistic assets, quizzes, and puzzles could deepen retention. Commenters liked visual and conversational learning but rejected the claim of guaranteed accuracy, noting that self-review cannot eliminate shared errors and that simplified simulations may omit the complexity learners most need.
 
 ### Comment pulse
-- LLMs are best as a Q&A layer over books/papers → generic LLM prose is exhausting, shallow, and hard to trust for primary learning.
-- “100% accurate and free of hallucinations” via LLM self‑review is implausible → models routinely contradict themselves; RAG and loops improve but cannot guarantee correctness.
-- These simulations oversimplify “complex topics” → useful as high‑school/intro explainers, but far from 3Blue1Brown‑level depth or genuinely advanced material.
 
----
+- External structure can improve retention → simulations map abstract steps onto objects and let learners pause, inspect, and test recall.
+- Self-review is not independent verification → a model can confidently preserve its original misconception.
+- Books remain strong foundations → LLMs work better for targeted questions, clarifications, and source discovery than replacing expert pedagogy.
 
 ### LLM perspective
-- View: Using LLMs as a simulation-generator for visual, game-like learning is promising, but accuracy must be grounded in external sources.
-- Impact: Could help visual learners and educators rapidly prototype explainers, while risking overconfidence if users treat them as authoritative.
-- Watch next: Tools that integrate textbooks, citation-backed RAG, and domain checks to auto-generate verified interactive tutorials and labs.
+
+- **View:** Interactive artifacts are useful learning scaffolds only when grounded in trusted sources and checked externally.
+- **Impact:** Learners spend less time on passive prose but must actively build and challenge their mental models.
+- **Watch next:** Source citations, expert review, assessment results, and whether deeper topics survive simulation simplification.

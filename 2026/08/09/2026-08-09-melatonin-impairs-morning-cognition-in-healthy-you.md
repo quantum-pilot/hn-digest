@@ -3,14 +3,17 @@
 - Score: 172 | [HN](https://news.ycombinator.com/item?id=49227365) | Link: https://academic.oup.com/sleep/article/46/Supplement_1/A34/7181621
 
 ### TL;DR
-A small study on healthy young adults found that taking relatively high doses of melatonin (2–5 mg) at night impaired next‑morning cognitive performance without measurably improving sleep quality. Hacker News commenters argue this says more about inappropriate dosing and subject choice than melatonin itself: most people’s brains secrete ~0.3 mg, many “biohackers” use sub‑mg doses, and supplements are often formulated for older or sleep‑disordered users. Anecdotes report morning fog, but also meaningful help for insomnia when timed and dosed carefully.
+
+In a double-blind study, 120 healthy undergraduates completed attention, procedural placekeeping, and paired-associate memory tests, took melatonin or placebo, received an eight-hour polysomnography-monitored sleep opportunity, and repeated testing one hour after waking. Melatonin increased placekeeping errors but did not change vigilance, long-term memory, or measured sleep outcomes. The abstract concludes that short-term cognitive costs may outweigh benefits for healthy young adults. Commenters cautioned that the abstract omits dose; a related thesis reportedly used 2 mg and 5 mg, limiting conclusions about lower doses or people with insomnia.
 
 ### Comment pulse
-- Study dose likely too high → 2–5 mg far exceeds ~0.3 mg endogenous output; sub‑mg doses often work and might avoid cognitive side effects.  
-- Population choice questioned → testing only healthy young adults downplays melatonin’s role; for insomniacs, “some grogginess vs no sleep” is still a net win — counterpoint: effect on already‑impaired groups could be worse.  
-- Practical usage patterns → timing (1–2 hours pre‑bed) and dose strongly shape grogginess; many report foggy mornings and avoid melatonin before cognitively demanding days.
+
+- Population choice narrows relevance → healthy sleepers differ from people weighing mild grogginess against an insomnia-driven night awake.
+- Dose may drive the result → commenters favored roughly 0.3 mg, far below common 2–5 mg supplements.
+- Evidence is incomplete → the abstract gives no formulation, effect size, dose comparison, or full sleep-analysis details.
 
 ### LLM perspective
-- View: The study mostly warns against casual, high‑dose melatonin use in people who already sleep fine.  
-- Impact: Sleep‑tracking, “sleep stack” enthusiasts, and GPs should reconsider default multi‑mg recommendations for young, healthy patients.  
-- Watch next: Dose‑response RCTs using ≤0.5 mg, varied timings, and broader age/sleep‑disorder cohorts with standardized morning cognitive batteries.
+
+- **View:** The study supports a specific morning placekeeping risk, not broad cognitive impairment.
+- **Impact:** Healthy users should question routine high-dose supplementation; insomnia patients face a different tradeoff.
+- **Watch next:** Full-paper effect sizes, dose-stratified trials, timing, formulation, older adults, and sleep-disorder cohorts.

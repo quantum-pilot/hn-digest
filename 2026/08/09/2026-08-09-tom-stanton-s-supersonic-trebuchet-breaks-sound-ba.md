@@ -2,15 +2,18 @@
 
 - Score: 203 | [HN](https://news.ycombinator.com/item?id=49232110) | Link: https://www.techeblog.com/tom-stanton-supersonic-trebuchet/
 
-## TL;DR
-Tom Stanton built a gravity-only supersonic trebuchet by turning a falling 40 kg mass into extreme rotational speed via a variable-radius pulley drum. As the Dyneema rope winds from a large to a small drum diameter, the leverage trades torque for speed, spinning a custom carbon-fiber arm past ~2,300 rpm. A 4 g projectile, starting near the axle in a precisely timed sling, reached ~346 m/s (776 mph), producing a clear sonic crack while the structure survived intact.
+### TL;DR
 
-## Comment pulse
-- Supersonic shot ≈ .22LR bullet mass → 4 g projectile is ~62 grains, heavier than many high‑velocity .22 rounds.
-- Dyneema drum resembles other designs → variable-radius rope drums like Thys rowingbike “snek” also trade torque for speed — counterpoint: elastic trebuchets achieve higher energies.
-- Viewers highlight Stanton’s channels → careful iteration, clear physics explanations, and strong visuals make complex mechanisms approachable and entertaining.
+Tom Stanton built a gravity-powered trebuchet that reportedly launched a roughly four-gram projectile at 346.4 meters per second, or 776 mph—just beyond the sound barrier. A 40-kilogram falling mass drove a tapered pulley drum and 116-gram carbon-fiber arm above 2,300 rpm, converting torque into rising rotational speed. After earlier runs fell short or broke components, refinements to the drum, sling release, and projectile produced the measured result and an audible crack. The achievement prioritizes velocity rather than the heavy payloads associated with traditional trebuchets.
 
-## LLM perspective
-- View: Uses clever mechanical “gearing” to get firearm-like muzzle speeds from nothing but a falling weight.  
-- Impact: Great template for physics/engineering education kits demonstrating energy transfer, materials limits, and timing-critical mechanisms.  
-- Watch next: Independent timing/velocity replication, quantified efficiency versus powder firearms, and documented safety practices for high‑energy hobby launchers.
+### Comment pulse
+
+- Readers preferred Stanton’s original video over the ad-heavy article and praised his iterative engineering.
+- The projectile was tiny for a trebuchet but comparable in mass to some .22-caliber bullets.
+- Commenters also highlighted a similar elastic-powered design and Stanton’s second channel.
+
+### LLM perspective
+
+- **View:** This is a clever energy-conversion experiment, not a practical siege-engine breakthrough.
+- **Impact:** The build makes pulley ratios, rotational inertia, release timing, and structural tradeoffs unusually tangible.
+- **Watch next:** Independent velocity measurement details and whether repeat runs preserve the arm and release mechanism.

@@ -2,15 +2,18 @@
 
 - Score: 171 | [HN](https://news.ycombinator.com/item?id=49231809) | Link: https://www.w3.org/Provider/Style/URI
 
-TL;DR
-- Tim Berners-Lee argues that “cool” URLs never change: most broken links come from avoidable human decisions, not technical limits. He recommends designing URIs to last decades by omitting volatile details (authors, technologies, file extensions, org structure), using dates carefully, and mapping stable identifiers to actual files with server config or databases. HN commenters supply modern examples of dead official links, note that redirects and CMSes help a bit, and point out that even some model URLs have since vanished.
+### TL;DR
 
-Comment pulse
-- Real-world links die quickly: OS support pages, device QR codes, news sites; users resort to local copies; mailing list permalinks shuffle.
-- NSF example now 404, underscoring that even thoughtfully structured URLs vanish, possibly from policy or funding shifts, not just bad technical design.
-- CMSes and SEO popularized 30x redirects and date-based slugs, improving persistence, but multiple redesigns, neglect, or shutdowns usually break chains anyway—counterpoint: redirects still help lot.
+Tim Berners-Lee argues that web identifiers should survive redesigns, staff changes, storage moves, software rewrites, and document-status changes. The durable approach treats URI space as an abstract public contract, mapping it to changing implementation details behind the server. Names should omit authors, subjects, access levels, status labels, file extensions, and software mechanisms; creation dates can anchor historical meaning. Commenters supplied modern failures from Microsoft, Logitech, appliances, and even an NSF example praised in the essay, while noting that redirects and CMS tooling help only while someone maintains them.
 
-LLM perspective
-- View: Treat URLs as part of your product’s API, with backward compatibility and deprecation policies, not as throwaway implementation details.
-- Impact: Stable identifiers enable durable citations, reproducible research, legal records, and long-lived integrations across institutions, beyond immediate marketing or design cycles.
-- Watch next: Standardized persistence commitments, automated link-checking with owner alerts, and hosted “URL escrow” for critical docs could push norms toward longevity.
+### Comment pulse
+
+- Link rot destroys trust → bookmarks, citations, printed codes, and embedded product links outlive site reorganizations.
+- Redirects ease migrations → counterpoint: repeated reorganizations and abandoned domains eventually break the chain.
+- The essay aged convincingly → its own URI has remained stable for 28 years, even as an example target vanished.
+
+### LLM perspective
+
+- **View:** Stable identifiers are governance commitments supported by routing, metadata, and archival ownership.
+- **Impact:** Publishers preserve citations; users avoid dead documentation and misleading generic landing pages.
+- **Watch next:** Automated link checks, redirect-retention policies, domain succession plans, and archival fallbacks.

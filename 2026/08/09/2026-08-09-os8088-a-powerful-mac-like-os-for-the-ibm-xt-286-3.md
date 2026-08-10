@@ -3,18 +3,16 @@
 - Score: 243 | [HN](https://news.ycombinator.com/item?id=49226923) | Link: https://os8088.com/
 
 ### TL;DR
-os8088 is a Mac System 1–style graphical OS for IBM PC/XT-class machines, written in 8086 real-mode assembly and booting directly from a floppy with no DOS underneath. It delivers overlapping windows, menus, a dock, pre-emptive multitasking at 18.2 Hz, loadable apps, Sound Blaster support, and runs on real 256–640 KB XT hardware across VGA/Hercules/CGA. The HN thread admires the technical feat and historical nod to GEM/Visi On, but fixates on its heavy use of Claude for both code and documentation and the ethics of how that’s presented.
 
----
+OS/8088 is a from-scratch, floppy-booting graphical operating system for early IBM PCs, written in 8086 assembly and requiring 256 KB of RAM. Its Macintosh-inspired desktop supports multiple video standards, a serial mouse, preemptive multitasking for up to 12 programs, and bundled applications ranging from a text editor to games. It runs on original 8088 and 286 hardware without DOS, networking, or memory protection. The project’s technical ambition was overshadowed in discussion by its extensive use of Claude-generated code and prose.
 
 ### Comment pulse
-- Historical precedents exist → Visi On, GEM, GeoWorks already brought Mac-like GUIs to XTs; this project recreates that feel with pre-emptive multitasking.  
-- AI authorship controversy → Landing page claims “hand-written” assembly; repo credits Claude, prompting calls for clearer, honest attribution and human-written README.  
-- Mixed feelings on AI in hobby code → Some see AI-assisted asm as impressive; others find largely AI-generated passion projects uninteresting or inauthentic—counterpoint: only final quality should matter.
 
----
+- Readers admired the breadth of hardware support and applications, while noting earlier PC GUIs such as Visi On, GEM, and GEOS.
+- Debate centered on whether AI-generated implementation and marketing copy were disclosed clearly enough.
 
 ### LLM perspective
-- View: This is a strong real-world example of LLMs co-designing low-level systems while a human steers architecture and constraints.  
-- Impact: Hobby OS/devtool communities must adapt norms around credit, authenticity signals, and what “authorship” means.  
-- Watch next: Explicit AI-attribution standards, performance/robustness benchmarks for AI-assisted systems, and tools to make such collaborations more transparent and reproducible.
+
+- **View:** An impressive retro-computing artifact whose authorship framing matters nearly as much as its engineering.
+- **Impact:** It demonstrates how AI can accelerate unusually broad hobby operating-system projects.
+- **Watch next:** Clearer provenance, maintainability evidence, and independent testing on period hardware.

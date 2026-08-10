@@ -3,14 +3,17 @@
 - Score: 536 | [HN](https://news.ycombinator.com/item?id=49231154) | Link: https://blog.terrygodier.com/2026/08/09/mea-culpa-dark-hours.html
 
 ### TL;DR
-Developer Terry Godier launched an astronomy site, “Dark Hours,” built with Claude, then discovered it was almost identical to an existing open‑source app, DarkHours.app, including a replicated bug. He’s now redirecting his domain to the original, canceling a planned iOS app, and apologizing for careless AI use. Hacker News commenters add missing context: Godier had previously submitted an astrology/tarot app to Apple, later swapped in the cloned astronomy app, and helped fuel a misleading “unfair App Store rejection” media narrative.
+
+The author withdrew an AI-built night-sky web app after learning it closely matched an existing open-source project, sharing its name and even reproducing a bug the original developer had fixed. He redirected his domain to that project, abandoned an iOS version, accepted responsibility for publishing without checking provenance, and promised not to use AI this way again. HN commenters remained deeply skeptical, connecting the episode to disputed App Store-rejection claims and arguing that the apology leaves unanswered how Claude supposedly produced such a specific clone.
 
 ### Comment pulse
-- Story was misframed App Store injustice → Earlier version hid that Apple rejected a tarot astrology app, not the later cloned astronomy app; Gruber retracted.  
-- AI scapegoat criticized → Copying name, UI, and bug seems deliberate, not accidental LLM output — counterpoint: LLMs sometimes regurgitate sources, so provenance isn’t trivial.  
-- Broader concerns about AI development norms → Low-effort “vibe coding” with agents erodes responsibility; users can’t know if shipped apps steal code or violate licenses.  
+
+- Publication creates responsibility → ignorance of an agent’s sources does not excuse reproducing names, behavior, bugs, or licensed work.
+- Redirecting and canceling the app limit harm → counterpoint: critics saw damage control rather than full disclosure.
+- Provenance is the broader problem → vibe-coded output can be difficult to audit even when copying was not intentional.
 
 ### LLM perspective
-- View: This case mixes genuine remorse with narrative control; AI is leveraged to soften public perception of earlier misconduct.  
-- Impact: Expect harsher scrutiny of AI-built apps, App Store sob stories, and journalists amplifying one-sided accounts from aggrieved developers.  
-- Watch next: Better code-origin tracing, stricter AI-use policies, and media demanding corroboration before promoting alleged platform-injustice stories.
+
+- **View:** A credible account would preserve and disclose prompts, transcripts, dependencies, and the generated project history.
+- **Impact:** Agent-assisted developers need provenance checks before launch, especially when outputs resemble existing open source.
+- **Watch next:** Release of the Claude session, license restoration, repository history, and clarification of the App Store timeline.

@@ -2,17 +2,18 @@
 
 - Score: 181 | [HN](https://news.ycombinator.com/item?id=49232318) | Link: https://pubsonline.informs.org/doi/full/10.1287/orsc.2024.19981
 
-## TL;DR
-The paper (as inferred from quotes) analyzes Silicon Valley startups whose founders were prosecuted for fraud, proposing a framework where growing gaps between hype and reality push entrepreneurs from mild exaggeration into elaborate deception. It describes how “façades” are built and defended, and suggests more SEC surveillance, stronger whistleblower protections, and better investor due diligence and ethics education. HN commenters connect this to pervasive fundraising theater, fake metrics, and a culture that blurs optimism, deception, and normalized fraud.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+A study of court records from 12 Silicon Valley ventures prosecuted between 2000 and 2023 describes fraud as façading: constructing, performing, and protecting a high-growth appearance that hides underperformance. Its 27 cases involved $1.8 billion raised, $687.6 million in losses, and 73 prison-years. Minor expectation gaps produced unsupported success stories; wider gaps prompted fabricated contracts, revenue, and records; extreme gaps added fake demos, sabotaged diligence, regulatory manipulation, and organized secrecy. Commenters recognized strong pressure to embellish but drew a firm line at synthetic evidence.
 
-## Comment pulse
-- Fundraising pressure normalizes fudging → founders feel pushed to exaggerate metrics to compete in a VC culture that rewards spectacle—counterpoint: some see this as “optimism” investors already discount.
-- Fake metrics are common → inflated “users,” “companies,” and AI revenues muddy what’s real; extreme cases like Frank fabricate databases and end in prosecution.
-- Valley fraud has icons and enablers → Theranos (“ScaleX”) and SEC gutting illustrate how cultural hero worship and weak enforcement let façades scale before collapse.
+### Comment pulse
 
-## LLM perspective
-- View: Fraud is less about individual bad apples than a system where capital chases stories faster than evidence is produced.
-- Impact: Honest founders are disadvantaged; employees and late investors bear most downside when façades implode.
-- Watch next: More forensic studies of startup data, tighter auditing of growth metrics, and observable changes in SEC enforcement outcomes.
+- Startup theater can normalize optimistic metrics → counterpoint: manufacturing users, contracts, or audits crosses from forecasting into fraud.
+- Verification itself can be staged → investors need independent sources rather than founder-controlled data rooms, references, or demonstrations.
+- Enforcement proposals face doubt → commenters questioned whether a weakened SEC can expand private-market surveillance.
+
+### LLM perspective
+
+- **View:** Fraud sophistication rises when proof demands grow faster than real performance and governance remains founder-controlled.
+- **Impact:** Investors, boards, and employees become both targets and potential detection points.
+- **Watch next:** Whistleblower access, late-stage audits, multi-source diligence, and research beyond prosecuted Silicon Valley cases.

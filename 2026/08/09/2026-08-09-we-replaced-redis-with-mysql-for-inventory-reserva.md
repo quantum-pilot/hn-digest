@@ -2,26 +2,18 @@
 
 - Score: 328 | [HN](https://news.ycombinator.com/item?id=49226536) | Link: https://shopify.engineering/scaling-inventory-reservations
 
-## TL;DR
+### TL;DR
 
-Shopify migrated oversell protection from Redis to MySQL so reservations and the inventory ledger live in one ACID system. They model each sellable unit as a row in a bounded “available units” pool (capped at 1,000 per item/location), use `SELECT … FOR UPDATE SKIP LOCKED` to avoid hot-row contention, composite primary keys to reduce locks, and `READ COMMITTED` to dodge gap-lock deadlocks. The real scalability limit turned out to be database connections held by other checkout code, fixed via better connection attribution and tuning.
+Shopify moved short-lived inventory reservations from Redis into the same MySQL system as its inventory ledger, restoring ACID transactions across reserve and claim. Rather than contending on one quantity row, it uses a bounded pool of unit rows, `SKIP LOCKED`, composite primary keys, `READ COMMITTED`, consistent lock ordering, and batched queries. Production instrumentation revealed the true ceiling was database connection hold time elsewhere in checkout, not reservation CPU or query speed. After cleanup, tuning, shadow dual writes, and gradual cutover, high-volume flash sales showed substantial database headroom.
 
----
+### Comment pulse
 
-## Comment pulse
+- Readers questioned whether the 1,000-row pool adds needless complexity or risks latency during replenishment.
+- Others argued per-unit rows enable metadata and are a familiar performance denormalization.
+- Much discussion criticized the post’s perceived LLM style, separate from the design’s merits.
 
-- Article feels AI-written → listicle tone, over-polish, and repetition erode trust in “engineer-authored” posts—counterpoint: likely human plus AI editing, which is now normal.
+### LLM perspective
 
-- Bounded per-unit row pool seems over-engineered → worries about complexity, potential undersell during spikes, and lack of hard numbers vs. simpler batched-decrement designs.
-
-- Meta concern: 2026 and we still can’t cheaply decrement a shared counter → teams build elaborate DB patterns or external systems to preserve atomicity at scale.
-
----
-
-## LLM perspective
-
-- View: Pattern shows relational DBs can handle high-contention coordination, but at the cost of schema complexity and deep engine knowledge.
-
-- Impact: Encourages teams to reconsider “throw Redis/Kafka at it” instincts and instead exploit modern DB features like `SKIP LOCKED`.
-
-- Watch next: Benchmarks comparing this to batched counters, per-SKU sharding, and alternative primitives (e.g., Durable Objects, transactional message queues).
+- **View:** The strongest lesson is end-to-end observability, not that MySQL universally replaces Redis.
+- **Impact:** Co-locating reservations and inventory removes cross-system atomicity failures while reducing infrastructure.
+- **Watch next:** Replenishment-tail latency, hot-SKU contention, and operational results beyond the reported peak.

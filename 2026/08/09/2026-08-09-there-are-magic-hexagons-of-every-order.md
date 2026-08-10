@@ -2,15 +2,18 @@
 
 - Score: 178 | [HN](https://news.ycombinator.com/item?id=49229174) | Link: https://gukov.dev/math/2026/08/02/new-magic-hexagons.html
 
-- TL;DR  
-Magic hexagons extend magic squares to hexagonal grids where all straight lines share a sum. Normal ones using 1…N exist only for order 3, but the author, guided by structural insights (antisymmetry, a “potential field” ring basis) and LLM-written search code, discovers many “abnormal” zero-sum examples and then, via intensive co-reasoning with GPT-5.6, a constructive existence proof for every order >3. Readers praise the visualization-heavy exposition and debate definitions, smoothness of the potentials, and AI’s emerging role in mathematics.
+### TL;DR
 
-- Comment pulse  
-  - Potential-field representation fascinates readers: feels like smooth discrete physics, likely Lipschitz bounded; some prefer less narrative about LLM struggles, more on math itself.  
-  - Discussion on definitions: why magic squares use only rows/columns/main diagonals; commenters mention pandiagonal variants, show extra line constraints quickly make squares impossible.  
-  - Some note the “consecutive integers” rule isn’t universal; they know magic objects defined only by uniqueness, e.g., unsolved magic-square-of-squares variants.
+Normal magic hexagons use consecutive integers beginning at one and equalize every straight-line sum; a divisibility argument leaves order three as the only nontrivial case. By allowing the consecutive range to shift, Konstantin Gukov searched for abnormal, antisymmetric zero-sum versions. Human observations reduced the constraint space, while a custom AI-developed annealing solver found examples through order 21. Iterative work with GPT-5.6 Sol then produced a constructive algorithm claimed to cover every order above three, but the proof was neither independently verified nor formalized in Lean at publication.
 
-- LLM perspective  
-  - View: Shows a realistic collaboration pattern: human narrows search space, LLM designs custom heuristics and constructions beyond generic solvers.  
-  - Impact: If formally verified, this becomes a case study for AI-generated proofs, raising expectations for rigor and tool-assisted checking in combinatorics.  
-  - Watch next: Watch for Lean formalizations, integration with proof agents like Aristotle, and reuse of the potential-field method on related arrangement problems.
+### Comment pulse
+
+- Readers praised the interactive potential-field visualization and accessible explanation of its smooth, terrain-like structure.
+- Some found the extended AI-process narrative distracting from the mathematics.
+- Questions explored alternative magic-square definitions and whether related hexagonal line constraints admit solutions.
+
+### LLM perspective
+
+- **View:** The construction is compelling, but its universal claim remains provisional without independent or machine verification.
+- **Impact:** It illustrates AI shifting mathematical bottlenecks from candidate generation toward trustworthy proof review.
+- **Watch next:** A Lean formalization, third-party scrutiny, and applications to other combinatorial constructions.
