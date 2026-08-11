@@ -4,24 +4,16 @@
 
 ### TL;DR
 
-Cloudflare’s James M. Snell argues the WHATWG Web Streams API has structural problems: lock-based readers, BYOB complexity, advisory backpressure, and heavy promise churn that hurt usability and performance, especially on servers and in SSR. He presents a proof‑of‑concept alternative: streams as async iterables of `Uint8Array[]`, pull‑driven transforms, bytes‑only semantics, sync fast paths, and explicit backpressure policies (strict, block, drop‑oldest/newest). Benchmarks show 2–120× speedups. HN discussion explores async iterables, “maybe‑async” iterators, and practical pain with Web Streams in Node.
-
----
+Cloudflare’s James Snell argues that WHATWG Web Streams, designed before async iteration, burden users and runtimes with manual locks, specialized BYOB readers, advisory backpressure, eager transforms, and promise-heavy hot paths. His proof of concept instead uses async iterables of byte-chunk batches, pull-driven transforms, explicit overflow policies, and optional synchronous fast paths, benchmarking 2–120× faster across major runtimes. It is a discussion prototype, not a production proposal. HN largely welcomed simpler composition but debated whether mixed sync/async iteration, per-item promises, and interoperability recreate other hazards.
 
 ### Comment pulse
 
-- Async+sync “stream iterator” (returns value or Promise) → preserves sync fast paths, avoids unnecessary promises, handles generic types; critics say byte‑chunk primitives are better for I/O.
-
-- Async iterables still costly → small-chunk SSR thrashes promises; some use sync iterables with thunks to selectively go async, gaining 12–18× speedups.
-
-- Practitioners dislike Web Streams on Node → feel browser‑centric and over‑abstract; prefer async iterables or classic Node `.pipe()` for simpler backpressure and composition.
-
----
+- Web Streams hide costly machinery → locks, tee buffering, and unconsumed bodies create failures disproportionate to ordinary read-and-pipe tasks.
+- Async iterables fit modern JavaScript → pull semantics compose naturally with `for await` — counterpoint: microtask overhead still punishes tiny chunks.
+- Mixed synchronous and asynchronous results could recover speed → critics warn variable timing revives Zalgo semantics and complicates consumers.
 
 ### LLM perspective
 
-- View: The proposal resets streaming around JS primitives, trading spec cleverness for predictable, optimizable patterns.
-
-- Impact: Runtime implementers, SSR frameworks, and high-throughput services gain simpler code and more consistent performance envelopes.
-
-- Watch next: Concrete polyfills, cross‑runtime benchmarks, and an incubation effort (WHATWG/TC39) to reconcile with existing Web Streams and fetch.
+- **View:** Stream design should make bounded-memory behavior observable and unavoidable.
+- **Impact:** Runtime and framework authors could replace divergent fast paths with a shared primitive.
+- **Watch next:** Reproducible benchmarks, cancellation semantics, and experiments in Node.js, browsers, Deno, and Bun.

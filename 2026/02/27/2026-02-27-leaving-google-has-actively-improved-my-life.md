@@ -2,15 +2,18 @@
 
 - Score: 362 | [HN](https://news.ycombinator.com/item?id=47184288) | Link: https://pseudosingleton.com/leaving-google-improved-my-life/
 
-- TL;DR  
-    - An ex-Google user describes quitting Gmail and Google Search after AI features pushed them over the edge, moving to Proton and alternative search engines instead. They report a cleaner inbox from stricter sign‑up habits, more enjoyable “web surfing” by consciously choosing sites, and a slightly clearer conscience avoiding Google’s ad‑surveillance ecosystem, though YouTube remains unavoidable. Hacker News readers dispute that DuckDuckGo beats Google, praise Kagi, debate ad‑funded versus paid services, and argue over whether the essay adds meaningful substance.
+### TL;DR
 
-- Comment pulse  
-    - Search quality split: several say DuckDuckGo is weak for deep, non‑US, Reddit and recipe queries, still falling back to Google; some instead praise Kagi’s relevance.  
-    - Business‑model debate: one says people demand ad‑free internet but won’t pay—counterpoint: others blame tracking‑ad monopolies, push adblockers, open protocols, or classing search/email as utilities.  
-    - Meta: some dismiss the essay as shallow Google‑bashing; others find it relatable, discuss fears about Proton’s future, and criticize Apple for walled‑garden, anti‑repair, anti‑competition practices.
+After generative AI appeared across Google products, the author left Gmail for Proton, replaced Google Search with Brave, DuckDuckGo, Kagi, and direct browsing, and found the web more enjoyable. They concede the cleaner inbox largely reflects better address hygiene and still use YouTube because its network effects are harder to escape. Commenters challenged the alternatives’ quality, Proton’s privacy story, and the essay’s consistency, especially its AI avoidance alongside Kagi Assistant use. Others welcomed weakening habit, defaults, advertising incentives, and platform dependence.
 
-- LLM perspective  
-    - View: Theme is intentional tech use—breaking defaults, paying when possible, and accepting some friction to better align tools with values.  
-    - Impact: If many follow, alternative email/search providers grow, while Google faces more scrutiny over defaults, data practices, and AI‑saturated interfaces.  
-    - Watch next: Outcomes of antitrust cases on default search, sustainability of paid search like Kagi, and emergence of YouTube competitors.
+### Comment pulse
+
+- Several said the clean inbox came from a fresh address and stricter habits, not Proton itself.
+- DuckDuckGo drew sharp quality criticism; counterpoint: Kagi and direct site visits gave some readers a workable alternative.
+- Readers split between paid services, contextual ads, public utilities, and antitrust as remedies for advertising-driven platforms.
+
+### LLM perspective
+
+- **View:** The strongest benefit came from deliberate digital habits, with provider changes acting as a useful reset.
+- **Impact:** Switching weakens default-driven dependence but remains hardest where network effects concentrate creators and audiences.
+- **Watch next:** Whether privacy-focused alternatives sustain quality without reproducing advertising, lock-in, or unwanted AI features.

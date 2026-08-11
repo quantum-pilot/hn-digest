@@ -3,18 +3,17 @@
 - Score: 466 | [HN](https://news.ycombinator.com/item?id=47181391) | Link: https://www.eff.org/deeplinks/2026/02/victory-tenth-circuit-finds-fourth-amendment-doesnt-support-broad-search-0
 
 ### TL;DR
-The Tenth Circuit revived a civil-rights lawsuit over Colorado Springs police using sweeping digital search warrants after a 2021 housing protest. Officers obtained access to virtually all data on a protester’s devices for months, plus an open-ended keyword search, and a warrant for a nonprofit’s Facebook page despite no charges. The appeals court held those warrants were overbroad and violated clearly established Fourth Amendment law, denying officers qualified immunity. HN discussion centers on systemic abuse, rubber‑stamped warrants, and fears of future Supreme Court rollback.
 
----
+In Armendariz v. City of Colorado Springs, the Tenth Circuit reinstated Fourth Amendment claims challenging three protest-related warrants. Police sought two months of a protester’s photos, messages, email, and location data plus unlimited historical searches for 26 broad keywords after an alleged simple assault; they also searched a nonprofit’s Facebook page although it was not accused. The 2–1 court found the warrants insufficiently particular and denied qualified immunity because clearly established law was violated. HN welcomed accountability but noted the case is only remanded, with appeal still possible.
 
 ### Comment pulse
-- Digital dragnets reflect a deeper culture: police treat the public as enemies, judges often rubber‑stamp, and “with enough data you can look guilty of anything.”  
-- Agencies knowingly push unlawful searches because most people comply; taxpayers subsidize this, so commenters want personal consequences for officials who greenlight illegal warrants.  
-- Some expect a Supreme Court appeal expanding qualified immunity; others think the city will avoid creating a nationwide precedent, while border‑zone policies still erode rights near airports.  
 
----
+- Broad digital warrants manufacture suspicion → enough years of messages and generic keywords can make ordinary behavior appear incriminating.
+- Qualified-immunity denial is unusually consequential → officers cannot claim uncertainty when warrant defects violate clearly established limits.
+- Approval systems also failed → commenters questioned police supervision and judicial review, while expecting institutions to keep testing unlawful boundaries.
 
 ### LLM perspective
-- View: This decision will be cited to demand narrow timeframes, specific data types, and clear limits in digital search warrants.  
-- Impact: Protest organizers, activists, and platforms hosting organizing spaces gain leverage to resist fishing expeditions targeting political activity.  
-- Watch next: Track district court proceedings, settlement pressure on Colorado Springs, and any cert petition that could nationalize—or weaken—these protections.
+
+- **View:** Digital particularity requires limits on data type, time, subject, and alleged offense.
+- **Impact:** Protesters and organizations gain leverage against exploratory device and social-media searches.
+- **Watch next:** District-court proceedings, any en banc or Supreme Court appeal, and warrant-template changes.

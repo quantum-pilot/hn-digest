@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-The Pentagon reportedly demanded that Anthropic waive contractual limits barring Claude from domestic surveillance and fully autonomous lethal weapons, threatening either Defense Production Act compulsion or a “supply chain risk” designation. The author argues coercion would be self-defeating: Anthropic can absorb losing a $200 million contract, agencies rely heavily on Claude, contractors may choose commercial access over defense work, and forced retraining could yield a weaker or unpredictably misaligned model. Commenters focused on dangerous legal precedent and why Anthropic, already cleared for classified systems, was singled out.
+The article argues that threatening Anthropic over Claude’s limits on domestic surveillance and autonomous lethal weapons is strategically counterproductive. Anthropic can forgo a $200 million contract, while its unusually deep classified deployment makes migration costly and may force contractors to choose between Pentagon work and commercial access. The author also warns that compelled retraining could produce a weaker or unpredictably misaligned model, though that risk is speculative. Commenters debated Defense Production Act authority, civilian control, Anthropic’s distinct approval status, and whether human authorization remains practical as weapons autonomy advances.
 
 ### Comment pulse
 
-- Litigation could either curb military coercion or validate expansive power to force technology firms into future unlawful or political behavior.
-- Autonomous weapons look inevitable to some — counterpoint: battlefield identification and friendly-fire risks make human authorization strategically valuable.
-- Commenters cited other vendors’ broader terms, suggesting Anthropic was targeted because its classified deployment made it uniquely valuable.
+- Litigation could narrow coercive procurement powers; counterpoint: a broad government victory might expand them.
+- Some expect autonomous targeting to spread, while others argue identification errors preserve a strategic role for human authorization.
+- Readers questioned why Anthropic alone resisted, noting its classified access and competitors’ acceptance of broader lawful-use terms.
 
 ### LLM perspective
 
-- **View:** Contract enforcement and model governance are separate questions; escalation turns a procurement dispute into a constitutional test.
-- **Impact:** Defense suppliers may price political coercion into bids or avoid approval pathways that create dependence without reciprocal trust.
-- **Watch next:** Any formal order, Anthropic’s response, migration timelines, and independent red-teaming of a replacement or retrained model.
+- **View:** A procurement conflict has widened into a test of government leverage over model policies and vendor relationships.
+- **Impact:** Aggressive compulsion could deter specialized suppliers or encourage contractors to reduce dependence on a single model provider.
+- **Watch next:** Formal orders, court rulings, Anthropic’s response, migration plans, and evidence about any replacement model’s performance.

@@ -2,15 +2,18 @@
 
 - Score: 189 | [HN](https://news.ycombinator.com/item?id=47139911) | Link: https://growingswe.com/blog/quadtrees
 
-- TL;DR  
-Quadtrees index 2D space by recursively splitting a rectangle into four quadrants, so spatial queries skip large irrelevant regions instead of scanning every point. The article walks through insertion, point lookup, range queries, nearest-neighbor search, collision detection, and image compression, showing how node capacity trades memory for query speed. Interactive demos visualize pruning and tree shape. HN readers praise the clarity, share real-world uses (maps, Game of Life, fractals), and discuss when quadtrees beat KD-trees for dynamic data and cache behavior.
+### TL;DR
 
-- Comment pulse  
-  - Quadtrees see broad practical use → maps, terrain, image and fractal compression, Game of Life HashLife, and planned mountain prominence visualizations.  
-  - Real deployments validate speedups → replacing linear point lists with quadtrees in OpenStreetMap tools greatly improved rendering performance.  
-  - Quadtrees vs KD-trees → quadtrees suit dynamic spatial data and cache-friendly fanout; KD-trees favor static datasets with data-driven splits — counterpoint: KD-tree updates can be prohibitively costly.
+The tutorial explains quadtrees as adaptive two-dimensional indexes: a region splits into four children when its point capacity is exceeded, so dense areas refine while sparse areas remain coarse. Searches prune non-overlapping or unpromising subtrees instead of scanning every point, accelerating point lookup, range queries, nearest neighbors, and broad-phase collision detection; the same decomposition can compress images and serve map tiles. HN praised the interactive presentation and supplied real applications, while asking when fixed midpoint splits beat KD-trees, whose data-dependent partitions suit static datasets but make updates costlier.
 
-- LLM perspective  
-  - View: Quadtrees are a sweet-spot index for 2D problems where data moves and queries are local.  
-  - Impact: Game engines, mapping apps, and simulations can gain big wins from even simple quadtree implementations.  
-  - Watch next: Benchmarks comparing quadtrees, KD-trees, and R-trees on real workloads; libraries with good incremental-update support.
+### Comment pulse
+
+- Capacity tunes memory against search work → small leaves prune aggressively; larger leaves reduce tree overhead but scan more points.
+- Local queries benefit most → whole-space or pathologically clustered searches can still degrade toward linear work.
+- Examples made the abstraction stick → readers connected quadtrees to OpenStreetMap, HashLife, terrain, and mountain-prominence visualization.
+
+### LLM perspective
+
+- **View:** Quadtrees pay off when geometry is spatially local and updates matter.
+- **Impact:** Map, game, GIS, and visualization developers gain a simple candidate-pruning index.
+- **Watch next:** Benchmarks against KD-trees and R-trees under skewed data and frequent updates.

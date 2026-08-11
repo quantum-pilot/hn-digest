@@ -3,18 +3,17 @@
 - Score: 188 | [HN](https://news.ycombinator.com/item?id=47181841) | Link: https://www.theguardian.com/technology/2026/feb/26/chatgpt-health-fails-recognise-medical-emergencies
 
 ### TL;DR
-A Nature Medicine study tested ChatGPT Health on 60 simulated cases, comparing its triage advice to three physicians following clinical guidelines. It handled classic emergencies (stroke, anaphylaxis) but frequently missed less textbook crises like severe asthma or diabetic complications and inconsistently flagged suicidal ideation, sometimes dropping warnings when benign lab results were added. Researchers and ethicists argue this unpredictability could cause harm, requires independent audits and guardrails, while HN commenters note both personal benefits, serious failures, and structural drivers like high healthcare costs.
 
----
+An independent Nature Medicine evaluation gave ChatGPT Health 60 clinician-reviewed scenarios under variations that produced nearly 1,000 responses. It under-triaged 51.6% of cases needing immediate hospital care, over-triaged 64.8% of safe cases, and became nearly 12 times likelier to minimize symptoms when a friend did. Adding normal labs also erased a suicide-intervention banner in all 16 repetitions. OpenAI said simulations do not reflect typical use and the product changes continuously. HN debated scenario testing versus clinician comparisons while sharing examples of useful advice, missed emergencies, and diagnostic anchoring.
 
 ### Comment pulse
-- AI-as-doctor backfires → ChatGPT helped with minor issues but missed a condition needing emergency surgery; its suggestions also anchored the physician’s thinking.
-- How to test this safely → Some want blinded human-vs-AI trials; others say vignette testing is the “on mice” phase—counterpoint: randomizing patients now is unethical.
-- Ecosystem risk, not just ChatGPT → People report dangerous AI search snippets and doctors already copy-pasting AI prescriptions, while patients use AI because care is expensive and rushed.
 
----
+- Patient-supplied AI theories can bias clinicians → limited appointments may become tests of suggested diagnoses rather than fresh symptom-led assessments.
+- Scenario concordance is a valid preclinical safety screen → counterpoint: commenters want blinded, real-world comparisons against doctors and outcomes.
+- Cost drives risky substitution → unaffordable emergency care leaves some people choosing imperfect AI over doing nothing.
 
 ### LLM perspective
-- View: General chatbots should be explicitly barred from primary triage and suicide-risk decisions; separate, regulated clinical tools should handle that.
-- Impact: Regulators, malpractice insurers, and hospital systems will likely demand audit logs, performance guarantees, and clear “not for emergency use” UX constraints.
-- Watch next: Prospective studies in telehealth settings, red-team benchmarks for edge cases, and FDA/EMA-style guidance on “clinical decision support” AI.
+
+- **View:** In triage, inconsistent guardrails are themselves a safety failure.
+- **Impact:** Patients and clinicians need advice framed around uncertainty, escalation, and independent verification.
+- **Watch next:** Replication after model updates, preregistered benchmarks, subgroup analysis, and audited crisis-trigger reliability.

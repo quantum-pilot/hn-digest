@@ -3,14 +3,17 @@
 - Score: 515 | [HN](https://news.ycombinator.com/item?id=47176257) | Link: https://moultano.wordpress.com/2026/02/22/the-hunt-for-dark-breakfast/
 
 ### TL;DR
-- Ryan Moulton treats Western-style breakfast as a 3‑ingredient vector space (milk, eggs, flour), plotting pancakes, waffles, omelettes, baked goods, etc. The chart reveals an unexplored “dark breakfast abyss” between eggy omelettes and doughy pancakes. An IHOP disclosure that their omelettes contain pancake batter proves this region exists, framing breakfast like dark matter and cosmic horror. HN readers nominate real candidates (egg hoppers, womelettes, roti telur) and argue the model needs more dimensions for meat, potatoes, technique, and spices.
+
+The essay maps breakfast recipes onto a triangle defined by their milk, egg, and flour ratios. Familiar pancakes, baked goods, and custards form clusters, leaving an apparently empty high-egg, moderate-flour region dubbed dark breakfast. After considering water loss, noodles, dumplings, breads, and even pancake batter in restaurant omelettes, the author proposes a minimal four-egg, half-cup-flour, quarter-cup-milk recipe whose preparation remains unknown. Commenters suggested egg hoppers, soufflés, strata, kugel, and other candidates, while arguing that technique and omitted ingredients make the map incomplete.
 
 ### Comment pulse
-- Many readers supply real-world dishes they claim live in the abyss: Sri Lankan egg hoppers/string hoppers, Malaysian roti telur, German pancakes, womelettes, strata, kugel, quiche.  
-- Others note the simplex omits key variables: cooking method, meat, potatoes, vegetables, spices—suggesting a higher‑dimensional breakfast latent space with even stranger dark regions.  
-- Several riff on the dark‑matter analogy: over half the universe’s breakfast may be dark, with seasonal variation and modified theories that downplay eggs’ role.
+
+- Suggested occupants included egg hoppers, soufflés, strata, kugel, German pancakes, and several filled breads.
+- Technique may explain the gap; identical ratios can become radically different foods through mixing, heat, and structure.
+- Adding meat, potatoes, water, and other dimensions would improve coverage but weaken the triangle’s comic elegance.
 
 ### LLM perspective
-- View: Playful manifold models like this show how scientific metaphors can make everyday domains feel vast, mappable, and experiment‑worthy.  
-- Impact: Could inspire data‑driven cooking apps that explore ingredient spaces, recommending novel but plausible recipes in underexplored regions.  
-- Watch next: Worth prototyping: multi‑ingredient embeddings learned from recipe corpora, then searched for holes—candidate zones for “dark” dishes to test.
+
+- **View:** The unexplored region may reflect missing process variables more than a genuinely absent class of food.
+- **Impact:** The playful visualization turns recipe comparison into a compact experiment about ingredients, technique, and categorization.
+- **Watch next:** A cooked test of the proposed ratio and a map incorporating water loss or preparation method.

@@ -3,14 +3,17 @@
 - Score: 197 | [HN](https://news.ycombinator.com/item?id=47184480) | Link: https://www.beyondthejoke.co.uk/content/17193/red-dwarf-rob-grant
 
 ### TL;DR
-Rob Grant, who has died aged 70, co-created cult sci‑fi sitcom Red Dwarf and wrote on Spitting Image, Carrott’s Lib and several spin‑off novels. Tributes from cast, collaborators and fans highlight his sharp, character-driven writing and long partnership with Doug Naylor; his final Red Dwarf novel, Titan, is still due this summer. HN commenters recall the series as their gateway to British comedy and discuss how its feel shifted once Grant left the writers’ room.
+
+Rob Grant, the comedy writer who co-created Red Dwarf with Doug Naylor, has died at 70; no cause was provided. His work also included Spitting Image, Son of Cliché, Carrott’s Lib, The Strangerers, Dark Ages, and several novels, with another book due in July. Collaborators and cast members shared tributes. Commenters remembered Red Dwarf’s unusual mix of British wit, bawdy comedy, science fiction, practical effects, and existential scale, while many felt its characterization and depth weakened after Grant departed following series six.
 
 ### Comment pulse
-- Red Dwarf’s mix of dry wit, bawdiness and thoughtful sci‑fi felt singular; many felt quality dropped after Grant left—counterpoint: others still cherish later, patchier seasons.  
-- Viewers worldwide recall finding Red Dwarf on PBS or VHS, saying it shaped their sense of humor and affection for British sci‑fi comedy.  
-- Commenters single out the slow flyover of the Red Dwarf model, bleak vastness of space, practical effects and jaunty theme song as unforgettable.  
+
+- Many readers felt Grant’s departure after series six marked a decline in character depth and conceptual ambition.
+- Fans praised the show’s practical effects, eerie sense of scale, and gateway role for British comedy.
+- The novels were remembered for expanding characters and ideas beyond the television episodes.
 
 ### LLM perspective
-- View: Grant’s career shows how tightly-written character comedy can carry even low-budget genre TV into timeless, cross-cultural cult status.  
-- Impact: His death may mark a legacy era, shifting focus to preserving originals, novels and production history over launching new entries.  
-- Watch next: Watch how publishers and broadcasters handle Titan’s release, archive restorations, and possible documentaries or retrospectives on Grant and Naylor’s collaboration.
+
+- **View:** The tributes portray Grant’s creative partnership with Naylor as central to Red Dwarf’s distinctive early identity.
+- **Impact:** His work connected broad comedy with science-fiction ideas that remained memorable across television and novels.
+- **Watch next:** The July publication of Grant’s forthcoming novel with Andrew Marshall and further tributes from collaborators.

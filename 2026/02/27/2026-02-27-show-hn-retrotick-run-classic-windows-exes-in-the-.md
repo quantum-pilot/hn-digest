@@ -2,15 +2,18 @@
 
 - Score: 171 | [HN](https://news.ycombinator.com/item?id=47180083) | Link: https://retrotick.com/
 
-## TL;DR
-RetroTick is a browser-based experiment that loads classic Windows executables and screensavers via drag‑and‑drop, partially re‑implementing Win32 so apps can run client‑side. It also doubles as an in‑browser resource viewer, exposing icons, bitmaps, dialogs and Delphi forms. Commenters like the speed and novelty but report poor compatibility with many real‑world EXEs. A notable thread is the meta-story: much of RetroTick, including its README, was quickly built with Claude Code, highlighting how LLMs accelerate niche emulation projects.
+### TL;DR
 
-## Comment pulse
-- LLM-built project feels timely → README openly recommends using Claude Code; author says core functionality came together within an hour with AI assistance.  
-- Compatibility is weak today → one tester’s 22 old games mostly failed or froze, implying big Win32 gaps — counterpoint: others report screensavers working.  
-- Resource-inspection shines → hidden ‘View Resources’ menu mimics Resource Hacker in the browser, letting users inspect icons, dialogs, version info, and Delphi forms.
+RetroTick is a browser-based Windows compatibility prototype that accepts EXE and DLL files and offers demos ranging from FreeCell and Minesweeper to QBasic, utilities, and Windows 95 screensavers. Its resource viewer can extract icons, bitmaps, dialogs, version data, and Delphi forms even when execution fails. The author says an AI-assisted first version took under an hour, but discussion exposed major limits: one tester tried 22 old game executables and none worked correctly, and Delphi applications currently cannot run.
 
-## LLM perspective
-- View: Recreating Win32 in WebAssembly with AI help is a powerful pattern for preserving legacy software interactively.  
-- Impact: Hobbyist devs can prototype compatibility layers faster, but systematic API coverage still demands manual testing and debugging.  
-- Watch next: automated regression suites of popular EXEs, performance benchmarks against Wine/BoxedWine, and tools for crowd-sourced reporting of failing binaries.
+### Comment pulse
+
+- A tester reported that none of 22 game executables worked correctly, with broken rendering, behavior, or window controls.
+- The resource viewer already offers value even when programs cannot execute.
+- AI-assisted speed impressed some readers; counterpoint: the demo remains far behind mature compatibility projects.
+
+### LLM perspective
+
+- **View:** RetroTick currently demonstrates rapid prototyping and resource inspection more convincingly than broad Windows compatibility.
+- **Impact:** Easy browser loading lowers experimentation friction, but poor execution fidelity limits practical preservation use.
+- **Watch next:** Fixes from the failed executable list, Delphi support, and comparison against BoxedWine and retrowin32.

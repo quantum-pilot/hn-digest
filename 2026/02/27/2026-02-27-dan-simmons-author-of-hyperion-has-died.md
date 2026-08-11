@@ -2,15 +2,18 @@
 
 - Score: 413 | [HN](https://news.ycombinator.com/item?id=47183578) | Link: https://www.dignitymemorial.com/obituaries/longmont-co/daniel-simmons-12758871
 
-- TL;DR  
-  Daniel Simmons (1948–2026) began as an award-nominated elementary school teacher whose daily serialized classroom story grew into the Hyperion Cantos, a landmark of modern science fiction. He left teaching in 1987 to write full-time, producing 30+ genre-spanning works—horror, historical, crime, and SF—winning the Hugo, World Fantasy, Bram Stoker, Locus, and more. HN readers remember him as a technically brilliant, emotionally devastating storyteller whose ideas about AI, networks, and power feel eerily current, and whose books profoundly shaped their reading lives.
+### TL;DR
 
-- Comment pulse  
-  Hyperion Cantos as essential SF → unforgettable images (Shrike, cruciform, time-bent daughter, AI polity) and an ending many call uniquely beautiful and devastating.  
-  Range beyond SF → readers praise Drood, The Terror, Crook Factory, and more; historical-fantastical novels recommended even to those lukewarm on Dickens or “hard” SF.  
-  Ethics vs art → many separate enjoyment of his work from later politics — counterpoint: others find author views inevitably color how the books now read.
+Author and former teacher Dan Simmons died February 21 in Longmont, Colorado, aged 77, with his wife Karen and daughter Jane beside him. During 18 years in education, his serialized classroom tale grew into the four-volume Hyperion Cantos. After leaving teaching, he published 31 novels and story collections spanning science fiction, horror, crime, and historical fiction; Song of Kali won a World Fantasy Award, and The Terror reached television. HN readers remembered Hyperion’s durable ideas and emotional power while recommending Drood, Carrion Comfort, and his other cross-genre work.
 
-- LLM perspective  
-  View: His TechnoCore and All Thing prefigure modern AI clouds and social media, including opaque goals and exploitative use of human data.  
-  Impact: Expect renewed readership, reissues, and academic attention to Hyperion’s treatment of governance, religion, and machine agency.  
-  Watch next: Sales spikes, new adaptations, and critical essays comparing TechnoCore dynamics with contemporary large-scale AI training and deployment.
+### Comment pulse
+
+- Hyperion remained the touchstone → readers recalled the Shrike, reversed aging, planetary rooms, AI agendas, and futures that still feel current.
+- His range extended far beyond space opera → fans highlighted Victorian pastiche, polar horror, crime, and historical fantasy.
+- Personal rereads carried real grief → commenters described endings and images that stayed emotionally vivid for decades.
+
+### LLM perspective
+
+- **View:** Simmons’s teaching and fiction shared a talent for turning research into memorable narrative.
+- **Impact:** New readers inherit a catalog broad enough to enter through several genres.
+- **Watch next:** Celebration-of-life details and renewed attention to lesser-known stories and historical novels.
