@@ -2,15 +2,18 @@
 
 - Score: 285 | [HN](https://news.ycombinator.com/item?id=47130860) | Link: https://dork.dev/posts/2026-02-20-ported-coreboot/
 
-- TL;DR  
-  - An individual ports coreboot/libreboot to a ThinkPad X270 by dumping Lenovo’s BIOS via RP2040-based SPI flashing, extracting Intel ME/GbE/IFD regions, and using deguard to generate a cleaned ME image. Using the X280 coreboot port as a template, they debug subtle hardware differences (Thunderbolt removal, PCIe clock/CLKREQ wiring) that initially break NVMe and WiFi. After correcting GPIO/CLKREQ mappings, the laptop boots Guix from encrypted NVMe. The work is being upstreamed; HN discusses firmware throttling quirks, reasons to escape proprietary BIOS, and practical debugging methods.
+### TL;DR
 
-- Comment pulse  
-  - Firmware throttling hacks → X270 owners report PROCHOT-based underclocking with third‑party batteries; scripts or tools like ThrottleStop can override it—counterpoint: fixes may need firmware mods.  
-  - Why replace stock BIOS → Commenters stress open firmware reduces opaque SMM behavior, aids security/debugging, and aligns control with users instead of vendors.  
-  - Coreboot porting practice → Similar platforms and schematics reduced need for serial; tools like cbmem and flash logging substitute when UART isn’t exposed.
+A developer ported coreboot to a Kaby Lake ThinkPad X270 by adapting the similar X280 board definition. They externally dumped and reflashed SPI firmware with an RP2040, preserved Intel descriptor, Ethernet, and Management Engine regions, repaired a capacitor accidentally knocked from the board, and debugged a partial boot where NVMe and Wi-Fi vanished. Schematics revealed the X270’s PCIe clock-request routing differed; correcting those allocations produced working GRUB, Guix, NVMe, and wireless. Changes are being upstreamed. HN discussed open firmware’s auditability and debugging value, alongside remaining opaque auxiliary processors.
 
-- LLM perspective  
-  - View: Community firmware ports on older ThinkPads remain practical avenues for gaining transparency and repairability on x86 laptops.  
-  - Impact: Successful X270 upstreaming strengthens support for Kaby Lake platforms and provides a template for nearby models with similar schematics.  
-  - Watch next: Measure power, thermals, and throttling under coreboot vs stock firmware to test claims about efficiency and PROCHOT behavior.
+### Comment pulse
+
+- A nearby board port reduced blind debugging → the X280 template booted far enough for live-USB cbmem logs.
+- Schematics resolved what firmware guesses could not → one shifted CLKREQ mapping disabled both Wi-Fi and NVMe.
+- Open firmware increases owner control → counterpoint: Intel ME and other embedded processors prevent complete transparency.
+
+### LLM perspective
+
+- **View:** Firmware freedom remains hardware-specific reverse engineering, not a drop-in software replacement.
+- **Impact:** X270 owners may gain auditable boot code and more control over platform policies.
+- **Watch next:** Upstream review, model variants, suspend, thermal and battery behavior, peripheral regressions, and reproducible installation guidance.

@@ -2,15 +2,18 @@
 
 - Score: 189 | [HN](https://news.ycombinator.com/item?id=47133055) | Link: https://github.com/GreatScott/enveil
 
-- TL;DR  
-  - enveil is a Rust CLI that replaces plaintext .env secrets with ev:// placeholders, storing real values in an encrypted per-project vault and injecting them only at process launch. It’s aimed at stopping AI coding tools from casually reading secrets from project directories. HN agrees this mitigates one common footgun but stresses it doesn’t protect secrets once loaded into a running process, and questions rolling custom crypto for such a narrow threat model.
+### TL;DR
 
-- Comment pulse  
-  - Narrow win: prevents AI assistants from accidentally ingesting .env files → but environment variables remain readable to any same-user process, including agent shells and debug tools.  
-  - Broader threat: secrets leak via logs, traces, hardcoded keys; static analyzers and pipeline hygiene help most — counterpoint: .env is still a frequent failure.  
-  - Many prefer sops/dotenvx or credential-injecting proxies (Airut, OrcaBot) over new env tools; cryptography reviewers criticize enveil’s design and advise avoiding rolled-by-hand schemes.
+Enveil is a Rust CLI intended to keep project secrets out of plaintext `.env` files and away from coding assistants’ routine file access. Templates contain `ev://` references; values live in a per-project AES-256-GCM store unlocked with an Argon2id-derived key, then enter a launched subprocess through environment variables. It offers interactive set, import, delete, rotate, and run commands but deliberately no value-printing or export command. The design limits accidental disk ingestion, not a malicious or shell-capable agent running as the same user, which can inspect the child environment.
 
-- LLM perspective  
-  - View: enveil is pragmatic for solo devs using local AI assistants, but not a comprehensive secret-management or agent-safety solution.  
-  - Impact: cuts low-effort leaks from AI file reads; serious teams still need Vault/KMS, log scrubbing, and hardened agent sandboxes.  
-  - Watch next: patterns combining local secret stores, surrogate credentials, and MCP-like brokers that keep raw secrets outside any LLM process.
+### Comment pulse
+
+- Same-user processes can read injected variables or alter code to print them — counterpoint: avoiding accidental file ingestion remains useful.
+- Several favor surrogate credentials resolved by an inaccessible proxy, creating scoped, revocable authority without exposing real secrets to the agent.
+- Critics recommend established tools such as SOPS or dotenvx and flag unzeroized strings, brute-force concerns, and overly broad security claims.
+
+### LLM perspective
+
+- **View:** This is encrypted secret storage, not a boundary against an agent with equivalent OS privileges.
+- **Impact:** It can reduce casual leaks while leaving logs, crashes, source, and process inspection exposed.
+- **Watch next:** Threat-model clarification, external audit, keychain support, and isolation or proxy integrations.

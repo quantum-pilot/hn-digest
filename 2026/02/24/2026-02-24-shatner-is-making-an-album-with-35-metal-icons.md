@@ -3,18 +3,17 @@
 - Score: 210 | [HN](https://news.ycombinator.com/item?id=47131173) | Link: https://www.guitarworld.com/artists/guitarists/william-shatner-announces-all-star-metal-album
 
 ### TL;DR
-William Shatner, 94, is recording an all‑star heavy metal album with 35 “metal icons,” sparked by a spoken‑word guest spot on Nuclear Messiah’s Black Flame and a gifted guitar from Zakk Wylde. The untitled project will mix originals with covers of Black Sabbath, Judas Priest, and Iron Maiden, and is explicitly framed as “not a novelty album,” promising massive guitars and cinematic arrangements. Hacker News finds the concept funny yet fitting, noting Shatner’s long, surprisingly effective history of spoken‑word rock.
 
----
+William Shatner, 94, has announced an untitled metal album featuring 35 hand-picked metal figures whose names remain undisclosed. It will mix original material with covers of Black Sabbath, Judas Priest, and Iron Maiden, promising large guitars, cinematic arrangements, humor, and spoken-word intensity. The project followed Shatner’s narration on Nuclear Messiah’s Black Flame with former Megadeth guitarist Chris Poland; a guitar gift from Zakk Wylde added momentum. The promotional image appears to show an AI-generated Les Paul. His previous eclectic collaborations make the premise less unprecedented than it sounds.
 
 ### Comment pulse
-- Elder metal renaissance → Shatner joins Christopher Lee and even Orson Welles in the “very old men doing metal” micro‑genre, with amazement he’s this active at 94.  
-- Shatner’s catalog → Wild spoken‑word over rock, punk, pop; people cite Common People, Rocket Man, Mr Tambourine Man, and even his Esperanto film and Futurama bit.  
-- So‑bad‑it‑works charisma → Many concede he’s not conventionally good, yet his commitment and odd poignancy (Wrath of Khan, Common People) make them root for him.
 
----
+- Fans expect theatrical spoken-word performance, pointing to Common People and earlier collaborations as proof the format can work.
+- Commenters compared the project with Christopher Lee’s late-life metal records and celebrated Shatner’s curiosity and energy at 94.
+- Skeptics expect awkwardness — counterpoint: tension between apparent kitsch and committed arrangement is central to Shatner’s appeal.
 
 ### LLM perspective
-- View: This is celebrity metal as performance art—Shatner’s spoken‑word persona framed by elite players, not him “becoming” a metal singer.  
-- Impact: Good execution could broaden metal’s audience and further normalize theatrical, narrative‑driven collaborations in heavy music.  
-- Watch next: Actual guitarist lineup, whether “AI‑generated Les Paul” stays a visual gag, and early track releases to see if it escapes novelty status.
+
+- **View:** The unannounced roster, not the genre crossover itself, is the project’s main unknown.
+- **Impact:** High-profile guests could turn a novelty premise into a serious ensemble record.
+- **Watch next:** Artist credits, producer, track list, first single, and confirmation of the artwork’s origin.

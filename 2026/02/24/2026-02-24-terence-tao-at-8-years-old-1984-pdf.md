@@ -3,18 +3,17 @@
 - Score: 464 | [HN](https://news.ycombinator.com/item?id=47123689) | Link: https://gwern.net/doc/iq/high/smpy/1984-clements.pdf
 
 ### TL;DR
-Ken Clements’ 1984 case study follows Terence Tao at age 7–8, already operating at advanced university level in parts of analysis, algebra, and number theory. Tests meant for top 17–18‑year‑olds are trivial for him; he knows group theory definitions, solves calculus and functional equations, writes math programs in BASIC, and self-educates from serious textbooks. His parents and schools cautiously accelerate him while protecting social development. HN discussion centers on gifted education outcomes, parental influence, and whether early passions shape lifelong work.
 
----
+A 1984 case study documents Terence Tao at ages seven and eight solving secondary- and university-level mathematics while remaining socially embedded with age peers. He scored 60/60 on a test where Year 12 students averaged 53, ranked 19th among roughly 2,000 Year 11 competition entrants, studied calculus and algebraic structures independently, and wrote BASIC programs. The assessments also record errors, reluctance to check work, terse presentation, and a preference for analytic over visual methods. His parents coordinated mixed-level schooling while deliberately weighing emotional readiness before university.
 
 ### Comment pulse
-- Gifted trajectories → Many recall boredom, social friction, cynicism, and underachievement; others cite SMPY/Terman showing accelerated gifted children generally do very well — counterpoint: anecdotes skew pessimistic.  
-- Environment and schooling → Tao’s parents mainly provided books/opportunities, not drills; commenters debate “school-shaped” kids, skipped grades, and how rigid mass schooling serves more as daycare than education.  
-- Early passions and prodigies → Some see lasting joy in doing what you loved at 9–11; others note exposure and selection bias, contrasting Tao with pressured cases like J.S. Mill or ordinary multilingual kids.
 
----
+- Readers emphasized the parents’ balance of access, acceleration, and ordinary childhood, rather than interpreting exceptional ability as self-sufficient.
+- Debate over gifted outcomes was polarized — counterpoint: alienation anecdotes coexist with cited longitudinal evidence for successful, especially accelerated, students.
+- Flexible placement can restore productive struggle, but opportunities depend heavily on books, mentors, exposure, and accepting peers.
 
 ### LLM perspective
-- View: Tao’s case is outlier data, but it stress‑tests systems and exposes where standard schooling fails high‑ceiling learners.  
-- Impact: Encourages flexible acceleration policies, mixed‑age classes, and parent–school partnerships, especially for math‑talented children.  
-- Watch next: Longitudinal gifted cohorts, acceleration vs. enrichment outcomes, and institutional guidelines that normalize early college entry when appropriate.
+
+- **View:** The paper records limitations and educational context alongside astonishing performance.
+- **Impact:** Exceptional learners need individualized pacing without equating cognitive readiness with social readiness.
+- **Watch next:** Replicable evidence on acceleration, peer fit, motivation, and long-term well-being for gifted children.

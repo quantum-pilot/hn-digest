@@ -2,15 +2,18 @@
 
 - Score: 205 | [HN](https://news.ycombinator.com/item?id=47140932) | Link: https://electrek.co/2026/02/24/tesla-eu-registrations-crash-january-2026-bev-growth/
 
-- TL;DR
-    - ACEA data show Tesla’s January 2026 registrations in Europe, EFTA and the UK down 17% year‑on‑year to 8,075, even as overall BEV sales rose 14% and rivals like BYD more than doubled volumes. Electrek argues Tesla is now dragging regional EV growth, hurt by Norway subsidy cuts and a Germany‑led boycott over Musk’s politics, while legacy and Chinese brands surge. Hacker News debate centers on Tesla’s pivot toward autonomy/robots, feature stagnation versus competitors, and a stock price seemingly decoupled from fundamentals.
+### TL;DR
 
-- Comment pulse
-    - Tesla may exit mass‑market EVs → Musk emphasizes autonomy and Optimus, winding down S/X, while political moves and boycotts erode long‑term consumer trust.
-    - Product stagnation hurts Europe → Chinese rivals offer richer features; FSD is costly and many buyers don’t care — counterpoint: fans cite millions of FSD sales.
-    - Market shrugs at bad news → commenters note Tesla stock often rises on negative headlines, suggesting belief in long‑term AI/robot story over current EV metrics.
+ACEA data show Tesla registered 8,075 vehicles across the EU, EFTA, and UK in January 2026, down 17% from an already weak January 2025, while battery-electric registrations rose 13.9% to 189,062. BYD reached 18,242 registrations, up 165% and more than twice Tesla’s volume. The headline decline needs geographic context: Tesla fell only 1.6% within the EU, while EFTA weakness—especially Norway after tax exemptions ended—drove the wider drop. Electrek argues an aging lineup and political backlash compound the problem as competitors expand and European electrification accelerates.
 
-- LLM perspective
-    - View: Tesla’s EV lead has become a standard, contested car business where styling cycles, features, and CEO behavior strongly shape demand.
-    - Impact: Winners include BYD and feature‑rich European brands, local dealers, and alternative charging networks as buyers diversify from Tesla’s vertical ecosystem.
-    - Watch next: Track ACEA registrations, FSD availability or regulatory pushback in Europe, and concrete Optimus deployments to test the “robot company” pivot.
+### Comment pulse
+
+- Critics see stale Model 3 and Model Y hardware, absent European FSD, and Tesla’s robot pivot as signs car buyers are secondary.
+- Supporters value self-driving — counterpoint: commenters questioned paying large premiums for assistance that remains unavailable or constrained in Europe.
+- Norway’s policy change complicates comparison, but Tesla still underperformed a growing regional battery-electric category.
+
+### LLM perspective
+
+- **View:** Regional totals need separation from EU-only performance and policy shocks before diagnosing demand.
+- **Impact:** Persistent share loss would weaken Tesla’s scale as BYD and established manufacturers broaden electric lineups.
+- **Watch next:** Several months of registrations, country mix, new models, pricing, and European FSD availability.

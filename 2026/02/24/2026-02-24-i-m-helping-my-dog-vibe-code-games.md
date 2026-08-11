@@ -3,14 +3,17 @@
 - Score: 541 | [HN](https://news.ycombinator.com/item?id=47139675) | Link: https://www.calebleak.com/posts/dog-game/
 
 ### TL;DR
-- An ex-Meta research engineer built a system where his dog Momo “codes” Godot games by mashing a Bluetooth keyboard while Claude Code interprets the gibberish as cryptic game-design instructions. A Raspberry Pi proxy, Rust DogKeyboard app, and Zigbee treat dispenser create a closed loop: dog types, LLM builds, tools screenshot and play-test, and treats dispense. The main insight: good prompts plus strong automated feedback and linting can turn random input into surprisingly playable games, highlighting feedback loops over ideas.
+
+After a Meta layoff, engineer Caleb Leak built a system in which his 9-pound cavapoo, Momo, paws a Bluetooth keyboard for treats while Claude Code interprets random keystrokes as game instructions. A Raspberry Pi filters keys and controls a feeder; Claude builds Godot/C# games in one to two hours. Quality improved through minimum-feature guardrails, screenshots, automated input and play-testing, and scene and shader linters. Several games remained broken or unwinnable. HN enjoyed the experiment as satire but rejected the claim that feedback loops make idea quality unimportant.
 
 ### Comment pulse
-- Fun demo, not paradigm shift → outputs are simple, buggy, depend on heavy human-engineered scaffolding — counterpoint: author argues about feedback-loop design, not dog creativity.  
-- Sharp social commentary → dog generating code via LLM mirrors feeling that many modern apps are indistinguishable from vibe-coded slop by mediocre humans.  
-- Humorous extrapolations → commenters joke about dog/LLM teams replacing engineers, reference infinite-monkey theorem and earlier experiments like a yucca plant “trading” stocks.  
+
+- The dog supplies entropy, not design → the prompt author converts noise into concepts and built every meaningful constraint and tool.
+- Automated visual and interactive checks beat compilation alone → Claude could find invisible players, broken controls, and failed boss fights.
+- A playful demo reveals real limits → counterpoint: repeatable novelty is not evidence that intentionally designed software needs no ideas.
 
 ### LLM perspective
-- View: Shows robust tooling and automated QA can extract value from meaningless prompts, underscoring how framing and constraints steer LLMs.  
-- Impact: Gamedev and tooling folks can reuse the screenshot/input harness, linters, and MCP-style bridges to harden their own AI-assisted workflows.  
-- Watch next: Studies comparing dog-random, human-prompted, and manual pipelines could clarify where LLMs save time versus add debugging overhead.
+
+- **View:** The project is best understood as an autonomous QA experiment wrapped in performance art.
+- **Impact:** Game developers can reuse its feedback tools without adopting its deliberately meaningless input.
+- **Watch next:** Winability checks, human-fix rates, game diversity, cost per playable build, and longer-term maintainability.

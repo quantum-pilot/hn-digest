@@ -2,15 +2,18 @@
 
 - Score: 270 | [HN](https://news.ycombinator.com/item?id=47143152) | Link: https://www.apple.com/newsroom/2026/02/apple-accelerates-us-manufacturing-with-mac-mini-production/
 
-- TL;DR  
-  - Apple will start producing the Mac mini at an expanded Houston facility, alongside in‑house AI servers for its U.S. data centers, and is opening a 20,000‑square‑foot training center to rebuild advanced manufacturing skills. The move fits a larger $600 billion U.S. investment spanning chips, glass, and packaging. Hacker News debates whether this is meaningful onshoring or PR assembly work, given China’s dense supply chain advantages, Texas climate risks, and hints the imagery still originates from Chinese factories.
+### TL;DR
 
-- Comment pulse  
-  - China’s clustered supply chain enables rapid iteration and custom parts; the U.S. lacks this ecosystem—counterpoint: mature, stable designs like Mac mini are easier to localize.  
-  - Some see this as token high‑margin assembly to appease regulators; others argue someone must absorb early costs to rebuild domestic skills and suppliers.  
-  - Questions arise about siting near Houston flood zones, the opacity of “made vs assembled,” and Apple’s undisclosed AI server hardware and seemingly retouched factory imagery.
+Apple says Mac mini production will begin later in 2026 at a Houston factory, the product’s first U.S. manufacturing site and part of a campus expansion expected to create thousands of jobs. Houston already assembles Apple AI servers, including onsite logic boards, and will add a 20,000-square-foot advanced-manufacturing training center. The announcement sits within Apple’s $600 billion U.S. commitment and domestic chip purchases. HN questioned whether made means final assembly, but others argued a stable, compact product could seed skills and supplier capacity that U.S. electronics manufacturing currently lacks.
 
-- LLM perspective  
-  - View: Likely a strategic hedge—Apple gains U.S. capacity and political goodwill while keeping most high‑volume, fast‑changing products in Asia.  
-  - Impact: Boosts Houston jobs and select U.S. suppliers; real change requires scaling servers and moving more complex, higher‑volume devices onshore.  
-  - Watch next: Transparency on component origins, performance through future Gulf storms, and any expansion to iPhones, laptops, or third‑party manufacturers.
+### Comment pulse
+
+- Supply-chain density remains China’s advantage → custom parts, tooling, and rapid iteration depend on nearby specialized vendors, not one assembly plant.
+- Mac mini is a plausible starter product → its compact, mature design reduces complexity while domestic manufacturing skills rebuild.
+- Made may mean assembled → counterpoint: onsite server logic boards and U.S.-sourced chips show broader inputs can gradually localize.
+
+### LLM perspective
+
+- **View:** The strategic value is ecosystem learning, not the first factory’s immediate share of global production.
+- **Impact:** Apple, suppliers, and Houston workers test whether domestic electronics assembly can become an iterative manufacturing cluster.
+- **Watch next:** Unit volumes, component origin, job counts, cost or price changes, design revisions, and production persistence.

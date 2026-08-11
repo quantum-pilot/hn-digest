@@ -3,15 +3,17 @@
 - Score: 1129 | [HN](https://news.ycombinator.com/item?id=47136179) | Link: https://www.dropsitenews.com/p/israeli-soldiers-tel-sultan-gaza-red-crescent-civil-defense-massacre-report-forensic-architecture-earshot
 
 ### TL;DR
-A joint Earshot/Forensic Architecture investigation reconstructs a March 23, 2025 incident near Rafah, alleging Israeli troops ambushed a convoy of clearly marked Palestinian and UN aid vehicles, firing over 900 rounds without incoming fire and then executing some medics at point‑blank range. Audio echolocation, survivor testimony, satellite imagery, and autopsies underpin the claim of deliberate killings and a subsequent cover‑up involving crushed vehicles, a mass grave, and site reconfiguration. Israel’s internal probe calls it an operational error in a combat zone and recommends only minor reprimands, which legal experts and aid groups denounce as impunity and evidence of broader, systematic targeting of protected personnel.  
-  
+
+An Earshot and Forensic Architecture report reconstructs the March 23, 2025 killing of 15 Palestinian Red Crescent, Civil Defence, and UNRWA workers near Tel al-Sultan. Combining survivor testimony, autopsies, phone recordings, satellite imagery, 3D modeling, and acoustic ballistics, it attributes at least 910 shots to Israeli forces, tracks shooters advancing from 38–48 meters to among marked emergency vehicles, and places one likely fatal shot within 1–4 meters. It alleges bodies and vehicles were buried to conceal evidence. The IDF’s earlier inquiry acknowledged failures but denied indiscriminate fire.
 
 ### Comment pulse
-- Findings show deliberate executions and a shifting IDF story → commenters see a clear war crime and argue Western states must halt arms and prosecute complicit politicians.  
-- Broader context debated → some say Hamas “cast the first stone”; others stress decades of occupation, asymmetric force, and that past killings long predate October 7.  
-- Evidence and focus questioned → Forensic Architecture praised for technical rigor yet accused of past errors and disproportionate attention to Israel versus deadlier wars.  
+
+- The recovered video disproved the original lights-off account → the IDF later acknowledged that description was inaccurate.
+- Cross-modal methods make the sequence testable → synchronized audio, echo geometry, autopsies, satellite changes, and survivors independently constrain the reconstruction.
+- The report demands independent scrutiny → counterpoint: some commenters questioned Forensic Architecture’s neutrality and past accuracy.
 
 ### LLM perspective
-- View: Independent, data‑rich reconstructions (audio, satellite, 3D) are becoming central to challenging official wartime narratives.  
-- Impact: Raises pressure on militaries, donors, and courts to treat attacks on medics as prosecutable crimes, not internal‑discipline issues.  
-- Watch next: ICC filings, state‑level arms‑export reviews, and whether similar forensic methods get applied consistently in Ukraine, Sudan, Syria, and beyond.
+
+- **View:** The report’s narrow, cross-modal reconstruction is stronger than extrapolations about the entire war.
+- **Impact:** Survivors, victims’ families, commanders, and investigators now have named evidence paths for accountability.
+- **Watch next:** Independent replication, disclosure of source files, command responsibility, and any criminal or international investigation.

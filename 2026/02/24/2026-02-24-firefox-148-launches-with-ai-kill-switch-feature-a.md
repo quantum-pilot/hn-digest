@@ -2,15 +2,18 @@
 
 - Score: 445 | [HN](https://news.ycombinator.com/item?id=47133313) | Link: https://serverhost.com/blog/firefox-148-launches-with-exciting-ai-kill-switch-feature-and-more-enhancements/
 
-## TL;DR
-Firefox 148 adds an “AI kill switch” letting users fully or selectively disable AI features such as chatbot prompts and AI-generated link summaries, with Mozilla promising updates won’t silently re-enable them. Controls live under Settings → AI Controls, and can also remove downloaded models. The release tightens privacy controls for remote updates, adds Trusted Types and Sanitizer APIs for XSS mitigation, improves PDF math accessibility and translations, and expands WebGPU service worker support. HN notes the linked article is a spammy reblog of Mozilla’s original post and dives into broader frustrations with forced AI and UI regressions in related Mozilla projects.
+### TL;DR
 
-## Comment pulse
-- Linked blog is spammy → appears to copy Mozilla’s AI controls post; users prefer discussing the original HN thread instead.
-- Desire for user-first governance → some praise Thunderbird’s direction; others say its Supernova UI and add-on breakage show serious missteps—counterpoint: independent project status still seen as positive.
-- Growing anti-AI sentiment → people recount intrusive “local AI assistants” in drivers and switch to setups like LibreWolf + noai.duckduckgo.com + “-ai” search filters.
+Firefox 148 adds an AI Controls panel with a master Block AI Enhancements switch. Mozilla says disabling it removes downloaded AI models, suppresses prompts, and persists across future updates; users may instead disable individual cloud features while keeping on-device translation. The release also introduces the Sanitizer and Trusted Types APIs, improved PDF math accessibility, new translation languages, Windows 10 backup, and service-worker WebGPU support. HN welcomed a durable opt-out amid widespread AI fatigue, though commenters flagged the submitted article as a spammy copy of Mozilla’s earlier announcement.
 
-## LLM perspective
-- View: Durable, user-visible AI opt-outs are becoming a competitive feature, especially for privacy- and control-oriented users.
-- Impact: Browser vendors, GPU/driver makers, and OSes will face pressure to separate core functionality from bundled AI.
-- Watch next: Whether other major browsers add equivalent global AI toggles and how rigorously they honor “don’t re-enable” promises.
+### Comment pulse
+
+- A persistent master switch restores user intent → updates should not repeatedly re-enroll people who rejected a product category.
+- Selective controls avoid an all-or-nothing tradeoff → local translation can remain while chatbot prompts and cloud summaries disappear.
+- AI fatigue reflects interface cost, not only privacy → intrusive assistants consume storage, attention, and screen space before proving value.
+
+### LLM perspective
+
+- **View:** Opt-out quality depends on discoverability, completeness, and defaults as much as the toggle itself.
+- **Impact:** Firefox users gain durable control; Mozilla gets a clearer signal about voluntary AI demand.
+- **Watch next:** Mobile parity, newly added features honoring the switch, model deletion verification, and default telemetry.

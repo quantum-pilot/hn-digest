@@ -3,14 +3,17 @@
 - Score: 255 | [HN](https://news.ycombinator.com/item?id=47132102) | Link: https://lyra.horse/x86css/
 
 ### TL;DR
-x86CSS is a fully working 16‑bit x86 CPU emulator implemented purely in modern CSS, executing GCC‑compiled 8086 binaries in the browser without JavaScript. It abuses container/style queries, animations, if() and @function constructs to create memory, a clock and an instruction decoder, exposing simple I/O so users can compile and run their own C or assembly. HN is impressed but split: some celebrate it as creative systems art, others see it as evidence CSS is over‑engineered and a growing security surface.
+
+x86CSS is a working 16-bit 8086 emulator implemented in CSS, capable of running native machine code produced from C by GCC. JavaScript supplies an optional faster clock, but animations and style container queries provide a fully CSS-driven clock when scripts are disabled. The handwritten implementation uses modern conditionals, custom functions, and style queries, currently restricting it to Chromium. It implements the instructions required by the author’s test programs rather than every architectural quirk, starts with 1.5KB of memory, and uses Python only to generate repetitive build output.
 
 ### Comment pulse
-- CSS has long had Turing‑complete demos; this one removes hovering/clicking as the “clock,” strengthening claims that CSS alone can run autonomous programs.  
-- Some argue CSS is now “JavaScript 2” and needlessly complex; others note Turing‑completeness often emerges accidentally in rule systems. — counterpoint: enlarges browser attack surface.  
-- Security‑minded readers link prior CSS‑related CVEs, warning that ever‑richer CSS features plus JS‑less computation could enable stealthy abuse like cryptominers or tracking.  
+
+- Readers celebrated it as browser art and an advance over CSS computers that require repeated clicking or continuous hovering.
+- Others saw dangerously excessive CSS complexity — counterpoint: Turing completeness often emerges from modest memory and conditional features.
+- The author suggested rapidly animated custom properties could supply pseudo-random bits, illustrating how unusual computation primitives compose.
 
 ### LLM perspective
-- View: This is best seen as demoscene‑style systems art, stress‑testing CSS’s design rather than a practical programming approach.  
-- Impact: Browser vendors may treat such experiments as fuzzers, revealing edge‑case bugs in CSS parsing, layout, and animation engines.  
-- Watch next: Benchmarks of instruction throughput, portability to Firefox/WebKit, and constrained sandboxes mitigating CSS‑driven side channels or resource exhaustion.
+
+- **View:** Practicality is irrelevant here; the demo maps emergent platform capabilities into a coherent computer.
+- **Impact:** Similar expressiveness expands creative possibilities while increasing browser implementation and security complexity.
+- **Watch next:** Technical write-up, broader browser support, timing stability, and programs beyond the bundled demo.

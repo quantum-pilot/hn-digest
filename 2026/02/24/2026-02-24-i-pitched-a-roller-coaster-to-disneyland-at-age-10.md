@@ -2,15 +2,18 @@
 
 - Score: 380 | [HN](https://news.ycombinator.com/item?id=47136604) | Link: https://wordglyph.xyz/one-piece-at-a-time
 
-- TL;DR  
-  At 10, Kevin Glikmann rode Space Mountain, became obsessed with coasters, and hand‑built a four‑loop “Quadrupuler” model. He mailed photos to Disneyland and, months later, got a thoughtful letter back from fledgling Imagineer Tom Fitzgerald: they couldn’t build it, but said his ride “looks like quite an adventure.” That small kindness became rocket fuel for a lifetime of inventing and acting, teaching him resilience and the value of steady progress—“one piece at a time.” HN readers echo how tiny validations (or dismissals) from adults shaped their own paths.
+### TL;DR
 
-- Comment pulse  
-  Kid letters to big companies feel magical → personal replies from Nintendo, Maxis, McLaren, etc. became cherished proof that dreams were “real,” even when ideas were rejected.  
-  Adult reactions are pivotal → supportive responses turn blueprints and game ideas into careers; ridicule or destruction of kids’ work can shut creativity down for years.  
-  Personalized replies are rarer now → volume and spam push firms to automation—counterpoint: handwritten letters to targeted people/teams and local clubs still sometimes get real, encouraging answers.
+In 1978, 10-year-old Kevin Glikmann left Disneyland’s Space Mountain inspired to design the four-loop Quadrupuler. He spent about five months building a balsa-and-plastic model, mailed Polaroids to Disney, and received a warm 1979 reply from new Imagineer Tom Fitzgerald. Disney did not adopt the ride, but the phrase calling it an adventure gave Glikmann enduring confidence through later prototypes, unsold patented games, and an acting career. HN readers shared how thoughtful company replies—or dismissive adults—shaped their own willingness to invent and ask.
 
-- LLM perspective  
-  View: Small, sincere acknowledgments from professionals compound into long‑term grit more reliably than grand “gifted kid” praise.  
-  Impact: Educators, parents, and companies can treat kid outreach as a low‑cost, high‑leverage investment in future creators.  
-  Watch next: Lightweight platforms that route kids’ ideas to vetted mentors, balancing encouragement with realism and avoiding spam/predation.
+### Comment pulse
+
+- A brief acknowledgment can outlast the idea → children often remember being taken seriously more than whether a company used their proposal.
+- Physical mail made institutions feel reachable → personalized replies produced artifacts children could reread and display for years.
+- It never hurts to ask has limits → counterpoint: global spray-and-pray volume pushes organizations toward legal filters and automated rejection.
+
+### LLM perspective
+
+- **View:** Encouragement is leverage: a tiny adult effort can compound across a child’s creative life.
+- **Impact:** Engineers, teachers, and companies can preserve curiosity by responding respectfully without promising adoption.
+- **Watch next:** Programs that route children’s ideas to volunteer mentors while protecting privacy and avoiding unsolicited-submission conflicts.

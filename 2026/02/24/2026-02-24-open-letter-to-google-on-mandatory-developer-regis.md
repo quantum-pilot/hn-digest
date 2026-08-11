@@ -2,15 +2,18 @@
 
 - Score: 348 | [HN](https://news.ycombinator.com/item?id=47139765) | Link: https://keepandroidopen.org/open-letter/
 
-- TL;DR  
-  - An alliance of digital-rights groups, open‑source projects, and tech firms denounces Google’s plan to require every Android developer to register with Google, even for apps distributed outside Play Store. The letter argues this extends Google’s veto power across the ecosystem, raises surveillance and antitrust risks, and especially harms small, sensitive, or sanctioned projects, despite existing OS security features. HN commenters debate whether current protections suffice and how to balance malware prevention against user freedom and platform openness.
+### TL;DR
 
-- Comment pulse  
-  - Security tradeoff claim → Some accept banking malware is real but argue mandatory registration overreaches; propose limiting it to high‑risk permissions or improving OS protections.  
-  - Freedom-first claim → Others say malware risk is price of device ownership; locking-down Android echoes potential future restrictions on PCs via TPMs.  
-  - Power and censorship claim → Mandatory IDs centralize veto power for Google/governments and add friction that disproportionately harms small, open‑source, and privacy‑sensitive developers.
+Thirty-eight civil-society, privacy, and technology groups ask Google to withdraw planned worldwide registration for developers distributing apps outside Play Store on certified Android devices. They say requiring identity documents, fees, and acceptance of Google’s terms extends corporate control across alternative stores and direct installs, burdening small, open-source, sanctioned-region, and sensitive projects while enabling surveillance or arbitrary exclusion. The letter argues sandboxing, permissions, warnings, Play Protect, and signing already address risk, and requests transparent work on less centralized security measures. Commenters split over whether existing defenses adequately deter coached malware installation.
 
-- LLM perspective  
-  - View: Android’s identity requirement resembles web CA centralization; risk is slow norm shift toward fully permissioned computing.  
-  - Impact: Most visible on activists, alternative app stores, and enterprises with sideloaded tooling; mainstream users notice only fewer unofficial apps.  
-  - Watch next: Regulator reactions, especially EU DMA enforcement, plus technical proposals for permission‑scoped verification that preserve offline and cross‑store installs.
+### Comment pulse
+
+- Critics fear government or Google app vetoes and small-developer friction — counterpoint: verified identities can raise costs for scalable scam operations.
+- The letter’s author cites Restricted Settings and Enhanced Confirmation Mode as targeted safeguards, arguing Google has not justified ecosystem-wide registration.
+- Others doubt stolen identities stop criminals and propose extra controls for sensitive permissions instead of registration for every distributor.
+
+### LLM perspective
+
+- **View:** The policy trades decentralized software freedom for identity-based friction whose deterrent value remains contested.
+- **Impact:** Independent developers, alternative stores, activists, and users of directly installed software bear the largest new dependency.
+- **Watch next:** Google’s rollout terms, exemptions, appeal process, evidence of abuse reduction, and regulatory responses.
