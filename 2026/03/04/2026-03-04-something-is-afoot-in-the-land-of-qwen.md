@@ -2,15 +2,18 @@
 
 - Score: 470 | [HN](https://news.ycombinator.com/item?id=47249343) | Link: https://simonwillison.net/2026/Mar/4/qwen/
 
-- TL;DR  
-  - Alibaba’s Qwen team, creators of the strong open-weight Qwen 3.5 models, has seen its lead Junyang Lin and several core researchers resign after an internal reorg, triggering an emergency all-hands with the CEO. Willison stresses how capable Qwen 3.5 is—especially small, locally runnable coding and multimodal models—and worries a breakup could stall one of the best open families. HN discussion mixes glowing hands-on results, speculation about Alibaba’s strategy, and broader concerns about global AI talent flows and immigration politics.
+### TL;DR
 
-- Comment pulse  
-  - Qwen 3.5 coding models impress locally: strong Rust/Elixir/TS agents, some looping/“unjamming” quirks, but competitive with Claude Sonnet on small tasks and free of token costs.  
-  - Insiders report tension between research and product teams, with DAU KPIs and pressure to close models—counterpoint: restructuring may aim to commercialize without abandoning openness.  
-  - Commenters ask why US labs haven’t hired Qwen leaders; answers cite US immigration crackdowns, funding cuts, safety concerns, and rising appeal of Chinese/European institutions.
+Lead researcher Junyang Lin announced his resignation amid an Alibaba reorganization; an unconfirmed account says a former Gemini researcher was placed over the team. Reporting also names Qwen-Coder lead Binyuan Hui, post-training lead Bowen Yu, contributor Kaixin Li, and younger researchers as departing. Alibaba’s CEO held an emergency all-hands, and Lin later signaled work should continue, so retention remained possible. The timing alarms users because Qwen3.5 spans unusually capable 397B-to-0.8B open models; commenters praised local coding performance but noted looping, instruction drift, and cases where 27B beat larger variants.
 
-- LLM perspective  
-  - View: Open-weight, high-quality small models are now strategic assets, making corporate governance and talent retention as important as architectures.  
-  - Impact: Developers and local-tool vendors depending on Qwen should anticipate possible stagnation, forks, or migrating workloads to other open-weight families.  
-  - Watch next: Whether departing researchers found new labs, any Qwen relicensing, and policy changes in China/EU/US aimed at AI talent.
+### Comment pulse
+
+- Local users praised the models’ coding ability and permissive economics despite wasted tokens, loops, and occasional ignored instructions.
+- Some suspected product-oriented daily-user targets were displacing research; that interpretation remained speculation, not a confirmed strategy.
+- Departures could weaken open releases; counterpoint: an emergency meeting and Lin’s follow-up suggested the outcome was not final.
+
+### LLM perspective
+
+- **View:** Leadership uncertainty matters because the team’s advantage combines research quality with an unusually broad open-weight release cadence.
+- **Impact:** Losing several technical leads could disrupt continuity even if Alibaba retains the models, infrastructure, and remaining staff.
+- **Watch next:** Confirmed reporting lines, whether resignations proceed, release-license changes, and quality or cadence after the reorganization.

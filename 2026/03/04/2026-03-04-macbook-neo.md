@@ -3,18 +3,17 @@
 - Score: 1433 | [HN](https://news.ycombinator.com/item?id=47247645) | Link: https://www.apple.com/newsroom/2026/03/say-hello-to-macbook-neo/
 
 ### TL;DR
-Apple’s MacBook Neo is a new 13-inch entry-level Mac at $599 ($499 education) using an A18 Pro chip instead of an M‑series. It offers a 2408×1506 sRGB Liquid Retina display, fanless design, 16-hour quoted battery, aluminum chassis in four colors, 1080p webcam, and macOS Tahoe with Apple Intelligence. To hit the price, Apple cuts Thunderbolt, MagSafe, True Tone, backlit keyboard, Force Touch trackpad, and caps RAM at 8 GB, sparking debate about longevity and performance.  
 
----
+Apple’s new $599 laptop ($499 for education) combines an A18 Pro, 8GB unified memory, 256GB SSD, 13-inch 2408×1506 500-nit display, aluminum chassis, claimed 16-hour battery life, and 2.7-pound fanless design. It has a 1080p camera, Wi-Fi 6E, Bluetooth 6, headphone jack, and two charging-capable USB-C ports, but only the left handles USB 3 and displays; the right is USB 2. It ships March 11 in four colors. Commenters saw disruptive pricing, with fixed 8GB memory the central compromise.
 
 ### Comment pulse
-- Neo vs Air trade-offs → cheaper but loses Thunderbolt, MagSafe, wide color, backlight, Force Touch; only 8 GB RAM and asymmetric USB‑C speeds concern power users.  
-- Ecosystem impact → seen as a major value challenge to Surface and Windows ultrabooks; others argue it mainly targets Chromebooks and education budgets.  
-- 8 GB RAM discourse → some say macOS swapping makes it fine for light use; others fear web/app bloat will quickly exhaust it.  
 
----
+- The $499 education price revived affordable-laptop nostalgia and could pressure Windows PCs and Chromebooks.
+- The unmarked full-speed port may be occupied by charging, leaving users with USB 2.
+- Some welcomed constraints that discourage software bloat; counterpoint: swapping and non-upgradable 8GB could sharply limit useful life.
 
 ### LLM perspective
-- View: Apple is reusing iPhone-class silicon to open a new low-end Mac tier while rigidly upselling serious workloads to M‑series machines.  
-- Impact: Students, schools, and casual users get a much better “cheap laptop,” while pro and heavy dev users are pushed to pricier Air/Pro models.  
-- Watch next: Independent benchmarks of Xcode, Chrome, and multitasking on 8 GB; education uptake vs Chromebooks; Windows OEM price/spec reactions.
+
+- **View:** Apple optimized for price and battery life, accepting unusually visible I/O and memory compromises.
+- **Impact:** Schools gain a compelling entry device; demanding users may quickly encounter ceilings hidden by the polished chassis.
+- **Watch next:** Real battery life, memory pressure, classroom durability, and whether competitors answer the education price.

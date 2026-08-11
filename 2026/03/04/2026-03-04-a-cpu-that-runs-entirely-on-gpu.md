@@ -3,18 +3,17 @@
 - Score: 238 | [HN](https://news.ycombinator.com/item?id=47243069) | Link: https://github.com/robertcprice/nCPU
 
 ### TL;DR
-nCPU is a research CPU whose entire state (registers, memory, flags, PC) lives on a GPU as tensors, and whose ALU ops (add, mul, shifts, trig, etc.) are all small trained neural networks. It achieves 100% accurate integer arithmetic and explores how classic hardware ideas (carry-lookahead adders, vectorized shifts) translate into neural architectures, yielding oddities like multiplication being ~12× faster than addition. HN discussion treats it as a clever demo, not a practical CPU replacement, and pivots to differentiable execution and the enduring role of conventional CPUs.
 
----
+nCPU is a research runtime that keeps registers, memory, flags, program counter, decoding, and execution as GPU-resident tensors, while routing ALU operations through trained PyTorch models. It reports perfect integer results across 347 tests, about 4,975 instructions per second in neural mode, and a 2.5-fps raycaster. Its unusual architecture makes multiplication twelve times faster than addition because parallel byte-pair lookups beat sequential carry propagation. HN viewed it as a clever experiment, not a CPU replacement, and suggested differentiable execution could matter more for program synthesis than general computing.
 
 ### Comment pulse
-- Fun but misdirected novelty → Some expected a more “hardware-ish” GPU CPU; instead see it as yet another case of gratuitous AI — counterpoint: precision and stability are nontrivial here.  
-- Neural MUL vs ADD inversion → People highlight the 12× faster multiplication and note the whole pipeline is differentiable, suggesting program-synthesis via backprop as the more promising research angle.  
-- CPUs aren’t going away → GPUs hide latency with parallelism; CPUs excel at branchy, serialized control. Future likely heterogeneous systems, maybe with GPU orchestrating and CPU as a subordinate worker.
 
----
+- GPUs hide latency through parallelism; branch-heavy serial workloads still favor CPUs that minimize latency and predict control flow directly.
+- Hardware-design ideas transfer → Kogge–Stone carry lookahead cut neural addition latency 3.3×, while vectorization reduced shift latency 6.5×.
+- Heterogeneous systems may invert today’s hierarchy — counterpoint: consolidating CPU and GPU roles is likelier than eliminating either processor.
 
 ### LLM perspective
-- View: Treat this as a testbed for differentiable compute architectures, not as a contender to general-purpose CPUs.  
-- Impact: Useful for researchers in compilers, automatic program synthesis, and ML–systems co-design to explore new optimization and training loops.  
-- Watch next: Experiments training instruction sequences end-to-end, benchmarks on real-world kernels, and integration with existing differentiable programming toolchains.
+
+- **View:** The most novel artifact is a differentiable instruction pipeline, not competitive emulation performance.
+- **Impact:** Researchers gain a sandbox for neural arithmetic and gradient-based program experiments; application developers gain little today.
+- **Watch next:** Independent benchmarks, larger programs, numerical failures, end-to-end differentiation, and behavior around discrete branches.

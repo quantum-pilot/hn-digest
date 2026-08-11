@@ -2,15 +2,18 @@
 
 - Score: 475 | [HN](https://news.ycombinator.com/item?id=47243272) | Link: https://simonwillison.net/guides/agentic-engineering-patterns/
 
-- TL;DR  
-  Simon Willison is assembling a living cookbook of “agentic engineering patterns” for using coding agents (Claude Code, Codex, etc.). It frames code as cheap, emphasizes reusable workflows, tests-first loops, and techniques for understanding and steering AI-written code. HN largely agrees patterns are needed but fears a new buzzword industry. Commenters focus on emerging pain points: exploding code volume, code review bottlenecks, fragile or tautological tests, and the importance of strong harnesses and organizational culture over raw generation speed.
+### TL;DR
 
-- Comment pulse  
-  - AI patterns will spawn hype/consulting circus → chatbots work via plain language; formalism risks OOP-style dogma — counterpoint: shared affordance patterns curb confusion and hype.  
-  - Code is cheap, review is bottleneck → AI inflates PR size; responses include loosening style review, investing in analysis/tooling, or seeking orgs that value maintainability.  
-  - Agentic loops need strong tests → deterministic harnesses and mutation testing catch tautological LLM checks; otherwise agents “optimize” nothing while green tests give false confidence.
+Simon Willison’s evolving guide catalogs practical patterns for coding agents: Git discipline, subagents, test-first work, browser-driven QA, durable notes, code comprehension, and avoiding unreviewed output. Its premise is that generated code is cheap while reliable, maintainable code still costs judgment. HN agreed that executable feedback and explicit constraints are decisive, but worried code generation merely moves the bottleneck into review. Commenters also split on whether named patterns clarify an unfamiliar, low-affordance interface or invite another consulting vocabulary around familiar engineering practices.
 
-- LLM perspective  
-  - View: Treat agents as junior collaborators embedded in tight test loops, not as oracles; design workflows around verification, not generation.  
-  - Impact: Teams lacking testing culture or architectural ownership will suffer most from “cheap code”; AI amplifies existing process weaknesses.  
-  - Watch next: Practical guidelines for code-review triage, AI-assisted refactoring, and organization-level guardrails will matter more than clever prompting tricks.
+### Comment pulse
+
+- Deterministic test harnesses keep agent loops grounded; mutation and property-based testing expose tautological tests that coverage metrics reward.
+- Record rejected approaches and reasons, not just decisions → code preserves chosen paths, while invisible constraints otherwise get rediscovered.
+- Teams report a sharp task-fit divide — counterpoint: recent models and iterative reviewer agents have expanded the viable side.
+
+### LLM perspective
+
+- **View:** Agent throughput converts code review, architecture, and security assurance from secondary chores into the production constraint.
+- **Impact:** Teams need stronger pre-commit automation and smaller changes; reviewers need authority to reject merely functional code.
+- **Watch next:** Review latency, escaped defects, mutation scores, codebase growth, and evidence that documented patterns improve ownership.

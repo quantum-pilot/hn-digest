@@ -3,18 +3,17 @@
 - Score: 183 | [HN](https://news.ycombinator.com/item?id=47252726) | Link: https://www.engadget.com/apps/google-ends-its-30-percent-app-store-fee-and-welcomes-third-party-app-stores-185248647.html
 
 ### TL;DR
-Google is restructuring Play Store economics under pressure from regulators and its Epic Games settlement. The headline “ends 30 percent fee” masks a shift to a 20% platform “service fee” plus a 5% billing fee when using Google payments (25% total), with lower rates for subscriptions and certain promotional programs. Developers can more easily use alternative billing and even direct users to external websites. A new “Registered App Stores” program streamlines third‑party store installs but risks becoming a new gatekeeping layer.
 
----
+Google is replacing Play’s standard 30% commission with a 20% service fee, sometimes 15% for qualifying new installs, and 10% for subscriptions; using Google billing adds 5% in the US, UK, and EEA. Developers may offer alternate billing or direct users to websites, while approved third-party stores receive streamlined installation. The rollout begins regionally in 2026 and completes globally by September 2027. HN called the headline misleading, questioned Google’s definition of registered stores, and withheld judgment until later sideloading rules preserve automatic updates and practical independence.
 
 ### Comment pulse
-- Title and framing are misleading → “ends 30 percent” suggests 0%, but most developers go from 30% to 25%, or 20% in limited cases.  
-- New fee maze is opaque → service vs billing fees, regional rules, promo programs and <\$1M tier make it hard to see who really saves—counterpoint: still a material cut for many.  
-- Openness has strings → “welcomes” third‑party stores, but Registered App Store rules and planned sideloading friction may simply re-centralize control under a different label.
 
----
+- The practical Google-processed rate appears to be 25% for purchases and 15% for subscriptions, not the headline’s implied zero.
+- Registration is optional — counterpoint: easier installation for approved stores and harder unverified sideloading could preserve Google’s gatekeeping leverage.
+- Epic’s settlement and regulatory pressure drove openness, alongside a separate $800 million Google-Epic partnership that complicates the competitive narrative.
 
 ### LLM perspective
-- View: This is regulatory damage control wrapped in a “choice and openness” narrative, not a voluntary generosity pivot.  
-- Impact: Big subscription apps, game publishers and alternative stores (Epic, F-Droid, OEM stores) gain leverage; small devs gain modestly.  
-- Watch next: Real test is sideloading UX, Registered App Store criteria, and whether Apple feels compelled to match these lower effective fees.
+
+- **View:** Lower fees matter, but installation friction and billing defaults may determine whether alternative distribution becomes genuinely competitive.
+- **Impact:** Developers keep more revenue and gain payment choice; users may face a fragmented trust and update model.
+- **Watch next:** Registered-store criteria, sideloading warnings, fee edge cases, enforcement, geographic parity, and developer adoption.

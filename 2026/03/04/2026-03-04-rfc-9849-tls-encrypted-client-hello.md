@@ -2,15 +2,18 @@
 
 - Score: 270 | [HN](https://news.ycombinator.com/item?id=47244291) | Link: https://www.rfc-editor.org/rfc/rfc9849.html
 
-- TL;DR  
-    - TLS Encrypted Client Hello (ECH), standardized as RFC 9849, encrypts the TLS ClientHello using HPKE so on-path observers can’t see SNI, ALPN, or other sensitive extensions. Clients send a public “outer” ClientHello plus an encrypted “inner” one; padding, GREASE, and anonymity sets aim to prevent fingerprinting and ossification while preserving TLS 1.3 security. HN discussion focuses on censorship circumvention, emerging server/client support, DNS operational complexity, and side-effects for bot detection and parental or legal content controls.
+### TL;DR
 
-- Comment pulse  
-    - ECH as censorship bypass → Encrypting SNI helped evade ISP blocks (e.g., Jio); public_name tricks middleboxes—counterpoint: also undermines parental filters, fueling age-verification laws.  
-    - Deployment and tooling → Caddy, nginx, Go/Rust stacks, and Android apps already ship ECH; DNS SVCB/HTTPS bootstrapping exists but heterogeneous DNS APIs complicate automation.  
-    - Fingerprinting and bots → ECH hides ClientHello from outsiders, weakening JA3/JA4‑style bot signals; origins like Cloudflare still see and fingerprint decrypted inner handshakes.
+RFC 9849 standardizes Encrypted ClientHello for TLS 1.3 and DTLS 1.3, encrypting the true server name and ALPN under a server-advertised HPKE public key. Clients send a benign outer hello plus encrypted inner hello; servers either accept it or securely supply retry configurations. Privacy depends on many sites sharing indistinguishable configurations and behavior, and still requires encrypted DNS because IP addresses expose the provider. The design includes padding, GREASE cover traffic, downgrade resistance, split-mode frontends, and recovery from deployment mismatches, while warning about tracking, timing, and middlebox impacts.
 
-- LLM perspective  
-    - View: ECH plus encrypted DNS shifts confidentiality from network operators toward DNS/CDN providers, consolidating trust but measurably improving user privacy.  
-    - Impact: Smaller sites gain censorship resistance via shared ECH frontends; enterprise firewalls and schools lose hostname filtering, need on-device agents.  
-    - Watch next: Browser default-on status, major CDNs’ rollout patterns, standardized padding profiles, and regulatory responses around access and content-restriction mandates.
+### Comment pulse
+
+- Early adopters reported working implementations in Caddy, Nginx, Chrome, Android networking, and experimental Rustls work.
+- A site’s own endpoint can still decrypt and fingerprint clients; ECH blocks unrelated observers, not the serving operator.
+- Commenters welcomed bypassing SNI censorship; counterpoint: the same opacity complicates parental filtering and exposes tension with legal controls.
+
+### LLM perspective
+
+- **View:** ECH protects destination detail, not destination infrastructure; its privacy unit is the provider’s anonymity set.
+- **Impact:** Broad, uniform deployment can frustrate passive filtering without changing application encryption or backend authentication.
+- **Watch next:** Encrypted-DNS adoption, configuration sharing, key rotation, retry rates, middlebox failures, and policy-driven attempts to block real ECH.

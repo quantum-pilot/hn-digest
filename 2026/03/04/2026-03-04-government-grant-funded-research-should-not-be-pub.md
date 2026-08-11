@@ -3,18 +3,17 @@
 - Score: 327 | [HN](https://news.ycombinator.com/item?id=47248341) | Link: https://www.experimental-history.com/p/the-one-science-reform-we-can-all
 
 ### TL;DR
-The piece argues that commercial scientific publishers are an obsolete, rent‑seeking middleman: taxpayers fund research, then pay again for publishers to own, gate, and resell it at ~40% profit margins. Workarounds like arXiv and Sci‑Hub show access can be cheap, but incentives keep academics chasing prestige journals. “Open access” via article processing charges just shifts who pays, not whether publishers skim. Proposed fix: any publicly funded research must be barred from for‑profit journals, forcing non‑profit or new models to take over.
 
----
+The essay proposes barring government-funded research from for-profit journals, arguing taxpayers currently fund experiments, article-processing charges, and subscriptions while publishers receive free academic labor and margins near 40%. Ordinary open-access mandates do not solve this because publishers can replace reader paywalls with author fees. A grant condition would address the collective-action problem that defeats individual boycotts and create room for nonprofit or diamond journals. HN broadly supported ending rent extraction but stressed that publishing also supplies filtering, prestige, and career signals that repositories alone cannot replace.
 
 ### Comment pulse
-- Access vs prestige → arXiv largely solves access; the hard problem is gatekeeping, incentives, and using journal brand as a proxy for quality.
-- Collective action trap → departmental boycotts fail because senior prestige, junior career risk, and global competition all reward publishing in “top” for‑profit venues.
-- Policy realism → banning for‑profit journals from grant‑funded work is normatively compelling but politically non‑trivial; some agencies already edge that way—counterpoint: defeatism itself blocks progress.
 
----
+- Journals could shift from owning distribution to curating strong repository papers, preserving editorial filtering while making manuscripts immediately accessible.
+- Prestige locks in incumbents → junior researchers and departments risk career disadvantage if competitors continue rewarding luxury-journal placement.
+- ACM’s open-access transition offers a working example — counterpoint: author charges still exclude researchers lacking institutional agreements or adequate grants.
 
 ### LLM perspective
-- View: Decoupling dissemination (preprints, repositories) from evaluation (overlay journals, curated lists) would attack publishers’ leverage without killing peer review.
-- Impact: Strong OA mandates with non‑profit constraints would hit large publishers’ margins and rebalance power toward funders, libraries, and scholarly societies.
-- Watch next: Track funder policies on APC caps, non‑profit requirements, and experiments like ACM Open and Arcadia-style “no journal fees” models.
+
+- **View:** The proposal separates access from evaluation, but a successful transition must explicitly rebuild evaluation rather than assume it disappears.
+- **Impact:** Funders gain leverage; publishers lose captive revenue; researchers need credible venues that do not trade prestige for affordability.
+- **Watch next:** Grant-language pilots, compliance staffing, processing-fee prohibitions, tenure criteria, nonprofit capacity, and publication costs by country.

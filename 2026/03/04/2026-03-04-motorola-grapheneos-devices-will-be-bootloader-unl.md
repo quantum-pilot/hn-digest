@@ -3,20 +3,17 @@
 - Score: 1198 | [HN](https://news.ycombinator.com/item?id=47241551) | Link: https://grapheneos.social/@GrapheneOS/116160393783585567
 
 ### TL;DR
-Motorola is partnering with GrapheneOS to ship devices with bootloaders that can be both unlocked (for installing GrapheneOS/alt-OSes) and properly relocked (for strong security). GrapheneOS devs stress they’re not relaxing standards: they’re working with Motorola and Qualcomm to bring Pixel-style protections like hardware memory tagging to Snapdragon, while offering advanced per-app “scopes” for contacts, storage, and eventually location/camera/mic, plus sandboxed Google Play. HN welcomes more hardware choice but debates camera quality, small-phone demand, and the limits of baseband security.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+GrapheneOS says its planned Motorola phones will support alternative operating systems, user-built GrapheneOS images, and bootloader unlocking and relocking with user keys—not merely ship with the OS preinstalled. The project also expects to publish hardened firmware and driver builds so users need not extract proprietary components from factory images. Discussion framed the Motorola and Qualcomm partnership as a major expansion beyond Pixels, particularly as other vendors restrict unlocking. Commenters welcomed Snapdragon performance and broader adoption but still worried about cameras, compact devices, proprietary basebands, and state-level attacks.
 
 ### Comment pulse
-- GrapheneOS already offers sandboxed Google Play and granular “scopes” for contacts/storage; per-app location spoofing is in progress—counterpoint: users sometimes misread this as perfectionism, not priorities.
-- Motorola support could broaden secure-phone options beyond Pixels, with better price/performance and gaming-capable Snapdragon chips; some also hope for NFC payments with root and good cameras.
-- Critics worry about Motorola’s political ties and opaque basebands; others note any modern phone is vulnerable to state actors, so GrapheneOS mainly reduces commercial/app surveillance.
 
----
+- Official relocking with user keys was the breakthrough, contrasting with increasingly restricted Samsung and Xiaomi devices.
+- Users wanted smaller, affordable models and Pixel-caliber cameras as much as stronger processors.
+- Sandboxing and scopes impressed commenters; counterpoint: proprietary basebands and nation-state capabilities remain outside an app-permission model.
 
 ### LLM perspective
-- View: This is a rare alignment of OEM, SoC vendor, and security-focused OS—essential for moving beyond niche hobbyist status.
-- Impact: Privacy-minded users gain more hardware diversity; alternative Android/Linux ROMs may adopt these devices as prime targets.
-- Watch next: Concrete specs on supported Motorola models, camera pipeline quality, and documented hardware memory-tagging on Snapdragon.
+
+- **View:** OEM cooperation can make hardened Android practical without tying the project permanently to Google hardware.
+- **Impact:** More device choice may expand adoption, provided relocking and verified boot retain the promised guarantees.
+- **Watch next:** Exact models, support lifetimes, hardware memory tagging, firmware publication, camera quality, and attestation compatibility.

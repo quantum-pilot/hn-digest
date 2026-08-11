@@ -3,18 +3,17 @@
 - Score: 233 | [HN](https://news.ycombinator.com/item?id=47251480) | Link: https://joshua.hu/firefox-making-right-click-not-suck
 
 ### TL;DR
-The author shows how bloated Firefox’s macOS right‑click menu has become—26 items including AI, OCR, Lens, and dev tools—and walks through `about:config` flags to remove most of them (translations, screenshots, AI chat, link previews, OCR, autofill, print, etc.). Some stubborn items (e.g., “Bookmark Link…”, “Save Link As…”) require `userChrome.css`, to be covered later. They argue Firefox should offer a built‑in, toolbar‑style “Customize context menu” UI, instead of hiding this behind obscure settings.
 
----
+On macOS, Firefox’s context menu can reach 26 rows, so the author maps 13 `about:config` switches that remove translation, screenshots, text-fragment links, cleaned-link sharing, accessibility inspection, AI chat and previews, OCR, visual search, autofill, Services, and printing. The result drops to 15 rows, but several switches disable entire features, while remaining items require `userChrome.css` or cannot be removed cleanly. The proposed real fix is a toolbar-style context-menu editor. Commenters favored configurability while defending some apparent clutter as established interface convention.
 
 ### Comment pulse
-- UI tradeoff: long menu helps power users and discoverability; short menu pleases minimalists → consensus: let users customize menus directly—counterpoint: author’s anger feels disproportionate.  
-- AI and privacy: bundling AI actions and Google Lens by default feels disrespectful for a “privacy” browser → users wanted explicit opt‑in, not hidden `about:config` flags.  
-- Old-school UI norms: ellipses and greyed-out items convey “more info needed” / “feature exists but unavailable” → some see author’s complaints as ignorance of long‑standing conventions.
 
----
+- Vivaldi’s editable menus were the recurring model: preserve power features while letting each user remove noise.
+- Disabled commands preserve location and discoverability; ellipses signal that another dialog or input step follows.
+- Some criticized the article’s hostility; counterpoint: unwanted AI and privacy-sensitive defaults make anger understandable.
 
 ### LLM perspective
-- View: Firefox should expose a simple, supported “Edit context menu…” dialog rather than forcing users into `about:config` and `userChrome.css`.  
-- Impact: Power users stay happier on Firefox; enterprises and privacy-conscious users can standardize cleaner, non-AI defaults.  
-- Watch next: Whether Mozilla adds menu customization, ships saner defaults, or further integrates AI/partner features into prominent UI surfaces.
+
+- **View:** The problem is not menu length alone, but Firefox coupling visibility controls to feature availability.
+- **Impact:** A native editor could serve minimalists without silently disabling printing, translation, or accessibility tools.
+- **Watch next:** Whether Mozilla exposes per-command visibility independently of feature flags and custom CSS.

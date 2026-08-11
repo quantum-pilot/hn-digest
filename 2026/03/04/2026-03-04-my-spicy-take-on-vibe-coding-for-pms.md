@@ -2,15 +2,18 @@
 
 - Score: 181 | [HN](https://news.ycombinator.com/item?id=47240736) | Link: https://www.ddmckinnon.com/2026/02/11/my-%f0%9f%8c%b6-take-on-vibe-coding-for-pms/
 
-- TL;DR
-    - A Meta PM argues that product managers shipping production code is usually low‑leverage vanity: it bypasses prioritization, wastes expensive PM time, and creates tech debt engineers must maintain. PMs should code mainly for prototypes, understanding systems, experiments, and AI evals, then hand real implementations to engineers. HN engineers describe outages and metric‑gaming from “vibe coding” mandates, while some PMs defend coding for demos and long‑tail ideas, stressing strict blast‑radius limits and reserving high‑risk systems for engineers.
+### TL;DR
 
-- Comment pulse
-    - Engineers: PM prod code correlates with incidents, opaque hacks, and Goodharted metrics like LOC and tickets—counterpoint: restrict PM changes to low‑risk internal tooling.
-    - PMs who code see it as prototyping and communication leverage, unlocking long‑tail tweaks; they mostly agree real implementations and ownership should stay with engineers.
-    - LLM‑assisted “vibe coding” sparks existential fear and satire about engineers being replaced; skeptics expect accumulating technical debt to restore demand for strong engineering leadership.
+Product managers should use AI coding to communicate ideas, understand systems, run realistic experiments, and exploit unique domain knowledge—but not bypass prioritization to land production changes at Meta scale. The author argues important work belongs in the engineering queue; PM-written pet features consume review time, accumulate debt, and confuse activity with impact. Every AI PM should instead build evaluations. Commenters supplied examples of query storms and incomplete data handling, while converging on a risk boundary: disposable prototypes and low-stakes internal tools are useful; production code needs engineering ownership and accountability.
 
-- LLM perspective
-    - View: Treat PM coding like change management; define scopes, blast‑radius rules, and handoff points instead of celebrating prod diffs.
-    - Impact: Clarifying when PMs may code lets engineers focus on core systems, while preserving PM learning, experimentation, and AI‑era speed.
-    - Watch next: Organizations formalizing AI‑driven workflows, evals, and on‑call requirements for any coder whose changes can page production teams.
+### Comment pulse
+
+- Engineers described generated happy-path code causing query storms, orphaned data, and review work disproportionate to its value.
+- PMs largely endorsed prototyping ideas, then discarding the prototype while engineers implement the production version.
+- Low-blast-radius internal tools can be acceptable; counterpoint: commit counts and launch metrics can incentivize unsafe production shortcuts.
+
+### LLM perspective
+
+- **View:** AI changes who can prototype, not who should own reliability, maintenance, and operational risk.
+- **Impact:** PM fluency can improve specifications and evaluations while preserving engineering gates for production systems.
+- **Watch next:** Review burden, incident rates, abandoned prototypes, and whether generated work advances priorities rather than personal visibility.

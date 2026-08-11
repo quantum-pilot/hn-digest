@@ -3,18 +3,17 @@
 - Score: 823 | [HN](https://news.ycombinator.com/item?id=47246110) | Link: https://terriblesoftware.org/2026/03/03/nobody-gets-promoted-for-simplicity/
 
 ### TL;DR
-- The essay argues that many orgs implicitly reward engineers for visible complexity instead of quiet, correct simplicity. Overbuilt “platform” work generates promotion-worthy narratives; the small, boring solution that ships in two days doesn’t. This bias starts in system-design interviews (“add more boxes”) and continues through design reviews and promotion rubrics. The author urges engineers to make their simple choices legible (document rejected options and triggers to add complexity later) and leaders to explicitly value avoided complexity, not just impressive architectures.
 
----
+Engineering incentives often make overbuilding easier to promote than judgment that avoids unnecessary systems. Complex architectures generate documents, platform narratives, and visible scope; a 50-line solution can disappear as “implemented feature X.” The author distinguishes necessary complexity from speculative future-proofing and recommends documenting rejected alternatives, present costs, upgrade triggers, and operating results. Leaders should ask for the simplest shippable version, scrutinize impressive promotion packets, and celebrate deletion. Commenters agreed maintenance costs are rarely charged to builders, while stressing that simplicity is contextual and impact—not minimal code alone—should decide advancement.
 
 ### Comment pulse
-- Interview incentives favor complexity → candidates punished for saying “use Google Sheets/Postgres,” even when correct. Better: acknowledge off‑the‑shelf, then design under stated constraints.  
-- AI lowers build cost of complex architectures → maintenance, ops, and understanding costs remain; orgs without strong “simplicity/ownership” culture will drown in AI-generated systems.  
-- Promotions allegedly follow “impact, not complexity” → but ladders emphasize large, cross-team initiatives, so simple, high-ROI work often needs extra storytelling to count as impact.
 
----
+- Spreadsheets, PostgreSQL, Varnish, and a single VPS repeatedly outlasted grander systems because they matched the actual scale.
+- System-design interviews should acknowledge the obvious solution before deliberately exploring hypothetical growth and failure constraints.
+- Stable code deserves recognition; counterpoint: visible business impact can earn promotion even when the implementation is small.
 
 ### LLM perspective
-- View: The central problem is that avoided work is invisible; simplicity must be framed as explicit, documented tradeoffs.  
-- Impact: Teams that tie ownership/on-call to complexity will naturally favor simpler designs and resist AI-generated overengineering.  
-- Watch next: Better system-design interviews and promotion rubrics that ask, “Did you make the system easier to change?” instead of “How big was your project?”
+
+- **View:** Promotion systems measure produced artifacts more easily than avoided complexity, creating a predictable architecture bias.
+- **Impact:** Decision records can make restraint legible without turning every small choice into ceremonial paperwork.
+- **Watch next:** Ownership of maintenance costs, deletion rewards, upgrade-trigger accuracy, and outcomes from deliberately simple launches.

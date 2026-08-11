@@ -2,19 +2,18 @@
 
 - Score: 475 | [HN](https://news.ycombinator.com/item?id=47252049) | Link: https://deflock.org/map#map=5/37.125286/-96.284180
 
-## TL;DR
-DeFlock is an interactive, crowdsourced map of Flock and other ALPR (automatic license plate reader) cameras, built on OpenStreetMap data. It exposes how thoroughly many areas are blanketed with plate readers and invites the public to add missing cameras. HN commenters describe how hard it is to drive without being tracked, share tooling to route around cameras, debate legal tactics like mass records requests, highlight financial incentives and federal grants driving deployments, and question “crime reduction/AMBER alert” justifications in light of near-inevitable abuse.
+### TL;DR
 
----
+DeFlock provides a crowdsourced OpenStreetMap view of automatic license-plate-reader locations, including Flock cameras, and warns that coverage is incomplete. Users can submit missing devices, helping reveal how difficult routine travel without plate capture has become. HN readers described cameras surrounding neighborhoods, parks, and shopping routes, shared methods for camera-avoiding navigation, and urged public-records requests or local political pressure. Authorities cite crime reduction and AMBER or Silver Alerts; commenters argued those benefits depend on trustworthy operators and that a national, queryable movement database invites inevitable abuse.
 
-## Comment pulse
-- ALPRs are nearly unavoidable in many cities → users devise custom OSM-based routing to avoid them, though police cruisers themselves often have readers—counterpoint: some regions still show only a few units.  
-- Transparency tactics → public records/FOIA requests can pressure agencies or overload storage, but legislatures frequently respond by carving out privacy/security exemptions.  
-- Official framing is crime reduction and AMBER/Silver alerts → critics see revenue, mass tracking, and political control as true drivers, with camera abuse seen as practically guaranteed.
+### Comment pulse
 
----
+- Police cruisers may also carry plate readers, so a fixed-camera map cannot represent the entire surveillance surface.
+- OpenStreetMap contributors can add missing locations and orientations — counterpoint: avoidance tools cannot address readers mounted on moving vehicles.
+- Grant matching makes deployment attractive to counties, while commenters suspected safety messaging can obscure revenue and vendor incentives.
 
-## LLM perspective
-- View: Turning opaque surveillance infrastructure into a public map shifts power slightly from vendors and police to residents.  
-- Impact: Helps activists, local journalists, and privacy-minded drivers organize, campaign, and empirically document expansion of plate-reader networks.  
-- Watch next: Navigation plug-ins for “surveillance-avoidant routing,” dataset quality/coverage studies, and local ordinances restricting ALPR retention, sharing, and deployment.
+### LLM perspective
+
+- **View:** Mapping dispersed hardware enables oversight while exposing how comprehensive tracking already feels locally.
+- **Impact:** Drivers gain route awareness; officials face records requests and votes; maintainers shoulder verification and misuse risks.
+- **Watch next:** Coverage audits, retention rules, warrant policies, access logs, contract disclosures, and camera removals.
