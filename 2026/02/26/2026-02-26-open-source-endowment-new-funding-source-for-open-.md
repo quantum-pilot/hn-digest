@@ -3,18 +3,17 @@
 - Score: 202 | [HN](https://news.ycombinator.com/item?id=47168012) | Link: https://endowment.dev/
 
 ### TL;DR
-Open Source Endowment is a 501(c)(3) nonprofit creating a permanent endowment to fund critical open source maintainers, borrowing the university model: donations form preserved principal, low-risk investments generate ~5% annual returns, and only returns become grants. It emphasizes global neutrality, transparent, data-driven governance, and community control by donors. HN discussion probes how it will scale, compares it to Open Collective and Wikimedia, questions its AI-optimistic stance and GitHub dependence, and proposes ideas like equity pledges and “tenured” maintainers.
 
----
+The Open Source Endowment is a US 501(c)(3) charity seeking permanent, community-governed funding for critical open-source maintenance. Its roughly $693,000 principal, raised from 61 donors, will be invested in a low-risk portfolio; about 5 percent of annual returns would fund grants while preserving principal. The group promises global neutrality, open data, measurable goals, and community-designed allocation. HN discussion welcomed the endowment model but questioned whether the fund can reach useful scale, avoid mission drift, fairly select projects, support non-GitHub work, and resist low-quality AI-generated funding requests.
 
 ### Comment pulse
-- Endowment framing → OSS resembles universities: reputation-driven, public-good IP; endowments can smooth volatility better than corporate budgets or fragmented government programs.  
-- Concerns about scope and ethics → fears of Mozilla/Wikipedia-style bloat, GitHub centralization, and a pro-AI stance that seems misaligned with OSS copyright and spam risks.  
-- Growth ideas → equity or carry pledges (1–5%), “tenured” maintainers, named chairs, and public tracking of corporate giveback—counterpoint: tax status and institutional incentives limit universities’ roles.
 
----
+- Fundraising is decisive: commenters proposed startup equity pledges — counterpoint: founders’ small initial gifts made $700,000 look immaterial.
+- Donors want narrow spending accountability, fearing Wikimedia- or Mozilla-style drift and governance captured by irrelevant priorities.
+- Others proposed tenured maintainer grants and training, while debating OpenCollective overlap, university roles, and simply charging users.
 
 ### LLM perspective
-- View: Success hinges on transparent grant criteria, visible impact metrics, and proactive guardrails against AI-generated spam projects and mission creep.  
-- Impact: If scaled, this could stabilize maintenance for a few dozen deeply critical libraries, reducing burnout and catastrophic-vulnerability risk.  
-- Watch next: First grantmaking model, geographic expansion (EU/UK entities), and whether major startups formally pledge equity or stock to OSS-focused endowments.
+
+- **View:** An endowment smooths annual volatility but converts the near-term funding problem into a capital-raising challenge.
+- **Impact:** At 5 percent, grant capacity remains modest until principal grows by orders of magnitude.
+- **Watch next:** Q2 2026 allocation rules, project eligibility, governance disclosures, and first-grant impact measures.

@@ -3,16 +3,17 @@
 - Score: 190 | [HN](https://news.ycombinator.com/item?id=47167171) | Link: https://bsky.app/profile/rbreich.bsky.social/post/3mfptlfeucn2i
 
 ### TL;DR
-Meta appears to have sent only a tiny slice of its 2025 profits to the IRS, sparking confusion over claims of a 3.5% versus 30% tax rate. Commenters unpack how different “effective rate” formulas, deferred taxes, stock-based compensation, R&D expensing, and bonus depreciation can make cash taxes look minuscule despite high reported provisions. The thread then shifts to whether such legal minimization is fair, and to criticism of pundits like Robert Reich for using oversimplified, context-free numbers.  
 
-*Content unavailable; summarizing from title and comments.*
+Robert Reich claimed Meta paid federal income tax equal to 3.5% of its 2025 income while spending $65 million to support AI-friendly election candidates. HN commenters clarified that 3.5% describes cash paid—about $2.8 billion—rather than Meta’s reported accounting effective tax rate of 30%, which included a large deferred-tax valuation charge; without that charge, Meta said the rate would have been 13%. Debate centered on whether stock-compensation deductions, immediate R&D deductions, and bonus depreciation are unfair avoidance or lawful timing differences that defer rather than erase liabilities.
 
 ### Comment pulse
-- Different “effective rate” definitions: watchdogs divide U.S. tax paid by profit (≈3.5%), while Meta’s press release reports a 30% GAAP accounting provision including deferred taxes.  
-- Low payments stem from stock-based pay deductions after huge share gains, immediate expensing of R&D, and bonus depreciation pulling write-offs forward, not secret illegality.  
-- Some decry big-tech tax minimization versus small businesses and demand higher corporate/wealth taxes; others fault Robert Reich for oversimplified, context-light messaging—counterpoint: blunt narratives mobilize attention.  
+
+- Cash taxes and accounting expense answer different questions → collapsing them into one effective-rate label creates a misleading contradiction.
+- Deferrals still provide valuable financing → counterpoint: accelerated deductions are symmetrical timing rules, not necessarily permanent tax forgiveness.
+- Corporate influence sharpened the fairness objection → commenters disliked low current payments alongside large political spending, even when legal.
 
 ### LLM perspective
-- View: Public debates should separate cash taxes, statutory rates, and accounting provisions to avoid misleading outrage over complex, legal deferrals.  
-- Impact: Clearer metrics would help journalists, investors, and voters compare firms’ tax burdens and assess whether incentives match policy goals.  
-- Watch next: Track Meta’s filings as stock growth slows and temporary provisions sunset; see whether today’s low payments rebound.
+
+- **View:** Tax claims need numerator, denominator, jurisdiction, and cash-versus-accrual basis stated explicitly.
+- **Impact:** Readers cannot assess fairness from a single percentage stripped of timing context.
+- **Watch next:** Future cash payments as deferrals reverse and evidence supporting the $65 million election claim.

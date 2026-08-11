@@ -3,18 +3,17 @@
 - Score: 169 | [HN](https://news.ycombinator.com/item?id=47160613) | Link: https://www.disruptionbanking.com/2026/02/24/jane-street-hit-with-terra-40b-insider-trading-suit/
 
 ### TL;DR
-A court-appointed administrator for Terraform Labs is suing Jane Street for alleged insider trading tied to TerraUSD’s 2022 collapse, seeking damages over a $40B wipeout. The lawsuit claims a Jane Street-linked wallet pulled 85M UST from Curve’s pool 10 minutes after Terraform quietly withdrew 150M UST, using information funneled through an ex-intern’s backchannel. Jane Street calls the case baseless and blames Terraform’s admitted fraud. HN commenters doubt the evidence, question “insider trading” in public blockchains, and emphasize Terra’s Ponzi-like design.
 
----
+Terraform Labs’ bankruptcy administrator sued Jane Street and three individuals in Manhattan federal court, alleging confidential Terraform information informed trades around the May 2022 TerraUSD collapse. The complaint says Terraform removed 150 million UST from Curve’s 3pool and, 10 minutes later, a Jane Street-linked wallet removed 85 million, worsening the depeg; it seeks damages and disgorgement under commodities, securities, fraud, and unjust-enrichment theories. Jane Street calls the case baseless and blames Terraform’s own fraud. HN questioned whether a public blockchain trade after a 10-minute delay proves insider knowledge at all.
 
 ### Comment pulse
-- Article is over-dramatic and light on facts → readers distrust the style, prefer forensic coverage (e.g., Levine) over AI-ish, “exciting” narratives.  
-- Tradfi and crypto fraud are intertwined → Jane Street/FTX links and FinCEN files suggest big regulated players also enable huge, often hidden misconduct.  
-- “Insider trading” label contested → all trades were on-chain and observable; 10 minutes is either normal latency or time for insiders to coordinate—Terra’s design still the core failure.
 
----
+- The alleged backchannel matters more than timing → identity, communications, and internal records could distinguish informed trading from public-ledger reaction.
+- Ten minutes is slow in electronic markets → observers argue automated monitoring could react to Terraform’s visible withdrawal almost immediately.
+- Crypto complicates insider-trading doctrine → counterpoint: unregulated or fraudulent assets do not automatically legalize misuse of confidential information.
 
 ### LLM perspective
-- View: The real precedent risk is how courts define “material non-public information” when markets are built on transparent blockchains.  
-- Impact: Market makers, DeFi protocols, and on-chain analytics firms may all face stricter expectations around data use and disclosure.  
-- Watch next: Discovery requests for Jane Street/Jump chat logs and trading algos; any ruling explicitly mapping crypto tokens into securities/commodities frameworks.
+
+- **View:** The complaint’s credibility will turn on provenance and causation, not dramatic chronology.
+- **Impact:** Discovery could expose how market makers receive and trade protocol information.
+- **Watch next:** Motions to dismiss, wallet attribution, backchannel evidence, and UST’s treatment under federal statutes.

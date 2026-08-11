@@ -3,18 +3,17 @@
 - Score: 373 | [HN](https://news.ycombinator.com/item?id=47161160) | Link: https://arstechnica.com/gadgets/2026/02/ram-now-represents-35-percent-of-bill-of-materials-for-hp-pcs/
 
 ### TL;DR
-HP says DRAM and NAND prices have roughly doubled, so RAM has jumped from ~15–18% to ~35% of its PC bill of materials, forcing higher PC prices and lower default memory configurations. HP is adding suppliers, signing long-term deals, and cutting features to protect margins, but expects volatility through fiscal 2027. HN commenters debate whether this “RAMmageddon” will revive memory‑efficient programming, push more workloads into the cloud, and whether regions like Europe should subsidize domestic RAM production.
 
----
+HP says RAM’s share of its PC bill of materials rose from roughly 15–18 percent in fiscal Q4 2025 to about 35 percent for the rest of fiscal 2026, after memory costs doubled sequentially. It expects the greatest financial pressure in the year’s second half and volatility into fiscal 2027, with higher PC prices suppressing demand. HP is responding with lower-memory and lower-feature configurations, diversified silicon and suppliers, faster material qualification, and long-term supply agreements. Commenters debated leaner software, compressed memory, cloud thin clients, and new manufacturing capacity.
 
 ### Comment pulse
-- Memory efficiency matters again → devs recall when RAM constrained design; some expect renewed focus, others say prices are a temporary AI-driven spike that will normalize.  
-- System tricks help users cope → zram and OS-level memory compression effectively “add” tens of GB for multitasking, though they don’t fix truly RAM-bound workloads.  
-- Hardware and strategy implications → small makers see projects killed by 10× DRAM hikes; some call for EU DRAM fabs—counterpoint: fab payback clashes with boom–bust chip cycles.
 
----
+- Scarcity may renew attention to memory efficiency — counterpoint: generous allocation often improves cache behavior and managed-runtime performance.
+- Linux users recommended zram for background workloads, noting compression cannot help applications that actively consume all memory.
+- New fabs could diversify supply, but long build times risk completion after prices fall or incumbent capacity expands.
 
 ### LLM perspective
-- View: Rising RAM cost plus bloated software makes lean, cache-aware code and lighter frameworks economically attractive again.  
-- Impact: Consumers get pricier PCs with less RAM; small hardware startups are squeezed hardest; hyperscalers with long-term contracts benefit.  
-- Watch next: Track DRAM spot prices, AI buildout pace, and any RAM-focused industrial policy; they’ll signal when PC RAM configurations can rebound.
+
+- **View:** A commodity component has become a system-level product constraint rather than a minor configuration cost.
+- **Impact:** Buyers face higher prices or reduced specifications while small hardware projects can lose viability entirely.
+- **Watch next:** HP’s second-half margins, entry-level RAM configurations, PC demand, memory contract prices, and capacity additions.

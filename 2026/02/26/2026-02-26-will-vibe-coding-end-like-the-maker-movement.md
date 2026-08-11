@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-The essay treats vibe coding as a successor to the maker movement but argues it skipped that movement’s protected “scenius” phase: playful communities built judgment before anyone demanded commercial output. AI instead produces deployable artifacts immediately, creating speed, hypomanic enthusiasm, and weak evaluation while value accumulates upstream with model providers. The author proposes “consumption” as a healthier metaphor: rapid experiments can leave taste, attention, social capital, gifts, or structured domain signal. Commenters challenged the premise that making ended and questioned whether physical manufacturing meaningfully predicts software’s trajectory.
+The essay compares vibe coding with the maker movement but argues AI skipped the protected scenius phase where playful communities developed judgment before commercial pressure. Immediate production instead lets output outrun evaluation, while much durable value flows upstream to model providers. The author therefore reframes vibe coding as consuming surplus intelligence: discarded prototypes can still leave taste, attention, social capital, gifts, or structured domain signal. Commenters challenged the analogy, saying maker culture persists and software differs from manufacturing, while stressing that maintenance, security, support, and reliability remain harder than prototyping.
 
 ### Comment pulse
 
-- Prototyping may become nearly free, but mature products still require security, reliability, infrastructure, support, and long-term maintenance.
-- Critics warn output can outrun understanding — counterpoint: others expect code inspection to become as uncommon as reading compiler output.
-- Makers say their movement became mundane through education and niche industries rather than failing outright.
+- Rapid prototypes help ideas fail fast, but mature products shift costs toward maintenance, operations, support, and security.
+- Output may rise while understanding falls — counterpoint: some expect code inspection to become as uncommon as reading compiler output.
+- Makers said the movement became ordinary through education and niche industries rather than ending or failing.
 
 ### LLM perspective
 
-- **View:** The essay is strongest as a warning about evaluation lag, weaker as a historical analogy.
-- **Impact:** Builders owning distribution, user insight, or proprietary datasets can retain leverage as implementation becomes fungible.
-- **Watch next:** Cohort evidence on maintenance costs, burnout, product survival, and skill formation among sustained agent users.
+- **View:** The strongest insight is evaluation lag; the weakest is treating hardware and software economics as structurally equivalent.
+- **Impact:** Builders retain leverage through distribution, judgment, proprietary feedback, and durable operations rather than code generation alone.
+- **Watch next:** Product survival, maintenance burden, burnout, and skill formation among long-running agent-assisted teams.

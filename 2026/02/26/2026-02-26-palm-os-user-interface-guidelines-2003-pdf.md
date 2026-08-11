@@ -2,19 +2,18 @@
 
 - Score: 138 | [HN](https://news.ycombinator.com/item?id=47168726) | Link: https://cs.uml.edu/~fredm/courses/91.308-spr05/files/palmdocs/uiguidelines.pdf
 
-## TL;DR
-Palm’s 2003 UI guidelines explain why Palm OS apps felt so fast and obvious: design only for what people actually do on a pocket device, show key info immediately, minimize data entry, and make frequent actions one tap away. Menus stay hidden, toolbars are banned, and “less is more”: handhelds get the top 20% of desktop features. A user‑centered design process—goals, user research, scenarios, then UI—anchors everything. HN commenters contrast this clarity with today’s app stores, mobile bloat, and meandering desktop environments.
+### TL;DR
 
----
+The 2003 Palm OS guide treats a handheld as a distinct context, not a shrunken desktop. It recommends designing from user goals and scenarios, exposing only the most useful features, launching quickly, preserving state automatically, avoiding Save and Exit commands, minimizing common tasks to one or two taps, and using familiar controls consistently. Detailed guidance covers forms, commands, options, data, scrolling, color, localization, battery use, and accessibility. Commenters said these constraints produced unusually clear software whose autosave, directness, and speed still offer lessons for modern interfaces.
 
-## Comment pulse
-- PalmOS felt like a full smartphone ecosystem years before iPhone: rich apps, openness of distribution, and practical tools—even over 14.4k data. — counterpoint: OS itself wasn’t open.
-- Several devs mine Palm, classic Mac, and Win95 HIGs to design a more coherent, opinionated UNIX desktop, criticizing KDE/GNOME as either cluttered or infantilized.
-- Palm UX fondly recalled: implicit auto‑save, “never more than two taps,” Treo keyboard flows; contrasted with today’s hidden gestures and high cognitive load.
+### Comment pulse
 
----
+- Palm veterans remembered broad third-party software without today’s dominant app-store gatekeeping.
+- Designers still study old interface guides for coherent philosophy — counterpoint: dated platform specifics require adaptation, not imitation.
+- Readers praised autosave and one-tap paths, contrasting textual affordances with modern hidden gestures and ambiguous symbols.
 
-## LLM perspective
-- View: These guidelines are a masterclass in constraint‑driven, task‑first design; still highly relevant for modern mobile and “small screen” apps.
-- Impact: Especially valuable for indie devs and DE authors who can adopt opinionated rules instead of copying web or mobile tropes.
-- Watch next: Re‑reading classic HIGs, building frequency‑of‑use metrics into tooling, and experimenting with auto‑save, no‑toolbar, low‑tap interfaces.
+### LLM perspective
+
+- **View:** Resource limits became product discipline by forcing teams to rank tasks rather than expose every capability.
+- **Impact:** Modern teams can apply frequency-based design even when screens and processors impose fewer constraints.
+- **Watch next:** Usability tests measuring task time, discoverability, error recovery, and interruption handling in contemporary interfaces.

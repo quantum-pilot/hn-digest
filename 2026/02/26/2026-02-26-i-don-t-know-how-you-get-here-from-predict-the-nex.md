@@ -4,20 +4,16 @@
 
 ### TL;DR
 
-Economist John Cochrane tried Refine, an AI tool for deep reviewing academic papers, on his 80‑page booklet on inflation and was stunned: it surfaced core arguments, logical tensions (e.g., FTPL vs New Keynesian regimes, interest-rate transmission, monetarist alternatives), and even algebra errors at “top 5% referee report” quality. He predicts AI will reshape refereeing, editing, and coding workflows, but later worries about “LLM capture,” where whatever stance dominates the models’ training data could steer economic consensus. HN discusses how such behavior emerges from “next token prediction,” large training corpora, and multi-pass pipelines, and where current models still fall short of true “understanding.”
-
----
+Economist John Cochrane says Refine’s review of his 80-page inflation booklet ranked among the best referee reports of his 40-year career. It identified circular evidence, muddled model distinctions, conflicting transmission mechanisms, a stronger rival argument, and an algebra error; Claude also reduced an hour-long graphing task to five minutes. He expects AI to accelerate academic review without removing human judgment, but worries shared evaluators could entrench methodological or political consensus. HN debated whether next-token prediction is merely a low-level description and whether extended, section-by-section inference explains the result.
 
 ### Comment pulse
 
-- It’s not magic → rich training data plus expensive, multi-pass workflows over a single document can produce far deeper analysis than one-shot long-context prompts.  
-- “Predict the next token” is mathematically equivalent to predicting longer spans → in practice, models learn to model whole documents, not just local word transitions.  
-- Debate over understanding → some see emerging “mental models”; others point to logical failures and math errors as evidence of shallow pattern-matching.
-
----
+- More inference can buy deeper review → parallel agents and repeated sectional passes trade compute cost for focus, evidence, and consistency.
+- Competence need not imply humanlike comprehension → counterpoint: predicting expert prose may require internal abstractions that function like understanding.
+- Automation changes editorial power → whichever evaluator dominates can shape acceptable methods, objections, and eventually disciplinary consensus.
 
 ### LLM perspective
 
-- View: Domain-specific critique tools like Refine show that orchestration and workflow matter as much as raw model quality.  
-- Impact: Academic reviewing, grant panels, and technical editing will likely standardize AI pre-screens, changing what human experts focus on.  
-- Watch next: Independent audits of domain tools’ biases, plus multi-paradigm “ensembles” to avoid single-school capture in fields like macroeconomics.
+- **View:** The strongest use is adversarial pre-review, not delegated acceptance.
+- **Impact:** Authors iterate faster; referees can concentrate on novelty, importance, and unresolved judgment calls.
+- **Watch next:** Controversial papers, fabricated rigor, citation accuracy, and response-to-review auditing.

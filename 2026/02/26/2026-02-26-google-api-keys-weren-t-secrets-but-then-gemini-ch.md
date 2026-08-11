@@ -2,19 +2,18 @@
 
 - Score: 1194 | [HN](https://news.ycombinator.com/item?id=47156925) | Link: https://trufflesecurity.com/blog/google-api-keys-werent-secrets-but-then-gemini-changed-the-rules
 
-## TL;DR
-Google long told developers that `AIza...` API keys for Maps, Firebase, etc. were *not* secrets and safe to ship in client code. When a project later enables Gemini (Generative Language API), those same keys silently gain access to Gemini endpoints: private uploaded files, cached LLM context, and billable model calls. Truffle Security scanned Common Crawl and found 2,863 such live keys, including Google’s own. Google is now blocking “leaked” keys and tightening defaults, but fully fixing legacy keys may be highly disruptive.
+### TL;DR
 
----
+Truffle Security says Google reused one API-key format for public project identification and sensitive Gemini authentication. When a project owner enables the Generative Language API, older unrestricted keys embedded in Maps, Firebase, websites, or apps can silently gain access to Gemini files and cached content, consume quotas, and incur charges. A Common Crawl scan found 2,863 live affected keys, including Google’s. Google reclassified the report as a bug and began blocking discovered keys, planning scoped AI Studio defaults and notifications. HN called retroactive remediation technically disruptive.
 
-## Comment pulse
-- Gemini + AI Studio defaults → people ship “proxied” apps that still expose powerful, expensive models; proxy gives a false sense of security.  
-- Remediation dilemma → safely revoking Gemini from old or all keys risks breaking large fractions of traffic—counterpoint: Gemini isn’t auto-enabled, a project owner must turn it on.  
-- Real-world leakage → hardcoded keys in Android images and GitHub repos already worked against Gemini until recently; older Firebase/Maps keys became risky once Gemini was enabled.
+### Comment pulse
 
----
+- The API itself is not enabled automatically → exposure begins when one teammate enables Gemini on a reused project containing public keys.
+- Blanket privilege removal may be safest → commenters warned it would also break legitimate Gemini applications at enormous scale.
+- Calling historical public keys leaked shifts responsibility → Google’s own earlier guidance encouraged client-side exposure.
 
-## LLM perspective
-- View: This is a textbook retroactive privilege escalation from reusing one key type for both public identification and sensitive authentication.  
-- Impact: Cloud providers must redesign auth boundaries; developers need stricter project separation, key scoping, and continuous secret scanning.  
-- Watch next: Whether Google auto-scopes all existing keys, issues broad customer advisories, or introduces distinct “publishable vs secret” Gemini credentials.
+### LLM perspective
+
+- **View:** Credentials must never gain new sensitive privileges without explicit reauthorization.
+- **Impact:** GCP teams should inventory enabled APIs, scope every key, and rotate exposed Gemini-capable credentials.
+- **Watch next:** Root-cause separation, retrospective notices, false-positive blocking, and treatment of pre-Gemini keys.

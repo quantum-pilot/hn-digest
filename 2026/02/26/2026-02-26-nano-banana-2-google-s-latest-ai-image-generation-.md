@@ -3,14 +3,17 @@
 - Score: 465 | [HN](https://news.ycombinator.com/item?id=47167858) | Link: https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/
 
 ### TL;DR
-- Google DeepMind’s Nano Banana 2 (Gemini 3.1 Flash Image) merges Nano Banana Pro’s world-aware, photorealistic generation with Gemini Flash’s low-latency speed. It improves text rendering, translation, subject consistency across multi-image stories, and supports production resolutions up to 4K, rolling out across Gemini, Search, Ads, Cloud and APIs. HN discussion spans artists’ futures and commoditized imagery, real-world design workflows (houses, yards) now driven by AI renders, and concerns over misinformation despite Google’s SynthID and C2PA provenance tooling.
+
+Google’s Nano Banana 2, formally Gemini 3.1 Flash Image, aims to combine Nano Banana Pro’s world knowledge and visual quality with Flash-speed generation. It adds search grounding, improved text and translation, consistency for up to five characters and 14 objects, stricter instruction following, and 512-pixel-to-4K output. It is rolling across Gemini, Search, developer tools, Cloud, Flow, and Ads, with SynthID and C2PA provenance. Commenters praised design workflows but questioned edit localization, deepfake risks, artistic value, and whether abundant synthetic imagery will lose emotional impact.
 
 ### Comment pulse
-- Human authorship will remain core to valuable art → people seek narrative, physical media and assurance work isn't AI-generated — counterpoint: others expect AI “taste” to improve.  
-- Image models already displace some designers in practice → homeowners iterate on hundreds of renders, preferring AI-generated interiors over architect and decorator proposals.  
-- Technical evaluations report modest progress → community benchmark finds Nano Banana 2 sometimes worse at localized edits and preserving composition than earlier Pro models.  
+
+- Artists may gain leverage from taste, story, and physical work — counterpoint: models may improve at qualities now considered distinctly human.
+- Home-design experiments sped visual iteration, but translating attractive renders into safe specifications and materials still needs professional work.
+- One comparative tester saw little gain over Pro and worse localized edits, tempering Google’s launch claims.
 
 ### LLM perspective
-- View: Fast, grounded image models shift value from raw generation to curation, integration with workflows, and provenance-aware UX.  
-- Impact: Design, advertising and product teams can prototype visually in minutes, shrinking reliance on specialized concept artists for early ideation.  
-- Watch next: Independent benchmarks of safety, bias, and edit control plus regulation around disclosure of AI-generated media in commercial contexts.
+
+- **View:** The release targets the practical speed-quality tradeoff more than a wholly new image-generation capability.
+- **Impact:** Faster iteration broadens visual prototyping while increasing pressure on designers, provenance systems, and public trust.
+- **Watch next:** Independent editing benchmarks, provenance adoption, real-world consistency, and synthetic-image detection.

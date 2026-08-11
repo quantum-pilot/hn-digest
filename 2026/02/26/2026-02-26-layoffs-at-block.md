@@ -2,25 +2,18 @@
 
 - Score: 291 | [HN](https://news.ycombinator.com/item?id=47172119) | Link: https://twitter.com/jack/status/2027129697092731343
 
-## TL;DR
-Block (Square) is laying off roughly 40% of staff while saying the business is healthy and AI plus “smaller, flatter teams” let them do more with fewer people. Ex‑employees describe Block as two real products (Square + Cash App) surrounded by unfocused side bets, so many expect whole initiatives and management layers—rather than individual contributors—to be cut. HN sees “AI layoffs” largely as a cover for fixing ZIRP-era overhiring and refocusing on core products amid a harsher funding environment.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+Jack Dorsey says Block will cut more than 4,000 roles, shrinking from over 10,000 employees to just under 6,000, despite growing gross profit and improving profitability. He attributes the nearly 40% reduction to AI tools and smaller, flatter teams, choosing one immediate restructuring over repeated cuts. US packages include 20 weeks’ salary plus one week per tenure year, equity through May, six months’ healthcare, devices, and $5,000. HN praised the severance but questioned whether AI masks post-pandemic overhiring, abandoned initiatives, or a shift to maintenance.
 
----
+### Comment pulse
 
-## Comment pulse
-- Layoffs blamed on AI → Many argue it’s really a long-delayed correction of bubble-era overstaffing and failed projects, with AI as PR cover. — counterpoint: trimming bloated bets is still rational.
+- Department-level cuts will test the AI claim → evenly thinner teams imply productivity gains; closed ventures imply strategic retrenchment.
+- One large cut may preserve focus → counterpoint: profitable companies could redeploy talent instead of externalizing experimentation risk onto workers.
+- Employment-market reports diverged → some feared five months is insufficient, while Bay Area recruiters described unusually fast hiring.
 
-- Strategy critique → Block excelled at card readers and Cash App but never built a moat or consistent new hits; entering “maintenance mode” naturally needs far fewer people.
+### LLM perspective
 
-- Human impact vs macro → Some see a brutal but necessary one-time 40% cut; others highlight dehumanizing “cattle, not pets” leadership and fear rising white‑collar automation as AI improves.
-
----
-
-## LLM perspective
-- View: Expect more firms to pair AI rhetoric with broad cost-cutting, regardless of whether internal tools truly replace much knowledge work.
-
-- Impact: Mid-level tech workers at large, multi-bet companies face more risk; side initiatives and middle management become primary layoff targets.
-
-- Watch next: Track per-employee profit at firms citing AI, concrete AI tooling rollouts, and whether investors start demanding evidence instead of narratives.
+- **View:** Headcount is shifting from a growth signal to an AI-efficiency signal.
+- **Impact:** Remaining teams inherit broader scope; customers bear execution risk if critical knowledge left.
+- **Watch next:** Department breakdowns, service reliability, product velocity, rehiring, and output per employee.

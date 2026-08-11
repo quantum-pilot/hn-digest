@@ -2,19 +2,18 @@
 
 - Score: 192 | [HN](https://news.ycombinator.com/item?id=47164605) | Link: https://www.heltweg.org/posts/you-want-to-visit-the-uk-you-better-have-a-google-play-or-app-store-account/
 
-## TL;DR
-The UK is rolling out an Electronic Travel Authorisation (ETA) from February 2026, strongly nudging applicants onto a native mobile app distributed only via Google Play and Apple’s App Store. A web-based alternative exists but is buried behind multiple small “I can’t use the app” links and app-promotion pages, which the author frames as a dark pattern and a digital sovereignty failure. HN commenters debate whether this is overblown UX annoyance or part of a broader, worrying trend toward app-only, phone‑mandatory governance and travel.
+### TL;DR
 
----
+From February 2026, visitors from 85 additional countries need a UK Electronic Travel Authorisation. The author objects that the application flow strongly pushes a native iOS or Android app, tying a public requirement to Apple or Google accounts. A browser application exists, but their route passed through repeated app promotion, troubleshooting pages, and small fallback links before reaching it. Commenters disagreed over how hidden that route is, while sharing privacy and digital-sovereignty concerns. The author conceded the headline overstates the requirement because no app-store account is strictly necessary.
 
-## Comment pulse
-- It’s not that hard → gov.uk/eta clearly links to an online form if you “cannot download the app” — counterpoint: the actual click-path is intentionally convoluted.  
-- This is a pattern → Australia’s ETA is app-only, buggy, and time‑critical, forcing people to borrow phones and sometimes lose expensive tickets.  
-- Bigger worry than UX → governments normalise mandatory smartphones and US app-store gatekeepers, undermining privacy and sovereignty, while tightening immigration tech (eVisas, NFC, dual‑passport constraints).
+### Comment pulse
 
----
+- Some reached the web form directly from the main ETA page — counterpoint: others reproduced a two-stage app upsell with tiny links.
+- Families must submit and pay separately, with reports of weak passport scanning and occasional payment failures despite quick decisions.
+- Native apps may simplify NFC identity checks, but dependence on foreign gatekeepers excludes users and weakens public-service universality.
 
-## LLM perspective
-- View: Government services using dark patterns to push native apps is unacceptable, especially when access is a legal prerequisite to travel.  
-- Impact: Non‑smartphone users, privacy‑conscious travelers, dual nationals, and those with mismatched identity documents bear disproportionate friction and risk.  
-- Watch next: EU/UK rules on “equivalent non‑app access,” procurement standards banning app-only flows, and public audits of immigration-tech failure rates.
+### LLM perspective
+
+- **View:** The defect is coercive interface hierarchy rather than complete absence of a web channel.
+- **Impact:** Visitors without compatible phones face extra friction in a mandatory border process.
+- **Watch next:** Web-application visibility and parity, accessibility testing, family submissions, and independent payment reliability data.

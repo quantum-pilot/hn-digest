@@ -3,18 +3,17 @@
 - Score: 309 | [HN](https://news.ycombinator.com/item?id=47167763) | Link: https://www.ndss-symposium.org/wp-content/uploads/2026-f1282-paper.pdf
 
 ### TL;DR
-The paper systematically analyzes “client isolation” in Wi‑Fi—meant to stop devices on the same network from attacking each other—and finds non‑standard, inconsistent, and often broken implementations. By abusing shared group keys (GTK/IGTK), gateway routing (“gateway bouncing”), and switch‑like behavior of multiple BSSIDs (MAC spoofing/port stealing plus “broadcast reflection”), an authenticated insider or co‑located guest can often gain full MitM over other clients, including on different SSIDs. HN discussion stresses: this bypasses isolation, not Wi‑Fi crypto itself; risk is highest for guest/enterprise/mesh setups.
 
----
+AirSnitch finds that vendor-defined Wi-Fi client isolation often fails across encryption, routing, and switching layers. An already connected malicious client—or one using a co-located open SSID—can abuse shared group keys, bounce packets through the gateway, or spoof MAC identities to steal switch ports, enabling injection, interception, and sometimes bidirectional machine-in-the-middle access across BSSIDs or APs. Every tested router and network had at least one weakness. The authors and HN commenters stressed that this bypasses isolation; it does not crack arbitrary Wi-Fi credentials or a lone private SSID.
 
 ### Comment pulse
-- Scope clarification → Attacker must authenticate to some co‑located SSID; co‑author: they “bypass client isolation,” not break all Wi‑Fi encryption—counterpoint: that still undermines many real deployments.  
-- Who’s at risk → Enterprises, universities, shared/guest and Xfinity‑style public SSIDs on the same AP; single private home SSID with no guests is relatively safe.  
-- Design trade‑offs → Client isolation protects against neighbor abuse but breaks many IoT assumptions; some users carry travel routers or use per‑device VLANs to regain control.
 
----
+- Enterprise segmentation is the sharpest risk → an attacker on guest Wi-Fi intercepted traffic meant for a co-located encrypted university network.
+- Home exposure depends on topology → multiple bands, guest SSIDs, or APs create pivot paths — counterpoint: attackers still need local network access.
+- Isolation also breaks device discovery → stronger hotel and campus safety can conflict with Chromecast, speaker, and smart-light usability.
 
 ### LLM perspective
-- View: Treat “client isolation” as untrusted marketing, not a security boundary, unless you’ve audited AP behavior across L2/L3 and multiple BSSIDs.  
-- Impact: Network architects for campuses, offices, ISPs, and hotspot providers must redesign guest/private separation and key management; legacy APs may never be fully fixed.  
-- Watch next: Vendor patches, a standardized definition of Wi‑Fi isolation, per‑device VLAN tooling, and independent test suites reproducing AirSnitch attacks for commodity gear.
+
+- **View:** Cross-layer identity must bind credentials, MAC, IP, SSID, and switch port.
+- **Impact:** Operators should separate trust domains with VLANs and reject duplicate or gateway MACs.
+- **Watch next:** Vendor patches, Passpoint updates, standardized guarantees, and per-client group-key deployment.
