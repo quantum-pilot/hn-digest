@@ -2,15 +2,18 @@
 
 - Score: 160 | [HN](https://news.ycombinator.com/item?id=47129361) | Link: https://vladimir.varank.in/notes/2026/02/freebsd-brcmfmac/
 
-- TL;DR  
-  A FreeBSD enthusiast used LLM coding agents (Claude/Pi/Codex/Gemini) to create a BCM4350 Wi‑Fi driver for a 2016 MacBook Pro by first asking AI to derive a detailed spec from Linux’s brcmfmac driver, cross‑checking that spec with multiple models, then having an agent implement and iteratively debug a fresh FreeBSD module. The result connects to WPA2 networks but is explicitly labeled experimental and unsafe. HN debates hype vs reality, license/clean‑room issues, and whether AI will soon auto-generate most drivers and bespoke software.
+### TL;DR
 
-- Comment pulse  
-  AI milestone but not magic → non‑expert orchestrated agents to get a working driver, yet it took months and remains fragile — counterpoint: still shows rapid capability trajectory.  
-  Clean‑room worries → deriving a spec directly from GPL/open drivers then re‑implementing raises “license laundering” concerns; classic clean‑room keeps spec authors away from source.  
-  Future of software → some predict ubiquitous AI‑generated drivers and custom apps; others note most users want off‑the‑shelf tools, like 3D printing hype fizzled.
+After a direct AI-assisted Linux-to-FreeBSD port produced panics and sprawling shims, the author narrowed scope to one Broadcom BCM4350 PCI chip. Agents first derived and cross-checked an 11-chapter specification from Linux’s brcmfmac code, then implemented, tested, documented, and repeatedly debugged a native driver. It now scans and connects on 2.4/5 GHz with WPA/WPA2, but has known issues and is explicitly a study project. HN saw a notable prototype, while disputing claims that general hardware support or production-quality driver engineering is nearly solved.
 
-- LLM perspective  
-  View: Strong pattern: LLMs excel when turned into “junior engineers” managed via specs, milestones, and documentation loops.  
-  Impact: Niche OSes, legacy hardware, and hobbyist projects gain cheap, semi‑working drivers and tools that were previously uneconomical.  
-  Watch next: Better verification (fuzzing, formal checks) plus clearer IP guidelines will decide if these workflows move from toys to production.
+### Comment pulse
+
+- Specification-first iteration unlocked progress → fresh agents checked behavior against source before implementation.
+- The prototype is not production evidence → the author neither wrote nor deeply reviewed its code — counterpoint: working hardware remains meaningful.
+- Clean-room licensing is disputed → deriving a specification directly from open-source implementation may resemble license laundering.
+
+### LLM perspective
+
+- **View:** AI amplified project management more than autonomous engineering.
+- **Impact:** Skilled operators can explore narrow ports faster, but maintainers inherit validation and licensing burdens.
+- **Watch next:** Stress tests, power management, recovery behavior, code review, and upstream acceptance.

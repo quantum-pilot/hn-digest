@@ -3,18 +3,11 @@
 - Score: 1134 | [HN](https://news.ycombinator.com/item?id=47122715) | Link: https://spectrum.ieee.org/age-verification
 
 ### TL;DR
-Age limits for social media and “harmful” online services are colliding with data‑protection principles. To prove users are old enough, platforms must either collect hard IDs or continuously infer age via behavior and biometrics, then log that evidence for regulators—baking surveillance and long‑term data retention into their systems. In countries with weak ID infrastructure, this pushes even more toward opaque biometric/behavioral tracking. Hacker News debated whether better parenting, device‑level controls, zero‑knowledge ID wallets, or new laws can avoid this trap—or merely reshape it.
 
----
+The essay argues that enforcing online age limits inherently conflicts with privacy: platforms must collect identity documents, biometrics, device signals, or behavioral evidence, then retain enough records to defend decisions. Probabilistic systems create false positives, determined minors can borrow adult credentials, and appeals invite more data collection. Commenters debate privacy-preserving credentials and device-level child flags, but note that these still depend on trusted issuers, attestation, or centralized infrastructure. Others favor regulating manipulative advertising and product design instead of identifying every user.
 
 ### Comment pulse
-- Make parents responsible → they’re better placed than a “surveillance nanny state”; give them strong tools, not universal ID checks — counterpoint: kids bypass controls; network effects overwhelm families.  
-- Use zero‑knowledge identity wallets → prove “over 18” without revealing DOB; seems safer than raw IDs — counterpoint: EU designs still centralize tracking, device control, and revocation logs.  
-- Regulate structure, not identity → ideas include device-level child flags, locked/whitelisted devices, or bans on targeting kids; critics see practicality, privacy, and parental‑rights problems.
 
----
-
-### LLM perspective
-- View: The real decision is exclusion vs surveillance; pretending both can be maximized leads to covert, ever‑expanding identity systems.  
-- Impact: Teenagers, low‑ID countries, and all users of major platforms inherit more biometric inference, logging, and third‑party verification infrastructure.  
-- Watch next: How EU/US kid‑safety laws are enforced in practice; whether OS‑level child flags and robust ZK wallets emerge as credible alternatives.
+- Parental-control advocates emphasize family responsibility; critics counter that parents lack equal technical leverage and face a collective social problem.
+- Zero-knowledge age proofs could disclose only an age threshold, but enrollment and device-binding may still enable exclusion, tracking, or central control.
+- Stronger enforcement can paradoxically reward platforms for retaining more evidence, undermining data-minimization rules.

@@ -3,14 +3,17 @@
 - Score: 347 | [HN](https://news.ycombinator.com/item?id=47127396) | Link: https://www.nytimes.com/2026/02/23/technology/binance-employees-iran-firings.html
 
 ### TL;DR
-NYT reports Binance’s internal investigators traced about $1.7B from two accounts to Iranian entities linked to terrorism, plus 1,500 Iran-accessed accounts, then several were fired for “protocol” violations after alerting executives. The episode follows Binance’s 2023 anti–money-laundering guilty plea and precedes Trump’s pardon of founder Changpeng Zhao, whose firm now has business ties with the Trump family’s crypto venture. HN commenters debate crypto’s traceability, sanctions enforcement, and the political entanglement of major exchanges.
+
+According to documents reviewed by The New York Times, Binance investigators found more than 1,500 Iran-accessed accounts and about $1.7 billion sent from two exchange accounts to Iranian-linked entities, then four investigators were suspended or fired. Binance says the discipline concerned unauthorized client-data disclosure, not compliance warnings; it removed the accounts, notified authorities, and found no sanctions violation. HN centered on blockchain traceability, sanctions obligations, Binance’s 2023 guilty plea, and the political conflict surrounding founder Changpeng Zhao’s presidential pardon.
 
 ### Comment pulse
-- Crypto aids sanctions evasion and crime, yet blockchains are traceable; some say blaming “crypto” ignores cash’s role — counterpoint: centralized exchanges massively scale abuse.  
-- True anonymity is hard: mining, spending, and delivery leave trails in databases and cameras; others note in-person wallet-for-cash swaps stay largely pseudonymous.  
-- US sanctions bar Iran access, so Binance should block it; Trump’s pardon and business ties fuel suspicion Binance now serves US geopolitical interests.  
+
+- Public blockchains are auditable, not inherently anonymous → transaction histories become attributable when wallets touch KYC exchanges.
+- Binance’s explanation leaves a governance question → discipline followed internal warnings — counterpoint: the company says the investigation continued.
+- Political scrutiny persists → Zhao’s pardon and Trump-family crypto ties color reactions to renewed compliance allegations.
 
 ### LLM perspective
-- View: Internal investigators being fired after flagging sanctions issues suggests governance prioritizes growth and political cover over compliance independence.  
-- Impact: If corroborated, regulators in US and EU could reopen enforcement, target executives personally, and pressure counterparties partnering with Binance.  
-- Watch next: Key signals: strengthened on-chain sanctions analytics, staff whistleblower protections, competitor exchanges tightening Iran controls, and political scrutiny of Trump–Binance relationships.
+
+- **View:** Timing alone cannot prove retaliation, but it warrants independent review.
+- **Impact:** Exchanges need protected escalation paths and defensible controls around investigator access.
+- **Watch next:** Justice Department filings, employee claims, and evidence explaining the disciplinary decisions.

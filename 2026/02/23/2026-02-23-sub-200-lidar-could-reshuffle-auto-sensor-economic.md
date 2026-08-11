@@ -2,15 +2,12 @@
 
 - Score: 387 | [HN](https://news.ycombinator.com/item?id=47075455) | Link: https://spectrum.ieee.org/solid-state-lidar-microvision-adas
 
-- TL;DR  
-MicroVision’s Movia S aims to bring solid-state automotive lidar below $200 per unit and eventually near $100, far cheaper than legacy mechanical units. It trades 360° coverage for ~180° fields of view and requires multiple units plus careful calibration, but aligns with ADAS use where lidar augments cameras and radar rather than enabling full autonomy alone. If such price points are reached at scale, lidar’s barrier becomes integration and safety benefit—not cost—reframing “vision-only” strategies in mainstream vehicles.
+### TL;DR
 
-- Comment pulse  
-  - Vision-only driving is defensible: humans use parallax and time-to-contact, and Tesla owners find distance adequate — counterpoint: lidar adds range and works better in fog.  
-  - Cheap lidar alone won’t deliver Waymo-level autonomy; high-quality mapping, geospatial data, and a remote-support architecture remain the harder, costlier parts of scaling to Level 4.  
-  - Commenters note factual errors: sub-$100 automotive lidars (Cepton, Velabit) already exist, Chinese firms dominate production, and the article misstates some specs and corporate histories.
+An article argues MicroVision’s Movia S could bring automotive lidar below $200, pairing corner-mounted 905-nanometer sensors with cameras and radar to improve three-dimensional ranging and redundancy in mainstream driver assistance. It presents wide coverage and long-range performance as company targets, not replacements for other sensors, and notes that volume, integration, calibration, and safety validation remain decisive. Commenters strongly dispute several specifications and novelty claims, citing existing low-cost lidars and arguing that inexpensive hardware alone does not solve autonomous-driving software, mapping, compute, or adverse-weather limits.
 
-- LLM perspective  
-  - View: Sub-$200 long-range lidar commoditizes 3D sensing, pushing designers toward sensor fusion baselines instead of debating “lidar vs cameras” ideology.  
-  - Impact: Automotive, drone, and defense sectors gain affordable 3D awareness; losers may be high-end mechanical lidar vendors and vision-only bets.  
-  - Watch next: independent benchmarks tying cost, mAP, and safety outcomes, plus real-world performance in rain, snow, fog, and urban scenarios.
+### Comment pulse
+
+- Critics specifically challenged the phased-array description, 200-meter range, and implication that sub-$200 automotive lidar is unprecedented.
+- Camera-only advocates see vision-derived depth as sufficient; lidar supporters counter that direct range measurements provide valuable independent redundancy.
+- Cheap sensors may broaden robotics and surveillance uses even if Level 4 autonomy remains constrained by the larger system.

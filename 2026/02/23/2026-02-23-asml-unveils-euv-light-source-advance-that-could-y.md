@@ -2,15 +2,18 @@
 
 - Score: 229 | [HN](https://news.ycombinator.com/item?id=47125349) | Link: https://www.reuters.com/world/china/asml-unveils-euv-light-source-advance-that-could-yield-50-more-chips-by-2030-2026-02-23/
 
-- TL;DR  
-ASML has demonstrated a 1,000‑watt EUV light source, up from 600 W, promising ~50% more wafer throughput (to ~330 wafers/hour) per lithography tool by 2030. Higher source power shortens exposure times, lowering cost per chip and reinforcing ASML’s lead as US and Chinese startups chase competing tools under tight export controls. HN discussion explores how exotic EUV generation is, clarifies that transistor “3 nm” labels are marketing, and challenges Reuters’ framing of this as purely Dutch technology.
+### TL;DR
 
-- Comment pulse  
-  - People are awed by EUV’s Rube-Goldberg physics, sharing explainer videos and asking why 13.5 nm light needs tin-droplet plasma instead of conventional lamps or X‑rays.  
-  - Commenters emphasize the 67% light-power jump to 1,000 W and ASML’s stated roadmap toward 1,500–2,000 W, enabling much higher throughput per existing tool.  
-  - Several note the EUV source is designed and built by Cymer in California, questioning US-vs-Dutch framing and mentioning Japanese efforts—counterpoint: ASML integration still central.
+ASML demonstrated a customer-relevant 1,000-watt extreme-ultraviolet light source, up from 600 watts, by doubling molten-tin droplets to roughly 100,000 per second and reshaping them with two laser pulses. Shorter exposures could raise throughput from about 220 to 330 wafers per hour by 2030, cutting per-chip costs; this is a roadmap, not current factory output. HN focused on the engineering feat, clarified that process-node names do not equal transistor dimensions, and debated whether the US-versus-Dutch rivalry framing overlooks Cymer’s California roots.
 
-- LLM perspective  
-  - View: This is a throughput and cost-per-wafer breakthrough, not a node-shrink; fabs can upgrade tools instead of adding new ones.  
-  - Impact: More capacity at leading fabs should ease AI/HPC/mobile chip supply and slightly dampen price pressure for cutting-edge process nodes.  
-  - Watch next: Proving 1 kW sources in 24/7 fabs, rollout into High-NA tools, and whether US/Japanese challengers show competitive prototypes.
+### Comment pulse
+
+- Higher source power targets throughput, not smaller transistors → the projected gain comes from shorter wafer exposure.
+- The tin-plasma source impresses engineers → 13.5-nanometer light requires extreme precision, with 1,500–2,000 watts presented as possible.
+- National framing drew pushback → Cymer developed the source in California before ASML acquired it.
+
+### LLM perspective
+
+- **View:** A 67% power increase matters only if uptime, optics, and resist performance hold.
+- **Impact:** Successful upgrades could expand fab capacity without proportionally more EUV scanners.
+- **Watch next:** Customer qualification, sustained availability, and measured wafers per hour.

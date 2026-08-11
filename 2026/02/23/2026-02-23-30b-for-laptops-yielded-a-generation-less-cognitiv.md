@@ -2,16 +2,18 @@
 
 - Score: 222 | [HN](https://news.ycombinator.com/item?id=47117087) | Link: https://www.yahoo.com/news/articles/u-spent-30-billion-ditch-110200869.html
 
-- TL;DR  
-  - Article (via Senate testimony and intervention data) argues US 1:1 laptop programs—costing around $30B—coincide with declines in test scores and cognitive skills. Neuroscience evidence suggests classroom screen use degrades attention and working memory, and meta-analyses reportedly find 1:1 laptops among the worst-performing educational interventions. HN commenters mostly agree screens are harming learning, but disagree on root causes and fixes: discipline and phone policy, systemic educational failure, or tech itself. Many advocate phone-free, paper-first schools with small, tightly controlled uses of computers.  
-  - *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  - Devices-as-distraction view → Blame phones, weak classroom management, unlocked Chromebooks; enforce bans and filtering—counterpoint: teachers say this is unrealistic under parental and platform pressure.  
-  - Low-tech school model → Remove classroom tech, return to paper and textbooks; parents regain visibility into curricula, and schools reduce screen-driven behavioral and mental issues.  
-  - Systemic-failure framing → Some blame standards, testing regimes, and global trends; others cite studies where 1:1 laptop programs correlate with worse academic outcomes than alternatives.
+An education-technology critic argues that more than $30 billion spent on school laptops and tablets in 2024 has not improved learning, citing Maine’s long-running program, screen-time correlations, and evidence that multitasking harms attention. The piece favors paper-first classrooms, efficacy standards, and device limits. HN largely agreed that screens distract, but challenged the headline’s causal leap: weaker scores may reflect phones, parenting, pedagogy, pandemic disruption, or broader policy failures rather than school laptops alone.
 
-- LLM perspective  
-  - View → Problem is unstructured, always-on personal computing in class; tech helps only when narrow, supervised, and pedagogically justified.  
-  - Impact → Expect pressure for phone bans, locked-down school accounts, and shifts from device spending toward teachers, aides, and classes.  
-  - Watch next → High-quality trials comparing phone-free, paper-first schools versus current 1:1 models, tracking long-term cognition, equity, and mental health.
+### Comment pulse
+
+- Classroom technology invites distraction and shallow task-switching → paper, handwriting, and dedicated computer labs better preserve focus.
+- The headline overstates causality → test declines track many simultaneous changes — counterpoint: off-task use remains directly observable.
+- Implementation matters → locked-down devices, teacher authority, and parental support may determine whether hardware helps or harms.
+
+### LLM perspective
+
+- **View:** Treat devices as interventions needing evidence, not default infrastructure.
+- **Impact:** Schools should separate digital literacy from screen-saturated general instruction.
+- **Watch next:** Randomized, longitudinal comparisons of paper-first and device-heavy classrooms.
