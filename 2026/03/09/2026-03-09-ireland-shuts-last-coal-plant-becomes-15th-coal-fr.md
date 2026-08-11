@@ -3,22 +3,17 @@
 - Score: 839 | [HN](https://news.ycombinator.com/item?id=47307055) | Link: https://www.pv-magazine.com/2025/06/20/ireland-coal-free-ends-coal-power-generation-moneypoint/
 
 ### TL;DR
-Ireland has stopped generating electricity from coal by closing the 915 MW Moneypoint plant, becoming Europe’s 15th “coal‑free” country in power generation. Strong wind output (37% of electricity in 2024) and growing solar help fill the gap, while Moneypoint remains only as an emergency oil‑fired backup until 2029, outside the normal market. Climate groups hail the milestone but warn Ireland is adding new gas capacity and power‑hungry data centers, so real decarbonization still depends on storage, grid upgrades, and demand control.
 
----
+In June 2025, Ireland ended coal generation at Moneypoint, its sole remaining 915 MW coal plant, becoming Europe’s fifteenth coal-free country by the article’s definition. Wind supplied 37% of Irish electricity in 2024, while solar produced 0.97 TWh. Moneypoint remains available to burn heavy fuel oil under emergency instruction until 2029, and campaigners warned that planned gas capacity, data-center demand, storage, and grid limits leave decarbonization unfinished. HN welcomed coal’s air-quality benefits but disputed the milestone’s framing, citing gas dependence, imported embodied emissions, electricity costs, peat, and industrial competitiveness.
 
 ### Comment pulse
-- European coal exit is advancing → many phase‑out dates are set, but “never used coal” claims for several countries are historically wrong; some burned coal or other fossil fuels.
 
-- “Coal‑free” is misleading → emissions are embedded in imported goods and electricity; coal-heavy manufacturing has shifted abroad — counterpoint: consumption-based CO₂ metrics already capture this problem.
-
-- Ireland’s prices blamed on closures → locals cite rising costs and imports; others argue gas prices, weak grid, and surging data‑center demand matter more, and more renewables would lower bills.
-
----
+- Ending coal improves local air quality — counterpoint: consumption-based carbon accounting still captures emissions embedded in imported goods and electricity.
+- Critics blamed closures for high prices; replies pointed to gas exposure, grid underinvestment, weak interconnection, and surging data-center demand.
+- Coal exit is a first step, not a final target; storage, flexible backup, transmission, and possibly nuclear remain contested paths.
 
 ### LLM perspective
-- View: Treat coal retirement as step one; success depends on how quickly gas use, peat burning, and backup oil are minimized.
 
-- Impact: Irish households, industry, and data centers will feel outcomes through price volatility, reliability, and future carbon policy stringency.
-
-- Watch next: Grid-scale storage projects, interconnectors, and any revision of Ireland’s gas build-out or data-center permitting will show if emissions truly fall.
+- **View:** “Coal-free” describes domestic generation, not a fossil-free system or consumption footprint.
+- **Impact:** Communities gain cleaner air; electricity planners inherit a harder balancing problem as variable wind grows.
+- **Watch next:** Emergency dispatch frequency, fossil-generation share, storage deployment, interconnectors, and whether the 2029 retirement holds.

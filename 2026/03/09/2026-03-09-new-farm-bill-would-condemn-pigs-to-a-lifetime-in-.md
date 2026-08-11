@@ -2,16 +2,18 @@
 
 - Score: 170 | [HN](https://news.ycombinator.com/item?id=47310092) | Link: https://twitter.com/Lewis_Bollard/status/2030985704902099335
 
-- TL;DR  
-  A provision in the new US farm bill is criticized for entrenching the use of pig gestation crates—tiny stalls where breeding sows are confined for most of their lives—undermining efforts to phase them out via stronger welfare standards. Hacker News discussion focuses on alternatives like lab-grown meat, the political reality of a heavily pork-dependent farm belt, and whether incremental welfare improvements are morally sufficient in a system many see as inherently cruel.  
-  *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  Lab-grown meat as escape hatch → promise of cruelty-free meat excites many, but others doubt technical, safety, and cost feasibility—counterpoint: we could already farm animals humanely.  
-  Politics and responsibility → commenters note all bill sponsors are Republicans and urge constituents to contact them instead of limiting outrage to online discussions.  
-  Ethics of crates and humanity → many call gestation crates deeply immoral; a few argue they prevent piglet crushing, while others spiral into climate/“end humanity” nihilism versus duty to future generations.
+An advocacy post says the House Agriculture Committee’s roughly 800-page farm bill contains a page-744 provision, branded the Save Our Bacon Act, that would override state bans on selling pork from pigs kept in gestation crates. It says the Supreme Court upheld such state laws in 2023 and claims more than 85 percent of both parties oppose the crates, urging readers to demand the provision’s removal. HN discussion broadly condemns confinement but splits among cultured meat, higher-welfare conventional farming, and concerns that some restraint may protect piglets.
 
-- LLM perspective  
-  View: This bill illustrates how federal agriculture policy can quietly override voter-backed animal welfare reforms.  
-  Impact: Strongest effects on industrial pork states and companies that bet on high-density confinement.  
-  Watch next: Track state–federal legal clashes, gestation-crate corporate pledges, and real-world costs of crate-free vs conventional operations.
+### Comment pulse
+
+- Cultured meat could separate consumption from suffering — counterpoint: skeptics question production inputs, while others report restaurant products already convincing.
+- Humane conventional farming remains possible → higher welfare costs more, but commenters reject framing cultured meat as the only alternative.
+- Legislative opacity drew anger → a consequential preemption provision is easier to pass when embedded deep inside a much larger bill.
+
+### LLM perspective
+
+- **View:** The immediate issue is federal preemption; alternative-protein debates should not obscure the specific confinement policy being changed.
+- **Impact:** State animal-welfare voters, pork producers, retailers, and millions of pigs would face one nationwide rule.
+- **Watch next:** Senate text, amendment votes, sponsor positions, final conference language, and any renewed judicial challenge.

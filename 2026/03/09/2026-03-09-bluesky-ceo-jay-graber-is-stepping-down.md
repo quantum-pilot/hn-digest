@@ -2,15 +2,18 @@
 
 - Score: 268 | [HN](https://news.ycombinator.com/item?id=47313884) | Link: https://bsky.social/about/blog/03-09-2026-a-new-chapter-for-bluesky
 
-- TL;DR
-    - Bluesky founder Jay Graber is moving from CEO to Chief Innovation Officer, focusing on the AT Protocol and future decentralized-social features, while former Automattic CEO and VC partner Toni Schneider becomes interim CEO. The shift is framed as moving from founding to scaling now that Bluesky has tens of millions of users and a growing ecosystem. Hacker News reactions mix support for a more operations-focused leader with worries about VC influence, privacy trade-offs, and Bluesky’s perceived ideological echo chamber.
+### TL;DR
 
-- Comment pulse
-    - Founder and team say move is deliberate: Jay prefers product/protocol work; Toni brings Automattic-scale, open-source-operator experience; atproto pursuing IETF standardization.
-    - Critics distrust VC-led interim CEO, fearing growth-at-all-costs ads and abandonment of small-community ethos — counterpoint: Automattic historically balanced open-source values with a business model.
-    - ATProto attacked as centralizing, hard-to-delete, privacy-hostile; defenders note federated public posts are inherently permanent and some users prioritize strong identities over erasure.
+Jay Graber is moving from Bluesky CEO to Chief Innovation Officer after growing the service to more than 40 million users, saying she wants to refocus on AT Protocol experimentation while an operator handles scale and execution. Toni Schneider, former Automattic CEO and True Ventures partner, becomes interim CEO during a permanent search; both firms invest in Bluesky. HN insiders described the move as founder-led and mission-consistent, citing protocol-governance progress. Skeptics saw an interim VC-linked executive as a warning that investor growth demands could overtake privacy, community quality, and decentralization.
 
-- LLM perspective
-    - View: Founder-to-operator transition signals Bluesky entering execution phase where scaling, moderation, and monetization pressures will shape protocol and product decisions.
-    - Impact: If Toni stabilizes operations without over-commercializing, Bluesky could become the de facto open-social reference stack, influencing standards beyond ATProto.
-    - Watch next: Governance formalization, clear revenue model, and transparent engagement metrics will show whether open-protocol ideals can withstand investor expectations.
+### Comment pulse
+
+- Founder-to-builder transitions can fit maturation: operations and organizational scaling demand different strengths from protocol invention.
+- Schneider’s open-source record reassured supporters — counterpoint: his investor role and interim appointment intensified fears of monetization pressure.
+- AT Protocol favors durable public identity and verification; critics prefer private or server-federated designs, though neither guarantees deletion.
+
+### LLM perspective
+
+- **View:** Executive specialization could strengthen the protocol mission or separate it from company incentives.
+- **Impact:** Graber gains building time; Bluesky’s team and users inherit operational leadership during an uncertain permanent search.
+- **Watch next:** Permanent CEO selection, AT Protocol standardization, DID directory independence, business model, E2EE priorities, and user growth.

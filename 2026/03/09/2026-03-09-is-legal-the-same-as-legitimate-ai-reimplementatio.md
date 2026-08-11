@@ -3,18 +3,17 @@
 - Score: 299 | [HN](https://news.ycombinator.com/item?id=47310160) | Link: https://writings.hongminhee.org/2026/03/legal-vs-legitimate/
 
 ### TL;DR
-The essay argues that using AI to “clean-room” reimplement LGPL software (as in the chardet 7.0 relicensing) may be lawful but is socially illegitimate when it strips copyleft guarantees. Historical analogies to GNU/Linux miss a key vector: those projects moved code from proprietary to commons, whereas AI reimplementation here moves from copyleft to permissive, weakening reciprocity and user freedom. The author calls for new “training/specification copyleft” licenses and insists community norms, not courts, must first answer what we owe the commons.
 
----
+Chardet 7.0 was rebuilt from its API and tests with Claude, reportedly sharing under 1.3% code similarity with earlier versions, running 48 times faster, and switching from LGPL to MIT. Blanchard calls it independent; original author Mark Pilgrim argues prior exposure prevents a clean-room claim. The essay largely accepts possible legality but rejects social legitimacy: contributors joined a copyleft compact requiring reciprocity, and AI should not erase it. HN split sharply over proposed specification copyleft, which might defend commons obligations but also threaten compatible implementations, reverse engineering, and open clients.
 
 ### Comment pulse
-- Protecting specs/APIs as IP sounds like empowering corporations to block compatible implementations → replays Oracle v. Google fears—counterpoint: earlier fights lacked today’s AI asymmetry and scale.  
-- Some see AI making creativity cheap, undermining IP’s rationale; others foresee enclosure via proprietary models and gated “AI frontends” for all documentation.  
-- Ongoing dispute: is training on GPL code license-compatible fair use, and when does AI output cross from transformative behavior into actionable copying?
 
----
+- GNU used reimplementation to expand freedom — counterpoint: protecting specifications could let corporations block competitors, clients, emulators, and work-alikes.
+- Copyleft makes distribution reciprocal; permissive licensing lets capital absorb community work without returning modifications.
+- If AI makes recreation cheap, some foresee IP collapse; others fear model owners will enclose knowledge and charge rent instead.
 
 ### LLM perspective
-- View: AI makes spec-level reimplementation trivial, so license design must move up-stack from code to behavior and interfaces.  
-- Impact: Maintainers of copyleft projects, small contributors, and users lose leverage first; large platforms and model owners gain it.  
-- Watch next: Concrete TGPL/spec-copyleft drafts, test lawsuits on AI-assisted “clean rooms,” and corporate moves to hide specs behind proprietary APIs/models.
+
+- **View:** Legal independence, license compliance, and community legitimacy are separate tests with different evidence and decision-makers.
+- **Impact:** Maintainers gain a path around copyleft; contributors may doubt reciprocal terms can survive automated reimplementation.
+- **Watch next:** Legal challenges, provenance standards, clean-room protocols, memorization evidence, and enforceable training or specification licenses.

@@ -2,15 +2,18 @@
 
 - Score: 138 | [HN](https://news.ycombinator.com/item?id=47305149) | Link: https://github.com/knowsuchagency/mcp2cli
 
-## TL;DR
-mcp2cli is a Python tool that turns any MCP server or OpenAPI spec into a dynamically generated CLI, letting LLM agents discover and call tools on demand instead of loading huge JSON schemas every turn. By reducing tool discovery to short `--list` and `--help` calls, it claims 96–99% context savings in multi-tool scenarios, while adding OAuth, caching, and a compact TOON output format. HN discussion applauds the token wins, notes many similar CLIs, and questions MCP’s overall design and missing authorization model.
+### TL;DR
 
-## Comment pulse
-- Ecosystem sprawl: commenters list ~10 similar MCP CLIs; author differentiates mcp2cli via OpenAPI support, runtime generation, and an installable agent skill.  
-- Security stance: token savings praised, but MCP still lacks authorization; suggestion for CLI-level `--allowed-tools` so orchestrators can hide disallowed tools from agents.  
-- Value of MCP debated: critics prefer raw HTTP/ssh; defenders cite validation, schemas, granular access control, local/binary handling—MCP vs CLI likened to DLL vs process.
+mcp2cli turns an MCP server or OpenAPI specification into a CLI, avoiding code generation and exposing commands only when an agent requests `--list` or `--help`. It supports HTTP/SSE and stdio MCP, OAuth, secret-file or environment credentials, caching, structured output, and provider-agnostic agent skills. Its tests claim 96–99 percent context savings for large, multi-turn tool sets, though small OpenAPI cases save less. HN readers agree lazy discovery attacks schema bloat, but note dozens of similar wrappers exist and stress that fewer tokens do nothing to constrain authorization or prompt-injection blast radius.
 
-## LLM perspective
-- View: Practical bridge that converts schema-heavy APIs into cheap, discoverable CLIs for any model, avoiding provider-specific features.  
-- Impact: Multi-tool agent setups can grow far beyond current limits before hitting context ceilings or untenable per-turn costs.  
-- Watch next: Standardized auth scoping on top, automated `--allowed-tools` orchestration, and head-to-head latency benchmarks against native MCP and Tool Search.
+### Comment pulse
+
+- Lazy discovery solves context efficiency → large schemas stop recurring every turn, while agents pay help-text costs only for used tools.
+- Authorization is unchanged → an efficient agent still retains every server-granted capability, so prompt injection preserves the same blast radius.
+- Ecosystem duplication is conspicuous → many MCP-to-CLI projects exist; this implementation differentiates through runtime generation, OpenAPI support, and an agent skill.
+
+### LLM perspective
+
+- **View:** The benchmark demonstrates an architectural win under eager-schema clients, but savings depend on conversation length and tool usage.
+- **Impact:** Multi-provider agent builders can trade extra shell discovery calls for dramatically smaller prompts.
+- **Watch next:** Permission scoping, standardized deferred discovery, comparative latency, malformed-schema handling, and benchmarks against native tool-search implementations.

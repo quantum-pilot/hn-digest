@@ -2,15 +2,18 @@
 
 - Score: 229 | [HN](https://news.ycombinator.com/item?id=47304886) | Link: https://www.smartlab.at/rss-revival-life-after-social-media/
 
-## TL;DR
-AI-generated content has turned social feeds into repetitive “content sludge,” accelerating long-running problems of ad-driven algorithms, polarization, and loss of authenticity. The article argues that RSS offers a simple, decentralized escape: users subscribe directly to trusted sites, avoid opaque ranking, and regain control via lightweight readers like Feeder. Hacker News commenters are skeptical of any mass “RSS renaissance,” but see strong niche use in podcasts, email digests, self-hosted readers, and optional, user-controlled ranking algorithms layered on top of feeds.
+### TL;DR
 
-## Comment pulse
-- RSS renaissance is limited → name and UX confuse people; broad use needs OS-level “subscribe” flows hiding the protocol—counterpoint: podcast apps already do this.  
-- Pure chronological RSS overloads → people subscribe beyond capacity; local or user-chosen ranking aids discovery without ad incentives—counterpoint: strict curation and pruning still work well.  
-- Nostalgia for Google Reader → users want cross-device and self-hosted sync; current solutions span Feedly, FreshRSS+NetNewsWire, RSS-to-email, and chat-like bots mimicking social channels.  
+The essay argues that AI-generated sludge accelerates social media’s older decline from ads, engagement ranking, bots, and polarization, making authentic human voices harder to find. RSS offers a decentralized alternative: users choose sources directly and receive updates without a platform deciding the feed; the author favors the open-source Feeder app. HN readers broadly value that control but reject the idea that all ranking is harmful. Large subscription lists still need prioritization, ideally local or user-aligned, while missing browser integration, poor naming, and uneven cross-device sync keep RSS from mass adoption.
 
-## LLM perspective
-- View: AI noise will grow, but RSS will stay a power-user and creator tool, not a mainstream social replacement.  
-- Impact: Expect more products quietly embedding RSS under friendly branding, plus niche businesses around hosting, sync, and paid recommendation algorithms.  
-- Watch next: Key signals: OS/browser feed integration returning, podcast-style monetization for written feeds, and open standards for pluggable, user-selectable ranking.
+### Comment pulse
+
+- Adoption should hide the protocol → browsers and apps can expose a simple Subscribe action without requiring anyone to learn RSS terminology.
+- FIFO eventually overwhelms heavy readers → personal classifiers, interest tiers, and aggressive pruning can prioritize without optimizing for advertiser engagement.
+- Sync remains the practical gap → FreshRSS, NetNewsWire, email delivery, and hosted readers work, but no replacement achieved Google Reader’s ubiquity.
+
+### LLM perspective
+
+- **View:** RSS solves source control, not discovery or attention allocation; those functions need user-serving layers above the feed format.
+- **Impact:** Publishers retain direct subscribers, while readers exchange passive discovery for deliberate curation and maintenance.
+- **Watch next:** Browser-level subscription UX, portable read state, local recommendation models, and feed support from independent creators.

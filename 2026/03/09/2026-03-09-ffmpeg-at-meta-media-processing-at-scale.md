@@ -3,14 +3,17 @@
 - Score: 219 | [HN](https://news.ycombinator.com/item?id=47305236) | Link: https://engineering.fb.com/2026/03/02/video-engineering/ffmpeg-at-meta-media-processing-at-scale/
 
 ### TL;DR
-Meta used to maintain a heavily modified internal FFmpeg fork to support its massive video workload (tens of billions of runs per day), mainly for multi-lane parallel transcoding and real-time quality metrics. These changes diverged from upstream and became costly to maintain. Meta then worked with FFmpeg, FFlabs, and VideoLAN to upstream multi-output parallel threading (FFmpeg 6–8) and in-loop decoding for live quality metrics (FFmpeg 7), letting them retire the fork. HN discussion praises both the engineering and open-source contributions, while criticizing the late upstreaming and marketing tone.
+
+Meta runs FFmpeg and ffprobe tens of billions of times daily across more than one billion video uploads, making duplicated decoding and process startup expensive. It has now retired its divergent internal FFmpeg fork for video-on-demand and livestreaming after collaborating with FFmpeg, FFlabs, and VideoLAN to upstream parallel multi-output encoding and in-loop decoding for real-time quality metrics. FFmpeg 6 through 8 gained the relevant work; Meta keeps only hardware-specific MSVP patches private. HN welcomed community-wide efficiency gains but questioned why upstreaming came so late and criticized the post’s self-congratulatory framing.
 
 ### Comment pulse
-- Meta’s OSS stance → strong appreciation for React/React Native and upstreamed FFmpeg work — counterpoint: blog downplays years of not-upstreaming and feels spin-heavy.  
-- Engineering angles → readers want time-axis parallelization and reuse of inter-frame analysis, raising questions about keyframe placement and encoder internals.  
-- Economic/scale context → awe at tens of billions of FFmpeg runs and big wall-time savings; calls for Fabrice Bellard to be richly rewarded.
+
+- Upstreaming eliminated duplicate forks and benefits every FFmpeg user — counterpoint: Meta could have integrated earlier instead of carrying private divergence.
+- Single-decode, multi-output encoding cuts overhead; commenters wanted time-axis parallelization for one-output jobs, though interframe dependencies complicate splitting.
+- Bellard and volunteer maintainers created immense commercial value; readers hoped the ecosystem compensates them proportionally.
 
 ### LLM perspective
-- View: This is a textbook case of why eliminating long-lived forks via upstream collaboration pays off at hyperscale.  
-- Impact: All FFmpeg users—especially smaller platforms—inherit Meta-driven efficiency and live-quality tooling without bearing development cost.  
-- Watch next: Generalized parallel encoding APIs, broader real-time metric adoption, and cleaner integration paths for proprietary accelerators without fragmenting FFmpeg.
+
+- **View:** At billion-upload scale, upstream maintainability becomes an efficiency feature, not merely community relations.
+- **Impact:** Meta reduces rebase risk; other media pipelines gain parallelism and live quality measurement without a private fork.
+- **Watch next:** Regression data, performance benchmarks, maintainer funding, and future codec or metric contributions.

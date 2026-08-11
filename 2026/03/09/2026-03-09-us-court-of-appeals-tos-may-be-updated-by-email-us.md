@@ -2,15 +2,18 @@
 
 - Score: 518 | [HN](https://news.ycombinator.com/item?id=47305461) | Link: https://cdn.ca9.uscourts.gov/datastore/memoranda/2026/03/03/25-403.pdf
 
-## TL;DR
-The Ninth Circuit held that Tile/Life360 validly updated their Terms of Service via a mass email and that users’ later app use counted as consent, even if the email landed in spam and they never actually read it. Because the new terms clearly delegated “arbitrability” to an arbitrator, the court ordered all issues— including whether claims are arbitrable—into private arbitration. HN commenters see this as courts greenlighting unilateral “private law” via ToS, deepening power imbalances and eroding trust in tracking/online services.
+### TL;DR
 
-## Comment pulse
-- ToS as private law → Companies can unilaterally rewrite obligations by email; users “agree” by existing, complex usage—counterpoint: remedy is usually only account termination.
-- Contract change outrage → Allowing midstream ToS changes without explicit “yes” breaks classic contract notions; tech UIs normalize what would be laughable offline.
-- Coping strategy → Some advocate quitting nonessential services and trackers; others note alternatives (payphones, video stores, DVDs) vanish, making “opt out” unrealistic.
+An unpublished, nonprecedential Ninth Circuit memorandum held that two Tile users received inquiry notice of October 2023 terms through a clearly labeled email with a bold blue link, despite one message landing in spam and the other going unread. Their app use objectively manifested assent under California law, so the updated delegation clause sent even arbitrability questions to arbitration. The court reversed the partial denial of Tile and Life360’s motion but stressed that mass email is not always sufficient; context, presentation, additional notices, and user conduct require a fact-intensive analysis.
 
-## LLM perspective
-- View: This cements email-plus-continued-use as enough for binding ToS changes, despite weak real-world user awareness.
-- Impact: Platforms will rely more on email notices and arbitration clauses; consumers gain little practical recourse.
-- Watch next: State laws or FTC action limiting forced arbitration and unilateral ToS changes; empirical work on notice/readership shaping future standards.
+### Comment pulse
+
+- Critics reject passive assent as linguistic fiction → an unread spam message plus continued use hardly feels objective, reasonable, unambiguous, or consensual.
+- Unilateral updates create asymmetric power → users cannot email replacement terms back, and refusing changes may mean losing purchased functionality.
+- Practical administration favors update notices — counterpoint: companies need common terms, but clearer change summaries and explicit acceptance could reduce friction and surprise.
+
+### LLM perspective
+
+- **View:** The narrow holding validates one notice-and-conduct pattern; it does not establish a universal email-amendment rule.
+- **Impact:** California-facing services gain a roadmap, while users must monitor account email before continuing to use apps.
+- **Watch next:** Published precedent, clickwrap requirements, limits on material changes, arbitration challenges, and consumer-protection responses.

@@ -3,18 +3,17 @@
 - Score: 161 | [HN](https://news.ycombinator.com/item?id=47315128) | Link: https://www.cnbc.com/2026/03/09/oracle-is-building-yesterdays-data-centers-with-tomorrows-debt.html
 
 ### TL;DR
-Oracle’s flagship “Stargate” AI data center with OpenAI in Abilene is faltering because AI chip generations (Blackwell → Vera Rubin) are now advancing annually, while physical data centers take 1–2 years to build. OpenAI reportedly wants larger clusters of Nvidia’s newer, more efficient GPUs elsewhere rather than being locked into older hardware on day one. Oracle uniquely funds this hyperscale push with over $100 billion in debt and negative free cash flow, raising solvency and execution concerns. HN discussion questions CNBC’s framing, notes Oracle may adapt later phases, and focuses on long-term GPU depreciation and reuse.
 
----
+CNBC says OpenAI dropped an expansion of Oracle’s Abilene Stargate site because its Blackwell clusters may arrive after Nvidia’s five-times-faster Vera Rubin systems become available elsewhere. The mismatch is structural: data centers take 12–24 months to power, while Nvidia now refreshes chips annually. Oracle bears extra risk from more than $100 billion of debt and negative free cash flow. HN commenters say crucial facts remain unclear: future-ready facilities can accept newer rack-scale systems, older GPUs stay rentable for years, and actual exposure depends on chip commitments and construction delays.
 
 ### Comment pulse
-- Timing risk, not “yesterday’s DCs” → Oracle may be bringing Blackwell online after Rubin, locking in worse economics—counterpoint: rack-scale Rubin swaps could partially rescue economics.  
-- Stargate design may be forward-compatible → phased build, 200 kW/rack and Nvidia roadmap awareness suggest later phases could host Rubin/Feynman generations.  
-- GPU lifecycle debate → hyperscalers run old GPUs profitably for years; others see emerging niches in refurbishment, recycling, and precious-metal recovery at hyperscale.  
 
----
+- The headline may mislocate obsolescence → buildings can be forward-compatible; danger arises if Blackwell racks or prices were fixed before delayed delivery.
+- Old accelerators retain commercial value → cloud providers still rent much older generations when lower prices offset weaker performance and efficiency.
+- Debt amplifies timing errors → cash-rich hyperscalers can absorb depreciation, while Oracle’s financing makes idle capacity and repricing more consequential.
 
 ### LLM perspective
-- View: Annual GPU cycles force data-center builders to design for rapid swap-out, not single-generation optimization.  
-- Impact: Capital-intensive laggards with rigid contracts, like Oracle, face asymmetric risk versus cash-rich, vertically integrated hyperscalers.  
-- Watch next: Contract terms (chip flexibility), capex guidance, and how many facilities are explicitly specced for Rubin/Feynman-class power densities.
+
+- **View:** This is an asset-liability timing problem, not proof that the physical sites themselves are obsolete.
+- **Impact:** Oracle investors, lenders, and tenants need contracts that allocate rapid hardware depreciation and delivery risk explicitly.
+- **Watch next:** Oracle earnings, Abilene power dates, OpenAI expansion plans, GPU purchase terms, and support for Rubin-density racks.

@@ -3,18 +3,17 @@
 - Score: 201 | [HN](https://news.ycombinator.com/item?id=47310073) | Link: https://europeancorrespondent.com/en/r/the-engine-of-germanys-wealth-is-blocking-its-future
 
 ### TL;DR
-Germany’s postwar prosperity was built on export-heavy carmaking, cheap energy, and a powerful automotive lobby. That lobby then helped trap the country in combustion-engine dependency just as China raced ahead in EVs and batteries. German manufacturers fought regulations and bought time instead of decisively pivoting, contributing to job cuts, offshoring and loss of competitiveness. HN commenters debate how much blame lies with lobbyists vs management, EU climate policy, Chinese industrial strategy, and Europe’s broader innovation malaise—while noting some German firms did invest seriously in EVs.
 
----
+The article argues Germany’s automotive lobby is defending combustion-era advantages while Chinese EV makers erode an industry responsible for 16 percent of exports and 800,000 jobs. It links revolving doors and €10 million in annual lobbying to weakened emissions rules, e-fuel carve-outs, import protection, delayed electrification, and 51,500 job cuts. HN discussion agrees incumbency and managerial short-termism matter but rejects a single-cause story: German firms spend billions on EV research, while high energy costs, bureaucracy, software outsourcing, battery supply chains, export dependence, and China’s industrial scale also shape the crisis.
 
 ### Comment pulse
-- Lobby-first strategy → Management prioritized ICE profits, dividends, and political influence over risky EV R&D amid innovators’ dilemma and conservative corporate culture—counterpoint: some firms built strong EV platforms.  
-- Misdiagnosis of crisis → Blaming EU “green rules” hides key driver: China first absorbed then displaced German brands, while domestic politics resisted structural change and clung to an obsolete model.  
-- Labor and policy instruments → Kurzarbeit smooths downturns and avoids layoffs, but can look like being paid to idle, obscuring deeper competitiveness and governance problems in large corporations.
 
----
+- Lobbying can preserve stranded expertise — counterpoint: its tiny share beside Volkswagen’s €21 billion R&D budget weakens claims that it replaced innovation.
+- EVs erase Germany’s combustion-engine moat → battery chemistry, electronics supply chains, and low-cost assembly favor China’s accumulated industrial ecosystem.
+- Kurzarbeit preserves skilled jobs during temporary demand shocks → critics worry reduced hours discourage adaptation; supporters note benefits cover only lost wages and expire.
 
 ### LLM perspective
-- View: Germany must pivot industrial policy from defending legacy exports to building full EV/battery supply chains and reducing single-market dependence.  
-- Impact: Automakers, suppliers, unions, and regional economies face painful restructuring; policy credibility on climate and competitiveness is at stake.  
-- Watch next: EU tariff regimes on Chinese EVs, German battery and chip fab build-out, and whether lobbying shifts toward supporting, not watering down, transition rules.
+
+- **View:** The strongest diagnosis is lock-in across policy, capital, suppliers, and culture—not lobbying alone.
+- **Impact:** Workers and suppliers bear transition losses unless Germany builds competitive batteries, software, and affordable EV production.
+- **Watch next:** EV export share, battery investment, emissions-policy reversals, supplier bankruptcies, retraining outcomes, and management payouts.

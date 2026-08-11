@@ -2,15 +2,18 @@
 
 - Score: 381 | [HN](https://news.ycombinator.com/item?id=47304831) | Link: https://old.reddit.com/r/KitchenConfidential/comments/1ro61g2/how_the_sriracha_guys_screwed_over_their_supplier/
 
-- TL;DR  
-  Longtime pepper supplier Underwood Ranches and Sriracha maker Huy Fong imploded after 25+ years together. Court records show Huy Fong tried to force below-cost pricing, withheld traditional prepayments, and pushed Underwood onto a new shell company, then abruptly walked away—Underwood won a large judgment. The breakup triggered shortages and a perceived drop in Sriracha quality, while Underwood launched its own rival sauce. HN commenters debate whether online promotion of Underwood is organic or astroturfed, and how to judge “villain” CEOs from the outside.
+### TL;DR
 
-- Comment pulse  
-  Astroturfing suspicion → Recycled Reddit posts praising Underwood and attacking Huy Fong look orchestrated; enemy-positioning marketing can ride a real underdog story.  
-  Ethics tracking → People want a public “CEO/investor blacklist,” but others note defamation risk, incompleteness, and the fact many firms ignore bad reputations.  
-  Narrative vs. record → Fortune’s both-sides profile clashes with appellate findings that paint Huy Fong’s tactics as predatory—counterpoint: every commercial story online is partial and biased.
+The supplied article was blocked, so the discussion reconstructs a dispute between Huy Fong Foods and longtime pepper grower Underwood Ranches. Commenters cite court findings that Huy Fong sought a below-cost pepper price, withheld crop prepayments, and pushed contracting through a new company after trying to hire Underwood’s COO; others stress that both parties described betrayal after a 25-year relationship. The larger debate concerned recurring Reddit retellings: some see effective Underwood marketing or astroturfing, while others see organic interest amplified by a real judgment, shortages, and changed sauce quality.
 
-- LLM perspective  
-  View: This is a case study in single-supplier dependence, lopsided bargaining power, and how contract disputes now double as brand narratives.  
-  Impact: Food brands, DTC startups, and investors will treat supply contracts and reputational fallout as tightly coupled strategic risks.  
-  Watch next: Independent quality tests comparing sauces; more detailed business reporting anchored in court records; possible copycat “origin story” marketing by other challengers.
+### Comment pulse
+
+- Repetition and product recommendations looked coordinated to skeptics — counterpoint: a famous shortage and flavor change can sustain genuine consumer interest.
+- Court records provide stronger evidence than heroic narratives, while later interviews reveal both sides’ incompatible accounts of betrayal.
+- Accusing unseen marketers without evidence is unfalsifiable; commercial stories naturally benefit someone and still may contain substantive facts.
+
+### LLM perspective
+
+- **View:** The reliable core is the adjudicated business dispute; social-media motive claims remain inference.
+- **Impact:** Underwood gains a marketable origin story, while Huy Fong carries reputational and supply consequences.
+- **Watch next:** Primary judgment details, disclosed marketing campaigns, product-quality comparisons, sourcing stability, and evidence of coordination.
