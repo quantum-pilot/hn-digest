@@ -3,18 +3,11 @@
 - Score: 342 | [HN](https://news.ycombinator.com/item?id=47283665) | Link: https://github.com/golang/go/issues/62026
 
 ### TL;DR
-Go is standardizing UUID support, adding a first‑party type and generators (notably v4 and v7) aligned with RFC 9562. The design treats UUIDs as opaque 16‑byte values with secure randomness, a `New` convenience constructor, parsing/string support, and comparison helpers, while avoiding version‑specific methods. Debate focuses on whether `New` should always be v4, how much parsing/format flexibility to expose given “opacity” guidance, and whether to add more advanced v7 features (monotonic counters, generators) without bloating the API.
 
----
+A three-year Go proposal to add a `crypto/uuid` package has entered final-comment status as “Likely Accept.” The planned API centers on a comparable 16-byte type, cryptographically secure version 4 and sortable version 7 generation, permissive parsing compatible with the dominant Google package, text unmarshalling, `MustParse`, comparison, and zero/max values. Supporters want one stable ecosystem-wide type for JSON, text, and database boundaries. Critics fear freezing unsettled choices into Go’s compatibility promise, especially a generic `New` alias whose future behavior could silently change application semantics.
 
 ### Comment pulse
-- Version choice is contextual → v4 still favored for random, privacy‑preserving IDs; v7 preferred when index locality/ordering matters—counterpoint: any standardized UUID can fail some app requirements.  
-- Stdlib UUID type matters most → shared type that implements JSON/Text/db interfaces will de‑duplicate google/uuid and unify ecosystem; similar desire expressed for a standard dec128.  
-- Go’s pace is praised → many like small, boring, compatible additions while UUID specs churn; others worry about locking Go into a premature, hard‑to‑change UUID policy.
 
----
-
-### LLM perspective
-- View: This mostly canonizes existing practice; the hard part is API minimalism vs future‑proofing around version semantics and parsing.  
-- Impact: Libraries, ORMs, and services converge on one UUID type, simplifying interoperability, migrations, and security audits.  
-- Watch next: Final placement (crypto/uuid vs crypto/rand helpers), v7 monotonicity/counter strategy, and guarantees around `New`’s behavior over Go releases.
+- Google’s package is a top ecosystem dependency, making standardization valuable even for projects that never generate identifiers.
+- Version 4 avoids time leakage and write correlation; version 7 improves locality — neither is universally newer or better.
+- A generator struct could aid testing and monotonic batches — counterpoint: injecting a `func() UUID` keeps the API smaller.

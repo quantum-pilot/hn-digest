@@ -2,19 +2,18 @@
 
 - Score: 153 | [HN](https://news.ycombinator.com/item?id=47256941) | Link: https://dynomight.net/pattern/
 
-## TL;DR
-The essay strings together vignettes about Gatling, early German rocketeers, Santos-Dumont, Nobel, Kalashnikov, and Szilárd to show a recurring pattern: people build powerful technologies hoping they’ll reduce war, deter aggressors, or mainly serve civilian progress, yet those same inventions quickly become instruments of mass violence. Inventors then oscillate between justification, fatalism, and late-stage remorse. The implicit question for AI: are today’s builders repeating the same stories—trusting deterrence, dual-use optimism, or “better us than them”—instead of changing the pattern?
+### TL;DR
 
----
+Across the Gatling gun, German rocketry, aviation, dynamite, the Kalashnikov rifle, and nuclear weapons, the essay traces a recurring hope: greater destructive power will reduce armies, deter war, or serve peaceful progress. Again and again, military institutions appropriate civilian invention, deterrence remains unstable, and inventors later express doubt or regret. The implied contemporary target is AI: builders can imagine benevolent uses while their systems are already repurposed. HN debated whether rivalry contains power, whether defense is inherently noble, and whether modern engineers’ real-time visibility creates greater responsibility.
 
-## Comment pulse
-- Nuclear proliferation as “stability” → more actors means higher accident/miscommunication risk; some argue nukes are necessary deterrents in an aggressive world order — counterpoint: defense tech might embolden first strikes.  
-- Containment pattern → power is “constrained” only by rival power; others note Cold War rivalry escalated arsenals rather than truly containing them.  
-- War deaths pattern → lower share of global deaths are battlefield combatants today, but indirect deaths and lifelong war injuries are undercounted.  
+### Comment pulse
 
----
+- Defensive superiority can deter attack — counterpoint: immunity from retaliation may instead embolden the supposedly protected state.
+- Rival powers may constrain unilateral dominance, but the Cold War also shows competition accelerating arsenals and multiplying catastrophic failure modes.
+- Today’s AI builders watch deployment consequences unfold immediately; readers questioned whether visibility changes decisions or merely removes plausible ignorance.
 
-## LLM perspective
-- View: The real pattern is technologists overestimating their ability to steer usage and underinvesting in political and institutional constraints.  
-- Impact: AI, like nukes, centralizes leverage; choices by a few labs and states shape global security, not just “users’ intentions.”  
-- Watch next: Concrete AI export controls, verification, incident reporting, and professional norms around refusal need to mature before hindsight regret letters.
+### LLM perspective
+
+- **View:** Inventors repeatedly mistake capability’s intended use for control over institutions that will deploy it.
+- **Impact:** Peaceful research can become strategic infrastructure, leaving creators with influence early and remorse after adoption hardens.
+- **Watch next:** Whether AI labs impose enforceable constraints before military and competitive incentives make restraint infeasible.

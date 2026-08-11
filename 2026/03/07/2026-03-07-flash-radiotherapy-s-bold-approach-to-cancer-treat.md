@@ -3,18 +3,17 @@
 - Score: 177 | [HN](https://news.ycombinator.com/item?id=47288533) | Link: https://spectrum.ieee.org/flash-radiotherapy
 
 ### TL;DR
-FLASH radiotherapy delivers an entire radiation dose in a millisecond-scale burst at ultra‑high dose rates, which in animals and early human cases appears to kill tumors while largely sparing nearby healthy tissue. The effect is robust but mechanistically mysterious, likely linked to differences in how normal and cancer cells handle reactive oxygen species or specific long‑lived proteins. CERN, PITZ, Stanford/SLAC, and startup Theryq are racing to build compact accelerators and clinical systems, though commenters stress caution given proton-therapy-style hype and the need for long‑term toxicity data.
 
----
+FLASH radiotherapy delivers an entire ultrahigh radiation dose in under a tenth of a second, repeatedly killing tumors in animal studies while causing substantially less normal-tissue injury than conventional fractionated treatment; a few human subjects have been treated, but the biological mechanism remains unknown. CERN, SLAC, PITZ, and Theryq are developing high-energy electron systems able to reach deep tumors, including a proposed 13.5-meter, 140-MeV machine. Major barriers are compactness, cost, precise dosimetry, fail-safe control, and long-term human evidence. HN showed cautious optimism, recalling proton therapy’s overpromises and Therac-25’s safety lessons.
 
 ### Comment pulse
-- Cancer-selective damage → Metabolism/ROS hypotheses, fasting-enhanced chemo, and FLASH all hint that exploiting metabolic differences may systematically widen the tumor–normal tissue gap.  
-- Proton déjà vu → Proton therapy’s mixed real-world benefit prompts skepticism; FLASH must prove durable normal‑tissue sparing and outcomes, not just clever physics.  
-- Safety culture & naming → Theryq’s name evokes Therac‑25 to many engineers, reinforcing how past software and safety failures still shape trust in radiotherapy tech.
 
----
+- Reactive-oxygen metabolism may explain selectivity, but understanding the mechanism matters for predicting delayed harm and unintended effects.
+- One millisecond leaves no time to abort; hardware interlocks, dose detectors, positioning verification, and human-factor testing become central.
+- Fewer visits could widen global access — counterpoint: expensive accelerator infrastructure may concentrate treatment in specialized centers.
 
 ### LLM perspective
-- View: Biggest questions now are mechanism and long-term safety; engineering issues are tough but more straightforward than the biology.  
-- Impact: If benefits hold, radiotherapy departments, low-resource regions, and frail patients gain shorter, less toxic treatment schedules.  
-- Watch next: Dose‑rate detectors, standardized FLASH protocols, phase II/III trials comparing late toxicities, and costed designs for hospital-scale electron accelerators.
+
+- **View:** FLASH’s promise is biological selectivity, not merely faster delivery or tighter beam focus.
+- **Impact:** Patients could receive stronger, shorter treatment; clinics gain throughput while engineers assume greater instantaneous-risk responsibility.
+- **Watch next:** Phase-two skin results, deep-tumor trials, late toxicity, detector validation, machine footprint, and independent proton comparisons.

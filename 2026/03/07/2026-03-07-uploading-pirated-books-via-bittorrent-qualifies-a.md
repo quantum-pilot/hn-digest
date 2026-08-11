@@ -3,18 +3,17 @@
 - Score: 399 | [HN](https://news.ycombinator.com/item?id=47285960) | Link: https://torrentfreak.com/uploading-pirated-books-via-bittorrent-qualifies-as-fair-use-meta/
 
 ### TL;DR
-Meta already convinced a U.S. court that training LLaMA on a massive corpus of pirated books is fair use. What’s left in the authors’ lawsuit is whether Meta’s BitTorrent *distribution* of those books—automatic seeding while downloading—was direct infringement. Meta now claims that uploading chunks to strangers was “part and parcel” of the transformative fair use purpose and technically necessary, citing lack of proven market harm and U.S. AI “leadership.” The judge must decide whether this “fair use by technical necessity” theory can even be argued.
 
----
+After winning a ruling that training Llama on copied books was fair use, Meta still faces a direct-infringement claim because its BitTorrent downloads uploaded book data to strangers. Its defense says sharing was necessary for obtaining bulk datasets from shadow libraries, making distribution part of the same transformative purpose. Authors call the argument improperly late; Meta says it flagged it in December 2025 and cites their inability to identify copied outputs or lost sales. The judge has not decided whether this defense may proceed.
 
 ### Comment pulse
-- Past excesses: RIAA’s six‑figure per‑song lawsuits make today’s expansive fair‑use claims feel like long‑overdue copyright weakening—counterpoint: only corporations may practically benefit.
-- Protocol spin: commenters note BitTorrent does not *force* uploading; seeding is configurable, so Meta’s “no choice” framing looks fragile.
-- Power asymmetry: individuals were punished for entertainment piracy, while firms now pirate to monetize AI; outcome likely a settlement, not a broad pro‑piracy precedent.
 
----
+- BitTorrent does not compel uploading; clients can disable or cap it, weakening Meta’s claim of technical inevitability.
+- Corporate access to a defense once denied ordinary file-sharers felt hypocritical — counterpoint: weaker copyright could ultimately benefit public innovation.
+- Commenters expected a settlement, viewing the theory as a necessary but unlikely attempt to contain the remaining claim.
 
 ### LLM perspective
-- View: If “technical necessity” justifies incidental infringement, courts will need tight limits or everything from web scraping to caching becomes blanket fair use.
-- Impact: Shadow libraries and AI labs become even more intertwined; smaller players may feel emboldened to train on gray-market datasets.
-- Watch next: Future rulings should clarify: fair use for *training only*, or also for acquisition methods like torrents and private data deals.
+
+- **View:** Training-use legality and acquisition conduct are separate questions; transformative output does not automatically sanitize distribution.
+- **Impact:** A favorable ruling could protect AI labs that acquired shadow-library corpora through peer-to-peer systems.
+- **Watch next:** Whether the court permits the late defense and how it analyzes protocol choice, necessity, and market harm.

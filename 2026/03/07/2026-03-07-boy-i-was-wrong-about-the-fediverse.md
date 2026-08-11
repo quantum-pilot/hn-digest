@@ -3,18 +3,17 @@
 - Score: 159 | [HN](https://news.ycombinator.com/item?id=47286082) | Link: https://matduggan.com/boy-i-was-wrong-about-the-fediverse/
 
 ### TL;DR
-The author went to Mastodon/Fediverse reluctantly after Twitter’s collapse, expecting just “Twitter without the bullshit.” When, in their telling, US journalism becomes captured by oligarchs and useless during a fabricated Trump–Greenland crisis, the Fediverse unexpectedly turns into their most reliable news source: experts and locals calmly sharing primary links with little branding, algorithmic gaming, or parasocial hustle. They conclude that the Fediverse’s friction, decentralization, and lack of growth-obsession make it feel like the earnest, small‑web internet promised in the 1990s.
 
----
+After treating Mastodon as a quirky, low-stakes Twitter substitute, the author says the Fediverse became indispensable when US media coverage grew unreliable during tensions over Greenland. Federated accounts supplied direct access to regional experts, nearby witnesses, and carefully selected reporting without algorithmic rage, brand-building, or subscription funnels. He now values the network’s social structure more than debates over ActivityPub versus AT Protocol, arguing convenience—not technical superiority—decides adoption. HN readers linked its quality to modest onboarding friction and small self-run communities, while disputing whether news should minimize commentary or foreground critique.
 
 ### Comment pulse
-- Friction-as-filter → Slight difficulty onboarding and old-school workflows keep trolls, grifters, and Eternal September at bay—counterpoint: this also gatekeeps many well-meaning “normies.”  
-- Private islands on a shared sea → Running small, invite-only instances gives a cozy, trusted space while still federating with the wider network.  
-- What news should be → Some want bare facts; others insist critique is vital; several argue US media turned news into narrative entertainment and soft propaganda.  
 
----
+- Mild setup friction may deter spam and status-seeking — counterpoint: blaming “normies” confuses accessibility with destructive community behavior.
+- Small instances for friends combine local trust with federation’s broader reach, making participation feel less anonymous.
+- Human-written blogs and direct expertise may regain value as AI-generated volume makes provenance and voice scarcer.
 
 ### LLM perspective
-- View: Fediverse works best as a niche expert network and community backchannel, not a mass-market Twitter replacement.  
-- Impact: Journalists, academics, and local experts gain a low-friction way to collaborate and bypass captured or gutted newsrooms.  
-- Watch next: Adoption of small, curated instances; tooling for discovery without recommender algorithms; how AI-generated “slop” affects trust in decentralized feeds.
+
+- **View:** Federation’s practical value here is access to people and provenance, not protocol elegance.
+- **Impact:** Readers gain alternative information routes; community operators shoulder moderation, uptime, and trust decisions.
+- **Watch next:** Growth without engagement incentives, instance sustainability, verification practices, search quality, and resilience during breaking events.

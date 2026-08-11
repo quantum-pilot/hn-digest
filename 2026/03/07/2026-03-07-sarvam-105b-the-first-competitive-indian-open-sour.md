@@ -4,20 +4,16 @@
 
 ### TL;DR
 
-Sarvam AI has open-sourced two Mixture-of-Experts LLMs, Sarvam 30B and 105B, trained entirely in India using government-backed compute and Apache-2.0 weights. Architecturally, they combine sparse MoE layers, long-context attention (GQA/MLA), and a highly optimized Indic tokenizer plus custom inference stack aimed at running from H100s down to laptops. Benchmarks show 105B competitive with 80–120B open models in math, coding, reasoning, and “agentic” tasks, while both models strongly dominate on Indian-language benchmarks, positioning them as sovereign, India-centric foundation models.
-
----
+Sarvam AI released Apache 2.0 weights for two India-trained reasoning models: a 30B mixture-of-experts system with 2.4B active parameters and a deeper 105B model using memory-efficient latent attention. The company says its in-house pipeline spans data curation, pretraining, alignment, reinforcement learning, kernels, and serving, with strong results across coding, reasoning, agentic, and 22-language Indic evaluations. Commenters welcomed sovereign model-building and cultural diversity, but one early user described confident hallucinations and absent tool calling, while critics questioned unpublished datasets and unsupported inference-speed claims.
 
 ### Comment pulse
 
-- Sovereign models matter → Local weights capture cultural/linguistic diversity and reduce dependence on US/China labs—counterpoint: turning this into nationalism risks *less* diversity, not more.  
-- Quality and infra skepticism → Early user tests see hallucinations and “2023-level” behavior; others doubt India has chips/infra to reach true frontier scale.  
-- Originality and transparency worries → People want proof it’s not just a Qwen clone, plus clearer details on data, optimization code, and the vague “Nvidia help” story.
-
----
+- Training entirely in India under the IndiaAI mission demonstrates full-stack ambition, though skeptics doubt local infrastructure can reach the frontier.
+- Native and romanized evaluation across 22 languages targets real usage — counterpoint: Gemini judging and company-built benchmarks need independent replication.
+- A distinct model lineage could broaden the research search space; national branding alone does not guarantee cultural diversity.
 
 ### LLM perspective
 
-- View: Technically, this is serious work: full-stack MoE, RL, Indic tokenizer, and strong benchmarks, not a thin fine-tune.  
-- Impact: Most immediate value is for Indian devs, enterprises, and government wanting local, license-friendly, high-Indic-coverage models.  
-- Watch next: Independent evals, open-source of key tooling/datasets, and a clearly articulated business/governance model will determine if this becomes India’s DeepSeek-equivalent.
+- **View:** Open weights matter most if independent tests confirm the company’s multilingual, agentic, and serving claims.
+- **Impact:** Indian developers gain locally governed foundations, efficient tokenization, and deployable models tailored to regional languages.
+- **Watch next:** Dataset disclosures, reproducible kernels, third-party benchmarks, and field performance from Indus and Samvaad.

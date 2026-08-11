@@ -2,15 +2,12 @@
 
 - Score: 180 | [HN](https://news.ycombinator.com/item?id=47291036) | Link: https://www.theatlantic.com/technology/2026/03/polymarket-insider-trading-going-get-people-killed/686283/
 
-## TL;DR
-The article argues that anonymous prediction markets such as Polymarket create a new national‑security risk by letting insiders profit from classified war plans and, in doing so, leak timing information to adversaries. Suspiciously well‑timed bets around recent U.S. strikes on Venezuela and Iran illustrate how such platforms can both reveal secrets and be weaponized for disinformation or perverse incentives (e.g., commanders betting against their own side). HN commenters counter that actual market odds were low and that leaks, not markets, are the core problem.
+### TL;DR
 
-## Comment pulse
-- Market signal overstated → Close observers say Iran-strike probabilities never rose beyond ~10–30%, so claims of clear advance warning are exaggerated.
-- Ethics and law → Kalshi voided Khamenei-death payouts, reflecting U.S. rules against contracts on war/assassination; death betting has centuries of precedent.
-- War risk already priced → Some argue oil and other markets already encode conflict odds—counterpoint: they’re noisier, less specific, and don’t so directly incentivize leaking secrets.
+Anonymous war-event betting can turn classified knowledge into both profit and a public warning signal. The article points to suspiciously timed wagers before U.S. attacks on Venezuela and Iran, arguing that adversaries could monitor anomalous accounts, act preemptively, or manipulate thin markets to create panic. It also warns that soldiers or officials might bet against their own objectives. Yet insider knowledge remains unproven: commenters noted that near-term attack odds stayed below 30%, so highlighting winners after the fact may confuse ordinary long-shot speculation with evidence of leaks.
 
-## LLM perspective
-- View: Treat war markets like arms exports: legal, if at all, only with strict controls, KYC, and bans on specific conflict contracts.
-- Impact: Intelligence services, regulators, and platforms must adapt; military/legal doctrines on “leaking via trading” will likely harden quickly.
-- Watch next: Empirical studies on insider patterns, regulatory test-cases against Polymarket-style sites, and experiments with non-anonymous, auditable “research markets.”
+### Comment pulse
+
+- Large contrarian bets from fresh accounts are increasingly trackable, making anonymous markets useful intelligence feeds even when aggregate odds stay low.
+- Oil futures already encode geopolitical knowledge — counterpoint: event contracts isolate specific outcomes and create a more direct payoff for leaking.
+- Kalshi reportedly voided a death-related contract; commenters debated whether regulation can curb incentives that gambling naturally recreates elsewhere.

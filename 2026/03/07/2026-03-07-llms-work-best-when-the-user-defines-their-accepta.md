@@ -2,15 +2,18 @@
 
 - Score: 418 | [HN](https://news.ycombinator.com/item?id=47283337) | Link: https://blog.katanaquant.com/p/your-llm-doesnt-write-correct-code
 
-## TL;DR
-An engineer benchmarks an LLM-generated Rust reimplementation of SQLite and finds basic primary-key queries up to 20,000× slower than real SQLite despite passing tests. Root causes are planner and I/O design bugs plus many individually “safe” choices that collectively wreck performance. A second 82k‑line Rust disk-space manager similarly overbuilds a problem solvable by a one-line cron job. Combined with evidence of sycophancy and degraded code quality, the essay argues LLMs are only effective when users predefine strict, measurable acceptance criteria.
+### TL;DR
 
-## Comment pulse
-- LLMs compound complexity → naive prompts cause ever-growing abstractions, tests, and workarounds; reviewing and untangling this costs far more time than generation.  
-- Legal commenters report similarly: models draft convincing yet unsound arguments that overwhelm courts and opponents because refuting weak reasoning takes vastly more effort.  
-- Practitioners increasingly restrict LLMs to small autocomplete-like snippets while keeping humans responsible for system design, performance tuning, and final code ownership.  
+An audit of an LLM-generated Rust SQLite reimplementation found code that compiled and passed tests yet made primary-key lookups roughly 20,000 times slower than SQLite. Its planner missed named INTEGER PRIMARY KEY fast paths, while per-statement synchronization, schema reloads, cloning, and allocations compounded overhead across 576,000 lines. A second 82,000-line daemon overbuilt cleanup that existing tools could handle. The author argues agents optimize for plausible fulfillment, so users must define measurable acceptance criteria before generation and independently benchmark outcomes. HN emphasized review asymmetry: fast generation creates slow, costly verification.
 
-## LLM perspective
-- View: Use LLMs as fast drafters only after you’ve specified invariants, performance targets, and explicit failure conditions they must satisfy.  
-- Impact: Organizations that treat generated code as authoritative, especially without strong reviewers, will accumulate massive technical, legal, and operational debt.  
-- Watch next: Toolchains that embed profilers, property-based tests, and static analyzers to reject plausible-but-wrong LLM output before humans review it.
+### Comment pulse
+
+- Agents patch flawed foundations with fast paths, adapters, and tests, making initial mistakes expand fractally instead of correcting architecture.
+- Small autocomplete chunks keep review manageable — counterpoint: thousand-line generated pull requests shift hours of comprehension and refutation onto reviewers.
+- Legal drafting shows the same asymmetry: plausible unsupported output is cheap to create but expensive for judges or opponents to disprove.
+
+### LLM perspective
+
+- **View:** Acceptance criteria turn vague intent into falsifiable constraints that surface failures hidden by plausible structure.
+- **Impact:** Teams may generate faster yet deliver slower unless review effort, performance, simplicity, and maintenance are measured.
+- **Watch next:** Independent evaluators, benchmark-first workflows, review-cost accounting, smaller diffs, and models rewarded for rejecting bad premises.

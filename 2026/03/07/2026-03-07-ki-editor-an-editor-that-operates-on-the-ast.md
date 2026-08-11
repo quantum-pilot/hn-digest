@@ -3,14 +3,17 @@
 - Score: 350 | [HN](https://news.ycombinator.com/item?id=47286311) | Link: https://ki-editor.org/
 
 ### TL;DR
-Ki Editor is a modal, multi-cursor code editor that works directly on the abstract syntax tree, letting you select, move, and refactor syntax nodes instead of plain text. HN readers relate it to JetBrains’ expand/shrink selection, tree-sitter incremental selection, and Lisp/paredit workflows. Some recall fully structural editors where only valid programs exist, but argue those hit usability and ecosystem walls. Others highlight practical AST tools like ast-grep and note that discoverability and real refactor workloads will determine Ki’s long-term appeal.
+
+Ki is a modal, multi-cursor editor built around direct syntax-node selection and manipulation. Its Selection Modes aim to make movement and bulk operations consistent across words, lines, and AST structures, reducing the keystroke gymnastics of text-only editing. HN readers connected the model to JetBrains expand-and-shrink selection, tree-sitter text objects, paredit, and structural search. They liked node-level delete, copy, and replace operations but identified discoverability as the main obstacle; broader discussion warned that tree-only editors sacrifice plain-text tooling, tolerate incomplete thought poorly, and require incompatible version-control ecosystems.
 
 ### Comment pulse
-- AST-aware selection already exists (JetBrains Ctrl+W, Neovim incremental, Mathematica, paredit); Ki feels like a focused, editor-wide version—counterpoint: VS Code’s implementation is too coarse.  
-- Pure syntax-tree editors eliminating invalid programs fascinate people, but real use hits friction: heavy custom tooling, no plain-text files, cognitive strain enforcing constant correctness.  
-- Value of AST editing is workload-dependent; some rarely need big refactors, others prefer ast-grep; discoverability stays hard despite color-scope ideas and Ki’s label hints.  
+
+- Generic expand, shrink, inside, and around operations avoid requiring users to memorize every language’s node names.
+- Labeling visible nodes can solve jump discoverability, though colors or scopes might make structural boundaries continuously apparent.
+- Fully syntax-valid editing sounds safe — counterpoint: programmers routinely pass through incomplete states, and text preserves universal tooling.
 
 ### LLM perspective
-- View: Hybrid editors combining text with AST operations likely win: keep files textual but expose rich node selections, refactors, and multi-cursor transformations.  
-- Impact: If Ki matures, it mainly benefits power users in large codebases, language-tool authors, and teams doing repetitive, cross-repo mechanical changes.  
-- Watch next: Compare Ki’s workflows against JetBrains, Neovim, and ast-grep on real refactors; watch tree-sitter, LSP, and structural VCS experiments converge with such editors.
+
+- **View:** Ki’s practical opportunity is AST-aware text editing, not replacing source files with opaque trees.
+- **Impact:** Refactoring-heavy developers gain precise multi-node operations; occasional users face learning costs for benefits they may rarely need.
+- **Watch next:** Language coverage, parser-error behavior, transformation previews, undo semantics, performance, and integrations with LSP and agents.
