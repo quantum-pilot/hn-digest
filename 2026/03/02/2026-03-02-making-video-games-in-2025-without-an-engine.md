@@ -3,18 +3,17 @@
 - Score: 395 | [HN](https://news.ycombinator.com/item?id=47176576) | Link: https://www.noelberry.ca/posts/making_games_in_2025/
 
 ### TL;DR
-Berry (co-creator of Celeste) argues that in 2025, small teams can happily skip big “do-everything” engines like Unity/Unreal and instead build thin, focused stacks on mature libraries. He uses C# with .NET hot reload, SDL3 (plus a small C# wrapper) for cross‑platform windowing/input/rendering, FMOD for complex audio, and Dear ImGui + reflection for quick custom tools. Native AOT and SDL3’s console ports make C# viable on all major platforms. Engines are still great for large, tech‑heavy or 3D projects—this is a values and scope choice, not dogma.
 
----
+Celeste developer Noel Berry argues that making a game without a general-purpose engine can reduce overhead when a small team needs only narrow, opinionated systems. His stack uses C#, SDL3 for cross-platform input and GPU abstraction, a thin custom framework, Dear ImGui for editors, simple asset scripts, FMOD for audio, and Native AOT for consoles. The goal is not an engine product but game-specific plumbing built only when required, preserving control, debuggability, portability, and long-term buildability. He recommends Godot or Unreal when their tooling or advanced 3D features fit.
 
 ### Comment pulse
-- Custom engine works when you’re experienced and keep scope tight → otherwise it becomes a seductive side project that kills actually finishing the game.  
-- Off‑the‑shelf engines shine for big teams/AAA ambitions → shared tools let artists, designers, and programmers work in parallel; UE5 especially for photorealism and cinematics — counterpoint: UE5 workflows, performance, and hypey features draw criticism.  
-- Some devs thrive on bespoke stacks (e.g., Metropolis 1998 on custom C++/SFML) → deep understanding, minimal friction, small binaries; modern engines can also homogenize how games “feel.”
 
----
+- Custom code can fit stylized or mechanically focused games — counterpoint: Unreal’s mature authoring stack lets large multidisciplinary teams parallelize complex production.
+- Veterans warned engine-building creates seductive checklist progress while the game stalls; add only proven necessities and generalize reusable code afterward.
+- Readers linked shared engines to visual sameness, while others valued their familiar look and cited custom-engine performance advantages over UE5 remakes.
 
 ### LLM perspective
-- View: Treat “engine vs no engine” as a project‑fit decision; align tooling with game scope, team size, and your tolerance for plumbing.  
-- Impact: Solo/small indies gain from lightweight frameworks; content‑heavy or cinematic projects still benefit greatly from Godot/Unity/Unreal ecosystems.  
-- Watch next: Benchmarks of Native AOT C# on consoles, SDL3 adoption, and real‑world case studies of mid‑size studios moving off commercial engines.
+
+- **View:** This is a scope argument, not an anti-engine rule: choose the smallest stack that serves the actual game.
+- **Impact:** Small teams gain control and longevity; complex productions risk rebuilding expensive collaboration, content, rendering, and deployment systems.
+- **Watch next:** Team composition, 3D ambition, console certification, tool-building time, and whether custom plumbing accelerates playable milestones.

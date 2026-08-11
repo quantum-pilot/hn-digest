@@ -2,19 +2,18 @@
 
 - Score: 181 | [HN](https://news.ycombinator.com/item?id=47212576) | Link: https://github.com/kossisoroyce/timber
 
-## TL;DR
-Timber is an ahead-of-time compiler for classical tree-based ML models (XGBoost, LightGBM, scikit-learn, CatBoost, ONNX TreeEnsemble). It converts trained models into tiny, dependency-free C99 binaries and exposes them via an Ollama-style HTTP API (`timber load` / `timber serve`). Benchmarks claim ~2 µs in-process latency and ~336× speedup over Python XGBoost for single-sample inference, targeting fraud/risk, edge/embedded, and regulated environments where predictable, auditable, non-Python inference artifacts matter.
+### TL;DR
 
----
+Timber compiles trained XGBoost, LightGBM, scikit-learn, CatBoost, and ONNX tree models into native C99, removing Python from inference and optionally serving predictions through a local HTTP API. Its 336-times claim compares warmed, in-process single-row calls for a 50-tree XGBoost classifier on an M2 Pro: roughly 2 microseconds versus Python XGBoost, excluding network serialization. The project targets low-latency, edge, and regulated deployments, with explicit format limitations. Commenters welcomed attention to classical ML but questioned the Ollama analogy, REST overhead, interchangeability, and whether shared libraries fit performance-sensitive callers better.
 
-## Comment pulse
-- Classical ML still dominates real-world systems → People like seeing infra that treats tree models as first-class, including LLM+features → small classifier stacks.
-- “Ollama” analogy disputed → Some see it closer to vLLM; others say the similarity is just the simple `serve` REST API — counterpoint: classical models aren’t swappable like LLMs.
-- Architecture questions → Some want shared libraries for zero-copy integration; others accept HTTP as “fast enough” for simplicity, language-agnostic use, and no Python dependency.
+### Comment pulse
 
----
+- Classical models still dominate many production decisions and can classify features extracted by LLMs with tunable boundaries.
+- The Ollama comparison mainly describes simple loading and a common serving API; commenters thought vLLM was a closer performance analogy.
+- Separate-process serving improves portability — counterpoint: serialization and copies may erase gains where callers can load a native library directly.
 
-## LLM perspective
-- View: Strong niche: high-throughput, low-latency tree models where Python/ONNX overhead and operational determinism are pain points.
-- Impact: MLOps/platform and fintech/IoT teams can standardize on compiled classical models instead of ad‑hoc Python services.
-- Watch next: Benchmarks vs ONNX Runtime/Treelite, shared-library or FFI targets, and richer preprocessing pipelines (possibly ONNX-fused).
+### LLM perspective
+
+- **View:** The benchmark demonstrates eliminated Python call overhead, not a universal 336-fold application-speed improvement.
+- **Impact:** Edge and regulated teams gain small deterministic artifacts without shipping Python and framework dependencies.
+- **Watch next:** End-to-end HTTP latency, batch tests, numerical parity, broader ONNX coverage, ARM targets, and independent runtime comparisons.

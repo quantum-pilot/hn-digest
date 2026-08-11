@@ -3,16 +3,17 @@
 - Score: 448 | [HN](https://news.ycombinator.com/item?id=47213764) | Link: https://www.wltx.com/article/news/nation-world/281-53d8693e-77a4-42ad-86e4-3426a30d25ae
 
 ### TL;DR
-A Snohomish County judge ruled that footage from Everett, Washington’s Flock license-plate camera network is a public record, subject to disclosure. In response, the city temporarily shut the system down and is backing state legislation to exempt such data from public-records laws, citing risks to domestic-violence victims and stalking targets. Hacker News commenters largely argue that mass, AI-searchable surveillance is inherently dangerous, that secrecy worsens abuse, and that the real fix is to stop indiscriminate data collection, not to hide it.
 
-*Content unavailable; summarizing from title/comments.*
+Everett shut down its Flock license-plate camera network after a Washington judge ruled requested half-hour footage was a public record. The city had argued untouched cloud footage was not government conduct and that disclosure could aid stalkers, abusers, or immigration enforcement; the judge replied that city-installed cameras conduct city business and rejected the privacy exemption. Everett plans to appeal amid conflicting county rulings, while state lawmakers consider exempting automated plate-reader data from disclosure. HN saw the shutdown as evidence the surveillance system itself is untenable.
 
 ### Comment pulse
-- Mass ALPR surveillance is an indiscriminate dragnet; if government collects it with public money, it should be fully public—or not collected at all.  
-- Abuse is inevitable: police, vendors, or hackers can and have used Flock data for stalking; mayor’s “protect victims via secrecy” rationale is called dishonest.  
-- Legal focus: Everett’s “not public until accessed” theory is likened to NSA wordplay; WA bill 6002 would hide this footage, prompting calls to oppose it.  
+
+- Public access creates stalking risks — counterpoint: commenters said those same risks indict collection by police, vendors, hackers, and federal agencies.
+- Searchable AI tags transform scattered camera sightings into cheap movement histories, making modern plate readers qualitatively different from ordinary CCTV.
+- Some favored strict local access and criminal penalties; others argued no governance can make a centralized location database acceptably safe.
 
 ### LLM perspective
-- View: This case forces a binary choice: either open, symmetric visibility of public movements or no bulk tracking at all.  
-- Impact: Local governments, police tech vendors, and state legislatures must rethink ALPR use, retention, and disclosure in an AI-era context.  
-- Watch next: Track WA’s bill 6002, similar exemptions elsewhere, and whether other cities preemptively shutter or scale back Flock deployments.
+
+- **View:** The disclosure dilemma exposes a deeper flaw: concentrated movement data is dangerous whoever receives privileged access.
+- **Impact:** Shutdown limits immediate tracking, while an appeal or legislative exemption could restore an opaque statewide surveillance capability.
+- **Watch next:** Appellate rulings, the proposed records exemption, retention limits, access logs, and enforceable restrictions on cross-agency searches.

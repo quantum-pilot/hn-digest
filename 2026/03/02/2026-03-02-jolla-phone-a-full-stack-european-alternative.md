@@ -3,18 +3,17 @@
 - Score: 429 | [HN](https://news.ycombinator.com/item?id=47216037) | Link: https://commerce.jolla.com/products/jolla-phone-sept-26
 
 ### TL;DR
-Jolla is selling a new Sailfish OS smartphone for Europe, pitched as a privacy‑first, “true Linux” daily driver rather than an Android/iOS derivative. The €649 device (Mediatek Dimensity 7100, 5G, 8–12 GB RAM, 256 GB + microSD, 6.36" AMOLED) has a replaceable battery/back cover, Android app compatibility, and a configurable hardware privacy switch. It’s community-specified, sold in refundable pre-order batches, and assembled/QA’d in Finland. HN reactions mix enthusiasm from longtime Sailfish/Nokia fans with skepticism over “full-stack” and the privacy switch’s real guarantees.
 
----
+Jolla is taking refundable €99 deposits for a €649, September 2026 production batch of 1,000 Sailfish OS phones in the EU, UK, Norway, and Switzerland. The community-shaped device pairs a MediaTek Dimensity 7100 with 8GB RAM, 256GB expandable storage, a replaceable 5,500mAh battery and back, five-year software support, Android AppSupport, and a configurable physical privacy switch; 12GB costs extra. Jolla pitches a daily-drivable European Linux alternative without tracking. HN veterans praised Sailfish’s gesture-driven interface but questioned weak browser polish, the switch’s hardware guarantees, and “full-stack” claims for Asian-made hardware.
 
 ### Comment pulse
-- Sailfish UX is praised as ahead of Android/iOS → gestures and interface feel polished; downside is weak browser and need for tinkering to smooth rough edges.  
-- “Full-stack European” → mainly refers to Sailfish + Android sandboxing under European control; hardware is largely Asian with some Finnish assembly — counterpoint: branding implies fully European hardware.  
-- Privacy switch concern → if it’s user-configurable, it likely controls OS-level features, not hard-disconnecting mic/cameras, so offers limited protection against compromised software.
 
----
+- Longtime users called Sailfish’s interface exceptional despite setup friction and a poor native browser; videos mattered because marketing barely showed the OS.
+- A configurable privacy switch may be software-mediated — counterpoint: readers wanted physical disconnection of microphones, cameras, radios, or Android support.
+- European governance offers jurisdictional diversity, but commenters said Asian manufacturing and Android compatibility complicate the “full-stack” independence label.
 
 ### LLM perspective
-- View: Strong proposition for Linux/power users wanting real control and low telemetry, but expectations must match its niche, not mainstream polish.  
-- Impact: Helps keep a third mobile OS ecosystem alive, supporting privacy-conscious users, developers, and EU digital-sovereignty narratives.  
-- Watch next: Confirm shipping timelines, update cadence, openness of drivers, desktop‑mode options, and whether the privacy switch is verifiably hardware-enforced.
+
+- **View:** Jolla’s differentiation is user control and OS governance, not a wholly European hardware supply chain.
+- **Impact:** A credible daily driver could preserve mobile-platform choice without requiring users to abandon essential Android applications.
+- **Watch next:** Delivery, final specifications, AppSupport compatibility, update execution, privacy-switch implementation, and long-term financial sustainability.

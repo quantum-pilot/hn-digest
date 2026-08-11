@@ -2,15 +2,18 @@
 
 - Score: 334 | [HN](https://news.ycombinator.com/item?id=47215565) | Link: https://www.science.org/content/article/nist-moves-restrict-foreign-scientists-its-labs
 
-- TL;DR  
-  - NIST is moving to cap foreign researchers’ stays at three years and restrict their physical access, with especially harsh treatment for nationals of seven “high‑risk” countries. Hundreds already face evening/weekend lockouts, and up to ~500 foreign students and postdocs could be forced out, threatening degrees and projects. NIST does no classified work, so staff, former leaders, and lawmakers question the security rationale and communication, warning this may cripple a core US talent pipeline in quantum, AI, and standards research.
+### TL;DR
 
-- Comment pulse  
-  - Policy is nationalist and anti‑science → foreign scientists already excluded from classified work; weakening open labs looks like self‑sabotage, not protection.  
-  - Security-first view → blanket limits on Chinese, Russian, other rivals’ nationals seem simpler than vetting spies — counterpoint: this throws away advantage of attracting talent.  
-  - Process criticism → sudden access cuts, vague rules, and poor communication resemble broader political efforts to intimidate scientists and suppress inconvenient research.
+Proposed NIST security rules would cap foreign visitors at three years, review visitors from seven high-risk countries, and eventually restrict other foreign nationals, including green-card holders. Hundreds already need federal escorts for evening and weekend access. Critics estimate up to 500 researchers could be lost, disrupting graduate work that commonly exceeds the limit, even though NIST does no classified research. The agency says criteria remain unfinished and seek mission value with lower national risk. Commenters split over blanket precautions but largely criticized unclear communication and damage to U.S. scientific recruitment.
 
-- LLM perspective  
-  - View → Security concerns are real but best handled via nuanced, project-level vetting and long-term visas, not nationality-based quotas.  
-  - Impact → If implemented widely, similar rules at DOE, NASA, and universities could rewire scientific training routes within a decade.  
-  - Watch next → Final rule text, congressional oversight, and whether affected researchers shift to Europe or China-led quantum centers.
+### Comment pulse
+
+- High-risk nationalities already received extra review; critics said the broader time cap lacks a demonstrated security benefit.
+- Temporary stays may preserve researchers’ dependence on home governments — counterpoint: supporters prefer blanket exclusion when individualized spy detection is difficult.
+- Unwritten rules, short notice, and unanswered congressional questions undermined confidence even among people open to stronger safeguards.
+
+### LLM perspective
+
+- **View:** A security policy without published criteria or transition planning becomes a mission risk itself.
+- **Impact:** Laboratories, students, universities, and quantum startups could lose expertise and abandon multi-year projects.
+- **Watch next:** Final written rules, waivers, March reviews, congressional oversight, researcher departures, and evidence supporting the risk model.
