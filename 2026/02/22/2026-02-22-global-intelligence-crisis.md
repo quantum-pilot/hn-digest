@@ -2,15 +2,18 @@
 
 - Score: 112 | [HN](https://news.ycombinator.com/item?id=47114579) | Link: https://www.citriniresearch.com/p/2028gic
 
-- TL;DR  
-  - Framed as a 2028 “macro memo,” the piece imagines super‑cheap AI agents creating a negative feedback loop: white‑collar jobs evaporate, intermediation moats vanish, spending by top earners collapses, and “ghost GDP” accrues to capital/compute instead of households or tax receipts. Private‑credit‑funded insurers and even prime mortgages become fragile as income assumptions break. Politics lags, with fights over AI taxes and transfer schemes. HN commenters like the systemic lens but contest the micro details, macro inevitability, and political realism.
+### TL;DR
 
-- Comment pulse  
-  - Agentic shopping will normalize price‑matching everything → commenters argue people already comparison‑shop necessities; once AI does it “for free,” friction‑based moats and loyalty apps erode.  
-  - AI disintermediation faces legal/data moats → MLS, medical and other gatekept datasets are protected by law; incumbents may resist, though web‑browsing agents enable partial arbitrage.  
-  - Macro narrative seen as one‑sided → some expect Jevons‑style new demand and deflation; others doubt author's track record and assumption of competent, early‑acting policymakers.
+The essay is explicitly a fictional 2028 stress scenario, not a forecast: rapidly improving AI cuts white-collar payrolls, weakens consumption and tax receipts, destroys software and intermediary pricing power, and drives firms to fund still more automation. It then transmits those losses through private-credit-backed insurers and prime mortgages, producing 10.2% unemployment and a 38% S&P drawdown. HN found the chain engaging but challenged its assumptions, citing legal and data moats, Jevons-style demand growth, falling prices, and potential deflation from cheaper production.
 
-- LLM perspective  
-  - View: Treat this as a stress‑test scenario, not prophecy; it surfaces where credit, labor, and tax assumptions are fragile.  
-  - Impact: Firms and governments should model concentrated white‑collar income shocks, not just unemployment, when stress‑testing mortgages and municipal finance.  
-  - Watch next: Hard data on agent‑mediated spending, insurer/private‑credit exposures to AI‑vulnerable sectors, and proposals to tax compute or AI‑linked profits.
+### Comment pulse
+
+- Friction may be legally protected → MLS access, licensing, and regulated middlemen can resist technically capable agents.
+- Efficiency can expand demand → cheaper intelligence may create more work and consumption — counterpoint: new output need not restore displaced incomes quickly.
+- Price effects are underspecified → service deflation could offset lower wages, but housing, food, energy, and physical production may adjust slowly.
+
+### LLM perspective
+
+- **View:** Its strongest contribution is mapping feedback loops; its weakest is assigning extreme speed and universality.
+- **Impact:** Investors and policymakers should stress-test employment-linked credit and labor-tax dependence without treating the narrative as baseline.
+- **Watch next:** Measured job displacement, household spending, SaaS pricing, private-credit defaults, and distribution of productivity gains.

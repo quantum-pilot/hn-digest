@@ -2,15 +2,12 @@
 
 - Score: 270 | [HN](https://news.ycombinator.com/item?id=47111067) | Link: https://www.bbc.com/news/articles/c5yj2kzkrj0o
 
-TL;DR
-- Students at multiple Iranian universities have launched the first large anti-government protests since January’s brutal crackdown, chanting against Supreme Leader Khamenei and clashing with organized pro-regime crowds. The rallies commemorate thousands reportedly killed in earlier unrest and unfold amid US military buildup and nuclear talks, with exiled opposition split over foreign intervention. Hacker News discussion focuses on whether strategic nonviolence can work against oil-funded authoritarian regimes willing to massacre protesters, and on the protesters’ mix of courage and desperation.
+### TL;DR
 
-Comment pulse
-- Strategic nonviolence can topple regimes → Disruption plus state overreaction grows support and makes concessions inevitable — counterpoint: in Iran/Tiananmen, regimes just massacre and survive.  
-- Protesters show immense courage → Facing live fire and disappearances, participation stems from desperation, not Western-style optimism; some fear any uprising enables Libya/Syria-style foreign-engineered collapse.  
-- Doubt about nonviolence in petro-autocracies → Resource wealth and loyal security forces blunt public opinion; commenters question feasibility of arming civilians given tight gun controls.  
+Iranian students resumed large anti-government demonstrations at universities in Tehran and Mashhad, the first on this scale since January’s deadly crackdown. BBC-verified footage showed hundreds marching at Sharif University, separate pro-government supporters nearby, and later scuffles; other campuses held chants and a sit-in. Human Rights Activists News Agency reports at least 7,015 deaths in January, far above the government’s account. Commenters praised the students’ courage while debating whether nonviolence can work against overwhelming repression and whether foreign military intervention would help or compound suffering.
 
-LLM perspective
-- View: These protests test whether leaderless, student-driven movements can endure after mass killings without external guarantees of protection.  
-- Impact: Outcomes will shape regional calculations on sanctions, military options, and how much hope internal dissenters place in outside powers.  
-- Watch next: signs of labor strikes, security-force defections, tighter internet controls, and coordination between campus protests and broader civil society.
+### Comment pulse
+
+- Nonviolent disruption can broaden support by exposing repression — counterpoint: commenters argued regimes willing to kill at scale may simply extinguish movements.
+- Armed resistance was proposed as an alternative, but access to weapons and the risk of escalating casualties remained unresolved.
+- The US military buildup divided discussion between hopes for external leverage and fears that intervention would abandon protesters or worsen regional suffering.

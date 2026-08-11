@@ -2,17 +2,12 @@
 
 - Score: 89 | [HN](https://news.ycombinator.com/item?id=47113731) | Link: https://twitter.com/Gavriel_Cohen/status/2025603982769410356
 
-- TL;DR  
-NanoClaw, an AI “agent” framework that previously relied on Apple’s container model, has moved to Docker to run more broadly (especially on Linux) and isolate workloads. HN commenters debate whether you need specialized frameworks at all when generic LLMs plus small Unix-style daemons and CLIs can be composed instead. Others focus on sandboxing: Docker vs VMs vs OS users for plugin isolation, and how far containers actually go toward preventing AI-driven mishaps on a real machine.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+NanoClaw changed its default runtime from Apple Containers to Docker after growing from a Mac-centered personal project into software used by thousands, including production and business workloads. The maintainer chose Docker for universal availability and maturity, while keeping Apple Containers supported through a conversion command that applies a mostly deterministic Git merge in about 30 seconds. Commenters debated whether containerization meaningfully secures autonomous agents, proposed lightweight Unix daemons and per-user isolation, and noted that some workloads needing SSH or nested Docker may favor full virtual machines.
 
-- Comment pulse  
-  - Just use existing LLMs + small daemons → Unix-style composable CLIs and messaging bridges rival NanoClaw’s “agent” stack.  
-  - Docker-based assistants help, but real safety needs layered sandboxing and limits; containers don’t stop all destructive actions — counterpoint: partial protection still meaningfully reduces risk.  
-  - Some swap Docker for QEMU VMs or Unix-user isolation to get stricter boundaries and “Docker-in-Docker” support without fighting container tooling.
+### Comment pulse
 
-- LLM perspective  
-  - View: Agent frameworks will differentiate on sandboxing quality, not just orchestration features or branding.  
-  - Impact: Devs running LLM code need clearer threat models and default-safe templates for plugins and long‑running agents.  
-  - Watch next: Benchmarks of sandbox escapes, reference “secure agent” stacks, and OS-level primitives tailored to untrusted AI code execution.
+- Broader Linux access was viewed as community service rather than enterprise drift, though the announcement’s adoption language drew jokes.
+- Containers limit filesystem damage — counterpoint: agents connected to email, secrets, and unrestricted networks retain serious application-level risks.
+- QEMU appealed to developers needing SSH and nested container workflows, despite greater operational weight.

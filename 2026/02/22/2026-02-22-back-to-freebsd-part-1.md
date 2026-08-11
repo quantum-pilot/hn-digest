@@ -2,15 +2,18 @@
 
 - Score: 197 | [HN](https://news.ycombinator.com/item?id=47108989) | Link: https://hypha.pub/back-to-freebsd-part-1
 
-- TL;DR
-    - The article recounts how deployment evolved from manual FTP to VMs and then containers, highlighting that FreeBSD jails delivered lightweight, kernel‑level isolation (filesystem, process, network) in 2000—years before Linux namespaces and Docker. FreeBSD’s strength is a coherent, single OS design and elegant jails, but it lacks a native “shipping” story like OCI images and registries. HN discussion centers on why Linux still dominates: better drivers, SMP evolution, and Docker’s ecosystem and UX, despite FreeBSD’s cleaner feel.
+### TL;DR
 
-- Comment pulse
-    - Linux won mindshare through broader hardware support, earlier SMP scaling, and familiarity; many say FreeBSD felt redundant, though fans praise its cohesive, predictable base system.
-    - HN sees Docker’s victory driven by UX: Dockerfiles, registry, compose, Desktop; jails lack images and standardized tooling, making onboarding and multi-host deployment harder.
-    - Linux isolation primitives power many tools beyond containers (flatpak, systemd slices); critics call the stack overengineered—counterpoint: flexibility was an intentional, generally successful design choice.
+The article traces server isolation from chroot and virtual machines to FreeBSD jails, introduced in 2000, arguing that jails delivered lightweight process, filesystem, and network boundaries years before LXC or Docker. It praises FreeBSD’s coherent base system and criticizes Linux’s layered container stack, while conceding that jails lack Docker’s portable image and distribution story. HN largely rejected a simple technical-superiority narrative: Linux won through broader hardware support, investment, flexible primitives, registries, reproducibility, and dramatically easier onboarding, not isolation alone.
 
-- LLM perspective
-    - View: For small to medium deployments, FreeBSD jails plus ZFS and config management can out-simplify full Docker/Kubernetes stacks.
-    - Impact: Best suited to operators who control their OS choice—ISPs, storage appliances, homelabs—less so SaaS teams standardized on Linux tooling.
-    - Watch next: Jails tooling that speaks OCI, image-like distribution for FreeBSD, plus studies comparing cost versus container-heavy Linux stacks.
+### Comment pulse
+
+- Jails solve isolation elegantly → OCI tooling solves shipping, updates, reproducibility, and multi-host operations with a stronger developer experience.
+- Linux’s complexity follows its success → generalized cgroups, namespaces, and seccomp serve uses beyond containers — counterpoint: cohesion remains FreeBSD’s appeal.
+- Historical adoption hinged on hardware → Linux accommodated commodity PCs while BSD users often faced missing drivers and expensive workarounds.
+
+### LLM perspective
+
+- **View:** Jails and OCI containers optimize different layers; declaring one winner obscures deployment requirements.
+- **Impact:** Small FreeBSD deployments may gain simplicity, while heterogeneous fleets still benefit from standardized images.
+- **Watch next:** FreeBSD OCI support, jail image tooling, and reproducible deployment benchmarks.

@@ -2,15 +2,12 @@
 
 - Score: 194 | [HN](https://news.ycombinator.com/item?id=47110473) | Link: https://planetscale.com/blog/database-transactions
 
-- TL;DR  
-  - The article explains SQL transactions as atomic units of work, then contrasts how Postgres (MVCC row-versioning) and MySQL (undo log) provide consistent reads. It walks through four isolation levels and how they relate to anomalies like phantom, non-repeatable, and dirty reads, plus how each database handles concurrent writes (MySQL row locks vs Postgres predicate locks/SSI). HN discussion focuses on better teaching via serializability/thread-safety, practical defaults (read committed/repeatable read), and the real-world tradeoffs of strict isolation.
+### TL;DR
 
-- Comment pulse  
-  - Start from serializability/thread safety → developers already reason about interleavings; weaker isolation is a deliberate relaxation. — counterpoint: serializable often unnecessary, hurts throughput.  
-  - Most major RDBMSs default to read committed or repeatable read, not serializable; strict isolation brings retries, deadlocks, and sometimes large performance penalties.  
-  - Clarifying phantom reads: repeatable read keeps previously seen row values stable, but may show additional rows in later SELECTs, not changed/deleted ones.
+A database transaction groups reads and writes into one atomic unit that either commits or rolls back, while isolation controls how concurrent work becomes visible. The article contrasts PostgreSQL’s row-versioning with MySQL’s undo log, then explains serializable, repeatable-read, read-committed, and read-uncommitted modes through phantom, non-repeatable, and dirty reads. At serializable isolation, MySQL uses blocking row locks, whereas PostgreSQL detects conflicts through serializable snapshot isolation and aborts transactions. Commenters wanted serializability introduced first, clearer default-level distinctions, and stronger emphasis on application retry logic.
 
-- LLM perspective  
-  - View: Teach isolation by mapping to concurrency bugs developers already know, then layer SQL anomalies on top as diagnostics.  
-  - Impact: Backend engineers, SaaS tool designers, and DBaaS vendors must consciously pick defaults and document their anomaly guarantees.  
-  - Watch next: Robust client libraries with built‑in retry for serializable, plus benchmarks quantifying isolation-level costs on modern Postgres/MySQL.
+### Comment pulse
+
+- One camp favors teaching strict serializability as the goal, treating weaker isolation as explicit relaxations rather than a catalog of anomalies.
+- Serializable execution improves guarantees — counterpoint: coordination costs, aborts, and mandatory retries often make weaker levels more practical.
+- Readers corrected that modern MySQL and MariaDB InnoDB default to repeatable read, while PostgreSQL defaults to read committed.

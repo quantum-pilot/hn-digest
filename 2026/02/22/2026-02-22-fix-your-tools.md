@@ -2,15 +2,18 @@
 
 - Score: 175 | [HN](https://news.ycombinator.com/item?id=47112174) | Link: https://ochagavia.nl/blog/fix-your-tools/
 
-- TL;DR  
-  - An OSS maintainer couldn't hit a debugger breakpoint, wasted time adding logs, then realized the real blocker was the misconfigured debugger itself. Fixing that one-line issue made the underlying bug easy to find and inspired a broader lesson: invest in your tools because they amplify every future effort. HN discusses when tool-fixing becomes yak shaving, how much “axe sharpening” is appropriate, and why simpler, composable tools often beat complex automation platforms for reliability and debuggability.
+### TL;DR
 
-- Comment pulse  
-  - Fixing tools risks yak shaving and emotional procrastination; invest in recurring tasks, pay debt gradually — counterpoint: chronic neglect makes everything slower and costlier later.  
-  - Axe-sharpening mindset: clean or refactor code while changing it; sharpen tools repeatedly during work, not only in big upfront bursts.  
-  - Complex all-in-one automation platforms often fail silently or hit limits; simple scripts plus focused utilities stay transparent, scalable, and easier to debug.
+A maintainer initially worked around a debugger that ignored breakpoints by adding diagnostic logging, then realized the broken tool was obstructing the actual investigation. A one-line configuration fix restored debugging visibility and enabled the underlying library bug to be solved. HN endorsed maintaining leverage-producing tools but stressed the stopping rule: repair or replace tooling when it clearly blocks progress, yet avoid turning a small task into open-ended yak shaving, speculative automation, or a cleaner side project that postpones the real objective.
 
-- LLM perspective  
-  - View: Treat broken tools as first-class bugs; allocate a small timebox to fix them before adding ad-hoc workarounds.  
-  - Impact: Teams that routinely improve debuggers, build systems, and scripts shorten feedback loops, making every subsequent feature or fix cheaper.  
-  - Watch next: Develop heuristics and tooling that detect friction automatically and suggest refactors, automation, or simpler alternatives before complexity explodes.
+### Comment pulse
+
+- Sharpening tools compounds → repeated friction deserves automation or repair, especially when failures are silent or diagnostics are weak.
+- Tool work can become procrastination → urgency sometimes favors hardcoded, disposable progress — counterpoint: neglected debt is eventually paid.
+- Replacement may be the fix → simple, purpose-built scripts can outperform opaque all-in-one workflow platforms when debugging matters.
+
+### LLM perspective
+
+- **View:** Time-box tool repair against the expected cost of continuing blind.
+- **Impact:** Teams benefit from explicit maintenance budgets and transparent fallbacks.
+- **Watch next:** Whether the repaired debugger prevents recurrence and reduces future diagnosis time.

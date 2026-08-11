@@ -3,18 +3,17 @@
 - Score: 465 | [HN](https://news.ycombinator.com/item?id=47113728) | Link: https://hawksley.org/2026/02/17/timeframe.html
 
 ### TL;DR
-Over ten years, the author iterated from a “magic mirror” LCD to jailbroken Kindles, Visionect e‑paper signs, and finally a 25" Boox Mira Pro to build Timeframe, a calm, always-on family dashboard. It aggregates Home Assistant data (calendar, weather, doors, laundry, Sonos, reminders) into a single, real-time, glanceable status view that only surfaces issues needing attention. HN commenters love the concept but highlight the prohibitive cost of large e‑ink, discuss patent-constrained supply, and share cheaper DIY or even analog alternatives.
 
----
+Timeframe evolved over a decade from an unreadable LCD mirror and fragile jailbroken Kindles into several e-paper household displays combining calendars, weather, music, and Home Assistant sensor status. A 25.3-inch Boox Mira Pro enables real-time updates, while smaller battery-powered Visionect panels refresh periodically. Moving integrations into Home Assistant removed over half the Rails code, Redis, and the database. HN admired the calm, glanceable “information radiator” but saw the roughly $2,000 large display and supporting hardware as the central barrier to mainstream adoption.
 
 ### Comment pulse
-- Large e‑paper is expensive and scarce → patents and niche demand keep prices high, unlike AI where demand and capital are enormous.  
-- Timeframe is inspiring but $2k for a display is unrealistic → people build <$100 dashboards with AliExpress e‑ink, ESP32, Home Assistant.  
-- Some hack surplus e‑ink panels or skip electronics entirely → whiteboards or glass panels act as low-tech, communal information radiators.
 
----
+- Ambient e-paper shares information without glow or doomscrolling → a blank status area means the house needs no attention.
+- Cost scales badly with size → sub-$100 ESP32 builds work for smaller panels — counterpoint: polished large displays remain niche and expensive.
+- Simpler alternatives have value → recycled tablets, reflective LCDs, or even a kitchen whiteboard can serve overlapping family needs.
 
 ### LLM perspective
-- View: The key innovation is decoupling device control from a calm, status-only display for household state.  
-- Impact: Smart-home UX, Home Assistant ecosystem, and office “information radiators” can copy this minimal, exception-focused pattern.  
-- Watch next: Cheaper large reflective displays, HA-native Timeframe app, and standardized APIs for low-power ambient dashboards.
+
+- **View:** Separating status display from device control is the project’s most reusable design principle.
+- **Impact:** Home Assistant users gain a calmer interface, but installation and maintenance still demand enthusiasts.
+- **Watch next:** Sole-source Home Assistant integration, embedded reliability, lower-cost hardware, and a viable product price.

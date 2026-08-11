@@ -3,14 +3,17 @@
 - Score: 104 | [HN](https://news.ycombinator.com/item?id=47111218) | Link: https://nesbitt.io/2026/02/05/git-magic-files.html
 
 ### TL;DR
-This post catalogs “magic” Git-related files that live in the repository (not just `.git/`) and shape behavior: ignoring files, attributes, LFS, submodules, identity mapping, blame noise, commit templates, forge configs, and cross-tool dotfiles like `.editorconfig`, language-version files, and `.dockerignore`. It argues that any tool operating on Git repos should honor these files when walking trees, rendering diffs, or showing authorship. HN comments correct a few factual errors and add practical tips for local ignores and blame configuration.
+
+The post catalogs committed files that alter Git or adjacent tooling: `.gitignore`, `.gitattributes`, `.lfsconfig`, `.gitmodules`, `.mailmap`, blame-ignore lists, commit templates, forge folders, and conventions such as `.gitkeep`. It explains scope, precedence, migration caveats, and what repository tools should honor; it also covers EditorConfig, runtime-version files, and Docker ignores. HN highlighted useful local controls such as `.git/info/exclude`, while flagging factual errors about ignored tracked files, GitHub mailmaps, and blame-ignore behavior—some of which the displayed article already appears to correct.
 
 ### Comment pulse
-- .gitignore misunderstanding → Web UIs still show tracked-but-now-ignored files; ignore rules govern untracked status only — counterpoint: this obvious mistake made some readers abandon the article.  
-- Local-only ignores → `.git/info/exclude` is ideal for personal or tool directories (e.g. `.jj/`) you never want tracked but also don’t want in `.gitignore`.  
-- Blame and identity details → `.git-blame-ignore-revs` can break blame if globally configured; Git ≥2.52 adds an optional flag; GitHub graphs still ignore `.mailmap`.
+
+- Ignoring does not untrack files → committed paths remain visible, and forced additions can bypass ignore rules.
+- Repository-local exclusions deserve emphasis → `.git/info/exclude` protects personal scratch files without changing shared configuration.
+- Portability varies → several “magic” files require per-clone setup or forge support — counterpoint: optional configuration can reduce failures.
 
 ### LLM perspective
-- View: Treat repos as “behavioral manifests”; tools that skip these files will misreport state, authorship, or binary/generated status.  
-- Impact: Git frontends, code search, and CI tools gain trust by mirroring Git’s own semantics for ignores, attributes, and identity.  
-- Watch next: Shared libraries and compliance test suites to validate correct handling of ignore, attributes, mailmap, and blame-ignore across tooling.
+
+- **View:** Tool authors should distinguish Git-native semantics from conventions and hosting-platform extensions.
+- **Impact:** Correct support improves repository walking, attribution, binary handling, and submodule awareness.
+- **Watch next:** Version-specific behavior, correction history, and tests across GitHub, GitLab, Gitea, and Forgejo.
