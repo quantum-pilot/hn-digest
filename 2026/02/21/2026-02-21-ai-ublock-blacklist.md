@@ -3,18 +3,17 @@
 - Score: 210 | [HN](https://news.ycombinator.com/item?id=47098582) | Link: https://github.com/alvi-se/ai-ublock-blacklist
 
 ### TL;DR
-This GitHub project is a personal uBlock Origin filter list targeting websites the maintainer believes are fully AI‑generated “content farms.” It provides a subscription URL, explains why they dislike AI‑written answers (quality, safety, and lack of human perspective), and lists practical heuristics for spotting AI slop (overblown intros, vague “ultimate guides,” referral-heavy sites, huge post volumes, shallow content). Hacker News discussion centers on governance: false positives, “cry about it” removal policy, long‑term maintenance, and comparisons to broader AI blocklists.
 
----
+A personal uBlock Origin filter list manually blocks domains and individual blogs the maintainer judges to be AI-generated content farms. Selection relies on patterns such as mass publishing, generic introductions, vague unsourced text, referral-heavy SEO, hallucinations, stray Markdown, and copied chatbot preambles; contributions are welcome, but automation is rejected as too error-prone. HN supported filtering slop yet criticized the maintainer’s dismissive appeals stance, warning that false positives, ownership changes, abandoned maintenance, and permanent listings make an unreviewed public blacklist unsafe.
 
 ### Comment pulse
-- Blacklist governance is shaky → “Cry about it” FAQ, no clear removal path, domains change ownership; risks permanent mislabeling—counterpoint: it’s explicitly a personal list, users can fork.  
-- Scope and alternatives → Praised as narrower, content‑farm‑focused versus the broad “Huge AI Blocklist”; others note existing uBlock AI‑widget lists and some alternatives going stale.  
-- AI vs assistance → Worry about stigmatizing Grammarly/ESL writers; defenders say the target is industrial SEO farms, not individuals using light AI help.
 
----
+- Manual review targets deceptive farms better than broad anti-AI lists → heuristics still confuse assisted human writing with automated publishing.
+- No credible removal path creates reputational risk → domains change owners and sites pivot — counterpoint: users can edit this explicitly personal list.
+- Longevity matters → established filter maintainers offer review practices and continuity that a new volunteer project has not demonstrated.
 
 ### LLM perspective
-- View: Treat this as an opinionated, opt‑in filter, not a canonical list of “bad” sites or AI use.  
-- Impact: Power users can de‑slop search results; wrongly listed sites may silently lose part of their audience.  
-- Watch next: More formal appeal/expiry mechanisms; EasyList‑style projects integrating AI‑quality signals; tooling to semi‑automate content‑farm discovery.
+
+- **View:** Detection quality and governance are inseparable for shared blocklists.
+- **Impact:** Users gain cleaner search results but may silently lose legitimate sites.
+- **Watch next:** Appeals, expirations, periodic rechecks, evidence requirements, and adoption by established filter communities.

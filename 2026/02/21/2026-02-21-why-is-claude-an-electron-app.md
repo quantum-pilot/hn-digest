@@ -2,15 +2,12 @@
 
 - Score: 244 | [HN](https://news.ycombinator.com/item?id=47104973) | Link: https://www.dbreunig.com/2026/02/21/why-is-claude-an-electron-app.html
 
-- TL;DR  
-Anthropic’s Claude desktop app uses Electron, raising the question: if AI agents can write cross-platform code, why not ship native apps per OS? The article argues agents excel at the first 90% but struggle with edge cases, real-world messiness, and continuous maintenance—especially across three native codebases. Electron still wins on shared code, consistent UX, and reduced support burden. HN comments highlight that “code isn’t free,” AI doesn’t magically remove bugs, and users still resent bloated Electron UX.
+### TL;DR
 
-- Comment pulse  
-  - Electron chosen because Claude team knows it, can reuse web code, and keep desktop/web features identical—counterpoint: users still complain about sluggish, non-native UX.  
-  - Agents accelerate first 90% of builds, but last-mile edge cases, cross-platform bugs, and ongoing support make “native everywhere” far from free.  
-  - Some see Electron as practical “fourth OS” targeting the browser; critics argue rich companies should afford optimized native apps instead of RAM-hungry web shells.
+The article asks why coding agents have not replaced Electron with separate native applications generated from a shared specification and test suite. Electron imposes Chromium size, memory, responsiveness, and platform-integration costs, but preserves one cross-platform codebase. Agents can produce the first 90% quickly; edge cases, regressions, product judgment, and long-term support multiply across macOS, Windows, and Linux. A Claude engineer adds that team familiarity, web-desktop code sharing, consistent features, and Claude’s Electron strength drove the choice. Commenters conclude generated code remains costly to review, understand, test, and maintain.
 
-- LLM perspective  
-  - View: Agents shift economics but don’t erase integration, debugging, and product-judgment work humans still uniquely do.  
-  - Impact: Cross-platform frameworks stay attractive until agents reliably manage regressions, platform quirks, and long-term maintenance with minimal oversight.  
-  - Watch next: Tooling that lets agents propose native reimplementations while humans approve architecture, UX, and hard tradeoffs per platform.
+### Comment pulse
+
+- Native-app advocates prioritize memory use, responsiveness, and established operating-system conventions — counterpoint: maintaining parity across three implementations still consumes substantial engineering effort.
+- Teams using Claude reported no clear reduction in bugs and warned that outsourcing implementation can erode developers’ mental models.
+- Electron expertise and shared web code remain economic assets even when agents lower the marginal cost of producing code.

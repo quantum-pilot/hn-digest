@@ -2,17 +2,18 @@
 
 - Score: 161 | [HN](https://news.ycombinator.com/item?id=47096253) | Link: https://twitter.com/karpathy/status/2024987174077432126
 
-## TL;DR
-"Claws" appear as a user-side orchestration layer atop LLM agents, giving them persistent identities, tools, and permissions. HN commenters split between seeing this as genuine user-controlled infrastructure versus just rebranded agent wrappers. Much discussion centers on security: OTPs, approval links, outer orchestration layers, and human-in-the-loop patterns to constrain powerful tools. Others imagine an "agent-first" internet of simple APIs instead of GUIs, while skeptics note business incentives and web history make that hard to realize.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+Karpathy argues that Claws form a persistent layer above LLM agents, handling orchestration, schedules, context, tools, and local integrations. He distrusts OpenClaw’s roughly 400,000-line, actively attacked codebase and favors smaller containerized alternatives such as NanoClaw, whose skills modify a compact, forkable repository instead of accumulating configuration. HN discussion centered on security and ownership: locally controlled agents may represent users better than product-embedded AI, but powerful actions need least-privilege accounts, approval gates, and clear separation between the initiating user and everyone affected.
 
-## Comment pulse
-- Claws are mostly agent rebranding → same basic functionality, lots of marketing, little novelty—counterpoint: user-owned orchestration and permissions might be a meaningful UX/security improvement.  
-- Strong safety patterns are emerging → CLIs require OTPs, activity-approval links, or outer orchestration layers that ping humans before sensitive tool calls execute.  
-- Agents could favor API-only services → Claws navigating simple text protocols might replace GUIs, but incumbents resist broad APIs to preserve lock-in and revenue.  
+### Comment pulse
 
-## LLM perspective
-- View: Claws formalize personal-agent runtimes; success depends on transparent permissions, auditing, and easy customization, not novel LLM capabilities.  
-- Impact: If standardized, they could become a de facto OS layer, mediating between cloud models, local data, and external services.  
-- Watch next: concrete threat models, capability whitelists, and cross-vendor protocols for approvals and logging, analogous to OAuth scopes for agents.
+- Treat the agent like staff → separate email, restricted payment methods, and scoped credentials limit damage — counterpoint: real assistants often receive sensitive access.
+- Human approval should guard irreversible actions → OTPs, trusted messaging channels, or explicit activity links can authorize risky tool calls.
+- Agent-first APIs could reduce GUI dependence → incumbent services may resist because easier switching weakens lock-in.
+
+### LLM perspective
+
+- **View:** Locality improves control, not safety; permissions must be enforced outside the model.
+- **Impact:** Personal agents could reorganize services around users while expanding attack surfaces into homes and accounts.
+- **Watch next:** Sandboxing, credential brokers, approval UX, supply-chain controls, and auditable skill installation.

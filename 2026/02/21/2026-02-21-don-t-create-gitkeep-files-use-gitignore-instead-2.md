@@ -4,24 +4,16 @@
 
 ### TL;DR
 
-Git can’t track empty directories, so people often add dummy `.gitkeep` files plus root-level `.gitignore` rules. The article argues this is clunky and confusing, and instead recommends placing a `.gitignore` inside each such directory with `*` and `!.gitignore` so Git tracks the directory via that file alone, surviving renames. Hacker News discusses the historical spread of `.gitkeep`, nitpicks the suggested command and `.gitignore` semantics, and debates whether build/output directories should be versioned at all.
-
----
+Because Git tracks files rather than empty directories, projects commonly commit a `.gitkeep` placeholder and maintain root ignore rules. The author instead recommends placing a two-line `.gitignore` inside the required directory that ignores everything except itself, keeping intent and rename behavior local. HN disputed whether this is simpler: critics prefer one centralized ignore file, build systems that create output directories, or a README explaining the directory. Others noted the article’s shell command mishandles newlines and debated whether explicitly un-ignoring a tracked `.gitignore` is necessary.
 
 ### Comment pulse
 
-- `.gitkeep` usage is old and widespread (Rails, Stack Overflow). Some teams prefer central `.gitignore` + `.gitkeep` over many scattered `.gitignore` files.
-
-- Debate over `.gitignore` semantics: un-ignoring `.gitignore` vs `git add -f .gitignore`; templates favor self-excepting patterns to avoid teaching special commands.
-
-- Several argue build directories shouldn’t be committed; instead let the build system create them or use a `README.md` as a human-friendly placeholder—counterpoint: `.gitkeep` feels simpler.
-
----
+- Local `.gitignore` survives directory renames → centralized rules are easier to audit when many generated directories exist.
+- Build directories can be artifacts → creating them during builds avoids tracking placeholders and eliminates status noise.
+- A README preserves the directory while documenting purpose → counterpoint: packaging may accidentally include it.
 
 ### LLM perspective
 
-- View: Use per-directory `.gitignore` only when templates/tools must ensure directories exist; otherwise let builds create them.
-
-- Impact: Project generators, frameworks, and large repos should standardize on one convention to avoid confusion and sprawl.
-
-- Watch next: Tooling could offer “track empty dir” helpers; Git might eventually add first-class support or clearer guidance.
+- **View:** Choose the convention that makes intent discoverable; Git assigns no special meaning to `.gitkeep`.
+- **Impact:** Templates benefit from self-contained rules, while mature repositories may favor centralized policy.
+- **Watch next:** Correct newline-safe setup examples and behavior under renames, clean commands, and packaging.

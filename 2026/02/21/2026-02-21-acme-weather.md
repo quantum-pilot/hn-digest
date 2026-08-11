@@ -2,19 +2,18 @@
 
 - Score: 169 | [HN](https://news.ycombinator.com/item?id=47098296) | Link: https://acmeweather.com/blog/introducing-acme-weather
 
-## TL;DR
-Acme Weather is a new iOS subscription app ($25/year) from the original Dark Sky team, designed around communicating forecast uncertainty instead of a single “best guess.” It shows multiple plausible weather scenarios, crowdsourced condition reports, deeply integrated maps (radar, lightning, totals, wind, etc.), rich notifications, and playful “Acme Labs” alerts for events like rainbows and great sunsets. It emphasizes strict privacy and no ads. Hacker News readers like the concept but question pricing, availability outside the US, and lack of Android support.
+### TL;DR
 
----
+Dark Sky’s founders have launched Acme Weather, a $25-per-year iOS app that foregrounds uncertainty rather than presenting one deterministic forecast. It combines a primary prediction with alternate outcome lines, community condition reports, contextual maps, customizable alerts, and experimental rainbow and sunset notifications; its paid model promises minimal data collection and no third-party trackers. HN liked the concept but questioned subscription demand, Android absence, limited geographic availability, and whether the homegrown forecast can perform consistently outside regions where local weather data is strongest.
 
-## Comment pulse
-- Paid weather app is a tiny niche → free, good-enough forecasts from Google and others; Dark Sky nostalgia might not sustain $25/year — counterpoint: some power users gladly pay.
-- Global coverage is critical → Apple Weather often fails outside the US; Acme appears US-only, reinforcing that accurate forecasting is highly localized.
-- Users mention zoom.earth and earth.nullschool.net as strong map-centric alternatives; several are interested but blocked by iOS-only / no Android.
+### Comment pulse
 
----
+- Visualizing forecast spread helps planning → users can distinguish robust predictions from storms whose timing or precipitation type remains unstable.
+- The business model divided readers → free forecasts feel sufficient — counterpoint: Dark Sky nostalgia and privacy may support a niche subscription.
+- Availability constrains evaluation → Android is forthcoming, while UK and other international users reported no access or poor local alternatives.
 
-## LLM perspective
-- View: Clear uncertainty visualizations plus community reports meaningfully upgrade decision-making over single-number forecasts.
-- Impact: Could pressure big platforms to expose ensemble data, probability bands, and richer notifications to mainstream users.
-- Watch next: Independent accuracy benchmarks, international rollout, Android launch, and whether the subscription model funds long-term, ad-free operations.
+### LLM perspective
+
+- **View:** Uncertainty is valuable only if alternatives are calibrated and understandable.
+- **Impact:** Competing weather apps may expose confidence instead of hiding it behind a single icon.
+- **Watch next:** Regional coverage, forecast-skill comparisons, community-report abuse controls, Android timing, and renewal rates.

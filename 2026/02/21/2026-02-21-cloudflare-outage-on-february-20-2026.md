@@ -2,15 +2,18 @@
 
 - Score: 140 | [HN](https://news.ycombinator.com/item?id=47103649) | Link: https://blog.cloudflare.com/cloudflare-outage-february-20-2026/
 
-## TL;DR
-Cloudflare suffered a six‑hour partial outage on Feb 20, 2026 when a buggy cleanup task in its Addressing API unintentionally withdrew ~1,100 customer BYOIP BGP prefixes. About 25% of BYOIP ranges disappeared from the Internet, breaking affected CDN, Magic Transit, Spectrum, and dedicated egress traffic; the 1.1.1.1 website errored but DNS resolution stayed up. Recovery required reverting code, dashboard re‑ads, and manual rebinding. HN discussion centers on safer API semantics, inadequate testing, and eroding confidence in Cloudflare’s reliability.
+### TL;DR
 
-## Comment pulse
-- API filters without values should not mean “all” → commenters advocate empty results or explicit errors, plus pagination, to avoid accidental mass deletions.  
-- Staging and integration testing seem weak → critics say real BYOIP data would catch this — counterpoint: others argue exhaustive end‑to‑end coverage is combinatorially impossible.  
-- Frequent incidents erode Cloudflare’s “reliability” brand → customers consider multi‑vendor strategies; some question the postmortem’s clarity and even joke it reads like LLM output.  
+Cloudflare’s February 20 outage began when a cleanup task requested `pending_delete` without a value; the server treated that as no filter, returned every BYOIP prefix, and the task began deleting them and their service bindings. About 1,100 of 4,306 BYOIP prefixes were withdrawn, with full recovery taking 6 hours 7 minutes; the public 1.1.1.1 website failed, but DNS resolution did not. HN blamed unsafe API semantics, missing integration coverage, unrepresentative staging data, and absent circuit breakers for large withdrawal operations.
 
-## LLM perspective
-- View: This was a classic foot‑gun API plus rollout problem; stronger contracts and guardrails around destructive operations are overdue.  
-- Impact: Multi‑homed or regulated customers will accelerate diversification away from single‑CDN/BGP providers and demand clearer SLOs for control‑plane reliability.  
-- Watch next: Concrete “Fail Small” wins—canary config snapshots, circuit‑breakers on bulk BGP changes, plus published metrics for rollback speed.
+### Comment pulse
+
+- Missing destructive filters should fail closed → a clear client error is safer than returning everything or silently returning nothing.
+- One representative prefix should have exposed the bug → counterpoint: complete enterprise-state testing faces combinatorial cost and blind spots.
+- Recovery exposed coupled state → withdrawn routes were easier to restore than prefixes whose service bindings had also been deleted.
+
+### LLM perspective
+
+- **View:** The query bug was trivial; allowing its result to mutate global routing was the systemic failure.
+- **Impact:** BYOIP customers need independent recovery paths and safer configuration propagation.
+- **Watch next:** Typed schemas, operational snapshots, staged rollouts, withdrawal-rate circuit breakers, and fewer repeat incidents.

@@ -2,18 +2,18 @@
 
 - Score: 127 | [HN](https://news.ycombinator.com/item?id=47104185) | Link: https://www.eduke32.com/
 
-## TL;DR
+### TL;DR
 
-EDuke32 is an open‑source, feature‑rich source port of Duke Nukem 3D that runs natively on modern platforms (Windows, Linux, macOS, BSD, handhelds). It adds high‑res support, advanced OpenGL renderers (including the Polymer engine with per‑pixel dynamic lighting and shadows), robust scripting, a console, and modern controls, while remaining non‑commercial GPL/BUILD licensed. It also powers the commercial retro shooter Ion Fury. Hacker News discussion focuses on nostalgia, modding culture, inventive weapons, and convenient macOS packaging via Mac Source Ports.
+EDuke32 is a free, actively maintained source port and game engine for Duke Nukem 3D across Windows, Linux, macOS, FreeBSD, and handheld platforms. It adds modern controls, high resolutions, multiple renderers, dynamic lighting, bug fixes, scripting extensions, a console, richer audio, mod support, and the included VoidSW Shadow Warrior port; its technology also powers Ion Fury. HN discussion was mostly nostalgic, recalling Build’s interactive levels, editable CON scripts, custom maps, LAN deathmatches, and the early community that sustained the project for more than twenty years.
 
-## Comment pulse
+### Comment pulse
 
-- Duke 3D felt uniquely interactive compared to Doom/Quake: usable environment objects, real‑time security cameras, intuitive urban levels—counterpoint: still seen as less “respectable” than those peers.  
-- Build engine modding (CON files, custom maps) plus wild weapons made LAN deathmatches legendary: pipe bombs, trip mines, shrink and freeze guns, hologram traps.  
-- Community nostalgia extends to EDuke32’s 2000s website aesthetic and modern ports, especially Mac Source Ports packaging signed, Apple‑Silicon‑ready builds.
+- Duke3D felt unusually interactive → cameras, doors, props, and urban spaces made exploration memorable beyond combat.
+- Build encouraged accessible modding → editable scripts and map tools kept players creating long after release.
+- Modern ports preserve playability → signed Apple Silicon builds and data-extraction guidance lower friction for current hardware.
 
-## LLM perspective
+### LLM perspective
 
-- View: Mature source ports like EDuke32 effectively turn classic shooters into living platforms for experimentation, modding, and preservation.  
-- Impact: Retro FPS fans, educators, and indie devs gain a proven 2.5D engine with modern tooling and a long‑lived community.  
-- Watch next: Cleaner data‑file acquisition flows, clearer commercial‑use guidance, and renderer updates to keep pace with current GPUs and OS changes.
+- **View:** The enduring asset is the creator ecosystem, not merely compatibility.
+- **Impact:** Players retain access while modders gain a maintained engine for new projects.
+- **Watch next:** Platform packaging, renderer stability, licensing boundaries, and continued community maintenance.

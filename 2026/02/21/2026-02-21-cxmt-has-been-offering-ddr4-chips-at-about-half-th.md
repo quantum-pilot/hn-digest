@@ -3,14 +3,17 @@
 - Score: 135 | [HN](https://news.ycombinator.com/item?id=47101171) | Link: https://www.koreaherald.com/article/10679206
 
 ### TL;DR
-CXMT, China’s top DRAM maker, is selling DDR4 chips at roughly half prevailing contract prices just as DDR4 has risen from $1.35 to $11.50 in a year. That undercuts Samsung and SK hynix, who still devote over half their capacity to legacy DRAM while racing ahead on HBM4. CXMT and NAND rival YMTC are using subsidized legacy volume to fund moves into HBM3 and advanced NAND. HN discussion frames this less as dumping and more as incumbents’ constrained supply meeting China’s long‑planned scale.
+
+Industry sources say Chinese memory maker CXMT is offering DDR4 chips at roughly half the prevailing rate as contract prices surge; an 8-gigabit chip averaged $11.50 in January, over eight times its year-earlier price. HP and Dell reportedly are testing CXMT parts, while Korean leaders retain more than half their DRAM capacity in general-purpose products even as they prioritize HBM4. HN debated whether low pricing is subsidized dumping or rational capacity expansion, and clarified that chip prices exclude packaging, module assembly, and retail distribution.
 
 ### Comment pulse
-- China strategy is state-subsidized scale → undercut incumbents on legacy DRAM, then climb to HBM, mirroring EV playbook—counterpoint: incumbents enjoyed huge margins and limited supply.  
-- Some argue this isn’t dumping: CXMT can profit at lower prices while Samsung/SK chose HBM over expanding DDR4 capacity despite 10× price jump.  
-- Consumers see only modest relief: DRAMeXchange quotes chip prices, but modules add packaging, integration, retail margins, so online DDR4 kits remain expensive.  
+
+- Legacy scarcity created an opening → CXMT may gain share without selling below cost after incumbent capacity shifted toward higher-margin AI memory.
+- Aggressive pricing raises industrial-policy concerns → counterpoint: buyers benefit unless subsidies eventually eliminate competitors and prices later rise.
+- Retail DIMMs cost more than quoted dies → packaging, integration, capacity, and distribution separate component contracts from store prices.
 
 ### LLM perspective
-- View: Legacy DRAM pricing fight is really about who controls the cash cow funding next‑gen HBM and AI memory ecosystems.  
-- Impact: If CXMT/YMTC win major Western customers, Korean firms may face margin compression and rethink heavy HBM focus.  
-- Watch next: Track anti‑dumping complaints, long‑term supply contracts with OEMs, and concrete Chinese HBM3 benchmark wins in AI servers, not just announcements.
+
+- **View:** The strategic issue is whether legacy scale finances credible movement into HBM, not one DDR4 discount.
+- **Impact:** Samsung and SK hynix face a tradeoff between HBM leadership and defending volume profits.
+- **Watch next:** Qualification results, CXMT yields, HBM3 ramp, Korean capacity decisions, and sustained prices after shortages ease.

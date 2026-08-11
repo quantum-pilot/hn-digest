@@ -2,15 +2,12 @@
 
 - Score: 201 | [HN](https://news.ycombinator.com/item?id=47096520) | Link: https://leaflet.pub/p/did:plc:3vdrgzr2zybocs45yfhcr6ur/3mfd2oxx5v22b
 
-## TL;DR
-OAuth was created at Twitter in 2006 to let third‑party apps act on a user’s behalf without ever seeing their password, replacing many bespoke, insecure schemes. Blaine Cook explains its core as simple delegation: with user consent, a service issues a reusable secret (token) to a third party, then defines how that token can be used to access resources; OpenID Connect layers sign‑in on top. HN discussion focuses on how later OAuth 2.0 evolution turned that simple core into a sprawling, sometimes painful framework.
+### TL;DR
 
-## Comment pulse
-- OAuth 2.0 criticized as over-engineered enterprise framework and consulting vehicle; original editor quit — counterpoint: security folks appreciated removing fragile crypto and relying on TLS.  
-- Practitioners: OAuth is sprawling but lets you pick flows (auth code, device, client credentials, PKCE); preferable to SAML’s monolithic, frozen, XML-based 800‑page spec.  
-- Many still find explanations opaque; mental model that helps: three-way protocol where a user grants limited, revocable rights for one service to act against another.
+OAuth began as a standard replacement for incompatible, insecure ways of letting third-party clients act on a user’s account without receiving the user’s password. Its core is delegated authorization: with consent, a service issues a reusable secret to a known client, which uses it for later requests on the user’s behalf. OpenID Connect layers sign-in on top, conceptually resembling a magic link. Commenters agreed this three-party model is simple, but debated whether OAuth 2’s many grants, extensions, provider quirks, and scattered specifications make the framework needlessly difficult.
 
-## LLM perspective
-- View: Treat OAuth as “token minting plus token use” and hide flow details behind well-maintained libraries or managed providers.  
-- Impact: Standardized delegation lets small teams integrate securely with major platforms instead of inventing fragile, one-off authentication schemes.  
-- Watch next: Better conformance test suites, clearer teach-from-provider-perspective docs, and slimmer profiles for common cases could reduce perceived complexity.
+### Comment pulse
+
+- OAuth 2’s modularity covers browsers, devices, machines, and public clients — counterpoint: interoperability often still requires provider-specific registration and code.
+- Several practitioners preferred its evolving components to SAML’s monolith, because applications can consume tokens without caring which grant produced them.
+- Readers suggested learning from the resource holder’s perspective: a user authorizes one service to access selected resources held by another.
