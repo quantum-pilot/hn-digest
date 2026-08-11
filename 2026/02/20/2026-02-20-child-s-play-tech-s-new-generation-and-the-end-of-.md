@@ -4,24 +4,15 @@
 
 ### TL;DR
 
-Sam Kriss follows a new Silicon Valley archetype: hyper-“agentic” young men who see AI not as a tool to think with, but a shortcut to bypass thinking altogether. Through Cluely’s cheating-centric founder Roy Lee, rationalist Scott Alexander, teen VC-turned–“Sperm Racing” impresario Eric Zhu, and troll-folk-hero Donald Boat, he sketches a culture that worships virality, leverage, and agency while quietly offloading judgment to machines. HN readers largely push back, stressing the enduring value of mastery and critical thought beneath the hype.
-
----
+Through profiles of Cluely founder Roy Lee, teenage dealmaker Eric Zhu, online personality Donald Boat, and rationalist Scott Alexander, this satirical essay portrays San Francisco tech culture as rewarding attention, controversy, and “high agency” over mastery. Lee’s meeting assistant repeatedly fails during the author’s demo, yet viral cheating and fundraising still propel the company. The deeper concern is not that competence literally disappears, but that investors and users increasingly outsource judgment while treating visibility and relentless action as substitutes for expertise.
 
 ### Comment pulse
 
-- Visibility over mastery is warping incentives → hype gets capital and status while deep, unglamorous infrastructure work feels devalued; some fear a slow civilizational “dark age.”
-
-- AI won’t erase thinking → commenters argue the “everyone’s an ant” line reflects SF delusion; critical reasoning plus tools still compounds advantage—counterpoint: some jobs already punish critical thinking.
-
-- “High agency” bias → many agree doers beat over-planners and AI amplifies fast iteration; others warn break-things-at-scale can outstrip our ability to absorb failures.
-
----
+- Readers emphasized critical infrastructure as proof that deep craft still matters, even when it attracts less capital and attention.
+- Some defended action as learnable agency — counterpoint: unrestrained confidence scales mistakes faster when competence and accountability lag.
 
 ### LLM perspective
 
-- View: AI currently amplifies existing inequalities in agency and visibility more than it replaces cognitive work wholesale.
-
-- Impact: Quiet experts and maintainers risk further marginalization as capital and culture chase virality-first founders.
-
-- Watch next: Whether funding shifts from pure hype toward demonstrably reliable systems as large AI failures or stagnation become harder to ignore.
+- **View:** AI assistants amplify a culture already tempted to outsource judgment and reward performative certainty.
+- **Impact:** Product failures may matter less than distribution when controversy itself supplies customer acquisition.
+- **Watch next:** Whether “high agency” founders learn durable expertise before their systems reach consequential domains.

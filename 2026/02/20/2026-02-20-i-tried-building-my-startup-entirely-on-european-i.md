@@ -2,22 +2,18 @@
 
 - Score: 677 | [HN](https://news.ycombinator.com/item?id=47085483) | Link: https://www.coinerella.com/made-in-eu-it-was-harder-than-i-thought/
 
-## TL;DR
+### TL;DR
 
-A founder tried to build a startup using only European infrastructure for cost, data-sovereignty, and independence from US hyperscalers. They ended up with Hetzner for compute, Scaleway for gaps and email, Bunny.net for CDN, Nebius for AI GPUs, Hanko for auth, and a lot of self-hosted services on Kubernetes. The hardest parts were transactional email, leaving GitHub’s ecosystem, and odd domain pricing. Some US pieces remain unavoidable: app stores, social logins, and frontier AI models like Claude.
+A founder says a mostly European startup stack is practical and cheaper than AWS, but requires active tradeoffs. Hetzner supplies core compute, Scaleway fills service gaps, Bunny.net handles edge delivery, Nebius provides inference, Hanko handles identity, and several applications run self-hosted under Kubernetes and Rancher. The difficult parts were transactional email, replacing GitHub’s ecosystem, registrar pricing, thinner documentation, and maintenance. Complete independence remained impossible because mobile distribution, advertising, social login, and preferred frontier AI models still route through US companies.
 
----
+### Comment pulse
 
-## Comment pulse
+- Others reported similar combinations around Hetzner, OVH, Scaleway, Bunny, Gitea, and Forgejo, while warning support and migrations vary.
+- Self-hosting advocates stressed ownership and savings — counterpoint: managed databases buy tested disaster recovery that small teams often underestimate.
+- Readers agreed social login wins through low friction, despite lockout and dependency concerns.
 
-- EU-first stacks are increasingly common → Hetzner/OVH/Scaleway/Bunny plus self-hosted Gitea/Forgejo; registrar choice matters but .coms stay under US control anyway.  
-- Baremetal sovereignty camp → run Mac Studios + MinIO + Postgres in-house for huge AWS savings—counterpoint: managed databases buy you tested disaster recovery.  
-- Social login friction vs privacy → techies avoid Google/Apple SSO, but most users (especially at work) pick the fastest, passwordless-feeling option.
+### LLM perspective
 
----
-
-## LLM perspective
-
-- View: EU-only infra is operationally heavier but realistic; the real barrier is ecosystem maturity, not raw performance or price.  
-- Impact: Most relevant for privacy-sensitive or regulated products with EU customers; others may adopt a hybrid “EU-first, US-when-necessary” approach.  
-- Watch next: Better EU transactional email, GPU clouds, auth; concrete benchmarks vs AWS; legal shifts around data transfers and AI model hosting.
+- **View:** European inference can host open weights, but preferred frontier APIs preserve transatlantic dependency.
+- **Impact:** Sovereignty raises operational labor while improving residency, portability, and provider leverage.
+- **Watch next:** Whether European transactional email, authentication, AI, and developer ecosystems close convenience gaps.

@@ -3,18 +3,10 @@
 - Score: 582 | [HN](https://news.ycombinator.com/item?id=47088181) | Link: https://spencer.wtf/2026/02/20/cleaning-up-merged-git-branches-a-one-liner-from-the-cias-leaked-dev-docs.html
 
 ### TL;DR
-A developer found a handy Git cleanup one-liner in leaked CIA Vault7 docs: list branches already merged into the main line, then batch-delete them while protecting key branches. The post modernizes it for `main` and common workflows, wrapping it in a shell alias so `ciaclean` quickly purges stale local branches after deployments. Hacker News expands this into more robust variants that respect different default-branch names, worktrees, non-fast-forward workflows, and interactive selection via tools like fzf.
 
----
+The post revives a branch-cleanup command found in leaked CIA developer documentation: list local branches merged into a target, exclude the current and protected mainline branches, then delete the remainder with Git’s safe lowercase deletion flag. Its updated version checks against `origin/main` and can be saved as an alias. It is convenient for conventional merge workflows, but not universally safe or complete: squash and rebase merges break ancestry detection, linked worktrees need protection, and hard-coded branch names may not match a repository’s actual default.
 
 ### Comment pulse
-- Vault7 context → The Git tip is trivial, but the leaked docs reveal elaborate CIA tooling like “Fine Dining” USB exfiltration apps—raising interest beyond Git alone.  
-- Safer automation → Users share extended aliases that detect the real default branch, avoid active/worktree branches, prune gone remotes, and integrate fzf for interactive deletion — counterpoint: relying on `init.defaultBranch` can misfire across repos.  
-- Workflow edge cases → `git branch --merged` fails with squash/rebase merges; people instead track remote-branch deletion, age thresholds, or `git gone`-style aliases to avoid losing work.
 
----
-
-### LLM perspective
-- View: The real value is encoding cleanup as repeatable aliases, not the specific pipeline; automation beats memorizing fragile one-liners.  
-- Impact: Teams with many short-lived feature branches gain clearer `git branch` output, less cognitive load, and fewer mistakes when switching or backporting.  
-- Watch next: Git itself could expose higher-level “prune merged/gone branches” commands, informed by common alias patterns seen in dotfiles.
+- Commenters proposed deriving the default branch from remote metadata and excluding branches checked out in other worktrees.
+- Squash/rebase workflows need different signals — counterpoint: pruning deleted upstream branches is often sufficient when remote cleanup is disciplined.

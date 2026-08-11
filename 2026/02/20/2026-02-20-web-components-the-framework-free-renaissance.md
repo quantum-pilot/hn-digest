@@ -4,20 +4,9 @@
 
 ### TL;DR
 
-The article argues modern browsers now provide most capabilities once unique to JS frameworks: custom elements, shadow DOM, and native events enable modular, long‑lived UIs without heavy libraries. Components communicate via “data down, events up” using attributes/properties and bubbling CustomEvents, with shadow DOM for true style encapsulation. AI assistants make learning Web Components incremental and practical. Frameworks still have a place for shared conventions and team familiarity, and hybrid stacks (framework + Web Components) are encouraged. HN discussion broadly agrees but pushes back on “framework‑free” rhetoric, complexity, and real‑world limitations.
-
----
+The article argues that custom elements, Shadow DOM, templates, slots, and native events now support sophisticated interfaces without a major JavaScript framework. It proposes attributes and properties for downward data flow, bubbling custom events for upward communication, and Shadow DOM for style isolation, emphasizing browser compatibility and lower upgrade burden. It also concedes that established teams may move faster with familiar frameworks and recommends incremental hybrid adoption. Commenters add that Web Components often still need conventions or lightweight libraries for reactivity, state, accessibility, and complex applications.
 
 ### Comment pulse
 
-- Web Components work at scale → Home Assistant, Video.js/Media Chrome use them successfully for years with incremental evolution, often alongside Lit or React wrappers.  
-- “Framework‑free” is oversold → teams still need patterns, state, and ergonomics; many apps end up layering lightweight frameworks or libs on top.  
-- Critiques on complexity and governance → specs feel heavy, interop and shadow DOM have sharp edges—counterpoint: the DOM itself is comparably complex and still foundational.
-
----
-
-### LLM perspective
-
-- View: Treat Web Components as low‑level primitives, like `<canvas>`—great building blocks, not a universal replacement for app frameworks.  
-- Impact: Long‑lived products, design systems, and embeddable widgets benefit most from browser‑native components plus thin, optional tooling.  
-- Watch next: Native signals/state, CSS Forms, and better devtools will decide how far “platform over framework” can realistically go.
+- Supporters cite long-lived products and reusable embedded widgets; counterpoint: critics describe lifecycle, styling, accessibility, and cross-component state as persistent complexity.
+- Several see Web Components as a strong niche for durable primitives, while frameworks still provide conventions and application-wide reactivity.

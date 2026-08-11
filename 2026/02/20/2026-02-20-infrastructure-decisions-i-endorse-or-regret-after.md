@@ -3,14 +3,11 @@
 - Score: 493 | [HN](https://news.ycombinator.com/item?id=47043345) | Link: https://cep.dev/posts/every-infrastructure-decision-i-endorse-or-regret-after-4-years-running-infrastructure-at-a-startup/
 
 ### TL;DR
-An infra lead recounts four years scaling an AI-ish startup on AWS/EKS, green-lighting managed databases (RDS, ElastiCache), GitOps with Flux and Helm, Karpenter autoscaling, ExternalDNS/ExternalSecrets, Notion/Linear/Slack, and strong identity plus cost/postmortem processes. Regrets include EKS managed add-ons, Datadog’s pricing, AWS premium support, shared databases, SealedSecrets, Bottlerocket, and delaying FaaS and OpenTelemetry. HN replies mostly agree, but debate AWS vs GCP support, Datadog’s value, and whether Terraform and Kubernetes contradict the “less is better” mantra.
+
+In this 2024 retrospective after four years scaling startup infrastructure, the author endorses managed foundations and boring, interoperable tools: AWS and EKS, RDS, Redis, ECR, GitOps, Terraform, Helm, Kubernetes integrations, identity management, incident reviews, and routine cost scrutiny. Regrets cluster around rigid managed add-ons, shared databases, proprietary telemetry, sealed secrets, expensive Datadog pricing, and hard-to-debug Bottlerocket nodes. The recurring lesson is to pay for protection of critical data, automate team toil, preserve portability early, assign ownership clearly, and avoid optional complexity such as service meshes.
 
 ### Comment pulse
-- Cost control → Monthly reviews plus proactive billing alarms; PGAnalyze praised for Postgres. Datadog polarizing: pricey, but some see huge value when deeply adopted.  
-- Cloud/support choice → Many report responsive AWS account teams used mainly when exploring new services; others argue GCP’s global architecture and resource model are saner.  
-- IaC and complexity → Terraform/OpenTofu seen as least-bad vs CloudFormation; some strongly prefer CDK or Ansible. “Less is better” mocked given Kubernetes+GitOps stack.  
 
-### LLM perspective
-- View: Practical playbook for infra leads scaling on AWS/K8s; focus on managed databases, GitOps, autoscaling, and strong identity early.  
-- Impact: Encourages startups to buy managed databases, centralize identity, and automate postmortems/alerts early, rather than chase marginal infra cost optimizations.  
-- Watch next: Compare serverless vs K8s costs under real workloads, and track OpenTelemetry, ExternalSecrets, and Karpenter maturity across major clouds.
+- Practitioners mostly recognized the tradeoffs but disputed Datadog’s value and whether AWS support justifies choosing the platform.
+- “Less is better” drew laughs beside Kubernetes’s large stack — counterpoint: the author rejects additional layers where benefits remain speculative.
+- Terraform remained the least-bad consensus; CDK, Pulumi, Ansible, and OpenTofu advocates contested that choice.

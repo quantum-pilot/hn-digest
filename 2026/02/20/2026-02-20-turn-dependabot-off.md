@@ -3,18 +3,10 @@
 - Score: 194 | [HN](https://news.ycombinator.com/item?id=47094192) | Link: https://words.filippo.io/dependabot/
 
 ### TL;DR
-Dependabot’s security alerts generate huge noise, especially in Go: they flag modules even when vulnerable symbols are unreachable, and push pointless upgrades. Using a recent edwards25519 bug, the author shows Dependabot opened thousands of PRs for code that never calls the affected method, even mis-scoring severity and compatibility. Instead, they recommend disabling Dependabot alerts, running govulncheck in CI for reachability-based vuln detection, and separately running daily tests against latest dependencies to surface breaking changes without constant dependency churn or alert fatigue.
 
----
+Filippo Valsorda argues Go projects should disable Dependabot security alerts because module-level matching produces noisy pull requests even when vulnerable code is unreachable. His example was a one-line fix in an unused elliptic-curve method that triggered thousands of alerts. He recommends scheduled govulncheck scans, which use Go vulnerability metadata and static reachability analysis, plus CI runs against latest dependencies without automatically changing production lockfiles. Dependency upgrades can then happen during normal project work, when maintainers have context to review them.
 
 ### Comment pulse
-- ReDoS alerts dominate npm Dependabot noise, often for client-only or devDependencies; many want environment-aware or dependency-scope-aware scanners — counterpoint: some argue DoS shouldn’t be treated as “security” at all.  
-- Go users praise govulncheck and custom GitHub Actions that annotate PRs when vulnerable calls are added, while letting Dependabot handle only routine JS dep bumps with auto-merge.  
-- Tool builders pitch smarter agents (e.g., fossabot) that use static analysis and grouped upgrades; others wish Dependabot were less email/PR-heavy and more on-demand via UI configuration.
 
----
-
-### LLM perspective
-- View: The core issue is not automation, but low-fidelity vulnerability matching that ignores package and symbol reachability.  
-- Impact: Teams using Go, JavaScript, and similar ecosystems can markedly reduce security toil by adopting reachability-aware scanners and stricter Dependabot settings.  
-- Watch next: Broader ecosystem support for symbol-level databases (like Go’s), better CI integrations, and opinionated defaults that mute non-exploitable or environment-irrelevant vulns.
+- Many report alert fatigue from unreachable or development-only issues; counterpoint: Dependabot remains useful for routine upgrades, semver breakage detection, and controlled auto-merging.
+- Static reachability works especially well in Go; dynamic ecosystems may need different tools or accept more conservative noise.

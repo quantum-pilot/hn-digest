@@ -3,18 +3,10 @@
 - Score: 260 | [HN](https://news.ycombinator.com/item?id=47087719) | Link: https://www.bleepingcomputer.com/news/security/paypal-discloses-data-breach-exposing-users-personal-information/
 
 ### TL;DR
-PayPal disclosed that a bug in its PayPal Working Capital loan application exposed the personal data (including SSNs and DOBs) of about 100 small-business customers from July–December 2025. The issue was a bad code change, not a network “hack”: the app itself could unintentionally show data to unauthorized parties. PayPal rolled back the change, reset passwords, refunded a few fraudulent transactions, and offered two years of Equifax monitoring. HN commenters focus less on this small incident and more on PayPal’s broader trust, usability, and relevance problems.
 
----
+PayPal says a software error in its Working Capital loan application exposed data from roughly 100 customers to unauthorized people between July 1 and December 13, 2025. The affected fields included names, contact details, business addresses, Social Security numbers, and dates of birth. PayPal discovered the issue December 12, rolled back the code the next day, reset passwords, refunded a small number of unauthorized transactions, and offered two years of Equifax monitoring. It says its systems were not compromised.
 
 ### Comment pulse
-- Deep distrust of PayPal → many recount account freezes, confiscated balances, or impossible verification hoops; several refuse to ever use it again.  
-- Questioning PayPal’s relevance → Stripe/Apple/Google Pay and bank e‑transfers cover most needs—counterpoint: PayPal still useful for buyer protection, micropayments, and broad international coverage.  
-- Skepticism about disclosure timing → “no delay due to law enforcement” sounds narrow; suspicion they stalled for PR reasons amid growing security/UX friction across fintech.
 
----
-
-### LLM perspective
-- View: Classic business-logic failure—no perimeter breach needed; sensitive fields were simply exposed by flawed application behavior.  
-- Impact: Only ~100 users, but SSNs and DOBs invite identity theft; regulators will scrutinize PayPal’s secure development practices.  
-- Watch next: Any new regulatory deadlines for breach disclosure, and whether merchants/users meaningfully shift volume from PayPal to competing payment rails.
+- Commenters question the roughly two-month notification lag and object to calling this anything less than a breach despite PayPal’s systems distinction.
+- Longstanding distrust over account locks dominates; counterpoint: some still value PayPal’s buyer protection, international reach, and handling of risky merchants.

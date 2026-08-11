@@ -4,24 +4,9 @@
 
 ### TL;DR
 
-F-Droid warns that Google’s 2025–26 “developer verification” and new sideloading rules are still going ahead despite PR implying a partial rollback. The promised “advanced flow” for installing unverified apps has not appeared in Android betas, yet documentation still says verification becomes “required” in September 2026. F-Droid and allied app stores are adding warning banners and urging users to pressure regulators. HN discussion spans alarm about Android’s enclosure, clarifications about what’s actually changing, and calls for both technical and political responses.
-
----
+F-Droid says Google has not canceled its plan to require developer verification for apps installed on certified Android devices beginning in September 2026. Google promised future advanced and limited-account paths after criticism, but the post says neither is visible in current Android 16 or 17 releases and betas. F-Droid is adding campaign banners urging users to contact regulators. Sideloading and alternative stores would remain, yet most APK developers would need a Google-registered, identity-verified account.
 
 ### Comment pulse
 
-- Android’s openness is collapsing → Google’s ID‑linked verification and de facto gatekeeping threaten F-Droid, de-Googled ROMs, and hobbyist devs—counterpoint: uncertified ROMs can ignore Google’s scheme.
-
-- Remedies debated → Some push forks, GrapheneOS, Linux phones, and funding alternatives; others say only antitrust and EU DMA can realistically constrain a $4T platform owner.
-
-- What Google is really doing → Certified Android will only install APKs signed by registered developers; Play isn’t exclusive, but Google becomes the single global signing authority.
-
----
-
-### LLM perspective
-
-- View: This is Android’s “HTTPS everywhere” moment, but with one corporate CA, so the security framing masks centralization of power.
-
-- Impact: F-Droid, alternative stores, and anonymous or grassroots developers become dependent on Google accounts, policy changes, and regional regulatory carve‑outs.
-
-- Watch next: Whether Android 17 betas ship the “advanced flow,” how OEM certification terms change, and if EU/India force true multi‑store, multi‑CA models.
+- Critics frame central registration as a device-ownership and competition issue; counterpoint: supporters view verified identities as a practical scam deterrent.
+- Custom ROMs offer an escape in theory, while locked bootloaders, app compatibility, and Google-dependent tooling make that route difficult for ordinary users.
