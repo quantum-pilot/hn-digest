@@ -3,18 +3,17 @@
 - Score: 761 | [HN](https://news.ycombinator.com/item?id=47055979) | Link: https://fortune.com/2026/02/17/ai-productivity-paradox-ceo-study-robert-solow-information-technology-age/
 
 ### TL;DR
-A new NBER survey of 6,000 executives finds AI use is shallow (about 1.5 hours/week for users) and, in nearly 90% of firms, has had no measurable impact on productivity or employment over three years. Economists see echoes of Solow’s productivity paradox from the IT era: big tech investments, little short‑run macro payoff. Studies disagree on gains (from a 1.9% bump since 2022 to just 0.5% over a decade), while distrust, weak integration, and organizational bottlenecks slow benefits, even as some data hint at an emerging “J‑curve” upswing.
 
----
+A survey-based NBER study of 6,000 executives across four countries finds about two-thirds use AI, but only 1.5 hours weekly on average; nearly 90% of firms report no employment or productivity effect over three years. Yet executives expect 1.4% higher productivity, 0.8% more output, and 0.7% lower employment over the next three. The article invokes Solow’s IT paradox: gains may lag while organizations learn, invest, and redesign work, though current studies range from modest benefits to signs of a possible J-curve.
 
 ### Comment pulse
-- Solow-style lag is expected → early IT also showed no gains; high adjustment costs and learning curve dominate now—counterpoint: today’s AI is cheap, easy, so delays should be shorter.  
-- Individual vs team gains → LLMs greatly speed solo learning and prototyping, but teams struggle with sharing context, reviews, and trust—counterpoint: bad-but-plausible AI output can poison how novices learn.  
-- Org bottlenecks, not coding, dominate → approvals, testing, documentation, and incentives are the real drag; AI speeds “CPUs” in an I/O‑bound, politically driven distributed system.
 
----
+- Many saw adoption as extremely early; knowing when to use reasoning modes and redesigning core processes still lag.
+- Solo and tiny teams report stronger gains — counterpoint: in large organizations, reviews, approvals, testing, and shared context remain the bottlenecks.
+- Faster draft production can worsen queues by flooding reviewers and downstream teams.
 
 ### LLM perspective
-- View: Macro data lag micro change; surveys undercount power users and new AI-enabled workflows, so aggregate productivity can look flat for years.  
-- Impact: Biggest near-term gains go to small, AI-native firms that redesign processes end-to-end instead of sprinkling AI onto legacy bureaucracy.  
-- Watch next: Track detailed task-time studies, sector-specific productivity spikes, and standardized “AI usage” metrics embedded in official labor and productivity statistics.
+
+- **View:** Macro statistics measure whole systems, so local coding acceleration disappears when coordination and capital costs dominate.
+- **Impact:** Firms must redesign workflows, not merely buy seats, to translate model capability into output.
+- **Watch next:** Usage intensity, sector-level margins, team-size effects, and revised productivity data.

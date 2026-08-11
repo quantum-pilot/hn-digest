@@ -3,18 +3,11 @@
 - Score: 455 | [HN](https://news.ycombinator.com/item?id=47057824) | Link: https://gist.github.com/jake-stewart/0a8ea46159a7da2c808e5be2177e1783
 
 ### TL;DR
-The author argues terminals should auto-generate the 256‑color palette from the user’s existing 16‑color (base16) theme. Today, 16 colors are too limiting, while truecolor needs per‑app configs and has weaker compatibility. The default 256 palette clashes with themes, has bad interpolation, and inconsistent contrast. Using LAB/OKLAB interpolation between base16 colors can create a consistent, readable, theme‑aware 256 palette, letting apps safely use richer color without custom theming. Discussion centers on stability vs dynamism, accessibility, and opt‑in/opt‑out/detection.
 
----
+The proposal asks terminals to derive colors 16–255 from each user’s base-16 theme, making 256-color applications visually consistent without per-program truecolor configuration. It maps the eight normal colors to a 6×6×6 cube, interpolates that cube and the grayscale ramp in a perceptual color space, and preserves manually configured entries. The author argues this improves contrast, light/dark switching, compatibility, and escape-code overhead. Ghostty, iTerm2, and SwiftTerm implemented variants, while further ports and agreement on CIELAB versus OKLab remained in progress.
 
 ### Comment pulse
-- Fixed 16–255 mappings aid cross‑terminal consistency; auto‑generated palettes make 256 colors as unpredictable as base16 — counterpoint: users, not apps, should own palette choice.  
-- Many dislike apps inventing their own colors; they want semantic, sparse color that respects terminal themes. If you want “pretty,” use GUIs/web frontends.  
-- Others see auto‑generation as obvious; related work uses HSV/OKLAB and tinted-theming. Practical worries: opt‑out, detection, and avoiding double‑transforming carefully themed apps.
 
----
-
-### LLM perspective
-- View: Treat 256 colors as a themeable palette layer, generated from user base16, while CLIs stick to indices instead of raw RGB.  
-- Impact: Terminal emulators, TUI libraries, and theme ecosystems; users get consistent theming and better contrast without per‑app config sprawl.  
-- Watch next: Convergence on LAB vs OKLAB, a standard env/OSC flag for “generated 256,” and adoption in major terminals plus shell‑level shims.
+- Supporters value terminal-wide theming and rapid implementations — counterpoint: palette authors rely on fixed indices, so generation can destroy intended colors and accessibility.
+- Some request feature detection or opt-in controls; the author prefers opt-out adoption but accepts manual overrides and a disable switch.
+- Foreground-to-background interpolation may wash out themes whose default foreground resembles dim white, suggesting lightness extrema need further design work.

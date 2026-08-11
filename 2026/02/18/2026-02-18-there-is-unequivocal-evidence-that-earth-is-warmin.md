@@ -3,18 +3,11 @@
 - Score: 180 | [HN](https://news.ycombinator.com/item?id=47065678) | Link: https://science.nasa.gov/climate-change/evidence/
 
 ### TL;DR
-NASA synthesizes multiple independent data sources—surface records, satellites, ocean measurements, and paleoclimate proxies—to show Earth is warming unusually fast and that human-emitted greenhouse gases are the main driver. Indicators include rising global temperatures, ocean heat content, sea level, and acidification, plus shrinking ice sheets, glaciers, snow cover, and Arctic sea ice, alongside more record heat and intense rainfall. HN discussion centers less on “is it real?” and more on trust, feasibility, messaging, and whether catastrophic change is now unavoidable.
 
----
+NASA summarizes multiple independent lines of evidence that Earth is warming rapidly and human greenhouse-gas emissions are the principal cause. Average surface temperature rose about 2°F since the late 19th century; oceans store 90% of excess heat, sea level rose about 8 inches last century, ice sheets and glaciers are shrinking, Arctic ice and spring snow are declining, and surface-ocean acidity increased about 30% since industrialization. Paleoclimate records show current warming roughly ten times faster than post-ice-age warming, while human CO₂ rises about 250 times faster than natural sources then.
 
 ### Comment pulse
-- Climate action framing → Precautionary, cost-minimization pitch (“delay makes it pricier”) feels more persuasive than apocalyptic rhetoric—counterpoint: Pascal’s-wager style arguments are logically weak and overgeneralize to many risks.  
-- Context of Earth’s history → We live in a rare icehouse state; fast shift toward a greenhouse-like world could be survivable for Earth but hostile for humans and ecosystems.  
-- Politics, trust, and fatalism → Rising acceptance of warming, but partisan denial, institutional distrust, free-rider incentives, and “we’re already doomed / tech will save us” attitudes stall meaningful mitigation.
 
----
-
-### LLM perspective
-- View: The scientific debate is effectively over; the live issues are distributional (who pays, who adapts, who loses).  
-- Impact: Expect more focus on adaptation infrastructure, loss-and-damage finance, and climate attribution for extreme-weather liability.  
-- Watch next: Concrete signals include durable carbon pricing, large-scale carbon removal deployments, grid overbuild & transmission buildout, and measurable declines in fossil fuel CAPEX.
+- Many favor prudent early mitigation because delay raises future cost — counterpoint: commenters distrust government competence and doubt countries will coordinate sacrifices.
+- Historical warm periods do not match today’s pace; replies stress that decades-scale change can outrun ecosystem migration and adaptation.
+- Discussion ranges from cautious financial framing to catastrophic outlooks, with disagreement over whether urgency persuades or causes audiences to disengage.

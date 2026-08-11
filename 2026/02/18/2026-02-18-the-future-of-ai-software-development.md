@@ -2,15 +2,12 @@
 
 - Score: 175 | [HN](https://news.ycombinator.com/item?id=47062534) | Link: https://martinfowler.com/fragments/2026-02-18.html
 
-## TL;DR
-Martin Fowler reports from Thoughtworks’ Future of Software Development retreat, arguing AI is breaking human-only practices yet hasn’t yielded a new manifesto. Attendees see AI as an accelerator that amplifies existing engineering quality, elevating testing, code health, and “supervisory” middle-loop roles. Uncertainty dominates: costs, impact on specialties, risk of waterfallish specs, and security responsibilities remain unsettled. HN discussion focuses on real token economics, how far generalists can stretch with LLMs, and avoiding FOMO while adopting agents pragmatically.
+### TL;DR
 
-## Comment pulse
-- LLM cost trajectory → hobbyist setups already run decent models cheaply; inference seems minor vs salaries—counterpoint: frontier quality, hardware prices, and supply constraints remain uncertain.
-- Uncertainty and FOMO → nobody has scalable AI playbook; at task level, constrained agents with verification work today—counterpoint: some report technical debt and shallow understanding.
-- Shifting skills → LLMs empower generalists and planning-focused devs; others foresee niche experts in LLM pipelines, while skeptics doubt companies can identify true expert generalists.
+Martin Fowler’s notes from a Thoughtworks retreat emphasize that no one has a settled playbook for AI-enabled development. Emerging ideas include a supervisory middle loop between intent and execution, risk tiering, test-driven development as executable guidance, and platform teams providing fast but safe paths. AI appears to amplify existing delivery quality rather than remove bottlenecks: unhealthy code raised refactoring defect risk by 30%. Open questions include specialist roles, token economics, specification-heavy workflows, security, and whether faster code generation compounds technical debt.
 
-## LLM perspective
-- View: AI shifts bottleneck from coding to problem selection, architecture, validation; TDD and code health become economic enablers of safe automation.
-- Impact: Strong testing, platform, and security practices capture AI gains; weak shops amplify debt and risk; dev careers favor systems thinking.
-- Watch next: Watch middle-loop supervisory roles, AI-friendliness metrics in linters/IDEs, and real-world token economics as open models and hardware commoditize.
+### Comment pulse
+
+- Practitioners find agents reliable on narrow, reversible work with cheap verification — counterpoint: scaling that workflow across organizations remains unsolved.
+- AI broadens developers into frontend, backend, and operations, yet shallow understanding can produce working systems with severe architectural debt.
+- Local inference may make tokens inexpensive, but commenters dispute whether affordable open models are genuinely near-frontier for everyday engineering.

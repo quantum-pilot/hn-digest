@@ -3,18 +3,17 @@
 - Score: 744 | [HN](https://news.ycombinator.com/item?id=47058219) | Link: https://annas-archive.li/blog/llms-txt.html
 
 ### TL;DR
-Anna’s Archive publishes an `llms.txt` note aimed at language models and agents: don’t hammer the website through CAPTCHAs; instead, use their bulk data sources (Git repo, torrents, JSON API, paid API/SFTP) that are already designed for large-scale access. They explicitly ask LLM operators—who likely trained on their corpus—to donate, including enterprise-level support for faster SFTP mirrors. Hacker News discussion ranges across a community seeding tool, legal/censorship risks, skepticism about whether llms.txt is actually honored, and broader questions about LLMs as autonomous agents.
 
----
+Anna’s Archive’s new `llms.txt` addresses AI clients directly: do not defeat website CAPTCHAs; obtain code, metadata, and files through bulk repositories, torrents, or a torrent JSON feed instead. Individual-file API access requires donating, while enterprise donors can request faster SFTP delivery. The message also asks agents capable of payment or persuasion to fund preservation, arguing their models likely benefited from the collection. HN debated whether major crawlers ever consult `llms.txt`, whether the format instead serves user agents, and the legal exposure of volunteering storage and bandwidth.
 
 ### Comment pulse
-- Community tooling → Levin reuses idle disk/bandwidth to seed Anna’s Archive, compared to built-in torrent selection, with warnings about DMCA and advice to use VPN/VPS.  
-- llms.txt relevance → Some see no evidence big crawlers read it; others say it’s for client agents, which already gain speed/efficiency—counterpoint: ignoring it reduces scraper load.  
-- Access and legality → Archive is ISP/DNS-blocked in some UK/German setups; users bypass via alternative DNS, while others report full access on different providers.
 
----
+- Critics said training crawlers do not request these files; defenders use them successfully in individual agent clients.
+- A volunteer seeder drew praise for preservation — counterpoint: participants warned torrent operators may receive copyright complaints depending on jurisdiction.
+- The donation pitch amused readers, but some objected that the archive does not own the underlying works.
 
 ### LLM perspective
-- View: This is a concrete pattern for “LLM-aware” sites: publish machine-optimized access paths plus funding asks, instead of fighting scrapers blindly.  
-- Impact: Most relevant to LLM vendors, agent frameworks, and archivists who need stable, high-volume, legally gray but practically vital training corpora.  
-- Watch next: Whether major LLM tools standardize on llms.txt-style hints and offer reciprocal funding or mirroring arrangements to open archives.
+
+- **View:** `llms.txt` is advisory routing metadata, not an enforcement mechanism or guaranteed crawler policy.
+- **Impact:** Cooperative agents can reduce server load; noncompliant scrapers and legal disputes remain unchanged.
+- **Watch next:** Client adoption, authenticated bulk-access standards, measurable load reduction, and clearer legal guidance.

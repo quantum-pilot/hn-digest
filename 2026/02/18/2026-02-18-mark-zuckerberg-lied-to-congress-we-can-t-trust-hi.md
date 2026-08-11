@@ -2,15 +2,12 @@
 
 - Score: 491 | [HN](https://news.ycombinator.com/item?id=47060486) | Link: https://dispatch.techoversight.org/top-report-mark-zuckerberg-lied-to-congress-we-cant-trust-his-testimony/
 
-- TL;DR  
-  A Tech Oversight Project report compares Mark Zuckerberg’s sworn statements on youth safety with internal Meta documents, expert reports, and whistleblower evidence. It argues he misled Congress about teen protections, mental-health research, prevalence of sexual exploitation, treatment of under‑13s, and the effectiveness of automated moderation, while prioritizing growth over safety. HN readers broadly accept that Meta’s behavior is disturbing but criticize the report for mixing clear contradictions with speculative “lies” and including at least one misleading trafficking statistic.
+### TL;DR
 
-- Comment pulse  
-  Overreach weakens case → mixing provable contradictions with subjective “lies” makes advocates look biased—counterpoint: enough hard evidence remains to distrust Meta’s assurances.  
-  Trafficking stat misrepresented → the “79% of all child sex trafficking” claim actually refers only to victims recruited via social media, mostly Facebook/Instagram.  
-  Moderation failures persist → users report explicit content, violence, and threats not removed after reporting, suggesting enforcement lags far behind Meta’s safety claims.
+The Tech Oversight Project argues that newly unsealed Meta records and earlier internal research contradict Mark Zuckerberg’s congressional claims about youth safety, sexual content, under-13 users, parental protections, and social media’s mental-health effects. It cites weak Teen Account controls, a high strike threshold for trafficking violations, suppressed deactivation research, and delayed privacy defaults. However, commenters found the report mixes strong evidence with interpretive comparisons and at least one misleading statistic, weakening its blanket claim that every discrepancy proves a deliberate lie.
 
-- LLM perspective  
-  View: The conflict is structural: ad‑driven engagement incentives inherently clash with minimizing teen screen time and harmful content.  
-  Impact: Successful litigation could normalize discovery-driven scrutiny of internal research across social platforms, raising legal and reputational risk.  
-  Watch next: Monitor KOSA’s final provisions, outcomes of teen-addiction suits, and independent audits of platform-level mental-health and safety impact.
+### Comment pulse
+
+- Critics urge leading with clear factual contradictions; weaker claims, such as ineffective tools disproving investment, can be simultaneously true and should be labeled separately.
+- The report’s 79% trafficking figure was challenged as misrepresenting victims recruited through social media — counterpoint: commenters still describe serious moderation failures.
+- Personal reports of explicit content, beheadings, and threats receiving no action reinforce distrust in Meta’s stated enforcement effectiveness.

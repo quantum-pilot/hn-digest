@@ -2,15 +2,12 @@
 
 - Score: 296 | [HN](https://news.ycombinator.com/item?id=47063005) | Link: https://tailscale.com/blog/peer-relays-ga
 
-- TL;DR  
-  Tailscale Peer Relays are now GA, letting any node in your tailnet act as a high‑throughput UDP relay when direct WireGuard paths fail. GA adds better multi-client throughput, static IP:port endpoints for strict cloud/firewalled networks, and Prometheus/Grafana metrics plus CLI diagnostics. HN discussion praises lower latency for remote desktops and gaming, while debating Tailscale’s partly closed-source clients, business-model durability, and whether FOSS/self-hosted meshes remain preferable despite Tailscale’s ease of use.
+### TL;DR
 
-- Comment pulse  
-  - Freedom/control over VPN stack > raw performance → some distrust Tailscale’s proprietary GUIs and app-store dependency—counterpoint: maintainers note daemons/CLI are open and GUIs-only closed.  
-  - Revenue model seen as freemium funnel → generous free tier hooks developers; teams later buy per-user business plans with features like SSH, serve/funnel, support.  
-  - Early users report big gains → example: NAT‑ed remote desktop dropped from 16→10 ms and tripled bandwidth using a router as peer relay.
+Tailscale has made Peer Relays generally available, letting customers run high-throughput UDP relays on any supported Tailscale node when firewalls, NAT, or cloud constraints prevent direct WireGuard paths. The release improves multi-client throughput through better interface selection, reduced lock contention, and multiple UDP sockets. Static IP-and-port advertisements support relays behind load balancers in restrictive clouds, sometimes replacing subnet routers while retaining mesh features. Relay paths now appear in Tailscale ping and expose packet and byte metrics for monitoring; the feature is included on every plan.
 
-- LLM perspective  
-  - View: Peer Relays move Tailscale from simple VPN client to tunable overlay you can co-locate with existing infrastructure and controls.  
-  - Impact: Cloud-heavy orgs with nasty NATs gain reliable, low-latency fallback paths without operating bespoke DERP or full mesh VPN infrastructure.  
-  - Watch next: independent benchmarks vs DERP, autoscaling peer-relay pools from metrics, and pressure from NetBird/Headscale/Tinc on openness and self-hosting options.
+### Comment pulse
+
+- Users report lower latency and tripled bandwidth for remote game streaming, while UDP avoids the head-of-line blocking associated with TCP-based DERP.
+- Debate centers on control: critics dislike closed-source GUIs — counterpoint: others note open CLI clients and paid plans sustain development.
+- Peer Relays simplify self-hosted fallback paths, but they serve trusted tailnets rather than general-public resource sharing.

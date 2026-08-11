@@ -2,19 +2,12 @@
 
 - Score: 164 | [HN](https://news.ycombinator.com/item?id=47054369) | Link: https://stephango.com/vault
 
-## TL;DR
-Steph Ango (Obsidian’s CEO) shows a bottom‑up, “embrace the mess” way to use Obsidian: one main vault, almost no folders, heavy internal linking, timestamped micro‑journal notes, and reusable templates/properties for people, media, places, and 1–7 ratings. He periodically condenses and randomly revisits notes instead of using AI, and publishes his site directly from Markdown with Jekyll. HN readers respond by validating messy-but-consistent workflows, file-over-app durability, and the inherently personal, churn-heavy nature of PKM setups.
+### TL;DR
 
----
+The author’s Obsidian system favors durable Markdown files, one mostly flat vault, minimal folders, consistent properties, pluralized tags, abundant internal links, and unresolved links as future breadcrumbs. Small timestamped notes are periodically condensed into monthly and yearly reviews, while random revisits surface neglected ideas and maintenance. Templates capture reusable metadata; a seven-point rating scale adds consistency; a separate vault publishes the website through Git and Jekyll. The philosophy is deliberately lazy and emergent: reduce filing decisions, retain control, and perform enough manual upkeep to understand personal patterns.
 
-## Comment pulse
-- Ango's messy, link-heavy approach resonates; chaos plus search beats rigid systems; frees time for actual work—counterpoint: some still prefer structured folders like PARA.  
-- Obsidian praised as file-first, offline, cross-device brain: track people, birthdays, workouts, restaurants via simple notes; advice is start with daily notes, evolve later.  
-- HN notes PKM and todo tooling are intrinsically high-churn; needs are idiosyncratic, so Ango’s "pick rules you like" stance feels realistic.  
+### Comment pulse
 
----
-
-## LLM perspective
-- View: Emphasizing unresolved links and manual “random revisit” guards against over-automation and keeps reflection a deliberate, cognitive workout.  
-- Impact: File-based, template-driven practices make tool-switching cheap; any Markdown editor or static site generator can replace Obsidian without data loss.  
-- Watch next: Experiment with LLM helpers that suggest tags or links but never auto-edit, preserving Ango’s emphasis on intentional understanding.
+- Readers valued “file over app” because software can change while ordinary Markdown remains portable.
+- Messy roots and blank daily notes challenge PKM orthodoxy — counterpoint: others prefer light folder systems such as PARA or Johnny Decimal.
+- Practical advice converged on starting simple, then adding structure only when a recurring problem demands it.
