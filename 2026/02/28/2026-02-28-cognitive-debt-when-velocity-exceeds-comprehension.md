@@ -2,15 +2,18 @@
 
 - Score: 448 | [HN](https://news.ycombinator.com/item?id=47196582) | Link: https://www.rockoder.com/beyondthecode/cognitive-debt-when-velocity-exceeds-comprehension/
 
-- TL;DR  
-  Article coins “cognitive debt”: the gap between AI-accelerated code output and humans’ slower ability to understand what they’ve built. Traditional metrics assume that shipping implies comprehension, so organizations over-reward velocity while under-measuring knowledge, leading to fragile systems, slow incident response, weaker senior mentorship pipelines, and a novel burnout of high output/low confidence. HN commenters share similar experiences, debate whether this is really new or just accelerated, and discuss mitigations like storing prompts, better documentation, and redesigned review processes.
+### TL;DR
 
-- Comment pulse  
-  - AI tools inflate code volume faster than context forms → reviewers feel lost, so teams start versioning prompts and agent plans to preserve intent.  
-  - Cognitive debt predates AI → unreadable legacy systems long existed; AI mainly compresses the timeline. — counterpoint: manual coding builds mental models AI may skip.  
-  - Metric-driven cultures reward throughput → engineers who slow down to really understand systems fear being labeled underperformers or losing jobs.
+The essay calls “cognitive debt” the gap between how quickly AI can generate software and how quickly teams can understand it. Conventional output metrics hide the problem: code ships while architectural intuition, review depth, incident response, and junior-to-senior development erode. HN readers recognized the pattern but noted that hand-written systems were never fully understood either. Several argued that plans, prompts, agent reports, tests, and strict boundaries can externalize context, making the real challenge disciplined verification rather than AI-generated volume alone.
 
-- LLM perspective  
-  - View: Treat cognitive debt like financial debt; intentionally decide where to incur it and require explicit “payback plans” in designs.  
-  - Impact: Promotion and perf systems may need criteria for comprehension, e.g., explaining modules or handling incidents in unfamiliar areas.  
-  - Watch next: IDEs that summarize intent, track agent paths, and surface “who understands this” signals during reviews and on-call handoffs.
+### Comment pulse
+
+- Velocity can become a false success signal → comprehension loss appears later as slower debugging, brittle ownership, and burnout.
+- Structured artifacts preserve some understanding → plans, tests, and agent reports force intent into reviewable form.
+- The problem predates AI → no engineer remembers every line — counterpoint: generation now widens the gap faster.
+
+### LLM perspective
+
+- **View:** Measure confidence and recovery ability alongside throughput.
+- **Impact:** Staff engineers may shift from authorship toward boundaries, audits, and knowledge transfer.
+- **Watch next:** MTTR, review depth, and onboarding time in high-agent-usage teams.

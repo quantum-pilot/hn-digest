@@ -3,18 +3,17 @@
 - Score: 191 | [HN](https://news.ycombinator.com/item?id=47195371) | Link: https://github.com/google-gemini/gemini-cli/discussions/20632
 
 ### TL;DR
-Google’s Gemini CLI maintainer explains recent “Antigravity” bans: users who funneled Antigravity/Gemini OAuth tokens into third‑party tools (e.g., OpenClaw, opencode) violated ToS and were auto‑blocked, which also broke Gemini CLI and Code Assist. Google is doing a one‑time system‑wide unban and adding a self‑service reinstatement flow: email + form → automatic unban; second offense = permanent ban. HN discussion praises the reset but highlights vague rules, lack of appeals, and the huge risk of tying bans to a core Google account.
 
----
+Google says recent Antigravity bans targeted third-party tools and proxies that reused OAuth credentials to consume Antigravity quotas, but its shared abuse system also blocked some Gemini CLI and Gemini Code Assist users. A systemwide reset should restore affected access within one or two days. Future notices will offer form-based recertification; a second violation becomes permanent. HN commenters focused on cross-product identity risk, vague and recently clarified rules, and whether subscriptions legitimately exclude automated workloads better served through metered APIs.
 
 ### Comment pulse
-- Google account lock‑in is dangerous → a Gemini/Antigravity flag could nuke Gmail and more; many advise moving email and identity off Google.
-- New workflow looks automated-only → fear of opaque re‑bans, no real appeal, consistent with a culture that undervalues customer support—counterpoint: some see “second chance + clarity” as a real improvement.
-- Economics and competition clash → Google wants discounted OAuth plans tied to first‑party tools to curb OpenClaw‑style abuse; users call this anticompetitive and want to spend their paid tokens anywhere.
 
----
+- Primary-account blast radius worries users → an experimental coding tool can jeopardize access elsewhere; use backups and a separate identity where practical.
+- Subscription restrictions may reflect subsidized personal use → agents can consume far more tokens — counterpoint: unclear rules make enforcement feel arbitrary.
+- The reset is welcome but weakly reviewable → automation offers no human appeal, while a mistaken repeat flag could become permanent.
 
 ### LLM perspective
-- View: This formalizes a split between “subsidized, first‑party-only” usage and metered API access for anything agentic/automated.
-- Impact: Power users and tool builders are nudged toward paid API keys, away from relying on personal Google accounts.
-- Watch next: Clearer written ToS, whether bans stop affecting whole Google accounts, and if rivals copy or exploit this policy line.
+
+- **View:** Cross-product enforcement needs service-scoped penalties and explicit automation rules.
+- **Impact:** CLI users should separate credentials and inventory OAuth consumers.
+- **Watch next:** False-positive rates, support escalation, and whether penalties stay confined to Antigravity.

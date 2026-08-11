@@ -3,18 +3,17 @@
 - Score: 1012 | [HN](https://news.ycombinator.com/item?id=47190997) | Link: https://help.openai.com/en/articles/7232927-how-do-i-cancel-my-chatgpt-subscription
 
 ### TL;DR
-OpenAI’s help article explains how to cancel ChatGPT subscriptions: via the web app (Settings → Account → Manage → Cancel Subscription), via App Store/Play Store for mobile signups, or via Workspace billing settings for Business plans. Cancellation generally takes effect after the next billing date, fees are non‑refundable, and you should cancel at least 24 hours in advance. If you’ve lost access to your email or want account deletion, OpenAI support and a privacy portal can terminate billing on your behalf.
 
----
+OpenAI’s help page says web subscribers cancel through Settings → Account → Manage, while iOS and Android subscriptions must be canceled through their respective app stores; Business users use Workspace settings → Billing. Cancellation takes effect after the next billing date, access continues until then, and users should act at least 24 hours before renewal. Fees are generally non-refundable. If account access is lost, support can cancel after verifying billing details, or permanent account deletion through the Privacy Portal will also end the associated subscription.
 
 ### Comment pulse
-- Run local models instead of subscribing → Qwen, llama.cpp, LM Studio on high‑RAM Macs/PCs can cover many tasks—counterpoint: hardware cost and speed often make cloud cheaper and better.
-- Lock‑in is weakening → People routinely switch between Claude, Gemini, DeepSeek, local Qwen; shared “textbox + API” UX erodes OpenAI’s habit/brand moat.
-- Cancellation as protest and pain point → Some leave over ethics or model quality, move budgets to Anthropic; others recount billing/chargeback disputes and argue about who really eats chargeback costs.
 
----
+- Many cancellations were political, not procedural → users cited OpenAI’s military agreement and redirected spending toward Anthropic.
+- Switching costs appear lower → commenters mix providers and local models — counterpoint: frontier-quality local coding still demands costly hardware.
+- Billing trust matters → one user described a post-cancellation chargeback, prompting dispute over how banks allocate chargeback losses.
 
 ### LLM perspective
-- View: As parity rises, users will multi‑home across models and treat subscriptions as disposable utilities, not sticky platforms.
-- Impact: OpenAI must compete more on trust, reliability, and policy; Anthropic and open‑weights vendors gain from principled stances and strong tooling.
-- Watch next: Standardized chat export/import, cross‑provider “agent” state migration, and polished local‑LLM stacks will further reduce friction of leaving any one service.
+
+- **View:** Identify the billing channel before taking any destructive account action.
+- **Impact:** Export-first users can preserve conversation history while moving providers.
+- **Watch next:** Refund handling, cancellation confirmation, and support outcomes for inaccessible accounts.

@@ -2,15 +2,18 @@
 
 - Score: 235 | [HN](https://news.ycombinator.com/item?id=47189749) | Link: https://blog.timcappalli.me/p/passkeys-prf-warning/
 
-## TL;DR
-Author warns against using WebAuthn passkeys, via the PRF extension, as keys for encrypting long‑lived user data like backups or wallets. Authentication credentials are designed to be reset; encryption keys are not, so deleting or losing a passkey can silently destroy irreplaceable data. They urge the industry to reserve passkeys for phishing‑resistant login, or at least add clear warnings and documentation. HN commenters debate passkey UX, platform lock‑in, and whether this risk is unique to passkeys or to all encryption.
+### TL;DR
 
-## Comment pulse
-- Passkeys create UX footguns → users don’t know where credentials live, cross‑device behavior is inconsistent, and accidental creation/deletion feels worse than passwords plus a manager.  
-- Auth vs encryption mismatch → passkeys feel disposable, but PRF‑derived keys can be irreplaceable; designers should add keys and not rely on a single credential.  
-- Risk debated → some say data‑loss scenarios are unrealistic or generic to encryption; others report relatives deleting stored credentials accidentally—counterpoint: clearer warnings might reduce this.  
+The author supports passkeys for phishing-resistant authentication but warns against making a WebAuthn PRF-derived secret the sole key for durable encrypted data. Authentication credentials are expected to be replaceable; losing an encryption key permanently destroys access. Current managers may let users delete an unfamiliar passkey without revealing that backups, messages, files, or wallets depend on it. HN largely agreed the lifecycle mismatch is dangerous, while distinguishing it from passkeys generally and favoring passwords, recovery codes, devices, or social recovery as independent fallback paths.
 
-## LLM perspective
-- View: Treat passkeys as one factor in a recovery‑friendly key hierarchy; never the sole key protecting long‑term, irreplaceable data.  
-- Impact: Messaging apps, wallets, and cloud backup providers should re‑evaluate architectures that bind data directly to a single WebAuthn credential.  
-- Watch next: An “encryption‑critical” flag for passkeys, UX studies on deletion flows, and reference designs for multi‑key recovery patterns.
+### Comment pulse
+
+- Deletion warnings cannot repair a sole-key design → users need an independent recovery path before credentials disappear.
+- Passkey UX remains fragmented → OS, browser, and manager boundaries make creation, storage, synchronization, and deletion hard to reason about.
+- Key loss is intrinsic to encryption → informed irrecoverability can be valid — counterpoint: hidden coupling denies users that informed choice.
+
+### LLM perspective
+
+- **View:** Use PRF output as one unlock factor, never the only durable key.
+- **Impact:** Relying parties and credential managers need dependency-aware lifecycle UX.
+- **Watch next:** Adoption of PRF-usage metadata and deletion warnings across major credential managers.

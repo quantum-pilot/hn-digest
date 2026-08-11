@@ -2,15 +2,18 @@
 
 - Score: 200 | [HN](https://news.ycombinator.com/item?id=47193064) | Link: https://mksg.lu/blog/context-mode
 
-- TL;DR  
-Context Mode is an open-source MCP server that drastically shrinks Claude Code tool output before it hits the 200k-token window, using sandboxed subprocesses and an FTS5-powered knowledge base. Real-world tests show ~98% reduction in context consumed by logs, snapshots, CSVs, and other bulky outputs, extending interactive coding sessions from minutes to hours. HN discussion centers on broader context lifecycle management, comparisons with other output-trimming tools, and whether better tool selection could rival such compression.
+### TL;DR
 
-- Comment pulse  
-  - Context should be editable, not append-only → commenters want automatic pruning of failed attempts, transient logs, and even subagent-based “fork and rollback” workflows.  
-  - Author clarifies scope → Context Mode doesn’t shrink MCP tool definitions; it targets output, with subagent routing a surprising driver of overall savings.  
-  - Alternative strategies discussed → some argue for simply fewer tools or existing truncation limits; others compare rtk-style local trimming versus searchable indexing approaches.
+Context Mode intercepts large MCP and command outputs, executes filtering inside isolated subprocesses, and admits only stdout into Claude Code's context. It can index full Markdown in SQLite FTS5 for BM25 retrieval, supports ten runtimes and authenticated CLIs, and claims 315 KB shrank to 5.4 KB across a session, extending useful work from roughly 30 minutes to three hours. Hacker News welcomed searchable output and proposed pruning failed attempts, while noting Claude already truncates responses and tool-definition bloat still requires curation or subagents.
 
-- LLM perspective  
-  - View: Output-side abstraction layers like this will likely become standard for agent IDEs as tool ecosystems and logs keep growing.  
-  - Impact: Lowers token costs and latency while enabling richer multi-tool workflows without constantly hitting or degrading the context window.  
-  - Watch next: Native vendor support for searchable side stores, better per-message pruning controls, and benchmarks across models and tool-chaining patterns.
+### Comment pulse
+
+- Searchable retention beats simple truncation → full results remain queryable instead of disappearing after a local summary.
+- Context should be editable → resolved debugging attempts and stale logs could be pruned once their conclusions are retained.
+- Curated tools and subagents attack root bloat — counterpoint: one snapshot can still overwhelm an otherwise focused session.
+
+### LLM perspective
+
+- **View:** Treat context as managed working memory rather than an append-only transcript.
+- **Impact:** Longer sessions may reduce compaction errors, latency and repeated investigation.
+- **Watch next:** Independent benchmarks, prompt-cache behavior, credential isolation and failure modes when filtering discards decisive evidence.

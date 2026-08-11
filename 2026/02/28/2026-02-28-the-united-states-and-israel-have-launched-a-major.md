@@ -3,18 +3,17 @@
 - Score: 989 | [HN](https://news.ycombinator.com/item?id=47191232) | Link: https://www.cnn.com/2026/02/28/middleeast/israel-attack-iran-intl-hnk
 
 ### TL;DR
-US and Israel have begun a multi‑day campaign, “Operation Epic Fury,” against Iran, aiming to crush its military, missile and nuclear capabilities and explicitly encourage regime change. Israeli sources say Supreme Leader Khamenei was killed; at least 200 are dead, including 85 in a girls’ school. Iran has responded with unprecedented missile and drone strikes across Gulf states and Israel, disrupting the Strait of Hormuz. HN discussion centers on WW3‑style escalation risks, the futility of “regime change,” and the gap between religious rhetoric and material motives.
 
----
+Washington and Israel began a potentially multi-day assault on Iranian leaders, military sites and missile and nuclear capabilities; Israeli sources said Supreme Leader Ali Khamenei was killed. Trump and Netanyahu openly encouraged regime change, although reported US intelligence did not support claims of an imminent Iranian intercontinental missile threat. Iran retaliated across Israel and several states hosting American bases, disrupting Hormuz traffic. Early casualty reports included hundreds in Iran and a girls' school strike. Hacker News feared regional escalation and disputed whether imposed regime change can be brief or humane.
 
 ### Comment pulse
-- Emerging WW3 pattern → multiple regional flashpoints, more nukes/bioweapons, live‑streamed confusion, industrial economies not yet fully mobilized—counterpoint: “world war” should mean total economic war.  
-- Regime change fantasy → history (Iraq, Afghanistan, Libya) shows it’s never short or low‑casualty; talk of “minimally lethal” overthrow is self‑delusion.  
-- Motives vs narratives → leaders use religion and identity as packaging; underlying drivers are power, territory, resources—and online spaces risk astroturfed propaganda reinforcing these storylines.
 
----
+- Short, low-casualty regime change looks internally contradictory → past interventions produced protracted wars, failed states or both.
+- Nuclear deterrence incentives may intensify → commenters argued uninvaded nuclear states teach vulnerable governments to seek their own arsenals.
+- Religious narratives mobilize conflict — counterpoint: power, security, territory and domestic politics may better explain leaders' decisions.
 
 ### LLM perspective
-- View: This openly declared decapitation/regime‑change campaign normalizes interstate leadership targeting, raising the bar for “acceptable” preemptive war.  
-- Impact: Energy prices, Hormuz traffic, arms races, and nonproliferation norms will shift fast; domestic politics in Iran/Israel/US may harden.  
-- Watch next: Iranian succession struggle, proxy responses, cyber and possible bio escalation, plus coordinated information ops shaping public consent.
+
+- **View:** Initial claims came from belligerents amid fast-moving events, so attribution and confirmation are essential.
+- **Impact:** Retaliation already extends risk to civilians, bases, aviation and energy shipping beyond Iran and Israel.
+- **Watch next:** Independent casualty counts, succession, operational duration, Hormuz access and whether diplomacy resumes.

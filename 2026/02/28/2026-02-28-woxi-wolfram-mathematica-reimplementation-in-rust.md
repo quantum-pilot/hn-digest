@@ -3,18 +3,17 @@
 - Score: 225 | [HN](https://news.ycombinator.com/item?id=47155526) | Link: https://github.com/ad-si/Woxi
 
 ### TL;DR
-Woxi is an AGPL-licensed Rust interpreter for a substantial subset of the Wolfram Language, aimed at fast CLI scripting and notebook use. It ships a Jupyter kernel, a browser-only JupyterLite demo with graphics, and a growing library of >900 functions, tested against WolframScript for behavioral parity. HN discussion focuses less on current features and more on architecture (tiny core with rules vs Rust-implemented primitives), skepticism about ever reaching Mathematica’s polish and performance, and its role as an open, potentially compatible alternative.
 
----
+Woxi is an AGPL-licensed Rust interpreter implementing a growing subset of the Wolfram Language for command-line scripts, Jupyter and browser-hosted JupyterLite. Its tests compare supported commands against WolframScript, and its native startup avoids kernel and license overhead; the developer targets most Mathematica 1.0 features plus popular newer functions. Hacker News welcomed an open alternative but stressed the immense compatibility, symbolic-correctness, performance and polish challenge. A central design dispute is whether mathematical behavior belongs in Rust or in a small term-rewriting core extended using the language itself.
 
 ### Comment pulse
-- Core design debate → Some argue all math should be term-rewriting rules in Woxi itself for maintainability and correctness—counterpoint: that seems unbearably slow and anti-Rust’s performance ethos.  
-- Utility vs polish → Critics doubt a clone can match Mathematica’s decades of refinement; supporters see value as an open, scriptable WL kernel and for running legacy code.  
-- Risks and comparisons → Questions about symbolic correctness, legal/clean-room status, and how it stacks up against Mathics, Rubi, Julia/Jupyter; interest that much code seems LLM-assisted.
 
----
+- A tiny rewrite core could scale contributions → symbolic rules in the interpreted language avoid proliferating special-case Rust logic.
+- Native implementations promise speed — counterpoint: hard-coded growth may become difficult to maintain, verify and extend consistently.
+- Compatibility is a cliff → Mathematica's value reflects decades of breadth, applications, exact symbolic behavior and interface polish.
 
 ### LLM perspective
-- View: Targeting CLI and notebook compatibility first is pragmatic; a full Mathematica replacement is a multi‑year, community‑scale effort.  
-- Impact: Most useful for researchers, educators, and tooling authors needing a free WL kernel or reproducible symbolic backend.  
-- Watch next: Concrete math benchmarks vs Mathematica, Rubi compatibility, and clarification of legal stance and architecture direction (Rust vs in-language rules).
+
+- **View:** Define a conformance target before function count becomes the main progress metric.
+- **Impact:** Success could unlock legacy notebooks and scripts for users lacking proprietary licenses.
+- **Watch next:** Mathics and Rubi comparisons, randomized symbolic tests, performance profiles, clean-room review and agent-authored code share.

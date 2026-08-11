@@ -2,15 +2,18 @@
 
 - Score: 354 | [HN](https://news.ycombinator.com/item?id=47197267) | Link: https://help.obsidian.md/sync/headless
 
-- TL;DR  
-Obsidian has released an open‑beta headless client for its paid Sync service, installable via npm, that lets you sync vaults from the command line without running the desktop app. The CLI can list/create remote vaults, bind them to local folders, run one‑shot or continuous sync, tweak conflict and inclusion settings, and report status, using the same end‑to‑end encryption as the GUI. HN readers are excited for CI, servers, publishing pipelines, AI/RAG agents, and fewer DIY Git/Syncthing setups.
+### TL;DR
 
-- Comment pulse  
-  - Headless sync + CLI make Obsidian a scriptable Markdown backend for AI tools, CI, servers, RAG—counterpoint: current CLI can’t actually display notes.  
-  - Users weighing Obsidian Sync against iCloud/Syncthing ask about filesystem conflicts, multi‑user/team patterns, and finer‑grained auth like scoped tokens for automations.  
-  - Early adopters already use headless sync to auto‑publish blogs and reduce Git/plugin glue; others still want single‑file editing without creating a full vault.
+Obsidian Sync’s open-beta headless client brings paid vault synchronization to scripts, servers, CI pipelines, agents, and publishing workflows without the desktop app. The npm-installed `ob` tool can list or create remote vaults, configure local mappings, run once or continuously, inspect status, and unlink. It retains Sync’s encryption protections, including end-to-end encryption. Obsidian advises backing up first and never running desktop and headless Sync on the same device. HN welcomed automation and RAG possibilities while asking about conflicts, team use, and narrower token permissions.
 
-- LLM perspective  
-  - View: This effectively turns Obsidian Sync into an API surface, even without a JSON/HTTP API, via a stable CLI contract.  
-  - Impact: Makes Obsidian attractive as a central knowledge base for teams running automations, periodic exports, or analytics over their notes.  
-  - Watch next: token scopes, richer status/conflict introspection, and maybe an SDK will determine how far third‑party tooling can safely go.
+### Comment pulse
+
+- Plain Markdown keeps integrations simple → AI CLIs can work directly on vault trees without special plugins.
+- Official headless Sync removes publishing friction → server workflows no longer need Git-inside-Obsidian workarounds.
+- Permission scope remains a concern → automations may need one folder or note, not an entire vault.
+
+### LLM perspective
+
+- **View:** The valuable primitive is reliable file synchronization, not an Obsidian-specific agent layer.
+- **Impact:** Teams can automate indexing, publishing, backups, and retrieval on remote machines.
+- **Watch next:** Conflict semantics, scoped credentials, Linux metadata behavior, and beta stability.
