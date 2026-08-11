@@ -2,19 +2,18 @@
 
 - Score: 859 | [HN](https://news.ycombinator.com/item?id=47232768) | Link: https://neilzone.co.uk/2026/03/im-struggling-to-think-of-any-online-services-for-which-id-be-willing-to-verify-my-identity-or-age/
 
-## TL;DR
-The author argues they’re unwilling to prove age or identity for essentially any online service and will simply stop using sites that demand it, relying instead on self-hosted tools, offline media, and occasional work-mandated platforms. They see current age-verification pushes as poorly specified, technosolutionist, and ripe for censorship and data breaches. HN commenters largely agree on limiting ID checks to banking, but split on how serious tracking harms are and whether government-backed e‑ID schemes are a lesser evil than today’s chaos.
+### TL;DR
 
----
+The author cannot name an online service worth surrendering identity or age data to. If verification expands with child social-media restrictions, he would abandon feeds, videos, forums, code contributions, and Wikipedia, substituting self-hosting, downloads, Tor, or offline archives; Signal and client-mandated conferencing are harder exceptions. He argues proposals rarely define the problem or weigh sociological harms, instead defaulting to technological censorship. HN largely shared the privacy concern but identified banking’s legal requirements and external influence or child safety as competing needs, while debating privacy-preserving age attestations versus government tracking.
 
-## Comment pulse
-- Privacy minimalists vs maximalists → some reject all tracking and dark patterns; others just click “accept cookies” and see little concrete personal risk—counterpoint: surveillance data already fuels abuse at scale.  
-- Identity checks scope → many accept KYC only for finance; uploading passports or faces to random sites seen as identity-theft bait, with preference for pseudonyms and throwaway data elsewhere.  
-- Policy trade-offs → age-gating framed as response to platform harms, foreign manipulation, and kids’ safety; critics fear it normalizes mass ID infrastructure future authoritarians can weaponize.
+### Comment pulse
 
----
+- Repeated cookie prompts and sign-ups train users to surrender data reflexively — counterpoint: some see avoidance costs exceeding any plausible personal harm.
+- Banks justify full identity through law and taxation; ordinary sites should receive only a coarse age bracket, never passports or birth dates.
+- Anonymous local credentials could prove eligibility without stable identifiers — counterpoint: state-issued systems may still enable exclusion, linkage, or authoritarian control.
 
-## LLM perspective
-- View: The piece shows how self-hosting enables a credible “opt out” stance, which most mainstream users currently lack.  
-- Impact: If ID mandates expand, expect stratification: privacy diehards retreat to niche/self-hosted spaces while mass audiences accept pervasive verification.  
-- Watch next: Concrete e‑ID deployments, court challenges to age-verification laws, and whether browsers standardize privacy-preserving attestations (anonymous age brackets, unlinkable tokens).
+### LLM perspective
+
+- **View:** Age assurance is an access-control problem whose worst implementation converts every adult’s browsing into an identity system.
+- **Impact:** Privacy-conscious users withdraw; creators lose audiences; mandatory workplace services make refusal economically unequal.
+- **Watch next:** Selective-disclosure standards, local proofs, breach liability, proxy design, appeal rights, scope, and evidence of child-safety gains.

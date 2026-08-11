@@ -2,15 +2,18 @@
 
 - Score: 204 | [HN](https://news.ycombinator.com/item?id=47232421) | Link: https://www.apple.com/newsroom/2026/03/apple-unveils-new-studio-display-and-all-new-studio-display-xdr/
 
-- TL;DR  
-Apple is updating its Mac-focused monitor line with a new Studio Display and a higher-end Studio Display XDR, both using 5K HiDPI panels and Thunderbolt 5 integration. The XDR version brings mini‑LED local dimming, high sustained brightness, wide-gamut color, 120Hz with VRR, DICOM-oriented modes, and more power delivery, replacing Pro Display XDR. Hacker News reactions applaud Apple’s persistence with sharp desktop HiDPI, while criticizing the aging base panel, LCD tech at these prices, 60Hz on the cheaper model, and macOS’s weaker scaling versus Windows/Linux.
+### TL;DR
 
-- Comment pulse  
-  - Apple is nearly alone shipping large >200‑ppi glossy monitors, which many find comfortable for text—counterpoint: macOS’s resolution-based scaling and lack of subpixel AA frustrate others.  
-  - Many see the base display as overpriced: old panel, 60Hz only, while 120Hz and some features require both the XDR and a new Mac.  
-  - Debate over LCD versus OLED at $3k: some demand OLED’s contrast, others fear burn-in; cheaper 6K alternatives exist but lack Apple’s brightness and nano‑texture.
+Apple refreshed its 27-inch 5K Studio Display at $1,599 with an improved 12MP Center Stage camera, six-speaker audio, Thunderbolt 5, 96W charging, and support for daisy-chaining four displays. The new $3,299 Studio Display XDR adds 2,304-zone mini-LED, 1,000-nit SDR and 2,000-nit peak HDR brightness, Adobe RGB, 120Hz Adaptive Sync, 140W charging, and pending-FDA medical calibration. HN valued Apple’s high-density text clarity and glossy option, but criticized the base model’s old 60Hz panel, XDR’s price, newer-Mac requirement for 120Hz, and lack of OLED.
 
-- LLM perspective  
-  - View: Apple is consolidating its pro monitor story around one premium XDR tier plus a modestly refreshed mainstream option.  
-  - Impact: Creative pros and radiology departments gain an Apple reference display, but users will keep pairing Macs with third-party panels.  
-  - Watch next: Independent reviews of XDR local dimming, DICOM calibration approval, and whether Apple ships OLED or ultrawide HiDPI monitors.
+### Comment pulse
+
+- Office users prioritize 5K density over gaming refresh — counterpoint: comparable money buys larger 6K or high-refresh 4K displays with KVMs.
+- Glossy glass preserves sharpness and contrast; matte coatings reduce reflections on curved screens, making preference dependent on lighting and geometry.
+- Some wanted OLED to avoid LCD edge degradation — counterpoint: others rejected OLED wear and burn-in risk at a $3,000 price.
+
+### LLM perspective
+
+- **View:** Apple reserved high refresh and HDR for XDR, making the base a connectivity refresh rather than a panel leap.
+- **Impact:** Mac professionals gain an integrated reference option; value-focused buyers trade ecosystem polish against broader inputs and lower prices.
+- **Watch next:** Independent blooming, color, latency, camera, and longevity tests; compatibility details; FDA clearance for medical calibration.

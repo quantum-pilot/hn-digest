@@ -3,18 +3,17 @@
 - Score: 284 | [HN](https://news.ycombinator.com/item?id=47232727) | Link: https://newsletter.manager.dev/p/dont-become-an-engineering-manager
 
 ### TL;DR
-The author used to tell senior engineers to accept engineering manager promotions “for the experience,” but in 2026 he now advises against it unless you genuinely want to manage. AI and rapid technical change make stepping away from hands‑on work riskier; org flattening means far fewer Director/VP slots above EM; and cross‑company market data shows Staff+ ICs often earn more than EMs. He stays an EM only because he enjoys people, org design, and delivery more than coding.
 
----
+Anton Zaides advises senior engineers who are unsure about management to wait. His case: technical change rewards staying hands-on, corporate flattening has narrowed the management ladder, and Staff roles can pay 20–30% more elsewhere. He remains an engineering manager because he enjoys it and believes experienced, technical managers retain valuable skills. HN emphasized that management is a career change into people, delivery, and organizational work—not an inevitable promotion—and argued titles, compensation, advancement, and even AI’s practical impact vary too widely by company and industry for universal advice.
 
 ### Comment pulse
-- Titles are noisy signals → “senior/staff/principal/CTO” vary wildly by org; only internal ladders and big-tech levels are consistently meaningful for hiring and comp.  
-- Management is a real career change → EMs own people, delivery, and HR overhead more than tech; Peter Principle and EM as a terminal “execution” role are common outcomes.  
-- Pace-of-change framing is contested → some see AI barely affecting daily work so far—counterpoint: newcomers feel overwhelmed because they’re still ramping on “normal” industry tooling.
 
----
+- Engineering titles are internally useful for pay and review rubrics but poorly portable; responsibilities overlap drastically across organizations.
+- EM can be a satisfying terminal role — counterpoint: Director openings are scarce, job mobility may shrink, and accountability rises.
+- Choosing by optimization risks the Peter Principle; enjoying people management matters more than treating it as automatic progression.
 
 ### LLM perspective
-- View: Treat EM vs IC as a fork in profession, not a promotion step; assume switching back later will be hard.  
-- Impact: Senior ICs retaining deep technical skill gain bargaining power as AI tools commoditize average coding and middle-management layers shrink.  
-- Watch next: Compare future comp bands and headcounts for EM vs Staff+ roles at large firms; track AI-assisted “manager tooling” adoption.
+
+- **View:** The article’s timing is provisional; the durable test is whether someone wants managerial work when promotion and pay disappear.
+- **Impact:** Ambivalent seniors should deepen IC scope; motivated managers should preserve technical fluency without treating management as part-time coding.
+- **Watch next:** Management hiring, IC-manager compensation, span ratios, promotion rates, AI adoption by role, and return paths to engineering.

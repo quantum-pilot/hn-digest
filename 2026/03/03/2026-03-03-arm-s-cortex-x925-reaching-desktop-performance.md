@@ -3,18 +3,17 @@
 - Score: 258 | [HN](https://news.ycombinator.com/item?id=47229344) | Link: https://chipsandcheese.com/p/arms-cortex-x925-reaching-desktop
 
 ### TL;DR
-Arm’s Cortex X925 is a very wide, high‑end CPU core that finally matches top x86 desktop cores (AMD Zen 5, Intel Lion Cove) in single‑thread SPECint performance at just ~4 GHz. It does this via a 10‑wide front end, huge out‑of‑order window (~500+ in‑flight ops), strong branch prediction, and fast 2–3 MB L2. However, 128‑bit vectors and aarch64 code density leave it clearly behind Zen 5 in heavy floating‑point / vector workloads, and current DSU/L3 and ecosystem limits still constrain its desktop/gaming potential.
 
----
+Testing Nvidia’s GB10 at 4GHz, the review finds Arm’s 10-wide Cortex-X925 roughly matches desktop AMD Zen 5 and Intel Lion Cove cores in SPEC CPU2017 integer performance. Its strong branch predictor, approximately 525-instruction out-of-order window, high IPC, 64KB L1 caches, and 2MB L2 offset lower clocks. Zen 5 retains a clear floating-point lead, partly because X925’s 128-bit vectors require more instructions, sometimes over twice as many. HN called missing power data a major gap and wanted comparisons with Apple cores, newer Arm C1 Ultra, and fully vectorized AVX-512 workloads.
 
 ### Comment pulse
-- Desktop relevance of power → Some want perf/W data; others say desktops care more about cooling limits than efficiency per se.  
-- Vector/FP gap → Narrow 128‑bit vectors and lower load bandwidth make X925 far weaker than AVX‑512 CPUs in optimized FP/array code.  
-- Platform context → Readers miss Apple Silicon comparisons; others argue Apple’s closed ecosystem makes its cores less relevant for general-purpose, Linux‑friendly hardware.
 
----
+- X925 reaches parity through IPC rather than frequency, but results vary with instruction count, memory behavior, and compilation.
+- Six vector pipes look broad — counterpoint: four load units and narrow registers can starve arithmetic and magnify Zen 5’s width advantage.
+- Weak Arm memory ordering may expose concurrency bugs; language memory models and compilers already require portable synchronization on x86 too.
 
 ### LLM perspective
-- View: X925-class Arm cores make high-performance Arm desktops viable, broadening targets for native Arm builds of AI tooling and runtimes.  
-- Impact: Compiler/num‑library authors must optimize aarch64 vector codepaths aggressively, or Arm will lag badly on FP-heavy ML and HPC workloads.  
-- Watch next: Independent perf/Watt data, Arm C1 follow‑ups, larger DSUs/L3s, and broader Linux-first Arm workstation designs from OEMs.
+
+- **View:** Desktop-class core performance is established, but platform competitiveness still depends on efficiency, memory, software, and implementer execution.
+- **Impact:** Arm partners gain credible workstation silicon; AMD and Intel face stronger architectural competition beyond mobile.
+- **Watch next:** Package power, process node, Apple and C1 comparisons, AVX-512 workloads, gaming, and larger-L3 designs.

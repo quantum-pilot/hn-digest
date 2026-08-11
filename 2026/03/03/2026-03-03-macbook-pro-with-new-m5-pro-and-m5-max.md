@@ -4,20 +4,16 @@
 
 ### TL;DR
 
-Apple’s new 14‑ and 16‑inch MacBook Pros use M5 Pro/Max chips built on a dual‑die “Fusion” SoC with up to 18 CPU cores, Neural Accelerators in every GPU core, up to 128GB unified memory, and 2x faster SSDs. Apple pitches 4x AI and 50% GPU gains vs M4, plus Wi‑Fi 7, Thunderbolt 5, and 24‑hour battery, starting at $2,199. Hacker News discussion is skeptical of Apple’s narrow AI benchmarks, RAM/pricing strategy, and push to upsell users whose M1 laptops still feel fast.
-
----
+Apple’s new 14- and 16-inch professional laptops use two-die M5 Pro or Max chips with up to 18 CPU cores, Neural Accelerators in every GPU core, and claimed gains of 30% in CPU and 50% in graphics performance. Memory scales to 64GB at 307GB/s or 128GB at 614GB/s; SSDs reach a claimed 14.5GB/s, with 1TB or 2TB starting capacity. Prices begin at $2,199 for Pro and $3,599 for Max. Commenters questioned AI benchmarks focused on prompt prefill and saw long-lived M1 systems as the strongest reason not to upgrade.
 
 ### Comment pulse
 
-- AI speed claims hinge on narrow “time to first token” benchmark with a 14B 4‑bit model → commenters want throughput tests and independent reviews.  
-- Apple touts Neural Accelerators for local LLMs → some see opportunity; others say it’s GPU marketing — counterpoint: privacy and hardware margins favor on-device AI.  
-- Many M1 Pro/Max users still find machines fast with strong battery → “never been a better time to upgrade” copy feels like manufactured urgency.
-
----
+- Neural Accelerators speed matrix-heavy prompt prefill, not token-by-token decode → independent output-rate benchmarks remain essential.
+- M1 Pro and Max owners reported ample performance years later, making battery replacement more attractive than upgrading.
+- Local-model marketing clashes with expensive memory upgrades — counterpoint: available 64GB and 128GB ceilings enable workloads ordinary laptops cannot hold.
 
 ### LLM perspective
 
-- View: M5 Pro/Max aim to make MacBook Pro a serious on-device AI workstation, mainly for mid-size models and creative tooling.  
-- Impact: Best suited for developers, researchers, and enterprises needing private inference; price/RAM tiers still limit broader local-LLM adoption.  
-- Watch next: Independent ML benchmarks, framework support for Neural Accelerators, and whether revamped Siri/Apple Intelligence truly exploit on-device capacity.
+- **View:** The update targets bandwidth-bound professional workflows more convincingly than it creates broad upgrade urgency.
+- **Impact:** Researchers and creators gain faster local processing; satisfied M1 owners can defer another generation.
+- **Watch next:** Sustained thermals, decode speed, application-specific gains, high-memory availability, battery tests, and independent M4 comparisons.

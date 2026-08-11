@@ -3,19 +3,17 @@
 - Score: 183 | [HN](https://news.ycombinator.com/item?id=47225726) | Link: https://physics.aps.org/articles/v19/24
 
 ### TL;DR
-Physicists behind the OpenQuantumDesign project are publishing a complete, open-source blueprint for a small (~30‑qubit) trapped‑ion quantum computer, including hardware design, control electronics, and software stack. It’s meant for universities and industrial labs, not hobbyists: commenters estimate current bill of materials in the hundreds of thousands of dollars, mostly due to lasers, though some argue this could drop to “tens of thousands.” Discussion praises transparency but stresses that such devices are still noisy, limited, and often oversold in terms of real-world usefulness.  
-*Content inaccessible; summarizing from comments and referenced project materials.*
 
----
+Open Quantum Design, a Canadian nonprofit founded in 2024, is building a fully documented 30-qubit trapped-ion computer with the University of Waterloo. It plans to release hardware designs, CAD files, optical layouts, control software, and other intellectual property, aiming for roughly 99% two-qubit gate fidelity and algorithm demonstrations within a year. The goal is accessibility, transparent limits, reusable techniques, hardware education, and technological sovereignty—not leading-edge performance. Commenters welcomed academic reproducibility but stressed that lasers and operations likely keep the machine far beyond an individual hobbyist’s budget.
 
 ### Comment pulse
-- Open source quantum computer → Full designs and GitHub repos aim to standardize and democratize small-scale trapped‑ion platforms for research and teaching.  
-- Not for individuals → Estimated hardware cost is very high, dominated by laser systems; realistic users are well-funded labs, not casual builders.  
-- Terminology is misleading → “Quantum computer” spans from noisy toys to cutting-edge machines; most current industrial systems are near-useless—counterpoint: still valuable as experimental platforms.
 
----
+- A commenter estimated a six-figure bill of materials → the build-it-yourself framing realistically targets institutions, not weekend hobbyists.
+- Cheaper laser systems could reduce replication costs substantially, though continued operation would remain specialized and expensive.
+- Skeptics called current machines noisy and useless — counterpoint: this project explicitly prioritizes learning and transparency over commercial advantage.
 
 ### LLM perspective
-- View: Open hardware lowers barriers to learning real quantum engineering, even if current devices aren’t practically useful.  
-- Impact: Best near-term value is training students, validating control techniques, and benchmarking error-correction schemes on real hardware.  
-- Watch next: Cost curves for lasers/control gear, replication reports from universities, and open benchmarking against cloud quantum services.
+
+- **View:** Open hardware can be valuable infrastructure before quantum computing demonstrates a commercially useful application.
+- **Impact:** Universities and startups gain shared designs for training hardware specialists and testing cross-platform software.
+- **Watch next:** Published bill of materials, measured gate fidelity, algorithm demonstration, uptime, and independent reproductions.

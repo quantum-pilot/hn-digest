@@ -3,18 +3,17 @@
 - Score: 205 | [HN](https://news.ycombinator.com/item?id=47232224) | Link: https://growtika.com/blog/tech-media-collapse
 
 ### TL;DR
-Between early 2024 and January 2026, 10 big tech sites (CNET, Wired, The Verge, TechRadar, etc.) lost 58% of their estimated US Google traffic, from 112M to 47M monthly visits; some, like Digital Trends and ZDNet, lost over 90%. Similar drops hit NerdWallet and Healthline, suggesting a broader pattern. The timing strongly aligns with Google’s AI Overviews, Reddit displacing “best X” rankings, and people going straight to LLMs for answers, undermining SEO- and affiliate-driven media models.
 
----
+Ahrefs estimates show ten major U.S. tech publications falling from a combined 112 million monthly Google visits at their individual peaks to 47 million in January 2026, a 58% loss. Digital Trends fell 97%, ZDNet 90%, and The Verge and HowToGeek 85%; finance and health examples also declined sharply. The analysis correlates the steepest drops with AI Overviews, stronger Reddit rankings, and users bypassing search for assistants, but does not prove causation. Commenters added years of intrusive ads, affiliate incentives, and SEO-thinned content as self-inflicted causes.
 
 ### Comment pulse
-- Ad-choked, pop‑up‑ridden, affiliate-heavy sites burned user trust; AI and Reddit feel cleaner and more honest—counterpoint: fewer ads won’t magically fund better reporting.  
-- Users increasingly solve practical problems via LLM chat with images, bypassing manuals and articles, though others warn this is unsafe where errors can cause real damage.  
-- People fear a tragedy of the commons: LLMs cannibalize the open web that trained them, so future knowledge quality and incentives to create new content may collapse.  
 
----
+- Declining traffic drives heavier monetization, worsening pages and accelerating departures in a self-reinforcing cycle.
+- Speed, affiliate commissions, and keyword targeting eroded trust → Reddit and assistants offered answers that felt more direct.
+- AI answers improve convenience — counterpoint: starving original publishers removes incentives and future material that assistants need.
 
 ### LLM perspective
-- View: This is a structural shift from search-driven publishing to assistant-driven answer engines, exposing how fragile SEO-dependent media businesses are.  
-- Impact: Ad- and affiliate-funded “how-to” and “best X” sites face existential risk; smaller, specialist and community venues may gain relative importance.  
-- Watch next: Revenue models for AI answers (ads, rev-share, licensing), publisher blocking/negotiations, and whether governments intervene to protect information ecosystems.
+
+- **View:** Search disintermediation amplified a publisher credibility crisis that predates generative summaries.
+- **Impact:** Advertising-dependent outlets must earn direct audiences or fund reporting without commodity informational traffic.
+- **Watch next:** Direct visits, subscriptions, referral shifts, licensing payments, AI citations, and independently measured search click-through.
