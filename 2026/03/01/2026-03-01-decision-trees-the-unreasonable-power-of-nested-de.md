@@ -2,19 +2,18 @@
 
 - Score: 380 | [HN](https://news.ycombinator.com/item?id=47204964) | Link: https://mlu-explain.github.io/decision-tree/
 
-## TL;DR
-The article is a visual, intuitive walkthrough of decision trees: how they recursively split feature space (e.g., tree height/diameter) into regions using if-then rules, and how training chooses splits by maximizing information gain, computed from entropy as a measure of label impurity. It explains the ID3 algorithm, compares entropy with Gini impurity, and highlights key weaknesses: overfitting with deep trees and high variance from small data perturbations. Pruning and ensembling into random forests are presented as core remedies. Hacker News discussion adds practical tricks, concerns about explainability, and performance comparisons with neural networks.
+### TL;DR
 
----
+The explainer builds a decision tree by repeatedly splitting trunk height and diameter until leaves predict apple, cherry, or oak. Information gain greedily chooses feature thresholds using entropy to measure impurity; regression leaves instead average values. Unrestricted splitting makes deep trees memorize noise, while small data perturbations can radically change their structure. Depth, leaf-size, and leaf-count constraints reduce overfitting; ensembles such as random forests reduce variance. HN highlighted fast inference and hybrid features, but warned that deep or boosted trees lose their celebrated interpretability and depend heavily on feature engineering.
 
-## Comment pulse
-- Hybrid pipelines: learn a good linear classifier, add its score as a feature, then train boosted trees → trees fix non-linear leftovers; feature engineering remains critical.  
-- Explainability is overrated for deep trees: 10–15 levels become opaque like neural nets—counterpoint: shallow trees and per-path inspection still yield useful local explanations.  
-- Performance: decision trees and boosted variants can be orders of magnitude faster at inference than small neural nets, crucial in low-latency or embedded settings.
+### Comment pulse
 
----
+- Adding a linear classifier’s score as a feature lets shallow trees capture residual structure; specialized oblique and model trees formalize related ideas.
+- CERN users valued boosted trees’ speed and explainability — counterpoint: beyond a few levels, traced decisions can become another opaque jungle.
+- For low-latency inference, one commenter found small neural networks more accurate but roughly two orders of magnitude slower.
 
-## LLM perspective
-- View: Decision trees shine on tabular data when paired with regularization, boosting, and simple diagnostics for local interpretability.  
-- Impact: Most relevant to practitioners needing fast, inspectable models: finance, physics triggers, ads, industrial control, and embedded ML.  
-- Watch next: Compare latency/accuracy of boosted trees vs compact NNs; tools to approximate NNs with trees; follow-up on random forests.
+### LLM perspective
+
+- **View:** Trees are strongest when axis-aligned rules match engineered features and operational constraints reward speed and inspectability.
+- **Impact:** They remain compelling for structured, latency-sensitive problems, but brittle single trees need regularization or ensembles.
+- **Watch next:** Cross-validation, calibration, perturbation tests, feature drift, inference budgets, and whether explanations remain useful at deployed depth.

@@ -3,18 +3,17 @@
 - Score: 137 | [HN](https://news.ycombinator.com/item?id=47206663) | Link: https://beabetterdev.com/2026/03/01/ai-is-making-junior-devs-useless/
 
 ### TL;DR
-The author argues AI makes it dangerously easy for junior developers to appear productive while skipping the struggle that builds real engineering intuition. Senior value isn’t typing speed but pattern-recognition from past failures, and many juniors are now bypassing that apprenticeship. He proposes: deeply learning fundamentals; studying outage postmortems; deliberately debugging before asking AI; never shipping code you don’t understand; and prompting AI for trade‑offs, not just answers. HN comments extend this into education models, incentives, and fears of “prompt monkey” careers.
 
----
+The essay says AI creates “shallow competence”: juniors ship quickly without understanding design choices, missing the debugging struggles and production failures that build senior judgment. Its remedy is deliberate practice: learn fundamentals, study postmortems, investigate errors before prompting, take neglected tickets and on-call work, defend every committed line, and ask AI for alternatives and tradeoffs rather than answers. HN agreed AI should tutor rather than replace practice, but located the failure in employers avoiding the training tax. If every firm poaches seniors instead of developing juniors, the talent pipeline collapses.
 
 ### Comment pulse
-- Learning path: avoid AI early, then reintroduce it as tutor once intuition forms → mirrors calculators/Mathematica in math education, but demands strong self-discipline.  
-- Training tax: companies have always lost money on juniors; AI plus churn/salary compression pushes many to skip training entirely and just poach seniors—counterpoint: some firms keep juniors for cost structure and social obligations.  
-- Pipeline risk: if everyone replaces “as-good-as-junior” work with LLMs, few new seniors emerge; prisoner’s dilemma leads to long‑term shortage and lower-quality, AI-patched codebases.
 
----
+- Manual practice remains essential — counterpoint: AI can accelerate diagnosis and personalize explanations after learners first form and test their own hypotheses.
+- Companies historically accepted junior “negative work” to create seniors; quarterly incentives now favor poaching trained talent and externalizing that industry-wide investment.
+- Some engineers fear becoming code-reviewing agent managers; others find new satisfaction in shaping systems, exploring alternatives, and focusing on customer outcomes.
 
 ### LLM perspective
-- View: Using AI as a Socratic tutor (asking “why,” trade-offs, alternatives) best preserves skill formation while exploiting its strengths.  
-- Impact: Career resilience shifts toward those who can debug systems, read postmortems, and reason about architecture over pure implementation.  
-- Watch next: Structured preceptorship/apprenticeship programs that integrate mandatory “no-AI” phases and AI-assisted reflective practice into junior onboarding.
+
+- **View:** The bottleneck is no longer information access but preserving feedback loops that turn mistakes into judgment.
+- **Impact:** Juniors lose paid learning opportunities; employers eventually face scarcer, costlier engineers capable of supervising generated systems.
+- **Watch next:** Apprenticeships, entry-level hiring, retention incentives, review quality, and whether AI-assisted cohorts advance without widening skill gaps.

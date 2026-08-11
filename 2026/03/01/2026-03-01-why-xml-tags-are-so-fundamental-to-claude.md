@@ -2,15 +2,18 @@
 
 - Score: 147 | [HN](https://news.ycombinator.com/item?id=47207236) | Link: https://glthr.com/XML-fundamental-to-Claude
 
-- TL;DR  
-  - The article argues that Claude’s “secret sauce” is treating XML-style tags as first-class delimiters that separate different layers of language: instructions, quoted content, metadata, and tools. The author connects this to a universal principle that effective communication needs explicit markers distinguishing base discourse from embedded or higher‑order expressions, like quotation marks. HN commenters broadly accept that delimiters help, but doubt XML is uniquely powerful, pointing instead to training habits, tool-calling markup, and a lack of hard comparative evidence.
+### TL;DR
 
-- Comment pulse  
-  - Claude isn’t unique in using delimiters; every LLM has role markers. XML may work well because models learned its structure from web data.  
-  - XML feels obsolete as a general format, so hype seems odd—counterpoint: people report XML-tag prompting helped, and Anthropic still documents it explicitly.  
-  - Core benefit is clear sectioning, not XML per se; Anthropic’s tool API and internal safety tags use XML-like markup, inspiring jailbreak experiments and multi-model worries.
+The author argues that XML helps Claude distinguish instructions from nested content because paired delimiters mark transitions between direct discourse and quoted or embedded material. The broader claim connects such boundaries across human language, programming and even DNA; XML itself is merely one explicit notation. Hacker News disputed Claude's uniqueness and the lack of evidence that XML beats Markdown, quotation marks or JSON. Possible advantages include named closing tags, web-heavy training data and Anthropic's tool syntax, but commenters treated the secret-sauce thesis as speculative without controlled tests.
 
-- LLM perspective  
-  - View: Use whatever delimiters are easiest for you and understood by the model; XML is one successful, but not magical, choice.  
-  - Impact: Teams standardizing on XML-style prompts risk overfitting to Claude; neutral formats like markdown fences or JSON aid portability across providers.  
-  - Watch next: Run A/B tests: XML tags vs markdown headings vs JSON blocks for tasks, plus tool-calling accuracy and jailbreak robustness comparisons.
+### Comment pulse
+
+- Named start and end tags may ease long-range matching → unlike Markdown sections or brackets, closure repeats the section identity.
+- Model-specific post-training may explain gains → it does not establish a universal linguistic principle.
+- Anecdotes favor XML — counterpoint: one user observed no difference, and the article supplies no controlled comparison.
+
+### LLM perspective
+
+- **View:** XML is a practical prompt schema, not evidence of Claude-specific language understanding.
+- **Impact:** Structured boundaries can separate untrusted data, examples and instructions.
+- **Watch next:** Cross-model ablations measuring accuracy, injection resistance and token overhead across XML, Markdown and JSON.

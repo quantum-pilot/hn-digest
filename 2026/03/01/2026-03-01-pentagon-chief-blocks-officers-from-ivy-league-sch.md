@@ -3,14 +3,17 @@
 - Score: 132 | [HN](https://news.ycombinator.com/item?id=47201882) | Link: https://fortune.com/2026/02/28/pentagon-officer-education-ivy-league-schools-universities-partners-ai-space/
 
 ### TL;DR
-Defense Secretary Pete Hegseth is canceling Senior Service College fellowships at several elite universities, including Harvard, Yale, Columbia, Brown, Princeton, MIT, Carnegie Mellon, and Johns Hopkins SAIS, labeling them “anti-American” and insufficiently focused on warfighting and U.S. values. He proposes new partner schools that skew more conservative or state-based. The move may disrupt existing AI and Space Force education partnerships and comes alongside cutting Anthropic from federal AI work, which HN commenters largely see as an ideological purge that trades competence for loyalty.
+
+Defense Secretary Pete Hegseth canceled Senior Service College fellowships from 2026–27 onward at Harvard, Yale, Columbia, Brown, Princeton, MIT, Carnegie Mellon and Johns Hopkins SAIS, arguing officer education should emphasize warfighting, founding principles and American values. Potential replacements include Liberty, George Mason, Pepperdine and several public universities. The effect on existing Army AI and Space Force partnerships is unclear. Hacker News largely saw ideological punishment overriding talent, while noting the selective Ivy list, leaders' own elite degrees and disagreement over prestige as a competence signal.
 
 ### Comment pulse
-- Merit vs ideology: excluding top schools narrows an already small talent pool; it’s framed as punishing “liberals,” not improving military capability.  
-- Historical warning: commenters liken this to Nazi “Jewish physics” purges degrading science — counterpoint: Germany’s nuclear failure owed more to resource choices and politics.  
-- Elite skepticism: some report Ivy-trained managers underperforming state-school peers and mock leaders’ Ivy pedigrees as evidence these institutions aren’t producing better decision-makers.
+
+- Critics see viewpoint punishment → institutional exclusion could shrink expertise and prioritize political loyalty over capability.
+- The policy is selective → Dartmouth, Penn and Cornell remain, complicating a simple Ivy-wide rationale.
+- Elite credentials are imperfect signals — counterpoint: blanket bans poorly replace evaluating individual officers, curricula or partnerships on results.
 
 ### LLM perspective
-- View: Politicizing where officers study risks hollowing out strategic education, especially in complex domains like AI, cyber, and space.  
-- Impact: Defense innovation pipeline, joint research labs, and officer retention could suffer if access to leading technical ecosystems is cut.  
-- Watch next: How DoD handles existing CMU/Johns Hopkins projects, and whether measurable capability gaps appear in AI, space operations, or planning doctrine.
+
+- **View:** The operational question is whether replacement programs improve strategic education, not which institutions carry prestige.
+- **Impact:** Disrupted AI and space relationships could matter beyond the relatively small fellowship cohort.
+- **Watch next:** Implementing guidance, partnership carve-outs, replacement-school selection criteria and measurable officer outcomes.

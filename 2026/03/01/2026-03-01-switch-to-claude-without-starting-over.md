@@ -2,15 +2,18 @@
 
 - Score: 515 | [HN](https://news.ycombinator.com/item?id=47204571) | Link: https://claude.com/import-memory
 
-- TL;DR  
-  - Anthropic’s “Import Memory” lets you migrate instructions, preferences, and project context from other AI assistants into Claude with a single copy‑paste. You run a provided prompt on the old assistant to dump everything it has “learned” about you, then paste that text into Claude’s memory settings, which become your account‑wide, editable memory with per‑project separation on paid plans. HN debates persistent memory’s usefulness vs privacy risks, vendor lock‑in, weak cross‑tool standards, and Claude’s relatively tight token/session limits.
+### TL;DR
 
-- Comment pulse  
-  - Persistent account‑wide memory feels indispensable for ongoing projects to some, but like unwanted bias to others—counterpoint: many prefer incognito-style, no-bleed sessions.  
-  - The migration prompt exposes all stored “memories”; some suspect providers might degrade or throttle such requests, though others argue reputational risk makes deliberate sabotage unlikely.  
-  - Lack of shared standards (AGENTS.md vs CLAUDE.md, MCP conventions) and differing token limits/performance create real switching costs despite features like Claude’s memory import.
+Anthropic now lets paid Claude users transfer memory by giving another assistant an export prompt, then pasting the result into editable Claude memory. The pitch is continuity for preferences and recurring context, with projects kept separate. Hacker News split over whether accumulated knowledge makes everyday and business work substantially better or silently contaminates supposedly independent answers. Others argued that memory solves only one switching cost: incompatible skills, MCP configuration, instruction-file conventions, harness behavior, usage limits and pricing still impede genuine portability.
 
-- LLM perspective  
-  - View: Cross‑assistant memory portability nudges the ecosystem toward user‑owned profiles, but still relies on clunky, prompt‑mediated scraping instead of APIs.  
-  - Impact: Vendors now compete on turning long‑term context into automation, while still keeping personal, project, and organizational data properly separated.  
-  - Watch next: Expect pressure for standard agent configs, true memory export/import APIs, and clearer UI to toggle scopes: session, project, account, workspace.
+### Comment pulse
+
+- Persistent memory compounds value → recurring business context can expose inconsistencies that isolated sessions miss.
+- Contamination is real → hidden prior answers can make an apparently independent result circular or biased.
+- Import lowers one switching cost — counterpoint: incompatible configuration, harness behavior, limits and account economics remain.
+
+### LLM perspective
+
+- **View:** Treat exported memory as user-editable configuration, not authoritative history.
+- **Impact:** Portability improves only when people can inspect scope, provenance and deletion behavior.
+- **Watch next:** Standard memory schemas and AGENTS.md-compatible instruction discovery across vendors.

@@ -3,18 +3,17 @@
 - Score: 166 | [HN](https://news.ycombinator.com/item?id=47202808) | Link: https://9to5google.com/2026/02/27/samsung-galaxy-update-android-recovery-menu-removed/
 
 ### TL;DR
-Samsung’s One UI 8.5 update is stripping key options from the Android recovery menu on Galaxy phones: ADB/SD-card OS sideloading, cache wipe, logs, and tests. Only reboot, factory reset, and power off remain, and new security policies block downgrades. HN commenters note this doesn’t affect APK sideloading and OS zips already needed Samsung signatures on locked devices, but see it as another step in Samsung’s long shift away from tinkerers and toward a tightly controlled, Apple-like ecosystem, pushing enthusiasts to Pixel/GrapheneOS or Fairphone.
 
----
+Reports indicate One UI 8.5 or February 2026 updates remove recovery options for applying signed system updates through ADB or SD card, wiping cache, viewing logs and running tests, leaving only reboot, factory reset and power-off. January builds still showed the full menu, and Samsung gave no explanation; a security-policy notice also warned against downgrades. Hacker News stressed that this does not block ordinary APK sideloading. The dispute instead concerns shrinking diagnostics, firmware control and an established retreat from bootloader-friendly devices.
 
 ### Comment pulse
-- Change is mostly symbolic → OS-zip sideloading already required Samsung signatures; real barrier was locked bootloaders, though downgrade/bootloader-workarounds still exist for now.  
-- Samsung’s openness collapsed post‑eFuse and SafetyNet/Play Integrity → better for regulated customers, worse for hacking; counterpoint: rooted phones can still pass integrity checks and run banking apps.  
-- Users vote with feet → switching to Pixel+GrapheneOS or Fairphone for control and timely updates, but note these rely on a shrinking set of OEM partners.
 
----
+- Practical loss is narrow → app sideloading remains, while manual firmware updates, diagnostics and cache wiping disappear.
+- Tinkerers see a long trend → eFuse bootloaders and Play Integrity already made modification less viable.
+- Lockdown may help enterprise security — counterpoint: control-seeking buyers increasingly prefer GrapheneOS, Fairphone or explicitly reflashable hardware.
 
 ### LLM perspective
-- View: This is incremental lock‑down, shrinking official recovery capabilities while leaving APK sideloading as a pressure‑release valve.  
-- Impact: Power users, modders, refurbishers, and informal repair shops lose a standard, OEM-supported path for recovery and manual OS installs.  
-- Watch next: Samsung’s official rationale, whether other Android OEMs follow, and whether GrapheneOS’s planned OEM device materially shifts options.
+
+- **View:** The key unknown is whether removal reaches every model, carrier and region.
+- **Impact:** Support workflows may lose self-service diagnostics even though ordinary application installation is unaffected.
+- **Watch next:** Samsung's explanation, final One UI builds, bootloader policy and any alternative recovery paths.

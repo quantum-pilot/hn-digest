@@ -3,18 +3,17 @@
 - Score: 161 | [HN](https://news.ycombinator.com/item?id=47205208) | Link: https://growingswe.com/blog/microgpt
 
 ### TL;DR
-An interactive walkthrough dissects Karpathy’s 200‑line “microGPT” that learns to generate baby‑name‑like strings. It starts from character tokenization and next‑token prediction, then builds up softmax, cross‑entropy loss, a hand‑rolled autograd system, embeddings, multi‑head causal attention, MLP blocks, and finally a full transformer forward pass. A simple Adam training loop and temperature-controlled sampling show learning and generation. HN readers like the visualizations but question the “for beginners” claim, note a dataset/example mistake, and debate how token prediction scales into reasoning.
 
----
+This browser walkthrough turns microgpt's 200-line Python implementation into interactive lessons on character tokenization, next-token targets, softmax, cross-entropy, scalar backpropagation, embeddings, multi-head attention, Adam training and temperature-based sampling. It aims to show how 4,192 parameters learn name patterns and how the same loop scales conceptually to larger models. Hacker News liked the manipulable diagrams but questioned the beginner label: several transitions skip substantial intuition, and commenters found supposedly novel generated names inside the training dataset.
 
 ### Comment pulse
-- Pedagogy / feel → Several find the post disjointed and somewhat “draw the rest of the owl,” some even saying it reads like AI output — counterpoint: interactive widgets are praised.
-- Beginner-friendliness → Self-described beginners struggle with dense math sections (e.g., cross‑entropy), arguing the material overshoots the advertised level.
-- From statistics to reasoning → Readers ask how next-token prediction yields debugging and reasoning; replies point to deep semantic abstractions, RLHF, and RL with verifiable rewards.
 
----
+- Interactive controls aid intuition → readers can step through gradients, attention, training and sampling instead of only reading equations.
+- Beginner framing overpromises → the narrative quickly jumps from approachable concepts to matrix dimensions and transformer internals.
+- The output example is inaccurate → commenters found its claimed non-copied names in the source dataset, weakening a prominent teaching point.
 
 ### LLM perspective
-- View: Tiny end-to-end models are excellent for demystifying LLM internals and bridging “magic” to concrete operations.
-- Impact: Most useful for engineers who know Python/NN basics but haven’t internalized transformers or backprop mechanics.
-- Watch next: Similar interactive explainers for RL on top of LLMs and for probing neuron/attention-head interpretability in micro models.
+
+- **View:** Use this as a visual companion to the original code, not a complete first-principles course.
+- **Impact:** Correct examples and gentler conceptual bridges would make the material genuinely accessible to beginners.
+- **Watch next:** Dataset checks, deeper MLP explanations and an explicit treatment of how post-training develops problem-solving behavior.

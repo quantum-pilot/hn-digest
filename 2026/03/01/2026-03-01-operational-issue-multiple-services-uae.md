@@ -3,14 +3,17 @@
 - Score: 150 | [HN](https://news.ycombinator.com/item?id=47209781) | Link: https://health.aws.amazon.com/health/status
 
 ### TL;DR
-An AWS availability zone in the ME-CENTRAL-1 (UAE) region went down after external objects struck a data center, causing sparks and fire. Fire crews cut power, including generators, and AWS is waiting for permission to re-energize, with recovery estimated to take hours. Other AZs in the region remain operational, so customers architected across multiple AZs are largely unaffected. The discussion focuses on physical risk to data centers, cloud high-availability assumptions, and whether DCs could become deliberate military targets.
+
+AWS reported that objects struck a ME-CENTRAL-1 data center, causing sparks and fire; responders shut down utility and generator power in mec1-az2. EC2, EBS, databases and networking APIs degraded while services shifted traffic and customers restored resources elsewhere. Hours of partial recovery were followed by another localized power failure in mec1-az3, leaving mec1-az1 unable to accept launches and raising DynamoDB and S3 errors. AWS then recommended another Region. Hacker News focused on correlated physical failures, staff safety and the limits of zone-only redundancy.
 
 ### Comment pulse
-- This incident validates multi-AZ design → apps spread across AZs continued running; single-AZ workloads lost access.  
-- Data centers as wartime targets → easier to bomb 50 DCs than hack thousands of services — counterpoint: cloud still has logical single points of failure.  
-- Physical safety vs uptime → AWS must weigh restoring service against risk of repeated strikes and on-site staff safety.
+
+- Early multi-zone redundancy protected many applications → the later loss of a second zone exposed correlated regional risk.
+- Fire response legitimately cut every power source → equipment continuity yields to responder safety.
+- Geographic separation improves resilience — counterpoint: cross-region designs add cost, latency, complexity and operational burden.
 
 ### LLM perspective
-- View: Treat AZs as failure domains vulnerable to physical events; design for region-level or multi-cloud redundancy for critical services.
-- Impact: Enterprises with single-AZ deployments in ME-CENTRAL-1 face downtime; SREs and architects will revisit resilience assumptions.
-- Watch next: AWS post-incident report, changes to regional design, and any industry guidance on data centers as potential conflict targets.
+
+- **View:** Availability Zones reduce routine failures but cannot guarantee independence during regional physical events.
+- **Impact:** Recovery plans need tested backups, spare regional capacity and procedures that avoid relying on impaired control-plane APIs.
+- **Watch next:** Power restoration, resource-recovery sequencing and AWS's account of why surviving-zone launches and regional services degraded.

@@ -3,18 +3,17 @@
 - Score: 371 | [HN](https://news.ycombinator.com/item?id=47206824) | Link: https://www.ivanturkovic.com/2026/02/25/ai-made-writing-code-easier-engineering-harder/
 
 ### TL;DR
-The essay argues that AI has made producing code fast and cheap, but quietly raised expectations for engineers. Output baselines increased without discussion, expanding roles from “coder” to overloaded generalist who must do architecture, product, and supervision of opaque AI-generated code. Reviewing and debugging that code is often harder than writing it, creating a burnout-inducing “acceleration trap,” especially harmful to juniors whose training work vanishes. The author urges leaders to reset metrics, clarify scope, protect junior pipelines, and help engineers adapt deliberately. HN debates both the message and whether the piece itself is AI-written.
 
----
+The article argues AI accelerates implementation while shifting the bottleneck to requirements, architecture, integration, security, review, deployment, and maintenance. Higher capacity produces workload creep: expectations and scope rise, engineers supervise more code with less decision context, craftsmanship becomes assembly-line review, burnout grows, and routine junior work disappears. It urges leaders to fund training, protect experimentation and entry-level hiring, define and compensate expanded roles, and measure outcomes and team health rather than output volume. HN debated authorship: suspected LLM prose weakened first-person credibility, though some readers found the diagnosis useful regardless.
 
 ### Comment pulse
-- Many readers see strong “LLM cadence” and repetition → they distrust the essay and resent AI-written thinkpieces diluting HN’s signal—counterpoint: style ≠ falsity.  
-- Others defend it as accurate and useful → but want provenance clarity, since AI-invented “from my experience” stories would be ethically misleading.  
-- Practical angle: AI lets non-programmers ship apps (e.g., surgeon with insecure backups) and shifts debate to whether we value coding itself or building outcomes.
 
----
+- Readers flagged repetitive, formulaic prose — counterpoint: others argued the operational diagnosis stands even if an LLM helped express it.
+- Undisclosed generation matters most where first-person experience supplies authority; editing genuine experience differs from inventing testimony from bullet points.
+- A surgeon’s exposed web backups illustrated unknown unknowns: generated application code can look competent while deployment mistakes leak databases, keys, and credentials.
 
 ### LLM perspective
-- View: AI shifts core engineering value from typing code to specifying, integrating, and validating complex systems under constraints.  
-- Impact: Organizations that ignore scope creep and training debt will see fragile systems, shallow expertise, and chronic burnout.  
-- Watch next: Emerging standards for AI-assisted code review, explicit LLM-disclosure norms, and new apprenticeship models where juniors learn by curating AI output.
+
+- **View:** Productivity needs end-to-end accounting; faster generation is no gain if comprehension, verification, and maintenance costs rise.
+- **Impact:** Engineers inherit broader accountability and cognitive load, while leaders risk mistaking code volume for sustainable delivery.
+- **Watch next:** Defect rates, review time, burnout, junior hiring, role compensation, and outcome-based engineering metrics.
