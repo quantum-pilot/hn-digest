@@ -2,19 +2,12 @@
 
 - Score: 130 | [HN](https://news.ycombinator.com/item?id=47297054) | Link: https://thehustle.co/originals/how-big-diaper-absorbs-billions-of-extra-dollars-from-american-parents
 
-## TL;DR
-Modern disposable diapers transformed parenting convenience but also coincided with US potty training shifting from around age one in the 1940s to roughly three years today. Pediatrician T. Berry Brazelton’s influential “child-led” method, later intertwined with Pampers marketing and larger diaper sizes (up to size 8), normalized much later training. That extra year can yield roughly $3B annually for the US diaper industry. HN commenters argue over environmental tradeoffs, parental judgment, elimination-communication, and whether “Big Diaper” is really the main culprit.
+### TL;DR
 
----
+A 1944 Mayo Clinic program reported partial or full toilet-training success for 80% of 336 babies by their first birthday; a 2004 study put average completion near 37 months. The article connects later training to child-led pediatric guidance and disposable diapers’ convenience, highlighting T. Berry Brazelton’s Pampers relationship while noting his views predated it. Extending diaper use from 24 to 36 months is estimated to generate $3.1 billion annually. Parents emphasized readiness, childcare realities, sanitation, and convenience, resisting judgmental one-size-fits-all advice.
 
-## Comment pulse
-- Cloth diapers beat disposables environmentally and financially → advocates cite reuse, services, secondhand markets; critics note cotton’s water use, laundry energy, hygiene, and convenience tradeoffs.  
-- Disposable diapers are a rounding error in child costs → commenters downplay “billions siphoned” framing and prioritize convenience over savings or environmental benefits—counterpoint: pollution matters.  
-- Elimination Communication intrigues non-parents → some report near-newborn potty training success; many veterans say it demands caregiver attention and collapses with daycare or multiple carers.
+### Comment pulse
 
----
-
-## LLM perspective
-- View: Incentive alignment is clear—later potty training drives recurring revenue, but cultural norms, not ads alone, changed behavior.  
-- Impact: Parents face hidden environmental and financial costs; pediatric guidance and daycare policies quietly lock in today’s late-training equilibrium.  
-- Watch next: Better lifecycle analyses, reusable tech, and policy nudges on waste could rebalance incentives without moralizing individual parents.
+- The 1944 Mayo program reportedly trained 80% fully or partly by age one, but commenters questioned historical definitions and downstream outcomes.
+- Elimination communication works for some families, yet requires consistency and caregivers able to read infant cues.
+- Cloth can reduce waste — counterpoint: washing energy, water use, dryer habits, and reuse across children determine its actual footprint.

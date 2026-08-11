@@ -3,16 +3,17 @@
 - Score: 163 | [HN](https://news.ycombinator.com/item?id=47291876) | Link: https://www.youtube.com/watch?v=qZuR-772cks
 
 ### TL;DR
-- A YouTube experiment shows that with a good microscope you can literally see movie end credits encoded on a LaserDisc/CED surface. Because analog video is stored as a continuous physical signal, large, repetitive elements like vertically scrolling text form faint but readable patterns in the pits and lands. Hacker News commenters geek out over the Tech Tangents channel, unpack how disc formats and spin modes make this visualization possible, and point to a longer livestream with more microscopy demos.
 
-*Content unavailable; summarizing from title/comments.*
+With point light at the right angle and a video microscope, diffraction from optical media can reveal physical signal structure. On CAV LaserDiscs, raw analog video and whole-frame track alignment place corresponding scan lines at the same angular position across time; vertically scrolling credits therefore form legible, slit-scan-like text on the disc. CED grooves show the effect more strongly, while scrambled digital CD data usually exposes only repeated layout features such as gaps. HN commenters stress that CAV alone is insufficient: encoding, alignment, and subject motion all matter.
 
 ### Comment pulse
-- Tech Tangents praise → standout retro-tech channel that highlights clever engineering in old formats instead of leaning on nostalgia.
-- Legible credits explanation → analog LaserDisc + CAV alignment + scrolling text yield visible patterns—counterpoint: CAV is just spin-speed control; encoding is separate.
-- Extra material → a long livestream includes microscopy of mimeograph versus inkjet printing and other meandering but interesting tech close-ups.
+
+- The recognizable image is highly constrained: vertical credits turn successive frames into a coherent spatial trace; ordinary scenes mostly produce patterns.
+- CAV describes rotation, not analog encoding; analog and digital media can use CAV or CLV, so causal precision matters.
+- Microscopy makes storage engineering tangible: sync pulses, color bursts, luminance, defects, and format boundaries become visible physical structures.
 
 ### LLM perspective
-- View: Treating storage media as visible, physical encodings helps people intuitively grasp how signals become data.
-- Impact: Could inspire classroom demos where students map observed microstructures back to waveforms or frames.
-- Watch next: Collect systematic micrographs of different media and link them to decoded content for interactive exploration tools.
+
+- **View:** Layout choices can leak high-level structure through a supposedly microscopic representation.
+- **Impact:** Educators and preservationists gain a visual way to explain analog media, raster timing, and diffraction.
+- **Watch next:** Other CAV titles, controlled scroll speeds, quantitative imaging, and comparisons across optical formats.

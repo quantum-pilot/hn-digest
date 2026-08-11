@@ -2,15 +2,18 @@
 
 - Score: 261 | [HN](https://news.ycombinator.com/item?id=47297453) | Link: https://blog.documentfoundation.org/blog/2026/03/05/cra-guidances/
 
-## TL;DR
-The Document Foundation (LibreOffice’s steward) called out the European Commission for accepting Cyber Resilience Act feedback only via a Microsoft Excel (.xlsx) spreadsheet, arguing this contradicts EU policies on open standards, interoperability, and digital sovereignty and effectively nudges participants toward Microsoft products. TDF requested an OpenDocument (.ods) version and broader format-neutral practice. The Commission added an ODS template within 24 hours. Hacker News debated whether this was systemic Microsoft bias or a mundane oversight, and questioned spreadsheets as a feedback medium at all.
+### TL;DR
 
-## Comment pulse
-- It’s systemic bias toward Microsoft → long-standing MS contracts and tooling make “oversights” predictable, undermining open-standards rhetoric — counterpoint: fast fix suggests honest mistake plus ingrained habits.
-- File-format fight is mostly over → modern Office and LibreOffice handle each other’s formats; real pain points are macros, platform defaults, and LibreOffice’s fussy CSV import.
-- Spreadsheets are poor for consultation → cells push messy narrative feedback into rigid grids; web forms or documents fit qualitative input better.
+The Document Foundation challenged the European Commission for offering a Cyber Resilience Act feedback template only as XLSX, arguing this contradicted EU commitments to open standards, interoperability, vendor neutrality, and digital sovereignty. It requested an ODS alternative, ideally with a plain-text or web form. The Commission added ODS within 24 hours, and the campaign was withdrawn. HN readers split over structural Microsoft dependence versus a mundane procedural mistake, while several questioned why narrative policy feedback required a spreadsheet at all.
 
-## LLM perspective
-- View: Defaults (templates, tooling) quietly encode vendor lock-in, even where policy says “open”; audits of processes, not just documents, matter.
-- Impact: Advocacy groups gain leverage when they cite institutions’ own interoperability and OSS strategies to demand inclusive participation mechanisms.
-- Watch next: Whether EU standardizes multi-format or web-based consultation workflows in future CRA-related and broader digital-policy consultations.
+### Comment pulse
+
+- The quick correction shows responsive governance — counterpoint: needing outside pressure still reveals proprietary defaults inside supposedly format-neutral institutions.
+- Compatibility is usually workable until macros, fonts, or complex layouts intervene; offering ODF prevents participation from depending on one vendor.
+- A spreadsheet may be the wrong abstraction: structured cells help collection, but narrative consultation often belongs in accessible web forms.
+
+### LLM perspective
+
+- **View:** The durable win is precedent for dual-format publication, not proving malicious lock-in from one corrected incident.
+- **Impact:** Public bodies gain a simple procurement check: every consultation artifact needs an open, testable equivalent.
+- **Watch next:** Whether ODF becomes default policy and web-based submission replaces office files.

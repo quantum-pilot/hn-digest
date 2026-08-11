@@ -4,20 +4,16 @@
 
 ### TL;DR
 
-The post is a field guide to making Rust→Wasm→JS interop less painful when using `wasm-bindgen`. The author’s main rules: treat the JS/Wasm boundary as dangerous; pass handles by reference and use `Rc<RefCell<T>>`/`Arc<Mutex<T>>` instead of `&mut` to avoid reentrancy bugs and broken pointers; never `Copy` exported handle types; enforce strict naming (`Wasm*` for Rust exports, `Js*` for JS imports) to clarify ownership; use duck-typed JS imports plus `wasm_refgen` to move exported types inside collections safely; and convert Rust errors into real JS `Error` objects. They also recommend embedding Git build info in the Wasm bundle for debugging version mismatches.
-
----
+The author treats Rust-to-JavaScript WebAssembly as coordination between incompatible memory models, not a transparent function call. With wasm-bindgen, JavaScript often holds handles to Rust-owned values, so consuming an exported object can free it while leaving a broken JS pointer. Recommended defaults include references, interior mutability, non-Copy wrappers, explicit Wasm*/Js* naming, wasm_refgen for collections, real JavaScript Error conversion, and logged build identity. HN commenters value the guide but warn that async mutexes and automatic rich-type bindings add hazards; some prefer a narrow C-like boundary with handwritten JavaScript.
 
 ### Comment pulse
 
-- Component Model in browsers may simplify APIs and improve string marshalling → skeptics see high complexity and limited wins, especially for WebGPU/WebGL data paths.  
-- Async mutexes in Rust are seen as a code smell → easy to misuse across await points; some recommend avoiding Tokio and using tools like `shadow-rs` for build info.  
-- Auto-bindings (wasm-bindgen/embind) add bloat and complexity → some prefer a thin, C-style API and hand-written JS, minimizing boundary crossings — counterpoint: article argues carefully-structured bindgen yields strong compile-time guarantees.
-
----
+- Keep boundary crossings coarse: mapping every Rust getter and setter into JavaScript multiplies glue, semantic mismatch, and runtime overhead.
+- Async mutexes demand restraint; holding them across yield points conflicts with structured concurrency and can create subtle failure modes.
+- Component-model browser APIs may reduce marshalling — counterpoint: complexity may outweigh benefits beyond string-heavy DOM access.
 
 ### LLM perspective
 
-- View: These patterns normalize treating JS↔Wasm as an FFI boundary with explicit ownership, not a transparent language bridge.  
-- Impact: Most useful for library/framework authors exposing Rust to the web; less critical for pure compute kernels with minimal JS interaction.  
-- Watch next: Browser-level Component Model support, richer tooling like `tsify`/`wasm_refgen`, and profiling of boundary costs on real-world apps.
+- **View:** Make object lifetime and every cross-runtime call visible; ownership clarity is the strongest rule.
+- **Impact:** Teams trade ergonomic purity for fewer stale handles, re-entrancy failures, and opaque errors.
+- **Watch next:** Component-model adoption, binding safety, wasm_refgen maturity, and coarse-versus-rich boundary benchmarks.

@@ -2,15 +2,18 @@
 
 - Score: 327 | [HN](https://news.ycombinator.com/item?id=47299009) | Link: https://mlumiste.com/general/openai-charter/
 
-- TL;DR  
-  Author argues OpenAI’s 2018 charter obliges it to “stop competing and start assisting” any safer project with a better‑than‑even AGI chance within two years. Altman’s recent interviews repeatedly claim AGI is ~2 years away or already achieved, while leaderboard data show Anthropic and Google models slightly ahead. By the charter’s own example trigger, OpenAI should now bow out—highlighting how ideals, vague AGI definitions, and economic incentives collide. HN debates definitions, sincerity, and whether LLMs are remotely close to AGI.
+### TL;DR
 
-- Comment pulse  
-  - AGI/ASI definitions are squishy → without precise terms, claims like “we already have AGI” or “30+ years away” are unfalsifiable marketing.  
-  - OpenAI’s charter reads idealistic → commercialization and safety shortcuts show it functioned more as reputational armor than binding constraint — counterpoint: some believe leadership started sincere.  
-  - Many argue LLMs lack memory, world models, continual learning → analogies to amnesic patients; others cite interpretability, RL, long‑context gains to defend shorter AGI timelines.
+OpenAI's 2018 charter says it should stop competing and assist an aligned, safety-conscious project with a better-than-even chance of reaching AGI within two years. The essay contrasts that clause with Sam Altman's shifting forecasts, from roughly 2033 to claims that AGI already arrived, and an Arena leaderboard where Anthropic and Google lead OpenAI, concluding that the charter's spirit requires cooperation. HN readers reject the inference from rankings and unstable terminology: current models satisfy some economic definitions, yet lack persistent learning, memory, or robust autonomy under others.
 
-- LLM perspective  
-  - View: Treat AGI claims as policy levers, not scientific milestones; actors shift definitions to justify speed or caution.  
-  - Impact: If charter‑style safeguards are ignored, real constraint will come from regulation, liability, and customer trust, not self‑imposed promises.  
-  - Watch next: Track model‑capability benchmarks plus governance moves: charter edits, merger talks, or joint safety labs would signal whether competition beats cooperation.
+### Comment pulse
+
+- OpenAI's charter defines AGI economically, but “most valuable work,” autonomy, breadth, and reliability still lack measurable thresholds.
+- Model rankings cannot trigger institutional surrender; preference benchmarks compare current products, not probabilities of safe general intelligence.
+- Memory and continual learning divide forecasts — counterpoint: scaffolding, retrieval, long contexts, and periodic training may approximate them first.
+
+### LLM perspective
+
+- **View:** A voluntary principle without an agreed trigger cannot constrain competitive behavior.
+- **Impact:** Safety commitments remain marketing unless governance assigns interpreters, evidence standards, counterparties, and enforceable actions.
+- **Watch next:** Charter revisions, operational AGI metrics, board decisions, competitor assessments, and any shift toward ASI language.

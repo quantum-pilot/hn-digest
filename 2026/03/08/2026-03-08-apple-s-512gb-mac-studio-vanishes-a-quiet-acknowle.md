@@ -3,14 +3,17 @@
 - Score: 348 | [HN](https://news.ycombinator.com/item?id=47296302) | Link: https://arstechnica.com/gadgets/2026/03/apples-512gb-mac-studio-vanishes-a-quiet-acknowledgement-of-the-ram-shortage/
 
 ### TL;DR
-- Apple quietly dropped the 512GB RAM option for its M3 Ultra Mac Studio and raised the 256GB RAM upgrade price from $1,600 to $2,000. The article ties this to a global DRAM crunch caused by AI demand for high‑bandwidth memory, which is diverting production capacity and driving prices up. HN commenters see it less as a one-off: they frame it as Apple reallocating scarce RAM to future AI‑oriented Macs, navigating expiring supply contracts, and protecting margins while demand for local LLM workloads grows.
+
+Between March 4 and 6, Apple removed the 512 GB memory option from its M3 Ultra desktop, while raising the 256 GB upgrade price from $1,600 to $2,000. The discontinued $9,499 configuration was niche but unusually useful for memory-heavy graphics and local-model workloads. The article links the move to an AI-driven DRAM shortage as manufacturers prioritize HBM. Commenters offered a competing explanation: Apple may be exhausting old-chip inventory before a new Ultra generation, possibly reserving scarce memory for higher-capacity successors.
 
 ### Comment pulse
-- Prelude to AI Macs → Scarce RAM is being stockpiled for upcoming M5/M6 Ultra or revamped Mac Pro “AI beasts” with 768GB+ unified memory.  
-- Supply contracts matter → Long-term DRAM deals and expiring contracts can make ultra-high configs uneconomical vs using RAM in mass‑market devices — counterpoint: Apple’s scale still buys strong discounts.  
-- Pro frustration over pricing → 256GB upgrade jumps in price; confusion over figures and shrinking options fuel perception Apple favors margins over high‑end, local‑LLM users.
+
+- Unified memory attracted local inference users; Thunderbolt clustering now requires two units to reach 512 GB.
+- Apple buys through contracts, not spot markets — counterpoint: suppliers can renegotiate, and opportunity costs still influence allocation.
+- Removing a configuration entirely seems unusual; end-of-generation inventory management may explain more than a permanent RAM ceiling.
 
 ### LLM perspective
-- View: Unified-memory Macs stay compelling for local LLMs, but top-end capacity caps now push serious users toward clusters or non-Apple hardware.  
-- Impact: macOS AI developers and researchers face higher minimum spend for 200B‑scale models; cloud GPUs and NVIDIA workstations become more attractive.  
-- Watch next: How much RAM Apple offers in the next Ultra chips/Mac Pro, and whether it pursues memory partnerships or partial vertical integration.
+
+- **View:** This weakens a rare single-box option for models whose weights or context exceed 256 GB.
+- **Impact:** Local inference buyers may need clustered machines, larger future hardware, or more aggressive quantization.
+- **Watch next:** A successor with 512 GB or 768 GB would distinguish temporary inventory pressure from lasting scarcity.

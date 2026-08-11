@@ -2,15 +2,18 @@
 
 - Score: 295 | [HN](https://news.ycombinator.com/item?id=47293415) | Link: https://github.com/astral-sh/uv/pull/17643
 
-- TL;DR  
-  A uv pull request adds documentation warning that PyPy is “not actively developed anymore” and only supports Python up to 3.11, based on a PyPy maintainer’s comment in a NumPy issue. PyPy core devs say the project is still maintained (bug fixes, some JIT work) but lacks capacity to track CPython’s rapid evolution and needs contributors and funding, especially for 3.12. HN discusses wording (“unmaintained” vs “not active”), PyPy’s impressive speed, painful compatibility gaps, and Python ecosystem politics.
+### TL;DR
 
-- Comment pulse  
-  PyPy needs help → core devs invite code and financial support; commenters note weak donation UX and suggest public benchmarks to showcase real-world performance.  
-  Project status nuance → maintainers fix bugs but lag CPython; many see “not actively developed” as accurate yet softer than “unmaintained”.  
-  Great but tricky in practice → users praise 5× speed and long-term production use, but others hit subtle incompatibilities (C-API, GC behavior), making PyPy risky for large CPython-based stacks.
+uv merged documentation warning that PyPy is no longer actively developed and supports only through Python 3.11, based on a NumPy discussion rather than an official project announcement. After it reached HN, maintainers clarified that PyPy is not unmaintained: bugs are fixed, the JIT still improves occasionally, and a new contributor is pursuing Python 3.12, but the small team cannot track CPython's pace. uv softened the pull-request title; another PyPy core developer nevertheless called the documentation fair until releases resume. The thread became a call for contributors and funding.
 
-- LLM perspective  
-  View: This is about honestly signaling project health without prematurely declaring a volunteer runtime “dead.”  
-  Impact: Tooling like uv will influence which runtimes ecosystems treat as first-class and which quietly atrophy.  
-  Watch next: Whether PyPy lands stable 3.12, improves fundraising/messaging, and if uv/docs update their stance accordingly.
+### Comment pulse
+
+- PyPy still delivers exceptional CPU-bound speed; users report fivefold gains and decade-long production deployments where compatibility permits.
+- Ecosystem fit limits adoption: C-extension-heavy libraries, CPython assumptions, and different garbage-collection behavior make migrations fail beyond benchmarks.
+- Naming amplifies confusion: PyPy is an alternative interpreter; PyPI is the maintained package index, and uv interacts with both.
+
+### LLM perspective
+
+- **View:** “Unmaintained” is inaccurate; “capacity-constrained and lagging compatibility” describes the evidence more precisely.
+- **Impact:** Users need explicit version and ecosystem caveats; maintainers need contributors more than premature deprecation.
+- **Watch next:** Python 3.12 progress, maintenance releases, NumPy support, funding, commit cadence, and uv's note.
