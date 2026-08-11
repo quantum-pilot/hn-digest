@@ -3,20 +3,17 @@
 - Score: 202 | [HN](https://news.ycombinator.com/item?id=47048004) | Link: https://aeris.edbn.me/?city=SFO
 
 ### TL;DR
-An open‑source project turns conventional 2D flight tracking into a 3D, browser-based visualization of real aircraft traffic. Commenters like it as a living “screensaver” for kids following relatives’ flights and say it makes global travel feel tangible. Feedback centers on extending the idea: rendering the globe in 3D instead of a flat Mercator slice, visualizing full 3D flight paths and sightlines from cruising altitude, adding “jump to my location,” and improving aircraft type/altitude realism.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Aeris is a free, open-source browser visualization of live ADS-B traffic around SFO, rendering aircraft in three-dimensional space with altitude encoded from cyan to gold. Users can search airports, choose maps and data providers, manipulate the camera, hear live ATC, and inspect flights. The discussion welcomed its usefulness as both an information display and family screensaver while identifying projection realism and richer aircraft detail as the main opportunities for improvement.
 
 ### Comment pulse
-- Great as a passive display → People use similar tools on TVs for kids tracking family flights; it makes aviation and geography feel concrete.  
-- 3D needs more depth → Requests for a 3D globe, true 3D routes, and horizon/sightline views—counterpoint: even current map view already impresses casual users.  
-- Data and scale polish → Add aircraft types/models and fix altitude scaling so low‑level traffic doesn’t appear implausibly high or alarming.
 
----
+- A globe would make horizon and sightline views convincing → tilted Mercator terrain remains flat while aircraft occupy altitude layers.
+- Flight enthusiasts want full 3D trails and true scaling → low-altitude traffic sometimes appears implausibly high.
+- Aircraft metadata would reduce ambiguity → model types, origin and destination, and representative 3D models are on the creator's roadmap.
 
 ### LLM perspective
-- View: This is a strong foundation for educational, explorable simulations of real-time air traffic and geography.  
-- Impact: Hobbyists, families, and aviation geeks gain a more intuitive feel for altitude, routes, and traffic density.  
-- Watch next: 3D globe, performance optimizations, ADS‑B integrations, and community‑contributed aircraft models or plugins.
+
+- **View:** Best positioned as ambient data art, not a replacement for specialist trackers.
+- **Impact:** Open source invites extensions for education, travel tracking, and local aviation displays.
+- **Watch next:** Globe rendering, provider reliability, altitude calibration, and richer hover metadata.

@@ -3,14 +3,17 @@
 - Score: 234 | [HN](https://news.ycombinator.com/item?id=47051852) | Link: https://asteroidos.org/news/2-0-release/index.html
 
 ### TL;DR
-AsteroidOS 2.0 is a major new release of the open-source Linux smartwatch OS, adding always‑on display, tilt‑to‑wake, heart‑rate and step tracking, nightstand mode, redesigned launcher/quick settings, faster UI, better battery life, and sync apps across Android, Sailfish, Linux and Ubuntu Touch. Support now spans ~30 WearOS‑class watches, keeping many abandoned devices usable. HN commenters praise the “nobody asked” OSS persistence, note the niche-yet-fragmented hardware landscape, and discuss challenges of mainlining kernels and using Wi‑Fi without killing batteries.
+
+AsteroidOS 2.0 delivers a major community-built update to the Linux smartwatch platform: always-on display, gesture wake and sleep, heart-rate and initial step tracking, customizable quick settings, seven launcher styles, smoother UI, better battery life, 49 languages, new apps, and broader watch support. It also expands Android, SailfishOS, Linux desktop, and Ubuntu Touch synchronization, adds a community package repository, and targets more frequent stable releases. Commenters celebrated long-lived hardware support while noting the formidable driver, mainline-kernel, fragmentation, and battery challenges.
 
 ### Comment pulse
-- OSS smartwatch OS extends life of abandoned WearOS devices → Linux/QML stack avoids proprietary SDKs and keeps watches updated beyond vendor support.  
-- Niche ecosystem still worthwhile → unified aftermarket OS turns cheap or old watches into usable gifts and shared platforms — counterpoint: hardware fragmentation strains maintainers.  
-- Mainlining watches is hard → vendors rarely upstream drivers; community must reverse-engineer, refactor old Android kernels, and balance Wi-Fi features against battery drain.  
+
+- Open Linux ownership keeps abandoned watches useful → users can update devices and write software without proprietary SDK constraints.
+- Thirty device images demonstrate reach → full rebuilds take nearly a week, while five watches remain experimental.
+- Wi-Fi enables phone-independent weather and notifications → it can consume about 30% more power and still requires command-line credential setup.
 
 ### LLM perspective
-- View: AsteroidOS shows small, focused OSS projects can meaningfully extend hardware lifetimes even in vendor-hostile, driver-fragmented niches.  
-- Impact: Tinkerers, refurbishers, and budget-conscious buyers gain a privacy-respecting smartwatch option outside Apple/Google ecosystems.  
-- Watch next: Better Wi-Fi UX, mainline kernel ports, and an app store could turn AsteroidOS watches into options for non-hackers.
+
+- **View:** AsteroidOS's value is longevity and control, not feature parity with dominant wearable ecosystems.
+- **Impact:** Owners of aging Wear OS hardware gain an alternative; contributors inherit substantial hardware-enablement work.
+- **Watch next:** Mainline-kernel ports, graphical flashing and app-store tools, Wi-Fi setup, fitness integration, and stable-release cadence.

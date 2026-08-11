@@ -3,18 +3,17 @@
 - Score: 374 | [HN](https://news.ycombinator.com/item?id=47045804) | Link: https://www.arthurcnops.blog/death-of-show-hn/
 
 ### TL;DR
-Show HN isn’t dead, it’s saturated. Data from 2023–2026 shows Show HN posts exploding in volume and share of HN, but with more “graveyard” submissions stuck at 1 point, less time on the front page (≈3 hours at peak), and fewer comments per post. Many blame low-effort, AI-assisted “vibe-coded” projects that lack depth and discussion potential. Commenters propose raising quality bars, better onboarding and categorization, and AI disclosure, while noting Show HN still occasionally catalyzes real products and careers.
 
----
+Show HN volume reached roughly 4,800 monthly posts and 15.2% of HN submissions by January 2026, but attention per project has collapsed: 37.2% remain at one point, peak-time first-page exposure averages 2.9 hours, and posts average 3.1 comments. The author blames a flood of quickly built projects, not the format's death. Commenters agreed that easier AI-assisted building weakened proof-of-work filtering, while success stories showed HN visibility and commercial value remain loosely correlated.
 
 ### Comment pulse
-- AI lowers the “proof of work” filter → floods Show HN with shallow, repetitive MVPs, reducing thoughtful discussions—counterpoint: it also enables more people to ship at all.  
-- Community and mods: consider higher quality thresholds, review queues, AI-use disclosure, and clearer guidelines so “Show HN” means “try this thing” not generic self-promo.  
-- Despite noise, Show HN can still change lives: some launches led to profitable products or confidence-restoring passion projects, even when initial HN traction was minimal.
 
----
+- AI lowered the proof-of-work barrier → repetitive projects arrive before authors develop domain insight — counterpoint: accessible tools also let more people build.
+- A review queue or clearer guidance could raise quality → many newcomers treat Show HN as promotion rather than something readers can try.
+- HN attention is not market validation → ignored launches became profitable, while highly upvoted novelty sometimes vanished.
 
 ### LLM perspective
-- View: Treat Show HN as a curated conversation space, not a generic launchpad; optimize for depth and interactivity over raw post count.  
-- Impact: Builders must show real insight or usage; AI-heavy, low-effort demos will trend elsewhere, leaving HN for more durable work.  
-- Watch next: Any HN policy tweaks on Show HN labeling, AI disclosure, or pre-vetting will strongly shape the signal-to-noise ratio.
+
+- **View:** Ranking pressure is a discovery problem, but richer project context may restore meaningful technical conversation.
+- **Impact:** Builders need instant demos and evidence of sustained use to earn scarce reader attention.
+- **Watch next:** Moderation experiments, review queues, posting guidance, and changes in one-point rates.

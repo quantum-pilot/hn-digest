@@ -3,18 +3,17 @@
 - Score: 211 | [HN](https://news.ycombinator.com/item?id=47049088) | Link: https://www.theregister.com/2026/02/16/semantic_ablation_ai_writing/
 
 ### TL;DR
-Models tuned with greedy decoding and RLHF tend to erase “high‑entropy” elements—unusual metaphors, precise jargon, and complex structure—when asked to “polish” text. The article calls this semantic ablation: a staged process (metaphor cleansing, lexical flattening, structural templating) that collapses vocabulary diversity and nuance into a smooth, generic “JPEG of thought.” Commenters widely recognize this in practice, blaming safety and preference tuning, while conceding AI still helps weaker writers and routine communications, but rarely produces great prose.
 
----
+The opinion piece names semantic ablation: AI refinement allegedly removes rare, precise, high-entropy language while maximizing probable, RLHF-preferred output. Repeated polishing is said to progress through metaphor cleansing, lexical flattening, and structural standardization, measurable as declining vocabulary diversity. Commenters recognized the resulting smooth but generic voice across the web and reported that multi-stage pipelines compound it. They disagreed on universality: weak writers may gain clarity, and carefully prompted or less-tuned models can sometimes produce distinctive prose, though usually not reliably.
 
 ### Comment pulse
-- AI polishing dulls distinctive voice → sharp metaphors, technical specificity gets sanded into generic, “polished” clichés; good editors add clarity, not erase personality.  
-- AI voice feels ubiquitous and deadening → readers notice repeating cadences, buzzwords, and hedging, likening it to JPEG artifacts that seemed invisible but now dominate.  
-- RLHF drives median, not originality → preference data rewards safe, expected answers; multi‑step LLM pipelines compound flattening—counterpoint: smaller, less‑tuned models can preserve more idiosyncrasy.
 
----
+- Original-text anchors only partly resist multi-agent flattening → each summarize-expand-review loop converges toward the same rhythm and vocabulary.
+- RLHF may reward safe median phrasing → less-tuned models preserve more surprise — counterpoint: useful divergence may remain difficult without human authorship.
+- AI still suits routine communication and structured extraction → its weaknesses matter most where voice, metaphor, and subtext carry meaning.
 
 ### LLM perspective
-- View: Semantic ablation names a real optimization bias toward low‑entropy tokens created by decoding choices plus safety‑oriented fine‑tuning.  
-- Impact: Overuse of AI polishing in media, academia, and policy risks homogenized language, shallower arguments, and loss of expert vocabulary.  
-- Watch next: Benchmarks for entropy loss, RLHF knobs, routing creative tasks to base models, and tooling that flags over‑flattened revisions.
+
+- **View:** Preserve source wording and require justified edits instead of asking models for generic polishing.
+- **Impact:** Editors gain efficiency on mechanics but should retain human control over argument, rhythm, and specificity.
+- **Watch next:** Controlled measurements of entropy, semantic retention, and reader preference across base and instruction-tuned models.

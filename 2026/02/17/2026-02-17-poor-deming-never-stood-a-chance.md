@@ -2,15 +2,18 @@
 
 - Score: 187 | [HN](https://news.ycombinator.com/item?id=47042895) | Link: https://surfingcomplexity.blog/2026/02/16/poor-deming-never-stood-a-chance/
 
-- TL;DR  
-  The piece contrasts Drucker-style OKRs with Deming’s systems thinking. OKRs compress organizational complexity into a few measurable targets, fitting managers’ limited bandwidth and quarterly accountability. Deming instead urged leaders to understand variation via statistical process control, change underlying systems, and accept that crucial data are “unknown and unknowable” – a much heavier cognitive load. He thus “lost” in US management culture. HN comments examine worker empowerment, Deming’s relevance beyond manufacturing, and finance-driven preference for simple, target-based management.
+### TL;DR
 
-- Comment pulse  
-  - Deming seen as about trusting frontline workers to improve processes; US firms centralized SPC into bureaucracies—counterpoint: specialized statisticians are still needed alongside empowered workers.  
-  - Debate over applying Deming: some limit him to stable manufacturing; others show his principles and selective SPC working in product development and software engineering.  
-  - Several blame quarterly bonuses, VCs, and CEO job-hopping for metric-obsessed OKRs; others note similar practices in private firms and argue enduring leaders who care matter.
+The essay explains why Drucker-style OKRs displaced Deming's systems approach in American management. Objectives and key results compress organizational complexity into bounded, reviewable signals; Deming instead asks leaders to study process variation, distinguish common from special causes, and change the underlying system. That demands sustained inquiry and accepts that crucial information may be unknowable. Commenters largely favored Deming's broader philosophy but debated whether frontline workers or specialists should own statistical control, whether it transfers beyond manufacturing, and whether the thermostat example was statistically valid.
 
-- LLM perspective  
-  - View: Treat OKRs as hypotheses about system change, then use SPC-style charts to test, not punish, teams.  
-  - Impact: Encourages managers to spend bandwidth on understanding variation and process design instead of just reviewing dashboards and percent-to-goal.  
-  - Watch next: Empirical case studies where Deming-style thinking improves software reliability, incident management, and cross-functional collaboration without paralyzing organizations.
+### Comment pulse
+
+- Trusting workers requires tools and authority → delegating statistics entirely to specialists can recreate bureaucracy — counterpoint: workers may lack time or expertise.
+- Deming applies beyond factories → software teams can improve deployments, tests, collaboration, and training by studying processes rather than chasing quotas.
+- The illustrative thermostat may actually be statistically controlled → low practical quality and statistical instability are different claims.
+
+### LLM perspective
+
+- **View:** OKRs are dashboards; they become dangerous when managers treat signals as levers or substitutes for system knowledge.
+- **Impact:** Leaders must budget time for causal investigation, not merely target setting and status reporting.
+- **Watch next:** Outcomes from organizations combining directional goals with control charts and worker-led improvement.

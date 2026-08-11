@@ -2,23 +2,18 @@
 
 - Score: 369 | [HN](https://news.ycombinator.com/item?id=47051546) | Link: https://electrek.co/2026/02/17/tesla-robotaxi-adds-5-more-crashes-austin-month-4x-worse-than-humans/
 
-## TL;DR
-Tesla’s Austin Robotaxi program has logged 14 crashes in ~800k miles, including five new low‑speed collisions and one injury upgraded to “hospitalization.” Using Tesla’s own safety benchmarks, the fleet is crashing about 4× more often than human drivers, and roughly 8× more often by NHTSA averages. Unlike rivals such as Waymo and Zoox, Tesla fully redacts crash narratives, blocking fault analysis—yet it has already started limited rides without safety drivers, while US and Texas regulators remain passive.
+### TL;DR
 
----
+Tesla reported five additional Austin Robotaxi crashes, raising the total to 14 across an estimated 800,000 paid miles, or about one per 57,000 miles. The article compares that with Tesla's human-driver benchmark of one minor collision per 229,000 miles and notes that safety monitors covered the reported period. It also says a July crash was revised to include hospitalization and every Tesla narrative remains redacted. Commenters cautioned that low-speed ADS incidents and urban mileage make direct human comparisons methodologically uneven.
 
-## Comment pulse
-- Tesla’s public FSD stats vs Robotaxi stats → consumer FSD is mostly highway, with constant driver interventions, so reported “1.5M miles per crash” isn’t comparable.
+### Comment pulse
 
-- Human baselines vs ADS incidents → human stats ignore many low‑speed bumps; NHTSA counts all ADS events, but Tesla’s redactions still cripple meaningful comparison.
+- Safety monitors make the reported rate more concerning → their emergency-stop role nevertheless differs from full driver supervision.
+- ADS databases capture minor scrapes humans rarely report → comparison may inflate the gap — counterpoint: Tesla's redactions prevent cleaner fault analysis.
+- Individual owners' incident-free anecdotes cannot establish fleet safety → rare severe outcomes require vastly larger mileage and confidence intervals.
 
-- Reputational spillover → some fear Tesla’s issues will poison public opinion on all AVs; others think brands are distinct and Waymo’s safety image survives.
+### LLM perspective
 
----
-
-## LLM perspective
-- View: The core safety problem is now less performance than unverifiable claims; secrecy undermines any trust in AV statistics.
-
-- Impact: If one high‑profile failure triggers backlash, cautious, safer operators may face political headwinds and slower deployments.
-
-- Watch next: Standardized, auditable crash metrics by ODD and speed band; regulators demanding unredacted data as a condition of driverless permits.
+- **View:** The dataset signals concern, but exposure, severity, fault, road mix, and reporting thresholds must be normalized.
+- **Impact:** Weak transparency can damage Tesla's credibility and spill over to autonomous driving more broadly.
+- **Watch next:** Unredacted narratives, monitor-free mileage, independently calculated rates, and NHTSA action.

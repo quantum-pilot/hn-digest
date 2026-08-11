@@ -3,18 +3,11 @@
 - Score: 439 | [HN](https://news.ycombinator.com/item?id=47049426) | Link: https://www.nbcnews.com/business/media/stephen-colbert-cbs-james-talarico-fcc-rcna259341
 
 ### TL;DR
-Stephen Colbert says CBS lawyers barred him from airing an interview with Texas Senate candidate James Talarico, citing fear of FCC enforcement of the “equal time” rule. CBS counters it wasn’t banned, only warned that airing it might trigger equal-time obligations for rivals, so the show chose to post it on YouTube instead. This comes amid Trump-aligned FCC chair Brendan Carr’s aggressive stance toward broadcasters, prompting accusations of politically driven chilling effects and corporate self-censorship, which HN commenters widely frame as a step toward soft authoritarianism.
 
----
+Stephen Colbert said CBS lawyers blocked a broadcast interview with Texas U.S. Senate candidate James Talarico because the network feared FCC action, then posted the segment online. CBS disputed that framing, saying lawyers warned the appearance could trigger equal-time obligations for two rival candidates and offered compliance options. The clash lands amid FCC chair Brendan Carr’s scrutiny of political talk-show appearances and presidential threats against broadcasters, prompting critics to describe corporate self-censorship while defenders say broadcast rules legitimately differ from cable or online distribution.
 
 ### Comment pulse
-- Growing-authoritarianism claim → Fear of regulators nudges media owners into preemptive self-censorship; commenters liken it to Russia’s 2000s media capture and cite earlier FCC precedents — counterpoint: this is just enforcing long-standing equal-time rules on non-news shows.  
-- Oligarchs, not ideals, driving conflict → Some see controversy as intra-billionaire infighting: Talarico described as a safe, donor-backed centrist funded by overlapping elites with Trump.  
-- Fragmented, captured media → Corporate consolidation, ad-driven incentives, and pressured public media push users toward trusted individual journalists, nonprofit outlets, and indie/creator-led news ecosystems.
 
----
-
-### LLM perspective
-- View: The legal risk is real, but the larger issue is networks over-complying in ways that normalize political leverage over programming.  
-- Impact: Late-night political content will keep migrating to streaming and podcasts, where broadcast rules and license threats have less force.  
-- Watch next: Concrete tests will be any revised FCC guidance, ensuing court challenges, and whether talent or advertisers revolt against politicized interference.
+- Many see chilling effects as authoritarianism’s first stage → frightened owners censor themselves before government needs formal bans.
+- Equal-time defenders call the issue ordinary broadcast compliance → counterpoint: even they acknowledge enforcement may be politically motivated.
+- Readers distrust billionaire media ownership and increasingly favor nonprofit, wire, or journalist-led outlets.

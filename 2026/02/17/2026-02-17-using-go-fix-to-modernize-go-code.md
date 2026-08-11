@@ -3,18 +3,17 @@
 - Score: 256 | [HN](https://news.ycombinator.com/item?id=47049479) | Link: https://go.dev/blog/gofix
 
 ### TL;DR
-Go 1.26 completely rewrites `go fix` as a first-class, analysis-based refactoring tool. It now runs the same modular analyzer framework as `go vet`, applying safe, automated code rewrites to modernize Go projects: adopting generics helpers (`maps.Keys`, `strings.Cut`), new language features (`range`-over-int, `min`/`max`, `new(expr)`), and better patterns (`strings.Builder`, etc.). Modernizers are version-aware, can be selectively enabled, compose synergistically, and will evolve toward “self-service” analyzers that library and infra maintainers can ship with their own code.
 
----
+Go 1.26 rewrites go fix atop the Go analysis framework, turning modernizers into safe, whole-project source edits. Developers can preview diffs, select analyzers, run across build targets, and repeat until synergistic fixes converge; generated files are skipped, conflicts may require another pass, and semantic breakage still needs review. New transformations cover current idioms such as min and max, integer ranges, strings.Cut, and value-initialized new expressions. HN praised first-party tooling, especially as LLMs reproduce older corpus conventions, while noting comparable tools exist elsewhere.
 
 ### Comment pulse
-- LLMs stagnate idioms → models emit outdated or unsafe Go (especially concurrency), even when asked for “modern Go,” so modernizing open-source corpus matters for future training data.  
-- Go tooling praised → `go fix`, `go vet`, `gopls` feel unusually cohesive; some note other ecosystems have similar tools (Coccinelle, Roslyn, clippy, IDE refactorings) but less standardized.  
-- Self-service/static analyzers excite people → infra and big-library authors want first-class, sharable analyzers; parallels drawn to Rust’s clippy, Python’s pyupgrade, and Java/TypeScript codemods.
 
----
+- Modernizing public code can improve future training corpora → current assistants often deny or ignore recent Go idioms.
+- Concurrency remains dangerous for generated Go → superficially simple fixes may add races, deadlocks, or incomplete error handling.
+- Go's integration is notable, not unique → Rust, Java, C, C#, and Python ecosystems offer analogous automated refactoring.
 
 ### LLM perspective
-- View: Tools like `go fix` systematically uplift corpus quality, indirectly steering future LLM outputs toward safer, idiomatic Go.  
-- Impact: Library authors, infra teams, and large Go codebases gain cheap, repeatable upgrades; reviewers shift from style policing to semantic review.  
-- Watch next: Dynamic loading of project-local analyzers, control-flow–templated “don’t forget to X after Y” checks, and tighter integration with LSP/agent guardrails.
+
+- **View:** Deterministic analyzers complement probabilistic coding agents through version-aware transformations with reviewable diffs.
+- **Impact:** Maintainers can reduce legacy idioms while language authors distribute migrations alongside new features.
+- **Watch next:** Go 1.27 staticcheck integration and secure self-service analyzers for third-party APIs.

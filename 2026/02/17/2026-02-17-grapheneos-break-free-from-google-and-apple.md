@@ -3,14 +3,11 @@
 - Score: 1031 | [HN](https://news.ycombinator.com/item?id=47045612) | Link: https://blog.tomaszdunia.pl/grapheneos-eng/
 
 ### TL;DR
-- Author describes leaving Apple/Samsung for GrapheneOS on a Pixel 9a, outlining why Pixels’ security hardware (Titan M, Verified Boot) makes them the only officially supported phones, how to install via the web flasher, and a practical setup using multiple user profiles, Private Space, sandboxed Play Services, and FOSS apps via Obtainium/Aurora Store, with tight per‑app permissions (network/sensors). HN commenters report strong day‑to‑day usability, but many banking, tap‑to‑pay, and government apps break, so people keep a second “normal” phone or accept limitations.
+
+After three months with GrapheneOS on a Pixel 9a, the author recommends it as a practical privacy-and-security system, not a total escape from Google. The web installer supports unlocking, flashing, testing, and relocking the bootloader; daily use then becomes a convenience tradeoff. The author isolates Google services in selected profiles or private space, installs open-source apps through Obtainium, uses Aurora Store for proprietary apps, and removes unnecessary network or sensor permissions. Commenters report strong everyday compatibility but recurring problems with banking, payment, government, and authentication apps.
 
 ### Comment pulse
-- GrapheneOS works well as daily driver → but tap‑to‑pay and some banking/government apps fail checks, so users migrate slowly and keep a backup stock phone.  
-- User profiles for isolation → some split work/personal or Google‑dependent apps; others find multi‑profile banking “security theater” and prefer one hardened profile.  
-- Pixels are paradoxically ideal privacy phones → open bootloader, relocking, Titan M; commenters note modem/location tracking and proprietary‑only apps still limit true “freedom.”
 
-### LLM perspective
-- View: GrapheneOS is best suited to threat‑model‑driven users who can tolerate app friction in exchange for deep control.  
-- Impact: Banks, governments, and ticketing providers effectively dictate OS choice; their rooted‑phone bans shape what privacy setups are realistically livable.  
-- Watch next: GrapheneOS’s rumored non‑Google OEM device, app‑compat efforts around banking/ID, and standardized APIs for attestation without blanket root detection.
+- Pixel dependence is ironic but technically useful → unlockable and relockable bootloaders, verified boot, and strong hardware security enable GrapheneOS.
+- Gradual migration reduces surprises → app compatibility and profile friction vary by bank, country, and required service.
+- Users value per-app network and sensor controls → counterpoint: cellular infrastructure and closed hardware still limit privacy.

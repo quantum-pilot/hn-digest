@@ -3,18 +3,17 @@
 - Score: 175 | [HN](https://news.ycombinator.com/item?id=47042766) | Link: https://vo2maxpro.com/blog/thinking-hard-burns-no-calories-destroys-workout
 
 ### TL;DR
-The article argues that hard thinking adds very few calories on top of the brain’s already high idle energy use—maybe 100–200 kcal per day—but it can seriously hurt endurance workouts. Prolonged cognitive effort appears to flood brain regions like the anterior cingulate cortex with adenosine, raising perceived exertion even though physiological markers (heart rate, lactate, VO₂, glycogen) look normal. Studies show mentally fatigued people quit endurance efforts ~15% earlier, so timing hard intervals, using caffeine strategically, and protecting easy days become crucial training levers.
 
----
+The article argues that intense thought barely raises energy use above the brain's high baseline, yet mental fatigue can reduce later endurance. In a 16-person study, 90 minutes of sustained attention cut cycling time to exhaustion by 15% without changing heart rate, lactate, oxygen use, or glycogen; perceived exertion rose instead. A review of 11 studies found a similar endurance-specific pattern. Adenosine accumulation in effort-control regions is proposed, not proven, and commenters questioned the article's calorie accounting while accepting its training implications.
 
 ### Comment pulse
-- Calorie claims are likely overprecise → brain vs whole‑body expenditure is conflated; real-world energy use is hard to measure accurately with anything but lab calorimetry.  
-- Everyday logistics clash with advice → morning hard workouts often wreck cognition; evenings hurt sleep; diet, intensity control, and avoiding overtraining matter more than “go hard.”  
-- AI authorship irks some readers → prose feels LLM-like and inauthentic; others note it’s clear and well-structured—counterpoint: good style now risks automatic “AI slop” accusations.
 
----
+- Brain-only and whole-body calorie figures appear mixed → real-world expenditure estimates may carry wider errors than the article acknowledges.
+- Hard sessions fit better before demanding work or on fresher days → Zone 2 remains useful when mental fatigue is high.
+- Caffeine may partly counter adenosine-related fatigue → the article cites roughly 14% endurance recovery, but habitual use can blunt effects.
 
 ### LLM perspective
-- View: Treat mental load like a training variable: schedule key intervals when cognitively fresh, just as you would around leg soreness.  
-- Impact: Knowledge workers and students doing endurance sports should track work intensity alongside training logs to explain inconsistent performance.  
-- Watch next: Better wearables/diaries combining cognitive effort, sleep, caffeine, and session RPE to quantify “brain fatigue” effects on adaptation over months.
+
+- **View:** Treat mental load as a training-readiness variable, especially for sustained high-intensity work.
+- **Impact:** Athletes can preserve quality by moving intervals rather than interpreting elevated effort as lost fitness.
+- **Watch next:** Larger preregistered trials measuring adenosine directly, calorimetry, task type, and individual response.

@@ -3,18 +3,17 @@
 - Score: 148 | [HN](https://news.ycombinator.com/item?id=47045459) | Link: https://www.heise.de/en/news/WD-and-Seagate-confirm-Hard-drives-for-2026-sold-out-11178917.html
 
 ### TL;DR
-Western Digital and Seagate say their 2026 hard‑drive output—especially high‑capacity “nearline” data‑center models—is already effectively sold out, mostly to AI hyperscalers like AWS, Google, Microsoft, Meta, and OpenAI. They are prioritizing richer long‑term cloud contracts over expanding unit capacity, instead relying on bigger drives per disk. This gives them pricing power: HDD retail prices are up 20–50%, and SSDs are also spiking as cloud buyers hoard flash. HN worries about DIY computing, centralization, and an “own nothing, rent compute” future.
 
----
+Western Digital says it is nearly sold out for 2026, while Seagate has fully allocated nearline HDD capacity and will soon take first-half 2027 orders. Hyperscalers seeking AI-data-center storage dominate long-term commitments; Seagate plans capacity growth through larger drives, not more units. Nearline already supplies 87% of its HDD sales. German retail hard-drive prices have risen 20–50% since mid-2025, and substitution into high-capacity SSDs is lifting flash prices. Commenters debated whether cautious oligopoly supply or temporary AI demand will determine how long shortages persist.
 
 ### Comment pulse
-- Hyperscalers hogging storage → home servers and small orgs get squeezed; bloaty microservices and “storage is cheap” mindsets worsen impact—counterpoint: scarcity rarely forces real software efficiency.  
-- Chain of shortages → GPUs, RAM, SSDs, now HDDs and maybe CPUs; feels like the death of casual PC building, akin to rich MMO players wrecking newbie economies.  
-- Supply response unclear → oligopoly is cautious to add capacity, keeping margins high; some expect later overcapacity and AI‑hardware fire sales, others fear locked‑down thin‑client dystopia.
 
----
+- Home-server builders expect collateral pain → hyperscaler purchases squeeze hobbyists and could raise costs across PCs and hosted services.
+- More factory capacity may eventually lower prices → manufacturers currently prefer higher-capacity drives and margins over additional unit output.
+- An AI downturn could release hardware → counterpoint: server equipment may fit consumers poorly, and capacity additions could arrive after lock-in.
 
 ### LLM perspective
-- View: Classic demand shock meets concentrated supply; AI datacenters turn commodity storage into a strategic bottleneck.  
-- Impact: Cloud costs, self‑hosting, and hobbyist hardware projects all become more expensive and harder to justify.  
-- Watch next: Announced HDD/flash fab expansions, used‑hardware waves from AI projects, and any antitrust attention on storage vendors’ capacity decisions.
+
+- **View:** This is an allocation shock across the storage stack, not merely a retail HDD shortage.
+- **Impact:** Consumers, NAS operators, and smaller vendors face higher prices while cloud buyers secure multi-year supply.
+- **Watch next:** 2027 order books, Toshiba availability, exabyte shipments, retail pricing, and whether producers add unit capacity.
