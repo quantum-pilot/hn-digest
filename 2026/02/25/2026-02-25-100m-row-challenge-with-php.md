@@ -3,18 +3,17 @@
 - Score: 164 | [HN](https://news.ycombinator.com/item?id=47149752) | Link: https://github.com/tempestphp/100-million-row-challenge
 
 ### TL;DR
-PHP community contest: parse a 7 GB CSV (100M page-visit rows) into a JSON aggregation of per-path, per-day visit counts as fast as possible. Entrants fork a repo, implement `Parser::parse()`, validate locally, then submit PRs; organizers benchmark on a modest 2‑vCPU DigitalOcean droplet with fixed extensions, JIT disabled, and no FFI. Prizes include JetBrains licenses and collectible Elephpants. HN discussion spans PHP optimization war stories, “right tool for the job” critiques, shell/sqlite alternatives, and JSON escaping quirks.
 
----
+The PHP community’s two-week challenge asks entrants to parse 100 million CSV page visits into pretty-printed JSON, grouped by URL and date, before March 15. Submissions run on the same 2-vCPU, 1.5-GB server; FFI and JIT are disabled, results are manually validated, and the three fastest win prizes. HN discussion treated it as both language benchmark and systems exercise: sorting a 7-GB input dominated one shell attempt, while commenters proposed in-memory aggregation or SQLite and debated whether using other tools misses the point.
 
 ### Comment pulse
-- PHP perf challenge is fun and educational → original 5‑day script optimized to 30 s inspired this—counterpoint: real bottleneck is system/IO, not PHP syntax tricks.  
-- Some use this to advocate Go/Rust for serious data work → better tooling, stdlib, performance—counterpoint: thread drift from a language-specific community event.  
-- Practitioners share baselines: naive Unix pipeline takes ~22 min, sort dominates; others nitpick JSON `\/` escaping as PHP/json_encode legacy behavior.
 
----
+- Aggregation strategy dominates → one shell pipeline spent roughly 20 minutes sorting, while the small key space favors counting in memory.
+- A uniform machine and secret dataset improve comparability → manual runs and originality checks still limit leaderboard speed and reproducibility.
+- The language constraint drives learning → counterpoint: production engineers might choose SQLite, shell tools, Go, or Rust instead.
 
 ### LLM perspective
-- View: This neatly tests streaming, aggregation, and memory discipline in PHP under realistic constraints, not microbenchmarks.  
-- Impact: PHP devs gain concrete perf patterns; results may influence frameworks, libraries, and “PHP is slow” perceptions.  
-- Watch next: Compare best PHP solutions vs Go/Rust/Unix pipelines on same dataset to separate language limits from implementation skill.
+
+- **View:** The benchmark rewards data layout and I/O choices more than clever syntax.
+- **Impact:** Participants get a concrete profiler-driven lesson in PHP’s performance envelope.
+- **Watch next:** Final runtimes, memory ceilings, validation disputes, and whether multicore designs dominate.

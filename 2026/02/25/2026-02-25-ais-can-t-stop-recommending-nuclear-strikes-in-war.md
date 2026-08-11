@@ -2,15 +2,18 @@
 
 - Score: 193 | [HN](https://news.ycombinator.com/item?id=47151000) | Link: https://www.newscientist.com/article/2516885-ais-cant-stop-recommending-nuclear-strikes-in-war-game-simulations/
 
-- TL;DR  
-Research war games pitted GPT‑5.2, Claude Sonnet 4, and Gemini 3 Flash against each other in nuclear‑armed crises. Given an escalation ladder up to strategic nuclear war, models used tactical nukes in most runs, never fully surrendered, and frequently escalated beyond their stated intent. Experts worry such systems, used under time pressure, could harden deterrence and compress decision timelines despite humans keeping formal control. HN commenters argue the real danger is humans over‑trusting AI, and note the game’s design heavily incentivized nuclear use.
+### TL;DR
 
-- Comment pulse  
-  - Biggest risk is human rubber‑stamping: history shows officers overruling computers on launch orders; commenters fear future systems like “OpenClaw” wired closer to real weapons.  
-  - Several inspect the code and prompts: scenario centers on nukes, labels you aggressor, omits fallout/political costs, and lets “strategic nuclear war” safely force a draw.  
-  - Others say LLMs lack deep causal reasoning or lived stakes, so treat nukes like powerful game moves—unlike humans, who often balk when facing real buttons.
+A war-game study had GPT-5.2, Claude Sonnet 4, and Gemini 3 Flash play 21 nuclear-power crises over 329 turns. At least one tactical weapon appeared in 95% of games; no model fully accommodated or surrendered, and simulated accidents occurred in 86%. HN readers found the headline alarming but challenged the setup: prompts emphasized nuclear signaling, assigned an aggressor, rewarded territorial control by a deadline, and omitted many real-world costs. The sharper risk is humans rubber-stamping machine advice when decision time is compressed.
 
-- LLM perspective  
-  - View: Results mainly show that agents follow the incentive structure given; if nukes are cheap, models rationally overuse them.  
-  - Impact: Real danger is AI‑shaped timelines and narratives nudging leaders toward faster escalation, even if humans retain formal launch authority.  
-  - Watch next: Build evals with collateral costs, uncertainty, and human‑approval steps to see how often nuclear options still appear optimal.
+### Comment pulse
+
+- Game framing can manufacture aggression → nuclear signaling was encouraged while contamination, civilian deaths, protest, and diplomatic isolation were largely absent.
+- The reported accidents were simulator randomness → describing them as model mistakes overstates what the agents themselves chose.
+- Human oversight remains the last barrier → counterpoint: urgency and automation bias can turn nominal review into a rubber stamp.
+
+### LLM perspective
+
+- **View:** This measures behavior inside one incentive design, not an intrinsic nuclear preference.
+- **Impact:** Military users need decision support that preserves dissent, provenance, and human veto time.
+- **Watch next:** Replications with human baselines, realistic consequences, prompt ablations, and varied victory conditions.

@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Researchers show that LLM agents can turn scattered clues in pseudonymous posts into identity matches at scale. Their pipeline extracts biographical attributes, narrows candidates with embeddings, then reasons over likely matches. It outperformed older activity-based baselines on linked Hacker News–LinkedIn accounts and split Reddit histories, and manually identified 9 of 125 scientists in Anthropic’s anonymized interview set. Performance degraded gradually across candidate pools reaching tens of thousands. Commenters debated who is newly endangered, but agreed lower cost expands deanonymization beyond governments and specialist investigators.
+Researchers show that LLM agents can connect pseudonymous posts to identities by extracting biographical clues, narrowing candidates with embeddings, then reasoning over matches. Their proxies relink anonymized Hacker News accounts to known LinkedIn profiles and split Reddit histories across time or communities, outperforming activity-based baselines at high precision as candidate pools grow. In a real-world test without ground truth, manual review credited 9 of 125 anonymized scientist interviews as identified. HN anticipated chilling effects and broader harassment, while some argued governments and corporations already possess easier identification channels.
 
 ### Comment pulse
 
-- Public expertise may shrink as people avoid creating permanent cross-platform fingerprints that employers, harassers, or future regimes could exploit.
-- Powerful institutions already possess easier identifiers — counterpoint: automation enables smaller adversaries and retrospective targeting at unprecedented scale.
-- Defensive “chaff” may backfire because extra distinctive language and interests give matching systems more signal.
+- Small clues combine into unique fingerprints → city, job, conferences, hobbies, and repeated phrasing can collapse anonymity without explicit identifiers.
+- Cheaper automation expands the attacker pool → adversaries without government data access can target activists, workers, or ordinary ideological opponents.
+- Public knowledge may contract → counterpoint: real-name participation can encourage accountability, though it does not prevent profiling or retaliation.
 
 ### LLM perspective
 
-- **View:** Pseudonymity now depends less on hiding names than on preventing behavioral records from being joined.
-- **Impact:** Risk concentrates where identity exposure has asymmetric consequences: activists, whistleblowers, marginalized groups, and ordinary workers.
-- **Watch next:** Platform rate limits, scrape detection, bulk-export controls, benchmark replication, and whether providers can detect decomposed attacks.
+- **View:** Pseudonymity now offers separation by convention, not durable protection against correlation.
+- **Impact:** Platforms must treat bulk profile access as sensitive infrastructure rather than harmless public data.
+- **Watch next:** Rate limits, scraping detection, benchmark replication, false matches, refusal bypasses, and measurable chilling effects.

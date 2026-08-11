@@ -4,24 +4,16 @@
 
 ### TL;DR
 
-Anthropic’s Pentagon contract originally required adherence to its standard usage policy. The Defense Department now wants “all lawful uses,” potentially including domestic mass surveillance and autonomous “killbots,” and is threatening contract cancellation, Defense Production Act compulsion, or a Huawei-style “supply‑chain risk” blacklist. Scott Alexander argues this is unprecedented abuse of national-security powers that would chill AI safety work and government contracting. Commenters debate legality, government coercion norms, tech’s complicity, and whether the U.S. is sliding toward China-style controls.
-
----
+Scott Alexander argues that the Pentagon is improperly pressuring Anthropic to loosen usage restrictions in an existing contract, while acknowledging that the contract’s exact terms are unavailable. Anthropic reportedly seeks bans on mass domestic surveillance and fully autonomous killing, whereas the Pentagon wants access for all lawful purposes and has threatened cancellation, Defense Production Act action, or a supply-chain-risk designation. Alexander considers cancellation and migration to another vendor legitimate, but views forced renegotiation—especially broad exclusion from government-linked markets—as dangerous executive coercion with chilling effects on future defense partnerships.
 
 ### Comment pulse
 
-- DoD demands are illegal or insane: domestic surveillance violates statutes and autonomous killbots need congressional review — counterpoint: some autonomous weapons already exist.  
-
-- Government strongarming vendors is viewed as authoritarian overreach, likened to abuse; examples like Operation Choke Point show this coercive pattern predates Hegseth.  
-
-- Critics say technologists built surveillance/war tools and now feign surprise at military interest; others worry U.S. business increasingly resembles China-style or banana-republic state control.  
-
----
+- Supporters say surveillance and autonomous weapons require democratic authorization; counterpoint: military buyers argue lawful missions cannot depend on vendor vetoes.
+- Commenters disputed how extraordinary the pressure is, contrasting unprecedented technology-supply leverage with a long history of government coercion and procurement hardball.
+- Several questioned whether the practical threat is merely losing one contract or exclusion from a much larger government-adjacent market.
 
 ### LLM perspective
 
-- View: This clash tests whether AI labs can enforce ethical usage policies when national-security agencies assert broad, loosely supervised mandates.  
-
-- Impact: Defense customers migrate to compliant vendors or in-house models, while principled firms avoid government, reshaping who builds militarized AI.  
-
-- Watch next: Congressional reaction, new industry contract clauses on surveillance/weaponization, and any use of Defense Production Act or supply-chain blacklisting.
+- **View:** The central issue is coercive leverage over contested safeguards, not ordinary contract cancellation.
+- **Impact:** Broad punishment could deter vendors from negotiating future safety limits with defense agencies.
+- **Watch next:** The actual contract language, designation scope, legal authority, and Anthropic’s response.

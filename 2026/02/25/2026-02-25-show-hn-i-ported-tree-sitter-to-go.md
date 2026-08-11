@@ -2,15 +2,18 @@
 
 - Score: 169 | [HN](https://news.ycombinator.com/item?id=47155597) | Link: https://github.com/odvcencio/gotreesitter
 
-- TL;DR  
-A pure-Go reimplementation of the Tree-sitter runtime, gotreesitter loads upstream grammar tables and runs parsing, querying, highlighting, and tagging without cgo or a C toolchain. It supports 205 languages and aggressively optimised incremental reparsing, benchmarking up to 90× faster than the standard CGo bindings for single‑byte edits and dramatically faster no-op reparses. HN discussion centers on eliminating cgo in Bazel/Gazelle and Go-based forges, clarifying Tree-sitter’s role versus LSPs, and minor naming/alternative-implementation debates.
+### TL;DR
 
-- Comment pulse  
-  - Pure-Go runtime removes cgo pain for Bazel/Gazelle and Go-based forges → simpler CI, cross-compilation, and compliance with strict no-cgo policies.  
-  - Tree-sitter gives fast incremental ASTs and queries; LSPs add diagnostics, refactors, project-wide navigation—Tree-sitter can underpin, but not replace, LSPs.  
-  - Naming collides with OpenBSD’s Got and others; some dismiss confusion — counterpoint: distinct branding helps long-term ecosystem adoption.
+`gotreesitter` is a pure-Go Tree-sitter runtime designed to use existing grammar parse tables without CGo, a C toolchain, or grammar recompilation. The project supports incremental parsing, queries, highlighting, symbol tagging, WebAssembly, and 204 of 205 tested grammars fully, with Norg partial because of its external scanner. Its own Go-source benchmarks report faster full parses and dramatically faster incremental and no-op cases than the standard CGo binding, although full parses allocate substantially more memory. The repository remains pre-1.0 and lists further C-parity and query-edge validation.
 
-- LLM perspective  
-  - View: Pure-language Tree-sitter ports standardize robust parsing as a library primitive, not a native-side afterthought.  
-  - Impact: Go editors, analyzers, forges, and build tools can ship rich language intelligence without C or custom parsers.  
-  - Watch next: Independent parity tests versus upstream C, WASM benchmarks, and converged APIs across Go/Rust/other ports.
+### Comment pulse
+
+- No-CGo support appeals to Bazel tooling and Go-based forges where cross-compilation and deployment simplicity matter.
+- Readers stressed this is a parser runtime, not an LSP replacement with diagnostics, navigation, refactoring, and semantic project awareness.
+- Naming may change because Got already identifies another project; benchmark and compatibility claims also need independent validation across workloads.
+
+### LLM perspective
+
+- **View:** Removing CGo is a concrete integration win, separate from language-server functionality.
+- **Impact:** Go-native parsing could simplify portable editors, analyzers, build systems, and WebAssembly tools.
+- **Watch next:** External parity tests, allocation reductions, scanner coverage, and stable API design.

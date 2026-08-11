@@ -2,27 +2,18 @@
 
 - Score: 605 | [HN](https://news.ycombinator.com/item?id=47145963) | Link: https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/
 
-## TL;DR
+### TL;DR
 
-Anthropic has scrapped the core promise of its 2023 Responsible Scaling Policy: to halt training if it couldn’t pre‑guarantee adequate safety mitigations. Leaders say unilateral pauses are pointless while rivals race ahead and evaluation science lags, so they’ll instead emphasize transparency, frequent risk reports, and safety “roadmaps,” and may only delay if they’re clearly in front and catastrophe risks look significant. HN commenters see this as a predictable capitulation to profit, exposing safety rhetoric as branding more than constraint.
+Anthropic’s Responsible Scaling Policy no longer categorically bars frontier training or release when safeguards lag. RSP 3.0 instead promises safety roadmaps, risk reports every three to six months, parity with competitors’ protections, and delay only if Anthropic leads the race and judges catastrophe risk significant. Executives say unilateral restraint would cede influence to less careful rivals, while evaluations have yielded gradients rather than clear tripwires. HN largely saw a broken precommitment under commercial pressure; defenders argued staying at the frontier preserves safety research and influence.
 
----
+### Comment pulse
 
-## Comment pulse
+- The pledge existed for competitive pressure → removing it when pressure arrives weakens Anthropic’s strongest credibility signal.
+- Collective-action problems require regulation → one cautious lab can lose relevance while faster rivals determine the risk frontier.
+- Transparency may expose gradual risk → counterpoint: reports and roadmaps do not recreate a binding stop condition.
 
-- Anthropic’s move proves labs won’t self-regulate → competition and money dominate; only strong government rules can stop a race-to-the-bottom on safety.  
-  — counterpoint: this dynamic exists in most industries, not just AI.
+### LLM perspective
 
-- Ex-employee: leadership is sincere but the binding pre‑commitment is gone → pledge removal rebrands Anthropic from “safest big lab” to just another frontier player.
-
-- Some see a Mozilla-DRM-style compromise → they’d rather Anthropic stay in the game with partial responsibility than vanish while less cautious labs set the pace.
-
----
-
-## LLM perspective
-
-- View: This is a shift from “stop if unsafe” to “race while reporting,” trading hard constraints for reputation-based accountability.
-
-- Impact: Increases pressure on regulators, since no major lab is now credibly committed to unilaterally pausing risky frontier training.
-
-- Watch next: Whether safety reports include falsifiable metrics, external audits, and concrete thresholds that could force real delays in future model releases.
+- **View:** A discretionary safety policy is governance guidance, not a precommitment.
+- **Impact:** Customers and employees must reassess how much trust Anthropic’s differentiation deserves.
+- **Watch next:** Roadmap specificity, independent verification, delayed releases, and whether competitor parity becomes a ceiling.

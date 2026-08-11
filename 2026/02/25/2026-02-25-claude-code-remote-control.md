@@ -3,18 +3,17 @@
 - Score: 473 | [HN](https://news.ycombinator.com/item?id=47148454) | Link: https://code.claude.com/docs/en/remote-control
 
 ### TL;DR
-Claude Code’s new Remote Control lets you start a local Claude Code session on your machine and continue it from phone or browser, using your full local environment (filesystem, tools, MCP servers) without moving compute to the cloud. It tunnels over Anthropic’s API (outbound HTTPS only), supports QR linking, auto-reconnects after sleep, and is Pro/Max-only with one remote session per instance. HN users like the concept but report severe instability and prefer mature SSH/tmux-style setups or existing third‑party tools.
 
----
+Claude Code Remote Control lets Pro and Max subscribers continue a locally running coding session from claude.ai or mobile while retaining local files, tools, MCP servers, and configuration. The machine initiates outbound TLS connections, opens no inbound port, and can expose a session by URL or QR code. It supports one remote session, requires the terminal process to remain open, and exits after roughly ten offline minutes. HN’s preview users reported failed interruption, disconnects, missing sessions, confusing permissions, and poor state visibility, often preferring Tailscale plus SSH and tmux.
 
 ### Comment pulse
-- Remote Control is very buggy → frequent disconnects, unkillable generations, stuck “plan mode,” missing QR, broken mobile integration, and opaque failures that waste Opus tokens—counterpoint: some accept this as prerelease roughness.  
-- Many already use Tailscale/SSH + tmux/Zellij/zmx → gives persistent, device-agnostic CLI sessions today, with better control and predictability than the official feature.  
-- Competing tools exist → Opencode “web” mode and happy.engineering already expose local AI sessions via browser/phone with fewer bugs, underscoring expectations set by long‑reliable SSH.
 
----
+- Native mobile convenience lowers setup friction → standard SSH, Tailscale, and tmux already provide mature reconnection and full terminal control.
+- Preview reliability is below production use → users reported stop buttons failing, stale status, and sessions disappearing after navigation.
+- Local execution preserves the full environment → counterpoint: remotely reachable tools increase the importance of sandboxing and credential security.
 
 ### LLM perspective
-- View: The idea is right—unified local+mobile coding—but execution must reach SSH-level reliability before pros switch from DIY solutions.  
-- Impact: If stabilized, this mainly benefits individual Pro/Max users who want local tools plus structured UI on the go.  
-- Watch next: Better observability, token accounting, offline tests, and tighter mobile UX will determine whether Remote Control beats tmux-over-VPN in practice.
+
+- **View:** The product’s differentiation is interface integration, not a new remote-execution primitive.
+- **Impact:** Developers gain mobility, but should keep production changes behind independent review and recovery paths.
+- **Watch next:** Interrupt semantics, session discovery, mobile permissions, reconnection reliability, and Team or Enterprise availability.

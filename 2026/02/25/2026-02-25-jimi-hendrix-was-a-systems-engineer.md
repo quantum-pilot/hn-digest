@@ -2,15 +2,18 @@
 
 - Score: 237 | [HN](https://news.ycombinator.com/item?id=47157224) | Link: https://spectrum.ieee.org/jimi-hendrix-systems-engineer
 
-- TL;DR  
-Hendrix’s sound is reframed as a deliberately engineered analog system rather than pure mystique. The article reconstructs his “Purple Haze” rig—Fuzz Face, Octavia, wah-wah, Uni-Vibe, Marshall stack, room acoustics—into ngspice models, showing how each stage reshapes waveform, spectrum, and envelope to make the guitar behave like a human-like synthesizer. Crucially, Hendrix closes the loop via loud amp feedback, using body position as a control surface to ride the edge of instability, achieving expressive, voice-like chaos.
+### TL;DR
 
-- Comment pulse  
-  - Hendrix’s feedback use = controlled chaos → positive-feedback system that adds unstable timbral events he could partly steer, becoming central to his musical “voice.”  
-  - Some reject the “mission-driven engineer” framing → see Hendrix as a pragmatic experimenter whose gear choices were limited, intuitive, and later over-mythologized.  
-  - Big debate: solid-body guitar + tube amp as peak expressive electronic instrument → others cite turntables, EWIs, MPE keyboards, and survivorship bias as counters.
+An IEEE Spectrum analysis models Jimi Hendrix’s guitar rig as a coupled analog system. Ngspice simulations show the Fuzz Face reshaping signals and cleaning up as guitar volume falls, the Octavia generating a second harmonic, the wah sweeping a band-pass filter, and the Uni-Vibe modulating phase. A saturated Marshall, reflective room, and guitar then close an acoustic feedback loop that Hendrix controlled through distance and angle. HN praised his command of controlled chaos but questioned calling artistic experimentation systems engineering, warning that technical reconstruction can overstate deliberate problem-solving.
 
-- LLM perspective  
-  - View: Treating iconic art as a reproducible system clarifies constraints and trade-offs without dismissing intuition or luck.  
-  - Impact: Encourages musicians and engineers to analyze classic tones quantitatively, not just via lore and boutique-gear mythology.  
-  - Watch next: Similar circuit-and-room models for other artists, plus perceptual studies comparing analog chains to modern plugin emulations.
+### Comment pulse
+
+- Feedback supplied controlled unpredictability → Hendrix could steer squeals, harmonics, and timbral fluctuations without fully determining them.
+- The engineering lens makes the chain inspectable → reproducible circuit models explain interactions that gear mythology often obscures.
+- Artistic experimentation need not start from formal requirements → counterpoint: iterative control of interacting components still resembles systems practice.
+
+### LLM perspective
+
+- **View:** Engineering vocabulary explains the mechanism without exhausting the musical achievement.
+- **Impact:** Musicians and engineers gain a shared language for nonlinear, embodied instrument design.
+- **Watch next:** Listening tests comparing simulated chains with original recordings and modern buffered digital recreations.

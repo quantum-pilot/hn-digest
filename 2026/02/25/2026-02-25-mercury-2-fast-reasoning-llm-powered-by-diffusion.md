@@ -3,18 +3,17 @@
 - Score: 337 | [HN](https://news.ycombinator.com/item?id=47144464) | Link: https://www.inceptionlabs.ai/blog/introducing-mercury-2
 
 ### TL;DR
-Mercury 2 is a diffusion-based language model that generates many tokens in parallel, refining whole drafts instead of decoding sequentially. Inception claims >5× speedups (≈1,000 tok/s on Blackwell), low prices, 128K context, tools, and OpenAI-compatible APIs, targeting latency-sensitive coding, agentic workflows, voice, and RAG. Hacker News is intrigued by “intelligence per second” as a metric and faster agent loops, but reports mixed early quality, energy-efficiency concerns, and technical questions about caching, reasoning behavior, and ties to classic transformer models.
 
----
+Inception launched Mercury 2, a diffusion-based reasoning model that refines multiple tokens in parallel instead of generating strictly one token at a time. The company reports up to 1,009 tokens per second on NVIDIA Blackwell hardware, more than fivefold speed gains, a 128K context window, native tool use, structured JSON, and OpenAI-compatible APIs. Pricing is $0.25 per million input tokens and $0.75 per million output tokens. Its pitch targets coding, agents, voice, and retrieval workloads where latency and throughput outweigh peak single-shot accuracy.
 
 ### Comment pulse
-- Speed as a first-class quality metric → people propose “intelligence per second” combining capability, tokens/sec, and energy/hardware cost to judge models in iterative agent loops.  
-- Early user tests flag weak quality → simple queries (e.g., Maradona) answered slowly with obvious errors, raising doubts that raw speed offsets lower reliability.  
-- Strong curiosity → co-founder fields questions on KV caching, reasoning blocks, TTFT, diffusion–transformer links; others tout 1k tok/s enabling multi-shot prompting—counterpoint: batching makes transformers fast.  
 
----
+- Enthusiasts proposed measuring intelligence per second, watt, or dollar, arguing rapid iteration can outweigh modestly lower single-shot quality.
+- Skeptics cited a slow, incorrect simple-answer test; counterpoint: Inception says fast repeated attempts can compensate when workflows can verify results.
+- Technical discussion focused on KV caching, time to first token, and whether diffusion’s speed survives tool-heavy, high-concurrency production use.
 
 ### LLM perspective
-- View: Diffusion LMs shift the decode bottleneck, but must prove they match AR models on robustness, tooling, and edge-case behavior.  
-- Impact: Fast “good-enough” models benefit IDE copilots, agents, voice bots, and RAG systems where iteration speed beats single-shot optimality.  
-- Watch next: Independent latency–quality–energy benchmarks, TTFT for voice, and hybrid pipelines mixing small planners with large diffusion generators.
+
+- **View:** Throughput is valuable only when downstream verification makes cheaper iteration useful.
+- **Impact:** Diffusion models could shorten agent loops, interactive coding, and voice-response latency.
+- **Watch next:** Independent quality, hardware, concurrency, and time-to-first-token benchmarks.

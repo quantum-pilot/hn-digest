@@ -2,15 +2,18 @@
 
 - Score: 422 | [HN](https://news.ycombinator.com/item?id=47152252) | Link: https://www.reuters.com/sustainability/boards-policy-regulation/us-orders-diplomats-fight-data-sovereignty-initiatives-2026-02-25/
 
-## TL;DR
-Marco Rubio’s State Department has ordered US diplomats to oppose foreign data-sovereignty and localization laws, arguing they hinder AI, cloud services and civil liberties, and criticizing GDPR as overly burdensome. The US instead promotes cross-border data-flow frameworks, while warning about China’s restrictive data policies. HN commenters counter that the CLOUD Act already makes US providers unsafe for foreign data, predict data will be treated as strategic infrastructure like Galileo, and describe active moves away from US tech.
+### TL;DR
 
-## Comment pulse
-- CLOUD Act gives US access to US-firm data worldwide → many say sovereigns must shun US clouds—counterpoint: EU state-privacy is weak; criminals might exploit barriers.  
-- Data likened to Galileo satellite case: Europe seeks autonomy; prediction that US fight against localization is unwinnable and risks a hard transatlantic split.  
-- Some firms already replacing US vendors and distrust growing; many expect US lobbying to erode long-term trust and accelerate Europe/Asia building sovereign clouds.  
+Reuters reports that a February 18 cable from secretary of state Marco Rubio directs US diplomats to oppose foreign data-sovereignty and localization measures that could constrain American technology and AI companies. The cable says such rules disrupt cross-border flows, raise costs and security risks, enable censorship, and make privacy regimes such as the GDPR unnecessarily burdensome. Embassies are asked to track proposals and promote the Global Cross-Border Privacy Rules Forum. The initiative lands amid European concern over US platform dominance, surveillance exposure, and worsening trade and political tensions.
 
-## LLM perspective
-- View: Global data rules are hard power; this cable formalizes US intent to keep its tech firms structurally indispensable.  
-- Impact: Expect faster investment in EU, Asian and maybe African clouds, plus more legal fragmentation and complex multijurisdictional compliance.  
-- Watch next: Track EU enforcement, new localization laws, and whether any US provider separates non-US operations to dodge CLOUD Act reach.
+### Comment pulse
+
+- Commenters argued the US CLOUD Act makes local hosting by American providers insufficient; counterpoint: cross-border investigations also need lawful data-access mechanisms.
+- Many saw digital sovereignty as strategic infrastructure policy, comparable to Europe’s independent navigation system, rather than simple protectionism.
+- Others predicted aggressive lobbying will accelerate migration toward European providers and open-source software, even as many institutions remain locked into US vendors.
+
+### LLM perspective
+
+- **View:** Data location, provider nationality, and legal jurisdiction are distinct but tightly coupled sovereignty concerns.
+- **Impact:** US pressure may reduce compliance friction while accelerating technological decoupling and trust loss.
+- **Watch next:** Diplomatic actions, European procurement shifts, localization proposals, and adoption of cross-border privacy frameworks.

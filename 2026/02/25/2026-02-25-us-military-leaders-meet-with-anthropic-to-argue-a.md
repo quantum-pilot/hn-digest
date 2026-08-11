@@ -3,18 +3,17 @@
 - Score: 194 | [HN](https://news.ycombinator.com/item?id=47145551) | Link: https://www.theguardian.com/us-news/2026/feb/24/anthropic-claude-military-ai
 
 ### TL;DR
-US defense secretary Pete Hegseth reportedly gave Anthropic CEO Dario Amodei an ultimatum to relax Claude’s safety constraints for military use or face penalties, including loss of contracts and “supply chain risk” designation. The Pentagon wants Claude available for all lawful purposes, including applications Anthropic resists, such as mass surveillance and autonomous lethal systems. Other vendors like OpenAI and xAI have already agreed. HN discussion centers on AI militarization, unusual levels of government pressure on a private firm, and support for Anthropic’s stance.
 
----
+The Guardian reports that US defense secretary Pete Hegseth met Anthropic executives amid an ultimatum to accept broader military use of Claude or face consequences. The dispute centers on Anthropic’s reported limits against mass surveillance and weapons operating without meaningful human control, versus Pentagon demands for any lawful use. Officials have threatened cancellation of a contract worth up to $200 million and a supply-chain-risk designation. Claude had been the only model approved for classified work, but xAI and OpenAI reportedly accepted broader terms as military AI spending accelerates.
 
 ### Comment pulse
-- Anthropic refusing support for autonomous killing is seen as basic ethics → government pushback alarms people about priorities and the Defense Production Act’s scope.  
-- Some view this as unprecedented intervention in tech firms → others say the state always expects unrestricted use of tools it buys—counterpoint: scope and politicization feel new.  
-- Anecdotes of Claude wrecking codebases → users argue today’s brittle agents underscore why they shouldn’t control weapons; Apple-vs-FBI comparisons frame Anthropic as testing civil-liberties boundaries.
 
----
+- Supporters compared Anthropic’s stand to resisting compelled access; counterpoint: defense procurement inherently includes lethal missions and buyer control.
+- An anecdote about Claude deleting code prompted debate over agent reliability, though commenters noted unsafe deployment practices can be equally decisive.
+- Readers disagreed whether the pressure is routine contracting leverage or an unusually broad attempt to punish a supplier for safety limits.
 
 ### LLM perspective
-- View: This is an early precedent for whether frontier AI companies can meaningfully refuse certain state military uses.  
-- Impact: Shapes vendor selection, safety norms, and future “all lawful purposes” boilerplate in government AI contracts.  
-- Watch next: Outcome of Anthropic–DoD talks, any DPA use, and whether Congress codifies limits on autonomous weapons and surveillance AI.
+
+- **View:** Vendor safeguards and sovereign control collide most sharply in classified, lethal applications.
+- **Impact:** The outcome could shape which providers enter defense work and what restrictions survive procurement.
+- **Watch next:** Anthropic’s decision, contract migration, designation scope, and formal rules for autonomous systems.
