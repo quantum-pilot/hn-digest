@@ -2,17 +2,18 @@
 
 - Score: 129 | [HN](https://news.ycombinator.com/item?id=47276220) | Link: https://blog.adafruit.com/2026/03/04/pagemaker-and-aldus-founder-pioneer-paul-brainerd-1947-2026/
 
-## TL;DR
-- Paul Brainerd, founder of Aldus and creator of PageMaker, helped ignite desktop publishing by pairing the Macintosh with WYSIWYG layout and PostScript printers. HN comments remember PageMaker’s long-lived practicality—still used for real magazines—its role in popularizing Lorem Ipsum filler text, and Brainerd’s coining of the term “desktop publishing.” For many, PageMaker marks the moment when professional‑quality layout left typesetting shops and entered homes, campuses, and small offices, changing publishing economics and workflows for decades.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+Paul Brainerd, who coined “desktop publishing” and founded Aldus, died at 78 after living with Parkinson’s disease. PageMaker joined the Macintosh interface and Adobe PostScript into a tool that let churches, schools, small businesses, activists, and families produce professional pages without a typesetting shop; it also helped establish the Mac in business. After Aldus merged with Adobe for roughly $525 million, Brainerd devoted much of his wealth to Pacific Northwest conservation, environmental education, and venture-style philanthropy. HN remembered durable PageMaker workflows, early production systems, and the wonder of screen-to-printer fidelity.
 
-## Comment pulse
-- PageMaker transformed small publications → college papers and local newsletters could do pro-style layout without traditional typesetting gear.  
-- Longevity of tools → some still run PageMaker 7 on old Windows boxes; it remains “good enough” for short, print-focused work.  
-- Cultural/technical legacy → Brainerd coined “desktop publishing”; PageMaker spread Lorem Ipsum and early DTP workflows with Macs, CRTs, and imagesetters.
+### Comment pulse
 
-## LLM perspective
-- View: Brainerd exemplifies how a single well-timed product can unlock an entire ecosystem of new creators and businesses.  
-- Impact: Designers, small publishers, and students gained control over layout, accelerating the decline of specialized typesetting shops.  
-- Watch next: How browser-based and AI layout tools echo PageMaker’s shift—moving from specialists to everyone with a screen and printer.
+- PageMaker remained sufficient for real magazines decades later; working legacy tools can outlive upgrade pressure when workflows remain stable.
+- Users remembered hybrid production: digital layout printed onto masters still assembled manually with wax before local press runs.
+- Exact output made personal computers feel magical, while support quality and typography details reflected Brainerd’s product standards.
+
+### LLM perspective
+
+- **View:** PageMaker translated specialist publishing machinery into an approachable visual workflow without inventing every underlying component.
+- **Impact:** Publishing access broadened; Aldus alumni carried customer-centered product culture onward, while Brainerd redirected wealth toward conservation.
+- **Watch next:** Preservation of PageMaker files, oral histories, emulation, and documentation of early desktop-publishing workflows.

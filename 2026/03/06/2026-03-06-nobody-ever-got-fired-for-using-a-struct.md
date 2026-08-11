@@ -2,19 +2,18 @@
 
 - Score: 141 | [HN](https://news.ycombinator.com/item?id=47225655) | Link: https://www.feldera.com/blog/nobody-ever-got-fired-for-using-a-struct
 
-## TL;DR
-Feldera compiles SQL tables into Rust structs, so a customer’s table with 700+ nullable columns became a giant struct of `Option<T>` fields. In memory this was fine, but on disk rkyv’s archived layout blew up: `Option<ArchivedString>` can’t use Rust’s niche optimizations, so every nullable string paid an 8‑byte discriminant, more than doubling row size and killing throughput. They fixed it by serializing a bitmap of which fields are `NULL` plus the raw values (dense or sparse), cutting row size ~2x. HN debates native-language serialization, 700‑column schemas, and the primacy of data layout.
+### TL;DR
 
----
+Feldera traced a slowdown to serializing SQL rows with hundreds of nullable columns as Rust structs. In-memory niche optimizations kept Option fields compact, but rkyv’s archived strings required explicit discriminants, more than doubling a small example and wasting far more in wide sparse rows. Feldera replaced per-field options with a null bitmap, optionally stored only present values through pointers, and selected dense or sparse layouts per row. Row size and disk I/O halved, restoring throughput. HN debated format-first storage, columnar designs, and whether 700-column schemas are pathology or enterprise reality.
 
-## Comment pulse
-- Native-language serialization is dangerous for durable storage → history of Java, .NET BinaryFormatter, PHP, etc.; better to design explicit on‑disk formats—counterpoint: serde with JSON/Protobuf is exactly that.
-- Data layout often beats clever algorithms → reorganizing structs/rows simplifies code and boosts speed—counterpoint: you still must design structures knowing how they’ll be used.
-- 700‑column tables seen as schema malpractice → some never encounter them; others in enterprise/manufacturing (and Feldera) say hundreds–thousands of nullable columns are common and must be supported, often via columnstores.
+### Comment pulse
 
----
+- Language-derived persistence is convenient — counterpoint: format-first systems add portability, compatibility, indexes, compression, and security boundaries explicitly.
+- Very wide tables look like modeling failures, yet query engines must ingest inherited enterprise schemas reaching hundreds or thousands of columns.
+- Better data shape can collapse algorithmic complexity, though access patterns must guide the shape rather than follow slogans mechanically.
 
-## LLM perspective
-- View: When you don’t control schemas, adapt serialization/layout around them (bitmaps, sparse rows) instead of forcing idealized models.
-- Impact: Stream processors, CDC engines, and warehouses ingesting wide, nullable enterprise tables gain most from such row‑format engineering.
-- Watch next: Compare this bitmap+dense/sparse row storage to Arrow/Parquet in mixed workloads; document schema evolution and security guarantees of the custom rkyv strategy.
+### LLM perspective
+
+- **View:** Zero-copy serialization still needs workload-aware schema design; avoiding deserialization does not make every archived layout efficient.
+- **Impact:** Feldera users recover throughput without changing SQL, while maintainers absorb custom serialization and compatibility obligations.
+- **Watch next:** Dense-versus-sparse thresholds, random-access cost, schema evolution, columnar alternatives, and results on 4,000-column workloads.

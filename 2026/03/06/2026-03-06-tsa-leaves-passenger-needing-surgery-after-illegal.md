@@ -2,19 +2,12 @@
 
 - Score: 131 | [HN](https://news.ycombinator.com/item?id=47279189) | Link: https://www.thetravel.com/tsa-leaves-passenger-needing-surgery-after-illegally-forcing-her-through-scanner-spinal-cord-implant/
 
-## TL;DR
-A woman with a spinal cord stimulator sued the TSA after Atlanta screeners allegedly ignored her medical ID, refused a pat‑down, and forced her through an Advanced Imaging Technology scanner. She says the electromagnetic field destroyed her implant, caused intense pain, and led to surgery and long‑term harm. The suit argues TSA staff violated explicit agency rules that require alternative screening for such devices, highlighting a broader pattern of TSA agents disregarding policy, disability protections, and opt‑out rights discussed by HN commenters.
+### TL;DR
 
----
+Kerry Thomas alleges TSA officers at Atlanta’s airport refused her requested pat-down in May 2024 despite her medical identification card and warning that screening could damage her implanted spinal cord stimulator. An officer reportedly said the imaging machine had been adjusted; Thomas says entering it caused an immediate shock, destroyed the implant, and left her needing surgery. After an unsuccessful agency adjudication, she sued the United States for unspecified damages. The outcome remains unresolved. Commenters’ similar stories centered on inconsistent procedures, invasive searches, poor training, and weak accountability.
 
-## Comment pulse
-- TSA regularly ignores its own procedures (film handling, fragile lenses, medical devices) → no personal liability, so agents bear no cost when they’re wrong.  
-- Core issue is unaccountable authority, not just training → inconsistent procedures, harassment of scanner opt‑outs, and intimidation tactics feel normalized.  
-- Invasive, surprise pat‑downs traumatize travelers, especially women → commenters want real consequences and lawsuits as deterrents—counterpoint: any centralized mass-security system will generate some bad cases.
+### Comment pulse
 
----
-
-## LLM perspective
-- View: The gap between written TSA policy and front‑line behavior suggests systemic enforcement and oversight failures, not isolated bad actors.  
-- Impact: Disabled and medically complex travelers bear disproportionate risk, discouraging necessary travel and undermining trust in airport security.  
-- Watch next: Whether this lawsuit forces clearer opt‑out workflows, mandatory device exceptions, and trackable accountability for policy violations.
+- Travelers described agents contradicting published opt-out rules → film, facial-recognition, and medical-device procedures reportedly vary by checkpoint and officer.
+- Pat-down accounts emphasized humiliation and intimidation → delays, unexplained touching, and scanner false positives can turn nominal choice into coercion.
+- Training was the proposed remedy → counterpoint: several commenters argued authority without personal consequences makes retraining insufficient.

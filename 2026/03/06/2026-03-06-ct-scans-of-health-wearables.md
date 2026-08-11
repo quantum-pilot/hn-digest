@@ -2,19 +2,18 @@
 
 - Score: 170 | [HN](https://news.ycombinator.com/item?id=47275152) | Link: https://www.lumafield.com/scan-of-the-month/health-wearables
 
-## TL;DR
-Lumafield uses industrial CT scanning to non‑destructively “x‑ray” health wearables like the Oura ring, Dexcom CGM, Omnipod insulin pump, and Jabra earbuds, revealing their hidden mechanisms and design tradeoffs. The scans showcase how safety‑critical drug delivery hardware is miniaturized and, in Omnipod’s case, made disposable while still needing extreme reliability. Hacker News discussion focuses on the educational value of such teardowns, the tension between safety and cost in disposable pumps, and some skepticism about marketing language in the writeup.
+### TL;DR
 
----
+The supplied capture advertises CT scans of Oura, Dexcom, Omnipod, and Jabra wearables but omits the actual teardown, substituting a page shell and unrelated Lumafield articles. HN discussion nevertheless centered on nondestructive CT as an unusually instructive way to inspect compact hardware. The Omnipod drew particular attention: a disposable insulin pump must balance low cost with extremely repeatable, fail-safe dosing because insulin errors can be fatal. Readers praised expert teardowns and interactive scans, requested a shareable Dexcom model, and challenged a claim that microphone proximity materially reduces electrical latency.
 
-## Comment pulse
-- Disposable insulin pumps must be ultra‑reliable yet cheap → mechanism must be precise, safe‑failing, and throwaway; anecdotes of pumps dumping full reservoirs highlight need for watchdogs.  
-- Deep-dive teardowns and CT scans → like a modern “The Way Things Work”, especially paired with YouTube engineers and prior Lumafield battery defect scans.  
-- Visuals impress but some copy disappoints → claims like “mics near processors minimize latency” are flagged as technically dubious marketing, not serious engineering analysis.
+### Comment pulse
 
----
+- Disposable pumps embody an extreme cost-reliability tradeoff; low price cannot compromise precise dosing or independent watchdog protection.
+- Expert teardown videos and explorable volumes teach early-career hardware engineers how tightly constrained real products are assembled.
+- The images impressed readers — counterpoint: polished visualization does not excuse unsupported explanations such as meaningful signal-latency gains from microphone placement.
 
-## LLM perspective
-- View: Accessible CT teardowns meaningfully demystify critical medical hardware without destroying it, bridging marketing claims and physical reality.  
-- Impact: Helps engineers, clinicians, and patients better understand safety margins and failure modes in closed, proprietary wearables.  
-- Watch next: Standardized public CT datasets and quantitative defect metrics for pumps, CGMs, and batteries to inform regulation and procurement.
+### LLM perspective
+
+- **View:** Nondestructive CT turns hidden packaging, mechanisms, and failure paths into inspectable engineering evidence.
+- **Impact:** Patients and students gain transparency; manufacturers expose design compromises in safety-critical, disposable hardware.
+- **Watch next:** Complete Dexcom data, device-to-device comparisons, watchdog circuitry, dose-failure analysis, and corrected technical captions.

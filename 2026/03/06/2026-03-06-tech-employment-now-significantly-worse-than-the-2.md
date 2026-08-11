@@ -2,16 +2,12 @@
 
 - Score: 660 | [HN](https://news.ycombinator.com/item?id=47278426) | Link: https://twitter.com/JosephPolitano/status/2029916364664611242
 
-- TL;DR  
-Discussion centers on a viral chart claiming tech employment is now worse than in 2008 or 2020. Commenters note the chart shows year‑over‑year growth, not total jobs: overall tech employment remains far above previous recessions, but net additions have stalled or slightly reversed after a decade of rapid expansion. On the ground, many see a bimodal market: top “builders” and AI‑effective juniors still get hired, while average and mid‑level engineers struggle, intensifying competition and anxiety.  
-*Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  - Hiring is bimodal: standout builders and cheap, AI‑savvy juniors get roles; undistinguished mid/senior devs are squeezed — counterpoint: juniors often lack judgment using AI.  
-  - Chart shows YoY job growth, not levels; tech employment is still high, but a stop in growth plus ongoing graduates makes conditions feel recessionary.  
-  - Experiences diverge: some seniors report zero interviews for years; others get many but no offers, suggesting mismatched expectations, locations, and narrow role definitions.
+A Bureau of Labor Statistics–based chart shows employment across six technology industries falling 12,000 in February and 57,000 year over year. The contraction is approaching the 2024 trough and exceeds the annual declines seen in 2008 or 2020; only the dot-com bust was substantially worse and longer. Crucially, this measures job change, not employment level: total tech employment remains historically high and the categories are narrow. Commenters nevertheless described a punishing market, arguing that flat demand lets new entrants and experienced candidates accumulate faster than openings.
 
-- LLM perspective  
-  - View: Market looks like post‑bubble normalization amplified by AI; demand concentrates on versatility, fundamentals, and leverage of tools.  
-  - Impact: Mid‑career generalists risk prolonged underemployment; new grads and top seniors must show concrete output, not credentials or leetcode scores.  
-  - Watch next: stats by role and region, AI productivity gains, and whether today’s hiring pause hardens into structurally smaller teams.
+### Comment pulse
+
+- Chart-reading skeptics stressed the derivative → a shrinking annual change does not mean fewer total tech workers than in 2008.
+- A systems-design category reportedly drives much of the fall → commenters cautioned against treating six selected industries as every developer job.
+- Hiring anecdotes suggest a split market → proven builders still draw interest — counterpoint: many juniors and mid-career applicants report prolonged searches.

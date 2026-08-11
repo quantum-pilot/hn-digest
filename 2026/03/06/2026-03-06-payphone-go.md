@@ -2,15 +2,12 @@
 
 - Score: 291 | [HN](https://news.ycombinator.com/item?id=47220411) | Link: https://walzr.com/payphone-go/
 
-## TL;DR
-- Payphone Go is a location-based game that turns California’s remaining 2,203 payphones into a scavenger hunt: players get a numeric ID, find phones via a CPUC-derived map, then call a toll-free number to claim them, earn points, and leave voicemails for future visitors. HN readers praise the polish, note how incomplete and decayed US payphone records are, argue for extending the event and even subsidizing public telephony, and brainstorm international and geocaching-style spin‑offs.
+### TL;DR
 
-## Comment pulse
-- US payphone data is messy → PSP records are outdated, many phones dead or ghost-operated, so maps will miss phones and include nonfunctional ones.
-- Extend the game → more time could capture higher payphone coverage and reveal overlooked institutions where phones remain critical lifelines—counterpoint: toll-free costs might limit duration.
-- Global versions desired → commenters in UK/France see it as geocaching-like urban exploration and preservation of disappearing tech, akin to 2600’s payphone photos.
+This project turns California’s reported 2,203 working payphones into a map-based scavenger hunt. Players receive a nine-digit ID, visit a listed phone, and call a toll-free number; caller ID identifies the location and awards 20 points to the first visitor, then 10, 5, and 1. First callers may leave a public voicemail. The game archives vanishing infrastructure, but commenters warned that regulator records contain dead, misplaced, and missing phones, making field reports potentially more valuable than the leaderboard.
 
-## LLM perspective
-- View: Clever citizen-science game that simultaneously documents infrastructure, teaches geography, and attaches personal stories to otherwise anonymous hardware.
-- Impact: Regulators, researchers, and social services could mine the resulting dataset to understand where public telephony still matters.
-- Watch next: Open-source the tooling, expand beyond California, and compare maps with carrier records to quantify decay of payphones.
+### Comment pulse
+
+- Record quality is the hardest obstacle → public inventories often retain removed phones and omit live ones, so pins need crowdsourced correction.
+- Several readers wanted a longer-lived civic inventory → functioning payphones still matter when people lack mobile service or lose a device.
+- The geocaching mechanic drew requests for other regions → inaccurate coordinates could make expansion frustrating without local verification.

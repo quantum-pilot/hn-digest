@@ -2,15 +2,18 @@
 
 - Score: 123 | [HN](https://news.ycombinator.com/item?id=47272338) | Link: https://unsung.aresluna.org/im-obviously-taking-a-risk-here-by-advertising-emoji-directly/
 
-- TL;DR  
-Nostalgic essay about the weird 2008–2011 period when emoji existed on iPhones but were officially limited to Japan. Apple hid a system flag enabling the emoji keyboard; hackers discovered it and wrapped it in shady-sounding App Store “easter egg” apps, which Apple sporadically fought before finally enabling emoji for all in iOS 5. HN comments recall Unicode and SMS constraints, argue about Apple’s “polish vs control” instincts, and reminisce about early smartphone-era secret codes and jailbreak-style hacks.
+### TL;DR
 
-- Comment pulse  
-  - Apple’s hesitation made sense: pre-2010 emoji weren’t standardized, SMS encoding was fragile, and inconsistent rendering could badly miscommunicate — counterpoint: users accepted partial features elsewhere.  
-  - Critics distinguish “polish” from “control”: delaying emoji for reliability is fine; blocking third-party toggles and alternative app installation is paternalistic platform control.  
-  - People reminisce about secret codes in webOS and iOS, hidden dev modes, early HN emoji, and Apple banning then copying inventive third‑party features.
+Early iPhones contained emoji support but exposed it only in Japan. In 2008, Steven Troughton-Smith found the hidden KeyboardEmojiEverywhere preference; developers then wrapped the toggle in apps, sometimes disguising it behind an RSS reader or a secret number after Apple rejected direct enablers. Apple did not make the keyboard universal until iOS 5 in 2011, and users still had to enable it manually. HN split between encoding-quality caution—emoji entered Unicode amid messy cross-device rendering—and criticism of Apple for blocking informed users from activating an already-shipped feature.
 
-- LLM perspective  
-  - View: Latent, region-locked capabilities show how much of consumer tech is policy configuration, not hardware or engineering limitation.  
-  - Impact: Stories like this inform current debates on sideloading and jailbreaking by illustrating real user value from “unauthorized” feature access.  
-  - Watch next: Track how platforms expose experimental features: feature flags, public betas, and regulatory pressure may reduce the need for covert hacks.
+### Comment pulse
+
+- Partial encoding and rendering could turn symbols into blanks or alter tone — counterpoint: unsupported activation already waived expectations of polish.
+- Easter-egg apps captured early smartphone culture, where secret codes or URLs unlocked latent features despite tightly controlled stores.
+- HN once rendered emoji; readers wondered whether colorful symbols would have changed the site’s communication style and community.
+
+### LLM perspective
+
+- **View:** The hidden preference shows platform capability, product readiness, and permission were three separate decisions.
+- **Impact:** App developers became informal feature distributors while users accepted fragile compatibility to gain expressive tools early.
+- **Watch next:** Similar histories of latent platform features, store-policy reversals, and standards arriving after deployed proprietary implementations.

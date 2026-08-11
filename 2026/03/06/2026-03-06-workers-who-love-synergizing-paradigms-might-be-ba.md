@@ -2,15 +2,18 @@
 
 - Score: 487 | [HN](https://news.ycombinator.com/item?id=47274676) | Link: https://news.cornell.edu/stories/2026/03/workers-who-love-synergizing-paradigms-might-be-bad-their-jobs
 
-## TL;DR
-- Researchers built a “corporate bullshit” receptivity scale by asking 1,000+ office workers to rate jargon-filled, often meaningless business statements. Those most impressed by such language scored lower on analytic thinking, fluid intelligence, and practical workplace decision-making, yet reported higher job satisfaction and saw their leaders as more visionary, helping spread empty rhetoric and promote BS‑using managers. Hacker News commenters connect this to corporate code-speak, power signaling, and performance-oriented cultures where narrative and impression management often matter more than real results.
+### TL;DR
 
-## Comment pulse
-- Corp-speak as coded language and status signal → insiders hear veiled directives; outsiders hear nonsense — counterpoint: study’s random phrases removed real strategic subtext.  
-- Buzzwords sustain narrative-driven careers → success often means making bosses look good and performing confidence, so plausible-sounding fluff becomes a key political tool.  
-- Vague language as governance tool → executives use abstractions to align teams and avoid commitments, but erodes clarity that formal languages and metrics enforce.  
+A Cornell-led four-study project asked more than 1,000 office workers to rate randomly generated corporate buzzword statements alongside real executive quotations, producing a Corporate Bullshit Receptivity Scale. People more impressed by semantically empty rhetoric scored lower on analytic thinking, cognitive reflection, fluid intelligence, and workplace decision-making, yet reported greater job satisfaction, mission inspiration, and supervisor charisma. The findings are correlational, not proof of poor performance. Commenters added that real corporate vagueness can carry coded directives, preserve deniability, signal status, or protect jobs rather than mean literally nothing.
 
-## LLM perspective
-- View: Corporate BS tolerance is a measurable cognitive blind spot, not just a cultural quirk or harmless office humor.  
-- Impact: Screening or training around this could improve decision quality but risks biasing against enthusiastic, less-jaded employees.  
-- Watch next: Replication in non-US firms, links to fraud or blowups, and experiments replacing jargon with clearer language in communications.
+### Comment pulse
+
+- Study defenders stressed the test items were randomized → counterpoint: workplace language can still function as strategic ambiguity, status signaling, or deniability.
+- Formal-language fans wanted ambiguity to become a parse error → natural-language machine interfaces may instead reward polished but underspecified instructions.
+- Others framed jargon as organizational theater → believing and repeating it can signal belonging, charisma, or employability.
+
+### LLM perspective
+
+- **View:** The operational risk is not vocabulary itself, but teams rewarding language that cannot be tested against a concrete decision.
+- **Impact:** Hiring, promotion, and AI-mediated management could amplify persuasive abstraction over clear reasoning.
+- **Watch next:** Replication with objective performance data and experiments separating meaningless prose from deliberate euphemism.

@@ -3,18 +3,17 @@
 - Score: 446 | [HN](https://news.ycombinator.com/item?id=47273854) | Link: https://www.anthropic.com/news/mozilla-firefox-security
 
 ### TL;DR
-Anthropic used Claude Opus 4.6 to scan Firefox, collaborating with Mozilla’s security team. In two weeks, Claude found 22 new vulnerabilities, 14 rated high-severity—around 20% of Firefox’s 2025 high-severity bugs—by analyzing ~6,000 C++ files and submitting 112 reports with testcases and candidate patches. Claude is currently much better at finding and helping fix bugs than exploiting them: after hundreds of attempts and $4k in runs, it produced only two crude, non-sandbox-bypassing exploits. HN discussion focuses on practical AI-audit workflows, reliability limits, and marketing vs. substance.
 
----
+In two weeks, Claude Opus 4.6 scanned 6,000 Firefox C++ files and submitted 112 reports; Mozilla recognized 22 vulnerabilities, including 14 high-severity flaws, and fixed most in Firefox 148. Exploitation proved harder: several hundred attempts costing about $4,000 yielded only two crude demonstrations in an environment stripped of Firefox’s sandbox. Anthropic says defenders currently retain an advantage and recommends task verifiers, minimal tests, proofs of concept, regression suites, and candidate patches. HN welcomed the scale but warned about false positives, unclear impact, and models confidently missing nonlocal security boundaries.
 
 ### Comment pulse
-- AI audits are now table stakes for open source → maintainers should assume attackers already ran LLM scans; use models plus self-review to cut false positives and document intent.  
-- Some see the post as vague marketing → lack of bug detail feels hand-wavy — counterpoint: Mozilla advisories and Anthropic exploit writeup show several genuinely serious issues.  
-- Mixed practitioner experience → LLMs excel at “local” pattern bugs and tooling setup, but miss complex feature interactions and can be confidently wrong, so PoCs and skepticism are essential.
 
----
+- Cheap audits now feel mandatory because attackers can run them too — counterpoint: unverified findings can bury maintainers in automated noise.
+- Models excel at local unsafe patterns; cross-feature business logic and imperfect security boundaries remain harder to assemble and judge.
+- Reproducible crashes and proofs of concept make triage tractable; static prose alone repeats traditional analysis’s false-positive burden.
 
 ### LLM perspective
-- View: AI has flipped vuln discovery from artisanal to semi-automated; the bottleneck moves to triage, validation, and coordinated disclosure.  
-- Impact: Browser vendors and OSS maintainers must integrate AI-assisted security and harden review pipelines, not just code.  
-- Watch next: Standard prompts/tooling for AI audits, CI-integrated patch verifiers, and policies limiting direct exploit generation while enabling defensive research.
+
+- **View:** Tool-backed verification, not raw model eloquence, converted mass crash discovery into maintainable security work.
+- **Impact:** Open-source teams gain scalable fuzzing help but must budget scarce human triage and patch-review capacity.
+- **Watch next:** Sandbox-escape performance, exploit costs, nonlocal bug discovery, disclosure throughput, patch regressions, and access safeguards.
