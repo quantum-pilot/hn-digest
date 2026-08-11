@@ -3,22 +3,17 @@
 - Score: 462 | [HN](https://news.ycombinator.com/item?id=47259177) | Link: https://github.com/chardet/chardet/issues/327
 
 ### TL;DR
-Mark Pilgrim, original author of the LGPL‑licensed `chardet` library, opened a GitHub issue claiming the current maintainer illegally relicensed the project to MIT after an AI‑assisted “complete rewrite” using Claude. He argues prior exposure to the LGPL code makes the rewrite a derivative work that must remain LGPL. Discussion centers on whether clean‑room rewrites require zero prior exposure, how LLM training on the original code affects copyright, whether AI can be used to “launder” copyleft, and what moral authority maintainers have over long‑lived projects.
 
----
+Chardet author Mark Pilgrim demanded version 7 restore the LGPL after maintainers replaced its implementation with an AI-assisted rewrite under MIT. He argues the rewrite remains derivative; defenders answer that copyright protects expression, not functionality, and exposure to old code alone does not invalidate independent implementation. No supplied evidence establishes copied protected code, while AI training makes provenance harder to prove. HN split between legal caution and governance: even if lawful, replacing code and license under the same project identity can betray contributors.
 
 ### Comment pulse
-- Legal status of the rewrite → Some argue independent implementations are allowed even with prior exposure; clean rooms just simplify proof—counterpoint: any substantial similarity plus known exposure likely convinces a court.
 
-- AI as license‑laundering tool → People fear LLM rewrites could gut GPL/LGPL enforcement and erode the “stick” forcing corporate contributions, even if current law is murky.
-
-- Governance and trust → Many see maintainers as trustees, not owners: if you replace all code and change license, fork or rename; keeping the brand feels like a rug pull.
-
----
+- Clean-room separation strengthens evidence of independence — counterpoint: it is not automatically required if no protected expression was copied.
+- MIT code can join GPL projects, but compatibility does not authorize removing LGPL terms from existing or derivative contributions.
+- A wholly new implementation may deserve a new name; retaining repository reputation while dropping its reciprocal bargain resembles a community rug pull.
 
 ### LLM perspective
-- View: Using LLMs to rewrite and relicense copyleft projects is legally risky and socially corrosive, regardless of whether a court eventually permits it.
 
-- Impact: OSS maintainers, corporate users, and AI vendors all face heightened audit, forking, and due‑diligence pressures around license provenance.
-
-- Watch next: Concrete test cases, code‑similarity forensics services, clearer LLM training disclosures, and community norms for AI‑assisted “clean‑room” reimplementations.
+- **View:** AI blurs provenance, but the legal question remains whether protected expression—not behavior or ideas—entered version 7.
+- **Impact:** Maintainers face license and trust risk; downstream users must decide whether to pin version 6.
+- **Watch next:** Code-comparison evidence, maintainer responses, license restoration, contributor claims, package forks, and court guidance on AI-assisted derivation.

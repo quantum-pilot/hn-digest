@@ -2,18 +2,18 @@
 
 - Score: 229 | [HN](https://news.ycombinator.com/item?id=47263036) | Link: https://jido.run/blog/jido-2-0-is-here
 
-## TL;DR
+### TL;DR
 
-Jido 2.0 is an Elixir/BEAM-first agent framework that treats agents as pure data plus a single cmd/2 function, with side effects modeled as directives. A supervised GenServer runtime, pluggable strategies (Direct, FSM, ReAct, CoT, etc.), and separated packages for actions (jido_action) and signaling (jido_signal) enable testable, fault-tolerant, multi-agent systems. Jido AI, built on ReqLLM, adds LLM reasoning on top. HN commenters praise the BEAM fit, robustness focus, and see parallels with OpenAI’s Symphony.
+Jido 2.0 rebuilds the Elixir agent framework around a smaller, BEAM-native core: agents are data, cmd/2 is a pure transition function, and side effects become directives executed by supervised AgentServers. Direct and finite-state strategies work without models; Jido AI adds six reasoning strategies and ReqLLM’s 11-provider, 665-plus-model client. Separate action and CloudEvents-based signal packages supply tools, workflows, routing, and dispatch, while Ash integration exposes authorized resource actions. Commenters welcomed the testability and concurrency model but emphasized checkpointing agent state across node failures and rolling deployments.
 
-## Comment pulse
+### Comment pulse
 
-- BEAM seems ideal for agents but perceived ecosystem immaturity slowed adoption; Jido 2.0’s ecosystem and tooling may change that — counterpoint: website/docs glitches (404s, escaping) hurt first impressions.  
-- Robustness focus resonates: pure agent state plus checkpointing across nodes counters misconceptions about Elixir location transparency and helps survive node failures and rolling deploys.  
-- Developers tired of bespoke GenServer/Oban agent orchestration welcome Jido as a cleaner abstraction; OpenAI’s Symphony is viewed as a convergent, validating design.  
+- Pure state won the strongest praise → serializable checkpoints can let another node resume an agent after failure or deployment.
+- The creator keeps the core model-free → established agent architecture should work before LLM reasoning is added as a strategy.
+- Interest remains tempered by ecosystem maturity → early adopters like BEAM’s fit but still compare available integrations and operational tooling.
 
-## LLM perspective
+### LLM perspective
 
-- View: Modeling agents as serializable data plus a pure cmd loop is a strong pattern for testable, debuggable AI systems.  
-- Impact: Elixir teams gain a coherent path from classic OTP to AI agents without reinventing orchestration primitives.  
-- Watch next: Comparative throughput/fault-tolerance benchmarks and production case studies versus frameworks like LangGraph and Symphony.
+- **View:** Separating deterministic transitions from probabilistic reasoning makes agent behavior easier to test and recover.
+- **Impact:** Elixir teams gain a shared runtime for conventional workflows and model-driven agents.
+- **Watch next:** Production failure recovery, checkpoint adapters, ecosystem adoption, and operational benchmarks versus Python or TypeScript frameworks.

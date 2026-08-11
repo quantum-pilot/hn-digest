@@ -2,16 +2,18 @@
 
 - Score: 604 | [HN](https://news.ycombinator.com/item?id=47257394) | Link: https://acko.net/blog/the-l-in-llm-stands-for-lying/
 
-- TL;DR  
-    Discussion centers on whether large language models are inherently deceptive tools or just imperfect pattern machines being misused. Commenters dispute claims that gamers broadly resist AI, noting quiet acceptance of AI code and long‑standing procedural generation. Others shift focus from technical quality to political economy, arguing LLMs mostly serve capital by automating boilerplate and weakening worker agency, while optimists highlight cheap access, empowerment, and historical parallels to industrial automation and lost crafts.  
-*Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-    - Gamers mostly resist obvious AI art, not AI code; procedural generation already mainstream and successful—counterpoint: some argue AI tooling degrades performance, originality, and long‑term maintainability.  
-    - Critics see LLMs as tools for capital to deskill labor and erode agency—counterpoint: others emphasize cheap access, new empowerment, and historical precedent of disruptive automation.  
-    - Several note most programming is boilerplate; LLMs excel there, yet some fear loss of craftsmanship and prefer them as cautious tutors over code generators.
+The essay rejects AI adoption as inevitable and frames model-generated work as forgery: cheap imitation presented in place of authentic craft. In software, it argues, agents flood maintainers with verbose, mediocre code, conceal missing domain understanding, and turn every line into liability. It extends the critique to art, procedural content, training-data provenance, and unverifiable citations, concluding that trustworthy models would need correct source attribution during inference—something current architectures cannot provide. Commenters challenged its game examples and productivity claims while sharing concern about lost craft, labor power, and unreliable teaching.
 
-- LLM perspective  
-    - View: LLMs expose how routine tasks are while destabilizing notions of expertise, quality, and authorship in creative and software work.  
-    - Impact: Short‑term gains favor firms automating boilerplate code; long‑term effects hinge on labor policy, ownership of models, and cultural taste.  
-    - Watch next: empirical studies on defect rates, performance, and maintainability of AI‑generated code, plus experiments in learner‑centric, lie‑aware AI tutoring.
+### Comment pulse
+
+- Gaming examples drew factual pushback → procedural generation produced major successes, and players mainly reject visible AI assets rather than unseen development tooling.
+- Labor politics divided readers → critics see workforce discipline and wealth extraction — counterpoint: cheap tools can expand individual capability and custom software access.
+- Craft loss may be real without deciding the market outcome → automation changes products, preserves some value, and permanently erases some tacit knowledge.
+
+### LLM perspective
+
+- **View:** Attribution would improve accountability, but it would not by itself establish authenticity, correctness, consent, or maintainability.
+- **Impact:** Maintainers and reviewers absorb verification costs whenever generated work arrives without provenance or understanding.
+- **Watch next:** Provenance research, defect and maintenance studies, contribution policies, labor outcomes, and meaningful disclosure standards.

@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-gws is an unofficial, open-source CLI that exposes all Google Workspace APIs (Drive, Gmail, Docs, Sheets, Chat, etc.) through a single tool. It builds commands from Google’s Discovery Service at runtime, returns machine-friendly JSON, and includes pre-defined “skills” and an MCP server so LLM agents can operate Workspace accounts. Installation uses prebuilt binaries via npm/cargo/Nix, with multiple OAuth and service-account auth flows. HN discussion focuses on agent-friendly document editing patterns, auto-generated CLIs, and whether this is an official Google product.
+`gws` is an Apache-licensed, pre-1.0 CLI exposing Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and other Workspace APIs through structured JSON, dry runs, pagination, schema introspection, agent skills, and MCP. Instead of hard-coding commands, it builds its surface dynamically from Google’s Discovery Service, so new endpoints appear automatically. Authentication supports local OAuth, multiple accounts, CI credentials, service accounts, and impersonation, though setup needs a Cloud project and careful scope selection. HN liked the universal facade but saw document editing as a higher-level problem better served by pull/edit/push representations.
 
 ### Comment pulse
 
-- AI document agents pull/push pattern → extrasuite maps Docs/Sheets to local text/TSV/XML, agents edit safely, then tool computes batchUpdate diffs; similar flows used for Confluence.  
-- Markdown–GDocs bridge → small CLIs convert between Gdocs/Sheets and markdown or CSV with images; others rely on Chrome “paste from markdown” or pandoc→docx for import.  
-- CLI design and trust → debate LLM-generated CLIs vs discovery-driven surface, agent-optimized UX, and potential credential risks in an unofficial Google-branded project.  
+- Dynamic Discovery generation avoids hand-maintaining API plumbing, while structured JSON makes one interface composable for shell tools and agents.
+- Git-like tools expose TSV, XML, or HTML locally, reducing tokens and translating document diffs into fragile batch-update calls.
+- The Google-owned repository looks official — counterpoint: its disclaimer means open-source availability without enterprise support guarantees or SLAs.
 
 ### LLM perspective
 
-- View: Treating a SaaS suite as one dynamically introspected CLI plus skills is a strong pattern for tool-using agents.  
-- Impact: Lowers friction for ops, IT, and power users to script Workspace workflows, then hand the same interface to agents.  
-- Watch next: Patterns for scoping OAuth, auditing agent actions, and handling rate limits when many automated tools share one account.
+- **View:** API completeness and editable-document ergonomics are separate layers; a universal CLI does not eliminate domain-specific representations.
+- **Impact:** Humans lose curl boilerplate; agents gain broad Workspace authority, increasing pressure for narrow scopes and auditable identities.
+- **Watch next:** Version stability, scope minimization, write previews, Docs and Slides editing, skill quality, and support status.

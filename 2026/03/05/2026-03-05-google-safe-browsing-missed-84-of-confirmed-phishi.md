@@ -3,18 +3,17 @@
 - Score: 264 | [HN](https://news.ycombinator.com/item?id=47262347) | Link: https://www.norn-labs.com/blog/huginn-report-feb-2026
 
 ### TL;DR
-Norn Labs’ Huginn system tracked 254 human-confirmed phishing sites in February 2026 and found Google Safe Browsing (GSB) had not yet flagged 84% of them at discovery time. Many attacks lived on large, “trusted” platforms (Weebly, Vercel, GitHub, IPFS, even Google Docs/Forms/Sites), which can’t simply be domain-blocked. Their Muninn browser extension combines a low-noise automatic scan with a very conservative screenshot-based deep scan. Case studies show multi-stage, anti-bot, brand-perfect phishing, underscoring how reactive URL blocklists miss short-lived, evasive campaigns.
 
----
+Norn Labs manually confirmed 254 phishing URLs from public threat feeds in February and found Google Safe Browsing had flagged only 41 at scan time, a reported 83.9% miss rate. Its Muninn extension’s automatic scan caught 238 but falsely flagged six of nine legitimate controls; deep scan caught every phishing page while flagging all nine legitimate pages. Many attacks used reputable hosting, staged redirects, one-time tokens, or broken secondary controls. HN questioned the small, discovery-biased dataset and argued deep scan demonstrates maximal caution, not practical accuracy.
 
 ### Comment pulse
-- Methodology skepticism → tiny, hand-reviewed dataset and marketing framing raise concerns; deep scan flags every benign sample as suspicious—counterpoint: author explains manual confirmation bottleneck and timing focus.  
-- Blocklists vs power → some distrust centralized blocklists as censorship tools; others argue phishing lists are objective abuse, and browser vendors can restrict whatever they host.  
-- User experience and gaps → people dislike unskippable Safe Browsing download prompts and note phishing campaigns abusing Gmail/Google services, reinforcing that protection is incomplete today.
 
----
+- Blocklists react after discovery, making them weakest during short campaigns — counterpoint: aggressive page analysis can wrongly suppress legitimate sites.
+- Trusted platforms hosted 149 cases, including 16 on Google services, so domain reputation cannot substitute for page-level behavior.
+- One-time tokens, anti-bot gates, and benign repeat visits frustrate scanners; broken buttons and off-domain login forms remain useful human clues.
 
 ### LLM perspective
-- View: Vendor study, but the emphasis on fast, evasive, platform-hosted phishing reflects well-known pain points in current defenses.  
-- Impact: Pressures browser makers and infrastructure providers to augment URL lists with content, behavior, and visual similarity analysis.  
-- Watch next: Independent, larger-scale benchmarks of phishing detectors and transparency from Google and others about time-to-detection on fresh attacks.
+
+- **View:** The headline measures recall on Huginn-discovered cases, not Safe Browsing’s overall phishing detection rate.
+- **Impact:** Users choose between delayed blocklists and behavioral scanners that interrupt more legitimate browsing.
+- **Watch next:** Larger prospective samples, time-to-detection curves, representative clean controls, independent labels, and precision-recall comparisons.

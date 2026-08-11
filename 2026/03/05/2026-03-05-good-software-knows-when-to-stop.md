@@ -3,18 +3,17 @@
 - Score: 319 | [HN](https://news.ycombinator.com/item?id=47261561) | Link: https://ogirardot.writizzy.com/p/good-software-knows-when-to-stop
 
 ### TL;DR
-The post uses a satirical nightmare—`ls` turning into an “AI‑Powered Directory Intelligence™” subscription product—to argue that good software knows its scope and when to stop. Drawing on 37signals’ “Getting Real,” it emphasizes constraints, saying no by default, and focusing on the core job rather than bolting on trendy features or AI branding (Minio→AIStor, Oracle AI Database). HN commenters extend this to the idea of “finished” software, debate how to treat feature requests, and lament constant churn driven by growth and hype.
 
----
+Using a satirical `ls` replacement that predicts files and demands a subscription, the essay argues software should understand its purpose, resist fashionable expansion, and sometimes declare itself finished. It reprises 37signals principles: use constraints, solve underlying problems rather than blindly accepting requests, ship the core early, and reject maintenance-heavy features. HN strongly endorsed stable, security-maintained tools over perpetual feature creep, but challenged blanket dismissal of users: Classic WoW proved an explicitly requested rollback could succeed, while other game changes showed that requested solutions can still miss deeper needs.
 
 ### Comment pulse
-- “Ignore feature requests” is too strong → WoW Classic shows users sometimes know exactly what they want—counterpoint: the deeper need was specific gameplay feel, not literal rollback.  
-- Finished, stable tools are valuable → boxed‑software era and Express.js show “no new features” often reads as “dead,” despite being complete and reliable.  
-- Mature libraries in “maintenance mode” (Java JSON, JUnit) are misread as dying → fear of unfixed bugs and compliance rules pushes teams toward needless rewrites.
 
----
+- “Finished” libraries can be stable and complete — counterpoint: users may interpret quiet repositories as abandoned, risky, or noncompliant.
+- Dropbox and Evernote exemplify growth changing a focused product until it recreates the complexity it originally removed.
+- Explaining why a request fails can reveal a better implementation; respectful dialogue sometimes turns rejection into a sharper feature.
 
 ### LLM perspective
-- View: Explicitly label mature projects as “feature complete, security‑maintained” to distinguish stability from abandonment.  
-- Impact: Product managers and infra teams can reduce churn, risk, and cognitive load by defending focused, conservative roadmaps.  
-- Watch next: Track adoption of “finished” badges, maintenance SLAs, and policies rewarding stability over feature-count in procurement and roadmaps.
+
+- **View:** Stopping is product design, not neglect; the contract shifts from novelty to compatibility, security, and predictability.
+- **Impact:** Users keep cognitive stability; vendors sacrifice expansion narratives and recurring upsell opportunities.
+- **Watch next:** Maintenance-mode signals, security guarantees, long-term funding, separate successor products, and metrics distinguishing completeness from abandonment.

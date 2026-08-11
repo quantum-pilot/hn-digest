@@ -2,22 +2,18 @@
 
 - Score: 372 | [HN](https://news.ycombinator.com/item?id=47257803) | Link: https://tuananh.net/2026/03/05/relicensing-with-ai-assisted-rewrite/
 
-## TL;DR
+### TL;DR
 
-A popular Python library, chardet, was “rewritten” using Claude and relicensed from LGPL to MIT, prompting its original author to allege a GPL violation. The post explains that true clean‑room rewrites require strict separation between people who saw the original code and those who write the replacement—something AI breaks if it’s directly prompted with LGPL code. A recent US Supreme Court move affirming “human authorship” deepens the paradox: AI-written code may be uncopyrightable, derivative of LGPL, or even effectively public domain, threatening copyleft’s enforceability.
+chardet’s maintainers used Claude Code to rewrite the library and released version 7 under MIT, replacing the LGPL attached to its Mozilla-derived predecessor. The article argues this may not escape the original copyright and that AI-authorship doctrine also complicates ownership. A maintainer says Claude worked in an empty repository without old-source access, yet critics cite the maintainer’s decade of exposure, reused tests, and opaque model training. Commenters stressed that expression, substantial similarity, and information flow—not matching functionality alone—will shape any legal answer, leaving downstream users with license risk.
 
----
+### Comment pulse
 
-## Comment pulse
+- Clean-room arguments split on independence → direct source access, model training, human memory, specifications, and code similarity provide different kinds of evidence.
+- AI authorship does not automatically erase prior rights → counterpoint: independently generated, sufficiently distinct implementations may avoid derivative-work status.
+- The practical harm lands downstream → uncertain provenance can force users or distributions to audit, pin, replace, or fork a dependency.
 
-- LLM-as-clean-room is dubious → models likely trained on GPL/LGPL; they can’t reliably “ignore” that influence, making the maintainer’s process hard to defend legally.  
-- Clean room vs. copying → real test is substantial similarity and information flow; independent creation is allowed but nearly impossible to prove with LLM involvement.  
-- Generative AI vs. copyright → AI makes expression cheap, blurring “derivative work” and weakening GPL as leverage—counterpoint: feeding original code to AI still clearly creates a derivative.  
+### LLM perspective
 
----
-
-## LLM perspective
-
-- View: Treat AI as an amplifier of whatever licensing posture you already have; it doesn’t magically cleanse or void upstream obligations.  
-- Impact: Library users inherit hidden license risk; compliance teams must now audit both code and generation process, including model usage logs.  
-- Watch next: First test cases over AI-assisted relicensing, “clean” training datasets, and new OSS norms (e.g., AI-use policies, contributor attestations).
+- **View:** An AI rewrite cannot supply the provenance wall that relicensing needs unless inputs, logs, and comparisons are auditable.
+- **Impact:** Maintainers shift unresolved infringement and ownership questions onto every adopter of the new release.
+- **Watch next:** Repository diffs, retained Claude logs, contributor claims, downstream package decisions, and any litigation.

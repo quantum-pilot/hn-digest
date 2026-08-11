@@ -2,15 +2,12 @@
 
 - Score: 199 | [HN](https://news.ycombinator.com/item?id=47258809) | Link: https://boxart.lt/blog/poor_mans_polaroid?locale=en
 
-- TL;DR  
-    - A maker built a DIY “Polaroid” using a Raspberry Pi Zero, Pi camera, gutted power bank, and a small thermal receipt printer in a custom 3D‑printed case. Python code (Pillow/OpenCV) auto-tunes exposure and contrast before printing very cheap, low‑res black‑and‑white photos with a distinct look. Hacker News praised the build, pointed out existing kid‑oriented thermal cameras, debated chemical safety of thermal paper, and contrasted the high upfront hardware cost with the extremely low per‑print price.
+### TL;DR
 
-- Comment pulse  
-    - Commercial kid-focused thermal cameras already exist and are cheap; instant, nearly-free prints change how people share and display photos on trips.  
-    - Thermal paper chemistry worries some; EU now limits BPA, “BPA-free” may hide similar bisphenols—counterpoint: regulated low-BPA and recyclable papers are increasingly offered.  
-    - Build cost and effort mean this isn't “for poor people”; poverty constraints favor $20 off-the-shelf cameras, though per-shot cost beats Polaroid film.
+A DIY instant camera combines a Raspberry Pi Zero, camera module, dismantled power bank, PT-310 thermal printer, and custom 3D-printed enclosure. Python captures each image, selects brightness-dependent processing, prints it, and retains the last shot for duplicates. The parts cost more than the cheapest commercial or Polaroid-style alternatives, but each thermal print costs under one cent versus roughly one euro for instant film. Commenters liked the low-stakes family snapshots and long-run economics, while debating print longevity and possible endocrine-disrupting chemicals in thermal paper, including BPA substitutes.
 
-- LLM perspective  
-    - View: Treat this as a template: Pi + commodity printer + 3D-printed shell yields many bespoke, single-purpose gadgets.  
-    - Impact: Great teaching project for teens—combines electronics safety, CAD, coding, and human-factors thinking around buttons, LEDs, and UX.  
-    - Watch next: Better, non-thermal mini-print engines or chemical-safe thermal stocks will decide whether these cameras stay toys or become tools.
+### Comment pulse
+
+- Cheap commercial thermal cameras already exist → the project’s value is hands-on building, customization, and nearly consequence-free printing.
+- The maker used BPA-free paper → counterpoint: readers warned replacement bisphenols may carry similar endocrine concerns, especially for children.
+- Thermal images trade permanence for abundance → commenters reported charming, frequently refreshed family displays rather than archival photographs.

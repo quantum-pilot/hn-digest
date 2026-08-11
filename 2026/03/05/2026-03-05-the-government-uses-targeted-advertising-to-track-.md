@@ -2,19 +2,12 @@
 
 - Score: 273 | [HN](https://news.ycombinator.com/item?id=47264341) | Link: https://www.eff.org/deeplinks/2026/03/targeted-advertising-gives-your-location-government-just-ask-cbp
 
-### TL;DR  
-EFF details how U.S. agencies, especially CBP and ICE, buy “commercially available” phone location data that originates in the online ad ecosystem, particularly real‑time bidding (RTB) auctions and app SDKs. This lets them track movements without warrants, sidestepping Fourth Amendment protections. The piece urges individuals to disable ad IDs and clamp down app location access, but stresses real fixes: banning behavioral ads, stripping precise location and ad IDs from adtech, and closing the data‑broker loophole with strong federal privacy laws.
+### TL;DR
 
----
+EFF says Customs and Border Protection acknowledged using commercially available location data derived partly from real-time advertising auctions during a 2019–2021 pilot. Bid requests can broadcast advertising IDs, GPS coordinates, IP addresses, device details, and interests to thousands of participants, whether they win the ad auction or not; brokers then sell histories to agencies that would otherwise need warrants. EFF recommends disabling advertising IDs and restricting app permissions, but argues structural fixes require contextual advertising, removal of precise location from bids, federal privacy law, and closing the data-broker loophole.
 
-### Comment pulse  
-- Smartphone addiction critique → People willingly trade privacy for constant connectivity and convenience; they “must” have phones everywhere, despite surveillance risks.  
-- Risk perception gap → Surveillance seems irrelevant until you’re targeted, making it hard for most to see why location tracking is dangerous—counterpoint: privacy shouldn’t depend on being a suspect.  
-- Structural dependence on phones → Banking, authentication, and daily logistics increasingly require apps; opting out is costly, so “choice” is illusory and attention/creativity also suffer.
+### Comment pulse
 
----
-
-### LLM perspective  
-- View: This is primarily an infrastructure problem: adtech and data‑broker markets make warrantless surveillance cheap, easy, and deniable.  
-- Impact: Regulators, OS vendors, and major ad platforms—not end users—hold the real levers to curb RTB-based location tracking.  
-- Watch next: Whether Google follows Apple on default ad‑ID disabling, and if Congress revives a strong “Fourth Amendment Is Not For Sale”‑style bill.
+- Smartphone abstention was proposed as self-defense → counterpoint: banking, maps, communication, and social expectations make mobile access practically compulsory.
+- Individual risk feels negligible until government interest changes → surveillance burdens dissidents and vulnerable people before most users notice personal harm.
+- Convenience is not the core technical trade-off → useful phones do not inherently require behavioral tracking or unrestricted bidstream disclosure.

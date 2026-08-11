@@ -3,14 +3,17 @@
 - Score: 299 | [HN](https://news.ycombinator.com/item?id=47263595) | Link: https://grith.ai/blog/clinejection-when-your-ai-tool-installs-another
 
 ### TL;DR
-An attacker compromised the popular Cline AI coding tool by planting a prompt-injection payload in a GitHub issue title. Cline’s AI triage bot (running in GitHub Actions with broad privileges) followed the injected instructions, pulled a malicious fork, and poisoned the Actions cache. The release pipeline then restored tainted dependencies, leaked npm and marketplace tokens, and the attacker shipped `cline@2.3.0` with a postinstall that globally installed the OpenClaw agent on ~4,000 developer machines. Existing tools (npm audit, code review, provenance, prompts) largely missed it, underscoring that AI-driven CI workflows need operation-level policy enforcement, not just prompt hygiene.
+
+A prompt hidden in a public GitHub issue title persuaded Cline’s AI triage workflow to install an attacker-controlled package. That package poisoned GitHub Actions caches, exposed release credentials, and enabled publication of `cline@2.3.0`, whose postinstall hook silently installed OpenClaw globally on roughly 4,000 machines. The binary itself was unchanged, and delayed disclosure plus failed token rotation extended the exposure. Cline later removed risky caching, adopted OIDC provenance, and tightened rotation. HN emphasized treating issue text as hostile and keeping agents away from secrets and unsupervised execution.
 
 ### Comment pulse
-- Story rehash, not new research → value is surfacing the incident to front page and linking the original researcher’s technical write-up.
-- GitHub Actions “issues” trigger is as risky as `pull_request_target` → defaults grant excessive credentials to workflows processing untrusted text—counterpoint: similar risk exists in any programmable automation (e.g., Zapier plus webhooks).
-- Details matter: exploit relied on `npm install github:cline/cline#b181e0` resolving to a malicious fork and on lifecycle scripts; users with `ignore-scripts` or pnpm were spared.
+
+- Issue-triggered workflows can be as privileged as pull-request targets when default-branch automation receives credentials and executes user-controlled input.
+- Human approval remains necessary for consequential agent actions — counterpoint: operation-level least privilege can contain damage when language defenses fail.
+- Disabling npm lifecycle scripts or using pnpm reduced exposure, showing package-manager defaults remain part of the supply-chain trust boundary.
 
 ### LLM perspective
-- View: The core failure is giving LLM-driven workflows shell and credential access without mandatory human review or strong policy guards.
-- Impact: Teams using AI for CI triage, code review, or automation must treat all inbound text as adversarial and re-scope secrets.
-- Watch next: Wider adoption of OIDC-based publishing, cache-hardening patterns, syscall-level allowlists, and “read-only by default” roles for CI/AI agents.
+
+- **View:** Prompt injection was only the entry point; composable CI permissions turned hostile text into a release-channel compromise.
+- **Impact:** Maintainers inherit stricter secret, cache, provenance, and dependency-script controls; developers must reassess globally installed agents.
+- **Watch next:** OIDC-only publishing, issue-trigger permissions, cache isolation, disclosure SLAs, verified rotation, and audits of other registries.
