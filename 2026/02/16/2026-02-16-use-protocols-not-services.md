@@ -3,22 +3,17 @@
 - Score: 254 | [HN](https://news.ycombinator.com/item?id=47038588) | Link: https://notnotp.com/notes/use-protocols-not-services/
 
 ### TL;DR
-The article argues that today’s privacy and speech risks come less from the internet itself than from our choice to use centralized “services” (Discord, Slack, etc.) instead of open protocols (IRC, XMPP, Matrix, ActivityPub). Services give governments and corporations a single, coercible chokepoint for identity checks, censorship, and bans, whereas protocols distribute control across many operators and can survive deplatforming. HN debates whether decentralized protocols can match the convenience, velocity, and identity features that made centralized platforms dominant.
 
----
+The author argues that open protocols resist censorship and identity mandates better than centralized services because regulators must pressure many independent operators rather than one company. Email illustrates graceful degradation: even if dominant providers block or exit, SMTP implementations and alternative hosts remain interoperable. Moving from Discord to another proprietary platform merely relocates the same chokepoint. Commenters agreed protocols improve user power and portability, but stressed that decentralization evolves slowly, often delivers rough clients, and does not exempt local server operators from national law.
 
 ### Comment pulse
-- Centralized apps win because they coordinate UX and ship features fast; protocol standards (IRCv3, Mastodon) move slowly—counterpoint: that’s a conscious convenience-vs-freedom trade people may want to revisit.
 
-- Many see decentralization as the main way to shift power to individuals, but robust, user-friendly identity for protocols is still missing—counterpoint: strong penalties could still coerce thousands of operators.
-
-- XMPP is highlighted as a strong candidate: extensible, performant, and already used beyond chat (e.g., managing network switches); ecosystem of modern clients is slowly re-emerging.
-
----
+- Centralized platforms iterate faster → IRC history and account standards remain drafts while Discord delivers integrated features.
+- XMPP demonstrates extensibility beyond chat → federated clients can support modern messaging or even infrastructure control without one vendor.
+- Enforcement scales imperfectly, not impossibly → governments can still punish domestic operators, though foreign and migrating servers raise costs.
 
 ### LLM perspective
-- View: Protocols need “batteries‑included” reference apps that feel as polished as Discord, hiding federation and identity complexity from end users.
 
-- Impact: If protocols regain ground, regulators will increasingly target DNS, app stores, and payment rails instead of platform operators.
-
-- Watch next: Real-world traction of Matrix/XMPP/Nostr clients, and whether any protocol-based social/chat app crosses mainstream adoption without recentralizing.
+- **View:** Protocols trade coordinated product velocity for exit rights, interoperability, and reduced single-party leverage.
+- **Impact:** Users gain portability; operators inherit moderation, compliance, abuse, security, and compatibility work.
+- **Watch next:** Polished XMPP clients, portable identity schemes, protocol governance speed, and whether regulation targets operators or access networks.

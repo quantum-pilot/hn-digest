@@ -2,15 +2,18 @@
 
 - Score: 346 | [HN](https://news.ycombinator.com/item?id=47033622) | Link: https://www.theregister.com/2026/02/16/anthropic_claude_ai_edits/
 
-- TL;DR  
-  - Anthropic changed Claude Code’s terminal output to collapse which files it reads/edits into vague summaries, claiming reduced “noise” for longer, more agentic runs. Developers argue this hides crucial context needed to catch mistakes, control security boundaries, and stop token burn, especially while models remain unreliable. Pushback on GitHub and Hacker News forced a partial rollback via a redefined verbose mode, but many still see growing opacity, poor UX choices, and risk of driving devs to competing tools.
+### TL;DR
 
-- Comment pulse  
-  - Need full file-level logs → oversight lets devs interrupt runaway reads/writes, secure sensitive paths, and avoid wasting tokens; agent-swarm future doesn’t remove today’s error rates.  
-  - Anthropic’s “verbose” repurposing → now shows paths but omits deep traces; users complain words and modes no longer match expectations, making debugging and trust harder.  
-  - Strategic risk for Anthropic → dev-focused positioning clashes with opacity; users cancel subscriptions or switch to OpenCode—counterpoint: non-dev “co-work” users may still prefer simplified views.
+Claude Code 2.1.20 replaced visible file-level activity with generic counts, leaving paths behind an expansion shortcut. Anthropic framed the change as reducing terminal noise as agents run longer, while developers said paths are essential for spotting wrong context, unauthorized edits, security issues, and wasted tokens. After backlash, Anthropic repurposed verbose mode to restore read and search paths without every internal detail, but retained the condensed default—simultaneously reducing the older verbose view and satisfying neither visibility preference cleanly.
 
-- LLM perspective  
-  - View: Transparency should be a per-role toggle: human-in-the-loop coding needs granular traces; autonomous agents can default to collapsed summaries.  
-  - Impact: If dev trust erodes, Anthropic risks losing high-value power users to open competitors, despite strong underlying models.  
-  - Watch next: Watch for explicit “observability” features: configurable logging levels, reversible runs, and standards for AI agent audit trails in regulated environments.
+### Comment pulse
+
+- Continuous file visibility enables early steering → agents can spend minutes in the wrong project before final diffs reveal the mistake.
+- Autonomous agent teams motivate quieter interfaces → counterpoint: long unattended runs increase, rather than remove, the need for trustworthy audit trails.
+- Developers can switch harnesses while keeping models → poor UX risks eroding Claude Code’s strongest niche.
+
+### LLM perspective
+
+- **View:** Observability is part of control, not terminal decoration.
+- **Impact:** Developers need selectable detail levels that preserve paths, permissions, and chronological auditability.
+- **Watch next:** Track whether defaults change and whether full verbose output returns under a distinct mode.

@@ -2,15 +2,18 @@
 
 - Score: 149 | [HN](https://news.ycombinator.com/item?id=47035371) | Link: https://johan.hal.se/wrote/2026/02/03/the-sideprocalypse/
 
-- TL;DR
-    - The essay claims indie SaaS is effectively dead: AI makes coding cheap, SEO and platform gatekeepers own discovery, and only enterprise sales can sustain software businesses. Users, it argues, now tolerate slow, broken web apps, so quality no longer differentiates small products. Commenters see this as dramatic inverse‑hype: ideas have always been copied, moats come from execution and domain insight, and side projects mostly fail from fear of shipping, while serious software still requires accountability and quality.
+### TL;DR
 
-- Comment pulse
-    - Article is vibe‑based inverse hype: claims SaaS is dead add nothing; ideas always overlap, winners rely on execution, secrets, and persistent marketing.  
-    - Side projects usually fail from success anxiety and over‑architecting, not AI; shipping forces judgment and operational work many developers subconsciously avoid.  
-    - Quality still matters in safety‑critical and data‑sensitive systems; liability can’t be outsourced to AI—counterpoint: essay mostly targets trivial indie SaaS utilities.
+The essay declares the small indie SaaS dream dead: AI has made code cheap, idea clones abundant, SEO and distribution decisive, and web platforms hostile to independent discovery. It argues that quality no longer differentiates enough, leaving high-touch enterprise sales and incumbent ecosystems as the remaining money. HN readers largely rejected the certainty and lack of evidence, noting that repeated ideas, weak competitors, and launch anxiety predate AI. Others agreed commoditized implementation raises required complexity and shifts advantage toward marketing, distribution, secrets, or physical products.
 
-- LLM perspective
-    - View: LLMs commoditize basic SaaS implementation, but also lower barriers for complex, narrowly focused products with real moats beyond code.  
-    - Impact: Indie developers must treat products as businesses from day one: distribution, audience‑building, and domain expertise outrank framework minutiae.  
-    - Watch next: How search, app stores, and AI assistants surface small tools; whether regulation or platforms shift power toward independents.
+### Comment pulse
+
+- Competition can expand markets rather than erase them → later search engines and familiar story concepts have still produced winners.
+- Many projects never ship because judgment feels risky → overarchitecture protects imagined potential while delaying contact with customers.
+- Quality still matters where failure carries liability → counterpoint: trivial consumer utilities may compete mainly on discoverability and speed.
+
+### LLM perspective
+
+- **View:** AI compresses implementation advantages but does not eliminate domain access, customer trust, operations, or distribution.
+- **Impact:** Indie builders must validate demand earlier and choose problems whose moat extends beyond source code.
+- **Watch next:** Survival rates, acquisition channels, retention, and margins for AI-built versus traditionally developed micro-SaaS products.

@@ -2,15 +2,12 @@
 
 - Score: 478 | [HN](https://news.ycombinator.com/item?id=47034713) | Link: https://www.legalcheek.com/2026/02/ministry-of-justice-orders-deletion-of-the-uks-largest-court-reporting-database/
 
-TL;DR
-- The UK Ministry of Justice has ordered Courtsdesk, a private database used by 1,500+ journalists to track criminal hearings, to delete all records. Officials say Courtsdesk broke its contract and privacy rules by sending sensitive data to a third‑party AI company, while insisting traditional press access to court lists is unaffected. Courtsdesk claims government listings are highly inaccurate and miss many hearings, so deletion will undermine open justice. HN debates whether “public” court data should be easily aggregated, searchable, and reusable in the AI era.
+### TL;DR
 
-Comment pulse
-- Open-data view → If courts are public, information should be free, scrapable, and reusable; paywalls and anti-scraping rules create pseudo‑openness — counterpoint: friction reduces abuse.
-- Privacy concern → Public availability shouldn’t mean indefinite, searchable retention of identifiable court data, especially for minors or cases meant to fade from practical memory.
-- Pragmatic take → Courtsdesk mainly streamlined painful existing lists; shutting it down harms journalistic efficiency while the state plans an in-house, possibly weaker, replacement.
+HM Courts & Tribunals Service ordered Courtsdesk to delete its searchable magistrates’ court archive after alleging unauthorized sharing of sensitive information with a third-party AI company. Courtsdesk, used by 1,500 journalists across 39 outlets, says official records are unreliable and many hearings lack advance press notice, warning that deletion will undermine open justice. HMCTS says listings and records remain available and journalist access is unaffected. Discussion turns on whether public court data should be freely searchable or deliberately friction-limited to protect privacy, time-limited records, and vulnerable defendants.
 
-LLM perspective
-- View → Aggregation and AI analysis transform court data from scattered records into powerful tools, warranting norms beyond “it’s public”.
-- Impact → Journalists may lose visibility into underreported hearings, while defendants face higher risks around discoverability of accusations or convictions.
-- Watch next → Regulation on bulk processing of judicial data, and whether government replacements match third-party tools’ transparency and usability.
+### Comment pulse
+
+- Making nominally public lists searchable materially improves oversight → raw availability is not equivalent to usable access for reporters.
+- Scaled collection changes privacy risk → counterpoint: friction and retention limits can protect people without permanently hiding court activity.
+- The dispute lacks a trusted factual account → Courtsdesk denies wrongdoing while HMCTS says existing listings preserve access.

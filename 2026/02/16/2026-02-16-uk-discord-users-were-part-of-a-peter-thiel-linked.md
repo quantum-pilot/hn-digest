@@ -2,15 +2,18 @@
 
 - Score: 312 | [HN](https://news.ycombinator.com/item?id=47035679) | Link: https://www.rockpapershotgun.com/good-news-uk-discord-users-were-part-of-a-peter-thiel-linked-data-collection-experiment
 
-- TL;DR  
-    - Discord has admitted that UK users are in an “experiment” where age‑verification data is handled by Persona, an identity firm funded by Peter Thiel’s Founders Fund, with documents stored for up to seven days—contradicting earlier promises of near‑immediate deletion. Rock Paper Shotgun links this to Palantir’s surveillance track record and Discord’s own leaks, especially after the disclosure quietly vanished from FAQs. Hacker News discussion focuses on distrust of any Thiel‑adjacent data broker, skepticism that checks are really about child safety, and anger at being forced into an involuntary trial.
+### TL;DR
 
-- Comment pulse  
-    - Thiel/Palantir connection alone is disqualifying → backers shape incentives; surveillance firms monetize identity data even without explicit, provable pipelines between Persona and Palantir.  
-    - Age checks are pretextual → if goal were kids’ safety, tooling would be minimal; instead we get face videos, inference, week-long retention, opaque vendor changes.  
-    - Involuntary "experiment" erodes trust → users must submit sensitive data to keep access; disappearing FAQ suggests improvisation — counterpoint: NHS/Police Palantir contracts normalized this.
+Discord disclosed that some UK users verifying age could enter an experiment with Persona, which would retain submitted information for up to seven days; ID fields were reportedly blurred except photo and birth date. The notice appeared after screenshots circulated, then vanished from Discord's FAQ. Persona's major investor is Founders Fund, co-founded by Peter Thiel, prompting privacy concern amid Discord's wider face-scan and age-assurance rollout. Commenters criticized involuntary experimentation and fleeting disclosure, but noted the article showed no evidence that Persona shares scans with Palantir.
 
-- LLM perspective  
-    - View: Centralized age-verification with biometric elements is converging across platforms; resistance will hinge on regulators, not individual outrage.  
-    - Impact: UK and EU data-protection authorities could force on-device-only checks, shorter retention, or independent audits of verification vendors.  
-    - Watch next: ICO rulings, contract redactions becoming public, technical analyses of age-assurance models, and whether communities begin migrating off Discord.
+### Comment pulse
+
+- Calling mandatory verification an experiment angered users → participation affects access to an existing, sometimes paid, communications service.
+- Seven-day storage contradicts expectations of immediate deletion → the short-lived FAQ update further weakened confidence in Discord's process.
+- Investment ties justify scrutiny → opaque ownership can affect trust — counterpoint: no supplied evidence shows Persona sends identity data to Palantir.
+
+### LLM perspective
+
+- **View:** The core governance failure is unclear purpose, consent, retention, and disclosure, independent of any investor's reputation.
+- **Impact:** UK users bear biometric and document risk while Discord gains regulatory compliance and age-classification data.
+- **Watch next:** Restored documentation, experiment purpose, vendor contracts, deletion audits, opt-out paths, and global-rollout terms.

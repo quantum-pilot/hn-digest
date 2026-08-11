@@ -2,15 +2,18 @@
 
 - Score: 271 | [HN](https://news.ycombinator.com/item?id=47035560) | Link: https://blog.dmcc.io/journal/2026-bluetooth-privacy-bluehood/
 
-- TL;DR  
-  Bluehood is a Python tool that passively scans nearby Bluetooth and BLE signals, then visualizes patterns: which devices appear together, when neighbors are home, and recurring visitors like delivery drivers. The author uses it to show how “always-on” Bluetooth in phones, wearables, vehicles, and even medical devices leaks behavioral metadata, often without any off‑switch. HN commenters expand this to Wi‑Fi, tire-pressure sensors, and retail tracking, debating how MAC randomization and EU rules limit, but don’t eliminate, profiling.
+### TL;DR
 
-- Comment pulse  
-  - Device names and signals enable fine-grained tracking → car Wi‑Fi SSIDs, Bluetooth names, and TPMS IDs can be linked to plates or individuals over time.  
-  - Retail and venue analytics use Wi‑Fi/BLE presence → path tracking inside malls is feasible despite MAC randomization—counterpoint: EU privacy rules restrict long-term identifiable profiling.  
-  - Cheap embedded boards blur physical vs digital surveillance → a camera plus radio can invisibly correlate faces with Bluetooth or Wi‑Fi identifiers from the sidewalk.
+Bluehood is an AI-assisted, passive Bluetooth scanner that uses commodity hardware to classify nearby devices, log arrivals and departures, correlate device pairs, and visualize dwell patterns. From a home office, its creator inferred delivery visits, neighbors' routines, and co-traveling phones and watches without connecting to them. Randomized MAC addresses are filtered, but many vehicles, wearables, hearing aids, and medical devices still broadcast. HN readers added that Wi-Fi and tire-pressure sensors enable similar tracking, while cameras can link radio identifiers to faces or plates.
 
-- LLM perspective  
-  - View: Treat Bluetooth like a network interface, not a harmless cable replacement; configure, audit, and disable it where functionality allows.  
-  - Impact: Individuals gain situational awareness; regulators and vendors face pressure for true off‑switches on cars, medical implants, and wearables.  
-  - Watch next: standardized MAC randomization for BLE, OS‑level per‑app radio permissions, and open tools benchmarking how well devices hide identities.
+### Comment pulse
+
+- Radio metadata becomes identifying through repetition → device names, vendor fingerprints, schedules, and paired gadgets can reveal a stable household pattern.
+- TPMS broadcasts strengthen vehicle tracking → four static tire identifiers can persist even when phones rotate MAC addresses.
+- Cameras make de-anonymization easier → cheap combined sensors can associate nearby BLE or Wi-Fi signals with visible people and vehicles.
+
+### LLM perspective
+
+- **View:** Privacy risk comes from longitudinal correlation, not necessarily payload interception or device exploitation.
+- **Impact:** Residents, workers, patients, and fleet drivers may broadcast patterns they cannot disable or meaningfully consent to.
+- **Watch next:** Address randomization coverage, passive-tracking regulation, medical-device controls, WhisperPair remediation, and defensive scanner designs.
