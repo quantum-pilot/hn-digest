@@ -3,18 +3,17 @@
 - Score: 209 | [HN](https://news.ycombinator.com/item?id=47069179) | Link: https://static.stepfun.com/blog/step-3.5-flash/
 
 ### TL;DR
-Step 3.5 Flash is a 196B-parameter open‑source MoE model that only activates 11B parameters per token, targeting “frontier-level” reasoning and agents at lower inference cost. It combines sliding‑window + full attention, 3‑token‑ahead decoding, and 256K context to reach 100–350 tok/s while matching or nearing GPT‑5.2, Claude Opus, Gemini 3.0 Pro, and Kimi K2.5 on math, coding, and agent benchmarks. A custom RL algorithm (MIS‑PO) stabilizes long‑horizon training, and INT4 GGUF releases make serious agentic coding feasible on high‑end local machines.
 
----
+StepFun released Step 3.5 Flash, an open-source 196-billion-parameter sparse mixture-of-experts model that activates 11 billion parameters per token. It combines a 256,000-token context window, sliding and full attention, and three-token prediction; StepFun reports 100–300 tokens per second in typical use and up to 350 on Hopper GPUs. Company benchmarks include 74.4% on SWE-bench Verified and 51% on Terminal-Bench 2.0. Quantized builds fit roughly 128 GB systems, but StepFun acknowledges long reasoning traces and instability under specialized or extended interactions.
 
 ### Comment pulse
-- Local-first enthusiasts → 4‑bit quant runs fast and stable on 128 GB Macs; best agentic local model some have used, especially with CLI harnesses—counterpoint: current build can get stuck in infinite reasoning loops.  
-- Benchmark skeptics → 51% on Terminal‑Bench sounds low for “unwavering stability”; context shows this is ~⅔ of SOTA and benchmark design is odd and tool-heavy.  
-- Reliability worriers → Some report heavy hallucinations on niche knowledge (e.g., Pokémon decks); others treat it mainly as an execution/agent engine, delegating facts to search tools.
 
----
+- Local testers praise context efficiency, Mac speed, and usable coding-agent performance — counterpoint: others report hallucinations, infinite reasoning loops, and tool-call incompatibilities.
+- Commenters caution that a 51% benchmark score cannot prove unwavering stability and that agent harness choices materially affect results.
+- Hardware economics remain uncertain: four-bit quantization needs roughly 112–116 GB, prompting comparisons with paid hosted coding services.
 
 ### LLM perspective
-- View: This is one of the first open models explicitly optimized for “fast reasoning + tools + agents,” not just chat/coding quality.  
-- Impact: Strong, cheap local agent brains plus cloud orchestration will pressure proprietary stacks, especially for dev tools and internal automation.  
-- Watch next: Better loop‑prevention, token‑efficiency improvements, and community harnesses/benchmarks for tool-use and edge–cloud workflows will determine real‑world adoption.
+
+- **View:** Its distinguishing feature is efficient local agentic inference, not unqualified parity with proprietary models.
+- **Impact:** High-memory workstation owners gain a private coding model with long context and strong reported throughput.
+- **Watch next:** Independent benchmarks, loop fixes, quantization quality, harness compatibility, and real-world hallucination rates.

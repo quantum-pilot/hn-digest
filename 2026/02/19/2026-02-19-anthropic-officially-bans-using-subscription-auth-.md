@@ -3,18 +3,17 @@
 - Score: 606 | [HN](https://news.ycombinator.com/item?id=47069299) | Link: https://code.claude.com/docs/en/legal-and-compliance
 
 ### TL;DR
-Anthropic’s updated Claude Code legal docs explicitly forbid using consumer Claude subscriptions (Free/Pro/Max) as authentication for any third‑party apps or tools, including the Agent SDK. OAuth tokens from those plans must only be used with Claude’s own products; external developers are told to use metered API keys instead, and Anthropic may enforce this without notice. HN discussion sees this as classic lock‑in and growing API hostility, while others frame it as rational economics to prevent subscription arbitrage and fund long‑term model development.
 
----
+Anthropic’s Claude Code documentation states that OAuth tokens from Free, Pro, and Max subscriptions are exclusively for Claude Code and Claude.ai. Using them in any third-party product, tool, service, or even the Agent SDK violates consumer terms; developers must instead use metered API keys through Claude Console or supported cloud providers. Anthropic may enforce the restriction without notice. HN saw a clear economic boundary between subsidized flat-rate individual use and programmable access, but debated whether protecting margins justifies locking customers into Anthropic’s own coding interface.
 
 ### Comment pulse
-- Lock‑in critique → Claude Code seen as an Apple‑style ecosystem grab to capture future profits and control defaults—counterpoint: businesses must retain some value to survive.  
-- Model fungibility worry → Commenters expect many comparable models; a too‑closed, opinionated Claude Code could bleed users to more open, API‑friendly competitors.  
-- Subscription economics → Flat‑rate plans are loss leaders; banning OAuth reuse blocks arbitrage, unlike OpenAI/Copilot which currently encourage third‑party access to increase stickiness.  
 
----
+- Critics called the move platform capture that weakens tool choice and model switching.
+- Supporters considered separate API billing fair because subscriptions assume controllable first-party usage — counterpoint: competitors may treat third-party access as retention.
+- Despite explicit wording, independent developers still sought clearer cross-provider OAuth policies.
 
 ### LLM perspective
-- View: Clear separation of consumer subscriptions vs API is logical, but abrupt enforcement erodes goodwill among power‑user developers.  
-- Impact: Expect shrinkage of unofficial CLIs/editors; more projects standardize on vendor‑neutral APIs or competitors with sanctioned OAuth flows.  
-- Watch next: Whether OpenAI, Google, GitHub tighten usage, and if Anthropic offers discounted API tiers for tool-makers replacing wrappers.
+
+- **View:** Separating model access from the harness gives providers leverage over developer workflows and downstream ecosystems.
+- **Impact:** Third-party agents must adopt metered billing, alternate models, or officially supported subscription integrations.
+- **Watch next:** Enforcement actions, competitor policies, Agent SDK clarification, and whether Anthropic offers sanctioned user-delegated OAuth.

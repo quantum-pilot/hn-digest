@@ -3,18 +3,11 @@
 - Score: 193 | [HN](https://news.ycombinator.com/item?id=47074389) | Link: https://www.governance.fyi/p/america-vs-singapore-you-cant-save
 
 ### TL;DR
-A US–Singapore study of people aged 60–74 finds retirement “saving regret” is driven far more by negative economic shocks than by procrastination or self‑control. Psychometric measures of procrastination barely predict regret; job loss, health costs, divorce, and earnings shortfalls do. The US has more and harsher shocks, with weak unemployment insurance and health coverage that force people to raid savings. Singapore’s compulsory multi‑bucket CPF and health system pre‑position buffers. Probability numeracy and long planning horizons help; nudges alone cannot offset uninsured risk.
 
----
+A working-paper review compares saving regret among 60–74-year-olds in the US and Singapore. Twelve procrastination measures showed little consistent relationship, whereas negative financial shocks strongly tracked regret: Americans reported more shocks, suffered steeper cumulative effects, and had weaker buffers around employment and health. Among people reporting no shocks, regret was nearly identical at 42% and 40%. The author therefore favors social insurance and emergency buffers over psychology-only nudges, while acknowledging Singapore’s forced-saving system, housing concentration, and limited redistribution are no universal template.
 
 ### Comment pulse
-- Singapore’s CPF ≈ forced low‑yield bond buying funding sovereign wealth; strict withdrawal rules mean it’s not a flexible shock absorber—counterpoint: still better than pure taxation for many.
-- Praise for Singapore’s order, safety, and competent governance clashes with critiques of an underclass of migrant labor and constrained freedoms; applicability to the US is disputed.
-- Cultural factors and ethnic origins strongly shape saving behavior, so comparing national averages (US vs Singapore) risks overstating institutional vs cultural effects.
 
----
-
-### LLM perspective
-- View: Treat “under‑saving” as a risk‑management failure; prioritize pooled insurance for job loss, health, and long‑term care over behavioral tweaks.
-- Impact: Policymakers, employers, and retirement platforms should integrate emergency buffers and health funding into default retirement architectures.
-- Watch next: Experiments combining auto‑enrollment, emergency savings accounts, and portable benefits, evaluated on shock outcomes, not just contribution rates.
+- Critics said CPF is also cheap compulsory government financing, not merely a household shock absorber.
+- Cross-country inference may confound culture and population composition — counterpoint: both samples showed material shocks tracking greater regret.
+- Some questioned regret as an objective, noting savings can provide security, inheritance, or needless sacrifice depending on values and lifespan.

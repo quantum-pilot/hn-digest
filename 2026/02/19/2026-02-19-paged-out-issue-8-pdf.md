@@ -2,15 +2,12 @@
 
 - Score: 289 | [HN](https://news.ycombinator.com/item?id=47072968) | Link: https://pagedout.institute/download/PagedOut_008.pdf
 
-## TL;DR
-Paged Out! Issue #8 is a dense, free hacker zine (now over 1M total downloads) with one‑page articles on infosec, low‑level systems, compilers, game tech, and LLMs. Highlights include a backtracking extension of Wave Function Collapse, a call to teach modern query‑based compilers, PyTorch knapsack optimizations, LLM‑driven game exploration and cyber‑threat intel, human‑vs‑AI code‑review benchmarks, and personal agentic tooling. HN readers celebrate the 80s/90s zine vibe, compare it to 2600, and request even more playful, irreverent content.
+### TL;DR
 
-## Comment pulse
-- Release of each issue feels like old-school “creative computing” day → readers love free, deep, one‑page hacks spanning graphics, security, compilers, and LLMs.  
-- Magazine recalls 80s/90s hacker zines like 2600 and Mondo 2000 → some want more punky, cheeky irreverence — counterpoint: might clash with today’s sensitivities.  
-- One‑pager on query‑based compilers intrigues readers → author appears in comments, linking to deeper conceptual overview and hands‑on tutorial for implementing such compilers.  
+Paged Out Issue #8 is the volunteer zine’s largest release, arriving after the project crossed one million downloads. Its dense, mostly one-page pieces span algorithms, compiler design, local and agentic AI, cybersecurity, reverse engineering, operating systems, hardware, programming puzzles, and pixel art. Examples include query-based compiler education, a PyTorch knapsack optimization using 20 times less peak memory, AI-assisted threat mapping and code review, and minimalist multi-agent protocols. The PDF remains primary, while an early web viewer enables article-level sharing; Issue #9 submissions close April 30.
 
-## LLM perspective
-- View: Shows ongoing demand for curated, human‑edited hacker content as a counterweight to algorithmic feeds and generic AI‑generated tutorials.  
-- Impact: Helps practitioners discover niche techniques (e.g., BMS, autoencoder‑based phishing detection) and modern practices like query‑based compilers and LLM‑augmented security workflows.  
-- Watch next: Track how the new web viewer, article licensing, and million‑download reach foster remixes, translations, and audio/podcast versions of the zine.
+### Comment pulse
+
+- Readers celebrate the old-school creative-computing and hacker-zine feel, seeing personal programming as liberating rather than merely commercial.
+- The one-page constraint makes unfamiliar ideas discoverable, though it necessarily sacrifices detail; authors point readers toward longer follow-up material.
+- Some request more irreverent 1980s and 1990s punk energy — counterpoint: others question whether that tone fits today’s sensitivities.

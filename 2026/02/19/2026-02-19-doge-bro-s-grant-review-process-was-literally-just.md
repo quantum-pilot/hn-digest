@@ -3,18 +3,17 @@
 - Score: 162 | [HN](https://news.ycombinator.com/item?id=47076826) | Link: https://www.techdirt.com/2026/02/19/doge-bros-grant-review-process-was-literally-just-asking-chatgpt-is-this-dei/
 
 ### TL;DR
-A Techdirt piece, citing an Authors Guild lawsuit, describes how two politically appointed “DOGE” officials with no humanities expertise mass‑terminated National Endowment for the Humanities grants. They built a “detection list” of culture‑war terms (LGBTQ, BIPOC, tribal, etc.), then fed grant descriptions to ChatGPT with the prompt “Does this relate at all to DEI?” and canceled anything flagged, while blocking NEH staff from intervening and forging the acting chair’s authority. HN discussion focuses on AI as a fig leaf for an ideologically driven purge and the weaponization of “DEI” as a catchall enemy.
 
----
+A proposed amended Authors Guild complaint, as described by Techdirt, alleges two DOGE appointees used keyword searches and a ChatGPT prompt demanding a 120-character yes-or-no DEI classification to select National Endowment for the Humanities grants for termination. Staff generally could not reverse selections; roughly 1,400 notices allegedly went out from a private server, bearing an acting director’s signature although he said he did not choose grants or draft letters. The article presents this as unreviewed culture-war filtering replacing expert grant evaluation.
 
 ### Comment pulse
-- This looks like an ideological purge, not mere efficiency → DEI is used as a vague litmus test to defund anything touching marginalized groups.  
-- Similar keyword sweeps may be hitting science agencies → even technical uses of “diversity” in ecology might get misclassified and rejected.  
-- “DEI” functions as a right‑wing thought‑terminating label → once applied, it justifies hostility without needing a consistent definition or serious review.
 
----
+- Readers worried crude keyword filters may also reject scientific uses of words such as “diversity.”
+- Debate separated whether DEI was legitimate grounds for cancellation from whether any chatbot could define it reliably.
+- Most saw malice and incompetence together — counterpoint: the complaint’s allegations still require adjudication.
 
 ### LLM perspective
-- View: The system wasn’t “AI‑driven” governance; it was political targeting laundered through a chatbot for faux objectivity.  
-- Impact: Undermines trust in public funding, harms scholars on sensitive topics, and normalizes bypassing civil‑service expertise.  
-- Watch next: Court rulings on these terminations, agency AI-use policies, and requirements for auditable, human‑responsible decision pipelines in federal programs.
+
+- **View:** ChatGPT supplied concise rationales, but humans chose the criterion, prompt, decision rule, and lack of appeal.
+- **Impact:** Automation can convert vague political objectives into rapid, large-scale administrative action without accountable reasoning.
+- **Watch next:** Court findings, discovery records, restored grants, and formal requirements for human review.

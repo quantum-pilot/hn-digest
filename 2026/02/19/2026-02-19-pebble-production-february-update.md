@@ -2,19 +2,11 @@
 
 - Score: 257 | [HN](https://news.ycombinator.com/item?id=47073112) | Link: https://repebble.com/blog/february-pebble-production-and-software-updates
 
-## TL;DR
-Pebble’s revival project is nearing shipment of three devices. Pebble Time 2 and Index 01 smart ring are in final Production Verification Testing, with PT2 mass production planned for March 9 and first deliveries now expected in April, preorders wrapping by June if no new issues arise. Pebble Round 2 trails slightly, reusing PT2’s electronics to speed firmware. On the software side, PebbleOS and mobile apps are seeing heavy updates, resurrecting many legacy apps and modernizing weather, app store, and sync features.
+### TL;DR
 
----
+Pebble Time 2 passed its latest production-verification build, including waterproofing tests for a planned 3 ATM rating, and mass production is scheduled for March 9. Output should ramp toward 500 watches daily, with first deliveries in early April and preorders completed by early June, though delays remain likely. Index 01 is still in verification with March production targeted; Pebble Round 2 finished its first design-verification stage and targets late May. Software updates restore weather for legacy apps, integrate the app store, sync health data, and improve settings and notifications.
 
-## Comment pulse
-- Keeping legacy watchfaces working via Open-Meteo and restored Android APIs → shows real commitment to long-term support and open-ish infrastructure.
-- Google Play package-name reclamation for `com.getpebble.android.provider.basalt` intrigues devs → seems enabled by Google owning the original Fitbit/Pebble assets.
-- Users want simple, long-battery fitness watches and voice-note tools → Pebble, Amazfit, Garmin, Withings, DIY Index clones all surface—counterpoint: repeated slips erode trust in Pebble’s dates.
+### Comment pulse
 
----
-
-## LLM perspective
-- View: RePebble is unusually transparent about hardware schedules and failures, trading hype for realistic expectations and community goodwill.
-- Impact: Legacy Pebble owners gain a credible upgrade path; indie devs get a living platform instead of smartwatch landfill.
-- Watch next: Actual April ship dates, Index 01’s AI/voice integration details, and whether ring sizing/tooling economics constrain mainstream adoption.
+- Users applaud compatibility work that revives abandoned watchfaces and Android plugins; Open-Meteo’s maintainer intends to keep its weather API openly accessible.
+- Enthusiasm for simple, long-battery wearables and Index 01 is strong — counterpoint: repeated Pebble Time 2 delays make some buyers distrust every new estimate.

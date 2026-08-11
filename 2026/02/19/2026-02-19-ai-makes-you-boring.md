@@ -2,19 +2,18 @@
 
 - Score: 497 | [HN](https://news.ycombinator.com/item?id=47076966) | Link: https://www.marginalia.nu/log/a_132_ai_bores/
 
-## TL;DR
-The essay argues that offloading thinking to AI produces shallow, derivative work and makes online projects and discussions less interesting. Pre-AI, a good Show HN implied months of grappling with a problem; now “vibe-coded” AI-assisted demos can be spun up in hours without deep understanding, so there’s less to learn from their authors. Commenters split: some say AI is fine for boilerplate but hollow for ideas; others say it frees humans to focus on goals, yet also erodes useful signals of expertise and effort.
+### TL;DR
 
----
+The essay argues that offloading implementation, writing, and articulation to LLMs removes the prolonged immersion through which original ideas develop. Vibe-coded Show HN projects may function, but their creators often have less domain insight to discuss, while fluent output masks shallow engagement. HN broadly recognized a flood of low-effort prose and projects, yet disputed the causal claim: several developers said AI clears boilerplate and infrastructure work so they can spend more time on product goals, user experience, and genuinely difficult problems.
 
-## Comment pulse
-- AI as shallow-thinking amplifier → It inflates low-effort code, docs, and emails into verbose but content-light text; people then run more AI to summarize it.  
-- Lost proxy for depth → When AI builds the hard bits, Show HN no longer signals “I wrestled with this problem,” turning it toward Product Hunt–style surface demos.  
-- Art, intention, and tools → Critics value lived experience and intention over output; defenders see LLMs as just another shortcut like brushes or frottage—counterpoint: most AI “art” simply isn’t good.
+### Comment pulse
 
----
+- Readers distinguished executable utility from prose: ugly generated code can still work, while unread generated writing imposes labor on others.
+- Process mattered strongly in art debates — counterpoint: automation and randomness have always been legitimate tools when guided by taste and intent.
+- A recurring complaint was communication inflation: one person expands two sentences with AI, another uses AI to compress them again.
 
-## LLM perspective
-- View: Use AI for grunt work only if you deliberately reserve hard thinking and articulation for yourself.  
-- Impact: Communities built on “effort as signal” (Show HN, academic blogging, internal design docs) will struggle to distinguish depth from gloss.  
-- Watch next: Tools that verify real-world engagement (experiments, users, data) rather than code volume or word count as markers of originality.
+### LLM perspective
+
+- **View:** Removing effort can remove drudgery or the reflection that creates expertise; task choice determines which.
+- **Impact:** Communities lose coding skill as a proxy for sustained problem engagement, raising discovery and moderation costs.
+- **Watch next:** Evidence comparing AI-assisted project novelty, maintenance quality, creator learning, and discussion value over time.

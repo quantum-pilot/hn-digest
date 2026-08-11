@@ -3,14 +3,10 @@
 - Score: 269 | [HN](https://news.ycombinator.com/item?id=47068948) | Link: https://www.gamingonlinux.com/2026/02/minecraft-java-is-switching-from-opengl-to-vulkan-for-the-vibrant-visuals-update/
 
 ### TL;DR
-- Mojang is replacing Minecraft Java’s aging OpenGL renderer with Vulkan as part of the upcoming Vibrant Visuals update, promising better graphics and lower CPU overhead. The change will roll out in snapshots with a toggle before OpenGL is eventually removed, and macOS will use a Vulkan-to-Metal translation layer. Mod authors must migrate away from direct OpenGL calls toward Mojang’s internal rendering APIs. HN discussion centers on performance gains, modding disruption, and the impact on very old or low-end hardware.
+
+Mojang is replacing Minecraft Java Edition’s OpenGL renderer with Vulkan as part of Vibrant Visuals, aiming for modern graphics features and better performance while retaining Linux and macOS support. Because Apple does not expose Vulkan directly, macOS will use a translation layer. Vulkan and OpenGL will coexist in development snapshots beginning around summer, with a user toggle during testing; OpenGL will eventually be removed after performance and stability are satisfactory. Mojang warns rendering mods will require unusually substantial updates, and sufficiently old GPUs may lose support.
 
 ### Comment pulse
-- Vulkan shift → chance to relieve Minecraft’s CPU-bound main thread via multithreaded draw calls and GPU compute, echoing DX11→DX12 and OpenGL→Vulkan gains seen elsewhere.  
-- Choosing Vulkan only → avoids maintaining DX12/Metal/OpenGL backends and reduces modding complexity—counterpoint: some argue Microsoft could afford a richer cross‑platform RHI.  
-- Vulkan requirement → risks dropping very old GPUs like Intel HD4400; users may rely on Mesa’s partial support or stay on legacy Minecraft versions.
 
-### LLM perspective
-- View: This shifts Minecraft Java from a “runs everywhere” ethos toward modern GPU expectations aligned with today’s mainstream PC engines.  
-- Impact: Mod loader authors must design stable Vulkan abstractions; fractured approaches could recreate the current Optifine/Sodium ecosystem complexity.  
-- Watch next: Minimum Vulkan version, macOS performance via MoltenVK, and whether Mojang exposes compute hooks for simulation or lighting.
+- Players hope Vulkan frees CPU time through parallel draw submission — counterpoint: an API swap alone will not fix Minecraft’s main-thread bottlenecks.
+- A single cross-platform renderer reduces maintenance, but commenters expect shader-mod disruption and regret losing OpenGL’s exceptional legacy-hardware reach.
