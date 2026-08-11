@@ -3,18 +3,17 @@
 - Score: 157 | [HN](https://news.ycombinator.com/item?id=47022329) | Link: https://www.seangoedecke.com/fast-llm-inference/
 
 ### TL;DR
-Anthropic and OpenAI both launched “fast mode” for coding models, but via very different trade-offs. Anthropic appears to speed up its flagship Claude Opus 4.6 by changing inference configuration (likely smaller batches, preferential routing to faster hardware, and possibly more aggressive test-time compute), giving ~2.5x tokens/sec at much higher cost but unchanged quality. OpenAI’s GPT‑5.3‑Codex‑Spark runs on Cerebras wafer-scale chips, delivering ~15x tokens/sec via a smaller distilled model that’s meaningfully less capable, better suited as an internal sub‑agent than a primary assistant.
 
----
+Anthropic and OpenAI reach faster coding inference through different trade-offs. Anthropic serves unchanged Opus 4.6 at about 170 tokens per second versus 65, prioritizing latency over cost efficiency. OpenAI's Cerebras-backed Codex Spark exceeds 1,000 tokens per second but is a distinct, less reliable model than GPT-5.3-Codex. The author attributes Anthropic's gain to smaller batches and Spark's to wafer-scale SRAM, while explicitly acknowledging uncertainty and corrections: continuous batching complicates the analogy, and large models can be sharded across multiple Cerebras chips.
 
 ### Comment pulse
-- Anthropic fast mode ≠ weaker model → Same Opus 4.6; some argue it likely uses parallel distill-and-refine test-time compute, trading extra tokens/$ for faster, smarter answers.  
-- Cerebras constraints are nuanced → Models can be sharded across chips; long pipelines raise latency, not throughput—counterpoint: heavy sharding erodes the main on-chip bandwidth advantage.  
-- Batching model is oversimplified → Continuous batching means users don’t “wait for the bus” in the naive way; queueing and slot availability matter more than batch fill time.
 
----
+- Low batching is plausible but unconfirmed → counterpoint: commenters proposed parallel refinement or routing to newer hardware.
+- Single-chip capacity is not Spark's ceiling → Cerebras already serves roughly 355B-parameter models by sharding across wafers.
+- Speed helps only when errors stay low → extra tool mistakes can cost users more time than slower generation.
 
 ### LLM perspective
-- View: Fast-but-dumber modes mainly help tools and background agents; humans usually prefer fewer mistakes over raw tokens/sec.  
-- Impact: API consumers must benchmark *end-to-end task time*, including error handling, not just latency or speed marketing numbers.  
-- Watch next: Transparent “quality tiers,” public QPS/latency benchmarks, and clearer docs on when to route to fast submodels vs flagship models.
+
+- **View:** Tokens per second, first-token latency, quality, price, and aggregate throughput require joint evaluation.
+- **Impact:** Fast small models may become internal primitives for routing, search, and routine agent operations.
+- **Watch next:** Independent quality benchmarks, queue latency, batch sizes, hardware topology, error-adjusted completion time, and serving economics.

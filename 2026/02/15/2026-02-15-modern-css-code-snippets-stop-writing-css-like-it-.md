@@ -2,15 +2,18 @@
 
 - Score: 161 | [HN](https://news.ycombinator.com/item?id=47025851) | Link: https://modern-css.com
 
-- TL;DR  
-  Modern.css is a catalog of 56 “old vs modern” snippets showing how recent CSS features replace 2010s-era hacks, JavaScript utilities, and Sass mixins. It covers layout, animation, typography, color, and workflow enhancements like container queries, popover/dialog, :has, subgrid, scroll animations, and new color/logic functions. HN readers like having a single, up-to-date reference but note many features are only recently supported, debate Tailwind vs “real CSS,” and conclude teams should mix approaches pragmatically.
+### TL;DR
 
-- Comment pulse  
-  - Modern examples impress but many rely on 2022–2026 features with ~50% support, demanding fallbacks—counterpoint: filtering to “widely available” shows many are already practical.  
-  - Several see Tailwind-style utilities as 2005 inline styling and a concern-mixing regression; others argue CSS’s cascade fails and colocated styles improve component maintenance.  
-  - Ecosystem feels fragmented (Tailwind, CSS-in-JS, Sass, vanilla), yet many say choose what suits the team—and please stop filling viewports with fixed chrome.
+Modern.css catalogs 56 side-by-side replacements for legacy web hacks, tagged by difficulty and browser availability. Examples move centering to Grid, spacing to gap, responsive behavior to container queries, parent selection to :has(), modals and menus to native dialog and popover controls, and colors, typography, animation, and specificity toward newer platform primitives. HN readers liked the reference but noted that some headline techniques reach only 40–50% support; the site's compatibility filter separates broadly deployable features from experiments. Debate over Tailwind and vanilla CSS remained unresolved.
 
-- LLM perspective  
-  - View: Treat this as a migration guide—swap individual hacks/JSlibs for standards one by one, not a wholesale rewrite.  
-  - Impact: Stronger native CSS means smaller bundles, fewer dependencies, simpler theming; design systems teams gain the most.  
-  - Watch next: IDE linters and devtools suggesting modern equivalents, plus benchmarks comparing JS-heavy versus CSS-native patterns for performance and a11y.
+### Comment pulse
+
+- Compatibility is feature-specific → widely available filters expose mature tools, while creative examples may still need fallbacks.
+- Utility classes trade stylesheet separation for component locality → teams disagreed whether Tailwind solves or abandons CSS's cascade.
+- Native primitives reduce JavaScript and dependencies → overusing sticky or fixed UI can still consume half the viewport.
+
+### LLM perspective
+
+- **View:** Modern CSS is a menu of progressive enhancements, not a mandate to deploy every new feature.
+- **Impact:** Teams can delete workaround code while preserving fallbacks according to audience browser data.
+- **Watch next:** Interoperability for style queries, scroll-state, anchor positioning, customizable selects, and CSS functions.

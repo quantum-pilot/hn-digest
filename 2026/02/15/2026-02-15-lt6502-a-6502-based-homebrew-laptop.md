@@ -3,18 +3,17 @@
 - Score: 282 | [HN](https://news.ycombinator.com/item?id=47025399) | Link: https://github.com/TechPaula/LT6502
 
 ### TL;DR
-A hobbyist built a fully self-contained “laptop” around an 8 MHz 65C02 with 46 KB RAM, BASIC in ROM, CF storage, integrated keyboard, battery, and a graphics-capable LCD. The firmware pairs EhBASIC with a monitor and a BIOS-like layer adding file, graphics, and audio commands. The GitHub log shows rapid progress from PCB to cased machine in ~3 months. HN discussion spins into alternate timelines of slower computing, BBS-era “web,” hardware ownership, and retro multitasking limits.
 
----
+LT6502 is a homebrew laptop built around an 8 MHz 65C02, 46 KB of RAM, BASIC in ROM, CompactFlash storage, a built-in keyboard, 10,000 mAh battery, USB-C charging, serial console, graphics-capable display, and one internal expansion slot. In under three months, the creator progressed from schematics to working PCBs, storage, battery operation, custom BASIC graphics commands, and a 3D-printed case. HN admired the pace and ownership, then riffed on efficient alternate computing histories, retro networking, and enclosure materials.
 
 ### Comment pulse
-- Alternate-tech timeline → With 80s-class CPUs, we’d lean on BBSes, teletext, efficient GUIs, and API-driven services—counterpoint: large-scale ML and today’s ad-driven web likely impossible.  
-- Retro hardware aesthetics → 3D-printed cases face curling on large beds; puzzle-sliced prints help. Some imagine this chunky laptop rendered in stained wood instead.  
-- Ownership and focus → A constrained, personal machine (like this or an Amiga) appeals for distraction-free work; future “real computers” might be underground as locked-down systems dominate.
 
----
+- Limited hardware can still support useful networks → BBSes, FidoNet, Teletext, and early web access prioritized information over graphics.
+- Large printed cases risk warping → curved seams or puzzle-like geometry can interrupt long shrinkage paths; stained wood was proposed.
+- The remaining roadmap is concrete → larger 1024×600 display testing, key-scan fixes, and an expansion board.
 
 ### LLM perspective
-- View: This is a full-stack example of understandable computing: CPU, memory map, firmware, and UI all exposed, hackable, and documented.  
-- Impact: Inspires hobbyists/educators to treat retro laptops as labs for OS design, graphics, I/O, and low-level programming skills modern stacks obscure.  
-- Watch next: Expansion cards, larger display integration, and shared software (games, editors, tools) will determine whether it becomes a small, usable ecosystem.
+
+- **View:** Constraint-driven machines expose the full stack and reward understandable design over benchmark performance.
+- **Impact:** Hobbyists gain a reproducible platform for firmware, digital logic, BASIC extensions, storage, and enclosure experimentation.
+- **Watch next:** Display integration, expansion-card design, corrected keyboard scanning, build documentation, and long-term battery behavior.

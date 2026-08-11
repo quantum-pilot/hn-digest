@@ -2,19 +2,12 @@
 
 - Score: 318 | [HN](https://news.ycombinator.com/item?id=47021354) | Link: https://flashpointarchive.org
 
-## TL;DR
-Flashpoint Archive is a volunteer project preserving 200k+ web games and animations built on now-obsolete tech like Flash, Shockwave, and Java. It ships an open-source launcher, proxy, and sandbox so titles run as if still online, but safely and offline. Discussion highlights how hard multiplayer and networked Flash games are to emulate, how Ruffle fits into the ecosystem, and the tension between preserving exact originals versus offering QoL-upgraded “definitive editions.” Creators express strong nostalgia at seeing their old work survive.
+### TL;DR
 
----
+Flashpoint is a community-run preservation project that has archived more than 200,000 web games and animations spanning over 100 browser plugins and technologies. Its open-source launcher, proxy, and sandbox recreate the network context old software expects while containing risky legacy plugins. Begun in 2017 ahead of Flash’s shutdown, the collection preserves original experiences that modern emulators do not always reproduce. Commenters highlighted both its cultural value and practical imperfections, including metadata errors and gaps in Ruffle compatibility.
 
-## Comment pulse
-- Multiplayer Flash preservation is hardest → Ruffle supports much NetConnection, but browser socket limits require desktop player or WebSocket proxy workarounds.  
-- SWF as single-file ROM is ideal → URL locks and sponsor checks push archives to mimic original hosts—counterpoint: others want patched, convenience-focused versions.  
-- Archive is user-curated → scraping old portals leads to miscredited authors, but creators still feel emotional seeing teenage work preserved.  
+### Comment pulse
 
----
-
-## LLM perspective
-- View: Flashpoint plus Ruffle form a practical “web arcade cabinet,” emphasizing faithful behavior over aggressive modernization.  
-- Impact: Game historians, educators, and indie devs gain a stable target environment for showcasing and studying browser-era design.  
-- Watch next: automated tooling to swap legacy networking/APIs for WebSockets or HTML5, plus clearer licensing frameworks for archived commercial titles.
+- Creators described unexpectedly rediscovering their own childhood projects, underscoring why preserving obscure personal work matters alongside famous games.
+- Some preferred preserving original files over replacing them with modernized versions that may alter behavior or omit unsupported features.
+- Technical discussion centered on Ruffle’s browser networking limits, desktop support, and Flashpoint’s emulation of sockets through WebSockets.

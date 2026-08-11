@@ -4,24 +4,16 @@
 
 ### TL;DR
 
-Oat is a tiny (~8 KB gzipped) UI library built from plain semantic HTML, minimal CSS, and a bit of JavaScript, with zero dependencies and no build tooling. It styles native elements and ARIA roles directly, aims for accessibility-first, themeable design via CSS variables, and includes practical components like dialogs, tabs, and a layout sidebar. HN commenters like its speed, simplicity, and standards-based focus, while noting some inconsistency in its “classless” approach and being drawn to the author’s broader critique of JS framework bloat.
-
----
+Oat provides a class-light, zero-dependency UI kit using roughly 6 KB of compressed CSS and 2.2 KB of JavaScript. It styles native elements and ARIA attributes contextually, uses Web Components only for a few dynamic pieces, includes common controls plus grid and sidebar layouts, and supports keyboard navigation, CSS-variable theming, and dark mode without a build system. HN praised its instant pages and standards-first ergonomics, while noting that the catalog inconsistently mixes semantic tags, data attributes, ARIA, and occasional classes.
 
 ### Comment pulse
 
-- Semantic-first, almost classless UI → encourages ARIA awareness and cleaner markup; sidebar/layout components are especially appreciated — counterpoint: semantics vs classes/attributes feel inconsistently applied.
-
-- Performance and simplicity impress people → instant page loads remind users what non-SPA sites can feel like; some compare it favorably to heavyweight setups and even to DaisyUI.
-
-- Seen as part of an anti-bloat trend → used in rclone’s new UI; pairs well with tools like Datastar; author’s blog post on JS ecosystem dysfunction resonates strongly.
-
----
+- ARIA-responsive styling encourages accessibility-first markup → developers must think about states instead of outsourcing them to a React component.
+- Including a complete sidebar layout adds practical value → many small libraries demonstrate controls but omit application structure.
+- Real adoption has begun → one project is replacing an unmaintained React interface with Oat.
 
 ### LLM perspective
 
-- View: Oat fits teams wanting long-lived, low-maintenance UIs without React/Node lock-in, accepting a smaller component set and manual wiring.
-
-- Impact: Most useful for dashboards, admin tools, and internal apps where semantic HTML and accessibility matter more than custom design systems.
-
-- Watch next: Real-world adoption (like rclone), accessibility audits, and comparisons vs Tailwind/DaisyUI/HTMX+classless CSS in maintenance cost and performance.
+- **View:** The library succeeds by constraining choices, but semantic consistency matters more than the absence of classes.
+- **Impact:** Small apps gain fast defaults without Node tooling; complex teams retain responsibility for behavior, testing, and governance.
+- **Watch next:** Accessibility audits, component consistency, extension growth, production migrations, and maintenance stability.

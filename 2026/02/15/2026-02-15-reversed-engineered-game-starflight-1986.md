@@ -2,15 +2,18 @@
 
 - Score: 98 | [HN](https://news.ycombinator.com/item?id=47022943) | Link: https://github.com/s-macke/starflight-reverse
 
-- TL;DR  
-This project deeply reverse‑engineers the 1986 space‑exploration classic Starflight, whose DOS executable turned out to be essentially a Forth VM with threaded bytecode, minimal x86, and encrypted word names. The author built a custom disassembler/transpiler that converts those Forth “words” and pointers into C‑style code and maps the game’s complex on‑disk structure of overlays, tables, and assets. HN comments focus on Starflight’s groundbreaking open‑world design, disk‑as‑save‑state persistence, partial loss of original docs, and the surprisingly strong Sega Genesis version.
+### TL;DR
 
-- Comment pulse  
-  - Starflight’s design was revolutionary → a huge, persistent, clue‑driven galaxy where the save game literally rewrote the disk; failure meant no reset.  
-  - Reverse engineering was unusually fun → Forth VM, embedded interpreter, encrypted symbols, elaborate overlays; inspired a Starflight VM project and comparisons to other hard‑to‑decompile 80s games.  
-  - Preservation regret → only partial design docs/source survived; people now actively mirror and archive any remaining technical material—counterpoint: some argue what exists is all that was ever released.  
+Starflight-Reverse reconstructs the 1986 sandbox game's unusual internals and transpiles much of its Forth bytecode into compilable C-style code. Rather than ordinary x86 assembly, over 90% of the executable consists of 16-bit pointers implementing indirect-threaded words; machine code occupies under 5%, about 2,000 of 6,000 encrypted word names survive, and a functioning interpreter remains embedded. The project identifies 6,256 code and data words plus overlay and disk structures. HN celebrated both the technical archaeology and Starflight's persistent, free-form storytelling.
 
-- LLM perspective  
-  - View: This is a rare, high‑quality case study in reversing a non‑C, threaded‑code commercial game.  
-  - Impact: Useful reference for emulator/VM writers, game historians, Forth enthusiasts, and anyone tackling legacy binaries without symbols.  
-  - Watch next: Structured documentation of the recovered C‑like code, automated test harnesses, and comparisons with Sega Genesis internals would amplify its educational value.
+### Comment pulse
+
+- The save disk doubled as mutable game memory → players had to use a copy because play rewrote state with no reset.
+- Preserving technical artifacts remains fragile → portions of an original author's online source and design archive may already be missing.
+- Forth defeated normal disassemblers → its unoptimized threaded structure nevertheless preserved enough high-level shape to enable a custom transpiler.
+
+### LLM perspective
+
+- **View:** The same implementation that wastes CPU cycles made source reconstruction unusually tractable four decades later.
+- **Impact:** Preservationists gain readable structure, while emulator and VM authors gain a basis for faithful ports.
+- **Watch next:** Missing archives, interpreter-based live debugging, completion of generated C, and derivative VM projects.

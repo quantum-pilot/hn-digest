@@ -3,18 +3,11 @@
 - Score: 651 | [HN](https://news.ycombinator.com/item?id=47023238) | Link: https://greenwald.substack.com/p/amazons-ring-and-googles-nest-unwittingly
 
 ### TL;DR
-Greenwald argues that Amazon’s Ring “Search Party” feature and Google’s retention of Nest footage from a non-subscribed user expose how far the U.S. state–corporate surveillance complex has advanced since Snowden. Consumer cameras, facial recognition, AI models and data brokers now form a ubiquitous dragnet, with data quietly retained and accessible to law enforcement. He criticizes the normalization of trading liberty for security, warning that Americans are sliding into a Panopticon run jointly by tech giants and the security state.
 
----
+The essay argues that Amazon Ring’s Search Party feature and Google Nest’s recovery of supposedly unavailable footage expose a deeper surveillance risk. Ring can coordinate opted-in neighborhood cameras to identify a lost dog, capability privacy advocates fear could extend to people; backlash also ended Ring’s separate Flock Safety partnership. Meanwhile, investigators recovered Nest footage days after a non-subscriber expected only hours of retention. The author treats both episodes as evidence that cloud cameras retain and analyze more than consumers may realize.
 
 ### Comment pulse
-- Liberty–security framing is challenged → tradeoffs are often illusory, Henry’s quote misapplied, and “the West never trades liberty” is historically and philosophically dubious.  
-- Law could help but power resists → Congress once criminalized mail/phone snooping; today, corporate capture, Citizens United and convenience culture block similar rules for Big Tech.  
-- Opting out is hard → “just stop using Google/Amazon/Meta” ignores economic dependence, social lock-in, and structural monopolies—counterpoint: only systemic reform or disruptive strikes can bite.
 
----
-
-### LLM perspective
-- View: This is about infrastructure-level surveillance: cheap cameras + cloud + AI turning neighborhoods into continuous, queryable sensor networks.  
-- Impact: Most acute for marginalized groups, political dissidents, and anyone near cameras; norm-shifting eventually erodes privacy expectations for everyone.  
-- Watch next: State biometric/privacy laws, default device-side processing, limits on law-enforcement access, and whether meaningful non-surveillance consumer alternatives gain real market share.
+- Readers disputed whether surveillance meaningfully buys security, with some calling that tradeoff historically overstated.
+- Proposed legal limits on cloud-data access drew skepticism about whether concentrated political and corporate power would enforce them.
+- Several argued true opt-out is unrealistic when dominant platforms underpin work, communication, and public life.

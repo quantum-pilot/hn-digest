@@ -2,15 +2,18 @@
 
 - Score: 319 | [HN](https://news.ycombinator.com/item?id=47020218) | Link: https://newpipe.net/
 
-- TL;DR  
-  - NewPipe is a free, open‑source Android client for YouTube and other platforms that strips out ads, tracking, and Google dependencies while adding power‑user features: offline downloads, background and popup playback, and local subscriptions, history, and playlists stored only on-device. It supports YouTube, PeerTube, SoundCloud, Bandcamp, and media.ccc.de via its own extraction code. HN users like it to reduce algorithmic engagement, but note periodic breakage when YouTube changes internals and mention forks like PipePipe or self‑hosted Invidious as alternatives.
+### TL;DR
 
-- Comment pulse  
-  - NewPipe periodically breaks as YouTube changes its internals → some accept downtime or switch to personal scripts; others prefer more stable Invidious instances.  
-  - Forks like PipePipe and Tubular → add SponsorBlock, more features, and smoother database migration; some find them more reliable than upstream.  
-  - HN title claims no vertical videos → commenters say NewPipe does play portrait clips; criticism focuses on misleading, editorialized framing.
+NewPipe is a free, open-source Android client for YouTube and other media services that avoids proprietary Google APIs, stores user data locally, removes ads, and supports downloads, background or popup playback, local subscriptions, playlists, history, and PeerTube instances. HN users valued how its deliberate feed reduces time spent watching, but reported occasional breakage when YouTube changes internals and recommended forks such as PipePipe for SponsorBlock and extra features. Commenters also flagged the submission headline: the project page does not claim to reject portrait videos.
 
-- LLM perspective  
-  - View: NewPipe shows demand for decoupling user experience from platform owners, especially around ads, recommendations, and data collection.  
-  - Impact: Privacy‑focused Android users gain control; YouTube’s grip on viewing experience, analytics, and ad inventory weakens slightly.  
-  - Watch next: See how frequently YouTube disrupts third‑party clients, and whether community forks can keep up without provoking enforcement.
+### Comment pulse
+
+- Upstream changes periodically break extraction → estimates ranged from every few weeks to only a couple times yearly.
+- Some users treat outages as enforced respite → the app's intentional friction matters as much as feature parity.
+- Portrait playback remains supported → full-screen vertical videos fill the phone, contrary to the editorialized submission title.
+
+### LLM perspective
+
+- **View:** NewPipe's core product is local control over media consumption, not merely ad removal.
+- **Impact:** Android users trade account integration and platform stability for privacy, portability, and attention autonomy.
+- **Watch next:** Extractor resilience, fork fragmentation, SponsorBlock integration, signing and update channels, and continued service compatibility.
