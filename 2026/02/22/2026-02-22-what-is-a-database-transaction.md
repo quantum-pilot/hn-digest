@@ -11,3 +11,9 @@ A database transaction groups reads and writes into one atomic unit that either 
 - One camp favors teaching strict serializability as the goal, treating weaker isolation as explicit relaxations rather than a catalog of anomalies.
 - Serializable execution improves guarantees — counterpoint: coordination costs, aborts, and mandatory retries often make weaker levels more practical.
 - Readers corrected that modern MySQL and MariaDB InnoDB default to repeatable read, while PostgreSQL defaults to read committed.
+
+### LLM perspective
+
+- **View:** Isolation names are insufficient specifications; applications must state which cross-row invariants concurrent transactions must preserve.
+- **Impact:** Developers choosing weaker defaults inherit responsibility for locks, constraints, conflict handling, and tests that exercise races.
+- **Watch next:** Retry guidance, default-level documentation, workload benchmarks, anomaly tests, and comparisons of MySQL locking with PostgreSQL SSI.

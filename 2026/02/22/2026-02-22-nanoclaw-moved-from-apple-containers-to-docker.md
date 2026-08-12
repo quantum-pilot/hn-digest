@@ -11,3 +11,9 @@ NanoClaw changed its default runtime from Apple Containers to Docker after growi
 - Broader Linux access was viewed as community service rather than enterprise drift, though the announcement’s adoption language drew jokes.
 - Containers limit filesystem damage — counterpoint: agents connected to email, secrets, and unrestricted networks retain serious application-level risks.
 - QEMU appealed to developers needing SSH and nested container workflows, despite greater operational weight.
+
+### LLM perspective
+
+- **View:** Runtime portability solves installation reach; it does not reduce the agent’s application-level authority once credentials enter the sandbox.
+- **Impact:** Operators still need separate secret boundaries, network policy, plugin identities, and escalation controls beyond Docker.
+- **Watch next:** Linux reliability, Apple conversion conflicts, nested-container demand, VM support, secret isolation, and documented threat models.

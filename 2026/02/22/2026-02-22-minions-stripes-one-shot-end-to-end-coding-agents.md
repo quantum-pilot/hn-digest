@@ -11,3 +11,9 @@ Stripe says its unattended Minions now produce more than 1,000 merged pull reque
 - Supporters see unattended agents as a way to resolve many small tasks concurrently, especially during on-call work.
 - Critics called the headline volume a vanity metric — counterpoint: Stripe describes merged, human-reviewed changes integrated with demanding internal checks.
 - Developers feared becoming permanent validators and losing implementation judgment; others framed current experimentation as a necessary path toward better tools.
+
+### LLM perspective
+
+- **View:** Minions demonstrate that agent throughput depends more on prepared environments, constrained tools, and fast feedback than model autonomy.
+- **Impact:** Work shifts toward task specification, platform design, and review, risking bottlenecks and skill decay if review demand grows.
+- **Watch next:** Change complexity, escaped defects, review time, revert rates, human coding share, and productivity normalized per merged outcome.

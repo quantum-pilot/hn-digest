@@ -11,3 +11,9 @@ Xweather Live is an ad-free interactive global vector map combining real-time ra
 - Timeline changes felt substantially faster than Windy for one New Zealand user, making forecast exploration more fluid.
 - Zoomed-out temperature views gave readers an intuitive global perspective beyond local forecasting.
 - Discoverability may need work because several specialized layers appear only after changing the map’s focus.
+
+### LLM perspective
+
+- **View:** Responsiveness becomes analytical capability when users can scrub time and compare hazards without breaking their investigative flow.
+- **Impact:** Prosumer, transport, and maritime users can correlate hazards in one interface if specialized layers remain discoverable.
+- **Watch next:** Timeline latency by region, aviation features, discovery, extreme-location markers, climate views, and accuracy of AI impact summaries.

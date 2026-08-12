@@ -11,3 +11,9 @@ Ukiyo-e Search aggregates 223,891 Japanese woodblock prints from museum and univ
 - Owners reported matching inherited or displayed prints, then discovering related works by the same artists and series.
 - Readers highlighted the craftsmanship behind carving and printing, recommending live process demonstrations and workshops for deeper context.
 - The planned sales database introduces a harder problem: keeping dealer and auction inventory continuously current.
+
+### LLM perspective
+
+- **View:** Cross-institution image matching converts fragmented catalogs into a discovery graph, connecting unidentified objects to artists, series, and variants.
+- **Impact:** Collectors and researchers gain provenance leads without knowing Japanese names or museum-specific catalog terminology.
+- **Watch next:** Marketplace beta coverage, refresh latency, duplicate clustering accuracy, metadata quality, and links between collection and sale records.

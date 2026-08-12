@@ -11,3 +11,9 @@ Quesma’s BinaryAudit benchmark gave AI agents stripped C and Rust executables 
 - Critics expect basic import hiding and string encoding to collapse detection — counterpoint: authors position these entry-level tasks as a capability baseline.
 - Practitioners reported value in file-format analysis, diagrams, attack-surface mapping, and repetitive searches when experts validate every finding.
 - The open-source toolchain handled C better than Go, so benchmark results partly measure decompiler quality rather than model reasoning alone.
+
+### LLM perspective
+
+- **View:** A 28% clean-file false-alarm rate makes autonomous blocking unsafe before attackers even begin hiding obvious indicators.
+- **Impact:** Experts can delegate mapping and repetitive tracing, but findings require validation because misses and false alarms remain common.
+- **Watch next:** Import hiding, string encoding, commercial decompilers, Go support, calibrated ROC metrics, and expert-plus-agent time savings.

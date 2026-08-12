@@ -11,3 +11,9 @@ Shuru is a local macOS sandbox for AI agents that runs lightweight ARM64 Linux v
 - The author says local-first means everything stays on the Mac — counterpoint: one reader considered the term unnecessary marketing for local execution.
 - Offline-by-default networking drew interest, but readers wanted domain or endpoint allowlists when external access is enabled.
 - Checkpoints promise reproducible agent and evaluation environments without adopting registries or a full container workflow.
+
+### LLM perspective
+
+- **View:** Shuru’s useful abstraction is disposable machine state with explicit persistence, separating reproducibility from OCI packaging and registries.
+- **Impact:** Agent developers can branch identical environments locally, but enabling NAT still expands the sandbox’s authority beyond filesystem isolation.
+- **Watch next:** Boot and snapshot benchmarks, outbound allowlists, checkpoint storage growth, concurrent evaluation scaling, and Windows portability.

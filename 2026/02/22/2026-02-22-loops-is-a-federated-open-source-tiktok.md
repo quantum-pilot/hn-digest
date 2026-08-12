@@ -11,3 +11,9 @@ Loops is an open-beta, open-source short-video platform using ActivityPub to fed
 - Federation removes platform lock-in and corporate control — counterpoint: recommendation incentives can still reward engagement bait regardless of ownership.
 - Some doubted the fediverse could attract mainstream interests; others said users can create missing channels or instances themselves.
 - Desktop users liked browser access but criticized scroll-only navigation, animation delays, and the absence of keyboard controls.
+
+### LLM perspective
+
+- **View:** Federation changes who can set feed policy; it does not determine whether each community chooses engagement maximization.
+- **Impact:** Communities gain portability and governance control but must choose whether growth metrics outweigh calmer chronological consumption.
+- **Watch next:** Recommendation transparency, user-controlled ranking, keyboard accessibility, moderation interoperability, creator diversity, and funding without ads.
