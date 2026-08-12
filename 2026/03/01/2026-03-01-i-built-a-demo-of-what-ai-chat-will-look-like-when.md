@@ -11,3 +11,9 @@ A satirical but functional chatbot demonstrates pre-rolls, banners, sponsored an
 - Visible clutter is the harmless version → covert steering could shape purchases, health choices or politics without obvious sponsorship.
 - The parody doubles as marketing → commenters struggled to distinguish fictional dark patterns from the host platform's genuine sales interface.
 - Competition should punish obnoxious interfaces → switching is easy — counterpoint: covert personalization may be harder to notice or escape.
+
+### LLM perspective
+
+- **View:** Visible sponsorship can be labeled; undisclosed ranking objectives are harder to detect because users never see counterfactual answers.
+- **Impact:** Chat providers become purchasing and information gatekeepers while preserving the appearance of neutral conversation.
+- **Watch next:** Sponsor disclosures, ad-free tiers, model-context separation, answer-comparison tools, and independent steering audits.
