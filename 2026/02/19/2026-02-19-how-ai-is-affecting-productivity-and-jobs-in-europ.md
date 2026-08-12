@@ -10,3 +10,9 @@ A study of more than 12,000 European firms estimates that AI adoption raises lab
 
 - Commenters question whether patents and combined big-data/AI usage measure meaningful progress — counterpoint: defenders say relative specialization still signals Europe’s position.
 - Corporate adoption may be too early to judge; commenters cite privacy reviews and slow SME modernization, while others report managerial pressure for immediate headcount cuts.
+
+### LLM perspective
+
+- **View:** AI appears complementary where firms can reorganize work; adoption statistics alone obscure the capability needed to capture gains.
+- **Impact:** Training-intensive returns may widen productivity and wage gaps between large adopters and resource-constrained small firms.
+- **Watch next:** Long-run employment by skill, wage distribution, small-firm adoption, and whether estimated multipliers survive alternative AI measures.

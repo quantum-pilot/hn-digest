@@ -11,3 +11,9 @@ A Seoul court sentenced former South Korean president Yoon Suk Yeol to life impr
 - Supporters of the ruling see accountability as essential for a young democracy — counterpoint: critics cite South Korea’s prosecution-and-pardon cycle as politicized justice.
 - Commenters distinguish Yoon’s legitimate policy frustrations, including physician shortages, from his attempt to override constitutional institutions.
 - Historical pardons make actual confinement uncertain, but several argue punishment still deters military involvement in politics.
+
+### LLM perspective
+
+- **View:** By anchoring insurrection in legislative obstruction rather than battlefield violence, the court set a precedent tailored to executive self-coups.
+- **Impact:** Severe sentences across ministers, commanders, and police chiefs may strengthen deterrence by distributing responsibility beyond the president.
+- **Watch next:** Appeal reasoning, remaining martial-law trials, parole standards, and any future pardon will determine the judgment’s durable force.

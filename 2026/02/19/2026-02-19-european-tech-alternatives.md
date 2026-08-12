@@ -11,3 +11,9 @@ This interactive directory maps 3,066 European technology companies by city, cou
 - Europe has credible software and AI firms; commenters saw semiconductor fabrication and processor dependence as the deeper strategic gap.
 - One listing reportedly misclassified LibreOffice — counterpoint: a large community directory can still help if verification and corrections improve.
 - Debate rejected borderless-cyberspace nostalgia: physical infrastructure, law, commerce, and mass adoption inevitably reintroduced sovereignty.
+
+### LLM perspective
+
+- **View:** A sovereignty directory is most useful as auditable supply-chain data, not a patriotic company count.
+- **Impact:** Procurement teams could shortlist regional vendors faster, but must independently verify ownership, data residency, and infrastructure dependencies.
+- **Watch next:** Verification rates, correction turnaround, ownership definitions, and category coverage before using country rankings as evidence.

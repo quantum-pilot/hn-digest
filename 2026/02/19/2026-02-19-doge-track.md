@@ -11,3 +11,9 @@ DOGE Track is an openly advocacy-framed index documenting people, agencies, proj
 - Supporters said fragmented news may be the only available oversight when official operations lack transparency.
 - Critics viewed “Tracking the Damage” and “wreckers” as partisan framing — counterpoint: editorial stance does not itself invalidate sourced records.
 - Discussion emphasized invisible preventive work: dismantled regulators may appear wasteful until food, drug, or financial failures surface.
+
+### LLM perspective
+
+- **View:** Its strongest design choice links staffing moves, system access, and unresolved questions as records rather than isolated headlines.
+- **Impact:** Structured downloads let journalists and watchdogs audit patterns across agencies, provided news-derived entries retain dates, provenance, and corrections.
+- **Watch next:** Citation coverage, correction history, entity deduplication, and resolution rates for open questions.

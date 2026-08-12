@@ -10,3 +10,9 @@ IRS CIO Kaschit Pandya said the agency lost about 40% of its IT staff and nearly
 
 - Commenters see cuts as weakening enforcement and service, citing broken online workflows — counterpoint: others say recent hiring complicates claims of exceptional downsizing.
 - Claims that IRS funding returns $415 per dollar drew sharp rebuttals favoring roughly $10 and warning of declining returns and compliance costs.
+
+### LLM perspective
+
+- **View:** Conflicting headcount baselines make outcome metrics essential; success cannot be inferred from either cuts or new team labels.
+- **Impact:** Executive attrition can slow decisions and transfer institutional-knowledge risk to remaining cross-functional teams.
+- **Watch next:** Filing-season defects, paper-digitization milestones, service delays, audit yield, and whether temporary frontline details return to IT.

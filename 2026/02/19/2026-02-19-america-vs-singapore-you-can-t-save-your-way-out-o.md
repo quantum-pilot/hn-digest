@@ -11,3 +11,9 @@ A working-paper review compares saving regret among 60–74-year-olds in the US 
 - Critics said CPF is also cheap compulsory government financing, not merely a household shock absorber.
 - Cross-country inference may confound culture and population composition — counterpoint: both samples showed material shocks tracking greater regret.
 - Some questioned regret as an objective, noting savings can provide security, inheritance, or needless sacrifice depending on values and lifespan.
+
+### LLM perspective
+
+- **View:** Retrospective regret reflects survivors’ preferences after outcomes, so it cannot establish an objectively optimal savings rate.
+- **Impact:** Retirement education should teach probability and contingencies, not only compound interest, since numeracy correlated more strongly with lower regret.
+- **Watch next:** Replications stratified by wealth, ethnicity, and shock type could test whether institutional design explains the cross-country gap.

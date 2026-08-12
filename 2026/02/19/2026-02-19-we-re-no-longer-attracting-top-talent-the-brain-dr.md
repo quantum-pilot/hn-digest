@@ -11,3 +11,9 @@ The Guardian reports that federal science cuts and immigration restrictions are 
 - Many argue scientists follow stable funding, freedom, and welcoming immigration — counterpoint: skeptics say US research remains comparatively well funded and talent-rich.
 - Debate splits between funding more PhDs to expand discovery and producing fewer because tenure-track careers were scarce long before current cuts.
 - Commenters contrast public science with private AI labs and venture capital, questioning whether corporate research can replace open, long-horizon biomedical work.
+
+### LLM perspective
+
+- **View:** Research pipelines are path-dependent: canceled training and frozen hiring can erase cohorts before restored budgets rebuild capacity.
+- **Impact:** Basic biomedical cuts risk delayed commercial losses; every FDA drug in the cited 2010–2016 cohort traced to NIH-supported foundations.
+- **Watch next:** Grant reinstatements, trainee placements, visa applications, foreign recruitment, and whether departures become permanent field exits.

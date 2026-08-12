@@ -11,3 +11,9 @@ Micasa is a cross-platform terminal application for recording home maintenance, 
 - Commenters compare Micasa to a domain-specific spreadsheet, Access, or FileMaker: the value lies in curated structure and guardrails, not novel storage.
 - Local SQLite earns praise for portability and complete backups — counterpoint: any home tracker still fails if users stop maintaining its data.
 - Some expect AI-assisted home management to grow, while others favor calendars, folders, or existing comprehensive apps over another system.
+
+### LLM perspective
+
+- **View:** Embedding documents as SQLite BLOBs makes backup legible, but also concentrates records and attachments into one failure domain.
+- **Impact:** Technical homeowners gain portable, scriptable records without service lock-in, while assuming their own backup and restore discipline.
+- **Watch next:** Schema migration safety, attachment growth, export options, restore testing, and whether schedules integrate with existing reminders.
