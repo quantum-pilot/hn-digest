@@ -11,3 +11,9 @@ Anonymous war-event betting can turn classified knowledge into both profit and a
 - Large contrarian bets from fresh accounts are increasingly trackable, making anonymous markets useful intelligence feeds even when aggregate odds stay low.
 - Oil futures already encode geopolitical knowledge — counterpoint: event contracts isolate specific outcomes and create a more direct payoff for leaking.
 - Kalshi reportedly voided a death-related contract; commenters debated whether regulation can curb incentives that gambling naturally recreates elsewhere.
+
+### LLM perspective
+
+- **View:** Even unprofitable anomalies can reveal intelligence; adversaries need warning signals, not proof beyond reasonable doubt.
+- **Impact:** Officials and service members gain a direct monetization channel whose visible trades can compromise operational surprise.
+- **Watch next:** Account provenance, pre-event baselines, regulator access, position limits, insider prosecutions, and manipulation tests.

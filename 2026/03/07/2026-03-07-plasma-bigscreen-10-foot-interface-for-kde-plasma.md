@@ -11,3 +11,9 @@ KDE’s television-oriented desktop offers a couch-friendly Linux shell for TVs,
 - Running normal desktop apps makes it more flexible than Kodi — counterpoint: ordinary Plasma with larger fonts already works adequately for some TVs.
 - A minimalist launcher could reduce complexity, but critics asked who adapts browsers and other applications after launch.
 - The interface may suit handheld consoles, potentially bridging Plasma Mobile and a living-room shell.
+
+### LLM perspective
+
+- **View:** A television shell succeeds only when launched applications remain navigable without falling back to desktop controls.
+- **Impact:** Open hardware owners gain a replaceable smart-TV layer, but maintainers inherit integration work across unrelated apps.
+- **Watch next:** Installer images, remote-only usability tests, streaming-service support, contributor growth, and handheld adoption.

@@ -11,3 +11,9 @@ Oxford researchers propose that deep non-REM sleep suppresses the hyperactive br
 - Long-term sufferers described the brain gradually filtering sounds, with acceptance or mindfulness reducing distress even when the sound remains.
 - Sleep loss, stress, and caffeine commonly amplified symptoms; one commenter linked a neck injury to symptoms that improved during physical therapy.
 - Bimodal neuromodulation attracts interest — counterpoint: experienced patients warned that decades of promising research have not produced a silver bullet.
+
+### LLM perspective
+
+- **View:** Deep-sleep suppression suggests state-dependent circuitry, but symptom correlation does not yet identify a controllable treatment target.
+- **Impact:** Protecting sleep may reduce distress even before therapies can change the underlying auditory activity.
+- **Watch next:** Replication in humans, cause-specific subgroups, longitudinal sleep measurements, and trials separating loudness from distress.

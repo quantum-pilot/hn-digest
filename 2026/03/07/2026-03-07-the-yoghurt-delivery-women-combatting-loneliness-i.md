@@ -11,3 +11,9 @@ Japan’s 31,000 Yakult Ladies do more than sell probiotic drinks: their recurri
 - One worker visits 40–45 homes daily; long-term customers may reserve the same weekly slot as an emotional anchor.
 - Singapore’s surviving network suggests the model travels, while supportive grocery drivers show the social benefit is not brand-specific.
 - Self-employment and retail margins may fund high-touch delivery — counterpoint: the article provides no pay, commission, or route-economics data.
+
+### LLM perspective
+
+- **View:** Reliable repetition creates welfare value that neither product delivery nor occasional volunteer visits provide alone.
+- **Impact:** Communities receive informal monitoring, while self-employed workers may carry uncompensated care expectations and escalation risk.
+- **Watch next:** Earnings, retention, safeguarding training, referral protocols, missed-visit outcomes, and comparable noncommercial programs.

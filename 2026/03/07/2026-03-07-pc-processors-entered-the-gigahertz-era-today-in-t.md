@@ -11,3 +11,9 @@ On March 7, 2000, AMD began shipping a 1 GHz Athlon, beating Intel’s comparabl
 - AMD’s lead embarrassed Intel and, some argued, forced engineering discipline that faded whenever marketing regained control.
 - Builders recalled moving from 233 MHz systems as transformative; later software bloat often consumed hardware gains.
 - Athlon XP’s affordability mattered more to some than the headline clock — counterpoint: winning the race gave AMD lasting credibility.
+
+### LLM perspective
+
+- **View:** The gigahertz race worked as marketing because clock speed then correlated visibly with common single-threaded workloads.
+- **Impact:** AMD converted a brief shipment lead into credibility that influenced enthusiast purchasing beyond the milestone chip.
+- **Watch next:** Retrospective supply data, real application benchmarks, and how quickly software absorbed the additional frequency.
