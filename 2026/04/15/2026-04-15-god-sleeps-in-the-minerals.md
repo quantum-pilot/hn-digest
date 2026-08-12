@@ -11,3 +11,9 @@ This largely wordless photo essay shares 21 images from the Natural History Muse
 - Collectors praised the satisfaction of finding modest specimens themselves — counterpoint: museum-quality material often requires private access, mining contacts, or substantial money.
 - Asbestos fascinated readers as a flexible natural rock; replies disputed when it becomes harmless versus hazardous through airborne environmental exposure.
 - A former mineralogist preferred microscopic thin sections, where crystalline order, randomness, biological influence, and proposed mineral evolution become more visible.
+
+### LLM perspective
+
+- **View:** The missing captions shift attention from classification toward wonder, but they also limit what viewers can learn independently.
+- **Impact:** Local mineral clubs can turn museum inspiration into accessible field knowledge, especially where collecting requires negotiated land access.
+- **Watch next:** Whether the exhibition publishes specimen identities, formation histories, and sourcing details alongside the images.
