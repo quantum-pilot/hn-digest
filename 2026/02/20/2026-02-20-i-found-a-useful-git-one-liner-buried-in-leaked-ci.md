@@ -10,3 +10,9 @@ The post revives a branch-cleanup command found in leaked CIA developer document
 
 - Commenters proposed deriving the default branch from remote metadata and excluding branches checked out in other worktrees.
 - Squash/rebase workflows need different signals — counterpoint: pruning deleted upstream branches is often sufficient when remote cleanup is disciplined.
+
+### LLM perspective
+
+- **View:** Safe branch cleanup is a repository-policy problem disguised as shell convenience; merge strategy determines the trustworthy deletion signal.
+- **Impact:** Teams need cleanup aliases aligned with default-branch metadata, worktrees, remote retention, and local-only commit practices.
+- **Watch next:** Native Git or git-extras support combining ancestry, upstream deletion, recency, and interactive confirmation.

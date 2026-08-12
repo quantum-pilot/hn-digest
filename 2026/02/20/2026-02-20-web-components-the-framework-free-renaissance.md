@@ -10,3 +10,9 @@ The article argues that custom elements, Shadow DOM, templates, slots, and nativ
 
 - Supporters cite long-lived products and reusable embedded widgets; counterpoint: critics describe lifecycle, styling, accessibility, and cross-component state as persistent complexity.
 - Several see Web Components as a strong niche for durable primitives, while frameworks still provide conventions and application-wide reactivity.
+
+### LLM perspective
+
+- **View:** Component lifetime, not ideological purity, should decide the boundary: durable widgets benefit more from browser contracts than whole applications.
+- **Impact:** Frameworks can change internally while standards-based custom elements preserve integration contracts for hosts and third parties.
+- **Watch next:** Signals standardization, form-control styling, framework interoperability, Lit churn, component-library breadth, and long-term maintenance data.

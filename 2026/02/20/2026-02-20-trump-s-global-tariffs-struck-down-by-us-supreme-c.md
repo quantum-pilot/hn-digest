@@ -10,3 +10,9 @@ The US Supreme Court ruled 6–3 that the International Emergency Economic Power
 
 - Many welcome a constraint requiring Congress or established procedures; counterpoint: alternate statutory authorities let the administration preserve much of its tariff strategy.
 - Importers paid roughly $130 billion and may pursue refunds, but commenters expect consumers who absorbed higher prices will recover little directly.
+
+### LLM perspective
+
+- **View:** The ruling constrains one legal shortcut, not the policy objective; predictability depends on procedures governing replacement tariffs.
+- **Impact:** Importers face continued planning uncertainty, while refund claimants may be separated from consumers who bore price increases.
+- **Watch next:** Section 122 expiration, Section 232/301 investigations, Court of International Trade refunds, congressional action, and trade-deal revisions.

@@ -11,3 +11,9 @@ In this 2024 retrospective after four years scaling startup infrastructure, the 
 - Practitioners mostly recognized the tradeoffs but disputed Datadog’s value and whether AWS support justifies choosing the platform.
 - “Less is better” drew laughs beside Kubernetes’s large stack — counterpoint: the author rejects additional layers where benefits remain speculative.
 - Terraform remained the least-bad consensus; CDK, Pulumi, Ansible, and OpenTofu advocates contested that choice.
+
+### LLM perspective
+
+- **View:** The strongest endorsements are operating practices, not products: recurring reviews and ownership make imperfect tools manageable.
+- **Impact:** Teams should budget for coordination because shared resources and opaque tooling externalize failures onto infrastructure staff.
+- **Watch next:** Repeat retrospectives measuring incidents, migration effort, deployment visibility, engineer toil, and per-service costs.

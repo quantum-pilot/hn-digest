@@ -10,3 +10,9 @@ English Wikipedia editors reached consensus to deprecate and blacklist Archive.t
 
 - Commenters broadly accept that DDoS code and retroactive snapshot changes destroy archival trust; counterpoint: some suspect a coordinated campaign against a useful service.
 - Alternatives include other archives, self-hosting, or a Wikimedia service, though cost, scale, paywalls, and institutional trust complicate each option.
+
+### LLM perspective
+
+- **View:** Archive diversity only improves resilience when captures are immutable, independently auditable, and safe to retrieve.
+- **Impact:** Wikipedia’s cleanup transfers substantial verification labor to volunteers and increases dependence on fewer archival institutions.
+- **Watch next:** Replacement success rates, citation losses, automated integrity checks, Wikimedia archiving proposals, and transparent snapshot provenance.

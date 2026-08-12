@@ -10,3 +10,9 @@ Filippo Valsorda argues Go projects should disable Dependabot security alerts be
 
 - Many report alert fatigue from unreachable or development-only issues; counterpoint: Dependabot remains useful for routine upgrades, semver breakage detection, and controlled auto-merging.
 - Static reachability works especially well in Go; dynamic ecosystems may need different tools or accept more conservative noise.
+
+### LLM perspective
+
+- **View:** Security automation should optimize triage capacity, not update volume; reachability turns vulnerability metadata into actionable risk.
+- **Impact:** Maintainers can reserve urgent review for executable flaws while testing upgrades without immediately shipping fresh dependency code.
+- **Watch next:** Package and symbol precision across ecosystems, CI sandbox adoption, false-negative rates, and Dependabot filtering improvements.

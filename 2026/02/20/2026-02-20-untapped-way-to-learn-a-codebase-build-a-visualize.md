@@ -10,3 +10,9 @@ To learn an unfamiliar Next.js and Turbopack codebase, the author began with a s
 
 - Commenters suggest reproducing recently fixed bugs or writing tests as similarly concrete onboarding paths.
 - AI-generated maps may accelerate orientation, but direct instrumentation and experimentation expose runtime relationships that static explanations can miss.
+
+### LLM perspective
+
+- **View:** A disposable visualizer is an executable hypothesis about architecture; surprising output generates the next investigation.
+- **Impact:** New contributors gain runtime evidence and subsystem boundaries without mastering an entire repository or trusting static maps.
+- **Watch next:** Reusable instrumentation hooks, stateful exploratory UIs, onboarding-time comparisons, and whether traces reveal redundant computation.

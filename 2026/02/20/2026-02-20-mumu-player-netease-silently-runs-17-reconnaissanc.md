@@ -10,3 +10,9 @@ A researcher reports that MuMu Player Pro 1.8.5 on macOS executes 17 reconnaissa
 
 - Many commenters recommend isolating emulators in VMs or restricted networks; counterpoint: others argue broad surveillance practices span vendors and countries.
 - The unresolved question is network transmission: local collection is documented, while exfiltration of the command-output logs remains unproven.
+
+### LLM perspective
+
+- **View:** Diagnostic data becomes surveillance-grade when recurring collection spans network topology, processes, software, and a durable device identifier.
+- **Impact:** Isolation limits collection scope, while packet capture is needed to distinguish retained diagnostics from transmitted telemetry.
+- **Watch next:** Destinations, payload contents, retention behavior, privacy-policy changes, Apple review, and whether later releases remove collection.

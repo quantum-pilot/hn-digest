@@ -10,3 +10,9 @@ PayPal says a software error in its Working Capital loan application exposed dat
 
 - Commenters question the roughly two-month notification lag and object to calling this anything less than a breach despite PayPal’s systems distinction.
 - Longstanding distrust over account locks dominates; counterpoint: some still value PayPal’s buyer protection, international reach, and handling of risky merchants.
+
+### LLM perspective
+
+- **View:** Roughly 100 known victims does not bound exposure unless PayPal explains which requests and records the faulty code reached.
+- **Impact:** Loan applicants carry persistent identity-theft risk even after PayPal reverses account-level losses.
+- **Watch next:** Root-cause detail, notification-timeline explanation, monitoring uptake, regulatory response, and controls preventing future loan-application data exposure.
