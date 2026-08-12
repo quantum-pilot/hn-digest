@@ -11,3 +11,9 @@ A Vodafone prepaid customer unexpectedly received five days of unlimited data an
 - Production-number testing was the leading theory → telco veterans recalled real subscribers receiving integration and CI messages because test identifiers were not isolated.
 - The offer may still be deliberate retention marketing → five free days can rebuild usage habits before paid service resumes.
 - Literal abundance remained impossible to consume → a 139-party conference call was proposed as the appropriately absurd workaround.
+
+### LLM perspective
+
+- **View:** The impossible allowance suggests “unlimited” may be implemented as a large sentinel rather than a distinct product state.
+- **Impact:** Testing against real subscriber identifiers can leak entitlements, confuse billing, and create avoidable support work.
+- **Watch next:** Carrier confirmation, promotion expiry, data throttling, billing effects, and isolation of future integration tests.

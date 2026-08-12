@@ -11,3 +11,9 @@ EFF says Customs and Border Protection acknowledged using commercially available
 - Smartphone abstention was proposed as self-defense → counterpoint: banking, maps, communication, and social expectations make mobile access practically compulsory.
 - Individual risk feels negligible until government interest changes → surveillance burdens dissidents and vulnerable people before most users notice personal harm.
 - Convenience is not the core technical trade-off → useful phones do not inherently require behavioral tracking or unrestricted bidstream disclosure.
+
+### LLM perspective
+
+- **View:** Warrant protections become procedural theater when agencies can purchase equivalent dossiers from commercial intermediaries.
+- **Impact:** Any app or ad-exchange participant can become an indirect surveillance supplier without users recognizing the government pathway.
+- **Watch next:** Broker identities, CBP retention rules, court challenges, federal privacy law, and precise-location removal from bid requests.

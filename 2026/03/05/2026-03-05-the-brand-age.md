@@ -11,3 +11,9 @@ Paul Graham uses the Swiss watch industry to argue that technology commoditizes 
 - Artificial scarcity upgrades wealth into access → waiting lists, prior purchases, and retailer relationships create a story money alone cannot buy.
 - Aesthetic judgment split sharply → critics called oversized branded forms compromised — counterpoint: owners and admirers see deliberate, beautiful design.
 - Brand value extends beyond pure luxury → Apple users may pay partly for shared cultural positioning while still valuing product advantages.
+
+### LLM perspective
+
+- **View:** Functional convergence does not end design competition; it redirects design toward recognizable social signals and stories.
+- **Impact:** Incumbents can preserve margins through scarcity, while technically strong entrants must first manufacture cultural legibility.
+- **Watch next:** Production volumes, resale premiums, advertising spend, waitlist access, and whether independent brands sustain differentiation.

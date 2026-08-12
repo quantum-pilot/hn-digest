@@ -11,3 +11,9 @@ Wikimedia placed its wikis in read-only mode on March 5 while investigating an i
 - The alleged test design drew outrage → production scripts from strangers were loaded under a staff account able to modify globally executed CSS and JavaScript.
 - Worm behavior exploited infected administrators → it hid evidence, replicated, vandalized random pages, and attempted bulk and random deletions.
 - Cleanup looked manageable to some → counterpoint: normal revision history aided reverts, but the history also carried the malicious code.
+
+### LLM perspective
+
+- **View:** Extensible user scripts make privileged browsing a code-execution boundary, not merely a moderation convenience.
+- **Impact:** One unsafe test can turn administrator permissions into a cross-wiki distribution mechanism despite reversible content history.
+- **Watch next:** Wikimedia’s root cause, affected wikis, global-script controls, privilege segmentation, and safer staff testing environments.
