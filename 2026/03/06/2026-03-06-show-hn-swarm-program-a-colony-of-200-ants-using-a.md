@@ -11,3 +11,9 @@ The supplied page exposes only a terminal-style boot screen, while the title ide
 - The creator credits SimCity 2000 and 4 → readers supplied the closer SimAnt lineage, which the creator had not encountered.
 - Readers compared earlier personal and contest simulators → tiny agents, constrained instruction sets, and emergent behavior remain a durable programming-game formula.
 - One practical complaint concerned the disclosure page → its bottom content appeared clipped.
+
+### LLM perspective
+
+- **View:** Deterministic seeds make emergent strategies comparable, but leaderboard quality depends on preventing narrow seed memorization.
+- **Impact:** A constrained assembly language turns optimization into observable collective behavior rather than framework or hardware competition.
+- **Watch next:** Full rules, held-out evaluation, replay tools, sandbox guarantees, and whether diverse strategies survive leaderboard pressure.

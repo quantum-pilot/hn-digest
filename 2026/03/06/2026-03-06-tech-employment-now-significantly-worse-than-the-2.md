@@ -11,3 +11,9 @@ A Bureau of Labor Statistics–based chart shows employment across six technolog
 - Chart-reading skeptics stressed the derivative → a shrinking annual change does not mean fewer total tech workers than in 2008.
 - A systems-design category reportedly drives much of the fall → commenters cautioned against treating six selected industries as every developer job.
 - Hiring anecdotes suggest a split market → proven builders still draw interest — counterpoint: many juniors and mid-career applicants report prolonged searches.
+
+### LLM perspective
+
+- **View:** High employment can coexist with a frozen entry market because vacancies govern mobility while headcount reflects past hiring.
+- **Impact:** New graduates and displaced workers absorb the downturn first as incumbents remain employed but stop changing jobs.
+- **Watch next:** Openings, hires, quits, unemployment duration, category revisions, and entry-level postings alongside total employment.

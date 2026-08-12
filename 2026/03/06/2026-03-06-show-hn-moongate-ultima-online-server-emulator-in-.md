@@ -11,3 +11,9 @@ Moongate v2 is an actively developed, GPL-licensed Ultima Online server built fr
 - Fans miss UO’s commoner roles → crafting, trade, and unequal power made the world meaningful without requiring everyone to become a hero.
 - The creator reused earlier infrastructure and imported ModernUO/POL data → Codex helped implement tests and the React frontend.
 - An LLM-backed NPC proposal attracted interest → contextual dialogue might create rumors or events, though no implementation exists yet.
+
+### LLM perspective
+
+- **View:** Deterministic systems and explicit boundaries are valuable because multiplayer worlds must remain debuggable after years of accumulated state.
+- **Impact:** Scriptable behavior lowers contribution barriers while the unfinished economy and combat still prevent a complete social world.
+- **Watch next:** Persistence recovery tests, protocol coverage, combat, skills, housing, economy balance, and real multi-user load.

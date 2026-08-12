@@ -11,3 +11,9 @@ Kerry Thomas alleges TSA officers at Atlanta’s airport refused her requested p
 - Travelers described agents contradicting published opt-out rules → film, facial-recognition, and medical-device procedures reportedly vary by checkpoint and officer.
 - Pat-down accounts emphasized humiliation and intimidation → delays, unexplained touching, and scanner false positives can turn nominal choice into coercion.
 - Training was the proposed remedy → counterpoint: several commenters argued authority without personal consequences makes retraining insufficient.
+
+### LLM perspective
+
+- **View:** An opt-out right is ineffective when frontline staff can misstate device safety without documented escalation.
+- **Impact:** Travelers with implants bear physical risk and delay while the agency controls both procedure and initial remedy.
+- **Watch next:** Court findings, machine logs, training records, medical-device guidance, complaint outcomes, and officer accountability.

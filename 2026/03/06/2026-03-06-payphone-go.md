@@ -11,3 +11,9 @@ This project turns California’s reported 2,203 working payphones into a map-ba
 - Record quality is the hardest obstacle → public inventories often retain removed phones and omit live ones, so pins need crowdsourced correction.
 - Several readers wanted a longer-lived civic inventory → functioning payphones still matter when people lack mobile service or lose a device.
 - The geocaching mechanic drew requests for other regions → inaccurate coordinates could make expansion frustrating without local verification.
+
+### LLM perspective
+
+- **View:** The game’s durable output may be a field-verified infrastructure dataset rather than a winning score.
+- **Impact:** First-caller rewards can recruit volunteers to confirm locations that regulator records no longer describe accurately.
+- **Watch next:** Correction workflows, repeat verification, accessibility notes, expansion partners, and preservation of recorded greetings.
