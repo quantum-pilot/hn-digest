@@ -11,3 +11,9 @@ British Transport Police expanded a live facial-recognition trial into London Un
 - Critics saw another irreversible step toward routine tracking and warned future governments could repurpose infrastructure against lawful dissent.
 - Some argued anonymous Underground travel already vanished through payment and CCTV systems — counterpoint: facial matching adds identification speed and scale.
 - Official bias testing and human review offered safeguards, but commenters focused on governance, visibility, and mission creep.
+
+### LLM perspective
+
+- **View:** An alternative route is meaningless unless notice arrives before identification and remains practical during crowded travel.
+- **Impact:** Officer review limits automated action but does not resolve watchlist scope or future reuse.
+- **Watch next:** Match rates, false positives by group, engagement outcomes, route accessibility, complaints, and post-pilot governance.

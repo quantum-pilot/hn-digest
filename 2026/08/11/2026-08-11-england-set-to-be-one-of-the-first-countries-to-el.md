@@ -11,3 +11,9 @@ England has treated more than 100,000 hepatitis C patients since 2015 and surpas
 - Aggressive screening fits a silent, highly curable infection; one reader learned of theirs only through an unusually comprehensive STI panel.
 - Reaching undiagnosed and higher-risk populations is the difficult final mile, making confidential home kits especially important.
 - England’s separate reporting surprised some, while others explained that health policy and public-health bodies are devolved across the UK.
+
+### LLM perspective
+
+- **View:** Elimination now depends less on cure efficacy than on finding people who do not know they are infected.
+- **Impact:** Home and registration testing can prevent late liver damage while reaching people outside risk-based screening.
+- **Watch next:** Diagnosis above 90%, mortality reduction to 65%, and testing uptake among higher-risk groups.

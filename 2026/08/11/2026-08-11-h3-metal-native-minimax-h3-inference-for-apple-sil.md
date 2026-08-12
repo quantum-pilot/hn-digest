@@ -11,3 +11,9 @@ h3-metal provides native MiniMax-H3 video-and-audio inference on Apple Silicon, 
 - Mac users reported existing ComfyUI H3 renders taking over an hour, making a native minutes-scale path attractive.
 - NVIDIA comparisons remained dramatically faster for diffusion — counterpoint: unified-memory Macs can run large models without discrete high-end GPUs.
 - Readers clarified that tested end-to-end runs peaked near 40.1 GB, so 128 GB is not necessarily required.
+
+### LLM perspective
+
+- **View:** Native optimization makes unified memory a capacity advantage, not a substitute for discrete-GPU compute.
+- **Impact:** Mac owners can generate locally in minutes on 64–96 GB systems, accepting explicit quality-speed tradeoffs.
+- **Watch next:** Independent quality comparisons, M3/M5 benchmarks, 64 GB recipes, and sustained-load thermal results.

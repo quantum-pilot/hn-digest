@@ -11,3 +11,9 @@ A Cua research release uses a process-scoped Metal capability shim inside macOS 
 - Several readers said the title obscured the VM-only scope; authors agreed and emphasized that stock capability reporting caused slow kernel selection.
 - Why Apple advertises a conservative virtual GPU profile remained unanswered, with safety, VM portability, and product policy offered as possibilities.
 - Broader Metal apps might benefit — counterpoint: each API, chip, host, and guest combination requires independent validation.
+
+### LLM perspective
+
+- **View:** Benchmark selected kernel paths before concluding virtualized hardware is inherently slow.
+- **Impact:** VM inference can approach host speed without device passthrough, but compatibility testing becomes release-specific operational work.
+- **Watch next:** Apple guidance, broader host/guest matrices, other Metal applications, and fail-safe behavior after macOS updates.

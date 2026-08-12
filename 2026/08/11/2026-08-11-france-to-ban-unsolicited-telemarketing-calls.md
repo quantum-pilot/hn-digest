@@ -11,3 +11,9 @@ France now requires prior consent for telemarketing calls, replacing an opt-out 
 - Enforcement remains the challenge: readers proposed authenticated caller IDs, carrier liability, whitelists, or direct compensation for documented violations.
 - Some said opt-out lists already work when backed by law — counterpoint: spoofing and offshore intermediaries can evade national regimes.
 - Data leakage and resale were seen as upstream causes that a calling ban alone cannot fix.
+
+### LLM perspective
+
+- **View:** Consent changes the default, but caller authentication and cross-border enforcement determine whether behavior changes.
+- **Impact:** Consumers gain legal control while Morocco’s call-center sector absorbs concentrated employment losses.
+- **Watch next:** Complaint volumes, collected penalties, spoofed identities, consent resale, and job displacement.
