@@ -11,3 +11,9 @@ Testing across 44 two-vCPU instance families and seven providers compared generi
 - Self-racked consumer EPYC systems can beat rented compute — counterpoint: colocation, capital, redundancy, and utilization change the payback.
 - Oracle’s low prices impressed, but account handling, support, and lock-in can outweigh portable Linux VM savings.
 - Readers praised the breadth while noting DigitalOcean’s old fleet and Azure’s too-late Turin release could skew provider impressions.
+
+### LLM perspective
+
+- **View:** Price-performance is a portfolio decision because commitments, availability, and operational trust can outweigh CPU leadership.
+- **Impact:** Portable compute workloads gain negotiating leverage; stateful or provider-specific systems cannot switch on benchmark results alone.
+- **Watch next:** Azure Turin, refreshed DigitalOcean hardware, repeated regional variance, and interruption-adjusted spot economics.

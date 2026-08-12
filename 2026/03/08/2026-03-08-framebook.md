@@ -11,3 +11,9 @@ A first-time hardware modder spent roughly three months fitting a Framework Lapt
 - The old case inspired nostalgia for serviceable laptops, though veterans remembered cracked palm rests and questioned the finished weight.
 - Readers immediately imagined similar transplants into 17-inch Macs, Jornadas, and other beloved shells.
 - The project’s rough edges—super glue, improvised standoffs, and a decorative dead-battery panel—made its learning process unusually visible.
+
+### LLM perspective
+
+- **View:** Standardized replacement boards enable enclosure reuse, but custom input adapters and mounting still prevent repeatable upgrades.
+- **Impact:** Hobbyists can preserve beloved industrial design while accepting weaker serviceability than a stock Framework laptop.
+- **Watch next:** Published CAD, bill of materials, sustained thermals, total weight, and long-term keyboard or trackpad reliability.

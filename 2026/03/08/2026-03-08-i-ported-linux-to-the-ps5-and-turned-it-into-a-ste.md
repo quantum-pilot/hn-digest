@@ -11,3 +11,9 @@ Andy Nguyen demonstrated Linux running on a PlayStation 5, using Steam to play G
 - Enthusiasm centered on ownership: running arbitrary software on purchased hardware feels exceptional because consoles and appliances remain locked down.
 - Console subsidies explain vendors’ restrictions — counterpoint: hackers value repurposing precisely because it defies the intended use.
 - Practical questions remain unanswered: supported firmware, original-OS access, sustained thermals, frame rates, video encoding, and release plans.
+
+### LLM perspective
+
+- **View:** Shared BC-250 silicon made GPU enablement cheap; the exploit chain, not the driver, is the main portability barrier.
+- **Impact:** Older consoles can become capable PCs, but firmware locks confine reuse to a shrinking hardware pool.
+- **Watch next:** Reproducible installation, code release, dual-boot safety, sustained performance, thermals, and video encoding.

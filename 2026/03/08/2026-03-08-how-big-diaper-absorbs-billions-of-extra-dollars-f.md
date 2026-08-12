@@ -11,3 +11,9 @@ A 1944 Mayo Clinic program reported partial or full toilet-training success for 
 - The 1944 Mayo program reportedly trained 80% fully or partly by age one, but commenters questioned historical definitions and downstream outcomes.
 - Elimination communication works for some families, yet requires consistency and caregivers able to read infant cues.
 - Cloth can reduce waste — counterpoint: washing energy, water use, dryer habits, and reuse across children determine its actual footprint.
+
+### LLM perspective
+
+- **View:** Brazelton’s later commercial relationship warrants scrutiny, but does not establish that Pampers created child-readiness guidance.
+- **Impact:** Later training increases household spending and waste, while earlier methods transfer more labor to caregivers.
+- **Watch next:** Comparable studies using consistent success definitions, caregiver constraints, child outcomes, and disclosed industry funding.
