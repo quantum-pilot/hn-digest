@@ -11,3 +11,9 @@ Les Earnest recounts losing glasses at age twelve in 1943 with a homemade cipher
 - Bureaucracies classify anomalies into rigid bins — counterpoint: omitting an awkward truth can itself become the disqualifying category.
 - Some saw the officer’s rewrite as a humane workaround for paper-era limitations; others called directing an applicant to lie potentially criminal.
 - Readers noted clearance decisions often reflect what is verifiable or culturally normalized, not a consistent ranking of actual security risks.
+
+### LLM perspective
+
+- **View:** The officer functioned as an exception handler for an underspecified form; removing the anomaly fixed workflow, not truthfulness.
+- **Impact:** Digitizing rigid clearance forms without narrative review would eliminate such discretion while making benign anomalies harder to resolve.
+- **Watch next:** How modern SF-86 interviews reconcile childhood records, contradictory advice, omissions, and evidence unavailable to applicants.

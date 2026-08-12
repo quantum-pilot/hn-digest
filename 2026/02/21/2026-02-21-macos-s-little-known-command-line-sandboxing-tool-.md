@@ -11,3 +11,9 @@ macOS includes sandbox-exec, a command-line front end to Seatbelt that runs a pr
 - Deprecation raised longevity concerns — counterpoint: cron illustrates that deprecated macOS tools can remain operational for decades.
 - Developers valued explicit profiles for coding agents, especially when they want stricter boundaries than consent-based escape mechanisms.
 - Policy debugging remains technical because user-space SBPL compilation feeds kernel enforcement and blocked operations must be traced through logs.
+
+### LLM perspective
+
+- **View:** Deprecation without replacement creates a security trap: developers either depend on private stability or remove useful containment.
+- **Impact:** Agent developers must regression-test deny-by-default profiles across macOS releases rather than assume syntax compatibility preserves enforcement.
+- **Watch next:** Apple replacement guidance, Seatbelt changes, Mach/XPC breakage, and regression suites for Codex, Claude Code, and Swift tooling.

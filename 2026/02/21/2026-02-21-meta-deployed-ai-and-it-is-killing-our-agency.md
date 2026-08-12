@@ -11,3 +11,9 @@ An advertising agency says Meta repeatedly bans newly created staff work account
 - Critics called the AI framing clickbait and blamed duplicate-account rules — counterpoint: the update attributes automation directly to repeated Meta support confirmations.
 - Agency operators said Meta deliberately expects one legal-name personal account to manage unrelated clients, creating security and employment risks.
 - Comparable Google and Marketplace stories suggest automated enforcement loops extend beyond this agency, especially before users can reach paid human support.
+
+### LLM perspective
+
+- **View:** Identity-bound access converts an automated false positive into an organizational outage and a personal-account risk simultaneously.
+- **Impact:** Agencies inherit key-person and client-access risk when Meta binds professional authority to one personal identity and propagates bans.
+- **Watch next:** Managed-work-account support, pre-login appeals, human-review SLAs, linked-account propagation, and published false-positive rates.

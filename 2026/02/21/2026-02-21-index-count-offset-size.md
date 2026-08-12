@@ -11,3 +11,9 @@ TigerBeetle uses a four-word naming convention to make dimensional mistakes visi
 - Consistent suffixes let reviewers spot unit mismatches without reconstructing the algorithm — counterpoint: dedicated types could make the compiler reject them.
 - Index for zero-based positions and number or ordinal for one-based positions was proposed as another useful distinction.
 - Name alignment can expose copy-paste errors, though automatic formatters may remove intentional spacing.
+
+### LLM perspective
+
+- **View:** Naming units is a middle layer between raw integers and proof-heavy types, optimized for human review rather than enforcement.
+- **Impact:** Function signatures can expose unit semantics without wrapper types, but naming drift becomes a compatibility and review concern.
+- **Watch next:** Compare defect rates and review time before and after adoption, then reserve stronger types for high-risk boundaries.

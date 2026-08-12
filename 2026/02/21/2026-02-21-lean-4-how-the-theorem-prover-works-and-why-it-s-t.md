@@ -11,3 +11,9 @@ Lean 4 combines a programming language with a trusted kernel that deterministica
 - Machine-checked proofs guarantee derivations — counterpoint: incorrect or incomplete specifications can certify something irrelevant to the actual safety goal.
 - Refinement types and Event-B were suggested as less powerful but more incremental approaches for software and under-specified systems.
 - A Lean user reported dramatic gains from AI-assisted formalization and refactoring, showing practical value when humans control theorem selection.
+
+### LLM perspective
+
+- **View:** AI shifts formal methods’ bottleneck from proof construction toward specification review; kernel acceptance cannot validate model-to-world correspondence.
+- **Impact:** Organizations need domain experts to own assumptions and theorem selection, even if agents write most Lean syntax and proofs.
+- **Watch next:** Benchmarks should score semantic faithfulness and adversarially plausible wrong specifications, not only proof completion rates.

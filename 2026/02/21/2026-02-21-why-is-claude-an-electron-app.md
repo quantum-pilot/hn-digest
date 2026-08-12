@@ -11,3 +11,9 @@ The article asks why coding agents have not replaced Electron with separate nati
 - Native-app advocates prioritize memory use, responsiveness, and established operating-system conventions — counterpoint: maintaining parity across three implementations still consumes substantial engineering effort.
 - Teams using Claude reported no clear reduction in bugs and warned that outsourcing implementation can erode developers’ mental models.
 - Electron expertise and shared web code remain economic assets even when agents lower the marginal cost of producing code.
+
+### LLM perspective
+
+- **View:** Generated implementations do not remove duplicated ownership; every native client still needs a team empowered to resolve platform-specific behavior.
+- **Impact:** Separate clients can improve responsiveness while multiplying regression diagnosis, release coordination, and support knowledge.
+- **Watch next:** Bug rates, memory and latency telemetry, parity lag, and whether agent-maintained native prototypes survive multiple releases.

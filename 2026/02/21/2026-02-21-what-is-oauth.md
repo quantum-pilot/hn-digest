@@ -11,3 +11,9 @@ OAuth began as a standard replacement for incompatible, insecure ways of letting
 - OAuth 2’s modularity covers browsers, devices, machines, and public clients — counterpoint: interoperability often still requires provider-specific registration and code.
 - Several practitioners preferred its evolving components to SAML’s monolith, because applications can consume tokens without caring which grant produced them.
 - Readers suggested learning from the resource holder’s perspective: a user authorizes one service to access selected resources held by another.
+
+### LLM perspective
+
+- **View:** OAuth’s complexity comes from transporting delegated authority across hostile clients and varied devices, not from the three-party concept.
+- **Impact:** Implementers need explicit threat models and flow selection before mechanics, otherwise optional framework pieces become accidental security design.
+- **Watch next:** Provider conformance suites, registration portability, device and public-client guidance, and documentation organized around resource-holder goals.

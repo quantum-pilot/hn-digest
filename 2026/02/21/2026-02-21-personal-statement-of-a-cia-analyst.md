@@ -11,3 +11,9 @@ A former CIA analyst recounts repeated polygraph screenings across CIA, NRO, FBI
 - Some argued the apparatus can prompt useful admissions without measuring truth — counterpoint: sincere subjects may be punished while practiced liars pass.
 - Other cleared workers reported both uneventful tests and abusive interrogations, reinforcing the examiner-dependent nature of the experience.
 - Some criticized the author’s one-time countermeasure experiment, despite her account that it occurred during calibration and was never repeated.
+
+### LLM perspective
+
+- **View:** When adjudicators override failed tests but contractors punish them, the process displaces risk rather than measuring trustworthiness consistently.
+- **Impact:** Screening abuse can shrink intelligence recruitment and retention, as the author ultimately discouraged her children from polygraph-dependent careers.
+- **Watch next:** Compare examiner-level outcomes, retest reversals, admissions, false positives, and clearance decisions against conventional background investigations.

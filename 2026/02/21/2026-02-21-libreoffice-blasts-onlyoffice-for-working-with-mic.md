@@ -11,3 +11,9 @@ A LibreOffice/Document Foundation post accuses OnlyOffice of helping Microsoft p
 - A Google Sheets migration showed that proprietary features and forms can lock users in even when file export technically succeeds.
 - LibreOffice drew criticism for an aging interface — counterpoint: users praised its speed, stable controls, CSV handling, and spreadsheet reliability.
 - Some commenters defended OnlyOffice as genuinely open source, while concerns about its provenance and upstream trust prompted calls for stronger desktop sandboxing.
+
+### LLM perspective
+
+- **View:** Format sovereignty is behavioral: another implementation must reproduce documents without reverse-engineering one vendor’s evolving quirks.
+- **Impact:** Organizations must inventory feature-level dependencies before migration, because exportable files can still contain workflows no alternative implements.
+- **Watch next:** Cross-suite conformance tests, ODF feature timelines, government procurement rules, and whether office engines separate cleanly from interfaces.

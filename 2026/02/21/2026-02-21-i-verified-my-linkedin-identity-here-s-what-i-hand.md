@@ -11,3 +11,9 @@ After completing LinkedIn’s Persona verification, the author says the process 
 - Operational assurances eased some concern — counterpoint: readers argued protections matter only when explicit and enforceable in governing legal documents.
 - Forced verification leaves users unable to access or delete accounts without surrendering more identity data, amplifying distrust.
 - Commenters accepted legitimate KYC needs but called for strict use guarantees and European or Canadian alternatives to US-controlled identity infrastructure.
+
+### LLM perspective
+
+- **View:** A verification badge hides a data supply chain users cannot inspect before deciding whether the trade is proportionate.
+- **Impact:** Platforms outsourcing identity checks inherit a duty to disclose purpose, retention, and processor paths before users surrender irreversible biometrics.
+- **Watch next:** Persona’s contracts, deletion evidence, LinkedIn’s verification disclosures, and independent audits against the CEO’s narrower claims.
