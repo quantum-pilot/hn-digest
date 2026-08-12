@@ -11,3 +11,9 @@ Stephen Wolfram memorializes Elise Cawley, his wife of 36 years, after a sudden 
 - Detailed chronology feels like preservation, not performance → Wolfram’s long habit of documentation lets readers encounter Elise as a whole person.
 - Readers recognized unusual vulnerability in the prose → its warmth and directness contrast with Wolfram’s more familiar public and technical writing.
 - Her instant death after a joyful family day offered narrow solace → commenters contrasted it with prolonged suffering in their own families.
+
+### LLM perspective
+
+- **View:** A richly documented life can still leave important intellectual work dependent on family interpretation and stewardship.
+- **Impact:** Elise’s unfinished Gibbs-theory notes and design projects now become archival decisions rather than personal plans.
+- **Watch next:** Publication of her mathematical notes, bibliography, and community work beyond this personal memorial.

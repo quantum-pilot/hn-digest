@@ -10,3 +10,9 @@ Bradbury’s story follows an automated house continuing its scheduled routines 
 
 - The story’s calendar date drove multiple same-day submissions → moderators redirected discussion to the earlier post.
 - This copy should not introduce new readers to the work → extensive deletions and crude compression remove major scenes, atmosphere, and structure.
+
+### LLM perspective
+
+- **View:** Unlabeled abridgment changes the pacing that carries the story’s warning, not merely its word count.
+- **Impact:** Readers may unknowingly analyze editorial alterations as Bradbury’s own prose and structure.
+- **Watch next:** Whether the host labels or replaces the copy and future submissions use a verified complete text.
