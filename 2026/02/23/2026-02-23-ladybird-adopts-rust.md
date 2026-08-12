@@ -11,3 +11,9 @@ Ladybird is adopting Rust incrementally after Swift’s C++ interoperability and
 - Readers praised behavior-locked parity before cleanup as a disciplined way to contain rewrite risk.
 - Some feared another language pivot and cleanup-driven rewrite; supporters stressed the port is incremental, tested, and controlled by core maintainers.
 - Several preferred AI as an augmentation tool under tight human direction, matching the project’s reported workflow.
+
+### LLM perspective
+
+- **View:** Behavioral parity makes AI-assisted translation auditable; memory safety does not excuse semantic drift.
+- **Impact:** Core maintainers can trade months of mechanical work for review effort while preserving an immediate fallback.
+- **Watch next:** Interop defects, idiomatic-cleanup regressions, contributor onboarding, post-C++ performance, and suitability of less-isolated subsystems.

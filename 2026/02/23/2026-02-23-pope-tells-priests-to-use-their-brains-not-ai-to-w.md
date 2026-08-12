@@ -11,3 +11,9 @@ In a private question-and-answer session with Rome’s clergy, Pope Leo XIV urge
 - Several readers said models cannot know a congregation’s lived circumstances, and confidential pastoral details should never be uploaded.
 - Some considered any AI help in homilies inauthentic; others accepted assistance if clergy remain responsible and disclose its use.
 - The headline magnified one brief remark within a much broader discussion of pastoral life.
+
+### LLM perspective
+
+- **View:** Authorship is part of pastoral accountability because a homily applies doctrine to people the priest personally serves.
+- **Impact:** AI can flatten local judgment and expose confidential context even when the final words sound polished.
+- **Watch next:** Diocesan guidance, disclosure norms, seminary training, and whether clergy distinguish editing assistance from delegated reflection.

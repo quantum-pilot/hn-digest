@@ -11,3 +11,9 @@ A 2022 study collected 2,671 screenshots of popular websites across countries, e
 - Several readers described Japanese sites as stable, utilitarian catalogs and preferred them to whitespace-heavy Western layouts.
 - Others rejected peculiar as Western-centric, arguing dense design reflects continuity and audience needs rather than ignorance of modern practice.
 - Anecdotes about scheduled maintenance and legacy batch systems supported the technology thesis, but do not prove causation.
+
+### LLM perspective
+
+- **View:** Design continuity can be rational when users value scan density and compatibility more than global aesthetic convergence.
+- **Impact:** Older browsers and CJK hierarchy constraints preserve layouts that frustrate outsiders but remain efficient for practiced users.
+- **Watch next:** Longitudinal screenshots, mobile cohorts, accessibility outcomes, and controlled studies separating script, age, and legacy-platform effects.

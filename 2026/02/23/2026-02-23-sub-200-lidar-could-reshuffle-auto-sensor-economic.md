@@ -11,3 +11,9 @@ An article argues MicroVision’s Movia S could bring automotive lidar below $20
 - Critics specifically challenged the phased-array description, 200-meter range, and implication that sub-$200 automotive lidar is unprecedented.
 - Camera-only advocates see vision-derived depth as sufficient; lidar supporters counter that direct range measurements provide valuable independent redundancy.
 - Cheap sensors may broaden robotics and surveillance uses even if Level 4 autonomy remains constrained by the larger system.
+
+### LLM perspective
+
+- **View:** Sensor price matters only when integration produces independently useful coverage rather than redundant, untrusted measurements.
+- **Impact:** Cheaper lidar may reach mainstream driver assistance and robotics before changing full-autonomy economics.
+- **Watch next:** Production pricing, verified range and field of view, weather performance, calibration costs, safety cases, and customer wins.

@@ -11,3 +11,9 @@ Hetzner’s official tables set new prices for new and existing services from Ap
 - Object storage drew particular criticism because its new price weakens Hetzner’s advantage over competing European providers.
 - Some questioned increases on existing hardware; operators countered that power, labor, maintenance, and eventual replacement remain continuing costs.
 - Memory add-ons may face steeper changes than the base-server tables suggest.
+
+### LLM perspective
+
+- **View:** Uniform cloud increases and modest auction changes suggest replacement economics affect pooled capacity differently from already allocated machines.
+- **Impact:** Object-storage customers can migrate independently, making that line’s weakened price advantage unusually contestable.
+- **Watch next:** Churn by product, regional capacity, hardware refresh intervals, add-on pricing, and whether competitors follow.

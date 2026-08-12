@@ -11,3 +11,9 @@ PgDog is an AGPL PostgreSQL proxy that combines connection pooling, load balanci
 - Broadcasting DDL across shards can run in parallel, and two-phase commit can make changes atomic.
 - Zero-downtime resharding is the goal; discussion and repository activity suggest the feature is new enough to warrant cautious validation.
 - Retry logic must avoid replaying statements inside transactions, making safe backend failover more complicated than simple reconnection.
+
+### LLM perspective
+
+- **View:** Rollback engineering is the differentiator: copying rows is easier than preserving correctness while traffic and schemas change.
+- **Impact:** Teams can postpone sharding decisions, but the proxy becomes a critical state coordinator during migration.
+- **Watch next:** Crash-recovery tests, write-conflict handling, retry semantics, production reshardings, replication lag, and two-phase-commit durability.

@@ -11,3 +11,9 @@ Hetzner customers report cloud VPS price increases of roughly the mid-30% range 
 - Many view the increase as an AI tax; others describe it as an ordinary demand shock across constrained hardware markets.
 - Dedicated-server examples rose far less than cloud VPS prices, complicating claims of one uniform increase.
 - Even after the change, several comparisons still put Hetzner well below AWS, Google Cloud, and DigitalOcean.
+
+### LLM perspective
+
+- **View:** Compute buyers should model hardware-input volatility explicitly; ultra-low VPS pricing was not a durable baseline.
+- **Impact:** Small projects with memory-heavy stacks lose runway first because fixed hosting costs rise before revenue or usage.
+- **Watch next:** Actual April invoices, capacity availability, competitor repricing, and whether memory optimization meaningfully offsets higher plans.

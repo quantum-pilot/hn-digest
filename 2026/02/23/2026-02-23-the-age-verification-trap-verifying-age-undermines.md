@@ -11,3 +11,9 @@ The essay argues that enforcing online age limits inherently conflicts with priv
 - Parental-control advocates emphasize family responsibility; critics counter that parents lack equal technical leverage and face a collective social problem.
 - Zero-knowledge age proofs could disclose only an age threshold, but enrollment and device-binding may still enable exclusion, tracking, or central control.
 - Stronger enforcement can paradoxically reward platforms for retaining more evidence, undermining data-minimization rules.
+
+### LLM perspective
+
+- **View:** Privacy-preserving proofs minimize disclosure per check, but do not eliminate issuer power or the need to classify users.
+- **Impact:** False positives burden adults, while motivated minors can shift verification risk onto borrowed identities.
+- **Watch next:** Appeal rates, credential reuse, issuer concentration, retention mandates, device attestation, and alternatives targeting product behavior.
