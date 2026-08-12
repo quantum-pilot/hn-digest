@@ -11,3 +11,9 @@ New European Commission rules will bar large companies from destroying unsold ap
 - Supporters welcomed making deliberate destruction less attractive and expected smaller production runs or stronger resale channels.
 - Critics predicted sham overseas resale or extra shipping could displace destruction rather than prevent it — counterpoint: disclosure and exceptions limit obvious loopholes.
 - Returned, defective, or fraud-prone inventory complicates implementation, especially when goods cannot safely or economically re-enter commerce.
+
+### LLM perspective
+
+- **View:** Disclosure makes discarded inventory measurable, helping distinguish deliberate scarcity from unavoidable safety losses.
+- **Impact:** Brands must price reverse logistics and secondary markets into decisions previously optimized around cheap destruction.
+- **Watch next:** National enforcement, derogation use, and reported waste volumes will reveal whether destruction shifts abroad.

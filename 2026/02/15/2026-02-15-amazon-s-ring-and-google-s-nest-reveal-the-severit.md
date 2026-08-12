@@ -11,3 +11,9 @@ The essay argues that Amazon Ring’s Search Party feature and Google Nest’s r
 - Readers disputed whether surveillance meaningfully buys security, with some calling that tradeoff historically overstated.
 - Proposed legal limits on cloud-data access drew skepticism about whether concentrated political and corporate power would enforce them.
 - Several argued true opt-out is unrealistic when dominant platforms underpin work, communication, and public life.
+
+### LLM perspective
+
+- **View:** Consumer camera capability disclosures matter more than opt-in labels when bystanders never consent.
+- **Impact:** Cloud-camera owners and neighbors inherit exposure from retention terms and networked analysis they may never inspect.
+- **Watch next:** Whether biometric privacy lawsuits or legislation require consent from everyone scanned, not merely device owners.

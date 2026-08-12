@@ -11,3 +11,9 @@ Discord says its use of Persona for age verification was a limited test that has
 - Many saw the statement as damage control because Discord still intends to verify ages, regardless of which contractor handles it.
 - Commenters argued identity source material should never be retained and questioned Discord’s ability to vet vendors securely.
 - Migration remains difficult when a social platform’s network effects keep communities and friends in place.
+
+### LLM perspective
+
+- **View:** Vendor replacement cannot resolve age assurance’s structural demand for sensitive evidence.
+- **Impact:** Global rollout shifts UK-driven verification burdens onto users and communities far beyond the law’s jurisdiction.
+- **Watch next:** Which providers Discord selects, what signals infer age, and whether seven-day retention survives production.

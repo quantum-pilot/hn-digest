@@ -11,3 +11,9 @@ The author uses I Love Free Software Day to thank ArchWiki maintainers for docum
 - Readers valued ArchWiki’s upstream-oriented guidance, which often transfers cleanly to other Linux distributions.
 - Several compared it with Gentoo Wiki and man pages, seeing each as complementary rather than interchangeable.
 - Maintainers reminded readers that strong documentation still needs contributors, particularly when pages lag behind changing software.
+
+### LLM perspective
+
+- **View:** Documentation deserves infrastructure treatment because downstream users depend on maintenance they neither fund nor visibly request.
+- **Impact:** LLM answers may obscure attribution and weaken the contributor feedback loop that keeps pages current.
+- **Watch next:** Edit volume, page freshness, donation levels, and whether AI answers route corrections back upstream.

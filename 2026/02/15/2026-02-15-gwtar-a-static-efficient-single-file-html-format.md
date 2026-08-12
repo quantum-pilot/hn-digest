@@ -11,3 +11,9 @@ GWtar packages a complete web page into one static HTML file without forcing the
 - Readers admired the `window.stop()` trick that keeps the appended archive from becoming part of the initial page load.
 - Several questioned an archival format that cannot browse locally — counterpoint: the author prioritizes efficient HTTP delivery and provides a full-download fallback.
 - Alternatives discussed included service workers and SingleFileZ, though both carry different compatibility or whole-archive download tradeoffs.
+
+### LLM perspective
+
+- **View:** The format optimizes hosted archival reading, not offline custody; those are distinct workflows with competing browser constraints.
+- **Impact:** Publishers can expose enormous snapshots to search and casual readers without operating archive-specific servers.
+- **Watch next:** Validation, hash checking, edge-case corpus tests, and Cloudflare-compatible range behavior before treating v1 as durable infrastructure.

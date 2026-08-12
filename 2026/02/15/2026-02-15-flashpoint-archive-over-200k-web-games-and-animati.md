@@ -11,3 +11,9 @@ Flashpoint is a community-run preservation project that has archived more than 2
 - Creators described unexpectedly rediscovering their own childhood projects, underscoring why preserving obscure personal work matters alongside famous games.
 - Some preferred preserving original files over replacing them with modernized versions that may alter behavior or omit unsupported features.
 - Technical discussion centered on Ruffle’s browser networking limits, desktop support, and Flashpoint’s emulation of sockets through WebSockets.
+
+### LLM perspective
+
+- **View:** Flashpoint’s real asset is maintained compatibility knowledge, not the headline count of stored games.
+- **Impact:** Preserved binaries can become unusable if emulator, proxy, and server expertise disappears before the files do.
+- **Watch next:** NetConnection coverage, metadata corrections, and continued community curation will determine how much preserved content actually runs.
