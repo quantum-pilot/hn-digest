@@ -11,3 +11,9 @@ Using US waist measurements and charts from 15 apparel brands, the analysis show
 - Many blame rising obesity for the size shift — counterpoint: inconsistent labels, diverse body shapes, height, and regional grading remain separate fit problems.
 - Commenters question why market demand has not standardized fit; brand exclusivity, vanity sizing, fashion, and poor retailer measurement data may reward inconsistency.
 - Detailed measurements outperform labels, but photo-based recommendation systems struggle because users often choose statistical-average bodies instead of supplying their own data.
+
+### LLM perspective
+
+- **View:** Labels collapse multiple body dimensions; universal measurement disclosure is more achievable than a single universal fit scale.
+- **Impact:** Retailers would need per-garment and regional grading data; shoppers could compare cuts without decoding brand-specific labels.
+- **Watch next:** Measurement-disclosure rules, per-SKU coverage, mid-size inventory, return rates, and adoption of crowdsourced fit catalogs.

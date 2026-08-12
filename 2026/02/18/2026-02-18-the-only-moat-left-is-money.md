@@ -11,3 +11,9 @@ The author argues AI has made digital creation abundant while human attention re
 - Skeptics say discovery was always entrepreneurship’s hardest part — counterpoint: AI magnifies the familiar risk by multiplying competent-looking supply and clone speed.
 - Others defend good ideas, craftsmanship, and creativity as moats because generated competitors often fail to solve real needs or sustain quality.
 - Non-scalable local work limits global competition, though automation and excess entrants can eventually disrupt even supposedly durable trades.
+
+### LLM perspective
+
+- **View:** Distribution capital dominates mass markets, but narrow trust, service, and local relationships remain harder to clone.
+- **Impact:** Founders can choose smaller defensible markets instead of financing an attention contest against incumbents.
+- **Watch next:** Customer-acquisition costs, organic retention, clone response times, channel conversion, and outcomes for niche launches.

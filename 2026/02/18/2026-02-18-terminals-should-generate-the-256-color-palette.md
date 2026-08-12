@@ -11,3 +11,9 @@ The proposal asks terminals to derive colors 16–255 from each user’s base-16
 - Supporters value terminal-wide theming and rapid implementations — counterpoint: palette authors rely on fixed indices, so generation can destroy intended colors and accessibility.
 - Some request feature detection or opt-in controls; the author prefers opt-out adoption but accepts manual overrides and a disable switch.
 - Foreground-to-background interpolation may wash out themes whose default foreground resembles dim white, suggesting lightness extrema need further design work.
+
+### LLM perspective
+
+- **View:** The dispute is semantic: fixed indices promise application intent, while generated indices promise user-controlled contrast.
+- **Impact:** Default generation could fragment rendering unless terminals converge on interpolation, overrides, and capability signaling.
+- **Watch next:** OKLab decision, accessibility testing, Cargo detection needs, Windows Terminal adoption, and standardized opt-out behavior.

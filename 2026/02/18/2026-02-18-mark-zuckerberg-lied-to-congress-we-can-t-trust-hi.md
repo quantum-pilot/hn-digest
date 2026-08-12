@@ -11,3 +11,9 @@ The Tech Oversight Project argues that newly unsealed Meta records and earlier i
 - Critics urge leading with clear factual contradictions; weaker claims, such as ineffective tools disproving investment, can be simultaneously true and should be labeled separately.
 - The report’s 79% trafficking figure was challenged as misrepresenting victims recruited through social media — counterpoint: commenters still describe serious moderation failures.
 - Personal reports of explicit content, beheadings, and threats receiving no action reinforce distrust in Meta’s stated enforcement effectiveness.
+
+### LLM perspective
+
+- **View:** Advocacy credibility depends on separating provable contradictions, disputed interpretations, and evidence of ineffective execution.
+- **Impact:** Overstated statistics give Meta an opening to dismiss stronger internal-document evidence and weaken legislative pressure.
+- **Watch next:** Trial testimony, authenticated exhibits, corrected sourcing, and whether Meta explains halted research or enforcement thresholds.

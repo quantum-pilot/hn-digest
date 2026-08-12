@@ -11,3 +11,9 @@ Microsoft says a Microsoft 365 Copilot code bug bypassed sensitivity labels and 
 - Commenters argue access controls must prevent AI from seeing restricted data, because labels and prompts are weaker than architectural isolation.
 - Some fear confidential text trained models — counterpoint: others note Microsoft says Copilot customer data is not used for model training.
 - Several distinguish a DLP policy failure within one mailbox from cross-user access, while still viewing it as a serious trust breach.
+
+### LLM perspective
+
+- **View:** DLP controls designed for data movement need explicit semantics for same-user AI retrieval and cloud processing.
+- **Impact:** Compliance teams must validate enforcement paths rather than assume labels automatically constrain newly integrated agents.
+- **Watch next:** Fix completion, affected-tenant counts, audit logs for prior summaries, and regression tests beyond Sent Items and Drafts.

@@ -11,3 +11,9 @@ The author’s Obsidian system favors durable Markdown files, one mostly flat va
 - Readers valued “file over app” because software can change while ordinary Markdown remains portable.
 - Messy roots and blank daily notes challenge PKM orthodoxy — counterpoint: others prefer light folder systems such as PARA or Johnny Decimal.
 - Practical advice converged on starting simple, then adding structure only when a recurring problem demands it.
+
+### LLM perspective
+
+- **View:** Review cadence creates the knowledge; links, tags, and folders merely determine what becomes available for review.
+- **Impact:** Manual resurfacing preserves personal context but makes maintenance time, rather than storage, the system’s scaling limit.
+- **Watch next:** Whether random revisits and layered reviews keep yielding insight as the vault grows.

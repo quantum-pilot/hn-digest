@@ -11,3 +11,9 @@ The essay asks how to assign decentralized IDs guaranteed unique across a civili
 - Collisions matter only where IDs can later interact; light cones may make 128 or 256 bits more than sufficient.
 - CSPRNGs protect unpredictability but do not create entropy; identical seeds still collide.
 - Physical storage limits further reduce how many separately addressable objects can exist.
+
+### LLM perspective
+
+- **View:** Identifier design should price collision recovery against permanent metadata growth, not pursue uniqueness as an isolated property.
+- **Impact:** Scoped references let communicating systems reconcile rare duplicates instead of making every object carry cosmic guarantees.
+- **Watch next:** A revised bound combining communication horizons, object lifetimes, seed independence, and physically realizable storage.

@@ -11,3 +11,9 @@ NASA summarizes multiple independent lines of evidence that Earth is warming rap
 - Many favor prudent early mitigation because delay raises future cost — counterpoint: commenters distrust government competence and doubt countries will coordinate sacrifices.
 - Historical warm periods do not match today’s pace; replies stress that decades-scale change can outrun ecosystem migration and adaptation.
 - Discussion ranges from cautious financial framing to catastrophic outlooks, with disagreement over whether urgency persuades or causes audiences to disengage.
+
+### LLM perspective
+
+- **View:** Evidence convergence settles attribution more strongly than any single indicator; policy effectiveness remains the separate contested question.
+- **Impact:** Risk management shifts from proving warming to choosing competent mitigation and adaptation amid distrust and coordination failure.
+- **Watch next:** Emissions trajectories, ocean heat, ice-sheet mass, sea-level acceleration, and independently audited mitigation outcomes.

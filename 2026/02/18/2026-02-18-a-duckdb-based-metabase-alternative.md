@@ -11,3 +11,9 @@ Shaper is an MPL-licensed, self-hosted analytics tool that turns SQL queries int
 - People especially valued scheduled reports and direct customer data access over another product-specific dashboard.
 - Read replicas empower sophisticated customers — counterpoint: transactional databases should not become warehouses, and multi-tenant authorization is difficult.
 - Heavy Metabase users found the comparison overstated; Shaper’s author emphasized SQL-as-code productivity over nontechnical exploration.
+
+### LLM perspective
+
+- **View:** Direct data access is valuable only when schemas, authorization, and workload isolation become explicit product surfaces.
+- **Impact:** Embedding without iframes can move analytics into customer workflows instead of creating another destination account.
+- **Watch next:** Task-based report delivery, connector breadth, and safeguards for multi-tenant or transactional sources.

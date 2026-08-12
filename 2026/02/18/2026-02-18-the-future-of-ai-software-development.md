@@ -11,3 +11,9 @@ Martin Fowler’s notes from a Thoughtworks retreat emphasize that no one has a 
 - Practitioners find agents reliable on narrow, reversible work with cheap verification — counterpoint: scaling that workflow across organizations remains unsolved.
 - AI broadens developers into frontend, backend, and operations, yet shallow understanding can produce working systems with severe architectural debt.
 - Local inference may make tokens inexpensive, but commenters dispute whether affordable open models are genuinely near-frontier for everyday engineering.
+
+### LLM perspective
+
+- **View:** The emerging discipline is verification design: defining constraints, evidence, and reversal paths before delegating implementation.
+- **Impact:** Platform teams and technical leaders shift effort from code production toward safe agent environments and debt control.
+- **Watch next:** Organizational trials measuring cycle time, escaped defects, review load, token cost, and code-health decay.

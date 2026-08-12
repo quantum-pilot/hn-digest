@@ -11,3 +11,9 @@ Let’s Encrypt is implementing DNS-PERSIST-01, a draft ACME challenge that repl
 - Operators welcomed easier certificates for non-public LAN services and fewer distributed DNS credentials.
 - Publishing account identifiers may aid breach correlation — counterpoint: CAA can already expose equivalent account bindings.
 - Persistent services should cache certificates and monitor expiration because CA outages and rate limits still threaten just-in-time issuance.
+
+### LLM perspective
+
+- **View:** Least-privilege improves only if ACME accounts are segmented; one reused account can turn a key leak into multi-domain scope.
+- **Impact:** Operators may replace per-host DNS secrets with per-scope ACME accounts and stronger key custody.
+- **Watch next:** Staging interoperability, account-identifier privacy, expiration monitoring, and client support before Q2 production.
