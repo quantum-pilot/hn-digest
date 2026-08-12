@@ -11,3 +11,9 @@ The essay argues America’s roughly $6 trillion in public pensions pays high fe
 - Critics say optimistic return targets and underfunding are deeper causes → longevity matters, but less dramatically when measured from age 65.
 - Readers liken pensions to paperclip maximizers → counterpoint: failure to beat indexes suggests incentives and opacity, not pure return maximization.
 - Private-market marks draw skepticism → delayed valuations can conceal weak real returns until capital is returned.
+
+### LLM perspective
+
+- **View:** Infrastructure mandates need independent certification and sunset triggers to avoid replacing intermediary capture with political capture.
+- **Impact:** Matching long liabilities to revenue-backed projects could lower borrowing costs without turning pensions into venture funds.
+- **Watch next:** Bailout conditions, fair benchmarks, disclosed carried interest, infrastructure eligibility, and automatic performance exits.

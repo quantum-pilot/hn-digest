@@ -11,3 +11,9 @@ After three months with GrapheneOS on a Pixel 9a, the author recommends it as a 
 - Pixel dependence is ironic but technically useful → unlockable and relockable bootloaders, verified boot, and strong hardware security enable GrapheneOS.
 - Gradual migration reduces surprises → app compatibility and profile friction vary by bank, country, and required service.
 - Users value per-app network and sensor controls → counterpoint: cellular infrastructure and closed hardware still limit privacy.
+
+### LLM perspective
+
+- **View:** Selective dependence is the practical privacy win: sandbox required services instead of making purity the adoption threshold.
+- **Impact:** Institutional app policies, more than OS stability, decide whether users need a second device.
+- **Watch next:** Support beyond Pixel, banking attestation fixes, Aurora reliability, and private-space payment compatibility.

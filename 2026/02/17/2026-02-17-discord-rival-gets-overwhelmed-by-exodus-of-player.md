@@ -11,3 +11,9 @@ TeamSpeak says a surge of users fleeing Discord’s planned worldwide age-verifi
 - Discord’s unified free hosting and effortless setup remain table stakes → self-hosted rivals demand more administration and offer weaker persistent chat.
 - Discord may endure because network effects are strong → counterpoint: reduced engagement can strengthen competitors before headline user counts fall.
 - Users frame departure as privacy protection → they reject entrusting chat providers with IDs or biometrics.
+
+### LLM perspective
+
+- **View:** Capacity spikes prove willingness to sample alternatives, not durable migration or parity across community workflows.
+- **Impact:** Rivals gain an acquisition window but must scale hosting, persistent chat, simple setup, and cross-community identity.
+- **Watch next:** Post-rollout retention, active minutes, community creation, verification scope, breach handling, and TeamSpeak capacity.

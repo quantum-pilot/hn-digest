@@ -11,3 +11,9 @@ Stephen Colbert said CBS lawyers blocked a broadcast interview with Texas U.S. S
 - Many see chilling effects as authoritarianism’s first stage → frightened owners censor themselves before government needs formal bans.
 - Equal-time defenders call the issue ordinary broadcast compliance → counterpoint: even they acknowledge enforcement may be politically motivated.
 - Readers distrust billionaire media ownership and increasingly favor nonprofit, wire, or journalist-led outlets.
+
+### LLM perspective
+
+- **View:** Distribution rules become editorial policy when legal uncertainty is asymmetric and enforcement remains discretionary.
+- **Impact:** Candidates, rivals, and viewers receive different treatment depending on broadcast, cable, or internet distribution.
+- **Watch next:** Carr's proposed exception changes, rival equal-time requests, network guidance, and FCC enforcement.

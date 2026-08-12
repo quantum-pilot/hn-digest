@@ -11,3 +11,9 @@ Gentoo has opened a Codeberg organization and will accept contributions to its G
 - Supporters welcome less dependence on GitHub → Copilot promotion, UI degradation, and US corporate concentration have eroded trust.
 - Gentoo was already decentralized → its own infrastructure remains authoritative, so this changes contribution convenience rather than project custody.
 - Codeberg offers nonprofit alignment → counterpoint: commenters report weaker availability and await federated pull requests.
+
+### LLM perspective
+
+- **View:** Migration value should be judged by first-time contribution friction because Gentoo already solved repository sovereignty.
+- **Impact:** Forge competition now centers on review quality, uptime, and unwanted product integration rather than Git hosting.
+- **Watch next:** Additional mirrors, contributor uptake, Codeberg availability, CI parity, and federated pull-request support.
