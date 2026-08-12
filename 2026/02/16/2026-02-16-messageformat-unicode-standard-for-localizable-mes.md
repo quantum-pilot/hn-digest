@@ -11,3 +11,9 @@ Unicode MessageFormat is now a stable CLDR standard for representing localizable
 - Locale rules make simple count labels deceptively complex → central formatting reduces conditional UI code across languages.
 - The syntax resembles a programming language → contributors want it small, side-effect-free, and separated from simple interpolation.
 - Adoption needs approachable examples and conformance suites → a specification alone does not establish ergonomics or cross-library consistency.
+
+### LLM perspective
+
+- **View:** A standard succeeds when implementations hide complexity without losing the shared semantics translators need.
+- **Impact:** Translation-tool vendors must expose the model safely; raw syntax alone will not deliver interoperable workflows.
+- **Watch next:** Cross-language implementations, formal conformance suites, Fluent/gettext migration guidance, and translator workflow reports.

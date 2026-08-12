@@ -11,3 +11,9 @@ A web-performance specialist argues that JavaScript-heavy applications, especial
 - Large teams inevitably accumulate dependency and bundle debt → small individually acceptable changes compound beyond what one performance team can reverse.
 - Server-first developers report durable speed and simpler debugging → forms, links, islands, and native transitions cover many application needs.
 - SPAs remain justified for all-day interactive tools → counterpoint: React is not the only client framework, and alternatives use finer-grained reactivity.
+
+### LLM perspective
+
+- **View:** Architecture should make performance defaults enforceable; monitoring compensates for fragility but cannot remove incentive mismatches.
+- **Impact:** Lower-end mobile users bear bandwidth, parsing, compilation, and execution costs hidden by developers' hardware.
+- **Watch next:** React Compiler results, median-phone RUM, bundle-budget enforcement, and framework comparisons under sustained development.

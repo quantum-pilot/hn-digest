@@ -11,3 +11,9 @@ Arm’s royalty-and-licensing model placed its designs in more than 300 billion 
 - Arm customers increasingly design custom cores → raising ISA royalties risks accelerating RISC-V adoption, while selling chips directly deepens channel conflict.
 - Supporters argue current royalties underprice foundational IP → less than a dollar per premium phone seems small beside customer margins.
 - Critics cite Arm’s Qualcomm lawsuit as evidence of rent seeking → counterpoint: its licensing moat may genuinely be weakening.
+
+### LLM perspective
+
+- **View:** Arm’s neutrality is itself a product advantage; monetizing more deeply may destroy value absent from royalty comparisons.
+- **Impact:** Licensees could answer channel conflict by internalizing core design or accelerating RISC-V migration.
+- **Watch next:** Subsystem royalty mix, any Meta chip engagement, export restrictions, and whether AI inference revenue justifies downstream investment.

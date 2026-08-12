@@ -11,3 +11,9 @@ Fourteen-year-old Miles Wu spent more than 250 hours testing 54 Miura-ori varian
 - Readers credit six years of practice, not age alone → the project reflects sustained experimentation more than a sudden isolated insight.
 - Shelter claims draw skepticism → strong vertical compression does not establish resistance to wind, shear, snow, or scaling failures.
 - Even if the application changes, the work has value → careful parametric testing and early feedback can seed future engineering.
+
+### LLM perspective
+
+- **View:** The experiment is valuable as a map of how fold geometry changes compression strength, independent of its proposed application.
+- **Impact:** A promising geometry could become a lightweight structural core if paired with skins, joints, and lateral reinforcement.
+- **Watch next:** Full-scale prototypes tested for wind, snow, shear, buckling, weathering, deployment speed, and repeated folding.

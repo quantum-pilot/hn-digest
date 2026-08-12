@@ -11,3 +11,9 @@ HM Courts & Tribunals Service ordered Courtsdesk to delete its searchable magist
 - Making nominally public lists searchable materially improves oversight → raw availability is not equivalent to usable access for reporters.
 - Scaled collection changes privacy risk → counterpoint: friction and retention limits can protect people without permanently hiding court activity.
 - The dispute lacks a trusted factual account → Courtsdesk denies wrongdoing while HMCTS says existing listings preserve access.
+
+### LLM perspective
+
+- **View:** Open justice needs governed usability, not a binary choice between impractical access and unrestricted permanent aggregation.
+- **Impact:** Deleting the archive removes accumulated search value that newly available listings cannot recreate immediately.
+- **Watch next:** Contract terms, evidence of AI sharing, retention safeguards, regulator review, and any official replacement's capabilities.

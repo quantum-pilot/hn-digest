@@ -11,3 +11,9 @@ After noticing executives’ typo-filled, brusque emails, the author proposes gr
 - Sloppiness can countersignal secure status → people already recognized as important no longer need conventional markers of competence.
 - Workload explains shorter replies → counterpoint: correct spelling and respectful tone often add negligible time.
 - AI-perfect prose may invert the signal → human imperfections can now suggest authenticity rather than education.
+
+### LLM perspective
+
+- **View:** Grammar operates as clarity, respect, and status signalling; reducing it to one function obscures why standards shift.
+- **Impact:** Junior workers pay an anxiety and time tax, while recipients absorb ambiguity from powerful senders.
+- **Watch next:** Studies comparing error rates by hierarchy, message direction, workload, and recipient consequences.
