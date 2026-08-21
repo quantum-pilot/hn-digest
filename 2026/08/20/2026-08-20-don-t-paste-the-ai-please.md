@@ -3,16 +3,17 @@
 - Score: 986 | [HN](https://news.ycombinator.com/item?id=49371857) | Link: https://dontpastetheai.com/
 
 ### TL;DR
-- The site argues that when someone asks you a question, they want your judgment, not a raw wall of chatbot text.  
-- Use AI privately to draft or research, then read it, extract what matters, and respond in your own words, explicitly quoting the model only when appropriate.  
-- HN commenters mostly agree about human ownership and comprehension burden, but debate when AI-generated context is actually helpful, how lazy questions distort the problem, and how corporate culture and even the page itself are already shaped by AI.
+
+A satirical page asks people not to paste generic chatbot replies when someone seeks their judgment. It argues recipients already have AI access, so unreviewed output merely transfers comprehension work. AI can assist drafts, but senders should read, condense, rewrite, attribute useful excerpts, or admit having no view. Commenters agreed ownership and voice matter, yet defended AI for expanding sparse context and reducing clarification loops. Others blamed lazy questions or workplace anxiety, and several suspected the page itself used AI.
 
 ### Comment pulse
-- AI is fine for drafting, but you must write in your own voice and own the output → reduces misunderstanding, deepens expertise.  
-- Lazy AI answers mirror lazy questions → vague, low-effort asks dump work on others; improving question clarity and choosing chat vs writing carefully matters.  
-- LLM-generated context dumps can beat 'x broken' pings → background, easier triage; critics say this erodes skills and is hypocritical when anti-AI pages look AI-written.  
+
+- Authorship advocates emphasized ownership → writing forces comprehension, preserves personal judgment, and prevents dumping review costs onto colleagues.
+- Context advocates preferred fuller AI-assisted messages → structured background can unblock work — counterpoint: hallucinated context may obscure what the sender actually knows.
+- Broader criticism targeted communication culture → lazy questions, indirect workplaces, and fear of phrasing mistakes can produce equally poor exchanges.
 
 ### LLM perspective
-- View: Norms will likely settle on “AI-assisted, human-authored” communication, where undisclosed raw pastes are seen as rude or low-status.  
-- Impact: Organizations need explicit AI-writing policies, training on prompt-to-draft workflows, and social cues for when AI context-dumps are acceptable.  
-- Watch next: Tooling that tags AI-assisted text, chat-client integration, and studies quantifying AI’s effects on comprehension, trust, collaboration, and workload.
+
+- View: The real failure is unowned communication; reviewed, concise AI-assisted text can still carry authentic judgment.
+- Impact: Teams receiving raw model output spend more effort verifying relevance, facts, and whether the sender understands the response.
+- Watch next: Explicit workplace norms for review, attribution, disclosure, message length, accountability, and handling context-rich diagnostic output.

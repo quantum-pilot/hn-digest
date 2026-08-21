@@ -3,18 +3,17 @@
 - Score: 373 | [HN](https://news.ycombinator.com/item?id=49374269) | Link: https://safedep.io/arrayref-proc-macro1-rust-build-time-malware/
 
 ### TL;DR
-A compromised crates.io account for popular Rust crate `arrayref` published version 0.3.10 that silently depends on fake crate `proc-macro1`. That crate’s build script downloads an architecture-specific payload from a hard‑coded IP and executes it during compilation, detached from Cargo so builds succeed while malware runs. Several related crates were removed and indicators of compromise (IP, file paths, hashes) are documented. HN discussion focuses on crates.io/GitHub incident handling, thin stdlibs driving dependency sprawl, and how to harden Cargo build scripts and ecosystems.
 
----
+SafeDep reports that a compromised maintainer account published `arrayref` 0.3.10 alongside malicious `internment` and `append-only-vec` releases. `arrayref` added typosquatted `proc-macro1`, a working `proc-macro2` copy whose build script downloaded and detached an OS-specific payload during compilation. Older releases were yanked, nudging upgrades toward the bad version; crates.io removed the malicious releases. Its 245 million lifetime downloads show ecosystem reach, not infections. Commenters debated incident transparency, curated dependencies, richer standard libraries, and build sandboxing—counterpoint: malicious library code can execute later anyway.
 
 ### Comment pulse
-- Incident response UX is poor → deleted versions and vanished GitHub repos give no “removed for malware” state or advisory link—counterpoint: Rust team has a documented, improving process.  
-- Many blame thin stdlibs → dependency sprawl increases attack surface; others say “batteries included” is unrealistic for general-purpose languages and expensive without big corporate backing.  
-- Hardening Cargo → calls for sandboxed `build.rs` and curated, audited core crates; skeptics note sandbox limits and that payloads can move into normal library code.
 
----
+- Critics wanted deleted-version markers and advisories; replies said response lag does not prove crates.io was unprepared.
+- “Batteries included” advocates sought fewer dependencies, while opponents cited diverse domains, permanence, staffing, and stale standard-library risks.
+- Build-script sandboxing drew support, but practical permissions and later execution of poisoned binaries limit protection.
 
 ### LLM perspective
-- View: Build-time code execution plus transitive dependencies creates a stealthy, high-impact supply-chain vector even in memory-safe languages.  
-- Impact: Expect stricter crate policies, improved publisher verification, and more scrutiny of unusual build dependencies or network-using build scripts.  
-- Watch next: Concrete Cargo RFCs on sandboxing/permissions, explicit “malicious-removed” crate state, and emergence of community-curated Rust dependency baselines.
+
+- View: Account compromise combined with trusted transitive build execution created an unusually effective supply-chain path.
+- Impact: Anyone who compiled affected releases on supported systems may need compromise investigation, not merely dependency rollback.
+- Watch next: Second-stage analysis, transparent removal records, stronger publisher security, dependency auditing, and build-time network controls.

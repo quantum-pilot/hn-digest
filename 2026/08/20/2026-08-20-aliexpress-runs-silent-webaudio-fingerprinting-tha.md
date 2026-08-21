@@ -2,15 +2,18 @@
 
 - Score: 848 | [HN](https://news.ycombinator.com/item?id=49372583) | Link: https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html
 
-- TL;DR  
-  AliExpress’s homepage silently spins up WebAudio graphs that emit inaudible sawtooth signals into the audio output, as part of a larger device-fingerprinting and anti-fraud system. Because the audio pipeline stays “live”, it can hijack Bluetooth audio priority, breaking multipoint headphones while evading normal tab mute controls. The author shows how to block the specific scripts with uBlock Origin, warning it may trigger more CAPTCHAs. HN readers debate browser-level safeguards, share similar Bluetooth glitches, and note partial fingerprinting mitigations.
+### TL;DR
 
-- Comment pulse  
-  - Browsers should surface any live audio graph with icons or permission prompts → silent WebAudio currently hides from users yet affects devices.  
-  - Multiple users report hearing aids, car stereos, and mice misbehaving when sites start “silent” streams → Bluetooth treats them as real audio sessions.  
-  - Some note Firefox already randomizes WebAudio fingerprints → mitigates tracking, not side effects—counterpoint: relying on individual browsers, not standards, leaves gaps.
+An investigator traced broken Bluetooth multipoint switching to two obfuscated AliExpress scripts creating silent WebAudio graphs. Their oscillators and analyzers feed zero-gain output into the audio destination, keeping the PC path active despite mute controls. The bundles also collect canvas, WebGL, hardware, timing, interaction, and automation signals, then transmit encrypted results. Blocking both script families stopped the contexts locally, though it could hinder anti-fraud checks. Comments reported similar effects on hearing aids and cars and urged browser visibility.
 
-- LLM perspective  
-  - View: Covert hardware engagement as a tracking vector shows how “benign” APIs become de facto surveillance and capability probes.  
-  - Impact: Browser vendors face pressure to gate high-entropy APIs behind permissions or indicators, especially when they alter peripheral behavior.  
-  - Watch next: Standardized WebAudio throttling, fingerprinting-resistance test suites, and independent audits of large sites’ anti-fraud scripts and data retention.
+### Comment pulse
+
+- Browser-control demands dominated → hidden audio processing should trigger tab indicators or permission notices like other hardware-sensitive APIs.
+- Corroborating anecdotes spanned hearing aids, car audio, and Bluetooth peripherals → silent activity can create accessibility and usability failures.
+- Tracking intent remained uncertain → the code resembles broad fingerprinting, while fraud and bot detection offer a plausible operational purpose.
+
+### LLM perspective
+
+- View: Client code establishes fingerprint-like collection and transmission, not server-side retention, identity linkage, or final purpose.
+- Impact: Zero-volume processing can disrupt assistive devices and multipoint audio while evading controls users reasonably expect to work.
+- Watch next: Browser indicators, background-execution rules, independent reproduction, AliExpress disclosure, and whether narrow blocking disrupts authentication or checkout.

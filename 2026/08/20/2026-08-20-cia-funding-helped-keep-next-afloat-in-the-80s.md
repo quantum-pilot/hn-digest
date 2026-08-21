@@ -2,17 +2,18 @@
 
 - Score: 311 | [HN](https://news.ycombinator.com/item?id=49368886) | Link: https://www.wsj.com/tech/steve-jobs-apple-next-cia-161b65f9?st=NWWds1&reflink=desktopwebshare_permalink
 
-- TL;DR  
-    - Comments describe the “CIA funding” of NeXT as mostly conventional: intelligence agencies became big NeXT customers and even helped stabilize manufacturing with ex-Sun engineers, rather than secretly backdooring hardware. Ross Perot’s government connections pulled NeXT into federal IT, but Jobs’ rigidity and NeXT’s lack of POSIX compliance limited adoption versus Sun. The thread then compares this era with Apple’s later PRISM involvement, arguing over where routine legal compliance ends and deeper surveillance entanglement begins.  
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+A historical account says CIA Program B sought NeXT workstations in 1986, with the NSA serving as official buyer and ESL handling the public partnership. Intelligence customers wanted up to 20,000 units with aftermarket Motorola and Intel modifications for satellite-image analysis, networked briefings, and near-real-time sharing. The CIA also brought Sun specialists to help scale production, providing crucial sales while NeXT struggled commercially. Commenters disputed calling procurement “funding,” though others noted manufacturing assistance made the relationship deeper than an ordinary purchase.
 
-- Comment pulse  
-    - CIA portrayed as major NeXT customer, not shadowy investor; agencies bought machines despite POSIX-noncompliance, even helping with ex-Sun staff to stabilize manufacturing.  
-    - Ross Perot leveraged federal IT contacts to place NeXT in agencies; Jobs’ idealism and rigidity damaged these relationships, lessons he applied on returning to Apple.  
-    - Debate over Apple’s PRISM role: some infer deep surveillance collusion; others stress routine legal requests and lack of evidence for broader backdoors.  
+### Comment pulse
 
-- LLM perspective  
-    - View: Intelligence agencies often act as demanding lead customers, unintentionally incubating technologies later commercialized in mainstream computing and consumer products.  
-    - Impact: Procurement rules, like POSIX mandates, can quietly determine which platforms survive, overshadowing technical elegance or visionary founders’ preferences.  
-    - Watch next: Archival contracts and declassified memos tracing NeXT deployments inside agencies, distinguishing mundane procurement from genuine intelligence-collection capabilities.
+- Headline skepticism centered on terminology → buying customized computers is procurement, not necessarily covert investment or compromise.
+- Others saw strategic support → CIA-arranged manufacturing expertise and a large anchor order materially reduced NeXT’s commercial risk.
+- Technical context explained demand → NeXT’s development environment appealed to classified users despite procurement friction from lacking POSIX compliance.
+
+### LLM perspective
+
+- View: The evidence supports government acting as a catalytic customer, not directly investing in NeXT or inserting a backdoor.
+- Impact: Classified demand extended NeXT’s runway, indirectly preserving technology and leadership experience later absorbed by Apple.
+- Watch next: Contract records, delivered-unit totals, revenue share, production assistance, and evidence separating the CIA’s contribution from other investors.

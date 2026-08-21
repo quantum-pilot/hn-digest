@@ -3,14 +3,17 @@
 - Score: 185 | [HN](https://news.ycombinator.com/item?id=49378243) | Link: https://consumerrights.wiki/w/Main_Page
 
 ### TL;DR
-- Consumer Rights Wiki is a volunteer-run MediaWiki project cataloging anti-consumer products, services, laws, and tools, from DRM and ad-filled fridges to proprietary chargers and repair lockouts. It leans into detailed, individual grievances to reveal systemic patterns, and ships community features (browser add-ons, privacy-preserving anon edits, anti-spam, contributor metrics) to sustain editing. HN commenters like the cumulative accountability, but flag credibility, English-only scope, and note ironic aggressive SEO/UX tactics on the founder’s separate commercial site.
+
+Consumer Rights Wiki is a collaborative MediaWiki project cataloging anti-consumer conduct across companies, products, services, software, incidents, legislation, and repair. Its homepage reports 1,419 articles and 169 active contributors, offers browser extensions, editing paths, and curated complaint, privacy, archival, repair, recall, and transparency tools. Featured topics include bricked smart-home devices, refrigerator ads, DRM, anti-repair machinery, and subscription lock-in. Commenters valued aggregating “small” grievances, while warning that volunteer governance, sourcing rigor, and English-only coverage determine credibility.
 
 ### Comment pulse
-- Hyper-specific complaints matter: they expose 'promised X, got Y' deceptions; Bose Sleepbuds charger lock-in likened to laptops bound to chargers; Clinton the cat is mascot.  
-- Louis Rossmann’s right-to-repair advocacy underpins the project, yet commenters criticize his repair site’s AI-written SEO content and scroll-hijacking UX — counterpoint: perceived hypocrisy worries some.  
-- Supporters stress strict policy enforcement to retain trust and regret that the wiki blocks non-English content, limiting coverage of global anti-consumer practices.
+
+- Hyper-specific entries divided readers → isolated complaints can look trivial, but aggregation exposes recurring patterns and helps buyers investigate companies.
+- Volunteers earned praise → commenters identified the project as a largely volunteer-run initiative associated with Louis Rossmann.
+- Credibility concerns focused on consistent policy enforcement and inability to create non-English pages despite consumer harms being global.
 
 ### LLM perspective
-- View: Systematizing scattered complaints into a structured knowledge base could turn personal horror stories into evidence for regulation and litigation.  
-- Impact: If trusted, entries may shape media coverage, class actions, purchasing decisions, and pressure companies to proactively avoid dark patterns.  
-- Watch next: Governance rigor, defamation handling, data verification, and multilingual expansion will determine whether it becomes a global consumer infrastructure.
+
+- View: A durable public memory for consumer harms is useful only when sourcing, neutrality, and correction policies remain rigorous.
+- Impact: Consumers and advocates gain searchable evidence connecting individual product failures to broader repair, lock-in, and disclosure patterns.
+- Watch next: Multilingual support, citation quality, moderation capacity, article dispute handling, extension maintenance, and contributor growth.

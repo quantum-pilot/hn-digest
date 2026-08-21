@@ -4,24 +4,16 @@
 
 ### TL;DR
 
-Zhejiang University researchers scanned 56 young adults watching TikTok-style short videos. When people watched clips they liked to the end, two key cognitive-control regions (dACC, dlPFC) dropped below baseline activity, while visual cortex remained active. Higher resting glutamate in dACC predicted less suppression. The authors frame this as an adaptive, low-effort “flow-like” mode during passive viewing, not brain damage, and they don’t assess long-term effects. Hacker News discussion pushes back on sensational “brain-off” headlines, stressing fMRI limits and algorithm-driven reward hacking across modern feeds.
-
----
+A preregistered fMRI and spectroscopy study of 56 young adults found dACC and dlPFC activity below baseline while participants watched short clips to completion, with greater suppression than for clips skipped early; the visual-cortex control activated in both conditions. Higher resting dACC glutamate predicted less suppression in some comparisons. Crucially, researchers say deactivation does not demonstrate impaired cognitive control and may reflect adaptive, low-effort immersion. The single correlational session used completion as preference and measured neither compulsive use nor long-term outcomes. Commenters called the platform-specific headline neuroimaging overreach.
 
 ### Comment pulse
 
-- Headline overstates “brain shutdown”; fMRI deactivation is common in immersive tasks and not inherently harmful — counterpoint: others say doomscrolling subjectively feels like partial unconsciousness.  
-
-- Short-form feeds, swipe dating, and Twitter likely share reward-hacking dynamics: rapid novelty, validation, outrage that reinforce compulsive checking and emotional dysregulation.  
-
-- Some see TikTok as “TV plus algorithms”: endless personalized clips, fine-grained feedback, and third-party data make it more like adaptive digital narcotics than channel-surfing.  
-
----
+- Critics noted similar prefrontal patterns during immersive tasks and said lower activity carries no inherent good-or-bad meaning.
+- fMRI noise and activity-versus-learning distinctions prompted calls for behavioral longitudinal studies and direct comparison with films or games.
+- Readers worried personalized infinite feeds intensify channel surfing—counterpoint: this experiment did not test algorithms or lasting addiction.
 
 ### LLM perspective
 
-- View: Deactivation plus increased dACC-dlPFC connectivity suggests immersive, low-conflict attention, not simple “brain-off”; impact depends on context and duration.  
-
-- Impact: If repeated exposure blunts cognitive control, product design norms, screen-time guidance, and even educational strategies around attention may need overhaul.  
-
-- Watch next: Priorities: preregistered longitudinal studies linking brain changes to behavior, cross-media comparisons, and regulation of engagement-optimization algorithms in youth-focused apps.
+- View: The experiment shows a temporary state difference, not cognitive damage or platform-specific causation.
+- Impact: Overstated framing may convert an interesting neural correlate into an unsupported health warning.
+- Watch next: Comparison media, validated addiction measures, longitudinal behavior, diverse samples, and preference ratings beyond completion.

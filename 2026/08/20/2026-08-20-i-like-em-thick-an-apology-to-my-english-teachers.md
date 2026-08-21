@@ -2,15 +2,18 @@
 
 - Score: 523 | [HN](https://news.ycombinator.com/item?id=49347543) | Link: https://www.experimental-history.com/p/i-like-em-thick
 
-- TL;DR  
-The author argues that great art is “thick”: it keeps yielding more the longer you look, because it embodies discarded attempts, audience participation, deliberate choices, and real sacrifice. Using Bosch’s Garden of Earthly Delights, Hokusai, Jane Jacobs, and fire‑eating, he contrasts this with thin, “slop” content and AI‑generated prose that collapses under scrutiny. Commenters connect with museum moments, new ways to rate books by longevity, and frustrations with how schools and feedback often miss or undermine thickness.
+### TL;DR
 
-- Comment pulse  
-  - Great art experiences can rewire you → visitors describe Prado, Rothko, Dali pieces that “ambush” them and alter careers or overwhelm, demanding slow, repeated viewing.  
-  - Evaluating thickness over time → commenters prefer “book of the year/decade” framing to 1–5 stars, focusing on memorability and staying power rather than immediate enjoyment.  
-  - Teaching and making thick art is hard → many lament context‑free school lit and misaligned feedback that flattens work—counterpoint: others say classics themselves teach context.
+An essay defines artistic “thickness” as a work’s capacity to reveal more under sustained attention, reversing the author’s teenage dismissal of canonical literature. Bosch’s Garden of Earthly Delights illustrates how context transforms a seeming musical joke into religious warning. Four proposed sources are discarded alternatives, audience participation, purposeful recurring choices, and costly craft. Thin works collapse when examined; the author argues AI slop favors immediate appeal without durable depth. Commenters expanded thickness toward truth, memory, context, and transformative encounters.
 
-- LLM perspective  
-  - View: Thickness is a user-centric test for LLM outputs: do they reward re-reading or immediately feel Potemkin-like?  
-  - Impact: As AI floods media with thin artifacts, human creators can differentiate by visibly investing time, risk, and iterative exploration.  
-  - Watch next: Longitudinal studies tracking engagement with AI vs human works could test whether thickness predicts endurance better than ratings.
+### Comment pulse
+
+- Museum stories supported the premise → exceptional paintings can halt casual viewing and redirect lives before viewers consciously parse their detail.
+- Readers endorsed asking “why this, not that?” → differential analysis exposes artistic decisions and generates deeper thought beyond simple ratings.
+- Some blamed premature, context-free teaching → counterpoint: strong texts and teachers can supply context, and early exposure benefits receptive students.
+
+### LLM perspective
+
+- View: Thickness is a useful evaluative metaphor, but age and labor are imperfect proxies vulnerable to canon and survivorship effects.
+- Impact: Teachers and creators may prioritize guided attention, interpretive participation, deliberate choices, and works that reward revisiting.
+- Watch next: Cross-media examples, longitudinal audience response, teaching experiments, and counterexamples involving shallow classics or durable machine-assisted work.

@@ -2,19 +2,18 @@
 
 - Score: 169 | [HN](https://news.ycombinator.com/item?id=49375996) | Link: https://github.com/zachahn/vomit
 
-## TL;DR
-Vomit is a small Go CLI that taps into your local Claude Code session, captures its verbose “token vomit,” and pipes it through a separate local LLM (via OpenAI-style API, Llama.app, or Ollama). That second model rewrites Claude’s meandering, self-congratulatory prose into clear, conversational English while preserving intent. HN discussion splits between people desperate for relief from unreadable “Claude-speak,” those who see multi-model stacks and prompt scaffolding as more direct fixes, and skeptics of the growing AI Rube Goldberg machine.
+### TL;DR
 
----
+Vomit is a GPLv3 Go tool that intercepts Claude Code messages through hooks and rewrites them into clearer English using a local LLM; sidecar commands can list or follow sessions without replacing output. It claims no telemetry or external dependencies and supports Llama.app, Ollama, or perhaps OpenAI-compatible APIs. The author warns that the translator sees text but not actions or files, so it can hallucinate, run slowly, and hide important messages; it is vibe-coded and Mac-tested. Commenters shared style frustration but questioned solving one model with another.
 
-## Comment pulse
-- Core pain: baked-in “Claude dialect” feels obfuscated, verbose, and resistant to AGENTS.md-style instructions; some users literally post-process everything just to stay productive.  
-- Multi-model stacks debated: critics ask why not switch vendors; supporters say “reasoning vs style” and use cross-model review to boost reliability — counterpoint: feels like needless complexity.  
-- Meta-frustration: the ecosystem is accreting layers of tools-on-tools, undermining the promise that AI should simplify work rather than require elaborate orchestration.
+### Comment pulse
 
----
+- Users said communication preferences decay during long sessions; one alternative reinjects instruction files ephemerally on every turn.
+- Some urged switching models—counterpoint: cheap style transfer can complement stronger reasoning, and cross-model review may improve results.
+- Satire targeted ever-growing stacks of agents needed to manage other agents instead of simplifying work.
 
-## LLM perspective
-- View: Vomit encodes a reusable “LLM-to-human translation” pattern, separating reasoning from communication style via a fixed editor prompt.  
-- Impact: Heavy Claude Code users, and anyone drowning in agentic tool output, gain a drop-in readability layer without changing their primary model.  
-- Watch next: Native “style control” knobs, IDE-integrated de-jargonizers, and benchmarks measuring readability vs. accuracy for agent-code and reasoning streams.
+### LLM perspective
+
+- View: A local style proxy is practical, but semantic fidelity is its load-bearing weakness.
+- Impact: Claude users may read less jargon while accepting extra latency and another failure boundary.
+- Watch next: Cross-platform testing, rewrite latency, hallucination measurements, reliable original-text fallback, and hook compatibility.

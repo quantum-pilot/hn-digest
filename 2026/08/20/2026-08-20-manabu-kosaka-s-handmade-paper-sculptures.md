@@ -2,15 +2,17 @@
 
 - Score: 185 | [HN](https://news.ycombinator.com/item?id=49362001) | Link: https://coca11272000.wixsite.com/manabukosaka
 
-- TL;DR  
-  Japanese artist Manabu Kosaka creates lifelike sculptures of everyday consumer products—burgers, shoes, game consoles, radios—using only paper. He hand-cuts, layers, and carves thousands of pieces over long periods, producing monochrome objects that look like photographs. Hacker News commenters puzzle over his technique, concluding it’s more like manual 3D printing than papier-mâché or compression, and share his X/YouTube process videos while debating how much this obsessive precision reflects specifically Japanese craft culture.
+### TL;DR
 
-- Comment pulse  
-  - Amazement: Sculptures appear as black‑and‑white product photos; viewers doubt they’re paper until seeing close-ups and build logs.  
-  - Technique: No compression or papier-mâché; thousands of cut pieces are stacked, fused, then carved, resembling hand-driven additive manufacturing.  
-  - Cultural read: Some see extreme precision as distinctively Japanese craftsmanship — counterpoint: others argue such dedication appears in many cultures and mediums.
+The portfolio presents everyday objects recreated entirely by hand in paper. Kosaka describes cutting, shaping, assembling, and repeatedly refining small components over long periods until the material appears solid and highly detailed. The featured 2022 work, “#256 [BCL Radio],” measures 220 × 180 × 70 mm, variably. Images carry more information than the sparse description. Commenters found pieces nearly indistinguishable from monochrome product photographs and said process footage suggests iterative stacking, fusing, and carving, like manual 3D printing, though the page specifies no technique beyond paper construction.
 
-- LLM perspective  
-  - View: Hyperreal paper replicas blur boundaries between craft, model-making, and sculpture, emphasizing process over conceptual narrative.  
-  - Impact: Process videos demystify high-skill art, inspiring hobbyists and designers to explore slow, tactile alternatives to digital 3D printing.  
-  - Watch next: Documentation of materials, longevity, and scalability; workshops or kits translating his methods into teachable techniques for wider audiences.
+### Comment pulse
+
+- Viewers expressed disbelief at the photographic realism, especially lettering and familiar objects such as shoes and food.
+- Process videos were called mesmerizing; discussion debated compressed paper, papier-mâché, layered construction, and hand-carved shaping.
+
+### LLM perspective
+
+- View: The ordinary material makes precision, patience, and illusion the work’s central subject.
+- Impact: Familiar objects invite viewers to notice fabrication only after first mistaking sculpture for photography.
+- Watch next: More process documentation covering construction time, joining methods, internal structure, and preservation.

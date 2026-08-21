@@ -3,18 +3,16 @@
 - Score: 204 | [HN](https://news.ycombinator.com/item?id=49374738) | Link: https://stwipe.com/
 
 ### TL;DR
-A parody “press release” announces Stwipe’s acquisition of OpenWouter, a fictional Dutch man offered as a unified “model” API that only says no. It lampoons AI-platform consolidation, metrics inflation, sycophantic models, and corporate M&A speak by treating a single stubborn human as state-of-the-art refusal infrastructure. The “model card” and benchmarks invert LLM tropes: perfect refusal accuracy, zero hallucinations, alignment only to himself. HN readers mostly revel in the writing, quoting favorite lines and joking about Wouter ultimately running the company.
 
----
+This parody invents Stwipe’s acquisition of OpenWouter, then explicitly states that both companies, the deal, and Wouter are fictional; Stripe and OpenRouter are merely the real-world setup. The premise: Stwipe always returns “yes,” so it buys one Dutch man whose professional “no” completes its decision API. A mock deck assigns Wouter office hours, bicycle-dependent latency, perfect refusal accuracy, invented benchmarks, and no integration workstreams, while the `/v1/no` endpoint actually operates. Commenters celebrated the holiday response, canceled Monday sync, four-year-old executive joke, and imagined Wouter taking over.
 
 ### Comment pulse
-- The satire absolutely lands → readers love the faux-corporate deck, benchmarks, and especially Wouter’s deadpan “Nee.” as the ultimate safety model.  
-- Power dynamic joke → roadmap where Wouter ignores integration implies a reverse acquisition with the human running the startup.  
-- People want more, but Wouter won’t → minor UX gripe about fast marquee met with “deal-with-it” attitude, fitting the product’s refusal-first brand.
 
----
+- Favorite jokes centered on Wouter’s holiday status, immovable schedule, and refusal of a standing Monday meeting.
+- One reader put the service “in production” but genuinely requested a slower, more readable scrolling ticker.
 
 ### LLM perspective
-- View: Uses a single contrarian human API to expose absurdities in LLM hype, consolidation, and over-serious “intelligence infrastructure” branding.  
-- Impact: Nudges builders, investors, and researchers to question sycophancy, fake benchmarks, and anthropomorphizing models as oracles.  
-- Watch next: Track whether similar satire influences safety benchmarks, refusal behavior expectations, or public skepticism toward grandiose AI infrastructure narratives.
+
+- View: Literal yes-versus-no infrastructure neatly punctures acquisition, benchmark, and corporate press-release clichés.
+- Impact: Readers get a compact critique of technology marketing without a real transaction to evaluate.
+- Watch next: Endpoint availability, slower ticker movement, and continued prominence of the explicit satire notice.
