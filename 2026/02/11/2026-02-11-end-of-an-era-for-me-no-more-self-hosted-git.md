@@ -2,23 +2,18 @@
 
 - Score: 103 | [HN](https://news.ycombinator.com/item?id=46969751) | Link: https://www.kraxel.org/blog/2026/01/thank-you-ai/
 
-## TL;DR
-Longtime open-source developer Gerd Hoffmann shut down his self-hosted public git server (running since 2011) after it was effectively DDoS’d by “AI” scrapers hammering his cgit web frontend with pointless per-commit requests. He moved everything to GitHub/GitLab and now only self-hosts a static blog, which scrapers still briefly knocked over by filling disks with 404 logs. HN discussion focuses on practical defenses, collateral damage to users, and whether this is really new AI behavior or just old scraping at new scale.
+### TL;DR
 
----
+After running public Git since 2011, Gerd Hoffmann retired his self-hosted service because scrapers overwhelmed cgit with repetitive requests. Existing GitLab and GitHub mirrors became primary repositories, leaving only a mostly static self-hosted website. Bots continued requesting removed cgit pages; millions of 404 responses filled the disk faster than default log rotation could cope, causing another outage before reconfiguration. Commenters shared defenses including Anubis challenges, cookies, rate limits, fail2ban, blocked networks, basic authentication, and reduced commit views, while debating accessibility costs and whether AI meaningfully changes ordinary scraper abuse.
 
-## Comment pulse
-- Use JS “shibboleth” cookies to distinguish browsers from bots → massively cuts bot traffic. — counterpoint: excludes NoScript/uBlock users and normalizes mandatory client-side code execution.
+### Comment pulse
 
-- Network-level defenses work: fail2ban on suspicious git paths, block abusive ASNs, or return 404 for expensive endpoints; some propose ssh/TUI git interfaces that scrapers won’t handle.
+- Cheap friction stops many bots → JavaScript reloads, basic authentication, and route-specific blocks reportedly cut traffic dramatically.
+- Defense can exclude legitimate users → anti-bot JavaScript penalizes NoScript users and reinforces expectations that pages execute untrusted code.
+- AI attribution remains contested → named bot user-agents and code demand support it; critics see familiar indiscriminate scraping at greater volume.
 
-- Logs show named AI bots (ClaudeBot, GPTBot, Amazonbot, Meta, PetalBot) generating tens of millions of mostly redundant requests, straining servers and pay-per-request hosting; others argue this is just traditional scraping turned up to 11.
+### LLM perspective
 
----
-
-## LLM perspective
-- View: Self-hosting public developer services is increasingly costly without serious anti-bot engineering, pushing individuals toward large, shielded platforms.
-
-- Impact: Indie devs and small communities lose autonomy; hosts and the environment pay for vast volumes of redundant AI-crawler traffic.
-
-- Watch next: Standardized AI crawl opt-outs with enforcement teeth, lightweight open-source bot filters for small sites, and hosting plans resilient to scraper-driven cost spikes.
+- View: The decisive cost is operator attention: even manageable traffic can make volunteer hosting no longer worth defending.
+- Impact: Small forges centralize onto large platforms, reducing infrastructure diversity and transferring bot-control costs to better-resourced providers.
+- Watch next: Crawler compliance, caching and rate-limit defaults, log safeguards, lightweight Git frontends, hosting bills, and scraper identification accuracy.

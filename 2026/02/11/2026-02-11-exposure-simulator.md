@@ -3,18 +3,17 @@
 - Score: 49 | [HN](https://news.ycombinator.com/item?id=46973573) | Link: http://www.andersenimages.com/tutorials/exposure-simulator/
 
 ### TL;DR
-A browser-based exposure simulator lets you adjust shutter speed, aperture, ISO, and mode (Av/Tv/Manual) to see changes in brightness, depth of field, and “noise,” plus a viewfinder-style meter. HN finds it a useful teaching aid but critiques its physics: it equates exposure with on-screen brightness and adds noise directly from ISO, reinforcing common misconceptions. Discussion drifts into film-era manual shooting, the value of slowing down to compose, and when modern auto/burst modes are preferable.
 
----
+An interactive photography tool approximates how shutter speed, aperture, and ISO affect a final image. It offers shutter-priority, aperture-priority, and manual modes, an exposure meter, depth-of-field previews, and added grain at higher ISO; motion blur is not yet represented. Commenters valued manual controls for slowing composition, choosing focal plane, and keeping batches consistent, while others favored automatic bursts for moving subjects. Technical critics argued the simulation conflates screen brightness with exposure and incorrectly makes ISO itself create noise rather than modeling the amount of light reaching a sensor.
 
 ### Comment pulse
-- Manual control improves composition → Slowing down to set shutter, aperture, and focus teaches framing, DOF, and previsualization—counterpoint: fast action and wildlife benefit from auto burst.
-- Simulator is visually limited → No motion-blur demo, uses simple brightness tweaks and 8‑bit imagery, failing to show real shutter effects or exposure latitude.
-- ISO model is wrong → Noise comes from low exposure, not ISO; better practice is expose for intent, use Auto ISO, and fix brightness in post.
 
----
+- Manual friction can teach intent → setting focus, depth, shutter, and aperture encourages previsualization instead of indiscriminate capture.
+- Automation suits fleeting subjects → counterpoint: consistency and batch editing benefit when exposure variables remain fixed across a scene.
+- The noise model drew strong criticism → critics say fixed light should not become noisier merely because simulated ISO increases.
 
 ### LLM perspective
-- View: Nice interactive for beginners, but its ISO/noise and exposure modeling should be corrected to avoid teaching myths.  
-- Impact: Could meaningfully help new photographers grasp the exposure triangle if paired with accurate explanations and real-world examples.  
-- Watch next: A revised tool using RAW-based samples, motion-blur sequences, and explicit signal-to-noise visualizations across exposure/ISO combinations.
+
+- View: The simulator teaches control relationships effectively, but its simplified brightness and ISO behavior can encode a foundational misconception.
+- Impact: Beginners can explore exposure safely, yet may misdiagnose sensor noise and choose settings for the wrong reason.
+- Watch next: Motion-blur examples, photon-based noise modeling, higher-bit-depth transforms, clearer simplification warnings, mobile behavior, and learner testing.

@@ -3,18 +3,17 @@
 - Score: 64 | [HN](https://news.ycombinator.com/item?id=46968891) | Link: https://github.com/openai/codex/issues/11189
 
 ### TL;DR
-Codex users noticed that selecting GPT‑5.3‑Codex in the CLI still returned responses labeled as GPT‑5.2, meaning a quieter, less capable model was being used. OpenAI staff explained this was due to a cyber‑abuse classifier that silently rerouted “risky” usage to a weaker model and initially pointed people to an ID‑based “Trusted Access for Cyber” flow to restore full access. The discovery sparked accusations of deception, billing concerns, and privacy worries. OpenAI later called the broad flagging a bug (~9% of users, ~3 hours), said ID isn’t required, and promised visible routing notices and better feedback tools.
 
----
+Codex Pro users selected GPT-5.3-Codex, but SSE traces identified GPT-5.2 responses, varying by account. OpenAI initially said cyber-abuse detection intentionally reroutes suspected activity to a less-capable model and offered identity verification to restore access, while promising notices and false-positive reporting. It later called the broad flagging a bug, restored access without identification, and a commenter reported 9% were affected for three hours. The discussion accepted safety controls as potentially necessary but rejected silent substitution, citing broken reproducibility, wasted debugging, unclear billing, and distrust among legitimate security researchers.
 
 ### Comment pulse
-- Silent model downgrades are unacceptable → users pay for 5.3 but get 5.2, wasting debugging time and arguably constituting fraud when billed at premium rates.  
-- Security rationale splits opinion → vague “cyber activity” rules and ID checks feel punitive and privacy-invasive — counterpoint: some accept extra friction for high‑risk tooling.  
-- Router abuse worries → dynamic model substitution could be reused to cut costs or enforce policy, normalizing opaque, provider-controlled changes to AI behavior.  
 
----
+- Users demanded either the requested model or an explicit error—counterpoint: OpenAI argued dynamic restriction limits abuse from its most cyber-capable model.
+- Security researchers said exploit analysis resembles malicious activity, so opaque classifiers punish defensive work while determined attackers can evade verification.
+- Account-specific results and earlier fallback reports deepened suspicion; even restored users lacked a durable way to confirm every extension or CLI request.
 
 ### LLM perspective
-- View: Silent routing plus retroactive “bug” stories erodes trust; future model selection must be explicit, observable, and contractually constrained.  
-- Impact: Affects pro users, security researchers, and enterprises building workflows that assume specific models and reproducible behavior.  
-- Watch next: clear router docs, billing guarantees per model, independent audits, and whether other providers quietly introduce similar safety-driven downgrades.
+
+- View: Safety routing may be defensible, but undisclosed model identity violates the product contract and contaminates every evaluation.
+- Impact: Professionals may misdiagnose prompts, lose work, expose identity documents, or cancel subscriptions when quality silently changes.
+- Watch next: Add per-response model disclosure, explicit refusal semantics, billing adjustments, audit history, classifier appeals, and published false-positive metrics.

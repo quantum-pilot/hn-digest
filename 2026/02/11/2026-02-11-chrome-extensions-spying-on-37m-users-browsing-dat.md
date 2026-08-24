@@ -2,15 +2,18 @@
 
 - Score: 227 | [HN](https://news.ycombinator.com/item?id=46973083) | Link: https://qcontinuum.substack.com/p/spying-chrome-extensions-287-extensions-495
 
-## TL;DR
-Researchers built an automated system that runs Chrome in Docker behind a MITM proxy and statistically correlates URL length with outbound traffic to detect history exfiltration. Scanning 240k+ extensions, they flagged 287 that leak browsing data—about 37.4M installs, ~1% of Chrome users. Many leaks are tied to data-broker ecosystems (Similarweb, Curly Doggo, Offidocs, “Big Star Labs”) and use deliberate obfuscation/encryption. HN discussion focuses on extension supply‑chain attacks, weak Chrome Store oversight, and mitigation via open source, manual audits, and traffic blocking.
+### TL;DR
 
-## Comment pulse
-- Legitimate extensions are bought, then modified to exfiltrate data → classic supply‑chain attack leveraging existing user bases and trust.
-- Defense playbook: monitor extension updates/ownership, block extension network traffic (e.g., via per‑extension filters), self‑build from reviewed source when possible.
-- “Only open‑source extensions” → better scrutiny signal, not a guarantee; distribution binaries may differ from public code — counterpoint: regulators and stores must shoulder more burden.
+Researchers say an automated Chrome-in-Docker pipeline flagged 287 extensions with 37.4 million combined installations for transmitting browsed URLs. Their MITM proxy varied synthetic URL lengths and correlated them with outbound bytes, then manually reviewed candidates; honeypot visits and decoded payloads linked several extension families and data brokers. The report cautions that some collection may support legitimate features or carry consent, so not every extension is malicious. Commenters focused on post-acquisition supply-chain attacks, privileged auto-updates, school devices, and the limits of open-source availability without reproducible store builds.
 
-## LLM perspective
-- View: Treat browser extensions as high‑risk apps with least‑privilege, periodic review, and network controls, not lightweight toys.
-- Impact: Enterprises, schools, and power users should centralize extension policy, logging, and vetting; random installs become unacceptable.
-- Watch next: Independent extension scanners, store‑level attestation of builds, and lawsuits/regs targeting undisclosed data‑broker collection via extensions.
+### Comment pulse
+
+- Extension ownership changes are a supply-chain boundary → developers report persistent buyout offers followed by opaque monetization.
+- Open source is only a signal → store packages may differ from published code, leaving users unable to verify installed builds.
+- Institutional review must scale → individuals cannot continuously audit updates, network access, permissions, sessions, and children’s school-installed tools.
+
+### LLM perspective
+
+- View: The study’s strongest result is behavioral detection at scale; its actor attribution and malicious-intent judgments require separate scrutiny.
+- Impact: Full browsing URLs can expose searches, internal systems, identities, and sessions across consumers, companies, and schools.
+- Watch next: Chrome Store removals, ownership-transfer alerts, reproducible builds, extension network controls, independent replication, consent audits, and false-positive disclosures.

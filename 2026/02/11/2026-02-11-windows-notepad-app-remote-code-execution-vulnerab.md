@@ -2,18 +2,18 @@
 
 - Score: 456 | [HN](https://news.ycombinator.com/item?id=46971516) | Link: https://www.cve.org/CVERecord?id=CVE-2026-20841
 
-## TL;DR
+### TL;DR
 
-Microsoft’s modern Windows Notepad has a high‑severity remote code execution flaw: a malicious Markdown file can contain links that, when clicked, invoke “unverified” URL/protocol handlers and end up executing remote code. HN sees this as a symptom of feature creep: a once‑minimal text viewer is now a network‑aware attack surface with weak sandboxing. Others counter that any app rendering clickable links faces similar issues. Users debate Windows’ strategic role at Microsoft and increasingly fall back to old binaries or alternative editors.
+CVE-2026-20841 is a high-severity command-injection flaw in Windows Notepad versions from 11.0.0 through 11.2512.25.x. A remote attacker can supply a crafted Markdown file, but exploitation is local and requires the user to click its malicious link; Notepad can then launch an unverified protocol that retrieves and executes remote content. The CVSS 3.1 score is 7.8, with no prior privileges and high confidentiality, integrity, and availability impact. Commenters treated the bug as evidence of feature bloat, though others clarified that clickable links are not inherently dangerous—the missing protocol validation is.
 
-## Comment pulse
+### Comment pulse
 
-- Discussion centers on “unverified protocols” in Notepad’s Markdown links → unclear which schemes are allowed and how this differs from browsers or mail clients.  
-- Feature creep turned Notepad from a dumb local viewer into a network‑aware, AI‑adjacent app → vastly larger attack surface and least‑privilege failure.  
-- Power users bypass the new app via Win9x/Win7 Notepad, disabling execution aliases, or using Vim/gVim → sacrificing features to regain simplicity and predictability.  
+- Critics contrasted modern link and AI features with the old editor’s narrow purpose—counterpoint: older versions also had size, encoding, and correctness limits.
+- Readers asked whether every Markdown renderer shares the risk; the distinguishing failure is launching unverified protocols, not merely rendering clickable text.
+- Some reverted to legacy Notepad or alternative editors, prioritizing smaller attack surfaces over integration and convenience.
 
-## LLM perspective
+### LLM perspective
 
-- View: This CVE shows trivial apps need clear threat models and whitelisted URL schemes, especially when adding Markdown or rich‑preview capabilities.  
-- Impact: Developers of viewers, note‑taking tools, IDEs, and documentation renderers must audit link‑handling and protocol launch behavior across Windows’ handler ecosystem.  
-- Watch next: Watch for OS‑level safeguards: better protocol registration policies, per‑app URL‑handler allowlists, and adoption of sandboxing for simple desktop utilities.
+- View: User interaction lowers immediacy, but a trusted bundled viewer should never convert document links directly into code execution.
+- Impact: Opening untrusted Markdown remains safe until clicking; affected users should update before treating embedded links as ordinary navigation.
+- Watch next: Confirm patch deployment, protocol allowlisting, Mark-of-the-Web behavior, enterprise exposure, exploit activity, and whether adjacent apps share handlers.

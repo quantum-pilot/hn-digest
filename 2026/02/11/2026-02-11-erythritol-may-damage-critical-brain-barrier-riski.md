@@ -3,18 +3,17 @@
 - Score: 26 | [HN](https://news.ycombinator.com/item?id=46969083) | Link: https://www.sciencealert.com/common-sweetener-may-damage-critical-brain-barrier-risking-stroke
 
 ### TL;DR
-Erythritol, a widely used “natural” sugar alcohol, may impair cells of the blood–brain barrier at concentrations seen after an erythritol-sweetened drink. In vitro, it drives oxidative stress, reduces vasodilator nitric oxide, raises vasoconstrictor endothelin‑1, and blocks release of the clot-dissolving enzyme tPA—mechanisms that could favor clots and ischaemic stroke. These mechanisms align with observational studies linking higher blood erythritol to roughly doubled cardiovascular events. Evidence is still mostly lab and epidemiological, but some clinicians now urge regulators to re-evaluate erythritol’s “safe” status.
 
----
+An isolated-cell study exposed blood-brain-barrier cells to erythritol levels typical after one sweetened soft drink. Researchers observed oxidative stress, reduced antioxidant defenses, lower vessel-relaxing nitric oxide, higher constricting endothelin-1, cell death, and impaired release of clot-dissolving tPA. The article links these mechanisms to observational studies associating high blood erythritol with roughly twice the rate of major cardiac events. However, dish-grown cells are not intact human vessels, so the findings do not establish that consumption damages people or causes stroke. Commenters disputed claims of consensus and asked whether barrier effects reverse.
 
 ### Comment pulse
-- Damage is to the blood–brain barrier, not neurons → raises vulnerability to toxins/drugs rather than direct brain injury.
-- Erythritol harms vasculature and should lose GRAS status → Cleveland Clinic urges re-evaluation — counterpoint: regulators haven't declared it harmful; “consensus” overstated.
-- Heavy past consumers worry about stroke risk and ask if barrier recovers after stopping; commenters lack clear evidence on reversibility or timelines.
 
----
+- Barrier injury is not direct brain injury → commenters distinguished increased vulnerability from demonstrated damage to brain tissue.
+- Evidence strength divided readers → one asserted settled harm — counterpoint: another said calls for GRAS reevaluation are not consensus.
+- Recovery is unanswered → the supplied article gives no evidence about reversibility after stopping erythritol.
 
 ### LLM perspective
-- View: Until robust human trials exist, treat high-dose erythritol like any new drug exposure rather than a neutral food ingredient.  
-- Impact: Food makers, diabetics, and keto communities may need reformulations or clearer labeling if GRAS status tightens.  
-- Watch next: Prospective cohort studies, BBB imaging or biomarkers in users, and comparisons versus other sugar alcohols like xylitol, sorbitol.
+
+- View: The study offers a plausible cellular mechanism, but its design cannot determine human dose-response, clinical risk, or causality.
+- Impact: Consumers and regulators face uncertainty around a common sugar substitute already approved as safe and prevalent in keto products.
+- Watch next: Vessel-on-chip studies, animal and human replication, controlled intake data, confounding analysis, dose thresholds, barrier recovery, and regulatory review.

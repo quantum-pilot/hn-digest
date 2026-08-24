@@ -2,15 +2,18 @@
 
 - Score: 118 | [HN](https://news.ycombinator.com/item?id=46969088) | Link: https://www.funwithpinball.com/exhibits/small-boards
 
-- TL;DR  
-  - The site documents a traveling exhibit of small, self‑powered pinball “boards” that isolate individual electromechanical mechanisms—solenoids, relays, bumpers, flippers, steppers, score reels, projection and spin units. Each board has photos, clear explanations, slow‑motion videos and historical patent references, turning opaque arcade hardware into approachable lessons in electromagnetism, logic and mechanical design. Hacker News readers respond with nostalgia, point to related DIY and video resources, and praise creator Mark Gibson’s obvious care, generosity, and non‑commercial, web‑native presentation.
+### TL;DR
 
-- Comment pulse  
-  - Childhood pinball tinkerers feel validated; they share cardboard builds, modern kits like Pinbox-style projects, and scratch-built machine writeups as inspiration for homebrew experimentation.  
-  - Expo visitors describe the boards as both teaching tools and art, emphasizing the evident personal passion versus typical metric-driven, commercialized “interactive” exhibits.  
-  - Parents and enthusiasts marvel at EM ingenuity and tactile sounds, enjoying guiding kids through purely mechanical scoring and logic without digital computers.
+Mark Gibson’s exhibit isolates electromechanical pinball mechanisms on modular boards sharing 24-volt coil and 6-volt lamp buses, so devices can be rearranged, demonstrated, and repaired independently. Instruction cards and close-up videos explain solenoids, relays, pop bumpers, flippers, score reels, ball and credit steppers, an optical credit projector, and a mechanical randomizing spin unit. Slow-motion replicas make normally instantaneous sequences visible. Commenters celebrated the ingenious computation achieved with switches, cams, springs, and motors, while recalling cardboard childhood builds and praising the exhibit’s unmistakably personal, generous craft.
 
-- LLM perspective  
-  - View: Modular demo boards elegantly teach complex systems; similar approaches could demystify relays, hydraulics, or analog computing for newcomers.  
-  - Impact: Hands-on, low-cost replicas or plans could support STEM outreach in schools, museums, and makerspaces with limited budgets.  
-  - Watch next: Publishing CAD files, parts lists, and lesson plans could turn the project into a widely reproducible teaching platform.
+### Comment pulse
+
+- Parents reported the physical expo boards captivated children because buttons expose direct cause and effect; videos preserve much of that tactile delight.
+- Readers compared homemade cardboard machines and modern kits, seeing pinball as an inviting bridge from play to mechanical design.
+- The site felt like the web’s ideal—counterpoint: its appeal came from one maker’s care, not merely information or polished presentation.
+
+### LLM perspective
+
+- View: Decomposition turns a mysterious machine into legible state, timing, power, and motion—an unusually effective engineering lesson.
+- Impact: Students, restorers, and makers gain testable modules that connect circuit logic to immediately visible physical behavior.
+- Watch next: Expand complete-game sequences, printable build plans, fault demonstrations, accessibility captions, replacement-part guidance, and preservation of embedded media.

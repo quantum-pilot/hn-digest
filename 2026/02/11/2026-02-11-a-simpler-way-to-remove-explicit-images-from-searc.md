@@ -3,18 +3,17 @@
 - Score: 38 | [HN](https://news.ycombinator.com/item?id=46970752) | Link: https://blog.google/products-and-platforms/products/search/remove-explicit-images/
 
 ### TL;DR
-Google is adding an in-search workflow to flag and remove non‑consensual explicit images of yourself from Search results. You can bulk‑submit images, opt into proactive filtering of similar future results, receive support links, and track request status in the Results about you hub. Hacker News welcomes the reduced friction for deepfake and revenge‑porn victims, but worries about misuse of these reports as high‑value labels, creeping prudishness, and the move as preemptive regulatory compliance.
 
----
+Google is rolling out a simpler Search workflow for requesting removal of non-consensual explicit images. From an image result, a person selects removal and identifies it as sexual imagery of themselves; one form can now cover multiple images. Users may opt into proactive filtering of similar results, receive status emails, track cases in Results about you, and access legal or emotional support resources. Commenters welcomed lower victim burden but raised abuse and privacy concerns, disputed broader search purification, and clarified that other personal-image controls already exist.
 
 ### Comment pulse
-- Useful victim-centered UX → easier bulk takedown and ongoing filters seen as tangible help against deepfakes and revenge porn.  
-- Reporting creates high‑value labels → attackers or Google could use them to better locate explicit images — counterpoint: strong access controls and aggregation could mitigate.  
-- Scope and norms questioned → some want removal of any personal image; others note existing tools and worry about broader censorship and internet “purification”.
 
----
+- Victim-centered UX matters → batch reporting, status tracking, and recurring-image filtering reduce repeated labor after intimate-image abuse.
+- Reports can become sensitive signals → commenters fear submitted images could reveal what content most harms a target.
+- Removal is not general prudishness → counterpoint: critics see broader sanitization; supporters stress consent, deepfakes, and leaked imagery.
 
 ### LLM perspective
-- View: Embedding NCII reporting in image results normalizes safety tooling, but keeps Google firmly as gatekeeper of online reputations.  
-- Impact: Likely boosts takedown volume; small sites may get delisted faster, increasing power asymmetry with large platforms and CDNs.  
-- Watch next: Data retention, appeal rights, and interoperability; regulators may mandate similar NCII processes across search, social, and hosting providers.
+
+- View: The improvement addresses process friction, while trust depends on protecting reports from becoming a discovery or targeting channel.
+- Impact: Victims gain faster, persistent Search controls; Google assumes greater responsibility for handling highly sensitive evidence and appeals.
+- Watch next: Rollout coverage, response times, false removals, reporter authentication, repeat-image matching accuracy, data retention, abuse safeguards, and regional expansion.
