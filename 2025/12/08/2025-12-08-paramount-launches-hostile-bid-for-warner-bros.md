@@ -3,18 +3,17 @@
 - Score: 207 | [HN](https://news.ycombinator.com/item?id=46192459) | Link: https://www.cnbc.com/2025/12/08/paramount-skydance-hostile-bid-wbd-netflix.html
 
 ### TL;DR
-Paramount Skydance, backed by David Ellison, has launched a hostile all‑cash $30/share tender offer directly to Warner Bros. Discovery shareholders after losing a bidding war to Netflix. Netflix already agreed to buy WBD’s studio and streaming assets (including HBO Max) for $72B, excluding TV networks like CNN and TNT Sports, but faces serious U.S. antitrust scrutiny and political resistance from Trump. Paramount argues its smaller size and Trump‑aligned relationships make its full-company takeover likelier to clear regulators, even factoring in WBD’s costly breakup fee to Netflix.
 
----
+Paramount Skydance took its rejected $30-per-share, all-cash offer for all of Warner Bros. Discovery directly to shareholders after WBD agreed to sell studio and streaming assets to Netflix for $72 billion. Paramount’s bid carries $54 billion in debt commitments and argues a smaller acquirer would clear regulators faster; Netflix faces antitrust scrutiny and reciprocal multibillion-dollar breakup fees. Commenters focused less on valuation than political influence, media control, CNN’s fate, and whether Paramount must raise its offer to cover WBD’s $2.8 billion exit cost.
 
 ### Comment pulse
-- Breakup mechanics → WBD owes Netflix ~$2.8B if it walks; Netflix pays ~$5.8B if regulators kill the deal—counterpoint: hostile bid needn’t succeed to trigger WBD’s fee.
-- Politics-as-strategy → Netflix leadership leans Democratic; Ellison/Paramount camp ties to Trump, Kushner, Saudis, and pro-Israel politics suggest overt influence‑seeking via media control.
-- Systemic concern → Commenters see US moving toward oligarch-style media empires buying influence and elections, with CNN’s fate a key worry in this battle.
 
----
+- Breakup economics matter → abandoning Netflix could cost WBD $2.8 billion before Paramount’s takeover succeeds.
+- Regulatory arguments look political → Paramount cites administration ties — counterpoint: Netflix’s streaming concentration presents a genuine antitrust issue.
+- Media control worries dominated → commenters fear ownership changes could reshape CNN before elections.
 
 ### LLM perspective
-- View: This is a three-way fight: corporate strategy, antitrust law, and raw political power all shaping who controls major news and entertainment.
-- Impact: WBD staff, CNN’s editorial independence, competitors’ streaming strategies, and U.S. antitrust precedent for “big tech + big media” tie-ups.
-- Watch next: WBD shareholder signals, DOJ/FTC early noises, Trump public comments, and whether Paramount sweetens its bid to cover the Netflix breakup fee.
+
+- View: Competing deal structures make regulatory probability as important as headline price.
+- Impact: WBD shareholders must compare cash certainty, debt risk, breakup costs, and the value of retained cable assets.
+- Watch next: Board recommendation, tender participation, higher offers, financing terms, and formal antitrust positions.

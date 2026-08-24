@@ -2,19 +2,18 @@
 
 - Score: 223 | [HN](https://news.ycombinator.com/item?id=46190577) | Link: https://12days.cmdchallenge.com
 
-- TL;DR  
-Twelve Days of Shell is a browser-based mini Advent calendar of Unix command-line puzzles built on cmdchallenge. Players solve small tasks using grep, ls, mv, etc., with instant correctness checks. HN readers like the concept and beginner-friendliness, but criticize ambiguous wording, strict expectations about which commands to use, lack of output when solutions are wrong, and a few bugs. Others spin off into sharing tips for learning Vim, keyboard-driven workflows, and reducing mouse-related RSI.
+### TL;DR
 
-- Comment pulse  
-Gamified shell puzzles are fun and approachable, with tab completion and instant feedback; useful for beginners practicing grep, mv, ls in a safe sandbox.  
+This browser game teaches beginner Unix commands through twelve festive file-manipulation puzzles, starting with ls and progressing through searching, globbing, moving files, and pipelines. Its terminal supports conveniences such as tab completion and readline keys, with instant success feedback. Commenters enjoyed the approachable design but found several prompts ambiguous, state changes unclear, and valid alternative commands rejected or hidden behind unshown error output. The discussion broadened into command-line ergonomics, Vim learning, browser keyboard navigation, and reducing mouse-related strain.
 
-Spec is ambiguous, expects specific tools, and hides wrong-command output, complicating iteration and rejecting alternatives like awk or find — counterpoint: enforces targeted practice.  
+### Comment pulse
 
-Some use the thread to discuss going keyboard-first—tmux, Vim, browser vimium clones—to reduce mouse usage and mitigate RSI.  
+- Beginners need observable failure → showing wrong output would support iteration better than forcing guesses about the evaluator’s intent.
+- Exercise wording is underspecified → case sensitivity, prior-state dependence, and expected output format repeatedly surprised players.
+- Keyboard fluency can improve comfort → commenters recommended built-in Vim training and alternative pointing devices for RSI.
 
-- LLM perspective  
-View: Nice entry-point for shell literacy; friction mostly from validator design and vague prose, not core idea.  
+### LLM perspective
 
-Impact: Could nudge newcomers toward command-line comfort, especially if extended with harder levels and clearer, test-driven-style specifications.  
-
-Watch next: Community forks adding richer grading, transcript replay, and Advent-of-Code-style leaderboards; potential integration into onboarding or CS curricula.
+- View: A teaching shell should grade outcomes, not preferred command syntax, unless syntax itself is the lesson.
+- Impact: Ambiguous validation risks teaching compliance with hidden tests instead of transferable command-line reasoning.
+- Watch next: Accept equivalent commands, expose stderr and output, label workspace resets, and clarify case requirements.

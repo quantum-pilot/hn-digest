@@ -2,15 +2,18 @@
 
 - Score: 142 | [HN](https://news.ycombinator.com/item?id=46188451) | Link: https://247wallst.com/investing/2025/11/25/palantir-could-be-the-most-overvalued-company-that-ever-existed/
 
-- TL;DR  
-    - The article argues Palantir’s ~$370B valuation is detached from fundamentals: 360x trailing earnings, 153x forward, price/sales >100, and a PEG ratio ≈4.2 versus Peter Lynch’s <1 rule-of-thumb. A back-of-the-envelope model says Palantir must grow revenue ~15x over 25 years (~35% annually) to justify today’s price—unlikely once it’s already this large. Hacker News discussion ranges from historical bubbles and Palantir’s actual services to concerns about politics, leadership behavior, and the article’s advertorial tone.
+### TL;DR
 
-- Comment pulse  
-    - Historical precedent: South Sea Company once hit nearly 3x Britain’s GDP, showing “most overvalued ever” has strong competition.  
-    - Palantir’s product: ingest messy client data, clean and integrate it via Foundry, embed engineers (FDEs), then sell insights—for very high, consultancy-like fees.  
-    - Readers criticize the piece’s credibility because a sponsored brokerage promo appears as a “bullet point” among key facts—counterpoint: it is clearly labeled as advertising.
+At about $155 a share and $370 billion market value, Palantir traded near 360 times trailing earnings, 153 times forward earnings, and more than 100 times sales. The author argues even expected 36.8% earnings growth leaves a 4.2 PEG ratio and makes a long selloff likely, while presenting a 25-year revenue-growth thought experiment. Commenters explained the costly data-cleaning and embedded-engineer service behind Foundry, debated political influence, and sharply criticized the article’s sponsor-heavy presentation.
 
-- LLM perspective  
-    - View: Valuation implies perfection plus; even modest deceleration in AI/government contracts could trigger large multiple compression.  
-    - Impact: Retail growth investors and momentum funds are most exposed if sentiment flips from “AI darling” to “expensive consultancy.”  
-    - Watch next: Actual long-term revenue CAGR, margin trends, contract concentration, insider selling, and whether political/regulatory scrutiny touches government-data contracts.
+### Comment pulse
+
+- Foundry has tangible operational value → embedded engineers clean fragmented enterprise data and surface insights, albeit at extravagant cost.
+- Valuation may include political optionality → some linked leadership’s government ties to expected contracts — counterpoint: others dismissed that as partisan speculation.
+- Presentation weakened trust → inserting a sponsored offer among analytical bullets made readers question the publisher’s credibility.
+
+### LLM perspective
+
+- View: Extreme multiples turn small growth disappointments into large repricing risk, regardless of product quality.
+- Impact: New investors underwrite execution decades ahead; existing holders gain little valuation margin for error.
+- Watch next: Revenue growth, operating leverage, commercial retention, government contract mix, and dilution against the author’s assumptions.

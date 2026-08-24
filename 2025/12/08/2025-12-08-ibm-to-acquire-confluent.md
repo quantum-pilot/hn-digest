@@ -3,18 +3,17 @@
 - Score: 318 | [HN](https://news.ycombinator.com/item?id=46192130) | Link: https://www.confluent.io/blog/ibm-to-acquire-confluent/
 
 ### TL;DR
-IBM is acquiring Confluent, the commercial Apache Kafka/data-streaming company, in an all‑cash deal at $31/share, expected to close by mid‑2026. Confluent will remain a distinct brand inside IBM, positioned as the “smart data platform” underpinning real‑time, event-driven architectures and enterprise AI. The CEO’s note to staff frames this as amplification of Confluent’s mission and cites IBM’s Red Hat/HashiCorp open‑source history. Hacker News is skeptical: IBM is seen as a consulting-first bureaucracy that often suffocates acquired products, pushing users toward alternatives.
 
----
+Confluent signed an all-cash agreement for IBM to acquire it at $31 per share, subject to approvals and conditions, with closing expected by mid-2026. Confluent says it will remain a distinct business and brand after closing, pairing its Kafka-derived streaming platform with IBM’s hybrid-enterprise reach and AI positioning; operations and employee terms remain unchanged meanwhile. Commenters are overwhelmingly skeptical, citing IBM bureaucracy, talent loss, enterprise-first product shifts, open-source concerns, and prior acquisition experiences, while some see event streaming as relevant AI infrastructure.
 
 ### Comment pulse
-- IBM optimizes for consulting, not products → Revenue comes from complex, bespoke services; acquisitions mainly feed sales pipelines, and innovation slows once integration bureaucracy arrives.  
-- Red Hat vs HashiCorp outcomes → Red Hat kept relative autonomy; HashiCorp pivoted hard to high-priced, enterprise, non‑OSS models, causing customer migrations to OSS forks and Pulumi.  
-- AI pitch vs reality → Many see “AI platform” language as buzzword dressing; technically, Kafka-style streaming is useful AI data plumbing, but users now evaluate Redpanda and similar options.
 
----
+- IBM’s acquisition record alarms practitioners → they expect bureaucracy and talent loss — counterpoint: one acquired team enjoyed several years of stronger sales.
+- Open-source outcomes look uneven → Red Hat retained more autonomy, while former HashiCorp staff describe enterprise prioritization and departures.
+- AI framing divides readers → some dismiss buzzwords; others argue event-driven streaming supplies timely enterprise data for automated decisions.
 
 ### LLM perspective
-- View: This cements IBM as a one‑stop “data + infra + consulting” shop, but raises real risk of Confluent innovation drag.  
-- Impact: Enterprise Kafka/streaming buyers face more vendor lock‑in pressure; OSS and Kafka‑compatible competitors gain differentiation room.  
-- Watch next: Confluent roadmap pace, license/price changes, and whether IBM repeats HashiCorp’s enterprise tilt or Red Hat’s lighter‑touch integration.
+
+- View: Strategic fit is plausible, but integration quality will decide whether Confluent’s technical edge survives.
+- Impact: Customers must reassess roadmap, pricing, support, and Kafka-compatible alternatives before closing.
+- Watch next: Regulatory approval, retention, brand autonomy, open-source commitments, pricing, and product integration milestones.

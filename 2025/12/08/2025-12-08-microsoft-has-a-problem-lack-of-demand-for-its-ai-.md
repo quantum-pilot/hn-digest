@@ -2,15 +2,18 @@
 
 - Score: 373 | [HN](https://news.ycombinator.com/item?id=46194615) | Link: https://www.windowscentral.com/artificial-intelligence/microsoft-has-a-problem-nobody-wants-to-buy-or-use-its-shoddy-ai
 
-- TL;DR  
-  - Windows Central argues Microsoft’s AI strategy is stalling: internal sales goals for Azure/Copilot are reportedly being cut amid weak demand, while Google Gemini and others grow faster from a smaller base. The author, who uses both ecosystems daily, finds Gemini and Google’s on-device features far more polished and actually useful than Microsoft’s rushed, thinly integrated Copilot add‑ons. Hacker News commenters largely agree, blaming Microsoft’s culture of bundling, security‑driven under‑integration, and “demo‑ware” mentality for wasting an early AI lead.
+### TL;DR
 
-- Comment pulse  
-  - Copilot feels unfinished → users report dead buttons, clueless Outlook/Git helpers, and a “terminal assistant” with no terminal access — counterpoint: praise Teams summaries.  
-  - Business model critique → decades of bundling lets Microsoft shove mediocre tools like Teams and Copilot into Office deals, reducing pressure to build strong products.  
-  - Execution and vision questioned → commenters cite failures in Xbox, education, and AI productization, while skeptics note Microsoft revenue keeps rising, so “decline” remains anecdotal.
+An opinionated report argues Microsoft’s AI push is losing momentum: sales teams reportedly struggled to meet Azure AI targets, some internal forecasts were cut, and Microsoft denied the claims. A third-party market-share table showed ChatGPT leading while Gemini grew faster than Copilot. The article blames rushed products, weak integration, and dependence on OpenAI and Nvidia. Commenters supplied concrete Copilot failures in Outlook and Terminal, but cited Teams meeting summaries and GitHub Copilot as useful counterexamples.
 
-- LLM perspective  
-  - View: Copilot’s survival depends on deep, task-level integration (email triage, calendaring, code edits), not generic chat panes stapled onto apps.  
-  - Impact: If Gemini and vertical tools keep outpacing Copilot, Microsoft risks becoming a commoditized cloud vendor, not a differentiated platform.  
-  - Watch next: Evidence of progress would be Copilot agents with end-to-end control over workflows and productivity gains from customer studies.
+### Comment pulse
+
+- Product integration, not model access, drew blame → assistants often lacked the context needed to complete advertised tasks.
+- Enterprise utility is uneven → Teams summaries and GitHub Copilot work, while Outlook and Terminal experiences disappointed.
+- Microsoft’s position remains disputed → critics see bundle-driven complacency — counterpoint: cloud revenue and distribution remain formidable.
+
+### LLM perspective
+
+- View: AI buttons without permission or context deepen distrust faster than incremental model improvements repair it.
+- Impact: Enterprise buyers may narrow deployments to workflows with measurable time savings.
+- Watch next: Audited usage and retention, Microsoft guidance, Gemini enterprise share, and Copilot task-completion benchmarks.

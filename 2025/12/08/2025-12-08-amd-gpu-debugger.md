@@ -3,19 +3,16 @@
 - Score: 200 | [HN](https://news.ycombinator.com/item?id=46193931) | Link: https://thegeeko.me/blog/amd-gpu-debugging/
 
 ### TL;DR
-The author builds a low-level, ROCm-independent AMD GPU debugger by talking directly to `/dev/dri`, using libdrm to allocate GPU-visible buffers, then wiring a custom trap handler via privileged TBA/TMA registers exposed through amdgpu’s debugfs (using UMR’s register database). The trap shader saves per-wave register state to scratch memory, spins until the CPU inspects/modifies it, then restores state and resumes. SPIR-V is compiled through RADV’s ACO in `null_winsys` mode. Planned features include stepping, breakpoints, watchpoints, and eventually full Vulkan integration.  
-*Content unavailable; summarizing from provided excerpt and comments.*
 
----
+An experimental AMD RDNA3 GPU debugger demonstrates CPU-style pause, inspection, modification, and single-instruction stepping on an RX 7900 XTX under Linux. It bypasses Vulkan through DRM command submission, uses privileged trap registers, and runs an ACO-compiled shader with a trap handler sharing state with the CPU. The proof of concept assumes one wave and targets gfx1100; breakpoints, watchpoints, robust multi-wave handling, debug-name propagation, and normal RADV integration remain unfinished. Discussion situates it beside rocGDB, UMR, Nsight, RenderDoc, and Metal tooling.
 
 ### Comment pulse
-- Metal/Xcode offers best-in-class GPU debugging and logging, especially for learning and small projects → integrated, polished tools—counterpoint: crashes, profiling limits, and Apple-only lock-in.
-- NVIDIA users point to cuda-gdb, Nsight, nsys/nvtx, and RenderDoc → relatively mature debugging and profiling across graphics and compute workflows.
-- AMD already ships tools (rocgdb via GDB, UMR, Radeon GPU Detective, broader Radeon Developer Tool Suite) → this project instead explores a fully custom, open, low-level path.
 
----
+- Existing tools cover pieces → rocGDB, UMR, cuda-gdb, Nsight, and RenderDoc exist, but support and workflows remain fragmented.
+- Metal’s capture and logging impressed users → counterpoint: vendor lock-in, hangs, and compute-debugging gaps still undermine it.
 
 ### LLM perspective
-- View: Using trap shaders plus debugfs to implement a debugger is a reusable pattern for other GPU families and vendors.
-- Impact: Helps Linux/AMD developers move closer to CPU-like debugging workflows, especially for complex compute and graphics shaders.
-- Watch next: Better NIR/ACO debug-info plumbing, Vulkan driver integration, and generalized watchpoint/breakpoint UIs on top of this low-level core.
+
+- View: Direct trap control proves feasibility, while unfinished concurrency and safety dominate readiness.
+- Impact: AMD shader developers gain a blueprint for deeper inspection outside ROCm.
+- Watch next: Multi-wave state isolation, breakpoints, watchpoints, symbols, and RADV integration.
