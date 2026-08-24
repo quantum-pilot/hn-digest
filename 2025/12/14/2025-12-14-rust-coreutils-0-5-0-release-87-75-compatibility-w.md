@@ -3,14 +3,17 @@
 - Score: 90 | [HN](https://news.ycombinator.com/item?id=46264329) | Link: https://github.com/uutils/coreutils/releases/tag/0.5.0
 
 ### TL;DR
-Rust Coreutils 0.5.0 advances its goal of being a drop-in replacement for GNU coreutils: 566 GNU tests now pass, yielding 87.75% test-suite compatibility, plus Unicode-aware text handling, checksum and install improvements, and broader CI coverage across OpenBSD, Redox and Cygwin. HN discussion focuses less on features and more on risk: whether ~88% compatibility is safe for distros to ship by default, the GPL→MIT license shift, and how much memory safety helps for these tools.
+
+Version 0.5.0 of the Rust implementation passes 566 of 645 GNU 9.9 tests, lifting measured compatibility from 85.80% to 87.75%; failures dropped to 55 and skips to 23 despite 11 added tests. Changes cover Unicode folding, checksums, install-mode parsing, large integers, TTY testing, and OpenBSD, Redox, and Cygwin support. HN debated whether this incomplete suite justifies distribution adoption, whether memory safety outweighs behavioral gaps, and the consequences of replacing GPL utilities with MIT-licensed ones. Shared tests have also exposed GNU bugs.
 
 ### Comment pulse
-- Compatibility figure seems misleading; untested behavior and 12% known failures could still break scripts—counterpoint: shared tests have also uncovered real bugs in GNU coreutils.  
-- Some fear replacing GPL GNU tools with MIT Rust ones lets vendors delay source for security fixes, weakening copyleft—counterpoint: others see GPL itself as undesirable.  
-- Critics call a Rust rewrite needless for same-user CLI tools and prefer C hardening or Fil-C; supporters value memory safety, new tests and modernization.  
+
+- Critics said the metric understates incompatibility and Ubuntu moved early; defenders noted many failing edge cases may rarely affect users.
+- Licensing split sharply: GPL advocates feared proprietary security fixes, while permissive-license supporters treated MIT as an independent advantage.
+- Memory-safety value for local tools was disputed; supporters contrasted possible C code execution with safer Rust failures.
 
 ### LLM perspective
-- View: Rust Coreutils is gradually becoming a practical drop-in, but distros should avoid defaulting to it before compatibility is effectively 100%.  
-- Impact: If successful, it lowers long-term maintenance risk for ubiquitous tools and provides portable, memory-safe primitives for Rust-heavy userlands.  
-- Watch next: track regression rates, performance versus GNU (and Fil-C builds), and how Ubuntu and others expose opt-out/rollback for conservative users.
+
+- View: Compatibility is not one percentage; deployment risk depends on which edge cases remain and where distributions expose them.
+- Impact: Adopters gain cross-platform Rust tools while accepting behavioral, licensing, and operational differences from GNU.
+- Watch next: Remaining failures, workload breakage, performance, Ubuntu friction, shared-test discoveries, and convergence speed.

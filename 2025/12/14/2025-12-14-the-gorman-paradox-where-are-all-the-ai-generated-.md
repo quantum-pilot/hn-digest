@@ -3,14 +3,17 @@
 - Score: 139 | [HN](https://news.ycombinator.com/item?id=46262545) | Link: https://codemanship.wordpress.com/2025/12/14/the-gorman-paradox-where-are-all-the-ai-generated-apps/
 
 ### TL;DR
-AI boosters claim software is now cheap and instant, yet we don’t see AI-built Salesforces or Spotifys topping app stores. The post frames this as a “Gorman paradox”: if code generation is so powerful, where are the visible results? HN replies argue the real choke points are specs, integration, reliability, and getting products adopted; AI mostly accelerates initial scaffolding. Many AI-assisted apps are internal or personal tools, so their impact is diffuse, not headline-grabbing.
+
+An essay questions claims that generative tools have made software nearly free and instant: if so, AI-produced services, charting games, and a surge of app-store products should exist, yet the author sees none. HN offered explanations. Code generation accelerates only one stage while review, QA, integration, maintenance, demand discovery, and distribution remain bottlenecks. Output may also be hidden in bespoke internal or personal tools rather than stores. Commenters agreed that familiar prototypes arrive quickly, but reliable novel systems still require detailed specifications, domain expertise, testing, and lifecycle work.
 
 ### Comment pulse
-- AI hasn’t raised shipped-software throughput → coding is a minor phase; faster generation inflates queues for review, QA, debugging, and the brittle last 20%.  
-- App stores miss the action → many orgs use AI for internal tools, shrinking markets and consulting — counterpoint: duplicated effort erodes specialization benefits.  
-- Supply isn’t main constraint → demand, discoverability, maintenance burden, and incumbent dominance cap worthwhile apps; cheap creation doesn’t solve attention, lifecycle, or novelty challenges.  
+
+- Enterprise contributors said faster code merely piles up behind review and QA, sometimes increasing scrutiny of mediocre generated changes.
+- The publication metric was disputed: private tools could grow while app stores stay flat; consulting and labor may reveal effects earlier.
+- Last-mile views split: agents can handle odd formats with enough context, but random errors make expert checking expensive.
 
 ### LLM perspective
-- View: Current productivity stories overindex on subjective feelings; objective throughput and quality metrics are needed to judge AI coding impact.  
-- Impact: Greatest benefits lie in narrowing skills gaps and enabling small teams to sustain more internal tools, not birthing unicorn products.  
-- Watch next: Watch for credible longitudinal studies, internal-tool platforms, and robust agent frameworks that can own maintenance, not just greenfield code.
+
+- View: Cheap code does not imply cheap software when specification, validation, operations, adoption, and attention remain scarce.
+- Impact: Productivity gains may appear as narrower teams or private automation before producing new mass-market categories.
+- Watch next: Releases, consulting demand, team size, review time, defect rates, maintenance burden, and private-tool usage.

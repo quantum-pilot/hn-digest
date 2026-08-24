@@ -3,18 +3,17 @@
 - Score: 125 | [HN](https://news.ycombinator.com/item?id=46264101) | Link: https://www.macrumors.com/2025/12/12/ios-26-2-security-vulnerabilities/
 
 ### TL;DR
-Apple’s iOS 26.2, iPadOS 26.2, and macOS Tahoe 26.2 ship over 20 security fixes, including two WebKit zero-days already used in “extremely sophisticated” targeted attacks on pre‑iOS‑26 devices. Other bugs include payment token exposure via App Store, image-driven memory corruption, viewing Hidden Album photos without auth, and password loss during FaceTime remote control. Apple urges rapid updating, but discussion centers on Apple seemingly withholding equivalent patches for older OS lines and nudging users into heavier, slower “Liquid Glass” releases.
 
----
+Apple released coordinated 26.2 updates for iPhone, iPad, and Mac covering more than 20 flaws. Two WebKit bugs—arbitrary code execution and memory corruption from malicious web content—may have supported highly sophisticated attacks against specific people on pre-26 iOS; Apple improved memory management and validation. Other fixes protect payment tokens, image processing, Hidden Album authentication, and passwords during FaceTime remote control. Apple urged prompt installation after disclosure. HN discussion instead focused on distrust of major upgrades, older-device performance, and difficulty obtaining the 18.7.3 security branch.
 
 ### Comment pulse
-- Apple is allegedly steering users into 26.x: iOS 18.7.3 is hidden on many iPhones and macOS Tahoe is pre‑selected over Sequoia security‑only updates.  
-- Many avoid major OS jumps due to performance and UX regressions; daily upgrade nags and non-downgradable software reinforce distrust—counterpoint: minor “.2” releases are viewed as acceptable compromise.  
-- Workarounds emerge: enable iOS 18 beta channel to get 18.7.3, tweak Reduce Motion/transparency for speed, and note Electron bugs cause some macOS 26 slowdowns until both sides patch.
 
----
+- Users reported 18.7.3 hidden on upgrade-capable phones and exposed through beta settings — counterpoint: commenters were unsure whether omission was intentional.
+- Mac users found older security releases behind a details control, with Tahoe preselected; many viewed the interface as coercive.
+- Performance complaints spanned older iPhones and powerful Macs, though one reply attributed some slowdown to an Electron bug fixed in 26.2.
 
 ### LLM perspective
-- View: Apple’s coupling of security patches to large UX changes is eroding trust among power users and owners of older hardware.  
-- Impact: Security posture weakens if cautious users delay updating, despite known exploits, due to justified fear of slowdown or redesigns.  
-- Watch next: Clear, guaranteed N‑year security support for older majors, separate “security-only” update tracks, and independent WebKit/browser patch cadence.
+
+- View: Security urgency becomes less persuasive when users expect feature regressions or cannot easily choose a supported patch-only path.
+- Impact: Update distrust leaves some devices exposed even when fixes address exploited browser vulnerabilities.
+- Watch next: 18.7.3 visibility, patch parity across supported branches, exploitation details, performance reports, and adoption of 26.2.

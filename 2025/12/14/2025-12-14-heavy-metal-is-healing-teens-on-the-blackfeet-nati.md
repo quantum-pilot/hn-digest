@@ -2,19 +2,18 @@
 
 - Score: 108 | [HN](https://news.ycombinator.com/item?id=46260596) | Link: https://www.hcn.org/issues/57-11/heavy-metal-is-healing-teens-on-the-blackfeet-nation/
 
-## TL;DR
-On the Blackfeet Nation in Montana, teachers created a “heavy music symposium” and partnered with the Fire in the Mountains metal festival to address a devastating youth suicide crisis. Students study metal’s history, subgenres, and problematic elements while using it for catharsis, identity, and community. Internships at the alcohol‑free festival give teens creative work, role models, and a welcoming “weirdos together” culture shared by Indigenous and non‑Native metalheads. Many participants describe the experience as protective, healing, and surprisingly hopeful.
+### TL;DR
 
----
+After a 2020 cluster of youth suicides, Buffalo Hide Academy created a semester-long heavy-music symposium for Blackfeet students who seemed isolated or drawn to darker art. Lessons combined musical analysis, critical history, catharsis, coping, and community, then connected students to paid internships at Fire in the Mountains. The three-day, alcohol-free reservation festival drew about 2,400 people, an estimated third Native, for 23 bands, workshops, ceremony, and cultural exchange. Participants described belonging and hope; HN emphasized metal’s welcoming, playful community and its channeling of aggression.
 
-## Comment pulse
-- Metalheads are mostly gentle oddballs → aggressive aesthetics mask a goofy, accepting culture that lets people feel seen and safe at shows.  
-- Research backs this up → several studies link extreme metal to better anger processing and higher happiness than stereotypes suggest.  
-- Metal as catharsis → channeling rage into art feels powerful, but some worry commodified “rebellion” can displace real-world activism — counterpoint: emotional survival is itself meaningful.
+### Comment pulse
 
----
+- Metalheads described concerts as nonjudgmental safe spaces where outsider identity, collective singing, humor, and mutual care turn intimidating aesthetics into belonging.
+- Readers cited studies associating heavy music with improved anger processing and happiness, supporting participants’ accounts without proving this specific program’s outcomes.
+- Catharsis was framed as creative containment — counterpoint: one commenter warned commodified rebellion can substitute emotional release for political action.
 
-## LLM perspective
-- View: This is community-led, culturally specific mental health support wrapped in music education and youth employment.  
-- Impact: If sustained, it could reduce isolation, strengthen Indigenous cultural pride, and model non-clinical suicide-prevention strategies.  
-- Watch next: Longitudinal data on student outcomes, replication on other reservations, and whether the festival can stay sober, local-led, and affordable.
+### LLM perspective
+
+- View: The intervention’s strength is social connection organized around an authentic youth culture, not music presented as clinical treatment.
+- Impact: Students gain trusted adults, peers, creative skills, industry exposure, and culturally grounded reasons to imagine a future.
+- Watch next: Student retention, mental-health referrals, internship outcomes, repeat festivals, community governance, and evidence beyond participant testimony.

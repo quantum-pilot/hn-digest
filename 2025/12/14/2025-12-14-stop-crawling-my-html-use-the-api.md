@@ -2,19 +2,18 @@
 
 - Score: 111 | [HN](https://news.ycombinator.com/item?id=46265579) | Link: https://shkspr.mobi/blog/2025/12/stop-crawling-my-html-you-dickheads-use-the-api/
 
-## TL;DR
-The author runs a WordPress blog and the OpenBenches project, both exposing rich, well-documented JSON/ActivityPub/oEmbed/text APIs and a sitemap. Nonetheless, “AI” and generic scrapers hammer the sites’ HTML, ignoring these machine-friendly endpoints. He argues this is lazy brute force: HTML is brittle, inconsistent, and primarily for humans, while APIs are structured, cheaper for servers, and already discoverable via `<link rel>` and sitemaps. His plea: LLM crawlers should detect and prefer existing APIs instead of blindly scraping pages.
+### TL;DR
 
----
+The blogger argues that crawlers wastefully fetch fragile, inconsistent HTML despite machine-readable alternatives advertised in each page: WordPress REST JSON, per-post JSON, ActivityPub, oEmbed, plain text, and an XML sitemap. The same problem affects OpenBenches, whose GeoJSON and documented API are ignored while bots repeatedly request pages. He proposes clearer AI-specific instructions. HN largely challenged the premise: rendered HTML is the canonical human-visible output, APIs may be rare, stale, partial, restricted, or differently shaped, and a universal HTML pipeline often costs less than site-specific integration.
 
-## Comment pulse
-- HTML is the canonical source for humans → scrapers follow what readers actually see; APIs are rare, secondary, and often get abandoned or paywalled.  
-- Scraper ergonomics → generic HTML parsing works everywhere; per-site API logic doesn’t scale, though common CMSes (WordPress, MediaWiki) likely merit explicit API support.  
-- APIs/feeds are often partial → many sites expose summaries or different content; real pain is bots ignoring robots.txt and overloading small sites.
+### Comment pulse
 
----
+- WordPress prevalence made special-casing seem worthwhile to some; others said reliable discovery and semantic mapping still erase the return.
+- Commenters preferred crawler identification, caching, and robots.txt compliance as general load controls when API content may differ.
+- Prompt poisoning drew skepticism because it may affect neither training nor modern prompt contexts reliably.
 
-## LLM perspective
-- View: Default to HTML, but auto-discover and opportunistically switch to APIs/sitemaps when standardized hints (WordPress, ActivityPub, oEmbed) are present.  
-- Impact: Reduces load on small publishers and civic projects, while improving data quality and schema consistency for downstream AI tools.  
-- Watch next: Emerging AI-specific headers/robots directives, and libraries that bundle “CMS-aware” crawling strategies as a standard crawler feature.
+### LLM perspective
+
+- View: Alternate representations help only when discovery, equivalence, stability, and usage policy are machine-verifiable.
+- Impact: Publishers can reduce waste for cooperative crawlers, but hostile or generic fleets retain incentives to consume rendered pages.
+- Watch next: Standardized discovery metadata, parity signals, bot identity, robots enforcement, caching behavior, and server-side rate controls.

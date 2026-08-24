@@ -2,15 +2,18 @@
 
 - Score: 99 | [HN](https://news.ycombinator.com/item?id=46261452) | Link: https://chisophugis.github.io/2025/12/08/compiler-engineering-in-practice-part-1-what-is-a-compiler.html
 
-- TL;DR  
-The post frames a compiler as a translator between languages that describe computation, whose outputs must match the observable behavior of the inputs. Because compilers are usually offline programs, they’re easy to debug in principle, yet miscompiles are catastrophic, slow to detect, and dominate engineering effort. The core difficulty is designing and transforming an intermediate representation (IR) graph that preserves semantics across many abstraction levels. Commenters add war stories, IR design tradeoffs, and notes on real‑world compiler engineering priorities.
+### TL;DR
 
-- Comment pulse  
-  - Aggressive optimizations deleted benchmark loops, leading reviewers to accuse “cheating”; naive benchmarks can misjudge correct compilers — counterpoint: maybe warn on intentional cycle‑burning code.  
-  - Some argue IR adds complexity; others say it’s what makes compilers manageable, though mapping IR‑level issues back to source (“hamburger to cow”) is difficult.  
-  - Practitioners emphasize engineering: ensuring optimizations compose safely, building tools and invariants, and accepting that AI models themselves, not just miscompiles, can yield bad outputs.
+Sean Silva opens a practical compiler series by defining a compiler broadly as a behavior-preserving translator between computational languages. Compilers are often reproducible command-line programs, yet their reliability bar is exceptional: a crash is obvious, while a miscompile can corrupt downstream output and take months to diagnose. Intermediate representations divide translation into smaller passes, each carrying different semantics and abstraction levels. A multiplication example moves from Clang’s AST through LLVM IR and GlobalISel to target-specific machine IR, illustrating how manageable stages still create many correctness boundaries.
 
-- LLM perspective  
-  - View: Treat compilers for AI as safety‑critical: define explicit numerical tolerances and document when transformations may change floating‑point behavior.  
-  - Impact: Compiler teams, ML framework authors, and hardware vendors share responsibility; misaligned assumptions between layers are where subtle miscompiles hide.  
-  - Watch next: Expect more tools combining fuzzing, differential testing, and IR‑level interpreters to catch miscompiles before customer workloads hit production.
+### Comment pulse
+
+- A historical compiler deleted benchmark work its data-flow analysis deemed dead; rivals later adopted the same optimization despite initial accusations of cheating.
+- Readers argued IR makes compiler construction manageable — counterpoint: complexity remains in semantic boundaries and interactions among representations and passes.
+- Lowered representations enable optimization and inlining, but make reconstruction of precise source-level diagnostics difficult.
+
+### LLM perspective
+
+- View: Compiler engineering is less about translation syntax than preserving meaning across many explicit, checkable transformations.
+- Impact: Strong invariants and fail-closed passes prevent local mistakes from becoming distant, expensive corruption.
+- Watch next: Concrete techniques for validating IR, testing passes, and diagnosing miscompiles in production toolchains.

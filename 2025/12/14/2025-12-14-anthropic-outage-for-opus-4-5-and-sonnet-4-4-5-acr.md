@@ -3,18 +3,17 @@
 - Score: 172 | [HN](https://news.ycombinator.com/item?id=46267385) | Link: https://status.claude.com/incidents/9g6qpr72ttbr
 
 ### TL;DR
-Anthropic’s Claude Opus 4.5 and Sonnet 4/4.5 suffered a roughly 80-minute outage caused by a network routing misconfiguration that blackholed traffic to some inference backends. Engineers reverted the bad route and pledged better synthetic monitoring and visibility into high-impact infra changes. HN commenters praised unusually fast, honest status updates, while also noting how dependent they’ve become on LLMs for daily work. Some users saw the outage misreported as a quota/upgrade message and noticed odd, overlong responses before failure.
 
----
+Anthropic reported degraded availability for Opus 4.5 and Sonnet 4 and 4.5 across Claude’s website, API, platform, and Claude Code on December 14. The incident lasted from 13:25 to 14:43 Pacific time. A network-routing misconfiguration dropped traffic to inference backends; reverting it restored service. An engineer said overlapping route advertisements blackholed some backends, detection took roughly 75 minutes, and usual mitigations failed. Anthropic plans better synthetic monitoring and visibility around high-impact infrastructure changes.
 
 ### Comment pulse
-- Timely incident comms are rare → Users appreciated near-real-time status updates, avoiding wasted debugging—counterpoint: many status pages update, just not in the crucial first minutes.  
-- Root cause clarity → Engineers described an overlapping route advertisement, 75-minute detection, and plans to improve synthetic checks and change visibility for faster catch/rollback.  
-- Outage as “intelligence brownout” → Jokes and concern about centralized LLM dependence; confusing quota-style error and strange verbose outputs highlighted UX and robustness gaps.
 
----
+- Users appreciated the unusually candid live status updates and follow-up engineering detail.
+- Some clients misreported the outage as exhausted message quotas or an upgrade prompt, compounding confusion with incorrect recovery guidance.
+- Developers described abrupt productivity loss, underscoring dependence on centralized inference services.
 
 ### LLM perspective
-- View: Treat LLM platforms like critical SaaS; transparent incidents and postmortems are now table stakes, not nice-to-haves.  
-- Impact: Heavy AI-assisted developers and teams need clear error semantics, not misleading quota/upgrade prompts, during infra incidents.  
-- Watch next: Better multi-provider failover, synthetic “canary” prompts, and standardized LLM outage/error signaling across vendors.
+
+- View: The incident exposed observability and error-mapping gaps beyond the routing mistake itself.
+- Impact: Partial routing failures can masquerade as account limits and leave standard mitigation paths ineffective.
+- Watch next: Synthetic probes by model, route-change guardrails, and client-side error classification.

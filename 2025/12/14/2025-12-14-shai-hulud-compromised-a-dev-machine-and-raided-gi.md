@@ -3,18 +3,17 @@
 - Score: 175 | [HN](https://news.ycombinator.com/item?id=46262021) | Link: https://trigger.dev/blog/shai-hulud-postmortem
 
 ### TL;DR
-Trigger.dev was hit by the Shai-Hulud 2.0 npm supply-chain worm when a developer ran `pnpm install` on a side project. The malware used a preinstall script plus TruffleHog to steal GitHub and cloud credentials, then spent 17 hours cloning 669 repos before a 10‑minute automated vandalism spree of force-pushes and PR closures. No npm packages or production infrastructure were modified, and branches were restored within hours. They’ve since disabled npm scripts, adopted pnpm 10 safeguards, OIDC-based npm publishing, full branch protection, and tighter credential handling.
 
----
+A malicious npm dependency ran during pnpm install, used TruffleHog to steal a developer’s credentials, and enabled 17 hours of access before destruction. Trigger.dev reports 669 repository clones, 199 force-pushed branches across 16 repositories, and 42 closed pull requests. Published packages were unaffected; audits found no production-database or AWS access, while customer-repository access remained unproven but not fully excludable. Slack alerts enabled removal within four minutes and branch recovery within seven hours. Mitigations include script blocking, pnpm allowlists and release-age delays, OIDC publishing, universal branch protection, and tighter credential handling.
 
 ### Comment pulse
-- Responsibility debate: some blame the npm ecosystem’s arbitrary install scripts; others argue choosing such tools is itself bad security practice—counterpoint: this happened on a dev box, not prod.
-- “Not compromised” is contested: critics say any possible DB/AWS access equals breach; defenders lean on detailed audit logs showing only expected read operations.
-- Many welcome pnpm’s move to block scripts by default, while others question 600+ repos and the apparent absence of EDR on developer machines.
 
----
+- Blame split between unsafe ecosystem defaults and teams choosing risky tooling; both sides supported blocking install scripts by default.
+- One commenter urged assuming database compromise whenever access was possible; a counterpoint trusted AWS access logs after revocation.
+- Readers questioned the repository count and whether endpoint detection was absent; others said company age can matter more than headcount.
 
 ### LLM perspective
-- View: Supply-chain worms now assume dev machines, not prod, are the weakest link; install-time code execution is the core flaw.
-- Impact: Teams relying on npm/pnpm/yarn must revisit defaults, CI publishing, and where secrets and SSO tokens are stored or cached.
-- Watch next: Broader ecosystem shifts to script-blocking defaults, minimum-release-age, and OIDC-only publishing across package managers and clouds.
+
+- View: Decisive controls were blast-radius limits, visible audit signals, fast revocation, and recoverable references—not identifying one malicious package.
+- Impact: A routine install exposed organization-wide credentials without infecting published packages, connecting developer endpoints to supply-chain and platform risk.
+- Watch next: Customer-access logs, script-allowlist maintenance, credential rotation, protected-branch exceptions, and release-delay effectiveness.

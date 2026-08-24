@@ -3,14 +3,17 @@
 - Score: 128 | [HN](https://news.ycombinator.com/item?id=46261020) | Link: https://www.sanity.io/blog/you-should-never-build-a-cms
 
 ### TL;DR
-- Sanity replies to Lee Robinson’s migration of cursor.com from Sanity to markdown-in-git. They agree traditional/headless CMSs have painful complexity and bad UIs, but argue Lee effectively rebuilt a lightweight CMS using git, markdown, and custom tools. That model works for a small, dev-only team with a single website, but breaks down when you need structured, reusable content, rich querying, collaboration, and governance. Sanity’s pitch: don’t delete the CMS—make it AI-native, queryable, and agent-accessible so you can often skip the UI.
+
+Sanity answers Cursor’s migration to Markdown, GitHub, Vercel, and an asset interface, using 344 agent requests and about $260. It concedes clunky previews, fragmented authentication, excess complexity, video-hosting costs, and poor agent access, but argues the replacement already recreates content modeling, permissions, assets, localization, and versioning. Its broader case is that flat files suit small, developer-only websites, while reusable content, queries, real-time collaboration, governance, localization, and multiple delivery channels favor structured systems. A new MCP server is offered as the agent-access answer, though the article is openly vendor advocacy.
 
 ### Comment pulse
-- Both posts are marketing: Cursor selling AI-centric workflows, Sanity defending proprietary CMS—but commenters note good developer marketing can still be genuinely educational.
-- Skeptics argue git-as-CMS is unusable for marketers; proponents say GUIs or WYSIWYG layers atop git can work, though adoption and training vary by company.
-- Discussion highlights tradeoffs: robust, general tools like git with complex workflows versus simpler, CMS-specific versioning that may lack merges but better matches content teams.
+
+- Both authors acknowledged bias: one sells content infrastructure, the other works for an AI editor; each defended contextual tradeoffs over universality.
+- Git supporters cited tailored workflows and GitHub Pages; critics stressed nontechnical editors, semantic conflicts, approvals, and engineering bottlenecks at scale.
+- Managed services were praised for low maintenance, but commenters countered that paid platforms can also be brittle or insecure.
 
 ### LLM perspective
-- View: Architecture choice should follow org shape—team skills, channels, compliance—rather than ideology about “no CMS” or “pure headless”.
-- Impact: As agents mature, content systems will bifurcate into agent-first structured stores and minimal markdown stacks for small, developer-only sites.
-- Watch next: benchmarks of authoring speed, errors, and maintenance cost between git-based sites, traditional CMSs, and AI-augmented structured platforms.
+
+- View: The right boundary follows content reuse, collaboration, governance, and audience—not whether agents can edit Markdown.
+- Impact: Small technical teams can simplify aggressively; larger organizations risk rebuilding workflows, query engines, and editorial tooling piecemeal.
+- Watch next: Bespoke-tool growth, editor adoption, merge friction, MCP reliability, vendor cost, portability, and structured-content reuse.

@@ -3,18 +3,17 @@
 - Score: 609 | [HN](https://news.ycombinator.com/item?id=46262524) | Link: https://www.ftm.eu/articles/europe-health-data-us-firm-israel-spies
 
 ### TL;DR
-A Dutch “secure messaging” platform, Zivver—widely used by EU and UK hospitals, courts, immigration services and infrastructure operators—has been bought by US firm Kiteworks, whose leadership includes multiple veterans of Israel’s Unit 8200 signals‑intelligence unit. Follow the Money’s technical investigation found Zivver messages and attachments pass through Zivver’s servers in plaintext, contradicting its “zero access” marketing. Experts warn this makes extremely sensitive European health and legal data accessible under intrusive US law and potentially to Israeli intelligence, and call the unreviewed takeover a major strategic failure for EU digital sovereignty.
 
----
+Follow the Money reports that Dutch encrypted-communications provider Zivver, used by hospitals and government bodies, was acquired by US company Kiteworks. According to the report, the acquisition exposes the provider to US jurisdiction despite European hosting. Two Dutch government cybersecurity experts and an independent researcher found that, in specific web-app flows, message contents, attachments, and addresses reached Zivver’s servers readably before encryption. Zivver confirmed readable processing in certain cases but says it lacks customer encryption keys. The report presents no evidence that Zivver or Kiteworks misused data.
 
 ### Comment pulse
-- Unit 8200 background is a real red flag → it’s a broad signals‑intelligence/targeting outfit, not just a benign “cyber unit” — counterpoint: it’s still just standard conscription placement.
-- Early Zivver insider: design goal was end‑to‑end crypto and EU‑only storage; the sale clashes with Dutch sovereignty rhetoric, and metadata protection remains unclear.
-- Broader view: EU governments keep outsourcing core digital services to US firms while citizens resist paying for European alternatives; weak GDPR enforcement worsens the privacy erosion.  
 
----
+- Commenters debated how to characterize executives’ Unit 8200 service — counterpoint: conscription context does not erase the unit’s signals-intelligence role.
+- Readers questioned whether Zivver’s design qualifies as end-to-end encryption and whether metadata receives equivalent protection.
+- Calls for European digital sovereignty met a practical objection: users and governments often resist paying for alternatives to dominant US platforms.
 
 ### LLM perspective
-- View: Treat secure email/messaging for public institutions as critical infrastructure controlled by EU entities, with regulated crypto designs.  
-- Impact: Would force procurement changes in courts, hospitals, agencies; create market for audited European cloud and comms providers.  
-- Watch next: Look for Dutch/EU moves to classify encryption providers as vital, investigate the deal, or mandate true end‑to‑end, auditable implementations.
+
+- View: The decisive issue is independently observed readable server processing, not executives’ biographies alone.
+- Impact: An ownership change can alter legal exposure even when infrastructure and encryption claims remain unchanged.
+- Watch next: Regulatory review, Zivver’s technical clarification, and whether public-sector customers reassess procurement.

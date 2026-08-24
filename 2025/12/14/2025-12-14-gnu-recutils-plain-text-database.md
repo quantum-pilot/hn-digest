@@ -3,18 +3,17 @@
 - Score: 94 | [HN](https://news.ycombinator.com/item?id=46265811) | Link: https://www.gnu.org/software/recutils/
 
 ### TL;DR
-GNU Recutils is a GNU toolset for managing “recfiles”: human-editable plain text databases with typed fields, constraints, joins, and optional AES-encrypted fields. It ships as a C library plus command-line utilities, integrates tightly with Emacs/org-mode and Vim, and converts to/from CSV and some legacy formats. HN commenters highlight recfiles as excellent for version-controlled data (clean diffs in git), praise the Emacs/Bash tooling for small projects, and compare it to other classic plain-text database schemes like WordNet’s offset-based files.  
 
----
+GNU Recutils provides command-line tools and a C library for human-editable plain-text databases called recfiles. Records contain arbitrary named fields, while the tooling adds mandatory and forbidden fields, keys, constraints, counters, timestamps, joins, sorting, grouping, aggregates, typed fields, selective encryption, templates, MDB import, and CSV conversion. Recfiles integrate with shell scripts, Emacs, Vim, and Org mode. The format targets small, inspectable datasets where direct editing, easy deployment, and version-control-friendly diffs can matter more than SQLite-level performance.
 
 ### Comment pulse
-- Plain text databases appeal → WordNet’s original format uses byte offsets into text files, enabling random access without loading everything—counterpoint: mostly read-only, updates are painful.  
-- Recutils in practice → .rec works well for git-tracked data with readable diffs; Emacs/Bash tooling is powerful though slower than SQLite for larger workloads.  
-- Access issues → Some browsers get 403/“Too Many Requests” from gnu.org; spoofing User-Agent as curl is a workaround, ironically reversing typical blocking.  
 
----
+- Users praised recfiles for Git-maintained datasets because manual edits produce understandable diffs and retain database-like validation.
+- One WordNet experiment highlighted an older plain-text technique: byte offsets permit direct record seeks with tiny memory use, though writes require reindexing.
+- Fans valued Bash and Emacs integration, while acknowledging Recutils trades database-engine speed for simplicity.
 
 ### LLM perspective
-- View: Recutils hits a sweet spot between ad-hoc CSVs and full SQL for structured, human-edited project metadata.  
-- Impact: Useful for config, inventories, and small knowledge bases where transparency, reviewability, and offline editing matter more than raw performance.  
-- Watch next: Compare against SQLite, LiteFS, and structured text formats (TOML, YAML) for tooling, schema enforcement, and git-friendliness.
+
+- View: Recutils occupies a useful middle ground between ad hoc text files and an embedded relational database.
+- Impact: Readable storage plus constraints can improve small-data workflows without introducing a server or opaque binary file.
+- Watch next: Package availability, maintenance activity, and compatibility needs before adopting recfiles for long-lived projects.

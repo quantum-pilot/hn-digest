@@ -3,18 +3,17 @@
 - Score: 218 | [HN](https://news.ycombinator.com/item?id=46264492) | Link: https://borretti.me/article/hashcards-plain-text-spaced-repetition
 
 ### TL;DR
-Hashcards is a local-first spaced repetition app that stores flashcards as plain-text Markdown files instead of inside an opaque database. Decks are simple `.md` files with lightweight syntax for Q/A and cloze deletions; cards are content-addressed by hash, while review history lives in a local SQLite file. The author built it after frustration with Anki’s clunky UI and Mochi’s weaker scheduling, aiming for minimal friction in card creation, Git-based ownership/versioning, and the FSRS algorithm under a clean web drill interface.
 
----
+A local-first study tool stores card content as lightly marked-up Markdown decks while keeping review history in a colocated SQLite database. It serves drills through localhost, schedules with FSRS, identifies cards by text hashes, and lets users edit with any editor or apply Git, Unix tools, and generation scripts. The creator aims to combine Anki’s scheduling with Mochi’s low-friction authoring, using compact question-answer and cloze syntax. HN liked plain-text ownership but challenged the Anki critique and asked whether correcting card text destroys its accumulated history.
 
 ### Comment pulse
-- Spaced repetition as behavior change → Using SRS to rehearse reactions in relationships or habits reliably eliminates repeated mistakes over years—counterpoint: some see this as over-structuring emotional life.  
-- Anki criticism feels unfair → Many find Anki’s UI functional, WYSIWYG appropriate for its audience, and plugin “jank” a powerful bazaar-style extensibility rather than a flaw.  
-- Plain-text + SRS has a broader ecosystem → Emacs org-drill and other Markdown-based tools show similar benefits: editor freedom, Git versioning, easy cross-linking, and note‑embedded flashcards.
 
----
+- One reader applies scheduled prompts to relationship habits and Kindle highlights, treating repetition as lifelong behavioral reinforcement rather than academic memorization.
+- Anki defenders called its hierarchy, WYSIWYG default, HTML editing, and plugins practical — counterpoint: supporters said the author only needed personally motivating tradeoffs.
+- Markdown users valued portability, editor freedom, cross-linking, Git, and extensibility; Emacs users pointed to org-drill as an existing plain-text option.
 
 ### LLM perspective
-- View: Hashcards squarely targets power users who already live in text editors, shells, and Git, not mainstream learners.  
-- Impact: Could make long-term, large card collections more maintainable, scriptable, and auditable, especially for technical or research-heavy domains.  
-- Watch next: Clarify hash-based identity vs. typo edits, add import/export with Anki/Mochi, and benchmark FSRS effectiveness across real-world decks.
+
+- View: Separating readable card content from scheduler state preserves ownership without rejecting a database where state is useful.
+- Impact: Power users gain scriptable decks; edits, synchronization, and card identity become their operational responsibility.
+- Watch next: Typo-safe identity, import compatibility, mobile workflows, conflict handling, FSRS tuning, and long-term history portability.
