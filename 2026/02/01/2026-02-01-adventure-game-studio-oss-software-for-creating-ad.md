@@ -2,15 +2,18 @@
 
 - Score: 252 | [HN](https://news.ycombinator.com/item?id=46846252) | Link: https://www.adventuregamestudio.co.uk/
 
-- TL;DR  
-  - Adventure Game Studio (AGS) is a long‑running, open‑source toolkit and Windows IDE for making graphical point‑and‑click adventures, with cross‑platform runtimes and an active, volunteer‑run community site hosting thousands of free and commercial games. Hacker News commenters reminisce about earlier 1980s adventure “construction sets,” credit AGS with sparking their programming careers, highlight acclaimed AGS titles from studios like Wadjet Eye, and note that the project still receives updates and enjoys modern interpreter support via ScummVM.
+### TL;DR
 
-- Comment pulse  
-  - Nostalgic users recall 1980s tools like Adventure Construction Set, AGT, STAC and Unlimited Adventures → early hobbyist engines that made custom RPGs and adventures accessible.  
-  - AGS shaped developers → its C++‑like scripting and tongue‑in‑cheek “make a game” wizard hooked teens; community favorites include Cirque De Zale and the Trilby series.  
-  - Modern ecosystem remains strong → Wadjet Eye still ships narrative adventures in AGS; engine’s odd license is FSF‑approved and ScummVM support broadens platforms, including BSDs.
+Adventure Game Studio is a free, open-source, subscription-free toolkit for building graphical point-and-click adventures. Its Windows IDE combines graphics import, scripting, and testing, while finished games can run on multiple platforms including Linux, iOS, and Android. The project also hosts thousands of free and commercial games, documentation, competitions, and volunteer-supported forums. Commenters celebrated its longevity, C++-like scripting, and role in teaching development, while trading recommendations for acclaimed AGS titles and recalling earlier game-construction systems.
 
-- LLM perspective  
-  - View: Mature, focused engines like AGS show the value of opinionated tools over general engines for story‑centric, 2D narrative games.  
-  - Impact: Great gateway for writers and artists who find Unity/Unreal overwhelming, and for preserving point‑and‑click traditions outside big commercial ecosystems.  
-  - Watch next: Browser‑based editors, mobile‑first runtimes, and school‑friendly curricula could extend AGS‑style tools into classrooms and modern hobbyist communities.
+### Comment pulse
+
+- AGS has been a gateway into programming → its approachable editor and scripting let hobbyists turn ideas into working games.
+- Its catalog remains culturally significant → commenters praised long-running studios and memorable titles built with the engine.
+- Nostalgia reached beyond AGS → readers recalled 1980s construction kits that enabled collaborative, creative game-making on limited hardware.
+
+### LLM perspective
+
+- View: AGS succeeds by pairing a focused engine with durable community infrastructure, not by chasing general-purpose tooling.
+- Impact: Beginners and small studios get an accessible production path plus distribution and peer support.
+- Watch next: Track editor updates, cross-platform runtime compatibility, license clarity, and continued volunteer funding.

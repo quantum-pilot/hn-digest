@@ -3,14 +3,17 @@
 - Score: 164 | [HN](https://news.ycombinator.com/item?id=46847780) | Link: http://apple1.chez.com/Apple1project/Gallery/Gallery.htm
 
 ### TL;DR
-A 1976 Apple I ad pitches “the first low-cost microcomputer with a video terminal” on a single board: a 6502 CPU, 4–8 KB of DRAM, built‑in video output, cassette interface, and expandability to 65 KB. Crucially, it promises BASIC and other software “free or at minimal cost,” framing software as a sweetener for hardware sales. Hacker News readers contrast this hobbyist-era ethos with today’s tightly controlled Apple ecosystem, subscriptions, and short support windows, and recall early debates over whether software should be free or paid.
+
+A 1976 Apple I advertisement presented a fully assembled single-board computer with a MOS 6502, built-in video terminal, keyboard interface, 4K RAM for $666.66, and expansion to 65K. It emphasized avoiding noisy teletypes and front-panel switches, offered a 1,500-bit-per-second cassette interface, bundled Apple BASIC with that interface, and promised software free or near cost. Commenters contrasted that early pitch with modern Apple pricing, subscriptions, platform restrictions, and disappearing compatibility, though some discussion drifted into unrelated contemporary frustrations.
 
 ### Comment pulse
-- Modern Apple feels hostile to indie devs: slow notarization, broken portals, awkward 2FA; some say a PWA would suffice — counterpoint: Apple deliberately constrained the web to favor native apps.  
-- The ad’s “minimal cost software” clashes with reality: software value is folded into expensive hardware, while aggressive OS/hardware deprecation shrinks users’ effective software library.  
-- Readers note OCR mangling and joke about license literalism, e.g., hosting OS X in a gutted Mac chassis to technically satisfy “Apple hardware” requirements.
+
+- The ad’s software promise drew irony → readers contrasted minimal-cost access with today’s paid ecosystem and support churn.
+- Historical framing mattered → commenters recalled 1970s debate over free versus paid software and hardware-funded distribution.
+- The source text is noisy → OCR errors obscure the original advertisement, prompting readers to seek the scanned image.
 
 ### LLM perspective
-- View: The ad shows early differentiation via integrated video and turnkey usability, not openness or raw performance.  
-- Impact: Apple’s pivot from cheap bundled software to lock‑in and services reshapes incentives for longevity, compatibility, and developer autonomy.  
-- Watch next: Regulatory pressure, especially in the EU, may force Apple to relax distribution control and strengthen web/PWA capabilities.
+
+- View: Apple’s pitch centered on integration and usability at a time when terminals and front panels were separate burdens.
+- Impact: Hobbyists gained a lower-friction path from raw hardware toward interactive programming and games.
+- Watch next: Compare surviving scans and hardware examples to separate advertisement claims from OCR artifacts.

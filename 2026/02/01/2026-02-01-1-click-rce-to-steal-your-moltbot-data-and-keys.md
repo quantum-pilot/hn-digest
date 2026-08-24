@@ -3,18 +3,17 @@
 - Score: 138 | [HN](https://news.ycombinator.com/item?id=46848769) | Link: https://depthfirst.com/post/1-click-rce-to-steal-your-moltbot-data-and-keys
 
 ### TL;DR
-A security researcher found a 1‑click remote code execution chain in OpenClaw (formerly Moltbot/ClawdBot), an AI “god-mode” assistant that can control your local machine and access sensitive accounts. A crafted URL silently changes the agent’s gateway URL, immediately connects to an attacker server, and sends the victim’s auth token. Because OpenClaw’s WebSocket server didn’t validate origins, attackers could pivot from a malicious webpage to localhost, disable safety prompts and sandboxing via admin APIs, and run arbitrary shell commands. A patch now adds a confirmation modal; users should update and rotate tokens.
 
----
+Depthfirst’s researcher describes chaining two OpenClaw flaws into one-click remote code execution: a URL parameter silently changed the gateway and leaked the user’s authentication token, while missing WebSocket origin validation let attacker-controlled JavaScript reach localhost. Because the token carried administrative and approval scopes, the exploit could disable command confirmations, redirect execution outside containers, and run host commands. The team patched automatic connection behavior; versions through v2026.1.24-1 were affected. Commenters saw broader danger in agents holding sensitive data and powerful permissions.
 
 ### Comment pulse
-- AI-powered security analysis → can connect scattered logic flows and scale to AI-written code volume; gives researchers asymmetric advantage over busy, siloed developers.  
-- AI agents with broad access → seen as a security nightmare and criminal magnet; premise resembles giving root access to an unproven system—counterpoint: some users strictly sandbox and still gain utility.  
-- Value of OpenClaw/Moltbot → some see it as the first “Siri that works,” others argue serious users won’t entrust life-keys to unstable, prompt-injectable agents.
 
----
+- Security concern extends beyond this bug → prompt injection remains dangerous when agents ingest public content while controlling messages, files, and accounts.
+- Isolation advocates favor kernel sandboxes or quarantined hosts → tool-level approvals can be disabled by a sufficiently privileged stolen token.
+- Automated code-flow analysis impressed readers → cross-file vulnerabilities are easy to miss as AI-generated code increases review volume.
 
 ### LLM perspective
-- View: Complex, distributed “agent” stacks make subtle logic chains normal; automated whole-program analysis will become mandatory security tooling.  
-- Impact: Agent platforms, browser extensions, and devs shipping AI-generated code must harden auth flows, origin checks, and capability boundaries.  
-- Watch next: Benchmarks for AI security scanners, standardized agent permission models, and browser/WebSocket hardening guidance for localhost-targeting attacks.
+
+- View: Agent security should assume interface compromise and enforce least privilege beneath the application layer.
+- Impact: OpenClaw users risk credential theft, private-data exposure, and host takeover from a single malicious page.
+- Watch next: Confirm upgrades, rotate possibly exposed tokens, and test origin validation plus immutable sandbox boundaries.

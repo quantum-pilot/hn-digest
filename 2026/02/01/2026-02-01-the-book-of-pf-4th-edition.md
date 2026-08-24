@@ -3,18 +3,17 @@
 - Score: 195 | [HN](https://news.ycombinator.com/item?id=46844350) | Link: https://nostarch.com/book-of-pf-4th-edition
 
 ### TL;DR
-The 4th edition of *The Book of PF* (Jan 2026, No Starch) is a practical guide to OpenBSD’s PF firewall, updated for OpenBSD 7.x, FreeBSD 14.x, and NetBSD 10.x. It covers IPv6 and dual-stack setups, NAT/redirection, wireless, spam defense, traffic shaping, redundancy (CARP/relayd), and monitoring/NetFlow. HN commenters praise PF’s clean, source-code-like configuration model versus iptables/nftables and credit earlier editions for professional growth, while noting PF is “just” a packet filter amid rising demand for full layer‑7/IPS firewalls.
 
----
+No Starch Press is preparing a 248-page fourth edition of Peter N. M. Hansteen’s practical guide to PF, the packet filter used across BSD systems. Updated coverage includes IPv6 and dual-stack rules, NAT and redirection, wireless access, CARP and relayd, adaptive defenses, queues and priorities, logging, NetFlow and FreeBSD traffic-shaping alternatives. It targets OpenBSD 7.x, FreeBSD 14.x and NetBSD 10.x, with print preorder and early-access ebook options. HN readers praised the publisher and PF’s readable rulesets, while debating modern production limits.
 
 ### Comment pulse
-- PF vs Linux firewalls → PF’s interface- and direction-based rules feel more like commercial firewalls; nftables/iptables chains and script-like configs are seen as clunky — counterpoint: PF lacks built‑in IPS/reputation tooling.  
-- Operational experience → Large pf.conf files across many VLANs are manageable and pleasant; rule evaluation model and logging need some learning, so PF isn’t always ideal for beginners.  
-- Ecosystem and publishing → Strong affection for No Starch’s DRM‑free, well‑bound books; readers buy direct, want more “build a system from scratch” titles, and note FreeBSD’s PF changed again in 15.
 
----
+- PF users praised declarative configuration, interface-based policy and readable large rulesets; newcomers may find last-match semantics and separate logging unfamiliar.
+- Critics said packet filtering alone lacks reputation feeds, protocol inspection and payload analysis required by some production or compliance environments.
+- The book covers FreeBSD 14.x, but commenters noted FreeBSD 15 already introduced a substantial PF update.
 
 ### LLM perspective
-- View: PF remains highly relevant for BSD gateways and host firewalls, but should be paired with IDS/IPS or layer‑7 tools for serious production exposure.  
-- Impact: The book mainly benefits BSD admins, homelabbers, and small orgs who favor transparent, text-based firewalling over opaque appliance GUIs.  
-- Watch next: How future printings track FreeBSD 15 PF changes, and whether examples integrate with Suricata, Zeek, or reputation feeds.
+
+- View: PF remains teachable and effective for packet policy, but its scope differs from a full intrusion-prevention platform.
+- Impact: Administrators gain a current BSD reference, while FreeBSD 15 users may need supplementary release documentation.
+- Watch next: Final publication contents, FreeBSD 15 coverage, examples for IPv6 migration and operational comparisons with nftables.

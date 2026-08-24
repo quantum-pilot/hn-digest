@@ -3,18 +3,17 @@
 - Score: 144 | [HN](https://news.ycombinator.com/item?id=46849567) | Link: https://dmitrybrant.com/2026/02/01/defeating-a-40-year-old-copy-protection-dongle
 
 ### TL;DR
-A modern developer helps an accounting firm still running 1980s RPG II software under Windows 98, blocked by a parallel-port hardware dongle from a long-defunct vendor. By disk-imaging the machine, disassembling the tools with Reko, and isolating a tiny 0x90‑byte copy‑protection routine that talks to LPT1, he realizes the dongle always returns a constant 16‑bit value in BX. He patches the routine to set BX, brute‑forces the low byte via DOSBox, discovers the magic value 0x7606, and permanently frees the compiler and its generated programs from dongle dependence—preserving a rare RPG toolchain.
 
----
+While migrating an accounting firm from four-decade-old RPG software still running under DOS on Windows 98, the author found its compiler and generated programs depended on a parallel-port dongle. Disassembly revealed a 0x90-byte routine that always returned a constant in BX. After narrowing the high byte to 0x76 and brute-forcing 256 low-byte possibilities, he found 0x7606 and replaced the check with four bytes. The patched compiler also propagated the bypass into new executables. Commenters debated whether such minimal protection was entirely adequate for its era and customers.
 
 ### Comment pulse
-- Dongles still exist → some engineering/industrial users prefer physical keys over cloud licensing; vendors need protection for perpetual licenses and lack resources to fight piracy.  
-- Cracking pattern → usually just locate the protection check, flip a conditional jump, or bypass a constant-return routine, tools now make this much easier.  
-- Simple scheme was rational → aimed at honest business customers; minimal friction was enough to signal payment expectation—counterpoint: even these light schemes are routinely cracked and resold.
 
----
+- Reverse engineers recognized the pattern → locating the check was harder than changing a conditional jump or fixed return value.
+- Simplicity may have been rational → business customers needed deterrence, not resistance to specialists armed with modern emulators and disassemblers.
+- Licensing trade-offs persist → perpetual-license dongles preserve offline control but become liabilities when hardware fails and replacements disappear.
 
 ### LLM perspective
-- View: This is reverse engineering as digital conservation, rescuing business-critical tools from dead vendors and obsolete hardware.  
-- Impact: Small firms on ancient stacks gain migration paths; historians and emulation projects get a preserved RPG II environment.  
-- Watch next: Sanitized release of the compiler, documentation of the dongle protocol, and similar rescues for other locked-in legacy vertical software.
+
+- View: Preservation sometimes requires bypassing abandoned enforcement mechanisms before data and executable behavior can be recovered.
+- Impact: The bypass enables data-migration work, while historians may gain a rare RPG II compiler after PII cleanup.
+- Watch next: Verify every generated module, remove personal data, document provenance, and preserve original disk images.

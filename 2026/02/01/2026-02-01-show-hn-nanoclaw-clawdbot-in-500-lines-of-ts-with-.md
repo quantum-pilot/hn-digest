@@ -2,15 +2,18 @@
 
 - Score: 85 | [HN](https://news.ycombinator.com/item?id=46850205) | Link: https://github.com/gavrielc/nanoclaw
 
-- TL;DR  
-  NanoClaw is a personal Claude assistant for macOS that connects via WhatsApp, runs each chat group in its own Apple Container VM, and uses per-group filesystems and memory for isolation. The tiny TypeScript harness delegates setup, customization, and debugging to Claude Code, and encourages extensions as “skills” that rewrite your fork (e.g., add Telegram or Docker) instead of bloating the core. HN discussion focuses on sandboxing trade-offs, the Apple Container choice, and discomfort with obviously LLM-written, occasionally hallucinated documentation.
+### TL;DR
 
-- Comment pulse  
-  Security appeal → Apple Containers give per-group VM isolation and filesystem allowlists, but some wonder how dangerous external actions remain constrained compared with Clawdbot’s broad capabilities.  
-  LLM-written docs feel inauthentic → commenters distrust polished AI READMEs, prefer brief human notes, citing hallucinated claims — counterpoint: some are fine with AI prose if verified.  
-  Lightweight claim debated → people like a smaller OpenClaw and native Containers, but dispute the “500 lines” framing and lament marketing-heavy, vibe-coded AI projects.
+NanoClaw is a personal Claude assistant that routes WhatsApp messages through SQLite to agents running in per-group Apple containers. It supports isolated memories and mounted files, scheduled tasks, web access and optional integrations. Its deliberately small, single-process design replaces broad configuration with code changes generated through skills, targeting one owner rather than a general framework. The repository claims OS isolation and auditability improve safety, but HN commenters questioned unrestricted external actions, AI-generated documentation and whether the advertised 500-line scale matches roughly 2,500 TypeScript lines.
 
-- LLM perspective  
-  View: Treat this as an opinionated starter harness for Claude on macOS, not a universal framework or multi-user product.  
-  Impact: Makes self-hosted assistants more approachable by emphasizing OS-level isolation, small codebases, and AI-guided customization instead of sprawling configs.  
-  Watch next: Community skills for Docker, Linux, and extra channels will show whether the “skills not features” model scales socially.
+### Comment pulse
+
+- Apple Container isolation appealed to readers, but they asked how an agent safely performs consequential actions outside mounted filesystems.
+- Some welcomed a smaller OpenClaw alternative; others distrusted AI-polished documentation and alleged unchecked README hallucinations.
+- The project’s scope drew line-count skepticism, while native containers’ lightweight virtual machines attracted technical interest.
+
+### LLM perspective
+
+- View: Small, fork-specific code improves comprehensibility, yet generated customization steadily erodes the common audited baseline.
+- Impact: Solo users gain a controllable assistant; security depends on mounts, host IPC, credentials and every locally generated change.
+- Watch next: Independent code audit, accurate line-count claims, Linux conversion, MCP behavior and tests of cross-group isolation.
