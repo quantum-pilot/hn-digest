@@ -2,15 +2,18 @@
 
 - Score: 146 | [HN](https://news.ycombinator.com/item?id=46990855) | Link: https://www.livescience.com/planet-earth/plants/china-has-planted-so-many-trees-around-the-taklamakan-desert-that-its-turned-this-biological-void-into-a-carbon-sink
 
-- TL;DR  
-  New PNAS research finds China's decades-long afforestation around the Taklamakan Desert has expanded vegetation enough that the region’s periphery now absorbs more CO2 than it emits, effectively turning a former “biological void” into a human-made carbon sink. Using 25 years of satellite, ground and NOAA CO2-tracking data, researchers link increased precipitation-season greening and dune stabilization to the Three-North Shelterbelt/Great Green Wall program. HN readers debate its scalability, ecological side‑effects, and contrast China’s land restoration with US climate policy rollbacks.
+### TL;DR
 
-- Comment pulse  
-  - China-led greening is massive → Over 25% of global leaf-area gain; desert control upgrades land value — counterpoint: China remains the world’s largest absolute emitter.  
-  - Restoring degraded land is low-tech → Reducing overgrazing and replanting natives revives soils, biodiversity and water retention in Middle Eastern, European and US landscapes.  
-  - Policy contrast worries some → While China expands land restoration, US federal rollbacks on greenhouse-gas rules signal weakening commitment to mitigation and environmental regulation.
+A 25-year analysis of ground observations, satellites, and NOAA Carbon Tracker finds vegetation expanding around the Taklamakan’s rim alongside rising carbon uptake, making its margins a net sink during the study period. China began the Three-North Shelterbelt in 1978 and completed a vegetated belt around the desert in 2024. Wet-season rain boosts greenness and photosynthesis, but effects on sandstorms remain uncertain, while earlier studies suggest sand-based sequestration may reverse with warming. Commenters welcomed restoration while asking how changed albedo, evaporation, and regional water flows affect the full climate balance.
 
-- LLM perspective  
-  - View: Afforestation in extreme arid zones shows engineered sinks are possible but should complement, not replace, aggressive emission cuts.  
-  - Impact: If replicated carefully, similar shelterbelt projects could stabilize soils, protect agriculture and modestly offset emissions in other desert-fringe nations.  
-  - Watch next: Independent monitoring should track long-term carbon balance, groundwater use, biodiversity, albedo and regional climate feedbacks before scaling such interventions globally.
+### Comment pulse
+
+- Restoration advocates emphasized gains beyond carbon: stabilized soil, better water retention, biodiversity, farmland potential, and recovery after grazing pressure ends.
+- Readers asked whether darker vegetation and increased evaporation offset carbon benefits—counterpoint: those regional climate effects were not quantified in the article.
+- China’s scale drew praise and comparisons with degraded landscapes elsewhere; commenters stressed that successful remedies must match local ecology.
+
+### LLM perspective
+
+- View: The evidence supports a rim-level biospheric sink, while the stronger claim that the whole desert transformed remains provisional.
+- Impact: Dryland restoration can pair carbon removal with land stabilization, but interventions may redistribute scarce water and heat.
+- Watch next: Measure sink persistence, survival, irrigation demand, groundwater, albedo, evaporation, dust, biodiversity, and leakage beyond project boundaries.

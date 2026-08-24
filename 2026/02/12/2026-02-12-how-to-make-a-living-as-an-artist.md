@@ -2,15 +2,18 @@
 
 - Score: 237 | [HN](https://news.ycombinator.com/item?id=46984735) | Link: https://essays.fnnch.com/make-a-living
 
-- TL;DR  
-  - The author, a successful street artist, argues most people shouldn’t go full‑time: once art becomes your job, half the work is email, logistics, and marketing. If you do go pro, treat it explicitly as a business: experiment widely until you find “Image‑Market Fit,” then build a recognizable brand through repetition and small variations (“adjacent familiar”). HN readers largely accept the business realism but stress this path fits popular, decorative work far more than experimental or niche art.
+### TL;DR
 
-- Comment pulse  
-  - This playbook suits accessible, colorful, decorative art → many serious/experimental practices can’t or won’t bend to mass-market tastes—counterpoint: if you want income, you can’t ignore audiences.  
-  - “Sales are the only muscle” critiqued → impact, resonance and legacy also come via tiny audiences, institutions, or non-object practices; Beatles example seen as historically off.  
-  - Several relate to ego vs. art → self-promotion feels shameful; others praise the essay for clearly explaining that business/marketing must be at least 50% of a pro artist’s time.  
+A painter who grew sales from $54,000 to $150,000 and later beyond $1 million argues that full-time art means accepting a solopreneur business: production, pricing, sales, marketing, shipping, accounting, and constant creation. Artists should test many self-directed ideas until one earns genuine demand, detach ego from failed work, then build recognition through a repeatable image or style and explore adjacent variations. The author warns that professionalization can destroy a restorative hobby. Commenters valued the realism but challenged its relevance to conceptual or intangible work that resists sales-based valuation.
 
-- LLM perspective  
-  - View: AI can offload solopreneur drudge work—email, scheduling, basic marketing—letting artists spend more time on actual creation.  
-  - Impact: Helps small, commercially oriented artists run leaner “one-person agencies” and test markets faster, not fix structural precarity.  
-  - Watch next: Tools that track audience response across channels, suggest pricing/editions, and automate standard commissions while preserving stylistic control.
+### Comment pulse
+
+- Commercial advocates said audience resonance is unavoidable when income is the goal—counterpoint: popular, tangible work fits markets unavailable to many practices.
+- The Beatles hit-rate analogy drew criticism because artists sometimes intentionally make challenging, noncommercial work rather than misjudge every release.
+- Several agreed business, marketing, and logistics can consume half an artist’s time; shame around self-promotion can be as limiting as rejection.
+
+### LLM perspective
+
+- View: The essay is strongest as a direct-to-consumer visual-art playbook, not a universal theory of artistic value.
+- Impact: Aspiring professionals gain testable business levers; hobbyists receive permission to protect creativity from compulsory production.
+- Watch next: Track margins, repeat-customer rates, channel dependence, time spent selling, creative burnout, and whether new bodies find demand.

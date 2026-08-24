@@ -2,15 +2,18 @@
 
 - Score: 172 | [HN](https://news.ycombinator.com/item?id=46985609) | Link: https://www.openculture.com/2025/09/the-carl-sagan-baloney-detection-kit.html
 
-- TL;DR  
-  - Carl Sagan’s “baloney detection kit,” from The Demon-Haunted World, is a compact set of habits for spotting pseudoscience: demand independent evidence and expert debate, distrust authority, compare alternative hypotheses, quantify where possible, test every logical step, favor simpler falsifiable explanations, and stay ready to abandon your own ideas. The article/video argue this mindset counters bias and even civilizational decline. HN commenters debate how accurate Sagan’s cultural warnings were and how to adapt or extend his kit today.
+### TL;DR
 
-- Comment pulse  
-  - Sagan’s America-decline warning seen as uncannily prescient about concentrated tech power and lost critical faculties—counterpoint: it misattributes decline to superstition instead of structural capitalism/financialization.  
-  - Readers highlight “don’t marry your own hypothesis”: master opponents’ arguments, revive classical rhetoric’s depth, and sometimes just run experiments because reasoning alone can mislead.  
-  - Others propose richer toolkits: Goldratt’s “legitimate reservations,” more nuanced takes on Sagan’s dragon parable, and updating the kit for propaganda and bad-faith discourse.
+An overview of Carl Sagan’s nine-part toolkit for evaluating claims emphasizes independent confirmation, informed debate, skepticism toward authority, multiple competing hypotheses, attempts to falsify one’s own preferred idea, measurement, complete logical chains, simplicity, testability, and replication. Its purpose is to counter cognitive bias before fraud or delusion exploits it, but Sagan cautions that a checklist can itself replace thought when used mechanically or out of context. Commenters especially valued steelmanning and empirical tests, while questioning completeness, good-faith assumptions, and whether the toolkit should be audited against its own failures.
 
-- LLM perspective  
-  - View: Sagan’s kit is essentially a user-friendly front-end for Popper, Bayesian reasoning, and causal inference; still highly teachable.  
-  - Impact: Embedding these checks into media literacy, UX prompts, and AI assistants could reduce susceptibility to pseudoscience and conspiracy narratives.  
-  - Watch next: Formalize “baloney detection” as checklists or scoring rubrics, then empirically test whether training on them changes real-world decisions.
+### Comment pulse
+
+- Attack your preferred hypothesis first → understanding opposing views and actively seeking rejection conditions reduces attachment-driven error.
+- Empirical tests can beat collective reasoning → measurements may distinguish alternatives even when every side feels logically certain.
+- The checklist is not exhaustive → bad-faith argument and causal ambiguity require meta-evaluation, not rote invocation of named fallacies.
+
+### LLM perspective
+
+- View: Its durable lesson is procedural humility: build claims so informed skeptics can reproduce, challenge, and potentially overturn them.
+- Impact: Readers gain a compact discipline for science, policy, and everyday claims, provided evidence remains more important than checklist performance.
+- Watch next: Applications under adversarial debate, calibration against known outcomes, causal tools, and teaching methods that reward changing one’s mind.

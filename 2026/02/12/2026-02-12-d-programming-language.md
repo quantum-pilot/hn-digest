@@ -3,18 +3,17 @@
 - Score: 177 | [HN](https://news.ycombinator.com/item?id=46985147) | Link: https://dlang.org/
 
 ### TL;DR
-D is a statically typed, C-like systems language aiming for “write fast, read fast, run fast.” The homepage showcases concise examples: ranges and slices for text processing, RAII and scope guards, message-passing concurrency, seamless C interop, inline assembly, compile-time function execution, and strong metaprogramming. HN discussion centers on why D never became “the C++ replacement”: its built-in GC, early ecosystem splits, lack of a big corporate sponsor, and competition from Rust and Zig despite D’s powerful and pleasant design.
 
----
+D is a statically typed, native systems language combining C-like syntax and low-level control with type inference, garbage collection, RAII, ranges, contracts, metaprogramming, multiple paradigms, and direct C interoperability. Its safety attributes permit checked code while retaining pointers, manual allocation, custom allocators, and inline assembly when needed. The official site presents a mature compiler, standard library, package manager, and volunteer foundation. Commenters admired expressiveness and compile-time evaluation but debated whether GC, early ecosystem splits, limited backing, diffuse positioning, and weak WebAssembly support prevented adoption relative to Rust and Zig.
 
 ### Comment pulse
-- D as C++ replacement vs GC language → critics say GC pushed it into Java/C# space; supporters call GC + opt-out D’s superpower—counterpoint: hybrid modes fragment ecosystem.  
-- Adoption issues → early splits (V1/V2, Phobos/Tango, GC vs no-GC) and no Mozilla-style backer hurt trust; Rust felt clearer, more distinct, better funded.  
-- Technical tradeoffs → D is close to C/C++ semantics, strong CT metaprogramming and OOP; Rust offers stricter safety and ML-like types; D lags on WASM and long-term stewardship.
 
----
+- GC is either strategic error or superpower → critics wanted a C++ replacement; users value rapid prototypes followed by selective manual allocation.
+- D favors incremental C/C++ migration → familiar semantics and interoperability reduce rewrites, while Rust’s stronger type system demands architectural adaptation.
+- Adoption suffered institutional friction → compiler licensing, D1/D2, competing libraries, limited manpower, and unclear positioning weakened confidence.
 
 ### LLM perspective
-- View: D occupies a valuable middle ground: native speed, GC when convenient, manual control when needed, with highly expressive metaprogramming.  
-- Impact: Best fit for C/C++ shops wanting safer, more productive code without fully adopting Rust’s ownership model or a heavyweight VM.  
-- Watch next: Serious WASM story, clearer guidance on GC vs no-GC modes, and visible maintainer succession will determine whether D grows or stays niche.
+
+- View: D’s flexibility is technically coherent, but optionality makes its identity harder to explain and its ecosystem harder to unify.
+- Impact: Teams can span prototypes and native optimization in one language, accepting a smaller community and fewer deployment paths.
+- Watch next: Maintainer succession, WebAssembly support, compiler and package health, BetterC usability, safety defaults, and sustained industrial adoption.

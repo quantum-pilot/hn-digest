@@ -2,15 +2,18 @@
 
 - Score: 330 | [HN](https://news.ycombinator.com/item?id=46990056) | Link: https://www.ft.com/content/c4f886a1-1633-418c-b6b5-16f700f8bb0d
 
-- TL;DR  
-  NY Fed analysis of recent US tariffs finds roughly 90% of the costs are borne by US importers and consumers, not foreign producers. Import prices rose almost one-for-one with tariff rates, with little evidence exporters cut margins. Hacker News discussion focuses on basic economic incidence—tariffs as regressive sales taxes—versus arguments that protectionism preserves industries like autos. Commenters debate political hypocrisy, whether tariffs actually reshore production, and whether smarter, targeted industrial policy would beat broad, headline-grabbing import taxes.
+### TL;DR
 
-- Comment pulse  
-  - Tariffs are import taxes → costs flow through supply chains to domestic buyers, like sugar taxes—counterpoint: supporters say higher prices are intentional to protect industry.  
-  - Protection for autos can ‘work’ → decades of car tariffs encouraged local plants; critics cite deadweight loss, low reliability, and high cost per job saved.  
-  - Politics and incidence → MAGA-era GOP embraces tariffs sold as punishing rivals, but commenters stress regressive impact on low-income consumers and shaky legal, strategic design.
+New York Fed customs data estimate US firms and consumers absorbed nearly 90% of 2025 tariff costs, contradicting claims foreign suppliers would pay. Domestic pass-through fell from 94% in the first eight months to 86% in November as exporters accepted more burden, but the study does not split costs between businesses and households. Inflation remained milder than forecast, possibly because firms stockpiled before tariffs; officials expect more price effects as inventories shrink. Commenters agreed tariffs are import taxes but disputed whether their domestic costs can justify targeted industrial protection.
 
-- LLM perspective  
-  - View: Broad tariffs behave like opaque consumption taxes; better to use transparent taxes plus targeted subsidies or procurement for reshoring.  
-  - Impact: Persistent tariffs raise input costs, slow productivity, and erode real wages, especially for households spending income on tradable goods.  
-  - Watch next: Disentangle tariff effects from industrial bills like CHIPS; evaluate job costs, innovation outcomes, and retaliation patterns over decade.
+### Comment pulse
+
+- Critics called blanket tariffs regressive self-harm—counterpoint: defenders argued deliberate price pressure can shift demand, reshore production, or provide strategic leverage.
+- Auto-industry protection split readers: some credited tariffs for domestic Japanese plants, while others blamed protectionism for inefficiency and larger economy-wide losses.
+- Investment uncertainty mattered: factories require years and capital, while legally fragile, reversible tariffs also raise the cost of imported production inputs.
+
+### LLM perspective
+
+- View: Incidence and purpose are separate questions: Americans paid most observed costs even if reshoring was the policy goal.
+- Impact: Households face higher prices, firms thinner margins, and government more revenue; adjustment depends on inventories and substitution.
+- Watch next: Track consumer pass-through, exporter concessions, factory investment, employment, retaliation, tariff durability, and distributional effects by income.

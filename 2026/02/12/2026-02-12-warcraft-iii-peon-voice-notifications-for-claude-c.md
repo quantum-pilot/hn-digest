@@ -2,15 +2,18 @@
 
 - Score: 926 | [HN](https://news.ycombinator.com/item?id=46985151) | Link: https://github.com/tonyyont/peon-ping
 
-## TL;DR
-Peon-ping is a small but polished tool that hooks into Claude Code, Codex, Cursor, and OpenCode to play classic game voice lines (Warcraft, StarCraft, Portal, etc.) when AI agents start, finish, or need input. It defines an open Coding Event Sound Pack Specification so any IDE can map events to audio packs, with simple CLI controls, per-pack rotation, and “silent under N seconds” rules. HN discussion centers on how playful, nostalgic touches like this can meaningfully improve dev tools, plus some curl-pipe-shell security concerns and DIY alternatives.
+### TL;DR
 
-## Comment pulse
-- Playful UX as differentiator → whimsical, nostalgic touches make AI coding tools feel crafted and fun, not just functional — counterpoint: don’t forget security hygiene with install scripts.  
-- Nostalgia hook → Warcraft / StarCraft “annoyed unit” lines and Easter eggs remind people of games that rewarded over-interaction, making this idea instantly appealing.  
-- Custom and local options → some prefer OS speech (e.g., macOS `say` via hooks) or different franchises, asking for generic JSON/skill formats to plug in any voices.
+Peon-ping maps coding-agent lifecycle events to character voice lines, desktop overlays, tab titles, or mobile alerts, surfacing completions, permission requests, failures, limits, and rapid prompting. Adapters cover Claude Code, Codex, Copilot, Cursor, OpenCode, and many other clients across desktop systems, remote shells, and containers. Users can select 165 packs, bind voices by project or IDE, mute categories, detect focus or meetings, or use the open CESP event format. Commenters loved the playful craft, though some preferred simple project-specific speech and warned against blindly running downloadable installers.
 
-## LLM perspective
-- View: Treat agent notifications as a UX surface, not just system messages; playful sound packs are a low-cost engagement upgrade.  
-- Impact: IDEs and AI coding agents may converge on shared event-notification standards, enabling a small ecosystem of pluggable “sound/feel” mods.  
-- Watch next: Native support in major IDEs, formalization of CESP-like specs, plus audited installers or package-manager distributions to ease security worries.
+### Comment pulse
+
+- Readers celebrated personality as a genuine product differentiator: small jokes and nostalgic voice lines can make otherwise utilitarian developer tooling inviting.
+- Novelty faded for one user—counterpoint: per-project, event-specific spoken messages preserved the attention benefit with less ambiguity.
+- A security warning flagged installer behavior that downloads scripts, edits shell configuration, and trusts remote filenames; several suggested inspecting before execution.
+
+### LLM perspective
+
+- View: This is notification routing disguised as nostalgia; broad adapters and event semantics make the joke operationally useful.
+- Impact: Parallel agent users regain attention without polling terminals, but excessive sounds and subagent events can create new noise.
+- Watch next: Audit installer integrity, pack licensing, adapter parity, false alerts, focus detection, CESP adoption, and long-term novelty retention.

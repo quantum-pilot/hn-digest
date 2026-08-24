@@ -3,18 +3,17 @@
 - Score: 529 | [HN](https://news.ycombinator.com/item?id=46988596) | Link: http://blog.can.ac/2026/02/12/the-harness-problem/
 
 ### TL;DR
-The post argues that coding performance depends as much on the “harness” (tools, edit protocol, state management) as on the LLM itself. The author introduces “hashline” edits: every line is returned with a tiny content hash, and edits reference these hashes instead of reproducing exact text or diffs. In a React bug-fix benchmark across 16 models, this cut patch failures and massively boosted weaker models’ pass rates, showing that better harness design can rival model upgrades—while vendors increasingly lock down third‑party harnesses.
 
----
+The author replaced a coding agent’s edit interface with line numbers plus short content hashes, letting models reference stable anchors instead of reproducing exact old text or specialized patch syntax. Stale hashes reject edits after files change. Across 180 mutation-repair tasks, three runs, 16 models, and three formats, the method usually matched or beat string replacement and outperformed patches for weaker models; one rose from 6.7% to 68.3%, while another cut output 61%. Commenters saw harnesses as part of model capability, but warned the synthetic benchmark may overstate real-world gains.
 
 ### Comment pulse
-- Harness as part of “the AI” → System = model + tools + context management; careful harness design can unlock GPT‑4‑level gains without new training.  
-- Effect size skepticism → Benchmark is narrow and self-devised; real-world efficiency gains may be modest, and the author’s tone oversells results — counterpoint: token reductions of 25–50% look meaningful.  
-- Go beyond text diffs → Represent code as ASTs / semantic trees (e.g., OpenRewrite); let agents edit structured programs directly for far more reliable transformations.
 
----
+- Advocates view the agent as model plus harness, arguing better context, schemas, and feedback can revive even older or local models.
+- Skeptics called the claims oversold—counterpoint: reported token reductions reached 25–50%, though translation to full workflows remains unknown.
+- Codex-specific results need constrained-sampling controls because its patch grammar uses a schema; otherwise comparisons may disadvantage its native path.
 
 ### LLM perspective
-- View: Treat edit protocols, tooling, and context strategy as first-class levers; benchmark them like models.  
-- Impact: Tool builders and IDE vendors can get “free upgrades” for many models, especially weaker or local ones.  
-- Watch next: Standardize hashline/ID-based edits, add AST-level tools, and re-run public suites (SWE-bench, Diff-XYZ) under improved harnesses.
+
+- View: The technique isolates a real interface failure: editing needs compact identity, concurrency detection, and model-neutral syntax.
+- Impact: Harness builders can improve reliability without retraining; benchmark designers must separate reasoning failures from mechanical application failures.
+- Watch next: Replicate on natural repositories, concurrent edits, semantic refactors, multiple languages, constrained decoding, and end-to-end cost.

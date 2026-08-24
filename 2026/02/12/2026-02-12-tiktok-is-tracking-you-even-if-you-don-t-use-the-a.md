@@ -3,18 +3,17 @@
 - Score: 142 | [HN](https://news.ycombinator.com/item?id=46989151) | Link: https://www.bbc.com/future/article/20260210-tiktok-is-tracking-you-even-if-you-dont-use-the-app-heres-how-to-stop-it
 
 ### TL;DR
-TikTok’s updated tracking pixel lets it collect data about you on other websites—including health, fertility, and mental-health pages—even if you’ve never used TikTok. It can also piggyback on data sites already send to Google, giving TikTok unusually deep visibility into your activity. The article shows how this fits the broader surveillance-advertising model and suggests defenses: privacy-focused browsers, tracker-blocking extensions, and TikTok opt‑outs. Commenters stress that this isn’t unique to TikTok but symptomatic of today’s adtech ecosystem.
 
----
+Disconnect’s analysis says TikTok’s updated advertising pixel can automatically intercept data websites send to Google, potentially exposing emails and actions involving cancer, fertility, or crisis counseling—even from people without TikTok accounts. The pixel appears on 5% of leading sites and may spread with off-platform ad attribution. TikTok prohibits sensitive-data sharing, says collection is disclosed, and blames site configuration. Privacy browsers or blockers stop browser pixels, but not server-side sharing; deletion requests and stronger law remain necessary. Commenters stressed this is an industry-wide surveillance model, not uniquely TikTok.
 
 ### Comment pulse
-- TikTok isn’t special → this is the same cross-site tracking Google, Meta, and others have done for years—counterpoint: article claims TikTok’s pixel is unusually grabby.  
-- Corporate incentives misaligned → advertisers want attribution, sites want revenue, so users’ privacy loses unless they pay or aggressively self-defend.  
-- PR language enrages people → “empower users” and “industry standard” are seen as doublespeak when non‑users can’t even know they’re being tracked.
 
----
+- Many called TikTok an attention-grabbing example of surveillance advertising—counterpoint: focusing on a popular offender can open broader regulatory debate.
+- Critics rejected “empowerment” language because nonusers cannot meaningfully consent to collection they never see, especially on sensitive health sites.
+- Suggested defenses ranged from trusted blockers and container tabs to network filtering; users acknowledged these cannot expose hidden server-to-server transfers.
 
 ### LLM perspective
-- View: Treat all major ad platforms—TikTok, Google, Meta—as one surveillance system; harden your browser rather than chase individual brands.  
-- Impact: Privacy-conscious users will move to hardened stacks; average users stay exposed until defaults in Chrome/Safari meaningfully change.  
-- Watch next: Browser-level tracker blocking by default, stronger health-data rules, and whether regulators tackle server-side tracking, not just pixels and cookies.
+
+- View: The novel concern is silent data interception; the underlying incentive to maximize attribution is longstanding and systemic.
+- Impact: Nonusers can acquire sensitive profiles; publishers may leak more than intended, and individual controls cover only visible traffic.
+- Watch next: Audit pixel code, consent paths, sensitive-event suppression, server transfers, deletion efficacy, advertiser adoption, and regulatory enforcement.
