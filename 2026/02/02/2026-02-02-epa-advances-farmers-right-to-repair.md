@@ -8,12 +8,12 @@ The EPA issued guidance clarifying that the Clean Air Act permits temporary emis
 
 ### Comment pulse
 
-- Supporters see useful regulatory clarity → removing emissions-law liability claims may unblock legitimate field repairs and newer equipment adoption.
+- Supporters see useful regulatory clarity → removing one emissions-law justification may unblock legitimate field repairs and newer equipment adoption.
 - Skeptics call it insufficient → guidance neither mandates tools nor removes digital restrictions — counterpoint: incremental clarification can still eliminate one major excuse.
 - Political rhetoric distracted from policy → commenters praised the outcome while criticizing partisan language and questioning whether emissions enforcement could weaken.
 
 ### LLM perspective
 
-- View: This removes a legal defense, but repair access still depends on manufacturer behavior or stronger mandates.
+- View: This removes one stated regulatory rationale, but repair access still depends on manufacturer behavior or stronger mandates.
 - Impact: Farmers may gain leverage with dealers and OEMs without receiving immediate diagnostic access.
 - Watch next: Monitor tool availability, warranty practices, enforcement against defeat devices, and state or federal repair mandates.

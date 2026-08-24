@@ -4,7 +4,7 @@
 
 ### TL;DR
 
-Researchers propose that “lithospheric dripping” explains how the relatively young Green River cut through Utah’s much older Uinta Mountains. Dense lower-crust material may have pulled the range downward long enough for the river to establish its route, then detached 2–5 million years ago, allowing roughly 400 meters of rebound. Seismic imaging found a cold anomaly about 200 kilometers deep, while river modeling found a matching bullseye uplift pattern. Commenters found the mechanism striking but criticized the article’s unrelated mountain image.
+Researchers propose that “lithospheric dripping” explains how the relatively young Green River cut through Utah’s much older Uinta Mountains. Dense lower-crust material may have pulled the range downward long enough for the river to establish its route, then detached 2–5 million years ago, consistent with more than 400 meters of inferred uplift. Seismic imaging found a cold anomaly about 200 kilometers deep, while river modeling found a matching bullseye uplift pattern. Commenters found the mechanism striking but criticized the article’s unrelated mountain image.
 
 ### Comment pulse
 
@@ -15,5 +15,5 @@ Researchers propose that “lithospheric dripping” explains how the relatively
 ### LLM perspective
 
 - View: Multiple independent signatures make lithospheric dripping a coherent alternative to older river-route theories.
-- Impact: The mechanism could reshape reconstructions of drainage divides, habitats, and supposedly inactive mountain regions.
+- Impact: The mechanism could reshape reconstructions of drainage divides, habitats, and tectonically quiet mountain regions.
 - Watch next: Test predicted uplift histories and search other ranges for paired deep anomalies and river-network fingerprints.

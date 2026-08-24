@@ -4,7 +4,7 @@
 
 ### TL;DR
 
-Anki’s ownership is moving from founder Damien Elmes to AnkiHub, a profitable, self-funded education company that promises to keep Anki’s core open source, current pricing intact, mobile apps supported, and community input central. The team wants better UX, lower bus-factor risk, stronger add-ons, and broader audiences, but governance, priorities, and transition mechanics remain undecided. Commenters see a plausible succession path while questioning AnkiHub’s incentives, AnkiWeb’s future, and the hiring of a key AnkiDroid maintainer.
+Anki’s ownership is moving to AnkiHub, a profitable, self-funded education company that promises to keep Anki’s core open source, current pricing intact, mobile apps supported, and community input central. The team wants better UX, lower bus-factor risk, stronger add-ons, and broader audiences, but governance, priorities, and transition mechanics remain undecided. Commenters see a plausible succession path while questioning AnkiHub’s incentives, AnkiWeb’s future, and the hiring of a key AnkiDroid maintainer.
 
 ### Comment pulse
 

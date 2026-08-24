@@ -9,7 +9,7 @@ The EU has begun GOVSATCOM operations, giving member states a secure hub for req
 ### Comment pulse
 
 - Launch is coordination, not new spacecraft → a shared marketplace centralizes existing sovereign capacity and prepares users for IRIS².
-- Sovereignty spending divides commenters → some cite aging-state budgets; others argue local procurement retains economic value and reduces foreign dependence.
+- Sovereignty spending divides commenters → some cite aging-population budget pressure; others argue local procurement retains economic value and reduces foreign dependence.
 - Strategic urgency is broadly accepted → critics call the program late or too small — counterpoint: pooled access is still concrete progress.
 
 ### LLM perspective

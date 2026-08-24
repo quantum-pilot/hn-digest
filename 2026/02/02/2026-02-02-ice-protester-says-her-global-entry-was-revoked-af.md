@@ -4,7 +4,7 @@
 
 ### TL;DR
 
-In a federal court declaration, Minnesota resident Nicole Cleland says a Border Patrol agent addressed her by name, claimed facial recognition was in use, and warned her while she observed federal vehicles. Three days later, after 12 incident-free years, her Global Entry and TSA PreCheck were revoked without a specific explanation; she believes the timing indicates retaliation. Ars reports broader federal facial-recognition use, but DHS had not responded. Commenters emphasize the civil-liberties risk while noting that one person’s account does not establish causation.
+In a federal court declaration, Minnesota resident Nicole Cleland says a Border Patrol agent addressed her by name, claimed facial recognition was in use, and warned her while she observed federal vehicles. She says that three days later, after incident-free membership since 2014, her Global Entry and TSA PreCheck were revoked without a specific explanation; she believes the timing indicates retaliation. Ars reports broader federal facial-recognition use, but DHS had not responded. Commenters emphasize the civil-liberties risk while noting that one person’s account does not establish causation.
 
 ### Comment pulse
 

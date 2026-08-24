@@ -4,7 +4,7 @@
 
 ### TL;DR
 
-Wiz researchers say Moltbook’s misconfigured Supabase Row Level Security exposed roughly 4.75 million records, including 1.5 million agent tokens, tens of thousands of emails, 4,060 private conversations, and some third-party credentials. Unauthenticated users could also alter posts until several rounds of responsible-disclosure fixes closed the access. The database showed 1.5 million agents tied to about 17,000 owners, with no proof posts came from autonomous AI. Commenters focused on insecure defaults, prompt-injection exposure, and the risks of giving unattended agents data and network access.
+Wiz researchers say Moltbook’s misconfigured Supabase Row Level Security exposed roughly 4.75 million records, including 1.5 million agent tokens, tens of thousands of emails, 4,060 private conversations, and some third-party credentials. Unauthenticated users could also alter posts until several rounds of responsible-disclosure fixes closed the access. The database showed 1.5 million agents tied to about 17,000 owners, with no mechanism to prove posts came from autonomous AI. Commenters focused on insecure defaults, prompt-injection exposure, and the risks of giving unattended agents data and network access.
 
 ### Comment pulse
 
