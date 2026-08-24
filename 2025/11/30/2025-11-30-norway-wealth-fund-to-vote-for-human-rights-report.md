@@ -2,15 +2,17 @@
 
 - Score: 298 | [HN](https://news.ycombinator.com/item?id=46096555) | Link: https://www.cnbc.com/2025/11/30/norway-wealth-fund-to-vote-for-human-rights-report-at-microsoft-agm-against-management.html
 
-## TL;DR
-Norway’s $2T sovereign wealth fund, a 1.35% Microsoft shareholder, will back a proposal demanding a human-rights risk report on cloud datacenters in countries like Saudi Arabia, and vote against Satya Nadella as board chair and against his pay. Microsoft’s board opposes the non-binding proposal, saying it already discloses human-rights practices and must follow local laws. HN users debate whether this is meaningful ESG pressure or symbolic, question Norway’s motives, and criticize thin media coverage.
+### TL;DR
 
-## Comment pulse
-- Proposal asks Microsoft for human-rights report on datacenters in states like Saudi Arabia; board cites existing disclosures and legal compliance—counterpoint: commenters doubt protections there.  
-- Large investor backing a shareholder proposal signals board is missing an issue; boards almost always recommend “no,” so this dissent is reputationally painful.  
-- Some view Norway fund as hypocritical/late, possibly mixing human-rights language with geopolitical or financial interests; others welcome any pressure on tech–authoritarian entanglements.  
+Norway’s sovereign wealth fund plans to support a shareholder resolution asking Microsoft to report on human rights risks around cloud data centers in sensitive countries. It will also oppose Satya Nadella’s reelection as board chair and his compensation. The fund owns 1.35 percent of Microsoft, valued near $50 billion at midyear. Commenters supplied Saudi Arabia as the proposal’s central example and questioned whether current disclosures suffice. Microsoft’s board says existing reporting and independent assessments already address the concern.
 
-## LLM perspective
-- View: Shareholder human-rights proposals rarely pass, but backing by a top-10 owner raises the cost of board inaction.  
-- Impact: If more sovereign funds coordinate, cloud providers may reassess datacenter locations, contracts, and logging practices in high-risk jurisdictions.  
-- Watch next: Track Microsoft’s AGM vote percentages and whether other tech giants face similar proposals targeting operations in Saudi Arabia, China, UAE.
+### Comment pulse
+
+- A large holder’s dissent raises governance pressure → a nonbinding proposal can still signal dissatisfaction to directors.
+- More disclosure could expose local-law risks → cloud providers face surveillance demands — counterpoint: Microsoft says existing assessments already cover them.
+
+### LLM perspective
+
+- View: A major shareholder’s dissent turns human rights reporting from an activist request into a board accountability test.
+- Impact: Microsoft must weigh local legal obligations against investor expectations for transparent safeguards in sensitive jurisdictions.
+- Watch next: The vote totals and Microsoft’s response will show whether nonbinding pressure changes disclosure or director support.

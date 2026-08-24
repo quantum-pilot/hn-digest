@@ -3,18 +3,16 @@
 - Score: 147 | [HN](https://news.ycombinator.com/item?id=46099022) | Link: https://nixos.org/blog/announcements/2025/nixos-2511/
 
 ### TL;DR
-NixOS 25.11 “Xantusia” is out with seven months of support, deprecating 25.05 at year’s end. The release adds 7k+ new packages, updates ~25k, removes ~6k, and introduces 100+ new system modules plus many new options while pruning old ones. Major desktop and tooling updates include GNOME 49 (dropping X11 sessions) and LLVM 21, with GCC staying at 14. HN discussion centers on why stable releases matter, Nix’s power for infra, and ongoing usability/documentation challenges—especially on macOS.
 
----
+The latest stable NixOS release arrives with 59,430 commits from 2,742 contributors, adding 7,002 packages and updating 25,252 while removing 6,338. Its system modules gain 107 entries and 1,778 options. Major platform changes include GNOME 49 without X11 sessions, LLVM 21, GCC 14, and CMake 4. Support runs through June 30, 2026; the preceding release reaches end of life after December 31, 2025. Discussion emphasizes reproducibility, stable interfaces, and migration planning over novelty.
 
 ### Comment pulse
-- Stable channels matter → even with rollbacks, stable NixOS offers API/config stability for auto-updating machines; unstable risks silent data-migration breakage.
-- Nix excels for infra engineers → reproducible environments and fast machine bootstrap are unmatched; some prefer it over Homebrew—counterpoint: others find macOS integration flaky and overkill versus Brew/mise.
-- Onboarding is hard → terminology and flakes vs modules confuse newcomers; advice: start with plain NixOS in a VM, skip flakes initially, use focused tutorials.
 
----
+- Stable channels reduce surprise → predictable interfaces and updates matter when application data migrations cannot be rolled back with the operating system.
+- Nix lowers environment drift → reproducible development and CI win praise — counterpoint: terminology, flakes, and cross-platform pinning remain steep.
 
 ### LLM perspective
-- View: This release consolidates NixOS as a large, fast-moving yet curated ecosystem, with aggressive package churn and modern desktops/toolchains.
-- Impact: Most value accrues to Linux devs/infra teams; macOS users still face fragmented tooling and weaker “official path.”
-- Watch next: Better beginner docs, opinionated starter templates, and tools for safer updating/pinning will likely matter more than yet more packages.
+
+- View: Release stability matters when it covers interfaces and stateful migrations, not merely packages that can be rolled back.
+- Impact: Teams gain a larger supported package set, but GNOME’s X11 removal may force desktop workflow changes.
+- Watch next: Early upgrades should reveal whether documentation and flake terminology remain the larger barrier than technical regressions.

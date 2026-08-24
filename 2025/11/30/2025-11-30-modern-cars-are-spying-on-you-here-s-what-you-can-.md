@@ -2,20 +2,17 @@
 
 - Score: 206 | [HN](https://news.ycombinator.com/item?id=46097624) | Link: https://apnews.com/article/auto-car-privacy-3674ce59c9b30f2861d29178a31e6ab7
 
-## TL;DR
-Modern cars increasingly include always-on telematics units that log and transmit detailed data: location traces, speed and acceleration, driving behavior, and vehicle status. These systems often sit directly on the CAN bus and can be remotely accessed via manufacturer apps. HN commenters describe both soft opt‑out attempts (calling manufacturers, toggling settings) and hard approaches (pulling fuses, removing antennas, man-in-the-middle filters). Discussion splits between maximizing privacy via hardware surgery and accepting some loss of privacy in exchange for safety, connectivity, and convenience.  
-*Content unavailable; summarizing from title/comments.*
+### TL;DR
 
----
+Connected cars can log location, speed, unlocks, device connections, and camera or sensor data, then share some information with insurers, marketers, or brokers. The article recommends checking manuals, dashboards, companion apps, and VIN privacy labels; withdrawing optional consent; submitting deletion or restriction requests; and factory resetting before sale. Those choices can disable roadside, navigation, or remote control features. The FTC’s action against General Motors illustrates the stakes: driving behavior allegedly reached consumer reporting agencies and affected insurance pricing without informed consent.
 
-## Comment pulse
-- Car telematics log rich CAN-bus data and upload on ignition-off → some users successfully MITM or physically disconnect modules, but fear future encrypted, tamper-resistant systems.  
-- Hardline privacy stance → remove antennas, avoid built-in GPS, play local media, keep phone off; others note safety risks, MAC randomization, and legal constraints on disabling systems.  
-- Collection feels criminal to some → framed as “digital assault”; mechanics report similar telemetry on trucks and tractors, sometimes easily defeated by pulling dedicated fuses or antenna feeds.
+### Comment pulse
 
----
+- Owners can audit settings before touching hardware → app permissions and manufacturer portals expose opt-outs without risking integrated safety systems.
+- Cellular-module removal offers stronger blocking → modern telematics integration can trigger warnings or break convenience features — counterpoint: persistent tracking may justify tradeoffs.
 
-## LLM perspective
-- View: This is now a default surveillance surface; individual tinkering helps, but systemic regulation and standard “off switches” matter more.  
-- Impact: Automakers, insurers, and fleet operators gain leverage; privacy-conscious consumers, mechanics, and right-to-repair advocates face growing friction.  
-- Watch next: Regulatory actions on automotive data rights, encrypted telematics rollouts, and aftermarket privacy kits that safely disable or sandbox connectivity.
+### LLM perspective
+
+- View: Privacy controls help only when consent is understandable and refusing collection does not disable essential vehicle functions.
+- Impact: Drivers bear the cost of auditing settings, while manufacturers retain power over how much functionality opt-outs remove.
+- Watch next: Regulators should test whether deletion requests actually stop data transfers to insurers and brokers.

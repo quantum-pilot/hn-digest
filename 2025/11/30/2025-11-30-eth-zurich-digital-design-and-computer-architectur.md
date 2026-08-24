@@ -3,14 +3,17 @@
 - Score: 110 | [HN](https://news.ycombinator.com/item?id=46098747) | Link: https://safari.ethz.ch/ddca/spring2025/doku.php?id=start
 
 ### TL;DR
-- ETH Zurich’s Spring 2025 Digital Design and Computer Architecture course is a mandatory first‑year CS class teaching digital circuits up through a simple microprocessor, emphasizing fundamentals, trade‑offs, and systematic debugging. Students build a MIPS CPU in lab sessions; lectures run twice weekly with multiple lab slots and no prerequisites. Materials, livestreams, and past videos are publicly available under a CC BY‑NC‑SA license. HN discussion highlights the course’s quality, ETH’s open‑hardware efforts, and its broader systems legacy.
+
+ETH Zurich's spring course introduces digital circuits and modern computer architecture from the bottom up, covering execution paradigms, hardware description languages, microprocessor design, and the hardware-software interface. With no prerequisites, it aims to teach foundational principles, design tradeoffs, systematic debugging, and implementation of a simple processor through lectures and labs. An alumnus described the mandatory first-year computer science class as an undergraduate highlight, while the broader discussion praised its hands-on teaching and connected the syllabus to public resources, contemporary chip work, and influential educational designs.
 
 ### Comment pulse
-- Mandatory ETH CS course is widely loved → clear bottom‑up architecture teaching plus labs building a MIPS CPU make hardware concepts tangible and memorable.  
-- Open‑source ASIC design is emerging → ETH‑linked projects show promise, — counterpoint: skeptics doubt viability for complex chips without expensive proprietary tools.  
-- Comments celebrate ETH’s broader legacy → Niklaus Wirth’s Oberon FPGA processor, accessible books, and projects like RumbleDB and JSONiq showcase a strong systems‑and‑languages culture.  
+
+- Building hardware makes abstractions concrete → an alumnus credited exercise sessions assembling a MIPS CPU for an unusually memorable first-year course.
+- Public materials extend classroom value → commenters highlighted lecture videos and an open-source ASIC presentation from DAC 2025.
+- Historical designs still teach well → Project Oberon and its FPGA processor were recommended as accessible companions.
 
 ### LLM perspective
-- View: Public, hands‑on architecture courses with labs demystify hardware and make digital design accessible to software‑only students and self‑learners.  
-- Impact: Sharing these materials and open ASIC flows could grow the hardware‑literate workforce beyond students in well‑funded engineering schools.  
-- Watch next: Quality of freely available EDA stacks, reproducible course lab setups, and maintenance of video/wiki resources as curricula evolve.
+
+- View: The curriculum links gate-level reasoning to architectural judgment through implementation.
+- Impact: Beginners gain a concrete model for debugging across hardware and software boundaries.
+- Watch next: Updated schedules, lab repositories, processor assignments, exams, and published ASIC artifacts.

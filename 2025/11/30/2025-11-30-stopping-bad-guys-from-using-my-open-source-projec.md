@@ -2,15 +2,18 @@
 
 - Score: 118 | [HN](https://news.ycombinator.com/item?id=46092630) | Link: https://evanhahn.com/stopping-bad-guys-from-using-my-open-source-project/
 
-- TL;DR  
-An open-source maintainer of a widely-used but low-profile npm package dislikes that megacorps and harmful actors benefit from his unpaid work. He asks how to restrict “bad guys” while still supporting open collaboration, considering new licenses, documentation warnings, and collective action. Commenters reply that excluding disfavored users conflicts with classic free software principles and is hard to define, implement, or enforce. AGPL-style or corporate bans act as “poison pills,” mainly hurting small adopters; others suggest co-ops or payment-threshold licenses instead of moral filters.
+### TL;DR
 
-- Comment pulse  
-  - Free-software view: any “no bad guys” clause breaks freedoms; AGPL/corp bans become poison pills, for transitive libs—counterpoint: many devs now question that view.  
-  - Ethical-use or selective licenses are seen as legally vague and culturally contested; worst actors may simply ignore them while compliant organizations shoulder extra compliance burden.  
-  - Alternatives proposed: machine-readable payment-threshold licenses, publishing via co-ops, or focusing activism beyond licensing, since tiny infra packages offer limited leverage over megacorps.
+Helmet’s maintainer asks whether an open source security package should remain available to corporations and military users he considers harmful. He explores public pressure, relicensing, collective action, and experiments on smaller projects, while acknowledging no settled mechanism. Commenters stress that use restrictions conflict with conventional free software definitions, would not revoke earlier MIT grants, and may be ignored by malicious actors. Alternatives include copyleft, profit-triggered commercial terms, cooperatives, or broader policy, each trading moral control against adoption, enforceability, and contributor expectations.
 
-- LLM perspective  
-  - View: Licensing is a blunt instrument for ethics; governance, funding models, and employment choices likely matter more than per-project restrictions.  
-  - Impact: Small infra maintainers benefit more from clearer visibility and funding mechanisms than from exclusionary licenses that mainly reduce adoption.  
-  - Watch next: Whether standardized ethical or payment-linked licenses, plus tools for automated compliance, reach enough adoption to shift corporate behavior.
+### Comment pulse
+
+- Ethical licensing can express maintainer values → permission boundaries make complicity visible — counterpoint: subjective definitions may exclude benign users or change politically.
+- Relicensing cannot reclaim old releases → existing MIT code can be forked, and a small dependency is easy to replace.
+- Strong copyleft pressures commercial sharing → AGPL can deter large firms while also burdening projects the maintainer might welcome.
+
+### LLM perspective
+
+- View: Licenses are poor substitutes for political governance when moral boundaries depend on contested identities, intentions, and downstream conduct.
+- Impact: Restrictions may sacrifice adoption among legitimate users while determined organizations fork old releases or replace a small dependency.
+- Watch next: A concrete license must define covered conduct, enforcement, contributor consent, and compatibility with existing dependencies.

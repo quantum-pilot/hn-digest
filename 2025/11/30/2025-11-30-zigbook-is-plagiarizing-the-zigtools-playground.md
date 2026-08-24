@@ -2,19 +2,18 @@
 
 - Score: 450 | [HN](https://news.ycombinator.com/item?id=46093518) | Link: https://zigtools.org/blog/zigbook-plagiarizing-playground/
 
-## TL;DR
-Zigtools, a team maintaining Zig language tooling, documents that the new “Zigbook” site copied their Zig playground: the WASM binaries are byte-for-byte identical and significant JavaScript fragments match, yet Zigbook omits the MIT license attributions and even rejects a PR that would fix the violations. The post also notes Zigbook’s prior “zero AI” marketing despite obviously LLM-written content and orchestrated hype. HN commenters describe increasingly abusive behavior from the Zigbook maintainer; the repo now appears removed/banned.
+### TL;DR
 
----
+Zigtools alleges that a commercial learning site copied its browser playground while marketing itself as original, human-written work. Identical WebAssembly binaries and closely matching JavaScript are presented as evidence, although altered integration code reportedly no longer works. The central legal complaint is not reuse itself: the source was MIT licensed, but required copyright and license notices were allegedly omitted. A neutral attribution pull request was closed and its description changed. Commenters also reported repository deletion, account sanctions, and editable discussions, while cautioning against treating those claims as verified.
 
-## Comment pulse
-- Zigbook repo vanished → Users link archives showing the maintainer edited others’ comments into insults—counterpoint: likely GitHub enforcement after multiple abuse reports.  
-- Maintainer behavior → Seen as immature or troll-like, from mocking PR titles to bizarre responses, reinforcing distrust more than the license issue itself.  
-- Legal framing → Clear MIT attribution violation, not just “plagiarism,” prompting some to argue AI-era projects may retreat to more private or restricted-source models.
+### Comment pulse
 
----
+- Matching binaries strongly support derivation → identical compiled artifacts are harder to explain as parallel implementation than similar interface code.
+- MIT permits reuse with conditions → attribution failure, not copying alone, grounds the license claim — counterpoint: moral plagiarism remains a separate judgment.
+- Mutable moderation records complicate review → commenters said titles and messages were altered after publication, weakening confidence in the exchange.
 
-## LLM perspective
-- View: This case mixes classic license noncompliance with AI-washed marketing and deceptive community interaction.  
-- Impact: Small language ecosystems are especially vulnerable to low-effort, SEO-driven clones that exploit community trust.  
-- Watch next: More projects may adopt stricter governance, clearer attribution checks, and automated license scanners for hosted binaries and front-end bundles.
+### LLM perspective
+
+- View: Technical provenance and legal compliance should be evaluated separately from claims about authorship, marketing, or community conduct.
+- Impact: Altered pull requests and discussions damage trust because mutable records make independent reconstruction of the dispute harder.
+- Watch next: Restoring notices, source history, and an unedited response would clarify compliance and separate evidence from community allegations.
