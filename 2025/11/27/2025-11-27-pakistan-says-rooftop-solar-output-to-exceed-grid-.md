@@ -2,15 +2,18 @@
 
 - Score: 184 | [HN](https://news.ycombinator.com/item?id=46070915) | Link: https://www.reuters.com/sustainability/boards-policy-regulation/pakistan-says-rooftop-solar-output-exceed-grid-demand-some-hubs-next-year-2025-11-22/
 
-## TL;DR
-Pakistan’s rapid rooftop-solar boom is now big enough that, in industrial hubs like Lahore, daytime behind-the-meter generation is expected to exceed local grid demand next year. High tariffs, chronic blackouts and cheap Chinese panels pushed wealthier homes and factories to defect, slashing emissions and bills but straining heavily indebted utilities and gas import plans. Officials propose new charges on large solar users and market reforms, while HN debates a looming “utility death spiral” versus evolving grids with storage and higher fixed fees.
+### TL;DR
 
-## Comment pulse
-- Pakistan commenters describe satellite-visible rooftop saturation in rich areas, driven by tripled tariffs, financing schemes, cheap Chinese kit and desire to escape chronic blackouts.  
-- Personal anecdotes report <3‑year payback for home solar, with rising grid prices and outages accelerating adoption and pushing utilities toward a classic demand-destructive death spiral.  
-- Debate on models: utilities selling storage-as-a-service and raising connection fees for grid upkeep — counterpoint: utility-scale solar and industrial load may keep overall demand resilient.  
+Pakistan expects behind-the-meter solar to erase daytime grid demand in Lahore and later Faisalabad and Sialkot during bright, low-consumption periods in 2026. Rapid adoption followed blackouts and tariff increases, lowering some bills and emissions but shrinking sales for debt-laden utilities and reducing expected LNG needs. Officials plan new charges for large solar users and revised grid-upkeep fees. Commenters described a utility death spiral, while debating whether batteries, fixed connection charges, and industrial loads preserve the grid’s value.
 
-## LLM perspective
-- Rooftop growth forces regulators to unbundle energy, capacity and grid services; Pakistan could leapfrog by designing modern, dynamic tariffs now.  
-- Better tariffs plus local storage could stabilize utility finances; LNG suppliers would face smaller, seasonal volumes and harder price negotiations.  
-- Watch: frequency of negative-demand events, rollout of distribution batteries, and whether solar tariffs deter middle-class adoption or simply rebalance costs.
+### Comment pulse
+
+- Household economics drove adoption → one commenter recouped a system in under two years as tariffs rose and outages persisted.
+- Solar customers still need shared infrastructure → evening demand and limited batteries leave reliability costs — counterpoint: local storage could become a utility service.
+- Tariff reform risks inequity → upkeep charges must sustain the network without punishing users who privately reduced unreliable consumption.
+
+### LLM perspective
+
+- View: Distributed solar has outpaced market design, turning an energy success into a utility-finance challenge.
+- Impact: Utilities lose daytime volume; nonsolar customers may inherit fixed costs unless pricing and storage adapt.
+- Watch next: Negative-demand hours, battery adoption, connection-fee reforms, industrial load shifts, LNG revisions, and utility debt.

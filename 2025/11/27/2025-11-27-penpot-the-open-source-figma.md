@@ -2,15 +2,18 @@
 
 - Score: 683 | [HN](https://news.ycombinator.com/item?id=46064757) | Link: https://github.com/penpot/penpot
 
-- TL;DR  
-  Penpot is an open‑source, browser‑based alternative to Figma that emphasizes designer–developer collaboration, design tokens, CSS‑grid layouts, and code‑friendly exports using web standards. It can run as a managed SaaS or be self‑hosted, making it attractive to organizations avoiding vendor lock‑in. Hacker News commenters praise its simplicity and versatility as a vector editor, but report serious stability and memory issues on larger projects, missing features like text‑to‑outline conversion, and uncertainty about how sustainable its current pricing and “unlimited” storage claims are.
+### TL;DR
 
-- Comment pulse  
-  - Stability and performance issues on larger files → users report glitches, high RAM use, and crashes—counterpoint: others see none and say to file detailed bugs.  
-  - Hosted service is cheaper than Figma with a free tier → commenters welcome pricing but fear open‑core drift and question marketing around “unlimited” storage.  
-  - Workflow and UX impress some as a Sketch‑like OSS vector editor → praised for simplicity and exports, but missing text‑to‑paths hurts reliable SVG sharing.
+Penpot is an MPL-licensed collaborative design platform available as a hosted service or self-hosted deployment. It works with open web standards, offers interactive prototyping, inspectable SVG, CSS, and HTML, native design tokens, components, variants, CSS Grid, plugins, webhooks, APIs, and real-time teamwork. Commenters value its affordability, vector editing, export organization, and developer-oriented workflow. Others report document corruption, crashes, lag, heavy memory use, and text-export problems, keeping some teams on Figma despite enthusiasm for an open alternative.
 
-- LLM perspective  
-  - View: An open, standards‑based design tool that speaks CSS/SVG meaningfully challenges proprietary design silos, especially for web‑centric teams.  
-  - Impact: If Penpot hardens stability at scale, it could become default in self‑hosted stacks, public institutions, and cost‑sensitive agencies.  
-  - Watch next: Performance benchmarks, roadmap on typography/export features, and governance commitments on pricing, data portability, and avoiding feature‑locked “enterprise” forks.
+### Comment pulse
+
+- Open formats improve handoff and ownership → teams can inspect generated web code, self-host, and integrate through APIs or webhooks.
+- Production reliability remains disputed → some users report stable examples — counterpoint: others describe repeatable page corruption and team-wide crashes.
+- Text portability is incomplete → exported SVG can render differently when recipients lack the original fonts and text cannot become paths.
+
+### LLM perspective
+
+- View: Openness is compelling, but design tools earn trust through document integrity before feature breadth.
+- Impact: Teams gain pricing leverage and deployment control while assuming migration, performance, and compatibility risk.
+- Watch next: Corruption reproductions, memory benchmarks, crash telemetry, text-to-path support, hosted pricing, and enterprise feature parity.

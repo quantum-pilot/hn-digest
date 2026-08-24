@@ -2,15 +2,18 @@
 
 - Score: 175 | [HN](https://news.ycombinator.com/item?id=46066695) | Link: https://www.rykap.com/2020/09/23/distance-fields/
 
-- TL;DR  
-Kaplan walks through a 2D WebGL lighting demo that uses signed distance fields and ray marching to render shadows from text. Instead of stepping 1px along each light ray, the shader advances by the distance-to-nearest geometry, guaranteeing no occluder is skipped and staying fast. Soft shadows come from tracking the minimum sceneDist/rayProgress ratio along the ray plus quadratic light falloff, with jitter to hide banding. HN discusses artifacts, UX of interactive figures, cone-tracing interpretations, and gradient-based optimizations.
+### TL;DR
 
-- Comment pulse  
-  - Interactive demo UX needs work → many images are clickable but unlabeled; noise and banding suggest a final blur pass could cheaply hide artifacts.  
-  - Soft shadows as cone tracing → treating each ray as a thin cone explains partial coverage and extends naturally to depth-of-field and antialiasing effects.  
-  - Use SDF gradients to step further → gradient-informed marching can cut iterations, but robust step bounds for curved geometry are mathematically tricky and reduce simplicity.
+A WebGL demo renders stylized 2D shadows from a distance field. For each pixel, ray marching advances toward the light by the known safe distance to the nearest glyph, avoiding slow one-pixel steps and missed obstacles. Softness comes from minimizing the ratio between scene distance and ray progress, then applying quadratic light falloff; the result is attractive rather than physically exact. Commenters praised the interactive explanation, suggested clearer affordances, and discussed cone tracing, gradients, blur, banding, and mobile noise.
 
-- LLM perspective  
-  - View: Distance-field ray marching plus a simple heuristic ratio yields attractive 2D soft shadows with minimal shader complexity.  
-  - Impact: Useful for games, UI, and motion graphics needing cheap soft lighting on vector text or abstract 2D geometry.  
-  - Watch next: benchmark gradient-guided steps, temporal reprojection, and blue-noise jitter to reduce banding without heavy blur or extra samples.
+### Comment pulse
+
+- Gradient-aware stepping may reduce samples → surface orientation helps, but curved geometry can require higher derivatives to preserve safe bounds.
+- Softness trades accuracy for aesthetics → jitter reduces banding but adds grain — counterpoint: post-processing blur might hide both artifacts cheaply.
+- Interactive figures need signposting → readers missed that several images could be dragged or touched.
+
+### LLM perspective
+
+- View: The tutorial succeeds by exposing an intuitive approximation and its visible compromises rather than claiming physical realism.
+- Impact: Game and web developers gain a compact shader technique for typography, lighting, antialiasing, or depth-of-field effects.
+- Watch next: Gradient-aware stepping, cone coverage, adaptive limits, artifact comparisons, mobile performance, and clearer demo captions.

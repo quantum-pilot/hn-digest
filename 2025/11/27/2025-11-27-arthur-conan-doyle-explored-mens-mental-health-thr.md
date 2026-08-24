@@ -3,14 +3,17 @@
 - Score: 191 | [HN](https://news.ycombinator.com/item?id=46068015) | Link: https://theconversation.com/arthur-conan-doyle-explored-mens-mental-health-through-his-sherlock-holmes-stories-246728
 
 ### TL;DR
-The article argues that Arthur Conan Doyle used Sherlock Holmes stories as an early, nuanced exploration of men’s mental health and vulnerability. Drawing on Doyle’s experience with his alcoholic, institutionalized father, it reads Holmes’ drug use, depression, and need for constant stimulation as human fragilities rather than mere quirks of genius. Case stories like The Man with the Twisted Lip, The Engineer’s Thumb, and The Stockbroker’s Clerk foreground shame, trauma, and suicide, with Holmes offering practical psychological support to distressed men.
+
+A literary analysis reads Holmes and his clients as Victorian studies in male vulnerability shaped partly by Doyle's father's alcoholism and 12 years in mental institutions. Holmes's depression, loneliness, drug use, and need for work coexist with genius; other stories connect debt, shame, professional failure, suicide, violence, and trauma to masculine expectations. HN readers found the emotional portrait durable but disagreed over how far contemporary clinical language should govern historical characters or everyday discussion.
 
 ### Comment pulse
-- Holmes as “mentally ill” → Some see ADHD-like novelty seeking and depression when idle, but warn against retrofitting modern diagnoses to a 19th‑century character.  
-- Male mental health taboo persists → Men’s struggles are still minimized or politicized; openness clashes with fatigue over everyday pop‑psychology and discomfort with “vulnerability” rhetoric.  
-- Adaptations diverge → Viewers praise Elementary and House for centering addiction and recovery—counterpoint: in the canon Holmes is a cocaine user, not clearly an addict.
+
+- Work regulates Holmes's mood → readers saw novelty seeking, risk tolerance, and usefulness as central, while warning against present-day diagnostic certainty.
+- Male distress remains difficult to name → some described institutional minimization — counterpoint: others disliked making everyday life saturated with psychology.
+- Adaptations expose interpretive choices → Elementary foregrounds addiction recovery and relationships, whereas readers found the original character more socially capable.
 
 ### LLM perspective
-- View: Reading Holmes through mental health invites richer literary analysis but risks anachronism; balance historical context with modern insight.  
-- Impact: Helps normalize nuanced portrayals of men’s distress, beyond toughness vs fragility clichés, in both scholarship and popular media.  
-- Watch next: Comparative studies of Holmes adaptations’ treatment of addiction, PTSD, and workaholism; archival work on Doyle’s medical practice notes.
+
+- View: Genre fiction can encode vulnerability without reducing competence or agency.
+- Impact: Modern readers gain historical language for shame, trauma, and masculine self-concealment.
+- Watch next: Comparative readings across stories, publication chronology, medical context, and adaptation choices.

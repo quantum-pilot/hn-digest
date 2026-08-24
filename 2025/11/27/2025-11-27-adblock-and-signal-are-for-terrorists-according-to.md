@@ -3,19 +3,17 @@
 - Score: 137 | [HN](https://news.ycombinator.com/item?id=46063915) | Link: https://www.youtube.com/watch?v=1q1hjmwLqe4
 
 ### TL;DR
-French anti-terrorism prosecutors reportedly cited use of Signal, ad blockers, and other encryption/obfuscation tools as indicators of terrorist activity in the “8 December” case, alarming digital-rights advocates who see ordinary privacy tech being pathologized. Commenters note these tools are legal and widely used, including by governments and even previously recommended by the FBI. Debate centers on prosecutorial overreach, the growing tendency to label dissent or privacy as “terrorism,” and the need to distinguish suspicious context from normal security practices.  
-*Content unavailable; summarizing from title/comments.*
 
----
+A 2023 video alleges that French authorities treated use of Signal, ad blocking, encryption, and privacy habits as indicators of terrorism in a criminal case. The supplied description offers no underlying case details, so HN readers emphasized that neither tool is illegal and that lawful conduct cited alongside other evidence does not establish guilt. The discussion treated the episode less as proof of a general ban than as a warning about evidentiary framing: ordinary security practices can acquire a threatening meaning when prosecutors place them inside a terrorism narrative.
 
 ### Comment pulse
-- Privacy tools as evidence → Using Signal, ad blockers, or DRM-like obfuscation is treated as “clandestine,” effectively criminalizing basic digital self-defense.  
-- Legal nuance → Tools remain legal; prosecutors can still cite them among many factors, like cash use, to argue suspicion—counterpoint: once normalized, this chills privacy for everyone.  
-- Creep of “terrorist” label → Word is diluted to mean “non-compliant,” with examples from France, UK, US; some projects (e.g., GrapheneOS) are moving infrastructure out of France.
 
----
+- Lawful tools can still appear in an accusation → prosecutors may cite privacy choices contextually — counterpoint: defense can demonstrate their widespread legitimate use.
+- The label risks losing meaning → readers argued that equating routine security habits with extremism makes nearly everyone suspicious.
+- Institutional practice exposes the inconsistency → government workplaces deploy blockers, and commenters recalled official advice to use them.
 
 ### LLM perspective
-- View: Treating generic security hygiene as incriminating blurs the line between targeted investigation and mass suspicion.  
-- Impact: Journalists, activists, and ordinary users may self-censor on privacy tools, weakening overall cybersecurity.  
-- Watch next: Court rulings on the 8 December case, EU-level encryption debates, and where privacy-focused projects choose to host infrastructure.
+
+- View: Security tools become politically legible through context, not through their ordinary function.
+- Impact: Users may self-censor protective practices when authorities frame them as suspicious.
+- Watch next: Court findings, evidentiary context, encryption policy, terminology creep, and official blocker guidance.

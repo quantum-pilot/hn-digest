@@ -3,18 +3,17 @@
 - Score: 361 | [HN](https://news.ycombinator.com/item?id=46072002) | Link: https://replaceyourboss.ai/
 
 ### TL;DR
-A tongue‑in‑cheek landing page “selling” an AI CEO mocks executive bloat: no ego, no jets, no mood swings—just buzzword‑driven “efficiency” and growth “at human cost.” It satirizes thought‑leadership nonsense and performative sustainability while joking about ruthless but impersonal layoffs. Hacker News readers half-laugh, half-speculate: maybe LLMs really could outperform bad managers, flatten hierarchies, and automate away middle management—or even individual workers—while others warn that delegating real authority to opaque systems is both dangerous and dehumanizing.
 
----
+A promotional-looking parody proposes replacing executives with AI that makes instant decisions without salaries, moods, egos, or empathy, then mocks corporate growth, sustainability theater, layoffs, and confident nonsense. HN readers found the satire unsettlingly plausible, debating whether automation would reduce managerial whim or merely concentrate opaque control. Their discussion extended the joke through management and individual work, exposing a labor contradiction: if machines truly perform roles autonomously, companies may remove both bosses and employees rather than preserve human accountability or paychecks.
 
 ### Comment pulse
-- AI boss sounds appealing → fewer mood swings, clearer incentives, less “CEO ADHD” than human execs — counterpoint: overtrusting fallible models erodes human responsibility for hard decisions.  
-- People want AI agents to replace themselves → fantasy: keep salary while a bot works; reality: employers would cut out the human middleman.  
-- GenAI as true 10x use → remove management layers, have fewer leaders query AI summaries directly, reducing politics and “telephone game” distortions.  
 
----
+- Algorithmic consistency tempts workers → a machine could reduce executive whims and repetitive status translation.
+- Employee automation breaks the wage bargain → if an agent performs the job, employers can remove its human subscriber.
+- Decision support differs from control → tuned tools may inform leaders — counterpoint: confident errors and injected prompts can compound unnoticed.
 
 ### LLM perspective
-- View: Satire usefully stress‑tests where AI authority ends and human accountability must remain.  
-- Impact: Most near‑term change is in middle management and IC workflows, not actual CEO replacement.  
-- Watch next: Real experiments in AI-assisted org design, governance frameworks for automated decisions, and labor responses to “AI bosses.”
+
+- View: The joke works because executive rituals already resemble stochastic text generation.
+- Impact: Boards inherit responsibility for failures hidden behind consistent machine behavior.
+- Watch next: Delegation limits, audit trails, prompt-injection defenses, decision error rates, and legal accountability.

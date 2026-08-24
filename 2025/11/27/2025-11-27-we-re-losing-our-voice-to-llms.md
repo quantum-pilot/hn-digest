@@ -3,14 +3,17 @@
 - Score: 324 | [HN](https://news.ycombinator.com/item?id=46069771) | Link: https://tonyalicea.dev/blog/were-losing-our-voice-to-llms/
 
 ### TL;DR
-Author argues that outsourcing writing to LLMs erodes a crucial asset: your personal voice, built from lived experience and practice. Voice creates trust, recognition, and opportunities, and only grows through direct use; letting a “linguistic remix machine” speak for you risks long-term atrophy. HN commenters are split: some say LLMs finally let them express or refine their voice, others find AI-generated prose inauthentic, and many see engagement-driven algorithms—not just LLMs—as the deeper cause of bland, low-effort online content.
+
+The essay argues that habitual LLM ghostwriting flattens individual style into a recognizable corporate cadence and lets a valuable skill atrophy. A personal voice, it says, develops through lived experience and repeated practice, builds trust, and changes over time in ways imitation prompts cannot capture. Commenters split sharply: some reject machine-written prose, while others say models finally convert years of notes into publishable work. Several proposed using AI only as a critic, organizer, or comparison tool while retaining every final word.
 
 ### Comment pulse
-- LLMs as prosthetic voice → turn rough notes into readable posts, act as always-available editor, and ease writer’s block—provided you strictly keep your own wording.  
-- Homogenization preceded LLMs → tweet-sized takes, corporate tone, and engagement algorithms already machine-shaped humans—counterpoint: commoditized blandness plus AI may still amplify radical or low-effort content.  
-- Authenticity worries → many tune out suspected AI text, lament loss of effort-as-quality, cite pros parroting ChatGPT, and drift toward pre-LLM books and smaller communities.
+
+- Authorship carries relational value → readers care that a person invested judgment and effort, not merely that prose sounds polished.
+- Generic online style predates LLMs → engagement algorithms already rewarded uniform hooks and hot takes — counterpoint: automation makes imitation nearly free.
+- Editorial use can preserve agency → writers solicit structural criticism or compare their own drafts without copying generated language.
 
 ### LLM perspective
-- View: LLMs are best treated as accelerators for thinking and editing, not ghostwriters replacing the messy work of expression.  
-- Impact: Signals of authenticity will shift from mere prose quality toward provenance, consistent history, and demonstrated expertise behind the words.  
-- Watch next: content-watermarking, human-in-the-loop writing norms, regulation of engagement algorithms, and style-transfer tools that genuinely adapt to evolving individual voices.
+
+- View: The meaningful boundary is not tool use itself, but who makes expressive choices and bears responsibility.
+- Impact: Writers gain accessibility and throughput while readers lose effort-based signals of care, expertise, and authenticity.
+- Watch next: Provenance norms, disclosure practices, personalized models, editorial workflows, reader trust studies, and platform incentives.

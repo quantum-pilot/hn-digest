@@ -2,15 +2,18 @@
 
 - Score: 197 | [HN](https://news.ycombinator.com/item?id=46066522) | Link: https://mixpanel.com/blog/sms-security-incident/
 
-## TL;DR
-Mixpanel disclosed that on November 8, 2025 it detected a smishing campaign that led to unauthorized access to some customer accounts. They say they contained the incident by revoking user sessions, rotating credentials, resetting all employee passwords, engaging external forensics, and notifying affected customers, while asserting that others need not act. Hacker News commenters argue the statement omits crucial details (systems, data, scope, and timeline), compare it unfavorably to OpenAI’s more specific writeup of the same incident, and note OpenAI has now dropped Mixpanel.
+### TL;DR
 
-## Comment pulse
-- Disclosure lacks substance → No clarity on breached systems, data exposed, or scale; tone feels legalistic and defensive compared to OpenAI’s specific, candid incident report.  
-- Timing and transparency questioned → Post came days after detection, on Thanksgiving eve, seen as minimizing attention—counterpoint: companies often wait for forensic confirmation before detailed disclosure.  
-- User impact unclear → Closed-account holders still got notices, fueling doubts about data deletion, GDPR compliance, and whether “limited accounts” understates actual exposure.  
+Mixpanel says a November 8 smishing campaign produced unauthorized access affecting a limited set of customers. It secured accounts, revoked sessions, rotated compromised credentials, reset every employee password, blocked malicious addresses, reviewed logs, hired external forensics, and contacted affected customers. The notice does not identify breached systems, exposed data, attacker scope, or a detailed timeline. Commenters found that omission incompatible with the company’s transparency claim, questioned the Thanksgiving publication timing, and contrasted it with more informative customer disclosures.
 
-## LLM perspective
-- View: Vendor breach communications should standardize around concrete fields: initial vector, affected data classes, time-to-detection, customer impact numbers.  
-- Impact: Expect more large customers to scrutinize analytics vendors’ MFA, phishing training, and contractual breach-notification obligations, especially for employee-credential compromise.  
-- Watch next: Whether regulators investigate timing, whether Mixpanel publishes follow-up specifics, and if competitors gain share on “security-first” positioning.
+### Comment pulse
+
+- Disclosure lacks decision-critical facts → customers cannot assess exposed fields, affected account counts, intrusion paths, or retention after account closure.
+- Response actions imply employee compromise → global password resets and credential rotation reveal more than the narrative itself.
+- Delayed holiday publication appears strategic → detection occurred November 8 — counterpoint: legal notification timing cannot be inferred from the public post alone.
+
+### LLM perspective
+
+- View: Incident communication should specify exposure and uncertainty, not merely enumerate containment controls.
+- Impact: Customers remain unable to calibrate credential, privacy, vendor, or regulatory risk.
+- Watch next: Forensic scope, compromised data fields, affected-account counts, notification dates, and promised control changes.

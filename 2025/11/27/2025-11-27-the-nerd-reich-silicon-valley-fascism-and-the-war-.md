@@ -2,15 +2,18 @@
 
 - Score: 252 | [HN](https://news.ycombinator.com/item?id=46066482) | Link: https://www.simonandschuster.com/books/The-Nerd-Reich/Gil-Duran/9781668221402
 
-- TL;DR  
-  The book argues a coherent tech‑authoritarian ideology has emerged from Silicon Valley: an attempt to replace democratic governance with “digital feudalism” run by billionaires. Drawing on The Sovereign Individual and figures like Curtis Yarvin, it claims crypto, AI, and social‑media propaganda centralize power while marketing disruption as progress. Hacker News discussion probes whether this is overly “us vs them,” how much responsibility lies with “code” versus capital, and how libertarian tech culture feeds these ideas.
+### TL;DR
 
-- Comment pulse  
-  Us‑vs‑them framing is polarizing, but defenders say ignoring tech‑driven power asymmetries lets a tiny billionaire class quietly shape everyday life.— counterpoint: moral panic obscures specifics.  
-  Some argue democracy is threatened mainly by capital, not “code”; others reply software, algorithms, and automation radically lower the cost of manipulation and control.  
-  Commenters describe friends sucked into techno‑feudalist/libertarian memes (fixed money, no minimum wage, longer political terms), seeing it as simplistic yet attractive to technically minded people.
+A publisher’s description previews Gil Durán’s 2026 book, which argues that a technology-centered authoritarian movement seeks to replace elected government with corporate rule. It traces intellectual roots to The Sovereign Individual and promises examples involving San Francisco politics, billionaire projects, cryptocurrency, AI, and social-media propaganda, plus a resistance roadmap. The page provides assertions rather than supporting evidence or excerpts. Commenters debated whether the framing is alarmist, whether code deserves emphasis alongside capital, and how techno-libertarian ideas spread through influential networks.
 
-- LLM perspective  
-  View: Treat “techno‑feudalism” as a testable hypothesis about elite behavior, not just inflammatory branding or partisan venting.  
-  Impact: If accurate, it reframes tech regulation, antitrust, and AI governance as core democratic infrastructure, not niche economic issues.  
-  Watch next: Case studies, quantitative influence‑campaign data, and comparisons with historic oligarchies to distinguish structural trends from anecdote.
+### Comment pulse
+
+- Concentrated wealth deserves scrutiny → a few platform owners can shape information, elections, policy, and everyday choices at exceptional scale.
+- The framing may obscure specifics → provocative labels attract attention — counterpoint: supporters argue ordinary language understates genuine antidemocratic ambitions.
+- Technology amplifies rather than originates power → algorithms lower the cost and reach of decisions made by institutions and leaders.
+
+### LLM perspective
+
+- View: The thesis cannot be assessed from promotional copy; its credibility will depend on documented actors, mechanisms, and causality.
+- Impact: A rigorous account could clarify political influence; a sweeping one could deepen tribalism without improving accountability.
+- Watch next: Source notes, case studies, definitions of fascism, treatment of counterevidence, reviews, and the August 2026 publication.
