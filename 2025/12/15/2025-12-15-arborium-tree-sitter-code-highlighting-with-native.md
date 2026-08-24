@@ -3,14 +3,17 @@
 - Score: 216 | [HN](https://news.ycombinator.com/item?id=46270298) | Link: https://arborium.bearcove.eu/
 
 ### TL;DR
-Arborium is a Rust and WebAssembly syntax highlighter built on tree-sitter, shipping curated grammars that compile to both native and browser targets. It outputs semantic HTML via custom tags and ANSI for terminals, supports 96 languages behind feature flags, and bundles many themes. Integration is simple (Rust API, `<script>` autoload, npm), with extras for rustdoc/docs.rs and CLI error reporting. The main tradeoff: large WASM bundles because each grammar embeds a full tree-sitter runtime.
+
+Arborium packages 96 hand-selected Tree-sitter grammars with working highlight queries for native Rust and WebAssembly. It outputs compact custom-element HTML or true-color ANSI, offers feature-gated languages and bundled themes, and supports direct Rust, npm, script-tag, rustdoc, and miette integrations. A custom WASM sysroot supplies libc dependencies that C-based parsers expect. The principal tradeoff is size: each grammar embeds the Tree-sitter runtime despite aggressive optimization. Commenters praised the easy static-highlighting path but questioned payload weight and interactive-editor ergonomics.
 
 ### Comment pulse
-- Arborium feels unusually polished: curated grammars, fixed highlight queries, and turnkey Rust/docs.rs integration → far beyond “just wiring tree-sitter.”
-- Great for static highlighting and in-browser editors via overlaying highlighted HTML on a textarea → but WASM size may be heavy for small widgets.
-- Tree-sitter parsing enables AST-level, context-aware highlighting → however, docs.rs allowing arbitrary HTML/JS raises serious security concerns for such integrations.
+
+- Developers valued curated, repaired grammars because assembling compatible parsers and highlight queries independently had proved difficult.
+- The editable demo overlays highlighted output on a textarea; commenters noted production editing still brings many synchronization corner cases.
+- Arbitrary HTML and JavaScript in hosted rustdoc pages raised security concern beyond Arborium itself.
 
 ### LLM perspective
-- View: Arborium shows tree-sitter-based highlighting is ready as a practical replacement for regex engines in docs and tools.
-- Impact: Rust ecosystem, documentation hosts, and CLIs gain consistent, high-quality highlighting across native binaries and the web.
-- Watch next: shared WASM runtime to shrink bundles, docs.rs security posture, and comparisons against Monaco/Shiki on size and latency.
+
+- View: Arborium turns fragmented Tree-sitter components into a coherent, unusually approachable highlighting distribution.
+- Impact: Rust, browser, terminal, and documentation tools gain one parser-backed highlighting stack across targets.
+- Watch next: Shared WASM runtime work, per-language download sizes, editor integration, and response to rustdoc security concerns.

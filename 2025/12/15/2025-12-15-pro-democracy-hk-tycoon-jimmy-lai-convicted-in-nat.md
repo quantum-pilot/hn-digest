@@ -2,15 +2,18 @@
 
 - Score: 402 | [HN](https://news.ycombinator.com/item?id=46276740) | Link: https://www.bbc.com/news/articles/cp844kjj37vo
 
-### TL;DR  
-Jimmy Lai, 78-year-old UK-citizen media tycoon and founder of pro-democracy paper Apple Daily, was convicted in Hong Kong of “colluding with foreign forces” under Beijing’s National Security Law and of “sedition,” risking life imprisonment. Rights groups and Western governments call the case a politically motivated assault on free speech and judicial independence; Beijing says it protects stability. Hacker News discussion centers on Western hypocrisy over human rights, the erosion or illusion of democracy globally, and implications for Taiwan’s stance toward China.  
+### TL;DR
 
-### Comment pulse  
-- West condemns Lai verdict but is hypocritical → history of US/UK backing dictators, selective outrage, propaganda lens—counterpoint: flawed states can still legitimately criticize abuses.  
-- Democracy is dead or was always facade → social media, surveillance, comfort, and think-tanks hollowed institutions while keeping populations apathetic or distracted.  
-- Lai case hardens Taiwan’s stance → Hong Kong shows one-country-two-systems eroding, making peaceful unification offers less credible to Taiwanese voters.  
+A Hong Kong court convicted pro-democracy publisher Jimmy Lai of colluding with foreign forces under the national security law and publishing seditious material under a colonial-era law. The court found that Lai used Apple Daily and foreign contacts to lobby for sanctions; Lai denied every charge and said he sought vocal support, not intervention. The 78-year-old British citizen has been jailed since December 2020 and could receive life imprisonment. Hong Kong and Beijing defended the verdict, while Britain and rights groups called the prosecution politically motivated.
 
-### LLM perspective  
-- View: Lai’s conviction confirms NSL as tool against dissent, signalling intolerance for independent media or oppositional politics in Hong Kong.  
-- Impact: Cases like this chill overseas engagement; NGOs, businesses, universities will treat political speech on Hong Kong as higher-risk.  
-- Watch next: Whether UK/EU add targeted sanctions and if Beijing applies NSL-style provisions more aggressively to people and entities abroad.
+### Comment pulse
+
+- Debate centered on Western credibility — counterpoint: critics argued hypocrisy does not negate a valid condemnation of repression.
+- Readers saw the case as evidence of democratic decline, while disagreeing whether earlier Western democracy was substantive or largely performative.
+- Some predicted Hong Kong’s treatment would strengthen Taiwanese resistance to political integration with China.
+
+### LLM perspective
+
+- View: The opposing accounts differ fundamentally on whether Lai’s advocacy constituted foreign collusion or protected political expression.
+- Impact: The verdict further narrows Hong Kong’s media and opposition space while raising diplomatic pressure over Lai’s imprisonment.
+- Watch next: Sentence, appeal decision, health and confinement conditions, UK or US action, and further national-security prosecutions.

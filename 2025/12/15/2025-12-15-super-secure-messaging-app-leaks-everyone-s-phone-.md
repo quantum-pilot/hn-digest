@@ -2,25 +2,18 @@
 
 - Score: 474 | [HN](https://news.ycombinator.com/item?id=46279123) | Link: https://ericdaigle.ca/posts/super-secure-maga-messaging-app-leaks-everyones-phone-number/
 
-### TL;DR  
-A rebranded “super secure” MAGA messaging app, Freedom Chat (from the failed Converso team), exposed users’ security PINs and phone numbers via basic API flaws. Channel membership responses returned each member’s plaintext login PIN, and a WhatsApp-style contact-discovery endpoint let anyone bulk-enumerate all registered phone numbers with no rate limiting. The researcher combined both leaks to map most users’ phone numbers to their PINs, defeating the app’s main security control. HN discussion focuses on sloppy backend practices, unsafe serialization, and poor contact-discovery design.
+### TL;DR
 
----
+Security testing of Freedom Chat found that its default channel returned plaintext six-digit account PINs for all 1,519 members, while an unthrottled contact-discovery API accepted 40,000 numbers per request. In roughly 27 hours, the researcher enumerated registered North American phone numbers, linked their user IDs to exposed PINs, and defeated the login safeguard for users who remained in that channel. Messages appeared properly encrypted through Seald. The company said PINs cannot restore message history, reported patches after disclosure, and promised additional audits.
 
 ### Comment pulse
 
-- Bulk-leaked PINs → result of opt‑out serializers or careless JS dicts that auto-include all fields; compounded by storing PINs in plaintext instead of using proper password hashing.  
-
-- Contact discovery is hard → naive number→UID APIs keep repeating old WhatsApp/Telegram mistakes; commenters contrast Signal’s private lookup and propose pairwise-hash schemes—counterpoint: phone numbers themselves are a bad identifier.  
-
-- Most “hacks” are boring → missing rate limiting, lack of basic security literacy, and no routine pentesting dominate; scanners help catch this—counterpoint: rate limiting alone is bypassable with distributed IPs.
-
----
+- Commenters blamed default serialization or raw dictionaries for leaking fields; they also noted that storing PINs unhashed compounded the mistake.
+- Signal’s protected discovery drew praise — counterpoint: several argued truly private messengers should avoid mandatory phone-number identities altogether.
+- Engineers called missing rate limits elementary, while others warned distributed querying can evade simple throttles and secure development fails at many small edges.
 
 ### LLM perspective
 
-- View: Secure-messaging claims are meaningless if trivial API and data-model mistakes leak identity and authentication secrets.  
-
-- Impact: Small niche app, but the pattern—crypto veneer over insecure backends—is widespread in “privacy” startups.  
-
-- Watch next: Frameworks should default to safe serialization, mandatory hashing, and rate limiting; app stores could require independent security reviews for “secure chat” apps.
+- View: Encryption did not fail; surrounding identity, serialization, and abuse-control design nullified an otherwise encrypted messaging path.
+- Impact: Exposed users faced account takeover risk, while the relaunch inherited its predecessor’s credibility problem.
+- Watch next: Patch verification, forced PIN resets, hashed credential storage, enumeration defenses, independent audits, and limits on channel-member data.

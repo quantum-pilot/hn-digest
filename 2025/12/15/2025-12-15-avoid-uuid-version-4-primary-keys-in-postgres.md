@@ -3,18 +3,17 @@
 - Score: 328 | [HN](https://news.ycombinator.com/item?id=46272487) | Link: https://andyatkinson.com/avoid-uuid-version-4-primary-keys
 
 ### TL;DR
-The author argues against using UUID v4 as primary keys in Postgres because their randomness interacts badly with B-tree indexes: inserts cause frequent page splits and fragmentation, indexes are ~40% larger than `bigint`, cache hit rates worsen, and common operations (lookups, range scans, updates) touch vastly more pages. Benchmarks show millions more buffer hits versus `bigint` for the same workload. For most web apps, they recommend sequence-backed integers or bigints; if you truly need UUIDs, prefer time-ordered UUID v7. Obfuscation can be added on top of integers instead of using random PKs.
 
----
+Andrew Atkinson argues that random UUIDv4 primary keys are a poor default for monolithic PostgreSQL OLTP applications. Their 16-byte, unordered values make B-tree indexes larger, scatter writes, increase page splits and WAL, and pressure the buffer cache. His 10-million-row experiment found 97.64% average leaf fill for integers, 79.06% for UUIDv4, and 90.09% for UUIDv7. He recommends integer or bigint sequences, using separate obfuscated public identifiers when needed, or time-ordered UUIDv7 when decentralized generation or UUID compatibility matters.
 
 ### Comment pulse
-- Premature optimization vs semantics in IDs → Some say “never encode data in identifiers”; others argue UUIDv7’s timestamp bias isn’t semantic data and yields real performance gains.  
-- DB- and workload-specific trade-offs → Postgres likes ordered keys, but Spanner/Cockroach/Bigtable need non-monotonic keys to avoid hot shards—counterpoint: sharded Postgres often also benefits from randomness.  
-- Alternatives to UUIDv4 → Many favor UUIDv7 or encrypted/permuted integer IDs to hide counts/timestamps without random PK costs; article’s XOR/base62 scheme seen as over-engineered.
 
----
+- Critics called this premature optimization — counterpoint: the author’s million-update test estimated seconds of additional memory-access latency.
+- Distributed databases may prefer random keys to avoid hot shards, so the recommendation depends on storage architecture and workload.
+- UUIDv7 improves PostgreSQL locality while retaining decentralized generation, but its timestamp component can disclose creation time.
 
 ### LLM perspective
-- View: Default to `bigint` identity PKs; add obfuscation only where user-facing, not as the storage key itself.  
-- Impact: Teams gain simpler indexing, cheaper IO, and more predictable tuning; distributed systems still choose randomness where hotspotting dominates.  
-- Watch next: Postgres 18 native UUIDv7, empirical benchmarks on mixed workloads, and patterns combining `bigint` PKs with public opaque IDs.
+
+- View: The article makes a strong PostgreSQL-specific case, not a universal verdict on identifier design.
+- Impact: Choosing keys early affects index footprint, write amplification, cache efficiency, privacy, and future distribution.
+- Watch next: Workload-specific benchmarks, PostgreSQL 18 UUIDv7 adoption, migration costs, and sharded-database comparisons.

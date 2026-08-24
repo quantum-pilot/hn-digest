@@ -2,15 +2,18 @@
 
 - Score: 176 | [HN](https://news.ycombinator.com/item?id=46270415) | Link: https://readsomethingwonderful.com/
 
-- TL;DR  
-Read Something Wonderful is a minimalist site that surfaces curated long-form articles, apparently tied to the Matter read‑later app. HN readers like the aesthetic concept of stumbling onto a single highlighted piece, but criticize the implementation: articles are screenshots, zooming and reader mode break, links sometimes fail, and typography is inconsistent. Commenters also question the opaque criteria behind what counts as “wonderful,” detecting a possible libertarian bias and flagging at least one ethically controversial essay. Several ask for RSS or subscription features.
+### TL;DR
 
-- Comment pulse  
-  - Screenshot-based design breaks zooming and reader mode → text is raster images, causing unreadability, scroll glitches, and even blank pages on some browsers.  
-  - Curated layout feels serendipitous → resembles StumbleUpon-style essay discovery, but lacks consistent fonts and accessibility — counterpoint: others consider the UI outright unusable.  
-  - Selection criteria seem ideological → some detect libertarian, anti-socialist tilt and object to controversial “unpopular ideas” pieces; calls for transparency, RSS, and fewer broken links.
+Matter’s portal curates older internet essays as a counterweight to feeds optimized for novelty. Its premise is that most enduring writing predates the last day or year, while the Never-Ending Now keeps readers consuming ephemeral updates; visitors can browse the collection and email less-obvious recommendations. HN discussion largely shifted from curation to an inaccessible presentation and unclear editorial criteria. Readers also asked for a durable way to follow updates and reported broken outbound links.
 
-- LLM perspective  
-  - View: Nice proof-of-concept for curated reading, but image-only text and opaque curation undermine trust and usability.  
-  - Impact: Could inspire better “one great article a day” services if others marry this idea with accessibility and open criteria.  
-  - Watch next: Whether Matter or competitors add RSS, proper HTML, and community-governed recommendation signals to similar discovery experiences.
+### Comment pulse
+
+- Some praised the visual concept — counterpoint: image-based articles made zoom, reader mode, scrolling, and accessibility fail across desktop and mobile.
+- Readers questioned what qualified as wonderful, with one perceiving an ideological tilt and another objecting to a selected essay.
+- Multiple users requested RSS or subscription support; others suspected the collection mainly promoted Matter and noted a certificate error on an outbound link.
+
+### LLM perspective
+
+- View: Timeless curation is valuable only if its reading interface and selection logic earn trust.
+- Impact: Matter can surface neglected essays, but image rendering excludes readers and weakens preservation.
+- Watch next: Text-first pages, accessibility, link maintenance, published selection criteria, RSS availability, and whether recommendations broaden the collection.

@@ -3,18 +3,17 @@
 - Score: 266 | [HN](https://news.ycombinator.com/item?id=46268844) | Link: https://www.techpowerup.com/344075/microsoft-copilot-ai-comes-to-lg-tvs-and-cant-be-deleted
 
 ### TL;DR
-Microsoft is bundling its Copilot AI assistant directly into LG smart TVs, and it reportedly can’t be removed. HN discussion treats this less as a feature and more as another data-harvesting, engagement-metric play: users increasingly refuse to connect TVs to the internet, instead using external boxes like Apple TV or Nvidia Shield. Commenters foresee TVs that require connectivity, maybe even with cellular, and some look to jailbreaking and Linux-based interfaces as the only path to control and repairability.
 
----
+The report, citing one Reddit user, says an LG webOS update installed a Microsoft Copilot app that could not be removed, though it could be ignored. The article does not establish affected models, rollout scope, or what Copilot does on a television, and its suggestion of a wider Linux release is speculative. Separately, LG’s optional Live Plus setting can recognize displayed content for recommendations and advertising. Discussion focused on unwanted platform control, privacy, and dependence on vendor firmware.
 
 ### Comment pulse
-- Treat TVs as dumb panels → never connect to Wi-Fi; use Apple TV / Nvidia Shield to dodge spyware UIs and ad-subsidized ecosystems—counterpoint: even “good” boxes could pivot to data-mining later.  
-- Forced Copilot integration → seen as KPI theater for investors, not user value; one user likes Copilot chat on phone but sees no compelling TV use.  
-- Escape hatches → interest in rooting webOS and installing Linux/Plasma Bigscreen; hope right-to-repair cases (e.g., Vizio) force TV software openness despite DRM hurdles.
 
----
+- Many use televisions as disconnected displays and delegate streaming to separate boxes, limiting vendor updates and data collection.
+- One Copilot user valued chat itself — counterpoint: no commenter identified a persuasive television-specific use.
+- Firmware may fix display problems or break working features, making permanent disconnection an imperfect defense.
 
 ### LLM perspective
-- View: Copilot on TVs mainly extends Microsoft’s data and engagement footprint into the living room, not core viewing quality.  
-- Impact: More technically savvy users will air-gap panels, jailbreak firmware, or standardize on external HDMI devices.  
-- Watch next: Whether regulators treat bundled AI/telemetry on TVs as a consumer protection and right-to-repair issue.
+
+- View: The strongest concern is non-removable software, while the report offers no evidence about Copilot’s television capabilities.
+- Impact: Owners lose control over interfaces and may avoid networking displays, sacrificing updates and integrated features.
+- Watch next: LG confirmation, affected models and regions, uninstall controls, permissions, telemetry, and a documented product purpose.

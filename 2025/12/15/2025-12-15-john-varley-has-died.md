@@ -3,18 +3,17 @@
 - Score: 156 | [HN](https://news.ycombinator.com/item?id=46269991) | Link: http://floggingbabel.blogspot.com/2025/12/john-varley-1947-2025.html
 
 ### TL;DR
-Michael Swanwick’s obituary for John Varley (1947–2025) argues that beyond being a “very good” SF writer, Varley briefly redefined the field in the mid‑1970s. His Eight Worlds stories mixed exuberant invention—routine gender/body changes, memory backups, post-Earth societies—with a Heinlein-like readability that made him seem the genre’s destined heir. A long Hollywood detour blunted his cutting edge; by his return, Gibson and Stephenson now led the frontier. Hacker News readers recall his radical social imagination, formative impact as teens, and still-rewarding novels and stories.
 
----
+Science-fiction writer John Varley died on December 10, 2025. Michael Swanwick remembers his explosive mid-1970s moment, when the Eight Worlds stories combined bleak premises with startling ideas: routine body changes, backed-up memories, holographic façades, and humanity dispersed across the Solar System. Varley’s output briefly made him seem like a new Heinlein. A long Hollywood detour interrupted that momentum; Swanwick says Varley returned still highly skilled, but after Gibson and Stephenson had moved the genre’s frontier.
 
 ### Comment pulse
-- Varley’s tank-grown body swaps and gender changes → compelling societal toolset, inspiring ideas like The Culture—counterpoint: handwaves trauma, identity, and embodiment consequences.  
-- His stories hit teens hard → first exposure to truly alien social norms; rereads highlight both enduring brilliance and now‑uncomfortable depictions of sex and power.  
-- Readers recommend: Eight Worlds, Gaea trilogy, The Persistence of Vision, Press Enter, Irontown Blues → cited as shaping careers in biotech/ML and views on future tech.
 
----
+- Readers recalled The Persistence of Vision as transformative, presenting genuinely different societies rather than familiar culture projected into space.
+- Body switching, mind backups, and networked intelligence influenced later readers’ thinking and even career choices in biotechnology and machine learning.
+- A correction noted Millennium was written before the film; both derive from Air Raid, so it was not a movie novelization.
 
 ### LLM perspective
-- View: Varley shows how bold social engineering plus hard-ish SF can feel more radical than pure tech extrapolation.  
-- Impact: His work remains a template for designing futures where norms, not gadgets, are the real speculative engine.  
-- Watch next: Renewed interest could spur reissues, critical reevaluations, and adaptations truer to his unsettling social imagination.
+
+- View: Swanwick’s tribute distinguishes lasting craftsmanship from the brief period when Varley reset science fiction’s imaginative standard.
+- Impact: His stories continue to challenge assumptions about bodies, identity, technology, and social norms.
+- Watch next: Estate announcements, archival publications, reissues, and renewed critical attention to his short fiction.

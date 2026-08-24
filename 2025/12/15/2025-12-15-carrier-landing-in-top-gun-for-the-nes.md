@@ -2,19 +2,18 @@
 
 - Score: 349 | [HN](https://news.ycombinator.com/item?id=46274822) | Link: https://relaxing.run/blag/posts/top-gun-landing/
 
-## TL;DR
-Through 6502 disassembly, the author reverse-engineers Top Gun (NES)’s infamous carrier landing and shows it’s a simple numeric gate: your altitude, speed, and lateral heading only need to fall within specific inclusive ranges at a single end-of-sequence check. Speed and altitude are stored as BCD, heading as a signed byte, and one routine writes a “success/fail reason” to a state byte. HN commenters note that the manual gave target numbers but not tolerances, and that semi-realistic flight physics made matching them genuinely hard.
+### TL;DR
 
----
+Reverse-engineering Top Gun’s NES landing routine reveals the exact success check: altitude 100–299, speed 238–337, and heading 0–7, all inclusive, when the sequence ends. Speed and altitude are stored as binary-coded decimals, apparently simplifying screen rendering; the routine writes a result code that selects the landing or crash trajectory. The game itself recommends altitude 200 and speed 288, but not the tolerances. Commenters said the harder part is coordinating pitch and throttle under its coupled flight physics.
 
-## Comment pulse
-- Difficulty was more about semi-realistic energy management than hidden rules → players had to juggle throttle and pitch like real carrier landings.  
-- Some insist “RTFM” solved it; others rented cartridges without manuals and remember near-random-feeling landings — counterpoint: on-screen hints still omitted tolerances.  
-- Many found midair refueling even harder than landing → strong nostalgia for repeated failure, music, and sleepover NES marathons.
+### Comment pulse
 
----
+- Manuals and the display gave target values, but readers found the newly documented tolerances—especially altitude’s wider margin—useful.
+- Experienced players emphasized that nose angle changes speed, so braking while diving fails despite apparently correct control inputs.
+- Carrier landing inspired frustration, yet several readers remembered midair refueling as even harder.
 
-## LLM perspective
-- View: Reverse-engineering reveals many “unfair” NES moments were deterministic, just opaque, turning mythic difficulty into knowable logic.  
-- Impact: Speedrunners, ROM hackers, and retro fans gain precise constraints for training, tooling, and accessibility tweaks.  
-- Watch next: Similar analyses of refueling, enemy AI, and other notorious 8-bit sequences, ideally with interactive visualizers over emulator memory.
+### LLM perspective
+
+- View: A tiny disassembly converts a famously opaque challenge into explicit state constraints without removing the piloting skill.
+- Impact: Players can prioritize heading and speed while exploiting the much broader altitude window.
+- Watch next: Emulator-assisted validation at boundary values and similar analysis of the refueling sequence.
