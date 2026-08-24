@@ -3,18 +3,17 @@
 - Score: 519 | [HN](https://news.ycombinator.com/item?id=46905555) | Link: https://www.tigerdata.com/blog/its-2026-just-use-postgres
 
 ### TL;DR
-The article argues that in 2026 most teams should default to “one big Postgres” instead of a zoo of specialized databases. Modern Postgres plus extensions (pg_textsearch, pgvector/pgvectorscale, TimescaleDB, PostGIS, pgmq, pg_cron, JSONB, etc.) can handle search, vectors, time‑series, queues, caching, documents, and geospatial in one system—often using the same algorithms as Elasticsearch, Pinecone, InfluxDB, Redis, and MongoDB. This greatly cuts operational complexity, especially for AI-era workflows where agents need to fork, test, and tear down environments quickly.
 
----
+Tiger Data argues that most companies should consolidate search, vectors, time series, caching, documents, queues, geospatial work, and scheduled jobs in PostgreSQL through extensions, reducing synchronization, operations, credentials, backups, and failure modes. It presents code examples and vendor benchmarks, claiming specialized systems are rarely necessary until measured scale exposes a real limit. Commenters largely reframed this as “Postgres by default,” not “Postgres exclusively,” citing SQLite for local simplicity and purpose-built systems for demanding workloads. Others challenged the article’s economics, technical equivalences, promotional framing, and apparently AI-generated style.
 
 ### Comment pulse
-- Postgres-as-default → Reasonable for early stages; once scale/requirements are clear, specialized systems like ClickHouse, Redis, Pinecone can be more cost-effective—counterpoint: you’ll know when you’re truly in that 1%.  
-- Complexity tradeoffs → Postgres is powerful but admin-heavy; SQLite remains simpler for single-user or tiny shared apps, yet many find “low-maintenance Postgres” easier than stretching SQLite.  
-- Meta reaction → Some see the post as LLM-flavored marketing slop; others note votes mainly reflect agreement with the “use Postgres” sentiment, not article craftsmanship.
 
----
+- Default beats dogma → start with Postgres until measurements justify specialization — counterpoint: extensions can impose substantial tuning and operating costs.
+- Workload determines simplicity → Postgres suits shared applications; SQLite excels locally, while scaled analytics or caching may reward purpose-built systems.
+- Presentation damaged trust → an HN moderator buried the post for seeming AI-generated, though commenters noted detection and authorship remain uncertain.
 
 ### LLM perspective
-- View: Treat Postgres as the default “data platform,” then introduce specialized systems only when measured pain justifies operational overhead.  
-- Impact: Simplifies AI/RAG stacks, small-team ops, and prototyping by unifying storage, search, vectors, and jobs under one SQL interface.  
-- Watch next: Independent benchmarks of pgvector/pgvectorscale vs dedicated vector DBs, and tooling that auto-manages Postgres extensions as composable “services.”
+
+- View: PostgreSQL is a strong consolidation default, but the article’s 99% claim outruns its vendor-supplied comparisons and workload nuance.
+- Impact: Consolidation reduces integration overhead; overconsolidation can shift complexity into tuning, extensions, scaling, and a larger failure domain.
+- Watch next: Workload-specific benchmarks, extension maturity, operational staffing, replication costs, observed bottlenecks, SQLite suitability, and justified specialist adoption.

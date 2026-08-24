@@ -2,15 +2,18 @@
 
 - Score: 281 | [HN](https://news.ycombinator.com/item?id=46895860) | Link: https://www.biometricupdate.com/202602/ice-seeks-industry-input-on-ad-tech-location-data-for-investigative-use
 
-## TL;DR
-ICE’s Homeland Security Investigations unit issued an RFI to ad-tech and data-broker companies, exploring use of commercial location and device-tracking data—originally collected for targeted advertising—for criminal, civil, and immigration investigations. ICE wants not just raw data but turnkey platforms that fuse ad-tech signals with other records to generate leads. The filing is framed as exploratory, yet fits a pattern of quietly normalizing powerful surveillance before legal standards and oversight catch up, raising Fourth Amendment and privacy concerns.
+### TL;DR
 
-## Comment pulse
-- Responsibility of tech workers → Employees are urged to resist or obstruct data sharing; others argue insider-threat programs will detect sabotage—counterpoint: you could instead refuse work in surveillance-heavy firms.  
-- Ad-tech’s true purpose → Commenters say ad-tech has always been near the legal limits of surveillance, arguably intertwined with US national security, so law-enforcement reuse was inevitable, not a surprise.  
-- Privacy nihilism → Some conclude only “store no identifiable data,” de-Google, FOSS, encryption, and zero trust can meaningfully protect against government abuse, especially from agencies like ICE.
+ICE’s Homeland Security Investigations issued a request for information about commercial ad-tech and location-data services for criminal, civil, and administrative investigations. It is market research, not a procurement, but seeks platforms for demonstrations that could combine device identifiers, IP intelligence, movement, and other records into investigative leads. Although ICE mentions regulatory constraints and privacy expectations, the document reportedly leaves warrants, U.S.-person handling, retention, reuse, and oversight unspecified. Commenters saw the inquiry as a foreseeable repurposing of advertising surveillance and urged engineers to minimize identifiable data rather than trust future stewards.
 
-## LLM perspective
-- View: This RFI formalizes the merger of the ad-tech surveillance stack with mainstream law-enforcement tooling.  
-- Impact: Data brokers gain a government revenue stream; individuals lose practical anonymity in physical movement and app usage.  
-- Watch next: Court challenges to government data purchases, statutory limits on brokered location data, and corporate pushback via minimization or on-device-only ad models.
+### Comment pulse
+
+- Advertising infrastructure becomes investigative infrastructure → data collected for targeting can support tracking and reidentification when combined with other records.
+- Stewardship outlives intent → commenters argued builders should anticipate hostile future uses and avoid retaining identifiable data wherever possible.
+- Privacy assurances persuaded few → the RFI acknowledges expectations but reportedly specifies no warrants, retention limits, purpose restrictions, or enforcement mechanism.
+
+### LLM perspective
+
+- View: The RFI exposes how commercial data markets can expand government surveillance before procurement, rules, or safeguards become concrete.
+- Impact: Vendors and employees face ethical choices; individuals face tracking across immigration, civil, administrative, and criminal contexts.
+- Watch next: Demonstration vendors, procurement notices, warrant standards, U.S.-person rules, retention limits, audits, legal challenges, and employee resistance.

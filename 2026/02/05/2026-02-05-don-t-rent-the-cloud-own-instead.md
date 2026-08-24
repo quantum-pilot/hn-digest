@@ -2,18 +2,18 @@
 
 - Score: 1196 | [HN](https://news.ycombinator.com/item?id=46896146) | Link: https://blog.comma.ai/datacenter/
 
-## TL;DR
+### TL;DR
 
-comma.ai details how it built and runs a ~$5M in‑office data center instead of using public cloud, arguing that owning compute avoids lock‑in, promotes performance‑conscious engineering, and sharply cuts long‑term ML training costs (they estimate more than fivefold savings). Their setup uses custom GPU boxes, multi‑petabyte SSD storage, high‑bandwidth networking, and a thin software layer (Slurm, PyTorch FSDP, custom storage, scheduler, and experiment tooling) run by a small team. HN discussion agrees this pays off at scale but emphasizes hybrid approaches, operational expertise, and colocation or managed bare metal.
+Comma.ai says its $5 million office data center would have cost more than $25 million in cloud services. Its predictable ML workload uses 600 GPUs across 75 TinyBox Pros, about 4 PB of SSD storage, simple networking, outside-air cooling, Slurm, PyTorch, and lightweight custom storage and scheduling tools, maintained by a few people. Much data and several service masters deliberately lack redundancy. Commenters treated ownership as one option on a spectrum spanning cloud, managed private cloud, rented bare metal, colocation, and hybrid deployments, with scale and staffing determining the winner.
 
-## Comment pulse
+### Comment pulse
 
-- Infra spans cloud, managed private, rented bare metal, own/colo → cloud often expensive due to managed services; bare metal/colo shine once spend and skills grow.  
-- Hybrid strategies → keep latency‑sensitive GPU/HPC on owned or colocated gear, use cloud for user‑facing and disaster recovery; some say running dual sites is manageable.  
-- Outside‑air cooling worries practitioners → humidity and dust shorten hardware life; others cite crypto mines as proof it works — counterpoint: many prefer cloud.
+- Economics favor steady utilization → owned hardware can reward optimization and avoid metered premiums when compute and storage remain consistently busy.
+- Infrastructure is a spectrum → rented bare metal, managed private cloud, colocation, and cloud bursting can reduce capital, staffing, or reliability tradeoffs.
+- Operational simplicity has limits → outside-air cooling worked for comma — counterpoint: contaminants, humidity, compliance, failures, and multiple sites require specialized judgment.
 
-## LLM perspective
+### LLM perspective
 
-- View: For ML-heavy orgs with predictable workloads, investing in dedicated compute can become a strategic moat, not savings alone.  
-- Impact: Encourages infra talent, simpler architectures, and OSS‑centric stacks; reduces dependence on hyperscaler pricing and product roadmaps.  
-- Watch next: credible TCO benchmarks across models, and expansion of provider‑operated dedicated GPU clusters that abstract facilities while exposing costs.
+- View: This case supports ownership for predictable, infrastructure-core ML workloads, not a universal rejection of public cloud.
+- Impact: Teams can cut recurring spend and control hardware, while assuming procurement, capacity, power, cooling, repair, and availability risk.
+- Watch next: Utilization, hardware failures, power generation, cooling durability, staffing cost, refresh cycles, downtime, and continued hybrid-cloud use.

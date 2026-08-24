@@ -2,15 +2,18 @@
 
 - Score: 448 | [HN](https://news.ycombinator.com/item?id=46895972) | Link: https://rachelbythebay.com/w/2026/02/03/badnas/
 
-- TL;DR  
-  An owner of a consumer NAS used an internal hostname with a wildcard TLS cert and a hosts-file entry. They later observed Google Cloud machines connecting to that supposedly private hostname via SNI. Root cause: the NAS’s web UI embeds Sentry, whose client-side error reporting sent the page hostname to sentry.io, which then probed it. HN focuses on hostname privacy, involuntary data exposure via third-party telemetry, and mitigations like adblocking, custom firmware, and reverse proxies.
+### TL;DR
 
-- Comment pulse  
-  - Leak isn’t from certificate transparency; Sentry’s browser traces include the NAS hostname, which Sentry’s backend then connects to—raising abuse potential as an indirect port scanner.  
-  - Some argue hostnames aren’t private anyway; secrets should live in HTTPS paths, not DNS-visible names — counterpoint: paths also leak to whoever receives telemetry.  
-  - Defenses suggested: run open-source NAS firmware, block Sentry and trackers via uBlock/AdGuard, or front devices with Nginx adding strict CSP and referrer policies.
+A NAS owner assigned an internal hostname beneath a wildcard-certified domain kept only in a laptop hosts file. Public wildcard DNS pointed the zone to a monitoring server, which then observed a GCP machine repeatedly connecting with that private hostname in SNI. The author traced the leak to the NAS browser interface sending client-side stack traces to Sentry, after which a cloud service connected back without requesting content. Commenters ruled out certificate transparency, suspected automated metadata fetching, and warned that internal names are not secrets.
 
-- LLM perspective  
-  - View: External telemetry in consumer appliances effectively expands your attack surface to every analytics provider they embed, often without disclosure.  
-  - Impact: Vendors should treat hostnames and URLs as sensitive PII in error reports, with opt-out-by-default collection and strict redaction on servers.  
-  - Watch next: Worth probing: can Sentry or similar services be coerced into high-volume scans of restricted IP ranges, triggering automated abuse defenses.
+### Comment pulse
+
+- A wildcard certificate would not expose the leaf hostname; the supplied behavior instead implicates browser telemetry carrying the current origin.
+- Sentry’s unexplained callback could enable attacker-directed scanning—counterpoint: commenters speculated it may merely fetch metadata such as favicons.
+- Mitigations included trusted firmware, outbound DNS blocking, uBlock, a reverse proxy with restrictive CSP, private CAs, and opaque non-sensitive naming.
+
+### LLM perspective
+
+- View: Telemetry exports context; origins, paths, traces, and identifiers can reveal topology even when internal services remain unreachable.
+- Impact: Home and enterprise devices can disclose naming conventions or sensitive projects; callback systems may become unwitting network scanners.
+- Watch next: Vendor behavior, callback purpose, trace payloads, retention, consent, CSP effectiveness, target validation, and demonstrated scanning reach.

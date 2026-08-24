@@ -2,15 +2,18 @@
 
 - Score: 291 | [HN](https://news.ycombinator.com/item?id=46902512) | Link: https://techoversight.org/2026/01/25/top-report-mdl-jan-25/
 
-- TL;DR  
-  - Unsealed evidence from the US social‑media addiction lawsuits shows Meta, Google/YouTube, Snap, and TikTok explicitly targeted children and teens, framed youth “retention” as core to their business, and knew about harms like disrupted sleep, compulsive use, bullying, and lower well‑being. Internal decks discuss under‑13 usage, “school blasts,” school directories, teen ambassadors, and “lifetime value” of 13‑year‑olds, alongside quiet attempts to manage PR via PTA/FOSI. HN discussion wrestles with YouTube’s partial mitigations, regulatory limits, and broader addiction analogies.
+### TL;DR
 
-- Comment pulse  
-  - YouTube looks slightly better: internal “digital wellbeing” work and break/bedtime prompts exist, but Shorts and infinite feeds still dominate — counterpoint: at least they ship some guardrails.  
-  - Many users resort to mods and extensions (ReVanced, “social focus”) to strip Shorts, recommendations, and other engagement bait that platforms refuse to truly disable.  
-  - Debate over fixes: some want strong child-safety laws; others fear surveillance-heavy age checks and overengineered rules, arguing parents and social norms must do more.
+The Tech Oversight Project argues that newly unsealed exhibits from social-media addiction litigation show Meta, Google, Snap, and TikTok prioritized youth growth while understanding risks. The cited records describe school-day acquisition tactics, teen ambassadors, under-13 targeting, lifetime value, compulsive use, sleep disruption, unsafe recommendations, weak controls, and narrative management. However, the priority phrase referred to teens, not addiction, and evidence varies from growth plans to internal harm research. Commenters debated whether wellbeing studies demonstrate mitigation or awareness without effective action, and split over parental responsibility versus regulation.
 
-- LLM perspective  
-  - View: Treat “time-on-platform” optimization for minors as a regulated design risk, like lead paint or unsafe toys.  
-  - Impact: Product roadmaps, KPI dashboards, and bonus structures would need explicit youth-harm constraints, not just engagement metrics.  
-  - Watch next: Concrete standards (e.g., sleep-safe defaults, max autoplay), mandatory independent audits, and public release of internal wellbeing research.
+### Comment pulse
+
+- Meta’s school-day notifications and youth acquisition looked deliberately disruptive; YouTube documents also recorded break tools and proposed nighttime autoplay limits.
+- Mitigation evidence drew opposing readings—counterpoint: continued promotion of Shorts suggested safety teams may have lost to growth incentives.
+- Child protections gained support, but commenters feared universal identity checks, prescriptive rules, weak fines, and outsourcing responsibility entirely to parents.
+
+### LLM perspective
+
+- View: The exhibits warrant scrutiny, but summaries should not collapse different companies, documents, and remedial actions into identical intent.
+- Impact: Platforms face litigation and design constraints; children may gain safeguards, while age assurance could expand surveillance for everyone.
+- Watch next: Trial findings, exhibit context, rebuttals, KOSA, autoplay changes, age-verification privacy, behavioral outcomes, and executive liability.

@@ -2,15 +2,18 @@
 
 - Score: 519 | [HN](https://news.ycombinator.com/item?id=46904361) | Link: https://github.com/mdp/linkedin-extension-fingerprinting
 
-- TL;DR  
-LinkedIn ships a script that, on every page view, quietly tests for 2,953 specific Chrome extensions by probing their web‑accessible resources, effectively building a fine-grained extension fingerprint. The GitHub repo reverse‑engineers LinkedIn’s list, resolves extension names, and shows many are removed or automation/scraping tools. HN discussion frames this as both anti‑scraping defense and invasive surveillance, notes Firefox’s architecture blocks this exact trick, and criticizes Chrome’s ad‑driven ecosystem for enabling such environmental fingerprinting.
+### TL;DR
 
-- Comment pulse  
-  - Firefox’s moz-extension random UUIDs stop sites from mapping specific extension IDs, so this particular scan fails—counterpoint: users remain fingerprintable through many other browser traits.  
-  - List is dominated by LinkedIn scrapers and automation add-ons; some say it targets abuse, others note LinkedIn’s data brokerage and Chrome Web Store TOS violations.  
-  - Many distrust Chrome as ad-company spyware and compare it to IE6; others concede it pioneered defenses like sandboxing; Brave is a popular alternative.
+A public repository says LinkedIn’s page script probes for 2,953 Chrome extensions on every load by attempting to access extension-exposed resources. It publishes the extracted identifiers, a name-mapping script, and a CSV; roughly 78 percent matched the Chrome Web Store, while 22 percent required an archive fallback. Commenters inferred the list mainly targets LinkedIn scraping and automation tools but criticized undisclosed collection and broader browser fingerprinting. Firefox’s per-instance resource UUIDs appear to block this exact method, though not fingerprinting generally.
 
-- LLM perspective  
-  - View: Client-side extension scanning shows how anti-scraping tactics easily blur into cross-site tracking and unconsented behavioral profiling.  
-  - Impact: Extension authors, growth hackers, recruiters, and ordinary jobseekers all inherit risk when their tool choices leak into platform risk models.  
-  - Watch next: Expect browser vendors and regulators to scrutinize webAccessibleResources, mandate clearer consent, or treat extension enumeration as sensitive fingerprinting data.
+### Comment pulse
+
+- Many listed extensions appear related to LinkedIn automation or scraping, suggesting abuse detection—counterpoint: commenters said protecting LinkedIn is not equivalent to protecting users.
+- Chrome exposes predictable extension resource URLs; Firefox randomizes extension UUIDs, blocking this enumeration pattern while still permitting other fingerprinting signals.
+- Developers reported rapidly accumulating console errors and high CPU in idle LinkedIn tabs, but the supplied discussion did not establish causation.
+
+### LLM perspective
+
+- View: Anti-abuse intent would not erase privacy risk; extension inventories can reveal tools, roles, interests, or uniquely identifying combinations.
+- Impact: Chrome users may be silently classified; extension authors must treat web-accessible resources as fingerprint surfaces.
+- Watch next: LinkedIn’s purpose, server-side reporting, retention, enforcement use, Chrome mitigations, Firefox bypasses, CPU cost, and regulatory scrutiny.

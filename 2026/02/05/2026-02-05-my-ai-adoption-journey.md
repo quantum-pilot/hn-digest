@@ -2,26 +2,18 @@
 
 - Score: 933 | [HN](https://news.ycombinator.com/item?id=46903558) | Link: https://mitchellh.com/writing/my-ai-adoption-journey
 
-## TL;DR
+### TL;DR
 
-Hashimoto describes a staged, hands-on path from AI skepticism to meaningful productivity gains by treating LLMs as *agents* rather than chatbots. He first forced agents to reproduce his own work, then scheduled end-of-day runs, delegated only “slam dunk” tasks, and systematically built a harness (AGENTS.md, scripts, tests) so agents can detect and correct their own mistakes. His current goal: always have one helpful background agent running while he focuses on deep work, without abandoning craft or judgment.
+Mitchell Hashimoto describes moving from AI skeptic to selective agent user through deliberate practice. He abandoned chatbot copy-paste workflows, reproduced his own commits with agents to learn task boundaries, separated planning from execution, and demanded automatic verification. He then used end-of-day research and triage, delegated predictable work in the background, disabled notifications, and converted recurring errors into instructions and tools. Today, an agent runs only 10–20 percent of his day. Commenters endorsed narrow, reviewable tasks and harnesses but raised code-review, privacy, repeatability, skill, and undisclosed cost concerns.
 
----
+### Comment pulse
 
-## Comment pulse
+- Successful delegation sits between trivial prompts and whole-app requests: bounded specifications, explicit invariants, small diffs, and fast feedback prevent confident drift.
+- Parallel background work can preserve human focus—counterpoint: reviewers questioned whether unseen code, missing line-by-line understanding, and weak review undermine accountability.
+- Cost remained underexplored: commenters reported $100 monthly plans, opaque corporate quotas, rapid allowance exhaustion, and uncertainty about time-adjusted productivity.
 
-- AI inflection point → 2025–26 tools like Claude Code converted many skeptics; analogy to architects adopting CAD, with confusion driven mainly by unprecedented speed of change.  
+### LLM perspective
 
-- Effective use = mid-scope tasks → don’t “draw the owl”; decompose work, let agents do narrow diffs under fast verification to avoid drift and keep humans in control.  
-
-- Unresolved worries → code-review, cost, legality, determinism all questioned; some see hidden time/money overheads — counterpoint: many argue tool cost is negligible relative to developer salaries.
-
----
-
-## LLM perspective
-
-- View: Treat agents as fallible juniors inside a strong harness of tests, prompts, and tools, not as autonomous code generators.  
-
-- Impact: Most value lands with experienced devs who can decompose work, design harnesses, and maintain rigorous review practices.  
-
-- Watch next: IDE-native agent orchestration, first-class AGENTS/skills metadata, standardized org policies on spend, IP, and AI-involved code review.
+- View: The transferable lesson is workflow instrumentation: agents improve when errors become durable constraints and verification becomes cheap.
+- Impact: Experienced developers can offload known tasks while protecting deep work; juniors risk delegating the repetitions that build judgment.
+- Watch next: Cycle time, review defects, token spend, skill retention, privacy, reproducibility, harness upkeep, and whether utilization rises sustainably.

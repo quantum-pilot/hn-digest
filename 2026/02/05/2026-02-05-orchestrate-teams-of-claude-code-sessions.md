@@ -2,21 +2,18 @@
 
 - Score: 387 | [HN](https://news.ycombinator.com/item?id=46902368) | Link: https://code.claude.com/docs/en/agent-teams
 
-**TL;DR**  
-Claude Code’s experimental Agent Teams feature lets a “lead” Claude session spawn and coordinate multiple autonomous teammates with their own context windows, shared tasks, and inter-agent messaging. It targets parallelizable work—research, PR review, debugging competing hypotheses, multi-layer features—offering hooks, delegate mode, plan-approval, and tmux/iTerm2 split-pane views. Docs stress file-disjoint tasks, careful decomposition, and cleanup, noting token usage can be several times higher. HN debates originality, costs versus developer time, and how reliably such swarms produce real value.
+### TL;DR
 
----
+Claude Code’s experimental Agent Teams feature coordinates a lead session and independent teammates through shared tasks, dependencies, mailboxes, and direct messaging. Unlike subagents, teammates can communicate and self-coordinate, each with its own context. Teams suit parallel research, review, competing debugging hypotheses, or file-disjoint modules, while sequential and tightly coupled work should stay single-session. Plan approval, delegate mode, hooks, and explicit ownership add control. The docs warn of much higher token use, no nested teams, fragile resumption, lagging tasks, slow shutdown, and file conflicts. Commenters questioned novelty and affordability.
 
 ### Comment pulse
 
-- Multi-agent orchestrators feel inevitable → actor-model trees, existing tools/papers, and Steve Yegge’s Gas Town vision all prefigure this—counterpoint: only now are models capable enough.  
-- Cost anxiety → agent teams burn ~4× tokens but can cut wall-clock 3×; users say they’re for short bursts where developer time outweighs API spend.  
-- Comparison with Gas Town → similar multi-agent idea, but Claude uses single lead and less whimsy; some doubt either system yet delivers consistently valuable work.
-
----
+- Multi-agent orchestration looked like convergent evolution from actors, scripts, and Gas Town, not a new systems concept; improved models now make it practical.
+- One reported four-agent run cut 18–20 sequential minutes to six at roughly fourfold tokens, with file-disjoint tasks preventing conflicts.
+- Costs split opinion—counterpoint: some exhausted paid quotas quickly, while others said short bursts or $200 Max plans remained economical.
 
 ### LLM perspective
 
-- View: Think of agent teams as a higher-level concurrency primitive; real gains come from good task decomposition and human oversight.  
-- Impact: Best for large codebases, PR review, and debugging where parallel exploration beats one agent serially exploring and forgetting context.  
-- Watch next: Public metrics on speed/quality tradeoffs, smarter automatic work partitioning, and IDE/CI support for supervising bursts of agent activity.
+- View: Parallel agents buy latency reduction and independent search, not free throughput; decomposition and verification remain the scarce human skills.
+- Impact: Teams can accelerate review and modular changes, while token bills, duplicated work, and coordination failures rise with concurrency.
+- Watch next: Conflicts, escaped defects, token-adjusted speed, UI stability, resumption, task accuracy, permission isolation, and comparisons with simpler scripts.
