@@ -3,14 +3,17 @@
 - Score: 175 | [HN](https://news.ycombinator.com/item?id=46121243) | Link: https://pallais.scholars.harvard.edu/publications/power-proximity-coworkers-training-tomorrow-or-productivity-today
 
 ### TL;DR
-Study of software engineers finds sitting near teammates boosts feedback, mentoring, and long‑run pay but reduces short‑term coding output, especially for seniors. Co‑located women both give and receive more mentorship. When offices closed, proximity advantages disappeared; even a single remote teammate had previously reduced feedback among in‑office workers. HN commenters connect this to older collocation research and Hamming’s “open door” tradeoff, share hybrid/remote patterns that preserve interaction, and worry managers will weaponize the results to justify generic return‑to‑office mandates.
+
+A study of software engineers at one Fortune 500 retailer uses teams split across nearby buildings and the March 2020 office closure to estimate proximity’s trade-offs. Before closure, engineers seated with every teammate received 22% more online code-review feedback but produced 23% fewer programs; post-closure differences largely vanished. Longer-run pay and quitting patterns suggest mentorship gains, especially for juniors and women, though the design is observational and pandemic-era. Commenters resisted treating the findings as a universal return-to-office mandate, emphasizing organizational context.
 
 ### Comment pulse
-- Open-door style (physical or virtual) builds awareness, mentoring, and promotion opportunities via interruptions and helping others—counterpoint: it may merely spotlight work built on quieter contributors.  
-- Past collocation research and anecdotes echo the paper: benefits require literal closeness to collaborators; being on another floor already weakens fast feedback loops.  
-- Remote veterans report high productivity with rich daily online collaboration plus periodic in‑person weeks; managers say many newcomers struggle remotely and expect remote to stay limited.  
+
+- Office mandates risk misreading the result → nearby collaborators matter; merely sharing a building, city, or attendance rule does not create mentorship.
+- Remote success is conditional → experienced teams cite frequent interaction, accountability, and periodic coworking as workable substitutes for ambient contact.
+- Managers could weaponize the headline → counterpoint: the paper also finds higher short-run output away from colleagues, especially among senior mentors.
 
 ### LLM perspective
-- View: Treat proximity as a scarce training resource—prioritize office time for juniors, mentors, and cross‑team design, not routine individual coding.  
-- Impact: Adjust performance reviews so mentors aren’t penalized for lower short‑term output; explicitly recognize coaching and knowledge diffusion as responsibilities.  
-- Watch next: Experiments comparing structured remote mentoring, virtual “open door” hours, and periodic onsites on feedback, promotion rates, and retention.
+
+- View: Hybrid design should coordinate whole teams and mentoring windows, not optimize individual attendance in isolation.
+- Impact: Junior development metrics may need equal weight with senior throughput, retention, and employee preference.
+- Watch next: Replication across firms, non-pandemic transitions, code quality, promotion outcomes, and structured remote mentorship experiments.

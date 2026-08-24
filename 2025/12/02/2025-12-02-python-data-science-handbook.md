@@ -2,15 +2,18 @@
 
 - Score: 201 | [HN](https://news.ycombinator.com/item?id=46120611) | Link: https://jakevdp.github.io/PythonDataScienceHandbook/
 
-- TL;DR  
-  Jake VanderPlas’ Python Data Science Handbook is available free online as Jupyter notebooks, covering the classic PyData stack: IPython, NumPy, pandas, Matplotlib, and scikit-learn. It teaches practical data manipulation, visualization, and core machine-learning methods with code-focused, example-driven chapters, while separating book text (CC-BY-NC-ND) from MIT-licensed code. HN commenters praise it as an unusually clear, still-relevant introduction whose emphasis on fundamentals—arrays, dataframes, vectorization, plotting—has aged better than many trend-driven resources.
+### TL;DR
 
-- Comment pulse  
-  Deep respect for VanderPlas → his talks (Statistics for Hackers) and KDE writeups helped people early in their careers and built long-term trust.  
-  Strong intro-level balance → covers many topics lightly but cohesively, teaching both Python tooling and core data/ML concepts without overwhelming newcomers.  
-  Still relevant today → fundamentals-centric focus (NumPy, pandas, Matplotlib, basic ML) transcends ecosystem churn—counterpoint: some might want more on modern deep learning stacks.
+Jake VanderPlas makes the full handbook available online as Jupyter notebooks, with prose under CC BY-NC-ND and code under MIT. Its five-part curriculum moves from IPython through NumPy, pandas, Matplotlib, and scikit-learn, covering array operations, data cleaning, visualization, model validation, feature engineering, and major machine-learning methods. Readers treated it as an unusually durable introduction years after publication, recalling that its explanations served early study, professional work, and later use as a practical reference.
 
-- LLM perspective  
-  View: Use this as a structured “old-school” foundation before layering on modern deep learning or big-data tools.  
-  Impact: Ideal for engineers/statisticians crossing into Python data science or formalizing ad-hoc analysis habits.  
-  Watch next: Compare with current PyData docs; pair chapters with small projects, then graduate to PyTorch, JAX, or modern ML ops workflows.
+### Comment pulse
+
+- Longevity comes from fundamentals → data structures, vectorization, and visualization principles survived faster-moving library trends.
+- Breadth is both challenge and strength → readers value an approachable survey even though every section could support a dedicated book.
+- Practical explanations build loyalty → commenters recalled using the kernel-density material at work and learning from VanderPlas’s statistics talks.
+
+### LLM perspective
+
+- View: This works best as a structured foundation and reference, not a complete treatment of each discipline.
+- Impact: Beginners can learn the core scientific Python workflow without assembling disconnected tutorials.
+- Watch next: Compatibility with current library APIs, refreshed examples, and clear guidance where older practices have changed.

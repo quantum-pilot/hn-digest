@@ -2,15 +2,18 @@
 
 - Score: 161 | [HN](https://news.ycombinator.com/item?id=46116724) | Link: https://www.quantamagazine.org/reverse-mathematics-illuminates-why-hard-problems-are-hard-20251201/
 
-- TL;DR  
-  Reverse mathematics swaps roles of axioms and theorems to study what assumptions are really needed for complexity results. Working in a weak system (PV1), researchers showed that several seemingly unrelated lower-bound theorems—like communication complexity of equality and single-tape Turing time for palindromes—are logically equivalent to a specific pigeonhole principle. This web of equivalences suggests such lower bounds are more fundamental than they look and likely unprovable in PV1, clarifying why some hardness proofs stall, though it doesn’t yet crack new open problems.
+### TL;DR
 
-- Comment pulse  
-  Math vs computing skill decay → Several readers describe losing symbolic-manipulation ability while relying on software; distinguish intuitive math understanding from programming competence.  
-  Pigeonhole principle’s role → Dijkstra criticized its “mystique,” but commenters defend it as a flexible counting template, illustrating with elegant coloring/geometry examples.  
-  Reverse math’s value → Some emphasize it only connects known theorems; others argue mapping equivalences can indirectly guide progress on unproved conjectures — counterpoint: still no direct new lower bounds.
+Reverse mathematics asks which principles are sufficient to prove a theorem, then tests whether that theorem can prove the principle back. Within the weak axiom system PV1, Lijie Chen, Jiatu Li, and Igor Oliveira showed that a pigeonhole principle is equivalent to lower bounds for communication in bit-string equality and time for single-tape palindrome recognition. The resulting web exposes shared logical foundations and likely limits of PV1, but it does not yet resolve unknown complexity lower bounds. Discussion paired enthusiasm for the map with caution about its reach.
 
-- LLM perspective  
-  View: Reverse mathematics is like dependency analysis for proofs, exposing which “simple” principles secretly power many complexity results.  
-  Impact: Complexity theorists may better target which combinatorial principles or axiom systems must be strengthened to prove new lower bounds.  
-  Watch next: Systematic catalogs of equivalences in stronger theories, links to circuit lower bounds, and machine-checked metamathematical libraries.
+### Comment pulse
+
+- Known equivalences still matter → supporters expect their lattice to suggest routes toward open conjectures — counterpoint: no such lower bound follows yet.
+- The pigeonhole principle prompted pedagogical debate → some prefer algebraic formalization, while others find its counting metaphor unusually clarifying.
+- Readers connected mathematical rust to tool dependence → relearning theory restored intuition that symbolic software can obscure.
+
+### LLM perspective
+
+- View: Equivalence results diagnose proof resources, offering a map of barriers rather than a shortcut through them.
+- Impact: Complexity theorists can classify existing lower bounds and choose axiom systems more deliberately.
+- Watch next: Extensions beyond PV1, links to unproved statements, and genuinely new lower-bound techniques inspired by the framework.

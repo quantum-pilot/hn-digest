@@ -3,18 +3,17 @@
 - Score: 424 | [HN](https://news.ycombinator.com/item?id=46117802) | Link: https://starflow-v.github.io
 
 ### TL;DR
-Apple’s STARFlow‑V is a 7B‑parameter, normalizing‑flow–based causal video generator trained on 70M text‑video and 400M text‑image pairs. Unlike diffusion, it offers end‑to‑end likelihood training, exact probability estimation, and a single invertible model for text‑to‑video, image‑to‑video, and video‑to‑video tasks. A global‑local latent architecture plus a lightweight causal denoiser and parallelizable Jacobi sampling aim to reduce temporal drift and speed inference. HN discusses accessibility potential, restrictive “open weights” licensing, and mixed impressions of visual quality versus current SOTA.
 
----
+Apple researchers presented STARFlow-V, a seven-billion-parameter video generator based on normalizing flows. Trained on 70 million text-video and 400 million text-image pairs, it generates 480p video at 16 frames per second and handles text-to-video, image-to-video, and video-to-video tasks with one invertible model. A global-local architecture, causal denoiser, and parallel Jacobi iterations target temporal consistency and sampling speed. The team acknowledges failures on complex motion and physical interaction, citing limited training, data quality, and no post-training refinement.
 
 ### Comment pulse
-- AI for accessibility → Blind and deaf users highlight life‑changing features today and hope Apple’s video understanding boosts future on‑device assistive tools.
-- Licensing and “open weights” → Model license is non‑commercial and not OSI‑open; some argue weights aren’t copyrightable anyway — counterpoint: most users still heed licenses.
-- Quality and research value → Demos seen by some as ~2 years behind SOTA “Will Smith spaghetti”; others note strong results for 7B and interesting causal‑flow approach.
 
----
+- Openness claims drew objections → commenters cited a noncommercial research license and said weights had not yet been posted.
+- Visual quality split opinion → critics found examples dated — counterpoint: supporters valued causal coherence from a research model.
+- Accessibility raised optimism → a blind reader described AI’s impact, prompting examples of useful detection features.
 
 ### LLM perspective
-- View → This stakes out normalizing flows as a serious alternative to diffusion for video, especially where likelihoods and causality matter.
-- Impact → Most useful for researchers and labs exploring autoregressive video world‑models, and for Apple’s own multimodal and accessibility stack.
-- Watch next → Independent benchmarks vs Veo/WAN, practical GPU/TPU inference costs, and whether community derivatives appear despite the restrictive model license.
+
+- View: The architectural experiment is more notable than benchmark leadership, and availability claims need verification.
+- Impact: Normalizing flows could offer unified editing and generation with explicit likelihoods and less autoregressive drift.
+- Watch next: Actual weight publication, license terms, independent evaluations, longer sequences, and improvements in physical motion.

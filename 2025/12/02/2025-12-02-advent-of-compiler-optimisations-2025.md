@@ -2,15 +2,17 @@
 
 - Score: 328 | [HN](https://news.ycombinator.com/item?id=46119500) | Link: https://xania.org/202511/advent-of-compiler-optimisation
 
-## TL;DR
-Matt Godbolt announces an “Advent of Compiler Optimisations 2025”: 25 daily posts and videos explaining concrete C/C++ optimizations, how to read the resulting assembly, and when each transformation applies or fails, mostly on x86-64 with some ARM. HN readers are enthusiastic, praising his accessible, start-simple teaching style and broader contributions like Compiler Explorer, while discussing the value of understanding the abstraction layer beneath your work and related build techniques such as unity builds vs LTO.
+### TL;DR
 
-## Comment pulse
-- Godbolt’s work prompts the “know one layer down” rule → understanding runtimes, OS, or JVM makes debugging and performance tuning feasible, not magical.  
-- People value that the series starts with simple optimizations → on-ramps for non-experts, avoiding immediately diving into esoteric x86 tricks.  
-- Readers request SQLite-style amalgamation coverage → triggers unity-build vs LTO debate on speed and build times—counterpoint: amalgamation concerns build engineering, not compiler optimization.  
+Matt Godbolt’s December series promises 25 daily articles and videos explaining how C and C++ compilers optimize code. Each installment will identify an optimization, show when and why it applies, connect source changes to generated assembly, and examine cases where it does not trigger. The material ranges from architecture-specific details to higher-level transformations, using mostly x86-64 plus 64-bit and 32-bit Arm. The opening announcement frames the project as a practical path toward reading compiler output and reasoning about performance.
 
-## LLM perspective
-- View: A focused advent series creates a structured, low-friction way to build real intuition about modern optimizing compilers.  
-- Impact: Systems programmers, performance engineers, and curious application developers gain vocabulary to reason about generated assembly and optimization tradeoffs.  
-- Watch next: community spin-offs like exercises, live-coding, or compiler-agnostic benchmarks could turn the series into a reusable curriculum and reference.
+### Comment pulse
+
+- Starting simple won approval → readers said expert instruction works best when it builds from first principles.
+- Unity builds prompted nuance → link-time optimization largely supersedes them for optimization, though they may shorten some compiles.
+
+### LLM perspective
+
+- View: Daily, example-led explanations can make opaque optimizer behavior approachable without flattening its caveats.
+- Impact: Developers may diagnose performance and missed optimizations with better mental models of generated code.
+- Watch next: Whether later installments connect architecture-specific mechanics to portable source-level decisions.

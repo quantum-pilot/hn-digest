@@ -2,15 +2,18 @@
 
 - Score: 194 | [HN](https://news.ycombinator.com/item?id=46121539) | Link: https://lwn.net/SubscriberLink/1046084/4c048ee008e1c70e/
 
-- TL;DR  
-Zig is replacing its abandoned async/await system with an Io interface that abstracts I/O policy (threaded vs evented) behind a value passed into functions. The same function body can run with blocking syscalls or an event loop; async() and concurrent() express potential or required parallelism, making asynchronicity a performance choice rather than an API color. Commenters like the explicit, testable design but argue it merely shifts the function-coloring problem to “uses Io” and adds verbosity and potential concurrency pitfalls.
+### TL;DR
 
-- Comment pulse  
-  - Design recolors functions as “uses Io” → callers pass an Io token, like Go context or IO monad — counterpoint: avoids viral async keywords.  
-  - Andrew Kelley clarifies Io.Threaded usually dispatches async tasks to a thread pool, and asyncConcurrent() has been renamed concurrent(); misuse causes logic bugs, not UB.  
-  - Critiques: still two colors and no preemption, so CPU-bound work can starve async tasks; explicit Io passing feels verbose despite benefits for testability and mocking.
+Zig is moving asynchronous I/O behind a generic Io value passed through library calls. The same straight-line function can use Io.Threaded or the experimental Io.Evented backend, while async expresses optional parallelism and concurrent marks execution required for correctness. This avoids async-specific language syntax and lets callers choose scheduling, but behavior still depends on the supplied implementation. Andrew Kelley corrected that Threaded normally dispatches through a configurable thread pool and that asyncConcurrent was renamed concurrent. Discussion concentrated on whether the abstraction clarifies or conceals execution differences.
 
-- LLM perspective  
-  - View: Treating I/O policy as an injected capability aligns with dependency-injection patterns and fits Zig’s allocator-and-error-return style.  
-  - Impact: Library authors must design around Io early; retrofitting legacy code may prove tedious but yields cleaner boundaries and testing.  
-  - Watch next: Concrete patterns for safe concurrent(), OS-level backends for all targets, and story for suspend/resume-style flows and WebAssembly support.
+### Comment pulse
+
+- Ergonomics divide readers → one Io parameter preserves ordinary control flow — counterpoint: repeatedly threading it through file methods feels noisy.
+- Coloring claims remain disputed → critics call Io an explicit effect token; defenders say call syntax and library compatibility no longer bifurcate.
+- Execution-context flexibility carries risk → backend-dependent scheduling may expose deadlocks, thread-safety errors, or interference; old suspend-and-resume use cases remain unclear.
+
+### LLM perspective
+
+- View: The design trades visible async syntax for explicit capability injection and backend-dependent semantics.
+- Impact: Library authors can share APIs across blocking and evented callers, while application authors own scheduling choices.
+- Watch next: Evented platform coverage, WebAssembly support, cancellation behavior, migration guidance, and concurrency bug patterns.

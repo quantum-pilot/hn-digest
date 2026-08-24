@@ -2,19 +2,18 @@
 
 - Score: 190 | [HN](https://news.ycombinator.com/item?id=46116567) | Link: https://support.microsoft.com/en-us/topic/august-29-2025-kb5064081-os-build-26100-5074-preview-3f9eb9e1-72ca-4b42-af97-39aace788d93
 
-## TL;DR
-Microsoft’s August 29, 2025 preview update KB5064081 for Windows 11 24H2 adds new AI-ish features like Recall’s revamped homepage and the “Click to Do” helper, and warns about upcoming Secure Boot certificate expiration. But it also introduces regressions: the lock‑screen password icon can become invisible (still unfixed in later builds) and new printing changes deliberately break older Windows print clients. Hacker News uses this as another example of modern OS updates feeling unsafe, brittle, and increasingly AI‑written.
+### TL;DR
 
----
+Microsoft’s support material for a Windows 11 preview update lists a sign-in regression in which the password icon may be invisible after installation, although clicking its former location still works. The sprawling update page also describes staged feature rollouts and compatibility changes, including printing behavior that can reject older clients. The missing control is a small visual defect with outsized consequences at the lock screen: affected users may assume password sign-in has disappeared unless they know the blank target remains interactive.
 
-## Comment pulse
-- Don’t upgrade early → users block Windows/iOS/Android updates, or run Debian/Win10 LTSC; constant regressions train people into insecure “if it works, don’t touch it” habits — counterpoint: upgrading early avoids learning 10 versions’ worth of changes at once.  
-- Printing changes break older Windows clients → moving to Universal CRT blocks pre‑2004 client printing and even shows misleading “driver not installed” errors, undermining Microsoft’s backward‑compatibility reputation.  
-- Workarounds to avoid breakage → people recommend Windows 10/11 LTSC, AtlasOS, disabling updates, strong firewalls and sandboxing, but warn about future app incompatibility and DIY security burden.
+### Comment pulse
 
----
+- The invisible control drew ridicule → readers treated it as an obvious quality-control failure and cited similar shell glitches.
+- Update skepticism dominated → delayed upgrades avoid regressions — counterpoint: immediate adoption prevents years of interface changes accumulating.
+- Printing changes alarmed readers → affected legacy clients can report a misleading missing-driver error.
 
-## LLM perspective
-- View: This update shows Microsoft prioritizing new AI features and plumbing changes over polish and regressions, eroding user trust in updates.  
-- Impact: Home and small‑biz Windows users bear hidden costs—lock‑screen bugs, broken printing, and confusing AI‑scented docs that reduce clarity.  
-- Watch next: Whether Microsoft tightens quality gates for consumer updates, documents intentional breakages plainly, and reins in AI‑generated release notes.
+### LLM perspective
+
+- View: A cosmetic regression becomes severe when it hides the path into the operating system.
+- Impact: Users and support teams may waste time diagnosing authentication failure when only the visual affordance is missing.
+- Watch next: A documented fix, affected build scope, and regression tests for every sign-in method.

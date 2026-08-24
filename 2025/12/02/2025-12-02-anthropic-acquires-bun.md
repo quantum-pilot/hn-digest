@@ -2,15 +2,18 @@
 
 - Score: 1271 | [HN](https://news.ycombinator.com/item?id=46124267) | Link: https://bun.com/blog/bun-joins-anthropic
 
-- TL;DR  
-  - Bun, the high‑performance JS/TS runtime and toolchain, has been acquired by Anthropic but stays MIT‑licensed, open, and led by the same team. Anthropic will use Bun as core infrastructure for Claude Code, the Claude Agent SDK, and future AI coding tools, betting on Bun’s fast startup, single‑file executables, and cloud‑native APIs. HN readers see strong strategic fit for AI agents, but debate long‑term independence, shifting priorities, and whether acquisition promises (like “Bun will ship faster”) will actually hold.
+### TL;DR
 
-- Comment pulse  
-  - Bun as agent runtime → Fast, sandboxable, cloud‑aware JS environment fits Anthropic’s “run generated code near the data” vision for agents and tools.  
-  - Sustainability vs focus → Acquisition avoids awkward monetization inside Bun, but many expect Anthropic’s product priorities to subtly redirect Bun’s roadmap.  
-  - Excitement with caution → Developers like Anthropic’s current “friendly” stance, yet doubt claims that shipping speed and open focus won’t erode over a few years.
+Bun’s team is joining Anthropic, which plans to use the JavaScript runtime as infrastructure for Claude Code, the Agent SDK, and future coding products. The project says it will remain MIT-licensed, public, maintained by the same team, and focused on speed, Node.js compatibility, and general-purpose tooling. Bun currently earns no revenue, while its single-file executables already distribute several AI tools. The acquisition trades an eventual hosting-business path for long-term funding and closer access to agent developers, with hiring and faster releases promised.
 
-- LLM perspective  
-  - View: Owning the runtime lets Anthropic tightly optimize latency, security, and capabilities for agentic coding workflows beyond what an SDK alone can offer.  
-  - Impact: JS backend ecosystems, serverless platforms, and AI-tool vendors may standardize on Bun executables for distributed agents and CLIs.  
-  - Watch next: Concrete Bun feature work for sandboxing, tracing, cloud APIs, plus whether governance/branding stay genuinely community‑centric post‑acquisition.
+### Comment pulse
+
+- The runtime fit persuaded supporters → fast self-contained executables and cloud APIs suit agent execution.
+- Roadmap drift worried skeptics → acquisition can redirect priorities — counterpoint: Claude Code already depends on Bun’s executable.
+- Deal terms invited questions → commenters lacked a valuation, investor outcome, or clarity on whether this was primarily an acquihire.
+
+### LLM perspective
+
+- View: The fit is operationally credible, but preserving Bun’s general-purpose roadmap will test the stated commitments.
+- Impact: Anthropic gains control over a key distribution and execution layer for its coding products.
+- Watch next: Governance, staffing, compatibility milestones, release cadence, and priorities unrelated to Claude.

@@ -2,15 +2,18 @@
 
 - Score: 633 | [HN](https://news.ycombinator.com/item?id=46121889) | Link: https://mistral.ai/news/mistral-3
 
-- TL;DR  
-Mistral 3 is a fully Apache‑2.0 family: a new sparse MoE flagship (Mistral Large 3, 41B active / 675B total params) plus three “Ministral” edge models (3B, 8B, 14B). All are multilingual, multimodal (text+images), and optimized with NVIDIA/vLLM for efficient inference from data center to Jetson‑class devices. HN discussion praises Mistral’s reliability and formatting vs GPT‑5, notes the Large 3 architecture reuses DeepSeek V2, and debates its competitiveness vs top closed models.
+### TL;DR
 
-- Comment pulse  
-  - Mistral models for structured tasks → very fast, cheap, and precise formatting; outperform some GPT‑5 deployments in reliability despite lower benchmark hype.  
-  - Architecture reuse → Large 3 uses DeepSeek V2 code; some see missing attribution as bad form — counterpoint: open licenses explicitly allow such reuse.  
-  - Capability gap concern → LMArena shows Large 3 behind leading proprietary models; absence of direct comparisons in the release interpreted as quiet admission.
+Mistral introduced four Apache-2.0 model sizes: dense 3B, 8B, and 14B variants, plus a 675B-parameter mixture-of-experts model activating 41B parameters. All support images and multiple languages; small models add base, instruction, and reasoning editions for local or edge use. Mistral reports strong open-model results, including 85% on AIME 2025 for 14B reasoning. Discussion prioritized practical, low-cost deployment while challenging selective benchmark framing, comparison gaps, and the disclosure of architectural influences.
 
-- LLM perspective  
-  - View: Strong open, commercially permissive stack from browser‑scale 3B vision to frontier‑ish MoE is a real alternative for many workloads.  
-  - Impact: Startups, EU companies, and on‑device devs gain viable GPT‑4‑class-ish options without vendor lock‑in or restrictive licenses.  
-  - Watch next: Reasoning variants’ benchmarks, real‑world latency/throughput on vLLM/TensorRT‑LLM, and whether others adopt DeepSeek‑style MoE as a de facto standard.
+### Comment pulse
+
+- Scoped-task users favor speed, cost, and formatting reliability → benchmark leadership matters less than testing the actual workload.
+- Consumer-sized variants drew praise → commenters reported the 3B vision model running in browsers after a roughly 3GB download.
+- Architecture attribution split readers → critics wanted DeepSeek acknowledged — counterpoint: open licensing exists to enable reuse and design changes still matter.
+
+### LLM perspective
+
+- View: The broad size range makes deployment flexibility more notable than any single leaderboard position.
+- Impact: Teams can benchmark one licensed family from browsers and edge devices through multi-GPU servers.
+- Watch next: Independent multilingual and vision tests, reasoning release, and real NVFP4 memory and throughput measurements.
