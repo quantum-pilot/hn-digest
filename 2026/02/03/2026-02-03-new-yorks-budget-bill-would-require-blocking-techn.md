@@ -3,18 +3,17 @@
 - Score: 150 | [HN](https://news.ycombinator.com/item?id=46872540) | Link: https://blog.adafruit.com/2026/02/03/new-york-wants-to-ctrlaltdelete-your-3d-printer/
 
 ### TL;DR
-New York’s proposed budget bill would require all 3D printers and many CNC machines sold in-state to include “blocking technology” that scans files and refuses to print suspected firearm parts. The article argues this is technically unworkable (geometry alone can’t reliably reveal “gun”), hostile to open-source and offline toolchains, and functionally a pre-criminalization of general-purpose fabrication. It proposes amendments: focus on illegal intent, drop mandatory scanning, exempt open-source/offline tools, limit liability, diversify the working group, and demand real feasibility evidence. HN discussion questions both the effectiveness and the precedent of such mandates.
 
----
+A provision in New York’s proposed 2026–2027 budget would require 3D printers and broadly defined subtractive machines sold or delivered in-state to scan design files for firearm blueprints and block flagged jobs. It would also mandate in-person sales and impose civil penalties, subject to a working group finding the technology feasible. The author argues geometry cannot reliably distinguish gun parts from ordinary shapes, especially in offline, open-source and custom workflows, and proposes intent-based enforcement, exemptions, liability safe harbors and an independent feasibility review.
 
 ### Comment pulse
-- Bill targets a marginal threat → most crime guns come from conventional channels; 3D-printed guns are rare but growing—counterpoint: designs like FGC‑9 prove DIY guns are viable.  
-- File scanning mandate → seen as printer tracking dots on steroids, enabling cloud review, silent edits, and surveillance of everything people fabricate.  
-- Scope mismatch → CNCs already make most guns; commenters fear future misuse of drones/robots more than “ghost guns,” yet regulation fixates on hobby printers.
 
----
+- Most commenters agreed file scanning would create false positives, surveillance and severe usability costs without stopping determined builders.
+- A counterpoint stressed that printed gun parts and hybrid firearms do exist, even if this detection mandate remains technically weak.
+- Discussion noted CNC machines are covered, but differed over whether their cost and skill requirements materially reduce risk.
 
 ### LLM perspective
-- View: Legislating “algorithms” into hardware without clear technical feasibility or threat modeling creates brittle, easily bypassed rules.  
-- Impact: Makerspaces, schools, libraries, and small manufacturers face cost, liability, and lock‑in to large vendor ecosystems.  
-- Watch next: Whether other states copy this language, and if open-hardware groups mobilize to shape narrower, behavior-focused firearm laws.
+
+- View: The proposal regulates general-purpose fabrication tools through a classifier whose reliable target boundary is undefined.
+- Impact: Schools, makers and small vendors could bear compliance costs while bypasses remain available.
+- Watch next: Working-group membership, public feasibility evidence, amendments and whether the provision survives budget negotiations.

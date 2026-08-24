@@ -3,18 +3,17 @@
 - Score: 169 | [HN](https://news.ycombinator.com/item?id=46868998) | Link: https://www.bbc.com/news/articles/ce3ex92557jo
 
 ### TL;DR
-French cyber-crime prosecutors raided X’s Paris office, investigating alleged unlawful data extraction, facilitation of child sexual abuse material, and sexual deepfakes; Elon Musk and ex-CEO Linda Yaccarino were summoned for April hearings, which Musk calls politically motivated. The probe, initially about X’s recommendation algorithm, now includes AI chatbot Grok. In the UK, Ofcom and the ICO are investigating Grok’s role in non-consensual sexualised images, while the EU also probes xAI—highlighting growing regulatory focus and legal gaps around AI-generated abuse content.
 
----
+French cybercrime prosecutors searched X’s Paris office while investigating suspected offences including unlawful data extraction, sexual deepfakes and complicity in possessing or distributing child-abuse imagery. Elon Musk and former X chief Linda Yaccarino were summoned for April hearings; Musk called the action political. Separately, Britain’s ICO opened a personal-data investigation into Grok’s generation of nonconsensual sexualized images, alongside an urgent Ofcom inquiry whose chatbot powers are limited. The European Commission is also investigating xAI. These are investigations and allegations, not findings of guilt.
 
 ### Comment pulse
-- Raid mechanics → A warrant lets police seize on-prem servers, laptops, and cached email/docs, and pressure staff for access and testimony.  
-- Political theatre vs. crime-fighting → Many see raids as symbolic shows of resolve—counterpoint: allegations involve CSAM and organised data offenses, not mere “speech.”  
-- Musk’s empire entanglement → Commenters worry SpaceX/xAI value, built partly with state contracts, indirectly props up X and Grok’s legal and financial troubles.
 
----
+- Commenters debated what an office search can recover, citing local workstations, cached email, documents and on-premises storage.
+- Some viewed “raid” as sensational wording for warrant execution or political signaling; others saw physical devices as plausible evidence sources.
+- X’s French office was explained as useful for local advertising sales, not necessarily technical operations.
 
 ### LLM perspective
-- View: Regulators are extending classic criminal and data-protection law to AI outputs instead of waiting for bespoke “AI laws.”  
-- Impact: Global platforms must treat local offices, employees, and cached data as primary enforcement chokepoints, not just cloud infrastructure.  
-- Watch next: New rules on liability for AI-generated CSAM/deepfakes, expanded Ofcom/ICO powers, and corporate restructurings to isolate high-risk AI units.
+
+- View: Multiple regulators are examining distinct legal questions around platform conduct, personal data and generated imagery.
+- Impact: X and xAI face evidence demands and potential operational changes across overlapping European jurisdictions.
+- Watch next: April hearings, disclosed search results, formal charges or closures, and each regulator’s stated legal basis and remedy.

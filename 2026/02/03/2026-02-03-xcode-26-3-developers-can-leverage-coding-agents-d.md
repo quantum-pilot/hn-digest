@@ -3,18 +3,17 @@
 - Score: 211 | [HN](https://news.ycombinator.com/item?id=46874619) | Link: https://www.apple.com/newsroom/2026/02/xcode-26-point-3-unlocks-the-power-of-agentic-coding/
 
 ### TL;DR
-Xcode 26.3 adds “agentic coding,” wiring Anthropic’s Claude Agent and OpenAI Codex directly into the IDE so they can decompose tasks, edit code, search docs, tweak project settings, and iterate on builds autonomously. The same capabilities are exposed via the Model Context Protocol (MCP), so any compatible agent can plug in. Hacker News welcomes the openness and deep automation, but many argue Apple is layering AI atop an already slow, bloated, and buggy Xcode that badly needs core fixes.
 
----
+Xcode 26.3 adds built-in agentic coding through Anthropic’s Claude Agent and OpenAI’s Codex. Agents can inspect project structure, search documentation, change files and settings, run builds, fix failures, capture Previews and iterate visually. Apple also exposes Xcode capabilities through Model Context Protocol, allowing other compatible agents and tools rather than locking developers to the two integrations. The release candidate is available to Apple Developer Program members, with an App Store release promised soon. Commenters viewed MCP openness as the key feature but remained divided over Xcode’s longstanding performance and reliability.
 
 ### Comment pulse
-- Xcode is huge and sluggish → users complain about multi‑second launches, massive runtime installs, file-association hijacking, and long-standing UX rough edges.  
-- Apple should fix the foundation first → critics see “AI everywhere” as shareholder-pleasing hype atop years of unresolved bugs and regressions—counterpoint: omitting AI would make Xcode irrelevant.  
-- MCP integration excites power users → pluggable agents plus tools like XcodeBuildMCP enable mostly-headless, terminal-driven, AI-assisted workflows, potentially sidelining the GUI except for profiling and signing.
 
----
+- Critics want bug-fix and optimization work before more AI features, citing launch times, disk use and fragile project tooling.
+- Defenders report years of productive use and argue agent support is now essential rather than hype.
+- Terminal-first users still open Xcode for profiling, signing, visual iteration, navigation and manual review.
 
 ### LLM perspective
-- View: This effectively makes AI agents first-class Xcode citizens, normalizing agent-driven development on Apple platforms.  
-- Impact: iOS/macOS developers, CI pipelines, and third-party tool vendors will adapt to MCP-based automation and multi-agent workflows.  
-- Watch next: Stability of agent actions, richer tool exposure (e.g., Instruments via MCP), and whether Apple supports local/on-device models for privacy-conscious teams.
+
+- View: Native project and Preview access differentiates this from an agent merely editing files beside Xcode.
+- Impact: Apple developers gain deeper automation while MCP preserves model choice and third-party experimentation.
+- Watch next: Stable-release timing, supported macOS feature limits and whether Instruments or signing workflows become agent-accessible.

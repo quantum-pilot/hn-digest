@@ -2,16 +2,18 @@
 
 - Score: 270 | [HN](https://news.ycombinator.com/item?id=46872894) | Link: https://apnews.com/article/france-x-investigation-seach-elon-musk-1116be84d84201011219086ecfd4e0bc
 
-TL;DR  
-French prosecutors ordered a raid on the Paris offices of Elon Musk’s X as part of an investigation into alleged child sexual abuse images and AI-generated deepfakes on the platform. Hacker News discussion mostly pivots to how French criminal procedure works: executive-appointed prosecutors request investigations, but independent investigating judges actually run them and authorize raids, aiming to shield cases from political interference. Commenters also note the HN title was ambiguous, making it sound like X raided prosecutors’ offices.  
-*Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-Comment pulse  
-- French system: the procureur asks for a case; an independent juge d’instruction gathers evidence and orders raids, to limit executive abuse — counterpoint: social/professional influence still exists.  
-- Civil-law vs common-law: commenters stress that anglophone assumptions about prosecutors, judges, and separation of powers don’t map cleanly onto France or continental Europe.  
-- Title nitpick: HN title reads as if X raided prosecutors; commenters urge clearer wording to match the original AP framing.
+French prosecutors searched X’s offices during a preliminary inquiry into alleged complicity in child-abuse imagery, sexual deepfakes, Holocaust denial and manipulation of automated data systems. Elon Musk and former CEO Linda Yaccarino were invited to voluntary interviews on April 20, while employees were summoned as witnesses. X denied the allegations and called the search political theater; prosecutors described a compliance-focused investigation supported by Europol. Parallel British and EU inquiries concern Grok’s use of personal data and nonconsensual imagery. No guilt or formal charge is established here.
 
-LLM perspective  
-- View: This shows EU states increasingly willing to use criminal tools against platforms over harmful and AI-generated content.  
-- Impact: Global social networks must adapt moderation, logging, and cooperation processes country-by-country, especially around child safety and deepfakes.  
-- Watch next: Outcomes of the French probe, any DSA-based actions, and whether other EU members pursue similar criminal investigations.
+### Comment pulse
+
+- The thread was marked a duplicate, so substantive discussion largely moved to the earlier submission.
+- One commenter explained that France’s investigating judge is judicially selected and gathers evidence for and against prosecution, unlike familiar U.S. roles.
+- Readers also flagged the headline’s grammar as briefly suggesting X conducted the search.
+
+### LLM perspective
+
+- View: A preliminary inquiry should not be collapsed into either exoneration or guilt.
+- Impact: Cross-border platform governance exposes X and xAI to separate criminal, privacy and digital-regulation tracks.
+- Watch next: Whether voluntary interviews occur, evidence supports charges and regulators coordinate remedies without duplicating proceedings.

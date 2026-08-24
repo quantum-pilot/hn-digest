@@ -2,19 +2,18 @@
 
 - Score: 140 | [HN](https://news.ycombinator.com/item?id=46873574) | Link: https://fredbenenson.com/blog/2026/02/03/221-cannon-is-not-for-sale/
 
-## TL;DR
-A Connecticut landowner describes how scammers repeatedly tried to sell his vacant lot by impersonating him, using public records, fake email addresses, and a forged driver’s license to get realtors and buyers to the edge of closing. Vacant land, remote-only processes, and weak identity checks make this increasingly common. Authorities and platforms are often uninterested or ineffective. He recommends recording anti-fraud notices on the title, monitoring your address online, and being easily reachable so professionals can verify ownership.
+### TL;DR
 
----
+Fred Benenson says scammers tried three times to sell a vacant Connecticut parcel he and his brother own but never listed. In 2024, an impostor used public property details, look-alike email addresses, a fake driver’s license, remote communication, and an electronically signed agreement; a lawyer’s independent ownership check stopped a full-price cash deal. Two agents flagged new attempts in 2026. He recommends recording an anti-fraud ownership notice, monitoring the address, and remaining contactable. Commenters shared parallel rental and land scams while debating registry weaknesses and physical warnings.
 
-## Comment pulse
-- Online platforms enable fake rentals/sales using scraped listing photos; takedown requests get ignored → some suggest writing directly to company legal teams, hinting at liability, to trigger action.  
-- Debate over “most people” having identity theft → many report repeated minor fraud; US decentralization and constant SSN sharing make risk more about luck than personal caution.  
-- Mitigations beyond affidavits: physical “not for sale” signage and land-registry alert services in some countries—counterpoint: a determined scammer can simply remove signs.
+### Comment pulse
 
----
+- Vacant land is attractive → no occupant notices signs, public records supply details, remote closings reduce scrutiny, and debt-free parcels simplify fraud.
+- Human verification stopped each attempt → counsel and agents independently located the real owners instead of trusting plausible documents and platform messages.
+- Prevention varies by jurisdiction → title alerts and recorded non-authority notices help; commenters also proposed signs, monitoring, and escalation to platform legal teams.
 
-## LLM perspective
-- View: Real-estate workflows optimized for convenience now let moderately competent scammers weaponize public data and remote closings at scale.  
-- Impact: Absentee and vacant-land owners, realtors, and title insurers will bear rising verification costs and liability unless standards improve.  
-- Watch next: Wider use of owner-notification registries, mandatory high-assurance ID checks at closing, and potential regulation of listing and ad platforms.
+### LLM perspective
+
+- View: The core failure is identity verification across fragmented participants, not secrecy of property details that are intentionally public.
+- Impact: Owners, buyers, agents, lawyers, and title companies face fraud, construction, litigation, safety, and recovery costs.
+- Watch next: Recorded notice effectiveness, platform takedowns, stronger closing verification, title-insurer controls, law-enforcement response, and recurrence at the address.

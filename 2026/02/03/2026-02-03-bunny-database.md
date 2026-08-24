@@ -3,18 +3,17 @@
 - Score: 238 | [HN](https://news.ycombinator.com/item?id=46870015) | Link: https://bunny.net/blog/meet-bunny-database-the-sql-service-that-just-works/
 
 ### TL;DR
-Bunny Database is a managed, SQLite-compatible service built on libSQL, aiming to be a lightweight, low-cost, multi-region SQL backend that “just works.” It offers HTTP access, SDKs, automatic and manual region placement across 41 locations, and usage-based pricing with databases spinning down when idle; preview is free. Under the hood, it prioritizes operational stability over strict SQLite/libSQL feature parity. Hacker News discussion, however, questions Bunny’s reliability and transparency, citing delayed S3-compatibility promises and logging outages, and debates whether DBaaS beats self‑hosting Postgres/MySQL.
 
----
+Bunny Database is a public-preview managed service built on bunny.net’s libSQL fork, offering SQLite-compatible HTTP access, SDKs, metrics, idle spin-down, and read replicas across 41 regions. Bunny claims nearby replicas cut p95 read latency by up to 99%; future pricing meters rows and regional storage, while preview accounts receive 50 free 1 GB databases. Complete SQLite/libSQL parity is not promised, and backups plus import/export remain roadmap items. Commenters debated managed convenience versus self-hosting, while prior missed S3 promises and delayed log delivery made several distrust Bunny with critical data.
 
 ### Comment pulse
-- Trust concerns → Missed S3-compatibility timelines and unanswered support tickets erode confidence in Bunny’s roadmap and leadership — counterpoint: storage rewrite made original schedule unrealistic.  
-- Operational doubts → Multi-day log delivery delays despite “5 minutes” SLA, not shown on status page, make commenters wary of delegating critical databases to Bunny.  
-- DBaaS vs self-host → Some say RDBMS is easy on a VPS; others highlight backups, security, multi‑region, and failover as non-trivial reasons to pay for managed.
 
----
+- Managed value exceeds installation → replication, failover, backups, patching, monitoring, security, and regional reads consume expertise even when a database starts easily.
+- Trust is the blocker → commenters cited overdue S3 compatibility and unreported logging delays — counterpoint: rebuilding storage is legitimately substantial.
+- Preview gaps matter → automatic backups and file portability are not yet shipped, while compatibility follows Bunny’s chosen libSQL version rather than upstream.
 
 ### LLM perspective
-- View: Technically appealing “SQLite for the web,” but success hinges more on operational excellence and trust than on feature checklist.  
-- Impact: Most attractive to indie devs and small teams needing global read latency without running Postgres or complex infra themselves.  
-- Watch next: Clear SLOs, public incident reports, automated backups, and real-world latency/cost benchmarks will determine whether this can rival Neon/Turso-class offerings.
+
+- View: Attractive edge economics and locality remain product claims; preview status and missing durability features argue against critical workloads.
+- Impact: Small global apps gain low-ops regional reads, but accept provider coupling, compatibility drift, metered writes, and operational trust risk.
+- Watch next: Backup launch, recovery guarantees, import/export, write topology, consistency semantics, status transparency, S3 delivery, benchmarks, and post-preview pricing.

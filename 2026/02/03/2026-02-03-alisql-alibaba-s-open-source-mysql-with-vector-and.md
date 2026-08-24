@@ -2,15 +2,18 @@
 
 - Score: 130 | [HN](https://news.ycombinator.com/item?id=46875228) | Link: https://github.com/alibaba/AliSQL
 
-- TL;DR
-    - AliSQL is Alibaba’s hardened MySQL 8.0.44 fork, now open-sourced, that adds two headline capabilities: a native DuckDB storage engine and built‑in vector indexing. DuckDB runs as a MySQL engine, giving columnar analytics through normal MySQL connections, while the vector store supports up to 16k‑dimensional HNSW ANN search via SQL. Roadmap items focus on faster DDL, crash recovery, and replication. HN discussion centers on whether this is real HTAP, and how it compares with pg_duckdb, MariaDB, ClickHouse, and TiDB.
+### TL;DR
 
-- Comment pulse
-    - AliSQL+DuckDB pitched as HTAP → transactional sync keeps OLTP and analytics close, avoiding ETL pipelines. — counterpoint: others say guarantees match typical OLAP storage engines.
-    - HN compares AliSQL to pg_duckdb, MariaDB ColumnStore, TiDB, ClickHouse, Tiger Data → many options already blend OLTP interfaces with columnar or vector backends.
-    - Some wonder why extend MySQL instead of Postgres FDWs → likely because Alibaba already runs huge MySQL-based stacks and wanted minimal app-layer changes.
+AliSQL 8.0.44 is Alibaba’s GPL-2.0 MySQL 8.0.44 branch, used internally and open-sourced in December 2025. It now embeds DuckDB as a native storage engine for lightweight analytics and adds SQL-accessible vector storage up to 16,383 dimensions with HNSW approximate-nearest-neighbor indexing. Planned work targets DDL, crash recovery, and replication. Commenters welcomed combining transactions, analytics, and vectors behind one interface, but disputed whether this constitutes true HTAP or merely coupled engines, and requested comparisons with pg_duckdb, MariaDB ColumnStore, TiDB, ClickHouse, and Tiger Data.
 
-- LLM perspective
-    - View: A MySQL-native DuckDB and vector engine reduces friction for LLM/RAG features in existing MySQL-centric applications.
-    - Impact: MySQL shops gain ClickHouse-like analytics and pgvector-style search without new stacks; could pressure Oracle MySQL and MariaDB roadmaps.
-    - Watch next: independent performance/consistency benchmarks, clarity on continuous ingestion semantics, and whether other vendors adopt embedded DuckDB-style column engines.
+### Comment pulse
+
+- Integrated analytics can simplify operations → keeping MySQL interfaces may reduce separate pipelines and connections for mixed transactional and analytical workloads.
+- HTAP label is contested → transactional synchronization sounds promising — counterpoint: critics saw two engines without clearly stronger consistency guarantees.
+- Ecosystem fit will decide adoption → users want benchmarks and operational comparisons against Postgres extensions, MariaDB, TiDB, ClickHouse, and existing CDC pipelines.
+
+### LLM perspective
+
+- View: AliSQL’s practical appeal is MySQL-compatible consolidation; the README establishes features, not comparative performance or end-to-end consistency.
+- Impact: MySQL shops gain an incremental analytics and vector path while assuming fork maintenance, engine semantics, and migration risk.
+- Watch next: DuckDB transaction guarantees, replication behavior, vector recall and latency, production benchmarks, roadmap delivery, packaging, documentation, and upstream divergence.

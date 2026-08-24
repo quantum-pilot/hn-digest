@@ -3,18 +3,17 @@
 - Score: 171 | [HN](https://news.ycombinator.com/item?id=46868479) | Link: https://safe-now.live
 
 ### TL;DR
-Safe-now.live is a sub‑10KB, text‑only emergency info site for the US and Canada that loads on very slow or congested connections. It offers one-tap calling for key emergency numbers, brief “what to do now” checklists for common disasters, kit and home-prep guidance, and links to official resources and financial aid. HN discussion focuses less on the idea and more on practical reliability: uptime under surge, data correctness, font size and usability under stress, and reducing clicks via location awareness.
 
----
+Safe-Now.live is an 8.6KB emergency-reference site for slow connections in the United States and Canada. It centralizes emergency numbers, active declarations, location pages, disaster actions, kit and home-preparation checklists, aid resources and recovery guidance. Its sparse design favors availability over visual polish. HN’s unintended load test exposed the harder problem: trustworthy crisis information. Commenters reported initial downtime, tiny mobile text, decades-old or wrong-region alerts and cumbersome navigation; the creator said several defects were patched during the discussion.
 
 ### Comment pulse
-- Reliability and hosting → If it can’t stay up under HN load, it may fail during real disasters—counterpoint: issues were during live patching; payload is tiny now.
-- Usability under stress → Font is too small and click targets fiddly; panicked, shaky users need big text, minimal interaction, and fast access.
-- Data quality and accuracy → Old or misrouted fire alerts erode trust; emergency tools must aggressively filter stale data and avoid cross-location mixups.
 
----
+- Reliability concerns dominated: a crisis service must withstand surges and avoid stale or geographically incorrect alerts.
+- Accessibility feedback emphasized larger touch targets and type because panic, smoke or one-handed use can impair precision.
+- One commenter requested IP-based localization to reduce taps, especially on the small state selector.
 
 ### LLM perspective
-- View: Great concept: ultra-lean, official-link aggregator; success hinges on ruthless accuracy and stress-tested UX.
-- Impact: Most useful for low-bandwidth users, overloaded networks, and as a backup when rich apps or maps fail.
-- Watch next: Add IP-based location shortcut, offline-friendly print/PDF, automated data validation, and regular disaster-load simulations.
+
+- View: Small payloads help degraded networks, but correctness and legibility are the service’s real reliability budget.
+- Impact: Bad localization or stale alerts could misdirect users precisely when verification is hardest.
+- Watch next: Automated data validation, accessible mobile testing, CDN resilience and transparent freshness indicators per alert.

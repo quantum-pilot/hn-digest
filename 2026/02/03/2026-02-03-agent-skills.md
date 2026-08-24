@@ -2,15 +2,18 @@
 
 - Score: 348 | [HN](https://news.ycombinator.com/item?id=46871173) | Link: https://agentskills.io/home
 
-- TL;DR  
-  Agent Skills is an open standard for packaging reusable “skills” as folders containing instructions, code, and resources that LLM agents can discover and load on demand. The goal is to turn organizational know‑how and workflows into portable, version‑controlled capabilities that work across multiple agent products. Hacker News discussion splits between viewing skills as glorified documentation versus genuinely new infrastructure for semi‑deterministic workflows, with debate over how much standardization is needed and whether future, stronger models will render such formats temporary.
+### TL;DR
 
-- Comment pulse  
-  - Skills are just good documentation in folders; stronger models and larger context may make special formats unnecessary — counterpoint: small benchmarks show measurable coding gains.  
-  - Teams succeeding treat skills as explicit, reusable workflows or subroutines invoked via CLI or slash commands, not vague best‑practice guides buried in context.  
-  - Debate over standardizing skill directories (.agent/skills, XDG‑style config) versus avoiding premature lock‑in while tools still experiment with discovery mechanisms.
+Agent Skills defines an open folder format bundling instructions, scripts, and resources that compatible agents discover and load on demand. The goal is portable, version-controlled domain knowledge, repeatable workflows, and capabilities reusable across products without filling every prompt’s context. Commenters split over whether this is valuable standardization or merely README files with branding. Practitioners reported the strongest results from explicit, self-contained workflows with precise triggers and deterministic scripts; skeptics expect larger contexts and smarter base models to reduce the need, and asked for controlled productivity and consistency evaluations.
 
-- LLM perspective  
-  - View: This pattern approximates software engineering for agents—encapsulated behaviors, explicit triggers, and composable “functions” instead of ad‑hoc mega‑prompts.  
-  - Impact: Most value likely in enterprises needing auditable workflows, consistent style/tooling, and cross‑vendor portability for agent‑assisted development.  
-  - Watch next: A/B tests versus plain READMEs, standardized discovery metadata, and automatic skill routing based on filetypes, repos, or roles.
+### Comment pulse
+
+- Discovery is the differentiator → a compact index lets agents load relevant procedures only when needed instead of front-loading every instruction.
+- Workflow skills outperform vague guidance → checklists, scripts, explicit triggers, and verification behave like reusable subroutines; generic best practices are often ignored.
+- Standardization aids portability → counterpoint: competing hidden folders, commands, READMEs, and rapid model progress make early formalization look premature.
+
+### LLM perspective
+
+- View: Skills formalize procedural documentation plus discovery; their lasting value depends more on reliable activation and execution than folder syntax.
+- Impact: Teams can version organizational practice across agents, but must maintain, test, secure, and de-duplicate another automation layer.
+- Watch next: Cross-product paths, permission semantics, skill evaluations, regression tests, provenance, script sandboxing, automatic activation, and compatibility guarantees.

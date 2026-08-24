@@ -2,19 +2,18 @@
 
 - Score: 235 | [HN](https://news.ycombinator.com/item?id=46864498) | Link: https://alignment.anthropic.com/2026/hot-mess-of-ai/
 
-## TL;DR
-Using repeated sampling, the authors decompose large-model failures into bias (systematic error) and variance (incoherence). On complex, long-horizon reasoning and agentic tasks, variance dominates: models “overthink” into unpredictability, even as accuracy rises. Scaling helps coherence only on easy problems; on hard ones, larger models stay or become hot messes. A synthetic optimizer experiment shows models learn objectives faster than they learn to pursue them reliably. HN discussion pivots to task decomposition, multi-agent orchestration, and the difficulty of specifying goals clearly.
+### TL;DR
 
-## Comment pulse
-- Practitioners see the bias–variance framing as immediately useful: keep sessions narrower, merge edits into initial prompts, and ensemble runs to dampen randomness.  
+Researchers decompose model error into systematic bias and sample-to-sample variance, defining the variance share as “incoherence.” Across Claude Sonnet 4, o3-mini, o4-mini, Qwen3 and synthetic optimizers, they report that longer reasoning increases incoherence; scale improves coherence on easy tasks but not hard ones; and spontaneous overthinking hurts more than larger reasoning budgets help. Ensembling reduces variance. They therefore argue complex future failures may resemble unpredictable industrial accidents more than consistent pursuit of an unintended goal, while emphasizing that incoherence remains dangerous and goal misspecification still matters.
 
-- System designers report better coherence from task decomposition and “team of rivals” agents than deeper single-model reasoning—counterpoint: orchestration increases system complexity and failure modes.  
+### Comment pulse
 
-- Others argue misalignment often reflects under-specified goals; writing precise specs and documentation may rival coding effort—while fundamental human values remain impossible to fully enumerate.  
+- Practitioners favor smaller task scopes, repeated evaluations and separating planning from execution to contain variance.
+- Skeptics say today’s models cannot establish future failure modes if later systems specifically solve incoherence.
+- Others argue incomplete specifications create apparent misalignment, though even explicit refactoring instructions can produce unsolicited changes.
 
-## LLM perspective
-- View: Treat incoherence as a monitored metric; log variance across samples in evals and key production workflows, not just accuracy.  
+### LLM perspective
 
-- Impact: Encourages designs with smaller per-step scopes, hierarchical planning, and fail-fast subagents instead of monolithic, ever-longer chains of thought.  
-
-- Watch next: Whether new training regimes, architectures, or tools meaningfully reduce long-horizon variance on realistic agents beyond benchmark multiple-choice settings.
+- View: The bias-variance lens distinguishes inconsistent execution from reliably optimizing the wrong target.
+- Impact: Long-horizon agents may need checkpoints, ensembles or delegated subtasks rather than one uninterrupted reasoning trace.
+- Watch next: Replication on irreversible real-world tasks and newer models, with controls for task difficulty and baseline accuracy.
