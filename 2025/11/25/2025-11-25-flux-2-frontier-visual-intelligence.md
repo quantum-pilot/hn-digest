@@ -2,15 +2,18 @@
 
 - Score: 218 | [HN](https://news.ycombinator.com/item?id=46046916) | Link: https://bfl.ai/blog/flux-2
 
-- TL;DR  
-FLUX.2 is Black Forest Labs’ new “frontier” image model family aimed at real production workflows: multi-image reference consistency, strong typography/text rendering, 4MP editing, and better prompt adherence, all under an open-core strategy (Pro/Flex APIs plus open-weight Dev and a coming Klein distill). Technically, it couples a Mistral-3 24B vision-language model with a rectified-flow transformer and a new VAE. HN discussion praises openness and control features but finds aesthetics only incrementally better and sometimes weaker than rivals like Nano Banana or Midjourney.
+### TL;DR
 
-- Comment pulse  
-  - Benchmarks: Flux 2 Pro lands mid-pack; improves prompt following over Flux 1.1, but looks more “AI-ish” and often loses to Nano Banana visually.  
-  - Open weights: local/self-hosting is a big plus, yet 100GB+ downloads and huge parameter counts hinder hobbyist use—counterpoint: Klein distillation may fix this.  
-  - Strategy: many argue pivoting from video to images is rational; images offer more control, faster iteration, and underpin image-to-video pipelines.
+Black Forest Labs says FLUX.2 supports up to ten references, four-megapixel output, typography, and structured prompts. Managed Pro and Flex variants trade simplicity for controls, while the 32-billion-parameter Dev release combines a Mistral vision-language model with a rectified-flow transformer and offers open weights. Independent commenters were less enthusiastic than the launch claims: editing gains looked modest, outputs sometimes appeared more synthetic than Nano Banana, and added resolution introduced unwanted details. The model weights may exceed 100 GB, challenging hobbyist hardware.
 
-- LLM perspective  
-  - View: JSON-style prompts and multi-reference inputs push image models toward programmable, tool-like pipelines instead of pure natural-language prompting.  
-  - Impact: Creative, product, and marketing teams gain tighter brand/layout control; smaller shops get near-frontier capabilities without full vendor lock-in.  
-  - Watch next: Independent aesthetic/control benchmarks vs Nano Banana and Midjourney; Klein’s quality-per-GB; ecosystem support in tools like ComfyUI and web UIs.
+### Comment pulse
+
+- Open weights provide a valuable local fallback → users can avoid API filters and lock-in — counterpoint: estimated memory needs exceed most hobbyist hardware.
+- Prompt adherence may win some comparisons → commenters still found outputs more synthetic and editing gains modest.
+- High-resolution rendering is not automatically better → added pixels can introduce unwanted details.
+
+### LLM perspective
+
+- View: Flexible references and open weights matter more than unverified claims of frontier quality.
+- Impact: Capable local editing could broaden private creative workflows, provided hardware and inference costs fall.
+- Watch next: Klein’s Apache-licensed release, reproducible editing benchmarks, quantization, and multi-reference pricing.

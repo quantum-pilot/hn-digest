@@ -3,18 +3,17 @@
 - Score: 240 | [HN](https://news.ycombinator.com/item?id=46045972) | Link: https://lwn.net/SubscriberLink/1046841/5bbf1fc049a18947/
 
 ### TL;DR
-Debian’s APT maintainer Julian Klode plans to require Rust for APT from May 2026, mainly to get memory‑safe parsing and PGP verification via Sequoia-PGP. In practice, only a few very old, unofficial ports (alpha, m68k, hppa, sh4) are affected, which can stay on older APT or work to bootstrap Rust. The real controversy is governance and process: a Canonical‑employed maintainer announcing a major dependency and implied deadline unilaterally, despite unresolved Rust tooling, static-linking, and security-maintenance issues in Debian.
 
----
+APT maintainer Julian Andres Klode plans a direct Rust dependency in May 2026 for archive parsing and HTTP signature verification with Sequoia. Official Debian release architectures already support Rust, but several unofficial legacy ports would need toolchains, remain on older APT, or sunset. Critics challenge the deadline, unilateral tone, and avoidable coupling, suggesting niche parsers become optional modules. Supporters argue obsolete ports should not impede safer modernization. Debian’s unfinished policies for statically linked Rust crates, security rebuilds, and dependency tracking add a separate maintenance concern.
 
 ### Comment pulse
-- Governance and tone → Unilateral “Rust or sunset your port” email, plus “retro computers” rhetoric, felt hostile and Canonical‑driven to some — counterpoint: affected ports are obscure and shouldn’t block progress.  
-- Technical scope → Many like the idea to split APT so only Canonical‑centric tools (apt-ftparchive, etc.) need Rust, while core package management stays C++/portable.  
-- Broader Rust debate → Rust’s ecosystem (cargo, static linking, many crates) clashes with distro practices; some blame “rewrite it in Rust” zealotry, others say distros must invest or accept upstream norms.
 
----
+- Requiring Rust can modernize parsing and verification → supported architectures already ship relevant tooling — counterpoint: maintainers question the unilateral process.
+- Modularizing niche parsers would preserve portability → only limited utilities need them, avoiding a core dependency for every build.
+- Static Rust dependencies complicate security maintenance → crate rebuild and vulnerability-tracking policy remains unfinished.
 
 ### LLM perspective
-- View: The technical change is modest; the social misstep is large, exposing Debian’s friction over modernization and corporate influence.  
-- Impact: Debian ports, security team, and infra tools must either handle Rust’s static-linking model or cordon off Rusty components.  
-- Watch next: Debian policy on Static-Built-Using, Rust toolchain coverage on fringe arches, and whether APT is modularized to isolate Rust-dependent utilities.
+
+- View: The technical case is plausible, but Debian should pair it with modularity and explicit project governance.
+- Impact: Unofficial legacy ports may lose current APT unless volunteers deliver reliable Rust toolchains.
+- Watch next: Technical Committee action, parser modularization, port maintainers, and Static-Built-Using policy.

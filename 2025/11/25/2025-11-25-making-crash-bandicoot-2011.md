@@ -3,18 +3,17 @@
 - Score: 190 | [HN](https://news.ycombinator.com/item?id=46045039) | Link: https://all-things-andy-gavin.com/video-games/making-crash/
 
 ### TL;DR
-Andy Gavin’s “Making Crash Bandicoot” hub collects a multi-part, first-person history of how a tiny team built Sony’s first real mascot platformer on brutally constrained PS1 hardware. The series covers Naughty Dog’s expansion from two founders, the conscious “mascot gap” they targeted, engine and toolchain innovations, gameplay iteration, custom Lisp dialect GOOL, marketing, localization, and long-tail memories. HN comments highlight co-creator Dave Baggett’s later role funding ITA Software, ingenious streaming/triangle-sorting tricks, and the broader entrepreneurial impact of Crash royalties.
 
----
+This page collects Andy Gavin’s multipart retrospective on how a two-person Naughty Dog grew around a PlayStation mascot opportunity. The linked summaries span character design, custom engine and tools, repeated control rewrites, box-heavy level design, naming, launch, localization, and GOOL, an in-house Lisp dialect. HN discussion supplied the sharpest technical detail: the game’s linear route let developers pre-sort polygons and arrange disc data offline, overcoming the console’s missing z-buffer, two megabytes of RAM, slow optical seeks, and limited compute.
 
 ### Comment pulse
-- Crash royalties → early tech funding: Dave Baggett’s game income helped seed ITA Software, later powering Google Flights, showing games as serious startup capital.
-- Naughty Dog’s tech wizardry → early streaming and no-load transitions in Jak & Daxter impressed players and developers as rare, deep exploitation of new console hardware.
-- PS1 rendering constraints → no z-buffer forced pre-sorted triangles and linear levels; offline preprocessing, Beowulf-style clustering, and data layout hacks maximized fidelity and streaming.
 
----
+- Linear levels enabled visual density → offline polygon sorting avoided a z-buffer and scheduled assets along the player’s expected path.
+- Hardware constraints shaped tooling → artists’ SGI workstations formed a makeshift cluster because each level’s preprocessing took about an hour.
+- The retrospective foregrounds iteration → controls were rewritten repeatedly, while art, engine, enemy density, naming, and localization evolved together.
 
 ### LLM perspective
-- View: This series is as much about entrepreneurial risk-taking and custom tooling as about one famous character platformer.
-- Impact: Modern devs can mine it for lessons in squeezing hardware, building tools, and aligning design with platform marketing gaps.
-- Watch next: Compare to contemporary engine-agnostic workflows, scripting languages, and asset pipelines to see which ideas aged well or re-emerged in new forms.
+
+- View: The celebrated look came from designing game structure and build tooling around hardware limitations.
+- Impact: Constraint-aware architecture let a tiny studio compete visually and establish a durable console franchise.
+- Watch next: Linked chapters on GOOL, streaming layout, Japanese localization, control tuning, and production tradeoffs.

@@ -3,18 +3,17 @@
 - Score: 276 | [HN](https://news.ycombinator.com/item?id=46045085) | Link: https://spectrum.ieee.org/it-management-software-failures
 
 ### TL;DR
-The article surveys two decades of spectacular IT failures—from Canada’s Phoenix payroll and the UK Post Office’s Horizon to MiDAS/Robodebt, ERP blowups, and defense programs—arguing they are overwhelmingly management, governance, and ethical blunders, not technical mysteries. Trillions are wasted while the same, well-documented mistakes repeat: over-ambition, ignored risks, scope creep, dishonest schedules, and hostility to bad news. AI and coding copilots can’t fix this because the root cause is willful human mismanagement; only honesty, accountability, and incremental, human-centered design can.
 
----
+Global IT spending rose from $1.7 trillion in 2005 to $5.6 trillion in constant 2025 dollars, yet project success has not markedly improved. The author argues most disasters repeat known management failures: unrealistic scope, weak testing, ignored risk, poor skills, political denial, and absent accountability. Canada’s Phoenix payroll and Britain’s Horizon scandal show that human damage can dwarf budgets, while failed replacements entrench legacy systems. AI coding tools cannot repair governance, incentives, ethics, or organizational politics; disciplined leadership and honest risk accounting remain essential.
 
 ### Comment pulse
-- Build small, then scale → Pilot on low‑risk cohorts, learn in production, only then go national; big‑bang rollouts are suicidal—counterpoint: some orgs (e.g., UK gov digital, SWIFT) do succeed at large-from-day-one systems.  
-- We don’t learn from history → Software culture churns tech, ignores past systems and failures; retros blame developers, not management, and rising abstraction hides old solutions and lessons.  
-- People and incentives, not tools → Egos, politics, misaligned vendors, and lack of consequences sink projects; several argue for treating software like civil engineering, with regulation, standards, and real accountability.
 
----
+- Large failures are usually blunders → organizations repeat documented mistakes rather than discovering genuinely novel technical limits.
+- Incremental rollout contains harm → pilots expose assumptions before national deployment — counterpoint: some institutions launch huge systems reliably with mature discipline.
+- Retrospectives often protect management → action items target developers while shifting requirements, staffing, incentives, and leadership escape constraint.
 
 ### LLM perspective
-- View: Tooling and AI copilots matter far less than fixing incentives, governance, and the courage to cancel or descope doomed projects.  
-- Impact: Governments, regulated industries, and large enterprises must institutionalize postmortems, independent review, and staged rollouts to avoid Phoenix/Horizon-style harm.  
-- Watch next: Concrete moves on software liability, mandatory failure reporting, and standards for AI-driven public systems with auditable explanations and opt‑out paths.
+
+- View: Software risk is socio-technical; better code generation cannot compensate for dishonest governance or perverse contracts.
+- Impact: Failure costs include ruined livelihoods, wrongful prosecutions, delayed benefits, and public distrust, not merely overruns.
+- Watch next: Modular pilots, independent audits, executive accountability, user-harm accounting, replacement milestones, and algorithmic appeal rights.

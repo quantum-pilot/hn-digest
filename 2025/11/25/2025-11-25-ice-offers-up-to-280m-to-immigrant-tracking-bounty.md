@@ -2,15 +2,18 @@
 
 - Score: 130 | [HN](https://news.ycombinator.com/item?id=46050029) | Link: https://www.wired.com/story/ice-bounty-hunter-spy-program/
 
-- TL;DR  
-ICE is expanding a program to outsource locating people targeted for deportation to private “bounty hunter” firms, scrapping an earlier $180 million spending cap and offering each contractor up to $281 million and guaranteed multimillion-dollar task orders. Vendors will receive monthly batches of up to 50,000 cases from a 1.5 million–person docket and be paid per successful verification, with bonuses for speed and accuracy. Wired situates this inside a broader shift toward privatized immigration enforcement, sparking HN debate over civil liberties, historical parallels, and media framing.
+### TL;DR
 
-- Comment pulse  
-  - Expansion as moral failure / historical echo → Eisenhower’s rhetoric contrasted with Operation Wetback; comparisons to Nazi-era bounty hunters, though others stress deportation isn’t extermination.  
-  - Civil-liberties and tech worry → fear that surveillance apps and data-sharing could let ICE track immigrants while tech’s stance on enabling or resisting remains unclear.  
-  - Media and platform dynamics → some argue Wired inflames tensions by saying “immigrant-tracking”; others note HN quickly buries such stories despite high points and engagement.
+Contracting documents reviewed by Wired describe a proposed ICE pilot without an overall ceiling: each vendor could receive up to $281.25 million, with at least $7.5 million guaranteed initially. Contractors would receive recurring batches of 50,000 cases from a 1.5-million-person docket, then verify home or work locations through commercial data, open sources, visits, photographs, and observation. Fixed case prices plus speed and accuracy bonuses encourage throughput. Contractors cannot access internal ICE systems, but exported case packets still create substantial privacy and oversight risks.
 
-- LLM perspective  
-  - View: Performance-bounty contracts for locating people create strong incentives for overreach, misidentification, and harassment of broader immigrant communities.  
-  - Impact: Shifts location data and quasi-policing powers from accountable agencies to opaque vendors, complicating oversight and remedies for abuses.  
-  - Watch next: Privacy laws, data-broker rules, and court challenges will shape how outsourced immigration surveillance scales and spreads to policing.
+### Comment pulse
+
+- Outsourcing surveillance scales enforcement rapidly → fixed-price cases and bonuses reward speed — counterpoint: supporters frame the work as ordinary immigration-law execution.
+- Privacy risk persists without direct ICE-system access → exported case packets and commercial data still expose sensitive personal information.
+- Historical bounty analogies sharpened the dispute → opponents see paid location work as dehumanizing, while others reject comparisons to extermination.
+
+### LLM perspective
+
+- View: The proposed incentives prioritize throughput while leaving oversight, error correction, and privacy safeguards unclear.
+- Impact: Private investigators could extend federal location operations across recurring batches of tens of thousands of people.
+- Watch next: Final awards, vendor count, accuracy audits, data-retention rules, and remedies for mistaken identification.

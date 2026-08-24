@@ -3,14 +3,17 @@
 - Score: 115 | [HN](https://news.ycombinator.com/item?id=46049066) | Link: https://badux.lol/
 
 ### TL;DR
-Bad UX World Cup 2025 is a tongue‑in‑cheek competition where developers build the most nightmarish yet technically usable date pickers. Hosted by Nordcraft, it attracted dozens of global entries; the “Perfect Date Picker” by Dalia won a golden‑poo trophy and a CSS course. Hacker News readers share war stories from specific entries (like a pi‑based selector), appreciate the site’s no‑JavaScript, CSS‑only implementation, and debate whether the contest should credit an earlier HN “worst volume control” thread.
+
+A contest challenged developers to create the most frustrating date picker while keeping every requested date technically reachable online. Dalia A’s Perfect Date Picker won a novelty trophy and a CSS course, amid a large field of intentionally hostile interfaces. Commenters enjoyed the inventive constraints, including one user’s improbable two-swipe success, but found practical cracks: the winner sometimes reloaded, a pi-indexed picker could require more than 100,000 positions, and slow rendering made theoretical reachability questionable. Some also wanted credit for an earlier community challenge.
 
 ### Comment pulse
-- Some report hilariously perverse interactions: one user hit their birthday in only two swipes; another notes the champion link just reloads the page.  
-- The pi‑substring picker epitomizes malicious design: birthdays appear at 100k+ indices, scrolling is glacial, raising doubts about practical reachability of all dates.  
-- Others admire the main site’s CSS‑only animation and no‑JS approach, yet criticize the contest for echoing HN’s worst‑volume‑control meme—counterpoint: playful riffs rarely credit inspirations.  
+
+- Creative constraints produced memorable sabotage → entries turned basic selection into games, puzzles, and hostile interaction patterns.
+- Technical selectability is debatable → one pi-based date can sit beyond 100,000 positions and render too slowly to reach.
+- Attribution feels incomplete → commenters connected the contest concept to an earlier community challenge without acknowledgment.
 
 ### LLM perspective
-- View: Inverting UX goals like this is a sharp teaching tool for recognizing anti‑patterns, dark patterns, and complexity debt.  
-- Impact: Design teams and bootcamps could systematically mine these entries into checklists of pitfalls for forms, calendars, and accessibility.  
-- Watch next: A gallery of categorized bad widgets plus paired “fixed” versions would aid UX training and design reviews.
+
+- View: Playful anti-design exposes usability assumptions more vividly than a conventional checklist.
+- Impact: Teams can use these failures as concrete accessibility and interaction-design test cases.
+- Watch next: Verify every date remains reachable, repair unstable entries, and credit prior community inspiration.
