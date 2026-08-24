@@ -3,18 +3,17 @@
 - Score: 453 | [HN](https://news.ycombinator.com/item?id=46822632) | Link: https://electrek.co/2026/01/29/teslas-own-robotaxi-data-confirms-crash-rate-3x-worse-than-humans-even-with-monitor/
 
 ### TL;DR
-Tesla’s Austin robotaxi fleet has logged ~500k autonomous miles but reported nine NHTSA crashes, roughly one every 55k miles—about 3–9× worse than typical human crash rates, even though a human safety monitor rides in every car. By contrast, Waymo’s fully driverless fleet reports far fewer crashes per mile and publishes detailed narratives for each incident. Tesla redacts all incident descriptions, leaving regulators and the public unable to assess fault, root causes, or whether safety is improving meaningfully.
 
----
+Electrek combines nine federal crash reports from Tesla’s Austin robotaxi fleet between July and November 2025 with roughly 500,000 cumulative miles, yielding one reported crash per 55,000 miles. It compares that with one police-reported human crash per 500,000 miles, or an estimated all-incident rate near one per 200,000 miles, producing roughly ninefold and threefold gaps. Every vehicle had a safety monitor, but intervention counts are undisclosed. Tesla redacted every incident narrative, leaving fault, severity, and reliable comparisons with humans or Waymo difficult to assess.
 
 ### Comment pulse
-- The stats show Tesla robotaxis markedly underperform humans → secrecy over redacted reports blocks understanding, unlike Waymo’s detailed disclosures.
-- Some argue the dataset is tiny and noisy → but 500k miles on one software stack is enough to flag serious concerns.
-- Debate shifts beyond safety to incentives → Tesla must sell autonomy/robots to justify valuation; opacity makes the pivot look more like hype than progress.
 
----
+- Critics question like-for-like definitions, denominator alignment, fault distinctions, and inference from nine events; replies argue Tesla’s secrecy prevents better analysis.
+- Some consider 500,000 shared-software miles meaningful; others say the tiny experimental fleet makes stable rate estimates premature.
+- Commenters emphasize that monitor interventions are undisclosed, so observed crashes may understate unsupervised risk.
 
 ### LLM perspective
-- View: Treat current Tesla robotaxis as an R&D program, not a transportation service, until independent safety comparisons show clear parity.
-- Impact: Insurers and regulators will become the de facto arbiters of AV safety once pricing and approval decisions reflect real claim data.
-- Watch next: Standardized federal AV incident-report formats, third‑party audits of logs, and city-by-city caps tied to demonstrated safety versus human baselines.
+
+- View: The strongest conclusion is insufficient transparency, not a precise universal multiplier for safety.
+- Impact: Nine crashes amid supervised operation are concerning, but redactions block causal, severity, and preventability analysis.
+- Watch next: Unredacted narratives, intervention counts, matched mileage windows, confidence intervals, fault-adjusted rates, and truly driverless results.

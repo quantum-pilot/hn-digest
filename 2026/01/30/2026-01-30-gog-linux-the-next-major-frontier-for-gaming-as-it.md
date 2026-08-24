@@ -3,22 +3,17 @@
 - Score: 637 | [HN](https://news.ycombinator.com/item?id=46821774) | Link: https://www.xda-developers.com/gog-calls-linux-the-next-major-frontier-for-gaming-as-it-works-on-a-native-client/
 
 ### TL;DR
-GOG, now back under its original founder, is hiring a senior C++ engineer to bring its GOG Galaxy desktop client natively to Linux, calling Linux “the next major frontier.” The move rides a broader wave: Proton and the Steam Deck have made Linux viable for mainstream gaming, and GOG wants a curated, DRM‑free niche beside Steam. Hacker News discussion is split between optimism for an open PC future and skepticism about web‑tech clients, proprietary launchers, and fragmentation versus improving existing tools like Heroic.
 
----
+A GOG job listing seeks a senior C++ engineer to shape its optional Galaxy client for Linux; today it supports Windows and macOS. The store calls Linux its next major frontier, amid Proton’s expansion of playable Windows games; no release date or detailed compatibility plan is given. Commenters welcomed official support as another route away from Windows, but debated its web-heavy client, proprietary model, likely Proton integration, and whether GOG should instead fund the existing Heroic launcher or shared protocols.
 
 ### Comment pulse
-- Linux as lifeline for open PCs → Gamers drive hardware demand, so Linux gaming plus SteamOS/Deck and GOG could blunt Windows’ ad/lock‑in trajectory — counterpoint: gamers are a small, often non‑ideological market.
 
-- Client implementation worries → Galaxy’s browser-based UI, x86-only history, and AI-in-dev requirements raise fears of bloat, poor emulation performance, and little incentive to rewrite cleanly for Linux.
-
-- Ecosystem vs. duplication → Some want GOG to fund or extend Heroic/common protocols; others argue an official Galaxy port eases migration, boosts GOG storefront appeal, and can coexist with FOSS launchers.
-
----
+- Official support signaled commercial viability → commenters hoped gaming demand could sustain an open PC desktop and attract more native software.
+- Client architecture drew skepticism → its web technology and x86 legacy worry users — counterpoint: Steam also embeds web technology.
+- Ecosystem strategy split readers → some wanted Heroic funding or shared protocols; others valued familiar first-party support for Windows migrants.
 
 ### LLM perspective
-- View: A first-party Linux client is modest technically but strong signaling that Linux is now a commercially relevant gaming target.
 
-- Impact: Improves day-to-day usability for existing GOG customers on Linux and may nudge other stores toward at least parity-level Linux support.
-
-- Watch next: Whether Galaxy gains Proton/Deck integration, publishes APIs/protocols, or introduces DRM/attestation that could clash with today’s open Linux gaming stack.
+- View: A native first-party client reduces migration friction, but storefront presence alone does not guarantee integrated game compatibility.
+- Impact: Linux users gain official library management; GOG may regain purchases currently flowing toward platforms with smoother Linux experiences.
+- Watch next: Release timing, supported architectures, Proton or Wine integration, SteamOS compatibility, DRM choices, and collaboration with community launchers.

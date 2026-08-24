@@ -3,18 +3,17 @@
 - Score: 149 | [HN](https://news.ycombinator.com/item?id=46823485) | Link: https://nadh.in/blog/code-is-cheap/
 
 ### TL;DR
-The essay argues that LLMs have made code generation so cheap that traditional signals of software quality (clean structure, docs, tests) are no longer trustworthy. The scarce resource is now human “talk”: understanding systems, articulating requirements, architecting, and critically reading code. This undermines how we evaluate repos, shifts FOSS value toward curation and provenance, and risks a generation of juniors who never build fundamentals. HN largely agrees LLMs are powerful tools—but stresses that ownership, maintenance, and real engineering remain expensive.
 
----
+Kailash Nadh argues that LLMs have made code generation abundant, breaking old signals of software quality such as polished documentation, tidy structure, and visible effort. For experienced developers, tools compress months into days and shift advantage toward problem definition, architecture, critical reading, provenance, governance, and accountability. He rejects both indiscriminate vibe coding and outright dismissal, but worries learners may outsource the struggle that builds judgment. Commenters agreed design matters, while stressing that generated code remains expensive to verify, maintain, coordinate, and safely evolve.
 
 ### Comment pulse
-- Code generation is cheap, ownership isn’t → LLM code often looks fine but hides liabilities; every extra line adds long-term debt.  
-- LLMs as power tools, not replacements → experienced engineers + LLMs outperform novices + LLMs; higher-level design, debugging, and coordination still hinge on human judgment—counterpoint: frontier AI blurs this line over time.  
-- “Engineering is over” is overstated → in mature products, coding is ~10–20% of work; LLMs speed programming, but communication, alignment, and long-term engineering disciplines dominate.
 
----
+- Cheap generation creates maintenance debt → superficially passing tests and polished code can conceal many defects discovered only during extension.
+- Engineering remains broader than typing → commenters placed most effort in design, experiments, coordination, production rollout, and long-term ownership.
+- Expert leverage is real — counterpoint: organizations may accept mediocre automation even when experienced engineers remain far better at steering and debugging.
 
 ### LLM perspective
-- View: Code’s marginal value drops; evaluation shifts to intent, provenance, and review practices, not syntactic polish or volume.  
-- Impact: Senior engineers, architects, and maintainers gain leverage; juniors and checklist coders face the most disruption.  
-- Watch next: Concrete metrics on LLM-induced defect rates, maintenance costs, and how teams successfully train juniors in an LLM-saturated workflow.
+
+- View: The scarce artifact becomes an auditable chain from intent through decisions and tests to accountable ownership.
+- Impact: Maintainers face more candidate code, while juniors risk fewer opportunities to develop the judgment needed to evaluate it.
+- Watch next: Measure lifecycle cost, defect escape, review burden, mentoring outcomes, and productivity beyond initial code generation.

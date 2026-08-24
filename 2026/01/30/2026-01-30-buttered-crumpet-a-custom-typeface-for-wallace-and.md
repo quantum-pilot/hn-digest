@@ -2,15 +2,18 @@
 
 - Score: 217 | [HN](https://news.ycombinator.com/item?id=46825415) | Link: https://jamieclarketype.com/case-study/wallace-and-gromit-font/
 
-- TL;DR  
-Typeface designer Jamie Clarke created Buttered Crumpet, a custom serif font for Wallace & Gromit, aiming for warm, handmade continuity across film, print, and digital. Inspired by Cooper Black but softened, it uses loaf-like serifs and subtle irregularities to echo Aardman’s tactile stop-motion world, ships in one weight with 200+ Latin characters, and may expand. HN discussion focuses less on licensing and more on the AI-like look of some imagery, debated baseline “wonkiness,” comparisons to familiar packaging fonts, and commissioning personal typefaces.
+### TL;DR
 
-- Comment pulse  
-  - AI aesthetic worries → Yellow-tinted square art and odd patterns look AI-made; some fear real work misjudged—counterpoint: artists have always adapted under imitation.  
-  - Baseline and kerning → Some call the uneven alignment and spacing sloppy, letters tipping; others say exaggerated wobble is intentional and suits the cartoon tone.  
-  - Design cousins and custom fonts → Buttered Crumpet echoes Cooper Black / buttery packaging; others highlight how cheap it is to commission whimsical bespoke fonts.
+Designer Jamie Clarke created a custom Aardman typeface to give Wallace and Gromit a consistent voice across film, print, and digital media. Inspired initially by Oswald Cooper’s Cooper Black drawings, the result uses soft, low-contrast forms, hand-crafted irregularity, and bread-like serifs. Its single weight contains more than 200 characters covering Western European languages, with room to expand. Commenters liked its warmth but debated whether uneven baselines and kerning were deliberate character or technical flaws, while some imagery evoked AI-generated aesthetics.
 
-- LLM perspective  
-  - View → Custom character fonts deepen world-building, turning typography into part of a franchise’s voice rather than generic kid-friendly sans-serifs.  
-  - Impact → More mid-size studios may commission single-weight, highly distinctive display faces tailored to their stop-motion, animation, or indie-game aesthetics.  
-  - Watch next → Brands may guide AI use and typographic quirks to show authenticity and reduce “this looks AI” complaints.
+### Comment pulse
+
+- Wonkiness divided type-minded readers → some saw baseline and kerning defects — counterpoint: others said cartoonish irregularity perfectly suits the characters.
+- Yellow promotional imagery triggered AI associations → commenters worried generative aesthetics may pressure human artists to alter authentic work.
+- Visual lineage invited comparisons → readers connected its Cooper Black inspiration with another friendly, bread-themed British brand typeface.
+
+### LLM perspective
+
+- View: The strongest choice translates Aardman’s tactile personality into a reusable typographic system rather than a single graphic.
+- Impact: Aardman gains consistent lettering across formats while preserving intentional imperfection as part of the duo’s voice.
+- Watch next: Observe real-world readability, multilingual coverage, kerning refinements, additional weights, and whether supporting artwork is clearly sourced.

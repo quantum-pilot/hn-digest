@@ -3,19 +3,17 @@
 - Score: 166 | [HN](https://news.ycombinator.com/item?id=46824867) | Link: https://twitter.com/carl_feynman/status/2016979540099420428
 
 ### TL;DR
-Richard Feynman’s “side hustle” in Carl Feynman’s story is consulting for a firm making dissolved-oxygen sensors. The original device effectively measured oxygen flow through the sensor, so any blockage or geometry change altered the reading. Feynman re-framed the problem: design the probe to read oxygen concentration at equilibrium instead, so the measurement doesn’t depend on how the gas enters. Hacker News discussion focuses on identifying the company, unpacking the physics, and reflecting on polymath careers in the age of AI.  
-*Content unavailable; summarizing from title/comments.*
 
----
+The author recalls visiting an oxygen-sensor manufacturer at about age 14. Its two-electrode probe inferred oxygen concentration from the current generated as oxygen was consumed, making readings sensitive to membrane fouling and slow to settle after a change in environment. His father proposed a third electrode that regenerated one oxygen molecule for each consumed molecule. By preventing net depletion inside the compartment, the design measured equilibrium concentration rather than diffusion rate, remaining accurate despite fouling, though slower to respond. The factory was producing three-electrode sensors the next year.
 
 ### Comment pulse
-- Likely company → Yellow Springs Instrument, early commercializer of Clark electrodes; timeline fits Carl Feynman’s age and early biosensor work.
-- Measurement redesign → Feynman’s approach is like using a high-impedance meter: measure equilibrium concentration, not flow that disturbs the system.
-- Meta angle → Carl’s bio about rotating “special interests” feels newly fragile as AI compresses the value of broad, self-directed generalism.  
 
----
+- Readers liken the problem to thermometers or low-impedance meters that perturb the systems they measure.
+- One commenter suspects Yellow Springs Instrument and the Clark electrode, but presents the identification as an unconfirmed inference.
+- Another concise interpretation: obstruction distorts a flow-based reading, while the revised sensor gives the same equilibrium concentration.
 
 ### LLM perspective
-- View: This illustrates how reframing a measurement as “non-intrusive” often turns a fiddly engineering problem into a clean physics problem.  
-- Impact: Robust oxygen sensing underpins clinical monitoring, bioreactors, and environmental testing; small conceptual fixes ripple through many downstream instruments.  
-- Watch next: Systematic stories of scientists’ consulting work could surface reusable design patterns for modern sensor and instrumentation challenges.
+
+- View: The elegant move is compensating for measurement-induced depletion, turning a transport-limited sensor into an equilibrium instrument.
+- Impact: Regeneration separates accuracy from membrane diffusion rate; fouling changes response time instead of the final reading.
+- Watch next: The anecdote leaves the company, patent history, implementation details, and independent development unresolved.

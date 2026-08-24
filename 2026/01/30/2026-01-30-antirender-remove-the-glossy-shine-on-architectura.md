@@ -3,18 +3,17 @@
 - Score: 623 | [HN](https://news.ycombinator.com/item?id=46829147) | Link: https://antirender.com/
 
 ### TL;DR
-AntiRender is a small web toy that takes glossy architectural renderings and reimagines them as bleak, overcast “random Tuesday in November” scenes—no golden hour lighting, no happy people, just drab reality. HN readers love it both as meme-fodder and as a jab at the dishonesty of marketing visuals, joking about a “Poland filter” aesthetic. Discussion quickly shifts to architecture’s depressing trends, the difficulty of monetizing viral side-projects, and whether such filters have genuine decision-making value.
 
----
+AntiRender is a playful AI service that transforms polished architectural visualizations into gloomy, ordinary scenes: gray skies, rain, bare trees, empty public space, and visible weathering. Users upload a PNG or JPEG up to 10 MB and receive a satirical “random Tuesday in November” version; the page advertises two free generations and solicits donations to fund AI credits. HN readers enjoyed the joke and apartment-search idea, but noted that it applies a pessimism filter rather than predicting a real site’s weather performance or future condition.
 
 ### Comment pulse
-- “Poland filter” vibe resonates → many say it matches everyday life beside brutalist and grey-box new builds—counterpoint: most cities already look worse than these renders.
-- Monetization is hard → BuyMeACoffee yields little; ads most reliably convert virality, while crypto/micropayment schemes face friction, governance, and adoption hurdles.
-- Some want it for apartment hunting → others note it’s just a stylistic slider, not a physically accurate predictor; viral load already causing 402 payment errors.
 
----
+- The aesthetic felt geographically familiar → commenters jokingly recognized Poland, Moscow, Britain, brutalism, and gray modern urbanism.
+- Viral utility exposed monetization friction → commenters doubted donations would match traffic — counterpoint: advertising converts attention but introduces its own costs.
+- Apartment hunters saw practical value → critics noted the model turns a stylistic dial rather than measuring site-specific bad-weather performance.
 
 ### LLM perspective
-- View: Satirical “de-glossing” tools expose how heavily architectural renders manipulate mood and human presence to sell projects.  
-- Impact: Could nudge clients, residents, and planners to demand more neutral, standardized “baseline” visuals alongside marketing shots.  
-- Watch next: Browser-side inference, open datasets of honest site photos, and experiments with opt-in micro-tipping or lightweight ads for viral one-off tools.
+
+- View: The satire works because architectural renders sell mood alongside form; stripping away optimism exposes the sales technique.
+- Impact: Designers, planners, and buyers gain a quick prompt to ask how spaces perform outside idealized conditions.
+- Watch next: Test consistency across climates and styles, disclose image handling, and compare generated pessimism with photographs of completed projects.

@@ -2,15 +2,18 @@
 
 - Score: 181 | [HN](https://news.ycombinator.com/item?id=46827826) | Link: https://daringfireball.net/linked/2026/01/29/amazon-melania-spending
 
-- TL;DR  
-Amazon is paying about $75M total for a Melania Trump documentary: $40M for rights (an estimated $28M to Melania personally) and $35M for marketing—orders of magnitude above normal for political docs like RBG. Gruber and NYT sources see it as a de facto bribe or “regulatory insurance” for a company under political and antitrust scrutiny. HN commenters debate how blatant this is, how tech and crypto buy influence, what it implies for startups, and where the ad money flows.
+### TL;DR
 
-- Comment pulse  
-    - Deal is structured as bribe → Amazon overpays so $28M lands with Melania; political goodwill, not content value, explains numbers.  
-    - Influence games matter only at scale → Trillion‑dollar and crypto firms buy access; early startups should ignore and ship—counterpoint: rules can entrench incumbents.  
-    - HN meta and ad targeting → Users complain about selective moderation; others note likely ad spend to major social platforms and quip about AWS dependency.
+John Gruber argues Amazon’s documentary deal looks less like ordinary film economics than an effort to ingratiate the company with President Trump. He cites $40 million for rights—$26 million above Disney’s bid—plus $35 million in marketing, versus typical documentary production below $5 million and roughly $3 million promotion for RBG. He further relays a report that $28 million may have gone personally to Melania Trump. Commenters focused on that direct payment, implications for large technology firms, and the advertising’s overseas reach.
 
-- LLM perspective  
-    - View: This resembles regulatory insurance—cheap compared to potential fines or breakup, normalized as “content deals” rather than explicit lobbying.  
-    - Impact: Further blurs line between entertainment spending and political contributions, incentivizing future officeholders to monetize personal brands aggressively.  
-    - Watch next: Disclosure rules for media deals with politicians’ families, antitrust actions against Amazon, and whether competitors mimic “overpayment” strategies.
+### Comment pulse
+
+- The reported $28 million personal payment was treated as decisive → commenters saw deal structure, not merely overspending, as the political signal.
+- Scale mattered → commenters expected trillion-dollar firms and crypto companies to court Washington, while early startups could mostly ignore the dynamic.
+- Distribution was visibly international → one reader encountered advertising in a Berlin shopping mall.
+
+### LLM perspective
+
+- View: The pricing anomalies support scrutiny, but describing the arrangement as bribery remains the author’s inference, not an established finding.
+- Impact: Corporate media deals involving officials’ relatives can create conflicts even when framed as ordinary entertainment transactions.
+- Watch next: Track disclosed payment flows, theatrical revenue, the docuseries, internal approvals, and any regulatory or congressional inquiry.

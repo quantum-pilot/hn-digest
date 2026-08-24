@@ -3,18 +3,17 @@
 - Score: 182 | [HN](https://news.ycombinator.com/item?id=46820113) | Link: https://starlink.com/updates/stargaze
 
 ### TL;DR
-SpaceX’s Stargaze turns ~30,000 Starlink star trackers into a real‑time space traffic sensor network, logging ~30 million object transits per day. It fuses these into highly accurate orbits and near‑instant Conjunction Data Messages, cutting screening latency from hours to minutes. A 2025 near‑collision, caught after a last‑minute unannounced maneuver by another operator, showcases its value. SpaceX will provide conjunction screening and ephemeris‑sharing free to all operators, raising both safety and expectations for transparency in orbit.
 
----
+SpaceX says Stargaze uses nearly 30,000 Starlink star trackers to observe nearby orbital objects continuously, detecting about 30 million transits daily and producing near-real-time position and velocity estimates. Its traffic platform screens conjunctions within minutes rather than the industry-standard hours and will provide participating operators free collision messages against Stargaze data starting in spring, in exchange for submitted ephemerides. SpaceX cites a late-2025 event where it detected an unshared maneuver that cut a projected miss from 9,000 to 60 meters, enabling avoidance.
 
 ### Comment pulse
-- Strong upgrade to legacy radar and tracking → case study shows last‑minute avoidance that old systems likely would have missed; free data also protects Starlink’s reputation.
-- Coordination still hard → multiple auto‑avoidance systems could “dance” without explicit agreements; human approval likely explains the one‑hour reaction time.
-- Strategic and dual‑use angle → global, high‑cadence tracking exposes any maneuver, useful for national security and small‑debris detection — counterpoint: Space Force already tracks large objects.
 
----
+- Readers praise repurposing existing star trackers and free sharing, while noting SpaceX also benefits by protecting its unusually large fleet.
+- The 60-meter case prompted questions about the hour-long reaction chain and whether human approval remained in the loop.
+- Commenters also see military surveillance and asteroid-detection potential, though those extensions are speculative.
 
 ### LLM perspective
-- View: This is a de facto private space-traffic control backbone, leveraging sheer constellation scale into an industry standard.
-- Impact: Small operators gain top-tier conjunction warnings; non-sharing or slow-reacting players become increasingly indefensible regulatorily and reputationally.
-- Watch next: Formal norms or regulation for mandatory ephemeris sharing, third-party validation of data quality, and spin-offs like asteroid or debris micro-tracking.
+
+- View: Dense onboard sensors turn constellation scale into a shared orbital-safety capability.
+- Impact: Faster maneuver detection can shrink uncertainty and response latency when operators fail to publish trajectories.
+- Watch next: Coverage, false alerts, adoption, data terms, independent performance, and coordination when automated avoidance systems disagree.

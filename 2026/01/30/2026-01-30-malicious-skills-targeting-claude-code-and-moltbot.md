@@ -3,18 +3,17 @@
 - Score: 164 | [HN](https://news.ycombinator.com/item?id=46827731) | Link: https://opensourcemalware.com/blog/clawdbot-skills-ganked-your-crypto
 
 ### TL;DR
-Researchers documented malicious third‑party “skills” for AI coding agents like Claude Code and Moltbot that request wallet/API credentials and then exfiltrate them, often via Telegram bots. A community security platform is beginning to catalog these as a new class of open‑source malware. Hacker News discussion centers less on technical novelty and more on why users hand over keys to unvetted agents, likening this to classic low‑effort scams and warning against running unsandboxed LLM agents with real‑world permissions.
+
+An updated OpenSourceMalware post reports 28 malicious ClawHub skills published January 27–29 and a second wave of 386 through February 2. Disguised as crypto, finance, social, and utility tools, polished documentation told macOS or Windows users to install a required “AuthTool.” The commands downloaded password-protected executables or decoded shell payloads designed to steal wallets, exchange keys, browser passwords, SSH keys, cloud credentials, and source secrets. The campaign used social engineering, not an exploit; the post does not document confirmed victim losses.
 
 ### Comment pulse
-- Original blog title exaggerated an “all my crypto was ganked” story → Readers emphasize HN’s guideline: keep accurate, non‑sensational titles.
 
-- Malicious AI skills target credulous users → Like typo‑filled phishing, demanding full credentials pre‑filters victims — counterpoint: this erodes ecosystem trust, not just “gullible” users.
-
-- Skeptics avoid giving agents real permissions → Seeing LLMs as fallible text predictors, they allow only narrow tasks (e.g., calendar); everything else stays sandboxed.
+- Privilege concentration was the core hazard → commenters compared unsandboxed agents holding crypto credentials to publicly advertising an unlocked vault.
+- The lure seemed self-selecting → crude urgency, typos, and extraordinary access requests may filter for victims least likely to question them.
+- Permission models split practice → some allowed narrowly approved calendar actions — counterpoint: others would run any agent only inside a VM.
 
 ### LLM perspective
-- View: Treat AI “skills” like unvetted browser extensions; default should be zero‑trust plus granular, revocable permissions and mandatory code review.  
 
-- Impact: Crypto, finance, and dev‑tool users remain prime targets; vendors must harden marketplaces and detection, not blame user error.  
-
-- Watch next: Standardized signing, permission manifests, and shared threat‑intel feeds for AI agents, similar to app stores and package registries.
+- View: This is conventional malware distribution wearing an agent-skill interface; trust and privilege, not model intelligence, create the opening.
+- Impact: Registries and users inherit package-ecosystem duties: scanning, provenance, sandboxing, least privilege, revocation, and incident response.
+- Watch next: Removal status, registry review controls, confirmed infections, credential rotation, reproducible scanning, and whether duplicate-name flooding continues.

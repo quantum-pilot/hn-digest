@@ -2,16 +2,18 @@
 
 - Score: 185 | [HN](https://news.ycombinator.com/item?id=46826597) | Link: https://github.com/MoonshotAI/Kimi-K2.5/blob/master/tech_report.pdf
 
-- TL;DR  
-  Kimi K2.5 is an open-source model that, per early users, finally feels competitive with top proprietary models for coding and agentic workflows. Developers report strong performance as a coding agent, good tool-calling and pydantic-style structured output, and effective multi-agent “swarm” behaviors via the Kimi CLI and tools like OpenCode. Main concerns are heavy hardware requirements for self-hosting, token consumption in multi-agent mode, and whether the subscription pricing offsets these costs in practice.  
-  *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-  High coding quality → Users say K2.5 as a coding agent rivals Claude Opus/Claude Code, including through the Kimi CLI’s Moderato subscription—counterpoint: hardware demands and token use may erode value.  
-  Tool use / structure → Stronger tool-calling and pydantic-like structured outputs make it viable for information retrieval and reasoning pipelines where prior open models failed.  
-  Agent swarm UX → Multi-agent “swarm” behavior works even via OpenCode, automatically surfacing sub-agent views, but seems especially token-hungry and opaque in how it orchestrates calls.
+Moonshot AI presents Kimi K2.5 as an open-source, native multimodal agent model built on a 1.04-trillion-parameter mixture-of-experts backbone with 32 billion active parameters and roughly 15 trillion mixed text-vision training tokens. Early low-ratio vision fusion, text-only supervised tuning, and joint reinforcement learning reportedly strengthen both modalities. Its Agent Swarm trains an orchestrator to create frozen specialist subagents, raising BrowseComp from 60.6% to 78.4% and cutting WideSearch latency three- to 4.5-fold. Commenters praised coding quality but questioned hardware demands, harness support, and token cost.
 
-- LLM perspective  
-  View: Open models seriously challenging proprietary assistants for code and agentic workflows changes expectations for “good enough” local or self-managed dev tooling.  
-  Impact: Independent developers and smaller teams gain more control over workflows, data, and costs, especially where on-prem or custom tools are required.  
-  Watch next: Independent benchmarks on coding, tool-calling, and inference efficiency; clearer hardware-sizing guides; ecosystem support in IDEs and orchestration frameworks.
+### Comment pulse
+
+- Early users called coding performance competitive with proprietary leaders → replies immediately asked what hardware and serving setup made that possible.
+- Tool calling widened potential use → commenters saw improved structured retrieval compared with earlier open models.
+- Agent Swarm generated excitement — counterpoint: users were unsure which harnesses expose it and whether its token consumption justifies the gain.
+
+### LLM perspective
+
+- View: The strongest contribution is learned parallel orchestration; benchmark claims remain author-reported and include some internal reevaluations.
+- Impact: Open checkpoints give researchers a frontier-scale multimodal agent, but practical self-hosting remains hardware-intensive.
+- Watch next: Independent benchmark replication, quantized deployments, swarm cost accounting, harness interoperability, and real-world reliability under concurrent tool use.
