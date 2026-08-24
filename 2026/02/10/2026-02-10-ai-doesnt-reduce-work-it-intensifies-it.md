@@ -3,18 +3,17 @@
 - Score: 242 | [HN](https://news.ycombinator.com/item?id=46955703) | Link: https://simonwillison.net/2026/Feb/9/ai-intensifies-work/
 
 ### TL;DR
-A Berkeley Haas field study of 200 tech workers finds AI doesn’t reduce workload; it speeds execution and multiplies parallel tasks, driving constant context switching, vigilance, and exhaustion. Workers feel like they have an AI “partner,” but end up juggling more open threads and checking more output. Simon Willison echoes this: LLMs let him do more in less time but leave him mentally drained. HN discussion spans software quality, agentic-development rabbit holes, addiction/FOMO, structural labor issues, and outright skepticism about AI’s real effectiveness.
 
----
+A Berkeley Haas study followed 200 employees at one U.S. technology company from April through December 2025 and found AI changed work more than it reduced it. Workers opened parallel threads, checked agent outputs, switched attention, and revived deferred tasks, creating momentum alongside cognitive load. Simon Willison reports similar exhaustion and urges organizations to develop AI practices before mistaking unsustainable intensity for productivity. Commenters described rabbit holes, reduced understanding, addictive prompting, and management raising quotas, while others said AI unlocks inaccessible projects and shifts effort toward specifications and integration.
 
 ### Comment pulse
-- AI boosts throughput but not craftsmanship → LLM code is “average” and needs heavy steering; complex systems still need large teams — counterpoint: some say AI mainly unlocks previously unreachable projects.
-- Agentic development fragments attention → people chase every idea for hours, then abandon; others report the opposite, using AI to automate coding after deeper up-front specs.
-- Work intensification seen as systemic → management and market competition convert efficiency into higher quotas; skeptics argue end users gain from more output and unions can’t easily fix this.  
 
----
+- Parallel agents multiply coordination work → checking outputs and switching contexts can consume the attention that faster generation supposedly saves.
+- Cheap execution weakens idea filters → agents encourage immediate prototypes — counterpoint: some users now invest more in requirements before generation.
+- Intensification is organizational and personal → quotas absorb efficiency gains, while hobbyists also chase one more prompt without managerial pressure.
 
 ### LLM perspective
-- View: Treat AI as a force multiplier on cognition, not typing; redesign workflows to limit concurrent threads and enforce deliberate pauses.
-- Impact: Teams need explicit “AI operating procedures” (when to use, how to review, when to stop) and metrics that track burnout, not just velocity.
-- Watch next: Longitudinal studies on AI-driven fatigue, tools that constrain parallel tasks or prompt frequency, and organizational experiments with mandated focus blocks.
+
+- View: AI raises throughput ceilings without supplying stopping rules, making self-regulation and workload design part of the toolchain.
+- Impact: Developers and managers must measure sustainable completed value, not prompts, generated code, concurrent tasks, or short-term velocity.
+- Watch next: Burnout data, single-task versus multi-agent trials, defect rates, sleep effects, workload policies, and productivity measures beyond output volume.

@@ -2,26 +2,18 @@
 
 - Score: 442 | [HN](https://news.ycombinator.com/item?id=46959832) | Link: https://techxplore.com/news/2026-02-jury-told-meta-google-addiction.html
 
-**TL;DR**
+### TL;DR
 
-California jurors are hearing a landmark case alleging Meta’s Instagram and Google’s YouTube intentionally “engineered addiction” in children via attention‑maximizing algorithms, harming a now‑20‑year‑old plaintiff. Plaintiffs borrow tactics from tobacco litigation, arguing design choices, not user content, bypass Section 230 immunity and exploit undeveloped young brains. Meta blames offline factors and cites new safeguards; TikTok and Snapchat have already settled. HN commenters debate pervasive behavioral manipulation in ad‑funded tech, the feasibility of meaningful penalties, and risks of regulation overshooting into everyday services.
-
----
+In opening statements of a bellwether trial, lawyers for a woman identified as Kaley G. M. accused Meta and YouTube of deliberately designing addictive products that harmed her after childhood use. The companies deny the allegations; Meta argues family problems and bullying better explain her distress and notes addiction does not appear in cited medical records. The case targets platform design and business models rather than user posts, potentially affecting hundreds of similar suits. Commenters debated attention optimization, corporate accountability, causation, jury theatrics, and the need to wait for evidence.
 
 ### Comment pulse
 
-- Insiders describe explicit “brain‑hack” messaging to advertisers and data‑driven hooks, treating users—especially kids—as prey to maximize engagement and ad revenue.  
-
-- Ad‑based “free” products incentivize addiction‑like engagement; many workers normalize algorithmic manipulation while outsiders underestimate its sophistication—counterpoint: some see this as merely optimizing relevance.  
-
-- Commenters doubt courts will seriously punish trillion‑dollar firms, compare tobacco/opioids, and critique juror‑targeted theatrics like toy blocks over rigorous evidence.  
-
----
+- Attention optimization can resemble addiction engineering → commenters described measured rapid hooks, behavioral manipulation, and variable rewards across platforms.
+- Causation remains contested → Meta points to offline harms and medical records — counterpoint: plaintiffs promise expert testimony about developing brains and algorithms.
+- Opening statements are advocacy, not findings → props and memorable slogans frame jurors before testimony establishes what the evidence supports.
 
 ### LLM perspective
 
-- View: This case reframes platform risk from “bad content” to intentionally addictive product design aimed at neurologically vulnerable users.  
-
-- Impact: A plaintiff win could force audits of engagement algorithms, age‑gating, and design changes across ad‑supported apps, not just social media.  
-
-- Watch next: Track internal documents on youth‑harm awareness, judicial views on Section 230 limits, and regulators adopting “addiction by design” standards.
+- View: The novel legal question is whether product architecture itself creates liability beyond Section 230’s protection for third-party content.
+- Impact: A plaintiff victory could shape damages, safeguards, and litigation strategy; a loss could constrain design-based claims.
+- Watch next: Expert testimony, internal documents, Zuckerberg and Mosseri appearances, causation evidence, jury instructions, verdict, damages, appeals, and settlement effects.

@@ -4,24 +4,16 @@
 
 ### TL;DR
 
-The author models “the singularity” by fitting a hyperbola to five AI progress metrics and finds only one with true blow‑up behavior: the number of arXiv papers about “emergent” AI phenomena. Capability metrics (MMLU, tokens per dollar, release cadence, Copilot share) are roughly linear; what’s going hyperbolic is human attention and field excitement. He argues the real near‑term “singularity” is social: anticipatory layoffs, failing institutions, capital concentration, fraying trust, and political backlash as society loses its ability to respond coherently—well before superintelligence arrives.
-
----
+A tongue-in-cheek analysis fits hyperbolas to five AI trends and announces a millisecond-precise July 18, 2034 singularity. Four supposedly substantive measures—MMLU, token costs, frontier release gaps, and Copilot code share—show no finite pole; only the count of arXiv papers mentioning emergence curves hyperbolically, making the forecast wholly dependent on accelerating human attention. The essay reframes singularity as institutional and psychological overload already visible in layoffs, regulation, markets, trust, and politics. Commenters largely enjoyed the satire while debating whether collective belief itself creates consequential disruption.
 
 ### Comment pulse
 
-- Belief-driven singularity → What matters is enough people believing AI will transform everything, driving layoffs, investment, and politics—counterpoint: if capabilities stall, those beliefs still face hard constraints.  
-
-- End of thought vs adaptation → Some foresee humans offloading all thinking to LLMs and “ending humanity”; others note we’ve survived many “ends” by changing, not disappearing.  
-
-- AI and bullshit jobs → Many see AI layoffs as exposing long‑suspected corporate busywork and middle-management bloat, shaped by short-term shareholder incentives rather than actual productivity needs.
-
----
+- Readers embraced the sociological point: expectations can trigger layoffs, investment, policy failure, and submission before technical claims are proven.
+- Some warned that delegating thought to models erodes humanity—counterpoint: others called extinction rhetoric recurring, speculative, and unlikely to change adoption.
+- Layoff statistics prompted disagreement over whether AI exposes administrative bloat, rationalizes quarterly cuts, or merely repeats ordinary labor-market churn.
 
 ### LLM perspective
 
-- View: Treat AI more as a massive belief shock to institutions and labor than as imminent godlike intelligence.  
-
-- Impact: Policy, HR, education, and finance must plan for volatility driven by perceptions of AI, not just benchmarks.  
-
-- Watch next: Better metrics of institutional lag and social stress, plus experiments in safety nets and worker transitions that assume ongoing technical uncertainty.
+- View: Its precision is the joke; its claim is that social feedback can outpace capability and become causally independent.
+- Impact: Belief-driven deployment can reshape work, capital, and governance even if technical progress remains linear or later saturates.
+- Watch next: Broader capability metrics, reproducible data, model comparisons, hype saturation, anticipatory layoffs, regulatory lag, trust, and capital concentration.

@@ -2,15 +2,18 @@
 
 - Score: 220 | [HN](https://news.ycombinator.com/item?id=46960392) | Link: https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/
 
-- TL;DR  
-Type-driven design is framed as “parse, don’t validate”: transform unstructured/weakly-typed inputs into richer types that *encode* invariants (e.g., `NonEmpty`, `Map`, smart constructors) at system boundaries. That turns partial functions into total ones, eliminates scattered checks, and lets the compiler enforce invariants, avoiding “shotgun parsing” where errors surface late after state changes. The article gives concrete Haskell patterns but the core idea—design data so illegal states are unrepresentable—is broadly applicable, which HN debates across static vs dynamic, OO, and usability concerns.
+### TL;DR
 
-- Comment pulse  
-  - This is old static-typing wisdom → in practice many codebases still pass strings/dicts everywhere and skip domain types—counterpoint: it’s not “natural”; it has to be learned.  
-  - Key value is locality and proof-carrying types → parse/translate at the edge, then rely on strong types internally to remove defensive checks.  
-  - Parsing vs validation isn’t either/or → use rich types plus separate validators to accumulate many user-facing errors (e.g., big CSV imports).
+The essay’s type-driven design rule says boundary checks should return a precise representation preserving what was learned, rather than approve raw input and discard the proof. A nonempty-list type lets downstream code safely take a first element without repeated checks; maps can rule out duplicate keys. Parsing early makes illegal states harder to represent and avoids shotgun validation after state changes begin. Commenters endorsed boundary translation but debated whether its benefit is centralized checking or type-carried evidence, and noted that user-facing validators may still be needed to collect friendly errors.
 
-- LLM perspective  
-  - View: Treat this as a design discipline: model invariants in types first, then write code that merely shuffles verified data.  
-  - Impact: Mainstream OO languages can approximate this with value objects, enums, and factories/smart constructors.  
-  - Watch next: Libraries that auto-generate parsers/validators from schemas and surface domain-specific types in IDEs/tooling.
+### Comment pulse
+
+- Validation that returns nothing loses knowledge → downstream functions must repeat checks or trust comments and supposedly impossible branches.
+- Precise types move proof to construction → call sites cannot omit conversion because later functions require the refined value.
+- Friendly errors can justify a front validator → counterpoint: successful input should still become the structured type consumed internally.
+
+### LLM perspective
+
+- View: The slogan is about preserving evidence, not renaming predicates: parsing converts uncertainty into an invariant the program can carry.
+- Impact: Developers gain safer internal APIs and fewer partial operations, while paying modeling, conversion, and type-complexity costs at boundaries.
+- Watch next: Language-specific patterns, aggregate error reporting, performance, mutable invariants, authorization before parsing, schema evolution, and empirical defect reduction.

@@ -2,15 +2,18 @@
 
 - Score: 272 | [HN](https://news.ycombinator.com/item?id=46961345) | Link: https://entire.io/blog/hello-entire-world/
 
-- TL;DR  
-Ex-GitHub CEO Thomas Dohmke launched Entire, a heavily funded ($60M seed) developer platform aimed at AI-agent-centric coding. Its first product is an open-source CLI that records “Checkpoints”: full AI session metadata linked to each Git commit on a separate branch, turning agent reasoning into queryable history. Supporters see clearer auditability and better handoffs for AI-generated code; skeptics argue it’s a thin Git extension, question venture-scale economics, and worry about bloated repos versus lighter summarised workflows.
+### TL;DR
 
-- Comment pulse  
-  - Capturing agent context with commits is useful → improves traceability, helps answer “why X not Y?”, and lets future AI prompts reuse original rationale.  
-  - Skeptics: this is just storing extra text alongside Git commits, hardly worth $60M or a new platform— counterpoint: seed rounds fund these speculative platform bets.  
-  - Others already log AI conversations via summaries or design docs and prefer concise, curated context over dumping full prompt transcripts into Git branches.
+Thomas Dohmke’s company Entire raised a $60 million seed round to build infrastructure for human-agent software development. Its plan combines a Git-compatible database, semantic context graph, and redesigned lifecycle; its first open-source product is a Git-aware CLI. On agent-generated commits, Checkpoints stores transcripts, prompts, touched files, token use, and tool calls on a separate branch, initially supporting Claude Code and Gemini CLI. Commenters valued traceability, review, and handoffs but questioned whether context dumping creates noise, whether a familiar workflow needs venture-scale funding, and whether improving models will erase the opportunity.
 
-- LLM perspective  
-  - View: Platformizing agent context is directionally right; implementation details and ergonomics will determine real adoption beyond hype.  
-  - Impact: If it works, code review, compliance, and multi-agent collaboration workflows in large orgs could centralize around structured reasoning history.  
-  - Watch next: Benchmark whether checkpoints meaningfully reduce token usage, review time, and defect rates versus existing practices like ADRs and manual prompt logs.
+### Comment pulse
+
+- Agent provenance aids audits → preserved intent and constraints can explain why code changed and help later reviewers judge whether assumptions still hold.
+- More context is not always better → raw transcripts may overload repositories and agents; curated design records can be more useful.
+- Market size divides readers → technical utility looks clear — counterpoint: a $60 million seed implies an enterprise platform, not merely metadata storage.
+
+### LLM perspective
+
+- View: Checkpoints solves a real traceability gap; Entire’s larger bet depends on context becoming infrastructure rather than disposable exhaust.
+- Impact: Teams gain reproducible agent histories, but must govern secrets, retention, repository growth, and which reasoning deserves preservation.
+- Watch next: Codex and Cursor support, checkpoint size, privacy controls, review-time savings, agent reuse quality, enterprise mandates, and open-format adoption.

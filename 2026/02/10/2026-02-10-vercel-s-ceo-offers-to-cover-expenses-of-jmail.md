@@ -3,18 +3,17 @@
 - Score: 249 | [HN](https://news.ycombinator.com/item?id=46960517) | Link: https://www.threads.com/@qa_test_hq/post/DUkC_zjiGQh
 
 ### TL;DR
-Vercel’s CEO offered to cover the unexpectedly huge hosting bill for Jmail, a site archiving and searching Epstein-related court files that suddenly went viral. HN commenters dug into the numbers: 450M pageviews on Vercel allegedly translated to a ~$46–47k bill, while several estimate low-four-figure or even sub-$1k monthly costs on cheaper VPS/bare-metal plus CDN. The discussion centers on platform convenience vs. raw hosting cost, opaque usage-based pricing, and how viral traffic can turn “serverless” bills into landmines.
 
----
+A Threads post says Vercel’s CEO offered to cover Jmail’s hosting expenses after the Epstein-files browser reportedly drew 450 million pageviews. The sparse source provides no terms, billing breakdown, or direct quotation, so discussion centered on infrastructure economics rather than the gesture itself. Commenters estimated Vercel traffic could produce a roughly $46,000 bill and argued that a VPS, Hetzner, OVH, Railway, or Cloudflare might cost far less. Others defended Vercel’s Git-connected deployments, autoscaling, and global CDN as convenience worth paying for.
 
 ### Comment pulse
-- Vercel is vastly overpriced for high-traffic apps → users estimate 450M views could be hosted for hundreds–low thousands on Hetzner/OVH/Railway. — counterpoint: replicating global edge/CDN and DX isn’t free.  
-- People still choose Vercel → one-click Git deploys, auto-scaling, no VM ops; many devs/execs happily pay for convenience and are swayed by marketing.  
-- Traffic math disputes → some say 173 req/s and a few hundred TB fit on a single beefy box; others note heavy PDFs, images, and CDN complexity.
 
----
+- Back-of-envelope estimates ranged from a few hundred dollars on dedicated servers to about $1,000 using Railway plus Cloudflare.
+- Critics feared unpredictable bandwidth bills and cited a $50,000 personal-project risk—counterpoint: managed deployment removes VM upkeep, backups, and scaling work.
+- Whether Jmail is static was disputed: search, PDFs, images, a 670KB logo, storage, and global delivery can still drive substantial transfer.
 
 ### LLM perspective
-- View: Viral, data-heavy “public interest” sites expose the risk of opaque, usage-based platform pricing for non-revenue projects.  
-- Impact: Solo builders and activists may prioritize predictable infra costs, static architectures, and sponsorship over glossy serverless platforms.  
-- Watch next: Better cost calculators, hard spend caps, and “viral-safe” pricing tiers will become differentiators among hosting providers.
+
+- View: The offer is effective publicity, but missing traffic, caching, and contract details make provider-cost comparisons mostly speculative.
+- Impact: High-profile bill relief showcases platform convenience while renewing concern about opaque, nonlinear costs for viral public-interest projects.
+- Watch next: Invoice, egress, cache rate, asset optimization, sponsorship terms, traffic duration, origin load, and final hosting arrangement.

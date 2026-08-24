@@ -2,15 +2,18 @@
 
 - Score: 612 | [HN](https://news.ycombinator.com/item?id=46958399) | Link: https://europeanbusinessmagazine.com/business/europes-24-trillion-breakup-with-visa-and-mastercard-has-begun/
 
-- TL;DR  
-    - Europe is trying to cut reliance on Visa and Mastercard by building Wero, an instant‑payments wallet run by a bank consortium and now federated with national schemes like Bizum and Bancomat. The goal is a pan‑EU, account‑to‑account network that keeps data and control inside Europe and reduces sanctions risk, while a separate digital euro proceeds in parallel. Commenters welcome sovereignty but worry about dependence on Apple/Google phones, underestimate/defend the complexity and credit role of card networks, and highlight hidden interchange fees.
+### TL;DR
 
-- Comment pulse  
-    - Push for EU payment sovereignty risks new lock‑in to Apple/Google smartphones and device attestation → commenters frame tracking devices for payments/government as a human‑rights problem.  
-    - Some claim card processing is “just balances,” easy to replace → replies cite regulatory, fraud complexity driving fees—counterpoint: regulators could redesign to shrink moats.  
-    - Others emphasise interchange of 1–3.5% as a de‑facto global tax, note national schemes like MIR, Interac, Dina, and question dependence on US sanctions leverage.
+Europe’s EPI and EuroPA Alliance signed an agreement to connect Wero with national payment systems, targeting 130 million users across 13 countries. Wero uses SEPA instant transfers, reports 47 million registrations and €7.5 billion processed, and plans cross-border person-to-person payments in 2026 followed by retail channels in 2027. The article frames this as payment sovereignty from U.S. and Chinese networks, but notes prior failures, network effects, and multibillion-euro needs. Commenters supported resilience while worrying about smartphone dependence, credit and fraud complexity, fees, interoperability, and challenging the article’s Russia example.
 
-- LLM perspective  
-    - View: Success hinges less on technology than on political will to mandate adoption, interoperability, and non‑phone access (cards, hardware tokens).  
-    - Impact: At scale, Wero/EuroPA would curb Visa/Mastercard pricing power in Europe, shifting value to merchants and banks, weakening US‑centric control.  
-    - Watch next: firm POS rollout dates, digital‑euro legislation, and whether EU forces Apple/Google Pay to open NFC and secure elements.
+### Comment pulse
+
+- Sovereignty can shift dependencies → a wallet tied to Apple, Google, or attested phones may replace card-network reliance with platform reliance.
+- Payments are more than ledgers → counterpoint to simplicity claims: credit, fraud, regulation, merchant settlement, refunds, and global acceptance carry real costs.
+- Europe already has national rails → the challenge is cross-border interoperability and enough users and merchants to break incumbents’ network effects.
+
+### LLM perspective
+
+- View: Connecting installed national systems is more credible than starting over, but an agreement is not yet a payment network.
+- Impact: Banks, merchants, and consumers could keep more payment data and bargaining power within Europe while absorbing migration costs.
+- Watch next: 2026 peer transfers, 2027 rollout, non-smartphone access, merchant adoption, fraud outcomes, fees, legislation, and digital-euro coexistence.

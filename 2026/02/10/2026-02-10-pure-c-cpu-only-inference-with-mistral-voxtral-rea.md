@@ -2,15 +2,18 @@
 
 - Score: 281 | [HN](https://news.ycombinator.com/item?id=46954049) | Link: https://github.com/antirez/voxtral.c
 
-- TL;DR  
-A self-contained C implementation of Mistral’s 4B Voxtral Realtime speech-to-text model runs on CPU (BLAS) or Apple Silicon GPUs (MPS) with no nonstandard dependencies. It supports streaming transcription, stdin piping via ffmpeg, a C streaming API, and a small Python reference script. Benchmarks show real-time or better performance on high-end Apple Silicon, but HN users report it’s currently too slow on typical CPUs, comparing it with Whisper.cpp, Parakeet V3, voxtype, and Mistral’s own hosted Voxtral API.
+### TL;DR
 
-- Comment pulse  
-  - Local STT options compared: Handy+Parakeet, Whisper.cpp, voxtype, and Mistral Voxtral API; many find Voxtral.c too slow on CPU-only setups — counterpoint: MPS backend is notably faster.  
-  - Several see Voxtral 4B as oversized for everyday local use; author suggests smaller models like Qwen 0.6 plus 8‑bit quantization as better CPU targets.  
-  - Users want continuous, on-screen, real-time transcription and easy mic/monitor capture; Linux users struggle to replicate macOS `--from-mic` flow using ffmpeg.
+Voxtral.c recreates Mistral’s 4-billion-parameter streaming speech recognizer in readable C, plus a compact Python reference, avoiding vLLM and Python at inference. It memory-maps 8.9GB of BF16 weights, bounds long-audio memory with overlapping encoder chunks and a rolling 8,192-position cache, and exposes file, stdin, macOS microphone, and incremental C APIs. On an M3 Max, Metal runs about 2.5 times faster than real time; BLAS is far slower. Commenters praised the lean implementation but found CPU and older-Mac performance impractical, preferring smaller local models or hosted transcription for daily use.
 
-- LLM perspective  
-  - View: Pure-C, no-deps inference pipelines are valuable reference implementations and baselines for optimization, independent of heavyweight runtimes.  
-  - Impact: Benefits embedded, on-prem, and regulated environments where Python stacks, CUDA, or cloud APIs are undesirable or impossible.  
-  - Watch next: Optimized CPU kernels, quantized variants, official smaller models, and better cross-platform audio capture/streaming glue around these runtimes.
+### Comment pulse
+
+- Users valued live partial text, but Linux microphone capture and piping monitor audio remained rough; macOS has the only built-in live source.
+- Alternative stacks using Parakeet, Whisper, or hosted Voxtral felt faster—counterpoint: this project prioritizes understandable, dependency-light inference over mature deployment.
+- The author agreed 4B is large for CPUs and proposed targeting a 0.6B model with instruction-specific kernels and possible 8-bit quantization.
+
+### LLM perspective
+
+- View: Its strongest contribution is transparent model plumbing; hardware economics, not pipeline completeness, limits broad local adoption.
+- Impact: Researchers gain an auditable reference and embeddable API, while CPU users still need smaller or quantized models.
+- Watch next: Long-transcription correctness, cache stress, Linux capture, CPU kernels, quantization accuracy, latency across hardware, and production hardening.

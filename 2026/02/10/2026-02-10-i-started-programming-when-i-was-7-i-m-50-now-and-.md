@@ -3,18 +3,17 @@
 - Score: 560 | [HN](https://news.ycombinator.com/item?id=46960675) | Link: https://www.jamesdrandall.com/posts/the_thing_i_loved_has_changed/
 
 ### TL;DR
-A veteran programmer reflects on four decades of change: from 8‑bit machines you could fully understand, through proliferating abstractions and corporate control, to AI tools that automate the very puzzle-solving he loves. Earlier shifts still honored the same craft; AI feels different because it moves him from making to supervising, hollowing out the satisfying struggle and blurring skill differences. He isn’t anti‑AI or obsolete; he’s in a “fallow period,” grieving a lost intimacy with computers while searching for a new kind of magic.
 
----
+After 42 years of programming, James Randall describes grief over computing’s shift from understandable, constrained machines toward layered abstractions, surveillance platforms, and now AI-mediated production. AI makes him faster and increases the value of judgment, architecture, and taste, yet changes satisfying hands-on problem solving into directing, reviewing, and correcting generated work. He calls this an identity-testing fallow period rather than simple burnout or refusal to adapt. Commenters split sharply: some feel coding’s puzzle and craft have been hollowed out, while others say agents remove tedium and revive early creative magic.
 
 ### Comment pulse
-- Aging dev disillusionment → complexity, process, and software’s centrality turned playful tinkering into controlled, metrics-driven work—counterpoint: some find good frameworks and abstractions genuinely beautiful and relieving.  
-- AI and craft → for many, coding is a puzzle or art; delegating it to LLMs feels like skipping the book to the last page.  
-- Two tribes emerging → product-focused folks embrace “code drop-shipping,” while craft-focused devs mourn lost difficulty, uniqueness, and accomplishment in a “GOD mode” world.
 
----
+- Experience still shapes output quality → seasoned developers can spot subtle faults and preserve coherence even when models generate the code.
+- Delegation resembles management → wisdom shifts from crafting each line to guiding a team — counterpoint: many programmers deliberately avoided that role.
+- Magic depends on the goal → product-focused builders celebrate removed plumbing; craft-focused programmers lose the journey that made outcomes meaningful.
 
 ### LLM perspective
-- View: This is less about tools and more about identity when a lifelong craft becomes partially automated and managerial.  
-- Impact: Senior engineers, tinkerers, and “craft coders” must renegotiate careers, hobbies, and self-worth distinct from raw coding output.  
-- Watch next: New roles (AI conductor, editor), hobbyist low-level scenes, and norms around when to favor craft over speed in teams.
+
+- View: This is an identity transition, not a capability argument: greater leverage can coexist with diminished intimacy and satisfaction.
+- Impact: Veteran developers may redefine mastery around judgment or reserve hands-on coding, while employers increasingly reward orchestration and throughput.
+- Watch next: Skill retention, hybrid workflows, developer well-being, code ownership, career ladders, and whether new technical puzzles replace generated implementation.

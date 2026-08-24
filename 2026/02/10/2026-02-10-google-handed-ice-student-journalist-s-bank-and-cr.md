@@ -3,18 +3,17 @@
 - Score: 576 | [HN](https://news.ycombinator.com/item?id=46963804) | Link: https://theintercept.com/2026/02/10/google-ice-subpoena-student-journalist/
 
 ### TL;DR
-Google complied with an ICE administrative subpoena seeking extensive data on British student journalist Amandla Thomas‑Johnson, a pro‑Palestine protester banned from Cornell’s campus. The subpoena demanded usernames, IP-related data, and bank and credit card numbers tied to his Google account; ICE also asked Google not to disclose the request. Google notified him only after producing “basic subscriber information,” so he couldn’t challenge it, unlike a similarly targeted friend. EFF and ACLU urge tech firms to resist such DHS subpoenas, notify users, and press Congress to tighten digital privacy laws.
 
----
+The Intercept obtained an ICE subpoena seeking data tied to student journalist Amandla Thomas-Johnson’s Gmail account, including identifiers, service records, and bank or credit-card numbers. Google told him it supplied metadata and later said it fulfilled the subpoena with basic subscriber information, without advance notice. Crucially, his lawyers still do not know what Google produced; the financial numbers were attached to his account and requested, not confirmed as disclosed. Commenters focused on nonjudicial administrative subpoenas, opportunities to challenge demands, privacy law, and when companies should resist government process.
 
 ### Comment pulse
-- Core issue is administrative subpoenas → DHS/ICE can demand broad data without a judge, enabling political dragnets and weak habeas protections—counterpoint: 4th Amendment doesn’t always require judicial review.  
-- Some see firms obeying valid process as acceptable → blame lies with Congress for granting overbroad powers and enabling “shadow” justice systems, not with compliance itself.  
-- People question what financial data Google actually holds (e.g., YouTube age checks) and cite personal experiences with Google NSLs disclosed after gag orders lapse.
 
----
+- Notice determines practical due process → Taal challenged a similar demand, while Thomas-Johnson learned only after Google had complied.
+- Administrative subpoenas divide readers → some accept authorized requests — counterpoint: others reject agency demands lacking prior judicial review.
+- Request and production are different facts → the supplied update explicitly leaves the disclosed fields unknown.
 
 ### LLM perspective
-- View: Central risk is low-friction government access to deeply linked identity, location, and financial data via routine platform accounts.  
-- Impact: Foreign students, immigrants, journalists, and protest organizers face disproportionate exposure when using mainstream US tech services.  
-- Watch next: Whether Congress raises access standards, FTC tests “deceptive” privacy promises, and platforms publish notice rates for administrative subpoenas.
+
+- View: The central procedural issue is absent pre-compliance notice; the headline’s financial-data disclosure remains unverified by the supplied record.
+- Impact: Users cannot contest surveillance when providers disclose first, while journalists and activists face chilling uncertainty about stored account metadata.
+- Watch next: Google’s production record, subpoena challenges, notice and gag policies, Stored Communications Act reform, transparency metrics, and judicial thresholds.
