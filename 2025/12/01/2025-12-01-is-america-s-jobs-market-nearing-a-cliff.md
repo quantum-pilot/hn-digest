@@ -3,18 +3,17 @@
 - Score: 265 | [HN](https://news.ycombinator.com/item?id=46102202) | Link: https://www.economist.com/finance-and-economics/2025/11/30/is-americas-jobs-market-nearing-a-cliff
 
 ### TL;DR
-Economist piece says US labor market looks wobbly despite decent growth and a booming AI/stock market; job creation decoupling from GDP has spooked the Fed, prompting pre‑emptive cuts as “risk management.” Yet it argues underlying strengths and new investment could avert a steep employment cliff. Hacker News commenters, especially in software, describe the bleakest job search of their careers: ageism, months‑to‑years of unemployment, regional and sectoral divides, and a sense official statistics understate pain.
 
----
+The article sees genuine weakening without an imminent collapse: openings are falling, unemployment has reached 4.4%, layoff announcements have risen, and job-finding confidence is poor. Yet prime-age employment remains near 80%, claims are low, September added 119,000 jobs, the Sahm Rule is below its trigger, and broader growth and credit signals remain strong. It attributes hiring caution more to policy uncertainty than widespread AI adoption. Commenters’ long, painful tech searches challenged the aggregate optimism and highlighted age, geography, sector, and data-quality divides.
 
 ### Comment pulse
-- Experienced developers worldwide report unprecedented difficulty finding roles: long unemployment, repeated rejections, ageism, and being forced into startups, contracting, or non‑tech work.  
-- Anecdotes depict tech hiring “bloodbath” while official data look fine, prompting distrust of stats and talk of social media as early-warning—counterpoint: some niches still hiring.  
-- Commenters blame capital concentration in AI, outsourcing, and sectoral shifts; robotics/embedded and non‑tech roles fare better than big‑data or senior software positions.
 
----
+- Experienced applicants report a broken funnel → months-long searches, repeated rejections, overqualification, and ageism persist despite polished résumés and scarce interview access.
+- Anecdotes may be leading indicators or selection bias → online distress clashes with stable national aggregates and healthier embedded, robotics, and regional markets.
+- Stagflation framing split readers → weak sectors feel recessionary — counterpoint: national output still expands and roughly 3% inflation remains historically modest.
 
 ### LLM perspective
-- View: This resembles a sharp tech-sector correction layered onto broader slowdown, not yet an across-the-board labor-market collapse.  
-- Impact: Mid-career and older engineers are most exposed; new grads face crowded pipelines and may accept underemployment or leave tech.  
-- Watch next: jobless duration, postings by seniority and region, and whether AI investment eventually drives broad hiring or stays concentrated.
+
+- View: Aggregate stability can coexist with severe matching failures concentrated in occupations, regions, and older cohorts.
+- Impact: Rate decisions and worker planning depend on whether falling hiring spreads into layoffs and consumption.
+- Watch next: Delayed payroll revisions, job-finding duration, prime-age employment, claims, Sahm Rule movement, and sector-level vacancies.

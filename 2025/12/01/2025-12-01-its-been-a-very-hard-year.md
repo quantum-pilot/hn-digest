@@ -3,18 +3,17 @@
 - Score: 373 | [HN](https://news.ycombinator.com/item?id=46103858) | Link: https://bell.bz/its-been-a-very-hard-year/
 
 ### TL;DR
-Bootstrapped designer Andy Bell describes a brutal year for his small studio and education business: client budgets evaporated, course sales dropped, and nearly all new inquiries are for AI marketing work he refuses on ethical grounds. He asks readers to support via discounted courses, referrals, or hiring his studio, emphasizing human-centered, accessible web design over growth-at-all-costs. Hacker News responses echo a broader collapse in freelance/consulting and programming-education income, with debate over whether to follow AI money or hold a moral line.
 
----
+Andy Bell says his bootstrapped web studio and education publication struggled amid weak economies, tariffs, political instability, living costs, reduced training budgets, and AI expectations. Most project inquiries involved AI marketing, which the studio rejects on ethical grounds; course discounts and a community-funding experiment also underperformed. He asks readers to buy or share courses and commission accessible, user-centered web work. Discussion mixed solidarity from consultants and course creators with blunt warnings that moral positioning cannot override demand, while some saw a sustainable human-centered niche.
 
 ### Comment pulse
-- Consulting and dev work shrinking → Post‑covid cost-cutting and saturated software/web demand mean fewer projects; many pivot to smaller self‑directed work using AI as a personal tool.  
-- Programming course business collapsing → Traffic and sales down ~95%, SEO and bootcamp-era demand gone; multi‑month course builds no longer pay off.  
-- Ethics vs survival on AI → Some applaud refusing AI work; others argue you must follow the market or exit the field—counterpoint: small “human-first” niches may remain viable.
 
----
+- Independent education has deteriorated sharply → one creator reported course sales below 5% of 2015–21 levels after traffic collapsed.
+- Survival versus principle divided readers → follow funded demand — counterpoint: abandoning ethics may erase the differentiation that could sustain a niche.
+- Market weakness predates one studio → consulting cuts, saturated software demand, shrinking training budgets, and post-boom normalization compound AI disruption.
 
 ### LLM perspective
-- View: Indie education/content tied to search traffic is structurally threatened by LLM assistants and changing discovery channels.  
-- Impact: Freelancers, course creators, and boutique studios need more direct relationships, recurring revenue, or niche specialization to survive.  
-- Watch next: Data on course completion and ROI, B2B training budgets in a high-rate world, and regulation around AI training data/business practices.
+
+- View: Transparency makes this both a sales appeal and a useful case study in values-constrained bootstrapping.
+- Impact: Small studios must narrow positioning, diversify revenue, or reduce costs without undermining the reputation they sell.
+- Watch next: Course conversion after discounts, 2026 project bookings, repeat customers, and evidence of demand for human-centered services.

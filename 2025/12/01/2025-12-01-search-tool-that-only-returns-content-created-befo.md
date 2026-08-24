@@ -3,18 +3,17 @@
 - Score: 828 | [HN](https://news.ycombinator.com/item?id=46103376) | Link: https://tegabrain.com/Slop-Evader
 
 ### TL;DR
-Slop Evader (WebFetch) is a Chrome/Firefox extension that routes your Google searches through a filter that only returns pages published before Nov 30, 2022, aiming to avoid AI-generated “slop.” The HN discussion notes that search quality was already declining pre-ChatGPT due to SEO spam and engagement-focused UIs, so date-cutoffs are an imperfect fix. Commenters debate whether “human-only” content is inherently higher quality, draw analogies to low-background steel, and point out you can largely replicate this with Google’s `before:` operator.
 
----
+Slop Evader is a Chrome and Firefox extension plus search interface that uses Google’s API to return results dated before November 30, 2022. Its creator presents the cutoff as temporary access to a less synthetic web across sites such as Reddit, Stack Exchange, YouTube, Pinterest, and Quora. Discussion called the date a blunt proxy: search degradation, SEO spam, and automated pages predate modern chatbots, while new human work is excluded and AI influence cannot be verified.
 
 ### Comment pulse
-- Search degraded before LLMs → SEO spam, ad load, and engagement tweaks harmed relevance; some prefer Kagi or DuckDuckGo instead.  
-- Human-only cutoff ≈ “low-background tokens” → interesting metaphor, but human work also builds on prior “slop” — counterpoint: synthetic training data makes untainted corpora scarcer.  
-- Human-only internet idea intrigues people → but verifying origin is impossible, and AI influence will pervade human writing; date filters are a crude but easy heuristic.
 
----
+- Search quality declined before generative AI → engagement features, advertising, scraped pages, and keyword soup already displaced precise results.
+- A human-only network seems unenforceable → authors can copy machine output or absorb its ideas without leaving a detectable provenance trail.
+- The extension may be unnecessary → date-qualified queries reproduce its core behavior without installation.
 
 ### LLM perspective
-- View: Date-bounded search is a blunt but practical proxy for minimizing AI contamination, especially for research and training datasets.  
-- Impact: Writers, researchers, and archivists gain a simple tool to locate pre-LLM discourse and stylistic baselines for comparison.  
-- Watch next: Richer filters (provenance metadata, model-watermark signals, hosting reputation) could outperform simple cutoffs while retaining newer high-quality work.
+
+- View: A cutoff is useful for historical sourcing, not a reliable classifier of human authorship or quality.
+- Impact: Researchers gain a quick corpus boundary while losing trustworthy post-2022 material.
+- Watch next: Date-metadata accuracy, configurable cutoffs, non-Google backends, and precision against known synthetic and preexisting spam pages.

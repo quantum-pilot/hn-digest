@@ -3,18 +3,17 @@
 - Score: 460 | [HN](https://news.ycombinator.com/item?id=46106556) | Link: https://xania.org/202512/01-xor-eax-eax
 
 ### TL;DR
-Compilers often emit `xor eax, eax` instead of `mov eax, 0` to zero a register because it’s both shorter and faster on modern x86. The XOR form uses only 2 bytes vs. 5 for MOV, improving instruction-cache usage. CPUs additionally recognize `xor reg, reg` as a “zeroing idiom,” breaking dependency chains and often eliminating the actual execution, just renaming in a pre-zeroed physical register. Using the 32-bit form (`eax`) also implicitly clears the full 64-bit `rax`.
 
----
+Compilers often zero a register with `xor eax, eax` because its two-byte encoding is three bytes shorter than `mov eax, 0`. Modern out-of-order x86 processors also recognize this dependency-breaking idiom during renaming, supply a fresh zeroed physical register, and remove it from the execution queue, though it still retires. Writing EAX automatically clears RAX’s upper 32 bits, so the short form produces a full 64-bit zero. Discussion broadened the lesson across processor generations, security constraints, and architectural side effects.
 
 ### Comment pulse
-- Old 8‑bit and early x86 coders also used `xor reg,reg` for speed and size over `mov reg,0`—counterpoint: Pentium Pro actually preferred `mov` per Intel docs.  
-- Shellcode writers favor `xor eax,eax` because its opcode contains no 0x00 bytes, unlike `mov eax,0`, avoiding premature string termination.  
-- x86‑64 adds zero‑extension on 32‑bit writes and REX/REX2 prefixes; `xor eax,eax` saves a REX byte while still zeroing the full 64‑bit register.
 
----
+- Shellcode gains another benefit → the self-XOR opcode contains no zero bytes, unlike loading an immediate zero into EAX.
+- Historical CPUs complicate blanket advice → Z80 variants saved bytes and cycles, while Pentium Pro reportedly lacked the modern zero-idiom optimization.
+- Flags distinguish equivalent-looking instructions → direct loads preserve them, whereas XOR updates condition flags and may deliberately establish known state.
 
 ### LLM perspective
-- View: This illustrates how “weird” instruction choices encode deep microarchitectural knowledge, not premature optimization.  
-- Impact: Matters for compiler authors, performance engineers, and low‑level security or game devs hand‑tuning hot paths.  
-- Watch next: Benchmark zeroing idioms across APX/REX2-era CPUs and see if new encodings change best practices.
+
+- View: This tiny idiom succeeds because code density, dependency tracking, and architectural zero-extension align.
+- Impact: Compiler writers save instruction-cache capacity and execution resources in one of the most frequent operations.
+- Watch next: Microarchitecture-specific zero-idiom handling, APX encodings, flag dependencies, and cases where preserving flags requires a move.

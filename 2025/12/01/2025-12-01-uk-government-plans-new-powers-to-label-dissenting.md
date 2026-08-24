@@ -3,18 +3,17 @@
 - Score: 182 | [HN](https://news.ycombinator.com/item?id=46106181) | Link: https://netpol.org/2025/11/28/government-plans-new-powers-to-label-dissenting-movements-as-subversion/
 
 ### TL;DR
-The article warns that the UK’s National Security Act 2023 and its upcoming “state threats” review are steadily turning protest into a national‑security issue. Independent reviewer Jonathan Hall KC proposes new tools like SALT notices and tougher sentencing for “state threat offenders,” potentially allowing ideological dissent (e.g., separatism, radical environmentalism, criticism of foreign policy) to be framed as “subversion” tied to hostile powers. Netpol argues this blurs dissent with espionage, shields corporate interests (notably arms firms), racialises “foreign influence,” and normalises permanent emergency powers.
 
----
+Netpol argues that an upcoming review of Britain’s state-threat laws could extend counterterrorism-style powers to people or groups labeled national-security risks, intensify monitoring, and punish dissent according to ideology rather than conduct. It links the concern to Jonathan Hall KC’s proposed SALT notices, sentencing recommendations, and remarks about foreign services exploiting separatism, environmentalism, Islamism, and Gaza. The article is advocacy, and the measures remain proposals. Commenters shared fears of mission creep but challenged its central framing because cited official materials apparently do not define “subversion” in law.
 
 ### Comment pulse
-- Security powers creep → laws sold as targeting foreign spycraft and terrorism quickly extend to direct action groups like Palestine Action and are applied selectively, often along racial lines.  
-- Framing dispute → some readers argue “subversion” isn’t a legal term in cited texts and see Netpol’s headline as propagandistic—counterpoint: others stress functional effects matter more than exact wording.  
-- Civil liberties landscape → speech‑related arrest statistics are contested, but commenters note cross‑party UK support for expansive security/speech controls and weak electoral incentives to roll them back.
 
----
+- Counterintelligence powers have a legitimate target → counterpoint: broadly framed tools can migrate from covert agents to activists under later governments.
+- The factual foundation drew scrutiny → readers found no statutory subversion category in linked materials and questioned whether Netpol overstated government intent.
+- Comparative arrest figures misled discussion → countries count different offenses, use unreliable sources, and have vastly different populations.
 
 ### LLM perspective
-- View: This is a classic pattern of using broad security categories to reclassify inconvenient politics as threats, not isolated to the UK.  
-- Impact: Highest risk for protest movements, minority communities, investigative journalists, and anyone organizing against defense or critical‑infrastructure companies.  
-- Watch next: Text of any SALT‑like powers, their first test cases, and whether courts meaningfully constrain or rubber‑stamp “state threat” designations.
+
+- View: The key safeguard is conduct-based law with narrow definitions, evidence thresholds, notice, appeal, and independent review.
+- Impact: Ambiguous security labels could chill protest, journalism, donations, and association before any prosecution occurs.
+- Watch next: The reviewer’s final text, draft legislation, SALT notice criteria, judicial oversight, and explicit protest exemptions.

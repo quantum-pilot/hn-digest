@@ -3,18 +3,17 @@
 - Score: 260 | [HN](https://news.ycombinator.com/item?id=46104396) | Link: https://areweanticheatyet.com/
 
 ### TL;DR
-A community site tracks how well anti-cheat–protected games work on GNU/Linux and under Wine/Proton: only a minority are fully supported, with many outright blocked. HN discussion quickly pivots from compatibility to whether modern anti-cheat—often kernel-level and tied to Secure Boot—is acceptable at all. Some see it as a necessary cost of global matchmaking and ranked ladders; others reject “rootkit” clients, preferring small communities, open‑source games, or simply skipping invasive AAA multiplayer altogether.
 
----
+A crowd-sourced tracker catalogs 1136 games with anti-cheat and their Linux or Wine/Proton status: 194 supported, 258 running, 635 broken, 47 explicitly denied, and two planned. Major titles span every category, showing that technical support depends heavily on each publisher’s configuration and policy. Discussion moved beyond compatibility to the tradeoff itself: centralized matchmaking demands scalable cheat prevention, yet invasive kernel tools still miss hardware-assisted cheating and require players to surrender control of their computers.
 
 ### Comment pulse
-- Anti-cheat arose even on community servers → admins were overwhelmed and players wanted global rankings and matchmaking — counterpoint: leaderboards create the demand; without them, cheating matters less.  
-- Kernel-level anti-cheat and Secure Boot checks feel like malware → users drop such games, stick to Linux-friendly titles, small FOSS communities, or cloud streaming instead.  
-- Client-side anti-cheat can’t stop hardware/AI helpers and lags behind cheats → critics call it a fig leaf for not investing in server-side detection.
 
----
+- Community servers offer social enforcement → recurring players, spectators, recordings, and moderators can expose cheating without opaque client software.
+- Kernel access provoked rejection → users fear rootkit-like surveillance and crashes — counterpoint: ranked global matchmaking needs enforceable game integrity.
+- Linux support need not mean kernel intrusion → commenters cited user-space anti-cheat that works without Secure Boot.
 
 ### LLM perspective
-- View: The site is leverage; public compatibility data pressures publishers to support user-space anti-cheat and Linux/Proton explicitly.  
-- Impact: Linux and Steam Deck adoption hinge on which anti-cheats remain kernel-only and Windows‑tied versus portable and documented.  
-- Watch next: Movement toward standardized, attestable anti-cheat APIs, plus credible server-side analytics to reduce client privilege demands.
+
+- View: Compatibility statistics expose publisher choices as clearly as technical limits.
+- Impact: Linux gamers lose access, while publishers trade platform reach and user trust for centralized enforcement.
+- Watch next: Server-side detection, hardware-cheat resistance, transparent attestation, and publishers enabling existing Linux modes.

@@ -3,18 +3,17 @@
 - Score: 347 | [HN](https://news.ycombinator.com/item?id=46102347) | Link: https://sadservers.com/advent
 
 ### TL;DR
-Advent of Sysadmin 2025 is a 12‑day series of browser-based Linux/DevOps troubleshooting scenarios on SadServers, running Dec 1–12. Each day unlocks a hands-on problem; the first is an nginx Docker container misrouting traffic between two static HTML containers. HN commenters say this kind of challenge mirrors the real job better than quizzes, and some companies already use SadServers for SRE/DevOps hiring. Discussion drifts into real-world “advent” challenges (fixing bad security habits), tooling debates, and SRE vs sysadmin terminology.
 
----
+SadServers is running a 12-day December challenge series for Linux and DevOps troubleshooting. A free account tracks progress, while at least one scenario works without registration. The opening exercise gives participants 30 minutes to repair an nginx container that should route root, /1, and /2 requests to two backend containers without stopping or removing them. Commenters treated the format as realistic while emphasizing that operations work combines technical diagnosis, communication, and contested role boundaries.
 
 ### Comment pulse
-- Real “advent” for ops is culture change → stop root logins, shared passwords, ancient deps, root AWS keys, Jenkins holdouts—counterpoint: some tool choices (e.g., Jenkins vs GitHub Actions) are trade-offs, not upgrades.  
-- SadServers as interview tool → strong signal on practical troubleshooting; candidates find it stressful but fair, easy to run live over screen share.  
-- Tooling and titles friction → browser terminals clash with muscle memory (Ctrl+W); creator acknowledges; SRE vs sysadmin naming seen as either buzzword creep or genuinely distinct responsibilities.
 
----
+- Interview use won praise → screen-shared troubleshooting is easy to administer and candidates reportedly value the exercise afterward despite initial stress.
+- Operational reform requires explanation → commenters said written, concrete consequences persuade users better than abstract mandates.
+- Browser terminals create shortcut hazards → Ctrl-W can close the tab when users intend to delete a terminal word.
 
 ### LLM perspective
-- View: Structured, time-boxed incident puzzles effectively simulate on-call reality and highlight both debugging skill and workflow habits.  
-- Impact: Job seekers can practice realistic scenarios; hiring teams shift from trivia to task-based evaluations.  
-- Watch next: Public writeups, difficulty tiers tied to role levels, and data on which challenge types best predict production reliability skills.
+
+- View: Timed break-fix labs test diagnostic judgment more directly than trivia-based operations interviews.
+- Impact: Learners and hiring teams get reproducible environments without maintaining deliberately broken infrastructure.
+- Watch next: Scenario variety, accessibility of browser shortcuts, and evidence that performance predicts work outcomes.

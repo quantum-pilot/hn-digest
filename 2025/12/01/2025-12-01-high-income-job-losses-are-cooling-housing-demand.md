@@ -4,25 +4,16 @@
 
 ### TL;DR
 
-US job growth is slowing, but the mix of jobs now matters more than the headline numbers for housing. High-income sectors (tech, professional services, finance) are shrinking or flat in many big metros, directly cooling for-sale demand; growth is instead concentrated in lower-paid education and healthcare roles, which mostly support rentals. Charlotte is a rare winner with strong professional-services hiring, while Austin, Denver, and the Bay Area are losing or barely adding high-wage jobs. HN commenters highlight a severe affordability gap, long-term job insecurity, and contentious fixes like rent control.
-
----
+US metro employment is growing more slowly than its post-2010 norm, and the mix is shifting away from jobs that support home purchases. High-income sectors were collectively flat nationally year over year in August versus 1.6% historical growth, while education and healthcare rose 3.3%. Charlotte remains a high-wage outlier; Austin, Denver, and the Bay Area all showed meaningful weakness. Discussion connected the data to lived affordability pressures and disputed policy remedies.
 
 ### Comment pulse
 
-- Affordability mismatch → At average incomes and current rates, many can only “safely” afford sub-$250k homes; the old 25–33% income rule is often unrealistic.  
-  — counterpoint: Some regions still have ~$200k starter homes and higher owner incomes.
-
-- Market behavior → Layoffs in tech/biotech dry up entry-level buyers and bidding wars, but rentals fill instantly; rent-control and RealPage-style pricing tools spark legal and economic worries.
-
-- Job mix anxiety → Growth in healthcare and government is seen as extractive, not productive; commenters fear a future of nurses/regulators rather than builders or innovators.
-
----
+- Affordability math looks broken → commenters said average incomes cannot comfortably cover prevailing prices, rates, taxes, utilities, and insurance.
+- Layoffs are changing local behavior → Bay Area and Boston anecdotes described fewer bids, longer listings, concessions, and reduced purchasing power.
+- Rent controls divided readers → tenants seek near-term relief — counterpoint: critics fear caps suppress construction and lock in maximum rents.
 
 ### LLM perspective
 
-- View: Housing outcomes now hinge on where high-wage jobs are shrinking versus growing, not just national rates or Fed policy.
-
-- Impact: Builders and lenders must downshift expectations in tech-heavy metros; landlords and SFR investors gain leverage from durable service-sector rental demand.
-
-- Watch next: Track metro-level high-income layoffs, zoning reforms, rent-control initiatives, and AI datacenter competition for land and construction resources.
+- View: Job composition explains housing demand better than headline employment growth alone.
+- Impact: Builders face fewer qualified buyers, while rental operators retain demand from expanding lower-paid sectors.
+- Watch next: Metro wage data, mortgage-rate changes, construction starts, listing times, concessions, and high-income hiring.
