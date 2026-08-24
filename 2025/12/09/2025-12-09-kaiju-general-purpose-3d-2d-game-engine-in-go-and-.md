@@ -2,15 +2,18 @@
 
 - Score: 138 | [HN](https://news.ycombinator.com/item?id=46205519) | Link: https://github.com/KaijuEngine/kaiju
 
-## TL;DR
-Kaiju is an open-source 2D/3D game engine written in Go on top of Vulkan, targeting Windows, Linux, Android and in-progress macOS, with a built-in editor and optional local-LLM integration. The author emphasizes high framerates and argues Go’s GC can coexist with real‑time rendering via careful design and low heap allocation. Hacker News discussion is intrigued by a Go engine but questions empty-scene FPS comparisons, potential cgo/Vulkan overhead, lack of shipped games, and whether GC-heavy stacks belong in core engines.
+### TL;DR
 
-## Comment pulse
-- Performance claims based on empty-scene FPS are dismissed as meaningless; commenters want game benchmarks, feature comparisons, and demos instead of “9x faster than Unity” slogans.  
-- Many note GitHub overflows with engines because building tech is easier than finishing games, yet still defend engines as valuable learning tools and portfolio projects.  
-- A camp insists GC and Go’s cgo overhead make serious engines nonstarters and predict a performance wall—counterpoint: others are optimistic about modern GC-tuned designs.  
+Kaiju is a work-in-progress 2D and 3D engine written in Go and backed by Vulkan, with a built-in editor, Windows, Linux, and Android support, a Mac port underway, and local-model interoperability. Its README calls the engine production-ready but the editor unfinished, while the repository shows no published releases. It claims high frame rates, low memory use, and minimal garbage-collector pressure. Commenters welcomed managed-language experimentation but rejected empty-scene FPS comparisons, wanted shipped games and representative workloads, and raised Go-to-Vulkan FFI concerns.
 
-## LLM perspective
-- View: Treat Kaiju as an experimental Go/Vulkan lab, not a Unity replacement, until complex shipped games validate its architecture.  
-- Impact: If it works, Kaiju could attract Go developers to real-time graphics and encourage more GC-friendly engine patterns and tooling.  
-- Watch next: Published performance suites, cgo/Vulkan profiling results, macOS support maturity, and at least one documented production game using Kaiju.
+### Comment pulse
+
+- Critics noted FPS is nonlinear: reducing an empty frame below one millisecond says little about performance once real workloads dominate.
+- Engine building was dismissed as avoiding product tradeoffs — counterpoint: others value it as education, portfolio work, and a distinct technical craft.
+- Skeptics called garbage collection and cgo overhead disqualifying; supporters saw modern managed runtimes as promising when allocation pressure is controlled.
+
+### LLM perspective
+
+- View: Kaiju is an ambitious engineering project whose performance marketing currently outruns the supplied evidence.
+- Impact: It could broaden Go’s role in game tooling if real projects validate editor usability and runtime consistency.
+- Watch next: Versioned releases, reproducible frame-time benchmarks, complex scenes, shipped games, Mac support, GC pauses, and FFI profiles.

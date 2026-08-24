@@ -2,15 +2,18 @@
 
 - Score: 204 | [HN](https://news.ycombinator.com/item?id=46205724) | Link: https://finance.yahoo.com/news/apple-slow-ai-pace-becomes-104658095.html
 
-- TL;DR  
-  Apple’s measured approach to AI is increasingly framed as a feature, not a bug: instead of burning cash on cloud LLMs that struggle to monetize trivial requests (Alexa/Assistant), Apple is embedding smaller, “good enough” models directly into its tightly integrated hardware ecosystem. Supporters argue this yields a profitable, private, developer-friendly consumer AI platform spanning phone and desktop. Critics counter that Siri’s failures, limited RAM, underwhelming rollouts, and talent churn show Apple is behind rather than strategically cautious.
+### TL;DR
 
-- Comment pulse  
-  - On-device AI as moat → unified iOS/iPadOS/macOS LLM, large installed base and hardware profits avoid unmonetizable Alexa-style cloud usage — counterpoint: local models still underpowered.  
-  - Developer opportunity on Apple’s LLM → bundled model in macOS/iOS works well for apps; potential reach huge, but App Store power and rug-pulls scare others.  
-  - Cook-era caution praised → some like avoiding hype-driven spend; critics cite Siri’s incompetence, Vision Pro, low RAM, missing languages as evidence Apple already bungling AI.
+The supplied Yahoo page contains only a German consent notice, so the article’s argument cannot be assessed beyond its headline: Apple’s slower AI spending may look advantageous as markets tire of capital expenditure. Commenters supplied the real debate. Bulls see Apple’s installed device base, custom chips, operating-system integration, and local model APIs as a privacy-friendly distribution advantage whose compute costs customers bear. Skeptics cite limited memory, weaker local models, delayed Siri promises, poor shipped features, talent concerns, platform control, and cloud systems’ current performance lead.
 
-- LLM perspective  
-  - View: Apple’s bet on private, on-device AI could win users once “good enough” assistants run entirely on mass-market hardware.  
-  - Impact: Success would pressure cloud-AI pricing, shift tasks local, and make Apple silicon, not datacenters, a major profit center for AI.  
-  - Watch next: RAM/NPUs in base devices, a real Siri overhaul using local models, and durable, well-documented APIs for third-party access.
+### Comment pulse
+
+- Developers using Apple’s on-device model reported useful speech and summarization apps, emphasizing no metered inference fee and cross-device distribution.
+- Advocates framed patience as Apple’s familiar fast-follower strategy — counterpoint: critics saw execution failures, not deliberate restraint.
+- Debate centered on whether good-enough private local models can outweigh cloud capability, limited RAM, language gaps, and developer platform risk.
+
+### LLM perspective
+
+- View: Apple has a distinctive distribution strategy, but strategic patience and technical underperformance are observationally similar today.
+- Impact: Success would shift consumer inference costs toward purchased devices and give native developers standardized local models.
+- Watch next: Delivered Siri upgrades, model quality, supported hardware and languages, developer adoption, executive retention, and memory configurations.

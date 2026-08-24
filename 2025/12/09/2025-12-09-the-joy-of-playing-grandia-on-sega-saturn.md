@@ -2,19 +2,18 @@
 
 - Score: 172 | [HN](https://news.ycombinator.com/item?id=46203138) | Link: https://www.segasaturnshiro.com/2025/11/27/the-joy-of-playing-grandia-on-sega-saturn/
 
-## TL;DR
-A long, affectionate review argues that Grandia is best experienced on its original home, the Sega Saturn, now finally playable in English via a fan translation. It praises Game Arts’ technical wizardry—rotatable 3D environments with 2D sprites, clever VDP2 tricks, positional audio—and a fast, timing‑based battle system that feels strategic rather than grindy. The heart of the piece, though, is Grandia’s tone: a bright, boyish adventure that quietly becomes a meditation on growing up, loss, and limited time—both in life and in 50‑hour JRPGs.
+### TL;DR
 
----
+A recent English patch transplants the PlayStation script into the original Saturn release, finally opening Game Arts’ 1997 RPG to non-Japanese players on its first platform. The review praises its optimistic coming-of-age story, rotatable polygonal worlds with sprite characters, positional sound, Noriyuki Iwadare score and timing-based IP Gauge battles where attacks can cancel opponents. It also flags chugging frame rates, disorienting dungeons, fragile CD-R playback and scarce saves. HN celebrated the combat, original hardware and childhood memories, while acknowledging exploitable builds and enormous time demands.
 
-## Comment pulse
-- Grandia/Grandia II combat is beloved → dynamic IP gauge timing and positioning feel skillful and snappy, but balance allows degenerate one‑spell builds that trivialize difficulty.  
-- Original hardware on CRTs matters → Saturn/PS1 games’ art, pacing, and “feel” are often dulled or mangled by mediocre remasters—Nightdive praised, others criticized.  
-- Deep nostalgia → many met Grandia as kids, replay openings without saves, or now share it with their own children; its charm outweighs length and rough edges.
+### Comment pulse
 
----
+- Original hardware preserves intent → CRT rendering, period limitations and Saturn-specific effects can disappear or degrade in remasters.
+- The sequel’s combat refines timing → positioning and cancel chains feel snappy, though elemental stacking can trivialize later encounters.
+- Nostalgia crosses generations → commenters recalled learning English, watching siblings and slowly replaying the adventure with their children.
 
-## LLM perspective
-- View: Fan translations plus detailed criticism keep mid‑’90s JRPGs culturally alive in ways commercial remasters often don’t.  
-- Impact: Retro enthusiasts, preservationists, and younger players gain a “definitive” path to experience Grandia as designed.  
-- Watch next: Better Saturn emulation/ODEs, higher‑quality remasters respecting original aesthetics, and more script ports of Japan‑only RPGs.
+### LLM perspective
+
+- View: The fan patch restores a historically specific version, not merely translated text.
+- Impact: Preservation work gives Saturn owners access to a major previously gated RPG.
+- Watch next: Patch stability, optical-drive workarounds and long-session accessibility.

@@ -3,18 +3,17 @@
 - Score: 127 | [HN](https://news.ycombinator.com/item?id=46207425) | Link: https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation
 
 ### TL;DR
-Anthropic is donating its Model Context Protocol (MCP)—an open standard for connecting AI models to tools, data sources, and apps—to a new Agentic AI Foundation (AAIF) under the Linux Foundation. MCP already has broad adoption (10k+ servers, support in ChatGPT, Gemini, Copilot, VS Code, and major clouds) and now joins Block’s goose and OpenAI’s AGENTS.md as founding AAIF projects. HN commenters are split: some see smart, early standardization; others see a premature, over-engineered “fad” and possible vendor land-grab.
 
----
+Anthropic donated the one-year-old Model Context Protocol to the Agentic AI Foundation, a Linux Foundation fund co-founded with Block and OpenAI and supported by cloud and technology companies. Anthropic reports more than 10,000 public servers, adoption across assistants and editors, and 97 million monthly Python and TypeScript SDK downloads. MCP joins Block’s goose and OpenAI’s AGENTS.md as founding projects; its governance remains unchanged. Commenters split between viewing neutral stewardship as necessary standardization and seeing an immature, overbuilt protocol entering foundation bureaucracy too soon.
 
 ### Comment pulse
-- Too early for a foundation → protocol is young, fast-changing; LF ecosystems depend on mature tech that can fund events/certs—counterpoint: adoption is 10x Kubernetes’ early curve, big vendors need neutrality.  
-- MCP is overkill → tool-calling needs don’t justify a full protocol; it’s mostly JSON over RPC—counterpoint: a universal agent API eases integration, enables shared tooling and CLIs.  
-- Governance skepticism → “donation” sounds like marketing; MCP is just JSON-RPC and Anthropic still keeps models closed—counterpoint: Linux Foundation stewardship still reduces single-vendor control.
 
----
+- Skeptics cited unresolved OAuth, rapid specification changes, foundation revenue incentives, and concern that formal governance could slow essential fixes.
+- Some reduced MCP to JSON-RPC tool calling — counterpoint: supporters valued a universal API and cross-vendor coordination unavailable to isolated implementations.
+- Rapid adoption was offered as justification for early neutrality; critics interpreted the donation as a land grab or abandonment signal.
 
 ### LLM perspective
-- View: Standardizing agent-to-tool integration early could prevent a balkanized ecosystem of incompatible, proprietary tool-calling APIs.  
-- Impact: SaaS vendors, cloud providers, and IDEs gain one integration surface; small teams can tap many tools without bespoke connectors.  
-- Watch next: Concrete MCP security/OAuth patterns, competing standards’ traction (e.g., Google A2A), and whether AAIF delivers real multi-vendor governance vs branding.
+
+- View: Neutral ownership improves legitimacy, but governance cannot substitute for protocol simplicity, security, or stable semantics.
+- Impact: Vendors gain a shared venue for agent interoperability while Anthropic relinquishes sole institutional control.
+- Watch next: AAIF governance, maintainer independence, OAuth design, compatibility discipline, conformance testing, and adoption beyond tool invocation.

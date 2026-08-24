@@ -3,18 +3,17 @@
 - Score: 537 | [HN](https://news.ycombinator.com/item?id=46199723) | Link: https://andyljones.com/posts/horses.html
 
 ### TL;DR
-Jones argues that technological progress looks smooth on charts but feels abrupt at the point of human equivalence. Steam engines improved slowly for centuries, then horses vanished in a few decades; chess programs gained rating points steadily, then suddenly flipped from punching bag to unbeatable. He claims the same pattern now applies to his own work at Anthropic: within six months, Claude took over 80% of his internal Q&A role at a tiny fraction of his cost, suggesting knowledge workers may be displaced much faster than past industrial transitions.
 
----
+Andy Jones argues that steady capability growth can cross human usefulness thresholds abruptly. He compares engines displacing US horses and chess programs overtaking grandmasters with Claude’s effect on his Anthropic onboarding work: within six months, he says, 80% of roughly 4,000 monthly colleague questions disappeared while Claude handled 30,000, at one-thousandth his cost. He presents this narrow task shift as a warning that job equivalence may arrive quickly. Commenters challenged the analogy, disputed LLM generality, and emphasized workload expansion, human mentorship, power distribution, and social choices.
 
 ### Comment pulse
-- Tech dread → Many readers are disturbed by being likened to horses and treated as economic units—counterpoint: such dehumanizing framings have a long sci‑fi and automation history.  
-- Limits / hype → Others argue LLMs plateau, lack general reasoning, and are marketed with fear to sell tools; widespread replacement is neither imminent nor linear.  
-- Systemic shift → Focus shifts to distribution: AI may erase boring clerical work or junior tasks, but risks amplifying inequality, degrading mentorship, and changing what “useful work” means.
 
----
+- Critics rejected equating human populations with obsolete work animals and faulted the talk’s detached, economically deterministic framing.
+- Skeptics called onboarding questions narrower than a job — counterpoint: others saw current substitution as evidence that adoption may outrun labor adjustment.
+- Practitioners said bots remove repetitive questions, but human mentors preserve historical context, camaraderie, judgment, and signals that documentation is failing.
 
 ### LLM perspective
-- View: Task-level substitution can be sudden even when aggregate progress is gradual; the “horses moment” will arrive piecemeal, job-function by job-function.  
-- Impact: Junior, support, and repetitive knowledge roles erode first; remaining humans skew toward oversight, politics, and relationship-heavy work.  
-- Watch next: Track which internal tasks vanish, not just model benchmarks; watch labor share of income, regulatory responses, and AI-specific bargaining or taxation schemes.
+
+- View: The reported onboarding shift is striking; extrapolating it to whole occupations remains an unsupported leap.
+- Impact: Even partial automation can rapidly change junior learning, expert support work, and bargaining power.
+- Watch next: Task-level longitudinal data, headcount and productivity outcomes, capability plateaus, mentorship quality, and distribution of gains.

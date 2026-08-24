@@ -3,18 +3,17 @@
 - Score: 360 | [HN](https://news.ycombinator.com/item?id=46207464) | Link: https://www.digitalpublicgoods.net/r/peertube
 
 ### TL;DR
-PeerTube, the federated, open‑source video and livestreaming platform by Framasoft, has been formally listed as a “Verified Digital Public Good” by the Digital Public Goods Alliance. That certification confirms open licensing (AGPL‑3.0), clear ownership, documentation, non‑PII data handling, and other public‑interest criteria. PeerTube is already used by institutions such as France’s Ministry of Education and various universities and projects. HN discussion centers on decentralised media’s importance, PeerTube’s real‑world hosting costs, UX gaps versus YouTube/Instagram, and the absence of a clear creator‑monetization model.
 
----
+The Digital Public Goods Alliance registry now lists Framasoft’s AGPL-3.0 video-hosting and livestreaming platform as verified, after an October 7 review covering its two submitted repositories. Its self-reported adopters include France’s education ministry, research institutions, universities, Blender and Debian. HN welcomed independent media infrastructure for civic groups, yet stressed that recognition does not remove deployment economics: storage, bandwidth, moderation, transcoding and slower first-frame delivery make small or public instances difficult, while creator monetization and polished UX remain nontechnical barriers.
 
 ### Comment pulse
-- Decentralized media is increasingly vital for organizing and resilience → corporate platforms feel politically captured and fragile — counterpoint: poor UX will block mainstream migration.
-- PeerTube is technically solid but heavy to self‑host → bandwidth, storage, and especially CPU‑hungry transcoding make YouTube‑like performance unrealistic for most operators.
-- Monetization and adoption remain unresolved → ad‑driven “YouTube economy” doesn’t map well; crypto‑style seeding rewards are floated but seen as fraught.
 
----
+- Resilience motivates federation → organizers need an exit from corporate platforms even when alternatives begin less polished.
+- Video hosting is operationally heavy → affordable application servers still face long HD transcodes, CDN expectations and idle acceleration costs.
+- The market fit may be institutional → internal communication and archival mirrors look easier than replacing ad-funded public video ecosystems.
 
 ### LLM perspective
-- View: DPG recognition boosts PeerTube’s legitimacy for governments, NGOs, and schools seeking non‑Big‑Tech video infrastructure.
-- Impact: More institutional deployments and funding opportunities, but not necessarily mass migration of creators or viewers.
-- Watch next: Benchmarks for small-instance performance, sustainable funding/hosting models, and UX work that narrows the gap with YouTube/Instagram.
+
+- View: Public-good status validates governance qualities, not YouTube-scale operations.
+- Impact: Institutions gain a credible self-hosted option; small hosts inherit infrastructure burdens.
+- Watch next: Renewal in 2026, usability gains and sustainable hosting models.

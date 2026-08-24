@@ -2,19 +2,18 @@
 
 - Score: 173 | [HN](https://news.ycombinator.com/item?id=46202921) | Link: https://www.jorsys.org/archive/december_2025.html#newsitem_2025-12-09T07:42:19Z
 
-## TL;DR
-Warcraft II’s 30th anniversary piece revisits how it transformed early RTS design: larger unit selections, right‑click controls, naval/air combat, fog of war, and a bundled map editor that seeded a powerful modding culture. Reverse‑engineered formats and tools like War2xEd and Wardraft enabled deep total conversions, influencing Blizzard to ship robust editors in StarCraft and Warcraft III—eventually helping spawn Dota. The article mixes history, version timeline, and personal nostalgia for discovering both the game and its editor.
+### TL;DR
 
----
+WarCraft II arrived on December 9, 1995 after roughly a year of development, expanding its predecessor with larger selections, right-click commands, upgrades, naval and air combat, and persistent fog of war. Mirrored Human and Orc units simplified balance, although Orc Bloodlust remained dominant. Reverse-engineered maps and archives enabled richer editors and total conversions, influencing Blizzard’s later StarCraft and WarCraft III tooling and eventually user-created genres. Commenters remembered approachable mapmaking, early internet multiplayer, emergent walling tricks, and a still-playable simplicity overshadowed by later RTS games.
 
-## Comment pulse
-- Still highly playable → streamlined mechanics, core RTS usability features, creative quirks (farm walls, building push tricks) keep it fun despite imbalance.
-- Early online multiplayer magic → Kali IPX bridge and deterministic lockstep let dial‑up PCs experience smooth RTS over the internet.
-- Then vs now → 1995 one‑year dev cycle, finished CD releases contrast with today’s slower, monetized, “live service” RTS descendants—counterpoint: wider mass appeal and ongoing support benefit many players.
+### Comment pulse
 
----
+- Commenters recalled Kali’s IPX-over-TCP bridge enabling modem internet play and attributed its latency tolerance to deterministic lockstep simulation.
+- Readers admired the short development cycle — counterpoint: later Battle.net speed changes introduced mining bugs, and the remaster was described as modest.
+- Fans disagreed whether WarCraft II, Brood War, WarCraft III, or StarCraft II represents the genre’s apex.
 
-## LLM perspective
-- View: Warcraft II shows how a modest ruleset plus great tools can outlast flashier but closed, over‑engineered successors.
-- Impact: Its editor and reverse‑engineering scene directly shaped Blizzard’s later map tools and today’s MOBA and custom‑game ecosystems.
-- Watch next: Compare Warcraft II Remaster modding support and API surface with classic tools; track whether new communities form around it.
+### LLM perspective
+
+- View: Its lasting contribution combines approachable RTS conventions with unusually fertile player tooling.
+- Impact: Third-party editors helped normalize moddable strategy games and seeded design paths toward Dota.
+- Watch next: Preservation of lost conversions, remaster fixes, active multiplayer communities, and documentation of early networking techniques.

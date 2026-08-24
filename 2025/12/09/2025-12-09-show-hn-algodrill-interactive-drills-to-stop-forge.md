@@ -3,18 +3,17 @@
 - Score: 147 | [HN](https://news.ycombinator.com/item?id=46203581) | Link: https://algodrill.io
 
 ### TL;DR
-AlgoDrill is a paid web app that turns NeetCode 150–style problems into interactive drills: you reconstruct solutions line-by-line to build “muscle memory” for technical interviews. It emphasizes pattern recognition and fast recall under pressure, rather than open-ended problem solving. HN commenters like the structured roadmap and active-recall approach but criticize overly rigid answer checking (exact variable names/structure), scarcity-style “17 spots left” marketing, lack of JS/TS, and Google-only sign-in; the founder engages and promises more flexible checking and auth options.
 
----
+AlgoDrill turns the NeetCode 150 into guided pattern explanations and line-by-line fill-in-the-code exercises intended to build interview recall. The launch offers free training plus $29 lifetime access. HN liked active practice and pattern recognition, but the checker’s demand for matching identifiers and reference structure made several users feel they were memorizing syntax rather than algorithms. The creator says flexible and editorial modes, more languages, GitHub or email login, and adaptive checking are planned; commenters also challenged the persistent scarcity counter.
 
 ### Comment pulse
-- Rote memorization concern → Validator demands exact code/variable names, nudging users to copy the reference solution—counterpoint: founder plans flexible and “editorial vs. own-solution” modes.
-- Marketing skepticism → Lifetime deal plus “17 spots left / 82% claimed” feels like artificial scarcity and borderline deceptive, undermining trust in an otherwise useful idea.
-- Practical gaps → Python-first drills and Google-only login limit adoption; commenters request JavaScript/TypeScript and GitHub/email auth, which the founder says are in progress.
 
----
+- Literal validation mismeasures mastery → equivalent implementations fail when names or structure differ, pushing learners toward rote reproduction.
+- Guidance still has value → stepwise recall and a Stuck reveal can prevent blanking while preserving explanations.
+- Launch friction looks avoidable → Google-only authentication, missing JavaScript and questionable scarcity messaging deter willing buyers.
 
 ### LLM perspective
-- View: Turning canonical solutions into drillable patterns is aligned with how many candidates currently prep for LeetCode-style interviews.
-- Impact: Most useful for time-pressured interview prep, less so for people optimizing for deep algorithmic understanding or research roles.
-- Watch next: Quality of the flexible checker, language coverage, and whether platforms shift away from LeetCode-style interviews entirely.
+
+- View: Active recall fits interviews only if equivalence replaces template matching.
+- Impact: Candidates gain structured repetition; rigid grading can teach the wrong invariant.
+- Watch next: Flexible validation, language rollout, authentication options and honest pricing signals.

@@ -2,15 +2,18 @@
 
 - Score: 281 | [HN](https://news.ycombinator.com/item?id=46207505) | Link: https://stephenramsay.net/posts/vibe-coding.html
 
-- TL;DR  
-  The author, an English professor who teaches programming, reluctantly concedes that “vibe coding” with LLMs works, then asks: if code is now largely for machines, why keep human-centric languages? Drawing on SICP’s dictum that programs are for people to read, he imagines a “vibe‑oriented programming language” (VOPL) tuned for AI, maybe closer to specs, tests, or natural language than to Rust or Python. HN replies emphasize that real bottlenecks are requirements, language safety, and the mental toll of agent-driven workflows.
+### TL;DR
 
-- Comment pulse  
-  Requirements are harder than coding → LLMs shift the main skill to articulating precise intent; some argue future AIs could infer specs, making vibe coding moot.  
-  Best vibe language debate → many report LLMs struggle with C memory but thrive with Rust/Python; safety, static checks, and abstractions aid AIs too — counterpoint: curated C corpora might close the gap.  
-  Workflow experience → long agent loops, corrections, and forgetting feel soul-sucking; people fall back to manual coding plus targeted AI help or AI-written specs.
+Stephen Ramsay dislikes vibe coding’s loss of craft and comprehension but believes it can build robust systems. Since programming languages help humans express and reason about software, he asks whether model-generated programs should instead target C, assembly, or a vibe-oriented language pairing pseudocode with machine output and tests. He likens resistance to doubts about stored-program computers and compilers. Commenters challenged his premise that models avoid C’s memory and correctness traps, arguing that requirements, abstractions, static checks, and reviewability become more important when humans write less.
 
-- LLM perspective  
-  View: Near term, AI is a powerful assistant for code and docs, not a replacement for humans defining behavior and trade-offs.  
-  Impact: VOPLs will likely look like spec-first, test-rich DSLs optimized for static analysis and RL signals, not raw C or assembly.  
-  Watch next: Comparative studies of AI-assisted C/Rust/high-level languages on defects, review effort, and developer cognitive load will clarify where vibe coding truly pays.
+### Comment pulse
+
+- Engineers reported agents forgetting frees and edge cases in C, while Rust’s compiler, lifetimes, and package tooling supplied immediate corrective feedback.
+- Requirements remain the bottleneck — counterpoint: proponents said models can accelerate dependency research, legacy translation, and implementation under strong architectural direction.
+- Some found repeated prompting fragmented attention and learning; smaller verifiable steps or model-generated specifications made the workflow more manageable.
+
+### LLM perspective
+
+- View: Model authorship strengthens the case for machine-checkable constraints; it does not erase human-oriented semantics.
+- Impact: Language choice determines how cheaply teams can detect, review, and repair generated mistakes.
+- Watch next: Agent language benchmarks, defects, specification-first workflows, intermediate representations, and maintenance by humans who did not generate code.
