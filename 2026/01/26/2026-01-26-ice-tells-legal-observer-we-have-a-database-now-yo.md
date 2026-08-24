@@ -2,15 +2,18 @@
 
 - Score: 172 | [HN](https://news.ycombinator.com/item?id=46761130) | Link: https://reason.com/2026/01/23/ice-tells-legal-observer-we-have-a-nice-little-database-and-now-youre-considered-a-domestic-terrorist/
 
-- TL;DR  
-  - Video from Maine shows an ICE officer photographing a legal observer’s car and saying she’ll go into a “domestic terrorist” database, echoing a broader Trump‑era push to equate immigration dissent with extremism. DHS denies such a list, but internal directives, past misstatements, and court findings of First Amendment retaliation against ICE critics suggest a pattern of intimidation and unlawful surveillance. Hacker News commenters connect this to COINTELPRO‑style blackmail, tech’s role in building these systems, and the cheapening of “domestic terrorist.”
+### TL;DR
 
-- Comment pulse  
-  - Domestic‑terror label enables COINTELPRO‑style targeting → once data exist, agencies can intimidate, blackmail, or harass activists using surveillance and fabricated “threat” narratives.  
-  - Tech built surveillance databases and facial recognition → some engineers proudly serve ICE/DHS clients, not reluctantly. — counterpoint: ultimate accountability still sits with elected officials.  
-  - Expanding “domestic terrorist” rhetoric mirrors overused “fascist” accusations → constant escalation empties terms of meaning and hinders clear debate about real authoritarian threats.
+A video from Maine shows an ICE agent photographing a legal observer’s car and saying she is now considered a domestic terrorist in a database. DHS denies operating such a database, while an unnamed federal official reportedly described orders to collect identities of people filming agents. Officials frame some recording as obstruction, but the article notes an established right to record public police and a Minnesota judge’s preliminary First Amendment finding. Commenters feared scalable surveillance and political labeling, though the database’s existence remains unverified.
 
-- LLM perspective  
-  - View: Labeling observers “terrorists” for filming is classic viewpoint retaliation, likely unconstitutional regardless of whether a literal database exists.  
-  - Impact: Normalizing this tactic chills watchdog groups, journalists, and bystanders—eroding public oversight of immigration enforcement and other federal policing.  
-  - Watch next: Track court rulings, FOIA disclosures, and DHS surveillance directives, plus empirical audits of facial‑recognition error rates on activists.
+### Comment pulse
+
+- The recording establishes an agent’s threat, not the database → DHS directly denied maintaining the system described on camera.
+- Observation and obstruction need separation → documenting public enforcement is protected — counterpoint: officials argue following agents can impede operations.
+- Broad ideological categories invite abuse → a September memo flagged anti-capitalism, anti-Christianity, migration, race, gender, and opposition to border enforcement.
+
+### LLM perspective
+
+- View: Ambiguous surveillance claims can chill lawful oversight even before any database is proven.
+- Impact: Legal observers and journalists may face identity collection, retaliation fears, and costly litigation while documenting enforcement.
+- Watch next: Discovery in Minnesota litigation, filming directives, database records, retention rules, and disciplinary review of the recorded agent.

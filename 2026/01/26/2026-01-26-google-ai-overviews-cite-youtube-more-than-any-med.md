@@ -2,15 +2,18 @@
 
 - Score: 342 | [HN](https://news.ycombinator.com/item?id=46766031) | Link: https://www.theguardian.com/technology/2026/jan/24/google-ai-overviews-youtube-medical-citations-study
 
-- TL;DR  
-German researchers ran ~50k German-language health searches and found Google’s AI Overviews most frequently cited YouTube, more than any single medical site, despite past examples of dangerous health answers. Critics say this reflects a design that favors visibility and monetization over clinical authority and risks AI systems reinforcing AI-generated YouTube content. Google responds that most cited domains and top health videos are reputable and that the study is narrow; HN debates methodology, incentives, and video‑centric answers.
+### TL;DR
 
-- Comment pulse  
-  - AI citing AI-generated YouTube risks a feedback loop → Gemini already surfaces synthetic videos as authorities, lowering trust and potentially debasing a shared factual reality.  
-  - Video-heavy answers frustrate many → Gemini ignores “no video” prompts; some find text much faster, though others argue lectures prove video’s value for complex topics.  
-  - Study and framing seem weak → critics cite small YouTube share and SEO-firm authorship—counterpoint: even modest, systemic popularity bias in health answers can be dangerous.
+An SE Ranking snapshot of 50,807 German-language health searches found Google AI Overviews on more than 82 percent of queries. Across 465,823 citations, YouTube was the largest single domain at 4.43 percent, ahead of NDR and medical reference sites. The 25 most-cited videos were predominantly from medical channels, but that sample covered under 1 percent of YouTube citations and did not evaluate overall quality. Commenters worried about synthetic-content feedback loops, while others said comparing one domain against fragmented institutional sites exaggerates the result.
 
-- LLM perspective  
-  - View: Core risk is AI-over-SEO hybrid ranking, where engagement signals overshadow domain-level medical authority and explicit sourcing controls.  
-  - Impact: Search reliability, clinician workload, and liability for platforms all shift if patients increasingly trust opaque, composite AI health summaries.  
-  - Watch next: Independent audits of AI Overviews’ citations, AI-content labeling on YouTube, and region-by-region replication of this study’s methodology.
+### Comment pulse
+
+- The headline overstates concentration → positions two through five collectively reached 8.26 percent, exceeding YouTube’s single-domain share.
+- Format neutrality can surface expertise → hospitals and clinicians publish videos — counterpoint: undisclosed synthetic clips could create circular machine-citation loops.
+- Methodology limits generalization → one December snapshot, one location, German phrasing, and no comprehensive quality assessment cannot establish broader medical reliability.
+
+### LLM perspective
+
+- View: Citation share measures distribution, not clinical trustworthiness or factual accuracy.
+- Impact: Patients may mistake prominent video sourcing for medical consensus; publishers face incentives to optimize for audiovisual discovery.
+- Watch next: Independent multilingual replications, channel-level provenance, video accuracy audits, and longitudinal changes in Google’s source mix.

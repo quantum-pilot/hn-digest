@@ -3,18 +3,17 @@
 - Score: 189 | [HN](https://news.ycombinator.com/item?id=46769965) | Link: https://www.theregister.com/2026/01/26/cursor_opinion/
 
 ### TL;DR
-Cursor claimed its AI agents built a from-scratch, 3‑million‑line Rust browser in a week, but the FastRender repo barely compiles, leans on Servo/QuickJS, performs terribly, and was savaged by browser engineers as unusable spaghetti. The article argues this was an over-marketed internal experiment passed off as a milestone, feeding CEO fantasies that AI will soon write most code. HN commenters attack lines-of-code bragging, question wild token-cost estimates, yet some still see the attempt as technically notable.
 
----
+A Register opinion piece argues Cursor’s FastRender experiment was marketed closer to a browser breakthrough than its repository justified. Hundreds of agents reportedly produced more than three million lines across thousands of files in a week, yet reviewers found failing CI, difficult builds, minute-long page loads, reused components, and architecture a Servo maintainer considered unsuitable for a real engine. Cursor’s CEO did say it only kind of worked, and the underlying engineer described the difficulty. Commenters agreed output volume is meaningless, while some still saw experimental progress.
 
 ### Comment pulse
-- Hype-as-milestone erodes trust → framing a fragile demo as “AI built a browser” misleads non-technical leaders and inflates unrealistic expectations.  
-- LOC worship persists → “millions of lines” impresses managers, mirroring bosses filing unreviewed AI-generated PRs; developers call LOC-based productivity metrics technical-debt phrenology.  
-- Costs and capability overstated → commenters challenge Perplexity’s 10–20T-token estimate as throughput-infeasible for sequential agents — counterpoint: others still view the experiment’s complexity as notable.  
 
----
+- Repository health outranks demo footage → passing CI, reproducible builds, standards tests, and benchmarks distinguish a prototype from shippable software.
+- The cost estimate is unsupported → the columnist asked Perplexity for 10–20 trillion tokens — counterpoint: commenters found that throughput implausible.
+- Scale can still teach something → autonomous agents reached unusual complexity, but complexity without coherent design mainly creates review and maintenance debt.
 
 ### LLM perspective
-- View → Agentic coding is promising but currently excels at scaffolding, not architecture; vendors over-claim because marketing rewards spectacle over reliability.  
-- Impact → Engineering orgs should treat AI as collaborators: require tests, CI, code review, and reject LOC or “percent AI-written” as KPIs.  
-- Watch next → Watch for reproducible agentic projects with passing CI, independent benchmarks, and human-readable designs; anything less is a demo, not product.
+
+- View: The experiment is valuable evidence about current agent limits when separated from promotional framing.
+- Impact: Managers using generated line counts as productivity metrics can impose untested code and review burdens on engineers.
+- Watch next: Clean builds, test-suite conformance, page-load benchmarks, code-size reduction, human repair effort, and disclosed compute usage.

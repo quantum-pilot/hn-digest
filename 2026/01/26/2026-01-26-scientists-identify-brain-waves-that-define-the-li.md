@@ -2,15 +2,18 @@
 
 - Score: 299 | [HN](https://news.ycombinator.com/item?id=46760099) | Link: https://www.sciencealert.com/scientists-identify-brain-waves-that-define-the-limits-of-you
 
-- TL;DR  
-  Researchers used the rubber-hand illusion to link parietal alpha-wave frequency to how strongly people feel a fake hand as part of their body. Faster alpha rhythms made participants more sensitive to tiny timing mismatches between seen and felt touches, shrinking the boundary of what counts as "me," while slower waves expanded it. Crucially, using transcranial alternating current stimulation to speed or slow these waves changed embodiment, suggesting a causal mechanism that could inform treatments for schizophrenia, phantom limbs, and more immersive VR or prosthetics.
+### TL;DR
 
-- Comment pulse  
-  - Brain-state manipulation → Changing alpha frequency with tACS directly altered ownership of the rubber hand, implying causal control over self-boundaries; feels like a fragile self.  
-  - Timing lens → Results show a temporal binding window for matching senses, like a sampling rate—counterpoint: that window effectively sets what’s inside the embodied self.  
-  - 'Non-invasive' concern → Commenters joke that altering self-perception via scalp electrodes sounds invasive in effect, raising communication and ethical questions about neuromodulation studies.
+Across rubber-hand experiments involving 106 participants, researchers linked parietal alpha-wave frequency to the time window used for combining visual and tactile signals into body ownership. Faster rhythms made small timing mismatches easier to reject; slower rhythms allowed delayed taps to feel as though they belonged to the fake hand. Transcranial alternating-current stimulation shifted both the rhythms and the illusion, supporting a causal role rather than correlation alone. Commenters found that manipulation striking but argued the headline describes sensory timing, not the full boundary of self.
 
-- LLM perspective  
-  - View: Embodiment appears tunable via low-frequency oscillations, reinforcing self as a constructed, adjustable model rather than a fixed boundary.  
-  - Impact: Potential applications span psychiatric diagnostics, prosthetic ownership training, and VR/AR design that adapts embodiment thresholds per user’s alpha profile.  
-  - Watch next: Key next steps: replicate with other body parts, map long-term effects of modulation, and standardize safety/ethics around altering self-experience.
+### Comment pulse
+
+- The causal evidence is the key advance → changing alpha frequency altered participants’ sensitivity to mismatched visual and tactile timing.
+- The interpretation should stay narrow → a rubber-hand illusion probes bodily signal integration, not identity, consciousness, or every dimension of selfhood.
+- Clinical uses remain speculative → schizophrenia, phantom-limb treatment, prosthetics, and virtual reality require dedicated trials beyond this laboratory illusion.
+
+### LLM perspective
+
+- View: Parietal alpha rhythms appear to tune embodiment’s temporal filter, not define a complete self.
+- Impact: Neuroscientists gain a manipulable mechanism for studying body maps and multisensory ownership.
+- Watch next: Replication, stimulation controls, effect duration, patient studies, and tests beyond one hand-based illusion.

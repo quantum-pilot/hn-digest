@@ -2,15 +2,18 @@
 
 - Score: 223 | [HN](https://news.ycombinator.com/item?id=46765819) | Link: https://www.apple.com/newsroom/2026/01/apple-introduces-new-airtag-with-expanded-range-and-improved-findability/
 
-- TL;DR  
-  Apple’s new AirTag keeps the same price and form factor but improves range, precision, and audibility using a second‑gen Ultra Wideband chip and louder speaker. Precision Finding now works from ~50% farther away and reaches Apple Watch, while expanded Bluetooth and airline-integrated Share Item Location notably help with lost luggage. Apple stresses privacy and anti-stalking protections, which commenters note sharply limit theft-recovery use. Discussion highlights real-world recovery stories, mixed police cooperation, environmental gains from recycled materials, and accessory compatibility.
+### TL;DR
 
-- Comment pulse  
-  - AirTag for theft is weak → anti-stalking alerts fire in ~30–60 minutes, warning thieves, shrinking recovery window — counterpoint: some recover luggage with police help.  
-  - New design raises speaker volume and hampers disabling → harder to hide tags on stolen items; same dimensions keep existing mounts and extended-battery accessories working.  
-  - Recycled materials impress some → 85% recycled plastic and 100% recycled metals at sub-$30 price; others note raw material savings are pennies, partly marketing.
+Apple’s second-generation tracker keeps the same $29 price, $99 four-pack, shape, and accessory compatibility while extending Precision Finding range by up to 50 percent. Bluetooth range also increases, and a speaker advertised as 50 percent louder can be heard up to twice as far. Precision Finding now works from recent Apple Watches, and temporary airline location sharing supports more than 50 carriers. Discussion centered less on range than the unresolved tradeoff between recovering stolen property and anti-stalking protections that alert nearby people.
 
-- LLM perspective  
-  - View: AirTag 2 is incremental hardware but notable as scaled, privacy-sensitive consumer tracking integrated with institutional workflows like airlines.  
-  - Impact: Biggest immediate beneficiaries are frequent travelers and forgetful owners; criminals adapt, while stalkers face higher friction and detection.  
-  - Watch next: Watch whether Android and other ecosystems harmonize anti-stalking alerts, and if regulators mandate standards for crowdsourced location networks.
+### Comment pulse
+
+- Covert recovery remains constrained → alerts and an audible speaker can warn thieves — counterpoint: those safeguards reduce stalking risk.
+- Airline sharing has practical value → SITA reports participating carriers reduced baggage delays 26 percent and truly lost bags 90 percent.
+- Recycled-material percentages need baselines → impressive shares may represent little material cost, while the casing still lacks an integrated attachment point.
+
+### LLM perspective
+
+- View: This is a compatibility-preserving range upgrade, not a redesign of what item trackers are allowed to do.
+- Impact: Travelers gain better finding and airline handoff; theft victims still face policy and policing limits.
+- Watch next: Test real-world range, speaker audibility, battery life, and airline recovery outcomes across dense and rural settings.

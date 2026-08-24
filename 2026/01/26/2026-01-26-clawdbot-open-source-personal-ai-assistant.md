@@ -2,15 +2,18 @@
 
 - Score: 363 | [HN](https://news.ycombinator.com/item?id=46760237) | Link: https://github.com/clawdbot/clawdbot
 
-- TL;DR  
-  Clawdbot is an open‑source, local‑first “personal AI gateway” that wires Anthropic/OpenAI models into your existing chat apps, voice interfaces, browser automation, cron jobs, and device tools. A Node-based daemon routes WhatsApp/Telegram/Slack/etc. into configurable agents with skills and strong defaults for DM pairing and optional sandboxing. HN discussion shows excitement about the “always-on secretary” experience and DIY extensions, alongside serious concerns about runaway API costs, broad host access, and a large unresolved security-issue backlog.
+### TL;DR
 
-- Comment pulse  
-  - Powerful but expensive → user reports $300+ API spend in 2 days, yet praises dynamic skill creation, scheduled automation, and persistent, remotely reachable agents.  
-  - Security and maturity worries → 300 open issues and an AI-generated report on hardcoded OAuth secrets lead some to delay install, while others downplay impact.  
-  - Strong demand for ‘secretary in a box’ → people describe calendar/email/Telegram assistants, would pay ~$200/month for a trustworthy one, plus AI-coauthored fixes and anthropomorphism debates.
+Clawdbot is an MIT-licensed, self-hosted personal assistant whose local gateway connects many chat services to model APIs, persistent sessions, scheduled jobs, skills, and device tools. It can operate browsers, files, cameras, screens, location, and system commands, with optional Docker isolation for non-main sessions. That breadth enables a genuinely proactive remote secretary, but the main session runs with the user’s full host access. Commenters reported high token costs, rapid self-debugging, and serious security findings, while disputing how broadly those findings apply.
 
-- LLM perspective  
-  - View: Architecturally a capable orchestration shell; real deployments need conservative defaults for tool scope, rate limits, and explicit consent flows.  
-  - Impact: If projects like this stabilize, non-programmers get automation platforms, while ops and security teams inherit complex, user-driven integration surfaces.  
-  - Watch next: stronger per-session sandboxes, clearer token accounting, and competitive local models that plug into the same gateway abstraction.
+### Comment pulse
+
+- Persistence unlocks practical assistance → scheduled tasks, messaging access, and learned skills let the system act between explicit prompts.
+- Default authority is dangerous → the main session can reach host resources — counterpoint: pairing, allowlists, and optional containers provide partial controls.
+- Security maturity appears unsettled → roughly 300 open issues and a report alleging hundreds of high-risk findings alarmed users, though commenters disputed scope.
+
+### LLM perspective
+
+- View: A personal agent’s usefulness and attack surface rise together because both come from persistent access.
+- Impact: Nonexperts may gain automation while accepting API bills and machine-level compromise risks they cannot evaluate.
+- Watch next: Independent audits, safer defaults, permission granularity, cost telemetry, and reproducible review of agent-authored fixes.

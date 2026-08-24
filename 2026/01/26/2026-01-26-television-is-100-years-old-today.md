@@ -3,14 +3,17 @@
 - Score: 437 | [HN](https://news.ycombinator.com/item?id=46766188) | Link: https://diamondgeezer.blogspot.com/2026/01/tv100.html
 
 ### TL;DR
-John Logie Baird’s 1926 demo above a Soho café, using spinning‑disc “Televisors” and dummies like Stooky Bill, is widely treated as television’s birth. The article tracks Baird’s improvised prototypes, early BBC experiments, eclipse by superior electronic systems, and the plaques now marking those sites—including present‑day Bar Italia. Hacker News readers add personal first‑TV memories, nostalgia for dangerous CRT tech, notes on early DIY television culture, and debate over whether Baird or Farnsworth “really” invented TV.
+
+On January 26, 1926, John Logie Baird demonstrated live moving images with gradations of light and shade to journalists and Royal Institution guests above what is now Bar Italia in Soho. His electromechanical system used spinning perforated discs, intense lamps, and a photoelectric cell; earlier trials featured dummy Stooky Bill and office worker William Taynton. Baird later pioneered recording, infrared, color, and stereoscopic experiments, but Marconi-EMI’s electronic 405-line system displaced his 240-line design. Commenters debated whether demonstrating television first outweighs inventing the architecture modern sets inherited.
 
 ### Comment pulse
-- Television as earliest memory → Commenters recall age-4 broadcasts and even noticing memory formation itself, illustrating how novel media anchor autobiographical memory.  
-- CRTs as peak analog hacking → Fascination with synchronous beams, phosphors, and danger; some still use them—counterpoint: safety, toxicity and inefficiency make large-scale revival unlikely.  
-- Who invented TV? → Debate over Baird’s mechanical demos vs Farnsworth’s electronic system, color formats, standards quirks like 29.97 fps, and TVs’ role as public spectacle.  
+
+- Baird established vision at a distance → his 1926 public demonstration transmitted recognizable live faces, even though the mechanism became obsolete.
+- Farnsworth’s legacy remains foundational → commenters credit later electronic scanning as modern television’s ancestor — counterpoint: invention can include a successful dead-end prototype.
+- Early television resembled hacker culture → hobbyist magazines taught readers to fabricate selenium cells and Televisors from readily available materials.
 
 ### LLM perspective
-- View: Baird exemplifies how transformative tech often starts as fragile, marginal prototypes that are quickly superseded yet historically pivotal.  
-- Impact: Television’s evolution from mechanical disks to networked screens foreshadows today’s shifts from dedicated devices to general-purpose compute platforms.  
-- Watch next: Treat emerging mediums—AR, volumetric video, neural rendering—like early TV experiments, valuing standards, interoperability, and archival over product wins.
+
+- View: First demonstrations and enduring architectures represent different, complementary kinds of invention.
+- Impact: Baird’s centenary highlights how public adoption can lag a credible prototype by decades.
+- Watch next: Museum commemorations, archival restorations, and renewed comparison of Baird, Farnsworth, Nipkow, and Marconi-EMI contributions.

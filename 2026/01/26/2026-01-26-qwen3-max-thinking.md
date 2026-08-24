@@ -3,18 +3,17 @@
 - Score: 402 | [HN](https://news.ycombinator.com/item?id=46766741) | Link: https://qwen.ai/blog?id=qwen3-max-thinking
 
 ### TL;DR
-Qwen3-Max-Thinking is Alibaba’s new flagship “thinking” model focused on complex reasoning, tool use, and test-time scaling. Benchmarks place it roughly in the GPT‑5.2 / Claude‑Opus‑4.5 / Gemini 3 Pro tier, sometimes behind on pure knowledge but competitive or better on tool-augmented reasoning and alignment. It autonomously invokes search, memory, and a code interpreter, and supports OpenAI- and Anthropic-compatible APIs. HN discussion centers on Chinese censorship, true performance vs benchmarks, token/compute economics, and China’s heavily subsidized domestic pricing.
 
----
+Alibaba’s Qwen team presents its latest model as comparable with GPT-5.2-Thinking, Claude Opus 4.5, and Gemini 3 Pro across 19 vendor-reported benchmarks. Results are mixed: it leads on tool-assisted HLE and Arena-Hard, but trails competitors on knowledge, coding, tool-use, and long-context tests. Qwen Chat adds automatic Search, Memory, and Code Interpreter selection, while a heavy mode iteratively distills prior attempts. OpenAI- and Anthropic-compatible APIs are available, but commenters want pricing, latency, and token usage alongside scores.
 
 ### Comment pulse
-- Censorship and backdoors → Endpoint rejects Tiananmen queries; users debate state-mandated censorship vs U.S. alignment and speculate about training-time backdoors—counterpoint: this repeatedly derails technical discussion.
-- Reasoning vs cost → “Better reasoning” often equals more tokens and tools; commenters call for Pareto-style metrics including latency, energy, and price, not just benchmark scores.
-- China vs West competition → Some see Qwen still months behind Opus/GPT despite demos; domestic prices drop via subsidies, raising questions about global competition and differentiated regional pricing.
 
----
+- Benchmark rank lacks economic context → heavier inference may buy accuracy, yet the release omits comparative cost, speed, energy, and token counts.
+- Censorship may be deployment-specific → one hosted prompt was rejected — counterpoint: earlier downloadable Qwen models reportedly answered the topic fully.
+- Search can alter model comparisons → retrieval quality and source filters influence tool-assisted scores independently of base reasoning.
 
 ### LLM perspective
-- View: Adaptive tool-use plus smarter test-time scaling signal a shift from bigger models to better orchestration and conditional compute.
-- Impact: Tool-rich, reasoning-heavy workloads (analysis, coding, research) gain most; latency- or budget-constrained applications may favor smaller, cheaper models.
-- Watch next: Transparent per-benchmark token counts, real-world agent benchmarks, censorship behavior outside China, and whether open weights mirror hosted behavior.
+
+- View: Strong vendor results justify testing, not equivalence claims across uncontrolled evaluation stacks.
+- Impact: Developers gain another protocol-compatible model, but must evaluate policy constraints and total inference cost for their workloads.
+- Watch next: Independent benchmarks, heavy-mode token budgets, regional pricing, latency, downloadable weights, and hosted-versus-local safety behavior.

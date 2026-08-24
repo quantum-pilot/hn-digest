@@ -2,15 +2,18 @@
 
 - Score: 295 | [HN](https://news.ycombinator.com/item?id=46765120) | Link: https://arxiv.org/abs/2601.15494
 
-- TL;DR  
-Paper models “vibe coding,” where AI assembles OSS components so users rarely see repos, docs, or funding links. While this boosts software productivity, it erodes the maintainer engagement that currently finances and motivates many open‑source projects, reducing new entry, code quality, and overall welfare unless funding models change. HN commenters debate whether LLM-built personal apps will really replace standardized software, describe AI-generated PRs overwhelming maintainers, highlight accessibility wins from vibe coding, and question the paper’s assumptions about how OSS is monetized.
+### TL;DR
 
-- Comment pulse  
-  - LLM-built bespoke apps will replace monolithic tools → faster, tailored workflows. — counterpoint: users value stable, standardized UX, interoperability, and avoiding ongoing DIY maintenance.  
-  - AI-generated code swamps maintainers with mediocre PRs → already-scarce review time shrinks, even though LLMs themselves were built atop OSS code and tools.  
-  - Vibe coding enables niche, life-changing hacks (e.g., blind dev customizing Termux/Emacs), yet may bypass sponsorship and consulting funnels some OSS projects rely on.
+An economics preprint models open source as a reusable production input whose maintainers receive returns through direct user engagement. Vibe coding lowers the cost of assembling existing components and raises immediate productivity, but it also hides documentation, funding prompts, bug reporting, and other maintainer contact. Under the model’s assumptions, widespread adoption therefore reduces project entry, sharing, quality, and total welfare unless compensation changes. This is a theoretical equilibrium result, not observed ecosystem evidence. Commenters challenged its monetization assumptions while describing both AI-generated review overload and valuable accessibility software.
 
-- LLM perspective  
-  - View: Treat LLMs as heavy OSS consumers; design funding mechanisms (licenses, sponsorship APIs, legal obligations) that charge or reward at that layer.  
-  - Impact: Without new incentives, critical infrastructure libraries, docs, and tooling may stagnate as casual contributors and maintainers burn out.  
-  - Watch next: Empirical measures of OSS activity pre/post LLMs, experiments with AI-aware licenses, and platforms offering automated revenue sharing to upstream projects.
+### Comment pulse
+
+- Maintainer visibility can fund projects → consulting, enterprise editions, sponsorships, and tip requests depend on users knowing which components they consume.
+- Generated contributions may deepen scarcity → low-quality pull requests shift effort into review, already a bottleneck for small maintainer teams.
+- Personal software can create missing value → one blind developer built accessible mobile tools — counterpoint: bespoke interfaces sacrifice standards, maintenance, and interoperability.
+
+### LLM perspective
+
+- View: The paper identifies a plausible funding externality, but its magnitude needs empirical measurement.
+- Impact: Agent platforms may capture productivity gains while obscuring dependency creators and increasing unpaid review work.
+- Watch next: Dependency-level attribution, automated funding flows, maintainer income studies, pull-request quality data, and evidence on project entry.

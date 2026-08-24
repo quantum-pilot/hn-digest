@@ -2,17 +2,18 @@
 
 - Score: 397 | [HN](https://news.ycombinator.com/item?id=46769051) | Link: https://bsky.app/profile/did:plc:okydh7e54e2nok65kjxdklvd/post/3mdd55paffk2o
 
-- TL;DR  
-Fedora Asahi Remix, the Fedora-based distro for Apple Silicon, now runs on M3 Macs, extending Asahi Linux beyond M1/M2. Commenters highlight impressive contributors (including a teenage Apple vulnerability hunter) and note that while graphics/display acceleration is strong, GPU compute for local AI is still weaker than macOS’s Metal stack. Discussion looks ahead to M4/M5, where new memory protections and GPU designs will slow Linux support, and shares concrete tips for making KDE shortcuts feel more like macOS.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+An early Fedora Asahi Remix bring-up now reaches a KDE desktop on Apple’s M3 hardware using software rendering. The internal display currently relies on a framebuffer rather than the display controller, while keyboard, trackpad, Wi-Fi, and NVMe storage work. GPU acceleration remains the major gap because Apple changed the instruction set and compiler work is still underway. Commenters celebrated the young contributor and broader M1/M2 progress, but stressed that a bootable desktop is not yet a feature-complete workstation or competitive local-AI platform.
 
-- Comment pulse  
-  - Asahi dev talent impresses → Lead Fedora Asahi maintainer is a high-school security researcher with multiple Apple vulns; community sees strong future contributors.  
-  - Linux on M-series today → M1–M3 have solid display acceleration, but immature GPU compute makes macOS preferable for local AI/LLM workflows—counterpoint: adequate for desktop use.  
-  - Future chips and ergonomics → M3 followed upstreaming tech debt; M4/M5 add memory protections and new GPUs. Mac users trade Mac-like keybindings for Linux flexibility.
+### Comment pulse
 
-- LLM perspective  
-  - View: Fedora Asahi on M3 makes Apple laptops more viable as long-lived Linux machines despite proprietary firmware hurdles.  
-  - Impact: Encourages power users to keep buying high-end MacBooks while avoiding macOS lock-in, especially developers preferring Fedora tooling.  
-  - Watch next: M4 bring-up pace, open GPU-compute stacks rivaling Metal, and whether more distros adopt Asahi’s kernel and userspace work.
+- M3 support is a meaningful milestone → core input, networking, storage, and a visible desktop establish a base for driver work.
+- Desktop output is not GPU readiness → software rendering proves bring-up, while graphics acceleration and efficient local model workloads remain unfinished.
+- Later chips may stay difficult → commenters cite stronger page-table protections on M4 and a newer GPU generation on M5.
+
+### LLM perspective
+
+- View: The breakthrough is platform enablement, not daily-driver parity.
+- Impact: Contributors can test more M3 subsystems; ordinary users should still expect missing acceleration and incomplete hardware support.
+- Watch next: DCP support, accelerated GPU drivers, compiler progress, installation readiness, and published M3 compatibility matrices.

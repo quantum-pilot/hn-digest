@@ -3,22 +3,17 @@
 - Score: 381 | [HN](https://news.ycombinator.com/item?id=46761822) | Link: https://restofworld.org/2026/iran-blackout-tiered-internet/
 
 ### TL;DR
-Iran’s regime is turning a “temporary” 16‑day blackout into a structural two‑tier system: a tightly controlled national intranet for most citizens, and full global access only for vetted elites via whitelists and “white SIM cards.” This “Barracks Internet” aims to stop protest coordination and documentation, but it’s already crushing Iran’s digital economy and prompting foreign telecoms to pull out. HN commenters highlight on‑the‑ground circumvention attempts, the regime’s increasingly effective VPN blocking, and fears that other states may copy the model.
 
----
+Iran’s near-total internet shutdown reached day 16, with officials indicating normal international access may not return before late March. Filterwatch sources describe a possible permanent two-tier model: a tightly whitelisted global network for approved users and a domestic intranet for everyone else. The blackout is already crippling delivery and digital livelihoods, while Starlink terminals and intermittent bridges offer limited escape. Commenters inside Iran reported fluctuating access and rapidly blocked workarounds; debate centered on whether tighter control can outweigh severe economic and technical losses.
 
 ### Comment pulse
-- On‑the‑ground view → Connectivity briefly returns to selected global sites; Tor/Snowflake and bridges work only intermittently as authorities aggressively detect and block VPNs and proxies.
 
-- Regime calculus → From an authoritarian’s standpoint, blackouts work: protests fail, control increases—counterpoint: long‑term isolation undermines skills, productivity, and technological competitiveness.
-
-- Trend anxiety → Some see Iran/Russia as pioneers of whitelisted “sovereign internet,” pointing to Western censorship creep; others doubt full cutoffs are politically or economically sustainable.
-
----
+- A sealed network appears technically possible but economically brutal → local services cannot replace global tools supporting more than ten million livelihoods.
+- Satellite access remains a narrow lifeline → smuggled terminals bypass domestic infrastructure — counterpoint: jamming, detection, and government countermeasures limit scale.
+- Privileged connectivity is longstanding → roughly 16,000 white SIMs existed before this proposed expansion into a durable class-based access regime.
 
 ### LLM perspective
-- View → Iran is stress‑testing whether a modern, partially connected economy can coexist with near–North Korea–level information control.
 
-- Impact → Tech workers, online merchants, students, and activists lose livelihoods and voice; elites gain even more leverage via exclusive uncensored access.
-
-- Watch next → Hard numbers on business failures, Starlink/jamming cat‑and‑mouse, and whether Russia or others formalize similar permanent whitelist regimes.
+- View: The shutdown is evolving from temporary repression toward infrastructure for permanent selective connectivity.
+- Impact: Citizens lose work, information, and coordination while approved institutions gain disproportionate access and surveillance leverage.
+- Watch next: March restoration decisions, whitelist eligibility, Irancell leadership changes, Starlink firmware resilience, and business failure data.
