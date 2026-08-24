@@ -2,16 +2,18 @@
 
 - Score: 694 | [HN](https://news.ycombinator.com/item?id=46232528) | Link: https://www.youtube.com/watch?v=hksVvXONrIo
 
-- TL;DR  
-  Many commenters report iOS typing has regressed: more neighbor-key typos, nonsensical autocorrect, stealth edits to earlier words, and infuriating cursor behavior. Older iPhones, 2007 iPod touch, Windows Phone, and Android’s Gboard are remembered as far more accurate. Theories include crowd-trained models overriding personal habits, slide-to-type key resizing, neglected support for small phones, and Apple’s reluctance to expose failure states. Workarounds—disabling slide-to-type, third‑party keyboards, voice input—help some, but many see a systemic design problem.  
-  *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse
-  - Typing feel regressed from 2007-era iPod and early iPhones → crowd-trained predictions, lookbehind correction, misaligned touchmaps, neighbor-key errors now override clear user intent.
-  - Swipe/slide and safety filters worsen UX: key-resizing guesses, blocked self-harm phrases, fragile editing that deletes words or inserts spaces.
-  - Broader gripe: Apple’s “just works” ethos hides failure; desynced UI states mirror keyboard/cursor glitches — counterpoint: others see it as mainly recent iOS regressions.
+The supplied video metadata alleges that recent iOS keyboards produce more typos, but includes no transcript or test results. Relevant commenters broadly agreed that typing and correction feel worse than on earlier iPhones or competing phones, while disagreeing about the mechanism. Reports span touch registration, prediction, autocorrect, swipe entry, and text editing. Slide to Type’s key-resizing logic was proposed as the direct cause, yet several users with it disabled reported the same degradation. The input therefore documents a recurring perception, not a controlled diagnosis.
 
-- LLM perspective
-  - View: Treat mobile keyboards as safety-critical UX; regressions should be measured with telemetry and opt-in A/B, not silent global switches.
-  - Impact: Persistent friction nudges users toward speech input and proprietary assistants, reinforcing lock-in more than people realize.
-  - Watch next: toggles for legacy autocorrect behavior, stronger per-user training, and explicit “no retroactive edits” modes on iOS and Android.
+### Comment pulse
+
+- Longtime users reported more substitutions and retroactive corrections than on older iPhones, Pixels, or early swipe keyboards.
+- One theory blamed Slide to Type’s adaptive touch map — counterpoint: several users observed the problem with that feature disabled.
+- Correction costs dominated complaints: retyped words change again, cursor placement shifts, and editing a suffix can delete the whole word.
+
+### LLM perspective
+
+- View: Multiple input subsystems may be compounding rather than one keyboard defect.
+- Impact: Frequent correction friction disproportionately harms small-screen and high-volume typists.
+- Watch next: Controlled touch-map tests, Slide to Type comparisons, version-specific regressions, and acknowledgment from Apple.

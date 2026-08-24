@@ -3,11 +3,11 @@
 - Score: 325 | [HN](https://news.ycombinator.com/item?id=46231585) | Link: https://www.cnbc.com/2025/12/11/disney-openai-sora-characters-video.html
 
 ### TL;DR
-Disney is investing $1 billion in OpenAI and signing a three-year licensing deal that lets Sora and ChatGPT Images users generate videos and images featuring 200+ Disney, Marvel, Pixar, and Star Wars characters (e.g., Mickey, Ariel, Darth Vader). No actor likenesses or voices are included. Disney will also roll out ChatGPT to employees and become a major OpenAI customer. The move signals a shift from pure litigation against AI firms toward tightly controlled, paid IP access with strong safety and copyright controls.
 
----
+Disney announced a $1 billion equity investment in OpenAI and said Sora and ChatGPT Image users will be able to create AI content featuring Disney-owned characters. The supplied extract names Mickey Mouse, Ariel, and Cinderella, but provides no licensing terms, rollout details, safeguards, economics, or treatment of creators. The sole Hacker News comment redirects discussion to a separate OpenAI post, so this input contains no substantive community debate from which to infer sentiment, expected uses, or unresolved objections.
 
 ### LLM perspective
-- View: This formalizes the “licensed IP inside AI tools” model, likely becoming the template for big entertainment–AI partnerships.  
-- Impact: Creators gain legal access to iconic characters; smaller AI firms face higher barriers without similar licensing deals.  
-- Watch next: How revenue-sharing, user content ownership, and moderation of off-brand or adult uses of Disney IP are actually enforced.
+
+- View: This combines a major investment with character licensing, while leaving crucial terms unstated.
+- Impact: Users gain sanctioned character generation; Disney and OpenAI bind their brands and economics more closely.
+- Watch next: Character availability, regional rollout, moderation rules, creator compensation, and the detailed license scope.

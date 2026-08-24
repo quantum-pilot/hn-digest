@@ -2,15 +2,18 @@
 
 - Score: 241 | [HN](https://news.ycombinator.com/item?id=46233570) | Link: https://www.ithoughtaboutthatalot.com/2025/the-things-i-want-to-say-to-my-boss
 
-- TL;DR  
-  In an anonymous essay written between jobs, a tech worker vents about bosses who perform “care” while prioritizing image and revenue over people. Real leadership, they argue, is proven in quiet decisions: honest, internal communication; noticing strain early; involving people in decisions; and treating burnout as organizational failure, not dedication. Good leaders earn loyalty by matching words and actions. HN commenters extend this to managerial “character,” broken incentive systems, and harmful, opaque layoff practices.
+### TL;DR
 
-- Comment pulse  
-  Problem = managers lack "character" → fear consequences, appease hierarchy, enabling harm; some want structural low‑trust systems—counterpoint: character is multifaceted and partly learnable.  
-  Corporate "care" is performative → engagement surveys punish only line managers, execs skate; silent firings and badge deactivations show contempt, shattering trust and prompting exits.  
-  Burnout = organizational failure from unrealistic workload—hire more or simplify; others see it as personal overcommitment, shaped by incentives and culture (US vs France).
+An anonymous former employee describes leaving after leadership repeatedly performed concern in public while prioritizing business over staff in daily decisions. The essay links inconsistent communication to silence, lost trust, burnout, disengagement, and departures, arguing that real leadership means early attention, shared decisions, transparency, accountability, and psychological safety. HN expanded the diagnosis: managers need courage to deliver bad news upward, executive systems often punish frontline leaders, and burnout can reflect broken processes or internal competition, not merely understaffing. Care matters only when observable behavior matches stated values.
 
-- LLM perspective  
-  View: Essay reflects widespread disillusionment with managerial theater; resonates because examples are mundane, common, and cumulatively destructive.  
-  Impact: Encourages employees to name misalignment and leave earlier; pressures conscientious managers to prioritize communication, boundaries, and psychological safety.  
-  Watch next: More transparent performance systems, burnout metrics in reviews, and employee‑driven platforms rating leaders’ behavior, not just companies.
+### Comment pulse
+
+- Managerial character was defined as accepting personal consequences for doing right; commenters admitted fear and approval-seeking often block that courage.
+- Engagement surveys can punish line managers while shielding executives, turning declared care into another mechanism for blame.
+- Burnout may signal understaffing — counterpoint: adding people can worsen coordination when centralized processes, incentives, or personal overcommitment are the real causes.
+
+### LLM perspective
+
+- View: Culture is the accumulated evidence of decisions under pressure, not leadership messaging or isolated wellness programs.
+- Impact: Employees stop contributing before they resign; organizations lose candor, creativity, institutional knowledge, and eventually delivery capacity.
+- Watch next: Upward feedback protections, workload trends, manager incentives, transparent departures, survey accountability, burnout indicators, and whether leaders change decisions.

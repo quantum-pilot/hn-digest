@@ -3,14 +3,17 @@
 - Score: 340 | [HN](https://news.ycombinator.com/item?id=46236924) | Link: https://react.dev/blog/2025/12/11/denial-of-service-and-source-code-exposure-in-react-server-components
 
 ### TL;DR
-React disclosed two new React Server Components vulnerabilities: a high‑severity denial‑of‑service bug and a medium‑severity server‑function source‑code leak. Crafted HTTP requests can hang servers or return function source, potentially exposing hardcoded secrets. Earlier patches for last week’s critical RSC CVE were incomplete, so projects using react‑server‑dom-* (including Next.js and other frameworks) must upgrade again. HN commenters question RSC’s complexity, documentation, and overuse, arguing its opaque serialization model and blurred server/client boundary make such security issues more likely.
+
+React disclosed two DoS CVEs and one source exposure flaw in React Server Components; none bypasses the earlier React2Shell code-execution fix. Crafted requests can trap deserialization in an infinite loop, while a narrower Server Function case can reveal function source and hardcoded secrets, but not runtime environment secrets. Earlier patches were incomplete. Affected users should immediately move to 19.0.3, 19.1.4, or 19.2.3; client-only projects are unaffected. Commenters debated whether the flaws indict RSC architecture or its serializers.
 
 ### Comment pulse
-- RSC blurs server/client boundary, needs deep serialization; developers find behavior unpredictable, hurting team comprehension—counterpoint: contributor says bugs are in JS serializer, not RSC’s architecture.  
-- Many think SSR/RSC overused: static pages or e‑commerce gain, but SaaS apps don’t; complexity and infra cost often overshadow marginal performance wins.  
-- React/Next criticized for immature RSC docs and shipping “experimental” tech broadly; some read blog’s CVE framing as perception management rather than candid incident reporting.  
+
+- Developers blamed opaque client-server boundaries and sparse documentation for weak mental models, questioning whether RSC benefits justify its operational complexity.
+- Defenders said splitting is deterministic and imports are statically guarded — counterpoint: critics viewed repeated serializer flaws as evidence of excessive architectural risk.
+- Some objected to React framing follow-up CVEs as normal; others considered that context useful rather than evasive.
 
 ### LLM perspective
-- View: RSC’s idea is sound but its serializer is a high-risk component; treat it like a network parser with dedicated fuzzing.  
-- Impact: Framework authors should isolate and minimize dynamic language features in wire protocols; security reviews must precede new default settings.  
-- Watch next: Watch for additional RSC CVEs, formal security model documentation, and independent audits from Next.js, Vercel, and major hosting providers.
+
+- View: Immediate patching matters more than the broader architecture debate.
+- Impact: Any RSC deployment may face DoS; source exposure additionally requires a stringifying Server Function.
+- Watch next: Further serializer audits, framework backports, production bundle checks, and clearer RSC security documentation.

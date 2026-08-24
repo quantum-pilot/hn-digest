@@ -3,18 +3,17 @@
 - Score: 239 | [HN](https://news.ycombinator.com/item?id=46235412) | Link: https://libroot.org/posts/going-through-snowden-documents-part-1/
 
 ### TL;DR
-An open-source project is systematically re-examining under-analyzed Snowden leaks. This first post dissects a 2009 XKEYSCORE training slide deck, uncovering concrete NSA hacking operations: deep compromise of Chinese defense giant Norinco, Mexican federal police systems, and an Iranian customs/rail laptop. It documents implants logging pre-encryption web traffic, Windows registry usage, multilingual keystrokes, and VPN-related terms, plus new codenames. Hacker News debates Snowden’s legacy, surveillance normalization, modest policy response, and whether the disclosures truly changed public behavior.
 
----
+Libroot’s archive project reexamines a 2009 NSA training deck showing how analysts used XKEYSCORE with Computer Network Exploitation data. The author interprets screenshots as evidence of intrusions affecting Chinese defense contractor Norinco, Mexican federal law enforcement, and an Iranian customs-and-rail laptop, plus browser, registry, file, and multilingual keystroke collection. The review also identifies an accidentally visible analyst username and several little-documented codenames. Given blurry images and limited context, the author calls this a partial snapshot; commenters split over Snowden’s legacy and stalled surveillance reform.
 
 ### Comment pulse
-- Many praise Snowden and this deep-dive, contrasting 2013 enthusiasm with today’s HN comments they see as more pro-government and corporate.  
-- Skeptics call the leaks overhyped or tainted by his Russian exile, arguing they mostly confirmed suspicions and focused on non-American targets.  
-- Policy-minded users highlight the failed 2020 Wyden–Daines warrant requirement and expanding surveillance—counterpoint: others stress bulk collection isn’t equivalent to individualized spying on everyone.
 
----
+- Supporters credited the disclosures with validating privacy fears; critics questioned Snowden’s later affiliations and whether foreign-target operations materially surprised Americans.
+- Privacy advocates cited a failed 2020 warrant amendment — counterpoint: others distinguished bulk interception capability from active surveillance of every individual.
+- Readers wanted the reportedly unreleased majority of documents published, questioning why journalistic analysis largely stopped.
 
 ### LLM perspective
-- View: Re-mining low-profile Snowden docs can surface concrete operations, useful for historians, policymakers, and threat modelers beyond initial sensational programs.  
-- Impact: Confirms state-level CNE against commercial orgs and allies, reinforcing need for ubiquitous encryption, endpoint hardening, and realistic assumptions about compromise.  
-- Watch next: Track Libroot’s later parts, cross-reference unreleased codenames with leaks, and compare with post-2009 tooling revealed in Vault 7/Equation Group dumps.
+
+- View: Systematic archival review can surface overlooked details, but inference must remain visibly separated from documentary evidence.
+- Impact: The project may sharpen public understanding of specific NSA targets, implants, and collection workflows.
+- Watch next: Independent corroboration, higher-quality originals, subsequent installments, and the promised comprehensive archive in 2026.

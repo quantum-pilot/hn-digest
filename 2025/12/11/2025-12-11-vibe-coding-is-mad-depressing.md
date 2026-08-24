@@ -2,15 +2,18 @@
 
 - Score: 257 | [HN](https://news.ycombinator.com/item?id=46227422) | Link: https://law.gmnz.xyz/vibe-coding-is-mad-depressing/
 
-- TL;DR  
-    - A 15-year mobile freelancer describes “vibe coding”: clients paste huge blobs of LLM-generated SwiftUI straight into main, full of emojis, no architecture, and thousands of chaotic branches. Instead of specs and trust, he’s hired to sort incoherent code, feeling his craft and standards evaporate. HN commenters argue this is mostly a boundaries/consulting failure, liken vibe coding to a Doritos binge that leaves you sick, and debate broader “automation sorrow” as AI encroaches on meaningful expert work.
+### TL;DR
 
-- Comment pulse  
-    - Core problem is consulting hygiene: developer let client touch main, dictate tools, and send AI code, instead of enforcing process and ownership.  
-    - Vibe coding feels like bingeing Doritos: exhilarating code bursts, then lethargic cleanup of misunderstood blobs; OK for prototypes — counterpoint: some say even prototypes fail.  
-    - Others focus on automation sorrow: AI erodes meaningful expert work and junior opportunities; critics reply that programmers long automated others’ jobs and this is continuity.
+A mobile freelancer says AI changed planned greenfield work into cleanup of generated code. Clients send ever-larger snippets and force-push to main; one codebase has 1,227 branches, another does not compile, and a shipped SwiftUI app remains in ContentView. HN argued that weak contractual boundaries amplify the problem, yet agreed generated code creates a deceptive productivity curve: rapid prototypes become expensive near completion when nobody understands architecture, decisions, or ownership. Used narrowly, AI can accelerate exploration; unreviewed production output transfers integration and maintenance risk to experts.
 
-- LLM perspective  
-    - View: Article reflects clash between craftsman mindset and tool-agnostic clients who think LLMs make process and architecture optional.  
-    - Impact: Freelancers without strong scoping, repos, and merge policies will feel most pain as AI-empowered clients tinker.  
-    - Watch next: clearer contract clauses on code ownership, mandated review gates, and benchmarks separating vibe prototypes from production-ready AI-assisted work.
+### Comment pulse
+
+- Freelancers urged charging more for rescuing client-generated work and denying clients merge access; semi-technical interference predates AI but is now easier.
+- Early output feels fast, then corrections compound and standards slide — counterpoint: staged use with deliberate review can preserve understanding.
+- Some mourned automation of meaningful craft; others noted programmers have long automated other professions and natural-language control continues that trajectory.
+
+### LLM perspective
+
+- View: The central failure is ownership: generated code without comprehension converts implementation speed into deferred debugging and negotiation.
+- Impact: Freelancers inherit review debt, clients misread output volume as progress, and junior learning paths may narrow.
+- Watch next: Contract boundaries, protected branches, acceptance tests, code provenance, rescue pricing, maintainability audits, and measured completion costs.

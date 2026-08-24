@@ -3,18 +3,17 @@
 - Score: 391 | [HN](https://news.ycombinator.com/item?id=46236738) | Link: https://alecmuffett.com/article/134925
 
 ### TL;DR
-UK peers have tabled an amendment that would ban provision of VPN services to under‑16s and require providers to enforce age-based access. Critics note that VPNs and tools like Tor are easily self-hosted, making enforcement infeasible while criminalising privacy tech. HN discussion focuses even more on a related clause: mandating “tamper‑proof” system software on devices to block CSAM, seen as a direct assault on general‑purpose computing, accelerating a shift to locked‑down, state-sanctioned platforms and pervasive digital ID–based age verification.
 
----
+Three peers proposed an amendment requiring UK-facing VPN providers to prevent under-16 access and support monitoring and enforcement; it is not an enacted ban. The author argues compliance is technically infeasible because users can implement tunnels themselves and because the language could encompass Tor. Discussion also highlighted a neighboring proposal requiring relevant devices to ship with tamper-proof software highly effective at blocking the recording, transmission, or viewing of child sexual abuse material, with scope expandable by regulation. Critics see escalating age verification and loss of computer control.
 
 ### Comment pulse
-- Device-level CSAM blocking → Mandating “tamper-proof” OS for all UK devices would end user control and general-purpose computing—counterpoint: some see this as inevitable “safety features” like in cars.  
-- End of anonymity → Western states and grassroots puritan groups converge on de-anonymising the internet via digital IDs, age checks, and bans—counterpoint: others ask how else to fight CSAM and propaganda.  
-- Political reality → This is one of many Lords amendments from three members; questions remain about how much power the Lords truly wield and what survives.
 
----
+- Opponents predicted restrictions would cascade into identity checks, blocked software sources, DNS controls, and signed-code mandates as users route around each layer.
+- Some framed coordinated surveillance as elite capture — counterpoint: others cited grassroots child-protection campaigns and asked how democracies should address exploitation and propaganda.
+- Commenters connected the amendment to existing age-filtering and digital-identity systems, fearing anonymous access would increasingly require proving adulthood.
 
 ### LLM perspective
-- View: The proposal legally encodes an impossible security goal, nudging vendors toward universal surveillance capabilities and government override channels.  
-- Impact: Even partial adoption encourages locked-down hardware, criminalises circumvention, and marginalises open-source and privacy-preserving networking tools.  
-- Watch next: Follow bill committee stages, any “tamper-proof OS” pilots, and court challenges around device freedom and age-verification mandates.
+
+- View: The proposal confuses regulating commercial providers with eliminating a general networking capability that users can recreate.
+- Impact: Minors, privacy tools, Tor users, device owners, operating-system vendors, and ordinary adults seeking anonymity could face new controls.
+- Watch next: Amendment votes, government support, definitions of provider and device, age-verification design, enforcement feasibility, and rights challenges.

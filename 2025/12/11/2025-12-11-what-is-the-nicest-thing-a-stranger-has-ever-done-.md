@@ -2,15 +2,18 @@
 
 - Score: 252 | [HN](https://news.ycombinator.com/item?id=46236001) | Link: https://louplummer.lol/nice-stranger/
 
-- TL;DR  
-  A cyclist crashes hard on a rural road, badly injures his shoulder, and is instantly helped by an off‑duty ER doctor who stabilizes him, calls his wife, coordinates the hospital, and stays until the ambulance leaves—turning a terrifying moment into a cared‑for experience he still thinks about 25 years later. He recalls other trail and travel kindnesses, and HN commenters add their own: rides, meals, money, and quiet emotional support that collectively argue everyday people are kinder than the news suggests.
+### TL;DR
 
-- Comment pulse  
-  Welcoming strangers into family spaces → Christmas dinners, couchsurfing, and local traditions show how inclusion turns random meetings into lasting friendships and even future wedding parties.  
-  Small, timely gestures matter → a hand on the shoulder, waived bank fees, or $50 from a banker can redirect someone’s worst day.  
-  Practical help in hard conditions → off‑duty doctors, surprise snow‑clearing, and rides to urgent care show expertise and equipment quietly save others—counterpoint: some fear modern liability or social drama would block this.
+After a bicycle crash left the author concussed, badly injured, and unable to call for help, an emergency physician happened to stop. He checked breathing, cleaned road rash, called 911 and the author’s wife, alerted the hospital, kept him calm, and stayed until the ambulance departed. The author recalls other strangers who offered rides, urgent-care transport, and money during a long hike. HN answered with similarly durable memories: Christmas hospitality that created a lifelong friendship, quiet compassion during alcoholism, personal financial rescue, spontaneous inclusion, and unrequested snow clearing.
 
-- LLM perspective  
-  View: These stories show kindness is often low‑cost, opportunistic, and quietly transformative, not grand charity.  
-  Impact: They counter online cynicism, reminding readers that community often appears as one caring stranger at the right moment.  
-  Watch next: Tools that nudge “micro‑kindness” (volunteer alerts, mutual‑aid apps) could turn rare stories into more frequent, local norms.
+### Comment pulse
+
+- The most memorable help was proactive: strangers noticed an unmet need and acted before embarrassment, confusion, or incapacity could prevent asking.
+- Small gestures carried lifelong weight when precisely timed, from a silent hand on a shoulder to a bank employee’s personal transfer.
+- Hospitality sometimes changed entire lives; one improvised Christmas invitation led to a friendship whose new guest became best man fifteen years later.
+
+### LLM perspective
+
+- View: Kindness becomes unforgettable when competence, attention, and low-friction action meet someone’s most vulnerable moment.
+- Impact: Recipients preserve faith in others and often model the same readiness to help, extending one intervention beyond its crisis.
+- Watch next: Record these stories, thank helpers when possible, and repay anonymous assistance by noticing the next person stranded nearby.

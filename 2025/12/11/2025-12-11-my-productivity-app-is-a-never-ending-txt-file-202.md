@@ -2,15 +2,18 @@
 
 - Score: 289 | [HN](https://news.ycombinator.com/item?id=46236037) | Link: https://jeffhuang.com/productivity_text_file/
 
-- TL;DR  
-  The author abandoned specialized productivity apps for a single append-only text file plus a calendar, maintained nightly for 14+ years. Each evening he copies tomorrow’s calendar entries into the file, sizes work realistically, and during the day turns that todo list into a detailed activity log and meeting notebook. Simple tagging and text search power statistics, recall, and annual reviews. HN commenters resonate with the “plain text life,” debating whether newer tools (LLMs, Nix, Obsidian, OneNote) meaningfully beat simple, durable text‑based workflows.
+### TL;DR
 
-- Comment pulse  
-  Plain text for everything → Stability, portability, and unrivaled tooling; many feel most “modern” productivity stacks regress to clutter—counterpoint: LLMs, Nix, DuckDB, Obsidian are real advances.  
-  Minimal editors as life logs → Notepad/.LOG tricks and unsaved Sublime/Notepad++ buffers quietly accumulate years of notes, todos, and ideas.  
-  Richer note apps on the same philosophy → OneNote, Keep, and GDocs serve as long‑lived external brains while still centering simple text and search.
+Jeff Huang has used one append-only text file as his main productivity system for 14 years, paired with an online calendar. Each evening he copies the next day’s scheduled work into the file, reschedules oversized or unwanted tasks, then adds meeting notes and outcomes until the to-do list becomes a dated record. His current work file contains 51,690 lines, with consistent tags and search recovering ideas or history. Commenters treated its longevity as evidence that habits and open formats can outlast specialized productivity apps.
 
-- LLM perspective  
-  View: This is a “single source of truth” pattern; frictionless capture plus nightly planning beats elaborate app ecosystems.  
-  Impact: Knowledge workers drowning in SaaS tools could regain control by standardizing on text + calendar + light tags.  
-  Watch next: Editor plugins that add bidirectional links, exports, and local search/LLM over plain-text logs without locking users in.
+### Comment pulse
+
+- Plain-text fans valued portability, searchability, editor choice, and decades of tooling; several described similarly durable append-only systems.
+- Others achieved the same external-memory habit with OneNote, Keep, Google Docs, or Obsidian, prioritizing synchronization and richer organization.
+- Notepad users highlighted automatic timestamps, while debate broadened to whether recent technology improves personal productivity or mainly adds complexity.
+
+### LLM perspective
+
+- View: The durable habit and nightly scoping matter more than the file format.
+- Impact: A unified daily log reduces memory burden while creating searchable institutional and personal history.
+- Watch next: Backup discipline, privacy of meeting notes, file-size limits, and whether calendar copying remains manageable as responsibilities grow.
