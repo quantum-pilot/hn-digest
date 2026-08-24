@@ -2,19 +2,17 @@
 
 - Score: 264 | [HN](https://news.ycombinator.com/item?id=46750852) | Link: https://www.opendemocracy.net/en/zarah-sutlana-palantir-no-place-uk-public-services-ministry-of-defence/
 
-## TL;DR
-Zarah Sultana argues Palantir isn’t a neutral IT supplier but an extension of US military and security power, citing its work with ICE and alleged involvement in Israeli targeting in Gaza. She criticizes both Conservative and Labour governments for embedding Palantir into the NHS, Whitehall and even local children’s services while domestic public services collapse. The piece calls for excluding Palantir and similar “war‑profiteering” tech firms from UK public contracts entirely. HN commenters debate feasibility, hypocrisy and broader dependence on US big tech.
+### TL;DR
 
----
+MP Zarah Sultana argues that Britain should exclude Palantir from public services because its reported roles in US military, intelligence, immigration, and Israeli operations create unacceptable human-rights and sovereignty risks. She criticizes Labour for deepening earlier Conservative ties through a £1.5 billion strategic partnership while Palantir already works across the NHS, Whitehall, and defence. Her local example is Coventry’s £500,000 children’s-services AI contract, now under review after union and community pressure. She calls for cancellation and a blanket end to public contracts.
 
-## Comment pulse
-- Palantir’s culture is disturbing: CEO rhetoric about killing, secretive surveillance work, yet selling cool-kid merch—counterpoint: this critique leans on vibes more than concrete evidence of distinct harms.  
-- Some see all US tech giants (Microsoft, Amazon, Google, Apple) as equivalent or worse; others argue Palantir uniquely enables mass surveillance and can be unplugged without major disruption.  
-- Calls for sovereignty: public services should avoid any big US tech; skeptics note governments actively want these capabilities and will just buy them from consultants or other vendors.
+### Comment pulse
 
----
+- The risk extends beyond one vendor → US cloud giants expose public services to similar jurisdiction and dependency concerns.
+- Government demand explains procurement → Palantir supplies outcomes officials want — counterpoint: alignment does not resolve democratic accountability.
 
-## LLM perspective
-- View: The real issue is democratic control over state surveillance and data use, not just which contractor delivers it.  
-- Impact: Procurement rules, data‑protection enforcement, and vendor lock‑in will determine whether states can meaningfully switch away from firms like Palantir.  
-- Watch next: NHS data contract renewals, EU/UK pushes for “sovereign cloud” and audits of predictive policing and defence analytics deployments.
+### LLM perspective
+
+- View: This is an explicitly political exclusion case, not a comparative evaluation of software performance.
+- Impact: Vendor choices can bind sensitive services to foreign security priorities and contested human-rights practices.
+- Watch next: Coventry’s review, NHS data controls, partnership terms, procurement alternatives, and measurable service outcomes.

@@ -3,22 +3,16 @@
 - Score: 284 | [HN](https://news.ycombinator.com/item?id=46754132) | Link: https://time.com/7357635/more-than-30000-killed-in-iran-say-senior-officials/
 
 ### TL;DR
-Iran’s January 8–9 protests were likely met with an extraordinarily lethal crackdown: two senior Health Ministry officials and clandestine hospital tallies suggest over 30,000 people were killed in 48 hours, far above the regime’s public figure (~3,000) or activist-verified counts so far. TIME stresses it cannot independently verify the numbers, but outside experts say even 30,000 is probably an undercount given nationwide internet blackouts, military hospitals, and hidden burials. HN discussion focuses on digital repression, data reliability, and the geopolitical risks of intervention.
 
----
+Two unnamed Iranian Health Ministry officials told TIME that as many as 30,000 people were killed on January 8 and 9 during a nationwide protest crackdown. A separate hospital-based tally reportedly reached 30,304, while HRANA had confirmed 5,459 deaths and was investigating 17,031 more. The government publicly announced 3,117. Internet and internal communications blackouts severely obstructed counting, and TIME could not independently verify any of the larger estimates. Witnesses described snipers and heavy machine guns firing after demonstrations peaked.
 
 ### Comment pulse
-- Authoritarian shutdowns expose fragile “always-online” design → BGP cuts and jamming neuter VPNs/Starlink, prompting calls for offline-first, mesh tools. — counterpoint: universal offline-first is costly; targeted tools suffice.
 
-- Casualty counts may be huge → secrecy, blackouts, and blocked observers make high numbers plausible. — counterpoint: anonymous sources, US-linked NGOs, and media history (Iraq WMDs) demand strong skepticism.
-
-- Limited activism/media noise → Iran isn’t a US ally, images are scarce, NGOs are constrained, and many fear outrage will be weaponized to justify war.
-
----
+- The blackout increases uncertainty and suspicion → independent observers cannot confirm deaths or disprove accounts while communications remain severed.
+- Extreme estimates demand caution → anonymous sourcing and invasion rhetoric can manufacture consent — counterpoint: hospital tallies separately align.
 
 ### LLM perspective
-- View: Treat both massacre claims and state denials as unproven but highly alarming; prioritize independent access, not binary belief.
 
-- Impact: Protest movements, diaspora advocacy, and platform design all confront a world where states can “turn off” both networks and witnesses.
-
-- Watch next: Satellite and NGO casualty estimates, evidence from leaked hospital/morgue records, and whether major powers push for or block UN investigations.
+- View: The article reports converging but unverified estimates under conditions designed to prevent verification.
+- Impact: Even the confirmed minimum indicates mass killing; inflated claims could also become a pretext for war.
+- Watch next: Named victim lists, hospital records, restored communications, independent access, and methodological reconciliation.

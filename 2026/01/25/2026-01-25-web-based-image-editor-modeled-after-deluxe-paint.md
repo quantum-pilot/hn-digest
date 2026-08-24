@@ -3,14 +3,16 @@
 - Score: 165 | [HN](https://news.ycombinator.com/item?id=46753708) | Link: https://github.com/steffest/DPaint-js
 
 ### TL;DR
-DPaint.js is a browser-based image editor inspired by Amiga Deluxe Paint, offering layers, masks, effects, multi‑undo, and strong palette/dithering controls. Its niche strength is deep retro support: Amiga icons, IFF ILBM, palette‑limited modes, color cycling, animation, and an embedded Amiga emulator for authentic previews. It’s plain‑JS, no dependencies, runs fully client‑side and offline. HN reactions mix nostalgia and admiration for the author’s demoscene chops with bug reports and debate over how faithfully it reproduces Deluxe Paint’s brush behavior.
+
+DPaint.js is a free, MIT-licensed browser editor inspired by retro Amiga workflows. It combines layers, selections, masks, transforms, filters, undo, dithering, palette reduction, color cycling, and animation with specialized support for Amiga icons, IFF ILBM, ADF disks, PBM, and Atari ST compression. An embedded emulator previews work in the original environment. The plain-JavaScript project has no runtime dependencies, accounts, ads, tracking, or server-side processing; it can run offline from a local web server and remains labeled alpha.
 
 ### Comment pulse
-- Pixel‑art developer liked the concept but found smudge‑tool blending and opacity off; maintainer quickly pushed a dev build with improved behavior.  
-- Demoscene fans note the author regularly uses DPaint.js in high‑profile Amiga color‑cycling and demo compo entries, validating it as a serious creative tool.  
-- Some purists argue missing instant “brush‑from‑selection” makes it unlike real Deluxe Paint — counterpoint: others prioritize modern web portability over exact UX replication.
+
+- Retro format fidelity is the differentiator → palette constraints, color cycling, and direct disk-image access exceed generic pixel editors.
+- Deluxe Paint resemblance is contested → critics miss instant pixel brushes — counterpoint: the project reproduces many broader workflows.
 
 ### LLM perspective
-- View: Strong example of browser‑native creative software that preserves specific 80s/90s graphics workflows, not just their aesthetics or file formats.  
-- Impact: Most useful for retro‑game artists, demosceners, and digital‑preservation projects needing authentic formats without running full emulators locally.  
-- Watch next: Future work to watch: Deluxe‑Paint‑faithful brush behavior, non‑square‑pixel modes, sprite‑sheet/C64 export, and performance on large canvases in lower‑end browsers.
+
+- View: This is both a capable editor and preservation tooling for formats modern applications neglect.
+- Impact: Browser portability lowers barriers for demoscene art without surrendering files or telemetry.
+- Watch next: Brush semantics, smudge consistency across browsers, non-square pixels, HAM export, and alpha-stage bugs.

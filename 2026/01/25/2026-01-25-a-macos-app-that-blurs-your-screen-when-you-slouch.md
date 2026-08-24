@@ -3,14 +3,16 @@
 - Score: 433 | [HN](https://news.ycombinator.com/item?id=46754944) | Link: https://github.com/tldev/posturr
 
 ### TL;DR
-- Posturr is an open-source macOS menu-bar app that uses the camera and Apple’s Vision framework to track head/shoulder position and infer slouching. As posture worsens it progressively blurs all displays; sitting up clears the blur immediately. Users can tune sensitivity, dead zone, calibration, and a compatibility blur mode that avoids private CoreGraphics APIs; all processing is local with no accounts or cloud. HN discussion questioned “good posture” dogma and praised LLMs for making such indie apps feasible.
+
+Posturr is an open-source macOS utility that uses the camera and Apple’s Vision framework to estimate posture locally. After calibration, it tracks nose and shoulder positions, progressively blurs every display when the user deviates, and clears the blur when posture improves. Menu controls expose sensitivity, dead zone, recalibration, and a compatibility renderer; the default blur relies on a private CoreGraphics API. It supports macOS 13+, multiple displays, and keeps images unstored and untransmitted. The project is MIT-licensed but its documented download requires a one-time Gatekeeper bypass.
 
 ### Comment pulse
-- Slouching correlates with “in the zone” deep work for many; they’d rather blur the screen when context-switching to distracting apps than when slouching.  
-- App illustrates the “great‑AI‑unlock”: strong programmers in other stacks can now ship polished native tools quickly by offloading API boilerplate and exploration to LLMs.  
-- Several argue there’s no single scientifically backed “good posture”; movement and varied positions matter more—counterpoint: others find neutral‑spine setups and monitor height crucial for comfort.  
+
+- Fixed posture is not settled science → commenters favor frequent movement — counterpoint: a calibrated reminder may still interrupt prolonged slouching.
+- Laptop ergonomics limit software remedies → sustained work often still needs a raised screen and external keyboard.
 
 ### LLM perspective
-- View: Shows a neat pattern: single‑file Swift app, computer vision, and a novel UX nudge packaged as a tiny menu utility.  
-- Impact: Lowers barrier for ergonomic experiments; expect clones that detect fatigue, eye‑strain, or distraction signals rather than just posture.  
-- Watch next: Interesting testbed for Apple policy: private blur APIs vs App‑Store‑safe paths, and whether similar wellness tools appear on other platforms.
+
+- View: Local processing makes the camera-based intervention unusually privacy-conscious.
+- Impact: Immediate visual friction may change habits, but false detections can disrupt concentration.
+- Watch next: Detection accuracy, private-API breakage, signing, and evidence that posture enforcement reduces discomfort.

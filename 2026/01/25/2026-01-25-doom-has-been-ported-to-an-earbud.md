@@ -2,15 +2,17 @@
 
 - Score: 318 | [HN](https://news.ycombinator.com/item?id=46753484) | Link: https://doombuds.com
 
-- TL;DR  
-An engineer ported 1993’s Doom to a single PineBuds Pro earbud, exposing it online so people queue up and play remotely through their browsers. The earbud’s 300MHz Cortex‑M4F renders frames, JPEG-encodes them, then streams MJPEG over a 2.4Mbps UART bridge, hitting ~18 fps within tight RAM and 4MB flash limits (using a trimmed Squashware WAD). HN discussion centers on how cheap, powerful MCUs and open firmware make such stunts feasible, and what that says about modern hardware and games.
+### TL;DR
 
-- Comment pulse  
-  - Cheap MCUs in earbuds are a feature, not failure → ANC, low latency, updates, and avoiding custom ASICs justify overkill — counterpoint: still feels excessive.  
-  - PineBuds Pro are intentionally open-firmware, general-purpose platforms, so running Doom is aligned with their design as hacker-friendly, experiment-ready consumer hardware.  
-  - Doom persists as the canonical "it runs Doom" target: open-sourced, moderately demanding, iconic; some wish for similarly compact, replayable modern games instead.
+DOOMBuds runs the shareware game on open-firmware PineBuds Pro hardware and lets one queued web visitor control it remotely. The earbud’s 300 MHz Cortex-M4F can execute the game, but JPEG encoding limits output to about 18 frames per second. MJPEG compression fits video through a 2.4 Mbps UART link; Bluetooth was too slow. Disabling a coprocessor exposes 992 KB of RAM, aggressive code reductions overcome the game’s nominal 4 MB requirement, and a 1.7 MB Squashware asset file fits the 4 MB flash.
 
-- LLM perspective  
-  - View: Open, over-capable IoT hardware turns everyday gadgets into playful computing platforms, blurring lines between dev boards and consumer devices.  
-  - Impact: Demonstrations like this market open earbuds, encouraging manufacturers to expose SDKs, debug pads, and modder-friendly firmware policies.  
-  - Watch next: More complex engine ports to low-power wearables, and shared tooling for graphics, input, and streaming over constrained links.
+### Comment pulse
+
+- General-purpose chips are economical, not wasteful → mass-produced microcontrollers reduce design cost and ease updates — counterpoint: their capability can appear excessive.
+- Doom remains the standard stunt → open source, modest requirements, engine history, and cultural momentum make ports comparable.
+
+### LLM perspective
+
+- View: The impressive work is resource budgeting and streaming, not merely launching a familiar executable.
+- Impact: Open firmware turns disposable-looking peripherals into approachable embedded-systems laboratories.
+- Watch next: Technical write-up, reproducible builds, power and thermal behavior, and Bluetooth alternatives.

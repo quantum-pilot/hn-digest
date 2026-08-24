@@ -2,15 +2,18 @@
 
 - Score: 149 | [HN](https://news.ycombinator.com/item?id=46755115) | Link: https://www.diljitpr.net/blog-post-postgresql-dlq
 
-## TL;DR
-A Kafka-based reporting pipeline pushed unprocessable events into PostgreSQL instead of a Kafka DLQ topic, turning failures into queryable rows. A simple DLQ table (JSONB payload, error metadata, PENDING/SUCCEEDED status, retry_after, retry_count) plus indexes lets engineers inspect, filter, and selectively replay failures using plain SQL. A periodic retry job uses ShedLock and `FOR UPDATE SKIP LOCKED` to safely distribute work across instances. HN largely agrees this is a pragmatic default for most workloads, with warnings about DLQ overload and lifecycle management.
+### TL;DR
 
-## Comment pulse
-- Postgres queues fit 90% of business apps → good for <100M events/day and <10k workers, with flexible prioritization and easy introspection—counterpoint: not for “extremely high scale.”
-- DLQs can flood during bugs → add circuit breakers, rate limits, and strong monitoring to avoid overloading the DLQ database or silently dropping failures.
-- `SKIP LOCKED` praised for work distribution → but needs LIMIT, good indexing, cleanup/partitioning, and attention to ANALYZE to avoid bad query plans and performance.
+A reporting pipeline kept Kafka for ingestion but stored failed events in PostgreSQL so engineers could query, audit, and selectively replay them with SQL. Each row preserves the JSON payload, error context, status, retry count, eligibility time, and timestamps. A six-hour scheduler processes batches and marks successes, while delayed retries avoid hammering unhealthy dependencies. The design uses ShedLock for one active scheduler and FOR UPDATE SKIP LOCKED for row coordination, making failures visible and durable without adding another operational system.
 
-## LLM perspective
-- View: Treating failures as first-class relational data brings observability, ad-hoc analysis, and targeted replays without bespoke tooling.
-- Impact: Backend and data teams can operate DLQs with standard SQL skills instead of specialized Kafka/queue tooling.
-- Watch next: Benchmarks comparing Postgres DLQs vs Kafka DLQs, plus patterns for automatic DLQ draining, archiving, and schema evolution on JSONB payloads.
+### Comment pulse
+
+- Database-backed queues suit ordinary scale → dynamic priority and ad hoc inspection often matter more than specialized throughput.
+- Failure bursts can overwhelm the safety net → rate limits, circuit breakers, monitoring, cleanup, and bounded selection are essential.
+- Locking choices need simplification → ShedLock serializes scheduling while SKIP LOCKED exists to permit concurrent workers.
+
+### LLM perspective
+
+- View: PostgreSQL is serving as an operational failure ledger, not replacing Kafka’s primary stream.
+- Impact: Queryable state shortens diagnosis and makes targeted recovery routine.
+- Watch next: Retry limits, poison-event handling, retention, table bloat, alerting, and whether concurrency is actually required.
