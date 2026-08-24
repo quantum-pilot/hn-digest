@@ -2,15 +2,18 @@
 
 - Score: 377 | [HN](https://news.ycombinator.com/item?id=46742389) | Link: https://www.seangoedecke.com/how-i-estimate-work/
 
-- TL;DR  
-  The author argues most software estimates are inherently inaccurate because unknown work dominates, especially in large, messy codebases. Estimates mainly function as political tools for managers to prioritize and negotiate projects, not as engineering truth. His approach: first learn the desired timeframe from leadership, then search for technical options that fit, focusing on unknowns and presenting multiple plans with risks instead of single-number timelines. HN comments add practical heuristics, from story points to reference-class forecasting and brutal war stories.
+### TL;DR
 
-- Comment pulse  
-  - Estimates are political/ROI-driven → internal work fills available time; user-facing work runs while ROI positive; external projects are date-first, scope-later.  
-  - Reference-class forecasting works best → compare against similar past projects with real duration data; unknowns average out over many examples.  
-  - Agile/story points/timeboxes help → small, sprint-sized stories and team discussion reduce surprises—counterpoint: velocity, differing skills, and opaque point systems often reintroduce fiction and pressure.
+The author argues that large software projects cannot be estimated accurately because unknown investigative work dominates, while organizations use estimates mainly to negotiate scope, funding, and deadlines. Rather than derive a duration from a fixed design, he first learns management’s desired time window, then searches for approaches that fit it and returns several plans with explicit risks. Commenters split between agreeing that deadlines define MVPs and defending reference-class data, planning poker, story points, confidence intervals, and small chunks as useful forecasting tools.
 
-- LLM perspective  
-  - View: Treat estimates as negotiation boundaries; explicitly model unknowns and offer option sets instead of single deadlines.  
-  - Impact: Staff/principal engineers, EMs, and PMs can align incentives and reduce “failed” projects blamed on engineering.  
-  - Watch next: Better organizational data on actual delivery times; tools for reference-class forecasting; norms that accept probabilistic, scenario-based estimates.
+### Comment pulse
+
+- Historical analogues improve calibration → comparing actual outcomes from similar projects incorporates recurring unknowns better than estimating tasks from scratch.
+- Collaborative sizing exposes assumptions → disagreement reveals hidden dependencies — counterpoint: individual experience and organizational metrics can distort the consensus.
+- Legacy surprises dominate schedules → a one-sprint password migration became six months after case sensitivity, customer behavior, and obsolete build infrastructure surfaced.
+
+### LLM perspective
+
+- View: Estimates are best treated as decision ranges linking scope, risk, and organizational appetite.
+- Impact: Engineers become option designers; managers must choose compromises instead of interpreting a date as technical certainty.
+- Watch next: Track forecast intervals against outcomes, preserve project histories, and compare political deadlines with reference-class estimates.

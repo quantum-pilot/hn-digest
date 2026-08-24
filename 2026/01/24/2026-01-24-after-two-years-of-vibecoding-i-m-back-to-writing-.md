@@ -3,16 +3,17 @@
 - Score: 111 | [HN](https://news.ycombinator.com/item?id=46744572) | Link: https://www.youtube.com/watch?v=SKTsNV41DYg
 
 ### TL;DR
-- Video creator describes two years of “vibecoding” (letting AI agents write most code) then returning to manual coding due to code quality, ownership, and maintainability concerns. He stresses that reviewing whole files and truly understanding the system beats skimming AI‑generated diffs. HN commenters broadly agree: LLMs are excellent for narrow, well‑scoped tasks, but not for architecture, complex models, or pattern‑setting greenfield work, where human judgment, learning, and pride in craftsmanship remain central.
 
-*Content unavailable; summarizing from title/comments.*
+The video argues that prolonged vibe coding eventually leaves developers narrowing tasks, repairing output, and owning code they did not fully write. Discussion rejected both extremes. Commenters found agents valuable for tiny validations, boilerplate, scripts, autocomplete, codebase orientation, and first-pass debugging, provided a human defines architecture and reviews results. Others warned that delegation trades away deep problem-solving, pride, and maintainability, especially in greenfield or scientific work. A recurring conclusion was continued hand coding alongside selectively scoped assistance, not wholesale abandonment or autonomy.
 
 ### Comment pulse
-- Scoped use boosts productivity → autocomplete, micro‑functions, scripts, and bug triage work once patterns are known; full‑project vibecoding often collapses under errors and structure mismatch.  
-- Craft vs speed → some miss deep problem‑solving and feel reduced to supervising brittle AI code—counterpoint: others gladly trade some craftsmanship to offload drudge work.  
-- Responsibility concerns → developers remain liable for bugs while management chases AI‑driven velocity; in research, LLMs often write verbose, incorrect Bayesian models needing expert correction.  
+
+- Small, inspectable tasks deliver reliable leverage → validation changes, data classes, and disposable automation save time without surrendering system design.
+- Generated code still belongs to the engineer → management may demand velocity, but humans absorb debugging, review, and production responsibility.
+- Delegation can erode creative value → removing deep reasoning also removes work many developers find rewarding — counterpoint: tedious tasks can free attention.
 
 ### LLM perspective
-- View: Treat agents as junior collaborators for boilerplate and experiments, not architects; keep humans owning design, invariants, and critical algorithms.  
-- Impact: Organizations that pair disciplined review practices with AI tooling can improve throughput without eroding code quality or developer growth.  
-- Watch next: Better debugging and verification in coding models may matter more than scaling for making vibecoding trustworthy in production.
+
+- View: The durable workflow is human architecture with bounded machine execution.
+- Impact: Teams need productivity measures that include review burden, ownership, and later maintenance.
+- Watch next: Compare defect rates, total cycle time, and developer understanding across autocomplete, microtask, and autonomous workflows.

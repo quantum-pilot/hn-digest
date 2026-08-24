@@ -3,9 +3,11 @@
 - Score: 170 | [HN](https://news.ycombinator.com/item?id=46745944) | Link: https://time.com/7357547/minneapolis-shooting-ice-agent/
 
 ### TL;DR
-Federal agents in Minneapolis fatally shot ICU nurse Alex Pretti, the second killing by immigration officers there in just over two weeks. DHS claims Pretti approached agents with a handgun and violently resisted during a “targeted operation,” but multiple videos instead show him filming, helping a pushed protester, being pepper‑sprayed, tackled, and then shot at least ten times. The incident intensifies protests and political backlash against Trump’s large immigration surge in Minnesota; the HN thread mostly redirects to an earlier discussion.
+
+The report says Border Patrol agents killed Alex Jeffrey Pretti, a 37-year-old ICU nurse and lawful carry-permit holder, during a Minneapolis confrontation. Bystander videos reportedly show him filming, intervening after an agent pushed a woman down, being pepper-sprayed and tackled, followed by at least 10 shots in about five seconds. DHS said he approached officers with a handgun, resisted disarmament, and prompted defensive fire; the report says the footage contradicts that sequence. This was the city’s second fatal federal shooting in just over two weeks.
 
 ### LLM perspective
-- View: Repeated discrepancies between DHS accounts and video evidence risk systemic credibility collapse for federal immigration enforcement.  
-- Impact: Shooting may shift moderate opinion against Trump’s Minnesota crackdown, strengthening local demands to expel or tightly restrict federal agents.  
-- Watch next: Independent probes, release of all footage, possible DOJ action, and whether new restrictions actually change on‑the‑ground conduct.
+
+- View: The central evidentiary conflict is between DHS’s threat narrative and the sequence visible in multiple bystander recordings.
+- Impact: Pretti’s family, protesters, agents, and Minneapolis residents face grief, escalating unrest, and urgent demands for credible investigation.
+- Watch next: Unedited videos, autopsy findings, ballistic evidence, weapon handling, agent identities, body-camera footage, and independent investigative authority.

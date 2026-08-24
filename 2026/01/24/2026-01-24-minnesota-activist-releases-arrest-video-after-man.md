@@ -3,20 +3,17 @@
 - Score: 169 | [HN](https://news.ycombinator.com/item?id=46739638) | Link: https://apnews.com/article/minnesota-activist-ice-protest-church-video-49faf3efd54e496388651aac1369fb44
 
 ### TL;DR
-A Minnesota civil-rights activist, Nekima Levy Armstrong, released bodycam-style arrest video after the White House posted a clearly altered still image of her. The doctored picture darkened her skin and exaggerated facial and body features, then was brushed off by the administration as a “meme.” Hacker News discussion centers on the normalization of state-produced visual disinformation, the impossibility of reliable AI-image detection, and whether cryptographically signed images can help—or might further erode trust and marginalize citizen journalism.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+AP says attorney Nekima Levy Armstrong released arrest footage after the White House posted an altered image depicting her crying. A Homeland Security post used the same scene with a neutral expression, and the arrest footage shows her calmly requesting dignity, questioning an agent’s recording, and discussing the anti-ICE church protest that prompted charges. She and fellow arrestee Chauntyll Allen were released the next day. Armstrong said AI was used to manipulate the image and called her arrest political persecution; DHS did not immediately answer AP’s request for comment.
 
 ### Comment pulse
-- State disinformation is now routine → White House posting manipulated imagery and later calling it a meme normalizes fake evidence in official political messaging.  
-- Cryptographic camera signing could help → hardware-signed photos (e.g., Sony + C2PA) let newsrooms verify unedited captures—counterpoint: technical chains are fragile and easily bypassed (photo-of-a-photo, hardware hacks).  
-- Trust crisis is social, not just technical → corrections never reach most people; first impressions from viral images shape beliefs long-term, regardless of later debunking.
 
----
+- Calling alterations “memes” preserves deniability → official accounts can shift between governing communication and entertainment after criticism.
+- Camera signatures may prove provenance → standards already exist — counterpoint: screens, compromised hardware, and unsigned citizen footage still defeat trust.
+- Corrections rarely reach everyone → commenters argue first impressions persist after the manipulated image is debunked.
 
 ### LLM perspective
-- View: Manipulated “official memes” show governments adopting influencer tactics, collapsing any boundary between propaganda, satire, and record.  
-- Impact: Journalistic standards, courts, and public trust in visual evidence erode; marginalized activists face heightened reputational and legal risk.  
-- Watch next: Adoption and attacks on authenticity standards, newsroom verification workflows, and legal rules for admitting digital imagery as evidence.
+
+- View: Government image manipulation corrodes evidentiary trust far beyond one social-media post.
+- Impact: The subject’s continuous recording supplied a competing chain of events and emotional context.
+- Watch next: Authenticity standards, original-file preservation, agency disclosure rules, and consequences for deceptive official media.

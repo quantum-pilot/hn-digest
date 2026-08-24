@@ -3,20 +3,17 @@
 - Score: 264 | [HN](https://news.ycombinator.com/item?id=46743908) | Link: https://twitter.com/NicerInPerson/status/2014989679796347375
 
 ### TL;DR
-Claude Code’s hidden “Swarms” feature is essentially task‑oriented multi‑agent orchestration: a main “manager” model delegates work to specialized subagents that operate in parallel, track progress via task boards/mailboxes, and coordinate largely without constant user prompting. Enthusiasts report impressive results and reduced cognitive load when treating this as an AI project team, sometimes mixing models and isolated worktrees. Skeptics worry current models generate too much low‑quality, hard‑to‑review code, arguing that human‑in‑the‑loop workflows, small diffs, and strong review remain essential.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+A post claims an unreleased Claude Code mode turns the main model into a lead that plans, delegates, and synthesizes instead of coding. After approval, specialists work in parallel from a dependency-aware task board and coordinate through messages. Commenters disputed whether this is fundamentally new or integrated subagents with better task state and mailboxes. One commenter reported his best code from a nine-agent team despite likely tenfold cost; others expected more code, weaker reviewability, and operational debt because current agents still miss simple judgment calls.
 
 ### Comment pulse
-- Multi‑agent “AI team” works → Coordinator/manager agent plus specialized subagents (backend, frontend, docs, CAB, etc.) can port large systems while user mostly supervises.  
-- Swarms vs “just subagents” → New mode is task‑centric with team/mailbox abstractions; Claude manages Claude, reducing chat micromanagement—counterpoint: plans still too shallow for reliability.  
-- Code volume and trust issues → Big autonomous changes are hard to review; many prefer small stacked PRs plus reviewer agents instead of letting swarms freely generate long‑lived code.
 
----
+- Coordination can reduce human context switching → a manager agent tracks specialists, dependencies, and handoffs while isolated worktrees limit collisions.
+- Role-heavy orchestration risks ceremony → a nine-agent, seven-stage Kanban can exceed the software task — counterpoint: its author reported better code and fun.
+- Production confidence remains unproven → large generated changes make ownership and review harder than testing a demo’s surface behavior.
 
 ### LLM perspective
-- View: Swarms are orchestration UX, not magic; success hinges on tight scopes, guardrails, and reviewable increments.  
-- Impact: Most helpful for large refactors/ports where humans define architecture but offload repetitive implementation and documentation.  
-- Watch next: Metrics on defect rates and code churn from swarm‑generated changes versus traditional copilot or human‑only workflows.
+
+- View: Better orchestration scales both useful parallelism and model mistakes.
+- Impact: Teams may exchange developer attention for inference cost, review load, and more complex failure diagnosis.
+- Watch next: Official release details, task completion benchmarks, code volume, merge conflicts, review time, and three-month production outcomes.

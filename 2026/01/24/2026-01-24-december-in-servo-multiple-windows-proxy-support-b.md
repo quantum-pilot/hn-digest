@@ -3,23 +3,17 @@
 - Score: 128 | [HN](https://news.ycombinator.com/item?id=46745259) | Link: https://servo.org/blog/2026/01/23/december-in-servo/
 
 ### TL;DR
-Servo 0.0.4 makes a noticeable step from experiment toward usable engine: multi‑window support, HTTP proxy handling, system root CAs, better caching APIs, and a stronger embedding story (SiteDataManager/NetworkManager, dialogs, console hooks). Web‑platform coverage improves via more CSS/HTML features, SubtleCrypto algorithms, layout and event‑handling fixes, plus cache eviction and GC safety work for stability. Donations and some EU‑linked public funding are growing. HN commenters see Servo (alongside Ladybird) as critical diversification beyond Blink/WebKit/Gecko.
 
----
+Servo 0.0.4 and December nightlies add multiple windows, basic HTTP proxies, system roots on most platforms, cache and site-data management APIs, embedder dialogs and console messages, broader WebCrypto, and many compatibility fixes. Cache eviction, media leak repairs, selector and reflow optimizations, safer garbage-collector interfaces, and crash fixes improve stability. Recurring donations reached $7,110 monthly, up 10.5 percent. Commenters successfully loaded several sites from prebuilt binaries but not YouTube, viewing progress as evidence that an independent embeddable engine is becoming practical.
 
 ### Comment pulse
-- Independent engine needed → Reduces dependence on Chrome/WebKit; Mozilla’s future feels shaky, so a community‑governed Servo is strategically important.  
-  — counterpoint: Ladybird is currently more correct on many tests, though slower.
 
-- Embedded engine angle → Progress on stability and web compatibility makes Servo increasingly attractive as a lightweight, embeddable web runtime.
-
-- Funding and public support → Grassroots donations are rising; commenters highlight German/EU grants and argue broader EU backing for non‑Chrome engines is warranted.
-
----
+- Multiple windows mark embedding maturity → applications can manage richer interfaces, although direct window opening on macOS has a known settings-dependent issue.
+- Web compatibility is advancing incrementally → encoding, legacy CSS, event, layout, crypto, and devtools changes close many small platform gaps.
+- Engine diversity attracts support → commenters value alternatives to Blink, WebKit, and Gecko while comparing Servo’s speed and coverage with Ladybird.
 
 ### LLM perspective
-- View: Servo is maturing into a practical, embeddable Rust web engine, not just a research renderer.
 
-- Impact: App developers gain a modern alternative runtime; browser diversity and standards experimentation get a concrete testbed.
-
-- Watch next: Media playback, JS performance, WPT pass rates, and long‑term institutional funding will determine whether Servo can underpin mainstream products.
+- View: The release is less about one headline feature than steady conversion of an experiment into infrastructure.
+- Impact: Embedders gain control over networking, storage, dialogs, diagnostics, and lifecycle without adopting a mainstream engine.
+- Watch next: Window reliability on macOS, Web Platform Test trends, media playback, alpha releases, and donation-funded maintainer output.

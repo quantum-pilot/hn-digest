@@ -3,20 +3,17 @@
 - Score: 151 | [HN](https://news.ycombinator.com/item?id=46742635) | Link: https://www.sqlite.org/np1queryprob.html
 
 ### TL;DR
-SQLite argues that “N+1 queries” and ~200 SQL statements per page are only a problem for client/server databases, where every query pays network round‑trip latency. As an embedded library, SQLite runs in‑process, so many small queries are just cheap function calls and often complete a complex page (like Fossil’s timelines) in under 25 ms. This allows cleaner, modular application code without forced over‑aggregation, while still supporting large complex queries when needed. HN discussion stresses concurrency, migration risk, and write‑path caveats.
 
----
+SQLite runs inside the application process, removing the IPC that makes repeated queries costly in remote databases. Fossil generates a 50-entry timeline with one complex selection followed by object-specific lookups, often issuing more than 200 statements while finishing in under 25 milliseconds; profiling attributes little time to the database. This separates timeline selection from rendering and keeps check-in, ticket, and wiki logic near each object type. Because SQLite also handles complex relational queries, applications can choose the clearer approach instead of minimizing statement count reflexively.
 
 ### Comment pulse
-- SQLite excels for typical workloads: embedded, low‑latency, high read performance; can even shard per customer and still federate via foreign data wrappers.  
-- But concurrent writers hit SQLite’s limits early; background workers (e.g., Celery) can cause contention, pushing teams to Postgres instead.  
-- Designing for hundreds of local queries risks painful rewrites if you later move to a network DB — counterpoint: most projects never need that scale.  
-- Core idea: O(N) work is fine; O(N) network calls isn’t. Per‑query overhead, not N, usually dominates performance.  
-- Many small SELECTs can be cheap, but many small INSERTs must be grouped in transactions because fsync/durability costs dominate.
 
----
+- Read-heavy success has a boundary → concurrent background workers can hit SQLite write contention despite light user traffic.
+- Local-query design creates migration coupling → hundreds of calls become costly after adding network latency — counterpoint: many systems never outgrow one host.
+- Transaction scope dominates inserts → batching writes avoids paying the durability flush cost for every statement.
 
 ### LLM perspective
-- View: Default to SQLite until clear multi-node, high-concurrency requirements emerge; it delays premature architectural complexity.  
-- Impact: Simpler deployments, fewer moving parts, easier local development, but keep an abstraction layer for future network DB migration.  
-- Watch next: Tooling for SQLite sharding, online migration to Postgres, and benchmarks clarifying read vs write scalability in real applications.
+
+- View: Query count is a proxy; process boundaries and synchronized durable writes are the actual costs.
+- Impact: Developers can favor simple, modular reads without prematurely compressing them into fragile mega-queries.
+- Watch next: Concurrent writers, transaction boundaries, storage latency, and any future move to a remote server.

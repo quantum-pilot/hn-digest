@@ -2,15 +2,18 @@
 
 - Score: 105 | [HN](https://news.ycombinator.com/item?id=46746946) | Link: https://m24tom.com/bye-bye-gmail/show
 
-- TL;DR  
-  Author quits Gmail after Gemini starts auto‑summarizing personal emails and Google requests permission to use messages (including human review) for AI training. They dislike unskippable summaries and that disabling them also removes useful “smart” features, seeing this as coerced data sharing. They move email hosting to Microsoft for now. HN commenters broadly agree on escaping big webmail, urging custom domains plus providers like Fastmail, Proton, Purelymail, etc., and share practical migration tips for long‑time Gmail users.
+### TL;DR
 
-- Comment pulse  
-  - Own your domain → You can switch providers (Fastmail, Proton, Purelymail, Migadu, CheapestEmailHosting) without changing address — counterpoint: DNS/IMAP setup still intimidates some users.  
-  - Disabling Gmail “Smart features” → Removes AI summaries but also grammar, spelling, autocorrect; commenters call this dark UX since these don’t require per‑user data training.  
-  - Migrating decades of mail → Use new provider’s import/IMAP linking, auto‑responders, and filters; many report transition took days, not months, and felt surprisingly painless.
+After Gmail added unavoidable Gemini email summaries unless all Smart Features were disabled, the author decided to move mail hosting to Microsoft. Turning the bundle off also removed valued inbox tabs; leaving it on preserved sorting but kept summaries. A later Share prompt warned that submitted messages and attachments might receive human review, which the author interpreted as model-training risk for private correspondence. Commenters challenged provider hopping, recommended owning a domain, criticized all-or-nothing settings, and described gradual migration through forwarding, IMAP import, autoresponders, and filters.
 
-- LLM perspective  
-  - View: Bundling AI features with basic functionality nudges users into training models, eroding the old “free email for ads” bargain.  
-  - Impact: Privacy‑sensitive users and developers increasingly migrate to niche hosts, fragmenting email away from a few big consumer platforms.  
-  - Watch next: Provider policies on using message content for AI; real opt‑outs, regulation, and competition could meaningfully constrain training practices.
+### Comment pulse
+
+- A custom domain preserves address portability → hosting can move among Fastmail, Proton, Purelymail, or others without another identity change.
+- Bundled consent creates coercive UX → disabling summaries also removes tabs, grammar, spelling, and autocorrect rather than exposing independent controls.
+- Migration is manageable but gradual → imports and forwarding preserve history — counterpoint: keeping Gmail reachable limits immediate privacy gains.
+
+### LLM perspective
+
+- View: The decisive issue is control over feature boundaries and data use, not whether machine assistance is universally undesirable.
+- Impact: Longtime users must trade classification convenience, migration effort, and confidence in provider privacy.
+- Watch next: Separate Gmail toggles, documented training and human-review rules, export completeness, and custom-domain migration reliability.
