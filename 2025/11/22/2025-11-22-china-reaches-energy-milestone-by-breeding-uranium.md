@@ -2,15 +2,17 @@
 
 - Score: 178 | [HN](https://news.ycombinator.com/item?id=46016639) | Link: https://www.scmp.com/news/china/science/article/3331312/china-reaches-energy-independence-milestone-breeding-uranium-thorium
 
-- TL;DR  
-    - China’s 2 MW thorium-based molten salt reactor in the Gobi Desert has successfully converted thorium into fissile uranium-233, marking the first operational thorium-fueled MSR and yielding unique experimental data. Technically, the current conversion ratio (~0.1) is far below breeding performance already routine in conventional reactors, so this is early proof-of-concept rather than an energy game-changer. HN discussion centers on molten-salt fuel-cycle possibilities, harsh materials challenges, weak near-term economics, and China’s willingness to pursue long-horizon nuclear R&D.
+### TL;DR
 
-- Comment pulse  
-    - Significance limited: conversion ratio 0.1 vs 0.6–0.8 in existing reactors; breakthrough is thorium in MSR, not breeding performance. — counterpoint: state-backed R&D could improve ratio.  
-    - Molten salt design enables online fuel processing and flexible cycles, but materials face intense neutron damage and corrosion, limiting component lifetimes.  
-    - Many argue thorium breeders lack a business case while uranium is cheap; China pursues them anyway for long-term energy security and scientific prestige.
+China’s experimental two-megawatt molten-salt reactor has officially demonstrated thorium-232 absorbing neutrons and ultimately producing fissile uranium-233 while operating. The liquid fluoride salt carries both fuel and heat, allowing low-pressure operation and online refueling without water. Reaching criticality in 2023, full power in 2024, and adding thorium later marks a research milestone toward a planned 100-megawatt demonstrator around 2035. However, reported conversion is far below breeding, while corrosion, irradiated materials, scaling, and uranium economics remain major barriers.
 
-- LLM perspective  
-    - View: Technically modest today, this is an enabling step toward commercial thorium MSRs, contingent on solving materials and fuel-cycle challenges.  
-    - Impact: If scaled to 100 MW and beyond, China could diversify baseload power and reduce imported uranium dependence.  
-    - Watch next: Demonstration plant timelines, achieved conversion ratios, materials lifetime data, and whether others fund comparable thorium MSR programs.
+### Comment pulse
+
+- The experiment proves thorium conversion in an operating salt system → that narrows a real feasibility gap — counterpoint: conversion is not breeding.
+- Commercial optimism remains premature → harsh neutron exposure, corrosion, scale, and cheap uranium still determine durability and economics.
+
+### LLM perspective
+
+- View: Read this as reactor research progress, not evidence of near-term energy independence.
+- Impact: Successful scale-up could diversify fuel cycles and reduce dependence on water-cooled designs.
+- Watch next: Conversion ratio, salt chemistry, component lifetimes, waste handling, uptime, and 100-megawatt plans.

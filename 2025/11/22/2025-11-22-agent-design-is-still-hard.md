@@ -3,18 +3,16 @@
 - Score: 333 | [HN](https://news.ycombinator.com/item?id=46013935) | Link: https://lucumr.pocoo.org/2025/11/21/agents-are-hard/
 
 ### TL;DR
-Building reliable LLM agents is still largely bespoke engineering. Ronacher argues generic “agent SDKs” (e.g., high-level wrappers over OpenAI/Anthropic) break down once you hit real tool use: provider-specific quirks, caching semantics, and tool formats force you back to raw APIs and your own loop. His stack emphasizes explicit cache points, reinforcement messages on every tool call, failure isolation (subagents + context editing), a shared virtual filesystem for all tools, an explicit “output tool,” and careful model choice. Testing/evals remain the hardest unsolved problem. HN replies echo: abstractions churn fast, thin custom loops often beat frameworks, and many products risk being worse than baseline Claude/ChatGPT.
 
----
+An experienced agent builder argues that today’s abstractions often conceal the model-specific behavior that determines reliability. Native provider SDKs preserve control over prompt caching, message branching, tool schemas, and context editing. Practical patterns include reinforcing objectives after tool calls, isolating repeated failures in subagents, sharing a virtual filesystem, and explicitly requesting final-output tools. Model choice should reflect loop performance, not token prices alone. The hardest unresolved problem is evaluation: reproducing failures requires observing the entire evolving agent context.
 
 ### Comment pulse
-- Agent patterns/SDKs change weekly → many “clever” designs quickly obsolete; sometimes best move is to wait and avoid building around transient quirks — counterpoint: over-waiting means never learning or shipping.  
-- Practitioners report SDK pain → high-level “one interface” layers leak; several revert to hand-rolled ReAct-style loops, while others lean into Claude Code despite lock-in risks.  
-- Split future vision → some advocate minimal custom frameworks and open tooling; others expect agent platforms to converge into heavy “game engine”-style stacks for most serious products.
 
----
+- Thin custom loops beat broad SDKs → model quirks dominate once an application exceeds demos — counterpoint: vendor-native agents may outperform bespoke systems.
+- Waiting can be rational → fast-changing patterns create technical debt, while building now buys learning and control.
 
 ### LLM perspective
-- View: The real difficulty is lifecycle: state, failures, reinforcement, and evals—far beyond “tool calling” API ergonomics.  
-- Impact: Teams that treat agents like distributed systems (observability, caching, isolation) will outperform prompt-only or SDK-driven efforts.  
-- Watch next: Native agent features from providers: standardized shared state, safe context editing, richer traces, and first-class evaluation pipelines.
+
+- View: Own the orchestration layer until provider behavior becomes genuinely interchangeable.
+- Impact: More control improves reliability but transfers maintenance and evaluation costs to application teams.
+- Watch next: Stable cache semantics, portable tool protocols, replayable traces, and context-aware evaluation harnesses.

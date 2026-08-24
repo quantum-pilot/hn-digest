@@ -2,19 +2,18 @@
 
 - Score: 386 | [HN](https://news.ycombinator.com/item?id=46016249) | Link: https://kevinboone.me/fingerprinting.html
 
-## TL;DR
-Browser fingerprinting lets sites track you without cookies by combining many small signals—browser version, OS, fonts, canvas rendering, window size, language headers, VPN use—into a highly distinctive profile. Countermeasures are paradoxical: disabling JavaScript or heavily customizing your setup makes you *more* unique; aggressive spoofing can break sites and itself becomes detectable. Practical advice: burn cookies, use a VPN with rotation, stay close to a “boring” mainstream setup, or use hardened browsers like Mullvad/Librewolf—yet tracking risk still remains high. Legal clarity is absent; meaningful limits likely need new regulation.
+### TL;DR
 
----
+Browser fingerprinting correlates attributes such as platform, language, time zone, fonts, extensions, hardware, canvas rendering, and window size without relying on cookies. VPNs and spoofing help only partially: unusual settings can make a browser more distinctive, while aggressive defenses break sites or trigger challenges. The author recommends rotating endpoints, deleting persistent cookies, minimizing customization, and using built-in resistance, while acknowledging tracking remains statistical and short-lived. Commenters distinguished concealment from anonymity and warned that isolated hardening can itself identify one user unless many people share the same configuration.
 
-## Comment pulse
-- Chrome leaks language preferences via Accept-Language, turning “never translate” clicks into a powerful fingerprinting vector; critics see this as fundamentally privacy-hostile design.  
-- Hardening (Arkenfox, JS blocking, DNS/third‑party blocking) reduces data but also makes you stand out—counterpoint: it still helps when combined with Tor or non‑routine browsing.  
-- Tracking ≠ identification: rotating VPN IPs plus rotating request headers can hinder cross-site tracking; Tor Browser best masks identity, not all behavioral linkage.
+### Comment pulse
 
----
+- Customization can backfire → rare language headers, extensions, or privacy settings make one browser easier to separate from others.
+- Trackability differs from hidden attributes → masking time zone does little when IP and request patterns still correlate sessions.
+- Anonymity sets matter → Tor standardizes many users together. — counterpoint: unique hardening on a household IP may isolate one person.
 
-## LLM perspective
-- View: Fingerprinting is now the de facto replacement for third‑party cookies, and is structurally hard to defeat at the individual level.  
-- Impact: Ordinary users can’t practically avoid profiling; adtech, fraud detection, and security teams are locked into an arms race with privacy tools.  
-- Watch next: Browser-level standards, Web API reductions, and explicit fingerprinting rules in GDPR/US law will determine how far this practice can go.
+### LLM perspective
+
+- View: Effective resistance means blending into a crowd, not maximizing the number of individually unusual privacy tweaks.
+- Impact: Invisible cross-site correlation can restore tracking after cookie restrictions while imposing usability costs on defensive users.
+- Watch next: Browser-native standardization, fingerprinting litigation, first-party scripts, privacy-budget proposals, and measurement of real-world tracking persistence.

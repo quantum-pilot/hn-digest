@@ -2,18 +2,17 @@
 
 - Score: 156 | [HN](https://news.ycombinator.com/item?id=46011978) | Link: https://scienceclock.com/moss-survives-9-months-in-space-vacuum/
 
-## TL;DR
+### TL;DR
 
-Moss spores mounted outside the ISS endured nine months of hard vacuum, solar radiation, and temperature swings, with over 80% germinating normally back on Earth. Their pigments stayed largely intact, confirming bryophyte spores as genuine space-hardy life, alongside tardigrades and some microbes. Researchers see applications in testing early ecosystems on the Moon or Mars, while HN commenters debate better primary sources, the feasibility and ethics of seeding other worlds, and how panspermia might already spread life via meteorites.
+Researchers mounted spore capsules from the model moss Physcomitrium patens outside the International Space Station for nine months, exposing them to vacuum, solar radiation, and orbital temperature swings. After return, more than 80 percent of spores germinated, most pigments remained stable, and follow-up growth appeared normal. The result highlights durable protective traits that may date to early land-plant evolution. It does not show that mature moss can live off Earth: growth and reproduction still require suitable water, nutrients, light, and habitat.
 
-## Comment pulse
+### Comment pulse
 
-- Better sources than clickbait blog → Guardian coverage and the iScience paper give full methodology; blog’s DOI link is broken.  
-- Moss as terraforming tool → hardy spores could seed Moon/Mars test sites—counterpoint: true colonization still constrained by liquid water, light, and planetary-protection rules.  
-- Panspermia and ethics → meteorite exchange may already transport life; some advocate deliberately “shooting” life outward, others worry about contaminating potentially habitable oceans.  
+- The germination result supports testing moss in closed extraterrestrial ecosystems → spores survived combined orbital stresses unexpectedly well.
+- Panspermia claims run ahead of the evidence → surviving transit differs from establishing a population — counterpoint: impact-ejected rocks can move material between worlds.
 
-## LLM perspective
+### LLM perspective
 
-- View: Demonstrates multicellular plant propagules can survive true space, tightening constraints on where life might persist or travel.  
-- Impact: Encourages extremophile and plant biology experiments on external platforms, informing bioregenerative life-support and surface biology for future habitats.  
-- Watch next: longer exposures, mixed microbial–plant communities, partial-gravity trials, and updated contamination policies for icy moons and Mars sample-return.
+- View: This demonstrates spore resilience, not self-sustaining vegetation in space.
+- Impact: Hardy spores could support controlled life-support or regolith experiments beyond Earth.
+- Watch next: Longer exposures, radiation dose, genomic damage, reproduction, water needs, and lunar or Martian trials.

@@ -3,18 +3,16 @@
 - Score: 291 | [HN](https://news.ycombinator.com/item?id=46015763) | Link: https://www.wsj.com/us-news/in-a-u-s-first-new-mexico-opens-doors-to-free-child-care-for-all-2dfdea96
 
 ### TL;DR
-New Mexico has become the first U.S. state to guarantee free child care for all families, from six weeks of age, regardless of income. Funded largely by a permanent fund seeded with oil-and-gas revenues, the program is projected to save families around $16,000 a year on average. Hacker News discussion centers on historical precedents, mixed evidence on universal childcare’s impact on children, whether such programs should stay at the state level, and if money would be better spent directly supporting parents or rebuilding community care.
 
----
+New Mexico is offering state-funded childcare from six weeks old to families at any income, provided parents work or study. Financing comes largely from investment returns on oil and gas revenue, and officials expect participation to double from roughly 32,000 children by fiscal 2028. The promise could save families about $16,000 annually and strengthen workforce participation, but delivery is the constraint: infant slots are scarce, thousands of workers and many new providers are needed, and reimbursement rules may not fit every operator.
 
 ### Comment pulse
-- Universal childcare can boost workforce participation but risks low-quality, scaled care → commenters cite Quebec research showing increased anxiety and behavioral issues—counterpoint: for poor kids, stable care may outweigh these risks.  
-- State-level policy is praised as federalism in action → easier experimentation and “voting with your feet,” though critics say moving states is a privilege and some successes should scale nationally.  
-- Some argue root cause is two-income necessity and weak community ties → prefer paying parents or improving tax policy; others in New Mexico see early education as crucial against generational poverty.
 
----
+- Universal access aids early stability → reliable care supports employment and children in a high-poverty state — counterpoint: affluent families may crowd out others.
+- Capacity worries are immediate → directors say rates, wage conditions, and scarce infant places may prevent the guarantee from matching demand.
 
 ### LLM perspective
-- View: Program success hinges on maintaining caregiver quality and stability, not just expanding seats and lowering family bills.  
-- Impact: Could raise labor-force participation, especially for mothers, and reshape early-childhood markets in neighboring states if families migrate.  
-- Watch next: Longitudinal child-outcome studies, fund performance vs oil-price swings, and whether other resource-rich states copy New Mexico’s model.
+
+- View: The entitlement succeeds only if provider capacity grows alongside enrollment.
+- Impact: Affordable care could raise family income and labor participation while improving early-childhood stability.
+- Watch next: Infant slots, workforce recruitment, provider participation, reimbursement adequacy, and low-income access.

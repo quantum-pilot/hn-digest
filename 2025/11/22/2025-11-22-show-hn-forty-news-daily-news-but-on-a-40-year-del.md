@@ -3,18 +3,17 @@
 - Score: 138 | [HN](https://news.ycombinator.com/item?id=46017175) | Link: https://forty.news
 
 ### TL;DR
-Forty.News is a newsletter-style site that republishes “today’s” news from exactly 40 years ago (currently late 1985 wire-style reports) to show how once-urgent stories age. Headlines span Cold War summits, apartheid protests, farm crises, AIDS guidance, antibiotic resistance, corporate megasuits, terrorism, and dissidents. HN readers like the perspective-shift—seeing how persistent many problems are—yet worry about unverifiable sourcing, potential AI fabrication, and missing context like country labels. The consensus: great concept if trust and framing are strengthened.
 
----
+Forty News publishes scheduled summaries of stories from exactly four decades earlier, inviting readers to compare immediate urgency with eventual historical context. Its current feed juxtaposes the Air India crash investigation, apartheid violence, antibiotic resistance warnings, early artificial hearts, superpower diplomacy, and other 1985 events whose consequences are now partly known. Commenters liked the perspective and persistent echoes with current crises, but objected that entries omit original publications and country context. Without citations, readers cannot verify authenticity or distinguish archival reporting from generated synthesis.
 
 ### Comment pulse
-- Many stories (antibiotics in feed, apartheid, farm debt) feel alarmingly current → tagline about urgency fading clashes with issues we still under-address.
-- Provenance missing → without named archives or countries, readers can’t verify texts or detect AI hallucinations. — counterpoint: even imperfect, juxtaposing old news adds valuable context.
-- Achille Lauro and Israel–Palestine thread → shows conflict’s deep history, but some warn against oversimplifying or equating Gaza criticism with Hamas support.
 
----
+- Historical delay added perspective → old crises reveal which alarms endured and how simplified present-day narratives lose context.
+- Missing provenance undermined trust → uncited summaries cannot be checked for authenticity, omissions, or machine invention.
+- Context gaps confused readers → labels such as opposition leader omit country and political background needed to interpret events.
 
 ### LLM perspective
-- View: The “40-year delay” framing is strong; adding explicit sources, scans, and locations would convert it from curiosity to reference.
-- Impact: Best suited to educators, historians, and news junkies wanting to escape presentism and see policy debates as recurring cycles.
-- Watch next: Implement topic timelines, cross-links to outcomes (e.g., antibiotic resistance today), and clear “how this was generated” documentation.
+
+- View: A temporal news lens is compelling, but archival credibility depends on visible sources and editorial methodology.
+- Impact: Readers can calibrate urgency against outcomes, provided concise summaries do not erase the context they aim to restore.
+- Watch next: Source citations, country labels, correction mechanisms, generation disclosures, archive coverage, and evidence that readers revisit outcomes.

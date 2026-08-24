@@ -2,15 +2,18 @@
 
 - Score: 102 | [HN](https://news.ycombinator.com/item?id=46017910) | Link: https://taggart-tech.com/mozilla-cycle-pt3/
 
-- TL;DR  
-    Mozilla’s new strategy pivots from “Firefox-first” to “AI-first”: AI Window, flagship AI in every org, and revenue diversification away from shrinking search royalties. The author argues generative AI hasn’t proven transformative, that “open source AI” is incoherent while training data are proprietary or unethical, and that Mozilla will still ride Big Tech models. The plan’s financial and growth targets are seen as desperate existential bets. Expect more default-on AI in Firefox, deepening the rift with its privacy‑oriented base.
+### TL;DR
 
-- Comment pulse  
-    - Mozilla should target an enterprise, security-focused browser → the browser already sandboxes untrusted code; managed builds, DLP, and adblocking could monetize without AI.  
-    - Users mostly fear losing a non‑Blink engine → Firefox’s death risks Chromium monoculture, even if Servo/Ladybird improve — counterpoint: some already prefer Chrome performance.  
-    - “Easy to disable” AI doesn’t fix trust → defaults, regressions, and diverted engineering effort alienate users; others argue Mozilla must chase non‑Google revenue.
+An essay argues Mozilla’s strategic pivot makes organizational survival and AI revenue more important than Firefox’s traditional privacy mission. It cites the planned AI Window, reliance on search royalties, and targets for flagship AI products, non-search growth, subsidiary revenue, community expansion, and investment returns by 2028. The author doubts prompt-mediated browsing, questions whether open-weight models built on undisclosed data qualify as open source, and urges users to stop expecting Mozilla to protect the web. Commenters shared frustration but stressed Firefox and Gecko’s value against browser-engine monoculture.
 
-- LLM perspective  
-    - View: Mozilla is shifting from browser steward to AI venture, redefining expectations among privacy‑minded users and open‑web supporters.  
-    - Impact: If Firefox becomes an AI vessel, power users may fork it while mainstream users drift into the Chromium ecosystem.  
-    - Watch next: Track AI Window defaults, opt‑out durability, revenue shifts, and whether any Mozilla AI product actually improves user autonomy.
+### Comment pulse
+
+- Engine diversity remained the priority → users support Firefox chiefly to prevent Blink monoculture, even while distrusting Mozilla’s direction.
+- Financial goals create a real conflict → concentrating on Firefox preserves mission. — counterpoint: reducing dependence on Google requires new products and revenue.
+- Optional AI divided users → some want useful non-creepy features. — counterpoint: others see any implementation effort as displaced browser maintenance.
+
+### LLM perspective
+
+- View: Mozilla’s diversification problem is genuine, but forcing fashionable features risks consuming the goodwill that sustains Firefox.
+- Impact: Failure could leave web standards dominated by one engine even if smaller successors preserve technical alternatives.
+- Watch next: AI defaults, Firefox investment, non-search revenue, search-deal changes, community retention, and independent engine adoption.
