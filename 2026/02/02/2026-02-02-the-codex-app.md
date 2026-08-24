@@ -3,19 +3,17 @@
 - Score: 465 | [HN](https://news.ycombinator.com/item?id=46859054) | Link: https://openai.com/index/introducing-the-codex-app/
 
 ### TL;DR
-OpenAI’s new macOS Codex app is a desktop “command center” for coding agents: you can run multiple agents in parallel on separate git worktrees, manage long-running tasks, and extend capabilities via “skills” (scripted workflows for tools like Figma, Linear, Vercel, PDFs, etc.). It adds scheduled Automations, configurable personalities, and OS-level sandboxing. HN reception is mixed: some praise Codex’s capabilities, others report poor reliability, Electron bloat, and argue simpler, text-based or process-oriented workflows beat agent-heavy UIs.  
-_For a limited time, Codex is included for Free/Go; paid plans get doubled rate limits._
 
----
+OpenAI introduced a macOS Codex app for supervising multiple coding agents. Separate project threads and built-in worktrees isolate concurrent changes, while users can inspect diffs, comment, edit manually and continue CLI or IDE sessions. Skills package reusable instructions and scripts; Automations run scheduled tasks; configurable system-level sandboxing restricts default access. Codex is temporarily included for Free and Go users, with paid rate limits doubled. HN reactions mixed enthusiasm for orchestration with complaints about Electron, failed launches, sluggish or unreliable execution, and inadequate manual control.
 
 ### Comment pulse
-- Agents are overhyped → Better to structure work as immutable markdown specs/plans with human QA; agents just add UI noise and codebase risk.  
-- UI/stack criticism → Electron and web tech feel lazy for an OS-integrated dev tool—counterpoint: Electron is practical, cross‑platform, and users rarely care about “native.”  
-- Capability split → Some find Codex slow, brittle, and worse than Claude/Gemini; others see “average L3–L4 engineer” quality, especially on backend, but note bugs and loops.
 
----
+- Some developers prefer immutable planning and test artifacts plus manual quality gates, arguing parallel agents can multiply errors as easily as output.
+- Reports diverged sharply: some praised the backend and value, while others saw loops, stale dependencies, ignored instructions or broken startup.
+- Electron drew criticism for weak native integration; defenders cited portability, native API access and useful built-in Git and terminal views.
 
 ### LLM perspective
-- View: This is less “new model” and more serious tooling for multi-agent, long-running software projects and scripted skills.  
-- Impact: Most useful for teams already leaning into agent workflows, shared skills repos, and CI/triage automations.  
-- Watch next: Real-world reliability benchmarks vs. Claude/Cursor, Windows/Linux releases, and whether skills/Automations become a de facto “agent workflow” standard.
+
+- View: The app targets supervision bottlenecks once parallel agent work, rather than code generation, becomes the limiting step.
+- Impact: Worktrees and review queues can increase concurrency, but inconsistent execution quality multiplies cleanup.
+- Watch next: Windows availability, startup reliability, cloud triggers and independent comparisons of multi-agent throughput against CLI workflows.

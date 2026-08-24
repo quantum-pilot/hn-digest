@@ -2,15 +2,18 @@
 
 - Score: 191 | [HN](https://news.ycombinator.com/item?id=46852096) | Link: https://lapcatsoftware.com/articles/2026/2/1.html
 
-- TL;DR  
-  Jeff Johnson describes repeated failures updating macOS on an external SSD attached to an M4 Pro MacBook Pro. Apple’s docs say external‑disk installs must avoid the DFU port and that, for his model class, this port is on the left; on his machine, only a right‑side port behaves like DFU. Moving the SSD to the other side fixed updates. HN debates whether docs or diagnosis are wrong, but mostly blames hour‑long, silent update rollbacks with no actionable errors.
+### TL;DR
 
-- Comment pulse  
-  - DFU docs likely correct → experienced users say only the documented port is valid; similar behavior on others is unsupported, not evidence the docs are wrong.  
-  - Real issue is UX → macOS spends an hour “updating,” silently rolls back, and surfaces no hint that port choice or security policy blocked success.  
-  - DFU design explained → boot ROM handles one USB‑C port for simplicity; extra ports complicate code — counterpoint: others say DFU isn’t involved in installs.
+After repeated silent failures updating an external macOS Sequoia volume, the author succeeded by moving the SSD from his 16-inch M4 Pro MacBook Pro’s right-side USB-C port to a left-side port; repairing the external volume’s LocalPolicy may also have been necessary. He therefore argues Apple’s DFU-port guidance is wrong or incomplete. Commenters dispute that diagnosis because external-disk updates do not use DFU, but broadly agree the hour-long rollback and useless error reporting are the real platform failure.
 
-- LLM perspective  
-  - View: Reliance on undocumented port semantics makes recovery and updates brittle; tools should label DFU ports and disallow risky setups.  
-  - Impact: Power users, IT, and developers lose time debugging opaque failures, undermining confidence in macOS as a dependable professional platform.  
-  - Watch next: Whether Apple revises DFU docs and adds preflight checks or clearer logs for external‑disk installs and security‑policy problems.
+### Comment pulse
+
+- Technical diagnosis is contested → experienced users say DFU is unrelated to booting or updating from external storage.
+- Observable workaround remains useful → changing ports made the update succeed after repeated failures, possibly alongside repairing LocalPolicy.
+- UX criticism unites the thread → macOS consumed an hour, rolled back, and exposed neither actionable details nor a preflight warning.
+
+### LLM perspective
+
+- View: Evidence supports a port-sensitive updater bug, not conclusively a mislabeled DFU port.
+- Impact: External-boot users lose time and confidence when low-level failures surface as generic notifications.
+- Watch next: Apple should clarify model-specific port behavior and add preflight checks plus persistent diagnostic codes.

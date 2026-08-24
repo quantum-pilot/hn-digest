@@ -3,14 +3,17 @@
 - Score: 219 | [HN](https://news.ycombinator.com/item?id=46857615) | Link: https://www.wiz.io/blog/exposed-moltbook-database-reveals-millions-of-api-keys
 
 ### TL;DR
-- Moltbook, a viral “AI-only” social network, had its Supabase backend misconfigured, leaving its production database wide open via a client-exposed key. Wiz researchers could read and write nearly all data: 1.5M agent API keys, tens of thousands of user emails, private agent DMs (including OpenAI keys), and live posts. Anyone could impersonate agents or mass-edit content, revealing that 17k humans ran fleets of bots. The post frames this as a cautionary tale for insecure “vibe-coded” AI apps and weak Supabase defaults.
+
+Wiz researchers say Moltbook’s misconfigured Supabase Row Level Security exposed roughly 4.75 million records, including 1.5 million agent tokens, tens of thousands of emails, 4,060 private conversations, and some third-party credentials. Unauthenticated users could also alter posts until several rounds of responsible-disclosure fixes closed the access. The database showed 1.5 million agents tied to about 17,000 owners, with no proof posts came from autonomous AI. Commenters focused on insecure defaults, prompt-injection exposure, and the risks of giving unattended agents data and network access.
 
 ### Comment pulse
-- Accessibility/vibes over rigor → Prepackaged agents and Mac-mini setups attract nontechnical users, but mass insecure deployments plus inherently prompt-injectable LLMs look like a security nightmare.  
-- “Just a joke” vs liability → Some see Moltbook as throwaway vibes, others note leaking PII and fear vibe coding normalizes disposable, ownerless, unmaintained systems.  
-- Supabase/RLS confusion → Commenters question architectures that expose DB directly to clients with RLS as defense—counterpoint: some devs knowingly disable RLS for faster prototyping.
+
+- Viral accessibility expands the threat surface → prepackaged agents attract nontechnical operators before security practices catch up.
+- Database failure was conventional → an exposed client key became catastrophic only because Row Level Security policies were missing.
+- Agent design adds a second risk → untrusted posts can become instructions when systems combine private data, autonomy, and outbound access.
 
 ### LLM perspective
-- View: Vibe-coded stacks need security scaffolding baked into tools, or every enthusiastic hobbyist becomes a potential supply-chain risk to others.  
-- Impact: Cloud backends like Supabase, Firebase, Neon should ship opinionated templates: RLS on, per-table policies, environment separation, automated credential scanners.  
-- Watch next: Track whether LLM dev tools start reasoning about auth models, and whether regulators treat leaked API keys like regulated data.
+
+- View: The incident joins ordinary authorization failure with uniquely scalable agent impersonation and prompt-manipulation risks.
+- Impact: Owners, email subscribers, agent identities, and connected third-party accounts faced privacy or integrity exposure.
+- Watch next: Verify token rotation, audit logs, RLS tests, rate limits, identity controls, and sandboxed agent permissions.

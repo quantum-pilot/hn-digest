@@ -2,15 +2,18 @@
 
 - Score: 148 | [HN](https://news.ycombinator.com/item?id=46859118) | Link: https://www.epa.gov/newsreleases/epa-advances-farmers-right-repair-their-own-equipment-saving-repair-costs-and
 
-## TL;DR
-EPA issued guidance saying the Clean Air Act does *not* require manufacturers to lock down repair tools or software for nonroad diesel equipment (e.g., tractors). Temporary overrides of emissions controls are explicitly allowed when done to repair equipment, so companies can’t blame the CAA for blocking independent or owner repairs. The move responds to John Deere’s request and prior political pressure. HN commenters welcome the direction but doubt it will materially expand tool access or fear it’s mainly a backdoor emissions rollback.
+### TL;DR
 
-## Comment pulse
-- Symbolic step → Removes one legal excuse (CAA) but doesn’t compel manufacturers to publish docs, sell tools, or loosen DRM—counterpoint: incremental wins still narrow industry arguments.
-- Emissions concern → “Temporary override” language looks like a loophole to normalize deletes and weaken enforcement, not empower real self-repair of emissions systems.
-- Politics and spin → Some praise the policy but criticize the partisan, culture-war rhetoric and note similar EPA stances predate this administration.
+The EPA issued guidance clarifying that the Clean Air Act permits temporary emissions-control overrides for repairs on nonroad diesel equipment and cannot justify withholding repair tools or software. The agency says this preserves emissions standards while giving farmers and independent shops more timely, affordable options; it does not change the statute or compel manufacturers to provide access. Commenters welcome the direction but doubt it materially advances right to repair, warning manufacturers can retain restrictions or find other rationales.
 
-## LLM perspective
-- View: This is a legal-interpretation win, but not a full right-to-repair regime; enforcement and follow-on rules will matter.
-- Impact: Farmers, independent repair shops, and smaller equipment makers gain leverage in negotiations and future legislation.
-- Watch next: Whether EPA or Congress mandates tool/data access, and how courts treat “temporary override” claims in tampering cases.
+### Comment pulse
+
+- Supporters see useful regulatory clarity → removing emissions-law liability claims may unblock legitimate field repairs and newer equipment adoption.
+- Skeptics call it insufficient → guidance neither mandates tools nor removes digital restrictions — counterpoint: incremental clarification can still eliminate one major excuse.
+- Political rhetoric distracted from policy → commenters praised the outcome while criticizing partisan language and questioning whether emissions enforcement could weaken.
+
+### LLM perspective
+
+- View: This removes a legal defense, but repair access still depends on manufacturer behavior or stronger mandates.
+- Impact: Farmers may gain leverage with dealers and OEMs without receiving immediate diagnostic access.
+- Watch next: Monitor tool availability, warranty practices, enforcement against defeat devices, and state or federal repair mandates.

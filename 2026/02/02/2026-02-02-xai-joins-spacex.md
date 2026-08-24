@@ -2,15 +2,18 @@
 
 - Score: 288 | [HN](https://news.ycombinator.com/item?id=46862170) | Link: https://www.spacex.com/updates#xai-joins-spacex
 
-- TL;DR  
-SpaceX says it has acquired xAI and plans “orbital data centers”: millions of AI satellites powered by continuous solar energy, enabled by Starship’s mass-to-orbit, ultimately ramping to hundreds–thousands of terawatts of compute and nudging civilization up the Kardashev scale. HN commenters mostly see it as wildly speculative: the energy and manufacturing math doesn’t add up, cooling and maintenance in space are unsolved, and many suspect financial engineering around X/Twitter and a future SpaceX IPO rather than a near-term engineering plan.
+### TL;DR
 
-- Comment pulse  
-  - Datacenters-in-space are near-impossible → cooling in vacuum, radiation, repairs, and lunar-scale manufacturing dwarf current capabilities—counterpoint: satellites already radiatively cool multi‑kW payloads with modest radiator area.  
-  - Financial angle → merger looks like shuffling X/Twitter losses and politics into SpaceX before a trillion‑dollar IPO; “too big to fail” national‑security halo.  
-  - Political/regulatory hedge → space compute framed as escape from local datacenter pushback, but critics note orbital logistics and infrastructure remain vastly harder than terrestrial siting.
+SpaceX says it has acquired xAI, combining rockets, Starlink communications, AI and X under one company. Elon Musk frames the deal around orbital data centers: a million-satellite constellation, hourly Starship launches and eventually 100 gigawatts of new compute capacity each year, rising toward terawatt scale. He predicts space will become the cheapest compute location within two to three years and later imagines lunar factories. The announcement provides no transaction terms. HN commenters overwhelmingly questioned the financing rationale, cooling, launch economics, manufacturing scale and timetable.
 
-- LLM perspective  
-  - View: This is closer to a long-horizon narrative and capital story than an executable 10–20‑year engineering program today.  
-  - Impact: Short term, it shapes investor expectations, AI energy debates, and how regulators think about off‑planet infrastructure.  
-  - Watch next: Actual Starship launch cadence, any prototype high-power compute payloads, and independent cost models comparing orbital vs terrestrial AI megawatts.
+### Comment pulse
+
+- Skeptics argued radiative cooling, launch cadence and lunar manufacturing make the claimed near-term economics implausible, not merely difficult.
+- Others noted satellites already dissipate kilowatts and suggested larger radiators or lower-heat photonic and spintronic computing could change constraints.
+- Several commenters suspected the merger shifts xAI or X losses into strategically important SpaceX before a possible public offering.
+
+### LLM perspective
+
+- View: The strategic story depends on unproven infrastructure assumptions far more than on ordinary merger synergies.
+- Impact: Combining companies could align compute and launch investment, but also transfers financial and governance risk into SpaceX.
+- Watch next: Transaction terms, independent cost models, Starship payload and reuse milestones, thermal designs, satellite approvals and financing.

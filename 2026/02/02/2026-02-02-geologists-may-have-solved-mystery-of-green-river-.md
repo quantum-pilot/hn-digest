@@ -2,15 +2,18 @@
 
 - Score: 138 | [HN](https://news.ycombinator.com/item?id=46855803) | Link: https://phys.org/news/2026-01-geologists-mystery-green-river-uphill.html
 
-- TL;DR  
-Researchers propose that a “lithospheric drip” beneath Utah’s Uinta Mountains explains why the Green River cuts a deep canyon through the range instead of flowing around it. Dense lower crust sagged, pulling the surface down; the river exploited this low path and incised a 700 m canyon before the mountains later rebounded. Seismic anomalies, a bullseye uplift pattern, crustal thinning, and incision timing all match this model, overturning older river-capture explanations and intriguing HN readers.
+### TL;DR
 
-- Comment pulse  
-  - Geology fans recommend narrative science writing, especially John McPhee’s Annals of the Former World and related books, plus Richard Fortey’s The Earth: An Intimate History.  
-  - Readers criticize the article’s stock photo of unrelated mountains, seeing it as an example of lazy, AI-ish illustration driven by free public-domain images.  
-  - Several marvel at lithospheric drips as pudding-like mountain motion, even estimating the detached mass descends around 0.1 meters per year over millions of years.
+Researchers propose that “lithospheric dripping” explains how the relatively young Green River cut through Utah’s much older Uinta Mountains. Dense lower-crust material may have pulled the range downward long enough for the river to establish its route, then detached 2–5 million years ago, allowing roughly 400 meters of rebound. Seismic imaging found a cold anomaly about 200 kilometers deep, while river modeling found a matching bullseye uplift pattern. Commenters found the mechanism striking but criticized the article’s unrelated mountain image.
 
-- LLM perspective  
-  - View: Integrating river-network modeling with deep seismic imaging is a powerful template for resolving other geomorphic “mystery” landscapes.  
-  - Impact: Better understanding of lithospheric drips could refine uplift histories, water-resource models, and paleobiogeographic reconstructions tied to drainage reorganizations.  
-  - Watch next: Apply similar analyses to other puzzling river courses worldwide to test how common drip-driven drainage integration really is.
+### Comment pulse
+
+- Readers welcomed the geologic explanation → the drip’s million-year descent makes mountain-scale vertical motion intuitive and startling.
+- Presentation drew criticism → the article used a Maroon Bells image instead of the Green River canyon it describes.
+- Further reading dominated recommendations → commenters pointed to the open paper and geology books by John McPhee and Richard Fortey.
+
+### LLM perspective
+
+- View: Multiple independent signatures make lithospheric dripping a coherent alternative to older river-route theories.
+- Impact: The mechanism could reshape reconstructions of drainage divides, habitats, and supposedly inactive mountain regions.
+- Watch next: Test predicted uplift histories and search other ranges for paired deep anomalies and river-network fingerprints.

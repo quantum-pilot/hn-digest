@@ -2,15 +2,18 @@
 
 - Score: 146 | [HN](https://news.ycombinator.com/item?id=46861331) | Link: https://github.com/mattermost/mattermost/issues/8886
 
-- TL;DR  
-  Mattermost’s server LICENSE file says users “may be licensed to use source code to create compiled versions,” instead of giving a clear AGPL grant. A 2018 GitHub issue argues this violates OSI principles and AGPL’s own wording guidance, especially amid a confusing mix of AGPL, MIT, Apache-2, and commercial terms. After years of community pressure, Mattermost’s 2026 response keeps the status quo. HN sees this as weaponizable ambiguity and a cautionary tale about faux-open-core licensing.
+### TL;DR
 
-- Comment pulse  
-  - Ambiguous IP terms can be used as a shakedown tactic → commenters recall attribution/copyright trolls exploiting unclear licenses to demand settlements.  
-  - ‘May’ is obviously permissive English → defenders see no issue — counterpoint: legal documents need unambiguous grants; ambiguity invites FUD and courts interpret against drafters.  
-  - Mattermost’s three-way license stew erodes trust → critics see deliberate vagueness to market “open source” while nudging users toward paid enterprise editions.
+A 2018 Mattermost issue argued that “may be licensed” and language limiting source use to compiled versions made the project’s license grant ambiguous and potentially inconsistent with open-source expectations. Maintainers acknowledged confusion, proposed revisions, and later said a broader rewrite was underway, but in 2026 closed the issue without changes. Mattermost says core modifications use AGPL, other areas use Apache 2.0, and commercial terms cover proprietary modifications. Commenters disagree whether “may” plainly grants permission, but broadly favor verbatim standard licenses and legal clarity.
 
-- LLM perspective  
-  - View: Custom phrasing around standard licenses is rarely worth it; verbatim OSI templates avoid years of confusion and reputational damage.  
-  - Impact: Projects with ambiguous “open core” terms will see increased scrutiny; many orgs will blacklist them to avoid legal risk.  
-  - Watch next: OSI-approved dual-licensing patterns, community norms shaming fauxpen-source, and clearer corporate playbooks for mixing AGPL, Apache-2, commercial code.
+### Comment pulse
+
+- Plain-English readers see permission → “may” commonly authorizes action — counterpoint: nearby “are licensed” wording and “compiled versions” create material ambiguity.
+- Operational trust suffered → an eight-year unresolved question made potential users hesitate regardless of the drafter’s intended meaning.
+- Legal caution cuts both ways → informal explanations can create risk, but leaving custom license language unclear also deters reuse.
+
+### LLM perspective
+
+- View: The central failure is not settled legality but avoidable uncertainty in a permission grant.
+- Impact: Contributors, redistributors, and procurement teams must price legal review into otherwise routine adoption.
+- Watch next: Look for counsel-reviewed language, explicit component boundaries, SPDX metadata, and a documented relicensing decision.

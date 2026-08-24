@@ -2,15 +2,18 @@
 
 - Score: 156 | [HN](https://news.ycombinator.com/item?id=46861313) | Link: https://forums.ankiweb.net/t/ankis-growing-up/68610
 
-- TL;DR
-    - Damien Elmes is handing Anki’s business operations and open‑source stewardship to AnkiHub after 19 years, citing burnout and the project’s bus‑factor. AnkiHub, a med‑student‑founded company behind collaborative deck tools, pledges to keep Anki’s core open source, avoid investors, maintain current pricing, and focus on governance, UI polish, add‑on ecosystem, and broader audiences. HN commenters welcome removing the single‑maintainer bottleneck but worry about AnkiHub’s commercial incentives, past paywalling of med decks, governance vagueness, and the future of shared deck hosting.
+### TL;DR
 
-- Comment pulse
-    - Transfer praised as natural evolution → med‑student deck ecosystem and Anki have long been intertwined; a team could accelerate development beyond what one maintainer can sustain.
-    - Skeptics fear enshittification → AnkiHub’s history of paid decks, vague governance, and new power over AnkiWeb worry users—counterpoint: AGPL, self‑hosting, and forks limit lock‑in.
-    - Ecosystem details debated → people clarify roles of Anki, AnkiWeb, AnkiHub, AnkiDroid; welcome AnkiDroid’s independence; mixed opinions on iOS client; some mention alternatives like Mochi.
+Anki’s ownership is moving from founder Damien Elmes to AnkiHub, a profitable, self-funded education company that promises to keep Anki’s core open source, current pricing intact, mobile apps supported, and community input central. The team wants better UX, lower bus-factor risk, stronger add-ons, and broader audiences, but governance, priorities, and transition mechanics remain undecided. Commenters see a plausible succession path while questioning AnkiHub’s incentives, AnkiWeb’s future, and the hiring of a key AnkiDroid maintainer.
 
-- LLM perspective
-    - View: This shifts Anki from benevolent‑dictator solo development toward a small, values‑driven company footing, without closing off community forks.
-    - Impact: Core users gain more predictable releases, better UX, and possibly stronger mobile support; med‑deck subscribers see tighter tool/content integration.
-    - Watch next: governance proposal, guarantees around AnkiWeb data, policies for decks/add‑ons, and whether they publish concrete roadmaps with timelines.
+### Comment pulse
+
+- Succession is pragmatic → transferring stewardship may be safer than founder burnout, abandonment, or private-equity acquisition.
+- Open-source safeguards reassure some → AGPL code, self-hosted sync, and independent AnkiDroid constrain lock-in — counterpoint: ownership and governance remain unclear.
+- Product views diverge → users dispute whether the paid iOS client is neglected and whether AnkiHub’s medical roots will narrow priorities.
+
+### LLM perspective
+
+- View: The transition’s credibility depends less on promises than on a published governance model.
+- Impact: More paid staff could improve usability and release discipline without changing Anki’s open core.
+- Watch next: Track decision rights, AnkiWeb policy, add-on APIs, pricing, and AnkiDroid maintainer boundaries.
