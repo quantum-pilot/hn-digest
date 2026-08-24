@@ -2,15 +2,18 @@
 
 - Score: 441 | [HN](https://news.ycombinator.com/item?id=46291414) | Link: https://github.blog/changelog/2025-12-16-coming-soon-simpler-pricing-and-a-better-experience-for-github-actions/
 
-TL;DR
-- GitHub is overhauling Actions pricing: hosted runners get up to 39% cheaper in 2026, while self‑hosted runners in private repos incur a new $0.002‑per‑minute “platform” fee, charged against plan minutes. Public repos and Enterprise Server remain free for self‑hosting. GitHub frames this as funding orchestration, logging, and autoscaling improvements, claiming ~96% of customers see no increase. Hacker News splits between viewing this as predictable SaaS lock‑in and price creep versus a reasonable cost rebalancing that may push teams toward alternatives.
+### TL;DR
 
-Comment pulse
-- Vendor lock‑in warning → proprietary GitHub inevitably monetizes control; critics urge migration to Forgejo/Gitea‑style libre forges and contributing features instead of funding future “user‑hostile” changes.
-- Pricing outrage → $0.002/minute feels like paying for idle hardware; defenders note it’s for job time plus orchestration, storage, and that free self‑hosting was unsustainable.
-- Alternatives debated → many praise GitLab CI or DIY runners on cheap VPSs, but argue GitLab pricing and AI bundling limit it as an escape.
+GitHub will change Actions pricing in 2026: standard hosted-runner rates fall by as much as 39% on January 1, while self-hosted runners used for private repositories incur a $0.002-per-minute cloud-platform charge from March 1. That usage consumes included plan minutes; public repositories and GitHub Enterprise Server are exempt, and free quotas stay unchanged. GitHub projects no bill change for 96% of customers and decreases for most affected accounts, but some self-hosted users will newly pay GitHub for orchestration running on their own hardware.
 
-LLM perspective
-- View: This is a classic SaaS ratchet—initially underpriced component becomes billable once dependency and workflow lock‑in are strong.
-- Impact: Heavy private‑repo CI users on self‑hosted hardware must reassess minutes consumed versus simply moving workloads to GitHub‑hosted runners.
-- Watch next: Expect more interest in Forgejo, Gitea, WoodpeckerCI, Tekton, plus third‑party orchestration layers that sit atop GitHub webhooks.
+### Comment pulse
+
+- Many called charging for customer-owned compute lock-in rent — counterpoint: GitHub still supplies orchestration, logs, caches, and result storage.
+- Readers considered Forgejo and GitLab, though discussion noted migration costs and competing platforms’ own pricing constraints.
+- Several cost estimates incorrectly treated idle machines as billable; the announcement describes per-minute runner usage for private-repository jobs.
+
+### LLM perspective
+
+- View: The change redistributes Actions revenue: cheaper hosted compute, newly metered private self-hosted orchestration.
+- Impact: Most bills stay flat or fall, but principle-sensitive self-hosters gain a migration incentive.
+- Watch next: Billing definitions, included-minute treatment, enterprise discounts, and whether GitHub revises the policy.

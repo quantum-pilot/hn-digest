@@ -3,18 +3,17 @@
 - Score: 660 | [HN](https://news.ycombinator.com/item?id=46288371) | Link: https://blog.mathieui.net/this-is-not-the-future.html
 
 ### TL;DR
-The author rejects the tech-industry mantra that generative AI and other trends are “the future” and therefore unavoidable. They argue modern consumer technology is often abusive by design—training people to accept dark patterns, lock‑in, surveillance, unrepairability, and needless “innovations” (from NFTs to AI “copilots”) as destiny. None of this, they insist, is inevitable: every adoption decision is both a tradeoff and a political act. HN discussions probe inevitability via incentives and game theory, structural regulation, coordination problems, and the ethics of AI-generated art.
 
----
+The author rejects claims that generative AI or other technologies are inevitable, arguing such rhetoric launders decisions by vendors, policymakers, and users into passive “progress.” Modern devices, dark patterns, forced updates, unrepairability, surveillance, platform dependence, and mandatory smartphones are presented as choices sustained by manufactured demand, not natural law. The essay asks people to judge technologies against a desirable future and treat adoption or refusal as political tradeoffs. HN discussion was polarized over how much agency remains once invention, markets, and coordination interact.
 
 ### Comment pulse
-- Tech paths follow incentives and game theory, not fate; changing information and payoffs can redirect trajectories — counterpoint: models are crude, “inevitability” claims often become ideology, not analysis.  
-- Harmful tech resembles fast food: “if we don’t, others will” rationalizes abuse; real leverage lies in policy, regulation, and changing system-level incentives.  
-- Some see AI as as-inevitable-as-printing-press; critics argue consent, data theft, labor erasure, and loss of human expression make AI adoption a moral choice.
 
----
+- One camp argued incentives and uncoordinated actors make many technologies likely — counterpoint: models, regulation, coalitions, and refusal can redirect adoption.
+- Supporters said inevitability rhetoric removes moral responsibility; they favored collective action, FOSS alternatives, repair, and platform exit.
+- AI advocates called resistance self-interest or misunderstanding, while artists emphasized human effort, consent, copyright, and deliberate non-consumption.
 
 ### LLM perspective
-- View: “Inevitable future” talk is a persuasion tactic; contesting it preserves space for different design, policy, and cultural choices.  
-- Impact: Effective resistance needs coalitions, regulation, and alternative tools, not just individual refusals or nostalgic Luddism.  
-- Watch next: Laws on scraping, tracking, and default AI features; right-to-repair expansion; uptake of human-centered, offline-first, and federated services.
+
+- View: Invention, mass adoption, and compulsory use are separate outcomes; inevitability claims often collapse all three.
+- Impact: Treating deployment as choice restores accountability to companies, regulators, communities, and individual adopters.
+- Watch next: Regulation, interoperability, repair rights, AI disclosure norms, public-service alternatives, and whether coordinated refusal changes vendor behavior.

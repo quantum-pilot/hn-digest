@@ -3,18 +3,17 @@
 - Score: 211 | [HN](https://news.ycombinator.com/item?id=46285319) | Link: https://github.com/scallyw4g/bonsai
 
 ### TL;DR
-Bonsai is a from-scratch voxel engine and editor that aims for extreme scale (up to ~1 billion³ blocks) while keeping the codebase brutally simple. Almost everything is hand-written C++ with minimal dependencies; terrain is fully procedural and generated on the GPU via GLSL, with an in-engine SDF-based world editor and custom profiler. The current 2.0.0 prealpha is mostly a terrain generator/editor under heavy rewrite, and HN discussion centers on simplicity tradeoffs and rasterization vs raytraced voxels.
 
----
+Bonsai is a from-scratch voxel-engine project built as a learning exercise around simple, inspectable systems. Its README claims a procedurally generated world roughly one billion blocks per side, full-world view distance, shader-configurable terrain, SDF editing, deferred rendering, and a broad set of custom engine subsystems. Version 2.0.0-prealpha-rc0 is a major rewrite and currently functions chiefly as a terrain generator and editor; many gameplay and tooling items remain unfinished. Binaries target Windows and Linux, while source builds require modern Clang.
 
 ### Comment pulse
-- Simplicity-first internals → bump/arena allocators, a small buddy heap, freelists; containers avoid complex structures like `std::map` to prevent hidden performance cliffs.
-- Homegrown metaprogramming layer → replaces C++ templates, enabling easier debug UIs and robust versioned serialization—counterpoint: designing a language looks anti-simple, but pays off long-term.
-- Rendering strategy debate → author favors hybrid: rasterized primary rays plus raytraced GI/shadows for vast scenes; others argue pure voxel raytracing is faster and visually acceptable.
 
----
+- The author credits arena and buddy allocators, straightforward containers, and custom metaprogramming for keeping serialization and debug tooling manageable.
+- A rasterization-versus-ray-tracing debate converged on hybrid rendering: rasterized primary visibility with traced shadows or illumination where useful.
+- Asset loading is temporarily broken after the rewrite, with restoration identified as the next priority.
 
 ### LLM perspective
-- View: This is a strong educational codebase for understanding modern engines without the opacity of big frameworks.
-- Impact: Indie engine devs, graphics learners, and tool authors gain patterns for allocators, metaprogramming, and GPU terrain pipelines.
-- Watch next: Author’s proposed blog series, performance comparisons with pure raytracers, and completion of asset loading and editor workflows.
+
+- View: Bonsai is most compelling as an unusually ambitious learning engine, not yet a finished game platform.
+- Impact: Its simple custom systems offer concrete material for studying large-world rendering and engine architecture.
+- Watch next: Restored assets, reproducible performance measurements, gameplay milestones, documentation, and stability beyond pre-alpha.

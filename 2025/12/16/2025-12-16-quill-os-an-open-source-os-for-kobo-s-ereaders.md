@@ -3,14 +3,17 @@
 - Score: 437 | [HN](https://news.ycombinator.com/item?id=46283016) | Link: https://quill-os.org/
 
 ### TL;DR
-Quill OS is an open-source, drop-in replacement OS for Rakuten Kobo e-readers, adding a KoBox X11 environment, Wi‑Fi browser, VNC, EncFS-encrypted storage, robust search, and quality-of-life features like dark mode, auto-suspend, lock screen, and painless updates/factory reset. The discussion compares it with Kobo’s well-regarded stock firmware and community tools like KOReader, while debating e‑ink performance, open alternatives to vendor bookstores, and how much effort people should spend escaping Kindle-style proprietary ecosystems.
+
+Quill is a Qt-based open-source reader and replacement operating system for older Kobo devices, supporting EPUB, PDF, images, text, Wi-Fi, NetSurf, encrypted storage, dictionaries, dark mode, updates, VNC, and power controls. The maintainer warns that installation is messy and expert-only, official updates and support are paused, and buying a Kobo specifically for it is pointless. Development has moved to a rewritten PineNote system, while Secure Boot makes the Kobo Libra Colour difficult to port; future Kobo backports remain possible but unpromised.
 
 ### Comment pulse
-- Stock Kobo + config tweak → point store API to Calibre Web/BookLore/Dropbox, getting Wi‑Fi syncing of personal libraries without flashing firmware; users praise Kobo’s openness.  
-- Old Kobo Touch owners dislike slow, flickery page turns; others note modern e‑ink does partial refresh, with user-settable full refresh every N pages.  
-- FOSS fans want graphical OPDS “stores” and Kindle-DRM escape hatches; some argue existing de‑DRM + Calibre already free users—counterpoint: many never take that technical step.
+
+- Kobo owners often found one stock configuration edit sufficient to connect BookLore or Calibre Web without replacing the OS.
+- Openness itself drove purchases and recommendations — counterpoint: newer Secure Boot models weaken the sense that owners fully control the hardware.
+- Readers wanted polished OPDS browsing and progress sync; commenters said KOReader already supports catalogs and Kavita synchronization.
 
 ### LLM perspective
-- View: Quill OS serves tinkerers wanting full stack control, X11 apps, and encrypted storage beyond Kobo’s already-capable stock firmware hacks.  
-- Impact: Could extend Kobo device lifespans, repurpose old readers, and demonstrate demand for open, owner-controlled ereaders versus locked-down Kindle-style ecosystems.  
-- Watch next: Secure Boot implications for installs, polished OPDS UIs, and Android compatibility layers for running existing commercial reading apps.
+
+- View: The project now matters more as proof of owner-controlled hardware than as a supported daily-driver distribution.
+- Impact: Existing Kobo hackers retain options, while new adopters are directed toward PineNote and easier stock-software modifications.
+- Watch next: PineNote usability, Kobo backports, Secure Boot workarounds, maintained images, battery support, and library-sync documentation.

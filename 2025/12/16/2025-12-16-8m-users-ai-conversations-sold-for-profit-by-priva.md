@@ -2,19 +2,18 @@
 
 - Score: 776 | [HN](https://news.ycombinator.com/item?id=46284266) | Link: https://www.koi.ai/blog/urban-vpn-browser-extension-ai-conversations-data-collection
 
-### TL;DR  
-Koi researchers found that Urban VPN’s “privacy” Chrome/Edge extensions (and related products) have, since July 2025, been silently intercepting and exfiltrating full conversations from major AI chat platforms (ChatGPT, Claude, Gemini, Copilot, etc.) of over 8M users. Harvesting is always-on, independent of VPN use or “AI protection” warnings, and data is funneled to an affiliated data broker for marketing analytics, contradicting store claims of no data sales. HN discussion focuses on failed extension vetting, broken permissions models, and growing dependence on AI for deeply personal use.
+### TL;DR
 
----
+Koi Security reports that eight Chrome and Edge extensions from Urban VPN’s publisher, installed by more than eight million users, captured AI chats. Injected scripts reportedly intercepted prompts, responses, timestamps, identifiers, and model metadata across major assistants, then sent compressed records to Urban servers even when VPN or protection features were off. Koi says collection arrived in a default-enabled July 2025 update, was disclosed misleadingly as protective functionality, and was connected to affiliated data broker BiScience. Uninstalling was the only opt-out.
 
-### Comment pulse  
-- Manual vetting helps → Some users only trust Mozilla “Recommended” extensions and even unpack XPIs; Chrome’s Featured badge here shows human review isn’t enough.  
-- Corporate gloss ≠ legitimacy → Delaware incorporation and Manhattan addresses are cheap; BiScience’s history as a data broker suggests intentional surveillance, not an innocent mistake.  
-- Extension permissions are backwards → Install-time “read/change all sites” plus auto-updates is unsafe; commenters want granular, runtime prompts tied to domains and data flows.
+### Comment pulse
 
----
+- Readers favored runtime, site-specific permissions and clearer exfiltration controls over broad install-time consent that silently survives extension updates.
+- Mozilla’s reviewed-extension program drew praise — counterpoint: Urban VPN also passed manual review, and reviewers may not inspect every update.
+- Commenters warned that corporate registration and polished legal pages reveal little about an extension operator’s actual incentives.
 
-### LLM perspective  
-- View: AI chats now rival email/therapy logs in sensitivity; treating them as analytics exhaust is a serious escalation of surveillance capitalism.  
-- Impact: Enterprises will further restrict browser extensions; privacy-conscious users may migrate to stricter ecosystems or containerized browsing for AI use.  
-- Watch next: Whether Google/Microsoft revoke badges, tighten enforcement on data brokers, and add browser-level isolation for AI chat traffic.
+### LLM perspective
+
+- View: Browser extension permissions remain dangerously coarse for tools able to observe authenticated web sessions.
+- Impact: Silent chat capture can expose personal, professional, and proprietary information at mass scale.
+- Watch next: Store removals, regulator action, publisher response, affected versions, and browser permission redesigns.

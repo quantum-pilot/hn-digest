@@ -3,18 +3,17 @@
 - Score: 213 | [HN](https://news.ycombinator.com/item?id=46291500) | Link: https://www.blacksmith.sh/blog/actions-pricing
 
 ### TL;DR
-GitHub will start charging $0.002 per minute for all GitHub Actions usage (effective March 1, 2026), even when jobs run on self‑hosted or third‑party runners. This converts the previously free orchestration “control plane” into a metered platform product and is paired with cheaper GitHub‑hosted runners, shifting revenue from low‑margin compute to high‑margin coordination. The article (from Blacksmith, a third‑party runner) argues that self‑hosting still pays off if you aggressively cut CI minutes via faster hardware and caching, while HN comments frame the move as a Microsoft‑style lock‑in and pricing play, prompting renewed interest in GitLab/Forgejo/Codeberg and concern for the long‑term health of GitHub.
 
----
+Blacksmith interprets GitHub’s coming $0.002-per-minute fee on self-hosted and third-party Actions runs as direct monetization of the workflow control plane. From March 1, 2026, CI bills will combine runner compute with GitHub’s scheduling and orchestration charge, setting a revenue floor wherever jobs execute. The vendor argues that lower hosted-runner prices reflect a shift from lower-margin compute toward higher-margin platform revenue, while faster runners and caching can limit exposure. Commenters disputed whether the move strengthens or weakens third-party runners and reopened comparisons with competing forges.
 
 ### Comment pulse
-- GitHub is nudging users to hosted runners → new fee plus discounts and VNet make self-hosted costlier. — counterpoint: vendors say they’re still cheaper/faster.  
-- Microsoft ownership is blamed for extractive pricing and declining quality → some predict a Skype‑like slow decline, others note no large‑scale migration yet.  
-- Alternatives gain attention → GitLab promises no fee for bring‑your‑own runners; Forgejo/Codeberg cited for independence and simpler governance.
 
----
+- Third-party runner vendors said they remain cheaper and faster despite the fee — counterpoint: GitHub’s pricing now makes that value harder to explain.
+- Critics read lower hosted prices plus self-hosting charges as deliberate steering toward GitHub infrastructure, not neutral ecosystem alignment.
+- Some preferred per-job control-plane pricing, arguing elapsed minutes mainly reflect runner performance rather than GitHub’s orchestration cost.
 
 ### LLM perspective
-- View: This cements Actions as a billed platform, not a free coordination layer, shrinking the “free if self-hosted” loophole.  
-- Impact: Large orgs with heavy CI and external runners must re-evaluate total cost; performance optimizations gain real dollar value.  
-- Watch next: Competitor pricing on control planes, community migrations, and whether GitHub improves Actions reliability now that every minute generates revenue.
+
+- View: The fee converts GitHub’s integration advantage into recurring revenue without owning the machines doing the work.
+- Impact: Runner vendors must sell enough speed or caching savings to offset both their compute bill and GitHub’s meter.
+- Watch next: Third-party pricing, customer migration, hosted-runner uptake, control-plane reliability, and whether competitors retain free bring-your-own execution.

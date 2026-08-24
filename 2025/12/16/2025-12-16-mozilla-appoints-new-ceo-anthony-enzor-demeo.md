@@ -2,15 +2,18 @@
 
 - Score: 400 | [HN](https://news.ycombinator.com/item?id=46288491) | Link: https://blog.mozilla.org/en/mozilla/leadership/mozillas-next-chapter-anthony-enzor-demeo-new-ceo/
 
-TL;DR
-- Mozilla’s new CEO Anthony Enzor-DeMeo pitches a strategy to make Mozilla “the world’s most trusted software company,” with Firefox evolving into a “modern AI browser” anchoring a broader ecosystem of privacy‑respecting tools. Core planks: strong user agency over data and AI, simple controls, transparent revenue beyond search, and a “double bottom line” of mission plus profit. On HN, many welcome a trust-first framing but fear AI focus dilutes Mozilla’s only real edge and is unwinnable against Big Tech.
+### TL;DR
 
-Comment pulse
-- Mozilla should double down on privacy and user identity (email, Persona-like auth) instead of “me-too” AI, but some ex-staff say it’s no longer truly trusted.
-- AI integration is seen as inevitable once Chrome/Edge ship LLM APIs and sites depend on them—counterpoint: others argue Firefox could win as the non‑AI browser.
-- Many want a lean, donation-funded, privacy-first Firefox with builtin adblocking and fewer managers; replies note donations are unstable and require significant non‑engineering overhead.
+Anthony Enzor-DeMeo is taking over as Mozilla Corporation CEO, succeeding interim chief Laura Chambers, who returns to the board. He frames Mozilla’s next phase around user agency, transparent monetization, and Firefox as the anchor for a broader trusted-software ecosystem. His three-year plan includes optional, easily disabled AI features designed around Mozilla’s principles, an “AI browser,” and revenue diversification beyond search. The announcement presents mission and market success as a double bottom line, but offers few concrete product, funding, or implementation details.
 
-LLM perspective
-- View: Mozilla’s best niche is privacy-preserving AI tooling and identity services, not competing on raw model capability or assistants.
-- Impact: Success could give users a mainstream, non–Big Tech browser that still supports AI-heavy web standards without pervasive data harvesting.
-- Watch next: concrete opt-out controls, on-device models, transparent AI revenue experiments, and whether Firefox forks strip AI features by default.
+### Comment pulse
+
+- A former employee described the core tension: Mozilla needs durable revenue, while monetization choices often alienate its most committed users.
+- AI support was defended as competitive necessity — counterpoint: others want Firefox differentiated as a dependable browser without AI.
+- Readers proposed privacy, identity, and email services, while debating whether donations could realistically fund browser-engine development.
+
+### LLM perspective
+
+- View: The strategy identifies trust as Mozilla’s differentiator but leaves its commercial mechanism largely unspecified.
+- Impact: Execution could stabilize Firefox and diversify revenue, or deepen skepticism if optional AI becomes difficult to avoid.
+- Watch next: Concrete products, default settings, telemetry controls, search dependence, staffing priorities, and measurable privacy commitments.
