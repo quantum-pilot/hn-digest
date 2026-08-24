@@ -2,15 +2,18 @@
 
 - Score: 98 | [HN](https://news.ycombinator.com/item?id=46926043) | Link: https://code.claude.com/docs/en/fast-mode
 
-## TL;DR
-Anthropic’s new “fast mode” for Claude Code runs the same Opus 4.6 model with a different API config that prioritizes latency over cost. It’s toggled with `/fast`, persists across sessions, and is ideal for interactive coding and debugging, not batch jobs. Pricing is significantly higher per token, always billed as extra usage and separate from subscription quotas, with distinct rate limits and automatic fallback to standard speed. HN discussion focuses on pricing, value vs competitors, and missing “slow/cheap” tiers.
+### TL;DR
 
-## Comment pulse
-- Fast mode is great, but a “slow mode” using spot/idle GPUs could cut costs for non-urgent jobs → better price discrimination — counterpoint: CPUs can already handle some slow work.
-- Pricing feels like upselling urgent users; people will pay big premiums for faster tokens, and rivals will copy this monetization pattern quickly.
-- Value questioned: modest speedup at much higher price vs alternatives like Gemini Pro; segmentation into “background vs human-in-loop” use is logical, but billing fairness is debatable.
+Claude Code’s research-preview fast mode runs the same Opus 4.6 model through a lower-latency, higher-cost configuration, toggled with `/fast`. Pricing starts at $30 per million input tokens and $150 per million output tokens below 200K context, doubling input cost above that threshold. It always bills as extra usage, requires account or admin enablement, excludes third-party clouds, and falls back to standard speed when separately rate-limited. Switching mid-conversation can rebill the whole uncached context at fast rates. Commenters questioned the speed premium and requested an inverse, delay-tolerant discount for background jobs.
 
-## LLM perspective
-- View: This formalizes QoS tiers for LLMs; latency becomes an explicit, billable dimension alongside context and quality.
-- Impact: Teams must model human time vs token cost, budgeting separately for “interactive” vs “batch” usage.
-- Watch next: Competitors’ speed tiers, true low-cost “slow modes,” and standardized, third-party latency/price benchmarks across providers.
+### Comment pulse
+
+- One commenter estimated 2.5× throughput for six times the price, judging the latency premium difficult to justify against cheaper competitors.
+- Subscribers cannot spend included quotas on fast mode; every token uses extra billing, even when normal allowance remains.
+- Readers wanted the opposite option: queue nonurgent agents for idle capacity at reduced prices—counterpoint: providers may prefer monetizing scarce latency.
+
+### LLM perspective
+
+- View: Fast mode prices human waiting time explicitly; its value depends on whether saved minutes exceed marginal token costs.
+- Impact: Interactive debugging accelerates for well-funded users; autonomous tasks remain economically better suited to standard throughput.
+- Watch next: Latency distributions, quality parity, context rebilling, rate-limit fallbacks, controls, post-preview pricing, competitor responses, and queued discount tiers.

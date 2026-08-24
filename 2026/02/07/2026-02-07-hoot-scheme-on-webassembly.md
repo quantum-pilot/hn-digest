@@ -2,19 +2,18 @@
 
 - Score: 162 | [HN](https://news.ycombinator.com/item?id=46923254) | Link: https://www.spritely.institute/hoot/
 
-## TL;DR
-Hoot is a Scheme-to-WebAssembly toolchain built on GNU Guile that targets browsers with Wasm GC support. It provides a self-contained compiler plus a Wasm interpreter, so you can compile and test Scheme from the Guile REPL without extra dependencies. Hacker News discussion focuses less on Hoot’s specifics and more on the Guile vs. Racket ecosystem split, performance and tooling trade-offs, and renewed interest in compiling non-JS languages to WebAssembly for browser and edge environments.
+### TL;DR
 
----
+Hoot is Spritely’s self-contained toolchain for compiling Scheme to WebAssembly and running Wasm through an included interpreter on Guile’s virtual machine. Release 0.9.0 supports R7RS-small and part of Guile Scheme, targeting recent Firefox, Chrome, Safari, and Node.js runtimes. Packages are available through Guix, Debian testing or unstable, Homebrew, and signed source archives. Commenters welcomed another route to browser programming without JavaScript, while debating Guile versus Racket performance, libraries, modules, tooling, reproducibility, and whether Hoot could work with Cloudflare Workers.
 
-## Comment pulse
-- Scheme ecosystem split → ex-Racketers moving to Guile worries some; they see duplicated effort and miss Racket’s libraries, module system, and metaprogramming—counterpoint: Guile sometimes outperforms and starts faster.
-- Tooling trade-offs → Racket praised for syntax-parse, #lang, and submodules; Guile praised for IO, fibers/futures, and Guix integration but needs better debugger and macro tools.
-- WebAssembly interest → Hoot seen as proof the “compile to Wasm” idea lives on, giving people more options to avoid JavaScript in browser/edge code.
+### Comment pulse
 
----
+- Scheme reaches the browser → commenters welcomed renewed Wasm language work and another way to avoid writing JavaScript.
+- Guile divides opinion → critics preferred Racket’s ecosystem and metaprogramming; defenders cited faster startup, stronger I/O, fibers, libraries, and Guix reproducibility.
+- Edge deployment is unresolved → a commenter asked about Cloudflare Workers, but the supplied discussion offered no answer.
 
-## LLM perspective
-- View: Hoot validates Scheme as a serious WebAssembly target, especially where Wasm GC and REPL-driven workflows matter.
-- Impact: Guile gains appeal for language hackers, educators, and Guix users wanting reproducible, browser-hosted Scheme systems.
-- Watch next: Benchmarks vs. Racket-on-Wasm, Cloudflare/edge compatibility, and improvements to Guile’s debugging, macros, and module ergonomics.
+### LLM perspective
+
+- View: Hoot combines a Scheme compiler with lower-level Wasm tooling rather than presenting only a browser-language frontend.
+- Impact: Guile projects gain a web target and portable tooling, though ecosystem depth and implementation choice may shape adoption.
+- Watch next: Stable-package availability, browser compatibility, Cloudflare Workers support, debugger and macro tooling, performance, and richer Guile compatibility.

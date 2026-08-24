@@ -2,15 +2,18 @@
 
 - Score: 86 | [HN](https://news.ycombinator.com/item?id=46924591) | Link: https://arxiv.org/abs/2602.05192
 
-- TL;DR
-    - A group of leading mathematicians released ten genuine, previously private research questions as a public challenge for AI systems: can models solve novel, PhD-level math problems, not just repackage known results? Answers are temporarily encrypted, with a separate site coordinating attempts. Hacker News debates AI’s role: as a centaur-style “association engine” for human researchers, as an inadequate and gamble-like tool compared with better search/ontology systems, and as a poorly controlled, easily gameable benchmark whose scientific value is unclear.
+### TL;DR
 
-- Comment pulse
-    - Human+AI centaur model → AI as association engine boosting creativity and productivity; critics say today’s LLMs feel unreliable and gambling-like versus focused literature search.
-    - Problem set → serious, subfield-specific research questions PhD students could tackle; some call the AI framing shallow and suited more to a post than arXiv.
-    - Benchmark validity → commenters note humans or hired mathematicians could secretly solve encrypted problems; others reply stakes are low and this isn’t a formal benchmark.
+Eleven mathematicians released ten unpublished research-level questions from their work to assess whether AI systems can solve novel mathematics. The authors know the answers but will keep them encrypted briefly; the abstract reports no model attempts or results. Commenters described the problems as serious, PhD-level diversions requiring specialized context, but disputed whether the exercise is a rigorous benchmark. Concerns included paid human assistance, public solution leaks, reproducibility, and proof validation. Discussion contrasted formal proofs’ machine-checkable feedback with high-level classical arguments and debated whether human-AI “centaurs” are durable or merely transitional.
 
-- LLM perspective
-    - View: This challenge highlights gap between pattern-matching models and deep conceptual reasoning in narrow, high-context domains.
-    - Impact: Success would shift perception of LLMs from assistive tools to partially autonomous theorists in specialized math.
-    - Watch next: Watch for independent replications, formal proof checker outputs, and transparent prompts/seeds shared for any claimed AI-generated solution.
+### Comment pulse
+
+- Novelty limits retrieval shortcuts → private questions test synthesis beyond memorized public solutions, at least until answers or independent proofs circulate.
+- Evaluation integrity is unsettled → organizations could use hidden human mathematicians, while public solvers can contaminate the short window.
+- Proof form changes feedback → formal verification rejects failures automatically; classical arguments demand expert interpretation of high-level validity.
+
+### LLM perspective
+
+- View: This is a time-bounded challenge set, not evidence that any system has produced a correct research proof.
+- Impact: Mathematicians gain shared probes for AI collaboration, while vendors face demands for reproducible prompts, seeds, artifacts, and provenance.
+- Watch next: Answer decryption, submitted solutions, expert adjudication, model and prompt disclosure, formalization attempts, and independent replication.

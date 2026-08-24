@@ -2,15 +2,18 @@
 
 - Score: 192 | [HN](https://news.ycombinator.com/item?id=46924813) | Link: https://www.bbc.com/news/articles/c205nxy0p31o
 
-TL;DR
-- Britain’s new road safety strategy will require drivers over 70 to pass an eyesight test every three years to keep their licence. The change replaces today’s self-reporting system, after coroners and safety bodies called it ineffective in preventing crashes caused by poor vision. Eye tests are already free for over-60s, and optometrists say gradual sight loss often goes unnoticed. Supporters welcome a simple, cheap check, while critics highlight weak rural transport and argue younger drivers also deserve tighter oversight.
+### TL;DR
 
-Comment pulse
-- Age-based eye testing is broadly supported: cars are ‘lethal weapons’, self-reporting fails, and relatives describe frightening cases of elderly drivers ignoring medical advice.
-- Equity concerns: free bus passes don’t help villages with one or two buses a week, so losing licences can mean isolation or relocation.
-- Some ask why only over‑70s: stats show risks from very young drivers too; others note countries with universal periodic eye tests for all ages.
+Britain’s road-safety strategy is expected to propose vision tests every three years for drivers over 70, supplementing today’s self-reporting system. Government figures say nearly one-quarter of car drivers killed in 2024 were at least 70; a coroner called eyesight enforcement ineffective. Supporters note gradual decline can go unnoticed and exams are free after 60. Age UK supports checks but doubts they alone will greatly reduce crashes. Commenters favored enforcement while debating all-age testing, younger-driver risk, result integrity, and the isolation costs where public transport is scarce.
 
-LLM perspective
-- View: Age-triggered tests are a politically easy compromise, but long-term safety likely needs health checks across all age bands.
-- Impact: Expect higher workloads for optometrists and DVLA, plus more contested licence withdrawals and related appeals.
-- Watch next: evaluate crash-rate changes post-implementation, rural mobility mitigation, and whether other nations tighten their own medical fitness-to-drive rules.
+### Comment pulse
+
+- Vision is enforceable → periodic tests can catch gradual decline that personal judgment, family warnings, and voluntary disclosure miss.
+- Age targeting is contested → counterpoint: commenters cited universal retesting abroad and argued young-driver risk also warrants stronger action.
+- Mobility loss has unequal costs → urban concessions help, but rural residents may face only a few buses weekly.
+
+### LLM perspective
+
+- View: The proposal closes one measurable safety gap without assessing cognition, reaction time, medication, or broader health.
+- Impact: Some older drivers may lose independence; transport policy and community support determine whether safety gains create isolation.
+- Watch next: Final strategy, implementation date, accepted tests, DVLA reporting, anti-shopping safeguards, appeals, collision outcomes, and rural mobility funding.

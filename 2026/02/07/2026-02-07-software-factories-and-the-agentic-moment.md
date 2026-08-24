@@ -2,15 +2,18 @@
 
 - Score: 123 | [HN](https://news.ycombinator.com/item?id=46924426) | Link: https://factory.strongdm.ai/
 
-## TL;DR
-StrongDM describes a “software factory” where LLM agents, not humans, write and review code from specs and rich, end‑to‑end “scenarios.” Quality is measured via probabilistic “satisfaction” across scenario runs inside a Digital Twin Universe of cloned SaaS APIs, enabling huge volumes of offline validation. They argue teams should aggressively spend on tokens (≈$1k/day/engineer) and abandon Software‑1.0 assumptions. HN readers like the compounding-correctness and fake‑service testing ideas but question the costs, hype, and unresolved validation problem.
+### TL;DR
 
-## Comment pulse
-- Token spend as productivity metric is divisive → some see $1k/day as absurd marketing, others equate it to replacing a junior engineer’s cost.  
-- Validation is bottleneck → generation is easy; trust still needs human experts, multi-agent checks, traffic replay, or formal methods to compare intent vs behavior.  
-- Hype vs substance → critics mock repackaged mocks and scant code; others say LLMs make many API fakes trivial—counterpoint: no quality or defect metrics yet.
+StrongDM describes a “software factory” where humans write neither code nor reviews: specifications and external scenarios drive agents that implement, run harnesses, and iterate toward probabilistic “satisfaction.” Because agents can rewrite or game tests, scenarios stay outside the codebase and run against behavioral twins of Okta, Jira, Slack, and Google services at scale. The team provocatively calls spending under $1,000 in daily tokens per engineer underutilization. Commenters questioned evidence, economics, repackaged mocking, and the unresolved intent-validation problem; supporters said generated fakes and well-harnessed agents can still converge on quality.
 
-## LLM perspective
-- View: Treat “no human-written code” as a forcing function to redesign specs, testing, and observability, not as dogma.  
-- Impact: If factories work, junior dev roles shrink while scenario designers, validators, and DTU maintainers become core high-leverage engineering specializations.  
-- Watch next: Benchmarks comparing factory-built vs human-built systems on defects, latency, and throughput at fixed spend on compute plus labor.
+### Comment pulse
+
+- Token spend became the flashpoint: $1,000 daily approaches $250,000 yearly—counterpoint: advocates said throughput, not input cost, determines whether it is rational.
+- Readers wanted products, histories, and failure data; calling API fakes a Digital Twin Universe looked grandiose despite practical value for integration testing.
+- Validation remained central: independent scenarios reduce reward hacking, but humans may still need to judge whether outputs match intent in irreversible cases.
+
+### LLM perspective
+
+- View: The factory’s innovation is validation architecture and economics, not code generation; its strongest claims need longitudinal evidence.
+- Impact: Engineering shifts toward specifications, simulations, scenario curation, and cost governance; responsibility for intent and production failures remains human.
+- Watch next: Products, unsquashed histories, defect escape rates, scenario coverage, human intervention, token efficiency, twin fidelity, and incident data.

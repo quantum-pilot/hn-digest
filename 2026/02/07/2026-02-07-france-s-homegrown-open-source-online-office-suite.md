@@ -3,18 +3,17 @@
 - Score: 666 | [HN](https://news.ycombinator.com/item?id=46923736) | Link: https://github.com/suitenumerique
 
 ### TL;DR
-France’s DINUM and partners are building La Suite numérique, an MIT‑licensed, fully open-source online collaboration workspace (docs, drive, video, messaging, people management) to reduce dependence on US cloud suites. It’s cloud‑first, built largely with Django/React, and integrates existing OSS like Matrix (chat), LiveKit (video), BlockNote and Yjs (collaborative editing). HN discussion centers on whether this really counts as an “office suite,” performance/architecture and funding realism, and how EU‑level digital sovereignty efforts (France, Germany, Netherlands) should be organized and financed.
 
----
+La Suite numérique is a French-government-led open-source workspace built by DINUM and ANCT with German and Dutch collaboration. Repositories cover collaborative notes and wikis, video meetings via LiveKit, file sharing, inboxes, team management, projects, design systems, and an AI chatbot; the displayed licenses include MIT and AGPL despite the profile’s blanket MIT claim. Commenters welcomed European digital sovereignty and reuse of Matrix, LiveKit, BlockNote, and Yjs, but disputed the submission’s “office suite” label. They also questioned Python performance, long-term funding and support, political durability, and parity with mature commercial products.
 
 ### Comment pulse
-- Sovereign stack → French Docs/Meet/Drive etc. reuse Matrix, LiveKit, BlockNote, Yjs; tied into German and Dutch initiatives for a shared EU workspace ecosystem.  
-- “Not a real office suite” → critics see it as slow, markdown-centric groupware needing massive, guaranteed funding—counterpoint: for many jobs, wiki/notes + collaboration is enough.  
-- Strategy and politics → some argue: redirect license budgets over a decade instead of new taxes; questions about resilience to government change and procurement paths for outside OSS vendors.
 
----
+- Sovereignty can be collaborative → public agencies assemble and fund reusable components across countries rather than replacing every layer in-house.
+- Product category remains disputed → notes, wiki, meetings, storage, and inboxes form a workspace, but lack familiar full office-authoring depth.
+- Independence requires continuity → counterpoint: license savings can fund development, yet staffing, support, governance, and political protection remain costly.
 
 ### LLM perspective
-- View: Framing it as “workspace” not “Office clone” is smart; collaboration and knowledge management matter more than pixel-perfect Word compatibility.  
-- Impact: If adopted widely, this could anchor a real EU public-sector OSS ecosystem, influencing standards, vendors, and educational institutions.  
-- Watch next: Performance benchmarks at scale, integration with LibreOffice/OnlyOffice, and long-term budget/mandate commitments across changing governments.
+
+- View: La Suite’s strongest claim is sovereign public stewardship of workplace infrastructure, not feature parity with Microsoft Office.
+- Impact: European administrations and vendors gain reusable building blocks, while taxpayers inherit maintenance and ecosystem coordination responsibilities.
+- Watch next: Government adoption, active-user counts, performance benchmarks, procurement savings, cross-country contributions, licensing consistency, support contracts, and resilience after elections.

@@ -2,15 +2,18 @@
 
 - Score: 81 | [HN](https://news.ycombinator.com/item?id=46928412) | Link: https://www.bbc.co.uk/news/articles/czr4rx04xjpo
 
-- TL;DR  
-Italian authorities report coordinated sabotage against northern rail lines just as the 2026 Winter Olympics open, including fires, cut signalling cables and a rudimentary explosive device near Bologna. Disruption on major high‑speed routes was significant but largely resolved within hours; there were no casualties and no group has claimed responsibility. Officials note similarities to rail sabotage during the 2024 Paris Olympics. Hacker News users debate Russian hybrid warfare, possible false‑flag narratives, and technical means of monitoring and hardening rail infrastructure.
+### TL;DR
 
-- Comment pulse  
-  - Pattern-of-attacks theory → Multiple recent rail incidents in Poland, Spain, UK, Italy suggest coordinated hybrid warfare, with Russia seen as most plausible sponsor.  
-  - False-flag suspicion → A minority argues Western governments might exaggerate or stage incidents to justify future actions—counterpoint: no evidence presented, speculation only.  
-  - Rail security and detection → Discussion of imaging trains and fibre-optic sensing shows tools, but deliberate sabotage of trackside gear remains hard to prevent.
+Police are investigating three suspected attacks on northern Italian railways that they believe were connected to the Winter Olympics. A track switch was burned near Pesaro; severed cables and a rudimentary explosive device were found near Bologna. Disruption on the Bologna–Venice corridor reached two-and-a-half hours, and Bologna’s high-speed railway closed; service was recovering Saturday. The ministry called it serious sabotage and compared it with attacks during the 2024 Paris Olympics. Nobody had claimed responsibility. Commenters discussed detection technology and speculated about hybrid warfare, without supplied evidence naming an actor.
 
-- LLM perspective  
-  - View: Repeated Olympic-adjacent rail attacks show major events are soft targets where modest disruption yields outsized media and economic impact.  
-  - Impact: Rail operators may harden signalling, add redundancy, and boost repairs, raising costs but improving resilience to varied physical attacks.  
-  - Watch next: Attribution efforts, any claim of responsibility, and whether EU coordinates monitoring and rapid-response for cross-border rail security incidents.
+### Comment pulse
+
+- Attribution remains open → commenters speculated about Russian hybrid warfare; counterpoint: no group claimed responsibility and the report named no actor.
+- Olympic timing raises concern → authorities believed the incidents connected to the Games, whose dispersed venues depend heavily on northern rail links.
+- Detection drew technical interest → commenters described inspection cars and fiber-optic sensing for finding growing cracks, broken rails, and axle pressure.
+
+### LLM perspective
+
+- View: The confirmed story is disruption plus an active sabotage investigation; motive, coordination, and perpetrator remain undetermined.
+- Impact: Even limited infrastructure damage can delay spectators, strain a major national hub, and force broader security inspections.
+- Watch next: Forensic findings, links among sites, responsibility claims, repair completion, Olympic transport effects, arrests, and changes to rail surveillance.

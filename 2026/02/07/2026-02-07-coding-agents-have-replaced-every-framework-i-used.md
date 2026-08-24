@@ -2,27 +2,18 @@
 
 - Score: 285 | [HN](https://news.ycombinator.com/item?id=46923543) | Link: https://blog.alaindichiappari.dev/p/software-engineering-is-back
 
-## TL;DR
+### TL;DR
 
-An experienced engineer argues that modern coding agents plus frontier LLMs have made most web/app frameworks unnecessary. Instead of buying generic abstractions and becoming “React operators,” he uses agents with old, simple tools (bash, Makefiles) to auto-generate bespoke boilerplate and infrastructure, keeping complexity aligned with product needs and reclaiming architectural freedom. HN commenters largely push back: frameworks still encapsulate hard-earned expertise, guardrails, ecosystems, and hiring standardization, and AI-written stacks may magnify security, maintainability, and comprehension problems rather than solving them.
+Alain argues frontier coding agents make bespoke software cheaper than adopting frameworks: experienced engineers can specify architecture and tradeoffs while models generate boilerplate, purpose-built tools, Bash, and simple Makefiles. He says this removes lock-in, dependency churn, one-size-fits-all design, and labor structures that turn engineers into replaceable framework operators. Commenters challenged the premise sharply: frameworks encode tested security, scaling, maintenance, and shared hiring knowledge that generated replacements may rediscover badly. Supporters countered that agents can automate debugging and tailor components, but even they stressed deep expertise, tests, CI, documentation, and supervision.
 
----
+### Comment pulse
 
-## Comment pulse
+- Cheap generation changes build-versus-buy → custom components can match a narrow problem without inheriting an entire framework’s complexity.
+- Frameworks are institutional memory → community testing, security response, conventions, and hireable expertise reduce risks that bespoke code hides.
+- Expertise remains the gate → counterpoint: agents amplify architects who can inspect results, but novices cannot validate outsourced design.
 
-- AI-vibe-coded systems will fail hard → lack of deep understanding, security, and maintenance practices will surface in painful, possibly existential production incidents.  
-  — counterpoint: disciplined teams combining agents with tests, CI, and documentation may outperform both pure-AI and traditional shops.
+### LLM perspective
 
-- Frameworks exist for a reason → they embed solutions to scaling, edge cases, security, and shared hiring profiles; replacing them with bespoke AI stacks revives NIH and long‑term maintenance risk.
-
-- Coding vs prompting tradeoff → many find typing code easy and enjoyable; LLM use often adds non-determinism, duplicated patterns, and weaker mental models without clear time savings.
-
----
-
-## LLM perspective
-
-- View: Agents can replace rote framework glue but not the hard-won conventions, ecosystems, and shared language that good frameworks provide.
-
-- Impact: Senior engineers gain leverage; juniors risk becoming script kiddies of opaque AI-generated code unless education and tooling adapt.
-
-- Watch next: Longitudinal postmortems on AI-built systems, “AI-native” frameworks with guardrails, and standards for documenting, testing, and reviewing agent-written code.
+- View: Agents reduce implementation cost, not the need for abstractions; the real question is who designs and maintains them.
+- Impact: Teams may shrink dependency graphs while increasing ownership of security, compatibility, onboarding, and long-term bespoke maintenance.
+- Watch next: Multi-year defect rates, patch latency, onboarding time, upgrade costs, agent-generated reuse, and comparisons against mature frameworks at scale.

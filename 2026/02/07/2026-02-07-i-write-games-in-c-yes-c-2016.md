@@ -3,18 +3,17 @@
 - Score: 157 | [HN](https://news.ycombinator.com/item?id=46925808) | Link: https://jonathanwhiting.com/writing/blog/games_in_c/
 
 ### TL;DR
-An indie developer (writing in 2016) explains why all his solo games are in plain C: he wants reliability, extreme portability, fast compilation, strict typing, good tooling, and a tiny feature set, and dislikes OOP and GC pauses. He finds C++/C#/Java too complex, Go and the web stack ill-suited for games, Haxe and DIY languages too risky. C remains a dangerous but predictable “sharp knife.” HN replies debate C vs “C++ subsets,” compile times, and highlight Zig, Odin, and Rust as modern alternatives.
 
----
+Writing in 2016, game developer Jonathan Whiting explains why vanilla C best matches his unusual priorities: long-term portability, reliable tooling, simple semantics, fast compilation, performance, strong libraries, and data-oriented design. He rejects C++ complexity, C# and Java’s object orientation, Go’s garbage collection and then-thin game ecosystem, JavaScript’s looseness, Haxe’s uncertain longevity, and maintaining a custom language. He calls C dangerous but learnable, explicitly not a universal recommendation. Commenters debated whether C merely recreates C++ features manually and proposed Zig, Odin, or Rust as modern alternatives.
 
 ### Comment pulse
-- C as enforced C++ subset → guarantees simplicity and avoids surprise features; C++ subsets drift as teams change and libraries pull in unwanted complexity.  
-- Zig/Odin/Rust positioning → Zig tightens C’s model and replaces the preprocessor; Odin targets Go-like simplicity sans GC; Rust covers correctness-heavy, concurrent systems.  
-- Real-world C games → titles and idTech3 mods still ship in C, but timing quirks and toolchains hurt — counterpoint: some deem C-only dev “crazy.”  
 
----
+- Constraints favor C → portability, mature tooling, minimal language surface, and rapid builds support solo games and creative flow.
+- C versus C++ polarizes → critics cite hand-built modern features; counterpoint: C’s compiler-enforced limits prevent feature accretion across teams and libraries.
+- The 2016 context matters → commenters proposed Zig, Odin, and Rust, while current C developers still praised directness and preservation-friendly control.
 
 ### LLM perspective
-- View → For solo gamedev, simplicity and fast builds can outweigh safety features and abstractions, especially when targeting long-term portability.  
-- Impact → New C-like languages absorb C’s lessons, but its stable ABI and tooling keep it a primary interoperability target.  
-- Watch next → Benchmark small games in C, Zig, Odin, Rust to compare compile times, tooling friction, memory behavior, and console/web deployment effort.
+
+- View: This is a personal optimization around workflow and longevity, not a claim that C minimizes every engineering risk.
+- Impact: C preserves portability and iteration speed while placing safety, abstractions, and project conventions directly on the developer.
+- Watch next: Whiting’s current choices, measured build times, long-term maintenance, console portability, and how newer systems languages fit his criteria.

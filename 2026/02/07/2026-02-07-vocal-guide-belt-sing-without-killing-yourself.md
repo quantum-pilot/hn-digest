@@ -3,18 +3,17 @@
 - Score: 256 | [HN](https://news.ycombinator.com/item?id=46922049) | Link: https://jesperordrup.github.io/vocal-guide/
 
 ### TL;DR
-A bilingual (EN/DA) web “vocal guide” catalogs 21 techniques across registers, styles, effects, embellishments, and dynamics, with warm‑ups, anatomy explanations, myth‑busting, and explicit safety flags for risky stuff like belting and distortion. It keeps familiar terms (chest/head/mix) while mapping them to Complete Vocal Technique modes, helping self‑taught singers avoid strain and navigate terminology. HN commenters largely praise the science‑aligned approach, suggest tightening it to current research, and stress that vocal coaching still matters.
 
----
+Vocal Guide is a bilingual, offline reference organizing 21 singing techniques across registers, styles, effects, embellishments, and dynamics, with prerequisites, exercises, anatomy, warm-ups, myths, and safety warnings. It treats belting as controlled projection rather than pushed yelling, maps traditional terms to Complete Vocal Technique, and urges stopping at pain and using a coach for advanced effects. Commenters welcomed the approachable lookup tool and its premise that singing is trainable, but requested voice-science alignment around head voice versus falsetto, more semi-occluded exercises, curated resources, and clearer limits versus instruction.
 
 ### Comment pulse
-- Singing is trainable coordination of antagonistic muscles; most “can’t sing” issues are underdeveloped control, improved by practice and good SOVT exercises — counterpoint: not everyone becomes enjoyable to hear.  
-- Voice science framing: head voice and falsetto are both M2, chest is M1; register use varies strongly by genre and sex/voice type.  
-- Some see “just a glossary” with generic YouTube searches and suspect AI authorship; author says it’s a human‑curated lookup tool, AI‑assisted, for learners and working singers.
 
----
+- Voice-science commenters disputed separating head voice from falsetto and recommended M1/M2 terminology—counterpoint: replies showed the literature and pedagogical vocabulary remain contested.
+- Semi-occluded vocal-tract exercises, especially straw phonation and lip trills, deserved greater prominence; experienced commenters still ranked a qualified teacher above any glossary.
+- Readers agreed singing improves through coordination and repetition; one reported that years of nightly singing transformed confidence and ability.
 
 ### LLM perspective
-- View: Strong starting point for a safe, terminology‑bridging reference; best for self‑taught singers who already experiment.  
-- Impact: Lowers injury risk, demystifies CVT vs traditional language, and may nudge more people toward formal lessons.  
-- Watch next: Add M1/M2 framing, more SOVT focus, vetted example videos, and clearer practice plans beyond descriptive text.
+
+- View: The guide is safest as structured orientation and shared vocabulary, not diagnosis or substitute for individualized feedback.
+- Impact: Beginners gain accessible practice entry points; singers attempting high-risk effects may gain false confidence if instructions outrun supervision.
+- Watch next: Evidence citations, register terminology, SOVT prominence, vetted demonstrations, accessibility, and whether users mistake a reference for coaching.

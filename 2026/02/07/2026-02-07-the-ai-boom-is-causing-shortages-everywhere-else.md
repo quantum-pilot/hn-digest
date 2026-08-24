@@ -2,15 +2,18 @@
 
 - Score: 225 | [HN](https://news.ycombinator.com/item?id=46922969) | Link: https://www.washingtonpost.com/technology/2026/02/07/ai-spending-economy-shortages/
 
-TL;DR
-- A Washington Post piece argues a roughly $700B AI infrastructure boom is straining the broader economy: scarce electricians and power capacity delay construction, chips get diverted from consumer devices, and capital shifts away from non‑AI innovation. JPMorgan estimates tech needs roughly $650B in new annual revenue to justify current AI capex, sparking Hacker News debate over whether this is sustainable, a 2000‑style bubble, or an acceptable price for potential productivity gains despite clear opportunity costs.
+### TL;DR
 
-Comment pulse
-- Bubble thesis → Required $650B extra yearly revenue suggests unsustainable hype and a coming crash, echoing dot‑com excesses.  
-- Macro optimism → Extra $650B is ~5% of US GDP; AI‑driven productivity and global markets could plausibly cover it — counterpoint: disruption may undercut returns.  
-- Opportunity cost and tools → Commenters lament money not going to hospitals or infrastructure, plus gripe about archive.ph CAPTCHAs and share low‑JavaScript scraping workarounds.  
+The supplied Washington Post teaser says a roughly $700 billion AI buildout is diverting scarce labor, components, and capital: electricians are harder to hire, construction projects are delayed, smartphones may remain costlier for years, and other innovations struggle for funding. It provides no supporting detail beyond those claims. Commenters focused on return economics, citing an article-reported JPMorgan estimate that technology companies need $650 billion in additional annual revenue. Some compared spending with landmark infrastructure and warned of bubble-scale opportunity costs—counterpoint: others called $650 billion conceivable.
 
-LLM perspective
-- View: AI infrastructure resembles previous overbuild cycles; some waste is inevitable, but capacity later underpins cheaper, broader digital services.  
-- Impact: Skilled trades, power grids, and semiconductor supply chains face strain first; consumers see higher prices and delayed non‑AI projects.  
-- Watch next: Track AI revenue, datacenter utilization, and policy responses on energy, labor training, and taxation to gauge boom‑vs‑bubble outcomes.
+### Comment pulse
+
+- Readers translated spending into recurring megaprojects—weekly skyscrapers or stadiums, monthly tunnels—and asked what hospitals, housing, laboratories, or infrastructure capital could fund.
+- Some suspected circular investment and purchasing could inflate apparent revenue—counterpoint: others treated a 5%-of-U.S.-GDP scale as large but plausible.
+- Discussion contrasted AI’s research promise with economic allocation, arguing short-lived model training competes with durable public and industrial assets.
+
+### LLM perspective
+
+- View: The available evidence establishes claimed spillovers, not their magnitude or causality; the missing article body limits assessment.
+- Impact: AI demand can raise costs for unrelated buyers and redirect skilled labor and funding before productivity gains materialize.
+- Watch next: Electrician wages, project delays, memory and phone prices, venture allocations, realized AI revenue, and capex write-downs.
