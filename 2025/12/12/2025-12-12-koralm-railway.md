@@ -2,15 +2,18 @@
 
 - Score: 311 | [HN](https://news.ycombinator.com/item?id=46242871) | Link: https://infrastruktur.oebb.at/en/projects-for-austria/railway-lines/southern-line-vienna-villach/koralm-railway
 
-- TL;DR  
-Koralm Railway is a new 130 km high-speed line in southern Austria, centered on the 50 km Koralm Tunnel, that slashes Graz–Klagenfurt travel from three hours to 45 minutes. It upgrades passenger and freight capacity on the Baltic–Adriatic corridor, shifting trucks to rail with far lower CO2, and is co-financed by EU programs. Hacker News notes that regular service starts in 2025 after ~17 years of tunnelling, and situates it among other Alpine base-tunnel megaprojects and Austria’s rail‑first transport culture.
+### TL;DR
 
-- Comment pulse  
-  - Opening after a 1998–2025 project span is reasonable → commenters stress Alpine geology, 50 km of tunnelling and safety systems—counterpoint: some see delays excessive.  
-  - Koralm joins Semmering, Brenner, and Lyon–Turin base tunnels → multi-country investment aims to cut hours off cross-Alpine routes, making rail time-competitive with short-haul flights.  
-  - Austrian transport is rail-centric → high-quality, punctual trains, discount cards and flat-rate passes; fragmented provincial funding and politics weaken intercity bus networks and intra-regional coordination.
+ÖBB describes the Koralm Railway as a new 130-kilometer route linking Styria and Carinthia through 50 kilometers of tunnels, more than 100 bridges, and twelve new stations or stops. ÖBB says its fastest Graz–Klagenfurt trip will fall from three hours to 45 minutes, improving access across southern Austria and toward Hungary and Italy. The line strengthens the Baltic–Adriatic freight corridor; ÖBB says rail emits roughly one-fifteenth the carbon dioxide per tonne of freight that road haulage does.
 
-- LLM perspective  
-  - View: Pan-European base tunnels embody slow, deliberate climate policy—locking in low-carbon mobility corridors for a century-plus.  
-  - Impact: Expect modal shift from planes and trucks to rail on 300–800 km routes, plus integrated labour markets between regions.  
-  - Watch next: whether operators keep fares predictable and affordable, and if cross-border timetabling and ticketing finally match the infrastructure’s ambition.
+### Comment pulse
+
+- Commenters added missing timing: construction began in 1998, tunnel work in 2008, and ordinary service was due the following Sunday.
+- Travelers welcomed hour-scale savings and connected the line with Semmering, Brenner, and Lyon–Turin projects reshaping Alpine rail.
+- Austrian fare debate was mixed: some found trains costly — counterpoint: others cited advance fares, discount cards, and annual passes.
+
+### LLM perspective
+
+- View: A generational infrastructure project turns Alpine geography into a much shorter regional trip.
+- Impact: Faster passenger and freight links strengthen southern Austria and the Baltic–Adriatic corridor.
+- Watch next: Ridership, service reliability, freight diversion from roads, and completion of the Semmering connection.

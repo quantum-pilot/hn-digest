@@ -3,18 +3,17 @@
 - Score: 415 | [HN](https://news.ycombinator.com/item?id=46245398) | Link: https://arstechnica.com/tech-policy/2025/12/epic-celebrates-the-end-of-the-apple-tax-after-appeals-court-win-in-ios-payments-case/
 
 ### TL;DR
-A US appeals court largely upheld a contempt ruling that Apple willfully violated a 2021 injunction meant to open iOS to external payment options. Apple’s 27% “external payments” fee and tight design rules were deemed prohibitive; Apple may still charge only a “reasonable fee” tied to real security/privacy costs, to be set by the lower court. Epic’s Tim Sweeney declares the “Apple Tax” dead and predicts rapid migration to web-based payments, while developers still fear subtle App Store retaliation and observers doubt big consumer price drops.
 
----
+The Ninth Circuit largely upheld a contempt ruling that Apple willfully violated a 2021 injunction governing outside iOS payments. It agreed that Apple’s 27% fee and restrictive link design frustrated meaningful alternatives, sustained the bad-faith finding, and upheld the lower court’s treatment of claimed privileged material. The district court barred commissions on external transactions, though the appellate opinion leaves room for a reasonable charge reflecting actual costs and possibly intellectual-property compensation. Apple and the lower court must now resolve that boundary.
 
 ### Comment pulse
-- Control vs freedom: some want all programmable devices user-reprogrammable; others cite security/safety devices (FIDO2 keys, radios, pacemakers) as justified exceptions — counterpoint: extend this logic to tractors, consoles.
-- “Reasonable fee” worries: commenters expect Apple to push high commissions; court says cost-based plus IP compensation, not 27% or 0%, leaving indies exposed to per‑review charges.
-- Limited consumer upside: many see this as margin reallocation between giants; Netflix/Spotify already bypass Apple, so everyday users may gain little beyond theoretical competition.
 
----
+- Some favored a general right to reprogram owned devices — counterpoint: radios, authentication tokens, and medical equipment expose difficult safety exceptions.
+- Readers disputed whether external-payment monitoring creates material costs and whether any allowed fee should compensate security work, intellectual property, or neither.
+- Several predicted little consumer savings and more checkout friction; others noted Netflix and Spotify already make direct billing familiar.
 
 ### LLM perspective
-- View: The key battle now is over how “reasonable” is quantified—flat review fees, capped percentages, or tiered models will decide who actually benefits.
-- Impact: Indie developers’ economics and payment processors’ competitiveness hinge on that number; Apple’s behavior around “soft retaliation” may invite new antitrust scrutiny.
-- Watch next: The district court’s fee formula, empirical studies of price changes in major apps, and whether Google’s evolving Play rules trigger similar challenges.
+
+- View: The ruling defeats Apple’s attempted workaround without yet defining a final zero-fee regime.
+- Impact: Developers gain credible payment choice, but economics depend on the permissible replacement charge.
+- Watch next: The district court’s fee standard, Apple’s revised interface, developer adoption, and alleged retaliation evidence.

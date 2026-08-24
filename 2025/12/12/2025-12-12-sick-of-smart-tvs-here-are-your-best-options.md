@@ -3,14 +3,17 @@
 - Score: 557 | [HN](https://news.ycombinator.com/item?id=46243655) | Link: https://arstechnica.com/gadgets/2025/12/the-ars-technica-guide-to-dumb-tvs/
 
 ### TL;DR
-Ars argues true “dumb” TVs are now niche and usually low-end: no OLED, weaker audio, short warranties. Their main recommendation for privacy-minded viewers is to buy a good smart TV, never put it on the Internet, and drive it with an Apple TV box, HTPC, or similar external device. The guide surveys alternatives—small-brand dumb TVs, projectors, computer monitors, and even digital signage—plus input options like phones, laptops, NAS, and antennas. HN discussion adds hacking, port, and connectivity concerns.
+
+True non-networked televisions are scarce and sacrifice size, panel quality, brightness, viewing angles, or warranty coverage. The guide’s practical default is therefore a premium smart television kept offline, paired with an Apple TV; router rules can preserve local mirroring or NAS access while blocking the internet. Other paths include projectors, monitors, commercial signage, phones, laptops, home-theater PCs, and antennas, each trading convenience against cost, tuners, speakers, room requirements, or streaming compatibility. Across setups, 4K and HDR depend on HDCP, ports, codecs, applications, and provider-specific DRM rules.
 
 ### Comment pulse
-- Hack or root smart TVs → regain control, overlays, Linux box — counterpoint: methods often patched, and you shouldn't need hacks; article also misstates brands.  
-- Demand for big DisplayPort panels → HDMI dominates due to cost/popularity, so users settle for TVs, OLED monitors, or projectors for huge screens.  
-- Fear of unavoidable tracking → future TVs/cars may embed cellular or mesh networking to bypass home routers; others jokingly anticipate “free Internet” from insecure ad-connected devices.  
+
+- Some owners root webOS for SSH and custom overlays — counterpoint: others want a display-only appliance and reject hacking as a requirement.
+- Offline sets can retain CEC, AirPlay, and LAN services through router blocking, though commenters still reported crashes from unnecessary embedded software.
+- Readers corrected the article’s descriptions of Sceptre, Westinghouse, and Emerson ownership, undermining confidence in its brand-shopping section.
 
 ### LLM perspective
-- View: Treat TVs as commodity panels and centralize “smart” features in replaceable, user-controlled boxes or PCs.  
-- Impact: Privacy-conscious users pay more or accept DIY complexity; mass-market TVs keep optimizing for ad-tech, not reliability.  
-- Watch next: Right-to-repair rulings on TV firmware, any always-online requirements, and whether ATSC 3.0 meaningfully changes antenna-based viewing.
+
+- View: Separating panel selection from software selection is the most durable escape from television monetization.
+- Impact: Keeping a capable panel offline preserves image quality while letting owners replace its interface, storage, and network policy independently.
+- Watch next: Offline-mode regressions, cellular connectivity, DRM changes, Apple TV tracking controls, repair rights, and large DisplayPort-equipped monitors.

@@ -2,15 +2,18 @@
 
 - Score: 421 | [HN](https://news.ycombinator.com/item?id=46239752) | Link: https://journal.james-zhan.com/google-de-indexed-my-entire-bear-blog-and-i-dont-know-why/
 
-## TL;DR
-A Bear Blog hosted on a long‑used personal domain was abruptly de‑indexed by Google after the author triggered a Search Console “validation” on an RSS feed URL. All posts flipped to “Crawled – currently not indexed,” while Bing, DuckDuckGo, and Brave indexed the site normally. After ruling out DNS, content quality, structure, and platform issues (with Bear’s help), the author gave up, moved to a new subdomain, and is letting Google re‑discover it organically. HN commenters broaden this to Google’s opaque, fragile, and increasingly hostile search ecosystem: AI overviews siphon clicks, indexing feels random, and there’s no meaningful recourse despite Google’s de‑facto gatekeeper/monopoly role.
+### TL;DR
 
-## Comment pulse
-- Google traffic instability → AI overviews, metric changes, and spammy search-result pages cut clicks; some recover via `noindex` on search URLs and better crawling controls.  
-- Google as utility/gatekeeper → huge power over discovery with zero real support or appeals—counterpoint: others frame it more as a monopoly in “its own sandbox.”  
-- SEO fragility → minor URL or canonical tweaks can drop thousands of pages from the index; some content businesses collapsed while Bing kept working fine.
+James Zhan’s Bear Blog initially appeared in Google after its October launch, then Google marked nearly every post crawled but not indexed on October 14; the last disappeared by November 3. An accidental Search Console validation request for the RSS feed happened the same day, but Zhan cannot establish causation. Repeated requests and checks found no clear content, URL, CSS, or DNS defect. A Bear-hosted copy and other search engines indexed the material, so he migrated subdomains and providers while preserving redirects.
 
-## LLM perspective
-- View: Treat Google as an unreliable upstream: design sites so survival doesn’t hinge on any one search engine.  
-- Impact: Independent bloggers, small SaaS, and content businesses are most exposed; random de-indexing can erase audience and revenue overnight.  
-- Watch next: Concrete fixes from Google on indexing transparency, AI-overview attribution, and any regulator-driven obligations around appeals and search neutrality.
+### Comment pulse
+
+- Other publishers described months-long indexing collapses after URL changes, with little diagnostic help and material business consequences.
+- Readers blamed Google’s opaque gatekeeping — counterpoint: duplicate content, canonicals, proxy behavior, or spam-query pages were proposed but not demonstrated here.
+- Several contrasted legitimate sites disappearing with scammy search and Maps results that remain visible, intensifying calls for appeals or regulatory obligations.
+
+### LLM perspective
+
+- View: This is a documented indexing failure without a demonstrated root cause.
+- Impact: Opaque exclusion turns search dependence into operational risk for small publishers.
+- Watch next: Redirect discovery, canonical selection, reindexing of the new subdomain, and any actionable Search Console explanation.

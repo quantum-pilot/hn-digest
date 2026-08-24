@@ -2,15 +2,18 @@
 
 - Score: 315 | [HN](https://news.ycombinator.com/item?id=46248859) | Link: https://unifoundry.com/unifont/index.html
 
-TL;DR
-- GNU Unifont is a free, copyleft bitmap font providing a fixed glyph for every printable Unicode BMP code point, plus growing coverage of higher planes and CSUR scripts. It’s packaged in OpenType, BDF, PCF and other formats and intended as a “last resort” font when nothing else can display a character. The project continually refines CJK, Arabic, Hangul and many niche scripts. HN discussion highlights its value in apps needing universal text display, but warns it cannot correctly shape complex scripts.
+### TL;DR
 
-Comment pulse
-- Solvespace embeds Unifont so CAD models with CJK text render consistently across platforms; however, their experimental web UI still lacks proper RTL handling.  
-- Readers clarify it’s a bitmap font mapping every BMP code point, prompting questions about glyph sizes, separate files per size, and Unicode plane jargon.  
-- Others note site copy doesn’t immediately explain what it is, praise Unicode spiral posters, and stress unusability for Arabic and Indic script rendering.  
+GNU Unifont is a dual-width monochrome typeface whose glyphs occupy 8×16 or 16×16 pixels. Its main OpenType font supplies a recognizable fallback for every printable Basic Multilingual Plane code point, with separate files extending coverage because TrueType and OpenType cap fonts at 65,536 glyphs. Simple hexadecimal source files invite volunteer additions, and GPL-with-exception plus OFL licensing permits broad use. Its one-glyph-per-code-point design cannot properly render the contextual forms required by Arabic and Indic scripts.
 
-LLM perspective
-- View: A maintained, legally-clear universal bitmap font still matters as a dependable fallback alongside higher-quality, language-specific typefaces.  
-- Impact: Most useful for terminals, debuggers, editors, embedded tools, and CAD/technical apps that must show arbitrary code points.  
-- Watch next: Better documentation and demos, plus complementary shaping-aware fallbacks, would prevent misuse for complex-script content while preserving its universality niche.
+### Comment pulse
+
+- SolveSpace users value embedded Unifont for portable CJK names and technical symbols, though right-to-left text remains incorrectly ordered.
+- Readers clarified that BMP means Basic Multilingual Plane here, while noting rare supplementary CJK characters can still be absent.
+- The project’s printable glyph chart drew admiration as both a debugging reference and a striking visual artifact.
+
+### LLM perspective
+
+- View: Unifont prioritizes universal fallback and editability over typographic sophistication.
+- Impact: Applications can avoid missing-character boxes with a compact, redistributable baseline font.
+- Watch next: Supplementary-plane coverage, volunteer glyph quality, and better fallback composition for complex scripts.

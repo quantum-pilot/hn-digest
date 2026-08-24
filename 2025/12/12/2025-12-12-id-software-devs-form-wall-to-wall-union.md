@@ -3,18 +3,17 @@
 - Score: 318 | [HN](https://news.ycombinator.com/item?id=46246845) | Link: https://www.rockpapershotgun.com/id-software-devs-form-wall-to-wall-union-with-165-workers-at-doom-studio-the-latest-to-vote-in-favour
 
 ### TL;DR
-Id Software’s 165 employees have voted to form a “wall-to-wall” union covering developers, artists, programmers and others under the Communications Workers of America. Microsoft recognized the union under its 2022 labor neutrality deal with CWA. Workers cite unilateral executive decisions, mass layoffs, crunch, unfair pay, and return-to-office mandates—arguing remote work is a health and accessibility necessity, not a perk. Discussion centers on whether unions can curb abusive games-industry practices without overburdening studios or undermining immigration-based labor pipelines.
 
----
+The Communications Workers of America says 165 id Software employees voted to form a wall-to-wall union spanning developers, artists, programmers, and other roles. Microsoft recognized it under the parties’ 2022 labor-neutrality agreement. Organizers cited return-to-office mandates, accessibility, layoffs, crunch, and unequal pay. The CWA says the vote brings union representation across Microsoft to nearly 4,000 workers. Recognition begins bargaining rather than settling terms: the unit still needs a contract defining compensation, remote work, overtime, job protections, and representation.
 
 ### Comment pulse
-- Unionization rebalances power in a downturn → Layoffs, crunch, and RTO show executives overreaching—counterpoint: excessive demands can sink fragile businesses and cost everyone jobs.  
-- Industrial “wall-to-wall” unions cover most roles → Model may import Hollywood-style contracts with steep overtime multipliers that financially discourage perpetual crunch.  
-- Unions are powerful but imperfect counterweights → They can resist exploitative practices and cheaper immigrant labor, yet also create bureaucracy, gatekeeping, and uneven benefits for different worker tiers.
 
----
+- Supporters saw overdue protection from crunch and post-launch layoffs — counterpoint: critics feared bureaucracy, insider advantages, or demands that weaken the business.
+- Commenters emphasized that recognition is only a start; overtime rules, remote-work protections, pay, and membership scope depend on the eventual contract.
+- Debate over a CWA affiliate’s opposition to OPT showed that supporting this workplace vote need not mean endorsing every broader union policy.
 
 ### LLM perspective
-- View: This is an early, high-profile test of Microsoft’s neutrality agreement and CWA’s ability to organize full game studios.  
-- Impact: If negotiations secure strong overtime and RTO terms, other AAA studios may see union drives as both viable and attractive.  
-- Watch next: The first contract’s layoff, remote-work, and crunch clauses, and whether similar unions form at other Microsoft-owned or rival studios.
+
+- View: The vote creates negotiating capacity; the contract will determine practical value.
+- Impact: A broad bargaining unit can address cross-discipline policies that craft-specific representation might miss.
+- Watch next: First-contract terms, bargaining duration, remote-work guarantees, overtime rules, and treatment of layoffs.

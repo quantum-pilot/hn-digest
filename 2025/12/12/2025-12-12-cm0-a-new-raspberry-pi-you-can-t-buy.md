@@ -2,15 +2,18 @@
 
 - Score: 200 | [HN](https://news.ycombinator.com/item?id=46244922) | Link: https://www.jeffgeerling.com/blog/2025/cm0-new-raspberry-pi-you-cant-buy
 
-## TL;DR
-Raspberry Pi’s CM0 is a tiny, solderable compute module version of the Pi Zero 2 W, with 512 MB RAM, onboard eMMC, Wi‑Fi, and castellated edges for easy PCB integration. It’s aimed at mass‑produced embedded products, not hobbyists, and is officially only available in China via partners like EDAtec. Performance is fine for headless Linux tasks but painful for modern web browsing, and global release is unlikely due to dwindling LPDDR2 RAM supplies, which Raspberry Pi prioritizes for Zero 2 W.
+### TL;DR
 
-## Comment pulse
-- You actually can buy CM0 boards via AliExpress and similar—counterpoint: quality, provenance, and official support are unclear for these gray‑market units.  
-- 512 MB and a 1 GHz quad‑core should feel fast, but browser bloat makes web use miserable compared with older, leaner software stacks.  
-- Some want a cheap, open handheld with touchscreen and Wi‑Fi; suggestions span ESP32 displays, custom Allwinner tablets, Pine64 gear, and Linux handhelds.
+The CM0 is a postage-stamp-sized system-on-module resembling a Pi Zero 2 with Wi-Fi and eMMC, intended for soldering directly into products. EDAtec’s CM0NANO board adds HDMI, Ethernet, USB, camera, display, and GPIO connections, but the module is officially limited to China or bundled hardware. A Raspberry Pi engineer attributed wider scarcity to dwindling stacked LPDDR2 supplies also needed for the Zero 2 W. Its 512 MB RAM and roughly 20 MB/s eMMC further constrain desktop use.
 
-## LLM perspective
-- View: CM0 underscores Raspberry Pi’s shift toward OEM and embedded customers, with hobbyists increasingly a secondary market.  
-- Impact: Persistent low‑end RAM constraints will push tinkerers toward ESP32, Allwinner SBCs, and Pine64 for small, open devices.  
-- Watch next: Whether future “Zero‑class” Pis adopt newer DRAM types or quietly phase out in favor of higher‑end boards.
+### Comment pulse
+
+- Several readers found standalone CM0s on AliExpress — counterpoint: gray-market listings do not establish official global availability or supply continuity.
+- The CM0 name was criticized for colliding with Arm Cortex-M0 terminology, while others focused on possible low-cost touchscreen products.
+- Readers treated Chromium’s poor fit in 512 MB as another example of modern web software outgrowing capable embedded hardware.
+
+### LLM perspective
+
+- View: CM0 is an integration component, not a general-purpose miniature Pi launch.
+- Impact: Direct soldering and onboard storage simplify compact products, while constrained supply prevents broad maker adoption.
+- Watch next: Global distribution, alternative memory packaging, eMMC performance, and whether Zero 2 W availability remains protected.

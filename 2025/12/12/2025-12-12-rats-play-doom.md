@@ -3,18 +3,17 @@
 - Score: 391 | [HN](https://news.ycombinator.com/item?id=46248323) | Link: https://ratsplaydoom.com/
 
 ### TL;DR
-A small team built an open-source VR setup so rats can “play” DOOM: a motion-tracked treadmill ball, panoramic rat-sized headset, lever for shooting, and sugar-water reward system, all driven by Python software integrated with ViZDoom. Version 2 adds a wide-FOV AMOLED wraparound display, better sensors, and modular 3D-printed parts. Their three rats were only habituated before aging out, so full DOOM gameplay training never finished, but earlier versions showed rats readily learning ball–reward control.
 
----
+This open-source rodent VR rig combines a motion-tracked treadmill ball, curved AMOLED display, paw lever, air nozzles, motorized training aids, and timed sugar-water rewards with Python, Raspberry Pi, and a modified ViZDoom environment. Printable parts, circuitry, firmware, and control software are published for replication. The behavioral evidence is unfinished and internally inconsistent: the results section says rats navigated and fired, while the limitations and author’s comment say the current animals only reached habituation before aging out. The earlier rig did teach rats to run for rewards.
 
 ### Comment pulse
-- Make it more reproducible → Publish parametric CAD and costed BOM so others can adapt rigs for mice, cats, or cheaper builds.
-- Latency matters → Reward and action feedback must be under ~300 ms for effective learning—counterpoint: animals can still learn from delayed, abstract rewards.
-- Needs demos → Readers are baffled there’s no working video or proper “rat playing DOOM” footage or images; visuals are essential for hardware projects.
 
----
+- Builders requested parametric CAD and priced bills of materials; the author acknowledged both omissions and promised source files and costs.
+- Reward latency drew concern because the shown firing response lagged; the author agreed feedback under roughly 300 milliseconds trains more reliably.
+- Readers wanted working footage and continued trials, especially because the published page’s missing image and conflicting claims weaken validation.
 
 ### LLM perspective
-- View: This is a serious experimental platform masquerading as a novelty; it’s basically open-source rodent VR plus operant conditioning.
-- Impact: Neuroscience, animal behavior, and hobbyist communities gain a cheaper alternative to academic VR rigs, spurring odd but useful experiments.
-- Watch next: Parametric designs, latency benchmarks, real behavioral data, and follow-up builds from labs or hackers adapting it to other species or tasks.
+
+- View: The engineering platform is substantial, but the headline behavioral result remains unvalidated.
+- Impact: A modular, reproducible rig could support animal-learning experiments while keeping sensors, actuation, rewards, and game state synchronized.
+- Watch next: New subjects, welfare review, latency measurements, training logs, working video, CAD sources, and material costs.

@@ -2,15 +2,18 @@
 
 - Score: 512 | [HN](https://news.ycombinator.com/item?id=46248644) | Link: https://developer.apple.com/documentation/macos-release-notes/macos-26_2-release-notes#RDMA-over-Thunderbolt
 
-- TL;DR  
-Apple’s macOS Tahoe 26.2 adds RDMA over Thunderbolt 5, letting Macs communicate with much lower latency and enabling true tensor-parallel multi-node inference in the MLX framework. This makes high‑RAM M-series clusters attractive for running trillion-parameter models locally: relatively cheap, quiet, and power‑efficient, but with much lower throughput than NVIDIA GPU setups. HN discussion dives into pipeline vs tensor parallelism, price/performance trade-offs versus RTX/GH200, and the practical headaches of physically and remotely managing Mac-based clusters.
+### TL;DR
 
-- Comment pulse  
-  - MLX already chains Macs via pipeline parallelism; RDMA over Thunderbolt enables tensor parallelism, promising near-linear speedups if latency stays low.  
-  - For ~$50k, commenters compare an M3 Ultra RDMA cluster (3 TB, ~15 t/s) against RTX and GH200 setups trading capacity for much higher throughput.  
-  - Skeptics highlight Mac Studios’ awkward rackmounting, Thunderbolt cabling fragility, and GUI-heavy macOS upgrades—counterpoint: existing rack kits and automation tools partly mitigate those issues.
+macOS 26.2 adds RDMA over Thunderbolt 5, giving connected hosts lower-latency communication for distributed MLX inference. Commenters distinguish this from earlier multi-Mac demonstrations: pipeline parallelism can pool memory for models too large for one system, but does not necessarily speed generation; tensor parallelism could use the new transport to divide each layer and improve throughput if communication stays efficient. The capability makes large unified-memory clusters more plausible, while leaving price-normalized performance, topology, cabling, remote administration, and operational reliability to real benchmarks.
 
-- LLM perspective  
-  - View: RDMA over Thunderbolt turns consumer-ish Macs into credible mid-scale inference nodes, especially where memory capacity and energy efficiency matter most.  
-  - Impact: Best fit is labs and startups needing on-prem, privacy-preserving LLM inference without wrestling with GPU shortages or datacenter contracts.  
-  - Watch next: Watch: real-world RDMA latency, MLX tensor-parallel scaling benchmarks, Thunderbolt reliability in racks, and whether Apple ever sells M-chip cluster time.
+### Comment pulse
+
+- Macs drew praise for pooling unusually large unified memory, but critics said NVIDIA systems still win on throughput; posted comparisons lacked common benchmarks.
+- Rack users worried about inaccessible power buttons, loose cables, and upgrades; replies cited mounts, cable stabilizers, VNC, and automated reinstall tools.
+- Some feared commercial demand consuming high-memory Macs; others argued limited scaling would preserve their role as local experimentation machines.
+
+### LLM perspective
+
+- View: RDMA changes the feasible parallelism model; it does not establish end-to-end scaling, reliability, or economics.
+- Impact: MLX users can pool memory and potentially compute over commodity cables, expanding local inference for oversized models.
+- Watch next: Tensor-parallel benchmarks, prefill scaling, topology limits, cable failures, lifecycle tooling, power draw, and price-normalized throughput.

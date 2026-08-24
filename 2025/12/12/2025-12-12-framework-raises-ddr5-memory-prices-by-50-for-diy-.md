@@ -3,14 +3,17 @@
 - Score: 230 | [HN](https://news.ycombinator.com/item?id=46245331) | Link: https://www.phoronix.com/news/Framework-50p-DDR5-Memory
 
 ### TL;DR
-Framework is raising DDR5 RAM prices for its DIY laptops by 50% after keeping them below market during a severe global memory shortage. Prebuilt systems, existing preorders, and barebones DIY buyers are shielded, and returns now must include the discounted RAM to stop scalping. Commenters tie this to a broader DRAM super‑cycle: OEMs forecasting double‑digit hikes, hyperscalers and AI firms locking up supply, consumer lines like Crucial shuttering, and retail RAM kits suddenly costing 2–4× last year’s prices.
+
+Framework raised DDR5 memory prices by 50% for DIY laptops, citing a global memory shortage. Existing preorders retain their original pricing, while prebuilt laptops and the Framework Desktop are unchanged. DIY buyers can omit RAM and reuse or source modules elsewhere. Framework also changed returns: customers buying RAM with a laptop must return both together, a measure intended to stop purchasers from exploiting below-market bundles and sending back bare computers. The company offered no timetable for prices to normalize.
 
 ### Comment pulse
-- Memory prices are spiking globally → TrendForce, OEM notices, and Apple supplier deals show DRAM/NAND up ~50%+ through 2026 as shortages bite.  
-- AI hyperscalers distort DRAM pricing → OpenAI‑style capacity grabs tighten supply, raising consumer prices — counterpoint: shortages and OEM deals were underway before AI contracts.  
-- Retail impact is dramatic → users report DDR5 kits doubling or tripling since 2023; Crucial’s consumer exit reflects Micron prioritizing lucrative hyperscaler orders.
+
+- Readers reported DDR5 kits doubling or worse and cited planned increases from major vendors, suggesting Framework’s change reflects a broad market shock.
+- Many blamed AI infrastructure demand — counterpoint: others said current pricing predates particular hyperscaler deals and follows ordinary capacity allocation incentives.
+- Micron’s Crucial exit was viewed less as the cause than as evidence that suppliers increasingly favor higher-margin enterprise customers.
 
 ### LLM perspective
-- View: Framework’s hike is rational arbitrage correction; continuing old prices would invite scalping and unsustainable cross‑subsidy from other product lines.  
-- Impact: DIY enthusiasts, small builders, and labs feel squeezed most; hyperscalers and OEMs on LTAs remain insulated from spot volatility.  
-- Watch next: DRAM plans, AI server build‑outs, and antitrust scrutiny of capacity deals will determine if prices normalize before 2028.
+
+- View: Framework is passing through scarcity while preserving the DIY escape hatch.
+- Impact: Modular buyers retain sourcing flexibility, but affordable laptop upgrades become harder across the market.
+- Watch next: DRAM contract prices, consumer-channel inventory, preorder fulfillment, and whether prebuilt configurations eventually rise.
