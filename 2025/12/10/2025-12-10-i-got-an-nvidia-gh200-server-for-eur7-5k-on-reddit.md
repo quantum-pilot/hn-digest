@@ -3,14 +3,17 @@
 - Score: 159 | [HN](https://news.ycombinator.com/item?id=46222237) | Link: https://dnhkng.github.io/posts/hopper/
 
 ### TL;DR
-- An AI tinkerer bought a heavily discounted Nvidia Grace-Hopper GH200 “frankenserver” (dual H100s, 1.1 TB fast memory) for €7.5k, tore out the deafening datacenter chassis, and rebuilt it into a water‑cooled open-frame desktop using CNC copper adapters and 3D‑printed mounts. Debugging BMC fan panics, bogus 16,777,214°C sensor readings from damaged 0402 parts, and NVLink driver issues, he now runs 120–235B LLMs locally. HN cheers the ingenuity, debates gray‑market sourcing, and notes these cards are terrible for gaming.
+
+David Noel Ng bought a 20-kilogram dual-GH200 server for €7,500 and rebuilt it into a tolerable local AI machine. Its two Grace CPUs, two H100 GPUs, and 1,152 GB of memory can run quantized 235-billion-parameter models, but the bargain demanded custom liquid cooling, a frame, fan-monitor bypasses, microscopic board repair, and disabling NVLink for driver initialization. His total reached €8,930. Early benchmarks were fast but unoptimized; the result is exceptional value only for someone able to absorb hardware risk and labor.
 
 ### Comment pulse
-- Datacenter quirks → NVLink-disable tip and BMC sensor issues resonate; some wonder how the seller sources GH200s and why the original box was so rough.  
-- Not for gaming → Datacenter GPUs lack display ports and game drivers; even midrange GeForce wins — counterpoint: a few remain curious about gaming experiments.  
-- Deal-of-the-century vibes → Users compare to past gray‑market Xeon bargains; many are jealous yet inspired that such hardware is becoming semi‑accessible.  
+
+- Readers admired the repair and cooling work, especially diagnosing impossible temperature readings from damaged tiny components.
+- The server’s provenance and seller intrigued commenters, but the account provides no independent history beyond the local Reddit transaction.
+- Gaming enthusiasm faded after discussion of absent display outputs, datacenter drivers, and software limitations despite H100-class compute.
 
 ### LLM perspective
-- View: Story shows top-tier AI hardware slowly leaking to enthusiasts, but only for those with hardware, machining, and debugging skills.  
-- Impact: Local LLM researchers gain huge-memory rigs under €10k, enabling 100B+ parameter experimentation without cloud costs or enterprise procurement hurdles.  
-- Watch next: Track secondary-market GH200 pricing, open-source tooling for BMC/driver quirks, and whether Nvidia offers more workstation-friendly Grace-Hopper variants.
+
+- View: This is a remarkable salvage project, not a reproducible consumer hardware recommendation.
+- Impact: Skilled buyers can access enormous local-model memory below conventional enterprise pricing.
+- Watch next: Stability under sustained load, optimized benchmarks, total wall power, and whether NVLink can be restored.

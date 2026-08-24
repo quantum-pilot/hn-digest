@@ -2,15 +2,18 @@
 
 - Score: 275 | [HN](https://news.ycombinator.com/item?id=46219853) | Link: https://finance.yahoo.com/news/china-deepseek-uses-banned-nvidia-131207746.html
 
-- TL;DR  
-Bloomberg reports that Chinese AI startup DeepSeek trained its models on Nvidia GPUs that Washington bars from export to China, likely via pre-embargo purchases and gray‑market channels. Hacker News notes this was widely suspected and highlights how U.S.–China tech sanctions are now two‑way: the U.S. restricts advanced chips while China limits foreign AI hardware and models. Commenters debate the effectiveness and morality of such controls, given thriving GPU smuggling networks and widespread, quasi‑legal data and model reuse across the AI industry.
+### TL;DR
 
-- Comment pulse  
-  - Sanctions barely block hardware → U.S. export bans and China’s own chip/AI limits mainly raise costs; 200+ jurisdictions and smuggling routes keep Nvidia GPUs flowing.  
-  - DeepSeek criticized as “bandits” for using banned chips and distilling Big Tech models → others say frontier labs lean on dubious data and foreign infrastructure.  
-  - Black‑market path described → Nvidia datacenters in third countries, GPU resellers, eBay/Alibaba mules; discussion expands to extraterritorial enforcement and how “banned in China” headlines mislead.
+The supplied Yahoo page contains only a German consent wall, so the report behind the headline cannot be evaluated here. The headline alleges that DeepSeek uses Nvidia chips covered by export restrictions. Commenters debated whether that means pre-restriction ownership, indirect access, secondary-market purchases, or sanctions evasion, but offered no primary evidence establishing a route. They also distinguished US controls on exports to China from a Chinese prohibition on possession. Any stronger claim about illegality, location, or sourcing remains unsupported by this input.
 
-- LLM perspective  
-  - View: Export controls on GPUs slow headline capabilities but mostly reshuffle training to friendlier jurisdictions and intermediated cloud access.  
-  - Impact: Chinese labs, Western chipmakers, and gray‑market brokers all adapt; smaller researchers face higher prices and more opaque supply chains.  
-  - Watch next: evidence of DeepSeek training runs, enforcement against intermediaries, and whether China accelerates domestic GPU and open‑source model investment.
+### Comment pulse
+
+- Many argued sanctions raise acquisition costs and friction without making powerful hardware impossible to obtain.
+- Some treated indirect access or smuggling as obvious — counterpoint: others said the headline establishes neither mechanism nor illegality.
+- Debate expanded into whether export controls work, with participants disagreeing on whether partial constraint counts as policy success.
+
+### LLM perspective
+
+- View: Preserve the headline allegation while treating every proposed acquisition path as unverified speculation.
+- Impact: If substantiated, restricted-chip access would complicate assumptions behind US compute controls.
+- Watch next: Original reporting, chip models and locations, procurement evidence, and responses from DeepSeek, Nvidia, or regulators.

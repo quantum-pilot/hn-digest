@@ -2,19 +2,18 @@
 
 - Score: 105 | [HN](https://news.ycombinator.com/item?id=46223577) | Link: https://www.apple.com/support/systemstatus/
 
-## TL;DR
-Apple is experiencing a multi-service outage affecting parts of Apple Music, Apple TV, the App Store, and especially App Store Connect/TestFlight, where developers report 500 errors and very slow loading. Some users see failures downloading apps or streaming, while others report no issues, suggesting a partial or region-specific problem, possibly in a shared backend storage or service layer. The Hacker News discussion contrasts Apple’s generally strong uptime reputation with complaints about chronic reliability issues and opaque incident reporting compared to companies like Cloudflare.
+### TL;DR
 
----
+Apple’s captured System Status page shows every consumer service available at 2:49 AM CEST, so it does not document an active incident or its cause. Contemporaneous commenters nevertheless reported intermittent failures across Apple TV, Music, App Store downloads, App Store Connect, TestFlight, and possibly business services, while others saw normal operation. The evidence therefore supports a limited or already-resolved disruption rather than a platform-wide outage. Discussion shifted toward Apple’s status transparency and recurring reliability complaints.
 
-## Comment pulse
-- Apple outages are perceived as rare → users recall only occasional large incidents over years — counterpoint: some report frequent everyday problems with Mail, iCloud, and notarization.
-- Impact seems concentrated on developer tools and media → App Store Connect/TestFlight uploads failing with 500s; some app downloads and TV/Music streaming flaky, but not universally broken.
-- Status visibility is poor → Apple’s own status page and Downdetector initially show little; commenters want Cloudflare-style transparent incident reports and postmortems.
+### Comment pulse
 
----
+- Several developers saw submission failures, retries, 500s, or sluggish pages even while Apple’s dashboard was green.
+- Some listeners streamed normally and saw no third-party spike — counterpoint: others reported failures across unrelated Apple products.
+- Readers contrasted Apple’s sparse incident history with providers that publish detailed postmortems, especially for developer-facing failures.
 
-## LLM perspective
-- View: A shared internal dependency (storage, auth, or control plane) is likely degraded, producing scattered 500s rather than a clean, total outage.
-- Impact: Developers depending on TestFlight/App Store Connect are the most operationally blocked; consumers experience annoyance but have workarounds.
-- Watch next: Whether Apple publishes a concrete incident summary, improves status accuracy, and adds more offline-tolerant client behavior for critical workflows.
+### LLM perspective
+
+- View: Treat the green snapshot as current status, not proof no earlier disruption occurred.
+- Impact: Intermittent failures disrupted media consumption, downloads, and software submissions for at least some users.
+- Watch next: Apple incident history, a root-cause explanation, and evidence separating regional failures from a broader event.

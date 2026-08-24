@@ -3,18 +3,17 @@
 - Score: 920 | [HN](https://news.ycombinator.com/item?id=46213585) | Link: https://lwn.net/Articles/1049831/
 
 ### TL;DR
-Linux kernel maintainers agreed at the 2025 Maintainers Summit that Rust is now a core, permanent part of the kernel rather than an experiment. The “experimental” tag will be removed, signaling that Rust driver code can be relied on long‑term, even though core kernel infrastructure and the syscall ABI remain C-based. Commenters discuss which distros already ship kernels with Rust enabled, architecture and GCC support gaps, and how far maintainers must go to avoid breaking Rust code.
 
----
+Linux kernel maintainers agreed to remove Rust’s experimental label, signaling that the language is a permanent supported option for kernel development. The decision does not mean a Rust rewrite, stable internal APIs, or abandonment of architectures without Rust toolchains; today it mainly strengthens the path for new drivers and components. Commenters welcomed the milestone and noted some distributions already enable Rust, but highlighted continuing integration work when C-side interfaces change and concern about concentrated maintainer responsibility around Miguel Ojeda.
 
 ### Comment pulse
-- Rust driver support is now mature enough for real modules with little boilerplate; some distros already ship kernels with CONFIG_RUST and Rust-based features enabled.  
-- Rust is now “here to stay” symbolically; kernel policy still only stabilizes user‑space ABI — counterpoint: some assume this promises stronger Rust API stability.  
-- Architectures lacking usable Rust toolchains aren’t dropped; Rust currently targets drivers on supported arches, while core kernel remains C until broader compiler/arch coverage exists.  
 
----
+- Distribution support is already tangible → some kernels ship Rust enabled without exposing a new userspace contract.
+- Core integration stays asymmetric → Rust bindings absorb C subsystem churn, and unsupported architectures still constrain shared code.
+- Maintainer bandwidth worries readers → institutional commitment needs more than one clearly recognized lead.
 
 ### LLM perspective
-- View: This milestone mainly affects social trust: kernel people now treat Rust as a normal option, not a risky experiment.  
-- Impact: Driver authors gain confidence to invest in Rust infrastructure, abstractions, and training, expecting their code to live across many kernel releases.  
-- Watch next: Watch for more subsystems accepting Rust, additional architectures/toolchains (e.g., GCC Rust) landing, and clearer documentation of Rust-specific kernel stability expectations.
+
+- View: This is a governance milestone, not a rewrite mandate.
+- Impact: Driver authors can treat Rust as durable infrastructure.
+- Watch next: Additional maintainers, architecture coverage and upstream Rust drivers.

@@ -2,19 +2,18 @@
 
 - Score: 469 | [HN](https://news.ycombinator.com/item?id=46220488) | Link: https://www.heise.de/en/news/Valve-HDMI-Forum-Continues-to-Block-HDMI-2-1-for-Linux-11107440.html
 
-## TL;DR
-Valve’s new Linux-based Steam Machine has HDMI 2.1-capable AMD hardware but is software-limited to HDMI 2.0 because the HDMI Forum’s NDA forbids open-source 2.1 implementations. AMD already wrote a working Linux driver, but it was rejected under these terms, leaving 4K120 and standardized VRR only via workarounds like chroma subsampling or DisplayPort‑to‑HDMI 2.1 adapters with limitations. Hacker News focuses less on this single box and more on how closed, paywalled standards structurally conflict with open-source drivers.
+### TL;DR
 
----
+Valve says its AMD-based Steam Machine has working HDMI 2.1 hardware, but the HDMI Forum’s confidentiality rules still prevent an open-source Linux implementation; AMD says a functional driver was rejected in 2024. The system therefore exposes HDMI 2.0 behavior, reaching 4K/120Hz only through text-degrading chroma subsampling while VRR uses FreeSync on compatible displays. HN readers criticized closed standards and favored DisplayPort, while noting active adapters often lose VRR and that the machine’s performance may rarely exceed the constrained modes anyway.
 
-## Comment pulse
-- Leaked HDMI 2.1 specs exist, but using them taints any “clean‑room” stack, complicating legal defense of an unofficial open-source implementation.  
-- Debate: standards bodies recoup R&D by selling access vs. FRAND obligations and the incompatibility of HDMI 2.1’s NDA with open-source licenses — counterpoint: without IP revenue, many wireless-era standards wouldn’t exist.  
-- Many advocate abandoning HDMI for royalty-free DisplayPort; others note TVs are HDMI‑only, so Linux gamers are stuck with adapters, blobs, or reduced capabilities.
+### Comment pulse
 
----
+- The barrier is disclosure, not access fees → paid members still cannot publish the required open driver code.
+- Reverse engineering remains legally fraught → leaked specifications could undermine claims that an implementation was independently derived.
+- Adapters solve bandwidth incompletely → active converters may omit VRR, while passive ones retain the original driver limitation.
 
-## LLM perspective
-- View: HDMI’s licensing model is increasingly misaligned with an ecosystem where major GPUs ship open-source Linux drivers.  
-- Impact: Pressure grows on vendors to add binary blobs, on users to favor DisplayPort, and on standards bodies to revisit open-source terms.  
-- Watch next: Any HDMI Forum policy shift, a community clean-room 2.1 stack, or TV vendors starting to ship DisplayPort alongside HDMI.
+### LLM perspective
+
+- View: Proprietary interface rules can nullify capable hardware on open systems.
+- Impact: Linux console buyers face compromised text, refresh or adapter choices.
+- Watch next: Forum policy, binary workarounds and TV DisplayPort adoption.

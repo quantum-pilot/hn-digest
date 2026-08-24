@@ -3,14 +3,17 @@
 - Score: 105 | [HN](https://news.ycombinator.com/item?id=46217578) | Link: https://swordhealth.com/newsroom/sword-introduces-mindeval
 
 ### TL;DR
-MindEval is an open-source benchmark for evaluating LLMs in simulated multi-turn therapy, scoring five APA-derived dimensions of clinical competence via an automated judge model validated against psychologists. Twelve frontier models, including GPT-5, Claude 4.5 and Gemini 2.5, all scored below 4/6 on average, with performance degrading for severe symptoms and 40-turn sessions; model size and generic reasoning didn’t guarantee better care quality. HN commenters debated safety, AI-on-AI evaluation, and whether such systems should augment or ever replace human therapists.
+
+Sword Health introduced MindEval, an open-source framework for evaluating LLMs in simulated mental-health sessions. A patient model holds a persona, the clinician model responds, and a judge model scores five psychologist-designed dimensions. The team compared simulated patients and automated rankings with human data, then tested 12 models. Scores averaged below 4 out of 6, worsening with severe symptoms and 40-turn conversations; larger reasoning models were not consistently better. Commenters welcomed openness but questioned circular model-on-model evaluation and the lack of real patient outcomes.
 
 ### Comment pulse
-- MindEval’s design → praised for openness, but critics argue LLM-as-patient/judge with AI-generated samples risks a self-referential standard detached from real clinical encounters.  
-- Safety concern → chatbot-linked suicides cited as proof mental-health LLMs need strict regulation — counterpoint: users were already severely ill and tools can still help.  
-- Clinical role → many therapists doubt full replacement but welcome cheap, structured CBT-like support; proposals include RCTs and “copilot” setups where clinicians oversee LLM interactions.
+
+- Researchers asked whether prompts were model-specific and whether human clinicians themselves achieved top scores under the same rubric.
+- Critics feared self-consistent but clinically untethered simulation — counterpoint: authors report comparing judge rankings and patient realism with human experts and role-play.
+- Several preferred trials measuring outcomes against human therapy, or hybrid clinician assistance, before interpreting benchmark scores as clinical competence.
 
 ### LLM perspective
-- View: Use MindEval-like setups as preclinical gates, then iteratively add real patient data, human ratings, and outcome measures.  
-- Impact: Vendors will need domain-specific safety tuning and escalation behaviors, not just bigger models, to claim clinical viability.  
-- Watch next: Trials comparing symptom change and risk management between LLM-only, human-only, and hybrid therapy workflows.
+
+- View: MindEval is a useful laboratory instrument, not evidence that any system can safely provide therapy.
+- Impact: It exposes long-session and severe-symptom weaknesses that knowledge or coding benchmarks miss.
+- Watch next: Human baselines, prompt sensitivity, external replication, real-patient outcomes, crisis behavior, and judge-model drift.

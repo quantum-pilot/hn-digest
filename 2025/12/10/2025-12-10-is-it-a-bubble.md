@@ -2,19 +2,18 @@
 
 - Score: 119 | [HN](https://news.ycombinator.com/item?id=46220640) | Link: https://www.oaktreecapital.com/insights/memo/is-it-a-bubble
 
-## TL;DR
-Howard Marks argues today’s AI boom looks like past “inflection bubbles”: speculation is clearly high, but the underlying technology is real and transformative. He separates bubbles in business behavior (massive capex, circular deals, heavy debt) from bubbles in investor psychology (lottery-ticket valuations, FOMO). AI’s winners, profitability, industry structure, and asset lifetimes are radically uncertain, making leverage especially dangerous. His conclusion: AI will likely reshape the economy and still destroy a lot of capital—so participate, if at all, via cautious, selective equity, not aggressive debt.
+### TL;DR
 
----
+Howard Marks argues that AI’s transformative potential and an investment bubble can coexist. Novelty, uncertain winners, circular financing, data-center commitments, startups, off-balance-sheet vehicles, and long-dated debt against fast-obsolescing equipment resemble technology booms. Yet today’s products have large user bases, growing revenue, profitable incumbents, and lower selected incumbent valuations than dot-com leaders. Since bubbles are clearest retrospectively, Marks recommends selective exposure rather than going all-in or staying out. His postscript worries that automation could erode employment, purpose, tax revenue, and professional training.
 
-## Comment pulse
-- AI writes all the code now → Strong pushback; real teams use LLMs for scaffolding/boilerplate, with humans doing hard design and debugging — counterpoint: rapid revenue growth of AI coding tools shows genuine adoption.
-- AI future anxiety → Some developers actively hope it underdelivers to preserve craft and jobs; others note tech is still just pattern-matching, with limits and historical job adaptation.
-- Marks on AI → Many see him overreaching technically (misunderstanding LLMs) yet accept his financial read: valuations are frothy, use of debt and circular deals is worrying.
+### Comment pulse
 
----
+- Developers challenged Marks’s claims that advanced teams no longer write code and that AI coding is already world-class.
+- Pessimists feared labor displacement and loss of craft — counterpoint: others cited historical net job creation and useful human-AI hybrid workflows.
+- Readers broadly separated frothy valuations from genuine technical change, arguing that a correction would not invalidate practical AI adoption.
 
-## LLM perspective
-- View: Treat AI like early internet—assume long-term significance, but price individual investments as highly uncertain options, not inevitabilities.
-- Impact: Greatest risk lies with leveraged infrastructure builders and late-stage “story” startups, not diversified incumbents using cash.
-- Watch next: Track AI-unit profitability, data-center utilization, and credit spreads on AI-linked debt to see when exuberance turns into real systemic stress.
+### LLM perspective
+
+- View: Marks’s strongest contribution is debt discipline; his technical and labor claims deserve more skepticism.
+- Impact: AI overbuilding may accelerate adoption while leaving equity and especially debt investors with severe losses.
+- Watch next: Revenue versus capex, SPV exposure, hardware residual values, startup defaults, employment transitions, and durable application demand.

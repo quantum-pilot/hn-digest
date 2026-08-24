@@ -2,19 +2,18 @@
 
 - Score: 255 | [HN](https://news.ycombinator.com/item?id=46220540) | Link: https://karpathy.bearblog.dev/auto-grade-hn/
 
-## TL;DR
-Karpathy built a “HN time capsule” that feeds December 2015 front-page posts plus their comment threads into GPT‑5.1 Thinking, which then summarizes each thread, researches what actually happened, and grades commenters for prescience or wrongness. The system also assigns an “interesting in hindsight” score and builds a hall of fame of historically accurate HN users. He frames it as both a fun archival tool and a glimpse of a future where cheap, powerful LLMs continuously audit our past claims and behavior.
+### TL;DR
 
----
+Andrej Karpathy built a time capsule that uses GPT-5.1 Thinking to assess December 2015 Hacker News articles and discussions for prescience, errors, interestingness, and participant performance. Opus 4.5 helped assemble the static site in about three hours; scoring 930 stories cost roughly $58 and one hour. He presents retrospective grading as practice for better forecasting and a preview of cheap, pervasive scrutiny. Commenters liked the historical replay but questioned underspecified grading, hindsight bias, and privacy implications.
 
-## Comment pulse
-- Accurate forecasting is often “boring but right” → incremental, already-priced-in trends beat flashy contrarian takes—counterpoint: low-surprise claims shouldn’t earn top prediction scores.  
-- People want richer historic views → replay visualizers and time-based sentiment analysis could reveal how discussions and moods evolve across a thread’s lifetime.  
-- Reputation-by-accuracy is tempting → ideas for browser extensions and stock-tip grading, but defining what counts as a prediction or “correct” remains underspecified.
+### Comment pulse
 
----
+- Readers wanted predictions weighted by how surprising they were at the time; obvious extrapolations otherwise dominate.
+- A proposed reputation system rewarded eventual accuracy — counterpoint: free-form comments rarely make falsifiable, consistently scoped predictions.
+- The email-history analogy alarmed some readers because automated retrospective profiling could make private archives feel dangerous to retain.
 
-## LLM perspective
-- View: This creates labeled data for long-horizon forecasting skill and for modeling which argument patterns age well.  
-- Impact: Could reshape online reputation, giving durable credit to consistently accurate, well-calibrated voices instead of momentary popularity.  
-- Watch next: Larger-scale retrospectives (across years and platforms), plus tools that let users opt out or redact sensitive historic content.
+### LLM perspective
+
+- View: The artifact is more useful for reflection than as an objective forecasting leaderboard.
+- Impact: Cheap model analysis can turn large archives into personalized reputational and predictive audits.
+- Watch next: Transparent rubrics, contemporaneous baselines, reproducibility, and safeguards for private or identity-linked histories.

@@ -3,18 +3,17 @@
 - Score: 143 | [HN](https://news.ycombinator.com/item?id=46223311) | Link: https://ankursethi.com/blog/gemini-api-key-frustration/
 
 ### TL;DR
-An individual developer tries to pay for access to Gemini 3 Pro via the Gemini CLI and runs into Google’s enterprise-first maze: many overlapping “Gemini” products, AI Studio vs Cloud Console, mandatory billing accounts, and intrusive payment verification (including ID and card photos) exacerbated by Indian banking rules. After repeated failures and mysterious 403s, access suddenly starts working after a “billing account reinstated” email. The experience contrasts sharply with OpenAI/Anthropic’s simple “enter card, get API” flow and fuels skepticism about Google’s developer focus.
 
----
+Ankur Sethi found creating a Gemini API key in AI Studio straightforward, but activating paid Gemini 3 Pro access became a three-hour maze across Google products and Cloud billing. In India, card setup triggered identity and card-image verification, whose uploader accepted only undocumented PNG files. Even after approval, project association appeared inconsistent and API calls returned 403 until a later reinstatement email. The experience eventually worked, but convinced him Google’s enterprise-oriented account system poorly serves individual developers. Commenters disputed whether billing problems should indict key creation.
 
 ### Comment pulse
-- Google’s UX is confusing; Cloud Console and AWS consoles feel hostile and opaque, wasting time and motivation.
-- Early AdWords let anyone self-serve with a credit card; today, onboarding is punishing and opaque, favoring agencies and large clients.
-- Some say getting a Gemini API key is straightforward and docs are clear—counterpoint: billing, regional KYC, and gemini-cli make real-world use brittle and unreliable.
 
----
+- Many shared stories of overlapping Google brands, hidden account state, and support loops that discouraged paid adoption.
+- Some said documentation makes key creation immediate — counterpoint: the author agreed and located the failure in billing activation.
+- Readers suggested Indian payment fraud and card rules may explain verification, without excusing the unclear format or delayed state propagation.
 
 ### LLM perspective
-- View: Google’s fragmented branding plus enterprise-centric billing flows create unnecessary friction for individual developers.
-- Impact: Solo devs and small teams may abandon Gemini despite model quality, skewing ecosystem toward competitors.
-- Watch next: Whether Google ships a unified, self-serve developer path (simple billing, clearer tiers) or doubles down on Cloud Console complexity.
+
+- View: The key flow works; the paid entitlement and billing state machine are the product failure.
+- Impact: Onboarding friction can erase model advantages before an individual developer evaluates them.
+- Watch next: Unified account status, explicit upload requirements, reliable project association, and actionable 403 diagnostics.

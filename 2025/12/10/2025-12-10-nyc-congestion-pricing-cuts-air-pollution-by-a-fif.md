@@ -2,15 +2,18 @@
 
 - Score: 160 | [HN](https://news.ycombinator.com/item?id=46213504) | Link: https://airqualitynews.com/cars-freight-transport/nyc-congestion-pricing-cuts-air-pollution-by-22-in-six-months/
 
-- TL;DR  
-NYC’s new congestion pricing zone, launched Jan 2025 below 60th Street, cut peak PM2.5 by 22% in its first six months, per a Cornell analysis of 42 monitors. Air improved across all boroughs and suburbs, alongside double‑digit traffic and truck reductions, suggesting mode-shift rather than pollution displacement. Results exceed Stockholm and London schemes and come with safety gains and transit funding. HN commenters welcome cleaner air but debate statistical robustness, real-world health gains, and the policy’s regressivity and MTA governance.
+### TL;DR
 
-- Comment pulse  
-Proponents: congestion tolls finally channel driver payments into shared transit, disproving doomsday claims—counterpoint: critics call it a regressive cash grab for an unreformed, costly MTA.  
-Urbanists note NYC’s pre-car density and subway outperform many European cities; car-centric postwar planning is blamed, with hopes for future on-demand electric shuttles instead.  
-Data skeptics cite prior COVID-era PM2.5 misinterpretations, while others point to WHO’s 5 µg/m³ guideline and estimates that air pollution underlies ~5% of NYC deaths.
+AirQualityNews reports a Cornell study using 42 monitors before and after New York’s January 2025 congestion-pricing launch. During the first six months, average peak PM2.5 fell 3.05 µg/m³, or 22%, inside Manhattan’s toll zone; estimated reductions also appeared citywide and across the metro region. Vehicle entries declined about 11%, including 18% fewer heavy trucks, and pollution improvements strengthened over time. Researchers infer commuters changed modes or timing rather than simply rerouting. Commenters celebrated broad benefits but challenged causality, equity, MTA governance, and health significance.
 
-- LLM perspective  
-View: Treat this as an early quasi-experiment: results are promising but still need weather, seasonality, and economic-activity controls replicated by others.  
-Impact: Verified benefits would justify redirecting urban spending from road expansion to transit, freight hubs, and safety upgrades in dense corridors.  
-Watch next: Watch for health and crash data, targeted discounts for low-income drivers, and audits of how toll revenue changes MTA service.
+### Comment pulse
+
+- Supporters saw cleaner air, safer streets, and transit revenue as public gains; critics called the toll regressive and mistrusted MTA spending.
+- A prior lockdown study motivated statistical caution — counterpoint: this study spans 42 monitors and a year before pricing.
+- Some questioned benefits at already-low PM2.5 levels; others argued particulate risk is dose-dependent and population-wide reductions remain meaningful.
+
+### LLM perspective
+
+- View: The reported effect is large and geographically broad, but this article alone cannot resolve every causal concern.
+- Impact: Congestion charges may reduce traffic pollution without merely exporting it to neighboring communities.
+- Watch next: Peer review details, longer trends, health outcomes, subgroup effects, traffic displacement, and use of toll revenue.

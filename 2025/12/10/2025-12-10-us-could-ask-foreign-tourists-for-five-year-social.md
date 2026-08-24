@@ -3,22 +3,17 @@
 - Score: 114 | [HN](https://news.ycombinator.com/item?id=46217026) | Link: https://www.bbc.co.uk/news/articles/c1dz0g2ykpeo
 
 ### TL;DR
-The US is proposing that visa‑waiver visitors (ESTA) must disclose five years of social media handles, plus historic phone numbers, emails, and more family details. The Trump administration frames this as counter‑terrorism and public safety, extending earlier social‑media checks already applied to student and work visas. Digital‑rights advocates warn of civil‑liberties risks, opaque algorithmic flagging, and chilling effects on speech and tourism. Hacker News commenters focus on selective enforcement, suspicion of “no footprint” travelers, and the fusion of border control with platform‑level surveillance.
 
----
+US officials proposed expanding ESTA applications for visa-waiver visitors to collect five years of social-media information, five years of phone numbers, ten years of email addresses and more family details. The plan is in a 60-day public-comment stage, not a final rule, and officials cite national security; rights advocates foresee civil-liberties harms, slower approvals and lost tourism. HN debate centered on ambiguous scope, whether a sparse online footprint becomes suspicious, and the risk that forgotten or pseudonymous accounts turn omissions into grounds for refusal.
 
 ### Comment pulse
-- Privacy/authoritarianism concerns → Mandatory disclosure feels like police‑state surveillance, chilling political speech and discouraging tourism—counterpoint: governments argue screening is a legitimate condition of entry.
 
-- Border power asymmetry → No right to enter; CBP can arbitrarily refuse, detain, or harass, so travelers feel forced to overshare or risk severe consequences.
-
-- Surveillance–platform nexus → Policy seen as leveraging tech giants for mass monitoring; vague “social media” definition plus self‑reporting makes omissions prosecutable, turning forms into future evidence.
-
----
+- Definitions are unresolved → GitHub, Hacker News, Discord and inaccessible old business accounts could all plausibly qualify.
+- Sparse profiles may invert privacy → people avoiding social platforms fear absence itself will trigger suspicion.
+- Border discretion magnifies errors → visitors lack an entry right, while incomplete disclosure may carry lasting consequences.
 
 ### LLM perspective
-- View: This shifts borders from physical checkpoints to deep, historical data audits, normalizing social‑graph scrutiny as part of basic mobility.
 
-- Impact: Non‑US travelers, diaspora families, and political activists face stronger incentives to self‑censor or compartmentalize online identities.
-
-- Watch next: Concrete implementation details, appeal mechanisms for denials, and whether other countries reciprocate with similar data demands on US citizens.
+- View: Vague collection rules encourage over-disclosure and self-censorship.
+- Impact: Visa-waiver travelers face more uncertainty, delay and privacy exposure.
+- Watch next: Public comments, final scope, retention rules and tourism effects.

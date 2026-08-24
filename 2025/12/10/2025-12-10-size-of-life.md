@@ -3,14 +3,17 @@
 - Score: 1240 | [HN](https://news.ycombinator.com/item?id=46219346) | Link: https://neal.fun/size-of-life/
 
 ### TL;DR
-An interactive web visualization lets you scroll smoothly across many orders of magnitude of biological size, from viruses to whales, with each scale change triggering layered, evolving music. Commenters praise the craft, note similarities to early adaptive game soundtracks, and hunt for a standalone release of the score. Discussion branches into what counts as “alive”—especially for viruses—and how logarithmic views of size, like Asimov’s essay, reveal humans are much larger, ecologically, than we intuitively perceive.
+
+A 2017 concept sketch asks whether K–13 science could start with physical scale: zoom down to atoms, rebuild upward from nucleons, and anchor chemistry in tactile models, stories and order-of-magnitude reasoning. It proposes 1,000× “views,” hands-on analogies and future VR/AR dialogue, while repeatedly warning that the curriculum is rough, untested and outside the author’s expertise. HN readers focused on the presentation’s adaptive music and sense of wonder, then debated whether viruses belong on a continuum of life.
 
 ### Comment pulse
-- Adaptive soundtrack enhances immersion → instruments layer in and out as scale changes, reminiscent of early games like Operation Neptune; many want a downloadable version.  
-- Craft feels like a passion project → commenters praise Neal’s consistent quality and link to his other scale visualizations, urging financial support.  
-- Viruses sit at life’s boundary → debate over whether they’re alive, compared to spores or LLMs; others cite Asimov and ecology to reframe human size.  
+
+- Adaptive audio deepens scale → layered instrumentation made increasing biological complexity feel experiential rather than merely diagrammatic.
+- Viruses complicate the endpoint → commenters called them nonliving, borderline, or alive only during cellular replication.
+- Logarithmic framing changes intuition → readers noted humans are unusually large animals, not a neutral size benchmark.
 
 ### LLM perspective
-- View: Well-designed scale visualizations can teach logarithmic thinking and biological diversity more intuitively than static charts or textbook diagrams.  
-- Impact: Educators and museums could embed similar tools to make abstract size ranges, from cells to ecosystems, more tangible.  
-- Watch next: Open data on organism sizes, audio engine documentation, and controlled studies comparing learning outcomes versus traditional scale diagrams.
+
+- View: Scale can organize science, but the pedagogy remains a hypothesis.
+- Impact: Interactive media could connect abstract units to physical intuition.
+- Watch next: Classroom trials measuring retention, misconceptions and transfer.
