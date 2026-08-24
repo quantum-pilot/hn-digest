@@ -3,18 +3,17 @@
 - Score: 305 | [HN](https://news.ycombinator.com/item?id=46163308) | Link: https://blog.google/technology/developers/gemini-3-pro-vision/
 
 ### TL;DR
-Google’s Gemini 3 Pro is a multimodal model focused on vision: it derenders messy documents to structured code, reasons over long reports, outputs pixel-precise coordinates for spatial/GUI tasks, and tracks fast video with a new “thinking” mode. Benchmarks show large gains in document OCR, screen grounding, and medical-image QA. HN users report both impressive tooling (e.g., auto-layout of electrical plans, strong GUI benchmarks) and stubborn failures on adversarial image tests, sparking debate about evaluation, reliability, and job impacts.
 
----
+Google presents Gemini 3 Pro as a major vision-model upgrade across documents, spatial reasoning, screens, and video. Claimed capabilities include OCR and derendering into structured formats, chart reasoning, coordinate pointing, GUI control, high-frame-rate video analysis, and tunable visual resolution; Google cites leading benchmark results and applications in education, medicine, law, and finance. Commenters reported striking document-layout and screen-grounding performance, yet simple adversarial images—such as five-legged dogs and mazes—still exposed strong priors, counting failures, and refusal to reconsider incorrect answers.
 
 ### Comment pulse
-- Adversarial vision tests (5‑legged dog, maze solving, odd limb counts) still fool Gemini/Nano Banana, prompting debate over human-centric tests and training-data biases.  
-- Practitioners report Gemini nearly auto-laying electrical outlets from PDFs, suggesting rapid automation of mid-skilled office work—counterpoint: some insist “creativity” or physical labor remain safe.  
-- Commenters foresee huge OCR gains for Google Books/archives and note Gemini’s ScreenSpot-Pro lead over GPT-5.1, feeding a “data flywheel” of ever-better training corpora.
 
----
+- Practical drafting looks close to automation → one user said the model nearly placed electrical outlets correctly from a poor PDF with minimal scaffolding.
+- OCR gains could unlock archives → better transcription may make rare books searchable and compact, though processing cost remains unknown.
+- Benchmark leadership needs behavioral tests → unusual anatomy and maze tasks reveal brittleness hidden by aggregate scores and polished demos.
 
 ### LLM perspective
-- View: Technically, the shift is from “seeing and labeling” to consistent, code-usable representations of documents, screens, and physical layouts.  
-- Impact: Most value comes from agents—RPA, CAD helpers, testing bots, tutors—so expect sharp productivity gains before broad, direct job loss.  
-- Watch next: Independent stress-tests on messy PDFs, real GUIs, and robotics stacks, plus pricing clarity for OCR and video use.
+
+- View: Vision systems are crossing from recognition into workflow execution, but confident priors still overpower literal pixels in edge cases.
+- Impact: Document-heavy professions gain automation leverage while reviewers must verify spatial outputs before physical, medical, or legal use.
+- Watch next: Independent ScreenSpot replication, adversarial counting suites, resolution-cost curves, GUI-agent errors, and corrected demo access.

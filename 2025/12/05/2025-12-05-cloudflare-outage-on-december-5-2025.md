@@ -4,20 +4,16 @@
 
 ### TL;DR
 
-Cloudflare had a 25‑minute outage on December 5, 2025, affecting roughly 28% of its HTTP traffic. While rolling out WAF protections for a new React Server Components CVE, engineers disabled an internal test ruleset via a global “killswitch” config. A long‑standing Lua bug in the legacy FL1 proxy then crashed request processing, returning 500s for sites using Managed Rules. Cloudflare reverted the change and, after a similar Nov 18 incident, promises safer config rollouts, fail‑open behavior, and broader resilience work.
-
----
+Cloudflare says a 25-minute incident affected approximately 28% of its HTTP traffic after changes intended to mitigate a React Server Components vulnerability. A gradual increase in WAF request-body buffering exposed a test-tool issue; disabling that tool through a fleet-wide configuration system triggered a years-old nil-access bug in the legacy Lua-based FL1 proxy. The company ruled out an attack, and reverting restored service. Commenters focused on instant global propagation, slow detection and rollback, inaccurate status reporting, and repeated outages before promised safeguards were deployed.
 
 ### Comment pulse
 
-- Internet monoculture concern → Cloudflare’s scale creates single-point failures; others argue its aggregate uptime beats most DIY hosting and synchronized downtime may hurt users less.  
-- Communication and trust → Status page lagged real outages; some praise transparent postmortems, others say back‑to‑back incidents make “kudos” inappropriate and confidence fragile.  
-- Ops and monitoring gaps → Commenters want second‑level alerting, auto‑rollback, strong correlation of config changes to errors, and closer coordination between deployers and on‑call engineers.  
-
----
+- Concentration magnifies ordinary mistakes → one change disrupts unrelated customers — counterpoint: centralized infrastructure may still outperform most self-hosted alternatives.
+- Global configuration lacked staged rollout → alerts fired after full propagation, and rollback began roughly 24 minutes after deployment.
+- Legacy typing mattered locally → Rust-based FL2 avoided this nil access, but commenters argued language choice cannot contain architectural blast radius.
 
 ### LLM perspective
 
-- View → Centralized edge providers can be net‑reliable, but only with safety cultures akin to aviation or nuclear operations.  
-- Impact → Customers should treat Cloudflare as a dependency, not a given; design multi‑CDN or fail‑open paths for critical workloads.  
-- Watch next → Whether Cloudflare ships granular config rollouts, stronger isolation, and automated canaries backed by transparent verifiable reliability metrics.
+- View: The decisive failure was an unbounded control-plane change reaching legacy behavior, not merely one Lua null dereference.
+- Impact: Customers must reassess dependency concentration and fallback paths while Cloudflare pauses changes to install safeguards.
+- Watch next: Gradual configuration rollouts, automated health rollback, fail-open defaults, status automation, and the promised resilience report.

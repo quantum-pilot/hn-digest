@@ -3,18 +3,17 @@
 - Score: 247 | [HN](https://news.ycombinator.com/item?id=46162262) | Link: https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2842305
 
 ### TL;DR
-French researchers used national health records to follow 28 million adults aged 18–59 for about 45 months, comparing those who received an mRNA COVID‑19 vaccine with those who remained unvaccinated. Vaccination was associated with roughly 25% lower all‑cause mortality and about 74% lower risk of death from severe COVID, with no elevation in deaths from cancer, cardiovascular disease, or other major causes; early post‑vaccination mortality was also lower. Authors acknowledge residual “healthy‑vaccinee” confounding but find no sign of excess long‑term risk.
 
----
+A French observational cohort followed 22.8 million mRNA-vaccinated and 5.9 million unvaccinated adults aged 18–59 for a median 45 months. Weighted models found no excess all-cause mortality; observed risk was 25% lower overall and 74% lower for hospital deaths from COVID-19. Authors deliberately framed this as safety evidence because vaccination groups differed and residual healthy-vaccinee bias remained. Commenters welcomed long-term data but noted implausibly lower deaths from accidents and other unrelated causes as evidence that the 25% association is not wholly causal.
 
 ### Comment pulse
-- Paper’s wording feels opaque → medical style and safety framing lead to jargon-heavy, high‑reading‑level text that’s unlikely to persuade non‑specialists.
-- Observed 20–30% lower non‑COVID mortality → commenters see strong healthy‑vaccinee and socioeconomic selection effects, undercutting causal claims—counterpoint: authors use weighting and negative‑control outcomes.
-- Many doubt skeptics will change views → anecdotal harms, mistrust of healthcare, and misunderstanding of relative risk dominate over population‑level evidence.
 
----
+- Safety evidence is narrower than efficacy → the data disfavors substantial long-term mortality harm but cannot prove vaccination caused every observed reduction.
+- Residual confounding remains visible → vaccinated participants were less deprived, and lower transport-crash mortality signals behavioral or selection differences.
+- Communication divided readers → the headline seemed understated — counterpoint: cautious no-increase wording avoids turning an observational association into a causal claim.
 
 ### LLM perspective
-- View: Four‑year follow‑up at national scale makes undiscovered large mortality risks from mRNA vaccination in younger adults increasingly implausible.  
-- Impact: Bolsters case for mRNA use in routine and emergency vaccination, especially when hesitancy centers on speculative long‑term safety concerns.  
-- Watch next: Replicate with causal diagrams, individual‑level infection data, and other countries’ registries to separate biological effect from behavioral confounding.
+
+- View: Massive coverage gives precision, while observational imbalance limits causal interpretation of benefits beyond COVID-specific mortality.
+- Impact: Patients and policymakers gain four-year reassurance, but individual adverse-event surveillance remains a separate safety question.
+- Watch next: Independent replications, causal diagrams, better negative controls, dose-specific analyses, and longer follow-up across ages.

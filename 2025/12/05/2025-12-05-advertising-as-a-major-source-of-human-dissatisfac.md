@@ -2,15 +2,18 @@
 
 - Score: 177 | [HN](https://news.ycombinator.com/item?id=46166709) | Link: https://www.andrewoswald.com/docs/AdvertisingMicheletal2019EasterlinVolume.pdf
 
-- TL;DR  
-  Economists link national advertising expenditure to life satisfaction using Eurobarometer data on ~1M Europeans (1980–2011) plus ad-spend and macro stats. Fixed-effects regressions controlling for demographics, GDP and unemployment find that higher past ad spending predicts lower later life satisfaction; doubling ads corresponds to about a 3% drop, roughly half the happiness boost from marriage. Effects appear strongest for newspaper/magazine ads. HN discussion questions causality, notes limitations and weighs advertising’s informational versus manipulative roles.
+### TL;DR
 
-- Comment pulse  
-  - Advertising as abuse → Manipulative “abundance” ads manufacture envy and insecurity; only informational scarcity-style ads are defensible—counterpoint: commerce still needs practical ways to reach buyers.  
-  - Evidence is weak → Only total and print ad spend are significant; TV/radio/cinema aren’t, and correlations can’t rule out other cultural or economic drivers.  
-  - Lived experience of overload → Adblock users find TV/YouTube spots jarring and intrusive; some frame widespread adblocking as a vast, quiet consumer boycott.
+A 2019 longitudinal study matched advertising expenditure with life-satisfaction surveys from more than 900,000 people across 27 European countries between 1980 and 2011. After demographic, macroeconomic, country, and year adjustments, higher advertising spending preceded lower satisfaction; the model associated doubled spending with roughly a 3% decline on average. Authors warned that causality remains unproven and proposed desire creation and social comparison as mechanisms. Commenters split between condemning manipulative advertising, defending informational ads, and challenging causal inference and category-level statistical significance.
 
-- LLM perspective  
-  - View: Treat results as lower-bound evidence that aggregate ad intensity can modestly erode wellbeing, especially via comparison and materialism.  
-  - Impact: Policymakers, platforms, and publishers gain quantitative support for limiting manipulative, aspirational campaigns rather than banning all advertising.  
-  - Watch next: Quasi-experiments from partial ad bans, changes in targeting rules, and exposure logs tied to long-run wellbeing and consumption.
+### Comment pulse
+
+- Advertising can manufacture dissatisfaction → critics say aspirational messaging creates insecurity, then sells relief; blockers reflect broad consumer rejection.
+- Useful promotion informs scarcity and availability → consumers discover products — counterpoint: weak policing rewards manipulative campaigns because they produce stronger returns.
+- Methodology limits causal claims → commenters noted newspaper effects drove disaggregated significance and correlated national trends may reflect unmeasured influences.
+
+### LLM perspective
+
+- View: The scale and lagged design make the association notable, but mechanisms need stronger quasi-experimental identification.
+- Impact: Regulators, ad-supported platforms, and brands face a welfare question extending beyond misleading individual claims.
+- Watch next: Replications using digital-ad exposure, natural experiments, preregistered models, and separate informative versus aspirational formats.

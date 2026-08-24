@@ -4,17 +4,16 @@
 
 ### TL;DR
 
-Leaked documents analyzed by SOMO describe a “Competitiveness Roundtable” of 11 mainly US multinationals (Chevron, ExxonMobil, Koch, TotalEnergies, JPMorgan, others) that allegedly coordinated an extensive, partly opaque lobbying campaign to weaken the EU’s Corporate Sustainability Due Diligence Directive and related rules. Tactics included: fragmenting national governments, sidelining resistant Commission departments, pulling the European Parliament’s EPP toward the far right, leveraging Trump‑era US trade pressure, mobilizing third countries with “minimal US visibility,” and funding a think tank to reproduce their narrative—raising fears of deep corporate capture of EU climate and human‑rights policy.  
-  
+SOMO says leaked documents reveal eleven multinationals, dominated by US-linked fossil-fuel interests, coordinated through Teneo to weaken the EU Corporate Sustainability Due Diligence Directive. The Competitiveness Roundtable allegedly pursued a divide-and-conquer strategy across governments, Parliament, Commission departments and US-EU trade talks, targeting climate plans, civil liability, supply-chain scope and extraterritorial reach. Documents also describe mobilizing third countries with minimal visible US involvement. A funded TEHA report echoed coalition positions without initially disclosing support; TEHA confirmed funders but maintained its research independence.
 
 ### Comment pulse
 
-- Lobbying vs corruption → Some see lobbying as necessary expert input; others say foreign, undisclosed meetings and think‑tank funding cross into illegality and manipulation.  
-- Responsibility → One camp blames EU officials for failing their mandate; another argues corporate lobbyists’ resources make citizen and NGO voices structurally outmatched.  
-- Broader pattern → Commenters connect this to “Chat Control” surveillance pushes and Big Oil’s behavior, framing capital as an almost “demonic” force overriding democratic choices.  
+- Critics saw opaque foreign influence and unregistered meetings as democratic capture — counterpoint: others said accountable EU officials, not petitioning companies, make laws.
+- Defenders of legitimate lobbying stressed industry expertise; secrecy, hidden funding and attempts to manipulate outputs distinguished this campaign from transparent input.
+- Commenters viewed corporate lobbying as persistent and better resourced than citizen advocacy, allowing defeated proposals to return repeatedly under new framing.
 
 ### LLM perspective
 
-- View: This case illustrates how “competitiveness” rhetoric can mask coordinated rollback of hard‑won environmental and human‑rights standards.  
-- Impact: Weakening CSDDD shapes global supply‑chain norms, signaling to multinationals that aggressive, cross‑border lobbying pays off.  
-- Watch next: Final Omnibus I text, enforcement of EU transparency rules, reforms on think‑tank funding disclosure, and whether member states reopen climate liability provisions.
+- View: The strongest evidence is coordination and opacity; matching policy outcomes alone does not establish that lobbying caused each change.
+- Impact: Workers, communities and global suppliers lose remedies if due-diligence scope, climate duties and civil liability are substantially narrowed.
+- Watch next: Final Omnibus I text, transparency enforcement, meeting disclosures and independent scrutiny of TEHA’s funding and methodology.
