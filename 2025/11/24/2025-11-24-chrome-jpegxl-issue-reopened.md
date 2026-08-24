@@ -2,16 +2,14 @@
 
 - Score: 205 | [HN](https://news.ycombinator.com/item?id=46033330) | Link: https://issues.chromium.org/issues/40168998
 
-- TL;DR
-    - Chrome has reopened the JPEG XL issue and says it will ship if a performant, memory‑safe decoder with long‑term maintenance materializes (likely Rust). Mozilla’s stance is similar. HN debates JPEG XL’s migration perks (lossless JPEG recompression, progressive VarDCT, HDR) versus AVIF’s existing ecosystem, perceived web quality, and AV1 decoder ubiquity. A practical rollout path is using Content‑Encoding for transparent recompression. Some remain skeptical of Google’s long‑term follow‑through, though a Rust decoder is progressing.
-    - Content unavailable; summarizing from title/comments.
+### TL;DR
+Chromium reopened its JPEG XL tracker and invited contributions for a performant, memory safe decoder backed by long term maintenance; a Rust integration effort is already linked. The format offers lossless JPEG recompression, progressive decoding, HDR, alpha, animation, and strong high quality compression, while adoption has expanded across major platforms and creative tools. AVIF can still excel at lower bitrates and reuse AV1 infrastructure. The unresolved decision is operational: decoder maturity, security, performance, and credible ownership matter more than format enthusiasm alone.
 
-- Comment pulse
-    - Chromium will consider JPEG XL if a memory-safe, performant decoder with long-term maintenance exists → aligns with Mozilla; Rust decoder efforts progressing.
-    - JPEG XL touted for lossless JPEG recompression, progressive VarDCT, HDR → migration-friendly — counterpoint: AVIF quality better; HDR improved recently; AV1 decoders ubiquitous.
-    - Transparent rollout via Content-Encoding for lossless JPEG recompression → CDNs can serve JXL recompressed streams while saving .jpg on download; progressive decoding helps UX.
+### Comment pulse
+- Chromium’s renewed interest attracts skepticism → Google’s abandoned products weakened trust — counterpoint: a Rust implementation provides a concrete restart.
+- Content negotiation could bridge deployment → servers might offer JPEG XL selectively — counterpoint: caching and operational complexity still need proof.
 
-- LLM perspective
-    - View: Reopening sets a high but achievable bar; Rust or Wuffs-based decoders plus committed maintainers could unlock shipment.
-    - Impact: If adopted, CDNs and image pipelines gain smaller files, smoother migration from legacy JPEG, and better HDR workflows.
-    - Watch next: Rust decoder benchmarks vs libavif, memory usage on mobile, progressive decoding UX, and explicit long-term maintainer commitments from organizations.
+### LLM perspective
+- View: Reconsideration is justified, but acceptance should depend on production evidence rather than popularity.
+- Impact: Native support could improve archival JPEG migration, progressive delivery, and high quality image workflows.
+- Watch next: Rust decoder benchmarks, security review, fuzzing results, maintainer commitments, and Chromium integration progress.

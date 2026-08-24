@@ -2,15 +2,14 @@
 
 - Score: 154 | [HN](https://news.ycombinator.com/item?id=46029534) | Link: https://matthogg.fyi/a-unified-theory-of-ego-empathy-and-humility-at-work/
 
-TL;DR
-- The essay argues developer ego often “leaks” via jargon, gatekeeping, and certainty, hampering collaboration. It reframes empathy as gathering information and humility as letting new information change behavior, urging curiosity, calm, and team-first problem‑solving. HN debates nuance: when gatekeeping protects scope/standards, whether tool advocacy is ego or initiative, and if acronyms exclude or just save time. Some see projection and overreach; others value the heuristic: default to learning, define terms, and optimize team effectiveness over status.
+### TL;DR
+The essay argues that workplace ego appears through self justification: jargon, gatekeeping, status signaling, reflexive tool advocacy, dismissal of legacy code, and resistance to junior work. Its proposed remedies are empathy, which gathers information, and humility, which permits that information to change behavior. Commenters accepted the value of curiosity and calm but challenged treating common engineering practices as evidence of ego. Acronyms, scope control, and technology preferences can serve legitimate goals; the better test is whether project evidence or personal identity drives the decision.
 
-Comment pulse
-- Gatekeeping can be appropriate → define terms for mixed audiences and keep scope; bouncing off-topic is stewardship — counterpoint: calling all gatekeeping weak is simplistic.
-- Tool pushback/advocacy may mask ego → blanket "use/never use X" centers preferences; "best practice" ends debates — counterpoint: sometimes suggestions are sincere and correct.
-- Acronyms can exclude in mixed groups → initial expansion lowers barriers; dialect formation and brevity also matter, so audience awareness beats blanket rules.
+### Comment pulse
+- Scope control can protect standards → explicit project reasons distinguish stewardship from status based exclusion.
+- Tool advocacy needs evidence → personal fluency alone is weak justification — counterpoint: experience can encode hard won operational risks.
 
-LLM perspective
-- View: Treat empathy as information-gathering and humility as update policy; institutionalize with questions-first norms, definitions, and explicit decision rationales.
-- Impact: Fewer ego-driven dead ends; faster onboarding; better cross-functional alignment; less rework from tool churn; improved psychological safety and retention.
-- Watch next: Track meeting glossaries, PR review tone, and decision docs; pilot paired design reviews; train leads to model calm escalation and curiosity under pressure.
+### LLM perspective
+- View: Diagnose behavior by evidence and consequences, not by assigning hidden motives to ordinary engineering choices.
+- Impact: Teams can preserve standards while making disagreement less personal and more informative.
+- Watch next: Decision records, participation patterns, repeated gatekeeping, and whether new evidence changes outcomes.

@@ -2,15 +2,14 @@
 
 - Score: 294 | [HN](https://news.ycombinator.com/item?id=46033151) | Link: https://blog.cr.yp.to/20251123-dodging.html
 
-- TL;DR
-    DJB argues IETF leadership pushed a “pure” ML‑KEM TLS key‑exchange draft through despite objections, mislabeling adoption-call results as consensus, later rebranding it “rough consensus,” and stonewalling appeals. He says non‑hybrid PQ weakens security versus today’s ECC+PQ hybrids, adds complexity and downgrade risk, and that tallies and procedures were misrepresented. HN splits: some cite his track record, NSA influence, and TLS safety; others say CNSA users need a non‑hybrid option, hybrids will dominate anyway, and rough consensus is sufficient.
+### TL;DR
+Daniel Bernstein argues that the IETF TLS group improperly advanced a stand alone ML KEM option favored by the NSA despite substantial support for hybrid post quantum protection. He disputes how chair and area director counts classified opposition, how rough consensus was defined, and whether objections received answers. The technical concern is that standardizing a pure post quantum path could enable downgrade or political pressure if ML KEM later fails. Critics reply that roughly three quarters support may qualify as rough consensus and that standardization enables scrutiny.
 
-- Comment pulse
-    - Process concern → IETF railroading and ignoring objections undermines legitimacy — counterpoint: 22–7 support is typical “rough consensus” to proceed.
-    - Security stance → Standardizing pure ML-KEM invites downgrade attacks; hybrids provide a failsafe against PQ breaks with negligible overhead.
-    - Pragmatic view → CNSA buyers need non-hybrids; open IETF standard beats government mandates — counterpoint: standardization signals endorsement procurement may misuse.
+### Comment pulse
+- Bernstein’s combative style may reduce influence → accusations alienate reviewers — counterpoint: dismissing substance because of tone reinforces his governance concern.
+- A pure option can serve federal deployments → NSA policy has distinct requirements — counterpoint: standardization may create downgrade pressure elsewhere.
 
-- LLM perspective
-    - View: Procedural clarity matters more than percentages; publish explicit consensus criteria and objection handling.
-    - Impact: Browser, cloud, and government stacks may diverge; downgrade paths could proliferate.
-    - Watch next: TLS interop tests, browser/OS policies on MTI key exchange, IETF appeals outcome, ISO/BSI decisions on alternative KEMs.
+### LLM perspective
+- View: Separate the procedural evidence from claims about motive, while testing downgrade and cryptographic risks on their merits.
+- Impact: A weak consensus record could damage trust in both post quantum deployment and IETF governance.
+- Watch next: Appeal outcomes, draft publication, downgrade analysis, hybrid adoption, and written responses to objections.

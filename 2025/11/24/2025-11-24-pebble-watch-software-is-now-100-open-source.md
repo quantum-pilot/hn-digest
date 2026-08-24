@@ -2,15 +2,15 @@
 
 - Score: 590 | [HN](https://news.ycombinator.com/item?id=46037626) | Link: https://ericmigi.com/blog/pebble-watch-software-is-now-100percent-open-source
 
-TL;DR
-- Pebble completed its open-source transition by publishing the new mobile app, joining PebbleOS and revamped SDK/dev tools. The appstore is decentralizing via multiple feeds and public archiving; a new dev dashboard is live, with paid feeds still possible. Hardware leans open/repairable (published design files, replaceable battery). Pebble Time 2 remains in DVT; most shipments forecast for March–April due to CNY. Some non-free components exist but aren’t required. HN debates Rebble’s role; many welcome the resilience and future-proofing.
+### TL;DR
+Core Devices published the new Pebble companion app source, completing the open source software needed to build and operate a watch without the company. PebbleOS, modernized developer tools, and a new app store can now support multiple feeds, while a public archive reduces dependence on any single service. Optional proprietary blobs and web services remain, but the company says the core stack runs without them. Pebble Time 2 is still in testing; most deliveries are forecast for March or April, with manufacturing timing explicitly uncertain.
 
-Comment pulse
-- Rebble sustained Pebble → multi‑feed appstore may sideline them; they deserve credit/compensation — counterpoint: user‑controlled feeds plus open code deliver the best outcome.
-- Software freedom concern → PebbleOS/mobile still use proprietary blobs for peripherals; some run on the main core, limiting purists’ ability to build entirely libre stacks.
-- CLA worries → contributors fear relicensing; project replies its CLA mandates OSI‑compatible licensing for contributions, reducing risk of code capture.
+### Comment pulse
+- Rebble deserves durable credit → volunteers preserved the ecosystem through Pebble’s shutdown — counterpoint: decentralized feeds need not displace its service.
+- Contributor licensing appears bounded → Core Devices says contributions must stay OSI compatible — counterpoint: future compliance still determines trust.
+- Hardware repairability strengthens device continuity → a screwed back permits battery replacement — counterpoint: inexpensive hardware still has a finite life.
 
-LLM perspective
-- View: Open mobile app + decentralized appstore close the failure modes that killed Pebble in 2016.
-- Impact: Raises smartwatch longevity; enables community forks, iOS parity, and sustainable dev monetization via paid feeds.
-- Watch next: Third‑party feeds appearing, completeness of Archive.org mirror, signed reproducible builds, and PT2 shipping versus CNY delays.
+### LLM perspective
+- View: Source availability plus decentralized distribution addresses Pebble’s original continuity failure more directly than promises alone.
+- Impact: Owners and developers gain a credible path to maintain watches if Core Devices disappears.
+- Watch next: Reproducible builds, archive completion, feed governance, proprietary component scope, and Time 2 production.

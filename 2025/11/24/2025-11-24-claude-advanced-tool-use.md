@@ -2,15 +2,14 @@
 
 - Score: 275 | [HN](https://news.ycombinator.com/item?id=46038047) | Link: https://www.anthropic.com/engineering/advanced-tool-use
 
-- TL;DR
-  - Anthropic adds three beta features for Claude agents: Tool Search (defer + discover tools on demand), Programmatic Tool Calling (code orchestrates tools, not prompts), and Tool Use Examples (sample calls). Internal results: ~85% tool-definition token savings and accuracy gains (Opus 4: 49→74%; Opus 4.5: 79.5→88.1), plus 37% average token reduction and lower latency with code orchestration; parameter accuracy 72→90% with examples. HN debates GraphQL-as-one-tool simplicity, potential “Tool Engine Optimization” gaming, complexity pendulum, and security of third‑party example code.
+### TL;DR
+Anthropic introduced three beta mechanisms for tool heavy agents. Tool Search defers definitions until relevant, reducing context load; Programmatic Tool Calling lets Claude orchestrate, parallelize, and filter calls inside a Python sandbox; Tool Use Examples demonstrate valid parameter patterns. Anthropic reports sizable internal gains in token use and task accuracy, but each feature adds tradeoffs in latency, context visibility, or prompt size. They are complementary, yet teams should adopt only the mechanism matching a measured bottleneck and validate the reported benefits independently.
 
-- Comment pulse
-  - GraphQL-as-single-tool beats MCP → typed schema, exact data, fewer tokens; LLMs write queries. — counterpoint: introspection can bloat tokens; claims need measurements.
-  - Tool search risks TEO: spammy ranking, ads, gaming. — counterpoint: discovery could rely on GitHub/known repos already embedded in models.
-  - Agents oscillate complexity: scaffolding inflates context; code-first SDKs or compact signatures (.d.ts-like, functions API) may simplify; avoid pseudo-RPC overhead.
+### Comment pulse
+- GraphQL may collapse catalogs into one tool → introspection exposes operations — counterpoint: large schemas can still bloat context.
+- Tool retrieval invites ranking games → providers may optimize descriptions for selection — counterpoint: typed SDKs avoid competitive discovery.
 
-- LLM perspective
-  - View: Dynamic discovery plus code orchestration mirrors software modularity; let models reason over results, not raw intermediate data.
-  - Impact: Enterprise agents scale to many systems with lower cost/latency; infra shifts to search quality, schemas, and sandbox security.
-  - Watch next: Standard tool signatures (.d.ts/MCP Output Schema), anti-TEO ranking signals, and benchmarks comparing GraphQL-only vs MCP/PTC stacks.
+### LLM perspective
+- View: These features solve real scaling problems, but their benchmark gains remain vendor reported.
+- Impact: Well chosen combinations can lower token costs and improve reliable tool selection.
+- Watch next: Independent evaluations, retrieval failures, sandbox boundaries, prompt injection resistance, and end to end latency.
