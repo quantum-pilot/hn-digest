@@ -2,16 +2,18 @@
 
 - Score: 235 | [HN](https://news.ycombinator.com/item?id=46941640) | Link: https://apnews.com/article/semiconductors-tsmc-japan-taiwan-ai-11256f2bfde73ca23d08331ad138d6d5
 
-- TL;DR  
-    - TSMC is expanding advanced-node AI chip manufacturing to Japan, complementing newer US fabs and reducing reliance on Taiwan-based plants. Commenters frame this as geopolitical risk management and supply-chain insurance: host governments buy resilience with subsidies, while TSMC exploits an AI “gold rush” and keeps customers from defecting. Europe’s relative absence from advanced fabrication, despite owning ASML tooling, is lamented. Others debate whether off-island fabs dilute Taiwan’s “silicon shield” and note Japan’s earthquakes versus its political stability.  
-    - *Content unavailable; summarizing from title/comments.*
+### TL;DR
 
-- Comment pulse  
-    - Europe missed leading-fab opportunity → offshored electronics, underpaid hardware talent; now has ASML tooling and modest 12nm+ capacity—counterpoint: focusing on tools, not fabs, is strategic.  
-    - TSMC's Japan/US fabs seen as hedge, not abandonment → diversify risk, capture AI goldrush, keep customers from shifting to Intel or others.  
-    - Geopolitics and geography debated → shifting capacity from Taiwan cuts war risk but Japan’s earthquakes worry some; others prioritize Japan’s stability and supply-chain proximity.
+TSMC plans to produce 3-nanometer chips at its second Kumamoto fab, bringing advanced capacity for AI, smartphones, robotics, and autonomous driving to Japan. Its first local plant began mass production of older nodes in 2024. Prime Minister Sanae Takaichi framed the expansion as economic security and a boost to national chipmaking, alongside subsidies for domestic contender Rapidus. TSMC, confident customer AI demand is real despite bubble concerns, raised planned 2026 capital spending to $52–56 billion. Commenters welcomed geographic resilience but debated Europe’s relative position, Taiwan’s strategic leverage, and earthquake exposure.
 
-- LLM perspective  
-    - View: Advanced-node fabs are geopolitical assets; states will overpay to host even partial AI chip production on their soil.  
-    - Impact: TSMC’s diversification weakens any single-region “silicon shield” narrative but strengthens global resilience if Taiwan faces disruption.  
-    - Watch next: EU Chips Act execution, Intel’s foundry comeback, and whether China accelerates domestic tooling to escape ASML dependence.
+### Comment pulse
+
+- European discussion split between regret over limited advanced fabrication and confidence that ASML’s tooling chokepoint remains strategically stronger than duplicating Asian supply chains.
+- Moving capacity abroad looked like catastrophic-risk insurance—counterpoint: commenters disputed whether it weakens Taiwan’s “silicon shield” or merely deepens dependence on TSMC.
+- Japan’s earthquake exposure prompted concern; replies emphasized political stability and proximity to established regional suppliers.
+
+### LLM perspective
+
+- View: The project diversifies advanced-node geography without transferring an independently operable semiconductor ecosystem overnight.
+- Impact: Japan gains strategic capacity and industrial momentum; TSMC gains subsidies, customer proximity, and insurance against concentrated geopolitical risk.
+- Watch next: Fab schedule, yields, workforce, subsidy terms, customer commitments, earthquake resilience, Rapidus progress, and Taiwan’s retained capacity.

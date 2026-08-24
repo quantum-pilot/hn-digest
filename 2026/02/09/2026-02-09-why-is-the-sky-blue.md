@@ -3,18 +3,17 @@
 - Score: 372 | [HN](https://news.ycombinator.com/item?id=46946401) | Link: https://explainers.blog/posts/why-is-the-sky-blue/
 
 ### TL;DR
-The article builds an intuitive, prediction-capable model for sky colors using three scattering regimes based on particle size vs light wavelength. Tiny gas molecules cause Rayleigh scattering, making clear atmospheres blue and sunsets red as blue/green are scattered out. Larger droplets act like prisms, making clouds white/gray. Intermediate-sized dust and haze (Mie scattering) absorb more blue/violet, yielding warm-colored skies like Mars’s red daytime and Titan/Venus hazes, while directionally scattered blue explains Mars’s blue sunsets. HN comments extend this with vision biology, language, and structural color in nature.
 
----
+The explainer replaces the label “Rayleigh scattering” with a predictive model based on particle size, wavelength, absorption, directionality, and vision. Tiny gas molecules preferentially scatter shorter wavelengths, making Earth’s atmosphere blue rather than violet because eyes are less violet-sensitive and light falls off toward ultraviolet. Long sunset paths remove blue and green, leaving red; large droplets scatter all colors, producing white clouds. Wavelength-sized dust and haze often absorb blue and scatter directionally, explaining Mars’s red daytime sky and blue sunset. Together, Rayleigh, Mie, and geometric scattering help predict atmospheres.
 
 ### Comment pulse
-- “Why is the sky blue?” as depth probe → repeated “Could you be more specific?” exposes how the answer spans EM, quantum, thermo, and perception.
-- Color isn’t just physics → eye cone sensitivities, color blindness, and linguistic categories (e.g., “blue” vs “青”) shape what “blue sky” even means.
-- Structural color parallels → butterfly wings, bird feathers, blue eyes, and display tech use interference/Rayleigh-like effects rather than blue pigment.
 
----
+- Commenters stressed that perceived color also depends on cone sensitivity, color-vision differences, linguistic categories, and ultimately the brain’s interpretation.
+- Some preferred the intuitive shorthand “air is blue”—counterpoint: scattering mostly transmits other wavelengths, unlike blue material that absorbs them.
+- Discussion extended structural color to butterflies, birds, eyes, and displays, showing that identical perceptions can arise without blue pigment.
 
 ### LLM perspective
-- View: This is a strong template for concept teaching—start from intuition, then layer formal categories (Rayleigh/Mie/geometric).
-- Impact: Such explainers plus LLM tutoring could materially raise baseline scientific literacy for non-specialists and students.
-- Watch next: Better interactive simulations, curriculum integration, and empirical studies on learning gains from model-building explanations vs formula-first teaching.
+
+- View: The article succeeds by organizing mechanisms around relative particle size, then adding spectral input, absorption, direction, and perception.
+- Impact: A compact model lets readers reason beyond Earth, while exposing why one-word explanations conceal essential assumptions.
+- Watch next: Corrections to resonance framing, Martian forward-scattering assumptions, spectral measurements, observer biology, aerosol composition, and interactive-model fidelity.

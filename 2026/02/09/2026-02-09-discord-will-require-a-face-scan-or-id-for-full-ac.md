@@ -2,19 +2,18 @@
 
 - Score: 1029 | [HN](https://news.ycombinator.com/item?id=46945663) | Link: https://www.theverge.com/tech/875309/discord-age-verification-global-roll-out
 
-## TL;DR
-Discord will, starting in March, put every account into a “teen-appropriate” mode by default and lock access to age‑restricted servers, NSFW content, and speaking in stage channels unless users pass age verification. Adults can verify either via on‑device AI “facial age estimation” or by uploading government ID to third‑party vendors; Discord also runs an age‑inference model so many adults may never be prompted. HN discussion centers on surveillance, data‑breach risk, hypocrisy of “protect the kids” laws, and migration to self‑hosted chat tools.
+### TL;DR
 
----
+Starting in March, Discord will put all accounts in a teen-appropriate mode unless behavioral inference identifies adults or users verify by video-selfie estimation, which Discord says stays on-device, or vendor-handled ID. Unverified accounts cannot access age-restricted servers, speak on stages, or freely view sensitive content, while unfamiliar DMs and requests receive filtering or warnings. Discord says most ID images are deleted immediately and expects most users to see no change, but its vendor’s 2025 breach sharpened skepticism. Commenters opposed identity-linked messaging, questioned retention exceptions, canceled subscriptions, and promoted self-hosted alternatives.
 
-## Comment pulse
-- Centralized chat is dangerous → Massive identity‑linked conversation databases at Discord/Meta worry users; some advocate self‑hosted Zulip/Matrix for control and “credible exit” — counterpoint: migrating whole communities is hard socially, not technically.  
-- Child safety is a pretext → Age checks are seen as a way to kill pseudonymity and increase political control, while powerful abusers remain untouched and unmonitored.  
-- Trust gap after breaches → Prior Discord ID leak and vague “deleted quickly, in most cases” language fuel suspicion; many urge canceling Nitro and note long‑standing, paying accounts still must re‑prove adulthood.
+### Comment pulse
 
----
+- Default restriction shifts proof burden → adult access depends on behavioral signals, a scan, or a document.
+- Vendor assurances meet breach history → commenters asked whether retention exceptions or derived biometric data could outlive the submitted image.
+- Exit is possible but costly → counterpoint: self-hosting returns policy control, yet migration, unfamiliar UX, paid features, and encrypted notifications impose tradeoffs.
 
-## LLM perspective
-- View: Regulatory age‑gating was inevitable; Discord chose a centralized, data‑heavy route that heightens stakes of any breach or misuse.  
-- Impact: NSFW and fringe communities, privacy‑sensitive adults, and teens on the margins will be nudged toward smaller, self‑hosted or federated platforms.  
-- Watch next: Independent audits of vendors, real deletion guarantees, practical bypasses, and whether major competitors copy this or market “no-ID” as a differentiator.
+### LLM perspective
+
+- View: Age assurance combines behavioral inference with optional face or ID checks, turning account access into a privacy-versus-functionality choice.
+- Impact: Adults may accept reduced access, expose identity material to vendors, cancel Nitro, or move communities to decentralized services.
+- Watch next: Rollout error rates, false teen classifications, appeal outcomes, vendor retention, breaches, inference transparency, legal expansion, and user attrition.

@@ -2,15 +2,18 @@
 
 - Score: 189 | [HN](https://news.ycombinator.com/item?id=46945348) | Link: https://codeberg.org/smnx/promethee
 
-- TL;DR  
-Promethee is a proof‑of‑concept UEFI application that embeds a JavaScript engine so your bootloader logic lives in script.js, with direct bindings to UEFI services like graphics. It demonstrates “JavaScript all the way down” rather than aiming to be practical. HN commenters oscillate between delight at the low‑level control, jokes about Gary Bernhardt’s Metal talk and Electron bloat, and curiosity about whether a full OS could be written in JS atop minimal C/assembly bootstrapping.
+### TL;DR
 
-- Comment pulse  
-  - Metal stage gag → Feels like Gary Bernhardt’s “everything becomes JS” prophecy; Electron bloat shows costs — counterpoint: RAM is plentiful, experimentation is fun.  
-  - OS in JS? → JS bootloader is feasible; a real kernel still needs C/assembly to touch hardware, but hobby JS kernels and asm.js Linux exist.  
-  - Joy versus horror → Some celebrate firmware control and Prometheus quotes; others recoil at JavaScript in firmware, joking about bundling npm, is-odd at boot.
+Promethee is a proof-of-concept boot environment that loads script.js from a UEFI volume and exposes firmware services to it, making the script the bootloader. A tiny example locates the graphics-output protocol and paints a rectangle; the freestanding build supplies minimal libc stubs, uses Duktape-related source generation, and runs under QEMU. Commenters enjoyed the deliberately extreme abstraction, but clarified that this does not by itself make JavaScript a complete operating-system language: direct memory mapping, processor registers, ports, tables, and userspace setup would still require lower-level C or assembly support.
 
-- LLM perspective  
-  - View: Neat demonstration of moving boot-time logic into a high-level language, blurring firmware, OS, and application boundaries.  
-  - Impact: Useful as an educational or prototyping tool for UEFI, not a production path given attack surface and performance constraints.  
-  - Watch next: Safer sandboxing, minimal JS runtimes, and measurements of boot time, memory overhead, and firmware security implications.
+### Comment pulse
+
+- Reactions split between delight at “complete dominion” and horror, with the project compared to the predicted “Metal” stage of software abstraction.
+- Commenters agreed JavaScript could direct substantial OS logic—counterpoint: bootstrapping userspace and touching architectural state still needs a native runtime.
+- A package-import joke met the observation that newer UEFI firmware already exposes networking, including HTTP and HTTPS.
+
+### LLM perspective
+
+- View: The demonstration works because its boundary is visible: firmware services become scriptable, while hardware control remains lower-level.
+- Impact: Firmware experiments become approachable, but production boot paths inherit interpreter size, attack surface, and portability concerns.
+- Watch next: API coverage, firmware compatibility, image size, error handling, security boundaries, debugging, persistence after ExitBootServices, and escape hatches.

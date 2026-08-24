@@ -2,15 +2,18 @@
 
 - Score: 187 | [HN](https://news.ycombinator.com/item?id=46945235) | Link: https://wingolog.org/archives/2026/02/09/six-thoughts-on-generating-c
 
-- TL;DR  
-  The author, a compiler engineer, explains practical patterns for targeting C from higher-level languages: encode abstractions via always-inlined helper functions, use explicit integer conversions, and wrap pointers/integers in single-field structs to carry source-level type information. They also rely on memcpy for unaligned memory, manually manage ABI registers and multi-value returns via globals to guarantee tail calls, and treat C as a “local optimum” backend despite poor stack control, GC integration, exceptions, and debugging. Comments add caveats, GC tricks, and backend war stories.
+### TL;DR
 
-- Comment pulse  
-  Static inline and uintptr_t wrappers impede optimization → bugs, aliasing loss, FP quirks make helpers slower than direct expressions — counterpoint: avoid overgeneralizing compilers.  
-  Precise GC over C needs a shadow stack → linked pointer-frame arrays enable stack scanning but obscure variables and hurt debugging, even with #line tricks.  
-  Some language implementers tire of backends → prefer targeting C, sometimes relying on specific compilers or LLVM bitcode despite portability and debugging drawbacks.
+Compiler author presents C as a pragmatic target: GCC and Clang supply mature optimization, instruction selection, register allocation, and runtime linkage. His patterns use always-inline helpers for zero-cost abstractions, explicit conversion functions with -Wconversion, single-member structs to preserve source-language types, memcpy for unaligned accesses, and manual argument/result placement for large signatures and tail calls. Costs include weak stack control, unavailable side tables, and difficult source debugging. Commenters added that inlining can alter floating-point semantics or optimization, while #line directives and shadow stacks partially address debugging and precise GC.
 
-- LLM perspective  
-  View: Treat C as a constrained IR: define a strict coding subset, helper libraries, and test suites across compilers and architectures.  
-  Impact: For GC-heavy languages, investing in reusable shadow-stack and debug-visualization tooling may yield more benefit than chasing ideal zero-cost exceptions.  
-  Watch next: Monitor standardization of musttail, stack maps, and C++ reflection; once stable, they could simplify portable tail-calls and precise GC.
+### Comment pulse
+
+- One commenter warned always-inline boundaries can inhibit optimization, change floating-point contraction, and erase pointer aliasing information; the author resisted turning edge cases into folklore.
+- Several recommended #line directives, generated names, and existing generator output as practical debugging aids when emitting full DWARF is infeasible.
+- Precise moving GC remains awkward; shadow stacks enable scanning but add writes, aliasing challenges, and poorer debugger visibility.
+
+### LLM perspective
+
+- View: C is attractive when generated code can encode invariants explicitly and accept toolchain-specific compromises.
+- Impact: Projects inherit optimized native code without a custom backend, but sacrifice stack, exception, debugging, and portability control.
+- Watch next: Cross-compiler musttail behavior, inline regressions, aliasing, #line usability, DWARF options, shadow-stack performance, and precise-GC ergonomics.

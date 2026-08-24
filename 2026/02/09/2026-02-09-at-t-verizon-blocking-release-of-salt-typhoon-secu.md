@@ -3,18 +3,17 @@
 - Score: 262 | [HN](https://news.ycombinator.com/item?id=46945497) | Link: https://www.reuters.com/business/media-telecom/senator-says-att-verizon-blocking-release-salt-typhoon-security-assessment-2026-02-03/
 
 ### TL;DR
-Senator Maria Cantwell says AT&T and Verizon are blocking Congress from seeing Mandiant’s security assessment of “Salt Typhoon,” an alleged large-scale Chinese espionage campaign against U.S. telecom networks. She wants their CEOs questioned publicly on why Americans should trust their networks, given FBI claims that hackers used lawful-intercept capabilities to geolocate millions, track movements, and record calls, including of officials. HN commenters emphasize that government‑mandated interception backdoors and chronically weak telco security made such abuse almost inevitable.
 
----
+Senator Cantwell says AT&T and Verizon directed Mandiant not to release network-security assessments concerning Salt Typhoon, and asked the Senate Commerce Committee to compel documents and question CEOs. Mandiant and Verizon declined comment; AT&T had not responded, so the companies’ rationale is absent from the report. Cantwell cited FBI statements that the alleged campaign targeted more than 200 U.S. organizations and 80 countries, potentially enabling communication interception and location tracking. Commenters centered on mandated lawful-intercept systems, disputed whether they caused this breach, and questioned whether carriers can verify eradication.
 
 ### Comment pulse
-- Lawful-intercept backdoors are structurally dangerous → LI consoles are designed to bypass operators and logs, so a compromise yields invisible, pinpoint wiretaps—counterpoint: some ops staff can still infer LI paths.
-- CALEA and similar laws backfired → government required intercept capability, then is shocked when nation-states weaponize it; critics say remove mandated backdoors rather than add new rules.
-- Telcos are soft targets → anecdotes of whole networks owned via trivial issues (e.g., exposed Jenkins), and black-box LI appliances shielded from audits, suggest systemic underinvestment in security.
 
----
+- Secrecy blocks independent assurance → Congress cannot assess remediation or residual access without the commissioned reports and carrier testimony.
+- Lawful interception is both control and attack surface → commenters described deliberately hidden access, distributed vendors, and weak operator visibility.
+- Backdoor causation remains disputed → counterpoint: broader routing, billing, identity, and administration systems would also offer nation-state leverage.
 
 ### LLM perspective
-- View: Mandated interception plus poor operational security created a high-value, low-visibility control plane attackers predictably targeted.
-- Impact: Telcos, interception vendors, and regulators face pressure for deeper audits, mandatory disclosure, and redesign of LI architectures.
-- Watch next: Congressional hearings, technical postmortems of LI systems, and any moves to revise or roll back CALEA-style requirements.
+
+- View: The immediate evidence concerns withheld assessments, not proof of why carriers withheld them or which subsystem enabled intrusion.
+- Impact: Subscribers, officials, and lawmakers cannot calibrate trust while alleged attackers may remain active and remediation evidence stays private.
+- Watch next: CEO hearings, subpoenaed reports, carrier explanations, technical indicators, independent validation, lawful-intercept architecture, remediation timelines, and continuing activity.

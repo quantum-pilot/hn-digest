@@ -2,15 +2,18 @@
 
 - Score: 360 | [HN](https://news.ycombinator.com/item?id=46943568) | Link: https://alltheviews.world
 
-TL;DR  
-- A custom algorithm exhaustively scanned global elevation data, computing billions of terrain-based sightlines to find Earth’s longest unobstructed view: about 530 km between peaks in western China and Tajikistan. An interactive map exposes 4.5 billion precomputed views for exploring extreme and local maximum sightlines. Hacker News discussion corrects the mountain naming, asks for 3D or Google Earth-style visualizations as the real payoff, debates atmospheric feasibility versus ~483 km photographic records, and uses the tool to probe regional candidates.
+### TL;DR
 
-Comment pulse  
-- Naming accuracy matters → commenters note the “Hindu Kush” start peak is actually in the Kunlun/Hindu Tagh range, urging correct geographic labeling.  
-- Need richer visuals → many want Google Earth-style or panorama 3D views to feel the terrain; author links a helper repo and welcomes PRs.  
-- Theoretical vs visibility → some doubt 500 km is seeable through atmosphere — counterpoint: others cite a 483 km photo record and long NZ/America lines.
+A custom terrain algorithm claims to have exhaustively evaluated Earth’s sightlines, identifying a 530km theoretical view from a peak south of the Tarim Basin to Pik Dankova. The site exposes roughly 4.5 billion results and highlights regional alternatives of 504km in Colombia and 483km from Elbrus toward Turkey. Commenters corrected the starting range from Hindu Kush to Kunlun, requested photographs and 3D profiles, and noted atmosphere, dust, refraction, terrain-data errors, and asymmetric map results. A linked panorama suggested a sightline seven kilometers longer.
 
-LLM perspective  
-- View: Treat this as a global computational geometry dataset; beyond records, it maps local visibility basins for planning, tourism, education.  
-- Impact: Combining it with real-time aerosols and weather could turn theoretical sightlines into probabilistic “when can I see X?” forecasts.  
-- Watch next: Benchmark algorithmic coverage, publish open DEM+code pipeline, and maybe crowdsource verified photos to constrain refraction and visibility models.
+### Comment pulse
+
+- The geographic label drew a firm correction: the Chinese endpoint lies in the Kunlun, likely near Hindu Tagh, not the Afghan-centered Hindu Kush.
+- Readers wanted oblique relief and simulated panoramas—counterpoint: aerial views cannot show haze, occlusion, or what an observer actually sees.
+- Exploration exposed nonreciprocal endpoints and usability gaps; the author highlighted a viewport-ranking feature and welcomed visualization improvements.
+
+### LLM perspective
+
+- View: The terrain result is compelling, but “line of sight” needs assumptions about elevation, refraction, atmosphere, and observer height.
+- Impact: Researchers and explorers gain global candidates; clearer visualization could turn an abstract record into a physically testable claim.
+- Watch next: Method details, elevation resolution, reciprocal checks, 3D profiles, photographic attempts, atmospheric modeling, refraction extremes, and corrected place names.

@@ -3,18 +3,17 @@
 - Score: 360 | [HN](https://news.ycombinator.com/item?id=46947096) | Link: https://github.com/jim11662418/ESP8266_WiFi_Analog_Clock
 
 ### TL;DR
-A hobbyist converts a $3.88 Walmart quartz wall clock into a Wi‑Fi‑synced analog clock using a Wemos D1 Mini (ESP8266). The ESP8266 disconnects the stock oscillator, directly drives the Lavet stepping motor with bipolar pulses, and syncs via NTP every 15 minutes, including DST handling. Because the hands provide no feedback, an EERAM (SRAM+EEPROM) chip persistently tracks hand positions across power loss, configured via a tiny web UI. HN discussion focuses on this memory trick, related atomic/WWVB hacks, and whether hacking beats just buying a “smart” clock.
 
----
+A D1 Mini ESP8266 drives a modified quartz clock movement with bipolar pulses and synchronizes against NTP every 15 minutes, including daylight-saving adjustments. Software compares displayed and network time ten times per second, advances lagging hands, and waits when they are ahead because the mechanism cannot reverse. Since the clock provides no positional feedback, a 47L04 EERAM records hand positions each second and restores them after power loss; initial alignment uses a web page. Commenters highlighted the low-wear backup design, fragile motor wiring, variable price, radio-clock alternatives, and drive-circuit protection.
 
 ### Comment pulse
-- DIY vs buying → Variable Walmart pricing and expensive projector/Wi‑Fi clocks spark debate on whether hacking is worth it versus off‑the‑shelf—even as Temu clocks drift annoyingly.  
-- Smart persistence → The 47L04 EERAM gives wear‑free frequent writes for hand position; commenters note similar FRAM parts good for logs and device state.  
-- Time signals → Related ESP32/RPi projects emulate WWVB‑style atomic clock broadcasts for hard‑to‑reach clocks; others warn transmitting on those LF bands is likely illegal.
 
----
+- EERAM matches frequent state tracking → SRAM handles continual writes, then capacitor-backed power-fail logic copies state once into EEPROM.
+- Cheap movements require delicate intervention → hair-thin coil leads must be disconnected from their oscillator and driven reliably with tuned pulses.
+- Network time is not the only path → commenters proposed WWVB emulation — counterpoint: transmitting on its frequency may be illegal.
 
 ### LLM perspective
-- View: Clever pattern: hijack cheap consumer hardware, replace its brain, keep the analog form factor but gain NTP‑grade accuracy.  
-- Impact: Useful reference for embedded developers needing frequent state persistence without flash wear, and for robust timekeeping in low‑feedback mechanisms.  
-- Watch next: Higher‑capacity EERAM/FRAM use, standardized drivers for Lavet motors, and ultra‑low‑power Wi‑Fi/MCU combos for always‑on smart clocks.
+
+- View: The cleverness lies less in NTP than reconstructing state for an open-loop mechanical display across power failures.
+- Impact: Hobbyists gain an accurate analog interface, accepting permanent Wi-Fi dependence, hardware modification, calibration, and motor-driver electrical risks.
+- Watch next: Clock-model compatibility, safe H-bridge designs, missed-step detection, offline behavior, security maintenance, EERAM endurance, and variants for projection clocks.
