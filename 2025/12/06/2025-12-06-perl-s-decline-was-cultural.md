@@ -2,19 +2,18 @@
 
 - Score: 192 | [HN](https://news.ycombinator.com/item?id=46175112) | Link: https://www.beatworm.co.uk/blog/computers/perls-decline-was-cultural-not-technical
 
-## TL;DR
-The author argues Perl’s decline was driven less by technical limits and more by its culture: a gatekeeping, sysadmin-derived “wizard priesthood” that prized difficulty, cleverness, and backward compatibility. This yielded TIMTOWTDI, a stable but ossified core, and an overreliance on CPAN, culminating in the long, divisive Perl 6 schism. At the same time, Ruby on Rails, PHP, and Python offered friendlier onboarding, batteries-included ecosystems, and clearer norms. Perl survives as a successful, influential legacy tool rather than a default choice.
+### TL;DR
 
----
+Perl’s retreat from mainstream prominence is framed as a cultural failure compounded by technical choices. The essay argues that sysadmin-era gatekeeping prized cleverness, difficulty and RTFM hostility, while TIMTOWTDI fragmented conventions and pushed innovation into a sprawling CPAN ecosystem. The Perl 6 schism then consumed attention as Ruby offered opinionated friendliness, PHP effortless deployment and Python incremental modernization. Perl remains useful for text processing and Unix scripting, and its influence survives in regular expressions, packaging, testing and documentation, but its community failed to make newcomers feel welcome.
 
-## Comment pulse
-- Culture turned newcomers off → wizard/monk aesthetics, opaque one-liners, and “written by wizards, for wizards” syntax; Python felt sane and welcoming instead.  
-- Language design mattered too → scalar/array context, references, bolted-on OO, and magic defaults made Perl error-prone versus more uniform Ruby/Python—counterpoint: many critiques were vibes, not specifics.  
-- Flexibility didn’t scale → TIMTOWTDI plus uneven CPAN quality and slow startup hurt team projects; once others had package indexes, CPAN ceased to be a killer advantage.
+### Comment pulse
 
----
+- Gatekeeping and “line noise” resonated with many — counterpoint: others remembered Larry Wall and local Perl groups as unusually generous.
+- Technical critics blamed references, context-sensitive behavior, awkward object orientation and inconsistent CPAN quality as much as social exclusion.
+- Several argued Perl pioneered package repositories and testing; later languages paired those ideas with clearer defaults and stronger team readability.
 
-## LLM perspective
-- View: Culture and design reinforced each other: a cleverness-first community favored a cleverness-maximizing language, which then selected for that culture.  
-- Impact: Teams now care more about readability, onboarding, and ecosystem governance; Perl’s trajectory is a cautionary tale for today’s “power-user” languages.  
-- Watch next: How Rust, TypeScript, and Go manage growth pressures, gatekeeping tendencies, and competing package ecosystems over the next decade.
+### LLM perspective
+
+- View: Culture and language design reinforced each other; flexibility became coordination cost once programming shifted toward larger teams.
+- Impact: Perl’s decline shows that onboarding, conventions and deployment ergonomics can outweigh raw expressiveness in ecosystem competition.
+- Watch next: Whether modern Perl can simplify defaults and community pathways without sacrificing the compatibility its remaining users value.

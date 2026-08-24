@@ -3,18 +3,17 @@
 - Score: 207 | [HN](https://news.ycombinator.com/item?id=46172443) | Link: https://www.psychiatrymargins.com/p/autisms-confusing-cousins
 
 ### TL;DR
-The author, a psychiatrist, argues that many people who see themselves as autistic actually fit better under other conditions—anxiety disorders, personality styles (schizoid, schizotypal, obsessive‑compulsive, borderline), trauma-related problems, social communication disorder, or plain social awkwardness. Autism, clinically, requires *both* core social‑communication deficits *and* restricted/repetitive behaviors from early childhood causing significant impairment, and remains a judgment call rather than a lab test. Because “autism” is culturally salient and linked to services, it often becomes the default story, overshadowing these “confusing cousins.” Commenters debate spectrum-vs-binary thinking, misdiagnosis, self-diagnosis, and risks of trivializing severe autism.
 
----
+A psychiatrist argues autism is real but clinically descriptive, broad, and often confused with conditions that also produce awkwardness, rigidity, withdrawal, or sensory distress. Diagnosis requires pervasive social-communication difficulties, restricted or repetitive features, childhood onset, and functional impairment; careful differential assessment may instead identify anxiety, personality patterns, trauma, social communication disorder, or ordinary awkwardness, sometimes alongside autism. Commenters debated clinical thresholds versus identity-based self-understanding, the instability and practical value of labels, serious misdiagnosis, and whether casual usage obscures people with high support needs.
 
 ### Comment pulse
-- Labels vs spectra → People use “autistic” for self-understanding on a continuous spectrum; clinicians must still draw binary lines for services, causing tension.
-- Traits, not boxes → Some argue dimensional models (e.g., personality traits, predictive-coding styles) explain overlaps better than unstable DSM categories—counterpoint: categories still drive practical care and policy.
-- Lived reality is mixed → Many report grab-bag profiles, misdiagnoses, modest practical benefit from labels, but major gains in self-esteem and language—while others fear buzzword usage eclipses severe autism.
 
----
+- Binary thresholds enable services → commenters say dimensional traits and mixed presentations make both clinician and self-diagnosis imperfect.
+- Labels can provide a map and self-compassion → users gain language for patterns — counterpoint: formal diagnosis may offer little treatment and harm when wrong.
+- Broader identification can normalize difference → identity reduces self-blame — counterpoint: critics fear it trivializes severe disability and weakens recognition of high-support needs.
 
 ### LLM perspective
-- View: Dimensional, trait-based assessments plus categorical thresholds could better reconcile clinical needs, self-understanding, and heterogeneous presentations.
-- Impact: Clarifying autism vs “cousins” would improve targeting of supports, reduce misdiagnosis harms, and temper romanticized online narratives.
-- Watch next: Comparative outcome studies for different labels, better tools for social communication disorder, and ethics guidance on self-diagnosis and public language use.
+
+- View: Differential diagnosis should explain mechanisms, context, and development rather than match isolated surface traits.
+- Impact: Clinicians and self-identifiers need humility; service rules currently reward one label over clinically similar alternatives.
+- Watch next: Compare diagnoses, treatment response, support access, and longitudinal outcomes across overlapping presentations.

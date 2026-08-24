@@ -3,20 +3,17 @@
 - Score: 411 | [HN](https://news.ycombinator.com/item?id=46173407) | Link: https://grapheneos.social/@GrapheneOS/115647408229616018
 
 ### TL;DR
-GrapheneOS argues it is the only Android-based OS that consistently ships the *full* set of upstream security patches, including quickly integrating fixes that many OEMs defer or partially apply. It even offers an opt‑in pre‑embargo channel so advanced users can receive security fixes before mainstream vendors ship them. HN discussion praises this but laments that real security now depends on tightly controlled, binary-only stacks, locked bootloaders, hardware attestation, and OEM incentives that prioritize control and services over user freedom.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+The post claims GrapheneOS is the only Android-based operating system shipping the complete set of security preview patches, while Samsung exposes a subset on some flagships and stock Pixel coverage is unclear. Discussion broadened to GrapheneOS’s announced work with an unnamed OEM, which could expand hardware choice and perhaps improve banking-app attestation. Commenters blamed locked bootloaders, proprietary drivers, platform incentives, and certification burdens for weak mobile interoperability. They also noted opt-in pre-embargo fixes, while questioning dependence on Google-controlled Android and Pixel-certified builds.
 
 ### Comment pulse
-- GrapheneOS fans → Strong interest in its new non‑Pixel OEM partnership and pre‑embargo patches; hope for broader availability and hardware choice—counterpoint: banking attestation may still constrain adoption.  
-- Locked phones vs IBM‑PC openness → Earlier PC compatibility came from antitrust pressure and simpler parts; today, OS control, data monetization, and attestation kill incentives for open devices.  
-- Patch cadence reality → GrapheneOS can iterate weekly atop Pixel images; OEMs face xTS, carrier and regulatory gates, making fast, pure security-only releases uncommon.
 
----
+- OEM partnership excites users → broader availability could reduce Pixel exclusivity and potentially improve hardware attestation for banking apps.
+- Open mobile hardware remains scarce → vendor profit incentives, locked bootloaders, proprietary drivers, and Google Play dependencies discourage interoperable designs.
+- Release-speed comparisons are contested → GrapheneOS can move quickly, while OEMs face Google, carrier, and regulatory certification work.
 
 ### LLM perspective
-- View: Full, timely patches plus hardened configs now meaningfully differentiate mobile OSes for high‑risk users and institutions.  
-- Impact: Pressure on OEMs may shift from feature races toward provable update completeness and latency metrics.  
-- Watch next: Independent audits of patch coverage and attestation behavior across Android vendors, plus any regulation on unlockable bootloaders.
+
+- View: Security leadership here reflects patch access and shipping speed, not a generally open Android ecosystem.
+- Impact: Privacy-focused users may gain hardware choice, but app compatibility and attestation remain gatekeepers.
+- Watch next: OEM identity, device specifications, update cadence, attestation behavior, and stable-release patch completeness.

@@ -3,14 +3,17 @@
 - Score: 332 | [HN](https://news.ycombinator.com/item?id=46173547) | Link: http://www.tinycorelinux.net/
 
 ### TL;DR
-Tiny Core Linux is a highly modular, RAM-resident Linux distribution whose base system is about a dozen megabytes, providing only a minimal X desktop and letting users add everything else as extensions. It targets fast-booting, nomadic use from CD, USB, or frugal disk installs, with persistent storage optional. HN commenters highlight piCore for Raspberry Pi servers that avoid SD wear, compare alternatives like Alpine, SliTaz, and Puppy, and reminisce about even smaller historical systems like QNX and Damn Small Linux.
+
+Tiny Core Linux offers a modular, RAM-resident system in small images: Core supplies an 11 MB command-line base, while TinyCore adds Xvesa, FLTK/FLWM and graphical tools for a 16 MB desktop. It is deliberately incomplete, usually assuming wired networking and adding applications or hardware support through community extensions. Users can boot from USB, CD or a frugal install, then choose whether extensions remain in memory, mount on demand or persist. The current page identifies release 16.2; its figures differ from the submission headline’s 23 MB.
 
 ### Comment pulse
-- Tiny Core’s piCore variant suits Raspberry Pi servers: boots to RAM, minimizes SD wear, ideal for long-lived cronjob appliances and potentially lightweight Node services.  
-- Users compare Tiny Core with Alpine, SliTaz, Slax, Puppy; some report surprising responsiveness from Raspberry Pi OS on weak laptops when reviving old hardware.  
-- Discussion recalls ultra-small GUIs like QNX’s Photon and early X setups, noting modern 1080p framebuffers alone exceed old RAM budgets—counterpoint: today’s desktops bundle more functionality.  
+
+- piCore users value fully RAM-based Raspberry Pi deployments because they reduce SD-card wear in unattended low-power servers.
+- Readers compared SliTaz, Slax, Puppy, Damn Small Linux and Alpine as rescue, legacy-hardware or minimalist alternatives.
+- Nostalgia for smaller historical systems met a practical reminder: modern 64-bit kernels and high-resolution framebuffers consume far more space.
 
 ### LLM perspective
-- View: Tiny Core exemplifies an extreme “batteries-optional” OS, valuable where determinism, low write volume, and tiny attack surface matter.  
-- Impact: Most useful for embedded appliances, lab machines, and rescue environments, less so for desktop users expecting full hardware support out-of-box.  
-- Watch next: Interesting follow-ups: reproducible Tiny Core-based appliances, benchmarks versus Alpine and NixOS minimal images, and tooling for declarative extension sets.
+
+- View: Its real achievement is a coherent extension model, not merely an impressively small compressed image.
+- Impact: RAM residency and selective persistence suit rescue media, disposable environments and appliances where storage durability matters.
+- Watch next: Hardware support, extension maintenance and whether the documented image sizes remain aligned with new releases.

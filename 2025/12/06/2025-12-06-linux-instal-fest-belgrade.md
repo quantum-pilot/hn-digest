@@ -2,15 +2,18 @@
 
 - Score: 145 | [HN](https://news.ycombinator.com/item?id=46172167) | Link: https://dmz.rs/lif2025_en
 
-## TL;DR
-A Belgrade Linux Install Fest on December 9, 2025 helps people replace or complement Windows—especially aging Windows 10 machines—with beginner-friendly Linux distributions like Debian and Fedora. Volunteers will do hands-on installs, offer short intros to the command line, Git, and C, and even collect broken devices for refurbishment, tying migration to an anti–e‑waste message. The article frames OS choice as both a usability and environmental decision, while comments reminisce about installfests and debate optimal beginner distros.
+### TL;DR
 
-## Comment pulse
-- Installfests build confidence → beginners, including older non-technical users, quickly become competent once someone demystifies Linux basics in person.  
-- Fedora’s reputation → commenters argue modern Fedora (and Silverblue) is stable and beginner-friendly; old “less stable than Debian” warnings are outdated.  
-- Pop-up repair/boot tables → reviving “dead” machines with live Linux sticks at events is easy, visible outreach that converts curious users.
+Belgrade’s Linux Install Fest will offer free, in-person help installing Linux on laptops from 6–9 p.m. on December 9, 2025, with optional introductions to the command line, Git, web services, and C. Organizers recommend Debian or Fedora for beginners and describe virtual-machine, dual-boot, and full-replacement paths, emphasizing backups beforehand. Part of the End of 10 campaign, the event frames Linux as a way to keep older computers useful and reduce electronic waste. Commenters recalled install parties creating durable skills and reviving aging machines.
 
-## LLM perspective
-- View: Tying Linux advocacy to Windows 10’s end and e‑waste gives a concrete, time-bound reason for non-enthusiasts to switch.  
-- Impact: Local, hands-on help lowers technical barriers more effectively than online docs, especially for dual-booting and backups.  
-- Watch next: Measure post-event retention: how many attendees stay on Linux, return for CLI/Git workshops, or contribute to refurbishing projects.
+### Comment pulse
+
+- Hands-on guidance builds confidence → one organizer recalled a novice returning a year later with substantial knowledge and Debian on the same laptop.
+- Distribution advice evolved collaboratively → a commenter recommended Fedora Silverblue and challenged stability warnings; the organizer removed the warning.
+- Repair events extend hardware life → commenters reported similar satisfaction restoring machines in Shanghai and Nanjing with bootable Linux media.
+
+### LLM perspective
+
+- View: Installfests convert an intimidating migration into a social, recoverable process with immediate expert help.
+- Impact: Windows 10 users can extend hardware life while volunteers strengthen free-software skills and repair networks.
+- Watch next: Attendance, successful installations, support needs, and participation in the December command-line and Git sessions.

@@ -2,15 +2,18 @@
 
 - Score: 107 | [HN](https://news.ycombinator.com/item?id=46175826) | Link: https://sites.gatech.edu/omscsopencourseware/
 
-- TL;DR  
-  Georgia Tech’s OMSCS program has published free open-courseware versions of many of its online MS CS classes (algorithms, OS, ML, security, HCI, etc.). Public learners get lecture videos and exercises, but no graded homeworks, projects, or exams; enrolled students still use Canvas. HN commenters say the missing pieces—assignments, autograding, peer review, and TAs—are crucial to the program’s rigor and persistence. The degree itself is praised as affordable and impactful, with time commitment a bigger barrier than admissions.
+### TL;DR
 
-- Comment pulse  
-  - Core OMSCS value is graded assignments, autograding, peer feedback, and strong TAs → structure and accountability drive deeper learning than lecture videos alone.  
-  - Open courseware still worthwhile → lets people sample graduate CS topics, gauge program fit, and may inspire enrollment, aligning with Georgia Tech’s broader access-to-CS mission.  
-  - Admissions letters seen as formality → professional references usually accepted; main barrier is sustaining workload over years while working—counterpoint: some struggle to secure suitable recommenders.
+Georgia Tech publicly offers lecture videos and exercises from many OMSCS courses through its open courseware catalog, spanning systems, security, AI, graphics, data, and other graduate computer-science topics. The public versions omit homework, projects, quizzes, exams, and other graded work, and may lag the Canvas materials used by enrolled students. Graduates and current students praised the teaching, peers, and teaching assistants, but stressed that assignments, feedback, deadlines, and persistence provide much of the degree’s value. Several described the program as affordable yet demanding primarily in time.
 
-- LLM perspective  
-  - View: Open graduate CS content plus vibrant degree programs approximates a two-tier system: broad free learning, paid credentialed rigor.  
-  - Impact: Self-learners, career switchers, and employers gain a shared curriculum reference that mirrors a respected, large-scale online MS program.  
-  - Watch next: See whether courses add public problem sets, forums, or badges; scaffolding would narrow the gap to enrolled experience.
+### Comment pulse
+
+- Open materials remain useful → commenters say they teach concepts, preview course quality, and help prospective students decide whether to enroll.
+- Enrollment adds irreplaceable structure → autograded projects, peer review, study groups, teaching assistants, and grades sustain practice beyond passive lectures.
+- Admissions references need not be academic → experienced applicants reportedly used managers or colleagues, while foundational preparation mattered more.
+
+### LLM perspective
+
+- View: Open lectures widen access, but mastery still depends on deliberate practice and feedback absent from the public package.
+- Impact: Self-learners gain graduate-level resources; enrolled professionals must budget years of sustained effort across ten courses.
+- Watch next: Newly published courses, content freshness, optional practice materials, and independent-user learning outcomes.

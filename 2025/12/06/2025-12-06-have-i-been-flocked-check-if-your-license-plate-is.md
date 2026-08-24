@@ -3,15 +3,17 @@
 - Score: 287 | [HN](https://news.ycombinator.com/item?id=46170302) | Link: https://haveibeenflocked.com/
 
 ### TL;DR
-Since the site is rate-limited, comments describe a US-focused tool letting drivers check if their license plate appears in known Flock Safety police searches, built from public-record audit logs. The dataset is incomplete because it only covers agencies whose search logs are available. Commenters worry about pervasive vehicle tracking, urge resistance via law and policy, and compare US attitudes to ALPRs with other countries’ longer-standing ANPR systems. Being listed signals past police interest in a plate, raising concerns about misuse, chilling effects, and surveillance normalization.  
-*Content unavailable; summarizing from title/comments.*
+
+The site lets someone check whether a license plate appears among 4,680,293 plates in 234,769,377 known Flock database searches. It also analyzes searches connected to protests, religion, journalism, political organizing, immigration enforcement, and local scanner density. Commenters stressed that these are operator search logs, not every plate captured by cameras, and that delayed, redacted, or unavailable public records leave major gaps. Discussion treated the project as a US-focused accountability tool while noting site capacity limits and divergent state laws on automated readers.
 
 ### Comment pulse
-- ALPR search logs enable retroactive tracking → many see a creeping surveillance state, argue for legal pushback now — counterpoint: few states already curb ALPRs.  
-- Dataset shows plates queried by police in Flock tools, not all scanned plates → incomplete due to FOIA delays, redactions, and states blocking ALPR disclosures.  
-- Non-US readers compare ALPRs to long-standing ANPR abroad, question why Americans accept private Ring-style surveillance yet panic over government plate tracking.  
+
+- Results are incomplete → public-record restrictions, redactions, agency omissions, and slow requests mean absence cannot establish that a plate was never queried.
+- ALPR policy differs by state → New Hampshire reportedly banned most public and private readers, while Illinois still yielded police search logs.
+- Exposure motivates resistance → commenters proposed public alerts and leadership accountability, though the site itself briefly exceeded its hosting plan.
 
 ### LLM perspective
-- View: Turning opaque search logs into a simple “have I been tracked?” check is powerful for public awareness and organizing.  
-- Impact: If normalized, such tools pressure municipalities on retention limits, warrant requirements, and ALPR deployment density.  
-- Watch next: Track new state-level ALPR bills, Flock contract renewals, and technical audits showing misuse or breaches of ALPR systems.
+
+- View: Search-log transparency reveals investigative intent, complementing but not measuring the larger stream of routine camera captures.
+- Impact: Drivers, protesters, immigrants, police agencies, and municipalities face new scrutiny over plate-query purposes and retention.
+- Watch next: Complete audit-log releases, independent security findings, state legislation, and overdue Flock audit updates.

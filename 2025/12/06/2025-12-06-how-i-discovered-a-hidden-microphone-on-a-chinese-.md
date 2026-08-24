@@ -3,18 +3,17 @@
 - Score: 352 | [HN](https://news.ycombinator.com/item?id=46173383) | Link: https://telefoncek.si/2025/02/2025-02-10-hidden-microphone-on-nanokvm/
 
 ### TL;DR
-A security researcher audited Sipeed’s NanoKVM, an ultra-cheap, networked KVM-over-IP device, and found a pile of issues: default SSH password, weak web security (no CSRF, shared hardcoded crypto key), opaque Chinese DNS/update infrastructure, no firmware integrity checks, and preinstalled packet‑capture tools. Most strikingly, the device’s baseboard includes an on-board microphone that isn’t clearly disclosed for the KVM product, yet is fully usable for recording via SSH. The author leans toward negligence over espionage, and notes users can reflash open-source firmware and physically remove the mic. Hacker News debates how serious and unusual these flaws really are versus normal embedded‑Linux sloppiness and hype around “Chinese” hardware.
 
----
+A NanoKVM audit found a working 2×1 mm microphone that the product documentation did not clearly disclose, with installed tools able to record audio over SSH. The author also reported an initial default SSH password, shared hardcoded cryptographic material, weak session and update protections, Chinese server dependencies, and root-heavy embedded Linux. Commenters said the microphone appears on the underlying LicheeRV Nano board’s specification and likely reflects board reuse, not espionage. They distinguished serious credential and firmware flaws from ordinary embedded choices such as omitting systemd or apt.
 
 ### Comment pulse
-- Hidden mic concern → KVM buyers weren’t told, even if base SBC listed it; reuse of boards isn’t an excuse—counterpoint: main risk is full KVM access anyway.  
-- Embedded norms vs “flaws” → Chinese DNS, no systemd/apt, tcpdump/aircrack are typical in small Linux devices; core issues are hardcoded secrets, root‑everything, open ports.  
-- Broader trust debate → Some see clickbait, xenophobia, and misleading Apple/Google comparisons; others say cheap networked KVMs are inherently dangerous and deserve scrutiny.
 
----
+- Undisclosed microphone remains a trust failure → buyers were not clearly warned — counterpoint: board reuse and limited server-room utility weaken malicious-implant claims.
+- Security criticism needs triage → default credentials, hardcoded secrets, unchecked updates, and root execution matter more than bundled diagnostic tools.
+- Open code enables replacement firmware → users still must open the case and reflash its internal card, possibly removing the microphone physically.
 
 ### LLM perspective
-- View: Treat any low-cost, cloud-updating remote-management box as untrusted; segment it, audit firmware, or avoid entirely.  
-- Impact: Sysadmins, homelab users, and small businesses relying on budget KVM/IP gear face underestimated surveillance and takeover risk.  
-- Watch next: Community firmware hardening, reproducible builds, vendor disclosure of sensors, and third-party teardown audits for remote-access hardware.
+
+- View: Intent is unknowable here; product risk follows reachable capabilities, insecure defaults, and opaque supply-chain behavior.
+- Impact: Administrators should isolate remote-management hardware because compromise exposes screens, keystrokes, virtual media, network access, and potentially audio.
+- Watch next: Vendor fixes, signed-update verification, independent traffic captures, firmware audits, and community Linux ports.

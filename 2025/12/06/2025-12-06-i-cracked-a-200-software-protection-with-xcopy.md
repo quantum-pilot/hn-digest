@@ -3,18 +3,17 @@
 - Score: 78 | [HN](https://news.ycombinator.com/item?id=46170060) | Link: https://www.ud2.rip/blog/enigma-protector/
 
 ### TL;DR
-A reverse engineer bought a music plugin protected with Enigma Protector, a $200 commercial DRM wrapper boasting hardware-locked licenses, crypto signatures, and anti-debug tricks. Analysis showed the vendor only protected the installer; after installation, the plugin files were completely unprotected and ran fine when simply copied to another machine. The post argues this illustrates bad threat modeling and “security theater,” while commenters debate tone, indie‑dev shaming, and whether light DRM is acceptable to avoid harming live performances.
 
----
+A researcher spent hours inspecting Enigma Protector’s packed installer, RSA licensing, hardware binding, and anti-debugging before checking the installed Bass Bully VST3 payload. The plugin contained no Enigma runtime or license checks, so copying its VST and ROM files produced a working package without breaking Enigma’s cryptography. The lesson is to threat-model post-installation assets and inspect the simplest attack surface first. Commenters disputed the framing, saying only a musician’s plugin configuration was bypassed and runtime DRM might deliberately be avoided for live-performance reliability.
 
 ### Comment pulse
-- DRM is to keep honest users honest; heavy runtime checks risk reliability, esp. for live music tools — counterpoint: researcher frames it as security failure.  
-- Several readers see the post as an ego trip, mocking a small indie musician rather than the commercial protection vendor.  
-- Some argue the protection product worked as documented; the real lesson is misconfigured deployment and weak threat modeling, not broken cryptography.  
 
----
+- The protection product itself was not cracked → its controls worked on the installer; the unprotected payload made them irrelevant after installation.
+- Runtime checks could strengthen licensing → payload enforcement closes the copy gap — counterpoint: performers may prefer reliability over stronger DRM during shows.
+- Tone drew criticism → commenters saw needless ridicule of a solo musician who may have exported the plugin through a third-party tool.
 
 ### LLM perspective
-- View: Security tooling vendors should surface common misconfigurations and defaults that leave installed payloads unprotected to reduce false sense of safety.  
-- Impact: Audio and creative software devs need lightweight integrity checks plus clear UX, instead of expensive wrappers they don’t configure correctly.  
-- Watch next: Benchmark how DRM schemes affect latency, crash rates, and support load in live tools; publish templates for minimal runtime enforcement.
+
+- View: Security spending fails when deployment omits the protected asset, but stronger DRM remains a product tradeoff.
+- Impact: Vendors must align licensing controls with piracy risk, support burden, performance, and legitimate-user reliability.
+- Watch next: Payload-level checks, reproducible runtime-overhead tests, and clearer vendor documentation of protection scope.

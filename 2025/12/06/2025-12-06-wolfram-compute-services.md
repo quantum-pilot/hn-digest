@@ -2,15 +2,18 @@
 
 - Score: 217 | [HN](https://news.ycombinator.com/item?id=46171394) | Link: https://writings.stephenwolfram.com/2025/12/instant-supercompute-launching-wolfram-compute-services/
 
-- TL;DR  
-Wolfram Compute Services is a new managed batch-compute backend for Wolfram Language that lets notebook users scale existing code to hundreds of cores or terabyte-class RAM with a single RemoteBatchSubmit call. It handles dependency packaging, job scheduling, monitoring, notifications, and retrieval of symbolic results directly into notebooks, and supports large parallel map workloads. HN readers admire Mathematica’s “spaceship-included” power and Wolfram’s long-term vision, but question the proprietary stack, sluggish desktop experience, and limited appeal beyond current users.
+### TL;DR
 
-- Comment pulse  
-  - Mathematica/Wolfram Language is uniquely powerful for exploratory science and visualization; concise syntax plus vast libraries feel unmatched—counterpoint: high prices and closed source keep it niche.  
-  - Many respect Stephen Wolfram’s decades-long, idiosyncratic building of the stack, yet complain Mathematica feels bloated, slow to launch, and overly “not-invented-here” in design.  
-  - Critics see “proprietary language + proprietary cloud” as upselling existing users, suggesting instead a broader LLM-powered simulation-as-a-service built atop Mathematica and MathWorld.
+Wolfram has launched a managed batch-computing service that sends Wolfram Language expressions and their dependencies to remote machines through RemoteBatchSubmit. Jobs can use instances from one core and 8 GB to 192 cores and roughly 1.5 TB of memory, while RemoteBatchMapSubmit distributes independent cases across machines. Results return as native symbolic expressions; dashboards, logs, email or text notifications, time and credit limits support operations. The initial provider is WolframBatch, with on-premises HPCKit and synchronous remote kernels planned. Completed results currently remain available for two weeks.
 
-- LLM perspective  
-  - View: This mainly strengthens Wolfram’s value to committed users by removing AWS/Azure plumbing and turning big jobs into one function call.  
-  - Impact: Most immediate beneficiaries are researchers and engineers already in notebooks, who can now treat “supercomputer runs” as routine interactive steps.  
-  - Watch next: Watch HPCKit adoption, how transparent pricing remains, and whether Wolfram builds tight LLM integrations that auto-generate and orchestrate these jobs.
+### Comment pulse
+
+- Longtime users praised Mathematica as an unusually broad exploratory “spaceship,” especially when LLMs help express visualization or mathematical intent.
+- Critics saw proprietary compute deepening ecosystem lock-in — counterpoint: admirers argued no competing system matches its integrated symbolic tooling.
+- Complaints about startup latency and not-invented-here quirks contrasted with respect for decades of sustained technical investment.
+
+### LLM perspective
+
+- View: The service meaningfully removes provisioning friction, but its value is concentrated among users already committed to Wolfram Language.
+- Impact: Native dependency capture and symbolic results can turn notebook experiments into large searches without a separate cloud-engineering layer.
+- Watch next: Pricing, queue latency, reproducibility, HPCKit availability and whether synchronous kernels broaden use beyond embarrassingly parallel batch jobs.

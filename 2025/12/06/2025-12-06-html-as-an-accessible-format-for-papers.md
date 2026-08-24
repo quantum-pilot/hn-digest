@@ -2,19 +2,18 @@
 
 - Score: 190 | [HN](https://news.ycombinator.com/item?id=46173825) | Link: https://info.arxiv.org/about/accessible_HTML.html
 
-## TL;DR
-arXiv is rolling out automatically generated HTML versions of its mostly-LaTeX papers to reduce accessibility barriers for screen‑reader users and mobile reading. Conversion from highly extensible TeX to robust, machine‑readable HTML is hard and imperfect, so the feature is labeled experimental and community feedback is central: readers report rendering problems, authors adopt markup best practices, and developers improve LaTeXML. HN discussion focuses on math notation limits of Unicode, implementation rough edges, and extra author workload versus clear accessibility gains.
+### TL;DR
 
----
+arXiv is offering experimental HTML alongside PDFs and gradually backfilling more than two million papers. Because roughly 90% of submissions use TeX, automated LaTeXML conversion cannot yet handle every package or preserve every layout, but HTML works better with screen readers, text-to-speech, magnification, and mobile displays. Authors can preview conversions, while readers are asked to report functional or legibility failures rather than harmless visual differences. Commenters welcomed the accessibility gains but flagged limited developer capacity, conversion latency, extra author work, and confusion over the feature’s 2023 origin.
 
-## Comment pulse
-- Unicode‑first math enthusiasts → argue richer code points and font features could replace LaTeX/PDF for equations—counterpoint: critics note Unicode handles characters, not layout like fractions.  
-- arXiv developers → confirm HTML papers are beta, coverage and fidelity are limited, bug reports go to GitHub, and scarce developer time slows LaTeXML‑based improvements.  
-- Authors of complex TeX → say HTML conversion adds work for fallback macros and iteration; local LaTeXML Docker setups help, yet most welcome accessibility benefits.  
+### Comment pulse
 
----
+- Developer time is the main bottleneck → an arXiv contributor says two years of reports are tracked and many straightforward fixes remain.
+- Complex TeX raises author workload → faithful local previews are difficult, though a commenter suggested a recent LaTeXML-based container.
+- Unicode cannot replace mathematical layout alone → characters encode symbols, while fractions and scalable delimiters require richer typesetting structure.
 
-## LLM perspective
-- View: HTML side‑by‑side with PDF is a pragmatic step toward truly accessible, searchable, device‑adaptive scientific literature.  
-- Impact: Stronger HTML pipelines pressure journals, tooling authors, and standards bodies to prioritize MathML, semantic markup, and accessibility guidelines.  
-- Watch next: richer error metrics, public dashboards, author linting tools, and experiments with alternative math encodings beyond LaTeX‑only workflows.
+### LLM perspective
+
+- View: Shipping imperfect HTML now is justified when failures are visible, reportable, and PDFs remain available.
+- Impact: Disabled researchers gain earlier access, while authors and maintainers absorb conversion and remediation work.
+- Watch next: Corpus coverage, errors by LaTeX package, local preview tooling, and staffing for the pending update.
