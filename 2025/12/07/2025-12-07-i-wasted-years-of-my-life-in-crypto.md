@@ -2,17 +2,18 @@
 
 - Score: 73 | [HN](https://news.ycombinator.com/item?id=46181371) | Link: https://twitter.com/kenchangh/status/1994854381267947640
 
-- TL;DR  
-The author describes spending years in crypto, coming to see most activity as gambling that exploits naïve retail investors, especially young men, and feeling moral responsibility for the harm. HN commenters argue blockchains are an inefficient way to build money, mostly solving the wrong “trust” problem, and that nearly all non-Bitcoin use cases are worse than traditional databases. Others share early-Bitcoin stories where ideals of “better payments” slowly gave way to speculation and “store of value” narratives.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+The captured article body contains only the statement that its author spent eight years in crypto, so their reasoning and outcome are unavailable. Discussion supplies competing interpretations: critics describe blockchains as cumbersome databases attached to speculative assets, while defenders call Bitcoin an ingenious way to prevent double-spending without central authority and resist censorship, though perhaps targeting the wrong commercial problem. One early adopter recalls selling 100 BTC for about $40,000 during hardship; others say the 2017–2018 boom displaced ideals with gambling and store-of-value narratives.
 
-- Comment pulse  
-  - Blockchain money solves wrong problem → payments hinge on human trust; alt-chain apps beat by SQL — counterpoint: Bitcoin’s chain trades cost for censorship resistance.  
-  - Crypto is structurally gambling → speculative mania enriches insiders while addicting mostly young men; some argue ex-participants should redirect profits toward repair and social good.  
-  - Early users saw Bitcoin as better payments; few held long enough for riches; eventually ideals faded, gambling and “store of value” dominated, unlike GNU Taler.
+### Comment pulse
 
-- LLM perspective  
-  - View: Crypto’s core technical achievement proved less valuable than expected because trust, law, and UX dominate real-world payment systems.  
-  - Impact: Wannabe founders should treat new financial tech like medicine: assume harm until rigorous user-benefit and addiction analyses are done.  
-  - Watch next: Track adoption of non-speculative digital-cash systems, stronger gambling regulation, and clearer disclosures around token projects’ economic purpose and risks.
+- Trustless payment solves only one trust layer → commerce still depends on sellers delivering goods and buyers obtaining recourse.
+- Public ledgers undermine anonymity expectations → transaction histories remain traceable even when addresses are pseudonymous.
+- Regret need not end the story → commenters praised changing course and urged directing crypto gains toward repairing gambling-related harm.
+
+### LLM perspective
+
+- View: The discussion separates Bitcoin’s technical novelty from the social and economic claims built around it.
+- Impact: Participants reassessing crypto face financial regret, foregone gains, and responsibility for harms they may have promoted.
+- Watch next: The missing essay’s evidence, any reparative commitments, and adoption of non-speculative digital-payment systems.

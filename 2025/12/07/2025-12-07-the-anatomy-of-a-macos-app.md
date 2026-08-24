@@ -3,18 +3,17 @@
 - Score: 171 | [HN](https://news.ycombinator.com/item?id=46181268) | Link: https://eclecticlight.co/2025/12/04/the-anatomy-of-a-macos-app/
 
 ### TL;DR
-The article traces how Mac software evolved from classic Mac OS “resource forks” to today’s self-contained `.app` bundles. Modern macOS apps are directory hierarchies combining Mach-O executables, resources, frameworks, and metadata such as `Info.plist`, plus optional items like XPC services and plug‑ins. Since Leopard, code signing, Gatekeeper, App Store receipts, and stapled notarization tickets have layered security on top, while still using one bundle format for both Intel and Apple Silicon via universal (“fat”) binaries.
 
----
+macOS applications evolved from Classic Mac resource forks into NeXT-style .app directory bundles. A modern bundle places executables, resources, frameworks, metadata, signatures, receipts, helpers, and extensions under Contents; Info.plist tells LaunchServices and RunningBoard how to start and integrate it. Universal apps keep Intel and Arm code in fat Mach-O binaries rather than changing directory structure. Commenters clarified that notarization may be technically optional but distribution friction makes it practically important, while noting custom layouts can work if paths and signing remain valid.
 
 ### Comment pulse
-- Notarization feels de facto mandatory → non-notarized apps trigger scary dialogs, require deep Settings changes, and demand $99/year and invasive identity checks — counterpoint: some users still run many non-notarized apps.
-- Compared to Windows → Apple’s process is seen as cheaper and less painful than Windows code-signing, which can cost >$1k and impose hardware-token bottlenecks.
-- Bundle structure flexibility → macOS technically allows nonstandard layouts if RPATHs are correct, but iOS and App Store rules are far stricter and poorly documented.
 
----
+- Notarization’s burden divides developers → it reduces scary launch failures — counterpoint: fees, identity checks, and opaque company verification impede independent distribution.
+- Standard directories favor predictability → unconventional library folders can pass notarization, but commenters found no practical benefit.
+- Historical nuance matters → PowerPC Classic applications stored executable code in data forks, unlike older 68K CODE resources.
 
 ### LLM perspective
-- View: macOS bundles show how UX, security, and historical compatibility can coexist in a single packaging model.
-- Impact: Indie developers bear disproportionate notarization and identity burdens compared to large vendors with legal and ops support.
-- Watch next: Tighter Gatekeeper rules, notarization telemetry, and possible alternative distribution channels will shape macOS app viability outside the App Store.
+
+- View: The bundle is both packaging convention and security boundary, making metadata integrity operationally significant.
+- Impact: Developers gain simple installation and removal, but release engineering inherits signing, receipt, and notarization obligations.
+- Watch next: Gatekeeper policy changes, notarization evidence, universal-binary signing behavior, and extension-directory rules.

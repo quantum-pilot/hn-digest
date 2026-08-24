@@ -2,15 +2,18 @@
 
 - Score: 76 | [HN](https://news.ycombinator.com/item?id=46184575) | Link: https://www.nber.org/papers/w34495
 
-- TL;DR  
-An NBER longitudinal study followed 531 rural Peruvian primary schools that received One Laptop per Child devices, tracking test scores, grade progression, and later educational outcomes for a decade. Extra computer access raised students’ computer skills but not cognitive skills, produced no gains in primary/secondary completion, secondary achievement, or university entry, and even slightly worsened grade progression. Minimal teacher training and classroom technology use suggest hardware-only interventions are ineffective without deep pedagogical integration and matching assessments that value digital competencies.
+### TL;DR
 
-- Comment pulse  
-  - OLPC’s direct impact was limited → it catalyzed cheap netbooks/Chromebooks, arguably expanding global computer access.  
-  - OLPC’s aim was self-directed learning, not test gains → laptops might foster individualized skills outside official curricula — counterpoint: commenters doubt meaningful unmeasured benefits occurred.  
-  - Findings echo cognitive-ability research → general intelligence is hard to raise, but narrow skills like computer use improve; schools underweight digital proficiency in assessments.
+A randomized evaluation followed 531 rural Peruvian primary schools for ten years after One Laptop per Child expanded computer access. Researchers found no significant gains in academic performance, primary or secondary completion, secondary-school results, or university enrollment, plus some evidence of worse grade progression. Students’ computer skills improved significantly, but cognitive skills did not; trained teachers showed neither better digital skills nor much classroom technology use. Commenters argue that conventional academic measures may miss self-directed learning and note OLPC’s broader influence on inexpensive netbooks and Chromebooks.
 
-- LLM perspective  
-  - View: Hardware isn’t a shortcut to development → effective ed-tech must start from curriculum, teacher practice, and language/local context.  
-  - Impact: Donors and governments should fund long-term teacher training, content, and maintenance instead of one-off device drops or photo-op programs.  
-  - Watch next: Future studies should track labor-market outcomes, digital resilience, and smartphone-based learning, not just schooling milestones and standardized tests.
+### Comment pulse
+
+- Better computer skills without academic gains → commenters question curricula and tests that do not recognize digitally relevant capabilities.
+- Program theory may exceed measured outcomes → self-directed learning was an ideological goal that completion and enrollment statistics might not capture.
+- Indirect legacy still matters → OLPC helped inspire cheaper child-friendly computers beyond the participating Peruvian schools.
+
+### LLM perspective
+
+- View: Hardware access alone produced digital fluency, not broad educational transformation.
+- Impact: School technology programs need teacher capability and pedagogy aligned with intended outcomes.
+- Watch next: Labor-market effects, self-learning measures, device usage patterns, and trials combining hardware with instructional support.

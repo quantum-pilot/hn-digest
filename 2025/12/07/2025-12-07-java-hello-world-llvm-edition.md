@@ -3,14 +3,17 @@
 - Score: 160 | [HN](https://news.ycombinator.com/item?id=46181076) | Link: https://www.javaadvent.com/2025/12/java-hello-world-llvm-edition.html
 
 ### TL;DR
-- Java uses the new Foreign Function & Memory (FFM) API plus jextract-generated bindings to drive LLVM’s C API: building LLVM IR for a Hello World, printing it, then JIT-compiling and executing native x86 code entirely from Java without JNI. Along the way it explains MemorySegment, arenas, builders, globals, function types, and linking to libc’s puts. HN discussion focuses on FFM’s safety vs JNI and on installation trust issues and how this differs from GraalVM native image.
+
+A tutorial uses Java’s Foreign Function and Memory API, plus jextract-generated LLVM 20 bindings, to construct and run LLVM IR without JNI or handwritten C glue. Java builds a module containing main, a global message, and a libc puts call; the result first runs through LLVM’s interpreter, then through MCJIT for x86 Linux. A native function pointer becomes a Java MethodHandle and executes directly. Commenters distinguish this interoperability demo from GraalVM native images and debate native-access safeguards and the risk of executing downloaded installation scripts.
 
 ### Comment pulse
-- FFM under --enable-native-access fits OpenJDK’s Integrity by Default: it can cause C-style UB but cannot freely violate Java module encapsulation like JNI.  
-- Install script practice splits opinion: some see curl|sh as reckless RCE risk; others note you already trust the downloaded binary just as much.  
-- GraalVM vs this demo: GraalVM AOT-compiles Java bytecode to binaries; FFM is a disciplined C-ABI bridge, like .NET’s DllImport, here driving LLVM.
+
+- FFM narrows native power versus JNI → it cannot inspect arbitrary private fields, though unsafe C behavior can still violate memory guarantees.
+- GraalVM answers a different question → it compiles JVM bytecode ahead of time; FFM calls external C-ABI libraries from Java.
+- Installer convenience divides readers → some reject fetched shell scripts; others note the installed executable ultimately receives comparable trust.
 
 ### LLM perspective
-- This pattern generalizes to dynamic plugin systems, DSL runtimes, or numerical kernels written in C/C++ and orchestrated from Java.  
-- As FFM matures and JNI fades, Java shops can adopt safer native interop without rewriting existing C libraries or toolchains.  
-- Benchmarks comparing FFM+LLVM JIT vs HotSpot and GraalVM, plus finer-grained native-access flags, will clarify when this approach is worthwhile.
+
+- View: The example demonstrates Java as a practical host for compiler construction and native libraries.
+- Impact: Tool builders gain typed generated bindings and managed foreign-memory lifetimes without maintaining JNI glue.
+- Watch next: More instructions, non-x86 targets, robust JIT error handling, and finer FFM-versus-JNI permissions.

@@ -2,15 +2,18 @@
 
 - Score: 644 | [HN](https://news.ycombinator.com/item?id=46178347) | Link: https://rfd.shared.oxide.computer/rfd/0576
 
-TL;DR
-- Oxide’s LLM policy is values-first: humans are fully responsible for artifacts; rigor, empathy, teamwork, and trust outrank speed. LLMs are welcomed as readers, editors, code reviewers, debuggers, and helpers for experimental or auxiliary code, but discouraged as primary authors of prose or core designs because that dilutes authentic thinking and erodes trust. HN discussion explores junior engineers’ dependence on LLMs, whether code should be treated like prose, how to detect AI-written text, and unresolved copyright/licensing risks.
+### TL;DR
 
-Comment pulse
-- Junior vs senior LLM use → Veterans see LLMs as optional accelerators; juniors risk never learning fundamentals, especially when tools trivialize formerly mind-numbing boilerplate work.
-- Code vs prose symmetry → Some argue LLM-written code raises same ownership issues as prose; others note cliché is desirable in code, useful for functions.
-- Detection and law gaps → Commenters doubt claims about LLM detecting LLM; Oxide shares hiring experience. Copyright and copyleft risks remain unresolved—counterpoint: evidence scarce.
+Oxide encourages optional LLM use under a hierarchy of responsibility, rigor, empathy, teamwork, then urgency. Models may assist reading, research, late-stage editing, review, debugging, operational writing, and carefully supervised code generation, but humans must verify outputs and own every artifact. The company rejects generated public or personal prose, mandates, shaming, and anthropomorphism; generated code requires self-review and should not be wholesale-regenerated during peer review. Commenters praised the balance while debating junior skill formation, authorship, detector reliability, review burden, and copyright.
 
-LLM perspective
-- View: Oxide’s values-first framing is a reusable template for orgs balancing productivity with trust, authorship, and reader expectations.
-- Impact: Strong writing culture plus LLM guidance raises hiring bar; junior engineers elsewhere may diverge sharply in skills and habits.
-- Watch next: Track organizational studies on defect rates, review time, and onboarding when LLM-generated code and prose are systematically constrained.
+### Comment pulse
+
+- Validation clarity should guide delegation → tedious, testable tasks suit models; architecture and taste still demand accountable human judgment.
+- Self-review is the hard part → commenters said close inspection can erase speed gains, yet skipping it abandons meaningful ownership.
+- Prose and code may differ → cliché harms personal expression — counterpoint: generated structure can also create illusory progress in software.
+
+### LLM perspective
+
+- View: Tool freedom works only when artifact ownership remains non-delegable and trust governs communication.
+- Impact: Senior engineers gain leverage; juniors risk outsourcing the practice needed to evaluate generated work.
+- Watch next: Defect rates, review time, junior progression, detector false positives, privacy controls, and copyright rulings.

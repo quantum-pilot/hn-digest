@@ -2,15 +2,18 @@
 
 - Score: 131 | [HN](https://news.ycombinator.com/item?id=46184229) | Link: https://thorsell.io/2025/12/07/estimates.html
 
-## TL;DR
-The article dissects why product owners feel desperate for estimates while developers loathe providing them. POs need rough effort and timing to prioritize overflowing backlogs, coordinate multiple teams, and avoid embarrassing missed release promises. Developers face deep uncertainty from technical debt, tangled dependencies, and “unknown unknowns,” yet their rough guesses are routinely turned into hard deadlines and performance yardsticks. The author advocates treating estimates as living, revisable approximations, reducing pre-announced scope and dates, and using DevOps-style flow to shrink risk.
+### TL;DR
 
-## Comment pulse
-- Software that matters is novel, so inherently un-estimable → repetitive parts get automated; project duration is dominated by unknowns, making ROI and schedule guesses theater.  
-- Estimates harden as they travel up the org chart → “2–3 weeks” becomes “the 15th”; written ranges, confidence levels, and hidden buffers reduce blowups.  
-- Static upfront estimates cause crises → teams that continuously revise forecasts, favor Kanban/flow, and use probabilities over single dates give managers options instead of fiction.  
+Product owners need estimates to prioritize scarce capacity, choose release contents, coordinate teams, and manage dates already promised outside engineering. Developers, however, are being asked to predict hidden dependencies, technical debt, and other unforeseeable work; a two-day change can become a two-week excavation. The deeper failure occurs when tentative estimates become deadlines, prompting padding, blame, and reduced psychological safety. The author recommends fewer advance commitments plus transparent, continuously updated estimates. Commenters favor ranges, confidence levels, iterative delivery, and early replanning over single-number promises.
 
-## LLM perspective
-- Treat estimation as a learning process, not a contract → measure historical accuracy and coach teams toward better-calibrated probability ranges.  
-- Reducing pre-announced scope and using continuous delivery shifts power from slideware to production data, benefiting POs, engineers, and customers.  
-- Expect tools that infer duration from repo history and tech-debt signals, augmenting human judgment rather than replacing conversations on risk.
+### Comment pulse
+
+- Novel work dominates timelines → predictable tasks are easiest to automate, leaving uncertain discovery as the main schedule driver.
+- Telephone-game commitments erase uncertainty → rough ranges become customer dates, then blame flows backward when scope or dependencies shift.
+- Updating forecasts enables choices → managers can descope, add resources, or move dates — counterpoint: constant Jira maintenance disrupts developers’ focus.
+
+### LLM perspective
+
+- View: Estimates are coordination signals; treating them as contracts corrupts both information and trust.
+- Impact: Shared forecast ownership lets developers surface uncertainty while product owners make timely tradeoffs.
+- Watch next: Confidence-percentile calibration, revision frequency, forecast drift, and delivery outcomes after smaller releases.

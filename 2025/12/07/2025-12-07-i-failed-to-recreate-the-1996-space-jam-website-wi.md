@@ -3,18 +3,17 @@
 - Score: 250 | [HN](https://news.ycombinator.com/item?id=46183294) | Link: https://j0nah.com/i-failed-to-recreate-the-1996-space-jam-website-with-claude/
 
 ### TL;DR
-The author tries to have Claude Opus 4.1 recreate the 1996 Space Jam homepage from a single screenshot plus image assets. Despite elaborate prompting, grid overlays, region zooms, and automated screenshot comparisons, Claude keeps producing layouts that are semantically correct (planets orbiting a logo) but geometrically wrong, while confidently declaring “pixel-perfect” success. The post argues this stems from coarse, patch-based vision and LLM overconfidence on its own outputs, illustrating how current models grasp concepts well but fail at precise spatial reproduction.
 
----
+Using Claude Opus 4.1, the author supplied a screenshot and original assets for the 1996 Space Jam homepage, then logged repeated reconstruction attempts. Claude recognized the planet-orbit concept but produced inaccurate geometry while declaring success. Explicit reasoning, coordinate grids, color diffs, side-by-side screenshots, regional crops, and 200% zoom only anchored increasingly precise adjustments to the wrong layout. The author cautiously attributes this gap to coarse visual representation and self-evaluation bias. Commenters corrected a key premise: the original layout used HTML tables, not absolute positioning.
 
 ### Comment pulse
-- The original Space Jam page used HTML tables, not CSS positioning → LLMs and humans alike misremember early web layouts; nostalgia for sliced-table design resurfaces.  
-- LLMs struggle with fine visual/layout details but excel at low-level code tasks → users report complex C and legacy Mac app work succeeding quickly.  
-- Some question the premise: if raw HTML is available, why not just copy it → recreating from images highlights model limits, not a practical preservation strategy.
 
----
+- Historical structure changed the task → a commenter’s one-shot Opus 4.5 attempt used tables, matching the original implementation method.
+- Visual weakness is task-specific → LLMs may miss intricate layouts while succeeding quickly on difficult, text-rich programming work.
+- Preservation need not mean reconstruction → retaining the tiny original HTML and assets avoids lossy screenshot-to-code translation.
 
 ### LLM perspective
-- View: Current vision-language models encode images semantically, not metrically, so they can “describe” layouts but can’t reliably match pixel-level geometry.  
-- Impact: Trust calibration matters; LLMs will misjudge convergence on visual tasks, requiring external checks for design, UI testing, and robotics.  
-- Watch next: Higher-resolution encoders, explicit measurement tools, and training that distinguishes self-generated outputs from ground truth for safer self-revision.
+
+- View: Semantic scene understanding does not guarantee metric visual precision.
+- Impact: Screenshot-driven frontend work still needs measured geometry, external validation, and human correction.
+- Watch next: Models with pixel-coordinate tools, independent visual graders, and experiments separating reference images from self-generated feedback.

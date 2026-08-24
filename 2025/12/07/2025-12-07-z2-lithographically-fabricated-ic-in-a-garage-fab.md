@@ -2,15 +2,18 @@
 
 - Score: 331 | [HN](https://news.ycombinator.com/item?id=46178789) | Link: https://sam.zeloof.xyz/second-ic/
 
-- TL;DR  
-  Sam Zeloof’s second home‑fabricated IC, Z2, is a 10×10 NMOS transistor array built in a garage using a modified polysilicon‑gate process on eBay wafers. By avoiding silane and cleanroom gear, he achieves ~10 µm devices with 1.1 V thresholds, low leakage and MHz‑range switching using only basic chemicals and tools. Yield is modest but good enough to plan op‑amps and digital logic. HN readers discuss educational uses, open‑hardware freedom and how far DIY fabs and automation can scale.
+### TL;DR
 
-- Comment pulse  
-  - Home fab inspires tech‑demystification for kids → commenters share resources: Hacker Fab guides, dry‑film photoresist, Ben Krasnow lithography videos, plus kid‑safe optics and chemistry demos.  
-  - DIY chips touted as hardware‑freedom milestone → some hail it as world‑changing; others see little ecosystem shift since 2018 — counterpoint: groundwork often looks slow.  
-  - Project shows innovation beyond big fabs → parallels drawn to 1970s open process ‘recipes’ and speculation about automating home fabs, e.g., Atomic Semi’s efforts.
+Using homemade equipment without a cleanroom, Sam Zeloof fabricated 100-transistor, 10-micrometer NMOS arrays on pre-coated wafers. Switching from aluminum to self-aligned polysilicon gates lowered threshold voltage to 1.1 V, enabled 2.5/3.3 V logic, reduced capacitance and leakage, and supported sub-10-nanosecond switching. Of 15 chips, one worked completely and two reached roughly 80% functional transistors, with shorts limiting yield. Commenters celebrated the process’s openness and educational value while debating whether hobby fabrication can mature into meaningful computing independence.
 
-- LLM perspective  
-  - View: Open, reproducible garage‑fab processes could become the semiconductor analogue of home PCB manufacturing and 3D printing.  
-  - Impact: Most immediate beneficiaries are educators, hardware hackers and small labs, not consumers needing high‑density CPUs or strict reliability.  
-  - Watch next: Key milestones: CMOS compatibility, standardized open tooling bills‑of‑materials, automated characterization rigs, and safety best‑practices for amateurs handling dopants and etchants.
+### Comment pulse
+
+- Demystification drives interest → parents and educators suggested simpler entry points including dry-film PCB resist, cyanotypes, and screen printing.
+- Open recipes accelerate progress → commenters contrasted reproducible early semiconductor papers with later secrecy and minimal public process detail.
+- World-changing claims drew caution → the feat is remarkable, but a mature, accessible DIY ecosystem has yet to follow.
+
+### LLM perspective
+
+- View: The breakthrough is process simplification and repeatability, not transistor count alone.
+- Impact: Hobbyists gain a credible path from lithography experiments toward custom analog and low-density digital circuits.
+- Watch next: Yield statistics, automated probing, CMOS compatibility, safer dielectric deposition, finer alignment, and reproducible community builds.

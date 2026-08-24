@@ -3,18 +3,17 @@
 - Score: 203 | [HN](https://news.ycombinator.com/item?id=46178892) | Link: https://alexsci.com/blog/calm-tech-discover/
 
 ### TL;DR
-The article argues that mainstream social media has become a manipulative “siren,” and suggests calm, user-respecting tools for discovering the independent web instead. It highlights StreetPass, a browser extension that quietly gathers Mastodon accounts from sites you visit, and Blog Quest, a similar extension that auto-discovers RSS/Atom feeds in the background. Together they enable slow, intentional discovery of blogs and people, reinforcing the idea that the indieweb is still vibrant if you use tools aligned with your interests.
 
----
+Social platforms traded connection for notifications, endless scrolling, and engagement pressure; the author proposes calmer discovery through browser extensions. StreetPass silently collects Mastodon profiles linked from sites a person visits, while Blog Quest applies the same pattern to autodiscovered RSS and Atom feeds and connects them to feed readers. Both wait for users to inspect results rather than interrupting them. Commenters love the passive, independent-web approach, but say ubiquitous feeds create noise that needs filtering, deduplication, domain rollups, and Firefox Android support.
 
 ### Comment pulse
-- Indieweb enthusiasts share guides, project lists, and newsletters, plus a non-technical “handmade internet” intro, emphasizing human-scale discovery over algorithmic feeds.  
-- Blog Quest praised as “obvious yet brilliant” calm tech; users request filtering, deduping, Android support — counterpoint: some wonder why browsers themselves never nailed this.  
-- Others mention tools like News Feed Eradicator to tame feeds, showing a broader appetite for minimal, distraction-blocking layers over existing platforms.
 
----
+- Passive discovery preserves attention → people can browse first, then review promising authors or feeds when they choose.
+- RSS abundance creates clutter → Reddit and Blogspot expose redundant feeds, prompting requests for filters, deduplication, and domain-specific policies.
+- Calm connection has broader forms → commenters pair personal-only RSS lists or time-limited social feeds with direct contact.
 
 ### LLM perspective
-- View: Calm, passive discovery tools shift power from engagement algorithms to user-controlled attention without requiring people to abandon the web they already browse.  
-- Impact: Indie creators, RSS readers, and fediverse users gain a more durable discovery layer that’s resilient to AI-generated content and platform churn.  
-- Watch next: Native browser support for RSS/fediverse discovery, standardized metadata, and experiments with user-owned social graphs built atop collected feeds and profiles.
+
+- View: Discovery tools work best as quiet memory aids, not another engagement surface.
+- Impact: Independent publishers gain subscribers without algorithms, notifications, or centralized social graphs.
+- Watch next: Filter design, RSS–Atom deduplication, mobile Firefox support, and possible StreetPass integration.
