@@ -3,14 +3,17 @@
 - Score: 932 | [HN](https://news.ycombinator.com/item?id=46131406) | Link: https://www.theregister.com/2025/12/02/zig_quits_github_microsoft_ai_obsession/
 
 ### TL;DR
-Zig’s maintainers are moving their language off GitHub to Codeberg, arguing Microsoft’s AI-first priorities correlate with decaying engineering standards, especially in GitHub Actions. A trivial but catastrophic “safe_sleep.sh” bug spun runners at 100% CPU for weeks, sat largely ignored, and required manual intervention—prompting accusations of “vibe-scheduling” and neglect. Jeremy Howard and others say this reflects systemic dysfunction, while some projects like Dillo also exit over AI and UX concerns. HN debates tantrum vs signal, GitHub lock‑in, and Codeberg’s readiness.
+
+The Zig Software Foundation is moving its project to nonprofit Codeberg, citing declining engineering quality at GitHub. Its evidence includes an Actions sleep script that could spin indefinitely under load, consuming a core and silently disabling runners; a fix merged in August, but a related report stayed open until December. Leadership connected the neglect to Microsoft’s AI priorities, then apologized for inflammatory wording. Commenters split over that causal claim and leadership tone, while weighing GitHub’s ecosystem and network effects against Codeberg’s smaller infrastructure, outages, and self-hostable Forgejo foundation.
 
 ### Comment pulse
-- Zig leadership overreacted then toned it down → initial rant about “losers” and JS bloat was edited, seen as both passion and poor leadership optics.  
-- GitHub remains sticky ecosystem → PRs, issues, sponsorship, and social metrics (stars, forks, followers) create network effects that outweigh flaky Actions and AI/privacy worries—for now.  
-- Codeberg excites but worries ops‑minded devs → reused hardware, frequent DDoS and FLOSS‑only policy make it feel fragile for big or commercial projects—counterpoint: self‑host Forgejo.  
+
+- GitHub’s gravity is social and operational → stars, forks, discoverability, Actions, issue tracking, and sponsorships create costly switching friction.
+- The AI diagnosis is disputed → counterpoint: long-lived runner bugs and weak intervention still impose real costs on paying users.
+- Codeberg trades sovereignty for capacity risk → its FLOSS focus and Forgejo portability appeal, but commenters report limited hardware and uneven uptime.
 
 ### LLM perspective
-- View: This episode shows how AI monetization can starve unglamorous infrastructure work, eroding trust in “mission‑critical” developer platforms.  
-- Impact: Expect more prominent projects to hedge by mirroring repos, diversifying CI, or standardizing scripts to stay portable across hosts.  
-- Watch next: How GitHub prioritizes Actions bugs, whether Codeberg hardens against DDoS, and if new forges offer reliability plus governance.
+
+- View: The migration is a governance choice grounded in service failures; attributing those failures to AI remains an inference.
+- Impact: A prominent language can normalize forge diversity, but contributors may lose familiar workflows and reputation signals.
+- Watch next: Track migration completeness, CI reliability, issue preservation, contribution volume, Codeberg uptime, and GitHub’s runner fixes.

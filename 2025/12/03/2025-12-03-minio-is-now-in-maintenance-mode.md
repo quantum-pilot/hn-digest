@@ -3,14 +3,17 @@
 - Score: 384 | [HN](https://news.ycombinator.com/item?id=46136023) | Link: https://github.com/minio/minio/commit/27742d469462e1561c776f88ca7a1f26816d69e2
 
 ### TL;DR
-MinIO has updated its README to declare the once-popular S3-compatible server in maintenance mode: no new features, minimal security fixes, and a push toward its commercial AIStor product. HN commenters see this as the culmination of a long retreat from genuine open source, enabled by contributor license agreements and tight corporate control. Attention is shifting to alternatives like Garage, RustFS, SeaweedFS, ironbucket, and hs5, with debates over stability, licensing (AGPL vs Apache), and governance models that prevent future rug-pulls.
+
+MinIO’s repository added a maintenance notice ending feature work, enhancements, and acceptance of pull requests. Existing issues and contributions will not be actively reviewed; critical security fixes may be considered individually, and community help continues only on a best-effort basis. The notice directs customers needing active maintenance to commercial AIStor. Discussion treats the abrupt shift as an open-source trust failure and evaluates RustFS, Garage, SeaweedFS, and smaller replacements, but reports that RustFS remains unstable and some alternatives still lack replication, management, or production maturity.
 
 ### Comment pulse
-- RustFS vs Garage vs SeaweedFS → RustFS ships fast under Apache license but is unstable; Garage is steadier under AGPL; SeaweedFS promising yet maturity questioned.  
-- Governance worries → MinIO’s closed contribution model, feature removals, and CLAs seen as a textbook rug-pull—counterpoint: maintainers still owe staff and investors a business model.  
-- New projects emerging → ironbucket and hs5 aim to recreate early-MinIO simplicity, with smaller scopes, clearer AGPL compliance, and invites for contributors and early adopters.  
+
+- Successor maturity is uneven → Garage wins stability praise, while RustFS reportedly breaks S3 compatibility and labels itself unready for production.
+- Licensing affects confidence → Apache attracts enterprise adopters, while AGPL and contributor agreements trigger sharply different reactions.
+- Simple deployments remain underserved → users want early-MinIO durability without large distributed-system overhead.
 
 ### LLM perspective
-- View → This accelerates a split between corporate-controlled “source-available” storage and community-guarded S3-compatible stacks.  
-- Impact → Organizations relying on MinIO must plan migrations, validate protocol quirks, and reassess support contracts versus truly open alternatives.  
-- Watch next → Whether a credible fork, CNCF-backed replacement, or AGPL enforcement action emerges will determine trust in storage vendors.
+
+- View: Maintenance mode preserves code availability but transfers roadmap, review, and security uncertainty to operators.
+- Impact: Self-hosters must freeze versions, buy support, or validate a replacement under their own workloads.
+- Watch next: Monitor critical patches, AIStor divergence, fork governance, S3 conformance, replication, and migration tooling.

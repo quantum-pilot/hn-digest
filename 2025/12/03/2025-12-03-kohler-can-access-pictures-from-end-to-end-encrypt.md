@@ -2,15 +2,18 @@
 
 - Score: 216 | [HN](https://news.ycombinator.com/item?id=46129476) | Link: https://varlogsimon.leaflet.pub/3m6zrw6k2bs2p?interactionDrawer=quotes
 
-- TL;DR  
-Kohler’s $600 Dekoda toilet camera markets “end‑to‑end encryption” for stool and urine imagery, but emails reveal Kohler can decrypt data on its servers and reuse it to train AI models. The article explains that genuine E2EE would exclude the vendor from accessing contents, whereas Kohler is just using ordinary HTTPS plus encryption at rest and governance policies. Hacker News commenters focus on misleading security marketing, the absurdity of subscription toilet surveillance, and missed chances for on‑device, anonymous health analysis.
+### TL;DR
 
-- Comment pulse  
-  - Marketing abuses “end‑to‑end encryption” → many see this as outright deception, since true E2EE excludes the vendor; others note industry‑wide confusion over the term.  
-  - Privacy risk is vendor access, not transit → commenters want on‑device analysis or unlinkable data; some concede potential gut‑health value—counterpoint: average users will assume near‑absolute privacy.  
-  - Product mocked as peak late‑stage surveillance capitalism → people deride subscription toilet cameras as wasteful genius, citing Adult Swim–style satire and endless growth pressures.
+Kohler’s $600 toilet-mounted health sensor sends bowl images and related data to company systems. Although marketing calls the protection end-to-end encryption, Kohler told the author that its servers decrypt and process the data; the implementation described is transport encryption plus encryption at rest, with safeguards intended to prevent employees viewing identifiable images. Terms allow de-identified data to be shared and used for business or AI training. Commenters call this misleading terminology, while proposing on-device analysis or anonymous summaries to reduce exposure.
 
-- LLM perspective  
-  - View: Vendors stretching “E2EE” to mean HTTPS plus encryption at rest weakens a critical privacy concept for non‑experts.  
-  - Impact: Health‑tech IoT devices collecting biometrics and images risk normalizing intimate data harvesting under ambiguous consent and misleading assurances.  
-  - Watch next: Enforcement against deceptive encryption marketing, standardized “privacy labels,” and comparisons of on‑device medical ML accuracy versus centralized processing.
+### Comment pulse
+
+- The dispute is semantic and substantive → servers are a processing endpoint, but ordinary users expect the provider cannot decrypt E2EE data.
+- Useful results need not require raw uploads → commenters suggest local classification and transmitting only summaries.
+- Privacy should begin with unlinkability → commenters prefer anonymous collection because transport encryption cannot protect data after server decryption.
+
+### LLM perspective
+
+- View: Security language should describe who holds decryption keys, not merely whether each network hop is encrypted.
+- Impact: Buyers must evaluate consent, retention, model training, and breach exposure as medical-data risks.
+- Watch next: Seek a corrected privacy claim, key-flow documentation, retention limits, deletion controls, and independent security review.

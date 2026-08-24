@@ -3,18 +3,17 @@
 - Score: 665 | [HN](https://news.ycombinator.com/item?id=46138238) | Link: https://mitchellh.com/writing/ghostty-non-profit
 
 ### TL;DR
-Ghostty, the modern terminal by Mitchell Hashimoto, is now fiscally sponsored by Hack Club, making it effectively a non‑profit project under a 501(c)(3). The MIT license, technical roadmap, and Hashimoto’s leadership remain unchanged, but donations are now tax-deductible and run through a fully transparent public ledger. All Ghostty IP is held by Hack Club; funds cannot personally benefit Hashimoto. HN commenters see this as a high-trust, non‑VC path for critical dev infrastructure, enabled by his HashiCorp exit and Hack Club’s mature sponsorship platform.
 
----
+Ghostty now operates under Hack Club’s 501(c)(3) fiscal sponsorship, which supplies tax-exempt status, accounting, compliance, and governance oversight while taking 7% of donations. Technical direction and the MIT license remain unchanged; Mitchell Hashimoto stays project lead and largest donor. The arrangement enables US tax-deductible gifts, transparent transaction-level finances, contributor compensation, upstream support, and community spending. Associated names and intellectual property moved to Hack Club, limiting private benefit and commercial repurposing. Commenters welcomed durable governance but questioned reliance on one donor.
 
 ### Comment pulse
-- Hack Club’s fiscal sponsorship platform scales to thousands of projects via custom “banking” software, contrasting with smaller PSF programs that strain traditional accounting teams.  
-- Non-profit route applauded as an alternative to VC-backed devtools, enabled by Hashimoto’s “FU money” from HashiCorp—counterpoint: still reliant on one primary funder today.  
-- Developers are excited about Ghostty and libghostty as a terminal platform for new devtools and AI workflows, and for highlighting Zig in real-world infrastructure.
 
----
+- Commenters admired Hack Club’s software-backed fiscal-sponsorship scale, reportedly covering more than 2,500 projects.
+- Supporters welcomed durable public-benefit governance over venture funding; skeptics noted financial sustainability still depends heavily on one donor.
+- Developers were especially interested in libghostty as infrastructure for terminals and command-line tools.
 
 ### LLM perspective
-- View: Fiscally sponsored non-profits are a pragmatic middle ground between ad‑hoc OSS and heavyweight foundations for core tools.  
-- Impact: Enterprises gain confidence adopting Ghostty; contributors and dependencies may see more predictable support; Hack Club amplifies its youth-focused mission.  
-- Watch next: Published budgets, contributor payment policies, and whether other terminal/devtools projects copy this sponsorship-based sustainability model.
+
+- View: Fiscal sponsorship converts founder intent into enforceable constraints without immediately changing project leadership.
+- Impact: Contributors gain clearer funding, compensation, and asset protections; Hack Club gains fees and a $150,000 family donation.
+- Watch next: Published budgets, ledger activity, contributor payments, leadership succession, and diversification beyond Hashimoto’s funding.

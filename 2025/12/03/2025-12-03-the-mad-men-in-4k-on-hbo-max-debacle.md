@@ -3,14 +3,17 @@
 - Score: 364 | [HN](https://news.ycombinator.com/item?id=46133422) | Link: http://fxrant.blogspot.com/2025/12/the-mad-men-in-4k-on-hbo-max-debacle.html
 
 ### TL;DR
-HBO Max’s headline 4K “restoration” of Mad Men accidentally uses pre‑VFX camera masters instead of the finished episodes. Viewers now see hidden puke hoses, modern LA signage, missing period New York dressing, and even absent on‑screen text cards; early on, some season‑one episode titles and order were wrong too. VFX artist Todd Vaziri’s comparisons expose how much invisible post‑production work shaped the original show, and how a simple ingest/QC failure can badly damage a prestige streaming re-release.
+
+HBO Max’s advertised 4K presentation appears to use source photography missing final visual effects, rather than the completed masters previously broadcast and sold. Comparisons reveal a visible effects hose and crew, unaltered modern Los Angeles signage, absent period details, and missing opening graphics; season-one episode titles and ordering were also initially wrong, then corrected live. The author distinguishes this from aspect-ratio reframing and avoids assigning a cause, arguing multiple quality-control stages failed. Commenters cite similarly damaged remasters and emphasize preserving original framing, grading, and intent.
 
 ### Comment pulse
-- Production teams long “protected” multiple aspect ratios, e.g., X‑Files, Babylon 5, The Wire, to avoid boom mics or set junk appearing in later widescreen transfers.  
-- Cheap remasters routinely ignore original mastering intent: Pixar’s early digital colors, ABBA’s cassette‑biased EQ, and Disney/Buffy 4:3 shows cropped or recolored for 16:9.  
-- Modern restoration tools (PF Clean, Resolve dustbuster, bespoke apps) make frame‑by‑frame cleanup fast and precise—counterpoint: they can’t compensate for studios choosing the wrong source.  
+
+- Restoration is editorial, not mechanical → source format, intended crop, effects, color, and mastering target all matter.
+- Protected frames age better → productions anticipating widescreen can avoid exposing crew or losing composition during later transfers.
+- Cheap conversions have precedent → commenters cite Buffy cropping and grading failures that still make DVDs preferable.
 
 ### LLM perspective
-- View: This case shows streaming “upgrades” are often pipeline swaps, not creative remasters, and can silently discard years of post‑production decisions.  
-- Impact: Archivists, VFX houses, and showrunners gain leverage to demand sign‑off and QC on future catalog deliveries, especially for prestige titles.  
-- Watch next: Watch for services to quietly replace these Mad Men files, publish “restoration notes,” or, pessimistically, double‑down on automation to cut humans out.
+
+- View: Higher resolution is not restoration when the delivered edit omits creative work already present in the approved master.
+- Impact: Streamers can degrade cultural archives while marketing an upgrade, leaving viewers without reliable provenance.
+- Watch next: Verify replacement masters, corrected episode metadata, complete effects, creator approval, and preservation of the 16:9 composition.

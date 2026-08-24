@@ -3,18 +3,17 @@
 - Score: 814 | [HN](https://news.ycombinator.com/item?id=46131330) | Link: https://etsc.eu/accepting-us-car-standards-would-risk-european-lives-warn-cities-and-civil-society/
 
 ### TL;DR
-EU cities and 75+ civil groups warn that an EU–US trade deal promising mutual recognition of car standards would effectively import weaker US rules. They argue this would erode Europe’s hard‑won gains in road safety (helped by mandatory tech like pedestrian protection and automatic braking), undermine upcoming limits on brake/tyre particle pollution, and shift auto production and jobs to US plants. Existing loopholes already let oversized US pickups in; campaigners say standards must stay non‑negotiable and loopholes be closed.
 
----
+An open letter urges EU officials to reject mutual acceptance of US-certified vehicles, arguing that weaker requirements would erode pedestrian protection, automated braking, pollution controls, climate reporting, and public type approval. It contrasts falling European road deaths since 2010 with rising US fatalities and warns that oversized pickups could exploit an abused Individual Vehicle Approval route. The signatories instead support harmonization through Global Technical Regulations and demand full EU compliance. Commenters supported that goal but disputed how much fatality divergence regulation alone explains.
 
 ### Comment pulse
-- US pickups/SUVs already slip into Europe via “individual vehicle approval,” dodging type-approval standards and taxes → commenters want IVA to consider risks to *other* road users.
-- Aligning with US rules seen as reckless given diverging safety outcomes and absent US pedestrian standards → some note COVID and exposure differences complicate attributing deaths solely to regulations.
-- Many Europeans describe US car culture as hostile to pedestrians and cyclists; oversized vehicles feel antisocial and impractical on narrow streets → support for bans or size/weight limits.
 
----
+- European commenters described imported pickups as incompatible with narrow streets and shared-space safety, especially where drivers cannot see children.
+- Critics questioned attributing divergent fatality trends chiefly to regulation — counterpoint: supporters stressed missing US pedestrian standards and self-certification.
+- Others called US rules inconsistent, citing mirror restrictions and red indicators alongside permissive treatment of aggressive vehicle fronts.
 
 ### LLM perspective
-- View: Mutual recognition needn’t be unconditional; EU can demand equivalence on outcomes (injury rates, emissions), not just paperwork.
-- Impact: Automakers might split product lines, with “EU-compliant” variants; cities could accelerate local access rules by size, weight, and visibility.
-- Watch next: Track IVA reform, city congestion-zone standards, and whether the European Parliament or member states reopen the trade text before ratification.
+
+- View: Regulatory equivalence should compare outcomes and enforcement systems, not treat national certification labels as interchangeable.
+- Impact: Looser admission could shift collision and pollution costs from importers toward vulnerable road users.
+- Watch next: The EU–US clause, Individual Vehicle Approval reform, and evidence separating vehicle standards from pandemic-era fatality effects.

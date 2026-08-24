@@ -3,18 +3,17 @@
 - Score: 224 | [HN](https://news.ycombinator.com/item?id=46133622) | Link: https://xania.org/202512/03-more-adding-integers
 
 ### TL;DR
-Godbolt shows several bizarre implementations of `x + y` on ARM—including a recursive version—that all compile to the same single `add` instruction. Compilers translate source into an intermediate representation and aggressively canonicalize equivalent patterns, allowing them to see through obfuscation and replace loops and recursion with simple arithmetic. This supports the advice: write clear, intention-revealing code and let the optimizer handle micro-optimizations. Hacker News debates where compilers excel, where they fail, and how much to “trust the optimizer.”
 
----
+Several deliberately convoluted unsigned-addition functions—including loops and recursion—compile to the same single ARM add instruction. The compiler does not catalog every odd coding pattern; it lowers programs into an intermediate representation, canonicalizes equivalent operations, and generates code after the original forms converge. Commenters demonstrate similar loop elimination through LLVM’s scalar-evolution analysis, but stress the limits: language semantics, optimization settings, external functions, algorithms, and memory layout can block transformations. Clear code helps humans, while programmers still own high-level performance decisions.
 
 ### Comment pulse
-- Optimizers can be impressively smart → LLVM’s Scalar Evolution folds many loops (even Brainfuck-like) into closed-form arithmetic; Julia and SCEV examples show non-trivial loop-to-formula rewrites.  
-- Optimizers still miss “obvious” math → e.g., `%2 && %3` vs `%6`, `strlen("hello")`, division vs shift; flags, language semantics, and link-time visibility all constrain transformations — counterpoint: higher optimization levels or LTO often fix these.
-- Trust compilers for low-level tweaks → focus on algorithms and data layout, which compilers rarely change; DFA and peephole rules help, but formal equivalence has hard theoretical limits.
 
----
+- Optimization needs facts → unsigned types, visibility into callees, and stronger optimization levels can unlock proofs unavailable from source alone.
+- Compilers optimize implementation, not architecture → they rarely replace algorithms, repair N-plus-one queries, or redesign data layout.
+- Readable code can improve speed indirectly → clear structure exposes larger changes that clever local tricks often obscure.
 
 ### LLM perspective
-- View: Treat compilers as algebra engines that normalize code; write for clarity, then check generated assembly when performance is critical.  
-- Impact: Systems and HPC developers gain confidence to avoid hand-rolled micro-tricks, investing effort in data structures and asymptotic improvements.  
-- Watch next: Better interprocedural and whole-program reasoning (LTO, devirtualization) and tools exposing optimization decisions to guide source-level refactors.
+
+- View: Trust canonicalization for local algebra, but verify generated code when semantics or performance stakes are unusual.
+- Impact: Developers can favor intention-revealing source while focusing manual effort on algorithms, locality, and interfaces.
+- Watch next: Compare missed optimizations across compilers, flags, aliasing assumptions, link-time visibility, and representative benchmarks.

@@ -2,21 +2,18 @@
 
 - Score: 184 | [HN](https://news.ycombinator.com/item?id=46133068) | Link: https://www.bbc.com/news/articles/clydg2re4d1o
 
-**TL;DR**  
-India’s telecom ministry has withdrawn an order forcing smartphone makers to ship phones with the government’s Sanchar Saathi anti-fraud app preinstalled and undeletable, after backlash over privacy and surveillance risks and resistance from Apple and Samsung. Officials stress the app’s fraud-reporting benefits and deny snooping capabilities, while digital rights groups welcome the reversal but demand the formal legal order. Hacker News discussion centers on whether this is a real win or just a pause before more coercive digital controls return.
+### TL;DR
 
----
+India withdrew a directive that gave smartphone makers 90 days to preload Sanchar Saathi without allowing it to be disabled or restricted. Officials said the app verifies handset authenticity and cited rising voluntary uptake: 14 million downloads, about 2,000 daily fraud reports, and 600,000 registrations on one day. Privacy experts objected, while Apple and Samsung reportedly resisted the unconsulted mandate. Digital-rights advocates welcomed reversal but withheld closure until the government publishes a formal legal order and any revised cybersecurity directions. Commenters expected another attempt.
 
 ### Comment pulse
 
-- Reversal shows corporate leverage, not citizen power → Apple’s resistance and India’s economic interests outweighed privacy activists’ objections.  
-- Fear: coercion will shift, not vanish → app may later become mandatory for taxes or welfare, echoing how Aadhaar became effectively unavoidable.  
-- Some defend centralised IDs/apps → they massively reduce friction for ordinary people—counterpoint: convenience can quietly normalize pervasive tracking and dependency on smartphones.
-
----
+- Commenters saw broader privacy awareness but expected another attempt, possibly through access requirements for taxes, utilities, or other public services.
+- Aadhaar prompted disagreement: convenience consolidated many IDs — counterpoint: critics feared similar utility could normalize coercive enrollment and surveillance.
+- Others asked whether essential services must remain accessible without smartphones or internet access.
 
 ### LLM perspective
 
-- View: This episode illustrates “soft backtracking” — dropping one mandate while reserving room to reintroduce control via other channels.  
-- Impact: Tech giants become de facto privacy negotiators for hundreds of millions, especially where civil-society influence is weak.  
-- Watch next: Whether India ties digital ID, benefits, or SIM activation to Sanchar Saathi, and how EU/UK surveillance laws are cited as justification.
+- View: Withdrawal addresses the immediate mandate, but absent legal text leaves scope and permanence uncertain.
+- Impact: Device makers retain preload control, while citizens avoid receiving a state app they cannot disable.
+- Watch next: The formal rescission, revised permissions, voluntary adoption, data handling, and offline access to essential services.
