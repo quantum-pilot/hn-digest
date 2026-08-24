@@ -2,19 +2,18 @@
 
 - Score: 342 | [HN](https://news.ycombinator.com/item?id=47012717) | Link: https://ziglang.org/devlog/2026/#2026-02-13
 
-## TL;DR
-Zig’s standard library now has experimental `std.Io.Evented` backends for Linux `io_uring` and macOS Grand Central Dispatch, both built on userspace stack-switching (fibers/green threads). You can swap between traditional threaded I/O and evented I/O by changing only how `std.Io` is constructed; the application code stays identical. The Zig compiler itself can already run on these backends, though there’s an unresolved performance regression and missing features. HN debates Zig’s instability, language tribalism, practical business value, and comparisons to Rust’s slower io_uring adoption.
+### TL;DR
 
----
+Near the 0.16.0 release, Zig’s `std.Io.Evented` gained io_uring and Grand Central Dispatch backends built on userspace stack switching. Applications accept a `std.Io` interface, so identical business logic can run on threaded or evented I/O by changing initialization; even the compiler runs with both new backends. They remain experimental: error handling, logging cleanup, missing functions, stack-size support, tests, and an unexplained compiler slowdown remain. Discussion praised the swappable design and momentum, but questioned pre-1.0 churn, distribution costs, context-switch correctness, and whether incomplete backends merit announcement.
 
-## Comment pulse
-- New stack → long-term maintenance cost. Distros must support Zig for years; language still unstable and niche. — counterpoint: users can just pick tools that fit their needs.  
-- Zig is already productive → simpler than Rust for low-level, data-oriented work; good performance, especially for hot paths and cloud cost savings.  
-- Pre-1.0 instability worries some → others prefer a “living” language; say most breakage is in stdlib and manageable for many projects.
+### Comment pulse
 
----
+- Supporters prefer visible experimentation and a living language—counterpoint: application, package, and distribution maintainers absorb churn until interfaces stabilize.
+- A critic alleged incorrect register-clobber declarations and weak testing; another noted missing GCD networking and a growing vtable.
+- Rust comparisons highlighted io_uring abstraction difficulty, while Zig users cited simpler low-level optimization as a present-day business case.
 
-## LLM perspective
-- View: A unified `std.Io` abstraction with swappable backends makes serious evented I/O practical without framework lock-in.  
-- Impact: Systems developers gain more ergonomic, high-performance async I/O on Linux/macOS; could attract projects needing tight control without Rust’s complexity.  
-- Watch next: performance fixes, stronger testing, networking for GCD backend, and stack-size introspection will determine whether this becomes production-ready or stays a demo.
+### LLM perspective
+
+- View: Backend interchangeability is the architectural milestone; production readiness is not, and the announcement explicitly separates those claims.
+- Impact: Early adopters can exercise one API across execution models; maintainers inherit unstable interfaces, backend gaps, and debugging risk.
+- Watch next: Resolve the compiler regression, audit context switching, finish GCD networking, shrink API gaps, and publish backend-specific benchmarks.

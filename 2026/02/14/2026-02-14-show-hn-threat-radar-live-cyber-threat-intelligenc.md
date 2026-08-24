@@ -2,10 +2,12 @@
 
 - Score: 222 | [HN](https://news.ycombinator.com/item?id=47018888) | Link: https://radar.offseq.com/
 
-## TL;DR
-Threat Radar is a live cyber threat intelligence dashboard from OffSeq focused on Europe but with global coverage. It aggregates threat feeds into a real-time view with severity breakdowns, geographic heat maps, and a timeline for trend analysis. Analysts can search a structured threat database by CVE, country, severity, time range, and tags. A paid “Console” layer turns the radar into an automation hub with custom feeds, webhooks, Slack/email alerts, SIEM/MISP routing, and API access.
+### TL;DR
 
-## LLM perspective
-- View: Vertical threat-intel viewer plus automation layer; value hinges on data sources, deduplication, and AI enrichment quality.  
-- Impact: Most useful for smaller SOCs, MSSPs, and regional teams lacking budget for large commercial TIP platforms.  
-- Watch next: Independent comparisons vs. VirusTotal, MISP, ThreatConnect; sample API responses; clarity on rate limits and historical data retention.
+Threat Radar presents a live dashboard of cyber intelligence focused on Europe and beyond, with severity totals, country heat maps, a streaming feed, and timelines spanning seven days to a custom range. Its searchable database filters by CVE or text, threat type, severity, country, tag, and date, while keyboard shortcuts support rapid navigation. A paid console adds private feeds, email and webhook automation, Slack, SIEM, and MISP delivery, plus API access. The captured page claimed complete AI enrichment; the lone HN comment discussed karma, not the product.
+
+### LLM perspective
+
+- View: The dashboard prioritizes breadth and routing, but the snapshot offers no evidence about source quality or enrichment accuracy.
+- Impact: Security teams could centralize triage and delivery; weak provenance or duplicate events could instead amplify alert fatigue.
+- Watch next: Publish feed provenance, deduplication methods, AI evaluation results, update latency, API limits, and coverage benchmarks by region.

@@ -2,21 +2,18 @@
 
 - Score: 125 | [HN](https://news.ycombinator.com/item?id=47017545) | Link: https://mrdoob.github.io/three-descent/
 
-## TL;DR
-A classic 6‑degrees‑of‑freedom shooter, Descent, has been recreated to run directly in the browser, using three.js and WebGL2 rather than a straightforward engine port. Players report smooth graphics in modern browsers but some choppy audio, plus the usual disorientation and “no up or down” feeling that made the original memorable. Discussion highlights the author’s history of impressive WebGL experiments, alternatives like a WASM/WebGL1 build, and modern spiritual successors such as Overload and community-made campaigns.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+Three-descent recreates Descent in a browser using Three.js, with the first shareware episode bundled and support for owners to substitute files from the registered game. The port’s own code is MIT-licensed, while its visible OPL3 emulator uses LGPL-2.1-or-later. It credits Mr. Doob and Claude alongside the original developers. Commenters praised smooth WebGL2 graphics and the game’s disorienting six-degree-of-freedom design, though one Firefox/Linux user encountered choppy audio. Discussion also recommended Overload, fan campaigns, and other Descent-like games.
 
----
+### Comment pulse
 
-## Comment pulse
-- Browser port impresses visually → Smooth rendering in Firefox/Linux; shows how far WebGL/three.js have come — counterpoint: audio glitches break immersion for some users.  
-- Tech lineage matters → Mr.doob leverages three.js, continuing his history of Quake/Descent web remakes; another port uses dxx-rebirth + WASM for broader WebGL1 support.  
-- Fans want more Descent-like experiences → Overload and user campaigns (e.g., First Strike) plus titles like Desecrators extend the formula with modern graphics and procedural maps.
+- Six-degree movement remains the defining experience → zero-gravity tunnels dissolve stable up/down orientation and reward spatial memory.
+- Browser rendering performed well for some → counterpoint: audio quality lagged on at least one Firefox/Linux setup.
+- Fans pointed to broader continuity → Overload, its First Strike campaign, Desecrators, and an older WebGL1/WASM port extend the lineage.
 
----
+### LLM perspective
 
-## LLM perspective
-- View: High-fidelity browser ports validate the web as a serious 3D game runtime, not just for demos.  
-- Impact: Low-friction access preserves game history and invites new players, but complicates licensing and distribution for rights holders.  
-- Watch next: Wider input support, mobile/browser performance studies, and migrations from WebGL2 to WebGPU for better efficiency.
+- View: Re-rendering through Three.js demonstrates adaptation rather than a straight binary-to-browser port.
+- Impact: The shareware episode becomes instantly accessible, while registered players can supply assets for the complete experience.
+- Watch next: Audio fixes, broader browser and input testing, WebGL fallback support, save compatibility, and performance on lower-end hardware.

@@ -2,15 +2,18 @@
 
 - Score: 152 | [HN](https://news.ycombinator.com/item?id=47012964) | Link: https://github.com/PulseBeat02/yt-media-storage
 
-- TL;DR  
-    - Open-source tool encodes arbitrary files into lossless FFV1/MKV video, optionally encrypts them, and later decodes them, enabling “YouTube as storage” via CLI or GUI. It uses fountain codes for redundancy so data can theoretically survive transcoding. HN likes the technical ingenuity but notes this clearly violates YouTube’s ToS, is extremely storage-inefficient, and risks account bans. Discussion widens into YouTube’s long‑tail economics, AI training value of archived videos, and the inevitability of deleting low-value content.
+### TL;DR
 
-- Comment pulse  
-    - YouTube's long tail became an AI goldmine → archiving everything pays off for training—counterpoint: videos still vanish and storage limits will eventually bite.  
-    - Project is clever but violates YouTube ToS → service is for video sharing, not generic storage; heavy use risks account bans or data deletion.  
-    - Encoding files into video is possible but inefficient → YouTube recompression and transcoding threaten bit-perfect recovery, demanding extreme redundancy and many accounts to resist removals.
+This C++ tool turns arbitrary files into 4K, 30-fps FFV1/MKV video frames, then reconstructs them later. Wirehair fountain codes add redundancy and repair, while optional XChaCha20-Poly1305 encryption protects contents; CLI and Qt interfaces support single-file and batch workflows. The intended destination is YouTube, effectively shifting storage costs to its video infrastructure. Commenters questioned whether transcoding preserves enough signal, noted that videos can disappear, and cited terms explicitly forbidding general-purpose file storage. Even if technically recoverable, uploads risk inefficiency, deletion, or account bans.
 
-- LLM perspective  
-    - View: Treat this as an educational steganography/erasure-coding demo, not a serious backup strategy or production storage layer.  
-    - Impact: Highlights how opaque platform policies make “free” infrastructure unreliable; self-hosted or paid storage remains safer for critical data.  
-    - Watch next: Benchmarks on decode success after real YouTube transcoding, and experiments with other services or codecs preserving more payload.
+### Comment pulse
+
+- Historical storage abundance encouraged the experiment—counterpoint: growth, AI uploads, and stalled cost declines may eventually force deletion policies.
+- Some called corporate capacity fair game; others saw deliberate cost-shifting as abuse of shared infrastructure explicitly outside the service’s purpose.
+- Fountain-code redundancy may survive compression, but transcodes, removed videos, or banned accounts can still exceed the recovery budget.
+
+### LLM perspective
+
+- View: This is an error-correction demonstration masquerading as storage; durability depends on a hostile, undocumented transformation and retention layer.
+- Impact: Experimenters gain a clever codec exercise while externalizing compute, capacity, policy, and account risk to YouTube.
+- Watch next: Measure recovery after every transcode tier, bandwidth expansion, redundancy overhead, deletion tolerance, and platform encoder changes.

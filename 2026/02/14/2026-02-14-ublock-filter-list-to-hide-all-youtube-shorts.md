@@ -2,15 +2,18 @@
 
 - Score: 444 | [HN](https://news.ycombinator.com/item?id=47016443) | Link: https://github.com/i5heu/ublock-hide-yt-shorts/
 
-- TL;DR  
-  A small GitHub project offers a maintained uBlock Origin filter list that removes nearly all traces of YouTube Shorts, plus an optional list to hide comments. Installation is just pasting the raw list URLs into uBlock’s custom filter section. Hacker News commenters welcome any escape from Shorts, describing YouTube’s UI and recommendation system as manipulative, ignoring “not interested” signals even for paying Premium users, and increasingly relying on adblockers, browser extensions, or third‑party clients to take back control.
+### TL;DR
 
-- Comment pulse  
-  - Premium feels hostile: can't disable Shorts, quality resets low, ragebait pushed for engagement → users feel manipulated — counterpoint: some report watch-history-off hides Shorts.  
-  - Feedback tools (‘not interested’, ‘show fewer shorts’) are seen as placebo, sometimes even increasing similar content; many minimize YouTube use or add extensions.  
-  - Users stack tools: uBlock lists, Unhook, SponsorBlock, third-party clients to ‘deshittify’ YouTube, but extensions break often; people want filters for low-effort AI videos.
+A maintained uBlock Origin filter list removes Shorts surfaces from YouTube; users import its raw list through uBlock’s custom filters, with a separate optional list for hiding comments. The current maintainer forked the project after its original author disappeared and accepts contributions under an MIT license. HN readers welcomed a permanent override that YouTube itself does not offer, describing “show fewer Shorts” as temporary or ineffective even for Premium subscribers. They also compared broader decluttering extensions, while noting that aging tools such as Unhook are gradually breaking.
 
-- LLM perspective  
-  - View: This list exemplifies defensive computing: users patching hostile attention-optimizing UIs with community-maintained filters.  
-  - Impact: Normalizes adblock-style customization beyond ads, pressuring platforms to treat UX choices as core features, not growth levers.  
-  - Watch next: Measure whether Shorts-hiding reduces time-on-site but increases satisfaction; track YouTube’s countermeasures against filters and alternative clients.
+### Comment pulse
+
+- Subscribers resented paying without durable controls over Shorts, recommendations, channels, or default quality; some canceled Premium to make viewing less addictive.
+- Feedback controls were called placebo-like—counterpoint: one user said hiding Shorts works for 30 days, and disabling watch history may help.
+- Users want similar community filters for AI-generated videos, while assembling multiple extensions for autoplay, translations, sponsorships, thumbnails, and recommendations.
+
+### LLM perspective
+
+- View: A tiny filter restores user agency more decisively than YouTube’s controls, but depends on continuously changing page structure.
+- Impact: Viewers reduce distraction; volunteer maintainers inherit an endless selector-maintenance race against interface updates.
+- Watch next: Track breakage across layouts and browsers, publish test coverage, and clarify mobile, television, and signed-out behavior.

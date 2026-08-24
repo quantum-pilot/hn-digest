@@ -2,15 +2,18 @@
 
 - Score: 255 | [HN](https://news.ycombinator.com/item?id=47015406) | Link: https://arstechnica.com/tech-policy/2026/02/platforms-bend-over-backward-to-help-dhs-censor-ice-critics-advocates-say/
 
-- TL;DR  
-    - Civil-liberties groups FIRE, EFF, and ACLU say DHS and Trump officials Pam Bondi and Kristi Noem coerced Meta, Apple, and Google into suppressing lawful criticism and tracking of ICE. Alleged tactics include vague “officer safety/doxing” claims, blank or defective subpoenas, and threats of sanctions, leading to removal of ICE-monitoring apps and a 100k‑member Facebook group. Lawsuits and FOIA cases aim to expose government–platform communications, raise the First Amendment’s “imminent violence” bar, and push platforms to demand court orders and notify users.
+### TL;DR
 
-- Comment pulse  
-    - Censorship-industrial complex is bipartisan → both parties expand surveillance and censorship tools, forgetting the other side will inherit them.  
-    - US platforms resemble what they accuse China of → state-influenced moderation, TikTok hypocrisy, and erosion of US tech’s soft-power advantage.  
-    - Trust in Apple and AI platforms erodes → app removals and asymmetric moderation fuel fears about backdoors and ideologically skewed model refusals.
+FIRE sued Attorney General Pam Bondi and DHS Secretary Kristi Noem, alleging they coerced Meta and Apple into suppressing protected speech about public ICE operations, while EFF litigation seeks government-platform communications. Advocates say companies complied with informal demands or defective subpoenas despite being able to require court orders, sometimes withholding timely user notice. The cases cover a 100,000-member Facebook group and ICE-monitoring apps. Commenters broadly opposed government-driven censorship across parties, while debating whether app removals imply broader security backdoors and stressing that unlawful incitement requires imminent, likely harm.
 
-- LLM perspective  
-    - View: The key battle is forcing transparency and court oversight for takedown and data requests labeled “safety” or “doxing.”  
-    - Impact: Outcomes will shape how boldly platforms resist informal government pressure and how safely activists can coordinate online.  
-    - Watch next: Court rulings in ICEBlock/Eyes Up and EFF FOIA cases; platform policy updates on subpoenas, gag orders, and user notice.
+### Comment pulse
+
+- Civil-liberties concerns crossed party lines: each administration expands censorship and surveillance tools its successor can reuse.
+- Apple’s compliance weakened trust in its privacy posture—counterpoint: removing an app does not show secret backdoors exist.
+- Users distinguished public observation from doxing and noted that unprotected incitement must target imminent, likely lawless action.
+
+### LLM perspective
+
+- View: Platform resistance is the practical First Amendment firewall when officials rely on pressure instead of judicial authorization.
+- Impact: ICE-watch organizers lose reach and records; providers risk user trust, discovery exposure, and precedent for viewpoint-based takedowns.
+- Watch next: Court rulings, disclosed agency emails, reinstated apps, subpoena-notice practices, and commitments to demand court orders.

@@ -3,18 +3,17 @@
 - Score: 218 | [HN](https://news.ycombinator.com/item?id=47011567) | Link: https://github.com/mickamy/sql-tap
 
 ### TL;DR
-sql-tap is an open-source SQL traffic viewer that runs as a transparent proxy in front of PostgreSQL/MySQL and streams all queries to a terminal UI. It shows real-time queries, transactions, timing, rows affected, errors, and lets you run/edit EXPLAIN/EXPLAIN ANALYZE from the TUI. Installation is simple (Homebrew, Go, Docker), and you don’t change app code—just point it at the proxy. HN discussion focuses on usefulness for debugging, performance/latency trade-offs of wire-protocol proxies, and comparison with extension-based observability.
 
----
+SQL-tap places a Go proxy between an application and PostgreSQL or MySQL, parses native wire traffic, and streams captured events over gRPC to an interactive terminal client without application-code changes. It tracks statements, bound parameters, transactions, duration, affected rows, and errors; users can search, sort, inspect, copy, aggregate, and run EXPLAIN or EXPLAIN ANALYZE. Early testers found it immediately useful for exposing excessive WordPress queries and agent behavior. Discussion centered on whether quick debugging value outweighs proxy latency, deployment complexity, and possible failure under production load.
 
 ### Comment pulse
-- Devs like it for quick debugging and exploration → feature requests: sort by duration, search/filter, PgUp/PgDn scrolling, and query frequency counts.
-- Query-level observability helps understand complex apps and agents → some prefer separate tools (e.g., PGLite-based dbfor.dev) instead of touching production databases directly.
-- Transparent proxies add latency and can struggle under high load → extensions + OTEL seen as better for production — counterpoint: proxy is great for ad‑hoc/local debugging and with managed DBs lacking extensions.
 
----
+- Testers wanted slow-query sorting, filtering, faster navigation, and duplicate counts; the documented interface includes search, duration sorting, paging, and analytics.
+- Proxy critics prefer PostgreSQL extensions plus an OTEL sidecar for performance—counterpoint: managed providers may not permit suitable extensions.
+- Supporters framed the tool as an occasional local debugger, where easy visibility matters more than permanent production instrumentation.
 
 ### LLM perspective
-- View: Ideal as a low-friction “stethoscope” for databases during development, not a full observability stack for high-throughput production.
-- Impact: Helps app devs, SREs, and LLM/agent builders quickly see ORM/agent behavior and N+1 patterns without code changes.
-- Watch next: Benchmarks under load, TLS/credential handling, redaction/anonymization, and potential support for more drivers or extension-based backends.
+
+- View: The proxy is strongest as a disposable diagnostic lens, not automatically as an always-on observability layer.
+- Impact: Developers can correlate application actions with database behavior; operators must account for credentials, overhead, and another failure point.
+- Watch next: Benchmark latency and throughput, test encrypted connections, document capture security, and clarify production versus development guidance.
