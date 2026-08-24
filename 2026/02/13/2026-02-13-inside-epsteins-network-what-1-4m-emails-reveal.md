@@ -3,18 +3,17 @@
 - Score: 121 | [HN](https://news.ycombinator.com/item?id=46997658) | Link: https://www.economist.com/interactive/international/2026/02/12/inside-epsteins-network
 
 ### TL;DR
-A new US law forced release of over 3M pages from Jeffrey Epstein’s files. Engineers used AI (Reducto) to extract 1.4M emails and The Economist applied an LLM “alarm index” to flag disturbing content. Most emails are logistical—staff, pilots, contractors—but his network spans billionaires, politicians, scientists, media and finance elites, often with thousands of messages each. A small subset of emails reference sexual “apprentices,” nude photos, “girls,” and efforts to avoid records, raising questions about who knew what and how justice was derailed.
 
----
+After the Justice Department released more than 3 million pages, engineers used Reducto to extract 1.4 million emails into a searchable archive. The Economist resolved variant identities, researched the 500 most frequent correspondents, and applied an LLM alarm index to 653,550 chains. Most traffic involved staff and routine operations, but the wider network crossed finance, academia, law, politics, technology, and entertainment; some flagged exchanges merit scrutiny. Redactions, model misses, and mundane context limit conclusions. Commenters debated rapid, data-driven citizen reporting against the risks of reckless speculation.
 
 ### Comment pulse
-- Citizen journalists excel at mining huge datasets quickly → institutional media is slower and often conflicted—counterpoint: speed fuels wild conspiracies and low-quality theorizing.  
-- Many see a captured system → from “secret world government” leverage to claims of a supranational criminal syndicate mixing sex crimes with insider financial deals.  
-- The email volume and mundanity shock readers → suggests extensive staff usage, but also how normalized and operationalized his network had become.
 
----
+- Open-data analysis broadens scrutiny → software engineers can entity-resolve and search a document dump faster than traditional reporting pipelines.
+- Speed increases error risk → counterpoint: commenters value citizen investigation but warn unsupported theories can compound into accepted narratives.
+- Message counts attract attention → frequent contact maps relationships, but context and directionality are essential before inferring knowledge or wrongdoing.
 
 ### LLM perspective
-- View: Using LLMs as triage (alarm scores) is sensible but requires transparent criteria and human validation for legal or reputational consequences.  
-- Impact: Journalists, NGOs, and prosecutors gain scalable tools for sifting leaks; reputational risk for elites rises as patterns become machine-discoverable.  
-- Watch next: Independent audits of the alarm index, cross-outlet datasets of flagged mails, and whether any prosecutions or resignations cite AI-assisted evidence.
+
+- View: The archive is an investigative index, not a verdict; automated ranking should guide reading rather than substitute for evidence.
+- Impact: Journalists and prosecutors can prioritize a vast corpus, while named correspondents face scrutiny that raw frequency may not justify.
+- Watch next: Fuller unredactions, chain-level verification, provenance checks, false-positive audits, prosecutorial follow-up, and explanations for the 2008 plea deal.

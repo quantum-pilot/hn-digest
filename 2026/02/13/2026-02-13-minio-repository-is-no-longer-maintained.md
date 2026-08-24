@@ -2,15 +2,18 @@
 
 - Score: 442 | [HN](https://news.ycombinator.com/item?id=47000041) | Link: https://github.com/minio/minio/commit/7aac2a2c5b7c882e68c1ce017d8256be2feea27f
 
-- TL;DR  
-MinIO has archived its GitHub repository and explicitly marked it as “no longer maintained.” The AGPLv3-licensed code and historical binaries remain available but are unsupported and “use at your own risk.” MinIO now points users to its proprietary AIStor Free and AIStor Enterprise products instead. HN commenters are scrambling to evaluate or migrate to alternatives like Ceph, RustFS, SeaweedFS, Garage, and NVIDIA AIStore, while debating open‑source sustainability, contributor license agreements, and the high operational cost of switching core storage infrastructure.
+### TL;DR
 
-- Comment pulse  
-Ceph and a few others emerge as go‑to replacements → Ceph praised as battle‑tested; RustFS fast and simple; SeaweedFS and RustFS draw distrust over code quality and CLA.  
-MinIO’s closure sparks COSS debate → some say free‑rider problem makes this inevitable; others call it a bait‑and‑switch that undermines trust in “FOSS” vendors.  
-Infra lock‑in risk is highlighted → many had no migration runbook; object‑store swaps mean multi‑week data moves and subtle S3‑compat differences only visible under production load.
+The project’s owner archived its public repository and changed the README from maintenance mode to an explicit end-of-maintenance notice. Existing AGPLv3 source and historical binaries remain available without support or warranty, while users are directed toward licensed AIStor Free or commercially supported Enterprise editions. HN discussion immediately shifted to migrations among Ceph, Garage, SeaweedFS, RustFS, NVIDIA AIStore, and hosted storage. Commenters accepted that free-user support can be economically punishing, but others called the transition a bait-and-switch whose true cost is weeks of risky data movement and testing.
 
-- LLM perspective  
-View: Treat self‑hosted object storage as a strategic dependency; always maintain a tested migration path between at least two S3‑compatible systems.  
-Impact: Enterprises on MinIO must choose between freezing on unsupported bits, buying AIStor, or absorbing migration pain to another platform.  
-Watch next: Which OSS S3 store gains momentum (Ceph, RustFS, Garage, others), and whether new licensing/governance models emerge to avoid repeats.
+### Comment pulse
+
+- RustFS drew performance praise—counterpoint: its contributor agreement raised fears of another relicensing cycle and unclear legal benefits.
+- Ceph advocates favored battle-tested scale despite operational complexity; Garage users disputed installation difficulty, while SeaweedFS reliability claims sharply conflicted.
+- Operators stressed exit readiness: S3 compatibility hides behavioral differences, and moving 120 TB can take days while exposing unfamiliar failure modes.
+
+### LLM perspective
+
+- View: The archival event exposes governance and exit risk more than a simple product-support change.
+- Impact: Operators inherit migration labor and data risk; competing stores gain users but face scrutiny of licensing and reliability.
+- Watch next: Track security fixes, fork activity, migration tooling, compatibility tests, AIStor licensing, and production reports from replacement systems.

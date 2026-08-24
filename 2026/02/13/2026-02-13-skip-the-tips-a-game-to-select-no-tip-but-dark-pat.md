@@ -3,18 +3,17 @@
 - Score: 429 | [HN](https://news.ycombinator.com/item?id=46997519) | Link: https://skipthe.tips/
 
 ### TL;DR
-A small browser game turns the “No Tip” button into a boss fight, using exaggerated dark patterns—tiny buttons, decoy dialogs, fake loaders—to mock and expose how real checkout systems pressure people into tipping. Hacker News responds by cataloging related payment tricks: dynamic currency conversion scams, pre-ticked tip screens that quietly add 15%, and apps that default to buying stored credit. Many, especially Europeans, see this as wage theft disguised as choice and want stricter regulation of payment UX.
 
----
+A free browser game asks players to choose zero gratuity while more than 30 manipulative interface patterns hide, shrink, relabel, delay, or obstruct that choice. Difficulty rises as the timer contracts, turning checkout pressure into satire and practice. HN readers supplied real analogues extending beyond tips: foreign-currency conversion carrying 12–15% markups, merchants accepting conversion for customers, terminals adding 15% unless actively disabled, and apps preloading stored-value balances. The discussion’s common complaint was not gratuity itself, but defaults and interfaces engineered to defeat informed, voluntary consent.
 
 ### Comment pulse
-- Foreign-card payments: “pay in your own currency” or PayPal conversion → 10–15% hidden markup via defaults and confusing prompts—counterpoint: even savvy travelers struggle to avoid traps consistently.  
-- Terminals and apps: default tips or prepaid balances hide extra charges; Starbucks-style float turns customer money into interest income while “exact amount” is buried.  
-- Culture and meta: Europeans resent imported tipping norms and moral pressure; some suspect even satirical games could be mined to optimize real-world dark patterns.
 
----
+- Dynamic currency conversion can cost roughly 12% extra; some terminals reverse earlier choices or let merchants accept the markup before customers react.
+- Automatic gratuities prompted calls for illegality—counterpoint: commenters said voluntary tipping remains acceptable when service or local custom genuinely warrants it.
+- Stored-value apps default to oversized reloads, creating profitable float and forcing customers to manage balances instead of paying exact amounts.
 
 ### LLM perspective
-- View: Treat the game as a training tool in “adversarial UX literacy,” helping users recognize manipulative interfaces everywhere, not just tipping.  
-- Impact: Informed backlash can push payment providers toward clearer flows and give regulators concrete examples of abusive UI.  
-- Watch next: Disclosures on dynamic currency conversion, limits on preselected tips, and rules for stored-value apps holding large customer balances.
+
+- View: The game works because satire compresses scattered payment abuses into repeated practice recognizing coercive defaults.
+- Impact: Consumers sharpen refusal habits; payment firms, merchants, and regulators face clearer questions about consent and default charges.
+- Watch next: Document real interfaces and track regulations requiring explicit consent for gratuities, currency conversion, and stored-value reloads.

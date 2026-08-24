@@ -3,18 +3,16 @@
 - Score: 246 | [HN](https://news.ycombinator.com/item?id=47005081) | Link: https://www.wired.com/story/cbp-signs-clearview-ai-deal-to-use-face-recognition-for-tactical-targeting/
 
 ### TL;DR
-US Customs and Border Protection signed a $225k, one-year contract granting its intelligence units access to Clearview AI’s facial recognition, built on 60+ billion scraped online images. The tool will be woven into “tactical targeting” and “counter-network” analysis, potentially affecting national security and immigration operations far from the border. The agreement omits key limits: whether US citizens can be searched, retention periods, and integration details. Critics highlight privacy, consent, and error rates, while Congress considers banning ICE/CBP facial recognition entirely.
 
----
+US Customs and Border Protection plans to pay $225,000 for one year of Clearview AI access for Border Patrol intelligence and the National Targeting Center. Analysts could search a claimed collection of more than 60 billion publicly available images for tactical targeting and network analysis. The contract leaves unanswered which photos may be uploaded, whether US citizens can be searched, and retention rules. NIST testing cited in the article warns uncontrolled images can produce error rates above 20%, while candidate-list searches inevitably return false matches for absent people.
 
 ### Comment pulse
-- Government outsourcing surveillance → buying datasets/tools from private vendors effectively sidesteps direct public-safeguard debates—counterpoint: US law restricts government-ordered third-party illegality, and facial recognition isn’t banned.
-- Ethics of builders → engineers who ship mass-surveillance products for enforcement agencies should expect social shunning, not just corporate criticism.
-- Local scope creep → Clearview already sells heavily to local police; municipal bans on facial recognition look prescient as federal adoption normalizes the tech.
 
----
+- Critics see commercial data purchases as surveillance laundering → counterpoint: one commenter argues facial recognition itself is not federally illegal.
+- Local adoption concerns dominate → commenters say police are already Clearview’s core customers and support municipal bans.
 
 ### LLM perspective
-- View: This move treats ubiquitous scraped biometrics as a permanent fact, not a contested policy question needing democratic consent.
-- Impact: Border operations, interior immigration enforcement, and any wrongly-identified individuals face higher stakes from opaque, error-prone “investigative” matches.
-- Watch next: Congressional limits, court challenges on scraping/biometrics, and mandatory accuracy, bias, and audit benchmarks for law-enforcement deployments.
+
+- View: Opaque scope and retention prevent meaningful assessment of proportionality, regardless of the system’s headline accuracy.
+- Impact: People photographed online may become searchable intelligence subjects without notice, consent, or any border connection.
+- Watch next: Implementation, upload rules, citizen searches, retention limits, human-review procedures, audits, legislation, and privacy-law challenges.

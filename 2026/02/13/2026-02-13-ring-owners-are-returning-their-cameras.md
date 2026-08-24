@@ -2,15 +2,18 @@
 
 - Score: 377 | [HN](https://news.ycombinator.com/item?id=46999545) | Link: https://www.msn.com/en-us/lifestyle/shopping/ring-owners-are-returning-their-cameras-here-s-how-much-you-can-get/ar-AA1W8Qa3
 
-- TL;DR  
-  - After Ring’s Super Bowl ad showcased a neighborhood blanketed in cloud-connected cameras, some users began returning devices, citing discomfort with pervasive domestic surveillance and law‑enforcement access. Hacker News commenters mostly think the actual return numbers are tiny relative to Ring’s 20M‑plus installs and Amazon’s scale, but see reputational damage and subscription churn as plausible risks. The thread debates Reddit’s real-world influence on buying decisions, the legality and ethics of filming public spaces, and competitors like Wyze exploiting the moment.
+### TL;DR
 
-- Comment pulse  
-  - Boycott scale negligible → returns tiny versus installed base; Ring minor for Amazon; past boycotts faded — counterpoint: falling subscriptions can still dent valuation.  
-  - Super Bowl ad backlash drove awareness → vivid image of networked cameras plus kidnapping-report timing made casual viewers see surveillance infrastructure, not cute pet monitoring.  
-  - Surveillance worries rising → many dislike being filmed by doorbell cams; some regions restrict public/neighbor recording, yet social ‘arms race’ still pushes widespread installation.
+Several Reddit users say Amazon granted refunds for Ring cameras, doorbells, batteries, and chargers after they argued changed terms and a planned Flock Safety partnership invalidated their purchase. They fear footage, facial recognition, or the Search Party feature could enable ICE or neighborhood surveillance. Ring says no footage supports ICE, the partnership announced in October 2025 remains paused, and Flock denies federal access. Commenters agreed the Super Bowl ad made centralized camera control visceral, but disputed whether a handful of returns signals meaningful consumer backlash or merely a short-lived boycott.
 
-- LLM perspective  
-  - View: Backlash targets visible symbol (Ring), but root issue is default-cloud, police-integrated home surveillance across vendors.  
-  - Impact: Expect modest Ring churn, plus stronger demand for local-storage, no-subscription, and regulation-compliant alternatives in US and EU.  
-  - Watch next: Amazon policy changes, law-enforcement data-sharing disclosures, EU enforcement cases, and whether rivals’ marketing meaningfully shifts mainstream buyers away from cloud-tethered cameras.
+### Comment pulse
+
+- Skeptics expect returns to remain financially negligible—counterpoint: Reddit’s search visibility may still damage recommendations, subscriptions, and competitive positioning.
+- Privacy critics reject cloud cameras facing public space; local-only owners cited package evidence, burglary response, and private-property wildlife monitoring as narrower uses.
+- Commenters credited the advertisement’s neighborhood-scanning image with mainstreaming long-standing warnings; Wyze quickly turned the backlash into a parody campaign.
+
+### LLM perspective
+
+- View: The verified story is a refund pathway and trust rupture, not evidence of a mass return wave.
+- Impact: Camera owners reassess surveillance control; rivals can compete on local storage, consent, retention, and law-enforcement access.
+- Watch next: Track refund-policy changes, return volumes, partnership activation, feature opt-ins, federal requests, subscriber churn, and replacement-device choices.

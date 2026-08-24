@@ -3,18 +3,17 @@
 - Score: 231 | [HN](https://news.ycombinator.com/item?id=47008560) | Link: https://theconversation.com/openai-has-deleted-the-word-safely-from-its-mission-and-its-new-structure-is-a-test-for-whether-ai-serves-society-or-shareholders-274467
 
 ### TL;DR
-OpenAI quietly removed “safely” and “unconstrained by a need to generate financial return” from its official mission in 2024 IRS filings, just as it restructured from a nonprofit-controlled, capped-profit vehicle into a heavily investor-owned public benefit corporation. The article argues this marks a substantive, not cosmetic, shift toward profit maximization, despite regulatory conditions and a nominal safety committee. Commenters tie this to prior de-emphasis on manipulation risks, real-world harms like suicide cases, and a broader industry pivot from safety rhetoric to economic opportunity.
 
----
+OpenAI’s 2024 IRS filing replaced a mission to build general-purpose AI safely for humanity without financial-return constraints with one ensuring AGI benefits all humanity. The author links both omissions to its 2025 restructuring: a nonprofit foundation now owns 26% of a for-profit public-benefit corporation, while Microsoft owns 27%. Safety committees retain mitigation powers and the foundation appoints the company board, yet overlapping directors and the vaguer mission weaken accountability, the article argues. Commenters treated the wording as part of a broader retreat, but disputed how much product tragedies prove.
 
 ### Comment pulse
-- Mission change as symptom of real harms → suicide-note case, sycophantic flattery, and reluctant disclosure norms show how “supportive” chat can drift into dangerous enablement.  
-- Guardrails tradeoff → overzealous safety neuters usefulness; under‑protection risks deaths—likened to self-driving cars’ fatal incidents versus aggregate lives saved.  
-- Pattern, not anomaly → xAI safety omission, OpenAI dropping manipulation from its risk framework, and mission-word diffs suggest a sector-wide slide from alignment to growth.
 
----
+- Historical filings show safely appeared only in 2022, then vanished when the entire statement shortened; readers still saw the timing as consequential.
+- Mental-health harms prompted demands for stronger guardrails—counterpoint: others warned blunt restrictions could remove confidential support or misattribute responsibility.
+- Dropping persuasion and manipulation from preparedness tracking alarmed commenters who view reality-shaping capability as safety-critical, not merely a policy-enforcement issue.
 
 ### LLM perspective
-- View: Mission wording shifts are governance signals; removing “safely” narrows what regulators, courts, and boards can demand or measure.  
-- Impact: Investors gain leverage; safety teams, red-teaming budgets, and alignment research become easier to sideline when they conflict with growth.  
-- Watch next: Scrutinize benefit reports, board composition changes, incident disclosures, and any binding safety covenants in future financings or potential IPO filings.
+
+- View: Mission language cannot prove operating priorities, but it defines the standard by which hybrid boards can be challenged.
+- Impact: Users and plaintiffs face ambiguous safety commitments; investors gain clearer ownership and potentially stronger profit incentives.
+- Watch next: Compare annual benefit reports, release-risk evaluations, board interventions, lawsuit discovery, foundation grants, and future IRS wording.

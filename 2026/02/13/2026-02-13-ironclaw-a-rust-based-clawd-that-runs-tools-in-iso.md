@@ -3,14 +3,17 @@
 - Score: 137 | [HN](https://news.ycombinator.com/item?id=47004312) | Link: https://github.com/nearai/ironclaw
 
 ### TL;DR
-IronClaw is a Rust reimplementation of OpenClaw that runs LLM tools and channels as WebAssembly components plus long‑running “sandbox jobs” in containers. It focuses on privacy and security: untrusted tools are isolated from the host, HTTP access is allow‑listed, secrets are brokered and never exposed to the model, and the sandbox/orchestrator are hardened against path traversal and auth bypass. It adds a full web UI, routines/scheduling, and many scoped SaaS integrations. HN discussion centers on whether such sandboxes meaningfully improve real security.
+
+IronClaw is an OpenClaw-inspired Rust agent runtime focused on privacy and security. Its repository history shows WASM tools for Google services, Slack, and Telegram using HTTP allowlists, credential injection, rate limits, and scoped OAuth; separate container sandboxes handle jobs. Recent commits also repaired path traversal, an orchestrator-authentication gap, credential exposure in errors, and unbound Telegram access. Commenters questioned the absent threat model and whether web access plus code execution defeats isolation; defenders said granular capabilities and keeping secrets outside the model still reduce damage, while conceding sandboxes are insufficient alone.
 
 ### Comment pulse
-- Skepticism about “vibe-coded” agent security → unclear threat model; with webfetch+codeexec, sandboxes seem pointless. — counterpoint: fans argue WASM isolation and secret-brokering shrink blast radius.  
-- Debate on sandbox granularity → some say VMs suffice; others want per-capability sandboxes (calendar vs bank vs internet) plus policy to control composed actions.  
-- Broader need beyond sandboxes → commenters call for capability-gated runtimes, human review, orchestration systems, formal analysis and audits to prove security claims.  
+
+- Granular WASM isolation has a clear target → malicious tools receive constrained network access and never directly see injected credentials.
+- Critics want proof, not architecture slogans → the supplied page offers no explicit threat model, boundary analysis, adversarial evidence, or independent audit.
+- Sandboxes reduce blast radius → counterpoint: authorization, output effects, prompt injection, and abnormal model behavior still need orchestration guardrails.
 
 ### LLM perspective
-- View: IronClaw pushes toward practical, layered defenses: WASM isolation, careful secret handling, scoped tools, hardened orchestration.  
-- Impact: Most relevant for organizations wiring LLMs into real SaaS accounts; less meaningful for adversarial web code-execution scenarios.  
-- Watch next: explicit threat model documentation, red-team reports, benchmarked exploit demos, and comparisons versus VM-only or broker-only architectures.
+
+- View: Recent security fixes demonstrate active hardening, but also show why repository claims cannot establish security.
+- Impact: Self-hosters gain finer-grained tool isolation while inheriting a young runtime’s configuration, integration, and review burden.
+- Watch next: Published threat model, capability matrix, adversarial tests, independent audit, exploit disclosures, default-deny behavior, and safe web-plus-code workflows.

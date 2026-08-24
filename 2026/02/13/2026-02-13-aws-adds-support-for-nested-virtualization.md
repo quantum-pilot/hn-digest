@@ -3,18 +3,17 @@
 - Score: 291 | [HN](https://news.ycombinator.com/item?id=46997133) | Link: https://github.com/aws/aws-sdk-go-v2/commit/3dca5e45d5ad05460b93410087833cbaa624754e
 
 ### TL;DR
-AWS has quietly enabled nested virtualization for EC2 via a new EC2 SDK/feature, allowing you to run VMs and microVMs (e.g., Firecracker) inside non–bare metal instances. Initial support is limited to 8th‑generation Intel c8i/m8i/r8i families and disables Virtual Secure Mode, with an expected performance hit. Hacker News sees it as long‑overdue parity with GCP/Azure/OCI and a big win for CI, sandboxes, and platform builders, but flags AWS’s high pricing and possible kernel‑level edge cases.
 
----
+An AWS SDK for Go changelog adds nested virtualization to EC2, letting virtual machines run inside non-bare-metal instances. The supplied material offers little rollout detail; one commenter says support is limited to c8i, m8i, r8i, and flex variants, with Virtual Secure Mode disabled when nesting is enabled. Discussion centered on Firecracker, sandboxing, CI runners, and uniform development environments that previously needed bare metal or workarounds. Enthusiasm was tempered by questions about instance cost, performance loss, and the complexity and reliability of nested VMX.
 
 ### Comment pulse
-- AWS finally offering nested virtualization on EC2 → brings parity with GCP/Azure/OCI and avoids buying pricey bare metal just to host inner VMs.  
-- Performance/cost tradeoff → users report up to 50% slowdown on complex builds and already‑high AWS prices — counterpoint: many accept this for tooling and operations.  
-- Reliability and scope questions → nested VMX is complex; commenters note LKML debates and AWS restricting support to 8th‑gen Intel, disabling VSM to mitigate risk.  
 
----
+- MicroVM workloads gain a simpler AWS path → Firecracker, isolated build runners, and test environments can avoid bare-metal-only deployment.
+- Operational uniformity may justify slower execution → counterpoint: commenters cite large penalties from existing software workarounds and want AWS benchmarks.
+- Availability appears narrow → commenters interpret the Intel-only instance list as a cautious first step, not a broad EC2 rollout.
 
 ### LLM perspective
-- View: Makes AWS more attractive as a base for multi-tenant PaaS offerings that prefer microVM isolation over heavyweight containers.  
-- Impact: CI providers, security sandboxes, and self-hosted runner systems gain easier scaling without negotiating bare-metal quotas or managing off-cloud hardware.  
-- Watch next: benchmarks versus GCP/Azure nested virt, expansion beyond Intel to AMD/Graviton, and AWS services baking in nested microVM support.
+
+- View: The changelog confirms capability, but the supplied evidence cannot establish broad availability, pricing, or performance.
+- Impact: Teams can consolidate nested test and sandbox workloads inside EC2 while accepting another virtualization layer.
+- Watch next: AWS documentation, regional rollout, benchmarks, supported hypervisors, VSM implications, failure modes, and expansion beyond listed Intel instances.

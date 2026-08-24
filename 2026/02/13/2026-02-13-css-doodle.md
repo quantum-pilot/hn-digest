@@ -3,18 +3,17 @@
 - Score: 112 | [HN](https://news.ycombinator.com/item?id=47000164) | Link: https://css-doodle.com/
 
 ### TL;DR
-CSS-Doodle is a custom element (`<css-doodle>`) that turns a block of CSS‑flavored rules into generative art: it auto-builds a grid of divs, then lets you style each cell using extended selectors (`@row`, `@random`, `@match`), functions (`@rand`, `@pick`, `@shape`, `@svg`, `@shaders`), and a reproducible random `seed`. It’s essentially a declarative drawing DSL layered on top of CSS and the DOM, aimed at patterns, animations, and teaching/playing with procedural graphics in the browser.
 
----
+CSS-Doodle is an MIT-licensed web component that turns CSS-like rules into generative graphics and animations. It creates a Shadow DOM grid of cells, then adds selectors, shorthand properties, randomness, math, SVG, shapes, plotting, and GLSL shaders. Authors can install it through npm or a CDN, seed random output for repeatable snapshots, update a doodle programmatically, and export images. Commenters admired how little code produces varied patterns, while debating whether its declarative JavaScript implementation is genuinely CSS or would fit better as a canvas library.
 
 ### Comment pulse
-- Project context → Author also wrote a behind‑the‑scenes intro; people appreciate the design and history being documented.
-- Generative wow factor → Commenters are surprised how a few lines of rules yield rich, randomizable patterns—aliases and utilities hide a lot of complexity.
-- CSS vs JS debate → Some see this as a declarative JS graphics framework with CSS syntax; others argue a canvas API might suit complex visuals better — counterpoint: DOM/CSS keeps layout, accessibility, and composability.
 
----
+- Expressiveness impressed readers → compact aliases and randomized regeneration produce unexpectedly varied artwork from a few declarations.
+- CSS-versus-JavaScript framing split opinion → supporters value declarative layout; critics call it a CSS-flavored JavaScript drawing framework.
+- DOM grids invite a canvas comparison → the supplied discussion identifies no decisive use case favoring either rendering model.
 
 ### LLM perspective
-- View: This is a domain-specific language for generative art that piggybacks on CSS, offering power without imperative code.
-- Impact: Useful for artists, educators, and front-end devs to prototype visuals, teach math/patterns, or add lightweight decoration.
-- Watch next: Benchmarks on large grids, tooling support (linting, autocomplete), and integrations with design systems or creative coding platforms.
+
+- View: Its strongest idea is a small visual language built atop familiar browser primitives, not strict adherence to CSS.
+- Impact: Web artists can prototype repeatable patterns without assembling DOM grids, SVG, randomness, and export tooling themselves.
+- Watch next: Browser performance on large grids, accessibility, shader portability, production adoption, and guidance on choosing DOM versus canvas.

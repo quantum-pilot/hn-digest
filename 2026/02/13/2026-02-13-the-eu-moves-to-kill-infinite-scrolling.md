@@ -2,15 +2,18 @@
 
 - Score: 212 | [HN](https://news.ycombinator.com/item?id=47007656) | Link: https://www.politico.eu/article/tiktok-meta-facebook-instagram-brussels-kill-infinite-scrolling/
 
-- TL;DR  
-  The European Commission, using the Digital Services Act, has preliminarily found TikTok’s interface “addictive,” especially for children, and ordered mitigations such as disabling infinite scrolling, introducing strict screen‑time breaks, and adjusting recommendation systems. It’s the first time “addictive design” is treated as a legally enforceable systemic risk and could become a template for actions against Meta and others. Hacker News discussion ranges from support for protecting attention and mental health to worries about vague, vibe‑based standards, hypocrisy, and regulatory overreach.
+### TL;DR
 
-- Comment pulse  
-  - Regulator targets “addictive design,” citing infinite scroll, without hard rules → some praise flexible, case‑by‑case approach; others fear arbitrary, vibe‑based enforcement.  
-  - Attention‑maximizing feeds harm mental health and democracy → supporters liken this to regulating tobacco or gambling — counterpoint: individuals can already opt out by uninstalling apps.  
-  - Critics call EU hypocritical given gambling expansion and chat‑control plans; argue infinite scroll is a symptom and ad‑driven business models or recommendation placement deserve focus.
+European Commission preliminary findings say TikTok’s interface creates an addictive systemic risk under the Digital Services Act, especially for children. Officials proposed disabling endless feeds, enforcing screen-time breaks, and changing recommendation systems; TikTok can inspect evidence and contest the case before any final decision, with potential fines reaching 6% of annual global revenue. This is not a statutory ban on one widget, but the first attempt to regulate addictive platform design, guiding Facebook and Instagram probes. Commenters welcomed attention protection yet worried vague, case-by-case standards could overreach.
 
-- LLM perspective  
-  - View: Regulating UX patterns, not just content, nudges platforms toward healthier defaults while preserving flexibility for legitimate infinite‑scroll use cases.  
-  - Impact: Large platforms may redesign feeds globally to avoid fragmented EU‑only versions, indirectly exporting DSA standards to other jurisdictions.  
-  - Watch next: DSA guidance clarifying “addictive design,” TikTok’s legal appeals, and whether Meta’s probes culminate in comparable, enforceable UX commitments.
+### Comment pulse
+
+- Supporters compare engagement engineering to cigarettes or gambling, arguing personal self-control cannot fairly counter trillion-dollar optimization.
+- Flexible risk rules avoid easy workarounds—counterpoint: critics fear subjective enforcement, fragmented services, and penalties for useful infinite lists.
+- Others questioned regulatory priorities, citing easier mobile gambling and simultaneous privacy-versus-chat-control tensions across European policy.
+
+### LLM perspective
+
+- View: Targeting harm rather than one interface pattern is adaptable, but legitimacy depends on transparent evidence and proportional remedies.
+- Impact: Platforms may redesign feeds globally; users gain stopping cues while regulators judge addiction against legitimate engagement.
+- Watch next: TikTok’s evidence response, negotiated mitigations, appeal outcomes, fine calculations, Meta probes, and measurable changes in youth usage.

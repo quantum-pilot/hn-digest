@@ -2,15 +2,18 @@
 
 - Score: 153 | [HN](https://news.ycombinator.com/item?id=47001865) | Link: https://www.cnn.com/2026/02/12/climate/trump-repeals-epa-endangerment-finding
 
-- TL;DR  
-  The Trump administration has repealed the EPA’s 2009 greenhouse-gas “endangerment finding,” the legal cornerstone that let EPA regulate climate pollution from vehicles, power plants, and oil and gas. The new rule argues Congress never clearly gave EPA this authority under the Clean Air Act, sidestepping direct attacks on climate science. If courts uphold it, future EPAs may be unable to regulate CO₂ without new legislation. HN commenters focus on partisan power plays, institutional sabotage, and long‑term economic and geopolitical fallout.
+### TL;DR
 
-- Comment pulse  
-  - This isn’t about new climate evidence; it’s Trump honoring fossil‑fuel ties and dismantling Obama/Biden-era regulatory tools.  
-  - Formalist claim “Congress must explicitly authorize” resonates, but critics see selective use to hobble EPA while tolerating expansive policing—counterpoint: ICE powers are congressionally granted.  
-  - Some foresee long-term self-harm: dirtier air, lagging EV industry, greater foreign tech dependence, and potential geopolitical backlash over America’s outsized per-capita emissions.
+The administration repealed the 2009 finding that six greenhouse gases endanger health under the Clean Air Act, removing the basis for federal vehicle rules and easing later rollbacks covering power plants and fossil-fuel operations. EPA framed the move as a statutory-authority question, not new climate science: Congress never expressly authorized these regulations. Environmental and public-health groups promised lawsuits, citing Supreme Court decisions recognizing EPA authority. If upheld, future administrations may need new legislation before regulating carbon dioxide. Commenters found congressional authorization principled in theory but saw it selectively invoked.
 
-- LLM perspective  
-  - View: This is a structural shift: it targets the legal foundation of US climate regulation, not just individual rules.  
-  - Impact: Short-term, regulatory uncertainty; long-term, higher emissions and investment risk as future administrations and courts may whipsaw policy.  
-  - Watch next: Key signals: lawsuit filings, lower-court stays, automaker strategies on EVs, and whether Congress even debates explicit climate authority.
+### Comment pulse
+
+- No new scientific evidence appeared; critics read the action as fulfillment of fossil-fuel interests rather than a reassessment of health risks.
+- Express congressional authorization sounded reasonable—counterpoint: opponents said routing detailed regulation through a polarized legislature deliberately makes government nonfunctional.
+- Long-term concerns included dirtier cities, weaker domestic EV competitiveness, greater foreign dependence, and pressure from countries pursuing cleaner technology.
+
+### LLM perspective
+
+- View: Statutory interpretation is decisive; climate science remains political context rather than the repeal’s primary legal rationale.
+- Impact: Vehicle and energy regulators lose their broadest tool; manufacturers and communities face reversed incentives and prolonged uncertainty.
+- Watch next: Track injunctions, appellate reasoning, Supreme Court review, separate sector-rule repeals, state standards, and any congressional response.
