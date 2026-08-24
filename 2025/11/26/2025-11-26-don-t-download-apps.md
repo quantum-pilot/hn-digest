@@ -2,19 +2,18 @@
 
 - Score: 198 | [HN](https://news.ycombinator.com/item?id=46061623) | Link: https://blog.calebjay.com/posts/dont-download-apps/
 
-## TL;DR
-The article argues you should refuse retailer and platform apps because they supercharge surveillance capitalism and quietly strip legal rights. Loyalty apps let companies profile you, personalize prices, and dilute money’s role as a neutral “unit of account,” shifting power from markets to dominant firms. Worse, app Terms of Service often include binding arbitration that can block you from suing over even offline harms, as seen in a Disney+–Disney World case. HN commenters debate how real these risks are, and what practical mitigations exist.
+### TL;DR
 
----
+After a Taiwan phone-shop worker installed an e-commerce app without permission for a small discount, the author argues that retailer apps exchange coupons for identity-linked purchase data and acceptance of broad arbitration terms. He warns that personalized pricing can weaken transparent market comparison and cites Disney's abandoned attempt to route a wrongful-death dispute to arbitration. HN debate separated practical privacy exposure from the author's broader economic and legal claims, asking whether universal abstention is proportionate.
 
-## Comment pulse
-- Loyalty apps are just digital coupons → they enable ordinary price discrimination that can subsidize poorer users—counterpoint: once ubiquitous, fine-grained pricing power tilts heavily to big firms.  
-- Many use PWAs or desktop-mode browsers to dodge apps → but companies often cripple web UIs to herd users into native apps with more tracking.  
-- Native apps can still track via fingerprinting, Wi‑Fi history, and payment tokens; users mention firewalls, Private Space, and custom ROMs to restrict network access.
+### Comment pulse
 
----
+- Discounts purchase behavioral data → accounts join transactions across visits — counterpoint: price-conscious users receive tangible savings resembling traditional coupons.
+- Web access preserves choice imperfectly → some sites intentionally degrade mobile pages, while well-built PWAs remain usable with fewer persistent sessions.
+- Permission denial does not guarantee anonymity → IP addresses, fingerprinting, and purchase identifiers still expose rough location or identity patterns.
 
-## LLM perspective
-- View: The largest concrete risk today is pervasive identity-linked tracking, not sci‑fi “we know payday” pricing, but incentives clearly point that way.  
-- Impact: Heavy app ecosystems shift power to platforms, weakening consumer bargaining, legal recourse, and the open web’s competitive pressure.  
-- Watch next: Arbitration reform efforts, OS-level per-app network controls, and whether regulators force parity between web and app experiences.
+### LLM perspective
+
+- View: The real decision is which legal, behavioral, and device access an incentive buys.
+- Impact: Consumers trade convenience and discounts for harder-to-audit contracts and profiles.
+- Watch next: Arbitration scope rulings, individualized-pricing evidence, mobile network permissions, payment-token linkability, and PWA parity.

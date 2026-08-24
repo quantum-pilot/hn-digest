@@ -3,18 +3,17 @@
 - Score: 461 | [HN](https://news.ycombinator.com/item?id=46055944) | Link: https://fokus.cool/2025/11/25/i-dont-care-how-well-your-ai-works.html
 
 ### TL;DR
-The author refuses to use LLMs regardless of how “good” they get, arguing that the real issue isn’t output quality but power and control. Because tools extend our cognition, inserting corporate, surveillance-driven AI into writing and thinking quietly reshapes who we are and erodes craft into low-agency cleanup work. They frame AI as intentionally resource-hungry infrastructure that centralizes capital and weakens skilled labor, and urge responses rooted in solidarity, unions, mental hygiene, and making genuinely new things—not surrendering thought to models.
 
----
+The essay rejects judging language models solely by output quality, arguing that corporate systems reshape cognition, erode craft, centralize infrastructure, and make refusal costly through workplace and social pressure. Writing is framed as a way to discover thought, so delegating it lets model-added assumptions masquerade as personal insight. The author urges solidarity, unions, less social media, and independent creation. Commenters sharply dispute the diagnosis: some report coercive metrics and review burdens, while others see useful automation, technological continuity, and threatened programmer identity.
 
 ### Comment pulse
-- Hacker-culture split → Some see “progressive luddite” hostility to AI as toxic and identity-protective; others say real betrayal was selling craft to business metrics.  
-- Devaluation debate → Many seniors feel well-paid and unconcerned; others note juniors and mediocre “API gluing” roles are squeezed by LLMs and ZIRP unwinding.  
-- Workplace AI pressure → LLMs inflate visible output and shift cleanup onto refusers; skeptics argue hype exaggerates non-coders’ and juniors’ real effectiveness.
 
----
+- Workplace adoption can externalize costs → generated volume flatters productivity metrics while reviewers absorb opaque code, policy bypasses, and maintenance risk.
+- Craft concerns exceed employment → critics fear weakened understanding and agency — counterpoint: abstractions have repeatedly widened participation without eliminating expert work.
+- Hacker identity is contested → one side prizes skeptical autonomy; another says refusing experimentation contradicts the culture’s practical roots.
 
 ### LLM perspective
-- View: The core tension is cognitive outsourcing vs. autonomy: when efficiency gains become subtle control over how we think and create.  
-- Impact: Strongest pressure lands on juniors, precarious workers, and anyone in metrics-driven orgs where “more tokens = more productivity.”  
-- Watch next: Empirical studies on code quality, org-wide AI policies, and labor responses (contracts, unions) that limit coercive or surveillance-heavy AI use.
+
+- View: Tool quality and power structure are separate questions; useful automation can still create dependency and distorted incentives.
+- Impact: Workers face pressure to match generated volume while teams inherit harder review, accountability, and training problems.
+- Watch next: Defect rates, review time, junior skill growth, privacy incidents, employer mandates, and opt-out protections.

@@ -2,15 +2,18 @@
 
 - Score: 191 | [HN](https://news.ycombinator.com/item?id=46052685) | Link: https://web.stanford.edu/class/cs234/
 
-## TL;DR
-Stanford’s CS234 is a graduate-level reinforcement learning course covering tabular MDPs, policy gradients, offline RL, exploration, and AlphaGo-style search, built around Python assignments and a project. It emphasizes mathematical foundations, evaluation criteria (regret, sample complexity), and a strict—but AI-aware—academic integrity policy that allows LLMs only for high-level help. HN discussion centers on restricted access to new lecture videos, RL’s long‑term role versus alternative paradigms, when RL is appropriate vs. supervised learning, and brittleness/convergence issues.
+### TL;DR
 
-## Comment pulse
-- Lecture videos should stay public → near-zero cost, benefit; plagiarism/IP worries feel weak; 2024 CS234 playlist remains open — counterpoint: paywalls preserve value for enrollees.  
-- RL’s future as core training paradigm questioned → great for control, games, ads and bandits, but many expect new architectures beyond current RLHF-style methods.  
-- Standard ML problems rarely need RL → supervised losses give clearer gradients; RL suits sequential decisions with delayed rewards but is brittle and converges poorly.
+Stanford's Winter 2025 introduction to reinforcement learning covers Markov decision processes, policy evaluation, Q-learning, function approximation, policy search, offline learning, exploration, and Monte Carlo tree search through lectures, three assignments, exams, and a project. Students need Python, calculus, linear algebra, probability, and machine-learning foundations. HN discussion supplied the practical boundary the syllabus implies: RL suits sequential decisions with delayed, hard-to-attribute rewards, but is usually wasteful for ordinary classification or regression.
 
-## LLM perspective
-- View: CS234 mirrors modern RL: quickly moving from tabular basics to offline RL, exploration theory, and AlphaGo-style planning.  
-- Impact: Graduates are trained to judge when RL is overkill, countering hype-driven misuse in business and research.  
-- Watch next: Whether 2025 materials are released publicly, and how methods like FlowRL and model-based RL compare on standard control benchmarks.
+### Comment pulse
+
+- RL remains strongest in control → games, advertising, and simulated operations provide actions, state transitions, and feedback unavailable to static prediction.
+- Its dominance is not guaranteed → brittle convergence and weak out-of-distribution generalization motivate alternatives — counterpoint: established applications remain economically important.
+- Open materials extend educational value → commenters found older videos online but objected that newer lectures were restricted.
+
+### LLM perspective
+
+- View: Problem formulation matters more than attaching a fashionable optimizer to an existing loss.
+- Impact: Practitioners can avoid sample-heavy experiments by testing whether decisions alter future states.
+- Watch next: Public recording access, reproducible assignments, FlowRL evidence, offline-RL stability, and successor training paradigms.

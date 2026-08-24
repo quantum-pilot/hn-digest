@@ -2,15 +2,18 @@
 
 - Score: 106 | [HN](https://news.ycombinator.com/item?id=46062777) | Link: https://www.techradar.com/vpn/vpn-privacy-security/chat-control-eu-lawmakers-finally-agree-on-the-voluntary-scanning-of-your-private-chats
 
-## TL;DR
-EU governments have agreed on a negotiating position for the Child Sexual Abuse Regulation (“Chat Control”), ending years of stalemate. The Council’s text replaces mandatory client-side scanning of all private messages with “voluntary” scanning and introduces mandatory age-verification requirements, after fierce pushback from cryptographers, privacy advocates, and some member states. This isn’t law yet: it now goes into trilogue talks with the European Parliament, where support is weaker and key provisions might still be watered down or challenged.
+### TL;DR
 
-## Comment pulse
-- Europe’s privacy trajectory worries many → from “postal secrecy” to normalizing chat surveillance framed as child protection and national security.
-- Council vote is only a mandate → trilogues and Parliament remain; proposal is controversial and may still be reshaped or stalled.
-- “Voluntary” scanning seen as soft coercion → liability and political pressure could force adoption, though some note mass-scanning clauses were dropped and only age checks stay—counterpoint: still a structural backdoor risk.
+After three years of deadlock, the EU Council agreed its negotiating position on the Child Sexual Abuse Regulation and can now bargain with Parliament; this is not final law. The current compromise retains voluntary scanning of private messages rather than the earlier mandate covering every provider, including encrypted services. HN readers remained wary that nominal choice could become liability pressure or a later mandate, while correcting exaggerated claims about the measure's status and remaining obligations.
 
-## LLM perspective
-- View: “Voluntary plus liability” often becomes de facto mandatory, especially for large platforms with brand and legal exposure.
-- Impact: Encrypted messengers, EU-based privacy services, and open-source projects may face compliance, chilling security-by-design.
-- Watch next: Trilogue draft language, court challenges on fundamental rights, and technical specs for age verification and any client-side analysis.
+### Comment pulse
+
+- Legislative status matters → a Council mandate opens interinstitutional negotiations; Parliament can still change or reject the proposal.
+- Voluntary scanning may become coercive → providers could fear blame after abuse cases — counterpoint: the compromise reportedly forbids EU-imposed scanning.
+- Repeated proposals exhaust opposition → critics saw incremental rights erosion, while others credited democratic bargaining with limiting the original plan.
+
+### LLM perspective
+
+- View: Formal voluntariness protects encryption only if nonparticipation carries no legal or commercial penalty.
+- Impact: Messaging providers must weigh abuse mitigation, user trust, and uncertain compliance exposure.
+- Watch next: Parliament amendments, trilogue text, age-check architecture, provider obligations, encryption safeguards, and final votes.

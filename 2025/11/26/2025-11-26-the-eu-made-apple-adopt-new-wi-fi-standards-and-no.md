@@ -3,9 +3,17 @@
 - Score: 201 | [HN](https://news.ycombinator.com/item?id=46062504) | Link: https://arstechnica.com/gadgets/2025/11/the-eu-made-apple-adopt-new-wi-fi-standards-and-now-android-can-support-airdrop/
 
 ### TL;DR
-Android’s Quick Share on Google’s Pixel 10 can now send/receive files with Apple’s AirDrop using peer‑to‑peer Wi‑Fi, thanks to the EU’s Digital Markets Act forcing Apple to replace its proprietary AWDL protocol with the standardized Wi‑Fi Aware. That change makes AirDrop’s discovery/transport interoperable with other platforms, though iOS/iPadOS 26 devices must be set to “Everyone for 10 minutes” and Macs aren’t supported. Google’s implementation is written in Rust for memory safety, with wider Android support promised later.
+
+Google made Pixel 10 Quick Share interoperate with AirDrop when Apple devices use the temporary everyone mode, enabling direct local transfers without cloud servers. The article attributes the opening to EU Digital Markets Act decisions requiring iOS and iPadOS to support Wi-Fi Aware and phase out Apple’s private AWDL protocol. Apple did not collaborate on Google’s implementation; contacts-only sharing remains unsupported, compatible Apple hardware needs version 26, expansion to other Android devices has no timeline, and Macs appear excluded.
+
+### Comment pulse
+
+- Standards unlocked compatibility → common Wi-Fi discovery removes a proprietary protocol barrier without requiring unusual hardware.
+- Regulation produced a practical consumer benefit → mandated interoperability created room for Google’s independent implementation.
+- The bridge remains narrow → compatibility requires a Pixel 10 and temporary public visibility — counterpoint: software support could expand broadly.
 
 ### LLM perspective
-- View: EU mandating open connectivity standards quietly turns proprietary “ecosystem lock-in” features into baseline capabilities available across vendors.  
-- Impact: Mixed device households gain seamless local sharing; smaller hardware makers can piggyback on Wi‑Fi Aware instead of inventing clones.  
-- Watch next: Whether Apple extends Wi‑Fi Aware to macOS and if Samsung/others rapidly ship firmware enabling AirDrop-compatible Quick Share.
+
+- View: Protocol mandates can open ecosystems without forcing devices through a shared cloud service.
+- Impact: Mixed-device households gain easier transfers, though weaker discovery privacy may limit routine use.
+- Watch next: Contacts-only authentication, non-Pixel rollout, Mac support, security audits, and whether Apple changes behavior.
