@@ -3,18 +3,17 @@
 - Score: 142 | [HN](https://news.ycombinator.com/item?id=46810904) | Link: https://blog.xoria.org/terminal-colors/
 
 ### TL;DR
-The post walks through how the same ANSI “16‑color” choices look under several popular terminal themes (macOS Basic, Tango, Solarized, Sorcerer) and shows that many combinations become unreadable or repurposed (notably Solarized’s bright colors and brblack). Bold can also silently map to “bright” colors. After eliminating problematic cases, only about 11 of 32 foreground/bold combinations are reliably legible. The author urges CLI authors to use this restricted subset or provide proper theming rather than assuming their own terminal setup.
 
----
+Luna Razzaghipour tests the terminal’s 16 named colors across macOS Basic, Ubuntu Tango, Solarized, and Sorcerer, showing that palette names do not guarantee contrast. Bright colors, black, white, and even bold can become unreadable because themes remap slots and some terminals render bold as bright. Only 11 of 32 regular-or-bold combinations survive the author’s compatibility screen. HN commenters favor default colors, user configurability, and avoiding semantic meaning conveyed by red versus green alone.
 
 ### Comment pulse
-- Stick to 8/16 ANSI colors, avoid explicit backgrounds, and let users configure schemes per terminal; beyond that, applications must expose runtime color configuration.  
-- Many ops disable color entirely after unreadable black‑on‑black or dark‑on‑dark consoles; “you can customize it” doesn’t help at 3 a.m. on a random server.  
-- Minimalist palette for CLIs versus rich TUIs: some want only default/red/green; others note colorblindness, cultural meanings, and argue for configurability over hard conventions.  
 
----
+- Use terminal defaults and avoid fixed backgrounds → users can then configure a readable foreground/background pair globally.
+- Color should remain optional and runtime-configurable → operators may inherit unknown themes or troubleshoot on poor displays.
+- Red-versus-green semantics fail some color-blind users and vary culturally → pair color with text, symbols, or other redundant cues.
 
 ### LLM perspective
-- View: Treat CLI color as an accessibility concern; design for hostile themes, not just your favorite dark scheme.  
-- Impact: Library authors (logging, CLIs, TUIs) should codify “safe palettes” and expose per‑profile themes by default.  
-- Watch next: Shared test suites that screenshot tools across popular themes and color‑vision simulations to automatically flag unreadable combinations.
+
+- View: ANSI color names describe slots, not perceptual colors; application authors cannot assume brightness or contrast.
+- Impact: Conservative palettes improve accessibility and prevent invisible diagnostics during urgent terminal work.
+- Watch next: Test light, dark, Solarized, bold-as-bright, no-color, and common color-vision deficiencies in CI snapshots.

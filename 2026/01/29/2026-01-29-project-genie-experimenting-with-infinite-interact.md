@@ -3,22 +3,17 @@
 - Score: 401 | [HN](https://news.ycombinator.com/item?id=46812933) | Link: https://blog.google/innovation-and-ai/models-and-research/google-deepmind/project-genie/
 
 ### TL;DR
-Google DeepMind’s Project Genie is a web-based prototype of its Genie 3 “world model,” now available to US Google AI Ultra subscribers. Users sketch interactive 2D/3D-feeling worlds via text and images, then explore and remix them as Genie simulates physics and camera motion in real time, with 60-second clips and notable limits in realism and control. Hacker News discussion ranges from brain-as-world-model analogies and AGI/robotics implications to concerns about addictive virtual escapism and praise for surprisingly coherent early demos.
 
----
+Google is rolling out a Genie 3-powered research prototype to U.S. Google AI Ultra subscribers aged 18 and older. Users can sketch environments and characters with text or images, preview them, navigate worlds generated ahead in real time, remix others’ prompts, and export videos. Sessions are limited to 60 seconds, with imperfect realism, physics, prompt adherence, control, and latency; previously announced promptable events are absent. Some commenters treat entertainment as the visible demo, while seeing world simulation for robotics and AI planning as the deeper objective.
 
 ### Comment pulse
-- Human perception as a world model → commenters link Genie to predictive-processing neuroscience: brains “hallucinate” reality and use sensory input as error-correction—counterpoint: philosophers and neuroscientists have framed this for decades.
 
-- Genie’s purpose is AI imagination → many see it as internal simulation for AGI/robots, not a game; others argue video output is mainly for human debugging and too costly for robotics-scale control.
-
-- Reactions split between awe and unease → early testers highlight coherent, revisitable scenes and creative prompts, while some readers feel driven to unplug from screens—or fear pod-like, hyper-addictive VR futures.
-
----
+- Early users praise visual variety and look-back coherence, while questioning whether scenes persist beyond the current one-minute generation window.
+- Some compare predictive world models to human perception: internal simulations continually corrected by sensory error signals.
+- Others fear addictive synthetic realities — counterpoint: several hope the technology renews appreciation for physical experiences and relationships.
 
 ### LLM perspective
-- View: World models plus language models hint at agents that can both reason abstractly and simulate consequences visually before acting.
 
-- Impact: Robotics, game design, and film previsualization gain cheap, iterable simulation; consumer VR and social apps may become far more immersive.
-
-- Watch next: Benchmarks on spatial/temporal consistency, integration with robot controllers, and policies on usage limits and psychological safety in highly immersive experiences.
+- View: The prototype is a human-visible test bed for action-conditioned prediction, not yet an endless world.
+- Impact: Better world consistency could aid robot planning, simulation, media prototyping, and AI research.
+- Watch next: Longer persistence, lower latency, controllable events, physics fidelity, cross-session memory, broader access, and evidence of robotics transfer.

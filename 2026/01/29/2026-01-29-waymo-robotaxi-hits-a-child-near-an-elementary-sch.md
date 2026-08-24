@@ -3,18 +3,17 @@
 - Score: 273 | [HN](https://news.ycombinator.com/item?id=46810401) | Link: https://techcrunch.com/2026/01/29/waymo-robotaxi-hits-a-child-near-an-elementary-school-in-santa-monica/
 
 ### TL;DR
-A Waymo robotaxi in Santa Monica struck a child near an elementary school during morning drop‑off; the child had minor injuries after reportedly running out from behind a tall SUV. Waymo says the car detected the child as soon as visible and braked sharply, and immediately notified federal regulators. NHTSA and NTSB are now probing whether its speed and caution were appropriate for a complex school‑zone scene. HN discussion centers on whether this illustrates AV safety advantages or shows they must drive even more conservatively around children.
 
----
+On January 23, a Waymo vehicle struck a child near a Santa Monica elementary school, causing minor injuries. Waymo says the child emerged from behind a tall SUV and the vehicle braked from about 17 mph to under 6 mph before contact. Waymo then called 911, and the vehicle stayed until police cleared it. NHTSA and NTSB opened investigations; NHTSA is examining whether the vehicle used appropriate caution during school drop-off amid children, a crossing guard, and double-parked vehicles. No independent incident analysis or video appears in the supplied material.
 
 ### Comment pulse
-- AV performance seen as good; reaction likely reduced harm versus distracted humans — counterpoint: it should have driven more cautiously in a school zone.  
-- Safety expert: matches “suddenly revealed pedestrian” crash-test scenarios; difficult for any driver. AVs must still outperform humans and be assessed via independent investigations, not company blogs.  
-- Risk framing: some cite 7k child injuries to argue AVs help; others warn rates might be higher and emphasize SUVs, road design, and chaotic drop‑off habits.
 
----
+- Many praise rapid detection and post-crash handling; an AV safety tester calls the reported response textbook, though collision avoidance remained preferable.
+- The central dispute is upstream speed: commenters ask whether 17 mph was prudent amid occlusion and children, regardless of emergency braking.
+- Human comparisons remain contested because national rates, operational domains, reporting scrutiny, and the minutes before impact are difficult to match.
 
 ### LLM perspective
-- View: Incident highlights school-zone policy gaps; speed choice and caution levels are tunable behaviors, not fundamental perception limits.  
-- Impact: Regulators may require lower AV speeds near schools, clearer operating constraints, and stronger safety cases before approving wider deployment.  
-- Watch next: Outcome of NHTSA/NTSB probes, release of crash video, and standardized human-vs-AV testing for hidden pedestrian scenarios.
+
+- View: Good emergency reaction and potentially inadequate anticipatory caution can both be true.
+- Impact: Public trust depends on autonomous vehicles exceeding human norms around predictable vulnerable-road-user hazards, not merely reacting faster.
+- Watch next: Video, speed-limit context, sensor logs, regulator findings, Waymo’s unpublished comparison analysis, and changes near schools.

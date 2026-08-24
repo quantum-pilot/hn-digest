@@ -2,15 +2,18 @@
 
 - Score: 635 | [HN](https://news.ycombinator.com/item?id=46805665) | Link: https://web.mit.edu/jemorris/humor/500-miles
 
-- TL;DR  
-  - Campus email stopped working for recipients farther than ~500 miles. The culprit: a SunOS upgrade silently reverted Sendmail from v8 to v5, which ignored newer config options. That left the SMTP connect timeout as zero, causing connections slower than ~3 ms—about 560 miles of light-travel time on their switched network—to fail. HN readers treat this as a classic debugging parable about respecting “impossible” bug reports, valuing good user-collected data, and trading similarly strange real-world failure stories.
+### TL;DR
 
-- Comment pulse  
-  - User stats (radius map) were ideal debugging data → encourage users to share patterns. — counterpoint: story tone undersells chairman’s contribution.  
-  - Classic HN staple → readers relish the improbable diagnosis and yearly rereads reinforce humility about assumptions and careful, data-driven debugging.  
-  - Shared similar war stories (mouse shorting PC, video file killing laptop) → illustrates how physical quirks and edge cases can masquerade as software/network “mysteries”.
+A campus statistics department reported that email delivery stopped beyond roughly 500 miles, and its map proved reproducible. A consultant’s operating-system upgrade had silently downgraded Sendmail 8 to version 5 while retaining the newer configuration file. Version 5 ignored long option names and, lacking compiled defaults, set the remote connection timeout to zero—about three milliseconds on that loaded server. Because the campus network introduced unusually little local routing delay, connection success correlated strongly with light-travel distance, producing an apparently geographic email boundary near 559 miles.
 
-- LLM perspective  
-  - View: Weird constraints often reduce to a misconfigured constant; cultivate habits of checking version mismatches and defaults first.  
-  - Impact: Reminds ops and devs that absurd-sounding user patterns may encode exactly the dimension the system is sensitive to.  
-  - Watch next: For AI systems, expect analogous “500-mile” bugs where latent variables create bizarre, patternful failures tied to data or hardware.
+### Comment pulse
+
+- Readers praise the statisticians for collecting precise, geographically organized reproduction data instead of hiding an observation that sounded impossible.
+- Similar tales involve mouse urine shorting a cold computer, ice-cream-dependent car starts, and video frames triggering power or decoder failures.
+- Repeated reposts remain popular because the root cause is memorable and rewards humility before contradictory evidence.
+
+### LLM perspective
+
+- View: Treat bizarre user reports as measurements to reproduce, not theories to dismiss.
+- Impact: Cross-version configuration tolerance can convert missing defaults into failures that masquerade as physical laws.
+- Watch next: Validate software/config compatibility after upgrades, make timeouts explicit, inspect banners, and test observed boundaries systematically.

@@ -3,14 +3,17 @@
 - Score: 507 | [HN](https://news.ycombinator.com/item?id=46810282) | Link: https://marginlab.ai/trackers/claude-code/
 
 ### TL;DR
-Marginlab’s new dashboard tracks Claude Code Opus 4.5 on a daily subset of SWE-Bench-Pro to flag statistically significant degradations. It reports a 58% historical pass-rate baseline and a current 30‑day rate of 54%, a roughly 4‑point regression deemed significant. Benchmarks are run through the public Claude Code CLI and modeled as Bernoulli trials with confidence intervals. HN discussion probes sampling size and statistical validity, Anthropic’s admitted harness bug, infrastructure/load effects, and whether oscillations reflect true downgrades, A/B tests, or randomness.
+
+Marginlab’s independent tracker runs Claude Code with Opus 4.5 daily on 50 contamination-resistant SWE-Bench-Pro tasks, using no custom harness. On January 29 it reported a 58% historical baseline, 50% latest-day pass rate, 53% across seven days, and 54% across 30 days; only the 30-day decline was labeled statistically significant. A Claude Code team member said a harness issue introduced January 26 was rolled back January 28. Commenters challenge the sample size and significance method, warning against interpreting fluctuations as model substitution.
 
 ### Comment pulse
-- Small N=50 daily subset makes results noisy; SWE-bench author urges 300 tasks, multiple runs; others note cost, suggest Anthropic funding independent monitoring.  
-- Anthropic engineer blames briefly-broken Claude Code harness, rolled back; users demand token compensation, clearer postmortem, and assurances about internal regression and safety monitoring.  
-- Some doubt model downgrades, citing oscillations, A/B tests, and load-based inference knobs; statisticians challenge confidence-interval method; many report big speed swings when traffic drops.
+
+- A SWE-bench co-author recommends 300 tasks and multiple daily runs → 50 leaves load, sampling, and within-day variance unresolved.
+- Statistical critique targets the comparison method → both baseline and new measurements have uncertainty, so intervals should cover their difference.
+- Users report subjective slowdowns and speedups → theories include A/B tests and resource load, but evidence remains speculative.
 
 ### LLM perspective
-- View: Public, continuous third-party benchmarks help distinguish real regressions from random variance and rumors about silent model downgrades.  
-- Impact: Robust trackers pressure providers to maintain quality, document changes, and quickly acknowledge or fix harness, deployment, or infrastructure issues.  
-- Watch next: Standardize task sets and timing, publish statistical methods, and benchmark multiple models to isolate model vs tooling regressions.
+
+- View: The tracker detects user-visible regressions across model and CLI together; it cannot identify which component changed.
+- Impact: Independent monitoring can pressure hosted coding vendors to disclose incidents and maintain stable service quality.
+- Watch next: Confirm post-rollback recovery, publish test formulas, and expand runs across tasks and times of day.

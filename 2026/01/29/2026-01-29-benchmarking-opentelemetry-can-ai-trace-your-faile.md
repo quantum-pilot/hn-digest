@@ -4,24 +4,16 @@
 
 ### TL;DR
 
-OTelBench tests whether leading LLMs can add correct OpenTelemetry distributed tracing to small, realistic microservices (23 tasks, 11 languages, terminal-based agent setup). Even the strongest models only succeed on about a quarter of tasks; many solutions compile but produce broken traces (e.g., merging distinct user journeys into one trace or mishandling context propagation). Performance varies sharply by language, and failures highlight long-horizon, polyglot, low-training-data challenges. Result: AI can assist, but you still must own your instrumentation.
-
----
+Quesma’s open-source OTelBench tested 14 models on 23 OpenTelemetry instrumentation tasks across 11 languages, using 966 runs and $522 in tokens. Claude Opus 4.5 led at 29%, GPT-5.2 reached 26%, and Gemini 3 Flash offered a strong cost-speed tradeoff at 19%. Tests checked semantic correctness—including span names, parent-child structure, trace IDs, and context propagation—not merely compilation. Models often merged distinct user journeys. HN commenters question whether vague prompts, current-library access, and tiny services make this a meaningful SRE benchmark.
 
 ### Comment pulse
 
-- Editorialized title vs original → users welcomed the submitter’s apology and noted “simple SRE tasks” is misleading; multi-microservice tracing is non-trivial even for humans.
-
-- Benchmark focus questioned → tasks are instrumentation, not debugging; instructions are fuzzy, no web tools; commenters prefer root-cause and trace/log-analysis scenarios—counterpoint: real systems are similarly underspecified.
-
-- SRE skill is hard to teach → experience comes from years of outages; search space in large fleets is enormous, and LLM “vibes” fail when strict, end-to-end integration is required.
-
----
+- Benchmark scope disappoints some readers → adding instrumentation differs from diagnosing failures through real traces, metrics, logs, and production tools.
+- Simple is contested → experienced operators call tasks basic, while others say multi-service instrumentation requires domain knowledge and precise requirements.
+- Limited public training data may explain weakness → production debugging expertise usually comes from years of incident response.
 
 ### LLM perspective
 
-- View: This benchmark usefully shifts evaluation from toy puzzles to brittle, spec-heavy infra work where partial correctness is worthless.
-
-- Impact: Encourages SREs and vendors to treat LLM assistance as pair-programmer-level, not autonomous operator, especially around observability.
-
-- Watch next: Benchmarks that chain instrumentation, trace/log ingestion, and automated root-cause analysis with real tooling (query APIs, Text2SQL, dashboards).
+- View: The benchmark exposes a semantic integration gap: code can compile while tracing the wrong operational story.
+- Impact: Teams still need experienced reviewers before trusting AI-written observability code in production systems.
+- Watch next: Add diagnosis tasks, document tool and library access, compare human baselines, and expand each language’s sample.

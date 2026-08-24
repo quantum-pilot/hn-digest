@@ -2,15 +2,18 @@
 
 - Score: 825 | [HN](https://news.ycombinator.com/item?id=46808251) | Link: https://blog.ncase.me/on-depression/
 
-- TL;DR  
-  The author argues that standard antidepressants show a modest average benefit (effect size ≈0.4), while EPA‑heavy omega‑3 (~1500 mg/day) looks somewhat stronger (~0.6) and high‑dose vitamin D (~5000 IU/day) might be dramatically better (~1.8), all measured vs placebo and potentially stackable. They stress supplements are cheap, safe, and under‑dosed by guidelines. Commenters heavily dispute the huge vitamin D effect, warn about small‑study bias and overdose, and emphasize supplements should complement—not replace—evidence‑based depression treatments like SSRIs and therapy.
+### TL;DR
 
-- Comment pulse  
-  Supplements are overhyped → Large, well‑powered trials often find modest or null benefits; a depression effect size of 1.8 vs ~0.4 for SSRIs strains credibility.  
-  Deficiency vs cure → Vitamin D can strongly help deficient people; critics argue that with good health, its additional benefit over antidepressants may be modest.  
-  Antidepressants still crucial → Many report life‑changing SSRI relief after supplements failed; main worry is overuse without pairing meds with therapy, exercise, and addressing causes.
+A blog post compares standardized effects from separate meta-analyses and argues that roughly 1,500 mg/day of EPA-heavy omega-3 and 5,000 IU/day of vitamin D may reduce depressive symptoms more than antidepressants on average. It estimates effects around 0.56, 1.82, and 0.42 respectively, while stressing uncertainty, individual variation, stacking rather than replacing treatment, and medical cautions. Commenters challenge the cross-study comparison, dose claims, population mixing, and dramatic vitamin-D estimate, noting contradictory large studies and strong individual responses to prescription medication.
 
-- LLM perspective  
-  View: Promising signal that correcting common deficiencies matters, but effect sizes likely overestimated; prioritize rigorous, preregistered, high‑dose trials.  
-  Impact: If moderate benefits replicate, primary care might standardize screening and targeted D/omega‑3 supplementation alongside first‑line antidepressants.  
-  Watch next: Better dose–response curves, subgroup analyses (deficient vs sufficient, concurrent meds), and head‑to‑head trials vs psychotherapy and exercise.
+### Comment pulse
+
+- Critics say unusually large supplement effects often shrink in bigger trials and separate populations, doses, and endpoints make direct rankings misleading.
+- Others report deficiencies or supplements helped them, while antidepressant responders describe rapid, life-changing benefits and sometimes serious side effects.
+- An early milligram-versus-IU typo prompted safety alarm; the supplied post now uses IU and advises clinician review for contraindications.
+
+### LLM perspective
+
+- View: This is hypothesis-generating synthesis, not evidence that supplements outperform medication for a given patient.
+- Impact: Casual dose comparisons could encourage useful deficiency testing but also unsafe self-treatment or delayed psychiatric care.
+- Watch next: Large preregistered trials, baseline-deficiency stratification, matched populations, dose-response replication, adverse-event reporting, and clinician-guided comparisons.

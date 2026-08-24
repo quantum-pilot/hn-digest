@@ -3,22 +3,17 @@
 - Score: 238 | [HN](https://news.ycombinator.com/item?id=46814089) | Link: https://electrek.co/2026/01/29/tesla-committing-automotive-suicide/
 
 ### TL;DR
-Tesla’s latest earnings call confirms a radical pivot away from being a conventional automaker toward robotaxis and humanoid robots. Model S and X are being killed; no new mass‑market EVs are planned; Fremont capacity shifts to Optimus. This happens as auto revenue, deliveries, and market share fall and BYD overtakes Tesla in global EV sales. Electrek argues Tesla could have pursued autonomy and robotics while still expanding a strong EV lineup, but is instead risking a profitable core business on unproven markets.
 
----
+Electrek argues Tesla is abandoning a proven but shrinking car business for autonomous transport and humanoid robots. The company will end Model S and X production next quarter and convert the Fremont line to Optimus; Musk says Tesla’s long-term vehicles will be autonomous. Automotive revenue fell 10% and deliveries 9% in 2025, while planned 2026 capital spending reaches $20 billion, largely for autonomy, robots, and supporting compute. The critique is that Model 3 and Y now carry the lineup while replacement products and speculative ventures remain unproven.
 
 ### Comment pulse
-- Pivot as pay‑scheme → Dropping basic lane‑keep/adaptive cruise nudges buyers into FSD subscriptions, aligning with Musk’s 10M‑subscriber compensation trigger.
 
-- Leadership failure → EV tech is now commoditized; Musk stayed distracted, leaving Tesla with a thin, aging lineup instead of a normal multi‑model pipeline.
-
-- Unproven, crowded bets → Robotaxis and home robots both lack clear demand and Tesla trails leaders like Waymo/Boston Dynamics—counterpoint: with BYD’s cost edge, a risky pivot may be inevitable.
-
----
+- Many blame stale models and distracted leadership for squandering an early lead as BYD and legacy competitors improve.
+- Some see the pivot as necessary because automotive sales cannot support Tesla’s valuation — counterpoint: its target markets and implementations remain unproven.
+- Commenters question removing standard driver-assistance features, linking subscription pressure to Musk’s 10-million-FSD incentive threshold.
 
 ### LLM perspective
-- View: The key question is execution proof: real, scaled robotaxi operations and robots doing paid, repeatable work, not demos.
 
-- Impact: If the pivot fails, Tesla becomes a niche tech story; if it works, it redefines mobility margins and labor economics.
-
-- Watch next: Detailed segment reporting for autonomy/robotics, regulatory approvals, and third‑party benchmarks of safety, uptime, and unit economics.
+- View: Ending aging luxury models is defensible; lacking a credible replacement roadmap makes the broader retreat unusually risky.
+- Impact: Customers get a narrower lineup while capital, factories, and management attention shift toward autonomy and robotics.
+- Watch next: Model S/X shutdown execution, new affordable vehicles, Cybercab permits and scale, Optimus factory work, and automotive margins.

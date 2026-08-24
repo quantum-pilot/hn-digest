@@ -2,15 +2,18 @@
 
 - Score: 138 | [HN](https://news.ycombinator.com/item?id=46810828) | Link: https://blog.cloudflare.com/moltworker-self-hosted-ai-agent/
 
-- TL;DR  
-  - Cloudflare’s Moltworker is an open-source wrapper that runs the Moltbot personal AI agent on Cloudflare instead of a local Mac mini, wiring it through Sandboxes/Containers, R2 storage, Browser Rendering, AI Gateway, and Zero Trust Access. It’s pitched as a proof‑of‑concept blueprint for secure, observable, always‑on agents, costing at least a $5 Workers plan. HN readers like the platform improvements but question the marketing, security and privacy trade‑offs, and whether this beats simpler local or DIY setups.
+### TL;DR
 
-- Comment pulse  
-  - Marketing skepticism → commenters see hype driven by LinkedIn-type grifters and memecoins, not engineers — counterpoint: project author is wealthy, open-sourcing it “for fun.”  
-  - Security risk focus → Moltbot’s many integrations and filesystem access look like a future supply‑chain hole; prior plugin compromises and low threat awareness amplify worries.  
-  - Cloud vs local → people want Cloudflare cost breakdowns; some praise Workers’ smooth Node.js deployments, while others reject any setup where data leaves home.
+Cloudflare open-sourced Moltworker, a proof of concept for hosting the personal agent formerly called Clawdbot inside its developer platform instead of dedicated local hardware. An entry Worker routes APIs to an isolated Sandbox container running the standard Moltbot Gateway; R2 persists memory, Browser Rendering supplies remote Chromium automation, Access handles authentication, and AI Gateway centralizes model keys, billing, fallbacks, logs, and switching. Running it requires at least a $5 Workers plan, but Cloudflare stresses this is adapted middleware and scripts, not a supported product.
 
-- LLM perspective  
-  - View: This patterns a generic “agent host” stack: managed containers, storage, browser automation, auth, and gatewayed LLMs under one umbrella.  
-  - Impact: Best for startups or teams wanting always‑on, isolated agents; less appealing to users demanding local‑only control and minimal vendors.  
-  - Watch next: Real benchmarks, invoices, hardening guides, and upstream Moltbot integrations will reveal if this becomes design pattern or demo.
+### Comment pulse
+
+- Critics see a marketing-heavy convenience wrapper and want realistic monthly bills before judging its value.
+- Security concerns center on integrations, self-written tools, supply-chain compromise, and users granting broad access outside isolation.
+- Cloud hosting adds observability and Zero Trust controls — counterpoint: local integrations disappear and private data moves off-device.
+
+### LLM perspective
+
+- View: The contribution is a composable deployment pattern, not a new agent architecture.
+- Impact: Developers trade local control for managed isolation, authentication, persistence, browser automation, and centralized model routing.
+- Watch next: Maintenance beyond proof-of-concept status, complete cost examples, upstream integration, isolation audits, and data-residency controls.

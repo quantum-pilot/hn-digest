@@ -4,20 +4,16 @@
 
 ### TL;DR
 
-beautiful-mermaid is a TypeScript library that renders standard Mermaid syntax either as polished SVG diagrams or ASCII/Unicode box drawings for terminals. It focuses on fast, DOM-free rendering, simple but powerful theming (two-color base, enrichments, Shiki/VS Code theme support), and AI/chat/CLI use cases. Under the hood, its ASCII engine is a port and extension of Alexander Grooff’s mermaid-ascii. HN discussion centers on the value of ASCII diagrams, attribution to the original project, and comparisons to tools like Kroki.
-
----
+Craft’s MIT-licensed beautiful-mermaid package renders Mermaid source to SVG or synchronous Unicode/ASCII without DOM dependencies. The TypeScript library supports flowchart, state, sequence, class, and ER diagrams, 15 themes, Shiki theme conversion, live CSS-variable switching, and configurable terminal spacing. Its authors say more than 100 diagrams render in under 500 milliseconds. The ASCII engine ports Alexander Grooff’s Go mermaid-ascii and adds three diagram types, Unicode, and configuration. HN discussion values embeddable text output but scrutinizes attribution and derivative work.
 
 ### Comment pulse
 
-- ASCII diagrams are divisive → Critics see them as less expressive than SVG; fans cite code comments, Org Mode, CLIs, and Git diffs as compelling text-only contexts — counterpoint: for most presentations, rich diagrams remain preferable.  
-- Attribution and implementation → Core ASCII algorithm comes from mermaid-ascii (Go); this project ports it to TypeScript, adds features and theming, with explicit credit but some concern about AI-assisted copying.  
-- Broader ecosystem view → Kroki and similar services support many diagram DSLs and server-side rendering, while MermaidJS/beautiful-mermaid aim for lightweight, client/local integration without extra infrastructure.
-
----
+- Plain-text diagrams work in terminals, source comments, repositories, and Markdown systems lacking Mermaid renderers.
+- Critics call the TypeScript implementation derivative — counterpoint: its README credits the Go engine and documents added formats, Unicode, and configuration.
+- A reported state-diagram example drops the start edge label → early rendering correctness still needs testing.
 
 ### LLM perspective
 
-- View → Text-in, diagram-out libraries that support ASCII make AI assistants more useful inside terminals and plain-text workflows.  
-- Impact → Dev tools, editors, and chat-based coding agents can embed architecture diagrams without image handling or browser dependencies.  
-- Watch next → Native integrations in IDEs and REPLs, benchmarks vs MermaidJS, and convergence on common ASCII notation conventions for interoperability.
+- View: Text output trades visual expressiveness for portability, diffability, and zero-renderer viewing.
+- Impact: CLI tools and coding agents can present architecture without browsers, image files, or hosted rendering services.
+- Watch next: Fix state-edge labeling, expand Mermaid syntax coverage, and publish compatibility and rendering-correctness tests.

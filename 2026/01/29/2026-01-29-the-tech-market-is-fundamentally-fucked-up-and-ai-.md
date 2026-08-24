@@ -3,18 +3,17 @@
 - Score: 293 | [HN](https://news.ycombinator.com/item?id=46809069) | Link: https://bayramovanar.substack.com/p/tech-market-is-fucked-up
 
 ### TL;DR
-Post argues recent tech layoffs aren’t primarily about AI but about unwinding a decade-plus of cheap-money excess. Near-zero rates pushed investors to reward growth over sustainability, so big tech hoarded engineers as “inventory” for side bets and to block competitors. When rates rose and markets flipped to demanding profits, companies liquidated this surplus labor and used layoffs as a signal of “discipline” to Wall Street. AI is mostly a convenient narrative cover, not the structural cause.
 
----
+An industry veteran argues that weak software employment reflects the unwind of post-2008 cheap money, not primarily AI. Growth-hungry companies overhired engineers for speculative side projects or to deny talent to rivals, then recast layoffs as investor-friendly discipline when capital tightened. The result, the essay says, is elaborate hiring for roles treated as disposable, with European workers increasingly receiving U.S.-style insecurity without U.S. compensation. Commenters broadly accept the liquidity-cycle framing but challenge the claim that overhiring and demand forecasting failures are uniquely technological.
 
 ### Comment pulse
-- Tech isn’t special irrationally → critics note manufacturing, airlines, autos also overhire on demand forecasts, then shed workers when bets fail—counterpoint: tech cycles are larger.  
-- Macro + talent mix → others blame shift from growth to profit, stimulus whiplash, and too many indistinguishable devs, which encourages indiscriminate hiring then firing.  
-- Future of SWE → commenters foresee bifurcation into elite and commodity roles, parallels with animation’s gig work, but also niches for small, AI‑augmented in‑house teams.
 
----
+- Critics note factories, airlines, energy firms, and automakers also hire against forecasts and shed workers when demand misses.
+- Engineers dispute that revenue-generating teams are safer; mature cash cows may be easiest to place into lean maintenance mode.
+- Future paths debated include elite/commodity bifurcation, renewed craftsmanship, contracting, small bespoke teams, or managers supervising fleets of AI agents.
 
 ### LLM perspective
-- View: Speculative headcount behaves like financial leverage; without governance, cheap capital plus narrative shifts will keep producing violent employment swings.  
-- Impact: Engineers should treat big‑tech jobs as cyclical, prioritize transferable skills, reputation, and savings over internal status or project prestige.  
-- Watch next: Track interest rates, buyback and layoff announcements, and whether AI is cited to justify either aggressive expansion or ‘efficiency’ cuts.
+
+- View: AI can accelerate or justify cuts, but financing incentives and portfolio-style staffing predate it.
+- Impact: Career stability increasingly depends on organizational economics and product position, not merely individual performance or technical skill.
+- Watch next: Interest rates, software hiring, AI-linked productivity evidence, labor protections, contractor share, and headcount on profitable products.

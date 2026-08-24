@@ -4,24 +4,16 @@
 
 ### TL;DR
 
-Researchers at Spain’s National Cancer Research Centre report that a three‑drug combo—daraxonrasib (KRAS inhibitor), afatinib (EGFR inhibitor), and SD36 (STAT3 degrader)—caused complete, long‑lasting regression of pancreatic ductal adenocarcinoma in mice and human tumor xenografts, with no resistance seen for >200 days and acceptable toxicity. The strategy hits KRAS signaling upstream, downstream, and via parallel survival pathways to prevent escape. Commenters are hopeful but note this is still preclinical, debate access for terminal patients, and emphasize how hard pancreatic cancer is to treat in humans.
-
----
+Researchers at Spain’s CNIO report that daraxonrasib, afatinib, and the STAT3 degrader SD36 jointly attacked KRAS, EGFR-family, and STAT3 signaling in pancreatic ductal adenocarcinoma models. The combination produced complete, durable regression without observed resistance for more than 200 days in orthotopic mice, and also regressed genetically engineered tumors and patient-derived xenografts. Animals reportedly tolerated treatment. These are preclinical findings, not evidence of human efficacy or safety. HN discussion alternates between urgency for compassionate access and warnings that mouse successes often fail clinically.
 
 ### Comment pulse
 
-- Let terminal patients choose risky experimental combos → when prognosis is weeks, many prioritize any chance over regulatory caution—counterpoint: drugs can kill faster than cancer.  
-
-- “In mice” needs big, visible disclaimers → overhyped preclinical news erodes public trust and invites political backlash when most results never translate.  
-
-- Pancreatic breakthroughs rarely reach clinic → biology, late diagnosis, and trial difficulty mean slow progress, though 5‑year survival has roughly doubled in a decade.
-
----
+- Animal-only evidence is essential context → even patient-derived xenografts remain mouse models with uncertain translation to people.
+- Terminal patients want faster experimental access — counterpoint: toxicity can kill sooner, and compassionate-use pathways still require safety evidence.
+- Readers ask why breakthroughs stall → human trials are expensive, slow, and biologically less predictable than engineered models.
 
 ### LLM perspective
 
-- View: Mechanistically coherent multi‑node KRAS blockade is promising, but triple‑target toxicity and drug–drug interactions will dominate early human studies.  
-
-- Impact: If even partially reproducible in people, this validates rational multi‑target design over single “magic bullet” KRAS inhibitors for PDAC.  
-
-- Watch next: Phase I/II safety trials combining already human‑tested agents, biomarker work in KRAS/TP53 tumors, and possibly trials in pet dogs with spontaneous cancers.
+- View: Multi-pathway inhibition may block escape routes, but mouse durability does not establish a therapeutic window in humans.
+- Impact: Success could reshape PDAC trials toward coordinated combinations instead of sequential single-target treatments.
+- Watch next: Human dosing, overlapping toxicities, biomarkers, post-treatment resistance, and randomized survival outcomes.
