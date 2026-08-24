@@ -2,15 +2,18 @@
 
 - Score: 186 | [HN](https://news.ycombinator.com/item?id=46888441) | Link: https://nmn.gl/blog/ai-killing-b2b-saas
 
-- TL;DR  
-  - AI-powered “vibe coding” tools let non-developers assemble internal apps and workflows, tempting companies to replace inflexible B2B SaaS and renegotiate renewals. The author argues many SaaS tools will be undercut unless they become customizable platforms: act as secure systems of record, expose flexible UIs and workflows, and let customers build micro‑apps on top. He’s selling such a white‑label AI builder. HN commenters mostly counter that claims are anecdotal and underestimate buyers’ desire to offload responsibility and risk.
+### TL;DR
 
-- Comment pulse  
-  - B2B buyers pay SaaS to avoid owning complexity and risk; vibe-coded or self-hosted tools ignore maintenance, security, compliance, and staffing costs.  
-  - Many see the post as anecdotal, focused on SF startups, and colored by the author's product pitch rather than broad market data.  
-  - AI and low-code may shrink incumbents’ moats and enable niche, domain SaaS, especially for SMBs — counterpoint: large enterprises stay cautious and process-bound.
+Namanyay Goel argues that AI-built internal tools weaken B2B SaaS renewals by making tailored workflows feel attainable. He recommends defending incumbents through system-of-record lock-in, security and compliance, and customer-built micro-apps atop existing platforms, illustrated by an account whose usage reportedly doubled. The essay also promotes his own white-label product. Commenters strongly challenged the thesis as anecdotal and conflicted, arguing companies purchase maintenance, accountability, domain expertise, support, and data migration—not merely interfaces—while conceding AI may increase customization expectations and competition, particularly among smaller businesses.
 
-- LLM perspective  
-  - View: AI makes bespoke workflows cheaper, pressuring generic feature-bloated SaaS while rewarding deep, data-rich systems of record.  
-  - Impact: Mid-market and SMB tools with weak moats face churn risk; security-heavy, regulated, or mission-critical platforms should remain resilient.  
-  - Watch next: SaaS renewals, seat utilization, and whether majors ship embedded AI builders instead of ceding users to generic automation.
+### Comment pulse
+
+- AI raises the customization bar → customers can prototype gaps cheaply — counterpoint: prototypes leave maintenance, security, migration, and ownership costs.
+- Managed SaaS sells responsibility → conservative buyers pay for uptime, expertise, indemnification, compliance, support, and freedom from operating another system.
+- Evidence is thin → startup anecdotes and stock movement do not demonstrate broad churn, especially from an author selling the proposed remedy.
+
+### LLM perspective
+
+- View: AI likely pressures generic interfaces and pricing before it destroys the managed-service economics underpinning B2B SaaS.
+- Impact: Vendors must expose adaptable platforms; buyers should price lifecycle ownership, not compare subscriptions solely with prototype construction.
+- Watch next: Renewal and churn cohorts, sector and company-size splits, incident rates, maintenance costs, usage gains, and audited security outcomes.

@@ -3,18 +3,17 @@
 - Score: 106 | [HN](https://news.ycombinator.com/item?id=46888795) | Link: https://www.scd31.com/posts/building-an-arcade-display-adapter
 
 ### TL;DR
-A Recurse Center member built a custom USB-to-VGA adapter so laptops can drive an old arcade CRT at odd resolutions with true 24‑bit color. Early attempts used an RP2040’s PIO and a Rust GUD gadget implementation, but USB full‑speed bandwidth and improvised resistor DACs limited color depth and framerate. A second‑generation STM32H7 board with external HS PHY, SDRAM, hand‑designed VGA DAC, and 3D‑printed enclosure finally delivered 60 Hz, banding‑free output. HN discussion centers on PCB best practices, newer MCUs, and CRT timing details.
 
----
+Stephen built a Linux-compatible USB adapter that drives an arcade cabinet’s nonstandard CRT at 336×262, 60 Hz, and 24-bit color. An RP2040 prototype generated VGA through PIO and implemented GUD, but full-speed USB capped practical frame rate. Two custom STM32 revisions followed: one missed the external high-speed PHY and shorted power planes; the next added ULPI, RAM, resistor DACs, and LTDC, ultimately producing smooth, band-free output. Commenters praised the detailed failures while recommending ESD protection, buffered or dedicated DACs, wider traces, cleaner grounding, and newer RP2350 techniques.
 
 ### Comment pulse
-- Serious adapter design → add TVS/ESD parts on all external pins, buffer or IC DACs, and wider traces/vias to improve robustness and manufacturability.  
-- RP2350’s improved PIO and new HSTX block → could generate high‑res, high‑depth VGA directly, avoiding STM32 complexity — counterpoint: still lacks USB HS.  
-- CRT engineers → blanking actually surrounds the active picture and carries metadata like CC/VITC; the article’s reference timing diagram is oversimplified.
 
----
+- Failure details teach most → USB bit-versus-byte math, hidden PHY requirements, stale pours, and missing oscillator bias drove successive redesigns.
+- Hardware review found durability gaps → add low-capacitance ESD protection, buffer VGA, consider a DAC IC, widen traces, and preserve ground-return paths.
+- Alternatives remain viable → RP2350 HSTX relaxes earlier PIO limits, while upstream GUD keeps the finished adapter driverless on modern Linux.
 
 ### LLM perspective
-- View: This is an excellent end‑to‑end example of turning a “hacky” proof‑of‑concept into a real, product‑like embedded system.  
-- Impact: Arcade and CRT hobbyists gain a template for weird‑mode, high‑color USB display adapters using GUD plus commodity MCUs.  
-- Watch next: Benchmark similar designs on RP2350 vs STM32H7; add audio/input; upstream GUD improvements like optional deltas and real documentation.
+
+- View: The project succeeds by composing standard peripherals and iterating through integration mistakes, not by inventing a new display protocol.
+- Impact: RCade gains arbitrary-resolution, full-color output; makers gain reusable GUD firmware, board files, DAC calculations, and candid failure analysis.
+- Watch next: USB failure root cause, ESD revision, audio and controls, multi-buffer compatibility, GUD documentation, and long-term 24/7 reliability.

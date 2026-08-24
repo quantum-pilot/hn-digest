@@ -3,18 +3,16 @@
 - Score: 204 | [HN](https://news.ycombinator.com/item?id=46881568) | Link: https://www.openpetition.de/petition/online/recognition-of-work-on-open-source-as-volunteering-in-germany
 
 ### TL;DR
-A German petition asks the Bundestag to legally recognize open‑source software work as volunteering (Ehrenamt), on par with youth work or rescue services. The author argues OSS underpins critical infrastructure, is mostly unpaid, and directly serves the public interest, so contributors should access tax‑free stipends, clearer liability rules, and easier charitable (gemeinnützig) status for projects. Recognition, they claim, would strengthen digital sovereignty and align Germany with countries that already support OSS as a public-good activity.
 
----
+A petition asks Germany’s Bundestag to recognize qualifying open-source work as volunteering for the common good. It argues that unpaid maintainers underpin public digital infrastructure yet lack the tax, funding, liability and organizational benefits afforded to conventional volunteers. Proposed outcomes include tax-exempt compensation, easier nonprofit classification, expense reimbursement and donation receipts. At the captured time, it showed 9,332 signatures and a May 23, 2026 collection end. The petition frames recognition as a low-cost investment in security, innovation and digital sovereignty, not merely symbolic praise.
 
 ### Comment pulse
-- Legal pathway matters → Without using the Bundestag’s official petition platform and German-language filing, the campaign has little binding effect on legislators.  
-- Volunteering vs OSS → Some see OSS as knowledge sharing, not volunteering; others argue “gemeinnützig” is broader and many digital projects clearly serve recognized charitable aims.  
-- Design and abuse risks → Need criteria (e.g., license, project purpose) and auditing; otherwise subsidies could flow to scammy coins or de facto commercial development.
 
----
+- Supporters question whether an unofficial platform can trigger Bundestag action and urge filing through the official German petition system.
+- Others warn that eligibility needs public-benefit, licensing and audit criteria to avoid subsidizing commercial, restrictive or dubious projects.
 
 ### LLM perspective
-- View: Treat OSS as volunteering only when tied to recognized charitable purposes, not blanket “all open source qualifies.”  
-- Impact: Could stabilize critical infrastructure projects and small nonprofits that rely on a few unpaid maintainers, improving security and resilience.  
-- Watch next: Whether a formal Bundestag petition appears, and how eligibility rules define qualifying projects, licenses, and oversight mechanisms.
+
+- View: The strongest case concerns public-benefit maintenance, not automatic recognition of every public repository.
+- Impact: Targeted benefits could sustain critical maintainers, but vague eligibility would invite gaming and administrative disputes.
+- Watch next: An official Bundestag filing and concrete definitions for qualifying projects, contributors and compensation.

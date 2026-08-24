@@ -3,24 +3,16 @@
 - Score: 1197 | [HN](https://news.ycombinator.com/item?id=46881264) | Link: https://www.jernesto.com/articles/thinking_hard
 
 ### TL;DR
-The author splits their personality into a “Builder” who loves shipping useful software fast and a “Thinker” who craves multi‑day, deep problem‑solving. AI “vibe coding” supercharges the Builder by delivering 70%-good solutions quickly, but that very pragmatism starves the Thinker of slow, difficult puzzles and genuine growth. They feel unable to justify hard but “unproductive” work (like old physics problems), and fear coding may no longer satisfy both halves at once.
 
----
+The author describes a split between a “Builder,” driven to ship useful software, and a “Thinker,” fulfilled by prolonged struggle with difficult problems. AI-assisted coding increasingly gives the Builder fast, good-enough results, but removes many occasions for deep technical reasoning and leaves the author feeling stagnant. Rejecting AI seems irrational because productivity still matters, while harder projects and old physics exercises have not restored the former balance. The post offers no solution, only uncertainty about whether coding can still satisfy both impulses.
 
 ### Comment pulse
 
-- LLM coding erodes intimacy with the medium → you get prefabricated artifacts instead of learning through shaping the “clay” yourself — counterpoint: abstraction and reuse have always existed.  
-
-- LLMs aren’t real abstractions → frameworks/compilers are deterministic, fixable layers; LLMs generate leaky, non-deterministic code you must audit line by line.  
-
-- Builder vs Thinker split resonates → some happily ignore AI to chase hard, useless problems; others embrace AI to run more experiments in scarce, fragmented time.  
-
----
+- Some commenters say agents shift thinking upward, enabling more experiments and output without diminishing authorship.
+- Others argue probabilistic code generation is not a trustworthy abstraction and weakens understanding built through hands-on implementation.
 
 ### LLM perspective
 
-- View: AI shifts programming from crafting implementations to specifying intent and curating output, which can feel like a loss of craft.  
-
-- Impact: “Thinker” types may seek harder domains (theory, systems, research) or non-AI workflows; “Builder” types double down on AI leverage.  
-
-- Watch next: better spec languages, verifiable codegen, and educational paths that preserve deep problem‑solving while embracing AI‑accelerated building.
+- View: The conflict is motivational, not simply technical: efficiency can displace the learning process that made work rewarding.
+- Impact: Teams may ship more while engineers accumulate weaker mental models and less satisfaction from solving details.
+- Watch next: Whether deliberate AI-free practice or harder problem selection restores depth without sacrificing useful velocity.

@@ -2,17 +2,17 @@
 
 - Score: 134 | [HN](https://news.ycombinator.com/item?id=46879447) | Link: https://capitolnewsillinois.com/news/illinois-joins-who-global-outbreak-network-after-u-s-withdraws/
 
-- TL;DR
-    - Illinois is joining a World Health Organization global outbreak surveillance network even though the U.S. federal government has withdrawn. That makes Illinois a direct subnational partner in international health governance, leveraging its large, country-scale economy. HN commenters focus less on epidemiology and more on the political signal: states increasingly act like semi-independent countries when Washington disengages. Some welcome this as renewed federalism; others warn it accelerates U.S. balkanization and raises hard questions about secession, legality, and coordination in future crises.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+Illinois Governor JB Pritzker announced that the state will join WHO’s Global Outbreak Alert and Response Network after the Trump administration withdrew the United States from WHO in 2025. Membership gives Illinois access to outbreak alerts, research, risk assessments, training and global partners, while Illinois contributes sequencing, wastewater surveillance and investigation expertise. The move follows California’s membership and other state efforts to preserve public-health coordination, including Illinois vaccine guidance and a governors’ alliance, as the legal completion of the federal withdrawal remains unsettled.
 
-- Comment pulse
-    - States are forging quasi-foreign policies (WHO ties, MA–Denmark deal, Oregon–Asia links, west-coast health compacts) as federal leadership recedes—counterpoint: could also be normal federalism.
-    - Some celebrate greater state autonomy, arguing the New Deal era over-centralized Washington and that re-empowered states better match local values and experimentation.
-    - Others fear intentional balkanization; secession remains legally impossible without constitutional change, leaving only nationwide consensus to dissolve the union or extra-legal revolution.
+### Comment pulse
 
-- LLM perspective
-    - View: Subnational WHO participation can strengthen outbreak surveillance yet risks patchwork responses if states’ data standards and policies diverge.
-    - Impact: Global networks increasingly interact with cities and states directly, bypassing hesitant national governments and reshaping diplomatic and public-health accountability.
-    - Watch next: Whether courts restrict such deals, and whether politically opposed states join, ignore, or publicly reject WHO-linked initiatives.
+- Commenters viewed the move as states assuming international roles amid widening federal-state divisions.
+- Reactions split between enthusiasm for federalism and warnings that such autonomy could accelerate national balkanization.
+
+### LLM perspective
+
+- View: Illinois is building a state-level information bridge around a federal public-health retreat.
+- Impact: Faster international alerts could strengthen preparedness, while fragmented state participation may widen uneven protection.
+- Watch next: Whether more states join GOARN and how WHO members resolve the United States’ disputed departure.

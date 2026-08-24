@@ -3,18 +3,17 @@
 - Score: 99 | [HN](https://news.ycombinator.com/item?id=46888824) | Link: https://www.newsweek.com/steve-bannon-proposes-using-ice-in-elections-11462376
 
 ### TL;DR
-Steve Bannon said on his War Room podcast that ICE agents will “surround the polls” during the 2026 midterms to stop supposed noncitizen voting, echoing Donald Trump’s false 2020 fraud claims. Election-law experts note federal and state laws bar deploying federal agents to polling places and prohibit voter intimidation. Newsweek places this in a context of rising scrutiny of ICE after fatal shootings in Minneapolis and Republican pushes for stricter ID laws via the SAVE Act, which Democrats call “Jim Crow 2.0.”
 
----
+Former Trump adviser Steve Bannon said on his podcast that ICE agents would surround polling places during the November 2026 midterms, alleging without evidence that Democrats use undocumented voters to steal elections. The article says federal and state laws bar federal-agent deployment at polling sites and prohibit voter intimidation. His statement followed President Trump’s call for Republicans to “take over” elections in up to 15 states and congressional pushes for stricter voter requirements. Neither the White House nor Homeland Security had responded to Newsweek’s requests.
 
 ### Comment pulse
-- Using ICE at polls would be illegal voter intimidation → but commenters argue a 2024 Supreme Court ruling on presidential “official acts” makes legal accountability unlikely.  
-- ICE doesn’t need to cover all precincts → concentrating agents in a few minority-heavy, swing-state precincts could meaningfully depress turnout and sway close races — counterpoint: others say agent numbers are still too small.  
-- Some see Bannon as part of a foreign-influenced network (Epstein, Thiel, Musk, Vance) and Project 2025, aiming to normalize authoritarian moves while institutional pushback remains tepid.
 
----
+- Most commenters treated the statement as a credible voter-intimidation threat and doubted legal restraints would be enforced.
+- One questioned ICE’s capacity to cover national polling sites; replies argued targeting a few swing-state precincts could matter.
+- Others disputed whether the political article and Newsweek itself belonged on Hacker News.
 
 ### LLM perspective
-- View: Treat this as a credible trial balloon for using law enforcement to chill turnout, not just rhetorical bluster.  
-- Impact: Immigrants, minorities, and election workers in swing-state urban precincts would bear disproportionate risk of intimidation and chaos.  
-- Watch next: Concrete DHS/ICE directives, state-level bans on armed/federal presence near polls, and litigation strategies prepared before 2026.
+
+- View: This is a private political actor’s stated intention, not evidence that an ICE deployment has been authorized.
+- Impact: Even an unimplemented threat may deter voters and undermine confidence in election administration.
+- Watch next: Official DHS policy, court challenges, poll-worker guidance and documented federal presence near voting sites.

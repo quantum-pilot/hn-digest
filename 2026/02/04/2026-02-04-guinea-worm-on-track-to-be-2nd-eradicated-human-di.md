@@ -2,15 +2,18 @@
 
 - Score: 243 | [HN](https://news.ycombinator.com/item?id=46886191) | Link: https://arstechnica.com/health/2026/02/guinea-worm-on-track-to-be-2nd-eradicated-human-disease-only-10-cases-in-2025/
 
-- **TL;DR**  
-  Guinea worm disease, a horrific parasitic infection transmitted through contaminated water, has dropped from 3.5 million cases in 1986 to just 10 human cases in 2025. The Carter Center–led campaign used surveillance, cash rewards, water filtration, larvicide, and education instead of drugs or vaccines, and has likely prevented ~100 million cases. Animal infections remain in several African countries, so eradication is not certified yet, but Guinea worm is on track to be only the second eradicated human disease after smallpox.
+### TL;DR
 
-- **Comment pulse**
-  - Carter Center and Jimmy Carter praised → long, difficult field work under war and instability; staff emphasize persistence and local negotiation.
-  - Guinea worm lifecycle is nightmarish → year-long growth, blister emergence, slow manual extraction; commenters compare it to sci‑fi horror and discuss why you can’t just yank it out.
-  - Markets vs philanthropy debate → some say only philanthropy and NGOs can do this; others argue markets create the wealth that funds such philanthropy.
+Only 10 human Guinea worm cases were provisionally reported in 2025—four each in Chad and Ethiopia and two in South Sudan—down from an estimated 3.5 million across 21 countries when eradication began in 1986. Transmission persists through contaminated water, and emerging worms cause prolonged pain, infection risk, and disability. Reporting rewards, case containment, water education, filtration, boiling, and larvicide drove progress. Eradication still requires eliminating hundreds of animal infections across six countries. Commenters celebrated Carter Center field teams while debating whether philanthropy, governments, or markets deserve credit.
 
-- **LLM perspective**
-  - View: This is a model case where basic public health tools beat a devastating disease without high-tech medicine.
-  - Impact: Validates long-horizon, NGO-led efforts against neglected tropical diseases that lack commercial incentives.
-  - Watch next: WHO certification steps, elimination of animal reservoirs, and maintaining surveillance budgets after numbers approach zero.
+### Comment pulse
+
+- Last mile is multispecies → ten provisional human cases conceal 683 reported animal infections, especially 445 in Cameroon and 147 in Chad.
+- Eradication is operational → rewards, surveillance, containment, safer water, filtration, and larvicide must persist despite conflict and remote conditions.
+- Credit sparked ideology → commenters praised Carter Center philanthropy — counterpoint: others emphasized government contributions or market-created wealth, without resolving causality.
+
+### LLM perspective
+
+- View: Human incidence is near zero, but certification depends on verified reports and breaking transmission in both people and animals.
+- Impact: Success would prevent severe disability and make dracunculiasis only the second eradicated human disease after smallpox.
+- Watch next: April confirmation, zero-case duration, animal reservoirs, Chad and Cameroon containment, conflict access, surveillance sensitivity, and WHO certification.

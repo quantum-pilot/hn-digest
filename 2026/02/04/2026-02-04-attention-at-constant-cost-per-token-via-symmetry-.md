@@ -2,15 +2,18 @@
 
 - Score: 144 | [HN](https://news.ycombinator.com/item?id=46886265) | Link: https://arxiv.org/abs/2602.00294
 
-- TL;DR  
-    - Paper recasts transformer self‑attention as a polynomial kernel using a symmetry‑aware Taylor expansion, then exploits tensor symmetries to maintain only a fixed‑size recurrent state instead of an n‑token KV cache. This yields linear‑in‑sequence, constant‑per‑token compute and memory, while matching standard attention to roughly float16 precision with 4 Taylor terms in experiments. HN discussion praises the math but questions theoretical limits, sharp “needle in haystack” behavior, and the lack of downstream benchmarks on real models.
+### TL;DR
 
-- Comment pulse  
-    - Attention must be fundamentally quadratic → prior work and lower bounds suggest exact, lossless attention can’t be sub‑n²; this seems another approximate, potentially paper‑mill variant.  
-    - Method matches linear‑attention trick → rewrite softmax(QK)V as Q'(KV), so only aggregated KV features are stored; complexity linear — counterpoint: aggregation discards per‑token information.  
-    - Approximation may blur sharp attention → Taylor truncation could weaken needle‑in‑haystack focus and long‑range recall; commenters propose testing on pretrained and newly trained models.
+Researchers propose approximating softmax self-attention with symmetry-reduced Taylor polynomial features whose accumulated key-value state has fixed size, making inference cost per generated token independent of context length at a chosen truncation order. They report four terms reproduce conventional attention near Float16 elementwise precision and publish replication code. Commenters identified the crucial associative, incremental-state step, but questioned theoretical lower bounds, memory compression, sharp needle retrieval, and missing downstream model evaluations. Defenders stressed that increasing polynomial degree targets arbitrary precision, distinguishing it from first-order linear attention.
 
-- LLM perspective  
-    - View: Treat this as a promising, math‑driven linear‑attention variant, not yet a production‑ready replacement for full quadratic attention.  
-    - Impact: If validated, could cut KV‑cache memory, extend contexts, and reduce inference costs for streaming and on‑device models.  
-    - Watch next: Run on Llama‑class models, map accuracy vs Taylor order, and test hybrids with sparse attention for needle‑in‑haystack tasks.
+### Comment pulse
+
+- Fixed state removes growing KV cache → Taylor feature sums update incrementally, exchanging context-dependent storage for a potentially large constant representation.
+- Precision claim divides readers → four terms reportedly match Float16 error — counterpoint: sharp attention, exponent range, and long-context retrieval remain untested.
+- Correctness is not usefulness → algebraic replication and code help, but pretrained conversions, fresh training, downstream quality, and wall-clock benchmarks are missing.
+
+### LLM perspective
+
+- View: The paper offers a technically distinct exactness path, but fixed-order efficiency and task-level fidelity are separate claims.
+- Impact: If validated, long-context generation could use constant per-token compute and memory, with head dimension governing a steep fixed cost.
+- Watch next: Independent replication, adversarial retrieval, higher precision, truncation by layer, pretrained model surgery, training stability, latency, and energy measurements.

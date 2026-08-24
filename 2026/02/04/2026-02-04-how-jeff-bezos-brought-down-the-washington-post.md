@@ -3,18 +3,17 @@
 - Score: 201 | [HN](https://news.ycombinator.com/item?id=46890034) | Link: https://www.newyorker.com/news/annals-of-communications/how-jeff-bezos-brought-down-the-washington-post
 
 ### TL;DR
-Ruth Marcus, a longtime Washington Post veteran, argues Jeff Bezos’ ownership arc ran from savior to saboteur. After funding a “golden era,” he tolerated weak leadership, killed a planned Kamala Harris endorsement, narrowed the opinion section’s ideology, and appeared to curry favor with Trump—alienating readers and staff as losses mounted. Massive layoffs are now gutting metro, sports, books, and foreign coverage, shrinking the Post toward “Politico-lite.” Marcus urges Bezos to endow a nonprofit Post, or be remembered as the man who broke it.
 
----
+Former Washington Post columnist Ruth Marcus argues that Jeff Bezos turned an attempted rescue into decline through failed leadership, political accommodation, and 300 reported newsroom layoffs. Earlier buyouts reduced staffing below 800; the reset closes sports in its current form, cuts metro and foreign coverage, and ends books and a podcast. The Post lost $77 million in 2023 and $100 million in 2024. Commenters split blame between owner decisions, management failures, subscription losses after the blocked Harris endorsement, and structural newspaper economics that only the New York Times has escaped.
 
 ### Comment pulse
-- NYT built a sustainable bundle via games, cooking, The Athletic, and podcasts; WaPo stayed “just a newspaper” while being staffed like a big media company.  
-- Readers mourn DC-local cuts, seeing an irreplaceable investigative watchdog hollowed out as local TV news and community papers already wither.  
-- Many see newspapers as structurally doomed: classifieds gone, attention shifted to social/video, and long-form reading increasingly rare outside a shrinking, educated niche.  
 
----
+- Ownership choices accelerated damage → critics cite the killed endorsement, opinion restrictions, weak executives, talent flight, and silence around threats to reporters.
+- Economics were already broken → losses predated endorsement backlash — counterpoint: commenters argue Bezos-led brand damage compounded a failing newspaper model.
+- Local reporting bears the cost → shrinking metro from about forty staffers to twelve removes institutional coverage that social feeds rarely replace.
 
 ### LLM perspective
-- View: Treat major newsrooms like public utilities: privately run, but with funding models insulated from a single owner’s whims.  
-- Impact: Concentrated agenda-setting by a few outlets raises democracy risks, especially when local reporting capacity collapses.  
-- Watch next: Concrete experiments in news endowments, nonprofit conversions, and reader co-ops will show whether serious reporting can outlive the ad-subsidy era.
+
+- View: The article persuasively documents strategic failure, while its author’s history and normative case for subsidy shape the causal framing.
+- Impact: Readers lose local, foreign, sports, books, and audio coverage; remaining journalists face weaker capacity, morale, recruitment, and institutional memory.
+- Watch next: Final layoff scope, subscriber trajectory, Lewis’s strategy, newsroom quality, Bezos’s involvement, sale or nonprofit conversion, and local-coverage alternatives.

@@ -2,15 +2,17 @@
 
 - Score: 83 | [HN](https://news.ycombinator.com/item?id=46887564) | Link: https://www.wsj.com/tech/ai/microsofts-pivotal-ai-product-is-running-into-big-problems-ce235b28
 
-- TL;DR  
-  The WSJ reports Microsoft’s Copilot chatbot—meant to replace reliance on OpenAI and anchor an “AI‑first” strategy—is struggling. Branding is confusing, integrations are flaky, and internal data show low, declining usage versus rivals like Gemini, raising investor doubts about Azure and Microsoft’s broader AI story. Hacker News commenters say Copilot exemplifies forced, poorly thought‑out AI integrations: buttons everywhere, real capability and context almost nowhere, high infrastructure costs, and a squandered early lead from Bing Chat.
+### TL;DR
 
-- Comment pulse  
-  Forced AI/Edge/Teams/CoPilot integration; naming confusion; damages user trust, fosters perception of Windows as ad platform—not productivity.  
-  Microsoft’s AI push chases usage metrics, not usefulness → shallow integrations, hallucinations, high infra costs, features users quickly abandon.  
-  Missed search opportunity: early Bing Chat outperformed Google but was buried under generic “Copilot” bloat → squandered differentiation — counterpoint: Google search remains financially dominant.
+Microsoft’s Copilot push is struggling with fragmented branding, weak interoperability and low preference despite deep integration across its products. Recon Analytics says the share of Copilot subscribers naming it their primary AI fell from 18.8% to 11.5% between July and late January; Citi analysts report some businesses use only about 10% of purchased seats. Microsoft disputes the pessimism, citing tenfold year-over-year growth in daily 365 Copilot use, and is adding compute, internal adoption programs and heavy advertising to leverage its enormous installed base.
 
-- LLM perspective  
-  View: Copilot’s issues are mostly product/UX execution and incentives, not core model capability or lack of demand.  
-  Impact: Enterprises hesitate to pay AI premiums when features feel bolted-on; competitors offering focused assistants gain credibility.  
-  Watch next: Concrete Copilot case studies with ROI, reduced hallucinations, and tighter app-context integration will determine if Microsoft can recover.
+### Comment pulse
+
+- Commenters blame forced, superficial integrations and product confusion for eroding trust in otherwise successful Microsoft software.
+- Some doubt AI’s economics altogether; others see a strong corporate-data proposition squandered by poor reliability and execution.
+
+### LLM perspective
+
+- View: Distribution cannot compensate for a product that users experience as fragmented, intrusive or incapable.
+- Impact: Weak preference threatens Microsoft’s AI-first strategy despite Azure demand and a captive enterprise audience.
+- Watch next: Cohesion across Copilots, seat utilization and whether added compute produces visibly better proprietary models.
