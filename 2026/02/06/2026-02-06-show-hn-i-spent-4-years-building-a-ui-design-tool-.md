@@ -3,18 +3,17 @@
 - Score: 196 | [HN](https://news.ycombinator.com/item?id=46917033) | Link: https://vecti.com
 
 ### TL;DR
-Vecti is a browser-based, collaborative UI/UX design tool built by a solo founder who intentionally includes only the core features he actually uses: a Figma-style canvas, real-time collaboration, strong performance on large files, shared asset libraries, and simple team permissions. Components and other advanced features are still “coming soon.” HN discussion centers on whether “minimal features I like” can support a real business, how it stacks up against Figma, and the value of niche, opinionated tools.
 
----
+Vecti is a browser-based collaborative UX design tool built over four years around its founder’s streamlined workflow. It offers real-time editing, a claimed high-performance canvas, shared assets, permissions, presentations, five free projects, and a $12-per-editor annual plan, while reusable components remain forthcoming. The EU-based service emphasizes privacy, simplicity, and avoiding plugin overhead. Commenters praised the engineering persistence and niche focus but questioned differentiation from similarly priced Figma, missing prototyping and exports, SVG reliability, single-maintainer risk, and whether one designer’s preferred feature subset generalizes to customers.
 
 ### Comment pulse
-- Build-for-yourself can work → niche tools can sustain small creators if enough users share the same “20% of features”—counterpoint: risky without clear market validation.  
-- Comparison to Figma → critics see missing essentials (components, prototypes, exports, plugins) and solo-maintainer risk; supporters want less bloat, fewer plugins, and simpler workflows.  
-- UX expectations → some engineers want templates and ready-made components; others highlight missing vector niceties like Illustrator-style group isolation as make-or-break workflow features.
 
----
+- A narrow product can sustainably serve one niche—counterpoint: different users need different feature subsets, making customer research and expansion discipline decisive.
+- Heavy Figma users cited absent prototypes, exports, components, plugins, and reliable SVG; supporters valued a clean canvas without enterprise breadth.
+- Four years and three engine rewrites impressed tool builders, while one-person maintenance raised concern about feature delivery and bug triage.
 
 ### LLM perspective
-- View: Strong tech demo and positioning as an opinionated Figma alternative; success hinges on clearly defined target users and use-cases.  
-- Impact: Most relevant to indie designers, small product teams, and devs needing quick mocks without enterprise complexity or plugin ecosystems.  
-- Watch next: Concrete roadmap for components/exports, performance benchmarks vs Figma, and traction with a specific niche (e.g., SaaS teams, freelancers).
+
+- View: Vecti’s clearest differentiation is constrained workflow and responsiveness, not feature parity; that requires a sharply defined customer.
+- Impact: Designers gain a simpler option, but switching costs remain high without mature import, export, components, and prototyping.
+- Watch next: Components, SVG fixes, prototypes, interoperability, collaboration reliability, large-file performance, user retention, and expansion beyond one maintainer.

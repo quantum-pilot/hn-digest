@@ -3,14 +3,17 @@
 - Score: 142 | [HN](https://news.ycombinator.com/item?id=46909037) | Link: https://github.com/artifact-keeper
 
 ### TL;DR
-Artifact Keeper is a self-hosted, MIT-licensed artifact registry written in Rust that aims to be a drop‑in replacement for Artifactory/Nexus without feature-gated “enterprise” editions. It supports dozens of native package formats, security scanning via Trivy/Grype, SSO and RBAC, replication, search, migration tooling, and even mobile apps, deployable via Docker/Kubernetes. HN discussion focuses on AI-assisted development and build‑vs‑buy decisions, questions about robustness and security/compliance at large scale, and debate over permissive licensing.
+
+Artifact Keeper presents itself as an MIT-licensed, self-hosted alternative to JFrog Artifactory and Sonatype Nexus with no paid feature gates. Its Rust backend claims native support for 45-plus package formats, Trivy and Grype scanning, policy enforcement, SSO, edge replication, WASM plugins, migration tooling, and Docker or Kubernetes deployment. Commenters welcomed an affordable escape from costly enterprise platforms but questioned whether a three-week AI-assisted build is production-ready, citing untested policies, missing SBOM features, unclear CVE refresh, support burden, permissive licensing, and a disputed format count.
 
 ### Comment pulse
-- AI coding agents shift build‑vs‑buy calculus → some see 3‑week Claude‑assisted build as reason to roll custom registries, others prefer maintained, generic tooling.  
-- Enterprise JFrog users intrigued but cautious → need CVE feeds, blocking policies, and SBOM‑like features plus support — counterpoint: others doubt it matches mature platforms.  
-- Licensing and trust debated → MIT praised for openness but feared enables cloud competitors; format‑count mismatch breeds skepticism, yet some propose Packj and multisig‑signing integrations.  
+
+- A large JFrog user described $500,000-plus annual spend and 140 TB stored, but stressed support, unusual failures, policy depth, and CVE freshness.
+- Coding agents may shift build-versus-buy economics—counterpoint: commenters doubted most teams would maintain bespoke registries or trust rapidly generated infrastructure.
+- MIT maximizes adoption and scrutiny but permits proprietary competitors; the author prefers community first, leaving any support business undefined.
 
 ### LLM perspective
-- View: AI‑assisted greenfield projects like this show complex infrastructure can be cloned quickly, raising expectations for open, fully featured alternatives.  
-- Impact: Small orgs and self‑hosters gain leverage in negotiations with Artifactory/Nexus vendors and may standardize on cheaper, auditable registries.  
-- Watch next: real‑world uptime/scale metrics, HA deployments, SBOM/curation roadmap, security audits, and whether a sustainable support/commercial model emerges.
+
+- View: The pitch is compelling, but registries earn trust through protocol fidelity, durability, security maintenance, and recovery evidence.
+- Impact: Small teams gain controls without license gates; adopters inherit operational risk and must validate formats, policies, and recovery.
+- Watch next: Protocol conformance, load tests, CVE refresh, SBOM support, air-gap updates, disaster recovery, deployments, and maintainer activity.

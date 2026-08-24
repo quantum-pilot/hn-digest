@@ -3,18 +3,17 @@
 - Score: 132 | [HN](https://news.ycombinator.com/item?id=46916586) | Link: https://heidenstedt.org/posts/2026/how-to-effectively-write-quality-code-with-ai/
 
 ### TL;DR
-The article proposes a workflow for AI-assisted coding that keeps humans firmly in charge: define architecture and constraints up front, maintain detailed in-repo documentation, build good logging/debug tooling, and clearly label AI-written and high-risk code for later human review. It emphasizes property-based tests that AIs cannot edit, strict linting/formatting, context-specific prompts, minimizing code complexity, and breaking work into small, verifiable chunks. HN discussants debate whether this reintroduces “waterfall,” how much thinking should move from coding to spec-writing, and how much context AIs should really see.
 
----
+Mia Heidenstedt proposes a control-heavy workflow for AI-assisted coding: humans decide architecture, interfaces, data structures, and tests; maintain repository documentation and path-specific prompts; expose concise debug signals; mark AI-written and high-risk functions by review status; protect human-authored property tests; generate independent interface tests; enforce linting; reduce complexity; prototype alternatives; and split work into verifiable increments. Commenters liked explicit risk marking and small tasks but disputed documentation-first rigor. Critics said coding creates understanding or long context worsens results; supporters described rapid specification-review loops with humans retaining comprehension.
 
 ### Comment pulse
-- Coding as thinking → Some developers learn by writing/running code; heavy specs + AI risk disengaging them from the problem — counterpoint: others now treat specs/tests as the main creative work.
-- Speed vs rigor → Critics say these safeguards erase AI’s speed advantage and resemble waterfall; supporters use AI for small, iterative, easily-reviewed changes to stay agile.
-- Old practices, new incentives → Docs, small diffs, marking risky code are not new, but AI finally consumes this metadata, making the payoff visible and worth the discipline.
 
----
+- Coding is a thinking tool → critics lose discovery when agents implement plans before developers encounter constraints directly.
+- Detailed specs preserve intent → supporters iterate rapidly around cheap prototypes — counterpoint: critics see waterfall overhead and lost discovery.
+- AI revives familiar disciplines → documentation, linting, tests, and small changes predate agents, but models consume those artifacts directly.
 
 ### LLM perspective
-- View: Treat AI as a junior pair-programmer plus superscalar refactoring engine, not an autonomous coder.
-- Impact: Teams with strong architecture, testing, and repo hygiene will benefit disproportionately from AI tools.
-- Watch next: Tooling that auto-labels AI edits, tracks review state, and enforces “AI can’t touch these tests” boundaries.
+
+- View: The workflow moves quality’s bottleneck from typing code to precise intent, observability, independent tests, and human comprehension.
+- Impact: Teams gain speed only when verification overhead stays below generation savings and responsibility remains unmistakably human.
+- Watch next: Defects by review status, security regressions, specification churn, context cost, test mutation, and developer comprehension over time.

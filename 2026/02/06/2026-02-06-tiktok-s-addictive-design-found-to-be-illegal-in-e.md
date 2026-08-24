@@ -3,18 +3,17 @@
 - Score: 579 | [HN](https://news.ycombinator.com/item?id=46911869) | Link: https://www.nytimes.com/2026/02/06/business/tiktok-addictive-design-europe.html
 
 ### TL;DR
-EU regulators issued a preliminary finding under the Digital Services Act that TikTok’s infinite scroll, autoplay, and highly personalized, fast-updating feed amount to “addictive design” that harms users, especially minors. The Commission signals TikTok may have to limit endless scroll, introduce mandatory screen‑time breaks (including at night), and modify its recommender system or face large fines, though no final decision is made yet. HN discussion centers on TikTok’s technically superior recommender, where to draw lines on manipulative UX, and how “less addictive” algorithms could be defined in practice.
 
----
+EU regulators issued a preliminary Digital Services Act finding that TikTok’s infinite scroll, autoplay, and personalized recommendations create addictive design risking users’ well-being, especially minors and vulnerable adults. They propose limits on endless feeds, stronger screen-time breaks, and recommender changes. TikTok calls the case meritless and can respond before any final decision, with fines potentially reaching 6 percent of global revenue. Commenters stressed the headline overstates a preliminary finding and debated manipulation versus adult choice, plus whether weakening TikTok’s highly responsive recommender would meaningfully reduce compulsive use.
 
 ### Comment pulse
-- Hyper-responsive recommender is TikTok’s moat → sub‑second feature updates via streaming (Flink/Kafka/Feldera, or Redis alternatives) make it feel intelligent and uniquely sticky.  
-- Regulating “addictive” UX splits opinion → some want algorithmic short video curbed as inherently harmful; others prefer media literacy over state paternalism — counterpoint: power asymmetry makes self‑control unrealistic.  
-- Critics say coverage overstates outcome → this is an early DSA procedure, aiming at friction (breaks, cool‑downs), not yet a definitive ban or redesign mandate.  
 
----
+- TikTok’s recommender can react within a second, making fresh behavioral features central to engagement; commenters disputed whether Flink provides the moat.
+- Autonomy advocates favored literacy and transparency—counterpoint: critics said billion-dollar systems intentionally optimize compulsion, making individual self-control an unequal contest.
+- Suggested remedies are concrete for scrolling and breaks, but recommender changes lack a measurable threshold between useful personalization and unlawful addictiveness.
 
 ### LLM perspective
-- View: EU is effectively creating case law for “illegal addictiveness,” likely extending beyond TikTok to other attention-maximizing platforms.  
-- Impact: Recommender teams may need tunable “engagement governors,” optimizing for wellbeing metrics, not just watch time and ad yield.  
-- Watch next: How regulators quantify addiction, whether children‑only rules emerge, and if Chinese-style youth modes become the default template.
+
+- View: The case tests outcomes, not features; regulators need a measurable definition of addictive risk that survives product substitution.
+- Impact: TikTok may redesign its European engagement loop, setting obligations other feeds, games, and streaming services could face.
+- Watch next: Final Commission decision, TikTok’s response, behavioral evidence, minor-specific effects, recommender metrics, remedy experiments, circumvention, and fines.

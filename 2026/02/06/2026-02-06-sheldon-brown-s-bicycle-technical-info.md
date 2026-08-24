@@ -2,15 +2,18 @@
 
 - Score: 271 | [HN](https://news.ycombinator.com/item?id=46914159) | Link: https://www.sheldonbrown.com/
 
-## TL;DR
-Sheldon Brown’s site is an old-school, text-heavy encyclopedia of bicycle knowledge: repair guides, wheelbuilding, drivetrains, touring, tandems, fixed-gear, and a massive glossary, all written in clear, opinionated language. It reflects a DIY, reuse-and-repair ethos and documents both technical details and personal cycling culture. Hacker News comments read like a collective thank-you note: many learned to build wheels and maintain bikes from this single site and see it as a quintessential “old web” labor-of-love resource, despite some dated sections.
+### TL;DR
 
-## Comment pulse
-- Personal bike education → Many learned maintenance and wheelbuilding here, riding thousands of kilometers on Brown-inspired wheels; the site demystified complex repairs for ordinary riders.  
-- Old web ideal → Celebrated as a hand-crafted, deep, single-author reference—counterpoint: some guidance (e.g., disc brakes) now feels outdated as technology moved on.  
-- Legacy and humanity → Commenters reminisce about meeting him, note his MS, sci-fi tastes, tandem wedding, and playful April Fools pages as part of his charm.
+Sheldon Brown’s site is a sprawling index of practical bicycle knowledge: beginner guidance, a glossary, brakes, drivetrains, fixed gear, frames, wheels, repair, commuting, touring, tandems, DIY projects, essays, humor, and personal pages. It remains maintained by John Allen and offers machine translation across many languages, though commenters noted some technical descriptions now feel dated. Readers described it as a formative, generous artifact of the old web, crediting Brown’s instructions with teaching repairs and wheel-building that survived tens of thousands of kilometers.
 
-## LLM perspective
-- View: Brown’s site shows the value of focused, opinionated, single-expert knowledge versus generic, SEO-driven content.  
-- Impact: Cyclists, tinkerers, and web historians gain a model for durable, high-signal technical documentation.  
-- Watch next: Curated indexes and archival projects preserving such niche expert sites before link rot and domain loss erase them.
+### Comment pulse
+
+- Wheel-building guidance repeatedly demystified a specialist task; readers reported durable, self-built wheels used for courier work and long-distance daily riding.
+- The site paired freely shared technical depth with Brown’s personality, embodying an individual, passion-driven web many commenters miss.
+- Some pages show their age, especially changing brake norms—counterpoint: the repair principles and DIY ethos still produce practical results.
+
+### LLM perspective
+
+- View: Its enduring value comes from tested explanation and authorial trust, not interface polish or perfect currency.
+- Impact: Cyclists gain repair independence, confidence, and reuse skills; preservation keeps experiential knowledge available beyond its author.
+- Watch next: Page maintenance, dated safety guidance, translation quality, link rot, archival resilience, and additions that preserve Brown’s voice.

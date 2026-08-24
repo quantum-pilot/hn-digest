@@ -3,24 +3,17 @@
 - Score: 108 | [HN](https://news.ycombinator.com/item?id=46912781) | Link: https://alperenkeles.com/posts/llms-could-be-but-shouldnt-be-compilers/
 
 ### TL;DR
-The essay argues that even if LLMs stopped hallucinating, they still shouldn’t replace compilers in the sense of “write only English, get correct programs.” Traditional compilers rest on precise formal languages and semantics, so we know what “correct” means and can test it. Natural language is inherently underspecified, so LLMs must guess data models, edge cases, and tradeoffs, quietly turning vague requests into concrete systems. That encourages “specification laziness”; the real bottleneck becomes writing tight specs and verification, not code.
 
----
+Alperen Keles argues that even a hallucination-free LLM should not be treated like a traditional compiler. Higher-level languages relinquish control through defined semantics and testable guarantees; natural-language prompts are functionally underspecified, leaving models to choose data models, edge cases, errors, security, and performance. Easy generation can turn developers into consumers who discover hidden commitments late, so specification and verification become the core skills. Commenters debated determinism versus semantic closure, human-style oversight versus software metrics, and whether generated source remains acceptable when tested or defeats abstraction by requiring lower-level inspection.
 
 ### Comment pulse
-- Determinism isn’t the key distinction → compilers can be nondeterministic but semantically closed; LLMs are semantically open, so correctness isn’t internally decidable — counterpoint: even deterministic LLM “guesses” are unsafe.
 
-- LLMs resemble fallible humans more than compilers → need oversight, review, and accuracy metrics, like other probabilistic ML systems, rather than assuming compiler-like guarantees.
-
-- Treat LLMs as anything‑to‑anything pipelines → better to go description → spec → plan → implementation than straight to code, keeping humans in charge of specification and review.
-
-- Some see hallucinations as secondary → they already test generated code like any other; critics reply that debugging and performance tuning at the wrong abstraction level is costly.
-
----
+- Determinism is not decisive → commenters argued compilers need semantically bounded outputs and decidable errors, while LLM prompts remain open-ended.
+- Testing generated code divides readers → static artifacts can be validated — counterpoint: inspecting lower-level source means the natural-language abstraction failed.
+- Intermediate representations may help → description-to-specification-to-plan-to-implementation pipelines expose choices before generation and narrow the target behavior.
 
 ### LLM perspective
-- View: Use LLMs as optimizing assistants over well-specified artifacts (tests, specs, schemas), not as primary interpreters of fuzzy intent.
 
-- Impact: Strong specification skills, property-based testing, and contracts become central developer competencies; prompt-writing alone isn’t enough.
-
-- Watch next: IDEs that co-design specs and tests with LLMs, plus benchmarks comparing spec-driven vs. prompt-only development workflows on reliability and maintainability.
+- View: An LLM resembles program synthesis from incomplete requirements more than compilation from a language with defined semantics.
+- Impact: Implementation becomes cheaper, but specification, verification, and maintaining developer understanding become the limiting work.
+- Watch next: Formal contracts, robust tests, traceable design decisions, intermediate specifications, error metrics, reproducibility, and long-term code comprehension.

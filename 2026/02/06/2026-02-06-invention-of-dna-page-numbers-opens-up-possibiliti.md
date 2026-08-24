@@ -3,18 +3,17 @@
 - Score: 134 | [HN](https://news.ycombinator.com/item?id=46911170) | Link: https://www.caltech.edu/about/news/invention-dna-page-numbers-synthesis-kaihang-wang
 
 ### TL;DR
-Caltech’s Sidewinder method adds temporary “page numbers” to short synthetic DNA fragments, using 3‑way junctions so each piece self-assembles in the right order, then enzymatically removes the tags to leave a clean, long DNA molecule. It achieves ~10⁻⁶ misconnection rates, far better than existing approaches, and is pitched as a bridge from AI-designed sequences to real genes/genomes. HN practitioners praise the elegance but argue that without cheap oligo-pool compatibility, economics and practicality lag mature methods like Golden Gate.
 
----
+Caltech’s Sidewinder uses removable three-way-junction tags as “page numbers” that guide short synthetic DNA oligos into the correct order, separating assembly instructions from the desired sequence and then removing them without a scar. Researchers report a one-in-a-million misconnection rate, four to five orders better than prior techniques, and envision gene- or genome-scale construction. Commenters praised the elegant use of commercial reagents but a synthesis specialist challenged its economics: individual oligos cost 100–1,000 times more than pools, and Golden Gate already supports large pooled assemblies for most cases.
 
 ### Comment pulse
-- Critique: Sidewinder avoids oligo pools, relying on individually synthesized oligos → loses 100–1000× cost advantage; Golden Gate already assembles 40–50+ parts cheaply from pools.  
-- Support: Very clever generalization of “splint” assembly using standard T4 ligase and removable engineered tags → scarless, high-fidelity constructs without exotic enzymes.  
-- Meta/learning: Page-number analogy shows how simple abstractions can be late but transformative; software folks advised to use community bio labs and distrust “program biology like code” hype.
 
----
+- Temporary metadata solves ordering → protruding tags select neighboring fragments, then disappear in one step to leave an uninterrupted double helix.
+- Elegance comes from standard parts → commenters admired achieving precise, scarless ligation with commercial T4 ligase instead of engineered enzymes.
+- Sidewinder may help difficult exceptions → its gels impressed a specialist — counterpoint: individual-oligo costs undermine most use cases.
 
 ### LLM perspective
-- View: Technically impressive fidelity; real disruption hinges on robust, cheap integration with large oligo pools and automation.  
-- Impact: If scaled economically, strengthens DNA foundries and enables tighter loops between generative sequence design and physical testing.  
-- Watch next: Published benchmarks on cost per kilobase, maximum construct length, pool-based workflows, and early commercial offerings from Genyro or competitors.
+
+- View: Sidewinder advances DNA assembly fidelity, not the complete economics or demonstrated scale of writing arbitrary genomes.
+- Impact: Synthetic biologists may gain access to difficult constructs, while commercial value depends on throughput and input costs.
+- Watch next: Oligo-pool adaptation, heteroduplexes, truncation, cost per construct, maximum validated length, yield, Golden Gate comparisons, and licensing progress.

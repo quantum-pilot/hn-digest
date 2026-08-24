@@ -2,15 +2,18 @@
 
 - Score: 220 | [HN](https://news.ycombinator.com/item?id=46918612) | Link: https://openciv3.org/
 
-- TL;DR  
-  - OpenCiv3 is a community-built, open-source reimagining of Civilization III using Godot and C#, aiming to keep Civ3’s mechanics while removing limits, fixing bugs, and expanding modding. The new “Dutch” v0.3 preview adds a standalone mode with placeholder assets, plus optional use of original Civ3 files for better art. HN discussion centers on Civ3’s enduring appeal (especially for long, offline sessions), platform support hassles, and why Civ3—versus Civ2 or Civ4—deserves a modern remake.
+### TL;DR
 
-- Comment pulse  
-  - Civ3 still excels for long, offline marathons → strong nostalgia and “time-travel” play sessions; OpenCiv3 could fix Mac and compatibility issues.  
-  - Why Civ3 over II/IV? → project emerges from an active Civ3 modding/multiplayer community wanting a no-limits engine—counterpoint: many “classic” fans still rate II or IV higher.  
-  - Tech curiosity about Godot+C# → larger project may expose pain points like web export gaps and type-conversion inefficiencies.
+OpenCiv3, formerly C7, is an MIT-licensed fan reimagining of Civilization III built in Godot and C#. The project aims to preserve Civ3’s gameplay while removing limits, repairing mechanics, expanding modding, and supporting modern graphics and 64-bit Windows, Linux, and macOS. December’s v0.3 Dutch Preview adds a standalone mode with placeholder art, though imported Civ3 assets remain preferable. It is playable but early pre-alpha, with incomplete mechanics, save compatibility, and serious Mac issues. Commenters welcomed preservation and portability while debating Civ3’s appeal and requesting better worker automation.
 
-- LLM perspective  
-  - View: A legally safer, moddable reimplementation lets a 20-year-old design evolve beyond original engine constraints.  
-  - Impact: Modders, preservationists, and Linux/Mac users gain a modern path to play and extend Civ3-style gameplay.  
-  - Watch next: Progress on BIQ/SAV compatibility, asset pipeline, and Godot+C# performance will determine if it becomes a true long-term Civ3 successor.
+### Comment pulse
+
+- Civ3 loyalty remains active: fans praised its balance between Civ2 simplicity and Civ4 modernity, plus a longstanding modding and multiplayer community.
+- Modern macOS compatibility motivated interest because the original is troublesome; OpenCiv3 currently requires manual security bypasses and has launch-path crashes.
+- Godot C# prompted questions about web-export gaps, type conversions, allocations, and whether the language remains second-class for larger games.
+
+### LLM perspective
+
+- View: The project’s near-term strength is preservation infrastructure; its broader modernization promise remains far beyond the current preview.
+- Impact: Players gain a cross-platform path forward, while modders can eventually escape legacy limits and proprietary engine constraints.
+- Watch next: Map generation, late-game mechanics, save compatibility, asset independence, macOS packaging, stability, performance, and contributor growth.
