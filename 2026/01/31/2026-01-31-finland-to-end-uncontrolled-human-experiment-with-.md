@@ -2,19 +2,18 @@
 
 - Score: 411 | [HN](https://news.ycombinator.com/item?id=46838417) | Link: https://yle.fi/a/74-20207494
 
-## TL;DR
-Finland is considering banning social media for under‑15s, extending its already-successful school phone restrictions. Politicians and health officials cite rising self-harm, eating disorders, and Finland’s unusually early smartphone adoption as evidence of a large, poorly-understood “human experiment.” Australia’s recent under‑16 ban, enforced via heavy fines on platforms, is the main model, though critics note kids are already migrating to lesser-known apps. Others argue Finland should lean on its strengths—education and media literacy—rather than copy Australia’s “knee‑jerk” approach.
+### TL;DR
 
----
+Finland’s prime minister supports barring social media for children under 15; the national public-health authority favors banning or restricting access, and two-thirds of recent survey respondents back a ban. No law has passed. The proposal follows a school-phone restriction introduced last August and looks to Australia’s six-week-old under-16 regime, which fines platforms for persistent failures. An adolescent-medicine researcher says the harms remain poorly understood, while an interviewee warns blanket bans may push children toward obscure apps and recommends Finland emphasize digital literacy.
 
-## Comment pulse
-- Platforms shifted from social networks to “attention media” → algorithmic feeds, dark patterns, and ads dominate; parents report kids trapped in Shorts/TikTok loops, even on once-benign apps.
-- Ban skeptics → average mental-health impact looks modest and highly variable; the real target should be addictive design: autoplay, infinite scroll, targeted ads, and late-night notifications.
-- Age checks vs privacy → some fear an “internet license” and censorship; others argue robust ID/attestation is simpler than chasing covert ads, influencers, and propaganda.
+### Comment pulse
 
----
+- Modern platforms were recast as attention media → commenters distinguished messaging and communities from algorithmic feeds, autoplay, targeted ads, and notifications.
+- A blanket ban appealed as parental backing — counterpoint: critics favored regulating addictive design and incentives rather than all teenage online interaction.
+- Age enforcement raised privacy fears → commenters worried identification requirements could become a universal internet license.
 
-## LLM perspective
-- View: Treat “highly-optimized engagement feeds for minors” as the regulated category, not “social media” broadly, to avoid overreach and loopholes.
-- Impact: Strong rules would force product redesigns, shrink youth-targeted ad markets, and create clearer data for researchers and regulators.
-- Watch next: Hard outcome data from Australia—time-use shifts, mental-health indicators, and whether kids simply move to unregulated or encrypted channels.
+### LLM perspective
+
+- View: Finland is considering, not enacting, a ban; policy design must separate communication from engagement-maximizing products.
+- Impact: Shifting compliance to platforms could aid parents, but weak definitions may displace children toward less controlled services.
+- Watch next: Scope, age-assurance method, privacy safeguards, enforcement evidence from Australia, and independent measures of youth outcomes.

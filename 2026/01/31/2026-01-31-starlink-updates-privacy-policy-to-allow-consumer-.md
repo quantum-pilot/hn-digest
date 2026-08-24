@@ -2,19 +2,17 @@
 
 - Score: 113 | [HN](https://news.ycombinator.com/item?id=46833847) | Link: https://finance.yahoo.com/news/musks-starlink-updates-privacy-policy-230853500.html
 
-## TL;DR
-Starlink’s updated privacy policy reportedly allows using consumer data to train models (likely for network optimization and/or AI such as Grok), sparking concern on Hacker News. Commenters debate what Starlink can actually see and log: connection diagnostics vs. full traffic, and whether policy wording redefines “sharing” to enable broader use. Many say they’d route all Starlink traffic through WireGuard/VPNs, though others note VPNs just shift trust to another provider and may face blocking, especially from residential-exit–sensitive sites.
+### TL;DR
 
----
+Reuters says Starlink added opt-out language allowing customer data to train AI models and be shared with service providers and unspecified third-party collaborators. The January 15 policy does not say which collected categories would be used; listed information spans location, payment and contact details, IP addresses, communications, audio and visual material, shared files and inferred attributes. The prior November version lacked the training clause, and SpaceX did not comment. HN readers considered VPN tunneling but questioned what traffic Starlink actually collects and whether shifting trust to another provider helps.
 
-## Comment pulse
-- Use WireGuard for all Starlink traffic → hides activity from Starlink, cheap hardware like GL.iNet makes this easy — counterpoint: you’re just trusting another ISP/VPN.  
-- Confusion over data scope → policy stresses diagnostic metrics, but language about “not sharing” vs. “not considered sharing” raises suspicion about training on user traffic.  
-- Policy change seen as another push toward VPNs → users expect more VPN adoption; some already question Starlink’s appeal versus fiber/5G even without new privacy worries.  
+### Comment pulse
 
----
+- VPN advocates would tunnel Starlink traffic through WireGuard; skeptics noted this merely transfers visibility and may trigger blocks on nonresidential addresses.
+- Readers parsed the policy’s Internet-carriage disclaimer differently, leaving uncertainty over content collection versus diagnostic connection metadata.
 
-## LLM perspective
-- View: Assume Starlink can log metadata; treat payloads as visible unless end-to-end encrypted or tunneled.  
-- Impact: Rural and mobile users reliant on Starlink bear disproportionate privacy risks with fewer alternative ISPs.  
-- Watch next: Look for clarified policy language, opt-out mechanisms, and any regulatory or class-action responses to AI training on network data.
+### LLM perspective
+
+- View: The central risk is broad future permission combined with undefined training data, not proof that Grok reads traffic today.
+- Impact: Subscribers must opt out or accept uncertain reuse, while VPNs cannot conceal account, billing or terminal metadata.
+- Watch next: Precise data-category disclosures, collaborator identities, opt-out usability, retention rules and any merger-driven policy expansion.

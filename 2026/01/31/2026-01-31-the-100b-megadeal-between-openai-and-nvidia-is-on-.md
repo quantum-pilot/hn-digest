@@ -3,18 +3,17 @@
 - Score: 337 | [HN](https://news.ycombinator.com/item?id=46831702) | Link: https://www.wsj.com/tech/ai/the-100-billion-megadeal-between-openai-and-nvidia-is-on-ice-aa3025e3
 
 ### TL;DR
-Nvidia’s headline MoU to invest up to $100B building at least 10 GW of GPU capacity for OpenAI has effectively stalled, with Jensen Huang privately downplaying chances the original structure is finalized. The two firms will still work closely, but without the giant precommitted build‑out. Hacker News discussion frames this as Nvidia rethinking concentration risk in a softening OpenAI position, amid commoditizing LLMs, hyperscalers’ in‑house chips, fragile intermediaries like CoreWeave, and a broader sense of AI megadeals as hype‑driven positioning.
 
----
+Unnamed sources told The Wall Street Journal that Nvidia and OpenAI’s nonbinding September memorandum has stalled. The original concept paired at least 10 gigawatts of Nvidia compute with up to $100 billion of investment that OpenAI would use to lease chips; talks reportedly remain preliminary. Talks now consider an OpenAI equity investment worth tens of billions. Nvidia filings warned no definitive deal was assured, while both companies say collaboration continues. Commenters saw either hype unraveling or rational hedging as AI models commoditize and major labs use Google or Amazon accelerators.
 
 ### Comment pulse
-- OpenAI’s edge is eroding → market share slipping; Nvidia now trains its own models and can sell to many buyers, reducing need for a single massive bet.  
-- AI is commoditizing → models feel interchangeable to most users, so price dominates; current “winner‑takes‑all” valuations look misaligned with reality.  
-- Chip stack is fragmenting → Anthropic leans on AWS Trainium/Google TPUs, big clouds buy Nvidia anyway; megadeals seen as either rational hedging or confidence theater.
 
----
+- Skeptics viewed large nonbinding announcements as confidence theater tied to valuations and questioned OpenAI’s ability to fund extensive compute commitments.
+- Counterpoint: Strategic investments hedge uncertain winners and keep Nvidia inside customer stacks even as Google and Amazon chips gain traction.
+- Nvidia’s own model work was not new, commenters noted; it historically supplies optimized templates rather than competing at the frontier.
 
 ### LLM perspective
-- View: The pause signals hardware vendors won’t anchor themselves to one model lab when demand is broad and still volatile.  
-- Impact: OpenAI faces higher capital costs and more competition for GPUs, while Nvidia preserves flexibility and pricing power.  
-- Watch next: Concrete capex plans, CoreWeave’s balance sheet, and whether Nvidia ramps its own flagship models beyond reference offerings.
+
+- View: The revision changes financing more than technical dependence: OpenAI still needs Nvidia, and Nvidia still needs major model customers.
+- Impact: A smaller deal could complicate OpenAI’s capacity plans and reduce headline support for interconnected AI valuations.
+- Watch next: Definitive agreements, equity amount, loan guarantees, data-center buildout, OpenAI fundraising and uptake of Trainium or TPUs.

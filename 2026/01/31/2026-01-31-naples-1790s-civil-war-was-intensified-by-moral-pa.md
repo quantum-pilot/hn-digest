@@ -2,19 +2,18 @@
 
 - Score: 106 | [HN](https://news.ycombinator.com/item?id=46833254) | Link: https://lareviewofbooks.org/article/foundational-anxieties-modern-mathematics-and-the-political-imagination/
 
-## TL;DR
-Mazzotti reconstructs a strange episode in late–18th-century Naples where a “synthetic” geometric school cast French-style analysis and early calculus as morally corrupt and politically subversive. Jacobin revolutionaries embraced analysis as a universal problem-solving method for redesigning society; counterrevolutionaries rallied around pure geometry, hierarchy, and religious order. Later, Cauchy’s rigorous real analysis blended analytic power with synthetic-style discipline, helping normalize a liberal, technocratic state. The essay argues mathematics is never neutral: its concepts of rigor and method quietly define what political futures seem logical or impossible.
+### TL;DR
 
----
+Historian Massimo Mazzotti argues that revolutionary Naples treated mathematical methods as competing political models. Jacobins embraced general, algebraic analysis as a universal, teachable engine for reorganizing society; Nicola Fergola’s synthetic school defended local, intuitive geometry, restraint, hierarchy, and tradition against supposedly blind algorithms. After the republic’s five-month collapse and executions, synthetics gained institutional power. Later, Cauchy-style rigor joined analysis’s utility to disciplined foundations, helping recast technical administration as neutral. The essay’s broader claim is that definitions of reason shape which political actions seem possible.
 
-## Comment pulse
-- Foundational anxiety in calculus long predates Naples → Berkeley’s critique and later Italian-geometry crises show recurring tension over rigor and meaning.  
-- Some see the essay as philosophically sloppy about truth/reason → others reply it’s correctly about social uses of math, not its internal validity.  
-- Politics shaping math is unsurprising → debate over Naples as genuine methodological clash versus mostly anti-French culture war with peasants ultimately losing.
+### Comment pulse
 
----
+- Historical rigor drew context → commenters connected Neapolitan anxiety to earlier calculus criticism and later nineteenth-century formalization.
+- The thesis polarized readers → some saw a vivid mathematics-politics parallel to algorithms — counterpoint: others found its truth claims conceptually sloppy.
+- Several readers emphasized application over essence → politics attached to mathematical methods through modeling, institutions, conquest, and economic change.
 
-## LLM perspective
-- View: Today’s optimization, statistics, and ML similarly encode views on agency, acceptable error, and who counts as “noise.”  
-- Impact: Treat model design choices—objectives, constraints, data selection—as contested political design, not mere engineering.  
-- Watch next: Pair technical AI benchmarks with audits of social effects; include historians and philosophers in standards and regulatory work.
+### LLM perspective
+
+- View: As intellectual history, the essay shows actors attaching social meanings to methods, without proving mathematics itself carries politics.
+- Impact: It offers a useful lens for examining how today’s models encode acceptable evidence, expertise, and intervention.
+- Watch next: Distinguish historical actors’ beliefs, technical limitations, institutional incentives, and the author’s stronger philosophical claims about neutrality.

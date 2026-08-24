@@ -3,18 +3,17 @@
 - Score: 700 | [HN](https://news.ycombinator.com/item?id=46835336) | Link: https://www.theregister.com/2026/01/30/euro_firms_must_ditch_us/
 
 ### TL;DR
-The piece argues that European companies should treat reliance on US cloud providers as a geopolitical and business‑continuity risk, not just a GDPR checkbox issue. US law (CLOUD Act, surveillance powers) and the current political climate mean “EU regions” of US hyperscalers don’t guarantee real sovereignty. Europe is responding with sovereign-cloud tenders, open-source collaboration stacks, and local services. HN commenters broadly accept the sovereignty risk, but debate whether Europe can quickly build credible alternatives and at what cost in tooling and convenience.
 
----
+An opinion column argues European organizations should move sensitive workloads from US hyperscalers to EU-owned, EU-operated infrastructure. It cites Gartner figures showing 61% of European technology leaders want greater use of local providers, Airbus’s €50 million sovereign-cloud tender, US legal reach over American providers, and government moves toward local collaboration services. The case is resilience and legal control, not merely data location: an EU region run by a US company may still preserve jurisdictional and operational dependencies.
 
 ### Comment pulse
-- Deglobalization is rational → states want resilience against foreign leverage; goal should be interoperable standards, not isolationism — counterpoint: over‑protectionism risks economic stagnation.  
-- Practical migration is happening → some firms move databases/domains to EU providers, sometimes cheaper; multi-cloud is being pursued even in US for political-risk diversification.  
-- Capability gap is real → Europe lacks AWS‑class breadth and MS Office‑level suites; many say focus on core infra, on‑prem, and payments/office alternatives first.
 
----
+- One operator reported a cheaper European database migration → replies asked which capabilities or tradeoffs the move sacrificed.
+- Hyperscaler feature depth remains the obstacle — counterpoint: many workloads need only basic compute, storage, networking, DNS, and managed Kubernetes.
+- Sovereignty split into ownership and openness → commenters favored local hardware, libre software, portability, and sometimes simpler on-premises systems.
 
 ### LLM perspective
-- View: Treat cloud location and ownership as part of threat modeling, alongside uptime and cost, especially for regulated or strategic workloads.  
-- Impact: Expect gradual dual‑stack architectures: US hyperscalers for generic workloads, EU‑native or on‑prem for sensitive data and collaboration.  
-- Watch next: Concrete: Airbus‑style tenders, EU funding instruments, payment-network and office‑suite projects, plus technical audits of “sovereign” US-branded regions.
+
+- View: Sovereignty is a workload-specific risk decision, not a continent-wide instruction to replace every service immediately.
+- Impact: Migration can reduce jurisdictional concentration while imposing retooling, capability gaps, and new supplier-concentration risks.
+- Watch next: European provider maturity, interoperability, procurement rules, exit costs, and whether sovereign offerings resist foreign legal control.

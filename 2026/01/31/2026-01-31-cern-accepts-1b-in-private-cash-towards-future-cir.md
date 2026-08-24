@@ -3,18 +3,17 @@
 - Score: 129 | [HN](https://news.ycombinator.com/item?id=46835124) | Link: https://physicsworld.com/a/cern-accepts-1bn-in-private-cash-towards-future-circular-collider/
 
 ### TL;DR
-CERN has secured its first major private funding: a $1 billion pledge from several philanthropists toward the $18 billion Future Circular Collider (FCC), a 91 km successor to the LHC. The plan is a Higgs-focused electron–positron collider (FCC‑ee) operating ~2047–2060, then an 85 TeV proton collider (FCC‑hh) from ~2073. China’s rival CEPC is effectively paused, easing FCC politics but shrinking global participation for now. HN discussion centers on the long-term value of fundamental physics versus nearer-term accelerator alternatives and funding worries.
 
----
+CERN says private donors pledged $1 billion toward the proposed Future Circular Collider, a first for a major project in the laboratory’s 72-year history. The roughly 90.7-kilometer tunnel would initially host an electron–positron machine targeting one million Higgs particles, then potentially an 85-TeV proton collider. FCC-ee is estimated at about $18 billion; member states would provide at least two-thirds, and approval remains pending. A 2028 green light would put construction in 2030 and operations around 2047.
 
 ### Comment pulse
-- Fundamental science is worth it → even if no immediate “discovery” applications, enabling tech (web, imaging, accelerators) and theory (like number theory → cryptography) historically pay off.  
-- FCC vs alternatives → some prefer muon or wakefield accelerators as more compact, potentially higher energy, arguing money might better advance these newer technologies.  
-- “Black hole for funding” → critics see runaway cost; others say high-risk, uncertain payoff is inherent to frontier research—counterpoint: opportunity cost vs other science or social needs.
 
----
+- Practical value dominated → supporters separated near-term enabling technologies from discoveries whose applications may emerge only decades later.
+- Machine design drew alternatives → one commenter preferred a compact muon collider; another argued for investing in wakefield acceleration.
+- Funding skeptics called colliders money sinks — counterpoint: research is inherently uncertain, and failure helps expose what remains unknown.
 
 ### LLM perspective
-- View: The big shift is private capital entering flagship basic physics, raising questions about agenda-setting and long-term funding stability.  
-- Impact: European particle physics gains a lead over China’s paused CEPC; smaller nations may join via in‑kind industrial contributions.  
-- Watch next: 2026–2028 CERN Council decisions, comparative studies of muon/wakefield options, and concrete industrial spinoffs from HL‑LHC magnet and accelerator R&D.
+
+- View: The pledge materially narrows a funding gap, but does not settle scientific priority, public cost, or approval.
+- Impact: A successful FCC-ee could measure Higgs properties far more precisely before the tunnel hosts higher-energy proton collisions.
+- Watch next: CERN Council’s 2028 decision, the remaining financing plan, China’s collider strategy, and credible accelerator alternatives.

@@ -3,18 +3,17 @@
 - Score: 375 | [HN](https://news.ycombinator.com/item?id=46838597) | Link: https://an.dywa.ng/carrier-gnss.html
 
 ### TL;DR
-Mobile networks don’t just infer your location from cell towers; they can directly query your phone for its GNSS (GPS/GLONASS/Galileo/BeiDou) coordinates via control‑plane protocols (RRLP in 2G/3G, LPP in 4G/5G). This gives law enforcement and intelligence agencies map‑level precision, often without a warrant and largely invisible to users. Apple’s iOS 26.3 adds an option (on a few new devices/carriers) to limit “precise location” to networks. The article argues users should be able to block and see all such GNSS requests.
 
----
+The author argues that cellular location extends beyond tower-derived estimates: 2G/3G RRLP and 4G/5G LPP can ask a handset to return its own GNSS coordinates through control-plane signaling that users rarely see. Historical cases are cited as evidence that carriers or authorities have obtained precise phone coordinates, but the author explicitly does not know whether those protocols were the mechanisms used. Apple’s iOS 26.3 feature limits precise location sharing on supported in-house-modem devices; the author wants users to control GNSS responses and be notified of requests.
 
 ### Comment pulse
-- Accountability over secrecy → Users should disable data sharing, get notified of any bypass, and have legal recourse; punish misuse like fire hazards—counterpoint: better to drown surveillance systems in synthetic data noise.
-- Alternative networks → LoRa/Reticulum mesh systems promise peer‑to‑peer, low‑infrastructure messaging, but suffer from limited real‑world range, radio overload risk, and awkward encryption/key models.
-- Emergency tradeoffs → EU/US use different “hidden SMS” GPS pings for 112/911; Apple’s new toggle is device- and carrier-limited, raising concern about degrading emergency location.
 
----
+- Accountability dominated → commenters wanted opt-outs, notifications, legal recourse, and penalties when agencies or companies bypass user choices.
+- Emergency tradeoffs surfaced — counterpoint: disabling precise responses may protect privacy but could impair location during crash detection or emergency calls.
+- Alternative meshes drew interest → users debated LoRa range, routing, encryption placement, congestion, and radiolocation risk.
 
 ### LLM perspective
-- View: Control‑plane location APIs make “location off” misleading; OS vendors need to mediate modem behavior and surface every external location query.
-- Impact: Carriers, handset makers, and data brokers face pressure for transparency; privacy‑sensitive users may shift to niche networks or supplement with off‑grid tools.
-- Watch next: Independent modem audits, standardized user-visible prompts for network location pings, and regulation narrowing data brokerage and warrantless government purchases.
+
+- View: The article describes a protocol capability while carefully withholding certainty about which systems specific authorities actually used.
+- Impact: Invisible handset-assisted positioning complicates assumptions that disabling app permissions prevents carriers from obtaining precise coordinates.
+- Watch next: Device and carrier support, emergency exceptions, user-visible logs, remote-request controls, retention policy, and independent protocol testing.

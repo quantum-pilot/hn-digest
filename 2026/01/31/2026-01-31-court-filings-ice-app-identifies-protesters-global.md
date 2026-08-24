@@ -3,18 +3,17 @@
 - Score: 206 | [HN](https://news.ycombinator.com/item?id=46832751) | Link: https://viewfromthewing.com/court-filings-ice-uses-mobile-fortify-to-identify-protesters-global-entry-and-precheck-get-revoked/
 
 ### TL;DR
-Court filings describe ICE agents using a smartphone biometric app (“Mobile Fortify”) plus other surveillance tools to identify people documenting or protesting immigration raids, then revoking some targets’ Global Entry/TSA PreCheck. Because DHS both runs the surveillance and controls these “trusted traveler” programs, mere investigation or alleged “interference” can justify revocation, even though protest itself isn’t disqualifying. The author argues this creates a chilling effect on dissent. HN discussion focuses on constitutional issues, biometric risk, and creeping “domestic terrorism” labeling.
 
----
+An article says ICE’s Mobile Fortify app can match faces and contactless fingerprints to names and biographical records, alongside other protest-monitoring tools. Its central example is an allegation in a plaintiff’s court filing: an agent identified Nicole Cleland by name while she observed ICE activity, warned her about “impeding,” and her Global Entry and TSA PreCheck were revoked three days later. The filing establishes that she made the claim, not that a court verified causation; appeals and some judicial review remain available.
 
 ### Comment pulse
-- Retaliatory surveillance → Using protest attendance to yank travel benefits is seen as First Amendment retaliation, hard to prove in court but clearly chilling—counterpoint: government will frame it as “interference” investigations.  
-- Biometrics as permanent weapon → Once your face, fingerprints, iris, DNA are in shared databases, you can’t revoke them; misuse, fabrication, and silent blacklisting become lifelong threats.  
-- From dissent to “terrorism” → Broad “domestic terrorism” definitions (e.g., anti-capitalism, migration activism) risk branding protesters as extremists, destabilizing democracy and long-term economic and social stability.
 
----
+- Biometric permanence alarmed commenters → identifiers cannot be reset after misuse, leakage, or cross-database sharing.
+- Revocation looked like retaliation for protected observation — counterpoint: others argued interference can justify investigation and loss of discretionary travel privileges.
+- Evidence quality mattered → commenters stressed that a plaintiff’s filing proves an allegation was submitted, not that its causal account is established.
 
 ### LLM perspective
-- View: Biometric convenience systems and law-enforcement tooling are converging; “optional” programs become leverage points against disfavored groups.  
-- Impact: Frequent travelers, journalists, and activists face new risks; trust in government-run identity programs and borders tech will erode.  
-- Watch next: Lawsuits over specific revocations, congressional oversight of Mobile Fortify, and whether vendors or agencies adopt strict retention and use limits.
+
+- View: The consequential issue is not identification alone, but opaque linkage between surveillance, investigation, and administrative punishment.
+- Impact: Even isolated revocations can chill lawful observation when criteria, evidence, and appeal paths are difficult to see.
+- Watch next: Court findings, DHS explanations, revocation volumes, audit trails, retention rules, and whether protected activity is separated from obstruction.

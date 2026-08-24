@@ -3,18 +3,17 @@
 - Score: 127 | [HN](https://news.ycombinator.com/item?id=46841374) | Link: https://nmn.sh/blog/2023-10-02-swift-is-the-more-convenient-rust
 
 ### TL;DR
-The article argues Swift and Rust share core ideas—value semantics, enums with pattern matching, option types, error handling without exceptions, LLVM backends—but differ in defaults and positioning: Rust is “bottom‑up” systems-first and fast by default, while Swift is “top‑down,” hiding similar concepts behind familiar C-style syntax and prioritizing convenience, especially for app/UI work. HN commenters broadly accept the high-level comparison but point out factual errors, weak cross‑platform reality, and significantly worse tooling and ergonomics versus Rust today.
 
----
+The author portrays Swift and Rust as similar LLVM languages with enums, pattern matching, generics, native or WASM targets and memory safety without tracing garbage collection. The distinction is defaults: Rust exposes ownership and borrowing first, adding reference-counted conveniences, while Swift favors familiar syntax, automatic reference counting and copy-on-write values, with lower-level ownership available. Swift is presented as easier for applications and increasingly cross-platform. Commenters challenged factual examples and convenience, citing an unnecessary Rust Box, older ownership precedents, performance cliffs, leaks, Xcode/SPM friction and a weaker non-Apple ecosystem.
 
 ### Comment pulse
-- Swift ergonomics/tooling lag Rust → Xcode/SwiftPM scaling issues, slow type inference, performance cliffs, weaker lints/macros; Cargo and Rust tooling feel more reliable — counterpoint: some find Xcode excellent overall.  
-- Several technical claims are wrong → Rust didn’t “invent” ownership; example with `Box` in recursive enums is unnecessary/incorrect, undermining trust in the comparison.  
-- Cross‑platform Swift is immature → ecosystem, docs, and DX remain Apple‑centric; Linux/Windows stories feel weak compared with Rust or Go.
 
----
+- Rust users corrected two claims: ownership predates Rust, whose innovation is static borrow checking; Vec already supplies recursive indirection without Box.
+- Swift practitioners cited type-inference stalls, module-wide recompilation, performance cliffs and ARC leaks as costs hidden behind convenient syntax.
+- Cross-platform support exists — counterpoint: Linux users described Apple-centric libraries, tooling and documentation as materially weaker than Rust’s ecosystem.
 
 ### LLM perspective
-- View: Treat Swift as a pragmatic, Apple-first high-level language that borrows Rust-ish safety, not a true Rust substitute.  
-- Impact: Systems, infra, and CLI work still favor Rust; Swift shines for Apple platforms and some shared UI/server code.  
-- Watch next: Swift on Android/embedded, SwiftPM and tooling on Linux/Windows, and Rust’s ergonomics improvements competing for “convenient but safe” territory.
+
+- View: Syntactic convenience and progressive disclosure lower entry cost, but do not eliminate memory, tooling or performance complexity.
+- Impact: Application developers may gain productivity; systems and non-Apple teams must verify runtime behavior and ecosystem coverage.
+- Watch next: Non-Apple package compatibility, build benchmarks, ownership adoption, compiler diagnostics and production memory profiles.

@@ -3,11 +3,11 @@
 - Score: 170 | [HN](https://news.ycombinator.com/item?id=46836487) | Link: https://www.theguardian.com/technology/2026/jan/31/us-authorities-reportedly-investigate-claims-that-meta-can-read-encrypted-whatsapp-messages
 
 ### TL;DR
-US regulators have reportedly examined whistleblower-based claims, filed in a new lawsuit, that Meta can read supposedly end-to-end encrypted WhatsApp messages. The suit is brought by Quinn Emanuel, which also represents NSO Group in a separate appeal, leading Meta to call the case a headline-grabbing stunt tied to spyware interests. Security experts quoted say the allegations are technically implausible and would be nearly impossible to keep secret. The HN thread mainly redirects readers to an earlier discussion with the original source.
 
----
+The Guardian summarizes a lawsuit and Bloomberg report alleging that Meta can access WhatsApp plaintext despite advertised end-to-end encryption. Unnamed whistleblowers support the suit; the filing firm also represents NSO Group in a separate appeal, prompting Meta to allege ulterior motives and seek sanctions. Meta calls the claim false, the Commerce Department calls reported assertions unsubstantiated, and skeptical experts say selective retrospective decryption would be mathematically implausible and difficult to conceal. They distinguish content secrecy from WhatsApp’s extensive metadata collection. The supplied HN comment only redirects readers elsewhere.
 
 ### LLM perspective
-- View: The core clash is less about crypto math and more about institutional trust and legal discovery of Meta’s internal practices.  
-- Impact: Even unproven, such claims can chill user confidence in WhatsApp and strengthen alternatives or regulatory scrutiny.  
-- Watch next: Any technical evidence, internal docs from discovery, or independent audits of WhatsApp’s encryption and key-management model.
+
+- View: The report presents serious but unverified claims; metadata collection should not be mistaken for demonstrated plaintext access.
+- Impact: Users must assess endpoint trust amid litigation, while unsupported allegations can also weaken confidence in genuine encryption.
+- Watch next: Named evidence, technical mechanism, Commerce clarification, court discovery and independent examination of production clients.
