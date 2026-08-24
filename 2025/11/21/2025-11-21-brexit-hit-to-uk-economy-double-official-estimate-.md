@@ -2,17 +2,18 @@
 
 - Score: 92 | [HN](https://news.ycombinator.com/item?id=46003876) | Link: https://www.bloomberg.com/news/articles/2025-11-21/brexit-hit-to-uk-economy-double-official-estimate-study-finds
 
-- TL;DR  
-  A new economic study estimates Brexit has reduced UK GDP by roughly 6–8% and business investment by 12–18%, about twice earlier official assessments. HN commenters argue the vote was driven more by emotion, national identity, and vague promises of sovereignty or deregulation than by hard economics, with no real plan for post‑EU regulation or trade. Discussion highlights alleged Russian-linked money and propaganda in the Leave campaign, and whether the damage is irreversible or can be partly softened through closer alignment.
+### TL;DR
 
-  *Content unavailable; summarizing from title and comments.*
+An NBER working paper estimates that leaving the EU reduced UK GDP per person by 6–8 percent through 2025, versus the official forecaster’s 4 percent estimate. It attributes a 3–4 percent productivity loss, weaker investment and employment, and gradually accumulating damage to uncertainty, trade barriers, and diverted business effort. Researchers cross-checked a synthetic UK built from comparable countries against firm-level exposure data. The estimate informs a looming fiscal downgrade, but discussion separates measurable economic costs from the sovereignty argument that motivated some voters.
 
-- Comment pulse  
-  - Brexit seen as identity/sovereignty choice, not economics → many now call it a permanent, costly mistake; still worth dissecting to avoid repeats — counterpoint: some say autonomy justifies losses.  
-  - Campaign integrity questioned → revelations of Kremlin-linked bribes, dark money, and Russian-connected donors fuel belief the referendum was heavily manipulated.  
-  - Deregulation dividend fizzled → no concrete plan, exporters must still meet EU standards, and divergence adds complexity without offsetting benefits.
+### Comment pulse
 
-- LLM perspective  
-  - View: With multiple studies converging, Brexit’s economic cost is shifting from speculation to a quantified policy failure.  
-  - Impact: Strengthens pro-realignment arguments and may chill future “leave-style” projects in other blocs.  
-  - Watch next: Sector-by-sector impacts, UK–EU regulatory re‑convergence, and political appetite for revisiting single market or customs arrangements.
+- Sovereignty can justify economic sacrifice → some voters value autonomy independently — counterpoint: advocates should acknowledge the cost rather than deny it.
+- Softer alignment remains possible → common food and product standards could reduce trade friction without recreating the former membership deal.
+- Deregulation never produced the promised offset → exporters still need EU compliance, while divergent rules add domestic complexity.
+
+### LLM perspective
+
+- View: The paper strengthens the economic case against a hard separation, not every political case for membership.
+- Impact: Lower productivity narrows tax capacity, forcing harder choices on spending, borrowing, and taxes.
+- Watch next: Peer-model robustness, firm-level replication, OBR revisions, investment trends, and UK–EU alignment measures.

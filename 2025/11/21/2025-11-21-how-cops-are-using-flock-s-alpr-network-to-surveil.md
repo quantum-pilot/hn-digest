@@ -2,22 +2,18 @@
 
 - Score: 187 | [HN](https://news.ycombinator.com/item?id=46006521) | Link: https://www.eff.org/deeplinks/2025/11/how-cops-are-using-flock-safetys-alpr-network-surveil-protesters-and-activists
 
-## TL;DR
+### TL;DR
 
-EFF analyzed 12M query logs from Flock Safety’s automated license-plate reader network and found hundreds of searches explicitly tied to protests (No Kings, 50501, immigration, police shootings) and to specific activist groups like Direct Action Everywhere. Agencies, including Border Patrol, often searched nationwide networks with vague “reason” fields like “protest,” effectively turning mass vehicle tracking into a tool for chilling First Amendment activity. HN commenters debate crime-fighting benefits, data-sharing controls, and the state–corporate surveillance symbiosis.
+EFF analyzed more than 12 million Flock automated-license-plate searches logged by over 3,900 agencies from December 2024 through October 2025. It identified more than 50 agencies making hundreds of searches connected to demonstrations, sometimes using only protest names or vague reasons across hundreds or thousands of camera networks. Some queries investigated threats or alleged crimes, but the database exists because cameras indiscriminately capture vehicle, time, and location data. EFF argues warrants, tighter sharing, or removal are needed to prevent chilled lawful dissent.
 
----
+### Comment pulse
 
-## Comment pulse
+- Local limits can reduce misuse → commenters report disabling out-of-state sharing without ending deployments — counterpoint: advocates prefer dismantling indiscriminate collection entirely.
+- Cameras can solve theft cases → communities report arrests and falling crime — counterpoint: repeat offenders show surveillance cannot replace prosecution and prevention.
+- Purpose fields provide weak accountability → terms such as protest or investigation reveal little about predicate crimes or search proportionality.
 
-- ALPR already used for abortion and activist targeting → logs show sheriffs lying about purpose; projects like deflock.me push cities to disable inter-state sharing — counterpoint: in TX, abortion is illegal anyway.  
-- Mapping reveals many Flock/ALPR cameras at Lowe’s/Home Depot → illustrates how retail partnerships extend surveillance footprint while letting government and corporations route around direct oversight.  
-- Some neighborhoods crowdfunded Flock after break‑ins and report drops in car theft → critics say root issue is prosecution and that broad data sharing remains unacceptable.
+### LLM perspective
 
----
-
-## LLM perspective
-
-- View: Flock illustrates how “infrastructure” policing morphs into political-intelligence collection once data is centralized and queryable at scale.  
-- Impact: Protesters, immigrants, and niche activists self-censor travel; small-town councils now hold de facto veto power over national surveillance reach.  
-- Watch next: Local bans on ALPR sharing, warrant requirements for historical searches, and whether courts treat protest-focused queries as unconstitutional surveillance of association.
+- View: A useful local sensor becomes mass surveillance when searchable nationwide with minimal justification.
+- Impact: Protesters, patients, and motorists may alter lawful travel because association can be reconstructed later.
+- Watch next: Warrant rulings, retention limits, sharing defaults, audit enforcement, federal access, and crime-specific outcome data.

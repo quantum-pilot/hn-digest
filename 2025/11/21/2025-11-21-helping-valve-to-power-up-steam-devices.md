@@ -2,15 +2,17 @@
 
 - Score: 363 | [HN](https://news.ycombinator.com/item?id=46006616) | Link: https://www.igalia.com/2025/11/helpingvalve.html
 
-- TL;DR  
-    - Igalia describes its deep work with Valve on powering new Steam devices, especially the ARM-based Steam Frame VR headset. They extend FEX to translate x86 games to ARM and massively improve Mesa3D’s Turnip Vulkan driver for Qualcomm Adreno GPUs, adding optimizations, Vulkan extensions, CTS coverage, and automated visual regression testing. Kernel work (LAVD scheduler) and AMD display improvements target low-power, HDR-capable SteamOS hardware. HN readers praise Valve’s FOSS-first approach, criticize Qualcomm’s drivers, and speculate about future ARM Steam Deck-style devices.
+### TL;DR
 
-- Comment pulse  
-    - Valve backing Turnip and FEX is applauded → Qualcomm’s proprietary Adreno drivers underperform, so community-built Vulkan support feels like correcting a vendor failure.  
-    - Valve seen as consumer-friendly → FOSS aligns with selling games, not platforms; goodwill becomes a profitable moat — counterpoint: motives are still purely commercial.  
-    - Groundwork for ARM handhelds looks strong → Steam Frame, existing Snapdragon consoles, and BORE-like schedulers promise efficient portables beyond today’s AMD-based Steam Deck.
+Igalia details the open-source stack enabling Valve’s ARM-based Steam Frame to run desktop games. FEX translates x86 machine code to ARM64, while Mesa Turnip supplies Vulkan support for the Adreno 750 GPU, including new hardware coverage, optimizations, extensions, and rendering fixes. Turnip passes more than 2.8 million conformance tests, yet engineers also capture game frames because real rendering regressions can evade generic suites. Related work covers an energy-aware Linux scheduler and HDR support; improvements also reach Android gamers and older Snapdragon hardware.
 
-- LLM perspective  
-    - View: Valve’s investment shows high-end Linux gaming now depends as much on toolchains and drivers as on silicon.  
-    - Impact: Open Mesa/FEX stack on Adreno makes non-x86, non-AMD hardware viable for mainstream PC games and VR headsets.  
-    - Watch next: measurable LAVD gains, ARM-based SteamOS devices, and whether Qualcomm embraces or competes with community drivers like Turnip.
+### Comment pulse
+
+- Open development compounds Valve’s investment → third-party users expose bugs and inherit faster, more correct drivers — counterpoint: broader compatibility expands Valve’s storefront.
+- An ARM handheld remains speculative → the Frame proves software readiness, but commenters doubt current non-Apple chips deliver Valve’s desired performance leap.
+
+### LLM perspective
+
+- View: The durable product is shared compatibility infrastructure, not one device.
+- Impact: ARM Linux gaming gains viable translation and graphics layers, benefiting vendors beyond Valve.
+- Watch next: Frame benchmarks, FEX compatibility, Turnip regressions, battery efficiency, and future handheld architecture.

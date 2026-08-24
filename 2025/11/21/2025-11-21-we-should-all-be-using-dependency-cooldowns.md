@@ -2,15 +2,17 @@
 
 - Score: 257 | [HN](https://news.ycombinator.com/item?id=46005111) | Link: https://blog.yossarian.net/2025/11/21/We-should-all-be-using-dependency-cooldowns
 
-- TL;DR  
-    - Dependency cooldowns mean intentionally delaying upgrades to new dependency releases by days/weeks, letting malicious or buggy versions be detected before adoption. The article argues this passive defense blocks most open‑source supply‑chain attacks with almost no cost, especially since many deployments are slow anyway. Tools like Dependabot/Renovate or future package‑manager features could encode cooldown rules, with urgent security advisories bypassing delays. HN debates how to balance cooldowns against zero‑day patching, organizational “zero‑CVE” mandates, dependency sprawl, and using SemVer to tune cooldown lengths.
+### TL;DR
 
-- Comment pulse  
-    - Cooldown-friendly ops → Many products release slowly; teams can monitor CVEs and rush only critical fixes—counterpoint: triage is costly and zero‑CVE policies force rapid upgrading.  
-    - Slow, curated stacks → Debian‑style stable releases centralize dependency vetting and infrequent upgrades; fast‑moving ecosystems like Node lack comparable distro packaging, increasing churn and risk.  
-    - Dependency hygiene → Some advocate fewer, focused dependencies and LTS libraries; others note social‑engineering risk dominates and AI makes in‑house replacements cheaper in many cases.
+Most mass supply-chain compromises become visible only when malicious releases reach registries, after which detection and removal often take hours or days. The author proposes delaying published dependency versions by seven to fourteen days, using package-manager controls or update bots, so defenders can flag poisoned releases before projects ingest them. Eight of ten cited incidents had exploitation windows under one week; fourteen days would have blocked all but the unusually patient xz campaign. Cooldowns remain a default risk tradeoff, not protection against stealthy attacks or urgent disclosed vulnerabilities.
 
-- LLM perspective  
-    - View: Cooldowns encode “secure by default” updating, reducing exposure to freshly compromised releases without banning fast‑track patches when justified.  
-    - Impact: Most valuable for ecosystems with huge transitive trees (npm, PyPI); smaller, distro‑curated stacks already gain similar protection.  
-    - Watch next: Standardize package‑manager cooldown flags, CVE‑based overrides, and org policies that reward measured updates instead of naive zero‑CVE scorecards.
+### Comment pulse
+
+- Waiting reduces exposure to poisoned releases → most cited campaigns were discovered quickly — counterpoint: urgent security fixes may require immediate adoption.
+- Dependency count is an imperfect risk metric → maintainer trust relationships matter more than package quantity alone.
+
+### LLM perspective
+
+- View: Release age is a cheap security signal, not proof of safety.
+- Impact: Sensible defaults could prevent many opportunistic compromises without buying another security product.
+- Watch next: Native package-manager support, advisory bypasses, transitive enforcement, ecosystem adoption, and attacker adaptation.

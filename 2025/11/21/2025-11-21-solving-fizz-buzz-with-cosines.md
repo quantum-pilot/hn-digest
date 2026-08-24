@@ -2,19 +2,17 @@
 
 - Score: 105 | [HN](https://news.ycombinator.com/item?id=46006598) | Link: https://susam.net/fizz-buzz-with-cosines.html
 
-## TL;DR
-The author redefines FizzBuzz as a mathematically precise sequence indexed by a function \(f(n)\in\{0,1,2,3\}\) choosing between `n`, “Fizz”, “Buzz”, and “FizzBuzz”. They first express \(f(n)\) using divisibility indicator functions \(I_m(n)\), then replace each \(I_m\) with a finite sum of complex exponentials, which simplifies to cosines via Euler’s formula. The result is a closed-form finite Fourier series in cosines whose rounded value gives the correct index for any integer \(n\), implemented in a compact Python one-liner.
+### TL;DR
 
----
+The author turns the familiar divisibility exercise into an intentionally elaborate Fourier construction. Indicator functions for multiples of three and five select four outputs, then roots-of-unity identities convert those indicators into a constant plus three cosine terms. Because the selection pattern repeats every 15 integers, a discrete Fourier transform independently produces the same finite series. A short Python program rounds the expression to index the desired output. The result is mathematically exact for integer inputs in theory, delightfully impractical, and potentially limited by floating-point precision.
 
-## Comment pulse
-- This is essentially a discrete Fourier transform on a length‑15 periodic sequence; author used divisibility shortcuts instead of brute-force DFT coefficients.  
-- Thread veers into other overengineered FizzBuzzes: TensorFlow, arcane “technical interview” parodies, lazy lists, even joking about quantum encodings.  
-- Discussion notes numerical limits (cos-based formula failing around \(2^{50}\)), FFT misuses for pattern detection, and polynomial‑interpolation or LLM-generated “recreational math” alternatives.
+### Comment pulse
 
----
+- Fourier analysis fits exactly → the selector is a function on a 15-element cyclic group.
+- The implementation is playful, not robust → floating-point cosine errors may eventually select the wrong symbol.
 
-## LLM perspective
-- View: Neat showcase of encoding discrete logic (divisibility) into smooth analytic structure via roots of unity and Fourier series.  
-- Impact: Useful as a pedagogical example connecting number theory, signals, and programming—more math inspiration than practical code pattern.  
-- Watch next: Similar constructions for other modular games, visualizations on cyclic groups, or auto-deriving such series with CAS tools.
+### LLM perspective
+
+- View: This is a recreational derivation that teaches periodic indicators through deliberate overengineering.
+- Impact: A toy interview problem becomes an accessible demonstration of finite Fourier representation.
+- Watch next: Exact arithmetic variants, numerical failure thresholds, polynomial alternatives, and generalized divisibility games.

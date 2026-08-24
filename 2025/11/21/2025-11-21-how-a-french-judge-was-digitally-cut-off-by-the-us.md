@@ -4,20 +4,16 @@
 
 ### TL;DR
 
-Nicolas Guillou, a French judge at the International Criminal Court, was sanctioned by the US for supporting arrest warrants against Netanyahu and Gallant. Overnight he lost access to Amazon, Airbnb, PayPal, major booking sites and card networks, and even some non‑US bank accounts, illustrating how deeply European daily life runs through US tech and finance rails. He urges the EU to build genuine digital and banking sovereignty and to actually use its “blocking statute” that forbids enforcing such extraterritorial sanctions.
-
----
+The United States sanctioned International Criminal Court judge Nicolas Guillou in August over warrants involving Israeli leaders. He says US-linked providers closed Amazon, Airbnb, and PayPal accounts, canceled online bookings, blocked his access to card networks and dollar transactions, and prompted restrictions even at non-US banks. The episode illustrates how financial and technology concentration turns a government designation into broad digital exclusion outside American territory. Guillou urges Europe to invoke its 1996 blocking regulation, which could forbid EU firms from honoring the sanctions and create damages liability.
 
 ### Comment pulse
 
-- US overuses sanctions → long-term leverage erodes; targets invest in local chips, payments, resources—counterpoint: commenters argue EUV/chip controls still significantly hobble China.  
-- EU unlikely to enforce blocking statute against US → relies on American security and trade, previously dodged confrontation over Iran-related sanctions.  
-- EU digital-sovereignty rhetoric clashes with practice → free-trade ideals and US-corporate lobbying hinder protectionist steps like excluding foreign clouds or closed-source tech from critical infrastructure.  
-
----
+- Using platform dominance as leverage can erode it → coercion gives Europe incentives to build substitutes — counterpoint: replacing entrenched networks takes years.
+- Activating the EU blocking rule carries geopolitical costs → commenters expect caution because retaliation could affect transatlantic security and Ukraine.
+- Digital sovereignty requires procurement change → rhetoric cannot remove dependence on foreign clouds, payment rails, and closed products.
 
 ### LLM perspective
 
-- View: Guillou’s case is an unusually concrete demo of how extraterritorial sanctions plus US tech dominance can nullify an individual’s digital citizenship.  
-- Impact: If EU meaningfully enforces its blocking statute, multinational tech and finance firms may need region-specific compliance stacks or even corporate splits.  
-- Watch next: Track EU payments initiatives (EPI, domestic card schemes) and cloud projects; they’re the practical precondition for resisting US secondary sanctions.
+- View: Sanctions power now travels through private infrastructure far beyond formal US borders.
+- Impact: Judges, journalists, and other designees can lose ordinary commerce through automated provider compliance.
+- Watch next: EU blocking action, bank responses, European payment alternatives, court challenges, and service-restoration procedures.

@@ -2,19 +2,17 @@
 
 - Score: 140 | [HN](https://news.ycombinator.com/item?id=46000015) | Link: https://nurse.org/news/nursing-excluded-as-professional-degree-dept-of-ed/
 
-## TL;DR  
-The U.S. Department of Education’s new rules implementing Trump’s “One Big Beautiful Bill Act” redefine which graduate programs count as “professional” for enhanced federal loans. Medicine, law, pharmacy, dentistry, theology, chiropractic and others qualify, but nursing, nurse practitioner, physician assistant, and physical therapy programs do not. Advanced nursing students will lose access to higher borrowing limits and some forgiveness options, likely shrinking the NP/PA pipeline, worsening provider shortages, and symbolically downgrading nursing just as demand for care keeps rising.
+### TL;DR
 
----
+Under the Education Department’s new loan framework, graduate nursing programs fall outside the category receiving higher federal borrowing limits, alongside physician-assistant and physical-therapy programs. The change follows elimination of Grad PLUS and would take effect July 2026; qualifying professional students may borrow up to $50,000 annually. Nursing groups argue advanced-practice training meets professional standards and supports rural access, while reduced financing could deter lower-income candidates and worsen shortages. The disputed label changes aid eligibility, not whether nursing is skilled professional work.
 
-## Comment pulse  
-- Policy as physician-protectionism → Excluding NPs/PAs while capping residencies preserves MD/DO scarcity, worsening access and costs.  
-- Priorities skewed → Theology and chiropractic count as “professional,” but not advanced nursing or PT—seen as regressive and anti-scientific. — counterpoint: defenders cite historical “professions” of law, medicine, divinity.  
-- Broader attack on public-serving degrees → Using loan policy to disadvantage nurses and teachers accelerates shortages in essential but lower-paid fields.
+### Comment pulse
 
----
+- Reduced financing may constrain care access → advanced-practice nurses already handle primary care — counterpoint: training depth differs from physicians.
+- The category appears inconsistent → theology and chiropractic qualify while nursing and physical therapy do not.
 
-## LLM perspective  
-- View: This is a financial-structural way to restrict non-physician clinicians, not a neutral taxonomy tweak.  
-- Impact: Prospective NPs/PAs from lower-income backgrounds are hit hardest, deepening geographic and socioeconomic care gaps.  
-- Watch next: Whether major nursing bodies win a rule revision, and how states respond with scholarships or expanded NP scope.
+### LLM perspective
+
+- View: This is a financing classification with workforce consequences, not a judgment about bedside professionalism.
+- Impact: Lower loan ceilings may narrow advanced-practice pipelines, especially for students without private financing.
+- Watch next: Final rules, July 2026 implementation, enrollment shifts, lender substitution, and rural staffing.
