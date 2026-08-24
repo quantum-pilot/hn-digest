@@ -2,26 +2,18 @@
 
 - Score: 164 | [HN](https://news.ycombinator.com/item?id=46797594) | Link: https://www.dimamik.com/posts/oban_py/
 
-## TL;DR
+### TL;DR
 
-Oban.py is a Python port of the Elixir Oban job framework that uses PostgreSQL as both storage and coordination layer: jobs live in a table and are moved through states with `LISTEN/NOTIFY`, `FOR UPDATE SKIP LOCKED` for safe concurrent fetching, and `INSERT … ON CONFLICT` for leader election. The open-source version is asyncio-only and single-process; Oban Pro adds a process pool, bulk operations, smarter job rescue, workflows, and advanced concurrency, which sparked pricing and competitiveness debate on HN against existing Python job/worker tools.
+Oban’s Python port implements a PostgreSQL-backed job queue whose inserts can share application transactions, avoiding a separate broker. Nodes wake through LISTEN/NOTIFY, claim work with FOR UPDATE SKIP LOCKED, execute asyncio tasks, then acknowledge results; database leases also coordinate leader-only pruning and orphan rescue. The open-source version supports concurrent I/O work but not multicore execution, bulk operations, or liveness-aware rescue. Those features, plus workflows, uniqueness, and richer concurrency controls, sit in Pro, so long-running open-source jobs should be idempotent and carefully configured.
 
----
+### Comment pulse
 
-## Comment pulse
+- Transactional enqueueing was the standout benefit; commenters identified the outbox pattern and valued commit-or-rollback consistency.
+- The pricing split drew criticism because multiprocessing and workflows are free elsewhere — counterpoint: maintainers may migrate features as usage develops.
+- Skeptics questioned PostgreSQL throughput; one operator reported 20 million daily jobs on a modest VM, while another had benefited from Redis.
 
-- DB-backed queueing is praised for transactional guarantees → enqueue and domain writes in one commit; framed as the transactional outbox pattern — counterpoint: some warn about overloading Postgres.
+### LLM perspective
 
-- Revenue model questioned → putting multiprocessing, workflows, and unique jobs behind Pro feels steep in Python’s crowded ecosystem; maintainers note features may shift OSS over time.
-
-- Scalability and architecture debated → some doubt Postgres vs Redis/Sidekiq at very high volumes; others report tens of millions of daily jobs on modest Postgres, plus easy horizontal worker scaling.
-
----
-
-## LLM perspective
-
-- View: Oban.py fits teams already on Postgres wanting strong consistency and minimal extra infra, especially for I/O-bound, app-adjacent jobs.
-
-- Impact: Competes with Celery, RQ, Temporal-style systems; most attractive where DB-centered operations and Elixir–Python interoperability matter.
-
-- Watch next: Benchmarks vs Redis/Temporal, clearer guidance on volume limits, and whether Pro-only features (process pool, workflows) migrate into OSS.
+- View: The design makes PostgreSQL both durable store and coordinator, trading another dependency for tighter transactional semantics.
+- Impact: Python teams gain an approachable brokerless queue, but open-source limits narrow its fit for CPU-heavy or high-volume workloads.
+- Watch next: Benchmark evidence, edition changes, rescue correctness, process-pool economics, and adoption against mature Python competitors.

@@ -3,18 +3,17 @@
 - Score: 171 | [HN](https://news.ycombinator.com/item?id=46801419) | Link: https://www.macrumors.com/2026/01/28/patreon-apple-tax/
 
 ### TL;DR
-Apple is forcing the last Patreon creators on “legacy billing” to migrate to iOS in‑app purchases by November 1, 2026, classifying fan pledges as digital goods subject to its 30% (then 15%) cut. Creators must either hike iOS prices or take a pay cut, though patrons can still subscribe via Patreon’s website to avoid Apple’s commission. Discussion centers on App Store rent‑seeking, the power imbalance of mobile platforms, and routing payments outside native iOS apps.
 
----
+Apple moved Patreon’s deadline to November 1, 2026, for remaining legacy-billing creators to adopt App Store in-app purchases on iPhone and iPad. Apple charges 30% on qualifying purchases and subscriptions, falling to 15% after a subscription’s first year. Creators may raise iOS prices or absorb the fee; supporters can avoid it by paying on Patreon’s website. TechCrunch reported only 4% of creators still use legacy billing. HN commenters condemn the platform toll and question whether apps may direct users to web checkout.
 
 ### Comment pulse
-- Apple tax as monopoly abuse → comparisons to AT&T’s breakup and older antitrust actions, with pessimism that regulators now tolerate far more concentrated power.
-- Web-first workaround push → many advocate PWAs or in-app browser flows to handle subscriptions, accepting minor friction to escape platform-imposed tolls.
-- Storefront-fee defenders vs critics → a minority liken Apple to Walmart taking shelf rent—counterpoint: financial and messaging apps often escape equivalent platform charges.
 
----
+- Critics treat the commission as monopoly rent → they see digital-goods classification as extending Apple’s toll to creator support.
+- Web checkout is the practical escape → uncertainty remains over whether Patreon may clearly link or embed that path inside iOS.
+- Banking-app satire highlights inconsistent boundaries → commenters expect popular or financial services to remain exempt from comparable transaction fees.
 
 ### LLM perspective
-- View: This move entrenches Apple’s role as toll collector on creator economies that rely on native iOS distribution and discovery.
-- Impact: Smaller creators reliant on iOS audiences may earn less per pledge, nudging them toward web, Android, or multi-platform tooling.
-- Watch next: Watch DOJ/EU antitrust cases, any major apps removing iOS payments entirely, and whether Apple adds quiet exemptions for large partners.
+
+- View: The policy affects payment location, not Patreon access; friction and price differences will steer supporters toward the web.
+- Impact: Creators must choose lower margins, higher iOS prices, or checkout education that risks conversion losses.
+- Watch next: Patreon’s migration UX, Apple linking rules, creator price changes, subscriber churn, and regulatory challenges.

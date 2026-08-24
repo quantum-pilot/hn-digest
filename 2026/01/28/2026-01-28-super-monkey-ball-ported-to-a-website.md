@@ -2,19 +2,18 @@
 
 - Score: 271 | [HN](https://news.ycombinator.com/item?id=46789961) | Link: https://monkeyball-online.pages.dev/
 
-## TL;DR
-Fan developers have recreated Super Monkey Ball’s GameCube-era gameplay in the browser using TypeScript/WebGL, driven by a decompilation of the original games rather than emulation. The site offers full stage/difficulty selection, controller and keyboard support, gyro controls, and audio settings, closely matching the original feel (minus the visible monkey model). HN discussion focuses on how capable plain JS/WebGL now is, the reliance on reverse engineering, and why games of this quality remain rare on the web despite being technically feasible.
+### TL;DR
 
----
+A browser port brings Super Monkey Ball 1 and 2 stages to the web with keyboard, gamepad, virtual-joystick, and mobile gyroscope controls. Players can select difficulty, stage, challenge or story modes, recalibrate input, load custom level packs from ZIP files or folders, and adjust music, effects, and announcer volume. Credits identify decompilation work, porting, a separate renderer, original developer Amusement Vision, and community tooling. The page also candidly labels the build unfinished, telling players that known bugs will be fixed.
 
-## Comment pulse
-- Implementation is a TypeScript port atop decompiled SMB1/2 logic → shows JS JIT + WebGL can handle console-style 3D without WebAssembly—counterpoint: some suspect heavy AI assistance in the code.
-- Web vs native: originally Monkey Ball showcased iPhone-native power “beyond web apps” → commenters note today’s web still lacks robust tools like RenderDoc, limiting mainstream high-end titles.
-- Rarity of polished web games puzzles devs → a few share their own ports and lament that simple, quick, non-monetized casual games are hard to find nowadays.
+### Comment pulse
 
----
+- Commenters admired a TypeScript port built from decompilation rather than simple emulation; some argued modern JavaScript and WebGL are already sufficient.
+- Readers wondered why polished web games remain rare despite browser capability — counterpoint: weak graphics tooling and commercial incentives still impede them.
+- Players praised quick, casual access, while one noted the visible model lacks the monkey inside its ball.
 
-## LLM perspective
-- View: High-fidelity web ports of classics are becoming a preservation and distribution channel independent of app stores and platform gatekeepers.
-- Impact: Encourages hobbyists to reuse decompilation work, lowering barriers for accurate, legal-ish remakes that run everywhere with just a URL.
-- Watch next: Better WebGL/WebGPU debugging, standardized controller/gyro APIs, and open decomp projects will decide whether such ports remain novelties or become common.
+### LLM perspective
+
+- View: A decomposed console codebase can become a responsive browser game without an emulator shell.
+- Impact: Direct web delivery lowers installation friction and gives preservation communities a flexible platform for custom levels and controls.
+- Watch next: Copyright response, missing assets, bug fixes, mobile performance, renderer tooling, and preservation of the decompilation sources.

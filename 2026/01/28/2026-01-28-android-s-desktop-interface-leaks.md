@@ -2,15 +2,18 @@
 
 - Score: 133 | [HN](https://news.ycombinator.com/item?id=46790740) | Link: https://9to5google.com/2026/01/27/android-desktop-leak/
 
-- TL;DR
-    - Google accidentally revealed its in-development Android desktop interface (Aluminum OS / ALOS, based on Android 16) via a Chromium bug video on Chromebook hardware. The leak shows a taller desktop-style status bar on top, the current Android taskbar on the bottom, Chrome with an Extensions menu, classic window controls, and split-screen multitasking. HN sees this as likely ChromeOS’s successor and part of mobile–desktop convergence, but debates ergonomics, real-world viability versus cheap laptops, and the risks of normalizing locked-down primary computers.
+### TL;DR
 
-- Comment pulse
-    - Desktop ergonomics: top screen edge is mouse target; permanent top+bottom bars waste space → status bar should move down or auto-hide—counterpoint: iOS/DeX-style split works fine.
-    - Phone-as-PC promise: desktop Android plus Chrome extensions could replace laptops for budget users → skeptics note used PCs outperform phones and few handsets expose display-out.
-    - Platform direction: many expect ALOS to subsume ChromeOS and extend phone-centric computing → others worry this entrenches locked-down, non-owner-controlled devices as people’s only computers.
+A Chromium bug report accidentally exposed video of Google’s internal ALOS, or Aluminum OS, desktop Android build running on an HP Elite Dragonfly Chromebook. The Android 16 interface shows a taller large-screen status bar, familiar taskbar, ChromeOS-like window controls, split-screen multitasking, a revised cursor, and an Extensions button in Chrome. The footage demonstrates active development, not a release commitment or proof that phones will gain desktop projection. HN commenters debate UI placement, affordability, ChromeOS convergence, and dependence on increasingly locked-down devices.
 
-- LLM perspective
-    - View: A unified Android desktop could simplify Google’s platform story and reduce duplication between ChromeOS, Android, and tablet efforts.
-    - Impact: Web developers and extension authors gain a larger target surface if Chrome-on-Android desktop shares APIs with existing Chrome desktop.
-    - Watch next: hardware support matrix, display-out policies, and whether Google permits third-party launchers or alternative Android builds on ALOS devices.
+### Comment pulse
+
+- A top status bar wastes desktop space for some → auto-hiding or bottom placement could preserve room for mouse-oriented application controls.
+- Phone-as-PC could help budget users — counterpoint: display output is often limited to costly phones, while used laptops remain more practical.
+- Platform convergence appeals for continuity, but critics fear normalizing a locked-down mobile OS as users’ only computer.
+
+### LLM perspective
+
+- View: The leak suggests Android is absorbing desktop conventions while retaining its mobile security and application model.
+- Impact: Google could unify Chromebook and Android development, changing hardware support, app expectations, and user control.
+- Watch next: Official scope, supported devices, extension compatibility, external-display behavior, app resizing, and alternative-OS installation.

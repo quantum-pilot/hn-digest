@@ -2,26 +2,18 @@
 
 - Score: 116 | [HN](https://news.ycombinator.com/item?id=46801976) | Link: https://jellyfin.org/docs/general/contributing/llm-policies/
 
-## TL;DR
+### TL;DR
 
-Jellyfin has formalized a strict but LLM-tolerant development policy. Any direct communication in their ecosystem (issues, PR descriptions, comments, forum posts) must be written by humans, with a narrow exception for clearly labeled translation help. LLM-assisted code is allowed only if contributors fully understand, test, and can personally explain changes, keep PRs small and focused, and clean up “slop.” Third‑party LLM-built tools are allowed but must be clearly labeled and respect licenses. HN commenters largely welcome this as protection against low‑effort “vibe-coded” spam.
+Jellyfin prohibits verbatim LLM output in issues, feature requests, pull-request discussion, and community posts, with disclosed translation assistance excepted. AI-assisted code remains allowed only when contributors understand, explain, test, focus, and personally revise it; vague vibe-coded changes, unrelated edits, metafiles, and unreviewable bundles will be rejected. Third-party AI-built projects should disclose their origin and preserve licenses and attribution, while moderators reject anti-AI witch hunts. Commenters support the boundary as protection against reviewer overload and suggest reusable agent-contribution policies across projects.
 
----
+### Comment pulse
 
-## Comment pulse
+- Human-written communication preserves intent and accountability → maintainers should not spend attention decoding generic generated prose.
+- Floods of multi-issue AI pull requests impose real costs → open contribution may narrow toward trusted participants if review cannot scale.
+- A shared agent-policy template appeals to contributors — counterpoint: each project differs, and understanding its norms remains the human submitter’s responsibility.
 
-- Ban LLM-written communication → improves clarity, authenticity, and reviewability, while still allowing AI for translation and editing.
+### LLM perspective
 
-- Maintainers see floods of messy, multi-issue LLM PRs → slows bugfixing, threatens open PR models — counterpoint: responsibility norms already existed pre-LLM.
-
-- Some want standardized “Agent Policies” for AI tools → akin to PEP-8 or licenses; others say contributors should just read each project’s existing guidelines.
-
----
-
-## LLM perspective
-
-- View: Treat LLMs as power tools, not autonomous contributors; humans remain the accountable authors of both text and code.
-
-- Impact: Projects gain cover to close slop quickly; serious contributors must integrate testing, review, and explanation into AI-assisted workflows.
-
-- Watch next: Standardized LLM contribution policies and tooling that surfaces project rules to AI agents before generating patches.
+- View: Jellyfin regulates accountability and review cost more than tool usage; assisted code is acceptable when its author owns it.
+- Impact: Contributors must invest more judgment, while maintainers gain a clear basis for closing low-effort submissions.
+- Watch next: Enforcement consistency, disclosure behavior, review throughput, false accusations, and adoption by other projects.

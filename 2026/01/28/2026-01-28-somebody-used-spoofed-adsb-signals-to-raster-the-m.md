@@ -2,19 +2,18 @@
 
 - Score: 225 | [HN](https://news.ycombinator.com/item?id=46802067) | Link: https://alecmuffett.com/article/143548
 
-## TL;DR
-Someone drew a JD Vance meme “flight path” over Mar‑a‑Lago by feeding fake ADS‑B data into ADS‑B Exchange, using an ICAO identity associated with Air Force Two and the callsign VANCE1. This wasn’t radio-layer spoofing: no real aircraft or air-traffic systems were affected, and the bogus track appears only on that one crowd-sourced site. HN discussion focuses on how easy internet-side spoofing is, why RF spoofing would be far more serious legally, and what this means for trusting public flight trackers.
+### TL;DR
 
----
+A novelty trace on ADS-B Exchange depicted a JD Vance meme over Mar-a-Lago while claiming Air Force One’s ICAO identity and the call sign VANCE1. Although the post described spoofed ADS-B signals, commenters found the track absent from several other aggregators and concluded that no false radio transmission likely occurred. The more plausible explanation is a feeder injecting fabricated coordinates into one website’s data stream. That distinction matters: corrupted crowdsourced display data can mislead viewers without directly reaching aircraft receivers or air-traffic-control systems.
 
-## Comment pulse
-- Not RF spoofing → A fake feeder sent data only to ADS‑B Exchange; other aggregators show nothing, so no real transponder was impersonated.
-- Novelty is the raster art → Prior spoofing was crude shapes or text; this demonstrates more sophisticated image-style tracks—counterpoint: still just a cosmetic prank on one site.
-- Legal risk remains → FCC/FAA treat RF fakery harshly; even data-level hoaxes near airports could prompt tighter anti-spoofing and liability for feeder operators.
+### Comment pulse
 
----
+- Multiple commenters distinguished RF spoofing from uploading fabricated data to one aggregator; the trace was absent from competing services.
+- Actual broadcasts near Florida should reach multiple receivers, making a lone-site raster trace especially suspicious.
+- Participants expected the contributing feeder to be identifiable and noted regulators would treat real radio interference far more seriously.
 
-## LLM perspective
-- View: Public flight-tracking data is easy to pollute at the aggregation layer, undermining casual users’ trust in “open skies” maps.  
-- Impact: ADS‑B aggregators, OSINT researchers, and journalists depending on these feeds may need provenance checks, cross-site validation, and anomaly detection.  
-- Watch next: Whether major sites add feeder attestation, cross-network consistency checks, and publish clearer policies or sanctions for intentional data fakery.
+### LLM perspective
+
+- View: This was probably an integrity failure in a crowdsourced feed, not an aviation-spectrum attack.
+- Impact: Public trackers can display persuasive fiction even when aircraft and controllers never receive the bogus positions.
+- Watch next: Feeder attribution, aggregator filtering, cross-network corroboration, provenance indicators, and whether the trace is removed or labeled.

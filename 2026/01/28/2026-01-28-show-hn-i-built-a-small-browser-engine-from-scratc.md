@@ -2,26 +2,18 @@
 
 - Score: 118 | [HN](https://news.ycombinator.com/item?id=46795540) | Link: https://github.com/beginner-jhj/mini_browser
 
-## TL;DR
+### TL;DR
 
-A Korean high school senior spent eight weeks building a miniature browser engine in C++17 with Qt6 to deeply understand how HTML/CSS become pixels. The project implements the classic browser pipeline: tokenizing HTML, building a DOM, parsing CSS into a CSSOM, computing styles, performing block/inline layout, and rendering via Qt’s painting APIs, including async image loading and caching. The write-up emphasizes debugging discipline, pragmatic “ship it” thinking, and using AI as a learning aid, which HN commenters praise as a model learning project.
+A Korean high-school senior spent eight weeks building an educational browser engine while learning C++. The Qt-based project tokenizes HTML, constructs a DOM, parses and cascades CSS, computes block and inline layouts, paints text and images, and supports links, navigation history, asynchronous image loading, and caching. Its deliberately limited engine delegates networking and graphics primitives to Qt and lacks much web-platform complexity. The author emphasizes systematic debugging, careful review of AI-assisted rendering code, pragmatic scope, and understanding each borrowed idea rather than producing a production browser.
 
----
+### Comment pulse
 
-## Comment pulse
+- Readers praised the learning achieved, especially using AI and tutorials while debugging and explaining the resulting code independently.
+- Commenters stressed HTML, layout, and networking are far deeper than this toy — counterpoint: its explicit goal was education, not standards completeness.
+- Suggested next steps included a simple HTTP server or contributing to Dillo; one warning advised testing against independent protocol implementations.
 
-- Strong learning signal → Commenters are impressed by tackling recursion, layout, and parsing from scratch, and using AI/tutorials as scaffolding while still debugging and understanding the code.
+### LLM perspective
 
-- Toy vs. real browser → People note it’s intentionally minimal: real HTML parsing, layout, rendering, and networking are vastly more complex—yet this still reveals why browsers are hard.
-
-- Where to go next → Suggestions: build an HTTP server, explore TCP/IP, or contribute to tiny browser Dillo—counterpoint: avoid implementing both client and server when learning protocols.
-
----
-
-## LLM perspective
-
-- View: Excellent example of using generative AI as a tutor and code reviewer rather than a code generator to bypass understanding.
-
-- Impact: Inspires students to pursue deep systems projects (compilers, kernels, browsers) instead of only frameworks or tutorials.
-
-- Watch next: More such “from-scratch” educational engines with structured docs, tests, and comparisons to real engines like WebKit, Blink, and Servo.
+- View: The strongest deliverable is a concrete mental model of browser stages, not standards coverage.
+- Impact: A bounded reimplementation can teach parsing, state, layout, asynchronous I/O, testing, and debugging in one cohesive system.
+- Watch next: Malformed-HTML tests, independent servers, richer layout cases, accessibility, and whether the author contributes to an established browser.

@@ -2,15 +2,18 @@
 
 - Score: 326 | [HN](https://news.ycombinator.com/item?id=46792370) | Link: https://www.asml.com/en/news/press-releases/2026/strengthening-focus-on-engineering-and-innovation
 
-- TL;DR  
-  ASML, the dominant chip-lithography maker, is restructuring its Technology and IT organizations, shifting from a matrix to product-focused structure and cutting mostly leadership roles, for a net reduction of about 1,700 jobs, mainly in the Netherlands. Management says it wants to simplify processes, restore agility, and let engineers spend more time engineering while still hiring in manufacturing and service. HN commenters broadly applaud the attempt to prune management bloat but debate risks, execution, and a parallel €12B share-buyback plan.
+### TL;DR
 
-- Comment pulse
-  - ASML cutting 1,700 mostly leadership roles welcomed as anti-bloat → Philips’ top-heavy drift is cited as a cautionary tale. — counterpoint: could still mask cost-cutting.
-  - Manager-heavy layers blamed for slowing engineers → commenters want IC tracks so advancement needn’t mean people-management. — counterpoint: cuts can leave ICs doing coordination work.
-  - €12B buyback alarms some as start of financialization → others note ASML’s long buyback history and US tech peers using them as routine shareholder payouts.
+ASML proposes streamlining its Technology and IT & Data organizations, potentially cutting about 1,700 positions net, mostly in the Netherlands and some in the United States. The company says leadership roles are the primary target as Technology shifts from a project-matrix structure toward engineers dedicated to products and modules. It also plans new engineering jobs and continued hiring in manufacturing, customer support, and sales, so this is not a company-wide hiring freeze. HN commenters largely welcome fewer layers but stress that skilled management is distinct from technical expertise.
 
-- LLM perspective
-  - View: ASML using strength to restructure for long-term agility; outcome hinges on execution and whether manager cuts are truly targeted.
-  - Impact: If successful, engineers gain focus and speed; if not, knowledge loss and hidden management tasks could erode product reliability.
-  - Watch next: Track headcount mix, time-to-market for new tools, and whether future earnings calls emphasize engineering milestones over purely financial metrics.
+### Comment pulse
+
+- Supporters see a correction to monopoly-era bureaucracy → product-focused engineering could restore faster decisions and avoid a management-heavy decline.
+- Management skill is not technical seniority → good coordinators multiply team output — counterpoint: indiscriminate cuts can leave engineers doing managerial work.
+- Dual career tracks matter → forcing strong engineers into management creates weak managers and undervalues senior individual contributors.
+
+### LLM perspective
+
+- View: ASML frames the proposal as organizational redesign, not simple contraction; net cuts coexist with selective technical hiring.
+- Impact: Leadership-heavy teams face displacement while product engineers may gain clearer ownership and fewer matrix dependencies.
+- Watch next: Social-partner consultations, final regional totals, internal redeployment, new engineering roles, and delivery or retention changes.

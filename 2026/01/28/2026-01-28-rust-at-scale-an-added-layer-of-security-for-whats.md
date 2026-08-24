@@ -2,18 +2,18 @@
 
 - Score: 235 | [HN](https://news.ycombinator.com/item?id=46791742) | Link: https://engineering.fb.com/2026/01/27/security/rust-at-scale-security-whatsapp/
 
-## TL;DR
+### TL;DR
 
-WhatsApp replaced its core media-parsing C++ library (“wamedia”) with a Rust implementation to harden defenses against malicious files for 3B+ users. Triggered by Stagefright-era lessons, they now pre-validate media: rejecting malformed formats that might exploit OS libraries, flagging risky structures (e.g., PDFs with scripts/embedded files), and catching spoofed extensions or dangerous file types. The Rust library, part of a broader “Kaleidoscope” check system, ships across WhatsApp, Messenger, and Instagram, showcasing large-scale, client-side Rust deployment and accelerating Meta’s shift away from C/C++ for new code.
+WhatsApp replaced a 160,000-line C++ media-validation library with 90,000 lines of Rust, including tests, after developing both versions in parallel. Differential fuzzing, integration tests, and unit tests checked compatibility while Meta built Rust support across Android, iOS, Mac, web, and wearables. The new library reportedly improves performance and memory use while screening malformed files, risky PDF features, disguised types, and executables before downstream parsers see them. Meta presents the billion-device deployment as defense in depth, not a complete barrier to media exploits.
 
-## Comment pulse
+### Comment pulse
 
-- WhatsApp is the default communication layer in much of the world, even supplanting email; attempts to move communities to “better” apps routinely fail—counterpoint: some European circles barely use it.
-- Several readers dispute “largest Rust rollout,” citing Chromium’s Rust-based font stack and other Rust crates, plus Rust already shipping widely on Android.
-- Engineers praise the parallel Rust/C++ rollout with differential fuzzing as a realistic rewrite strategy, noting client binary-size constraints and curiosity about how Meta slimmed Rust’s stdlib footprint.
+- Readers found parallel implementation and differential fuzzing more consequential than code reduction, though they wondered how compatibility and binary size were managed.
+- The largest-deployment claim drew Chromium and Android comparisons — counterpoint: Meta says its library spans major apps and platforms.
+- WhatsApp’s stated three-billion-user reach sparked debate over global indispensability, regional variation, spam, ads, and dependence on Meta.
 
-## LLM perspective
+### LLM perspective
 
-- View: Media parsers are classic memory-safety minefields; moving them to Rust is one of the most defensible, high-leverage security refactors.
-- Impact: Strong validation at the app layer reduces dependence on slow OS patch cycles, especially in regions with long-tail Android versions.
-- Watch next: Whether Meta open-sources more of Kaleidoscope, documents their Rust tooling at scale, and systematically migrates other unsafe parsing/code paths.
+- View: Memory safety matters here because the validator itself continuously parses hostile, attacker-controlled media.
+- Impact: A successful cross-platform rewrite weakens objections that Rust’s tooling and binary overhead preclude mass client deployment.
+- Watch next: Published exploit reductions, binary-size methods, parser-differential coverage, other media formats, and Rust’s spread through Meta clients.

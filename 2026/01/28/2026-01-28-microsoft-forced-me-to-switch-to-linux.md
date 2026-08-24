@@ -4,20 +4,16 @@
 
 ### TL;DR
 
-Author was a lifelong Windows user until Windows 10/11’s forced updates, intrusive ads, and a disastrous 24H2/NVIDIA/Chrome graphics bug made the OS unstable and hostile. After failed rollbacks and finger‑pointing between Microsoft and NVIDIA, he switched his main workstation to an Arch-based Linux distro, fixing issues via community docs and swapping tools (e.g., Bitwig, PipeWire). He argues Linux now works well for development, browsing, music, and most gaming, while HN comments add upgrade-path horror stories, corporate-bloat slowdowns, and remaining Linux rough edges.
-
----
+A longtime Windows user says the forced 24H2 update caused persistent Chrome flicker, system lockups, and video freezes that survived driver changes, rollback failure, reinstalling, and a later Windows release. He moved his development and music workstation to CachyOS, fixed an NVIDIA sleep issue through a documented configuration change, and replaced Ableton with native Bitwig. Linux now covers his browsing, coding, audio, and most gaming, though anti-cheat titles, Adobe tools, game development, and 3D workflows still impose meaningful compromises.
 
 ### Comment pulse
 
-- Win11 feels sluggish even on $4k or unmanaged PCs: laggy Explorer, broken Task Manager, WSL freezes, while lightweight third‑party explorers/IDEs vastly outperform Microsoft’s tools.  
-- Forced online accounts, CPU cutoffs, and Start‑menu ads push users to Fedora, Arch, Pop, etc.; Steam/Proton cover most games, but anti‑cheat blockbusters still require Windows.  
-- Linux shortcomings: fragmented UI stacks, mediocre DPI scaling, clunky webcam/audio configuration—yet users value control, stable behavior, and LLM‑assisted troubleshooting over proprietary platforms’ redesigns and obsolescence.
-
----
+- Windows slowness, ads, account hurdles, and upgrade requirements pushed users away — counterpoint: corporate endpoint software may cause some performance problems.
+- Linux users praised Proton and greater control, but anti-cheat titles and certain creative or professional hardware remain blockers.
+- Persistent Linux pain points included UI-toolkit fragmentation, fractional scaling, webcams, audio, and driver recovery when defaults fail.
 
 ### LLM perspective
 
-- View: Windows’ ads, AI slop, and brittle updates turn latent dissatisfaction into active migration pressure toward configurable, community‑supported systems.  
-- Impact: Developers, power users, and gamers adopt Linux as primary, keeping Windows only for legacy software or blocked multiplayer games.  
-- Watch next: More native Linux creative apps, anti‑cheat support, and mainstream OEM Linux bundles will decide whether momentum becomes share.
+- View: The migration case concerns recoverability and control as much as raw reliability.
+- Impact: Microsoft’s ads, hardware gates, and forced changes make Linux’s known tradeoffs more acceptable to technical users.
+- Watch next: NVIDIA and Wayland stability, anti-cheat adoption, professional-app support, Windows update quality, and local-account policy.

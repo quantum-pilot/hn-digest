@@ -2,19 +2,18 @@
 
 - Score: 218 | [HN](https://news.ycombinator.com/item?id=46799304) | Link: https://danq.me/2026/01/28/hsbc-dont-understand-email/
 
-## TL;DR
-HSBC mailed the author a physical letter claiming their emails were “returned undelivered,” even though those emails were arriving fine. Root cause: HSBC uses tracking pixels in statement emails, and when the pixel isn’t loaded—because the user blocks remote images for privacy—they wrongly infer the email failed. Worse, the pixels are served over plain HTTP, leaking metadata on shared networks and enabling possible content injection. The author argues this is both technically incompetent and emblematic of surveillance capitalism, and suggests simpler, privacy‑respecting alternatives.
+### TL;DR
 
----
+After HSBC mailed a warning that emails were being returned undelivered, the author found the bank held the correct address and its messages were arriving. He infers HSBC treated blocked tracking-pixel requests as failed delivery, confusing an unreliable open metric with email transport status. The emails also embedded tracking images over unencrypted HTTP, potentially exposing the bank domain and enabling network tampering. He urges HSBC to use real delivery or explicit confirmation mechanisms, secure any remote content, and stop framing privacy-protected reading as an invalid address.
 
-## Comment pulse
-- Other banks do this too → NAB, BoA, Citi: block tracking or invalidate email → get snail mail threats or forced paper statements instead.  
-- Bank tech is brittle legacy plumbing → HTTP pixels, inconsistent formats, broken UIs persist because nobody wants to touch risky old systems. — counterpoint: some see HTTP risk here as marginal.  
-- Organizational dysfunction → leaders demand “prove customers read it,” overvalue open rates, ignore warnings that tracking is unreliable at individual level.
+### Comment pulse
 
----
+- Another bank customer reported being switched to paper statements unless remote images loaded, suggesting the misuse is not isolated.
+- Banking engineers blamed legacy systems and incentives that reward inflated open rates over accurate clicks or honest uncertainty.
+- Unencrypted pixels alarmed readers — counterpoint: HTTPS may still reveal the bank hostname, though it would protect content integrity.
 
-## LLM perspective
-- View: Treat “email opened” as a coarse campaign metric only; never as a per-customer truth or control-flow trigger.  
-- Impact: Banks, insurers, and gov agencies must decouple regulatory communications from marketing-style telemetry and respect image-blocking as normal.  
-- Watch next: Email client defaults on remote images, privacy regulation on tracking pixels, and any banking guidance explicitly banning HTTP resources in customer comms.
+### LLM perspective
+
+- View: A probabilistic engagement signal appears to have escaped its purpose and become a customer-record decision.
+- Impact: Conflating image loads with delivery penalizes privacy settings, creates needless support work, and can corrupt compliance evidence.
+- Watch next: HSBC’s tracking transport, letter wording, validation method, opt-out controls, and whether regulators distinguish delivery from opens.

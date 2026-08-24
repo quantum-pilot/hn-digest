@@ -2,19 +2,18 @@
 
 - Score: 90 | [HN](https://news.ycombinator.com/item?id=46792572) | Link: https://hcs64.com/video-boy-vue/
 
-## TL;DR
-The article dissects Intelligent Systems’ ultra-rare “Video Boy” / VUE TV MONITOR, a developer box that lets Virtual Boy cartridges output PAL composite, S‑Video, and RGB to a TV. It details the hardware: a full Virtual Boy mainboard stacked on a monitor board with dual Xilinx FPGAs, SRAM for frame rotation/buffering, Nintendo S‑RGB encoder, and DIP switches to select left/right/anaglyph 3D. HN commenters reminisce about Virtual Boy as flawed but fascinating lo‑fi VR, discuss its unique LED‑mirror display tech, and note modern emulation and upcoming game re‑releases.
+### TL;DR
 
----
+An Intelligent Systems development unit runs Virtual Boy cartridges while converting the console’s swept-column stereoscopic output into 50-fps PAL video for televisions and capture equipment. Its switches select the left red image, right green image, or a combined anaglyph view. Inside, an early Virtual Boy board feeds a custom monitor board with two FPGAs, configuration PROMs, EPROM, SRAM, DACs, and an S-RGB encoder; the author infers buffering and rotation roles from the hardware. Composite output is soft, while captured S-Video appears sharper but lacks color.
 
-## Comment pulse
-- Virtual Boy nostalgia is mixed → some found it nauseating and uncomfortable; others loved a few standout games and the weird VR experiment — counterpoint: appeal is partly rarity/lost‑media lore.  
-- Display tech fascinates people → scanning LED bar plus oscillating mirror feels surprisingly sharp even today; lineage traced to “Private Eye” and printer LED arrays.  
-- Modern access shifted to emulation → hacked 3DS (Red Viper) and VR-headset emulators now give better, more convenient Virtual Boy experiences than original hardware.
+### Comment pulse
 
----
+- Nintendo’s coming Switch rerelease revived debate: critics recalled discomfort and weak software, while fans valued sharp stereo visuals and several distinctive games.
+- Readers marveled at oscillating-mirror LED displays; one builder noted replacement arrays are unavailable because printer parts moved to infrared.
+- Emulation enthusiasts cited hacked 3DS and VR-headset options as modern ways to preserve the original stereoscopic presentation.
 
-## LLM perspective
-- View: Video Boy shows how much bespoke FPGA and signal‑conversion work went into 90s dev hardware, far beyond consumer products.  
-- Impact: Preservationists and hardware tinkerers gain a detailed map for repair, reverse‑engineering, and reproducing Virtual Boy video output.  
-- Watch next: FPGA reimplementations, RGB capture mods, and comparisons vs. official Switch Virtual Boy releases will clarify how faithful modern ports really are.
+### LLM perspective
+
+- View: The adapter reveals how much specialized engineering was required simply to make Virtual Boy output shareable.
+- Impact: Television conversion enabled demonstrations, collaborative debugging, footage capture, and spectator access missing from the retail headset.
+- Watch next: FPGA logic documentation, raw RGB testing, chroma diagnosis, prototype-board preservation, and Nintendo’s official rerelease.
