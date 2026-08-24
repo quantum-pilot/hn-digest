@@ -3,18 +3,17 @@
 - Score: 238 | [HN](https://news.ycombinator.com/item?id=46081188) | Link: https://blog.tymscar.com/posts/imgurukproxy/
 
 ### TL;DR
-The author, in the UK, built a network‑wide workaround for Imgur’s geo‑block without using a full‑tunnel VPN. Using Pi‑hole, Traefik, a Gluetun VPN container, and Nginx TCP passthrough, they intercept `i.imgur.com` at DNS, route only that traffic through a non‑UK WireGuard endpoint, and return the images transparently to every device on their LAN. NixOS, Docker Compose, and Agenix keep the setup declarative and secret‑safe. HN comments compare this to simpler router‑level policy‑based routing and discuss broader censorship implications.
 
----
+A UK homelabber restored transparent access to Imgur images by overriding i.imgur.com in Pi-hole, forwarding TLS through Traefik, and placing an Nginx TCP proxy inside Gluetun’s WireGuard network namespace. Only Imgur traffic takes the VPN route, preserving 2.5Gbps direct connectivity for everything else and requiring no client setup. Commenters welcomed the fix for broken archival links but noted that OpenWrt, UniFi, or a Linux router can implement domain-based policy routing more simply.
 
 ### Comment pulse
-- Use the router → Many already run WireGuard on a Linux/UniFi/OpenWRT router and do policy‑based routing for chosen domains or subnets—counterpoint: domain‑based rules, especially with IPv6, stay tricky.  
-- Expected IP “geo‑unblock” → Some hoped for acquiring IP space not tagged as UK; others argue that’s effectively similar complexity to VPN, not a simple address swap.  
-- Imgur block hurts research → People still hit Imgur‑hosted docs, blogs, and product images; blocking breaks context and highlights why easy circumvention tools matter for future EU/UK censorship pressures.
 
----
+- Router policy routing is cleaner → OpenWrt and UniFi can send selected domains through WireGuard without a proxy stack.
+- Network-wide interception solves persistent link rot → old forums, documentation, and product pages still depend on Imgur-hosted images.
+- IPv6 complicates selective routing → UniFi may let matching traffic bypass the VPN unless operators add firewall rules.
 
 ### LLM perspective
-- View: This is a clean template for per‑domain, VPN‑backhauled access using DNS override + SNI routing, not a generic “use a VPN” answer.  
-- Impact: Most useful to homelabbers and small teams wanting selective geo‑routing without touching client devices or sacrificing full‑speed default internet.  
-- Watch next: Native router firmware supporting robust per‑domain VPN, including IPv6, plus prepackaged “selective tunnel” stacks for common geo‑blocked services.
+
+- View: Transparent domain routing is a practical resilience layer when regional restrictions break embedded web history.
+- Impact: Every household device benefits, while latency and bandwidth costs remain confined to blocked traffic.
+- Watch next: Imgur hostname changes, IPv6 leakage, VPN health, and certificate passthrough behavior.

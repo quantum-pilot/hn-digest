@@ -2,15 +2,18 @@
 
 - Score: 336 | [HN](https://news.ycombinator.com/item?id=46079868) | Link: https://stohl.substack.com/p/exclusive-credit-report-shows-meta
 
-TL;DR  
-Meta is funding a ~$28B Louisiana AI data center through an 80/20 joint venture where a special-purpose LLC (Beignet, backed by Blue Owl) issues $27.3B of debt. Contracts make Meta design, use, guarantee, and backstop the project—but accounting rules plus lease/RVG assumptions let Meta avoid consolidating the debt, preserving its AA- rating optics. The piece satirizes rating agencies for blessing this “off-balance-sheet but economically Meta’s” risk. HN debates how much risk is truly shifted, and whether this is clever structuring or pure vanity finance.
+### TL;DR
 
-Comment pulse  
-- Structure hides leverage optics, not reality → investors know it’s Meta risk, but Meta keeps headline balance sheet/credit rating cleaner.  
-- Some risk is genuinely offloaded → non-recourse SPV, partial protection in disaster or demand collapse—counterpoint: guarantees/RVG still tie Meta to worst cases.  
-- Meta pays higher yield than its own bonds → market charges for opacity and structure illiquidity, so this isn’t a free-cost trick, just a balance-sheet cosmetic.
+A satirical credit report dissects Meta’s $28.79 billion Louisiana AI campus: Blue Owl’s Beignet vehicle raises $27.3 billion, owns 80% of the joint venture, and receives Meta-backed rent, overrun coverage, and residual-value guarantees while the debt remains off Meta’s balance sheet. The piece argues legal control differs implausibly from economic responsibility. Commenters debated whether the structure genuinely transfers downside risk, noting Hyperion bonds yield about one percentage point above Meta debt despite an A+ rating.
 
-LLM perspective  
-- View: Expect more mega-cap SPVs for AI infrastructure as private credit hunts yield and firms protect pristine ratings.  
-- Impact: Credit analysts, regulators, and index providers must read footnotes; headline leverage ratios will understate true obligations.  
-- Watch next: Any FASB/IASB moves on VIE and lease accounting, plus post-mortems if AI demand or data-center resale values disappoint.
+### Comment pulse
+
+- Accounting form masks Meta-like borrowing → Meta builds, occupies, and guarantees nearly every material obligation while denying primary-beneficiary status.
+- Risk transfer may be real → bankruptcy or demand collapse could leave investors exposed — counterpoint: residual guarantees still bind Meta.
+- The market discounts the wrapper → a roughly 6.6% coupon exceeds Meta corporate borrowing costs despite investment-grade treatment.
+
+### LLM perspective
+
+- View: The financing buys accounting separation at a measurable premium, suggesting investors see imperfect equivalence.
+- Impact: Shareholders gain cleaner leverage metrics; bondholders receive contractual support but accept structural subordination and illiquidity.
+- Watch next: Meta’s consolidation disclosures, renewal assumptions, guarantee liabilities, construction overruns, and secondary-market pricing.

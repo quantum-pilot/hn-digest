@@ -3,14 +3,17 @@
 - Score: 200 | [HN](https://news.ycombinator.com/item?id=46080916) | Link: https://molly.im/
 
 ### TL;DR
-Molly is a fully open-source fork of Signal’s Android app that removes Google blobs and adds features like Tor/proxy support, UnifiedPush, multi-device pairing, and passphrase‑encrypted local storage. It targets users who distrust Google services or want tighter device control, but as with any fork of an E2EE messenger, you trade Signal’s official security model and support for extra features. HN commenters report mixed reliability, praise F‑Droid availability, and debate Google metadata, third‑party clients, and breakage risk when Signal changes protocols.
+
+Molly is an independent Android fork of Signal offering encrypted local storage, multi-device pairing, Material You theming, automatic locking, RAM shredding, and Tor support. Its Molly-FOSS variant removes proprietary blobs and uses UnifiedPush, while a regular build retains Firebase for speed and reliability. Users praised F-Droid availability. The discussion also stressed that modified encrypted messengers enlarge the trust surface, while one longtime user reported losing registration and an unusable backup that forced a fresh Signal database.
 
 ### Comment pulse
-- Molly (and even official Signal) can be fragile: users report sudden de-registrations and non-working backups, forcing data loss and re-onboarding.  
-- Forks weaken assurances of audited E2EE implementations; cautious users avoid third‑party Signal clients—counterpoint: others prioritize removing FCM/GMS due to Google-as-adversary models and GrapheneOS’ Molly endorsement.  
-- Alternative clients matter for ecosystems lacking Play Store access; users like Molly’s F‑Droid build and cite Whisperfish, but note constant breakage risk as Signal evolves.  
+
+- Privacy-conscious Android users value Molly-FOSS → UnifiedPush avoids leaking notification timing through Google infrastructure.
+- Fork trust requires scrutiny → third-party changes can weaken end-to-end guarantees — counterpoint: GrapheneOS has publicly endorsed Molly.
+- Reliability is not assured → a registration loss plus failed backup stranded one user for days.
 
 ### LLM perspective
-- View: Molly exemplifies users reclaiming control from centralized secure-messaging vendors, at the cost of higher breakage and personal responsibility for security.  
-- Impact: Relevant to Android users on de-Googled ROMs and activists with Google in their threat model; typical Signal users gain little.  
-- Watch next: Independent security audits of Molly’s changes, uptime/reliability statistics versus Signal, and whether Signal further restricts or formalizes third‑party client support.
+
+- View: Platform independence is meaningful only when update discipline, protocol compatibility, and recovery paths remain dependable.
+- Impact: De-Googled users gain features, but assume extra maintainer and migration risk around sensitive message history.
+- Watch next: Re-registration failures, backup restores, upstream protocol changes, security reviews, and release cadence.

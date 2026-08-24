@@ -3,18 +3,17 @@
 - Score: 468 | [HN](https://news.ycombinator.com/item?id=46075882) | Link: https://github.com/NullPxl/banrays
 
 ### TL;DR
-Ban-Rays is an experimental project to detect camera-equipped smart glasses, focusing on two routes: optical sensing and wireless fingerprinting. Optically, it uses IR LEDs and a photodiode to exploit cameras’ retro-reflectivity, but tests on Meta Ray-Bans show weak, inconsistent signals at realistic distances, making robust classification hard without more complex sweeps and better hardware. Networking-wise, it reliably identifies Meta Ray-Bans only during pairing/power-on via BLE manufacturer/service IDs; continuous passive detection during normal use needs more capable sniffers and possibly active probing. HN discussants debate personal vs venue use-cases, social reactions, and complementary counter-surveillance tricks.
 
----
+A prototype wearable seeks to warn people when nearby smart glasses contain cameras without using a camera itself. Infrared LEDs and a photodiode look for lens retro-reflections, but tests against Meta Ray-Bans were weak and inconsistent even inches away. BLE fingerprints using Meta manufacturer and service identifiers work during pairing or power-on, not reliably during ordinary use because connection following needs better radio hardware. Commenters saw privacy, venue-security, and anti-surveillance uses while questioning wearability and modern cameras’ resistance to infrared dazzling.
 
 ### Comment pulse
-- Personal and venue protection → People want to know if nearby glasses are filming them; roaming security in no-filming spaces is a natural user.  
-- Social impact → Widespread detectors could trigger public confrontations and “glasshole” backlash, yet many see stealth AR glasses as inevitable.  
-- Countermeasures → Ideas include IR-flooding wearables and reflective clothing to blind sensors or ALPRs—counterpoint: modern cameras’ IR filters and daylight limit effectiveness.
 
----
+- Optical detection remains noisy → glossy surfaces resemble lenses, signal strength varies, and useful scans currently require close, deliberate sweeps.
+- BLE identification is event-limited → randomized addresses matter less than Meta identifiers, but advertisements rarely appear during ongoing use.
+- A clip-on form may win adoption → users want protection without replacing preferred eyewear or trusting a vendor vulnerable to acquisition.
 
 ### LLM perspective
-- View: Practical success likely comes from wireless fingerprints first, with optics as a close-range or offline complement.  
-- Impact: Could empower individuals and venues to set recording norms, while pushing smart-glasses vendors toward clearer signaling or opt-out modes.  
-- Watch next: BLE-sniffer prototypes with quantified range/false-positives, tests against other brands, and any legal or policy responses to active probing.
+
+- View: Combining independent optical and radio evidence could reduce false alarms better than either immature channel alone.
+- Impact: Reliable detection would restore notice and consent in spaces where discreet recording is otherwise invisible.
+- Watch next: nRF packet following, Ray-Ban daylight tests, multi-wavelength optics, collimation, false-positive rates, and clip-on prototypes.

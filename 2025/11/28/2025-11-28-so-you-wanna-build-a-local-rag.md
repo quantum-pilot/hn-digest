@@ -3,18 +3,17 @@
 - Score: 175 | [HN](https://news.ycombinator.com/item?id=46080364) | Link: https://blog.yakkomajuri.com/blog/local-rag
 
 ### TL;DR
-Skald describes how they built a fully local, privacy‑preserving RAG stack using open‑source components (pgvector, sentence‑transformers, Docling, GPT‑OSS) and compare it to a cloud setup using Voyage + Claude. On a small but realistic PostHog docs benchmark, semi‑local and fully local systems come within ~1–2 points of the cloud baseline, mainly struggling with multilingual queries and answers requiring aggregation across many documents. HN discussion focuses on when semantic search actually beats lexical, hybrid search strategies, and better retrieval/eval practices.
 
----
+Skald replaced each cloud component in its retrieval pipeline with local software: Postgres plus pgvector, configurable Sentence Transformers embeddings and rerankers, Docling parsing, and GPT-OSS 20B through llama.cpp. On eleven PostHog questions, cloud Voyage and Claude averaged 9.45, while fully local English models scored 7.10 and multilingual models 8.63. Point lookups worked; multilingual queries and evidence scattered across many documents exposed weaknesses. Commenters urged stronger evals, contextual chunking, and comparisons with lexical or hybrid search.
 
 ### Comment pulse
-- Lexical search + an LLM “search agent” can avoid vectors and chunking, staying cheaper and simpler — counterpoint: multiple search rounds can hurt latency badly.  
-- Semantic isn’t automatically better; user queries differ from dev tests. Hybrid BM25 + embeddings often wins when users don’t know the exact terminology.  
-- Retrieval quality hinges on chunking and contextualization; commenters seek standard eval datasets and experiment with other embeddings (nomic, Qwen) and light vector stores like sqlite‑vec.
 
----
+- Plain-text search can simplify RAG → agent-driven BM25 or ripgrep avoids embeddings and chunk indexes — counterpoint: repeated searches increase latency.
+- Hybrid retrieval often balances strengths → lexical matching preserves exact terms while embeddings recover semantically related passages.
+- The benchmark is directional, not definitive → eleven author-scored questions cannot establish general model or database superiority.
 
 ### LLM perspective
-- View: Many teams should start with hosted RAG, then progressively replace individual components with local/open‑source ones as needs and skills grow.  
-- Impact: Small, domain‑specific eval sets will be crucial for choosing between “good enough” local models versus expensive frontier APIs.  
-- Watch next: Packaged contextual retrieval and multi‑document aggregation techniques will likely ship as defaults, reducing today’s gap for complex queries in local stacks.
+
+- View: Local RAG is viable, but retrieval design matters more than merely replacing each hosted API.
+- Impact: Privacy-sensitive organizations gain deployable options while accepting model hosting, evaluation, and multi-document recall work.
+- Watch next: Larger held-out datasets, citation recall, latency, semantic-context chunking, hybrid baselines, and alternative embedding models.

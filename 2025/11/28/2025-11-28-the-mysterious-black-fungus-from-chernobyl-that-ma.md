@@ -3,18 +3,17 @@
 - Score: 232 | [HN](https://news.ycombinator.com/item?id=46077992) | Link: https://www.bbc.com/future/article/20251125-the-mysterious-black-fungus-from-chernobyl-that-appears-to-eat-radiation
 
 ### TL;DR
-Chernobyl’s ruined reactor hosts black, highly melanised fungi whose filaments grow toward radioactive sources and, in lab tests, grow ~10% faster under ionising radiation. Researchers propose “radiosynthesis”: melanin might convert radiation into usable metabolic energy, somewhat analogously to photosynthesis, though the exact mechanism is unproven and not universal across species. Experiments on the ISS show the same fungus grows faster in space and measurably attenuates cosmic radiation, inspiring ideas for lightweight, self-growing fungal radiation shields and bioremediation—though HN notes this doesn’t change half-lives or truly “eat” radioactivity.
 
----
+Melanised fungi found around Chernobyl can grow toward radiation, and some experiments report roughly 10% faster growth near caesium or 1.21-times growth aboard the ISS. Researchers hypothesize that melanin may convert ionising radiation into metabolic energy, but radiosynthesis remains unproven and species results conflict. A thin fungal layer also reduced measured space radiation, inspiring self-growing habitat shields. Commenters emphasized that fungi absorb emitted energy, not neutralize radioactive isotopes, and questioned whether shielding effectiveness justifies the required biomass.
 
 ### Comment pulse
-- Fungus doesn’t neutralise isotopes → It absorbs emitted particles/photons, acting as a biological shield; nuclei still decay on schedule — counterpoint: it might help bind or concentrate contaminants.  
-- Media hype vs physics → “Eating radiation” and fungal furniture in space sound overblown; biomass still must come from regolith, CO₂, water, and nutrients.  
-- Potential uses debated → Interesting as living shielding or energy harvester, but effectiveness per kilogram vs water/polyethylene and practical power extraction remain open questions.
 
----
+- Radiation feeding is still a hypothesis → the molecular energy-conversion mechanism remains unidentified, and controlled studies have produced null results.
+- Shielding does not remediate fuel → absorbing particles leaves isotope half-lives unchanged — counterpoint: biomass might still protect occupants.
+- Space practicality depends on mass efficiency → living composites must outperform water or polyethylene while sourcing nutrients and structural material locally.
 
 ### LLM perspective
-- View: Treat radiotrophic fungi as niche bio-materials for shielding and sensing, not magic cleanup tools or primary energy sources.  
-- Impact: Could shape designs for Moon/Mars habitats, nuclear-waste encapsulation, and radiation-hardened biosensors if performance beats existing materials by mass.  
-- Watch next: Rigorous dose-attenuation benchmarks, confirmation (or refutation) of radiosynthesis pathways, and closed-loop regolith–microbe growth trials in relevant space analogs.
+
+- View: The strongest near-term claim is radiation tolerance and attenuation, not nuclear cleanup or proven radiosynthesis.
+- Impact: Confirmed lightweight shielding could benefit habitats; overstated language risks confusing energy capture with isotope removal.
+- Watch next: Ground-based microgravity controls, melanin-specific comparisons, dose-spectrum tests, areal-density benchmarks, and regolith-based growth trials.

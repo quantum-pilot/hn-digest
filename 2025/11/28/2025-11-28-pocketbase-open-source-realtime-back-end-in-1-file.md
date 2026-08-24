@@ -3,24 +3,17 @@
 - Score: 601 | [HN](https://news.ycombinator.com/item?id=46075320) | Link: https://pocketbase.io/
 
 ### TL;DR
-PocketBase is a single Go binary that bundles a realtime SQLite-backed database, auth (email/OAuth), file storage, admin dashboard, and JS/Dart SDKs. You define collections and rules via a web GUI, get REST and realtime APIs out of the box, and can extend behavior with Go/JS hooks. HN commenters like it for side projects, internal tools, and even small production apps, emphasizing SQLite’s simplicity and performance. Concerns center on SQLite limitations (e.g., numeric types) and PocketBase’s solo maintainer and occasional breaking changes.
 
----
+PocketBase packages a realtime SQLite database, authentication, local or S3 file storage, an admin dashboard, REST APIs, subscriptions, migrations, and Go or JavaScript extension hooks into one portable backend binary. Commenters described it as productive and reliable for prototypes, internal tools, and small-to-medium production applications, especially when operational simplicity matters more than hypothetical scale. Reservations centered on SQLite’s missing decimal type, occasional breaking changes, unsupported edge cases, questions about GIS and PostgreSQL support, and dependence on a single maintainer.
 
 ### Comment pulse
 
-- SQLite-first backend scales far enough for most CRUD apps → single-file deployment, minimal ops, WAL on NVMe is fast—counterpoint: lack of native decimal type blocks some financial use cases.  
-
-- PocketBase is “production-solid” for small/medium apps → strong extensibility, migrations, good DX; risk is solo maintainer, rough support tone, and occasional breaking API changes.  
-
-- Best fit is Firebase/Parse-style apps and prototypes → GUI-configured collections + auth + files replaces lots of boilerplate; heavy GIS/Postgres/Supabase-style features still require custom stacks.
-
----
+- Single-binary operations beat premature distribution → most CRUD applications never reach WAL contention before product or user-growth limits.
+- Extensibility covers many gaps → hooks, migrations, and SDKs support custom applications — counterpoint: unusual requirements can become difficult workarounds.
+- Sustainability worries users → strong production reports coexist with concern that one developer handles releases and community support.
 
 ### LLM perspective
 
-- View: Treat PocketBase as a powerful SQLite BaaS for CRUD-heavy apps, not a universal backend replacement.  
-
-- Impact: Solo devs and small teams can ship full-stack prototypes and internal tools fast, with minimal infra expertise.  
-
-- Watch next: Maturity of ecosystem (plugins, hosting), roadmap for DB options, and clearer AI-oriented docs/SDK patterns to reduce LLM confusion.
+- View: Its sweet spot is bounded applications whose teams value deployment speed over database portability and specialized features.
+- Impact: Small teams can replace substantial backend scaffolding, but must own migration and continuity plans.
+- Watch next: Stable-version progress, breaking-change frequency, maintainer capacity, Raspberry Pi performance, GIS needs, and decimal handling.

@@ -3,18 +3,17 @@
 - Score: 168 | [HN](https://news.ycombinator.com/item?id=46074362) | Link: https://www.bbc.com/culture/article/20241205-how-charles-m-schulz-created-charlie-brown-and-snoopy
 
 ### TL;DR
-The piece traces how Charles M. Schulz, a shy Midwesterner with modest technical ambitions, turned Peanuts into a 50‑year global phenomenon. Schulz mined childhood insecurity, loneliness and everyday “minor” problems—love, fear, mistrust—treating them as more important than overt politics. Drawing children because that’s what sold, he built a flexible “repertory company” of characters, especially the seemingly wiser Snoopy. The article follows his disciplined process, quiet confidence, retirement due to cancer, and final strip urging Charlie Brown–style perseverance.
 
----
+Charles M. Schulz drew every Peanuts strip himself from 1950 until illness ended a 50-year run, turning ordinary childhood insecurity into a globally syndicated human comedy. He chose children partly because editors bought those cartoons, then built a flexible cast capable of expressing love, fear, mistrust, and persistence. His method combined disciplined isolation with faith that a funny idea mattered. HN readers remembered the work's emotional force but questioned its supposed universal reach: outside the United States, Snoopy often outshone the strip and its other characters.
 
 ### Comment pulse
-- Peanuts media could be emotionally brutal for kids → “Snoopy Come Home” is remembered as devastating yet treasured, with surprisingly heavy themes including segregation.  
-- Cultural reach is uneven → Snoopy is a global design brand, while “Peanuts” and Charlie Brown feel US‑centric—counterpoint: Australia/Brazil report strong strip and TV presence.  
-- Fans dissect early strip evolution → initial focus on Shermy/Violet and ambiguous Snoopy ownership; some argue cute, marketable Snoopy later diluted the comic’s darker edge.
 
----
+- Children's entertainment carried real sorrow → viewers treasured being devastated by the separation story and its anti-segregation theme.
+- Recognition varies by market → European and Japanese readers often knew Snoopy through merchandise, not the broader cast or narratives.
+- Characters evolved in public → early strips shifted focus and left Snoopy's ownership ambiguous before familiar relationships solidified.
 
 ### LLM perspective
-- View: Schulz shows how relentlessly mining one emotional seam—insecurity—can sustain half a century of storytelling depth.  
-- Impact: Creators, brands, and educators can study Peanuts as a template for kid-friendly surfaces carrying adult-level themes.  
-- Watch next: Comparative analyses of early vs late Peanuts, and data on which eras resonate most across different countries and age cohorts.
+
+- View: Emotional specificity let small recurring failures carry philosophical weight across generations.
+- Impact: Children encounter loneliness and persistence in a form adults can read differently.
+- Watch next: Archive studies of character evolution, international reception, and children's responses to darker themes.

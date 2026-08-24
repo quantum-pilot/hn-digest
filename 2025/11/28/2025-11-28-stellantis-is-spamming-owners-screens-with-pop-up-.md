@@ -3,14 +3,17 @@
 - Score: 149 | [HN](https://news.ycombinator.com/item?id=46080161) | Link: https://www.thedrive.com/news/stellantis-is-spamming-owners-screens-with-pop-up-ads-for-new-car-discounts
 
 ### TL;DR
-Stellantis is remotely pushing “marketing notifications” onto Jeep, Ram, and Chrysler infotainment screens, offering a $1,500 loyalty bonus that appears at startup while parked. The same system also delivers recalls and health alerts, and owners can only fully opt out by calling customer service to disable in-car messaging. Many drivers see this as invasive “late-stage capitalism,” though at least one auto journalist used the offer to buy a discounted new Wrangler amid Stellantis’ sales struggles and heavy incentives.
+
+Stellantis sent $1,500 loyalty-offer pop-ups to selected Jeep, Ram, and Chrysler infotainment screens, appearing at startup while stationary and disappearing after movement, dismissal, or 15 seconds. The company says drivers can permanently opt out only by calling customer care and reports that some accepted the promotion; one recipient bought a discounted Wrangler. Commenters overwhelmingly treated the campaign as an abuse of owned hardware, linking it to subscriptions, telematics, repair lock-in, and shrinking control over connected vehicles.
 
 ### Comment pulse
-- Car choice increasingly = which annoyances you can tolerate; subscriptions for basics (e.g., Subaru remote start) and encrypted maintenance make older, simpler cars more attractive.  
-- Connectivity adds privacy risk: telematics can feed insurers driving profiles; disabling OTA updates avoids tracking but forces slow, in-dealer software fixes and ad-filled waiting rooms.  
-- Stellantis specifically is seen as high-priced, unreliable, and strategically lost; critics cite Chrysler’s collapse and Jeep’s unappealing lineup even after replacing the CEO.  
+
+- A purchased dashboard should not become ad inventory → buyers see forced marketing as a breach of product ownership and trust.
+- Connectivity trades convenience for control → over-the-air fixes help, but cellular links also enable tracking, subscriptions, and manufacturer messaging.
+- Opt-out design feels coercive → dismissal is immediate, yet permanent refusal requires a customer-service call.
 
 ### LLM perspective
-- View: In-car ad channels blur safety-critical UX with marketing; without strict consent rules, vendors will keep stretching what “notifications” mean.  
-- Impact: Backlash will push some buyers toward brands offering offline or minimal-infotainment trims, and strengthen right-to-repair and privacy-focused aftermarket ecosystems.  
-- Watch next: Regulators may treat distraction ads like hazards; watch NHTSA, FTC, and EU actions on in-vehicle marketing, telemetry, and opt-out standards.
+
+- View: Even stationary, brief promotions normalize a channel whose safety purpose makes commercial use especially intrusive.
+- Impact: Automakers may gain measurable sales while alienating existing owners and influencing future brand choices.
+- Watch next: Complaint volume, opt-out rates, regulator attention, competitor imitation, and controls separating safety alerts from marketing.

@@ -3,14 +3,17 @@
 - Score: 156 | [HN](https://news.ycombinator.com/item?id=46079987) | Link: https://www.apolloacademy.com/ai-adoption-rates-starting-to-flatten-out/
 
 ### TL;DR
-Charts from Apollo’s chief economist, using US Census and Ramp data, suggest firm-level AI adoption is plateauing across company sizes. Hacker News commenters report personally cutting back use, calling current tools brittle, tiring, and less satisfying than manual coding and writing. Others nitpick the “flattening adoption rate” framing and highlight big discrepancies and vague definitions in the underlying surveys. Many expect AI to settle into narrow productivity niches (especially coding) rather than driving a broad economic transformation.
+
+Apollo's brief chart note says Census Bureau and Ramp data show business AI uptake flattening across company sizes, but provides little interpretation or methodology. HN readers disputed what adoption means and whether the two sources measure the same behavior: Census asks about AI used to produce goods or services, while Ramp infers use from customer payments. Their absolute levels differ sharply, and neither captures intensity. Some users reported abandoning brittle tools; others expected durable niches, especially coding, though even that productivity claim remained contested.
 
 ### Comment pulse
-- Some heavy users quitting AI for coding/writing → find tools brittle, exhausting; manual work and human discussion feel more satisfying and cognitively healthier.  
-- Debate over “flattening adoption rate” → mixing up level, growth, acceleration; headlines overclaim precision — counterpoint: even noisy trend data helps calibrate expectations.  
-- Survey skepticism → Census vs Ramp differ 3×; vague “using AI” definitions and non-representative samples make absolute adoption numbers hard to trust.  
+
+- Trend lines may be more useful than levels → Census asks about production use, while Ramp uses payment records but samples only its customers.
+- Personal use can contract after experimentation → former enthusiasts cited brittleness, cognitive fatigue, and renewed satisfaction from manual coding and writing.
+- Coding value divides practitioners → some see the strongest niche — counterpoint: others cite weak broad evidence and studies reporting slower work.
 
 ### LLM perspective
-- View: Plateauing firm AI adoption implies LLM wave saturating early adopters; further gains need deeper workflow integration, not more surface-level pilots.  
-- Impact: Investors and vendors must pivot from “adoption logos” to measurable productivity, reliability, and cost metrics to justify continued AI budgets.  
-- Watch next: Watch sector-by-sector studies of realized ROI, regulatory push on AI-related disclosures, and tooling that embeds models into existing enterprise systems.
+
+- View: A plateau is suggestive, but incompatible definitions prevent a clean market verdict.
+- Impact: Investors and employers risk mistaking tool purchases for productive, sustained adoption.
+- Watch next: Longitudinal cohort retention, task intensity, realized productivity, and reconciled Census–Ramp methodology.

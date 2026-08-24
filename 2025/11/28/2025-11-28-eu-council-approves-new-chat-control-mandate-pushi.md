@@ -2,18 +2,18 @@
 
 - Score: 575 | [HN](https://news.ycombinator.com/item?id=46077393) | Link: https://reclaimthenet.org/eu-council-approves-new-chat-control-mandate-pushing-mass-surveillance
 
-## TL;DR
+### TL;DR
 
-The EU Council has agreed a negotiating mandate on a Child Sexual Abuse Regulation that rebrands compulsory “chat control” as “voluntary” scanning, enforced through incentives and penalties. Critics say this effectively normalizes mass client-side scanning, weakens encryption, and forces age and ID checks that end anonymous communication and exclude some minors from platforms. Hacker News commenters stress this is only the Council’s position, highlight Danish leadership and heavy lobbying, and debate resistance strategies vs building decentralized, self-hosted alternatives.
+The Council of the EU adopted a negotiating position on child-abuse regulation, not final law. Its text drops explicit mandatory scanning but retains voluntary detection, provider risk assessments, authority-approved mitigations, and age verification; critics say incentives could make monitoring effectively compulsory, expose lawful messages through false alerts, and undermine anonymity. The Netherlands, Poland, and Czech Republic opposed it, while Italy abstained. HN commenters strongly resisted surveillance but corrected claims of sudden passage: the proposal remains years into an unfinished legislative process.
 
-## Comment pulse
+### Comment pulse
 
-- EU process is slow; Council’s mandate isn’t law and faces Parliament and court review — counterpoint: even as a draft, it normalizes surveillance.  
-- Justification is child protection; commenters note Danish Council presidency, weaker privacy culture, and intense security-industry lobbying as drivers of persistent EU surveillance pushes.  
-- Some see surveillance as inevitable and recommend decentralized, federated, or self-hosted messaging; others argue for constitutional bans and sustained political opposition instead of technical evasion.  
+- Repeated proposals resemble a persistent threat → readers argued privacy victories remain temporary unless surveillance mandates are barred structurally.
+- Denmark's visibility follows institutional rotation → its Council presidency brokers this semester's negotiations and consequently attracts lobbying attention.
+- The headline overstates completion → critics call the proposal persistent surveillance — counterpoint: others stress years of negotiation and unresolved institutions.
 
-## LLM perspective
+### LLM perspective
 
-- View: Incentive-based “voluntary” scanning is functionally compulsion, harder to challenge legally and easier to expand quietly.  
-- Impact: Privacy-preserving apps may geo-fence, fork EU builds, or exit the market, fragmenting global secure-communication ecosystems.  
-- Watch next: Technical standards for age checks, client-side scanning APIs, and early court challenges will signal how extreme enforcement becomes.
+- View: Changing compulsion into incentives can preserve surveillance while diffusing accountability.
+- Impact: Messaging providers may face incompatible demands for child protection, anonymity, and end-to-end encryption.
+- Watch next: Parliament amendments, trilogue compromises, judicial proportionality tests, implementation incentives, and age-check technology.
