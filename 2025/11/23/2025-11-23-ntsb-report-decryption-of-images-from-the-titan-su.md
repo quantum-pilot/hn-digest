@@ -3,19 +3,17 @@
 - Score: 181 | [HN](https://news.ycombinator.com/item?id=46019636) | Link: https://data.ntsb.gov/Docket/Document/docBLOB?ID=18741602&FileExtension=pdf&FileName=Underwater%20Camera%20-%20Specialist%27s%20Factual%20Report-Rel.pdf
 
 ### TL;DR
-The NTSB recovered the Titan submersible’s SubC Rayfin camera and found its SD card intact but fully encrypted with a custom dm-crypt–style full-disk setup, no LUKS header. The decryption key lived on a damaged SOM board’s UFS NVRAM, not on the card itself. After desoldering and cloning that chip to a surrogate SOM and using SubC’s own tools, investigators finally decrypted the card. Only 12 stills and 9 videos were recovered, all from test and training operations—nothing from the accident dive.
 
----
+Investigators recovered an intact SD card from the Titan wreck’s damaged SubC underwater camera, but its data partition used undocumented encryption without a LUKS header. The likely key resided in unencrypted UFS storage on a shattered system module. After copying that storage onto a surrogate board and reconnecting the card to manufacturer hardware, the team recovered 12 stills and nine videos. None came from the fatal voyage: timestamps and scene correlation place them earlier, while a misconfigured network path indicates later imagery was probably stored on the submersible’s external computer.
 
 ### Comment pulse
-- OceanGate culture was disturbingly cavalier → interviews show engineers and even the engineering director believed the CEO was likely to kill himself with Titan.  
-- SubC misunderstood its own product → they initially thought data was unencrypted; key was sitting in clear on UFS; odd misconfig wrote one image to /mnt/nas/Stills.  
-  — counterpoint: deeper stacks and default encryption make such misunderstandings increasingly common, not just at this vendor.  
-- Encryption-by-default debate → improves security but raises risk owners lose access, and complicates forensic/data-recovery work; lower-layer “hidden” encryption is widespread already.
 
----
+- Default encryption surprised even the manufacturer → transparent lower-layer security complicated forensic access despite intact media and recoverable configuration storage.
+- Encryption tradeoffs polarized readers → automatic protection prevents unauthorized access. — counterpoint: hidden key management can permanently lock out legitimate owners.
+- The recovery proved anticlimactic → meticulous hardware reconstruction yielded only pre-accident media because operational footage was routed elsewhere.
 
 ### LLM perspective
-- View: This is a clean case study in real-world digital forensics: encryption, damaged hardware, vendor confusion, and careful lab work.  
-- Impact: Regulators and investigators need better cooperation and documentation from vendors to handle encrypted, embedded systems in accidents.  
-- Watch next: Industry and safety bodies may push for recoverability standards: key-escrow, dual-recording, or black-box–style logging on crewed experimental vehicles.
+
+- View: The report is a case study in recovering configuration-bound encrypted storage, not evidence from the accident itself.
+- Impact: Device makers need documented recovery architecture when safety investigations may depend on transparently encrypted embedded media.
+- Watch next: Recovery of the external computer, clearer key-management documentation, and whether future cameras preserve independently accessible incident data.

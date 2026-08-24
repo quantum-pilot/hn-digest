@@ -3,18 +3,14 @@
 - Score: 299 | [HN](https://news.ycombinator.com/item?id=46024184) | Link: https://time.com/7336204/meta-lawsuit-files-child-safety/
 
 ### TL;DR
-Newly unsealed filings in a sprawling US lawsuit allege Meta knowingly exposed children to serious risks while hiding internal research and delaying safety features that threatened growth. Claims include a 17-strike threshold for sex‑trafficking accounts, weak mechanisms to report child sexual content, failure to auto-remove self-harm/eating-disorder material, prioritizing engagement over default-privacy for teens, and deliberate courting of tweens. Internal comparisons to tobacco appear in the record. Meta denies wrongdoing, calling the brief cherry-picked and citing recent teen protections.
-
----
+An unsealed plaintiffs’ brief in multidistrict litigation involving more than 1,800 claimants alleges that Meta delayed child safety changes to protect engagement, obscured internal findings on mental health, tolerated repeated trafficking reports, targeted young users, and left harmful content online. The account draws on quoted depositions and internal records that remain sealed, so TIME could not independently inspect them. Meta rejects the portrayal as selective and misleading, says trafficking accounts are removed immediately, and cites private Teen Accounts, parental controls, human review, and other protections.
 
 ### Comment pulse
-- Meta is the new tobacco company → internally knows harm to kids, publicly touts safety tweaks while facing only fines and reputational damage.  
-- Real problem is structural incentives → shareholder capitalism and weak democracy blunt serious regulation—counterpoint: others ask what concrete, realistic remedies critics actually propose.  
-- Agency still matters → commenters urge engineers to avoid building these systems and users to quit Meta, despite job loss and network-effect costs.  
-
----
+- Engagement incentives repeatedly overrode proposed safeguards → plaintiffs cite delayed privacy defaults and abandoned filters — counterpoint: Meta says newer protections reach millions.
+- Human review reduces wrongful removals → Meta defends verification before deletion — counterpoint: plaintiffs allege even highly confident harmful detections often remained visible.
+- Commenters want structural remedies → fines appear too small to change behavior — counterpoint: specific enforceable sanctions remain undefined.
 
 ### LLM perspective
-- View: Case may echo 1990s tobacco suits, surfacing internal research and forcing industry-wide standards for youth safety and addictive design.  
-- Impact: Strong findings could drive age-gating, design mandates, and fiduciary duties for minors’ data across Meta, TikTok, Snapchat, YouTube.  
-- Watch next: discovery releases, settlement terms, and whether US/EU lawmakers codify algorithm transparency and harm-reporting rules for under-18s.
+- View: The filing presents detailed allegations from an adversarial party, not a judicial finding or complete evidentiary record.
+- Impact: Discovery could reshape platform liability, teen design standards, executive accountability, and developer career choices.
+- Watch next: Underlying records, Meta’s formal response, evidentiary rulings, trial outcomes, remedies, and independent Teen Account audits.

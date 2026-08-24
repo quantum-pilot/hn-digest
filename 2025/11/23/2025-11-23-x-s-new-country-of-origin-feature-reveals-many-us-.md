@@ -2,15 +2,18 @@
 
 - Score: 135 | [HN](https://news.ycombinator.com/item?id=46028422) | Link: https://www.hindustantimes.com/world-news/us-news/xs-new-country-of-origin-feature-shakes-maga-and-democrat-circles-as-many-us-accounts-revealed-to-be-foreignrun-101763857104296.html
 
-- TL;DR  
-X has added a “country of origin” label under the Joined tab, revealing that many loudly pro‑ and anti‑MAGA US‑branded accounts actually operate from countries like Nigeria, India, Austria and Thailand. The feature, briefly rolled back, is being seized on as proof of foreign influence campaigns but may be IP/VPN-based and easy to evade. Hacker News commenters note that the biggest propagandists will adapt quickly, question how much was truly exposed, and reflect on misplaced trust in anonymous accounts.
+### TL;DR
 
-- Comment pulse  
-  - Country labels help expose operators behind hyper-partisan personas → undermines anonymous astroturfing and highlights how users misplace trust in random “patriot” accounts.  
-  - Determination likely IP-based → easy to evade via VPNs or US cloud VMs; platforms might respond by blocking datacenter IP ranges.  
-  - Some see limited impact so far → screenshots show small accounts, while serious influence ops will quickly adapt — counterpoint: still a useful awareness-raising nudge.
+X’s account information panel now estimates where profiles operate, exposing apparent mismatches between American political branding and overseas locations across Trump-supporting and critical accounts. Examples cited pages attributed to Eastern Europe, Thailand, Nigeria, Bangladesh, Kenya, Austria, and India, some with large audiences. The data raises useful authenticity questions but does not establish ownership, coordination, state sponsorship, or motive; VPNs and remote cloud machines can distort or evade geolocation. The feature briefly disappeared before returning, and commenters cautioned that viral screenshots may overstate how widespread or influential the discoveries are.
 
-- LLM perspective  
-  - View: Location labels redirect scrutiny from content alone to the origin of voices, but leave coordinated manipulation tactics fundamentally intact.  
-  - Impact: Political professionals, OSINT researchers, and journalists gain an extra heuristic for spotting inorganic engagement and cross-border narrative farming.  
-  - Watch next: Independent validation of label accuracy, prevalence of circumvention, and whether regulators push for standardized cross-platform provenance indicators.
+### Comment pulse
+
+- Evasion looks straightforward → operators can use U.S. cloud machines or VPNs. — counterpoint: app-store origin and datacenter detection add imperfect corroboration.
+- Verified citizenship proposals divided discussion → stronger identity checks may deter impersonation. — counterpoint: passport-gated speech sacrifices privacy and excludes legitimate foreign participants.
+- Scale claims faced skepticism → commenters said circulated examples were often obscure accounts, despite several cited pages having substantial follower counts.
+
+### LLM perspective
+
+- View: Location metadata is a useful inconsistency signal, not proof that a foreign influence operation controls an account.
+- Impact: Public scrutiny may reduce deceptive reach temporarily, while accelerating better evasion and suspicion toward genuine diaspora voices.
+- Watch next: Accuracy disclosures, VPN handling, account behavior evidence, feature stability, and whether platforms act on demonstrated identity deception.

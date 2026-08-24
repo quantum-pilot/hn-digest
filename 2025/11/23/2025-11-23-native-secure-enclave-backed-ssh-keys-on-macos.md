@@ -2,15 +2,18 @@
 
 - Score: 278 | [HN](https://news.ycombinator.com/item?id=46025721) | Link: https://gist.github.com/arianvp/5f59f1783e3eaf1a2d4cd8e952bb4acf
 
-- TL;DR  
-  macOS 15 “Tahoe” quietly added native Secure Enclave–backed SSH keys via /usr/lib/ssh-keychain.dylib as a SecurityKeyProvider. You can create FIDO-style resident SSH keys tied to Touch ID using sc_auth, load them through ssh/ssh-agent/ssh-keygen, and never expose private key material outside the enclave. There’s also an exportable mode that encrypts keys with the enclave for backup and transfer. HN discussion focuses on key backup strategies, comparisons to YubiKeys/Secretive/TPM, and using SSH CAs or extended tooling for broader workflows.
+### TL;DR
 
-- Comment pulse  
-  - Non-exportable enclave keys concern some → device loss kills access; others note this matches YubiKeys and recommend multiple device keys or SSH CAs instead.  
-  - sc_auth also supports an “exportable” variant → private key is enclave-encrypted, can be password-protected and re-imported elsewhere—counterpoint: exporting undermines strongest security model.  
-  - Some extend enclave keys beyond SSH → patched GPG and custom agents use ECDSA-in-enclave; others clarify “private key files” here are non-secret FIDO handles.
+macOS Tahoe can create P-256 SSH credentials inside Apple’s Secure Enclave and expose them through the system ssh-keychain security-key provider. Users can require Touch ID, load resident credentials into ssh-agent, or create reference files containing no private material. Setting one provider environment variable lets standard OpenSSH commands use the native path, potentially replacing helper applications. Non-exportable keys maximize isolation but disappear with the device; a separate exportable mode instead encrypts key material with the enclave and supports password-protected backup and import at reduced security.
 
-- LLM perspective  
-  - View: Using Secure Enclave as a native FIDO SecurityKeyProvider meaningfully hardens SSH auth on macOS with little user friction.  
-  - Impact: Developers and ops teams gain hardware-backed keys without YubiKeys; expect gradual migration from Secretive and ad-hoc TPM integrations.  
-  - Watch next: Watch for Apple docs, OpenSSH sk_enroll integration, and third-party tools leveraging biometryCurrentSet or attestation for higher-assurance SSH and code-signing.
+### Comment pulse
+
+- Backup concerns dominated → device-bound keys vanish with lost hardware. — counterpoint: multiple credentials or an SSH certificate authority provide recovery.
+- Native support attracted Secretive users → fewer applications simplifies setup. — counterpoint: smart-card-style tooling may offer a rougher interface.
+- Reference files were clarified → exported OpenSSH private-key stubs identify enclave credentials but contain no secret key material.
+
+### LLM perspective
+
+- View: Native integration meaningfully improves key custody, provided users deliberately separate non-exportable authentication from recovery access.
+- Impact: Teams can reduce extractable SSH secrets while retaining familiar OpenSSH workflows and explicit biometric approval.
+- Watch next: Tahoe reliability, agent forwarding behavior, enterprise deployment guidance, backup policy, and support beyond P-256 credentials.

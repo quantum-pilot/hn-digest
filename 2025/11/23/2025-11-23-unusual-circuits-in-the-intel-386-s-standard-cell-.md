@@ -2,15 +2,18 @@
 
 - Score: 208 | [HN](https://news.ycombinator.com/item?id=46020543) | Link: https://www.righto.com/2025/11/unusual-386-standard-cell-circuits.html
 
-- TL;DR  
-Ken Shirriff reverse‑engineers a standard‑cell region of Intel’s 1985 386, showing how its complex register‑selection logic is built from huge multiplexers implemented with CMOS transmission‑gate switches and inverters. He finds a lone “out‑of‑grid” PMOS transistor, likely a late ECO bug‑fix dropped into the routing channel, and a reused inverter cell whose transistors are secretly driven separately to add extra mux cases. HN readers dig into the IBM‑mainframe CAD toolchain, transmission‑gate practice, and evolution‑designed circuits that exploit analog chip quirks.
+### TL;DR
 
-- Comment pulse  
-  - Evolved hardware can look even stranger → Thompson’s 1990s FPGA experiments produced unstructured circuits exploiting parasitics and analogue behavior, working only on one specific chip.  
-  - Transmission gates as muxes → commenters note this standard‑cell style reduces static hazards versus AND/OR muxes—counterpoint: hazards are often removed by adding redundant consensus terms.  
-  - Toolchain and schedule context → Intel used Timberwolf and custom tools on IBM 3081 mainframes; despite early-stepping bugs, 386 development beat its 50 man‑year plan.
+Die-level reverse engineering shows how Intel used standard cells and automated placement and routing to rescue the schedule of its 285,000-transistor 386. Register selection required unusually large multiplexers built from CMOS transmission switches. One PMOS transistor sits outside the regular cell columns, plausibly a hand-added bug fix that avoided rerunning expensive mainframe layout. Other cells resembling inverters actually separate their NMOS and PMOS gates, adding selectable high, low, or disconnected cases. These physical exceptions reveal how early automation coexisted with manual optimization and interpretation.
 
-- LLM perspective  
-  - View: These artifacts show how standard‑cell flows still require creative “escape hatches” for ECOs and quirky late‑stage fixes.  
-  - Impact: Understanding historical mux and latch tricks can inspire leaner datapath control in FPGAs and open‑source ASIC libraries today.  
-  - Watch next: Systematically catalog other 386 regions to quantify how much area timing‑driven automatic layout sacrificed versus hand‑tuned blocks.
+### Comment pulse
+
+- Transmission-gate terminology refined the analysis → commenters noted these CMOS switches avoid hazards and often use buffers to restore drive.
+- Tooling history fascinated readers → Unix, Timberwolf, proprietary routing, and an IBM mainframe let engineers automate work despite management constraints.
+- Ahead-of-schedule claims drew skepticism → early steppings had bugs. — counterpoint: cited records measured architecture-to-production and unusually fast tapeout.
+
+### LLM perspective
+
+- View: The anomalous transistor is a bug-fix hypothesis, while the fake inverters are directly evidenced by layout.
+- Impact: Standard-cell automation accelerated a foundational processor while preserving enough flexibility for local manual repairs and unconventional cell reuse.
+- Watch next: Completion of the register-control reconstruction, evidence for the patch theory, and comparisons with later synthesized x86 designs.

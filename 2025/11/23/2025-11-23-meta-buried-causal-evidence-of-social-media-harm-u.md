@@ -3,18 +3,17 @@
 - Score: 612 | [HN](https://news.ycombinator.com/item?id=46019817) | Link: https://www.reuters.com/sustainability/boards-policy-regulation/meta-buried-causal-evidence-social-media-harm-us-court-filings-allege-2025-11-23/
 
 ### TL;DR
-Unsealed court filings in a lawsuit by U.S. school districts allege Meta shut down an internal 2020 “Project Mercury” study, conducted with Nielsen, after it found that deactivating Facebook/Instagram for a week *caused* reductions in depression, anxiety, loneliness and social comparison. Plaintiffs say Meta then told Congress it couldn’t quantify harm, while internally designing youth safety features to be weak and tolerating egregious thresholds for sex‑trafficking and predator accounts. Meta denies wrongdoing, calling the study flawed and the filings cherry‑picked. HN discussion centers on scams, elder/teen harm, and the need for regulation and healthier communication tools.
 
----
+Unredacted filings in school districts’ lawsuit allege Meta halted Project Mercury after a 2020 Nielsen experiment found one week away from Facebook and Instagram reduced depression, anxiety, loneliness, and social comparison. Plaintiffs say internal researchers considered the social-comparison result causal and valid, while the company later told Congress it could not quantify harm to teenage girls. The filing also alleges weak youth protections and growth-first decisions. Meta disputes the characterization, calls the methodology flawed and evidence cherry-picked, and is contesting how much underlying material becomes public.
 
 ### Comment pulse
-- Meta platforms enable mass scams, especially targeting elders → families report devastating financial and emotional damage; demand strict liability for scam ads and fraudulent accounts.  
-- Meta is akin to tobacco/oil in hiding harm → engagement‑driven, ad‑funded models degrade mental health and civic life; regulation and even “corporate death penalties” are floated — counterpoint: some urge caution about plaintiffs’ spin on internal thresholds.  
-- Simply quitting isn’t enough → technologists should build non-addictive, utility-first, possibly non‑corporate or non‑US communication systems; client-side tools to block dark patterns may help but can themselves be exploited.
 
----
+- Families connected platform harm to elder scams → engagement systems expose cognitively vulnerable users at scale beyond the lawsuit’s youth focus.
+- Self-regulation drew rejection → commenters compared suppressed risk research with tobacco, oil, and chemical industries. — counterpoint: undisclosed documents remain adversarially characterized.
+- The seventeen-strike allegation prompted caution → automation may need false-positive safeguards. — counterpoint: plaintiffs portray the threshold as indefensibly permissive.
 
 ### LLM perspective
-- View: This case crystallizes a shift from “correlation” debates to alleged *internal causal* evidence of harm plus conscious suppression.  
-- Impact: In-house research, safety teams, and corporate communications at ad-driven platforms will face heavier legal scrutiny and discovery risk.  
-- Watch next: Whether the court unseals Meta’s documents; legislative moves on youth/elder online protections; experiments with non-engagement business models.
+
+- View: The experiment matters because deactivation offers stronger causal evidence, but litigation claims and methodology still require public scrutiny.
+- Impact: Proven concealment could strengthen liability, disclosure, and child-safety regulation across engagement-driven platforms.
+- Watch next: The January hearing, unsealed documents, study design details, Meta’s rebuttal, and remedies sought by school districts.

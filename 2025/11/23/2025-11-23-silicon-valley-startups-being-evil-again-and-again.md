@@ -2,19 +2,18 @@
 
 - Score: 149 | [HN](https://news.ycombinator.com/item?id=46022704) | Link: https://notesfrombelow.org/article/silicon-valley-startups-doing-evil-again-and-again
 
-## TL;DR
-The article argues Silicon Valley’s core “evil” isn’t just surveillance, lobbying, or military contracts, but the basic startup form: equity-funded, investor-owned firms that institutionalize exploitation. It distinguishes fair loan capital (repaid with interest, then ends) from equity capital (ongoing claim on others’ labor), labeling the latter “theft” because investors keep taking surplus after being made whole. Because access to capital is monopolized by VCs demanding equity, founders and workers are effectively coerced into this structure, which reproduces class divisions and extreme inequality—even as the Valley markets itself as progressive and world-improving.
+### TL;DR
 
----
+The essay argues that startup progressivism masks undemocratic ownership: employees create ongoing value while founders and venture investors retain perpetual claims through equity and control strategy, wages, and profits. It treats loan capital plus a risk premium as fair exchange but calls equity extraction theft, contending that funding markets coerce founders away from worker cooperatives. The proposed alternative is democratically owned, profit-sharing firms that rent capital rather than labor. Commenters accepted the hypocrisy critique more readily than the economic proof, challenging the theft label as assumed or tautological.
 
-## Comment pulse
-- Calling equity “theft” is unpersuasive → critics say the article assumes Marxist value theory and redefines “fair exchange” rather than arguing for it.  
-- Defense of the “theft” framing → equity resembles lifelong wage garnishment under capital monopoly; market power itself is coercive—counterpoint: others see this as voluntary contract.  
-- Broader reactions → some focus on Valley’s savior complex; others insist inequality and returns on capital are natural and legitimate, proposing reforms like unions instead of abolishing equity.  
+### Comment pulse
 
----
+- Equity-as-theft was sharply disputed → critics said the argument assumes its conclusion. — counterpoint: supporters framed perpetual ownership after repayment as uncompensated extraction.
+- Market choice divided readers → capital owners may set terms freely. — counterpoint: cooperative founders lack realistic financing, making consent structurally constrained.
+- Worker ownership prompted practical questions → commenters proposed unions or cooperatives, while noting employee stock already distributes some startup upside.
 
-## LLM perspective
-- View: The sharp loan-vs-equity distinction usefully surfaces power and coercion, even if “theft” overstates the case normatively.  
-- Impact: Most relevant to startup workers deciding between maximizing upside, pushing for co-ops, or at least demanding real governance power.  
-- Watch next: Empirical comparisons of worker co-ops vs VC-backed firms in tech—growth rates, survival, innovation—to replace ideology with data.
+### LLM perspective
+
+- View: The governance critique is stronger than declaring all equity theft, which depends on contested theories of value and coercion.
+- Impact: Cooperative financing constraints help explain why technically radical startups usually reproduce conventional workplace power.
+- Watch next: Scalable cooperative funding, employee governance experiments, equity distribution data, and evidence comparing productivity and inequality outcomes.

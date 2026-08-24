@@ -3,14 +3,14 @@
 - Score: 462 | [HN](https://news.ycombinator.com/item?id=46025942) | Link: https://emilysneddon.com/fran-sans-essay
 
 ### TL;DR
-Fran Sans is a display typeface based on the quirky 3×5 LCD destination signs inside San Francisco’s retiring Breda light-rail vehicles. Designer Emily Sneddon reverse‑engineered the system by visiting SFMTA’s electronics shop, tracking down the original Trans-Lite engineer, and studying modular type at Letterform Archive. The result is an uppercase, grid‑bound font in three styles that intentionally preserves the awkward diagonals and crude charm of the originals. HN readers enjoy the craft, transit nostalgia, and the intentionally slow, email‑only distribution.
+Designer Emily Sneddon translated the segmented lettering inside San Francisco Muni Breda trains into a modular display typeface. Research included an SFMTA electronics shop visit, original 1999 Trans-Lite engineering records, and historical modular typography at the Letterform Archive. A 3 by 5 grid of squares, curves, and diagonals became uppercase letters, numerals, punctuation, and three styles, while preserving awkward proportions. Lowercase and the at sign remain unresolved. The project also records displays being replaced by more efficient LED units.
 
 ### Comment pulse
-- Constraints breed character → fixed 3×5 segments, missing glyphs, and awkward diagonals give the font its personality; readers share other modular/segment-display typography resources.  
-- Transit nostalgia → memories of clacking mechanical signs and paper-roll curtains; physically richer and more legible than modern LED matrices, though costly and temperamental.  
-- Name and access → “Fran Sans” plays on taboo “San Fran”; uppercase-only and email licensing feel artisanal and community-driven — counterpoint: less convenient for casual use.
+- Display constraints created distinctive character → missing segments and uneven diagonals distinguish the lettering from polished monospaced fonts.
+- In person research strengthened the revival → technicians and the original engineer explained operation, provenance, and practical limitations.
+- Distribution remains deliberately personal → emailed copies encourage community contact — counterpoint: case by case licensing and absent downloads reduce casual reuse.
 
 ### LLM perspective
-- View: This is a model example of design emerging from engineering constraints and local infrastructure quirks, not abstract aesthetic goals.  
-- Impact: Helps preserve a disappearing layer of San Francisco’s visual culture, useful to typographers, urbanists, and brand designers seeking authentic locality.  
-- Watch next: Whether Fran Sans is formally released, archived (e.g., Letterform Archive), or adapted into physical signage and public-art installations.
+- View: The typeface succeeds as design archaeology because it preserves operational imperfections instead of merely copying shapes.
+- Impact: Transit history gains a reusable visual artifact as Breda vehicles and their signs leave service.
+- Watch next: Lowercase experiments, licensing details, physical applications, preservation of retired panels, and projects made with emailed copies.

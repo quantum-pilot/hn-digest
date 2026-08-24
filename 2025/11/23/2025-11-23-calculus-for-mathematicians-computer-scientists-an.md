@@ -3,18 +3,14 @@
 - Score: 209 | [HN](https://news.ycombinator.com/item?id=46024773) | Link: https://mathcs.holycross.edu/~ahwang/print/calc.pdf
 
 ### TL;DR
-Hwang’s freely available text is a bridge between standard calculus and real analysis, aimed at math, CS, and physics students who want both computational fluency and conceptual depth. It starts from sets, logic, and number systems, then builds limits, continuity, integration, differentiation, series, Taylor approximation, and some complex analysis, all with explicit attention to rigor, proof, and the philosophy of mathematics. Hacker News discussion focuses on rigor vs accessibility, audience creep in calculus, and whether multiple “tracks” can be unified in one book.
-
----
+Andrew Hwang’s text combines single variable calculus with a gentle introduction to real analysis and mathematical practice. It begins with sets, logic, number systems, functions, limits, and continuity before developing integration, differentiation, fundamental theorems, function sequences, elementary functions, and Taylor approximation. The preface promises intuition without sacrificing proof, plus calculation, first principles, philosophy, and substantial results. Commenters liked the bridge toward rigorous mathematics but questioned whether proof oriented and application oriented audiences can be served equally, and noted it is not a computer science specific Big O treatment.
 
 ### Comment pulse
-- Rigor vs scope → Hard to make calculus rigorous without turning it into full real analysis; this book leans rigorous but still prioritizes functions and applications.  
-- Textbook culture → Western texts seen as less rigorous over time; some blame massification and publishers, others argue rigor can be offloaded to proof assistants like Lean.  
-- Audience split → Debate whether one book can serve proof-oriented math majors and technique-focused science/engineering students—counterpoint: their skills and goals often diverge too much.
-
----
+- Early logic and set theory build proof literacy → definitions and hypotheses become tools rather than memorized vocabulary.
+- A unified audience is ambitious → mathematicians need proof while scientists need technique — counterpoint: shared foundations can make both approaches more durable.
+- The computer science framing is broad → abstraction and recursion supply examples, not a specialized asymptotic calculus.
 
 ### LLM perspective
-- View: This is essentially “intro real analysis via calculus” with good on-ramps for CS and physics, not a plug-and-chug course.  
-- Impact: Best suited to strong undergrads or autodidacts wanting to move from computational calculus into proof-based mathematics.  
-- Watch next: Compare adoption versus classics like Apostol; see if companion problem sets or solution manuals emerge for self-study audiences.
+- View: The book works as a rigorous transition text, not a conventional drill manual or full analysis course.
+- Impact: Students gain conceptual foundations that support later mathematics, physics, and theoretical computer science.
+- Watch next: Exercise difficulty, solution support, classroom reports, proof progression, and balance between computation and theory.

@@ -2,15 +2,18 @@
 
 - Score: 319 | [HN](https://news.ycombinator.com/item?id=46023013) | Link: https://www.makingsoftware.com/chapters/shaders
 
-- TL;DR  
-An interactive piece explains how shaders can turn simple x,y coordinates into rich images by running tiny programs per pixel, illustrating the GPU pipeline and shader stages. Commenters like the execution but correct mistakes in its graphics‑API diagram (Vulkan vs WebGL/WebGPU vs DirectX vs Metal, and WebGPU’s scope). The thread then branches into shader playground recommendations, frustrations with current GPU programming ergonomics, and clearer mental models of shaders as per‑sample functions atop SIMT hardware.
+### TL;DR
 
-- Comment pulse  
-  - Article misrepresents Vulkan/WebGL/WebGPU/DirectX/Metal: Vulkan is an open standard, not open source; WebGPU and Vulkan are broader and more cross‑platform than described.  
-  - Readers share shader IDEs for experimentation: Shadertoy, Shadron, SHADERed, KodeLife, Cables, Bonzomatic, Metal Playgrounds, plus a Shadertoy‑like desktop client using WebGPU.  
-  - GPU programming feels fragile and under‑tooled: complex setup, quirks, weak debuggers; others say low‑level explicit APIs replaced over‑abstracted designs—counterpoint: this still burdens beginners.
+The tutorial explains graphics as a pipeline: vertex shaders transform geometry, rasterization converts triangles into fragments, and fragment shaders calculate colors using coordinates plus uniforms, textures, interpolated values, normals, and lighting math. GPUs trade single-task latency for parallel throughput, making calculations efficient. Examples build gradients and Phong lighting before surveying APIs and compute shaders. Commenters praised the visual teaching but corrected its simplifications: shaders are not inherently GPU-only or coordinate-driven, WebGPU also supports native applications, and APIs map directly onto platform backends rather than uniformly through Vulkan.
 
-- LLM perspective  
-  - View: Treat shaders as pure functions from inputs to colors; start in high‑level playgrounds before touching low‑level graphics APIs.  
-  - Impact: Accessible explanations plus correct API details can draw developers into GPU work, especially for visualization, games, and ML inference.  
-  - Watch next: smoother debugging/profiling tools atop WebGPU/WGPU, and beginner resources that bridge shader math, data formats, and real‑world pipelines.
+### Comment pulse
+
+- The diagrams drew technical corrections → WebGL and WebGPU map directly to Metal or Direct3D, and Vulkan is neither universal nor open source.
+- Beginner accessibility earned praise → interactive visuals make pipeline concepts tangible. — counterpoint: oversimplifying execution models can teach durable misconceptions.
+- GPU developer experience frustrated readers → backend fragmentation, setup complexity, performance traps, and weak cross-platform debugging overwhelm otherwise elegant shader code.
+
+### LLM perspective
+
+- View: The pipeline framing is pedagogically effective, but the coordinate premise describes a fragment-shader exercise rather than shaders generally.
+- Impact: Readers gain enough mental structure to experiment, yet may need corrective material before reasoning about production GPU behavior.
+- Watch next: Revised API diagrams, SIMT coverage, native WebGPU clarification, and tooling that makes cross-backend debugging less brittle.
