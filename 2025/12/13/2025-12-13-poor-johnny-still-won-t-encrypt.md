@@ -2,19 +2,18 @@
 
 - Score: 73 | [HN](https://news.ycombinator.com/item?id=46251952) | Link: https://bfswa.substack.com/p/poor-johnny-still-wont-encrypt
 
-## TL;DR
-Email encryption usability has barely improved since the 1990s. PGP is still clunky and poorly integrated with dominant webmail; S/MIME works better in enterprises but is painful to deploy, especially on Microsoft stacks. Auditors obsess over disk/TLS encryption but largely ignore end-to-end protection, and most SMTP links don’t enforce strong transport security like MTA-STS. Meanwhile, secure messengers (Signal, WhatsApp) and corporate chat (Slack, Teams) have displaced email for most sensitive communication, so incentives to fix email encryption keep shrinking.
+### TL;DR
 
----
+End-to-end email encryption remains almost as awkward as it was in 1998. OpenPGP still demands key discovery and management, while webmail displaced desktop clients that offered better support. S/MIME fits enterprise PKI and has wider client adoption, but Microsoft deployments remain manual and poorly documented. Meanwhile, low MTA-STS adoption leaves transport encryption largely opportunistic and downgradeable. Email’s replacements differ: Signal adds replay resistance, forward secrecy, and post-compromise protection; Slack and Teams remain readable by their servers. HN focused on backups, interoperability, and long-term key custody.
 
-## Comment pulse
-- Key management is the real blocker → users want idiot-proof, multi-device key backup; Signal’s “history loss is a feature” clashes with most people’s expectations.  
-- S/MIME can work at scale → governments and some companies encrypt everything by default with smart cards and managed certs, but lose searchability and webmail convenience.  
-- Hosted “private” email is distrusted → Proton is criticized for lock-in and jurisdictional risk—counterpoint: APIs for public keys exist and PGP interop technically works.
+### Comment pulse
 
----
+- Government smart cards and a small company’s long-running S/MIME deployment show organizations can encrypt, but search, webmail, peer adoption, and archives suffer.
+- Key recovery split threat models: some accept ephemeral history; others want replicated encrypted backups resilient to lost devices without creating an exploitable recovery path.
+- Proton interoperability criticism drew a concrete correction: public keys are retrievable and outside senders can encrypt, though outgoing defaults remain confusing.
 
-## LLM perspective
-- View: Email will stay mostly unencrypted end-to-end; serious secrecy continues moving to session-based messengers and specialized systems.  
-- Impact: Enterprises and regulators mainly care about compliance checkboxes, so disk/TLS encryption win budget over harder UX problems like key management.  
-- Watch next: Adoption of MTA-STS/DANE, better automatic key discovery, and whether big providers ever make default S/MIME actually painless.
+### LLM perspective
+
+- View: The unsolved problem is durable, comprehensible key lifecycle management across people and devices, not cryptographic primitives.
+- Impact: Sensitive mail remains readable to providers or becomes inaccessible to owners when organizational key custody fails.
+- Watch next: Automatic key discovery, recoverable multi-device stores, enforced transport policies, searchable local decryption, and managed S/MIME automation.

@@ -3,18 +3,17 @@
 - Score: 80 | [HN](https://news.ycombinator.com/item?id=46250862) | Link: https://99percentinvisible.org/episode/650-the-checkerboard/
 
 ### TL;DR
-In the American West’s “checkerboard” lands—alternating one‑mile squares of public and private property created by 19th‑century railroad grants—huge areas of nominally public land are effectively landlocked. Two elk hunters in Wyoming used “corner crossing” (moving diagonally from one public square to another without touching private ground) to reach Elk Mountain, provoking criminal and civil cases from a billionaire ranch owner. After years of litigation, the 10th Circuit ruled for the hunters, affirming public access across corners in six states and spotlighting broader tensions over land, wealth, and access.
 
----
+Alternating one-square-mile public and private parcels across the American West trace to post-Civil War railroad grants designed to support expansion and raise retained land values. At Wyoming’s Elk Mountain, a ranch owner treated corner contact between public parcels as trespass, prompting hunters to cross diagonally without touching private ground. Criminal charges and a multimillion-dollar civil suit produced a five-year fight. The Tenth Circuit sided with the hunters, preserving access across six western states; the Supreme Court declined review, leaving the rule uncertain elsewhere. HN compared broader rights-of-way and right-to-roam systems.
 
 ### Comment pulse
-- Many countries embed public rights of way or “road allowances” into rural land grants → prevents owners from weaponizing geometry to block access.  
-- Some propose different parcel layouts or universal foot access laws → design and policy could have avoided decades of conflict—counterpoint: U.S. property-rights culture makes such reforms politically hard.  
-- Right‑to‑roam examples (Scotland, Germany) show coexistence of private ownership and public passage → undermines claims that allowing crossing meaningfully harms landowners.
 
----
+- Readers viewed blocked corners as de facto private control of public land, with local authorities enforcing a billionaire owner’s expanded perimeter.
+- Alternative parcel layouts could preserve access — counterpoint: the original scheme expected government-held squares to be sold later, making the checkerboard temporary.
+- Canadian road allowances and Scottish or German access rules made the American dispute seem avoidable through limited public passage rights.
 
 ### LLM perspective
-- View: The case exposes how legacy infrastructural decisions silently govern present-day freedoms and inequalities in land use.  
-- Impact: Western public-land users gain leverage; large landholders lose a de facto veto over millions of “public but unreachable” acres.  
-- Watch next: State-level statutes clarifying corner crossing, test cases in other circuits, and potential federal standards for public access across fragmented lands.
+
+- View: A geometric point can determine practical control over millions of acres, separating nominal public ownership from usable access.
+- Impact: Six states gain public access, while landowners lose an exclusion strategy that multiplied the value of adjacent parcels.
+- Watch next: Cases outside the Tenth Circuit, state legislation, access infrastructure, land purchases, and conflicts over touching fixtures.

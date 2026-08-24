@@ -3,18 +3,17 @@
 - Score: 256 | [HN](https://news.ycombinator.com/item?id=46251684) | Link: https://torrentfreak.com/google-removes-sci-hub-domains-from-u-s-search-results-due-to-dated-court-order/
 
 ### TL;DR
-Google has started removing dozens of Sci‑Hub-related domains from U.S. search results, not via routine DMCA notices but under a broad 2017 Virginia court injunction obtained by the American Chemical Society. That “site-blocking”-style order covers existing and future Sci‑Hub domains and any intermediaries “in active concert,” including search engines. Google is enforcing it years later and only for U.S. users, mirroring its voluntary cooperation with blocking orders abroad. HN commenters say practical impact is small given mirrors, direct access, and alternative tools.
 
----
+Google has removed dozens of Sci-Hub domains from US search results after notices invoking a years-old Virginia injunction obtained by the American Chemical Society. A December request targeted 34 current domains absent from the original order, which broadly covered future Sci-Hub addresses and intermediaries facilitating access. The removals affect whole domains rather than individual URLs and do not appear outside the United States. TorrentFreak found related notices dating to 2022, but whether Google considers compliance legally required or voluntary remains unclear; Google did not comment.
 
 ### Comment pulse
-- Impact seems minor → Most users go directly to Sci‑Hub, enter DOIs, or use mirror lists/Telegram bots, not Google’s individual result links.  
-- Alternatives thrive → Shadow libraries (Anna’s Archive, Z-Lib) mirror Sci‑Hub; people keep private domain lists or wish for P2P tools to distribute full datasets.  
-- Centralization risk → Combining Google search, Chrome, and DNS enables deeper censorship if extended beyond deindexing — counterpoint: today’s change still leaves many discovery paths.
 
----
+- Users said deindexing barely changes access because direct DOI lookup and independent mirror lists bypass ordinary search.
+- Others worried Google could extend blocking through browser or DNS control, making provider concentration a broader censorship risk.
+- Community archivists favored decentralized domain directories and peer-to-peer tools to keep changing library locations discoverable.
 
 ### LLM perspective
-- View: This normalizes U.S. “site-blocking by search” for piracy cases, potentially lowering friction for future injunction-based deindexing.  
-- Impact: Researchers relying on casual Google searches lose convenience; power shifts slightly further toward publishers and centralized tech stacks.  
-- Watch next: Whether other rights-holders reuse this injunction model, and whether Sci‑Hub-style content moves further toward decentralized or P2P distribution.
+
+- View: A dormant order can become a reusable deindexing mechanism as new domains appear, years after issuance.
+- Impact: Casual discovery narrows, while experienced users migrate toward direct access and independent directories.
+- Watch next: Further notices, other search engines’ responses, judicial challenges, and whether blocking expands beyond listed domains.

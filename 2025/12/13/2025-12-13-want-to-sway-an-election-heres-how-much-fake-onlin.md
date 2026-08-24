@@ -3,18 +3,17 @@
 - Score: 102 | [HN](https://news.ycombinator.com/item?id=46257871) | Link: https://www.science.org/content/article/want-sway-election-here-s-how-much-fake-online-accounts-cost
 
 ### TL;DR
-Cambridge researchers built a year-long price index for SMS-based account verification, exposing a gray market that makes large-scale fake accounts very cheap in some countries. Prices range from a few cents in Russia and the U.S. to several dollars in Japan and Australia, shaped by SIM costs and ID rules. Spikes in Telegram and WhatsApp verification prices before elections indicate political influence demand. The tool reframes election interference as an economic infrastructure problem, prompting calls for stronger platform checks and SIM policies.  
 
----
+Cambridge researchers collected a year of prices and inventory from four gray-market SMS-verification sellers, indexing infrastructure behind fake accounts. A verification cost about $0.08 in Russia, $0.26 in the United States, $3.24 in Australia, and $4.93 in Japan, reflecting SIM costs and registration rules; X had the deepest supply. Telegram and WhatsApp prices rose before major elections, suggesting demand worth investigating, not proof of manipulation or changed votes. Proposed choke points include stronger platform checks and SIM regulation, with future tracking planned for likes and complete accounts.
 
 ### Comment pulse
-- Concern: Hungary’s 2026 election vulnerable to Russian-aligned manipulation → ruling Fidesz seen bypassing ad rules while pro‑EU, educated Hungarians emigrate, weakening internal democratic resistance.  
-- Account price alone is misleading → influence depends on geography, longevity, and ban risk; stricter SIM regimes (e.g., Japan) raise costs and limit reach.  
-- Effect on voting remains debated → some doubt measurable persuasion, others stress “consensus mirage,” where coordinated praise creates false majority opinion — counterpoint: evidence sparse.  
 
----
+- Critics said price alone omits account age, credibility, ban risk, regional reach, and whether a purchased identity can influence its intended audience.
+- Cheap foreign accounts may still inflate preferred viewpoints, while one reader questioned whether any evidence connects these purchases to changed ballots.
+- Consensus mirages concern users least able to notice social reinforcement, making market supply relevant even when vote conversion remains unmeasured.
 
 ### LLM perspective
-- View: Treat the SMS-verification market like financial markets—continuous monitoring can flag manipulation surges earlier than post-hoc content analysis.  
-- Impact: Regulators, election watchdogs, and platforms can prioritize high-risk countries or services where prices or volumes deviate sharply from baselines.  
-- Watch next: Correlate price spikes with campaigns or narratives, and model how SIM regulations shift manipulation to alternative channels.
+
+- View: The index is an economic sensor for demand, not a causal measure of persuasion, fraud, or election outcomes.
+- Impact: Researchers and regulators gain market signals; attackers retain advantages in account aging, targeting, and evasion beyond SMS verification.
+- Watch next: Platform registration volumes, account survival, conversion into engagement, election-linked price anomalies, and policy-driven cost changes.

@@ -2,21 +2,18 @@
 
 - Score: 166 | [HN](https://news.ycombinator.com/item?id=46255335) | Link: https://old.reddit.com/r/mildlyinfuriating/comments/1plldqo/my_lg_tvs_new_software_update_installed_microsoft/
 
-## TL;DR
-LG reportedly pushed a software update that installs Microsoft Copilot on some TVs and doesn’t allow users to remove it, while also re‑enabling tracking features like LivePlus. HN discussion treats this as part of a broader pattern: “smart” TVs are subsidized by surveillance and ads, and now bundled AI assistants deepen that lock‑in. Many propose opting out entirely—buying “dumb” displays, never connecting TVs to the internet, or moving to Linux and external boxes—as trust in Microsoft and TV vendors erodes.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+A Reddit post shows Microsoft Copilot appearing after an LG webOS update as a non-removable app and alleges that Live Plus viewing recognition was enabled by default. Reports in the supplied thread vary by model and region; several users say Live Plus and automatic content recognition predate this update. Most recommend disconnecting televisions, using replaceable streaming hardware, or blocking telemetry. Counterpoints note that external boxes also collect data and firmware can fix OLED behavior. HN saw demand for premium owner-controlled displays, constrained by lost advertising subsidies and supplier scale.
 
----
+### Comment pulse
 
-## Comment pulse
-- Want “Framework-style” dumb TVs → modular, repairable displays with minimal firmware and optional soundbar; ad subsidies mean such products would be niche and expensive—counterpoint: use a monitor + external box.
-- Anti-Microsoft tipping point → forced Copilot, accounts, ads, and disruptive updates push users to Linux and treat Windows only as a gaming/legacy VM.
-- Privacy outrage over LivePlus → silent re‑enabling of viewing-data tracking feels like appliance spyware; commenters call for a legal “right to be left alone.”
+- A premium dumb OLED drew enthusiasm for owner-first hardware — counterpoint: losing ad revenue, purchasing volume, and retail leverage raises prices.
+- Several readers considered Live Plus surveillance worse than the bundled assistant and called for opt-in privacy or a right to be left alone.
+- Microsoft’s forced accounts, ads, updates, and Copilot placement pushed some users toward Linux, despite appreciation for its earlier open-source shift.
 
----
+### LLM perspective
 
-## LLM perspective
-- View: Bundling unremovable AI into appliances normalizes continuous data capture and erodes the notion of “off” or “owned” devices.
-- Impact: TV makers, OS vendors, and adtech gain leverage; privacy‑sensitive users retreat to offline hardware and open platforms.
-- Watch next: Regulatory moves on dark patterns in devices; market tests of premium dumb TVs; community firmware to de-bloat or firewall smart TVs.
+- View: The core violation is post-purchase control changing silently, not whether one bundled assistant is useful.
+- Impact: Owners must choose between connected features and minimizing telemetry, while privacy becomes a premium hardware attribute.
+- Watch next: Regional defaults, uninstallability, consent persistence after updates, network traces, firmware benefits, and demand for offline displays.

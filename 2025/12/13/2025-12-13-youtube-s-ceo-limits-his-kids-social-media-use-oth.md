@@ -2,15 +2,18 @@
 
 - Score: 178 | [HN](https://news.ycombinator.com/item?id=46253985) | Link: https://www.cnbc.com/2025/12/13/youtubes-ceo-is-latest-tech-boss-limiting-his-kids-social-media-use.html
 
-## TL;DR
-Neal Mohan, YouTube’s CEO and Time’s 2025 CEO of the Year, says he strictly limits his three kids’ time on YouTube and other social platforms, favoring “everything in moderation.” The article situates this alongside mounting evidence of harms from youth smartphone and social media use, Australia’s under‑16 social media ban, and similar restrictions by Bill Gates, Susan Wojcicki, and Mark Cuban. Commenters debate whether this is basic parenting or revealing hypocrisy from companies optimizing for engagement and addiction.
+### TL;DR
 
-## Comment pulse
-- Public admission matters → CEO limiting his kids signals implicit risk in a product marketed as kid-friendly. — counterpoint: many see this as unremarkable, parenting.  
-- Hypocrisy debate → critics cite addictive algorithms and YouTube Kids branding; defenders compare it to alcohol CEOs reasonably limiting adult-only products at home.  
-- Enforcement and harm → screen-time tools help some, but are clumsy, bypassable; commenters liken social media to cigarettes and “brainrot,” urging solutions beyond individual willpower.  
+YouTube chief Neal Mohan says he and his wife restrict their three children’s use of YouTube, other platforms, and media, enforcing tighter weekday limits while favoring moderation over prohibition. Former chief Susan Wojcicki limited younger children to YouTube Kids, while Bill Gates delayed phones until age 14 and Mark Cuban monitored apps through network controls. The article places these choices beside expert warnings and Australia’s under-16 platform ban. HN split over whether this is ordinary parenting or revealing caution from executives whose products and engagement systems actively target children.
 
-## LLM perspective
-- View: Publicly acknowledging limits can normalize restraint norms and open space for stricter default settings without appearing anti-tech.  
-- Impact: If major platforms ship opinionated child defaults and time caps, individual parents rely less on brittle OS-level controls.  
-- Watch next: Empirical comparisons of bans, design nudges, and media-literacy curricula will reveal scalable combinations for healthier youth online habits.
+### Comment pulse
+
+- Some saw routine limits analogous to television or games — counterpoint: YouTube markets a children’s product while optimizing engagement, unlike adult-only goods.
+- Parents praised device controls but reported confusing interfaces, persistent messaging notifications, easy workarounds, and an unequal technical burden on families.
+- Readers urged separating young-child screen exposure, teen short-form video, and peer-group social media because their risks and appropriate rules may differ.
+
+### LLM perspective
+
+- View: Executive household rules are informative but cannot establish harm; they reveal a risk judgment hidden by consumer marketing.
+- Impact: Parents remain primary enforcers while platforms control defaults, persuasive design, and whether practical limitation tools work.
+- Watch next: Australia’s enforcement, age-verification effects, independent youth outcomes, notification controls, and simpler cross-device limits.

@@ -2,22 +2,17 @@
 
 - Score: 85 | [HN](https://news.ycombinator.com/item?id=46251620) | Link: https://woodrush.github.io/blog/posts/2022-01-12-lisp-in-life.html
 
-## TL;DR
+### TL;DR
 
-A developer built a full Lisp interpreter that literally runs inside Conway’s Game of Life. The Lisp is first written in C, compiled by ELVM into QFTASM for a custom CPU implemented in an 8-state cellular automaton (VarLife), then “metafied” so each VarLife cell becomes a huge OTCA metapixel running on standard Life. Programs are fed in as ASCII in RAM; the system supports closures, macros, and nontrivial examples (OO-style code, Z combinator). Heavy multi-layer optimizations make small Lisp programs finish in minutes (VarLife) or hours (pure Life) on a modern PC.
+Hikaru Ikuta built a Lisp interpreter that runs inside Conway’s Game of Life, demonstrating the cellular automaton’s universality through a high-level language rather than assembly alone. Lisp source enters as ASCII-encoded cells; output appears in simulated RAM. A C interpreter supporting lexical closures and macros is compiled through ELVM to a modified Quest for Tetris CPU, first represented in VarLife and then converted with 2,048-by-2,048 metapixels. Extensive optimizations make a tiny multiplication program finish in VarLife in about one minute, but native Life still needs roughly six hours.
 
----
+### Comment pulse
 
-## Comment pulse
+- Readers situated ELVM as a C front end and intermediate representation targeting deliberately strange machines, including QFTASM and lambda calculus.
+- Related references showed the same theme through register machines, Diophantine equations, and earlier discussions of this project.
 
-- This fits a tradition of “extreme compilation targets” → compared to Chaitin’s LISP interpreter compiled into a single Diophantine equation.  
-- ELVM context → 8cc-to-IR-to-weird-backends toolchain, including QFTASM and λ-calculus; same author previously built C and Lisp machinery expressed purely in λ-calculus.  
-- Meta-note → this project has multiple prior HN threads; commenters see it as part of a growing niche of computation-in-esoteric-media demos.
+### LLM perspective
 
----
-
-## LLM perspective
-
-- View: Demonstrates an end-to-end stack from C to high-level Lisp evaluation embedded in a Turing-complete cellular automaton, stressing practical engineering, not just theory.  
-- Impact: Useful as a teaching and research artifact for compilation pipelines, PL implementation, and cellular automata–based computing.  
-- Watch next: Tooling that generalizes this approach—automated backends from IRs/VMs to other physical or symbolic substrates (CAs, circuits, proof assistants).
+- View: The project is valuable as an end-to-end proof, not as a practical execution environment.
+- Impact: It exposes how compilers, architecture, representation, and simulation costs compound across abstraction layers.
+- Watch next: Smaller patterns, faster Hashlife runs, broader C compatibility, and independent verification of claimed novelty.

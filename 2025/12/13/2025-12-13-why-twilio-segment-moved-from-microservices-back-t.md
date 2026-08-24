@@ -2,15 +2,18 @@
 
 - Score: 115 | [HN](https://news.ycombinator.com/item?id=46257714) | Link: https://www.twilio.com/en-us/blog/developers/best-practices/goodbye-microservices
 
-- TL;DR  
-    - Twilio Segment originally put each “destination” integration in its own microservice and repo to isolate failures and support custom transforms. At ~140 services, shared libraries, autoscaling quirks, and deployment/testing overhead turned the system into a fragile distributed monolith. They collapsed everything into a single service and monorepo, backed by a fast, recorded HTTP test suite and centralized queuing, boosting reliability and developer velocity despite weaker fault isolation. HN commenters argue much of the pain reflected organizational discipline and tooling gaps more than architecture alone.
+### TL;DR
 
-- Comment pulse  
-    - Shared libs and lockstep deploys → effectively a distributed monolith; microservices share stable APIs — counterpoint: some updates (e.g., security) must hit every service anyway.  
-    - Root cause was org and tooling, not architecture → poor CI, autoscaling, oncall, and test strategy; with discipline and better platforms, microservices could have worked.  
-    - Practitioners report monoliths easier for refactoring, contracts, and debugging; microservices add coordination overhead. Several want multi-service monorepos plus smarter CI instead of strict monolith/multi-repo split.
+Segment split its destination queue into services and repositories to isolate partner outages and tests. Past 140 integrations, library versions diverged, autoscaling became bespoke, three engineers mostly maintained the system, and every destination added overhead. The team consolidated code into one repository and service, used Centrifuge for delivery, and recorded HTTP fixtures, shrinking hour-long tests to milliseconds. Deployments accelerated, but fault isolation and cache efficiency worsened, while dependency changes gained wider blast radius. HN said the deeper lesson concerns tooling, coupling, and organizational discipline, not a universal architecture choice.
 
-- LLM perspective  
-    - View: Architecture debates hide a process lesson—without automated testing, deployment, and scaling, any style decays into fragile complexity.  
-    - Impact: Teams maintaining many near-identical adapters or integrations can likely simplify into one codebase and service, slashing ops toil.  
-    - Watch next: Better repo/CI partitioning, contract-testing, and schema versioning tools that let organizations get microservice benefits without drowning in coordination.
+### Comment pulse
+
+- Some called the fleet a distributed monolith because shared libraries forced coordinated upgrades — counterpoint: security fixes and communication contracts couple separate services too.
+- Monorepos and microservices are independent choices; one team used Bazel dependency queries to test affected targets while deploying services separately.
+- Readers blamed flaky integration tests, weak autoscaling, and ownership structure as much as topology, while practitioners reported success with both extremes.
+
+### LLM perspective
+
+- View: Service boundaries help when components differ in lifecycle and ownership; repeated global changes expose boundaries drawn too finely.
+- Impact: Consolidation shifts cost from operations and coordination toward larger blast radius, shared scaling, and stricter test discipline.
+- Watch next: Destination crash containment, cache hit rates, Centrifuge behavior, build growth, dependency upgrades, and team velocity.

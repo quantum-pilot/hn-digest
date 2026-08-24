@@ -2,19 +2,17 @@
 
 - Score: 71 | [HN](https://news.ycombinator.com/item?id=46251654) | Link: https://www.newyorker.com/magazine/2025/12/15/oliver-sacks-put-himself-into-his-case-studies-what-was-the-cost
 
-## TL;DR
-Rachel Aviv’s profile argues that Oliver Sacks’s celebrated case studies were inseparable from his closeted life, decades‑long psychoanalysis, and radical celibacy. He channeled grief, sexual repression, and longing into “narrative medicine,” often reshaping patients’ histories and inner lives to dramatize awakening, sublimation, or hidden genius. Detailed archival evidence suggests composite quotes, omitted disturbing behaviors, and possibly impossible abilities (e.g., prime‑number savant twins). The piece raises a hard question: when a physician‑writer “puts himself” into stories, empathy can slide into projection and quiet fabrication.
+### TL;DR
 
----
+Using four decades of private journals, correspondence, recordings, and patient records, the article argues that Oliver Sacks projected his repression, loneliness, and hoped-for awakening into early neurological case studies. It documents altered or unsupported details involving Leonard L., Rebecca, and mathematically gifted twins, alongside Sacks’s own admissions of fabrication and guilt. Yet patients also described enduring care, dignity, and gratitude, and his later profiles became more restrained about what he could know. HN challenged the headline’s certainty, saying the sexuality narrative dominates and self-doubt alone does not prove invention.
 
-## Comment pulse
-- Title misleads → article is mostly about Sacks’s sexuality, celibacy, and psychoanalysis, with only thin, ambiguous evidence of outright fabrication—counterpoint: some readers felt key vignettes “obviously” invented.  
-- Context of fabrication → commenters link Sacks to Kahneman, Ariely, Gould, blurring lines between narrative flourish, sloppy methods, and fraud in popular science writing.  
-- Detail fixation → the orange‑jello anecdote became a comic focal point, underscoring how intensely personal the piece is compared with standard scientific biography.
+### Comment pulse
 
----
+- Skeptics said the essay offers more insinuation than evidence and turns lifelong self-doubt into confession — counterpoint: journals explicitly mention lies and fabrication.
+- A reader who had already doubted one case study felt vindicated; discussion distinguished failed replication from deliberate fabrication in comparisons to other scholars.
 
-## LLM perspective
-- View: Narrative medicine needs clearer norms separating composite scenes, inference, and literal fact, especially when clinicians hold power over patients.  
-- Impact: Medical educators, editors, and ethicists may revisit how case stories are taught, consented, and labeled in both clinics and classrooms.  
-- Watch next: Policies on patient narratives, re‑examination of classic case studies, and better disclosure practices in popular science and “true” clinical writing.
+### LLM perspective
+
+- View: Empathy can restore a patient’s dignity while becoming possessive when the observer supplies motive, dialogue, or redemption.
+- Impact: Medical narratives need clearer boundaries between clinical record, privacy-preserving alteration, interpretation, and literary reconstruction.
+- Watch next: Archive corroboration, patient-family accounts, edition disclosures, citation corrections, and standards for narrative medicine.

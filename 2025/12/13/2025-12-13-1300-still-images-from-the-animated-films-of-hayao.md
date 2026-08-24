@@ -2,15 +2,18 @@
 
 - Score: 208 | [HN](https://news.ycombinator.com/item?id=46251582) | Link: https://www.ghibli.jp/info/013772/
 
-- TL;DR  
-  Studio Ghibli has quietly released over 1,300 high‑resolution stills from nearly all its films, including The Boy and the Heron, for free “common‑sense” reuse. The galleries showcase Ghibli’s meticulous backgrounds and iconic moments, and fans are grabbing them for wallpapers, screensavers, and creative projects. Hacker News discussion turns into a celebration of Miyazaki’s visual storytelling, hopes for preserving the collection in archives, and a friendly guide for newcomers on which movies to watch first (and which tearjerkers to delay).
+### TL;DR
 
-- Comment pulse  
-  - Ghibli stills capture liminal journeys → commenters share favorite frames of trains, skies, and arrivals that feel eerily familiar and emotionally transporting.  
-  - Archive it now → users want a zipped collection in Internet Archive instead of scattered galleries or Mega links, to ensure long‑term preservation.  
-  - Where to start with Ghibli → community suggests Totoro, Kiki, Ponyo, Spirited Away for families; warn that Grave of the Fireflies is devastating.
+Studio Ghibli’s official gallery offers roughly 1,300 downloadable stills from numerous films, released in batches beginning in 2020. Its August 2023 update added 14 images from The Boy and the Heron and permits reuse within common-sense limits. Readers treated the collection as both a source of emotionally resonant compositions and a gateway into the studio’s catalog. Discussion ranged from practical preservation and display uses to choosing suitable starting films for children, teenagers, and adults.
 
-- LLM perspective  
-  - View: Official, high‑quality art released for broad reuse signals a softer stance on fan sharing and noncommercial derivatives.  
-  - Impact: Designers, educators, and app makers gain safe assets for themes, slides, and ambient displays without legal ambiguity.  
-  - Watch next: Clarify “common‑sense” limits, monitor for abusive scraping, and see whether other animation studios follow Ghibli’s example.
+### Comment pulse
+
+- Viewers singled out Ghibli’s landscapes and arrival scenes for evoking memory, possibility, and journeys beyond the frame.
+- Recommendations varied by age and mood: adventures, warm family films, and complex fantasies each offered distinct entry points.
+- Several readers wanted the collection preserved as one archive, making offline browsing and reuse easier.
+
+### LLM perspective
+
+- View: The gallery is both reusable creative material and a visual index of Ghibli’s storytelling range.
+- Impact: Easy access helps fans, educators, and display projects reuse film imagery without relying on screenshots.
+- Watch next: Whether Ghibli expands the archive, clarifies reuse boundaries, or provides official bulk downloads.

@@ -2,15 +2,18 @@
 
 - Score: 220 | [HN](https://news.ycombinator.com/item?id=46255991) | Link: https://blog.tymscar.com/posts/gleamaoc2025/
 
-- TL;DR  
-  Author used Gleam, a statically typed FP language on the BEAM, for Advent of Code’s shortened 12‑day edition and found it an excellent fit for “parse → transform → fold” problems. Standout features were ergonomic debugging (`echo`), safe grid handling via options, a strong list toolbox (`transpose`, `combination_pairs`), and `fold_until` for clean early exits. Friction points included missing stdlib file IO/regex, some pattern‑matching and comparison verbosity, JS vs BEAM integer differences, and having to shell out for LP solving. HN broadly praises Gleam’s dev experience, performance, and LSP, while debating verbosity, OTP maturity, ecosystem gaps, and adoption dynamics in an LLM era.
+### TL;DR
 
-- Comment pulse  
-  - Gleam admired for clean typing on BEAM; some correct confusion between BEAM and OTP; worry LLMs might slow new-language adoption—counterpoint: models learn from examples.  
-  - Dev experience lauded: fast code, exceptional LSP, pleasant FP pipelines; downsides include aggressive formatter, module-qualified names like list.map, limited libraries, and verbose boolean branching.  
-  - Some miss recursive inner functions and richer pattern matching; compare Gleam unfavorably to Scheme/Erlang elegance, yet value static typing and BEAM interoperability.
+A programmer who has completed Advent of Code for seven years used Gleam for 24 parts of 2025’s shortened event and found it unusually pleasant. Clean syntax, strong compiler errors, a reliable LSP, pipelines, safe option handling, and rich list functions made parsing and transformations concise. Friction included missing standard-library file I/O and regex, limited list patterns, verbose comparisons, target-dependent big integers, and no Z3 bindings. HN broadly confirmed the developer experience and surprising speed, while noting sparse libraries, formatter choices, namespace verbosity, and that BEAM and OTP are distinct.
 
-- LLM perspective  
-  - View: AoC highlights Gleam’s strengths for data‑heavy FP: pipelines, algebraic types, list utilities, and early‑exit folds reduce incidental complexity.  
-  - Impact: Could attract FP‑curious web and backend developers to BEAM; feedback here prioritizes better stdlib IO, regex, boolean ergonomics, and OTP completeness.  
-  - Watch next: Track ecosystem growth: numerical and SAT/SMT libraries, JS/BEAM integer unification, and whether LSP quality plus AoC visibility drive broader production adoption.
+### Comment pulse
+
+- Users praised the LSP, pipelines, type system, and double-digit-microsecond solutions, while warning that performant patterns differ from other languages.
+- Library gaps and verbose namespaces drew criticism — counterpoint: selective imports reduce repeated module prefixes, and maintainers fixed one break within a day.
+- Commenters corrected a terminology error: Gleam targets BEAM; its type-safe OTP library implements a smaller subset than Erlang or Elixir.
+
+### LLM perspective
+
+- View: Gleam’s appeal comes from coherent tools and constrained functional patterns, not a single novel feature.
+- Impact: Puzzle fluency suggests a low-friction learning path, but production adoption depends on ecosystem depth and interoperability.
+- Watch next: Real-project experience, library coverage, cross-target integer behavior, native bindings, formatter control, and OTP parity.
