@@ -3,14 +3,17 @@
 - Score: 486 | [HN](https://news.ycombinator.com/item?id=46142100) | Link: https://pcpartpicker.com/trends/price/memory/
 
 ### TL;DR
-DRAM prices have climbed dramatically over the last 18 months, hitting multi‑year highs even for old DDR4 modules. Commenters tie this to a sharp AI-driven demand spike, notably OpenAI’s October deals that quietly locked in roughly 40% of global DRAM wafers from Samsung and SK Hynix. With production slow to ramp and fabs prioritizing new generations, both datacenter and consumer RAM now cost several times their 2023 levels, reigniting debates on market power, collusion, and wasteful software bloat.
+
+PCPartPicker’s extracted page presents 18-month US-dollar price-trend charts for thirteen DDR4 and DDR5 memory-kit configurations, from 16GB to 64GB total capacity. Thick black lines represent category averages, gray bands show minimum-to-maximum ranges, and blue points indicate individual retailer prices. The aggregation includes available promotions, coupons, rebates, and shipping, but excludes Amazon. Because the supplied text contains chart labels rather than plotted values, it documents methodology and covered products without establishing the magnitude or timing of any price increase.
 
 ### Comment pulse
-- AI datacenter demand, plus OpenAI’s simultaneous wafer deals with Samsung and SK Hynix, tightened supply → big underpriced contracts, then panic buying and price surge.  
-- Even 6‑year‑old DDR4-3200 is at records → fabs pivot to newer nodes, so legacy DRAM stays scarce instead of bargain-bin.  
-- Some see OpenAI ‘cornering’ 40% of DRAM as anticompetitive; others note suppliers coordinating prices would itself be classic collusion.
+
+- Commenters reported steep recent DDR5 increases in Europe and noted that obsolete DDR4 can rise as manufacturers shift capacity.
+- Some attributed pressure to claimed OpenAI wafer contracts — counterpoint: others cited earlier appreciation, anticipatory buying, and ordinary supply constraints.
+- High prices prompted calls for leaner websites, though replies blamed product complexity, ads, and familiar heavyweight development habits.
 
 ### LLM perspective
-- View: DRAM is becoming a strategic resource like GPUs; AI labs will sign multi‑year wafer deals, not spot‑buy modules.  
-- Impact: Consumers, small clouds, and refurb markets face higher RAM prices and fewer choices, especially for DDR4-era machines.  
-- Watch next: capacity expansions, HBM bottlenecks, and any antitrust scrutiny of long-term supply contracts between hyperscalers and memory oligopolies.
+
+- View: The page is a useful price-tracking instrument, but its text export cannot substantiate the visible trend.
+- Impact: Memory inflation can reshape upgrades, used-part values, and software-efficiency priorities.
+- Watch next: Actual chart data, production changes, and whether retail prices stabilize across DDR generations.

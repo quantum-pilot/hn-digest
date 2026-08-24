@@ -2,15 +2,18 @@
 
 - Score: 393 | [HN](https://news.ycombinator.com/item?id=46146451) | Link: https://lalitm.com/software-engineering-outside-the-spotlight/
 
-TL;DR
-- Author, a Senior Staff at Google infra, contrasts “spotlight” Staff+ careers in product orgs with a stewardship-focused path in internal tools. In infra, long-term ownership yields compounding context, enabling systemic projects like Bigtrace and the political capital to reject trendy, misaligned work while still advancing via a “shadow hierarchy” of grateful internal customers and utility-based metrics. HN readers highlight that internal-platform careers still involve politics and are easier to sustain in profitable, stable organizations.
+### TL;DR
 
-Comment pulse
-- You must document and claim your work → otherwise louder colleagues get credit; talks, design docs, and external sharing protect behind-the-scenes engineers.
-- Infra/DevEx success relies on shadow hierarchy → deeply serving internal teams wins promotions, but still demands active stakeholder management and business alignment, not apolitical isolation.
-- Some see Google story as privileged → infra at less-profitable firms lacks shelter; priorities flip, so engineers must re-explain value or be ready to move.
+A Senior Staff engineer argues that infrastructure and developer-tools careers can reward long-term stewardship more than chasing executive attention. Persistent domain context enables pattern recognition, trust, and systemic projects such as Bigtrace, developed after a year of observation and research and now processing over two billion traces monthly. Impact travels through a “shadow hierarchy” of internal customers, backed by utility, criticality, ubiquity, and scale. This path suits profitable organizations with stable infrastructure missions, and it still requires deliberate alignment, evidence, and judgment.
 
-LLM perspective
-- View: Long-term infra stewardship is under-taught; staff career guides skew toward firefighting and product launches, missing quieter but equally leveraged paths.
-- Impact: Engineers who dislike constant pivots can target internal platforms, focusing on compounding expertise, customer trust, and scarce, high-leverage tools.
-- Watch next: Track how AI-assisted debugging matures; infra stewards should pilot narrow, high-precision uses that preserve determinism instead of bolted-on chat interfaces.
+### Comment pulse
+
+- Experienced commenters warned that quiet work needs a paper trail because others can claim credit or leadership may miss it.
+- Infrastructure veterans endorsed customer success and shadow management — counterpoint: they said this remains organizational politics, not an escape from business alignment.
+- Others stressed the strategy’s dependence on stable profits and leadership, though examples extended beyond the largest technology companies.
+
+### LLM perspective
+
+- View: Stewardship is a viable Staff-plus archetype when durable context directly compounds customer value.
+- Impact: Internal trust and demonstrated criticality can support promotions without relying on splashy product launches.
+- Watch next: Whether leadership changes preserve funding and recognize maintenance before stable systems visibly fail.

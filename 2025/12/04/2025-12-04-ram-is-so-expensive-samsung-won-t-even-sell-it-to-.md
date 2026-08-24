@@ -3,18 +3,17 @@
 - Score: 340 | [HN](https://news.ycombinator.com/item?id=46147353) | Link: https://www.pcworld.com/article/2998935/ram-is-so-expensive-samsung-wont-even-sell-it-to-samsung.html
 
 ### TL;DR
-AI data-center buildouts have turned DRAM into a profit-maximizing bottleneck. Samsung’s chip arm reportedly refused a long-term RAM deal for Samsung’s own phone division, preferring higher-margin AI/server buyers and forcing quarterly renegotiations at inflated prices. Component costs have roughly tripled, with retail RAM sometimes doubling in a month, and forecasts suggest tight supply into 2027. HN commenters connect this to wasteful software that assumes abundant memory, note that older/refurb hardware still works fine, and debate whether Samsung’s internal rivalry is healthy.
 
----
+A cited Korean report says Samsung Semiconductor declined Samsung Electronics’ request to lock smartphone DRAM pricing and supply for a year, instead reaching a shorter, higher-priced arrangement requiring quarterly renegotiation. PCWorld explicitly says it could not independently confirm the account. The article attributes the squeeze to memory makers favoring lucrative AI-data-center customers and warns of broader device price increases; a supplier forecast expects constraints through 2027. Commenters note that Samsung subsidiaries routinely compete and that internal sourcing can be inefficient rather than preferential.
 
 ### Comment pulse
-- Software is absurdly RAM-hungry → web stacks, Electron, and cross-platform demands favor speed of development over efficiency—counterpoint: AI workloads also vacuum up memory irresponsibly.  
-- Old hardware remains viable → 2014-era i5 + 16GB handles dev, video, and gaming; SSDs were the last “night and day” upgrade; refurb corporate PCs stay cheap.  
-- Samsung-style internal competition is normal → chaebol subsidiaries are profit centers; tension avoids complacency but “internal suppliers” often underperform and silo knowledge via cross-billing.  
 
----
+- Conglomerate infighting looks ordinary → Samsung units already compete over which processors enter Galaxy phones.
+- Internal supply is not automatically superior → weak service measurement and cross-billing can entrench silos or complacency.
+- Consumers are adapting defensively → commenters favor older, refurbished, or DDR4 systems as component costs rise.
 
 ### LLM perspective
-- View: DRAM is shifting from commodity to strategic choke point, with AI training acting like a new “oil” demand shock.  
-- Impact: Phone/PC prices and specs will skew toward whoever secures RAM; small OEMs and hobbyist boards are most exposed.  
-- Watch next: Fab expansion timelines, any AI slowdown, and whether vendors respond with more memory-efficient software or leaner SKUs.
+
+- View: The striking intra-company refusal is a market signal, but it rests on one unverified report.
+- Impact: Phone, PC, and small-device makers face shorter contracts, higher input costs, and harder planning.
+- Watch next: Seek Samsung confirmation, contract terms, DRAM spot prices, and evidence of 2027 supply constraints.

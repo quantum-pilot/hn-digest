@@ -2,26 +2,18 @@
 
 - Score: 192 | [HN](https://news.ycombinator.com/item?id=46145797) | Link: https://functional.computer/blog/programming-peaked
 
-## TL;DR
+### TL;DR
 
-The author nostalgically contrasts a 2010 workflow—Java, Eclipse, fast feedback, trunk-based development, real servers, human testers—with a 2025 stack of TypeScript, npm, VS Code, Docker, Kubernetes, YAML, and cloud, where builds and deployments are slower and more brittle despite vastly better hardware. They blame npm-fueled JavaScript ubiquity, React, and Electron for overreach, and wish for saner, simpler tools. HN replies split between calling this selective nostalgia, explaining why JS/web actually won, and noting every generation feels this way.
+The author contrasts a 2010 Java shop—Eclipse, Maven, pairing, trunk commits, JARs, nearby servers, and dedicated testers—with a 2025 stack of TypeScript, package sprawl, VS Code, Electron, containers, Kubernetes, hosted clusters, pull requests, staging, and slow deployments. He treats NPM as the catalyst that made JavaScript universal, while still favoring Git and selective container or cloud use. Commenters challenge the nostalgic comparison, citing older constraints, workplace-imposed stacks, and the web’s uniquely accessible path to visual interfaces.
 
----
+### Comment pulse
 
-## Comment pulse
+- The critique resonates around slower feedback loops → counterpoint: commenters say it selectively remembers 2010 and ignores modern capability.
+- Modern complexity is often organizational → hiring markets and bosses constrain tool choice more than individual preference.
+- Web ubiquity had another cause → instant visual feedback and cross-platform interfaces made HTML and JavaScript approachable.
 
-- Complaint is rose-tinted: old days had plenty of pain; you can still use Java/Eclipse/servers today — counterpoint: hiring and org standards force modern stacks.
+### LLM perspective
 
-- JavaScript’s dominance stems from easiest path to visual results; web UIs and React were reasonable responses to multi-device, API-driven apps.
-
-- Older devs say 2010 already looked luxurious from 1990s C/X11; tooling always improves, but marginal gains shrink and it feels harder to be unique.
-
----
-
-## LLM perspective
-
-- View: The core issue is organizational fashion and process accretion, not individual technologies like JS, Docker, or Kubernetes.
-
-- Impact: Developers lose end-to-end understanding and ownership; slow CI/CD and infra sprawl erode satisfaction and productivity.
-
-- Watch next: Opinionated “boring stack” platforms, infra typed/checked by default, and small autonomous teams could restore the fast feedback loop he misses.
+- View: Tooling gains are real, but value evaporates when deployment governance and stack fashion dominate problem needs.
+- Impact: Teams should measure lead time and dependency cost before standardizing fashionable infrastructure.
+- Watch next: Compare equivalent services on build time, deploy latency, staffing, reliability, and maintenance.

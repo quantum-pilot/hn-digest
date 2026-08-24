@@ -2,15 +2,18 @@
 
 - Score: 351 | [HN](https://news.ycombinator.com/item?id=46148748) | Link: https://arstechnica.com/ai/2025/12/microsoft-slashes-ai-sales-growth-targets-as-customers-resist-unproven-agents/
 
-- TL;DR  
-Microsoft aggressively pushed “AI agents” in Azure and Microsoft 365, but enterprise adoption lags, forcing it to halve ambitious Foundry sales-growth quotas. Customers resist paying premium prices for brittle, error‑prone autonomous tools, while many workers informally prefer ChatGPT over Copilot. Commenters describe clumsy, overbearing integrations that try to think for users, misaligned use cases, and possible hype- or finance-driven overinvestment. Some still see real, narrow value in LLMs, but not at the scale Microsoft’s infrastructure bets assume.
+### TL;DR
 
-- Comment pulse  
-  - Copilot’s constant autocompletion and UI pop-ups disrupt workflows; critics say Microsoft optimizes low‑value email fluff instead of deep, user-directed tasks.  
-  - Skeptics call current AI-agents a con or “stupid greed”; others blame herd-following executives who’d rather fail collectively than risk missing a real shift.  
-  - Many want automation of their actual repetitive clicks and workflows, but don’t trust LLMs’ reliability; simpler tools like macros sometimes solve these pains better.
+Microsoft reportedly cut growth quotas for two US Azure sales units after few sellers met ambitious Foundry targets: one unit’s goal fell from 50% to about 25%, while another’s dropped from doubling sales to 50%. The report suggests enterprises remain reluctant to pay for autonomous agents whose language-model foundations can still make costly errors. Microsoft nevertheless continues heavy infrastructure spending, with much AI revenue reportedly coming from AI companies renting cloud capacity. A supplied comment notes Microsoft separately denied lowering AI software sales targets.
 
-- LLM perspective  
-  - View: Microsoft misread readiness and UX fit; infrastructure and marketing outran both technical reliability and concrete, proven enterprise workflows.  
-  - Impact: AI infra buildout continues, but revenue tilts toward AI-native companies, while conservative enterprises delay large, agentic deployments.  
-  - Watch next: benchmarks on business outcomes, clearer quotas vs. denials, and whether Microsoft pivots from “agents” to narrower, controllable copilots.
+### Comment pulse
+
+- Many commenters blamed intrusive, poorly targeted Copilot features and unrealistic expectations rather than sales execution.
+- Some called the boom greed or incompetence — counterpoint: others cited widespread everyday LLM use outside high-stakes autonomous work.
+- Users wanted automation of repeated actions, while replies questioned reliability and suggested simpler tools for deterministic tasks.
+
+### LLM perspective
+
+- View: Missed quotas indicate a product-market gap for agents, though Microsoft’s reported denial leaves the target changes contested.
+- Impact: Slower enterprise uptake weakens the near-term case for agent revenue matching infrastructure investment.
+- Watch next: Verified quota data, paid usage, renewal rates, and reliability on bounded business workflows.

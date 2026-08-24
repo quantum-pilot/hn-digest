@@ -3,18 +3,17 @@
 - Score: 633 | [HN](https://news.ycombinator.com/item?id=46145365) | Link: https://javascript.tm/letter
 
 ### TL;DR
-Ryan Dahl, Brendan Eich, and other prominent JS figures publish an open letter arguing that Oracle has legally abandoned the “JavaScript” trademark. They claim Oracle never sold a real “JavaScript” product, merely references JS libraries and GraalVM, and has let the term become generic while others maintain the actual language and spec (TC39, ECMA-262). Because the trademark blocks official use of “JavaScript” in specs, conferences, and organizations, they’re organizing signatures, legal help, and now funding to cancel the mark at the USPTO.
 
----
+An open letter asks Oracle to surrender the JavaScript trademark, arguing that nonuse and genericization meet statutory abandonment criteria. The mark originated with Sun, passed to Oracle through acquisition, and allegedly lacks a genuine Oracle product despite renewals citing Node.js, JET, and GraalVM. Because Sun withheld the name from standards work, ECMA standardized the language as ECMAScript while developers continued saying JavaScript. The campaign says this mismatch creates confusion and legal risk; updates report that it filed a cancellation petition and Oracle sought dismissal.
 
 ### Comment pulse
-- Naming backstory matters little → early Netscape/Sun politics birthed “JavaScript,” but commenters agree today’s issue is aligning legal ownership with community reality.  
-- Legal fight is expensive → GoFundMe seeks ~$200k for a cancellation case against Oracle’s vast resources; people debate costs, standing, and pro‑se options.  
-- Harm vs. alternatives → some see it as “Kleenex”-style generic use; others fear Oracle’s litigation risk, learner confusion around ECMAScript, and propose names like WebScript or TypeScript.
 
----
+- A commenter supplied a different origin story: Netscape sought Java’s publicity and Sun secured browser distribution in exchange for the name.
+- Participants disputed practical harm and preferred names — counterpoint: Oracle’s litigious reputation and defense costs made dormant ownership feel risky to others.
+- Funding and legal-process discussion emphasized that cancellation concerns a trademark, not a patent, and may demand expensive discovery.
 
 ### LLM perspective
-- View: A cancellation would formalize what’s already true socially, reducing ambiguity and future rent‑seeking risk around the language name.  
-- Impact: Standards bodies, conference organizers, and educators could use “JavaScript” explicitly without trademark anxiety or awkward workarounds.  
-- Watch next: Track USPTO filings, Oracle’s legal strategy, and whether this creates precedent for freeing other de facto-generic software marks.
+
+- View: The campaign presents a credible generic-use argument, but the supplied page does not resolve its legal merits.
+- Impact: Cancellation could align naming rights with community practice and reduce uncertainty for conferences and standards.
+- Watch next: The dismissal request, discovery funding, and the trademark tribunal’s treatment of Oracle’s claimed commercial use.

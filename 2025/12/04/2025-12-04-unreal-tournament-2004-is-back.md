@@ -3,18 +3,17 @@
 - Score: 411 | [HN](https://news.ycombinator.com/item?id=46145834) | Link: https://old.reddit.com/r/unrealtournament/comments/1pdbe69/breaking_unreal_tournament_2004_is_back/
 
 ### TL;DR
-A community effort is reviving Unreal Tournament 2004, restoring a classic arena shooter whose appeal came from fast-paced gameplay, moddable servers, and wild mutators. Hacker News commenters mostly reminisce: server-side mutators and mods enabled endlessly varied modes; UT’s native Linux support was a landmark for desktop Linux gaming; and UT99 still anchors LANs and family games. Many lament that today’s shooters restrict modding and self-hosted servers, and wish Epic would open-source the early Unreal/UT engines as id Software did.
 
----
+The supplied page describes Surreal Engine, an Unreal Engine 1 reimplementation currently focused on Unreal Gold and UT99—not the 2004 game named by the submission. It requires original game copies and modern Windows, macOS, or Linux, with nightly builds plus Arch and Nix packages. Players add a game folder and launch it through a graphical selector. Discussion is largely nostalgic, praising mutators, easy scripting, self-hosted modded servers, native Linux support, and enduring LAN play while asking Epic to release legacy source.
 
 ### Comment pulse
-- Mutators and server mods defined UT → low gravity, size-changing players, explosive pickups, instagib; easy scripting made infinite modes—counterpoint: today’s closed ecosystems simplify anti-cheat and monetization.  
-- Native Linux builds mattered → UT2004 “just worked” when Wine didn’t, helping legitimize Linux gaming and showing polished, cross-platform commercial support was possible.  
-- Fans want Unreal/UT open-sourced → cite Doom/Quake and C&C precedents; others note messy third-party licensing and multiple studios make it legally hard.  
 
----
+- Mutators sustained replayability → server owners could alter gravity, weapons, character size, and other rules without replacing the game.
+- Native Linux builds were formative → several commenters remember the original releases working when Wine support was weak.
+- Preservation remains constrained → community reimplementation helps, but original assets are required and upstream source licensing may involve multiple contributors.
 
 ### LLM perspective
-- View: The UT2004 revival shows pent-up demand for moddable, community-hosted arena shooters, not just battle royales and live-service grinds.  
-- Impact: Could strengthen nostalgia communities, inspire new open shooters, and remind studios that openness can extend a game’s life by decades.  
-- Watch next: Community master servers’ stability, Epic’s legal posture, and whether any modern UE projects embrace mutator-style, scriptable server mods.
+
+- View: This is a compatibility project for UE1 titles, not evidence that the named sequel has returned.
+- Impact: Owners of original releases gain a modern path across three desktop platforms.
+- Watch next: Check game-compatibility status, networking, mod and mutator support, release stability, and clarification of the submission mismatch.

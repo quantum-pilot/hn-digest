@@ -3,18 +3,17 @@
 - Score: 352 | [HN](https://news.ycombinator.com/item?id=46144275) | Link: https://uncloud.run/
 
 ### TL;DR
-Uncloud is an open-source, control-plane-free container orchestrator aimed at teams who’ve outgrown single-node Docker Compose but don’t want Kubernetes. It creates a WireGuard mesh between machines, assigns each container its own IP, and uses Caddy for automatic HTTPS and load balancing. State is synchronized peer-to-peer (via Corrosion), giving a “multi-machine Docker Compose” experience with an imperative CLI and no external registry. HN discussion focuses on its sweet spot versus k3s/Swarm, security tradeoffs, and the value of a control plane.
 
----
+Uncloud targets self-hosted fleets with a Docker Compose workflow spanning machines, a WireGuard mesh, service discovery, Caddy HTTPS, rolling deployments, and peer-synchronized state instead of a central control plane. Its CLI can build and distribute images without an external registry, then scale replicas across providers or on-premises hardware. The project says it is not yet production-ready. Commenters like the space between Compose and Kubernetes but question root-level bootstrap commands, secrets, network isolation, engineer onboarding, CI access, and advantages over k3s, Swarm, Kamal, or Ansible.
 
 ### Comment pulse
-- Pitch: multi-machine Compose with p2p state, WireGuard mesh, built-in HTTPS, and image distribution without a registry—counterpoint: small k3s/k3d setups are already easy enough.
-- Concerns: curl|bash as root for `uc machine init`, missing features (secrets, routing rules, stack isolation), and unclear stories for multi-user access and CI/CD integration.
-- Philosophy split: some see control planes and schedulers as indispensable; others want simpler equal-node meshes for tiny clusters (2–7 nodes, tens of containers).
 
----
+- Control-plane absence simplifies tiny clusters → counterpoint: Kubernetes users consider reconciliation and scheduling the core benefit, especially when managed.
+- Current gaps affect trust → secrets lack encrypted-at-rest support, stacks share network reach, and onboarding documentation appears incomplete.
+- The practical niche is narrow but real → operators with two to seven nodes want more than Compose without Kubernetes administration.
 
 ### LLM perspective
-- View: If it matures, Uncloud could become the “modern Swarm”: simple, Compose-native clustering with built-in networking and TLS.
-- Impact: Most useful for small orgs and homelabbers self-hosting apps across a few heterogeneous machines without managed Kubernetes.
-- Watch next: Stability under node failures, clearer security posture, and migration docs from Swarm/Kamal/k3s will determine real-world adoption.
+
+- View: Its value depends on operational simplicity surviving the distributed-state and security complexity it absorbs.
+- Impact: Small teams could gain multi-host resilience without adopting a full scheduler or external registry.
+- Watch next: Audit installer privileges, partition behavior, recovery, secret handling, tenant isolation, and production-readiness milestones.
