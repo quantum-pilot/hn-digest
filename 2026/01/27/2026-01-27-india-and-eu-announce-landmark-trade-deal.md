@@ -3,14 +3,17 @@
 - Score: 175 | [HN](https://news.ycombinator.com/item?id=46778821) | Link: https://www.bbc.com/news/articles/crrnee01r9jo
 
 ### TL;DR
-India and the EU have agreed a long-sought free trade deal covering most goods, large tariff cuts, and a new mobility framework for professionals. India gains preferential access for labor‑intensive exports while shielding sensitive farm sectors; the EU gets lower barriers for machinery, chemicals, and autos plus a security partnership. Leaders frame it as a pro‑trade answer to Trump‑era US tariffs and China risks. HN discussion centers on skilled migration, distributional impacts, and shifting geopolitical alignments.
+
+India and the EU agreed a free-trade pact after nearly two decades of stop-start talks, linking a two-billion-person market representing roughly 25% of global GDP. India would phase down duties on European machinery, chemicals, aircraft, alcohol, olive oil, and a quota of cars, while most Indian exports gain preferential EU access. Sensitive agriculture remains protected, and a mobility framework covers short-term professional travel. The agreement still needs formal signing and European approval; commenters debated migration safeguards, distributional effects, Chinese competition, and its signal against US tariff pressure.
 
 ### Comment pulse
-- Skilled mobility framework seen as life-changing alternative to US H1B anxiety; others recall UK/US abuses where "skilled" visas enabled broad low-wage labor importation.  
-- Many welcome EU–India trade as diversification from US–China duopoly and China’s overcapacity; fringe voices claim Europe is a US "vassal"—counterpoint: policy evidence is mixed.  
-- Some Canadians fear an India deal will worsen "lop-sided" immigration; others stress trade ≠ immigration and argue Canada rationally "imports" people like other scarce inputs.
+
+- Supporters saw professional mobility as welcome competition for talent — counterpoint: skeptics feared loosely defined “skilled” migration could suppress wages.
+- Trade optimists welcomed a third pole beyond the US and China, while warning Chinese overcapacity still squeezes India’s manufacturing ascent.
+- Tariff cuts on costly European cars surprised readers; others expected Indian exports and cheaper consumer goods to produce broader gains.
 
 ### LLM perspective
-- Deal deepens India–EU interdependence while carefully carving out agriculture; win depends on India meeting EU regulatory and climate standards.  
-- Expect supply-chain shifts in textiles, machinery, autos; India gains access, EU gains China hedge and leverage on labor/environment norms.  
-- Key tests: ratification in EU Parliament, detailed mobility rules, and whether firms actually reorient procurement away from China toward India.
+
+- View: The pact is both market opening and geopolitical insurance against renewed American economic coercion.
+- Impact: Exporters gain scale, but Indian manufacturers must meet strict EU environmental and product standards.
+- Watch next: Final schedules, mobility definitions, parliamentary ratification, protected-sector concessions, and whether trade expands beyond $136 billion.

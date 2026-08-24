@@ -3,19 +3,17 @@
 - Score: 453 | [HN](https://news.ycombinator.com/item?id=46775961) | Link: https://www.kimi.com/blog/kimi-k2-5.html
 
 ### TL;DR
-Kimi K2.5 is a 1T-parameter, open-source, native multimodal MoE model (32B active) focused on coding with vision and large-scale “agentic” workflows. It’s pretrained on ~15T text+vision tokens and can reconstruct UIs from images/video, do autonomous visual debugging, and handle real-world software engineering via tools and Kimi Code. Its key novelty is a self-directed agent swarm: up to 100 sub-agents and 1,500 tool calls, trained with parallel-agent RL and a latency-oriented “critical steps” metric to cut wall-clock time by up to 4.5× on complex, tool-heavy tasks.
 
----
+Moonshot AI describes Kimi K2.5 as a native multimodal, open-source model trained on about 15 trillion mixed visual and text tokens. It targets coding with visual context, document production, scientific reasoning, and long-form office work. A beta swarm mode dynamically creates up to 100 subagents and coordinates as many as 1,500 tool calls; Parallel-Agent Reinforcement Learning rewards useful concurrency while discouraging idle spawning. Moonshot reports execution speedups of up to 4.5×, but commenters questioned hardware requirements, tool-call economics, licensing conditions, and whether swarm capabilities are actually open.
 
 ### Comment pulse
-- License quirk → MIT-like, but products over 100M MAU or $20M/month revenue must prominently show “Kimi K2.5” in the UI—counterpoint: feels like a branding fee instead of cash.
-- Open mega-model economics → Awe at a 1T-parameter release plus skepticism: few can run it locally, unclear business model, and concerns about hype vs actual adoption (e.g., DeepSeek parallels).
-- Safety and agents → Some worry that strong open models plus agent swarms will materially help cyber and future bio attacks, especially given they’re coming from competitive, not humanitarian, actors.
-- Agent-swarm practicality → RL-trained orchestration for 100 sub-agents is seen as a big step, but 1,500 tool calls per task raises serious unit-economics and infrastructure concerns.
 
----
+- The posted model has one trillion parameters with 32 billion active, making home deployment impractical even at 4-bit precision.
+- Enthusiasts celebrated strong Chinese open releases — counterpoint: skeptics questioned usage, business motives, and safety implications.
+- Autonomous orchestration impressed readers, but 1,500 tool calls raised cost concerns and questions about model-versus-service implementation.
 
 ### LLM perspective
-- View: The real innovation is RL-trained orchestration and parallelism, not just another big vision-coding model.
-- Impact: Most benefits will accrue via hosted APIs and IDE integrations; home deployment is largely symbolic at this scale.
-- Watch next: Independent swarm benchmarks, cost-per-task analyses, and safety evaluations for autonomous multi-agent systems using open weights.
+
+- View: Training the orchestrator, rather than hand-coding agent roles, is the release’s most distinctive idea.
+- Impact: Parallel decomposition could shorten broad research tasks, but infrastructure costs concentrate practical access among hosted providers.
+- Watch next: Independent benchmarks, exact weight coverage, license interpretation, swarm pricing, tool efficiency, and reproducible latency gains.

@@ -2,15 +2,18 @@
 
 - Score: 201 | [HN](https://news.ycombinator.com/item?id=46784572) | Link: https://amutable.com/about
 
-## TL;DR
-Amutable is a new company by key Linux figures (Poettering, Brauner, Kühl, others) aiming to add cryptographically verifiable integrity to Linux systems across build, boot, and runtime. They appear to be building remote-attestation-style tooling so systems can prove they’re in a trusted state, especially for servers and high-assurance workloads. Hacker News is enthusiastic about the talent but deeply split on whether such tech inevitably enables DRM-style lock‑downs. Founders stress user-controlled keys, FOSS values, and interest in reproducible builds and transparency logs.
+### TL;DR
 
-## Comment pulse
-- New Linux integrity stack → Enthusiasm for strong, end-to-end verification (build→boot→runtime) matching proprietary OS security while remaining open-source.  
-- Remote attestation worries → Fear it will power DRM, app gating, and “trusted” clients only—counterpoint: founders insist user-held keys and FOSS-friendly designs.  
-- Secure Boot today → Seen as annoying yet incomplete; some want a full Linux chain of trust, others value being able to disable it for control.  
+Amutable is a new Linux security company founded by VFS maintainer Christian Brauner, systemd creator Lennart Poettering, and former Kinvolk CEO Chris Kühl. It says it will make Linux workloads cryptographically verifiable across build, boot, and runtime, so systems begin in a verified state and remain trusted. The announcement offers little implementation detail, prompting discussion of reproducible builds, transparency logs, TPMs, and attestation. A founding engineer said planned attestation models would leave users controlling their keys, while critics warned the same mechanisms could enable DRM-like service exclusion.
 
-## LLM perspective
-- View: User-owned keys plus reproducible builds could turn attestation from DRM enabler into a verifiable safety net for critical workloads.  
-- Impact: Hardens remote servers, colocation, and privacy services, but risks spillover if banks or platforms demand attested consumer devices.  
-- Watch next: Public specs, key-management defaults, and licensing terms will reveal whether end users or vendors ultimately hold power.
+### Comment pulse
+
+- Critics feared remote attestation could gate banking or online services — counterpoint: a founding engineer described user-controlled keys and rejected that direction.
+- Supporters want verification beyond today’s kernel-focused Secure Boot, which often leaves initrds and userspace outside the trust chain.
+- Readers asked whether reproducible builds and transparency logs underpin the design; the company says technical details will follow.
+
+### LLM perspective
+
+- View: Attestation’s value depends less on cryptography than on who controls keys and who may demand proof.
+- Impact: Enterprises could verify Linux fleets continuously, while users risk losing services when running modified systems.
+- Watch next: Threat model, key ownership, reproducibility, transparency infrastructure, offline recovery, and safeguards against third-party attestation mandates.

@@ -2,15 +2,17 @@
 
 - Score: 326 | [HN](https://news.ycombinator.com/item?id=46777652) | Link: https://www.pride.com/culture/celebrities/tiktok-censoring-megan-stalter-and-finneas
 
-## TL;DR
-After Border Patrol agents fatally shot Minneapolis VA nurse Alex Pretti, celebs like Megan Stalter and Finneas posted anti‑ICE videos on TikTok and then accused the platform of censoring or “shadow‑banning” them. Stalter also cited a worrying privacy‑policy change under new, Ellison‑led ownership, claiming TikTok now tracks sexual and immigration status. TechCrunch notes that language predates the crackdown and is mainly for legal compliance, and Finneas’s video later went viral—so evidence of targeted censorship remains ambiguous, fueling broader distrust of corporate social media.
+### TL;DR
 
-## Comment pulse
-- Flagging on Hacker News → Some users blame pro‑government, “proto‑fascist” or SV‑aligned voters suppressing posts critical of ICE and TikTok—counterpoint: duplication and source bias (Pride.com) also cited.  
-- Corporate incentives → TikTok’s new owners are seen as profit‑maximizers with little ideological attachment; apparent censorship is interpreted as reputation or liability management.  
-- Move off big platforms → Creators, especially political or queer, should favor federated networks and self‑hosting to keep distribution control and avoid opaque moderation.
+After Border Patrol agents killed Minneapolis VA nurse Alex Pretti, Megan Stalter and Billie Eilish alleged TikTok suppressed anti-ICE posts from Stalter and Finneas. Stalter said her upload reached nobody and announced she would delete the app; Eilish cited an early count of 114 likes. Evidence remained inconclusive: Finneas’s video exceeded 220,000 views and 70,000 likes within 24 hours, while other shooting footage and criticism stayed available. Discussion shifted toward how platform ownership and HN flagging shape visibility.
 
-## LLM perspective
-- View: Allegations highlight how opaque recommendation and moderation systems can feel like political censorship even when evidence is mixed.  
-- Impact: Trust in TikTok and similar platforms erodes, especially among marginalized and activist communities already wary of surveillance.  
-- Watch next: Independent audits of political-content reach, legal challenges around “shadowbanning,” and whether major creators meaningfully migrate to fediverse platforms.
+### Comment pulse
+
+- Flagging prompted accusations of ideological suppression — counterpoint: a parallel front-page submission offered duplication as another possible explanation.
+- Platform dependence drew criticism → creators should own distribution and audience data through federated services rather than trust corporate moderation.
+
+### LLM perspective
+
+- View: Early engagement snapshots cannot establish suppression; reproducible reach data and platform explanations are needed.
+- Impact: Opaque ranking turns technical anomalies into political trust crises for creators and audiences.
+- Watch next: TikTok moderation disclosures, upload-error reports, distribution timelines, and creator migration beyond centralized platforms.

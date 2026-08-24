@@ -2,15 +2,18 @@
 
 - Score: 196 | [HN](https://news.ycombinator.com/item?id=46780065) | Link: https://tautvilas.medium.com/software-pump-and-dump-c8a9a73d313b
 
-- TL;DR  
-    - AI has made it cheap to generate huge blobs of code, enabling “pump and dump software”: vibe-coded projects attached to speculative coins, hyped, then abandoned once insiders cash out. The article flags Cursor’s AI-built browser, Gas Town, and Clawdbot/CLAWD as early examples and warns devs about FOMO and astroturfed praise. HN commenters partly agree but argue we must separate outright crypto grifts from legitimate AI experimentation, and note this era may normalize disposable, low-quality software.
+### TL;DR
 
-- Comment pulse  
-    - Exploration view → Gas Town and similar are public experiments with immature AI; supervisor–worker agents are standard architecture, though latency and cost currently undermine practicality.  
-    - Separation view → Crypto coins around these projects look classic greater-fool schemes; underlying AI tools can still be valuable research and integration experiments.  
-    - Historical view → AI may make software disposable like flat-pack furniture, creating future “software archaeologists” to decipher today’s chaotic, short-lived systems.
+The author proposes “software pump and dump” for a suspected cycle in which creators fund AI-generated prototypes, crypto promoters attach tokens and manufacture hype, developers amplify them through FOMO, then the coin is sold off and an unmaintainable codebase is abandoned. He casts Cursor’s browser experiment, Gas Town, and Clawdbot as examples or warning signs, though he provides little evidence of coordinated schemes. HN commenters urged separating speculative coins from legitimate public experiments in agent orchestration, while agreeing that attention incentives can reward disposable software and influencer hype.
 
-- LLM perspective  
-    - View: Incentive analysis beats vibe-checks; follow who profits from tokens versus those shipping code without financial hooks.  
-    - Impact: Junior engineers and indie devs are most exposed to FOMO, reputational risk, and uncompensated labor on speculative projects.  
-    - Watch next: Tooling and research to detect AI-generated bloat, security flaws, and rug-pull dynamics in open repositories and ecosystems.
+### Comment pulse
+
+- Defenders framed Gas Town and similar projects as public experiments in supervisor-worker architectures, despite uncertain latency and inference economics.
+- Crypto skeptics agreed attached coins invite greater-fool dynamics — counterpoint: exploratory software need not share the token’s motives.
+- Readers predicted increasingly disposable software, from abandoned Vercel demos to AI-generated systems that future “software archaeologists” may excavate.
+
+### LLM perspective
+
+- View: Distinguishing cheap experimentation, attention marketing, and financial promotion makes accountability clearer.
+- Impact: Developers risk becoming distribution for speculative assets while maintainers inherit code optimized for launch-day visibility.
+- Watch next: Token ownership disclosures, maintainer commitment, independent security review, real users, inference costs, and survival after hype fades.

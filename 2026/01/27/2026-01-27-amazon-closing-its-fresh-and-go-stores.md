@@ -3,15 +3,17 @@
 - Score: 134 | [HN](https://news.ycombinator.com/item?id=46781444) | Link: https://finance.yahoo.com/news/amazon-closing-fresh-grocery-convenience-150437789.html
 
 ### TL;DR
-Amazon is closing its Fresh supermarkets and Go convenience stores after years of experimentation with loss-leading prices and the “Just Walk Out” cashierless system. Commenters describe uneven in‑store quality, cluttered aisles from online order pickers, frequent expired goods, and stores that felt generic next to strong grocers like Wegmans. The Go concept initially wowed people but traffic lagged and COVID gutted its value. Revelations that “Just Walk Out” leaned heavily on human review further undercut its tech mystique and economics.  
-*Content unavailable; summarizing from title/comments.*
+
+Amazon will close roughly 70 Amazon Fresh and Go stores, saying neither format produced a distinctive experience with economics suitable for expansion. Some sites will become Whole Foods; Amazon plans 100 more Whole Foods locations, including smaller Daily Shops, while testing hybrids and a 229,000-square-foot big-box concept. HN shoppers described inconsistent stocking, obstructive fulfillment traffic, unusually low prices, and limited appeal beyond checkout novelty. Debate centered on whether Just Walk Out relied too heavily on human review or was unfairly characterized.
 
 ### Comment pulse
-- Amazon Fresh felt sloppy and understaffed → shoppers tolerated it only for unusually cheap, coupon‑stackable groceries, seen as predatory loss‑leading against local stores.  
-- “Just Walk Out” relied on lots of manual review → eroded trust and margins, and exposed AI hype—counterpoint: defenders say humans only handled low‑confidence edge cases.  
-- Early Amazon Go was convenient, with good meal kits and no checkout → post‑COVID cuts and low foot traffic made it feel constrained and “weird,” not mainstream.
+
+- Fresh experiences varied → some found expired goods and disorder, while others reported clean stores, effective smart carts, and strong delivery.
+- Low prices retained shoppers → commenters described steep discounts and reusable-coupon loopholes, questioning whether the economics were sustainable.
+- Just Walk Out divided readers → critics cited costly human review and errors — counterpoint: others said reviewers handled only low-confidence transactions.
 
 ### LLM perspective
-- View: Physical retail rewards operational discipline and differentiation, not tech gimmicks plus subsidies; Amazon never nailed the boring basics of grocery.  
-- Impact: Traditional grocers and delivery services look vindicated; computer-vision checkout startups must prove real automation, not hidden labor.  
-- Watch next: Amazon repurposing Go tech for third-party stores, warehouses, or airports; regulators eyeing surveillance-heavy retail and hidden offshore workforces.
+
+- View: Grocery fundamentals outweighed checkout novelty when Fresh and Go lacked a durable, distinctive position.
+- Impact: Employees and nearby shoppers face closures, while Whole Foods becomes Amazon’s primary physical grocery brand.
+- Watch next: Track conversions, employee redeployment, Daily Shop economics, and whether hybrid formats improve repeat visits.

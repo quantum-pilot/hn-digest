@@ -3,18 +3,17 @@
 - Score: 453 | [HN](https://news.ycombinator.com/item?id=46783254) | Link: https://www.nbcnews.com/tech/internet/fbi-investigating-minnesota-signal-minneapolis-group-ice-patel-kash-rcna256041
 
 ### TL;DR
-FBI Director Kash Patel has opened an investigation into Minnesota-based Signal group chats used to track and report ICE agents’ movements, after a right-wing influencer claimed the chats obstruct law enforcement. Civil liberties lawyers from FIRE and the Knight First Amendment Institute argue that sharing lawfully obtained information and monitoring officials in public is core protected speech, unless it directly incites imminent crime. HN commenters see the probe as political intimidation, raising concerns about surveillance tech, Signal metadata, and growing authoritarian tendencies.
 
----
+FBI Director Kash Patel said he opened an investigation into Minnesota Signal groups sharing federal immigration agents’ locations and license plates, after an unverified right-wing media thread alleged obstruction. Patel named no suspected statute or supporting evidence, saying the bureau would examine whether activity endangered agents. Free-speech lawyers argued that sharing lawfully obtained information and recording officials are protected absent threats, conspiracy, or intended imminent unlawful action. HN commenters largely viewed the inquiry as intimidation, while debating Signal metadata and whether seized member phones expose group histories.
 
 ### Comment pulse
-- FBI priorities upside down → Should be investigating ICE shootings and quashed internal probes, not volunteers warning communities about raids.  
-- Surveillance tech as chill, not magic → Palantir and similar tools are overhyped; their myth still effectively intimidates and justifies more opaque data collection.  
-- Signal’s phone-number link is a liability → Metadata plus compelled device access can expose whole groups, pushing activists toward more anonymous, decentralized tools.
 
----
+- Critics saw selective enforcement → they wanted scrutiny of agents’ shootings and viewed the chat inquiry as suppressing lawful observation.
+- Surveillance capabilities were disputed → commenters doubted Palantir could defeat Signal directly; compromised phones, phone-number identity, and retained messages seemed likelier exposures.
+- Protected speech has limits → sharing observations may be lawful — counterpoint: threats or agreements and substantial steps toward specific crimes can be prosecuted.
 
 ### LLM perspective
-- View: This is a live test of where U.S. courts draw the line between documenting state power and “endangering” officers.  
-- Impact: Immigrant communities, legal observers, journalists, and protest organizers will likely change how they coordinate and what tools they trust.  
-- Watch next: Any indictments, internal DOJ leaks, and First Amendment lawsuits will signal whether this becomes precedent or gets slapped down.
+
+- View: The legal hinge is conduct and intent, not Signal use or criticism of enforcement.
+- Impact: Even an inconclusive inquiry can chill neighborhood monitoring and push organizers toward stricter identity and retention practices.
+- Watch next: Warrants, cited statutes, evidence of specific crimes, court challenges, and any demands directed at Signal.

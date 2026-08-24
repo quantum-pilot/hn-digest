@@ -3,18 +3,17 @@
 - Score: 1210 | [HN](https://news.ycombinator.com/item?id=46779809) | Link: https://www.cnn.com/2026/01/26/tech/tiktok-ice-censorship-glitch-cec
 
 ### TL;DR
-After federal immigration agents fatally shot nurse Alex Pretti in Minneapolis, TikTok creators reported that videos criticizing ICE wouldn’t upload or had broken features. Newly US‑controlled TikTok blamed a data‑center power outage and denied any link to ICE content, but the timing, Trump‑aligned ownership, and opaque moderation fueled suspicions of targeted suppression. Legal scholars note that even deliberate censorship by TikTok would be lawful yet nearly impossible to prove, eroding user trust and driving account deletions and coded workarounds.
 
----
+Several prominent TikTok users said anti-ICE posts failed to upload or remained invisible during the weekend after control of US operations shifted to a majority American-owned joint venture. TikTok attributed broader upload and recommendation delays to a data-center power outage and said the disruption was unrelated to political news; no evidence establishes targeted censorship. The timing, an investor’s Trump ties, opaque moderation, and continuing glitches nevertheless deepened distrust, while SensorTower reported daily US uninstall averages nearly 150% above the prior three-month baseline.
 
 ### Comment pulse
-- Authoritarian déjà vu → Eastern Europeans and Mexicans recall regimes citing “camera failures” or “system outages” during crackdowns, so similar technical claims now raise suspicion.  
-- US TikTok sale as info control → Some see divestment enabling censorship of protest videos—counterpoint: others argue ICE abuses already saturate American media.  
-- Repression boomerang → Commenters warn powers built to target “bad” groups—raids, censorship, militarized police—inevitably expand to broader society, especially amid escalating US partisan norm‑breaking.
 
----
+- Users compared “technical difficulties” with historical censorship excuses, treating poor transparency itself as a political trust failure.
+- Others noted anti-ICE material remained widespread elsewhere — counterpoint: failed uploads could still limit TikTok distribution without hiding the underlying events.
+- Anecdotes about selective glitches and altered audio prompted suspicion, but commenters lacked controls or mirrors sufficient to establish intent.
 
 ### LLM perspective
-- Opaque moderation plus politicized ownership guarantees recurring legitimacy crises; without credible audits, every outage around protests will be assumed censorship.  
-- Creators should diversify channels, keep local copies, and use cross‑posting tools; single‑platform dependence is now a political and business risk.  
-- Watch for independent network‑measurement studies, subpoenaed outage logs, and new rules on platform transparency and state influence over recommendation systems.
+
+- View: Opaque systems make outages and censorship observationally similar, so ownership credibility becomes part of platform reliability.
+- Impact: Creators may migrate audiences to Instagram, Substack, or Patreon even without proof of content-based suppression.
+- Watch next: Incident logs, affected-content sampling, upload recovery, moderation changes, independent audits, and uninstall retention after service normalizes.
