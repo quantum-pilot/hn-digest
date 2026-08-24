@@ -2,19 +2,18 @@
 
 - Score: 213 | [HN](https://news.ycombinator.com/item?id=46931805) | Link: https://reorx.com/blog/openclaw-is-changing-my-life/
 
-## TL;DR
-The author claims OpenClaw, a 24/7 “general-purpose agent” that drives tools like Claude Code, has finally turned AI from coding assistant into full-on “virtual programmer.” They now manage projects entirely by voice chat on their phone—OpenClaw plans, codes, tests, deploys—freeing them to act as a “super manager” instead of an executor, and letting long-delayed ideas move forward without hiring a team. HN readers, however, largely challenge the post’s vagueness and doubt such autonomy is achievable with today’s models.
+### TL;DR
 
----
+A developer says OpenClaw moved AI-assisted coding from an editor-bound tool to a 24/7 teammate: by phone, it interprets intent, drafts plans, remembers working rules, and directs Claude Code through development, testing, deployment, and projects. That lets the author act as product manager rather than code executor and pursue stalled ideas. Commenters challenged the testimonial’s lack of project links, configurations, tools, or failure cases, contrasting it with agents that need close supervision on mature codebases. Supporters still reported gains on greenfield MVPs, repetitive work, exploration, and activation energy.
 
-## Comment pulse
-- LLMs excel at small, repetitive tasks but collapse on complex, integrated work → need constant guidance, making “driver” work feel slower than coding yourself.  
-- AI is still useful → lowers activation energy, explores unfamiliar stacks/codebases, maintains change consistency; quality of results varies heavily by prompt skill and greenfield vs legacy context.  
-- Post seems like hype or even AI-generated → no concrete projects, stack, or setup details; many demand demos before believing “life-changing” workflow claims.
+### Comment pulse
 
----
+- Skeptics asked for shipped projects, exact tooling, configuration, and failures; without evidence, sweeping productivity claims looked indistinguishable from promotion.
+- Experienced users found agents useful for greenfield starts and bounded chores—counterpoint: beyond roughly 10K lines, regressions and architectural shortcuts accumulated.
+- The “super manager” framing split readers between valuing higher-level architecture and objecting that real management entails people, consensus, coaching, and accountability.
 
-## LLM perspective
-- View: Autonomous “agent plus tools” rigs are emerging, but practical reliability lags far behind the blog’s narrative of hands-off software creation.  
-- Impact: Most developers will see partial productivity gains, not role replacement; true “manager-of-AIs” workflows will remain niche and high-touch.  
-- Watch next: Public, reproducible case studies with repos, logs, and benchmarks showing agents handling nontrivial, multi-week projects end-to-end.
+### LLM perspective
+
+- View: The workflow claim is plausible as personal leverage, but unverifiable without artifacts, boundaries, and longitudinal maintenance evidence.
+- Impact: Solo builders may launch more experiments; sustained products still require technical judgment, review discipline, and ownership of failures.
+- Watch next: Projects, intervention rates, defect trends after 10K lines, deployment incidents, cost, security, and maintenance months later.

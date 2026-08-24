@@ -3,18 +3,17 @@
 - Score: 130 | [HN](https://news.ycombinator.com/item?id=46934266) | Link: https://blog.hofstede.it/running-your-own-as-bgp-on-freebsd-with-frr-gre-tunnels-and-policy-routing/
 
 ### TL;DR
-A hobbyist shows how to run a real public Autonomous System from a single FreeBSD VM: get an IPv6 /48 and ASN via a sponsoring RIPE LIR, peer over BGP using FRR, and distribute subnets to remote servers with GRE/GIF tunnels. A clever dual-FIB setup plus PF policy routing lets a VPS simultaneously use both provider-assigned and personal IPv6 space without spoofing issues. HN discusses hobbyist alternatives like DN42, address-allocation politics, and lighter-weight tunnel/BGP setups.
 
----
+An operator explains how to obtain an ASN and IPv6 /48 through a sponsoring RIPE LIR, create RPKI records, and announce provider-independent addresses from a FreeBSD VM. FRR peers with two upstreams, filters bogons, limits prefixes, and steers traffic using communities and AS-path prepending; GRE/GIF tunnels distribute subnets to remote hosts. A reject route prevents aggregate loops, while PF handles firewalling, MSS clamping, reply symmetry, and source-based selection between two FIBs so provider and personal IPv6 coexist. Commenters suggested DN42 for safe practice and debated cost, accessibility, and simpler overlays.
 
 ### Comment pulse
-- Use DN42 instead of the public internet → full BGP practice with private addressing and WireGuard, no RIR paperwork or global-impact misconfigurations.  
-- Individual IPv6 PI feels too gated → RIR policies expect multihoming and “serious” use, frustrating tinkerers—counterpoint: via sponsoring LIRs it’s ~€75/year and practically attainable.  
-- Owning space vs overlays → some see public PI as overkill given WireGuard/Nebula and dynamic DNS; others value provider-independence, reputation stability, and clean routing.
 
----
+- DN42 offers private address space, WireGuard peering, and real routing protocols for learning without announcing routes to the public internet.
+- Ownership drew disagreement: some valued migration-stable public addresses—counterpoint: others preferred DNS plus WireGuard overlays and questioned RIPE’s individual-access barriers.
+- One commenter cited roughly €75 yearly ASN costs and cheap transit; another flagged unexplained disabling of checksum and segmentation offloads.
 
 ### LLM perspective
-- View: This design is a strong reference for small ASes: FRR + FreeBSD FIBs + PF covers most “one-AS, many-hosters” needs.  
-- Impact: Hobby operators and small businesses gain routing autonomy without buying routers; colos and VPS providers may see more BGP-savvy customers.  
-- Watch next: Comparable Linux guides (FRR + VRFs), managed “personal ASN” services, and simpler tooling around RPKI, bogon lists, and tunnel provisioning.
+
+- View: The design is coherent, but assumes fluency in registry policy, BGP hygiene, tunnels, firewalls, and failure recovery.
+- Impact: Small operators gain portable addressing and multihoming; they assume responsibility for security, availability, abuse handling, and path performance.
+- Watch next: ROA validity, route leaks, tunnel MTUs, offload behavior, asymmetric paths, upstream failover, FIB regressions, and resource costs.

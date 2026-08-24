@@ -3,19 +3,17 @@
 - Score: 180 | [HN](https://news.ycombinator.com/item?id=46936105) | Link: https://github.com/microsoft/vscode/issues/292452
 
 ### TL;DR
-A VS Code Copilot user found that by chaining “subagents” to a premium-model agent, they could run expensive models like Claude Opus almost unlimitedly while being billed only for a cheap “free” model, because billing was computed on the initial agent and subagent/tool calls weren’t metered. A second variant used looping tool calls to keep premium subagents running for hours on a single credit. Microsoft’s security response initially rejected it as out-of-scope billing abuse; the public issue was later reopened and commenters say it’s now patched.
 
----
+A VS Code issue alleges Copilot bills only the initial model while nested calls add no premium requests. The reporter says a free-model orchestrator invoked an Opus-configured agent; one three-hour loop launched hundreds of Opus subagents for three credits. Microsoft’s security center deemed billing bypasses out of scope and directed public filing; automation closed the report against a meta-issue before a maintainer reopened and assigned it. The issue remains open. Commenters mocked the handling, challenged invocation pricing, and made conflicting, often sarcastic claims that the flaw was fixed.
 
 ### Comment pulse
-- Copilot pricing seen as already a good Claude gateway → fixed monthly fee, message-based billing, agents and PRs; critics say harness is weaker and quotas small for heavy users.  
-- Microsoft’s MSRC and triage process criticized → teams bounce responsibility, auto-close issues, and force reporters to chase the “right” forum—counterpoint: bug was eventually reopened and assigned.  
-- Per-invocation “premium request” model called structurally broken for long-running agents → some argue pay-per-token also warps incentives; enshitification risks are baked into current business models.  
-- Observation: many agentic IDEs enforce billing and guardrails client-side → local business logic becomes an obvious target for exploits like this.
 
----
+- Client-side billing controls invite abuse → commenters said agent products place business logic and guardrails locally.
+- Invocation pricing mismatches agent sessions → one request can fan into long, expensive workloads — counterpoint: token pricing creates different quality incentives.
+- Disclosure routing failed conspicuously → security triage required public instructions, then automation misclassified and closed the distinct report.
 
 ### LLM perspective
-- View: Any client-side-only metering for multi-agent systems is fundamentally fragile; determined users will chain tools/agents to bypass pricing tiers.  
-- Impact: Copilot, Cursor, Replit, JetBrains AI, etc. must harden server-side billing/quotas and re-audit tool-calling/agent orchestration paths.  
-- Watch next: clearer premium metering for agent sessions, server-validated “message types,” and public postmortems on how these bypasses were found and fixed.
+
+- View: The alleged defect is an accounting-boundary mismatch: nested execution inherits neither premium-model cost nor enforceable server validation.
+- Impact: Unmetered fan-out could impose provider costs, encourage abuse, and force pricing or agent-limit changes for legitimate users.
+- Watch next: Maintainer confirmation, server-side metering, subagent caps, client-message validation, patched versions, retroactive billing, and public disclosure policy.

@@ -2,19 +2,18 @@
 
 - Score: 239 | [HN](https://news.ycombinator.com/item?id=46930565) | Link: https://haskellforall.com/2026/02/beyond-agentic-coding
 
-## TL;DR
-The author argues that today’s “agentic” chat-based coding tools don’t boost real productivity: they increase idle time, disconnect developers from their code, and shatter flow. As an alternative, they propose treating AI as “calm technology”: low-friction, peripheral, pass-through aids like inlay hints, semantic project navigation, automated commit refactoring, and “edit as X-language” views. HN commenters extend this with ideas for AI-generated review plans and structured commits, while debating whether faster models or better workflows can fix flow-breaks and mental desynchronization.
+### TL;DR
 
----
+Gabriella Gonzalez argues chat-based coding agents often fail outcome-based productivity tests, weaken codebase familiarity, and interrupt flow, so AI tooling should instead follow “calm technology”: minimize attention demands, keep developers directly in contact with code, and recede into the background. She favors next-edit suggestions and proposes semantic project navigation, automatic commit refactoring, focused file views, and alternate editable representations. Commenters especially wanted AI-generated human review plans and structure-versus-behavior commits; others preferred rapid, user-approved edits to stay mentally synchronized, while a counterview defended chat for design exploration followed by delegated execution.
 
-## Comment pulse
-- Use AI to restructure diffs/PRs → split into SB-style structural vs behavioral commits and generate review plans that lower reviewer load, not replace them.  
-- Flow loss from agents → even with 1000 tok/s models, big autonomous changes desync your mental model; many prefer rapid, human-driven micro-edits — counterpoint: others like chat to co-design and then let agents execute.  
-- Broad agreement on “empower, don’t replace” → AI should reduce boilerplate and review friction, while humans keep design and correctness judgment.
+### Comment pulse
 
----
+- Review assistance beats review replacement → reorder files, map dependencies, and split changes so human attention lands on behavior and risk.
+- Speed cannot erase desynchronization → model output may arrive instantly, but developers still need time to reconstruct its decisions.
+- Chat remains useful upstream → counterpoint: conversational design can produce a solid plan before agents execute bounded work.
 
-## LLM perspective
-- View: Calm, peripheral tools align with how developers already work; agents should feel like supercharged refactors, not separate coworkers.  
-- Impact: IDE vendors, code hosts, and review platforms can differentiate by making navigation, commit structure, and review assistance AI-native.  
-- Watch next: Empirical studies comparing “power coding” micro-edit flows, semantic navigation, and AI commit-splitting against traditional agentic sessions on real-world repos.
+### LLM perspective
+
+- View: The central interface problem is attention control, not whether an LLM can generate code.
+- Impact: Toolmakers could compete on developer comprehension and calm, shifting AI from autonomous producer to peripheral cognitive aid.
+- Watch next: Outcome-based trials comparing chat, next-edit, review-plan, semantic-navigation, and small-edit workflows across speed, correctness, and codebase recall.
