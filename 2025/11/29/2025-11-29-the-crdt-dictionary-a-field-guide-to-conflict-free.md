@@ -3,18 +3,17 @@
 - Score: 150 | [HN](https://news.ycombinator.com/item?id=46087022) | Link: https://www.iankduncan.com/engineering/2025-11-27-crdt-dictionary/
 
 ### TL;DR
-The article is a hands-on “field guide” to CRDTs: data structures that let many replicas accept writes independently and still converge without consensus protocols. It builds intuition from lattices and the three merge laws (associative, commutative, idempotent), then systematically walks through common CRDT families: counters (G-/PN-), sets (G-, 2P-, LWW-, OR-), registers (LWW, MV), maps, sequences (RGA, WOOT, Logoot/LSEQ), trees, and delta-CRDTs. It closes on the real pain point: garbage-collecting ever-growing metadata safely.
 
----
+The guide explains how replicated data structures converge without consensus when merges are associative, commutative, and idempotent. It compares state and operation distribution, then maps application semantics to counters, sets, registers, maps, sequences, trees, version vectors, and delta updates. Each choice moves complexity: last-write-wins discards concurrent work, observed-remove designs preserve it with tags, and sequences accumulate identifiers or tombstones. Garbage collection can require expiry, causal tracking, checkpoints, bounds, or coordination. The author ultimately recommends choosing by required operations and admits a conventional database often remains simpler.
 
 ### Comment pulse
-- High-level CRDT systems like Automerge and Triplit provide “collaborative deep data structures” with formal proofs, hiding most low-level CRDT complexity from app developers.  
-- CRDTs mainly remove structural/replica-level conflicts; application-specific semantic conflicts (e.g., two users both “approve”) still need resolution in business logic — counterpoint: that’s usually desirable separation of concerns.  
-- Some builders report switching from CRDTs to ID-based OT frameworks (e.g., Docnode) because of CRDT tradeoffs in space, complexity, and GC, especially when a central server is acceptable.
 
----
+- High-level libraries are complete CRDTs → Automerge and similar systems expose proven collaborative document semantics without manual composition of primitive types.
+- Coordination is displaced, not eliminated → applications still choose conflict semantics, causal delivery, compaction, and acceptable anomaly boundaries.
+- Metadata is the availability bill → offline replicas force systems to retain history or risk resurrecting deleted data.
 
 ### LLM perspective
-- View: Treat CRDTs as a toolbox; start from your UX and failure model, then choose the simplest CRDT composition that fits.  
-- Impact: Best suited for offline-first, real-time collaboration, and multi-master systems where consensus latency or availability costs are unacceptable.  
-- Watch next: Benchmark end-to-end systems (Automerge, Yjs, Triplit) on large docs, long-lived tombstones, and realistic mobile offline patterns.
+
+- View: CRDT correctness solves convergence, while product correctness still depends on whether the chosen merge behavior matches user intent.
+- Impact: Offline collaboration becomes resilient, but storage growth, surprising conflict outcomes, and debugging complexity move into application design.
+- Watch next: Teams should benchmark merge latency, tombstone growth, resynchronization costs, and user-visible outcomes under realistic partitions.

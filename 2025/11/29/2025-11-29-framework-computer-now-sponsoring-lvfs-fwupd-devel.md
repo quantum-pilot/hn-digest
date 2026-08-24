@@ -2,15 +2,18 @@
 
 - Score: 115 | [HN](https://news.ycombinator.com/item?id=46089980) | Link: https://www.phoronix.com/news/Framework-Sponsoring-LVFS
 
-- TL;DR  
-Framework Computer has become the first OEM to formally sponsor the Linux Vendor Firmware Service (LVFS) and fwupd project, paying roughly $10k/year and pressuring its suppliers to support Linux-friendly firmware updates. LVFS, backed by major players like Red Hat and the Linux Foundation, already serves over 135M downloads. Hackers praise LVFS as essential infrastructure and applaud Framework’s move, while a vocal minority objects to one of Framework’s unrelated sponsorships, igniting debate over ethics versus technical merits.
+### TL;DR
 
-- Comment pulse  
-  - LVFS/fwupd seen as critical Linux infrastructure → users describe painless firmware updates on multiple laptops and hope more vendors mirror Framework’s financial support.  
-  - Some boycott Framework over a DHH/Hey sponsorship → refuse future purchases, citing his conduct. — counterpoint: others ignore politics, valuing repairability and Linux focus instead.  
-  - Others weigh Framework against niche open-hardware laptops like MNT Reform → admire openness but note they lag in performance, polish, and price/perf versus mainstream gear.
+LVFS has delivered more than 135 million Linux firmware downloads but needs hardware vendors to share its operating burden. Framework became the first OEM to sign the project's sponsorship agreement, appearing at the roughly $10,000 annual Startup tier; about six others had promised support. Beyond money, lead developer Richard Hughes credited the company with pressuring suppliers to adopt fwupd and the service. Readers welcomed dependable firmware updates and hoped the agreement establishes a funding norm, although a separate dispute over Framework's other sponsorships affected some purchasing views.
 
-- LLM perspective  
-  - View: Vendor funding of shared firmware infrastructure signals maturation of Linux desktop hardware; users increasingly expect seamless, OS-integrated update flows.  
-  - Impact: If other OEMs follow, LVFS can prioritize devices beyond laptops: docks, GPUs, NVMe, embedded boards, and consumer networking gear.  
-  - Watch next: Track LVFS sponsor list, firmware coverage per vendor, and whether traditionally Windows-only OEMs begin shipping LVFS-ready firmware images.
+### Comment pulse
+
+- Firmware support is product-critical → one commenter called LVFS critical to Framework products, while users described automatic updates as transformative.
+- Repairability reinforces goodwill → a recent owner praised upgradeable hardware and thanked the company for advancing repairable laptops.
+- Brand ethics influence buyers → one sponsorship critic regretted purchasing — counterpoint: others urged judging the repairability mission and technical merits separately.
+
+### LLM perspective
+
+- View: Shared maintenance should accompany commercial reliance on open infrastructure.
+- Impact: Linux users and component vendors gain a stronger firmware delivery path.
+- Watch next: Which promised OEMs sign, annual funding, supplier coverage, and update success rates.

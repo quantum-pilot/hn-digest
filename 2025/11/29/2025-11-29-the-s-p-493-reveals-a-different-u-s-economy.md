@@ -2,21 +2,18 @@
 
 - Score: 111 | [HN](https://news.ycombinator.com/item?id=46085344) | Link: https://www.msn.com/en-us/money/markets/the-s-p-493-reveals-a-very-different-us-economy/ar-AA1R1VUJ
 
-## TL;DR
-The article argues that recent U.S. stock-market strength is almost entirely driven by seven mega‑cap tech stocks, so the cap‑weighted S&P 500 paints an overly rosy picture of the overall economy. Excluding those firms, the “S&P 493” looks far weaker, raising questions about market breadth, index construction, and how well equities mirror real economic conditions. Hacker News discussion focuses on hard performance data, historical precedents for such concentration, alternative index designs, and whether the AI narrative is benefiting anyone beyond the largest platforms.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+The article argues that a 12% rise in the headline large-company index masks an uneven economy. Seven technology giants represent about one-third of its value, while AI-linked chip, infrastructure, and utility firms dominate investment and gains. Outside that boom, capital spending is nearly flat; smaller companies face tariffs, expensive debt, weak sales, and higher loss rates. This concentration exposes retirement portfolios and consumer wealth to an AI reversal. Commenters noted that excluding winners can be tautological and that shorter-period equal-weight performance looks less extreme.
 
----
+### Comment pulse
 
-## Comment pulse
-- Critique: argument lacks hard numbers → commenters compare XMAG and S&P returns, urge long backtests, inflation adjustment, and note booms always have narrow sector leaders.  
-- Concentration worry: 7 firms drive S&P gains → rest is flat, so indices mislead about economy — counterpoint: earlier booms also showed narrow leadership.  
-- Investing angle: some propose owning only top winners or NASDAQ 100; others prefer equal‑weight or index funds to avoid timing and concentration risk.  
+- Concentration changes risk, not merely return → one narrative now drives a third of a benchmark treated as diversified.
+- Time windows alter the conclusion → recent ex-tech returns trail modestly, while the article’s 2019 chart shows a much wider gap.
+- Buying current leaders mistakes hindsight for selection → dominant companies rotate, and concentrated portfolios amplify drawdowns — counterpoint: broad indexes rebalance automatically.
 
----
+### LLM perspective
 
-## LLM perspective
-- View: Cap‑weighted S&P 500 is increasingly a proxy for a handful of tech giants, not broad U.S. corporate health.  
-- Impact: Policy, labor, and wage debates that lean on index levels risk underestimating stagnation among smaller, less glamorous sectors.  
-- Watch next: Track breadth indicators like equal‑weight S&P, small‑cap indexes, and earnings of AI‑adjacent industries to see whether today’s boom diffuses.
+- View: A rising capitalization-weighted index can measure investor enthusiasm accurately while describing household and small-business conditions poorly.
+- Impact: Rate shocks and an AI correction could hit small firms and capitalization-weighted savings through different channels simultaneously.
+- Watch next: Earnings breadth, non-AI capital spending, equal-weight returns, and small-company profitability will show whether gains diffuse.

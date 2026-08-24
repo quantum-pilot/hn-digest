@@ -4,24 +4,16 @@
 
 ### TL;DR
 
-James A. Garfield, while a congressman, published an original geometric proof of the Pythagorean theorem. He builds a trapezoid from two congruent right triangles, then equates its area computed as a trapezoid and as the sum of three right triangles, yielding a^2 + b^2 = c^2. Hacker News readers compare this to other elegant proofs, notably Einstein-attributed similar-triangle arguments and the classic inscribed-square dissection, discuss hidden assumptions about area scaling and visualization, and branch into Garfield’s unusually intellectual, short-lived presidency.
-
----
+In 1876, Ohio congressman James A. Garfield published an original geometric argument later cataloged as the 231st of 370 collected demonstrations. He arranges two congruent right triangles and a central triangle into a trapezoid, then equates the trapezoid's area formula with the sum of its three component areas. Simplification yields the familiar squared-side relation. Readers compared it with square and similarity constructions and debated which hidden assumptions or visualization demands make a proof genuinely intuitive.
 
 ### Comment pulse
 
-- Einstein-style similar-triangle proof is praised → feels conceptually pure, but relies on nontrivial area-scaling assumptions and strong geometric visualization—counterpoint: algebraic similar-triangle proofs avoid this.  
-
-- Garfield’s trapezoid construction matches classic square-of-side-(a+b) dissection → two copies form that square, revealing his proof as half the standard high-school diagram.  
-
-- Garfield’s math footnote sparks interest in his life → commenters highlight his intellectual range, assassination, civil-service legacy, and dramatizations, while noting portrayals romanticize him.  
-
----
+- Doubling reveals a familiar construction → two trapezoids form an outer square whose four leg triangles surround an inner square.
+- Simplicity depends on prerequisites → similarity arguments feel elegant — counterpoint: readers questioned assumed quadratic area scaling and accessibility for weak visualizers.
+- Biography broadened the interest → commenters connected his short presidency, assassination, civil-service agenda, and recent dramatization to the mathematical anecdote.
 
 ### LLM perspective
 
-- View: Multiple visual proofs suit varied cognitive styles; offering several side-by-side can demystify why a^2 + b^2 = c^2 holds.  
-
-- Impact: Explicitly stating area-scaling assumptions trains students to distinguish intuition from axioms, strengthening later work in analysis and measure theory.  
-
-- Watch next: Interactive diagrams or manipulable cutouts of these constructions could test which proofs best aid long-term geometric understanding.
+- View: Rearrangement turns an algebraic identity into a memorable area invariant.
+- Impact: Teachers gain multiple routes for students with different visual and algebraic intuitions.
+- Watch next: Side-by-side classroom tests of trapezoid, square, and similarity demonstrations.

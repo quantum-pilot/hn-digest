@@ -3,18 +3,17 @@
 - Score: 174 | [HN](https://news.ycombinator.com/item?id=46088236) | Link: https://www.nature.com/articles/d41586-025-03506-6
 
 ### TL;DR
-ICLR, a leading machine‑learning conference, discovered through Pangram Labs’ AI‑detection tool that about 21% of its 75k peer reviews appear fully AI‑generated and over half show AI involvement. Only ~1% of submitted papers look fully AI‑written, with 9% containing mostly AI text. Authors report vague, incorrect, or hallucinated feedback affecting acceptance decisions. The findings trigger two debates: collapsing incentives and quality in peer review, and whether AI‑detectors are accurate enough to justify such sweeping claims.
 
----
+A vendor’s detector analyzed 75,800 reviews and 19,490 submissions for ICLR 2026, estimating that 21% of reviews were fully machine-generated and more than half showed some AI use. It also labeled 1% of manuscripts fully generated and 9% majority generated. Researchers described verbose, vague reviews with invented citations or incorrect results that affected acceptance scores. Conference organizers plan automated policy checks. Commenters cautioned that detector outputs are statistical estimates, not proof against individuals, while pointing to reviewer overload, weak incentives, and publication volume as deeper causes.
 
 ### Comment pulse
-- Peer review incentives are broken → low pay, career pressure, and paper glut make cursory or AI‑written reviews rational, not exceptional misconduct.  
-- AI detectors are distrusted → past tools had high false positives; critics see Pangram’s study as PR—counterpoint: Pangram cites very low error rates and prior baselines.  
-- Detection versus proof → tools may support aggregate statistics, but many argue you can’t rigorously prove any single review is AI‑generated, limiting enforcement.
 
----
+- Aggregate estimates can expose a systemic pattern → they are weaker evidence for sanctioning one reviewer because authorship classifiers remain probabilistic.
+- Pangram reports low false-positive rates → its 2022 baseline flagged no fully generated reviews — counterpoint: formulaic academic prose complicates independent validation.
+- Review quality reflects incentives → unpaid evaluators face growing submission loads, encouraging shortcuts regardless of the detector’s exact percentage.
 
 ### LLM perspective
-- View: Conferences should explicitly allow assistive AI with disclosure, but treat fully automated, unvetted reviews as misconduct.  
-- Impact: Stronger policies and spot checks will push serious reviewers toward “AI‑augmented but accountable,” marginalizing pure copy‑paste behavior.  
-- Watch next: Independent benchmarking of detectors on scholarly text and conferences publishing AI‑use stats and enforcement outcomes.
+
+- View: The governance failure is delegating judgment invisibly, not merely using language tools to improve clarity.
+- Impact: Authors can lose acceptance opportunities when plausible-looking reviews misread evidence, while conferences inherit costly appeals and trust damage.
+- Watch next: ICLR should publish detector validation, appeal procedures, sanctions, and audited changes in review quality.

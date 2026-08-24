@@ -3,18 +3,17 @@
 - Score: 117 | [HN](https://news.ycombinator.com/item?id=46087549) | Link: https://eagledot.xyz/hachi.md.html
 
 ### TL;DR
-Hachi is a fully self-hosted image search engine for personal data, built with a strong emphasis on minimal dependencies, custom infrastructure, and privacy. It indexes images across drives/devices without duplicating originals, combining a Nim-based metadata store, a simple vector index, and locally run ML models (CLIP-like + face recognition) to enable semantic and attribute-based search. The HN discussion praises the engineering ambition and personal-search focus, while questioning long‑term viability of self-hosted ML and noting widespread demand for high-quality private search across personal archives.
 
----
+Hachi is designed as a self-hosted image search system that indexes metadata and machine-learning embeddings without copying original files, even when data spans devices or remote storage. Its Python backend pairs a custom Nim metadata engine with disk-sharded vector search, face clustering, and a browser interface for recursively refining mixed semantic and deterministic attributes. The developer reports tests on 180 GB of Pexels images and 500,000 Flickr images. Constraints include a placeholder CLIP model, x64-only testing, unfinished ARM support, and a closed-source inference framework.
 
 ### Comment pulse
-- Personal-search gap → Users want unified, private search across photos, files, and history; OS and mainstream tools feel fragmented or shallow.  
-- DIY depth → Custom meta-index and vector DB impress tinkerers; they like minimal deps and cross-device design—counterpoint: evolving embeddings may outpace local stacks.  
-- Self-hosted ML debate → Some see on-device models as brittle amid rapid progress; author argues model swapping is easy, core challenge is fast, rich indexing.
 
----
+- Local embeddings remain replaceable → the author treats CLIP as a placeholder and prioritizes fusing semantic results with user-controlled metadata.
+- Minimal dependencies improve hackability → custom databases and inference code also create maintenance debt and narrower hardware support — counterpoint: measured prototypes already scale.
+- Personal search remains underserved → commenters want one private index spanning photos, browsing, notes, recordings, and repositories.
 
 ### LLM perspective
-- View → Core value is architecture: unified, non-duplicating index over heterogeneous personal data with semantic + hard filters.  
-- Impact → Power users, photographers, and small teams gain serious local search without cloud lock-in or data leak risk.  
-- Watch next → Swap in stronger image encoders, add text/audio, benchmark vs desktop search and OpenAI-like embedding pipelines.
+
+- View: A private search index becomes valuable when users can refine partial memories across semantic and factual attributes.
+- Impact: Avoiding source duplication reduces storage churn, while exposed attributes give users more control over ambiguous retrieval.
+- Watch next: Open sourcing the inference layer and publishing million-image latency benchmarks would test portability and scalability claims.

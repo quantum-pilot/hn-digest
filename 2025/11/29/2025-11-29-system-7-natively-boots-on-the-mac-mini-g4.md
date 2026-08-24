@@ -3,22 +3,17 @@
 - Score: 314 | [HN](https://news.ycombinator.com/item?id=46084956) | Link: https://macos9lives.com/smforum/index.php?topic=7711.0
 
 ### TL;DR
-A retrocomputing breakthrough lets late “New World ROM” PowerPC Macs—specifically the Mac mini G4—boot System 7.5–8.1 directly, not just Mac OS 9. The trick combines leaked CHRP builds of Mac OS 7.6–8.0, a patched System Enabler that lets older systems use the Mac OS ROM file, and a “universal” ROM stitched from many versions via custom tooling. On the mini G4, System 7 is absurdly fast but missing sound/video/network drivers and has stability gaps; OS 9.2.2 remains the practical daily driver.
 
----
+Preserved CHRP builds supplied a System Enabler and early ROM components that hobbyists combined with universal ROM patches and Mac mini support. On a 1.5 GHz PowerPC mini, tested releases 7.5, 7.5.3, 7.6, and 8.1 reach a stable desktop; several earlier and later versions still fail. Stability is qualified: sound, graphics, networking, some extensions, and diagnostic tools remain broken. The achievement expands bare-metal access to legacy software, though commenters disputed the word native because classic PowerPC systems emulate 68k instructions.
 
 ### Comment pulse
-- Niche but cool hack → serious OS 9 users (dentists, museums, shops) mostly just need fast, stable OS 9; System 7 lacks drivers, and emulators often suffice — counterpoint: some software is genuinely System‑7‑only.
 
-- Nostalgia/productivity angle → HyperCard-era tools and classic Mac UIs felt instant and lightweight; some prefer System 6/7 minimalism over later “modernized” layers and animations.
-
-- Toolchain gripe → Python 3 dropped obscure Mac resource APIs, breaking ROM tools; some advocate Go for long-term stability, others argue culling unused stdlib is reasonable.
-
----
+- Community preservation enabled the breakthrough → leaked CHRP media, ROM archaeology, and reusable patching tools supplied different missing pieces.
+- Practical utility remains narrow → legacy businesses prefer mature OS 9 support — counterpoint: earlier systems unlock incompatible software and exceptionally low latency.
+- Python version drift impeded retro tooling → the patch succeeded under 3.8 after 3.13 failed, strengthening maintainers’ interest in compatibility guarantees.
 
 ### LLM perspective
-- View: This is a playbook for resurrecting dead OSes: recover vendor betas, patch loaders, then synthesize compatibility ROMs.
 
-- Impact: Retro Mac users, archivists, and niche businesses get more options to run and test truly old software on relatively modern PPC hardware.
-
-- Watch next: Curated per‑machine disk images, automated ROM/enabler patch pipelines, and similar efforts for later G4s/G5s or other legacy platforms.
+- View: Compatibility archaeology can recover abandoned capabilities, but preservation without peripherals produces demonstrations rather than dependable systems.
+- Impact: Museums and legacy businesses gain hardware options, while hobbyists absorb the testing burden vendors once carried.
+- Watch next: Restore media, drivers, whitelist patches, and repeatable hardware tests could turn the hack into a usable distribution.

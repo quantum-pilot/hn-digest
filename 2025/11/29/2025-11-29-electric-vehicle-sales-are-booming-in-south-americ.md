@@ -2,19 +2,18 @@
 
 - Score: 132 | [HN](https://news.ycombinator.com/item?id=46089971) | Link: https://www.reuters.com/sustainability/climate-energy/electric-vehicle-sales-are-booming-south-america-without-tesla-2025-11-17/
 
-## TL;DR
-Chinese automakers, especially BYD, are driving a rapid EV boom across South America while Tesla is barely present. A new Chinese-built megaport in Chancay, Peru slashes shipping times and turns the region into an export target for China’s EV oversupply, with local EV shares hitting 10–28% in Chile, Brazil and Uruguay. Chinese brands win on price, financing and local partnerships, while Western and Japanese incumbents struggle with late pivots, heavy platforms, tariffs, and the innovator’s dilemma—HN commenters see Tesla surviving mainly as a protected, premium niche.
+### TL;DR
 
----
+Affordable Chinese models and new logistics are accelerating electrified-car adoption across South America even where Tesla lacks official retail. Peru recorded 7,256 hybrid and electric sales through September, up 44%; later EV shares reached 10.6% in Chile, 9.4% in Brazil, and 28% in Uruguay. BYD and peers combine lower prices, local importers, financing, and the Chancay port, while charging gaps, long distances, tariffs, and labor concerns remain. Commenters saw incumbents losing on affordability, though Tesla's prospects and Chinese dominance remained disputed.
 
-## Comment pulse
-- Chinese brands, led by BYD, now dominate taxis/Ubers and undercut Tesla and German marques on price and batteries → EVs commoditize around cheap cells—counterpoint: some niche German EV makers still innovate.
-- Incumbent executives misplayed EVs → VW distracted by Dieselgate, GM/Ford bolting EVs onto legacy trucks, Japan detoured into hydrogen; classic innovator’s dilemma and shareholder pressure.
-- Geopolitics: tariffs can block Chinese EVs in the US but not in South America → consumers prioritize value; little local fear of Chinese power versus the US.
+### Comment pulse
 
----
+- Chinese brands are displacing incumbents → one rider found every sampled Uber was BYD, while readers favored purpose-built EVs over converted Western platforms.
+- Price drives adoption → readers said protectionism cannot preserve influence where comparable vehicles cost far less.
+- Tesla's outlook divided readers → critics cite no sub-$30,000 model — counterpoint: Colombian launches and long-term investors challenge predictions of decline.
 
-## LLM perspective
-- View: South America shows EV adoption can surge without Tesla if infrastructure, credit, and sub‑$25k models arrive together.
-- Impact: Western/Japanese automakers risk losing an entire continent’s mass market, ceding long-term service and brand loyalty to Chinese firms.
-- Watch next: Local assembly vs. rising tariffs in Brazil, regional charging build‑out, and whether safety/quality scandals slow Chinese brands’ momentum.
+### LLM perspective
+
+- View: Distribution and affordability matter more than pioneering brand recognition.
+- Impact: South American buyers gain choices while legacy automakers and local industries face pressure.
+- Watch next: Charging buildout, Chancay volumes, Brazilian localization, 2026 tariffs, and service reliability.

@@ -3,18 +3,17 @@
 - Score: 235 | [HN](https://news.ycombinator.com/item?id=46084535) | Link: https://mathoverflow.net/questions/363119/every-mathematician-has-only-a-few-tricks
 
 ### TL;DR
-MathOverflow users respond to Gian-Carlo Rota’s claim that every mathematician has only a few tricks by listing their own: swapping summation or integration order, clever variable changes, Cauchy–Schwarz and triangle inequalities, double counting and induction, probabilistic constructions, generating functions, Möbius inversion, “French” redefinitions, and more. A recurring meta-point is that tactics are personal: you master a tiny subset deeply and reuse it everywhere. HN commenters echo this for engineers and programmers, and lament that math classes rarely teach such heuristics explicitly.
 
----
+A MathOverflow question interprets Gian-Carlo Rota's claim as a prompt to inventory reusable methods, while commenters stress that each mathematician develops a personal, deeply internalized toolkit rather than sharing one universal list. Popular examples include swapping sums or integrals, simplifying or generalizing a problem, exploiting symmetry and duality, choosing random constructions, applying linearity of expectation, changing variables, induction, and compactification. HN readers found the idea equally visible in engineering: mastery of Newton-Raphson, singular-value decomposition, tracing, or persistent experimentation can solve surprisingly broad classes of problems.
 
 ### Comment pulse
-- Practicing engineers mirror Rota’s point: many solve wide problem classes with one or two numerical workhorses like Newton–Raphson, SVD, or differential-evolution optimizers.  
-- Strong developers display recognizable “tricks” — minimal hacks, obsessive correctness, deep domain reading — yet their shared meta-skill is persistence: iterating ideas until something finally works.  
-- Commenters note math classes seldom teach tricks explicitly; students see finished proofs and must infer unstated moves like Chinese Remainder Theorem or Feynman’s trick.
 
----
+- Depth can outperform breadth → repeated practice turns one method into adaptable intuition across unfamiliar problems.
+- Different toolkits create collaboration advantages → Feynman's uncommon calculus methods advanced problems that stalled peers using more conventional approaches.
+- Instruction hides the repertoire → students said teachers often present finished arguments without naming the pattern-recognition moves that generate them.
 
 ### LLM perspective
-- View: This thread is really about surfacing tacit heuristics—micro-strategies experts internalize and then reuse everywhere.  
-- Impact: Collecting such “trick catalogs” could reshape math and CS pedagogy, emphasizing pattern-recognition and strategic choices over formalism alone.  
-- Watch next: Tools that mine proofs or codebases to extract recurring tactics, then teach them via interactive examples and practice.
+
+- View: Technique transfer, not technique count, distinguishes expert problem solving.
+- Impact: Teams improve when specialists expose their recurring methods to peers.
+- Watch next: Technique-centered curricula, worked transfer examples, and documented expert playbooks.

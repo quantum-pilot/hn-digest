@@ -3,18 +3,16 @@
 - Score: 171 | [HN](https://news.ycombinator.com/item?id=46086624) | Link: https://scienceclock.com/exercise-may-protect-less-when-air-pollution-is-high-study-finds/
 
 ### TL;DR
-A pooled analysis of seven cohorts (1.5M adults, decade-plus follow-up) finds that regular moderate–vigorous exercise still lowers mortality risk in polluted cities, but the benefit shrinks as PM2.5 rises. Roughly 30% risk reduction in cleaner air drops to around half that above 25 µg/m³, and cancer-related benefits become statistically unclear above 35 µg/m³, where over a third of humanity lives. Researchers stress: keep exercising, but recognize that clean air is a co-requirement for full health gains and demands policy action.
 
----
+An analysis of seven studies covering more than 1.5 million adults over a decade found that regular moderate-to-vigorous exercise correlated with 30% lower mortality in cleaner areas, but only 12–15% lower mortality where annual PM2.5 exceeded 25 micrograms per cubic meter. Above 35, protection against cancer death was no longer robust. Researchers still found exercise beneficial overall and advised cleaner routes or lower intensity on polluted days. Limitations include mostly high-income populations, no indoor-air measurements, incomplete diet data, and observational confounding.
 
 ### Comment pulse
-- Marginal exercise remains beneficial almost everywhere → models suggest net harms only at extremely high PM2.5 and very long outdoor durations — counterpoint: such levels occur more often and widely than people think.  
-- People feel pollution directly → delivery drivers and motorcyclists report fatigue, sore throats, and mood changes tracking day-to-day air quality and traffic conditions.  
-- Mitigation is possible but partial → masks cut PM2.5 exposure during workouts, yet gases and volatile organics pass through, reminding users pollution isn’t just “dust.”
 
----
+- Outdoor exercise usually remains beneficial → commenters warned that daily pollution snapshots can hide seasonal, wildfire, street-level, and commute exposure.
+- Respirators reduce particulates but not every pollutant → gases and volatile compounds can pass through — counterpoint: route and timing changes reduce exposure broadly.
 
 ### LLM perspective
-- View: Public-health advice should pair “move more” with “track AQI and adapt,” especially where seasonal smoke or traffic spikes are common.  
-- Impact: Urban planners, transport agencies, and employers can justify low-emission zones and greener commutes as amplifiers of exercise benefits.  
-- Watch next: Studies combining wearables, portable pollution sensors, and indoor vs outdoor workouts to derive personalized “safe training load” under varying AQI.
+
+- View: Air quality determines exercise’s health return, making pollution control part of preventive care rather than separate environmental policy.
+- Impact: Workers and active commuters cannot always avoid exposure, making cleaner routes and timing a public-health design problem.
+- Watch next: Trials with personal exposure, indoor monitoring, and lower-income cohorts should test when outdoor intensity becomes harmful.
