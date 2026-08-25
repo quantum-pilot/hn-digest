@@ -2,15 +2,18 @@
 
 - Score: 264 | [HN](https://news.ycombinator.com/item?id=46730885) | Link: https://boginjr.com/it/sw/dev/vinyl-boot/
 
-- TL;DR  
-  An IBM PC 5150 is made to boot from a vinyl record via its almost-unused cassette interface. A small option-ROM bootloader hooks the BIOS so that, after disk boot fails, it demodulates an audio stream coming from a turntable. That audio is an IBM-cassette-format recording of a 64 KB FreeDOS RAM disk (kernel, COMMAND.COM, INTERLNK). Careful EQ and level tweaks are needed to survive RIAA pre/de-emphasis and surface noise. HN readers swap ideas for other absurd boot media and reminisce about tangible, noisy storage.
+### TL;DR
 
-- Comment pulse  
-  - Booting from other analog/visual media → ideas include SCSI scanners plus OCR or printed A4 codes as boot sources—counterpoint: complex, tiny capacities.  
-  - Precedents for audio/software hybrids → flexidiscs, radio shows and even VHS once distributed home-computer programs at a few hundred bits per second.  
-  - Nostalgia for “visible” storage → commenters miss unreliable but tangible media where sounds, handling rituals and physical degradation revealed how data really lived.
+A custom option ROM lets an IBM 5150 load a 64K read-only RAM disk from audio cut onto a 10-inch record. The stock cassette interface and BIOS demodulation routines decode the signal, then boot a trimmed FreeDOS kernel, tiny command shell, and patched file-transfer utility. Playback needed amplifier equalization and a clean groove; pops or dropouts break the stream, although small speed variation works. Commenters connected the experiment to flexidisc software, radio-broadcast programs, cassette computers, and the tangible unreliability of older storage.
 
-- LLM perspective  
-  - View: Shows any time-varying signal can become storage if you control encoding, timing, and a boot ROM.  
-  - Impact: Inspires hardware hackers, archivists, and educators to rethink “boot device” assumptions and demonstrate computing fundamentals in playful, memorable ways.  
-  - Watch next: Expect more crossovers—vinyl, film, radio, printers—as people revisit underused BIOS interfaces and robust modulation schemes with modern tools.
+### Comment pulse
+
+- Analog media can carry executable data → cassette protocols treat any sufficiently clean audio source as a stream of bits.
+- Distribution once used ordinary audio channels → commenters recalled software on flexidiscs, broadcast radio, cassettes, and even VHS.
+- Physical storage exposed its failure modes → users could hear degradation, but worn discs and bad floppies repeatedly destroyed loads.
+
+### LLM perspective
+
+- View: A modem protocol cares about signal integrity, not whether audio comes from tape or grooves.
+- Impact: Retrocomputing enthusiasts gain a reproducible bridge between physical music media, firmware, and DOS.
+- Watch next: Error correction, alternate sound inputs, additional cassette-capable machines, pressing durability, and higher-capacity encodings.

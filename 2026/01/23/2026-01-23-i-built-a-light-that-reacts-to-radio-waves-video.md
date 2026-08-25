@@ -3,20 +3,17 @@
 - Score: 438 | [HN](https://news.ycombinator.com/item?id=46728808) | Link: https://www.youtube.com/watch?v=moBCOEiqiPs
 
 ### TL;DR
-A maker builds a sculptural lamp that brightens and patterns its light in response to nearby radio-frequency activity, turning invisible RF environments into a visual display. The video focuses on RF sensing, custom PCBs driving filaments, and artistic framing rather than practical instrumentation. HN commenters explore possible applications—Wi‑Fi strength visualization, RF leak hunting, drone-frequency detection—and speculate about cheaper SDR hardware. Others focus on the surprisingly polished filmmaking, asking how to learn this YouTube-style of technical storytelling.
 
-*Content unavailable; summarizing from title and comments.*
-
----
+Spectrum Slit turns indoor radio traffic into a live sculpture. A software-defined radio samples signal strength across the 2.4 and 5 GHz bands used by Wi-Fi, Bluetooth, and other devices, while a microcomputer maps spectrum segments to 64 LED filaments and sound. Quiet networks produce faint intermittent light; browsing, messaging, streaming, and connected devices create brighter dense bands. Commenters proposed tuning it to one Wi-Fi channel for coverage mapping, using multiple sensors to locate interference, and extending direction finding with phased antennas.
 
 ### Comment pulse
-- Build cost/choices → Questions on PCB learning, sheet-metal pricing, and using cheaper SDRs instead of a HackRF — counterpoint: HackRF-as-lamp seems wasteful.  
-- RF visualization uses → Proposed for Wi‑Fi strength mapping, RF leak hunting in studios, and drone-signal detection; others explore multi-antenna direction-finding via phase differences.  
-- Video craft → Commenters admire fast, clear narration; creator credits heavy YouTube consumption, copying good patterns, and simple phone-based filming and audio.  
 
----
+- The sculpture can double as a diagnostic → channel-specific tuning could visualize household coverage or help locate persistent radio interference.
+- Direction requires more measurements → separated antennas can compare phase, while multiple sensors could triangulate a transmitter.
+- Accessible hardware could broaden experimentation → one commenter proposed a $20 receiver instead of dedicating an expensive HackRF.
 
 ### LLM perspective
-- View: Physical RF-reactive art nicely bridges radio theory, electronics practice, and aesthetics, making abstract spectrum concepts intuitive to non‑experts.  
-- Impact: Could inspire educational exhibits, DIY RF diagnostic tools, and engaging ways to teach EMC, antennas, and wireless security.  
-- Watch next: Benchmark cheaper SDRs and antennas, characterize sensitivity and dynamic range, and release schematics/firmware for community iterations.
+
+- View: Spectrum visualization converts invisible infrastructure into an intuitive temporal portrait.
+- Impact: Artists, network troubleshooters, and educators gain a shared interface for observing local wireless activity.
+- Watch next: Calibration accuracy, display latency, receiver cost, directional arrays, and published build details.

@@ -3,18 +3,17 @@
 - Score: 918 | [HN](https://news.ycombinator.com/item?id=46727587) | Link: https://www.bugsappleloves.com
 
 ### TL;DR
-A satirical site catalogs long-standing Apple bugs and “calculates” how many human hours they waste versus the engineering time to fix them, inviting users to submit their own. The math is intentionally fake, but the frustration is real. Hacker News comments pile on concrete examples: flaky Finder behavior, painful Apple ID/2FA flows, Safari’s decade-old URL/search ambiguity, and iOS text-selection and payment UI quirks. A minority push back that some issues are fixed or that alternatives like Android are no better.
 
----
+A satirical site assigns invented formulas to long-lived Apple defects, multiplying affected users, incident frequency, workaround effort, and years unfixed into a deliberately bogus total of human time lost. Its real target is persistent friction rather than credible measurement. Commenters supplied examples across Finder, Apple account creation, payment selection, iPhone text editing, and Safari’s search-address guessing. Several described failures surviving many releases, while others reported specific fixes or noted that rival platforms have similarly maddening behavior.
 
 ### Comment pulse
-- Apple UX papercuts → Finder view modes, sidebar glitches, and full-screen title bar behavior feel inconsistent and unfixable—counterpoint: some report these specific Finder issues are now resolved.  
-- Account and 2FA hell → Creating or separating Apple IDs, especially for developers or custom domains, often fails silently or locks users out for weeks.  
-- Text and web interaction flaws → iOS text selection and Safari’s search/URL guessing misfire regularly, with some bugs reportedly tracked for a decade yet still deprioritized.
 
----
+- Finder feels internally inconsistent → sidebar view modes can inherit another folder’s settings, while saved locations sometimes disappear.
+- Identity failures block basic access → verification codes may never arrive or lack zero padding, sometimes forcing account creation on Apple hardware.
+- Mobile friction is not uniquely Apple → text selection remains painful — counterpoint: Android users described equally disruptive settings and automation bugs.
 
 ### LLM perspective
-- View: The site expresses a real sentiment: Apple underweights chronic UX bugs that cumulatively waste massive user time.  
-- Impact: Developers, power users, and sysadmins feel this most, but it erodes mainstream trust in “it just works” branding.  
-- Watch next: Look for OS cycles explicitly dedicated to bug-fixing, public bug dashboards, and measurable UX regression testing.
+
+- View: Satire works because tiny recurring defects accumulate into a credible systems-quality complaint.
+- Impact: Users lose time and trust; developers inherit support costs from inconsistent defaults and neglected edge cases.
+- Watch next: Reproducible reports, OS-version comparisons, account-recovery success, text-selection tests, and Safari classification fixes.

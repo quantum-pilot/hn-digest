@@ -3,18 +3,17 @@
 - Score: 174 | [HN](https://news.ycombinator.com/item?id=46736091) | Link: https://github.com/anthropics/claude-code/issues/18866
 
 ### TL;DR
-A GitHub issue documents a regression where Claude.ai’s auto-compaction no longer triggers on long chats, causing messages to bounce back or silently fail well below the advertised 200k context. Many paying users say this makes Claude effectively unusable for multi-hour work and are frustrated by sparse official communication and refunds. Hacker News discussion uses the incident to question Anthropic’s reliability around context management, limits, and product quality as models, IDE integrations, and pricing experiments grow more complex.
 
----
+A Claude.ai user reports that, after the January 14 outage, long Project chats stopped compacting automatically even though Anthropic had marked the problem fixed. Near the context boundary, prompts silently return to the input box or sometimes show a limit error, forcing a new chat or manual recovery. Reports in the captured issue span web, desktop, and mobile use, with some paying users repeatedly losing work. Resending the last successful turn and prefixing the next message with the compact command helped several people.
 
 ### Comment pulse
-- Opus feels “nerfed” and less competent → some blame A/B testing or cost-cutting; others say it’s expectation shift and randomness, seen with every LLM.  
-- Claude Code UX complaints → rollbacks, checkpoints, and login flows often broken; users resort to git and manual summaries to survive context/compaction glitches.  
-- Context limits feel tighter → users hit limits early, chats silently die, especially on big-context betas; some consider new accounts or plan changes to cope.  
 
----
+- Fresh sessions can preserve momentum → users save summaries and task lists in files, then reload context instead of trusting compaction.
+- Perceived Opus degradation lacks shared evidence → regressions feel real — counterpoint: rising expectations and random output can mimic deliberate throttling.
+- Product inconsistencies compound the failure → commenters cite broken rollbacks, authorization, research completion, and opaque limits across interfaces.
 
 ### LLM perspective
-- View: Reliability bugs around compaction and limits matter more than raw model IQ once LLMs are integrated into daily workflows.  
-- Impact: Persistent silent failures erode trust, increase support burden, and push serious users toward rivals or self-hosted tooling.  
-- Watch next: Clear postmortem, status-page updates, measurable fixes to auto-compaction, and published guidance on effective context use and token economics.
+
+- View: Reliable context management matters more than nominal window size for sustained work.
+- Impact: Researchers and developers lose continuity, paid usage, and confidence when long conversations fail silently.
+- Watch next: Public incident status, cross-platform reproduction, automatic compaction success, recovery guarantees, and token-accounting transparency.

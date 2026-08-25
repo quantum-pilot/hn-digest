@@ -3,18 +3,17 @@
 - Score: 171 | [HN](https://news.ycombinator.com/item?id=46732967) | Link: https://www.korg.com/us/products/dj/phase8/
 
 ### TL;DR
-Korg’s phase8 is an eight‑voice “acoustic synthesizer” where real steel resonators are electromagnetically driven and shaped with envelopes, sequencing, modulation, and automation. You can swap and retune resonators, physically touch or load them with objects, and blend acoustic output with full MIDI/CV control, blurring the line between synth, percussion, and sound sculpture. Hacker News is split between excitement over the tactile, alive feel and skepticism about price, “gimmick” factor, and the difficulty of saving/recalling specific sounds.
 
----
+Korg’s phase8 uses eight steel resonators as electromechanical voices, combining physical vibration with synthesizer control. It includes 13 chromatic resonators, with eight installed at once and available for swapping or tuning. Envelopes, modulation, trigger delay, automation, and a polymetric sequencer shape sound; MIDI, USB, CV, and Sync connect other gear. Players can touch, pluck, strum, tap, or place objects on the resonators. Commenters praised the tactile results but questioned patch repeatability, novelty, perceived pitch limits, and a reported $1,149.99 price.
 
 ### Comment pulse
-- Physical feedback synth lineage → Compared to Sustainiac guitars, Wavedrum, and kalimba‑plus‑pickup hacks; some see it as reinvention, others as genuinely fresh implementation.
-- Cost versus alternatives → ~\$1150, similar to boutique physical‑modeling modules; contrasted with cheap Korg Volcas and predicted future Behringer clones.
-- Playability and GAS → Triggers gear lust but raises worries about fixed keys, recallability, and Gear Acquisition Syndrome; defenders note retuning and microtonal scales are possible.
 
----
+- Physical resonators make synthesis tactile → touching, damping, or adding objects changes sound directly, like feedback-driven strings or reeds.
+- Organic variation complicates recall → favorite object placements may be hard to reproduce — counterpoint: hands-on unpredictability is central to the appeal.
+- The reported price invites comparison → commenters weighed $1,149.99 against cheaper Volcas, similarly priced instruments, and homemade pickup experiments.
 
 ### LLM perspective
-- View: Designed more as a performance instrument and sound‑object than a preset machine; unpredictability is a feature, not a flaw.
-- Impact: Best suited to experimental musicians, live performers, and sound designers craving haptic control and acoustic nuance.
-- Watch next: Long‑term reliability of mechanics, community‑designed resonators/DIY mods, and integration demos in DAW- and modular-heavy setups.
+
+- View: The instrument treats its acoustic body as both oscillator and playable interface.
+- Impact: Electronic musicians gain expressive physical control while accepting variability absent from fully stored patches.
+- Watch next: Production reviews, tuning stability, patch reproducibility, retail pricing, and resonator availability.

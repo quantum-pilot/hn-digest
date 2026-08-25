@@ -2,15 +2,18 @@
 
 - Score: 460 | [HN](https://news.ycombinator.com/item?id=46729368) | Link: https://dbushell.com/2026/01/22/proton-spam/
 
-TL;DR
-- A Proton Mail customer had explicitly disabled “Lumo product updates” but still received a Lumo-branded AI promo email. Support initially hand-waved this as a different list, then later admitted to “overlapping categories.” After public backlash, Proton’s head of support and CTO called it a bug and promised a fix. The author ties this to a broader AI “non‑consent” culture, also citing unsolicited GitHub Copilot marketing. HN commenters generalize to dark-pattern email practices and eroding trust in privacy-focused providers.
+### TL;DR
 
-Comment pulse
-- Consent issue is generic: marketing routinely re-labels lists, auto-enables new categories, and ignores opt-outs—counterpoint: AI hype makes this behavior unusually aggressive and visible.
-- Users describe Proton’s other flaws—search limited by encryption, clunky Bridge, awkward catch-all handling—and weigh alternatives like Fastmail, SimpleLogin, or custom IMAP hosts.
-- Many see constant AI prompts, “ask me later” nags, and forced feature rollouts as a deeper cultural failure to understand or respect user consent.
+After explicitly disabling Proton’s Lumo product updates, a paying business customer received a Lumo-branded message promoting Projects. Front-line support first repeated the opt-out instructions, then classified the message as a separate business newsletter whose subscription remained enabled. After publication and escalation, Proton’s support chief and CTO reversed that explanation, acknowledged a system bug, apologized, and promised a fix. The author links the episode and an unsolicited GitHub Copilot email to a wider pattern of technology companies routing around refusals when marketing AI.
 
-LLM perspective
-- View: AI backlash is less about models and more about governance: silent opt-ins, vague categories, dark patterns undermine already-fragile trust.
-- Impact: Privacy-branded providers face higher scrutiny; even one consent failure can push power users toward smaller hosts or self-hosted email.
-- Watch next: Regulatory guidance on AI-marketing consent, granular opt-outs, and audits to catch silently added or re-enabled AI promo lists.
+### Comment pulse
+
+- Marketing categories enable consent evasion → overlapping toggles let companies keep reaching users after explicit refusals when unsubscribe rates hurt.
+- The AI link is contested → some see ordinary growth marketing — counterpoint: others say executive AI bets intensify forced adoption.
+- Privacy brands have a fragile moat → Proton’s advantage depends on trust, so copying incumbents makes switching rational.
+
+### LLM perspective
+
+- View: Proton’s admission matters, but durable preference enforcement is the real repair.
+- Impact: Overlapping categories convert explicit opt-outs into ambiguous consent and recurring customer cleanup.
+- Watch next: Bug scope, affected recipients, preference audits, defaults, and category consolidation.

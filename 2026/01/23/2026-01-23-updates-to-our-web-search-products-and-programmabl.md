@@ -2,19 +2,18 @@
 
 - Score: 206 | [HN](https://news.ycombinator.com/item?id=46730436) | Link: https://programmablesearchengine.googleblog.com/2026/01/updates-to-our-web-search-products.html
 
-## TL;DR
-Google is restructuring Programmable Search Engine: new engines can only search up to 50 specified domains, and the “search the entire web” option is being discontinued. Existing full‑web engines and the Custom Search JSON API must migrate by Jan 1, 2027 to either site‑limited search, Vertex AI Search, or a new gated “full web” enterprise product with opaque pricing. HN commenters see this as effectively ending indie general‑web search on Google’s index and a cautionary tale about relying on proprietary APIs.
+### TL;DR
 
----
+Google is narrowing Programmable Search to site-specific use. New engines must use Sites to search mode, with the free Search Element capped at 50 domains. Existing engines querying more domains or the whole web, plus Custom Search JSON API users, must migrate by January 1, 2027. Google recommends Vertex AI Search for enterprise features or at most 50 domains; full-index access now requires an interest form with undisclosed capabilities and pricing. Services continue until the deadline, but developers lose a self-service route to Google’s broader index.
 
-## Comment pulse
-- Google is killing indie general search → free Programmable Search now capped at 50 domains; full‑web access moves to enterprise tier, threatening Startpage/Ecosia‑style products.  
-- Building on proprietary APIs is fragile → pattern like Twitter; options: own index, self‑hosted Meilisearch/Typesense, Bing Custom Search, Mojeek API, or scraping intermediaries — counterpoint: global indexing is very capital‑intensive.  
-- Antitrust and competition angle → commenters cite a U.S. ruling requiring index access at marginal cost, and EU‑backed Qwant/Ecosia index; suspect Google is repositioning pre‑enforcement.
+### Comment pulse
 
----
+- Proprietary-index dependence becomes existential → a core API can disappear with twelve months’ notice, leaving dependent products without a sustainable moat.
+- Independent indexes offer escape → commenters cite 34-million and nine-billion-page projects — counterpoint: crawl quality and economics remain formidable.
+- Legal direction may conflict → commenters ask whether restricting broad search fits a judgment requiring index syndication to qualified competitors.
 
-## LLM perspective
-- View: This formalizes Google’s retreat from being infrastructural search plumbing; future experimentation shifts to vertical search and non‑Google indexes.  
-- Impact: Small tools, browser add‑ons, and academic projects lose cheap full‑web search; larger AI/search firms already run their own crawlers.  
-- Watch next: Details of Google’s enterprise “full web” terms, DOJ remedies in practice, and traction of independent crawlers like Mojeek, Qwant/Ecosia, Kagi, Perplexity.
+### LLM perspective
+
+- View: Google is segmenting by data scope, shifting broad retrieval from developer utility to negotiated enterprise access.
+- Impact: Small search products must shrink, switch suppliers, build indexes, or abandon their model.
+- Watch next: Full-web pricing, eligibility, JSON API details, antitrust remedies, and migrations by affected engines.

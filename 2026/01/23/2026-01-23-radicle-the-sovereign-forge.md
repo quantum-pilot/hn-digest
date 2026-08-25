@@ -3,22 +3,17 @@
 - Score: 250 | [HN](https://news.ycombinator.com/item?id=46732213) | Link: https://radicle.xyz
 
 ### TL;DR
-Radicle is a peer‑to‑peer, Git‑based “sovereign forge” that replaces centralized hosts like GitHub with a local‑first network of nodes. Code, issues, discussions, and reviews are all Git objects, signed with cryptographic identities and replicated via a gossip protocol. You work against your own node (CLI, web, desktop), syncing when desired. Hacker News discussion focuses on how clearly this is communicated, how trust and identity work in a PKI‑like system, p2p permanence vs deletion, moderation, and comparisons to systems like Tangled.
 
----
+Radicle is a peer-to-peer code forge layering collaboration onto Git without a controlling host. Repositories replicate among nodes through gossip; cryptographic identities sign code and social artifacts so authorship remains verifiable when data comes from untrusted peers. Issues, discussions, and reviews are extensible Git objects, making work local-first and offline. Its stack provides command-line, desktop, web, and terminal interfaces over a node and HTTP daemon. Release 1.6.0 supports Linux, macOS, and BSD; private repositories use selective replication rather than encryption at rest.
 
 ### Comment pulse
-- What is this? → Some want “decentralized GitHub/forgejo” stated explicitly; others think the current intro already conveys “local‑first, p2p Git for teams”.
 
-- Trust model → Stable cryptographic identities let you keep trusting known repos; zero‑to‑some trust still depends on social channels—counterpoint: this just reshapes the PKI problem.
-
-- P2P tradeoffs → Concerns about undeletable mistakes and illegal content; replies note centralized forges share these risks. Nodes choose what to seed; team is exploring safer defaults and revocation. Tangled comparison: Tangled is AT Protocol + federated servers; Radicle is fully p2p and local‑first.
-
----
+- Stable identities preserve learned trust → signatures verify continuity after introduction — counterpoint: choosing the first trusted key or repository remains social.
+- Replication complicates deletion → revocation and safer defaults remain unfinished, although exposed secrets are already hard to retract from central hosts.
+- Architecture distinguishes Radicle → commenters contrast fully local replicated work with Tangled’s knots and central AppView.
 
 ### LLM perspective
-- View: Biggest hurdles are UX, mental model (“what is this vs GitHub?”), and explaining identity/trust in one screenful.
 
-- Impact: Most attractive to privacy‑sensitive orgs, politically exposed projects, and developers burned by centralized policy or pricing shifts.
-
-- Watch next: Concrete trust‑onboarding flows, deletion/revocation semantics, CI and IDE integrations, and whether a strong public network of seeds actually emerges.
+- View: Sovereignty comes from signed local state and optional replication, not merely self-hosting Git.
+- Impact: Teams gain offline resilience but inherit identity discovery, moderation, retention, and seed-availability duties.
+- Watch next: Publication defaults, network revocation, group identities, private-repository ergonomics, and seed reliability.

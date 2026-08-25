@@ -3,18 +3,17 @@
 - Score: 223 | [HN](https://news.ycombinator.com/item?id=46731996) | Link: https://tinyapps.org/blog/microsoft-mishandling-example-com.html
 
 ### TL;DR
-Microsoft’s Outlook Autodiscover service has, since early 2020, mapped `email@example.com` to Sumitomo Electric’s `sei.co.jp` mail servers via an internal configuration, not DNS. That means anyone using `example.com` as a dummy address in Outlook may have had test credentials sent toward a third party’s infrastructure. Hacker News discussion focuses on how Outlook routinely sends full email/password pairs to Microsoft for autodiscovery and sometimes proxies entire mailboxes, raising broader concerns about privacy, design flaws, and Microsoft’s treatment of reserved domains.
 
----
+Testing a dummy address revealed that Outlook’s Autodiscover service maps the reserved example.com domain to Sumitomo Electric mail servers. The behavior reproduced across Windows, macOS, networks, profiles, DNS resolvers, and a cloud PC even though the domain has a null MX and no discovery records. Microsoft’s API returned unvalidated IMAP and SMTP endpoints; decoded metadata dates the database mapping to February 2020. The author warns that test credentials could reach an unrelated company. Commenters also questioned Outlook’s broader practice of routing external mail credentials through Microsoft.
 
 ### Comment pulse
-- Outlook sends full credentials for any account to Microsoft for autodiscovery, and often acts as a mailbox MITM → violates many admins’ security expectations — counterpoint: enables cross-device notifications and cloud “features.”
-- Autodiscover’s design has long been a security risk → clients transmit passwords to various hosts, expanding attack surface well beyond the user’s actual mail provider.
-- Mapping `example.com` to `sei.co.jp` likely stems from someone “claiming” the domain in Microsoft’s cloud without proper DNS verification → echoes older Microsoft guidance misusing `.local` despite later reservations.
 
----
+- Cloud-mediated mail expands the trust boundary → commenters reported Outlook sending private-server credentials through Microsoft and making connections outside interactive use.
+- The mapping suggests failed ownership validation → a reserved domain reached real mail servers — counterpoint: commenters could only speculate about the cause.
+- Reserved namespaces require historical care → old Active Directory guidance later collided with multicast DNS, though that usage predated the reservation.
 
 ### LLM perspective
-- View: Using reserved domains in examples isn’t harmless when major clients special-case them; test data can become real traffic to unintended parties.
-- Impact: Mail admins and security teams should inspect outbound connections and block or constrain Outlook’s cloud autodiscovery/proxy behavior where policy requires.
-- Watch next: Whether Microsoft removes the rogue mapping, tightens domain-ownership checks, and exposes a transparent, local-only account setup path.
+
+- View: Autodiscovery should not override authoritative DNS with an unvalidated provider mapping.
+- Impact: Testers may expose credentials, while administrators cannot infer the actual connection path from domain records.
+- Watch next: Mapping removal, ownership verification, reserved-domain blocks, credential-flow disclosure, and regression tests.

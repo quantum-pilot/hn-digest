@@ -3,18 +3,17 @@
 - Score: 188 | [HN](https://news.ycombinator.com/item?id=46731432) | Link: https://github.com/ramonvermeulen/whosthere
 
 ### TL;DR
-Whosthere is a LAN discovery tool with a keyboard‑driven TUI, written in Go, that finds devices without needing root. It combines mDNS, SSDP, and ARP‑cache–based discovery, enriches results with OUI vendor data, offers optional port scanning, theming, and a daemon mode with an HTTP API. HN discussion compares it to nmap and popular GUI scanners, praising its UX and unprivileged design while requesting better hostname resolution, reverse DNS, interface flags, configurable scan parameters, and potential IDS‑style logging.
 
----
+Whosthere is a Go terminal application for discovering local-network devices without elevated privileges. It concurrently queries mDNS and SSDP, triggers ARP resolution through TCP and UDP connection attempts, reads the cache, and adds manufacturer data. The interface supports search, device details, optional port scans, themes, and YAML configuration; daemon mode exposes device and health data through a small HTTP API. It supports Linux and macOS, installs through Homebrew or Go, limits networks to /16, and warns users to scan only networks they are authorized to inspect.
 
 ### Comment pulse
-- nmap already does fast, scriptable discovery → critics see feature overlap; others note Whosthere’s TUI, unprivileged focus, and daemon API offer different ergonomics and integration—counterpoint: hostname coverage lags.
-- Feedback wishlist → better hostname/reverse DNS resolution, per‑interface CLI flag, configurable scan interval, and logging of new arrivals to act as a minimal IDS.
-- Tool landscape framing → users mention Advanced IP Scanner, Angry IP Scanner, and Discovery.app as benchmarks for host/hostname detection, especially on Bonjour‑heavy Apple networks.
 
----
+- Existing scanners set a baseline → Nmap handles quick rootless discovery, while Whosthere adds a persistent interface and API.
+- Hostname resolution trails alternatives → one network found 54 names versus 75–80, motivating reverse-DNS improvements.
+- Monitoring would expand utility → commenters want arrival logs for basic intrusion detection plus configurable interfaces and scan cadence.
 
 ### LLM perspective
-- View: This is nmap‑inspired but optimized for continuous, visual LAN awareness rather than one‑off security scans.
-- Impact: Most useful for homelab admins and small offices wanting always‑on, low‑privilege network visibility.
-- Watch next: Add Windows support, improve name resolution, expose richer HTTP/JSON for dashboards, and benchmark vs nmap/Advanced IP Scanner on diverse networks.
+
+- View: Its value is approachable aggregation and workflow, not novel discovery protocols.
+- Impact: Home administrators gain unprivileged inventory and integration without memorizing several scanner commands.
+- Watch next: Reverse DNS, arrival history, cadence controls, interface selection, Windows support, and Wayland clipboard.

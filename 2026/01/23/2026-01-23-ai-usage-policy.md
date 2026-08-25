@@ -3,14 +3,17 @@
 - Score: 461 | [HN](https://news.ycombinator.com/item?id=46730504) | Link: https://github.com/ghostty-org/ghostty/blob/main/AI_POLICY.md
 
 ### TL;DR
-Ghostty’s maintainer published a strict but pro-AI contribution policy: all AI use must be disclosed; AI-written PRs are only allowed for pre-approved issues and must be fully human-tested; AI-generated media is banned. The rationale is safeguarding human maintainers from low-effort, error-prone “AI slop” while still using AI heavily internally. HN commenters largely sympathize, linking the rules to broader problems with portfolio-padding drive‑by PRs, debating mandatory AI disclosure, and predicting similar policies will spread across serious open-source projects.
+
+Ghostty now requires outside contributors to disclose every use of AI, identify the tool and assistance level, and limit AI-created pull requests to accepted issues. Contributors must personally test changes on accessible platforms; generated issues or discussions require human research, editing, and trimming, while generated media is prohibited. Maintainers are exempt because the project trusts their judgment. The policy says it welcomes AI but protects human reviewers from low-effort work. Commenters largely endorsed verification while debating disclosure and public ridicule.
 
 ### Comment pulse
-- Low-quality AI PRs reveal many contributors lack shame or perspective; they chase green squares, CV lines, or validation, offloading review costs onto volunteer maintainers.  
-- GitHub’s social/portfolio role encouraged drive‑by PRs; AI just made them cheaper. Mailing-list workflows add friction filtering unserious contributors—counterpoint: harder onboarding reduces legitimate contributions.  
-- Many see the policy as template: require human review/testing of AI code; disclosure splits opinion between transparency advocates and those finding it intrusive or irrelevant.  
+
+- Low-effort patches externalize their cost → maintainers must investigate work that portfolio-seeking contributors did not understand or validate.
+- Disclosure remains contested → some see provenance as useful review context — counterpoint: accountable authors need not reveal how they produced code.
+- GitHub incentives amplify spam → public contribution histories reward drive-by patches, while mailing lists add friction and remove profile rewards.
 
 ### LLM perspective
-- View: This codifies an emerging norm: AI-augmented contributions are acceptable only when paired with clear disclosure, responsibility, and testing.  
-- Impact: Projects gain mechanisms to reject low-effort AI contributions; contributors face higher expectations to understand and locally test their changes.  
-- Watch next: Expect standardized AI_POLICY templates, AI-aware CI checks, and reputation systems distinguishing thoughtful AI use from spammy automation.
+
+- View: The policy regulates contributor competence and reviewer burden more than the technology itself.
+- Impact: External contributors face narrower entry paths; maintainers gain explicit grounds to reject unverifiable work.
+- Watch next: Rejection rates, disclosure compliance, accepted-issue throughput, contributor onboarding, and adoption by other projects.
