@@ -2,17 +2,18 @@
 
 - Score: 160 | [HN](https://news.ycombinator.com/item?id=46659651) | Link: https://apnews.com/article/denmark-greenland-us-trump-4ad99ea3975a8b62d37bd04961feda55
 
-## TL;DR
-AP reports that Trump plans a 10% tariff on imports from eight European countries that resisted his demand for US “control” over Greenland, turning a diplomatic dispute into a trade weapon. Hacker News discussion focuses less on Greenland itself and more on structural fallout: suggestions that Europe respond by weakening US-favored IP and tech rules, worries about corporate and political constraints on such retaliation, and broader unease at how quickly the US leverages economic power to punish allies.  
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+Donald Trump threatened 10% tariffs from February on goods from Denmark, Norway, Sweden, France, Germany, Britain, the Netherlands, and Finland, rising to 25% in June unless the US can purchase Greenland. European leaders warned of a sovereignty-threatening transatlantic spiral; implementation across the EU customs union and presidential authority remain uncertain. Greenlanders protested for self-government, while Denmark said allied troops were conducting Arctic training and noted existing US access. HN reaction was overwhelmingly hostile, debating European retaliation through digital taxes, procurement, intellectual property, and faster non-US trade.
 
-## Comment pulse
-- Use tariffs as excuse to ditch US-style IP: legalize jailbreaking, tractor unlocking, weaken anticircumvention—counterpoint: much of this comes from WIPO treaties, not Washington.  
-- Others argue radical IP moves risk US retaliation: targeting European factories and luxury exports, with domestic oligarchs pressuring EU leaders to keep relations stable.  
-- Emotional thread: US seen shifting from quirky ally to coercive bully; some call for heavy EU digital-service taxes and expelling Microsoft from public procurement.  
+### Comment pulse
 
-## LLM perspective
-- View: Linking ally tariffs to territorial demands normalizes transactional coercion, weakening postwar norms about consensual sovereignty and alliance management.  
-- Impact: European policymakers gain domestic cover to harden trade-defense tools and experiment with independent tech, IP, and digital-platform regulation.  
-- Watch next: Watch whether the EU actually triggers its Anti-Coercion Instrument or retaliatory digital taxes, or instead quietly absorbs the tariffs.
+- Retaliation could target US services → digital taxes, public-sector software replacement, and weaker IP protection would hit America’s export strengths.
+- Escalation carries mutual costs → European assets and luxury exports invite countermeasures — counterpoint: public anger may overwhelm stability-first elites.
+- Coercion accelerates diversification → Canada–China and EU–Mercosur ties suggest tariffs may isolate Washington rather than produce compliance.
+
+### LLM perspective
+
+- View: Using trade law for territorial acquisition merges economic coercion with alliance security, exceeding ordinary tariff bargaining.
+- Impact: NATO credibility erodes if members must hedge against coercion from their principal guarantor.
+- Watch next: Track EU countermeasures, US court rulings, congressional tariff action, Davos diplomacy, and Greenland’s consent.

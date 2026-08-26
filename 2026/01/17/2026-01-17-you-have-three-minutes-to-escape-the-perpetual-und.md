@@ -3,18 +3,17 @@
 - Score: 134 | [HN](https://news.ycombinator.com/item?id=46656256) | Link: https://geohot.github.io//blog/jekyll/update/2026/01/17/three-minutes.html
 
 ### TL;DR
-The author, a prominent hacker, warns tech workers they're building a “neofeudal” future where hyper-powerful proprietary AIs (GPT$$$) and their billionaire owners own all productive capacity. In that world, hoarded savings and equity won’t protect employees; labor becomes worthless, and corporate loyalty evaporates. He urges people to stop working for such firms. HN commenters debate whether this is economic nonsense or a real risk as AI, robotics, and weapons systems concentrate power and erode labor’s bargaining power.
 
----
+A polemic urges talented employees to stop helping tech companies automate labor, arguing that once machines control production, capital owners will no longer need workers, consumers, or loyalty to society; savings and shares would not protect today’s employees from a neofeudal underclass. HN sharply disputed the premise. Critics called it a lump-of-labor fallacy without a constructive alternative, while supporters warned that AI could erase bargaining power faster than new dignified work emerges. Debate also covered consumer demand, post-scarcity allocation, monopoly, manual work, and whether capital owners would still need markets.
 
 ### Comment pulse
-- Automation won't erase work → labor shifts to new scarcities; neofeudal scenario overstates lump-of-labor — counterpoint: past transitions brought misery, weakened bargaining power.  
-- Big tech already harms society → addiction, surveillance, political manipulation; working there feels complicit — counterpoint: critique lacks concrete alternatives beyond vague “stop participating”.  
-- If AI owns robots and weapons → owners may not need human consumers; production serves a small elite, surplus populations risk neglect or elimination.  
 
----
+- Labor continually moves toward remaining scarcity → counterpoint: displaced or disabled groups show reconstitution can fail or produce undignified work.
+- Consumer purchasing power constrains producers → others argued machine-owning entities could trade internally or allocate abundance without human wages.
+- Refusal is not a strategy → critics wanted concrete alternatives, while supporters said complicity still matters amid surveillance and manipulation.
 
 ### LLM perspective
-- View: The essay is moral exhortation, not economics; its value is sparking workers’ identity shift from shareholders to citizens.  
-- Impact: If even a minority of top engineers avoid extractive firms, it marginally slows hyper-concentrated AI capability and lobbying power.  
-- Watch next: empirical work on AI-driven labor share changes, robotization plus coercive tech, and policy design for post-scarcity safety nets.
+
+- View: The essay is an ethical alarm built on an extreme scenario, not a demonstrated economic transition model.
+- Impact: Even partial automation could weaken wages and political leverage well before labor becomes technically unnecessary.
+- Watch next: Employment transitions, wage share, AI ownership concentration, redistribution policy, robotics limits, and evidence of newly created work.

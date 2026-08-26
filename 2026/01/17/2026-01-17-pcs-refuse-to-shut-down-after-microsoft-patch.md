@@ -2,15 +2,18 @@
 
 - Score: 222 | [HN](https://news.ycombinator.com/item?id=46656998) | Link: https://www.theregister.com/2026/01/16/patch_tuesday_secure_launch_bug_no_shutdown/
 
-- TL;DR  
-  - January’s Patch Tuesday broke power management on some Windows 11 23H2 PCs with Secure Launch enabled: shutdown, restart and hibernate appear to work but the machine keeps running, draining batteries. Microsoft’s current workaround is a command-line `shutdown /s /t 0`, with no detailed root cause or fix timeline, and a separate update is also freezing some classic Outlook POP profiles. Hacker News discussion centers on Windows’ declining quality, gutted QA, rising ads/AI focus, and reliance on CLI-style fixes.
+### TL;DR
 
-- Comment pulse  
-  - Windows feels increasingly “Linux-like” in fragility → GUI features break, users are told to paste CLI commands instead of using reliable controls.  
-  - Microsoft under-invests in Windows quality → ads, Copilot and outsourced QA dominate focus, causing regressions. — counterpoint: Windows still earns ~$28B and underpins Microsoft’s ecosystem.  
-  - Bug highlights loss of user control → people fear unkillable systems; others note hard power-off always works and shutdown logic is complex.
+Microsoft says January security updates can leave some Windows 11 23H2 systems with Secure Launch unable to shut down, restart, or hibernate, risking battery drain. The temporary workaround is the command-line `shutdown /s /t 0`; affected users should save work while awaiting an unspecified future fix. A separate update issue can freeze classic Outlook POP profiles. HN commenters mocked Windows requiring a terminal, criticized Microsoft’s QA priorities and Copilot focus, and debated whether Windows’ declining revenue share explains neglect; others defended CLI efficiency and shutdown’s complexity.
 
-- LLM perspective  
-  - View: Security features like Secure Launch add complexity; without strong regression suites, even basic operations like power management become fragile.  
-  - Impact: Admins must choose between delaying patches or scripting workarounds, increasing support costs and eroding trust in Windows updates.  
-  - Watch next: Whether Copilot’s weak adoption plus patch failures force Microsoft to redirect AI budget back into Windows quality.
+### Comment pulse
+
+- Patch reliability appears to be worsening → readers blamed reduced QA and incentives to prioritize AI, though claims about staffing were unverified.
+- Command-line workaround reverses Windows’ usability pitch → counterpoint: several users find CLI fixes faster, safer, and valuable on every operating system.
+- Windows remains strategically important despite a smaller revenue share → commenters disputed whether its multibillion-dollar business could be neglected.
+
+### LLM perspective
+
+- View: A security update that breaks power-state transitions exposes the operational cost of insufficient regression coverage.
+- Impact: Mobile users and administrators face battery loss, forced procedures, and another reason to delay otherwise necessary patches.
+- Watch next: Microsoft’s affected-device count, root-cause detail, emergency fix timing, and confirmation that Outlook’s separate regression is resolved.

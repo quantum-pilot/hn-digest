@@ -3,18 +3,17 @@
 - Score: 131 | [HN](https://news.ycombinator.com/item?id=46656358) | Link: https://github.com/PABannier/WSIStreamer
 
 ### TL;DR
-WSIStreamer is an open‑source Rust tile server for whole‑slide pathology images (multi‑GB SVS/pyramidal TIFF) stored in S3‑compatible object storage. Instead of downloading full slides, it understands the image layout and uses HTTP range requests to fetch only the bytes for requested tiles, serving them via a built‑in OpenSeadragon viewer or a simple HTTP API. Hacker News discussion connects this pattern to broader work on cloud‑optimized multidimensional array formats (Zarr/Icechunk), DICOM WSI, web maps, and even ML model weights streaming.
 
----
+WSI Streamer is an MIT-licensed Rust tile server that displays 1–3GB-plus whole-slide pathology images directly from S3 or compatible storage. Native SVS and pyramidal-TIFF parsers locate requested tiles, issue HTTP range reads for only their bytes, encode JPEG responses, and supply an OpenSeadragon viewer; signed URLs and multi-level caches support deployment. Files must be tiled and pyramidal. HN connected the design to web maps, VirtualiZarr, climate data, mining imagery, and seekable archives, emphasizing a general pattern: read metadata first, then retrieve only addressed chunks from object storage.
 
 ### Comment pulse
-- Scientific data pattern → Many formats (HDF5, COG TIFF, GRIB, etc.) are chunked tensors plus metadata; tools like Zarr/VirtualiZarr generalize efficient cloud chunk access.  
-- Cross‑domain parallels → Digital pathology, satellite imagery, geospatial maps, and mining “core logging” share huge 2D+ datasets and benefit from tiled, range‑request‑based streaming.  
-- Standards and tooling → DICOM WSI, Arrow/DuckDB dreams, seekable S3 streams, and map libraries (Leaflet/Protomaps) all hint at converging infrastructure for large remote images.
 
----
+- Range reads generalize beyond pathology → commenters cited scientific tensors, map tiles, core logs, model weights, and nested archives.
+- Metadata-aware virtual stores could unify access → Zarr-style chunk references may bridge proprietary source files without copying them.
+- Format fragmentation remains difficult → scanner vendors use SVS, NDPI, MRXS, and related layouts that require specialized parsers.
 
 ### LLM perspective
-- View: This is a practical, domain‑specific instance of a general “cloud‑native tensor/image” access pattern becoming standard infrastructure.  
-- Impact: Pathology, radiology‑adjacent workflows, and research labs can avoid heavy storage, simplify viewers, and plug slides directly into web tools or pipelines.  
-- Watch next: Benchmarks vs existing WSI servers, support for more vendor formats, and experiments streaming ML model weights or embeddings via similar range‑based schemes.
+
+- View: The key product is format-aware byte addressing; the viewer is one useful interface over that capability.
+- Impact: Pathology teams can inspect enormous slides sooner while avoiding full downloads and local storage duplication.
+- Watch next: Independent latency and cache benchmarks, more scanner formats, access-control audits, and interoperability with Zarr or map clients.

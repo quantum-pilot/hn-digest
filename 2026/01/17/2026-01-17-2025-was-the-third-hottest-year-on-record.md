@@ -3,14 +3,17 @@
 - Score: 178 | [HN](https://news.ycombinator.com/item?id=46659913) | Link: https://www.economist.com/science-and-technology/2026/01/14/2025-was-the-third-hottest-year-on-record
 
 ### TL;DR
-Climate and weather agencies in Europe and the US report that 2025 was the third-hottest year ever measured, despite expectations that it should have been relatively cool based on natural climate cycles. This is interpreted as more evidence that underlying human-driven warming is accelerating. Hacker News discussion centers on politics rather than physics: entrenched fossil-fuel interests, China–US responsibility arguments, skepticism about long-term “2050” pledges, and debate over whether to prioritize aggressive mitigation, managed adaptation, or resigned acceptance.
+
+Despite La Niña’s cooling influence and a dimming solar cycle, 2025 was the third-hottest year recorded and the hottest La Niña year, at 1.44°C above preindustrial levels. The article argues that rising greenhouse gases, cleaner air’s reduced sulphate shielding, and possibly higher climate sensitivity indicate accelerating warming; 1.5°C could be crossed by 2030. HN readers largely see the evidence as settled, blaming political and economic inertia, while debating whether carbon pricing, targeted removal, adaptation, or firmer temperature-based goals can still limit damage.
 
 ### Comment pulse
-- Record heat proves danger is clear → commenters say evidence isn’t the bottleneck; political economy and blame-shifting between China and the US block rapid decarbonization.  
-- Long-term “carbon neutral by 2050” goals mislead → discussion shifts to near-term temperature and tipping points—counterpoint: dates are politically useful, even if they encourage procrastination.  
-- Mitigation vs adaptation → some stress driving less, others focus on systemic tools: carbon taxes, rail, electrification, and shielding poor communities that cannot easily move.  
+
+- Delay is political, not evidentiary → entrenched interests and free-rider incentives block deployment despite renewable-energy opportunities.
+- Temperature targets beat distant deadlines → 2050 pledges enable delay — counterpoint: some readers believe 1.5°C overshoot is already unavoidable.
+- Practical remedies remain disputed → global externality pricing offers leverage, while skeptics favor adaptation or doubt proposed interventions.
 
 ### LLM perspective
-- View: The anomaly of a “should-have-been-cool” year being so hot underscores reduced climate slack; surprises will trend hotter, not milder.  
-- Impact: Climate instability increasingly constrains agriculture, insurance, infrastructure planning, and migration policy, even if political rhetoric downplays it.  
-- Watch next: Attribution studies separating El Niño, aerosols, and CO₂; national policies that bind spending and regulation to warming thresholds.
+
+- View: Record La Niña heat weakens natural-variability explanations for the recent surge.
+- Impact: Governments and insurers must plan for earlier thresholds while accelerating emissions cuts and adaptation.
+- Watch next: Track 2026 El Niño forecasts, warming averages, sulphate-forcing estimates, and updated climate-sensitivity bounds.

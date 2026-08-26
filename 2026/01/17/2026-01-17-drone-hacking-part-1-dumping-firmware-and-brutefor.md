@@ -3,18 +3,17 @@
 - Score: 129 | [HN](https://news.ycombinator.com/item?id=46654749) | Link: https://neodyme.io/en/blog/drone_hacking_part_1/
 
 ### TL;DR
-Longform walkthrough of hacking a Potensic Atom 2 drone by physically dumping its NAND flash, dealing with noisy SPI reads, and reverse‑engineering a custom BCH ECC layout to reconstruct a clean 512 MiB firmware image. The authors desolder the chip, script their own ESP32-based reader, use entropy analysis to infer data/ECC interleaving, then brute‑force BCH parameters and bit/byte transforms to correct on‑device errors and mount UBIFS filesystems. HN readers appreciate the educational depth, hardware inspiration, and debate broader implications for DRM and misuse.
 
----
+Researchers extracted firmware from a Potensic Atom 2 by desoldering its 4Gb SPI NAND and reading 131,072 pages with an ESP32. Noisy wiring caused random flips, so three dumps were majority-voted; entropy analysis and the SoC datasheet then revealed interleaved user, control, bad-block, and parity regions. They inferred a 16-bit-per-1KB BCH scheme, brute-forced polynomial 17475 plus bit-reversal and inversion transforms in 22 seconds, corrected 247,134 bits, and recovered usable UBIFS files. HN applauded the reproducible hardware work, documentation lessons, and approachable error-correction explanation.
 
 ### Comment pulse
-- Experimentation over manuals → readers relate to “just try it” debugging, noting a small parity-notation typo and how datasheets only become clear in hindsight.  
-- ECC clarification → some expected elliptic‑curve crypto; instead, they praise the clear BCH/ECC treatment, saying it demystifies hands‑on hardware hacking and sparks project ideas, plus performance curiosity.  
-- Apply approach to BOSCH e‑bike DRM → desired for repair/customization — counterpoint: may also facilitate theft and illegal tuning, inviting stricter regulation.  
 
----
+- Documentation becomes legible after experiments → the SoC’s “16-bit” clue only mattered once observed flash layout supplied context.
+- ECC means error-correction codes here → readers found the electronics approachable, despite expecting elliptic-curve cryptography.
+- Linux raised compliance questions → some demand stronger enforcement — counterpoint: unmodified kernels only require source availability upon request.
 
 ### LLM perspective
-- View: Methodically reversing undocumented ECC shows how far persistence and general math tools go, even without vendor cooperation.  
-- Impact: Enables serious analysis of “closed” IoT devices; similar workflows can unlock routers, cameras, and automotive or drone ecosystems.  
-- Watch next: Expect reusable ECC‑reverse‑engineering tooling, more firmware dumps of consumer drones, and manufacturer moves toward authenticated, encrypted storage.
+
+- View: The decisive skill was converting messy physical evidence into testable storage-format hypotheses.
+- Impact: A corrected firmware image enables deeper analysis of update encryption, backdoors, and remote-control vulnerabilities.
+- Watch next: Review Part 2 for exploitability, disclosure outcomes, firmware-decryption details, and vendor remediation.

@@ -3,18 +3,17 @@
 - Score: 242 | [HN](https://news.ycombinator.com/item?id=46658345) | Link: https://www.caimito.net/en/blog/2025/12/07/the-recurring-dream-of-replacing-developers.html
 
 ### TL;DR
-For 50+ years, each wave of “developer-replacing” tech—COBOL, CASE tools, VB/Delphi, web frameworks, low/no‑code, and now AI—has shifted *how* we program, not *whether* we need programmers. Syntax, tooling, and automation keep improving, but the hard part is still thinking through messy business rules, edge cases, integration, and risk. Tools democratize simple cases and raise abstraction levels; they also expand demand and create new backlogs. Leaders should evaluate tools on leverage, not fantasies of eliminating software expertise.
 
----
+Across COBOL, CASE, Visual Basic, low-code, and today’s AI assistants, repeated promises to replace developers instead reduced specific frictions and broadened participation. The article says software’s constraint is not typing or syntax but reasoning through requirements, edge cases, security, integration, and maintenance; AI amplifies expertise rather than removing it. HN agreed details remain unavoidable, but disputed the scope: Kubernetes and Excel have reduced specialist labor or unlocked otherwise impossible work, while abstractions also create new failure modes and shift the bottleneck toward understanding generated systems.
 
 ### Comment pulse
-- No‑code/AI waves expand demand → more software attempted → more situations where generic tools break, requiring experts to step in and generalize. — counterpoint: strong AI could eventually handle most of this.
-- Abstractions in ops (Kubernetes/SRE) and dev don’t erase fundamentals; they create new specialists who must know both low‑level reality and complex tooling.
-- Some argue frameworks mainly lower hiring bars and enable mediocre devs; others insist they materially improve maintainability and focus effort on product‑specific logic.
 
----
+- Reality’s details remain irreducible → successful projects require engaged domain owners to resolve requirements and production behavior, not merely articulate goals.
+- Abstraction can still remove labor → counterpoint: it may produce new specialists and obscure fundamentals, especially for stateful or high-risk systems.
+- Replacement hype serves financial incentives → commenters linked AI messaging and layoffs to cost pressure, datacenter spending, and shareholder expectations.
 
 ### LLM perspective
-- View: Gen‑AI is a fuzzy, non‑verifiable abstraction layer, unlike compilers; it demands *more* human validation, not less.
-- Impact: Strongest leverage is for senior engineers, tech leads, and domain experts who can decompose problems and review generated solutions.
-- Watch next: Empirical org‑level studies on defect rates, delivery speed, and headcount changes in teams that deeply adopt AI coding tools.
+
+- View: Tools automate representation increasingly well, but responsibility stays with whoever builds and maintains the system’s working theory.
+- Impact: More people can create useful software, while experts inherit review, integration, reliability, and remediation work.
+- Watch next: Compare AI-assisted teams on maintenance cost, incident rates, requirement discovery, onboarding, and long-term code comprehension.
