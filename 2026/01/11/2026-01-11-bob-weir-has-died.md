@@ -3,14 +3,17 @@
 - Score: 139 | [HN](https://news.ycombinator.com/item?id=46571707) | Link: https://www.rollingstone.com/music/music-news/bob-weir-grateful-dead-dead-obituary-1234810106/
 
 ### TL;DR
-Bob Weir, singer, rhythm guitarist, and co‑founder of the Grateful Dead, has died at 78 from lung complications after earlier beating cancer. Rolling Stone’s obituary traces his journey from Bay Area misfit to architect of the band’s country‑rock masterpieces and radical, jazz‑influenced rhythm style that defined their live improvisations. HN comments highlight his decades‑long songwriting partnership with EFF co‑founder John Perry Barlow, the Dead’s proto–open‑source tape‑sharing culture, and their inventive mail‑order ticketing and fan art scene.
+
+Bob Weir, Grateful Dead co-founder, rhythm guitarist, singer, and songwriter, died at 78 after overcoming cancer but succumbing to underlying lung issues. Often overshadowed by Jerry Garcia, his unconventional playing, songs, and ensemble instincts helped shape the band from its 1965 origins through its 60th-anniversary concerts; he also carried the repertoire through RatDog, Dead & Company, and Wolf Bros. HN remembered his partnership with EFF co-founder John Perry Barlow, the Dead’s tape-sharing ethos, fan-made ticket art, and vocal harmonies.
 
 ### Comment pulse
-- Dead lyricist John Perry Barlow → also EFF co‑founder; his cyberspace manifesto shaped early net idealism — counterpoint: some see it now as naive, overwrought.  
-- Dead’s mail‑order ticketing → generated elaborate fan‑painted envelopes, a massive crowdsourced art project that visualized the community’s scale and dedication.  
-- Commenters recall early internet culture full of Deadheads; permissive taping and sharing prefigured open‑source attitudes, while Weir’s vocals and harmonies get special appreciation.  
+
+- Weir’s HN connection runs through lyricist John Perry Barlow → their partnership joined enduring songs with early digital-rights idealism.
+- The Dead anticipated open culture → permissive concert taping let thousands share performances much like open-source communities share software.
+- Community extended beyond recordings → mail-order tickets inspired a large archive of elaborate fan-painted envelopes.
 
 ### LLM perspective
-- View: Weir exemplified how “supporting” roles—rhythm guitar, secondary vocals—can be structurally essential and creatively radical in long‑form improvisational music.  
-- Impact: His and Barlow’s work linked counterculture, early net‑libertarian ideals, and fan‑taping norms that influenced today’s remix and sharing cultures.  
-- Watch next: How estates handle Dead recordings and fan ephemera will influence scholarship, documentaries, and music datasets used in ML.
+
+- View: Weir’s legacy rests on collaborative continuity more than individual spotlight.
+- Impact: Musicians, fans, and internet communities inherit a model where participation strengthens the work’s longevity.
+- Watch next: Preservation efforts should connect recordings, fan art, songwriting history, and digital-culture archives.

@@ -2,19 +2,18 @@
 
 - Score: 226 | [HN](https://news.ycombinator.com/item?id=46578497) | Link: https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership/
 
-## TL;DR
-Meta is signing long-term deals with Vistra, TerraPower, and Oklo (plus a prior Constellation deal) to secure up to 6.6 GW of nuclear-sourced electricity for its US data centers by ~2035. The mix includes life extensions and uprates at three existing Ohio/Pennsylvania plants and early funding/offtake agreements for advanced reactors (TerraPower’s Natrium and Oklo’s Aurora) in the PJM region. HN discussion praises firm low‑carbon power but questions nuclear economics, SMR viability, Oklo’s track record, and grid equity impacts of corporate power hoarding.
+### TL;DR
 
----
+Meta signed agreements spanning new and existing nuclear generation to support AI infrastructure, targeting up to 6.6 GW by 2035. TerraPower could supply eight Natrium units totaling 2.8 GW plus storage; Oklo proposes up to 1.2 GW in Ohio; and Vistra agreements preserve more than 2.1 GW while adding 433 MW through uprates. HN discussion welcomed firm low-carbon power but questioned undisclosed commitment sizes, Oklo’s regulatory readiness, SMR economics, and whether data-center purchases will raise public electricity costs versus faster renewable-and-storage deployment.
 
-## Comment pulse
-- Nuclear is attractive firm, low‑carbon power for AI data centers → but Meta should have funded cheaper, faster renewables+storage instead of slow, capital‑heavy fission projects.  
-- Skepticism about “up to 6.6 GW” → unclear actual dollars, timelines, and conditions; SMRs, especially Oklo, seen as vaporware with poor NRC history.  
-- Tech buying bespoke nuclear PPAs raises equity worries → may privatize cheap baseload and raise prices for others — counterpoint: high-paying buyers can keep aging plants alive and grids more reliable.
+### Comment pulse
 
----
+- Financing credibility → commenters want dollar figures and binding milestones, viewing Oklo and unbuilt SMR designs as speculative despite Meta’s capacity claims.
+- Technology choice → supporters value firm low-carbon generation; critics say solar, batteries, and geothermal can deploy sooner and more cheaply.
+- Grid fairness → some fear long-term corporate purchases privatize scarce supply and increase rates — counterpoint: Meta says it covers its data-center energy costs.
 
-## LLM perspective
-- View: This signals a shift from feel‑good RECs to hard, multi-decade procurement of firm low‑carbon power tailored to AI’s 24/7 loads.  
-- Impact: Utilities, reactor startups, and regulators gain a powerful ally; grid planners must adapt to hyperscaler-driven, long-lived baseload contracts.  
-- Watch next: Concrete capex disclosures, NRC progress for Oklo/TerraPower, and whether other hyperscalers copy Meta or double down on renewables+storage instead.
+### LLM perspective
+
+- View: The portfolio hedges execution risk by pairing operating plants with uncertain advanced-reactor projects.
+- Impact: AI demand becomes a financing anchor for nuclear capacity, while ratepayers scrutinize grid allocation and cost shifting.
+- Watch next: Demand disclosed contract values, NRC milestones, construction starts, uprate approvals, and delivered megawatts.

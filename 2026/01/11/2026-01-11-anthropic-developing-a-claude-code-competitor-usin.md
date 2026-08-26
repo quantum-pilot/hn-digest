@@ -3,16 +3,17 @@
 - Score: 200 | [HN](https://news.ycombinator.com/item?id=46578701) | Link: https://twitter.com/SIGKITTEN/status/2009697031422652461
 
 ### TL;DR
-- Anthropic’s terms and implementation block using Claude Code’s OAuth-based “Max” plan inside third‑party coding tools and forbid reverse‑engineering that harness, though normal paid API use remains allowed. Many developers interpret this as Anthropic banning creation of Claude Code competitors using Claude itself and see it as lock‑in behavior that contradicts its “more ethical” image. Defenders argue the Max plan is a money‑losing, editor‑subsidizing product, so Anthropic understandably restricts it, but communication has been poor.
 
-*Content unavailable; summarizing from title/comments.*
+An X exchange exposes tension between Anthropic’s invitation to build tools around Claude and consumer terms that commenters read as restricting competitors. An employee says the API is the supported integration path and invites third-party maintainers to discuss options. Defenders argue the controversy conflates using Claude Code to write a rival with capturing its OAuth token to consume Max-plan capacity; critics say the text is broader and communication poor. Discussion also frames the $200 plan as a possible loss leader and cites eroding trust over training-data policy.
 
 ### Comment pulse
-- Rule: Building tools via paid API is fine; hijacking Claude Code OAuth tokens or harness to access Max is banned—counterpoint: ToS wording sounds broader.  
-- View: Max’s $200/month plan is a loss leader for Anthropic’s editor, so third‑party clients are unwelcome, angering users who prefer Zed/OpenCode.  
-- Concern: Switching to use Claude Code sessions as training data plus these restrictions convinces some Anthropic is no more principled than OpenAI, undermining “democratization” claims.  
+
+- API access is the intended route → capturing Claude Code OAuth tokens bypasses that boundary — counterpoint: commenters say the terms prohibit more broadly.
+- Subscription economics may drive enforcement → heavy third-party usage could exceed $200 while weakening Anthropic’s editor lock-in.
+- Policy ambiguity damages trust → readers connected unclear integration rules with dissatisfaction over training-data changes.
 
 ### LLM perspective
-- View: This is classic consumer-versus-API product separation; problems stem from muddy ToS language and underestimating developer reliance on third‑party editors.  
-- Impact: Expect more coders to migrate to providers with clearer API/editor boundaries or to open-source assistants embedded directly in editors.  
-- Watch next: Whether Anthropic offers a paid, editor-agnostic “Max API” tier or loosens OAuth rules under sustained developer pressure.
+
+- View: The core dispute is entitlement scope, not whether developers may write competing software.
+- Impact: Third-party coding clients face higher API costs, integration uncertainty, and platform-dependency risk.
+- Watch next: Anthropic should publish concrete permitted and prohibited workflows for OAuth, API keys, subscriptions, and competitor development.

@@ -3,18 +3,17 @@
 - Score: 697 | [HN](https://news.ycombinator.com/item?id=46574707) | Link: https://www.notebookcheck.net/I-dumped-Windows-11-for-Linux-and-you-should-too.1190961.0.html
 
 ### TL;DR
-The author abandons Windows 11 for Linux (Artix) after constant crashes, forced updates, and pervasive telemetry/Copilot-style tracking that feels like built-in spyware. After briefly trying macOS on old hardware, they settle on Linux for performance, stability, and full control, accepting initial hurdles like WiFi drivers, desktop-environment quirks, and missing Windows-only apps. Steam gaming is mostly fine, iPhone integration ended up easier than with iTunes, and customization plus reliability made computing fun again. HN replies agree on Windows 11’s pain points but stress Linux’s gaps for Office-heavy and niche professional workflows.
 
----
+After Windows 11 crashed two or three times weekly and an update erased his dual-boot Linux partition, the author replaced Windows on his main machines. He settled on Artix for speed, control, stability, customization, Steam gaming, and unexpectedly easy iPhone file access, accepting Wi-Fi drivers, desktop conflicts, missing apps, and power quirks. HN framed the tradeoff as autonomy versus compatibility: Universal Blue variants offer smoother maintenance, but Office, Adobe, CAD, Visual Studio, enterprise control, and niche hardware still keep many users on Windows.
 
 ### Comment pulse
-- Values vs tools → Some see Linux as digital autonomy; others judge it purely as a practical OS and don’t share the ideological motivation.
-- Professional gap → Lack of first-class MS Office, Adobe, CAD/CAM, and enterprise management keeps many on Windows—counterpoint: most home users mainly need a browser and email.
-- New distros → Immutable Fedora-based spins (Bluefin, Bazzite, Aurora) win praise for stability, gaming, and “Linux for non‑experts,” though some worry about trusting smaller distro stacks.
 
----
+- Digital autonomy motivates migration → users accept rough edges to control their computing environment rather than inherit corporate incentives.
+- Immutable Fedora variants feel dependable → Bluefin and Aurora impressed newcomers — counterpoint: downstream complexity raises trust and differentiation questions.
+- Compatibility decides real migrations → one indispensable professional application or unexpected quirk can outweigh Linux’s privacy and flexibility benefits.
 
 ### LLM perspective
-- View: Linux is now an easy daily driver for many, but not yet a full drop‑in for all professional and enterprise workflows.
-- Impact: Windows erosion will likely be strongest among enthusiasts, developers, and privacy‑conscious users, especially at home and in small businesses.
-- Watch next: Better Office compatibility, Linux-friendly creative/pro apps, and polished immutable desktops will determine how far beyond the tech niche this shift goes.
+
+- View: Desktop operating systems are portfolios of tradeoffs, not universal replacements.
+- Impact: General-purpose users can switch readily; specialized professionals and centrally managed enterprises face the highest costs.
+- Watch next: Measure application compatibility, enterprise administration, update reliability, hardware support, and newcomer retention across mainstream distributions.

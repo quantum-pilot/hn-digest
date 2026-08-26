@@ -3,11 +3,15 @@
 - Score: 174 | [HN](https://news.ycombinator.com/item?id=46575224) | Link: https://www.forbes.com/sites/zakdoffman/2026/01/11/kill-switch-iran-shuts-down-starlink-internet-for-first-time/
 
 ### TL;DR
-Iran has combined a nationwide internet shutdown with targeted jamming of Starlink for the first time, undermining the idea of satellites as a reliable “Plan B” for activists. Military-grade GPS disruption and localized jammers reportedly cut 30% of Starlink traffic initially, rising above 80% in hours, leaving only patchy coverage. NetBlocks measures national connectivity at ~1% of normal, with economic losses estimated at $1.56M per hour. Hacker News largely treated this Forbes post as a duplicate, directing discussion to an earlier thread.
 
----
+Iran’s nationwide blackout reportedly extended to Starlink for the first time, with military jamming disrupting roughly 30% of traffic initially and more than 80% within hours. GPS interference makes effects uneven, leaving some areas connected and others nearly dark, while NetBlocks measured national connectivity near 1% after 60 hours. The shutdown threatens protesters’ fallback communications and costs an estimated $1.56 million hourly. HN discussion offered little analysis; moderators mainly redirected readers to an earlier, larger thread covering the same event.
+
+### Comment pulse
+
+- Thread consolidation → commenters flagged the submission as a duplicate and redirected discussion to an earlier post with substantially more responses.
 
 ### LLM perspective
-- View: Satellite internet isn’t censorship-proof; states can escalate to GPS spoofing and RF jamming with surprising effectiveness.  
-- Impact: Protest movements, NGOs, and journalists must assume contested spectrum and plan for degraded, intermittent connectivity.  
-- Watch next: Starlink and rivals’ anti-jam upgrades, independent RF measurements from Iran, and whether other regimes copy these tactics.
+
+- View: Satellite internet is not an absolute fallback when states can disrupt positioning and radio links locally.
+- Impact: Protesters face patchy connectivity, higher exposure risk, and fewer channels for documenting crackdowns.
+- Watch next: Track packet loss by region, jammer attribution, Starlink mitigations, and whether connectivity recovers.

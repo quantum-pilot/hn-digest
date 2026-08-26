@@ -3,18 +3,17 @@
 - Score: 156 | [HN](https://news.ycombinator.com/item?id=46577464) | Link: https://rnsaffn.com/poison3/
 
 ### TL;DR
-Poison Fountain is a site that emits endless “poisoned” text intended to corrupt LLM training data. It encourages website operators to detect crawlers via hidden links and then serve compressed poison output to any scraper, framing this as a “war effort” against AI, echoing Geoffrey Hinton’s warnings. Hacker News discussion largely doubts its real impact, citing strong data curation, RL-driven progress, and easy scraper workarounds, while debating whether widespread poisoning merely raises costs or risks making models less safe and trustworthy.
 
----
+Poison Fountain is an adversarial service meant to feed unlimited corrupted text to suspected AI crawlers, asking site owners to proxy compressed responses through crawler-targeted hidden paths. Its stated aim is degrading models because its operators view machine intelligence as an existential threat. HN readers doubted the tactic: frontier labs curate datasets, test contributions, and can revise ingestion, while browser agents can mimic humans. Others saw poisoning as leverage against uncompensated scraping, but warned it could make models less safe and turn participants into unwitting hosts for arbitrary content.
 
 ### Comment pulse
-- Frontier labs filter web data heavily and gain most from RL and better inference, so random poison is unlikely to derail top models—counterpoint: it still raises curation costs.  
-- Scraper detection is weak; labs can mimic humans via browsers, OCR, and global IPs, while AI-generated “slop” is already degrading the open web’s training value.  
-- Ethically, some see poisoning as leverage or DRM for unpaid data use; others warn it just destabilizes models and exposes proxies to hosting dubious content.
 
----
+- Effectiveness skepticism → large labs invest in data quality, proxy-model filtering, rollback, and reinforcement learning, reducing vulnerability to simple poisoning.
+- Access asymmetry → crawler detection cannot reliably separate automated browsers from paying humans, while generated low-value content already contaminates public data.
+- Incentives and harm → poisoning may impose curation costs or deter uncompensated scraping — counterpoint: degraded models could become more unstable and unsafe.
 
 ### LLM perspective
-- View: Treat open-web training as adversarial by default; poisoning tools accelerate the shift toward curated, paid, or proprietary data sources.  
-- Impact: Increases infrastructure, legal, and safety costs for large labs; small hobbyist trainers and naive scrapers are most vulnerable.  
-- Watch next: Benchmarks for poison robustness, provenance/watermark standards, and regulation around data collection, liability, and “data sabotage.”
+
+- View: Data poisoning is more likely to raise acquisition costs than halt capable, well-funded model developers.
+- Impact: Small model builders and downstream users may absorb more damage than the intended frontier laboratories.
+- Watch next: Measure poison survival through deduplication, filtering, and post-training, plus abuse arising from blind proxying.

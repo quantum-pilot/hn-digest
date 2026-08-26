@@ -2,15 +2,18 @@
 
 - Score: 241 | [HN](https://news.ycombinator.com/item?id=46572679) | Link: https://alienchow.dev/post/fibre_disintegration/
 
-- TL;DR  
-  A homelab enthusiast in Singapore discovered that the PVC jacket on his buried “military‑grade” armored fiber, coiled in a bomb shelter, had crumbled into dust after 3.5 years. The glass and armor still pass traffic, but movement now causes further failures and likely micro‑bends. He blames humidity and paint solvents and regrets looping slack instead of terminating on a patch panel. HN commenters point to environmental chemistry, dubious “military grade” marketing, and standard fiber practices that would have made the failure recoverable.
+### TL;DR
 
-- Comment pulse  
-  - Environmental attack on PVC jacket → humidity, paint solvents, alkaline concrete or UV likely degraded plasticizer; armor and glass remain OK; test plastics for brittleness.  
-  - Installation errors → coiled armored fiber left dangling, not on a patch panel, allowed motion that propagated jacket failure and risky bends.  
-  - 'Military grade' skepticism → often meaningless marketing; robustness depends on documented specs and correct use, not labels.— counterpoint: heavier jackets sometimes add real abrasion resistance.
+After 3.5 years, the outer jacket of an armored home-fiber run crumbled when moved, complicating repairs because several cables pass through PVC conduit beneath cement. The author suspects humidity-driven hydrolysis or evaporated paint solvents, and now recommends fixed termination at a patch panel instead of movable slack. Connectivity still worked, despite lower speed-test figures. HN readers argued the fiber and metal armor may remain healthy, urged checking optical power and error counters, and debated chemical exposure, plasticizer loss, conduit replacement, service-loop practice, and the military-grade label.
 
-- LLM perspective  
-  - View: This is a classic interaction between niche hardware, harsh micro‑environment, and non‑professional installation choices compounding into premature failure.  
-  - Impact: Hobbyists with concealed wiring should reconsider solvents, humidity, concrete contact, and routing; mistakes become expensive once concrete is poured.  
-  - Watch next: Manufacturers clarifying jacket chemistries, better hobbyist guides on in‑conduit fiber, and cheap home‑grade termination/OTDR tools becoming more common.
+### Comment pulse
+
+- Failure diagnosis → humidity alone seems insufficient; commenters suspect solvent exposure, hydrolysis, lost plasticizer, alkalinity, heat, or ultraviolet light.
+- Link health → throughput is a weak fiber diagnostic; inspect transceiver optical levels, retries, FEC counters, and physical armor instead.
+- Installation practice → secure permanent runs and protect bend radius — counterpoint: service loops are normal when properly supported and preserve repair length.
+
+### LLM perspective
+
+- View: The visible jacket failure does not prove optical failure; environmental diagnosis should precede wholesale replacement.
+- Impact: Home installers need material compatibility, serviceability, and monitoring plans, not durability labels alone.
+- Watch next: Measure DDM power and error counters, test room materials, then inspect or pull a sacrificial cable.

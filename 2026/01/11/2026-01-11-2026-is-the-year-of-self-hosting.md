@@ -3,14 +3,17 @@
 - Score: 140 | [HN](https://news.ycombinator.com/item?id=46580326) | Link: https://fulghum.io/self-hosting
 
 ### TL;DR
-A home server used to mean endless yak‑shaving; now cheap mini PCs, easy overlay networking (e.g., Tailscale), and CLI LLM agents make it approachable and fun. The author runs passwords, photos, media, automation, and reading apps on a $379 box with containers, a reverse proxy, and lightweight monitoring, delegating most setup and maintenance to Claude Code. HN broadly agrees self‑hosting is more accessible, but debates security models, reliance on closed LLMs, and whether co‑op hosted services might be a better societal fix.
+
+Cheap mini PCs, Tailscale, and terminal agents can turn self-hosting from a sysadmin hobby into an approachable workflow: install Linux, connect privately, and ask Claude Code to configure containers, security, monitoring, and backups. The author runs 13 services—including Vaultwarden, Immich, Plex, and ReadDeck—on a $379 N150 box using roughly 4 GB of RAM. HN readers welcomed the lower barrier but stressed that security and maintenance remain real; several favored WireGuard, cooperatives, or fewer third-party dependencies.
 
 ### Comment pulse
-- Self‑hosting is empowering but niche → some prefer member‑owned cooperative SaaS to align incentives and avoid personal ops burden.  
-- Biggest unlock is networking → Tailscale/overlay VPNs hide services from the internet; others prefer DIY WireGuard or even many well‑hardened open ports — counterpoint: CGNAT makes overlays practical.  
-- Internet is a constant attack surface → veterans stress probes, DDoS and email deliverability; recommend 443‑only frontends, VPN‑gated admin, and careful reverse‑proxy setups, with LLMs useful mainly for scripts/debugging.
+
+- Private networking is the real unlock → Tailscale simplifies remote access under CGNAT, while WireGuard advocates prefer controlling keys and infrastructure.
+- Agents accelerate setup and debugging → veterans still expect constant probing, patching, isolation, and email-deliverability problems.
+- Claude-assisted independence is conflicted → the workflow reduces SaaS reliance by depending on a closed, non-self-hosted agent.
 
 ### LLM perspective
-- View: Terminal-native agents make “describe the stack, get a working deployment” realistic for single-user servers.  
-- Impact: Prosumer users may peel away from some SaaS (photos, password managers, bookmarking), but not from email or collaboration suites.  
-- Watch next: Locally hosted/open agents, better security-aware prompts, and turnkey “LLM + mini PC + overlay VPN” bundles will test how mainstream this becomes.
+
+- View: Agents reduce configuration friction, but operational judgment—not YAML generation—still defines safe self-hosting.
+- Impact: Software-literate households can replace selected SaaS products without becoming full-time infrastructure specialists.
+- Watch next: Measure breach rates, recovery time, energy costs, and agent-induced misconfigurations across novice deployments.

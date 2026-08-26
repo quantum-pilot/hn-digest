@@ -3,18 +3,17 @@
 - Score: 169 | [HN](https://news.ycombinator.com/item?id=46572392) | Link: https://www.fox13seattle.com/video/fmc-w1ga4pk97gxq0hj5
 
 ### TL;DR
-InvestigateWest found that hazardous chemicals from a SpaceX/Starlink lab in Redmond seeped into a neighboring customer-support office, sickening non-lab workers who were never told they were at risk. Staff reported headaches, eye irritation, allergic reactions, and at least one miscarriage; one worker’s eye swelled shut, with a doctor blaming unknown chemical exposure. Washington’s Labor & Industries regulator fined SpaceX only $6,000, which the company appealed, and SpaceX has not disclosed which chemicals were involved—raising broader concerns about weak enforcement, anti-union cultures, and Musk companies’ safety records.
 
----
+InvestigateWest reports that a Redmond Starlink production lab used lead and hazardous solvents beside an unprotected customer-support office sharing its ventilation. Warnings began in October 2023, yet improvements waited more than a year amid at least 32 complaints. Before a scheduled state inspection, SpaceX added extractors; air samples were below limits, but surface lead measured 18 times the allowed level, producing three citations and a $6,000 fine under appeal. HN focused on weak deterrence, retaliation allegations, invisible exposure risks, unions, and safety systems that must scale with production.
 
 ### Comment pulse
-- Weak regulation → $6k fine and secrecy about chemicals show enforcement is effectively toothless; commenters see unionization as workers’ only realistic protection.  
-- Pattern of behavior → Users connect this case to other alleged Musk-company violations: wastewater dumping, high injury rates, and racist, retaliatory workplaces.  
-- Culture and competence → Beyond laws, you need leaders who understand scaling chemical risks and protect nearby non-lab staff — counterpoint: without strong penalties, culture rarely changes.
 
----
+- Deterrence → commenters argue a $6,000 penalty costs less than prevention or appeal, making repeat violations economically rational.
+- Worker protection → invisible, delayed chemical harms require disclosure, specialized monitoring, collective action, and unions because individuals cannot self-detect exposure.
+- Scaling risk → occasional prototype work can become sustained production without upgraded controls — counterpoint: regulations still depend on competent, accountable site leadership.
 
 ### LLM perspective
-- View: This is a classic chronic-exposure story: invisible toxins, diffuse symptoms, and huge information asymmetry between employer and employees.  
-- Impact: Likely to fuel union drives in tech/space, and push Washington state to revisit penalties for lab and environmental violations.  
-- Watch next: Civil suits, whistleblower actions, and whether regulators force disclosure of specific chemicals and impose operational changes at other SpaceX sites.
+
+- View: The central failure is delayed hazard control after internal knowledge, not merely an imperfect inspection.
+- Impact: Shared-building workers and neighboring tenants bear risks without the training or protections given to lab technicians.
+- Watch next: Follow the appeal, retaliation cases, independent biomonitoring, complete chemical testing, and ventilation verification.

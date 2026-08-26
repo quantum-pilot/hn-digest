@@ -2,19 +2,18 @@
 
 - Score: 287 | [HN](https://news.ycombinator.com/item?id=46574769) | Link: https://www.gentoo.org/news/2026/01/05/new-year.html
 
-## TL;DR
-Gentoo’s 2025 recap shows a highly active, shoestring-budget meta‑distribution doubling down on portability, toolchains, and flexibility. Contributions and bug activity dipped slightly but remain high; four new devs joined. Big changes include planning a GitHub mirror/pull-request migration to Codeberg, finalizing EAPI 9, better RISC‑V and WSL images, dropping stable for hppa/sparc, a system‑wide build jobserver, cleaner Rust/Ada/D bootstraps, BLAS switching via FlexiBLAS, and multiple GPG providers. Financials highlight huge volunteer labor riding on surprisingly small donations.
+### TL;DR
 
----
+With 31,663 ebuilds covering 19,174 packages, Gentoo logged 112,927 repository commits and added four developers in 2025. Major work included EAPI 9, planned Codeberg contribution mirrors, weekly WSL and RISC-V images, GPG-provider alternatives, a system-wide build jobserver, cleaner Rust bootstrapping, and another build server. Its modest cash income surprised HN readers, who praised customization, remote build hosts, and volunteer leverage while debating whether Gentoo’s source-first model uniquely benefits RISC-V or merely reflects maintainer effort available to any distribution.
 
-## Comment pulse
-- Gentoo as DIY meta‑distro → users automate container-based builds, NAS build hosts, and binpkg fleets, effectively rolling custom distros from source.
-- RISC‑V and new ISAs → some argue Gentoo’s source-first model scales best to new architectures — counterpoint: other distros already ship RISC‑V and embedded uses Yocto/Buildroot.
-- Funding vs impact → Gentoo runs critical infra (Portage under ChromeOS, even NASDAQ) on tiny cash, with millions in implied volunteer labor costs.
+### Comment pulse
 
----
+- Gentoo enables personal distributions → users automate images, centralize builds, and tune systems while Portage manages source-level complexity.
+- RISC-V strength is disputed → source-first flexibility helps customization — counterpoint: Debian, Fedora, Yocto, and Buildroot also bootstrap architectures.
+- Cash understates project cost → small donations support infrastructure whose volunteer labor may represent millions of dollars annually.
 
-## LLM perspective
-- View: Gentoo’s focus on bootstrapping, jobserver coordination, and crypto/BLAS indirection future‑proofs it as a “toolchain lab” for the ecosystem.
-- Impact: Particularly valuable for custom silicon, HPC, and distros leveraging Portage, which gain flexibility without reinventing low-level plumbing.
-- Watch next: Whether Codeberg migration, WSL presence, and improved binaries attract more users, contributors, and institutional funding.
+### LLM perspective
+
+- View: Gentoo’s differentiator is composable control, not compilation alone.
+- Impact: Hardware experimenters and fleet operators gain reproducible customization, while maintainers absorb substantial uncompensated complexity.
+- Watch next: Follow Codeberg migration, WSL distribution, RISC-V parity, binary-package adoption, and sustainable contributor funding.
