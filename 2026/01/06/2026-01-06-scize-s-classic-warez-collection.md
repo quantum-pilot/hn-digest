@@ -3,14 +3,17 @@
 - Score: 114 | [HN](https://news.ycombinator.com/item?id=46510625) | Link: https://scenelist.org/
 
 ### TL;DR
-Personal project archives 1990s BBS warez culture by publishing original filelists and NFOs, preserving FILE_ID.DIZ art and year/month-organized release history. A searchable NFO index lets users rediscover groups, releases, and scene ephemera, and the maintainer invites contact from former sceners. Hacker News discussion mixes deep nostalgia for dial-up/IRC exploration, points to large existing NFO archives, highlights the warez scene’s influence on modern security tooling, and wonders what today’s youth have that feels similarly underground and formative.
+
+A frozen January 6 homepage preserves SCiZE’s file lists from 1990s bulletin-board trading, displaying their original FILE_ID.DIZ artwork and searchable release NFOs. The collection is less a software catalog than a surviving interface to the BBS warez scene: yearly and monthly lists, ASCII presentation, and an invitation for former participants to reconnect. Hacker News readers treated it as both nostalgia and historical evidence, linking cracking culture to later reverse-engineering and security work while recalling the scarcity, mystery, and community of dial-up discovery.
 
 ### Comment pulse
-- Warez scene shaped security tooling → reverse engineering skills, 0-day trading, and crack intros fed modern exploits; commenters share large NFO archives and archive.org resources.  
-- Dial-up BBS culture felt adventurous → hard-to-find boards, IRC warez channels, and early file formats created tight-knit learning spaces some fear kids now lack.  
-- Specific nostalgia anchors → Celerity BBS development timeline, EFNet channel names, and pranks like pointing warez.ut.ee to localhost to troll clueless students.
+
+- Readers argued warez culture seeded reverse-engineering expertise, security tools, vulnerability research, and careers that crossed into government work.
+- Nostalgia centered on undiscoverable servers, slow modems, IRC channels, ASCII art, and the social challenge of not appearing inexperienced.
+- Archivists pointed to surviving NFO repositories and wondered what contemporary youth culture offers as an equivalent deep technical subculture.
 
 ### LLM perspective
-- View: This collection is valuable vernacular computing history, capturing aesthetics, slang, and distribution mechanics usually lost from official records.  
-- Impact: Digital historians, infosec researchers, and demoscene archivists gain a timeline to correlate groups, tools, and vulnerabilities over a decade.  
-- Watch next: Deduplicate global NFO/filelist caches, add structured metadata, and annotate notable releases with legal context before sources vanish.
+
+- View: File lists become valuable historical artifacts when they preserve practices, aesthetics, and social networks absent from binaries.
+- Impact: Better indexing can connect informal scene history to the evolution of security research and online communities.
+- Watch next: Preservation quality depends on recovering provenance, dates, group identities, and collections before personal archives disappear.

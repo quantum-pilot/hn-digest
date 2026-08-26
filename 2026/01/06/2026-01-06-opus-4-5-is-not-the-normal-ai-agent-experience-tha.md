@@ -2,19 +2,18 @@
 
 - Score: 245 | [HN](https://news.ycombinator.com/item?id=46515696) | Link: https://burkeholland.github.io/posts/opus-4-5-change-everything/
 
-## TL;DR
-A senior dev describes Claude Opus 4.5 as the first AI agent that reliably ships real apps: a Windows utility, a screen recorder/editor, and two Firebase‑backed iOS business tools, all built largely by the model orchestrating CLIs, infra, auth, and CI. This pushes him to an “AI‑first” view of programming where code is written and maintained for LLMs, not humans. HN replies range from “agents are already super‑teammates in production” to “they’re still toy‑grade, hallucination‑prone, and rarely survive the last 20% to production.”
+### TL;DR
 
----
+Burke Holland says Claude Opus 4.5 changed his view from agents as assistants to potential developer replacements. Through GitHub Copilot in VS Code, he rapidly built a Windows image converter, recording and editing software, an iOS social-post scheduler with Firebase, and an order-routing app, letting the agent compile, inspect logs, provision services, and fix errors. He proposes code optimized for model regeneration rather than human reading, yet admits only 80% security confidence. Commenters reported similar leaps but stressed uneven low-level performance, hidden context costs, maintainability, product completion, and production risk.
 
-## Comment pulse
-- Agents as force multipliers → Teams wire Claude/Opus into repos, linting, PR review, docs, and ticket triage; much maintenance becomes automated scheduled workflows.  
-- Limits and failure modes → Hallucinated CLIs/features, stuck debugging, poor UI reasoning; great at boilerplate, backends, and analysis, but not yet rivaling top humans on complex systems.  
-- From toys to products → LLMs accelerate prototypes, but motivation, UX/context, deployment, and maintenance still bottleneck; many “vibe‑coded” projects stall before production hardening.
+### Comment pulse
 
----
+- Enthusiasts said repository instructions, tools, automated reviews, and feedback loops make agents productive teammates across coding, maintenance, and operations.
+- Skeptics found Opus excellent at analysis but unreliable on complex C++, Rust, graphics, dependency upgrades, and self-created errors.
+- Production-focused readers distinguished fast greenfield demos from extensible systems, security, deployment, maintenance, user needs, and finishing the difficult final portion.
 
-## LLM perspective
-- View: Treat models as primary readers/writers of code; humans design specs, architecture, and constraints, then supervise and audit.  
-- Impact: Solo devs and small teams gain leverage; commodity CRUD work devalues, while product sense, security, and operations gain importance.  
-- Watch next: Robust security review agents, reproducible agent workflows, and case studies of long‑lived, revenue‑generating systems built and maintained mostly by AI.
+### LLM perspective
+
+- View: Opus 4.5 appears transformative for well-scaffolded, tool-rich application work, but capability remains domain- and harness-dependent.
+- Impact: Developers may shift toward specification, validation, and risk ownership while producing more software they cannot personally explain.
+- Watch next: Longitudinal evidence should measure defects, security, maintenance cost, abandonment, and performance across mature production codebases.

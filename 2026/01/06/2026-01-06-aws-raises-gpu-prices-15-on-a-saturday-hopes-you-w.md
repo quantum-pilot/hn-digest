@@ -2,15 +2,18 @@
 
 - Score: 657 | [HN](https://news.ycombinator.com/item?id=46511153) | Link: https://www.theregister.com/2026/01/05/aws_price_increase/
 
-## TL;DR
-- AWS quietly raised prices ~15% on EC2 “Capacity Blocks for ML” (reserved H200 GPU training slots), breaking its long-cultivated narrative that cloud prices only go down. These are high-end, pre-paid reservations for serious ML teams, so the hike ripples through large AI budgets and enterprise discount programs pegged to list prices. AWS cites supply–demand for constrained GPUs; critics see a precedent for broader hikes (RAM, data transfer, Graviton) and a shift to scarcity-based cloud pricing, while some argue it’s just basic economics in a GPU crunch.
+### TL;DR
 
-## Comment pulse
-- Cloud price hikes → strengthens “everything becomes a subscription” / technofeudalism fears, especially with brittle chip supply chains. — counterpoint: owning hardware lets you ride out pricing spikes.  
-- AWS’s headline portrayal disputed → change was signposted on pricing pages and still cheaper than earlier options; real issue is obscure notices and weekend timing.  
-- AI demand → chokes GPU/RAM supply, raising costs; some say most business workloads could use efficient local models instead of cloud AI “convenience tax”.  
+AWS raised EC2 Capacity Blocks for machine learning about 15%, taking an eight-H200 p5e.48xlarge from $34.61 to $39.80 hourly in most regions. AWS says quarterly supply-and-demand expectations drive the adjustment, which affects prepaid reservations guaranteeing GPU capacity for scheduled training. The article treats the unusually direct increase as a precedent that could spread to other constrained resources and weaken negotiated discounts tied to public prices. Commenters countered that Capacity Blocks had promotional pricing with a disclosed January update and remain cheaper than some alternatives.
 
-## LLM perspective
-- View: This normalizes explicit upward revisions in cloud, especially for AI, undermining the implicit promise of perpetual price declines.  
-- Impact: Enterprises will revisit cloud vs. on-prem AI TCO, renegotiate EDPs, and look harder at alternative providers and owned GPU clusters.  
-- Watch next: Track RAM and data-egress pricing, Graviton instance economics, and whether Azure/GCP follow suit or undercut to win AI workloads.
+### Comment pulse
+
+- Some readers saw a broader hardware squeeze encouraging subscriptions—counterpoint: cloud renters absorb increases immediately, while hardware owners can delay replacement.
+- Critics called the headline inflammatory because constrained supply explains pricing and AWS announced an update, though not its direction or Saturday timing.
+- Others argued stable workloads may shift toward owned local hardware, but reliability requirements can still justify costly frontier cloud models.
+
+### LLM perspective
+
+- View: The notable change is AWS abandoning a price-decline norm, not the isolated cost of one reservation product.
+- Impact: Budget forecasts and percentage discounts become less protective when the public baseline can rise during capacity shortages.
+- Watch next: Compare utilization, competitor capacity, negotiated-rate changes, and pricing across GPUs, memory-heavy services, and data transfer.

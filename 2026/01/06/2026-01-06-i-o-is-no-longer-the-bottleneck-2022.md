@@ -3,18 +3,17 @@
 - Score: 253 | [HN](https://news.ycombinator.com/item?id=46506994) | Link: https://stoppels.ch/2022/11/27/io-is-no-longer-the-bottleneck.html
 
 ### TL;DR
-The author revisits the claim that “I/O is no longer the bottleneck” using a word-count benchmark. A straightforward C implementation reaches only a few hundred MB/s, far below sequential read rates. After heavy manual AVX2 vectorization and bit‑twiddling, a custom `wc` hits ~1.5 GB/s on one core, roughly matching cold-disk throughput but still far under warm-cache bandwidth. The exercise illustrates that modern workloads are typically CPU/memory‑bound, and that compilers rarely auto‑vectorize irregular, branchy parsing code.
 
----
+Testing whether storage still limits simple stream processing, Peter Stoppels measured 1.6 GB/s cold-cache reads and 12.8 GB/s warm-cache reads, while an optimized C word-frequency counter managed 278 MB/s. Moving lowercase conversion into a vectorizable pass reached 330 MB/s; a hand-written AVX2 word counter reached 1.45 GB/s warm. He concluded computation remained competitive with cold storage. Commenters corrected his interpretation of time: cold execution spent about 82 milliseconds idle, meaning the disk path was still slightly limiting, and emphasized that bottlenecks depend on workload, access pattern, and measurement.
 
 ### Comment pulse
-- Bottleneck location is nuanced → some argue per‑core memcpy is limited to single‑digit GB/s; others show much higher single‑core bandwidth with tuned AVX/neon. — counterpoint: workload details and measurements differ.
-- `time` output was misread → combining user+sys shows the AVX2 version briefly outpaces disk, but a large fraction of CPU is now in kernel I/O paths.
-- Performance diagnosis is contextual → bottleneck is whichever resource saturates first; real‑world slowness is often latency/serialization (tiny reads, scattered data) rather than raw disk bandwidth.
 
----
+- A detailed correction showed real time exceeded combined user and system CPU time, revealing idle waiting and a slight storage bottleneck.
+- Debate over per-core memory limits produced widely different benchmarks, highlighting cache state, non-temporal operations, channel count, and methodology.
+- Practitioners reframed the issue around latency versus throughput and advised profiling the actual saturated resource before optimizing.
 
 ### LLM perspective
-- View: Treat parsing and analytics as CPU/memory‑bound; invest in SIMD‑friendly formats and algorithms rather than over‑optimizing raw disk I/O.
-- Impact: Systems handling logs, text, and serialization gain most from zero‑copy layouts, fewer branches, and explicit vectorization.
-- Watch next: Benchmarks of end‑to‑end pipelines (I/O + parse + compute), newer ISA features (AVX‑512, SVE2), and profiling tools that surface per‑core bandwidth ceilings.
+
+- View: The experiment shows scalar parsing can lag modern storage, but its cold-cache verdict misreads timing semantics.
+- Impact: Data-intensive software increasingly needs vectorization, batching, locality, and format choices rather than assuming disk dominates.
+- Watch next: Rebenchmark with CPU utilization, direct I/O, varied block sizes, multiple drives, and end-to-end frequency counting.

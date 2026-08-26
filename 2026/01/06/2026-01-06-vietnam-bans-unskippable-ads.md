@@ -3,18 +3,17 @@
 - Score: 990 | [HN](https://news.ycombinator.com/item?id=46514677) | Link: https://saigoneer.com/vietnam-news/28652-vienam-bans-unskippable-ads,-requires-skip-button-to-appear-after-5-seconds
 
 ### TL;DR
-Vietnam’s new Decree 342, effective February 2026, bans unskippable online video ads: skip buttons must appear within 5 seconds and static ads be instantly dismissible. Platforms must provide clear, one-click closes, easy reporting, and stricter controls on health‑ and environment‑related product ads. Hacker News readers welcome shorter, skippable ads but predict ad networks will chain multiple 5‑second spots, debate whether advertising is inherently harmful or just needs regulation, and praise crackdowns on scams and junk‑food‑style promotion.
 
----
+Vietnam’s Decree No. 342, effective February 15, 2026, caps the wait before skipping video or animated ads at five seconds and requires static ads to close immediately. Platforms must offer one-action dismissal, ban misleading close symbols, provide reporting controls, and let users reject inappropriate ads. It also tightens rules for 11 health- or environment-sensitive product categories. Hacker News welcomed enforceable limits but predicted evasions such as chained five-second ads, and debated whether advertising funds useful services or systematically rewards addiction, manipulation, scams, and hostile mobile-game design.
 
 ### Comment pulse
-- Ad UX is increasingly hostile → long delays, progress-bar tricks, chained 5‑second ads; decree may just push networks toward multi‑ad successions.  
-- Ads seen as toxic → fuel addiction, artificial demand, and waste; some want ad‑free models — counterpoint: others accept ads but want curbs on billboards.  
-- Targeting illegal and unhealthy promotions matters → commenters want strong enforcement against scams and even bans on soda, junk food, and similar “legit” products.  
 
----
+- Mobile users predicted rewarded-ad systems will chain multiple skippable segments, preserving total delay while technically complying.
+- Some favored paid, ad-free services; others argued advertising manufactures demand and addiction beyond merely financing free access.
+- Parents emphasized child-hostile game interstitials, while readers rated scam and harmful-product enforcement as important as skip timing.
 
 ### LLM perspective
-- View: Shows a non‑Western regulator shaping global UX norms; platforms may standardize 5‑second skips rather than region‑specific behavior.  
-- Impact: Ad‑funded apps and games face lower completion rates; expect shifts toward rewarded ads, product placement, and subscriptions in Vietnam.  
-- Watch next: Track whether other ASEAN states copy this approach and how YouTube/TikTok technically comply or quietly throttle Vietnamese audiences’ features.
+
+- View: A measurable dismissal deadline is enforceable, but experience improves only if regulators treat sequencing as one advertisement.
+- Impact: Platforms and advertisers must redesign formats; users gain agency, while ad-funded games may intensify other monetization.
+- Watch next: Enforcement guidance, penalties, chained-ad treatment, reporting uptake, and platform compliance after February 15 will reveal effectiveness.

@@ -2,15 +2,18 @@
 
 - Score: 1052 | [HN](https://news.ycombinator.com/item?id=46509211) | Link: https://enclose.horse/
 
-- TL;DR  
-  Enclose.horse is a small browser puzzle where you place walls to corral a horse and collectibles, aiming for an optimal score on daily levels. Players praise the elegant core mechanic and share human “algorithms” for solving harder days, while proposing variants with moving horses, attractors, and floods. Much discussion centers on UX details—wall graphics, gate animations, mobile targeting, and an improved show-optimal toggle—and a side thread debates gameplay analytics versus privacy, alongside many horse/XKCD naming jokes.
+### TL;DR
 
-- Comment pulse  
-  - More mechanics (food attractors, moving goals, floods, distance-maximizing variant) could deepen play and add turn-based strategy—counterpoint: others value current simplicity and suggest coding your own.  
-  - Visual/UX: gates animate upward and walls span 1.5 tiles, confusing 2D logic and mobile taps; players want single-tile fences and a persistent show-optimal toggle.  
-  - Meta: debate over collecting gameplay analytics for balancing versus preserving no-surveillance fun; community also shares hand-derived optimal algorithms and horse/crypto/xkcd naming puns.
+enclose.horse is a daily grid puzzle where players spend a limited supply of walls to prevent a horse from reaching the board’s edge. Orthogonal movement, water, portals, and score modifiers complicate enclosure design: trapped grass increases points, cherries and golden apples add bonuses, and bees subtract them. Everyone receives the same puzzle and one scored submission, followed by community results and an optimal solution. Commenters enjoyed its optimization loop, developed incremental wall-expansion strategies, and requested clearer fences, easier solution comparison, and additional movement mechanics.
 
-- LLM perspective  
-  - View: Daily spatial-optimization puzzle hits sweet spot: tiny rules, deep search; lends itself to community strategy-sharing and friendly competition.  
-  - Impact: Encourages algorithmic thinking; could inspire tutorials contrasting human heuristics with search algorithms like A*, simulated annealing, or ILP.  
-  - Watch next: Open-source solver competitions, API/level editor, or privacy-respecting analytics exposing aggregate solution histograms and optimality rates.
+### Comment pulse
+
+- Players converged on local search: establish any enclosure, expand incrementally, then trade low-value territory for walls enabling larger gains.
+- Tall animated gates communicated barriers but obscured adjacent mobile cells, prompting an optional one-square fence setting.
+- Feature proposals added moving horses, attractors, goals, floods, analytics, and horse puns—counterpoint: one reader opposed surveillance for simple fun.
+
+### LLM perspective
+
+- View: A compact rule set produces genuine optimization depth because every enclosure remains valid while walls are reallocated.
+- Impact: Daily shared boards and single submissions turn solitary spatial reasoning into lightweight competition without requiring complex progression.
+- Watch next: Persistent solution comparison, difficulty ordering, and carefully introduced dynamics could expand replayability without weakening the puzzle’s clarity.
