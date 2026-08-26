@@ -3,18 +3,17 @@
 - Score: 181 | [HN](https://news.ycombinator.com/item?id=46599897) | Link: https://blog.mozilla.org/en/mozilla/mozilla-open-source-ai-strategy/
 
 ### TL;DR
-Mozilla argues AI is becoming the new “user agent” mediating all online activity, and warns against a future where intelligence is a rented, opaque service from a few vendors. Their strategy is to make open-source AI as easy to adopt as a closed API by fixing developer experience, data licensing, model openness, and compute access. Concrete 2026 efforts include a modular open AI stack, a licensed data marketplace, sovereign deployments with governments, ecosystem investments, and community-building. HN is skeptical, wanting Mozilla to prioritize Firefox performance, privacy, and funding instead.
 
----
+Mozilla argues AI is becoming a new intermediary between people and the internet, making control over models, data, tools, and compute as consequential as browser openness once was. Closed platforms currently win through integration and ease of use, so Mozilla plans to close that gap with a modular developer framework, licensed data marketplace, sovereign deployment partnerships, ecosystem investment, and community programs. HN readers broadly liked the open-stack thesis but doubted Mozilla’s execution and priorities, repeatedly asking whether scarce resources should instead strengthen Firefox, performance, privacy, and browser compatibility.
 
 ### Comment pulse
-- Support the open AI vision → Many like the ownership argument but doubt Mozilla’s execution, given past missteps and shifting focus away from Firefox.
-- “Fix the browser first” → Users want performance, privacy, and a clear funding model for Firefox, not another AI initiative — counterpoint: search deals still dwarf potential donations.
-- Privacy vs usability tension → Critics want Tor-like defaults; defenders say strict anti-fingerprinting and disabled features would break sites, killing share and long‑term influence.
 
----
+- Open AI’s weakness is integration → developers choose closed APIs because complete, polished stacks turn ideas into prototypes quickly.
+- Mozilla’s mission fits the problem → supporters welcome a major open-source coordinator despite its history of abandoned initiatives.
+- Firefox remains the credibility test → AI investment may diversify impact — counterpoint: users see distraction from the browser’s core needs.
 
 ### LLM perspective
-- View: The core bet is right: open AI wins only if its DX equals or beats closed APIs.
-- Impact: Success would mainly affect enterprises, governments, and power users who can self-host or demand sovereignty.
-- Watch next: Adoption of any-suite, real revenue or usage in Mozilla’s data marketplace, and whether Firefox meaningfully integrates open AI without bloating.
+
+- View: Mozilla correctly treats usability, not ideology, as the decisive bottleneck for open AI adoption.
+- Impact: Successful integration could reduce vendor lock-in; another short-lived initiative would further erode community trust.
+- Watch next: Concrete releases, adoption, maintenance commitments, and transparent funding allocation between open-AI work and Firefox.

@@ -2,15 +2,18 @@
 
 - Score: 315 | [HN](https://news.ycombinator.com/item?id=46605553) | Link: https://coywolf.com/news/productivity/signal-president-and-vp-warn-agentic-ai-is-insecure-unreliable-and-a-surveillance-nightmare/
 
-- TL;DR
-  - Signal’s Meredith Whittaker and Udbhav Tiwari warn that OS-level “agentic AI” like Windows Recall effectively creates a searchable, malware-exploitable log of users’ entire digital lives, bypassing end‑to‑end encryption and enabling pervasive surveillance. They argue today’s agents are probabilistic systems whose accuracy collapses over multi-step tasks, making real autonomy unsafe. They call for pausing reckless deployments, making participation opt‑in, and enforcing radical transparency. HN commenters dispute whether the core flaw lies in legacy OS security or in fundamentally untrustworthy LLM-based agents.
+### TL;DR
 
-- Comment pulse
-  - Root cause is weak OS security → agents expose old sandboxing failures — counterpoint: LLMs are unsecurable, so integration itself introduces distinct AI-driven risks.
-  - Signal must prioritize privacy above usability → their stance suits messaging, while enterprises juggle productivity gains against poorly understood agent risks and IT governance constraints.
-  - Recall-style total logging seen as surveillance risk → some propose opt-in, local-only, task-specific recorders; skeptics argue verifiable privacy impossible without on-device models and stronger regulation.
+Signal president Meredith Whittaker and VP Udbhav Tiwari argue that OS-level AI agents combine excessive access, insecure memory, prompt injection, and compounding probabilistic errors. Windows Recall exemplifies the risk by turning screen activity into a searchable local dossier that malware could exploit, bypassing encrypted apps. Even optimistic 95% per-step accuracy falls to about 21% across 30 steps; at 90%, it is 4.2%. They urge halted deployment, default opt-out, explicit developer opt-in, and granular auditability. HN saw both an AI flaw and an overdue operating-system security reckoning.
 
-- LLM perspective
-  - View: Treat general-purpose agents as high-risk infrastructure, demanding certification, logs, and constraints similar to payments or identity providers.
-  - Impact: OS vendors must redesign permission models; enterprises limit agents to narrow workflows with audited tools rather than desktop-wide autonomy.
-  - Watch next: Benchmarks for multi-step reliability, threat models for agent logging, and crypto guarantees for local or federated private inference.
+### Comment pulse
+
+- Sandboxing is necessary but insufficient → capability isolation limits damage, while prompt injection still blurs trusted instructions with hostile data.
+- Secure defaults impose real friction → granular permissions and zero-trust controls often fail adoption when developers must manually authorize every access.
+- Signal’s absolutism fits its mission → enterprise IT balances risk and usability — counterpoint: broad desktop agents may make compromise unacceptable.
+
+### LLM perspective
+
+- View: Agents collapse application boundaries, so least-privilege models need task-scoped capabilities and explicit data-flow controls.
+- Impact: Users and enterprises risk turning encrypted activity into centralized, malware-readable behavioral records.
+- Watch next: Demand long-horizon reliability tests, injection benchmarks, revocable permissions, local processing, and independently verified telemetry guarantees.

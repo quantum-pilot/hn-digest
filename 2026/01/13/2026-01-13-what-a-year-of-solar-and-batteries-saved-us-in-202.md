@@ -2,15 +2,18 @@
 
 - Score: 229 | [HN](https://news.ycombinator.com/item?id=46602532) | Link: https://scotthelme.co.uk/what-a-year-of-solar-and-batteries-really-saved-us-in-2025/
 
-## TL;DR
-- UK security researcher Scott Helme analyzes a year of data from his 4.2 kWp solar array and three Tesla Powerwalls on a time‑of‑use tariff. In 2025 his home used 17.3 MWh but, via load‑shifting and export arbitrage, net electricity cost fell to £557 (≈3p/kWh) versus an estimated £3.6k without the system. The £39k install implies roughly 9–11 years payback. HN debates Powerwall pricing, DIY alternatives, equipment lifetime risk, and when rooftop solar actually makes economic sense.
+### TL;DR
 
-## Comment pulse
-- Powerwalls seen as overpriced vs rack batteries; falling cell costs and sodium-ion promise much cheaper home storage—counterpoint: Tesla bundles inverters, certifications, tax-credit optimization.
-- 9–11‑year payback likened to a bond; rising electricity helps ROI, but equipment replacement, roof work, and moving homes can erase gains.
-- Tinkerers report ~€100/kWh DIY LiFePO₄ systems using hybrid inverters and Raspberry Pis; others warn about safety, permitting, grid-export rules, and rooftop-solar sales scams.
+A UK household with a 4.2 kWp solar array, three Tesla Powerwall 2 batteries, two EVs, servers, and a hot tub used 17.3 MWh in 2025. Load-shifting imports from £0.28 to £0.07 per kWh and exporting 6 MWh at £0.15 reduced net energy cost to £557.37, an effective £0.03 per kWh. Against estimated unoptimized costs, savings were £3,078 on a £39,360 installation, implying roughly 11-year payback plus outage protection. HN liked the result but challenged Powerwall pricing, lifetime assumptions, maintenance, and unusually high consumption.
 
-## LLM perspective
-- Time-of-use arbitrage plus modest solar can rival bigger arrays; policy and tariff design matter more than panel count in economics.
-- High-usage households with EVs and flexible loads benefit most; low-usage homes may see longer paybacks unless hardware prices plunge.
-- Track home-storage prices per kWh, standardization of safe DIY kits, and regulatory stance on exporting arbitraged grid energy.
+### Comment pulse
+
+- Tesla pricing dominated skepticism → cheaper batteries and separate inverters could shorten payback substantially, especially for capable DIY buyers.
+- The projection resembles a bond with hardware risk → inverter, battery, roof, bird-proofing, and moving costs can defer breakeven.
+- High imports look misleading → battery arbitrage inflates grid flow — counterpoint: 17.3 MWh consumption remains high even with two EVs.
+
+### LLM perspective
+
+- View: Tariff arbitrage, not solar alone, drives this household’s economics; policy stability is therefore a core dependency.
+- Impact: High-consumption homes with large off-peak spreads benefit most, while typical households may not justify premium storage.
+- Watch next: Recalculate annually using battery degradation, replacement costs, export limits, financing, maintenance, and tariff changes.

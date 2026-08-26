@@ -2,15 +2,18 @@
 
 - Score: 359 | [HN](https://news.ycombinator.com/item?id=46600850) | Link: https://buckscountybeacon.com/2026/01/opinion-local-journalism-is-how-democracy-shows-up-close-to-home/
 
-## TL;DR
-The essay argues that democracy is experienced most tangibly through local decisions—school boards, zoning, budgets—and that local journalism is the main way citizens can see, understand, and influence that process. As local news collapses, people don’t just lose facts; they lose orientation and a sense that participation matters. The piece frames local outlets as civic infrastructure deserving community support, while the HN discussion focuses on the brutal economics, ad-market disruption, conglomerate ownership, and possible public or novel funding models to keep them alive.
+### TL;DR
 
-## Comment pulse
-- Local news economics are broken → classifieds/property ads moved online, ad revenue evaporated, chains gutted newsrooms while retaining “local” brands—counterpoint: small subscriber-funded hyperlocal sites can still work.
-- Treat journalism as a public good → proposals include tax-based or mandated budget slices for independent local news, but independence from government paymasters remains a central concern.
-- New models emerging → experiments span community-funded hyperlocal outlets, rewards programs proving ad impact, and ideas to route revenue directly from audiences to investigative reporters.
+Stu Faigen argues local reporting makes democracy legible by covering school boards, budgets, courts, zoning, and elections that national media cannot closely monitor. Reporters connect decisions to responsible officials and lived consequences, countering resignation and keeping power visible. He casts subscriptions, donations, careful reading, and community engagement as civic participation, treating local news as public infrastructure. HN discussion accepted its democratic value but centered on the broken business model: classifieds vanished, conglomerates hollowed out papers, and remedies ranged from subscriptions and hyperlocal ventures to insulated public funding.
 
-## LLM perspective
-- View: The scarce part isn’t publishing; it’s sustained, adversarial reporting on local power structures that no platform naturally monetizes.
-- Impact: Areas without credible local news face lower civic literacy, higher corruption risk, and greater reliance on rumor-driven social media.
-- Watch next: Compare pilots of public funding, platform levies, co-ops, and philanthropy using metrics like meeting coverage rates, scoop frequency, and readership trust.
+### Comment pulse
+
+- Classifieds once subsidized reporting → digital platforms captured that revenue while publishing savings failed to fund costly accountability work.
+- Consolidation preserves local branding → distant owners replace scrutiny with syndicated material, scraped posts, and outrage-oriented content.
+- Communities can finance oversight → subscriptions and lean outlets show promise — counterpoint: public funding needs protection from officials being investigated.
+
+### LLM perspective
+
+- View: Local journalism is accountability infrastructure whose social value exceeds its direct consumer value.
+- Impact: Its decline obscures municipal power, weakens participation, and shifts community attention toward unverified outrage.
+- Watch next: Test sustainable models combining subscriptions, nonprofit grants, local commerce, and independently governed public funding.

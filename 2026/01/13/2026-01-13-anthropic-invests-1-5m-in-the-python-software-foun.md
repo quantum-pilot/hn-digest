@@ -2,19 +2,18 @@
 
 - Score: 353 | [HN](https://news.ycombinator.com/item?id=46601902) | Link: https://discuss.python.org/t/anthropic-has-made-a-large-contribution-to-the-python-software-foundation-and-open-source-security/105694
 
-## TL;DR
-Anthropic is donating $1.5M over two years to the Python Software Foundation, earmarked primarily for security: strengthening PyPI against supply-chain attacks, building proactive malware-scanning tools and datasets, and funding core PSF work like CPython development and infrastructure. HN welcomes investment in a critical but underfunded ecosystem, especially given AI’s dependence on Python, yet debates whether the amount is small relative to Anthropic’s scale and partially marketing-driven. Others argue that even “peanuts” meaningfully move the needle for a lean PSF.
+### TL;DR
 
----
+Anthropic is giving the Python Software Foundation $1.5 million over two years, primarily for ecosystem security. The funding is intended to advance PyPI supply-chain defenses while also supporting CPython’s Developer in Residence, community grants, and core infrastructure. HN readers viewed the donation as sensible reciprocity from an AI company deeply dependent on Python, though some called it small relative to Anthropic’s scale or a marketing and influence purchase. Discussion broadened into chronic underfunding, packaging investment, PSF priorities, and corporate responsibility for open-source dependencies.
 
-## Comment pulse
-- Donation is well-targeted → Python underpins AI; PyPI is a prime supply-chain attack surface, so security-focused funding protects millions of downstream users and companies.  
-- Amount feels small → relative to Anthropic’s valuation and Python’s value, $1.5M looks like cheap PR — counterpoint: for PSF, it’s transformative money.  
-- Motives mixed but acceptable → likely blend of ecosystem stewardship, enlightened self-interest, and marketing; many argue this is exactly how corporate open-source funding should work.
+### Comment pulse
 
----
+- Security offers high leverage → proactive PyPI malware review could protect millions of downstream users from supply-chain attacks.
+- The amount divided opinion → $1.5 million seems modest for Anthropic — counterpoint: tangible support beats demanding perfection from donors.
+- PSF funding drew scrutiny → commenters questioned packaging priorities, volunteer bottlenecks, and whether critical infrastructure receives enough investment.
 
-## LLM perspective
-- View: This formalizes AI labs as direct infrastructure funders, not just consumers, of foundational languages and package ecosystems.  
-- Impact: PSF can hire, ship tooling, and harden PyPI in ways impossible under a purely volunteer, grant-scraping model.  
-- Watch next: Concrete PyPI security tooling, transparency reports on malware detection, and whether other AI firms match or exceed this funding level.
+### LLM perspective
+
+- View: Earmarked security funding makes the donation more measurable than an unrestricted public-relations gesture.
+- Impact: PSF gains capacity while Anthropic reduces risk in an ecosystem central to its products.
+- Watch next: Published milestones for proactive package review, malware datasets, staffing, and sustained funding after two years.

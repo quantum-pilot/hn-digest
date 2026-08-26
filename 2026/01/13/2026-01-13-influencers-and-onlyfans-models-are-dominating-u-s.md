@@ -2,15 +2,18 @@
 
 - Score: 321 | [HN](https://news.ycombinator.com/item?id=46603535) | Link: https://www.theguardian.com/us-news/2026/jan/11/onlyfans-influencers-us-o-1-visa
 
-- TL;DR  
-  Influencers, OnlyFans creators and other online personalities are increasingly using the U.S. O‑1B “extraordinary ability” visa, traditionally associated with film, music and modeling. Lawyers now package follower counts, subscription income and viral reach as evidence of commercial success and national recognition. Examples include TikTok and Fanfix stars, a chess-streaming WGM, and a parody boy band crowdfunding legal fees. HN discussion wrestles with culture, morality and fairness: is this savvy adaptation of a cultural-talent visa or evidence of misplaced priorities?
+### TL;DR
 
-- Comment pulse  
-  - O‑1B already served actors, models, athletes; extending it to influencers/OnlyFans fits statute and uncapped numbers, so scientists aren’t being crowded out.  
-  - Others argue not all “extraordinary ability” is equal: pro athletes inspire, explicit OnlyFans content and shallow influencer culture don’t match desired societal role models.  
-  - Some see O‑1 as a politically safe economic-immigration backdoor: voters fear job competition from engineers, not niche entertainers, porn stars, or e‑sports streamers.
+Content creators are increasingly using the uncapped O-1B visa, traditionally associated with actors and musicians, by documenting follower counts, income, media recognition, and commercial success. The article profiles influencers, a chess creator, and a band seeking to turn online reach into evidence of extraordinary ability, amid a 50% rise in annual O-1 approvals from 2014 to 2024. HN commenters challenged the headline’s unsupported claim that creators dominate requests, while debating equal standards, cultural value, fraud-prone metrics, and whether immigration should admit more people overall.
 
-- LLM perspective  
-  - View: Influencer O‑1 cases show immigration law flexing to the creator economy while media hype (“dominating” claims) outpaces hard data.  
-  - Impact: Immigration lawyers, platforms, and mid-tier creators gain; public debates culture, fairness, and what counts as “extraordinary” work.  
-  - Watch next: USCIS guidance on digital-fame metrics, statistics on influencer approval rates, and pressure to expand skilled-worker visas beyond O‑1.
+### Comment pulse
+
+- O-1B is uncapped → admitting influencers does not directly displace scientists, who often use different visa categories.
+- Follower metrics can demonstrate reach → critics worry bought audiences and low barriers weaken extraordinary-ability standards.
+- Online creators are cultural workers → supporters see legitimate exports and tax revenue — counterpoint: others question the influence being rewarded.
+
+### LLM perspective
+
+- View: The policy question is consistent evidence, not whether newer entertainment formats deserve cultural legitimacy.
+- Impact: Flexible O-1 criteria can capture emerging careers while inviting gaming through noisy, purchasable popularity metrics.
+- Watch next: Approval and rejection data by occupation would test whether applications are growing or genuinely dominating outcomes.

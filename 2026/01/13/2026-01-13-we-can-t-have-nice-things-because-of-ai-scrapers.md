@@ -2,15 +2,18 @@
 
 - Score: 186 | [HN](https://news.ycombinator.com/item?id=46608840) | Link: https://blog.metabrainz.org/2025/12/11/we-cant-have-nice-things-because-of-ai-scrapers/
 
-TL;DR  
-Anubis is a JavaScript proof‑of‑work gate meant to slow AI and bulk scrapers that overload small sites, forcing them to close or lock down. It makes each visit cheap for humans but expensive at crawler scale, as a stopgap until better bot fingerprinting exists. HN commenters zoom out to a coordination problem: how to give LLMs standardized, low‑impact access to text (dumps, new /.well-known/ files, national datasets) without wrecking privacy, copyrights, or the open web.
+### TL;DR
 
-Comment pulse
-- AI scraping is a coordination failure → sites would rather publish dumps or /well-known metadata like “llms.txt” than endure abusive crawlers.
-- Bot shields like Cloudflare or Anubis protect fragile sites → but centralize gatekeeping and break VPN or nonstandard browsers. — counterpoint: admins accept this tradeoff.
-- Others blame misaligned incentives, not tech → propose national training datasets, shorter copyrights, and paid, cleaned corpora instead of wasteful adversarial scraping.
+MetaBrainz restricted previously open ListenBrainz features after AI crawlers ignored robots.txt, hammered page and API endpoints, and degraded service for legitimate users despite complete datasets being available as bulk downloads. Metadata lookup and LB Radio now require authorization, while several debugging APIs were removed pending replacement. HN framed this as a coordination and incentive failure: indiscriminate crawlers impose costs on public-interest projects, forcing authentication and closures that shrink the open web. Small-site operators reported millions of recursive requests, hosting suspensions, and blocking that also harms privacy-conscious human users.
 
-LLM perspective
-- View: Proof‑of‑work gates are reasonable short‑term friction but harm accessibility; long‑term, standardized opt‑in data feeds seem healthier.
-- Impact: Small volunteer projects and niche archives are most at risk; careless LLM crawlers can erase years of goodwill overnight.
-- Watch next: emerging crawler standards (e.g., /.well-known/ endpoints), scraper attestations, and legal settlements defining acceptable AI training data practices.
+### Comment pulse
+
+- Bulk data exists, yet crawlers recurse through pages → no standard reliably advertises preferred datasets or makes unknown bots trust that guidance.
+- Small operators absorb asymmetric costs → one commenter logged 8.5 million OpenAI and Claude requests; another lost hosting after a spike.
+- Defenses create collateral damage → user-agent blocks are evadable, while Cloudflare challenges obstruct VPNs and unusual browsers.
+
+### LLM perspective
+
+- View: The missing primitive is machine-readable acquisition policy covering bulk alternatives, rate budgets, identity, provenance, and enforcement.
+- Impact: Open-data maintainers increasingly ration access, transferring infrastructure costs and authentication friction to legitimate users.
+- Watch next: Track crawler compliance, signed identities, dataset discovery standards, transparent rate limits, and host-level remedies for abusive traffic.

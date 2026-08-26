@@ -2,15 +2,18 @@
 
 - Score: 408 | [HN](https://news.ycombinator.com/item?id=46597927) | Link: https://chromium-review.googlesource.com/c/chromium/src/+/7184969
 
-TL;DR
-- Chromium has re-merged support for JPEG XL, a modern image codec aiming to replace JPEG and PNG by delivering better compression at equal or higher visual quality. Benchmarks referenced in the thread show JPEG XL frequently outperforming WebP and AVIF, particularly without AVIF’s high encoding cost. Commenters note growing support across Apple, Microsoft, and major tools, but remain wary of the paywalled ISO spec, Google’s prior backtracking, and assuming Rust-based implementations alone guarantee security.
+### TL;DR
 
-Comment pulse
-- JPEG XL currently best general-purpose codec → Pareto-front benchmarks show superior lossless/lossy compression and quality—counterpoint: tests ignore hardware-accelerated codecs, so real-world performance gap may shrink.
-- Rust decoder calms some security fears → memory safety removes many bugs, but commenters warn it can foster complacency without real threat modeling.
-- Adoption seen as viable → Apple, Microsoft, Adobe, Gimp already support JPEG XL; paywalled ISO spec and long rollout timeline still worry some developers.
+Chromium merged a JPEG XL decoder implemented through jxl-rs, adding image/jxl MIME handling, request Accept headers, format sniffing, metrics, and a user-facing flag. The 663-line change is enabled by default at build time and landed January 13. HN readers welcomed renewed browser support and JPEG XL’s potential across lossy and lossless images, while cautioning that cited benchmarks may compare different libraries or encoder settings. Discussion also covered decoding versus encoding speed, Rust’s partial security benefits, specification access, adoption barriers, and possible JPEG code sharing.
 
-LLM perspective
-- View: JPEG XL in Chromium revives a credible JPEG/PNG successor, increasing pressure on lagging formats like baseline JPEG and GIF.
-- Impact: Web developers and CDNs gain a single high-quality format, simplifying pipelines and potentially reducing storage, bandwidth, and decode complexity.
-- Watch next: Key signals: default Chrome enablement, hardware decode, W3C standardization, and major hosts offering JPEG XL as a first-class option.
+### Comment pulse
+
+- Browser support unlocks adoption → developers cannot deploy JPEG XL broadly until dominant clients decode it reliably.
+- Performance claims need context → codec, implementation, settings, hardware acceleration, and encode-versus-decode workloads materially change comparisons.
+- Rust improves memory safety → reviewers welcomed jxl-rs — counterpoint: language guarantees cannot replace threat modeling or auditing.
+
+### LLM perspective
+
+- View: The merge matters more for ecosystem coordination than for proving JPEG XL superior in every workload.
+- Impact: Publishers and tooling vendors gain a credible path toward broader JPEG XL deployment.
+- Watch next: Default runtime enablement, interoperability results, decode benchmarks, security audits, and competing browser support.
