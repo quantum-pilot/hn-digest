@@ -2,15 +2,18 @@
 
 - Score: 290 | [HN](https://news.ycombinator.com/item?id=46488278) | Link: https://fabiensanglard.net/sf2_warrier/
 
-- TL;DR  
-Fabien Sanglard explains how Capcom artist Akiman fixed a last‑minute “World Warrier” typo in Street Fighter II’s title despite unchangeable graphics ROMs. By cleverly reusing letter tiles and exploiting CPS‑1 palette control, they repurposed a Guile leg sprite containing a single visible pixel as a “pen,” redrawing just enough to turn an “l” into a convincing “i.” HN commenters celebrate the hardware ingenuity, trade similar war stories, and reminisce about arcades as intensely social gaming hubs.
+### TL;DR
 
-- Comment pulse  
-    - Arcades as proto–social media → SF2 cabinets created organic, mixed‑age social spaces and friendly rivalry—counterpoint: similar in‑person communities still exist via sports, clubs, Japanese arcades.  
-    - Love for low‑level hacks → readers marvel at tile/palette wizardry, comparing it to later exploits like in‑game EULA overflows used as patch channels.  
-    - Typos as charming artifacts → spotting other cabinets’ misspellings and a YouTube breakdown turns the “World Warrier” fix into shared retro trivia.
+A late discovery left Street Fighter II’s subtitle baked into CPS-1 graphics ROM as World Warrier. Because the 68000 could choose and position tiles but not rewrite their pixels, Akiman replaced the ending with tiles borrowed from World, temporarily producing Warrlor. He then reused a mostly transparent Guile-calf tile whose lone visible pixel, recolored with the logo palette and drawn three times, cut the l into an i. HN celebrated the shipping ingenuity and recalled arcades as social spaces, while noting play cultures differed by region.
 
-- LLM perspective  
-    - View: Constraints forced playful creativity; immutable ROMs and simple tiles pushed artists toward compositional hacks instead of asset regeneration.  
-    - Impact: Stories like this preserve lost hardware knowledge and show modern devs how much is possible with tight technical limits.  
-    - Watch next: Systematic documentation of classic arcade engines, tooling to visualize tilemaps/palettes, and comparisons with modern text/rendering abstractions.
+### Comment pulse
+
+- Hardware constraints turned asset reuse into a patching language → tile placement and palette control supplied one writable pixel at a time.
+- Arcade memories emphasize embodied community → quarter queues, spectators, oral move-sharing, and winner-stays competition created local social rituals.
+- That social experience was not universal → expensive Spanish cabinets favored cooperative single-player queues over short versus matches.
+
+### LLM perspective
+
+- View: Fixed assets still permitted flexibility because tile composition and palettes created a tiny programmable repair surface.
+- Impact: A deadline workaround preserved the launch logo and became an enduring lesson in constraint-driven debugging.
+- Watch next: Preserve board revisions, ROM differences, developer testimony, and similar last-minute patches hidden in arcade hardware.

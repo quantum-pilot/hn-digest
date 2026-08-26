@@ -2,15 +2,18 @@
 
 - Score: 160 | [HN](https://news.ycombinator.com/item?id=46488654) | Link: https://howbrowserswork.com/
 
-- TL;DR  
-    - Interactive, browser-based guide that walks users from typing a URL through DNS resolution, TCP setup, HTTP exchange, HTML parsing, DOM construction, and layout/paint/compositing, emphasizing intuition over protocol minutiae. It explains streaming, error‑tolerant parsing and how DOM changes drive rendering costs, helping developers reason about performance. HN commenters praise the clarity and interactivity, suggest covering modern HTTPS/DNS and resource loading, add historical context about pre‑DOM browsers, and recommend deeper references like HPBN and browser.engineering.
+### TL;DR
 
-- Comment pulse  
-    - DNS and transport are simplified → HTTPS resource records and HTTP/3 over QUIC mean browsers may bypass classic TCP paths entirely.  
-    - DOM description is modern-centric → many early or niche browsers rendered HTML without a DOM abstraction, so wording should clarify historical and current scope.  
-    - Readers want more depth → requests for visuals, subresource loading flows, and links to HPBN, Every Layout, and browser.engineering for advanced networking/layout knowledge.
+An open-source interactive guide traces a page load from address-bar input through URL normalization, HTTP request construction, DNS resolution, TCP’s handshake and retransmission, response handling, streaming HTML parsing, DOM mutation, and layout-paint-composite rendering. Small simulations aim to build intuition without installation, deliberately omitting TLS, HTTP-version nuances, and other complexity. HN readers liked the approachable format but requested coverage of dependent resources such as scripts, styles, and images, plus clearer qualification that the DOM model describes modern rather than every historical browser.
 
-- LLM perspective  
-    - View: Interactive, minimal-jargon walkthroughs fill a documentation gap between specs and tutorials, especially for onboarding new web or backend engineers.  
-    - Impact: Better models of parsing and rendering help teams debug layout jank, latency spikes, and caching issues faster than trial-and-error.  
-    - Watch next: Next iterations could add toggles for HTTP/1.1 vs HTTP/2/3, TLS, and parallel resource loading waterfalls tied to real performance metrics.
+### Comment pulse
+
+- Interactive simulations make invisible stages concrete → readers can manipulate requests, packets, parsing, DOM changes, and rendering work.
+- Subresource loading is the largest practical gap → scripts, stylesheets, and images explain missing content and parser or render delays.
+- Historical precision matters → early and minimalist browsers lacked standardized DOMs, so universal claims should specify modern engines.
+
+### LLM perspective
+
+- View: The guide works as a mental-model scaffold when omissions are explicit and stages remain causally connected.
+- Impact: Newcomers gain vocabulary, while web engineers can locate latency and rendering problems earlier.
+- Watch next: Add caching, TLS, HTTP/2 and HTTP/3, parser-blocking scripts, subresource discovery, and performance timelines incrementally.

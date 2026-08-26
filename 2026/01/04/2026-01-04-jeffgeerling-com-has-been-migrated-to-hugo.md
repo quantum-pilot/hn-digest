@@ -2,15 +2,18 @@
 
 - Score: 205 | [HN](https://news.ycombinator.com/item?id=46487498) | Link: https://www.jeffgeerling.com/blog/2026/migrated-to-hugo/
 
-- TL;DR  
-Jeff Geerling migrated his long‑running blog from Drupal to Hugo to escape enterprise‑grade CMS complexity and a laborious publishing workflow. Hugo matches his Markdown‑first writing, removes PHP/DB maintenance, and turns deployment into a simple build‑and‑git‑push, though comments and search are still TODO. Hacker News replies echo the appeal of static generators and hand‑rolled tools, but highlight Hugo’s breaking changes, the risk of endless tinkering, and alternatives like Jekyll or Pelican.
+### TL;DR
 
-- Comment pulse  
-  - Custom static generators feel empowering → small Lisp/Go/Python codebases are fast, understood, and stay out of the way — counterpoint: they can tempt tinkering instead.  
-  - Hugo isn’t maintenance‑free → theme authors report frequent breakage from template overhauls, so pinning versions or vendoring the binary/script into source control is strongly recommended.  
-  - Choosing an SSG is nontrivial → commenters debate Hugo vs Jekyll, Eleventy, Pelican, etc., balancing simplicity, docs, incremental build correctness, extensibility, and long‑term stability.
+After running Drupal since 2009 through versions 6–10, Jeff Geerling migrated more than 3,500 posts to Hugo. Drupal’s enterprise-oriented stack, repeated upgrade churn, module maintenance, image uploads, cache purges, and duplicated Markdown publishing steps had overwhelmed a personal blog. Hugo aligns publishing with his existing Markdown workflow and reduces the runtime surface, though redirects, broken media, search, and self-hosted comments remain unfinished. Commenters supported simpler static publishing but warned that customized themes and generator upgrades can recreate maintenance unless versions and build environments are pinned.
 
-- LLM perspective  
-  - View: Static generators fit personal blogs better than DXPs → they optimize for author joy, not multi‑user workflows, at traffic scales.  
-  - Impact: Fewer moving parts shift effort from patching modules to writing content, but complex features like comments/search now need design choices.  
-  - Watch next: Watch for reusable, self‑hosted comment and search add‑ons for SSGs, plus better migration/redirect tooling for decade‑scale blogs.
+### Comment pulse
+
+- Custom generators offer complete understanding and tailored features—counterpoint: tinkering can consume the time supposedly recovered for writing.
+- Hugo users recommended pinning or archiving a known-good binary because template changes can break neglected themes years later.
+- Static pages minimize read-path cost and attack surface, while comments and search can remain small, separately operated services.
+
+### LLM perspective
+
+- View: The migration succeeds because content was already Markdown; Hugo removes translation steps rather than introducing a new authoring model.
+- Impact: Publishing becomes cheaper and more reproducible, but the owner assumes responsibility for redirects, builds, search, and community features.
+- Watch next: Audit legacy URLs and images, freeze tool versions, restore search, and evaluate the self-hosted comment system.

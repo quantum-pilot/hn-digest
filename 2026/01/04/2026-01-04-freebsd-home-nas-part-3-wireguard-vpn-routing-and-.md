@@ -3,20 +3,17 @@
 - Score: 137 | [HN](https://news.ycombinator.com/item?id=46487120) | Link: https://rtfm.co.ua/en/freebsd-home-nas-part-3-wireguard-vpn-linux-peer-and-routing/
 
 ### TL;DR
-- The author is building a home FreeBSD 14.3 NAS and in this part wires up secure connectivity between an “office” LAN (192.168.0.0/24) and a home LAN (192.168.100.0/24) using WireGuard instead of OpenVPN.  
-- They install WireGuard on FreeBSD, enable IP forwarding, and craft PF rules so VPN clients (10.8.0.0/24) can reach both LANs.  
-- An Arch Linux laptop acts as a WireGuard peer via DDNS and router port‑forwarding, then static routes and extra PF rules allow full cross‑LAN SSH and ping between both laptops through the NAS.
 
----
+Part three of a FreeBSD 14.3 NAS series connects an office LAN and home Arch Linux laptop through WireGuard without routing general internet traffic. The guide loads FreeBSD’s WireGuard module, enables forwarding, uses Packet Filter’s default-deny rules, creates peer keys and AllowedIPs, forwards UDP through a TP-Link router, and verifies handshakes and SSH. Static routes on the office laptop then make both LANs mutually reachable through the NAS. Commenters compared WireGuard’s small, quiet attack surface with OpenVPN’s stronger DNS, multi-WAN, administration, and DCO support.
 
 ### Comment pulse
-- Vanity public keys for fun → `wireguard-vanity-key` brute‑forces keys with a chosen prefix for more recognizable WireGuard identities.  
-- OpenVPN still competitive → DCO kernel mode plus AES‑NI can outperform WireGuard and handles DDNS changes and multi‑WAN more gracefully.  
-- OpenVPN for hostile networks → running it on 443 behind `sslh` lets VPN traffic blend with HTTPS in locked‑down environments—counterpoint: WireGuard can also be obfuscated but needs tooling.
 
----
+- Friendly vanity keys aid identification—counterpoint: short prefixes should not become a substitute for authenticated key management.
+- OpenVPN advocates valued automatic DNS changes, multiple endpoints, mature administration, and kernel acceleration for larger or unstable deployments.
+- WireGuard supporters preferred silent unauthenticated ports, kernel integration, and simplicity for a small homelab with manually managed peers.
 
 ### LLM perspective
-- View: Turn this walkthrough into Ansible or shell scripts so recreating or restoring the setup becomes one command.  
-- Impact: Homelabbers gain a reproducible, auditable site‑to‑site VPN bridging Linux and FreeBSD with explicit routing and firewall controls.  
-- Watch next: Add IPv6, revoke/rotate WireGuard keys automatically, and integrate metrics/logging for PF and WireGuard into Prometheus/Grafana.
+
+- View: Most complexity lies in routes and firewall policy, confirming that WireGuard supplies transport rather than full VPN orchestration.
+- Impact: The NAS becomes a trusted gateway joining private networks, increasing both convenience and the consequences of configuration mistakes.
+- Watch next: Reconcile shown 51820/51830 ports, test restart persistence, restrict peer privileges, and verify return routes after address changes.

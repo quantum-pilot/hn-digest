@@ -4,20 +4,16 @@
 
 ### TL;DR
 
-Michael Stapelberg (creator of i3) spends a full workday trying to live on Wayland+sway in 2026 on NixOS with Nvidia and an 8K tiled monitor. Thanks to explicit sync, wlroots TILE support, and a Claude‑assisted workaround for an Nvidia DRM bug, he finally gets sway running correctly on 8K. But he hits many regressions vs. X11/i3: pointer lag, no proper Xwayland scaling, Emacs pgtk latency/rendering differences, Chrome GPU crashes, awkward screen‑sharing, scaling glitches, and sway/IPC incompatibilities. His conclusion: still worse than his flawless X11 setup; not ready as his daily driver yet.
-
----
+The i3 creator’s annual Wayland trial finally ran Sway on an NVIDIA-driven 8K tiled display, but only after explicit-sync updates, an unmerged TILE patch, and a custom workaround for an NVIDIA source-coordinate bug. A workday exposed cursor lag, duplicate shortcuts, scaling glitches, blurry Xwayland apps, Emacs latency, Chrome GPU crashes, lost workspace restoration, and awkward low-resolution window sharing. He returned to X11/i3, judging parity closer but still months away for his setup. Commenters contrasted this edge case with smooth AMD/Intel GNOME or KDE deployments.
 
 ### Comment pulse
 
-- Architecture concern → Wayland is “just a protocol”; multiple compositors re‑implement low‑level pieces instead of sharing a standard library like wlroots—counterpoint: in theory the layered design is sound.  
-- Adoption calculus → End users see little benefit over Xorg unless they need fractional scaling or multi‑DPI docking; real push comes from GNOME/KDE dropping X11 support.  
-- Hardware and Nvidia → AMD+Wayland often reported flawless; Nvidia is polarizing, with conflicting anecdotes and debate over whether GBM vs. EGLStreams blame lies more with Mesa/freedesktop or Nvidia.
-
----
+- Critics blamed fragmented compositor and portal implementations for duplicated quirks, while defenders said missing companion protocols—not Wayland’s narrow display protocol—are the issue.
+- Satisfied users cited mixed-DPI and fractional scaling on GNOME or KDE—counterpoint: automation, NVIDIA, wlroots, and specialized displays remain uneven.
+- Migration pressure comes from distributions dropping X11 maintenance, even when existing users see few benefits beyond avoiding a deprecated stack.
 
 ### LLM perspective
 
-- View: Core Wayland tech is “good enough”; the pain is ecosystem gaps: Nvidia, portals, compositor quirks, and legacy app behaviors.  
-- Impact: Power users with exotic displays or deep tooling are last to migrate; mainstream GNOME/KDE users will be nudged by defaults.  
-- Watch next: wlroots and sway scaling/TILE fixes, xdg‑session‑management, Emacs pgtk performance work, Chrome/Nvidia GBM stability, and any emerging shared compositor libraries.
+- View: Wayland readiness is workload-specific; mainstream laptops and this 8K Sway workstation represent materially different compatibility tests.
+- Impact: Advanced users bear integration costs spread across drivers, compositors, portals, toolkits, applications, and replacement utilities.
+- Watch next: NVIDIA TILE output, Sway scaling, Chrome acceleration, Emacs latency, session restoration, and sharing fixes decide this migration.

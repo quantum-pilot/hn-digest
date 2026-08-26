@@ -2,15 +2,18 @@
 
 - Score: 168 | [HN](https://news.ycombinator.com/item?id=46487921) | Link: https://lists.busybox.net/pipermail/busybox/2010-December/074114.html
 
-- TL;DR  
-  Landley explains that Unix’s /bin vs /usr/bin (and related /sbin splits) came from 1970s PDP-11 disk limits: root filled one small pack, so OS binaries “leaked” into /usr on a second. Later features—initrd, shared libraries, big disks—made the distinction technically pointless, yet standards and distros preserved and elaborated it with /usr/local, /opt, tmp rules, etc. BusyBox mostly copies precedent; Landley now just symlinks legacy dirs to /usr, a simplification modern “usr-merge” distros echo.
+### TL;DR
 
-- Comment pulse  
-  - Filesystem split is accidental legacy from tiny disks; modern distros largely usr-merge, and some adopt app-centric layouts. — counterpoint: some still value separate boot-critical binaries.  
-  - /usr/local vs /opt keep meaning on traditional Unix → base system vs local or commercial add-ons; Linux’s distro-kernel mix blurs this separation, confusing newcomers.  
-  - Some lament initrd, usr-merge, and XDG ~/.local as needless layering; others note benefits: shared /usr mounts, clearer per-user directories, and documented rationale.
+Rob Landley traces Unix’s bin and usr/bin split to a PDP-11 with two 1.5 MB disks: the root disk filled, so system directories spilled onto the user disk mounted at usr; a third disk later moved homes elsewhere. Boot-critical tools stayed on root so usr could be mounted. He argues initramfs, shared libraries, and modern storage erased that rationale. HN noted major Linux distributions now perform a usr merge, while disputing parts of his account about local, opt, base systems, and later filesystem conventions.
 
-- LLM perspective  
-  - Historical accidents ossify into “standards”; Linux filesystems show why periodic simplification, even with symlinks, is worth political pain.  
-  - For admins and tool authors, relying on PATH and env vars beats hardcoding /bin paths, easing cross-distro and container portability.  
-  - Container images, immutable OSes, and language-specific package managers may eventually sideline FHS debates by encapsulating their own hierarchies.
+### Comment pulse
+
+- Accidental constraints often acquire elaborate rationales → compatibility and institutional memory preserve structures after their original hardware problem disappears.
+- The modern usr merge collapses duplicate directories → symlinks retain legacy paths for software and scripts that hard-code them.
+- Historical objections remain substantive → local and opt conventions, writable mounts, base systems, and separate partitions developed distinct operational purposes.
+
+### LLM perspective
+
+- View: Filesystem layouts are compatibility contracts; obsolete origins persist when changing paths costs more than preserving aliases.
+- Impact: Users see confusing duplication, while distributions simplify internals without breaking software expecting historical locations.
+- Watch next: Check distribution merge status, boot assumptions, package policy, and remaining applications dependent on legacy paths.

@@ -2,15 +2,18 @@
 
 - Score: 192 | [HN](https://news.ycombinator.com/item?id=46488711) | Link: https://scitechdaily.com/anti-aging-injection-regrows-knee-cartilage-and-prevents-arthritis/
 
-- TL;DR  
-Stanford researchers found that inhibiting the aging‑linked enzyme 15‑PGDH in mice causes old knee joints to regrow load‑bearing hyaline cartilage and largely prevents post‑injury osteoarthritis. The drug reprograms existing chondrocytes into a more youthful, regenerative state, and human knee tissue in culture showed similar responses. A related compound has passed a Phase 1 safety trial for age‑related muscle loss, but cartilage trials are pending. HN commenters mix hope with caution, sharing rehab anecdotes and warning against DIY prostaglandin or collagen hacks.
+### TL;DR
 
-- Comment pulse  
-  - Many with long‑term joint pain describe major life limitations and strong interest in regenerative options to avoid or delay joint‑replacement surgery.  
-  - Several anecdotes: targeted stretching and strength work sometimes outperform doctors’ advice; others report misdiagnoses, latent infections, and disappointment with surgeons pushing replacement prematurely.  
-  - More technical readers identify the inhibitor as SW033291, note no osteoarthritis trials yet, and debate collagen supplementation’s thin evidence base for cartilage repair.
+Stanford researchers report that inhibiting age-related enzyme 15-PGDH thickened hyaline cartilage in old mice and reduced post-injury osteoarthritis after twice-weekly injections for four weeks. Rather than activating stem cells, treatment shifted existing chondrocytes toward younger gene-expression patterns. Osteoarthritic human knee tissue also began producing articular cartilage after one week ex vivo, but cartilage trials in people have not begun; an oral inhibitor has shown Phase 1 safety and activity only for muscle weakness. Commenters welcomed the possibility while emphasizing exercise, physical therapy, and mixed evidence for supplements.
 
-- LLM perspective  
-  - View: Regenerating cartilage via enzyme inhibition, not stem cells, could generalize to other load‑bearing tissues if mechanisms align.  
-  - Impact: If human joints respond similarly, osteoarthritis care could shift from late surgical replacement to earlier, minimally invasive disease‑modifying treatment.  
-  - Watch next: independent replication, large‑animal studies, cartilage‑specific safety data, and formal human trials registering on clinicaltrials.gov before widespread clinical enthusiasm.
+### Comment pulse
+
+- Older runners credited trails or altered gait with fewer injuries, while acknowledging access, mud, falls, and slower pacing as confounders.
+- Arthritis experiences favored individualized stretching, strength work, and physical therapy over assuming pain inevitably requires immediate joint replacement.
+- Supplement discussion remained skeptical: collagen advocates cited biological plausibility—counterpoint: others pointed to mixed evidence and possible funding bias.
+
+### LLM perspective
+
+- View: The mechanism is compelling preclinical biology, not evidence that an anti-aging injection currently restores patients’ joints.
+- Impact: Successful translation could shift osteoarthritis care from pain management and replacement toward tissue regeneration after aging or injury.
+- Watch next: Human cartilage trials must establish dosing, durability, mobility gains, adverse effects, and conflict-independent replication.

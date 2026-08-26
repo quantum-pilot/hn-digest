@@ -2,19 +2,18 @@
 
 - Score: 166 | [HN](https://news.ycombinator.com/item?id=46483432) | Link: https://rabbitictranslator.com/kde-onboarding/
 
-## TL;DR
-The author, a long‑time KDE contributor turned paid documentation contractor, describes a multi‑year effort to overhaul KDE’s developer onboarding. They systematically fixed tutorials and build guides so that example projects actually compile and run, ported docs to Qt6, added robust coverage for Kirigami, KXmlGui, kde-builder, Craft, manual CMake, distrobox/immutable systems, and introduced parallel paths for C++, Python, and Rust. Beginner contributor docs are now coherent and tested across platforms; the next focus is Plasma widgets and more advanced, branding‑oriented material.
+### TL;DR
 
----
+A longtime KDE contributor says beginner developer onboarding is finally reliable after years of rebuilding documentation as tested product infrastructure. Kirigami and KXmlGui tutorials now compile, run, match screenshots, use Qt6, and expose complete examples; Kirigami supports C++, Python, Rust, Windows, and pending Android guidance. kde-builder gained distro testing, troubleshooting, manual CMake and distrobox paths, while language tutorials cover packaging. Commenters praised the progress but clarified this is contributor onboarding, then debated QML’s learning curve, Craft friction, and whether alternative tooling would broaden participation.
 
-## Comment pulse
-- Tooling choice dispute → Some want vcpkg instead of Craft; others strongly prefer FOSS-native tools and strategically avoid Microsoft dependencies — counterpoint: vcpkg’s real-world adoption is questioned.  
-- Dev stack friction → Contributors cite C++, QML, kdesrc-build and branching complexity as major hurdles; defenders say QML is powerful, widely used, and you can stick to C++.  
-- User perception → Several praise KDE’s maturity and documentation improvements, but still wish for more design attention, especially around details like toolbars.
+### Comment pulse
 
----
+- QML critics described a difficult C++ boundary—counterpoint: practitioners called it an effective UI language requiring little embedded JavaScript.
+- Windows contributors blamed Craft setup for lost participation, while others defended avoiding dependencies governed predominantly by Microsoft.
+- Reliable build instructions matter most: documentation fails when examples cannot compile, run, or survive platform and tool migrations.
 
-## LLM perspective
-- View: Treat docs as first-class product; “examples must build” is a strong, replicable standard for open-source projects.  
-- Impact: Lowers barrier for drive-by contributors, especially Python/Rust developers and users on immutable or non-Linux platforms.  
-- Watch next: Plasma widget docs, QDoc-based API references, and clearer cross-distro build stories will show whether contributor growth actually accelerates.
+### LLM perspective
+
+- View: Treating documentation as executable product quality turns onboarding from persuasion into a reproducible first contribution path.
+- Impact: Broader language and platform coverage lowers entry costs for immutable-Linux, Windows, Python, and Rust contributors.
+- Watch next: Finish Android and declarative-registration changes, repair Plasma widget guidance, expand intermediate content, and maintain tests across releases.

@@ -2,15 +2,18 @@
 
 - Score: 179 | [HN](https://news.ycombinator.com/item?id=46486780) | Link: https://www.hillelwayne.com/post/what-comments/
 
-- TL;DR  
-Wayne disputes the slogan that comments should describe only intent, not behavior. He argues you shouldn’t use comments to prop up unclear code, but also that pushing every explanation into identifiers, tests, or commit messages forces readers into needless context switches. Sometimes the most efficient option is a concise "what" comment placed exactly where a tricky construct appears. HN discussion converges on pragmatic guidelines: favor clarity for future maintainers, especially around domain rules, over any purist cleanliness doctrine.
+### TL;DR
 
-- Comment pulse  
-  - Domain-heavy code needs "what" comments → accounting and backup rules encode real-world conventions no name can convey—counterpoint: some insist anything tied to reality is "why".  
-  - Over-extraction harms debugging → "Clean Code"–style tiny methods scatter linear logic across files; many report constant navigation pain and prefer Ousterhout’s coarser, locality-focused design philosophy.  
-  - Style must serve future readers → longer names, narrative comments, and junior-dev reviews help; codebases work best as ongoing conversations, not rigidly applied cleanliness rules.
+The essay rejects the rule that comments should explain why but never what. Descriptive names should replace comments when code itself can remain clear, yet both why and what belong beside an operation when retrieving context would require archaeology or risky assumptions. It argues that aggressively extracting sequential logic into tiny methods can make debugging harder by scattering the execution path, whereas concise explanatory comments may preserve locality. Commenters largely agreed, criticizing Clean Code-style fragmentation and reframing the goal: add relevant information that cannot be expressed cleanly through code.
 
-- LLM perspective  
-  - View: Treat "what" vs "why" as a spectrum; optimize for reader effort at the point of maintenance, not ideology.  
-  - Impact: Teams that explicitly document domain rules in-line reduce onboarding time, misinterpretations, and regressions from overzealous refactors.  
-  - Watch next: Establish comment guidelines with examples; measure bug-fix duration and revert rates as comment density and decomposition patterns change.
+### Comment pulse
+
+- Tiny extracted methods force repeated definition jumps, obscuring sequential behavior that may be clearer when kept together with local explanation.
+- Comments and names both manage reader context; mutable object state can impose a larger hidden context than either technique solves.
+- Long identifiers preserve meaning—counterpoint: excessive length buries operators and repeats type information already visible through tooling.
+
+### LLM perspective
+
+- View: The useful boundary is not why versus what, but whether information is local, durable, accurate, and otherwise unavailable.
+- Impact: Maintainers debug faster when intent and mechanics stay near surprising code without duplicating obvious syntax.
+- Watch next: Teams should review stale-comment defects, navigation cost, and comprehension time before enforcing blanket style rules.
