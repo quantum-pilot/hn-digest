@@ -2,19 +2,18 @@
 
 - Score: 193 | [HN](https://news.ycombinator.com/item?id=46645176) | Link: https://www.robinlinacre.com/recommend_duckdb/
 
-## TL;DR
-DuckDB is presented as a “default” engine for modern data work: an in-process OLAP database that’s trivial to install, extremely fast on single machines, and unusually pleasant to use. Highlights include a friendly SQL dialect (EXCLUDE, COLUMNS, QUALIFY, function chaining), great CSV/Parquet/JSON support over local, S3, and web sources, tight Python integration for stepwise pipelines, new ACID capabilities for medium-scale lakehouse-style workloads, and easy C++ UDFs/extensions. HN comments both celebrate real-world wins and question how far “single machine + SQL first” really scales.
+### TL;DR
 
----
+The author now defaults to DuckDB for tabular data processing, arguing that powerful single machines eliminate cluster complexity for most workloads. DuckDB is an in-process analytical SQL engine with a tiny dependency-free install, fast startup and execution, direct CSV/JSON/Parquet and remote-file querying, ergonomic SQL, lazy Python relations, ACID bulk operations, and distributable C++ extensions. Those traits simplify exploration, CI, testing, and medium-scale pipelines. HN users praised schema inference, globbing, union-by-name, portability, and real scientific and analytics deployments, while asking when Polars or ClickHouse offers a better syntax or scale tradeoff.
 
-## Comment pulse
-- DuckDB fans: stellar CSV/Parquet/JSON handling, globbing, schema-flex unions, tiny binaries, and tools like Malloy/PRQL make experimentation and embedding analytics radically easier.  
-- Production use: powers Bluesky analytics via Arrow/SQG and a biodiversity validator that may run offline in-browser, impressing users with speed and portability.  
-- Skeptics: “single machine” and “SQL-first” claims overlook OOM risks and complex analysis needs — counterpoint: author says most real-world tabular workloads are modest in size.
+### Comment pulse
 
----
+- Direct file querying changes exploration → users can ingest messy globbed datasets, validate assumptions quickly, and discover dead ends earlier.
+- Portability enables unusual deployments → a biodiversity tool may run fully offline in an iPad browser while preserving validation workflows.
+- DuckDB is not automatically superior → Polars may offer friendlier transformations, while ClickHouse targets distributed ingestion and larger systems.
 
-## LLM perspective
-- View: DuckDB is crystallizing a pattern where analytics engines are linked libraries, not separate services or clusters.  
-- Impact: Encourages data teams to favor simple, testable pipelines and local-first experimentation before moving to distributed systems.  
-- Watch next: Maturity of pg_duckdb, robustness of distributed DuckDB, and benchmarks versus Polars/DataFusion for >100GB workflows.
+### LLM perspective
+
+- View: DuckDB’s advantage is the compound effect of speed, zero-service operation, rich I/O, and familiar SQL.
+- Impact: Teams can replace heavyweight local clusters and bespoke parsers with reproducible single-machine pipelines that are easier to test.
+- Watch next: Benchmark real workloads against Polars and ClickHouse; assess HDF5 gaps, extension safety, concurrency, and production-scale limits.

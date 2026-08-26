@@ -2,15 +2,18 @@
 
 - Score: 157 | [HN](https://news.ycombinator.com/item?id=46646970) | Link: https://abio.substack.com/p/america-could-have-4-lunch-bowls
 
-## TL;DR
-The article argues that the US is structurally incapable of supporting Japan-style $4 lunch bowls because zoning, parking minimums, fragmented food regulation, and health codes effectively ban ultra-small, 1–2-person restaurants. Japan, Singapore, and Hong Kong rely on dense, mixed-use neighborhoods and tiny storefronts to make cheap, fast, decent meals ubiquitous daily infrastructure. In contrast, US rules and car-centric design force restaurants to be large, labor-heavy, and destination-based, pushing prices up and squeezing out low-cost options, especially for working families.
+### TL;DR
 
-## Comment pulse
-- Local zoning is decided by tiny, older electorates → low turnout and nostalgia-driven politics keep parking minimums and single-use zoning that favor chains over small businesses.  
-- Japan’s edge is mixed-use buildings and mass transit → high foot traffic supports micro-restaurants; US land use and transport co-evolved around cars, locking in a different equilibrium.  
-- Skeptics: article hand-waves density, culture, tax/ADA/health codes, and rural Japan; other countries with different zoning still lack $4 meals — counterpoint: UK “meal deals” show partial equivalents.
+The article argues that Japan’s inexpensive lunch bowls arise less from cheaper groceries or wages than from rules permitting tiny, low-overhead restaurants. By contrast, American parking mandates, large premises, multiple-sink health codes, fragmented regulation, and separated land uses require more staff and fewer customers, pushing prices higher. HN discussion largely agreed that zoning and transit shape business viability, but challenged the article’s broad national framing, sparse evidence, and treatment of safety rules; commenters also emphasized local political resistance and low civic participation.
 
-## LLM perspective
-- View: The binding constraint is a bundle: zoning, parking, food codes, and ADA interpreted for big-box formats, not small operators.  
-- Impact: Reform would most benefit low-income workers and immigrant entrepreneurs, but will face resistance from incumbents and risk-accessibility tradeoffs.  
-- Watch next: Pilot “micro-restaurant districts” with relaxed parking, size-adjusted codes, and standardized food-safety rules, then publish hard data on prices and health outcomes.
+### Comment pulse
+
+- Small mixed-use premises enable one-person operations → parking mandates, code requirements, and car-oriented siting compound overhead.
+- Local reform stalls because beneficiaries defend individual rules → counterpoint: residents disengage when votes lack practical influence.
+- Critics question evidence and generalization → Japan also has car-dependent areas, and density—not regulation alone—determines viable prices.
+
+### LLM perspective
+
+- View: Cheap prepared food is an emergent property of land use, density, regulation, and mobility.
+- Impact: Reform requires coordinated local changes, not isolated repeal of one sink or parking rule.
+- Watch next: City-level pilots measuring rents, staffing, compliance costs, and meal prices after zoning reform.

@@ -2,15 +2,18 @@
 
 - Score: 140 | [HN](https://news.ycombinator.com/item?id=46651887) | Link: https://social.kernel.org/notice/B2JlhcxNTfI8oDVoyO
 
-## TL;DR
-LWN is being hit by its largest-ever scraping wave, effectively a DDoS from tens of thousands of IPs, likely via commercial “residential proxy” networks such as Bright Data. Jonathan Corbet blames AI-driven data harvesting and is reluctantly considering friction like challenges, logins, or subscriber-only mirrors, but fears deterring new readers. HN commenters debate who’s behind such ham‑fisted scrapes, describe similar attacks on small FOSS and hobby sites, and worry about AI-enabled IP laundering and escalating bot traffic.
+### TL;DR
 
-## Comment pulse
-- Scraper origin and incentives → Many suspect small or proxy-backed data brokers, not flagship labs; incompetence, bad metrics, and residential IPs reduce reputational risk and encourage aggressive crawling.  
-- Scope of damage → FOSS, niche forums, and game-modding sites report similar “AI DDoS,” often forcing read-logins or blunt regional blocks to stay online.  
-- AI and IP laundering → LLMs can reproduce niche open-source code under new licenses, sidestepping copyleft; legality unsettled but morally likened to copyright laundering.
+LWN’s Jonathan Corbet says tens of thousands of addresses are creating its worst scraper-driven DDoS, degrading responsiveness and threatening the site’s preference for frictionless reader access. HN commenters struggled to explain the economics and attribution: possibilities ranged from careless one-off agents and small AI firms to aggressive commercial crawlers using residential proxies. Operators of niche sites reported similar overloads and login walls. Discussion also linked scraping to license evasion, while warning that anti-bot JavaScript can damage search indexing and automated tests.
 
-## LLM perspective
-- View: Expect more sites to require logins, rate limits, or fake responses for suspicious traffic as “open web” norms erode.  
-- Impact: Small publishers, FOSS communities, and archival projects bear infrastructure costs while data brokers and AI vendors capture value.  
-- Watch next: Legal cases on training data/IP, industry-run crawler standards with auth/compensation, and open-source anti-scraping tools that avoid harming legitimate users.
+### Comment pulse
+
+- Polite crawling is an engineering choice → operators said agents often omit delays, backoff, APIs, and robots.txt compliance.
+- Attribution remains uncertain → counterpoint: reports blamed small or Chinese firms, generic user agents, residential proxies, and individual agent users.
+- Defenses impose collateral costs → login walls and JavaScript traps protect infrastructure but obstruct readers, search engines, and testing tools.
+
+### LLM perspective
+
+- View: Cheap agent-generated crawlers turn individual negligence into aggregate infrastructure pressure, even without a coordinated attacker.
+- Impact: Independent publishers may retreat behind authentication, weakening the open web for humans and well-behaved machines.
+- Watch next: Measure request duplication, robots.txt compliance, crawler identity, proxy-provider accountability, and whether standardized agent throttling emerges.

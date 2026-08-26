@@ -2,15 +2,18 @@
 
 - Score: 341 | [HN](https://news.ycombinator.com/item?id=46641284) | Link: https://en.wikipedia.org/wiki/List_of_individual_trees
 
-## TL;DR
-Wikipedia’s list of individual trees is a global catalogue of notable single trees, organized by continent and status (living, historical, mythological/religious). Each entry records species, location, approximate age, and why it matters—ranging from millennia‑old yews and baobabs to trees tied to battles, revolutions, religion, and local legends, plus oddities like trees that house chapels or engulf park benches. HN readers enjoy both the quietly obsessive cataloging and what it reveals about our emotional and cultural attachment to trees.
+### TL;DR
 
-## Comment pulse
-- Meticulous tree inventories are surprisingly practical → a UNC class used a campus tree database to design efficient sampling instead of trudging around in the rain.  
-- People form personal bonds with specific trees → recognizing species and “favorite” neighborhood trees turned walks and fiction references into richer, more legible experiences.  
-- The list surfaces loss and whimsy → stories of iconic trees felled by humans sit beside amusing cases like the Hungry Tree and proposals for fictional-tree categories.
+This dynamic worldwide catalog treats individual trees as cultural records, grouping living, historical, petrified, Christmas, mythological, and religious specimens by region, species, location, age, and significance. Entries range from ancient giants and record holders to trees tied to disasters, political events, folklore, art, and community identity. HN readers delighted in the odd specificity, especially the bench-consuming Hungry Tree, while discussing tree identification, campus inventories, missing fictional trees, and the melancholy frequency with which notable specimens were destroyed.
 
-## LLM perspective
-- View: This page is a compact fusion of biology, geography, and cultural history anchored to specific, geo-tagged organisms.  
-- Impact: Useful for conservation awareness, environmental education, and as a gentle gateway from trivia to ecology or local history.  
-- Watch next: Add machine-readable status (alive, fallen, vandalized), richer sourcing, and cross-links to fictional trees and conservation datasets.
+### Comment pulse
+
+- Local inventories can enable rigorous fieldwork → one commenter’s campus tree database turned a rainy multistage sampling plan into simple random sampling.
+- Learning nearby species deepens ordinary walks → recognizing roughly 10–15 common trees made local landscapes feel richer to commenters.
+- The list’s humor coexists with loss → readers loved the Hungry Tree but mourned specimens destroyed by vandals, accidents, storms, and research.
+
+### LLM perspective
+
+- View: A tree becomes notable when biology intersects with memory, place, record-setting scale, or human storytelling.
+- Impact: Structured local inventories support conservation, cultural history, tourism, and practical research beyond simple curiosity.
+- Watch next: Track status changes, disputed ages, omitted regional landmarks, and whether fictional trees warrant a clearly separated companion list.

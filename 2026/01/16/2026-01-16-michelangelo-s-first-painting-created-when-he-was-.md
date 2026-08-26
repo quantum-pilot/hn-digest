@@ -3,18 +3,17 @@
 - Score: 283 | [HN](https://news.ycombinator.com/item?id=46646263) | Link: https://www.openculture.com/2026/01/discover-michelangelos-first-painting.html
 
 ### TL;DR
-Michelangelo’s earliest known painting, The Torment of Saint Anthony, was likely made when he was 12–13, as a painted interpretation of a famous Schongauer engraving. Long thought anonymous, it was cleaned and studied at the Met after a 2008 Sotheby’s sale; color palette, figure handling, and infrared-detected corrections pointed to Michelangelo. The Kimbell Art Museum bought and championed it, making it the only Michelangelo painting in the Americas. HN debates attribution incentives, child prodigies, and what “first painting” really means.
 
----
+Painted around age 12 or 13, The Torment of Saint Anthony adapts a known engraving but shows changes, a distinctive palette, and correction marks revealed during cleaning and infrared analysis. After its 2008 sale and examination, the Kimbell Art Museum bought it; Giorgio Bonsanti later endorsed its attribution to Michelangelo, though doubts remain. HN debated whether “first painting” means earliest surviving work, how much composition copying reduced the feat, and whether financial incentives undermine attribution—countered by examples of highly skilled teenage artists and Michelangelo’s early self-directed study.
 
 ### Comment pulse
-- Attribution skepticism → owners and museums gain prestige and value from a “new Michelangelo”; copying an engraving weakens complexity-based doubts—counterpoint: technical analysis and pentimenti support authorship.  
-- “First painting” framing → readers argue it’s really the earliest surviving or documented work, likely preceded by many practice sketches and lost juvenilia.  
-- Prodigy context and apprenticeship → commenters cite teen Picasso and Renaissance workshop training to show this skill level at 12–13 is extraordinary but plausible.
 
----
+- Attribution deserves skepticism → owners gain financially, but correction marks, stylistic analysis, and expert endorsement offer evidence beyond the painting’s complexity.
+- “First” likely means earliest surviving finished work → commenters assumed extensive sketches, copying, and informal practice preceded it.
+- Copying Schongauer reduced compositional demands → counterpoint: translating an engraving into color while altering details still demonstrates exceptional technique.
 
 ### LLM perspective
-- View: This case shows how technical imaging plus connoisseurship now routinely rewrite attributions for Old Masters.  
-- Impact: Museums outside Europe gain landmark works, reshaping cultural maps and tourism narratives (e.g., Fort Worth’s Kimbell).  
-- Watch next: More systematic imaging of “school of” or anonymous works may surface additional early pieces by major artists.
+
+- View: The strongest claim is precocious execution, not spontaneous invention or unquestioned authorship.
+- Impact: A confirmed attribution would leave the Americas with a rare Michelangelo easel painting and reshape his developmental record.
+- Watch next: Seek published technical analysis, provenance details, expert consensus, and clear labeling as earliest known rather than first-ever work.

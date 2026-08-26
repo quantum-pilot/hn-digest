@@ -4,24 +4,16 @@
 
 ### TL;DR
 
-A UPS MD-11F freighter crashed in Louisville in November after an engine tore off the wing on takeoff, killing 15. An NTSB update says the engine mount failed due to fatigue cracks in a critical bearing assembly—exactly the part where Boeing had seen similar failures on other MD-11s over a decade earlier. In 2011 Boeing warned operators via a non-binding service letter but judged the problem “not a safety of flight condition” and only recommended infrequent visual inspections and an optional redesigned part. The investigation continues.
-
----
+The NTSB found fatigue fractures in the engine-mount assembly of a UPS MD-11F that crashed near Louisville, killing 15 people. Boeing had documented similar failures on three aircraft in 2011 but judged them non-critical, recommending five-year visual inspections and offering a revised, optional bearing. The investigation has not established a final cause. HN readers praised the NTSB’s forensic rigor while debating whether Boeing made a defensible risk error or downplayed a critical hazard; several questioned whether visual inspection could detect inaccessible hairline cracks.
 
 ### Comment pulse
 
-- NTSB work is impressively granular → investigators traced a 3,000‑ft debris field down to microscopic fractures in a specific bearing race within the engine pylon.
-
-- Boeing knew and notified operators → a 2011 letter flagged the flaw but downplayed safety impact; some see bad risk judgment, others see no cover-up, just a wrong call.
-
-- Risk management vs trust in Boeing → all complex systems have known flaws, but Boeing’s history of minimization plus an effectively uninspectable part undermines confidence—counterpoint: MD‑11/DC‑10 roots predate Boeing.
-
----
+- Investigators reconstructed microscopic failure evidence from a 3,000-foot debris field → commenters contrasted that rigor with speculative early blame.
+- Boeing disclosed the issue in 2011 → counterpoint: calling it flight-safe may represent a grave assessment failure.
+- Five-year visual checks appear inadequate → the installed bearing is difficult to access and fatigue cracks may remain invisible.
 
 ### LLM perspective
 
-- View: Legacy designs plus diffuse responsibility (McDonnell Douglas vs Boeing vs operators) make it easy for marginal safety calls to persist for decades.
-
-- Impact: Cargo carriers flying aging fleets, regulators setting inspection mandates, and Boeing’s already damaged safety culture face renewed scrutiny.
-
-- Watch next: NTSB final report, any FAA airworthiness directives on MD‑11 engine mounts, and whether legacy fleets get mandatory part replacement or face retirement.
+- View: Disclosure alone does not resolve whether a safety classification and inspection regime were adequate.
+- Impact: Operators may face deeper inspections or mandatory replacement of aging MD-11 engine-mount components.
+- Watch next: NTSB causal findings, Boeing risk records, maintenance evidence, and any airworthiness directives.

@@ -3,18 +3,17 @@
 - Score: 464 | [HN](https://news.ycombinator.com/item?id=46645615) | Link: https://justthebrowser.com/
 
 ### TL;DR
-Just the Browser is an open-source set of configuration files and scripts for Chrome, Edge, and Firefox that uses enterprise/group policies to strip out AI features, telemetry, shopping add-ons, sponsored content, default-browser nags, and startup-boost behavior—leaving a more minimal browser while keeping the mainstream engines and update pipelines. HN discussion focuses less on the feature set and more on whether it’s wise to run third‑party admin scripts, the incompleteness of some configs, and evolving attitudes toward “good” vs “bad” AI features.
 
----
+Just the Browser supplies open-source group-policy configurations for Chrome, Edge, and Firefox that disable most generative-AI features, telemetry, sponsored content, shopping tools, prompts, and startup boost without modifying browser binaries. Users can apply the policies through automated Windows, macOS, and Linux scripts where supported or follow manual guides, then inspect active settings in each browser. HN discussion strongly questioned piping remote scripts into privileged shells for small configuration files. Defenders noted the documented manual route, while others argued useful local features such as Firefox translation should remain enabled.
 
 ### Comment pulse
-- Convenience vs security → Some appreciate pre-curated policies but won’t run elevated third‑party scripts; they’d rather have a step‑by‑step guide with screenshots.  
-- Scope and completeness → Firefox config currently flips few AI/telemetry flags; Chrome config seems to miss several annoyances — counterpoint: project is early and open to contributions.  
-- What counts as “bad AI”? → Many want AI disabled but exempt local translation; some see this as proof that once normalized, today’s “AI features” may be accepted, too.
 
----
+- The dominant concern was supply-chain risk from executing fetched scripts with administrator privileges to install small, auditable policy files.
+- Supporters emphasized that manual instructions accompany automation → counterpoint: critics still preferred screenshots and explicit, user-controlled changes.
+- Readers distinguished unwanted generative features from useful local models, especially Firefox translation, which the project deliberately preserves.
 
 ### LLM perspective
-- View: This is essentially “DIY enterprise hardening” for personal machines, packaged for non-admins who’d never touch group policy.  
-- Impact: Best suited to privacy-conscious users staying on mainstream browsers for security, compatibility, or corporate requirements.  
-- Watch next: Browser vendors may change or lock down policy keys; a documented “minimal mode” from vendors would obsolete projects like this.
+
+- View: The policy bundle is useful, but its safest interface is transparent documentation.
+- Impact: Mainstream browsers become quieter without sacrificing update cadence or switching ecosystems.
+- Watch next: Signed installers, configuration completeness, policy drift, and support for Linux Chromium browsers and mobile devices.

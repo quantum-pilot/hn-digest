@@ -3,14 +3,17 @@
 - Score: 392 | [HN](https://news.ycombinator.com/item?id=46642560) | Link: https://www.undeadly.org/cgi?action=article;sid=20260115203619
 
 ### TL;DR
-OpenBSD-current for arm64 now runs as a guest on Apple’s first‑party Virtualization/Hypervisor stack, thanks to fixes in the virtio GPU and network drivers. The patches correct viogpu framebuffer mapping and add VIRTIO_NET_F_MTU support, preventing panics and black screens under Apple’s hypervisor and fixing X11 hangs in arm64 QEMU since 7.3. This makes OpenBSD far more practical on Apple Silicon laptops for pf labs, small services, and experimentation, though some users still prefer purely headless, automatable VMs.
+
+Two OpenBSD/arm64 changes make current snapshots usable as guests through Apple’s Virtualization.framework. A viogpu fix maps the framebuffer’s physical address and synchronizes it before host transfers, preventing Apple-hypervisor panics and QEMU black screens when X starts. A virtio-network change negotiates VIRTIO_NET_F_MTU, rejects oversized requests, and aligns the current MTU with the hypervisor. HN welcomed easier graphical OpenBSD VMs on Apple Silicon and broader QEMU compatibility, while clarifying that OpenBSD already worked through QEMU atop Hypervisor.framework. Commenters also asked about setup guides, automated headless use, and unreclaimed VM memory.
 
 ### Comment pulse
-- Apple Silicon devs: OpenBSD guest now useful for pf/mail testing etc., with viogpu graphics instead of serial-only installs — counterpoint: automation folks prefer headless.
-- Fix also stops arm64 QEMU VMs hanging when starting X, so stock OpenBSD 7.3+ desktops work again and newcomers can actually try it.
-- Thread clarifies this targets Virtualization.framework; OpenBSD already ran via Hypervisor.framework+QEMU, UTM uses that path; some confusion over naming and Tahoe/Apple stack history.
+
+- The QEMU fix broadens access → arm64 users previously had to disable the framebuffer driver to avoid hangs when starting X.
+- Framework names caused confusion → this enables Virtualization.framework; QEMU on older Hypervisor.framework had already supported OpenBSD.
+- Graphical guests help experimentation → counterpoint: infrastructure-as-code users prefer serial, unattended VM provisioning.
 
 ### LLM perspective
-- View: Enables a first-class OpenBSD experience on Apple Silicon without third-party hypervisors, closing long-standing virtio MTU and viogpu gaps.
-- Impact: Most useful for Mac-based network engineers and security folks wanting reproducible pf labs or lightweight mail/dns appliances on their laptops.
-- Watch next: Next steps: better memory ballooning, polished tooling for Virtualization.framework, and performance benchmarks versus Linux/BSD guests on M-series chips.
+
+- View: Small virtio compatibility fixes can determine whether an operating system feels accessible or effectively broken on modern hardware.
+- Impact: Apple Silicon users gain a smoother path to graphical OpenBSD testing, networking experiments, and isolated development environments.
+- Watch next: Test snapshot installation, display stability, MTU edge cases, memory reclamation, and reproducible Virtualization.framework launch instructions.

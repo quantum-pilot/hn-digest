@@ -2,19 +2,18 @@
 
 - Score: 229 | [HN](https://news.ycombinator.com/item?id=46648916) | Link: https://en.wikipedia.org/wiki/East_Germany_balloon_escape
 
-## TL;DR
-In 1979, two East German families spent 18 months secretly designing and building three homemade hot‑air balloons to cross the heavily fortified inner‑German border. After their first flight landed just short of the border and triggered a Stasi investigation, they rapidly constructed a larger, better balloon from smuggled taffeta. Despite fires, a torn envelope, and running low on propane mid‑flight, they finally landed in Bavaria. The escape prompted tighter East German controls and later inspired books, documentaries, and two feature films.
+### TL;DR
 
----
+In September 1979, the Strelzyk and Wetzel families escaped East Germany in a homemade hot-air balloon after eighteen months of clandestine engineering. Their first cotton envelope leaked; a second design failed, and a July flight landed 180 metres short of the fortified border. Racing ahead of a Stasi investigation, they built a larger third balloon. Eight people launched at night, survived fire, a torn envelope, repeated flameouts, freezing temperatures, and a hard landing, reaching Bavaria after roughly 28 minutes. Wetzel broke his leg; everyone survived.
 
-## Comment pulse
-- Ingenious DIY engineering → readers frame the builders as “hacker heroes”: iterative prototyping, improvised materials, clever testing, then a high‑stakes production launch against an oppressive regime.  
-- Story retold well on screen and audio → multiple recommend the 2018 film “Balloon,” older Disney “Night Crossing,” and a Damn Interesting podcast episode as tense, emotional dramatizations.  
-- Compared with other escapes → Papago POW breakout and Gamow’s failed kayak attempts show similar audacity, but commenters stress this one’s unique success and built-in suspense.
+### Comment pulse
 
----
+- Readers saw the balloon’s enormous scale as essential context, transforming an abstract escape story into an extraordinary engineering achievement.
+- Personal memories of registered dinghies showed surveillance reaching ordinary possessions → counterpoint: discussion broadened into disputed claims that some authoritarian systems can prosper.
+- Several commenters recommended the 2018 German film, while others remembered Disney’s earlier Night Crossing as an intense introduction.
 
-## LLM perspective
-- View: A classic example of applied physics and systems thinking under extreme political and resource constraints.  
-- Impact: Recolors “hacking” as survival and self‑determination, not just clever tech play, especially for younger Western audiences.  
-- Watch next: Curated collections of Cold War escape engineering, plus museum reconstructions and technical analyses of the balloon’s design choices.
+### LLM perspective
+
+- View: Iterative engineering and urgency turned repeated failure into a remarkable family escape.
+- Impact: The feat exposed both personal courage and a surveillance state’s sweeping reprisals.
+- Watch next: Preservation of survivor testimony and artifacts as living memory of divided Germany.

@@ -3,18 +3,17 @@
 - Score: 153 | [HN](https://news.ycombinator.com/item?id=46651443) | Link: https://www.fromjason.xyz/p/notebook/slop-is-everywhere-for-those-with-eyes-to-see/
 
 ### TL;DR
-Algorithms behind TikTok-style For You feeds are built to maximize time-on-site, turning content into an endlessly refilled trough while hiding effort and scarcity. Because only a small fraction of users create, human creativity can’t scale to meet infinite scrolling, so platforms increasingly fill the gap with cheap “AI slop” and engagement-optimized junk. Learning from Vine’s creator revolt, modern platforms use opaque algorithms to weaken creator leverage. The essay’s remedy: abandon passive feeds, actively “surf the web,” and seek independent work on human terms.
 
----
+The essay argues AI “slop” is predictable filler: infinite-scroll feeds manufacture demand that scarce human creativity cannot supply. Platforms maximize consumption, weaken deliberate discovery, and use opaque virality to keep creators dependent; the author treats Vine’s collapse after top creators left as evidence of creator leverage. The proposed escape is mindful discovery on the open web. HN challenged key supports: plate-size research is disputed, Vine had other causes, and large platforms routinely survive star departures. Still, commenters recognized fast-food content’s convenience, monotony, habit-forming appeal, and growth as generation becomes cheaper.
 
 ### Comment pulse
-- Plate-size example is weak → cited behavioral effect hasn’t replicated in controlled studies — counterpoint: doesn’t invalidate broader argument about engineered overconsumption.  
-- AI slop harms utility → low-quality machine content pollutes feeds and search results, making it harder to find rare genuinely useful human material.  
-- Creator power debated → some say top influencers can no longer kill platforms; long-tail aspirants and corporate control via algorithms blunt coordinated exits.  
 
----
+- Infinite feeds industrialize appetite → finite human creativity cannot match frictionless consumption, making cheap generated filler economically attractive.
+- Creator leverage is overstated → commenters argued Vine was mismanaged and mature platforms easily replace departing stars with aspiring creators.
+- Open-web surfing restores agency → deliberate hunting may increase attention and value, though users have long enjoyed convenient lowbrow culture.
 
 ### LLM perspective
-- View: AI slop is a digital externality → platforms dump cognitive pollution on users; policy may need to regulate recommender incentives.  
-- Impact: If users “surf” instead of scroll, niche creators, small sites, RSS-style tools, and alternative search engines could gain share.  
-- Watch next: Track a “slop ratio” in feeds/search, add provenance and effort filters, and benchmark wellbeing metrics against raw attention-time.
+
+- View: Slop is fundamentally an incentive and interface outcome; generative tools mainly lower its production cost.
+- Impact: As supply becomes effectively unlimited, curation, provenance, and intentional consumption become more valuable than raw availability.
+- Watch next: Compare feed design, creator compensation, user retention, and discovery quality across algorithmic platforms and open-web communities.
