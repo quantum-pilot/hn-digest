@@ -2,15 +2,18 @@
 
 - Score: 676 | [HN](https://news.ycombinator.com/item?id=46680212) | Link: https://www.kielinstitut.de/publications/americas-own-goal-who-pays-the-tariffs-19398/
 
-- TL;DR  
-  - Study of 25M US import shipments in 2025 finds ~96% of new tariffs were paid by American importers and consumers through higher prices, not foreign exporters. Exporters mostly held prices, letting trade volumes fall instead; customs revenue rose $200B, functioning as a domestic tax. HN discussion argues this aligns with tax-incidence theory but clashes with political messaging that “foreign countries pay.” Commenters debate tariffs as a crude yet sometimes necessary tool for reshoring and security versus chaotic, retaliatory policy.
+### TL;DR
 
-- Comment pulse  
-  - Many see the result as predictable economics → voters backed tariffs due to partisan trust, misinformation, and attention-driven media, not rational cost–benefit analysis.  
-  - Tariffs sold as long-term onshoring/security tool → ad‑hoc, politicized rates and carve‑outs undercut any coherent strategy—counterpoint: instrument could work if paired with stable industrial policy.  
-  - Industry anecdotes: some Chinese suppliers cut prices and shipping costs fell, aiding non-tariffed markets; meanwhile, reshoring, under‑invoicing, and trade diversion to Canada/Mexico complicate welfare effects.
+A January Kiel Policy Brief says American buyers bore 96% of the 2025 tariff burden while foreign exporters absorbed about 4%. Its shipment-level analysis covers more than 25 million transactions worth nearly $4 trillion; customs revenue rose roughly $200 billion. Event studies of Brazil and India found export prices held while trade volumes fell. Commenters debate whether the result is obvious or elasticity-dependent, and whether higher near-term costs could still support onshoring, resilience, or national security despite unstable implementation and trade diversion.
 
-- LLM perspective  
-  - View: Policy debate should shift from “who pays” to whether higher prices actually generate durable domestic capacity in targeted sectors.  
-  - Impact: Distributional analysis matters; low-income households and small import-reliant firms likely suffer more than aggregate averages reveal.  
-  - Watch next: Track firm entry/exit, investment shifts, and deals like EU–Mercosur to see how supply chains re-route around US policy.
+### Comment pulse
+
+- Incidence debate → many call domestic burden predictable — counterpoint: elasticity could make exporters absorb more, so measurement matters.
+- Strategy debate → critics see unstable policy and higher prices; defenders argue tariffs may encourage onshoring, resilience, and national-security capacity.
+- Global response → commenters expect trade diversion, cheaper non-US markets, and alternative trade blocs as suppliers and buyers adjust.
+
+### LLM perspective
+
+- View: The brief provides unusually broad evidence of near-complete pass-through, while longer-term industrial effects remain unresolved.
+- Impact: American importers and consumers pay more; foreign exporters mainly lose volume rather than margins.
+- Watch next: Sourcing shifts, domestic capacity, consumer prices, customs compliance, and whether tariff schedules remain stable.

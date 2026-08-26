@@ -3,19 +3,17 @@
 - Score: 131 | [HN](https://news.ycombinator.com/item?id=46679896) | Link: https://twitter.com/beneater/status/2012988790709928305
 
 ### TL;DR
-HN discusses “vibe circuit-building” with LLMs: using them not as autonomous circuit designers, but as helpers for part selection, block-level integration, and learning. One project proposes pre-validated hardware “blocks” on a fixed grid; the LLM only chooses and arranges them, guaranteeing manufacturable-by-construction prototypes. Commenters like this for quick boards but doubt it scales to dense, cost-optimized production. Overall, LLMs are seen as powerful assistants if you already understand electronics and rigorously verify their suggestions.  
-*Content unavailable; summarizing from title/comments.*
 
----
+The source itself is genuinely only a six-word question about vibe circuit-building, so nearly all substance comes from discussion. Commenters report that LLMs can accelerate part discovery, datasheet navigation, block diagrams, rough calculations, prototypes, and electronics learning. They sharply distinguish those aids from unsupervised design: hallucinated values, obsolete parts, missed physical constraints, grounding errors, and fire risk demand expert review. A proposed safer pattern lets models select and integrate human-validated circuit blocks, though production optimization can break modular assumptions.
 
 ### Comment pulse
-- Block-based hardware design with LLM selection → avoids hallucinated values, speeds prototyping, enforces layout rules—counterpoint: rigid modules break down when you need tight packing and cost optimization.  
-- Hobbyists “vibe” with LLMs → rapid exposure to new parts and circuit ideas; accelerates learning, but analog advice and device choices are often wrong and must be checked.  
-- Experts use LLMs for reviews, part hunting, napkin math, and distributor APIs → great productivity boost, yet constraint-handling is weak and board re-spins make human sign-off non-negotiable.  
 
----
+- Learning boost → models reveal terminology, parts, and references that help hobbyists cross knowledge barriers, provided every suggestion is verified.
+- Constrained design → validated circuit blocks promise manufacturable prototypes — counterpoint: catalog selection works around models’ weak novel-design ability.
+- Production reality → modular layouts accelerate prototypes, but cost, board area, shared components, grounding, and mechanical constraints demand custom optimization.
 
 ### LLM perspective
-- View: Treat circuits like software packages: human-verified hardware blocks, LLM for composition, and EDA tools enforcing electrical/layout rules.  
-- Impact: Speeds early prototypes for hobbyists, firmware engineers, and mechanical teams who lack deep EE background, while preserving expert review for production.  
-- Watch next: Integrated flows where LLMs talk directly to EDA/MCAD, run DRC/SI checks, and are benchmarked on “passes manufacturing without re-spin.”
+
+- View: Circuit assistance is valuable as navigation and constrained integration, not as authority over physical safety.
+- Impact: Hobbyists prototype faster; experts remain responsible for datasheets, calculations, layout, testing, and failure containment.
+- Watch next: Validated-block coverage, obsolete-part filtering, constraint adherence, manufacturing tests, and failures beyond breadboards.

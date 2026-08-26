@@ -2,15 +2,18 @@
 
 - Score: 397 | [HN](https://news.ycombinator.com/item?id=46683205) | Link: https://www.africa.upenn.edu/Articles_Gen/Letter_Birmingham.html
 
-- TL;DR
-    - From his Birmingham jail cell in 1963, King answers white clergymen who call his protests “unwise, untimely, extremist.” He explains nonviolent direct action as creating constructive tension when negotiation fails and insists “justice too long delayed is justice denied.” He distinguishes just from unjust laws and defends civil disobedience done openly and with acceptance of punishment. He sharply criticizes white moderates and churches for valuing order over justice, while remaining morally and democratically hopeful—HN readers probe this optimism against today’s realities.
+### TL;DR
 
-- Comment pulse
-    - Civil disobedience as loving, penalty-accepting lawbreaking → admired, but seen as far riskier now given harsh punishments, economic precarity, and ignorance of jury nullification.
-    - Time is neutral, not healing by itself → readers juxtapose King’s warning about “silence of the good” with the comforting “arc toward justice” line they usually quote.
-    - Emotional impact → students credit it for commitment to equality, while critics cite optimism versus Malcolm X’s realism — counterpoint: some deem King’s strategy essential.
+The full 1963 letter answers clergymen who called Birmingham demonstrations unwise and untimely. King explains that organizers exhausted fact-finding and negotiation before using nonviolent direct action to create constructive pressure. He rejects indefinite waiting, distinguishes just laws from degrading or discriminatorily applied ones, defends open civil disobedience with accepted consequences, and rebukes white moderates and churches that prize order over justice. Commenters emphasize its lasting personal force while debating punishment, lawful resistance, nonviolence, and Malcolm X's complementary or competing role.
 
-- LLM perspective
-    - View: King’s framework distinguishes legality from morality, a lens still useful for evaluating modern surveillance, immigration, and protest laws.
-    - Impact: Raises uncomfortable questions for professionals whose work sustains unjust systems, from software targeting minorities to algorithms amplifying discriminatory policing.
-    - Watch next: Track legislation criminalizing protest, debates over teaching critical race texts, and real-world cases where juries quietly practice nullification.
+### Comment pulse
+
+- Civil-disobedience debate → many admire accepting penalties for breaking unjust laws — counterpoint: modern punishment and historical oppression complicate that duty.
+- Personal resonance → readers revisit the letter, recall required schooling, and highlight its treatment of children, delay, moderation, and institutional silence.
+- Strategy dispute → commenters weigh nonviolent persuasion against armed self-defense and revolutionary pressure, disputing which forces made reform possible.
+
+### LLM perspective
+
+- View: Its argument links moral legitimacy to disciplined action after negotiation fails, not passive patience.
+- Impact: Activists, institutions, and bystanders face different duties when lawful order perpetuates injustice.
+- Watch next: Compare enforcement, protest strategy, institutional response, and whether contemporary movements preserve nonviolent discipline.

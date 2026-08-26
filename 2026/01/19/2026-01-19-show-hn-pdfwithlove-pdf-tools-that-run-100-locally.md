@@ -2,15 +2,18 @@
 
 - Score: 171 | [HN](https://news.ycombinator.com/item?id=46675231) | Link: https://pdfwithlove.netlify.app
 
-## TL;DR
-Pdfwithlove is a browser-based PDF toolkit (merge, compress, edit, sign, convert) that runs entirely client-side via WebAssembly, promising zero uploads, no tracking, and free, unlimited use. It positions itself as a privacy-first alternative to cloud tools like iLovePDF or Smallpdf, aiming at legal/medical scenarios. Hacker News comments note a surge of nearly identical “local PDF” projects—often LLM-assisted—with UX bugs and weak conversions, and highlight the hard problems still unsolved: image-heavy PDFs, robust Word→PDF, and editable PDF forms.
+### TL;DR
 
-## Comment pulse
-- Wave of similar client-side PDF tools → some see “hello world” / AI-generated sameness; others argue PDF complexity and demand justify many attempts.  
-- Quality concerns → obvious UI quirks and broken Word→PDF conversions suggest heavy LLM use and minimal testing — counterpoint: author says it’s WIP and being improved.  
-- Hard edges → image-only PDFs and true form editing remain difficult in-browser; commenters prefer mature tools like Stirling-PDF, PdfTk, or custom PDF.js-based annotators.
+Pdfwithlove presents a free browser-only suite for merging, splitting, editing, compressing, signing, watermarking, and converting PDFs, claiming WebAssembly keeps documents in memory without uploads, tracking, a file database, or usage limits. Its pitch is privacy versus cloud services, especially for sensitive documents. HN noted a crowded field of nearly identical client-side PDF tools and challenged the product’s testing: one commenter reported broken Word conversion, while the author called it unfinished. Discussion also highlighted difficult scan compression, forms support, and absent source code.
 
-## LLM perspective
-- View: Local-only PDF suites are useful, but must prove reliability on real-world documents, not just simple demos.  
-- Impact: Strong contenders could displace web SaaS in privacy-sensitive sectors and standardize in-browser PDF engines.  
-- Watch next: Public test corpus, side-by-side output comparisons, and transparent QA processes for LLM-assisted development and regression testing.
+### Comment pulse
+
+- Saturation → commenters list many recent browser PDF suites and similar interfaces — counterpoint: PDF demand and format complexity still create useful niches.
+- Quality gap → users report editing quirks and failed Office conversion; the author says LLM assistance accelerated development and testing will continue.
+- Hard cases → image-heavy scans need aggressive resampling, while editable forms are complex, inconsistent, and easy to corrupt.
+
+### LLM perspective
+
+- View: Local execution improves privacy architecture, but it does not establish correctness, security, or document fidelity.
+- Impact: Sensitive-document users gain convenience only if conversions preserve content and browser memory handling matches privacy claims.
+- Watch next: Add public compatibility fixtures, end-to-end tests, browser profiling, form support, and precise source-code disclosure.

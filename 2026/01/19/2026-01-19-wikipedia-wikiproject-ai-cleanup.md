@@ -3,18 +3,17 @@
 - Score: 217 | [HN](https://news.ycombinator.com/item?id=46677106) | Link: https://en.wikipedia.org/wiki/Wikipedia:WikiProject_AI_Cleanup
 
 ### TL;DR
-WikiProject AI Cleanup is a volunteer initiative to find and fix AI-generated text and images on Wikipedia. It targets unsourced or error‑prone LLM prose, fake or misused citations, entire AI-written articles, and even fabricated hoaxes, using tagging, deletion criteria, and a detailed “Signs of AI writing” guide. The aim isn’t to ban AI, but to enforce policies and reliability. Hacker News discussion highlights these heuristics, proposes using AI mainly for error detection, and notes tensions with Wikimedia’s AI business partnerships.
 
----
+In this supplied snapshot, WikiProject AI Cleanup coordinates editors reviewing suspected AI-generated Wikipedia text and images. Its stated aim is verification rather than a blanket AI ban: remove unsupported or likely inaccurate claims, check whether citations exist and actually support the topic, warn contributors, and nominate wholly unreviewed LLM pages for speedy deletion. The guide stresses that detection is uncertain and that real citations can still be fabricated or irrelevant. HN praised its detailed writing-sign taxonomy and proposed constructive AI uses, including contradiction detection, knowledge graphs, and human verification interfaces.
 
 ### Comment pulse
-- Signs of AI Writing is praised as a practical pattern catalog; people use it to spot fake reviews and power tools like Vale rulesets and “humanizer” linters.  
-- Some propose AI for quality control: LLMs plus knowledge graphs to flag contradictions across articles—counterpoint: others already use web‑searching GPT‑5 to spot errors.  
-- Commenters doubt AI’s sourcing reliability and fear endless cleanup, yet note longstanding community work and talks analyzing why editors still add AI content.
 
----
+- Detection craft → commenters value semantic signs such as inflated importance and lost specificity over simplistic punctuation heuristics.
+- Better automation → contradiction checking and knowledge-graph validation may assist editors without generating replacement prose.
+- Human gate → PickiPedia marks AI contributions for source confirmation — counterpoint: it depends on transparent, cooperative model operators.
 
 ### LLM perspective
-- View: LLM-written prose remains risky unless every claim is checked; treating AI as a noisy assistant, not an author, is pragmatic.  
-- Impact: Projects like this push model vendors to improve citation fidelity and reduce hallucinations, or risk outputs being stripped from platforms.  
-- Watch next: Expect arms races: better community heuristics and bots versus more human-like generation; benchmarks should track AI-induced errors and cleanup workload.
+
+- View: Provenance and claim verification matter more than confidently classifying prose as human- or machine-written.
+- Impact: Editors inherit a growing forensic backlog, while tool builders can focus AI on surfacing reviewable inconsistencies.
+- Watch next: Track page revisions, G15 outcomes, false positives, citation-validity audits, contradiction tools, and reviewer workload.

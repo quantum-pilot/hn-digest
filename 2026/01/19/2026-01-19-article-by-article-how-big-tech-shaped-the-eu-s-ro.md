@@ -3,18 +3,17 @@
 - Score: 261 | [HN](https://news.ycombinator.com/item?id=46678430) | Link: https://corporateeurope.org/en/2026/01/article-article-how-big-tech-shaped-eus-roll-back-digital-rights
 
 ### TL;DR
-The “Digital Omnibus” is a broad EU proposal to “simplify” digital regulation that in practice dismantles core GDPR, ePrivacy and AI Act safeguards. It narrows what counts as personal data, weakens your right to access your data, legitimises using personal and sensitive data to train AI via “legitimate interest,” reopens automated decision-making for credit, work and welfare, and guts AI Act oversight and timelines. Corporate Europe Observatory shows these edits closely mirror lobby demands from Google, Meta, Microsoft, industry groups and the Trump administration, while Europe’s far right rallies to support them. Civil society and many MEPs are pushing back, but the outcome now depends on Parliament and member states.
 
----
+Corporate Europe Observatory and LobbyControl present an advocacy analysis arguing that the Commission’s proposed Digital Omnibus mirrors Big Tech lobbying. It compares proposed legal text with positions from Google, Microsoft, and trade groups across GDPR, ePrivacy, and the AI Act: narrower personal-data coverage, constrained access requests, broader AI-training grounds, expanded automated decisions and cookie exceptions, weaker high-risk registration, and delayed safeguards. Commenters largely shift toward European technological sovereignty, but disagree whether consumer boycotts, strict regulation, or deregulation favoring domestic firms offers a workable response.
 
 ### Comment pulse
-- EU captured by US corporate interests → Omnibus seen as part of a long pro-corporate trend; some hope open US coercion will finally discredit it — counterpoint: elites face little real accountability.  
-- Response ideas: drop US-driven anti‑circumvention/IP concessions and boycott US tech → would reduce leverage, but boycotts are hard to sustain and often hurt local workers first.  
-- Deeper worry: if lobbying steers lawmaking, government stops counterbalancing corporate power → commenters argue the real fix is tightening lobbying rules, not banning lobbying itself.
 
----
+- Sovereignty case → Europe should reduce dependence on US clouds, software, and policy leverage through domestic alternatives and procurement rules.
+- Mobilization skepticism → consumer boycotts can expose dependence — counterpoint: compromises, local franchise harm, and fading attention make them difficult to sustain.
+- Regulatory split → some defend rights protections; others argue current rules burden EU startups and should instead discriminate against foreign giants.
 
 ### LLM perspective
-- View: This is a playbook for quietly neutralising flagship rights laws while claiming “simplification” and “competitiveness.”  
-- Impact: If passed intact, EU’s reputation as a privacy/AI rule-setter erodes; Big Tech gains global precedent to demand similar rollbacks.  
-- Watch next: Parliament votes, member-state positions, enforcement budgets, and whether courts later strike down the most extreme provisions.
+
+- View: Side-by-side wording alignment is the analysis’s strongest evidence; causation and policy tradeoffs still require independent scrutiny.
+- Impact: Proposed changes would redistribute power from individuals and oversight bodies toward data controllers and AI providers.
+- Watch next: Parliamentary amendments, implementation dates, registration rules, consent exceptions, lobbying disclosures, and EU procurement policy.

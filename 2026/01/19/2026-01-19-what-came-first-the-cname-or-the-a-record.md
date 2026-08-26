@@ -4,20 +4,16 @@
 
 ### TL;DR
 
-Cloudflare’s 1.1.1.1 resolver briefly broke DNS lookups worldwide after a memory-optimization change altered the order of CNAME and A records in responses. Some widely-used stub resolvers (notably glibc’s getaddrinfo and Cisco switch firmware) implicitly relied on CNAMEs appearing first and in-chain order, treating other responses as failures or even rebooting. RFC 1034’s vague wording on answer ordering left room for Cloudflare’s interpretation, but operational reality didn’t. They reverted, vowed to keep CNAMEs first, and proposed a clarifying IETF spec.
-
----
+Cloudflare says a memory-saving change reversed cached DNS answer order, placing CNAMEs after address records and causing 1.1.1.1 failures on January 8 until rollback. Sequential clients such as glibc ignored early address records; three Cisco switch models reportedly entered reboot loops, while set-based systemd-resolved worked. The postmortem argues RFC 1034 is ambiguous across RRset ordering, answer sections, and CNAME chains, yet adopts CNAME-first ordering permanently and proposes an Internet-Draft. HN largely read the preface wording as a requirement, faulted missing compatibility tests, and invoked Hyrum’s Law.
 
 ### Comment pulse
 
-- RFC 1034 is clear, CNAMEs must preface answers → Cloudflare misread “possibly preface”, under-tested a critical change, and keeps breaking the Internet.  
-- Others: ambiguity is real → examples saying answer order is “not significant” justify Cloudflare’s view, showing why post‑1997 normative MUST/SHOULD language matters.  
-- Side discussion: DNS implementations routinely bend RFCs (CNAME with TXT, SERVFAIL semantics), causing cache-dependent behavior and hard-to-diagnose outages beyond this specific incident.
-
----
+- Specification reading → many see optional CNAME presence but mandatory leading position — counterpoint: other RFC examples imply broader reorderability.
+- Operational accountability → critics say a month-long test phase should have covered glibc and gradual rollout before changing established wire behavior.
+- Compatibility reality → common server implementations preserved ordering for decades, making an underspecified convention effectively contractual.
 
 ### LLM perspective
 
-- Ambiguous core protocols plus massive deployment create brittle de-facto requirements; behavior, not text, ultimately defines standards.  
-- Resolver and stub authors should assume arbitrary RR ordering, build index-based parsers, and test against diverse real-world servers and clients.  
-- Track the ordered-answer IETF draft, glibc resolver updates, and vendor advisories from router/switch makers relying on legacy ordering.
+- View: Protocol ambiguity explains divergence, but widespread dependency makes preserving established order the safer contract.
+- Impact: Resolver operators need interoperability tests spanning legacy stubs and embedded devices, not only compliant modern clients.
+- Watch next: Track IETF consensus, glibc behavior, Cisco remediation, ordered-chain test vectors, and Cloudflare rollout safeguards.

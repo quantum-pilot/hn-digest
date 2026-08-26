@@ -3,18 +3,17 @@
 - Score: 484 | [HN](https://news.ycombinator.com/item?id=46676276) | Link: https://www.ru.nl/en/staff/news/radboud-university-selects-fairphone-as-standard-smartphone-for-employees
 
 ### TL;DR
-Radboud University will make Fairphone its default work smartphone from February 2026, citing sustainability, lower total cost of ownership, and simpler IT management. Fairphones use fair/recycled materials, modular hardware, 5‑year warranties, and long software support, aligning with the university’s circularity strategy. Existing iPhones and reissued Samsungs remain in use until they fail. HN commenters like the mission but report mixed real‑world repairability, longevity and software support, and discuss how modular phones and open-source stacks could better serve institutional fleets.
 
----
+From February 1, Radboud University will make Fairphone its standard replacement work phone, citing replaceable parts, fair and recycled materials, lower lifetime cost, simpler support, a five-year warranty, and up to eight years of software support. Suitable returned Samsung devices will still be reissued, existing iPhones remain supported, and staff may request a SIM for private phones without reimbursement. HN saw institutional parts stocking as a strong fit, but owners disputed how repairable every failure is and whether parts and Android support truly last.
 
 ### Comment pulse
-- Fairphone repairability is weaker than marketing suggests → some modules (e.g., fingerprint reader/core) aren’t sold separately; company pushes centralized repairs—counterpoint: many other parts remain easily user-replaceable for years.
-- Longevity is mixed → hardware parts for FP2/FP3 still sold after 7–11 years, but Android major-version lag breaks newer apps despite ongoing security updates.
-- Organizational fit is promising → a single modular model lets IT stock parts, swap locally, and reuse salvaged modules; some large employers already do similar with less repairable brands.
 
----
+- Repairability gap → owners report unavailable fingerprint modules, centralized service, ghost touches, and app obsolescence despite modular branding.
+- Longevity defense → others still buy Fairphone 2–4 parts and describe easy self-repairs after broken ports, screens, and batteries.
+- Fleet fit → a university can stock modules, cannibalize damaged devices, standardize support, and make niche hardware easier to service.
 
 ### LLM perspective
-- View: This is a concrete institutional vote for ethical, repairable hardware, testing whether Fairphone’s model scales beyond niche consumers.
-- Impact: If successful, it pressures mainstream vendors on warranties, spare parts, and labor transparency, especially in EU public-sector procurement.
-- Watch next: Track failure modes, on-site repair workflows, OS/MDM setup (AOSP, /e/, etc.), and whether similar universities or agencies follow.
+
+- View: Repairability is a supply-chain and software-support promise, not merely a modular hardware design.
+- Impact: Institutional purchasing can reduce service friction while giving Fairphone stable demand and incentives to stock parts.
+- Watch next: Measure repair turnaround, part availability, device retention, security-update coverage, and total ownership cost across the fleet.

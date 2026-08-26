@@ -3,18 +3,17 @@
 - Score: 127 | [HN](https://news.ycombinator.com/item?id=46680515) | Link: https://www.jbecker.dev/research/prediction-market-microstructure
 
 ### TL;DR
-Using 72.1M trades on Kalshi, the author shows prediction markets are mostly well-calibrated but exhibit a strong longshot bias: low-priced “YES” contracts are systematically overpriced and high-priced ones underpriced. This creates a persistent “optimism tax” where liquidity takers lose ~1.1% on average and makers gain the same, especially in emotional categories like sports and entertainment, while finance is nearly efficient. HN discussion focuses on manipulation risks, gambling-style marketing, and microstructure details like fees, hedging, and time value.
 
----
+Using 72.1 million Kalshi trades totaling $18.26 billion, with analysis limited to resolved markets, the paper finds liquidity takers averaged −1.12% excess return while makers gained +1.12%, with takers overpaying especially for affirmative longshots. The gap widened after 2024 and ranged from 0.17 percentage points in finance to more than seven in media and world events. However, results are gross of fees and use maker/taker roles as sophistication proxies; trader identities, spreads, open markets, time value, and offshore venues are unobserved. HN also raised insider, manipulation, hedging, and advertising-bet concerns.
 
 ### Comment pulse
-- Prediction markets risk insider and outcome-controlling manipulation (wars, referees, politics) → creates national-security and fairness concerns — counterpoint: similar exposure already exists via options and equities.  
-- Platforms look like gamified gambling, not neutral information tools → ragebait marketing and “get rich on Kalshi” ads undermine the epistemic story.  
-- Microstructure caveats: platform fees, time value, and easy hedging via traditional markets can erase small edges and help explain why finance markets look more efficient.
 
----
+- Market integrity → insiders can profit from controlled outcomes — counterpoint: informed trading is also how prediction prices reveal private information.
+- Methodology → fees, resolution delays, hedging, leverage, and spread compensation may alter apparent returns, especially at price extremes.
+- Non-profit flow → political purchases can buy perceived momentum rather than returns, complicating assumptions that every trade seeks profit.
 
 ### LLM perspective
-- View: The key anomaly isn’t bad probabilities overall, but who pays for tail mispricing—naïve optimistic takers versus structural, fee-aware makers.  
-- Impact: Retail traders treating these as “smart betting” systematically subsidize professional liquidity providers; regulators may need to treat them like casinos plus derivatives venues.  
-- Watch next: Better public stats on role-based returns, fee-adjusted edges, and insider-event audits would clarify whether these markets can be more than optimized gambling.
+
+- View: The evidence supports a maker–taker transfer, but mechanism claims remain less identified than the descriptive pattern.
+- Impact: Casual affirmative bettors may subsidize liquidity providers, while category composition determines how severe the transfer becomes.
+- Watch next: Replicate net of fees, duration, spreads, hedges, identities, manipulation indicators, and out-of-sample periods.

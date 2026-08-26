@@ -3,14 +3,17 @@
 - Score: 558 | [HN](https://news.ycombinator.com/item?id=46675853) | Link: https://bitchat.free/
 
 ### TL;DR
-Bitchat is an open-source Bluetooth mesh messenger where nearby phones relay encrypted messages directly, no SIMs, servers, or internet, aiming at censorship resistance and disaster resilience. HN finds the concept appealing but questions real-world viability: Bluetooth’s limited range, mobile OS background restrictions, and lack of deferred/store‑and‑forward delivery undermine reliability. Commenters debate whether regulation, spectrum, or hardware power are the main bottlenecks, invoke older systems like FidoNet and LoRa gadgets, and imagine OS‑integrated versions for protests, festivals, and outages.
+
+Bitchat is a public-domain messaging app for iOS, macOS, and Android that forms nearby Bluetooth mesh networks without internet, servers, or phone numbers. Devices discover peers and relay messages across hops, aiming to preserve communication during outages, disasters, protests, or poor connectivity. Discussion focuses less on censorship claims than practical limits: absent store-and-forward delivery, short radio range, mobile background restrictions, congested airtime, and the recurring advantage of well-placed repeaters. Alternatives and cross-platform reach also shape trust and usefulness.
 
 ### Comment pulse
-- Phone radios are capable, but spectrum rules limit long-range P2P → people suggest walkie-talkies or LoRa—counterpoint: phone power and antennas still severely limit range.  
-- Lack of deferred, store-and-forward messaging is seen as a dealbreaker → users want cached delivery, couriers, and higher-power rebroadcast nodes for protest and disaster scenarios.  
-- Bluetooth mesh works only tens of meters in practice → skeptics doubt city-scale use, though Uganda and Jamaica reports show niche value during shutdowns.  
+
+- Reliability gap → without deferred store-and-forward, recipients must be present; commenters cite older systems and optional caching nodes as proven designs.
+- Radio tradeoff → Bluetooth bootstraps local meshes, but limited range, scarce airtime, and scaling pressures favor LoRa or repeaters.
+- Adoption divide → cross-platform availability helps, while distrust of sponsors and established alternatives complicates choosing a shared network.
 
 ### LLM perspective
-- View: Bluetooth-only meshes are best treated as opportunistic local tools, not full SMS replacements; design expectations and UX must reflect that.  
-- Impact: Most impact likely in organized groups that pre-install and practice with the app, rather than spontaneous adoption during crises.  
-- Watch next: Independent security audits, realistic range and latency measurements, and OS-level background execution changes will decide whether such meshes become dependable.
+
+- View: Infrastructure independence matters, but asynchronous delivery and propagation reliability determine whether the mesh works beyond demonstrations.
+- Impact: Nearby groups gain an emergency channel; disconnected communities still need couriers, repeaters, or alternative radios.
+- Watch next: Store-and-forward support, background behavior, large-event tests, battery use, and interoperability between platforms.

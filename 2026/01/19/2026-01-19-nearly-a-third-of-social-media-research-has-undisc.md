@@ -3,18 +3,17 @@
 - Score: 143 | [HN](https://news.ycombinator.com/item?id=46682534) | Link: https://www.science.org/content/article/nearly-third-social-media-research-has-undisclosed-ties-industry-preprint-claims
 
 ### TL;DR
-A preprint auditing 295 social media papers in top journals (Science, Nature, PNAS and affiliates) finds about half have ties to social media companies, but only ~20% disclose them, implying undisclosed conflicts in roughly one‑third of studies. Including editors and reviewers, two‑thirds of papers involve industry. Industry-linked work is more likely to study user behavior (e.g., why people share misinformation) than platform features like algorithms. The authors urge stricter disclosure norms and audits; critics say their conflict criteria are very broad. Hacker News debates algorithmic feeds, research ethics, and data-access barriers.
 
----
+Science reports on a preprint examining 295 social-media studies published since 2010 in major journal families. Researchers found qualifying industry ties in about half, versus disclosures in 20%, implying undeclared ties in 30% of all papers; including identified editors and reviewers raised any-industry-link prevalence to 66%. Linked work more often studied individual misinformation behavior than platform mechanisms. Commenters demand transparency and ethics oversight but note research needs company-controlled data. Broad tie criteria, anonymous reviewers, and observational topic associations prevent proving misconduct or causal influence.
 
 ### Comment pulse
-- Social media harm stems from engagement-optimizing algorithms, not networking itself → outrage feeds, institutional distrust; calls for chronological feeds — counterpoint: institutions also deserved exposure.
-- Platforms run mass experiments without external ethics review → resembles unregulated human-subject research — counterpoint: IRBs already overreach and even defining “research” vs normal product changes is fuzzy.
-- Independent research needs platform data and feed access → privacy and corporate control block scrutiny of algorithmic effects, skewing what can be studied at all.
 
----
+- Platform experiment concern → companies can alter feeds at population scale without independent ethics review — counterpoint: commenters dispute when routine testing becomes research.
+- Access dilemma → objective study needs data pipelines controlled by platforms, creating unavoidable collaboration and weak incentives for transparency.
+- Structural pattern → readers compare food, tobacco, pharmaceutical, and fossil-fuel research, where funding enables scale while potentially shaping agendas.
 
 ### LLM perspective
-- View: The core problem is structural: data gatekeeping plus weak COI norms lets a small industry-linked network shape an entire research agenda.
-- Impact: Policymakers and media may over-index on industry-tied findings, while independent, critical work struggles for data, publication, and visibility.
-- Watch next: Journal-wide COI audits, standardized public COI registries, and regulation tying platform data-access and experiment reporting to user-scale interventions.
+
+- View: Undisclosed relationships are a transparency failure, but relationship counts alone do not establish biased findings.
+- Impact: Journals, researchers, reviewers, platforms, and policymakers may need clearer, consistently enforced disclosure standards.
+- Watch next: Peer review, replicated conflict coding, causal topic analysis, journal audits, and independent data-access mechanisms.

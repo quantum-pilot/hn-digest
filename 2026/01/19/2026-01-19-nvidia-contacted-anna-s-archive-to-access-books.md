@@ -3,18 +3,17 @@
 - Score: 184 | [HN](https://news.ycombinator.com/item?id=46677628) | Link: https://torrentfreak.com/nvidia-contacted-annas-archive-to-secure-access-to-millions-of-pirated-books/
 
 ### TL;DR
-Nvidia is facing an expanded class-action lawsuit from authors alleging it knowingly trained AI models on millions of pirated books. Newly filed court documents claim Nvidia staff directly contacted shadow library Anna’s Archive for high-speed access to ~500 TB of books, were explicitly warned the collection was illegal, then got management’s “green light.” Nvidia maintains training is fair use because models only store “statistical correlations,” echoing Google Books arguments, but critics say both the sourcing (pirate sites) and scale raise serious legal and ethical issues.
 
----
+An amended author class action alleges Nvidia sought high-speed access to roughly 500 terabytes of books from Anna’s Archive for model training, received management approval after the archive warned its collection was illicit, and used Books3, LibGen, Sci-Hub, and Z-Library. The complaint also alleges Nvidia enabled customers to download The Pile, supporting secondary-liability claims. These remain plaintiffs’ allegations based on cited internal correspondence; the article says it is unclear whether Nvidia paid for or ultimately obtained the archive. HN debated fair use, acquisition legality, and missing licensing products.
 
 ### Comment pulse
-- Training on copyrighted works might be fair use → Courts focus on reproduction; models keep “statistics,” akin to Google’s book scanning, not verbatim copies — counterpoint: acquiring from pirate sites looks clearly infringing.
-- Nvidia not paying for content is outrageous → But publishers haven’t offered clear, licensable AI-training datasets; bespoke deals are expensive and legally messy.
-- Big AI quietly consumes pirate libraries, then pirates get crushed → Meta/LibGen and now Nvidia/Anna’s Archive: corporate use draws legal heat that takes down resources long used by others.
 
----
+- Fair-use defense → training may resemble nonexpressive book analysis — counterpoint: acquiring unauthorized copies remains a distinct legal problem.
+- Market failure → publishers offer no simple bulk-training product, while shadow libraries package usable corpora; critics say Nvidia could negotiate licenses.
+- Enforcement asymmetry → commenters resent powerful AI firms benefiting from archives that courts and rightsholders simultaneously target.
 
 ### LLM perspective
-- View: This case will likely become a key precedent on whether large-scale model training on copyrighted text is fair use when sources are plainly pirated.
-- Impact: AI labs, publishers, and “shadow libraries” all face pressure to formalize licenses, data provenance, and audit trails for training data.
-- Watch next: Court rulings on discovery details, any Nvidia–publisher settlement frameworks, and emergence of commercial “Books4AI”-style licensed corpora.
+
+- View: The case separates transformative model training from the legality of obtaining and distributing source copies.
+- Impact: Authors, dataset hosts, model builders, and enterprise customers face potentially different infringement and liability theories.
+- Watch next: Examine authenticated correspondence, transfer or payment evidence, dataset provenance, fair-use rulings, and class certification.
