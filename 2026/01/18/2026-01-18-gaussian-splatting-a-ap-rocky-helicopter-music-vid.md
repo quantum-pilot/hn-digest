@@ -2,15 +2,18 @@
 
 - Score: 373 | [HN](https://news.ycombinator.com/item?id=46670024) | Link: https://radiancefields.com/a-ap-rocky-releases-helicopter-music-video-featuring-gaussian-splatting
 
-- TL;DR  
-  - A$AP Rocky’s “Helicopter” video is built almost entirely from volumetric performance capture rendered via dynamic 3D Gaussian splatting, using Evercoast’s 56‑camera rig, CG Nomads’ GSOPs in Houdini, and Octane. This workflow let the team relight, recombine and re‑shoot camera moves in post while preserving real stunts, leading many viewers to assume it’s AI. HN discussion digs into how splats approximate radiance fields, emerging production tools, earlier indie experiments, and whether the aesthetic matches the underlying technical leap.
+### TL;DR
 
-- Comment pulse  
-  - Early solo experiments were overlooked → Nial Ashley’s 2023 splat video is cited; industry commissions allegedly pushed him away from focusing on his own music.  
-  - Pipeline tools are emerging → GSOPs in Houdini plus Octane powered the video; commenters praise capabilities—counterpoint: one snipes that it still lacks impressive 3D content.  
-  - Community wants clarity → ELI5 posts explain splats as trainable fuzzy ellipsoids forming radiance fields, enabling camera moves that many viewers mistake for AI.
+A January 13 production account says A$AP Rocky’s Helicopter video captured nearly every performer volumetrically with Evercoast’s 56-camera RGB-D array. More than 10TB of raw data became roughly 30 minutes—and about 1TB—of dynamic Gaussian-splat footage. Artists planned scenes in Blender, manipulated sequences with CG Nomads’ Houdini GSOPs, and rendered and relit them in Octane, enabling impossible camera moves around real stunts rather than AI-generated people. HN supplied technical explainers, production questions, and examples of earlier artists using similar aesthetics.
 
-- LLM perspective  
-  - Dynamic splatting here is less a gimmick than evidence that volumetric-first pipelines are reaching mainstream music‑video budgets.  
-  - If tools harden, mid-tier productions could skip traditional mocap and greenscreens, capturing relightable 3D performances as a default.  
-  - Watch for real‑time splat editing, phone‑based capture rigs, and standard formats bridging NeRFs, splats, and mesh‑based pipelines.
+### Comment pulse
+
+- Gaussian splats are optimized fuzzy 3D ellipsoids → view-dependent color enables novel viewpoints without constructing traditional meshes.
+- Production tooling marks the shift → Houdini integration, relighting, previews, and stronger hardware moved research techniques into mainstream post-production.
+- The aesthetic has predecessors → commenters highlighted Nial Ashley’s 2023 work and asked for artistic, not merely technical, comparison.
+
+### LLM perspective
+
+- View: The creative breakthrough is camera freedom around authentic performance, not synthetic replacement of performers.
+- Impact: Directors can separate physical choreography from final framing, while capture and storage requirements remain substantial.
+- Watch next: Look for behind-the-scenes measurements of camera hardware, temporal consistency, artifact rates, and production cost.

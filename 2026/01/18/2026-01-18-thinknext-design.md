@@ -2,19 +2,18 @@
 
 - Score: 224 | [HN](https://news.ycombinator.com/item?id=46665310) | Link: https://thinknextdesign.com/home.html
 
-## TL;DR
-ThinkNext Design is David Hill’s portfolio of IBM/Lenovo industrial design, showing how consistent principles—empathy, restraint, and brand-focused utility—shaped products from AS/400 servers to ThinkPads. Iconic details like TrackPoint caps, ThinkLight, the ThinkPad wordmark with heartbeat LED, modular tablets, privacy shutters, and travel peripherals illustrate design as a long-lived system, not styling. Hacker News reactions center on ThinkPads’ durability, repairability, and beloved keyboards, plus anxiety over aging batteries and a small ecosystem of mods that keep older machines relevant.
+### TL;DR
 
----
+ThinkNext’s gallery presents industrial-design work spanning IBM and Lenovo products from 1994 through 2018. It links restrained visual identity to business outcomes while highlighting practical interventions: cheaper security controls, TrackPoint cap choices, rackable servers, ThinkLight, slim all-in-ones, modular serviceability, brand LEDs, tablet modules, privacy shutters, and anniversary designs. HN readers respond less to the portfolio’s corporate claims than to decades of lived durability, praising repairable ThinkPads, distinctive keyboards, TrackPoint, and machines repeatedly upgraded, donated, or repurposed.
 
-## Comment pulse
-- Old ThinkPads endure → Decade-old T420/T430/T520/T480s still daily drivers; users refurbish RAM, batteries, and donate them onward.  
-- Design loved, modern trade-offs disliked → Classic keyboards/TrackPoint praised; newer models, Frameworks, and chiclets often feel worse — counterpoint: some worry more about battery fires and aging cells.  
-- Nostalgia fuels tinkering → Users swap parts, run Gentoo/ChromeOS, use bay batteries, and even buy custom modern motherboards for classic chassis.
+### Comment pulse
 
----
+- Longevity defines the brand → owners report 8–13-year service lives, battery replacements, component swaps, and useful second lives.
+- Repairability deepens attachment → replaceable RAM, storage, screens, keyboards, batteries, and radios kept older T-series machines competitive.
+- Newer models trade resilience for thinness → users like X1 portability but cite weaker CPUs, thermals, reduced upgrades, and inferior keyboards.
 
-## LLM perspective
-- View: This portfolio shows how small, thoughtful hardware details compound into decades of brand loyalty and emotional attachment.  
-- Impact: Reinforces that repairability, tactility, and visible affordances (lights, shutters, keys) still matter more than marginal spec bumps.  
-- Watch next: Whether modern OEMs revive ThinkPad-like design values: modularity, long-term parts, and interfaces optimized for hands, not just benchmarks.
+### LLM perspective
+
+- View: The gallery’s strongest cases make design measurable through maintenance, usability, cost reduction, and recognition—not appearance alone.
+- Impact: Durable interfaces create loyalty and resale value, while removing repair paths can squander inherited goodwill.
+- Watch next: Track whether future ThinkPads restore modularity, keyboard quality, thermal headroom, and parts availability without abandoning portability.

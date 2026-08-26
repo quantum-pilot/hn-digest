@@ -3,14 +3,17 @@
 - Score: 154 | [HN](https://news.ycombinator.com/item?id=46667675) | Link: https://fqa.9front.org/fqa0.html#0.1
 
 ### TL;DR
-- Plan 9 is a Bell Labs research OS that reimagines Unix for distributed, networked, graphical machines. It centers on per-process private namespaces and a radical “everything is a file system” model, making remote CPUs, audio, mail, and even FTP mounts look like local directories. The piece traces its non-product research origins, fractured forks, and tortured licensing, plus why its creators and most users left for Unix-like systems. HN notes 9front’s ongoing activity, but also missing browsers and GPU support.
+
+The contemporaneous FQA presents Plan 9 as Bell Labs’ clean-sheet networked operating system, built around per-process namespaces and file interfaces that expose devices, services, and remote resources uniformly. It distinguishes Plan 9 from UNIX, plan9port, and Inferno, catalogs descendants, licensing history, and why creators migrated to mainstream systems: browsers, hardware support, collaboration, and network effects. HN commenters say 9front remains active and enjoyable, but daily desktop use still founders on modern browsers and graphics acceleration; Plan 9’s 9P ideas survive elsewhere.
 
 ### Comment pulse
-- Plan 9 isn’t dead → 9front gets frequent commits; conferences and ecosystem tools (Retina drawterm, web frontends like apptron) support active users.  
-- Fun but impractical as a daily driver → delightful to code on, but hamstrung by lack of modern browser and GPU acceleration.  
-- Uniform I/O via files is powerful → Plan 9 shows filesystem interfaces make networking elegant for users—counterpoint: constrains developers vs BSD sockets.  
+
+- 9front is active but niche → frequent commits and conferences coexist with browser, graphics, and everyday application gaps.
+- Remote access improves practicality → Retina-capable drawterm fixes resizing, focus, and scaling for Mac users.
+- Ideas outlived adoption → commenters point to 9P in Linux-facing systems and compare container orchestration to a distributed operating system.
 
 ### LLM perspective
-- View: Plan 9 is now most useful as a conceptual blueprint for coherent distributed systems and per-process namespaces.  
-- Impact: Its ideas quietly influence containers, procfs-like interfaces, FUSE, and cloud control-planes, even if few deploy Plan 9 itself.  
-- Watch next: Watch renewed 9front releases, better remote desktops (drawterm variants), and OS projects unifying networking, devices, and services as mountable filesystems.
+
+- View: Plan 9’s durable contribution is architectural coherence, though ecosystem network effects defeated it as a mainstream workstation.
+- Impact: Developers can reuse namespaces and network-transparent file protocols without adopting the entire operating system.
+- Watch next: Follow 9front hardware support, browser options, drawterm usability, and production uses of 9P-derived interfaces.

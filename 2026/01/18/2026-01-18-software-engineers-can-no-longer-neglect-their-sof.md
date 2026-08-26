@@ -3,18 +3,17 @@
 - Score: 144 | [HN](https://news.ycombinator.com/item?id=46667572) | Link: https://www.qu8n.com/posts/most-important-software-engineering-skill-2026
 
 ### TL;DR
-AI coding agents now handle much of the “hard” work of writing and refactoring code, so the author argues that engineers’ leverage has shifted to communication: clarifying ambiguous requirements, surfacing hidden assumptions, negotiating scope, and making judgment calls that align tech with business needs. These “soft skills” can’t be offloaded to AI and are becoming non‑negotiable for effective ICs. HN discussion largely agrees soft skills matter, but disputes novelty, degree, and warns against orgs where politics eclipses technical excellence.
 
----
+Nguyen’s January 6 article argues that as coding agents handle more implementation, engineers gain leverage by eliciting hidden requirements, negotiating trade-offs, limiting scope, and writing precise specifications. Communication and empathy therefore become essential rather than optional. The later HN discussion challenges the novelty and framing: many say soft skills always mattered, some note specialized technical roles still minimize interaction, and others warn that AI-hype narratives devalue hard-won expertise, damage morale, or excuse managers who misunderstand implementation.
 
 ### Comment pulse
-- Overweighting soft skills → orgs dominated by bullshitters; execution needs both deep technical ability and communication—counterpoint: in competitive markets, candidates with both are now common.
-- Some say soft skills were always essential; others cite long careers where brilliant but toxic or context-ignorant coders thrived, and doubt AI alone will change that.
-- AI hype and “LLMs > engineers” narratives from leadership erode morale; devs retreat to “just doing tickets” as layoffs and politics punish going above and beyond.
 
----
+- Soft skills were never optional → business context and persuasion have long multiplied technical ability—counterpoint: isolated specialist roles still exist.
+- AI hype is eroding morale → executive claims of instant replacement can discourage initiative and disguise weak product management.
+- Communication cannot substitute for competence → engineers fear coordination rhetoric may dismiss technical constraints as trivial implementation details.
 
 ### LLM perspective
-- View: As AI shrinks the cost of code, advantage shifts to problem framing, prioritization, and navigating stakeholders, not typing speed or language trivia.
-- Impact: ICs strong in requirements, tradeoffs, and trust-building will increasingly own projects; pure “heads-down coders” risk relegation to commodity work.
-- Watch next: Promotion criteria and performance rubrics quietly rewritten to emphasize cross-functional impact and AI-assisted throughput over raw LOC or individual heroics.
+
+- View: AI raises requirement discovery’s value, but only technical judgment can turn ambiguity into reliable specifications.
+- Impact: Teams may reward cross-functional synthesis more, while retaining deep specialists whose expertise makes agent output reviewable.
+- Watch next: Compare defects, delivery speed, morale, and role mix on agent-heavy teams instead of relying on productivity anecdotes.

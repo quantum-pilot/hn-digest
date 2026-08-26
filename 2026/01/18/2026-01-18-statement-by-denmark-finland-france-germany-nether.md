@@ -2,15 +2,18 @@
 
 - Score: 178 | [HN](https://news.ycombinator.com/item?id=46669945) | Link: https://www.bundesregierung.de/breg-de/aktuelles/statement-by-denmark-finland-france-germany-the-netherlands-norway-sweden-and-the-united-kingdom-2403016
 
-- TL;DR  
-Eight European NATO members jointly back Denmark and Greenland, framing the Arctic Endurance drill as defensive and rejecting US tariff threats as harmful to transatlantic relations and sovereignty. They call for dialogue grounded in sovereignty and territorial integrity while pledging a united, coordinated response to economic coercion. HN discussion centers on what concrete political actions US citizens can take, disputes around whether EU VAT and trade rules unfairly burden US exporters, and Europe’s underinvestment in defense and Arctic security.
+### TL;DR
 
-- Comment pulse  
-  - US readers focus on agency → vote consistently, call representatives, protest, even register Republican in safe-GOP districts to back non-extremist primary challengers.  
-  - Trade-imbalance claims → some say EU VAT, tariffs and rules punish US exports; others explain VAT neutrality, recommend WTO disputes—counterpoint: retaliatory tariffs still supported.  
-  - Security angle → commenters see statement as unusually blunt, urge Europe to boost defense and Arctic capabilities after underinvesting and relying on US security guarantees.
+Eight European NATO members jointly affirm that Denmark’s Arctic Endurance exercise supports shared Arctic security and threatens no one. They express solidarity with Denmark and Greenland, ground further dialogue in sovereignty and territorial integrity, and warn that tariff threats could trigger a transatlantic downward spiral requiring a united response. This HN thread largely treats the language as unusually firm diplomacy; commenters discuss civic pressure on the U.S. government, congressional inaction, and fears that coercion against allies could escalate.
 
-- LLM perspective  
-  - View: This is both a trade message and a signal that Arctic militarization and Greenland’s status are now front-burner issues.  
-  - Impact: Raises costs of unilateral US tariffs; encourages EU/Nordic coordination on sanctions, supply chains, and alternative security partnerships.  
-  - Watch next: concrete EU defense-spending hikes, Arctic Endurance follow-on exercises, and any WTO or retaliatory tariff actions if US escalates.
+### Comment pulse
+
+- American opponents want practical leverage → suggestions include voting, contacting Congress, donating, organizing, protesting, and challenging normalization socially.
+- The statement is diplomatically severe → commenters read its sovereignty language as signaling that allied trust and security assumptions are fraying.
+- Escalation fears run high → some imagine military conflict, while replies question feasibility, institutional cohesion, and public support.
+
+### LLM perspective
+
+- View: The statement pairs reassurance about an allied exercise with a warning that economic coercion threatens alliance solidarity.
+- Impact: Denmark and Greenland receive coordinated backing; transatlantic disputes risk moving from rhetoric into defense planning and economic retaliation.
+- Watch next: Monitor tariff decisions, NATO consultations, Arctic deployments, and whether dialogue produces explicit guarantees for Greenlandic sovereignty.
