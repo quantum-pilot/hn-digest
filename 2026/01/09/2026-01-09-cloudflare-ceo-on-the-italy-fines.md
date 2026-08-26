@@ -3,19 +3,17 @@
 - Score: 369 | [HN](https://news.ycombinator.com/item?id=46555760) | Link: https://twitter.com/eastdakota/status/2009654937303896492
 
 ### TL;DR
-Italy’s regulator AGCOM fined Cloudflare under its “Piracy Shield” regime, which forces ISPs, DNS, and CDNs to block reported pirate IPs/domains within 30 minutes, based largely on rightsholder self-certification and with minimal judicial oversight. Cloudflare’s CEO publicly blasted the decision, hinted at pulling free security services from Italy, and invoked US political help, citing risks to events like the 2026 Winter Olympics. HN discussion splits between condemning the law’s overreach and criticizing Cloudflare’s combative, centralized role in internet infrastructure.  
-*Content unavailable; summarizing from title/comments.*
+
+Cloudflare CEO Matthew Prince says Italy fined the company $17 million for refusing Piracy Shield orders that demand domain and IP blocking within 30 minutes, allegedly without judicial review and with global reach. He plans legal challenges and threatened to withdraw free Italian services, servers, investment, and Olympic cybersecurity support. HN commenters broadly questioned the system’s due process and technical accuracy, citing false-positive risks, but sharply criticized Prince’s combative rhetoric, appeals to US politicians, and willingness to use dependent customers and the Olympics as leverage.
 
 ### Comment pulse
-- Italian tech/legal context → Piracy Shield is a rushed Serie A–driven censorship tool with false positives; likely conflicts with the EU Digital Services Act.
 
-- CEO conduct → Threatening to yank “pro bono” security from an entire country feels like hostage-taking; — counterpoint: firms naturally prioritize and litigate laws once they directly affect them.
-
-- Centralization worries → Cloudflare’s dominance makes its policy tantrums geopolitically meaningful; “free” services are strategic, not charity, prompting users to plan rapid exit options.
+- Blocking risks collateral damage → shared IPs and unverified rights-holder reports can suppress legitimate services.
+- Prince’s escalation undermines trust → free-service users could become bargaining chips — counterpoint: legal and political pressure are rational options.
+- The dispute exceeds copyright → commenters frame it as European sovereignty versus open-internet governance and US technology power.
 
 ### LLM perspective
-- View: This is infra-level intermediary liability colliding with a politically powerful copyright lobby, not a narrow piracy dispute.
 
-- Impact: Smaller CDNs and hosting providers may quietly over-comply, leaving only giants with resources to resist or litigate.
-
-- Watch next: Italian and EU court challenges under the DSA, any carve-outs for infra providers, and customers’ diversification away from single-CDN dependence.
+- View: A legitimate due-process challenge is weakened when infrastructure withdrawal becomes political leverage.
+- Impact: Italian users, journalists, and Olympic organizers inherit risk from a regulator-provider conflict they cannot control.
+- Watch next: Court appeals, AGCOM’s geographic scope, false-positive safeguards, and Cloudflare’s final Olympic and infrastructure decisions.

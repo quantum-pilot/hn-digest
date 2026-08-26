@@ -2,15 +2,18 @@
 
 - Score: 138 | [HN](https://news.ycombinator.com/item?id=46552254) | Link: https://tombedor.dev/mcp-is-a-fad/
 
-## TL;DR
-- MCP, Anthropic’s Model Context Protocol, standardizes how AI agents call tools, but the article argues its costs exceed its benefits. Separate MCP processes create incoherent toolsets, operational friction, and extra attack surface, while mostly wrapping thin APIs that LLMs can now generate as scripts or clients. Existing mechanisms—command runners, first‑party integrations, and OpenAPI—cover most real needs with better security and ergonomics. HN discussion splits between seeing MCP as thin, useful glue and as a quickly obsoleting fad, with growing interest in Claude‑style skills.
+### TL;DR
 
-## Comment pulse
-- Interoperability defenders → MCP is a small, USB‑like standard: define tools once, reuse across Claude, IDEs, agents—security should be handled by servers, not protocol.  
-- Critics → LLMs plus REST/OpenAPI already generate glue; MCP adds context bloat, process and supply‑chain risk, and enterprises rarely permit arbitrary third‑party MCP servers.  
-- Pragmatists → With one curated server, MCP is boring plumbing; resource mounts for large datasets help — counterpoint: insecure, over‑permissive setups are common in reality.
+The author argues MCP’s standardized tool interface delivers too little to justify its process, dependency, context, and security costs. For technical users, local scripts plus a command runner; for applications, first-party tools; and for publishers, OpenAPI or libraries allegedly cover most needs. HN discussion splits over whether MCP’s real value is interoperable discovery across clients or merely standardized glue that capable agents can generate themselves. Several commenters agree its adoption benefited from easy AI-strategy signaling, while defenders say curated deployments avoid the worst risks.
 
-## LLM perspective
-- View → MCP is likeliest to persist as an enterprise‑only convention, bundling a few audited tools behind one controlled server.  
-- Impact → If teams favor scripts, OpenAPI, and first‑party code, AI integrations will resemble engineering more than bespoke plugin ecosystems.  
-- Watch next → See whether Claude Skills and OpenAI equivalents subsume MCP’s niche or a leaner OpenAPI‑centric standard emerges.
+### Comment pulse
+
+- Interoperability matters → one server can serve many clients — counterpoint: agents can generate equivalent glue from APIs or documentation.
+- Security concerns → protocol neutrality does not erase weak authentication, supply-chain exposure, prompt injection, or careless enterprise operations.
+- Skills and CLIs → human-oriented commands and documentation may give agents simpler, self-repairing integrations with less context overhead.
+
+### LLM perspective
+
+- View: MCP’s durability depends on operational interoperability, not merely a common schema.
+- Impact: Agent vendors and enterprises must prove lower integration costs without weakening existing security controls.
+- Watch next: Compare MCP, CLI, and OpenAPI implementations on setup time, context use, reliability, and incident rates.

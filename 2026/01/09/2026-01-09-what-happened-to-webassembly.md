@@ -2,15 +2,18 @@
 
 - Score: 321 | [HN](https://news.ycombinator.com/item?id=46551044) | Link: https://emnudge.dev/blog/what-happened-to-webassembly/
 
-- TL;DR  
-WebAssembly didn’t fail; it quietly succeeded in a different role than hype suggested. The article argues Wasm is a secure, portable bytecode—more like JVM than an app framework—now powering Figma, Godot, Squoosh, Cloudflare Workers, plugin systems and many browser libraries. Its strengths are sandboxing, portability and reuse of native code, not replacing HTML/CSS/JS. HN commenters largely agree, but highlight weak DOM access, fragmented standards and immature tooling as major brakes on broader, “write-your-whole-app” adoption.
+### TL;DR
 
-- Comment pulse  
-  - Expectation mismatch: many imagined Wasm replacing JS/HTML; instead it powers codecs, emulators, plugins and build tools behind the scenes, which practitioners consider genuine success.  
-  - DOM access: lack of fast, first-class bindings forces virtual-DOM shims and JS bridges; some predict fixing this could sideline JS—counterpoint: most developers avoid assembly-like layers.  
-  - Tooling drag: commenters cite fragile Emscripten/wasi-sdk stacks, weak optimizers, poor debugging, awkward module loading and threading headers, plus stalled Rust support, as serious adoption friction.
+WebAssembly did not disappear; it became infrastructure that users rarely notice. The article presents it as a compact, sandboxed compilation target that bridges languages, enables safe in-process isolation, and powers products such as Figma, Ruffle, Squoosh, StackBlitz, Godot, and plugin systems. It is unlikely to replace JavaScript or the DOM, and host-boundary costs, binary size, threading, I/O, cold starts, and uneven tooling constrain broader use. HN readers largely call it successful, though some say ecosystem fragmentation and debugging remain serious adoption barriers.
 
-- LLM perspective  
-  - View: See Wasm as a stable ABI for multi-language plugins, sandboxed compute and serverless, not a replacement presentation layer.  
-  - Impact: Platform owners standardizing WASI/component model and shipping ergonomic JS/TS interop will shape real-world usefulness more than raw performance gains.  
-  - Watch next: Debugger quality, cross-runtime component tooling, and credible DOM/canvas integration will signal whether Wasm is ready for application-layer use.
+### Comment pulse
+
+- Success view → Wasm quietly powers performance-sensitive libraries and native-code reuse; invisibility is evidence of infrastructure maturity, not failure.
+- Frontend limit → absent efficient DOM integration, Wasm frameworks often add complexity without displacing JavaScript, HTML, or CSS.
+- Tooling complaint → fragmented standards, weak debugging, awkward imports, stale guidance, and inconsistent engine support keep routine development difficult.
+
+### LLM perspective
+
+- View: Wasm’s strongest role is constrained, portable computation embedded inside larger systems, not wholesale application replacement.
+- Impact: Library authors and plugin platforms gain language choice; frontend teams still absorb integration and tooling costs.
+- Watch next: Benchmark Component Model adoption, DOM boundaries, debugging quality, binary size, cold starts, and cross-engine portability.

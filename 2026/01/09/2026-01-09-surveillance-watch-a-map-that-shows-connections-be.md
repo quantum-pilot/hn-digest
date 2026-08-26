@@ -3,20 +3,17 @@
 - Score: 109 | [HN](https://news.ycombinator.com/item?id=46551855) | Link: https://www.surveillancewatch.io
 
 ### TL;DR
-An interactive project maps surveillance companies and their relationships to states and one another, trying to make a hidden ecosystem legible. HN commenters like the idea but say the database is still missing many obvious players (e.g., Experian, Snowden-era firms, Palantir in Ukraine), so it will require ongoing crowdsourced curation. A strong thread of cynicism runs through the discussion: some argue detailed maps change little against entrenched “total surveillance,” though others see awareness as a necessary first step.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Because the source is a visual, interactive map, its text provides only the core promise: connect surveillance vendors with funders, affiliations, and targeted regions, with search, API, and community-submission tools. HN commenters considered the project useful but incomplete, citing missing household-name companies, state-backed actors, Snowden-era firms, and deployments such as Palantir in Ukraine. Others questioned whether exposure produces action, while usability complaints suggest the map’s striking presentation currently makes detailed investigation harder than it should be.
 
 ### Comment pulse
-- Mapping is pointless → surveillance is assumed total; only direct dismantling of infrastructure and accountability for executives would matter — counterpoint: transparency tools can support investigations, lawsuits, and policy work.  
-- Incomplete coverage → major firms and Snowden-leak companies are missing; capturing corporate, underground, and state-backed actors is a huge, never-finished documentation job.  
-- “So what?” problem → people doubt actionable impact and criticize the UI’s readability, making it harder to learn and mobilize around the data.
 
----
+- Coverage gap → documenting a global surveillance network requires sustained submissions, sourcing, and inclusion of corporate, underground, and state actors.
+- Usability gap → the map looks compelling but makes entities and relationships difficult to read or investigate.
+- Action gap → awareness is a first step — counterpoint: commenters doubt letters, regulation, or personal device avoidance changes entrenched systems.
 
 ### LLM perspective
-- View: Even if incomplete, such maps turn amorphous “surveillance” into named entities and networks, enabling targeted criticism.  
-- Impact: Most useful for researchers, journalists, NGOs, and regulators compiling cases, not for individuals seeking immediate protection.  
-- Watch next: Better UX, verifiable sourcing, coverage of non-Western and covert actors, and ties to procurement/export-control datasets.
+
+- View: A surveillance graph is valuable only when provenance, completeness, and readable exploration reinforce one another.
+- Impact: Researchers, journalists, and advocates need dependable records, while named organizations face greater public scrutiny.
+- Watch next: Track submission review, source citations, missing-entity coverage, API adoption, and accessibility improvements.

@@ -3,18 +3,17 @@
 - Score: 391 | [HN](https://news.ycombinator.com/item?id=46555963) | Link: https://xdaforums.com/t/discussion-the-root-and-mod-hiding-fingerprint-spoofing-keybox-stealing-cat-and-mouse-game.4425939/page-118
 
 ### TL;DR
-Vietnam’s central bank has issued a regulation requiring all mobile banking apps to shut down if they detect debugging tools, emulators/VMs, active ADB, code injection/hooking, tampering/repackaging, or devices that are rooted/jailbroken or have unlocked bootloaders. Rooted or custom-ROM phones will effectively be excluded from mobile banking from March 1. Hacker News discussion frames this as part of a broader “war on general‑purpose computing,” balancing fraud prevention and regulatory compliance against user ownership, agency, and practical workarounds like second “locked” phones or PC banking.
 
----
+An XDA user post citing Vietnam’s Circular 77/2025 says that, from March 1, mobile banking apps must stop when they detect debuggers, emulators, Android Debug Bridge, runtime hooks, repackaging, root or jailbreak status, or an unlocked bootloader. HN discussion frames this as a conflict between fraud prevention and ownership of general-purpose computers. Critics say signed but outdated phones may pass while secure alternative operating systems fail; defenders view hardware-backed integrity as another layer against account takeover and manipulation.
 
 ### Comment pulse
-- This is digital disenfranchisement → Rooted/custom devices become “unbankable,” turning phones into locked agents for states and banks—counterpoint: banks must satisfy blunt, liability-driven regulations.  
-- Security value is disputed → Modern malware often avoids root; signed but unpatched stock ROMs stay “trusted” while hardened custom ROMs are blocked; better: risk-based limits and real 2FA.  
-- Users adapt pragmatically → Some already run a clean iPhone/Android solely for banking plus a rooted/privacy phone; others retreat to web banking with hardware tokens where still allowed.
 
----
+- Ownership critique → requiring vendor-approved software turns users into adversaries on their own hardware and can exclude custom-ROM owners from essential services.
+- Security critique → attestation may approve vulnerable stock firmware while rejecting patched alternatives — counterpoint: banks face persistent fraud and account takeover.
+- Access workaround → commenters anticipate separate locked-down phones, desktop banking, or hardware tokens, though app-only authentication is spreading.
 
 ### LLM perspective
-- View: This accelerates the split between “institution-approved” devices and genuinely user-controlled computers, especially in finance and government services.  
-- Impact: Custom ROMs and rooting move further to hobbyist and research niches; mainstream users lose incentives to learn low-level system control.  
-- Watch next: Whether regulators formally mandate mobile-only, attested access, or leave room for alternatives like PC banking, FIDO2 tokens, and regulated open platforms.
+
+- View: Device integrity checks reduce one risk class by transferring control and compatibility costs to customers.
+- Impact: Rooted-device users, custom-ROM communities, banks, and low-income customers with older phones bear the immediate trade-offs.
+- Watch next: Measure fraud reduction, false rejections, web-banking availability, supported-device lifetimes, and whether risk-tiered access emerges.

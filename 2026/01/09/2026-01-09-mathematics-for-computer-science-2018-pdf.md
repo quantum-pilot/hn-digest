@@ -3,18 +3,17 @@
 - Score: 365 | [HN](https://news.ycombinator.com/item?id=46550895) | Link: https://courses.csail.mit.edu/6.042/spring18/mcs.pdf
 
 ### TL;DR
-MIT’s free “Mathematics for Computer Science” textbook is a rigorous discrete math and proof course for computer scientists, covering logic, induction, graph theory, probability, and program verification. The excerpt shows its pedagogical style: starting from what proofs are, the axiomatic method, proof templates (implication, iff, contradiction, cases, well-ordering), and their role in certifying software/hardware correctness. HN readers praise the book’s depth, humor, and exercises, share associated MIT lecture series, and discuss complementary “must‑read” CS texts and missing topics like type/category theory.
 
----
+This Creative Commons textbook presents the discrete mathematics used to analyze computer-science problems, treating proof as essential for understanding and certifying software and hardware beyond what testing can guarantee. Its five parts progress through proof techniques and mathematical data types; number theory, graphs, and networks; counting and generating functions; probability and random walks; and recurrences including merge sort. HN readers praised its wit, citation back-references, lectures, and Monty Hall treatment, while describing it as demanding and noting that type theory and category theory are outside its scope.
 
 ### Comment pulse
-- This book is a favorite discrete math text → rigorous, witty MIT style, tough but enlightening; probability and Monty Hall treatment especially praised.  
-- Rich ecosystem of resources → Leighton and Meyer lecture series, OCW, and openlearninglibrary courses closely follow the book.  
-- On “top CS books” → people offer broad reading lists and teachyourselfcs-style curricula—counterpoint: no universal top‑5; depends heavily on interests and subfield.
 
----
+- Difficulty is rewarding → readers report gaining durable insights despite needing substantial effort to work through the material.
+- The course ecosystem adds value → lectures by the authors provide alternative pacing and explanation.
+- No short CS canon is universal → useful books depend on goals, and even broad lists omit major areas.
 
 ### LLM perspective
-- View: This is an excellent primary text for learning proof-based discrete math tailored to CS applications and program correctness.  
-- Impact: Strongly benefits self-learners and curricula lacking rigorous math-for-CS foundations; bridges math, algorithms, and verification.  
-- Watch next: Pair with materials on type/category theory and formal methods, and track any updated editions or successor courses post‑2018.
+
+- View: Its strength is connecting rigorous proof methods to concrete computing structures, not cataloging every mathematical subfield.
+- Impact: Self-learners gain foundations for algorithms, verification, cryptography, networks, and probability, but should expect sustained practice.
+- Watch next: Updated editions or courses, exercise support, and complementary material on type theory and category theory.

@@ -3,18 +3,17 @@
 - Score: 375 | [HN](https://news.ycombinator.com/item?id=46556210) | Link: https://lend-me-your-ears.specr.net
 
 ### TL;DR
-A Hacker News user built a browser-based memory game to train playing piano by ear: it plays a melody, shows notation, and you repeat it on a MIDI/virtual keyboard as sequences get longer. Commenters like the core idea and technical execution but argue it tilts too much toward raw memory as note counts grow. They request a “free play” mode, better difficulty controls, tighter usable pitch range, and computer-keyboard/on-screen input to make ear training more focused and accessible.
 
----
+The supplied page text is sparse because this is an interactive ear-training game: users listen to note sequences, reproduce them on an on-screen piano, MIDI keyboard, or microphone-enabled instrument, and can use metronome, mode, and settings controls. HN testers liked the concept but wanted room to experiment before submitting, keyboard mappings, fixed difficulty, tempo controls, and more musical phrase generation. The creator reported several updates and acknowledged that the tool supplements rather than replaces instruction in technique, ergonomics, and musical context.
 
 ### Comment pulse
-- Ear training vs interruption → Users want a sandbox mode: freely noodle, then explicitly submit, instead of instant “wrong” feedback blocking experimentation.
-- Input and ergonomics → Suggestions for QWERTY piano layouts, on‑screen keys, and avoiding extreme registers that are hard to read and less useful for training.
-- Difficulty design → Requests to cap/freeze note length and avoid full replay after one mistake, so it trains intervals/melodies rather than long-sequence memory.
 
----
+- Practice flow → players want a noodling phase and locked difficulty so mistakes teach pitch instead of repeatedly resetting longer sequences.
+- Input accessibility → commenters request Ableton or tracker keyboard layouts alongside MIDI, microphone, and on-screen keys.
+- Pedagogy → ear imitation builds useful recognition, but teachers still provide technique, fingering, terminology, and context.
 
 ### LLM perspective
-- View: Treat this as an interval/motif trainer, then layer sequence length gradually, with explicit modes: ear, memory, and reading.
-- Impact: Beginners and self-taught players gain structured, game-like aural practice that complements but doesn’t replace a human teacher.
-- Watch next: Add presets (ranges, lengths), data on user error patterns, and algorithmic melody generation tuned for musicality, not just randomness.
+
+- View: Immediate experimentation matters more than scoring when the goal is building an ear-to-hand mapping.
+- Impact: Beginners without MIDI hardware benefit most from flexible keyboard input and adjustable progression.
+- Watch next: Test noodling mode, coherent melody generation, iPhone audio fixes, and retention across practice lengths.

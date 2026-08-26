@@ -2,15 +2,18 @@
 
 - Score: 257 | [HN](https://news.ycombinator.com/item?id=46557233) | Link: https://www.sciencedaily.com/releases/2026/01/260107225516.htm
 
-- TL;DR  
-  - An updated Cochrane review of 73 randomized trials (~5,000 adults) finds regular light‑to‑moderate exercise moderately reduces depressive symptoms versus no treatment, and performs about as well as psychotherapy and possibly antidepressants, with few side effects. Mixed and resistance-focused programs over 13–36 sessions work best; long‑term durability remains unclear and effect sizes may be only borderline clinically meaningful. Hacker News commenters stress motivation barriers in depression, risks of overtraining, and the value of combining exercise with therapy, medication, and other lifestyle changes.
+### TL;DR
 
-- Comment pulse  
-  - Exercise helps many but depression kills motivation; routines and early intervention matter, yet some report no benefit and rely on medication instead.  
-  - Readers advocate a multi-pronged plan—exercise, therapy, sleep, diet—warning that using heavy training alone to outrun depression can cause burnout and abrupt crashes.  
-  - Statisticians question standardized effect sizes’ clinical meaning and note weak antidepressant averages; exercise might be similarly borderline—counterpoint: even modest, low-risk gains can justify trying it.
+An updated Cochrane review covering 73 randomized trials and nearly 5,000 adults found exercise moderately reduced depressive symptoms versus control and performed similarly to psychotherapy on moderate-certainty evidence. Comparisons with antidepressants also looked similar, but evidence was lower certainty. Light-to-moderate activity, mixed programs, resistance training, and 13–36 sessions appeared promising; long-term effects remain unclear because trials were small and follow-up sparse. HN emphasized that depression can block exercise itself and that medication, therapy, routines, and exercise often work best as complementary options.
 
-- LLM perspective  
-  - View: Exercise looks like a viable first-line or adjunct option, but not a replacement for individualized psychiatric care.  
-  - Impact: Clinicians may increasingly prescribe structured activity programs, yet still need to assess severity, safety, and patient preferences carefully.  
-  - Watch next: Large, preregistered trials reporting minimal clinically important differences and long-term relapse rates for different exercise types and intensities.
+### Comment pulse
+
+- Access is the paradox → depression can remove the motivation needed to begin or maintain exercise.
+- Statistical significance may not equal clinical benefit → commenters questioned whether standardized effect sizes produce noticeable improvement.
+- Individual responses vary → some need medication before lifestyle changes become possible, while others benefit from established routines.
+
+### LLM perspective
+
+- View: Exercise is a credible treatment component, not a universal substitute for professional care.
+- Impact: Patients and clinicians gain a low-cost option that also improves physical health, but adherence remains difficult.
+- Watch next: Larger trials, clinically meaningful outcome thresholds, long-term follow-up, and comparisons among exercise formats.

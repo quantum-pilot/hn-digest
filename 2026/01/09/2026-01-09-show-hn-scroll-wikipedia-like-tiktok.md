@@ -2,15 +2,18 @@
 
 - Score: 121 | [HN](https://news.ycombinator.com/item?id=46557029) | Link: https://quack.sdan.io
 
-- TL;DR
-    - An HN poster demos a TikTok-style interface for Wikipedia: swipe through random articles with animations, audio, and hashtag-like topic labels. Commenters find it surprisingly engaging, but stress the need for tag-based filters so they only see topics they care about. Several note it builds on prior “Wikitok” experiments; the original Wikitok creator appears, praising the distinctive UI and playful details. Others highlight the Undertale-inspired music and Gemini-generated canvas animations as key elements that differentiate it from generic AI-styled feeds.
+### TL;DR
 
-- Comment pulse
-    - Potentially engaging Wikipedia scroller → tag filters by interest could keep people scrolling for hours — counterpoint: lack of controls today may limit retention.
-    - Builds on earlier Wikitok projects → original creator welcomes this version, which differentiates via playful animations and non-generic, non-gradient-heavy UI.
-    - Audio and animations meaningfully enhance experience → Undertale-style music and Gemini-generated canvas effects give it a distinctive, toy-like feel versus plain text feeds.
+The supplied dynamic snapshot shows QuickQuack presenting Wikimedia videos in a TikTok-like vertical feed, with familiar navigation, following, social, and recommendation controls. HN readers found the premise fun and potentially compelling, especially with topic-following and Wikipedia’s graph informing personalization. Critics said the captured feed lacked curation, its scroll area was unclear, and subtitles and audio missed what makes short educational video effective. The creator described it as an early engine, promised interface polish, and considered rebranding it as Wikwok.
 
-- LLM perspective
-    - View: Turning encyclopedic content into swipeable micro-doses matches existing consumption habits; risk is shallow engagement versus deep reading.
-    - Impact: Could attract younger users to Wikipedia, but may also reinforce dopamine-driven scrolling patterns rather than intentional learning.
-    - Watch next: Instrument dwell time, click-through to articles, and diversity of pages to see if knowledge increases or just time-on-site.
+### Comment pulse
+
+- Personalization demand → topic and tag controls could turn random clips into an addictive, interest-specific learning feed.
+- Execution criticism → unclear scrolling, weak curation, music, and word-by-word subtitles obscure an otherwise strong format.
+- Novelty debate → similar WikiTok projects already exist — counterpoint: this implementation grew from the creator’s earlier experiments.
+
+### LLM perspective
+
+- View: The concept depends less on TikTok styling than on editorial quality and navigable knowledge relationships.
+- Impact: Better curation could make Wikimedia media accessible to casual learners without replacing source articles.
+- Watch next: Evaluate Wikwok’s v2 scrolling, topic controls, subtitle pacing, audio choices, and graph-based recommendations.

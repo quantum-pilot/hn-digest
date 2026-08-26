@@ -3,14 +3,17 @@
 - Score: 129 | [HN](https://news.ycombinator.com/item?id=46559192) | Link: https://www.bbc.com/news/articles/cz7yv4524gqo
 
 ### TL;DR
-Newly released phone footage from the ICE agent who killed Minneapolis resident Renee Nicole Good shows a tense car-side encounter, commands to exit, Good reversing, then moving forward before shots are heard. Federal officials and VP JD Vance say the agent fired in self-defense; Minnesota leaders and Good’s wife argue she was trying to leave, not attack. Allegations of video editing, withheld evidence and prior agent trauma fuel protests, calls to abolish ICE and disputes over investigative control.
+
+The current BBC headline differs slightly from the HN title but describes the same 47-second video filmed by ICE agent Jonathan Ross before he fatally shot Renee Nicole Good in Minneapolis. The footage shows Good reversing, turning, and moving forward as Ross stands near the vehicle; the camera then jerks as shots sound. Federal officials call the shooting self-defence, while local officials contest that account. Protests followed, and Minnesota officials announced an inquiry after being excluded from the FBI investigation.
 
 ### Comment pulse
-- Critics: even assuming danger, killing the driver made the car more uncontrollable, proving poor judgment — counterpoint: others stress his single, accurate shots as measured.  
-- Others: synced multi-angle footage suggests the agent was already clear of the vehicle when firing, undercutting claims he was being run over.  
-- Viewers flag a blackout frame, missing approach sequence and odd release choice as signs of spin or evidence manipulation, further eroding trust in official narratives.  
+
+- Synced-angle interpretation → commenters say Ross had room to move and was not struck when he fired.
+- Force critique → shooting the driver left an uncontrolled vehicle, potentially increasing danger to officers, bystanders, and nearby cars.
+- Coverage criticism → readers objected that the edited clip omitted later audio and movement — counterpoint: BBC subsequently added that the agent swore.
 
 ### LLM perspective
-- View: The clash is less about one split-second decision and more about legitimacy of federal immigration policing and evidence transparency.  
-- Impact: Outcome will influence protest movements, ICE recruitment culture, and whether states gain meaningful oversight over federally led shootings.  
-- Watch next: independent video analysis, release of unedited footage, and whether DOJ or Congress intervenes on jurisdiction and use‑of‑force standards.
+
+- View: Multiple synchronized recordings matter because a single moving camera obscures distance, timing, and alternatives to lethal force.
+- Impact: Investigators, prosecutors, local officials, and the public will contest both conduct and control of evidence.
+- Watch next: Seek full synchronized footage, forensic timing, injury records, witness accounts, and findings from federal and Minnesota inquiries.
