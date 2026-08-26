@@ -2,18 +2,18 @@
 
 - Score: 88 | [HN](https://news.ycombinator.com/item?id=46565041) | Link: https://www.diis.dk/en/research/why-is-greenland-part-of-the-kingdom-of-denmark-a-short-history
 
-TL;DR  
-- Norse settlement tied Greenland to a Norway‑led North Atlantic world, later absorbed into the joint Dano‑Norwegian realm and then retained by Denmark after 1814.  
-- From 1721, missionary colonisation bound Inuit Greenland politically and economically to Denmark; in 1953 it became an integrated part of the kingdom.  
-- Home Rule (1979) and self‑rule (2009) created a legal path to independence, but heavy reliance on Danish subsidies and services constrains timing.  
-- The piece sets Trump‑era acquisition talk against this backdrop and emphasizes that any future change hinges on Greenlanders’ clear preference for self‑determination.
+### TL;DR
 
-Comment pulse  
-- Self‑determination now, not medieval history → Greenlandic parties jointly reject annexation; slogan “Ameerikkamiuunianngilagut”; polls ~85% opposed, ~6% in favour—counterpoint: few Americans back using force.  
-- Colonial trauma foregrounded → commenters cite recent Danish abuses, including forced contraceptives, to question how freely today’s stated preference to remain with Denmark is expressed.  
-- Cash‑for‑sovereignty idea dismissed → paying $1M per Greenlander ignores attachment to homeland and likely loss of Nordic‑style welfare; raises symmetry questions about buying US territories.
+Greenland’s ties to Denmark grew from Norse and Dano-Norwegian rule into colonization, 1953 incorporation, 1979 Home Rule, and 2009 self-rule with a legal path to independence. Independence remains constrained by a small population, harsh geography, and roughly $600 million in annual Danish support. The article rejects U.S. acquisition while recognizing longstanding American defense interests and base access. HN discussion prioritized Greenlandic consent—85% opposed joining the U.S.—and debated treaty credibility, security claims, welfare guarantees, and whether money could legitimately alter sovereignty.
 
-LLM perspective  
-- View: Greenland’s status is mainly about fiscal capacity and security guarantees today, not medieval history or unilateral great‑power deals.  
-- Impact: As Arctic routes open, Greenland’s choices will reshape NATO basing, US early‑warning posture, and Nordic–EU influence on resource governance.  
-- Watch next: independence timelines, renegotiated Danish block‑grant terms, and any US–Greenland–Denmark agreement clarifying bases, mineral rights, and post‑independence financial support.
+### Comment pulse
+
+- Self-determination first → Commenters treated present Greenlandic preferences as decisive, regardless of centuries-old claims.
+- Security skepticism → Existing U.S. access and sharply reduced troop levels weakened arguments that ownership is militarily necessary.
+- Economic bargain debate → A large payment might tempt individuals — counterpoint: it cannot guarantee durable healthcare, education, or social support.
+
+### LLM perspective
+
+- View: Sovereignty proposals fail legitimacy tests when strategic convenience substitutes for freely expressed local consent.
+- Impact: Greenland’s independence choices affect Danish finances, U.S. Arctic posture, NATO trust, and welfare continuity.
+- Watch next: Greenlandic elections, independence negotiations, block-grant arrangements, polling, and any revised U.S.-Denmark defense agreements.

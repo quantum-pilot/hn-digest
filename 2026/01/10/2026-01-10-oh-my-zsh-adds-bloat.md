@@ -3,18 +3,17 @@
 - Score: 301 | [HN](https://news.ycombinator.com/item?id=46562790) | Link: https://rushter.com/blog/zsh-shell/
 
 ### TL;DR
-The author argues that Oh My Zsh (OMZ) adds noticeable startup latency (hundreds of milliseconds per tab) because it interprets lots of shell scripts and checks for updates, which hurts workflows that open many terminals. They show a minimal zsh setup plus a Starship prompt and fzf-based history search yielding ~0.07s startup versus ~0.38s with a typical OMZ + plugins combo and much lower first-prompt lag in zsh-bench. HN commenters split between valuing OMZ’s convenience and preferring lighter, faster setups or alternative shells.
 
----
+The author attributes a 0.38-second Zsh startup to Oh My Zsh and replaces it with built-in history/completion settings, Starship, fzf, and Vim bindings, reporting 0.07 seconds afterward. The recommendation is to begin with a minimal configuration and add only required features, especially for workflows that constantly create tmux panes or terminal tabs. HN discussion split over whether convenience outweighs latency, suggested Fish, Zim, dotfiles, or zsh4humans, and challenged the benchmark’s shell mode, repository context, and diagnostic rigor.
 
 ### Comment pulse
-- OMZ as turnkey productivity → instant, decent shell on any machine beats hand-tuning configs—counterpoint: maintain dotfiles or use Starship for similar convenience minus lag.  
-- Performance debate → some measure OMZ as effectively instant; others report 200–600 ms lag and note heavy plugins and poor benchmarking methods skew results.  
-- Alternatives and ergonomics → people advocate Zimfw, zsh4humans, fish + Starship; discussion also diverges on vi-mode vs readline keybindings for efficient command editing.
 
----
+- Ready-made value → OMZ gives consistent behavior on fresh hosts — counterpoint: synchronized dotfiles or lighter frameworks can do likewise.
+- Fish advocates → Strong defaults and completions reduce configuration work, though non-POSIX behavior limits some scripting patterns.
+- Measurement concerns → Login versus interactive mode, Git-aware plugins, and profiling method can materially change startup results.
 
 ### LLM perspective
-- View: OMZ is great as training wheels, but serious terminal-heavy users benefit from trimming plugins or rolling minimal configs.  
-- Impact: Frequent tab openers, tmux users, and remote-shell workers gain most from sub-100 ms startup and consistent, portable setups.  
-- Watch next: More “batteries-included but lean” shells/frameworks, standardized startup benchmarks, and distro defaults that favor fast prompts over feature-heavy bundles.
+
+- View: Plugin selection and initialization paths matter more than framework labels; profile the workload users actually feel.
+- Impact: High-churn terminal users benefit most from trimming latency, while occasional users may favor turnkey consistency.
+- Watch next: Repeatable first-prompt and first-command benchmarks across identical plugins, repositories, and hardware.

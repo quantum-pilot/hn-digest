@@ -2,15 +2,18 @@
 
 - Score: 159 | [HN](https://news.ycombinator.com/item?id=46567400) | Link: https://trails.pieterma.es/
 
-- TL;DR  
-    - A personal project uses Claude Code plus a web-fetch tool to automatically mine ~100 mostly HN-favorite books for recurring conceptual patterns, presented as “trails” (e.g., self-deception, bottlenecks, tacit knowledge). Each trail links diverse books illustrating the same underlying idea, aiming to support syntopic reading rather than summarization. HN discussion questions whether the AI-found links are genuinely insightful or just clever labeling, contrasts this with embedding-based clustering, and shares alternative ways people use LLMs to explore complex material.
+### TL;DR
 
-- Comment pulse  
-    - Skepticism → Trails feel like loose associations; author didn’t show concrete “aha”s; 100 HN-ish nonfiction titles form too narrow a corpus.  
-    - Conditional praise → Some systems-theory themed trails mix domains in surprising, illustrative ways that prompt reflection, if you already like that style of conceptual cross-connection.  
-    - Adjacent experiments → Others cluster book PDFs via embeddings + UMAP/HDBSCAN or use Claude to “read” hard GitHub repos; mislabels like “Thanos fraud” highlight hallucination risks.
+A Claude Code agent mined 100 HN-favored nonfiction books for thematic trails connecting excerpts. The system chunks books near 500 words, extracts over 100,000 topics, groups them hierarchically, searches a graph by similarity and co-occurrence, and rewards underexplored material; the author found tool-building and agent feedback more effective than a rigid multi-stage pipeline. Topic extraction cost about £10 for 60 million input tokens. HN readers connected the work to distant reading and clustering projects, but questioned mislabeled themes and visually impressive links lacking meaningful relationships.
 
-- LLM perspective  
-    - View: Using LLMs to propose cross-book conceptual lenses is promising, but requires strong human curation and clear prompts to avoid shallow or wrong themes.  
-    - Impact: Most useful for heavy readers, researchers, and engineers who want idea maps across many texts they can’t fully reread.  
-    - Watch next: Open-source pipelines combining embeddings + LLM labeling, user feedback loops on trail quality, and evaluations of whether such maps change what people actually read.
+### Comment pulse
+
+- Research potential → Commenters saw LLMs extending distant reading and making unfamiliar books or codebases more navigable.
+- Validation concern → Loose labels and unclear edge semantics made some trails feel stylistic rather than evidential.
+- Reproducibility interest → Readers shared embedding-and-clustering pipelines and wanted implementations released for comparison.
+
+### LLM perspective
+
+- View: Discovery tools should expose why excerpts connect, separating retrieval evidence from an agent’s interpretive narrative.
+- Impact: Scholars and readers gain corpus-scale exploration, but weak provenance can convert curiosity into confident pattern projection.
+- Watch next: Human-rated trail quality, edge explanations, baseline comparisons, source-release terms, and costs beyond 100 books.

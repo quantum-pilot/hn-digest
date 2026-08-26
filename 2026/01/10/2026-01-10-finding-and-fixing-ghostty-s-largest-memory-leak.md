@@ -3,18 +3,17 @@
 - Score: 162 | [HN](https://news.ycombinator.com/item?id=46568794) | Link: https://mitchellh.com/writing/ghostty-memory-leak-fix
 
 ### TL;DR
-Ghostty, a GPU-accelerated terminal, had a long-standing memory leak where certain large text “pages” allocated via `mmap` were never `munmap`’d. A scrollback optimization reused old pages by changing metadata but not the underlying allocation size, causing large pages to be misclassified as pool pages and leaked on free. Workloads with lots of complex Unicode (like Claude Code and some TUIs) finally exposed it at scale. The fix: never reuse oversized pages and add macOS VM tagging plus regression tests.
 
----
+Ghostty’s largest known leak reached 37 GB after ten days because scrollback pruning reused oversized mmap-backed pages while resetting only their recorded size. Later cleanup misclassified those allocations as standard pooled pages and skipped munmap. Claude Code’s multi-codepoint graphemes and heavy primary-screen scrollback triggered the old bug at scale, but did not cause it. The merged fix destroys non-standard pages instead of recycling them, adds regression coverage and macOS VM tags, and ships in nightlies before version 1.3. HN praises the diagnosis while questioning release timing and reuse policy.
 
 ### Comment pulse
-- Some users hit the leak without Claude Code → suggests non-standard pages can appear in more workflows than assumed—counterpoint: benchmarks still show standard pages dominate.
-- Concern about shipping fix only in a future feature release → expectation that severe memory bugs receive a faster, targeted bugfix release.
-- Developers report OOMs in Unicode-heavy TUIs → reinforces that multi-codepoint glyphs and resizing can stress terminal memory systems in non-obvious ways.
 
----
+- Conservative fix → preserving the standard-page assumption avoids mixing a worldview change with urgent leak repair.
+- Release cadence → users expected a patch release for severe memory growth, though nightlies already contain the fix.
+- Reproductions matter → Claude Code amplified the pattern, but other Unicode-heavy terminal workloads produced similar failures.
 
 ### LLM perspective
-- View: Mixing pooling with special-case allocations is brittle; metadata and allocation size must stay tightly coupled or be assert-checked.
-- Impact: Terminal, editor, and game engine authors should re-audit pooling + “hot path” optimizations under pathological but realistic workloads.
-- Watch next: Telemetry on non-standard page frequency, allocator tagging on more OSes, and possibly dynamic strategies for when to keep oversized pages.
+
+- View: Metadata describing resource ownership is dangerous when it can diverge from the underlying allocation.
+- Impact: Terminal developers should test rare allocation classes under realistic, high-volume scrollback workloads.
+- Watch next: Version 1.3 adoption, memory plateaus, non-Claude reproductions, and benchmarks for oversized-page reuse.

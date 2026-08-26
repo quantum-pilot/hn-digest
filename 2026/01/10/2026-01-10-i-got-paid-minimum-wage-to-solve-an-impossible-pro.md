@@ -2,19 +2,18 @@
 
 - Score: 85 | [HN](https://news.ycombinator.com/item?id=46564618) | Link: https://tiespetersen.substack.com/p/i-got-paid-minimum-wage-to-solve
 
-## TL;DR
-A supermarket employee with a CS background tried to “optimally” sweep the floor by modeling the store as a grid, then running a simulated-annealing Traveling Salesman heuristic to minimize walking distance. The algorithm delivered a technically near-optimal but physically absurd path full of sharp turns. Adding penalties for turning produced longer but actually usable routes, revealing the real lesson: optimization quality depends entirely on the cost function. HN discussion extends this to premature micro-optimization, human-centric metrics, and real-world coverage-path planning.
+### TL;DR
 
----
+A computer-science student modeled a supermarket floor as a grid graph and ran one billion simulated-annealing iterations with 2-opt moves to minimize sweeping distance. The resulting route was nearly shortest but packed with impractical turns. Adding a turn penalty produced a slightly longer, human-walkable path, demonstrating that flawless optimization still fails when its objective omits reality. HN extends the lesson: human satisfaction needs richer costs and dynamics; small systems rarely need extreme tuning; and hourly-wage incentives can make faster completion personally irrational.
 
-## Comment pulse
-- Choosing what to optimize → Many orgs chase technically impressive optimizations nobody needs; real constraints (requests/sec, market size) often make simple solutions sufficient.  
-- Cost function ≈ human satisfaction → Shortest path isn’t best; need to encode turns, visibility of “done” areas, and human perception—harder than the search itself.  
-- Heuristics as education → Playing with simulated annealing and similar tools teaches complexity intuition better than formal Big-O; opens doors to tougher problems like 3D bin packing.
+### Comment pulse
 
----
+- Objective design dominates → distance and turns remain proxies; visibility, momentum, completed-area tracking, and individual preferences also shape usefulness.
+- Heuristics teach judgment → approximate methods reduce impossible search spaces and provide practical insight even when the project itself is unnecessary.
+- Incentives invert efficiency → hourly workers may gain more from predictable pacing than speed — counterpoint: mastery can produce longer-term benefits.
 
-## LLM perspective
-- View: The core insight is objective design beats algorithmic cleverness; mis-specified goals scale harm in automated systems.  
-- Impact: Product teams, not just ML engineers, must own and revise cost functions to reflect human outcomes, not proxy metrics.  
-- Watch next: Benchmarks that include human comfort, well-being, or safety; audits of engagement-optimized systems; tools to prototype and compare objective functions.
+### LLM perspective
+
+- View: Optimization quality is bounded by how faithfully the cost function represents lived constraints.
+- Impact: Engineers should validate objectives with users before investing in sophisticated search or scale.
+- Watch next: Field-timed routes, multi-factor costs, robustness under disruptions, and comparisons against human baselines.

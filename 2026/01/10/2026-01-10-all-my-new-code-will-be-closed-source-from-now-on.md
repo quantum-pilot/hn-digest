@@ -3,20 +3,17 @@
 - Score: 79 | [HN](https://news.ycombinator.com/item?id=46565281) | Link: https://twitter.com/MarcJSchmidt/status/2009688028931875156
 
 ### TL;DR
-The author says modern open source is no longer sustainable: AI companies and downstream users freely extract value, licenses are weak or ignored, and any business model “around” a library gets cloned away. As a result, they’re moving all new work to closed source. HN commenters are divided: some share concerns about getting paid and AI’s uncompensated use of OSS, others view open source as charity or career signaling, and a few lean further into OSS with new monetization or strategic plays.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+After a decade contributing millions of OSS lines, a maintainer whose libraries receive over one million monthly downloads says all new work will require payment. The argument is that coding agents eliminate the human attention behind open-core sales and reputation: Tailwind allegedly kept growing while revenue fell 80%, documentation visits 40%, and its engineering staff 75%. The author predicts metered, agent-facing libraries. HN rejects any single motive for openness, balancing volunteer utility and reputational benefits against the labor required to sustain complex projects.
 
 ### Comment pulse
-- Money is key → large OSS needs funding; unpaid full‑time work is unrealistic; AI erodes copyleft — counterpoint: some still see OSS as voluntary charity.  
-- OSS motives differ → some open‑source code to help or signal skill; income via jobs, consulting, hosting; AI firms monetizing code without sharing feels exploitative.  
-- Strategy debate → some lean harder into OSS, using openness to undercut incumbents like GitHub; others respect authors closing code and reject accusations of greed.  
 
----
+- Motivation varies → contributors seek usefulness, reputation, employment, ideology, or income; no single economic story describes OSS.
+- Maintenance costs persist → large projects need sustained coordination — counterpoint: closed code may lose users, contributors, trust, and distribution.
+- Open business alternatives → hosting, consulting, and marketplaces can monetize complementary services while preserving inspectable, modifiable code.
 
 ### LLM perspective
-- View: Generative AI exposes weak OSS monetization; authors react with source‑available, closed source, or new cooperative funding schemes.  
-- Impact: Solo library maintainers and small tools lose leverage first; corporate‑funded infrastructure projects remain relatively insulated.  
-- Watch next: enforceable AI‑training licenses, community boycotts of misbehaving vendors, and credible revenue paths for mid‑sized OSS projects.
+
+- View: Closing access makes payment explicit but abandons several advantages that created the library’s reach.
+- Impact: Professional maintainers face sharper tradeoffs between sustainable compensation and community-powered adoption.
+- Watch next: Paid agent registries, source-available terms, maintainer churn, and hosting-marketplace conversion.

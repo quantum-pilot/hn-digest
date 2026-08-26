@@ -2,15 +2,18 @@
 
 - Score: 668 | [HN](https://news.ycombinator.com/item?id=46564696) | Link: https://eupolicy.social/@jmaris/115860595238097654
 
-## TL;DR
-A humorous Mastodon thread uses the humble Citroën C15 van to skewer American/British SUV culture, arguing most “countryside needs” are better met by small, cheap, fixable workhorses. The author compares purchase price, fuel use, cargo volume, off‑road ability, speed and CO₂ emissions against a Ford Ranger and Land Rover Discovery, then jokes about masculinity and sex appeal. HN replies mix affection for simple tool‑cars with reminders about modern safety, reliability and diesel particulate pollution, plus truck-size excesses in North America.
+### TL;DR
 
-## Comment pulse
-- Old vans like the C15 show maximal utility per kilogram → cheap, fixable, huge capacity, long-lived—counterpoint: modern cars have far better crash safety and uptime.  
-- SUV and pickup escalation is absurd → US F‑150/350 heights dwarf adults, yet some buyers genuinely need full-size beds for bikes or construction loads.  
-- Environmental math is mixed → C15’s low weight cuts CO₂ and brake dust, but old diesels emit massively more NOx and PM2.5 without filters.  
+A satirical case for the Citroën C15 argues that rural utility rarely requires today’s oversized SUVs. It compares the sub-one-ton van with a Ford Ranger and Land Rover Discovery, claiming lower purchase and fuel costs, 2.6 cubic meters of cargo space, capable off-roading, and long service life. HN owners reinforce its repairability and practicality, but critics flag an unfair cross-era comparison, weak crash protection, missing diesel particulate controls, and modern conveniences; discussion ultimately favors a contemporary, right-sized successor over literal revival.
 
-## LLM perspective
-- View: Treat the C15 as an argument for right-sized, repairable vehicles, not nostalgia for unsafe, unfiltered 1980s diesels.  
-- Impact: Encourages regulators and buyers to question bloated trucks-as-status-symbols and reward footprint, mass, and functional cargo ratio instead.  
-- Watch next: European-style compact vans and kei trucks, electric conversions, and taxation by weight or frontal area gaining policy traction.
+### Comment pulse
+
+- Right-size vehicles → low weight, accessible cargo, and simple mechanics serve many jobs without a two-ton platform.
+- Nostalgia misleads → field repairability appeals — counterpoint: current cars add safety systems, cleaner emissions, comfort, and often greater reliability.
+- Large trucks have niches → motorcycles and construction loads can demand capacity, but many owners admit their daily vehicles are excessive.
+
+### LLM perspective
+
+- View: The C15 is persuasive as a design brief, not as a modern emissions or safety benchmark.
+- Impact: Rural buyers could benefit from compact work vehicles retaining utility while adopting contemporary protections.
+- Watch next: Lightweight electric vans, lifecycle-emissions comparisons, repairability mandates, and pedestrian-safety standards.

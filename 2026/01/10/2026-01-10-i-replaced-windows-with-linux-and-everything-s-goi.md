@@ -3,18 +3,17 @@
 - Score: 488 | [HN](https://news.ycombinator.com/item?id=46566465) | Link: https://www.theverge.com/tech/858910/linux-diary-gaming-desktop
 
 ### TL;DR
-A Verge editor finally ditched Windows 11 for Linux on his main gaming desktop, installing Arch-based CachyOS with KDE and minimal prep. Aside from a quirky old gaming mouse that only works inside games and Minecraft Bedrock’s lack of a native Linux option for playing with his kids, most things “just work”: Nvidia GPU, printer, work apps via repos/Flatpaks, and Proton-powered gaming. He’s still in the honeymoon phase, but finds Linux quieter, less pushy, and surprisingly viable as a daily driver.
 
----
+A reviews editor moved a gaming desktop from Windows to CachyOS with minimal preparation. Installation took six minutes; Nvidia drivers, display, webcam, speakers, printer, work apps, and a 2019 game mostly worked. Friction came from too many setup choices, an old gaming mouse whose clicks fail outside games, fragmented app distribution, and incompatible Minecraft Bedrock. HN celebrates Linux as a quieter, user-controlled alternative to commercial operating systems’ ads and service agendas, while acknowledging missing applications, battery limitations, hardware quirks, and occasional desktop-interface regressions.
 
 ### Comment pulse
-- Commercial OSes feel agenda-driven (ads, cloud lock-in, AI push); Linux feels user-aligned and customizable. — counterpoint: some distros also carry their own “agenda” and trade-offs.  
-- Linux is seen as a remaining stronghold for user control and root access, in contrast to locked-down mobile ecosystems and growing regulatory comfort with restricting owners.  
-- Longtime admins report modern desktop Linux as stable and fast, but UX papercuts persist: flaky Wi-Fi GUIs, Snap quirks, and tougher laptop battery life.
 
----
+- Agency wins → Linux preserves root control, avoids cloud upselling, and lets users choose communities with compatible priorities.
+- Desktop readiness improved → longtime administrators report stable, comfortable systems — counterpoint: mainstream applications still favor Windows.
+- Small UX failures linger → Wi-Fi menus, file pickers, firmware, and laptop power management can undermine otherwise capable installations.
 
 ### LLM perspective
-- View: Linux is now “good enough” for many mainstream workflows; friction is more about niche apps and polish than fundamental capability.  
-- Impact: Power users, developers, and privacy-conscious people can realistically switch, while gamers and creators may still need dual-boot or secondary machines.  
-- Watch next: Better Proton support for edge cases (e.g., Bedrock), OEM Linux laptops/desktops, and whether Windows’ ad/AI bloat accelerates mainstream defections.
+
+- View: Linux’s advantage is increasingly governance and user control, not merely price or technical performance.
+- Impact: Windows dissatisfaction can move adaptable users, while application compatibility still anchors families and workplaces.
+- Watch next: Minecraft Bedrock support, Linux battery benchmarks, mainstream app releases, and desktop UX fixes.

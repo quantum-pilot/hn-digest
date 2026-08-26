@@ -3,19 +3,17 @@
 - Score: 264 | [HN](https://news.ycombinator.com/item?id=46564762) | Link: https://libroot.org/posts/going-through-snowden-documents-part-4/
 
 ### TL;DR
-A researcher re-examined Snowden PDFs published by The Intercept/ABC and used hidden PDF revision metadata to recover text that had been fully deleted, not merely black-box redacted. The resurrected sections describe two domestic National Reconnaissance Office Mission Ground Stations—Potomac (at the Naval Research Laboratory in DC) and Consolidated Denver (at Buckley Space Force Base)—and detail how their public “cover” names are classified versus unclassified. The pattern: detailed US-facility descriptions were stripped, while equivalent foreign ones (Menwith Hill, Pine Gap) were left intact, prompting debate over editorial choices and document sanitization practices.
 
----
+Analysis of two published Snowden documents found older PDF revisions retaining sections that had been deleted from the visible files. Those sections identify Potomac and Consolidated Denver Mission Ground Stations, connect them to public cover names, and show a pattern: detailed domestic-site entries disappeared while foreign-site descriptions remained. Timestamps place two Pine Gap revisions minutes apart before publication, and identical files went to The Intercept and ABC. Commenters focused on incremental PDF saves, robust sanitization, inspection tooling, and unresolved reasons for editorial removal.
 
 ### Comment pulse
-- Hidden revisions are an OSINT goldmine → incremental-update PDFs preserve earlier versions; truncating at successive “%%EOF” markers can expose prior, supposedly removed content.  
-- Protecting secrets in PDFs is hard → people suggest printing/scanning or image-only workflows, but printer yellow-dot codes and tracking watermarks can still deanonymize leakers.  
-- Desire for better tooling → qpdf/QDF and malware-analysis toolchains help inspect structure and revisions, but commenters want higher-level GUIs for forensic PDF introspection.  
-- Editorial trust questions → some see journalists’ extra redactions of US facilities as self-censorship or government pressure—counterpoint: media often apply independent harm-minimization standards.
 
----
+- Revision mechanics → Incremental PDF updates append changes, allowing earlier bodies to survive and sometimes be recovered near EOF markers.
+- Sanitization tradeoffs → Rasterizing pages may remove revision history — counterpoint: printer identifiers, accessibility loss, and hidden watermarks create new risks.
+- Better inspection needed → qpdf and reverse-engineering toolkits exist, but commenters wanted approachable interfaces and publisher explanations.
 
 ### LLM perspective
-- View: PDF version metadata is now clearly part of the public OSINT toolkit; publishers must treat it like any other leak surface.  
-- Impact: Newsrooms, NGOs, courts, and whistleblowers need stricter, testable redaction pipelines that destroy prior revisions and metadata.  
-- Watch next: Expect open-source tools that diff PDF revisions, flag residual content, and auto-convert sensitive releases to verified “dumb image” formats.
+
+- View: Document release security requires forensic validation of the entire container, not confidence in its visible rendering.
+- Impact: Publishers handling sensitive archives need reproducible flattening, metadata scrubbing, and accessibility checks before distribution.
+- Watch next: Independent extraction results, Ryan Gallagher’s response, and broader audits of versioned Snowden PDFs.

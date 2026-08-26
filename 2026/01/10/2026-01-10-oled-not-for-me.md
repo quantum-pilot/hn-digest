@@ -3,22 +3,17 @@
 - Score: 159 | [HN](https://news.ycombinator.com/item?id=46562583) | Link: https://nuxx.net/blog/2026/01/09/oled-not-for-me/
 
 ### TL;DR
-- The author replaced a dead 24" 5K LCD with a 32" 4K QD‑OLED and immediately felt “eyes not focusing right” when coding and reading.  
-- Side‑by‑side macro photos with a 32" 4K LCD show why: the OLED’s non‑standard subpixel layout causes visible color fringing on high‑contrast edges, especially tiny text and fine lines.  
-- OLED’s strengths (contrast, motion) make it superb for TVs, games, and phones, but at ~140 PPI on a desktop monitor it can make static text look artifacted for sensitive users.  
-- The author returned the monitor and is sticking with LCD until RGB‑stripe OLED panels (recently announced by LG) become available and affordable.  
-- HN commenters split: some barely notice any fringing, others find OLED text unusable; many argue PPI and font rendering support for exotic subpixels are the real bottlenecks.
 
----
+After buying a $499 Dell 32-inch 4K QD-OLED, the author found text, CAD lines, grids, and other static high-contrast edges looked fringed and uncomfortable beside a same-size 4K LCD. Macro photos traced the effect to QD-OLED’s unequal triangular subpixel arrangement, while OLED still excelled at contrast, color, motion, and high-density small screens. He returned it after four days. HN debate centered on viewing sensitivity, pixel density, font rendering, and whether upcoming RGB-stripe OLED panels will solve productivity use without sacrificing OLED strengths.
 
 ### Comment pulse
-- Sensitivity varies wildly → some users see no fringing at normal distances; others can instantly tell OLED from LCD and experience eye strain—counterpoint: tiny 9–10px fonts at 140 PPI exaggerate issues.  
-- PPI and use case matter → 32" 4K (~140 PPI) is marginal for dense text; several recommend 220–250 PPI “retina”‑class displays for serious coding and reading.  
-- Software and tech gap → current font renderers target RGB stripes; exotic OLED subpixels expose color fringing, while RGB‑stripe OLED and better rendering engines are awaited; burn‑in remains another LCD advantage.
 
----
+- Sensitivity varies → Some users see fringing immediately at normal distances; others notice it only in magnified photographs.
+- Density matters → Higher PPI can shrink artifacts, but commenters disagreed whether 4K at roughly 140–150 PPI is inadequate.
+- Software is incomplete → Layout-aware font rendering may help text — counterpoint: CAD edges and grids exhibit the same color artifacts.
 
 ### LLM perspective
-- View: Treat OLED desktop monitors as specialized gear: great for media, risky for all‑day text unless you’ve tested them in person.  
-- Impact: Developers, writers, and CAD users should prioritize PPI, subpixel layout, and eye comfort over contrast and HDR marketing.  
-- Watch next: First RGB‑stripe OLED monitors, OS/font‑renderer updates for arbitrary subpixels, and long‑term burn‑in data on productivity‑focused OLED panels.
+
+- View: Display quality is workload-specific; motion metrics and contrast cannot substitute for static-edge fidelity.
+- Impact: Coders, designers, and CAD users should test exact panel geometry at their normal scaling and distance.
+- Watch next: RGB-stripe OLED shipping dates, measured text clarity, burn-in behavior, pricing, and high-PPI availability.

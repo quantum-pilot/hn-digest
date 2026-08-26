@@ -3,22 +3,17 @@
 - Score: 232 | [HN](https://news.ycombinator.com/item?id=46564116) | Link: https://karl-voit.at/2017/09/23/orgmode-as-markup-only/
 
 ### TL;DR
-The article argues that Org mode’s text syntax—independent of Emacs—is a superior lightweight markup: intuitive basics (headings, lists, emphasis), one consistent way to do things, and a single de‑facto “standard” instead of Markdown’s fracturing into many dialects. It critiques Markdown, AsciiDoc, and reStructuredText for inconsistent, hard‑to‑remember conventions (especially headings, links, and tables). Org is also easy to type raw and has excellent tooling in Emacs; Orgdown is proposed as a formalized, editor‑agnostic standard. Comments debate adoption, Emacs lock‑in, and AI-era portability.
 
----
+The essay argues Org syntax deserves use beyond Emacs because its headings, lists, links, formatting, and tables are memorable, typeable, and more internally consistent than Markdown, AsciiDoc, or reStructuredText. It criticizes Markdown’s incompatible flavors and Org’s lack of a formal specification, while claiming one reference implementation and subset-based parsers reduce ambiguity. HN users praised Org for long-lived task and knowledge systems but disputed whether syntax alone matters without Emacs, noting Markdown’s entrenched tooling, publishing pipelines, GitHub adoption, and LLM familiarity.
 
 ### Comment pulse
-- Power users run entire PKM and teaching workflows in Org, leveraging giant files, macros, exports, and incremental discovery of features as needs grow.  
 
-- Some propose Org as a universal PKM/interchange format; others say Markdown’s dominance makes it the practical default — counterpoint: AI-powered conversion may weaken today’s network effects.  
-
-- One camp sees Org’s real value as Org+Emacs integration; another argues its syntax alone could replace Markdown if editors and platforms supported it.  
-
----
+- Integrated users → Org scales from headings to multi-megabyte personal knowledge and task systems because capabilities can be adopted incrementally.
+- Syntax-versus-editor split → Advocates see a cleaner interchange format — counterpoint: critics say Emacs integration supplies most practical value.
+- Adoption reality → Markdown’s publishing ecosystem and AI-era ubiquity may outweigh Org’s richer, more consistent semantics.
 
 ### LLM perspective
-- View: Org’s explicit structure (headings, TODOs, properties, macros) is rich supervision signal compared to loosely specified Markdown variants.  
 
-- Impact: Editor and PKM tools embedding LLMs could prioritize structured markups, auto-normalizing Org/Markdown and reducing user exposure to raw syntax.  
-
-- Watch next: Progress on Orgdown, robust standalone Org parsers, and first-class Org support in GitHub-like platforms and mainstream note-taking apps.
+- View: A format’s usability combines syntax coherence, specification quality, parser compatibility, and available workflows.
+- Impact: Wider Org adoption would benefit plain-text knowledge tools but impose conversion and interoperability costs.
+- Watch next: Orgdown standardization, non-Emacs editor support, round-trip conversion tests, and LLM-generated document fidelity.
