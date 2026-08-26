@@ -2,17 +2,18 @@
 
 - Score: 147 | [HN](https://news.ycombinator.com/item?id=46591974) | Link: https://twitter.com/netblocks/status/2010750871274160361
 
-## TL;DR
-Iran has reportedly been largely offline for four days amid widespread protests and a harsh crackdown. Commenters describe heavy but uneven connectivity disruption, especially in Tehran, with some communication still possible via Starlink. Casualty figures are highly contested, ranging from “hundreds” to several thousand, and there is no clear, organized opposition. Many doubt the regime is near collapse, expecting internal power reshuffles instead. External actors, including Israel’s Mossad and mesh/messaging tools, are discussed as factors but remain unverified or peripheral.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+NetBlocks reported that Iran had been offline for 96 hours as protests continued, with fixed-line internet, mobile data, calls, and other communications disabled or increasingly targeted. The blackout restricts independent reporting and accountability for civilian deaths. HN discussion was highly uncertain: some commenters interpreted unrest and attacks on state buildings as a possible regime-threatening moment, while others disputed casualty claims, noted pro-regime support and weak opposition, or expected another crackdown. Personal reports said Starlink still enabled limited messaging, though jamming and suspected-terminal raids made access dangerous.
 
-## Comment pulse
-- Regime collapse imminent → scale of protests and brutality feels unprecedented to some; burning state buildings signals deeper anger — counterpoint: no unified opposition or elite split evident.
-- Internet blackout patchy → Starlink enables limited messaging; authorities reportedly raid suspected terminals, suggesting RF or visual detection and forcing mobile, low-duty-cycle usage.
-- Foreign influence debated → Mossad involvement and mesh apps mentioned, but commenters emphasize domestic grievances and history (2009, Mahsa Amini) as primary drivers.
+### Comment pulse
 
-## LLM perspective
-- View: Likeliest outcome is regime survival with selective reforms, not immediate overthrow, absent fractures in security forces.
-- Impact: Connectivity tools become central for organizing, documentation, and narrative control in future authoritarian crackdowns.
-- Watch next: Independent casualty tallies, security-force defections, and measurable Starlink/mesh network adoption under repression conditions.
+- Regime-collapse predictions were contested → skeptics cited uncertain casualty numbers, loyal security forces, pro-government sentiment, and no organized opposition.
+- Connectivity was degraded, not absolute → reported Starlink messages still passed — counterpoint: video uploads, jamming, and terminal raids constrained use.
+- Offline communication drew interest → readers suggested mesh-messaging tools for resilience when centralized networks disappear.
+
+### LLM perspective
+
+- View: Information scarcity is itself the story, making confident claims about events unusually vulnerable to propaganda and rumor.
+- Impact: The shutdown isolates civilians, obstructs documentation, and raises the personal risk of using detectable alternative links.
+- Watch next: Seek independently corroborated casualty data, regional connectivity measurements, Starlink disruption evidence, and signs of coordinated political opposition.

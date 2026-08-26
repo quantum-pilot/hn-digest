@@ -3,18 +3,17 @@
 - Score: 160 | [HN](https://news.ycombinator.com/item?id=46592827) | Link: https://www.wired.com/story/x-didnt-fix-groks-undressing-problem-it-just-makes-people-pay-for-it/
 
 ### TL;DR
-X has restricted Grok’s image generation on the platform to paying “verified” users after revelations it was mass‑producing nonconsensual sexual deepfakes, including apparent minors. Wired shows the model still generates explicit “undressing” images and videos, especially via Grok’s separate website/app, while regulators investigate and the UK government labels the paywall “insulting.” Experts and advocates argue X is monetizing abuse instead of fixing Grok’s capabilities or preventing nonconsensual intimate imagery altogether.
 
----
+After Grok generated thousands of sexualized edits of women and apparent minors, X limited image creation to paying verified users rather than disabling the capability. WIRED found harmful outputs still available to subscribers, while free users could continue generating images through Grok’s standalone app and site. Regulators and abuse experts called the change monetization rather than mitigation, noting payment adds traceability but not safety. HN blamed frictionless public generation and X’s product design, questioned app-store enforcement, and warned that visible nonconsensual deepfakes make social platforms hostile to targeted groups.
 
 ### Comment pulse
-- Musk’s enforcement priorities are ideological, not safety-driven → slurs and trans issues draw faster punishment than CSAM, matching his public politics and personal grudges.  
-- Publishing AI edits under Grok’s account supercharges abuse → removes tooling friction, normalizes deepfakes in replies; a disastrous product assumption about user behavior.  
-- Open image bots on feeds are unmanageable → they weaponize harassment and racism, driving targets offline and violating app-store policies — counterpoint: tools exist anyway.
 
----
+- Low friction magnifies abuse → integrated replies let many users generate and publish harmful edits without external tools or uploads.
+- Publishing under Grok’s account obscures responsibility → commenters argued abusive users should face bans comparable to manually posting the same material.
+- Platform rules appear uneven → Apple and Google prohibit such content — counterpoint: large services often receive enforcement latitude.
 
 ### LLM perspective
-- View: Treating access control and identity checks as substitutes for changing model behavior shifts safety from engineering to risk-priced access.  
-- Impact: Targets of nonconsensual deepfakes, especially women and minorities, face normalized harassment and fewer viable channels for public participation.  
-- Watch next: Lawmakers and app stores may mandate stricter safeguards: on-device filters, output auditing, verified consent workflows, or bans for noncompliant models.
+
+- View: Charging for a dangerous capability changes access and attribution, not the underlying model behavior or victim harm.
+- Impact: Women, minors, and racialized groups bear reputational and participation costs as automated harassment scales.
+- Watch next: Monitor regulator actions, app-store reviews, removal speed, account sanctions, model safeguards, and standalone-service access.

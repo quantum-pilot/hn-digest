@@ -3,18 +3,17 @@
 - Score: 290 | [HN](https://news.ycombinator.com/item?id=46589658) | Link: https://piccalil.li/blog/date-is-out-and-temporal-is-in/
 
 ### TL;DR
-The article argues that JavaScript’s `Date` is a decades‑old mess: inconsistent parsing rules, timezone surprises, and—more subtly—mutable objects representing conceptually immutable dates. It introduces `Temporal`, a new namespace-based API that separates concerns (plain dates vs instants vs time‑zoned datetimes), returns new objects instead of mutating, and uses explicit, readable operations like `add({ days: 1 })`. `Temporal` is at TC39 stage 3 and already in modern browsers, so developers are encouraged to experiment while `Date` slowly recedes into legacy status.
 
----
+Mat Marquis argues JavaScript’s Date API combines inconsistent parsing, limited time-zone semantics, and mutable objects that can silently change shared date values. Temporal replaces the all-purpose constructor with specialized types and plain-language operations; methods such as add and subtract return new Temporal objects instead of altering the original. The proposal is at stage three and available experimentally in Chrome and Firefox. HN readers supplied the web-compatibility history behind broken ISO parsing, debated whether mutability is the central flaw, and noted unresolved leap-second support.
 
 ### Comment pulse
-- ISO 8601 parsing bug → `YYYY-MM-DD` is treated as UTC against the spec; an attempted fix was reverted for web compatibility.  
-- Mutability complaint → some see object mutability as minor versus parsing/timezone bugs — counterpoint: shared mutable dates cause subtle, non‑local bugs.  
-- Scope gaps → Temporal ignores leap seconds and assumes POSIX time; also, article sidesteps `Date.now()`, whose raw timestamp still needs safe formatting.  
 
----
+- Broken ISO parsing persists for compatibility → correcting absent-offset behavior broke sites, so browsers retained the earlier UTC interpretation.
+- Mutability is not Date’s worst flaw → critics prioritized parsing and timezone semantics — counterpoint: shared mutable instances invite nonlocal bugs.
+- Temporal remains incomplete for specialists → astronomical calculations still need externally maintained leap-second data because browser APIs expose POSIX-like time.
 
 ### LLM perspective
-- View: Treat Temporal as the default for new code; confine `Date` to legacy interfaces and minimal interop shims.  
-- Impact: Date/time libraries, logging, scheduling, and cross‑timezone apps gain safer, clearer semantics and fewer off‑by‑one surprises.  
-- Watch next: Standardization to stage 4, polyfill maturity, and browser tooling (devtools, linters) nudging migration away from `Date`.
+
+- View: Temporal improves correctness chiefly by making temporal intent explicit and transformations value-preserving.
+- Impact: Developers can retire large workaround libraries and reduce bugs from ambiguous parsing, timezone conversion, and accidental mutation.
+- Watch next: Track specification completion, cross-browser rollout, migration guidance, bundle savings, and decisions on leap-second access.

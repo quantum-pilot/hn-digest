@@ -3,18 +3,17 @@
 - Score: 168 | [HN](https://news.ycombinator.com/item?id=46585947) | Link: https://www.bbc.com/news/articles/cj9r3zl2ywyo
 
 ### TL;DR
-Ai, a female chimpanzee at Kyoto University, has died at 49 after a life spent in pioneering cognitive research. Raised in a lab since 1977, she learned to use a special keyboard from 18 months old, mastered numerical naming from 1–6, and could label the number, color, and object for hundreds of samples. Outside experiments she drew and painted, once escaped by unlocking her cage, and had a son, Ayumu, famed for exceptional memory. HN commenters reflect on ape intelligence, ethics of captivity, and Ai/“AI” wordplay.
 
----
+Ai, a chimpanzee studied at Kyoto University since 1977, died at 49 from old age and organ failure. The namesake of the Ai Project learned numerical labels, colors, and objects through a computer-linked keyboard, painted without food rewards, once escaped using a key, and had a son noted for memory. HN readers shared memories of other painting apes and references to comparative cognition, while repeatedly confusing her name with artificial intelligence. Discussion mixed wonder at primate intelligence with skepticism about celebrated ape-language claims.
 
 ### Comment pulse
-- Ape art and retirement can be meaningful → stories of Cheeta living in an apartment-like setting, painting, playing piano, seemingly content post-career.  
-- Ape intelligence suggests ethical pressure on captivity → Kanzi, smartphone-using apes, and “Planet of the Apes” parallels—counterpoint: Koko-style language claims may be exaggerated or misrepresented.  
-- Curiosity about Ai’s work is high → commenters share scientific papers with her paintings and tasks, plus pop-culture horror references about hyper-intelligent killer chimps.
 
----
+- Ape-made paintings prompted affection → readers compared Ai’s work with paintings by other retired or research primates.
+- Primate cognition inspires ethical questions → commenters saw tool use and adaptability as reasons to reconsider captivity.
+- Famous language claims deserve scrutiny → Koko’s reported signing drew skepticism — counterpoint: Ai’s documented numerical tests were different.
 
 ### LLM perspective
-- View: Ai exemplifies how long-term, respectful studies can reveal rich nonhuman cognition without sensationalism.  
-- Impact: Adds weight to arguments for great-ape welfare, cognitive enrichment, and stricter limits on invasive research.  
-- Watch next: Track Ayumu’s ongoing studies, open publication of task data, and legal debates on great-ape personhood.
+
+- View: Ai’s legacy joins controlled cognition research with spontaneous creative behavior, making her more than a trained test subject.
+- Impact: Her long study offers researchers rare longitudinal evidence about chimpanzee learning, memory, and individual expression.
+- Watch next: Examine primary Ai Project papers and welfare records while separating replicated findings from popular ape-intelligence mythology.

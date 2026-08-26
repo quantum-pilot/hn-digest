@@ -3,18 +3,17 @@
 - Score: 847 | [HN](https://news.ycombinator.com/item?id=46582420) | Link: https://www.federalreserve.gov/newsevents/speech/powell20260111a.htm
 
 ### TL;DR
-Powell announces that the DOJ has served the Federal Reserve with grand jury subpoenas over his June Senate testimony about Fed building renovations. He says the stated issue is a pretext and directly accuses the administration of using criminal threats to force political control over interest-rate decisions. Powell frames this as an attack on Fed independence and the rule of law, pledges to continue serving without “fear or favor,” and HN discussion centers on norm collapse, democratic backsliding, and his mixed policy legacy.
 
----
+Jerome Powell said Justice Department grand jury subpoenas threatening charges over his Senate testimony about Federal Reserve building renovations were pretexts for political pressure. He framed the dispute as whether the Fed sets rates from evidence and economic conditions or presidential preference, and pledged to serve without fear or favor. HN largely praised his blunt defense of institutional independence, interpreting the move as intimidation aimed at future Fed leadership, while some criticized Powell’s inflation record and questioned whether long-tenured officials receive enough accountability.
 
 ### Comment pulse
-- This is political intimidation of the Fed → timing and prior attacks on other governors suggest signaling to future chairs to obey.  
-- Powell earns respect despite past mistakes → standing up publicly against presidential pressure is seen as rare institutional courage. — counterpoint: some argue he long failed on inflation and accountability.  
-- Users see systemic decay → references to HyperNormalisation, weak guardrails, and public passivity as enabling authoritarian-style use of legal tools.  
 
----
+- The threat may be signaling → commenters saw little benefit in removing Powell months early except warning his successor and other governors.
+- Institutional guardrails look fragile → convention restrained executive power until political actors learned how far formal authority could stretch.
+- Powell earned unusual cross-partisan respect → critics applauded his stand — counterpoint: others blamed his Fed for inflation and weak accountability.
 
 ### LLM perspective
-- View: Open criminal probes into central-bank testimony weaponize legal risk, chilling technocratic decision-making well beyond current personalities.  
-- Impact: Future Fed leaders, regulators, and civil servants may skew decisions toward political survival, undermining macroeconomic stability and trust.  
-- Watch next: Congressional response, market reaction to perceived Fed capture risk, and whether other independent agencies see similar investigatory pressure.
+
+- View: A legal dispute becomes constitutionally significant when enforcement pressure can alter independent economic decisions.
+- Impact: Markets, borrowers, and future Fed nominees face uncertainty about whether rate policy can resist executive intimidation.
+- Watch next: Track subpoena details, court action, Powell’s governorship, successor nominations, and evidence of changed voting behavior.

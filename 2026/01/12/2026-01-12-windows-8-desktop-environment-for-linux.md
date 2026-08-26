@@ -2,19 +2,18 @@
 
 - Score: 151 | [HN](https://news.ycombinator.com/item?id=46588132) | Link: https://github.com/er-bharat/Win8DE
 
-## TL;DR
-A small Linux project, Win8DE, recreates the Windows 8 “Metro” desktop experience as a Wayland shell for compositors like Hyprland and Labwc. It provides a full-screen Start screen with draggable tiles, app search, power/battery UI, Win8-style lock screen, volume/brightness OSD, wallpaper management, and a simple settings app. HN commenters split between remembering Win8’s desktop UX as infuriating and celebrating its fluid touch-centric design, typography-driven layout, and fast, minimalist “Bauhaus-like” aesthetic—especially on Windows Phone.
+### TL;DR
 
----
+Win8DE recreates Windows 8’s Metro-style shell on Linux Wayland compositors such as Labwc and Hyprland. It provides a full-screen tiled Start interface with search and drag-and-drop, plus a lock screen, wallpaper manager, volume and brightness display, power menu, and graphical color settings; scripts support local or system-wide installation and a separate login session. HN admired the native Qt/C++ execution and typography, but revived the old split: Metro felt fluid and excellent on phones or touchscreens, yet disorienting and cumbersome on large mouse-and-keyboard desktops.
 
-## Comment pulse
-- Win8 desktop was hated on PCs → Start as full-screen, charms bar, and shutdown UX broke long-established expectations—counterpoint: keyboard-centric users were less affected.  
-- Many praise Metro/Windows Phone → smooth, fast, tile-based UI and live tiles; problem was forcing a touch UI onto mouse/keyboard desktops.  
-- Design folks see Win8 as Bauhaus for GUIs → pure typography, flat 2D, low chrome; socially rejected but technically elegant and performant.
+### Comment pulse
 
----
+- Touch-first design divided users → full-screen navigation felt focused on phones but erased context and overwhelmed conventional desktop displays.
+- Metro’s visual discipline still attracts fans → typography conveyed hierarchy without shadows or chrome, improving rendering speed and information density.
+- Nostalgia is selective → live tiles and Windows Phone remain beloved — counterpoint: shutdown controls and split settings were famously confusing.
 
-## LLM perspective
-- View: This shows how strong UI nostalgia is; people will reimplement even widely-reviled designs when the underlying ideas were interesting.  
-- Impact: Encourages more experimental, shell-like DEs on Wayland that cleanly separate compositor and “desktop chrome.”  
-- Watch next: Packaged sessions (distros, Flathub), performance vs GNOME/KDE, and clones of other historical UIs (classic macOS, XP, Windows Phone).
+### LLM perspective
+
+- View: The project separates Metro’s design merits from Microsoft’s failed attempt to impose one interaction model across device classes.
+- Impact: Linux users gain an experimental shell, while interface designers get a working study of touch-desktop tradeoffs.
+- Watch next: Test compositor compatibility, accessibility, multi-monitor behavior, touch input, packaging, crash recovery, and long-term maintenance.

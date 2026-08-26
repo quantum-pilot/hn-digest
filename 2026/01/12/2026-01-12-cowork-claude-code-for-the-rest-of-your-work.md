@@ -3,18 +3,17 @@
 - Score: 520 | [HN](https://news.ycombinator.com/item?id=46593022) | Link: https://claude.com/blog/cowork-research-preview
 
 ### TL;DR
-Cowork is Anthropic’s new “Claude Code for everything else”: an agent inside the macOS Claude app that gets controlled access to local folders and connectors, then autonomously executes multi‑step tasks (organizing files, drafting docs, building spreadsheets, working via the browser). It asks before significant actions but can still delete or overwrite files and remains vulnerable to prompt‑injection risks, so usage guidance is cautious. HN discussion centers on sandboxing quality, irrecoverable data loss, confusing ToS for business use, and missing Linux support.
 
----
+Anthropic’s Cowork research preview repackages Claude Code’s agentic workflow for non-programmers on macOS. Max subscribers can grant selected folders and connectors, then ask Claude to organize files, build spreadsheets, draft documents, queue tasks, or combine skills with browser access. Anthropic says users retain permission boundaries and approval points, but warns about destructive actions and prompt injection. HN discussion focused overwhelmingly on safety: commenters questioned asking novices to detect attacks, demanded automatic snapshots and rollback, and debated whether a virtual-machine sandbox meaningfully prevents data exfiltration.
 
 ### Comment pulse
-- Sandboxing and prompt injection: users want “lethal trifecta”-safe designs; today’s model still leans on user vigilance. — counterpoint: Anthropic notes full-VM execution and early but ongoing safety work.  
-- Irreversible changes worry people: filesystem operations lack easy rollback; commenters predict horror stories unless Cowork adds built-in versioning or leverages OS snapshots transparently.  
-- Product fit vs. ecosystem: Max ToS ban commercial use while tool targets work; Linux users feel neglected despite Anthropic’s dependence on Linux infrastructure.
 
----
+- Sandboxing narrows exposure → only selected folders enter a VM — counterpoint: permitted network or filesystem actions can still leak data.
+- Irreversible operations alarm experts → Cowork lacks built-in revision history, so commenters proposed automatic snapshots or hidden version control.
+- Early access exposed product gaps → users asked about Linux support, commercial terms, and basic website reliability.
 
 ### LLM perspective
-- View: Cowork is a step toward mainstream, file-level AI agents, but current safety UX is closer to “power tool” than appliance.  
-- Impact: Knowledge workers with messy local data benefit first; IT/security teams will scrutinize deployments and set guardrails.  
-- Watch next: Native snapshot/rollback integration, clearer enterprise licensing, and serious Linux/Windows parity will determine real-world adoption.
+
+- View: Cowork’s accessibility increases the importance of safety defaults because its target users cannot audit agent behavior.
+- Impact: Document work may accelerate, but destructive mistakes or injected instructions can produce losses outside ordinary chat boundaries.
+- Watch next: Require transactional file operations, rollback, restricted networking, clearer permissions, and measurable prompt-injection resistance before broad release.

@@ -2,14 +2,12 @@
 
 - Score: 362 | [HN](https://news.ycombinator.com/item?id=46582441) | Link: https://www.youtube.com/watch?v=KckGHaBLSn4
 
-- TL;DR  
-Jerome Powell released an official on-the-record video statement as Federal Reserve Chair, hosted on YouTube and the Fed’s own website. The original Hacker News submission linked only to YouTube, so nearly all discussion focused on replacing it with the canonical Fed page that includes the full text transcript and video, and on merging duplicate submissions, rather than on the economic content of Powell’s remarks themselves, highlighting HN’s preference for primary sources and consolidated, non-duplicative discussions.  
-*Content unavailable; summarizing from title and brief meta-discussion in comments.*
+### TL;DR
 
-- Comment pulse  
-  - Prefer Fed-hosted link → Users want the official page with transcript and embedded video, and suggest merging duplicate posts for clarity.
+Federal Reserve chair Jerome Powell said the Department of Justice served the Fed grand jury subpoenas threatening criminal charges over his prior Senate testimony about building renovations. He called the renovation issue a pretext for administration pressure on monetary policy, framing the conflict as a test of whether interest rates remain evidence-based or follow presidential preferences. Powell pledged to continue serving without political fear or favor. The sparse HN thread contributed no policy debate; commenters only pointed readers to the official transcript and an existing duplicate discussion.
 
-- LLM perspective  
-  - View: Meta-focused thread shows infrastructure issues: link choice and deduping can overshadow substantive discussion when sources are fragmented.  
-  - Impact: HN norms increasingly favor direct, canonical sources with full context, pushing submitters away from bare YouTube or intermediary links.  
-  - Watch next: Watch future Powell threads starting from transcript pages; those may finally host substantive policy and macroeconomic debate.
+### LLM perspective
+
+- View: Powell’s statement reframes a personal legal threat as an institutional-independence dispute over monetary policy.
+- Impact: Fed officials may face stronger political pressure when rate decisions conflict with presidential preferences.
+- Watch next: Monitor subpoena scope, any indictment, congressional oversight, court proceedings, and changes in Federal Reserve decision-making.

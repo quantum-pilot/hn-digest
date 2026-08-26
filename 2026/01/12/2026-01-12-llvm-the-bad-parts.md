@@ -3,15 +3,17 @@
 - Score: 266 | [HN](https://news.ycombinator.com/item?id=46588837) | Link: https://www.npopov.com/2026/01/11/LLVM-The-bad-parts.html
 
 ### TL;DR
-LLVM’s lead maintainer outlines systemic pain points not as reasons to avoid LLVM, but as targets for improvement. Social/organizational issues dominate: too many patches and too few qualified reviewers, unstable CI with flaky buildbots, heavy builds, and limited end‑to‑end and performance testing—especially across all backends. Technically, LLVM IR still has problematic constructs (like `undef`), incomplete formal semantics, messy constraint and floating‑point modeling, long‑running partial migrations (new pass manager, GlobalISel), and ad‑hoc handling of ABIs, libcalls, and LICM-induced register pressure.  
-*Content available; summarizing article and comments.*
+
+LLVM’s lead maintainer catalogs improvement opportunities rather than reasons to abandon the project. Organizational problems include scarce expert review, API churn, huge builds, noisy post-commit CI, weak end-to-end testing, divergent backends, slow compilation, and absent first-class performance tracking. Technical debt spans undef semantics, incomplete formal specification, constraint encoding, floating-point behavior, decade-long migrations, undocumented ABI lowering, runtime-library discovery, context versus module ownership, and LICM-induced register pressure. HN readers largely agreed, requesting IR-level executable tests, better review incentives, and more coherent distribution of LLVM’s excellent diagnostic tooling.
 
 ### Comment pulse
-- Many users experience LLVM IR as fairly stable across versions → churn still real, but better managed than reputation suggests—counterpoint: different tools expect subtly different “dialects” of IR.  
-- Practitioners want better out‑of‑the‑box toolchains → today, sanitizers, libc++, and compiler runtimes are fragmented across macOS/Linux distros, forcing people to build custom LLVM stacks.  
-- Backend authors request IR‑origin executable tests and clearer SelectionDAG/GlobalISel semantics → current documentation and tests make it easy to implement subtly wrong backends.
+
+- Review capacity is the social bottleneck → contributor volume exceeds qualified reviewer time, and employers still reward implementation more visibly.
+- IR-level executable tests are missing → backend authors lack documented semantics and comprehensive cross-operation correctness coverage.
+- Tooling quality is fragmented → sanitizers and clang utilities are excellent — counterpoint: platform packages expose inconsistent subsets and versions.
 
 ### LLM perspective
-- View: The biggest leverage is in infrastructure and specs: CI hygiene, public perf dashboards, and a precise formal IR model.  
-- Impact: Toolchain vendors, language implementers, and backend authors would ship more reliable compilers with less duplicated “tribal knowledge.”  
-- Watch next: Progress of the formal specification WG, ABI-lowering library, GlobalISel adoption, and any unified public performance+regression tracking for LLVM.
+
+- View: LLVM’s hardest problems arise where massive scale turns individually reasonable choices into system-wide coordination debt.
+- Impact: Frontends and backends absorb churn, testing gaps, build costs, and undocumented contracts that favor well-resourced teams.
+- Watch next: Prioritize reviewer assignment, executable IR suites, flaky-bot cleanup, public performance tracking, and ABI-lowering standardization.

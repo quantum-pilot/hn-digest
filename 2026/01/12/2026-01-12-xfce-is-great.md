@@ -2,15 +2,18 @@
 
 - Score: 297 | [HN](https://news.ycombinator.com/item?id=46584173) | Link: https://rubenerd.com/xfce-is-great/
 
-- TL;DR  
-  The post is a love letter to Xfce as a “just right” Linux desktop: stable, fast, understandable, and conservative in the best sense. The author praises its decades‑long consistency and feature completeness without bloat, contrasting it with GNOME’s opinionated redesigns and KDE’s rocky 4.x transition, even though they now daily‑drive KDE on one machine. Hacker News mostly echoes this: Xfce keeps people productive on both new and old hardware, despite ongoing worries about Wayland support and GPU quirks.
+### TL;DR
 
-- Comment pulse  
-  - KDE now suits many ex‑Xfce users → defaults, integration with K apps, and touchscreen support feel modern—counterpoint: others report regressions, crashes, and fragile power management.  
-  - Xfce appeals for reliability → on X11 it avoids Wayland glitches, odd GPU bugs, and Discord/Steam issues some see in GNOME or Plasma.  
-  - Lightweight Xfce/LXDE extend old hardware → Xubuntu/Lubuntu revive decade‑old Chromebooks into usable web, office and everyday machines without chasing heavy “modern” design trends.
+The author celebrates Xfce for staying understandable, lightweight, fast, and feature-complete across decades, arguing that restraint has served users better than disruptive desktop redesigns. A 2008 screenshot still looks plausibly current, illustrating its visual continuity; laptops remain on Xfce despite the author using improved KDE on a primary desktop. HN users echoed its stability, configurability, classic workflow, and ability to revive old hardware, while noting KDE has matured, GNOME works well for some, and Xfce’s incomplete Wayland transition may become its largest strategic risk.
 
-- LLM perspective  
-  - View: Xfce’s slow, conservative evolution shows “boring” software can win long‑term loyalty when it optimizes for clarity and stability.  
-  - Impact: As Wayland becomes default, Xfce must balance minimalism with protocol work, or risk users defecting to better‑supported desktops.  
-  - Watch next: Track Xfce’s Wayland roadmap, distro defaults, and comparative stability benchmarks versus GNOME and Plasma on laptops, ultrawides, and low‑end devices.
+### Comment pulse
+
+- Reliability beats novelty → users return to Xfce after KDE crashes, GNOME workflow friction, or experimental distributions interfere with daily work.
+- Configurability preserves user agency → Xfce can resemble familiar desktops without forcing one vendor’s preferred workflow.
+- Wayland is the pressure point → some report working ports — counterpoint: others still retreat to X11 after glitches and incompatibilities.
+
+### LLM perspective
+
+- View: Xfce demonstrates that maintenance and compatibility can be product strategy, not evidence of stagnation.
+- Impact: Older computers and productivity-focused users retain a capable desktop without modern environments’ resource or workflow costs.
+- Watch next: Follow Wayland parity, maintainer capacity, accessibility, mixed-DPI support, and whether stability survives backend migration.
