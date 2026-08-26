@@ -2,19 +2,18 @@
 
 - Score: 328 | [HN](https://news.ycombinator.com/item?id=46693205) | Link: https://entropicthoughts.com/nvidia-stock-crash-prediction
 
-## TL;DR
-Using Nvidia options prices, the author infers a 3.1% daily volatility for far-out, 2026-dated $100 strike calls. They build a binomial price model, simulate paths, and (incorrectly) treat the risk‑neutral up/down parameter as a true probability, yielding a ~24% chance NVDA trades below $100 in 2026. Applying a Bank of England-style transformation from risk‑neutral to real‑world probabilities pulls this down to ~14%; eyeballing remaining uncertainties, the author settles on a ~10% crash probability.  
+### TL;DR
 
----
+The author estimates a roughly 10% chance that Nvidia falls below $100 during 2026, down from about $184. Rather than assume a constant-volatility random walk, he backs 3.1% daily volatility out of long-dated options, simulates barrier crossings at 24%, then applies a Bank of England calibration from risk-neutral to real-world probabilities, producing 14% before judgmentally rounding down. HN readers said the model teaches options math more than company-specific risk, emphasizing customer concentration, slowing data-center spending, alternative accelerators, Taiwan, and whether those risks are already priced in.
 
-## Comment pulse
-- Technical options-based forecast misses fundamentals → GPU boom tied to AI/datacenter capex, which can’t compound forever; demand cliffs or longer lifetimes could crush growth.  
-- Concentrated revenues and cancellable orders → a single hyperscaler slowing purchases could sharply hit earnings—counterpoint: unmet demand from others likely backfills capacity.  
-- Alternatives and bubbles → TPUs, custom ASICs, or a CUDA‑compatible Chinese GPU could erode Nvidia’s moat and puncture an AI-compute bubble that props up the stock.  
+### Comment pulse
 
----
+- Model critique → options encode market volatility, but commenters argued earnings misses and business fundamentals determine whether Nvidia specifically crashes.
+- Demand debate → hyperscaler concentration raises cancellation risk — counterpoint: scarce chips and the AI race may redirect rather than erase orders.
+- Tail risks → Chinese accelerators, TPU or Trainium adoption, and Taiwan disruption could weaken Nvidia, though geographic diversification complicates near-zero scenarios.
 
-## LLM perspective
-- View: Options markets encode consensus volatility, not a verdict on Nvidia’s business; translating that into real crash odds is model-dependent.  
-- Impact: Forecasters and retail traders get a concrete framework to sanity-check “it can’t crash” narratives against what option prices imply.  
-- Watch next: Track implied vol term-structure, hyperscaler capex guidance, non-Nvidia training runs (TPU/ASIC share), and any credible CUDA-compatible competitor announcements.
+### LLM perspective
+
+- View: The 10% estimate is a calibrated judgment, not a direct probability revealed by option prices.
+- Impact: Investors should separate market-wide volatility from Nvidia-specific demand, competition, supply-chain, and valuation risks.
+- Watch next: Monitor major-customer orders, accelerator share, depreciation schedules, export policy, Taiwan exposure, and implied-volatility changes.

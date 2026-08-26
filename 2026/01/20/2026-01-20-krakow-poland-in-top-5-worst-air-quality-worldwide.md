@@ -3,14 +3,17 @@
 - Score: 117 | [HN](https://news.ycombinator.com/item?id=46689204) | Link: https://www.iqair.com/world-air-quality-ranking
 
 ### TL;DR
-An IQAir live ranking of 126 major cities shows Kraków and Warsaw among the world’s most polluted, with Kraków’s AQI around 218, deep into “unhealthy” territory. The list is based on fine particulate (PM2.5) levels and is usually dominated by South Asian cities, making Poland’s position striking for the EU. Commenters attribute the spike to winter heating: coal, wood, and even trash burned in old stoves, Kraków’s valley geography, and resistance to environmental regulation, alongside debate over fuel types and sensor accuracy.
+
+The frozen source does not support its top-five headline: its hourly AQI⁺ table places Kraków sixth, at 218, behind Sarajevo in fifth at 231. The snapshot ranks Lahore first at 502 and Warsaw fifteenth at 147, but offers no causal analysis. HN participants attribute Poland’s winter smog mainly to household burning of coal, wood, plastics, and other refuse, compounded by subzero weather and Kraków’s valley geography. They distinguish local particulate pollution from carbon emissions and dispute whether sensor placement can explain the readings.
 
 ### Comment pulse
-- Poland’s winter smog comes mostly from households burning coal, wood, and trash in primitive stoves; residents describe black, oily smoke and suffocating neighborhoods.  
-- Fossil-fuel heating seen as major silent killer; commenters contrast dirty coal/wood with relatively clean natural gas and propane—counterpoint: climate-focused critics note CO2 still high.  
-- Some Poles claim Kraków’s AQI is exaggerated by dense sensors sited in dirtiest spots; others cite local fact-checks debunking this, attributing rankings to genuine pollution.  
+
+- Residential combustion dominates explanations → commenters describe thick black smoke and inefficient stoves burning coal, wood, plastics, cardboard, and engineered materials.
+- Geography and weather trap pollution → Kraków’s valley and roughly −10°C conditions intensify winter heating emissions and inhibit dispersion.
+- Measurement skepticism persists → some blame dense or strategically placed sensors — counterpoint: commenters cite fact-checking that rejects this explanation.
 
 ### LLM perspective
-- View: Hourly city AQI rankings use only PM2.5, so they highlight acute health risk, not full pollution profile.  
-- Impact: Kraków’s visibility on a global list pressures Polish authorities to accelerate stove-replacement subsidies and trash-burning enforcement.  
-- Watch next: Track winter 2026–27 AQI trends in Polish cities to see whether policy shifts measurably lower PM2.5 peaks.
+
+- View: This is a severe real-time reading, but the frozen table contradicts the headline’s precise ranking.
+- Impact: Residents face acute particulate exposure, while misleading rank claims can distract from the underlying public-health problem.
+- Watch next: Sustained PM2.5 trends, stove-replacement enforcement, residential fuel rules, weather inversions, and sensor methodology.

@@ -2,19 +2,18 @@
 
 - Score: 134 | [HN](https://news.ycombinator.com/item?id=46695061) | Link: https://www.cnbc.com/2026/01/20/sell-america-trade-dollar-treasury-gold-us-trump-greenland.html
 
-## TL;DR
-Global markets are dumping U.S. assets after Trump escalated his push to acquire Greenland by threatening steep tariffs on multiple European countries. The dollar index is seeing its sharpest drop in months, Treasuries are selling off with yields spiking, and U.S. stocks are sliding while gold and silver hit fresh highs as classic “safe havens.” Analysts frame this as “sell America”: investors reassessing the U.S. as a reliable trading and financial partner, amid warnings of potential “capital wars” and longer‑term de-dollarization pressures.
+### TL;DR
 
----
+In this early January 20 market snapshot, renewed U.S.–European tension over Greenland triggered a broad retreat from American assets. The dollar index fell nearly 1%, Treasury prices dropped as yields rose, gold and silver reached fresh highs, the Dow lost more than 700 points, and the S&P 500 and Nasdaq fell over 1%. The move followed Trump’s threatened tariffs on eight European countries, starting at 10% February 1 and rising to 25% June 1. HN discussion centered on diversification, dollar exposure, inflation fears, and global spillovers.
 
-## Comment pulse
-- Hedge with VXUS instead of VOO → critics argue currency, banking, and global recession risk still tie you heavily to U.S. outcomes.  
-- Search for hedges → gold/silver mentioned, but many fear inflation, dollar erosion, and repeated “corrections” destroying middle‑class savings.  
-- Panic or overdue repricing? → some see the title as fearmongering; others point to Davos/Canada and broader de‑dollarization as structural shifts.
+### Comment pulse
 
----
+- Diversification question → some favored non-U.S. equities or metals; others noted dollar-denominated accounts and worldwide recession can blunt those hedges.
+- Personal risk → commenters feared inflation and currency weakness would erode savings, while others advised continuing long-horizon U.S. index contributions.
+- Alliance strain → Carney’s Davos speech was read as distancing Canada — counterpoint: commenters framed it as responding to U.S. tariffs and threats.
 
-## LLM perspective
-- View: This episode is political risk being repriced, not an overnight collapse of U.S. economic fundamentals.  
-- Impact: Higher U.S. risk premium could raise borrowing costs and accelerate diversification of reserves and equity allocations.  
-- Watch next: Treasury auction demand, central-bank reserve composition, any walk‑back of tariffs or new multilateral trade arrangements.
+### LLM perspective
+
+- View: This is a rapidly updated intraday snapshot of a policy-driven move, not evidence of a lasting regime change.
+- Impact: Simultaneous weakness in stocks, bonds, and the dollar challenges conventional domestic diversification.
+- Watch next: Follow tariff implementation, European retaliation, dollar and yield persistence, fund flows, inflation expectations, and safe-haven prices.

@@ -2,15 +2,18 @@
 
 - Score: 254 | [HN](https://news.ycombinator.com/item?id=46694378) | Link: https://www.afterbabel.com/p/how-metas-lawyers-perfected-the-playbook
 
-## TL;DR
-Meta’s in-house legal team is accused of copying Big Tobacco’s cover-up tactics: using attorney–client privilege, document destruction, and tight control of research to hide known harms, especially to children on Facebook, Instagram, and in VR. Whistleblowers and internal documents describe buried mental-health findings, erased evidence of child exploitation, and even a “17‑strike” policy for sex‑trafficking accounts, leading a judge to pierce privilege under the crime‑fraud exception. HN discussion centers on legal ethics, systemic corporate incentives, and failed enforcement.
+### TL;DR
 
-## Comment pulse
-- Meta culture problem → Incentives reward “do anything” for metrics; privacy invasions feel systemic, not just legal, and sociopathic behavior appears selected and rewarded.  
-- Internal view of harm → Unsealed chats liken Instagram to a drug causing “reward deficit,” and staff feared resembling tobacco firms that hid damaging research.  
-- Legal ethics split → Some defend privilege and routine data deletion—counterpoint: others distinguish business hygiene from destroying likely evidence of crimes and demand bar-enforced accountability.
+The essay argues that Meta’s lawyers abandoned duties to courts and the public by suppressing research on youth harm and ordering evidence of child exploitation destroyed, echoing Big Tobacco’s use of privilege. It cites Project Mercury, whistleblower testimony, internal messages, and an October 2025 ruling finding probable cause that lawyers coached researchers to hide teen-safety studies. The author calls for bar investigations, sanctions, and privilege reform. HN largely demanded accountability, while some questioned the essay’s legal expertise, John Adams analogy, and treatment of attorney-client privilege.
 
-## LLM perspective
-- View: This is less about abstract privilege debates than about incentives that reward lawyers for weaponizing it to hide harm.  
-- Impact: If bar associations meaningfully sanctioned in-house counsel, corporate risk calculus would shift faster than waiting for slow, uncertain legislation.  
-- Watch next: Track follow-on cases at Snap, Google, Apple, OpenAI; whether judges invoke crime-fraud to pierce privilege and sanction individuals.
+### Comment pulse
+
+- Corporate incentives → former Meta staff described performance systems rewarding goal optimization, while others argued law—not voluntary ethics—must constrain firms.
+- Legal interpretation → skeptics challenged the Adams analogy and author’s expertise — counterpoint: others cited crime-fraud limits on privilege.
+- Evidence debate → commenters separated routine data deletion from destroying material specifically because it creates legal exposure.
+
+### LLM perspective
+
+- View: The strongest case rests on documented conduct and judicial findings, not the essay’s sweeping historical analogy.
+- Impact: Aggressive privilege practices could trigger bar scrutiny, sanctions, and narrower corporate confidentiality protections.
+- Watch next: Track disciplinary investigations, crime-fraud rulings, document-preservation reforms, and consequences for named legal leaders.

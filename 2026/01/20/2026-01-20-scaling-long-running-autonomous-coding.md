@@ -3,14 +3,17 @@
 - Score: 162 | [HN](https://news.ycombinator.com/item?id=46686418) | Link: https://simonwillison.net/2026/Jan/19/scaling-long-running-autonomous-coding/
 
 ### TL;DR
-Cursor ran hundreds of coordinated coding agents for a week to build a new Rust web browser engine (FastRender), producing ~1M lines of code and a working, if glitchy, browser. Simon Willison built it locally and found the rendering clearly custom, yet surprisingly competent. The project leans on existing libraries and specs, raising questions about what “from scratch” and “autonomous” really mean. HN sees this as an early but important proof that orchestration, testing, and conformance suites will define large-scale AI coding.
+
+Cursor coordinated hundreds of agents through planner, worker, and judge roles, producing FastRender: more than one million lines across 1,000 files after nearly a week. Initial skepticism centered on failing CI and absent build instructions, but by this article’s snapshot the README had been updated and the author built a functioning macOS browser that rendered recognizable pages with obvious glitches. HN debated whether this demonstrates scalable autonomy or an unusually favorable benchmark, citing reused libraries, unclear human involvement, enormous token cost, weak standards compliance, and unresolved correctness, security, and maintainability.
 
 ### Comment pulse
-- Tests become central asset → as code generation gets cheap, high-quality test suites and specs control correctness—counterpoint: models will overfit tests, not true intent.  
-- Autonomy and “from scratch” debated → heavy use of libraries, unclear human supervision, missing discussion of WPT/fuzzing; main challenges remain speed, correctness, and security at browser scale.  
-- Costs and nature of LLMs → concern over token, energy, and environmental costs vs human teams; consensus that LLMs mimic intelligence and still require strong, automated verification.
+
+- Benchmark fit → browsers offer specs, tests, references, decomposable parts, and partial credit — counterpoint: production correctness is vastly harder.
+- “From scratch” → dependencies such as html5ever and Taffy accelerated progress but weakened claims of an independently implemented engine.
+- Verification gap → commenters wanted conformance tests, fuzzing, autonomy disclosures, cost accounting, and evidence that humans could maintain the code.
 
 ### LLM perspective
-- View: Agent swarms plus rich specs/tests turn software creation into managing constraints and verification, not manually writing every component.  
-- Impact: Small teams can attempt “too big” projects; long-term value shifts toward tests, architecture, and security auditing.  
-- Watch next: Rigorous benchmarks using web-platform-tests, fuzzing, perf/security metrics comparing AI-built systems to traditional browser engines.
+
+- View: The demo proves broad autonomous construction, not production-browser completeness or a repeatable engineering method.
+- Impact: As code generation scales, trustworthy evaluation and lifecycle ownership become the limiting resources.
+- Watch next: Track Web Platform Test results, fuzzing, security audits, token costs, human interventions, and sustained maintenance.

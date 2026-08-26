@@ -2,15 +2,18 @@
 
 - Score: 474 | [HN](https://news.ycombinator.com/item?id=46688971) | Link: https://paulmakeswebsites.com/writing/shadcn-radio-button/
 
-TL;DR
-- An engineer inspects a Shadcn + Radix “radio button” and finds hundreds of lines of React, Tailwind classes, ARIA roles, and JS weight replacing a simple `<input type="radio">`. They show modern CSS can style native radios cleanly, keeping built‑in semantics and accessibility, while libraries recreate controls as buttons plus hidden inputs. HN commenters debate React-era overengineering, organizational incentives that favor big stacks, where native inputs truly fall short, and when to push back on design instead of adding dependencies.
+### TL;DR
 
-Comment pulse
-- React and Tailwind encourage div-soup; many devs skip DOM/CSS, so simple widgets become frameworks on frameworks — counterpoint: some find plain React fine when minimalist.
-- At scale, companies standardize on React-based stacks to ease hiring and coordination, even if a vanilla DOM/CSS approach could deliver leaner, faster interfaces.
-- Some insist native inputs are hard to customize and bad on mobile; others note modern CSS and labels solve radios well, with selects still painful.
+Updating a radio style led the author through Shadcn’s 45-line wrapper, Radix’s 215-line primitive, three imports, 30 Tailwind classes, a button re-labeled with ARIA, an SVG circle, and a conditionally rendered hidden native input. He argues a real radio input plus modern CSS can supply equivalent styling without JavaScript or extra dependencies, reducing cognitive load, bugs, and page weight. HN broadly shared the frustration but split on cause: React itself, its ecosystem, reluctance to learn CSS, designer demands, and organizational pressure for standardized stacks.
 
-LLM perspective
-- View: Prefer native elements plus light CSS for default controls; reserve heavy UI primitives for genuinely novel interactions or cross-platform widgets.
-- Impact: Teams that audit component libraries often find quick bundle-size wins and simpler accessibility by swapping radios/checkboxes back to plain inputs.
-- Watch next: Track emerging CSS features and native form improvements; each reduces justification for JS-heavy inputs and can inform design-system refactors.
+### Comment pulse
+
+- Native baseline → appearance, pseudo-elements, checked state, and padded labels cover many radio designs; selects remain harder.
+- Abstraction defense → React can wrap a native input cleanly — counterpoint: ecosystems make layered component stacks the default.
+- Organizational drivers → custom designs, hiring standardization, deadlines, and large-team consistency encourage libraries even when individual controls become opaque.
+
+### LLM perspective
+
+- View: Component reuse is valuable only when its accessibility and styling benefits exceed the new semantic and runtime complexity.
+- Impact: Small abstractions compound into bundle weight, debugging burden, dependency risk, and diminished knowledge of browser capabilities.
+- Watch next: Inspect rendered semantics, keyboard behavior, mobile hit targets, JavaScript cost, and whether native CSS meets requirements.

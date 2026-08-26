@@ -3,18 +3,17 @@
 - Score: 268 | [HN](https://news.ycombinator.com/item?id=46690907) | Link: https://blog.emilburzo.com/2026/01/running-claude-code-dangerously-safely/
 
 ### TL;DR
-Author wants to use Claude Code’s `--dangerously-skip-permissions` flag without babysitting or risking their host machine. Docker-in-Docker and Firejail feel awkward, cloud VMs are costly, so they resurrect Vagrant + VirtualBox: a small reproducible VM per project with shared folder, Claude installed inside, and even sudo enabled. Claude can freely install packages, run Docker, and mutate project files; if it wrecks the VM, you just destroy and recreate it. This mitigates accidents, not malicious escapes or shared-folder abuse.
 
----
+The author uses a reproducible Vagrant/VirtualBox Ubuntu VM to run Claude Code with permission checks disabled, giving it sudo, Docker, package installation, browsers, databases, and test tooling without exposing most of the host. A bidirectional project folder preserves normal Git workflows, but the stated threat model covers accidents—not malicious escape, network abuse, data exfiltration, or deletion of shared code. HN agreed approval fatigue pushes users toward autonomous execution, while warning that writable Vagrantfiles, Git hooks, or later host execution of generated code can cross the boundary.
 
 ### Comment pulse
-- Approval fatigue is real; people build layered sandboxes (Landlock, bubblewrap, DNS controls) so they can safely leave agents in YOLO mode.
-- VM isolation isn’t bulletproof: shared folders allow editing Vagrantfiles, git hooks, or repo code that later runs on the host—counterpoint: confine AI to subdirectories or snapshot-based flows.
-- Others explore Docker-based sandboxes, microVM-backed Docker Sandboxes, and tools like Shannot or devcontainers with strict network/file policies for reviewed or constrained execution.
 
----
+- Containment gap → writable shared repos let an agent alter Vagrantfiles, hooks, or code that later executes on the host.
+- Alternative designs → commenters favored Landlock/bubblewrap, restricted devcontainers, DNS or network allowlists, snapshots, and emerging microVM sandboxes.
+- Workflow tradeoff → human approval protects real systems — counterpoint: blocking every action defeats long-running autonomous exploration.
 
 ### LLM perspective
-- View: This is a pragmatic “good-enough” safety layer aimed at human error and prompt-injected mishaps, not adversarial containment.
-- Impact: Most useful for solo devs and small teams heavily relying on agentic coding against local repos and Docker workflows.
-- Watch next: Standardized “agent sandboxes” combining microVMs, fine-grained network controls, and per-directory ACLs, with benchmarks for escape risk and developer friction.
+
+- View: VM isolation reduces accidental host damage, but shared writable artifacts remain an execution channel.
+- Impact: Safe autonomy requires defining trust boundaries for files, credentials, networking, and host-side execution.
+- Watch next: Test one-way sync, immutable launch configs, network allowlists, disposable snapshots, and diff review.

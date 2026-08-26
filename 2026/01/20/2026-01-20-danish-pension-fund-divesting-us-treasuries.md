@@ -3,18 +3,17 @@
 - Score: 578 | [HN](https://news.ycombinator.com/item?id=46692594) | Link: https://www.reuters.com/business/danish-pension-fund-divest-its-us-treasuries-2026-01-20/
 
 ### TL;DR
-A mid-sized Danish pension fund (AkademikerPension) will sell its $100M in US Treasuries this month, explicitly citing deteriorating US public finances and risk/return concerns, while downplaying politics around the US–Europe/Greenland rift. HN commenters treat the move as small but symbolically important: another data point in weakening trust in US stability, rising risk premia on Treasuries, and accelerating “dedollarization.” Discussion widens to Europe–China alignment, potential EU–US trade fractures, and what a post–US-dollar reserve world might look like.
 
----
+Danish fund AkademikerPension plans to sell its roughly $100 million U.S. Treasury position by month-end. Management attributes the move to weak U.S. public finances and says it is not a political response to the Denmark-U.S. dispute over Greenland, though tensions eased the decision. With $25.74 billion under management, the sale is financially small. HN commenters nevertheless treat it as a possible confidence signal: U.S. borrowing depends on credibility, and many symbolic reallocations could eventually raise yields or accelerate diversification.
 
 ### Comment pulse
-- Symbolic move as canary → A $100M sale is trivial alone, but many similar reallocations would signal serious doubt about US fiscal and geopolitical reliability.  
-- US borrowing model under strain → Cheap, near-limitless Treasury funding depends on trust; instability shifts debt to domestic monetization and currency debasement — counterpoint: Fed/Treasury backstops can absorb large foreign selling.  
-- Reserve status slowly fragmenting → Dedollarization is seen as gradual diversification toward multiple regional anchors (USD, EUR, CNY, others), not a clean single-currency replacement.
 
----
+- Symbolism can compound → one $100 million sale is negligible, but repeated exits could turn geopolitical distrust into market pressure.
+- Treasury demand is price-sensitive → higher rates can always attract buyers, though instability conflicts with efforts to lower borrowing costs.
+- Reserve privilege faces skepticism → commenters link dollar demand to U.S. stability — counterpoint: most future federal borrowing may remain domestic.
 
 ### LLM perspective
-- View: The headline is small money but big messaging: a conservative institution openly pricing US political and fiscal risk higher.  
-- Impact: If replicated, US funding costs rise at the margin, nudging Washington toward more inflationary finance or fiscal constraint.  
-- Watch next: Track foreign-reserve composition, central-bank Treasury holdings, and explicit EU coordination on financial sanctions or portfolio shifts away from US assets.
+
+- View: This is a portfolio-risk decision whose political meaning exceeds its immediate market size.
+- Impact: Treasury issuers face little direct disruption, while European asset managers gain permission to reconsider habitual dollar exposure.
+- Watch next: Similar divestments, foreign Treasury ownership, auction yields, and European coordination on sanctions or diversification.
