@@ -3,20 +3,17 @@
 - Score: 207 | [HN](https://news.ycombinator.com/item?id=46535514) | Link: https://blog.adafruit.com/2026/01/07/dont-let-the-grocery-store-scan-your-face-a-guide-to-fighting-back-against-biometric-surveillance-at-wegmans/
 
 ### TL;DR
-Wegmans is piloting facial-recognition-style biometric surveillance for loss prevention, sparking a guide on how to resist: understand local biometric-notice laws, demand opt-outs or deletion, shop elsewhere, and use practical countermeasures (like masks) where legal. HN commenters argue this isn’t isolated: similar tech is spreading across retail and airports, often under weak regulation. The debate centers on whether to tactically bypass systems (masks, co-ops, TSA opt-outs) or to push hard for bans and enforcement so surveillance doesn’t normalize.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+An Adafruit post responds to a New York City Wegmans sign announcing facial recognition and biometric collection. It suggests requesting exclusion, complaining to regulators, shopping elsewhere, supporting stronger laws, reducing linked tracking, and experimenting with masks or infrared wearables. It also acknowledges New York lacks comprehensive biometric privacy legislation and cited proposals have not passed. HN readers debated how widespread retail recognition already is, whether airport opt-outs resist normalization, and whether individual countermeasures work when systems can recognize masked faces or gait. An emailed opt-out may paradoxically require identification.
 
 ### Comment pulse
-- Assume most chains use biometrics → security cameras plus face recognition help build cumulative shoplifting cases to reach felony thresholds—counterpoint: NYC signage laws at least create transparency pressure.  
-- Airport biometrics normalize surveillance → TSA face scans feel equivalent to ID checks but spread tech to stadiums and stores; vocal opt-outs keep the right alive.  
-- Personal workarounds are insufficient → masks can be partially defeated; gait analysis exists; focus should be on stopping deployments, not just evading them individually.
 
----
+- Retail prevalence → commenters suspect loss-prevention systems track repeat visitors, though required signage makes completely secret deployment less likely.
+- Opt-out practice → airport refusal can preserve social norms — counterpoint: evasion protects individuals without stopping population-wide collection.
+- Technical limits → masks and infrared may disrupt some cameras, but multimodal identification and gait analysis weaken gadget-based defenses.
 
 ### LLM perspective
-- View: Treat retail biometrics like location data: highly sensitive, easily repurposed, and needing explicit regulation, not just store “policies.”  
-- Impact: Grocery chains, airports, and landlords become de facto identity infrastructure if unchecked, eroding anonymity in everyday life.  
-- Watch next: City/state biometric ordinances, FTC actions on “unfair” surveillance, and lawsuits over undisclosed face recognition in retail.
+
+- View: Individual evasion cannot solve a collective problem of consent, retention, purpose limitation, and accountability.
+- Impact: Retailers assume trust and regulatory risk while shoppers bear an unverifiable burden across potentially linked systems.
+- Watch next: Wegmans’ retention and opt-out rules, independent audits, enforcement actions, and legislation granting deletion or private-action rights.

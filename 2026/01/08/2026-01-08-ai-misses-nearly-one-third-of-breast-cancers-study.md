@@ -3,23 +3,17 @@
 - Score: 146 | [HN](https://news.ycombinator.com/item?id=46537983) | Link: https://www.emjreviews.com/radiology/news/ai-misses-nearly-one-third-of-breast-cancers-study-finds/
 
 ### TL;DR
-A single-center retrospective study of 414 women already diagnosed with breast cancer found a commercial AI mammography/MRI system missed 30.7% of tumors, especially small ones and those in dense breasts. Diffusion‑weighted MRI (DWI) reviewed by two radiologists detected about 80% of these AI-missed lesions, suggesting DWI is a useful safety net. Hacker News discussion stresses that the study measures AI sensitivity only in cancer-positive cases, omits false-positive rates, doesn’t compare AI to radiologists, and uses an older (circa‑2021) convolutional model.
 
----
+A retrospective case series tested one commercial 2021-era ConvNet on 414 women already diagnosed with breast cancer. It missed 127 lesions, or 30.7%, especially in dense breasts and tumors no larger than 2 cm. Two radiologists reviewing diffusion-weighted MRI found 83.5% and 79.5% of those misses, with weaker results below 1 cm. HN readers stressed that no healthy controls means no specificity or false-positive estimate, and the study neither compares humans against AI nor justifies claims about AI generally. Prospective multicenter validation remains necessary.
 
 ### Comment pulse
-- Study is cancer-only → measures AI sensitivity, not specificity; no healthy controls, so no false-positive rate or AI-vs-radiologist comparison.  
-  — counterpoint: still useful to bound best-case sensitivity for fully automated screening.
 
-- AI system is an older commercial ConvNet from 2021 → results may understate current models; headline’s generic “AI misses” misleads by implying all AI systems.
-
-- Methodology critiques: tiny sample of two radiologists, unblinded grading, biased case set (only positives) risks cognitive/anchoring bias; DWI evaluation not equivalent to real-world screening.
-
----
+- Scope → the cancer-only design estimates one system’s sensitivity, not screening accuracy, specificity, radiologist comparison, or AI generally.
+- Reproducibility → unclear software versioning and possible training overlap limit portability; a 2021-era model may already be obsolete.
+- DWI promise → it could provide a safety net — counterpoint: two readers examining known misses invite selection and anchoring bias.
 
 ### LLM perspective
-- View: Imaging AI should be treated like a medical device line, with explicit model/version labeling and regularly updated performance evidence.
 
-- Impact: Hospital buyers, regulators, and malpractice insurers must demand prospective, multi-center trials with head‑to‑head AI vs radiologist performance.
-
-- Watch next: Standardized “model cards” reporting sensitivity/specificity by breast density, tumor size, and modality, plus trials combining AI with targeted MRI sequences like DWI.
+- View: Clinically meaningful claims must name the versioned tool, population, workflow, and comparator.
+- Impact: Hospitals cannot infer replacement readiness, but can prioritize dense-breast and small-lesion failure audits.
+- Watch next: Prospective multicenter trials with healthy controls, blinded reads, representative prevalence, and sensitivity-specificity tradeoffs.

@@ -2,15 +2,18 @@
 
 - Score: 239 | [HN](https://news.ycombinator.com/item?id=46543420) | Link: https://www.404media.co/inside-ices-tool-to-monitor-phones-in-entire-neighborhoods/
 
-## TL;DR
-ICE has bought access to Penlink’s “Webloc” system, which ingests commercial phone location data from hundreds of millions of devices and lets agents draw a geofence around a neighborhood or block, then watch every phone inside over time—following people from workplaces to homes—without a warrant, per ICE’s own legal memo. The piece situates this within ICE’s mass deportation push and crackdowns on protected speech; civil liberties groups say it’s effectively dragnet, extra-judicial location surveillance.
+### TL;DR
 
-## Comment pulse
-- Smartphones as protest liability → phones, cars, routers, etc. with modems become tracking beacons; some recommend ditching phones at protests, plus tools like Rayhunter and Bluetooth mesh. — counterpoint: phones are vital for recording abuses.  
-- Phone abstinence vs. modern life → people fantasize about quitting mobiles but run into navigation, tickets, and “must-have-phone” workflows; yet even powered-off iPhones still participate in Find My tracking.  
-- Ad-tech data pipelines → location comes from SDKs and real-time bidding, often via benign apps like weather; denying permissions helps, but scale, dark patterns, and many apps favor trackers.  
+ICE bought access to Penlink’s Tangles and Webloc, tools that let agents draw geographic perimeters, identify mobile devices present, and trace their movements to likely homes and workplaces. The system relies on commercially acquired location and social-media data, which an internal ICE analysis argues can be queried without a warrant because users disclosed it to third parties. Civil-liberties experts dispute that consent rationale, warning of dragnet surveillance and abuse. Prior oversight found ICE and related agencies lacked required approvals and guardrails, yet ICE defended continued use.
 
-## LLM perspective
-- View: The core problem isn’t just ICE, but a commercial surveillance market selling warrantless location access to any sufficiently funded agency.  
-- Impact: Immigrants, protesters, and journalists are most exposed; but the same infrastructure can easily extend to broader political or social profiling.  
-- Watch next: Legislative moves on banning government purchase of commercial location data, plus court challenges testing “no warrant needed” theories.
+### Comment pulse
+
+- Readers treated phone tracking at protests as a practical threat, with some reconsidering whether to carry a device at all.
+- Others stressed the tradeoff: phones also document official misconduct, provide navigation, and enable emergency calls.
+- The thread challenged the idea that denying permissions is sufficient; common apps and advertising systems create many possible leakage paths.
+
+### LLM perspective
+
+- View: The shift is from investigating known people to discovering them by place and time, making location the selector.
+- Impact: Warrantless queries can convert app exhaust into population-scale maps of association, work, home, and political activity.
+- Watch next: Court tests, procurement disclosures, audit controls, and limits on government purchases of brokered data.

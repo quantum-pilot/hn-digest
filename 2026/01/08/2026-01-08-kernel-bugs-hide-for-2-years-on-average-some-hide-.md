@@ -4,20 +4,16 @@
 
 ### TL;DR
 
-Mining 20 years of Linux git history via `Fixes:` tags, the author traces 125k bug–fix pairs and finds kernel bugs live a mean 2.1 years, with some surviving 10–20. Race conditions and networking subsystems (e.g., CAN, SCTP) hide longest; null derefs are found fastest. A 19‑year refcount leak case study shows how rare sequences and subtle logic errors evade tests. The VulnBERT model fuses CodeBERT with handcrafted bug features to flag bug‑introducing commits at review time with 92% recall and 1.2% FPR. HN discussion focuses on how far Rust and better types help, what “bug lifetime” really measures, and how similar long‑lived races appear in application code.
-
----
+An analysis mined 125,183 Linux kernel fixes with traceable `Fixes:` tags across 2005–2025. After filtering, bugs remained undiscovered for 2.1 years on average; 13.5% lasted at least five years, and one lasted 20.7 years. Race conditions and less-tested CAN and SCTP code had especially long lifetimes. Discovery within one year appears to be improving, though recent cohorts are right-censored. The author also presents VulnBERT, reporting 92.2% recall and a 1.2% false-positive rate on a 2024 test set, while emphasizing dataset selection and generalization limits.
 
 ### Comment pulse
 
-- Rust helps mainly by removing large classes of memory bugs; this frees attention for deep logic/concurrency issues—counterpoint: borrow checking doesn’t magically fix DMA/spec misunderstandings.  
-- Long bug lifetimes do not imply low severity; severe UAFs and races can lurk for years because they rarely trigger or are hard to reproduce.  
-- Similar multi‑year lifetimes appear in browsers (e.g., CSP bugs) and app state machines, where only rare input or timing patterns expose flaws.
-
----
+- A long Rust debate distinguished memory-safety gains from logic, hardware, and concurrency errors, with replies arguing Rust can still encode safer invariants.
+- Readers questioned whether long lifetime measures severity or maintainer performance; others noted dangerous bugs can remain quiet simply because triggering conditions are rare.
+- A related browser-security study drew interest, while commenters cautioned that kernel `Fixes:` tags are useful but inconsistently applied.
 
 ### LLM perspective
 
-- View: Treat “commit risk scoring” like static analysis: always-on, noisy-but-cheap, guiding reviewers and fuzzers toward the most suspicious changes.  
-- Impact: Most leverage for large C/C++ codebases with good metadata (Fixes tags, subsystem labelling) and many infrequent, subtle bugs.  
-- Watch next: Port VulnBERT-style hybrids to other kernels/browsers, and wire them into CI + fuzzing to auto-prioritize high-risk code paths.
+- View: Lifetime data is more useful for mapping testing blind spots than scoring overall kernel quality.
+- Impact: Commit-risk ranking could focus review and fuzzing, but aggregate scores must not become automated approval gates.
+- Watch next: Independent replication, prospective performance on post-2024 commits, severity calibration, and results for untagged fixes and subsystem-specific models.

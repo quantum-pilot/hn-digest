@@ -3,18 +3,17 @@
 - Score: 161 | [HN](https://news.ycombinator.com/item?id=46537095) | Link: https://words.filippo.io/gosum/
 
 ### TL;DR
-Go’s `go.sum` file is not a lockfile and should not be used to infer dependency graphs or “what version was built.” It’s only a local cache of cryptographic hashes used to verify module contents against the Go Checksum Database; it has no influence on version resolution. Since Go 1.17, `go.mod` plays both roles—manifest and lockfile—by listing all direct and transitive dependencies and the exact versions used when that module is the main module. HN debates whether this really matches lockfile semantics and how it interacts with real‑world, semver‑breaking libraries.
 
----
+The author argues that go.sum should never be parsed as a dependency graph or version lock: it maps module versions to cryptographic hashes and locally caches Go’s checksum-database guarantees. Version selection lives in go.mod, which since Go 1.17 records every build-relevant direct and transitive dependency for the main module; readonly mode prevents undeclared resolution changes. HN discussion largely exposed terminology clashes. Some readers define lockfiles by integrity hashes, while others mean selected versions. Both matter, but go.sum’s security effect is separate from go.mod’s resolution semantics.
 
 ### Comment pulse
-- `go.mod` as precise build spec → With Go ≥1.17 and `-mod=readonly`, MVS happens when updating `go.mod`, so it encodes the actual chosen versions, not just minima.
-- Unused packages and bad semver → “Gigantic” cloud SDKs drag fragile transitive deps that still influence version selection; some devs resort to vendoring or splitting binaries to contain damage.
-- What is a lockfile? → Some insist hashes are essential; Go offloads that to the checksum DB + `go.sum`, worrying CI users who want hash-pinning — counterpoint: proxy + sums already block tag tampering.
 
----
+- Resolution → Go 1.17 records selected transitive versions in the main go.mod; later requirements must update that file.
+- Integrity → go.sum detects changed module contents — counterpoint: this security guarantee does not decide which version builds.
+- Terminology → ecosystems conflate resolved versions, checksums, and manifests under “lockfile,” making distinct technical claims appear contradictory.
 
 ### LLM perspective
-- View: Treat `go.mod` as the authoritative dependency graph; reserve `go.sum` purely for integrity checks and tooling that talks to the checksum DB.
-- Impact: Security and SRE teams should pivot scanners and SBOM tooling to `go.mod` parsing instead of mining `go.sum`.
-- Watch next: Better docs and examples around MVS, `-mod` modes, and CI workflows that guarantee reproducible builds without overloading `go.sum`.
+
+- View: Tooling should name the required property—version selection, dependency graph, or content integrity—before choosing an input file.
+- Impact: Scanners parsing go.sum may overreport stale modules while misunderstanding the build’s actual constraints.
+- Watch next: Better build-relevant graph tooling across platform constraints and clearer integrity-versus-resolution documentation.

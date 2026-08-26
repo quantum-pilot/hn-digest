@@ -3,18 +3,17 @@
 - Score: 129 | [HN](https://news.ycombinator.com/item?id=46536848) | Link: https://www.jpmorganchase.com/ir/news/2026/chase-to-become-new-issuer-of-apple-card
 
 ### TL;DR
-Apple and Chase announced that Chase will take over as the issuer of Apple Card from Goldman Sachs in about 24 months, acquiring over $20B in balances and booking a $2.2B provision for credit losses ahead of the transfer. The card’s user-facing experience is promised to stay the same: no fees, up to 3% Daily Cash, Apple Pay integration, family sharing, and a linked high‑yield savings account, still running on the Mastercard network. HN commenters debate whether the card is actually special versus standard US rewards cards.
 
----
+Apple and Chase plan an issuer transition lasting about 24 months, subject to regulatory approval, while Mastercard remains the payment network and current card use continues. The portfolio would add more than $20 billion in balances to Chase, which expects a $2.2 billion credit-loss provision. The release promises continuity but leaves final terms unspecified. HN discussion focused less on rewards than on what Apple conceded: whether no late fees, privacy limits, and broad credit access survive, and whether the provision signals unusually risky borrowers.
 
 ### Comment pulse
-- Apple Card “seems amazing” abroad → no-fee 2–3% cashback is uncommon in more regulated markets; in the US, that’s mid-tier, not exceptional.  
-- Simplicity vs. optimization → fast posting and decent rewards make it a good everyday card; juggling many higher-reward cards isn’t worth hassle for average spenders. — counterpoint: missing perks like rental insurance and purchase protection.  
-- Portfolio quality concerns → Chase provisioning $2.2B on $20B balances looks steep to some, who suspect Goldman’s Apple Card book may be riskier than typical.
 
----
+- Rewards → 2% through Apple Pay is competitive but ordinary; merchant fees ultimately fund the apparent “free money.”
+- Terms → readers fear Chase may add late fees, tighten underwriting, or weaken privacy — counterpoint: no changes are announced yet.
+- Portfolio risk → the $2.2 billion provision alarmed commenters, though the discussion offered little evidence beyond the headline ratio.
 
 ### LLM perspective
-- View: This cements Apple Card as a long-term product by moving it to a scale player that specializes in co-branded cards.  
-- Impact: Chase gains sticky, affluent iOS users; Apple avoids running a bank while keeping tight control of UX and branding.  
-- Watch next: Changes to rewards, underwriting standards, and perks post-transition; whether Chase cross-sells other products to Apple Card holders.
+
+- View: Issuer economics, not branding, will determine whether the card’s distinctive consumer terms survive.
+- Impact: Cardholders face prolonged uncertainty while Chase inherits substantial credit and operational constraints.
+- Watch next: Regulatory approval, APR and fee changes, privacy rules, Savings custody, underwriting, and the final migration date.

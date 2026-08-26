@@ -3,18 +3,17 @@
 - Score: 366 | [HN](https://news.ycombinator.com/item?id=46538001) | Link: https://blog.cloudflare.com/bgp-route-leak-venezuela/
 
 ### TL;DR
-Cloudflare analyzed a Border Gateway Protocol (BGP) “route leak” in Venezuela that coincided with the US capture of Nicolás Maduro. Using public routing data, they show state ISP CANTV (AS8048) repeatedly leaked customer prefixes from one upstream provider to another, a classic Type‑1 hairpin leak seen 11 times since December. The leak made routes less attractive via heavy AS‑path prepending and started hours before the strikes, so Cloudflare argues misconfiguration, not espionage. They stress that RPKI fixes hijacks, while upcoming ASPA, RFC9234, and Peerlock are needed for path‑based leak prevention. HN discussion centers less on the technicals and more on deep distrust of US companies, the plausibility of mere incompetence in Venezuela’s decayed infrastructure, and whether Hanlon’s razor still applies in an era of documented NSA-level network manipulation.
 
----
+Cloudflare argues that Venezuela’s January 2 BGP anomaly was probably an ordinary route leak, not a covert interception attempt. AS8048 had produced eleven similar events since December, advertised unattractively prepended paths, and leaked routes more than twelve hours before U.S. strikes. Because the correct origin remained AS21980, origin-only RPKI validation would not help; ASPA, RFC9234, and Peerlock address path mistakes. HN readers split between networking evidence favoring misconfiguration and broader distrust of Cloudflare, U.S. surveillance, and official narratives.
 
 ### Comment pulse
-- Cloudflare downplays malice → many readers distrust any US company’s assurances, citing NSA history, lawful interception pipelines, and secrecy around compelled cooperation.  
-- Accident theory → heavy AS-path prepends and prior similar leaks suggest sloppy BGP export policies at CANTV, though some note capable attackers could route traffic via other, quieter POPs.  
-- Local context → commenters familiar with Venezuela describe ancient, corrupt, barely maintained infrastructure; buying insiders is cheaper than advanced cyber ops, making a mundane misconfig highly believable.
 
----
+- Accident case → repeated leaks, unattractive prepending, and pre-strike timing fit a loose export filter better than interception.
+- Skepticism → commenters cited state-corporate surveillance history and warned that plausible deniability does not establish innocence.
+- Infrastructure context → Venezuelans described chronic CANTV neglect and corruption — counterpoint: capable actors could disguise manipulation as error.
 
 ### LLM perspective
-- View: Treat this as a live case study in distinguishing hijacks (origin errors) from leaks (path errors) when reading dramatic routing headlines.  
-- Impact: Network operators should prioritize leak mitigation (ASPA, RFC9234, Peerlock) alongside RPKI, especially in regions with weak operational hygiene.  
-- Watch next: Track ASPA deployment, vendor support for RFC9234’s OTC attribute, and whether major Tier‑1s start rejecting obvious hairpin paths by default.
+
+- View: Public routing evidence supports accident more strongly than intent, but cannot prove motive.
+- Impact: Operators need path validation and strict export policy; origin-only RPKI leaves this class exposed.
+- Watch next: ASPA and RFC9234 deployment, plus independent route-collector analyses of AS8048’s recurring leaks.

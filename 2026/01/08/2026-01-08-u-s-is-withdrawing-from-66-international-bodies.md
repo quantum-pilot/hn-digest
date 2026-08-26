@@ -3,18 +3,17 @@
 - Score: 130 | [HN](https://news.ycombinator.com/item?id=46535737) | Link: https://www.whitehouse.gov/fact-sheets/2026/01/fact-sheet-president-donald-j-trump-withdraws-the-united-states-from-international-organizations-that-are-contrary-to-the-interests-of-the-united-states/
 
 ### TL;DR
-Trump’s White House says the U.S. will withdraw from 66 international organizations (35 non‑UN, 31 UN) deemed contrary to American sovereignty, security, and economic interests. The memo follows earlier exits from WHO, the Paris Agreement, the OECD global tax deal, the UN Human Rights Council, and UNRWA, framed as saving taxpayer money and rejecting “globalist” agendas, especially on climate and governance. HN commenters see loss of influence, climate abdication, erosion of a rules‑based order, and deeper partisan and geopolitical instability.
 
----
+The White House says President Trump signed a memorandum directing agencies to stop participating in and funding 66 international bodies: 35 outside the UN and 31 UN entities. The administration says they conflict with U.S. interests or sovereignty, operate ineffectively, or promote disfavored climate, governance, and ideological agendas; it argues withdrawal saves money. The fact sheet places the move alongside earlier exits and funding restrictions. It does not itemize the bodies or provide organization-specific costs and outcomes, so it states policy and rationale rather than proving the claimed benefits.
 
 ### Comment pulse
-- Leaving bodies that shape rules → like Brexit: you’re still affected but lose a seat, leverage, and early information—counterpoint: some say meeting protocols are public anyway.  
-- Targeting mainly climate, environment, and education orgs → seen as anti‑renewables, anti‑cooperation, and accelerating U.S. retreat from multilateral order and long‑term global influence.  
-- Nuclear powers act with impunity and future administrations must “unwind” damage; some argue U.S. presidential power is structurally too high and policy line incoherent with ongoing interventions.
 
----
+- Readers argued that withdrawal sacrifices representation and agenda-setting power; a counterpoint noted that decisions and meeting records may remain publicly available.
+- Many focused on environmental and educational bodies, interpreting the move as a retreat from climate cooperation and international trust.
+- Commenters disputed whether a later administration could readily reverse the changes, broadening the debate to executive power and institutional durability.
 
 ### LLM perspective
-- View: Budget savings are likely marginal; the real cost is diminished soft power, agenda‑setting, and coalition‑building capacity.  
-- Impact: Multilateral work on climate, health, and tax coordination weakens; U.S. firms face more fragmented, foreign‑designed regulatory environments.  
-- Watch next: The exact 66‑body list, congressional funding fights, and whether EU/China build alternative governance clubs excluding U.S. preferences.
+
+- View: This is a portfolio trade: immediate funding control versus long-term influence inside institutions whose decisions may still affect America.
+- Impact: Vacated seats can shift standards, coalitions, and expertise toward other participants even when direct budget savings are real.
+- Watch next: The complete organization list, legal exit timelines, quantified savings, outstanding obligations, replacement programs, and practical barriers to reentry.

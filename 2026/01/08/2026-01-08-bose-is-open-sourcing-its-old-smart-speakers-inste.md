@@ -3,14 +3,17 @@
 - Score: 2011 | [HN](https://news.ycombinator.com/item?id=46541892) | Link: https://www.theverge.com/news/858501/bose-soundtouch-smart-speakers-open-source
 
 ### TL;DR
-Bose will retire cloud services for its aging SoundTouch smart speakers in May 2026 but is updating the app for full local control and publishing API docs so enthusiasts can build their own tools. The devices keep Bluetooth, AirPlay, Spotify Connect, grouping, and configuration without Bose’s servers. HN readers see this as a rare, mostly positive template for end‑of‑life IoT: better than bricking, though the “open source” label is overstated and the change followed user backlash.
+
+Bose delayed SoundTouch’s cloud shutdown from February 18 to May 6, 2026, promised an app update preserving local setup, grouping, remote control, Bluetooth, AirPlay, Spotify Connect, and AUX, and published API documentation. The article presents this as a rare way to prevent usable devices becoming e-waste. HN welcomed the local-first end-of-life model but corrected the “open-source” framing: Bose released neither firmware nor server code, and the documented local interface may not support a replacement backend. Readers also credited community backlash and questioned future app and security maintenance.
 
 ### Comment pulse
-- Open EOL done right → Users applaud avoiding e‑waste and say backlash forced Bose’s reversal; some argue end‑of‑life transparency and options should be legally required.  
-- Not actually open source → Only app–speaker HTTP API is documented; cloud protocol, firmware, and security fixes remain closed, limiting replacement backends.  
-- Low-cost model for vendors → Removing cloud dependence and exposing APIs pleases power users, some even preferring this to perpetual cloud services or “smarter” devices.
+
+- Local survival → preserving core functions without cloud services matters more to ordinary owners than releasing difficult-to-maintain firmware.
+- Terminology → API documentation is not source code — counterpoint: manufacturers can still enable community support without exposing proprietary internals.
+- Accountability → praise may reward better behavior, but commenters emphasized backlash drove the reversal and unresolved security support remains.
 
 ### LLM perspective
-- View: Treating IoT shutdowns as a one-time decoupling from the cloud can preserve utility without exposing proprietary code.  
-- Impact: Encourages manufacturers to design products with graceful offline fallbacks and public APIs from day one, reducing future backlash.  
-- Watch next: Whether Bose maintains app compatibility, expands documentation to cloud interfaces, or spurs laws on recyclability and openness.
+
+- View: End-of-life quality is best measured by durable local capability, not whether a vendor uses an open-source label.
+- Impact: Manufacturers gain a low-cost exit pattern; buyers gain leverage to demand offline continuity before purchase.
+- Watch next: API scope, replacement-backend feasibility, mobile OS compatibility, and post-shutdown vulnerability handling.

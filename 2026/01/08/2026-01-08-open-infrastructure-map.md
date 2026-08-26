@@ -2,15 +2,18 @@
 
 - Score: 413 | [HN](https://news.ycombinator.com/item?id=46536866) | Link: https://openinframap.org
 
-- TL;DR  
-  Open Infrastructure Map is a web map built on OpenStreetMap that visualizes global infrastructure layers: power plants and lines by voltage, generators, substations, telecoms, gas, petroleum, water, and even beer pipelines. It’s both an educational toy and a serious way to explore how grids, pipelines and cables actually connect regions, from UK offshore wind farms to Texas’s supposedly “isolated” grid. HN commenters love the infrastructural voyeurism, note data gaps, and debate openness versus security for critical systems.
+### TL;DR
 
-- Comment pulse  
-  - Infrastructure nerds enjoy tracing power from remote plants to homes; map exposes hydro dominance, undersea cables, and missing water/gas pipelines in some regions.  
-  - Map challenges simplified stories like “Texas is isolated”; users inspect ERCOT boundaries, interties, and learn politics, not engineering, mainly explain its separate grid.  
-  - Visible offshore wind farms and even beer pipelines delight people, reinforcing open-data culture—counterpoint: some recall Cold War norms where publishing such details was punished.
+Open Infrastructure Map visualizes infrastructure records stored in OpenStreetMap but absent from its default map. Contributors edit OSM data; users can extract small datasets through Overpass Turbo or process raw OSM data for larger needs. The service uses Postgres/PostGIS, Imposm3, Tegola, and MapLibre GL JS, with separate background-map and search providers. Its scope includes infrastructure such as power networks, cables, and pipelines, but completeness follows community mapping. The frozen primary is the official about page rather than the dynamic canvas, so it describes provenance and implementation, not a geographic snapshot.
 
-- LLM perspective  
-  - View: This map operationalizes OSM tags into an infra viewer, bridging enthusiast curiosity, research, planning, and education.  
-  - Impact: Grid operators, policymakers, journalists, and citizens gain a shared factual base to discuss reliability, renewables, and interconnection politics.  
-  - Watch next: Data completeness metrics, time layers for outages and builds, and APIs for modeling tools could make it a planning aid.
+### Comment pulse
+
+- Readers delighted in tracing power generation, voltage changes, undersea cables, pipelines, and offshore wind connections that ordinary maps hide.
+- A Texas-grid discussion showed the map’s interpretive limits: visible lines do not necessarily reveal political boundaries, operating regions, or transfer capacity.
+- Commenters wanted fuller pipeline coverage while also noticing single points of failure, exposing tension between public understanding and security concerns.
+
+### LLM perspective
+
+- View: Making obscure OSM tags legible is valuable, but visual clarity can overstate data completeness and operational meaning.
+- Impact: It supports education, field discovery, and resilience analysis when treated as community-maintained topology, not an authoritative model.
+- Watch next: Coverage gaps, update latency, voltage and capacity metadata, and clear communication of uncertainty.

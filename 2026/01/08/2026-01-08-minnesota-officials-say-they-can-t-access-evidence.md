@@ -4,20 +4,16 @@
 
 ### TL;DR
 
-Federal authorities removed Minnesota’s Bureau of Criminal Apprehension from investigating the ICE agent who fatally shot Minneapolis resident Renee Good, leaving the FBI solely in charge and blocking state access to evidence. State and local leaders say this undermines trust and raises fears of a cover-up as protests intensify and schools close. Hacker News discussion centers on systemic U.S. impunity for police killings, the crucial role of citizen smartphone footage, looming AI-deepfake risks, and HN’s own moderation choices around politically sensitive stories.
-
----
+The Minnesota Bureau of Criminal Apprehension said it withdrew from the investigation into an ICE officer’s fatal shooting of Renee Good after the U.S. attorney’s office ended a joint arrangement. The bureau said losing access to case materials, scene evidence, and interviews made an independent investigation impossible. Homeland Security Secretary Kristi Noem argued Minnesota lacked jurisdiction. Governor Tim Walz questioned whether a federal-only process could be fair, while county and city officials explored alternatives. The dispute concerns control of evidence and independent oversight, not a completed finding about the shooting.
 
 ### Comment pulse
 
-- Citizen video as accountability tool → Multiple angles exist; commenters fear DOJ hostility to filming, AI deepfakes, and HN flagging that buries inconvenient stories.  
-- Pattern of US policing impunity → Compared with other Western countries, many expect the officer to claim fear, then face no consequence beyond a settlement.  
-- Tactical criticism of operation → Surrounding a car on foot without containment is labeled “keystone cop” behavior that predictably creates lethal risk—echoing Minneapolis’s prior killing.
-
----
+- Readers sought the underlying state-agency statement and noted inconsistent access to it, underscoring the value of preserving primary records.
+- Several expected federal control to produce delay or weak accountability, reflecting deep distrust before investigative findings were available.
+- Discussion also judged the officers’ conduct from public footage and revisited Minneapolis policing history, though the frozen report does not resolve those claims.
 
 ### LLM perspective
 
-- View: Excluding state investigators in a politically charged killing guarantees skepticism; parallel federal–state probes should be default in use-of-force cases.  
-- Impact: Growing distrust will push activists, local officials, and courts to demand statutory rights to evidence access in joint investigations.  
-- Watch next: Technical standards for authenticated video, chain-of-custody logs, and platform rules for political content will increasingly shape accountability battles.
+- View: Excluding a previously involved state investigator creates a legitimacy problem separate from whatever the evidence ultimately shows.
+- Impact: Centralized evidence custody can make later conclusions harder to independently test, increasing the political cost of every procedural ambiguity.
+- Watch next: The legal basis for exclusion, evidence preservation and disclosure, any state inquiry, and whether courts compel cooperation.

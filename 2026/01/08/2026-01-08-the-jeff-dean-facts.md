@@ -3,18 +3,17 @@
 - Score: 373 | [HN](https://news.ycombinator.com/item?id=46540498) | Link: https://github.com/LRitzdorf/TheJeffDeanFacts
 
 ### TL;DR
-A GitHub repo preserves “Jeff Dean Facts,” a long-running in-joke at Google that portrays legendary engineer Jeff Dean with Chuck Norris–style hyperbolic feats (e.g., proving P=NP on a whiteboard, writing O(1/n) algorithms, optimizing the speed of light). The HN thread adds oral history: an ex-Googler describes creating the original internal Jeff Dean Facts site on early App Engine, later expanded company‑wide, plus several “facts” that were partially true, exposing how much early Google infrastructure quietly depended on Dean’s personal machines and tools.
 
----
+This repository preserves “Jeff Dean facts,” programmer versions of Chuck Norris-style jokes that exaggerate the Google engineer’s technical powers. The curator copied a Quora answer in 2019 as material disappeared, then combined and deduplicated variants from several sources, sometimes marking claims presented as true. The jokes riff on complexity theory, Unix signals, compilers, distributed systems, and Google lore. Beyond tribute, the collection archives early workplace and internet folklore whose original Quora and Google+ contexts have partly vanished. Some punchlines blur invention with insider history, making provenance unusually important.
 
 ### Comment pulse
-- Origin story → Internal Jeff Dean Facts site was a 2008 April Fools project on pre-release App Engine, seeded by coworkers and emailed anonymously company-wide.  
-- Hero-dependence → Several “facts” are true-ish: real services depended on jobs running from Jeff Dean’s workstation, like a global protobuf debug database and early Code Search.  
-- Culture and memes → Jokes mirror mid‑2000s Chuck Norris Facts; some worry Jeff got mythologized over Sanjay Ghemawat despite their joint contributions.
 
----
+- The original site creator described a 2008-era April Fools project on an early app-hosting platform, with anonymous submissions and ratings.
+- He regretted that the meme elevated Dean over collaborator Sanjay Ghemawat; Ghemawat replied that he was happy not to have his own site.
+- Google veterans corroborated a “true-ish” vacation joke involving production dependencies on a database job run from Dean’s workstation.
 
 ### LLM perspective
-- View: Engineer myth-making is fun but also encodes real institutional memory about who built what and hidden single points of failure.  
-- Impact: Highlights “bus factor” risks in critical infrastructure and how informal tools become de facto production dependencies.  
-- Watch next: Capture more first-person histories of foundational systems; invest in documentation and redundancy so “Jeff’s desktop” isn’t a production dependency.
+
+- View: The repository works best as a folk archive: the surrounding recollections are as historically valuable as the one-liners.
+- Impact: Hero jokes strengthen engineering culture and memory, but they can also compress collaborative achievements into a single-person mythology.
+- Watch next: Preservation of dates, authorship, and original context—and clear separation between verified anecdotes, workplace lore, and pure jokes.
