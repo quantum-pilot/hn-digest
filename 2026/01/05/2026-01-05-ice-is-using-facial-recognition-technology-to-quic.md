@@ -2,15 +2,18 @@
 
 - Score: 223 | [HN](https://news.ycombinator.com/item?id=46495560) | Link: https://www.wsj.com/politics/policy/ice-facial-recognition-app-mobile-fortify-dfdd00bf
 
-- TL;DR  
-    - Under Trump’s second term, ICE agents received a phone-based facial-recognition app that lets them photograph someone and instantly query government databases for identity and immigration status, greatly speeding street arrests. The Wall Street Journal notes that privacy advocates and some ex-officials see this as a major civil-liberties escalation. Hacker News discussion ties it to longstanding biometric targeting of minorities, US–China double standards, and the tendency of surveillance tools to spread across agencies and purposes once deployed.
+### TL;DR
 
-- Comment pulse  
-    - Modern ICE face scans continue older biometric policing → commenters cite civil-rights-era mass fingerprinting of Black people, emphasizing recurring safety-vs-liberty tradeoffs and minority targeting.  
-    - When China did this, US critics called it dystopian → similar US tools now normalize surveillance despite shaky law—counterpoint: China’s purposes and repression remain harsher.  
-    - Surveillance infrastructure rarely shrinks → commenters expect function creep across agencies like FBI, chilling dissent and behavior, while others blame voters empowering increasingly authoritarian governments.
+ICE has made Mobile Fortify, a CBP-built facial-recognition app, routine in immigration arrests: officers photograph people from roughly four feet, match identities and status against government databases, and retain the images. Officials report more than 100,000 field uses and say confirmed-only matches reduce mistaken detention. The Journal found no app-specific privacy impact assessment, while advocates fear warrantless scanning and mission creep. HN largely viewed normalization as a civil-liberties threat, though some distinguished lawful enforcement from authoritarian surveillance.
 
-- LLM perspective  
-    - View: Face-recognition for immigration enforcement should require explicit statutory limits, warrants for ad-hoc scans, and reporting on usage and errors.  
-    - Impact: Without guardrails, low-cost biometric tools incentivize bulk identity checks, disproportionately affecting migrants, minorities, and anyone lacking strong legal representation.  
-    - Watch next: Watch for lawsuits challenging warrantless scans, state or local bans on face surveillance, and contracts revealing data scope and retention.
+### Comment pulse
+
+- Civil-liberties critics predict mission creep and chilling effects from suspicionless scans → supporters say confirmed matches can reduce wrongful detention.
+- Historical comparisons to segregation-era fingerprinting and Chinese surveillance frame normalization, rather than technical novelty, as the central danger.
+- Weak oversight worries commenters → cross-agency adoption could spread biometric identification faster than use restrictions develop.
+
+### LLM perspective
+
+- View: Accuracy gains do not establish legitimacy; biometric arrest tools need use limits, disclosure, appeals, and deletion rules.
+- Impact: Immigrants face faster identification, while agencies gain reusable biometric infrastructure and the public inherits broader surveillance risk.
+- Watch next: Look for a privacy assessment, court challenges, local-police terms, false-match data, and retention rules.

@@ -3,18 +3,17 @@
 - Score: 349 | [HN](https://news.ycombinator.com/item?id=46498735) | Link: https://tenthousandmeters.com/blog/i-switched-from-vscode-to-zed/
 
 ### TL;DR
-A long-time VSCode user switched to Zed after AI-related features in VSCode became increasingly intrusive, buggy, and performance-heavy. Zed feels familiar (VSCode-like UI/keybindings) but is faster, more stable, and has unobtrusive AI. The main friction was configuring Python: understanding that Basedpyright’s type-checking mode is effectively driven by `pyproject.toml`, and that `disablePullDiagnostics` must be set for cross-file diagnostics. HN discussion centers on AI bloat, alternatives like VSCodium, Zed, and Emacs, and where editors should stop and specialized tools begin.
 
----
+Frustrated by VS Code’s recurring AI prompts, slower feel, bugs, and crashes, the author moved to Zed for Python and Go. Zed felt familiar, fast, stable, minimally configurable, and allowed its own AI features to stay unobtrusive, though its extension ecosystem and diff tooling lagged. Python required explicitly setting Basedpyright’s type-checking mode in pyproject.toml and adjusting diagnostics. Commenters noted VS Code offers a global AI-disable setting, proposed VSCodium and established editors as alternatives, and debated whether requested IDE features inevitably recreate bloat.
 
 ### Comment pulse
-- VSCode AI backlash → MS points to `chat.disableAIFeatures`, some users praise Copilot, others still experience popups and leave—counterpoint: at least there’s a single global opt‑out.
-- Alternatives split → Some adopt VSCodium to drop Microsoft/AI bits; others jump to Zed or Emacs for performance, remote dev, and long-term AI-free control.
-- Scope vs. bloat → Users want side-by-side diff and richer tooling in Zed; critics argue such features belong in dedicated tools, not a lean editor.
 
----
+- A VS Code maintainer pointed to chat.disableAIFeatures—counterpoint: users reported new prompts or interface clutter despite choosing broad opt-outs.
+- VSCodium preserves the open-source base without Microsoft branding, but proprietary extensions such as Pylance can make migration less straightforward.
+- Zed’s missing side-by-side diffs and deeper C/C++ tooling illustrate how useful additions can gradually conflict with lightweight-editor goals.
 
 ### LLM perspective
-- View: Zed is capitalizing on frustration with AI-heavy, Electron-based IDEs by offering speed, familiarity, and quieter AI integration.
-- Impact: Expect gradual migration by performance-sensitive and AI-skeptical developers, especially Python/Go users and remote-dev heavy workflows.
-- Watch next: Zed’s plugin ecosystem, C/C++ and debugging tooling, and how VSCode refines AI defaults and opt-out behavior in response.
+
+- View: Zed succeeds here by matching familiar workflows while making responsiveness and user-controlled AI behavior part of the product experience.
+- Impact: Editors risk losing developers when monetized features repeatedly interrupt core text manipulation, regardless of feature quality.
+- Watch next: Zed’s extension depth, Python configuration clarity, diff support, debugger maturity, and long-term stability will test retention.

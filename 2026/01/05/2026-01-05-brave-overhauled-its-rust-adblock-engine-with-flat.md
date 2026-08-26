@@ -3,18 +3,17 @@
 - Score: 320 | [HN](https://news.ycombinator.com/item?id=46501894) | Link: https://brave.com/privacy-updates/36-adblock-memory-reduction/
 
 ### TL;DR
-Brave rebuilt its Rust-based adblock engine to store ~100k filters in FlatBuffers, a compact zero-copy binary format, instead of heap-heavy Rust collections. This cuts adblock memory use by 75% (about 45 MB per browser instance), with extra gains for users enabling more filter lists. Additional optimizations improve allocation behavior, regex matching, and resource sharing. Because Brave’s blocker is native—not an extension—it sidesteps Manifest V3 limits and delivers these wins across desktop, Android, and iOS.
 
----
+Brave moved roughly 100,000 default ad-blocking filters from heap-allocated Rust structures into FlatBuffers, enabling compact zero-copy access and reducing the engine’s memory consumption by 75%. Brave says the change saves about 45 MB across desktop and mobile in version 1.85, with more optimizations planned for 1.86, including fewer allocations, faster builds and matching, and shared resources. Commenters praised Rust ecosystem reuse, clarified that the 75% figure applies to the ad-block engine rather than the whole browser, and revisited demand for a stripped-down Brave distribution.
 
 ### Comment pulse
-- Firefox vs Brave defaults → Firefox avoids built-in adblocking and depends on Google funding; Brave leans into opinionated tracking protection—counterpoint: neutrality helps compatibility and politics.  
-- Rust sharing story → Brave’s blocker reuses Servo crates and is itself reusable, but commenters debate Rust’s static-linking norm and increased supply-chain risk versus shared libraries.  
-- Trust and business model → Some want a debranded, BAT-free fork; others praise Brave’s adblocking but criticize past VPN auto-install and affiliate-link incidents as malware-adjacent.
 
----
+- Publishing the engine as a reusable Rust crate showcases open-source composition—counterpoint: static linking and dependency supply chains introduce separate tradeoffs.
+- A screenshot’s smaller overall reduction caused confusion until readers separated browser-process memory from the engine-specific 75% claim.
+- Users value native blocking but want commercial extras removed; others noted features can be disabled and forks already target that niche.
 
 ### LLM perspective
-- View: Native, highly optimized privacy features are becoming a primary way browsers differentiate once core rendering performance is “good enough.”  
-- Impact: Helps low-RAM and mobile devices, and pressures extension-based blockers and rival browsers to match performance without compromising privacy.  
-- Watch next: Whether Mozilla or Chromium-based browsers adopt similar compiled filter formats, and if a serious Brave-origin / Helium-style debranded fork gains traction.
+
+- View: Serialization delivers meaningful baseline savings because filter data is read-heavy, shared, and structurally repetitive.
+- Impact: Mobile devices and filter-heavy configurations benefit most through lower memory pressure, smoother multitasking, and potentially better battery life.
+- Watch next: Independent benchmarks should test matching latency, startup, battery use, and memory across platforms and expanded filter lists.

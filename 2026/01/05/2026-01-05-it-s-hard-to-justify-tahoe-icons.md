@@ -3,18 +3,17 @@
 - Score: 2304 | [HN](https://news.ycombinator.com/item?id=46497712) | Link: https://tonsky.me/blog/tahoe-icons/
 
 ### TL;DR
-The article dissects macOS Tahoe’s new “icon in every menu item” strategy and argues it directly contradicts decades-old Apple HIG usability principles. Icons should help you find and understand actions faster; Tahoe’s are tiny, over-detailed, inconsistent across and within apps, reused for different actions, and rely on subtle visual nuances users can’t reliably perceive. Many metaphors are arbitrary, especially for verbs, and mixed text/ellipsis/system-symbol icons undermine scanning and meaning. HN comments broaden this to a critique of Tahoe’s Liquid Glass aesthetics, messy windowing model, and Apple’s apparent loss of interaction-design leadership.
 
----
+macOS Tahoe adds monochrome icons to most menu commands, but the author argues ubiquity destroys their value as visual landmarks. Across stock apps, equivalent actions receive inconsistent symbols, identical symbols represent different actions, tiny detailed glyphs blur off the pixel grid, and weak metaphors make commands harder to infer or scan. The critique invokes Apple’s 1992 interface guidance as still grounded in human perception. HN commenters connected these failures to broader Liquid Glass clutter and organizational incentives, while a minority liked some skeuomorphic styling.
 
 ### Comment pulse
-- Liquid Glass and floating sidebars feel like flashy, distracting skins without affordances → optimized for demos and FOMO, not daily usability — counterpoint: some find skeuomorphic buttons pleasant on desktop.
-- macOS interaction model feels accreted: overlapping window switchers, permissions bugs, bloated menus → locked-down APIs block third parties from fixing basic window management.
-- Design direction seen as top‑down mandates (“icon for every action”, edge‑to‑edge canvases) with poor coordination → creatives notice the decay, average users mostly adapt silently.
 
----
+- Critics describe Tahoe as distracting and unreliable → floating bubbles, animation, visual glitches, and broken permissions compound the icon problems.
+- Pervasive icons and floating sidebars resemble top-down consistency mandates → implementation lacks coordination across even Apple’s stock apps.
+- Some users like button skeuomorphism → counterpoint: distortion, bubble-like chrome, and wasted space undermine useful affordances.
 
 ### LLM perspective
-- View: Treat icons as scarce, high-signal elements; reserve them for frequent, distinctive actions where recognition measurably beats plain text.
-- Impact: Better icon discipline would especially aid power users, accessibility users, and cross‑app learning; third‑party developers will follow Apple’s lead.
-- Watch next: Look for OS 27 design reversals, updated HIG icon sections, and independent usability studies comparing Tahoe vs. Sequoia menu task performance.
+
+- View: Icons accelerate recognition only when selective, consistent, legible, and semantically learnable; Tahoe weakens all four conditions.
+- Impact: Users absorb extra search and interpretation costs, while developers inherit an unstable visual vocabulary across system apps.
+- Watch next: Track macOS 27 reversals, SF Symbols harmonization, accessibility testing, and whether Apple reduces menu-icon density.

@@ -3,18 +3,17 @@
 - Score: 740 | [HN](https://news.ycombinator.com/item?id=46504963) | Link: https://loworbitsecurity.com/radar/radar16/
 
 ### TL;DR
-The newsletter investigates Border Gateway Protocol (BGP) data around Venezuela’s January 2026 blackout, prompted by US officials hinting at cyber operations aiding the seizure of Nicolás Maduro. Cloudflare and RIPE data show a short-lived BGP route leak involving Venezuela’s state ISP CANTV and Italian/Colombian transit providers, affecting eight prefixes belonging to Caracas ISP Dayco, which hosts banks and other critical services. While the timing aligns with kinetic operations, network engineers on HN largely interpret the patterns as routine misconfiguration and traffic engineering rather than a clear, malicious man‑in‑the‑middle operation.
 
----
+A security newsletter found a January 2 BGP route leak involving eight Dayco Telecom prefixes, Venezuela’s CANTV, Sparkle, and GlobeNet shortly before military events in Caracas. CANTV appeared ten times in the AS path; the author noted announcement spikes and reduced advertised address space, then speculated traffic might have been diverted for intelligence while acknowledging uncertainty. HN network practitioners strongly disputed that inference: CANTV is a legitimate Dayco upstream, repeated prepending is routine traffic engineering, and a loose export policy or outage better explains the data.
 
 ### Comment pulse
-- BGP anomaly looks mundane → engineers note heavy AS-path prepending, CANTV as legitimate upstream, and typical loose export policies causing leaks—counterpoint: coincidence with military action still intrigues some.  
-- DNS side-note → readers highlight 1.1.1.1’s high volume of HTTPS DNS records, tying it to Encrypted Client Hello and HTTP/3 discovery, mostly from Cloudflare and a few early adopters.  
-- Meta reaction → a few comments veer into jokes and conspiratorial asides, reflecting how opaque BGP incidents feed broader distrust of infrastructure and governments.
 
----
+- Operators see no evident hijack or communications disruption → the observed path still ends at Dayco and makes CANTV transit less attractive.
+- Timing attracted scrutiny → counterpoint: zoomed-out Cloudflare data reportedly did not make the attack night look abnormal.
+- Public routing data invites useful investigation → attribution still requires baselines, traffic evidence, and exclusion of commonplace leaks.
 
 ### LLM perspective
-- View: Open BGP telemetry lets outsiders correlate routing events with geopolitical crises, but attributing intent from routing alone is precarious.  
-- Impact: Network operators gain another cautionary example; policymakers see again how fragile, unprotected BGP is in high-stakes environments.  
-- Watch next: Independent postmortems combining BGP, power-grid data, and on-the-ground timelines, plus pressure for wider RPKI deployment and stricter export policies.
+
+- View: An anomaly is an observation, not attribution; path structure alone cannot establish intent, interception, or operational effect.
+- Impact: Overstated cyber claims can distort geopolitical analysis while obscuring ordinary routing-hygiene failures.
+- Watch next: Compare historical AS8048 exports, prefix reachability, collector coverage, outage telemetry, and corroborating incident reports.

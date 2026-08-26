@@ -3,14 +3,17 @@
 - Score: 296 | [HN](https://news.ycombinator.com/item?id=46495220) | Link: https://consumer.drop.privacy.ca.gov/
 
 ### TL;DR
-California has launched DROP, a state-run portal letting verified residents send a single deletion and opt‑out request to all registered data brokers. Users must prove residency via third‑party identity vendors and provide enough personal data to match broker records; brokers then must process deletions at least every 45 days starting August 2026. Hacker News welcomes the one‑stop interface but worries about outsourcing verification, technical access barriers, cross‑state data flows, and loopholes that may let brokers quickly re‑collect deleted data.
+
+California’s DROP platform lets verified residents send one continuing deletion and sale-sharing opt-out request to registered data brokers. Users authenticate residency through Socure or Login.gov and may provide identifiers such as names, birth dates, emails, device IDs, or vehicle numbers; supplying more improves matching but exposes more data for processing. Beginning August 1, 2026, brokers must process requests at least every 45 days. Commenters welcomed centralized coverage but questioned outsourced verification, re-collection between cycles, cross-state data flows, enforcement strength, and access failures.
 
 ### Comment pulse
-- Outsourcing verification is bad policy → expands data exposure to contractors; state should run identity checks — counterpoint: existing providers make deployment faster.  
-- Effectiveness is doubtful → brokers can reimport data frequently, delete only every 45 days, and exploit out‑of‑state partners where California law has little reach.  
-- Key change is usability → right to deletion existed, but the registry and single portal simplify exercising it and could inspire other states.  
+
+- Centralizing requests removes broker-by-broker labor, but effectiveness depends on registration completeness, regulator enforcement, exemptions, and accurate identity matching.
+- Privacy advocates disliked sending sensitive identifiers through contractors—counterpoint: brokers need stable matching data to find and delete scattered records.
+- Re-acquisition could restore data between 45-day processing runs, creating compliance gaps even when a broker technically follows the schedule.
 
 ### LLM perspective
-- View: DROP pilots government‑managed privacy UX; future systems could integrate browser signals or OS‑level privacy controls for seamless opt‑outs.  
-- Impact: Central registry gives regulators data to spot abusive brokers via complaint clustering, deletion lag patterns, and repeated re‑collection behavior.  
-- Watch next: Public compliance dashboards, first fines against non‑responsive brokers, and interstate agreements to honor California deletion requests nationwide.
+
+- View: DROP converts an existing legal right into usable infrastructure, while shifting risk toward verification and recurring compliance.
+- Impact: Californians gain leverage at scale; brokers face standardized requests, operational deadlines, and greater regulatory visibility.
+- Watch next: Completion rates, false matches, broker registration coverage, enforcement actions, and post-deletion reappearance will determine practical value.

@@ -3,18 +3,17 @@
 - Score: 337 | [HN](https://news.ycombinator.com/item?id=46494734) | Link: https://sparkbox.com/foundry/helene_and_mobile_web_performance
 
 ### TL;DR
-During Hurricane Helene, unreliable mobile data made most emergency and government sites unusable: bloated JS, heavy images, PDFs, and complex navigation blocked basic needs like road and shelter info. The only consistently useful resource was a plain-text daily email from a state representative listing food, power, fuel, and closures. The piece argues that critical sites should prioritize fast, semantic, mobile-first HTML and clear information architecture. HN discussion highlights existing but under-advertised text-only news modes, pervasive web bloat, and ideas for standardized “lite” endpoints.
 
----
+After Hurricane Helene damaged power and cellular infrastructure in western North Carolina, the author could not load road closures or emergency notices on media-heavy, interactive government sites. A plain bulleted email from a state representative proved more useful, listing food, water, shelter, fuel, road, and service updates. The experience motivates a broader plea for semantic HTML, small assets, limited JavaScript, responsive design, and direct information architecture. Commenters endorsed discoverable text-only versions while noting the article itself transferred far more data than its text required.
 
 ### Comment pulse
-- Many outlets already expose lite/text subdomains, but they’re hidden, still ship heavy CSS and cookie banners; commenters want a standardized “reader/text” endpoint.  
-- Sparkbox’s own article page sends ~1.18MB for 6.7KB of text; a 500KB hero PNG could be a 15KB AVIF—undermining its performance message.  
-- Plain HTML and forms can handle most interactions; JS-only sites like modern GitHub regress resilience. Newspack’s Helene-era text sites helped thousands but lacked discoverability.
 
----
+- Existing lite news sites show demand for a discoverable standard, though cookie banners and excess CSS can undermine their purpose.
+- Disaster survivors recommended static fallbacks, radio, redundant carriers, cash, fuel, and power options because connectivity and payment networks fail unevenly.
+- Plain HTML and forms preserve essential interaction on weak connections—counterpoint: modern sites increasingly require JavaScript even for basic browsing.
 
 ### LLM perspective
-- View: Treat emergency, utility, and banking sites like infrastructure, with mandated lightweight fallbacks and strict mobile performance budgets.  
-- Impact: CMS vendors, agencies, and newsrooms must ship design systems defaulting to semantic HTML, progressive enhancement, and outage-conscious content.  
-- Watch next: Standardize a .well-known or header for text-only views, and add disaster-mode benchmarks to performance tools and procurement checklists.
+
+- View: Emergency performance is an accessibility requirement: critical facts should survive partial loading, old devices, and failing networks.
+- Impact: Governments, utilities, insurers, and providers can reduce disaster risk by publishing prioritized, cacheable text alongside rich interfaces.
+- Watch next: Agencies should test critical journeys under 2G conditions and establish automatic static fallbacks with freshness indicators.
