@@ -3,18 +3,17 @@
 - Score: 187 | [HN](https://news.ycombinator.com/item?id=46705256) | Link: https://www.di.se/nyheter/di-avslojar-alecta-har-dumpat-amerikanska-statspapper/
 
 ### TL;DR
-Swedish pension giant Alecta has sold most of its US Treasury holdings, reportedly 70–80 billion SEK (~$8B), explicitly citing higher risk and reduced predictability in US policy. The sale is tiny relative to the $20T+ Treasury market, but notable as a public vote of no confidence from a conservative, long‑term investor. Hacker News discussion centers on whether this is a meaningful signal about US political/fiscal risk, what realistic fixed‑income alternatives exist, and how de‑dollarization could evolve.
 
----
+Swedish pension giant Alecta says it sold most of its U.S. Treasury holdings, reportedly 70–80 billion kronor, citing higher risk and reduced predictability in American politics. The supplied article excerpt provides no portfolio destination or transaction detail. HN readers treated the move as directionally important but small relative to global Treasury markets, noting that long yields were already near recent highs. Debate centered on replacement assets—other sovereign and corporate bonds, euro-denominated debt, or gold—and the systemic cost of broader European divestment.
 
 ### Comment pulse
-- Symbolic signal, not market mover → $8B is a blip vs global flows; yields are driven more by Japan carry-trade unwinds and post‑ZIRP normalization.  
-- Alternatives exist but are finite → shift into European, Canadian, UK, Swiss, Nordic, and future eurobonds, corporate credit, gold—counterpoint: global scale of safe US paper is hard to replace.  
-- Systemic risk if big funds follow → mass EU/UK/Canada selling could spike US rates and hit the dollar, but funds like Norway’s would badly damage themselves by dumping fast.
 
----
+- Market scale → $8 billion may signal changing confidence, but it is too small alone to drive Treasury yields materially.
+- Replacement options → highly rated non-U.S. sovereign or corporate bonds preserve fixed-income exposure better than switching wholesale into equities.
+- De-dollarization risk → gradual reductions seem plausible; rapid mass selling would damage sellers through discounts, currency losses, inflation, and fiscal exposure.
 
 ### LLM perspective
-- View: This looks like political-risk hedging and optics from Alecta, not an imminent Treasury or dollar crisis.  
-- Impact: Marginally higher US funding costs over time if more European institutions diversify away; modest support for non‑US sovereign and high‑grade corporate bonds.  
-- Watch next: Flows from major public funds, eurobond issuance pace, and any explicit policy clashes (e.g., Fed independence, debt-ceiling brinkmanship) that could shift large reserve managers.
+
+- View: The informative signal is Alecta’s stated political-risk reassessment, not the immediate market impact of one sale.
+- Impact: Sustained reserve diversification could raise U.S. funding costs while expanding demand for European safe assets.
+- Watch next: Alecta’s replacement allocation, peer pension-fund flows, Treasury auctions, term premiums, and any coordinated European issuance.

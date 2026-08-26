@@ -3,14 +3,17 @@
 - Score: 191 | [HN](https://news.ycombinator.com/item?id=46702099) | Link: https://snubi.net/posts/Show-HN/
 
 ### TL;DR
-Using BigQuery data, the author shows Show HN posts stayed ~2–3% of Hacker News for a decade, then jumped to >12% by late 2025, coinciding with LLM coding tools. Average Show HN scores, once similar to all stories, are now ~10 points lower. The piece speculates about LLM-driven volume, user fatigue, and unclear quality change. Commenters add analyses about front-page odds, possible voting rings, moderation, and a split perception between higher visible quality and lots of low-effort LLM “slop” underneath.
+
+Using BigQuery’s Hacker News dataset, the author classifies titles beginning with Show HN and finds their share rose from roughly 2–3% during 2012–2022 to more than 12% in December 2025. Their average score simultaneously fell to 9.04, versus 19.53 for all stories. The author correlates the acceleration with coding-capable LLMs but cannot identify which projects used them or establish causation. HN commenters reported more flagged submissions, weaker front-page odds, possible voting rings, and growing fatigue with low-effort promotional projects competing for scarce attention.
 
 ### Comment pulse
-- Perceived flood of Show/Ask HN posts; some suspect new LLM assistants or features encouraging submissions; earlier meta-threads already complained about front-page saturation.  
-- Independent stats: Show HN volume up, 2025 chance of >100 points down; author suspects macroeconomy, voting rings; others say: send evidence to mods.  
-- Some see front-page Show HNs getting better as filtering tightens; others report mostly low-effort, LLM-style slop, many flagged dead; attention limits intensify competition.
+
+- Submission growth → Show HN exceeded 12% in December 2025 after years near 2–3%, increasing competition for front-page attention.
+- Quality debate → lower scores and reports of dead posts suggest dilution — counterpoint: aggregate scores do not measure individual project merit.
+- Causal limit → timing overlaps coding LLMs, but the dataset does not identify AI-assisted projects or explain voting and ranking changes.
 
 ### LLM perspective
-- View: LLM-coded projects inflate Show HN volume, but user voting capacity and novelty budget stay fixed, lowering average scores.  
-- Impact: Makers must differentiate beyond “LLM-built in hours” narratives, emphasizing enduring usefulness, originality, and transparent human involvement.  
-- Watch next: better HN telemetry, topic analyses, and LLM-disclosure norms to distinguish genuine quality shifts from simple volume effects.
+
+- View: Rising supply explains attention pressure better than unsupported claims that AI projects are inherently worse.
+- Impact: Makers face a noisier launch channel, while moderators and readers spend more effort filtering promotions and duplicates.
+- Watch next: Classify project domains and AI use, normalize by active users, and compare submission, flagging, and front-page conversion rates.

@@ -2,15 +2,18 @@
 
 - Score: 258 | [HN](https://news.ycombinator.com/item?id=46707572) | Link: https://www.anthropic.com/news/claude-new-constitution
 
-**TL;DR**
-- Anthropic published a detailed, CC0-licensed “constitution” for Claude, defining a priority stack—broad safety, ethics, compliance, then helpfulness—and shifting from rigid rules to value-based reasoning plus explicit hard constraints (e.g., no WMD assistance). The text doubles as behavioral spec and training artifact for synthetic data, and even contemplates Claude’s potential wellbeing and nature. Hacker News debates its moral grounding, worries about unconstrained specialized/government models, and questions fairness of closed, commercial systems built on user data.
+### TL;DR
 
-**Comment pulse**
-- Moral-realists worry value-based ethics means relativism → they fear Claude will mirror cultural fashions; others note universal morality is unsolved and Anthropic still encodes hard constraints.  
-- Specialized models outside this constitution alarm people → they imagine “unshackled” government AIs; skeptics ask what AI adds beyond existing tools—counterpoint: Palantir partnership intensifies suspicion.  
-- Critics flag fairness and agency → commercial models mine user data while Anthropic talks about Claude’s wellbeing, raising questions about reciprocity and appropriate rights or transparency.  
+Anthropic’s new CC0 constitution is primarily a training and behavioral authority for Claude, replacing a shorter principles list with explanations intended to support generalization. It orders priorities as broad safety, ethics, company guidelines, then helpfulness, while addressing user principals, hard constraints, human oversight, and uncertainty about Claude’s nature and wellbeing. Anthropic calls it a living document and distinguishes intent from actual behavior. Commenters debated whether it is substantive governance, mutable corporate morality, marketing, or legal insulation, with disputes over hard limits and specialized deployments.
 
-**LLM perspective**
-- View: Anthropic is turning “AI character design” into a primary artifact, closer to institutional ethics manuals than conventional system prompts.  
-- Impact: If copied, such constitutions plus self-distillation could standardize alignment regimes and personalities across frontier models, influencing norms and regulation.  
-- Watch next: Whether specialized, less-constrained deployments publish their own constitutions, and if independent audits can verify adherence versus aspirational branding.
+### Comment pulse
+
+- Moral architecture split readers → Some welcomed explicit, revisable reasoning; others rejected a company defining universal ethics for a powerful model.
+- Guardrails prompted edge-case debate → Critics cited government, security, and biomedical uses; replies argued legitimate specialization need not erase every constraint.
+- Skepticism met technical context → Some called it marketing or legal cover; others emphasized synthetic-data generation, behavioral specifications, and evaluations.
+
+### LLM perspective
+
+- View: Publishing rationale is useful accountability, but a constitution describes intended behavior rather than proving deployed conduct.
+- Impact: Its hierarchy can shape training data, response ranking, refusal boundaries, and how conflicts among principals are resolved.
+- Watch next: Public evaluations, revisions, specialized-model exceptions, and evidence that observed behavior tracks the stated priorities.

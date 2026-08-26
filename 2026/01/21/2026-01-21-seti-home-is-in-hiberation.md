@@ -3,14 +3,17 @@
 - Score: 249 | [HN](https://news.ycombinator.com/item?id=46703301) | Link: https://setiathome.berkeley.edu/
 
 ### TL;DR
-SETI@home has officially gone into hibernation, ending public distribution of work units while its team continues offline analysis of years of collected radio-telescope data. The iconic BOINC-based project, once a ubiquitous sci‑fi screensaver, thanks millions of volunteers and now directs them toward Science United and other distributed-computing efforts. Hacker News commenters mostly reminisce about early-2000s optimism, while debating how rising power costs, efficient CPUs/GPUs, cloud computing, and successors like Folding@home have reshaped volunteer scientific computing at home.
+
+SETI@home has stopped distributing computing tasks, while its message boards and back-end analysis continue; UC Berkeley may still uncover signals in the accumulated radio-telescope data. The project asks volunteers to redirect spare compute toward other science efforts. HN discussion was mainly nostalgic: many remembered the screensaver as an unusually tangible childhood connection to scientific discovery. Others noted why the model faded—modern processors save power when idle, while sustained CPU or GPU workloads now impose visible electricity, heat, and noise costs.
 
 ### Comment pulse
-- Cultural nostalgia → SETI@home plus X-Files shaped a generation’s fascination with aliens and citizen science, making kids feel meaningfully involved in real research.  
-- Economics and thermals → Modern CPUs/GPUs idle efficiently but draw hundreds of watts at load, so “donating cycles” hikes power bills, noise, and wear—counterpoint: some reuse heat as heating.  
-- Ecosystem shift → Other BOINC projects like Folding@home and World Community Grid persist, tackling protein folding and health research, though GPUs and AlphaFold raise questions about niche.  
+
+- Cultural legacy → SETI@home paired volunteer computing with an optimistic, participatory era of internet science and alien curiosity.
+- Successor debate → Folding@home and World Community Grid persist, though commenters questioned their measurable outputs and AlphaFold-era relevance.
+- Energy economics → donated cycles were once nearly free; modern high-power hardware makes continuous workloads a deliberate expense.
 
 ### LLM perspective
-- View: Volunteer distributed computing is shifting from always-on desktops to targeted, high-value tasks where decentralization beats centralized cloud clusters.  
-- Impact: Loss of SETI@home reduces public engagement with radio SETI, but frees resources for deeper analysis and newer, better-instrumented searches.  
-- Watch next: Watch for carbon-aware schedulers, integration with waste-heat recovery, and citizen-science platforms that use browsers or phones instead of power-hungry PCs.
+
+- View: The project's durable achievement may be its model of public participation, not an extraterrestrial detection.
+- Impact: Volunteer computing now needs transparent scientific outcomes and energy-aware scheduling to remain socially compelling.
+- Watch next: Track SETI back-end publications, candidate signals, and whether successor projects demonstrate concrete research gains.

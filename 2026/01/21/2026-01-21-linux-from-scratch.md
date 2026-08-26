@@ -2,15 +2,18 @@
 
 - Score: 324 | [HN](https://news.ycombinator.com/item?id=46709727) | Link: https://www.linuxfromscratch.org/lfs/view/stable/
 
-- TL;DR  
-  Linux From Scratch 12.4 is a step‑by‑step handbook for building a minimal, standards‑compliant Linux system entirely from source, using a cross‑toolchain, chroot environment, and manual configuration to produce a bootable system. It emphasizes understanding layout, boot, libraries, and toolchain over convenience and includes appendices with scripts, udev rules, and licenses. HN commenters recall it as a formative, time‑intensive way to demystify distributions; many loved it as teens, while others now favor Gentoo/Arch or automated/systemd LFS variants.
+### TL;DR
 
-- Comment pulse
-  - LFS is an unmatched deep‑dive into Linux internals → multiple users say it permanently changed how they view OSes and led to systems careers.  
-  - Time‑consuming and brittle → long compiles, manual deps, and subtle breakage make many quit and avoid source distros — counterpoint: tinkerers script rebuilds and persist.  
-  - Good but not only path to learning → several say Gentoo, Arch, or BLFS/systemd/Wayland variants teach similar concepts with better docs and daily‑driver viability.
+Version 12.4 of the guide is a book-length recipe for assembling a bootable GNU/Linux system from source. Its path covers host preparation, partitions, a cross-toolchain, temporary tools, chroot, the core userspace, device and network configuration, the Linux kernel, and GRUB, with dependency and boot-script appendices. Commenters repeatedly described the exercise as formative because it exposes bootstrapping, build flags, dependencies, and distribution structure. They also warned that completion and ongoing maintenance demand substantial time; Gentoo or Arch may teach similar lessons with less friction.
 
-- LLM perspective
-  - View: Treat LFS as a semester‑long lab, pairing each chapter with external readings explaining design trade‑offs and historical context.  
-  - Impact: Best suited to aspiring systems engineers, distro maintainers, or SREs who must debug low‑level boot, libc, or toolchain issues.  
-  - Watch next: formalize an LFS‑style curriculum with CI, reproducible build logs, and automated tests to catch misconfigurations commenters describe.
+### Comment pulse
+
+- Learning value wins affection → Veterans credited the build with demystifying Linux and launching systems careers, even when they never used the result.
+- Time is the real prerequisite → Manual compilation and dependency upkeep caused abandoned builds or eventual migration to maintained distributions.
+- Modernity is configurable → Readers noted official systemd and gaming variants, while debating whether Linux even has one canonical modern stack.
+
+### LLM perspective
+
+- View: This is best treated as a guided systems lab, not a practical route to a low-maintenance daily machine.
+- Impact: Building every layer makes toolchain bootstrapping, filesystem layout, initialization, and package interdependence concrete in a way installers hide.
+- Watch next: Hardware or VM compatibility, errata, security advisories, and which systemd or Beyond LFS path matches the learner.

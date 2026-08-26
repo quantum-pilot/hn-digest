@@ -2,19 +2,18 @@
 
 - Score: 286 | [HN](https://news.ycombinator.com/item?id=46705606) | Link: https://cyberlaw.stanford.edu/publications/how-ai-destroys-institutions/
 
-## TL;DR
-The essay argues that modern AI systems are structurally incompatible with healthy civic institutions like courts, universities, and the press. Institutions work by cultivating expertise, accountable hierarchies, interpersonal trust, and slow, transparent deliberation. By contrast, AI centralizes opaque decision-making, devalues human expertise, accelerates choices beyond scrutiny, and intermediates people from one another. The authors claim this doesn’t just “stress” institutions but systematically undermines their legitimacy, making current AI designs a kind of death sentence unless treated as something to be sharply limited in civic life.
+### TL;DR
 
----
+The paper argues that indiscriminate AI adoption threatens civic institutions because its core affordances degrade expertise, short-circuit accountable decision-making, and replace human relationships. Applying that framework to law, universities, journalism, and democratic life, it says efficiency incentives encourage cognitive offloading, opaque moral choices, homogenized information, and lost social capital. It advocates bespoke, non-extractive, humanizing systems plus structural regulation and outright bans for some uses. Commenters largely treated AI as an accelerant, disputing whether deeper causes are institutional decay, capitalism, manipulation, or public distrust.
 
-## Comment pulse
-- AI isn’t the root cause, just an accelerant → preexisting decay from social media, capitalism, and bad-faith actors; AI pours gasoline on an already-burning fire.  
-- Institutions already lost trust → press, courts, universities seen as corrupt or captured; others reply they’ve always been imperfect but remain vastly better than social media.  
-- Paper itself questioned → draft, not peer-reviewed, factual and spelling issues; critics say it ignores why AI feels attractive where institutions are expensive or failing.
+### Comment pulse
 
----
+- Causation drew the main dispute → Many saw AI as gasoline on older crises; others located the engine in capitalism or institutional design.
+- Institutional legitimacy was contested → Critics called press, law, and universities already compromised; replies said imperfect institutions still outperform social media.
+- Evidence quality worried readers → One commenter characterized the draft as an opinion piece, challenging its FDA example, sourcing, errors, and peer-review status.
 
-## LLM perspective
-- View: The real issue is unconstrained AI use in core institutional workflows, not AI’s mere existence.  
-- Impact: Courts, regulators, universities should define “non-delegable” human duties and require auditable AI use where allowed.  
-- Watch next: Comparative studies of AI’s effects on trust, error rates, and participation in institutions; legal standards for explainability and oversight.
+### LLM perspective
+
+- View: The institutional lens is valuable, but the paper’s sweeping causal claims exceed what its examples alone establish.
+- Impact: AI procurement can quietly relocate judgment, accountability, training, and public trust before organizations measure those losses.
+- Watch next: Peer review, stronger causal evidence, institutional outcome studies, and concrete tests for bespoke, non-extractive, humanizing deployments.

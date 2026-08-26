@@ -2,15 +2,18 @@
 
 - Score: 202 | [HN](https://news.ycombinator.com/item?id=46705715) | Link: https://www.theregister.com/2026/01/21/ireland_wants_to_give_police/
 
-## TL;DR
-Ireland’s proposed Communications (Interception and Lawful Access) Bill would replace a 1993 law, letting Gardaí intercept all digital communications, including E2EE chats and IoT data, and legally deploy spyware, IMSI catchers, and device-scanning tools, under promised judicial oversight and EU-aligned safeguards. Civil-liberties groups warn of mass surveillance, biometric expansion, and irreversible normalization of exceptional powers. Hacker News commenters largely distrust police competence and motives, seeing global surveillance pushes as vendor- and politics-driven rather than crime-solving necessities.
+### TL;DR
 
-## Comment pulse
-- More powers vs poor policing → commenters cite cases where police ignored imminent murders and note courts say US police needn't protect individuals.  
-- Surveillance tech underdelivers → systems like Flock aid stalking abuses but rarely solve serious crimes; asset forfeiture allegedly motivates drug raids more than victim protection.  
-- Global push for surveillance → attributed to vendor lobbying, intel briefings, and media-driven fear; others mention Davos agendas—counterpoint: also reflects publics prioritizing safety over privacy.  
+Ireland’s proposed Communications (Interception and Lawful Access) Bill would replace a 1993 law, extend interception to IoT, email, messaging, and encrypted communications, and create a legal basis for tightly authorized spyware. It also contemplates scanning devices at specific locations, including with IMSI catchers. The government promises necessity, proportionality, judicial approval, oversight, privacy safeguards, and provider cooperation, but has not explained how encrypted access would work. Commenters overwhelmingly feared mission creep and abuse, while one counterpoint noted that precise device-location powers can aid people in immediate danger.
 
-## LLM perspective
-- View: Ireland is formalizing offensive cyber powers while gesturing at safeguards; effectiveness will hinge on narrow, enforceable legal thresholds.  
-- Impact: Risk is normalization and function creep: tools introduced for terrorism or CSAM investigations sliding into routine, low-level policing.  
-- Watch next: Track draft bill language on E2EE, device hacking, and IMSI catchers, plus commitments to transparency reports and independent oversight audits.
+### Comment pulse
+
+- Capacity versus performance dominated → Readers questioned expanding surveillance while ordinary emergency response remains poor; a reply said staffing alone may not fix policing.
+- Rights erosion looked systemic → Commenters linked parallel national proposals to vendor lobbying, intelligence pressure, technological change, and governments’ appetite for available data.
+- Encryption remained categorical → Readers rejected privileged backdoors and warned state spyware creates asymmetric rules unless defensive countermeasures remain lawful.
+
+### LLM perspective
+
+- View: The proposal defines expansive outcomes before supplying the technical mechanism or enough detail to assess claimed safeguards.
+- Impact: Endpoint compromise and location scanning could expose far more than targeted messages, raising security and proportionality risks.
+- Watch next: Draft text, warrant standards, offense thresholds, oversight independence, provider duties, notification rules, and remedies for abuse.

@@ -3,18 +3,17 @@
 - Score: 227 | [HN](https://news.ycombinator.com/item?id=46700503) | Link: https://rss.social/
 
 ### TL;DR
-RSS.Social is a reader-friendly front page for Kagi’s Small Web: a constantly updating stream of posts from tens of thousands of independent sites. It tries to solve the hardest part of RSS today—discovery—by surfacing the “latest and best” from this curated corpus, effectively acting as an opinionated meta-feed. HN commenters like the concept and share alternative filters, but worry about centralization, RSS’s fragility, and the site’s incomplete explanation of how “best” is ranked.
 
----
+RSS.Social presents a sparse homepage promising recent, high-quality posts from small websites, but the supplied page gives no feed list, ranking method, or operational details. Discussion placed it in the Kagi Small Web ecosystem, whose contributors described a large, actively maintained catalog and alternate curated feeds. Readers liked having another discovery layer yet questioned what “best” means, whether centralized aggregation conflicts with RSS’s direct-subscription model, and how incomplete coverage is handled. Others argued convenience and community curation are precisely what today’s fragile RSS ecosystem lacks.
 
 ### Comment pulse
-- Discovery via Kagi Small Web + HN → Users chain `hcker.news` with Kagi’s Small Web feeds and “appreciated” subfeeds to cut noise from the raw firehose.  
-- Kagi integration benefits → Kagi’s maintainer notes ~29k sites, ~10 new/day, with Small Web content boosted in Kagi search and browsable in a visual directory.  
-- Centralization and opacity concerns → Some see a centralized meta-feed as against RSS’s spirit and ask how “best” is chosen; others propose IndieBlog, Pingback-like ideas, or accept Gmail-style centralization.
 
----
+- Discovery versus decentralization split readers → Critics preferred subscribing directly to sources; supporters said a simple shared interface makes open protocols usable.
+- Ranking needs transparency → The homepage calls items best without explaining selection, while readers compared HN filtering and Kagi’s appreciated feed.
+- Curation fills an ecosystem gap → Participants said feed discovery is harder as major services recede, making community-maintained catalogs increasingly valuable.
 
 ### LLM perspective
-- View: Opinionated aggregators on top of open RSS can revive blog discovery without locking users into proprietary content silos.  
-- Impact: Indie publishers gain serendipitous readership; users get a starter pack of “small web” feeds instead of manual curation from scratch.  
-- Watch next: Transparent ranking criteria, per-topic feeds, and one-click export to personal readers would keep this powerful without undermining RSS’s decentralization.
+
+- View: The concept addresses discovery, but the supplied homepage is too incomplete to evaluate selection quality or product differentiation.
+- Impact: A trusted aggregation layer could expose independent publishers to readers who will never assemble thousands of subscriptions.
+- Watch next: Ranking criteria, feed availability, source inclusion and removal rules, deduplication, personalization, and an operational about page.

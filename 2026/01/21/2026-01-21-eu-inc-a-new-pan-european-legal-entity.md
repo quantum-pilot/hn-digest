@@ -3,22 +3,17 @@
 - Score: 695 | [HN](https://news.ycombinator.com/item?id=46703763) | Link: https://www.eu-inc.org/
 
 ### TL;DR
-EU–INC is a proposed, optional “28th regime” corporate form: a single pan‑European legal entity with an EU‑level registry, standardized investment docs, and EU‑wide stock options, while taxes and employment remain local. Backed by prominent founders and VCs, it has political traction: a Commission working group, proposals sent to key commissioners, and a target of 2026 for legislation and 2027 for rollout. Hacker News discussion welcomes the goal but worries EU bureaucracy and tax complexity could blunt its benefits.
 
----
+EU–INC proposes an optional company form registered centrally at EU level, with standardized investment documents and stock options usable across member states while taxes and employment law remain local. Supporters say a “28th regime” could reduce fragmentation for founders and investors; the Commission is preparing a proposal, followed by Parliament, Council, and all 27 governments. Commenters welcomed easier cross-border formation and especially dissolution, but questioned whether setup harmonization alone matters when taxation, labor rules, courts, capital requirements, fees, and fraud controls stay national.
 
 ### Comment pulse
-- Founders describe founding and especially dissolving companies in many EU states as slow, expensive, and risky; they want hard UX constraints on any EU–INC process. — counterpoint: some countries (e.g., Sweden, Ireland, Spain) are already fairly streamlined.
 
-- Supporters see EU–INC as a voluntary path that boosts competitiveness and keeps founders from fleeing to the US; critics fear tax leakage and another bureaucratic layer.
-
-- Cross‑border operations now trigger unexpected deregistrations, tax shocks, and legal traps; EU–INC could reduce these, but it doesn’t inherently solve multi‑country tax rules.
-
----
+- Optionality eased sovereignty concerns → Advocates framed the entity as a parallel route; skeptics still feared centralized bureaucracy and lowest-common-denominator rules.
+- Exit matters as much as entry → Readers emphasized cheap, predictable dissolution and deregistration, not merely faster online incorporation.
+- German examples exposed nuance → Online GmbH formation exists, yet commenters cited notaries, equity taxation, capital, and recurring fees as deeper friction.
 
 ### LLM perspective
-- View: The decisive question is whether EU–INC is simpler than the best national options, not just more “harmonized.”
 
-- Impact: A credible EU vehicle could centralize cap tables, stock options, and fundraising, reducing Delaware/UK dependence for ambitious EU startups.
-
-- Watch next: Commission draft text, German and notary-lobby responses, and whether founders get a lightweight “default package” instead of a legal labyrinth.
+- View: A common corporate wrapper could remove real transaction friction, but it cannot by itself create one European operating environment.
+- Impact: Standard documents and options could make cross-border fundraising easier, especially for startups whose investors span multiple jurisdictions.
+- Watch next: Commission scope, dissolution mechanics, national implementation, tax treatment, court jurisdiction, and safeguards against shell-company abuse.

@@ -2,15 +2,18 @@
 
 - Score: 178 | [HN](https://news.ycombinator.com/item?id=46705201) | Link: https://susam.net/nested-code-fences.html
 
-- TL;DR
-    - CommonMark and GFM don’t really support “nested” backtick fences; a later ``` just closes the first fence and leaks content. This post explains the official workarounds: use tildes or longer backtick runs for outer fences, and use multi-backtick inline spans plus leading/trailing spaces to safely include literal backticks. HN readers relate this to GitHub suggestions, LLM prompting, and Markdown’s famously messy ecosystem, with CommonMark praised as a much-needed, if belated, standard.
+### TL;DR
 
-- Comment pulse
-    - Multi-character fences (```` ... ```` or ~~~ ... ~~~) are already standard in GitHub suggestions, JupyterBook, etc.; they generalize cleanly to show nested ``` blocks.
-    - Markdown’s ecosystem feels like edge-case soup; CommonMark is praised as the closest thing to a real spec and testable standard—counterpoint: fragmentation remains entrenched.
-    - People note these tricks help when prompting LLMs or delimiting content in code, and even serve as markdown-renderer test cases and benchmarks.
+The article explains CommonMark’s escape hatch for displaying fence markers inside literal code. A block may use backticks or tildes, with any run of at least three characters; its closing fence must use the same character and be at least as long as the opener, so choosing a longer outer fence preserves shorter inner ones. Inline spans similarly use matching backtick runs, with surrounding spaces enabling literal edge backticks after normalization. Commenters connected the technique to GitHub suggestions, JupyterBook, LLM prompts, parser tests, and MIME-style boundary selection.
 
-- LLM perspective
-    - View: Variable-length fence delimiters effectively emulate nesting, avoiding changes to Markdown grammar while still representing arbitrarily complex literal code.
-    - Impact: Writers of docs, chatbots, and tooling can reliably embed Markdown, code, and literal backticks inside each other.
-    - Watch next: more editors and renderers advertising full CommonMark compliance, plus richer linting to flag ambiguous or non-portable fence usage.
+### Comment pulse
+
+- Practical reuse surfaced quickly → Readers apply longer fences to GitHub suggestions, documentation systems, and prompts requesting Markdown inside code blocks.
+- Arbitrary depth needs delimiter planning → Each outer layer can use a longer run, provided embedded content never matches its terminating boundary.
+- Syntax history divided opinion → Some saw exception-heavy chaos; replies distinguished original ambiguous Markdown from CommonMark’s specification, reference implementation, and tests.
+
+### LLM perspective
+
+- View: Variable-length delimiters are a simple, composable solution when authors inspect content and choose a collision-free outer boundary.
+- Impact: The rule prevents broken rendering in documentation, review suggestions, generated prompts, and examples containing Markdown syntax.
+- Watch next: Renderer conformance across CommonMark-derived tools, especially extensions whose preprocessing may alter fences before parsing.

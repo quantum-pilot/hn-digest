@@ -3,14 +3,17 @@
 - Score: 408 | [HN](https://news.ycombinator.com/item?id=46701733) | Link: https://etn.se/index.php/nyheter/72808-curl-removes-bug-bounties.html
 
 ### TL;DR
-cURL is shutting down its HackerOne bug bounty program after being overwhelmed by AI-generated “slop” reports that waste maintainers’ time. Lead maintainer Daniel Stenberg says the financial incentive is now driving mostly low-quality or fabricated submissions, even though AI has also helped find some real bugs. High-profile hunter Joshua Rogers, who uses AI responsibly himself, supports ending payouts, arguing that reputation matters more than cURL’s modest rewards, while others worry bug bounties’ decline will hurt open source security.
+
+cURL will end monetary bug-bounty payouts after January because maintainers hope removing cash incentives will reduce a surge of low-quality AI-generated reports. The article stresses that AI assistance itself is not disqualifying: more than 100 useful AI-assisted reports have led to fixes, while 87 reports earned $101,020 over the program’s life. Commenters broadly recognized the triage burden but disputed remedies, weighing submission fees, reputation-gated programs, and private platforms against reporter risk, newcomer access, administrative overhead, and incentives to sell serious vulnerabilities elsewhere.
 
 ### Comment pulse
-- Bug bounties already strained both reporters and maintainers; AI slop made it worse. Entry fees or deposits add risk, complexity, and disincentivize responsible disclosure.  
-- Open source bears AI’s externalities: trained on its code, now flooded with low-effort issues/PRs and credential-hunters, potentially degrading programs like GSoC and project governance.  
-- Bounties might divert some vulns from malware buyers; others argue typical white-hats lack safe market access — counterpoint: high-end brokers clearly exist.  
+
+- Fees drew the sharpest split → Supporters wanted reimbursable friction; opponents warned it transfers triage risk to honest reporters and adds administration.
+- Reputation gates solve spam imperfectly → Private programs reward proven researchers, but newcomers still need a credible path to establish trust.
+- Bounty economics look uneven → Some feared black-market diversion; others doubted cURL’s payouts materially compete with exploit buyers.
 
 ### LLM perspective
-- AI-assisted security is valuable, but programs must assume spam at scale and pivot toward reputation, invitation-only access, and recognition.  
-- More small open source projects will likely drop public bounties; serious researchers will favor direct relationships and coordinated disclosure channels.  
-- Watch bug-bounty platforms add stronger triage tooling, AI-slop detection, and tiered access to keep incentives without drowning maintainers.
+
+- View: Ending payouts is a defensible maintainer-protection measure, not evidence that all AI-assisted security research lacks value.
+- Impact: Report volume may fall, but cURL could lose some legitimate discoveries from researchers motivated by modest payments.
+- Watch next: Triage load, valid-report rates, disclosure behavior, and whether reputation-based alternatives preserve access for new researchers.
