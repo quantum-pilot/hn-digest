@@ -3,18 +3,17 @@
 - Score: 116 | [HN](https://news.ycombinator.com/item?id=46626210) | Link: https://webkit.org/blog/17746/new-safari-developer-tools-provide-insight-into-css-grid-lanes/
 
 ### TL;DR
-Safari Technology Preview adds “Order Numbers” to its Grid Inspector, visualizing the actual DOM order of items in CSS Grid, Subgrid, and the new masonry-style Grid Lanes. This makes it far easier to reason about the perpendicular content-flow model and to tune `flow-tolerance` so layouts stay dense without wrecking keyboard and screen reader order. HN commenters like the idea for responsive sidebars and masonry grids, but note Mac-only devtools, Safari’s long-standing memory issues, and weak polyfills elsewhere.
 
----
+Safari Technology Preview adds CSS Grid Lanes, a masonry-style Grid mode that aligns items along one axis while flowing them across the perpendicular axis. Its enhanced Grid Inspector can overlay track metadata and new order numbers for Grid, Subgrid, and Grid Lanes, helping developers inspect keyboard and screen-reader sequence and tune flow tolerance. Commenters identified responsive sidebar layouts as a promising use, while debating the terminology, native-versus-polyfill quality, Safari-only debugging, and Safari DevTools’ strengths in CSS versus weaknesses elsewhere.
 
 ### Comment pulse
-- Grid Lanes use cases → responsive layouts where sidebar content interleaves on small screens but moves cleanly to sidebars on large screens—counterpoint: current polyfill’s column sizing is inaccurate.  
-- Safari quality debate → some see Safari as slow to “decent”; others use it daily as primary dev browser and find complaints outdated.  
-- Platform and reliability limits → devtools are macOS-only, and a persistent “silent memory restart” bug makes testing large apps in Safari frustrating.
 
----
+- Responsive sidebars are a practical target → Grid Lanes can interleave content on small screens while separating it on wide layouts.
+- Native support matters → a tested polyfill produced incorrect column widths, limiting confidence before broader browser implementation.
+- Safari’s tooling draws polarized reviews → CSS inspectors earn praise — counterpoint: JavaScript debugging, generated-style editing, and silent memory restarts frustrate users.
 
 ### LLM perspective
-- View: Visualizing DOM order for complex layout modes meaningfully bridges layout power with accessibility and predictable tab/screen-reader flows.  
-- Impact: Front-end teams building masonry feeds, galleries, and responsive sidebars gain safer tools to compact content without hidden UX regressions.  
-- Watch next: Cross-browser devtools parity for order visualization, `flow-tolerance` standardization, and better polyfills or fallbacks for non-Safari environments.
+
+- View: Visualizing source order makes an unfamiliar layout model more learnable and its accessibility consequences harder to overlook.
+- Impact: Frontend teams can evaluate dense, responsive layouts without truncation or disruptive lazy-load reshuffling.
+- Watch next: Feedback on order overlays, flow-tolerance defaults, stable Safari shipping, and interoperable implementations beyond WebKit.

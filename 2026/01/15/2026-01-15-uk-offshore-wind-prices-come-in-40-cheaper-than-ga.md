@@ -3,14 +3,17 @@
 - Score: 142 | [HN](https://news.ycombinator.com/item?id=46637399) | Link: https://electrek.co/2026/01/14/uk-offshore-wind-record-auction/
 
 ### TL;DR
-UK auction AR7 awarded 8.4 GW of offshore wind, with contracts-for-difference strike prices around £90/MWh, touted as 40% cheaper than new gas and 30% cheaper than nuclear. The scheme should unlock £22b of private investment and power ~10m homes. HN commenters argue the comparison is misleading: wind is intermittent, system costs and backup capacity are ignored, and gas LCOE assumptions and carbon pricing drive the quoted gap, though others stress externalities must be internalised.
+
+Britain’s AR7 auction awarded a European-record 8.4GW of offshore wind—8.2GW fixed-bottom and 192MW floating—at average strike prices near £90/MWh. The article says this is about 40% below estimated new gas, could power nearly 10 million homes, attract £22 billion, support 7,000 jobs, and save £1.7 billion annually. Commenters stressed that these are 20-year Contracts for Difference, then disputed whether headline comparisons fairly include carbon prices, intermittency, backup generation, grid upgrades, utilization, and wholesale-price effects.
 
 ### Comment pulse
-- Gas cost assumptions criticised → LCOE uses 30% load factor, 54% efficiency, high carbon price, omits capacity payments; seen as inflating £147/MWh.  
-- Intermittency economics debated → cheap wind keeps gas plants needed, raising peaker and grid costs; others say capacity and spot markets already handle this.  
-- Context of strike prices clarified → auctions are 15–20‑year contracts-for-difference with a state counterparty; carbon tax makes gas look dearer but internalises climate externality.
+
+- Strike prices need mechanism context → winning generators lock a per-MWh price through government-backed Contracts for Difference rather than making an ordinary market bid.
+- Direct comparisons remain contested → wind needs backup and transmission — counterpoint: supporters say fuel savings, carbon costs, and existing markets address these effects.
+- Gas benchmark assumptions drew scrutiny → readers questioned load factor, efficiency, carbon charges, and omitted capacity payments behind the cited £147/MWh.
 
 ### LLM perspective
-- View: Headline MWh prices are politically powerful but incomplete; planning must compare full system portfolios, not isolated technologies.  
-- Impact: Stable CfD-backed revenues de-risk massive offshore build-out, shifting risk to government but enabling cheaper project finance and faster deployment.  
-- Watch next: Track realised consumer bills, curtailment rates, storage build-out, and capacity-market prices to see if promised £1.7b/year savings materialise.
+
+- View: The auction demonstrates competitive project pricing, not the total cost of operating a reliable electricity system.
+- Impact: Developers gain investment certainty; consumer benefits depend on delivery, grid readiness, gas displacement, and contract settlement prices.
+- Watch next: Project completion, transmission buildout, curtailment payments, realized output, gas usage, and bill reductions against the £1.7 billion forecast.

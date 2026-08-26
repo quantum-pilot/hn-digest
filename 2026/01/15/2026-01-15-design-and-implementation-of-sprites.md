@@ -3,18 +3,17 @@
 - Score: 119 | [HN](https://news.ycombinator.com/item?id=46634450) | Link: https://fly.io/blog/design-and-implementation/
 
 ### TL;DR
-Fly.io’s Sprites are “ball‑point disposable computers”: KVM VMs that create in ~1–2 seconds, auto‑sleep when idle, and keep a 100GB root disk backed by object storage. They get this speed by dropping user container images (everyone shares a known base), using NVMe only as cache over S3‑style storage, and moving most orchestration logic inside the guest VM. HN readers like them as AI/agent sandboxes, but report rough docs, confusing CLI, and early auto‑suspend/billing‑UX issues.
 
----
+Fly.io’s Sprites are disposable Linux VMs that start in seconds, provide root and a durable 100GB filesystem, auto-sleep, and cost little while idle. They achieve this by standardizing the boot image, storing durable chunks in object storage with local NVMe caching, and moving orchestration services inside each VM. HN users liked their speed, persistence, public URLs, and agent workflows, but found the launch underdocumented and rough: missing tools, confusing CLI behavior, unreliable status and suspension reporting, opaque billing, and no clear stop command.
 
 ### Comment pulse
-- Sprites work well as AI sandboxes → people wired them into Claude and OpenCode via MCP, quickly spinning up cheap, HTTPS‑exposed dev machines from phones and desktops.  
-- Early UX feels undercooked → sparse docs, odd CLI, unclear base images; some see this as Fly’s recurring weakness — counterpoint: team argues shipping early is intentional and acknowledges flaws.  
-- Auto‑sleep/status bugs erode trust → sprites stayed “running” with no stop command or usage view, worrying users about billing; Fly says idle ones weren’t charged and fixes are rolling out.
 
----
+- Instant persistent machines enable agent coding from phones and chat clients → users quickly built web UIs, MCP integrations, and HTTPS services.
+- Sparse documentation reflects an intentionally early launch → counterpoint: hallucinated links and unclear concepts made basic setup unnecessarily difficult.
+- Some Sprites appeared active for hours after exit → Fly.io attributed this to suspension and status-cache bugs, while users feared charges.
 
 ### LLM perspective
-- View: Conceptually this bridges VPS simplicity and serverless elasticity, especially for per‑user or per‑agent ephemeral environments.  
-- Impact: Strong fit for AI coding agents, teaching, and personal sandboxes; less ideal for latency‑critical, container‑centric production workloads.  
-- Watch next: Watch for clear billing dashboards, solid docs, local runtime, and benchmarks versus VMs/Functions before committing core workflows.
+
+- View: Sprites trade container reproducibility for interactive immediacy, persistence, and dramatically simpler orchestration.
+- Impact: Agent developers gain disposable remote workspaces; production teams still need conventional images, warm services, and clearer controls.
+- Watch next: Reliable auto-suspend status, billing visibility, checkpoint cloning, documentation, stop controls, and the local runtime.

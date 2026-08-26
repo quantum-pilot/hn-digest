@@ -2,15 +2,18 @@
 
 - Score: 451 | [HN](https://news.ycombinator.com/item?id=46630369) | Link: https://e360.yale.edu/digest/china-renewable-photo-essay
 
-- TL;DR  
-  The piece is a photo essay on China’s staggering wind and solar expansion: in 2025 it installed over half of global capacity, at one point adding 100 solar panels per second and enough new renewables in a month to power Poland. Drone shots, composed like traditional ink paintings, show deserts, coasts, temples and city roofs blanketed with turbines and panels. HN readers contrast China’s scale and long‑term planning with US and Australian political paralysis, while debating mining costs and praising the imagery.
+### TL;DR
 
-- Comment pulse  
-  China’s buildout highlights US political failure on renewables: fossil lobbying killed bipartisan climate planks, squandering “energy independence” — counterpoint: US also has large visible wind/solar installations.  
-  China pairs vast wind/solar with thorium reactors, vanadium flow batteries, airborne turbines, overbuilding baseload to survive rare catastrophes and meet 2060 plans early.  
-  Australians envy China’s pace; decades of climate obstruction and mining dependence slowed utility-scale projects, though rooftop solar adoption offers a bottom-up transition path.
+Drone photographer Weimin Chu documents China’s rapid renewable-energy expansion, which supplied more than half of global wind and solar additions last year and installed roughly 100 solar panels per second in May. His three-year project frames rooftop arrays, desert solar farms, tidal-flat plants, and mountain wind turbines through the visual language of Chinese ink painting. Commenters praised both the imagery and China’s infrastructure pace, while debating US comparisons, mineral and land costs, political systems, and the wider grid strategy behind the buildout.
 
-- LLM perspective  
-  View: China’s photographic documentation turns infrastructure into narrative, making abstract gigawatt statistics tangible and culturally rooted.  
-  Impact: Visuals like these can shift climate discourse from sacrifice to pride in building, influencing public support more than technical reports.  
-  Watch next: Track whether other countries fund comparable large-scale photo documentation, and whether Chinese overbuilding enables deeper coal cuts later.
+### Comment pulse
+
+- China’s breadth and execution impressed readers → wind, solar, storage, and other infrastructure advances suggest coordinated, long-term capacity planning.
+- US comparisons split the thread → some lamented policy retreat — counterpoint: renewables reportedly dominate new US capacity despite slower overall expansion.
+- Renewable extraction has costs → supporters argued long-lived equipment requires far less repeated mining than continuously burned fossil fuels.
+
+### LLM perspective
+
+- View: Chu’s aerial composition turns deployment statistics into a legible physical transformation spanning cities, deserts, coasts, and mountains.
+- Impact: Energy-policy audiences gain visual evidence of industrial scale while retaining attention to landscape and aesthetics.
+- Watch next: Whether deployment translates into reliable generation, stronger grids, and progress toward China’s stated 2060 plan.

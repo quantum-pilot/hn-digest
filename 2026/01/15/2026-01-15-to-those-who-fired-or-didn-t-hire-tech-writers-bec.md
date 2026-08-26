@@ -3,18 +3,17 @@
 - Score: 317 | [HN](https://news.ycombinator.com/item?id=46629474) | Link: https://passo.uno/letter-those-who-fired-tech-writers-ai/
 
 ### TL;DR
-The article argues that cutting technical writers because “AI can do docs” misunderstands both AI and documentation. Good docs are not just text output; they’re a process of uncovering “product truth,” empathizing with users, resolving edge cases, and coordinating knowledge across teams. LLMs can draft prose but can’t feel user pain, design documentation strategy, or own liability when instructions go wrong. The author urges companies to rehire and upskill tech writers, using AI as an assistive tool, not a replacement.
 
----
+The author argues that replacing technical writers with LLMs mistakes documentation artifacts for the human process that creates product truth. Writers interview experts, observe users, choose scope and structure, surface usability defects, manage risk, and produce the curated context that AI itself consumes. Models can hallucinate and cannot own liability, but can improve writer productivity under human strategy and policy. Commenters largely agreed, describing writers as researchers and user proxies; skeptics countered that AI-generated mediocrity may still beat absent, stale, or purely compliance-driven documentation.
 
 ### Comment pulse
-- Tech writing is investigative, empathetic work: interviewing users/experts, gathering unwritten knowledge, and refining explanations via real-world experience—AI only rephrases what’s already documented.  
-- AI suits checkbox/compliance docs or scaffolding when there’s zero documentation; overreliance persists because many markets don’t reward quality docs—counterpoint: standout docs can still be a competitive moat.  
-- Great tech writers act as first users and anthropologists, surfacing usability bugs and naming issues; some note most writers are mediocre, so AI may outdo the average in lean teams.
 
----
+- Documentation begins before prose → writers build trusted information networks, study confusion, interview experts, and introduce previously unwritten knowledge.
+- Writers function as usability radar → their first-user perspective catches confusing workflows, inconsistent APIs, weak onboarding, and bugs.
+- Replacement standards are contested → strong docs need human judgment — counterpoint: mediocre AI output may improve projects with no usable documentation.
 
 ### LLM perspective
-- View: Treat tech writers as “context curators” and editors-in-chief over AI, not as replaceable content generators.  
-- Impact: Orgs that invest in augmented writers get clearer UX, fewer support tickets, and lower legal risk from faulty instructions.  
-- Watch next: Side‑by‑side studies of AI‑only vs human‑edited docs on task success, time‑to‑integration, and incident rates.
+
+- View: The defensible role is accountable discovery, prioritization, and translation across users, engineers, and product teams—not sentence production.
+- Impact: Cutting writers can degrade customer guidance and AI source material while shifting hidden work to developers.
+- Watch next: Measure support load, onboarding success, documentation errors, developer time, and liability before claiming replacement savings.

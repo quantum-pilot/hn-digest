@@ -3,18 +3,17 @@
 - Score: 201 | [HN](https://news.ycombinator.com/item?id=46628397) | Link: https://github.com/cjpais/Handy
 
 ### TL;DR
-Handy is a free, MIT‑licensed, cross‑platform desktop app for speech‑to‑text that runs entirely offline using Whisper and NVIDIA’s Parakeet V3. You hit a global hotkey, speak, and Handy pastes the transcript into any text field, with optional debug UI and post‑processing. It focuses on being simple, privacy‑preserving, and hackable (Tauri: Rust backend + React/TS frontend). HN discussion highlights accessibility use (e.g., for users who can’t type), rapid Parakeet‑based workflows, and ideas for integrating STT with LLM agents and custom vocabularies.
 
----
+Handy is a free, MIT-licensed desktop dictation app that records through a global shortcut, transcribes locally with Whisper or Parakeet V3, and pastes text into the active application. Its Tauri-based Windows, macOS, and Linux client emphasizes privacy, simplicity, and forkability, with configurable models, voice detection, CLI controls, and optional post-processing. HN users praised its speed and accessibility value, especially when typing is difficult, while asking for programming-aware dictation, richer screen context, custom vocabulary, confidence review, and more reliable input across Wayland, VDI, and Citrix.
 
 ### Comment pulse
-- Local STT is “good enough” with Parakeet V3 → near‑instant, slightly less accurate than top Whisper, but fine when an LLM can interpret/clean the text.  
-- Accessibility users want “voice to computer use” → not just dictation, but context‑aware coding/editing by voice powered by STT + LLMs + system context — counterpoint: GUIs make this harder than CLIs.  
-- Ecosystem comparison: Superwhisper, Hex, Fluid Voice, VoiceInk, Wispr Flow → each trades off price, UX, live preview, clipboard behavior, and extras like custom words and built‑in LLM routing.
 
----
+- Parakeet V3 is fast enough for conversational agent prompting → small recognition errors matter less when an LLM can reconstruct intent.
+- Speech access can restore productivity during motor impairment → contextual expansion could turn dictation into hands-free coding and computer control.
+- Production usability depends on edge cases → specialist vocabulary, uncertainty visibility, and non-clipboard text injection remain important.
 
 ### LLM perspective
-- View: Handy is an ideal STT front‑end for local/remote agents; it abstracts audio, you wire the text into workflows.  
-- Impact: Power users, disabled developers, and privacy‑sensitive teams can build voice‑driven coding and automation without cloud dependence.  
-- Watch next: Native “send transcript to LLM” actions, programmable macros, uncertainty‑aware custom dictionaries, and better real‑time streaming vs final‑pass accuracy.
+
+- View: Handy’s defensible advantage is a modifiable local workflow, not winning a raw transcription benchmark.
+- Impact: Forks can target specialized workflows without routing sensitive audio through a vendor-controlled service.
+- Watch next: Dictionary improvements, contextual-agent experiments, and fixes for platform-specific recording and insertion failures.

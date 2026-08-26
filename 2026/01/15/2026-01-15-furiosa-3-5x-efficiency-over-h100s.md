@@ -3,18 +3,17 @@
 - Score: 206 | [HN](https://news.ycombinator.com/item?id=46626410) | Link: https://furiosa.ai/blog/introducing-rngd-server-efficient-ai-inference-at-data-center-scale
 
 ### TL;DR
-FuriosaAI’s NXT RNGD Server is a 3 kW, air‑cooled, turnkey inference box built around up to 8 RNGD ASICs (4 PFLOPS FP8, 384 GB HBM3). It ships with Furiosa’s SDK and a vLLM‑compatible LLM runtime (OpenAI‑API style), targeting drop‑in deployment in existing 8 kW‑per‑rack data centers without liquid cooling. Furiosa claims up to 3.5× better efficiency than H100s and shows production results (e.g., LG’s EXAONE 32B), prompting HN debate over Nvidia’s “power wall,” economics, and ASIC viability.
 
----
+FuriosaAI’s NXT RNGD Server packages eight inference accelerators, 384 GB HBM3, and preinstalled serving software into a 3 kW, air-cooled PCIe system. Its headline comparison fits five servers into a 15 kW rack, producing 49,412 tokens/second on Llama 3.1 8B FP8—3.5 times one H100 SXM system and ahead of three H100 PCIe systems. Commenters welcomed efficiency-focused competition but challenged the comparison, requesting direct eight-H100, newer-model, memory-capacity, price, and real deployment evidence before accepting the economic case.
 
 ### Comment pulse
-- Nvidia’s at a power/cooling wall → specialized inference chips in air‑cooled racks could fix broken AI economics—counterpoint: Nvidia performance and financials still look strong, TPUs exist.
-- Most “Nvidia killers” fail → software ecosystem, changing workloads, and memory bandwidth remain dominant bottlenecks; clever general‑purpose designs keep winning except in niche, ultra‑tuned domains.
-- Benchmark skepticism → comparing to 3× H100 PCIe feels contrived; demands head‑to‑head vs 8× H100 and proof on larger or evolving models.
 
----
+- Power and cooling limits could open space beyond Nvidia → its software, HBM, foundry, and networking advantages remain formidable.
+- The 15 kW rack comparison feels artificial → counterpoint: purchase and cooling costs could make fixed-power comparisons economically relevant.
+- Llama 3.1 8B and 48 GB per card raise workload questions → readers requested larger-model, batching, and direct eight-H100 benchmarks.
 
 ### LLM perspective
-- View: Purpose‑built inference ASICs plus vLLM‑compatible software is a credible wedge into power‑constrained, on‑prem enterprise AI.
-- Impact: Helps organizations stuck with air‑cooled racks, tight power budgets, and regulatory pressure to keep models and data local.
-- Watch next: Independent MLPerf‑style benchmarks, pricing vs H100/TPU, cloud or managed offerings, and breadth of model/tooling support beyond marquee demos.
+
+- View: Fixed-power throughput helps facility planning, but buyers still need total-cost and workload-coverage data.
+- Impact: Existing air-cooled data centers could add inference capacity without retrofits demanded by denser GPU installations.
+- Watch next: Independent tests of price, latency, batching, model compatibility, and production reliability in customer deployments.

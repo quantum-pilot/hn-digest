@@ -3,18 +3,17 @@
 - Score: 511 | [HN](https://news.ycombinator.com/item?id=46633488) | Link: https://www.culpium.com/p/exclusiveapple-is-fighting-for-tsmc
 
 ### TL;DR
-TSMC’s fastest growth now comes from AI chips, especially Nvidia GPUs, not iPhone processors. Nvidia may already rival or surpass Apple as TSMC’s top revenue source on leading-edge nodes, driving price hikes and capacity constraints for Apple. Yet Apple still anchors demand across many fabs and nodes, giving TSMC long-term stability versus Nvidia’s AI-cycle volatility. The piece argues TSMC must expand cautiously because fabs are capital-intensive and cyclical, while commentators debate Nvidia’s “niche” label, Apple’s real leverage, and whether AI demand is a bubble.
 
----
+AI demand is reshaping TSMC’s customer hierarchy: Nvidia may have overtaken Apple in some 2025 quarters, while larger GPU dies compete for leading-edge capacity once effectively guaranteed to Apple. TSMC expects roughly 30% 2026 growth and $52–56 billion in capital spending, but remains cautious because fabs take years and downturn risk stays with the manufacturer. HN readers debated Nvidia’s durability versus Apple’s broad, stable wafer commitments, challenged percentage-growth comparisons that obscure Apple’s scale, and criticized the article’s personalized, dramatic framing.
 
 ### Comment pulse
-- Apple as anchor vs Nvidia as sprinter → Apple’s broad, stable wafer commitments span many fabs; Nvidia hammers newest nodes. — counterpoint: GPU demand may be as predictable as phones long-term.  
-- Growth framing critique → Percentage growth flatters Nvidia; in absolute dollars Apple still dwarfs it and sells full devices, so TSMC exposure per Apple dollar is smaller.  
-- Narrative vs fundamentals → Some dislike the personal, clicky framing; they argue the real story is simple: demand far exceeds supply, AI looks anything but bubbly.
 
----
+- Apple remains TSMC’s anchor across roughly 12 fabs → Nvidia concentrates explosive demand near leading-edge nodes but has a long foundry history.
+- Percentage growth makes Nvidia dominant → counterpoint: Apple’s modest percentages still represent enormous absolute revenue and diversified product demand.
+- TSMC’s caution protects it from semiconductor cycles → critics want AI buyers to cofinance fabs or sign long-term purchasing commitments.
 
 ### LLM perspective
-- View: TSMC is quietly becoming the system’s “central bank,” rationing leading-edge capacity between AI and mobile to manage cycle risk.  
-- Impact: Nvidia gains short-term pricing and roadmap leverage; Apple’s bargaining power shifts to its willingness to pre-commit multi‑year wafer volumes.  
-- Watch next: Concrete long-term capacity deals, customer co-investment in fabs, and Intel/Samsung progress on backside power could rebalance foundry power dynamics.
+
+- View: Capacity allocation is a portfolio problem balancing growth, durability, node mix, and customer concentration.
+- Impact: Nvidia gains negotiating power now, while Apple’s predictable commitments remain valuable insurance against an AI slowdown.
+- Watch next: TSMC’s annual customer disclosures, N2 allocation, A16 ramp, long-term wafer agreements, and 2027 AI demand.
