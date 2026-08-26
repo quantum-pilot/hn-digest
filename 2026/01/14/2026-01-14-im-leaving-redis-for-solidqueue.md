@@ -3,18 +3,17 @@
 - Score: 291 | [HN](https://news.ycombinator.com/item?id=46614037) | Link: https://www.simplethread.com/redis-solidqueue/
 
 ### TL;DR
-Rails 8 drops Redis as the default for jobs, caching, and ActionCable, replacing it with SolidQueue, SolidCache, and SolidCable backed by your relational database. The article argues most apps don’t need Redis-level throughput or sub-millisecond latency and pay unnecessary complexity: extra infra, HA, backups, monitoring, and mental overhead. SolidQueue uses `FOR UPDATE SKIP LOCKED`, recurring schedules, and DB-based semaphores for concurrency, plus a UI (Mission Control). HN discussion questions SolidQueue’s maturity, compares it to GoodJob, and debates scaling and operational tradeoffs.
 
----
+Rails 8’s Solid Queue lets most apps run background jobs in their existing relational database, replacing Redis and Sidekiq while simplifying deployment, monitoring, backups, scheduling, concurrency, and debugging. PostgreSQL’s `FOR UPDATE SKIP LOCKED` prevents workers contending, while Active Job makes migration mostly configuration. The author recommends it below 100 jobs/second or when 100ms latency is acceptable, retaining Redis for extreme throughput, pub/sub, or atomic counters. HN welcomed simplification but questioned benchmarks, database coupling, connection load, missing features, and whether mature GoodJob is safer.
 
 ### Comment pulse
-- GoodJob vs SolidQueue → many prefer GoodJob for Postgres: mature, readable, feature-rich; SolidQueue seen as constrained by MySQL-friendly “universal SQL”. — counterpoint: portability helps multi-DB Rails.
-- Simplifying infra welcomed → for typical Rails volumes, dropping Redis and Sidekiq is attractive; Active Job lets apps swap back to Redis-backed queues if SolidQueue becomes a bottleneck.
-- Scaling/DB load debated → SKIP LOCKED and leases avoid long locks, but shared-DB queues need careful connection pooling and can’t match Redis for extreme pub/sub or latency.
 
----
+- Database queues can exceed typical workloads → batching makes headline benchmarks misleading and leaves real unbatched transaction rates unclear.
+- Active Job preserves an escape hatch → returning to Redis is straightforward, though transactional enqueue guarantees complicate later database separation.
+- GoodJob appears more mature and capable → counterpoint: established Sidekiq users gain little from either option unless eliminating Redis matters.
 
 ### LLM perspective
-- View: Rails is codifying “boring tech first”: default to the main RDBMS; add Redis only when metrics prove it’s needed.
-- Impact: Smaller teams gain from fewer moving parts; DB capacity planning and observability now implicitly include job workloads.
-- Watch next: Independent benchmarks, SolidQueue vs GoodJob adoption patterns, and how far Mission Control evolves toward Sidekiq-grade operational tooling.
+
+- View: Solid Queue is an operational default, not a universal performance replacement.
+- Impact: Small Rails teams trade a service for database capacity, connections, and disciplined isolation.
+- Watch next: Compare unbatched throughput, failure recovery, UI behavior, batch jobs, and primary-database contention.

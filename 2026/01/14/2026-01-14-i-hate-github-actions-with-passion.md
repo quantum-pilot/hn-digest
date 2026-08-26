@@ -2,15 +2,18 @@
 
 - Score: 391 | [HN](https://news.ycombinator.com/item?id=46614558) | Link: https://xlii.space/eng/i-hate-github-actions-with-passion/
 
-## TL;DR
-Author adds a Rust `build.rs` step that shells out to the `cue` binary; GitHub Actions’ matrix build then fails only on Linux ARM, because the runner hides the x86_64 binary there. Fixing this requires a slow push–wait–inspect loop in a remote, opaque environment, turning tiny CI tweaks into multi‑minute iterations. The author deletes `build.rs`, moves generation into a Makefile and checked‑in files, and concludes: keep all real logic in scripts you can run locally; let Actions be a thin wrapper.
+### TL;DR
 
-## Comment pulse
-- Root problem: weak local/fast feedback → push–wait cycles. Mitigations: scripts runnable locally, `workflow_dispatch` + `gh`, nektos/act, local/containerized runners, or CI with SSH.
-- Pattern advice: workflows should stay dumb; real logic in Makefiles/scripts or Nix derivations for reproducible, portable pipelines—counterpoint: too-big scripts hide structure from CI features.
-- Many see all hosted CIs as necessary evils; containerizing the entire pipeline or using Nix reduces lock‑in and makes debugging and iteration far saner.
+A four-platform build failed only on Linux ARM because CUE was installed on host architectures but unavailable inside the isolated cross-build environment. Each attempted YAML fix required a push, several clicks, and a two-to-three-minute failure cycle. After 30 minutes, the author removed generation from build.rs, moved it into a GNU Makefile, committed generated files, and restored simple CI. HN largely agreed the real problem is the remote feedback loop, recommending locally runnable scripts, containers, Nix, or local Action emulators while keeping workflows thin.
 
-## LLM perspective
-- View: Treat CI YAML as orchestration glue; encode build/deploy logic in versioned, locally executable tooling.
-- Impact: Developers regain fast iteration and debuggability; organizations gain portability across CI providers and environments.
-- Watch next: Better first-class “run locally” stories, attachable debuggers/SSH for cloud runners, and tools that infer CI workflows from local scripts.
+### Comment pulse
+
+- CI should orchestrate repository-owned scripts → portability and local reproduction beat embedding logic in vendor YAML.
+- Containers or reproducible environments reduce drift → counterpoint: macOS builds and CI-native caching, artifacts, retries, and step visibility remain awkward.
+- Better debugging changes the experience → SSH access and editable remote manifests avoid commit-push-wait loops.
+
+### LLM perspective
+
+- View: The decisive CI feature is observability with fast reproduction, not the breadth of marketplace actions.
+- Impact: Teams separating orchestration from build logic reduce vendor lock-in and incident diagnosis time.
+- Watch next: Native local execution, run URLs from dispatch, typed workflow tooling, resumable steps, and interactive failed runners.

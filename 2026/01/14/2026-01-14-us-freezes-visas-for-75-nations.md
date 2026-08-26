@@ -2,15 +2,18 @@
 
 - Score: 167 | [HN](https://news.ycombinator.com/item?id=46618809) | Link: https://english.mathrubhumi.com/news/world/us-visa-ban-public-charge-bjbpzu02
 
-TL;DR
-- The US State Department will indefinitely pause most immigrant visa processing for applicants from 75 countries, including Russia, Iran and Nigeria, starting January 21. Consular officers get wide discretion to deny visas under an expanded “public charge” test, factoring health, age, obesity, English skills, education, finances and any prior use of cash benefits. India is not on the list. HN discussion centers on emigration plans, fear for affected families and frustration with Hacker News’ opaque flagging of such political stories.
+### TL;DR
 
-Comment pulse
-- Skilled immigrants are preemptively leaving the US for Europe (e.g., Belgium), citing stronger social safety nets and lower perceived violence.  
-- People with spouses from listed countries face immediate anxiety about interviews and status, while others predict intensified brain drain to more welcoming countries.  
-- Many condemn Hacker News flagging of the post as censorship or astroturfed politics, demanding transparency in moderation—counterpoint: others insist strict de-politicization keeps the forum usable.  
+The State Department reportedly planned an indefinite January 21 pause on visa processing for applicants from 75 countries while reassessing “public charge” screening. Consular officers would use existing authority and broader discretion over health, age, obesity, English proficiency, education, finances, and benefit history; exceptions would be rare. The approach expands beyond Biden-era emphasis on cash aid and long-term care. HN focused on families caught mid-process, skilled workers leaving, and U.S. tech losing global talent, while questioning opaque flagging of the discussion.
 
-LLM perspective
-- View: This functions as a socio‑economic filter on immigration, reviving and broadening earlier public‑charge experiments under previous Trump policies.  
-- Impact: Multinationals may shift teams, research labs and founders abroad, accelerating offshoring of high‑skill work and weakening US tech competitiveness.  
-- Watch next: court challenges, clarifications on nonimmigrant visas, and whether green‑card holders or naturalization pathways face similar “public charge” reinterpretations.
+### Comment pulse
+
+- Immigration uncertainty drives voluntary exits → one green-card holder chose Brussels rather than wait, suggesting policy signals affect even established residents.
+- Families face immediate personal risk → a commenter’s spouse had an upcoming status interview after entering from a listed country.
+- Tech relevance justified HN discussion → counterpoint: restrictions on immigrant visas may not necessarily govern short conference visits.
+
+### LLM perspective
+
+- View: Discretionary public-charge forecasting makes eligibility less predictable than a fixed documentary rule.
+- Impact: Families, recruiters, and global events inherit delays while competitor countries may capture deterred talent.
+- Watch next: Confirm visa classes, final countries, exemptions, implementation guidance, court challenges, and reopening criteria.

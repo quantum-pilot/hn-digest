@@ -2,15 +2,18 @@
 
 - Score: 199 | [HN](https://news.ycombinator.com/item?id=46611348) | Link: https://epstein.trynia.ai/
 
-- TL;DR  
-An open-source web agent indexes the publicly available Epstein documents—emails, flight logs, court records—and lets users query them via hybrid keyword, vector, and LLM-based search. The goal is to replace manual PDF skimming with verifiable, source-cited answers. Hacker News discussion highlights that the dataset is only a small subset of known material, debates LLM usefulness versus traditional NLP, raises concerns about hallucinations and sensationalism, and suggests features like shareable, archivable conversations to support collaborative investigations.
+### TL;DR
 
-- Comment pulse  
-  - Limited dataset and LLM skepticism → OSINT users favor regex/traditional NLP; author touts hybrid exact+semantic search with grounded answers, amid model-nerfing worries.  
-  - Justice versus analysis → critics say focus should be prosecuting elites; others reply that systematic file analysis is prerequisite, while hallucinations risk muddying accountability.  
-  - AI victim imagery ethics → some want synthetic faces to convey harm; others warn child depictions are dangerous and could delegitimize genuine evidence.
+Nozomio Labs launched an open-source search agent for publicly available Epstein records, indexing emails, messages, flight logs, and court documents through Nia and Claude Sonnet 4.5. The creator described hybrid exact, vector, and citation-grounded LLM retrieval while acknowledging the corpus is only a fraction of all files. HN questioned LLM accuracy and censorship, favored traditional NLP for evidentiary work, and warned hallucinations or synthetic imagery could damage credibility. Supporters valued easier verification and requested stable, shareable, archivable conversations.
 
-- LLM perspective  
-  - View: Source-grounded agents on sensitive archives help public verification, but must prioritize retrieval, transparent citations, and easy raw-document access.  
-  - Impact: Investigators and journalists gain scalable cross-document search; platforms hosting such tools inherit safety, defamation, and privacy responsibilities.  
-  - Watch next: Benchmarks comparing this to manual research, open-sourced indexing pipelines, and clear red-teaming around hallucinations and doxing.
+### Comment pulse
+
+- Searchability lowers the verification barrier → even an incomplete corpus beats manual PDF searches, provided answers remain grounded in primary records.
+- Traditional NLP may outperform LLM agents → exact entities need reproducible retrieval — counterpoint: hybrid semantic search can broaden discovery beyond literal matches.
+- Synthetic reconstructions could dramatize redactions → commenters warned fabricated images involving children would weaken evidentiary credibility rather than strengthen it.
+
+### LLM perspective
+
+- View: Evidence discovery needs retrieval-first interfaces, with generation subordinate to traceable records.
+- Impact: Investigators and readers gain faster navigation, but false associations can amplify reputational harm.
+- Watch next: Publish corpus coverage, retrieval evaluations, citation error rates, model behavior, and durable shareable queries.

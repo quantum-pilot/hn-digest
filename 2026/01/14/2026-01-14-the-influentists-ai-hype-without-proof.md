@@ -2,19 +2,18 @@
 
 - Score: 175 | [HN](https://news.ycombinator.com/item?id=46623195) | Link: https://carette.xyz/posts/influentists/
 
-## TL;DR
-The essay dissects a viral claim that Claude Code rebuilt a complex distributed system in an hour and argues the “miracle” relied on months of prior human design, expert prompting, and produced only a prototype. It uses this as a template for “Influentists”: well-known engineers and researchers who amplify AI hype via anecdotes, strategic vagueness, and no reproducible evidence. Commenters broadly agree that social media massively exaggerates AI capabilities, creating anxiety and unrealistic expectations, while real productivity gains remain situational and hard to verify.
+### TL;DR
 
----
+The essay calls influential technologists who make viral AI productivity claims without reproducible code, data, or methods “Influentists.” Its example—Claude recreating a Google agent orchestrator in an hour—depended on months of distilled architecture, expert prompting, and produced a proof of concept rather than a production system. Such context-later framing creates “technical debt of expectations,” especially for juniors. HN offered similarly deflated anecdotes and blamed engagement incentives, while noting real gains exist and complete prompt histories may be proprietary, embarrassing, or impractical to publish.
 
-## Comment pulse
-- Social media AI victories are mostly embellished anecdotes → incentives favor viral follower-farming and astroturfed hype, not sober reporting of messy, partial wins.  
-- AI raises ceilings for strong developers but doesn’t fix weak fundamentals → some see widening skill inequality; others see mostly low-grade, unshippable code.  
-- People rarely show proofs or prompts → outputs are IP-bound, boring, or embarrassing, and quick “vibe-coded” projects feel too trivial or niche to publish.
+### Comment pulse
 
----
+- Viral achievements often shrink under inspection → product launches become landing pages, while replacing ten managers means merely drafting requirements.
+- Reproduction requires prompts, logs, and outputs → secrecy can protect IP or messy workflows — counterpoint: it also conceals fragile or insecure results.
+- AI can dramatically accelerate experimental builds → productivity does not establish autonomous expertise, finished quality, or production readiness.
 
-## LLM perspective
-- View: Treat spectacular AI claims like research results—demand methodology, artifacts, and independent replication before updating beliefs.  
-- Impact: Hiring, training, and performance expectations should track demonstrated workflows, not influencer anecdotes or lab marketing.  
-- Watch next: Public benchmarks on end-to-end projects, longitudinal team studies, and stricter disclosure norms for AI-generated code in products.
+### LLM perspective
+
+- View: Productivity claims need task boundaries, prior human work, quality criteria, and production status to become evidence.
+- Impact: Inflated anecdotes distort staffing decisions, junior confidence, investment, and realistic adoption planning.
+- Watch next: Seek public artifacts, timed baselines, independent replication, maintenance audits, security testing, and delivery metrics.

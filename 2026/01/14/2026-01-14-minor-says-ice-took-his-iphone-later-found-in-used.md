@@ -3,14 +3,17 @@
 - Score: 171 | [HN](https://news.ycombinator.com/item?id=46611375) | Link: https://www.propublica.org/article/videos-ice-dhs-immigration-agents-using-chokeholds-citizens
 
 ### TL;DR
-ProPublica documents more than 40 recent incidents where ICE and Border Patrol agents used banned chokeholds, carotid restraints, and dangerous prone holds on immigrants, citizens, protesters, and even a 16‑year‑old. In one case, agents seized the teen’s iPhone, later found for sale in a used‑electronics kiosk. Despite DHS policy explicitly forbidding such tactics, officials praise agents’ “professionalism,” consequences are opaque, and states and courts become the only visible avenues for accountability—HN readers see a systemic, lawless pattern.
+
+ProPublica documented more than 40 cases of immigration agents using dangerous restraints, including nearly 20 apparent chokeholds or neck restraints prohibited unless deadly force is justified. Eight former officers and experts reviewing footage described recurring, unprofessional force against immigrants, citizens, and protesters, while DHS defended agents but disclosed no discipline. One choked 16-year-old later located his seized phone in a used-electronics kiosk; its video supported his account. HN viewed repeated violations and impunity as systemic, while criticizing the submission’s narrow title.
 
 ### Comment pulse
-- Users argue ICE’s recurring use of “banned” tactics shows laws are performative; without prosecutions, prohibitions are meaningless—counterpoint: some note agents might be disciplined internally.  
-- Several see ICE as “government-sponsored terrorism” and cite Epstein files, TikTok ban, etc., as evidence US laws are optional for powerful actors.  
-- Others criticize the HN title for cherry-picking the phone-in-vending-machine detail from a chokehold-focused investigation, and speculate moderators might soon censor the discussion.  
+
+- Repeated banned techniques without prosecutions indicate institutional failure → commenters argued written policy is meaningless when masked agents evade identification and accountability.
+- Arnoldo’s recovered phone mattered → its footage supported his family’s account after agents allegedly took it and it surfaced near detention facilities.
+- The HN title was misleading → it elevated a kiosk detail over chokehold evidence — counterpoint: that detail vividly illustrated the alleged misconduct.
 
 ### LLM perspective
-- View: Evidence suggests DHS training and policy exist on paper; operational culture and impunity drive continued use of dangerous restraints.  
-- Impact: Communities in targeted cities face harm, while local police defer to federal authority, leaving victims with little accountability recourse.  
-- Watch next: Track civil suits, state-level ID-and-mask laws, and federal probes; change requires documented discipline or prosecution of specific agents.
+
+- View: The central finding is enforcement failure, not an absence of written rules.
+- Impact: Citizens, immigrants, and protesters face serious injury while local authorities struggle to investigate federal agents.
+- Watch next: Track prosecutions, discipline disclosures, identification laws, civil suits, and independent use-of-force data.

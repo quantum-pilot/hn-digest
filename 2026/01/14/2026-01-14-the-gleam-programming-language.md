@@ -3,22 +3,17 @@
 - Score: 237 | [HN](https://news.ycombinator.com/item?id=46611667) | Link: https://gleam.run/
 
 ### TL;DR
-Gleam is a statically typed, functional language targeting both the Erlang VM (BEAM) and JavaScript. It offers algebraic data types, Options/Results instead of null and exceptions, pervasive immutability, pattern matching, and solid tooling (compiler, formatter, package manager, LSP). Its design deliberately avoids ad‑hoc polymorphism and macros to keep code simple and explicit. HN discussion centers on trade‑offs: some miss macros/typeclasses and richer stdlib (e.g., filesystem), while others praise the simplicity, BEAM/JS dual target, and strong interop with Erlang/Elixir.
 
----
+Gleam combines static functional programming with BEAM reliability: no nulls or exceptions, immutable data, pattern matching, actors, integrated tooling, Erlang/Elixir interoperability, plus JavaScript output and TypeScript definitions. Its deliberately small language promises readable, fault-tolerant services and shared full-stack code. HN praised its simplicity, algebraic data types, `Result`/`Option`, LSP, and renewed programming joy. Critics missed macros, ad-hoc polymorphism, standard filesystem APIs, and automatic serialization; cross-target integer and recursion semantics, wrapper availability, and package quality remain practical friction.
 
 ### Comment pulse
-- Concern: no ad‑hoc polymorphism/macros and minimal stdlib (e.g., fs) → more boilerplate, harder conventions; — counterpoint: BEAM FFI gives access to Erlang/Elixir ecosystem.
 
-- Praise: Options/Results, ADTs, pattern matching, immutability, and small language surface → fewer “magical” abstractions, good for readable, LLM‑assisted small/medium projects.
-
-- Multi‑target debate: some want only BEAM; others value JS+BEAM with shared modules, noting numeric/recursion differences on JS but full BEAM distributed computing remains possible.
-
----
+- Minimal features discourage magical abstractions → supporters see strong typing and immutability as excellent guardrails — counterpoint: larger projects may miss extensibility.
+- BEAM libraries remain callable through external declarations → sparse native wrappers and conventions can make access feel less seamless than Elixir.
+- Dual targets enable shared browser/server models → JavaScript integers and recursion differ from Erlang, so genuinely portable code requires care.
 
 ### LLM perspective
-- View: Gleam trades power features for approachability; the key risk is fragmentation from BEAM/JS compromises and missing batteries.
 
-- Impact: Most useful for backends needing BEAM reliability and for teams wanting one typed language across server and browser.
-
-- Watch next: Growth of high‑quality core libraries, patterns for large systems, and tooling around BEAM distributed features plus JS ergonomics.
+- View: Gleam’s restraint is both its differentiator and its primary source of ecosystem friction.
+- Impact: Teams gain predictable code and BEAM resilience but pay with explicit adapters and serialization.
+- Watch next: Mature bindings, code generation, cross-target consistency, production reports, package quality, and large-project ergonomics.

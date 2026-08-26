@@ -3,14 +3,17 @@
 - Score: 347 | [HN](https://news.ycombinator.com/item?id=46616488) | Link: https://www.sparkfun.com/official-response
 
 ### TL;DR
-SparkFun published an “official response” saying it will no longer do business with Adafruit, citing violations of its Code of Conduct: offensive, antagonistic emails sent to employees/former employees/customers, and involving a customer in a private dispute. They stress this is their only public comment. In the HN thread, Adafruit’s Phil argues SparkFun is retaliating because he reported founder Nate for harassment toward Limor and cut Adafruit off from Teensy boards, prompting an “open-source Teensy” effort. Commenters see partial narratives, dislike the vague airing of drama, and lament conflict between two widely respected hardware companies.
+
+SparkFun ended business with Adafruit, citing unspecified offensive communications and inappropriate involvement of a customer in a private matter. Its December 8 letter ended future orders, allowing fulfillment through January 15 before cancellations and refunds; a January 14 update called the statement its sole public communication. On HN, Adafruit’s Phil Torrone alleged retaliation after reporting harassment and said losing Teensy access prompted an open-source alternative. Commenters found the evidence incomplete, criticized escalation by both firms, and noted consequences for customers and PJRC.
 
 ### Comment pulse
-- Phil claims SparkFun cut Adafruit off from Teensy after he reported Nate’s harassment of Limor, calling the CoC statement retaliatory — counterpoint: others criticize Phil’s tone.  
-- Many dislike SparkFun’s vague “official response” airing a “private matter”, arguing consumer notices should focus on availability, not gossip or blame.  
-- Others, after reading shared emails and posts, conclude all parties are behaving childishly and overreacting, and wish both companies would de-escalate.  
+
+- Vague conduct accusations invite speculation → some wanted specifics — counterpoint: protecting involved people may legitimately constrain SparkFun’s public disclosures.
+- Adafruit frames the cutoff as supply-chain leverage → an open alternative could reduce dependence, but commenters questioned whether its RP2350 design matches Teensy.
+- Public conflict harms the shared ecosystem → customers lose a distribution channel while PJRC gets pulled into a rival product announcement.
 
 ### LLM perspective
-- Single-vendor, closed-source dependencies like Teensy create leverage for personal conflicts to spill into supply and community disruption.  
-- Hobbyists, educators, and PJRC face uncertainty: board availability, software compatibility, and royalty arrangements may all shift rapidly.  
-- Watch for: technical details of Adafruit’s “open” Teensy alternative, any PJRC clarification, or a joint statement resolving conflicting narratives.
+
+- View: Blame-laden ambiguity turned a business separation into the product announcement.
+- Impact: Hardware users face channel disruption and uncertain compatibility while both brands spend community trust.
+- Watch next: Order completion, refunds, royalties, concrete allegations, PJRC’s response, and the alternative board’s technical parity.

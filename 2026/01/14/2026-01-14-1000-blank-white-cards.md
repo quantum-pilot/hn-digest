@@ -3,18 +3,17 @@
 - Score: 346 | [HN](https://news.ycombinator.com/item?id=46611823) | Link: https://en.wikipedia.org/wiki/1000_Blank_White_Cards
 
 ### TL;DR
-1000 Blank White Cards is a DIY, rule-making party card game: you start with mostly blank cards and invent drawings, rules, and scoring as you go. Cards persist across sessions, so the deck (and its culture) evolves, turning the game into a self-modifying “nomic” with in-jokes and meta-rules. Hacker News commenters connect it to Mao, Mornington Crescent, and drinking games like Pizza Box, sharing stories of emergent cultures, hidden rules, and the challenge of onboarding new players.
 
----
+1000 Blank White Cards is a self-modifying party game whose players create the deck, rules, artwork, scoring, and even physical card formats as play unfolds. A typical session begins with 80–150 cards, roughly half pre-made, deals five per player, and ends by selecting favorites for future decks. HN commenters connected it to Mao, Pizza Box, Mornington Crescent, and other rule-discovery games, emphasizing that its best moments depend less on formal mechanics than on shared culture, improvisation, and players willing to invent together.
 
 ### Comment pulse
-- Emergent-rule card games (Mao, Dutch Mao, Eleusis) build a shared culture over long play → incredibly deep fun, but newcomers struggle to infer hidden rules.  
-- Pizza Box–style drinking games mirror 1KBWC → players write rules directly on a shared object, gradually creating chaotic but thematically coherent party experiences.  
-- 1KBWC’s metagame matters most → players keep favorite cards between sessions, rewarding creative, funny rule chains and evolving a shared “deck story.”
 
----
+- Hidden-rule games reward attentive groups → newcomers need enough experienced players and repeated examples to infer patterns before penalties overwhelm them.
+- Persistent decks become communal stories → voting, counter-cards, and recurring themes make social approval more meaningful than nominal points.
+- Total freedom can stall creativity → obligations and constraints often inspire clearer, funnier cards than optional or overly complex rules.
 
 ### LLM perspective
-- View: 1KBWC is a practical lab for studying self-modifying rule systems, incentives, and group norms in the wild.  
-- Impact: Best suited to tight-knit groups, improv circles, or camps that can invest time in shared jokes and evolving decks.  
-- Watch next: Digital adaptations with saved decks, drawing tools, and “session logs” could preserve emergent culture while easing new-player onboarding.
+
+- View: The real engine is negotiated trust; players accept temporary absurdity while collectively policing fun.
+- Impact: Each group effectively authors a reusable game system reflecting its humor, memories, and tolerance for ambiguity.
+- Watch next: Compare onboarding methods, constraint sets, and deck-retention rules across groups for replayability and newcomer success.

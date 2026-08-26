@@ -2,15 +2,18 @@
 
 - Score: 277 | [HN](https://news.ycombinator.com/item?id=46619030) | Link: https://www.eff.org/deeplinks/2026/01/so-youve-hit-age-gate-what-now
 
-- TL;DR  
-This EFF guide explains how mandatory online age checks work on Meta, Google, TikTok and others, and how to choose the least-invasive option when you’re forced to comply. Core advice: minimize what you submit, and evaluate any method by data collected, who sees it, how long it’s kept, audit quality, and who learns you’re verifying. Facial scans, IDs, credit cards, email-based checks and digital IDs all carry different privacy, security and bias risks, and none are truly safe or universal.
+### TL;DR
 
-- Comment pulse  
-  - Age-gating teaches kids to upload selfies and IDs, undermining privacy norms and enabling phishing-style fake “reverify” prompts that harvest documents.  
-  - Some see a data-grab for face/ID info; others argue companies mostly seek cheap legal compliance and tolerate data collection as a side effect.  
-  - People fear inevitable breaches and opaque subcontractors; workarounds like VPNs are fragile, while quitting platforms is hard when schools and communities rely on them.
+EFF opposes mandatory age checks but offers a risk-minimizing playbook: compare required data, who accesses it, retention, audits, and who learns which site you use. Prefer the least-sensitive option—on-device face estimation or selective digital ID may expose less than uploaded government ID, while cards and emails still weaken anonymity and deletion promises remain uncertain. Practices vary across Meta, Google, and TikTok. HN stressed that checks normalize unsafe photo sharing, enable bypasses and phishing, create breach targets, and may gate practically essential communities.
 
-- LLM perspective  
-  - View: Age verification is becoming infrastructure; without strong constraints, it will quietly normalize mass identity collection and weaken pseudonymity.  
-  - Impact: Children, marginalized users, and anyone needing anonymity (health, politics, sexuality) face disproportionate lockouts or exposure.  
-  - Watch next: Court challenges to age-gating laws, emergence of privacy-preserving open standards, and whether big platforms adopt strict deletion/audit commitments by default.
+### Comment pulse
+
+- Teaching children to upload faces reverses safety guidance → stock photos and game characters can bypass checks while verification prompts cultivate phishing habits.
+- Deletion promises are unverifiable after data enters subcontractor chains → breach victims may never know which unseen company held their identity.
+- Refusing a gated service protects privacy → counterpoint: schools, churches, and communities often make dominant platforms practically unavoidable.
+
+### LLM perspective
+
+- View: Age verification shifts risk toward identity surveillance without guaranteeing accurate age decisions.
+- Impact: Minors and marginalized users bear misclassification, exclusion, and breach costs across opaque vendor chains.
+- Watch next: Demand independent audits, short retention, local proofs, appeals, vendor disclosure, and non-identifying alternatives.

@@ -3,18 +3,17 @@
 - Score: 853 | [HN](https://news.ycombinator.com/item?id=46616745) | Link: https://www.theguardian.com/us-news/2026/jan/14/fbi-raid-washington-post-hannah-natanson
 
 ### TL;DR
-FBI agents raided Washington Post reporter Hannah Natanson’s Virginia home, seizing her phones, laptops and watch in a leak investigation tied to Pentagon contractor Aurelio Perez-Lugones, who allegedly removed classified materials but isn’t charged with leaking. The Trump administration’s attorney general Pam Bondi framed the raid as a crackdown on “illegal leaks,” after rolling back DOJ rules that had curtailed seizing journalists’ records. Press freedom groups call the search exceptionally invasive, warning it jeopardizes Natanson’s 1,100+ government sources and chills reporting on federal misconduct.
 
----
+The FBI searched Washington Post reporter Hannah Natanson’s Virginia home and seized her phone, Garmin watch, and two laptops under a warrant tied to contractor Aurelio Perez-Lugones, who was accused of retaining classified intelligence. Natanson was reportedly neither the investigation’s target nor accused of wrongdoing. Press-freedom groups warned that accessing a reporter’s communications could expose confidential sources and chill public-interest reporting. HN debate separated warrant legality—probable cause may concern evidence rather than the property owner—from the exceptional institutional harm of using that power against journalism.
 
 ### Comment pulse
-- Search seems legally valid under probable-cause standards → but it breaks a hard-won DOJ norm not to target journalists’ work product—counterpoint: that norm was policy, not law.  
-- Seizing devices likely exposes over 1,000 federal-employee sources → commenters fear mass unmasking, retaliation, and note most reporters lack serious OPSEC despite SecureDrop-style tools.  
-- Classified leakers clearly break the law, motives aside → but journalists may legally hold classified info, so raiding a non-suspect reporter expands state power over the press.
 
----
+- Law permits searches for evidence at innocent parties’ locations → counterpoint: legality does not resolve source protection, pretext, or press-freedom concerns.
+- Seized devices may reveal 1,169 source relationships → reporters need strong operational-security training, encrypted channels, and compartmentalization.
+- Missing warrant details are decisive → commenters wanted the affidavit and probable-cause basis before judging necessity or scope.
 
 ### LLM perspective
-- View: The real leverage isn’t jailing reporters, it’s deterring every potential source who sees a byline as a subpoena magnet.  
-- Impact: Federal employees, especially career civil servants, will think twice before contacting media, narrowing visibility into internal abuses and policy sabotage.  
-- Watch next: Whether courts narrow such warrants, how newsrooms harden source-protection workflows, and if this becomes a template for future leak probes.
+
+- View: The central issue is not categorical immunity for reporters, but whether leak investigations can preserve source confidentiality.
+- Impact: Federal employees may avoid legitimate disclosures if one device seizure can map an entire reporting network.
+- Watch next: Warrant-affidavit release, device-search limits, source-data minimization, court challenges, and Justice Department media guidelines.
