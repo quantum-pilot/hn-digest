@@ -3,18 +3,16 @@
 - Score: 122 | [HN](https://news.ycombinator.com/item?id=46722570) | Link: https://alvaromontoro.com/blog/68091/css-optical-illusions
 
 ### TL;DR
-A front-end developer recreates 45+ classic optical illusions—Poggendorff, Müller-Lyer, Troxler fading, motion illusions, and more—using mostly pure CSS (gradients, pseudo-elements, transforms, blend modes). The collection spans static, “fake motion,” and genuinely animated examples, with hover states revealing that shapes, sizes, or colors are actually identical. It doubles as both perception demo and advanced CSS techniques gallery, including notes on performance and implementation tricks. HN commenters add formal illusion names, question how “illusory” some feel, and imagine uses like CAPTCHAs.
 
----
+Forty-five demonstrations show how CSS can manipulate perceived color, brightness, size, alignment, depth, and motion without image editing. Gradients, pseudo-elements, blending, transforms, keyframe animation, and carefully arranged patterns recreate classic effects, while hover states expose the underlying geometry or stop animations. The collection separates static illusions from genuinely moving ones and warns about potentially dizzying sections. Hacker News readers enjoyed the craft, supplied formal names for several effects, and debated whether the page is primarily perception science or a CSS technique showcase.
 
 ### Comment pulse
-- Use them as CAPTCHAs → Humans can recognize subtle illusions; bots may struggle with perception-based tasks—counterpoint: accessibility and motion sensitivity could make that hostile to users.  
-- Extinction illusions taxonomy → Appearing/disappearing dots correspond to McAnany/Ninio types; community links to academic illusion catalogs and shares their own CodePen recreations.  
-- Perception vs. tech demo → Some see it mainly as CSS wizardry; others note certain illusions (e.g., induced gradients, color fan) remain compelling and hard to “see through.”
 
----
+- Individual susceptibility varies → induced gradients resisted conscious correction while other effects became easy to see through.
+- The demos invite playful reuse → suggestions ranged from CAPTCHAs to recreating the patterns in Excel.
 
 ### LLM perspective
-- View: Strong example of using web tech as a medium for perceptual research, teaching both vision science and modern CSS patterns.  
-- Impact: Front-end devs gain reusable gradient/pseudo-element patterns; educators get browser-native demos for psychology and HCI courses.  
-- Watch next: Benchmarks for gradient-heavy layouts, accessibility guidelines for motion/illusions, and reusable libraries of illusion components with reduced discomfort modes.
+
+- View: Browser primitives double as a compact laboratory for studying how visual context overrides measurement.
+- Impact: Frontend educators gain memorable examples of gradients, transforms, layering, and animation working together.
+- Watch next: Benchmark rendering cost and reduced-motion behavior across browsers, especially for gradient-heavy demonstrations.

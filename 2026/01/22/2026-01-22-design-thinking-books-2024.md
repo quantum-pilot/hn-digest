@@ -4,20 +4,15 @@
 
 ### TL;DR
 
-The piece argues that five-step “design thinking” toolkits are oversold; real innovation comes from grasping how designers actually think, reframe problems, and handle wicked, non-linear situations. It curates foundational books and papers by Dorst, Cross, Brown, Norman, Lawson, Simon, Buchanan, Rittel & Webber, and Cockton, covering design expertise, framing, human-centered psychology, bounded rationality, and new vocabularies for complex problem spaces. HN commenters debate design thinking’s value, criticizing buzzwordy consulting while defending serious, research-led practice and proposing more practical companion books.
-
----
+The reading list argues that design thinking is not a five-step creativity recipe but a body of practice grounded in framing, observation, iteration, and judgment. Its books and papers span design expertise, human-centered psychology, bounded rationality, wicked problems, and non-linear design arenas, linking Dorst, Norman, Simon, Buchanan, Rittel, Webber, and others. Discussion was sharply divided: critics saw repackaged ordinary thinking and consulting jargon, while practitioners defended disciplined user research conducted with domain experts.
 
 ### Comment pulse
 
-- Design thinking is overhyped like data science/Agile → consultants impose process without domain expertise — counterpoint: practiced properly, it’s research-heavy, collaborating closely with domain experts.  
-- Definition confusion → many see design thinking as just “design” rebranded; others say the label helps pull stakeholders into problem-framing and root-cause analysis workshops.  
-- Norman’s book → some find it academic or dated; others value its UX concepts and suggest complements like “Don’t Make Me Think” or “Refactoring UI.”  
-
----
+- Norman’s book struck some readers as academic rather than tactical → counterpoint: its vocabulary transfers across interfaces and exposes design-caused errors.
+- Practitioners recommend actionable companions → Don’t Make Me Think and Refactoring UI translate theory into everyday interface decisions.
 
 ### LLM perspective
 
-- View: Strong list if you want theory behind design, not another sticky-note workshop cookbook.  
-- Impact: Best suited for UX, product, and design leads building a deeper practice than surface-level “empathize/ideate” rituals.  
-- Watch next: Evidence comparing outcomes of theory-informed design teams vs process-branded workshops inside large organizations.
+- View: The useful distinction is rigorous problem discovery, not workshop choreography.
+- Impact: Teams can challenge assumed solutions before committing design and engineering effort.
+- Watch next: Evaluate methods by field research quality, stakeholder participation, and implemented outcomes.

@@ -2,15 +2,17 @@
 
 - Score: 426 | [HN](https://news.ycombinator.com/item?id=46713924) | Link: https://blog.citp.princeton.edu/2026/01/16/internet-voting-is-insecure-and-should-not-be-used-in-public-elections/
 
-## TL;DR
-A group of 21 leading election‑security researchers argue that internet voting, including “end‑to‑end verifiable” cryptographic schemes, cannot be made safe with current or foreseeable technology. Malware on voter devices, servers, or election offices can change large numbers of votes undetectably, unlike paper systems where fraud is localized and visible. They dissect the VoteSecure mobile‑voting SDK, showing it permits vote‑selling, lacks dispute resolution, and admits unsolved endpoint‑security limits. HN comments largely favor paper ballots and emphasize trust over efficiency.
+### TL;DR
 
-## Comment pulse
-- Paper ballots → Cheating methods and countermeasures are well-known; failures are local and obvious, enabling observation, recounts, and public trust—unlike silent, large‑scale digital failure.
-- Secret ballot and coercion → Systems that let you verify your vote also risk proving it to coercers, undermining receipt‑freeness and enabling vote‑buying at scale.
-- Tradeoffs vs banking analogy → Banking fraud is traceable, reversible, and non‑anonymous; election fraud is anonymous, irreversible, and existential, so “online banking works” doesn’t transfer.
+Twenty-one election-security specialists argue that internet voting cannot currently match well-run paper ballots. Malware on voter devices, servers, or election offices can alter many votes silently, while end-to-end verification collides with ballot secrecy, coercion resistance, low checker participation, and unresolved disputes. They say VoteSecure does not supply a complete system or resolve several of these limits. Commenters largely prioritized observable, auditable paper processes, though some asked whether benefits could ever outweigh risks as phones already handle other high-trust activities.
 
-## LLM perspective
-- View: The bottleneck isn’t cryptography; it’s hostile endpoints, coercion, and lack of credible dispute‑resolution in anonymous, remote contexts.
-- Impact: High‑stakes public elections should stay paper‑based with audits; experiments belong in low‑stakes, opt‑in or organizational governance.
-- Watch next: Rigorous pilot studies, formal threat models including nation‑states, and better public audit practices for existing paper‑plus‑scanner systems.
+### Comment pulse
+
+- Paper fraud is local and visible → sealed boxes, observers, recounts, and human-readable records make failures contestable.
+- Banking analogies break down → financial transfers are attributable and reversible, whereas secret-ballot election damage may be neither.
+
+### LLM perspective
+
+- View: Election security depends on sociotechnical recovery and public proof, not cryptography alone.
+- Impact: Administrators should preserve voter-marked paper and use machines only with auditable records.
+- Watch next: Require peer-reviewed threat models, coercion analysis, dispute protocols, and public trials before deployment.

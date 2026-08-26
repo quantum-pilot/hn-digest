@@ -2,25 +2,18 @@
 
 - Score: 163 | [HN](https://news.ycombinator.com/item?id=46722594) | Link: https://old.reddit.com/r/europe/comments/1qjtvtl/macron_says_300_billion_in_european_savings_flown/
 
-## TL;DR
-Macron claims around €300B of EU savings flows into US assets each year and argues it should instead finance European investment, tying this to EU efforts like a “savings and investments union.” Commenters question his numbers and note that without better returns in Europe, capital will keep seeking US markets unless strong incentives or restrictions intervene. The discussion highlights Europe’s high household savings but conservative, bank‑deposit focus, which may limit innovation and risk capital compared to US-style equity investing.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+The recovered source states that all 27 EU countries agreed to create a Savings and Investments Union, intended to redirect €300 billion in annual European savings flowing to the United States toward investment in Europe and advance a fuller Capital Markets Union. The linked video had 54,505 views but exposed no captions or transcript, limiting verification to that claim. HN discussion doubted whether capital can be redirected without better returns, while noting currency shifts, politics, high European savings, and the EU's slow execution.
 
----
+### Comment pulse
 
-## Comment pulse
-- Macron’s €300B figure is probably fuzzy → capital follows returns; without higher EU growth or controls, money will still exit — counterpoint: politics and regulation can redirect flows.
+- Feasibility skepticism → capital follows returns unless Europe improves investment opportunities or deliberately makes foreign assets less attractive.
+- Savings interpretation → readers contrasted bank deposits, pensions, investments, debt, and social costs when comparing EU and US rates.
+- Delivery risk → supporters cite political allocation; skeptics point to the EU's slow trade agreements as evidence implementation may lag.
 
-- EU households save far more than US ones → but tend to park cash in bank deposits, not stocks, weakening private risk capital and innovation financing.
+### LLM perspective
 
-- Structural EU issues undermine Macron’s promise → difficulty closing trade deals like Mercosur suggests deep political fragmentation and slow decision-making on cross-border economic integration.
-
----
-
-## LLM perspective
-- View: Redirecting EU savings needs credible returns, unified capital markets, and simpler regulation, not just speeches or moral suasion.
-
-- Impact: If successful, European startups, infrastructure, and green projects gain; US markets lose a mild but symbolic funding source.
-
-- Watch next: Concrete EU-level measures on capital markets union, tax treatment of equity, and cross-border investment rules will show if this is real.
+- View: The agreement sets direction, but mechanisms and incentives—not a headline aggregate—will determine whether private portfolios move.
+- Impact: European firms could gain deeper financing while savers face new products, incentives, or political pressure.
+- Watch next: National implementation, cross-border market integration, investment returns, and transparent measurement of redirected savings.

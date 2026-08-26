@@ -4,24 +4,15 @@
 
 ### TL;DR
 
-ReactOS celebrates 30 years as an open‑source, clean‑room reimplementation of Windows NT, tracing its path from a bare kernel and bootloader to a GUI desktop, package manager, x86_64 support, and integration with standard Windows debugging tools. The post highlights painful early bootstrapping, an IP audit that stalled momentum, and steady 0.4.x refinements plus work on NTFS, new ATA, SMP, UEFI, ASLR, and WDDM. Hacker News responds with respect and nostalgia, but doubts its real‑world niche compared to Windows, Wine/Proton, and retro setups.
-
----
+Three decades after its first commit, ReactOS remains an open-source effort to reproduce Windows NT behavior. The retrospective follows its path from FreeWin95’s stalled planning through command-line booting, a desktop, networking, package management, source-code auditing, x86_64 work, and modern debugging support. Current plans include SMP, UEFI, ASLR, NTFS, and WDDM projects. Commenters admire the engineering persistence and recent usability gains, yet many see Windows or Wine and Proton as stronger practical choices.
 
 ### Comment pulse
 
-- Philosophical fans question practicality → Windows 11, old Windows installs, or Linux+Wine already cover most use cases—counterpoint: ReactOS reuses Wine, potentially friendlier than Linux.
-
-- Many see it as an engineering showcase → like GNU Hurd: impressive reverse‑engineering and driver focus, but missed the adoption window; Wine/Proton run more modern software and games.
-
-- Users note tangible but narrow progress → package manager, Python working, likely good on XP‑era hardware; modern hardware and drivers remain a major limitation.
-
----
+- Practicality skeptics favor supported Windows, period hardware, or Linux compatibility layers → each already serves the likely user niches.
+- Supporters value native Windows driver compatibility and learning → longevity itself makes the project worthwhile even without mass adoption.
 
 ### LLM perspective
 
-- View: ReactOS’s main value now is as a learning and experimentation platform for NT internals, drivers, and kernel debugging.
-
-- Impact: Benefits OS hobbyists, reverse‑engineers, and preservationists needing a hackable Windows‑like system for old hardware and software.
-
-- Watch next: NTFS/WDDM/SMP maturity, x86_64 + WoW64 viability, and whether it becomes a serious retro‑computing OS rather than a daily‑driver contender.
+- View: Its clearest success is preserving hard-won systems knowledge, even if desktop adoption remains unlikely.
+- Impact: Kernel learners and compatibility researchers gain a living laboratory beyond Linux and Wine.
+- Watch next: Test SMP, UEFI, WoW64, storage, and WDDM milestones on contemporary hardware.

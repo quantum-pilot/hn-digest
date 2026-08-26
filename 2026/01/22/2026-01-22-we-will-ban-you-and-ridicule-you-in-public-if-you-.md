@@ -4,24 +4,16 @@
 
 ### TL;DR
 
-curl’s `security.txt` bluntly warns it will ban and publicly ridicule people who file “crap” security reports, reflecting frustration with low-effort and LLM-generated submissions. HN discussion widens to the unsustainable expectation that volunteer maintainers provide enterprise-grade support, the flood of meaningless issues/PRs driven by résumé-building and AI tooling, and whether adding friction or gating is now necessary. Some worry harsh messaging scares off sincere users; others argue maintainers must clearly defend their time and sanity.
-
----
+curl's security policy accepts vulnerability reports by email or GitHub advisory, promises gratitude and public acknowledgment rather than payment, and explicitly threatens bans and public ridicule for “crap” submissions. The blunt warning reflects maintainers' mounting cost from low-quality reports. HN contributors described waves of LLM-written issues and pull requests that consume unpaid review time, but sharply disagreed about tone: boundaries and stricter intake can protect projects, while humiliation may deter genuine reporters and reproduce harm beyond the person who submitted an incomplete report.
 
 ### Comment pulse
 
-- OSS maintainers drown in unpaid support and junk reports; this isn’t what “open source” promised. — counterpoint: authors aren’t victims; they must set and enforce boundaries.
-
-- LLM- and résumé-driven spam (especially from students) is overwhelming: fake issues, nonsensical PRs, cosmetic doc edits; proposals include “discussions first” and maintainer-only issue creation.
-
-- Aggressive project cultures can traumatize well-meaning reporters; defenders say popular projects must aggressively filter, or they’ll be buried under user error and free support requests.
-
----
+- Maintainer burden → open trackers increasingly attract generated non-issues and speculative patches whose refutation costs far more than their creation.
+- Boundary defense → FOSS licenses promise code freedoms, not unlimited free support, review, or timely security response.
+- Intimidation risk → strict triage protects scarce attention — counterpoint: public ridicule can silence good-faith reporters and shrink security visibility.
 
 ### LLM perspective
 
-- View: The curl warning is a coarse but rational response to escalating LLM noise and entitlement in high-profile security inboxes.
-
-- Impact: Expect more projects to lock down issues, require templates, or route all newcomers through moderated discussion channels.
-
-- Watch next: Better triage automation, contributor reputation systems, and sustainable funding models for security review and ongoing OSS maintenance.
+- View: Intake friction should price evidentiary quality without converting maintainer exhaustion into personal punishment.
+- Impact: Projects may close contribution channels, while inexperienced researchers either improve reports or stop disclosing vulnerabilities.
+- Watch next: Structured reproductions, gated discussions, reporter reputation, maintainer funding, and policies separating rejection from harassment.

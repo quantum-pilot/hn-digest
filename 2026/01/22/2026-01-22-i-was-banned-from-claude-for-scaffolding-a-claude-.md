@@ -2,22 +2,17 @@
 
 - Score: 276 | [HN](https://news.ycombinator.com/item?id=46723384) | Link: https://hugodaniel.com/posts/claude-code-banned-me/
 
-## TL;DR
+### TL;DR
 
-An indie developer ran two Claude instances in a loop: one maintained a CLAUDE.md config file, the other followed it to build projects. As the file accumulated aggressive, system-style instructions, Anthropic abruptly disabled his paid account for policy violation, refunded him, and offered no explanation or human contact. He suspects prompt-injection defenses misfired and warns that auto-generating “system prompt” files is risky. HN commenters report similar instability and opaque bans, while some doubt we’re getting the full story.
+A Max subscriber says their account was disabled without warning while two Claude Code sessions iteratively refined a project’s CLAUDE.md. One session converted the other’s mistakes into increasingly forceful instructions, which the author suspects resembled prompt injection; no cause was confirmed. Appeals and support messages received no response, and only a €220 credit note arrived. Commenters split between similar accounts of automated bans and poor support, and skepticism that the post supplied enough evidence to establish causation.
 
----
+### Comment pulse
 
-## Comment pulse
+- The workflow used one model as supervisor and another as worker → error feedback continuously rewrote the worker’s context file.
+- SaaS critics emphasized unilateral access loss → local tools remain usable without opaque moderation or an unreachable appeals channel.
 
-- Anthropic users report instability and poor support → chats hang, failures, bans after heavy use; appeals ignored. — counterpoint: AI-only support might be intentional, neglect.  
-- Skeptical readers note vague prompts and quirky narration → suspect undisclosed ToS violations, since companies rarely explain bans and authors can curate stories.  
-- Others argue exact prompts are secondary → real concern is centralized SaaS AI can revoke access via opaque automation, unlike local or self-hosted tools.  
+### LLM perspective
 
----
-
-## LLM perspective
-
-- View: Safety systems that flag “system-like” text risk punishing advanced workflows and research, not just malicious prompt injection.  
-- Impact: Heavy AI coders, tool builders, and non-developers outsourcing work to LLMs face sudden outages, lost work, and sunk subscriptions.  
-- Watch next: Explicit policies on automation, sandboxed “agentic” modes, exportable logs, and standardized appeals processes across major AI providers.
+- View: The strongest documented failure is absent recourse, not the author’s unverified trigger theory.
+- Impact: Developers may avoid placing critical workflows behind a single model vendor’s account controls.
+- Watch next: Demand reason codes, human appeals, audit logs, and published false-positive restoration metrics.

@@ -3,18 +3,17 @@
 - Score: 200 | [HN](https://news.ycombinator.com/item?id=46719899) | Link: https://lambdaland.org/posts/2026-01-21_tree-sitter_vs_lsp/
 
 ### TL;DR
-Tree-sitter and language servers solve different layers of “understanding code” in editors. Tree-sitter is a fast, error-tolerant incremental parser that gives you accurate syntactic structure and highlighting while you type, plus a query language to find constructs more robustly than regex. Language servers, speaking LSP, add semantic knowledge: symbol resolution, types, navigation, completions and semantic highlighting (e.g., mutable vs immutable bindings). HN comments add real-world experiences (TypeScript, Rust, Roslyn), Tree-sitter’s limits on older languages, latency tradeoffs, and a side discussion on trusting non-AI-written technical writing.
 
----
+Tree-sitter builds fast, error-tolerant parsers suited to incremental syntax highlighting and structural queries, even while code is incomplete. Language servers exchange standardized LSP messages with editors to provide semantic features such as definitions, completions, and type-aware highlighting, potentially using compiler logic or independent analysis. Together they avoid fragile regexes and duplicated editor-language integrations. HN practitioners favored a layered approach: immediate syntactic coloring from a local parser, followed by asynchronous semantic distinctions, while noting mature language services can also parse incrementally at microsecond scale.
 
 ### Comment pulse
-- Tree-sitter vs LSP for highlighting → Many ship fast syntactic coloring (Tree-sitter/tmLanguage) plus slower semantic overlays from LSP—counterpoint: well-designed in-process LSPs can stay microsecond-fast.
-- Tree-sitter’s role → Great for incremental, heuristic syntax; but lacks symbol tables, so can’t know types or scopes, especially in languages like C/C++.
-- Semantic power of LSP → Rust examples show mutability- and flow-aware highlighting (rust-analyzer, Flowistry), making non-semantic editors feel “naked.”
 
----
+- Semantic value → language servers distinguish mutable bindings, types, scopes, and data flow that syntax trees alone cannot reliably infer.
+- Parsing limits → Tree-sitter incrementally repairs local trees, but ambiguous languages may require guesses without compiler symbol tables.
+- Architecture trade-off → separate syntax paths minimize latency yet risk parser divergence, duplicate memory, and maintenance.
 
 ### LLM perspective
-- View: Treat Tree-sitter as the syntax engine and LSP as the semantic engine; designing editors around that separation scales well.
-- Impact: Editor/plugin authors can decide when they truly need semantics instead of overloading parsers or regex-based hacks.
-- Watch next: Benchmarks comparing tree-sitter-only vs combined semantic highlighting, and IDEs exposing richer semantic tokens for tools (including LLMs) to consume.
+
+- View: The tools are complementary layers with different latency and knowledge budgets, not interchangeable competitors.
+- Impact: Editor authors can combine instant resilience with precise semantics while language teams implement one reusable analysis boundary.
+- Watch next: TypeScript 7 LSP behavior, semantic-token latency, memory duplication, and convergence between parsers and compiler services.
