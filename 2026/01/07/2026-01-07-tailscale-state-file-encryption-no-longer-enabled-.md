@@ -3,14 +3,17 @@
 - Score: 164 | [HN](https://news.ycombinator.com/item?id=46531925) | Link: https://tailscale.com/changelog
 
 ### TL;DR
-Tailscale 1.92.5 changes its earlier decision to enable TPM-backed node state encryption and hardware attestation by default on Linux and Windows. The mechanisms, added in 1.90, are now opt‑in, and failing to load attestation keys no longer blocks startup; Kubernetes images also stop storing those keys in Secrets so workloads can move nodes more freely. HN commenters dig into why: field experience shows diverse TPM and virtualization setups make default-on encryption brittle, despite its clear security advantages.
+
+Tailscale 1.92.5 changed Linux and Windows defaults so state-file encryption and hardware-attestation keys are no longer automatically enabled. It also stopped hardware-key loading failures from preventing client startup after a TPM reset or replacement. This frozen input contains only the January 6 client entry; context in the discussion came from the engineer who made the change. They said heterogeneous TPM behavior created excessive support failures, so controlled, security-conscious fleets can still opt in while broad consumer installations favor recoverability and reliable startup.
 
 ### Comment pulse
-- Default-on encryption became support nightmare → Tailscale engineer cites unreliable TPMs, BIOS updates, VMs and containers losing keys, leaving nodes bricked and tickets piling up.  
-- Some want strict tamper response → say refusing to start on TPM reset thwarts physical attacks — counterpoint: benign resets are common, making systems unusable.  
-- Others fear political pressure → ask if weakening at-rest protection aids surveillance; replies stress TPM behavior lies outside Tailscale’s control and feature remains opt-in.
+
+- The responsible engineer said benign TPM resets, BIOS changes, VMs, and heterogeneous hardware made default enforcement too support-intensive.
+- Some readers endorsed opt-in security; others argued TPM failure should block access precisely because replacement may indicate tampering.
+- Recovery-key proposals exposed a core tension: escape hatches improve reliability but can weaken hardware-bound protection.
 
 ### LLM perspective
-- View: Treat TPM-backed encryption as a tiered control, enabled via policy only on hardware you inventory and test.  
-- Impact: Small teams lose some default hardening, but gain fewer mysterious outages across laptops, VMs, cloud instances, and Kubernetes.  
-- Watch next: better remote attestation APIs, TPM reliability metrics, and admin tooling so encrypted state might become the default again.
+
+- View: Secure defaults lose legitimacy when ordinary platform maintenance is indistinguishable from hostile key loss.
+- Impact: Administrators must now explicitly trade stronger node-state protection against fleet heterogeneity and recovery costs.
+- Watch next: Better diagnostics, backup policy, and scoped defaults could recover security without recreating startup failures.

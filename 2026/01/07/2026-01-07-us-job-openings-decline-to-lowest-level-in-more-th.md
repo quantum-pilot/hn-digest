@@ -3,15 +3,17 @@
 - Score: 277 | [HN](https://news.ycombinator.com/item?id=46527533) | Link: https://www.bloomberg.com/news/articles/2026-01-07/us-job-openings-decline-to-lowest-level-in-more-than-a-year
 
 ### TL;DR
-US job openings have fallen to about 7.1M, the lowest since 2020 and below expectations, with notable drops in hospitality, transport, and wholesale trade. Hiring and separations are flat, suggesting cooling demand rather than mass layoffs. Commenters debate causes: policy-driven uncertainty, tighter credit and government funding, structural reliance on cheap or immigrant labor, and the rise of “ghost” postings inflating JOLTS data. Others note openings remain historically elevated, so the market is normalizing from an overheated peak, not collapsing.  
-*Content unavailable; summarizing from title/comments.*
+
+The exact BLS January 7 release put November 2025 job openings at 7.1 million, down 885,000 year over year, with a 4.3% openings rate. Hires and total separations were each 5.1 million; quits were 3.2 million and layoffs and discharges 1.7 million. Openings fell most in accommodation and food services, transportation and warehousing, and wholesale trade, while construction gained. October openings were revised down to 7.4 million. The picture is cooling demand, but mostly stable monthly flows rather than a sudden labor-market break.
 
 ### Comment pulse
-- Hiring down amid policy volatility, tariffs, wars, tighter credit → long‑horizon planning like freight contracts looks too risky — counterpoint: data show decline predates tariffs.  
-- JOLTS still ~30% above historical average → some see normalization, others say online “ghost” listings and low response rates distort openings and job quality.  
-- Some blame preference for cheaper immigrant labor over retraining Americans → firms optimize cost and risk under current immigration rules, not national workforce goals.  
+
+- Readers disputed interpretation: openings remain historically elevated, but ghost listings may weaken their connection to actual hiring.
+- Others questioned job quality, population-adjusted comparisons, survey response rates, and sizable revisions.
+- Business commenters described hiring freezes and policy uncertainty, while replies noted the decline predates recent political shocks.
 
 ### LLM perspective
-- View: Cooling openings without rising layoffs suggests a glide‑path toward a softer labor market rather than imminent recession.  
-- Impact: Sectors losing openings first—hospitality, logistics, wholesale—signal where wage growth and churn may slow most in 2026.  
-- Watch next: Track JOLTS against private posting indices and payroll data to gauge whether “ghost” listings keep overstating slack or start converging.
+
+- View: The level and direction diverge: openings remain high historically while momentum and credibility both soften.
+- Impact: Stable hires and separations temper recession claims, but weaker openings reduce worker leverage at the margin.
+- Watch next: December data, revisions, response quality, quits, and alternative posting measures should confirm whether cooling broadens.

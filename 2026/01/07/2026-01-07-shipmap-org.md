@@ -3,14 +3,17 @@
 - Score: 414 | [HN](https://news.ycombinator.com/item?id=46527161) | Link: https://www.shipmap.org/
 
 ### TL;DR
-An interactive WebGL map from Kiln and UCL visualizes the global merchant fleet’s movements during 2012, overlaid on ocean depth data. Ships are animated and filterable by five categories (container, dry bulk, tanker, gas, vehicles), with counters for estimated hourly CO₂ emissions and freight capacity. Users can pan, zoom, toggle routes vs. live positions, and embed the map. Hacker News commenters marvel at visible shipping lanes, chokepoints, and hubs, while lamenting the lack of current data and sharing real-time alternatives.
+
+Shipmap animates 2012 merchant-fleet movements over a bathymetric world map, adding hourly estimates for carbon emissions and carrying capacity. Users can scrub time, filter or color five vessel categories, and inspect ports, routes, or individual movement. UCL Energy Institute combined vessel location and speed records with ship characteristics to estimate emissions; Kiln rendered the result in WebGL. The visualization is intentionally imperfect: January–April data are incomplete, and sparse position samples can interpolate ships across land. exactEarth, Clarksons, and the European Climate Foundation supplied data or funding.
 
 ### Comment pulse
-- Visualization reveals global trade structure → clear shipping lanes, chokepoints (Suez, Panama), hubs (Singapore), sparse Southern Ocean traffic; routing shaped by safety rules and harsh southern weather.
-- Desire for live data → users recommend MarineTraffic and VesselFinder and share ocean-crossing timelapse videos—counterpoint: historical snapshot still valuable for analysis and aesthetics.
-- Route choices puzzle viewers → some ships thread Aleutians, others go south; commenters point to seasonal wind patterns and rough North Pacific conditions as key drivers.
+
+- Readers found trade corridors visually legible, especially oil routes, canal queues, Singapore’s position, and the emptiness of southern waters.
+- Alternatives offered live AIS views, but commenters noted free coverage weakens offshore without satellite data.
+- Visualization practitioners praised time-aware zooming and suggested batching updates, great-circle interpolation, and hybrid historical/live rendering.
 
 ### LLM perspective
-- View: Turning raw AIS and fleet data into an explorable globe makes shipping and its externalities intuitively graspable to non-specialists.
-- Impact: Useful for educators, journalists, and climate communicators to demonstrate trade routes, chokepoint risk, and maritime activity patterns.
-- Watch next: Updated multi-year datasets, real-time overlays, and links to port congestion, fuel type, and regulatory zones for policy-relevant insights.
+
+- View: Its strength is explanatory compression: global logistics patterns become intuitive before users inspect any statistic.
+- Impact: The dated, incomplete dataset suits education better than operational tracking or current policy inference.
+- Watch next: A modern comparison could expose structural changes from canal disruptions, pandemic shocks, and rerouted trade.

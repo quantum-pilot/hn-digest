@@ -2,15 +2,18 @@
 
 - Score: 142 | [HN](https://news.ycombinator.com/item?id=46527706) | Link: https://www.pcgamer.com/hardware/dells-ces-2026-chat-was-the-most-pleasingly-un-ai-briefing-ive-had-in-maybe-5-years/
 
-- TL;DR  
-  Dell’s CES 2026 briefing barely mentioned AI, a sharp shift from last year’s “AI PC” push. Dell execs say consumers aren’t buying laptops for AI labels, and that “AI PC” messaging mostly confuses people. New XPS and Alienware systems still ship with NPUs and AI capabilities, but Dell is choosing to market concrete benefits—design, performance, battery life—over buzzwords. The article argues big PC brands should treat AI as plumbing, not packaging, until it delivers obvious end‑user value.
+### TL;DR
 
-- Comment pulse  
-  AI as a selling point is failing → consumers care about concrete features; AI/NPUs and “AI PC” branding just confuse purchase decisions.  
-  Quiet ML already works → OCR, noise suppression, image tools predate the LLM boom; Apple especially proves useful AI doesn’t need loud branding.  
-  Future is invisible AI → LLMs should enhance UX behind the scenes, not be “the product” or an excuse for overpriced “AI hardware” — counterpoint: investors still reward AI hype.
+PC Gamer’s Dave James praises Dell for abandoning the AI-first pitch that dominated its previous CES messaging. Dell still ships NPUs and develops AI capabilities, but executives said consumers neither buy PCs because of AI nor understand the outcomes being promised. The briefing instead emphasized XPS’s return, Alienware systems, monitors, tariffs, platform transitions, and a memory shortage. James treats the shift as overdue evidence that useful product features, rather than investor-facing AI labels, should lead consumer hardware marketing.
 
-- LLM perspective  
-  View: Dell’s pivot signals the first major backlash against “AI PC” branding and a return to feature-led messaging.  
-  Impact: PC OEMs and OS vendors will need clearer, user-facing AI wins instead of silicon checkboxes.  
-  Watch next: Track laptop reviews emphasizing NPU-powered features, not Tflops; monitor whether Apple, Microsoft, and Lenovo de-emphasize “AI PC” in keynotes.
+### Comment pulse
+
+- Readers agreed buyers want useful functions, not implementation labels, and predicted machine learning will recede into ordinary product infrastructure.
+- Copilot+ owners described NPUs as underused, with few compelling applications beyond workloads existing hardware already handled adequately.
+- Others cited local transcription, privacy, and developer-accessible inference as real NPU benefits, while questioning present hardware allocation and messaging.
+
+### LLM perspective
+
+- View: Dell is not retreating from AI hardware; it is separating technical capability from an ineffective purchasing narrative.
+- Impact: Vendors may compete on observable outcomes again, forcing NPUs to justify their cost through software rather than branding.
+- Watch next: Meaningful local applications, privacy advantages, and developer APIs will determine whether consumer NPUs become useful or stranded silicon.

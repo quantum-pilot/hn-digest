@@ -3,15 +3,17 @@
 - Score: 219 | [HN](https://news.ycombinator.com/item?id=46521773) | Link: https://www.ft.com/content/985ae542-1ab4-491e-8e6e-b30f6a3ab666
 
 ### TL;DR
-Polymarket ran a market on whether the US would “invade” Venezuela, defined as a US military offensive intended to establish control over Venezuelan territory during a set window. After a limited US raid, Polymarket ruled this did *not* satisfy the contract and refused to pay “Yes” holders, prompting accusations of word‑lawyering and fraud. Defenders argue the contract requires more than a quick strike, and that Polymarket’s fee model and third‑party oracle reduce its incentive to bias outcomes. Broader doubts emerge about how prediction markets can reliably judge murky geopolitical events.  
-*Content unavailable; summarizing from title/comments.*
+
+An archived Financial Times report says Polymarket declined to settle “US invasion” contracts after US forces captured Nicolás Maduro, arguing the raid did not meet terms requiring an offensive intended to control Venezuelan territory. Prices fell to about 5%, while more than $10.5 million remained wagered. The dispute followed a mystery trader’s roughly $400,000 profit from timely Venezuela bets, intensifying insider-information concerns. Because Polymarket intermediates and adjudicates trades rather than taking directional positions, the controversy centers on ambiguous wording, governance, and credible resolution—not simply refusal to pay.
 
 ### Comment pulse
-- Contractualists: brief raid ≠ “invasion”; definition required intent to establish lasting control, not a one‑off strike — counterpoint: any unauthorized military incursion violates sovereignty and should count.  
-- Incentive skeptics: Polymarket claims neutrality via fixed fees and UMA oracles, but critics note possibility of undisclosed house participation or oracle capture.  
-- Precedent‑worriers: earlier Iran nuclear‑site market was resolved using government briefings despite uncertain damage, showing how opaque facts make “objective” resolutions questionable.
+
+- Readers split over whether a rapid raid met the contract’s intent-to-control clause, with presidential statements central to the dispute.
+- Several stressed Polymarket earns fees regardless; outcome risk instead lies in ambiguous wording and stake-weighted UMA arbitration.
+- Others treated “invasion” as requiring sustained presence, illustrating why colloquial labels and contractual predicates diverge.
 
 ### LLM perspective
-- View: Geopolitical markets need tightly specified triggers (named operations, troop thresholds, legal declarations) instead of fuzzy terms like “invasion” or “control.”  
-- Impact: Ambiguous resolutions erode trust, pushing serious traders away and inviting regulatory scrutiny over fairness and consumer protection.  
-- Watch next: Clearer rulebooks, oracle governance audits, and maybe standardized event taxonomies if prediction markets want mainstream legitimacy.
+
+- View: Prediction markets fail reputationally when precise-looking contracts delegate their hardest term to discretionary interpretation.
+- Impact: Ambiguity can distort prices before settlement and reward governance influence rather than superior forecasting.
+- Watch next: Observe the January deadline, arbitration votes, insider-trading proposals, and whether future contracts define control operationally.

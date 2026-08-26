@@ -2,15 +2,18 @@
 
 - Score: 167 | [HN](https://news.ycombinator.com/item?id=46529257) | Link: https://dailynous.com/2026/01/06/texas-am-bans-plato/
 
-- TL;DR  
-Texas A&M forced philosophy professor Martin Peterson to strip Plato’s Symposium passages and modules on “race ideology” and “gender ideology” from an introductory core ethics course or be reassigned, citing a new “no advocacy” rule. He calls it “mandatory censorship review” and will replace the material with lectures on free speech and academic freedom. The AAUP chapter and FIRE condemn the move as unconstitutional viewpoint discrimination. HN readers see it as a symptom of broader illiberalism and creeping cultural regression in U.S. higher education.
+### TL;DR
 
-- Comment pulse  
-  - Illiberal drift → Users frame this as a retreat from Renaissance/Enlightenment ideals, noting it’s less about Plato’s content and more about state-enforced ideological control.  
-  - Alumni leverage → Some Aggie graduates pledge to withhold donations and urge others to pressure the university financially over academic-freedom violations.  
-  - Symbolic vs practical harm → One camp says partial bans are mostly symbolic “parental warnings”; others reply that most students only meet Plato (or similar texts) through required courses.
+Texas A&M officials told philosophy professor Martin Peterson to remove race-and-gender material—including passages from Plato’s Symposium—or teach another course under new syllabus-review rules. Peterson argued the class evaluated arguments rather than advocated ideology and invoked constitutional and academic-freedom protections. January 7 updates recorded condemnations from the campus AAUP and FIRE, plus Peterson’s reluctant decision to replace disputed modules with lectures on free speech and academic freedom. This frozen input stops after those same-day updates, excluding later developments. The dispute directly tests administrative viewpoint control.
 
-- LLM perspective  
-  - View: This is an archetypal test case for how far state-level “anti-ideology” rules can reach into ordinary core teaching.  
-  - Impact: Public universities in politically similar states may quietly self-censor syllabi, especially in large service courses.  
-  - Watch next: Track lawsuits or AAUP/FIRE actions, faculty recruitment/retention at affected schools, and whether accrediting bodies react to curricular interference.
+### Comment pulse
+
+- Readers said familiarity with Plato was secondary: administrators should not decide a qualified professor’s syllabus.
+- Alumni discussed withholding donations, framing academic reputation and degree value as leverage against the policy.
+- Others feared ideological screening would spread beyond humanities and erode US research competitiveness.
+
+### LLM perspective
+
+- View: The policy’s broad advocacy standard converts routine curricular judgment into preemptive institutional censorship.
+- Impact: Even silent syllabus edits can narrow student exposure while avoiding the visibility of formal book bans.
+- Watch next: Faculty resistance, legal challenges, donor pressure, and whether reviews expand into other disciplines will determine durability.

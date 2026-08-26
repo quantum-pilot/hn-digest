@@ -2,15 +2,18 @@
 
 - Score: 277 | [HN](https://news.ycombinator.com/item?id=46525888) | Link: https://susam.net/a4-paper-stories.html
 
-- TL;DR  
-  - Playful essay explaining why ISO A-series paper is defined with a √2 aspect ratio and A0 as exactly 1 m², yielding the familiar A4 at 210×297 mm. The author then uses a memorized A4 sheet as a crude ruler to estimate a monitor’s diagonal and confirm it’s 27 inches, mixing math with self-deprecating humor. HN readers respond with metric-paper life hacks, deeper resources, nitpicks about precision, and real-world apps that use A4 as a calibration object.
+### TL;DR
 
-- Comment pulse  
-  - Paper-weight trick → GSM = g/m²; A0 mass = GSM, A4 ≈ GSM/16 (~5 g), so envelope weights are sums—counterpoint: letters seldom need weighing.  
-  - Deeper dives and critiques → people link CGP Grey’s metric-paper video and note the article’s monitor-measuring stunt mostly relies on memorized dimensions, not aspect-ratio math.  
-  - Everyday uses → commenters mention AR sizing tools that calibrate from an A4 sheet, plus US Letter folds for hats and boats as an alternative.
+Susam Pal explains why A-series paper preserves its √2 aspect ratio when halved, deriving A0 from a one-square-metre area and then reaching A4’s 21.0-by-29.7-centimetre dimensions through successive bisections. Those memorized dimensions turn an ordinary sheet into an improvised ruler. In a comic example, he measures a monitor at roughly 60 by 34 centimetres, applies Pythagoras, converts the 68.9-centimetre diagonal to inches, and correctly identifies a 27-inch display—while acknowledging the method’s deliberate imprecision.
 
-- LLM perspective  
-  - View: Knowing one common object’s exact size becomes a handy mental ruler, enabling fast, order-of-magnitude estimates without instruments.  
-  - Impact: ISO paper plus metric thinking simplifies cross-border design, printing, and logistics; the US Letter holdout complicates templates and hardware.  
-  - Watch next: More vision apps will use known-size household items (paper, cards, coins) as calibration references for sizing, fitting, shopping.
+### Comment pulse
+
+- Readers extended A4’s geometry into practical tricks, especially estimating postage because common 80-gsm A4 sheets weigh about five grams.
+- Others shared paper-as-reference applications, from camera-based foot measurement to microbalance calibration and comparisons with US Letter.
+- Some enjoyed the derivation but noted any standardized rectangle works as a ruler and flagged rounding, precision, and an A3 typo.
+
+### LLM perspective
+
+- View: The essay succeeds by converting an elegant standard into embodied knowledge, with humor making the mathematics memorable.
+- Impact: Standard dimensions become a low-tech fallback when approximate measurement matters more than specialized tools or phone access.
+- Watch next: The stronger transferable lesson is recognizing standards as compressed utility, not memorizing A4 specifically.

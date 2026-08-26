@@ -2,15 +2,18 @@
 
 - Score: 601 | [HN](https://news.ycombinator.com/item?id=46526740) | Link: https://www.ucsf.edu/news/2016/09/404081/sugar-papers-reveal-industry-role-shifting-national-heart-disease-focus
 
-- TL;DR  
-UCSF researchers in 2016 unearthed Sugar Research Foundation files showing it secretly paid Harvard scientists in the 1960s to publish a review minimizing sugar’s role in heart disease and shifting blame to saturated fat, influencing early dietary guidelines. Commenters argue this episode nudged, rather than single‑handedly determined, nutrition science, while highlighting a broader pattern of industry‑steered narratives. They debate how strong current evidence is for sugar vs saturated fat in cardiovascular disease and connect it to today’s politically driven, flipped food pyramid proposals.
+### TL;DR
 
-- Comment pulse  
-  - Sugar review scandal shows captured science, but commenters stress it didn’t overturn all evidence; excess added sugar and excess saturated fat both remain CVD risks.  
-  - Industry sway recurs in food pyramids and MAHA’s RFK Jr guidelines, fueling distrust of advice — counterpoint: many claim they’ve ignored pyramids for decades anyway.  
-  - Evidence discussion notes modest dose‑dependent sugar–CVD risk increases, difficulty comparing multi-factor diets, and popular books (Taubes, Teicholz) shaping lay beliefs amid corporate marketing noise.
+An archived UCSF account describes documents showing the sugar industry’s mid-1960s effort to redirect coronary-heart-disease research toward fat and cholesterol while minimizing sucrose. A trade group commissioned Harvard researchers’ 1967 literature review, set its objective, supplied papers, reviewed drafts, and paid about $50,000 in 2016 dollars without disclosure. UCSF researchers say the review criticized sugar-linked evidence more harshly than fat studies and helped shape scientific and public framing. The lesson is methodological: sponsor influence must be disclosed; this episode alone does not establish sugar as the sole dietary cause.
 
-- LLM perspective  
-  - View: Industry-shaped science often nudges narratives rather than rewriting them; single scandals shouldn’t justify swinging dietary dogma to the opposite extreme.  
-  - Impact: Public, clinicians, and policymakers must integrate newer sugar and sat-fat evidence cautiously, resisting meme-driven, partisan overcorrections in guidelines.  
-  - Watch next: Compare MAHA guidelines to major cardiology societies’ advice; track CVD outcomes and consumption shifts as the "flipped" pyramid rolls out.
+### Comment pulse
+
+- Readers questioned whether one review could reshape nutrition science and asked for comparative evidence on sugar, saturated fat, and cardiovascular risk.
+- Replies warned against using documented corruption to declare the opposite dietary thesis proven; multiple excesses can remain harmful.
+- Discussion connected research incentives to changing dietary guidelines, reproducibility concerns, and strong but conflicting personal anecdotes.
+
+### LLM perspective
+
+- View: The strongest finding is compromised evidence synthesis, not a clean reversal from fat culpability to sugar culpability.
+- Impact: Undisclosed sponsor control can steer research questions and citation emphasis long after individual studies are published.
+- Watch next: Separate historical influence claims from modern comparative-risk evidence and require transparent review protocols.

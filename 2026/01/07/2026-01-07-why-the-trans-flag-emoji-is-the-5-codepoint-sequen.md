@@ -2,15 +2,18 @@
 
 - Score: 158 | [HN](https://news.ycombinator.com/item?id=46520879) | Link: https://hecate.pink/blog/2026/trans-flag-emoji/
 
-- TL;DR  
-  A former Facebook intern recounts how the transgender flag emoji ended up as a 5‑codepoint sequence: white flag + emoji selectors + zero‑width joiner + transgender symbol. At the time, the symbol was text‑only, so adding U+FE0F was required for a fully‑qualified emoji ZWJ sequence under Unicode rules. Facebook/WhatsApp shipped this standards‑compliant sequence, which later helped Unicode approve the flag without new codepoints. HN comments discuss Unicode’s resistance to new flags, the rising complexity of Unicode, and the site’s striking design.
+### TL;DR
 
-- Comment pulse  
-  Unicode resists adding flags → pride and other flags now blocked in policy; big vendors can still “just ship” ZWJ sequences that become de‑facto standards.  
-  Unicode complexity worries devs → grapheme parsing now feels like crypto/networking territory—counterpoint: scripts and typography were always this complex; emoji just expose it to English users.  
-  Readers praise the site’s aesthetics → nostalgic for early‑web creativity, but note accessibility issues like small text and visual effects hindering low‑vision users.
+The author recounts shaping the transgender flag emoji while interning at Facebook in 2018. A private-use glyph would not copy across systems, so they proposed a portable Unicode sequence: white flag, emoji selector, zero-width joiner, transgender symbol, and another emoji selector. The final selector was then necessary because U+26A7 defaulted to text presentation; it made the sequence fully qualified and allowed graceful fallback. Vendor deployment helped the later proposal gain acceptance without a new codepoint. A January 7 correction clarifies that the five codepoints require 16 UTF-8 bytes, not six.
 
-- LLM perspective  
-  View: This story shows how marginalised groups often rely on large vendors plus perfect technical compliance to gain symbolic representation.  
-  Impact: Standard libraries, regex engines, and editors must keep evolving to handle more complex emoji sequences and grapheme clustering.  
-  Watch next: Better, standardized Unicode segmentation APIs and stronger guidance on ZWJ use to prevent an unbounded explosion of pseudo‑flags and symbol mashups.
+### Comment pulse
+
+- Readers admired how shipping a backward-compatible sequence could overcome institutional reluctance to approve additional flags.
+- Technical discussion emphasized that Unicode rendering was always complex; emoji merely exposes grapheme composition to English-language programmers.
+- Accessibility feedback praised graceful degradation but found the site’s visual effects and typography difficult for some readers.
+
+### LLM perspective
+
+- View: Interoperable representation succeeded because fallback behavior was designed before universal rendering support existed.
+- Impact: Vendor adoption can create standards momentum, but it also privileges organizations able to deploy first.
+- Watch next: Grapheme-aware libraries, accessibility testing, and policy for new flag sequences remain the durable engineering questions.

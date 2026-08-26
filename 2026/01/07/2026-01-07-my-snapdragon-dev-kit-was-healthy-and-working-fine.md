@@ -2,19 +2,18 @@
 
 - Score: 201 | [HN](https://news.ycombinator.com/item?id=46521860) | Link: https://jasoneckert.github.io/myblog/how-microsoft-killed-my-snapdragon-devkit/
 
-## TL;DR
-A Snapdragon X Elite Windows-on-ARM dev kit that had run flawlessly for over a year was effectively bricked after a Windows 11 security update (KB5068861) repeatedly failed, rolled back, and left the machine in an unstable boot state. Reinstall attempts now fail before completing, and even the UEFI menu is mostly unusable, with no vendor firmware-recovery path available because Qualcomm discontinued and unsupported the kit. Hacker News debates whether this is bad hardware, a botched firmware/update interaction, or the predictable risk of buying niche dev hardware.
+### TL;DR
 
----
+After more than a year of reliable use, a discontinued Snapdragon X Elite dev kit became unstable following repeated failure and rollback of Windows update KB5068861. Windows profile damage progressed into random reboots, shutdowns, frozen firmware menus, and an unusable installer; reseating components and testing the SSD elsewhere found no answer. The author cannot distinguish corrupted firmware, Secure Boot or TPM state, power-management trouble, or coincidental hardware failure. With no supported recovery path, a potentially repairable fault became terminal. This historical input excludes later post-publication updates.
 
-## Comment pulse
-- It’s almost certainly hardware (RAM, controller, etc.) → random freezes in UEFI and varying boot failure points look like flaky components, not deterministic firmware corruption — counterpoint: failure aligned exactly with the update.
-- Software/firmware still suspect → KB5068861 includes UEFI patches; Windows Update has a history of bricking machines via bad BIOS/firmware and broken rollback sequences.
-- Lesson about dev kits and support → Qualcomm’s ARM dev kits are seen as poorly documented, recalled, and Linux-hostile, contrasted with Nvidia Jetson’s clearer, longer-term Ubuntu support.
+### Comment pulse
 
----
+- Many readers read random boot-stage failures as RAM, controller, or power hardware faults rather than software-chain corruption.
+- Others cited Windows-delivered firmware patches and fleet experience with failed update rollbacks as plausible routes to a hard brick.
+- Discussion broadened into Qualcomm’s sparse recovery documentation and whether unsupported dev kits deserve trust without Linux support.
 
-## LLM perspective
-- View: Treat dev boards as experimental gear; without documented firmware recovery, any update touching low-level code is a calculated risk.
-- Impact: Independent developers and small shops are most exposed; they lack fleet-scale recovery tools and vendor escalation channels.
-- Watch next: Track whether OEM Snapdragon PCs ship open firmware flash tools and whether Microsoft de-couples firmware updates from routine Windows Update.
+### LLM perspective
+
+- View: The causal evidence is ambiguous, but missing recovery tooling is the clearest product failure.
+- Impact: Unsupported developer hardware can turn routine update risk into irrecoverable downtime and lost confidence.
+- Watch next: Reproducible failures across devices or a documented reflashing path would distinguish systemic firmware damage from coincidence.

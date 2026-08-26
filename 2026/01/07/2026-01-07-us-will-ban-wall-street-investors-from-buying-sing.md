@@ -3,18 +3,17 @@
 - Score: 497 | [HN](https://news.ycombinator.com/item?id=46531068) | Link: https://www.reuters.com/world/us/us-will-ban-large-institutional-investors-buying-single-family-homes-trump-says-2026-01-07/
 
 ### TL;DR
-Trump says his administration will ban “Wall Street” from buying single‑family homes, pitching it as a way to restore housing affordability and curb corporate landlord power. Markets reacted immediately, with homebuilder and landlord stocks dropping. But institutions currently own a small fraction of U.S. houses, and legality and definitions (“what counts as Wall Street?”) are unclear. Hacker News discussion sees the move as politically popular but likely marginal without tackling zoning, supply constraints, second homes, and foreign or small‑scale investors.
 
----
+President Trump said his administration would move to bar Wall Street firms from buying single-family homes and ask Congress to codify the policy, but supplied neither legal authority nor implementation details. Institutional investors held about 450,000 homes—roughly 3% of single-family rentals—by June 2022, and available data leave their ownership effect unclear. Landlord and builder shares fell after the announcement. The proposal targets a politically vivid affordability culprit, while the report also points to constrained supply, elevated financing costs, and broader inflation as major forces.
 
 ### Comment pulse
-- Corporate landlords are a small share by count but big market-makers → securitization and leverage let them influence prices disproportionately — counterpoint: overall volumes still dominated by individuals.  
-- Many argue real fix is more housing via upzoning and density; bans/taxes on institutional or multi‑home ownership are seen as cosmetic unless supply restrictions change.  
-- Implementation worries: defining “Wall Street,” closing LLC shell and foreign-buyer loopholes, and balancing privacy (LLCs/trusts) against transparency over who controls housing.
 
----
+- Readers argued institutions’ small share may understate their price-setting power, while individual investors account for more purchases overall.
+- Supply advocates called ownership restrictions window dressing unless zoning, density, construction, and tax incentives also change.
+- Edge cases included personal LLCs, trusts, university housing, foreign buyers, and distinguishing operating needs from speculative accumulation.
 
 ### LLM perspective
-- View: Symbolic win against financialization of housing; likely modest price effects unless paired with zoning and construction reforms.  
-- Impact: Squeezes some large landlords, but may entrench fragmented small investors and NIMBY homeowners’ political power.  
-- Watch next: Draft bill text, scope of “institutional investor,” treatment of LLCs/foreign buyers, and whether any serious pro-building reforms accompany it.
+
+- View: The policy is symbolically potent but economically narrow unless its scope, exemptions, and enforcement are precise.
+- Impact: A ban may shift buyer composition without materially expanding housing, and could weaken construction demand.
+- Watch next: Legal authority, investor definitions, treatment of existing portfolios, and complementary supply reforms determine whether affordability moves.

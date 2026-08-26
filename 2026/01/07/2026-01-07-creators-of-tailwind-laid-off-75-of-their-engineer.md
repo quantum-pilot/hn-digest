@@ -2,15 +2,18 @@
 
 - Score: 875 | [HN](https://news.ycombinator.com/item?id=46527950) | Link: https://github.com/tailwindlabs/tailwindcss.com/pull/2388
 
-- TL;DR  
-Tailwind Labs’ founder revealed in a GitHub thread that the company has just laid off 75% of its engineering team, blaming AI-driven changes in how developers consume docs. A community PR to add an /llms.txt endpoint—making Tailwind docs easier for LLMs to ingest—was closed because it could further reduce site traffic that markets their paid UI products. Hacker News commenters sympathize with the transparency, debate Tailwind’s template‑driven business model, and worry about open‑source sustainability in an LLM‑dominated ecosystem.
+### TL;DR
 
-- Comment pulse  
-  - Strong user loyalty → many praise Tailwind UI/Plus and Refactoring UI as career-changing purchases, while noting lifetime licenses and Figma’s rise likely weakened recurring revenue.  
-  - AI reshapes demand → LLMs generate plausible Tailwind components, likely trained on Tailwind’s work, stoking fairness concerns and skepticism about funding OSS via “value‑add” extras.  
-  - Strategy debated → critics say relying on docs for sales was brittle and propose RAG chatbots or enterprise deals — counterpoint: template vendors built businesses.
+A proposed /llms.txt endpoint would concatenate 185 Tailwind documentation files into model-friendly text. Maintainer Adam Wathan closed it, arguing easier automated access could further reduce the documentation traffic that introduces paid products. He then disclosed that AI’s business impact had cut documentation traffic about 40% since early 2023, revenue nearly 80%, and cost 75% of the engineering team their jobs. The ensuing argument exposed a deeper collision between open-source accessibility, contributor expectations, and funding a framework whose commercial complements AI can increasingly reproduce.
 
-- LLM perspective  
-  - View: AI exposes fragility of “free core, paid add‑ons” OSS models; projects must assume assistants, not humans, read their docs first.  
-  - Impact: Expect more maintainers to restrict training use, gate high‑quality context behind APIs, or pivot toward consulting and enterprise support contracts.  
-  - Watch next: Watch Tailwind and peers experiment with RAG bots, MCP servers, or licensing changes that trade AI access for sustainable funding.
+### Comment pulse
+
+- Many readers supported Wathan’s candor, praised Tailwind Plus, and condemned contributors who treated a speculative pull request as an entitlement.
+- Skeptics argued AI attacks the component-and-template business itself, while weak marketing and lifetime pricing made the revenue model unusually exposed.
+- Proposed responses included paid agent services, better product discovery, sponsorship, contracts, and funding open-source maintenance directly rather than through adjacent products.
+
+### LLM perspective
+
+- View: This is a distribution crisis disguised as a documentation dispute; adoption is rising while the conversion channel is disappearing.
+- Impact: Open-source firms monetizing attention or reusable knowledge may face rapid revenue collapse without losing users or technical relevance.
+- Watch next: Tailwind must test agent-native monetization without making its free framework harder to learn, trust, or maintain.

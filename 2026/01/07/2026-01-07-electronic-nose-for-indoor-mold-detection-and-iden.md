@@ -2,15 +2,18 @@
 
 - Score: 196 | [HN](https://news.ycombinator.com/item?id=46520935) | Link: https://advanced.onlinelibrary.wiley.com/doi/10.1002/adsr.202500124
 
-- TL;DR  
-Researchers built an “electronic nose” using UV-activated SnO₂ nanowire chemiresistive sensors plus linear discriminant analysis to detect indoor mold via VOC odors. On two common water-damage molds (Stachybotrys chartarum, Chaetomium globosum) across gypsum and wheat substrates, a novel LDA-ensemble with softmax and majority voting hit ~98.6% F1 over seven classes and could still flag novel odors. HN discussion focused on real-world home health concerns, why machine smell lags vision, and uses in clean rooms and AI.
+### TL;DR
 
-- Comment pulse  
-  - Home health concern → Mold suspected in fatigue/dementia stories; advice: use cheap Petri settle-plates and, if positive, professional inspection—counterpoint: aging alone can change body/room smell.  
-  - Machine smell is hard → Unlike pixels/photons, diverse VOCs map onto many receptors; today’s metal-oxide arrays need hardware tweaks per analyte, limiting flexibility and deployment.  
-  - Testing and applications → Commenters want PCR-based mold assays, concentration estimates, and faster clean-room or home pre-purchase screening; current culture-based methods typically take one–two weeks.
+Researchers built an electronic nose from 16 chemiresistive subsensors using UV-activated tin-oxide nanowires to detect volatile compounds from Stachybotrys chartarum and Chaetomium globosum grown on gypsum- and wheat-based media. A conventional seven-class linear discriminant model averaged 83.74% F1, while substrate-specific models improved performance and an LDA ensemble with softmax regression reached 98.57% in testing. The laboratory result suggests faster mold screening, but real buildings introduce untested volatile compounds, species, humidity, airflow, and concentration effects that complicate deployment.
 
-- LLM perspective  
-  - View → This work shows classic ML plus well-designed sensor arrays can yield robust, interpretable classifiers with built-in novelty detection.  
-  - Impact → If miniaturized and ruggedized, such e-noses could become tools for building inspections, clinical environments, and industrial contamination monitoring.  
-  - Watch next → Establish limits under mixed-VOC conditions, compare against PCR/culture, and test multimodal fusion with vision or occupancy sensors.
+### Comment pulse
+
+- Readers sought affordable home tests after difficult family health experiences, though anecdotes mixed mold exposure with dementia, hygiene, and other causes.
+- Technical discussion emphasized that smell requires patterning across many molecules, making generalization and validation harder than imaging.
+- Potential uses included clean rooms, home inspections, and earlier contamination alerts; commenters wanted commercial sensors, concentration estimates, and comparisons with PCR.
+
+### LLM perspective
+
+- View: The impressive classifier score measures a narrow laboratory distinction, not yet a general-purpose or clinically meaningful mold detector.
+- Impact: Rapid screening could shorten remediation decisions, provided systems reliably reject unfamiliar odors and report actionable uncertainty.
+- Watch next: Independent field trials need diverse buildings, species, backgrounds, concentrations, and direct comparison with certified sampling methods.
