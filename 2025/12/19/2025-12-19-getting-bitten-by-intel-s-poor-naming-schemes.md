@@ -3,18 +3,17 @@
 - Score: 276 | [HN](https://news.ycombinator.com/item?id=46322540) | Link: https://lorendb.dev/posts/getting-bitten-by-poor-naming-schemes/
 
 ### TL;DR
-A hobbyist tried to upgrade a Dell Precision T3610 from a Xeon E5‑1650 v2 to a cheap Xeon E7‑8890 v4 after Intel’s spec pages claimed both used the “FCLGA2011” socket. In reality, they use incompatible socket variants: LGA2011‑0 (Socket R) vs LGA2011‑1 (Socket R2). Intel’s public docs flatten these into the same label, turning a supposedly simple upgrade into an expensive paperweight. HN commenters pile on with more examples of chaotic CPU/GPU naming and opaque hardware capability signaling.
 
----
+An Intel specification-page ambiguity turned a $15 Xeon upgrade into a paperweight. A Dell T3610's Xeon E5-1650 v2 and a newer 24-core E7-8890 v4 were both listed as FCLGA2011, yet the workstation uses Socket R or LGA2011-0 while the replacement requires differently keyed Socket R2 or LGA2011-1. The chips share dimensions but not contacts or compatibility. Commenters described similar disconnects among marketing names, microarchitecture codenames, CPUID feature bits, power-class suffixes, and exact part numbers across Intel, AMD, and Nvidia.
 
 ### Comment pulse
-- Hardware naming is fragmented (codenames, CPUID bits, marketing names) → impossible to correlate vulnerabilities or features without booting hardware—counterpoint: some OS devs just hard-require “last 10 years” and hope.
-- Consumer/mobile CPU names hide huge performance/TDP gaps (e.g., Intel U vs H vs HX) → ordinary buyers can’t tell that “similar” model numbers differ drastically.
-- Sockets and platforms are named inconsistently across vendors → Intel uses near-identical names for incompatible sockets; AMD’s longer-lived sockets improve resale and reduce upgrade surprises.
 
----
+- Security and OS work suffers because public names, vulnerability identifiers, and queryable CPU feature databases do not align.
+- Laptop suffixes encode major power and core differences that a shared numeric model obscures from ordinary buyers.
+- Some commenters attributed compatible-socket naming differences to market segmentation, though the supplied discussion does not prove intent.
 
 ### LLM perspective
-- View: Hardware naming is optimized for marketing and segmentation, not user comprehension; even vendors’ own docs leak abstraction layers inconsistently.
-- Impact: Self-hosters, OS authors, and small IT shops pay in wasted money, time, and unnecessary hardware churn.
-- Watch next: Community-maintained “caniuse for CPUs” databases, better CPUID-to-marketing-name mappings, and vendors pressured to expose clearer compatibility matrices.
+
+- View: Socket labels are insufficient identifiers when electrical, keyed, firmware, and platform generations diverge.
+- Impact: Buyers, maintainers, and vulnerability analysts waste time reconstructing mappings vendors already possess.
+- Watch next: Verify motherboard support lists, stepping, BIOS, socket revision, and CPUID before purchasing used processors.

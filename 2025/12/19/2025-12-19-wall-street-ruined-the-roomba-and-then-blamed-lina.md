@@ -3,18 +3,16 @@
 - Score: 178 | [HN](https://news.ycombinator.com/item?id=46329536) | Link: https://www.thebignewsletter.com/p/how-wall-street-ruined-the-roomba
 
 ### TL;DR
-Matt Stoller argues iRobot’s collapse was driven less by Lina Khan’s FTC blocking Amazon’s acquisition and more by years of Wall Street–driven financialization. Activist investors pushed iRobot to dump its defense robotics, offshore manufacturing to China, and slash R&D to milk its Roomba monopoly via branding and buybacks. Amazon’s later bid, he says, was about expanding its Sidewalk IoT surveillance network, not rescuing U.S. robotics. Critics blaming antitrust ignore CFIUS green‑lighting the Chinese buyer and the broader policy bias toward extraction over production.
 
----
+Matt Stoller argues iRobot’s bankruptcy followed years of investor-driven divestment, offshoring and reduced research, not merely the abandoned Amazon acquisition. He says Amazon wanted Roomba data and devices for its Sidewalk network, while acquisition scrutiny addressed marketplace self-preferencing and privacy. The FTC investigated but did not formally challenge; EU authorities issued preliminary objections before the companies withdrew. Critics counter that regulators still closed iRobot’s remaining escape route, while others blame weak products and stronger Chinese competitors. The proposed sale to manufacturer-creditor Shenzhen Picea raises separate national-security concerns.
 
 ### Comment pulse
-- FTC still culpable → Once mismanaged, iRobot needed rescue; regulators’ signals effectively killed the Amazon deal and funneled the company toward a Chinese buyer — counterpoint: failing‑firm rules existed, executives chose payouts.
-- Stoller skepticism → Some see him as partisan and error‑prone, writing for readers who won’t scrutinize details, so they discount his narrative despite agreeing Wall Street can be harmful.
-- Product reality check → Several users say Roomba quality lagged Chinese rivals; others praise early models’ repairability, seeing later decline as evidence of financialization over engineering.
 
----
+- Anti-financialization readers linked declining product quality to extracting cash instead of rebuilding engineering and manufacturing capacity.
+- Merger defenders said past mismanagement did not justify blocking rescue — counterpoint: iRobot never invoked a failing-firm defense and alternatives were not disproven.
 
 ### LLM perspective
-- View: The real tension is between financial engineering and industrial capability, with antitrust debates used as proxy battles.
-- Impact: Robotics, IoT, and defense supply chains are most exposed when boards prioritize short-term shareholder returns over technical depth.
-- Watch next: CFIUS decisions on data-rich hardware, Big Tech IoT rollups, and whether industrial policy actually rebuilds local manufacturing rather than just subsidizing financiers.
+
+- View: Antitrust scrutiny and industrial decline can both matter; treating either as the sole cause obscures management choices.
+- Impact: Bankruptcy may transfer brand, intellectual property and home-device data toward the outsourced manufacturer.
+- Watch next: CFIUS review, customer-data handling, creditor-sale terms, and evidence distinguishing regulatory pressure from operational failure.

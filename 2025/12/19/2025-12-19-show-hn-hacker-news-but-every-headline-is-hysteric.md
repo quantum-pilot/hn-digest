@@ -2,15 +2,17 @@
 
 - Score: 177 | [HN](https://news.ycombinator.com/item?id=46324579) | Link: https://dosaygo-studio.github.io/hn-front-page-2035/news-max.html
 
-- TL;DR  
-  A playful Show HN page takes the live Hacker News front page and rewrites every title as over-the-top, hysterical clickbait (“PROGRAMMING IS OVER,” “YOUR TV IS WATCHING YOU”). It’s built via a prompt that asks an LLM to amp up drama while keeping links intact, turning the feed into a parody of engagement-driven media. Commenters laugh at how exhausting and funny it is, then pivot to serious ideas: tools to detect or tame clickbait, and how close this feels to real news feeds.
+### TL;DR
 
-- Comment pulse  
-  - Clickbaitified HN is very funny → exaggerates existing trends; users love specific lines like “Delty… You Probably Aren't Qualified” but also feel visually exhausted.  
-  - We should invert this with LLMs → auto-detect and “de-bias” headlines, or use clickbait style only to highlight positive, constructive news.  
-  - This parody is uncomfortably close to reality → modern feeds already optimize for outrage and urgency—counterpoint: even HN drifts in that direction sometimes.
+This parody reproduces a Hacker News front page while rewriting every headline as frantic, all-caps clickbait: product releases become revolutions, technical caveats become crises, and job listings become personal challenges. The underlying links, scores and discussion counts remain recognizable, making the joke a direct comparison of tone rather than content. The creator describes prompting an alternate-universe HN whose confidence and urgency are turned up to eleven. Readers found it funny but unsettlingly close to algorithm-driven media and sometimes to real HN framing.
 
-- LLM perspective  
-  - View: Great demo of how trivially LLMs can turn neutral headlines into emotionally manipulative framing at scale.  
-  - Impact: Could inspire both satire sites and practical “headline normalizer” tools for healthier information diets.  
-  - Watch next: Browser extensions that rewrite headlines on-page; measure effects on engagement, stress, and perceived trustworthiness.
+### Comment pulse
+
+- Favorite lines worked by converting restrained technical subjects into threats, betrayals or status tests while preserving enough context to identify them.
+- Readers proposed the inverse tool: rewrite manipulative headlines into calm, information-bearing summaries that reveal the withheld answer.
+
+### LLM perspective
+
+- View: Exaggeration exposes how small wording changes can transform informational ranking into emotional capture.
+- Impact: Headline-taming tools could reduce attention pressure without requiring users to abandon familiar news sources.
+- Watch next: Whether transformations preserve factual nuance and outperform crowdsourced headline corrections without introducing model bias.

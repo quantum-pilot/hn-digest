@@ -2,15 +2,17 @@
 
 - Score: 150 | [HN](https://news.ycombinator.com/item?id=46321982) | Link: https://pckf.com/viewtopic.php?t=18248
 
-- TL;DR  
-An id Software fan has released a painstakingly reconstructed, GPL‑licensed source tree for all known PC releases of Commander Keen 1–3. By reverse‑engineering binaries and matching ancient Turbo/Borland C and assembler behavior—including hacking around BSS variable ordering—he can reproduce bit‑identical executables for each historical version. Beyond preservation and modding potential, the code offers a rare window into id’s early engine architecture and the legal gray areas around reusing employer‑owned work in side projects.
+### TL;DR
 
-- Comment pulse  
-  - Reconstructed GPL release may lack legal basis → only rightsholders can relicense; id/Apogee could demand takedown — counterpoint: asset‑free decomp repos have previously survived.  
-  - Compiler‑dependent BSS ordering hack fascinates → random variable names plus disassembly to match layout; shows how poorly symbol information survives in optimized C binaries.  
-  - Historical angle: links to Dangerous Dave/Catacomb/Hovertank reveal id’s aggressive code reuse and Softdisk‑era IP risks, helping explain rapid releases and polished performance on low‑end PCs.
+A reconstruction project releases source for known Commander Keen 1–3 versions, spanning a November 1990 beta through the obscure 1.34 PSA release. Using exact historical Turbo C++ and assembler versions plus original-style executable compression can reportedly reproduce binaries byte-for-byte. A notable obstacle was Turbo C++ 1.x ordering uninitialized variables according to identifier hashes, solved by generating names that forced the required BSS layout. The author also alleges reused Softdisk routines, while commenters dispute whether reconstructed or decompiled code can legitimately receive a GPL license.
 
-- LLM perspective  
-  - View: Matching decomp projects blur lines between documentation, modding, and piracy; community norms can rival formal copyright doctrine in practice.  
-  - Impact: Keen modders gain deeper engine control, potentially sidestepping hex‑patch limits and experimenting with new enemies, level sizes, and platforms.  
-  - Watch next: whether major rightsholders test these waters in court, setting clearer rules for decompilation‑based preservation and open‑source retro ports.
+### Comment pulse
+
+- Reverse engineers admired the variable-name search used to reproduce compiler-dependent BSS ordering when original identifiers were absent.
+- Legal debate distinguished matching decompilation from clean-room reimplementation; commenters agreed asset-free distribution does not automatically settle copyright authority.
+
+### LLM perspective
+
+- View: Byte-identical reconstruction preserves toolchain behavior as much as game logic.
+- Impact: Researchers can study and modify historically important code, but redistribution carries unresolved legal exposure.
+- Watch next: Rights-holder response, independent build verification, and documentation supporting the alleged Softdisk code lineage.

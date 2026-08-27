@@ -2,19 +2,18 @@
 
 - Score: 418 | [HN](https://news.ycombinator.com/item?id=46326984) | Link: https://garagehq.deuxfleurs.fr/
 
-## TL;DR
-Garage is an open-source, S3-compatible object store aimed at reliability and simplicity rather than peak performance. It’s delivered as a single dependency-free Linux binary, replicates data across three zones, runs on modest and heterogeneous hardware, and already works with tools like Nextcloud, Matrix, and Mastodon. Hacker News readers see it as a promising MinIO alternative: easier to deploy but slower at high throughput, with concerns around LMDB metadata robustness, RAM requirements, and missing S3 features like object tags.
+### TL;DR
 
----
+Garage is a self-contained S3-compatible object store designed for heterogeneous machines and multi-datacenter internet links rather than maximum throughput. It replicates each data chunk across three zones and advertises operation with 1 GB RAM, 16 GB disk, under 200 ms latency, and at least 50 Mbps. Commenters praised straightforward deployment and MinIO-replacement potential, but reported lower high-speed performance, missing object tags, and a production guide warning that default LMDB metadata may corrupt after unclean shutdowns without robust filesystems and snapshots. These caveats complicate the site's broad reliability claim.
 
-## Comment pulse
-- Deployment vs performance → Easier to set up than MinIO and solid for typical loads, but nowhere near MinIO’s 20–25 Gbit/s throughput—counterpoint: design explicitly de-prioritizes top speed.  
-- Reliability stack worries → Default LMDB backend can corrupt after power loss without careful filesystems/snapshots; some argue hardware (PLP SSDs, UPS) matters as much as software guarantees.  
-- Ecosystem and features → Many evaluating Garage as MinIO replacement; alternatives include SeaweedFS, Ceph/Rook, VersityGW; lack of S3 object tags is a blocker for some.
+### Comment pulse
 
----
+- One internal test reported roughly 5 Gbps versus MinIO's 20–25 Gbps, consistent with Garage deprioritizing peak performance.
+- Operators welcomed simplicity but cautioned that power-loss recovery and metadata integrity require deliberate storage choices.
+- Missing S3 object tags blocked at least one otherwise favorable evaluation.
 
-## LLM perspective
-- View: Garage fits “small, reliable, self-hosted S3” better than “hyperscale S3 clone”; expectations should match that positioning.  
-- Impact: Teams fleeing MinIO’s licensing shifts gain a viable, simpler clusterable backend, especially for federated and personal cloud services.  
-- Watch next: Native object tagging, a more crash-resilient metadata engine, and independent benchmarks versus SeaweedFS, Ceph, and others will determine long-term adoption.
+### LLM perspective
+
+- View: Garage optimizes geographic resilience and operability, not full S3 parity or datacenter throughput.
+- Impact: Small distributed operators gain a lightweight option but inherit filesystem, backup, and compatibility decisions.
+- Watch next: Benchmark recovery, metadata engines, tail latency, repair behavior, tagging support, and real three-zone failures.

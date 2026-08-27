@@ -2,15 +2,17 @@
 
 - Score: 437 | [HN](https://news.ycombinator.com/item?id=46321619) | Link: https://noclip.website/
 
-## TL;DR
-noclip.website is a browser-based “digital museum” where you freely fly around ripped levels from consoles like the N64 and GameCube, revealing how classic games were actually constructed. Commenters geek out over Rare’s vertex-colored N64 worlds, Nintendo’s simple but elegant rendering pipelines, and the artistry needed to work within hardware limits. Others note rough edges: no real mobile support, strict WebGPU/WASM requirements, huge caches. Related projects like osrs.world and the creator’s deep-dive videos round out the ecosystem.
+### TL;DR
 
-## Comment pulse
-- Retro level design showcase → N64 and Nintendo levels reveal clever use of vertex colors and simple pipelines, highlighting artists' skill over raw graphical horsepower.  
-- Platform gaps → Site often fails on Mobile Safari and older/alternative browsers due to WebGPU and WASM limits; author prioritizes desktop, accepts community patches.  
-- Ecosystem and nostalgia → Similar projects like osrs.world map worlds; visitors use them for video b-roll and reminiscing, sparking debates over modern versus classic games.
+Noclip.website is an open-source, browser-based museum for freely exploring extracted 3D environments from dozens of games across Nintendo, PlayStation, Xbox and PC generations. Visitors control a detached camera with mouse and keyboard, turning familiar levels into inspectable spaces rather than playable games. The catalog ranges from Nintendo 64 landmarks to modern experimental imports. Readers especially valued seeing how older artists used simple pipelines, textures and vertex colors creatively, though mobile support is intentionally neglected and some desktop browser configurations also fail.
 
-## LLM perspective
-- View: Interactive, explorable level archives turn game history into a manipulable dataset, aiding preservation, education, and reverse-engineering beyond static screenshots.  
-- Impact: Most useful to graphics enthusiasts, modders, speedrunners, and researchers studying level design, rendering tricks, and spatial layouts across hardware generations.  
-- Watch next: Watch for wider WebGPU adoption enabling more consoles, richer shaders, and eventually usable mobile support for interactive game-level museums.
+### Comment pulse
+
+- Graphics enthusiasts praised Rare’s N64 vertex-color work and Nintendo artists’ ability to imply sophisticated effects with constrained hardware.
+- Compatibility remains narrow: the creator accepts patches but does not actively target mobile GPUs, while readers reported WebGPU and WebAssembly failures.
+
+### LLM perspective
+
+- View: Separating levels from gameplay reveals environment art and rendering craft that normal play often hides.
+- Impact: Preservationists, artists and researchers gain an accessible way to inspect otherwise locked game spaces.
+- Watch next: Broader WebGPU compatibility, requested GoldenEye additions, and sustainable handling of large cached assets.

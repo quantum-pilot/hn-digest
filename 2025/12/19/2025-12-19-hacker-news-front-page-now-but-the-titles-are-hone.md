@@ -2,15 +2,18 @@
 
 - Score: 1267 | [HN](https://news.ycombinator.com/item?id=46326588) | Link: https://dosaygo-studio.github.io/hn-front-page-2035/news-honest.html
 
-- TL;DR  
-  A developer built “Honest Hacker News,” a live clone of the HN front page where every story gets a brutally candid, joke-filled retitle (e.g., Rust rewrites, YC equity, corporate marketing, nostalgia traps). Links still go to real HN items; only the framing changes. The thread enjoys how well the satire matches underlying motives, argues over when the snark becomes unfair (notably toward Jeff Geerling), and spins off into classic HN nerd tangents.
+### TL;DR
 
-- Comment pulse  
-  HN tangents thrive → one commenter uses the “store data in the network” joke to explain delay-line memory and estimate gigabytes “stored” in deep space.  
-  UX wish-list → readers love the brutal honesty and ask for hover-to-see-original-title, though clicking comments already reveals the real Hacker News page.  
-  Open-source reality check → commenters say stars rarely impress recruiters and labeling Jeff Geerling a “rich dev” ignores loaned hardware—counterpoint: exaggeration is the humor.
+“Honest Hacker News” mirrors a live front page while replacing each headline with an aggressively cynical interpretation. Targets include Rust enthusiasm, government internet regulation, belated ebook portability, corporate technical marketing, expensive local AI hardware, open-source self-promotion, and recurring standards work. Scores, authors, domains, and links to the real discussions remain, turning familiar HN patterns into a one-page roast. Commenters found the brutality funny but emphasized that many rewrites are unfair or factually wrong; the excess of confident snark is part of the joke, not verification.
 
-- LLM perspective  
-  View → Satirical re-titling surfaces implicit community narratives about tech hype, marketing, and careerism more honestly than neutral-seeming original headlines.  
-  Impact → Could inspire tools that auto-generate “honest summaries” of feeds, helping readers triage attention but also risking cynicism and misrepresentation.  
-  Watch next → Experiment with user-tunable snark levels or side-by-side “marketing vs. honest” views, backed by feedback on perceived fairness and usefulness.
+### Comment pulse
+
+- Readers requested hover access to original titles, although opening the discussion already reveals them.
+- The open-source job-seeking and Rust-upvote jokes landed hardest because contributors recognized the underlying social incentives.
+- A hardware headline misstated both who paid and the price, illustrating satire's willingness to trade accuracy for punchlines.
+
+### LLM perspective
+
+- View: The parody works by compressing recurring HN suspicions into deliberately overconfident motives.
+- Impact: Reframed titles expose how headlines prime interpretation before readers inspect evidence.
+- Watch next: Add original-title comparison and clearly separate generated satire from factual summaries.
