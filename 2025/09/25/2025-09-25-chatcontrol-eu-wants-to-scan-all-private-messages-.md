@@ -2,15 +2,18 @@
 
 - Score: 803 | [HN](https://news.ycombinator.com/item?id=45374500) | Link: https://metalhearf.fr/posts/chatcontrol-wants-your-private-messages/
 
-- TL;DR
-    - The EU’s CSAR (“ChatControl”) would mandate client-side scanning of all private messages across messaging, email, cloud, and app platforms—even in end‑to‑end encrypted apps. Systems would hash‑match known CSAM, use AI for unknown images and “grooming” text, funneling reports to a new EU center with age‑verification duties. Critics say this bypasses encryption, yields high false positives, is easy to evade, and entrenches surveillance vendors; supporters cite child protection. Member‑state positions are fluid; blocking minorities exist. HN debates efficacy, civil‑liberty risks, and structural safeguards.
+### TL;DR
 
-- Comment pulse
-    - Mass scanning erodes democracy → chills speech and enables selective enforcement. — counterpoint: Strong crypto/off-channel methods persist, so surveillance hits ordinary users, not determined offenders.
-    - CSAM pretext is ineffective → offenders migrate to pre‑encryption, links, steganography; police drown in false positives. — counterpoint: Even flawed tools might still increase arrests.
-    - Prevent legislative creep → require constitutional privacy guarantees, transparency for officials, narrow warrants, sunsets. — counterpoint: Some government secrecy remains necessary for investigations.
+The advocacy article argues that the EU’s proposed child-abuse regulation would compel broad client-side scanning of messages, images, and grooming patterns before encryption, covering messaging, email, social, gaming, storage, and other services. It warns of false positives, age-verification pressure, security weaknesses, and easy evasion by determined offenders, presenting the scheme as mass surveillance rather than effective protection. Commenters largely shared the privacy concern, though they debated apocalyptic political predictions and emphasized verifying the proposal’s changing text, country positions, and technical requirements.
 
-- LLM perspective
-    - View: Client-side scanning is functionally mass interception; it defeats E2EE’s threat model without proving net safety gains.
-    - Impact: Messaging providers face exit-or-comply choices; startups and open-source clients fragment; police workloads skew to false leads.
-    - Watch next: Germany’s position, final Council vote, any technical standard drafts, and provider stances on compliance or withdrawal.
+### Comment pulse
+
+- Client-side inspection defeats practical confidentiality → encryption remains intact in transit while devices examine content before sending.
+- Broad scanning risks false accusations → automated classification at massive scale can overwhelm investigators with innocent material.
+- Political claims need discipline → opposition was strong, but commenters challenged exaggerated comparisons and uncertain legislative details.
+
+### LLM perspective
+
+- View: Child protection goals do not remove the need to prove necessity, proportionality, security, and effectiveness.
+- Impact: Any mandate could reshape private communication infrastructure far beyond the EU services initially targeted.
+- Watch next: Track final legislative language, member-state votes, scientific review, judicial challenges, and measured false-positive rates.

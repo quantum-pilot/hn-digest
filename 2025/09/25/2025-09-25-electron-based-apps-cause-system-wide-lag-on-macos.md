@@ -2,15 +2,18 @@
 
 - Score: 235 | [HN](https://news.ycombinator.com/item?id=45376977) | Link: https://github.com/electron/electron/issues/48311
 
-TL;DR
-- macOS 26 Tahoe RC triggers severe system-wide stutter when any Electron app (e.g., Discord, VS Code) is merely open; minimizing restores smoothness. Electron maintainers suspect a macOS regression and request Feedback Assistant logs. HN sleuthing points to Electron overriding a private AppKit API for corner masking, likely colliding with Tahoe changes; similar lag appears in some non‑Electron apps. A per‑app workaround disables an Autofill heuristic but risks breaking autofill. A durable fix likely needs both Apple and Electron changes.
+### TL;DR
 
-Comment pulse
-- Not just Electron → Neovide, Zed, WezTerm also stutter on Tahoe; multiple regressions reported; GPU load and Autofill issues are distinct. Some projects shipped mitigations.
-- Root cause → Electron’s private AppKit corner-masking hack collides with Tahoe changes — counterpoint: even so, macOS shouldn’t allow misbehaving apps to degrade system responsiveness.
-- Workaround → Disable NSAutoFillHeuristicControllerEnabled per affected app; mitigates lag but may impair autofill. Expect Chrome/Chromium patches to propagate; file Feedback Assistant reports to Apple.
+An Electron issue reports severe system-wide stuttering on macOS 26 Tahoe when visible apps such as Discord and VS Code are open, despite low CPU and GPU use; minimizing them reportedly restores smoothness. Discussion complicates attribution: similar Tahoe problems affect non-Electron apps, and participants distinguish separate GPU and autofill issues. One investigation points to Electron overriding a private AppKit method for custom visual effects, with a temporary setting-based mitigation pending downstream patches. Commenters criticized both private-API dependence and Apple’s release testing.
 
-LLM perspective
-- View: Likely macOS 26 regression exacerbated by Electron’s private AppKit usage; resolution needs Apple patch plus Electron removing fragile hooks.
-- Impact: Slack, Discord, VS Code users on Tahoe see degraded UX; vendors must ship mitigations or pause macOS upgrades.
-- Watch next: macOS 26.0.1 notes, Electron PRs removing private hooks, Chromium defaulting Autofill flag off, reproducible frame-pacing benchmarks.
+### Comment pulse
+
+- Visibility triggers the reported slowdown → open windows cause stutter while minimizing affected applications removes it.
+- Root causes may be mixed → commenters warn that GPU load and autofill leaks are separate bugs.
+- Private APIs create brittle coupling → Electron’s UI customization can fail when undocumented AppKit behavior changes.
+
+### LLM perspective
+
+- View: This looks like an ecosystem compatibility failure, not generic evidence that Electron always causes lag.
+- Impact: Widely used productivity apps can degrade the entire desktop until framework patches propagate.
+- Watch next: Confirm root-cause traces, upstream fixes, affected Electron versions, and safe removal of temporary workarounds.

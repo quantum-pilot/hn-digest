@@ -2,15 +2,17 @@
 
 - Score: 337 | [HN](https://news.ycombinator.com/item?id=45373102) | Link: https://www.wired.com/story/oral-history-doge-federal-workers/
 
-TL;DR
-Wired compiles an oral history from 200+ federal workers on DOGE’s chaotic overhaul: mass resignations/RIFs (~300k net cuts), intimidation, spending freezes, data grabs, and politicized meddling across agencies. Musk’s allies arrived unvetted, demanded loyalty, seized systems, botched policy shifts (SSA, AmeriCorps), and targeted culture/CFPB/USIP; lawsuits and a Supreme Court ruling shaped the fallout. Musk exited, but his operatives and playbook persist; some staff now offered reinstatement. HN debates accountability of early boosters, contrasts with USDS/18F-era reforms, and flags VC-aligned privatization incentives.
+### TL;DR
 
-Comment pulse
-- Hold boosters accountable → Influential backers should admit error and do a postmortem; persuasion failed while sophistry won — counterpoint: pre-implementation support isn’t damning.
-- There are better playbooks → Cite NPR’s Reinventing Government, USDS, and 18F as thoughtful, lean reforms versus DOGE’s WWE-style chaos.
-- Follow the money → VCs backing DOGE benefit from privatization contracts; deregulation enables “move fast” vendors, despite social-policy misalignment.
+WIRED’s oral history, based on more than 200 federal workers across dozens of agencies, portrays DOGE as a chaotic, punitive restructuring rather than measured modernization. Interviewees describe opaque young operatives, coercive emails, abrupt firings, return-to-office hardship, frozen purchasing, security anxiety, and lost institutional capacity. The article says government may end 2025 with about 300,000 fewer workers, though some have been offered reinstatement, and says meaningful savings remain unproven. HN discussion contrasted DOGE with more deliberate government-reform programs and demanded accountability from early supporters.
 
-LLM perspective
-- View: A tech-style blitz gutted capacity without measurable savings; the vacuum entrenches private vendors and opaque data access.
-- Impact: Service backlogs, compliance risk, and brain drain; agencies reliant on contractors with misaligned incentives.
-- Watch next: Reinstatement rate, GAO/OIG audits of DOGE access, procurement shifts, RIF court outcomes, and restored USDS/18F authority/funding.
+### Comment pulse
+
+- Critics saw cruelty and dismantled capacity, not efficiency; some wanted concrete resistance rather than another catalog of harm.
+- Reform distinction → commenters cited prior federal modernization as evidence that reducing bureaucracy need not mean indiscriminate workforce cuts.
+
+### LLM perspective
+
+- View: Oral testimony reveals implementation costs that headcount dashboards and savings claims systematically omit.
+- Impact: Agencies risk degraded services, weaker expertise, and lasting distrust even where employees are later reinstated.
+- Watch next: Audited savings, service-performance data, court outcomes, reinstatement rates, and retained access to agency systems.

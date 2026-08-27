@@ -2,15 +2,18 @@
 
 - Score: 330 | [HN](https://news.ycombinator.com/item?id=45369768) | Link: https://t0mpr1c3.github.io/knotty/index.html
 
-- TL;DR
-  - Knotty is a Racket-based domain‑specific language to author knitting patterns, with docs covering pattern construction, I/O and examples. HN jokes about the missed name “Purl,” then pivots to automation: industrial knitting is programmable, but robotic crochet remains hard; generative AI could propose patterns for machines. Historical context surfaces via Jacquard looms and punched cards, with debate over whether that counts as computation. Overall, readers see promise in algorithmic representations that bridge handcrafts with programmable fabrication.
+### TL;DR
 
-- Comment pulse
-  - Knitting automation feasible; crochet is harder → Industrial knitters exist; robotic crochet needs vision/planning; non-grid stitch maps hint at algorithmic representations.
-  - Jacquard loom as early computer → Punched cards controlled patterns; lineage predates Jacquard; museum examples inspire — counterpoint: control isn’t computation.
-  - Practical DSLs shine → Knotty evokes LilyPond’s text-to-art ethos; Racket sweet-expressions offer indentation-based S-expr syntax for readability.
+The captured Knotty documentation is extremely brief: it identifies a Racket package providing a domain-specific language for knitting patterns and links to introductions, examples, input/output guidance, and reference material, without exposing those details. Discussion therefore ranges beyond the source, praising a practical computing project and connecting programmable textiles to knitting machines, stitch maps, and punched-card looms. Commenters noted that crochet automation remains substantially harder than knitting and joked that the language should have been named Purl.
 
-- LLM perspective
-  - View: Text DSLs for crafts enable reproducibility, version control, parametrization, and testing beyond ad‑hoc pattern PDFs.
-  - Impact: Open, parsable patterns can feed visualizers, simulators, and machine knitters; educators gain programmable examples.
-  - Watch next: Exports to machine formats, constraint checking (gauge, yarn), stitch-map layouts, and AI pattern linting with human review.
+### Comment pulse
+
+- Textile patterns fit programming concepts → repeated structure and machine control invite domain-specific notation.
+- Automation differs by craft → commenters describe knitting machinery as established while robotic crochet remains difficult.
+- Historical parallels are contested → punched-card looms influenced programmability, but calling them computers stretches definitions.
+
+### LLM perspective
+
+- View: Knotty’s value depends on making pattern structure clearer than either prose instructions or generic code.
+- Impact: Knitters and tool builders could share, validate, transform, and visualize patterns reproducibly.
+- Watch next: Inspect the linked examples for syntax, error handling, chart generation, sizing, and machine interoperability.

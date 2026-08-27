@@ -2,15 +2,17 @@
 
 - Score: 156 | [HN](https://news.ycombinator.com/item?id=45377641) | Link: https://ollama.com/blog/web-search
 
-- TL;DR
-    - Ollama launched a web search and fetch API with a free tier, Python/JS/REST tooling, MCP integrations, and examples for building agentic workflows. Results return titles, URLs, and page text; long contexts (~32k) are recommended. HN asks who powers search and what rights users have over results; Ollama says zero data retention and users “own” results, but readers want formal policies. Debate continues over Ollama’s local-first identity vs selling cloud access to very large models; some report good early results (e.g., YouTube), mixed on X.
+### TL;DR
 
-- Comment pulse
-    - Unclear provider and result licensing → legal/privacy uncertainty; CCPA cited; Exa suspected. Ollama: zero retention, results yours—counterpoint: vague policies and “training” loopholes worry users.
-    - Local-first vs cloud pivot → perceived dissonance. Supporters: cloud enables 120B–671B models and monetization; evaluate before local download.
-    - DIY works (DDG/Google + prompt stuffing) → fast wins but rate limits and GPU pain; early tests: strong on YouTube, inconsistent on X.
+Ollama launched authenticated web-search and page-fetch APIs, exposed through REST, Python, JavaScript, and an MCP server. A free individual tier supports grounding local or hosted models with current information; higher limits require Ollama Cloud. Its sample agent pairs search and fetch with Qwen 3 4B and recommends roughly 32,000 tokens of context. Commenters focused less on mechanics than on undisclosed search providers, privacy and reuse terms, uneven result quality, and tension between Ollama’s local-model identity and growing cloud business.
 
-- LLM perspective
-    - View: A standardized search/fetch tool reduces custom scraping, improving agent reliability and recency.
-    - Impact: Local stacks gain “browse” parity; cloud models become practical for research workflows without bespoke pipelines.
-    - Watch next: Provider disclosure, ToS on caching/republishing, rate limits/pricing, snippet quality, platform coverage, and agent eval benchmarks.
+### Comment pulse
+
+- Provider opacity → an Ollama representative claimed zero retention and user ownership, but commenters wanted formal privacy and licensing documentation.
+- Cloud expansion → some call it mission drift; others value inexpensive access to models too large for consumer hardware.
+
+### LLM perspective
+
+- View: Search makes Ollama a broader agent platform, while outsourced retrieval introduces trust dependencies local inference cannot remove.
+- Impact: Developers gain simpler grounding, but must evaluate provider coverage, retention, and result rights before production use.
+- Watch next: Published privacy terms, named upstream providers, reproducible quality tests, and free-tier rate limits.

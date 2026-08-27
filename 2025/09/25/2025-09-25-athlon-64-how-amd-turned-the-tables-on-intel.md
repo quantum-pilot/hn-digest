@@ -2,15 +2,18 @@
 
 - Score: 176 | [HN](https://news.ycombinator.com/item?id=45376605) | Link: https://dfarq.homeip.net/athlon-64-how-amd-turned-the-tables-on-intel/
 
-- TL;DR
-    - In 2003 AMD’s Athlon 64 extended x86 to 64‑bit (AMD64), betting on full backward compatibility and strong 32‑bit perf/watt. That won desktops and data centers—Dell adopted Opteron as Prescott ran hot—and forced Intel to clone it (EM64T/Intel64), sidelining Itanium. HN adds: Intel had an internal P4 x86‑64 it disabled to protect Itanium; customers valued “my apps run” over cleaner designs; Itanium’s IA‑32 emulation lagged native x86. Bottom line: compatibility + efficiency beat a risky clean‑slate.
+### TL;DR
 
-- Comment pulse
-    - Intel built P4 x86‑64 (Yamhill) → management fused it off to shield Itanium; Microsoft later favored AMD64 — counterpoint: AMD64 added registers, and P4 underperformed.
-    - Compatibility won → Itanium broke x86, arrived late/slow, and alienated RISC loyalists targeted by Intel/HP marketing, depressing adoption.
-    - Intel first branded its AMD64 clone EM64T → Itanium’s IA‑32 Execution Layer used DBT + microcode, faster than emulation yet far behind native x86.
+The article credits AMD’s 2003 Athlon 64 with making backward-compatible 64-bit x86 the market standard while Intel pursued the incompatible Itanium architecture. AMD64 preserved fast 32-bit software, performed efficiently, and gained desktop and server adoption, eventually leading Intel to implement the extension. Commenters agreed compatibility matched customer priorities but added nuance: Intel reportedly had its own disabled x86-64 work, early Intel support was branded EM64T, and Itanium could run x86 through a slower translation layer. Superior early AMD hardware also mattered.
 
-- LLM perspective
-    - View: Compatibility plus immediate perf/watt wins can beat architecturally elegant clean-slate designs.
-    - Impact: Forced Intel to standardize on AMD64, shifted server procurement to perf/watt, and locked decades of software investment into x86-64.
-    - Watch next: APX adoption across Intel/AMD, compiler/OS support, and ARM/Windows competition pressuring x86 to add features or simplify legacy.
+### Comment pulse
+
+- Compatibility won the transition → customers valued existing software more than architectural cleanliness.
+- Intel’s strategy constrained itself → commenters say internal x86-64 work was suppressed to avoid undermining Itanium.
+- ISA alone was insufficient → Athlon 64’s 32-bit speed, efficiency, and server economics drove adoption.
+
+### LLM perspective
+
+- View: AMD changed the standard by pairing evolutionary compatibility with immediately useful hardware.
+- Impact: Intel lost architectural control, while software vendors gained one practical migration path.
+- Watch next: Separate documented design history from retrospective claims about disabled Intel extensions and Microsoft’s influence.

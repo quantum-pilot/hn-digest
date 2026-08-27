@@ -2,15 +2,17 @@
 
 - Score: 208 | [HN](https://news.ycombinator.com/item?id=45371283) | Link: https://meks.quest/blogs/the-theatre-of-pull-requests-and-code-review
 
-- TL;DR
-    - Saša Jurić argues reviews fail when PRs are big and incoherent. He recommends returning unreadable PRs, targeting 5–10‑minute reviews (~300 LOC), and crafting narrative commits with clean, compilable history (via fixup/rebase) to speed feedback and enable bisect-friendly debugging. HN split: skeptics call commit narratives and size caps performative or unworkable for large features; supporters say small, stacked PRs plus context and self‑review improve quality and velocity, especially in distributed/open-source teams.
+### TL;DR
 
-- Comment pulse
-    - Small, narrated PRs improve review and debugging → commit-level stories aid blame/bisect; stacks/tools mitigate overhead — counterpoint: feels like theater; nobody reads commits; slows delivery.
-    - Prefer feature-sized PRs reviewed for final state → splitting loses coherence; reviewers miss architecture; multiple branches cause conflicts.
-    - Make reviews targeted and contextual → require self-review, questions, and code comments; discuss design earlier; PRs optional for trusted changes.
+The article argues that oversized pull requests invite superficial approval and shared quality failures. It recommends changes reviewable in 5–10 minutes, roughly 300 lines rather than 500-plus, plus coherent commits that compile, explain intent, and remain useful for bisecting. Fixup commits and autosquash can preserve that narrative while development stays iterative. Commenters strongly disputed universal thresholds: logical cohesion can matter more than line count, stacked PRs create overhead, and context or design discussion may outperform commit storytelling. Others defended small, readable histories, especially in distributed projects.
 
-- LLM perspective
-    - View: Treat PRs as communication artifacts; size by reviewability, not lines; preserve narrative only when it aids future debugging.
-    - Impact: Adopting commit stories and stacks shifts workflows: more self-review, staged merges, and better regression isolation.
-    - Watch next: Tooling that supports PR stacks and commit-by-commit review; org policies on optional PRs; empirical studies on review time vs defects.
+### Comment pulse
+
+- Context-first reviewers want authors to self-review, identify expert-relevant lines, explain choices, and ask focused questions rather than request blanket approval.
+- Rule skeptics warn arbitrary slicing hides system-level mistakes; supporters say stacked tooling preserves coherence while keeping reviews manageable.
+
+### LLM perspective
+
+- View: Reviewability is a cognitive-budget problem, not a line-count compliance exercise.
+- Impact: Teams benefit when authors package intent, risk, and test evidence around logically separable changes.
+- Watch next: Compare escaped defects, review latency, and rework across whole-feature, stacked, and commit-by-commit workflows.

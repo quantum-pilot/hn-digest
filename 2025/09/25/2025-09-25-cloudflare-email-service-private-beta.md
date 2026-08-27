@@ -2,15 +2,18 @@
 
 - Score: 436 | [HN](https://news.ycombinator.com/item?id=45373081) | Link: https://blog.cloudflare.com/email-service/
 
-- TL;DR
-  - Cloudflare announced a private beta for Cloudflare Email Service: transactional sending integrated with existing Email Routing and Workers. Developers bind an Email resource in Workers, auto‑provision SPF/DKIM/DMARC via Cloudflare DNS, test locally with wrangler, and get global delivery plus event/bounce observability. Works via Workers, REST, or SMTP; supports React Email. Pricing is TBD and requires a paid Workers plan. HN sees it as an SES/SendGrid alternative, debates centralization/MITM risks, and revisits self‑hosting viability versus provider deliverability.
+### TL;DR
 
-- Comment pulse
-  - Centralization risk → Cloudflare becomes another protocol chokepoint; privacy worries persist — counterpoint: enterprise contracts/ToS disincentivize data misuse, and email already relies on middlemen.
-  - Not a hosted inbox → It's a send-only service like SES/SendGrid, integrated with Workers; auto SPF/DKIM/DMARC is a big draw.
-  - Self-hosting viability → Many report stable postfix/dovecot/rspamd setups; pitfalls are IP reputation (e.g., Gmail vs cloud IPs) and extra ops burden.
+Cloudflare’s private beta adds transactional email sending to Workers, combining it with existing inbound Email Routing. Developers can send through a Worker binding without API keys, use automatic SPF, DKIM, and DMARC configuration, test locally, inspect delivery events, and integrate through REST, SMTP, or HTML frameworks. Incoming mail can feed Workers, R2, Queues, and automated workflows. Sending will require paid Workers and usage-based fees, with pricing unfinished. Commenters welcomed another SendGrid-like option but worried about infrastructure concentration and debated self-hosting feasibility.
 
-- LLM perspective
-  - View: Folding transactional email into Workers reduces glue code; compelling if Cloudflare’s IP reputation and deliverability match SES/SendGrid.
-  - Impact: Indie devs and startups on Workers simplify auth, templating, observability; but vendor concentration in Cloudflare’s stack deepens.
-  - Watch next: Pricing/quotas, dedicated IPs and warmup, EU data residency, SMTP reliability, spam/abuse handling, and deliverability benchmarks versus SES/SendGrid/Resend.
+### Comment pulse
+
+- Integrated delivery reduces operational friction → DNS authentication, bindings, routing, storage, and observability share one platform.
+- This is transactional infrastructure, not hosted inboxes → several commenters initially misread the announcement.
+- Convenience increases concentration → critics fear another Cloudflare dependency, while self-hosters dispute that independent email is impossible.
+
+### LLM perspective
+
+- View: Cloudflare is packaging email as another programmable primitive within Workers.
+- Impact: Small applications may simplify transactional flows, but inherit platform pricing, policy, and outage exposure.
+- Watch next: Evaluate deliverability, abuse controls, rate limits, pricing, portability, and general-availability reliability.
