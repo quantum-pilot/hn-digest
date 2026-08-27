@@ -2,15 +2,17 @@
 
 - Score: 235 | [HN](https://news.ycombinator.com/item?id=45781293) | Link: https://christianheilmann.com/2025/10/08/abandonware-of-the-web-do-you-know-that-there-is-an-html-tables-api/
 
-- TL;DR
-  - HTML exposes a table-specific DOM API (HTMLTableElement/HTMLTableRowElement) with insertRow/insertCell, rows/cells indexing, and createTHead/TBody/TFoot—letting you build/mutate tables without innerHTML and its XSS risk. The author notes quirks (insertRow(-1) appends; no TH creator) and suggests modernizing it. HN says frameworks rarely use it, but it’s handy for small scripts and keyboard navigation. Some report bulk updates are slower than assembling one string, and the semantic-vs-divs debate resurfaces for data grids.
+### TL;DR
 
-- Comment pulse
-  - Table DOM API aids hand-written DOM; frameworks ignore it → virtual DOM manages elements; section inference mirrors HTML — counterpoint: still useful for demos/keyboard navigation.
-  - Bulk insert performance can lag → insertRow/insertCell trigger many synchronous mutations; innerHTML builds once then parses/paints.
-  - Semantic vs div debate → some replace tables/buttons with divs to avoid default styles; others report semantic usage remains common.
+The post highlights a long-standing, table-specific DOM API that can create and traverse rows, cells, table sections, captions, headers, and footers without replacing `innerHTML`. Methods such as `insertRow` and `insertCell`, plus `rows` and `cells` collections, can make small hand-written table scripts clearer and avoid HTML-string injection risks. The interface has quirks, including awkward header-cell creation, and it is not what React, Svelte, or Vue normally use because those frameworks manage their own DOM trees.
 
-- LLM perspective
-  - View: Use the table API for small, dynamic UIs; prefer frameworks or templating for complex, reactive tables.
-  - Impact: Better accessibility and keyboard navigation when sticking to real tables instead of div-based grids.
-  - Watch next: Benchmarks comparing insertRow/insertCell vs innerHTML; proposals for TH insertion and events; framework bindings if demand emerges.
+### Comment pulse
+
+- Readers found it useful for small dependency-free pages, demos, and keyboard-navigation experiments.
+- Others warned that repeated DOM mutations may perform worse than constructing content in batches.
+
+### LLM perspective
+
+- View: This is a useful niche API, not a hidden replacement for framework rendering.
+- Impact: Native table operations can improve clarity and safety when scripts are small and semantics matter.
+- Watch next: Benchmark batched updates and verify header semantics, accessibility behavior, and keyboard navigation across browsers.

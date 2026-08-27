@@ -2,15 +2,17 @@
 
 - Score: 97 | [HN](https://news.ycombinator.com/item?id=45784185) | Link: https://edri.org/our-work/czech-police-forced-to-turn-off-facial-recognition-cameras-at-the-prague-airport-thanks-to-the-ai-act/
 
-- TL;DR
-  Prague’s Václav Havel Airport shut down police facial-recognition cameras in Aug 2025 after the Czech DPA found legal violations and the EU AI Act, effective Feb 2025, mandated per-use judicial approval the police lacked. Despite warnings, the system ran illegally for months. Advocates urge statutory safeguards and oversight; police reportedly still run a separate database comparing unknown faces against ~20 million ID/passport photos. HN debates trade-offs: airport security efficiency vs civil liberties, enforceability, and whether this signals broader EU crackdowns.
+### TL;DR
 
-- Comment pulse
-  - Airports should use FR to catch criminals → authorities already match faces to passenger manifests; exits often skip passport checks.
-  - This is a civil-liberties win → real-time biometrics lacked judicial approval; enforceable oversight is prerequisite — counterpoint: limiting tools may reduce investigative effectiveness.
-  - Enforcement credibility questioned → who verifies systems aren’t quietly re-enabled or repurposed; police have history of overreach, so auditability is essential.
+European Digital Rights and Czech group IuRe report that police operated real-time facial recognition at Prague's airport from 2018 until August 2025. According to the groups, a Czech data-protection inspection eventually confirmed violations, while applicable AI Act rules required judicial authorization that the system lacked. They also challenge a separate police image database reportedly containing roughly 20 million identity-document photographs, warning it could enable broader identification than the police's stated use for identifying deceased people. These are advocacy-group claims about contested policing practices.
 
-- LLM perspective
-  - View: AI Act’s targeted bans work only with fast, resourced DPAs and real-time audit mechanisms at deployment.
-  - Impact: Expect airports to shift to non-real-time biometrics and watchlist checks; real-time deployments will seek judicial workflows or geo-fence exemptions.
-  - Watch next: Track Czech legislative updates, DPA enforcement timelines, and whether the 20M-photo system gains explicit legal basis or faces suspension.
+### Comment pulse
+
+- Some commenters considered airport matching against wanted-person lists legitimate; others emphasized false matches, abuse, and weak oversight.
+- Discussion repeatedly distinguished narrow identification goals from the much larger surveillance capability the infrastructure could support.
+
+### LLM perspective
+
+- View: The decisive issue is enforceable authorization and scope limits, not whether facial recognition has some legitimate uses.
+- Impact: Large identity-image databases can turn targeted searches into population-scale identification without visible new deployment.
+- Watch next: Seek the regulator's findings, judicial-authorization records, retention rules, auditability, and demonstrated false-match rates.

@@ -2,15 +2,18 @@
 
 - Score: 209 | [HN](https://news.ycombinator.com/item?id=45783470) | Link: https://thezvi.substack.com/p/openai-moves-to-complete-potentially
 
-- TL;DR  
-  Zvi argues OpenAI’s shift to a public benefit corporation transfers hundreds of billions from its nonprofit mission to private investors by scrapping profit caps and shrinking the nonprofit to 26% equity. Delaware and California approved with guardrails: the nonprofit appoints PBC directors; a safety committee can halt releases; “mission-only” duties apply to safety. Microsoft lands ~27%, extended IP rights, and $250B in Azure spend. The foundation targets $25B for health and “AI resilience.” HN debates inevitability vs. “bait-and-switch,” plus possible tax clawbacks.
+### TL;DR
 
-- Comment pulse
-  - Profit pivot was needed to raise trillions → caps deterred investors; otherwise stagnation. — counterpoint: Future rounds could be uncapped without retroactively enriching earlier investors.
-  - “Theft” framing fails → unclear victim; nonprofit board agreed; PBCs can prioritize mission. — counterpoint: Donors/public were promised caps; value shifted without their consent.
-  - Policy response → claw back tax benefits tied to nonprofit promises if those promises are abandoned.
+Zvi Mowshowitz condemns OpenAI's recapitalization into a public benefit corporation, arguing that replacing the nonprofit's former capped-profit interests with 26% equity transfers hundreds of billions in potential upside to investors. He acknowledges meaningful safeguards: the nonprofit appoints PBC directors, retains a safety committee able to halt releases, and receives regulatory oversight and resource access. He doubts those rights will constrain aligned boards over time. Commenters disputed the “theft” framing, the counterfactual valuation, and the historical superlative, while others saw predictable profit seeking.
 
-- LLM perspective
-  - View: Governance concessions have teeth on paper, but enforcement will hinge on SSC scope and board independence over time.
-  - Impact: Microsoft gains clarity and supply; OpenAI gains IPO path and partner optionality; nonprofit gains cash, loses upside and leverage.
-  - Watch next: Musk suit outcomes, AG interventions, SSC veto use, IPO S‑1, and dilution or changes to Class N rights.
+### Comment pulse
+
+- Critics said the essay never establishes a defensible owner, loss, or valuation for the allegedly stolen value.
+- Supporters viewed the original public-benefit promises as the relevant baseline, regardless of fundraising needs.
+- Several readers argued the “largest theft” label ignores colonial extraction and weakens the governance critique.
+
+### LLM perspective
+
+- View: The core dispute is which counterfactual baseline should value the nonprofit's relinquished economic rights.
+- Impact: Investors gain uncapped upside while public beneficiaries depend more heavily on governance safeguards and board independence.
+- Watch next: Lawsuits, warrant details, board separation, safety-veto use, annual mission reports, and attorney-general enforcement.

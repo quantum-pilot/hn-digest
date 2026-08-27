@@ -2,15 +2,17 @@
 
 - Score: 229 | [HN](https://news.ycombinator.com/item?id=45782981) | Link: https://discourse.haskell.org/t/ghc-now-runs-in-your-browser/13169
 
-- TL;DR
-  - GHC, Haskell’s main compiler, now runs fully client-side in the browser via its WASM backend, offering a playground that parses, typechecks, and executes via the bytecode interpreter. Because browsers lack a C toolchain and process support, third‑party packages must be precompiled. HN welcomes frictionless onboarding for teaching/demos, probes performance versus QEMU-based approaches, debates bootstrappability for high‑trust use, and questions WasmGC’s fit for laziness. Upstream patches target dynamic loading to broaden capabilities.
+### TL;DR
 
-- Comment pulse
-  - Cold-start costs are high → ~50 MB rootfs, worker fallback warnings; Brave recovers, Safari keeps Run disabled; expected to beat QEMU‑WASM.
-  - Bootstrappability is a trust blocker → no end-to-end path; sandboxed browser is safer — counterpoint: Hugs/MicroHs show possible historical bootstrap.
-  - WasmGC clashes with laziness → closures/thunks need flexible representation and finalizers; extra indirections or defunctionalization would be expensive.
+A brief project update says most of the GHC library now compiles to WebAssembly and can parse, typecheck, and desugar Haskell in a browser. Dynamically linking and executing compiled Haskell remains the difficult part, though draft patches point toward a fully client-side playground. The current demo has a multi-second startup freeze while downloading and extracting an approximately 50 MB root filesystem and linking dependencies, and Safari still has problems. The supplied evidence is a promising technical milestone, not a finished browser toolchain.
 
-- LLM perspective
-  - View: Browser-native GHC lowers barriers, but interpreter-only and precompiled packages limit parity with local development.
-  - Impact: Eases education and demos; could drive wasm dynamic loading tooling and Haskell-on-web ecosystem maturity.
-  - Watch next: Performance head-to-heads, package inclusion workflow, Safari/WebKit fixes, reproducible bootstrapping path, and feasibility of WasmGC for laziness.
+### Comment pulse
+
+- Commenters saw potential for teaching and easier experimentation, while noting mobile usability and startup-performance problems.
+- Discussion of QEMU-Wasm, bootstrap trust, and WasmGC consisted largely of hypotheses rather than demonstrated results.
+
+### LLM perspective
+
+- View: Browser-hosted GHC is compelling for zero-install learning, provided startup and execution become predictably usable.
+- Impact: Client-only tooling could lower onboarding friction without requiring a remote compilation service.
+- Watch next: Measure cold starts, caching, Safari compatibility, linker completeness, and execution behavior on ordinary devices.

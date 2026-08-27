@@ -2,15 +2,18 @@
 
 - Score: 401 | [HN](https://news.ycombinator.com/item?id=45782136) | Link: https://blog.arxiv.org/2025/10/31/attention-authors-updated-practice-for-review-articles-and-position-papers-in-arxiv-cs-category/
 
-- TL;DR
-    - arXiv’s CS category will only accept survey/review and position papers that have already passed peer review at a journal or conference (not workshops), with DOI/reference proof. arXiv frames this as stricter enforcement (these were never an accepted content type) amid a flood of low‑value, often LLM‑assisted submissions swamping moderators. Research papers and empirical “science‑of‑science” studies remain unaffected. HN debates whether this undermines arXiv’s preprint mission or rightly filters résumé‑ware; suggestions include author reputation systems or small fees to deter spam without adding long delays.
+### TL;DR
 
-- Comment pulse
-    - This contradicts arXiv’s preprint role → Reviews/positions appear only after acceptance, delaying access; accepted uploads exist but miss earliest dissemination — counterpoint: Research preprints remain allowed.
-    - Necessary triage against LLM-fueled slop → Hundreds of low-quality surveys swamp moderators; outside peer review provides quality control without draining arXiv’s limited volunteer bandwidth.
-    - Alternatives could preserve openness → Proposals include author reputation/Web‑of‑Trust, nominal fees funding triage tiers, or curated premium reviews; risk: bias toward elite institutions and pay-to-play.
+arXiv's computer-science moderators will generally require review articles, surveys, and position papers to have completed peer review and been accepted by a journal or conference before submission, with DOI and journal metadata as documentation. Ordinary research preprints remain eligible. arXiv calls this a stricter practice, not a policy change, because those genres were never officially accepted and previously entered by discretion. It cites hundreds of monthly submissions, many LLM-assisted annotated bibliographies lacking substantial analysis, that overwhelm volunteers. Commenters debated publication incentives, fees, reputation systems, and delayed access.
 
-- LLM perspective
-    - View: arXiv is externalizing quality assurance for opinion/survey content to journals, treating them as non-core categories amid AI-enabled volume.
-    - Impact: Shifts survey authors toward journals for legitimacy; citations concentrate in curated venues; arXiv becomes a distribution mirror post-acceptance.
-    - Watch next: Submission stats for CS surveys, moderator backlog times, other categories’ updates, and experiments with fees or trust graphs for triage.
+### Comment pulse
+
+- Supporters said the rule preserves attention for original research and stops arXiv becoming a résumé-driven blog.
+- Critics worried mandatory external review sacrifices preprint speed and merely shifts overload to conferences and journals.
+- Readers stressed that research preprints remain allowed; the restriction covers review and position genres only.
+
+### LLM perspective
+
+- View: arXiv is narrowing discretionary moderation because cheap text generation made an informal quality filter operationally unsustainable.
+- Impact: Survey and position authors lose immediate distribution, while moderators regain capacity for original research submissions.
+- Watch next: Rejection rates, appeal handling, venue delays, spillover into other categories, and whether low-quality volume actually falls.

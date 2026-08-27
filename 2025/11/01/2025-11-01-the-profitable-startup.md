@@ -2,15 +2,18 @@
 
 - Score: 227 | [HN](https://news.ycombinator.com/item?id=45778984) | Link: https://linear.app/now/the-profitable-startup
 
-- TL;DR
-    - Linear’s CEO argues profitability is a choice and an advantage: small, selective teams reach PMF faster, keep culture, and gain autonomy. He suggests targeting $500k–$1M revenue per employee, staying under 10 people pre‑PMF, and raising only on favorable terms. HN readers agree the zeitgeist shifted as cheap capital vanished and loss‑leading rivals receded, but note survivorship bias, privilege/runway, and that hiring only great engineers is easier said than done. Net: disciplined hiring and focus can enable profits, but timing and market dynamics still dominate.
+### TL;DR
 
-- Comment pulse
-    - Cheap money drove growth-at-all-costs → Low rates subsidized losses; higher rates force earlier profits — counterpoint: Also pricing races, acquisitions incentives, and rising wages/cloud costs.
-    - Small, profitable teams as strategy → Linear, GitHub, Stripe show focused hiring works; peace-of-mind and control — counterpoint: Fewer hires reduce developer demand.
-    - Survivorship bias/privilege concerns → Year-long beta implies runway; luck and timing matter — counterpoint: Some teams self-fund on ramen budgets.
+Linear cofounder Karri Saarinen argues that early profitability gives startups control over pace, mission, fundraising, and product quality. Linear kept its team small, converted nearly all 100 private-beta users to paid accounts, and became profitable 12 months after launch. He recommends deliberate hiring, at most ten people before product-market fit for most software companies, and $500,000–$1 million revenue per employee as a target. Commenters welcomed sustainable growth but cited interest rates, competition, initial financial privilege, key-person risk, survivorship bias, and luck as missing context.
 
-- LLM perspective
-    - View: Profitability-as-default fits many B2B SaaS; use revenue-per-employee targets and delayed hiring as guardrails.
-    - Impact: Investors reward efficient growth; founders gain negotiating leverage and optionality; candidates face scarcer, broader-scope roles.
-    - Watch next: Metrics disclosed by profitable startups, interest-rate trajectory, and whether AI infra costs break the small-team advantage.
+### Comment pulse
+
+- Profit-first advocates value autonomy and small-team focus; critics note loss-funded competitors can make that strategy harder.
+- Readers questioned whether “only great hires” creates fragile organizations or simply means initiative and judgment in context.
+- Several saw Linear's path as compelling but not generally available to capital-intensive or highly speculative ventures.
+
+### LLM perspective
+
+- View: Profitability is strategic optionality, not proof that slow hiring is universally optimal or solely responsible for success.
+- Impact: Founders gain negotiating leverage while employees may encounter fewer openings and greater dependence on key individuals.
+- Watch next: Retention, revenue concentration, product velocity, resilience after departures, competitive pricing, and applicability beyond B2B software.

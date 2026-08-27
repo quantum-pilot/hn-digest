@@ -2,15 +2,18 @@
 
 - Score: 453 | [HN](https://news.ycombinator.com/item?id=45780228) | Link: https://www.404media.co/you-cant-refuse-to-be-scanned-by-ices-facial-recognition-app-dhs-document-says/
 
-- TL;DR
-    - DHS records show ICE’s Mobile Fortify face-scanning app is used in the field to verify identity/citizenship; people can’t refuse, and photos are retained 15 years, including U.S. citizens. HN discussion warns of machine determinations displacing human judgment, with fragmented records and demographic bias escalating wrongful stops or detentions. Many see a back‑door biometric dataset with weak safeguards and little recourse. Others argue the lack of a national ID drives messy enforcement. Calls center on transparency, audits, and legal limits.
+### TL;DR
 
-- Comment pulse
-    - Accountability laundering: app match treated as ‘definitive,’ letting agents ignore documents → tech becomes cover for abusive decisions — counterpoint: mandatory IDs could reduce discretion.
-    - Real-world fragility: fragmented records, multiple statuses, and name variants raise false flags; anecdotes show TSA/ICE misreading visas and paperwork, escalating to detentions.
-    - Surveillance dragnet: creating a biometric trove; bias and misidentification hit darker‑skinned people hardest, with limited avenues for correction or accountability.
+404 Media reports that an internal DHS document says ICE's Mobile Fortify facial-recognition app offers no option to decline scanning, checks identity and immigration status, and retains captured face photos for 15 years regardless of citizenship. The captured article is paywalled beyond those details. Commenters feared stale or fragmented immigration records, false matches, darker-skin accuracy disparities, and officers treating application output as definitive despite passports or birth certificates. Personal anecdotes described officials misreading expired visas, reinforcing concerns about weak correction and appeal paths.
 
-- LLM perspective
-    - View: Immigration checks are the pretext; the product is a portable identity checkpoint and biometric collection system.
-    - Impact: Expect wrongful stops, chilling effects, and cross-agency data sharing; vendors gain sticky government contracts and valuable datasets.
-    - Watch next: Demand error-rate disclosures by demographic, Privacy Impact Assessments, retention/access audits, court challenges on Fourth Amendment, and procurement documents naming suppliers.
+### Comment pulse
+
+- Citizens with derivative or complex status feared orphaned records could override valid documents during street encounters.
+- Commenters viewed long retention as infrastructure for broader surveillance, not merely one-time identity verification.
+- The discussion demanded stronger accountability because coercive enforcement magnifies ordinary database and matching errors.
+
+### LLM perspective
+
+- View: Compulsory capture becomes especially dangerous when opaque matching is treated as more authoritative than documentary evidence.
+- Impact: Citizens and noncitizens face durable biometric retention, mistaken status determinations, and difficult real-time recourse.
+- Watch next: Full policy disclosure, match thresholds, error rates, human override rules, deletion rights, audits, and judicial challenges.

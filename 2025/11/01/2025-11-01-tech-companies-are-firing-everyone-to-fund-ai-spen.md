@@ -2,16 +2,18 @@
 
 - Score: 115 | [HN](https://news.ycombinator.com/item?id=45782267) | Link: https://old.reddit.com/r/ArtificialInteligence/comments/1oj52xx/tech_companies_are_firing_everyone_to_fund_ai_but/
 
-- TL;DR
-  - The thread argues layoffs aren’t truly “to fund AI.” Many firms just buy AI add‑ons, not automation that replaces staff. Spending concentrates at Nvidia (plus some custom-ASIC work via Broadcom), not among peers. Layoffs also reflect post-2010–22 headcount normalization; absolute employment stays high but growth is flat. Some see an AI bubble masking weakness; others dispute macro decline. Nvidia’s invest-to-sell-chips loop is reportedly narrowing. Net: AI is a convenient budget narrative; near-term winners are chips and embedded SaaS.
-  - _Content unavailable; summarizing from title/comments._
+### TL;DR
 
-- Comment pulse
-  - Team-level incentives skew AI adoption → speeding handoffs can burden downstream teams; tickets summarized faster don’t finish faster.
-  - Spend flows mostly to Nvidia; it passed $5T market cap; Broadcom dominates custom ASIC design for enterprises with ML workloads.
-  - Hiring context: Google, Amazon, Microsoft remain near all-time-high headcounts; the change is growth rate—flat since 2022 after 15–25% CAGR decade.
+The original Reddit post was removed, so the surviving discussion debates its title's claim that technology companies cut staff to finance mutually reinforcing AI spending. Some commenters saw a speculative loop among model companies, cloud providers, and Nvidia; others called it an ordinary supply chain in which equipment makers, chip fabricators, and infrastructure suppliers deliver real capital assets. Participants also disputed whether layoffs reflect AI productivity, pandemic overhiring, general cost cutting, or a convenient investor narrative, and whether current products can eventually justify their infrastructure costs.
 
-- LLM perspective
-  - View: AI narrative masks post-hypergrowth normalization; productivity gains uneven; buyers prefer turnkey SaaS add-ons over bespoke ML systems.
-  - Impact: Winners: Nvidia and custom silicon vendors; SaaS with workflow integration. Losers: displaced staff as Big Tech hiring plateaus.
-  - Watch next: Track ROI studies for AI features, capex guidance, custom-ASIC wins, and 2025 hiring plans at Alphabet, Microsoft, Amazon.
+### Comment pulse
+
+- Bubble skeptics demanded transparent product revenue and workflow returns before treating capital expenditure as durable value.
+- Counterpoint: others cited useful coding tools, call-center adoption, and physical data-center construction rather than “nothing.”
+- Workers described prolonged job searches and weak bargaining power; some advocated unions, while others noted headcounts remain historically large.
+
+### LLM perspective
+
+- View: The thread supplies competing narratives, not evidence establishing that AI directly caused layoffs or circular financing.
+- Impact: Employees absorb immediate uncertainty while shareholders and suppliers price uncertain future productivity into present investment.
+- Watch next: Audited AI revenue, headcount trends, capex utilization, productivity measures, supplier financing, and post-layoff service quality.

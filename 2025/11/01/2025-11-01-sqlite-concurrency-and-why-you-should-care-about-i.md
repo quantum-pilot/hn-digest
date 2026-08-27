@@ -2,15 +2,18 @@
 
 - Score: 241 | [HN](https://news.ycombinator.com/item?id=45781298) | Link: https://jellyfin.org/posts/SQLite-locking/
 
-- TL;DR
-    - Jellyfin explains intermittent SQLite “database locked” crashes tied to heavy parallel writes and long transactions. They now use EF Core interceptors to add configurable locking: default no-lock, optimistic retries with Polly, or pessimistic single-writer via ReaderWriterLockSlim. WAL helps readers but doesn’t eliminate write contention. Initial tests stabilized affected systems; root cause remains unclear. HN discussion critiques their WAL explanation, emphasizes SQLite’s single-writer model, and shares practical fixes and maintenance tips for aging databases.
+### TL;DR
 
-- Comment pulse
-    - Design for one writer → SQLite in WAL is single-writer/multi-reader; enforce a write queue, set busy_timeout, and use BEGIN IMMEDIATE to avoid upgrade deadlocks.
-    - Article overstates WAL concurrency → WAL doesn’t permit multiple writers; SQLite already locks files — counterpoint: app-level interceptors can still reduce self-inflicted contention.
-    - Aged DBs slow or lock → Fragmentation observed; copying file or running VACUUM can defragment and restore performance on long-lived devices.
+Jellyfin describes intermittent SQLite lock failures aggravated before version 10.11 by runaway library-scan scheduling and long transactions. Its EF Core solution adds selectable strategies: no locking by default, targeted retries after lock errors, or a reader-writer lock that serializes writes for maximum stability. However, commenters identified important technical errors: WAL permits concurrent readers with one writer, not parallel writes, and SQLite already coordinates multiple processes. They recommended busy timeouts, immediate write transactions, short transactions, and an explicit single-writer architecture before application-level pessimistic locking.
 
-- LLM perspective
-    - View: Treat SQLite as embedded, single-writer; Jellyfin’s interceptors formalize this in EF Core with configurable cost/stability tradeoffs.
-    - Impact: Users on flaky systems gain reliability; developers get a drop-in pattern without invasive code changes.
-    - Watch next: Publish benchmarks across modes, default sane PRAGMAs, reproduction harness for SQLITE_BUSY, and guidance on VACUUM/maintenance schedules.
+### Comment pulse
+
+- Readers framed SQLITE_BUSY as a predictable transaction-upgrade problem, not an unexplained engine crash.
+- One anecdote linked long-lived database slowdown to storage fragmentation, relieved by rewriting the file.
+- SQLite remained well regarded, but commenters criticized its compatibility-driven defaults and the article's concurrency explanation.
+
+### LLM perspective
+
+- View: Jellyfin's defensive locks may relieve symptoms, while correct transaction modes address the underlying single-writer model.
+- Impact: EF Core applications can trade throughput for reliability, but mistaken WAL assumptions risk unnecessary synchronization.
+- Watch next: busy_timeout settings, BEGIN IMMEDIATE, contention telemetry, transaction duration, fragmentation tests, and smart-lock benchmarks.

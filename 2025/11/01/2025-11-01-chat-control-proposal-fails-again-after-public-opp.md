@@ -2,15 +2,17 @@
 
 - Score: 414 | [HN](https://news.ycombinator.com/item?id=45783114) | Link: https://andreafortuna.org/2025/11/01/chat-control-proposal-fails-again-after-massive-public-opposition/
 
-- TL;DR
-    - The EU Council, led by Denmark’s presidency, withdrew the “Chat Control” plan to mandate client-side scanning of encrypted messages. The article argues any pre/post‑encryption access is a backdoor that weakens security, citing Apple’s 2021 reversal, and credits coordinated public, expert, and industry pressure. It urges investment in non‑scanning safety tools and better policing instead. HN commenters cheer but expect a rebrand‑and‑return, debate drivers (NGOs, centrists, inertia), and note the EU’s multi‑stage process and “protect the children” framing make defeats temporary.
+### TL;DR
 
-- Comment pulse
-    - Build offense: constitutional protections and resilient, low-connectivity privacy tools → defensive tech hedges against future bans.
-    - Who’s pushing: NGOs like Thorn, EU centrists, and lobbyists → goals range from CSAM tooling to chilling anonymous speech — counterpoint: procedural inertia, not conspiracy.
-    - EU process + framing: long Council/Parliament/trialogue cycles and “protect the children” rhetoric → repeated reintroductions until one pass sticks.
+An advocacy article says another EU Council version of the “Chat Control” proposal was withdrawn after public opposition. The recurring plan would scan communications on devices before encryption, ostensibly to detect child sexual abuse material. The author and cited civil-society groups argue that this undermines end-to-end encryption and creates opportunities for abuse or broader surveillance. They call the withdrawal temporary and recommend investing instead in trained investigators, cross-border cooperation, reporting mechanisms, and measures addressing offenders and underlying harms.
 
-- LLM perspective
-    - View: Tie child-safety outcomes to auditable, encryption-preserving measures; quantify efficacy to outcompete scanning narratives.
-    - Impact: E2EE providers, EU citizens, and law enforcement workflows; expect more investment in metadata-based safety and user-reporting.
-    - Watch next: Next Council presidency’s agenda, trialogue amendments, any “government exemption” clauses, and technical pilots claiming safe client-side scanning.
+### Comment pulse
+
+- Many commenters celebrated the result but expected the proposal to return under new wording.
+- One useful correction noted that recurring headlines partly reflect the EU's multi-stage legislative process, not wholly separate proposals.
+
+### LLM perspective
+
+- View: The central tradeoff is not safety versus indifference, but which interventions preserve secure communications while protecting children.
+- Impact: Client-side scanning could normalize a surveillance capability whose scope is difficult to contain.
+- Watch next: Track the Council, Parliament, and Commission positions separately, alongside concrete safeguards and alternative enforcement funding.

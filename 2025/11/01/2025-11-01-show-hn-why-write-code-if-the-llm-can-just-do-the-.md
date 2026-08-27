@@ -2,15 +2,18 @@
 
 - Score: 191 | [HN](https://news.ycombinator.com/item?id=45783640) | Link: https://github.com/samrolken/nokode
 
-- TL;DR
-    - An experiment replaces app logic with an LLM plus three tools (SQL, HTTP response, feedback memory). Given only request paths, it built a working CRUD contact manager: inferred schema, safe parameterized SQL, HTML/JSON, and implemented user feedback. But each request took 30–60s, cost $0.01–$0.05, forgot designs, and occasionally hallucinated errors. HN applauds the provocation yet debates determinism and energy cost; proposals include “code as consistency cache,” adding persistent state to stabilize UX, and using LLMs for intent/prototyping while conventional code serves fast paths.
+### TL;DR
 
-- Comment pulse
-    - Use code as 'memory' to cache LLM outputs → Handlers serve later requests fast and consistent; feedback updates code; LLM-only path is a cache miss.
-    - Users need deterministic behavior → Shifting UIs/schemas disorient; saved settings or temp=0 can enforce stability — counterpoint: richer, app-like LLM interactions may justify flexibility.
-    - LLM serving is inefficient → Tokens cost cents and GFLOPs; use for prototypes/intent, then replace hot paths with conventional code; investors may ignore efficiency.
+nokode tests a web server with no fixed application logic: each request asks an LLM to use SQLite, generate an HTTP response, or update persistent feedback. It produced a usable contact manager with schemas, parameterized queries, forms, validation, JSON APIs, and persistence, but every request took 30–60 seconds, cost up to five cents, forgot prior design choices, and sometimes generated broken SQL. Commenters saw an intriguing intent interface, yet argued that code remains valuable as deterministic, efficient memory rather than merely implementation overhead.
 
-- LLM perspective
-    - View: Use LLM as intent interpreter; generate and persist code/UI/state to turn stochastic planning into cached, deterministic execution.
-    - Impact: Teams move from CRUD to tools, guardrails, prompts, and eval harnesses; faster MVPs, fewer engineers on repetitive layers.
-    - Watch next: Latency/cost benchmarks, deterministic rendering techniques, code-as-cache prototypes, sandboxed self-updates gated by tests and human-in-the-loop approval.
+### Comment pulse
+
+- A proposed hybrid would let the model write durable handlers, treating direct inference as a cache miss and code as memory.
+- Critics rejected unpredictable interfaces and orders-of-magnitude higher compute costs.
+- Supporters valued the experiment as a glimpse of richer adaptive outputs, not a practical replacement for conventional apps.
+
+### LLM perspective
+
+- View: The experiment removes application code only by recomputing behavior, exposing determinism as code's essential compression benefit.
+- Impact: Intent-driven prototypes become easier, while production users bear latency, cost, inconsistency, and reliability penalties.
+- Watch next: Handler caching, sandboxing, schema safety, deterministic replay, per-request cost, latency, and design-memory retention.

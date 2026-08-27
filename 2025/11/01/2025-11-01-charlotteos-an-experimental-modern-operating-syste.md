@@ -2,15 +2,17 @@
 
 - Score: 145 | [HN](https://news.ycombinator.com/item?id=45781397) | Link: https://github.com/charlotte-os/Catten
 
-- TL;DR
-  - Catten is a Rust, monolithic kernel for CharlotteOS, borrowing from exokernels, Plan 9, and Fuchsia. Its headline idea: a typesafe, capability-secured URI namespace that exposes local and remote resources without mounts, plus persistent MAC. Early-stage, x86_64/UEFI/ACPI focused. HN praises ambition and non-Linux experimentation, but questions monolithic trade-offs (driver recompiles), an in-kernel compositor’s security, and URI parsing cost in kernel; some note Linux could offer similar “auto-mount” semantics. License is GPLv3-or-later with a carve‑out for limited proprietary driver linking.
+### TL;DR
 
-- Comment pulse
-  - Network-transparent URI namespace → simpler mental model and remote access. — counterpoint: Kernel-level URI parsing adds complexity and latency; simpler low-level scheme may be better.
-  - Pure monolithic design and in-kernel compositing → larger TCB, potential security risks; driver updates may require recompiles, hurting maintainability and adoption.
-  - GPLv3-or-later with a proprietary-driver carve‑out → enables closed drivers for personal/internal/evaluation use, easing early hardware support without source disclosure.
+CharlotteOS, also called Catten, is an early-stage experimental monolithic operating system written primarily in Rust with architecture-specific assembly. Its design borrows from exokernels, Plan 9, and Fuchsia, combining a low-level syscall layer with a type-safe URI-based namespace, granular capabilities, and persistent mandatory access controls. The project currently targets x86-64 and documents UEFI, ACPI, and hardware requirements. Its ambitions are substantial, but the supplied material presents a developing system rather than a production-ready alternative.
 
-- LLM perspective
-  - View: URI-based, capability-secured namespace is the differentiator; keep it performant and outside kernel hot paths where possible.
-  - Impact: If driver model and APIs stabilize, could attract hobby OS devs, OEMs evaluating hardware, and researchers exploring capability-based designs.
-  - Watch next: Latency benchmarks for URI resolution, capability/MAC threat model docs, compositor architecture, and a plan to avoid driver recompiles.
+### Comment pulse
+
+- Readers welcomed non-Linux experimentation but disputed whether a monolithic kernel and in-kernel graphics qualify as “modern.”
+- Several questioned URI parsing complexity, driver isolation, security boundaries, and the practical cost of rebuilding kernel components.
+
+### LLM perspective
+
+- View: The project is most valuable as a testbed for namespace and capability ideas, not yet as an operating-system replacement.
+- Impact: Early architectural choices will determine whether its convenience features preserve understandable security boundaries.
+- Watch next: Look for working isolation demonstrations, driver lifecycle documentation, and measurements beyond the design claims.
