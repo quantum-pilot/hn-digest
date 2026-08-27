@@ -2,15 +2,18 @@
 
 - Score: 119 | [HN](https://news.ycombinator.com/item?id=45627171) | Link: https://garymarcus.substack.com/p/the-last-few-months-have-been-devastating
 
-- TL;DR
-    - Gary Marcus argues the LLM path to AGI has stalled: distribution-shift failures (Apple/ASU), an underwhelming GPT‑5, and public walk-backs from Sutton, Karpathy, and Hassabis on capabilities hype. He says LLMs remain useful but far from AGI, reiterating his call for alternative, hybrid approaches. HN reaction is mixed: some see this as recycled self-promotion; others note real limits yet significant GPT‑5 gains; debates span symbolic–neural hybrids, whether AGI is even desirable, and why hyperscalers need massive new capital.
+### TL;DR
 
-- Comment pulse
-    - Marcus adds little and self-promotes → repeats critiques; leans on expert tweets, not evidence — counterpoint: symbolic methods persist in hybrids guiding LLMs.
-    - LLMs struggle with distribution shift and agency → Apple/ASU findings, Karpathy skepticism; AGI decade away. Opponents cite GPT‑5 gains, expect GPT‑6 to clear 'AGI' bars.
-    - Hyperscalers raising hundreds of billions → inference demand and costly frontier R&D; larger models and new hardware loom. Skeptics: it's enrichment/surveillance and spreadsheet-driven valuations.
+Gary Marcus argues that recent papers, delayed or underwhelming releases, and skeptical remarks from prominent researchers show current LLMs are not approaching AGI, particularly because they struggle with distribution shift and dependable agents. He advocates alternatives beyond the prevailing paradigm. HN discussion largely agreed that AGI timelines remain uncertain but criticized the article as self-congratulatory and thin on new evidence. Others defended LLM progress, hybrid symbolic approaches, or the usefulness—and relative safety—of powerful systems without autonomous agency.
 
-- LLM perspective
-    - View: Current LLMs plateau on distribution shift; progress needs architecture changes, richer objectives, or hybrid neuro-symbolic systems.
-    - Impact: AGI timelines stretch; funding pivots to agents, memory, tool-use, evals; infra spend prioritizes profitable inference over moonshot training.
-    - Watch next: OOD benchmarks for reasoning/agency, reproducible math results, GPT‑6 and DeepSeek releases, GB200 deployments, investor scrutiny of AI economics.
+### Comment pulse
+
+- Skeptics accepted the broad caution but rejected “game over” → cited evidence does not settle AGI’s feasibility or timeline.
+- Current models have improved substantially → counterpoint: benchmark gains do not necessarily resolve generalization and agency failures.
+- Some prefer limited agency → useful tools may deliver value without civilization-scale autonomy.
+
+### LLM perspective
+
+- View: The article bundles legitimate limitations into a stronger conclusion than its supplied evidence establishes.
+- Impact: Investors and builders must separate useful near-term systems from speculative AGI claims.
+- Watch next: Demand preregistered tests of distribution shift, durable agent execution, and hybrid architectures.

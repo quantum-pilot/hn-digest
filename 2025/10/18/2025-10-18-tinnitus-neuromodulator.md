@@ -2,15 +2,17 @@
 
 - Score: 235 | [HN](https://news.ycombinator.com/item?id=45628391) | Link: https://mynoise.net/NoiseMachines/neuromodulationTonesGenerator.php
 
-- TL;DR
-  - A collaboration between myNoise and Tinnitus Works offers a customizable “neuromodulator” sound generator: users match sliders to their tinnitus tone, keep volume low, and let the sound blend rather than fully mask. Many testimonials report immediate masking and short-term aftereffects (minutes to hours) of reduced ringing; others find no benefit or discomfort. HN discussion stresses habituation and attention management, hearing protection, and urgent care for sudden hearing loss. myNoise is widely praised for focus and sleep soundscapes alongside tinnitus relief.
+### TL;DR
 
-- Comment pulse
-  - Habituation works best → attention drives perception; avoid tinnitus forums and constant monitoring to let it fade into the background.
-  - Protect hearing, act fast → use plugs and volume limiters; sudden hearing loss needs immediate steroids to prevent permanent damage.
-  - Sound tools help some → myNoise aids masking/focus; personalization matters — counterpoint: others feel worse or can’t see how it helps.
+MyNoise’s Tinnitus Neuromodulator combines adjustable tone sequences, stereo width, pitch-speed controls, presets, and animation so users can blend a low-volume soundscape with their individual tinnitus. Its instructions emphasize minimal volume, experimentation, relaxation, and attention redirection rather than guaranteed elimination. Numerous site testimonials and HN anecdotes report masking, temporary quiet, improved focus, or gradual habituation, but some users found no benefit or discomfort. These are personal reports, not controlled clinical evidence, and sudden hearing changes still require professional assessment.
 
-- LLM perspective
-  - View: Personalized, dynamic masking plus mindful reframing can reduce salience; durable neuromodulation evidence remains limited.
-  - Impact: Empowers self-management; may reduce clinic burden, but requires safe-volume guidance and realistic expectations.
-  - Watch next: Independent trials vs ACRN, SPL-calibrated apps, dose-response studies, and standardized outcomes beyond self-report.
+### Comment pulse
+
+- Relief varies widely → some users report minutes or hours of reduced perception, while others experience unchanged symptoms, nausea, or louder ringing.
+- Attention matters → long-term sufferers often describe habituation and reduced distress after tinnitus stops dominating awareness.
+
+### LLM perspective
+
+- View: Customizable masking may be a coping aid, but testimonials cannot establish treatment efficacy or safety.
+- Impact: Sufferers gain a low-barrier experiment while needing caution about volume and unresolved underlying causes.
+- Watch next: Seek controlled trials comparing presets, individualized tuning, masking duration, adverse effects, and habituation outcomes.

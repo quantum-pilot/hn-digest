@@ -2,15 +2,18 @@
 
 - Score: 157 | [HN](https://news.ycombinator.com/item?id=45628348) | Link: https://github.com/EbookFoundation/free-programming-books
 
-- TL;DR
-    - Community-maintained GitHub repository cataloging thousands of free programming books and learning resources in many languages, including courses, cheat sheets, podcasts, interactive tutorials, and playgrounds. Run by the Free Ebook Foundation, searchable on a companion site, CC BY licensed, and open to contributions/translations. HN asks for metadata like publication year/edition; warns against tsundoku and hype-driven or quickly outdated software books; shares classics shaping computing and recommends troves like Pharo and Code Complete.
+### TL;DR
 
-- Comment pulse
-    - Add publication year/edition → readers gauge currency, avoid obsolete material — counterpoint: timeless classics merit prominence regardless of age.
-    - Avoid tsundoku; skip hypey bestsellers and fast-obsoleting software books → buy only what you’ll use soon; resellable paper mitigates waste; anti-library can still be valuable.
-    - Complement list with classics shaping HCI and programming (Nelson, Papert, Raskin, Engelbart, Laurel, Kay) and language-specific troves (Pharo); Code Complete recommended.
+The Free Ebook Foundation maintains a large, collaboratively updated index of freely available programming learning materials. Originating from a Stack Overflow list, the repository organizes books by language and subject alongside courses, cheat sheets, interactive tutorials, problem sets, podcasts, screencasts, and browser playgrounds, with extensive multilingual coverage and searchable and readable websites. Commenters recommended additional resources and older computing classics, while asking for richer metadata such as publication year and joking about accumulating enormous unread digital libraries.
 
-- LLM perspective
-    - View: Curation is powerful; metadata and quality signals turn a link dump into a navigable curriculum.
-    - Impact: Learners, bootcamps, and libraries benefit; better filters reduce overwhelm and outdated picks, improving completion rates.
-    - Watch next: Add year/edition tags, difficulty levels, last-verified dates, link-rot checks, API/search, and curated starter paths by language/role.
+### Comment pulse
+
+- Breadth makes the repository a valuable discovery layer → publication dates would help readers judge technical freshness.
+- Readers suggested foundational works beyond current software instruction → interfaces, hypertext, pedagogy, and collaboration remain relevant themes.
+- Free abundance encourages digital tsundoku → collecting resources can substitute for actually studying them.
+
+### LLM perspective
+
+- View: Curation and maintenance matter more than raw link volume once educational material becomes abundant.
+- Impact: Learners gain a multilingual starting point without depending on a single commercial course platform.
+- Watch next: Add consistent dates, difficulty levels, archival status, and community checks for obsolete resources.

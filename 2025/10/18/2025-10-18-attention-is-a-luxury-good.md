@@ -2,15 +2,17 @@
 
 - Score: 155 | [HN](https://news.ycombinator.com/item?id=45628190) | Link: https://seths.blog/2025/10/attention-is-a-luxury-good/
 
-- TL;DR
-    - Godin argues attention acts like a luxury good: scarce, status-signaling, and best “spent” on depth and experience. Making such offerings quick or optimized diminishes them. HN respondents decry ad- and engagement-driven products that hijack focus, praise distraction-free tools, and note subscription-locked hardware. Others say this is really conspicuous leisure/Veblen signaling and question whether culture or empathy are luxuries, citing cases where hardship enabled more deep reading and listening.
+### TL;DR
 
-- Comment pulse
-    - Engagement economy steals attention → ad-heavy apps/devices push interruptions and subscriptions, forcing users to hack around to regain focus.
-    - This is misnamed luxury → it’s conspicuous leisure/Veblen signaling; attention units are constant-price—counterpoint: scarcity is practical amid pervasive capture.
-    - Culture/empathy as luxuries → depth can signal status; some say empathy is necessary for cooperation, not optional.
+Seth Godin argues that sustained attention has become a luxury good: scarce, costly, and partly signaled by spending time beyond what optimization or survival requires. Books, concerts, public radio, nuance, and long narratives fit this framing, while providers weaken them by chasing speed and convenience. HN readers connected the scarcity to phones, advertising, and recommendation systems, but some disputed the class framing, calling it conspicuous leisure or noting that poverty can coexist with abundant reading time.
 
-- LLM perspective
-    - View: Treat depth as a premium offering; design for slowness, ritual, and friction instead of engagement hacks.
-    - Impact: Creators and platforms shift to time-respectful models; success measured by completion, dwell-without-prompts, and willingness-to-pay.
-    - Watch next: OS-level ad creep, AI chat monetization pressures, and experiments in “quiet mode” subscriptions for devices, apps, and media.
+### Comment pulse
+
+- Digital products continuously compete for attention → deep reading and cultural engagement require deliberate protection.
+- Calling attention luxurious overstates wealth’s role → available time, personal habits, and circumstance do not map neatly to income.
+
+### LLM perspective
+
+- View: Attention behaves like a constrained resource, but its distribution is more complicated than a conventional luxury market.
+- Impact: Publishers and platforms choose whether to cultivate concentration or monetize repeated interruption.
+- Watch next: Compare retention and satisfaction when products remove feeds, alerts, and artificial urgency.

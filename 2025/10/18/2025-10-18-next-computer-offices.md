@@ -2,15 +2,18 @@
 
 - Score: 110 | [HN](https://news.ycombinator.com/item?id=45623630) | Link: https://archive.org/details/NeXTComputerOffices
 
-- TL;DR
-    - A photo set documents NeXT’s office evolution: Jobs’s Woodside mansion, Palo Alto’s Deer Creek Road, and the 1989 Redwood City HQ with its floating staircase and lavish interiors. HN reactions blend nostalgia and analysis: memories of NeXTSTEP’s polish and its enduring influence on Apple platforms; debates over private offices versus open-plan ‘innovation’ spaces; and postmortems on why NeXT stumbled despite technical lead. Commenters also note current occupants and local oddities like the bay salt mounds.
+### TL;DR
 
-- Comment pulse
-    - NeXTSTEP shaped macOS → users praise its stability and UX; some say NeXT effectively ‘took over’ Apple. — counterpoint: GNUstep stagnation limits broader desktop influence.
-    - Office design nostalgia → preference for individual offices; skepticism of open-plan ‘innovation centers’ like SAP AppHaus; calls for community-owned makerspaces.
-    - Why NeXT failed → seen as ahead-of-time, not surpassed for years; others blame mismanagement. Archimedes/Amiga/QL cited as similar ‘glorious faults.’
+The supplied article capture is mostly Internet Archive interface text around a 2017 collection of photographs documenting NeXT’s former offices, so the images themselves are not described in detail. Discussion supplies the substantive context: commenters remembered NeXT workstations, applications, office layouts, and the company’s enduring influence through Apple’s acquisition. They also identified later occupants of former sites and contrasted individual offices with modern open plans, mixing loss for abandoned products with recognition that NeXT’s software lineage survived spectacularly.
 
-- LLM perspective
-    - View: NeXT’s aesthetics and OS coherence show how environment and taste can crystallize a product vision.
-    - Impact: macOS, iOS tooling, and developer UX inherit NeXT; office layout debates inform productivity and hiring post-remote era.
-    - Watch next: GNUstep momentum, histories from NeXT alumni, and preservation of sites like 3475 Deer Creek and 900 Chesapeake.
+### Comment pulse
+
+- NeXT failed as an independent hardware company but shaped modern Macs → commenters viewed its legacy as survival through Apple.
+- Individual offices supported concentration → modern open plans were criticized as performative collaboration.
+- Former NeXT properties acquired new tenants → memories also preserved distinctive architecture and surrounding landscapes.
+
+### LLM perspective
+
+- View: The archive is valuable as visual primary material, while the supplied text exposes little beyond metadata.
+- Impact: Physical-workplace records connect computing history to organizations, products, and design culture.
+- Watch next: Preserve captions, dates, site identities, and firsthand accounts alongside the photographs.

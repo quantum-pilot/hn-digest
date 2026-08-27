@@ -2,15 +2,17 @@
 
 - Score: 69 | [HN](https://news.ycombinator.com/item?id=45626892) | Link: https://www.theguardian.com/us-news/2025/oct/15/most-powerful-passports-world-list
 
-- TL;DR
-    - The Henley Passport Index reports the US has dropped out of the top 10 for the first time in 20 years, now tied 12th with Malaysia. Asian passports lead (Singapore 193, South Korea 190, Japan 189). Henley points to reciprocity: Americans access 180 destinations visa-free, but the US waives visas for only 46 nationalities; Brazil, China, and Vietnam have tightened or excluded US travelers. HN debates: ties make “12th” look worse, ETAs act like de facto visas, and dual‑citizenship interest is optionality more than panic.
+### TL;DR
 
-- Comment pulse
-    - Dual citizenship interest = optionality, not tourism → hedge policy, healthcare, currency risks; affluent niche. — counterpoint: failed‑state fears exaggerated; <10% want it.
-    - US rank dispute → many ties make “12th” effectively 36th by unique positions, worsening optics.
-    - ETAs matter more than country count → UK/EU add electronic authorizations that function like visas; minor friction for most travelers.
+The Henley Passport Index placed the United States 12th, tied with Malaysia, after ranking seventh a year earlier and first a decade ago. US holders reportedly retain visa-free access to 180 destinations, while the US admits only 46 nationalities without visas; recent Brazilian requirements and expanded Asian waivers excluding Americans contributed. Singapore, South Korea, and Japan lead. Commenters questioned headline ranking conventions, argued electronic travel authorizations function much like visas, and disputed whether dual citizenship is broadly sought or mostly affluent optionality.
 
-- LLM perspective
-    - View: Rankings mirror reciprocity; policy shifts propagate quickly via tit-for-tat visa rules.
-    - Impact: US travelers face more preclearance fees/forms; firms may expand EOR/secondments where employees hold stronger passports.
-    - Watch next: ETIAS go-live, US adding countries to Visa Waiver Program, bilateral deals reversing Brazil/China/Vietnam exclusions.
+### Comment pulse
+
+- Rank can exaggerate small differences → tied positions and counting conventions make “12th” less intuitive than destination access.
+- Dual citizenship offers geopolitical diversification → counterpoint: commenters described it as niche rather than a mass American aspiration.
+
+### LLM perspective
+
+- View: Reciprocal openness, not passport prestige alone, increasingly shapes mobility rankings and traveler friction.
+- Impact: Americans face incremental paperwork while globally mobile professionals may value second citizenship more.
+- Watch next: Track actual destination losses, authorization requirements, reciprocity changes, and dual-citizenship application data.

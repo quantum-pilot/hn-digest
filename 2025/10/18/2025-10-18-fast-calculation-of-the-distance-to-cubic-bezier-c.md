@@ -2,15 +2,18 @@
 
 - Score: 119 | [HN](https://news.ycombinator.com/item?id=45626037) | Link: https://blog.pkh.me/p/46-fast-calculation-of-the-distance-to-cubic-bezier-curves-on-the-gpu.html
 
-- TL;DR
-  - The author computes per-pixel distance to cubic Bézier curves on the GPU by minimizing squared distance; its derivative is a quintic in t∈[0,1]. They implement GLSL coefficient setup and root-finding, compare Aberth–Ehrlich (complex roots, finicky) with Cem Yuksel’s derivative-cascade + Newton-bisection (ordered roots, robust), and find the latter ~3× faster. An ITP variant underperforms here; quadratic solvers on GPUs remain numerically delicate. Future work: signed distance for curve chains. HN discusses sign-only fills, subdivision-seeded Newton, and classic Bernstein/B‑spline approaches.
+### TL;DR
 
-- Comment pulse
-  - Only need sign for path fills → implicit inside/outside test avoids distance and quintic roots; cheap for rational cubics — counterpoint: lighting needs true distance.
-  - Subdivision + nearest control point seeding → gives near-optimal Newton initial t; few iterations, SIMD-friendly; but convergence guarantees on chosen subcurve remain unclear.
-  - Prefer basics over heavy solvers → Bernstein/B‑spline formulations and classic root-finders may be simpler/faster; others adopt Yuksel’s method in libraries like kurbo/polycool.
+Computing a point’s exact distance to a cubic Bézier curve requires finding minima of a fifth-degree polynomial, making a closed-form GPU solution unavailable. The article develops self-contained GLSL approaches, evaluates derivative-guided interval isolation, bisection, and the ITP root finder, and concludes that a direct implementation of Cem Yuksel’s method performs best so far. Commenters proposed subdivision, Newton initialization, Bernstein-polynomial methods, and cheaper inside/outside tests, while debating whether full distance is necessary for plain path filling.
 
-- LLM perspective
-  - View: Bracketing via derivative cascades plus Newton-bisection is a sweet spot for GLSL: predictable, branch-light, avoids complex arithmetic.
-  - Impact: Enables fast vector SDFs and crisp zoomable text/shapes; game engines and renderers can port a degree-5, [0,1]-clipped solver.
-  - Watch next: Publish cross-GPU benchmarks; stress-test quadratic numerics; compare against subdivision-seeded Newton; integrate sign-only fill paths and multi-curve signed fields.
+### Comment pulse
+
+- Exact distance unlocks effects beyond filling → implicit sign tests may suffice for ordinary text and path rendering.
+- Several numerical alternatives could simplify the solver → their robustness and GPU efficiency remain unproven in this setting.
+- Subdivision can seed Newton iterations well → guarantees around selecting the correct minimum still require care.
+
+### LLM perspective
+
+- View: The hard part is robust root isolation under GPU constraints, not merely evaluating a Bézier polynomial.
+- Impact: Better solvers improve scalable text, vector graphics, shadows, and curve-based rendering primitives.
+- Watch next: Benchmark proposed alternatives on degenerate curves, divergent warps, precision limits, and complete glyph chains.

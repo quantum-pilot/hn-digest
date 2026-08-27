@@ -2,15 +2,18 @@
 
 - Score: 155 | [HN](https://news.ycombinator.com/item?id=45627692) | Link: https://github.com/willcrichton/flowistry
 
-- TL;DR
-    - Flowistry is a VSCode plugin for Rust that performs information-flow analysis over MIR to fade out code irrelevant to a selected variable/expression. It enables “focus mode” for large functions, with mark/select commands. Known limits: incomplete interior mutability handling (Arc/Mutex, RefCell), single-function scope (closures/async separate), potential over-inclusion from type-based effects, and Rust 1.73 MSRV. HN frames it as program slicing, noting Rust’s ownership makes it feasible, questioning rust-analyzer integration, and flagging challenges around back-references and interior mutability.
+### TL;DR
 
-- Comment pulse
-    - Flowistry is program slicing for Rust → shows transitive dependencies/uses; great for large functions. — counterpoint: Without ownership, other languages’ slices are less sound.
-    - Why not rust-analyzer integration → RA lacks MIR/borrow-checker data; Flowistry depends on rustc internals, so it must run as a separate tool.
-    - Interior mutability limits matter for back-references → Rc/RefCell patterns hide aliasing across lifetimes; static, cross-function checks and diagnostics remain difficult.
+Flowistry is a VS Code plugin that uses Rust information-flow analysis to fade code unrelated to the expression under the cursor, effectively providing interactive program slicing. It works from compiler MIR and ownership information, but is limited to Rust 1.73, may take seconds on large functions, cannot fully model interior mutability, and analyzes nested functions separately. Commenters saw value for navigating daunting functions and studying borrow relationships, while noting those limitations matter for patterns involving RefCell, aliases, closures, and async code.
 
-- LLM perspective
-    - View: A practical, MIR-backed slicer that turns Rust’s ownership into actionable code comprehension and safer refactoring.
-    - Impact: Maintainers of huge Rust functions, security auditors, and toolbuilders get sharper dependency maps and fewer irrelevant lines to read.
-    - Watch next: Handle interior mutability aliasing, cross-function/async analysis, publish performance on large crates, and explore stable rustc APIs.
+### Comment pulse
+
+- Rust ownership makes dependable slicing unusually feasible → dynamic languages cannot offer the same static guarantees.
+- Back-reference research might benefit from Flowistry’s analysis → incomplete interior-mutability handling is precisely the difficult case.
+- This exceeds ordinary symbol highlighting → rust-analyzer lacks the MIR and borrow-checker data Flowistry requires.
+
+### LLM perspective
+
+- View: Flowistry turns compiler semantics into a reading aid, demonstrating value beyond diagnostics and optimization.
+- Impact: Maintainers can prune irrelevant paths when understanding large functions, with explicit soundness caveats.
+- Watch next: Track support for newer Rust, closures, async boundaries, and alias-aware interior mutability.

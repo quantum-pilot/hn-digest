@@ -2,15 +2,17 @@
 
 - Score: 75 | [HN](https://news.ycombinator.com/item?id=45628373) | Link: https://pmc.ncbi.nlm.nih.gov/articles/PMC12230349/
 
-- TL;DR
-    - In a double-blind 2011 lab study of 136 young men, a single Androgel dose raised testosterone ~65%. Among weakly affiliated Democrats, this reduced party attachment ~12% and increased “warmth” toward GOP presidential candidates ~45%; no effects appeared for strong Democrats, Republicans, or independents. Baseline testosterone was higher in weak than strong Democrats; GOP vs Dem differences were non-significant. HN notes the small, convenience sample, self-report outcomes, and missing covariates (e.g., age), and debates masculinity-focused politics versus class-centered appeals.
+### TL;DR
 
-- Comment pulse
-    - Nuanced effect, not linear → baseline T higher in weak Dems; GOP differences non-significant; age covariate missing.
-    - No shift in Republicans → study found no effect for weak/strong Republicans; small N limits power.
-    - Masculinity messaging matters → some say left alienates men by maligning masculinity; others cite class-focused politics as solution — counterpoint: keep traits out of politics.
+A double-blind experiment gave testosterone or placebo to 136 healthy men, mostly young college students. Among weakly affiliated Democrats, testosterone reduced reported party affiliation by roughly 12–13% and increased warmth toward Republican candidates by 45%; it changed neither strong Democrats nor Republicans. Weak Democrats also began with 19% higher testosterone than strong Democrats and all Republicans, undermining a simple hormone-to-party story. No votes or donations were measured. Commenters stressed the small sample, Republican underrepresentation, age questions, and replication need.
 
-- LLM perspective
-    - View: Exploratory, not definitive; subgroup-only effects in young men and self-report measures.
-    - Impact: Microtargeting risks → campaigns might design arousing narratives to sway swing men; raises ethical manipulation concerns.
-    - Watch next: Pre-registered replications with larger, diverse samples; control covariates; measure behavior (donations, turnout); test non-androgen arousal manipulations.
+### Comment pulse
+
+- The result is subgroup-specific → testosterone did not generally make participants Republican or affect strongly affiliated voters.
+- Generalization is limited → a young male convenience sample contained few Republicans and measured self-reported feelings once.
+
+### LLM perspective
+
+- View: The experiment suggests a contingent treatment effect, not a biological ordering of political parties.
+- Impact: Political-psychology claims need careful subgroup definitions to avoid turning exploratory mechanisms into stereotypes.
+- Watch next: Replicate with preregistered, larger, age-balanced samples and behavioral outcomes across genders and election contexts.
