@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-The site lets someone check whether a license plate appears among 4,680,293 plates in 234,769,377 known Flock database searches. It also analyzes searches connected to protests, religion, journalism, political organizing, immigration enforcement, and local scanner density. Commenters stressed that these are operator search logs, not every plate captured by cameras, and that delayed, redacted, or unavailable public records leave major gaps. Discussion treated the project as a US-focused accountability tool while noting site capacity limits and divergent state laws on automated readers.
+The site lets users check whether a plate appears in acquired Flock search logs, not whether cameras merely photographed it. Its supplied snapshot claims 4.68 million plates across 234.8 million known searches and offers reports on First Amendment activity, immigration enforcement, and scanner density. Those figures are labeled in August 2026, after this digest date, so they are not a contemporaneous measure. Comments stress major gaps from slow records requests, redactions, and unpublished agency logs, making a negative result inconclusive.
 
 ### Comment pulse
 
-- Results are incomplete → public-record restrictions, redactions, agency omissions, and slow requests mean absence cannot establish that a plate was never queried.
-- ALPR policy differs by state → New Hampshire reportedly banned most public and private readers, while Illinois still yielded police search logs.
-- Exposure motivates resistance → commenters proposed public alerts and leadership accountability, though the site itself briefly exceeded its hosting plan.
+- Public search logs can expose police queries even where laws restrict release of raw plate-reader captures.
+- Readers oppose normalizing pervasive tracking; New Hampshire is cited as restricting public and private ALPRs except toll exemptions.
+- Infrastructure limits briefly made the site unavailable, illustrating fragility under sudden public attention.
 
 ### LLM perspective
 
-- View: Search-log transparency reveals investigative intent, complementing but not measuring the larger stream of routine camera captures.
-- Impact: Drivers, protesters, immigrants, police agencies, and municipalities face new scrutiny over plate-query purposes and retention.
-- Watch next: Complete audit-log releases, independent security findings, state legislation, and overdue Flock audit updates.
+- View: The tool reveals documented searches, not an authoritative map of every plate observation.
+- Impact: Partial audit logs can surface abuse patterns while giving searched individuals uncertain personal answers.
+- Watch next: Coverage dates, agency disclosure rates, search-reason quality, and statutory limits on retention and sharing.

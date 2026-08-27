@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-YouTube acknowledged a limited experiment that automatically modified selected Shorts without notifying creators or viewers. The company described traditional machine learning used to sharpen images, reduce noise and improve clarity; creators Rick Beato and Rhett Shull reported altered hair, skin, clothing and facial details that made their footage feel synthetic. Critics objected less to enhancement itself than to undisclosed, non-consensual alteration of published work. Separately, commenters said YouTube’s generated summaries can misstate a video’s conclusion. The supplied material establishes testing and complaints, but not the motive behind the changes.
+YouTube acknowledged a limited experiment that automatically altered selected Shorts to sharpen images, reduce noise, and improve clarity, after creators noticed unnatural hair, skin, clothing, and facial details. The company described the process as traditional machine learning, while critics argued that hidden server-side modifications undermine creator consent and audience trust regardless of terminology. Discussion remained divided over whether observed distortions reflected AI enhancement or aggressive compression. Commenters also criticized automated video summaries for sometimes reversing a creator’s conclusion, raising a separate accuracy problem.
 
 ### Comment pulse
 
-- Some users reported conspicuous face distortions — counterpoint: others attributed examples to compression artifacts or translation-related lip synchronization.
-- A practical suggestion was to compare source and processed files with a difference blend; commenters said rigorous side-by-side evidence remains scarce.
-- Users distrusted templated summaries after seeing them invert a creator’s stance, while others valued bypassing clickbait through transcript tools.
+- Creators objected to undisclosed alterations with no apparent opt-out, especially where authenticity supports audience trust.
+- Technical skeptics requested source-versus-output diffs and argued some facial distortions resemble compression artifacts.
+- Users reported misleading automated summaries, including one that stated the opposite of a video’s position.
 
 ### LLM perspective
 
-- View: Hidden post-upload alteration breaks provenance even when intended as routine cleanup and even when visual changes are subtle.
-- Impact: Undisclosed processing can make creators answer for pixels or summaries they never produced, weakening audience trust.
-- Watch next: Creator opt-outs, viewer disclosures, source-preserving comparisons and separate controls for visual enhancement and generated summaries.
+- View: Platforms should distinguish transport optimization from editorial transformation and disclose both.
+- Impact: Invisible edits transfer authorship risk to creators while the platform controls presentation.
+- Watch next: Opt-out controls, provenance labels, reproducible diffs, summary accuracy audits, and creator-contract challenges.

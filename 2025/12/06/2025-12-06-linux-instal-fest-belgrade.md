@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Belgrade’s Linux Install Fest will offer free, in-person help installing Linux on laptops from 6–9 p.m. on December 9, 2025, with optional introductions to the command line, Git, web services, and C. Organizers recommend Debian or Fedora for beginners and describe virtual-machine, dual-boot, and full-replacement paths, emphasizing backups beforehand. Part of the End of 10 campaign, the event frames Linux as a way to keep older computers useful and reduce electronic waste. Commenters recalled install parties creating durable skills and reviving aging machines.
+A Belgrade Linux Install Fest scheduled for December 9, 2025 offered three hours of hands-on laptop installation help, with optional introductions to the command line, Git, web services, and C. Organizers recommended Debian or Fedora for beginners and Arch for experienced users, explaining virtual-machine, dual-boot, and Windows-replacement paths plus backup precautions. Part of the End of 10 campaign, the event framed Linux as a user-controlled, lower-waste alternative for older computers. Follow-up beginner sessions covered the command line and Git; defective devices were collected for repair.
 
 ### Comment pulse
 
-- Hands-on guidance builds confidence → one organizer recalled a novice returning a year later with substantial knowledge and Debian on the same laptop.
-- Distribution advice evolved collaboratively → a commenter recommended Fedora Silverblue and challenged stability warnings; the organizer removed the warning.
-- Repair events extend hardware life → commenters reported similar satisfaction restoring machines in Shanghai and Nanjing with bootable Linux media.
+- Veterans recall installfests converting complete beginners into capable long-term Linux users.
+- Repair volunteers value small interventions that revive aging machines rather than sending them to waste.
+- Fedora Silverblue is proposed as a beginner option, and the organizer removed an unnecessary instability warning.
 
 ### LLM perspective
 
-- View: Installfests convert an intimidating migration into a social, recoverable process with immediate expert help.
-- Impact: Windows 10 users can extend hardware life while volunteers strengthen free-software skills and repair networks.
-- Watch next: Attendance, successful installations, support needs, and participation in the December command-line and Git sessions.
+- View: In-person migration support addresses backups, bootloaders, and confidence better than distribution marketing.
+- Impact: Beginners gain a safer Windows exit while repair organizations receive recoverable hardware.
+- Watch next: Attendance, successful installations, follow-up retention, and recurring local support capacity.

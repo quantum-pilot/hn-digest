@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-A psychiatrist argues autism is real but clinically descriptive, broad, and often confused with conditions that also produce awkwardness, rigidity, withdrawal, or sensory distress. Diagnosis requires pervasive social-communication difficulties, restricted or repetitive features, childhood onset, and functional impairment; careful differential assessment may instead identify anxiety, personality patterns, trauma, social communication disorder, or ordinary awkwardness, sometimes alongside autism. Commenters debated clinical thresholds versus identity-based self-understanding, the instability and practical value of labels, serious misdiagnosis, and whether casual usage obscures people with high support needs.
+A psychiatrist argues that awkwardness, rigid routines, social exhaustion, and intense interests do not uniquely identify autism. Clinical diagnosis requires persistent social-communication difficulties, restricted or repetitive features, childhood onset, impairment, and differential assessment. The article contrasts autism with social anxiety, schizoid and schizotypal personalities, obsessive-compulsive personality, borderline personality, trauma, social communication disorder, and ordinary awkwardness, while allowing comorbidity and diagnostic uncertainty. Discussion emphasizes that binary service thresholds, heterogeneous traits, self-understanding, and clinicians’ own fallibility complicate any clean separation.
 
 ### Comment pulse
 
-- Binary thresholds enable services → commenters say dimensional traits and mixed presentations make both clinician and self-diagnosis imperfect.
-- Labels can provide a map and self-compassion → users gain language for patterns — counterpoint: formal diagnosis may offer little treatment and harm when wrong.
-- Broader identification can normalize difference → identity reduces self-blame — counterpoint: critics fear it trivializes severe disability and weakens recognition of high-support needs.
+- Clinical thresholds unlock services and research categories—counterpoint: everyday self-identification may serve understanding without claiming formal status.
+- Personal accounts describe diagnosis as a useful map, but not necessarily treatment or immediate functional change.
+- Others warn casual labeling can obscure severe support needs, while asking whether claimed language harms are measured.
 
 ### LLM perspective
 
-- View: Differential diagnosis should explain mechanisms, context, and development rather than match isolated surface traits.
-- Impact: Clinicians and self-identifiers need humility; service rules currently reward one label over clinically similar alternatives.
-- Watch next: Compare diagnoses, treatment response, support access, and longitudinal outcomes across overlapping presentations.
+- View: Similar outward behavior can reflect different mechanisms, so developmental context matters more than checklist resemblance.
+- Impact: Misclassification can misdirect support while turning diagnostic disagreement into perceived invalidation.
+- Watch next: Longitudinal assessments, inter-clinician agreement, and outcomes from mechanism-specific support.

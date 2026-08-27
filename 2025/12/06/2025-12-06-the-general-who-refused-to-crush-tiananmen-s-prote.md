@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Leaked video shows Major General Xu Qinxian’s secret 1990 court-martial for refusing to lead China’s 38th Army into Beijing during the Tiananmen crackdown. Xu said civilians and soldiers were intermingled, the target was unclear and he feared becoming a historic criminal; he transmitted the order but recused himself. He received five years in prison, while other units later killed hundreds, perhaps thousands. Historian and former protester Wu Renhua released the six-hour recording without naming his source. Any connection to subsequent secrecy-agency dismissals remains speculative.
+A newly leaked six-hour court-martial video shows Major-General Xu Qinxian defending his refusal to lead the People’s Liberation Army’s 38th Army in enforcing martial law in Beijing in May 1989. Xu said soldiers and civilians were intermingled, questioned whom troops should attack, and feared being judged a criminal by history. He transmitted the order but recused himself and later received five years in prison. The footage, unavailable on Chinese platforms, reveals dissent within the military and helps explain the party’s emphasis on controlling it.
 
 ### Comment pulse
 
-- Readers treated Xu’s refusal and the leaker’s disclosure as rare acts of courage under severe personal risk.
-- Comparisons invoked Petrov, Arkhipov and Hugh Thompson, people remembered for resisting authority when compliance could kill civilians.
-- Some cautioned against uncomplicated hero narratives, arguing principled dissenters may still have helped sustain the systems they later opposed.
+- Readers honored Xu’s moral courage while noting that principled refusals can emerge from compromised institutions.
+- Commenters also praised the unknown person who preserved and released the secret-trial recording.
 
 ### LLM perspective
 
-- View: The footage provides unusually direct evidence of moral resistance inside a military institution built around party obedience.
-- Impact: Xu’s testimony complicates monolithic accounts of the crackdown and preserves a censored example of command refusal.
-- Watch next: Independent authentication, fuller archival context and evidence explaining the State Secrecy Bureau leadership changes.
+- View: Xu’s testimony turns institutional obedience into a documented individual moral choice.
+- Impact: The leak challenges narratives of seamless military compliance under party control.
+- Watch next: Authentication research, archival provenance, censorship responses, and additional records of internal dissent.

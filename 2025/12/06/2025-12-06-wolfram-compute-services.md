@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Wolfram has launched a managed batch-computing service that sends Wolfram Language expressions and their dependencies to remote machines through RemoteBatchSubmit. Jobs can use instances from one core and 8 GB to 192 cores and roughly 1.5 TB of memory, while RemoteBatchMapSubmit distributes independent cases across machines. Results return as native symbolic expressions; dashboards, logs, email or text notifications, time and credit limits support operations. The initial provider is WolframBatch, with on-premises HPCKit and synchronous remote kernels planned. Completed results currently remain available for two weeks.
+Wolfram Compute Services lets Wolfram Language users submit self-contained remote batch jobs by wrapping computations in `RemoteBatchSubmit`, with dependencies and symbolic results handled automatically. Current machine classes range from one core with 8 GB to 192 cores with about 1.5 TB, while `RemoteBatchMapSubmit` spreads independent work across machines. Users can constrain time and credits, receive notifications, inspect logs, and retrieve results retained for two weeks. Commenters admired the integrated research environment but questioned proprietary lock-in, pricing, and appeal beyond existing customers.
 
 ### Comment pulse
 
-- Longtime users praised Mathematica as an unusually broad exploratory “spaceship,” especially when LLMs help express visualization or mathematical intent.
-- Critics saw proprietary compute deepening ecosystem lock-in — counterpoint: admirers argued no competing system matches its integrated symbolic tooling.
-- Complaints about startup latency and not-invented-here quirks contrasted with respect for decades of sustained technical investment.
+- Enthusiasts praised Wolfram Language’s broad symbolic library and rapid exploratory visualization, especially when paired with LLMs.
+- Skeptics saw the service as deeper coupling between a proprietary language and provider rather than broader ecosystem expansion.
 
 ### LLM perspective
 
-- View: The service meaningfully removes provisioning friction, but its value is concentrated among users already committed to Wolfram Language.
-- Impact: Native dependency capture and symbolic results can turn notebook experiments into large searches without a separate cloud-engineering layer.
-- Watch next: Pricing, queue latency, reproducibility, HPCKit availability and whether synchronous kernels broaden use beyond embarrassingly parallel batch jobs.
+- View: The product’s differentiator is automatic semantic packaging, not commodity cloud capacity.
+- Impact: Existing Wolfram users can scale exploratory jobs without becoming cloud-infrastructure operators.
+- Watch next: Pricing transparency, workload portability, HPCKit delivery, synchronous kernels, and adoption outside academia.

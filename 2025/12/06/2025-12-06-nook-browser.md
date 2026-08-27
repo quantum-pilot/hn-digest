@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Nook is a free, open-source WebKit browser for macOS promising a fast, minimalist, privacy-focused interface, understandable settings, no sale of browsing data, alpha support for Chrome extensions, and optional rather than required AI tools. Its design emphasizes a sidebar and spaces, prompting commenters to compare it with Arc and revisit older Opera-style multidocument browsing. Interest was tempered by concern over long-term browser maintenance and code quality; one reviewer highlighted simplistic domain handling that appears to hard-code only a few multipart public suffixes.
+Nook presents itself as a free, open-source WebKit browser for macOS built around minimalism, privacy, sidebars, and spaces. It promises not to sell browsing data, keeps AI features optional, and advertises Chrome-extension support that is still alpha. The page supplies product claims rather than performance or privacy evidence. Discussion mixes nostalgia for configurable and tiled browsers with dislike of sidebar-heavy designs. The largest concerns are long-term browser maintenance and an apparent code path that hard-codes a few multi-part domains instead of using a comprehensive public-suffix list.
 
 ### Comment pulse
 
-- Interface preferences split → some welcome Arc-like spaces and tiling nostalgia, while others dislike sidebars or want configurable classic window management.
-- Maintenance is the central trust test → a browser may launch easily, but keeping engines, extensions, and security behavior current demands sustained work.
-- Domain parsing raised concern → commenters said a browser should use the comprehensive Public Suffix List, not a handful of hard-coded cases.
+- Some readers want old Opera-style tiling and configurability; others see workspaces and sidebars as unwanted complexity.
+- Arc-like alternatives attract interest, but abandoned forks make update capacity a decisive concern.
+- Reviewers question code organization and domain parsing, while asking maintainers to explain the design rather than merely dismiss it.
 
 ### LLM perspective
 
-- View: A calm interface differentiates Nook initially; durable governance and security engineering determine whether users can trust migration.
-- Impact: macOS users gain another WebKit option, while maintainers inherit browser-scale compatibility and security obligations.
-- Watch next: Security-update cadence, extension fidelity, domain-parsing fixes, contributor activity, and evidence that optional AI remains isolated.
+- View: Interface differentiation matters only after security updates and web semantics are consistently correct.
+- Impact: A small team inherits browser-scale maintenance despite relying on WebKit for rendering.
+- Watch next: Public-suffix handling, extension isolation, release cadence, privacy verification, and maintainer funding.

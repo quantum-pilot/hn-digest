@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Tiny Core Linux offers a modular, RAM-resident system in small images: Core supplies an 11 MB command-line base, while TinyCore adds Xvesa, FLTK/FLWM and graphical tools for a 16 MB desktop. It is deliberately incomplete, usually assuming wired networking and adding applications or hardware support through community extensions. Users can boot from USB, CD or a frugal install, then choose whether extensions remain in memory, mount on demand or persist. The current page identifies release 16.2; its figures differ from the submission headline’s 23 MB.
+Tiny Core Linux provides a modular, RAM-resident foundation rather than a complete conventional distribution. Core combines a recent kernel and minimal root filesystem; TinyCore adds a lightweight FLTK/FLWM graphical desktop, while extensions supply applications and hardware support. It targets fast, portable booting from removable or persistent storage and leaves configuration to the user. Commenters highlighted piCore for Raspberry Pi systems that avoid routine SD-card writes, compared other lightweight distributions, and recalled earlier operating systems that delivered graphical environments within even smaller historical constraints.
 
 ### Comment pulse
 
-- piCore users value fully RAM-based Raspberry Pi deployments because they reduce SD-card wear in unattended low-power servers.
-- Readers compared SliTaz, Slax, Puppy, Damn Small Linux and Alpine as rescue, legacy-hardware or minimalist alternatives.
-- Nostalgia for smaller historical systems met a practical reminder: modern 64-bit kernels and high-resolution framebuffers consume far more space.
+- piCore users valued RAM-only operation for unattended Raspberry Pi workloads and reduced SD-card wear.
+- Others compared Alpine, SliTaz, Slax, Puppy, and QNX, emphasizing different tradeoffs between size and package availability.
 
 ### LLM perspective
 
-- View: Its real achievement is a coherent extension model, not merely an impressively small compressed image.
-- Impact: RAM residency and selective persistence suit rescue media, disposable environments and appliances where storage durability matters.
-- Watch next: Hardware support, extension maintenance and whether the documented image sizes remain aligned with new releases.
+- View: Tiny Core’s useful abstraction is controlled composition, not merely a small download number.
+- Impact: RAM-resident systems suit appliances where durability and predictable state outweigh desktop completeness.
+- Watch next: Hardware coverage, repository freshness, persistence workflows, and long-running Raspberry Pi reliability.

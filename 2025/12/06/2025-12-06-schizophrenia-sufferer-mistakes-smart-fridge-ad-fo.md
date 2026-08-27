@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-A Reddit post claimed a woman with schizophrenia self-hospitalized after a smart refrigerator displayed an advertisement apologizing to “Carol,” her name. Legal commenters discussed contextual advertising complaints, disabling smart features and correcting clinicians if medication had changed under a false premise. However, Hacker News participants found substantial evidence that the story and image were staged: the refrigerator photo predated the post, the original uploader described a different person, and Samsung said such advertisements appeared only in a cover widget. The specific incident therefore should not be treated as established.
+A Reddit post claimed a woman named Carol hospitalized herself after interpreting a smart-fridge message as a psychotic episode; her family later connected it to a television advertisement saying it was sorry for upsetting Carol. Legal commenters there described the advertisement as likely lawful and suggested disabling ads, notifying clinicians about the context, and complaining to the UK advertising regulator. However, Hacker News commenters produced reasons to doubt the story: the image predated it, its original poster denied being Carol, and Samsung disputed that format as an automatic fridge ad.
 
 ### Comment pulse
 
-- Readers still considered targeted or contextually placed ads dangerous for people experiencing ideas of reference, even if this example was fabricated.
-- Some favored banning ads on purchased appliances — counterpoint: others preferred disclosure, opt-outs and strict limits on sensitive placement.
-- Personal accounts described televisions surfacing horror, pharmaceutical or sexual ads unexpectedly, underscoring loss of control inside homes.
+- Many condemned unexpected advertising on purchased devices as intrusive and potentially dangerous for vulnerable users.
+- Skeptics argued the viral account was fabricated from an earlier staged image, despite the broader scenario remaining plausible.
 
 ### LLM perspective
 
-- View: The debunking matters, but fabricated anecdotes can still expose a genuine design hazard without proving the claimed harm.
-- Impact: Opaque appliance advertising can erode ownership expectations and create disproportionate risks for psychologically vulnerable users.
-- Watch next: Platform documentation, reproducible ad-placement behavior and rules governing consent, personalization and sensitive contexts on household devices.
+- View: The specific anecdote is weak evidence, but hidden device-mediated messaging poses a genuine design risk.
+- Impact: Manufacturers need conspicuous controls and predictable presentation for remotely delivered content.
+- Watch next: Platform disclosures, default opt-outs, regulator guidance, and independently verified incidents.

@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-A NanoKVM audit found a working 2×1 mm microphone that the product documentation did not clearly disclose, with installed tools able to record audio over SSH. The author also reported an initial default SSH password, shared hardcoded cryptographic material, weak session and update protections, Chinese server dependencies, and root-heavy embedded Linux. Commenters said the microphone appears on the underlying LicheeRV Nano board’s specification and likely reflects board reuse, not espionage. They distinguished serious credential and firmware flaws from ordinary embedded choices such as omitting systemd or apt.
+A NanoKVM owner reports that the remote-control device shipped with a microphone and recording tools despite the microphone not being clearly advertised for the KVM product. Their audit also alleges an initial default SSH password, shared hardcoded encryption material, weak session controls, unverifiable updates, and communications with vendor servers. The author attributes this to rushed negligence rather than proven espionage and suggests alternative firmware. Commenters accept the serious credential and firmware issues but dispute treating embedded Linux minimalism, diagnostic tools, Chinese DNS, or hardware reuse as evidence of malice.
 
 ### Comment pulse
 
-- Undisclosed microphone remains a trust failure → buyers were not clearly warned — counterpoint: board reuse and limited server-room utility weaken malicious-implant claims.
-- Security criticism needs triage → default credentials, hardcoded secrets, unchecked updates, and root execution matter more than bundled diagnostic tools.
-- Open code enables replacement firmware → users still must open the case and reflash its internal card, possibly removing the microphone physically.
+- The underlying LicheeRV Nano specification reportedly lists a microphone—counterpoint: NanoKVM buyers were not clearly told it remained active.
+- Critics prioritize shared secrets and root-level design over missing systemd, apt, CSRF protection, or bundled network utilities.
+- A compromised KVM already exposes screen and input; server-room audio may add less risk than keylogging.
 
 ### LLM perspective
 
-- View: Intent is unknowable here; product risk follows reachable capabilities, insecure defaults, and opaque supply-chain behavior.
-- Impact: Administrators should isolate remote-management hardware because compromise exposes screens, keystrokes, virtual media, network access, and potentially audio.
-- Watch next: Vendor fixes, signed-update verification, independent traffic captures, firmware audits, and community Linux ports.
+- View: The strongest case is insecure privileged firmware, not the device’s nationality or tool inventory.
+- Impact: KVM compromise can bypass host controls because it impersonates trusted display and input hardware.
+- Watch next: Signed updates, unique credentials, microphone disclosure, network isolation guidance, and independent firmware audits.
