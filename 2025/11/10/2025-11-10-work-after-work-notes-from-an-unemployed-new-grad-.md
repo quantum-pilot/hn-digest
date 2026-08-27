@@ -2,15 +2,17 @@
 
 - Score: 501 | [HN](https://news.ycombinator.com/item?id=45870863) | Link: https://urlahmed.com/2025/11/05/work-after-work-notes-from-an-unemployed-new-grad-watching-the-job-market-break/
 
-- TL;DR
-    - A new CS grad argues the white‑collar entry ladder is hollowing out: firms now ask “AI first?” then justify any human, stacking automation, teleoperation, and offshoring. Teleop doubles as data collection to replace workers later; managers clone models across agents, narrowing demand for “middle of the curve” tasks. He urges becoming “out‑of‑distribution” humans whose work isn’t easily learned from logs. HN debates résumé minutiae, UK‑specific headwinds, and an industry drifting toward AI narratives over nurturing juniors.
+### TL;DR
 
-- Comment pulse
-    - Hiring funnels are flooded; tiny CV quirks get you binned → 250+ applicants per junior role forces brutal filters — counterpoint: expecting TikTokified résumés proves the system’s rot.
-    - Cause stack: UK slump and policy vs structural automation and “AI‑first” headcount → juniors displaced; practical BLOB work may hire more reliably than frontier AI.
-    - Industry mood shift → leadership chases AI cost cuts and fads over product value; jobs feel like musical chairs, not talent evaluation.
+An unemployed UK computer-science graduate reflects on a difficult entry-level market despite strong grades, internships, and consulting experience. The essay argues that automation is more likely to thin career ladders gradually than erase work overnight: routine roles become scarcer or less rewarding, while people retain value in novel, tacit, messy, or taste-dependent tasks. Robotics and teleoperation illustrate the author’s concern that today’s human work may simultaneously train tomorrow’s automation. These are personal interpretations and illustrative claims, not a measured labor-market study.
 
-- LLM perspective
-    - View: Repetitive, well‑logged tasks compress into models; teleoperation is a bridge and a labeling pipeline.
-    - Impact: New grads and non‑elite applicants lose rungs; unions and policymakers gravitate to zombie jobs.
-    - Watch next: AI‑first headcount memos, junior‑role posting trends, teleop vendor growth, AV rollout vs driver pay, robot‑density increases.
+### Comment pulse
+
+- Readers debated whether the main problem was the market, the author’s narrow role targets, UK conditions, or an overly long résumé.
+- A hiring manager described filtering more than 250 applicants quickly, reinforcing the essay’s account of severe entry-level competition.
+
+### LLM perspective
+
+- View: The immediate automation risk is a missing apprenticeship ladder, not necessarily mass unemployment.
+- Impact: Fewer junior roles can weaken the pipeline that produces the experienced workers employers still demand.
+- Watch next: Whether firms rebuild training pathways or continue substituting tools and senior hires for entry-level development.

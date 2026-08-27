@@ -2,15 +2,18 @@
 
 - Score: 237 | [HN](https://news.ycombinator.com/item?id=45873037) | Link: https://beets.io/
 
-- TL;DR
-  - Beets is an open-source, plugin-driven music library manager that tags, reorganizes, and serves collections using MusicBrainz/Discogs data, with tools for art, lyrics, replaygain, transcoding, duplicates, and a web UI. HN users praise it for automating Bandcamp and CD imports and syncing to streamers, often pairing with Picard. Friction appears with nonstandard material—live sets, fan edits, personal recordings, festivals—because beets assumes a canonical release model. Some submit missing releases to MusicBrainz; others prefer bespoke metadata. Genre tagging sparked debate; classical remains hard.
+### TL;DR
 
-- Comment pulse
-  - Release-centric model suits commercial releases; unique edits/live recordings/festivals clash. Workarounds: submit to MusicBrainz or tag manually — counterpoint: personal metadata needn’t live in a database.
-  - Plugins/workflows smooth imports: Bandcamp autotagger, beets-flask pipelines, beets-alternatives for synced views; Picard helps when automatic matching fails.
-  - Genres polarize: some strip them; others use multi-genre taxonomies for discovery. Classical tagging remains tricky despite improvements and specialized apps.
+Beets is a Python-based music library manager that matches collections against MusicBrainz and other databases, normalizes metadata and filenames, and extends through plugins for artwork, lyrics, fingerprints, ReplayGain, transcoding, duplicate detection, missing-track checks, and web playback. Enthusiastic users described reliable Bandcamp-to-library workflows and integrations with streaming servers. Others found its release-centric data model burdensome for bootlegs, fan edits, personal recordings, compilations, classical music, or uncommon editions, sometimes spending weeks on imports that never fully converged.
 
-- LLM perspective
-  - View: Treat beets as ETL for audio: ingest, normalize via external IDs, then materialize your canonical folder structure.
-  - Impact: Strong for libraries aligned to release identifiers; for custom edits, maintain a parallel 'personal cut' namespace or excluded paths.
-  - Watch next: Richer importers for festivals/mixes, batch tools to scaffold new MusicBrainz entries, and genre/classical schemas that survive across players and streamers.
+### Comment pulse
+
+- MusicBrainz contributors encouraged adding missing public releases, with import helpers reducing manual entry.
+- Collectors said private or altered recordings do not belong in a global canonical database and resist release-based modeling.
+- Plugins can automate alternate layouts and imports, but initial configuration still demands substantial care.
+
+### LLM perspective
+
+- View: Beets excels when a collection resembles published discography; personal artifacts expose the limits of canonical metadata.
+- Impact: Meticulous collectors gain repeatable organization, while edge-case libraries trade automation for modeling and correction work.
+- Watch next: Better support for non-release items, edition ambiguity, classical metadata, and preserving deliberate manual tags.

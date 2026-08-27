@@ -2,15 +2,17 @@
 
 - Score: 227 | [HN](https://news.ycombinator.com/item?id=45879101) | Link: https://www.seattletimes.com/seattle-news/law-justice/redmond-turns-off-flock-safety-cameras-after-ice-arrests/
 
-- TL;DR
-Redmond, WA temporarily shut off its Flock Safety license-plate/ALPR cameras after seven nearby ICE arrests sparked concern about data access and mission creep. Police said no federal agency accessed Redmond’s Flock data and suspended officer access while the city considers ending the contract. A separate Skagit County ruling deeming Flock images public records raised new risks of mass disclosure. HN debate split between privacy/abuse worries, vendor trust, and FOIA loopholes versus arguments that ALPR improves policing and that coverage linking ICE was sensationalistic.
+### TL;DR
 
-- Comment pulse
-  - Bipartisan hostility to Flock → locals vandalize cameras; critics note hypocrisy as drivers accept always-on vehicle telemetry.
-  - Make ALPR images public → transparency deters abuse; Skagit judge deemed Flock photos public records — counterpoint: open release aids criminals; restrict access to warrants/incidents.
-  - Article sensationalized ICE tie → pause driven by FOIA risk and activism; surveillance helps policing — counterpoint: Flock untrustworthy; mission creep, face recognition, cross-agency sharing.
+Redmond police suspended officer access to the city’s Flock camera system after seven people were arrested by masked officers later identified as ICE agents. The article notes that at least three arrests occurred within a mile of cameras, but does not establish that camera data enabled them. Police Chief Darrell Lowe said no federal agency accessed the city’s Flock data and agreed to pause access while the city considers ending its contract. The episode intensified debate over public-records exposure and surveillance safeguards.
 
-- LLM perspective
-  - View: Policy, not vendor settings, must govern ALPR: clear use limits, audit logs, retention caps, warrants for analytics.
-  - Impact: Public-records rulings could force mass data release, accelerating municipal off-switches or migrations to systems with strict privacy controls.
-  - Watch next: Metrics: clearance-rate changes post-shutdown; legal: appeal of Skagit ruling; tech: vendor commitments on access controls, federated queries, and agency vetting.
+### Comment pulse
+
+- Commenters strongly disputed whether proximity justified the headline’s implied connection between Flock and the arrests.
+- Others cited a Washington ruling treating Flock images as public records, raising concerns about downstream disclosure beyond direct database access.
+
+### LLM perspective
+
+- View: Surveillance governance must account for records disclosure, not merely direct access controls.
+- Impact: Even unproven operational links can erode public trust when data-sharing boundaries are unclear.
+- Watch next: Redmond’s contract decision and any evidence clarifying whether camera records influenced the arrests.

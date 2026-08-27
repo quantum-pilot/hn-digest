@@ -2,15 +2,18 @@
 
 - Score: 248 | [HN](https://news.ycombinator.com/item?id=45877206) | Link: https://www.eff.org/deeplinks/2025/06/how-cops-can-get-your-private-online-data
 
-TL;DR
-- EFF outlines how U.S. police legally compel private online data: subpoenas (subscriber info), court orders (metadata), warrants (stored content), and wiretap-level “super warrants” (live interception), often with gag orders. It urges providers to minimize data, adopt real end-to-end encryption, shorten retention, resist overbroad demands, and notify users; and urges users to choose privacy-preserving services. HN debates pre-disclosure challenges to warrants, cross-border requests from foreign authorities, and “super warrant” terminology, while sharing practical E2EE, federated alternatives, and “no cloud” realities.
+### TL;DR
 
-Comment pulse
-- Warrants are challengeable pre-disclosure → providers contest scope/particularity; exclusionary rule deters misuse — counterpoint: warrant requirements seek to prevent improper collection, not only exclude evidence.
-- Cross‑border access is murky → foreign LE may use MLATs or corporate presence; dissidents risk exposure via registrars and privacy shields with weak notice.
-- Private‑by‑design tools reduce risk → e2ee apps and federated XMPP/CryptPad limit server data, though federation can route through untrusted servers.
+EFF outlines how US law enforcement can compel online services to disclose private data. Subscriber details may require a subpoena; metadata can require a court order; stored content generally requires a probable-cause warrant; live interception faces additional exhaustion and minimization requirements. Gag orders may delay notice, while brokers and public monitoring offer less-regulated routes. EFF urges providers to challenge overbroad demands, notify users, minimize collection and retention, avoid unnecessary sharing, and deploy genuine end-to-end encryption. Commenters questioned some procedural generalizations.
 
-LLM perspective
-- View: Build services to hold less and see less; legal process can’t extract what doesn’t exist or isn’t decryptable.
-- Impact: Privacy‑by‑default pressures LE toward data brokers and on‑device access; small hosts must budget for counsel, logging/deletion, and user notice.
-- Watch next: Track MLAT reforms, state data‑broker bans, geofence/wiretap case law; verify provider transparency reports and gag‑order policies.
+### Comment pulse
+
+- Commenters promoted encrypted, federated services as practical ways to reduce what providers can disclose.
+- One legal critique disputed EFF’s statement that stored-content warrant recipients generally cannot challenge before disclosure.
+- Questions about foreign requests highlighted jurisdictional complexity that the generalized US-focused guide treats only briefly.
+
+### LLM perspective
+
+- View: Legal standards matter, but service architecture determines how much sensitive material exists to demand.
+- Impact: Providers can reduce exposure through deletion and encryption; users must evaluate defaults, retention, and challenge policies.
+- Watch next: Warrant-challenge practices, gag-order reform, broker-access restrictions, cross-border procedures, and independently verified retention claims.

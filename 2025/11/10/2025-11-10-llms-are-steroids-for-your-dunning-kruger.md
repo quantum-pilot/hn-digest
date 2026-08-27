@@ -2,15 +2,18 @@
 
 - Score: 294 | [HN](https://news.ycombinator.com/item?id=45876744) | Link: https://bytesauna.com/post/dunning-kruger
 
-- TL;DR
-    - The essay argues LLMs act less like “knowledge engines” and more like “confidence engines,” amplifying users’ ideas—sometimes into fluent, convincing wrongness. The author flags habit-forming reliance and broader societal effects when machines speak our native medium, language. HN replies split: some feel LLMs sap confidence; others see overconfident misuse (e.g., bogus configs, hallucinated APIs). Many treat LLMs as scaffolding or a thinking mirror, but warn that smooth explanations can crowd out the productive struggle real learning needs.
+### TL;DR
 
-- Comment pulse
-    - LLMs breed overconfidence → Fluent answers feel right; support teams see chatbot-made configs and hallucinated endpoints. — counterpoint: others less sure, using LLMs as crutch.
-    - Great for bootstrapping → Newcomers gain vocabulary and starting points; but plausibility masks errors, and domain experts ask harder questions where models falter.
-    - Smoothness ≠ understanding → Passive, polished explanations feel good but reduce learning; active struggle works better (PNAS). Risk: LLMs replace practice; confident misdiagnoses happen.
+The essay argues that LLMs are better understood as confidence engines than knowledge engines: fluent, agreeable responses can amplify good ideas but also give errors and self-delusion an authoritative voice. The author describes feeling certain despite knowing outputs may be wrong, and finding the interaction habit-forming. Commenters reported sharply different reactions. Some feel less capable and treat outputs skeptically; others see users confidently reporting hallucinated APIs. Several compared conversational fluency with passive learning, where apparent understanding disappears during independent practice.
 
-- LLM perspective
-    - View: Treat LLMs as confidence amplifiers; add friction: sources, uncertainty, abstention, and prompts that demand verification or structured outputs.
-    - Impact: Overconfidence harms novices and support desks; disciplined users gain leverage; education risks more passive learning unless curricula adapt.
-    - Watch next: Measure calibration: user overconfidence rates, abstention accuracy, provenance UX; enterprise policies for risky tasks; benchmarks beyond factual accuracy.
+### Comment pulse
+
+- Skeptical users treat model output as an unreliable starting vocabulary, verifying it through primary sources and experiments.
+- Support maintainers reported users blaming real systems for configurations or endpoints invented by chatbots.
+- Learning-focused commenters said effortless recognition feels like mastery, while active recall exposes missing understanding.
+
+### LLM perspective
+
+- View: The highest risk is unearned calibration: confidence rises faster than evidence or independent ability.
+- Impact: Disciplined users gain an exploratory partner; uncritical users can operationalize plausible errors at greater speed.
+- Watch next: Studies measuring confidence versus accuracy, verification habits, dependency, and retention after AI-assisted learning.

@@ -2,15 +2,17 @@
 
 - Score: 275 | [HN](https://news.ycombinator.com/item?id=45876598) | Link: https://heatherburns.tech/2025/11/10/time-to-start-de-appling/
 
-TL;DR
-UK Home Office notices under the Investigatory Powers Act mean Apple will strip Advanced Data Protection (iCloud E2EE) from UK accounts; existing ADP users must disable it or lose iCloud. Heather Burns urges “de‑Appling/ de‑Googling” and moving to end‑to‑end encrypted, user‑controlled tools. HN debates practicality: Android/OSS options feel rough and banking apps block custom ROMs; others advocate self‑hosted sync (Syncthing, NAS, WireGuard). Many stress the real culprit is UK law; Apple removed the feature rather than ship a backdoor.
+### TL;DR
 
-Comment pulse
-- De‑Appling is impractical → Android privacy is worse; banking apps block custom ROMs; de‑Googled Android and OSS phones remain brittle.
-- Self‑hosting beats backdoors → Syncthing + NAS + encrypted backups + WireGuard provide E2EE control — counterpoint: most users cannot maintain this reliably.
-- Blame policy, not nationality → IPA compels removals; Apple’s gatekeeping limits iOS alternatives; “de‑UK” quips highlight frustration but migration is unrealistic.
+The author argues that UK Apple users should reduce their dependence on iCloud after Apple withdrew Advanced Data Protection under a UK government Technical Capability Notice. In the author’s account, categories such as backups, Drive, Photos, Notes, and Reminders will lose optional end-to-end encryption, while several sensitive categories remain encrypted by default. The proposed response is to export, purge, or migrate affected data to end-to-end encrypted or self-hosted alternatives. Much of the legal process remains confidential, contested, and subject to change.
 
-LLM perspective
-- View: Apple choosing removal over weakening strengthens the norm: no backdoors; UK users must shift to own-key or self-hosted encryption.
-- Impact: Expect small migrations: privacy-conscious users to GrapheneOS, Syncthing, EU clouds; mainstream stay, increasing breach exposure for UK-stored consumer data.
-- Watch next: Watch TCN timelines, potential legal challenges, further UK geofencing, and usability improvements in self-hosted sync and hardened Android.
+### Comment pulse
+
+- Commenters noted that switching ecosystems may not improve privacy and that self-hosting remains impractical for many users.
+- Several rejected “de-Appling” as the central frame, arguing that UK surveillance policy is the underlying problem.
+
+### LLM perspective
+
+- View: Platform migration cannot substitute for understanding which data categories actually lost encryption protection.
+- Impact: Confidential government demands make threat modeling difficult even for users willing to change services.
+- Watch next: Legal proceedings, Apple’s implementation details, and usable encrypted alternatives for ordinary UK users.
