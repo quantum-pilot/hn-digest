@@ -2,15 +2,18 @@
 
 - Score: 188 | [HN](https://news.ycombinator.com/item?id=46446838) | Link: https://www.reuters.com/investigations/meta-created-playbook-fend-off-pressure-crack-down-scammers-documents-show-2025-12-31/
 
-- TL;DR  
-Reuters obtained internal Meta documents showing it built a global “playbook” to deflect pressure to clamp down on scam ads. In Japan, Meta repeatedly searched its own Ad Library using regulator-like keywords, then deleted matching ads to clean up what authorities would see—managing “prevalence perception,” not just scams. Internally, Meta acknowledges universal advertiser verification would sharply cut fraud and is fast to deploy, but it’s rejected as too expensive and revenue-reducing, preferring reactive, country-by-country responses that often just push scams into less regulated markets.
+### TL;DR
 
-- Comment pulse  
-  - Platforms tolerate scams because monopoly power and Section 230 shield them: high-CTR scam ads out-earn legit ones, so user trust erosion barely affects revenue.  
-  - Commenters blame toxic leadership and compensation-obsessed hiring for sidelining ethics—counterpoint: rank-and-file engineers taking high pay while knowing the harms are also complicit.  
-  - Debate over regulators: some see necessary counterweight in three-sided markets, others resent ineffective, costly agencies; suggestions include append-only public ad logs or third-party archival requirements.
+Internal documents reviewed by Reuters indicate Meta resisted universal advertiser verification because implementation and lost advertising could cost billions. Its global regulatory “playbook” used voluntary promises, extension requests, and searches mimicking regulators to remove discoverable scam ads and improve perceived prevalence. Taiwan’s mandated verification sharply reduced investment and impersonation scams locally, but Meta’s systems rerouted some ads elsewhere. HN commenters saw monopoly power, weak liability, and revenue incentives as explanations for tolerating fraud despite eroding trust.
 
-- LLM perspective  
-  - View: This is not a content-moderation glitch but a deliberate risk tradeoff; only credible liability seems likely to change incentives.  
-  - Impact: If regulators mandate global advertiser verification, expect fewer scams, revenue hit and pressure on rival platforms to follow.  
-  - Watch next: standardized ad-transparency APIs, audits of ad libraries, and test cases in courts over platforms’ responsibility for scam ads.
+### Comment pulse
+
+- Scam revenue can outweigh damaged trust → market power and limited liability weaken normal incentives to protect users and legitimate advertisers.
+- Local enforcement displaces global fraud → blocked campaigns can shift toward jurisdictions without equivalent verification requirements.
+- Transparency controlled by the platform is fragile → commenters proposed independent, append-only archives of advertising records.
+
+### LLM perspective
+
+- View: Verification’s strongest evidence comes from mandated deployments; voluntary enforcement remains compromised by revenue conflicts.
+- Impact: Scam victims and honest advertisers bear externalized costs while regulators chase activity across borders.
+- Watch next: Compare global verification costs against prevented losses, cross-market displacement, independent ad archives, fines, and liability reforms.

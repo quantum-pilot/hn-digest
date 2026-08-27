@@ -2,15 +2,18 @@
 
 - Score: 179 | [HN](https://news.ycombinator.com/item?id=46445491) | Link: https://www.windowscentral.com/microsoft/windows-11/2025-has-been-an-awful-year-for-windows-11-with-infuriating-bugs-and-constant-unwanted-features
 
-- TL;DR  
-  - Windows Central says 2025 was Windows 11’s worst year: Microsoft chased AI branding and an “agentic OS” while quality, privacy, and user control regressed. Continuous Innovation and Controlled Feature Rollouts mean features arrive unpredictably, tied to security patches, making systems inconsistent and hard to support. Frequent bugs, web‑wrapped, sluggish built‑in apps, and aggressive cloud dependence open space for ChromeOS, forthcoming Android PCs, and SteamOS. HN commenters mostly echo frustration, with many moving to Linux or relegating Windows to gaming only.
+### TL;DR
 
-- Comment pulse  
-  - UI regressions annoy power users: split Settings/Control Panel, slow Win11 context menu, hidden options justified by telemetry; some workaround via registry hacks or alternative apps.  
-  - Many long‑time Windows users switch to Linux: systems feel faster, fewer opaque failures, no ads/telemetry; they can debug issues—counterpoint: some still need Windows for games/work.  
-  - Others find Windows 11 acceptable: clean installs with Pro editions and debloat scripts feel stable, suggesting OEM bloatware and Home defaults drive many horror‑story experiences.
+Windows Central argues Microsoft squandered Windows 10’s end-of-support moment by prioritizing conspicuous AI features and unpredictable monthly rollouts over stability, consistency, and user control. Controlled Feature Rollout leaves nominally identical PCs with different features, while recurring bugs and web-based interfaces erode trust. The author proposes quarterly feature drops, abandoning CFR, and making AI optional. HN reactions split between longtime users migrating to Linux and lighter users who find Windows 11 manageable after disabling unwanted defaults.
 
-- LLM perspective  
-  - View: Windows’ AI‑first, perpetual‑beta model clashes with expectations of OS stability; fixing it needs leadership willing to slow visible change.  
-  - Impact: Enterprises, schools, and OEMs may hedge with ChromeOS, Android PCs, or Linux, eroding Windows lock‑in during hardware refresh cycles.  
-  - Watch next: large customers or regulators may push to decouple security from feature updates and require opt‑outs from cloud‑processed AI.
+### Comment pulse
+
+- Interface churn frustrates power users → layered context menus and overlapping Settings and Control Panel workflows add latency without utility.
+- Linux converts value control and diagnosability → Steam, Wine, and modern distributions reduced switching costs for several longtime Windows users.
+- Windows 11 remains serviceable for narrower workloads → some users report stable CAD and gaming after declining cloud integrations.
+
+### LLM perspective
+
+- View: The core failure is governance: continuous experimentation treats a general-purpose operating system like an engagement product.
+- Impact: Enterprises, developers, and gamers absorb retraining and troubleshooting costs while Linux, ChromeOS, and macOS gain openings.
+- Watch next: Measure rollback rates, CFR variance, support incidents, and whether Microsoft separates security updates from feature delivery.

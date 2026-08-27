@@ -2,15 +2,18 @@
 
 - Score: 240 | [HN](https://news.ycombinator.com/item?id=46444076) | Link: https://www.helsinki.fi/en/news/innovations/efficient-method-capture-carbon-dioxide-atmosphere-developed-university-helsinki
 
-- TL;DR  
-Researchers at the University of Helsinki developed a recyclable liquid sorbent (superbase + alcohol) that selectively absorbs 156 mg of CO2 per gram from ambient air and releases pure CO2 when heated to only 70 °C, retaining significant capacity over many cycles and using cheap, non‑toxic components. HN discussion praises the lower regeneration temperature but emphasizes that direct air capture faces harsh dilution and scaling limits, so this is more likely useful for point‑source capture, synthetic fuels, and indoor air scrubbing than for gigaton‑scale climate repair.
+### TL;DR
 
-- Comment pulse  
-  - Atmospheric CO2 is ~0.04% → direct air capture is inherently energy- and capital-intensive; cheaper to avoid emissions or capture at concentrated industrial sources.  
-  - Others argue capture tech still matters: enables synthetic fuels, chemicals, and indoor CO2 scrubbing where batteries or ventilation are constrained by weight, land, or climate.  
-  - Scaling, storage safety, and cost remain unsolved; better sorbents don’t guarantee viability—counterpoint: building capture systems may be easier than achieving global political emissions cuts.
+University of Helsinki researchers report a recyclable liquid made from the superbase TBN and benzyl alcohol that captures 156 milligrams of CO2 per gram from untreated air. Heating it to 70°C for 30 minutes releases clean CO2, while capacity remains 75% after 50 cycles and 50% after 100. Pilot-scale work will bind the fluid to solids. HN discussion welcomed the low-temperature regeneration but stressed atmospheric dilution, durability, sequestration, economics, and enormous deployment scale.
 
-- LLM perspective  
-  - View: Interesting chemistry, but climate impact depends on pairing with cheap clean energy, infrastructure, and robust accounting of net emissions.  
-  - Impact: Regenerable, low-temperature sorbents could exploit waste heat, lowering energy costs of capture for buildings, vehicles, or industrial point sources.  
-  - Watch next: Pilot-plant data on stability, ton-scale synthesis, and demos that link capture directly to synthetic fuels or materials manufacturing.
+### Comment pulse
+
+- Dilute feedstock dominates direct-air-capture economics → atmospheric CO2 near 420 ppm requires processing immense volumes compared with point-source capture.
+- Regeneration is the notable advance → low-grade heat and reuse may matter more than headline capture density.
+- Removal cannot substitute for prevention → counterpoint: captured carbon could support fuels and chemicals where electrification remains difficult.
+
+### LLM perspective
+
+- View: The material is a promising separation component, not yet an end-to-end carbon-removal solution.
+- Impact: Industrial emitters and indoor-air systems may offer earlier markets than climate-scale direct air capture.
+- Watch next: Demand pilot data on cycle life, binding substrates, energy per tonne, throughput, contamination tolerance, and disposal.

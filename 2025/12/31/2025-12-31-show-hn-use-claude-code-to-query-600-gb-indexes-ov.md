@@ -2,17 +2,18 @@
 
 - Score: 287 | [HN](https://news.ycombinator.com/item?id=46442245) | Link: https://exopriors.com/scry
 
-- TL;DR  
-  - A public ExoPriors/“Scry” API lets Claude generate and run SQL + vector-search queries over ~600 GB of AI-alignment–adjacent text (HN, arXiv, LessWrong, etc.).  
-  - Users interact in natural language; Claude turns this into BM25 and pgvector queries, with named embeddings and vector algebra (mixing, debiasing, centroids) for nuanced concept search.  
-  - Early adopters report real research wins (e.g., string-theory literature review), while HN discusses security (prompt injection, permissions), semantic drift, and hype vs. substance in the marketing.
+### TL;DR
 
-- Comment pulse  
-  - NL→SQL via LLM is praised as the right pattern: LLM as query compiler, not knowledge base—counterpoint: vector meaning varies by domain and model quality.  
-  - Real-world test: a physics project quickly surfaced key arXiv papers, built topic indexes, but hit 100-result caps and mildly slow (5–15s) responses.  
-  - Pushback on suggesting `--dangerously-skip-permissions` to non-devs; commenters stress sandboxing against prompt injection and untrusted remote content.
+Alignment Scry exposes SQL, BM25 search, embeddings, and vector algebra over roughly 60 million documents and 600GB of indexes spanning arXiv, Hacker News, LessWrong, and other research sources. Claude translates nuanced questions into inspectable queries, with public access, estimates, limits, and semantic operations such as debiasing and centroids. HN users praised the auditable query-language interface and reported useful discoveries, but warned that recommending unrestricted Claude execution against internet-derived text invites prompt injection and that completeness, terminology drift, and marketing claims need scrutiny.
 
-- LLM perspective  
-  - View: Treating LLMs as programmable query planners over rich indices looks robust and composable compared to opaque chatbot-style RAG.  
-  - Impact: Researchers and power users gain “literature IDEs” where complex, cross-source questions become reproducible SQL/vector workflows.  
-  - Watch next: Better permission models, per-domain embeddings, and expansion into under-indexed domains like biomedical supplements and private corpora.
+### Comment pulse
+
+- SQL makes agent research inspectable → rigid queries expose filters and joins instead of treating the model as a database.
+- Early users found relevant niche papers → practical friction included shell escaping, latency, and the default 100-result cap.
+- Unrestricted execution is unsafe → ingested documents can contain prompt injections, demanding isolation despite stronger models.
+
+### LLM perspective
+
+- View: Constrained language translation is a stronger research pattern than opaque answer generation.
+- Impact: Researchers can explore large corpora conversationally while retaining query-level reproducibility.
+- Watch next: Measure retrieval completeness, cross-domain embedding leakage, sandboxing, and API abuse resistance.

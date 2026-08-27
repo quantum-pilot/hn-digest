@@ -4,20 +4,16 @@
 
 ### TL;DR
 
-A new 2026 study of 21 US airlines, using EPA Aircraft Drinking Water Rule data from 2022–2025, finds big differences in onboard water safety. Delta (5.0/5) and Frontier lead with “A” grades, while American, JetBlue, and most regional carriers score poorly, with Mesa at the bottom. Regional airlines show over twice the coliform-positive rate of majors. E. coli violations and weak public-notice behavior heavily drag scores down. The authors advise passengers: use only sealed bottles, avoid coffee/tea, and rely on sanitizer instead of sink water.
-
----
+A three-year EPA-data study ranks onboard water safety across 21 US airlines. Delta scored 5.00 and Frontier 4.80, while American scored 1.75 and Mesa 1.35; regional carriers had a 4.75% coliform-positive rate versus 1.89% for majors. Across 35,674 locations, 949 tested positive and 32 E. coli violations occurred. The authors recommend sealed drinks and sanitizer. HN debate focused on whether hot coffee neutralizes risk and how airline cleaning practices produce such divergent results.
 
 ### Comment pulse
 
-- Coffee/tea question → Boiling should kill pathogens, but doesn’t remove toxins or chemical contaminants—counterpoint: many frequent flyers report no issues from drinking it.  
-- Why airlines differ → Likely tank cleaning and maintenance frequency; stagnant holding tanks and plumbing biofilms vary a lot by carrier and contractor.  
-- What’s actually tested → Study targets aircraft tap systems; bottled/boxed water is separate, while hot drinks usually come from the (riskier) onboard tanks.  
-
----
+- Heat may kill pathogens → skeptics note coffee temperatures and exposure times vary, while boiling cannot remove chemical toxins.
+- Maintenance explains airline gaps → shared aircraft designs still depend on tank flushing, servicing equipment, and local cleaning discipline.
+- Bring your own water → flight-crew experience and unclear galley sourcing support the study’s precautionary advice.
 
 ### LLM perspective
 
-- View: Treat this as a relative risk ranking plus a reminder that aircraft plumbing is more like an RV than a municipal system.  
-- Impact: Health-conscious passengers and frequent crew are most affected; airlines with bad scores gain a reputational and regulatory liability.  
-- Watch next: Whether EPA starts issuing real penalties, and if low-scoring airlines publish remedial maintenance and testing plans.
+- View: The scorecard measures compliance signals, not the safety of any particular cup or flight.
+- Impact: Airlines can differentiate through documented maintenance while passengers cheaply reduce exposure with sealed beverages.
+- Watch next: Seek independent sampling, EPA enforcement records, and airline-specific remediation trends.

@@ -3,18 +3,17 @@
 - Score: 213 | [HN](https://news.ycombinator.com/item?id=46448705) | Link: https://www.latimes.com/business/story/2025-12-31/warren-buffett-steps-down-as-berkshire-hathaway-ceo-after-six-decades
 
 ### TL;DR
-Warren Buffett is relinquishing the CEO role at Berkshire Hathaway after six decades, with long‑designated successor Greg Abel formally taking over. Buffett remains board chair and an active capital allocator, preserving Berkshire’s decentralized structure while Abel adds more conventional management layers. The conglomerate now faces “big number” problems: deploying $382B of cash, sustaining growth at $1T scale, and managing leadership succession beyond Buffett and Ajit Jain. HN readers debate Buffett’s true edge, Berkshire’s future returns, and the ethics of his empire.
 
----
+Warren Buffett is ending six decades as Berkshire Hathaway’s CEO, handing control of the $1-trillion conglomerate to Greg Abel while remaining chairman and attending the office. Abel, already responsible for noninsurance businesses since 2018, is expected to preserve Berkshire’s decentralized culture but manage more actively. His central challenge is deploying or returning a $382-billion cash pile as scale limits acquisitions. HN debated whether Berkshire’s results reflect exceptional strategy, leverage, reputation, or market exposure, and criticized labor impacts within portfolio companies.
 
 ### Comment pulse
-- Buffett’s edge → less unique stock‑picking, more leverage plus fame halo that moved markets toward his positions — counterpoint: long, steady outperformance suggests real skill.
-- Berkshire’s model → early success came from fixing inefficient firms; today’s market is more efficient and tech‑centric, but value‑driven stakes in mature giants still exist.
-- Ethical lens → critics highlight labor conditions and regional monopolies (e.g., BNSF rail); defenders say such tradeoffs are inherent to large‑scale capitalism.
 
----
+- Succession risk may be limited → Abel already runs major operations, while Buffett retains influence and voting control.
+- Berkshire’s scale constrains future outperformance → even multibillion-dollar acquisitions barely move earnings, increasing dividend pressure.
+- Buffett’s legacy remains contested → admirers cite disciplined longevity; critics emphasize leverage, reputation effects, and portfolio-company labor practices.
 
 ### LLM perspective
-- View: Berkshire’s core advantage is disciplined capital allocation plus autonomy culture, not Buffett’s personality; Abel mainly must protect that system.
-- Impact: Retail “Buffett fans” may rotate out; institutional holders will focus on cash deployment, governance, and post‑Buffett voting control.
-- Watch next: Whether Abel introduces regular dividends/buyback policy, trims old‑economy bets, or cautiously scales into high‑quality tech and infrastructure platforms.
+
+- View: Abel inherits a capital-allocation constraint more difficult than the managerial transition itself.
+- Impact: Shareholders may gradually prioritize cash returns over Buffett-era acquisition optionality.
+- Watch next: Monitor dividends, buybacks, major acquisitions, leadership turnover, and preservation of subsidiary autonomy.

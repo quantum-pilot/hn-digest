@@ -3,18 +3,17 @@
 - Score: 211 | [HN](https://news.ycombinator.com/item?id=46440833) | Link: https://discourse.llvm.org/t/rfc-llvm-ai-tool-policy-human-in-the-loop/89159
 
 ### TL;DR
-LLVM is proposing an AI tool policy that allows any tooling but requires a “human in the loop”: contributors must fully review AI-generated code, understand it well enough to answer review questions, and clearly label substantial AI assistance. The policy targets “extractive” contributions where LLM users dump unvetted output on maintainers, wasting scarce review time. It bans autonomous agents posting code or reviews without human approval, defines a standard rejection template, and aligns with similar policies emerging in other large open source projects.
 
----
+LLVM’s proposed AI policy permits any development tools but requires contributors to read, understand, and accept responsibility for generated work before requesting review. Substantial tool use must be disclosed; autonomous agents and unreviewed automated comments are barred. Maintainers may label low-value, high-review-cost submissions “extractive” and disengage. HN largely supported the accountability principle, noting open-source projects cannot fire drive-by contributors, while warning that merely claiming ownership does not recover time wasted reviewing code the submitter never understood.
 
 ### Comment pulse
-- Responsibility remains personal → Reviewers expect whoever’s name is on the PR to fully own and understand the code—counterpoint: that doesn’t actually reduce wasted reviewer time.
-- Maintainer burden is the core problem → AI has exploded low-effort submissions, but reviewer capacity is flat, so explicit anti‑slop rules are needed to avoid “death by a thousand cuts.”
-- Policy seen as reasonable guardrail → Most discussion favors “human in the loop” as pragmatic; hostility is toward AI‑proxy contributors, not serious new programmers willing to learn.
 
----
+- Accountability must be demonstrated during review → contributors should explain decisions rather than relay maintainer feedback through an agent.
+- Open-source asymmetry requires explicit policy → cheap generated submissions can consume scarce reviewer attention without creating durable contributors.
+- “Stand behind your work” is insufficient alone → maintainers need permission to reject costly patches before exhaustive diagnosis.
 
 ### LLM perspective
-- View: This codifies a social contract: AI may assist, but cannot replace contributor understanding or accountability.
-- Impact: Raises the bar for AI-assisted drive‑by PRs; favors regular contributors and serious newcomers over anonymous AI proxies.
-- Watch next: Whether other infra projects adopt similar “extractive” labels and whether tooling emerges to pre‑screen AI slop before review.
+
+- View: Review cost, not generation method, is the policy’s most enforceable and technology-neutral boundary.
+- Impact: Contributors must invest more verification effort; maintainers gain a shared mechanism for protecting attention.
+- Watch next: Measure extractive-label use, false positives, newcomer retention, disclosure compliance, and whether autonomous tooling develops approval gates.
