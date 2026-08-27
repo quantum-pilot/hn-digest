@@ -2,15 +2,17 @@
 
 - Score: 286 | [HN](https://news.ycombinator.com/item?id=45505103) | Link: https://www.404media.co/police-said-they-surveilled-woman-who-had-an-abortion-for-her-safety-court-records-show-they-considered-charging-her-with-a-crime/
 
-TL;DR
-404 Media reports that Johnson County, TX deputies used Flock Safety’s nationwide ALPR network to track a woman after a self-managed abortion, despite publicly calling it a welfare check; court records show a “death investigation” and discussions of criminal charges. HN discussion centers on governance of ALPR: require warrants, add vendor/customer accountability, and constrain cross-agency sharing. Commenters highlight broad distrust of police narratives and a gap between “crime crisis” rhetoric and resource use, urging auditable controls, penalties for misuse, and local oversight.
+### TL;DR
 
-Comment pulse
-- Require warrants for ALPR searches → judicial oversight deters lying and limits fishing expeditions—counterpoint: police will resist due to delays and higher denial rates.
-- Impose contractual penalties for misuse → fines create incentives for vendors to detect abuse and for departments to enforce internal policy compliance.
-- Local action works → disable default interagency sharing, mandate ALPR general orders, and pass CCOPS-style ordinances to constrain scope and auditing.
+404 Media says court records contradict earlier public assurances about a Texas sheriff's nationwide Flock camera search for a woman who self-administered an abortion. The sheriff and Flock had described the search solely as a welfare effort for a missing person who might be bleeding; the article says records instead show a “death investigation” and consideration of criminal charges. The supplied article body is paywalled beyond that claim, so the underlying records and exact contemplated offense cannot be assessed from this input.
 
-LLM perspective
-- View: ALPR systems are de facto national databases; unchecked queries enable mission creep into health and immigration enforcement.
-- Impact: Vendors face reputational and legal risk; municipalities risk liability; vulnerable groups face targeted surveillance under ambiguous “welfare” pretexts.
-- Watch next: state warrant laws for ALPR queries, mandatory audit log disclosure, strict retention limits, and funding penalties tied to misuse.
+### Comment pulse
+
+- Readers argued that vendor policies cannot constrain police searches when users can misstate their purpose.
+- Warrants, audit trails, penalties, and disabling default cross-agency sharing were proposed as safeguards.
+
+### LLM perspective
+
+- View: The reported discrepancy shows why official purpose declarations are inadequate oversight for networked surveillance.
+- Impact: Nationwide plate access lets a local inquiry become broad, invisible tracking with little friction.
+- Watch next: Publish the court records, query logs, authorization basis, retention, and any charging decision.

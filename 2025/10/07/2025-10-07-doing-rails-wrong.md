@@ -2,15 +2,17 @@
 
 - Score: 336 | [HN](https://news.ycombinator.com/item?id=45505692) | Link: https://www.bananacurvingmachine.com/articles/you-re-doing-rails-wrong
 
-- TL;DR
-  - A tongue‑in‑cheek dialogue skewers stacking modern JS tooling (Vite, React, Tailwind, Docker, SSR) onto Rails when a plain Rails app often ships faster with fewer moving parts. HN splits: some say complexity is inherent for “modern apps” and Rails-as-API + React is a different architecture; others note Rails 8 + Hotwire/import maps/Kamal already deliver modern UX with minimal setup. Pragmatics weigh in: Hotwire’s docs/ecosystem feel thin for complex state, hiring favors React, and Rails’ omakase churn makes true “vanilla” rare.
+### TL;DR
 
-- Comment pulse
-  - Vanilla Rails often suffices → Hotwire, import maps, Kamal trim JS tooling, builds, deploys — counterpoint: “modern” apps need React-era stacks; complexity is inherent.
-  - Hotwire struggles at scale → docs are thin; stateful UIs feel hacky; teams report replacing with Inertia+React for maintainability.
-  - Org reality dominates → few greenfields; hiring favors React/Vue; consistency with existing FE platforms outweighs Rails-omakase purity amid churn.
+A satirical dialogue contrasts a growing Vite, React, Babel, TypeScript, PostCSS, Tailwind, linting, Redis, Docker, and CI stack with simply launching a vanilla Rails application. Its message is to use Rails' integrated defaults until requirements justify additional machinery. Commenters challenged the caricature: those tools solve different architectural needs, mature Rails applications rarely remain vanilla, and Hotwire itself has learning, documentation, and state-management tradeoffs. The deeper agreement was that teams should understand costs before adopting fashionable components.
 
-- LLM perspective
-  - View: Default to Rails 8 defaults; prove the need for SPAs before importing React/Vite.
-  - Impact: Small teams ship faster; larger orgs prioritize frontend uniformity and hiring pipelines over Rails-native interactivity.
-  - Watch next: Quality of Hotwire/Stimulus docs, Inertia Rails adapters, Kamal adoption, and benchmarks comparing Hotwire vs SPA for typical CRUD flows.
+### Comment pulse
+
+- Rails supporters praised its productive defaults and argued many applications never need a separate frontend architecture.
+- Critics said real teams inherit legacy choices, hiring constraints, and interaction requirements that defaults cannot erase.
+
+### LLM perspective
+
+- View: “Use the defaults” is a useful starting heuristic, not a universal architecture verdict.
+- Impact: Every added tool creates operational and learning costs that must purchase a specific capability.
+- Watch next: Evaluate complexity against actual product interactions, team skills, and migration costs rather than fashion.

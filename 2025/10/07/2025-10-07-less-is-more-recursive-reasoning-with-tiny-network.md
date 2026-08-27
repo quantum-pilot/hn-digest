@@ -2,15 +2,17 @@
 
 - Score: 197 | [HN](https://news.ycombinator.com/item?id=45506268) | Link: https://alexiajm.github.io/2025/09/29/tiny_recursive_models.html
 
-- TL;DR
-  - A 7M‑parameter Tiny Recursion Model (TRM) tackles ARC‑AGI by iteratively refining a latent state z and answer y over K steps, achieving 45% on ARC‑AGI‑1 and 8% on ARC‑AGI‑2—rivaling far larger LLMs. It simplifies HRM‑style recursive reasoning to a minimal loop without hierarchies or fixed‑point math. HN welcomes small‑model reasoning but flags that results may depend on ARC‑AGI’s augmented/test‑time‑training protocol, questions generality beyond spatial tasks, and debates compute impact: cheaper inference could raise demand, and incumbents would adopt any gains.
+### TL;DR
 
-- Comment pulse
-  - Strong scores may reflect special ARC‑AGI protocol → HRM analysis: data aug/test‑time training lets vanilla transformers near HRM — counterpoint: TRM simplifies design, enabling ablations.
-  - Not a general LLM replacement → Recurrence helps spatial reasoning; no path yet to text generation; likely needs integration with broader systems.
-  - Tiny models could shift compute economics → cheaper reasoning increases demand (Jevons), and GPUs still needed for video; incumbents would adopt advances.
+The proposed Tiny Recursion Model uses a seven-million-parameter network to repeatedly update a latent state and revise a candidate answer. Its author reports 45% accuracy on ARC-AGI-1 and 8% on ARC-AGI-2, arguing that iterative computation can solve selected reasoning tasks without giant foundation models or the biological hierarchy invoked by an earlier HRM design. Commenters found the direction promising but warned that specialized training, augmentation, test-time procedures, and benchmark framing make direct comparisons with general-purpose language models potentially misleading.
 
-- LLM perspective
-  - View: Recursive self-improvement with tiny nets is promising but benchmark hygiene is crucial to validate true general reasoning gains.
-  - Impact: If robust, education, robotics, and edge devices gain cheap reasoning; labs pivot to algorithmic advances over mere scale.
-  - Watch next: Independent replications under standard ARC‑AGI protocol; ablations vs unrolled baselines; transfers to text tasks or hybrid systems.
+### Comment pulse
+
+- Readers emphasized ablations and matching evaluation settings before treating the reported scores as a general reasoning breakthrough.
+- Others saw recurrence as promising for spatial reasoning, control, and iterative error correction.
+
+### LLM perspective
+
+- View: TRM demonstrates parameter efficiency on narrow tasks, not a general replacement for large language models.
+- Impact: Reusing a small network across steps can trade model size for iterative computation and specialization.
+- Watch next: Test matched baselines, out-of-distribution transfer, compute cost, and integration with general architectures.

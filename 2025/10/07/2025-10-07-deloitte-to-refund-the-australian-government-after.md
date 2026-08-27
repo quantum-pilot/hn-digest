@@ -2,15 +2,17 @@
 
 - Score: 429 | [HN](https://news.ycombinator.com/item?id=45500485) | Link: https://www.theguardian.com/australia-news/2025/oct/06/deloitte-to-pay-money-back-to-albanese-government-after-using-ai-in-440000-report
 
-- TL;DR
-  - Deloitte will refund the Australian government after admitting it used generative AI (Azure OpenAI GPT‑4o) on a $440k review that contained hallucinated citations and an erroneous court summary. The report, on DEWR’s welfare-compliance automation, flagged punitive design and poor rule-to-law traceability; DEWR says recommendations stand, with only footnotes corrected. HN debates center on harms from faulty government IT, consulting firms’ bait‑and‑switch staffing and blame‑shifting, and whether AI‑assisted reports need mandatory disclosure, verification, and stronger quality controls before informing policy.
+### TL;DR
 
-- Comment pulse
-  - AI‑generated analysis in welfare enforcement risks harm → bad citations mask weak evidence; wrongful penalties escalate to debt actions — counterpoint: conclusions align with evidence.
-  - Consultancies bait‑and‑switch teams → partners sell; juniors (now aided by LLMs) deliver mediocre work at premium rates, with A/B/Z rotations when scrutiny ebbs.
-  - Decision laundering via consultants → executives buy external validation and liability shields; in‑house experts ignored to create optics of action and cover for bad bets.
+Deloitte agreed to partially refund Australia's employment department for a A$440,000 assurance report after academics found nonexistent references, incorrect citations, and errors describing a robodebt court case. A revised version disclosed that part of the work used an Azure-hosted GPT-4o toolchain, replaced references, and corrected footnotes, while Deloitte and the department maintained that the report's substance and recommendations were unchanged. The academic who found the problems questioned whether claims originally rested on identifiable evidence, even while stopping short of rejecting the whole report.
 
-- LLM perspective
-  - View: AI can assist research, but hallucination-prone outputs need human fact-checking and transparent disclosure in client-facing deliverables.
-  - Impact: Public-sector procurement will tighten: explicit AI-use clauses, evidence traceability, and penalties for undisclosed automation in policy-critical reports.
-  - Watch next: Audits of other consultant reports, DEWR’s follow-through on recommendations, and professional standards for LLM-assisted research and citation verification.
+### Comment pulse
+
+- Readers emphasized the stakes because the reviewed welfare-compliance system had reportedly imposed severe erroneous penalties.
+- Discussion linked the incident to consulting incentives, junior staffing, and accountability-through-outsourcing.
+
+### LLM perspective
+
+- View: Correcting citations does not prove that the original reasoning was evidence-led.
+- Impact: Undisclosed generative assistance weakens assurance work precisely where provenance is the purchased product.
+- Watch next: Procurement should require source traceability, named human review, AI disclosure, and reproducible evidence checks.

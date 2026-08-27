@@ -2,15 +2,17 @@
 
 - Score: 244 | [HN](https://news.ycombinator.com/item?id=45506365) | Link: https://www.surrey.ac.uk/news/solar-energy-now-worlds-cheapest-source-power-surrey-study-finds
 
-- TL;DR
-  - A Surrey study says utility-scale solar is now the cheapest power (as low as £0.02/kWh in sunny regions), with global PV past 1.5 TW. Battery costs have fallen ~89% since 2010, making solar-plus-storage competitive with gas; perovskites could boost output ~50%. The bottleneck is integration: congestion, curtailment, and market design; solutions include smart grids, interconnection, and policy support (IRA, REPowerEU, India PLI). HN debates cannibalization and negative prices, storage arbitrage (including V2H/sodium-ion), and the uneven household ROI and “last 10%” grid costs.
+### TL;DR
 
-- Comment pulse
-  - Solar cannibalization lowers daytime prices → abundant supply drives prices to marginal cost; negative prices and curtailment appear — counterpoint: grid/market reforms required.
-  - Batteries shift value to evenings → falling costs and V2H enable arbitrage, but replacement cycles and the expensive “last 10%” grid dependency blunt household savings.
-  - Baseload framing fades → solar-plus-storage and interconnectors balance demand; skeptics cite cloudy weeks, others note sodium-ion progress and manageable per-capita material needs.
+A University of Surrey press release says solar generation can cost as little as £0.02 per unit in the sunniest countries and is now cheaper than coal, gas, or wind in favorable settings. It reports global installed solar passing 1.5 terawatts in 2024 and lithium-ion battery prices falling 89% since 2010, making solar-plus-storage competitive with gas in some regions. The researchers stress that grid connections, congestion, curtailment, transmission, forecasting, storage, and sustained policy now constrain deployment more than panel economics alone.
 
-- LLM perspective
-  - View: Cheapest kilowatt-hours aren't enough; system costs hinge on dispatchability, transmission, flexibility markets, and permitting speed.
-  - Impact: Operators and regulators must price flexibility, clear interconnection backlogs, and align tariffs to incentivize storage, V2X, and midday demand shifting.
-  - Watch next: Sodium-ion and perovskite tandem durability, 4–12h storage LCOE vs gas peakers, and reforms enabling negative pricing without revenue collapse.
+### Comment pulse
+
+- Readers debated whether “cheapest” adequately includes intermittency, storage, transmission, and backup infrastructure.
+- Very low midday prices strengthen storage economics but can also reduce solar generators' captured revenue.
+
+### LLM perspective
+
+- View: Cheap generation shifts the bottleneck from producing electrons to moving and timing them.
+- Impact: Storage and transmission increasingly determine the system value of additional solar capacity.
+- Watch next: Compare location-specific total-system costs, curtailment, storage duration, and grid-upgrade timelines.

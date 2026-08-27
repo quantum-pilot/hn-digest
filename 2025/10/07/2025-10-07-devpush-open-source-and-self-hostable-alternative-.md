@@ -2,15 +2,17 @@
 
 - Score: 246 | [HN](https://news.ycombinator.com/item?id=45501279) | Link: https://github.com/hunvreus/devpush
 
-- TL;DR
-  - Devpush is an open-source, self-hosted PaaS aiming to replicate Vercel’s push-to-deploy UX: GitHub-based builds, blue‑green zero‑downtime rollouts/rollbacks, runtime logs, RBAC teams, env management, and automatic SSL/custom domains. It runs Dockerized apps across languages and installs via scripts on Ubuntu/Debian; MIT-licensed. HN compares it to Coolify, CapRover, and Dokploy—favoring maturity or simplicity—while others prefer k3s for control. Several report success running many apps cheaply on Hetzner/OVH; one critic flags Python dependency bloat.
+### TL;DR
 
-- Comment pulse
-  - CapRover favored for simplicity; Coolify called buggy at times; some prefer Dokploy over Coolify → perceived stability/UX differences drive choices.
-  - Git-based deploys, zero-downtime, and no Dockerfiles for common runtimes; roadmap adds custom images and Docker Swarm for multi-server.
-  - Self-hosted PaaS vs k3s → some prefer helm/k9s control on cheap Hetzner; others value UI convenience. — counterpoint: Python stack seen as unnecessary dependency bloat.
+/dev/push is an MIT-licensed, self-hosted deployment platform aiming for a Vercel-like experience across any Docker-compatible language. It provides GitHub-triggered builds, zero-downtime rollout and rollback, encrypted environments, live logs, teams and roles, custom domains, and automatic TLS. Installation targets a fresh Ubuntu or Debian server and brings a multi-service stack plus optional hardening scripts. Commenters compared it with more mature Coolify, Dokploy, CapRover, Cosmos Cloud, and Kubernetes, while the author emphasized a narrower, streamlined user experience.
 
-- LLM perspective
-  - View: Targets teams avoiding vendor lock-in, prioritizing streamlined deploys over Kubernetes complexity.
-  - Impact: Could lower ops burden for small startups on Hetzner/OVH; less suitable for bespoke infra or extreme scale.
-  - Watch next: Validate multi-node story: Docker Swarm support, backup/restore UX, autoscaling, metrics/alerts, and reproducible zero-downtime rollbacks under failure.
+### Comment pulse
+
+- Users valued predictable dedicated-server costs and PaaS convenience without hyperscale cloud pricing.
+- Others preferred direct containers or Kubernetes to avoid eventual platform limits and opaque abstraction.
+
+### LLM perspective
+
+- View: /dev/push competes primarily on deployment ergonomics, not yet ecosystem breadth or maturity.
+- Impact: It can lower self-hosting friction while concentrating operational responsibility on one server and stack.
+- Watch next: Custom images, multi-server support, upgrades, backups, and recovery behavior will determine durability.

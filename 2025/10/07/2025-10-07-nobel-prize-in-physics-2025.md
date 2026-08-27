@@ -2,15 +2,17 @@
 
 - Score: 373 | [HN](https://news.ycombinator.com/item?id=45501189) | Link: https://www.nobelprize.org/prizes/physics/2025/popular-information/
 
-- TL;DR
-    - The 2025 Physics Nobel honors John Clarke, Michel H. Devoret, and John M. Martinis for demonstrating macroscopic quantum behavior in superconducting Josephson circuits. In 1984–85 they observed macroscopic quantum tunneling from the zero‑voltage state and discrete energy absorption via microwaves, showing billions of Cooper pairs behave as one quantized system—foundational to superconducting qubits. HN reminisces about Martinis’ electronics rigor and feedback, notes UCSB and NIST roles, and flags their ongoing quantum‑engineering leadership amid expected post‑Nobel obligations.
+### TL;DR
 
-- Comment pulse
-    - Hands-on electronics matters → Martinis’ feedback-centric approach clarified current sources; his group shared circuits and control software, outpacing many EEs.
-    - Give institutions their due → Work began at UC Berkeley; Martinis’ award-winning research was largely at NIST; UCSB community celebrates.
-    - Laureates drive quantum engineering → Devoret at Yale; Martinis now at Qolab; invites will surge — counterpoint: only one Nobel lecture is required.
+The 2025 Nobel Prize in Physics went to John Clarke, Michel H. Devoret, and John M. Martinis for discovering macroscopic quantum tunnelling and energy quantisation in an electrical circuit. Their carefully isolated Josephson-junction experiments showed billions of Cooper pairs acting as one quantum system: the circuit escaped a zero-voltage state by tunnelling and absorbed only discrete microwave energies. The work extended quantum behavior from individual particles to a chip-scale collective state and helped establish superconducting circuits as artificial atoms and potential quantum bits.
 
-- LLM perspective
-    - View: This prize cements superconducting circuits as macroscopic quantum platforms, not just engineering for qubits.
-    - Impact: Expect more funding for cryogenics, microwave control, and Josephson metrology; stronger cross‑training between physics and EE.
-    - Watch next: Benchmark coherence in junction designs, noise suppression at millikelvin, and scalable packaging; track reproducibility across labs and materials.
+### Comment pulse
+
+- Former students and colleagues praised the laureates' experimental electronics, measurement craft, and open technical resources.
+- Readers highlighted the work's later connection to superconducting quantum-computing research.
+
+### LLM perspective
+
+- View: The achievement made collective quantum behavior measurable in a controllable engineered circuit.
+- Impact: It linked foundational tests of quantum mechanics with a practical platform for quantum engineering.
+- Watch next: Superconducting circuits must translate controllability into lower errors and scalable architectures.

@@ -2,15 +2,17 @@
 
 - Score: 417 | [HN](https://news.ycombinator.com/item?id=45507936) | Link: https://blog.google/technology/google-deepmind/gemini-computer-use-model/
 
-TL;DR
-- Google’s Gemini 2.5 Computer Use model, now in API preview, lets agents operate UIs in a loop using screenshots and action calls (click, type, scroll). It targets browsers first, shows strong results on web/mobile control benchmarks with lower latency, and ships per-step safety checks and confirmation gates. HN testers found the demo striking—handling logins and navigation—but noted limits (e.g., trouble interpreting Wordle colors). A viral “CAPTCHA solve” was Browserbase’s solver, not Gemini. Discussion contrasted general UI-control models with tool-specific automations.
+### TL;DR
 
-Comment pulse
-- General UI-control model → aims to work across arbitrary UIs, unlike Chrome DevTools MCP scripts — counterpoint: skeptics see just predefined tool orchestration.
-- Model solved CAPTCHA → later clarified Browserbase’s environment handled the solve; Gemini only attempted it.
-- Autonomous browsing feels eerie → logs in, scrolls, replies; lacks real-time steering and struggles with color feedback tasks like Wordle.
+Google released Gemini 2.5 Computer Use in public preview through AI Studio and Vertex AI. An agent loop sends the model a task, screenshot, recent actions, and URL; the model returns clicks, typing, or other function calls, the client executes them, and the updated state returns for another step. Google says it leads several browser and mobile-control benchmarks at lower latency, though supplied results mix self-reported and third-party evaluations. It is browser-focused, not optimized for desktop control, and includes confirmation and per-step safety mechanisms.
 
-LLM perspective
-- View: UI-control agents are finally usable; reliability hinges on action-review loops, DOM robustness, and injection-resistant prompting.
-- Impact: Short-term winners: QA teams, RPA vendors, and customer-support automation; losers: brittle bespoke scripts and manual test suites.
-- Watch next: Measure end-to-end task success vs. latency; release on-device VLMs for UI perception; publish guardrail APIs for payments, CAPTCHAs, account actions.
+### Comment pulse
+
+- Demo users found login and website interaction impressive but still observed elementary visual interpretation failures.
+- A reported CAPTCHA success came from Browserbase's solver, not the model itself.
+
+### LLM perspective
+
+- View: The release packages visual browsing into an API loop, while reliability remains task- and harness-dependent.
+- Impact: UI agents can automate systems without APIs but inherit ambiguity, prompt injection, and destructive-action risk.
+- Watch next: Independent evaluations should measure completion, recovery, latency, and safety on changing real interfaces.

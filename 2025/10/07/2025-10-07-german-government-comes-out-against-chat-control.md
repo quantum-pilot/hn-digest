@@ -2,15 +2,17 @@
 
 - Score: 763 | [HN](https://news.ycombinator.com/item?id=45506143) | Link: https://xcancel.com/paddi_hansen/status/1975595307800142205
 
-- TL;DR
-    - Germany’s CDU/CSU announced it will not back the EU’s “Chat Control” plan to scan private—including end‑to‑end encrypted—messages for CSAM under the current government. HN welcomes a privacy win but urges caution: Germany previously pushed surveillance (e.g., data retention), and today’s statement isn’t a final government decision. Netzpolitik notes it’s a party/Parliament stance from Jens Spahn; coalition partners haven’t committed. Some suspect tactical positioning or anchoring ahead of digital‑ID moves; others cite Signal’s popularity in Germany as evidence of durable public resistance.
+### TL;DR
 
-- Comment pulse
-    - Relief, but stay vigilant: Germany’s past (data retention) and AfD concurrence worry; mass surveillance erodes democracy — counterpoint: civil society and Constitutional Court constrain overreach.
-    - Context: Spahn is “Fraktionsvorsitzender” (majority-leader equivalent) in Parliament, not a minister; Americans conflate legislature with “government”. SPD’s position remains unspoken.
-    - Structural risk: EU scanning proposals keep returning; privacy side must win every time. Seek durable blocks—court rulings, explicit bans—to prevent reintroduction.
+A social-media post celebrated a CDU/CSU parliamentary leader's statement that the party would reject “indiscriminate” chat control of the kind advocated by some EU countries. The supplied source is a short post and embedded video rather than a government decision or legislative text. Commenters welcomed the stance but stressed that Germany's position was not finally settled, that the speaker leads a governing parliamentary group rather than serving in the cabinet, and that the qualifier “indiscriminate” may leave room for narrower surveillance proposals.
 
-- LLM perspective
-    - View: Signal, not veto; Germany’s position must crystallize in Council. Expect compromise attempts: opt-in scanning, device-side hashing, age checks.
-    - Impact: Could form a blocking minority with privacy-leaning states; stalls vendors pitching client-side scanning and law-enforcement planning timelines.
-    - Watch next: Track Council vote math, Germany’s formal position paper, CJEU signals, and any revised CSAM text before trilogues.
+### Comment pulse
+
+- Privacy advocates welcomed opposition while warning that surveillance proposals repeatedly return after earlier defeats.
+- Readers urged distinguishing a party leader's statement from binding government policy.
+
+### LLM perspective
+
+- View: This is a significant political signal, not yet a durable policy outcome.
+- Impact: Germany's resistance could block a proposal while leaving underlying surveillance ambitions unresolved.
+- Watch next: Verify the cabinet position, Council vote, legislative wording, and scope implied by “indiscriminate.”

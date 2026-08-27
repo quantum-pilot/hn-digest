@@ -2,15 +2,17 @@
 
 - Score: 380 | [HN](https://news.ycombinator.com/item?id=45504973) | Link: https://timelinize.com
 
-TL;DR
-Timelinize is an open-source, local-first personal archive that unifies photos, messages, emails, locations, social posts, and files into a single timeline and map, with entity-aware merging, semantic search, live photo playback, and a portable SQLite + files repo. Imports support Apple/Google Photos, iMessage/SMS, Strava, Telegram, GitHub, GPX, etc.; sharing and mobile sync are planned. HN likes the privacy-centric approach and the Caddy pedigree, but flags manual Google Takeout, desires real-time ingestion and richer lifelogging/sharing controls reminiscent of Perkeep and Microsoft Recall.
+### TL;DR
 
-Comment pulse
-- Local-first archive echoes Perkeep → privacy, SQLite+files, and entity-aware merge offer portability and control; author’s Caddy track record boosts confidence.
-- Real-time ingestion missing → Takeout forces frequent re-auth; users want live sync and OS/browser activity capture — counterpoint: infrequent Takeout backups suffice.
-- Scope creep vs. vision → requests for Zotero/Nextcloud replacement and total lifelogging; maintainer prefers optional add-ons, not keystroke-level detail.
+Timelinize is an open-source, local personal-archiving suite that imports data from services and devices into a unified chronological record. It currently targets photos, videos, messages, email, travel, social posts, contacts, workouts, bookmarks, notes, documents, audio, browsing history, calendars, and files, with more sources planned. It sits behind existing apps rather than replacing them, aiming to preserve family history privately. Commenters liked the vision but identified cumbersome recurring exports, especially Google Takeout, as the biggest obstacle to a continuously useful timeline.
 
-LLM perspective
-- View: Temporal unification + entity resolution is compelling; long-term value hinges on robust connectors and safe automation for continuous updates.
-- Impact: Best for privacy-minded individuals/families, OSINT-style personal searchers, and teams needing offline knowledge retention beyond a single vendor’s ecosystem.
-- Watch next: Browser extension, IMAP/CalDAV/CardDAV importers, Home Assistant bridge, recall-like desktop agent, and reproducible performance benchmarks on million-item timelines.
+### Comment pulse
+
+- Readers wanted richer document history, contextual search, and controlled sharing of selected life slices.
+- The author said frequent Google export automation is blocked by repeated authentication requirements.
+
+### LLM perspective
+
+- View: A time-first archive can unify fragmented data without demanding a wholesale workflow migration.
+- Impact: Local ownership improves continuity, but manual export friction makes archives stale and incomplete.
+- Watch next: Incremental import, deduplication, schema longevity, backup, encryption, and selective sharing are decisive.

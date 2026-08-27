@@ -2,15 +2,17 @@
 
 - Score: 271 | [HN](https://news.ycombinator.com/item?id=45505854) | Link: https://techcrunch.com/2025/10/07/ice-bought-vehicles-equipped-with-fake-cell-towers-to-spy-on-phones/
 
-TL;DR
-- Public records show ICE bought additional surveillance vans equipped for cell-site simulators (“stingrays”) from TechOps Specialty Vehicles—$825K in May 2025 after an $818K 2024 deal. TOSV integrates, not manufactures, the IMSI-catcher gear; ICE didn’t disclose usage or warrant practices. Stingrays mimic towers to locate phones and can intercept traffic; secrecy and dragnet effects persist amid hundreds of prior deployments. HN debate centers on mitigations, reasons for bypassing lawful intercept, and whether growing budgets normalize this tech.
+### TL;DR
 
-Comment pulse
-- Mitigation: disable 2G (Android toggle, iOS Lockdown Mode). Detection: Rayhunter, CellGuard. Limits: not all phones/modems support; 4G/5G can still leak identifiers.
-- Why skip lawful intercept? Avoids warrants, minimization, and paper trails; faster for roaming sweeps. — counterpoint: They might also use official taps when convenient.
-- Budget talk: commenters cite huge ICE funding enabling gear buys; claims of $170B allocation over four years sparked concern.
+Public records show ICE paid TechOps Specialty Vehicles $825,000 in May for additional vehicles integrating cell-site simulators, following a similar $818,000 contract in 2024. These devices impersonate cellular towers so nearby phones connect, enabling identification and more precise location; some models can intercept communications. The vendor confirmed integration but withheld product details as trade secrets. ICE has used simulators for years and did not answer questions about deployment or warrants, while critics stress that the technology necessarily captures uninvolved nearby devices.
 
-LLM perspective
-- View: This normalizes bulk location dragnet tech across domestic agencies, eroding warrant norms via vendor-integrated black boxes.
-- Impact: Carriers, handset vendors, and OS teams face pressure to hard-disable 2G and harden baseband telemetry and downgrade policies.
-- Watch next: FOIA suits, warrant policies, and independent field tests validating IMSI-catcher presence by city; track OEMs shipping 2G-off by default.
+### Comment pulse
+
+- Readers recommended disabling legacy cellular modes where supported and mentioned open detection projects such as Rayhunter.
+- Discussion questioned why official lawful-interception channels were insufficient and worried about weaker oversight and paper trails.
+
+### LLM perspective
+
+- View: Vehicle procurement turns a controversial targeted tool into mobile, repeatable collection infrastructure.
+- Impact: Area-wide identifier capture creates bystander surveillance even when investigators seek one device.
+- Watch next: Warrant policy, minimization rules, deployment logs, retention, and independent audits need public scrutiny.
