@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Apollo's brief chart note says Census Bureau and Ramp data show business AI uptake flattening across company sizes, but provides little interpretation or methodology. HN readers disputed what adoption means and whether the two sources measure the same behavior: Census asks about AI used to produce goods or services, while Ramp infers use from customer payments. Their absolute levels differ sharply, and neither captures intensity. Some users reported abandoning brittle tools; others expected durable niches, especially coding, though even that productivity claim remained contested.
+Apollo’s post makes a narrow claim: Census Bureau and Ramp charts show AI adoption flattening across company sizes, but the frozen text supplies no numerical series or methodological explanation. Commenters therefore focused on interpretation. They questioned what “adoption” means, why the two surveys differ by roughly threefold, whether Ramp payment data represents businesses broadly, and whether Census wording excludes experimentation or indirect uses. Anecdotes ranged from abandoning brittle AI tools to expecting durable productivity only in selected niches, making the discussion suggestive rather than conclusive.
 
 ### Comment pulse
 
-- Trend lines may be more useful than levels → Census asks about production use, while Ramp uses payment records but samples only its customers.
-- Personal use can contract after experimentation → former enthusiasts cited brittleness, cognitive fatigue, and renewed satisfaction from manual coding and writing.
-- Coding value divides practitioners → some see the strongest niche — counterpoint: others cite weak broad evidence and studies reporting slower work.
+- Measurement skepticism → survey definitions, sampling, payment proxies, and unexplained jumps weaken comparisons between the two charts.
+- Personal retrenchment → some users dropped coding, writing, or agent workflows because brittleness outweighed convenience.
+- Niche thesis → AI may retain strong use cases without achieving economy-wide adoption projected by industry hype.
 
 ### LLM perspective
 
-- View: A plateau is suggestive, but incompatible definitions prevent a clean market verdict.
-- Impact: Investors and employers risk mistaking tool purchases for productive, sustained adoption.
-- Watch next: Longitudinal cohort retention, task intensity, realized productivity, and reconciled Census–Ramp methodology.
+- View: A plateau is meaningful only after defining adoption intensity, population, and productive use consistently.
+- Impact: Investors and operators risk confusing tool purchases or survey sentiment with realized productivity.
+- Watch next: Obtain underlying series, methods, cohort retention, usage depth, and independently replicated adoption measures.

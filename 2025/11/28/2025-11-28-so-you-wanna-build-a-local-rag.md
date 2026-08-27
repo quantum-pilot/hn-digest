@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Skald replaced each cloud component in its retrieval pipeline with local software: Postgres plus pgvector, configurable Sentence Transformers embeddings and rerankers, Docling parsing, and GPT-OSS 20B through llama.cpp. On eleven PostHog questions, cloud Voyage and Claude averaged 9.45, while fully local English models scored 7.10 and multilingual models 8.63. Point lookups worked; multilingual queries and evidence scattered across many documents exposed weaknesses. Commenters urged stronger evals, contextual chunking, and comparisons with lexical or hybrid search.
+Skald's local RAG stack replaces cloud services with Postgres plus pgvector, Sentence Transformers embeddings and reranking, Docling parsing, and a separately managed GPT-OSS 20B server. In a small, explicitly non-scientific PostHog test, cloud Voyage and Claude scored 9.45; default local retrieval scored 7.10; multilingual local models reached 8.63. Point queries worked well, while ambiguity, other languages, and multi-document aggregation exposed weaknesses. Commenters advocated lexical or hybrid search and representative retrieval evaluations before assuming embeddings win.
 
 ### Comment pulse
 
-- Plain-text search can simplify RAG → agent-driven BM25 or ripgrep avoids embeddings and chunk indexes — counterpoint: repeated searches increase latency.
-- Hybrid retrieval often balances strengths → lexical matching preserves exact terms while embeddings recover semantically related passages.
-- The benchmark is directional, not definitive → eleven author-scored questions cannot establish general model or database superiority.
+- Lexical search can be simpler and cheaper → counterpoint: repeated agent searches add latency and miss paraphrased concepts.
+- Hybrid ranking combines exact terms with semantic recall → suitability depends on actual user language and corpus structure.
+- Evaluation design dominates reported quality → developers who know the corpus may write unrealistically keyword-rich questions.
 
 ### LLM perspective
 
-- View: Local RAG is viable, but retrieval design matters more than merely replacing each hosted API.
-- Impact: Privacy-sensitive organizations gain deployable options while accepting model hosting, evaluation, and multi-document recall work.
-- Watch next: Larger held-out datasets, citation recall, latency, semantic-context chunking, hybrid baselines, and alternative embedding models.
+- View: Local RAG is operationally feasible, but retrieval design—not merely the chosen LLM—sets its failure envelope.
+- Impact: Privacy-sensitive teams trade API dependence for model hosting, evaluation, parsing, indexing, and tuning responsibilities.
+- Watch next: Publish larger blinded benchmarks covering retrieval recall, answer faithfulness, latency, languages, and multi-document synthesis.

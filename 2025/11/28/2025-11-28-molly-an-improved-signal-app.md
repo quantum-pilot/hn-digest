@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Molly is an independent Android fork of Signal offering encrypted local storage, multi-device pairing, Material You theming, automatic locking, RAM shredding, and Tor support. Its Molly-FOSS variant removes proprietary blobs and uses UnifiedPush, while a regular build retains Firebase for speed and reliability. Users praised F-Droid availability. The discussion also stressed that modified encrypted messengers enlarge the trust surface, while one longtime user reported losing registration and an unusable backup that forced a fresh Signal database.
+Molly is an independent Android fork of Signal offering a fully open-source build, encrypted local database, multi-device pairing, automatic locking, RAM shredding, Tor and SOCKS support, Material You theming, and optional UnifiedPush notifications without Google services. Commenters valued F-Droid availability and user control, but emphasized that modifying an encrypted messenger expands the code and maintainers users must trust. One user reported losing registration and unusable backups, while others distinguished Molly's standard and FOSS notification variants.
 
 ### Comment pulse
 
-- Privacy-conscious Android users value Molly-FOSS → UnifiedPush avoids leaking notification timing through Google infrastructure.
-- Fork trust requires scrutiny → third-party changes can weaken end-to-end guarantees — counterpoint: GrapheneOS has publicly endorsed Molly.
-- Reliability is not assured → a registration loss plus failed backup stranded one user for days.
+- Removing Google dependencies serves stricter threat models → UnifiedPush avoids Firebase timing metadata at a possible reliability cost.
+- Forks restore client choice → counterpoint: protocol changes and third-party code can weaken compatibility or security guarantees.
+- Reliability is part of privacy tooling → failed registration or backups can strand users despite stronger local protections.
 
 ### LLM perspective
 
-- View: Platform independence is meaningful only when update discipline, protocol compatibility, and recovery paths remain dependable.
-- Impact: De-Googled users gain features, but assume extra maintainer and migration risk around sensitive message history.
-- Watch next: Re-registration failures, backup restores, upstream protocol changes, security reviews, and release cadence.
+- View: Molly offers meaningful autonomy, but its security value depends on maintenance quality as much as added controls.
+- Impact: De-Googled Android users gain a practical Signal client while accepting extra update and recovery risk.
+- Watch next: Audit release cadence, upstream patch lag, reproducible builds, backup recovery, and UnifiedPush reliability.

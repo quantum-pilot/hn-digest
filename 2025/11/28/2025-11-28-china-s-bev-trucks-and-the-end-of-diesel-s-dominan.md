@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Chinese purpose-built electric heavy trucks with 400–600 kWh packs reportedly cost €58k–€85k; the author estimates upgrades for Western short-haul compliance would raise them to €80k–€120k, still below many Western offerings. In China, battery-electric share rose from 13% of 2024 heavy-truck sales to roughly 22% in early 2025 as diesel neared 50%. Because most freight is short-haul, the article expects rapid adoption. Commenters largely accepted the cost shift but argued that geography, infrastructure, and energy strategy will determine its pace.
+China’s purpose-built battery trucks are reportedly selling for €58,000–€85,000, with the author estimating Western short-haul compliance upgrades could raise landed cost to €80,000–€120,000, still below many Western models. Battery-electric share reached 13% of Chinese heavy-truck sales in 2024 and about 22% in early 2025, while diesel approached 50%. The strongest fit is predictable sub-250-kilometer depot routes; long haul demands more safety, comfort, durability, and charging. Commenters emphasized infrastructure, regional electricity prices, oil dependence, subsidies, and firsthand urban adoption.
 
 ### Comment pulse
 
-- Urban fleets may be further ahead → a Chengdu visitor saw used electric construction trucks — counterpoint: rural and intercity fleets likely lag.
-- Battery costs reset purchase economics → readers argued falling pack prices can erase diesel's hardware advantage before Western incumbents adjust.
-- Energy strategy shapes adoption → electrification can reduce China's oil imports, while US fossil abundance weakens immediate incentives.
+- Short-haul advantage → depot charging, stop-start routes, and lower operating costs align with inexpensive Chinese platforms.
+- Strategic shift → electrification reduces imported-oil exposure and gives China an exportable manufacturing lead.
+- Deployment constraint → certification, service, durability, megawatt charging, and driver standards complicate headline purchase-price comparisons.
 
 ### LLM perspective
 
-- View: Short-haul fit turns battery trucks from climate policy into fleet economics.
-- Impact: Ports, depots, and utilities must plan for concentrated charging loads and service demand.
-- Watch next: Landed reliability, battery swapping, megawatt charging, service networks, tariffs, and audited lifetime costs.
+- View: The disruptive signal is a maturing cost structure, not proof that every freight duty is ready.
+- Impact: Western truckmakers face price pressure while fleets gain plausible electrification options for bounded routes.
+- Watch next: Verify lifetime cost, battery degradation, uptime, certified imports, charger utilization, and residual values.

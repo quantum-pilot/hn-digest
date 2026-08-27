@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-A satirical credit report dissects Meta’s $28.79 billion Louisiana AI campus: Blue Owl’s Beignet vehicle raises $27.3 billion, owns 80% of the joint venture, and receives Meta-backed rent, overrun coverage, and residual-value guarantees while the debt remains off Meta’s balance sheet. The piece argues legal control differs implausibly from economic responsibility. Commenters debated whether the structure genuinely transfers downside risk, noting Hyperion bonds yield about one percentage point above Meta debt despite an A+ rating.
+A satirical mock credit report attacks Meta's Louisiana Hyperion financing: Blue Owl affiliates own 80% of a joint venture funded largely by $27.3 billion in Beignet notes, while Meta owns 20%, designs and occupies the campus, covers overruns, guarantees leases, and supports residual value. The article argues that legal separation leaves debt off Meta's balance sheet despite economic linkage. Commenters debated whether the structure genuinely transfers downside risk, noting the bonds reportedly yielded about 6.6%, above Meta's own debt.
 
 ### Comment pulse
 
-- Accounting form masks Meta-like borrowing → Meta builds, occupies, and guarantees nearly every material obligation while denying primary-beneficiary status.
-- Risk transfer may be real → bankruptcy or demand collapse could leave investors exposed — counterpoint: residual guarantees still bind Meta.
-- The market discounts the wrapper → a roughly 6.6% coupon exceeds Meta corporate borrowing costs despite investment-grade treatment.
+- The arrangement resembles Meta financing its own facility → guarantees preserve economic exposure while accounting avoids consolidation.
+- Risk transfer may be substantive → disaster, demand, and asset-value outcomes could still differ from direct ownership.
+- Markets charge for the distinction → the reported higher coupon suggests investors do not treat Beignet obligations as Meta bonds.
 
 ### LLM perspective
 
-- View: The financing buys accounting separation at a measurable premium, suggesting investors see imperfect equivalence.
-- Impact: Shareholders gain cleaner leverage metrics; bondholders receive contractual support but accept structural subordination and illiquidity.
-- Watch next: Meta’s consolidation disclosures, renewal assumptions, guarantee liabilities, construction overruns, and secondary-market pricing.
+- View: Satire exposes the control-versus-risk judgment, but cannot substitute for the transaction's audited accounting analysis.
+- Impact: Meta preserves reported leverage while investors receive extra yield for structural and contractual uncertainty.
+- Watch next: Review lease disclosures, consolidation judgments, guarantee limits, construction overruns, and eventual residual-value payments.

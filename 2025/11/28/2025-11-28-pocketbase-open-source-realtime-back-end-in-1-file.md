@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-PocketBase packages a realtime SQLite database, authentication, local or S3 file storage, an admin dashboard, REST APIs, subscriptions, migrations, and Go or JavaScript extension hooks into one portable backend binary. Commenters described it as productive and reliable for prototypes, internal tools, and small-to-medium production applications, especially when operational simplicity matters more than hypothetical scale. Reservations centered on SQLite’s missing decimal type, occasional breaking changes, unsupported edge cases, questions about GIS and PostgreSQL support, and dependence on a single maintainer.
+PocketBase 0.34 packages a configurable backend into one executable: an embedded realtime database, authentication, local or S3 file storage, an admin dashboard, REST APIs, subscriptions, migrations, and Go or JavaScript extension hooks. It targets prototypes, internal tools, and small-to-medium applications that do not need a custom distributed stack. Commenters reported solid production and personal use, praising SQLite's operational simplicity, but noted breaking changes, missing specialized capabilities such as decimal handling, difficult edge cases, and dependence on a solo maintainer.
 
 ### Comment pulse
 
-- Single-binary operations beat premature distribution → most CRUD applications never reach WAL contention before product or user-growth limits.
-- Extensibility covers many gaps → hooks, migrations, and SDKs support custom applications — counterpoint: unusual requirements can become difficult workarounds.
-- Sustainability worries users → strong production reports coexist with concern that one developer handles releases and community support.
+- SQLite is sufficient surprisingly often → acquiring users and developer operations usually constrain small applications before write contention.
+- Built-in administration accelerates ordinary CRUD → custom domain logic still requires extensions or a conventional backend.
+- Solo stewardship creates continuity risk → strong responsiveness and extensibility coexist with maintenance pressure and occasional breaking changes.
 
 ### LLM perspective
 
-- View: Its sweet spot is bounded applications whose teams value deployment speed over database portability and specialized features.
-- Impact: Small teams can replace substantial backend scaffolding, but must own migration and continuity plans.
-- Watch next: Stable-version progress, breaking-change frequency, maintainer capacity, Raspberry Pi performance, GIS needs, and decimal handling.
+- View: PocketBase optimizes time-to-working-system, accepting a narrower scaling and ecosystem envelope for lower operational cost.
+- Impact: Small teams can postpone infrastructure work and spend earlier effort on product-specific behavior.
+- Watch next: Benchmark actual concurrency, rehearse backups and migrations, and identify unsupported data types before production adoption.

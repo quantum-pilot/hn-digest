@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-A prototype wearable seeks to warn people when nearby smart glasses contain cameras without using a camera itself. Infrared LEDs and a photodiode look for lens retro-reflections, but tests against Meta Ray-Bans were weak and inconsistent even inches away. BLE fingerprints using Meta manufacturer and service identifiers work during pairing or power-on, not reliably during ordinary use because connection following needs better radio hardware. Commenters saw privacy, venue-security, and anti-surveillance uses while questioning wearability and modern cameras’ resistance to infrared dazzling.
+Ban-Rays is an experimental wearable intended to detect camera-equipped smart glasses without using its own camera. Infrared sweeps look for lens retro-reflection, but Meta Ray-Ban tests produced weak, inconsistent signals even four inches away. Bluetooth fingerprinting can identify Meta manufacturer data and service UUIDs during pairing or power-on, yet not reliably during normal directed traffic. Commenters saw privacy and venue-security uses, proposed stationary detectors or IR countermeasures, and noted modern camera filters make sensor flooding unreliable, especially in daylight.
 
 ### Comment pulse
 
-- Optical detection remains noisy → glossy surfaces resemble lenses, signal strength varies, and useful scans currently require close, deliberate sweeps.
-- BLE identification is event-limited → randomized addresses matter less than Meta identifiers, but advertisements rarely appear during ongoing use.
-- A clip-on form may win adoption → users want protection without replacing preferred eyewear or trusting a vendor vulnerable to acquisition.
+- Wearability serves people worried about covert public recording → fixed installations may better protect venues or sensitive rooms.
+- BLE identification is currently event-limited → advertisements appear during startup or pairing, not consistently while recording.
+- IR could detect or disrupt lenses → counterpoint: reflections are noisy and modern filters reduce blinding effectiveness.
 
 ### LLM perspective
 
-- View: Combining independent optical and radio evidence could reduce false alarms better than either immature channel alone.
-- Impact: Reliable detection would restore notice and consent in spaces where discreet recording is otherwise invisible.
-- Watch next: nRF packet following, Ray-Ban daylight tests, multi-wavelength optics, collimation, false-positive rates, and clip-on prototypes.
+- View: The prototype demonstrates identifiable signals, not yet a dependable test that nearby glasses contain an active camera.
+- Impact: False positives or missed devices would limit trust in personal and security deployments.
+- Watch next: Measure range, angles, lighting, device coverage, active BLE probing, and classification error rates on blinded trials.

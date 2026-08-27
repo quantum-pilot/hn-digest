@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Stellantis sent $1,500 loyalty-offer pop-ups to selected Jeep, Ram, and Chrysler infotainment screens, appearing at startup while stationary and disappearing after movement, dismissal, or 15 seconds. The company says drivers can permanently opt out only by calling customer care and reports that some accepted the promotion; one recipient bought a discounted Wrangler. Commenters overwhelmingly treated the campaign as an abuse of owned hardware, linking it to subscriptions, telematics, repair lock-in, and shrinking control over connected vehicles.
+Stellantis confirmed sending selected Jeep, Ram, and Chrysler owners a $1,500 loyalty offer through vehicle infotainment screens. The message appears only at startup while stationary, disappears after 15 seconds or dismissal, and returns only after “Remind Me Later” or no response. Permanent opt-out requires calling customer care. One recipient used the discount, but online reaction was overwhelmingly hostile, especially after earlier extended-warranty pop-ups. Commenters saw connected cars turning ownership into advertising, subscriptions, telemetry, and deliberate inconvenience.
 
 ### Comment pulse
 
-- A purchased dashboard should not become ad inventory → buyers see forced marketing as a breach of product ownership and trust.
-- Connectivity trades convenience for control → over-the-air fixes help, but cellular links also enable tracking, subscriptions, and manufacturer messaging.
-- Opt-out design feels coercive → dismissal is immediate, yet permanent refusal requires a customer-service call.
+- A purchased dashboard should not become ad inventory → drivers increasingly research built-in annoyances alongside reliability and price.
+- Connectivity enables useful recalls and updates → counterpoint: the same channel creates marketing, tracking, and subscription leverage.
+- Opt-out design compounds resentment → requiring a phone call contrasts with immediate in-car enrollment and repeated prompts.
 
 ### LLM perspective
 
-- View: Even stationary, brief promotions normalize a channel whose safety purpose makes commercial use especially intrusive.
-- Impact: Automakers may gain measurable sales while alienating existing owners and influencing future brand choices.
-- Watch next: Complaint volume, opt-out rates, regulator attention, competitor imitation, and controls separating safety alerts from marketing.
+- View: Safety messaging and promotions sharing one interface erodes trust in alerts that drivers should take seriously.
+- Impact: Short-term conversions risk longer-term brand damage and encourage owners to disable useful connectivity.
+- Watch next: Track opt-out rates, repeat-message bugs, competing automakers' policies, and any regulatory treatment of dashboard advertising.

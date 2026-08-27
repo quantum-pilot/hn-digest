@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-A UK homelabber restored transparent access to Imgur images by overriding i.imgur.com in Pi-hole, forwarding TLS through Traefik, and placing an Nginx TCP proxy inside Gluetun’s WireGuard network namespace. Only Imgur traffic takes the VPN route, preserving 2.5Gbps direct connectivity for everything else and requiring no client setup. Commenters welcomed the fix for broken archival links but noted that OpenWrt, UniFi, or a Linux router can implement domain-based policy routing more simply.
+After Imgur blocked UK access, the author restored old embedded images across every home device without tunneling unrelated traffic. Pi-hole resolves `i.imgur.com` to Traefik, which uses TLS passthrough to an Nginx proxy sharing Gluetun's VPN network; credentials remain encrypted in a declarative NixOS setup. The result adds little image-loading latency and requires no client configuration. Commenters suggested simpler router-level policy routing, while noting that domain routing and IPv6 bypass can complicate otherwise straightforward WireGuard rules.
 
 ### Comment pulse
 
-- Router policy routing is cleaner → OpenWrt and UniFi can send selected domains through WireGuard without a proxy stack.
-- Network-wide interception solves persistent link rot → old forums, documentation, and product pages still depend on Imgur-hosted images.
-- IPv6 complicates selective routing → UniFi may let matching traffic bypass the VPN unless operators add firewall rules.
+- Router policy routing may replace several containers → OpenWrt and UniFi can send selected domains through WireGuard.
+- DNS-based proxying suits hostname selection → ordinary IP routes struggle when shared or changing addresses underlie a domain.
+- IPv6 needs separate attention → unsupported VPN routing can let traffic bypass the intended tunnel.
 
 ### LLM perspective
 
-- View: Transparent domain routing is a practical resilience layer when regional restrictions break embedded web history.
-- Impact: Every household device benefits, while latency and bandwidth costs remain confined to blocked traffic.
-- Watch next: Imgur hostname changes, IPv6 leakage, VPN health, and certificate passthrough behavior.
+- View: The design trades infrastructure complexity for transparent, domain-specific behavior across unmanaged devices.
+- Impact: Households can preserve access to legacy embeds without sacrificing bandwidth or configuring every client.
+- Watch next: Test IPv6, DNS changes, certificate behavior, VPN failure modes, and additional blocked hostnames.

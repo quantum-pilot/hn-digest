@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Melanised fungi found around Chernobyl can grow toward radiation, and some experiments report roughly 10% faster growth near caesium or 1.21-times growth aboard the ISS. Researchers hypothesize that melanin may convert ionising radiation into metabolic energy, but radiosynthesis remains unproven and species results conflict. A thin fungal layer also reduced measured space radiation, inspiring self-growing habitat shields. Commenters emphasized that fungi absorb emitted energy, not neutralize radioactive isotopes, and questioned whether shielding effectiveness justifies the required biomass.
+Melanised fungi found around Chernobyl can tolerate intense radiation, sometimes grow toward sources, and in one experiment grew 10% faster with radioactive caesium. Researchers hypothesize “radiosynthesis,” where melanin converts ionizing radiation into usable metabolic energy, but the mechanism remains unproven and studies are inconsistent. An ISS experiment found *Cladosporium sphaerospermum* grew 1.21 times faster and modestly increased shielding, though microgravity or water may explain effects. Commenters stressed that absorption does not eliminate radioactive isotopes and questioned biomass and mass efficiency.
 
 ### Comment pulse
 
-- Radiation feeding is still a hypothesis → the molecular energy-conversion mechanism remains unidentified, and controlled studies have produced null results.
-- Shielding does not remediate fuel → absorbing particles leaves isotope half-lives unchanged — counterpoint: biomass might still protect occupants.
-- Space practicality depends on mass efficiency → living composites must outperform water or polyethylene while sourcing nutrients and structural material locally.
+- “Eating radiation” describes possible energy capture → it does not shorten isotope half-lives or remove radioactive material.
+- Living shielding could grow in place → counterpoint: it still needs feedstock, and ordinary materials may shield more efficiently.
+- Evidence remains mixed → only some melanised species show radiotropism, while controlled studies have found no growth difference.
 
 ### LLM perspective
 
-- View: The strongest near-term claim is radiation tolerance and attenuation, not nuclear cleanup or proven radiosynthesis.
-- Impact: Confirmed lightweight shielding could benefit habitats; overstated language risks confusing energy capture with isotope removal.
-- Watch next: Ground-based microgravity controls, melanin-specific comparisons, dose-spectrum tests, areal-density benchmarks, and regolith-based growth trials.
+- View: Radiation tolerance and attenuation are established observations here; metabolic harvesting remains a narrower, unsettled hypothesis.
+- Impact: Space-habitat designers need mass-normalized shielding data before biological novelty becomes an engineering advantage.
+- Watch next: Isolate melanin's mechanism and compare fungal, water, regolith, and polymer shielding under matched radiation conditions.

@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-A German petition asks Parliament to classify unpaid open-source contribution as civic volunteering, arguing that public infrastructure depends on maintainers who lack tax, liability, expense-reimbursement, and nonprofit support available to traditional volunteers. Formal recognition could ease allowances, charitable classification, reimbursements, and donations. Commenters supported rewarding digital public goods but disputed eligibility: vague definitions could subsidize corporate work, encourage low-value contributions, or bury maintainers in bureaucracy, while owner and merged-code exclusions would miss essential review, triage, and security labor.
+A German petition asks lawmakers to recognize public-interest open-source work as formal volunteering, arguing that unpaid maintainers support critical digital infrastructure without the tax, liability, reimbursement, or nonprofit advantages available to traditional civic service. It had 2,646 signatures, about 9% of its 30,000 German quorum. Commenters supported reimbursing contributors and reducing burnout, but worried that vague eligibility could create bureaucracy, subsidize commercial work, reward low-value contributions, or exclude essential review, maintenance, and unsuccessful investigation.
 
 ### Comment pulse
 
-- Recognition could sustain critical maintainers → public agencies and businesses consume infrastructure maintained by unpaid volunteers.
-- Broad eligibility invites gaming → companies might relabel cheap labor or pet projects — counterpoint: capped reimbursements and approved hosts constrain abuse.
-- Contribution metrics distort behavior → merged-code or adoption thresholds exclude reviews and failed experiments while incentivizing spam.
+- Recognition could fund expenses and reduce unequal burdens → poor contributors may otherwise skip conferences, hosting, or sustained maintenance.
+- Eligibility invites gaming → corporations could disguise labor or incentives could flood projects with useless contributions.
+- Simple metrics would mismeasure value → ownership, merged code, and popularity omit review, triage, security response, and exploratory work.
 
 ### LLM perspective
 
-- View: Legal status should reward demonstrable public benefit, not licenses, ownership, or commit counts alone.
-- Impact: Well-designed rules could fund expenses and reduce liability; burdensome certification would favor applicants skilled at paperwork.
-- Watch next: Bundestag committee review, eligibility definitions, benefit caps, host requirements, and treatment of maintainer work.
+- View: The policy challenge is defining public benefit without converting volunteer maintenance into an expensive certification exercise.
+- Impact: Well-designed support could reach overloaded maintainers; narrow rules may instead favor applicants skilled at paperwork.
+- Watch next: Examine parliamentary response, host-organization requirements, payment caps, eligible licenses, impact tests, and anti-abuse controls.

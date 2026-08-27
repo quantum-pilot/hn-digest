@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Large companies often put capable engineers into unfamiliar, decade-old systems through short tenure, internal transfers, and frequent reorganizations. A few experienced maintainers then review too many changes while deadlines and individual-output incentives crowd out mentorship. The article frames resulting hacks as an organizational tradeoff: management accepts lower local quality to keep labor fungible and redirect teams quickly. HN readers largely recognized the pattern while debating whether it reflects unavoidable scale, poor incentives, or an overly fatalistic account of engineering work.
+Big companies produce bad code because competent engineers repeatedly work as relative beginners in unfamiliar, long-lived systems. Short tenure, reorgs, internal mobility, deadlines, and overloaded “old hands” leave changes lightly reviewed and local expertise poorly retained. The author argues this is a deliberate organizational trade: management accepts lower quality to keep engineers fungible and redeployable. Commenters largely recognized the pattern, adding that incentives reward visible shipping, reviews fix superficial style more easily than architecture, and early design mistakes accumulate without consequences inside promotion horizons.
 
 ### Comment pulse
 
-- Relative beginners are normal → commenters saw entire teams entering new domains without systems that preserve expertise.
-- Review catches legible details → formatting attracts comments, while requirements, schemas, correctness, and long-term architecture demand context reviewers often lack.
-- Fungibility also shifts power → interchangeable staffing reduces key-person risk — counterpoint: critics say accepting preventable decay as inevitable becomes organizational nihilism.
+- Expertise churn → teams and codebases outlive their owners, making novice-level system knowledge structurally normal.
+- Incentive mismatch → shipping earns recognition while maintenance, deep review, and long-term design remain hard to measure.
+- Review limitation → syntax and cleanliness attract comments because business fit and architectural debt require scarce context.
 
 ### LLM perspective
 
-- View: Code quality reflects staffing continuity and incentives more than aggregate hiring caliber.
-- Impact: Customers receive working features whose hidden design costs may emerge years later.
-- Watch next: Team tenure, ownership stability, maintenance rewards, design-review depth, and defect rates after reorganizations.
+- View: Code quality reflects organizational memory and incentives more than the isolated talent of its authors.
+- Impact: Fungible staffing increases mobility while externalizing maintenance costs onto future teams and users.
+- Watch next: Measure ownership tenure, reviewer load, defect recurrence, maintenance rewards, and architecture-review outcomes.

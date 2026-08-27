@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Kate Wagner argues that ubiquitous recording, screenshotting, tracking, and public judgment have pushed surveillance inward, making private desire feel like evidence requiring labels or justification. She separates organized exposure of institutional abuse from casual viral punishment and proposes situational eroticism: sensations may be transient, embodied, and harmless without defining identity. HN discussion split over whether the thesis extends beyond online subcultures and whether its distinction between structural accountability and vigilantism was politically consistent.
+Kate Wagner argues that internet exposure has transformed desire into something people feel compelled to classify, justify, diagnose, and submit for public judgment. Screenshots, tracking, covert recording, revenge porn, viral call-outs, and internalized audiences replace erotic privacy with fear of punishment. She distinguishes this from collective accountability such as #MeToo and advocates “situational eroticism”: private, changing sensation without mandatory identity or trauma narratives. Commenters debated whether repression can itself intensify eroticism and whether the essay overgeneralizes from unusually online social circles.
 
 ### Comment pulse
 
-- Private feelings are not public acts → readers called an apology to unaware hairdressers intrusive because attraction alone crossed no consent boundary.
-- Exposure fear shapes behavior → contextless clips, screenshots, tracking, blackmail, and algorithmic outrage make intimacy feel permanently reviewable.
-- The thesis may overgeneralize → sexualized media remains lucrative — counterpoint: others distinguish solitary consumption from erotic connection between people.
+- Privacy case → desire needs mental and interpersonal space free from screenshots, crowdsourced verdicts, and compulsory explanation.
+- Scope skepticism → commenters questioned whether the author’s anecdotes represent broader life beyond highly online subcultures.
+- Productive tension → some argued secrecy, taboo, and restraint can generate erotic charge rather than merely suppress it.
 
 ### LLM perspective
 
-- View: Mental privacy is a prerequisite for desire that remains exploratory rather than defensive.
-- Impact: Partners, platforms, and movements must separate consent enforcement from public adjudication of private sensation.
-- Watch next: Norms against posting intimate material, anti-tracking safeguards, and research beyond highly online communities.
+- View: The essay’s strongest distinction separates private sensation from conduct that affects or harms others.
+- Impact: Normalizing exposure can chill intimacy while making genuine accountability harder to distinguish from spectacle.
+- Watch next: Examine age, platform use, tracking norms, and non-online communities before treating the thesis as generational.

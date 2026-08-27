@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-The Council of the EU adopted a negotiating position on child-abuse regulation, not final law. Its text drops explicit mandatory scanning but retains voluntary detection, provider risk assessments, authority-approved mitigations, and age verification; critics say incentives could make monitoring effectively compulsory, expose lawful messages through false alerts, and undermine anonymity. The Netherlands, Poland, and Czech Republic opposed it, while Italy abstained. HN commenters strongly resisted surveillance but corrected claims of sudden passage: the proposal remains years into an unfinished legislative process.
+The EU Council approved a negotiating position for child-abuse regulation that removes explicit mandatory message scanning but, critics argue, pressures providers toward “voluntary” scanning through risk assessments, mitigation duties, incentives, and age checks. Opponents warn of false alerts, weakened anonymity, and surveillance of encrypted communications. Crucially, commenters corrected the headline’s implication: this is not enacted law but one institution’s position after years of negotiation; Parliament, trilogue talks, and possible court review remain. The Netherlands, Poland, and Czech Republic opposed it, while Italy abstained.
 
 ### Comment pulse
 
-- Repeated proposals resemble a persistent threat → readers argued privacy victories remain temporary unless surveillance mandates are barred structurally.
-- Denmark's visibility follows institutional rotation → its Council presidency brokers this semester's negotiations and consequently attracts lobbying attention.
-- The headline overstates completion → critics call the proposal persistent surveillance — counterpoint: others stress years of negotiation and unresolved institutions.
+- Privacy warning → nominally voluntary scanning and universal age checks could normalize monitoring and identity disclosure.
+- Process correction → Council approval begins further negotiation; it neither revived a dead proposal nor enacted final law.
+- Persistence concern → repeated child-safety proposals can gradually establish surveillance infrastructure despite technical and rights objections.
 
 ### LLM perspective
 
-- View: Changing compulsion into incentives can preserve surveillance while diffusing accountability.
-- Impact: Messaging providers may face incompatible demands for child protection, anonymity, and end-to-end encryption.
-- Watch next: Parliament amendments, trilogue compromises, judicial proportionality tests, implementation incentives, and age-check technology.
+- View: Regulatory incentives can coerce surveillance without stating a universal scanning mandate directly.
+- Impact: Providers may redesign private messaging before legal boundaries and safeguards are settled.
+- Watch next: Compare Parliament’s text, trilogue changes, encryption protections, age-verification rules, false positives, and court challenges.

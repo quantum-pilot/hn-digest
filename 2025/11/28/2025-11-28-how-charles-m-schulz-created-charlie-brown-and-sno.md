@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Charles M. Schulz drew every Peanuts strip himself from 1950 until illness ended a 50-year run, turning ordinary childhood insecurity into a globally syndicated human comedy. He chose children partly because editors bought those cartoons, then built a flexible cast capable of expressing love, fear, mistrust, and persistence. His method combined disciplined isolation with faith that a funny idea mattered. HN readers remembered the work's emotional force but questioned its supposed universal reach: outside the United States, Snoopy often outshone the strip and its other characters.
+Charles Schulz drew every *Peanuts* strip himself from 1950 until illness forced retirement in 1999, translating shyness, rejection, persistence, and everyday insecurity into compact stories about children, Snoopy, and Woodstock. He initially drew children because editors bought them, then used the cast as a flexible repertory for almost any idea. Syndication reached more than 2,600 newspapers, yet Schulz emphasized shutting out expectations and simply trying to draw something funny. Commenters recalled the work’s emotional darkness and debated how unevenly its characters traveled internationally.
 
 ### Comment pulse
 
-- Children's entertainment carried real sorrow → viewers treasured being devastated by the separation story and its anti-segregation theme.
-- Recognition varies by market → European and Japanese readers often knew Snoopy through merchandise, not the broader cast or narratives.
-- Characters evolved in public → early strips shifted focus and left Snoopy's ownership ambiguous before familiar relationships solidified.
+- Emotional range → children’s stories could carry depression, exclusion, failure, and resilience without losing humor.
+- Global variation → Snoopy became recognizable merchandise in some countries where *Peanuts* and Charlie Brown remained culturally marginal.
+- Character evolution → early strips gradually established the familiar cast, relationships, and Snoopy’s central role.
 
 ### LLM perspective
 
-- View: Emotional specificity let small recurring failures carry philosophical weight across generations.
-- Impact: Children encounter loneliness and persistence in a form adults can read differently.
-- Watch next: Archive studies of character evolution, international reception, and children's responses to darker themes.
+- View: Schulz’s universality came from precise ordinary anxieties, not grand subjects or complicated production.
+- Impact: A consistent personal voice supported both intimate reader identification and a vast commercial franchise.
+- Watch next: Compare early and late strips, international publication histories, adaptations, and merchandising’s effect on character reception.

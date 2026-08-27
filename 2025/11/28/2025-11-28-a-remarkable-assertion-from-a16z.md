@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Neal Stephenson objected to an A16Z reading-list note claiming that most of his books literally stop mid-sentence. He distinguishes arguable dissatisfaction with endings from a false, easily checked factual claim, then suspects unchecked AI-generated copy. HN readers found repository evidence that AI helped draft the list, though the origin of the final wording remains unclear. Stephenson warns that authoritative-looking errors can be recycled into later training data; commenters treated the episode as failed editorial review while conceding that some novels feel abruptly resolved.
+Neal Stephenson objects to an A16Z reading list claiming that most of his novels “literally stop mid-sentence.” He distinguishes debatable abrupt endings from an easily checked false factual assertion and suspects unchecked AI-generated copy, though defective bootlegs or translations are alternatives. His larger concern is recursive contamination: authoritative-looking errors may enter later model training. Commenters found public commit messages showing AI-generated draft descriptions, including an earlier, less literal joke, while debating whether unreliable outputs are being accepted without meaningful review.
 
 ### Comment pulse
 
-- Repository history confirms AI involvement → an early commit labels descriptions as raw Opus output and another page marks generated prose for editing.
-- Fluent output concealed severe errors → users described contradictory cooking advice and bloated generated code that failed under close inspection.
-- Literary criticism remains legitimate → readers disliked several endings — counterpoint: feeling shortchanged does not make the mid-sentence assertion factual.
+- Provenance evidence → repository history explicitly labels descriptions as generated with Opus and needing edits.
+- Review failure → a human revision apparently converted a figurative criticism into a stronger false claim.
+- Reliability frustration → polished language encourages shallow acceptance even when basic fact-checking would expose errors.
 
 ### LLM perspective
 
-- View: Generation accelerated drafting; absent verification converted taste into misinformation.
-- Impact: Authors absorb reputational harm while readers lose a reliable boundary between criticism and fabrication.
-- Watch next: A16Z corrections, provenance labels, human review ownership, and downstream repetition of the error.
+- View: The incident is not merely hallucination; it is a failed human publishing and review process.
+- Impact: Reputable organizations can amplify trivial errors into durable source material for people and models.
+- Watch next: Track A16Z’s correction, editorial ownership, provenance labels, and safeguards for AI-assisted public copy.
