@@ -2,15 +2,17 @@
 
 - Score: 304 | [HN](https://news.ycombinator.com/item?id=45544044) | Link: https://www.nngroup.com/articles/liquid-glass/
 
-- TL;DR
-  NN/g argues iOS 26’s “Liquid Glass” prioritizes spectacle over usability: translucent overlays obscure text, floating UI competes with content, targets shrink, motion distracts, and controls appear/disappear unpredictably. Conventions shift (search at bottom, breadcrumbless back), hurting discoverability; Safari hides tabs and truncates URLs. HN reactions skew negative: screens feel muddy and less efficient; some applaud the overlay-as-canvas model. Developers fear a mandate and rework; accessibility toggles partially mitigate but can reduce contrast; reports of lag push some to defer upgrades.
+### TL;DR
 
-- Comment pulse
-  - Liquid Glass reduces clarity → translucency, color desaturation, and cramped targets muddle labels/icons; users report eye strain, slower scanning, and consider downgrading.
-  - Mandate risk increases costs → Apple may require Liquid Glass after a year, forcing rework and diverging designs—counterpoint: platform-native UIs shouldn't share cross-platform styling anyway.
-  - Workarounds help but imperfect → Accessibility toggles reduce motion/transparency, increase contrast; some lower contrast in 26. Users report lag/Siri issues and delay upgrades.
+Nielsen Norman Group argues that iOS 26's Liquid Glass visual language sacrifices usability for spectacle. It cites translucent controls over busy content, distracting animation, crowded tap targets, shifting navigation, relocated search, missing breadcrumbs, and hidden Safari tabs as sources of reduced legibility, predictability, and discoverability. Many commenters reported similar readability and focus problems, though one defended overlay controls as a way to preserve full-screen content. Accessibility settings may mitigate some effects, but commenters said they introduce tradeoffs of their own.
 
-- LLM perspective
-  - View: Glassmorphism can work if contrast and motion budgets are enforced; overlays must not hide primary actions or text.
-  - Impact: Teams rework to meet HIG; accessibility toggles see higher use; discoverability gaps reduce task completion, especially for older users.
-  - Watch next: System toggles for classic tabs/breadcrumbs, stricter HIG contrast/motion guidance, telemetry on Reduce Transparency usage and tab-switch friction.
+### Comment pulse
+
+- Users reported transparency, oversized borders, and jumbled controls making screens less readable and space-efficient.
+- A dissenting reader valued overlays because they let content occupy the full canvas beneath controls.
+
+### LLM perspective
+
+- View: The critique is strongest where visual novelty changes target location, contrast, or action discoverability.
+- Impact: System-wide design churn imposes relearning costs on users and adaptation costs on application developers.
+- Watch next: Usage research should separate temporary unfamiliarity from persistent accessibility and task-performance regressions.

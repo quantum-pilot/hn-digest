@@ -2,15 +2,18 @@
 
 - Score: 115 | [HN](https://news.ycombinator.com/item?id=45537890) | Link: https://www.supergoodcode.com/mesh-shaders-in-the-current-year/
 
-- TL;DR
-    - Khronos approved GL_EXT_mesh_shader, bringing mesh/task shaders to OpenGL. AMD led spec and Mesa work (Qiang Yu; CTS by Shihao Wang). Mesa groundwork exists; Zink enablement is queued, with RadeonSI likely to advertise first. The nvidium Minecraft mod, previously tied to NVIDIA’s GL_NV_mesh_shader, helped push cross-vendor support. HN explains mesh shaders as a vertex/geometry replacement enabling meshlets, culling, and fewer draw calls; gains vary by workload. Discussion also covers line rendering via mesh shaders/instancing and requests NV_shader_buffer_load-style buffer addresses.
+### TL;DR
 
-- Comment pulse
-    - Mesh shaders modernize GL and cut CPU overhead → meshlets enable culling/compaction and fewer draws; replace geometry/hull. — counterpoint: simple triangle workloads see modest gains.
-    - Line rendering via mesh shaders is viable → output lines directly or extrude quads; alternatives include instancing and VK_EXT_line_rasterization on Vulkan.
-    - Add NV_shader_buffer_load-like features next → pointer-style buffer access simplifies vertex fetch and scene-wide draws without binds; SSBOs approximate but lack raw device addresses.
+The OpenGL/ES Working Group approved `GL_EXT_mesh_shader`, described by the author as OpenGL's largest extension this decade. AMD led the specification, Mesa implementation, and optional conformance tests; Zink and RadeonSI support were being prepared, with Minecraft's Nvidium mod expected to adopt the vendor-neutral extension. HN discussion explained mesh shaders as a more explicit, packet-oriented replacement for parts of the vertex and geometry pipeline, enabling custom mesh processing and line generation. Commenters expected modest gains for conventional rendering but cleaner control for specialized workloads.
 
-- LLM perspective
-    - View: OpenGL gains a modern pipeline path, delaying mandatory Vulkan rewrites for engines and mods still tied to GL.
-    - Impact: Driver teams and Mesa downstreams ship support; Minecraft modders get vendor-neutral mesh shaders; Zink extends mesh shaders over Vulkan.
-    - Watch next: RadeonSI enabling first, Zink MR merge timing, CTS coverage, perf comparisons on complex scenes, and any Buffer Device Address-style extension.
+### Comment pulse
+
+- Mesh shaders expose modern GPU organization → offline meshlets and programmable workgroups reduce reliance on fixed vertex-processing machinery.
+- Traditional scenes may gain little → the feature primarily improves flexibility and elegance rather than guaranteeing broad speedups.
+- Minecraft helped motivate portability → Nvidium already uses NVIDIA's proprietary version and could reach other vendors through EXT.
+
+### LLM perspective
+
+- View: The extension keeps OpenGL relevant by standardizing a capability already proven through vendor-specific experimentation.
+- Impact: Engine and mod developers gain a cross-vendor path to GPU-driven geometry without immediately migrating APIs.
+- Watch next: Track RadeonSI, Zink, NVIDIA, conformance, Minecraft adoption, tooling, and performance across realistic mesh workloads.

@@ -2,15 +2,18 @@
 
 - Score: 143 | [HN](https://news.ycombinator.com/item?id=45540989) | Link: https://president.mit.edu/writing-speeches/regarding-compact
 
-- TL;DR
-  - MIT President Sally Kornbluth declined the Education Department’s proposed Compact, saying MIT already meets many standards but rejects provisions constraining speech, institutional independence, and research funding based on non-merit criteria. She cites merit-based admissions, need-blind aid, and a free-expression policy. HN debate splits: critics call the Compact federal overreach—mandated tuition freezes, grading oversight, ideological definitions, even “lawful force” language—while others say strings come with federal funds and protections for conservative viewpoints are overdue; some found the text reasonable.
+### TL;DR
 
-- Comment pulse
-  - Federal overreach → Compact imposes price freezes, grading oversight, speech controls, and biological definitions; chills academic freedom. — counterpoint: Accepting federal funds justifies enforceable conditions.
-  - Unworkable economics → Five-year tuition freeze can't track inflation or costs; threatens institutional solvency.
-  - Looks reasonable → Anti-discrimination for conservative viewpoints seen as balance; opponents accused of reflexive partisanship.
+MIT rejected the US Education Department's proposed Compact for Academic Excellence. President Sally Kornbluth said MIT already practices merit-based admissions, need-blind aid, free expression, and national service, but would not accept principles restricting institutional independence or expression, nor a premise tying scientific funding to anything besides scientific merit. HN commenters viewed the letter as a deliberately courteous total rejection. Debate focused on whether federal funding legitimately carries policy conditions and whether the compact's pricing, governance, grading, speech, and sex-definition provisions exceeded lawful accountability.
 
-- LLM perspective
-  - View: MIT stakes a principled line: accept accountability, reject ideological compacts; preserves autonomy without torching federal partnership.
-  - Impact: Raises pressure on peers; agencies must choose carrots, sticks, or revisions; potential funding and legal showdowns loom.
-  - Watch next: Which universities sign; Education Department rulemaking, grant conditions, or litigation; whether tuition-freeze and definition clauses get dropped.
+### Comment pulse
+
+- MIT framed compliance as mission-driven, not purchased → shared standards do not justify surrendering independence or merit-based research competition.
+- Federal leverage divided readers → taxpayers may attach conditions, but critics distinguished ordinary law from mandated ideology and governance.
+- Specificity was missing from MIT's reply → some wanted direct quotations explaining exactly which compact provisions were unacceptable.
+
+### LLM perspective
+
+- View: The dispute is less about individual standards than whether funding becomes a contract for continuing political control.
+- Impact: Universities must weigh research revenue against precedents affecting speech, admissions, pricing, governance, and academic judgment.
+- Watch next: Compare other institutions' responses, funding consequences, litigation, revised terms, and enforcement mechanisms.

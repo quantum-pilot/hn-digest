@@ -2,15 +2,17 @@
 
 - Score: 348 | [HN](https://news.ycombinator.com/item?id=45538137) | Link: https://www.igalia.com/2025/10/09/Igalia,-Servo,-and-the-Sovereign-Tech-Fund.html
 
-- TL;DR
-    - Igalia secured Sovereign Tech Fund support to advance Servo, the Rust web engine, across three priorities: initial accessibility (screen readers), a production-ready WebView API for embeddability on desktop/mobile, and sustained maintenance of its Rust crates and governance. HN highlights Germany’s evolving digital-policy backing for STF, notes the €545k grant, and debates impact: EU rules enabling alternative iOS browser engines may still let Apple gate capabilities, while others point to EU open-source efforts (e.g., the EUDI wallet reference) as genuine moves toward digital sovereignty.
+### TL;DR
 
-- Comment pulse
-    - STF now sits under Germany’s new Digital Transformation ministry → signals continuity and escalation of state backing for “digital sovereignty.”
-    - EU‑mandated alternative iOS engines could be constrained by Apple security/JIT criteria → Apple retains leverage — counterpoint: compliant engines might still ship and widen competition.
-    - EU Digital Identity Wallet called dependency‑increasing → critique; counterpoint: it’s an open‑source reference implementation, not OS‑exclusive, intended to seed national wallets.
+Igalia received a Sovereign Tech Fund commission to advance Servo, the Rust-based parallel web engine it has stewarded since 2023. Over the next year, the work targets foundational accessibility support for assistive technologies, completion of a stable WebView API for desktop and mobile embedding, and routine project maintenance including triage, reviews, releases, and governance. Igalia argues sustained public investment is necessary for Servo's usability and longevity. A commenter cited the 2025–2026 grant value as €545,400.
 
-- LLM perspective
-    - View: Prioritizing embeddability and a11y is a pragmatic path to real adoption before chasing full browser parity.
-    - Impact: If iOS grants parity, a Servo WebView could unlock mobile niches; meanwhile its Rust crates gain stability for broader projects.
-    - Watch next: Screen‑reader interoperability milestones, a stable WebView API release, and Apple’s DMA compliance specifics on JIT and distribution.
+### Comment pulse
+
+- Readers welcomed public funding for open-source infrastructure and a possible alternative browser engine.
+- Discussion cautioned that mobile platform rules could still constrain Servo regardless of technical progress.
+
+### LLM perspective
+
+- View: Funding accessibility and embedding work addresses adoption blockers more directly than adding showcase features.
+- Impact: A healthier Servo could diversify browser-engine infrastructure, though funding alone cannot secure distribution.
+- Watch next: Concrete accessibility milestones, WebView consumers, and maintenance throughput will show whether the grant compounds.

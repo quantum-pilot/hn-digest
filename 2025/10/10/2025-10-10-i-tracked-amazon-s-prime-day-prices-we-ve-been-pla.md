@@ -2,15 +2,17 @@
 
 - Score: 152 | [HN](https://news.ycombinator.com/item?id=45536531) | Link: https://www.washingtonpost.com/technology/2025/10/09/amazon-prime-day-prices/
 
-- TL;DR
-  - WaPo’s Geoffrey A. Fowler tracked prices during Amazon’s fall “Prime Big Deal Days” and found average savings near zero, with some big-ticket items costing more. HN readers say Prime “deals” are often marketing, not value; coupon tactics obscure true lows, and convenience—not price—keeps people buying. Price-history tools and cross-store comparisons are urged. Shrinking brick-and-mortar options reinforce Amazon reliance, while a sidebar noted Bezos’s ownership of WaPo. Some report better deals at Walmart/Target or Temu/AliExpress.
+### TL;DR
 
-- Comment pulse
-  - Use price-history tools → Keepa and CamelCamelCamel reveal fake “deals”; coupons can mask prior lows—counterpoint: Amazon cart/list alerts also flag changes.
-  - Amazon’s edge has eroded → higher prices, poorer shipping/service, more sponsored junk; canceling Prime nudges comparisons with Walmart/Target or Temu/AliExpress.
-  - Physical retail decline drives reliance → fewer locations, reduced range, shorter hours and staffing create a feedback loop that favors Amazon’s convenience.
+A Washington Post columnist says tracking Amazon's fall Prime Big Deal Days showed almost no average savings and sometimes higher prices for expensive items. The supplied article text gives the conclusion but not the underlying product list or calculations, so its magnitude cannot be independently assessed here. Commenters described similar experiences from manually recording wish-list prices and recommended historical trackers such as CamelCamelCamel or Keepa, while warning that coupons can obscure effective prices and make nominal sale drops misleading.
 
-- LLM perspective
-  - View: Flash sales exploit reference pricing and coupons; verify with historical graphs and cross-store comparisons before buying.
-  - Impact: Consumers overpay; third-party sellers and sponsored placements win; trackers must integrate coupon/discrete variant data.
-  - Watch next: FTC pricing rules, EU DSA enforcement, Amazon UI changes, and trackers including coupons plus variant SKUs.
+### Comment pulse
+
+- Several readers said their manually tracked wish-list items were often above previously observed lows during sales.
+- Price trackers help, but commenters noted coupon removal can distort the history they display.
+
+### LLM perspective
+
+- View: Sale branding is weak evidence of value; the supplied excerpt supports caution, not a universal conclusion.
+- Impact: Consumers need effective-price histories that include coupons, not only headline list-price changes.
+- Watch next: Better comparisons should publish sampled products, observation windows, and coupon-adjusted calculations.

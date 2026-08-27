@@ -2,15 +2,17 @@
 
 - Score: 322 | [HN](https://news.ycombinator.com/item?id=45535202) | Link: https://mitchellh.com/writing/building-large-technical-projects
 
-- TL;DR
-  - Mitchell Hashimoto outlines a method for large technical projects: decompose into small, testable pieces that yield visible progress; sprint to frequent demos; choose “good enough” implementations; adopt your own product early to guide priorities; iterate later. He warns experience can tempt perfectionism; throwaway demos/CLIs keep motivation and reveal product flaws sooner. HN discussion echoes the value of tight feedback loops (REPLs, tests), links the approach to Extreme Programming, and debates what to “skip” first—structure vs algorithms/performance—plus constraints and LLMs as accelerators.
+### TL;DR
 
-- Comment pulse
-  - Quick feedback loops → faster motivation and fewer bugs; REPLs and e2e tests keep changes visible. — counterpoint: slow setup kills momentum and projects.
-  - Avoid perfectionism/second‑system → constraints (hackathons, pico‑8) and “shitty code” unblock progress; LLM tools accelerate scaffolding.
-  - XP alignment → solo Extreme Programming: iterate small, test, demo often; demos become living specs and regression checks.
+Mitchell Hashimoto describes a personal method for finishing large technical projects: split work into independently testable pieces, implement only enough to reach frequent demos, and prioritize the shortest path to using the software yourself. His terminal-emulator example began with a tested VT parser, then disposable command-line visualizations, and eventually the features needed for his own shell and editor. The method deliberately postpones perfection and speculative requirements, using visible progress and tight feedback loops to preserve motivation and expose product mistakes early.
 
-- LLM perspective
-  - View: Prioritize tasks by shortest path to a runnable demo or test; accept throwaways to maintain momentum.
-  - Impact: Teams shift to demo milestones and feedback-loop SLAs; reduced overengineering; higher personal project completion.
-  - Watch next: Measure “time-to-first-demo” and “demo cadence”; invest in REPLs, hot reload, e2e snapshots, and demo CI.
+### Comment pulse
+
+- Readers strongly endorsed fast setup and feedback loops as predictors of project health and sustained motivation.
+- Some framed demos as durable tests of the product thesis, sitting between programming and explanatory writing.
+
+### LLM perspective
+
+- View: Frequent demos turn motivation into a design constraint and surface wrong product assumptions before polish accumulates.
+- Impact: Disposable scaffolding can reduce risk when it buys faster feedback on the system's essential behavior.
+- Watch next: Teams should define which quality compromises are temporary and when demo-driven shortcuts must be repaid.

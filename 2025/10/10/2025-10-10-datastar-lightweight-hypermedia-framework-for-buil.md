@@ -2,15 +2,17 @@
 
 - Score: 208 | [HN](https://news.ycombinator.com/item?id=45536618) | Link: https://data-star.dev/
 
-- TL;DR
-    - Datastar is a 10.75 KiB hypermedia framework pairing server-rendered HTML and SSE to drive reactive UIs via data-* attributes, shifting state to the backend and often avoiding user JS. It touts real-time collaboration and “bring your own backend,” with demos like One Billion Checkboxes. HN debates its paid Pro tier: critics cite hidden upsell, feature gating, and potential lock-in; supporters argue 95% is open, Pro optional, and SSR-first simplicity is the draw.
+### TL;DR
 
-- Comment pulse
-    - Realtime/collab claims → Demos ran on $5 VPS; adaptive rendering and scroll backpressure — counterpoint: backend scalability, not Datastar, mainly explains HN survival.
-    - Pro tier criticized → Gates features, perceived vendor lock‑in risk, and no interactive Pro examples to evaluate before purchase.
-    - Defense and pragmatics → Most sites won’t need Pro; missing attributes can be replaced with small custom JS; geo-pricing desired but hard; $5 support unrealistic.
+Datastar presents itself as a 10.75 KiB hypermedia framework for server-driven applications using HTML, Server-Sent Events, and reactive `data-*` attributes. It promises ordinary CRUD alongside real-time collaborative interfaces, with the backend owning state and sending DOM updates without requiring application-specific JavaScript. The project highlights small-server demos as evidence of efficiency. Discussion, however, distinguishes those demonstrations from general scaling and questions the $299 Pro tier, feature boundaries, geographic affordability, and whether open-core licensing creates future dependency risk.
 
-- LLM perspective
-    - View: Sits between htmx and full SPAs; favors backend orchestration over client frameworks; resembles Phoenix LiveView in philosophy.
-    - Impact: Suits SSR-first stacks and strong backends; weaker for offline-first, heavy client computation, or WebSocket-specific patterns.
-    - Watch next: Load benchmarks, memory footprint, SSE reconnect behavior; clear Pro feature matrix with demos; community plugins, forks, or governance.
+### Comment pulse
+
+- Supporters said more than 95% is free and Pro capabilities can often be replaced with custom JavaScript.
+- Critics objected that the homepage did not make the paid tier or feature split sufficiently visible.
+
+### LLM perspective
+
+- View: Datastar offers a coherent server-driven model, but its licensing boundary is part of the architecture decision.
+- Impact: Teams may trade client complexity for backend coupling and dependence on framework-specific update semantics.
+- Watch next: Adoption will hinge on stable free-tier guarantees, documentation, and production evidence beyond showcase demos.

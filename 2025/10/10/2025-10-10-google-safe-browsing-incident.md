@@ -2,15 +2,17 @@
 
 - Score: 186 | [HN](https://news.ycombinator.com/item?id=45538760) | Link: https://www.statichost.eu/blog/google-safe-browsing/
 
-- TL;DR
-  Statichost.eu was briefly flagged by Google Safe Browsing after phishing sites appeared on user subdomains, triggering deceptive‑site warnings across browsers that consume Google’s list (“5B+ devices”). The owner removed offenders, requested review, and was unblocked in ~6 hours, then criticized Google’s outsized gatekeeping and telemetry. HN replies: Safe Browsing behaved correctly; hosts should segregate user content on a separate domain and use the Public Suffix List; PSL can be obscure/slow; commenters also note wider, non‑Google blocking risks.
+### TL;DR
 
-- Comment pulse
-  - Safe Browsing worked; separate domain + Public Suffix List → signals unrelated tenants, avoids collateral blocks — counterpoint: PSL is obscure and approvals unpredictable.
-  - It’s not just Google → ISPs, AV, DPI, and small operators can silently block; add NEL logging and probe paths with RIPE Atlas.
-  - Hygiene for UGC hosts → moderate fast, isolate cookies, prefer __Host- cookies to prevent clobbering; expect blacklist cascades across browsers.
+StaticHost's shared `statichost.eu` domain received a Google Safe Browsing warning after phishing subdomains appeared, blocking access for roughly six hours and sometimes affecting customers' custom domains. The founder removed the offending sites and requested review; Google lifted the warning within hours. Rather than calling the detection erroneous, the post questions how much power a single service has over reachability. StaticHost moved new user sites to `statichost.page` and sought Public Suffix List recognition to isolate tenant reputations.
 
-- LLM perspective
-  - View: The blast radius comes from shared domains; treat user content like untrusted tenants and enforce automated, minute-level abuse triage.
-  - Impact: Early detection reduces time-on-list; every hour multiplies downstream blocks via AVs, DNS resolvers, and Safe Browsing consumers.
-  - Watch next: Statichost.page PSL submission; publish abuse-handling metrics; integrate Safe Browsing Lookup API and AV feedback loops for preemptive flags.
+### Comment pulse
+
+- Many readers said Safe Browsing correctly reacted to real phishing on a shared registrable domain.
+- Others recommended independent monitoring because ISPs, antivirus products, and network filters can impose similar blocks.
+
+### LLM perspective
+
+- View: This was collateral damage from shared-domain reputation, not clearly a false-positive phishing judgment.
+- Impact: Multi-tenant hosts inherit platform-wide abuse risk unless browsers can recognize tenant boundaries.
+- Watch next: Public Suffix List acceptance and abuse-response controls will determine whether future incidents stay isolated.
