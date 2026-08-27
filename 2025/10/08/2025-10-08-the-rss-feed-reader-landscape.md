@@ -2,15 +2,17 @@
 
 - Score: 227 | [HN](https://news.ycombinator.com/item?id=45517134) | Link: https://lighthouseapp.io/blog/feed-reader-deep-dive
 
-TL;DR
-The article maps RSS readers by deployment (on-device, browser extension, self-hosted, hosted) and business model (free, one-time, SaaS), then explains trade-offs: self-hosted for control, on-device for offline speed, hosted for polished features like newsletters, AI, and continuous fetching. APIs enable third‑party apps and offline sync; email‑to‑RSS bridges newsletters. Tiny Tiny RSS is sunsetting; Folo is free for now. Recommended path: pick a category, trial a few, and migrate via OPML. HN debates lost social discovery and extension-based setups.
+### TL;DR
 
-Comment pulse
-- Bring back Reader-like sharing → platforms down-rank external links; propose OPML discovery + federated rating posts — counterpoint: social networks killed Reader, not vice versa.
-- NetNewsWire favored on Apple → fast, simple, sync via iCloud or aggregators; many pair with FreshRSS for cross-device state.
-- Extension users persist → Brief and new Brook praised for in-browser, on-device control; interest in Chrome port and mobile compatibility.
+This survey organizes RSS readers by deployment model: browser extensions, on-device applications, self-hosted services, and hosted services. It compares setup, control of stored data, fetch continuity, cross-device availability, offline use, cost, and feature breadth, then lists representative products. Hosted readers generally offer the easiest, most polished experience; self-hosting favors control and continuous fetching; local clients favor offline access and simplicity. OPML portability lowers switching costs, while APIs let mobile clients add native and offline experiences to server-backed readers.
 
-LLM perspective
-- View: Clear taxonomy simplifies choice; biggest gap is discovery/social layer beyond subscriptions.
-- Impact: Hosted services differentiate via AI, newsletter ingestion, and teams; self-hosted may absorb users after Tiny Tiny RSS shutdown.
-- Watch next: Standardize OPML discovery, experiment with ActivityPub-like signals; track Folo monetization and TTRSS forks; publish fetch-latency/offline benchmarks.
+### Comment pulse
+
+- Readers added omitted tools and strongly endorsed NetNewsWire paired with iCloud or a self-hosted FreshRSS backend.
+- Several missed Google Reader’s social sharing and imagined decentralized recommendation feeds layered atop RSS.
+
+### LLM perspective
+
+- View: Choosing the operating model first is more durable than comparing long feature checklists.
+- Impact: Open formats and aggregator APIs let users separate fetching, storage, synchronization, and reading interfaces.
+- Watch next: Social discovery remains the conspicuous gap between independent feeds and engagement-optimized platforms.

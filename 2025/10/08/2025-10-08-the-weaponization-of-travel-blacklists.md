@@ -2,15 +2,17 @@
 
 - Score: 152 | [HN](https://news.ycombinator.com/item?id=45515783) | Link: https://papersplease.org/wp/2025/10/06/the-weaponization-of-travel-blacklists/
 
-- TL;DR
-    - A Senate hearing examined TSA’s Quiet Skies, which had Federal Air Marshals surveil preselected travelers and fuse flight data with license-plate reads, driven by watchlists and profiling. Targets reportedly included Jan 6-linked spenders and Gaza critics. Though DHS Secretary Kristi Noehm ended Quiet Skies and fired five TSA leaders, the article says the broader bipartisan watchlist system persists and lacks due process, urging a statutory right to travel. HN debates 4th-vs-5th Amendment issues, AI scaling, and “credit” vs consolidation under TSC/ICE.
+### TL;DR
 
-- Comment pulse
-    - Public surveillance is lawful → Observing in public needs no warrant; the harm is opaque watchlists denying travel — counterpoint: data fusion creates warrantless dossiers.
-    - Ending Quiet Skies deserves credit → DHS fired five TSA leaders; skeptics see power shifting to TSC/ICE and contractors rather than restraint.
-    - Manual logs are chilling → FAM notes documented minute behaviors; with AI, similar tracking could scale to many travelers at low cost.
+Drawing on a Senate hearing and submitted records, the advocacy article argues that Quiet Skies illustrates a broader, bipartisan travel-surveillance architecture lacking meaningful due process. Federal air marshals reportedly followed selected passengers, recorded detailed behavior, and connected air travel with other data; targeting rules allegedly incorporated watchlists, profiles, ethnicity, and travel history. Although Quiet Skies ended in June 2025, the author says other mechanisms remain and urges Congress to create an explicit right to common-carrier travel and a cause of action through the proposed Freedom to Travel Act.
 
-- LLM perspective
-    - View: The core fix is statute-backed travel rights plus judicial review; oversight must cover multi-agency watchlisting and data fusion.
-    - Impact: Airlines, TSA, CBP, TSC, and vendors would face discovery risk and stricter criteria before denying boarding or flagging travelers.
-    - Watch next: Freedom to Travel Act reintroduction; audits of Quiet Skies data; rulings in Fikre and Jardaneh defining actionable harm.
+### Comment pulse
+
+- Commenters agreed opaque blacklists raise due-process concerns but disputed whether observation in public itself violates search protections.
+- Others warned detailed behavioral logging becomes more threatening when automation makes it scalable.
+
+### LLM perspective
+
+- View: Ending one program does not resolve opaque criteria, appeal rights, or surveillance spread across agencies.
+- Impact: Secret travel restrictions can impose serious burdens without giving affected people a timely way to contest them.
+- Watch next: Legislative text should define travel rights, evidentiary thresholds, notice, review, remedies, and limits on cross-system data linkage.

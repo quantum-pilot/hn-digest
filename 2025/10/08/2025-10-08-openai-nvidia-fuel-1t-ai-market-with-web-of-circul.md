@@ -2,16 +2,18 @@
 
 - Score: 183 | [HN](https://news.ycombinator.com/item?id=45521629) | Link: https://www.bloomberg.com/news/features/2025-10-07/openai-s-nvidia-amd-deals-boost-1-trillion-ai-boom-with-circular-deals
 
-- TL;DR
-    - HN discusses how “circular” dealmaking underpins the $1T AI trade: labs, chipmakers, and investors recycle announcements, equity, and purchase commitments to lift valuations and fund capex. Commenters liken it to dot‑com ad loops and telecom capacity swaps. A debated OpenAI–AMD structure would swap cash-for-chips with AMD stock, banking on an announcement pop—raising legality, accounting, and substance questions, plus doubts about AMD’s AI edge. Core risk: valuation-fueled capex today may outrun real, profitable inference demand.
-    - Content unavailable; summarizing from title/comments.
+### TL;DR
 
-- Comment pulse
-    - Dot-com/telecom déjà vu → revenue/valuation loops where announced deals fund each other and inflate metrics.
-    - OpenAI–AMD stock-for-capex narrative → leverage stock pops to subsidize chips; legality and accounting debated — counterpoint: why would markets reward a zero-sum swap?
-    - Substance over optics → AMD’s AI competitiveness questioned; no material consequences yet beyond price swings; deliveries and contracts matter more than announcements.
+Bloomberg describes an increasingly interconnected AI market: Nvidia agreed to invest up to $100 billion in OpenAI’s enormous data-center buildout, while OpenAI committed to deploying millions of Nvidia chips. OpenAI then arranged tens of billions of dollars in AMD chip deployments and could become a major AMD shareholder. Critics call such arrangements circular because suppliers help finance customers that purchase their hardware. HN compared them with dot-com advertising loops and telecom capacity swaps, while questioning whether the AMD agreement is substance or market-moving optics.
 
-- LLM perspective
-    - View: Circular financing can smooth capex for compute scarcity but amplifies downside if demand underdelivers.
-    - Impact: Chip vendors, cloud buyers, and public investors bear bubble risk; startups get squeezed when PR no longer moves equity.
-    - Watch next: SEC scrutiny of stock-for-capex, binding purchase terms, delivery milestones; proof of profitable inference at scale, beyond training announcements.
+### Comment pulse
+
+- Circular commitments can inflate demand signals → investment, procurement, and equity appreciation reinforce one another without independent end-customer revenue.
+- Earlier bubbles offer analogies → commenters recalled reciprocal web advertising and telecom capacity swaps that made growth appear stronger.
+- The AMD deal remains prospective → no operating consequences were supplied beyond stock movement, so commenters questioned its practical credibility.
+
+### LLM perspective
+
+- View: Interdependence does not prove a bubble, but it makes headline demand a poor proxy for external cash generation.
+- Impact: Investors and suppliers face correlated risk if compute utilization or OpenAI financing underperforms commitments.
+- Watch next: Track binding terms, cash payments, chip deliveries, utilization, customer revenue, equity vesting, and debt exposure.

@@ -2,15 +2,18 @@
 
 - Score: 495 | [HN](https://news.ycombinator.com/item?id=45521920) | Link: https://larslofgren.com/codesmith-reddit-reputation-attack/
 
-TL;DR
-An investigation alleges a competitor—Formation cofounder Michael Novati—used control of r/codingbootcamp to wage a years-long, high‑volume campaign against Codesmith: deleting defenses, seeding insinuations (cult, nepotism, resume “fraud”), and pinning narratives that surface in Google and LLM answers. Codesmith reports an 80% revenue drop from peak, attributing ~40% to Reddit-driven damage; rival bootcamp founders describe Codesmith as reputable with solid CIRR outcomes. The bigger claim: Reddit mod power, amplified by search and AI, is an unchecked reputation-attack vector with little recourse beyond Reddit intervention or costly litigation.
+### TL;DR
 
-Comment pulse
-- Reddit mod capture is systemic → unpaid mods have skewed incentives; brands court or become mods, ban dissent, and shape narratives; users rarely oust them.
-- Sue for defamation → named mod made specific harmful claims; quantifiable losses and policy breaches may weaken protections — counterpoint: litigation is costly and hard to win.
-- No heroes here → some argue many bootcamps are scammy; regardless, Reddit is unreliable as an authority for due diligence.
+Lars Lofgren alleges that Formation co-founder Michael Novati used his moderator role in r/codingbootcamp to damage competitor Codesmith through hostile commentary, deleted defenses, and claims involving its staff and student résumés. He links the subreddit’s Google and LLM prominence to Codesmith’s falling applications and revenue, while presenting favorable placement data and interviews. These allegations are not independently resolved in the supplied material. HN discussion broadened the issue to captured communities, weak moderator accountability, marketing influence, and difficult defamation remedies.
 
-LLM perspective
-- View: The Reddit–Google–LLM loop lets one conflicted mod weaponize distribution at scale.
-- Impact: Bootcamps/SMBs see brand queries polluted; Trust & Safety and legal teams must adapt.
-- Watch next: Reddit actions on conflicted mods; LLMs deweight Reddit for brand queries; stronger SERP defense and evidence logging.
+### Comment pulse
+
+- Moderator capture can shape discovery → subreddit control affects visible reviews, search results, community membership, and downstream AI answers.
+- Codesmith may have legitimate critics → one commenter considered Novati’s conduct obsessive while also calling bootcamp practices broadly questionable.
+- Legal action is uncertain → commenters saw possible defamation claims but noted high costs, difficult standards, and Reddit’s intermediary protections.
+
+### LLM perspective
+
+- View: Platform governance becomes commercial infrastructure when one community strongly influences purchasing research.
+- Impact: Prospects, companies, and models inherit narratives whose moderation history is largely invisible.
+- Watch next: Seek Reddit action, evidence from both principals, moderation logs, independent outcomes audits, or filed litigation.

@@ -2,15 +2,17 @@
 
 - Score: 235 | [HN](https://news.ycombinator.com/item?id=45512317) | Link: https://fortune.com/2025/10/07/data-centers-gdp-growth-zero-first-half-2025-jason-furman-harvard-economist/
 
-- TL;DR
-  - Harvard’s Jason Furman estimates 92% of H1‑2025 US GDP growth came from data‑center and information‑processing investment; excluding it, growth was ~0.1% annualized. Hyperscaler capex nears ~$400B/year, adding ~100 bps to real GDP by some estimates, while many other sectors and hiring lag. Furman notes absent the AI boom, lower rates and power costs might have boosted other activity. HN debates crowd‑out versus money circulation, GDP’s measurement quirks, and whether AI capex yields lasting productivity; ex‑datacenter per‑capita growth may be negative.
+### TL;DR
 
-- Comment pulse
-  - AI capex crowds out others → higher rates and power costs suppress alternatives; without AI, funds shift broadly — counterpoint: money circulates; general-equilibrium effects mitigate.
-  - This isn’t an accounting trick → Nvidia/OpenAI equity loops still buy real chips, build facilities, and pay workers; GDP counts activity regardless of financing structure.
-  - Sustainability questioned → buildout is temporary; LLMs have huge users but few pay, poor gross margins, possible GPU obsolescence; can post‑build productivity justify capex?
+Fortune reports economist Jason Furman’s calculation that information-processing equipment and software represented 4% of U.S. GDP but 92% of growth in the first half of 2025; excluding those categories, annualized growth was about 0.1%. Furman cautioned that this is not a literal no-AI counterfactual because lower interest rates and electricity prices could have supported other sectors. The concentration helps reconcile solid aggregate GDP with weak hiring and sluggish activity elsewhere, while leaving open whether enormous data-center investment will produce durable returns.
 
-- LLM perspective
-  - View: AI infrastructure is acting like a one-off stimulus; durable gains hinge on real productivity, not construction alone.
-  - Impact: Utilities, semis, contractors, and grid operators boom; non-AI sectors face higher capital costs and energy constraints.
-  - Watch next: cluster utilization, ARPU vs compute costs, hyperscaler capex guidance, power buildouts, and productivity statistics beyond GDP headlines.
+### Comment pulse
+
+- Commenters debated whether AI investment crowds out other sectors or circulates into broader economic activity.
+- Others questioned GDP’s usefulness and whether data-center demand, construction, and future services can justify present capital spending.
+
+### LLM perspective
+
+- View: The decomposition reveals concentrated growth, not proof that the economy would be flat without AI spending.
+- Impact: Dependence on one capital-intensive buildout makes headline GDP less informative about broad prosperity and labor demand.
+- Watch next: Track productivity, revenue, employment, power costs, and non-AI investment after the construction surge matures.

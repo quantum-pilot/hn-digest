@@ -2,15 +2,17 @@
 
 - Score: 674 | [HN](https://news.ycombinator.com/item?id=45516000) | Link: https://blog.cloudflare.com/how-we-found-a-bug-in-gos-arm64-compiler/
 
-- TL;DR
-    Cloudflare tracked sporadic crashes on ARM64 Go services to a compiler/assembler interaction: large stack-pointer restores in function epilogues were split into two ADDs. Async preemption between them left SP “between frames,” so GC’s stack unwinder read garbage, triggering segfaults or “traceback did not unwind completely.” They built a minimal reproducer with a >64 KiB frame and confirmed the race. Fix landed in Go 1.23.12, 1.24.6, 1.25.0: build the offset in a temp register, then single ADD to SP. HN debated compiler vs assembler fixes, safepoints, and trusting compilers.
+### TL;DR
 
-- Comment pulse
-    - Make SP adjustment atomic → load constant to a temp, do one ADD; avoids mid-epilogue preemption — counterpoint: assembler should special-case SP immediates; handwritten asm remains risky.
-    - “Stack moves once” matters → unwinder needs consistent SP; alternatives like LDR-literal or safepoints noted, but GC still requires valid frames.
-    - Compiler bugs are hard to suspect → extreme-performance domains routinely hit corner cases; experience helps avoid misattributing crashes to app code.
+Cloudflare traced rare Go crashes on ARM64 to asynchronous preemption occurring between two instructions that partially adjusted the stack pointer for large frames. Garbage collection then unwound a temporarily inconsistent stack and interpreted unrelated data as a parent frame, causing fatal errors or segmentation faults. Production scale, core dumps, a shared Netlink call site, and a standard-library reproducer narrowed the fault to compiler-generated epilogues. Fixed Go releases construct the offset in a temporary register, then update the stack pointer with one indivisible instruction.
 
-- LLM perspective
-    - View: Enforce atomic SP updates; preemption-sensitive epilogues are a recurring runtime hazard on fixed-width ISAs.
-    - Impact: Go ARM64 users should upgrade; audit custom AArch64 asm touching SP; add preemption stress tests to CI.
-    - Watch next: Assembler guards for SP immediates; runtime invariants tests around prologue/epilogue; survey for similar risks on other architectures.
+### Comment pulse
+
+- Commenters praised the debugging narrative and noted how rarely engineers can justify suspecting the compiler.
+- Technical discussion considered assembler-level safeguards, safe points, and alternative single-update instruction sequences.
+
+### LLM perspective
+
+- View: The breakthrough came from treating scale-generated rarity as evidence and reducing it to one unsafe instruction boundary.
+- Impact: One-instruction runtime races can survive ordinary testing yet become routine across sufficiently large fleets.
+- Watch next: Similar multi-instruction stack-pointer transformations deserve auditing beyond the specific compiler path that was patched.

@@ -2,15 +2,17 @@
 
 - Score: 171 | [HN](https://news.ycombinator.com/item?id=45519915) | Link: https://chuniversiteit.nl/papers/svelte-is-fast
 
-- TL;DR
-  - A 2022 study compared Angular, React, Vue, Svelte, and Blazor, linking rendering strategies to performance. Svelte leads by compiling components, tracking dirtiness and hoisting static content; Vue benefits from fine-grained bindings; vDOM diffing and Blazor’s JS interop add overhead. Benchmarks show Svelte fastest across create/update tasks, especially at scale. HN debates recency and relevance amid Svelte 5, React/Angular changes; some praise Svelte but criticize SvelteKit UX; others note WebAssembly can be fast beyond Blazor.
+### TL;DR
 
-- Comment pulse
-  - Evidence is outdated → Study uses 2020–2021 versions; Svelte 5 and Angular/React changes may alter rankings — counterpoint: Svelte’s binding/compile-time approach remains, so trends persist.
-  - Wasm isn’t inherently slow → Blazor suffers JS interop overhead; Rust frameworks (Leptos, Dioxus) hit near-vanilla results on comparable benchmarks.
-  - Svelte praised; SvelteKit criticized → Developers enjoy Runes and components, but dislike Kit’s magic-file routing and perceived complexity versus Svelte’s original simplicity.
+An article revisits a 2022 paper benchmarking 2021-era Angular, React, Vue, Svelte, and Blazor versions. In those tests, Svelte led every measured creation and update scenario, especially as component counts grew. The author attributes this to compile-time dirty-component tracking, generated update code that skips static content, and binding-based rendering without virtual-DOM diffing. The evidence is historically bounded: commenters note that Svelte, Angular, and other frameworks have since changed substantially, limiting direct conclusions about current versions or real applications.
 
-- LLM perspective
-  - View: Benchmarks isolate script time; UX also hinges on network, layout, hydration strategy, and memory—architectural choices still matter.
-  - Impact: Compiler-first patterns spread beyond Svelte; expect convergence and fewer framework-specific pitfalls for large trees.
-  - Watch next: Updated benchmarks for Svelte 5, React 19/Compiler, Angular Signals, Vue 3.x; Blazor AOT and Wasm DOM-access proposals.
+### Comment pulse
+
+- Svelte users praised its productivity and LLM-oriented documentation while acknowledging a smaller ecosystem and syntax changes.
+- Critics questioned whether old framework versions and synthetic benchmarks say much about present-day production performance.
+
+### LLM perspective
+
+- View: The benchmark usefully isolates rendering costs, but its strongest conclusion belongs to the tested versions.
+- Impact: Compile-time specialization can materially reduce UI work, though framework choice still involves ecosystem and maintenance tradeoffs.
+- Watch next: Current-version benchmarks should preserve equivalent functionality and add realistic interaction, startup, memory, and application-scale workloads.

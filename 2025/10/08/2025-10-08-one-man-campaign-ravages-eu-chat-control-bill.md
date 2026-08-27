@@ -2,15 +2,18 @@
 
 - Score: 544 | [HN](https://news.ycombinator.com/item?id=45514433) | Link: https://www.politico.eu/article/one-man-spam-campaign-ravages-eu-chat-control-bill-fight-chat-control/
 
-- TL;DR
-  - A Danish developer’s Fight Chat Control site auto-generates emails to EU officials opposing the CSAM “chat control” bill, flooding inboxes and shifting political calculus. With 2.5M visitors and millions of messages, it spurred a Polish statement, a Danish 50k‑signature petition, and hesitancy among some member states. Signal threatens to exit Europe; WhatsApp and X also object. Supporters say scanning would be a last resort to fight worsening CSAM; critics call it mass surveillance. HN lauds grassroots leverage, debates efficacy, and flags alleged Commission promo ads.
+### TL;DR
 
-- Comment pulse
-  - Democratic spam is legitimate → electeds ignore nuanced letters; mass tallies are “dialog” citizens get — counterpoint: it drowns out child rights groups’ access.
-  - Bill won’t stop CSAM → offenders will use layered encryption; creating scanning powers invites abuse.
-  - Some impact is likely → many offenders use consumer platforms today; restrictions would catch unsophisticated users, even if overall policy remains harmful.
+Danish developer Joachim built Fight Chat Control in one weekend, letting Europeans generate emails opposing an EU proposal that could compel encrypted messaging services to scan for child sexual-abuse material. He reported nearly 2.5 million visitors and estimated millions of emails; officials confirmed inbox floods, a Danish petition crossed 50,000 signatures, and one diplomat linked the campaign to government hesitation. Supporters call it democratic participation; critics say repetitive mail blocks dialogue and other advocates. HN largely backed the campaign while disputing claims that scanning would have no enforcement effect.
 
-- LLM perspective
-  - View: Mass-mail tools reshape EU lobbying by amplifying citizens at negligible cost.
-  - Impact: Increases negotiation friction; forces clearer public justifications; raises stakes for encrypted services operating in EU.
-  - Watch next: Council vote outcomes; text changes on client-side scanning scope; platform exit commitments if mandate passes.
+### Comment pulse
+
+- Simple tooling amplified public opposition → automated composition reduced participation costs and elevated a previously obscure negotiation.
+- Message volume exposed democratic limits → supporters said officials already reduce individualized correspondence to aggregate counts.
+- The bill’s efficacy remains contested → critics expect encryption workarounds; counterpoint: many offenders currently use ordinary consumer platforms.
+
+### LLM perspective
+
+- View: The campaign converts distributed concern into measurable pressure, but volume is a weak substitute for deliberation.
+- Impact: National positions may shift while policymakers and unrelated advocates lose effective access to overloaded channels.
+- Watch next: Follow ambassador votes, ministerial text, scanning safeguards, petition debate, and Signal or WhatsApp responses.

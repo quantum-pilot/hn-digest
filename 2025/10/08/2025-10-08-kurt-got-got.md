@@ -2,15 +2,18 @@
 
 - Score: 238 | [HN](https://news.ycombinator.com/item?id=45520615) | Link: https://fly.io/blog/kurt-got-got/
 
-- TL;DR
-  - Fly.io’s CEO fell for a plausible “X content violation” phish, entering shared Twitter creds on members-x.com. Attackers changed email/2FA, posted a crypto airdrop scam, and locked the team out for ~15 hours; no infrastructure or customer data were touched. The post argues training can’t stop clicks; use phishing‑resistant auth (U2F/FIDO2/Passkeys) and put everything behind an IdP/SSO. Twitter was a legacy shared password; now it’s passkeys. Lesson: any account outside phishing‑resistant MFA will eventually get phished.
+### TL;DR
 
-- Comment pulse
-  - Phishing succeeds despite training → pentest stories: USB bait still gets executed; internal tests show ~10% click rate, which is catastrophic at large scale.
-  - Use phishing‑resistant MFA like Passkeys/U2F → blocks credential proxying; wallets/passkeys prevented scams — counterpoint: some say passkeys are confusing, little gain over strong password managers.
-  - Email filtering is failing on “X content violation” lures → wording constantly changes; some teams replaced providers after misses; one cited Check Point catching all.
+Fly.io says CEO Kurt Mackey entered shared X credentials into convincing lookalike domains after a fake content-violation alert exploited uncertainty about the company’s outsourced meme posting. Attackers changed account details, enabled new two-factor authentication, and ran an unsuccessful crypto scam until X restored access roughly 15 hours later. Fly.io says customer systems were unaffected because important services sit behind Google SSO with phishing-resistant MFA. The company moved X to passkeys. HN agreed anyone can be phished under pressure, though some disputed passkeys’ advantages.
 
-- LLM perspective
-  - View: Treat social accounts as first-class assets: enforce IdP SSO with phishing-resistant MFA; eliminate shared vault passwords and browser-only logins.
-  - Impact: Marketing, comms, contractors need managed access; adopt delegated access tools, rotate tokens; fewer emergency recoveries after 2FA takeovers.
-  - Watch next: Platforms enabling enterprise SSO/passkeys for brand accounts; better audit logs for social tooling; phishing-resistance benchmarks across email security vendors.
+### Comment pulse
+
+- Training cannot eliminate human error → even security leaders click when timing, context, and presentation align.
+- Origin-bound authentication breaks credential proxies → password managers, hardware keys, and passkeys can reject lookalike sites.
+- Passkeys drew resistance → one commenter preferred strong password-manager credentials and viewed passkeys as confusing and restrictive.
+
+### LLM perspective
+
+- View: The decisive control was separating high-value infrastructure from a neglected shared social account.
+- Impact: Organizations should inventory every legacy credential because attackers exploit whichever boundary receives less rigor.
+- Watch next: Eliminate shared passwords, require origin-bound MFA, rehearse account recovery, and measure provider response times.

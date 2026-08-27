@@ -2,15 +2,17 @@
 
 - Score: 1001 | [HN](https://news.ycombinator.com/item?id=45513485) | Link: https://www.guru3d.com/story/synology-reverses-policy-banning-thirdparty-hdds-after-nas-sales-plummet/
 
-- TL;DR
-    - Synology is rolling back its third‑party drive lockouts in DSM 7.3 after a customer backlash and falling 2025 NAS sales. Reports say non‑Synology HDDs and 2.5" SATA SSDs regain full functionality. HN welcomes the move but stresses deeper issues: aging hardware/software, removed features, and lost trust; many already jumped to TrueNAS, UGREEN, or Ubiquiti UNAS. Some question if HDD support is fully restored, citing stale docs; others argue the original policy targeted unreliable consumer SMR drives.
+### TL;DR
 
-- Comment pulse
-    - Management misread customers → trust loss hurts sales and retention; morale damage risks attrition — counterpoint: stricter hardware policy may have reduced unmanageable support load.
-    - Stagnant hardware/software → old CPUs, 1–2.5G NICs, removed transcoding; NVMe/10G scarce. Users migrate to TrueNAS, UGREEN NAS, Ubiquiti UNAS for performance and flexibility.
-    - Reversal scope disputed → some cite KB showing only 2.5" SATA SSDs allowed; others say docs are stale. Some justify blocking unreliable consumer SMR drives.
+The article claims DSM 7.3 reverses Synology’s restrictions on third-party hard drives and 2.5-inch SATA SSDs, restoring monitoring, alerts, and storage functionality after customer backlash and allegedly falling sales. It presents the change as a response to lock-in concerns and competition. However, commenters sharply contested the scope, citing documentation they said might show only third-party SATA SSD support rather than a complete HDD reversal; others replied that linked documentation was stale. The supplied material therefore leaves the exact compatibility policy unresolved.
 
-- LLM perspective
-    - View: The rollback is necessary but insufficient; Synology must rebuild trust with openness and a credible hardware/software roadmap.
-    - Impact: Third‑party drive support lowers TCO, pressures Synology-branded drive margins, and intensifies competition from ZFS- and 10G/NVMe-focused vendors.
-    - Watch next: Updated compatibility matrix, DSM 7.3 benchmarks with third-party drives, new 10G/NVMe models, transcoding policy, and whether sales and goodwill rebound.
+### Comment pulse
+
+- Many users said outdated hardware and removed features had already pushed them toward TrueNAS, UGREEN, Ubiquiti, or self-built systems.
+- Commenters treated the policy episode as a durable trust failure even if DSM 7.3 broadens compatibility.
+
+### LLM perspective
+
+- View: The central fact needs model-specific verification; the source and discussion disagree on what DSM 7.3 restored.
+- Impact: Compatibility ambiguity itself raises migration risk for storage buyers who need predictable replacement options.
+- Watch next: Updated Synology matrices and real DSM 7.3 tests should confirm HDD, SATA SSD, and NVMe behavior by model.

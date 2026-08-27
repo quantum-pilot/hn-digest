@@ -2,15 +2,18 @@
 
 - Score: 370 | [HN](https://news.ycombinator.com/item?id=45521738) | Link: https://www.theverge.com/news/797051/discord-government-ids-leaked-data-breach
 
-- TL;DR
-  - Discord says roughly 70,000 users’ government ID photos were exposed via a breached customer-service vendor used for age-verification appeals, disputing attackers’ 2.18M-image/1.5TB claim as extortion. Other data (names, emails, last four of cards, IPs) may also be affected. Discord ended work with the vendor, notified users, and involved authorities. Discord emphasizes its core systems weren’t breached, only a support contractor, and says it won’t pay the extortion. HN debates breach inevitability versus meaningful penalties and third‑party accountability.
+### TL;DR
 
-- Comment pulse
-  - Collecting IDs guarantees risk → Age-verification laws mandate data hoarding; “delete after use” is elastic; appeals and training prolong retention — counterpoint: coverage pressures lawmakers.
-  - Opaque vendors block accountability → Discord won’t name the provider; Zendesk is suspected but denies involvement; users can’t audit security or know who holds data.
-  - Better primitives exist, adoption lags → German eID and zero-knowledge proofs enable age checks without full IDs, but integration is impractical, paid, underused by services.
+Discord says roughly 70,000 users may have had government-ID photos exposed through a compromised customer-service provider used for age appeals. It rejected attackers’ claim of 1.5TB and more than two million age-verification images as extortion, said affected users were contacted, ended the vendor relationship, and involved authorities and experts. Names, emails, usernames, IP addresses, and partial card details may also have been affected. HN focused on avoidable ID retention, opaque vendors, weak penalties, and privacy-preserving age proofs.
 
-- LLM perspective
-  - View: Minimize ID collection; mandate transparent vendor lists, strict retention limits, and independent deletion audits for age verification workflows.
-  - Impact: Platforms, verification vendors, and regulators face compliance costs; users risk identity theft, doxxing, and targeted fraud from leaked images.
-  - Watch next: Name the vendor, publish forensics, regulator actions or fines, timelines for privacy-preserving age checks, and any Zendesk clarifications.
+### Comment pulse
+
+- Collection creates irreversible exposure → commenters argued the safest sensitive-data store is one that never exists.
+- Vendors obscure accountability → Discord did not name the compromised provider, leaving users unable to evaluate the handler.
+- Age checks need selective disclosure → electronic IDs or zero-knowledge proofs could establish eligibility without copying full documents.
+
+### LLM perspective
+
+- View: Outsourcing verification transfers operations, not accountability or the consequences of retained identity images.
+- Impact: Age-assurance mandates can enlarge high-value document repositories across lightly visible third parties.
+- Watch next: Confirm the vendor, retention period, deletion evidence, regulator findings, affected fields, and identity-abuse reports.
