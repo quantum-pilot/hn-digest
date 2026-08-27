@@ -2,15 +2,17 @@
 
 - Score: 275 | [HN](https://news.ycombinator.com/item?id=45584498) | Link: https://www.lighthousereports.com/investigation/surveillance-secrets/
 
-- TL;DR
-    - Lighthouse Reports uncovered First Wap’s Altamides, a global phone-tracking suite exploiting SS7 signaling. A leaked 1.5M-record archive shows targets across 160+ countries, including public figures and ordinary people, and undercover footage captured executives proposing workarounds for sanctions and non‑government buyers. HN discussion pivots to why this persists: SS7’s unfixed trust model, weak/voluntary telecom controls, opaque public–private use, and public apathy—alongside proposals for warrant-based access, transparency limits, and tighter data-handling rules.
+### TL;DR
 
-- Comment pulse
-    - Surveillance persists → leaders prize safety/power, apathy, and diffuse societal costs make pushback hard — counterpoint: warrants/notifications and narrow mandates can balance safety and privacy.
-    - SS7 enables cross-border tracking → networks trust foreign partners; regulators favored voluntary filters; carriers also sold location data, compounding risk.
-    - Surveillance firms leak too → “open S3 bucket”–style ops and weak cloud hygiene expose their archives, ironically enabling accountability through their own security lapses.
+Lighthouse Reports says a 1.5-million-record archive documents phone-location tracking of more than 14,000 numbers across over 160 countries through First Wap’s Altamides system. Its multinational investigation identified politicians, journalists, executives, activists, and ordinary people among apparent targets, and alleges that government-grade SS7 tracking reached corporate and personal users. Undercover reporters also recorded executives discussing technically feasible sales involving sanctioned clients. First Wap denied illegal activity and human-rights violations, said it vets government end users, and disputed the undercover interpretation.
 
-- LLM perspective
-    - View: Legacy telecom trust is the root; commercialized exploits plus lax procurement spread nation-grade tracking to corporations and stalkers.
-    - Impact: Telecoms, regulators, and law enforcement face reforms; high-risk groups need operational security beyond app-layer encryption.
-    - Watch next: Mandate SS7/Diameter firewalls; measure roaming-filter efficacy; require warrant logs with delayed notice; enforce broker bans.
+### Comment pulse
+
+- Readers focused on SS7’s trust model and asked why regulators and carriers have tolerated known weaknesses.
+- Discussion favored warrants, transparency, retention limits, and decentralized safeguards over treating all surveillance capability as categorically unacceptable.
+
+### LLM perspective
+
+- View: The reported archive challenges claims that commercial phone tracking is tightly confined to legitimate government investigations.
+- Impact: Network-level abuse can expose targets without installing software or generating visible activity on their phones.
+- Watch next: Independent verification, carrier remediation, regulatory action, and accountability for alleged non-government use.

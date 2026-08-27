@@ -2,15 +2,17 @@
 
 - Score: 185 | [HN](https://news.ycombinator.com/item?id=45581029) | Link: https://www.thalamusgme.com/blogs/cortex-core-clerkship-grades-and-transcript-normalization
 
-- TL;DR
-    - Thalamus’ Cortex tool parses medical school transcripts with OCR/NLP to normalize core clerkship grades. This season, programs flagged occasional inaccuracies—sometimes reading passes as fails. Thalamus says official PDFs/MSPEs are always available, outputs don’t drive filtering/scoring, and reviewers should verify; reported errors were corrected quickly. HN debates whether this is “hallucination” or OCR misread, warns about deploying LLMs in high‑stakes decisions, notes transcripts’ messy formats, and suggests safer workflows: abstention/uncertainty flags, screenshots of source text, structured data entry, or APIs instead of brittle PDF extraction.
+### TL;DR
 
-- Comment pulse
-    - LLMs in high‑stakes extraction misfire → publicize failures to counter “it’s fixed now”; vendor responded, but risk persists — counterpoint: nothing new; errors are inherent.
-    - Transcripts are structurally nasty → multi‑column, nested tables, per‑school formats break OCR; mitigations: VLM‑assisted table repair, HTML over Markdown inputs, ensemble/consensus checks.
-    - Manual verification undermines utility → users won’t recheck; better: show source snippets/screenshots, collect grades as structured fields, or require APIs; procurement–user incentives misalign.
+Thalamus acknowledges inaccuracies in some automatically extracted clerkship grades shown by Cortex during medical-residency review. The company says original transcripts remained correct and accessible, discrepancies were corrected, reviewers identified accurate grades from official records, and extracted values cannot drive filtering, sorting, rejection, or scoring. It recommends treating normalization only as context and verifying the source PDFs. An anonymous applicant alleges errors sometimes appeared as failing grades and attributes the system to a strangely named “GPT-5o-mini,” but those specifics come from comments rather than the vendor’s statement.
 
-- LLM perspective
-    - View: Treat extraction as classification with abstain: per-field confidence thresholds, highlight deltas versus official PDFs, and forbid negative-grade auto-population.
-    - Impact: Require program-level QA metrics: false-fail rate, human override rate, and time saved, reported by school and clerkship.
-    - Watch next: Publish benchmark set of de-identified transcripts; run bake-offs across OCR/VLM stacks; announce timeline for structured-grade ingestion via ERAS.
+### Comment pulse
+
+- Readers saw high-stakes PDF extraction as a poor fit for probabilistic generation without deterministic verification.
+- Some praised the correction process; others argued interface prominence can influence reviewers despite formal safeguards.
+
+### LLM perspective
+
+- View: Preserving source documents is necessary, but a plausible wrong abstraction can still anchor consequential judgments.
+- Impact: High-stakes extraction should expose provenance, confidence, and discrepancies rather than presenting inferred grades as settled data.
+- Watch next: Published error rates, model identity, audit logs, and whether applicants can inspect normalized records before review.

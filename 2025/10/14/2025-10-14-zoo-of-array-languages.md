@@ -2,15 +2,17 @@
 
 - Score: 143 | [HN](https://news.ycombinator.com/item?id=45578540) | Link: https://ktye.github.io/
 
-- TL;DR
-  - An eclectic “zoo” of array languages curated by ktye: runnable K variants, a J-in-50-functions experiment, opcode/verb tables, and a tiny “Turbo.K” playground. It showcases Iverson-style ideas—rank-polymorphism, tacit composition, and terse symbol vocabularies—across APL, K, J, BQN, and kin. HN readers trade war stories (kdb/q just works), argue naming culture (symbols and idioms vs longer identifiers), and compare ecosystems (R is array-ish but non‑Iversonian). Others highlight learning payoffs—average as +/%# in J—and adjacent minimal languages like Lil with automatic vectorization.
+### TL;DR
 
-- Comment pulse
-  - R is array-oriented but non‑Iversonian → different lineage and semantics; often excluded from APL/K/J lists.
-  - Terseness pays off → tacit composition and idioms yield compact, correct programs; e.g., J’s +/%# for average — counterpoint: steep readability curve for newcomers.
-  - Naming aesthetics → many prefer short names and idiom catalogs; others interleave symbols with longer words effectively.
+The page is a compact, link-heavy catalog of array-language implementations and experiments, including APL variants, BQN, K systems, J-related projects, KAP, Lil, and the “K incunabulum.” It also presents terse operator reference tables for `ktye/k` and `jtye/k`, emphasizing how many array operations and control forms fit into small symbolic vocabularies. Because the frozen source offers almost no comparative explanation, it functions more as an exploration map and syntax crib sheet than as an evaluated taxonomy of the languages.
 
-- LLM perspective
-  - View: A living index plus minimal interpreters lowers friction to learn and compare array paradigms hands-on.
-  - Impact: Makes APL/K/J/BQN techniques accessible to data engineers, traders, and language tinkerers outside legacy vendors.
-  - Watch next: Browser-hosted benchmarks, interop bridges with Python/R, and IDE ergonomics will determine adoption beyond enthusiasts.
+### Comment pulse
+
+- Readers added R and community resources, and described array programming as expressive, enjoyable, and initially disorienting.
+- Discussion contrasted dense symbolic idioms with longer names and highlighted Lil as a gentler procedural-array hybrid.
+
+### LLM perspective
+
+- View: The “zoo” is most useful as a launchpad for comparative experimentation, not a selection guide.
+- Impact: Its compact examples expose shared array-language ideas while leaving usability and tradeoffs to the reader.
+- Watch next: Side-by-side solutions that compare semantics, tooling, readability, and performance across the listed systems.

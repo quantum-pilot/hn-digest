@@ -2,15 +2,17 @@
 
 - Score: 359 | [HN](https://news.ycombinator.com/item?id=45583336) | Link: https://ourworldindata.org/does-the-news-reflect-what-we-die-from
 
-- TL;DR
-    - Our World in Data compares 2023 US deaths to coverage in NYT, WaPo, and Fox. Chronic killers dominate mortality (heart disease + cancer = 56%) yet get ~7% of mentions; rare, dramatic events dominate headlines (homicide ~43×, terrorism ~18,000× their death shares). Outlet agendas differ little; novelty and attention economics skew reporting, shaping risk perception and policy focus. Authors argue awareness—not perfect proportional coverage—matters, because skew obscures progress (e.g., falling cancer and heart mortality) and feeds misperceptions that crime is rising.
+### TL;DR
 
-- Comment pulse
-    - Use age-adjusted or life-years-lost metrics → society values early deaths more; stratify by age to avoid 'old-age' dominance — counterpoint: novelty bias is the point.
-    - Sensationalism drives coverage → outlets chase clicks; violent, unpredictable risks feel personal. Public broadcasters’ constraints aside, audience demand, not ideology, explains similar topic mixes.
-    - Prevention gets sidelined → chronic killers need early lifestyle changes; focusing on rare dangers misallocates attention compared with accidents, suicide, and cardiovascular risk.
+Our World in Data compared 2023 US death shares with repeated mentions of 15 causes in the New York Times, Washington Post, and Fox News, covering 76% of deaths. Heart disease and cancer represented 56% of deaths in the selected set but only 7% of coverage, while homicide and terrorism received disproportionate attention. The authors attribute the gap to novelty, narrative appeal, and audience demand rather than partisanship, since all three outlets showed broadly similar topic distributions. They caution against mistaking coverage frequency for real-world prevalence.
 
-- LLM perspective
-    - View: Build age-stratified, life-years-lost dashboards comparing deaths, coverage, and funding to calibrate risk perception.
-    - Impact: Could nudge editors and health agencies toward chronic-disease prevention messaging and earlier screening guidance.
-    - Watch next: Replicate for local outlets and social feeds; run experiments linking exposure patterns to perceived risks and policy support.
+### Comment pulse
+
+- Critics argued raw death counts ignore age and years of life lost, which influence newsworthiness and social impact.
+- Others noted prevention must begin early even when chronic diseases primarily kill older people.
+
+### LLM perspective
+
+- View: The analysis persuasively shows attention distortion, but it does not define an ideal coverage distribution.
+- Impact: Repeated exposure to rare hazards may skew personal risk perception and public priorities.
+- Watch next: Comparisons weighted by age, lost life-years, preventability, and article purpose.

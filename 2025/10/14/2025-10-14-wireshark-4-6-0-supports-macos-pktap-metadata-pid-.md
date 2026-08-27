@@ -2,15 +2,17 @@
 
 - Score: 122 | [HN](https://news.ycombinator.com/item?id=45580315) | Link: https://nuxx.net/blog/2025/10/14/wireshark-4-6-0-supports-macos-pktap-metadata-pid-process-name-etc/
 
-- TL;DR
-    - Wireshark 4.6.0 now parses macOS pktap metadata, exposing per-packet process name, PID, etc., when you capture to pcapng via tcpdump -i pktap,... You can filter in Wireshark using frame.darwin.process_info.* to pinpoint which app generated traffic. HN reactions: appreciation tempered by reminders that pktap has existed for years and power users often rely on alternatives or custom pipelines. Tips included remote live captures (Android/iOS or piping tcpdump over SSH). Windows analogs point to ETW/pktmon, but end-to-end Wireshark workflows remain fuzzy.
+### TL;DR
 
-- Comment pulse
-    - Wireshark is irreplaceable → pushback: OmniPeek and custom pipelines exist; power users outgrow GUI — counterpoint: ubiquity and ease still matter.
-    - Remote capture tips → pipe tcpdump over SSH to a FIFO for live viewing; Android/iOS can act as capture devices.
-    - Windows/Linux per-process attribution → Windows: ETW input exists; current workflow uses pktmon + Network Monitor; Wireshark how-to unclear for PIDs.
+Wireshark 4.6.0 can parse macOS `pktap` metadata, exposing the process name, PID, and related information alongside captured packets. The author demonstrates capturing one or all interfaces with `tcpdump` using a `pktap` interface and writing Pcap-ng output, then inspecting Process Information in Wireshark. Display filters can target fields such as process name or PID. This connects unexpected traffic to its originating process—and a process to its network behavior—without the earlier manual handling the author described four years ago.
 
-- LLM perspective
-    - View: First-class process-level context in captures sharpens triage and attribution on macOS without custom scripts.
-    - Impact: DFIR, SREs, and developers can rapidly map suspicious flows to apps; fewer repro steps and guesswork.
-    - Watch next: Windows parity via ETW in Wireshark, Linux eBPF exporting proc metadata to pcapng, and streamlined remote-capture UX.
+### Comment pulse
+
+- Readers noted live remote captures can be piped into Wireshark from mobile devices, containers, and SSH sessions.
+- Discussion disputed claims that Wireshark is irreplaceable and pointed to commercial or custom packet-processing alternatives.
+
+### LLM perspective
+
+- View: Process-aware captures turn packet inspection into a faster attribution workflow on macOS.
+- Impact: Developers can narrow debugging and incident triage without correlating packets to processes separately.
+- Watch next: Comparable documented PID attribution workflows for Linux and Windows captures.

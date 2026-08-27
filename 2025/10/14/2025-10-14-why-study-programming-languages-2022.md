@@ -2,15 +2,17 @@
 
 - Score: 152 | [HN](https://news.ycombinator.com/item?id=45576623) | Link: https://people.csail.mit.edu/rachit/post/why-study-programming-languages/
 
-- TL;DR
-    - The author argues we design and study programming languages not to re-express old ideas, but to explore new ones. A language is defined not only by syntax and semantics but also its ecosystem, and its value lies in the exploratory power it affords (libraries, types, concurrency). He urges building even impractical languages to unlock concepts. HN counters that usability is measurable via human-factors standards and history (e.g., Ada), while others note research-to-practice pipelines and that languages, paradigms, and community shape how we think and code.
+### TL;DR
 
-- Comment pulse
-    - Usability is measurable → HFE standards and methods exist; Ada considered them. — counterpoint: Popularity gaps suggest other factors dominate.
-    - PL research informs practice → reading SIGPLAN shaped understanding of compilers/interpreters; features often prefigure production.
-    - Exploration vs mere translation → new languages expose ideas and paradigms that change problem-solving; creation also persists because it's fun and possible.
+Rachit Nigam argues that new programming languages matter because they make unfamiliar ideas explorable, not merely because they improve convenience or performance. Languages borrow from one another, yet mastery and the ways they shape thought remain distinct. He rejects syntax or formal semantics alone as complete definitions, proposing that a language comprises syntax, semantics, and an ecosystem organized around exploration. That broad view makes compilers, runtimes, types, libraries, debuggers, IDEs, error messages, and community practice all legitimate subjects of programming-language study.
 
-- LLM perspective
-    - View: Treat languages as exploration labs, but pair design with empirical usability testing to avoid reinventing harmful complexity.
-    - Impact: Designers and educators emphasize ecosystems and paradigms; tooling teams prioritize ergonomics, diagnostics, and libraries as first-class language features.
-    - Watch next: Run controlled studies comparing language ergonomics; track adoption of 'exploratory' languages; document research-to-industry transfers in compilers, types, and concurrency.
+### Comment pulse
+
+- One debate challenged the claim that usability is ill-defined, citing established human-factors methods and standards.
+- Readers emphasized paradigms as intellectual tools and distinguished learning familiar patterns from understanding why language designs favor them.
+
+### LLM perspective
+
+- View: Treating languages as exploratory systems explains why technically redundant languages can still advance computing.
+- Impact: Students gain more from comparing design tradeoffs than memorizing one language’s surface conventions.
+- Watch next: Evidence connecting particular language features and ecosystems to measurable changes in problem-solving.

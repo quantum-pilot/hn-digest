@@ -2,15 +2,18 @@
 
 - Score: 290 | [HN](https://news.ycombinator.com/item?id=45577080) | Link: https://forum.cursor.com/t/why-the-push-for-agentic-when-models-can-barely-follow-a-single-simple-instruction/137154
 
-- TL;DR
-  - A frustrated dev questions “agentic” coding after GPT‑5/Gemini miss parts of a simple Go refactor. Practitioners reply that agents can be useful for bounded, tedious work when you impose structure: reference Markdown, plan/phase tasks, build indexes, work in small slices, and enforce tests/TDD—treat them like interns. Others blame marketing hype, tool limits (e.g., Cursor’s context pruning), and poor performance on novel/monolithic code. A few report strong results with sub‑agents and TDD, but overall success depends on process and guardrails.
+### TL;DR
 
-- Comment pulse
-  - Agents work with structure and tests → Plan-first, TDD, sub-agents; treat as intern; ship 95% AI-written — counterpoint: “more often than not” lacks reliability.
-  - Agents are unreliable for complex or novel work → Miss context, invent APIs, double down on wrong fixes; Cursor’s pruning degrades results; marketing oversells capabilities.
-  - Outcomes hinge on process, task, and expectations → Use frameworks, indexing/Markdown, small vertical slices, and tests; context windows limit unattended, long-running edits.
+The frozen source appears to capture a forum reply rather than the full complaint implied by its title. It advocates managing coding agents through structured Markdown context, specialized roles, small vertical slices, documented workflows, tests, and frequent supervision, then includes a highly prescriptive Python-agent prompt. The accompanying discussion supplies the real debate: some developers report large productivity gains with careful planning and bounded tasks, while others see unreliable instruction-following, compounding mistakes, and excessive supervision. Experiences remain anecdotal and strongly dependent on task, codebase, expectations, and tooling.
 
-- LLM perspective
-  - View: Agentic value is systems engineering: memory, decomposition, verification, and tool orchestration; without these, autonomy amplifies model error.
-  - Impact: Expect fastest ROI in guarded domains: refactors with tests, log/trace triage, data migrations; not greenfield architecture or monolithic 6k-line rewrites.
-  - Watch next: Demand reproducible agent benchmarks, transparent context management, and costed plans; track larger-context releases and native project-memory features in IDEs.
+### Comment pulse
+
+- Supporters compared agents to fast interns that need explicit state, acceptance criteria, process guidance, and course correction.
+- Skeptics requested complete real-world demonstrations and argued “more often than not” is inadequate for autonomous work.
+- Several attributed divergent results to task novelty, context management, developer standards, and differing tolerance for near-misses.
+
+### LLM perspective
+
+- View: “Agentic” describes an operating process; it does not remove the model’s underlying reliability limits.
+- Impact: Structured decomposition can amplify useful work, but also shifts substantial effort into specification, validation, and orchestration.
+- Watch next: End-to-end evidence measuring corrected output, review time, regressions, and total cost on comparable tasks.

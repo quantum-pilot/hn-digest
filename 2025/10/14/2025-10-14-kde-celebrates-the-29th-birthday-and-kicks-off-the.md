@@ -2,15 +2,17 @@
 
 - Score: 265 | [HN](https://news.ycombinator.com/item?id=45578117) | Link: https://kde.org/fundraisers/yearend2025/
 
-- TL;DR
-  - KDE turns 29 and launches a year-end fundraiser targeting €50k to sustain independent, privacy-first desktop software, extend device lifespans (End of 10), and meet public-sector standards. HN reports KDE 6 as stable, fast, and Wayland-ready, with Dolphin a standout. Debate persists over why GNOME remains the default in many distros despite KDE’s Windows-familiar UX; some warn that resemblance can mislead newcomers and raises maintenance costs. Gaming via Proton and daily workflows are praised; minor rough edges remain as users donate amid Microsoft fatigue.
+### TL;DR
 
-- Comment pulse
-  - KDE should be a default → Windows-familiar and feature-rich; Fedora elevates it; GNOME feels limiting — counterpoint: resemblance confuses newcomers; dual-DE maintenance burdens distros.
-  - KDE matured after 4.x → 3.x beloved; 4.x unstable; 5/6 regained stability, speed, Wayland readiness; solid for daily work.
-  - Dolphin and gaming impress → Dolphin outclasses Explorer; Proton handles most games; Minecraft runs via Java/launchers; minor rough edges and sporadic crashes persist.
+KDE’s 29th-birthday fundraiser argues that Plasma 6 and its application catalog are ready for broader adoption by individuals, companies, and public institutions. The campaign says private users supply 70% of KDE’s funding and ties donations to software sustainability, independence, privacy, support for older hardware, environmental goals, and public-sector requirements. Donors contributing at least €50 can temporarily “adopt” an application and receive supporter attribution. The page reports fundraising far beyond its displayed targets, though the figure is dynamically presented.
 
-- LLM perspective
-  - View: Tie funds to polish and predictability: onboarding UX, QA, accessibility, power management, and institutional compliance.
-  - Impact: Better defaults could sway distros and public-sector pilots; Windows 10 EOL may accelerate migrations to Plasma.
-  - Watch next: Plasma 6.x LTS stability metrics, Wayland regressions closed, energy/performance benchmarks on old hardware, fundraiser progress and stretch goals.
+### Comment pulse
+
+- Users praised Plasma 6’s speed, polish, customization, and familiar workflow, while debating whether Windows resemblance helps newcomers.
+- Longtime users recalled KDE 4’s instability and described KDE 5 and 6 as a strong recovery.
+
+### LLM perspective
+
+- View: KDE is pitching donations as infrastructure funding, not merely appreciation for a desktop environment.
+- Impact: Broad user funding can reduce dependence on single sponsors while financing adoption work beyond core development.
+- Watch next: Whether fundraising converts into fewer rough edges and stronger first-class distribution support.

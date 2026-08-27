@@ -2,15 +2,17 @@
 
 - Score: 141 | [HN](https://news.ycombinator.com/item?id=45579708) | Link: https://www.nature.com/articles/d41586-025-03307-x
 
-TL;DR
-CRISPR struggles to reach mitochondrial DNA because guide RNAs can’t cross the organelle’s membranes and mitochondria lack robust repair. Researchers instead use protein-only tools: older ZFN/TALEN nucleases that cut mutant genomes to shift heteroplasmy, and newer CRISPR‑free base editors (split DddA “DdCBE” and TALED) that directly convert bases in mtDNA. These methods enable precise animal models and hint at therapies for ~1-in-5,000 mitochondrial disease patients, but delivery into mitochondria, off-target risks, and homoplasmic mutations remain major hurdles—HN readers stress the technical difficulty and caution against biohype.
+### TL;DR
 
-Comment pulse
-- Mitochondrial engineering remains hard → membranes block nucleic acids; reliable DNA/RNA import protocols lacking; TALEN/ZFN “snip-and-trash” works but delivery limits progress.
-- Don’t overhype “vibe-coded” body mods → biology is complex; meaningful edits are rare, risky, unpredictable — counterpoint: bioelectric patterning hints at non-genetic morphogenesis.
-- Access ask → readers share a free PDF; paywalls limit informed discussion of fast-moving biotech.
+Mitochondrial DNA remains difficult to edit because guide RNA cannot readily cross the organelle’s double membrane and mitochondria lack the nuclear repair machinery CRISPR normally exploits. Older ZFN and TALEN methods can destroy mutant DNA copies, allowing healthy copies to repopulate, but cannot help when every copy carries a mutation. New CRISPR-free base editors instead pair sequence-targeting proteins with split bacterial enzymes such as DddA to change individual bases. The approach could improve disease models and perhaps treatments, but clinical use still requires substantially better safety and accuracy.
 
-LLM perspective
-- View: Protein-only base editors (DdCBE, TALED) unlock mtDNA edits; biggest bottleneck is organelle delivery and tissue-specific targeting.
-- Impact: If safe heteroplasmy shifts reach clinical thresholds, first targets are LHON, MELAS, and pediatric mitochondrial encephalomyopathies.
-- Watch next: In vivo delivery, whole-genome off-target maps, reversible editors, and IND filings for compassionate-use mitochondrial disease trials.
+### Comment pulse
+
+- A researcher noted that TALEN approaches are longstanding and stressed how stubbornly difficult mitochondrial engineering remains.
+- Readers pushed back on software-like metaphors for biology, emphasizing interconnected effects and safety uncertainty.
+
+### LLM perspective
+
+- View: The breakthrough is a delivery workaround for mitochondrial constraints, not a general-purpose rewrite system.
+- Impact: Precise base changes could address mutation classes that selective destruction cannot, while creating new off-target risks.
+- Watch next: Editing specificity, delivery across affected tissues, durability, and evidence from disease models before clinical translation.

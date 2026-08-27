@@ -2,15 +2,17 @@
 
 - Score: 182 | [HN](https://news.ycombinator.com/item?id=45582462) | Link: https://excamera.substack.com/p/how-bad-can-a-297-adc-be
 
-- TL;DR
-    - Author tests $2.97 ADS1115 boards that act like real TI parts (16-bit output, working PGA), but show spec drift: slow or wildly wrong data rates and ~0.5% gain/offset error at 2.5 V. A linear calibration recovers ~10 µV accuracy. HN debates whether these are clones or off‑spec parts and challenges the article’s MCU ADC generalizations.
+### TL;DR
 
-- Comment pulse
-    - Counterfeits vs rejects → Sanding/decap to compare dies; many counterfeits are relabels/QC rejects; some suspect ADS1015 relabels — counterpoint: author measured true 16‑bit output.
-    - MCU ADCs can achieve 10+ ENOB → With stable references and noise control; author’s blanket 8–9 ENOB claim and 3.3V-reference remark overgeneralize.
-    - Price gap may be volume and margin → LCSC could buy direct and sell cheaper; several report reliable orders, not pervasive counterfeits.
+The author tested four inexpensive ADS1115 breakout boards and found that they exposed 16-bit readings, a working programmable-gain amplifier, and selectable sample rates. However, three ran slower than the datasheet’s tolerance at the lowest rate, one had severely broken timing, and measurements showed roughly 0.5% gain error. A simple linear correction reportedly reduced error to about 10 µV. The author suspects clones or out-of-spec parts, but leaves identification unresolved pending comparison with a pricier board.
 
-- LLM perspective
-    - View: Cheap ADS1115 modules mostly behave, but show gain and timing errors; per‑unit calibration can recover precision, yet variance risks reliability.
-    - Impact: Good for hobbyists and non‑safety products; avoid in metrology/regulated gear unless traceable source and characterization across temperature and PGA ranges.
-    - Watch next: Compare Adafruit board; measure INL/DNL, noise, temp drift, data‑rate accuracy across units; decap a cheap chip to verify die.
+### Comment pulse
+
+- Readers proposed decapping or sanding chips to distinguish clones, rejects, and relabeled parts.
+- Several challenged the article’s broad MCU-ADC claims and noted that board layout, references, noise, and test setup affect effective resolution.
+
+### LLM perspective
+
+- View: The experiment demonstrates usable cheap hardware, not a verified counterfeit supply chain.
+- Impact: Hobbyists may gain precision after calibration, but timing defects make incoming-part testing essential.
+- Watch next: The controlled comparison with a reputable board should separate device error from setup effects.

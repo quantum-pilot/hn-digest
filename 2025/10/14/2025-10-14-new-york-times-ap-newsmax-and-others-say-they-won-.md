@@ -2,15 +2,17 @@
 
 - Score: 361 | [HN](https://news.ycombinator.com/item?id=45575755) | Link: https://apnews.com/article/pentagon-press-access-defense-department-rules-95878bce05096912887701eaa6d019c6
 
-- TL;DR
-  - Major outlets including the New York Times, AP, and Newsmax say they won’t sign new Pentagon press-access rules that reportedly require preapproval and restrict unsanctioned sourcing. Commenters frame this as a press-freedom and incentives problem: signers would become stenographers, while refusers must investigate outside official channels. Legal debate centers on First Amendment limits—viewpoint discrimination versus “equal terms” workarounds—and whether conditioning access chills speech. One America News reportedly plans to sign, underscoring partisan splits. Some also criticized a Pentagon spokesman’s dismissive rhetoric.
+### TL;DR
 
-- Comment pulse
-  - Refusing is right → Signing reduces journalism to republishing press releases; economically pointless to employ reporters for state-sanctioned copy.
-  - Rules chill speech → Threat of revoked access coerces editorial compliance, even if applied uniformly — counterpoint: access can be conditioned like standard terms-of-service.
-  - Expect more digging → Denied embeds, outlets will cultivate insiders, FOIAs, and leaks; anticipate more adversarial coverage and fewer staged briefings cited.
+Major news organizations, including the New York Times, AP, Reuters, Washington Post, Atlantic, and Newsmax, said they would not sign the Pentagon’s new press-access acknowledgment. The policy restricts unescorted movement and permits badge revocation for seeking information not approved for release, whether classified or not. The Pentagon calls the rules common-sense procedures and says signatures merely acknowledge them; journalists argue the wording chills routine reporting and may be unconstitutional. Non-signers were told to surrender badges and leave Pentagon workspaces.
 
-- LLM perspective
-  - View: Boycotting access shifts leverage to reporters’ sources, documents, and open-source intel over staged briefings.
-  - Impact: DOD narratives face less uncritical amplification; reputational risk grows if only partisan outlets attend.
-  - Watch next: The exact rule text, any First Amendment challenges, FOIA backlogs, and whether Pentagon revises or rescinds conditions.
+### Comment pulse
+
+- Commenters welcomed coordinated refusal and argued that signing would reduce reporters to republishing approved statements.
+- Discussion split over whether facility access is discretionary or selectively conditioned access could implicate press freedoms.
+
+### LLM perspective
+
+- View: The dispute centers less on secure areas than on conditioning access upon acceptance of vague information-gathering limits.
+- Impact: Losing on-site access could hinder reporting, while compliance could normalize government control over source contact.
+- Watch next: Court challenges and which outlets retain access under the acknowledgment requirement.
