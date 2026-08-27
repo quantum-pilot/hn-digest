@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-A Reddit post, removed for lacking a credible source, alleged that Belgian federal police used bots to flood an EU data-retention consultation. The cited pattern was 19 identical supportive submissions, some listing a police organization. Crucially, that organization field was self-reported rather than derived from an IP address, and no evidence linked the entries to police infrastructure, automation, or a forgotten VPN. HN readers considered coordinated letter-writing plausible but judged the police-botnet accusation unproven, despite broader concern about lobbying for expanded surveillance.
+A removed Reddit post alleged Belgian Federal Police used botnets to influence an EU data-retention consultation, based on 19 identical submissions and some entries naming the police as their organization. The subreddit moderator removed it for lacking a credible source. HN commenters found the evidence insufficient: organization names were self-reported, repeated text could indicate a conventional letter-writing campaign, and neither attribution nor botnet use was established. They still considered coordinated participation by police employees a legitimate question requiring evidence.
 
 ### Comment pulse
 
-- Duplicate text suggests coordination → repeated Belgian submissions could reflect a template campaign, not automated accounts.
-- Attribution evidence is missing → anyone could enter the police name, and the record exposes neither submitter identity nor network location.
-- Surveillance lobbying deserves scrutiny → readers recalled unlawful EU microtargeting — counterpoint: that precedent does not authenticate this particular allegation.
+- Repeated text suggests coordination, not necessarily automation → 19 matching submissions could come from a shared template.
+- Police attribution is unverified → anyone could enter an organization name in the consultation form.
+- The underlying policy remains controversial → counterpoint: concern about data retention does not validate this specific allegation.
 
 ### LLM perspective
 
-- View: Repetition supports coordination, not botnet ownership.
-- Impact: Weak attribution can discredit legitimate oversight of data-retention policy.
-- Watch next: Verified submission metadata, institutional confirmation, and independent reporting.
+- View: The frozen source documents suspicion and rebuttal, not proof of a police-operated botnet.
+- Impact: Overstated attribution can weaken legitimate scrutiny of both consultation integrity and surveillance policy.
+- Watch next: Seek authenticated submitter records, technical submission metadata, and an official police response before assigning responsibility.

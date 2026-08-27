@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Iceland has classified a potential Atlantic overturning collapse as a national security risk, the country’s first such designation for a climate impact. The circulation transports heat northward; warming and freshening may weaken it, although scientists remain uncertain about collapse timing and probability. A shutdown could bring Iceland severe cooling and sea ice while disrupting fishing, transport, infrastructure, European rainfall, global monsoons, and regional sea levels. The designation triggers coordinated government work to assess prevention and adaptation, but the article identifies no concrete measures yet.
+Iceland has designated possible instability or collapse of the Atlantic Meridional Overturning Circulation as a national-security risk, prompting a coordinated assessment of prevention and mitigation. A collapse could sharply cool Iceland and expand sea ice, threatening transport, infrastructure, fishing, and energy systems, while also affecting sea levels and monsoons elsewhere. The scientific likelihood and timing remain unsettled: some research allows for a collapse this century, but the designation is a precautionary planning decision rather than a confident prediction that collapse is imminent.
 
 ### Comment pulse
 
-- Treating AMOC failure as security policy raises preparedness → critical infrastructure and food systems need planning before uncertain tipping points become observable.
-- Risk estimates remain contested → models and geological evidence suggest danger — counterpoint: skeptics question past forecasts and collapse timing.
-- A security label needs an operating plan → commenters asked which investments, redundancies, or relocation thresholds would follow the designation.
+- Discussion polarized between dismissing past climate warnings and treating low-probability, high-impact scenarios as requiring preparation.
+- Several readers wanted concrete actions beyond the security designation.
 
 ### LLM perspective
 
-- View: Low-probability, catastrophic climate risks justify preparation when infrastructure cannot be rebuilt quickly after regional conditions shift.
-- Impact: Iceland’s fishing, transport, energy, and settlement assumptions could all fail together under abrupt cooling.
-- Watch next: Preparedness plans should specify monitoring triggers, infrastructure adaptations, food resilience, and cross-border coordination.
+- View: Formal risk classification is sensible when consequences are severe even if timing remains uncertain.
+- Impact: The designation can force infrastructure and fisheries planning across agencies before scientific certainty arrives.
+- Watch next: Whether Iceland publishes scenarios, triggers, budgets, and adaptation measures tied to measurable ocean indicators.

@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Hachi is designed as a self-hosted image search system that indexes metadata and machine-learning embeddings without copying original files, even when data spans devices or remote storage. Its Python backend pairs a custom Nim metadata engine with disk-sharded vector search, face clustering, and a browser interface for recursively refining mixed semantic and deterministic attributes. The developer reports tests on 180 GB of Pexels images and 500,000 Flickr images. Constraints include a placeholder CLIP model, x64-only testing, unfinished ARM support, and a closed-source inference framework.
+Hachi is a self-hosted image-search project that indexes metadata and semantic embeddings without duplicating original files. Queries can iteratively combine deterministic attributes with machine-learned concepts, while a face pipeline supports detection, clustering, and editable names. The author uses Python for orchestration and Nim/C for indexing and vector operations, with disk-backed shards controlling memory use. Tests reportedly reached 500,000 images, but large-scale production performance remains unproven, and the custom Nim machine-learning framework is not yet open source.
 
 ### Comment pulse
 
-- Local embeddings remain replaceable → the author treats CLIP as a placeholder and prioritizes fusing semantic results with user-controlled metadata.
-- Minimal dependencies improve hackability → custom databases and inference code also create maintenance debt and narrower hardware support — counterpoint: measured prototypes already scale.
-- Personal search remains underserved → commenters want one private index spanning photos, browsing, notes, recordings, and repositories.
+- Readers welcomed private personal-photo search but questioned embedding speed and one result the author said reflected misunderstood query semantics.
+- The author says the Python side currently has only three dependencies; the Nim framework remains closed.
 
 ### LLM perspective
 
-- View: A private search index becomes valuable when users can refine partial memories across semantic and factual attributes.
-- Impact: Avoiding source duplication reduces storage churn, while exposed attributes give users more control over ambiguous retrieval.
-- Watch next: Open sourcing the inference layer and publishing million-image latency benchmarks would test portability and scalability claims.
+- View: Separating originals from a replaceable semantic index is the project’s strongest architectural choice.
+- Impact: Useful search depends as much on editable metadata and failure correction as embedding quality.
+- Watch next: Public code, reproducible benchmarks, and tests beyond curated datasets would establish practical readiness.

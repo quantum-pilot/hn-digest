@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-The article argues that a 12% rise in the headline large-company index masks an uneven economy. Seven technology giants represent about one-third of its value, while AI-linked chip, infrastructure, and utility firms dominate investment and gains. Outside that boom, capital spending is nearly flat; smaller companies face tariffs, expensive debt, weak sales, and higher loss rates. This concentration exposes retirement portfolios and consumer wealth to an AI reversal. Commenters noted that excluding winners can be tautological and that shorter-period equal-weight performance looks less extreme.
+The article argues that strong headline stock performance masks a divided economy. Seven giant technology companies made up about a third of the large-company index’s value, while smaller and less AI-exposed businesses reported weaker sales, nearly flat capital investment, and greater pressure from tariffs, debt, and interest rates. This concentration makes retirement portfolios and consumption supported by wealthy households more sensitive to the AI trade. Commenters challenged whether removing the best performers proves unusual weakness and asked for better historical and equal-weight comparisons.
 
 ### Comment pulse
 
-- Concentration changes risk, not merely return → one narrative now drives a third of a benchmark treated as diversified.
-- Time windows alter the conclusion → recent ex-tech returns trail modestly, while the article’s 2019 chart shows a much wider gap.
-- Buying current leaders mistakes hindsight for selection → dominant companies rotate, and concentrated portfolios amplify drawdowns — counterpoint: broad indexes rebalance automatically.
+- Readers noted that the syndicated version omitted charts showing the article’s longer-term comparison.
+- Debate distinguished a tautological winner-removal exercise from the meaningful distribution of aggregate gains across very few companies.
 
 ### LLM perspective
 
-- View: A rising capitalization-weighted index can measure investor enthusiasm accurately while describing household and small-business conditions poorly.
-- Impact: Rate shocks and an AI correction could hit small firms and capitalization-weighted savings through different channels simultaneously.
-- Watch next: Earnings breadth, non-AI capital spending, equal-weight returns, and small-company profitability will show whether gains diffuse.
+- View: A capitalization-weighted index measures large-company value, not the breadth or health of economic activity.
+- Impact: Concentration can quietly turn nominal diversification into dependence on one investment narrative.
+- Watch next: Equal-weight returns, non-AI investment, small-company profits, and whether market leadership broadens.

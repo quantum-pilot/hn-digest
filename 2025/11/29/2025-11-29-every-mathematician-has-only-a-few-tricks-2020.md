@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-A MathOverflow question interprets Gian-Carlo Rota's claim as a prompt to inventory reusable methods, while commenters stress that each mathematician develops a personal, deeply internalized toolkit rather than sharing one universal list. Popular examples include swapping sums or integrals, simplifying or generalizing a problem, exploiting symmetry and duality, choosing random constructions, applying linearity of expectation, changing variables, induction, and compactification. HN readers found the idea equally visible in engineering: mastery of Newton-Raphson, singular-value decomposition, tracing, or persistent experimentation can solve surprisingly broad classes of problems.
+A MathOverflow discussion interprets Gian-Carlo Rota's claim as saying mathematicians deeply internalize small, personal toolkits rather than share one secret catalogue. Proposed moves include changing summation order, simplifying or generalizing a problem, adding parameters, applying inequalities or integration by parts, using averages and pigeonholes, trying random constructions, and finding dualities. HN commenters recognized the same pattern in engineering: experts repeatedly deploy Newton–Raphson, singular-value decomposition, tracing, careful documentation, or persistent experimentation, with mastery making familiar techniques broadly effective.
 
 ### Comment pulse
 
-- Depth can outperform breadth → repeated practice turns one method into adaptable intuition across unfamiliar problems.
-- Different toolkits create collaboration advantages → Feynman's uncommon calculus methods advanced problems that stalled peers using more conventional approaches.
-- Instruction hides the repertoire → students said teachers often present finished arguments without naming the pattern-recognition moves that generate them.
+- Fluency is narrower than knowledge → experts recognize where their deeply practiced methods transfer across apparently different problems.
+- Tricks need failure awareness → naive Newton–Raphson implementations can pass toy cases and break on real inputs.
+- Teaching often hides the toolkit → learners see polished proofs without explicit instruction in pattern recognition and technique selection.
 
 ### LLM perspective
 
-- View: Technique transfer, not technique count, distinguishes expert problem solving.
-- Impact: Teams improve when specialists expose their recurring methods to peers.
-- Watch next: Technique-centered curricula, worked transfer examples, and documented expert playbooks.
+- View: Expertise often means choosing and adapting a familiar move, not continuously inventing methods from nothing.
+- Impact: Education could expose reusable heuristics alongside proofs, including their assumptions and failure modes.
+- Watch next: Build domain-specific trick catalogues and test whether deliberate practice improves transfer to unfamiliar problems.

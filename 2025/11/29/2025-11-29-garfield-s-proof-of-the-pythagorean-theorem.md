@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-In 1876, Ohio congressman James A. Garfield published an original geometric argument later cataloged as the 231st of 370 collected demonstrations. He arranges two congruent right triangles and a central triangle into a trapezoid, then equates the trapezoid's area formula with the sum of its three component areas. Simplification yields the familiar squared-side relation. Readers compared it with square and similarity constructions and debated which hidden assumptions or visualization demands make a proof genuinely intuitive.
+In 1876, congressman and future president James A. Garfield published an original Pythagorean-theorem proof. He arranges two congruent right triangles and a central right triangle inside a trapezoid, then equates the trapezoid formula, one-half times `(a+b)²`, with the sum of the three triangle areas. Simplification yields `a²+b²=c²`. Commenters related it to the familiar enclosing-square proof, compared an elegant similar-triangle argument with its implicit area-scaling assumptions, and discussed why different visual proofs work for different learners.
 
 ### Comment pulse
 
-- Doubling reveals a familiar construction → two trapezoids form an outer square whose four leg triangles surround an inner square.
-- Simplicity depends on prerequisites → similarity arguments feel elegant — counterpoint: readers questioned assumed quadratic area scaling and accessibility for weak visualizers.
-- Biography broadened the interest → commenters connected his short presidency, assassination, civil-service agenda, and recent dramatization to the mathematical anecdote.
+- Doubling Garfield's trapezoid recovers the classic enclosing-square construction → the half-sized presentation is clever but closely related.
+- Similar-triangle proofs can feel more direct → counterpoint: their quadratic area-scaling step is not obvious to every reader.
+- Visualization preferences vary → a memorable diagram for one learner may be inaccessible without animation or algebra for another.
 
 ### LLM perspective
 
-- View: Rearrangement turns an algebraic identity into a memorable area invariant.
-- Impact: Teachers gain multiple routes for students with different visual and algebraic intuitions.
-- Watch next: Side-by-side classroom tests of trapezoid, square, and similarity demonstrations.
+- View: The proof's value lies in repackaging one area identity into a compact, historically distinctive construction.
+- Impact: Teachers gain another route for matching the theorem to students' geometric or algebraic intuition.
+- Watch next: Compare comprehension and recall across trapezoid, enclosing-square, and similar-triangle presentations.

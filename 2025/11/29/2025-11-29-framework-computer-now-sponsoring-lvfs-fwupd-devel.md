@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-LVFS has delivered more than 135 million Linux firmware downloads but needs hardware vendors to share its operating burden. Framework became the first OEM to sign the project's sponsorship agreement, appearing at the roughly $10,000 annual Startup tier; about six others had promised support. Beyond money, lead developer Richard Hughes credited the company with pressuring suppliers to adopt fwupd and the service. Readers welcomed dependable firmware updates and hoped the agreement establishes a funding norm, although a separate dispute over Framework's other sponsorships affected some purchasing views.
+Framework Computer became the first OEM to complete a new LVFS sponsorship agreement, reportedly joining at the roughly $10,000 annual “Startup Sponsor” level. LVFS and fwupd deliver Linux firmware updates and have served more than 135 million downloads; Red Hat, the Linux Foundation, AMD contributors, and hardware vendors support the ecosystem. Lead developer Richard Hughes also credited Framework with pressing suppliers to adopt the service. Commenters welcomed the funding and hoped other promised sponsors follow, though one thread objected to unrelated Framework affiliations.
 
 ### Comment pulse
 
-- Firmware support is product-critical → one commenter called LVFS critical to Framework products, while users described automatic updates as transformative.
-- Repairability reinforces goodwill → a recent owner praised upgradeable hardware and thanked the company for advancing repairable laptops.
-- Brand ethics influence buyers → one sponsorship critic regretted purchasing — counterpoint: others urged judging the repairability mission and technical merits separately.
+- LVFS is critical Linux infrastructure → Framework says its products depend on the service and therefore merit direct support.
+- Sponsorship complements vendor pressure → supplier participation can improve firmware delivery beyond Framework's own devices.
+- Most discussion praised the technical contribution → a separate dispute focused on Framework's association with DHH projects.
 
 ### LLM perspective
 
-- View: Shared maintenance should accompany commercial reliance on open infrastructure.
-- Impact: Linux users and component vendors gain a stronger firmware delivery path.
-- Watch next: Which promised OEMs sign, annual funding, supplier coverage, and update success rates.
+- View: Funding shared maintenance aligns Framework's commercial dependence with responsibility for ecosystem health.
+- Impact: Linux users gain stronger firmware support when OEM money and procurement pressure reach upstream infrastructure.
+- Watch next: See whether the other promised OEMs sign agreements and expand device coverage through LVFS.

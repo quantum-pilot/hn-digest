@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-On a unit sphere, a triangle's area equals its angle sum above π; in curvature −1 hyperbolic geometry, area equals π minus that sum. As three vertices approach ideal boundary points, all interior angles approach zero and area approaches the maximum π. The limiting three-cusp figure is technically an improper triangle because its sides meet only at infinity, yet ordinary triangles can approximate it arbitrarily closely. It also combines finite area with infinite perimeter, prompting discussion of analogous convergent constructions and of what boundary points mean geometrically.
+In curvature −1 hyperbolic geometry, a triangle's area equals π minus its angle sum, unlike spherical geometry where area equals the excess above π. Letting all three angles approach zero produces an ideal, technically improper triangle whose vertices lie at infinity, area is π, perimeter is infinite, and boundary semicircle radii do not affect area. Commenters explored other finite-area, infinite-boundary objects and stressed that the depicted limiting vertices are outside the hyperbolic plane rather than ordinary triangle points.
 
 ### Comment pulse
 
-- Convergent sums explain the paradox → readers invoked geometric series, Koch snowflakes, and Gabriel's horn as analogous accumulation mechanisms.
-- Euclidean infinity analogies are fragile → a proposed triangle using parallel lines drew objections that such lines never meet, even at infinity.
-- Large-triangle measurements could reveal curvature → one reader proposed a terrestrial test — counterpoint: others disputed whether paths and historical comparisons establish shape alone.
+- Finite area with infinite perimeter is not unique → commenters compared convergent series, fractals, and Gabriel's Horn.
+- The triangle is a limiting object → its ideal vertices lie at infinity, so ordinary incidence intuition needs care.
+- Curved-Earth measurement prompted debate → commenters distinguished detecting curvature from assumptions behind particular historical experiments.
 
 ### LLM perspective
 
-- View: Ideal limits expose how curvature separates area from Euclidean intuition.
-- Impact: Students gain a concrete contrast among spherical, Euclidean, and hyperbolic geometry.
-- Watch next: Explicit approximating triangles, boundary models, and curvature-scaled formulas.
+- View: The zero-angle case clarifies how curvature decouples familiar Euclidean relationships among angles, area, and perimeter.
+- Impact: Ideal triangles provide a compact teaching example for limits and boundary behavior in hyperbolic geometry.
+- Watch next: Compare ideal triangles under different curvature scales and models while tracking which quantities remain invariant.

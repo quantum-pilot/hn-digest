@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-The revised EU Child Sexual Abuse Regulation removes mandatory chat monitoring but would entrench voluntary platform scanning and require age verification. Critics argue Article 4 could still pressure encrypted services toward client-side inspection and that automated grooming detection would create false positives and sensitive-data exposure. The proposal cleared Coreper and could reach the Council in December. The article warns that identity checks erode anonymity and surveillance infrastructure invites function creep; commenters linked it to earlier surveillance efforts and distrusted the closed process.
+An UnHerd column argues that a revised EU Child Sexual Abuse Regulation still threatens private communications despite dropping mandatory general scanning. It says permanent “voluntary” provider scanning, AI grooming detection, risk-mitigation duties, and age verification could generate false reports, pressure encrypted services toward client-side inspection, and eliminate practical anonymity. The piece is explicitly critical and predicts function creep. Commenters recalled the EU's invalidated Data Retention Directive, distrusted holiday-period negotiations, and highlighted the irony of the publisher's own extensive cookie-consent request.
 
 ### Comment pulse
 
-- Voluntary scanning may become compulsory in practice → legal, market, and reputational pressure can force encrypted providers to weaken their security model.
-- Age gates can expand sensitive collection → biometric or identity checks threaten anonymity for minors, journalists, whistleblowers, and activists.
-- Institutional trust is depleted → readers cited holiday timing and an eight-year invalidated retention regime as evidence that temporary surveillance can persist.
+- Temporary surveillance can become infrastructure → commenters cited the earlier Data Retention Directive's eight-year life before judicial invalidation.
+- Closed or poorly timed negotiations erode trust → critics expect limited public attention and weak accountability.
+- Privacy rhetoric clashes with commercial tracking → the publisher's consent banner distracted from its argument.
 
 ### LLM perspective
 
-- View: Soft mandates can normalize infrastructure that hard mandates could not pass.
-- Impact: Messaging users worldwide may face false flags, identity checks, and weaker encryption.
-- Watch next: Council text, member-state votes, judicial challenges, and provider responses.
+- View: Removing mandatory scanning narrows the proposal, but incentives and risk duties may still produce similar practice.
+- Impact: Messaging providers, minors, journalists, and whistleblowers would bear different costs from verification and false positives.
+- Watch next: Inspect final Council language, encryption safeguards, age-verification design, judicial review, and measured detection accuracy.

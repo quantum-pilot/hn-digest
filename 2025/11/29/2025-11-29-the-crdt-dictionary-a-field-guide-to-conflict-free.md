@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-The guide explains how replicated data structures converge without consensus when merges are associative, commutative, and idempotent. It compares state and operation distribution, then maps application semantics to counters, sets, registers, maps, sequences, trees, version vectors, and delta updates. Each choice moves complexity: last-write-wins discards concurrent work, observed-remove designs preserve it with tags, and sequences accumulate identifiers or tombstones. Garbage collection can require expiry, causal tracking, checkpoints, bounds, or coordination. The author ultimately recommends choosing by required operations and admits a conventional database often remains simpler.
+This field guide explains how conflict-free replicated data types make replicas converge through deterministic, associative, commutative, and idempotent merges. It compares state- and operation-based designs across counters, sets, registers, maps, sequences, trees, causal tracking, and delta transmission, emphasizing that semantics determine the right choice. Preserving concurrent work costs metadata, complexity, or lost-update compromises. Garbage collection is especially difficult because forgotten causal history can resurrect deleted data. The author ultimately cautions that conventional databases and coordination remain simpler for many applications.
 
 ### Comment pulse
 
-- High-level libraries are complete CRDTs → Automerge and similar systems expose proven collaborative document semantics without manual composition of primitive types.
-- Coordination is displaced, not eliminated → applications still choose conflict semantics, causal delivery, compaction, and acceptable anomaly boundaries.
-- Metadata is the availability bill → offline replicas force systems to retain history or risk resurrecting deleted data.
+- Readers stressed that systems such as Automerge are complete, formally analyzed CRDTs, not merely bundles of primitive types.
+- One commenter summarized the central concern: some conflicts are displaced into application semantics rather than eliminated.
 
 ### LLM perspective
 
-- View: CRDT correctness solves convergence, while product correctness still depends on whether the chosen merge behavior matches user intent.
-- Impact: Offline collaboration becomes resilient, but storage growth, surprising conflict outcomes, and debugging complexity move into application design.
-- Watch next: Teams should benchmark merge latency, tombstone growth, resynchronization costs, and user-visible outcomes under realistic partitions.
+- View: CRDT selection is domain modeling disguised as distributed-systems engineering.
+- Impact: Automatic convergence is valuable only when its conflict semantics match what users expect.
+- Watch next: Metadata bounds, offline-replica policy, garbage collection, and tests for adversarial concurrent edits.

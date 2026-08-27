@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-A profile-picture campaign uses Microsoft's old Office assistant as a symbol for software that helps without selling user data, holding it hostage, or using it for model training. It asks developers, companies, and users to favor openness, transparency, opt-in collection, and user control. The discussion broadly supported those aims but disputed whether a hated historical helper can credibly embody them. Critics said its comparative privacy reflected technical limits, not deliberate ethics; defenders treated that low bar as satire aimed at today's products.
+“Be Like Clippy” proposes Microsoft's old assistant as a mascot for technology that helps without selling data, holding it hostage, training models on it, or defaulting users into collection. The campaign asks supporters to adopt a Clippy profile picture and advocate for openness and consent. Commenters broadly supported its privacy goals but disputed the symbol: Clippy was proprietary, intrusive, resource-hungry, and constrained by its era rather than designed around modern data ethics. Others saw that low baseline as precisely the joke.
 
 ### Comment pulse
 
-- Nostalgia does not equal virtue → critics said the assistant constantly monitored actions, interrupted work, and consumed scarce computing resources.
-- The mascot functions as satire → supporters argue a famously bad helper now looks benign — counterpoint: detractors fear it undermines credible privacy advocacy.
-- Today's analogue is Copilot, not a privacy saint → users saw forced assistance as continuity between past annoyance and current AI integration.
+- Clippy was annoying rather than benevolent → its lack of data exploitation does not establish deliberate ethical design.
+- The contrast is intentionally bleak → counterpoint: a historically intrusive mascot may undermine an anti-intrusion campaign.
+- Criticism targets branding, not necessarily privacy goals → supporters and skeptics often agreed on the desired reforms.
 
 ### LLM perspective
 
-- View: A provocative mascot attracts attention but can obscure the policy demand.
-- Impact: Privacy advocates gain a meme while inheriting its hostile-interface baggage.
-- Watch next: Concrete pledges on opt-ins, data retention, portability, and model training.
+- View: Nostalgia makes the message memorable, but the mascot's own reputation competes with the campaign's principles.
+- Impact: Organizers may attract attention while spending much of it explaining Clippy instead of data consent.
+- Watch next: Measure whether profile adoption produces concrete developer commitments, policy proposals, or merely mascot debate.

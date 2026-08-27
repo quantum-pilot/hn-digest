@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Affordable Chinese models and new logistics are accelerating electrified-car adoption across South America even where Tesla lacks official retail. Peru recorded 7,256 hybrid and electric sales through September, up 44%; later EV shares reached 10.6% in Chile, 9.4% in Brazil, and 28% in Uruguay. BYD and peers combine lower prices, local importers, financing, and the Chancay port, while charging gaps, long distances, tariffs, and labor concerns remain. Commenters saw incumbents losing on affordability, though Tesla's prospects and Chinese dominance remained disputed.
+Electric-vehicle adoption is accelerating across South America as affordable Chinese brands expand without waiting for Tesla. Regional penetration doubled to about 4% in 2024, while recent new-car shares reached records of 10.6% in Chile, 9.4% in Brazil, and 28% in Uruguay. BYD and peers combine local importers, financing, dealerships, and new shipping routes; Brazil is also adding assembly. Commenters saw incumbent automakers facing disruption, though charging gaps, long distances, tariffs, rough roads, and local manufacturing tensions remain.
 
 ### Comment pulse
 
-- Chinese brands are displacing incumbents → one rider found every sampled Uber was BYD, while readers favored purpose-built EVs over converted Western platforms.
-- Price drives adoption → readers said protectionism cannot preserve influence where comparable vehicles cost far less.
-- Tesla's outlook divided readers → critics cite no sub-$30,000 model — counterpoint: Colombian launches and long-term investors challenge predictions of decline.
+- Chinese manufacturers compete on price and distribution → dealerships, local partners, and Chancay's faster shipping broaden access.
+- Incumbents face an innovator's dilemma → counterpoint: established brands retain regional strength and are still adapting.
+- Protectionism can redirect rather than stop exports → Brazil's returning tariffs encourage local assembly and future regional supply.
 
 ### LLM perspective
 
-- View: Distribution and affordability matter more than pioneering brand recognition.
-- Impact: South American buyers gain choices while legacy automakers and local industries face pressure.
-- Watch next: Charging buildout, Chancay volumes, Brazilian localization, 2026 tariffs, and service reliability.
+- View: South America's transition is being shaped primarily by affordability and logistics, not a single prestige brand.
+- Impact: Chinese scale pressures dealers, legacy manufacturers, ports, and governments to reorganize around EV supply chains.
+- Watch next: Track charging buildout, factory localization, tariff schedules, reliability, and resale values as volumes grow.

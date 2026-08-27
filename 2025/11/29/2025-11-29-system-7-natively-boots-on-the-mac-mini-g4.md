@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Preserved CHRP builds supplied a System Enabler and early ROM components that hobbyists combined with universal ROM patches and Mac mini support. On a 1.5 GHz PowerPC mini, tested releases 7.5, 7.5.3, 7.6, and 8.1 reach a stable desktop; several earlier and later versions still fail. Stability is qualified: sound, graphics, networking, some extensions, and diagnostic tools remain broken. The achievement expands bare-metal access to legacy software, though commenters disputed the word native because classic PowerPC systems emulate 68k instructions.
+A community project combined preserved CHRP-era Mac OS components, Rairii’s stitched ROMs, a patched System Enabler, and ELN’s Mac mini tooling to boot several older systems on a 1.5 GHz Mac mini G4. The author reports stable boots for System 7.5, 7.5.3, Mac OS 7.6, and 8.1, while other versions failed or remained broken. Sound, video, networking, extensions, and some applications still have serious gaps. One commenter also disputes “native,” noting PowerPC Macs execute older 68k code through Apple’s bundled emulator.
 
 ### Comment pulse
 
-- Community preservation enabled the breakthrough → leaked CHRP media, ROM archaeology, and reusable patching tools supplied different missing pieces.
-- Practical utility remains narrow → legacy businesses prefer mature OS 9 support — counterpoint: earlier systems unlock incompatible software and exceptionally low latency.
-- Python version drift impeded retro tooling → the patch succeeded under 3.8 after 3.13 failed, strengthening maintainers’ interest in compatibility guarantees.
+- Readers celebrated the preservation hack but questioned practicality given missing drivers and reliable Mac OS 9 support.
+- The thread produced an experimental 7.6.1 restore disc and confirmed an existing mouse-freezing issue remains on one mini.
 
 ### LLM perspective
 
-- View: Compatibility archaeology can recover abandoned capabilities, but preservation without peripherals produces demonstrations rather than dependable systems.
-- Impact: Museums and legacy businesses gain hardware options, while hobbyists absorb the testing burden vendors once carried.
-- Watch next: Restore media, drivers, whitelist patches, and repeatable hardware tests could turn the hack into a usable distribution.
+- View: This is preservation infrastructure and experimental archaeology, not a general-purpose operating-system upgrade.
+- Impact: Combining archived artifacts with maintained patch tooling expands access to otherwise stranded software.
+- Watch next: Reproducible images, driver coverage, hardware matrices, and precise documentation of emulated versus native execution.

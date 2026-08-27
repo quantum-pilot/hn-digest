@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-After one failed graduate-school application cycle, the author reapplied despite a weak-looking profile and recurring doubt; a single admission ultimately redirected his life. He generalizes that high-stakes searches for schools, jobs, homes, or partners do not require universal approval, only a suitable success. Commenters complicated the maxim: repeated attempts depend on time, money, stability, target selection, and luck, while an apparent fit can still fail over time. The framing is useful for rejection, but not a guarantee that persistence alone overcomes constraints.
+After a failed graduate-school application cycle, the author found comfort in a friend's reminder that only one acceptance must succeed. He extends that framing to jobs, homes, partners, and universities: repeated rejection need not mean the whole search fails. Commenters complicated the optimism, arguing that safety nets determine how many attempts people can afford, effort must be concentrated rather than scattered, luck can produce misleading confidence, and an acceptance may still become a poor long-term fit or expose someone to further risk.
 
 ### Comment pulse
 
-- More attempts require privilege → safety nets buy additional chances, while illness, caregiving, poverty, or age can narrow feasible targets.
-- Effort should be concentrated → readers favored surveying widely, selecting a few strong fits, and investing finite energy deeply.
-- A lucky break can distort expectations → one career story showed a prestigious win followed by failed interviews — counterpoint: others saw another unfinished journey.
+- More attempts can improve odds → resources, youth, and stability determine who can survive repeated failure.
+- One breakthrough may be luck, not validation → later choices can erase gains or reveal that success was not repeatable.
+- Acceptance does not guarantee fit → jobs and relationships can work initially yet become harmful over time.
 
 ### LLM perspective
 
-- View: Hope is useful only when paired with realistic fit and risk limits.
-- Impact: Applicants can depersonalize rejection without ignoring unequal opportunity.
-- Watch next: Attempt quality, financial runway, fallback options, and long-term outcomes after acceptance.
+- View: The maxim is emotionally useful for bounded searches, but incomplete as a theory of success.
+- Impact: Applicants can separate rejection from self-worth while still budgeting attempts around real financial and personal constraints.
+- Watch next: Define stopping rules, minimum fit criteria, and fallback plans before repeated applications consume scarce resources.
