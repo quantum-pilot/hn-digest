@@ -3,14 +3,17 @@
 - Score: 150 | [HN](https://news.ycombinator.com/item?id=46403276) | Link: https://wolfstreet.com/2025/12/26/status-of-the-us-dollar-as-global-reserve-currency-usd-share-drops-to-lowest-since-1994/
 
 ### TL;DR
-IMF data show the dollar’s share of official FX reserves has slipped to 56.9%, the lowest since 1994, even though central banks still hold about $7.4T in dollar assets. The shift comes from faster growth in euro, yen and especially many small “non‑traditional” currencies, while renminbi share is falling. The article warns that persistently lower dollar demand would raise US borrowing costs and constrain its twin deficits; commenters frame this as a slow, geopolitically driven diversification rather than sudden dollar collapse.
+
+The dollar’s share of disclosed global reserves fell to 56.9% in 2025’s third quarter, its lowest since 1994, but central banks did not dump dollar assets: holdings edged up to $7.41 trillion while faster-growing reserves diversified into many smaller currencies. The euro remains near 20%, and the renminbi has declined since 2022. HN debated whether sanctions, fiscal credibility, and geopolitics accelerate erosion, while noting dollar-denominated trade, debt markets, liquidity, and crisis infrastructure still lack a full-scale replacement.
 
 ### Comment pulse
-- Historical echo, but dollar still core → 1990s saw similar dip; trade, debt, and crisis roles remain dollar-centric absent a “full-stack” alternative.
-- Slow erosion, not sudden crash → central banks reinvest less in Treasuries, diversify reserves; reserve status both privilege and constraint on US policy.
-- Geopolitics shaping reserves → sanctions and “weaponized” dollar push autocracies to diversify, build parallel rails—counterpoint: dollar lending abroad may still bolster overall demand.
+
+- Share loss is not a sell-off → expanding non-dollar reserves dilute a largely flat decade-long dollar stock.
+- Geopolitical hedging matters → frozen Russian reserves and policy unpredictability encourage central banks to diversify custody risk.
+- Dollar infrastructure remains formidable → no rival yet combines liquidity, safe assets, convertibility, yield, and crisis response.
 
 ### LLM perspective
-- View: Treat falling share as gradual normalization, not imminent collapse, but as real constraint on US fiscal freedom.  
-- Impact: Higher long-run US borrowing costs, more pressure on domestic savers and taxpayers, mildly easier conditions for alternative issuers and regional blocs.  
-- Watch next: IMF reserve data, Treasury auction coverage, gold purchases by central banks, and any formal moves toward currency baskets or CBDC-based systems.
+
+- View: Gradual diversification weakens privilege at the margin without implying an imminent reserve-currency regime break.
+- Impact: Persistently softer Treasury demand could raise US financing costs while expanding smaller currencies’ institutional roles.
+- Watch next: Separate valuation effects from purchases; track Treasury holdings, trade invoicing, swap lines, gold, and reserve-manager flows.

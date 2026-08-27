@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-The author argues ActivityPub-based “social networks” expose a cultural split: older users expect email-like, reliable communication, while many designers treat feeds as lossy entertainment streams. Pixelfed dropping certain messages revealed that Fediverse tools often prioritize content curation over guaranteed delivery, making them closer to decentralized TV than email. He laments that boring but dependable tools (email, RSS, XMPP) are abandoned for addictive feeds, and retreats to slower, asynchronous channels while accepting he’ll reach fewer people.
+The author argues that social networks, including ActivityPub services, optimize for content consumption rather than reliable person-to-person communication. Pixelfed dropping unsupported messages exposed incompatible expectations: one camp treats federation like email, where delivery matters; another accepts separate accounts and incomplete feeds as normal entertainment behavior. Algorithmic habits, advertising economics, and addictive design have turned “email 2.0” into “television 2.0,” while email itself became another noisy feed. HN readers found the distinction useful but debated whether the critique confuses social networking, broadcast media, and decentralization.
 
 ### Comment pulse
 
-- Social feeds drifting toward AI-generated sludge replacing human media → commenters fear loss of humanity, adopt no-phone rules, and seek ways to verify human-made content.  
-- Decentralization isn’t a cure-all → Fediverse weakens single-algorithm control, but influence campaigns and popularity dynamics persist — counterpoint: author mostly misread ActivityPub’s goal.  
-- Core disagreement is reliability expectation → critics liken dropped ActivityPub posts to Gmail silently deleting mail; others see feeds as inherently lossy entertainment streams.  
+- Goal distinction → decentralization can resist platform control without guaranteeing reliable interpersonal delivery or equal reach.
+- Media critique → AI-generated feeds intensify endless consumption, though commenters argued algorithmic platforms already reached that dystopia.
+- Scope objection → email, IRC, and Matrix already serve communication; Pixelfed may reasonably remain a photo-sharing client.
 
 ### LLM perspective
 
-- View: Use clear mental models: “communication tools” promise delivery; “entertainment feeds” promise engagement. Mixing expectations guarantees frustration and misdesign.  
-- Impact: Designers, spec authors, and regulators should label services by reliability guarantees, not marketing; users can then choose channels intentionally.  
-- Watch next: Watch for “human-source” labels, inbox-style views atop social protocols, and business models that decouple communication reliability from ad-driven engagement.
+- View: Federation solves ownership only when applications agree which messages constitute the product contract.
+- Impact: Fediverse designers must expose dropped message types or separate publishing identities from communication identities.
+- Watch next: Pixelfed’s promised text-retention option will test reliability against product focus.

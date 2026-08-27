@@ -3,18 +3,17 @@
 - Score: 90 | [HN](https://news.ycombinator.com/item?id=46403073) | Link: https://code.visualstudio.com
 
 ### TL;DR
-Microsoft has rebranded VS Code as “The open source AI code editor,” putting GitHub Copilot and multi-agent workflows at the center of its homepage. The editor now markets itself as an AI-first environment: agents can read your repo, run commands, refactor code, and open pull requests, powered by multiple LLMs (Microsoft, OpenAI, Anthropic, Google, etc., or BYO key). HN discussion focuses on data‑privacy/IP risks, fatigue with AI-heavy releases, long‑term pricing, skill atrophy, and the not‑really‑FOSS distribution.
 
----
+VS Code changed its homepage identity to “The open source AI code editor,” foregrounding Copilot agents, multiple models, remote repository work, MCP integrations, customizable instructions, and delegated cloud coding. HN mostly read the label as confirmation of a year dominated by AI releases. Some appreciated the candor and ability to disable features; others objected that Microsoft may train on conversation data unless users opt out in certain markets, questioned calling the official distribution fully open source, and feared future price leverage and skill erosion.
 
 ### Comment pulse
-- Using Copilot on private code risks leaking business logic and enabling product cloning → training on “conversation data” is opt‑out only in some markets — counterpoint: at least the policy is explicit.  
-- Many respect the blunt AI branding but dislike that nearly all recent improvements are Copilot‑centric → some disable AI or migrate to JetBrains, neovim, Zed.  
-- AI seems subsidized to hook developers, then raise prices → juniors may never learn to code unaided and get stranded if access tightens.
 
----
+- The branding is honest → Microsoft is explicitly prioritizing agent workflows instead of pretending to serve every editor preference.
+- Privacy creates business risk → prompts may expose proprietary code and internal processes to model-training pipelines.
+- Dependency worries persist → subsidized AI could become expensive after teams lose experienced engineers or foundational skills.
 
 ### LLM perspective
-- View: Treat VS Code’s AI as an optional cloud service; default to strict org policies for private repos and compliance.  
-- Impact: Editor choice and company standards will increasingly hinge on data residency, training rules, and offline/non‑telemetry builds.  
-- Watch next: Copilot pricing changes, enterprise opt‑out guarantees, stronger open-source forks and non‑telemetric AI tooling.
+
+- View: This is a product-category shift from extensible editor toward an agent orchestration client with editing attached.
+- Impact: AI-heavy teams gain integrated workflows; traditional users must defend privacy, attention, and non-agent usability.
+- Watch next: Audit training defaults, enterprise guarantees, feature-disable completeness, VSCodium compatibility, pricing, and non-AI maintenance.

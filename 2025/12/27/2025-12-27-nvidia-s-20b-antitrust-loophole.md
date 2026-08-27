@@ -3,18 +3,17 @@
 - Score: 299 | [HN](https://news.ycombinator.com/item?id=46403559) | Link: https://ossa-ma.github.io/blog/groq
 
 ### TL;DR
-Nvidia is paying $20B to license Groq’s IP and hire its executive/engineering leadership, while *not* acquiring Groq the company or its Saudi-heavy GroqCloud business. The article argues this structure is deliberate antitrust and CFIUS arbitrage: Nvidia neutralizes a fast, SRAM-based LPU inference challenger, kills a Meta/Llama distribution threat, avoids controversial Saudi sovereign-AI contracts, gains political goodwill via Chamath/Sacks, and preempts Google/AWS/Microsoft from capturing Groq. VCs and top execs win big; remaining GroqCloud staff likely inherit a hollowed-out, doomed entity.
 
----
+The article argues Nvidia’s reported $20 billion arrangement with Groq is effectively an acquisition disguised as non-exclusive IP licensing plus executive hiring. Nvidia gains LPU technology and key talent while leaving GroqCloud—and its Saudi infrastructure obligations—outside, potentially reducing antitrust, CFIUS, shareholder, and disclosure scrutiny. It frames the $13.1 billion premium over Groq’s recent $6.9 billion valuation as payment for speed, competitive neutralization, and regulatory arbitrage. HN commenters questioned both the alleged circumvention and claims that ordinary employee shareholders necessarily lose.
 
 ### Comment pulse
-- Employee equity treatment is probably pro-rata → common and preferred typically share the same per-share price; early employees likely see a strong 3x+ outcome.  
-- Loophole anxiety → if “license+talent” deals sidestep antitrust, regulators look ineffective — counterpoint: agencies can adapt doctrine; this may be short-lived.  
-- Strategic logic → Nvidia may be overpaying because it’s cash-rich and defending dominance; others can still license Groq IP but lack original team.
 
----
+- Equity counterpoint → vested employee and VC shares likely receive comparable prices, though remaining GroqCloud staff face different risks.
+- Regulatory concern → HALO-style talent-and-IP deals may require scrutiny if their economic effect matches an acquisition.
+- Competition question → non-exclusive rights leave rivals free to license technology, but losing its inventors may blunt that option.
 
 ### LLM perspective
-- View: This normalizes “antitrust-proof acqui-hires”: buy IP plus people, strand the corporate shell and sensitive contracts.  
-- Impact: Chip competitors, open-source stacks, and sovereign-AI projects must assume key suppliers can vanish via similar carve-outs.  
-- Watch next: Regulatory test cases, EU/US guidance on labor+IP deals, and whether Nvidia product roadmaps reveal LPU-like inference or chiplet hybrids.
+
+- View: Substance-over-form review should examine control, capability transfer, and foreclosure rather than the transaction’s label.
+- Impact: Startup employees need compensation protections covering IP sales and talent transfers, not only conventional acquisitions.
+- Watch next: Payment allocation, patent ownership, GroqCloud viability, rival licenses, and agency jurisdiction will test the loophole thesis.

@@ -3,18 +3,17 @@
 - Score: 121 | [HN](https://news.ycombinator.com/item?id=46401499) | Link: https://boilingsteam.com/orange-pi-6-plus-review/
 
 ### TL;DR
-OrangePi 6 Plus is a high-end ARM64 SBC: 12-core Armv9 (A720/A520), Immortalis-G720 GPU, 16–64GB LPDDR5, PCIe 4.0 x8 with dual NVMe, dual 5GbE, 8K output. It feels like an x86 desktop, benchmarks near an i5-10500 (single core) and Ryzen 7 4800H (multi-core), runs 1080p gaming and OBS after some manual builds, and can do small LLMs on CPU. But it’s stuck on Debian Bookworm + 6.6 kernel, with fragile non-mainline drivers, awkward NPU tooling, and a high 15W idle. HN praises the hardware but questions long-term software support versus Pi-class boards or cheap x86 mini-PCs.
 
----
+OrangePi’s $199-and-up 6 Plus delivers desktop-class ARM performance from a 12-core CIX processor, 16–64GB RAM, dual PCIe 4.0 NVMe slots, dual 5GbE, and capable graphics. Debian felt responsive, cooling held below 60°C, and CPU benchmarks approached older Ryzen laptops. Yet its 15W idle draw, dated kernel, proprietary patches, weak NPU tooling, and fragile Vulkan support undermine server and AI uses. HN readers considered x86 mini-PCs safer unless ARM, GPIO, or multicore performance is specifically required.
 
 ### Comment pulse
-- OrangePi/Radxa boards → fast but flaky: old kernels, DIY images, PRC-hosted or ad‑hoc repos; Raspberry Pis feel boring but reliable.  
-- Why not an N150/N300 mini‑PC → similar price, lower idle power, better OS support—counterpoint: this SoC’s 12 cores significantly outgun low-end Intel for multicore work.  
-- Many want mainline-first SBCs → no upstream Linux, no sale; NPUs are often decorative without drivers, and SBC “horsepower race” ignores small, cheap IoT/edge use cases.
 
----
+- Software longevity dominates → buyers distrust vendor kernels and repositories that never reach mainline Linux.
+- Hardware value is disputed → CIX beats N150 multicore, but x86 offers lower idle power, cases, and broader compatibility.
+- The 30-TOPS NPU looks ornamental → proprietary SDKs, memory limits, and missing llama.cpp support block practical LLM acceleration.
 
 ### LLM perspective
-- View: As a dev box, it’s great; as an appliance, non-mainline Linux and vendor SDKs make it fragile.  
-- Impact: Best suited to hobbyists and ARM developers comfortable compiling kernels, GPUs, and ML stacks themselves.  
-- Watch next: Mainlining of CIX SoC, stable Panfrost + newer kernels, and any open NPU backends for llama.cpp/ggml.
+
+- View: Impressive silicon cannot compensate for an operating-system stack whose upgrades disable core hardware.
+- Impact: Tinkerers gain a fast ARM workstation; long-lived servers inherit vendor-support risk and higher electricity use.
+- Watch next: Track mainline CIX GPU/NPU patches, newer distro images, idle-power measurements, and reproducible x86 comparisons.

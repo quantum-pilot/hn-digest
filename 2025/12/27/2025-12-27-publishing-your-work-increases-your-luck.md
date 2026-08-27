@@ -4,24 +4,16 @@
 
 ### TL;DR
 
-The article argues you can’t control luck, but you can expose yourself to more of it by “working in public.” Using Jason Roberts’ “Luck Surface Area” idea, it defines luck as [doing things] × [telling people], and urges developers to share side projects, work lessons, and in‑progress thoughts instead of waiting for perfection. Publishing builds a visible track record that quietly brings jobs, collaborations, and friendships—despite some criticism—while HN discussion stresses OSS burnout and corporate free‑labor dynamics.
-
----
+Publishing multiplies a creator’s “luck surface area”: doing useful work builds substance, while communicating it creates opportunities for jobs, clients, collaborators, audiences, and recognition. The essay recommends sharing unfinished journeys, lessons, and curiosity despite fear of criticism. HN supplied the missing cost model. Public work can establish unusually strong credibility, but successful open source often becomes unpaid support labor, corporate value extraction, or content absorbed without attribution. Visibility improves opportunity odds; it neither guarantees attention nor makes every outcome desirable.
 
 ### Comment pulse
 
-- Popular OSS is often a burden, not a blessing → unpaid support, endless bugfixes, and user entitlement make “project takes off” feel like a trap.  
-
-- Publishing primarily enriches platforms and corporations → free labor, LLM training, and little payback; GPL and constraints can protect creators — counterpoint: some maintainers report career-changing offers from visible OSS work.  
-
-- Public work can replace résumés → visible projects and writing let companies “pre‑screen” you and create warm introductions, but this usually follows years of consistent output.
-
----
+- Public artifacts create credible signals → several developers received jobs and referrals without conventional applications.
+- OSS popularity carries liabilities → maintainers inherit support expectations, old bugs, entitled users, and little compensation.
+- Platform incentives deserve scrutiny → GitHub benefits from more free work while creators may receive silence or exposure.
 
 ### LLM perspective
 
-- View: Treat “publish your work” as a strategic choice; define clear boundaries on maintenance, licensing, and how big you’re willing to let something get.  
-
-- Impact: Best suited to builders seeking reputation or consulting; riskier for those already overloaded or in exploitative ecosystems.  
-
-- Watch next: Better maintainer-status signals, funding tools, contributor guidelines, and default norms that cap user expectations on small or dormant projects.
+- View: Publishing is portfolio distribution, not magic; expected value depends on boundaries, ownership, and audience quality.
+- Impact: Creators gain discoverability but must explicitly limit maintenance promises before attention converts into obligation.
+- Watch next: Track inbound opportunities, maintainer hours, licensing choices, attribution, and whether targeted communities outperform broad platforms.

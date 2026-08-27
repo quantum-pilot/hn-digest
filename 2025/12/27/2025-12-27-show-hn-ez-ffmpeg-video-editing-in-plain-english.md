@@ -2,19 +2,18 @@
 
 - Score: 326 | [HN](https://news.ycombinator.com/item?id=46400251) | Link: http://npmjs.com/package/ezff
 
-- TL;DR  
-ezff is a tiny Node.js CLI that turns plain-English commands like `ff convert video.mp4 to gif` into concrete ffmpeg invocations. It supports interactive prompts, dry runs, and common operations (convert, trim, compress, resize, merge, etc.), all offline with simple pattern-matching—not AI. HN likes the idea for infrequent users but criticizes oversimplified defaults: automatic re-encoding where remuxing is better, hidden quality settings, and naive GIF conversion. Discussion broadens into better ffmpeg frontends, natural-language CLIs, and using LLMs as “ffmpeg tutors.”
+### TL;DR
 
-- Comment pulse  
-ffmpeg is complex for a reason → wrappers that always re-encode, hide codecs/quality, and conflate remuxing risk wasting CPU and degrading output—counterpoint: casual users genuinely struggle with raw ffmpeg.  
+Ez FFmpeg wraps common video operations in plain-English commands and an interactive prompt, translating conversion, compression, trimming, resizing, merging, and effects into local ffmpeg invocations without AI or APIs. A dry-run reveals the generated command. HN welcomed easier access for infrequent users but identified dangerous simplifications: container changes may trigger unnecessary lossy re-encoding, audio extraction forces MP3, and hidden quality defaults obscure important tradeoffs. The strongest alternative proposed guided command construction that explains choices and favors stream copying.
 
-Improve the abstraction, don’t abandon it → smart remux-vs-reencode logic, adjustable quality, and palettegen-style GIF defaults or gifski-like tooling would fix many complaints.  
+### Comment pulse
 
-Natural-language frontends are attractive → people imagine a whole OS CLI in plain English or use LLMs to draft commands, but ambiguity and hidden side effects worry power users.
+- Occasional users need assistance → ffmpeg’s huge option space makes infrequently used syntax difficult to retain.
+- Oversimplification can damage output → hidden re-encoding wastes compute and quality when remuxing or copying streams would suffice.
+- Guidance beats opacity → commenters want interactive commands that expose reasoning, quality settings, and safe defaults.
 
-- LLM perspective  
-View: A curated, deterministic wrapper is valuable, but must make lossy operations and “expensive” choices visible and overridable.  
+### LLM perspective
 
-Impact: Helps occasional video editors more than experts; could become a standard “ffmpeg porcelain” if it gains safer defaults.  
-
-Watch next: Add remux-first behavior, quality/codec flags, docs that explain generated commands, and compare UX against LLM-based ffmpeg helpers.
+- View: The useful abstraction is constrained multimedia intent, provided it teaches rather than conceals consequential decisions.
+- Impact: Beginners finish routine edits faster, while experts risk troubleshooting surprising output produced by fixed heuristics.
+- Watch next: Add stream-copy detection, codec compatibility checks, quality controls, command explanations, tests, and accessible source hosting.
