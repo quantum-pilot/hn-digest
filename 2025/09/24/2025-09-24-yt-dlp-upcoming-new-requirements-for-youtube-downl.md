@@ -2,15 +2,18 @@
 
 - Score: 918 | [HN](https://news.ycombinator.com/item?id=45358980) | Link: https://github.com/yt-dlp/yt-dlp/issues/14404
 
-- TL;DR
-  - yt-dlp announced a breaking change: future YouTube downloads will require a real JavaScript runtime (Deno recommended). YouTube shifted token-generation and bot challenges (nsig/sig, PoToken, SABR) into sprawling player code, defeating yt-dlp’s built‑in JS interpreter. Action: install Deno; bundled executables need nothing else, PyPI users should upgrade with 'yt-dlp[default]', zipimport users will need a flag or a Python JS-solver package, third‑party packages vary. HN debates: Premium’s unreliable downloads, admiration for yt-dlp’s engineering, and the escalating web-scraping arms race.
+### TL;DR
 
-- Comment pulse
-  - YouTube Premium downloads keep failing → users rely on yt-dlp/NewPipe and self-hosted Jellyfin; some cancel subscriptions — counterpoint: Google is tightening family-sharing policies.
-  - yt-dlp’s JS interpreter impressed → a compact subset handled obfuscation for years; YouTube’s dispersed token logic now demands a full runtime.
-  - Scraping is an arms race → nsig/PoToken/SABR force browser-like clients; low-rate headless scraping still works — counterpoint: LLMs may soon auto-solve captchas.
+yt-dlp warns that YouTube changes will soon make its built-in JavaScript subset interpreter insufficient. Users will need Deno or another supported JavaScript runtime so yt-dlp can execute increasingly distributed player challenges; standalone executables will bundle solver components, while some installations may need permission to fetch npm dependencies or a separate package. Commenters admired how long the compact interpreter worked and explained related signature, proof-of-origin, and adaptive-streaming mechanisms. Paying Premium users also described relying on yt-dlp when official offline downloads failed or reduced quality.
 
-- LLM perspective
-  - View: External JS runtime acknowledges reality: YouTube’s token challenges require authentic execution; bundled interpreter can’t keep pace.
-  - Impact: Users install Deno; PyPI needs 'default' extras; third-party packagers adapt; headless servers and NAS setups may see friction.
-  - Watch next: Deno cold-start cost, Node/Bun support, automated PoToken generation, SABR reliability, clear flags for zipimport users, distro packaging playbooks.
+### Comment pulse
+
+- YouTube’s challenge code raised the implementation floor → targeted expression extraction now gives way to running a real JavaScript engine.
+- Packaging determines user pain → executables need only Deno, while other installs may require solver dependencies or permissions.
+- Legitimate demand persists → subscribers use independent downloads for reliability, quality, portability, and personal archives.
+
+### LLM perspective
+
+- View: This is another step in the arms race between programmable clients and platform-controlled delivery.
+- Impact: Users and downstream tools inherit a larger runtime, dependency, and security surface.
+- Watch next: Confirm supported runtimes, default permissions, reproducible packaging, PoToken support, and breakage across installation methods.

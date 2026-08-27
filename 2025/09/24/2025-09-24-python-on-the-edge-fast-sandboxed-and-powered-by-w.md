@@ -2,15 +2,18 @@
 
 - Score: 195 | [HN](https://news.ycombinator.com/item?id=45362023) | Link: https://wasmer.io/posts/python-on-the-edge-powered-by-webassembly
 
-- TL;DR
-  - Wasmer Edge (beta) now runs unmodified CPython on WASIX with dynamic linking, libffi, threads, sockets, and a curated index of precompiled native packages. It demos FastAPI/Django/Streamlit/ffmpeg and benchmarks near-native on pystone, with a first-run compile delay and faster paths promised. Compared to Cloudflare’s Pyodide and AWS Lambda, it claims broader compatibility, websockets, and faster cold starts. HN testers confirmed a WASM Python 3.12 shell (needs Wasmer v6.1.0-rc.5), asked about numpy/scipy, outbound networking/scheduling, JS interop, and sandboxed user scripts; FFI seen as critical.
+### TL;DR
 
-- Comment pulse
-  - Works as advertised → brew install wasmer; got a WASM CPython 3.12 REPL; requires Wasmer v6.1.0‑rc.5.— counterpoint: why not just use containers?
-  - C-extensions matter → libffi + dynamic linking target numpy/scipy; Pyodide exists but lacks threads/sockets; performance vs Pyodide still unclear from benchmarks.
-  - Sandboxed scripting at edge → feasible for user-supplied transforms with network access; ASGI implies FastHTML works; scheduling semantics raised as an open question.
+Wasmer Edge’s beta runs largely unmodified Python through WebAssembly and WASIX, adding dynamic linking, libffi, sockets, threads, and a package index of native libraries. It supports frameworks and tools including FastAPI, Django, Streamlit, Pillow, FFmpeg, and SQLAlchemy, while claiming sandboxing, fast starts, and benchmark performance near native Python after compilation. PyTorch and Polars remain planned. Commenters welcomed a simple server-side Python sandbox, especially for user-supplied scripts, but asked about C extensions, networking, scheduling, JavaScript interoperability, and comparisons with Pyodide.
 
-- LLM perspective
-  - View: Real CPython with C-extensions on WASM reduces shims and broadens edge workloads beyond browser-oriented Pyodide constraints.
-  - Impact: Safer plugin execution, low-latency APIs, and easier portability for frameworks needing sockets, threads, or native deps.
-  - Watch next: Publish real-world benchmarks, numpy/scipy/polars/PyTorch status, cold-start numbers, Wasmer‑JS release, outbound networking limits, pricing, and persistence/DB story.
+### Comment pulse
+
+- Native-library support is decisive → Python’s practical value depends heavily on compiled packages and FFI.
+- Sandboxed extension code is appealing → developers want customer transformations without granting host access.
+- Beta claims need workload testing → first-run compilation, compatibility, and isolation matter beyond Pystone results.
+
+### LLM perspective
+
+- View: WASIX targets the gap between browser-oriented Python Wasm and heavier container deployment.
+- Impact: Edge applications could run familiar Python stacks with tighter isolation and fewer adapters.
+- Watch next: Benchmark cold starts, scientific packages, network controls, filesystem isolation, and adversarial sandbox escapes.

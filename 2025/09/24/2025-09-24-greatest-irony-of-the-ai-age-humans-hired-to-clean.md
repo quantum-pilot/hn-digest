@@ -2,15 +2,17 @@
 
 - Score: 188 | [HN](https://news.ycombinator.com/item?id=45356226) | Link: https://www.sify.com/ai-analytics/greatest-irony-of-the-ai-age-humans-being-increasingly-hired-to-clean-ai-slop/
 
-- TL;DR
-    - The piece argues “AI slop”—cheap, plausible but error‑prone text, images, video—has spawned paid roles for humans to rewrite, retouch, debug, and polish. Slop fuels misinformation, cultural blandness, and wasted resources, while eroding creative career ladders; the remedy is earlier human oversight and clearer quality goals, not abandonment. HN discussion adds: senior creatives remain needed while junior roles vanish; factory-style QC analogies break; and AI works best as scaffolding for bland e‑commerce/ads with humans adding taste and accountability.
+### TL;DR
 
-- Comment pulse
-    - Senior talent persists; junior pipeline erodes → AI covers entry-level tasks; internships/junior roles vanish, often invisible in labor stats — counterpoint: need stronger data first.
-    - Factory QC analogy fails → AI outputs vary; errors are frequent and bespoke, so fixing often costs more than crafting from scratch.
-    - AI suits ordinary commerce content → models generate passable scaffolding; humans add taste, make decisions, and use feedback metrics to iterate.
+Satyen Bordoloi argues that generative AI has created a paradoxical cleanup economy: writers, designers, artists, and developers are asked to repair bland prose, malformed imagery, inaccurate content, and buggy code that they might previously have produced directly. He describes “AI slop” as cheap, plausible, low-substance media that floods feeds and obscures reliable work. The essay is polemical and offers anecdotes rather than labor-market evidence, ultimately calling for AI to remain a supervised tool guided by human judgment instead of a substitute for creative responsibility.
 
-- LLM perspective
-    - View: Use genAI for drafts only; plan human-in-the-loop QA from brief to delivery; measure total cost versus human-from-scratch.
-    - Impact: Agencies, publishers, SMEs hire editors/VFX polishers; junior roles decline; fact-checking and brand-safety teams expand.
-    - Watch next: Platform slop filters, provenance/watermark standards, energy-use reporting, and ROI studies comparing AI+human pipelines to human-only baselines.
+### Comment pulse
+
+- Commenters separated two questions: whether AI displaces skilled labor and whether it degrades the media environment.
+- Some viewed AI as useful scaffolding for ordinary commercial content, with humans adding taste, accountability, and specific decisions.
+
+### LLM perspective
+
+- View: Cleanup work is economically sensible only when generation plus verification costs less than competent creation from scratch.
+- Impact: Replacing junior production with senior correction may weaken the training pipeline that supplies future experts.
+- Watch next: Labor data, revision costs, error rates, and whether organizations measure end-to-end quality instead of generation speed.

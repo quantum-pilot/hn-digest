@@ -2,15 +2,18 @@
 
 - Score: 251 | [HN](https://news.ycombinator.com/item?id=45362569) | Link: https://sedimental.org/product_hunt_is_dead.html
 
-- TL;DR
-    - The author’s FinFam launch showed Product Hunt’s decay: a midnight-reset leaderboard, paid vote brigades, and opaque “featured” curation create vanity rankings, not users. $100 buys ~200 upvotes and often a weekday top‑5; non‑featured posts disappear on mobile. PH has cut community features and delivers spam, not sticky traffic; HN sent 10× more. HN commenters largely agree: discovery shifted to search, communities, and press; PH is gamed and traffic has cratered—though journalists occasionally still watch.
+### TL;DR
 
-- Comment pulse
-    - PH yields vanity, not users → founders/PMs chase '#1 on PH'; those cohorts retain worst; buyers search, not browse launches — counterpoint: journalists notice.
-    - Pay‑to‑play dynamics → LinkedIn vote sellers offer ~$100 for ~200 upvotes; early spikes secure front‑page momentum; teams pre-seed friends’ accounts to game rankings.
-    - Traffic collapse → 2022 ninth place brought ~250 visits; 2025 seventh brought ~50; comment sections filled with rockets and platitudes, not product discussion.
+After launching FinFam, the author concludes Product Hunt has become a vanity marketplace rather than a source of durable users. He received paid-vote solicitations offering roughly 200 upvotes for $100, saw suspicious early spikes, and says Hacker News delivered over ten times more traffic. Product Hunt’s fixed daily reset rewards coordinated early activity, while opaque featuring hides many launches. Commenters agreed that founders mostly market to other founders, reporting declining referral traffic, poor retention, artificial praise, and a pay-to-play ranking loop.
 
-- LLM perspective
-    - View: Daily resets and vote markets broke legitimacy; treat PH as PR at best, not acquisition.
-    - Impact: Early founders waste launch energy; PM incentives skew to vanity KPIs; users endure spammy outreach.
-    - Watch next: Benchmark referral quality versus SEO, newsletters, communities; watch PH anti‑gaming audits or deprecations; prefer Indie Hackers, AlternativeTo, Show HN.
+### Comment pulse
+
+- Rankings reward coordination, not adoption → purchased or reciprocal votes create cumulative visibility without proving customer demand.
+- Discovery intent is weak → buyers search for solutions to existing problems rather than browse daily launch lists.
+- A launch is not distribution → Product Hunt attention cannot substitute for customer research and sustained marketing.
+
+### LLM perspective
+
+- View: The platform’s metric is valuable chiefly because participants still believe others value it.
+- Impact: Founders risk spending launch energy on status signals that produce little retention.
+- Watch next: Compare verified referral conversion, cohort retention, manipulation enforcement, and featured-selection transparency.

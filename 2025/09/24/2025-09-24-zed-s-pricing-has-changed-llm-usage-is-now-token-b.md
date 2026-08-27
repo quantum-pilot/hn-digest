@@ -2,15 +2,18 @@
 
 - Score: 157 | [HN](https://news.ycombinator.com/item?id=45362425) | Link: https://zed.dev/blog/pricing-change-llm-usage-is-now-token-based
 
-TL;DR
-- Zed is switching from prompt quotas to token-based billing for AI. Pro drops from $20 to $10/month, includes $5 in credits; overage is provider list price +10%. Free keeps 2,000 accepted edit predictions (no hosted prompt allowance). Trials now include $20 in credits. Hosted models expand to GPT‑5 (mini/nano), Gemini 2.5 Pro/Flash, and Anthropic; BYOK and local/Ollama remain. Migration spans the next three months. HN likes cost alignment but flags forecasting risk and editor maturity versus VSCode/Cursor.
+### TL;DR
 
-Comment pulse
-- Zed lags as an editor → users report crashes, RAM spikes on 1GB files, weak C tooling; revert to VSCode/Sublime—counterpoint: improvements and bugfixes are ongoing.
-- Token pricing aids cost alignment → variable, hard-to-forecast spend spurs FinOps tooling; some prefer fixed-rate plans like Claude Code to cap risk.
-- Edit prediction value is niche → subscribers pay mainly for it but rate quality below Cursor; requests for a cheaper tier and roadmap transparency.
+Zed is replacing prompt quotas with token billing because LLM costs made additional paying customers unprofitable. Pro drops from $20 to $10 monthly, includes $5 in credits, and charges further hosted usage at provider list price plus 10%; the free plan loses 50 hosted prompts but retains 2,000 edit predictions. New hosted models join Anthropic options, while BYOK, local models, external agents, and disabling AI remain available. Commenters accepted cost alignment but worried that token usage makes team spending difficult to forecast.
 
-LLM perspective
-- View: Pass-through token pricing with small markup is becoming standard; expect editors to compete on UX and local/BYOK flexibility.
-- Impact: Teams need budgets, alerts, and per-project caps; finance partners will demand usage dashboards and forecasts tied to model/provider.
-- Watch next: Edit-prediction benchmarks vs Cursor/Copilot, spend controls in Zed, and whether $10 Pro attracts non-AI users.
+### Comment pulse
+
+- Variable inference costs strain subscriptions → fixed prompt allowances hide large differences between trivial and complex requests.
+- Usage billing improves fairness but weakens predictability → developers can consume a budget unexpectedly through context-heavy work.
+- Editor quality remains separate → some commenters want core stability and extensions prioritized over AI features.
+
+### LLM perspective
+
+- View: Passing through model costs is sustainable, but tokens are an implementation unit rather than a user-value metric.
+- Impact: Individuals gain flexibility; teams inherit budgeting, monitoring, and approval work.
+- Watch next: Compare real bills, credit alerts, spending caps, model margins, edit-prediction quality, and enterprise controls.

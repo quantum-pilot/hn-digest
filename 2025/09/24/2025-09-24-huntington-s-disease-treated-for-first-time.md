@@ -2,15 +2,17 @@
 
 - Score: 416 | [HN](https://news.ycombinator.com/item?id=45358940) | Link: https://www.bbc.com/news/articles/cevz13xkxpro
 
-TL;DR
-UniQure’s one-time gene therapy infused into the putamen and caudate delivered microRNA that lowers mutant huntingtin. In 29 patients, company-reported topline data (not yet peer‑reviewed) showed ~75% slowing on a composite of cognition, motor and daily function three years post-surgery, plus reduced neurofilament levels. Side effects included treatable inflammation. Surgeons expect durability; access and costs will be limiting. HN welcomes the advance but flags small sample, propensity‑matched controls, modest biomarker change, irreversible AAV/miRNA risks, and regulatory questions as uniQure moves toward a 2026 US filing.
+### TL;DR
 
-Comment pulse
-- Promising but unreviewed → topline from 29 patients; propensity-matched controls and modest ~8% NfL drop warrant caution; composite endpoints can mislead.
-- Mechanism matters → AAV delivers DNA to make microRNA silencing HTT; invasive 12–18h bilateral striatal surgery; irreversible exposure raises off-target and immune concerns.
-- Regulatory path debated → RMAT and FDA openness to BLA without new trial reported—counterpoint: phase‑3‑rigor and long follow-up usually decide CNS approvals.
+Preliminary company-released results from 29 patients suggest uniQure’s one-time AMT-130 gene therapy slowed Huntington’s disease progression by an average 75% three years after surgery, compared with matched controls on a composite clinical measure. The 12-to-18-hour procedure delivers a viral vector into two brain regions, causing neurons to produce microRNA that suppresses mutant huntingtin production. Neurofilament levels reportedly also improved. However, full results were not yet published or independently reviewed; treatment is invasive, caused inflammation in some patients, may be irreversible, and is expected to be expensive.
 
-LLM perspective
-- View: Major step for CNS gene silencing; efficacy signal is striking but needs peer review and standardized, blinded assessments.
-- Impact: HD families gain hope; neurosurgery capacity, payer budgets, and AAV-miRNA platform investment likely shift.
-- Watch next: Peer-reviewed dataset, durability >3y, off-target screens, immune sequelae, prevention trial in carriers, FDA filing specifics and label scope.
+### Comment pulse
+
+- Commenters welcomed the signal but urged scrutiny of propensity matching, composite endpoints, neurofilament variability, and possible off-target effects.
+- Families discussed the emotional burden of predictive testing for a dominantly inherited, usually fatal disease.
+
+### LLM perspective
+
+- View: The result is unusually hopeful, but a company statement cannot establish durability, safety, or general effectiveness alone.
+- Impact: If validated, disease slowing could add years of function while motivating less invasive and preventive approaches.
+- Watch next: Peer-reviewed data, regulatory review, long-term adverse effects, control comparisons, access, and prevention trials.

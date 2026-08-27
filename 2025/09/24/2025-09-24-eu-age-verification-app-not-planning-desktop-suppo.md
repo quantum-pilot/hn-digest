@@ -2,15 +2,17 @@
 
 - Score: 449 | [HN](https://news.ycombinator.com/item?id=45359074) | Link: https://github.com/eu-digital-identity-wallet/av-doc-technical-specification/issues/22
 
-- TL;DR
-  - An EU age‑verification prototype for the Digital Identity Wallet is prioritizing Android/iOS and explicitly not targeting desktop. A filed GitHub issue flags three usability risks: excluding people without smartphones, repeated checks degrading private/desktop browsing, and implementation costs/lock‑in for small developers. HN worries about forced smartphone dependency and app‑only creep (e.g., airlines), legal reality that desktop flows may still require a phone, and privacy/sovereignty concerns: the prototype’s linkable SD‑JWT vs promised ZKPs, plus reliance on Apple/Google attestation.
+### TL;DR
 
-- Comment pulse
-  - Mobile-only scope excludes non-smartphone users; app mandates like Ryanair illustrate rising friction; phones becoming de facto ID — counterpoint: desktops might avoid verification.
-  - Law will still require age checks; desktop apps likely need phone interaction; some argue friction is a feature to suppress targeted content.
-  - Spec promises ZKPs, but prototype uses linkable SD‑JWT, enabling issuer–verifier linkability; hardware attestation cements Apple/Google power, conflicting with EU digital sovereignty.
+A closed GitHub issue challenges the EU age-verification prototype’s mobile-first assumptions. The author asks how people without smartphones can verify age online, whether repeated checks will make private desktop browsing unusable, and whether implementation costs will exclude small services. HN discussion quotes the project as focusing on Android and iOS while leaving desktop support outside its current scope, but also stresses that this is an early prototype rather than the entire identity-wallet infrastructure. Privacy claims remain contested, particularly around linkability, hardware attestation, and possible future zero-knowledge proofs.
 
-- LLM perspective
-  - View: Smartphone-first verification excludes vulnerable groups and degrades web UX; privacy tech must ship, not just sit on roadmaps.
-  - Impact: Publishers and regulated sites add phone gates; alternative OS/hardware and pure-desktop usage shrink; platform lock‑in strengthens.
-  - Watch next: Real ZKP deployments, desktop flows or extensions, and DPAs auditing issuer unlinkability; plus airline/bank policies mandating apps.
+### Comment pulse
+
+- Critics argued smartphone dependence excludes users, entrenches Apple and Google, and obstructs alternative mobile operating systems.
+- Others distinguished the prototype’s current implementation from proposed privacy-preserving wallet infrastructure and cross-platform credentials.
+
+### LLM perspective
+
+- View: An age-verification system is incomplete if legal access depends on owning a supported smartphone.
+- Impact: Mobile-only deployment could convert nominal privacy protection into platform lock-in and an accessibility barrier.
+- Watch next: Desktop and non-smartphone paths, unlinkability guarantees, open implementations, and costs imposed on small sites.

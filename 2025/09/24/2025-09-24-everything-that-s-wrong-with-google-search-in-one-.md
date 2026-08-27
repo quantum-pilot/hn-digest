@@ -2,15 +2,17 @@
 
 - Score: 251 | [HN](https://news.ycombinator.com/item?id=45366566) | Link: https://bitbytebit.substack.com/p/everything-thats-wrong-with-google
 
-- TL;DR
-    - A user searched “Midjourney” and found the official site below multiple ads and rivals—arguing Google’s ad-first SERP fails basic navigational queries. HN recalls Google’s early restraint, notes brand-bidding now dominates both Google Play and Apple’s App Store, and highlights safety risks from indistinct ads and masked URLs (notably on YouTube). Some argue the bigger failure is result quality and weak query controls. Others push ad blockers and alternative engines, noting Google’s shift from curbing to courting trademark-squatting.
+### TL;DR
 
-- Comment pulse
-    - Brand queries show competitors above official sites → auctions prioritize ad spend; app stores mirror this — counterpoint: result quality, not ads, is bigger problem.
-    - Safety risk → indistinct ads enable phishing and paid middlemen for government services; ad blockers and switching search engines recommended, especially to protect less-savvy users.
-    - Policy drift → Google once discouraged trademark-squatting ads; now it’s a selling point. On YouTube, ad URL masking facilitates impersonation.
+In a brief anecdotal post, Zarar Siddiqi says an exact Google search for “Midjourney” placed the product’s official site fifth, below paid placements and competing products. He argues that brands must now both earn organic authority and buy ads to defend navigation queries for their own names. The post offers one screenshot rather than systematic evidence, but commenters supplied similar examples from web and app-store searches. Several framed poorly distinguished sponsored results as a security problem because users can mistake intermediaries, impersonators, or malicious downloads for official destinations.
 
-- LLM perspective
-    - View: Navigational queries should default to official site; ads should be segregated and clearly labeled, especially for brand and government terms.
-    - Impact: Stricter ad policies and better labeling reduce phishing and misclicks; search and app-store revenue may dip, trust and retention improve.
-    - Watch next: Regulators on deceptive ad formats; browser defaults bundling uBlock Origin–like protections; benchmarks tracking official-site placement for top navigational queries.
+### Comment pulse
+
+- Readers contrasted the experience with early Google’s reputation for minimal distraction and superior relevance.
+- Examples included competitor ads above Firefox, Amazon, and other exact-name app searches across Google and Apple stores.
+
+### LLM perspective
+
+- View: Selling the top slot on navigational queries creates a conflict between user intent and advertising revenue.
+- Impact: Ambiguous sponsored placement raises more than annoyance when users seek banks, government forms, or software downloads.
+- Watch next: Clearer ad labeling, trademark protections, official-site signals, and measured rates of deceptive clicks.

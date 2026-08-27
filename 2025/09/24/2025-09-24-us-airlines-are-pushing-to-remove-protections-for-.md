@@ -2,15 +2,18 @@
 
 - Score: 597 | [HN](https://news.ycombinator.com/item?id=45359378) | Link: https://www.travelandtourworld.com/news/article/american-joins-delta-southwest-united-and-other-us-airlines-push-to-strip-away-travelers-rights-and-add-more-fees-by-rolling-back-key-protections-in-new-deregulation-move/
 
-- TL;DR
-    - Major US airlines, via Airlines for America, seek to roll back DOT consumer rules: automatic cash refunds for cancellations, upfront fee transparency, family seating guarantees, and some disability protections. They argue deregulation lowers costs and boosts competition; critics foresee more opaque pricing, voucher-first refunds, and fewer rights. HN discussion highlights EU EC261 compensation as a working model, debates the “regulatory floor” balancing price and quality, and notes oligopoly realities—slots, bailouts, and political capture—limit true competition and market self-correction.
+### TL;DR
 
-- Comment pulse
-    - EU-style passenger rights work → commenters got 600€ EC261 payouts and all-in pricing; meaningful compensation reshapes airline behavior on delays and cancellations.
-    - Regulatory floor needed → uniform standards balance price and quality; floor seems too low — counterpoint: If true, why hasn’t a quality airline captured share?
-    - It’s an oligopoly with constraints → slots, airport capacity, bailouts, and political capture blunt market discipline; proposals include foreign carrier rights and ending bailouts.
+The article says major US airlines and Airlines for America want the Department of Transportation to roll back rules covering automatic refunds, upfront ancillary-fee disclosure, family seating, mobility assistance, and some delay or cancellation obligations. Industry advocates say deregulation would lower costs, improve competition, and remove rules beyond DOT authority; the article predicts hidden charges and weaker accountability instead. Commenters generally favored transparent total prices and compensation for controllable failures, while debating how high a regulatory service floor should be and whether airport constraints make meaningful competition impossible.
 
-- LLM perspective
-    - View: The move targets DOT consumer rules; without enforcement, fee opacity and voucher-first refunds will spread industry-wide.
-    - Impact: Travelers, families, disabled passengers face higher friction; OTAs and credit-card chargebacks may become de-facto consumer protection channels.
-    - Watch next: DOT rulemakings, court challenges to fee-transparency/refund rules, and whether Congress codifies EC261-like compensation.
+### Comment pulse
+
+- Transparent pricing is foundational → comparison fails when baggage, seats, and service fees appear late.
+- Compensation aligns delivery incentives → passengers want cash or equivalent service when airlines fail within their control.
+- Regulation has tradeoffs → too high a floor raises fares, but concentrated routes weaken market discipline.
+
+### LLM perspective
+
+- View: Competition cannot protect passengers if prices and remedies remain difficult to compare.
+- Impact: Rollbacks would shift disruption and information costs from carriers onto travelers.
+- Watch next: Read the actual DOT filings, distinguish proposed repeals, and quantify compliance costs versus passenger losses.

@@ -2,15 +2,17 @@
 
 - Score: 174 | [HN](https://news.ycombinator.com/item?id=45359524) | Link: https://cjauvin.github.io/posts/learning-persian/
 
-- TL;DR
-  - A learner builds a Persian workflow around Anki: screenshotting YouTube (PersianLearning) slides for reading and bilingual cards, using ChatGPT as an on-demand explainer during reviews, and drilling listening with dual subtitles, 75% playback, 1‑second rewinds, shadowing, and repeated passes until real-time comprehension. HN agrees Anki accelerates vocab but warns about card-making fatigue; suggests prebuilt decks/automation and more comprehensible input. Some argue against transliteration and recommend structured textbooks and learning to type; others emphasize consistency and immersion over perfect tooling.
+### TL;DR
 
-- Comment pulse
-  - Anki boosts vocabulary → fastest early wins; automate or use prebuilt decks to avoid card fatigue.
-  - Prefer structure over random YouTube → learn typing, skip transliteration, use textbooks; apply dialect rules — counterpoint: reading+listening focus is valid early on.
-  - Comprehensible input + immersion → improves listening; consistency over months beats technique tweaks.
+Christian Jauvin describes a self-built Persian study loop centered on Anki. He turns grammar-rich phrases and YouTube screenshots into reading and bidirectional cards, then pastes uncertain examples into a configured ChatGPT project for contextual refreshers. Dual subtitles and one-second video controls support intensive listening: read the English meaning, hear slowed Persian, follow the Persian script, repeat aloud, and replay until comprehension becomes real-time. The approach deliberately combines spaced repetition with repeated comprehensible input, though creating cards is laborious and transliteration choices drew criticism.
 
-- LLM perspective
-  - View: Use LLMs as instant tutors and card generators, not your syllabus.
-  - Impact: Cuts lookup friction; enables personalized clarifications, TTS, and targeted drills for solo learners.
-  - Watch next: Better voice turn-taking, OCR-to-card pipelines, subtitle alignment tools; measure gains with listening/reading benchmarks.
+### Comment pulse
+
+- Language learners favored consistent practice, contextual vocabulary, native input, and whatever routine remains sustainable over theoretical optimization.
+- Critics recommended structured textbooks, direct Persian script, richer Anki note fields, and learning colloquial sound-change rules explicitly.
+
+### LLM perspective
+
+- View: The workflow’s strength is repeated contextual listening; Anki and ChatGPT support that loop rather than replace language exposure.
+- Impact: Personalized cards increase relevance but can consume study time and preserve transcription or explanation errors.
+- Watch next: Reduced card-creation friction, native-speaker correction, structured progression, and gradual removal of English and romanization.

@@ -2,15 +2,17 @@
 
 - Score: 597 | [HN](https://news.ycombinator.com/item?id=45354644) | Link: https://larian.com/support/faqs/steam-deck-native-version_121
 
-- TL;DR
-    - Larian’s Hotfix #34 makes Baldur’s Gate 3 run natively on Steam Deck, reducing CPU and memory use versus Proton. The update installs automatically; you can force compatibility in Steam settings, switch back to Proton 8+, and migrate saves/mods (Cloud auto-syncs; manual copy otherwise). Larian only supports the Deck—not general Linux desktops. HN praises the passion-project origin and culture, notes modest performance gains (~10% in Act 3) with some frametime spikes, flags local co‑op being disabled by default, and debates native vs Proton reliability.
+### TL;DR
 
-- Comment pulse
-    - Passion-driven port → started by one engineer; Larian backed and shipped it.
-    - Native gains are modest → lower CPU/memory; ~10% FPS boost in Act 3; Proton overhead small — counterpoint: native shows frametime spikes, likely shader compilation.
-    - Feature/support caveats → local co‑op disabled unless launch flag; Larian supports only Steam Deck, not general Linux installs.
+Larian’s Hotfix 34 makes a native Steam Deck build of Baldur’s Gate 3 the default, replacing the Windows version running through Proton. Larian says native execution reduces CPU and memory use, while users can force Linux Runtime to obtain it or select Proton 8 or newer to switch back. The build is supported only on Steam Deck, not Linux generally. Cloud saves and linked mod.io subscriptions should migrate automatically; local saves and unlinked mods require copying from Proton’s compatdata directories into native SteamOS paths.
 
-- LLM perspective
-    - View: Native Deck builds matter for battery and thermals; Proton remains a strong default for broader Linux.
-    - Impact: Deck owners see smoother hotspots like Act 3; desktop Linux gamers likely stick with Proton for stability.
-    - Watch next: Official performance/battery benchmarks, shader precompilation to reduce spikes, and a toggle fix for local co‑op.
+### Comment pulse
+
+- Users welcomed continued post-launch optimization, though shared benchmarks suggested modest or scene-dependent gains over Proton.
+- Commenters warned that native Linux builds can age poorly without sustained support, making Proton a compelling compatibility target.
+
+### LLM perspective
+
+- View: Native performance is valuable, but an explicit Proton fallback is the feature that makes this migration low-risk.
+- Impact: Separate save and mod paths create avoidable friction for users without cloud synchronization or linked accounts.
+- Watch next: Act-three frame pacing, native-build maintenance, mod compatibility, and whether support expands beyond Steam Deck.

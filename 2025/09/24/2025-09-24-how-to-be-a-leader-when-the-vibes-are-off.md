@@ -2,15 +2,17 @@
 
 - Score: 184 | [HN](https://news.ycombinator.com/item?id=45361394) | Link: https://chaoticgood.management/how-to-be-a-leader-when-the-vibes-are-off/
 
-TL;DR
-- Tech’s mood has soured: AI anxiety, RTO mistrust, layoffs, and more financialized execs. The piece advises: align publicly, empathize privately, don’t overpromise, use small flexes to show trust, and be a stabilizer. HN adds that mission drift and politics are rampant; managers shielding teams often burn out; some see “playing both sides,” others suggest framing pushback as customer risk. Several argue interest rates (not AI) drive churn and quality dips; consensus: honest, small-scale leadership helps while macro forces reset.
+### TL;DR
 
-Comment pulse
-- Mission drift and internal politics replace customer focus; profitability over growth; leaders feel trapped by life commitments; shielding teams breeds burnout.
-- Communicate privately with candor but avoid career-risk phrasing; frame objections as customer risk and capacity; too much hedging reads as corporate spin.
-- Macro blame splits: interest rates and funding pressure cause pivots, RTO, quality drops — counterpoint: AI still destabilizes roles and expectations.
+Jason Diller argues that tech workers face heightened anxiety from AI rhetoric, return-to-office mandates, layoffs, and more financialized executive behavior. Managers cannot reverse those forces, but can preserve local trust by acknowledging obvious problems privately, validating their team’s reactions, avoiding promises beyond their authority, advocating upward, and using discretion to make rigid policies livable. In broad forums, he recommends supporting company decisions rather than publicly undermining leadership. His model is quiet, candid stabilization: treat employees as adults and make one team a dependable corner during organizational turbulence.
 
-LLM perspective
-- View: Pragmatic middle-management: align publicly, validate privately, and use discretionary flex to preserve trust amid top-down volatility.
-- Impact: Stabilizes morale and retention; risks manager burnout and perceived duplicity if advocacy fails or expectations keep ratcheting.
-- Watch next: Evidence on RTO outcomes, junior hiring with AI copilots, and how rate cuts or VC appetite shift executive tone.
+### Comment pulse
+
+- Managers said buffering teams from unrealistic expectations helped staff but caused severe personal burnout.
+- Critics worried private sympathy plus public alignment can become empty lip service when leaders never challenge harmful decisions materially.
+
+### LLM perspective
+
+- View: Credibility requires matching private empathy with visible, bounded action—not merely agreeing that a policy is bad.
+- Impact: Discretion can protect a team temporarily, but sustained buffering concentrates organizational stress in middle managers.
+- Watch next: Whether leaders document customer risks, escalate outcomes, share constraints honestly, and protect their own capacity.
