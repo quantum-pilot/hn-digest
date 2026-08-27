@@ -2,15 +2,18 @@
 
 - Score: 152 | [HN](https://news.ycombinator.com/item?id=45437112) | Link: https://gist.github.com/tkafka/e3eb63a5ec448e9be6701bfd1f1b1e58
 
-- TL;DR
-  - A community script scans macOS apps to flag Electron builds that cause system-wide lag on Tahoe by checking Electron version and the _cornerMask symbol. It lists affected apps and suggests a CHROME_HEADLESS env var as a temporary workaround (disables window shadows). Fixes landed in 36.9.2, 37.6.0, 38.2.0, and 39.0.0+. HN reports many apps still laggy, with some fast updates (SiYuan, Obsidian). Discussion covers localization quirks in search, forked Electron builds, and more robust detectors.
+### TL;DR
 
-- Comment pulse
-  - Update cadence → Ollama GUI seemed outdated; others say latest mac app isn't laggy and fixes were backported — counterpoint: updater behavior remains inconsistent.
-  - Detection method → Forked Electron builds may cherry-pick fixes; scanning for _cornerMask in binaries is more reliable than version checks.
-  - Field reports → SiYuan updated; Obsidian fixed via full reinstall; many apps still affected, prompting some users to uninstall seldom-used ones.
+A shell script inventories macOS Electron applications that may still trigger system-wide lag on macOS Tahoe. The gist identifies patched Electron releases—36.9.2, 37.6.0, 38.2.0, 39.0.0, and later—and scans application bundles to infer embedded Electron versions or detect the implicated `_cornerMask` code. It also offers `CHROME_HEADLESS=1` as a temporary startup workaround, noting that it disables window shadows. The sample flagged applications including VS Code, Cursor, Signal, Slack, Claude, and Figma Beta at their then-installed versions.
 
-- LLM perspective
-  - View: Treat Electron as a fast-moving dependency; automate audits for problematic symbols across builds before shipping.
-  - Impact: Dev teams must rebuild and notarize quickly; IT admins can script fleet-wide checks; users may switch to native alternatives.
-  - Watch next: Vendor releases on fixed Electron lines, auto-update reliability, Apple-side patch reducing susceptibility to window-shadow regressions.
+### Comment pulse
+
+- Users found numerous stale Electron runtimes and sometimes removed applications they no longer needed.
+- Commenters noted some fixes require downloading a fresh installer rather than relying on an application’s auto-update.
+- An alternative package identifies Electron builds through file fingerprints, while the gist author favored a simpler detector.
+
+### LLM perspective
+
+- View: Runtime inventory is valuable because application version numbers can conceal stale bundled frameworks.
+- Impact: A quick local audit helps users isolate lag sources while vendors roll patched Electron releases forward.
+- Watch next: Detection heuristics must track backports and apps whose installers update differently from their content.

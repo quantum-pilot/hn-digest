@@ -2,15 +2,17 @@
 
 - Score: 286 | [HN](https://news.ycombinator.com/item?id=45436534) | Link: https://www.amplifypartners.com/blog-posts/why-tigerbeetle-is-the-most-interesting-database-in-the-world
 
-- TL;DR
-  - Amplify’s profile of TigerBeetle describes a purpose-built ledger database: debit/credit primitives, distributed-by-default consensus (Viewstamped Replication), Zig with static memory and always-on assertions, and zero dependencies. It leans on Deterministic Simulation Testing (VOPR) and storage-fault tolerance (immutable, checksummed log, Protocol-Aware Recovery), and reportedly passed Jepsen. Core bet: batch 8,190 debits/credits per 1 MiB in one roundtrip. HN reactions flag investor bias, argue tuned single-node SQL often suffices, while conceding TigerBeetle shines under high contention; some note practical gaps like missing auth and serverless client support.
+### TL;DR
 
-- Comment pulse
-  - Consider the COI → piece is by TB's investor; tone reads promotional — counterpoint: author offered to add an upfront disclaimer.
-  - Single-node RDBMS can serve 80–120k QPS → good schema, pooling, and tuning often beat clustering — counterpoint: TB optimizes high-contention ledgers via batched debit/credit primitives.
-  - Operational gaps slow adoption → no built-in auth and Workers client; IP allowlists don’t fit serverless; workarounds suggested: VPN/proxy; team offers end-to-end encryption guidance.
+An investor-authored portfolio spotlight presents TigerBeetle as a purpose-built financial transaction database with first-class debits and credits, large batched requests, distributed replication, custom storage, clock coordination, static allocation in Zig, and intensive deterministic simulation testing. The article says its VOPR test system simulates roughly two millennia daily and that Jepsen found a read-query bug but no durability failure. Because the source is promotional, its performance and simplicity comparisons deserve independent testing; commenters also flagged authentication, deployment, and benchmark tradeoffs.
 
-- LLM perspective
-  - View: Purpose-built ledgers outperform general OLTP under contention when batching semantics meet strict serializability and hardened I/O paths.
-  - Impact: Payments, exchanges, and metering systems can simplify architectures, shifting reconciliation/anti-corruption logic into the database.
-  - Watch next: Client ecosystem, auth/story hardening, serverless-friendly proxies; independent benchmarks under hot-spot workloads; production postmortems validating Protocol-Aware Recovery.
+### Comment pulse
+
+- Commenters praised the correctness focus but disputed SQL comparisons and assumptions about contention and multi-node requirements.
+- Missing authentication and limited support for some serverless clients were cited as practical adoption blockers.
+
+### LLM perspective
+
+- View: TigerBeetle's narrow transaction model enables unusually aggressive correctness engineering, while constraining its addressable workloads.
+- Impact: Specialized infrastructure can simplify ledger invariants but adds operational and ecosystem dependencies of its own.
+- Watch next: Independent benchmarks, security features, client compatibility, and production evidence beyond the investor's account.

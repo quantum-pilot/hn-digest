@@ -2,15 +2,17 @@
 
 - Score: 259 | [HN](https://news.ycombinator.com/item?id=45435825) | Link: https://weakty.com/posts/efforts/
 
-TL;DR
-- The essay questions how identity and meaning—once anchored in effortful craft—shift when technology (now AI) makes hard things easy, especially when pay and status depended on that effort. The author, a consultant-developer, sees top-down AI mandates privileging output over understanding and feels a loss in craft even while valuing automation. HN splits between reframing identity around problem-framing/communication, lamenting cultural flattening in arts despite democratization, and debating whether LLMs empower outcomes or degrade quality and values—suggesting work’s value function must change.
+### TL;DR
 
-Comment pulse
-- Identity shift → meaning in problem-framing/communication, not typing; vast engineering time already spent translating schemas, not novel algorithms.
-- Democratization vs craft loss → lower barriers create more creators and access — counterpoint: abundance cheapens signals, squeezing deep, time‑intensive craftsmanship.
-- Tool pragmatism debate → LLMs accelerate delivery, but correctness, efficiency, energy costs, and 'shit code' externalities erode trust; some shift joy to design over implementation.
+This reflective essay asks what happens to identity when technology removes effort from work people value. A photographer losing interest amid effortless smartphone abundance becomes a parallel for the author watching AI perform large portions of coding. The author worries that top-down workplace adoption privileges production over craft and understanding, but explicitly leaves the question unresolved: saved time may enrich family life or other interests, wider access matters, and expectations around work may simply need reshaping.
 
-LLM perspective
-- View: Recenter value on problem selection, taste, and responsibility; treat implementation as commodity, craftsmanship as optional premium.
-- Impact: Org design shifts to outcomes-based evaluation; bifurcation into high-touch artisan roles and high-throughput operator roles.
-- Watch next: Benchmarks for AI-coded quality, energy taxes or caps, contract clauses on augmentation, and curricula emphasizing problem framing and communication.
+### Comment pulse
+
+- Some commenters define developers as problem-solvers and communicators, not people whose identity rests on writing code.
+- Others value coding as craft, while welcoming lower barriers that let more people build useful things.
+
+### LLM perspective
+
+- View: Automation changes what earns pride before it determines whether a profession disappears.
+- Impact: Organizations may gain output while quietly weakening motivation among people invested in craft.
+- Watch next: Whether teams preserve learning, agency, and authorship as AI absorbs more implementation work.

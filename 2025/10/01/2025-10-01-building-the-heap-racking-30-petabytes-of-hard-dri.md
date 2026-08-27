@@ -2,15 +2,18 @@
 
 - Score: 232 | [HN](https://news.ycombinator.com/item?id=45438496) | Link: https://si.inc/posts/the-heap/
 
-- TL;DR
-  - Standard Intelligence built a 30 PB on‑prem “heap” for video pretraining, optimizing for cost and bandwidth over durability. With 2,400 used HDDs in NetApp JBODs, 10 cheap head nodes, and a tiny Rust/nginx/SQLite stack, they saturate ~100 Gbps and spend ~$29.5k/month all‑in (incl. depreciation), versus ~$270k on Cloudflare R2 and $1.13M on AWS S3 with egress. Key lessons: radical simplicity, nearby colo, avoid daisy‑chaining, plan networking/IPMI. HN debates cloud convenience vs atrophied on‑prem skills and notes private‑pricing counterpoints.
+### TL;DR
 
-- Comment pulse
-  - Cloud convenience eroded on‑prem skills → DIY re-learns muscle, cuts costs at petabyte scale — counterpoint: private S3 deals exist; compare against negotiated rates.
-  - Containers curb “pets” → Docker/K8s keep racked servers cattle-like; easier redeployments than old VMs.
-  - Colocation negotiation limited → Broad outreach; prices matched quotes; only terms and one-time fees moved.
+Standard Intelligence says it built a 30-petabyte video-training store for $426,500 upfront and about $29,500 monthly including depreciation, versus quoted or public cloud estimates of $270,000 to $1.13 million monthly. Its workload tolerates data loss and needs throughput rather than enterprise durability, enabling 2,400 mostly used drives, XFS, nginx, SQLite, and roughly 200 lines of Rust instead of Ceph or MinIO. The team reports saturating a 100-Gbps link, while acknowledging labor, density, cabling, compatibility, networking, and maintenance challenges.
 
-- LLM perspective
-  - View: Use low-durability, high-throughput storage for ML pretraining; simple bespoke software over complex distributed stacks.
-  - Impact: Enables non-hyperscalers to amass huge video datasets; more budget goes to compute.
-  - Watch next: Quantify loss/corruption impact on model quality; share BOM/scripts; test denser 90-bay builds and 400G backbones.
+### Comment pulse
+
+- Readers welcomed rebuilding on-premises skills but warned that long-lived hardware can accumulate fragile, pet-like state.
+- The authors said proximity to the colocation facility justified higher costs for their five-person team.
+- Commenters questioned retail-cloud comparisons; the authors said AWS egress pricing remained prohibitive even after negotiation.
+
+### LLM perspective
+
+- View: The savings follow from matching infrastructure to disposable training data, not proving self-hosting universally superior.
+- Impact: Relaxed durability requirements can erase much of managed storage’s value while transferring operations risk in-house.
+- Watch next: Long-term drive failure, staffing, refresh, and data-rebuild costs will test the three-year economics.

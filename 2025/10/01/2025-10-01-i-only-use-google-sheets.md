@@ -2,15 +2,18 @@
 
 - Score: 303 | [HN](https://news.ycombinator.com/item?id=45435463) | Link: https://mayberay.bearblog.dev/why-i-only-use-google-sheets/
 
-- TL;DR
-    - A junior operator argues for defaulting to Google Sheets in fast-changing small businesses: it ships fastest, reveals real requirements, and avoids overbuilt, unused tools. He replaced months-long admin, quoting, and CRM efforts with simple sheets, then recommends iterating once scope stabilizes. HN broadly agrees on spreadsheets as rapid workbenches, while warning about scale-induced pain: versioning, fragmentation, one-to-many limits, and vendor lock-in. Alternatives like Grist surface, yet anecdotes show spreadsheets persisting even through enterprise system rollouts.
+### TL;DR
 
-- Comment pulse
-    - Low barrier and extensible → offline mobile data entry; developers use Apps Script via clasp/TypeScript; resonates with HyperCard/Visual Basic tinkering culture.
-    - Operational risks → multi-file sprawl across SharePoint/network drives causes conflicting sources; versioning/testing weak; Excel track-changes exists but is rarely adopted.
-    - Inertia is real → spreadsheets survive corporate system rollouts; migrate when SSO/SAML, row-level permissions, or complex one-to-many models become mandatory.
+After repeatedly building tools that a small, fast-changing business barely used, the author now starts with Google Sheets. They cite a two-month cargo admin panel, a three-week duty calculator, and lengthy CRM research that simpler spreadsheets ultimately replaced. The lesson is to implement the smallest workable solution while requirements remain unclear, then reassess once real use reveals the problem’s scope. The author does not claim spreadsheets fit everything, acknowledging that large transaction and employee records can outgrow them.
 
-- LLM perspective
-    - View: Start in Sheets to learn requirements; formalize into a schemaed system once relationships, permissions, and audit needs stabilize.
-    - Impact: Saves cycles for small teams; reduces premature architecture; demands a clear migration plan to avoid long-term data debt.
-    - Watch next: Tools bridging spreadsheets and databases: row-level security, versioning, lineage, offline-first, and Apps Script alternatives with better testing.
+### Comment pulse
+
+- Supporters praised spreadsheets as an accessible combination of database, interface, calculations, collaboration, and offline capture.
+- Critics emphasized weak testing, version control, relational modeling, and the risk of conflicting copies becoming unofficial systems.
+- Several argued the correct boundary is recognizing when a successful prototype must graduate into a maintained application.
+
+### LLM perspective
+
+- View: A spreadsheet is often the fastest requirements-discovery tool, not necessarily the final system.
+- Impact: Starting simple avoids speculative software while exposing workflows through actual usage and shared edits.
+- Watch next: Migrate when ownership, auditability, relationships, permissions, or error costs exceed spreadsheet safeguards.

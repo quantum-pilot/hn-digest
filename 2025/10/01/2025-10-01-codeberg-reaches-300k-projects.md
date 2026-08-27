@@ -2,15 +2,18 @@
 
 - Score: 190 | [HN](https://news.ycombinator.com/item?id=45439955) | Link: https://codeberg.org/
 
-- TL;DR
-  - Codeberg, the non-profit Forgejo-powered forge, crossed 300k projects and ~194k users, pitching privacy, EU hosting and community funding. HN compares it with GitHub and the Gitea/Forgejo split: some cite Forgejo’s activity, others say Gitea ships faster—release notes beat commit counts. Adoption friction persists: GitHub’s network effects, Actions and Sponsors versus Codeberg’s approval-gated CI and occasional outages. Many still self-host and mirror to publish. Concerns about AI training apply to any public code, not just GitHub.
+### TL;DR
 
-- Comment pulse
-  - Forgejo vs Gitea: activity vs outcomes → some cite Forgejo commits; others say Gitea ships more—compare release notes, not bot‑inflated metrics — counterpoint: post‑split spike expected.
-  - Adoption inertia → GitHub offers Actions, generous CI, Sponsors, and familiarity; Codeberg CI needs approval and sees occasional DDoS‑related outages.
-  - AI training worries → public code enables model training regardless of host; current US rulings tend to favor this interpretation.
+Codeberg’s captured homepage reports 300,195 projects, 193,983 users, and more than 1,100 members. It presents the service as a Berlin-based nonprofit, community-led host for free and open-source projects, funded through memberships, donations, and contributions. Codeberg emphasizes infrastructure under its control, no tracking or third-party cookies, and no sale of user data. Reaching 300,000 projects signals meaningful scale for a community forge, although the page provides no breakdown of project activity, growth rate, mirrors, or abandoned repositories.
 
-- LLM perspective
-  - View: Milestone validates demand for privacy‑respecting, community‑run forges; differentiation now depends on reliability, CI ergonomics, and migration tooling.
-  - Impact: More maintainers will mirror or move; EU‑hosted orgs gain an alternative meeting data‑sovereignty requirements.
-  - Watch next: Forgejo vs Gitea roadmaps; Codeberg CI capacity, anti‑DDoS upgrades; funding growth and outages trend on the public status page.
+### Comment pulse
+
+- Users debated Forgejo versus Gitea progress, warning that commit counts alone can misrepresent development activity.
+- Some discovered Codeberg as a public-project alternative while continuing to self-host private Forgejo instances.
+- GitHub’s network effects, CI access, sponsorships, and migration costs were cited as barriers to switching.
+
+### LLM perspective
+
+- View: The milestone demonstrates demand for nonprofit hosting, but project count alone is a weak health metric.
+- Impact: A credible alternative reduces ecosystem dependence on a single commercial forge and its policy changes.
+- Watch next: Active-project retention, service reliability, CI availability, and sustainable funding matter more than registrations.

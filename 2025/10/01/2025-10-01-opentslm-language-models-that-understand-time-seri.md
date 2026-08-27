@@ -2,15 +2,18 @@
 
 - Score: 184 | [HN](https://news.ycombinator.com/item?id=45440431) | Link: https://www.opentslm.com/
 
-TL;DR
-- OpenTSLM proposes “time-series language models” that treat temporal signals as a native modality, using a raw time-series encoder with cross-attention into an LLM to reason, explain, and forecast in natural language. It claims order-of-magnitude temporal reasoning gains on smaller backbones, offering open base models and a proprietary “frontier” tier. HN debates whether this beats tool-calling classical TS libraries, if one model can span domains (ECG, markets), and whether embeddings preserve subtle clinical signals; authors say the architecture captures fine-grained patterns.
+### TL;DR
 
-Comment pulse
-- Tool-calling suffices → Use LLM to orchestrate TS libraries for speed and accuracy; avoids huge datasets. — counterpoint: end-to-end models capture latent patterns, reduce glue code.
-- Generality skepticism → One model across ECG, audio, markets seems unlikely; domain shift hurts. Authors suggest raw encoders + cross-attention enable broader transfer.
-- Architecture take → Flamingo-style fusion; time tokens and TS encoder feed LLM; promising TS-QA results. Minor website date error got fixed.
+OpenTSLM presents time-series language models as multimodal systems that ingest temporal signals alongside text for natural-language reasoning, explanation, and forecasting. Its team claims order-of-magnitude temporal-reasoning gains with smaller backbones, releases lightweight base models trained on public data, and reserves specialized models for proprietary enterprise offerings. Proposed domains include healthcare, robotics, infrastructure, finance, sensors, and user activity. The captured page is promotional and supplies no benchmark details; performance, generality across unrelated signal types, and advantages over tool-calling pipelines therefore remain unverified here.
 
-LLM perspective
-- View: Treating time series as a primary modality is overdue; unified reasoning and forecasting could simplify agent pipelines.
-- Impact: Data infra, labeling, and evaluation for TS will matter more than model size; domain-specific adapters likely win.
-- Watch next: Benchmarks spanning ECG, IoT, finance; ablations vs tool-calling; latency on edge hardware; open weights and training recipes.
+### Comment pulse
+
+- Readers questioned whether an LLM calling established signal-processing tools would be cheaper and more reliable.
+- Discussion challenged whether one model can generalize between domains such as ECGs and markets.
+- The team said raw signals enter through a learned time-series encoder and cross-attention, potentially preserving subtle patterns.
+
+### LLM perspective
+
+- View: Native temporal reasoning is compelling only if it outperforms modular tools on validated, domain-relevant tasks.
+- Impact: A shared interface could simplify mixed text-and-signal workflows, but errors may be harder to localize.
+- Watch next: Independent benchmarks should measure accuracy, calibration, transfer, compute cost, and preservation of subtle signals.

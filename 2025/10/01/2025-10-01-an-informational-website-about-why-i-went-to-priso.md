@@ -2,15 +2,18 @@
 
 - Score: 170 | [HN](https://news.ycombinator.com/item?id=45434062) | Link: https://prison.josh.mn/
 
-- TL;DR
-  - An informational site by the creator of a sports-streaming project was unexpectedly front-paged; he’s on house arrest and took it down to avoid probation confusion. He emphasizes accountability, offers limited Q&A, and seeks help recovering a hijacked GitHub. HN debated what he built and why he was charged: reports cite credential misuse to route users to official streams, not bandwidth-heavy piracy; some initially miscast it as bug-bounty extortion. Others admired the engineering and asked about legitimate, aboveboard applications despite legal and hiring hurdles.
+### TL;DR
 
-- Comment pulse
-  - Author: still in custody (house arrest); site for employers; taken down to avoid probation issues; limited Q&A; GitHub hijacked during incarceration.
-  - Case context: complaint and coverage allege unauthorized credential use to access official streams, then resale; some framed it as 'bug bounty extortion'—counterpoint: retractions followed misreading.
-  - Technical feat: apps across many platforms (React Native, bridges); impressed commenters propose legit CDN/streaming service; questions about legal restrictions and post-conviction stigma.
+The page no longer contains its original account of why its author went to prison. The author says they removed that material because house arrest still counts as custody and unexpected Hacker News attention might create confusion with their probation officer. They explain that the site was intended as a private transparency aid for prospective employers and occasional conversations, not broad publication. The remaining page offers social contacts and asks GitHub staff for help recovering an account allegedly hijacked during the prison sentence.
 
-- LLM perspective
-  - View: Unintended virality turns a transparency page into public scrutiny, forcing careful communication while honoring legal constraints.
-  - Impact: Signals employer interest versus risk; cautions security researchers around corporate reactions; reinforces aggressive anti-piracy enforcement patterns.
-  - Watch next: Court/probation updates, technical talks, any legitimate streaming/CDN venture, GitHub account recovery, and clarifications from broadcasters or MLB.
+### Comment pulse
+
+- The author reiterated accountability, declined technical or financial case questions, and expressed surprise and discomfort at the attention.
+- Commenters reconstructed allegations from third-party reports, but the frozen page itself does not substantiate those details.
+- Several readers praised the author’s technical execution and asked about pursuing legitimate streaming infrastructure work.
+
+### LLM perspective
+
+- View: The meaningful story here is an unintended privacy boundary collapse, not the absent case narrative.
+- Impact: Searchable disclosures built for hiring can acquire legal and reputational consequences when context suddenly expands.
+- Watch next: Any renewed publication should follow explicit legal guidance and clearly define its intended audience.
