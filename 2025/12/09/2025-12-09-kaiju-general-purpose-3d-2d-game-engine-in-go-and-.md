@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Kaiju is a work-in-progress 2D and 3D engine written in Go and backed by Vulkan, with a built-in editor, Windows, Linux, and Android support, a Mac port underway, and local-model interoperability. Its README calls the engine production-ready but the editor unfinished, while the repository shows no published releases. It claims high frame rates, low memory use, and minimal garbage-collector pressure. Commenters welcomed managed-language experimentation but rejected empty-scene FPS comparisons, wanted shipped games and representative workloads, and raised Go-to-Vulkan FFI concerns.
+Kaiju is a heavily developed 2D/3D engine using Go and Vulkan, with Windows, Linux, functional Android, work-in-progress macOS, local-model interoperability, and an unfinished editor. Its README calls the engine production-ready and claims much faster rendering and lower memory than established engines, citing 5,400 FPS for an empty cube scene versus Unity’s 1,600. HN welcomed experimentation with garbage-collected game engines but rejected that microbenchmark as evidence of practical superiority, citing missing features, cgo overhead, scarce game demonstrations, and no published releases.
 
 ### Comment pulse
 
-- Critics noted FPS is nonlinear: reducing an empty frame below one millisecond says little about performance once real workloads dominate.
-- Engine building was dismissed as avoiding product tradeoffs — counterpoint: others value it as education, portfolio work, and a distinct technical craft.
-- Skeptics called garbage collection and cgo overhead disqualifying; supporters saw modern managed runtimes as promising when allocation pressure is controlled.
+- Empty-scene FPS measures little beyond baseline overhead → frame times, features, realistic scenes, and stable pacing matter more than headline ratios.
+- Building engines remains valuable without shipping games → it teaches performance engineering, though real projects force missing trade-offs.
+- Go’s garbage collector is not automatically disqualifying → counterpoint: Vulkan FFI overhead and complex-scene behavior need credible measurement.
 
 ### LLM perspective
 
-- View: Kaiju is an ambitious engineering project whose performance marketing currently outruns the supplied evidence.
-- Impact: It could broaden Go’s role in game tooling if real projects validate editor usability and runtime consistency.
-- Watch next: Versioned releases, reproducible frame-time benchmarks, complex scenes, shipped games, Mac support, GC pauses, and FFI profiles.
+- View: Kaiju’s interesting proposition is productive managed-language engine development; its performance marketing currently outruns supplied evidence.
+- Impact: Indie developers need demonstrated workflows and shipped games more than isolated rendering throughput.
+- Watch next: Publish releases, representative benchmarks, frame-time distributions, memory traces, platform support, editor stability, and complete game case studies.

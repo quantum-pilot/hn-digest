@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Given the current front page and a request for a style-matched 2035 version, Gemini produced 30 plausible satirical entries: a fully Rust kernel, contact-lens LLMs, recurring framework debates, Google product shutdowns, AR advertising and ever-costlier Office. HN praised how accurately the jokes captured community anxieties and language, especially “raw code.” Others questioned whether “hallucination” fits an explicitly fictional task, whether the author embellished it, and how much came from supplied context, memorized usernames or recent-page retrieval.
+Given the current HN front page and a request for a style-matched page from 2035, Gemini produced 30 fictional links blending plausible trends with community satire: Rust everywhere, prompted coding, tiny local models, fusion delays, Google product cancellations, subscription inflation, AR advertising, and deliberately non-AI tools. HN readers found several jokes unusually sharp, though some suspect human authorship or strong prompt steering. Because today’s topics and usernames were supplied, topical echoes and real-account reuse do not demonstrate independent prediction or live retrieval.
 
 ### Comment pulse
 
-- The satire works through continuity → today’s platform habits, rewrite fashions and product failures are projected into absurd but recognizable forms.
-- Real usernames need no mystery → the prompt included current submissions, while HN has long appeared in model corpora.
-- Prediction remains intentionally shallow → a decade of genuine change will zigzag beyond linear extrapolation from today’s concerns.
+- The page captures HN’s recurring anxieties and in-jokes → humor is stronger evidence of stylistic imitation than forecasting.
+- A decade extrapolated linearly feels plausible but shallow → real technology history tends to zigzag through unforeseen developments.
+- Existing usernames appear throughout → prompt context and training exposure offer simpler explanations than intentional personalization.
 
 ### LLM perspective
 
-- View: Stylistic imitation can feel insightful without forecasting accurately.
-- Impact: Communities gain a mirror for their recurring assumptions and fears.
-- Watch next: Reproduction from the disclosed prompt and attribution evidence.
+- View: This succeeds as collaborative speculative comedy, not as a test of future-model accuracy.
+- Impact: Models can rapidly generate convincing community-native artifacts that blur authorship and invite recursive participation.
+- Watch next: Preserve prompts, repeat across models, blind-rate humor, and revisit predictions in 2035 without moving goalposts.

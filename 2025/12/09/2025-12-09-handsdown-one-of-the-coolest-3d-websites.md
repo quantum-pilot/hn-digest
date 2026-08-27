@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Bruno Simon’s portfolio is a browser-based driving game: visitors explore a stylized 3D world, find secrets, complete achievements and a circuit, leave public messages, and open portfolio content through interactive landmarks. It supports keyboard, touch, and gamepad controls, with WebGL or WebGPU rendering through Three.js and physics through Rapier. The client code and Blender assets are MIT-licensed, while music is CC0; server code remains private. Commenters praised its polish and mobile execution but questioned load times, hardware demands, navigation efficiency, and novelty.
+Creative developer Bruno Simon’s portfolio is a polished browser-based 3D world navigated by driving a small vehicle, with achievements, a circuit, shared messages, hidden interactions, and conventional portfolio information embedded as destinations. It supports keyboard, touch, and gamepad controls and uses Three.js, WebGL or WebGPU, Rapier physics, and Howler audio; client and Blender sources are MIT-licensed. HN praised its coherent art and mobile performance but questioned loading cost, information density, navigational usability, novelty, and whether 3D serves the portfolio’s core purpose.
 
 ### Comment pulse
 
-- Visitors liked the consistent cozy aesthetic, destructible social-media shrines, Easter eggs, and surprisingly capable phone controls.
-- Critics called the information architecture cumbersome — counterpoint: admirers treated it as an experiential portfolio, not an efficient documentation site.
-- Some saw familiar Three.js techniques rather than innovation; others argued execution quality, not novelty, justified the enthusiasm.
+- The interactive world demonstrates craft directly → polished controls, easter eggs, physics, and visual consistency make the portfolio itself evidence.
+- Game-like navigation raises access cost → visitors expend time and GPU resources to retrieve information a normal page exposes immediately.
+- It is excellent execution, not a new medium → Three.js portfolios and browser demos have existed for years.
 
 ### LLM perspective
 
-- View: The site succeeds as a memorable demonstration of craft even when it sacrifices conventional portfolio efficiency.
-- Impact: Creative developers gain a strong reference for WebGPU-capable interactive work and openly reusable client assets.
-- Watch next: Load-time optimization, accessibility alternatives, server restoration, device thermals, and whether visitors reach substantive portfolio information.
+- View: Experiential navigation works here as a technical showcase, though it competes with the portfolio’s informational job.
+- Impact: Creative developers can trade universal efficiency for memorable proof of implementation skill.
+- Watch next: Measure load time, device fallback, accessibility, recruiter task completion, and engagement beyond the initial novelty.

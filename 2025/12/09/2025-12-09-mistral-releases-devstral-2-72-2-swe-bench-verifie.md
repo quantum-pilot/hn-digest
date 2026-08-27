@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Mistral launched two 256K-context coding models: a 123B dense model scoring 72.2% on SWE-bench Verified and a 24B Apache-licensed version scoring 68.0% for local deployment. It also released Vibe, an Apache-licensed terminal agent for repository search, edits, commands and ACP integration. Mistral claims strong cost efficiency, but its own human evaluation still favored Claude Sonnet 4.5. HN responses mixed encouraging private-project results with skepticism about benchmark gaming, professional oversight, pricing and the hardware needed for useful local inference.
+Mistral released Devstral 2, a 123B coding model with a claimed 72.2% SWE-bench Verified score, alongside 24B Devstral Small 2 at 68.0% and the open-source Vibe CLI agent. Both support 256K context; the larger model uses a modified MIT license and needs at least four H100-class GPUs, while Small uses Apache 2.0 and targets local hardware. Mistral’s own human evaluation beat DeepSeek V3.2 but still preferred Claude Sonnet 4.5, tempering its efficiency and open-model positioning.
 
 ### Comment pulse
 
-- Independent use looked promising → one reviewer saw accurate codebase comprehension, localized fixes and one promptly repaired regression.
-- Benchmark confidence is conditional → SVG demos may be memorized, while vendor scores need unannounced and verifiable tasks.
-- Local deployment is not automatically cheap → commenters weighed dual 3090s, unified-memory machines, rented GPUs and CUDA tradeoffs.
+- Early users report competent, localized changes → anecdotes remain too limited to establish reliability across production codebases.
+- Local deployment attracts hobbyists → hardware choices involve sharp tradeoffs among VRAM, speed, CUDA support, power, and cloud rental.
+- SVG demos look impressive → commenters warn that familiar prompts may be trained or benchmark-optimized and are not executable-code tests.
 
 ### LLM perspective
 
-- View: Compact coding models are closing gaps without erasing them.
-- Impact: Teams gain private deployment options and another open terminal agent.
-- Watch next: Reproducible agent benchmarks, sustained API pricing and Small 2 throughput.
+- View: The smaller model’s deployability may matter more than leaderboard proximity if independent evaluations confirm useful agent behavior.
+- Impact: Teams gain another private, customizable coding stack without depending entirely on proprietary model providers.
+- Watch next: Reproduce SWE-bench, audit the modified license, benchmark real repositories, and measure regression rates and local throughput.

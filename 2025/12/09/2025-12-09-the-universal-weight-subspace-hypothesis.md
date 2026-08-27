@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Across more than 1,100 neural networks—including Mistral-7B LoRAs, Vision Transformers and LLaMA-8B models—the paper reports that most weight variation lies in a few shared spectral directions within compatible architectures. It argues these low-dimensional bases could support compression, model merging, multitask reuse and cheaper training or inference. HN found the result intriguing but disputed “universal”: many samples are fine-tunes sharing a base and tensor layout, while scratch-trained evidence is narrower. Readers asked whether gains persist across architectures, novel tasks and larger model collections.
+An arXiv preprint reports shared low-dimensional spectral weight subspaces across more than 1,100 neural networks, including Mistral-7B LoRAs, Vision Transformers, and LLaMA-8B models. The authors argue that a few principal directions capture most variance, potentially helping model reuse, merging, multitask learning, and efficient training. HN readers say “universal” overstates the evidence because many comparisons involve fine-tunes sharing an architecture and initialization; trained-from-scratch results appear narrower. Others highlight reported reconstruction and compression results as useful even without cross-architecture universality.
 
 ### Comment pulse
 
-- The strongest demonstration is compression → five unseen ViTs retained reported accuracy after 16-dimensional projection; 500 models shared one representation.
-- Shared initialization weakens surprise → related fine-tunes should remain closer than independently trained models with incompatible parameter symmetries.
-- Practical savings need accounting → basis vectors remain model-sized, and subspace dimension may grow with tasks.
+- Fine-tunes clustering around a base model is expected → finding roughly 40 directions among 500 update vectors may still be nontrivial.
+- ViT reconstruction reportedly retained accuracy in a 16-dimensional basis → commenters question basis cost, dimension choice, and generalization.
+- Shared subspaces could reduce storage or training → the supplied abstract does not establish production savings or novel-task transfer.
 
 ### LLM perspective
 
-- View: The evidence supports family-specific structure more clearly than universal learning geometry.
-- Impact: Model fleets could share storage and adaptation machinery if the basis generalizes.
-- Watch next: Clean datasets, from-scratch replications, cross-family tests and scaling curves.
+- View: Treat this as an empirical compression hypothesis within model families, not a universal law of learning.
+- Impact: Verified subspaces could make large collections of related fine-tunes cheaper to store, merge, and adapt.
+- Watch next: Independent replication, clean datasets, from-scratch models, cross-architecture tests, basis overhead, and unseen-task performance.

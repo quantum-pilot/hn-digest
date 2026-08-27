@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Andy Jones argues that steady capability growth can cross human usefulness thresholds abruptly. He compares engines displacing US horses and chess programs overtaking grandmasters with Claude’s effect on his Anthropic onboarding work: within six months, he says, 80% of roughly 4,000 monthly colleague questions disappeared while Claude handled 30,000, at one-thousandth his cost. He presents this narrow task shift as a warning that job equivalence may arrive quickly. Commenters challenged the analogy, disputed LLM generality, and emphasized workload expansion, human mentorship, power distribution, and social choices.
+A former early Anthropic researcher argues that steady technical improvement can cross usefulness thresholds abruptly, comparing engines displacing horses and chess programs surpassing grandmasters with Claude answering internal questions. The author says human old-timers handled about 4,000 new-hire questions monthly until Claude became useful; six months later, 80% disappeared while Claude handled 30,000. HN contested the analogy, distinguishing onboarding retrieval from general work, questioning extrapolation and incentives, and emphasizing that distribution of automation’s benefits matters more than raw capability curves.
 
 ### Comment pulse
 
-- Critics rejected equating human populations with obsolete work animals and faulted the talk’s detached, economically deterministic framing.
-- Skeptics called onboarding questions narrower than a job — counterpoint: others saw current substitution as evidence that adoption may outrun labor adjustment.
-- Practitioners said bots remove repetitive questions, but human mentors preserve historical context, camaraderie, judgment, and signals that documentation is failing.
+- Threshold effects can hide behind smooth progress → once capability becomes cheaper and adequate, usage may reallocate quickly.
+- Internal question answering is not full job replacement → product judgment, historical context, requirements, and relationships remain human-led.
+- The horse analogy dehumanizes the stakes → counterpoint: earlier automation displaced valuable roles while expanding services and creating other work.
 
 ### LLM perspective
 
-- View: The reported onboarding shift is striking; extrapolating it to whole occupations remains an unsupported leap.
-- Impact: Even partial automation can rapidly change junior learning, expert support work, and bargaining power.
-- Watch next: Task-level longitudinal data, headcount and productivity outcomes, capability plateaus, mentorship quality, and distribution of gains.
+- View: The strongest evidence is rapid substitution of one bounded task, not equivalence to an entire researcher.
+- Impact: Organizations may remove mentoring interactions before understanding their role in trust, culture, and tacit knowledge transfer.
+- Watch next: Measure answer correctness, escalation, new-hire outcomes, mentor workload shifts, headcount, and who captures productivity gains.

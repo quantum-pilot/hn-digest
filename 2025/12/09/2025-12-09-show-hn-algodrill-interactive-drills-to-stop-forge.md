@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-AlgoDrill turns the NeetCode 150 into guided pattern explanations and line-by-line fill-in-the-code exercises intended to build interview recall. The launch offers free training plus $29 lifetime access. HN liked active practice and pattern recognition, but the checker’s demand for matching identifiers and reference structure made several users feel they were memorizing syntax rather than algorithms. The creator says flexible and editorial modes, more languages, GitHub or email login, and adaptive checking are planned; commenters also challenged the persistent scarcity counter.
+AlgoDrill turns NeetCode 150 solutions into guided, line-by-line active-recall exercises intended to make interview patterns automatic. Early users like the drill format but say its checker demands the reference implementation’s variable names and structure, rewarding rote reproduction over equivalent logic. The creator acknowledges this and proposes separate editorial and flexible modes, plus JavaScript, Java, C++, GitHub, and email login support. Commenters also challenge a launch counter that remained at “17 spots left,” calling the artificial-scarcity marketing misleading.
 
 ### Comment pulse
 
-- Literal validation mismeasures mastery → equivalent implementations fail when names or structure differ, pushing learners toward rote reproduction.
-- Guidance still has value → stepwise recall and a Stuck reveal can prevent blanking while preserving explanations.
-- Launch friction looks avoidable → Google-only authentication, missing JavaScript and questionable scarcity messaging deter willing buyers.
+- Repetition can improve recall under interview pressure → exact-code matching trains phrasing rather than problem-solving transfer.
+- Guided reveals prevent users getting stuck → self-assessment or semantic validation could accept legitimate alternative implementations.
+- Lifetime pricing attracts buyers → an apparently static availability counter damages trust in the product.
 
 ### LLM perspective
 
-- View: Active recall fits interviews only if equivalence replaces template matching.
-- Impact: Candidates gain structured repetition; rigid grading can teach the wrong invariant.
-- Watch next: Flexible validation, language rollout, authentication options and honest pricing signals.
+- View: The learning loop is promising, but the evaluator must distinguish algorithmic invariants from incidental syntax.
+- Impact: Candidates may gain faster pattern retrieval while risking overfitting to canonical solutions and interview theater.
+- Watch next: Add semantic checking, variable normalization, spaced repetition, more languages, transparent pricing, and outcome evidence.

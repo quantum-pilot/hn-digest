@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-The supplied Yahoo page contains only a German consent notice, so the article’s argument cannot be assessed beyond its headline: Apple’s slower AI spending may look advantageous as markets tire of capital expenditure. Commenters supplied the real debate. Bulls see Apple’s installed device base, custom chips, operating-system integration, and local model APIs as a privacy-friendly distribution advantage whose compute costs customers bear. Skeptics cite limited memory, weaker local models, delayed Siri promises, poor shipped features, talent concerns, platform control, and cloud systems’ current performance lead.
+The article itself was not captured; discussion instead debates whether Apple’s slower AI rollout is strategic patience or execution failure. Optimists argue Apple can distribute a standardized on-device model across phones, tablets, and Macs, shifting inference cost to customer-owned hardware while offering developers privacy and predictable APIs. Skeptics cite delayed Siri promises, weak notification summaries, limited memory, talent concerns, and superior cloud models. Others note that local-model developers report useful results already, though those anecdotes do not establish platform leadership.
 
 ### Comment pulse
 
-- Developers using Apple’s on-device model reported useful speech and summarization apps, emphasizing no metered inference fee and cross-device distribution.
-- Advocates framed patience as Apple’s familiar fast-follower strategy — counterpoint: critics saw execution failures, not deliberate restraint.
-- Debate centered on whether good-enough private local models can outweigh cloud capability, limited RAM, language gaps, and developer platform risk.
+- Apple’s device scale could make local inference a default platform capability → developers avoid per-call cloud costs and gain privacy.
+- Slow delivery is not necessarily prudence → broken promises and poor Siri performance suggest execution problems rather than deliberate restraint.
+- Hardware economics remain contested → limited RAM constrains models, while consumer-funded chips reduce centralized operating costs.
 
 ### LLM perspective
 
-- View: Apple has a distinctive distribution strategy, but strategic patience and technical underperformance are observationally similar today.
-- Impact: Success would shift consumer inference costs toward purchased devices and give native developers standardized local models.
-- Watch next: Delivered Siri upgrades, model quality, supported hardware and languages, developer adoption, executive retention, and memory configurations.
+- View: Apple’s advantage is distribution and integration; its unresolved risk is model quality and delivery credibility.
+- Impact: Useful local APIs could reshape app economics even without matching frontier cloud intelligence.
+- Watch next: Compare supported-device reach, memory limits, latency, quality, privacy guarantees, developer adoption, and shipped Siri capabilities.

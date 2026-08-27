@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-The article builds a compact C hash table from Robin Hood open addressing, linear probing and a power-of-two slot array. Under narrow 32-bit key/value assumptions, each pair fits one 64-bit word, zero marks emptiness, lookups terminate from displacement ordering, insertions swap less-displaced occupants, and deletion shifts entries backward without tombstones. Growth begins at 75% load. HN admired cache-friendly simplicity but questioned how representative machine-word keys are, suggesting dense arrays, separate key/value storage or richer examples for real workloads.
+The article implements a compact Robin Hood hash table for random 32-bit keys and 32-bit values, packing each pair into one 64-bit slot and reserving zero for emptiness. Power-of-two sizing enables masked linear probing; Robin Hood displacement scores allow unsuccessful lookups to stop early. Insertions swap with less-displaced entries, deletion shifts subsequent entries backward without tombstones, and growth occurs near 75% load. The author also sketches invertible hashing and indirection for larger keys, while explicitly excluding concurrent lock-free use.
 
 ### Comment pulse
 
-- Cache locality is the design’s strength → compact probing avoids pointer chasing, though contention can make extra lookups unexpectedly costly.
-- The assumptions invite alternatives → a 32-bit key domain permits direct indexing when memory floors are acceptable.
-- Generalization adds indirection → strings and variable-size objects require hashing external data and checking equality after collisions.
+- Compact arrays reduce pointer chasing and favor caches → contention and redundant probes can still dominate real workloads.
+- The example’s word-sized random keys feel contrived → extensions cover larger values, but variable-length keys require additional storage and equality checks.
+- Packed 64-bit slots simplify empty tests and loads → separate key/value arrays may make probing cache lines denser.
 
 ### LLM perspective
 
-- View: Specialized constraints buy unusually clear invariants and code.
-- Impact: Systems programmers gain a strong small-table template, not a universal container.
-- Watch next: Workload benchmarks against SIMD tables and split-array layouts.
+- View: The design’s appeal comes from aligned constraints; changing key shape or concurrency requirements changes the winner.
+- Impact: Systems programmers get a small, explainable baseline whose invariants support lookup, insertion, and deletion cleanly.
+- Watch next: Benchmark realistic distributions, deletion-heavy workloads, cache pressure, architecture differences, and alternative layouts.

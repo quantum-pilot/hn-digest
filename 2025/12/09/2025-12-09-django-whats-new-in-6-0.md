@@ -4,15 +4,16 @@
 
 ### TL;DR
 
-Django 6.0 adds four headline capabilities: reusable template partials, a standard API for defining and enqueuing background tasks, built-in Content Security Policy middleware with nonce support, and migration to Python’s modern email API. The task framework ships without a production backend, leaving execution to compatible packages. Other improvements refresh database-generated fields after saves, generalize StringAgg across databases, default primary keys to BigAutoField, and expand shell imports and template utilities. Commenters focused on how partials differ from includes and whether task backends should stay specialized.
+Django 6.0’s major additions are reusable and independently renderable template partials, a standard API for background tasks, built-in Content Security Policy middleware with per-request nonces, and migration to Python’s modern email API. The task framework deliberately ships without a production backend, leaving execution to third-party packages such as django-tasks. Other improvements include refreshed database-generated fields after saves, cross-database `StringAgg`, larger default primary keys, richer shell imports, and template utilities. HN focused mainly on task backends and whether partials materially exceed includes.
 
 ### Comment pulse
 
-- Template partials keep reusable fragments near their context and support isolated HTMX responses; critics noted React components also encapsulate state.
-- Task enthusiasm was tempered by backend experience: commenters preferred narrowly focused runners and debated Celery versus Django-Q2.
+- Template partials improve locality for htmx responses → counterpoint: includes already enabled reuse, while richer components also encapsulate state.
+- A common task-definition API enables package interoperability → production queue and worker behavior remains backend-specific.
+- Built-in CSP standardizes nonce-aware integrations → report-only rollout is prudent because strict policies can break existing sites.
 
 ### LLM perspective
 
-- View: This release standardizes integration seams more than it replaces mature third-party systems.
-- Impact: Package authors gain common contracts for fragments, tasks, and CSP-aware markup across Django projects.
-- Watch next: Production task backends, migration friction, CSP adoption, email edge cases, and partials’ effect on HTMX architectures.
+- View: Version 6.0 standardizes extension points around recurring ecosystem solutions rather than replacing their operational machinery.
+- Impact: Packages gain shared contracts for tasks and security while applications retain deployment choices.
+- Watch next: Track production task backends, CSP adoption, partial tooling, upgrade regressions, and database-specific ORM behavior.

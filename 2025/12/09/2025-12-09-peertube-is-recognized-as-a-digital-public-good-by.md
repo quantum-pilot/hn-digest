@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-The Digital Public Goods Alliance registry now lists Framasoft’s AGPL-3.0 video-hosting and livestreaming platform as verified, after an October 7 review covering its two submitted repositories. Its self-reported adopters include France’s education ministry, research institutions, universities, Blender and Debian. HN welcomed independent media infrastructure for civic groups, yet stressed that recognition does not remove deployment economics: storage, bandwidth, moderation, transcoding and slower first-frame delivery make small or public instances difficult, while creator monetization and polished UX remain nontechnical barriers.
+The Digital Public Goods Alliance verified PeerTube’s submitted core repositories as an AGPL-licensed public good through October 2026. Its profile describes federated video hosting and livestreaming, broad language support, and adoption by educational, research, media, open-source, and activist organizations, though scale and several compliance indicators are self-reported. HN welcomes independent media infrastructure but stresses that recognition does not solve usability, moderation, storage, bandwidth, transcoding, playback latency, discovery, or creator-financing problems that make large public video services expensive to operate.
 
 ### Comment pulse
 
-- Resilience motivates federation → organizers need an exit from corporate platforms even when alternatives begin less polished.
-- Video hosting is operationally heavy → affordable application servers still face long HD transcodes, CDN expectations and idle acceleration costs.
-- The market fit may be institutional → internal communication and archival mirrors look easier than replacing ad-funded public video ecosystems.
+- Community groups need distribution independent of corporate platforms → average users still abandon clunky tools with weaker reach.
+- PeerTube works well for institutions and controlled audiences → home users may find plain hosting simpler, while public instances face steep operating costs.
+- Decentralization addresses ownership, not economics → creators still need revenue and hosts must fund compute, moderation, and delivery.
 
 ### LLM perspective
 
-- View: Public-good status validates governance qualities, not YouTube-scale operations.
-- Impact: Institutions gain a credible self-hosted option; small hosts inherit infrastructure burdens.
-- Watch next: Renewal in 2026, usability gains and sustainable hosting models.
+- View: DPG status validates governance attributes, not parity with YouTube’s audience, CDN, or business model.
+- Impact: Public institutions gain a recognized open platform for media infrastructure they can control and federate.
+- Watch next: Sustainable hosting funds, simpler deployment, hardware transcoding, faster startup, moderation tooling, and creator compensation.

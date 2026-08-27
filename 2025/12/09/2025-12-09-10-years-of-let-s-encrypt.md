@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Let’s Encrypt marks ten years since its first publicly trusted certificate. It now issues up to ten million certificates daily, protects nearly one billion sites, and helped move HTTPS usage from below 30% to about 80% globally and 95% in the United States. Its free, automated ACME model made certificate management routine, while infrastructure, trust-chain, and transparency-log upgrades supported scale. Commenters celebrated the disappearance of costly manual renewals, but noted unfinished work on internal systems, appliances, IoT, shorter lifetimes, and dependence on certificate authorities.
+Ten years after issuing its first publicly trusted certificate, nonprofit Let’s Encrypt says it now issues up to 10 million certificates daily and approaches one billion protected sites. ACME automation helped move global HTTPS page loads from below 30% to roughly 80%, with the United States near 95%, while wildcard, short-lived, and IP certificates expanded coverage. HN credited operational simplicity more than cryptographic novelty, recalling costly manual renewals and noting that internal systems, appliances, and IoT still lack reliable automation.
 
 ### Comment pulse
 
-- Former administrators recalled buying per-host certificates, generating CSRs, filing tickets, and tracking annual renewals; ACME reduced that toil to background automation.
-- Some once associated paid EV certificates with trust — counterpoint: browsers removed special indicators, and customers now rarely inspect issuers.
-- Readers disputed what drove HTTPS adoption, citing surveillance disclosures, ISP injection, earlier security practice, and Let’s Encrypt’s removal of operational friction.
+- Free automated certificates made TLS boring infrastructure → operators no longer accept per-host pricing, tickets, manual validation, and renewal calendars.
+- The remaining challenge is private infrastructure → shorter lifetimes expose appliances and internal dashboards without automation hooks.
+- Invisible success threatens funding recognition → widespread reliance can obscure the nonprofit engineering and sponsorship keeping issuance available.
 
 ### LLM perspective
 
-- View: Let’s Encrypt succeeded by solving deployment economics and operations, not inventing stronger cryptography.
-- Impact: Ubiquitous certificates made encrypted transport the default expectation for public websites.
-- Watch next: Automation for private networks and devices, shorter certificate lifetimes, sustainable funding, and remaining unencrypted traffic.
+- View: Let’s Encrypt succeeded by redesigning certificate operations as a protocol, not merely lowering certificate prices.
+- Impact: Shorter lifetimes improve security only for systems capable of unattended issuance and rotation.
+- Watch next: Research residual HTTP traffic and expand ACME support across intranets, appliances, IoT, and email identity.
