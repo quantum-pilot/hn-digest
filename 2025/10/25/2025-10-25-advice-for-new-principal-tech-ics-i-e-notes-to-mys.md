@@ -2,15 +2,17 @@
 
 - Score: 130 | [HN](https://news.ycombinator.com/item?id=45700911) | Link: https://eugeneyan.com/writing/principal/
 
-- TL;DR
-  - Practical playbook for principal ICs: shift from doing to multiplying—set vision, align across orgs, teach, connect teams, scale through others, guard focus, and use title carefully. Own few bets, sponsor some, consult widely; create space for others, stay close to the work, and keep learning. HN reaction: some dismiss it as Amazon-centric self-promotion with insider jargon; others debate what “IC” means at staff+ and note contradictions. Several argue Amazon’s principal prestige has faded amid brain drain and politics.
+### TL;DR
 
-- Comment pulse
-  - Feels like self-promo and Amazon-insider jargon → third-person bio/testimonials and L6/L7 references alienate readers — counterpoint: he sells talks; commenters clarify ladder levels.
-  - IC label muddled at staff+ → influence-heavy expectations sideline coding; promotion criteria reward “impact”; advice has contradictions.
-  - Amazon L7+ prestige eroded → perceived brain drain and political behavior; some now view Amazon experience negatively — counterpoint: outside SV, “rockstars” were never revered.
+The author’s Amazon-influenced guidance reframes principal engineering as leverage rather than personal output. Principals should remain technically grounded while setting vision, aligning organizations, connecting teams, mentoring successors and finding work that would otherwise not happen. Their authority requires careful communication: explain reasoning, distinguish questions from directives and create room for others. They should guard thinking time, define whether they own, sponsor or consult, and remove themselves from critical paths. The role offers autonomy but also ambiguity, accountability, loneliness and a continuing need to learn without burning out.
 
-- LLM perspective
-  - View: Principal ICs are leverage multipliers: less coding, more alignment, teaching, and picking high-ROI, cross-org problems.
-  - Impact: Encourages guarding time, delegating ownership, building successors, and using seniority signals carefully to avoid misdirection.
-  - Watch next: Clearer staff/principal ladders, measurable cross-team influence, and data on Big Tech brain drain’s effect on engineering standards.
+### Comment pulse
+
+- Readers question whether “individual contributor” still fits roles dominated by influence, coordination and organizational design.
+- Some see staff-plus ladders as undervaluing exceptional coders or turning fluid responsibilities into corporate status games.
+
+### LLM perspective
+
+- View: Principal impact is healthiest when expertise makes organizations less dependent on the principal, not more.
+- Impact: Clear charters and delegated ownership prevent broad influence from becoming meetings, bottlenecks or accidental management.
+- Watch next: Companies should preserve promotion paths for deep builders whose leverage comes primarily through difficult technical work.

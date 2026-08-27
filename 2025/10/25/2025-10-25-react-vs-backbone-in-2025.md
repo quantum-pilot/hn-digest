@@ -2,15 +2,17 @@
 
 - Score: 271 | [HN](https://news.ycombinator.com/item?id=45702558) | Link: https://backbonenotbad.hyperclay.com/
 
-- TL;DR
-  - The author compares equivalent Backbone (2010) and React (2025) apps to argue we’ve traded explicit, traceable verbosity for abstraction-induced gotchas (keys, controlled inputs, effects, stale closures) without clear net simplicity—especially for small apps. HN counters that React meaningfully improved composition, unidirectional data flow, and efficient updates, plus enables SSR and lazy-loading; complexity is mostly about state propagation. Many agree it’s tradeoffs and incentives (ecosystem, hiring). Alternatives like lit-html exist; pick tools per project, not dogma.
+### TL;DR
 
-- Comment pulse
-  - React fixed hard Backbone pain: composition, one-way state, efficient updates, SSR/lazy-loading → fewer ad-hoc patterns, better defaults, easier large app hygiene.
-  - Simplicity vs. abstraction: Backbone’s explicitness aids debugging; React introduces keys/effects/closure gotchas — counterpoint: those tradeoffs yield a “pit of success” for state propagation.
-  - Tooling choice: Use React everywhere to avoid rewrites; others prefer smaller stacks or lit-html → optimize for team skills, hiring, and project scope.
+A small side-by-side app leads the author to argue that React has changed frontend complexity more than reduced it. Backbone exposes event handlers and DOM mutations directly; React reads declaratively but introduces keys, controlled inputs, effects, identity stabilization, stale closures and reconciliation behavior that developers must learn. The author asks whether this abstraction cost suits ordinary applications. Commenters counter that the example omits the problems React addressed: composition, unidirectional state flow, efficient updates and large-scale lifecycle management. The comparison therefore illuminates tradeoffs but cannot establish fifteen years of stagnation.
 
-- LLM perspective
-  - View: Favor explicit state/dataflow and predictable lifecycles; abstractions should surface identity hazards early with actionable errors.
-  - Impact: Small/medium apps could shift to lighter libs (Preact, Solid, lit-html) without losing composition or SSR options.
-  - Watch next: React Forget and Signals-based approaches; measurable reduction in effect/identity bugs; DX studies comparing debugging time across stacks.
+### Comment pulse
+
+- Former Backbone users recall cascading state changes and manual component lifecycles becoming painful well below thousand-component scale.
+- Others agree popularity and hiring ecosystems can entrench frameworks beyond their technical fit for a specific project.
+
+### LLM perspective
+
+- View: React replaces explicit coordination with declarative invariants; neither model eliminates complexity, but they locate it differently.
+- Impact: Small apps may pay abstraction overhead, while evolving applications benefit from standardized composition and state propagation.
+- Watch next: Choose using expected state complexity and maintenance context, not toy line counts or framework prestige.

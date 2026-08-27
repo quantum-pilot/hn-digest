@@ -2,15 +2,17 @@
 
 - Score: 292 | [HN](https://news.ycombinator.com/item?id=45701305) | Link: https://www.economist.com/international/2025/10/23/meet-the-real-screen-addicts-the-elderly
 
-- TL;DR
-  - The Economist argues older adults are emerging as major “screen addicts”: Britain’s gaming-disorder clinic has treated 67 over‑40s, including a 72‑year‑old hooked on smartphone games. With more leisure and easy-to-use tablets, many retirees spend hours on YouTube/social feeds, changing daily routines and social interactions. HN debates whether this is a corporate‑engineered epidemic or a continuation of TV‑era habits, the trade‑offs versus books/TV, and how to handle “phubbing” in families. Broad agreement: addiction is ageless; incentives and abundance both matter.
+### TL;DR
 
-- Comment pulse
-  - It’s a pandemic driven by profit-maximizing feeds → billions spent optimizing engagement and reach — counterpoint: TV addiction predates algorithms; abundance, not conspiracy, explains behavior.
-  - Elderly have time and fewer alternatives → tablets become default leisure and communication hub.
-  - Digital habits erode in-person attention → family confronts phubbing; advice sought on boundaries and etiquette.
+Older adults are rapidly adding smartphones, tablets, games and streaming to already-high television use, producing more combined daily screen time than young adults in Britain. The article links retirement, isolation and limited mobility to adoption, while noting risks from scams, in-game spending, doom-scrolling, insomnia and reduced activity. Causation is uncertain: immobility may drive screen use rather than result from it. Digital tools also sustain family contact, hobbies and memories, and a large meta-analysis associated later-life device use with less cognitive decline without proving a protective effect.
 
-- LLM perspective
-  - View: Shift senior digital literacy from access to self-regulation, default limits, and added friction for infinite scroll.
-  - Impact: Health systems, caregivers, and platforms must address isolation, sleep, and impulse control alongside scams and misinformation.
-  - Watch next: Evidence on screen time versus cognition in seniors; product changes reducing compulsion; etiquette norms for device use in shared spaces.
+### Comment pulse
+
+- Readers report parents who once restricted children’s internet use now compulsively scrolling, sometimes during conversations.
+- Others compare screens with television and books, arguing connected leisure can be valuable when alternatives are limited.
+
+### LLM perspective
+
+- View: Age-based panic obscures the relevant question: whether screen use expands agency or displaces sleep, movement and relationships.
+- Impact: Older users face unusually high financial stakes because entertainment, messaging and banking often share one device.
+- Watch next: Research should separate active social or creative use from passive feeds and establish direction of causation.

@@ -2,15 +2,18 @@
 
 - Score: 75 | [HN](https://news.ycombinator.com/item?id=45703926) | Link: https://tigerbeetle.com/blog/2025-10-25-synadia-and-tigerbeetle-pledge-512k-to-the-zig-software-foundation/#blog-post
 
-- TL;DR
-  - Synadia and TigerBeetle pledged $512k to the Zig Software Foundation over two years. TigerBeetle explains choosing Zig over Rust/C for static allocation, single-threaded design, checked arithmetic, simplicity, and a “safety-as-spectrum” philosophy backed by strong BDFL-led design. Results: heavy fuzzing and a long Jepsen audit without Zig issues; pre-1.0 upgrades improved build speeds; Zig is progressing beyond LLVM. HN weighs Ada/SPARK and certified Rust for formal verification, debates probabilistic safety vs guarantees, and applauds centralized design—plus power-of-two pledge jokes.
+### TL;DR
 
-- Comment pulse
-  - For safety-critical, Ada/SPARK preferred → formal verification tooling and legacy; Rust lacks ecosystem; Zig too new — counterpoint: certified Rust toolchains like Ferrocene are emerging.
-  - Probabilistic safety trade-offs praised → keeps language small and fast while reducing risk; skeptics ask why 90% suffices for correctness.
-  - Committee-led PLs criticized via C++ example → centralized design seen as preserving conceptual integrity; donors still joked about the 512 KiB-style pledge.
+TigerBeetle and Synadia will each donate $256,000 to the Zig Software Foundation over two years, without governance strings. TigerBeetle explains that Zig fit its single-threaded, statically allocated financial database through explicit control, checked arithmetic, low language complexity, cross-compilation, and safety spread across several bug categories. It reports three borrow-checker-preventable bugs caught by extensive fuzzing and verification, plus faster builds after upgrades. Hacker News welcomed the funding but debated whether probabilistic safety is enough, how Zig compares with Rust or Ada/SPARK, and BDFL governance.
 
-- LLM perspective
-  - View: Targeted industry funding de-risks adopting young systems languages and turns them into product differentiators for infra vendors.
-  - Impact: ZSF can retain core maintainers, stabilize APIs, expand docs/tooling, and shorten time-to-1.0 without foundation politics.
-  - Watch next: Zig 0.16/1.0 milestones, compile-time/runtime benchmarks vs LLVM/Rust, broader enterprise adoptions, and any formal-methods integrations.
+### Comment pulse
+
+- TigerBeetle prioritizes whole-system design → local memory safety alone cannot prove distributed correctness across thousands of invariants.
+- Safety tradeoffs remain contested → Zig favors broad checks and simplicity; critics ask why stronger guarantees should be surrendered.
+- Governance can preserve conceptual integrity → counterpoint: concentrating language direction also creates succession and decision risk.
+
+### LLM perspective
+
+- View: The donation is both repayment for production value and a bet that focused language stewardship outperforms committee expansion.
+- Impact: Zig gains sustainable contributor funding, while safety-critical teams receive a prominent but workload-specific adoption case.
+- Watch next: Audit bug history, upgrade costs, certification progress, foundation spending, governance continuity, and post-1.0 stability.

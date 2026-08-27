@@ -2,15 +2,18 @@
 
 - Score: 79 | [HN](https://news.ycombinator.com/item?id=45701884) | Link: https://micahkepe.com/blog/thompson-trojan-horse/
 
-- TL;DR
-  - Ken Thompson’s “Trusting Trust” shows how a C compiler can be “trained” to insert a login backdoor and self-replicate, defeating source audits. This article walks through quines, a “learning” compiler example, the recovered codenih/repronih code path, and the multi-stage bootstrapping that hides evidence; it notes Thompson said it wasn’t distributed and cites defenses like DDC. HN pivots to bootstrappable toolchains (Guix, live-bootstrap) as mitigations, debates how “undetectable” it really is, and clarifies details like “\v” being ASCII 11.
+### TL;DR
 
-- Comment pulse
-  - Start from minimal, auditable seeds → Guix’s 357‑byte seed and live-bootstrap rebuild trust by constructing compilers stepwise from trivial programs.
-  - Backdoor is hard, not impossible, to find → Large compilers resist analysis; avoid compromise via bootstrapping and reproducible builds — counterpoint: “undetectable” was overstated.
-  - History and details matter → Trojan horses predate Thompson by decades; “\v” is ASCII vertical-tab (code 11), not Gödelian encoding.
+Ken Thompson’s “Trusting Trust” attack teaches a compiler to recognize login source and inject a universal-password backdoor, then recognize its own source and reproduce the malicious compiler behavior. After the altered binary is built, clean compiler source still regenerates the compromise, defeating ordinary source review. Thompson reportedly built but did not distribute it. The article reconstructs the mechanism through quines, compiler bootstrapping, and recovered code. Hacker News notes binaries remain inspectable, but favors tiny-source bootstraps and diverse double-compilation over heroic decompilation.
 
-- LLM perspective
-  - View: Treat compilers and build tools as part of the threat model; verify them, not just the sources they process.
-  - Impact: Push mainstream distros toward bootstrappable chains, DDC-verified toolchains, and routinely published, reproducible compiler rebuilds.
-  - Watch next: Public DDC audits of GCC/Clang, minimal bootstrap seeds landing in releases, hardware/firmware attestation linked to reproducible toolchain outputs.
+### Comment pulse
+
+- Source provenance alone is insufficient → a compromised compiler can emit malicious binaries while its visible source remains clean.
+- Minimal bootstrap chains improve auditability → projects such as live-bootstrap and Guix reduce the opaque trusted seed.
+- “Undetectable” is practical, not absolute → intensive binary analysis may find the implant, but compiler complexity favors verification strategies.
+
+### LLM perspective
+
+- View: The enduring lesson is that trust extends through every executable transformation, not merely the reviewed repository.
+- Impact: Reproducible-build and bootstrap projects must account for compilers, assemblers, interpreters, and their ancestry.
+- Watch next: Compare diverse double-compilation, independently built toolchains, binary reproducibility, and minimized bootstrap seeds.

@@ -2,15 +2,18 @@
 
 - Score: 185 | [HN](https://news.ycombinator.com/item?id=45705381) | Link: https://libera.chat/news/advised
 
-- TL;DR
-  - Libera.Chat sought legal advice on the UK Online Safety Act and was told it can reasonably argue it lacks “links to the UK,” so OSA shouldn’t apply. They’re a regulated U2U service, but say they have few UK users relative to the UK population, don’t target the UK, and pose no atypical harm; they’ll maintain safety controls, track UK usage, avoid ID checks, and prepare an Ofcom-facing risk statement. HN debates vague thresholds, selective enforcement, and whether geo-blocking the UK helps or harms.
+### TL;DR
 
-- Comment pulse
-  - OSA vagueness enables selective enforcement → Ofcom can redefine “significant users,” dragging niches in-scope — counterpoint: today, Libera’s risk is low and priorities lie elsewhere.
-  - Geo-block the UK → Deny access to spur backlash against OSA — counterpoint: consumers migrate or VPN; services lose audience and revenue without moving policymakers.
-  - Jurisdictional stance is enough → Being Swedish, minimal UK infrastructure, and small UK user share reduce Ofcom leverage; they’ll engage if contacted.
+Libera.Chat says counsel believes it can reasonably argue the UK Online Safety Act does not apply because, although IRC is a regulated user-to-user service, Libera lacks sufficient UK links: its UK audience is small relative to the country’s online population, Britain is not specifically targeted, and its moderated text network presents no atypical material harm. Enforcement risk is also considered low. Libera will monitor usage, prepare a risk statement, and avoid identity checks. Hacker News welcomed the published analysis but stressed Ofcom’s vague, changeable “significance” threshold.
 
-- LLM perspective
-  - View: Small non-UK services should measure UK usage, avoid UK targeting, and publish readiness memos to deter scope creep.
-  - Impact: Clearer playbook reduces panic blocking, keeping UK developers connected to upstream communities while managing legal risk.
-  - Watch next: Ofcom’s definitions of “significant users,” any cross-border test cases, and ID-verification mandates in draft bills.
+### Comment pulse
+
+- The memo may help niche communities → relative national reach could leave many small, untargeted services outside scope.
+- Legal uncertainty persists → Ofcom retains interpretive latitude and could redefine significance or selectively enforce later.
+- Blanket UK blocking divides operators → advocates want political pressure; critics say users will simply choose accessible competitors.
+
+### LLM perspective
+
+- View: Libera has a defensible case, not a binding exemption; the central risk is discretionary interpretation.
+- Impact: Small foreign communities may preserve UK access without intrusive identification, while budgeting for monitoring and possible legal response.
+- Watch next: Track Ofcom guidance, enforcement precedents, Libera’s risk assessment, UK-user estimates, and any contact from regulators.

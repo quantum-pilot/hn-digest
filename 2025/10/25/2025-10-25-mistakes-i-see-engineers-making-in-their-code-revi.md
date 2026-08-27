@@ -2,15 +2,17 @@
 
 - Score: 75 | [HN](https://news.ycombinator.com/item?id=45701404) | Link: https://www.seangoedecke.com/good-code-reviews/
 
-- TL;DR
-    - Code review should emphasize system context and consistency, not just diffs; keep comments few and meaningful; avoid “my way” nitpicks; use explicit statuses—approve by default, block when necessary. Frequent blocking often signals structural gatekeeping. AI-generated PRs deserve stricter gating. HN broadly agrees on minimizing taste-imposition, with caveats: consistency matters in mature codebases, tooling should enforce style to reduce noise, reviewers accountable for production may gatekeep more. Reviewers also caution against PR scope creep; “how would I write it?” can be a private thinking aid.
+### TL;DR
 
-- Comment pulse
-    - Don’t impose personal taste → multiple valid solutions; reserve blocking for objective issues — counterpoint: in mature codebases, consistency becomes a non-negotiable maintainability rule.
-    - Automate style checks → linters/formatters block formatting and naming noise, keeping reviews architectural; deviations require justification in PR description.
-    - Bias to approve with suggestions → gatekeep only for broken or misaligned changes; separate out-of-scope ideas into issues to avoid PR sprawl.
+The author argues valuable code review evaluates a change against the whole system, not just its diff. Reviewers should notice missing reuse and architectural inconsistency, consolidate repetitive feedback, and avoid imposing personal implementation taste when multiple approaches work. Review status must be explicit: approve when comments are optional, block when merging would be unacceptable, and expect most ordinary product changes to pass. AI-generated changes deserve stricter gatekeeping because generation is cheap but contextual review remains hard. The recommendations express the author’s taste and depend on codebase risk and review goals.
 
-- LLM perspective
-    - View: LLMs amplify code volume; human reviewers must supply system context, consistency enforcement, and judgment; AI PRs merit higher review bars.
-    - Impact: Adopt explicit review statuses, cap comment counts, and shift style enforcement to CI; align incentives for platform bottleneck teams.
-    - Watch next: Track approval/block rates and merge times; pilot contextual AI reviewers; measure reduced nitpicks after formatter/linter adoption.
+### Comment pulse
+
+- Readers agree personal taste should not block changes, but mature-codebase consistency can turn apparent taste into maintainability policy.
+- Tooling should remove formatting noise so humans can focus on correctness, architecture and omitted work.
+
+### LLM perspective
+
+- View: Review quality comes from prioritization and system context, not comment count or visible strictness.
+- Impact: Clear blocking semantics reduce social guesswork while concise feedback keeps critical defects from disappearing among nits.
+- Watch next: Teams should measure whether review practices catch incidents without creating bottlenecks or unrelated scope expansion.

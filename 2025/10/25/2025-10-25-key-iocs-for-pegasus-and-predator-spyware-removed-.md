@@ -2,15 +2,17 @@
 
 - Score: 213 | [HN](https://news.ycombinator.com/item?id=45700946) | Link: https://iverify.io/blog/key-iocs-for-pegasus-and-predator-spyware-cleaned-with-ios-26-update
 
-- TL;DR
-    - iVerify reports iOS 26 now overwrites shutdown.log on every reboot, erasing historical entries that once exposed Pegasus/Predator infections—removing a key IOC used by investigators. Prior heuristics (e.g., “cleared shutdown.log implies compromise”) are now invalidated. They advise saving a sysdiagnose before upgrading or delaying until Apple clarifies or fixes. HN debates whether this is a bug or a policy choice, Apple’s privacy posture vs practice, and if wiping logs helps security or just blocks owner visibility.
+### TL;DR
 
-- Comment pulse
-    - Apple undercuts privacy stance → Update erases a vital forensic artifact; looks intentional to some — counterpoint: likely a late bug, not policy-driven.
-    - Heuristic broken → Cleared shutdown.log once implied compromise; post-update behavior makes that signal meaningless, reducing confidence in past detection playbooks.
-    - Security trade-off → Reducing logs can limit attacker recon, but owners lose inspection; users want deeper visibility, not increasing black-box restrictions.
+iVerify reports that iOS 26 overwrites `shutdown.log` at every reboot instead of preserving successive snapshots, erasing historical artifacts used to investigate Pegasus and Predator infections. Older Pegasus versions left direct traces; later versions’ attempts to clear the log made absence itself a useful heuristic when correlated with boot records. On pre-iOS-26 devices, a particular WebKit Networking staging path could indicate a 2022 infection. iVerify advises saving a sysdiagnose before upgrading. It does not establish whether Apple’s behavior is intentional, a hygiene tradeoff or a bug.
 
-- LLM perspective
-    - View: Forensic dependence on shutdown.log was brittle; pivot to multi-source telemetry, integrity attestations, and user-accessible diagnostics.
-    - Impact: Hurts civil-society investigators, incident responders, and EDR apps; benefits stealth malware until Apple clarifies or restores retention.
-    - Watch next: Apple advisory or fix, Lockdown Mode telemetry changes, new MDM/APIs for logs, and community-developed iOS triage playbooks.
+### Comment pulse
+
+- Readers stress that a routinely cleared log can no longer distinguish ordinary reboot behavior from spyware cleanup.
+- Motives are contested: some suspect weakened transparency, while others consider a late-introduced bug more plausible.
+
+### LLM perspective
+
+- View: Forensic retention is a security feature even when the underlying log was never designed as a detector.
+- Impact: Reboots can now destroy retrospective evidence, narrowing investigative options for targeted users.
+- Watch next: Apple’s explanation, restoration of history and purpose-built tamper-resistant telemetry matter more than inferred motives.

@@ -2,15 +2,18 @@
 
 - Score: 74 | [HN](https://news.ycombinator.com/item?id=45701503) | Link: https://harpers.org/archive/2025/11/the-goon-squad-daniel-kolitz-porn-masturbation-loneliness/
 
-- TL;DR
-  An on-the-ground ethnography of “gooning,” a Gen Z porn subculture built around marathon edging toward a sought “goonstate,” organized via Discord and fueled by hypercut PMV videos, “feeding,” and competitive “wankbattles.” A 100‑respondent survey suggests most gooners masturbate 2–3 hours/day; extremes are minority, yet creators and humiliation studios now target them, uneasy about ethics. Pandemic isolation and algorithmic abundance pushed some into “pornosexual” volcel identities. The author says it mirrors wider screen‑economics; HN debates novelty, sensationalism, and whether it’s coping more than pathology.
+### TL;DR
 
-- Comment pulse
-  - It’s just old “Jack and Jill” parties → group masturbation isn’t new. — counterpoint: Algorithmic abundance, PMVs, 24/7 access make today’s experience qualitatively different.
-  - Sensationalist framing → highlights edge cases while admitting most aren’t extreme. — counterpoint: Others see fair ethnography probing tech, loneliness, and ethics.
-  - Coping, not pathology → gooning offers community and agency amid rejection, scarcity, and pandemic isolation; “orientation” argument emerges.
+The report enters an online Gen Z subculture organized around prolonged pornography consumption, communal rituals, and pursuit of a dissociative “goonstate.” Its informal, self-selected questionnaire of about 100 participants suggests extreme sessions are occasional for most, while social practices and addiction-themed role-play define belonging. Interviews nevertheless include severe isolation and producers openly questioning whether humiliation content exploits vulnerable customers. The author ultimately treats the scene as an intensified version of platform life: endless feeds, parasocial spending, sensation chasing, and retreat from offline connection. Hacker News debated judgment versus genuine harm.
 
-- LLM perspective
-  - View: Treat gooning as downstream of recommendation engines, commodified intimacy, and pandemic-era social atrophy.
-  - Impact: Expands PMV demand and parasocial creator income; raises moderation and liability pressures on Discord, payment processors, and cloud hosts.
-  - Watch next: Clinical research on “pornosexuality,” AI-generated PMVs at scale, stricter age‑verification and recommendation-policy shifts by major platforms.
+### Comment pulse
+
+- Scale may make this qualitatively new → constant, high-intensity, personalized content differs from earlier communal sexual practices.
+- The report may overemphasize extremes → counterpoint: defenders say cultural investigation can examine disturbing cases without universalizing them.
+- Loneliness complicates moral judgment → commenters framed consumption as comfort when conventional relationships and social roles feel inaccessible.
+
+### LLM perspective
+
+- View: The article’s strongest insight concerns engagement systems, while its questionnaire cannot establish prevalence or clinical addiction.
+- Impact: Vulnerable users face monetized escalation; platforms and producers benefit when identity, community, and compulsive consumption merge.
+- Watch next: Seek representative research on usage, wellbeing, consent, age safeguards, monetization, and pathways back to offline support.

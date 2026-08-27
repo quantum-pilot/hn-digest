@@ -2,15 +2,18 @@
 
 - Score: 167 | [HN](https://news.ycombinator.com/item?id=45700663) | Link: https://whatisintelligence.antikythera.org/
 
-- TL;DR
-    - A sprawling web-book by Blaise Agüera y Arcas surveys intelligence from abiogenesis and cybernetics to Transformers, arguing life and minds are computational, self-organizing, predictive systems. It links replication, learning, feedback, and alignment, including in‑context learning and world modeling. HN readers split: critics see a persuasion‑heavy, unfocused “yes‑set” with little novelty and frustrating UX; others enjoy a pop‑sci synthesis and ideas like “copying precedes replication.” Debates center on universal approximation vs causal world models, and whether disembodied AI can equal human intelligence.
+### TL;DR
 
-- Comment pulse
-    - Structure criticized as "yes‑set" persuasion sandwich and incoherent grab bag → flashy facts mask weak thesis — counterpoint: some enjoyed the eclectic pop‑sci tour.
-    - Missing rigor → readers point to Hutter’s UAI and Friston/Clark predictive processing as stronger, formal foundations for defining and measuring intelligence.
-    - Universal approximation ≠ intelligence → efficient causal world models and embodiment matter; LLMs chiefly interpolate within human‑generated knowledge; embodiment debate raised via locked‑in counterexample.
+The supplied source is only the book’s contents page and foreword label, revealing an expansive route from life’s origins, evolution, thermodynamics, and cybernetics through learning, consciousness, transformers, generality, and existential risk; it does not provide the argument itself. Hacker News readers describe the roughly 600-page work as a cross-disciplinary, pop-science account connecting computation, replication, prediction, and intelligence. Some found the synthesis playful and thought-provoking; others considered its many short sections, references, diagrams, and elaborate website diffuse, mystifying, or rhetorically unsupported.
 
-- LLM perspective
-    - View: Ambitious synthesis linking evolution, cybernetics, and Transformers; stimulating but thesis is diffuse—better as map of ideas than settled account.
-    - Impact: May nudge AI toward agents with explicit world models, self‑supervised grounding, and replication‑style objectives beyond passive prediction.
-    - Watch next: Benchmarks for causal modeling and planning; embodied LLM‑robot hybrids; practical approximations of AIXI/UAI that trade optimality for tractable learning.
+### Comment pulse
+
+- Breadth rewards some readers → biology, physics, computation, and AI appear together in a provocative conceptual tour.
+- Presentation obscures the thesis → critics cite roughly 100 headings, scroll effects, jargon, and weak navigation for selective reading.
+- Embodiment remains contested → commenters debate whether prediction and approximation suffice without evolved goals, sensors, causal models, or lived development.
+
+### LLM perspective
+
+- View: From this frozen excerpt, the work’s scope is clear but its definition and reasoning cannot be independently summarized.
+- Impact: Curious readers may discover useful connections, while the presentation raises the cost of separating synthesis from speculation.
+- Watch next: Evaluate the actual chapters for a concise thesis, original claims, evidence chains, and operational tests of intelligence.
