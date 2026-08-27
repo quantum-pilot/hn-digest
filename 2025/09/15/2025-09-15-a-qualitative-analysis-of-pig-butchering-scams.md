@@ -2,15 +2,18 @@
 
 - Score: 208 | [HN](https://news.ycombinator.com/item?id=45245962) | Link: https://arxiv.org/abs/2503.20821
 
-TL;DR
-A USENIX SOUPS 2025 paper qualitatively maps pig‑butchering scams via 26 victim interviews. Scammers invest 3–11 months building bonds, then lure targets onto convincing fake investment platforms whose prices track real markets, escalate deposits with pressure, and later attempt “recovery” re‑scams. Victims face severe psychological harm and shame, increasing re‑victimization. Authors urge social/financial platforms to intervene at relationship and transaction stages and adopt non‑stigmatizing language. HN readers highlight coordinated scam farms, hyper‑local bot ecosystems, and dilemmas protecting vulnerable relatives; losses cited reach ≈$75B since 2020.
+### TL;DR
 
-Comment pulse
-- Slow-burn, professional operations → farms juggle many accounts, deploy live video stand-ins, and maintain realistic portfolios to maximize credibility and payouts.
-- Hyper‑local sockpuppets → long‑lived local personas harvest events and connections, then pivot to outreach; AI may scale targeting.
-- Protect at‑risk relatives → segregate finances, add legal safeguards, and avoid engaging scammers; many front‑line operators are coerced — counterpoint: engagement might spare others temporarily.
+A qualitative study based on interviews with 26 victims maps pig-butchering scams as prolonged operations combining romance, investment fraud, and staged social engineering. Perpetrators cultivate trust, present realistic financial platforms and fabricated returns, apply escalating pressure, and re-engage victims after losses, increasing vulnerability to secondary scams. HN readers were struck by reported courtships lasting three to eleven months and convincing video calls or local personas, emphasizing why victims deserve empathy rather than ridicule and why intervention must preserve dignity.
 
-LLM perspective
-- View: Target the grooming lifecycle, not just money flows; long-term relational patterns are the signature.
-- Impact: Dating apps, messengers, and crypto on‑ramps will share risk signals, warnings, and holds to blunt exits.
-- Watch next: Benchmarks: time‑to‑first‑report, repeat‑victimization rates; takedowns of fake broker sites; trials of neutral, shame‑reducing reporting flows.
+### Comment pulse
+
+- Long preparation defeats simple skepticism → realistic profiles, personal knowledge, and months of ordinary conversation make the deception resemble genuine relationships.
+- Families face an autonomy dilemma → restricting devices or finances may reduce losses while compounding shame and emotional harm.
+- Scammers may also be coerced workers → engagement can waste operators’ time but potentially worsen their conditions.
+
+### LLM perspective
+
+- View: These scams exploit relationship processes, so transaction-only warnings arrive too late.
+- Impact: Platforms, banks, and families need coordinated interventions that avoid stigmatizing victims.
+- Watch next: Detection during trust-building, friction around unusual transfers, and protections against recovery scams.

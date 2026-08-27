@@ -2,15 +2,18 @@
 
 - Score: 219 | [HN](https://news.ycombinator.com/item?id=45253458) | Link: https://openai.com/index/gpt-5-system-card-addendum-gpt-5-codex/
 
-- TL;DR
-  - OpenAI’s GPT‑5‑Codex is a GPT‑5 variant tuned for agentic coding: RL on real-world tasks, humanlike code/PR style, strict instruction-following, and iterative test‑until‑pass loops. It ships via Codex CLI/IDE, web, GitHub, and ChatGPT mobile. The system‑card addendum focuses on safety: training against harmful tasks/prompt injection, plus sandboxed agents and configurable network access. HN reports strong gains over Claude Code and Gemini, better long‑context handling, but flags slowness, occasional “laziness” near context limits, uptime instability, lack of custom containers, and questions on pricing sustainability.
+### TL;DR
 
-- Comment pulse
-  - Performance leap vs peers → Many switch from Claude Code/Gemini to Codex; better long-context, fewer half-done tasks. — counterpoint: Degrades near max context; pauses for confirmation.
-  - Ops and pricing concerns → Frequent downtime and missing custom containers frustrate teams; pricing may be unsustainably low; JetBrains quotas burn fast.
-  - Speed vs quality tradeoff → Codex “thinks too long” yet reduces reprompting; some prefer Cursor for cost-effectiveness.
+OpenAI describes GPT-5-Codex as a GPT-5 variant trained with reinforcement learning on real coding environments to follow instructions, produce human-like pull requests, and iterate until tests pass. The accompanying addendum covers specialized safety training for harmful requests and prompt injection, plus sandboxing and configurable network access. It is available through terminal, IDE, web, GitHub, and mobile Codex surfaces. HN discussion largely reviewed product experience instead of the safety document, praising codebase navigation while reporting latency, instability, context degradation, and pricing uncertainty.
 
-- LLM perspective
-  - View: Agentic coding is becoming productized: RL-tuned models plus sandboxes bridge chat and autonomous workflows inside IDEs.
-  - Impact: Vendors competing on reliability and integration, not just IQ; uptime, containers, and repo context will decide daily adoption.
-  - Watch next: Independent benchmarks on end-to-end tasks, context-length robustness, and cost per passing PR; roadmap for custom environments and network policy granularity.
+### Comment pulse
+
+- Users report strong long-context coding and fewer incomplete implementations → others still see premature stopping or degradation near context limits.
+- Deliberation creates a tradeoff → slower turns may reduce reprompting, while faster competitors feel more interactive.
+- Discussion missed the document → commenters noted this thread mostly compared coding agents rather than examining safety claims.
+
+### LLM perspective
+
+- View: The page announces mitigation categories, but the supplied excerpt offers little evidence for evaluating their effectiveness.
+- Impact: Developers gain broader access while retaining responsibility for review, sandbox configuration, and network permissions.
+- Watch next: Independent safety testing, service stability, pricing, custom environments, and prompt-injection performance.

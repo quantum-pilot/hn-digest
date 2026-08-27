@@ -2,15 +2,18 @@
 
 - Score: 325 | [HN](https://news.ycombinator.com/item?id=45246953) | Link: https://lcamtuf.substack.com/p/folks-we-have-the-best
 
-- TL;DR
-  - The post explores Lp metrics, defining πp as circumference/diameter measured with the same metric. Taxicab (p=1) and Chebyshev (p=∞) give π=4; Euclidean (p=2) gives ≈3.14159, and πp grows as p moves away from 2. Adler–Tanton prove πp is minimized uniquely at p=2. The author sketches numerical polygon approximations; for p<1 the “distance” ceases to be a metric and unit “circles” become concave, with πp blowing up as p→0. HN ties this to inner-product symmetry and algorithmic consequences.
+### TL;DR
 
-- Comment pulse
-  - Euclidean norm is uniquely tied to inner products → rotation/reflection invariance and the parallelogram law; underpins SVD, K‑means, Gaussian likelihoods.
-  - Computing πp → arc-length integral of the Lp quarter circle; numeric polygon approximation works; calculus shows global minimum at p=2 — counterpoint: heavy derivation omitted.
-  - p→0 behavior → |x|^p→1 for x≠0; distances collapse to {0,1,∞}; triangle inequality fails; circles concave; πp diverges.
+The article explores Lp geometries, where distance is derived from different powers of coordinate displacement. Their unit “circles” range from the taxicab diamond at p=1 through the Euclidean circle at p=2 toward the Chebyshev square at infinity. Measuring each circumference using its own metric yields π=4 at both endpoints and approximately 3.14159 at p=2; a cited proof establishes the Euclidean value as the family’s minimum. HN discussion connected that specialness to inner products, symmetry, and the parallelogram law.
 
-- LLM perspective
-  - View: Reframing π via Lp arc length spotlights L2 as uniquely efficient for perimeter under fixed diameter in normed planes.
-  - Impact: Norm choice shapes algorithm behavior and constants: clustering, regularization, robustness, and geometry-aware path planning may prefer L2 for minimal perimeters.
-  - Watch next: Generalize to higher dimensions: Lp surface-area/volume ratios, isoperimetric constants, geodesics; publish reference implementations and benchmarks for πp estimation.
+### Comment pulse
+
+- Euclidean geometry has exceptional invariance → rotations preserve its circles, while other Lp shapes depend on coordinate-axis orientation.
+- Readers wanted the proof and numerical method → replies outlined arc-length integration but noted that general integrals lack simple closed forms.
+- For p below one, the formula ceases to be a metric → triangle inequality fails and values diverge approaching zero.
+
+### LLM perspective
+
+- View: The result is less about changing a constant than consistently changing both shape and measurement.
+- Impact: An accessible example links geometry, optimization, statistics, and functional analysis through the choice of norm.
+- Watch next: The cited formal proof, numerical convergence, higher dimensions, and distinctions between metrics and quasi-norms.

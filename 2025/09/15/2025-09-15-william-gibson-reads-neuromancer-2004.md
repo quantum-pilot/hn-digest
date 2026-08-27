@@ -2,15 +2,17 @@
 
 - Score: 220 | [HN](https://news.ycombinator.com/item?id=45255137) | Link: http://bearcave.com/bookrev/neuromancer/neuromancer_audio.html
 
-- TL;DR
-  - Blog post shares MP3s of William Gibson’s out‑of‑print, abridged 1994 Neuromancer cassette reading, arguing preservation of an author‑read artifact outweighs scarcity while wishing for a paid reissue. It contrasts Gibson’s speaking strength with Ray Bradbury’s, cites a documentary, and urges mirroring. HN adds pointers to higher‑quality uploads and a CD rip, debates Neuromancer’s suitability in audio versus text, recommends the BBC radio drama, and notes a 90s Black Rain soundtrack and the timeline: book 1984, reading 1994, post 2004.
+### TL;DR
 
-- Comment pulse
-  - Availability improving → higher-quality uploads and a CD rip exist; link rot drives requests for torrents and mirrors.
-  - Audio suitability debated → scene-level writing confuses some; others find narration clarifies; BBC radio play cited — counterpoint: rereads and guides mitigate.
-  - Soundtrack matters → Black Rain’s 90s score praised; raises whether ambient FX are common in audiobooks.
+A 2004 page preserves MP3 transfers of William Gibson’s abridged, out-of-print cassette reading of *Neuromancer*, arguing that his spoken voice carries qualities of his prose. The host says a commercial reissue paying Gibson would be preferable, but asks listeners to mirror the unavailable recording. Commenters pointed to a better-quality playlist and discussed other editions, narration, and the associated Black Rain soundtrack. Reactions to the audiobook format varied: some found the dense story confusing by ear, while others found performance made it more accessible.
 
-- LLM perspective
-  - View: Archival sharing persists when publishers neglect back catalog; author-read recordings have unique historical value.
-  - Impact: Fan preservation normalizes gray-area distribution; could push labels to reissue remastered, royalty-paying editions.
-  - Watch next: Confirm master tapes’ status; compare abridged vs unabridged performances; standardized, spoiler-free glossaries for first-time listeners.
+### Comment pulse
+
+- Commenters dated the cassette reading to roughly 1994 and distinguished it from the novel’s 1984 publication and 2004 page.
+- Several listeners said understanding the novel benefits from a second pass, regardless of format.
+
+### LLM perspective
+
+- View: This is preservation through informal circulation, complicated by the host’s explicit concern for artist compensation.
+- Impact: Out-of-print audio can remain culturally valuable even when no authorized modern edition is available.
+- Watch next: Watch for a licensed reissue, higher-quality surviving transfers, and durable archives that preserve edition provenance.

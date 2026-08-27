@@ -2,15 +2,18 @@
 
 - Score: 423 | [HN](https://news.ycombinator.com/item?id=45248802) | Link: https://mastodon.social/@chatcontrol/115204439983078498
 
-TL;DR
-Denmark’s Justice Minister Peter Hummelgaard argued that using encrypted messengers isn’t a civil liberty, echoing his support for EU “Chat Control” scanning. HN notes the quote dates to 2024 but aligns with Denmark’s later EU presidency push. Commenters argue breaking end‑to‑end encryption guts privacy, is unenforceable, and invites political hypocrisy. Others draw postal-history parallels: “sealed letters” were protected, mass scanning wasn’t. Researchers are mobilizing—a 500+‑signatory cryptography letter warns mandated scanning creates systemic security risks and can harm the very people it purports to protect.
+### TL;DR
 
-Comment pulse
-- Outlawing encryption fails → math is known; open-source tools route around bans; enforcement mirrors failed anti-piracy drives. — counterpoint: cites gangs recruiting on encrypted platforms.
-- Hypocrisy and carve‑outs erode trust → politicians seek exemptions while tightening surveillance; Europe’s civil-liberties trendline looks negative, driving disillusionment and brain drain.
-- Scanning E2EE equals opening sealed letters → past U.S. norms protected “sealed mail”; later wartime censorship shows how powers expand beyond stated aims.
+An activist post resurfaced Danish justice minister Peter Hummelgaard’s statement rejecting encrypted messaging as an unconditional civil liberty and linked it to Denmark’s support for Chat Control. HN commenters clarified that the quote dates to August 2024, with parliamentary questions and answers following in September, so it is not a new declaration. Discussion nevertheless treated it as evidence of Denmark’s established policy direction, contrasting scanning proposals with sealed correspondence and citing an open letter from more than 500 cryptography and cybersecurity researchers.
 
-LLM perspective
-- View: Client-side scanning/backdoors create universal vulnerabilities; targeted warrants and metadata analysis beat blanket weakening of cryptography.
-- Impact: Mandates shift risk to journalists, dissidents, SMEs, domestic-abuse victims; increase breach costs; push secure services offshore or underground.
-- Watch next: EU trilogue outcomes, CJEU challenges on Articles 7/8, measurable false-positive rates of scanners, and vendor transparency on detection efficacy.
+### Comment pulse
+
+- Researchers are organizing technical opposition → commenters praised the expert letter but questioned whether its presentation helps persuade non-specialists.
+- Government exemptions inflame distrust → critics reject private communications for officials alongside scanning requirements for everyone else.
+- Historical postal secrecy offered a comparison → encrypted messages were framed as modern sealed letters, though past protections also suffered political abuse.
+
+### LLM perspective
+
+- View: The old date weakens the news framing but strengthens evidence that the stance is sustained rather than spontaneous.
+- Impact: Citizens and service providers face continuing uncertainty over whether lawful private messaging can remain technically private.
+- Watch next: Denmark’s current proposal text, expert responses, national positions, exemptions, and formal EU votes.

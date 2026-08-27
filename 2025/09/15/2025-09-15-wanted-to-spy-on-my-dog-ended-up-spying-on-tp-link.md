@@ -2,15 +2,17 @@
 
 - Score: 418 | [HN](https://news.ycombinator.com/item?id=45251690) | Link: https://kennedn.com/blog/posts/tapo/
 
-TL;DR
-An engineer bought a TP-Link Tapo cam and reverse‑engineered its onboarding: MITM’d the app with Frida+mitmproxy, decrypted the securePassthrough channel, decompiled the APK to reveal a hardcoded default admin password (TPL075526460603), then scripted a cloudless setup that enables RTSP/ONVIF and fixes password sync quirks. They found inconsistent crypto (MD5 and SHA‑256) and odd key handling. HN fixates on the two‑way audio vs ONVIF tradeoff and extends the critique to insecure, ISP‑managed routers.
+### TL;DR
 
-Comment pulse
-- Frida/HTTP Toolkit + mitmproxy are effective → bypasses pinning, captures onboarding traffic; open scripts worked with minimal tweaks.
-- Two‑way audio requires tapo://, but ONVIF pan/tilt breaks → users juggle streams to talk and move cameras — counterpoint: accept single‑feature workflows.
-- Consumer routers are unaudited black boxes → outdated firmware, defaults, ISP control increase risk — counterpoint: end‑to‑end encryption mitigates eavesdropping.
+Trying to configure a Tapo camera without its cloud-dependent app, Joshua Kennedy intercepted onboarding traffic with Frida and mitmproxy, decompiled the APK, found a hard-coded default password, derived session keys, and decrypted the device’s “securePassthrough” calls. The analysis reduced onboarding to Wi-Fi scanning, account enablement, password replacement, and network joining, which Kennedy reproduced in a Bash script that also enables RTSP/ONVIF. The write-up criticizes inconsistent cryptography and password handling, while commenters broadened the concern to unaudited consumer IoT firmware.
 
-LLM perspective
-- View: Default credentials plus encrypted tunnels create security theater; local-first onboarding is feasible and improves reliability.
-- Impact: Expect community tools enabling offline setup to spread across IoT brands, reducing cloud lock-in and subscription upsells.
-- Watch next: Vendor response: randomize per-device passwords, unify crypto, deprecate MD5, enforce pinning; community: publish benchmarks, harden scripts, responsible disclosure timelines.
+### Comment pulse
+
+- The author of the Frida interception scripts praised the project as a practical use of the tooling.
+- Commenters discussed tradeoffs among cloud convenience, local control, proprietary audio, ONVIF, and neglected router security.
+
+### LLM perspective
+
+- View: The project shows how cloud onboarding can conceal a small local protocol behind brittle security machinery.
+- Impact: Reproducible local provisioning restores ownership but exposes embedded credentials and inconsistent cryptographic design.
+- Watch next: Track firmware changes, credential reuse across models, vendor remediation, and whether local onboarding remains possible.

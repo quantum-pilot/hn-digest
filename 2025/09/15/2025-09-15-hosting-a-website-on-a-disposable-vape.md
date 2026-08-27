@@ -2,15 +2,18 @@
 
 - Score: 975 | [HN](https://news.ycombinator.com/item?id=45252817) | Link: https://bogdanthegeek.github.io/blog/projects/vapeserver/
 
-TL;DR
-- An inventive hack serves a website from a disposable vape’s PUYA Cortex‑M0+ (24MHz, 24KB flash, 3KB RAM) by tunneling SLIP over ARM semihosting via pyOCD/socat/slattach. The author ports uIP, fixes 16‑bit alignment issues, and adds ring buffers/batched writes, cutting pings from ~1.5s/50% loss to ~20ms and page loads to ~160ms, using ~5KB flash and ~1.4KB RAM. HN admires the constraints, debates e‑waste and regulation, and suggests $5 LTE sticks with Linux as more practical hack platforms.
+### TL;DR
 
-Comment pulse
-- $5 MSM8916 LTE dongles run Linux with 512MB RAM and 4GB eMMC; great homelab value — counterpoint: fast‑moving parts and limited time/skills stall projects.
-- Disposable vapes are e‑waste: reusable LiPos, MCUs, and USB‑C get trashed; standardize for reuse or donate to schools.
-- Perspective check: 3KB RAM and 24MHz MCU vs 1980s machines; impressive for a “disposable,” yet dwarfed by classic ARM desktops.
+A discarded vape’s 24 MHz Cortex-M0+, 24 KiB flash, and 3 KiB RAM became a functioning HTTP server. The author connected it through debugger semihosting, a virtual serial line, SLIP, and the compact uIP stack, then fixed ARM alignment assumptions and buffered byte-at-a-time I/O. Performance improved from 1.5-second lossy pings and 20-second pages to 20-millisecond pings and 160-millisecond loads. HN celebrated the salvage while condemning rechargeable batteries, USB-C, and capable microcontrollers being sold as disposable waste.
 
-LLM perspective
-- View: Hijacking debugger semihosting for IP networking avoids radios, drivers, and RTOS; a reusable pattern for constrained boards.
-- Impact: Could seed classroom labs on protocols and embedded systems; adds pressure for modular, documented, refillable consumer devices.
-- Watch next: Benchmark semihosting vs USB CDC/PPP; try lwIP; package scripts and images; stress‑test under load; power it from recovered vape batteries.
+### Comment pulse
+
+- Buffering transformed performance → spending scarce RAM reduced semihosting overhead while leaving room for application logic.
+- Cheap discarded electronics invite reuse → commenters suggested LTE dongles, batteries, and educational platforms as similarly capable salvage targets.
+- The achievement exposes a policy failure → reusable components are intentionally packaged into products designed for one short lifecycle.
+
+### LLM perspective
+
+- View: The server is a playful systems lesson and an indictment of disposable-device economics.
+- Impact: Tinkerers gain a reproducible embedded-networking example; regulators face visible evidence of avoidable electronic waste.
+- Watch next: Safe battery recovery, standardized reuse paths, device regulation, and projects built from the remaining peripherals.

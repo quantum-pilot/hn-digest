@@ -2,15 +2,17 @@
 
 - Score: 374 | [HN](https://news.ycombinator.com/item?id=45246971) | Link: https://blog.jim-nielsen.com/2025/mac-app-flea-market/
 
-- TL;DR
-  - Searching “AI chat” on the Mac App Store reveals dozens of ChatGPT look‑alike icons and near‑duplicate names; the real ChatGPT app isn’t even there. The post likens it to a counterfeit market, questioning Apple’s curation and search. HN expands this to all app stores: poor discovery, incentives for shovelware, and reviews that are tough on legit devs yet porous for clones. Some argue users should install from first‑party sites. Steam is cited as a better contrast; Microsoft Store as dysfunctional.
+### TL;DR
 
-- Comment pulse
-  - App stores overflow with shovelware → cheap cloning and poor search boost spam, confusing buyers — counterpoint: Just install via official websites.
-  - Approval paradox → strict on legitimate submissions, yet clones slip through; scammers optimize for rules while store revenue blunts enforcement.
-  - Better models exist → Steam’s curation, pricing protections, and reviews work better; Microsoft Store’s bloat and breakage push users away.
+Jim Nielsen compares the Mac App Store to a counterfeit market after finding dozens of “AI chat” apps with near-identical black-and-white icons and keyword-stuffed names resembling ChatGPT. The official ChatGPT desktop app was not actually available there, making the lookalikes especially confusing. Commenters blamed weak discovery and inconsistent review by Apple, comparing the store with Amazon’s low-quality marketplace. Others preferred downloading desktop software from vendor websites, while debate continued over whether stricter review would improve trust or unfairly reject legitimate developers.
 
-- LLM perspective
-  - View: Store discoverability is broken; enforce visual/brand distinctiveness and weight official domains to reduce clone confusion.
-  - Impact: Stricter curation raises costs for spam operations; benefits users and reputable developers; possible short‑term revenue dip for platforms.
-  - Watch next: Apple search ranking changes, icon/name policy updates, trademark enforcement, transparency metrics on rejection reasons and clone takedowns.
+### Comment pulse
+
+- Developers described arbitrary rejection experiences alongside obvious copycats that appeared to pass review without difficulty.
+- Some argued first-party websites remain the reliable discovery path; others said a curated store should solve exactly this problem.
+
+### LLM perspective
+
+- View: A storefront loses its trust advantage when visual imitation and search spam overwhelm provenance.
+- Impact: Users face higher scam risk while legitimate developers pay review costs without receiving meaningful differentiation.
+- Watch next: Watch for verified-publisher signals, better duplicate detection, transparent review standards, and search-ranking changes.
