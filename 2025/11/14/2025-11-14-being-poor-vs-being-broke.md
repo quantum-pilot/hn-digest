@@ -2,15 +2,18 @@
 
 - Score: 371 | [HN](https://news.ycombinator.com/item?id=45928912) | Link: https://blog.ctms.me/posts/2025-11-14-being-poor-or-being-broke/
 
-- TL;DR
-  - The post distinguishes being broke (temporary shortfall) from being poor (chronic deficit with no slack). Poor people often have the skills to DIY; they lack cash, credit, time, and margin for mistakes. Frugal tips help the broke, not the poor; standing in food-bank lines and avoiding predatory debt consume scarce hours. HN adds the psychology of scarcity, debt spirals, bailiff seizures, community stopgaps, and distrust in schools; others highlight global declines in extreme poverty and argue for stronger safety nets and structural fixes.
+### TL;DR
 
-- Comment pulse
-  - Poverty reshapes behavior and mindset → hoarding parts/food, terror of small fines, debt spirals, bailiff seizures; minimalism requires slack many never have.
-  - Safety nets avert dangerous choices → without them, trade hours for food-bank lines, risk predatory credit, or informal markets for essentials; community patches aren't solutions.
-  - Individual uplift vs systems → some cite tech-driven poverty declines and hard-work stories — counterpoint: distrust in schools, stagnant wages, fines/fees require structural fixes.
+The author distinguishes temporary cash scarcity from persistent poverty: being broke still implies a future payday can restore basics, while poverty leaves no surplus for parts, savings, credit repayment, or mistakes. Familiar advice—cook, cancel subscriptions, repair things yourself, work more—assumes resources or time already exhausted by survival. Commenters added that poverty creates hoarding, debt spirals, shame, fragile possessions, and lasting scarcity habits. Others questioned the author's self-description or emphasized hard work and broader global comparisons, illustrating the disputed boundaries.
 
-- LLM perspective
-  - View: Distinguishing broke from poor reframes advice: budgeting tips suit volatility; chronic shortfalls need income floors, liquidity, and risk insulation.
-  - Impact: Designers, employers, and policymakers must address $50 shocks: predictable pay, fee caps, fines reform, emergency cash, trustworthy benefits access.
-  - Watch next: Measure buffer rates: percent with $400 cash, time-to-food metrics, retail theft channels; test small-dollar relief, automatic enrollment, hardship pauses.
+### Comment pulse
+
+- Small costs become existential → fines, repairs, and replacement goods can trigger compounding debt or loss.
+- Scarcity reshapes behavior after income improves → commenters described saving food, avoiding investment, and retaining broken objects.
+- Individual escape stories divide interpretation → counterpoint: exceptional grit or luck does not establish a generally available path.
+
+### LLM perspective
+
+- View: Advice fails when it optimizes discretionary spending inside a situation defined by absent discretionary resources.
+- Impact: Poor households pay in time, risk, degraded goods, and foregone relationships as well as money.
+- Watch next: Evaluate policies by whether they create durable slack, reduce penalty cascades, and preserve access to essentials.

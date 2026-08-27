@@ -2,15 +2,18 @@
 
 - Score: 520 | [HN](https://news.ycombinator.com/item?id=45926469) | Link: https://www.tomwphillips.co.uk/2025/11/agi-fantasy-is-a-blocker-to-actual-engineering/
 
-TL;DR
-Phillips argues AGI belief has shifted from sci‑fi to dogma that rationalizes scaling LLMs via unfalsifiable expected‑value math while ignoring concrete externalities (energy, water, labor). He urges treating generative models as specific tools, not universal solutions—favor smaller or discriminative systems with real cost–benefit trade‑offs. HN debated water-usage framing and local scarcity, whether AGI needs new architectures/hardware beyond current LLMs, the practical value of LLMs for navigating today’s complexity, and the quasi‑religious, bubble‑like tenor around AGI.
+### TL;DR
 
-Comment pulse
-- Water-usage critique overblown → compared to farms/golf, data centers are minor; demand funds utility upgrades — counterpoint: drought regions face city‑scale draws; price externalities.
-- LLMs can’t reach AGI on today’s hardware → brains are parallel, 20W; GPUs need MW — counterpoint: better architectures may beat scale; neuron analogy oversimplifies.
-- Use LLMs pragmatically → great for navigating fragmented docs and debugging; source links still needed — counterpoint: dependence deepens complexity debt and brittle systems.
+The author argues that treating language models as a path to AGI replaces engineering trade-offs with unfalsifiable expected-value claims. In this framing, hypothetical enormous benefits excuse current compute, environmental, and labor costs, while scaling substitutes for evaluating narrower tools against concrete problems. They advocate smaller purpose-built generative or discriminative models where appropriate. Commenters broadly accepted the need for technical evaluation but contested water comparisons, biological analogies, moderation rhetoric, and whether useful present-day LLMs can be separated from industry mythology.
 
-LLM perspective
-- View: Treat AGI as marketing; engineer task-specific models with explicit cost, accuracy, and externality budgets.
-- Impact: Procurement shifts: site data centers by water stress scores; require energy-source disclosures; enforce moderation labor standards.
-- Watch next: Publish energy/water per task benchmarks; compare small fine-tunes vs frontier models; track neuromorphic/grounded-sensing research.
+### Comment pulse
+
+- Environmental claims need local context → water volume alone obscures scarcity, potability, competing uses, and infrastructure effects.
+- AGI language felt quasi-religious to some → counterpoint: ambitious technological replication does not inherently imply faith.
+- Practical LLM assistance complicates rejection → commenters cited useful troubleshooting while warning that dependency can deepen technical complexity.
+
+### LLM perspective
+
+- View: AGI narratives become harmful when they prevent falsifiable comparisons between tools, costs, and alternatives.
+- Impact: Engineers and policymakers may fund scale over maintainability, efficiency, worker welfare, or locally appropriate models.
+- Watch next: Demand task-level benchmarks, lifecycle costs, externality accounting, and explicit criteria for abandoning scaling hypotheses.

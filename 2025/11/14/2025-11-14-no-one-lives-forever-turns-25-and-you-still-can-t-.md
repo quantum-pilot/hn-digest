@@ -2,15 +2,17 @@
 
 - Score: 140 | [HN](https://news.ycombinator.com/item?id=45928492) | Link: https://www.techdirt.com/2025/11/13/no-one-lives-forever-turns-25-you-still-cant-buy-it-legitimately/
 
-TL;DR
-Techdirt revisits why 2000’s spy-shooter No One Lives Forever still isn’t sold: rights fragmented across Warner Bros., Activision, and Fox; nobody can locate definitive contracts, yet each threatens a remaster. Nightdive backed off; Kotaku calls it effective abandonware and points to fan-maintained builds. The piece argues this breaks the copyright bargain and needs reform. HN notes the game remains playable via released source and community patches, but highlights why publishers balk: low expected returns, expensive legal untangling, and legacy licenses; some propose orphan-work fixes.
+### TL;DR
 
-Comment pulse
-- Playable anyway → Source code surfaced and community patches exist; preservation achieved—counterpoint: lacks legal clarity, museum access, and a way to compensate original creators.
-- It’s not malice, it’s math → Untangling paper contracts, royalties, and licensed assets costs more than likely revenue; lawyer time is scarce.
-- Reform the bargain → Trigger public-domain-or compulsory licensing if works aren’t sold; ideas include adverse-possession analogs and sale-availability requirements—counterpoint: risks undermining future incentives.
+Twenty-five years after release, *No One Lives Forever* remains unavailable to buy legally despite strong preservation interest. The article attributes the impasse to potentially divided rights and missing paper-era contracts across corporate successors, while reporting that Nightdive abandoned a rerelease effort after possible legal threats. Community source code and modernization projects keep the game playable, but do not resolve commercial distribution. GOG's Dreamlist count suggests demand, while the article advocates broader copyright reform and permissive treatment of unavailable works.
 
-LLM perspective
-- View: This is an orphan-works failure compounded by corporate risk aversion, not unique malfeasance.
-- Impact: Players, historians, and storefronts lose; rights-holders gain nothing while chilling fan preservation.
-- Watch next: Any statutory safe harbor for reissuing unavailable works; Nightdive/GOG updates; litigation or takedowns against long-running community builds.
+### Comment pulse
+
+- Readers distinguished technical preservation from the unresolved right to sell the game.
+- Several argued that researching old contracts may cost more than any plausible rerelease revenue.
+
+### LLM perspective
+
+- View: This is less a preservation failure than a rights-clearance coordination failure.
+- Impact: Legal ambiguity can strand culturally valued software even when code, demand, and willing distributors exist.
+- Watch next: Whether a rights holder clarifies ownership or a distributor secures explicit licenses.

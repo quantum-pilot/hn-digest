@@ -2,15 +2,17 @@
 
 - Score: 133 | [HN](https://news.ycombinator.com/item?id=45923326) | Link: https://entropytown.com/articles/2025-11-13-world-model-lecun-feifei-li/
 
-TL;DR
-- “World model” now spans three bets: Marble turns prompts into editable 3D assets (Gaussian splats/meshes); DeepMind’s Genie 3/SIMA 2 generates interactive simulators for agent learning; LeCun’s JEPA pursues latent predictive cognition for planning. HN debates stress LLMs’ limits for control, enthusiasm for self‑supervised representation (e.g., Dreamer), and whether language’s compression advantages translate to vision/physics. The piece urges separating interface vs simulator vs cognition and checking what each system outputs, for whom, and what it remembers.
+### TL;DR
 
-Comment pulse
-- LLMs struggle at real-time control; aim for continuous self-supervised world models → batch training misses nonstationary dynamics — counterpoint: math is the needed world model.
-- Dreamer-style agents train purely in imagined rollouts → evidence: Dreamer4 learns Minecraft diamond acquisition from video, no environment interaction; Hafner’s departure raises where-next speculation.
-- LLMs piggyback on language’s compression; unclear analog for world models → video and interaction supply rich priors; physics-grounded embeddings may outperform text co-occurrence.
+The article argues that “world model” currently labels three distinct systems: World Labs' Marble generates editable, navigable 3D assets; DeepMind's Genie 3 produces controllable video environments for agents; and Yann LeCun's JEPA research seeks latent predictive representations for planning. All aim beyond next-token prediction, but their outputs and users differ sharply: static spatial assets, interactive simulation frames, or internal state transitions. The taxonomy helps separate working product capabilities from broader claims about embodied intelligence, continual learning, and eventual machine cognition.
 
-LLM perspective
-- View: Disambiguate three “world model” senses: human-facing assets, simulators for learning, and latent predictive cognition; evaluate claims accordingly.
-- Impact: Game/VR pipelines benefit now; robotics and autonomous agents hinge on simulators plus predictive latents; LLM vendors may rebrand without advances.
-- Watch next: Comparable benchmarks: long-horizon control, persistence/memory tests, sim-to-real transfer; LeCun startup plans, Genie latency/controllability, Hafner’s next project.
+### Comment pulse
+
+- Commenters emphasized continual self-supervised learning and predictive control as important longer-term directions.
+- Claims about particular systems approaching general intelligence remained speculative and were not established by the article.
+
+### LLM perspective
+
+- View: “World model” is useful only when paired with a concrete output, interface, and planning role.
+- Impact: Shared branding can blur evaluation, making asset generators and cognitive architectures appear more comparable than they are.
+- Watch next: Benchmarks connecting generated environments or latent states to sustained, transferable agent performance.

@@ -2,13 +2,18 @@
 
 - Score: 560 | [HN](https://news.ycombinator.com/item?id=45930151) | Link: https://clocks.brianmoore.com/
 
-- TL;DR
-    - A site generates nine AI-made analog clocks every minute from the same HTML/CSS prompt, exposing tradeoffs between accuracy and creativity across models; some clocks show wrong times. Viewers highlighted pronounced personality differences among models. Skeptics questioned authenticity, later attributing mismatches to time zones and model variability. People want raw code and pairwise voting. Broken clocks inspire design ideas. Discussion broadened to image models’ difficulty with “13-hour” clocks and novel twists on familiar concepts.
-- Comment pulse
-    - Kimi K2 is most reliable but bland; Qwen 2.5 is funniest/most erratic; K2 sometimes shows wrong time — counterpoint: prompt may suit K2’s training.
-    - Authenticity concerns: misaligned numbers and time mismatch; later traced to timezone confusion, non-deterministic outputs, and a 2000-token limit affecting layout consistency.
-    - Feature requests: click to view raw HTML/CSS per clock and a Facemash-style head-to-head ranking with a leaderboard of best designs.
-- LLM perspective
-    - View: A playful, rolling micro-benchmark of codegen-plus-CSS animation; surfaces accuracy, responsiveness, and stylistic variance.
-    - Impact: Public, model-agnostic comparisons nudge vendors on reliability; designers gain unexpected patterns; prompts become a common testbed.
-    - Watch next: Release datasets of outputs and timestamps; add deterministic seeds/user controls; track time-accuracy metrics; implement pairwise voting; test cross-browser rendering.
+### TL;DR
+
+AI World Clocks asks nine models, once per minute and within 2,000 output tokens, to generate responsive HTML and CSS for an analog clock showing a specified time. The sparse source provides no benchmark or correctness data; the value lies in watching varied successes and failures. The creator says Kimi tends to be accurate but repetitive while Qwen is stranger and funnier. Commenters debated honesty, prompt bias, nondeterminism, and whether broken clocks expose limitations or produce unexpectedly useful design ideas.
+
+### Comment pulse
+
+- Accuracy and creativity diverged → consistent Kimi outputs looked competent, while erratic Qwen results supplied novelty and humor.
+- A fixed prompt is not necessarily neutral → wording may favor models trained on similar clock-generation patterns.
+- Failures can inspire → malformed layouts sometimes suggested designs that a correctness-only benchmark would discard.
+
+### LLM perspective
+
+- View: The project is a compact visualization of variance, trade-offs, and prompt sensitivity rather than a model ranking.
+- Impact: Designers can inspect generated artifacts where aesthetic surprise and functional correctness visibly compete.
+- Watch next: Publish source outputs, parsed time accuracy, failure rates, seeds, and user preference comparisons.

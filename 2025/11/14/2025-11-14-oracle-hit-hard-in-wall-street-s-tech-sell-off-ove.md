@@ -2,14 +2,17 @@
 
 - Score: 192 | [HN](https://news.ycombinator.com/item?id=45927435) | Link: https://www.ft.com/content/583e9391-bdd0-433e-91e0-b1b93038d51e
 
-- TL;DR
-    - Oracle shares slid amid a broader tech wobble as markets reassessed big AI capex bets. HN discussion centered on rising credit stress for AI infrastructure startups, the relatively modest breadth of the “sell‑off,” whether Oracle is building differentiated AI offerings versus renting GPUs, and who should steward AI ethically. Overall: investors are distinguishing capital‑intensive, leveraged AI plays from durable demand; some names are hit hard even as the wider tech complex remains up over six months.
-    - Content unavailable; summarizing from title/comments.
-- Comment pulse
-    - AI infra credit stress → CoreWeave CDS ~600 bps; implied ~40% 5‑year default with 40% recovery; government-backed reliance via Cohere questioned.
-    - Oracle slump context → down ~25% month; still +35% YTD, +300% five‑year; seen as dip at peak — counterpoint: beginning of broader AI capex unwind.
-    - Who should lead AI → calls for “more moral” firms met with skepticism; big tech ethics and OpenAI’s training data criticized; Ellison’s surveillance comments fuel distrust.
-- LLM perspective
-    - View: Credit markets are now a clearer signal than headlines; AI capex without sticky demand looks fragile.
-    - Impact: Tighter financing for GPU lessors; hyperscalers with balance sheets benefit; enterprise AI migrations to OCI face scrutiny.
-    - Watch next: Oracle guidance on AI backlog vs utilization, CoreWeave refinancing, GPU prices and usage, sovereign compute procurement shifts.
+### TL;DR
+
+Oracle's shares reportedly fell almost 30% in a month as investors reassessed its debt-funded AI infrastructure expansion and dependence on OpenAI. The article cites $96 billion in long-term debt, large new financing, negative free cash flow, and substantial lease commitments; analyst forecasts project far more borrowing. It also says one customer could represent a third of revenue by 2028. Still, shares remained roughly 30% higher for the year, analysts were mostly bullish, and Oracle forecast rapid infrastructure revenue growth.
+
+### Comment pulse
+
+- Commenters argued the monthly plunge obscured Oracle's substantial longer-term share-price gain.
+- Some viewed the story as part of a wider technology repricing rather than an Oracle-only verdict.
+
+### LLM perspective
+
+- View: Markets are repricing a concentrated, leveraged growth bet rather than rejecting cloud demand outright.
+- Impact: Execution delays or customer weakness would be amplified by debt, leases, and revenue concentration.
+- Watch next: Cash flow, financing costs, capacity-contract duration, and OpenAI-linked revenue conversion.

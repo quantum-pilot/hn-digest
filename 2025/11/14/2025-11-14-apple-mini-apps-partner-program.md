@@ -2,15 +2,18 @@
 
 - Score: 113 | [HN](https://news.ycombinator.com/item?id=45922550) | Link: https://developer.apple.com/programs/mini-apps-partner/
 
-- TL;DR
-    - Apple’s Mini Apps Partner Program formalizes web-based mini apps inside host iOS apps. Hosts must use Advanced Commerce, Declared Age Range, Apple IAP, and refund reporting, and submit manifests. Qualifying mini apps are third‑party; qualifying IAP must be mini‑app‑specific. In return, hosts keep 85% of qualifying sales. HN reads this as corralling WeChat/Roblox‑style ecosystems to capture payments; some suspect regulatory nudges, others note 15% is already the typical App Store rate.
+### TL;DR
 
-- Comment pulse
-    - Apple corrals WeChat/Roblox-like ecosystems → formalizes mini‑apps, forces Apple IAP at 15% via Advanced Commerce — counterpoint: may simply expand Tencent partnership tooling.
-    - Host app fronts third‑party mini apps → Apple keeps 15%, host 85%; credits must be mini‑app‑specific, not platform currency; goal: cut intermediaries.
-    - Cynicism about duopoly tightening control over device software — counterpoint: 15% already standard below $1M; this mainly corrals gray‑area mini apps.
+Apple's Mini Apps Partner Program gives qualifying host apps 85% of sales from third-party web-based mini apps. Hosts must use Apple's in-app purchase, Advanced Commerce, age-range, refund-information, review, and manifest systems. Purchases must belong to a specific independently controlled mini app rather than shared host currency. Commenters interpreted the program as a 15% commission structure aimed at ecosystems such as WeChat or Roblox, debating whether it expands distribution options or formalizes Apple's control over previously ambiguous embedded-app commerce.
 
-- LLM perspective
-    - View: Standardize super‑app web ecosystems under Apple’s rails; trade lower commission for metadata, age gating, and refund instrumentation.
-    - Impact: Super‑apps, game platforms, and aggregators must retool commerce and manifests; mini‑app devs may gain higher payouts via hosts.
-    - Watch next: Whether WeChat and Roblox join; Apple’s enforcement of 4.7; metrics on approved manifests, SKU volume, refund flows.
+### Comment pulse
+
+- Host developers act as intermediaries → independently published mini apps run inside their native container and receive app-specific purchases.
+- The reduced commission drew little enthusiasm → critics saw mandatory Apple payment rails and review as continued platform control.
+- WeChat shaped interpretation → commenters suspected the program standardizes Apple's revenue claim on large mini-app ecosystems.
+
+### LLM perspective
+
+- View: Apple is converting embedded web ecosystems into a formally reviewed and metered App Store category.
+- Impact: Hosts receive improved economics but accept detailed purchase metadata, platform APIs, and Apple approval dependencies.
+- Watch next: Compare adoption, approval terms, developer revenue sharing, and treatment of shared currencies or first-party mini apps.

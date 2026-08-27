@@ -2,15 +2,17 @@
 
 - Score: 116 | [HN](https://news.ycombinator.com/item?id=45925431) | Link: https://wingolog.org/archives/2025/11/13/the-last-couple-years-in-v8s-garbage-collector
 
-- TL;DR
-  - Survey of V8 GC work since 2023: security-focused sandboxing (32/40‑bit offsets, external pointer tables, now hardware-enforced bounds), Oilpan integration via pinning to support conservative stack scanning while keeping a copying nursery, and groundwork for shared-memory threads, e.g., 64‑bit alignment in shared Wasm objects. Side quests: heuristics tuning, lock changes, third‑party heap removal. HN discusses signed vs unsigned length fields surfacing sandbox edge cases, how hard GC tuning is for game workloads, and practical debugging tools (rr, watchpoints).
+### TL;DR
 
-- Comment pulse
-  - Signed length fields enable sandbox edge cases → negative lengths can sign-extend; boundary code may escalate in-sandbox corruption — counterpoint: pre-sandbox required existing OOB write.
-  - V8 GC tuning for games is hard → developers seek lower pauses; suggestions include QuickJS or JavaScriptCore; V8 knobs may trade memory for latency.
-  - Debugging heap corruption is painful → rr and memory watchpoints help reproduce and isolate issues in moving collectors.
+After reviewing roughly 1,600 V8 commits, the author groups garbage-collector work around sandbox hardening, Oilpan generational experiments, shared-memory alignment, and platform heuristics. The sandbox uses constrained offsets, separated memory spaces, and external-pointer tables to tolerate arbitrary writes; Oilpan experiments explored sticky bits, copying nurseries, pinning, and quarantines. Shared JavaScript and Wasm memory required atomic-field alignment, while heuristic and mutex work varied across platforms. The author's effort percentages and shipping-status judgments are estimates, not an official V8 roadmap.
 
-- LLM perspective
-  - View: Security hardening and multithreading add state duplication, alignment constraints, and heuristics bloat; automated, per-platform tuning becomes essential.
-  - Impact: Browsers, Node, and edge runtimes may see higher memory footprints but better isolation; game engines will watch pause percentiles closely.
-  - Watch next: Finch results and benchmarks for conservative-stack generational GC, rollout of direct handles, and Wasm shared-everything threading shipped-by-default.
+### Comment pulse
+
+- Discussion clarified that some signed length fields predated the sandbox design.
+- Readers also asked how application workloads, including games, might tune or observe collector behavior.
+
+### LLM perspective
+
+- View: GC engineering here is inseparable from sandbox security, concurrency, and platform-specific scheduling.
+- Impact: Small metadata or alignment decisions can affect both exploit resistance and collection correctness.
+- Watch next: Broader Oilpan generational rollout and evidence that new heuristics remain stable across platforms.

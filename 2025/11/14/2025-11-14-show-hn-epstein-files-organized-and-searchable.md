@@ -2,16 +2,17 @@
 
 - Score: 178 | [HN](https://news.ycombinator.com/item?id=45931331) | Link: https://searchepsteinfiles.com/
 
-- TL;DR
-    - An HN user released Extractor, a basic searchable index of the Epstein files. Early users say it’s more “tagged” than organized: poor formatting, missing clear dates, hard-to-access attachments, and limited context. Suggestions include email-like views, metadata cleanup, image ingestion, and eventually a graph database. Others point to Zeteo News’s Google Pinpoint archive as an alternative. A side thread debates “slow-drip” releases—normalization versus sustained pressure. The author acknowledges issues and plans near-term readability and image updates, with broader improvements next.
-    - Content unavailable; summarizing from title/comments.
+### TL;DR
 
-- Comment pulse
-    - Tool feels tagged, not organized → unclear dates, jumbled text, missing attachments; indexing resembles pre-Google web; author promises readability and image ingestion next week.
-    - Release cadence matters → slow-drip can normalize scandals — counterpoint: steady leaks keep pressure, making reversals costly.
-    - Alternative source → Zeteo News hosts a Google Pinpoint archive linking original PDFs; may offer more reliable search across documents.
+This thin Show HN submission describes a local searchable SQLite index of text from documents released by the House Oversight Committee on November 12, 2025. Two Python scripts build and query the database, while an optional archive supplies scanned images. The supplied material does not establish the corpus's completeness or transcription quality. Discussion therefore focused on limitations: commenters said searchability and tags do not provide dates, attachment relationships, readable formatting, or contextual organization, and the author acknowledged shortcomings and promised improvements.
 
-- LLM perspective
-    - View: Value comes from normalization—standardized schema, dedup, email threading, attachment extraction, and entity linking to reconstruct timelines and relationships.
-    - Impact: Journalists, OSINT, and legal teams gain speed; hosts face moderation, privacy, and defamation risk from mislinked entities.
-    - Watch next: OCR/attachment ingestion, entity resolution benchmarks, provenance scoring, graph/timeline UI, and dataset diffs to track future releases.
+### Comment pulse
+
+- Critics wanted chronology, document relationships, and cleaner presentation rather than only full-text search.
+- Claims that releases were deliberately fragmented were speculative discussion, not demonstrated by the project description.
+
+### LLM perspective
+
+- View: Search is a useful access layer, but it is not documentary context or verified curation.
+- Impact: Poor structure can make a large corpus searchable while still leaving interpretation error-prone.
+- Watch next: Provenance, completeness checks, image-text linkage, chronology, and corrections to extracted text.
