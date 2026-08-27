@@ -3,18 +3,16 @@
 - Score: 160 | [HN](https://news.ycombinator.com/item?id=46305585) | Link: https://blog.jakesaunders.dev/my-server-started-mining-monero-this-morning/
 
 ### TL;DR
-Hetzner warned the author their server was attacking others; they found a Monero miner running inside an Umami analytics container exploited via a critical Next.js RSC deserialization bug (CVE-2025-66478). Because the container ran as a non‑root user, with no mounts or privileges, the compromise stayed inside Docker: deleting the container and tightening the firewall solved it. HN focuses on better firewall tools and outbound filtering, container resource limits, and not treating Docker as a strong security boundary or storing secrets in app containers.
 
----
+A Hetzner abuse notice led the author to a compromised Umami analytics container running Monero miners and network scans for roughly ten days. The author attributes entry to a patched Next.js vulnerability embedded in Umami’s stack, despite not knowingly using Next.js. Because the container ran unprivileged as a non-root user with no host mounts, removing it ended the observed processes. The incident prompted firewall, SSH, monitoring, update, and container audits, though commenters caution that Docker isolation is not an absolute security boundary.
 
 ### Comment pulse
-- Host firewall choice matters → firewalld with StrictForwardPorts handles Docker better than UFW; also restrict outbound connections and consider podman to avoid container bypasses.  
-- Apply container resource limits → CPU, memory, and read-only filesystems cap damage from miners or bugs; rotate VMs for workloads handling untrusted user content.  
-- Don’t over-trust Docker isolation → root/privileged containers and misconfigurations can enable escapes or DoS. — counterpoint: Non-root, unprivileged containers suffice for many low-value self-hosted setups.
 
----
+- Commenters recommend CPU, memory, and read-only limits, plus outbound controls and provider-side firewalls.
+- Several dispute that a simple filesystem check proves no escape, while agreeing the configuration reduced risk.
 
 ### LLM perspective
-- View: Story shows real-world value of sane defaults: non-root containers, no mounts, and quick deletion averted a rebuild.  
-- Impact: Expect more supply-chain-style incidents where “supporting” frameworks like Next.js are exploited via third-party services admins barely realize they run.  
-- Watch next: Watch for hardened orchestration defaults: outbound egress policies, secret-scanning, automatic CVE-based restarts, and opinionated templates discouraging root or privileged containers.
+
+- View: Transitive application stacks turn “unused” frameworks into operational dependencies requiring active vulnerability tracking.
+- Impact: Least privilege and absent mounts sharply limited the observed blast radius, but did not prove complete containment.
+- Watch next: Audit secrets, egress, Docker exposure, and persistence indicators before treating container deletion as closure.

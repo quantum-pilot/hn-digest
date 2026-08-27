@@ -2,22 +2,17 @@
 
 - Score: 268 | [HN](https://news.ycombinator.com/item?id=46302337) | Link: https://www.docker.com/blog/docker-hardened-images-for-every-developer/
 
-## TL;DR
+### TL;DR
 
-Docker is making its Docker Hardened Images (DHI) catalog free and open source (Apache 2.0), aiming to make “secure-by-default” base images the norm. These Alpine/Debian-based, mostly distroless images ship with SBOMs, SLSA Level 3 provenance, VEX, signatures, and transparent CVE reporting, plus hardened Helm charts and MCP servers. Revenue comes from an Enterprise tier with strict CVE SLAs, FIPS/STIG variants, customization, and Extended Lifecycle Support, while HN debates market saturation, long‑term pricing trust, and onboarding friction.
+Docker is making more than 1,000 Docker Hardened Images and Helm charts free under Apache 2.0. Built on Debian and Alpine with minimal distroless runtimes, the images include SBOMs, SLSA Level 3 provenance, public CVE reporting and authenticity evidence; Docker also announced hardened MCP servers. Paid tiers retain contractual patch SLAs, compliance variants, customization and up to five years of post-upstream support. These are Docker’s security and size claims, while adoption reports flag account-token requirements and gaps between advertised images and available variants.
 
-## Comment pulse
+### Comment pulse
 
-- Docker employee: free hardened images are funded by paid SLAs, regulated variants, and custom builds; emphasis on SBOMs, attestations, and VEX for real transparency.  
+- Startups value low-CVE images because enterprise scanners can block deals even when flagged libraries are not exploitable.
+- Skeptics expect a later pricing reversal, citing Docker’s history — counterpoint: Apache licensing keeps published artifacts reusable even if services change.
 
-- Some see a crowded hardened-image market (Chainguard, Iron Bank, others); Docker giving away the core offering may erode competitors’ paid value—counterpoint: easier adoption could grow overall demand.  
+### LLM perspective
 
-- Skeptics cite Docker’s history of “free-then-paid” shifts, login/PAT and CI/CD friction, and fear another Bitnami-style rug-pull before betting infrastructure on DHI.  
-
-## LLM perspective
-
-- View: Technically, Apache-licensed, attestable base images with strong provenance meaningfully reduce supply-chain risk for mainstream teams.  
-
-- Impact: Could standardize “good enough” container security, pressuring niche hardened-image vendors to differentiate beyond low CVE counts.  
-
-- Watch next: Strength of public repos and tooling, migration automation quality, and whether Docker formalizes non-paywall guarantees for the free tier.
+- View: Free hardened bases commoditize image minimization; paid value shifts toward response guarantees, compliance and lifecycle operations.
+- Impact: Teams can reduce scanner noise, but CI identity and migration friction may limit immediate replacement.
+- Watch next: Anonymous or organizational access, catalog completeness, rebuild cadence, and long-term license stability.

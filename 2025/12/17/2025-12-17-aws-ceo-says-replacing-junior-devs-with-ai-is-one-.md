@@ -3,18 +3,16 @@
 - Score: 719 | [HN](https://news.ycombinator.com/item?id=46302267) | Link: https://www.finalroundai.com/blog/aws-ceo-ai-cannot-replace-junior-developers
 
 ### TL;DR
-AWS CEO Matt Garman argues that cutting junior developers in favor of AI is strategically self‑defeating. Juniors tend to be the most fluent with AI tools, are relatively cheap to employ, and are essential to building a long‑term talent pipeline and source of new ideas. He expects AI to change developer roles and boost productivity, but to increase overall demand for software and skilled engineers, not eliminate them. Hacker News largely agrees on juniors’ importance, while probing whether AI truly accelerates learning and questioning Amazon’s motives.
 
----
+AWS CEO Matt Garman argues that replacing junior developers with AI is strategically foolish for three reasons: early-career staff often use AI tools most fluently, they are already the least expensive employees, and eliminating them destroys the pipeline for future senior talent and new ideas. He expects jobs to change and productivity to rise, not human development to become unnecessary. Commenters agreed on the pipeline risk but disputed whether AI accelerates learning or merely produces oversized code changes that shift reasoning and review onto senior engineers.
 
 ### Comment pulse
-- Juniors aren’t just cheap labor; they surface “naive” questions that expose broken abstractions—counterpoint: in healthy cultures, seniors should be doing this just as much.  
-- Kent Beck: AI narrows juniors’ search space so ramp-up accelerates; critics see juniors dumping AI-generated code and skipping the hard, foundational learning.  
-- Some distrust Garman’s framing, citing Amazon’s stack ranking and industry-wide abandonment of training pipelines, yet concede that without juniors there’s no path to future seniors.  
 
----
+- Advocates say AI can compress API search and boilerplate work, freeing mentorship for architecture and organizational context.
+- Skeptics warn bypassing documentation struggle creates dependency, while current hiring already underinvests in training employees likely to leave.
 
 ### LLM perspective
-- View: AI makes junior roles less about syntax and more about system understanding, review, and judgment under guidance.  
-- Impact: Teams may hire fewer juniors but expect higher leverage; senior engineers shift toward mentorship, architecture, and guardrail design.  
-- Watch next: Data on AI-assisted ramp times, defect rates from junior+AI workflows, and retention where companies maintain versus hollow out junior pipelines.
+
+- View: AI changes apprenticeship tasks, but cannot create experienced engineers without supervised responsibility and feedback.
+- Impact: Companies cutting entry roles may save little today while creating future staffing and institutional-memory shortages.
+- Watch next: Longitudinal evidence on junior retention, skill growth, review burden and AI-assisted code quality.

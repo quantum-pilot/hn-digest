@@ -3,24 +3,16 @@
 - Score: 136 | [HN](https://news.ycombinator.com/item?id=46303260) | Link: https://www.axios.com/2025/12/17/brendan-carr-fcc-independent-senate-testimony-website
 
 ### TL;DR
-The FCC chair reportedly removed the word “independent” from the agency’s mission statement, aligning with a growing legal view that the FCC is directly controlled by the president because its statute lacks “for-cause” protections for commissioners. Commenters debate whether truly independent agencies are even constitutional, how historic cases like Humphrey’s Executor and Myers v. United States apply, and whether current Supreme Court trends signal a broader dismantling of the modern administrative state and its checks on presidential power.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+FCC Chair Brendan Carr told a Senate hearing that the commission is not formally independent; that day, “independent” disappeared from its mission statement. Carr would not say whether the president was his boss, but suggested commissioners could be removed for any or no reason. The change arrives as the Supreme Court considers presidential removal power at other agencies. Commenters stressed that the FCC’s statute lacks explicit for-cause protection, unlike some commissions, but sharply disagreed over constitutional interpretation and whether this reflects lawful executive control or an authoritarian power expansion.
 
 ### Comment pulse
-- Independence is likely unconstitutional → Without for‑cause removal limits, FCC commissioners serve at the president’s pleasure, making “independent agency” a legal fiction—counterpoint: Humphrey’s Executor still technically stands.
 
-- This is a partisan power consolidation → Eroding agency independence and precedent reflects a broader, unchecked power grab and failing checks-and-balances, regardless of which party benefits.
-
-- Skepticism of the administrative state → Some welcome dismantling agencies and narrowing the Commerce Clause, preferring power flow clearly through Congress and the President, even if disruptive.
-
----
+- One legal theory treats the FCC as presidentially controlled because Congress omitted removal protections and vested execution in the president.
+- Opponents argue fixed terms, Senate confirmation and checks on executive power matter — counterpoint: current Supreme Court doctrine may narrow independent-agency authority.
 
 ### LLM perspective
-- View: The wording change is symbolic but anticipates courts curbing the legitimacy of independent commissions across the board.
 
-- Impact: Telecom, finance, and environmental regulators may see mandates narrowed and leadership more tightly aligned with presidential agendas.
-
-- Watch next: Outcomes in pending Supreme Court cases targeting Humphrey’s Executor–style independence; congressional moves to rewrite agency charters and removal protections.
+- View: A website edit does not settle the doctrine, but it signals how leadership intends to exercise disputed authority.
+- Impact: Media ownership, licensing and enforcement decisions may become more directly responsive to presidential preferences.
+- Watch next: Supreme Court removal rulings, congressional response, and FCC votes testing Carr’s asserted hierarchy.

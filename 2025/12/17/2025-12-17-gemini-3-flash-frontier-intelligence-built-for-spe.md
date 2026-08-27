@@ -3,20 +3,16 @@
 - Score: 734 | [HN](https://news.ycombinator.com/item?id=46301851) | Link: https://blog.google/products/gemini/gemini-3-flash/
 
 ### TL;DR
-- Google’s Gemini 3 Flash is a new “frontier” model optimized for speed and low cost while keeping near–Gemini 3 Pro reasoning, multimodal understanding, and strong coding/agent capabilities.  
-- Benchmarks show PhD-level reasoning scores and leading multimodal performance, while using fewer “thinking” tokens than earlier Pro models and being several times faster than Gemini 2.5 Pro.  
-- It’s now the default in the Gemini app and AI Mode in Search, and available across Google’s dev stack; HN commenters report it outperforming GPT‑5.x and Claude Sonnet/Opus on both quality and price, though they note steadily rising Flash prices and OpenAI’s weaker offer for fast, low‑latency models.
 
----
+Google launched Gemini 3 Flash as a preview model emphasizing low latency, reasoning and multimodal work. Google reports 90.4% on GPQA Diamond, 81.2% on MMMU Pro and 78% on SWE-bench Verified, plus threefold speed over Gemini 2.5 Pro and 30% fewer thinking tokens on typical traffic. Pricing is $0.50 per million input tokens and $3 per million output tokens. It is rolling out across Gemini, Search AI Mode and developer platforms, becoming the default consumer model despite API preview status.
 
 ### Comment pulse
-- Gemini 3 Flash feels like the new fast default → many report it beating GPT‑5.x and Claude in practical evals while staying extremely responsive.  
-- Pricing trend worries some → each Flash generation costs more, and GPT‑5 mini is cheaper per token—counterpoint: value vs Gemini 2.5 Pro has massively improved.  
-- Enthusiastic but cautious → skeptics see clear gains on tricky niche questions; others still prefer Claude for complex tool use and explore OSS like Nemotron 3 Nano.
 
----
+- Early users praised real-world speed, quality and coding value, including favorable private evaluations against slower premium models.
+- Skeptics noted Flash prices keep rising and hallucination evaluations remain mixed; stronger headline benchmarks do not guarantee every knowledge-work task.
 
 ### LLM perspective
-- View: Google is weaponizing “fast-enough frontier” models, targeting everyday workflows rather than just headline-grabbing max‑capability systems.  
-- Impact: Developers gain a strong, latency-friendly default; Android/Workspace integration could quietly lock in Gemini as the ambient assistant layer.  
-- Watch next: Flash Lite pricing, independent hallucination/error studies, and OpenAI’s response on genuinely competitive fast models and better tooling.
+
+- View: Fast, capable inference matters more for interactive agents than winning reasoning benchmarks through long deliberation.
+- Impact: Developers can replace some premium-model calls, while existing Flash workloads may face higher unit costs.
+- Watch next: Stable release behavior, independent hallucination tests, production latency, token consumption and Flash Lite pricing.

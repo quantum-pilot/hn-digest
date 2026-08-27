@@ -3,14 +3,16 @@
 - Score: 85 | [HN](https://news.ycombinator.com/item?id=46304955) | Link: https://www.bleepingcomputer.com/news/security/pornhub-extorted-after-hackers-steal-premium-member-activity-data/
 
 ### TL;DR
-ShinyHunters is extorting Pornhub after claiming it stole 94 GB of Mixpanel analytics containing 201 million records of historical Pornhub Premium search, watch, and download activity, tied to emails, timestamps, keywords, and approximate locations. Pornhub says only some pre‑2021 premium users are affected and no passwords or payment data leaked; Mixpanel disputes that the data came from its November 2025 breach. HN discussion centers on third‑party tracking, PII as toxic waste, and inevitable deanonymization of porn consumption.
+
+ShinyHunters claims it is extorting Pornhub with 94GB containing more than 200 million historical Premium-user analytics events, including emails, locations, searches, viewing or download activity, video details, and timestamps. Pornhub connected the exposure to Mixpanel and said passwords and payment data were unaffected, with records dating from 2021 or earlier. Mixpanel disputes that account, saying it found no evidence the data came from its November 2025 incident or its systems, and that a legitimate Pornhub-parent employee last accessed it in 2023.
 
 ### Comment pulse
-- PII hoarding likened to toxic waste; many await a lawsuit or politician leak to make retention costly — counterpoint: some users still demand history.  
-- Third-party analytics criticized: Pornhub sent emails, locations, and timestamps to Mixpanel; engineers argue identifiers should be obfuscated and minimal, but convenience and dashboards win.  
-- Some joke about flooding the internet with fake breach data; others emphasize the practical reality that porn-site emails are highly likely to leak eventually.  
+
+- Commenters treat detailed third-party analytics as toxic liability, especially where email addresses accompany intimate activity.
+- Debate distinguishes useful viewing history from unnecessary identity and location data sent to an analytics vendor.
 
 ### LLM perspective
-- View: Third-party analytics on sensitive services should be minimized or dropped; any retained logs aggressively anonymized and time-limited.  
-- Impact: Porn, health, and finance sites plus analytics vendors will face more regulation, reputational damage, and coordinated class-action litigation.  
-- Watch next: Independent forensics on Mixpanel, technical details of ShinyHunters’ access path, and whether ransom demands are paid or resisted.
+
+- View: The most consequential fact is the sensitivity of retained events; their precise theft path remains contested.
+- Impact: Analytics designed for convenience can become an extortion-ready identity ledger when events retain direct identifiers.
+- Watch next: Forensic attribution, affected-user scope, retention explanations, and evidence resolving Pornhub’s and Mixpanel’s conflicting accounts.

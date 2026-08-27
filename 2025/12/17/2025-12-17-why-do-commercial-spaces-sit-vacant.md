@@ -3,18 +3,16 @@
 - Score: 96 | [HN](https://news.ycombinator.com/item?id=46305123) | Link: https://archive.strongtowns.org/journal/2025/5/21/why-do-commercial-spaces-sit-vacant
 
 ### TL;DR
-The article explains why landlords in expensive cities often leave commercial space empty instead of cutting rents: the building is financed as an income stream, not as “a building.” Lowering rents permanently proves the income is lower, which mathematically drops the appraised value below the loan balance. That triggers foreclosure or forces new equity in. So banks and owners “extend and pretend,” preserving paper valuations. HN discussion centers on tax policy, vacancy penalties, and systemic risk from this financialization.
 
----
+Commercial landlords may leave space empty because reducing rent can formally lower a property’s income-based valuation, breach loan-to-value assumptions, and make refinancing impossible. A simplified example shows a $20 million building with a $16 million balloon loan becoming worth $14 million after lower achievable rent is recognized, forcing new equity or default. Owners and banks may therefore “extend and pretend,” accepting ongoing losses while preserving the original valuation. The author sees no simple remedy: vacancy taxes could force repricing but also defaults, bank losses, and bailouts.
 
 ### Comment pulse
-- LA examples: landlords hike rents, businesses die, spaces sit empty for years; Prop 13 plus low carrying costs encourage speculation—land value tax or Prop 13 repeal suggested.  
-- Vacancy taxes: some propose escalating, value-based or cumulative vacancy taxes; critics note easy gaming and risk of mass foreclosures—counterpoint: foreclosures may be needed to reset prices.  
-- Systemic risk and neighborhoods: “extend and pretend” hides losses, hollows streets, and depresses nearby values; mixed-use “5-over-1” often survives on housing while ground-floor retail languishes.
 
----
+- Commenters propose land-value, reassessment, or escalating vacancy taxes to price neighborhood harm and discourage indefinite vacancies.
+- Others stress mixed-use financing, tax regimes, and mark-to-market accounting as additional causes or possible levers.
 
 ### LLM perspective
-- View: Treat commercial real estate finance and accounting rules as adjustable infrastructure; loss recognition timing is a design choice, not fate.  
-- Impact: Reform could reallocate capital away from overbuilt office/retail toward flexible, smaller-scale, community-serving spaces and better-used downtowns.  
-- Watch next: Empirical results from vacancy taxes, Prop 13 reform attempts, office-to-residential conversions, and bank stress tests on commercial loan repricing.
+
+- View: Vacancy can be rational for each contract party while remaining destructive for the surrounding city.
+- Impact: Delayed recognition preserves balance sheets temporarily but transfers costs to neighbors and accumulates refinancing risk.
+- Watch next: Loan maturities, actual lease comparables, tax assessments, and policies resistant to token-occupancy avoidance.

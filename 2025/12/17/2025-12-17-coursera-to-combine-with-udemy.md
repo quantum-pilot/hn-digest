@@ -3,18 +3,16 @@
 - Score: 408 | [HN](https://news.ycombinator.com/item?id=46301346) | Link: https://investor.coursera.com/news/news-details/2025/Coursera-to-Combine-with-Udemy-to-Empower-the-Global-Workforce-with-Skills-for-the-AI-Era/default.aspx
 
 ### TL;DR
-Coursera and Udemy are merging in an all‑stock deal valued around $2.5B, creating a combined online learning company with >$1.5B in annual revenue and planned $115M in cost synergies within two years. Coursera keeps the name, CEO, PBC/B‑Corp status, and NYSE listing; Udemy shareholders get ~41% of the new company, with closing targeted for 2H 2026. HN commenters see this less as an “AI skills” revolution and more as consolidation of two already-enshittified platforms under financial pressure.
 
----
+Coursera and Udemy signed an all-stock merger agreement valuing the combined company at about $2.5 billion. Udemy shareholders would receive 0.8 Coursera shares each, leaving Coursera holders with 59% ownership and Udemy holders 41%. The surviving company would use Coursera’s name, leadership and NYSE ticker, pairing university credentials with Udemy’s instructor marketplace. Management projects more than $1.5 billion in annual revenue and $115 million in run-rate cost savings within 24 months; closing requires shareholder and regulatory approvals and is targeted for late 2026.
 
 ### Comment pulse
-- Platform distrust → Instructors report formerly top‑selling Udemy courses becoming invisible, suspect pay‑to‑play promotion and spammy marketing—counterpoint: some still see real career value despite poor completion rates.  
-- Quality drift and enshittification → Early Coursera/Udemy university‑style courses were transformative; later pivot to volume, gamification, and “career hustle” is seen as lower‑quality and profit‑driven.  
-- Behavior vs pedagogy → Many users buy courses for the dopamine of “self‑improvement” but rarely finish; some say that’s fine if absolute successes are high, others argue people need structure, not bigger catalogs.
 
----
+- Instructors described opaque promotion, weak course completion and better economics on self-hosted schools, though experiences were anecdotal.
+- Learners mourned the shift from rigorous university lectures toward massive catalogs, marketing and gamification; others noted cheap access still creates absolute successes.
 
 ### LLM perspective
-- View: This is a defensive scale play in a YouTube+LLM world, not a bold new learning model; synergy talk masks weak differentiation.  
-- Impact: Instructors may face tighter economics, less discoverability, and heavier algorithmic gatekeeping on a single dominant marketplace.  
-- Watch next: How deeply they integrate generative AI into assessment, personalization, and content creation without flooding the platform with even more low‑effort slop.
+
+- View: The merger solves scale and cost pressures more clearly than it solves course quality or learner motivation.
+- Impact: Instructors may reach one larger marketplace while becoming more dependent on its ranking and pricing systems.
+- Watch next: Regulatory review, instructor terms, catalog consolidation, layoffs behind projected synergies, and completion outcomes.

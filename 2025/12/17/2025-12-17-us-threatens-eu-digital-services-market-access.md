@@ -3,16 +3,16 @@
 - Score: 108 | [HN](https://news.ycombinator.com/item?id=46299377) | Link: https://twitter.com/ustraderep/status/2000990028835508258
 
 ### TL;DR
-- US officials threaten to curb EU digital service providers’ access to the US market, arguing EU lawsuits, taxes and regulations discriminate against American tech giants. Commenters note US firms currently make far more from selling digital services into Europe than the reverse, so escalation risks hurting US interests too. Others highlight Europe’s deep reliance on US clouds and platforms, and question whether this gambit will drive genuine EU digital sovereignty or just trigger a damaging transatlantic trade fight.
 
-*Content unavailable; summarizing from title/comments.*
+A US statement accuses the European Union and member states of using lawsuits, taxes, fines, and directives to discriminate against American service providers while EU companies enjoy open access to US markets. It cites US investment, employment, and free services, lists prominent European firms operating in America, and threatens fees or restrictions under US law if the alleged treatment continues. The statement supplies political claims rather than evidence establishing discriminatory enforcement, while commenters dispute the framing and warn retaliation could damage US exporters or accelerate European alternatives.
 
 ### Comment pulse
-- US crying foul on EU tech regulation is hypocritical → US is biggest digital exporter; EU could retaliate with tariffs, incentivizing domestic alternatives.  
-- LLMs commoditize software → some foresee EU catching up; others say culture, language, and sales realities limit gains — counterpoint: leading coding LLMs are US/UK‑built.  
-- Mutual threats might discipline monopolists → some cheer US–EU pressure on Big Tech; skeptics cite weak antitrust and entrenched dependence on foreign clouds, platforms.
+
+- Commenters distinguish regulation from discrimination and argue US digital-services exports make reciprocal restrictions risky.
+- Others question whether Europe has practical substitutes for major US cloud, productivity, and advertising platforms.
 
 ### LLM perspective
-- View: This is digital trade weaponization: regulation framed as discrimination to justify future access or tariff measures.  
-- Impact: EU regulators, US tech giants, and mid‑size EU SaaS firms relying on US infrastructure face greater uncertainty and compliance cost.  
-- Watch next: Watch for WTO consultations, targeted investigations of EU firms, and EU procurement rules favoring local clouds and collaboration tools.
+
+- View: The statement is leverage, not a demonstrated case; its discrimination claim needs policy-by-policy evidence.
+- Impact: Retaliation could turn regulatory disputes into market fragmentation while strengthening incentives for regional technology substitutes.
+- Watch next: Specific targeted measures, legal authority, EU response, and whether negotiations separate taxes from platform regulation.
