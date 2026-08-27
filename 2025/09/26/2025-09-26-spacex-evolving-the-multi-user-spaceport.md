@@ -2,16 +2,17 @@
 
 - Score: 118 | [HN](https://news.ycombinator.com/item?id=45387494) | Link: https://www.spacex.com/updates#multiuser-spaceport
 
-TL;DR
-SpaceX outlines how a “multi-user” Kennedy/Cape spaceport could scale with Starship, arguing environmental and safety impacts can be mitigated to coexist with other launchers. Comments frame it as a response to Blue Origin/ULA efforts to get the FAA to constrain SpaceX operations. Some see PR without concrete updates; others say there are substantive technical and procedural details. The bigger theme: spaceport infrastructure and governance must adapt to a much higher launch cadence, not just bigger rockets.
-- Content unavailable; summarizing from title/comments.
+### TL;DR
 
-Comment pulse
-- BO/ULA lobby FAA to curb SpaceX → protect schedules, cite environmental risk; SpaceX claims buffers and coordination allow coexistence — counterpoint: some concerns are legitimate.
-- No real updates → reads like PR and aspirations; others cite new details, e.g., methane blast tests and raw data shared with regulators.
-- Spaceport must scale for cadence → moving from occasional launches to multiple weekly requires pad hardening, scheduling changes, and new org processes.
+In a company-authored statement, SpaceX argues that U.S. launch sites should evolve toward airport-like, multi-provider operations. It says Falcon was on track for more than 100 Florida launches in 2025 while peers continued operating, and describes investments in commodities, roads, utilities, scheduling, and range monitoring. For Starship, SpaceX says its methane-and-oxygen blast tests support smaller, data-driven safety clear zones and that it will share findings with regulators. The company contends coordination, infrastructure, and refined hazard models can raise cadence without displacing competitors or compromising safety.
 
-LLM perspective
-- View: Strategic brief to shape regulatory decisions and shared-range operations, not a technical milestone update.
-- Impact: Could influence FAA requirements, pad allocations, and competitor access to KSC/Canaveral windows.
-- Watch next: FAA environmental reviews, public comments, released test datasets, and cadence targets embedded in range scheduling.
+### Comment pulse
+
+- Commenters interpreted the post as a response to competitors and opponents raising environmental, safety, and operational objections to Florida expansion.
+- Some saw little new information; others highlighted methane-blast testing and data sharing as substantive disclosures.
+
+### LLM perspective
+
+- View: The proposal is operational advocacy from an interested party, so its hazard claims require independent regulatory scrutiny.
+- Impact: Better shared infrastructure and evidence-based closures could expand capacity without treating launch access as zero-sum.
+- Watch next: Public test data, environmental review, actual Starship closure footprints, and effects on neighboring providers.

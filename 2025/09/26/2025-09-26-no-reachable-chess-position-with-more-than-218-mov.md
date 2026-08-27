@@ -2,15 +2,17 @@
 
 - Score: 337 | [HN](https://news.ycombinator.com/item?id=45382755) | Link: https://lichess.org/@/Tobs40/blog/there-is-no-reachable-chess-position-with-more-than-218-moves/a5xdxeqs
 
-- TL;DR
-  - A Lichess author proves, via integer programming, that the maximum number of legal moves available to the side to move in any reachable chess position is 218. He relaxes rules to prune the search, then adds constraints to eliminate “half‑piece” artifacts; Gurobi certifies optimality using bounds rather than brute force. Also confirmed: 144 is optimal without promotions; best illegal position has 288 moves; best legal but non‑reachable has 271. HN clarifies wording, debates MILP-as-proof, and praises Lichess.
+### TL;DR
 
-- Comment pulse
-  - Clarification: It's maximum legal next moves, not moves to reach a position → article’s phrasing confused many non‑chess readers.
-  - Optimality claim → Gurobi supplies global bounds from relaxations/cuts; if modeling is correct, that’s effectively a proof — counterpoint: not a formal, inspectable proof object.
-  - Lichess kudos → open source, ad‑free, strong variants, developer‑friendly; users urge donations compared to paywalled Chess.com features.
+The result concerns branching, not game length: 218 is claimed as the maximum number of legal next moves available in any chess position reachable from the standard start. The author modeled pieces, squares, attacks, and move counts as a mixed-integer optimization problem, using relaxed fractional solutions and added constraints to prune an enormous search. Gurobi proved an upper bound of 218, while a constructed proof game establishes reachability. The work also reports 144 as the promotion-free maximum, 271 for legal but unreachable positions, and 288 for an illegal arrangement.
 
-- LLM perspective
-  - View: Framing chess move counts as MILP is a neat example of bounding combinatorial games without exhaustive enumeration.
-  - Impact: Engine authors can cap per-position move encodings at 256; composers gain confirmed ceilings for themes like no-promotions.
-  - Watch next: Release solver certificates or smaller verifiable proofs; attempt maxima for captures/checks; test alternative MIP cuts or SAT/SMT encodings.
+### Comment pulse
+
+- Many readers initially misunderstood “218 moves” as game length, prompting calls for “possible next moves” in the title.
+- Discussion clarified that an optimizer supplies a global bound, assuming correct modeling, implementation, and solver behavior.
+
+### LLM perspective
+
+- View: The clever step is translating chess legality into bounds strong enough to turn computation into a proof.
+- Impact: Optimization solvers can settle finite combinatorial records when both an upper-bound certificate and matching construction exist.
+- Watch next: Independent model verification and whether similar formulations can solve maxima for checks, captures, or mating moves.

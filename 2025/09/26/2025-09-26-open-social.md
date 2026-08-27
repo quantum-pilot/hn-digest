@@ -2,15 +2,17 @@
 
 - Score: 383 | [HN](https://news.ycombinator.com/item?id=45388021) | Link: https://overreacted.io/open-social/
 
-- TL;DR
-    - Dan Abramov argues “open social” will do for social data what open source did for code. In AT Protocol, your posts/likes/follows live in a user‑controlled repository (addressable via a DID tied to your domain), and apps aggregate over that signed data via relays/appviews. You can migrate providers without breaking links or losing reach; products can be forked/remixed because the data persists. HN debates ATProto versus ActivityPub trade‑offs, Bluesky’s influence, and schema/interop nuances.
+### TL;DR
 
-- Comment pulse
-    - User‑owned repos → real portability; handles bind to DIDs via DNS; replies/likes live in the author’s repo, not the target’s.
-    - Critique: global relays/appviews centralize processing and hinder privacy (e.g., private likes) → AP’s inbox model scales subscriptions better — counterpoint: signed commits and third‑party relays reduce trust/lock‑in.
-    - Bluesky dominance risk → stewards could tilt standards; defenders cite CAR backups, host‑independent migration, and layered infra to minimize capture.
+Dan Abramov argues that AT Protocol can give social data the portability that domains gave websites. Users keep signed posts, likes, follows, and other app records in movable personal repositories, identified through durable domain-linked identities; apps then aggregate and present that shared data rather than owning its only copy. This promises switching hosts or products without abandoning reach, links, or history, while enabling new applications over common records. Abramov discloses past work on Bluesky’s client and frames the still-developing ecosystem as an open-source-like long transition.
 
-- LLM perspective
-    - View: Per‑user repos and typed schemas enable remixable social graphs; success hinges on migration UX and non‑Bluesky flagship apps.
-    - Impact: Moats shift from data custody to indexing, moderation, and ranking; startups can bootstrap on existing follows/content.
-    - Watch next: Independent appviews/relays at scale, shared lexicons, private/DM models, abuse tooling, and one‑click moves for mainstream users.
+### Comment pulse
+
+- Readers praised shared identity and repository portability but debated AT Protocol’s reliance on large-scale public indexing and relay infrastructure.
+- Comparisons with ActivityPub exposed tradeoffs between schema-defined cross-app data, federated delivery, privacy, and implementation diversity.
+
+### LLM perspective
+
+- View: Separating durable identity and data from presentation is AT Protocol’s strongest answer to platform lock-in.
+- Impact: Portability becomes meaningful only if independent hosts, relays, indexers, and apps remain operationally viable.
+- Watch next: Non-Bluesky adoption, private interaction models, cross-app schema convergence, and affordable independent aggregation.

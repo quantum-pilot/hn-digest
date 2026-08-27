@@ -2,15 +2,17 @@
 
 - Score: 163 | [HN](https://news.ycombinator.com/item?id=45382645) | Link: https://www.jordanmechner.com/en/latest-news/#a-platform-jumping-prince
 
-- TL;DR
-  - Jordan Mechner recounts how Prince of Persia jumped platforms in the early ’90s: Apple II as the handmade original; DOS/Windows as the widely remembered, upgraded standard; Amiga faithful; Macintosh delayed yet pivotal after a re-release; C64 canceled until fan ports decades later; and SNES a reimagined, longer adventure. He concludes the “best” version is the one you grew up with. HN readers recommend his development journals, connect his SNES surprise to the value of fresh eyes in code/design, and note standout fan ports on Atari 8‑bit.
+### TL;DR
 
-- Comment pulse
-  - Fresh eyes expose assumptions → SNES surprised the author; like code reviews revealing blind spots — counterpoint: authors playing expanded ports is richer than review.
-  - Read Mechner’s journals → candid, process-rich diaries (rotoscoping, constraints) illuminate early PC/console development and personal stakes.
-  - Fan port shout-out → Atari 8‑bit version praised as the best 8‑bit; Apple II remains the iconic baseline.
+Prince of Persia creator Jordan Mechner reviews the original game's many 1990s ports and rejects a single definitive edition. He personally programmed the Apple II original, recommends DOS for accessible old-school play, praises Amiga's faithful execution, and credits a delayed Macintosh release and PC reissue with reviving sales. The SNES version stands apart: Arsys expanded 12 levels to 20 with new enemies, traps, music, and set pieces, letting Mechner experience surprise inside his own creation. Ultimately, formative memories determine favorites.
 
-- LLM perspective
-  - View: Technical constraints birthed distinct identities per platform; fidelity vs reinterpretation defines port success.
-  - Impact: Open-sourcing assets enables high-quality fan ports decades later.
-  - Watch next: Benchmark emulator latency and palettes; archive port toolchains; track re-release packaging effects on sales.
+### Comment pulse
+
+- Readers praised Mechner's development journals for documenting early game creation, animation workflows, setbacks, and personal uncertainty.
+- His delight at an unfamiliar version prompted discussion of creators' blind spots and the value of independent perspectives.
+
+### LLM perspective
+
+- View: Ports become interpretations when platform constraints and new teams reshape more than presentation.
+- Impact: Preservation needs multiple editions because no single build captures the game's technical and cultural history.
+- Watch next: Documentation of omitted fan ports and comparative analysis by players who know each version deeply.

@@ -2,15 +2,17 @@
 
 - Score: 151 | [HN](https://news.ycombinator.com/item?id=45390121) | Link: https://mailarchive.ietf.org/arch/msg/ietf/q6A_anL1u-Y9iXe-vboiOYamsl0/
 
-- TL;DR
-    - An IETF post defends mailing lists as durable, protocol-level infrastructure: client-agnostic, offline-friendly, push-based, interoperable, low-bandwidth, trivially archivable/searchable (mbox), portable, and resource-light—with fewer security/privacy pitfalls than web forums. HN largely agrees on openness and longevity but notes lists’ centralized moderation and address exposure; suggests NNTP and forum-email hybrids; laments migrations to Slack/Discord/WhatsApp that lose searchability and ownership. Practitioners describe HOA successes using lists to minimize support burden; nginx.org’s list shutdown highlights resilience risks and motivates alternative hosts/forks.
+### TL;DR
 
-- Comment pulse
-    - Open, non-proprietary communication → email lists meet accessibility/archival goals; forums can bridge email — counterpoint: lists aren’t federated; single-domain control centralizes moderation.
-    - Operational simplicity for communities → HOAs prefer lists over Slack/FB to avoid accounts, password resets, and support; email automation suffices.
-    - Privacy downside → participant addresses leak to scrapers; users mitigate with list-specific aliases/disposable addresses.
+In an IETF mailing-list message, Rich Kulawiec argues that email lists endure because they combine universal clients, asynchronous delivery, low bandwidth and infrastructure needs, interoperable forwarding, threading, portability, and durable local archives. Unlike separate forums or closed chat services, participants can choose their software, work offline, search standard mbox files, and retain readable records after a host disappears. The message also claims comparatively low security, privacy, and abuse exposure when lists are properly operated, though those advantages depend on configuration, moderation, client behavior, and address handling.
 
-- LLM perspective
-    - View: Treat lists as the backbone; add bridges (NNTP, RSS, web, Matrix) rather than replacing with siloed chats.
-    - Impact: Improves knowledge retention, searchability, and inclusivity; reduces admin overhead for volunteer-run groups and heterogeneous user bases.
-    - Watch next: Standardize portable archives and list APIs; privacy-preserving address masking; robust email-to-forum bridges; contingency plans when sponsors shut down lists.
+### Comment pulse
+
+- Supporters valued non-proprietary, accessible archives and objected to knowledge disappearing inside Discord, Slack, or Facebook groups.
+- Critics noted a list still centralizes control at one address, while exposed member addresses create spam and privacy costs.
+
+### LLM perspective
+
+- View: Mailing lists persist because their boring standardization makes participation and preservation independent of one interface.
+- Impact: Their strongest niche is durable community knowledge where universal access matters more than polished real-time interaction.
+- Watch next: Modern list tooling that masks addresses, preserves threading, limits abuse, and exports complete archives easily.

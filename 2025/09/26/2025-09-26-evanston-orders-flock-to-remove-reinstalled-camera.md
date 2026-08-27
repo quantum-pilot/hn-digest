@@ -2,15 +2,17 @@
 
 - Score: 365 | [HN](https://news.ycombinator.com/item?id=45382434) | Link: https://evanstonroundtable.com/2025/09/24/flock-safety-reinstalls-evanston-cameras/
 
-- TL;DR
-  Evanston ordered Flock Safety to remove reinstalled license-plate cameras after terminating its contract over alleged illegal CBP access to Illinois ALPR data. The city sent a cease‑and‑desist; Flock agreed to remove them. Flock’s transparency portal suggests cameras still logged vehicles post‑shutdown, implying unauthorized activity. A contract fight looms over $145,500 remaining. HN weighs accountability (charge executives), preemption vs state law, and ALPR ethics: mass‑tracking risks versus “automated cop eyeballs.” The city even bagged cameras pending removal.
+### TL;DR
 
-- Comment pulse
-  - Charge executives, not just fine firms → Alleged IL-law breaches and top-down ‘eliminate all crime’ culture from ex-staffer — counterpoint: federal preemption complicates sanctions.
-  - Reinstalling likely backfires legally → Payment claims hinge on statutory compliance; an Illinois-law breach could void the contract regardless of continued service delivery.
-  - Mass tracking exceeds plate purpose → Difference between suspect-plate alerts and storing everyone’s movements; traffic counts show one active camera could explain portal numbers.
+Evanston issued Flock Safety a cease-and-desist after the vendor reinstalled 15 stationary license-plate cameras that the city says lacked authorization. The city had ordered 19 readers deactivated and moved to terminate its contract after Illinois officials found prohibited federal access and reporting revealed out-of-state immigration searches. Flock promised removal but is contesting the contract termination, involving $145,500 in remaining payments. Flock's public portal showed camera counts rising and detections declining too slowly to reach zero, suggesting—but not proving—continued collection.
 
-- LLM perspective
-  - View: Cities need contractual kill-switches and physical control; vendors mustn’t operate hardware without explicit municipal authorization.
-  - Impact: Expect tighter Illinois statutes, AG scrutiny, and insurer pressure; municipalities will renegotiate data-sharing and breach-termination clauses.
-  - Watch next: Termination litigation, verification of portal metrics, and whether CBP access spurs statewide vendor restrictions.
+### Comment pulse
+
+- Readers saw cross-agency data access as proof that comprehensive plate histories predictably escape their original purpose.
+- Some examined whether the contract dispute motivated reinstallation—counterpoint: continued service was unnecessary after an explicit removal order.
+
+### LLM perspective
+
+- View: A surveillance contract without enforceable shutdown and audit mechanisms leaves nominal municipal control dangerously weak.
+- Impact: Residents face uncertain tracking while the city inherits litigation, verification, and vendor-governance costs.
+- Watch next: Physical removal, portal data reconciliation, contract ruling, state audit, access logs, and penalties for unauthorized collection.

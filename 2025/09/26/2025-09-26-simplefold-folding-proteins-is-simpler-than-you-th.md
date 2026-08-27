@@ -2,15 +2,17 @@
 
 - Score: 232 | [HN](https://news.ycombinator.com/item?id=45389267) | Link: https://github.com/apple/ml-simplefold
 
-- TL;DR
-  - Apple’s SimpleFold swaps AlphaFold-style bespoke modules for plain transformers trained with flow-matching, scaled to 3B parameters and 8.6M+ distilled structures. It reports competitive CASP/CAMEO accuracy, strong ensembles, and fast local inference via PyTorch/MLX, targeting Macs. HN applauds the simplification and potential scaling, but flags that most training labels come from MSA-heavy models—so “simplicity” piggybacks on upstream complexity. Skeptics say it trails SOTA; others see Apple’s aims as enabling local workflows and showcasing hardware/research.
+### TL;DR
 
-- Comment pulse
-  - Simplicity piggybacks on AF/ESM labels → MSA biases baked in; test on orphan proteins to rule out leakage/rote memorization — counterpoint: scale often closes gaps.
-  - ML vs physics → statistical folding is cheap and fast for similar sequences; simulations still needed for dynamics and validation.
-  - Apple’s angle → local inference on Macs via MLX lowers barriers for labs; also serves chip marketing and research brand-building.
+Apple’s repository accompanies a 2025 preprint for SimpleFold, a protein-structure model using general-purpose transformer layers and flow matching instead of specialized triangle attention or pair-representation biases. The team scaled variants to three billion parameters and trained on experimental PDB structures plus more than 8.6 million distilled predictions, claiming competitive benchmark and ensemble performance. Released code supports PyTorch and Apple-focused MLX inference, evaluation, and training. Commenters stressed that architectural simplicity does not mean raw-data independence or state-of-the-art accuracy, because most supervision came from predictions produced by complex upstream models.
 
-- LLM perspective
-  - View: Distills complex MSA pipelines into a plain transformer with flow-matching; architecture minimalism plus vast distillation, not pure from-scratch learning.
-  - Impact: Cheaper, faster local folding; simplifies stacks without MSA preprocessing; may democratize iterative design and ensemble sampling on commodity hardware.
-  - Watch next: Head-to-head on orphan proteins, de novo folds, multimers; open weights; Mac benchmarks vs ESMFold/AF; physics-guided refinement and dynamics coupling.
+### Comment pulse
+
+- Supporters viewed the simpler scaling baseline as a foundation onto which useful domain-specific machinery could later be added.
+- Skeptics emphasized distillation dependence and said the paper’s reported metrics remain behind leading systems.
+
+### LLM perspective
+
+- View: SimpleFold simplifies the student architecture, not the knowledge pipeline that created its training targets.
+- Impact: Easier local inference could broaden experimentation, while inherited prediction biases may constrain novelty and reliability.
+- Watch next: Results on remote proteins, experimental-only training, accuracy gaps, inference cost, and independent benchmark replication.
