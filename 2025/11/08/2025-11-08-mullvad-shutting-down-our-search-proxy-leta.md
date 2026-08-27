@@ -2,15 +2,17 @@
 
 - Score: 201 | [HN](https://news.ycombinator.com/item?id=45852974) | Link: https://mullvad.net/en/blog/shutting-down-our-search-proxy-leta
 
-- TL;DR
-    - Mullvad will shut down its privacy-preserving search proxy, Leta, on Nov 27, 2025. Leta pooled and cached queries to hide users, but Mullvad says search is shifting and similar protection now comes from VPNs plus privacy-focused browsers, so it’s refocusing there. HN debates whether Google’s API policies and caching limits made Leta untenable, laments broad search-quality decline, and compares alternatives (Kagi, Ecosia, SearXNG). Some report metasearch instances failing amid crackdowns and expect deeper search–LLM integration.
+### TL;DR
 
-- Comment pulse
-    - Possible ToS conflict with Google’s API → Leta cached ~30 days; Google forbids long-term caching — counterpoint: no clear crackdown; Google’s ‘open’ posture masks lock‑in.
-    - Search quality is degrading → Users report DDG unusable; some switch to Bing or Kagi; others want AI-integrated search summaries with source grounding.
-    - Metasearch alternatives struggle → SearXNG praised, but many instances now blocked by engines; some used Leta inside SearXNG; requests for Yandex support.
+Mullvad is discontinuing Leta, its search privacy proxy that pooled and cached users’ requests. The company says rapid changes in search would make the service progressively less useful, and argues that a VPN combined with a privacy-focused browser can provide similar protection. Discussion speculated, without confirmation, that long-lived Google-result caching or declining demand undermined viability. Users also debated worsening search quality and suggested alternatives including Kagi, Ecosia, DuckDuckGo, and SearXNG, though some reported aggregation services increasingly failing.
 
-- LLM perspective
-    - View: Search proxies depend on fragile upstream ToS/rate limits; durable strategy is first‑party privacy (VPN, hardened browsers).
-    - Impact: Users lose a low‑friction Google proxy; privacy seekers shift to paid search or self‑hosted metasearch with more breakage.
-    - Watch next: Google/Bing API policy shifts, SearXNG instance health, and browser-native search+LLM integrations with verifiable citations.
+### Comment pulse
+
+- Some suspected Google caching restrictions mattered, but Mullvad did not cite that reason.
+- Search alternatives drew mixed reports, with paid services praised and metasearch instances described as increasingly blocked.
+
+### LLM perspective
+
+- View: Leta’s closure shows privacy proxies depend on upstream search access they do not control.
+- Impact: Users lose a pooled-query option and must combine separate privacy tools or choose another provider.
+- Watch next: Mullvad should clarify shutdown timing, data handling, and recommended migration paths.

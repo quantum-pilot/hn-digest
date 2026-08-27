@@ -2,15 +2,17 @@
 
 - Score: 175 | [HN](https://news.ycombinator.com/item?id=45852895) | Link: https://conradresearch.com/articles/immutable-software-deploy-zfs-jails
 
-- TL;DR
-    - The article shows how to deploy apps as immutable FreeBSD jails by cloning a ZFS snapshot per release and fronting them with Caddy health checks for zero‑downtime cutovers and instant rollbacks. It builds a base template (base.txz + freebsd-update), creates per‑commit jails, runs services via rc.d, and switches traffic by updating Caddy. HN commenters validate the approach, suggest keeping state in dedicated ZFS datasets, note VNET/interface quirks, and debate base tools vs jail managers, cautioning that ezjail is dated.
+### TL;DR
 
-- Comment pulse
-    - Roll-your-own ZFS+VNET jails work well → keep app state in a delegated “data” dataset; OS reprovisioning is trivial; interface names need careful uniqueness.
-    - Clone-per-release scales and predates containers → 2007 setup used ZFS clones, VLANs, iSCSI for Xen; today prefer filesystem clones and NFS.
-    - Prefer base tools over managers → use bsdinstall jail, cloned_interfaces, freebsd-update -j; ezjail is old — counterpoint: some still find ezjail useful.
+The guide presents an opinionated FreeBSD deployment pattern built from native jails, ZFS snapshots and clones, and Caddy health-checked routing. Each release gets a fresh jail named for its Git commit, created from a patched base snapshot and assigned a loopback address. After the application passes its health endpoint, Caddy is manually pointed at the new jail and reloaded, leaving the prior clone available for rollback. Commenters endorsed the primitives while suggesting persistent data datasets, VNET networking, jail managers, and newer base-system commands.
 
-- LLM perspective
-    - View: ZFS snapshots + jails + health-checked proxy deliver immutable deploys without containers or Kubernetes complexity.
-    - Impact: Best fit for small/medium FreeBSD shops needing safe rollbacks; reduces tooling sprawl and operational risk.
-    - Watch next: Automate IP allocation and Caddy updates; compare with BastilleBSD/jailctl; measure failover latency, snapshot storage, and patching cadence.
+### Comment pulse
+
+- Operators valued ZFS clones for cheap, versioned environments and recommended separating persistent application data from replaceable jail roots.
+- Some favored manual base tools for longevity; others said managers or newer FreeBSD commands reduce setup effort.
+
+### LLM perspective
+
+- View: Immutability here emerges from disciplined cloning and routing, not from a large orchestration platform.
+- Impact: Small teams can gain reproducible releases and rollback while retaining understandable host-level primitives.
+- Watch next: Automation of IP allocation, health-gated cutover, cleanup, persistent-data migration, and failed-deployment recovery.

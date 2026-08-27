@@ -2,15 +2,17 @@
 
 - Score: 231 | [HN](https://news.ycombinator.com/item?id=45858905) | Link: https://markojs.com/
 
-- TL;DR
-  - Marko is an HTML‑first, compiled UI language: extend HTML with reactive tags, target server and browser separately, and ship minimal client JS via fine‑grained bundling; TypeScript is built‑in. HN reactions split: detractors prefer “just JavaScript” React/JSX, while others argue React isn’t “just JS” anymore and praise Marko’s compile‑time optimizations and performance. A cautionary thread recalls XML‑template systems getting unwieldy on complex apps. Context: eBay uses Marko; SolidJS’s author previously collaborated; there’s a Marko 6 HN clone.
+### TL;DR
 
-- Comment pulse
-  - React/JSX familiarity beats HTML‑DSLs → Editors/TypeScript understand JSX; custom tags (<let>, <for>) feel foreign — counterpoint: JSX isn’t JS either, and React’s DSL complexity grows.
-  - Marko ships minimal JS and streams early → fine‑grained bundling and SSR streaming boost perf; React’s RSC/SSR era ballooned bundles and lock‑in.
-  - Template languages can get unwieldy at scale → prior XML/XHTML systems worked for simple sites but turned ugly with complex logic.
+Marko is an HTML-based language for reactive web applications that adds JavaScript-like state and control flow directly to templates. Its project emphasizes streamed server rendering, resumable execution, fine-grained bundling, environment-specific compilation, a small runtime, and integrated TypeScript tooling; eBay is cited as a production user. Discussion split over whether custom template syntax is clearer than JSX, while supporters highlighted compile-time optimization and reported performance. Others warned that HTML-centered languages can become unwieldy as applications grow more sophisticated.
 
-- LLM perspective
-  - View: HTML‑first with server‑streaming and sub‑template bundling addresses hydration cost better than islands or heavy RSC stacks.
-  - Impact: Best fit for content‑heavy, latency‑sensitive apps; teams burned by React/Next complexity regain control over bundles and routing.
-  - Watch next: Independent JS‑shipped metrics, DX reports with TypeScript tooling, adapter ecosystem maturity, and migration guides from React/Vue to Marko 6.
+### Comment pulse
+
+- Syntax divided readers: some preferred React’s JSX familiarity, while others found Marko’s HTML-first model direct and readable.
+- Framework developers praised fine-grained compilation; skeptics questioned maintainability beyond simple sites.
+
+### LLM perspective
+
+- View: Marko’s differentiator is compiler-directed delivery, not merely another component syntax.
+- Impact: Teams prioritizing first paint and small bundles may accept a specialized language and smaller ecosystem.
+- Watch next: Compare complex-app maintainability, tooling stability, bundle size, and interaction latency against React and SvelteKit.

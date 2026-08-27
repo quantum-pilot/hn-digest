@@ -2,15 +2,17 @@
 
 - Score: 149 | [HN](https://news.ycombinator.com/item?id=45857099) | Link: https://gizmodo.com/1-trillion-in-tech-stocks-sold-off-as-market-grows-skeptical-of-ai-2000683226
 
-- TL;DR
-    - A sharp, week-long pullback erased about $1T from AI-linked tech (Nvidia, Meta, Oracle, Palantir), with Microsoft sliding 8.6% across eight sessions. The article ties the drop to mounting doubt about generative AI’s economics—sky-high capex (Microsoft spent ~$35B last quarter) with murky profits—amplified by weak macro signals: layoffs, a data gap from a government shutdown, and slumping consumer sentiment. HN debates media quality, whether this is just routine volatility near highs, and if current AI ROI justifies spend-fueled valuations.
+### TL;DR
 
-- Comment pulse
-    - Low-quality aggregation → Gizmodo rehashes FT with opinionated tone, offering little new reporting — counterpoint: original journalism costs money and fewer outlets fund it.
-    - Not a historic drop → indexes are near recent levels; Nvidia often rallies pre-earnings then retraces; AI returns remain unproven versus enormous capex.
-    - Narratives overfit moves → daily swings get post-hoc stories; still, many expect an AI hype correction; some see pivots toward ad-based monetization.
+A Gizmodo opinion piece links a roughly $1 trillion weekly decline across major technology stocks to investor anxiety over costly AI infrastructure and uncertain returns. It highlights Microsoft’s eight-session, 8.6% slide, large quarterly capital spending, layoffs, and weak consumer sentiment as signs of broader economic strain. Commenters challenged the causal narrative and scale: major indexes and Nvidia remained near recent highs, and short-term market movements rarely reveal one clear cause. The durability of AI economics, not one volatile week, is the substantive question.
 
-- LLM perspective
-    - View: AI trade is shifting from promise to proof; unit economics must beat cloud margins or capex will be rationed.
-    - Impact: Expect CFO scrutiny: slower pilots, tougher procurement, margin pressure for hyperscalers, chip vendors, AI startups reliant on subsidized usage.
-    - Watch next: Watch capex guidance, GPU utilization, inference cost per 1K tokens, enterprise renewals, and regulators on data, energy, and platform power.
+### Comment pulse
+
+- Critics called the article a derivative, overheated rewrite of Financial Times reporting rather than careful market analysis.
+- AI skeptics saw an overdue correction, while others argued current price action remains modest relative to recent gains.
+
+### LLM perspective
+
+- View: Market value erased is emotionally vivid but weak evidence of a lasting change in AI expectations.
+- Impact: Expensive infrastructure programs face closer scrutiny when revenue narratives cannot yet demonstrate proportional returns.
+- Watch next: Capital-spending guidance, AI-linked revenue, and whether valuation weakness persists beyond ordinary earnings volatility.

@@ -2,15 +2,17 @@
 
 - Score: 142 | [HN](https://news.ycombinator.com/item?id=45858945) | Link: https://writerdeckos.com
 
-- TL;DR
-    - WriterdeckOS is a headless Debian build that turns old x86 laptops into distraction-free “writer decks,” booting straight into the Tilde console editor. It strips networking, apps, and notifications by default, with optional nmcli connectivity and cloud sync for export. Install is fully automated and destructive, repurposing the whole disk. HN readers like the focus goal but argue a minimal GUI (Classic Mac–style) may encourage focus without lock-in, warn the ISO wipes drives, and note Tilde lacks features many writers rely on.
+### TL;DR
 
-- Comment pulse
-    - Minimal desktop vs lockdown → Classic Mac–style UI hinders multitasking yet allows research/music when needed — counterpoint: this targets single-purpose, low-cost writer decks.
-    - Beware installer → The ISO auto-installs and wipes the drive; treat it as destructive, back up, and don’t “just try” it.
-    - Tooling trade-offs → Tilde lacks outlining, split view, and project management; Scrivener-style workflows may face added friction.
+writerdeckOS turns 64-bit Intel or AMD laptops and many Chromebooks into dedicated, offline writing devices. Built on headless Debian, it boots directly into the console-based Tilde editor and offers minimal formatting, USB file access, optional shell access, and manually enabled networking for synchronization. Installation is deliberately destructive: it automatically erases the internal drive, has limited hardware testing, and provides no autosave. Commenters liked purposeful computing but questioned whether reduced distraction justifies losing richer writing tools, research access, and easier file workflows.
 
-- LLM perspective
-    - View: Niche is real: deliver a zero-friction path to export/sync without reintroducing distractions; otherwise users bounce back to full OSes.
-    - Impact: Benefits distraction-prone writers; frustrates research-heavy or Scrivener-centric workflows; reversibility affects adoption and e‑waste outcomes.
-    - Watch next: Non-destructive live mode, ARM build, clearer installer warnings, export tooling, and measurements of boot time, battery life, and distraction-resilience.
+### Comment pulse
+
+- One tester warned the installer wiped a drive immediately, reinforcing the project’s backup warning.
+- Fans valued cheap reuse of old laptops; critics preferred focus-oriented systems that preserve optional applications and multitasking.
+
+### LLM perspective
+
+- View: Its strongest feature is enforced constraint, but the destructive installer makes experimentation unusually risky.
+- Impact: Old x86 laptops can replace costly writer decks if users accept Tilde’s limits and manual saving.
+- Watch next: A live mode, explicit confirmation, autosave, encryption, and safer export workflow would broaden adoption.
