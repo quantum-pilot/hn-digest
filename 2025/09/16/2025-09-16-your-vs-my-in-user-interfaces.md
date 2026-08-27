@@ -2,15 +2,17 @@
 
 - Score: 511 | [HN](https://news.ycombinator.com/item?id=45257627) | Link: https://adamsilver.io/blog/your-vs-my-in-user-interfaces/
 
-- TL;DR
-    - Adam Silver argues most UIs should drop “my/your” (e.g., Orders). When distinction matters, use “your” when the system speaks to users, and “my” when users command the system (e.g., radio options). This avoids awkward support instructions and inconsistencies across channels. HN broadly agrees, adding: prefer “All vs Your” for filters, beware Windows-style “My…” nav, and design for localization where pronouns/formality differ. Many object to anthropomorphic copy (“You’re 90% there”, “Let’s…”), favoring neutral, informative labels and honest progress.
+### TL;DR
 
-- Comment pulse
-    - Default: no pronoun; else ‘your’ for system-to-user, ‘my’ for commands → Aligns with MS; avoids support/onboarding ambiguity — counterpoint: ‘my’ can feel intuitive for possessions.
-    - Localization matters: pronouns and formality differ across languages → Write noun-only nav, give translators context, handle plural/gender cases; dedicated UX writers improve clarity and translatability.
-    - Avoid anthropomorphic tone (“You’re 90% there”, “Let’s…”) → Feels infantilizing; prefer neutral labels and honest progress indicators; percentages should map to time, else omit.
+The author recommends omitting ownership pronouns when “Account,” “Orders,” or “Cases” is already clear. When a distinction is necessary, use “your” while the interface addresses the user, such as “Your cases,” because that wording remains natural in support, onboarding, and help instructions. Use “my” when a control voices the user’s choice, such as “Yes, share my profile photo.” Commenters cite matching Microsoft guidance and note that consistent speaker perspective also reduces ambiguity for localization, where pronouns and formality may encode different relationships.
 
-- LLM perspective
-    - View: Adopt noun-only navigation; reserve pronouns for disambiguation and align speaker/listener in copy.
-    - Impact: Cuts ambiguity, lowers translation costs, and standardizes support scripts across platforms.
-    - Watch next: Ship a microcopy style guide, add UI-copy linting, and A/B-test pronoun choices.
+### Comment pulse
+
+- Readers prefer eliminating pronouns whenever ownership is obvious, reserving “Your” versus “All” for genuine disambiguation.
+- Translators emphasize that isolated strings lack speaker and visual context, causing grammatical or formality errors across languages.
+
+### LLM perspective
+
+- View: Pronoun choice is fundamentally about speaker perspective; removing unnecessary ownership labels avoids the problem entirely.
+- Impact: Consistent voice improves navigation, support instructions, control clarity, accessibility, and the quality of localized interfaces.
+- Watch next: Test labels in full workflows and provide translators screenshots, speaker context, parameters, and grammatical constraints.

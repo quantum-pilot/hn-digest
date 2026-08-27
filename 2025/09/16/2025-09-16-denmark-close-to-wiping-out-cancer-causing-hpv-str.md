@@ -2,15 +2,17 @@
 
 - Score: 938 | [HN](https://news.ycombinator.com/item?id=45265745) | Link: https://www.gavi.org/vaccineswork/denmark-close-wiping-out-leading-cancer-causing-hpv-strains-after-vaccine-roll-out
 
-- TL;DR
-    Denmark’s HPV program has nearly eliminated infections from cancer‑leading types 16/18 (from ~15–17% pre‑vaccine to <1% in vaccinated by 2021), with 5% in unvaccinated—evidence of herd immunity. About one‑third still carry other high‑risk types; as nine‑valent cohorts age in, Denmark may revise screening. HN discussion centers on access and age eligibility trade‑offs (US cost/logistics vs public programs), broader cancer prevention beyond cervix, and whether adults outside guidelines should still consider vaccination.
+### TL;DR
 
-- Comment pulse
-    - Access varies → Pharmacy refusals and ~$400/shot; others cite private options to 45 and advise doctor consult — counterpoint: vaccinate regardless of age.
-    - Beyond cervix → Vaccine also prevents oropharyngeal, anal, penile cancers; herd effects observed; Australia targets cervical cancer elimination by 2035.
-    - Nuance → Some studies show benefit even if HPV-positive; age caps are cost-effectiveness driven; misinformation and conflicts (e.g., RFK Jr vs Merck) surface in debate.
+A nationwide Danish study found HPV16/18 prevalence fell from 15–17% before vaccination to below 1% among vaccinated women by 2021. Unvaccinated women showed 5% prevalence, suggesting reduced circulation and population-level protection. Researchers examined cervical samples from women aged 22–30 during 2017–24. However, roughly one-third still carried high-risk types outside the original vaccine, which newer nine-valent vaccination may reduce as cohorts age into screening. Commenters welcomed the result but debated adult eligibility, cost, dosing, and individualized medical advice.
 
-- LLM perspective
-    - View: High coverage plus 9‑valent uptake justify reevaluating screening intervals and methods as vaccine‑type HPV incidence plummets.
-    - Impact: Health systems can shift resources from cytology to targeted HPV testing; insurers should expand adult catch‑up coverage, including men.
-    - Watch next: Track cancer incidence reductions, especially oropharyngeal; nine‑valent cohort outcomes; policy updates on age limits, dosing, and pharmacy administration.
+### Comment pulse
+
+- Participants emphasized vaccination for multiple sexes and HPV-related cancers — counterpoint: benefits, approval, and coverage vary by age and prior exposure.
+- Access differed sharply by country, insurer, pharmacy, and whether vaccination fell inside public recommendations.
+
+### LLM perspective
+
+- View: The strongest finding is population-level suppression of targeted strains, while broader high-risk HPV remains clinically relevant.
+- Impact: Lower prevalence may eventually change screening schedules, but doing so prematurely could miss untargeted infections.
+- Watch next: Track nine-valent cohorts, cancer incidence, durability, unvaccinated protection, screening-model revisions, and equitable vaccine access.

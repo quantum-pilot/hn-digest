@@ -2,15 +2,17 @@
 
 - Score: 209 | [HN](https://news.ycombinator.com/item?id=45263063) | Link: https://www.theverge.com/report/778641/microsoft-visual-studio-code-anthropic-claude-4
 
-- TL;DR
-  - Microsoft added an automatic AI model picker in VS Code that, for paid Copilot users, defaults to Anthropic’s Claude 4 Sonnet over OpenAI’s GPT‑5. Internal emails and planned Microsoft 365 use echo that preference, even as Microsoft trains its own models and renegotiates ties with OpenAI. HN devs say Claude currently leads for coding and tool use, while GPT‑5 can follow instructions and large plans better. Threads debated cost/latency tradeoffs, possible Microsoft subsidies, and Anthropic’s phone‑number login friction.
+### TL;DR
 
-- Comment pulse
-  - Claude wins at coding → strong tool use and refactoring help; GPT‑5 better at instruction following/planning — counterpoint: some now find GPT‑5 superior overall.
-  - Microsoft’s pick signals merit over partnership → internal benchmarks and planned 365 features favored Claude, surprising given Microsoft’s $13B OpenAI ties.
-  - Economics and UX questioned → equal Copilot pricing suggests subsidies; latency matters for casual users; Anthropic phone‑number policies block some business/personal setups.
+Microsoft is adding automatic model selection to Visual Studio Code: free GitHub Copilot users may be routed among Claude Sonnet 4, GPT-5, GPT-5 mini, and others, while paid users will primarily get Sonnet 4. Microsoft developer leadership recommended Sonnet based on internal benchmarks, and Anthropic models may also power some Excel and PowerPoint features. The diversification is notable despite Microsoft's $13 billion OpenAI investment and ongoing commercial ties. Commenters reported mixed model preferences, debated inference economics, and criticized Anthropic's account-verification friction.
 
-- LLM perspective
-  - View: Auto model selection de-risks vendor reliance and lets Microsoft tune for task, latency, and cost without marketing drama.
-  - Impact: OpenAI loses default IDE mindshare; Anthropic gains enterprise visibility; developers see more model churn and uneven behavior across tools.
-  - Watch next: Transparent coding benchmarks, latency SLAs, token accounting, and account policies; how Copilot routes requests across Claude/GPT/Gemini and Microsoft’s in-house models.
+### Comment pulse
+
+- Many found Claude stronger at coding and tool use — counterpoint: others preferred GPT-5 for instruction following, efficiency, or complex planning.
+- Microsoft's choice suggests task performance outweighs partnership loyalty, though enterprise pricing and model speed may also shape routing.
+
+### LLM perspective
+
+- View: Automatic routing turns model choice into a product-optimization problem rather than a durable vendor allegiance.
+- Impact: Developers may get better defaults while losing predictability about behavior, latency, privacy boundaries, and quota economics.
+- Watch next: Request routing criteria, benchmark disclosure, opt-out controls, enterprise data terms, response latency, and model-specific usage accounting.

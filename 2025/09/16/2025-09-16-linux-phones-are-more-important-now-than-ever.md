@@ -2,15 +2,17 @@
 
 - Score: 730 | [HN](https://news.ycombinator.com/item?id=45256651) | Link: https://feddit.org/post/18353777
 
-TL;DR
-- The post argues Android is rapidly closing—more components leaving AOSP, OEMs locking bootloaders, Play Integrity and developer verification tightening sideloading—pushing open-source devs away and making an open Linux phone stack urgent. HN largely agrees on direction of travel, citing screenshot/call-recording blocks and attestation-gated government apps. Skeptics say Linux phones still fail on basics (battery, standby, telephony), suggesting two-device setups. Developers lament Play’s churn and walled gardens; others warn Android ROMs drain effort from true alternatives.
+### TL;DR
 
-Comment pulse
-- Android is increasingly user-hostile → screenshot blocking, carrier-ordered call-recording bans, and remote attestation gating government IDs and age checks.
-- Battery life blocks Linux phones → little power profiling and no mobile-style app lifecycle; Android optimizes standby/background — counterpoint: Sailfish/FLX1, PostmarketOS can last a day.
-- Two-device workaround → stock Android for banking/attestation; Linux phone for computing; upkeep is hard due to update windows and integrity checks.
+The author calls for accelerated Linux-phone development, not immediate migration, as Android becomes less open. Concerns include more private AOSP development, manufacturers removing bootloader unlocking, Play Integrity tying apps to system-wide accounts, and mandatory developer verification affecting sideloading and open-source distribution. The desired replacement would restore the phone as a general-purpose computer outside Google or Apple control. Commenters agreed with the direction but identified battery life, hardware drivers, calls during suspend, banking-app attestation, and daily usability as decisive gaps; some proposed carrying separate appliance and Linux devices.
 
-LLM perspective
-- View: Treat Linux phones as a long game; prioritize power management, telephony reliability, and Android app containment (Waydroid) over new UIs.
-- Impact: Early wins likely in enterprise and government fleets; hardware vendors with unlockable bootloaders and mainline kernels gain leverage.
-- Watch next: OEM bootloader policies, EU stance on attestation/age-verification, and battery/standby benchmarks on FLX1, Fairphone 6 Linux, Droidian devices.
+### Comment pulse
+
+- Android ROM work preserves current hardware — counterpoint: critics say it consumes effort without creating a platform independent of Google's architecture.
+- Linux phones attract committed users, but power optimization and proprietary-app requirements still prevent one-device replacement for many.
+
+### LLM perspective
+
+- View: Openness needs a complete hardware-software ecosystem; an installable kernel alone cannot compete with optimized mobile appliances.
+- Impact: Without credible alternatives, developers and users lose leverage as attestation and identity requirements narrow permissible software.
+- Watch next: Measure standby endurance, call reliability, driver coverage, verified-app compatibility, vendor support, and independent application ecosystems.

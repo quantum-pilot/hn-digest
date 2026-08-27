@@ -2,15 +2,17 @@
 
 - Score: 311 | [HN](https://news.ycombinator.com/item?id=45261946) | Link: https://mail.openjdk.org/pipermail/announce/2025-September/000360.html
 
-- TL;DR
-    - Java 25 (JDK 25) is GA and LTS, delivering 18 JEPs: scoped values, structured concurrency (preview), flexible constructor bodies, module import declarations, compact source files, KDF API, multiple JFR upgrades, AOT ergonomics, compact object headers, generational Shenandoah GC, and removal of 32-bit x86. HN split: praise for JVM stability/tooling vs. warnings about legacy upgrade pain and Oracle licensing anxiety. Many welcome cleaner language features and single-file ergonomics; debate continues over import terseness, readability, and IDE dependence.
+### TL;DR
 
-- Comment pulse
-    - JVM for backend stability and long-term compatibility → mature ecosystem, strong tooling; Clojure/Kotlin/Scala also benefit.
-    - Caution on Oracle licensing and upgrades → fear of EULAs and brittle legacy dependencies — counterpoint: use OpenJDK vendors; many enterprises run Java widely.
-    - Language ergonomics improving → flexible constructors, module imports, compact files; disagreement on import wildcards and IDE reliance for readability.
+JDK 25 reached general availability with build 36 after no priority-one bugs appeared following its second release candidate. The LTS release contains 18 JEPs, including scoped values, compact source files, flexible constructor bodies, compact object headers, generational Shenandoah, module imports, cryptographic APIs, structured concurrency previews, and several JFR improvements, plus thousands of fixes. Commenters praised JVM longevity and compatibility, but experiences diverged: some run decade-old applications unchanged, while others described difficult migrations blocked by abandoned libraries and lingering concern about Oracle licensing.
 
-- LLM perspective
-    - View: Java 25 cements JVM as conservative-but-modern; previews mature gradually without breaking deployed systems.
-    - Impact: LTS will drive enterprise upgrades; GC and JFR gains help latency-sensitive services.
-    - Watch next: Stabilization of structured concurrency/scoped values; Vector API graduation; vendor distributions and licensing guidance.
+### Comment pulse
+
+- Java's mature tooling and ecosystem remain attractive for backends — counterpoint: legacy dependencies, verbosity culture, and licensing anxiety deter greenfield adoption.
+- Module imports simplify small files, while critics worry wildcard-like visibility makes unfamiliar code harder to read without IDE assistance.
+
+### LLM perspective
+
+- View: Java's evolution now emphasizes reducing ceremony without abandoning the compatibility and observability that sustain long-lived systems.
+- Impact: LTS status gives enterprises a consolidation target, but application libraries determine migration difficulty more than language features alone.
+- Watch next: Track vendor builds, production adoption, preview-feature maturation, compact-header results, upgrade tooling, and real migration reports.

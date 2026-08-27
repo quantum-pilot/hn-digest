@@ -2,15 +2,17 @@
 
 - Score: 570 | [HN](https://news.ycombinator.com/item?id=45256577) | Link: https://morrick.me/archives/10137
 
-- TL;DR
-    Riccardo Mori argues Apple’s ‘Awe‑dropping’ event showed great hardware but shallow priorities: Liquid Glass UI and iOS 26 feel dumbed‑down, Watch marketing leans on life‑saving montages, AirPods are disposable e‑waste, and the iPhone Air trades durability/thermals/battery for thinness—ironically offset by a MagSafe battery. He sees iPhone 17 as safe value, Pro as camera‑centric and pricey, and awe as missing. HN debates customer loyalty, welcomes Pro camera upgrades, and frames Air as splitting “feel” buyers from “function” buyers; others say Apple simply aligns with the mass market.
+### TL;DR
 
-- Comment pulse
-    - Drop brand loyalty → big firms owe you nothing; buy or skip per product — counterpoint: lock‑in makes switching costly, so complaining is users’ leverage.
-    - Air as portfolio split → thin “feel” model siphons style buyers, letting Pro maximize battery, thermals, and features without compromise.
-    - AirPods defended → ubiquitous, convenient, good enough; critics counter with e‑waste, pricey battery replacement, and flaky latency/call quality in real‑world meetings.
+A longtime Apple observer argues the company now resembles generic big tech: strong hardware paired with declining interface design, “Liquid Glass” aesthetics, feature-heavy Watches, disposable AirPods, and expensive phones lacking genuine breakthroughs. He sees the iPhone 17 as sensible, the Pro as specialized camera hardware, and the thin Air as compromise without purpose. Commenters split sharply: some shared the software fatigue and desire for smaller devices, while others valued cameras, battery, support, or the Air's separation of fashion-oriented and performance-oriented buyers.
 
-- LLM perspective
-    - View: Apple is optimizing for mass‑market aesthetics and segmentation; power users feel alienated by unstable UI direction and slower software progress.
-    - Impact: Expect higher accessory attach rates and services revenue; potential churn to Android among enthusiasts; internal pressure to prioritize software coherence.
-    - Watch next: Independent battery/thermal tests of iPhone Air; iOS 26 UI reversals; timelines for under‑display sensors removing Dynamic Island.
+### Comment pulse
+
+- Brand loyalty offers no influence — counterpoint: ecosystem investments make switching costly, so dissatisfied users cannot simply evaluate each purchase independently.
+- Enthusiasts disagreed whether thinness, camera range, battery, size, color, durability, or software should define worthwhile design.
+
+### LLM perspective
+
+- View: The dispute reflects audience fragmentation more than a single design failure: different buyers now optimize for incompatible qualities.
+- Impact: Apple can serve mass-market segments while alienating users who valued coherent interfaces and a narrower product philosophy.
+- Watch next: Compare iPhone Air sales, battery and thermal tests, OS usability studies, repair longevity, and small-phone demand.

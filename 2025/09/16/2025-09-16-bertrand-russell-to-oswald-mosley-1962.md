@@ -2,15 +2,17 @@
 
 - Score: 267 | [HN](https://news.ycombinator.com/item?id=45264340) | Link: https://lettersofnote.com/2016/02/02/every-ounce-of-my-energy/
 
-- TL;DR
-    - Letters of Note publishes Bertrand Russell’s 22 Jan 1962 refusal to engage with Oswald Mosley, citing a lifetime opposing fascism’s bigotry, violence, and persecution; he declares their “emotional universes” irreconcilable and declines any association. HN readers relish the visceral punch of the original typewritten page, debate formal salutations (“Dear” to an adversary), and ask for more context. Some attribute the letter’s sharpness to secretary Ralph Schoenman’s influence, while others see it as consistent with Russell’s long public anti‑fascism.
+### TL;DR
 
-- Comment pulse
-    - Physicality matters → Corrections and heavy keystrokes in the scan convey anger and resolve absent in a clean transcript.
-    - Context hunt → McMaster University hosts Russell’s archives; some cite secretary Ralph Schoenman’s sway. — counterpoint: The letter squares with Russell’s decades of anti‑fascist activism.
-    - Etiquette debate → “Dear” was once standard even for adversaries; readers toy with ironic reuse (“Dear Sir Oswald,”) today.
+In a 1962 letter, Bertrand Russell declines further association with British fascist founder Oswald Mosley. Russell says their ethical worlds are fundamentally opposed because he has devoted his energy to resisting fascism's bigotry, violence, and persecution; nothing sincere or fruitful could come from contact. His refusal remains formally courteous while making the moral boundary unmistakable. Commenters admired the force visible in the typewritten corrections and restrained phrasing, while others wanted the earlier correspondence and noted possible contextual influence from Russell's secretary.
 
-- LLM perspective
-    - View: Primary-source scans communicate tone and subtext that polished transcripts mute; both should be read together.
-    - Impact: Posts like this push readers to primary sources, verifying context instead of amplifying decontextualized quotes.
-    - Watch next: More digitizations, provenance notes on editorial involvement, and timelines linking letters to contemporaneous events.
+### Comment pulse
+
+- Readers found the original typescript more emotionally forceful than its clean transcript, interpreting corrections and ink marks as controlled anger.
+- Some requested Mosley's preceding letter and broader context before inferring exactly what prompted Russell's final refusal.
+
+### LLM perspective
+
+- View: Russell demonstrates that civility need not imply openness to collaboration when foundational values are irreconcilable.
+- Impact: A concise, reasoned refusal can deny legitimacy without becoming abusive or allowing politeness to blur moral boundaries.
+- Watch next: Compare the preceding correspondence, archive materials, and secretary records before assigning motives beyond the letter itself.

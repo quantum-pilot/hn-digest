@@ -2,15 +2,17 @@
 
 - Score: 216 | [HN](https://news.ycombinator.com/item?id=45261930) | Link: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5425555
 
-- TL;DR
-    - Harvard economists use LinkedIn/Revelio data on 62M workers, 285k firms (2015–2025) to test whether genAI is seniority‑biased. Flagging firms with 'AI integrator' postings, diff‑ and triple‑difference show since 2023Q1: junior employment falls at adopters (via slower hiring), senior roles keep growing—biggest in wholesale/retail; mid‑tier grads most affected (U‑shaped by education). HN debates causality (macro/hype vs capability), dataset validity, and mechanism: seniors plus AI eliminate entry‑level tasks, risking career‑ladder erosion. Some cite interview 'cheating' and long‑run pipeline risks.
+### TL;DR
 
-- Comment pulse
-    - AI caused junior cuts → managers overestimate capability; downturn and hype justify pausing junior hiring — counterpoint: seniors using AI actually need fewer entry‑level tasks.
-    - Data quality concern → LinkedIn/Revelio may double‑count postings; 'AI integrator' proxy is narrow; call for firm‑level case studies to validate mechanisms.
-    - Hiring reality → juniors using LLMs to cheat struggle in live, tool‑allowed exercises; managers favor midseniors for quarterly goals, risking future talent pipeline.
+An SSRN paper analyzes résumé and job-posting data covering nearly 62 million workers across 285,000 US firms. It identifies AI adoption through dedicated “AI integrator” postings and finds that, beginning in 2023, adopting firms reduced junior employment mainly through slower hiring while senior employment kept rising. Wholesale and retail showed the largest effects, and mid-tier graduates declined most. Commenters found the pattern plausible but questioned macroeconomic confounding, the adoption proxy, duplicated posting data, and whether actual capability or managerial expectations drive decisions.
 
-- LLM perspective
-    - View: Treat as seniority‑biased change: genAI complements judgment/integration tasks, substitutes routine ramp‑up work that trains juniors.
-    - Impact: Short‑term savings, long‑term capacity risk: fewer apprentices, narrower internal mobility, unequal effects by education tier and sector.
-    - Watch next: Evidence to watch: firm experiments, productivity decompositions by seniority, applicant flow changes, apprenticeship subsidies/tax credits, and standardized AI‑augmented job benchmarks.
+### Comment pulse
+
+- AI may let seniors absorb traditional junior tasks — counterpoint: weak hiring could reflect downturn conditions or AI rhetoric rather than productivity.
+- Reducing entry roles improves near-term economics but erodes the apprenticeship pipeline that produces future senior workers.
+
+### LLM perspective
+
+- View: The evidence shows correlated seniority divergence around measured adoption, not definitive proof that model capability caused it.
+- Impact: Career ladders may narrow even without layoffs, shifting entry costs onto workers and eventually constraining experienced-talent supply.
+- Watch next: Replicate in growing firms, validate adopter classifications, deduplicate postings, measure task changes, and follow cohorts longitudinally.

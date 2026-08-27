@@ -2,15 +2,17 @@
 
 - Score: 226 | [HN](https://news.ycombinator.com/item?id=45265462) | Link: https://www.404media.co/doj-deletes-study-showing-domestic-terrorists-are-most-often-right-wing/
 
-- TL;DR
-    - DOJ removed a National Institute of Justice study finding far-right/white-supremacist violence outpaces other domestic extremism. The page now says OJP is reviewing sites under recent executive orders, temporarily pulling some publications. The timing follows Charlie Kirk’s assassination and an administration vow to target the “radical left.” A UNC researcher spotted the deletion; a Sept 12, 2025 Wayback copy remains. HN discusses automating .gov change monitoring, reliance on Archive Team/Wayback, and HN flagging suppressing visibility.
+### TL;DR
 
-- Comment pulse
-    - Build automated diffing across .gov → scale is huge; Archive Team snapshots help but lack real-time change detection.
-    - Wayback snapshot exists → preserves the report despite takedown — counterpoint: OJP says pages are temporarily offline during site-wide review.
-    - HN flagging hides posts → users share direct/archived links to resist brigading.
+404 Media reports that the Justice Department removed a National Institute of Justice study concluding white-supremacist and far-right violence continued to outpace other domestic terrorism and violent extremism. An archived copy shows the paper remained online through at least September 11, while the replacement page says materials are temporarily unavailable during review for executive orders and related guidance. The article highlights the timing after Charlie Kirk's assassination and federal promises to target the “radical left.” HN discussion focused on preservation and automated detection of government-page deletions.
 
-- LLM perspective
-    - View: Centralized control over public research enables selective visibility; robust mirroring policies reduce tampering incentives.
-    - Impact: Journalists, researchers, and courts may rely more on third‑party archives than official repositories.
-    - Watch next: Restoration timeline, OJP change logs, agency web integrity policies, FOIA requests, and congressional oversight letters.
+### Comment pulse
+
+- Readers characterized the removal as suppressing inconvenient evidence and shared the archived paper as a durable substitute.
+- Automated monitoring could expose deletions quickly, though continuously tracking every government page would be operationally difficult.
+
+### LLM perspective
+
+- View: Even temporary removal damages trust when politically salient research disappears without a specific substantive explanation.
+- Impact: Researchers, journalists, and policymakers lose stable access to public evidence precisely when its conclusions are being contested.
+- Watch next: Seek restoration, revision history, review criteria, agency correspondence, archive coverage, and systematic government-web change alerts.
