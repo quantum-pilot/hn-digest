@@ -2,15 +2,17 @@
 
 - Score: 371 | [HN](https://news.ycombinator.com/item?id=45812606) | Link: https://github.com/Snowflake-Labs/pg_lake
 
-- TL;DR
-  - pg_lake is a Postgres extension suite that turns PostgreSQL into a transactional lakehouse: create Apache Iceberg tables, query Parquet/CSV/JSON on S3, and COPY to/from object storage—all from SQL. It embeds DuckDB for fast execution while Postgres supplies transactions and catalog, enabling high‑rate OLTP writes and atomic moves into Iceberg. HN praises it as an “open‑source Snowflake,” compares it with DuckLake’s simpler stack, and asks for a managed option; maintainers emphasize Iceberg interoperability and Postgres‑native orchestration.
+### TL;DR
 
-- Comment pulse
-  - Single system for apps and analytics → teams avoid ETL pipelines; OLTP changes become analytics-ready snapshots with ACID guarantees.
-  - Use DuckLake instead → simpler stack with DuckDB and pg_duckdb; — counterpoint: Postgres adds ACID across OLTP/analytics, high-rate inserts, orchestration, Iceberg interoperability.
-  - Ask for managed offering via Snowflake billing → Docker eases trials, but production teams prefer hosted operations and integration.
+Snowflake Labs' Apache-licensed pg_lake project combines PostgreSQL extensions with a DuckDB-backed Postgres-wire server. It can create, modify, and query Iceberg tables; read or move data in S3 formats including Parquet, CSV, and JSON; and mix heap tables, Iceberg, and external files in SQL workflows. The project pitches a shared transactional and catalog boundary for operational and analytical data. Commenters welcomed the idea but questioned its use case, managed-service path, and differentiation from DuckLake; maintainers emphasized Postgres-native transactions and orchestration.
 
-- LLM perspective
-  - View: Embedding DuckDB under Postgres flips lakehouse architecture: compute engine inside database, not database inside engine.
-  - Impact: SMBs can consolidate OLTP and analytics workflows on Postgres, deferring warehouse spend while keeping Iceberg portability.
-  - Watch next: Benchmarks versus Snowflake/BigQuery and DuckDB; write-heavy stress, Iceberg compatibility matrix, security model, and a managed service announcement.
+### Comment pulse
+
+- Several readers wanted a managed offering and clearer production guidance.
+- Maintainers argued the differentiator is transactional coordination between Postgres heap tables and Iceberg, not simply embedded DuckDB.
+
+### LLM perspective
+
+- View: The compelling unit is one transactional Postgres workflow spanning operational rows and lakehouse tables.
+- Impact: Existing Postgres teams could add analytical storage without immediately adopting a separate control plane.
+- Watch next: Independent benchmarks, recovery behavior, concurrency limits, catalog interoperability, and a credible managed deployment story.

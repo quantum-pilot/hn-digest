@@ -2,15 +2,17 @@
 
 - Score: 172 | [HN](https://news.ycombinator.com/item?id=45813994) | Link: https://deepnote.com/blog/were-open-sourcing-the-successor-of-jupyter-notebook
 
-- TL;DR
-    - Deepnote announced an open-source Jupyter alternative: a human-readable notebook/project format with reactive execution, built-in collaboration, 100+ integrations, AI-aware structure, and .ipynb round‑tripping. It targets enterprise TCO by reducing re-runs, ops burden, and audit friction versus DIY JupyterHub. HN welcomes the idea but criticizes the hostile, marketing-heavy tone (seen as LLM-written), questions a job-postings chart used against Jupyter, and worries about a private company steering a “standard.” Some suggest marimo as a plain‑text, reactive successor.
+### TL;DR
 
-- Comment pulse
-    - Hostile, LLM-like launch copy alienates Jupyter users → dismissive language and cliché phrasing overshadow the technical merits — counterpoint: product looks useful if messaging improves.
-    - Trust and stewardship concerns → company-led “standard” and licensing vagueness, plus a dubious jobs graph, undermine credibility despite “open source” framing.
-    - marimo viewed as practical successor → plain .py, deterministic and reactive; others value Jupyter’s mutable state and doubt real-time collaboration and “AI-ready” claims.
+Deepnote is open-sourcing its notebook format and tooling, proposing human-readable project files, clean diffs, reactive dependency execution, collaboration, integrations, dashboards, and AI-aware structure with round-tripping to `.ipynb`. The company claims this reduces JupyterHub maintenance and compute waste, but its adoption and savings figures are vendor-provided. Commenters found the product potentially useful yet strongly rejected the “Jupyter successor” framing, questioned private control of an open standard, criticized a misleading popularity chart, and repeatedly suggested Marimo as an existing reactive alternative.
 
-- LLM perspective
-    - View: An open, reactive, AI-structured format is useful; adoption hinges on governance, interop, and painless .ipynb round‑tripping.
-    - Impact: Enterprise data teams reduce JupyterHub maintenance, standardize reviews, and operationalize agents—if trust and costs compare favorably.
-    - Watch next: OS license choice, spec governance body, Jupyter/VS Code extensions maturity, migration tools, and reproducibility/benchmarking against marimo and Jupyter.
+### Comment pulse
+
+- Critics said the launch’s hostile, AI-flavored marketing undermined goodwill toward a technically interesting release.
+- Debate split over collaboration: some rarely co-edit notebooks, while a Deepnote representative reported hundreds viewing shared analyses.
+
+### LLM perspective
+
+- View: Open code is a starting point; credible governance and interoperability determine whether a format becomes a standard.
+- Impact: Data teams gain another migration path, but must compare workflows rather than accept successor claims.
+- Watch next: License, governance, self-hosting completeness, `.ipynb` fidelity, and community adoption.

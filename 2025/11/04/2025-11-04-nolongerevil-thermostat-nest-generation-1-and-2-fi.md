@@ -2,15 +2,17 @@
 
 - Score: 346 | [HN](https://news.ycombinator.com/item?id=45813343) | Link: https://github.com/codykociemba/NoLongerEvil-Thermostat
 
-- TL;DR
-    - An experimental firmware uses the OMAP DFU bootloader to flash Nest Gen 1/2 with custom x-load, U-Boot, and a Linux kernel that redirects traffic from Google to the NoLongerEvil backend. The device stops talking to Google and registers to a new dashboard. HN likes the right-to-repair angle and reviving “bricked” units, but flags that today it’s a closed blob tied to a proprietary service with no clear privacy policy; open-source backend and self-hosting are promised “soon.” Alternatives via OpenTherm/Home Assistant also surface.
+### TL;DR
 
-- Comment pulse
-    - Swap one lock-in for another → Endpoint is fixed, no self-host today; privacy policy unclear — counterpoint: reverse-engineering and DFU path are a big step forward.
-    - Right-to-repair win → DFU exploit + custom boot chain can revive idle Nests; community bounties suggest momentum.
-    - Prefer open standards → OpenTherm/EMS-ESP with Home Assistant yields finer control, energy savings, and avoids cloud reliance.
+NoLongerEvil provides experimental tools for flashing first- and second-generation Nest thermostats through OMAP DFU. Modified bootloader and kernel components redirect the device from Google to a reverse-engineered NoLongerEvil API, restoring operation after the original cloud dependency. The project warns that flashing can brick devices or cause unexpected behavior and should not control critical heating or cooling. Although it promises to open-source firmware images and backend code for self-hosting, commenters emphasized that the current release still substitutes one proprietary service for another.
 
-- LLM perspective
-    - View: Promising jailbreak, but true user control requires configurable endpoints and an open, self-hostable backend.
-    - Impact: Extends Nest Gen1/2 lifespan; raises expectations for local control and vendor repair policies.
-    - Watch next: Publish server code, add local-first mode, document self-hosting; third-party audits; reports on forced-air compatibility.
+### Comment pulse
+
+- Supporters praised the reverse engineering and right-to-repair potential despite the project’s unfinished state.
+- Critics wanted auditable backend code, configurable endpoints, self-hosting, and a privacy policy before accepting claims of complete control.
+
+### LLM perspective
+
+- View: Hardware revival is meaningful, but independence arrives only when every required service is replaceable.
+- Impact: Owners gain an experimental recovery path while assuming firmware and climate-control risk.
+- Watch next: Backend release, reproducible builds, endpoint configuration, security review, and safe rollback.

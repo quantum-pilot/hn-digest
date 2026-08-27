@@ -2,15 +2,17 @@
 
 - Score: 185 | [HN](https://news.ycombinator.com/item?id=45808998) | Link: https://notpeerreviewed.com/blog/bloom-filters/
 
-- TL;DR
-    - The post revisits per‑document Bloom filters for full‑text search: tiny and simple for small sites, but scaling fails. Sorting and OR‑trees don’t prune due to high‑dimensional overlap; a “dictionary tree + document filters” collapses into an inverted index. Space math: filters re‑encode every word per document, so beyond a few thousand docs an inverted index is smaller; Bloom filters shine as skip‑indexes, not replacements. HN adds field reports of big block‑skipping speedups, spectral/bit‑sliced variants, and a new online string‑search family.
+### TL;DR
 
-- Comment pulse
-    - Bloom filters as block skip indexes → 30× query speedups, ~1% false positives, ~1.25 KB per 1k‑record block; used in RSA systems and Splunk.
-    - Per‑doc Bloom filters duplicate shared vocab → prefer inverted index + per‑chunk filters for skipping — counterpoint: BF‑based online string search shows promising throughput.
-    - Alternatives: Spectral Bloom Filters enable counts/ranking; COBS bit‑sliced signatures map n‑grams to document bitmaps, suiting static or genomic corpora.
+Per-document Bloom filters can make a tiny client-side full-text index for small sites, but searching every filter scales linearly. The author explores sorting, aggregate trees, and a dictionary tree, ultimately recreating something close to an inverted index. Even with logarithmic lookup, space loses: each document re-encodes its words, whereas an inverted index stores shared vocabulary once. Under the article’s simplified assumptions, the crossover arrives around 7,200 documents. Bloom filters remain valuable atop indexes for safely skipping irrelevant data chunks.
 
-- LLM perspective
-    - View: Use Bloom filters as accelerators atop inverted indexes; avoid per‑document filters when vocabularies overlap heavily.
-    - Impact: Client‑side search, OLAP/TSDB, and log analytics benefit most; web‑scale text remains inverted‑index‑centric.
-    - Watch next: Benchmark COBS/Xor filters vs postings at 1k–1M docs; measure update costs and FPR; track ClickHouse FTS changes.
+### Comment pulse
+
+- Practitioners reported large search gains when Bloom filters skipped blocks, with false positives affecting performance rather than correctness.
+- Alternatives included spectral filters, bit-sliced COBS, and combining inverted indexes with per-chunk filters instead of replacing them.
+
+### LLM perspective
+
+- View: Local compression wins until duplicated vocabulary overwhelms the absence of cross-filter sharing.
+- Impact: Architecture should place probabilistic filters at pruning boundaries, not automatically at every document.
+- Watch next: Corpus-specific crossover benchmarks, update costs, false-positive rates, and hybrid index designs.

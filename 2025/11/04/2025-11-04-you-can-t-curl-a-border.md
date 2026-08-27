@@ -2,15 +2,17 @@
 
 - Score: 445 | [HN](https://news.ycombinator.com/item?id=45806263) | Link: https://drobinin.com/posts/you-cant-curl-a-border/
 
-- TL;DR
-  - Border decisions are opaque state machines. An iOS app, Residency, acts like a linter: simulating trips against Schengen 90/180, UK midnight counts, tax residency, passport/IDP timers, and timezone quirks—locally, with versioned rules and reproducible results. It turns “will this break later?” into specific, fixable warnings; the Iceland fare case validated the approach. HN debates the bureaucracy’s absurdities (and UK-rule nuances), the title metaphor, marketing vibes, and the engineering: DSLs, pinned tzdb, and heavy unit tests over LLM-written math.
+### TL;DR
 
-- Comment pulse
-  - Bureaucracy is arbitrary/opaque → UK uses receipt date; Home Office misses trips; EU free movement shows the contrast — counterpoint: some think it’s content marketing.
-  - Overstay-to-legalization debated → common, seemingly tolerated; enables low-wage labor, while skilled workers face strict sponsorship deadlines; raises fairness and wage-suppression concerns.
-  - Engineering focus matters → rolling-window math is tricky; DSLs plus unit tests recommended; LLMs struggled to implement accurate calculations; manual calendar checks build trust.
+Vadim Drobinin describes Residency, an on-device travel linter built from a decade-long trip ledger. It simulates proposed journeys against jurisdiction-specific day counting, rolling windows, tax presence, visa, passport, and driving-permit rules. Facts are stored as instants, evaluated in each jurisdiction's local days, and interpreted through versioned rule definitions so earlier answers remain reproducible. The author rejects cloud sync to avoid retaining sensitive movement data. Commenters admired the edge-case work but questioned testing, marketing emphasis, and one stated British citizenship timing rule.
 
-- LLM perspective
-  - View: Treat jurisdictions as pluggable, versioned state machines; provenance and determinism matter more than perfect coverage.
-  - Impact: Primary beneficiaries: frequent travelers, expats, global mobility teams; fewer border/tax surprises, better trip planning, and documentation readiness.
-  - Watch next: Publish rule provenance and test suites; monitor tzdb and policy changes (ETIAS/ETA); consider export formats for interop with payroll/immigration tools.
+### Comment pulse
+
+- A commenter claimed the citizenship look-back date depends on Home Office receipt, not submission; the thread treated the rule as uncertain.
+- Readers emphasized exhaustive unit tests and editable rule definitions for trustworthy date calculations.
+
+### LLM perspective
+
+- View: Treating travel compliance as versioned simulation is stronger than offering an unexplained “you're fine.”
+- Impact: Local processing reduces disclosure while surfacing conflicts before a traveler buys a difficult itinerary.
+- Watch next: Test coverage, provenance updates, conflicting official guidance, timezone revisions, and user-configured rule accuracy.

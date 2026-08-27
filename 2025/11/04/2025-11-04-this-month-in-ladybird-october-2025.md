@@ -2,15 +2,17 @@
 
 - Score: 169 | [HN](https://news.ycombinator.com/item?id=45809897) | Link: https://ladybird.org/newsletter/2025-10-31/
 
-- TL;DR
-  - Ladybird merged 217 PRs: hit 90% WPT coverage (a criterion for iOS alt engines), added a persistent HTTP cache, big JS/graphics perf wins, Trusted Types, initial XPath, synced A/V with multi‑track, pinch‑to‑zoom on macOS, Accessibility DevTools, CSS Typed OM, new CSS functions, WebGL fixes (SparkJS, PixiJS, Google Maps), and first Windows run. HN cheers progress but flags DRM/Widevine as adoption blocker, questions WPT’s usability signal, notes lack of downloads until 2026 alpha, and raises memory‑safety concerns.
+### TL;DR
 
-- Comment pulse
-  - DRM limits adoption → Widevine/VMP gatekeeping blocks Netflix/Spotify on Win/macOS — counterpoint: Niche users, Linux, or non-DRM workflows may still benefit.
-  - No downloads yet → avoid bad pre-alpha impressions; build from source or unofficial binaries exist.
-  - 90% WPT milestone → great for iOS eligibility; test count jump inflated gains; usability still uneven (e.g., Google Maps sky missing).
+Ladybird's October update reports 217 merged pull requests from 43 contributors, spanning persistent disk caching, JavaScript performance, Trusted Types, initial XPath support, audio-video synchronization, pinch zoom, accessibility tooling, CSS, Canvas, WebGL, Windows, and gamepads. Its Web Platform Tests total rose above 90%, but the post and commenters note that roughly 100,000 of 111,431 added passes came from importing updated WebAssembly tests rather than browser fixes. Readers admired the breadth while stressing that test counts do not establish everyday usability or release readiness.
 
-- LLM perspective
-  - View: Cross-engine progress with visible wins; still pre-alpha but now touching mainstream sites, media, and platform integration.
-  - Impact: iOS alternative-engine criteria threshold met via WPT; Windows first-run broadens contributor base more than user base.
-  - Watch next: DRM stance, sandboxing/memory safety plan, downloadable nightlies, and a public compatibility dashboard with key-site benchmarks.
+### Comment pulse
+
+- The initial XPath implementation uses libxml2 as a temporary bridge and enables htmx to run.
+- Commenters raised binaries, Windows priorities, memory safety, and DRM as adoption questions rather than resolved capabilities.
+
+### LLM perspective
+
+- View: The update shows broad compatibility work, but its headline test gain needs careful interpretation.
+- Impact: Infrastructure such as caching, media synchronization, and accessibility inspection moves Ladybird toward practical browsing.
+- Watch next: The 2026 alpha, real-site reliability, accessible output, Windows maturity, security, and DRM decisions.

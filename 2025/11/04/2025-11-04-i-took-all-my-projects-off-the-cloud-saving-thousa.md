@@ -2,15 +2,17 @@
 
 - Score: 207 | [HN](https://news.ycombinator.com/item?id=45816041) | Link: https://rameerez.com/send-this-article-to-your-friend-who-still-thinks-the-cloud-is-a-good-idea/
 
-- TL;DR
-  - An indie developer moved workloads from AWS to Hetzner VPS/bare metal, dropping monthly infra from ~$1,400 to <$120 while improving performance, arguing most small/medium apps don’t need managed cloud features. He blames lock‑in and marketing for 10–100x markups, says datacenters are robust, and that AI makes Linux ops tractable; Cloudflare can cover edge needs. HN highlights cloud’s convenience, compliance, burst capacity, and engineering‑time tradeoffs; many recommend using credits for MVPs, then migrating to portable, dedicated servers to rein in egress and costs.
+### TL;DR
 
-- Comment pulse
-  - Cloud conveniences → managed services/compliance enable quick assembly and burst capacity; engineering time can dwarf hardware savings — counterpoint: AWS docs/ops overhead also expensive.
-  - MVP then migrate → use credits/free tiers to validate, keep architectures portable, later move off to cut egress and RI lock‑in.
-  - Dedicated servers sweet spot → hourly bare‑metal/VPS deliver predictable price/performance without colocation hassles; compute improved 100x while cloud prices lag.
+An indie developer says moving projects from AWS to two rented Hetzner servers cut monthly infrastructure spending from about $1,400 to under $120 while doubling performance. The author argues that most small software businesses need neither hyperscale managed services nor complex distributed systems, and that Linux administration is manageable. His broader accusations about cloud engineers’ motives are unsupported generalizations. Commenters agreed dedicated servers can be dramatically cheaper, but stressed cloud advantages including rapid provisioning, managed databases, certifications, burst capacity, multi-zone options, and saved engineering time.
 
-- LLM perspective
-  - View: Evaluate TCO including engineering time, risk, and egress; steady workloads favor fixed-price VPS/dedicated over managed services.
-  - Impact: Indie devs/SMBs can slash costs fast; infra teams must justify managed services with compliance, burst needs, or staffing constraints.
-  - Watch next: Track portable stacks, CDN/caching adoption, fair egress pricing; publish benchmarks comparing Hetzner/Linode/DO vs AWS C6 for representative workloads.
+### Comment pulse
+
+- A balanced view treated excessive cost as paying for unused capabilities, not proof that cloud platforms lack value.
+- Startup credits favor rapid experiments, but portable architecture matters because later migration competes with product work and vendor lock-in.
+
+### LLM perspective
+
+- View: Workload shape, labor cost, and risk requirements decide the platform; ideology obscures that calculation.
+- Impact: Stable, moderate workloads may capture large savings by trading managed features for operational ownership.
+- Watch next: Long-term uptime, backup restores, security maintenance, labor hours, and growth-related migration pressure.

@@ -2,15 +2,17 @@
 
 - Score: 315 | [HN](https://news.ycombinator.com/item?id=45813767) | Link: https://cognition.ai/blog/codemaps
 
-- TL;DR
-  - Cognition’s Windsurf adds Codemaps: task-scoped, AI-annotated maps that link explanations directly to exact lines across a codebase. You prompt a goal, pick Fast (SWE‑1.5) or Smart (Sonnet 4.5), get a clickable map or visual graph, expand “trace guides,” and even pass @{codemap} into agents for sharper execution. It aims to curb “vibe coding” by improving understanding, onboarding, and accountability. HN likes the UX and utility, while skeptics see old wine in new bottles; docs hiccup on Linux upgrade was quickly fixed.
+### TL;DR
 
-- Comment pulse
-  - Praised utility/UX → Windsurf + Codemaps feel effective now; concern: map freshness amid churn, but seems solvable; expectation others will copy.
-  - “Not new; static analysis/mermaid exist” → value unclear; onboarding needs domain context more than diagrams — counterpoint: LLMs choose useful abstraction levels, not machine-like sprawl.
-  - Docs snag → Linux upgrade command risked system-wide updates; vendor fixed fast; after upgrade, feature proved nifty.
+Cognition’s Windsurf Codemaps generates task-specific, AI-annotated views of a codebase using SWE-1.5 or Claude Sonnet 4.5. Engineers can browse grouped code references, open visual dependency maps, expand trace explanations, and pass a map or subsection into Cascade as context. Cognition positions this as a way to preserve human understanding while agents write more code, especially for cross-service flows and debugging. Commenters liked the navigable presentation but questioned novelty, accuracy, enterprise focus, and overlap with static analysis or generated diagrams.
 
-- LLM perspective
-  - View: The novelty is task-scoped, line-linked, agent-usable maps that aid human oversight, not the diagrams themselves.
-  - Impact: Faster onboarding/debugging for large, multi-service repos; raises bar for IDE-integrated agent context.
-  - Watch next: Measurable task success/latency gains, a .codemap spec, auto-refresh accuracy under churn, enterprise ZDR posture, and competitor clones.
+### Comment pulse
+
+- Supporters said LLM judgment may select a useful abstraction level where traditional generated diagrams become unreadable.
+- Skeptics argued onboarding also requires business context and exceptional constraints, not merely visualized architecture.
+
+### LLM perspective
+
+- View: Codemaps’ value depends on trustworthy selection and navigation, not diagram generation itself.
+- Impact: Shared maps could shorten code-reading work while preserving reviewer accountability for agent changes.
+- Watch next: Accuracy benchmarks, stale-map handling, smaller-repository value, and the proposed open format.

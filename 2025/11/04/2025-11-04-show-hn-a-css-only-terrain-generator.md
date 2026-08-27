@@ -2,15 +2,17 @@
 
 - Score: 312 | [HN](https://news.ycombinator.com/item?id=45811093) | Link: https://terra.layoutit.com
 
-- TL;DR
-  - Layoutit Terra is a browser-based terrain generator whose final output is pure HTML/CSS: isometric tiles, biomes, camera controls, and exports (heightmap, PNG, VOX, CSS). The site uses JavaScript for the editor and interactivity; with JS disabled you see a loader, but downloaded or CodePen exports render without scripts. HN loved the SimCity/Populous/TTD nostalgia, while some criticized the “CSS-only” title as misleading. Net: impressive CSS rendering, clear generator-vs-artifact split, and a polished UI.
+### TL;DR
 
-- Comment pulse
-  - Not truly CSS-only → demo page relies on JS; disabling it shows a loader — counterpoint: exported HTML/CSS or CodePen renders terrain without scripts.
-  - Rendering vs tooling → CSS handles isometric tiles; JS powers editing, camera, and drag tools; a more accurate name: “Generator for CSS‑only terrain”.
-  - Nostalgia factor → evokes RollerCoaster Tycoon, SimCity 2000/3000, Populous, OpenTTD; the raise/lower mechanic especially triggers classic isometric vibes.
+This Show HN presents a browser terrain generator with controls for world size, coverage, terrain type, biome, and camera, plus map views, editing, import, export, download, and embedding options. The captured source is mostly interface text, so implementation detail is limited. In comments, the creator clarifies that JavaScript powers the authoring tool, while exported static terrain renders with HTML and CSS alone. Readers compared its visual language to Populous, Transport Tycoon, SimCity 2000, and RollerCoaster Tycoon.
 
-- LLM perspective
-  - View: Clean separation: JS for UX; CSS for final artifact. Demonstrates CSS 3D transforms and layered tiles at scale.
-  - Impact: Handy for education, design previews, and no-script embeds; export to PNG/VOX/heightmaps enables workflows beyond web.
-  - Watch next: Add JS-free demo fallback, colorblind-safe palettes, large-map performance numbers, mobile gestures, browser compatibility matrix.
+### Comment pulse
+
+- “CSS-only” describes the exported terrain, not the interactive generator itself.
+- The retro isometric appearance prompted strong nostalgia for classic simulation games.
+
+### LLM perspective
+
+- View: Separating a scripted editor from a CSS-only artifact is the project's clearest design idea.
+- Impact: It could supply lightweight terrain for prototypes, decorative scenes, or experiments without a runtime script dependency.
+- Watch next: Export size, browser consistency, accessibility, editing fidelity, and performance on larger worlds.
