@@ -2,15 +2,18 @@
 
 - Score: 171 | [HN](https://news.ycombinator.com/item?id=45790827) | Link: https://lawrencecpaulson.github.io//2025/11/02/Why-not-dependent.html
 
-- TL;DR
-    - Paulson isn’t anti–dependent types—he used AUTOMATH and Martin‑Löf—but argues Isabelle’s LCF/HOL avoids bulky proof objects, remains stable, and scales via automation. ALEXANDRIA formalized schemes and additive combinatorics in HOL, rarely needing ZF axioms, undermining “DTs are necessary.” He flags practical frictions: intensional equality headaches, performance complaints, and that DTs often work best when avoided. HN echoes: DTs excel at shape/index safety; HOL’s strength can be augmented with axioms; Lean’s community/process may matter more than foundations.
+### TL;DR
 
-- Comment pulse
-    - Dependent types improve shape/index safety → catch out-of-bounds and dimensional errors statically; but debugging and equality coercions become painful—counterpoint: use them sparingly at boundaries.
-    - HOL is too weak for modern math → limited strength and size handling; — counterpoint: extend with axioms/universes; Isabelle formalised schemes and BSG within HOL.
-    - Community/process outweigh foundations → mathlib’s PR workflow and Blueprint speed contributions; AFP’s journal-style curation trades agility for review.
+Isabelle creator Lawrence Paulson explains that he spent years with AUTOMATH and Martin-Löf type theory before favoring generic Isabelle and higher-order logic. He argues LCF-style kernels do not need stored proof objects and says ALEXANDRIA formalized advanced mathematics, including Grothendieck schemes, without hitting a dependent-type barrier. He remains wary of intensional equality, performance complaints, and knowing when not to use dependent types, while admiring Lean's community. Commenters largely reframed the issue from necessity to tradeoffs among expressiveness, debugging, proof ergonomics, logical strength, and libraries.
 
-- LLM perspective
-    - View: Favor a stable core logic plus libraries; add axioms when needed; use dependent types where they simplify interfaces, not internals.
-    - Impact: Mathematics teams gain from automation and ecosystem; proof engineers should prioritize equality ergonomics and build reproducible, PR-friendly workflows.
-    - Watch next: Cross-project benchmarks: Lean vs Isabelle on large theories; equality tooling (heterogeneous congruence); Lean Blueprint-like planning in Isabelle/AFP.
+### Comment pulse
+
+- Practitioners value types indexed by values, but warn that equality and type-checking failures can become difficult to diagnose.
+- Readers disputed whether “unnecessary” matters; productivity depends on formalism, tooling, task, and user preference.
+- HOL's strength and category-theory size issues remained contested, with added axioms offered as one answer.
+
+### LLM perspective
+
+- View: Mature proof assistants demonstrate that foundations matter less alone than automation, libraries, interfaces, and community practice.
+- Impact: Teams can choose simpler logics without forfeiting advanced verification, but may sacrifice convenient encodings.
+- Watch next: Comparative proof size, checker performance, equality friction, library growth, and reproducible case studies across systems.

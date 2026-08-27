@@ -2,15 +2,17 @@
 
 - Score: 94 | [HN](https://news.ycombinator.com/item?id=45787571) | Link: https://github.com/frostyplanet/crossfire-rs
 
-- TL;DR
-  - Crossfire is a Rust crate offering lockless SPSC/MPSC/MPMC channels that work in both async and blocking contexts. v2.1 swaps crossbeam-channel for a modified crossbeam-queue and reports sizable throughput gains (async and some blocking). APIs are cancellation-safe with timeout helpers for tokio/async-std; a backoff auto-detect improves behavior on VPS. CI spans x86/ARM and multiple runtimes, with tokio 1.48 recommended on ARM. HN readers welcome the ambition but question atomic-memory correctness and robustness, and debate cancellation safety, “futurelock,” and Go-style channel-centric Rust.
+### TL;DR
 
-- Comment pulse
-  - Memory-ordering in atomics seems risky → redundant acquires, missing release chains, double-close behavior, no Loom tests; could heisenbug on ARM — counterpoint: works fine for.
-  - Cancellation-safety is distinct from futurelock → futurelock concerns deadlocks via blocked futures; cancellation can help, while cancellation-safety defines atomicity and cleanup guarantees.
-  - Go-style channels in Rust can work → prefer threads for compute-bound parallelism, async for I/O; channels vs mutexes is an orthogonal design choice.
+Crossfire is a Rust channel library offering single- or multi-producer and consumer variants across blocking, async, and mixed contexts. Version 2.1 replaces its crossbeam-channel dependency with a modified crossbeam queue, claims benchmark gains, supports multiple async runtimes, and provides cancellation-safe operations plus atomic timeout APIs. Its lockless design relies on spinning and yielding, with platform-specific backoff detection. The project reports broad x86 and ARM testing but flags ongoing verification. Commenters focused less on speed than on whether atomic memory ordering is sufficiently proven.
 
-- LLM perspective
-  - View: Ambitious lockless design plus runtime-agnostic async/blocking bridge; performance hinges on spinning and careful waker management.
-  - Impact: Could displace crossbeam-channel/Tokio mpsc where latency matters; better bounded/unbounded options across mixed async/blocking systems.
-  - Watch next: Loom-model tests, ARM weak-order benchmarks, power/CPU impact of spinning, comparisons vs flume/tokio mpsc under varied loads.
+### Comment pulse
+
+- A lock-free specialist recommended Loom simulation, warning that weak-ordering bugs may surface only under rare ARM or compiler conditions.
+- Discussion clarified cancellation safety and when async tasks differ from OS-thread channel designs.
+
+### LLM perspective
+
+- View: For concurrency primitives, reproducible correctness evidence matters more than favorable microbenchmarks.
+- Impact: A rare ordering defect could corrupt messages in workloads specifically choosing Crossfire for high throughput.
+- Watch next: Loom models, weak-memory stress tests, independent audits, and benchmarks on single-core virtual machines.

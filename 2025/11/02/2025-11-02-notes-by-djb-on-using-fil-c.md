@@ -2,15 +2,17 @@
 
 - Score: 286 | [HN](https://news.ycombinator.com/item?id=45788040) | Link: https://cr.yp.to/2025/fil-c.html
 
-- TL;DR
-    - djb reports Fil‑C, a memory‑safe C/C++ toolchain, runs many real‑world packages unmodified; his Debian 13 notes show end‑to‑end installs, multiarch “amd64fil0,” and scripts to rebuild system libs/apps. Crypto microbenchmarks show 1–4x cycle overhead; builds are resource‑hungry. He compiles 60/61 bundled targets and several extras (Boost, ncurses, tig), with small patches and symbol‑mangling handling. Musl lags; glibc works. HN discussion highlights heavy LLVM build RAM, Fil‑C’s GC and whole‑program model, and limited FFI/static‑link options versus Rust.
+### TL;DR
 
-- Comment pulse
-    - Community‑useful artifacts → installer/build scripts, Debian helper (fillet), gcshim; shows path to broad package rebuilds.
-    - Memory spike originates in toolchain → LLVM/Clang build eats RAM; large‑core box compiles Fil‑C in minutes.
-    - Suitability → GC, runtime checks, whole‑program model; FFI/static linking absent — counterpoint: good for hardening existing apps without rewriting to Rust.
+Daniel J. Bernstein reports strong compatibility from Fil-C, a garbage-collected, memory-safe C/C++ compiler: his parallel build completed 60 of 61 bundled targets, while cryptographic microbenchmarks typically used one to four times clang's cycles. He documents substantial build memory, package-specific fixes, helper scripts, and an experiment treating Fil-C as a new Debian ABI so protected packages can replace ordinary amd64 versions. Commenters saw this as meaningful validation, while noting whole-program constraints, uncertain FFI, runtime overhead, and that the heaviest memory use likely comes from building LLVM and Clang.
 
-- LLM perspective
-    - View: Fil‑C can harden legacy C/C++ with acceptable 1–4x cost for many server workloads.
-    - Impact: Ops teams can gradually replace binaries via Debian multiarch without source rewrites.
-    - Watch next: Official Debian port, FFI story, static linking, musl support, non‑crypto benchmarks, crash‑report tooling.
+### Comment pulse
+
+- Readers interpreted the Debian rebuild effort as a strong practical endorsement of Fil-C's compatibility.
+- Discussion distinguished retrofitting memory safety onto existing C/C++ from choosing a managed language for new code.
+
+### LLM perspective
+
+- View: The experiment tests whether memory safety can become a packaging choice instead of a source rewrite.
+- Impact: Successful Debian integration could protect legacy software while preserving much of its existing build ecosystem.
+- Watch next: Package coverage, FFI boundaries, performance distributions, build resource use, debugging quality, and ABI maintenance.

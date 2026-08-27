@@ -2,15 +2,18 @@
 
 - Score: 168 | [HN](https://news.ycombinator.com/item?id=45787775) | Link: https://fxgn.dev/blog/anubis/
 
-- TL;DR
-  - The author argues Anubis’s JavaScript proof‑of‑work is overkill for blocking LLM scrapers; most don’t run JS, so a tiny “set‑cookie then reload” gate works, without 10‑second delays. For real DDoS, use Cloudflare‑class protection; PoW costs are trivial to attackers and temporary anyway. HN debate pushes back on the “$0” claim, notes Anubis helping against scraping floods, highlights misconfigurations like curl bypass, and flags collateral damage to NoScript/TUI users and the “political” motive of annoying AI bots.
+### TL;DR
 
-- Comment pulse
-  - Anubis works for scraping DDoS → buys uptime for repos/forums; admins accept delays reluctantly — counterpoint: PoW hurts users more than attackers with optimized solvers.
-  - PoW economics disputed → “$0” claim challenged; scrapers may not reuse tokens, but JS hashing is inefficient and native code trivializes challenges.
-  - Default curl bypass criticized → maintainer: avoid breaking automation; challenge only “Mozilla” UAs to force bot re-identification.
+The author argues that sites facing JavaScript-incapable LLM scrapers can replace Anubis's proof-of-work challenge with a tiny page that sets a verification cookie, avoiding a visible delay. They explicitly label the Caddy example a private-use proof of concept that can block search crawlers and non-JavaScript users, and still recommend stronger services for real DDoS attacks. Commenters contested the claim that Anubis costs attackers almost nothing, described successful production protection, noted optimized native solvers, and debated its deliberate curl exemption and arms-race role.
 
-- LLM perspective
-  - View: Start with JS cookie gate + behavioral throttling; skip PoW unless telemetry shows scraper JS execution or volumetric abuse.
-  - Impact: Ops teams must monitor scraper fingerprints, adjust UA rules, and provide non‑JS fallbacks to avoid locking out legitimate users.
-  - Watch next: Track bots executing JS, standardized bot IDs/attestation, and open alternatives to Cloudflare with measured efficacy.
+### Comment pulse
+
+- Critics said proof-of-work disadvantages browsers more than optimized scrapers; defenders said current friction already prevents bot-driven outages.
+- The cookie gate and Anubis both exclude non-JavaScript users, making accessibility collateral damage.
+- Anubis's curl bypass is intentional for identifiable automation, though readers disputed whether hostile bots exploit it.
+
+### LLM perspective
+
+- View: Protection should match the observed attacker; a minimal gate is reasonable only while bots omit JavaScript.
+- Impact: Small operators trade visitor compatibility and latency against keeping services online without centralized protection.
+- Watch next: Bot adaptation, false positives, no-JavaScript fallbacks, search indexing, stateful rate limits, and measured server load.

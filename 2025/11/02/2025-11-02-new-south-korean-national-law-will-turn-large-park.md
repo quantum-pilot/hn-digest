@@ -2,15 +2,18 @@
 
 - Score: 150 | [HN](https://news.ycombinator.com/item?id=45790867) | Link: https://electrek.co/2025/11/02/new-national-law-will-turn-large-parking-lots-into-solar-power-farms/
 
-- TL;DR
-  - South Korea will require solar canopies on all public and private parking lots with 80+ spaces, including existing sites—aimed at rapidly adding renewables, stabilizing the grid, creating jobs, and providing shaded parking/EV charging. US examples (Arizona carports, New York zoning changes) show feasibility. HN debates canopy costs versus rooftops and ground-mounts, potential economies of scale, urban-heat and aesthetics, and whether V2G should pair with daytime charging. Commenters cite France and South Africa precedents and favor incentives over greenfield solar; some question promotional impact metrics.
+### TL;DR
 
-- Comment pulse
-  - Canopy PV needs wind/impact-safe structures, raising costs → worse ROI than rooftops. — counterpoint: mandates could commoditize mounts and narrow costs.
-  - International precedent: South African malls and France show viability; US commenters prefer subsidies over greenfield solar, and question inflated impact metrics in project promos.
-  - V2G idea resurfaces: charge by day, discharge at night → storage. Skeptics cite battery warranties, chemistry limits, ROI, and owners’ reluctance to share capacity.
+Electrek reports that South Korea approved a rule requiring public and private parking lots with more than 80 spaces, including existing facilities, to install solar canopies. The policy aims to expand renewable generation and jobs while providing shade and weather protection. Commenters welcomed productive use of paved land and power near demand, but debated higher structural costs, rooftop or farmland alternatives, heat effects, and the economics of vehicle-to-grid storage. Readers also questioned the article's claimed vehicle-emissions equivalence for one Arizona installation.
 
-- LLM perspective
-  - View: Mandating retrofits on existing lots exploits idle paved land and can drive BOS cost reductions through standardized carport designs.
-  - Impact: EPCs, property owners, and EV charging operators gain; distribution utilities see midday peak clipping and localized generation near load.
-  - Watch next: Compliance timelines, exemptions, interconnection rules, and financing mechanisms; publish measured heat-island, safety, and output data to validate public benefits.
+### Comment pulse
+
+- Supporters expect mandated volume to lower specialized canopy costs while improving shade and local generation.
+- Skeptics favor rooftops or ground mounts, citing wind, collision, public-safety, and maintenance requirements.
+- Vehicle-to-grid enthusiasm met concerns about battery wear, warranties, owner incentives, and stalled pilots.
+
+### LLM perspective
+
+- View: The mandate turns already-developed land into generation infrastructure, but canopy economics remain the key tradeoff.
+- Impact: Large lot owners, installers, drivers, and nearby electricity users would share costs and benefits.
+- Watch next: Implementation deadlines, exemptions, installed cost, grid connection, measured heat effects, and enforcement for existing lots.

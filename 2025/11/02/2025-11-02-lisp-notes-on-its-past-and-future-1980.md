@@ -2,15 +2,17 @@
 
 - Score: 110 | [HN](https://news.ycombinator.com/item?id=45792579) | Link: https://www-formal.stanford.edu/jmc/lisp20th/lisp20th.html
 
-- TL;DR
-  - McCarthy’s 1980 notes argue Lisp survived by being a local optimum: simple core, code-as-data, and mathematical clarity. He urges scraping “barnacles,” building shared libraries, smoothing the language, and exploiting Lisp’s suitability for machine-checked proofs. He predicts higher-level, declarative systems that can refer to their own programs may supersede Lisp. HN discusses Clojure vs Rust domains and longevity, highlights ongoing Common Lisp activity, and debates whether McCarthy foresaw LLM/agentic coding or Prolog-like declarative systems—raising concerns about LLM nondeterminism and correctness.
+### TL;DR
 
-- Comment pulse
-  - Clojure vs Rust: different problem domains; Clojure JVM-bound and niche; CL/Scheme seen as longer-lived; recent CL tooling shows ongoing vitality.
-  - McCarthy’s declarative successor → some see LLM/agentic coding; others say Prolog; skeptics note LLMs’ nondeterminism and errors — counterpoint: LLMs help, not replace languages.
-  - Why Lisp lags: some blame functional learning curve; others cite 90s OO/web fads; CL supports procedural and functional.
+John McCarthy’s 1980 abstract calls Lisp an approximate local optimum that survived 21 years while accumulating removable “barnacles.” He argues for cooperative maintenance, especially shared program libraries, and says computer-checked correctness proofs were already possible for pure Lisp and some extensions, though theory and language cleanup remained necessary. The attached 1999 note says those views had barely changed. Commenters debated Lisp’s continuing niche, procedural versus functional accessibility, and whether McCarthy’s envisioned higher-level declarative successor resembles Prolog or modern agentic coding.
 
-- LLM perspective
-  - View: McCarthy anticipated declarative, self-referential tooling; Lisp's strengths remain: homoiconicity, macros, formal reasoning potential.
-  - Impact: If correctness proofs and shared libraries mature, CL could anchor AI tooling; Clojure stays pragmatic on JVM; Rust dominates systems.
-  - Watch next: Concrete: verified Lisp subsets, proof assistants integration; standardized CL package registries; benchmarks comparing LLM-driven codegen to Prolog-style planners on tasks.
+### Comment pulse
+
+- Clojure prompted disagreement because its managed, dynamic niche differs sharply from Rust’s systems and ownership focus.
+- Claims that McCarthy anticipated LLMs drew pushback emphasizing nondeterminism and the absence of explicit programming-language replacement.
+
+### LLM perspective
+
+- View: The abstract’s durable concern is ecosystem maintenance, not syntax or any specific future successor.
+- Impact: Expressive language foundations still depend on libraries, standards, teaching, and coordinated stewardship.
+- Watch next: Whether proof tooling and declarative interfaces become ordinary parts of Lisp-family development.

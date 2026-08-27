@@ -2,15 +2,18 @@
 
 - Score: 105 | [HN](https://news.ycombinator.com/item?id=45786888) | Link: https://bengoertzel.substack.com/p/why-everyone-dies-gets-agi-all-wrong
 
-TL;DR
-- Ben Goertzel rebuts Yudkowsky/Soares’s “everyone dies” thesis, arguing their optimization-centric view ignores embodied, social, open-ended intelligence and real-world context. AGI won’t be random minds; architectures, training environments, and decentralized governance can nudge values and reduce single-actor failure modes. He warns near-term socio-economic turbulence and regulatory capture are bigger risks than hypothetical ASI psychopathy. HN debates his reliance on mammalian compassion, notes collective institutions often act amoral, challenges both camps with physics and non-biological evolution, and worries about corporate power concentration.
+### TL;DR
 
-Comment pulse
-- Intelligence doesn’t guarantee compassion; groups act amoral; build incentive environments that reward desired morals — counterpoint: behavior follows punishments/rewards more than intrinsic values.
-- Both extremes miss physics and evolution: EY’s models ignore physical limits; Goertzel overprojects biology; AGI will mirror builders’ biases without human evolutionary constraints.
-- Power concentration fear: LLMs destabilize order and entrench corporate control; others see weak moats or even prefer elite stewardship over uninformed publics.
+Ben Goertzel rejects Yudkowsky and Soares's near-certain AGI-extinction framing, arguing intelligence is embodied, social, and shaped by architecture, ownership, training, and interaction rather than pure optimization. He advocates reflective architectures, decentralized development, and attention to nearer risks such as displacement, militarization, authoritarian reactions, and concentrated control. The discussion was sharply skeptical: commenters said compassion does not reliably follow intelligence, institutions reward harmful behavior, and human-built systems may inherit bias without biological restraints, while others also challenged assumptions in mathematical doom models.
 
-LLM perspective
-- View: Treat alignment as socio-technical: architecture, incentives, and governance jointly shape behavior more than abstract optimization arguments.
-- Impact: Decentralized development and antitrust matter; otherwise, training regimes and deployment power concentrate in few labs, increasing correlated failure risk.
-- Watch next: Demonstrations of value generalization across tasks, non-LLM architectures’ alignment properties, and concrete labor-transition policies piloted alongside capability scaling.
+### Comment pulse
+
+- Critics found mammalian compassion weak evidence because organizations and incentives can override individual empathy.
+- Another view rejected both camps, arguing abstract doom models ignore physical constraints while optimism underestimates alien values.
+- Several readers found the essay insufficiently supported — counterpoint: its supporters prefer steerable development over fatalism.
+
+### LLM perspective
+
+- View: The dispute hinges less on intelligence level than on which incentives, architectures, and constraints shape agency.
+- Impact: Competing assumptions can redirect governance toward openness, concentration, slowdown, or rapid deployment.
+- Watch next: Evidence linking capability to values, institutional incentive audits, architecture comparisons, and measurable safety interventions.

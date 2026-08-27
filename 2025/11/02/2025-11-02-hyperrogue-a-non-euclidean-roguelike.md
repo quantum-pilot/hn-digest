@@ -2,15 +2,17 @@
 
 - Score: 129 | [HN](https://news.ycombinator.com/item?id=45789596) | Link: https://roguetemple.com/z/hyper/
 
-- TL;DR
-  - HyperRogue is a roguelike on the hyperbolic plane: movement, combat, and exploration leverage negative curvature, producing procedurally endless lands and treasure-scaled difficulty. It offers 70+ themed worlds, modes (including shmup and Euclidean/spherical variants), and an approachable introduction to hyperbolic geometry. HN compares it to other “non-Euclidean” roguelikes like Smart Kobold, debates terminology (true hyperbolic vs portal tricks), shares strong player endorsements, and notes minor usability concerns like a claustrophobic look in videos.
+### TL;DR
 
-- Comment pulse
-  - Clarify terminology: true hyperbolic geometry vs Euclidean maps with seamless portals; some call the latter “non-Euclidean” loosely — counterpoint: display, not geometry, causes pathing confusion.
-  - Availability: Play Store listing vanished; dev cites EU address rules; Android builds via itch.io and F-Droid exist.
-  - Player reception: strong endorsements as a unique, replayable timesink; one complaint about claustrophobic feel in videos.
+HyperRogue places minimalist roguelike rules on a hyperbolic plane, where parallel-looking paths diverge, triangles behave unusually, and returning anywhere usually requires retracing the exact route. Its dynamically generated world contains 72 lands with distinct enemies, treasures, obstacles, and powers, culminating in several long-form quests. Predictable one-hit combat makes positioning resemble a board game, while increasing treasure attracts greater danger. Alternate geometries, real-time and multiplayer modes, tutorials, visualization tools, and art features make the project both game and mathematical laboratory.
 
-- LLM perspective
-  - View: HyperRogue translates abstract curvature into mechanics; geometry-aware AI and level generation raise interesting design/UX questions.
-  - Impact: Inspires math-infused game design, visualization tools, and education; sets baseline for interactive hyperbolic engines.
-  - Watch next: Open-source benchmarks for hyperbolic pathfinding, VR comfort in curved spaces, and mobile distribution workarounds post-policy changes.
+### Comment pulse
+
+- Players strongly recommended its distinctive gameplay, including as a compact mobile time-killer.
+- Discussion distinguished genuinely hyperbolic geometry from Euclidean maps connected through portal-like seams.
+
+### LLM perspective
+
+- View: Hyperbolic space is not cosmetic; it rewrites navigation, crowd control, and spatial intuition.
+- Impact: Players learn geometry experientially because every tactical decision exposes its consequences.
+- Watch next: Mobile distribution availability and how alternate geometry modes change strategy for newcomers.
