@@ -2,15 +2,17 @@
 
 - Score: 226 | [HN](https://news.ycombinator.com/item?id=45292130) | Link: https://www.theverge.com/policy/781148/jimmy-kimmel-charlie-kirk-monologue-brendan-carr-censorship-first-amendment
 
-TL;DR
-ABC suspended Jimmy Kimmel Live after FCC chair Brendan Carr warned ABC affiliates their licenses and pending mergers could face the “hard way” if Kimmel stayed on air. Nexstar and Sinclair preempted the show; ABC capitulated, reportedly fearing broader retaliation amid other regulatory dependencies. The Verge argues this is unconstitutional jawboning, citing NRA v. Vullo, not a neutral “public interest” action. HN reactions focus on the chilling effect, FIRE’s defense of speech, and meta-complaints about HN flagging, with some calling Kimmel’s remark conspicuously mild.
+### TL;DR
 
-Comment pulse
-- HN is suppressing controversy → Flags kept it off front page; users cite flagged threads — counterpoint: active feed is uneditorialized; vouching can restore posts.
-- FCC threat is unconstitutional → FIRE says coercing licensees to drop a show violates First Amendment limits on government-induced suppression.
-- Public coercion chills speech → Officials boasted of pressure, signaling others to self-censor; suspension followed a mild line, exposing selective free-speech “principles.”
+The Verge argues ABC's indefinite suspension of Jimmy Kimmel was government censorship, not ordinary private “cancel culture.” FCC chair Brendan Carr publicly demanded action using “easy way or hard way” language while controlling station enforcement and regulatory approvals. Nexstar and Sinclair dropped the show, then Disney followed; Nexstar also sought approval for a $6.2 billion Tegna merger. The article invokes *NRA v. Vullo*, where the Supreme Court rejected officials using threatened sanctions through intermediaries to suppress disfavored speech. HN discussion overwhelmingly agreed.
 
-LLM perspective
-- View: A textbook case of jawboning: regulatory leverage steering editorial choices without formal orders.
-- Impact: Broadcasters and conglomerates with pending deals will preemptively sanitize content to protect licenses, mergers, and DOJ approvals.
-- Watch next: Litigation invoking NRA v. Vullo; affiliate pushback or exits; congressional oversight; paper trails showing explicit quid pro quos.
+### Comment pulse
+
+- Commenters saw the public coercion as both immediate pressure on ABC and a deliberate warning to other media organizations.
+- Discussion criticized HN flagging of controversial political stories, while noting the separate unranked active-posts page.
+
+### LLM perspective
+
+- View: A regulator's explicit threat distinguishes state coercion from a broadcaster independently responding to audience or advertiser pressure.
+- Impact: Merger-dependent media groups may preemptively narrow speech if approvals appear contingent on satisfying government officials.
+- Watch next: Follow Kimmel's status, FCC proceedings, Nexstar's merger review, legal challenges, and evidence of broader editorial self-censorship.

@@ -2,15 +2,17 @@
 
 - Score: 2973 | [HN](https://news.ycombinator.com/item?id=45283887) | Link: https://skyfall.dev/posts/slack
 
-- TL;DR
-    - Hack Club, a teen coding nonprofit, says Slack demanded $50k immediately and $200k/year, threatening deactivation and loss of 11 years of history. The post went viral; Slack’s CPO and CEO called it a billing oversight, apologized, and restored nonprofit pricing. Hack Club was reportedly offered five years of Enterprise+ and paused a move to Mattermost. HN debated SaaS lock‑in, data ownership, and dark patterns. Many urged exit plans and backups; others noted sales-led procurement often outweighs developer sentiment.
+### TL;DR
 
-- Comment pulse
-    - SaaS lock‑in ≈ ransomware → vendors hold your data and sell access; expect hikes and dark cancellation flows.
-    - Alienating future developers is shortsighted → thousands of teens now distrust Salesforce; long‑term adoption suffers — counterpoint: procurement chooses tools, not engineers.
-    - Migration debate → some prioritize risk reduction; others argue alternatives (Mattermost/Matrix) trail Slack/Discord in usability and features.
+Hack Club says Slack abruptly replaced its roughly $5,000 annual nonprofit arrangement with a $50,000 immediate demand and about $200,000 per year, threatening workspace deactivation and deletion of 11 years of messages within days. Staff began migrating integrations and institutional knowledge to Mattermost. After the post spread, Slack executives called the billing process an error, restored nonprofit pricing, and offered a better arrangement. Hack Club paused migration but made owning its data a priority; commenters saw the episode as a warning about SaaS lock-in.
 
-- LLM perspective
-    - View: Treat chat as a system of record; negotiate export rights, retention limits, and grace‑period clauses upfront.
-    - Impact: Nonprofits and communities with large inactive user bases are most exposed to per‑seat pricing shocks.
-    - Watch next: Independent audits of Slack’s billing processes; improved self‑serve exports; real‑world 10k‑member benchmarks for Mattermost, Matrix, Discord, and Teams.
+### Comment pulse
+
+- Slack apologized and corrected the account — counterpoint: commenters argued resolution required publicity, leaving the underlying trust failure intact.
+- Developers urged exporting critical history and favoring open systems because proprietary services can convert switching costs into pricing power.
+
+### LLM perspective
+
+- View: A corrected invoice does not undo the operational risk exposed by an abrupt, credible threat to erase organizational memory.
+- Impact: Nonprofits and small firms may reassess chat retention, exit plans, backups, and reliance on discretionary discounts.
+- Watch next: Confirm export completeness, contract notice periods, billing-review changes, Hack Club's migration decision, and independent backup routines.

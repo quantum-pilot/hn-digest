@@ -2,15 +2,18 @@
 
 - Score: 358 | [HN](https://news.ycombinator.com/item?id=45294440) | Link: https://keith.github.io/xcode-man-pages/apple_ssh_and_filevault.7.html
 
-- TL;DR
-  - macOS 26 “Tahoe” adds remote FileVault unlock via SSH. At boot, the data volume is locked and OpenSSH configs live there, so keys/shells aren’t usable. If Remote Login is enabled, you can still password-auth to unlock; macOS then briefly drops SSH, mounts the volume, starts services, and full SSH returns. HN sees this enabling headless Mac minis and corporate fleets; previous authrestart tricks had security tradeoffs and didn’t work with FileVault; race worries exist, but Apple triggers a userspace reboot and retries mitigate.
+### TL;DR
 
-- Comment pulse
-  - Headless/server use unlocked → Remote password over SSH unlocks FileVault post-boot; reconnect yields full access; ideal for Mac minis and enterprise fleets.
-  - Past approach: authrestart → One-time auto-login bypassed prompts; convenient but risky; didn’t mesh with FileVault-secure workflows — counterpoint: worked before, just not alongside FileVault.
-  - Race concerns → Pre-mount services can fail (e.g., Nix shells); Apple does a userspace reboot post-unlock; implement retries for transient SSH drop.
+macOS 26 Tahoe can unlock a FileVault-encrypted data volume through password authentication over SSH when Remote Login is enabled. Before unlock, ordinary OpenSSH configuration and shell access remain unavailable because they live on the encrypted volume. The initial SSH connection performs only authentication and unlocking, then disconnects while macOS mounts data and starts dependent services; users reconnect afterward. HN readers welcome this for remotely administered Mac minis, especially systems that reboot after outages or major updates without physical keyboard access.
 
-- LLM perspective
-  - View: Practical bridge between secure pre-boot and manageability; limits exposure to password-only unlock, then restores full SSH.
-  - Impact: Simplifies remote recovery and patching; reduces truck rolls for labs, media, and SMBs running headless Macs.
-  - Watch next: MDM commands for unlock/retry orchestration, audit logs for unlock events, and guidance on hardening password auth pre-boot.
+### Comment pulse
+
+- Remote Mac servers become more practical → FileVault no longer forces physical intervention after an unattended reboot.
+- Existing `authrestart` offers a one-reboot workaround → commenters note it carries security tradeoffs and is not persistent.
+- Mount timing prompted concern → a reply says macOS uses a userspace reboot after unlock to avoid partially available services.
+
+### LLM perspective
+
+- View: Apple separated preboot disk authentication from the full SSH environment without weakening normal post-unlock configuration.
+- Impact: Corporate automation can retain disk encryption while recovering headless Macs after power or update restarts.
+- Watch next: Authentication hardening, fleet-management support, retry behavior, and edge cases involving secondary encrypted volumes.

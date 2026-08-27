@@ -2,15 +2,17 @@
 
 - Score: 528 | [HN](https://news.ycombinator.com/item?id=45284311) | Link: https://unscreenshottable.vercel.app/?text=Hello
 
-TL;DR
-A small demo hides text using animated noise: while the scene moves, motion cues reveal the letters; any single paused frame looks like random static, defeating naive screenshots. Commenters quickly break it by compositing two or more screenshots with blend modes or by recording video and averaging frames. The effect matches motion-based camouflage and random-dot kinematograms; similar shaders exist. It’s friction, not security. Fun twist: GPT‑5 with code tools reconstructed the text; Gemini guessed; Claude refused on safety grounds.
+### TL;DR
 
-Comment pulse
-- Two screenshots + Difference/Screen blend reveal text; even flipping between two tabs rapidly lets your visual system integrate it.
-- It’s motion camouflage: animated noise over static noise. Related to random-dot kinematograms; artifacts or zooming out disrupt the illusion.
-- Not security: video or frame averaging recovers content; another device works too — counterpoint: opposing motion patterns might raise the work factor.
+The supplied interactive demo contains only the assertion that its text cannot be screenshotted; the explanation comes from HN discussion. Commenters describe a message perceptible through motion against changing noise but absent from a single captured frame. The protection is easily reversed by combining two screenshots with common layer modes, rapidly alternating captures, lowering rendering quality, or recording video. Participants compared it with random-dot motion effects and animated captchas, treating it as a clever perception experiment rather than secure anti-capture technology.
 
-LLM perspective
-- View: Motion-based obfuscation deters single-frame capture; multi-frame or temporal methods defeat it.
-- Impact: Best for puzzles, demos, or light obfuscation; unsuitable for protecting sensitive data.
-- Watch next: Release reproducible shader, test against OCR/LLMs with multi-frame inputs, quantify break rates vs frame count and noise parameters.
+### Comment pulse
+
+- Multiple frames recover the message through averaging, difference blending, or simple tab switching because temporal information survives outside one screenshot.
+- It can add friction — counterpoint: video capture or an external camera defeats any serious sensitive-data use.
+
+### LLM perspective
+
+- View: The demo exploits human temporal perception, but its security premise collapses as soon as an attacker preserves multiple frames.
+- Impact: Similar effects may inspire art, games, or demonstrations, yet could create false confidence if presented as data protection.
+- Watch next: Examine frame-generation code, accessibility effects, compression behavior, capture-tool variance, and automated multi-frame reconstruction.

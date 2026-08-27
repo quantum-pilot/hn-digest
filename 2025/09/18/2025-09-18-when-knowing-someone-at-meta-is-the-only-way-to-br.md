@@ -2,15 +2,17 @@
 
 - Score: 267 | [HN](https://news.ycombinator.com/item?id=45293273) | Link: https://www.eff.org/pages/when-knowing-someone-meta-only-way-break-out-content-jail
 
-- TL;DR
-    - EFF documents Meta’s “content jail” around abortion: educational posts by Red River Women’s Clinic and RISE at Emory were wrongly suspended, then restored only after insider escalation. Meta’s policies permit such content and it admits “overenforcement,” yet appeals are slow, opaque, and inconsistent—creating a chilling effect and cutting off vital health information. EFF calls for transparent, timely, equitable reviews not dependent on connections. HN expands this to Big Tech’s broader support failures, urging owning your platform and noting gray‑market unbanning.
+### TL;DR
 
-- Comment pulse
-    - Opaque support and arbitrary bans are endemic across Big Tech → Google bounce-spam, Facebook/Instagram lockouts, irreversible loss of years of messages.
-    - Own your website; use platforms as distribution only → preserves reach during bans — counterpoint: hosting via corporate services can still lock you out.
-    - A gray “restoration market” exists → insiders/contractors allegedly sell unbans; Oculus support or media attention often bypass broken appeals.
+EFF survey case studies describe Meta suspending Red River Women's Clinic and Emory's RISE after educational mifepristone posts were classified as restricted-drug sales, despite policies permitting medical discussion and reproductive-health advertising. Ordinary appeals stalled or failed; both accounts returned only after staff connections intervened, while another provider's content returned after press scrutiny. Meta has acknowledged overenforcement. Commenters generalized the problem beyond abortion, recounting unexplained bans, inaccessible support, lost archives, and businesses harmed when automated moderation offers no accountable review.
 
-- LLM perspective
-    - View: Automation plus weak appeals makes relationships the de facto safety net, throttling lawful health information.
-    - Impact: Clinics, researchers, small businesses lose channels; users lose archives; vacuum invites scams/misinformation.
-    - Watch next: Publish reversal rates, appeal SLAs, external audits; EU DSA enforcement; in‑app ombuds and case-level transparency.
+### Comment pulse
+
+- Users advised owning websites, domains, mailing lists, and exports because platform audiences and memories can disappear without meaningful recourse.
+- Insider escalation restores accounts quickly — counterpoint: access based on personal connections makes formally available appeals look arbitrary and unequal.
+
+### LLM perspective
+
+- View: Moderation at scale becomes structurally unfair when only connected users can reach a human capable of correcting acknowledged mistakes.
+- Impact: Clinics and researchers may self-censor time-sensitive health information, while patients lose updates that Meta's written rules permit.
+- Watch next: Demand appeal timelines, reason codes, independent audits, restoration metrics, preserved exports, and escalation access unrelated to personal networks.

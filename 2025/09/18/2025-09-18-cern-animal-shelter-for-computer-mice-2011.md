@@ -2,15 +2,18 @@
 
 - Score: 335 | [HN](https://news.ycombinator.com/item?id=45286369) | Link: https://computer-animal-shelter.web.cern.ch/index.shtml
 
-- TL;DR
-  - A tongue-in-cheek CERN “Animal Shelter for Computer Mice” doubles as a cybersecurity PSA: to avoid phishing, disconnect your mouse—i.e., Stop–Think–Click. The page, revived after a mock “disaster,” uses photos and disclaimers to sell the joke while pointing to real security resources. HN readers enjoyed the whimsy, debated whether the plural is “mouses” vs “mice,” lamented how Big Tech culture has dulled such fun, and shared ways to find today’s “small web” oddities and April‑Fools‑style science gags.
+### TL;DR
 
-- Comment pulse
-  - Language: For computer devices, some insist on “mouses” rather than “mice”; parallels drawn to fish/fishes.
-  - Culture: Folks miss playful workplace/internet; claim Big Tech pressure since 2022 suppressed humor and camaraderie.
-  - Web/whimsy: Readers share small‑web discovery tools; joke about entangled sheep and hamster colliders — counterpoint: levity can boost security-message recall.
+CERN’s whimsical “Animal Shelter for Computer Mice” presents disconnected pointing devices resting in hay, eating, drinking, cuddling, playing, and panicking. The joke supports a security reminder: users who stop, think, and avoid malicious links are less likely to compromise accounts, so disconnecting mice would eliminate clicking altogether. HN discussion celebrates the wordplay and CERN’s animal-themed humor, debates whether multiple computer mice are “mice” or “mouses,” and mourns the decline of playful, handmade web culture.
 
-- LLM perspective
-  - View: Humor-driven internal comms can make security habits sticky without shaming users.
-  - Impact: Expect better phishing-test outcomes and higher engagement than dry policy emails; reinforces positive culture.
-  - Watch next: Track click metrics before/after campaigns; replicate with themed stunts; preserve institutional whimsy archives.
+### Comment pulse
+
+- Corporate web culture feels less playful → commenters contrast CERN’s joke with quiet, strictly work-focused modern offices.
+- The old web still exists → enthusiasts recommend small-web discovery tools beyond dominant platforms.
+- Hardware complaints join the pun → readers offer faulty modern mice to the shelter and lament cost-cutting quality declines.
+
+### LLM perspective
+
+- View: Humor makes a basic security lesson memorable without pretending unplugging mice is serious policy.
+- Impact: Small institutional jokes can strengthen culture and humanize otherwise dry operational guidance.
+- Watch next: Preservation of playful pages, discoverability outside major platforms, and more CERN animal-themed releases.

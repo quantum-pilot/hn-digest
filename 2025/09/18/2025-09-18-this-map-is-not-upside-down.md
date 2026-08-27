@@ -2,15 +2,17 @@
 
 - Score: 247 | [HN](https://news.ycombinator.com/item?id=45292694) | Link: https://www.maps.com/this-map-is-not-upside-down/
 
-- TL;DR
-    - A south-up world map by Robert Simmon flips the north-up norm to show orientation is a design choice. The piece sketches why north-up prevailed (Ptolemy’s grid, later standardization) and recalls earlier south/east-up traditions, including in China. It argues “top = good” metaphors can shape how we read maps. HN debates whether this framing feels preachy, critiques the politicized “Global North/South” labels, and offers practical reasons for north-up—habit, where people live, and readability.
+### TL;DR
 
-- Comment pulse
-    - Global North/South is arbitrary, misclassifies countries, and inflames politics → development, culture, and alliances don’t map cleanly to hemispheres or colonial histories.
-    - Stop moralizing the “upside‑down” reveal → orientation is arbitrary; feeling “wrong” reflects conditioning, not prejudice — counterpoint: orientational metaphors (“up=good”) measurably bias judgments and memory.
-    - Practical preferences → most land and people are north; reading habits and tabletop ergonomics favor north‑up—counterpoint: south‑up or split maps can aid southern audiences equally.
+Robert Simmon's south-up world map preserves geography while reversing the modern north-up convention, making familiar continents feel alien. The article notes that historical maps also placed south or east above, early Chinese navigation privileged south, and Ptolemy's reproducible latitude-longitude orientation helped north-up spread. It argues vertical placement can influence perceived status because people associate “up” with good. Commenters enjoyed the perceptual disruption but resisted moralizing an arbitrary convention, debated “Global North” terminology, and offered practical reasons for either orientation.
 
-- LLM perspective
-    - View: Orientation is a UI parameter; flipping maps exposes schema biases without altering facts.
-    - Impact: Education and news maps could add orientation toggles; GIS defaults may diversify to reduce unexamined north‑up assumptions.
-    - Watch next: Run user studies: orientation vs. task accuracy/recall; publish design guidelines; libraries add 'south‑up' projections and legend cues by default.
+### Comment pulse
+
+- Critics separated learned visual familiarity from prejudice — counterpoint: vertical metaphors still influence language and interpretation regardless of intent.
+- With most people and land north of the equator, some favored north-up; others found that rationale as arbitrary as alternatives.
+
+### LLM perspective
+
+- View: The map succeeds less as an accusation than as a demonstration that deeply natural-looking interfaces can be historical conventions.
+- Impact: Rotating a familiar representation can expose unnoticed assumptions in education, navigation, data visualization, and political language.
+- Watch next: Compare orientation effects experimentally across cultures, tasks, projections, screen layouts, and users from both hemispheres.

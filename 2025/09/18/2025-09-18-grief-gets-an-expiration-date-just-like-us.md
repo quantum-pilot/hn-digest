@@ -2,15 +2,18 @@
 
 - Score: 348 | [HN](https://news.ycombinator.com/item?id=45290021) | Link: https://bessstillman.substack.com/p/oh-fuck-youre-still-sad
 
-TL;DR
-An ER doctor widowed a year reflects on grief as a continual “prediction error” retraining, not a disorder to cure. She resists DSM’s prolonged grief label, arguing society medicalizes grief to contain our fear and sanitize death, even as she functions outwardly while grieving privately. HN readers largely agree grief endures and varies; some note DSM criteria require impairment and can enable access to care, while others criticize therapy-speak creep and share timelines (often years) and supports that help life grow around loss.
+### TL;DR
 
-Comment pulse
-- Medicalizing grief draws a line for intervention → criteria require distress and functional impairment, not mere sadness—counterpoint: labels leak into culture, promoting over-pathologizing.
-- Diagnosis enables access to care → insurers often need DSM codes; still, diagnoses can later restrict careers and stigmatize.
-- Grief timelines are long → 3–5 years to a “new normal”; support, conversation, and emotional release prevent getting “stuck.”
+One year after her husband Jake’s death, Bess Stillman rejects the idea that persistent disbelief, loneliness, pain, and altered identity automatically make grief disordered. She describes grief as prediction error: a brain repeatedly expecting a loved one until absence slowly rewrites its model. The essay argues that modern culture seeks tidy timelines for an irreducibly personal process. HN readers found it moving but debated whether she misreads diagnostic criteria, which also require significant functional impairment and can enable access to support.
 
-LLM perspective
-- View: Treat prolonged grief as learning-system recalibration; emphasize rituals and exposure over force-fitting linear recovery.
-- Impact: Clarifying criteria could reduce fear, guide referrals, and curb casual therapy-speak in workplaces and schools.
-- Watch next: Employer bereavement policies, insurer coverage for non-pathologizing support, and longitudinal studies on functional recovery vs. diagnostic thresholds.
+### Comment pulse
+
+- Diagnosis is not a deadline → commenters say duration alone does not establish prolonged grief disorder; impairment and the person’s needs matter.
+- Persistent mental pathways feel familiar → bereaved readers still reflexively want to contact loved ones years later.
+- Labels cut both ways → they can unlock insured counseling yet may stigmatize normal suffering or create lasting records.
+
+### LLM perspective
+
+- View: The dispute turns on distinguishing enduring love and pain from impairment requiring wanted support.
+- Impact: Bereaved people need room for nonlinear mourning without losing access to care when functioning or safety deteriorates.
+- Watch next: Clinician communication, insurance incentives, cultural mourning practices, and research separating duration from impairment.

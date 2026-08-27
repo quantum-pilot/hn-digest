@@ -2,15 +2,17 @@
 
 - Score: 438 | [HN](https://news.ycombinator.com/item?id=45295898) | Link: https://phishyurl.com/
 
-- TL;DR
-  - A web toy turns any URL into an intentionally sketchy-looking redirect, with themes and adjustable length—harmless in intent but a reminder that “looks” drive trust. HN enjoys the gag, then critiques security UX: corporate trainings and link-rewriting gateways often produce emails indistinguishable from phishing and even break workflows. Commenters flag abuse risks (URL logging, bait-and-switch) and share real-world missteps like AWS’s confusing sender address that needed reversal.
+### TL;DR
 
-- Comment pulse
-  - Security UX is self-defeating → compliance emails and link-rewriting gateways mimic phishing, eroding trust and breaking incident links; AWS misnamed senders, then backtracked.
-  - Abuse risk → service could log high-value targets and later swap redirects to phishing — counterpoint: transparency, open-source code, and no-logs policies reduce-but-don’t-eliminate trust issues.
-  - Playful side → people enjoy absurdly sketchy domains for burner emails or clicks, but support and users get confused by the intentional edginess.
+The small joke tool turns an ordinary destination into a redirect whose generated domain and path look deliberately malicious, with selectable themes and escalating length. It claims the resulting link merely redirects to the submitted URL. HN users enjoyed producing alarming examples, but the discussion exposed a serious lesson: corporate compliance messages, cloud senders, and security gateways often make legitimate links indistinguishable from phishing by using odd domains, urgent language, or opaque rewritten URLs. One commenter also outlined how such a redirector could later become abusive.
 
-- LLM perspective
-  - View: A humorous demo showing URL appearance is unreliable; security should rely on authentication, origin checks, and browser indicators, not vibes.
-  - Impact: May spur IT to rethink phishing training, avoid link rewriting, and standardize trustworthy sender domains and headers for legitimate communications.
-  - Watch next: Whether the site publishes code, metrics, or a no-logs policy; any takedowns; security teams issuing clearer email/link handling guidance.
+### Comment pulse
+
+- Security training teaches users to inspect destinations, while link-scanning products defeat that habit by rewriting every target through unfamiliar infrastructure.
+- A benign redirect can become malicious after earning trust — counterpoint: the supplied tool states that it only redirects normally.
+
+### LLM perspective
+
+- View: The joke works because enterprise email has already trained users that suspicious-looking links may be mandatory and legitimate.
+- Impact: Inconsistent sender and redirect practices weaken human phishing heuristics, increasing both false alarms and unsafe clicks.
+- Watch next: Audit open-redirect controls, destination transparency, abuse reporting, redirect immutability, and corporate email-domain consistency.

@@ -2,15 +2,17 @@
 
 - Score: 208 | [HN](https://news.ycombinator.com/item?id=45286526) | Link: https://pnpm.io/blog/releases/10.16
 
-- TL;DR
-  - pnpm 10.16 adds minimumReleaseAge, a configurable delay (minutes) before newly published dependency versions can be installed, with per-package exclusions, to blunt fast-moving supply‑chain attacks typically detected within hours. It also introduces finder functions for pnpm list/why to query dependencies by arbitrary manifest properties, plus several fixes (Node 24 warning, exact nodeVersion, publish .tar.gz, proper Ctrl‑C exit codes). HN debate: delay helps scanners act, but may slow fixes; naming/units nitpicks; uv and Yarn have similar features; appropriate wait windows vary given semver ranges and transitive churn.
+### TL;DR
 
-- Comment pulse
-  - Age-gating reduces exposure → scanners audit fresh uploads quickly; delaying installs buys detection time — counterpoint: also delays propagation of urgent fixes.
-  - Config over flags → project-level setting protects teams without remembering CLI switches; still brittle if someone runs npm instead of pnpm.
-  - How long to wait? → JS’s semver ranges and transitive dependencies auto‑update widely; weeks‑long freezes hinder security/stability more than they help.
+pnpm 10.16 adds `minimumReleaseAge`, which blocks dependency versions until a configured number of minutes after publication; exclusions allow selected packages to update immediately. The delay aims to avoid newly compromised releases that registries and scanners often identify quickly. The release also adds programmable finders for querying dependency metadata beyond names and versions. Commenters welcomed a persistent project setting but noted the tradeoff: widespread delays could slow both attack discovery and urgent fixes, while unclear minute-based units invite configuration mistakes.
 
-- LLM perspective
-  - View: Release-age thresholds are a simple, low-cost defense-in-depth; pair with excludes and CI to avoid blocking critical updates.
-  - Impact: Adoption by pnpm, Yarn, uv normalizes age-gating; enterprises can standardize policies across JS toolchains.
-  - Watch next: Registry-side quarantine windows, default recommended ages, per-version exemptions, and metrics on caught/averted incidents.
+### Comment pulse
+
+- Automated security scanners may remain early canaries even if developers delay installs — counterpoint: delayed adoption can also postpone discovery and fixes.
+- Participants compared similar uv and Yarn controls, preferring repository configuration over flags developers must remember.
+
+### LLM perspective
+
+- View: Release-age gating is a useful blast-radius reducer, not a substitute for lockfiles, scanning, provenance, or dependency review.
+- Impact: Teams gain a low-effort buffer against account compromises while accepting slower access to legitimate patches.
+- Watch next: Measure malicious-release detection times, emergency override safety, unit clarity, excluded-version support, and adoption across package managers.
