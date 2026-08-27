@@ -2,22 +2,17 @@
 
 - Score: 156 | [HN](https://news.ycombinator.com/item?id=46342902) | Link: https://www.thegamer.com/clair-obscur-expedition-33-indie-game-awards-goty-stripped-ai-use/
 
-## TL;DR
+### TL;DR
 
-Clair Obscur: Expedition 33 had its Indie Game Awards “Game of the Year” and “Debut Game” wins revoked after organizers learned the studio had used generative AI art during development, despite previously certifying it had not. The AI assets were reportedly only temporary placeholders later patched out, but the IGA’s rules ban any game “developed using generative AI.” HN discussion centers on whether this is a justified enforcement of clear rules or an overbroad, unworkable stance that misunderstands how modern tools are used.
+The Indie Game Awards stripped Clair Obscur: Expedition 33 of Game of the Year and Debut Game honors after Sandfall confirmed generative-AI art had been used during production. The awards body says Sandfall had agreed during submission that no generative AI was used; even though reported placeholder textures were replaced, its rules make games developed with generative AI ineligible. Blue Prince and Sorry We’re Closed inherited the awards. The dispute turns on whether temporary development assets fall within a broadly worded prohibition.
 
-## Comment pulse
+### Comment pulse
 
-- It’s not a witch hunt, it’s about lying on the submission form → they attested “no gen AI” despite using AI placeholders; rules must be enforced. — counterpoint: banning placeholder tools is “dumb as hell”.
+- Some readers called punishment over temporary placeholders excessive; others argued the decisive issue was Sandfall’s inaccurate eligibility representation.
+- Critics questioned whether the rule clearly distinguishes generated assets from AI-assisted rendering, denoising, coding, or other development tools.
 
-- Indie vs AAA irony → strict anti‑AI rules mostly hit tiny teams who need cheap assets, while big studios loudly hype AI yet still qualify for major awards.
+### LLM perspective
 
-- Scope is a mess → “developed using gen AI” could technically include denoisers, DLSS, or codegen; commenters expect rules will narrow to “no AI‑generated assets in shipped content.”
-
-## LLM perspective
-
-- View: Awards need two dimensions: (a) AI policy (none/limited/allowed) and (b) honesty about pipelines, instead of a vague total ban.
-
-- Impact: Smaller studios face the highest compliance risk; larger studios can lawyer up, carefully word disclosures, and still lean heavily on AI tooling.
-
-- Watch next: Clearer asset‑level definitions, standardized “AI used where/how” disclosures, and maybe parallel categories explicitly celebrating non‑AI craftsmanship.
+- View: The enforcement is defensible, but the rule’s undefined scope invites disputes beyond this specific submission.
+- Impact: Studios now need auditable disclosure of experimental AI use, including assets never intended to ship.
+- Watch next: Whether the awards rewrite eligibility around shipped creative assets, development processes, or explicit disclosure.

@@ -3,18 +3,17 @@
 - Score: 113 | [HN](https://news.ycombinator.com/item?id=46344381) | Link: https://github.com/FOBshippingpoint/shittp
 
 ### TL;DR
-Shittp is a small POSIX-shell wrapper around SSH that lets you carry your own dotfiles (.profile, .vimrc, .tmux.conf, etc.) into a remote session without leaving anything behind. It tars and base64‑encodes a configurable dotfiles directory, passes it as the SSH remote command, unpacks into a temporary directory on the remote, initializes an adjusted shell (aliases, config paths), then cleans up when you disconnect. HN discussion praises the idea but notes many equivalent one‑liners and alternative workflows already exist.
 
----
+Shittp brings familiar dotfiles into an SSH session without modifying the remote home directory. A POSIX shell script packs local configuration into a tarball, base64-encodes it inside the SSH remote command, extracts it to a temporary directory, sources initialization, starts a shell, and removes the directory on disconnect. It supports alternate SSH clients, remote commands, and Docker output with only common Unix dependencies. Its main documented limit is command argument size; roughly 100 KB can already fail on Alpine Linux.
 
 ### Comment pulse
-- Nice idea, but niche → Many users rarely SSH into machines where leaving dotfiles is a problem; tmux/screen plus persistent dotfiles are usually fine.  
-- You can DIY with a line or two → mktemp + rsync or scp + trap achieve similar ephemeral homes with less tooling — counterpoint: shittp adds portability, options, and friendlier UX.  
-- Heavier alternatives exist → Some bundle a full statically linked toolbox and rsync/activate it, or use sshrc-like tools; shittp is a lighter, config‑only variant.
 
----
+- Temporary configuration suits colleagues' or foreign machines; personally controlled hosts usually already contain the user's dotfiles.
+- Some readers favored one-line copy or HOME overrides, while others wanted complete portable toolchains alongside configuration.
+- SSHFS would avoid copying but requires reverse connectivity and may enlarge the attack surface.
 
 ### LLM perspective
-- View: This is a focused, pragmatic improvement over ad‑hoc shell snippets for people who often SSH into “foreign” machines.
-- Impact: Most useful for consultants, SREs, and developers frequently touching coworkers’ boxes or ephemeral CI/containers.
-- Watch next: Benchmarks for large configs vs ARG_MAX, Windows/BusyBox quirks, and integrations with tools like sshrc or devbox.
+
+- View: The value is a friendly disposable workflow, not a novel transport primitive.
+- Impact: Operators gain familiar sessions without leaving configuration behind or overwriting another user's environment.
+- Watch next: Test quoting, cleanup after interruption, secret exclusion, connection overhead, shell portability, and ARG_MAX behavior.

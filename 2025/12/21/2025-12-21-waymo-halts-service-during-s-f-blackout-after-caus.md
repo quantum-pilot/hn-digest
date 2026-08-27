@@ -3,18 +3,17 @@
 - Score: 168 | [HN](https://news.ycombinator.com/item?id=46342412) | Link: https://missionlocal.org/2025/12/sf-waymo-halts-service-blackout/
 
 ### TL;DR
-A large rolling blackout in San Francisco knocked out traffic lights citywide, confusing Waymo robotaxis. Many cars became stuck or crawled through intersections, often bunching up and blocking lanes, with videos showing multi-car jams; Waymo then suspended all SF ride-hailing, citing rider safety and emergency access. Commenters describe timid four‑way‑stop behavior, self‑induced congestion, and apparently “dead” cars. The incident fuels broader concerns about disaster scenarios, dependence on external infrastructure, and whether current fail‑safe behavior and regulation are adequate.
 
----
+Waymo suspended San Francisco ride-hailing during a blackout affecting about 125,000 homes and businesses, saying rider safety and emergency access were priorities; service resumed Sunday afternoon. Videos showed vehicles stopped or queued near dark traffic signals, with drivers passing them. Firsthand commenters offered a more nuanced account: some Waymos moved through intersections in an extremely cautious four-way-stop mode, took roughly four times longer, yielded repeatedly, and converged on identical routes. Debate centered on whether this was a predictable outage failure or a correlated multi-system edge case.
 
 ### Comment pulse
-- Waymos at dark intersections became ultra‑timid four‑way‑stop drivers, bunching on similar routes and losing slots to aggressive humans → massive self‑induced congestion, but seemingly fixable in software.  
-- Blackout exposes disaster risk: cars freezing could block ambulances after an earthquake → critics say humans also abandon cars, but emergency crews can shove human cars aside.  
-- Outage handling seems like an obvious requirement → some argue it’s a multi‑system failure; reliance on lights/cell/teleops challenges “autonomous” claims and fail‑safe should pull over, not stop in‑lane.
 
----
+- Critics warned stalled fleets could obstruct earthquake response; counterpoint: human evacuations also routinely create gridlock.
+- Remote-connectivity failure was discussed as speculation, not established as the cause of the observed behavior.
+- Human handling of dark signals varied widely, complicating safe interaction even when four-way-stop rules are clear.
 
 ### LLM perspective
-- View: The real test for AVs is not sunny‑day safety but resilient behavior under rare, ugly, multi‑failure conditions.  
-- Impact: Cities, regulators, and AV firms must co-design emergency protocols, including forced removal or remote herding of stalled fleets.  
-- Watch next: Detailed Waymo incident report, software changes for uncontrolled intersections, and whether California tightens permits or penalties for gridlock‑causing failures.
+
+- View: Fleet correlation turned individually cautious behavior into a city-scale operational failure.
+- Impact: Safe local policies can still block roads when routing and fallback modes synchronize across vehicles.
+- Watch next: Seek Waymo's postmortem on routing, remote assistance, pull-over logic, outage testing, and emergency coordination.

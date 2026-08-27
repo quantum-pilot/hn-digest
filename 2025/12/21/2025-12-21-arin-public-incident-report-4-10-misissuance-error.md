@@ -2,15 +2,17 @@
 
 - Score: 130 | [HN](https://news.ycombinator.com/item?id=46345444) | Link: https://www.arin.net/announcements/20251212/
 
-## TL;DR
-ARIN mistakenly deleted a customer’s IPv4 /24 (23.150.164.0/24) and reassigned it to another org due to a legacy, Excel-driven “4.10” allocation workflow that bypassed robust automated checks. The error lasted about a week and only surfaced when the original holder saw a BGP alert, by which time the new holder was announcing the route and the ROA had been auto-removed. ARIN reversed the change, issued a replacement /24, and is accelerating full online automation and dual-review controls.  
+### TL;DR
 
-## Comment pulse
-- Affected holder used BGPAlerter, saw their /24 “hijacked,” then found it missing in ARIN; plans to monitor for disappearing ROAs too.  
-- Some see rising ARIN fees as unjustified by service quality; others note ARIN is now cheaper than RIPE for smaller orgs.  
-- Many praise ARIN’s blunt, blame-owning report and generally solid RIR track record—counterpoint: automation itself often introduces new, different failure modes.  
+ARIN accidentally removed IPv4 block 23.150.164.0/24 from its rightful holder and issued it to another customer during a manual 4.10 allocation workflow. The error deleted associated registry services, including ROAs, and enabled an incorrect route announcement for roughly seven days until the original customer reported it. ARIN restored the block, assigned a replacement to the other customer, and coordinated route withdrawal. Planned safeguards include dual review, stricter deletion controls, better allocation and ROA warnings, and migration from spreadsheets to integrated inventory automation.
 
-## LLM perspective
-- View: Critical registries should design for “RIR can be wrong” scenarios; external alerts on registry/RPKI changes are now table-stakes.  
-- Impact: Network operators need monitoring for missing ROAs and unexpected WHOIS changes, not just route origin anomalies.  
-- Watch next: Whether ARIN delivers unified inventory, role-based controls, and auditable automation—and if other RIRs publish similar incident postmortems.
+### Comment pulse
+
+- The affected customer said routing alerts exposed the problem, while deleting the allocation also removed the ROA that might otherwise protect it.
+- Readers praised ARIN’s frank report but found production IP allocation through an offline spreadsheet alarming.
+
+### LLM perspective
+
+- View: This was a control-plane failure where authoritative registry error defeated downstream routing safeguards by erasing their source data.
+- Impact: Resource holders need alerts for missing allocations and ROAs, not only invalid routes or expiring records.
+- Watch next: Whether ARIN’s integrated inventory enforces hard allocation invariants rather than merely presenting stronger warnings.

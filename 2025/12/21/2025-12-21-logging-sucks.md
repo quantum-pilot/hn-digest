@@ -3,14 +3,16 @@
 - Score: 500 | [HN](https://news.ycombinator.com/item?id=46346796) | Link: https://loggingsucks.com/
 
 ### TL;DR
-- The author argues most logging is still optimized for “easy writes” (scattered strings) instead of “easy queries” in modern, distributed systems. The fix is to emit one rich, structured “wide event” per request per service hop, with high-cardinality business context (user, cart, feature flags, error details) so you can query production traffic analytically instead of grep-ing text. OpenTelemetry is framed as plumbing, not a model: you still must decide *what* to capture and use tail-based sampling to control cost.
+
+The article argues that scattered, message-oriented logs make distributed debugging an exercise in reconstructing context. It recommends one “wide event” or canonical log line per request and service hop, progressively enriched with technical and business fields such as user tier, feature flags, timing, payment outcome, and errors. Structured high-cardinality events enable production questions to become queries rather than text searches. OpenTelemetry transports data but does not supply domain context; tail sampling can retain errors and unusual latency while reducing routine-event storage costs.
 
 ### Comment pulse
-- Wide events are useful, but keep classic logs/traces → single end-of-request event risks losing information when crashes/timeouts bypass the logger.
-- This is Charity Majors/Honeycomb-style observability and Nick Blumhardt-style structured logging → concepts predate the post; tools already support wide events.  
-- “It’s just structured tags; grep still works” → critics see complexity and lost readability, others note JSON logs remain greppable and unlock richer queries.
+
+- Readers liked richer request context but warned that emitting only at completion can lose evidence from crashes, timeouts, or bypassed error paths.
+- Others saw wide events as established structured logging and preferred retaining chronological logs or traces as complementary evidence.
 
 ### LLM perspective
-- View: Treat logs as queryable event data, not narrative text, and design schema first, statements second.
-- Impact: Improves debugging, SRE workflows, and cost control for teams with many services and high log volume.
-- Watch next: Native wide-event support in APMs, better tail-sampling controls, and opinionated frameworks that generate canonical log lines by default.
+
+- View: Wide events are a valuable request summary, but replacing all intermediate logs creates a new visibility blind spot.
+- Impact: Teams gain queryable business context only if schemas, identifiers, instrumentation, and developer awareness stay consistent.
+- Watch next: Hybrid designs combining enriched spans, canonical outcomes, selective event logs, and failure-safe emission.

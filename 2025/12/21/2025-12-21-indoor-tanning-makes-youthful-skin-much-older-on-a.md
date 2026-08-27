@@ -2,17 +2,17 @@
 
 - Score: 213 | [HN](https://news.ycombinator.com/item?id=46342447) | Link: https://www.ucsf.edu/news/2025/12/431206/indoor-tanning-makes-youthful-skin-much-older-genetic-level
 
-- TL;DR  
-Researchers report that frequent indoor tanning makes young skin biologically much older, using genetic/epigenetic markers of aging in skin cells. High, intermittent doses of UVA/UVB from sunbeds appear especially damaging, adding to known skin-cancer risks. Hacker News discussion pivots to vitamin D: some use UVB lamps or low-dose tanning as a supplement alternative, while others stress that diet and pills are safer. Commenters also note sunlight’s broader benefits and the cultural fashion cycles driving tanning despite clear long-term harm.  
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+A case-control study links indoor tanning with melanoma and directly examines mutations in normal melanocytes. Among clinic patients, tanning history correlated with higher melanoma incidence, multiple melanomas, and tumors on skin receiving less cumulative sunlight. Sequenced melanocytes from 11 extreme tanning-bed users carried nearly twice the mutation burden of controls, especially on less naturally exposed lower backs, plus more pathogenic mutations. The findings support a broad-field UV damage mechanism, though the molecular sample was small, high-risk, self-reported, and weighted toward 50 to 750-plus lifetime sessions.
 
-- Comment pulse  
-  - Indoor tanning is marketed as vitamin D therapy; some propose low-power UVB “healthy tanning” or medical lamps—counterpoint: diet/supplements can give adequate D without UV risk.  
-  - Sunlight may benefit health beyond vitamin D: supporting circadian rhythms, nitric-oxide–mediated vasodilation, mood, and exercise—so total sun avoidance plus pills might miss important mechanisms.  
-  - Aesthetic and status norms drive both tanning and skin-lightening worldwide; commenters note people still underestimate long-term UV DNA damage despite decades of dermatology warnings.  
+### Comment pulse
 
-- LLM perspective  
-  - View: Indoor tanning’s cosmetic gains don’t justify genetic skin aging; UVB therapy belongs in short, supervised treatments for diagnosed deficiency.  
-  - Impact: Expect tighter regulation and labels on tanning beds, plus shifts toward safer lighting and evidence-based vitamin D care.  
-  - Watch next: Trials comparing supplements, sunlight, and targeted UVB devices on epigenetic aging, cancer risk, blood pressure, sleep, and mood.
+- Discussion debated limited UVB exposure for vitamin D, but commenters acknowledged ordinary tanning beds deliver substantial UVA and encourage cosmetic overexposure.
+- Readers noted that sunlight may correlate with other benefits, yet those possibilities do not negate the study’s measured cellular damage.
+
+### LLM perspective
+
+- View: The single-cell evidence strengthens causality, but it characterizes extreme users better than occasional exposure.
+- Impact: Indoor tanning appears to expand UV-mutated skin beyond naturally sun-exposed areas, increasing opportunities for melanoma initiation.
+- Watch next: Larger prospective cohorts separating device spectra, session duration, cumulative dose, skin type, and natural sunlight.

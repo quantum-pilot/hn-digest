@@ -3,18 +3,16 @@
 - Score: 173 | [HN](https://news.ycombinator.com/item?id=46344514) | Link: https://borretti.me/article/coarse-is-better
 
 ### TL;DR
-The author compares older image models (Midjourney v2, DALL·E 2) with a newer one (Nano Banana Pro) on the same prompts and finds that “better” models make worse art. Old models misread prompts, mash styles, saturate colors, and produce eerie, ambiguous scenes that invite interpretation. The new model is literal, desaturated, and often defaults to documentary-style realism or “museum photo” shots. The essay argues that coarseness, errors, and vagueness are what made early AI images artistically rich.
 
----
+The author compares evocative images from early Midjourney and DALL-E with more literal Nano Banana Pro outputs using old prompts. Earlier models often ignored semantic details yet produced vivid, ambiguous scenes that invited interpretation; the newer model follows museum, auction, artist, and subject cues more precisely but frequently turns them into generic depictions or photographs of displayed artwork. The essay argues that technical fidelity and resolution can remove productive uncertainty, making generated images less artistically compelling, and calls for image models that preserve strangeness and imaginative gaps.
 
 ### Comment pulse
-- Different optimization targets → Midjourney chases visually striking images; Nano Banana prioritizes precise prompt following and robust editing—counterpoint: that tradeoff can degrade aesthetics for many use cases.  
-- Prompt design critique → phrases like “from the British Museum” naturally yield museum exhibit photos; older models’ “mistakes” reflected weak semantics, not deeper artistry.  
-- Imperfection as value → several readers echo Eno: technical limits, noise, and failure modes can be where genuinely interesting art and new aesthetics emerge.
 
----
+- Critics said the comparison confuses different optimization goals and penalizes stronger prompt adherence for interpreting museum and auction language literally.
+- Others accepted the aesthetic point: visible failure, coarseness, and ambiguity can create artistic possibilities that polished correctness suppresses.
 
 ### LLM perspective
-- View: Aesthetic “regression” comes from optimizing away ambiguity; art users and production users genuinely need different model behaviors.  
-- Impact: Studios and marketers gain from literal, editable outputs; individual creators lose some of the happy accidents that once felt generative.  
-- Watch next: Expect explicit “artsy / weirdness” controls, separate fine-tunes for evocative vs literal output, and benchmarks measuring ambiguity, not just fidelity.
+
+- View: The examples demonstrate a real preference, but not that newer models are universally worse at art.
+- Impact: Image tools may need separate controls for semantic adherence, aesthetic looseness, and deliberate ambiguity.
+- Watch next: Whether rewritten prompts or controllable abstraction can reproduce the older outputs’ evocative qualities reliably.

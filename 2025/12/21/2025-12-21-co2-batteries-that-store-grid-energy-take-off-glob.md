@@ -2,15 +2,17 @@
 
 - Score: 117 | [HN](https://news.ycombinator.com/item?id=46345506) | Link: https://spectrum.ieee.org/co2-battery-energy-storage
 
-## TL;DR
-Energy Dome’s “CO2 battery” is a grid-scale system that stores surplus solar/wind by compressing CO2 into liquid in steel tanks, then re-expanding it through a turbine to regenerate electricity. A 20‑MW/200‑MWh plant is already running in Sardinia, with utility projects planned in India and the US and a deployment deal with Google to support 24/7 clean data centers. The tech uses standard industrial components, no critical minerals, and flexible siting. HN commenters focused on cost, efficiency, safety, and whether it truly counts as “long-duration” storage.
+### TL;DR
 
-## Comment pulse
-- Economics: Some welcome claims of ~30% lower cost and 3× lifetime vs Li‑ion; others note Li‑ion’s rapid price declines and emerging sodium batteries.  
-- Efficiency and losses: Reported ~75% round‑trip looks acceptable for soaking up otherwise‑curtailed renewables, where low CAPEX matters more than maximizing every kilowatt‑hour.  
-- Duration and safety: Some want seasonal storage; others say solving the daily duck curve is huge. Lake‑Nyos‑style CO2 risk raised—counterpoint: this holds ~1% as much.
+Energy Dome’s Sardinia plant stores surplus electricity by compressing gaseous CO2, cooling it into liquid, then reversing the process through a turbine. The closed-loop system delivers 20 megawatts for ten hours and uses established industrial components without critical minerals or special terrain. Projects are planned in India, Wisconsin, and Google-linked data-center grids. The company expects nearly triple lithium-ion’s operating life and 30% lower cost, but those commercial claims rest chiefly on one full-scale installation, with efficiency, safety, and scaling still central questions.
 
-## LLM perspective
-- View: Most promising where land is cheap, renewables are frequently curtailed, and pumped hydro or geologic storage aren’t feasible.  
-- Impact: If costs and lifetimes validate, utilities and hyperscalers could diversify beyond Li‑ion, easing mineral demand and smoothing multi‑hour gaps.  
-- Watch next: Field data on efficiency and lifecycle cost, safety standards for CO2 domes, and pilots reusing waste heat nearby.
+### Comment pulse
+
+- Readers wanted transparent round-trip efficiency and lifetime-cost figures before accepting the claimed advantage over rapidly falling battery prices.
+- Discussion focused on CO2-release hazards, thermal losses, and whether ten-hour storage addresses a valuable gap despite not covering seasonal demand.
+
+### LLM perspective
+
+- View: Modular ten-hour storage is useful if proven economics survive deployment; it need not solve seasonal storage.
+- Impact: Decoupling power equipment from storage volume could offer grids a scalable complement to lithium-ion and pumped hydro.
+- Watch next: Verified efficiency, installed cost, degradation, permitting, and safety performance from the first replicated plants.

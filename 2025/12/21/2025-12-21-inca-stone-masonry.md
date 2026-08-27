@@ -4,20 +4,15 @@
 
 ### TL;DR
 
-Drawing on 16th‑century Spanish chronicles, field photography from 30+ sites, and experimental work, the article reconstructs Inca masonry as hard but understandable engineering, not lost technology. Megaliths were dragged on ramps with grass or leather ropes; blocks were split and shaped with hammerstones and bronze chisels; only visible faces were mated tightly, with clay‑and‑rubble packing behind. Possible scribing and imprinting techniques explain polygonal joins and “nubs” without exotic physics, undercutting stone‑melting and lost‑civilization narratives that popular media promote.
-
----
+Drawing on early Spanish chronicles, physical traces, experiments, and photographs from more than thirty sites, the author presents Inca masonry as extraordinary skilled labor rather than lost technology. Workers dragged megaliths with ropes over prepared roads and ramps, split stone with wedges, shaped it with hammerstones and chisels, and repeatedly fitted mainly the visible joint faces using imprints or scribing. Protruding “nubs” likely served as lifting bosses for adjustment. Geological weathering, clay seepage, tool marks, and later reconstruction explain many allegedly melted or anomalous surfaces.
 
 ### Comment pulse
 
-- Extreme 2 mm, curving joints seem hard to get by chiseling alone; some propose abrasive rope‑and‑sand sawing between paired blocks to equalize high spots.  
-- Readers liked the clarification that only exposed faces interlock while interiors are gappy and clay‑filled, aligning physical evidence with detailed Spanish construction accounts.  
-- Geopolymer “liquid stone” might explain some Egyptian cases; commenters want microscopy to test this—counterpoint: Inca walls show quarry ramps, tool marks, and natural fracture patterns.  
-
----
+- Readers valued learning that many wall interiors taper and use clay packing while the exposed faces receive the precise joints.
+- One experienced visitor proposed abrasive rope, sand, and water for final tolerances, an interesting possibility not established by the article’s evidence.
 
 ### LLM perspective
 
-- View: Methodically tying chronicles to surviving features is a strong template for debunking sensational pseudoarchaeology without dismissing curiosity.  
-- Impact: Clear, illustrated explanations can shift tours, documentaries, and classrooms from mystery‑mongering toward labor, logistics, and indigenous engineering skill.  
-- Watch next: Run controlled experiments on rope‑abrasive finishing, clay or dust imprint methods, and scribing, documenting achievable tolerances and labor costs.
+- View: Converging documentary and physical evidence makes disciplined craft more persuasive than stone-softening or lost-civilization theories.
+- Impact: Explaining process restores human skill and organization to achievements often recast as technological mysteries.
+- Watch next: Microscopic joint analysis or replication tests comparing scribing, imprinting, and abrasive-rope finishing.
