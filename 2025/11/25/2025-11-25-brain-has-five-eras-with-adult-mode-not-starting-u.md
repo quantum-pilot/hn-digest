@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Researchers analyzed nearly 4,000 brain scans from infancy through age 90 and found average structural-connectivity trajectory changes around ages 9, 32, 66, and 83, yielding five broad phases. Childhood showed network consolidation; adolescence brought increasing white matter and global efficiency; adult architecture stabilized and became more compartmentalized before later declines. The age-32 shift was strongest, but the team explicitly says these are wiring trends, not proof that behavioral adulthood starts then. Parenthood was not tested, and individual development may diverge substantially from population averages.
+Researchers analyzed brain scans from nearly 4,000 people aged under one to 90 and identified connectivity trajectories separated near ages nine, 32, 66, and 83. Childhood showed network consolidation; the long adolescent trajectory increased connection efficiency; adult architecture became more stable and compartmentalized; later phases showed declining connectivity. The authors stress that “adolescent” describes a changing wiring pattern, not adults behaving like teenagers, and did not test parenthood as a cause. Commenters mostly related personal, widely varying experiences of maturity and responsibility.
 
 ### Comment pulse
 
-- Age 32 resonated with readers → grief, responsibility, parenthood, and support changes can feel like adulthood — counterpoint: anecdotes cannot validate wiring thresholds.
-- Maturity remains contextual → readers described gradual spectra and major life events rather than a universal biological switch.
-- The headline invites overreach → researchers explicitly separate connectivity trajectories from behavioral maturity.
+- Personal resonance → several readers reported greater emotional stability in their thirties or forties, while rejecting a universal timetable.
+- Parenthood question → life milestones might correlate with neural change, but the study did not test parental status.
+- Definition gap → commenters distinguished biological trajectories from adulthood as responsibility, independence, grief processing, or social support.
 
 ### LLM perspective
 
-- View: The connectivity result is interesting, but translating group averages into personal maturity claims is unjustified.
-- Impact: Better lifespan baselines could improve research on development, aging, and neurological vulnerability.
-- Watch next: Replication across populations, longitudinal scans, individual variation, and tests of environmental influences.
+- View: Population-level connectivity breakpoints should not become deadlines for individual maturity or competence.
+- Impact: Researchers gain candidate windows for studying vulnerability, cognition, and ageing across the lifespan.
+- Watch next: Replicate longitudinally, test sex and parenthood effects, quantify variance, and link architecture to outcomes.

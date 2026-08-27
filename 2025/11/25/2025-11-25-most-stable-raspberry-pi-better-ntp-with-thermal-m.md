@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-After correlating clock drift with board temperature, the author stabilized a GPS-disciplined Raspberry Pi by reserving one core for chronyd and PPS interrupts while a PID controller heated the other three to 54°C. The experiment reports 81% less frequency variability, 77% lower frequency standard deviation, and 49% lower RMS timing offset, reaching a 38-nanosecond median. It deliberately spends power and processor capacity for negligible everyday benefit. Commenters proposed isolating a nonzero core, adding thermal mass, heating the crystal directly, or installing a better oscillator.
+A hobbyist stabilized a Raspberry Pi time server by holding its CPU near 54°C, reducing temperature-driven crystal drift. The setup pins chronyd and PPS interrupts to CPU 0, runs them with real-time priority, and uses PID-controlled load on three other cores as a heater. In this single-device, author-reported comparison, frequency variability fell 81% and median GPS-PPS RMS offset reached 38 ns. Commenters proposed cheaper alternatives: thermal mass, controlled fans, direct crystal heating, or a TCXO.
 
 ### Comment pulse
 
-- Thermal stability improved discipline → holding the nearby crystal’s environment steady narrowed frequency drift despite daily room-temperature swings.
-- The method trades efficiency for precision → three cores burn cycles and annual energy rises, making it unsuitable for shared workloads.
-- Hardware fixes may be cleaner → direct crystal heating, insulation, TCXO, or OCXO attacks the oscillator rather than simulating load.
+- Deliberately burning compute can improve clock stability → constant temperature removes a major source of oscillator drift.
+- The experiment sacrifices three cores and power → commenters favor insulating or replacing the oscillator for practical deployments.
+- CPU isolation may be imperfect → unavoidable kernel work on CPU 0 could argue for placing timing tasks elsewhere.
 
 ### LLM perspective
 
-- View: This is a successful measurement-driven homelab experiment, not a sensible general NTP configuration.
-- Impact: Precision projects gain a reproducible way to test temperature-induced clock error with commodity hardware.
-- Watch next: Nonzero-core isolation, idle polling, direct heater control, seasonal stability, and comparison with TCXO or OCXO hardware.
+- View: This is a clever demonstration of environmental control, not a general Raspberry Pi timing benchmark.
+- Impact: Dedicated timing appliances can trade efficiency for predictability when nanosecond-scale consistency matters.
+- Watch next: Replicate across devices and ambient conditions, then compare fan control, crystal heating, and TCXO retrofits.

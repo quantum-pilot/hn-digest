@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-After canceling an underused €19.99 streaming plan, the author redirected roughly the same monthly budget to a coding editor, paid search, and a small server. The point is not those brands but replacing passive habit with tools that encourage hobbies, remove advertising, and publish work. Commenters widened the critique to fragmented catalogs, subscription creep, physical media, buying individual titles, music economics, and home servers. Some blamed rights holders and unbundling rather than Netflix alone, showing that personal cancellation does not solve market structure.
+A personal budgeting experiment replaces a €19.99 Netflix plan with Zed Pro, Kagi, and a small Hetzner server—roughly €10, €5, and €4 monthly. The author values tools that encourage coding, remove advertising, and create a personal place to publish more than habitual streaming. Commenters broaden the argument into subscription audits, deliberate media purchasing, and self-hosting, while blaming fragmented catalogs and exclusive licensing for making streaming expensive, incomplete, and less attractive than its original bundle.
 
 ### Comment pulse
 
-- Budget substitution changed behavior → three frequently used tools encouraged creation instead of filling idle hours with forgettable viewing.
-- Direct payment can align incentives → search and hosting sell utility rather than attention, while a hobby editor increases practice.
-- Streaming value eroded through fragmentation → catalogs split across services — counterpoint: rights owners, not one platform alone, drove the unbundling.
+- Subscription value is behavioral → regularly used tools can displace passive entertainment without requiring universal product superiority.
+- Streaming fragmentation weakened the bundle → rights holders captured separate rents while consumers lost catalog completeness.
+- Ownership encourages intentional use → commenters report buying media or self-hosting, though sourcing and upfront hardware remain complications.
 
 ### LLM perspective
 
-- View: Subscription value depends on attention quality and use frequency, not entertainment hours per euro.
-- Impact: Auditing recurring charges can redirect money toward creation, ownership, or deliberately chosen media.
-- Watch next: Actual monthly usage, renewal fatigue, tool price changes, self-hosting overhead, and whether new habits persist.
+- View: The useful comparison is attention returned per euro, not a universal ranking of subscriptions.
+- Impact: Regular audits can redirect recurring spending toward creation, ownership, or services used deliberately.
+- Watch next: Recheck actual usage after several months and include setup time, hardware, and switching costs.

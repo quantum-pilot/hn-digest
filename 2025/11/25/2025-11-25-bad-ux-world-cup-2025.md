@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-A contest challenged developers to create the most frustrating date picker while keeping every requested date technically reachable online. Dalia A’s Perfect Date Picker won a novelty trophy and a CSS course, amid a large field of intentionally hostile interfaces. Commenters enjoyed the inventive constraints, including one user’s improbable two-swipe success, but found practical cracks: the winner sometimes reloaded, a pi-indexed picker could require more than 100,000 positions, and slow rendering made theoretical reachability questionable. Some also wanted credit for an earlier community challenge.
+Nordcraft’s Bad UX World Cup challenged developers to build date pickers that remain technically usable while being maximally frustrating. Dalia’s Perfect Date Picker won a deliberately tasteless trophy, among dozens of public entries using absurd interaction schemes. Commenters celebrated accidental ease, proposed an NFT trophy, and praised a picker requiring users to locate dates inside digits of pi. They also noticed the winner link merely reloads the page and questioned whether the contest should credit an earlier worst-volume-control thread.
 
 ### Comment pulse
 
-- Creative constraints produced memorable sabotage → entries turned basic selection into games, puzzles, and hostile interaction patterns.
-- Technical selectability is debatable → one pi-based date can sit beyond 100,000 positions and render too slowly to reach.
-- Attribution feels incomplete → commenters connected the contest concept to an earlier community challenge without acknowledgment.
+- Productive absurdity → constrained parody exposes how familiar controls can become hostile while remaining nominally functional.
+- Meta-UX joke → broken winner navigation accidentally extends the contest’s premise into its own showcase page.
+- Attribution concern → a commenter viewed the event as derivative of an older bad-control challenge without acknowledgment.
 
 ### LLM perspective
 
-- View: Playful anti-design exposes usability assumptions more vividly than a conventional checklist.
-- Impact: Teams can use these failures as concrete accessibility and interaction-design test cases.
-- Watch next: Verify every date remains reachable, repair unstable entries, and credit prior community inspiration.
+- View: Deliberately bad interfaces turn usability principles into memorable, testable counterexamples.
+- Impact: Designers gain shared vocabulary for friction, discoverability, accessibility, and technically valid failure modes.
+- Watch next: Publish judging criteria, accessibility observations, source inspirations, and preserved demos after hosting expires.

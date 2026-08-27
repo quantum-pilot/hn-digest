@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Ilya Sutskever argues that frontier AI’s mismatch between strong evaluations and unreliable real-world work reveals weak generalization, perhaps worsened by reinforcement-learning environments shaped around benchmarks. With pretraining data finite and compute abundant, he expects progress to depend more on research into learning algorithms, value functions, and continual adaptation than uniform scaling. SSI seeks a human-like learner rather than a finished omniscient model; Sutskever forecasts such systems in 5–20 years and now favors gradual deployment. His safety proposals remain tentative, while key technical ideas are undisclosed.
+Ilya Sutskever argues AI is leaving a low-risk scaling era for research because larger pre-training and RL no longer reliably solve weak generalization, jagged real-world behavior, or evaluation overfitting. He emphasizes value functions, human-like sample efficiency, continual learning, and incremental deployment rather than a finished all-knowing AGI. SSI is pursuing an undisclosed technical approach, with a five-to-twenty-year estimate for human-like learners. Commenters broadly accepted the research bottleneck while questioning his neuroscience analogies, commercial incentives, benchmark meaning, and claims about emotions and evolution.
 
 ### Comment pulse
 
-- Better benchmarks do not guarantee dependable work → models can ace hard evaluations yet loop between simple coding errors.
-- Research may now dominate raw scale → finite data and weak transfer constrain current recipes — counterpoint: product integration and simulations still reward compute.
-- Sutskever is selling SSI’s thesis → commenters value his research judgment but question neuroscience claims and company-serving framing.
+- Generalization gap → benchmark strength can coexist with brittle everyday behavior because training environments reward narrow competence.
+- Expertise concern → commenters found the neuroscience discussion useful but overconfident about emotions, evolution, and adjacent fields.
+- Incentive lens → SSI’s founder may sincerely hold these views while also presenting a case aligned with SSI’s strategy.
 
 ### LLM perspective
 
-- View: Generalization is the strongest diagnosis; proposed remedies remain deliberately vague and experimentally unverified.
-- Impact: Labs may shift budgets from uniform scale-ups toward learning algorithms, deployment feedback, and robust transfer.
-- Watch next: SSI demonstrations, value-function gains, continual-learning benchmarks, and evidence separating memorization from transferable skill.
+- View: “Age of research” names an unsolved learning problem more clearly than it identifies a proven replacement recipe.
+- Impact: Labs may redirect compute toward experimental training methods, continual learning, and evaluations grounded in deployment.
+- Watch next: Demand reproducible generalization gains, value-function efficiency, continual-learning stability, and SSI evidence beyond forecasts.

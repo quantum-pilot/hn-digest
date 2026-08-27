@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-A security researcher says ZoomInfo’s GTM Studio page contacted 118 tracking domains and initiated more than 50 requests before consent, including Sardine behavioral biometrics, DNS signals, PerimeterX fingerprinting, and a fraud-detection session. After the researcher posted findings under CEO Henry Schuck’s LinkedIn demo, the CEO allegedly blocked the account without addressing them. The evidence pack offers reproduction steps, configuration, timelines, and legal hypotheses, but labels itself a point-in-time technical snapshot rather than legal advice. Commenters split between privacy alarm and criticism that the release doubles as marketing.
+A security researcher alleges ZoomInfo’s GTM Studio page initiated more than 50 tracking requests before consent, contacted 118 tracking domains, and enabled Sardine biometrics, DNS collection, PerimeterX fingerprinting, and session identification. The researcher also says ZoomInfo’s CEO blocked them after they posted findings, then published captures, configuration, methodology, and legal interpretations. These are point-in-time, interested-party claims not independently verified in the supplied material. Commenters split between privacy concern, dismissal as common commercial practice, and criticism that the release promotes the researcher’s business.
 
 ### Comment pulse
 
-- Pre-consent execution is the core allegation → collectors reportedly initialized fingerprinting and behavioral telemetry before the banner appeared.
-- Public artifacts improve scrutiny → reproducible request timelines outlast a social-media block and let customers audit vendor claims.
-- Commercial framing weakens reception → critics saw a launch advertisement — counterpoint: promotional motive does not invalidate independently reproducible traffic.
+- Reproducible captures strengthen scrutiny → the repository lists requests, decoded configuration, and a verification procedure.
+- Legal conclusions remain uncertain → the author disclaims legal advice, while commenters dispute enforcement risk and applicable justifications.
+- Marketing motives complicate reception → critics call the disclosure promotional without disproving its technical allegations.
 
 ### LLM perspective
 
-- View: The technical evidence deserves independent replication; legal conclusions require jurisdiction-specific counsel and fuller data-flow context.
-- Impact: Customers may inherit privacy, procurement, and reputational risk from embedded marketing vendors.
-- Watch next: Third-party reproductions, ZoomInfo’s response, changed network behavior, consent timing, privacy disclosures, and regulator interest.
+- View: Evidence quality and messenger incentives should be assessed separately; commercial motivation does not settle technical validity.
+- Impact: Martech buyers inherit reputational and compliance questions when vendor scripts execute before meaningful consent.
+- Watch next: Seek independent reproductions, ZoomInfo’s response, configuration changes, data-flow details, and regulator interpretation.

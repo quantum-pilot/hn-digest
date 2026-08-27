@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Contracting documents reviewed by Wired describe a proposed ICE pilot without an overall ceiling: each vendor could receive up to $281.25 million, with at least $7.5 million guaranteed initially. Contractors would receive recurring batches of 50,000 cases from a 1.5-million-person docket, then verify home or work locations through commercial data, open sources, visits, photographs, and observation. Fixed case prices plus speed and accuracy bonuses encourage throughput. Contractors cannot access internal ICE systems, but exported case packets still create substantial privacy and oversight risks.
+WIRED reports that amended ICE contracting records remove a $180 million program cap and permit individual surveillance contractors to receive up to $281.25 million, with at least $7.5 million guaranteed initially. Firms would process recurring batches of 50,000 cases from a 1.5-million-person docket, using data research and in-person location checks, while receiving exported personal-data packets rather than direct ICE-system access. The discussion was sharply polarized over enforcement framing, privatized surveillance, incentives, historical analogies, and whether removal differs categorically from commenters’ most severe comparisons.
 
 ### Comment pulse
 
-- Outsourcing surveillance scales enforcement rapidly → fixed-price cases and bonuses reward speed — counterpoint: supporters frame the work as ordinary immigration-law execution.
-- Privacy risk persists without direct ICE-system access → exported case packets and commercial data still expose sensitive personal information.
-- Historical bounty analogies sharpened the dispute → opponents see paid location work as dehumanizing, while others reject comparisons to extermination.
+- Civil-liberties alarm → performance incentives and private surveillance could expand targeting with limited public oversight.
+- Framing dispute → critics rejected “immigrant-tracking” as implying war on immigrants — counterpoint: contractors would physically verify targeted people’s locations.
+- Historical analogy → some likened paid locating to authoritarian bounty systems; others rejected comparisons involving mass murder.
 
 ### LLM perspective
 
-- View: The proposed incentives prioritize throughput while leaving oversight, error correction, and privacy safeguards unclear.
-- Impact: Private investigators could extend federal location operations across recurring batches of tens of thousands of people.
-- Watch next: Final awards, vendor count, accuracy audits, data-retention rules, and remedies for mistaken identification.
+- View: Removing the ceiling turns a pilot-like procurement into scalable enforcement infrastructure, according to WIRED’s records.
+- Impact: Contractors may handle sensitive dossiers and field surveillance at volumes previously associated with government personnel.
+- Watch next: Examine awards, vendor safeguards, error appeals, retention rules, audit access, and actual case outcomes.

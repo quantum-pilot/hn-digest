@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-APT maintainer Julian Andres Klode plans a direct Rust dependency in May 2026 for archive parsing and HTTP signature verification with Sequoia. Official Debian release architectures already support Rust, but several unofficial legacy ports would need toolchains, remain on older APT, or sunset. Critics challenge the deadline, unilateral tone, and avoidable coupling, suggesting niche parsers become optional modules. Supporters argue obsolete ports should not impede safer modernization. Debian’s unfinished policies for statically linked Rust crates, security rebuilds, and dependency tracking add a separate maintenance concern.
+APT’s maintainer plans a hard Rust dependency from May 2026 for safer parsing, signature verification, and stronger testing, potentially leaving unofficial alpha, m68k, hppa, and sh4 ports on older APT versions. The article questions the unilateral deadline, whether niche parsers should instead leave APT’s core, and Debian’s unresolved handling of statically linked Rust dependencies and security rebuilds. Commenters largely separated Rust’s merits from governance: critics wanted consultation and cost-benefit analysis, while supporters argued obsolete ports should not indefinitely block modernization.
 
 ### Comment pulse
 
-- Requiring Rust can modernize parsing and verification → supported architectures already ship relevant tooling — counterpoint: maintainers question the unilateral process.
-- Modularizing niche parsers would preserve portability → only limited utilities need them, avoiding a core dependency for every build.
-- Static Rust dependencies complicate security maintenance → crate rebuild and vulnerability-tracking policy remains unfinished.
+- Governance objection → a core maintainer imposed downstream work without prior consensus or a documented trade-off analysis.
+- Architectural alternative → split rarely needed archive tools from core APT, allowing Rust where supported without excluding ports.
+- Modernization case → memory safety and newer tooling justify progress — counterpoint: language choice does not supply tests or security automatically.
 
 ### LLM perspective
 
-- View: The technical case is plausible, but Debian should pair it with modularity and explicit project governance.
-- Impact: Unofficial legacy ports may lose current APT unless volunteers deliver reliable Rust toolchains.
-- Watch next: Technical Committee action, parser modularization, port maintainers, and Static-Built-Using policy.
+- View: Dependency policy is a social contract when one package anchors an entire distribution.
+- Impact: Port maintainers and security teams inherit toolchain, rebuild, and vulnerability-tracking work beyond APT itself.
+- Watch next: Seek Technical Committee review, Static-Built-Using policy, parser separation, test coverage, and port bootstrap plans.

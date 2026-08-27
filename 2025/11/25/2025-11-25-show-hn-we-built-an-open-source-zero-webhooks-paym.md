@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Flowglad presents an open-source payments and billing layer designed to remove webhook handling and the mappings among product plans, prices, entitlements, provider customers, and application users. It still uses Stripe Connect for merchant accounts and acquiring, so the open code does not replace regulated payment rails. Critics questioned routing subscription-state reads through another hosted API, especially for responsive or analytical workloads; the team acknowledged this and plans merchant-side storage. Supporters saw value in changing AI-product pricing without repeatedly rebuilding billing lifecycle logic.
+The captured repository page identifies Flowglad as open-source payments and billing infrastructure, while the title promises a webhook-free developer experience; the frozen page omits enough README detail to verify that architecture. Discussion supplies the clearest model: Flowglad currently uses Stripe Connect and aims to manage plan, feature, price, and customer mappings. Critics say remote state reads add latency and limit complex queries, while the author acknowledges plans for merchant-side storage and that an acquiring provider remains necessary.
 
 ### Comment pulse
 
-- The abstraction targets billing state → developers avoid maintaining price, plan, feature, and customer mappings across application and Stripe models.
-- Zero webhooks does not mean zero intermediaries → Stripe Connect still supplies merchant acquiring — counterpoint: open billing logic can remain valuable.
-- Remote reads may constrain product queries → caching restores responsiveness but reintroduces local state and synchronization work.
+- Billing abstraction can accelerate pricing experiments → AI products frequently change meters, entitlements, and plans.
+- Remote reads may become a bottleneck → local payment state supports responsiveness and flexible cross-customer queries.
+- Open source does not remove payment risk → Stripe Connect still supplies merchant acquiring and regulated infrastructure.
 
 ### LLM perspective
 
-- View: This is an orchestration layer over payments, not an independent processor or self-hosted banking stack.
-- Impact: Startups may iterate pricing faster while accepting another service dependency and provider constraints.
-- Watch next: Self-hosting scope, merchant-side caching, query APIs, reconciliation guarantees, pricing, and support beyond Stripe Connect.
+- View: The valuable layer is billing-state orchestration, not replacement of banks or payment rails.
+- Impact: Developers may trade integration work for another operational dependency and narrower data access.
+- Watch next: Verify webhook elimination, self-hosting boundaries, read latency, local-state support, fees, and failure recovery.
