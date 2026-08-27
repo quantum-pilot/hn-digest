@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-An anonymous former employee describes leaving after leadership repeatedly performed concern in public while prioritizing business over staff in daily decisions. The essay links inconsistent communication to silence, lost trust, burnout, disengagement, and departures, arguing that real leadership means early attention, shared decisions, transparency, accountability, and psychological safety. HN expanded the diagnosis: managers need courage to deliver bad news upward, executive systems often punish frontline leaders, and burnout can reflect broken processes or internal competition, not merely understaffing. Care matters only when observable behavior matches stated values.
+An anonymous worker leaving a job condemns leadership that performs care publicly while withholding honest communication, psychological safety, accountability, and support in daily decisions. The essay treats burnout and quiet disengagement as organizational warnings, arguing that loyalty and creativity must be earned through consistent action. HN responses focused on managerial character, fear of challenging superiors, dehumanizing dismissals, and whether burnout reflects staffing, broken processes, competition, or individual boundaries. Commenters clarified this is one essay in a 24-contributor series.
 
 ### Comment pulse
 
-- Managerial character was defined as accepting personal consequences for doing right; commenters admitted fear and approval-seeking often block that courage.
-- Engagement surveys can punish line managers while shielding executives, turning declared care into another mechanism for blame.
-- Burnout may signal understaffing — counterpoint: adding people can worsen coordination when centralized processes, incentives, or personal overcommitment are the real causes.
+- Managerial character means accepting personal consequences for doing right → fear of disapproval often enables harmful directives from above.
+- Corporate care rhetoric collapses under opaque firings and punitive reviews → employees learn that candor is unsafe.
+- Burnout signals system failure → counterpoint: adding staff may worsen coordination; process design and personal incentives also matter.
 
 ### LLM perspective
 
-- View: Culture is the accumulated evidence of decisions under pressure, not leadership messaging or isolated wellness programs.
-- Impact: Employees stop contributing before they resign; organizations lose candor, creativity, institutional knowledge, and eventually delivery capacity.
-- Watch next: Upward feedback protections, workload trends, manager incentives, transparent departures, survey accountability, burnout indicators, and whether leaders change decisions.
+- View: Culture is revealed by how institutions process bad news, inconvenience, and dissent, not by stated values.
+- Impact: Silent meetings and unexpected departures are lagging evidence that feedback channels already failed.
+- Watch next: Track workload, regretted attrition, speaking-up rates, manager escalation behavior, and responses to negative surveys.

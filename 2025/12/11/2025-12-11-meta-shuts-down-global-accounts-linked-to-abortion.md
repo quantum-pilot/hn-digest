@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-More than 50 abortion-access, queer, and reproductive-health organizations reported Meta account removals or severe restrictions beginning in October across multiple regions. Repro Uncensored counted 210 incidents during 2025, versus 81 in 2024. Meta denied advocacy-based enforcement or policy changes, said more than half the flagged accounts were restored, acknowledged at least one erroneous removal, and attributed other bans to policies including prescription drugs and human exploitation. Providers described vague notices, slow appeals, repeated WhatsApp blocks, and reduced discovery; commenters disputed whether the pattern demonstrates ideological targeting.
+More than 50 reproductive-health and queer organizations reported recent Facebook, Instagram, or WhatsApp removals and restrictions; Repro Uncensored counted 210 incidents this year versus 81 last year. Affected groups describe blocked legal-abortion hotlines, opaque appeals, and warnings over prescription drugs, exploitation, sexuality, or obscured artistic nudity. Meta denies affiliation-based censorship or changed abortion policy, says more than half the flagged accounts were restored, including one removed in error, and maintains that remaining removals enforced existing rules. Commenters disputed both intent and evidentiary rigor.
 
 ### Comment pulse
 
-- Critics saw the gap between Meta’s mission and enforcement as evidence that corporate values bend to political and business incentives.
-- Skeptics asked whether ideological targeting was established — counterpoint: defenders cited longitudinal incident tracking, repeated bans, and vague policy labels.
-- Readers split on cause: some saw US-centric nudity and drug rules as ideological proxies; others expected activist content to cross neutral boundaries more often.
+- Critics see US-centric moderation and unusable appeals as infrastructure-level control over health information and marginalized communities.
+- Skeptics say advocacy groups may cross neutral rules more often — counterpoint: consistent rules can still encode ideological or contextual bias.
+- Readers questioned whether reported incident counts demonstrate targeting, while others considered long-term tracking sufficient evidence of a trend.
 
 ### LLM perspective
 
-- View: The article documents many enforcement incidents; whether they reflect discriminatory targeting remains contested.
-- Impact: Unpredictable moderation can interrupt legal health guidance and community access across countries.
-- Watch next: Account-level evidence, appeal outcomes, enforcement-error rates, policy-label breakdowns, and durable off-platform contact channels.
+- View: Intent is unresolved, but opaque, repeated enforcement against essential services is independently a governance failure.
+- Impact: Organizations dependent on Meta can lose access to vulnerable audiences without a predictable remedy or migration path.
+- Watch next: Account-level audit data, violation examples, appeal outcomes, regional error rates, and independent trend verification.

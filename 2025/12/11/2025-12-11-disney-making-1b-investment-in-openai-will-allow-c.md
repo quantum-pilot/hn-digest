@@ -4,10 +4,10 @@
 
 ### TL;DR
 
-Disney announced a $1 billion equity investment in OpenAI and said Sora and ChatGPT Image users will be able to create AI content featuring Disney-owned characters. The supplied extract names Mickey Mouse, Ariel, and Cinderella, but provides no licensing terms, rollout details, safeguards, economics, or treatment of creators. The sole Hacker News comment redirects discussion to a separate OpenAI post, so this input contains no substantive community debate from which to infer sentiment, expected uses, or unresolved objections.
+Disney announced a $1 billion equity investment in OpenAI alongside permission for Sora and ChatGPT Image users to create content featuring selected copyrighted characters, including Mickey Mouse, Ariel, and Cinderella. The supplied article extraction contains only headline-level key points, so it does not establish licensing boundaries, safeguards, revenue terms, or how generated works may be distributed. The sole HN comment redirects discussion to a separate thread and adds no substantive reaction, leaving the commercial and creative implications largely unspecified in this input.
 
 ### LLM perspective
 
-- View: This combines a major investment with character licensing, while leaving crucial terms unstated.
-- Impact: Users gain sanctioned character generation; Disney and OpenAI bind their brands and economics more closely.
-- Watch next: Character availability, regional rollout, moderation rules, creator compensation, and the detailed license scope.
+- View: Licensed character generation turns a copyright conflict into a controlled product partnership, but crucial limits remain undisclosed.
+- Impact: Users gain sanctioned creative access while Disney and OpenAI jointly define what character-based generation permits.
+- Watch next: Published character lists, moderation rules, creator rights, attribution requirements, and commercial-use terms.

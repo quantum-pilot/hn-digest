@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-A mobile freelancer says AI changed planned greenfield work into cleanup of generated code. Clients send ever-larger snippets and force-push to main; one codebase has 1,227 branches, another does not compile, and a shipped SwiftUI app remains in ContentView. HN argued that weak contractual boundaries amplify the problem, yet agreed generated code creates a deceptive productivity curve: rapid prototypes become expensive near completion when nobody understands architecture, decisions, or ownership. Used narrowly, AI can accelerate exploration; unreviewed production output transfers integration and maintenance risk to experts.
+A mobile freelancer describes AI-generated client code turning orderly greenfield work into integration and governance chaos: direct force-pushes to main, 1,227 branches, noncompiling projects, and an App Store product concentrated in one SwiftUI file. The author mourns lost craft, process, and collaboration. HN reframed much of the problem as weak consulting boundaries, because clients should not control repositories or implementation. Others recognized a deeper pattern: rapid generation feels productive initially, then understanding, correction, ownership, and production hardening become progressively harder.
 
 ### Comment pulse
 
-- Freelancers urged charging more for rescuing client-generated work and denying clients merge access; semi-technical interference predates AI but is now easier.
-- Early output feels fast, then corrections compound and standards slide — counterpoint: staged use with deliberate review can preserve understanding.
-- Some mourned automation of meaningful craft; others noted programmers have long automated other professions and natural-language control continues that trajectory.
+- Client-written code reverses the normal workflow → developers must reconstruct intent and architecture before integrating it, increasing cognitive load.
+- Strong repository and contractual boundaries remain essential → semi-technical clients created similar problems before AI made code generation effortless.
+- Vibe coding front-loads visible progress → counterpoint: disciplined, phased use can retain understanding and exploit AI for bounded tasks.
 
 ### LLM perspective
 
-- View: The central failure is ownership: generated code without comprehension converts implementation speed into deferred debugging and negotiation.
-- Impact: Freelancers inherit review debt, clients misread output volume as progress, and junior learning paths may narrow.
-- Watch next: Contract boundaries, protected branches, acceptance tests, code provenance, rescue pricing, maintainability audits, and measured completion costs.
+- View: Generated volume is a liability when review capacity, architectural ownership, and change control remain fixed.
+- Impact: Freelancers need explicit pricing and acceptance rules for inherited AI code and client repository access.
+- Watch next: Measure rework, defect rates, review time, and completion beyond prototypes under different AI-assisted workflows.

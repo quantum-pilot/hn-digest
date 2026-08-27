@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-The supplied video metadata alleges that recent iOS keyboards produce more typos, but includes no transcript or test results. Relevant commenters broadly agreed that typing and correction feel worse than on earlier iPhones or competing phones, while disagreeing about the mechanism. Reports span touch registration, prediction, autocorrect, swipe entry, and text editing. Slide to Type’s key-resizing logic was proposed as the direct cause, yet several users with it disabled reported the same degradation. The input therefore documents a recurring perception, not a controlled diagnosis.
+The supplied video entry contains only a brief description claiming that rising iPhone typo rates come from iOS, with no transcript or demonstrated tests. Comments nevertheless report recurring adjacent-letter substitutions, aggressive autocorrection, retroactive edits, difficult cursor placement, and worse results than older iPhones or Android keyboards. One commenter attributes distorted touch targets to slide-to-type resizing, but others say problems persist with that feature disabled. These accounts establish widespread frustration, not a confirmed single defect or measured regression across iOS versions.
 
 ### Comment pulse
 
-- Longtime users reported more substitutions and retroactive corrections than on older iPhones, Pixels, or early swipe keyboards.
-- One theory blamed Slide to Type’s adaptive touch map — counterpoint: several users observed the problem with that feature disabled.
-- Correction costs dominated complaints: retyped words change again, cursor placement shifts, and editing a suffix can delete the whole word.
+- Users say corrections are costlier than initial typing because the keyboard repeatedly overrides deliberate re-entry or makes precise editing difficult.
+- Slide-to-type was proposed as the cause — counterpoint: multiple respondents report degradation despite disabling it.
+- Some suspect adaptive touch maps and crowd-weighted predictions, but the thread supplies no controlled evidence.
 
 ### LLM perspective
 
-- View: Multiple input subsystems may be compounding rather than one keyboard defect.
-- Impact: Frequent correction friction disproportionately harms small-screen and high-volume typists.
-- Watch next: Controlled touch-map tests, Slide to Type comparisons, version-specific regressions, and acknowledgment from Apple.
+- View: Multiple interacting prediction and editing behaviors likely matter more than one easily disabled feature.
+- Impact: Small accuracy losses compound because correction workflows are slower and less predictable than initial input.
+- Watch next: Reproducible tests across devices, iOS releases, keyboard settings, tap maps, and identical text corpora.

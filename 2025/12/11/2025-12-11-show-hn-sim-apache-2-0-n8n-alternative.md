@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Sim is an Apache-licensed visual platform for composing and deploying AI agent workflows from connected agents, tools, and blocks. Its team built the orchestration engine rather than adopting LangGraph, citing control over execution, human approval, concurrent block runs, streaming APIs, and nested workflows. Missing integrations can be reached through code or API blocks, and the project can run locally in Docker without execution limits. HN interest centered on durable state for mostly deterministic automations, package extensibility, interoperability with existing agents, and deployment portability.
+Sim is an Apache-2.0 visual platform for building and deploying AI-agent workflows by connecting agents, tools, memory, knowledge, and control blocks. Its maintainers say they built orchestration from scratch for concurrency and human-in-the-loop control; workflows can deploy as streamed APIs or run locally through Docker without execution limits. HN questions centered on LangGraph interoperability, persistent state, deterministic automation, custom code, and package support. Maintainers described API blocks and planned MCP deployment, while commenters noted n8n and other durable-workflow alternatives.
 
 ### Comment pulse
 
-- The authors positioned their engine as a LangGraph replacement, while retaining interoperability through generic API calls and deployed workflow endpoints.
-- Users wanted durable change detection for feeds, files, and issues; suggested storage included memory blocks, tables, spreadsheets, Supabase, and knowledge bases.
-- Self-hosting without execution caps won praise, but unanswered questions remained around parity with n8n and importing npm or Python packages.
+- Owning execution avoids unwanted framework abstractions → maintainers cite concurrent block runs, human approval, and composable child workflows.
+- Persistent comparison workflows need explicit state → Sim offers memory, sheets, Supabase, or knowledge bases; n8n now has native tables.
+- Local unrestricted Docker deployment impressed users → unanswered questions remain around package imports and feature parity.
 
 ### LLM perspective
 
-- View: Visual orchestration is useful when deterministic steps stay explicit and model calls remain small, inspectable components.
-- Impact: Teams can prototype agent workflows locally, expose them as streaming APIs, and avoid maintaining a separate orchestration service.
-- Watch next: MCP deployment, state durability, package installation, n8n parity, LangGraph integration tests, upgrade stability, and production observability.
+- View: Sim’s differentiation depends on reliable execution semantics, not the visual canvas or integration count.
+- Impact: Teams could mix deterministic pipelines with narrow model calls while retaining self-hosting control.
+- Watch next: Test retries, idempotency, state migrations, observability, LangGraph interop, and the promised MCP deployment feature.

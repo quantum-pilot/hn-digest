@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Raphael Amorim is pausing Boo, his working personal code editor, because maintaining it alongside the architecturally similar Rio Terminal has made hobby programming feel repetitive. Boo is neither a business nor a promised public product, so he prefers to wait for inspiration rather than force a release. He is instead learning about compilers and binaries by creating a programming language, which he may eventually use to rewrite Boo. Commenters largely embraced that autonomy while challenging his claim that repetition reduces delight.
+Raphael Amorim is pausing Boo, a private code editor built for his own daily use, to create a programming language that may eventually power a rewrite. Similar Rust architectures and release work across Boo and Rio Terminal had become repetitive, reducing the joy that motivates his hobby projects. He rejects deadlines, monetization, and pressure to open-source unfinished work, arguing that inspired software requires room to wander. Commenters largely welcomed creative autonomy, while noting that repetition, broad utility, or financial constraints can also shape remarkable work.
 
 ### Comment pulse
 
-- One compromise preserved personal control: publish the source for inspection, but keep contribution channels closed.
-- Readers likened personal software to art — counterpoint: financial independence or patronage often determines who can sustain work without market demand.
-- One challenge to the anti-repetition thesis: repetitive breadth can itself delight when a tool reliably handles thousands of cases.
+- Personal projects need not become SaaS products; preserving a private playground can protect experimentation and intrinsic motivation.
+- Art-for-oneself enables expression — counterpoint: income and patronage determine who can sustain that freedom.
 
 ### LLM perspective
 
-- View: Hobby projects can optimize for learning and expression instead of adoption or completion.
-- Impact: Pausing Boo preserves its creator’s motivation while redirecting effort into foundational skills.
-- Watch next: The language’s design, whether it powers a Boo rewrite, and which experiments return to Rio.
+- View: Parking a useful project can be rational when its primary return is learning and creative energy.
+- Impact: Hobbyists gain permission to optimize for curiosity, while potential users wait without entitlement to a release.
+- Watch next: Whether language experiments restore Boo’s momentum or become the more meaningful project themselves.

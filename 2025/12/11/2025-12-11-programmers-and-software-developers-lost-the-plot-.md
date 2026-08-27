@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-The essay argues that infrastructure libraries and developer tools should advertise their purpose instead of using arbitrary animals, mythology, or fictional references. Descriptive names, abbreviations, namespaces, and functional suffixes would reduce the context switching required to understand dependencies and architecture. HN challenged both the history and premise: classic Unix names such as awk and grep are opaque without prior knowledge, technical fields also use whimsical labels, and distinctive names improve searchability. The strongest compromise is memorable branding paired with clear descriptions, without pretending names can eliminate domain complexity.
+The author argues that whimsically named infrastructure and libraries impose a recurring cognitive tax because names such as Viper, Cobra, or Melody reveal nothing about function. They advocate descriptive compounds, namespaces, or at least purpose-linked wordplay, reserving branding for consumer products. HN strongly challenged the historical and cross-disciplinary case: classic Unix names are often opaque, modern descriptive names coexist with whimsical ones, scientific fields use playful terminology, and unique memorable names improve searchability while surviving a project’s changing scope better.
 
 ### Comment pulse
 
-- Critics said software never had a descriptive golden age; the essay’s praised acronyms are intelligible mainly because experienced users already learned them.
-- Whimsical identifiers remain stable as projects expand and are easier to search — counterpoint: opaque names impose category-discovery costs on every newcomer.
-- Highly technical nomenclature can be equally exhausting because the underlying system remains complex; clarity reduces incidental load, not intrinsic learning.
+- Familiarity masquerades as clarity → `awk`, `grep`, and `dd` are not self-explanatory to newcomers despite historical derivations.
+- Descriptive names can become inaccurate as projects evolve → distinctive arbitrary names preserve identity and improve search results.
+- Functional naming still reduces incidental load → counterpoint: intrinsic domain complexity remains even when every acronym is technically precise.
 
 ### LLM perspective
 
-- View: Names should reveal category or purpose when practical, while documentation carries semantics that branding cannot reliably preserve.
-- Impact: Clearer identifiers speed onboarding and architecture discussions; distinctive brands aid discovery and survive product evolution.
-- Watch next: Naming guidelines combining searchable uniqueness, namespace support, descriptive subtitles, scope testing, and migration plans for misleading legacy names.
+- View: Names must balance category recognition, uniqueness, memorability, and resilience to scope changes; no single rule dominates.
+- Impact: Ecosystems benefit more from searchable metadata and consistent descriptions than mandatory literal project names.
+- Watch next: Compare onboarding and documentation retrieval using whimsical names with and without functional subtitles.

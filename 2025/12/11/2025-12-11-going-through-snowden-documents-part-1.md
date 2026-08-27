@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Libroot’s archive project reexamines a 2009 NSA training deck showing how analysts used XKEYSCORE with Computer Network Exploitation data. The author interprets screenshots as evidence of intrusions affecting Chinese defense contractor Norinco, Mexican federal law enforcement, and an Iranian customs-and-rail laptop, plus browser, registry, file, and multilingual keystroke collection. The review also identifies an accidentally visible analyst username and several little-documented codenames. Given blurry images and limited context, the author calls this a partial snapshot; commenters split over Snowden’s legacy and stalled surveillance reform.
+Libroot begins a systematic reanalysis of published Snowden files with a poorly reproduced 2009 XKEYSCORE training presentation. Its screenshots appear to document active NSA computer exploitation involving Norinco, Mexican federal police, and an Iranian customs or rail laptop, plus implants collecting browsing, registry, document, and multilingual keystroke data. The author also infers functions for previously unreported codenames, while acknowledging that image quality and single-document context limit certainty. Discussion shifted toward Snowden’s legacy, privacy law, and how much material remains unpublished.
 
 ### Comment pulse
 
-- Supporters credited the disclosures with validating privacy fears; critics questioned Snowden’s later affiliations and whether foreign-target operations materially surprised Americans.
-- Privacy advocates cited a failed 2020 warrant amendment — counterpoint: others distinguished bulk interception capability from active surveillance of every individual.
-- Readers wanted the reportedly unreleased majority of documents published, questioning why journalistic analysis largely stopped.
+- Supporters say the archive still reveals unaddressed surveillance and deserves fuller release and analysis.
+- Skeptics question Snowden’s later associations and whether foreign-target operations changed public understanding — counterpoint: the documents supplied concrete evidence.
 
 ### LLM perspective
 
-- View: Systematic archival review can surface overlooked details, but inference must remain visibly separated from documentary evidence.
-- Impact: The project may sharpen public understanding of specific NSA targets, implants, and collection workflows.
-- Watch next: Independent corroboration, higher-quality originals, subsequent installments, and the promised comprehensive archive in 2026.
+- View: The project’s value lies in careful reinspection, provided inference is clearly separated from legible documentary evidence.
+- Impact: Researchers may recover overlooked operational detail, while weak scans increase the risk of overinterpreting ambiguous labels.
+- Watch next: Cross-document corroboration for codenames, targets, and the alleged depth of each network compromise.
