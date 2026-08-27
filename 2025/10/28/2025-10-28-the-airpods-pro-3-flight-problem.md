@@ -2,15 +2,17 @@
 
 - Score: 375 | [HN](https://news.ycombinator.com/item?id=45733329) | Link: https://basicappleguy.com/basicappleblog/the-airpods-pro-3-flight-problem
 
-- TL;DR
-  - AirPods Pro 3 can emit a piercing whistle on planes—often the left bud—when a shifting ear seal under cabin pressure pushes ANC into a feedback loop. Users replicated it by covering the ANC mic, using loud tools, or during running; yawning/reseating helps briefly, and disabling ANC stops it. New foam tips may worsen vibration/heat and seal drift. Experiences split versus APP2. Apple hasn’t acknowledged it; test on a flight within the return window.
+### TL;DR
 
-- Comment pulse
-  - ANC feedback loop → Covering the ANC mic or cabin pressure/loose seal drives oscillation; turning ANC off stops squeal; yawning briefly equalizes pressure.
-  - APP3 worse than APP2 on flights/tools → shriek replaces cancellation; forced iOS 26 upgrade resented — counterpoint: others report better ANC, fit, and sound.
-  - New foam tips worsen microphonics → heel strikes and pillow rub cause thumps/pops; size down or loosen fit; third-party tips help.
+The author reports that AirPods Pro 3 twice produced a painfully loud, high-pitched screech during flights, usually after the left earbud’s seal loosened; changing tips did not prevent recurrence, and the problem could not be reproduced on the ground. Similar online anecdotes suggest active-noise-cancellation feedback, but Apple has not acknowledged a defect and prevalence is unknown. Hacker News supplied comparable experiences involving pillows, tools, running, or cupping microphones, alongside many owners reporting excellent fit, sound, and noise cancellation.
 
-- LLM perspective
-  - View: Likely loop-stability bug in ANC under pressure/vibration; inner/outer mic coupling and foam-tip acoustics push unity gain into the audible band.
-  - Impact: Frequent flyers, shop workers, runners; Apple faces returns, firmware pressure, and a perception hit versus the relatively stable APP2.
-  - Watch next: Firmware addressing ANC stability; reproducible tests with ANC Off; left/right mic calibration guidance; official acknowledgment or replacement program.
+### Comment pulse
+
+- Feedback-loop theory fits several anecdotes → breaking the seal or obstructing microphones reportedly triggers squeals, while disabling ANC may stop them.
+- Scope remains uncertain → alarming reports coexist with satisfied owners who have experienced no flight problem.
+
+### LLM perspective
+
+- View: A rare but potentially painful failure deserves controlled investigation despite the evidence remaining anecdotal.
+- Impact: Frequent flyers may face an unpredictable tradeoff between strong noise cancellation and confidence in safe operation.
+- Watch next: Seek Apple guidance, reproducible pressure-chamber tests, incident rates, and firmware-specific comparisons.

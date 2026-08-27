@@ -2,15 +2,17 @@
 
 - Score: 210 | [HN](https://news.ycombinator.com/item?id=45731366) | Link: https://github.com/attogram/bash-screensavers
 
-- TL;DR
-  - A playful, MIT-licensed collection of Bash scripts turns your terminal into animated “screensavers” (matrix, pipes, life, stars, tunnel, etc.). Run ./screensaver.sh to choose or randomize. HN enjoys the whimsy but flags high CPU for some savers and cursor visibility. Others suggest using KDE’s plasma-wallpaper-application to make them real wallpapers/locks. Some note parallels to Emacs’s long-standing zone.el. Bash ≥3.2; quickstart is git clone && ./screensaver.sh.
+### TL;DR
 
-- Comment pulse
-  - Hide the cursor → Cursor visible during animation feels off; should default to tput civis and restore on exit — counterpoint: easy patch.
-  - Whimsy improves onboarding → Tests live in a 'jury' folder that “judges” savers, making QA visible and fun.
-  - Not new, but delightful → Several savers echo Emacs zone.el (circa 2000), showing enduring appeal of terminal art.
+An MIT-licensed collection turns Bash 3.2-compatible terminals into animated ASCII screensavers, with effects ranging from fireworks and Conway’s Life to pipes, rain, tunnels, and Matrix-style streams. The repository also supplies a launcher, gallery, curator tooling, and automated “jury” checks for contributions. Hacker News largely welcomed the project’s playful polish and testing vocabulary, while surfacing practical issues: one Matrix effect reportedly consumed 46% CPU, cursor hiding would improve presentation, and desktop integration could broaden its appeal.
 
-- LLM perspective
-  - View: Cute terminal art meets real usability if it idles efficiently and hides UX papercuts.
-  - Impact: Best for tinkerers, streamers, and Linux desktops; also a teachable playground for Bash control flow and TUI tricks.
-  - Watch next: Publish per-saver CPU/frame-rate benchmarks, default cursor hiding, packaged installs (AUR/Homebrew), and guides for KDE/other DE wallpaper or lockscreen integration.
+### Comment pulse
+
+- Whimsy is part of the product → commenters praised the gallery, effect names, and unusually polished contribution workflow.
+- Terminal animation has costs → one user measured high CPU use, while others requested cursor hiding and Plasma integration.
+
+### LLM perspective
+
+- View: The repository treats tiny terminal toys with production-like curation, making polish itself the demonstration.
+- Impact: Contributors get a low-stakes venue for learning Bash animation, testing, and packaging conventions.
+- Watch next: Track CPU fixes, cursor handling, and adoption as wallpapers or lock-screen components.

@@ -2,15 +2,17 @@
 
 - Score: 880 | [HN](https://news.ycombinator.com/item?id=45734582) | Link: https://www.threads.com/@nthmonkey/post/DQVdAD1gHhw
 
-- TL;DR
-  - A man’s uninsured brother-in-law died after 4 hours in the hospital and got a $195k bill. Forcing CPT itemization and using Claude to map codes to Medicare rules, he found bundling and eligibility violations (e.g., master-procedure double billing, inpatient-only code without admission, ventilator/critical care conflict) and 5–23× Medicare supply markups. A lawyerly letter anchoring to Medicare-equivalent payment led the hospital to drop to $37k; they settled around $33k. HN weighs AI as a tactical aid vs. systemic opacity (CPT licensing, chargemasters) and calls for Medicare benchmarks/single‑payer.
+### TL;DR
 
-- Comment pulse
-  - AI as coach → Guides appeals, escalation to regulators/CEO letters, and persistence; users report approvals within weeks for life‑critical care.
-  - Systemic opacity → AMA’s CPT licensing, insurer contracts, and chargemaster games hide true prices; complexity and bundling rules enable overbilling.
-  - Skepticism on AI credit → It built confidence more than negotiated — counterpoint: even imperfect analysis breaks info asymmetry and anchors talks to Medicare.
+In an unverified first-person account, a family challenged a $195,000 hospital bill after an uninsured relative’s death by requesting itemized codes and asking Claude to identify possible bundling, status, and duplicate-billing issues. After the author spot-checked major claims and sent a dispute letter, the hospital reportedly offered $37,000 and settled near $33,000. Hacker News viewed AI as useful for navigating opaque billing, but stressed that no coding expert validated the analysis and a discount does not prove the alleged errors.
 
-- LLM perspective
-  - View: LLMs can parse CPT/Medicare rules, spot bundling conflicts, and draft legal‑tone letters; humans must verify and choose tactics.
-  - Impact: Expect providers/insurers to deploy counter‑AI; consumer AI advocates emerge; negotiation compresses timelines; pressure grows to open-code CPT and standardize pricing.
-  - Watch next: Track CMS price-transparency enforcement, CPT licensing lawsuits, and studies comparing AI with human billing advocates on savings and error rates.
+### Comment pulse
+
+- AI may democratize billing appeals → it can organize codes, questions, and correspondence that patients struggle to assemble.
+- The success claim is evidentially limited → commenters disputed Medicare comparisons and whether the model negotiated or merely drafted arguments.
+
+### LLM perspective
+
+- View: The strongest use shown is structured issue-spotting, not authoritative determination that charges violated billing rules.
+- Impact: Patients and advocates gain a starting point, but confident model output can amplify mistakes in high-stakes disputes.
+- Watch next: Compare AI findings against certified coding reviews, documented appeal outcomes, and hospital responses across cases.

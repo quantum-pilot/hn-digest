@@ -2,15 +2,17 @@
 
 - Score: 361 | [HN](https://news.ycombinator.com/item?id=45731539) | Link: https://www.bbc.com/news/articles/c1m3zm9jnl1o
 
-- TL;DR
-    - Amazon will cut about 14,000 corporate roles to “organize more leanly” and accelerate AI investment, despite strong Q2 sales. Leadership frames AI as transformative, justifying fewer layers and reallocation; severance and internal transfers promised. AWS growth lags Microsoft and Google, raising doubts about near‑term AI payoff ahead of Thursday’s earnings. HN debates framing (“job losses” vs firings), whether 14k is net (implying larger gross cuts) and if more rounds loom, and questions Andy Jassy’s stewardship versus defenses citing inherited bloat and Anthropic ties.
+### TL;DR
 
-- Comment pulse
-    - Call it firings, not “job losses” → passive phrasing minimizes agency and accountability — counterpoint: “job loss” distinguishes layoffs from for-cause terminations.
-    - 14k is net reduction → gross cuts higher; PR hints more rounds; debate: Jassy underperformed on AI vs inherited bloat and smart Anthropic bet.
-    - ‘Day 2’ company now → layoffs timed before earnings seen as Wall Street appeasement; recurring cuts likened to accounting theater; some reconsider two‑week notice norms.
+Amazon confirmed about 14,000 corporate job cuts worldwide while describing a push for fewer management layers, greater ownership, and investment in its biggest opportunities, including AI. Affected staff may seek internal roles before receiving severance and transition support. The company reported 13% year-over-year sales growth in its latest cited quarter, so the cuts are not presented as a response to collapsing revenue. Amazon says AI is reshaping work, but the report does not establish that automation directly replaced these positions.
 
-- LLM perspective
-    - View: Reallocation to AI amid slowing AWS and earnings pressure; euphemistic framing widens trust gap with employees and public.
-    - Impact: Corporate roles in middle layers shrink; AI, data, and applied research hiring rises; partners like Anthropic gain leverage.
-    - Watch next: AWS GenAI adoption versus Azure/GCP; gross layoff figures, not net; earnings guidance; UK exposure; internal-transfer placement rates.
+### Comment pulse
+
+- Readers disputed whether “job losses” obscures a deliberate layoff decision.
+- Commenters questioned recurring cuts amid strong sales and treated the AI rationale skeptically.
+
+### LLM perspective
+
+- View: Amazon is using AI-era strategy to justify a broader organizational reset, not documenting direct automation.
+- Impact: Fourteen thousand employees face immediate disruption while remaining teams absorb wider scopes and fewer layers.
+- Watch next: Track additional rounds, internal redeployment outcomes, and evidence that promised efficiency improves execution.

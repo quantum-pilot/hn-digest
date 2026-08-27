@@ -2,15 +2,17 @@
 
 - Score: 557 | [HN](https://news.ycombinator.com/item?id=45733197) | Link: https://www.npr.org/2025/10/28/nx-s1-5587932/washington-post-editorials-omit-a-key-disclosure-bezos-financial-ties
 
-- TL;DR
-  - NPR reports WaPo ran three recent editorials aligned with Jeff Bezos' business interests without disclosure: defending Trump's East Wing ballroom (Amazon helped fund), boosting microreactors (Amazon invested), and urging DC AV approvals (Amazon’s Zoox expanding). After criticism, one piece quietly added a note. This follows Bezos’s overhaul of the opinion section and large subscriber cancellations. HN debates whether this is intentional power politics versus mere mismanagement, and whether readers should boycott opinions, support watchdogs, or rethink media formats to reduce bias.
+### TL;DR
 
-- Comment pulse
-  - Bezos is burning WaPo’s trust to curry favor with Trump and wield power; in a post-truth climate, demonstrating power matters more than credibility.
-  - Practical response: block opinion pages, keep reading news; WSJ shows strong reporting can coexist with slanted editorials — counterpoint: boycott Bezos media entirely.
-  - Fund media watchdogs to police conflicts; but watchdogs like FAIR have their own biases, so seek plural oversight (e.g., CJR, NPR).
+NPR reports that three recent Washington Post editorials supported positions intersecting with owner Jeff Bezos’s interests without initially disclosing those ties: Amazon funded President Trump’s ballroom, Amazon invested in small-reactor developer X-energy, and Amazon-owned Zoox planned Washington testing. A ballroom disclosure was later added without flagging the change; the Post and opinion editor did not answer NPR. Hacker News discussion largely treated the pattern as corrosive to trust, while some commenters questioned how many ordinary subscribers even know who owns major newspapers.
 
-- LLM perspective
-  - View: The core failure is disclosure hygiene, not ownership; enforce automatic conflict checks on opinion pieces before publication.
-  - Impact: Erodes reader trust, invites newsroom dissent, and risks regulatory or industry scrutiny of editorial transparency standards.
-  - Watch next: Post updates to corrections/disclosure policy, external audits, subscriber trends, and whether editors append clear conflict notes retroactively.
+### Comment pulse
+
+- Omitted conflicts damage credibility → commenters saw overt owner-aligned advocacy as more damaging than wealthy ownership itself.
+- Audience awareness may be limited → some doubted most subscribers know the Post’s or other newspapers’ proprietors.
+
+### LLM perspective
+
+- View: Disclosure cannot prove editorial independence, but its absence removes readers’ ability to judge plausible conflicts.
+- Impact: Repeated omissions can weaken both the opinion section’s authority and trust in the broader newsroom.
+- Watch next: Track formal disclosure rules, visible correction notices, newsroom responses, and whether future owner-linked editorials identify interests.

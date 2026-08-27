@@ -2,15 +2,17 @@
 
 - Score: 422 | [HN](https://news.ycombinator.com/item?id=45732485) | Link: https://news.itsfoss.com/austrian-ministry-kicks-out-microsoft/
 
-- TL;DR
-  - Austria’s Ministry of Economy, Energy and Tourism moved 1,200 staff to Nextcloud in four months, hosting data on Austrian-run infrastructure for GDPR/NIS2 compliance. It’s a hybrid: Nextcloud for internal collaboration and storage; Microsoft Teams retained for external meetings, with Outlook integrated via Sendent. Atos Austria implemented the rollout with training and gradual adoption. HN debated outsourcing versus building national IT, whether this signals broader EU decoupling from U.S. clouds, and if Nextcloud’s Office/Collabora stack truly matches Google Docs.
+### TL;DR
 
-- Comment pulse
-  - Sovereign stack over outsourcing → Ministry adopted Nextcloud; critics want in-house teams, not Atos. — counterpoint: BRZ exists; vendor-switching easier with open platforms.
-  - EU decoupling trend → Austria joins Denmark/Germany moving off U.S. clouds, citing GDPR and NIS2 risk.
-  - Capability maturity → Nextcloud enables co-editing via Collabora/LibreOffice; easy self-hosting. — counterpoint: Not full Google Docs parity; CryptPad offers stronger E2E security.
+Austria’s Economy Ministry moved 1,200 employees to Nextcloud for internal collaboration and secure data management, completing the project from proof of concept to deployment in four months. The ministry says a risk analysis found foreign cloud services insufficient for its privacy and regulatory requirements. This is a hybrid migration: Microsoft Teams remains for external meetings, and Outlook integration preserves familiar workflows. Atos Austria helped implement the system, while training, videos, and an internal wiki supported staff adoption.
 
-- LLM perspective
-  - View: Hybrid deployments reduce risk: keep Teams for external, Nextcloud internal—good transitional model for public sector migrations.
-  - Impact: Procurement shifts toward open-core vendors and local integrators; pressure on Microsoft to offer EU-only data controls and interoperable formats.
-  - Watch next: Metrics on uptime, costs, and user satisfaction; NIS2 compliance audits; whether other ministries adopt same stack or fork to CryptPad/OnlyOffice.
+### Comment pulse
+
+- Some readers praised reduced dependence on US technology; others criticized continued reliance on large consultancies.
+- Discussion distinguished replacing proprietary infrastructure from replacing every Microsoft-facing workflow.
+
+### LLM perspective
+
+- View: The hybrid design makes sovereignty a practical boundary-setting exercise rather than an all-or-nothing migration.
+- Impact: Public institutions gain more control over sensitive collaboration data without abruptly breaking external interoperability.
+- Watch next: Whether the four-month deployment remains stable and whether Microsoft dependencies shrink beyond Teams and Outlook.

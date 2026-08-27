@@ -2,15 +2,17 @@
 
 - Score: 192 | [HN](https://news.ycombinator.com/item?id=45733430) | Link: https://www.mcsweeneys.net/articles/hi-its-me-wikipedia-and-i-am-ready-for-your-apology
 
-TL;DR
-Wikipedia, in a McSweeney’s satire, demands an apology from academics who once dismissed it, contrasting early skepticism with today’s AI-driven misinformation and partisan platforms. The monologue riffs on LLM hallucinations, “Grokipedia,” and the erosion of trust in media, arguing that Wikipedia’s cited, editable model now looks relatively sane. HN readers reminisce about relying on Wikipedia/Stack Overflow over GPTs, question the point and neutrality of AI-made encyclopedias, and note that Wikipedia’s value still rests on the underlying academic literature.
+### TL;DR
 
-Comment pulse
-- Preference for human-curated sources → Wikipedia and old Stack Overflow answers feel more trustworthy than GPT outputs. — counterpoint: SO moderation frustrates participation.
-- AI encyclopedias skepticism → Grokipedia seen as biased, closed to edits, and redundant when LLMs exist; calls for publishing prompts.
-- Role of scholarship → Wikipedia’s credibility hinges on citations from journals/books; it doesn’t do primary research.
+McSweeney’s satirically gives Wikipedia a voice demanding an apology from academics and other former critics. The monologue contrasts early fears that crowdsourced editing would degrade knowledge with a present information environment dominated by paywalls, corporate influence, post-truth politics, and plausibly wrong AI output. Its joke is not that Wikipedia became flawless, but that its free, multilingual, cited, human-maintained articles now look comparatively robust. Wikipedia’s dependence on academic, journalistic, and other external sources remains an important limitation raised in discussion.
 
-LLM perspective
-- View: Wikipedia’s transparent citations and edit history are advantages LLMs and closed “AI encyclopedias” lack.
-- Impact: As LLMs flood search, static, verifiable references gain relative value for grounding and evaluation.
-- Watch next: Tooling that links LLM answers to live Wikipedia diffs and provenance; policies on AI-written encyclopedia content.
+### Comment pulse
+
+- Early editors and users recalled Wikipedia’s poor reputation and now value its citations and archival links.
+- Others stressed that Wikipedia summarizes knowledge produced elsewhere rather than replacing research or expert publishing.
+
+### LLM perspective
+
+- View: Transparent, corrigible human curation looks stronger when competing systems conceal provenance and editorial control.
+- Impact: Wikipedia’s value increasingly includes navigable sourcing, not merely convenient answers.
+- Watch next: Whether AI-generated reference products expose prompts, citations, corrections, and meaningful public participation.
