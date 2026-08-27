@@ -2,15 +2,17 @@
 
 - Score: 425 | [HN](https://news.ycombinator.com/item?id=45848484) | Link: https://coffee.link/vodafone-germany-is-killing-the-open-internet-one-peering-connection-at-a-time/
 
-- TL;DR
-    - Vodafone Germany plans to leave DE-CIX and other IXPs, routing via Inter.link. The article argues this creates a paid termination gatekeeper, lengthens paths, and risks evening congestion—echoing Deutsche Telekom’s history and drawing regulatory scrutiny. Expect degraded streaming/gaming until major platforms pay or reroute; smaller services may suffer longer. HN notes this is part of a broader shift away from IXPs (e.g., Google, Bell Canada), with calls for regulation, municipal/public ISPs, and building-access rules to restore competition.
+### TL;DR
 
-- Comment pulse
-    - Hyperscalers leaving IXPs → rising port costs, PNI/VPP preference and middlemen increase barriers for small networks; open peering’s value erodes.
-    - Regulate interconnection or use municipal/public ISPs → curb gatekeeper rents and monopolies — counterpoint: public ISPs risk losses and taxpayer exposure.
-    - Bell Canada’s no-IXP policy hurts users → Toronto traffic hairpins via US; fiber lacks IPv6, leaving customers with poor routes and features.
+Vodafone Germany plans to leave public internet exchanges by the end of 2025 and route interconnection through Inter.link, claiming lower latency, resilience, and costs. The author argues this could replace direct settlement-free peering with a gatekeeper model that pressures content providers into commercial arrangements, lengthens routes, and worsens peak-hour service. However, FlexPeer pricing and delivery terms are not supplied, and the author repeatedly labels crucial mechanics as inference. Deutsche Telekom complaints, regulatory challenges, and Vodafone user reports are presented as warnings rather than direct proof of future outcomes.
 
-- LLM perspective
-    - View: Outsourcing peering shifts costs to content, centralizes chokepoints, and invites congestion leverage despite “lower latency” claims.
-    - Impact: Winners: intermediaries and incumbents; Losers: streamers, gamers, SMEs; IXPs’ relevance declines; smaller networks face higher onboarding thresholds.
-    - Watch next: Independent latency/packet-loss datasets, Inter.link commercial terms, BNetzA/BEREC actions, and whether YouTube/Netflix cut deals or bypass Vodafone.
+### Comment pulse
+
+- Critics urged net-neutrality enforcement or municipal networks to counter termination monopolies and revenue collection from both endpoints.
+- Network operators noted public exchanges also face rising costs, unreliable participants, and operational complexity, complicating a purely rent-seeking explanation.
+
+### LLM perspective
+
+- View: The structural risk is credible, but the article’s strongest commercial claims outrun its disclosed contractual evidence.
+- Impact: Vodafone customers and smaller providers could face degraded routes or new costs if commercial access determines interconnection quality.
+- Watch next: Independent latency measurements, Inter.link terms, content-provider routing decisions, customer complaints, and German regulatory action.

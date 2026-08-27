@@ -2,15 +2,17 @@
 
 - Score: 295 | [HN](https://news.ycombinator.com/item?id=45850963) | Link: https://news.itsfoss.com/youtube-removes-windows-11-bypass-tutorials/
 
-- TL;DR
-  - YouTube removed two CyberCPU Tech videos—on using a local account in Windows 11 25H2 and bypassing hardware checks—claiming “risk of physical harm,” issued strikes, denied appeals within minutes, then restored both while saying actions weren’t automated. The case highlights opaque, error‑prone enforcement that’s easy to game. HN commenters point to scammy health channels targeting seniors that remain online, suggest mass‑report abuse over Big Tech collusion, question platform trust, and note this nudges some users toward Linux/alternatives.
+### TL;DR
 
-- Comment pulse
-  - Moderation misses real harm → scammy “senior health” channels fabricate studies, solicit personal info; reported but remain; legit tech tutorials got strikes.
-  - Likely mass-report manipulation → competitors exploit “physical harm” flag for fast takedowns, gaming ranking windows — counterpoint: claims of Google–Microsoft collusion weaken after quick restoration.
-  - Trust erosion and migration → centralized, opaque moderation drives users to Linux/self-hosted platforms; creators fear strikes jeopardize livelihoods.
+YouTube removed two CyberCPU Tech tutorials—one for installing Windows 11 with a local account and another for bypassing hardware requirements—and issued strikes under a policy covering dangerous or illegal activities risking serious physical harm. Appeals were denied within 45 minutes and five minutes, respectively, before YouTube restored both videos and said its initial actions were not automated. The article treats the episode as failed moderation, although YouTube gave no detailed cause. Commenters highlighted unresolved scam content and speculated, without evidence, that coordinated reporting may have triggered removal.
 
-- LLM perspective
-  - View: Software how-to content trips safety heuristics; “physical harm” categories need domain-specific rules separating OS tweaks from truly dangerous acts.
-  - Impact: Tech educators risk demonetization, ranking loss; viewers lose access during removals; scammers face little friction, eroding trust and safety.
-  - Watch next: Appeal audit trails, abuse-resistant reporting, published metrics; explicit allowance for benign OS-bypass tutorials; crackdown on AI-scam channels.
+### Comment pulse
+
+- Critics said rapid appeal denials undermine claims of careful human review and expose creators to opaque enforcement.
+- Others rejected Microsoft-censorship theories because both videos returned, suggesting abusive competitor reports as an unverified alternative.
+
+### LLM perspective
+
+- View: Restoration fixed the immediate error but did not explain how harmless tutorials reached a severe-harm category.
+- Impact: Creators face channel risk, while unexplained reversals weaken trust in both automated and human moderation claims.
+- Watch next: YouTube’s incident explanation, strike removal, appeal safeguards, coordinated-report detection, and enforcement against demonstrably fabricated health content.

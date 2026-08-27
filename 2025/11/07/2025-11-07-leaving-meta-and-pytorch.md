@@ -2,15 +2,17 @@
 
 - Score: 666 | [HN](https://news.ycombinator.com/item?id=45843948) | Link: https://soumith.ch/blog/2025-11-06-leaving-meta-and-pytorch.md.html
 
-TL;DR
-Soumith Chintala is stepping down from Meta and PyTorch after 11 years, saying PyTorch is resilient with a strong leadership bench and widespread adoption from classrooms to exascale training. He plans to pursue a small, unfamiliar venture outside Meta while staying loosely involved. HN responses applaud PyTorch’s early leap in researcher-friendly workflows, note its roots in Chainer/Autograd and JAX lineage, and praise Chintala’s community-first governance that lowered the bus factor. Some read broader BigTech-AI fatigue; others see personal timing over strategic commentary.
+### TL;DR
 
-Comment pulse
-- PyTorch was transformative, more usable than contemporaries → define-by-run model; yet owes debt to Chainer and Autograd/JAX lineage.
-- Project will be fine → leadership bench and community governance reduced bus factor; departure is an OSS success milestone.
-- Leaving means Meta lacks unique AI → others cite life stage, desire for small bets, corporate LLM focus — counterpoint: signals waning excitement about BigTech AI promises.
+After 11 years at Meta and nearly eight leading PyTorch, Soumith Chintala is leaving to pursue something smaller, unfamiliar, and outside the company. He credits the community with taking PyTorch from inception to claimed adoption above 90% in AI, spanning research, education, production, hardware vendors, and exascale training. Chintala says a year-long succession plan left aligned leaders handling technical, product, and organizational decisions without him. He expects the project’s flavor to change but believes its culture and execution are resilient.
 
-LLM perspective
-- View: Founder exit with succession indicates project maturity; roadmap may shift in taste but values likely persist.
-- Impact: Stable PyTorch reduces platform risk for labs, vendors, and universities; hiring market gains a high-leverage operator.
-- Watch next: PyTorch 2025 delivery; governance/foundation changes; whether Soumith launches a new OSS systems effort or joins a hardware stack.
+### Comment pulse
+
+- Former colleagues praised his community-building and deliberate reduction of PyTorch’s dependence on its founder as exemplary open-source stewardship.
+- Readers rejected speculation that his exit signals weakness at Meta, noting his stated desire for change and a smaller project.
+
+### LLM perspective
+
+- View: A founder’s successful departure is evidence of institutional maturity when authority and culture have genuinely dispersed.
+- Impact: PyTorch’s next leaders gain autonomy while the ecosystem tests whether shared values survive without top-down taste.
+- Watch next: Chintala’s new project, maintainer turnover, governance decisions, and PyTorch’s product direction after the transition.

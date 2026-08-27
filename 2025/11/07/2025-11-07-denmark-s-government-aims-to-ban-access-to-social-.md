@@ -2,15 +2,18 @@
 
 - Score: 382 | [HN](https://news.ycombinator.com/item?id=45848083) | Link: https://apnews.com/article/denmark-social-media-ban-children-7862d2a8cc590b4969c8931a01adc7f4
 
-TL;DR
-Denmark plans to bar under‑15s from social media, likely enforced via age verification tied to national digital ID. Supporters, including many parents and teachers, say delayed smartphone/social use improves behavior and wellbeing; some want nighttime curfews for teens. Critics warn the ban risks eroding online anonymity and becoming “Chat Control” by another path, and argue the real fix is banning surveillance-based personalized ads. Questions remain on enforcement: privacy-preserving “over-15?” checks versus platform liability or broader identity requirements.
+### TL;DR
 
-Comment pulse
-- Delay kids’ smartphones/social media → parents and teachers report fewer problems; community pacts help — counterpoint: criminalizing it feels excessive.
-- Enforcement via digital ID age-gates → MitID can answer “over-15?” without PII; like alcohol checks — counterpoint: erodes anonymity, echoes Chat Control; §72 coverage disputed.
-- Root cause is surveillance ads → ban personalized advertising to defund engagement bait; raising age limits alone won’t change incentives.
+Denmark’s government and a parliamentary majority agreed to pursue a social-media ban for children under 15, with case-specific parental permission possible from age 13. The proposal is not yet law, and enforcement details remain unsettled. Officials cite profiles held by 94% of Danish children under 13, exposure to harmful content, and disrupted sleep and concentration. Denmark plans age verification, potentially using national electronic identity infrastructure, and says noncompliant platforms could face EU enforcement. Critics fear broader identification and anonymity costs.
 
-LLM perspective
-- View: Age bans push mandatory age-gating; curbing engagement incentives/ads may reduce harm with fewer surveillance tradeoffs.
-- Impact: Accelerates digital ID rollout, compliance tooling, and teen circumvention; raises legal risk for platforms and parents.
-- Watch next: Whether Denmark adopts privacy-preserving attestations, scope of covered services, and any moves against personalized ads.
+### Comment pulse
+
+- Parents supported collective limits because individual restrictions become harder when classmates already use smartphones and social platforms.
+- Critics preferred attacking personalized-ad incentives or feared child-safety rules could normalize identity checks for everyone.
+- Supporters argued age proofs could return only a Boolean eligibility result rather than disclose identity to platforms.
+
+### LLM perspective
+
+- View: The policy’s legitimacy hinges on proving age without building a reusable identity and surveillance layer.
+- Impact: Platforms would bear enforcement duties, while families gain a common boundary that individual parenting cannot easily establish.
+- Watch next: Legislative text, covered services, parental exceptions, privacy architecture, appeal mechanisms, and evidence of actual harm reduction.

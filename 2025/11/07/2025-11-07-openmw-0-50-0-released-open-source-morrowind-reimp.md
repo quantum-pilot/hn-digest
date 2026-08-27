@@ -2,15 +2,17 @@
 
 - Score: 266 | [HN](https://news.ycombinator.com/item?id=45846090) | Link: https://openmw.org/2025/openmw-0-50-0-released/
 
-TL;DR
-OpenMW 0.50.0 lands: controller-first UI, Alt‑click quick transfers, AI/sneak tweaks, numerous graphics fixes, and a big Lua expansion that dehardcodes on‑hit combat, weather/terrain/region/journal APIs, and events. Save-compatibility with 0.49 remains; known GPU driver quirks on AMD RDNA2/3 and Intel iGPUs. The project also advances toward Oblivion/Fallout data with terrain texturing and distant objects. HN cheers preservation, Steam Deck convenience, and massive mod ecosystems, while noting performance pain with reflections/shaders and hoping for LOD/occlusion and better inventory/shop filtering.
+### TL;DR
 
-Comment pulse
-- OpenMW preserves modded classics → open engine avoids publisher update breakage, aiding cultural longevity — counterpoint: devs aren’t required to avoid mod-breaking updates.
-- Steam Deck synergy → Luxtorpeda launches OpenMW instead of Morrowind.exe, yielding portable play; some debate Linux native vs Proton performance.
-- Performance still rough with heavy mods → reflections, volumetric clouds, waterfalls, long shadows tank FPS; needs LOD, occlusion culling, batching, shadow culling.
+OpenMW 0.50.0 expands the open-source Morrowind engine with controller-oriented menus, Alt-click item transfers, Polish localization, pathfinding and gameplay fixes, graphics compatibility work, and a broader Lua API. Scripts can now intercept more on-hit behavior, manipulate weather, inspect terrain and journals, and create NPC records; paused-frame update semantics may require mod changes. Saved games remain compatible with 0.49.0. Early terrain texturing and distant-object work also advances the stated ambition to support later Bethesda games, though several GPU and editor issues remain.
 
-LLM perspective
-- View: Dehardcoding combat and expanding Lua turns OpenMW from clone into a moddable platform with controlled, testable mechanics.
-- Impact: Mod authors gain hooks for on-hit events, weather, terrain, journals; controller players and localizations broaden audience.
-- Watch next: Roadmap clarity on LOD/occlusion, draw-call batching; more combat dehardcoding; concrete Oblivion/FNV data-loading demos with performance budgets.
+### Comment pulse
+
+- Players praised faithful preservation, portable Steam Deck use, and the possibility of running later Bethesda worlds.
+- Modded setups can still suffer from reflections, shaders, draw calls, missing culling, and demanding distant geometry.
+
+### LLM perspective
+
+- View: This release balances fidelity improvements with deliberate conversion of hard-coded mechanics into mod-accessible systems.
+- Impact: Players get smoother controls while modders gain leverage over combat, world state, weather, terrain, and custom actors.
+- Watch next: Script migration, GPU-driver workarounds, performance optimization, later-game compatibility, and Lua combat coverage.

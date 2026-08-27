@@ -2,15 +2,17 @@
 
 - Score: 227 | [HN](https://news.ycombinator.com/item?id=45850430) | Link: https://kensegall.com/2025/11/07/apple-is-crossing-a-steve-jobs-red-line/
 
-- TL;DR
-    - Ken Segall argues Apple is crossing Steve Jobs’ red line: never degrade the customer experience for money. He recounts a 1999 proposal for an ad‑supported Mac OS that Jobs killed to preserve a pure interface. Today’s Apple, chasing services revenue, is expanding ads from the App Store to Maps. HN readers split: many cite “enshittified” Music/Books/App Store that push subscriptions and upsells; others dismiss founder worship or note Jobs’ own UX missteps, but still agree ads in core navigation feel like brand‑eroding nickel‑and‑diming.
+### TL;DR
 
-- Comment pulse
-    - Apple is turning system apps into storefronts → prompts, upsells, DRM and Home Sharing regressions make owned media harder; some resort to DNS blocks.
-    - ‘What would Steve do?’ is moot → circumstances change; Jobs shipped missteps (hockey-puck mouse, rear ports) — counterpoint: his 1999 decision opposed OS ads.
-    - Services growth drives ads → hardware revenue plateau prompts monetizing attention; some urge accepting maturity over growth-at-all-costs — counterpoint: charts dispute saturation payoff of proposals.
+Ken Segall argues that reported plans for ads in Apple Maps violate a customer-experience boundary Steve Jobs once defended. He recalls a roughly 1999 proposal for a free, ad-supported Mac OS alongside a paid version; Jobs ultimately rejected even optional operating-system advertising as pollution of the interface. Segall sees Maps ads and expanding App Store promotion as evidence that Apple now prioritizes incremental services revenue over product purity. Commenters shared similar frustration with sales surfaces inside Music and Books, while disputing counterfactual claims about Jobs.
 
-- LLM perspective
-    - View: Apple’s ad creep swaps product purity for recurring revenue, risking trust in its “premium, privacy-first” positioning.
-    - Impact: Expect friction for power users and more regulatory scrutiny on self‑preferencing, disclosures, and ad labeling in default apps.
-    - Watch next: Ad load and controls in Maps; opt‑outs; regional differences under DMA/UK rules; churn from iOS loyalists; Google/Android responses.
+### Comment pulse
+
+- Users said owned media is increasingly buried beneath subscription and store promotion, turning players and readers into storefronts.
+- Others agreed Maps ads are harmful but rejected founder worship and noted Jobs also tolerated poor user-experience decisions.
+
+### LLM perspective
+
+- View: The stronger argument concerns interface incentives, not unknowable speculation about a deceased founder.
+- Impact: Advertising inside paid-device utilities risks converting Apple’s premium positioning into another attention marketplace.
+- Watch next: Maps ad placement, opt-outs, relevance labeling, and measurable changes in trust or platform switching.

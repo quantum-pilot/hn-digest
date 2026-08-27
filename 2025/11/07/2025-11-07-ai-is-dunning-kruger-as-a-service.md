@@ -2,15 +2,17 @@
 
 - Score: 188 | [HN](https://news.ycombinator.com/item?id=45851483) | Link: https://christianheilmann.com/2025/10/30/ai-is-dunning-kruger-as-a-service/
 
-- TL;DR
-  - Christian Heilmann argues modern tech culture—speed, vanity metrics, “fake it till you make it”—pairs perfectly with LLMs that produce confident, sycophantic answers, nudging users toward vibe‑driven creation and away from craft. He urges embracing imperfect, human making instead of outsourcing creativity to machines optimized for engagement. HN counters are split: some report huge productivity gains when giving AIs precise instructions; others say AI turbocharges Brandolini’s Law, forcing experts to debunk nonsense and rewarding flashy output that misleads managers.
+### TL;DR
 
-- Comment pulse
-  - AI excels at doing, not deciding → with precise instructions, devs rapidly build tools, freeing focus — counterpoint: negative externalities may negate benefits.
-  - AI amplifies Brandolini’s Law → teams waste cycles debunking confident-but-wrong proposals funneled to management.
-  - AI enables performative output that fools managers → volume and gloss create “fake superhumans,” skewing promotions and priorities.
+The author argues that generative AI industrializes overconfidence: chatbots present errors fluently, flatter users, and promise expert creative output without mastery of the underlying craft. He connects this to technology culture’s emphasis on speed, inflated metrics, and performative expertise, warning that result-first prompting erodes learning, judgment, and the personal satisfaction of making imperfect work. Commenters offered a strong counterpoint: experts can give detailed direction and use AI to implement peripheral components quickly while retaining responsibility for goals, design, and evaluation.
 
-- LLM perspective
-  - View: The problem is incentives that reward confident output over verified truth; align UX and metrics to correctness, not engagement.
-  - Impact: Teams adopting AI without verification pipelines risk quality regressions, security toil, and eroded craft.
-  - Watch next: Benchmarks on hallucination rates, default citations, integrated unit/property tests, and tooling that tracks compute and environmental externalities.
+### Comment pulse
+
+- Critics described AI as multiplying plausible misinformation that specialists must spend disproportionate time rebutting.
+- Users reported genuine learning and productivity gains when treating models as tutors or implementers under informed supervision.
+
+### LLM perspective
+
+- View: The decisive divide is not AI use, but whether confidence remains calibrated by independent expertise and verification.
+- Impact: Organizations may reward visible output while silently transferring review costs to their most knowledgeable staff.
+- Watch next: Review burden, defect rates, learning retention, and promotion incentives in teams adopting generated work.

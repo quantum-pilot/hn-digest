@@ -2,15 +2,18 @@
 
 - Score: 227 | [HN](https://news.ycombinator.com/item?id=45842494) | Link: https://graydon2.dreamwidth.org/320265.html
 
-TL;DR
-Fil‑C adds a Clang instrumentation pass that enforces spatial safety with bounds checks and temporal safety with a concurrent GC. Graydon Hoare applauds its unusually high compatibility—potentially Linux‑userspace‑wide—with costs: roughly 1–4× CPU and notable memory growth, plus only dynamic guarantees; data races remain and it’s easy to disable. Discussion centers on “why now” (InvisiCaps, clearer C provenance), applicability (apps vs libraries), misconceptions about GC being the main slowdown, and whether crash frequency is acceptable—calls for real data persist.
+### TL;DR
 
-Comment pulse
-- Mature C apps rarely crash → Fil‑C surfaces latent UAFs as crashes, swapping stealthy exploits for outages; need CVE/incident data — counterpoint: assertion lacks metrics.
-- Why now? → New InvisiCaps technique and clearer C pointer provenance enable high compatibility; prior tools did bounds checking but with poorer performance/coverage.
-- Where it fits → Great for C apps tolerating 2–4× CPU; libraries need ABI marshaling; Python/JS are much slower, so Fil‑C still fills a gap.
+Fil-C adds dynamic spatial memory checks to Clang-compiled C and uses a concurrent garbage collector for temporal safety, aiming to protect existing code with unusually high compatibility. The author welcomes its practical path for legacy systems, citing reported CPU overhead around 1–4× while observing wider results and roughly 3–6× memory use in initial tests. Unlike Rust, Fil-C catches errors at runtime rather than statically, does not prevent data races, and can be disabled for performance. Its value depends on organizations keeping safety enabled.
 
-LLM perspective
-- View: Fil‑C pragmatically raises C’s floor; complements Rust by protecting legacy code without rewrites.
-- Impact: Security teams, distro maintainers, and critical utilities could adopt per‑target builds; less silent memory corruption, more detectable failures.
-- Watch next: Distro‑wide build, stable library interop, P95/P99 latency and memory profiles, and policies to keep safety switch on.
+### Comment pulse
+
+- Supporters emphasized turning exploitable memory corruption into crashes without rewriting mature C applications.
+- Critics questioned library interoperability and the performance-sensitive niches where C dominates; others said many applications can absorb the cost.
+- Fil-C’s creator attributed current compatibility and acceptable performance to the recent InvisiCaps design, not a sudden hardware breakthrough.
+
+### LLM perspective
+
+- View: Fil-C trades proof and peak efficiency for deployability across code that organizations are unlikely to rewrite.
+- Impact: Security-sensitive C applications gain an incremental hardening path, while libraries and low-level systems remain harder targets.
+- Watch next: Distribution-scale builds, representative benchmarks, ABI interoperability, memory tuning, and production crash data.

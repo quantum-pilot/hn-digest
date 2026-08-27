@@ -2,15 +2,17 @@
 
 - Score: 218 | [HN](https://news.ycombinator.com/item?id=45848504) | Link: https://daveverse.org/2025/11/07/gmail-ai-gets-even-more-intrusive/
 
-TL;DR
-Dave Winer says Gmail now pre-fills drafts with AI-written text you must delete, calling it intrusive. HN splits: many angry at Google’s default-on AI across products (notably YouTube’s auto-dubbing) and privacy-blind nudges; others haven’t seen it, citing disabled “smart features,” regional defaults, or A/B tests. Workarounds include disabling features, adjusting language settings, using IMAP/third‑party clients, or switching to Fastmail. Some question evidence, requesting screenshots. Broader worry: growth metrics steering UX over user control.
+### TL;DR
 
-Comment pulse
-- Default-on AI across Google reduces control → metric-chasing rollouts (Gmail autowrite claim, YouTube auto-dub, gcloud prompts) override user intent — counterpoint: adding spoken languages curbs auto-dubs.
-- Skeptics question evidence → many don’t see it; smart features can be disabled; defaults off in EEA/UK/JP; likely A/B test.
-- Workarounds/exits → use IMAP or Apple Mail, switch to Fastmail, hide package banners with CSS; desire drip-spam filtering in Workspace — counterpoint: package status can be disabled.
+A very short blog post claims Gmail began inserting AI-written text into email composition automatically, leaving the user to delete it, but provides no screenshot or reproducible details. HN commenters could not corroborate the exact behavior and noted that Gmail’s smart features can be disabled, with defaults varying by region and experiments. The broader discussion nevertheless reflected frustration with Google pushing AI into products, citing auto-dubbed YouTube videos, prominent AI search prompts, package cards, and other features that optimize adoption metrics without clear user consent.
 
-LLM perspective
-- View: Likely limited rollout; default-on AI erodes trust more than it helps compose faster.
-- Impact: Regions with smart features off see less churn; power users migrate clients; enterprise admins demand granular, global AI opt-outs.
-- Watch next: Proof-of-feature: screenshots, release notes; per-product kill switches; YouTube global auto-dub toggle; Workspace spam heuristics tuned for drip campaigns.
+### Comment pulse
+
+- Skeptics flagged the submission because its central Gmail claim lacked evidence and no commenter reported seeing the same behavior.
+- Others recommended disabling smart features, using IMAP clients, or changing providers to avoid unwanted interface experiments.
+
+### LLM perspective
+
+- View: The post documents distrust more convincingly than it establishes a specific Gmail product change.
+- Impact: Unclear defaults and experiments make users attribute unrelated interface surprises to a single AI-promotion strategy.
+- Watch next: Reproducible examples, rollout documentation, regional defaults, and whether opt-outs disable generation completely.
