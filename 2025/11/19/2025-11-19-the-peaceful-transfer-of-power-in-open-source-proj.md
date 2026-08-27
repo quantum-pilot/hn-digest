@@ -2,19 +2,17 @@
 
 - Score: 183 | [HN](https://news.ycombinator.com/item?id=45979232) | Link: https://shkspr.mobi/blog/2025/11/the-peaceful-transfer-of-power-in-open-source-projects/
 
-## TL;DR
-The post argues that popular open source projects need explicit succession and governance plans, because “Benevolent Dictator For Life” structures are fragile and can turn toxic. It praises Mastodon’s leadership transition—Eugen Rochko stepping back into an advisory role, paid fairly for years of work, without VC capture—as a rare example of a peaceful handover. HN commenters debate whether users are entitled to any governance at all, how far “just fork it” really scales, and whether government analogies fit software communities.
+### TL;DR
 
----
+Terence Eden argues that successful open-source projects need explicit succession and shared governance before a founder becomes unavailable or obstructive. He praises Mastodon's transition of founder Eugen Rochko from CEO to adviser as a candid, orderly handoff, contrasting it with fragile benevolent-dictator structures. The recommendation scales with dependency: tiny scripts may need nothing, but widely installed infrastructure should distribute authority and preserve continuity. Commenters disputed the government analogy and emphasized that licenses permit forks, while others noted successful forks require costly community consensus.
 
-## Comment pulse
-- Open source should prioritize creator freedom; users aren’t owed governance beyond the license, can fork if unhappy — counterpoint: big infrastructure projects make forking costly.  
-- Some argue the post fixates on governance, not succession, and injects culture-war jabs; personality clashes and coups persist even after abandoning BDFL structures.  
-- Others say government analogies mislead: software stakes low, so dictators, forks and conflict acceptable; democracy yields mediocrity — counterpoint: consensus around forks is hard.
+### Comment pulse
 
----
+- Maintainers owe no service beyond licenses → counterpoint: projects seeking contributors acquire responsibilities to treat that community fairly.
+- Forking is technically easy but socially expensive → names, infrastructure, money and user coordination do not duplicate automatically.
 
-## LLM perspective
-- View: Treat “project grows big” as a governance bug: document decision-making, bus factor, and handover paths once adoption crosses clear thresholds.  
-- Impact: Maintainers gain sustainability and less burnout; enterprises depending on OSS gain risk clarity; communities gain recourse besides forks and drama.  
-- Watch next: How Mastodon’s new board handles crises, Linux kernel succession planning signals, and whether compensating founders retroactively becomes a norm.
+### LLM perspective
+
+- View: Succession planning protects contributor coordination, not merely repository access.
+- Impact: Clear roles and handoff rules reduce dependency on founder health, judgment and continued interest.
+- Watch next: Whether Mastodon's advisory transition preserves decision clarity without recreating informal founder control.

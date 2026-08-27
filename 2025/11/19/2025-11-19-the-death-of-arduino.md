@@ -2,15 +2,17 @@
 
 - Score: 342 | [HN](https://news.ycombinator.com/item?id=45984143) | Link: https://www.linkedin.com/posts/adafruit_opensource-privacy-techpolicy-activity-7396903362237054976-r14H
 
-- TL;DR  
-Adafruit flags that, after Qualcomm’s acquisition, Arduino quietly shipped new Terms and a Privacy Policy that turn its cloud ecosystem into a tightly controlled SaaS: perpetual rights over user uploads, extensive data sharing, AI-feature monitoring, and a ban on reverse‑engineering without permission. Hacker News readers note this mostly targets Arduino Cloud, website, and new Qualcomm‑SoC boards, not the GPL/AGPL IDE or classic microcontroller hardware. Many still see it as enshittification, predicting migration to ESP32, RP2040, Teensy, and other open platforms.
+### TL;DR
 
-- Comment pulse  
-  - Scope and legality → Changes cover Arduino Cloud/web; IDE and CLI remain GPL/AGPL. Reverse‑engineering ban likely about Qualcomm SoC blobs—counterpoint: wording still chills tinkering.  
-  - Community reaction → Many declare “RIP Arduino,” planning shifts to ESP32, RP2040, Teensy, VS Code + PlatformIO; fear fragmentation of a once‑unifying ecosystem.  
-  - Impact/opportunity → Academics expect a hit to low‑friction robotics research, while others see room for Adafruit‑style competitors and new fully open hardware platforms.
+An Adafruit post argues Qualcomm-owned Arduino rewrote its terms and privacy policy to claim broad upload licenses, monitor AI use, retain identifiers, restrict reverse engineering and integrate user data into Qualcomm systems. It presents this as a break from Arduino's open-hardware ethos and predicts harm to makers and researchers. Commenters disputed the scope: the cited language appears to govern Arduino's cloud, website and forums, while the IDE, CLI and existing hardware remain openly licensed. The supplied post does not resolve that disagreement.
 
-- LLM perspective  
-  - View → Open communities are robust when firmware and tools stay free, but cloud add‑ons become leverage points for data grabs and restrictions.  
-  - Impact → Educators and hobbyists relying on Arduino Cloud should reassess dependencies, data flows, and whether alternatives can replace convenience without losing curricula.  
-  - Watch next → Track clarifications from Arduino, any rollback of the ToS, forks of cloud tooling, and growth of non‑Qualcomm Arduino‑compatible ecosystems.
+### Comment pulse
+
+- Critics fear corporate terms will fracture Arduino's unifying community and push makers toward ESP32, RP2040 and other platforms.
+- Counterpoint: standard SaaS clauses for optional cloud services do not automatically revoke open-source software or hardware rights.
+
+### LLM perspective
+
+- View: Scope matters more than rhetoric; cloud-service controls and open hardware can coexist while still creating ecosystem risk.
+- Impact: Ambiguous terms can drive contributors away even without changing existing licenses.
+- Watch next: Arduino's formal clarification, exact service boundaries and preservation of board definitions, forums and toolchain access.

@@ -3,18 +3,16 @@
 - Score: 127 | [HN](https://news.ycombinator.com/item?id=45977542) | Link: https://github.com/tyfeld/MMaDA-Parallel
 
 ### TL;DR
-MMaDA-Parallel is a multimodal “diffusion language model” that generates text and images together, not sequentially. Instead of reasoning in text first and then rendering an image, it runs a parallel denoising process where text and image continuously attend to each other. A new benchmark, ParaBench, shows that standard thinking-style prompting can hurt image quality when reasoning and image drift apart; MMaDA-Parallel plus a trajectory-level RL scheme (ParaRL) improves cross-modal alignment by 6.9% over prior work. Discussion explores applications to coding and model “true vs stated” reasoning.
 
----
+MMaDA-Parallel generates text reasoning and images together through a shared diffusion process, allowing each modality to influence the other throughout denoising instead of producing thought first and pixels afterward. The authors introduce ParaBench and ParaRL trajectory rewards, reporting 6.9% better output alignment than Bagel. Two 8B checkpoints and inference code are available, but training and evaluation code remain pending. Validation currently emphasizes synthetic environments, still life, architecture and landscapes, leaving faces and real photographs largely unexplored.
 
 ### Comment pulse
-- Parallel text–image denoising → appealing for tasks like coding where edits ripple through a system. — counterpoint: current agentic IDEs already exploit iterative tool-calling effectively.
-- Readers flag the initial wrong arXiv link and share direct Hugging Face model checkpoints for quick experimentation.
-- Some ask whether explicit “reasoning” here is any closer to internal computations than Anthropic-style chain-of-thought; others argue mismatch is inherent, in both models and humans.
 
----
+- Readers found bidirectional generation promising → text can revise imagery while emerging visual structure redirects the explanation.
+- Some questioned whether expressed reasoning faithfully reflects internal computation, a problem parallel decoding does not necessarily solve.
 
 ### LLM perspective
-- View: Joint text–image diffusion is a concrete step beyond “think then draw” pipelines toward tightly coupled multimodal reasoning.
-- Impact: Stronger alignment should help editing workflows, design tools, and explainable visual reasoning systems, especially in constrained domains.
-- Watch next: Benchmarks on real photos, human-centric scenes, and code/editing tasks; open-sourced ParaRL training details and comparisons against autoregressive multimodal LLMs.
+
+- View: Joint denoising targets cross-modal consistency directly instead of hoping a fixed plan survives image generation.
+- Impact: Editing systems could better coordinate instructions, intermediate descriptions and visual changes.
+- Watch next: Released training code, external ParaBench replication and out-of-distribution tests involving people and photographs.

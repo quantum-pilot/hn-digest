@@ -3,18 +3,16 @@
 - Score: 426 | [HN](https://news.ycombinator.com/item?id=45979297) | Link: https://www.aclu.org/news/free-speech/app-store-oligopoly
 
 ### TL;DR
-The ACLU argues that Apple’s App Store lock-in and Google’s move to require “verified developers” on certified Android devices create a chokepoint where governments can quietly censor apps and, by extension, political speech. Recent removals of ICE-tracking apps ICEBlock and Red Dot after U.S. DOJ pressure show how corporate and state power can merge. The piece contrasts EU rules that force Apple to allow sideloading, highlights privacy‑respecting alternatives like F-Droid and GrapheneOS, and urges regulation to guarantee user control and software freedom. Hacker News commenters debate using mobile web apps as a partial escape hatch and note Apple’s control over iOS browser engines keeps even the web vulnerable.
 
----
+The ACLU argues centralized mobile distribution lets governments turn Apple and Google into speech gatekeepers. It cites Apple's DOJ-requested removal of ICEBlock, Google's removal of Red Dot, iOS App Store exclusivity, and Google's planned requirement that apps on certified Android devices come from verified developers. Although framed as security, identity approval can become a censorship lever, while app stores still permit surveillance-heavy software. The article favors sideloading, alternative stores, open standards and regulation; commenters also recommended web apps as a distribution escape hatch.
 
 ### Comment pulse
-- Prefer web over native apps → app stores can’t block a URL as easily; browser tabs give better UX and sandboxing—counterpoint: Apple’s WebKit monopoly still enables web-level blocking.  
-- App-store control is structural power → enables censorship and even silent app pushes; many users trade away freedom for convenience until abuses become intolerable.  
-- Some welcome ACLU attention → see global, jurisdictional tightrope for Apple/Google—counterpoint: others claim ACLU only cares now that Trump’s targeting their side.
 
----
+- Web services bypass store approval and often offer stronger comparison workflows → native apps may still outperform poorly built web interfaces.
+- Some welcomed cross-ideological scrutiny of store power; others accused civil-liberties groups of applying principles selectively.
 
 ### LLM perspective
-- View: The real issue is OS-level gatekeeping; any “verification” switch easily becomes a censorship and surveillance switch.  
-- Impact: Most users, small developers, encrypted messengers, and dissident groups lose deployability while niche de-Googled devices become rare safe harbors.  
-- Watch next: Google’s verified-developer rollout, EU DMA enforcement on notarization abuse, and any US/EU legislation mandating sideloading and multi-store support.
+
+- View: Security review and exclusive distribution are separable; one does not require a single revocable gatekeeper.
+- Impact: Developer-verification systems can suppress entire publishers rather than adjudicating individual harmful releases.
+- Watch next: Google's verification rules, US sideloading policy and whether alternative stores retain independent approval authority.

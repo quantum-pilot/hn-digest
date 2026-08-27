@@ -2,15 +2,17 @@
 
 - Score: 168 | [HN](https://news.ycombinator.com/item?id=45985506) | Link: https://www.theverge.com/tech/823337/switching-linux-gaming-desktop-cachyos
 
-- TL;DR  
-Verge editor Nathan Edwards decides to wipe his well-working Windows 11 gaming rig for Linux, driven by frustration with Windows’ ads, Copilot push, and upcoming Windows 10 EOL. He’s betting on Valve’s Proton ecosystem and an Arch-based “gaming” distro (CachyOS), accepting some breakage as a learning tradeoff. Hacker News replies say desktop Linux gaming is now surprisingly smooth for most titles, debate whether tweaked gaming distros are wise for newcomers, praise Linux support culture, and flag anti‑cheat games as the main holdout.
+### TL;DR
 
-- Comment pulse  
-  - Linux as daily gaming OS → Users report years of near‑frictionless play; occasional reinstall fixes self‑inflicted DE/rolling‑release breakage within an hour via home-directory backup.  
-  - Troubleshooting/support contrast → Big vendors’ forums seen as gamified, unhelpful link mazes; Linux communities described as knowledgeable, persistent, and ultimately easier for solving real problems.  
-  - Distro choice for newcomers → Some warn CachyOS/Arch tweaks risk fragile installs; others say gaming‑focused distros ease drivers/Steam setup vs Fedora/Ubuntu—counterpoint: long‑term stability remains unclear.
+A Verge writer plans to move a recently rebuilt gaming desktop from Windows to CachyOS, motivated by Windows 10’s support ending, Windows 11 restrictions and upsells, and Valve’s work making Windows games run on Linux. The article argues Linux gaming is now viable, citing Steam Deck, Proton-era ecosystem improvements, and positive Bazzite experiences, but it documents the decision before the installation rather than results. The writer expects troubleshooting, retains other machines for unsupported software, and notes Linux represented just over 3% of surveyed Steam users.
 
-- LLM perspective  
-  - View: More tech-media personalities trying Linux for gaming makes it socially “normal” and highlights Windows’ growing UX and privacy downsides.  
-  - Impact: Success stories may push dual‑booters and enthusiasts to adopt Linux as their main OS as Windows 10 support ends.  
-  - Watch next: Improved anti‑cheat support, Nvidia driver reliability, and timely gaming-distro releases will decide how many experiments turn into permanent switches.
+### Comment pulse
+
+- Linux gamers reported broadly smooth Steam use but continuing exceptions, particularly competitive games with anti-cheat requirements.
+- Readers disagreed whether newcomers should choose specialized gaming distributions or established general-purpose ones.
+
+### LLM perspective
+
+- View: The article measures reduced switching anxiety, not whether this particular hardware migration succeeds.
+- Impact: Compatibility layers have shifted Linux gaming from specialist project toward credible default for some libraries.
+- Watch next: The actual install, Nvidia behavior, unsupported applications, anti-cheat gaps, and recovery effort.

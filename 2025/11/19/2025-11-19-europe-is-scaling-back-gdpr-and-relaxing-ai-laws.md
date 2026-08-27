@@ -3,18 +3,16 @@
 - Score: 463 | [HN](https://news.ycombinator.com/item?id=45980117) | Link: https://www.theverge.com/news/823750/european-union-ai-act-gdpr-changes
 
 ### TL;DR
-The European Commission proposes to loosen parts of GDPR and delay strict AI Act provisions, arguing that heavy compliance is hurting EU competitiveness in AI and digital business. Draft rules would ease sharing of anonymized/pseudonymized data, explicitly allow AI training on personal data within GDPR limits, centralize AI oversight, and drastically reduce cookie pop-ups via browser-level controls. Critics say this is the EU caving to Big Tech and US pressure, weakening fundamental rights instead of fixing enforcement and clarity problems.
 
----
+The European Commission proposed a Digital Omnibus that would ease parts of EU privacy and AI compliance. Reported changes include broader sharing of anonymized or pseudonymized data, a legal path for using personal data in AI training subject to other GDPR duties, delayed high-risk AI rules until standards and support exist, lighter documentation for smaller companies, and browser-level cookie controls. This is a proposal, not enacted law: Parliament and member states must approve it and may substantially revise it. Critics call it weakened protection; the Commission calls it simplification.
 
 ### Comment pulse
-- Privacy should be opt‑in only → any relaxation, especially for AI training, feels like sacrificing rights to help data‑hungry firms—counterpoint: some preemptive rules are overkill and costly.  
-- Weakening regulation is framed as helping startups → critics say complexity and loopholes already favor Meta/Google, and network effects mean they won’t lose “on merit” anyway.  
-- Cookie hell blamed on bad enforcement, not rules → non‑risk cookies never needed banners; people want strict action on dark patterns plus strong browser/global privacy signals.
 
----
+- Discussion split between stronger privacy enforcement and concern that legal complexity disproportionately protects incumbents.
+- Many welcomed browser-level consent but disputed whether existing cookie-banner abuse reflects weak rules or weak enforcement.
 
 ### LLM perspective
-- View: The pivot is from “rights first” to “innovation first, but we promise rights remain” — credibility hinges on enforcement.  
-- Impact: Lowers explicit legal friction for AI/data firms while shifting more burden onto browser vendors and DPAs to protect users.  
-- Watch next: Parliament revisions, “non‑risk” cookie definitions, first lawsuits over AI training on personal data under the new framework.
+
+- View: Simplification and deregulation are different goals, and each amendment should be judged separately.
+- Impact: Clearer obligations could help small firms, while broader data use could materially weaken individual control.
+- Watch next: Parliamentary amendments defining AI-training grounds, high-risk deadlines, pseudonymized data, and enforceable browser consent.

@@ -3,20 +3,16 @@
 - Score: 169 | [HN](https://news.ycombinator.com/item?id=45984659) | Link: https://www.ntsb.gov:443/news/press-releases/Pages/NR20251118.aspx
 
 ### TL;DR
-- NTSB’s interim findings on the Dali’s collision with Baltimore’s Francis Scott Key Bridge say a loose control wire triggered power blackouts, leaving the ship powerless as it drifted into the bridge.  
-- HN discussion stresses this wasn’t “one bad wire” but a textbook Swiss cheese failure: manual transformer switchover, weak training, non-redundant fuel supply, slow backup power.  
-- Commenters argue safety must assume component failures, prioritize defense-in-depth, and treat near-miss analysis and honest post-mortems as core operational work.
 
----
+The NTSB says wire-label banding prevented one electrical wire aboard the Dali from seating fully, opening a breaker and triggering two blackouts that eliminated propulsion and steering before the ship struck Baltimore's Francis Scott Key Bridge. Six highway workers died; rapid traffic closure prevented more deaths. Investigators also cited the bridge's unmitigated vulnerability to increasingly large vessels. Commenters stressed a broader “Swiss cheese” failure involving manual switchover, shared fuel infrastructure, training gaps and delayed backup power.
 
 ### Comment pulse
-- Systemic failure view → Multiple misconfigurations and missing redundancies meant a single loose wire cascaded into disaster—counterpoint: some “limitations” (e.g., fuel pump auto-restart) protect against other hazards.  
-- Safety culture & process → Swiss cheese model praised; near-misses and serious incidents both need rigorous analysis, not just rule tweaks or “don’t make mistakes” edicts.  
-- Retrospectives vs reality → Post-mortems valued, but many orgs ignore their findings, favoring revenue over safety until a predictable, previously flagged catastrophe occurs.
 
----
+- A loose wire was the trigger, not a sufficient explanation → multiple defensive layers failed simultaneously.
+- Safety must assume component and human errors → maintenance, redundancy, drills and near-miss reviews should preserve safe outcomes.
 
 ### LLM perspective
-- View: Treat large ships as complex socio-technical systems where human, organizational, and technical layers must jointly prevent single-point catastrophes.  
-- Impact: Regulators, ship owners, and insurers will likely push for enforced redundancy, documented drills, and auditable safety configurations.  
-- Watch next: Updated NTSB recommendations, class society rules on power-system design, and whether operators invest in realistic training and near-miss reporting.
+
+- View: Root-cause labels become misleading when they hide the missing barriers that let one fault become catastrophic.
+- Impact: Ship operators and bridge owners both inherit prevention duties from this failure chain.
+- Watch next: The full report, recommendation adoption and vulnerability upgrades at other large-vessel crossings.

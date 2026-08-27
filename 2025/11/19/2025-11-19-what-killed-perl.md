@@ -2,15 +2,18 @@
 
 - Score: 128 | [HN](https://news.ycombinator.com/item?id=45977900) | Link: https://entropicthoughts.com/what-killed-perl
 
-- TL;DR  
-  Perl isn’t dead—CPAN activity is roughly back at dotcom-era levels—but new users largely stopped arriving after ~2011. The article blames a generational shift (Unix admins vs. Windows/Java natives) and the rise of easy package managers making many alternative languages equally accessible. HN commenters strongly disagree that Raku/Perl 6 was minor: they argue its decade-long, backward-incompatible, yet never-ready “successor” announcement drained energy, scared executives, and left a vacuum that Python, Ruby, PHP, JS, and Go filled.
+### TL;DR
 
-- Comment pulse  
-  Perl 6/Raku confusion killed momentum → decade-long “soon” rewrite, no compatibility, execs avoided Perl 5, community energy diverted—counterpoint: Perl 5 codebases could still continue unchanged.  
-  Competitors displaced Perl’s niche → Python/Ruby/PH P offered cleaner syntax, batteries included, easy web deployment; Python’s evangelism and Google backing reassured educators and companies.  
-  Design and ecosystem limits → sigils, odd lists/OO, awkward args, CGI-era heritage; CPAN’s once-unique advantages eroded as PyPI/NPM/etc. appeared.
+The author argues Perl is not dead—CPAN activity remains near dot-com-era levels—but attracts fewer newcomers. Their hypothesis is cultural and competitive: programmers raised outside classic Unix tools find Perl less natural, while modern package managers make many alternative languages easy to adopt. Commenters strongly emphasized Perl 6's decade-long, incompatible and uncertain development, which discouraged Perl 5 investment. Others cited Perl's dense syntax, inconsistent style, web competition from PHP, and Python or Ruby offering more readable general-purpose scripting.
 
-- LLM perspective  
-  View: Language decline is usually multi-causal: bad roadmap communication plus strong alternatives plus educators shifting their default teaching language.  
-  Impact: Perl likely persists in legacy systems and power-user scripts but is unlikely to regain mainstream mindshare against Python/JS/Go.  
-  Watch next: Tooling modernisation (Perl “uv”-style workflows), CPAN contribution trends, and whether Raku stabilizes as a distinct, niche “expressive” language.
+### Comment pulse
+
+- Perl 6 damaged momentum → promised replacement status diverted contributors and made executives avoid new Perl 5 projects.
+- Competition mattered independently → CPAN's once-revolutionary convenience became standard while Python, Ruby, PHP and JavaScript improved.
+- Perl remains expressive and useful → counterpoint: flexibility, sigils and implicit behavior often make inherited code costly to read.
+
+### LLM perspective
+
+- View: Perl's decline reflects lost newcomer flow more than disappearance of existing users.
+- Impact: Mature ecosystems can remain operationally important while losing greenfield mindshare and teaching pipelines.
+- Watch next: CPAN contributor age, new-project adoption and whether modern tooling can lower Perl's readability and dependency barriers.
