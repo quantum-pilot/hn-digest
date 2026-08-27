@@ -3,22 +3,16 @@
 - Score: 135 | [HN](https://news.ycombinator.com/item?id=46375174) | Link: https://yorickpeterse.com/articles/im-returning-my-framework-16/
 
 ### TL;DR
-A long-time Linux user bought a Framework 16 DIY to replace an aging ThinkPad X1, attracted by repairability, Linux support, and QMK keyboard customization. Assembly and serviceability were excellent, but day‑to‑day experience felt unworthy of a €2,000 “premium” price: heavy and unwieldy, fussy modular keyboard spacers, overly bright and uneven display with content-adaptive dimming, bright power LED, mediocre trackpad, and very poor low‑volume speakers. Battery and Linux compatibility were merely “normal.” He’s returning it and sticking with his X1 for now.
 
----
+After replacing an aging ThinkPad, the author praises the Framework 16's easy assembly, swappable parts, and Linux compatibility but decides to return the €2,000 laptop. Complaints include its weight, chassis gaps and flex, uneven oversaturated display, coil whine, six-to-eight-hour estimated battery life, suspend drain, mushy keyboard, oversensitive trackpad, poor speakers, and fiddly keyboard firmware tooling. FreeBSD also crashed around GPU support and lacked MediaTek Wi-Fi support. The author values repairability but says the overall execution feels closer to €1,200–€1,500.
 
 ### Comment pulse
-- Repairability is the point → Fans argue premium pricing reflects upgradability, user-replaceable parts, and Linux support—counterpoint: most users rarely upgrade/repair; daily ergonomics matter more.
 
-- Framework vs Mac/ThinkPad → Many feel MacBooks (and some business ThinkPads) still deliver far better feel, thermals, and battery; Framework’s compromises and port modules hurt polish.
-
-- Alternatives and expectations → Some say OP should have fixed the ThinkPad keyboard or chosen the 13" / a desktop; others praise Framework 12/13 or refurbished business laptops as better Linux bets.
-
----
+- Defenders called repairability, customization, Linux support, and low production scale legitimate premiums with unavoidable tradeoffs.
+- Critics replied that rare repairs cannot compensate for daily shortcomings; others questioned comparing a 16-inch modular laptop with an X1.
 
 ### LLM perspective
-- View: Framework 16 exposes real tradeoffs: modularity and repairability currently cost weight, rigidity, and refinement versus tightly integrated designs.  
 
-- Impact: Best suited for tinkerers and right‑to‑repair enthusiasts; mainstream devs expecting MacBook-level polish will likely be disappointed.  
-
-- Watch next: Compare future Framework revisions, Linux-first laptops from larger OEMs, and whether regulators push right‑to‑repair without sacrificing consumer-level fit and finish.
+- View: Repairability is a product attribute, not a substitute for everyday refinement.
+- Impact: Framework's premium depends on buyers valuing future serviceability enough to tolerate present compromises.
+- Watch next: Compare the Framework 13 and conventional alternatives against the author's actual portability and graphics needs.

@@ -3,18 +3,17 @@
 - Score: 132 | [HN](https://news.ycombinator.com/item?id=46371743) | Link: https://html2png.dev
 
 ### TL;DR
-WebFetch / html2png is a free HTML-to-image/PDF API built on Cloudflare Workers. You POST raw HTML plus options (size, format, DPI, zoom, transparency) and get back a public, cached URL to the rendered asset. It’s pitched as “agent-native” so LLMs can generate visuals, OG images, PDFs, and UI mockups without MCP plugins or extra infra. HN commenters note you can already do this with headless Chrome/Playwright, debate the “production-ready” marketing, and discuss image optimization and waiting strategies.
 
----
+Html2png.dev offers a no-signup HTTP endpoint and editor for rendering raw HTML into PNG, JPEG, WebP, or PDF with configurable dimensions, scale, delay, zoom, and transparency. Generated assets are public and ephemeral; free use is capped at 50 requests per IP each hour. The site targets automated pipelines and LLM agents without MCP setup. HN questioned the “production-ready” claim because headless Chrome already screenshots pages, the demo PNG compressed substantially further, and robust rendering needs explicit readiness conditions rather than vague or fixed waiting.
 
 ### Comment pulse
-- This overlaps with headless Chrome/Playwright CLI screenshotting → skeptics see it as a hosted wrapper. — counterpoint: managed edge + CDN is valuable operationally.
-- “Production-ready” is seen as AI-era marketing jargon → some want concrete claims (scaling, CDN, reliability, compression), others just joke about “cloud-native, web-scale images.”
-- PNGs aren’t optimized and delay is fixed → suggestions: optipng/webp/avif support and proper Playwright wait conditions like `networkidle` instead of static timeouts.
 
----
+- Convenience → hosted format, sizing, transparency, and CDN delivery bundle work beyond Chrome’s basic screenshot command.
+- Production skepticism → unoptimized output and marketing language undermine reliability claims without measurable service guarantees.
+- Rendering correctness → event- or condition-based waits handle dynamic pages better than arbitrary delays — counterpoint: observed requests appeared to delay timeout.
 
 ### LLM perspective
-- View: Nice glue for text-only agents to emit visual artifacts without developers standing up headless-browser infrastructure.
-- Impact: Most useful to SaaS dashboards, reporting tools, and code/diagram assistants needing one-off images or PDFs on demand.
-- Watch next: Add smarter load-wait options, optional compression, and auth/privacy controls for non-public or higher-volume production workloads.
+
+- View: The product’s value is managed rendering infrastructure, not the browser capability itself.
+- Impact: Small teams and agents gain a simple endpoint but inherit public-output, rate-limit, privacy, and availability risks.
+- Watch next: Publish retention rules, concurrency limits, readiness controls, output optimization, failure semantics, and service-level commitments.

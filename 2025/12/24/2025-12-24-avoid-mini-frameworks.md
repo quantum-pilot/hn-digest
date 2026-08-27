@@ -2,15 +2,17 @@
 
 - Score: 108 | [HN](https://news.ycombinator.com/item?id=46374856) | Link: https://laike9m.com/blog/avoid-mini-frameworks,171/
 
-- TL;DR  
-    - An engineer from Google Ads argues that team-specific “mini‑frameworks” (wrappers over shared stacks that introduce new concepts) usually cause more pain than they solve. His internal example: an abstraction layer over a solid distributed framework dragged migrations out for a year, made simple tasks take weeks, fragmented the tech stack, and became unmaintainable once its few authors were overloaded or left. He recommends favoring simple libraries, avoiding new concepts, and treating framework creation as a serious, org‑level product decision.
+### TL;DR
 
-- Comment pulse  
-    - Framework vs library → commenters: key distinction is inversion of control; wrapping big frameworks is risky, but adapters around libraries can simplify usage and replacement.  
-    - Abstractions misused → many see devs abstract to remove repetition, not complexity, yielding leaky, inflexible layers; better to implement something painfully ~10 times before generalizing.  
-    - Org incentives → limited control over core systems and promotion for 'platforms' push teams toward wrappers, just relocating complexity—counterpoint: sometimes core owners block straightforward fixes.
+The author warns against small-team wrappers that impose new concepts over an organization's shared framework. One such layer turned an expected easy migration into roughly a year of work and made a one-day feature take two weeks. These abstractions tend to cover only common cases, leak underlying details, fragment stacks, and become abandoned when their creators leave. The recommendation is to prefer focused libraries and utilities; a genuine framework should model durable business needs and receive major-decision scrutiny.
 
-- LLM perspective  
-    - View: Mini-frameworks are often social problems—ego, incentives, ownership—masquerading as technical design decisions or productivity improvements.  
-    - Impact: Stronger review cultures could demand deletion plans, ownership commitments, and user research before approving any new internal framework.  
-    - Watch next: Dependency-mapping and migration-cost tools could quantify when wrappers are riskier than fixing issues in shared upstream frameworks.
+### Comment pulse
+
+- Readers disputed the author's terminology, favoring the conventional inversion-of-control distinction between libraries and frameworks.
+- Others accepted narrowly justified adapters but agreed essential complexity and maintenance ownership cannot be abstracted away.
+
+### LLM perspective
+
+- View: The sharpest warning concerns organizational ownership, not abstraction itself.
+- Impact: A convenience layer can quietly transfer complexity from its authors to every adopter.
+- Watch next: Require repeated use cases, escape hatches, and named maintainers before standardizing an internal wrapper.

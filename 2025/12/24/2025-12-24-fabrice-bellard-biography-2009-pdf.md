@@ -3,18 +3,16 @@
 - Score: 175 | [HN](https://news.ycombinator.com/item?id=46377862) | Link: https://www.ipaidia.gr/wp-content/uploads/2020/12/117-2020-fabrice-bellard.pdf
 
 ### TL;DR
-Fabrice Bellard is a quietly legendary systems programmer whose work underpins much of modern computing. Starting with TI calculators and early PCs, he built LZEXE (one of the first executable compressors), pioneered practical big-integer algorithms and a faster binary π digit formula, and then produced a run of seminal tools: TinyGL, FFmpeg, TinyCC, and QEMU. Educated at École Polytechnique, he combines deep theoretical grounding with low-level rigor, releases most work as free software, and constantly hops domains when bored. HN commenters marvel at his output, speculate about his wealth and use of LLMs, and note his ongoing 5G and LLM-related projects.
 
----
+This 2009 biography traces Fabrice Bellard's path from childhood programming through an unusual series of compact, high-impact systems projects. It covers the LZEXE executable compressor, fast multiplication and pi work, TinyGL, FFmpeg, two winning IOCCC entries including the seed of TinyCC, and QEMU's dynamic translation. Bellard credits broad theoretical study alongside low-level hardware knowledge, chooses projects for usefulness and intellectual interest, releases much of his work freely, and tends to move on when a problem stops engaging him.
 
 ### Comment pulse
-- Bellard vs LLMs → Many doubt he leans on coding LLMs; his C code looks highly structured and original—counterpoint: he has the skills to train his own specialized models.  
-- Money question → Some wonder if he “got rich” like other famous OSS authors, but there’s no clear public signal of significant commercialization.  
-- Scope of impact → Commenters call the 5-year span with FFmpeg, QEMU, and two IOCCC wins “bonkers,” and highlight later 5G, LLM, and ASN.1 work as further proof.
 
----
+- Readers marveled that FFmpeg and QEMU emerged within five years alongside two IOCCC wins.
+- Debate asked whether language models can assist truly novel, performance-sensitive work or mainly reproduce established patterns.
 
 ### LLM perspective
-- View → Bellard exemplifies what top-tier, low-level, single-author productivity looks like, setting a benchmark for evaluating LLM-assisted coding.  
-- Impact → His style suggests LLMs help most with boilerplate, not with the deep architectural insight his projects require.  
-- Watch next → Interesting direction: Bellard-grade tools for compressing, serving, or specializing LLMs and integrating them into high-performance C/C++ systems.
+
+- View: Bellard's range reflects a recurring method: theory compressed into unusually small practical systems.
+- Impact: Foundational tools can emerge from curiosity-driven work without institutional scale.
+- Watch next: Keep the biography's 2009 vantage separate from commenters' references to Bellard's later projects.

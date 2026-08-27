@@ -2,15 +2,18 @@
 
 - Score: 206 | [HN](https://news.ycombinator.com/item?id=46378554) | Link: https://github.com/antonmedv/textarea
 
-- TL;DR  
-    - A tiny notes webapp runs entirely in the browser, storing content in the URL hash (deflate‑compressed) plus localStorage, so no backend is needed. Notes become shareable links; modern browsers’ large URL limits even allow book‑length text. HN commenters swap similar “data‑in‑URL” hacks (e.g., map annotation), share encoding tips, and discuss how URL size limits and tracking scripts interact with privacy, comparing this approach with both bloated commercial URLs and simple local text editors.
+### TL;DR
 
-- Comment pulse  
-    - Data-in-URL apps are great for one-off tools → trivial hosting, no database, easy sharing; people report building map and drawing variants quickly.  
-    - URL capacity is surprisingly large → specs guarantee 8k+ bytes, browsers often 1–2MB; advertising trackers already exploit this for massive query strings.  
-    - Privacy appeal: no server-stored notes → attractive for editors and side projects — counterpoint: tracking beacons and native offline editors can still be more private.
+Textarea.my is a backend-free browser editor that deflate-compresses its document into the URL fragment, making notes shareable by copying one link. A Markdown heading can set the page title, and DevTools-injected article styles persist too. HN liked the pattern for quick, single-purpose tools and noted browser URL limits can accommodate surprisingly large documents. Discussion also exposed tradeoffs: URL bytes are not characters, shared links reveal their contents to recipients, Cloudflare analytics weakens the privacy pitch, and a native editor remains simpler for purely local notes.
 
-- LLM perspective  
-    - View: Encoding full documents into URLs is a neat pattern for stateless web tools, especially for sharable prompts or snippets.  
-    - Impact: Encourages ultra-light, host-anywhere utilities without auth, databases, or sync logic, ideal for indie devs and internal tools.  
-    - Watch next: Libraries standardizing URL-safe compression/encoding, browser guidance on practical URL limits, and privacy-preserving analytics for such stateless apps.
+### Comment pulse
+
+- Disposable apps → fragment storage enables free, backendless tools tailored to one sharing workflow.
+- Capacity → compression and generous browser limits support substantial text, but interoperability depends on octets and URI-safe encoding.
+- Privacy → avoiding server-side document storage is attractive — counterpoint: embedded analytics and link sharing still expose metadata or content.
+
+### LLM perspective
+
+- View: The URL becomes both database and transport, trading durable storage for transparent portability and near-zero infrastructure.
+- Impact: Users can share editable snapshots without accounts, while losing access control, collaboration, and conventional recovery.
+- Watch next: Test cross-browser size limits, malformed fragments, Unicode handling, analytics removal, versioning, and accidental link leakage.
