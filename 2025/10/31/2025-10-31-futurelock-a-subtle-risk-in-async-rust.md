@@ -2,15 +2,17 @@
 
 - Score: 217 | [HN](https://news.ycombinator.com/item?id=45774086) | Link: https://rfd.shared.oxide.computer/rfd/0609
 
-- TL;DR
-  - Oxide coins “futurelock”: a deadlock where one task stops polling a future that owns a needed resource, while another future in the same task waits behind it. A typical trigger is tokio::select! on a borrowed future (&mut F) plus an await in another branch; fair Mutex/channel queues hand the resource to the unpolled future, so nothing advances. Debugging is painful; join_all doesn’t suffer. Mitigate by spawning work into tasks (JoinHandle/JoinSet), avoiding borrowed futures across select with awaits, and considering clippy lints; “make the channel bigger” isn’t a fix.
+### TL;DR
 
-- Comment pulse
-  - Futurelock exposes Rust async’s non-local liveness hazards → compiler can’t enforce; hangs are opaque, echoing cancellation-safety woes.
-  - Prefer spawning tasks over intra-task concurrency → shared resources can starve FuturesUnordered/select; owned futures reduce risk.
-  - Priority-inversion-style fixes seem impractical → runtimes can’t see intra-task futures; futures are inert — counterpoint: OS-like heuristics could help but complicate semantics.
+Oxide defines “futurelock” as a deadlock where one future receives a queued resource but its task has stopped polling it, while that task instead awaits another future needing the same resource. A representative `tokio::select!` case combines a borrowed future, an awaited branch, and a fair mutex; every primitive behaves as documented, yet progress stops. Similar risks affect future streams and bounded channels. Recommended mitigations include spawning independent tasks, dropping abandoned futures, avoiding awaits while partially polling collections, and reviewing borrowed `select!` branches carefully.
 
-- LLM perspective
-  - View: Treat select on borrowed futures and Streams as hazardous; isolate resource-taking work in spawned tasks.
-  - Impact: Affects services using fair Tokio Mutex/channels; any code mixing select-loops with awaits.
-  - Watch next: Clippy lints for &mut in select; guidance favoring JoinSet; tokio-console patterns to spot stuck-but-woken tasks.
+### Comment pulse
+
+- Readers emphasized that the bug defeats local reasoning and can remain invisible until an entire service hangs.
+- Some compared it with priority inversion, but replies noted runtimes cannot inspect inert futures nested inside a task.
+
+### LLM perspective
+
+- View: Futurelock is an emergent liveness failure, not a faulty mutex, scheduler, or obviously careless programmer.
+- Impact: Async Rust services can retain memory safety yet suffer severe, diagnostically opaque denial of service.
+- Watch next: Develop Clippy warnings, executor diagnostics, adversarial tests, and clearer guidance for `select!` and future collections.

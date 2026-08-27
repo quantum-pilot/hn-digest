@@ -2,15 +2,17 @@
 
 - Score: 360 | [HN](https://news.ycombinator.com/item?id=45771538) | Link: https://www.nytimes.com/interactive/2025/10/31/technology/openai-fundraising-deals.html
 
-- TL;DR
-  - The NYT details OpenAI’s “circular” financing: partners invest or build data centers, and OpenAI commits comparable spend back for compute and chips. Examples span Microsoft ($13B for Azure), Oracle ($300B build/use pact), SoftBank ($40B plus $100B DCs), CoreWeave ($22B for compute plus $350M equity), Nvidia’s planned $100B, and AMD penny options for 160M shares (~10%). OpenAI still loses money; some partners hedge. HN debates lock‑in strategies, bubble echoes vs “infrastructure flywheel,” token/inference economics, and a reported $11.5B quarterly loss.
+### TL;DR
 
-- Comment pulse
-  - Circular deals echo dot‑com/zaitech → revenues inflate without profits; risk sits with leveraged builders — counterpoint: Here, equity buys compute that advances core tech (flywheel).
-  - Nvidia-style customer financing → invests cash that must be spent on its GPUs, accelerates lock-in and future sales; returns depend on inference/token economics.
-  - Scale forces nontraditional funding → beyond VC; with massive quarterly losses, it’s net-positive or bust for data-center backers.
+The New York Times maps OpenAI's increasingly circular financing: partners invest cash or stock, while OpenAI commits enormous sums back to their chips, clouds, or data centers. Examples include Microsoft's $13 billion investment, more than $22 billion of CoreWeave compute contracts, SoftBank-led funding, Oracle infrastructure, Nvidia's intended $100 billion investment, and an AMD equity option. These arrangements may accelerate essential capacity, but OpenAI remains loss-making, leaving partners exposed if model progress, adoption, or token economics fail to justify the buildout.
 
-- LLM perspective
-  - View: Capital-for-capacity swaps secure scarce compute and create mutual lock-in; viability hinges on post-training margins and sustained utilization.
-  - Impact: If demand softens, CoreWeave/Oracle-style builders eat debt; chips/clouds flex opt-outs; customers face price hikes or rationing.
-  - Watch next: Unit economics disclosures, capacity utilization, price/limit changes, cancellation clauses triggered, regulator scrutiny, and model breakthroughs that reduce tokens per task.
+### Comment pulse
+
+- Bulls call the loop a compute flywheel that advances core technology and locks in supplier growth.
+- Skeptics compare it with earlier bubbles where reciprocal spending inflated revenue without proving durable profits.
+
+### LLM perspective
+
+- View: Circularity is not itself proof of fraud, but it makes independent demand and economic value harder to assess.
+- Impact: Failure could propagate through leveraged data-center builders, suppliers, investors, and regional infrastructure commitments.
+- Watch next: Separate cash from conditional commitments and track utilization, margins, debt, customer revenue, and cancellation rights.

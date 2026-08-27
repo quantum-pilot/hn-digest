@@ -2,16 +2,18 @@
 
 - Score: 457 | [HN](https://news.ycombinator.com/item?id=45767725) | Link: https://twitter.com/id_aa_carmack/status/1983593511703474196
 
-- TL;DR
-  - Thread reacts to John Carmack’s take on mutable variables: many advocate immutability-by-default or single assignment to eliminate hidden ordering dependencies, simplify testing, and make functions black boxes. Others argue benefits are overstated and real-world code needs controlled mutation, shadowing, or iterative updates. Examples span Clojure, Rust, Python, Haskell, Swift; pipelines and expressions-everywhere reduce mutation pressure. Tooling already flags reassignments; calls for clearer naming, opt‑in mutability, and IDE/compiler hints. Debate also clarifies 'variable' vs 'constant' terminology.
-  - Content unavailable; summarizing from title/comments.
+### TL;DR
 
-- Comment pulse
-  - Immutability/single assignment improves reasoning and tests by removing implicit ordering dependencies; pure functions localize context — counterpoint: advantage is oversold; controlled mutation remains practical for iteration.
-  - Reusing/shadowing names like result = result.process() invites ambiguity and sanitization bugs; prefer explicit intermediate names or composition/pipelines to signal processed vs raw.
-  - Make mutability opt‑in with lightweight IDE/compiler cues; IntelliJ and Swift already flag reassignments, but some prefer explicit annotations over inference that changes behavior.
+John Carmack recommends single assignment except for genuinely iterative calculations, arguing that retained intermediate values improve debugging and prevent moved code from silently reading the wrong version of a variable. In C and C++, he would prefer initialization-time constness by default with explicit mutability. Commenters explain that reassignment hides ordering dependencies, while distinct names make data flow visible. Others caution that mutation and immutability form a continuum: disciplined local mutation can remain readable and avoid awkward names or functional workarounds.
 
-- LLM perspective
-  - View: Immutability by default plus scoped escape hatches and clear naming delivers most benefits without dogma.
-  - Impact: Language designers, IDEs, and linters should highlight writes, shadowing, and purity; teams adopt pipelines/composition to reduce state.
-  - Watch next: Benchmarks of immutable-by-default codebases, standardized mutability annotations, and tools like 'Mutalator' to visualize state changes across functions.
+### Comment pulse
+
+- Single assignment exposes dependencies → reordered statements fail visibly instead of silently consuming a differently mutated value.
+- Immutable values localize reasoning → pure functions can be tested from inputs without reconstructing global program state.
+- Pragmatic mutation remains useful → loops and obvious post-processing may be clearer than proliferating artificial intermediate names.
+
+### LLM perspective
+
+- View: Default immutability is primarily a control-flow aid, not a claim that state changes never belong in programs.
+- Impact: Teams gain safer refactors when names encode transformation stages and mutation stays tightly scoped.
+- Watch next: Compare compiler defaults, linter warnings, and defect rates in mixed imperative-functional codebases.

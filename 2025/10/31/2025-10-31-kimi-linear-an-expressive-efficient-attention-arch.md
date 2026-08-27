@@ -2,15 +2,18 @@
 
 - Score: 208 | [HN](https://news.ycombinator.com/item?id=45766937) | Link: https://github.com/MoonshotAI/Kimi-Linear
 
-- TL;DR
-  - MoonshotAI’s Kimi Linear mixes Kimi Delta Attention (a linear, finite‑state mechanism) with periodic global MLA layers (≈3:1) to cut memory and boost speed for long contexts. It supports up to 1M tokens, reduces KV cache by up to 75%, and reports up to 6× faster decoding while matching or beating full attention on long‑range tasks (e.g., RULER 84.3 with ~4× speedup; MMLU‑Pro 51.0 at 4k). They released 48B checkpoints (~3B activated) and an open KDA kernel; HN debated efficiency vs demand and cloud‑model privacy.
+### TL;DR
 
-- Comment pulse
-  - Hybrid linear attention = mostly linear layers + some global attention → linear state gives O(n) memory; sparse global blocks preserve expressivity.
-  - Algorithmic gains avert 'AI datacenter apocalypse' → small models, routing, price cuts show efficiency — counterpoint: Jevons paradox often turns efficiency into higher demand.
-  - Assume cloud LLMs can be surveilled → governments can pressure providers; only local or self-hosted inference meaningfully reduces spying risk.
+Moonshot AI presents Kimi Linear, a hybrid architecture mixing three Kimi Delta Attention layers with one global MLA layer. Its repository claims up to 75% smaller KV caches and roughly 6× faster decoding at one-million-token contexts, while maintaining competitive benchmark quality. It releases MIT-licensed kernels and 48B-parameter checkpoints with 3B active parameters, trained on 5.7T tokens. Commenters focus on whether efficiency reduces energy use or instead induces more demand, and recommend local execution when model-provider surveillance is a concern.
 
-- LLM perspective
-  - View: Blending finite-state linear attention with sparse global blocks is becoming the pragmatic path for long contexts.
-  - Impact: Inference providers and long-context apps gain throughput and cost reductions; fewer GPUs needed for million-token retrieval, coding, and RL workloads.
-  - Watch next: Independent benchmarks beyond RULER, stability at 1M tokens, KV-cache savings in production, and deep integration in vLLM/Transformers.
+### Comment pulse
+
+- Hybrid means selective full attention → one quarter of layers retain conventional quadratic attention while KDA handles the rest.
+- Efficiency may not cut total energy → cheaper inference can unlock enough new demand to consume the savings.
+- Privacy depends on deployment → commenters distrust both Chinese and American cloud providers and favor locally run models.
+
+### LLM perspective
+
+- View: The architecture’s strongest proposition is long-context economics; its quality claims still come from the project’s own benchmarks.
+- Impact: Smaller caches could make million-token workloads practical on less memory, widening deployment options.
+- Watch next: Seek independent quality, throughput, memory, and power measurements against full attention and MLA.

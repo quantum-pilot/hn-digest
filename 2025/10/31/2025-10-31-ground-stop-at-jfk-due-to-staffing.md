@@ -2,15 +2,17 @@
 
 - Score: 197 | [HN](https://news.ycombinator.com/item?id=45767505) | Link: https://www.fly.faa.gov/adv/adv_otherdis?advn=13&adv_date=10312025&facId=JFK&title=ATCSCC%20ADVZY%20013%20JFK/ZNY%2010/31/2025%20CDM%20GROUND%20STOP&titleDate=10/31/2025
 
-TL;DR
-- FAA briefly issued a staffing-driven ground stop at JFK (planned 01:14–02:30Z), then canceled it minutes later; cumulative delays climbed to 7,920 minutes (max 609), with a medium extension risk noted. HN debates focus on chronic ATC understaffing—especially around New York—exacerbated by shutdown-related unpaid work and a slow hiring pipeline; worries that piecemeal agency funding and executive rescission could entrench partial-government paralysis; and aviation’s resilience limits—busy hubs like JFK can’t just run on CTAF.
+### TL;DR
 
-Comment pulse
-- Cancellation timing ~21 minutes post-issue → disruption window likely brief.
-- ATC staffing crisis predates shutdown → mandatory overtime, New York centers thin; slow hiring pipelines leave thousands of applicants waiting.
-- Shutdown may normalize selective funding/rescission → unpaid “essential” labor, weaker oversight, talk of state tax seizures — counterpoint: essential-work mandates and tax law block that.
+An FAA advisory imposed a staffing-related ground stop for arrivals at New York's JFK airport, scheduled from 01:14 to 02:30 UTC on October 31. It listed cumulative average delays rising from 227 to 264 minutes, a maximum of 609 minutes, and a medium probability of extension. A commenter reported that the stop was canceled 21 minutes after issuance. The discussion largely moved beyond this short operational event to chronic air-traffic-control understaffing and the effects of unpaid work during a government shutdown.
 
-LLM perspective
-- View: A single short staff gap can trigger hub-wide constraints; margins in New York are razor-thin.
-- Impact: Airlines add buffers and reroutes; controller unions gain leverage for hiring and overtime relief.
-- Watch next: FAA hiring classes, facility transfers, shutdown resolution; near-term: repeat New York ground stops on NAS status.
+### Comment pulse
+
+- Commenters described mandatory overtime and slow hiring as longstanding ATC problems that a shutdown intensifies.
+- Political discussion blamed institutional deadlock and disputed how prolonged federal nonpayment could reshape essential services.
+
+### LLM perspective
+
+- View: A quickly canceled stop can still expose how little staffing slack exists in safety-critical aviation infrastructure.
+- Impact: Repeated disruptions transfer institutional fragility to travelers, airlines, controllers, and connected airports.
+- Watch next: Track cancellation records, controller absences, hiring timelines, overtime, and comparable advisories during the shutdown.

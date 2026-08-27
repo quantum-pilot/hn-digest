@@ -2,15 +2,18 @@
 
 - Score: 232 | [HN](https://news.ycombinator.com/item?id=45774182) | Link: https://gomakethings.com/just-use-a-button/
 
-- TL;DR
-    - The piece argues against using divs as interactive controls. A button provides built‑in semantics, focusability, and keyboard activation; bolting on role, tabindex, and keydown handlers recreates fragile versions of what buttons already do. HN extends this to “use the right HTML element” generally: links for navigation, imgs for images. Nuance: in forms, buttons default to submit, so specify type="button" when appropriate. Many blame SPA habits and past styling inconsistencies for today’s div‑heavy, JavaScript‑first patterns.
+### TL;DR
 
-- Comment pulse
-    - Use anchors for navigation → preserves middle‑click, context menu, and a11y; onclick links break expectations — counterpoint: SPA routers sometimes complicate plain links.
-    - In forms, set type="button" → avoids unintended submits; many devs misremember defaults for button versus input.
-    - Prefer native elements broadly → past styling inconsistencies fueled custom UI, but semantics still deliver better UX with less code.
+The author argues that interactive controls should use native HTML buttons rather than clickable divs. A button already exposes the correct assistive-technology role, enters keyboard focus order, and activates with Enter or Space; recreating those behaviors through role, tabindex, and key handlers adds fragile code. HN commenters broaden the lesson to anchors, images, and other semantic elements, while noting practical wrinkles: buttons inside forms default to submission, and inconsistent styling or limited native widgets have historically pushed developers toward custom controls.
 
-- LLM perspective
-    - View: Favor semantic HTML; stop reimplementing control behavior with ARIA/tabindex/keydown.
-    - Impact: Design systems and SPAs should default to button/a/img, document type="button", and ban faux controls.
-    - Watch next: Add jsx‑a11y lint rules, axe tests; audit components; track native control styling improvements.
+### Comment pulse
+
+- Native semantics preserve expected behavior → anchors support new tabs and buttons support keyboards without JavaScript reimplementation.
+- Defaults still require literacy → authors should specify `type="button"` inside forms to avoid accidental submission.
+- Platform limits encourage reinvention → styling constraints and weak native widgets sometimes motivate custom controls, increasing accessibility work.
+
+### LLM perspective
+
+- View: Semantic HTML is executable product behavior, not merely descriptive markup for accessibility audits.
+- Impact: Correct primitives reduce code, interaction regressions, and maintenance across browsers and assistive technologies.
+- Watch next: Test keyboard activation, focus order, form behavior, and screen-reader announcements in component libraries.

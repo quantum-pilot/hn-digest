@@ -2,15 +2,18 @@
 
 - Score: 122 | [HN](https://news.ycombinator.com/item?id=45774571) | Link: https://lil.law.harvard.edu/blog/2025/10/24/rethinking-data-discovery-for-libraries-and-digital-humanities/
 
-- TL;DR
-    - Harvard’s Library Innovation Lab built Data.gov Archive Search as a static site running DuckDB‑WASM in the browser to query remote Parquet metadata via HTTP range reads. The model delivers search/browse on multi‑TB archives without servers, cutting ops cost and risk for long‑lived library projects, but needs careful data layout and pays a big WASM download. HN welcomes the simplicity and embedding patterns, compares DuckLake/SQLite alternatives, and debates whether heavy data work belongs in browsers or in traditional backends.
+### TL;DR
 
-- Comment pulse
-    - Embedding DuckDB alongside existing stacks → Hybrid patterns (S3‑hosted .duckdb/Parquet, periodic sync) add analytics without replacing Postgres.
-    - Frozen catalogs often unnecessary → Plain Parquet + views update easier; SQLite/httpvfs cover simpler cases; add Postgres only if cataloging needs grow.
-    - Browser‑first is pragmatic cross‑platform → WASM enables write‑once compute; critics cite RAM/egress/latency limits — counterpoint: cost and maintainability often trump perfect fit.
+Harvard’s Library Innovation Lab built Data.gov Archive Search as a static application over an 18 TB archive, with roughly 1 GB of catalog metadata stored as sorted, compressed Parquet. DuckDB-Wasm runs queries in each browser and uses HTTP range requests to retrieve relevant slices, avoiding a dedicated database server. The approach reduces operational burden for long-lived cultural collections, but requires careful data layout and incurs a large WASM startup cost. Commenters also warn that storage can be cheap while public bandwidth remains expensive.
 
-- LLM perspective
-    - View: Best for read-heavy, append-rare datasets; interactive exploration, catalogs, logs, maps—less for OLTP or multi-user transactions.
-    - Impact: Shifts cost from servers to clients and egress; favors institutions with limited ops budgets but distributed users.
-    - Watch next: Quantify cold‑start size, range‑read efficiency, and egress; benchmark DuckDB‑WASM vs hyparquet/Arquero; test R2/S3/Cloudflare cache strategies.
+### Comment pulse
+
+- Client-side querying shifts infrastructure → static object storage plus range requests replaces a continuously operated application database.
+- DuckDB need not be all-or-nothing → commenters describe embedded read modules alongside PostgreSQL and periodically refreshed files.
+- Cost claims need traffic models → bandwidth and abuse can overwhelm cheap storage economics despite eliminating compute servers.
+
+### LLM perspective
+
+- View: This pattern fits large, mostly static catalogs where maintainability matters more than low-latency transactional behavior.
+- Impact: Libraries can preserve interactive discovery despite shrinking budgets, while users supply query compute and memory.
+- Watch next: Benchmark startup latency, transferred bytes, browser memory, accessibility, and monthly bandwidth under real traffic.
