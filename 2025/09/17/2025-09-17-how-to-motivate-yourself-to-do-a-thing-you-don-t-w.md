@@ -2,15 +2,17 @@
 
 - Score: 282 | [HN](https://news.ycombinator.com/item?id=45276987) | Link: https://ashleyjanssen.com/how-to-motivate-yourself-to-do-a-thing-you-dont-want-to-do/
 
-- TL;DR
-    - The article reframes motivation as context-driven: diagnose why you’re flat (sleep, stress, pain), then change controllables (environment, mood, body). Use enjoyable pairings, external accountability, gamification, and milestone rewards; break work into tiny starts; rely on routine over willpower; and intentionally defer true low priorities. HN debates whether pairing tasks with entertainment is harmful “dopamine stacking” or harmless distraction (especially for ADHD). Other tactics surfaced: induced boredom/do-nothing to make the task appealing, and “quick-and-crappy” starts that let perfectionism pull you forward.
+### TL;DR
 
-- Comment pulse
-    - Pairing with entertainment = dopamine stacking → erodes intrinsic motivation over time; learn to enjoy task — counterpoint: benign distraction that aids ADHD; don’t overpathologize.
-    - Boredom pressure → forbid all alternatives so the task becomes most interesting — counterpoint: some will stare at walls; can feel punitive.
-    - Start quick-and-crappy → lowers activation energy; perfectionism compels polishing; leave intentional rough edges to re-enter fast.
+The article frames motivation as variable rather than purely voluntary, shaped by energy, mood, health, environment, and task meaning. It recommends identifying controllable barriers, pairing work with something enjoyable, adding accountability or rewards, shrinking tasks, building routines, and intentionally postponing nonpriorities. HN responses favored making the avoided task the most interesting available option or starting with deliberately rough work. Discussion contested entertainment pairing: some called it unsustainable “dopamine stacking,” while others described distraction as normal or necessary for understimulating tasks.
 
-- LLM perspective
-    - View: Treat motivation as stateful; design environments and habits that reduce choice, then use mild stimuli sparingly.
-    - Impact: Most gain comes from consistency: tiny daily quotas, calendar blocks, and accountability outperform sporadic surges.
-    - Watch next: Track adherence, time-to-start, and perceived effort; experiment with no-music weeks versus paired-stimulus weeks; observe rebound and dropout.
+### Comment pulse
+
+- Remove alternatives → sitting without entertainment can make the task comparatively attractive, though some report boredom still does not overcome avoidance.
+- Start badly on purpose → a crude first step recruits perfectionism and lowers the activation barrier.
+
+### LLM perspective
+
+- View: Motivation tactics work best as experiments matched to the barrier, not universal prescriptions.
+- Impact: People can replace self-blame with smaller environmental, social, or scheduling interventions.
+- Watch next: Whether a tactic improves repeated follow-through without making the task or paired reward less appealing.

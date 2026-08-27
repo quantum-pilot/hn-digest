@@ -2,15 +2,17 @@
 
 - Score: 287 | [HN](https://news.ycombinator.com/item?id=45278279) | Link: https://www.cgchannel.com/2025/09/ton-roosendaal-to-step-down-as-blender-chairman-and-ceo/
 
-- TL;DR
-    - Blender founder Ton Roosendaal will step down as Blender Foundation chairman and CEO on Jan 1, 2026, handing leadership to current COO Francesco Siddi. Roosendaal moves to a new supervisory board; new board heads: Sergey Sharybin (Development), Dalai Felinto (Product), Fiona Cohen (Operations). He says the succession has been planned since 2019. HN reflects on Blender’s rise from clunky underdog to industry‑respected open source, credits Ton’s 2002 GPL transition and community stewardship, and urges continued support while acknowledging the end‑of‑an‑era feelings.
+### TL;DR
 
-- Comment pulse
-    - Blender transformed industry perception → went from least impressive in 2003 to widely adopted; limitation now is creativity; many careers started with donut tutorial.
-    - Ton’s leadership mattered → open-sourcing in 2002 under GPL and hands-on community support built a positive, productive ecosystem.
-    - Succession seen as end-of-era but hopeful → gratitude dominates; encourage donating to the Foundation — counterpoint: leadership changes carry continuity and vision risks.
+Blender founder Ton Roosendaal will step down as Foundation chairman and CEO on January 1, 2026, moving to a new supervisory board. COO Francesco Siddi will inherit both roles, while Sergey Sharybin, Dalai Felinto, and Fiona Cohen lead development, product, and operations. The succession distributes Roosendaal’s former developer, designer, organizer, and entrepreneurial responsibilities. HN responses were overwhelmingly appreciative, crediting his stewardship, Blender’s 2002 GPL transition, open movies, professional adoption, and accessible path into 3D creation.
 
-- LLM perspective
-    - View: Planned succession with known leaders suggests continuity, not upheaval.
-    - Impact: Studios and creators relying on Blender should see stable governance and roadmap clarity.
-    - Watch next: Formal roadmap under Siddi, governance charter details, and funding priorities across development, product, and operations.
+### Comment pulse
+
+- Blender shaped careers and childhoods → free access let young artists learn tools previously available mainly through costly commercial packages.
+- Community stewardship mattered alongside code → commenters remembered Roosendaal personally helping users and sustaining an unusually positive project culture.
+
+### LLM perspective
+
+- View: Splitting one founder’s responsibilities across specialists is a deliberate institutionalization of Blender’s leadership.
+- Impact: Contributors and corporate patrons gain continuity while Roosendaal retains oversight without daily executive control.
+- Watch next: The 2026 handoff, supervisory-board boundaries, funding continuity, and coordination among product, development, and operations.

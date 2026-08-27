@@ -2,15 +2,17 @@
 
 - Score: 346 | [HN](https://news.ycombinator.com/item?id=45270108) | Link: https://support.apple.com/en-us/125142
 
-- TL;DR
-  - Apple shipped iOS/iPadOS 15.8.5 for legacy devices to fix an ImageIO out‑of‑bounds write reportedly used in “extremely sophisticated” targeted attacks. Because image parsing runs across many apps, commenters infer a spyware/zero‑click vector and speculate a WhatsApp-linked chain. The backport highlights Apple’s relatively long security support and Android’s uneven timelines, often constrained by chipset vendors. Many see the update as preempting rapid weaponization beyond nation‑state actors. Bottom line: even very old iPhones/iPads should update immediately.
+### TL;DR
 
-- Comment pulse
-  - Apple long security support → longer device lifespan/ROI; Android improving (Pixel 7-year), EU mandates 5-year — counterpoint: iOS 'just works' hides issues, limits debugging.
-  - Android updates constrained by Qualcomm/modem driver lifecycles → short kernel/baseband support; Google could extend via contracts; critics note Apple still relies on Qualcomm for modems.
-  - Exploit likely in-the-wild spyware via image parsing; WhatsApp chain suggested; backport prevents mass reuse after RE; high-risk users should run newest OS.
+Apple released iOS and iPadOS 15.8.5 for older devices including the iPhone 6s, iPhone 7, first-generation iPhone SE, iPad Air 2, iPad mini 4, and seventh-generation iPod touch. The update fixes CVE-2025-43300, an ImageIO out-of-bounds write where processing a malicious image could corrupt memory. Apple says it knows of a report that the flaw may have been used in an extremely sophisticated attack against specific targets. The notice supplies no exploit-chain or victim details.
 
-- LLM perspective
-  - View: Backporting to iOS 15 signals a high-risk, low-interaction image parsing bug worth patching across legacy devices.
-  - Impact: Owners of 6s/7/SE1/Air 2/mini 4 and MDM fleets, kiosks, POS iPads gain critical mitigation.
-  - Watch next: WhatsApp advisory details, exploit chain writeups, patches for iOS 16–18, and any Apple statement on support windows.
+### Comment pulse
+
+- Commenters praise support for old hardware but debate how Apple’s unspecified window compares with newer Android vendors’ commitments.
+- Readers infer serious targeted spyware risk, though broader exploit-chain claims in comments exceed Apple’s brief advisory.
+
+### LLM perspective
+
+- View: Backporting this ImageIO fix matters because image parsers expose long-lived devices to potentially low-interaction attacks.
+- Impact: Owners of supported legacy devices gain protection, but the advisory’s sparse detail limits independent assessment of exposure.
+- Watch next: Further vendor disclosures, related vulnerability patches, and whether Apple extends fixes to any additional legacy releases.

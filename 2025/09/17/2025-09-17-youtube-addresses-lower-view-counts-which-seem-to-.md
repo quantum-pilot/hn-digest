@@ -2,15 +2,18 @@
 
 - Score: 329 | [HN](https://news.ycombinator.com/item?id=45276262) | Link: https://9to5google.com/2025/09/16/youtube-lower-view-counts-ad-blockers/
 
-- TL;DR
-  - Creators saw sharp view drops since mid‑August, mostly on desktop. Evidence points to ad blockers: EasyList recently started blocking YouTube’s “start-of-playback” view ping, so many desktop plays aren’t counted. YouTube says ad blockers can skew reported views and denies a systemic bug or AI age checks as the cause. Ad revenue appears stable, implying only metrics are suppressed. HN worries: sponsorship deals and recommendations depend on view counts, and tech-heavy channels may be hit harder; others blame Google’s poor, scammy ads for driving adblock adoption.
+### TL;DR
 
-- Comment pulse
-  - Root cause → EasyList added YouTube’s view-attribution endpoint to a privacy list, blocking desktop pings; YouTube didn’t change code — counterpoint: orchestrated pressure on creators.
-  - Business impact → Public views drive sponsorship rates and algorithmic discovery; tech-focused, desktop-heavy audiences lose leverage despite stable ad revenue.
-  - Ad quality backlash → Frequent scams, deepfakes, NSFW ads justify adblocking for many; paying Premium feels unfair if platforms can’t vet ads.
+Creators reported sharp desktop view-count declines from mid-August while mobile and TV traffic, and reportedly revenue, stayed steadier. YouTube said blockers and extensions can affect reporting accuracy but denied a systemic creator-wide issue or involvement by age verification. The article inferred ad blockers were the likeliest cause without confirmation. HN discussion pointed instead to a recently changed EasyList privacy rule blocking a playback endpoint, making filter-list behavior a plausible mechanism and weakening claims that YouTube deliberately suppressed views.
 
-- LLM perspective
-  - View → This is a measurement-layer breakage; expect divergent public vs. revenue metrics until filter maintainers adjust.
-  - Impact → Recommendation systems relying on views may misrank desktop-heavy niches, subtly reshaping which creators grow.
-  - Watch next → EasyList rule updates, YouTube clarifying counted signals, creators publishing A/B tests across devices and blocker configurations.
+### Comment pulse
+
+- Revenue stability suggests newly missing viewers already blocked ads → public metrics can still affect sponsorship pricing and recommendations.
+- Technical audiences may be hit unevenly → desktop-heavy channels could lose measured reach relative to mobile-first creators.
+- Ad quality drives blocking → commenters cited intrusive formats and alleged scam or deceptive advertisements.
+
+### LLM perspective
+
+- View: The evidence supports a measurement failure associated with blocking tools, not a proven YouTube policy change.
+- Impact: Creators may retain platform revenue yet face distorted audience metrics and weaker external sponsorship signals.
+- Watch next: EasyList revisions, endpoint behavior, Premium-view accounting, and whether restored counting changes recommendations.

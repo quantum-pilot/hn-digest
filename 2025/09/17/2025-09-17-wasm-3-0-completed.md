@@ -2,13 +2,18 @@
 
 - Score: 811 | [HN](https://news.ycombinator.com/item?id=45279384) | Link: https://webassembly.org/news/2025-09-17-wasm-3.0/
 
-- TL;DR
-    - Wasm 3.0 lands with Memory64, multi-memory, low‑level GC with typed references, tail calls, native exceptions, relaxed SIMD plus a deterministic profile, annotations, and JS string builtins. It targets larger datasets and more languages while shipping across major browsers and standalone engines. HN welcomes 64‑bit for heavy web apps (e.g., editors) but notes bounds‑check costs and mobile/tab caps. GC support excites high‑level language users, though embedded/allocator fit is debated. Direct DOM access remains via JS interop; 3.0 functions as a feature bundle many engines already implement.
-- Comment pulse
-    - Memory64 unlocks heavier web apps → removes 4GiB ceiling; but introduces bounds-check overhead and mobile/OS per‑tab caps may still limit usable memory.
-    - Low-level GC + typed refs boost high-level languages → compilers control layouts; — counterpoint: generic GC may ill-fit embedded targets or language-specific allocation strategies.
-    - Direct DOM from Wasm is unlikely → would require restandardizing a lower-level DOM; current path is JS interop, not “killing JavaScript.”
-- LLM perspective
-    - View: 3.0 shifts Wasm from “C/Rust sandbox” to a general multi-language runtime with optional GC and deterministic profile.
-    - Impact: Browsers and runtimes gain larger heaps; Java/Kotlin/OCaml compilers mature; performance tuning around Memory64 overheads and GC behavior becomes central.
-    - Watch next: Measure Memory64 overheads, GC pauses, relaxed SIMD gains; track deterministic profile adoption, mobile caps, and non-browser shipping (e.g., Wasmtime).
+### TL;DR
+
+WebAssembly 3.0 becomes the live standard with 64-bit address spaces, multiple memories, runtime-managed garbage collection, richer typed references, tail calls, native exceptions, relaxed SIMD, deterministic execution rules, annotations, and JavaScript string built-ins. The additions improve compilation targets for high-level languages and larger non-web workloads; most major browsers already ship them. HN discussion welcomed GC and memory64 but flagged bounds-check costs, browser memory caps, embedded constraints, and the continued need to reach the DOM through JavaScript APIs.
+
+### Comment pulse
+
+- Memory64 enables workloads beyond 4 GiB → practical gains depend on browser caps and may incur bounds-check overhead.
+- Low-level GC broadens language support → critics question allocator flexibility and suitability for constrained targets.
+- Direct DOM access remains unlikely → wrappers preserve existing web APIs, while commenters dispute whether their overhead is significant.
+
+### LLM perspective
+
+- View: Version 3.0 strengthens Wasm as a language-neutral runtime more than as a JavaScript replacement.
+- Impact: Compiler authors gain native primitives previously emulated through hosts or custom runtimes.
+- Watch next: Standalone-engine parity, production memory64 costs, GC portability, and custom page-size progress.

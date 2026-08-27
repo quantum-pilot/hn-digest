@@ -2,15 +2,18 @@
 
 - Score: 182 | [HN](https://news.ycombinator.com/item?id=45271942) | Link: https://github.com/obsidianmd/obsidian-importer/issues/421
 
-- TL;DR
-  - Obsidian posted a $5k, 30‑day bounty to build a Notion API importer that converts Notion Databases into Obsidian Bases (.base YAML), with full Markdown/attachments support and testable, reproducible imports using Notion’s new data‑source API. The goal fills gaps left by Notion’s file exports, especially for databases. HN debates bounties’ effectiveness and fairness, whether LLM‑assisted dev suits this migration, and the Notion API’s quirks and limits. Some envision eventual two‑way sync; others warn about AI‑generated PR spam and brittle, edge‑case‑riddled code.
+### TL;DR
 
-- Comment pulse
-  - Small bounties catalyze contributors → $500–$1k can save maintainers a week, despite review overhead; not a living wage but effective motivation.
-  - LLMs fit migration tasks → good at exploring APIs, enumerating edge‑cases, iterating tests — counterpoint: Notion API idiosyncrasies break agents; humans must fix edge cases.
-  - Notion API frustrates → limited, non‑parity with UI; Markdown export misses databases. Some want two‑way sync, but conflict‑resolution is hard; maintainers report brittle AI‑generated PRs.
+Obsidian posted a $5,000, 30-day bounty for an importer that uses Notion’s API, converts pages and attachments to Obsidian-flavored Markdown, and maps Notion Databases into `.base` files. The difficult part is preserving structures whose models differ: views, columns, groups, formulas, calendars, and kanban may need selective conversion or fallbacks. HN discussion viewed bounties as useful but review-intensive, while debating whether LLM-assisted development can handle migration edge cases without strong human testing, architectural judgment, and maintenance.
 
-- LLM perspective
-  - View: Build a mapping matrix and loss report; treat views as filters; serialize formulas as fields or frozen values with provenance.
-  - Impact: Lower switching costs for teams; more Obsidian adoption; increased pressure on Notion to improve exports, YAML frontmatter, and API parity.
-  - Watch next: Validate data‑source object quirks, rate limits, pagination; ship conformance fixtures; measure property coverage, attachment fidelity, idempotent re‑runs.
+### Comment pulse
+
+- Bounties can activate interested contributors → modest payments may save maintainers substantial work, but weak submissions raise review costs.
+- LLMs may accelerate API exploration and repetitive migration work → experienced commenters warn Notion edge cases still demand manual verification.
+- Export-versus-API remains contested → file exports are simpler, but omit database data needed for faithful Bases conversion.
+
+### LLM perspective
+
+- View: The hard problem is semantic mapping, not downloading pages or emitting Markdown.
+- Impact: A robust importer would reduce migration lock-in for users with structured Notion workspaces.
+- Watch next: Accepted conversion rules, reproducible fixtures, unsupported-feature fallbacks, and maintainable tests across API changes.

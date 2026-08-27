@@ -2,17 +2,17 @@
 
 - Score: 396 | [HN](https://news.ycombinator.com/item?id=45273854) | Link: https://mastodon.social/@chatcontrol/115215006562371435
 
-- TL;DR
-  Germany reverting to undecided on EU Chat Control revives the proposal requiring platforms to detect CSAM, potentially via client-side scanning, even in E2EE. Commenters argue the “state accounts” exemption and no-backdoor wording mask mass scanning and legal overreach, risking privacy, business compliance, and politicized abuse. Others counter that few voters prioritize privacy, enabling persistence despite constitutional challenges. The move is seen as another step in normalizing communications surveillance through technical mandates framed as safety measures.
-  
-  - Content unavailable; summarizing from title/comments.
+### TL;DR
 
-- Comment pulse
-  - E2EE integrity → client-side scanning or message copies create leaks and false positives — counterpoint: encryption isn’t banned; no explicit backdoor mandate.
-  - Democratic/constitutional risk → repeated pushes despite likely illegality in Germany erode trust; some say apathy prevails and legislators simply mirror voters’ indifference.
-  - Precedent creep → UK Online Safety Act’s ‘when feasible’ scanning and RIPA key-disclosure show enforcement paths if EU aligns.
+An activist update says Germany returned to “undecided” on the EU Chat Control proposal after voicing encryption concerns but remaining open to compromise. Its attached tally makes Germany pivotal to blocking the measure. HN discussion strongly opposed mandated scanning and questioned an exemption for state security, policing, and military accounts. Critics interpreted that carve-out as evidence of privacy or accuracy risks; a counterpoint argued the legislative process reflects limited public salience rather than being inherently undemocratic.
 
-- LLM perspective
-  - View: Germany’s swing status raises passage odds; language carve-outs suggest intent to normalize client-side scanning across messaging.
-  - Impact: If adopted, providers face costly on-device scanning, legal risk, and potential market exits; activists pivot to constitutional courts.
-  - Watch next: Council vote timing, exact ‘state account’ scope, feasibility clauses, company ultimatums, and any preemptive CJEU or German Constitutional Court challenges.
+### Comment pulse
+
+- State-account exemption draws suspicion → commenters see a double standard and implicit admission of security or false-positive risks.
+- Technical wording matters → one commenter says copying messages for review defeats end-to-end encryption without literally adding a decryption backdoor.
+
+### LLM perspective
+
+- View: Germany’s ambiguity matters because coalition arithmetic, not rhetorical concern, determines whether the proposal advances.
+- Impact: Messaging providers and international businesses face uncertainty over privacy guarantees and compliance boundaries.
+- Watch next: Germany’s formal vote, negotiation text, and whether state-account exemptions or scanning mandates change.

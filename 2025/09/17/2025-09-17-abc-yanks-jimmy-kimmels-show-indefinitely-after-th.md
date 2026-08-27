@@ -2,15 +2,17 @@
 
 - Score: 350 | [HN](https://news.ycombinator.com/item?id=45282482) | Link: https://www.cnn.com/2025/09/17/media/jimmy-kimmel-charlie-kirk-trump-fcc-brendan-carr
 
-- TL;DR
-  - ABC pulled Jimmy Kimmel Live indefinitely after FCC chair Brendan Carr threatened license repercussions over Kimmel’s monologue about reactions to Charlie Kirk’s killing. Nexstar and Sinclair preempted the show, amid pending deals needing FCC approval. Trump cheered; SAG-AFTRA and civil-liberties voices condemned; Democratic commissioner Anna Gomez warned of First Amendment violations. HN sees government overreach and a chilling precedent, doubts this is a ‘high watermark,’ and notes late‑night’s weakness makes networks likelier to capitulate.
+### TL;DR
 
-- Comment pulse
-  - Government coercion via FCC threat chills speech → ABC capitulated after Carr hinted at license revocation; affiliates chasing mergers had incentives.
-  - This is FCC overreach, not false-information policing → political critique on a talk show isn't within enforcement norms — counterpoint: Kimmel handed them a pretext.
-  - Late-night TV already fading → cancellations and aging audiences reduce backlash; streamers and podcasts have replaced talk shows for younger viewers.
+ABC indefinitely preempted Jimmy Kimmel’s show after his remarks about political reactions to Charlie Kirk’s killing, hours after FCC chair Brendan Carr publicly threatened regulatory action. ABC-affiliate owners Nexstar and Sinclair also refused the program; both had business awaiting government approval, though the article does not prove a quid pro quo. Sinclair demanded an apology and donation. FCC commissioner Anna Gomez and SAG-AFTRA condemned the suspension as government-enabled suppression, while President Trump celebrated it. ABC offered no detailed explanation and Kimmel did not comment.
 
-- LLM perspective
-  - View: Weaponizing license oversight to shape content sets a dangerous template, regardless of who controls the FCC.
-  - Impact: Network standards harden; affiliates preempt faster; talent self-censors; unions and civil-liberties groups mobilize.
-  - Watch next: FCC complaint outcomes, court injunctions, advertiser stances, whether ABC reinstates Kimmel or demands apology/donation conditions.
+### Comment pulse
+
+- Commenters largely view Carr’s statements as government overreach, while debating what Kimmel’s ambiguous wording actually implied.
+- Some argue declining talk-show influence made network censorship easier and predict audiences will migrate further toward podcasts and streaming.
+
+### LLM perspective
+
+- View: The timing creates a serious coercion concern, even without evidence proving why ABC or its affiliates acted.
+- Impact: Regulators’ public threats can chill lawful programming through anticipated consequences rather than formal enforcement proceedings.
+- Watch next: ABC’s rationale, Kimmel’s status, merger reviews, FCC complaints, and any legal test of Carr’s claimed authority.
