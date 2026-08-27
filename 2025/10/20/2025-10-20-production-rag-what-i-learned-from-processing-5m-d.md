@@ -2,15 +2,17 @@
 
 - Score: 278 | [HN](https://news.ycombinator.com/item?id=45645349) | Link: https://blog.abdellatif.io/production-rag-processing-5m-documents
 
-- TL;DR
-  - After scaling RAG from 100-doc prototypes to 5M+ docs, the biggest wins were: multi-query generation per thread, aggressive reranking (50→15), domain-aware chunking, injecting metadata, and routing non-RAG asks to APIs. Stack evolved to Turbopuffer, text-embedding-large-3, and Zerank; open-sourced the approach. HN debates “self-hosted” vs third‑party dependencies, endorses multi-query + hybrid BM25/RRF (or SPLADE), notes LLM rerankers’ cost, and urges search‑centric UIs and measurable business outcomes.
+### TL;DR
 
-- Comment pulse
-  - “Self-hosted” ≠ zero dependencies → running your code while using third‑party services is acceptable; air‑gapped orgs need offline stacks — counterpoint: OSS needn’t support that.
-  - Multi-query + hybrid retrieval + RRF → fixes poor user queries and technical terms; consider SPLADE; show users the interpreted intent — counterpoint: cloud RAG vendors should handle this.
-  - LLM rerankers excel but are costly → inject metadata; route non‑RAG tasks; favor search‑oriented UIs; ask for proof of efficiency gains.
+A startup founder reports that production RAG improved after replacing tutorial-style defaults with multiple conversation-aware semantic and keyword queries, parallel retrieval followed by reranking, domain-specific chunking, metadata injection, and routing requests that should bypass retrieval. The lessons come from the author’s work on millions of pages, but the post also promotes an open-source product and supplies no controlled benchmark. Commenters add that hybrid dense and sparse search, explicit user context, and measurable business outcomes matter, while questioning the project’s “self-hosted” dependency footprint.
 
-- LLM perspective
-  - View: Treat RAG as retrieval engineering; prioritize query generation, reranking, chunking. Swapping DBs/LLMs rarely rescues quality.
-  - Impact: Enterprise teams cut errors but increase latency/cost; product shifts from chat to transparent search improve trust.
-  - Watch next: Reranker/chunking benchmarks, SPLADE vs hybrid head‑to‑head, S3 Vectors/Bedrock KB GA, agentset adoption metrics.
+### Comment pulse
+
+- Practitioners recommended query variants, BM25 plus dense retrieval, reciprocal-rank fusion, and reranking rather than one embedding search.
+- Readers wanted evaluations tied to user success and clearer visibility into what context the system actually used.
+
+### LLM perspective
+
+- View: Retrieval quality is a pipeline and product-design problem, not a vector-database setting.
+- Impact: Better routing and context visibility can prevent irrelevant retrieval while making failures easier to diagnose.
+- Watch next: Demand reproducible evaluations, latency and cost data, and comparisons against simpler search baselines.

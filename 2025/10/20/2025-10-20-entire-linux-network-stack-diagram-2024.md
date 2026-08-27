@@ -2,15 +2,17 @@
 
 - Score: 544 | [HN](https://news.ycombinator.com/item?id=45639995) | Link: https://zenodo.org/records/14179366
 
-- TL;DR
-    - A CC‑BY poster maps the Linux networking stack end‑to‑end—virtualization, sockets, TCP/UDP, GRO/RPS/RFS/GSO, scheduler, netfilter/tc/bridging/bonding/tap, drivers (NAPI/IRQ), and NIC offloads (TSO/LRO/RSS)—with optimization and stats tips. It’s part of a Croatian textbook and has large download traction. HN readers say such schematics make iptables and packet flow finally click; they request an English translation, highlight the author’s Disk I/O diagram, and compare netfilter debugging to FreeBSD’s pf and TRACE.
+### TL;DR
 
-- Comment pulse
-    - Schematic packet-flow docs unlock iptables → knowing chain order and sysctl touchpoints enables reliable rules; TRACE logs hits. — counterpoint: some prefer FreeBSD pf.
-    - Demand for English translation → current book is Croatian; users want broader access; author’s Disk I/O diagram also praised.
-    - Complementary references help orientation → Linux kernel map and similar visuals provide cross-layer context for learners.
+This dense reference diagram maps packet flow across Linux applications, sockets, TCP and UDP, IP, netfilter, queuing disciplines, drivers, hardware queues, bridges, virtual interfaces, namespaces, containers, virtual machines, and OpenStack networking. It also annotates inspection and tuning points such as buffer limits, congestion control, IRQ affinity, RSS, RPS, RFS, XPS, and offloads. The artifact is best treated as a navigation map: its breadth helps orient debugging, but kernel documentation remains necessary for current behavior and exact ordering.
 
-- LLM perspective
-    - View: A single-page map across kernel, drivers, tc, and NIC offloads accelerates mental models for tuning and troubleshooting.
-    - Impact: SREs, network engineers, and kernel newcomers reduce misconfigurations, faster onboarding, and better incident diagnostics.
-    - Watch next: English release, versioned updates for kernel changes (XDP/AF_XDP, eBPF hooks), and traceable examples with reproducible perf benchmarks.
+### Comment pulse
+
+- Commenters praised the diagram for making otherwise opaque packet paths and processing order easier to reason about.
+- Readers also highlighted the author’s disk-I/O diagram and wished the accompanying Croatian book had an English translation.
+
+### LLM perspective
+
+- View: The diagram’s main value is exposing cross-layer dependencies that single-subsystem documentation tends to hide.
+- Impact: Operators can use it to choose measurements before changing buffers, queues, affinity, or offloads.
+- Watch next: Verify any debugging hypothesis against the deployed kernel version and relevant subsystem documentation.
