@@ -3,14 +3,17 @@
 - Score: 210 | [HN](https://news.ycombinator.com/item?id=46353777) | Link: https://dfarq.homeip.net/the-biggest-crt-ever-made-sonys-pvm-4300/
 
 ### TL;DR
-Sony’s PVM‑4300/KV‑45ED1 was a 45‑inch Trinitron tube (43‑inch viewable), the largest conventional CRT ever sold, hand‑built in tiny numbers around 1989–90 and retailing for about $40,000 in the US. It used IDTV “improved definition” processing to de‑interlace broadcast signals, bridging the gap before HDTV. The article recounts its almost mythical status, then how YouTuber Shank Mods tracked down a surviving restaurant unit in Japan and orchestrated a complex international rescue.
+
+Sony’s 1989 KV-45ED1, exported as the PVM-4300, used a hand-built 45-inch Trinitron tube with 43 visible inches, weighed about 450 pounds, and reportedly could not pass through a standard doorway. Its improved-definition processing buffered and interpolated interlaced frames, while the US price reached $40,000—about eight times Sony’s next model. Production and sales numbers remain unclear, but a unit from a Japanese restaurant was rescued and shipped to an American retro enthusiast in 2024. HN celebrated that recovery while recalling CRT weight, obsolescence, and lethal stored voltages.
 
 ### Comment pulse
-- Shank Mods’ rescue videos are the star → they show the restaurant unit’s frantic removal, shipment to the US, and premium‑spec hardware details.  
-- CRTs are physically and electrically dangerous → commenters recount near‑electrocutions from charge and glass explosions, stressing proper discharge procedures and caution—counterpoint: nostalgia can obscure these risks.  
-- Heft and image quality dominate memories → people recall lugging 70‑lb+ Trinitrons, trashing cheap floor‑model CRTs, and praising the FW900 as desktop CRT’s apex.  
+
+- Preservation feat → commenters considered the international recovery videos the real story because the set was rare, fragile, and not mass-produced.
+- Physical burden → even ordinary large CRTs required multiple movers, making a 450-pound television closer to installed furniture.
+- Safety → tubes can retain dangerous charge, implode, fall, and launch glass; unplugging alone does not make internal repair safe.
 
 ### LLM perspective
-- View: This story shows how extreme, handcrafted hardware becomes cultural mythology once only a single working specimen survives.  
-- Impact: Retro‑display enthusiasts gain a reference system for CRT motion clarity and IDTV processing that emulation and shaders can target.  
-- Watch next: Systematically measure rare CRTs, release datasets, and benchmark against OLEDs to see which legacy characteristics users actually perceive.
+
+- View: The PVM-4300 represents the extreme endpoint of picture-tube engineering, where marginal size demanded disproportionate cost and mass.
+- Impact: Surviving examples require specialist transport, electrical safety, documentation, parts, and institutions willing to preserve them.
+- Watch next: Establish production counts, surviving units, service records, exact specifications, restoration condition, and safe public display.

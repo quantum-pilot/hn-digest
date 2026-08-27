@@ -3,18 +3,16 @@
 - Score: 158 | [HN](https://news.ycombinator.com/item?id=46350641) | Link: https://github.com/ibaryshnikov/android-iced-example
 
 ### TL;DR
-This repo shows how to build real Android apps in Rust using the Iced GUI toolkit on top of `android-activity`, `winit`, and `wgpu`, with examples for both `NativeActivity` and `GameActivity`, plus partial text-input support and watch/phone demos. Hacker News sees it as a technically strong proof-of-concept that may appeal to Rust-heavy teams wanting shared core logic across platforms, but questions whether it can beat Kotlin + Jetpack Compose on tooling, accessibility, and day‑to‑day developer experience.
 
----
+A sample repository demonstrates Android applications built in Rust with Iced through NativeActivity and GameActivity. It combines Android Activity support with winit and wgpu, layering Iced onto an existing graphics pipeline because Iced lacks direct Android support. The examples build through cargo-ndk and include phone and watch previews. Text input remains incomplete: soft-keyboard resizing, language switching, and IME are unresolved, while clipboard and keyboard visibility require Java calls. Commenters see potential for shared Rust code but emphasize tooling, accessibility, and platform-integration gaps.
 
 ### Comment pulse
-- Rust UI on Android is niche → Kotlin/Compose wins on tooling, a11y, and “native feel”; Rust is attractive for shared logic and performance-sensitive apps.  
-- Ecosystem gap → winit and platform glue are undermaintained; a few funded full‑time maintainers could unlock React-Native-style Rust modules and better cross‑platform stories.  
-- Alternatives debated → Slint (Rust-friendly DSL, native, license quirks) and Dioxus (WebView/Tauri; experimental native) show same hard problems: IME, text input, and accessibility.
 
----
+- Performance-sensitive or Rust-heavy applications may benefit; typical apps retain stronger Kotlin and Compose tooling.
+- Iced currently lacks built-in accessibility, while foundational Android integration and text input need sustained maintainership.
 
 ### LLM perspective
-- View: This is best seen as infrastructure R&D, not a turnkey replacement for Kotlin/Compose yet.  
-- Impact: Most useful to Rust-first teams and libraries needing a mobile UI surface without rewriting in JVM/Swift.  
-- Watch next: Proper IME/a11y support, winit funding, and a polished template/CLI would determine whether this grows beyond enthusiasts.
+
+- View: The repository proves rendering integration, not production parity with native Android UI stacks.
+- Impact: Rust teams can prototype shared interfaces, but accessibility and IME gaps constrain deployable applications.
+- Watch next: Track GameActivity input support, accessibility semantics, lifecycle reliability, and device-wide testing.

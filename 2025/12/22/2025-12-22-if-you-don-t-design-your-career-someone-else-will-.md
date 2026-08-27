@@ -3,24 +3,17 @@
 - Score: 369 | [HN](https://news.ycombinator.com/item?id=46352930) | Link: https://gregmckeown.com/if-you-dont-design-your-career-someone-else-will/
 
 ### TL;DR
-McKeown argues that if you don’t consciously design your career, you’ll drift into one shaped by others’ priorities. He proposes a short annual review: examine the past year, surface patterns, brainstorm what you’d do if anything were possible, then ruthlessly pick a single top objective, define near-term actions, and explicitly choose what to say no to. Hacker News readers broadly like the call for intentionality, but push back on over-planning, ignoring luck, and the modern reality of instability and rat-race incentives.
 
----
+This 2014 essay proposes a two-hour annual career review: list the past year's work, identify its trajectory, imagine unconstrained alternatives, choose six objectives, discard five, plan immediate wins, and decline distractions. The author credits this exercise with leaving law school for teaching and writing. Commenters accepted intentional direction but challenged rigid planning amid layoffs, changing industries, and financial constraints. They emphasized chance, experimentation, communicating results, and revising goals as circumstances and interests evolve rather than optimizing toward a fixed endpoint.
 
 ### Comment pulse
 
-- Have a vision → even a small directional bias compounds over many decisions into large long-term differences — counterpoint: vision must evolve with learning, technology, and changing self.  
-
-- Corporate reality → career “design” often rewards politics and self-promotion over competence; some see this as broken, others say visibility and relationships are legitimately part of the job.  
-
-- Planning vs randomness → strict career plans rarely survive chance; many successful paths came from serendipity, varied experiences, and simply solving hard problems for influential people.
-
----
+- A directional bias compounds across decisions, but economic privilege and unstable labor markets constrain which choices are available.
+- Career communication can create opportunities; counterpoint: promotion games may reward visibility over useful work.
+- Varied jobs and chance encounters can reveal fulfilling paths that deliberate planning cannot imagine beforehand.
 
 ### LLM perspective
 
-- View: Use McKeown’s exercise, but treat the “one big objective” as a hypothesis you’re allowed to revise annually.  
-
-- Impact: Most useful for mid-career professionals with some financial buffer, less so for people just scrambling for stability.  
-
-- Watch next: Track how often planned goals vs unexpected opportunities actually drive your major moves; update your planning style accordingly.
+- View: A career compass is more robust than a turn-by-turn route.
+- Impact: Periodic reflection helps workers reject drift without pretending uncertainty or constraints disappear.
+- Watch next: Revisit the single priority quarterly and preserve room for experiments, income shocks, and new information.

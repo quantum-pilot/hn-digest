@@ -3,18 +3,17 @@
 - Score: 165 | [HN](https://news.ycombinator.com/item?id=46352565) | Link: https://www.bbc.com/culture/article/20251219-the-ancient-monuments-saluting-the-winter-solstice
 
 ### TL;DR
-Ancient builders across the Northern Hemisphere created tombs, stone circles, and temples precisely aligned with the winter solstice sunrise or sunset, using them as both survival tools (seasonal calendars for hunting and farming) and potent symbols of death, rebirth, and the cyclical year. Sites like Maeshowe, Stonehenge, Newgrange, and La Roche aux Fées channel midwinter light into dark chambers. Modern land-art works—Sun Tunnels, Roden Crater, Enoura Observatory—revive this solar alignment, reconnecting viewers to cosmic rhythms amid industrialized, climate-stressed life. Hacker News readers add personal encounters with such alignments, modern “daylight tools,” and global variants like India’s Konark Sun Temple.
 
----
+Across the Northern Hemisphere, ancient structures frame midwinter sunlight: Orkney’s roughly 4,800-year-old Maeshowe tomb channels sunset down its corridor, while Stonehenge, Newgrange, Callanish, and Brittany’s La Roche aux Fées create related alignments. Such monuments may have combined seasonal survival knowledge with rituals of darkness, renewal, and cyclical time. Modern artists Nancy Holt, James Turrell, and Hiroshi Sugimoto revive solar calibration to reconnect built space with landscape and cosmic scale. HN readers shared living solstice gatherings, protected local stones, global temples, and daylight-tracking tools.
 
 ### Comment pulse
-- Ancient alignments feel commonplace in parts of Europe → residents casually live next to 2,000‑year‑old solstice stones and can ring the local archaeologist—counterpoint: US readers note a stark lack of very old sites.
-- Modern communities still show up → small informal solstice gatherings at Ales Stenar contrast with thousands flocking to Stonehenge’s sunrise each year.
-- Tech and geography reshape the idea → people build daylight visualizers, compare with Manhattanhenge, and discuss Konark Sun Temple, noting solstice significance varies strongly by latitude.
 
----
+- Living continuity → small uncoordinated gatherings still watch solstice alignments, turning archaeological sites into recurring communal rituals.
+- Local heritage → ordinary boundary stones can conceal protected astronomical monuments, especially in long-settled European landscapes.
+- Modern translation → daylight clocks and urban alignments preserve the practical urge to visualize seasonal light without monumental construction.
 
 ### LLM perspective
-- View: Solstice monuments show a recurring human impulse to anchor meaning and timekeeping in the observable sky, across eras and technologies.
-- Impact: They can inform heritage preservation, tourism, public art, and even urban design that respects solar paths and seasonal awareness.
-- Watch next: Systematic surveys of alignments, AR/VR reconstructions of solstice events, and city projects that intentionally build new “henge” moments.
+
+- View: Solar alignment joins measurement and meaning, making architecture a durable calendar that communities can physically experience.
+- Impact: Preservation protects not just stonework but sightlines, landscapes, recurring gatherings, and knowledge of seasonal observation.
+- Watch next: Compare archaeological dating, alignment precision, ritual evidence, horizon changes, access pressures, and conservation of solar corridors.

@@ -3,18 +3,16 @@
 - Score: 264 | [HN](https://news.ycombinator.com/item?id=46355165) | Link: https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md
 
 ### TL;DR
-Claude Code’s latest release adds a native Language Server Protocol (LSP) tool, letting the agent call language servers for go‑to‑definition, find‑references, and hover docs directly from its CLI/desktop environment. HN sees this as a crucial step toward compiler- and LSP-backed refactoring instead of brittle search/replace, but notes that current support is hidden behind plugins, under-documented, and far from deep mutation tooling. Discussion branches into JetBrains/Microsoft underusing their powerful refactoring engines, open-source alternatives like OpenCode, and whether agents belong in CLIs or IDEs.
 
----
+Claude Code 2.0.74 adds a Language Server Protocol tool for go-to-definition, reference finding, and hover documentation, alongside terminal support, syntax-highlighting controls, and several fixes. The changelog does not detail language coverage, triggering behavior, or setup. Commenters report discovering language servers through the plugin manager but describe documentation and installation as unclear. They welcome deterministic code intelligence, while arguing that semantic refactoring and compiler-backed transformations would matter more than read-only navigation when agents rename symbols or restructure large codebases.
 
 ### Comment pulse
-- Real opportunity is compiler/LSP-powered refactoring → analyzers like Roslyn or JetBrains can do precise, global transformations that current agents approximate with fragile text edits.  
-- Claude Code + LSP/deterministic codemods excites users → they’re already gluing in tools like Rope, but today’s LSP integration feels hard to discover and configure.  
-- Debate: CLI vs IDE agents → terminal form factor is editor-agnostic, scriptable, and “orchestration-first,” while IDEs give richer UIs and already have LSP wired in. — counterpoint: IDE agents rarely expose that info to models.
 
----
+- LSP access should reduce missed references, but readers want mutation-safe refactors rather than smarter lookup alone.
+- CLI users value editor independence; critics note IDE agents and competing tools already offered comparable integration.
 
 ### LLM perspective
-- View: Next leap is agents issuing structured refactor commands to compilers/LSPs, not editing source text directly.  
-- Impact: Large, long-lived codebases benefit most; safer sweeping changes and fewer review cycles.  
-- Watch next: First end-to-end “agent + refactor API” stacks (e.g., Roslyn/TypeScript/Go) with benchmarks on correctness over huge repos.
+
+- View: Semantic lookup is foundational, but reliable transformation is the higher-value capability.
+- Impact: Agents can navigate large repositories with less textual guessing, potentially shrinking context and review errors.
+- Watch next: Verify supported servers, invocation transparency, refactoring commands, and measurable rename accuracy.

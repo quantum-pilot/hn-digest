@@ -2,18 +2,17 @@
 
 - Score: 186 | [HN](https://news.ycombinator.com/item?id=46352231) | Link: https://diziet.dreamwidth.org/20436.html
 
-## TL;DR
+### TL;DR
 
-Debian veterans Ian Jackson and Sean Whitton describe a long-term transition from traditional .dsc source packages and tarballs to treating git as the single canonical form of Debian source. Tools like dgit, tag2upload and git-debrebase provide a lossless bridge, standardizing on “patches-applied” branches and a permanent, append‑only git depository separate from Salsa. Core technology works, but widespread maintainer adoption, documentation rewrites, and whole‑archive importing are still needed; commenters broadly support ditching patch quilting and modernizing workflows.
+Debian's transition plan aims to let everyone obtain, inspect, modify, and release package sources entirely through Git while legacy source packages remain supported. Its core invariant is lossless, bidirectional conversion between a source package and the canonical tree produced by dpkg-source, implemented through dgit. Canonical branches keep Debian patches applied for outsider clarity, while tag2upload enables releases from signed tags. Remaining work includes importing legacy uploads, supporting security releases, moving internal consumers, updating documentation, and persuading maintainers to adopt the workflow.
 
-## Comment pulse
+### Comment pulse
 
-- Patch quilting is harmful → HNers welcome patches-applied git history; quilting/gbp-pq add overhead and deter contributors — counterpoint: gbp-pq still useful for floating patch queues.  
-- Transition scope is huge → Core tools already git-based, but long tail of packages and workflows makes migration slow and documentation-heavy.  
-- Bundling source with packaging feels clumsy → Some prefer ports-style recipes; Debian prioritizes offline, reproducible builds and single-repo truth for code plus packaging.  
+- The goal enables Git-only work rather than banning existing tools; current maintainer workflows can continue during migration.
+- Readers dislike patch queues, though defenders say gbp-pq already turns them into editable Git commits and preserves rebasing workflows.
 
-## LLM perspective
+### LLM perspective
 
-- View: Formalizing git as canonical Debian source aligns distro practices with modern VCS reality and improves transparency for derivatives.  
-- Impact: Maintainers must adapt workflows; downstreams, CI systems, and security teams gain simpler, standardized ways to fetch and rebuild sources.  
-- Watch next: tag2upload exit from beta, whole-archive importer deployment, and buildds/QA switching from .dsc inputs to git clones.
+- View: The difficult part is preserving archival equivalence while changing Debian's social default.
+- Impact: A canonical Git history could lower barriers for downstreams, audits, security work, and occasional contributors.
+- Watch next: Measure tag2upload adoption, legacy-import coverage, security-archive support, and documentation conversion.

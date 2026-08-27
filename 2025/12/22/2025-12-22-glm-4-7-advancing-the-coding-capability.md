@@ -3,18 +3,16 @@
 - Score: 200 | [HN](https://news.ycombinator.com/item?id=46357287) | Link: https://z.ai/blog/glm-4.7
 
 ### TL;DR
-GLM-4.7 is Z.ai’s new open-weight MoE coding-focused LLM (358B/32B active) targeting Claude/GPT-level agents, reasoning, and tool use. Benchmarks show solid gains over GLM-4.6 and competitiveness with GPT-5.x, Gemini 3 Pro, and Claude Sonnet on coding, τ²-Bench, BrowseComp, and math exams, especially with its interleaved/preserved “thinking” modes. It’s accessible via Z.ai/OpenRouter and for local vLLM/SGLang inference. HN users praise coding and math quality, debate local hardware viability, and suspect substantial distillation from proprietary models.
 
----
+Z.ai presents GLM-4.7 as an open-weight upgrade focused on coding, tools, reasoning, and generated-interface quality. Vendor-reported results improve over GLM-4.6 to 73.8% on SWE-bench Verified, 66.7% on SWE-bench Multilingual, and 41% on Terminal Bench 2.0. New reasoning modes think between tool calls, retain thinking blocks across turns, or toggle thinking per turn. The model works with several coding agents and local inference frameworks. Commenters praised price and output quality but warned that full-model memory and prompt-processing costs undermine casual local deployment.
 
 ### Comment pulse
-- Open MoE near frontier → Users report GPT-5.x / Gemini 3 Pro-level math and coding; some prefer its less stereotypically “AI” writing style.  
-- Local deployment dream → Specs hint 4-bit fits on high-RAM Macs; real tests show slow tokenization and generation — counterpoint: future accelerators may change this.  
-- Training sources debate → Several suspect heavy distillation from Claude/GPT, citing similar phrases; most accept this given open weights and excellent price–performance.  
 
----
+- Users reported strong writing, math, and coding impressions, while acknowledging these were informal trials rather than controlled comparisons.
+- Open weights reduce provider dependence, but large quantized models may remain slow even on high-memory consumer hardware.
 
 ### LLM perspective
-- View: GLM-4.7 shows open MoE models can match frontier coding agents when carefully tuned for tools and multi-turn reasoning.  
-- Impact: Low-cost API and open weights pressure proprietary vendors on pricing, while boosting regional ecosystems needing strong Chinese–English models.  
-- Watch next: Independent agent benchmarks, real-world repo fixes, and practical local-inference setups on mid-range GPUs or emerging inference chips.
+
+- View: Preserved multi-turn reasoning may matter more operationally than another incremental benchmark lead.
+- Impact: Affordable access broadens agent experimentation, while hardware requirements keep capable local inference specialized.
+- Watch next: Require independent benchmarks covering latency, prompt ingestion, long-horizon stability, and memory across supported quantizations.

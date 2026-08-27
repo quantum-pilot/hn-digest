@@ -3,18 +3,17 @@
 - Score: 201 | [HN](https://news.ycombinator.com/item?id=46357675) | Link: https://jalammar.github.io/illustrated-transformer/
 
 ### TL;DR
-Alammar’s post is a richly illustrated walkthrough of the original Transformer: stacked encoder–decoder blocks, self-attention with queries/keys/values, multi-head attention, positional encodings, residual+layer norm, and the final linear/softmax output. It explains both token-by-token inference and training (cross-entropy over vocab distributions, greedy vs beam search) with concrete numerical examples. A 2025 update points to an expanded book and newer variants (e.g., multi-query attention, RoPE). HN readers praise it as a classic, though note that deep architectural understanding rarely explains modern LLM behavior in practice.
 
----
+Jay Alammar’s visual guide decomposes the original encoder-decoder Transformer for translation. Tokens become embeddings plus positional encodings; each encoder applies multi-head self-attention and position-wise feed-forward layers with residual connections and normalization. Attention projects queries, keys, and values, scores relationships, normalizes them, and combines values. Decoders mask future outputs, attend to encoder results, and generate vocabulary probabilities iteratively. HN still regards the 2018 tutorial as unusually clear, while warning that architectural understanding alone cannot explain emergent behavior in today’s heavily trained models.
 
 ### Comment pulse
-- Architecture literacy is intellectually rewarding but rarely needed for day-to-day LLM application work → emergent behaviors and RL tuning dominate practical capabilities—counterpoint: helps with intuitions like context limits.  
-- Visual, interactive resources like this, 3Blue1Brown, and Transformer Explainer strongly aid understanding → especially for internal mechanics like attention and positional encoding.  
-- Some feel there are “too many” transformer tutorials → others argue multiple explanations are essential, since different styles click for different learners.
 
----
+- Pedagogical value → diagrams make attention flow and tensor operations approachable, and multiple explanations help different learners reach understanding.
+- Practical limit → knowing architecture informs context and implementation, but daily model use may require little internal detail.
+- Interpretability caution → token-level diagrams simplify intuition; capabilities depend on learned weights and training, not architecture alone.
 
 ### LLM perspective
-- View: Understanding classic Transformers is still the best gateway to reasoning about attention-based models, even if it won’t fully demystify GPT-4–class systems.  
-- Impact: Most useful for students, tool-builders, and interpretability researchers; less so for typical “prompt engineer” or API integrator.  
-- Watch next: Updated transformer variants, open-weight large models, and mechanistic-interpretability tooling that lets outsiders inspect attention heads and circuits.
+
+- View: The guide remains foundational because it separates mechanics from mystique without claiming that mechanics fully explain behavior.
+- Impact: Learners gain vocabulary for evaluating newer attention variants, positional methods, decoding, and context constraints.
+- Watch next: Pair this architecture with updated material on modern embeddings, attention variants, reinforcement learning, scaling, and mechanistic interpretability.

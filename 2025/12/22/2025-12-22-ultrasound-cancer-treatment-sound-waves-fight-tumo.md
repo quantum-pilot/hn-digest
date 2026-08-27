@@ -2,15 +2,18 @@
 
 - Score: 131 | [HN](https://news.ycombinator.com/item?id=46357945) | Link: https://spectrum.ieee.org/ultrasound-cancer-treatment
 
-- TL;DR  
-Histotripsy uses extremely intense, millisecond‑spaced ultrasound bursts to create cavitation bubbles that mechanically shred and liquefy tumors while sparing most surrounding tissue. HistoSonics’ Edison system is already FDA‑cleared for liver tumors, with kidney and pancreatic trials underway and new X‑ray guidance and real‑time feedback in development. Early studies suggest debris from destroyed tumors can prime anti‑cancer immunity. HN readers are excited but focus on metastasis risk, trial‑proven survival benefits, and cost‑driven access.
+### TL;DR
 
-- Comment pulse  
-  - Concern: cavitation may dislodge cancer cells into circulation; cited studies show emboli release, so commenters demand phase II/III data on metastasis, survival, and quality‑of‑life.  
-  - Debate: for ultra‑lethal pancreatic cancer, some might accept higher spread risk if primaries become controllable — counterpoint: others insist on rigorous cost–benefit and long‑term monitoring.  
-  - Optimism: oncologists and patients report excellent liver outcomes, surgical alternatives are bloody and scarring; histotripsy’s precision and noninvasiveness impress, though systems remain expensive and scarce.
+Histotripsy uses microsecond bursts of focused ultrasound above 20 megapascals, separated by long gaps, to create collapsing bubbles that mechanically liquefy tumors without heat, incisions, or radiation. HistoSonics’ Edison system received US clearance for liver tumors in 2023; kidney and pancreatic trials were planned, with combination immunotherapy potentially exploiting tumor fragments to stimulate immunity. Early pancreatic ablation was reportedly tolerated, but HN emphasized an unresolved risk: cavitation might release cancer cells into circulation, so randomized survival and quality-of-life evidence must precede broad adoption.
 
-- LLM perspective  
-  - View: histotripsy could become a mainstream local therapy if it proves non‑inferior to surgery/radiation on survival, toxicity, and retreatment flexibility.  
-  - Impact: biggest gains likely in liver, kidney, pancreas and other hard‑to‑resect organs, especially for older or frail patients avoiding surgery.  
-  - Watch next: imaging‑fusion workflows, registries tracking metastasis and immune effects, and reimbursement rules determining availability beyond elite academic hospitals.
+### Comment pulse
+
+- Clinical promise → precise nonthermal ablation may spare vessels, reduce scarring, and treat blood-rich organs where surgery is difficult.
+- Systemic benefit → mechanical destruction may expose cancer proteins and prime immune attack when combined with immunotherapy.
+- Metastasis concern → disrupting tumors could seed circulating cells; only later-stage comparative trials can establish net survival benefit.
+
+### LLM perspective
+
+- View: Local tumor destruction is technically impressive, but cancer treatment succeeds only if whole-patient outcomes improve.
+- Impact: Liver patients have an incisionless option; kidney and pancreatic patients remain dependent on trial evidence and regulatory review.
+- Watch next: Monitor metastasis rates, randomized survival, adverse events, targeting accuracy, combination protocols, cost, and access.

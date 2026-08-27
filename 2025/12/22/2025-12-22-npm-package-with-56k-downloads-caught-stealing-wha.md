@@ -3,14 +3,17 @@
 - Score: 154 | [HN](https://news.ycombinator.com/item?id=46359996) | Link: https://www.koi.ai/blog/npm-package-with-56k-downloads-malware-stealing-whatsapp-messages
 
 ### TL;DR
-An npm package named `lotusbail` posed as a fork of the popular WhatsApp Web client library Baileys and racked up 56k downloads while secretly acting as full‑featured spyware. It transparently proxied WhatsApp Web traffic to work as advertised, but also captured auth tokens, every message, contacts, and media, then used custom RSA/AES and heavy obfuscation to exfiltrate data and install a persistent paired-device backdoor. The writeup frames this as a supply-chain pattern that static checks and reputation can’t reliably catch, sparking debate about package managers, platform lock‑downs, and developer responsibility.
+
+Koi Security alleges that `lotusbail`, a functioning fork of the Baileys WhatsApp Web client with 56,000 downloads, secretly captured credentials, messages, contacts, and media. The package allegedly wrapped WebSockets, obscured its exfiltration server through multiple encoding and encryption layers, installed persistent account access through a hidden pairing code, and used 27 anti-debugging traps. Removing the package would not unlink the attacker’s device. HN treated this as another unreviewed-dependency failure, while noting the report comes from a security vendor and the package was malicious from inception, not compromised later.
 
 ### Comment pulse
-- Lockdowns hurt users → Platforms respond by tightly siloing data; without official, granular APIs, developers resort to sketchy clients and users lose reliable backup/interop options.  
-- Package ecosystems feel structurally risky → Late‑fetched deps, global tools, random Docker images and curl | sh create unaudited surfaces; engineers admit weak supply‑chain hygiene.  
-- Who’s responsible? → Some expect npm/GitHub stewardship and fear lawsuits; others argue open‑source code is caveat emptor and auditing remains each downstream developer’s duty.  
+
+- Trust failure → functional code, download counts, and convenient package installation encourage deployment without auditing behavior or provenance.
+- Ecosystem scope → late-fetched dependencies amplify risk — counterpoint: vendoring or direct Git references would not sanitize intentionally malicious code.
+- Access design → granular official APIs might reduce reverse-engineered clients, while complete lockdown sacrifices legitimate backup and interoperability.
 
 ### LLM perspective
-- View: Functional, targeted malware in popular libraries is now normal; treating third‑party code as trusted by default is indefensible.  
-- Impact: Teams should treat dependency selection as security‑critical: SBOMs, pinning, vendoring, and runtime anomaly detection become baseline, not “nice‑to‑have” extras.  
-- Watch next: Watch for IDEs and CI systems integrating behavioral sandboxing of dependencies, plus stronger identity and signing requirements for package authors.
+
+- View: Working functionality is an effective malware cover because testing validates the advertised path, not hidden side effects.
+- Impact: Affected users must remove the package and manually revoke linked WhatsApp devices to end persistent access.
+- Watch next: Seek independent analysis, registry removal, incident reports, indicators of compromise, maintainer identity, and reproducible behavioral detections.

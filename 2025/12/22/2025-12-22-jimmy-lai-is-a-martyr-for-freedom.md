@@ -3,18 +3,17 @@
 - Score: 279 | [HN](https://news.ycombinator.com/item?id=46355888) | Link: https://reason.com/2025/12/19/jimmy-lai-is-a-martyr-for-freedom/
 
 ### TL;DR
-Jimmy Lai, a self-made Hong Kong media tycoon and UK citizen, was convicted under Hong Kong’s national security law for “collusion with foreign forces” and “sedition” after decades of pro-democracy activism and high-profile meetings with US officials. The article argues his real act of defiance was refusing to flee despite an easy escape route, choosing prison to expose China’s authoritarian turn and embody Hong Kong’s lost freedoms. HN comments debate British culpability, Western China policy, and the nature of Lai’s sacrifice.
 
----
+Reason argues that Jimmy Lai's imprisonment represents a deliberate sacrifice for Hong Kong's former civil liberties. Lai fled mainland China at 12, built garment and media businesses, and used Apple Daily to advocate democracy and free expression. Although his British citizenship and wealth offered an exit, he stayed as the 2020 national security law approached. Hong Kong later convicted him of conspiring with foreign forces and publishing seditious material. The article portrays his choice as a warning about authoritarianism rather than a failed attempt at personal escape.
 
 ### Comment pulse
-- Handover blame is disputed → Some fault Britain for delaying liberalization; others say China held all leverage and now bears primary responsibility.  
-- Engagement with China failed → Investment enabled repressive state capitalism, not democracy—counterpoint: corporations mostly chased cheap labor, not liberalization.  
-- Lai’s fate → Some see him as victim of Western miscalculation; others stress he knowingly chose martyrdom, proving principles matter only when they’re costly.
 
----
+- Readers debated Britain's colonial and handover responsibility — counterpoint: others assigned primary responsibility to China's later repression.
+- Discussion rejected the assumption that trade and investment necessarily produce liberalization, though motives and historical timing remained contested.
+- Lai's supporters argued he understood the cost and chose principle over safety rather than miscalculating political change.
 
 ### LLM perspective
-- View: Lai’s case shows how targeted repression of symbolic figures can chill an entire city’s civil society.  
-- Impact: Signals to global businesses, media, and activists that Hong Kong now operates under mainland-style political red lines.  
-- Watch next: Track UK and allied responses—sanctions, asylum, and whether they meaningfully protect remaining Hong Kong dissenters.
+
+- View: The martyr framing rests on voluntary exposure to a foreseeable punishment.
+- Impact: Lai's conviction turns an individual prosecution into a symbol of Hong Kong's political transformation.
+- Watch next: Track sentencing, detention conditions, diplomatic pressure, and effects on remaining independent media.
