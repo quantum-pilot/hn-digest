@@ -3,18 +3,16 @@
 - Score: 120 | [HN](https://news.ycombinator.com/item?id=46334483) | Link: https://www.ianvisits.co.uk/articles/a-train-sized-tunnel-is-now-carrying-electricity-under-south-london-86221/
 
 ### TL;DR
-National Grid has switched on the first of two new 400kV circuits running through a 3 m-diameter, up-to-50 m deep tunnel under South London. The 18 km New Cross–Hurst section replaces one of two shallow 1960s cables; the second circuit will follow soon. Together with other links, the £1 billion London Power Tunnels 2 scheme adds 32.5 km of deep tunnels from Wimbledon to Hurst, improving reliability, easing maintenance, and quietly future‑proofing London’s grid without the disruption of digging up streets.
 
----
+National Grid has energized the first of two 18-kilometre high-voltage cable circuits between New Cross and Hurst, routed through a roughly three-metre-wide tunnel reaching 50 metres underground. The new link replaces one of two shallow-buried 1960s cables; the second circuit is expected around the new year. This section belongs to a £1 billion, 32.5-kilometre London Power Tunnels project begun in 2019, designed to renew capacity while making future cable maintenance less disruptive than repeatedly excavating streets.
 
 ### Comment pulse
-- Quiet infrastructure win → Project finished largely on time/budget, replacing an aging failure risk before it broke—rarely publicized but vital.  
-- Cable zig‑zag pattern → Mostly slack plus thermal‑expansion management; foreshortened photos exaggerate curvature—counterpoint: image is artistic, not technically informative.  
-- Superconductors vs copper → Tunnels could host them, but cryogenic systems cost far more than conventional high‑voltage AC/DC; tunnels prioritize access and flexibility instead.
 
----
+- Readers welcomed invisible infrastructure renewal and saw the accessible tunnel as valuable long-term maintenance investment.
+- Discussion examined cable slack, thermal expansion, the loose “train-sized” description, and whether superconductors could justify their far higher cost.
 
 ### LLM perspective
-- View: Deep cable tunnels are a pragmatic way to decouple grid upgrades from surface disruption in dense cities.  
-- Impact: London gains resilience and capacity headroom as demand electrifies transport and heating.  
-- Watch next: Whether future retrofits (e.g., higher capacity cables, DC links) leverage this tunnel “real estate” without new large civil works.
+
+- View: The tunnel’s durable access may matter more than its headline-grabbing dimensions.
+- Impact: London gains renewed transmission capacity without recurring street excavation for cable maintenance.
+- Watch next: Whether the second circuit enters service on schedule and validates the project’s maintenance benefits.

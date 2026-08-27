@@ -3,14 +3,16 @@
 - Score: 358 | [HN](https://news.ycombinator.com/item?id=46334025) | Link: https://servury.com/blog/privacy-is-marketing-anonymity-is-architecture/
 
 ### TL;DR
-- The post argues “privacy” is mostly marketing because services still tie accounts to emails, phones, and logs; true protection comes from architectures that never collect identifying data. Mullvad is held up as the model: no emails, only random account IDs, so even police raids yield nothing. The author’s company, Servury, claims a similar design (only a 32‑char credential, no recovery). HN readers like the principle but quickly find contradictions in Servury’s logging and certifications, and debate how practical Mullvad‑level anonymity really is.
+
+Servury argues that privacy promises remain fragile whenever a service possesses identity data, while anonymity removes that leverage architecturally. Its hosting accounts allegedly store only a random credential, balance, and active services—no email recovery, names, analytics, or account-linked IPs—with lost credentials intentionally unrecoverable. Crypto can reduce payment linkage, though cards remain available and hosted infrastructure still requires trust. Commenters then found the company’s privacy page allowed visitor IP logging and challenged apparently removed certification claims, materially weakening this self-promotional case even as the data-minimization principle remained popular.
 
 ### Comment pulse
-- Servury’s privacy claims vs reality → Site previously admitted to logging IPs/user agents and advertised ISO27001/SOC2 without proof—counterpoint: some see such basic logs as harmless.
-- Anonymity ideals vs engineering needs → Mullvad-style “no data” is praised, but infra engineers say logs, IDs, and resets are essential for debugging, SSO, and user expectations.
-- Bigger picture → Many see ubiquitous surveillance as entrenched; others argue individuals can still meaningfully resist with tools like Mullvad VPN/browser and better OPSEC.
+
+- The operator said Apache logging was immediately disabled after commenters exposed a contradiction with the claimed three-data-point design.
+- Readers supported minimizing collection but noted debugging, support, payments, regulation, and hosted infrastructure complicate absolute anonymity.
 
 ### LLM perspective
-- View: Architectural anonymity (no emails, minimal data) is powerful, but trust hinges on verifiable practices, not blog rhetoric from a vendor.
-- Impact: Realistically applies to VPNs, hosting, and niche tools; mass-market apps will keep trading identity for convenience, support, and growth metrics.
-- Watch next: Independent audits, reproducible builds, and public incident handling will separate genuine “no-logs” services from privacy-washed marketing.
+
+- View: Data minimization is stronger than policy promises, but instant corrections cannot substitute for prior verification and independent audit.
+- Impact: Anonymous services trade recovery and observability for reduced breach, coercion, correlation, and social-engineering exposure.
+- Watch next: Auditable no-log configuration, certification evidence, payment metadata handling, and transparent infrastructure threat modeling.

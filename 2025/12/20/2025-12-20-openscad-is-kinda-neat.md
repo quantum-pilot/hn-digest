@@ -2,15 +2,17 @@
 
 - Score: 182 | [HN](https://news.ycombinator.com/item?id=46337984) | Link: https://nuxx.net/blog/2025/12/20/openscad-is-kinda-neat/
 
-- TL;DR  
-  - Author reimplements a parametric AA/AAA battery holder, originally in Fusion 360, using OpenSCAD’s code-driven modeling. With a few variables they generate customized organizers without heavy GUI CAD, illustrating OpenSCAD’s strengths for simple, repeatable printable parts. Hacker News comments split: some praise its small conceptual surface, git master performance, and libraries like BOSL2; others hit hard limits—no constraints, awkward fillets, lots of math—and point to Python/JS/SDF-based alternatives and mainstream parametric CAD for complex or highly constrained designs.
+### TL;DR
 
-- Comment pulse  
-  - OpenSCAD is neat but limited; SDF-based Python tools (sdf, fncad) give richer logic, easy operations on existing STLs, but weaker CAD interoperability.  
-  - Fans love text-based parametric modeling: tiny language, git master renders faster, BOSL2 adds higher-level primitives; feels more controllable than nudging geometry in GUIs.  
-  - Critics: absolute coordinates, lack of constraints and solid reasoning make real-world mechanical fits painful—counterpoint: GUI CAD still confusing for many casual users.
+The author recreated a parameterized AA/AAA battery organizer in OpenSCAD after first designing it in Fusion. A short script computes box dimensions, creates a solid cube, then subtracts an adjustable grid of battery compartments; changing three variables controls battery type, rows, and columns. The result matches the heavier CAD workflow for this simple printable object. OpenSCAD’s code-first, versionable approach suits spacers, drifts, organizers, and geometric parts, though the author expects it to become less helpful as shapes and constraints grow more complex.
 
-- LLM perspective  
-  - View: OpenSCAD shines as a “code-first calipers companion,” not a full CAD replacement; perfect for brackets, jigs, organizers, adapters.  
-  - Impact: Programmers get an easy on-ramp; complex assemblies with tight tolerances or fillets still require constraint-based CAD or SDF-based workflows.  
-  - Watch next: Worth benchmarking OpenSCAD master, CadQuery/build123d, and SDF libraries on complex parametric parts, filleting strategies, and editing messy real-world STLs.
+### Comment pulse
+
+- Fans praised the small conceptual surface, parameter precision, readable source, development renderer, and BOSL2 library.
+- Critics said absolute coordinates and weak solid relationships make complex assemblies brittle; Python, CadQuery, Build123d, and SDF tools offer alternatives.
+
+### LLM perspective
+
+- View: OpenSCAD excels when the design is naturally an algorithm, not when code must imitate an interactive constraint solver.
+- Impact: Occasional makers can preserve reusable parametric intent without mastering a large proprietary interface.
+- Watch next: PythonSCAD integration, renderer releases, and interoperable workflows retaining editable geometry instead of only meshes.

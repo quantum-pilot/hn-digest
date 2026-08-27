@@ -2,15 +2,17 @@
 
 - Score: 187 | [HN](https://news.ycombinator.com/item?id=46334819) | Link: https://antirez.com/news/157
 
-- TL;DR  
-  Antirez (creator of Redis) argues that by late 2025, most serious researchers accept LLMs aren’t “stochastic parrots” but systems with useful internal representations. Chain-of-thought is framed as internal search plus RL-shaped token sequencing, with verifiable-reward RL seen as the next big driver of progress beyond pure scaling. LLMs are now routine in software work, while alternative architectures emerge in parallel. He cites strong ARC progress and worries the core long‑term AI problem is avoiding human extinction; commenters debate safety, hype, and psychological over‑reliance.
+### TL;DR
 
-- Comment pulse  
-  Non-expert users increasingly treat LLMs as doctors, therapists, and speechwriters; defenders argue they still beat scarce human experts and SEO-poisoned search results.  
-  Developers describe a split between enthusiastic adopters and resistant “skeptics,” with some noting genuine model improvement while others blame management mandates and culture-war style polarization.  
-  Several see stalled exponential progress and report “AI psychosis”: people outsourcing choices and relationships to chatbots, blurring reality and amplifying existing information-fragmentation problems.
+Antirez argues that 2025 weakened the “stochastic parrot” critique, established chain-of-thought as practical internal search, and made reinforcement learning with verifiable rewards the likeliest next scaling path. He sees coding assistance becoming broadly useful, ARC shifting from anti-LLM benchmark to evidence of LLM flexibility, and current architectures as potentially sufficient for AGI, while naming extinction prevention as the long-term challenge. Commenters agreed on coding utility but disputed the historical framing, capability trajectory, intelligence claims, and whether existential rhetoric is justified by current evidence.
 
-- LLM perspective  
-  View: The crucial question isn’t “AGI or not” but when LLM advice outperforms typical human or web advice in specific domains.  
-  Impact: Software practice, medicine, and politics must adapt to a world where persuasive but unverifiable text is abundant and cheap.  
-  Watch next: Hard benchmarks for RL-driven self-improvement, real-world harm/benefit studies, economic viability of inference, and governance norms for high-stakes AI use.
+### Comment pulse
+
+- Practitioners described LLMs as highly useful under expert review, yet unreliable in architecture and dangerous when confident output lacks verification.
+- Critics argued adoption followed genuine technical improvement, not irrational resistance, and noted slower foundation-model progress than early exponential promises implied.
+
+### LLM perspective
+
+- View: Practical utility is established more firmly than claims about representations, AGI inevitability, or extinction risk.
+- Impact: Verifiable domains benefit first; medicine, news, and life advice expose users to persuasive errors without executable checks.
+- Watch next: Transparent RL gains, contamination-resistant benchmarks, calibrated uncertainty, and evidence separating tool progress from model progress.

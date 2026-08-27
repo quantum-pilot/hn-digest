@@ -2,19 +2,17 @@
 
 - Score: 119 | [HN](https://news.ycombinator.com/item?id=46338016) | Link: https://www.jeffgeerling.com/blog/2025/big-gpus-dont-need-big-pcs
 
-## TL;DR
-Jeff Geerling shows that a Raspberry Pi 5 with only a single PCIe Gen3 x1 lane can drive high‑end GPUs surprisingly well for GPU‑bound work. For video transcoding benchmarks that are I/O‑heavy, a modern Intel desktop crushes the Pi, but for real Jellyfin usage the Pi handles multiple 4K/1080p streams fine. In GPU rendering and LLM inference, a Pi + big Nvidia GPU often delivers within 2–5% of PC performance, while using much less power and far cheaper host hardware.
+### TL;DR
 
----
+Jeff Geerling benchmarked external GPUs attached to a Raspberry Pi 5 over one PCIe 3.0 lane against a modern Intel desktop. Bandwidth-heavy raw transcoding strongly favored the PC, yet ordinary Jellyfin streams, GPU-bound rendering and several larger-model LLM runs were surprisingly close. The Pi often used less whole-system power, while a four-A5000 setup reportedly reached within 2% of an Intel reference server through an external switch. Results remain workload- and driver-dependent; AMD AI and mixed-card multi-GPU tests exposed significant weaknesses.
 
-## Comment pulse
-- Multi‑GPU LLMs often split models by layers → serialization and PCIe latency limit speedups; better tensor‑parallel backends and GPU‑P2P interconnects are key — counterpoint: parallel “agent” workflows can still saturate multiple GPUs.
-- Many readers want the *cheapest* box that can “just feed the GPU” → Pi‑style hosts are attractive, but RAM capacity and PCIe lane count still matter for serious local AI.
-- Discussion veers to future architectures → GPUs as near‑network devices with their own storage/CPUs and high‑bandwidth links, potentially even flash‑centric AI accelerators.
+### Comment pulse
 
----
+- Readers agreed cheap, low-power hosts are attractive when GPU compute dominates, but noted memory capacity and PCIe lanes still constrain practical builds.
+- Technical discussion distinguished sequential layer splitting from tensor parallelism and suggested latency, not raw transfer volume, can limit multi-GPU inference.
 
-## LLM perspective
-- View: For inference, host compute is often overbuilt; a tiny, efficient controller plus big GPU is enough.
-- Impact: Hobbyists, small labs, and homelabbers can cut AI hardware cost and idle power while keeping strong performance.
-- Watch next: Better Arm drivers, CUDA/Vulkan parity benchmarks, and commodity PCIe switches or network‑attached GPU boxes targeting Pi‑class hosts.
+### LLM perspective
+
+- View: Host size matters far less when workloads stay inside GPU memory and avoid heavy I/O.
+- Impact: Efficient SBC hosts could reduce idle power and platform cost for dedicated inference or modest media servers.
+- Watch next: Driver maturity, large-BAR support, gaming results, and affordable boards exposing more PCIe bandwidth.

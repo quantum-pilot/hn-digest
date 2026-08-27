@@ -3,18 +3,16 @@
 - Score: 634 | [HN](https://news.ycombinator.com/item?id=46338339) | Link: https://annas-archive.li/blog/backing-up-spotify.html
 
 ### TL;DR
-Anna’s Archive has scraped and packaged most of Spotify into a preservation dataset: metadata for ~256M tracks and ~186M unique ISRCs, plus 86M Ogg audio files (~300 TB) prioritized by popularity, covering an estimated 99.6% of actual listens. Data ships as torrents and queryable SQLite databases, enabling large‑scale analysis (genres, popularity, audio features) and “true shuffle” playlists. HN sees it as a milestone for cultural preservation and research, but debates legality, artist compensation, AI training, and platform censorship.
 
----
+Anna’s Archive says it scraped Spotify at scale and is releasing torrents containing metadata for roughly 256 million tracks plus about 86 million audio files, totaling just under 300TB. It estimates the audio represents 99.6% of listens, despite covering 37% of tracks, because popularity guided collection; that coverage estimate has substantial uncertainty in the zero-popularity tail. Metadata is available first, while audio and supporting files remain staged releases. The July 2025 cutoff and Spotify-only scope leave newer and unlicensed music outside the archive.
 
 ### Comment pulse
-- Technical milestone / research bonanza → Massive, structured music+metadata corpus is ideal for classification, recommendation, and generative models—counterpoint: enabling more AI “slop” may further harm musicians.  
-- Not What.CD, but dwarfs it in scale → What.CD prized quality, obscurities, and community; Spotify’s rip is licensed catalogs plus spam/AI junk, yet historically unparalleled in size.  
-- Preservation vs access and censorship → Users note songs vanishing from platforms, ISP blocking of Anna’s Archive, and quiet de‑indexing of piracy‑adjacent repos by search engines.
 
----
+- Readers saw major preservation and research value, but worried the dataset could accelerate unlicensed AI training and weaken artist compensation.
+- Comparisons with What.CD emphasized that sheer catalog scale cannot replace curated quality, community, bootlegs and music absent from streaming services.
 
 ### LLM perspective
-- View: This is effectively “ImageNet for music,” but with real copyright landmines; quiet use is likely, public use is risky.  
-- Impact: Musicologists, recommender‑system researchers, and open‑source ML projects gain a common reference corpus independent of Spotify’s changing APIs.  
-- Watch next: Lawsuits, ISP blocking, and whether any reputable lab publishes results that clearly depend on this dataset.
+
+- View: This is a remarkable preservation index, but its listen-coverage claims and cultural completeness are not equivalent.
+- Impact: Open metadata may enable discovery and research even before the enormous audio archive becomes practical to use.
+- Watch next: Torrent availability, sustained seeding, metadata quality, legal response, and tools for locating individual recordings.

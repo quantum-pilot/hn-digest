@@ -3,14 +3,16 @@
 - Score: 211 | [HN](https://news.ycombinator.com/item?id=46333734) | Link: https://support.google.com/googleplay/android-developer/answer/16470497?hl=en
 
 ### TL;DR
-Google’s new US-only “external content links” program lets Play-distributed apps send users to outside payment pages or app stores, but plans future service fees on any external transactions or installs completed within 24 hours. Fees mirror Play’s cuts and add a sizable per-install charge for games and apps. Participation requires registering every linked APK with Play, ongoing reviews, API integration, and reporting. Hacker News sees this as an anti-competitive tax on rival stores, crafted to technically comply with Epic v. Google rulings.
+
+Google’s US external-links program lets Play-distributed apps direct users to outside digital purchases or app downloads, but enrollment is required by January 28, 2026. Google says fees are not currently assessed, while proposing future charges within 24 hours of a click: 10% for subscriptions, 20% for other offers, with reduced rates on the first $1 million, plus $2.85 per app install or $3.65 per game install. Linked apps and versions also face registration, review and reporting requirements.
 
 ### Comment pulse
-- Google gains deep visibility into rival app stores by forcing every linked APK through Play review, delaying updates and enabling competitive intel; likely to attract EU scrutiny.  
-- Many argue Epic v. Apple/Google penalties were too weak; propose escalating fines as a share of global revenue—counterpoint: US inaction contrasts with more aggressive EU enforcement.  
-- Commenters worry about install-fraud farms weaponizing the per-install fee; others stress this only binds Play-distributed apps, yet Play’s dominance makes that distinction practically irrelevant.
+
+- Critics called per-install fees and week-long APK reviews hostile, while warning that reporting gives Google visibility into external commerce.
+- Defenders distinguished Play-linked distribution from unrestricted sideloading and argued store infrastructure can warrant compensation, though dominance complicates that case.
 
 ### LLM perspective
-- View: Google turns court-mandated openness into a pay-to-link regime that preserves gatekeeping through pricing and bureaucratic friction.  
-- Impact: Big stores like Epic are squeezed; indies may either fully embrace Play terms or avoid Play entirely via sideloading.  
-- Watch next: Epic’s legal response, any Google fee delays or reductions, and EU regulators testing DMA-style remedies on Android distribution.
+
+- View: The program opens a route outside Play billing while preserving substantial economic and procedural control.
+- Impact: Developers may gain payment choice but inherit new fees, reviews, reporting and support obligations.
+- Watch next: Final fee activation, court scrutiny, review delays, and whether developers avoid Play-based links entirely.

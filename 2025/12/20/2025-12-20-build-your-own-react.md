@@ -2,19 +2,17 @@
 
 - Score: 163 | [HN](https://news.ycombinator.com/item?id=46332526) | Link: https://pomb.us/build-your-own-react/
 
-## TL;DR
-The article walks you through building a tiny React clone (“Didact”) from scratch, mirroring React 16.8’s core architecture but skipping most optimizations. Step by step, it implements JSX’s `createElement`, a basic `render`, then adds concurrent rendering with `requestIdleCallback`, fiber trees for incremental work, a separate commit phase, diff-based reconciliation with effect tags, function components, and a minimal `useState` hook system. Hacker News readers particularly praise the interactive, code-driven presentation and report using the ideas in other runtimes and languages.
+### TL;DR
 
----
+Rodrigo Pombo’s interactive tutorial reconstructs a small React-like library, Didact, from JSX element creation through DOM rendering, interruptible work, fibers, commit phases, reconciliation, function components and a basic state hook. The implementation intentionally favors clarity over React’s optimizations, omitting keyed reconciliation, subtree skipping, effect lists, fiber reuse and update prioritization. Its main value is conceptual: matching familiar React names and call flow gives readers a tractable model for exploring the production codebase without pretending Didact is a replacement framework.
 
-## Comment pulse
-- Interactive docs are outstanding → CodeHike-powered animations make React internals tangible and easier to follow than videos or static code — counterpoint: heavy animation lags when scrolling quickly.  
-- Tutorial is practically useful → Readers reuse the simplified renderer model for backend JSX renderers or Python/Tk “React-like” UIs, skipping events and hooks where unnecessary.  
-- Documentation bar-raising → Many wish commercial vendors adopted similarly guided, narrative, and executable documentation; author is building DocsKit to make this style easier to adopt.
+### Comment pulse
 
----
+- Readers praised the animated, incremental presentation as unusually effective technical documentation, though fast scrolling can queue confusing animations.
+- Several people used the tutorial’s concepts in alternative renderers, including backend JSX and a Python Tk implementation.
 
-## LLM perspective
-- View: This is an ideal “concept-minimal” reference for explaining fibers, reconciliation, and hooks without React’s production complexity.  
-- Impact: Helps intermediate JS devs bridge from “using React” to understanding its scheduling and rendering model, enabling custom renderers and informed optimization.  
-- Watch next: Compare Didact to real React profiler traces; implement keys, `useEffect`, and partial tree skipping to explore real-world trade-offs.
+### LLM perspective
+
+- View: Reimplementation works best here as a microscope for architecture, not a recipe for production React.
+- Impact: The staged build makes fibers, reconciliation and hooks concrete enough to transfer into other rendering experiments.
+- Watch next: Reader extensions for keyed children, effects and styles—and whether the presentation tooling improves rapid navigation.

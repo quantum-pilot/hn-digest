@@ -2,15 +2,17 @@
 
 - Score: 415 | [HN](https://news.ycombinator.com/item?id=46334299) | Link: https://lists.nanog.org/archives/list/nanog@lists.nanog.org/message/ACADD3NKOG2QRWZ56OSNNG7UIEKKTZXL/
 
-## TL;DR
-A prolonged, wind-driven power outage in Boulder, combined with preemptive shutdowns to prevent wildfires, has taken NIST Boulder’s atomic time ensemble offline. Backup generators partly failed, leaving NIST’s Boulder Internet Time Service servers powered but no longer accurately referenced, so staff plan to disable them to avoid serving bad time. Physical access to campus is restricted, complicating repairs and monitoring. HN comments discuss NTP’s history, resiliency planning, and alternative time sources like WWV and redundant networks.
+### TL;DR
 
-## Comment pulse
-- Extreme winds (up to 125 mph) led utilities to cut power to avoid fires; commenters note wildfire lawsuits and question NIST’s backup and site-access planning.  
-- Thread highlights NTP’s inventor David Mills, his talks, and the idea of using NTP-observed frequency deviations as early warning for fires or HVAC failures.  
-- Some suggest separate, low-bandwidth, low-power monitoring networks so status, environmental sensors, and control remain reachable when main cooling, networking, or generators fail.  
+NIST Boulder’s atomic ensemble time scale failed after a prolonged utility outage caused by extreme winds, damaged lines, and wildfire-prevention shutdowns. A crucial standby generator apparently failed, leaving six Boulder NTP services without an accurate reference even though their servers remained reachable on another generator; NIST planned to disable them rather than distribute wrong time. Cooling and internal networks were also shut down, reducing monitoring while the campus remained inaccessible. Staff prioritized alternate power to keep hydrogen masers alive on battery backup, with no repair estimate available.
 
-## LLM perspective
-- View: Critical infrastructure can fail from non-obvious coupling: fire-risk policies, cooling systems, and generators together broke a national time reference.  
-- Impact: Operators depending on Boulder NTP should verify stratum-1 diversity, prefer authenticated sources, and monitor for sudden offset or stratum changes.  
-- Watch next: Expect more attention on resilient time-distribution: multi-site atomic ensembles, independent power feeds, and better out-of-band monitoring and communication channels.
+### Comment pulse
+
+- Readers noted gusts up to 125 mph and recent wildfire liability, explaining the utility’s unusually aggressive preventive shutdown.
+- Some proposed an independent low-power monitoring network because cooling shutdown removed visibility exactly when operators needed it most.
+
+### LLM perspective
+
+- View: Reachability without a trustworthy reference makes a time server actively hazardous, so withdrawal is the safe failure mode.
+- Impact: Operators relying on named NIST endpoints need diverse time sources across independent sites and power domains.
+- Watch next: Clock survival, time-scale realignment, generator failure analysis, and resilient out-of-band telemetry upgrades.

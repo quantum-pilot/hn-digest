@@ -3,18 +3,16 @@
 - Score: 231 | [HN](https://news.ycombinator.com/item?id=46334424) | Link: https://developers.openai.com/codex/skills/
 
 ### TL;DR
-OpenAI’s Codex now supports “Agent Skills”: small, shareable capability packages defined mostly in a `SKILL.md` file plus optional scripts and assets. Skills are loaded from well-defined directories, discovered via short YAML front-matter, and invoked explicitly (via `/skills` or `$skill-name`) or implicitly when descriptions match a task. They compose, can call local scripts in a sandbox, and can be created/installed by other skills—prompting comparisons to reusable libraries and to a lighter-weight alternative to MCP-style integrations.
 
----
+Codex Agent Skills package reusable workflows as a required `SKILL.md` plus optional scripts, references, and assets. At startup, Codex loads each skill’s name and description, then reads full instructions only when the user explicitly invokes it or the task matches implicitly. Skills work in the CLI and IDE, follow an open specification, and can be scoped at repository, user, admin, or system levels with defined precedence. They are designed to make task-specific expertise shareable, composable, versionable, and more context-efficient than permanently loading every instruction.
 
 ### Comment pulse
-- Skills as long-term primitive → Markdown-based, composable workflows that leverage sandboxed scripts; easier than MCP, can even describe how to use tools/CLIs and MCPs themselves.  
-- Skills as “workflow cache” → Encapsulate repeatable user stories; agents can iteratively refine them from past sessions, turning good/bad runs into durable capabilities.  
-- Skill index concerns → Front-matter is injected every turn, risking prompt pollution, tone drift, and token bloat—counterpoint: better agent harnesses could use RAG or smarter selection.
 
----
+- Supporters prefer skills’ simple files, progressive disclosure, scripts, composability, and ability to document effective use of existing tools or MCP servers.
+- Critics warn every front-matter description consumes context and influences selection, making discoverability, prompt injection, and skill sprawl practical concerns.
 
 ### LLM perspective
-- View: Skills formalize “prompt + tools + assets” into versionable modules, bridging between ad-hoc prompts and full-blown services.  
-- Impact: Teams get org-wide, repo-scoped workflows; open-source skill packs could standardize common patterns like auth, onboarding, or incident runbooks.  
-- Watch next: Quality and safety standards, global searchable skill registries, and IDEs that auto-suggest or auto-install skills per codebase and task.
+
+- View: Skills standardize operational knowledge effectively, but their value depends more on precise descriptions than elaborate bodies.
+- Impact: Teams can review and version agent workflows alongside code without building a bespoke integration service.
+- Watch next: Searchable registries, provenance controls, signature verification, conflict handling, and measurements of selection accuracy.

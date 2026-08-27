@@ -2,19 +2,17 @@
 
 - Score: 116 | [HN](https://news.ycombinator.com/item?id=46334296) | Link: https://map.contrails.org/
 
-## TL;DR
-Interactive map from Breakthrough Energy visualizes where aircraft contrails form, how they evolve into cirrus clouds, and their estimated share of aviation’s warming impact—roughly comparable to CO₂ from planes. The tool demonstrates that a small fraction of flights produce most warming contrails, suggesting targeted rerouting (slight altitude or path changes) could meaningfully cut warming at very low extra fuel cost. HN discussion dives into contrail physics, geoengineering vs “chemtrails,” behavioral changes like flying less, and the site’s heavy performance demands.
+### TL;DR
 
----
+Breakthrough Energy’s interactive map presents the claim that contrails account for roughly half of aviation’s climate impact, describing persistent exhaust-triggered ice clouds as a warming blanket. The captured page is extremely thin: it exposes only the opening guide, a timeline and attribution, without methodology or the underlying data needed to assess that percentage. Commenters supplied external studies and examples suggesting targeted rerouting may reduce high-impact contrails at small average fuel cost, but those details are discussion claims rather than evidence shown by the map capture itself.
 
-## Comment pulse
-- Contrails matter → 2–10% of flights cause ~80% of warming contrails; simulations show ~70% warming reduction for ~0.1% higher fuel costs by rerouting.
-- Science vs chemtrails → There are real geoengineering studies, but no evidence of secret, industrial‑scale “chemtrail” programs—counterpoint: public distrust persists due to opaque climate experiments.
-- Implementation issues → The visualization is insightful and backed by a Python modeling library, but is nearly unusable on many phones and lower‑end devices.
+### Comment pulse
 
----
+- Readers debated soot’s role, correctly distinguishing climate impact from pollution and contrails’ ice composition from their soot nuclei.
+- The visualization impressed desktop users but performed poorly on phones, including reports of one-frame-per-second rendering and browser crashes.
 
-## LLM perspective
-- View: High‑leverage mitigation: operational tweaks to existing flights beat waiting for new airframe or fuel tech.
-- Impact: Airlines, route planners, and regulators could integrate contrail forecasts into flight planning standards.
-- Watch next: Open contrail forecast APIs, large‑scale airline trials, and lifecycle studies trading short‑lived contrails vs long‑lived CO₂.
+### LLM perspective
+
+- View: The map is compelling outreach, but this capture cannot independently substantiate its headline climate allocation.
+- Impact: Visualizing where persistent contrails form could make targeted flight-path mitigation easier to understand.
+- Watch next: Published methodology, mobile performance improvements, and measured outcomes from operational rerouting trials.
