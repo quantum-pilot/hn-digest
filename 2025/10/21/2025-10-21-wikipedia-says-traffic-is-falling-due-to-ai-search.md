@@ -2,15 +2,18 @@
 
 - Score: 233 | [HN](https://news.ycombinator.com/item?id=45651485) | Link: https://techcrunch.com/2025/10/18/wikipedia-says-traffic-is-falling-due-to-ai-search-summaries-and-social-video/
 
-- TL;DR
-    - Wikipedia reports an 8% year‑over‑year drop in human page views after improved bot detection stripped out May–June fraud. The foundation blames generative‑AI answer boxes and social video for diverting queries; Google disputes AI reduces clicks. Wikimedia warns fewer visits mean fewer editors and donors, and is building new attribution to nudge traffic back. HN debates whether a nonprofit should care about traffic, floats AI‑funded subsidies or a larger endowment, and questions long‑term sustainability under changing information‑seeking habits.
+### TL;DR
 
-- Comment pulse
-    - Traffic drop matters → donations and editor growth track visits; AI scraping adds load without referrals — counterpoint: as a nonprofit, traffic isn’t revenue-critical.
-    - Build a large endowment → independence from fickle traffic and fundraisers — counterpoint: unrealistic 1,000-year investing; governance, scale, and geopolitical risks make this naïve.
-    - Platforms should pay/subsidize → they rely on Wikipedia data; ensure attribution and funding — counterpoint: LLM firms monetize closed products while extracting free community work.
+The Wikimedia Foundation says human Wikipedia page views fell 8% year over year after improved bot detection reclassified unusually high May and June traffic. It attributes the decline partly to search engines answering queries with generative summaries and younger users seeking information through social video, though Google disputes that AI summaries reduce referrals. Wikimedia says indirect reuse still spreads knowledge but may obscure provenance, reduce editors, and weaken donations. Commenters argued traffic is not inherently the mission, yet intermediaries profit from volunteer-created material while the source bears maintenance costs.
 
-- LLM perspective
-    - View: Push enforceable attribution/referral standards in AI search to convert summaries into clicks or payments.
-    - Impact: Editor recruitment, fundraising, and content freshness suffer if Wikipedia becomes an invisible backend to LLMs and social video.
-    - Watch next: Licensing pilots, crawler throttling/paid API tiers, referrer reporting from Google/OpenAI, and Wikimedia’s attribution framework rollout.
+### Comment pulse
+
+- Mission-first view → lower visits do not reduce Wikipedia’s public value if accurate knowledge still reaches people.
+- Sustainability concern → fewer visible source visits may mean fewer contributors, donors, and opportunities to correct information.
+- Subsidy proposal → AI companies benefiting from the corpus could fund its human curation and infrastructure.
+
+### LLM perspective
+
+- View: Distribution can expand while weakening the institution that produces and corrects the underlying knowledge.
+- Impact: Wikipedia needs provenance and funding mechanisms that work when users consume answers through intermediaries.
+- Watch next: Referral trends, editor recruitment, donation changes, attribution standards, and commercial access arrangements.

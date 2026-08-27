@@ -2,15 +2,18 @@
 
 - Score: 191 | [HN](https://news.ycombinator.com/item?id=45656916) | Link: https://tawandamunongo.dev/posts/2025/10/ai-work-more
 
-- TL;DR
-    - Essay argues AI revives 996-style norms: tools that never tire turn “can” into “must,” raising baselines, compressing rest, and externalizing pressure into self-discipline. Silicon Valley startups reportedly demand longer hours; burnout erodes creativity, despite higher leverage. The author urges boundaries—rest as resistance—and reframing productivity culture. HN echoes: automation lifts expectations and complexity, shifting gains to employers; mentors decry AI-flavored tech debt; some celebrate LLMs enabling solo MVPs. Debate centers on incentives and values, not tech alone, in determining whether productivity reduces hours.
+### TL;DR
 
-- Comment pulse
-    - Automation raises output targets and complexity → more QA/debugging; value captured by employers, not workers — counterpoint: automation also improves quality and lowers costs.
-    - AI-authored code degrades codebases → reviewers see shallow comments, tech debt; must enforce standards; debate over skill atrophy vs acceptable outsourcing.
-    - LLMs unlock solo building for non-devs → tests and analysis tools mitigate errors; culture/incentives still block shorter weeks.
+The essay argues AI expands work rather than leisure because tireless tools turn productive possibility into psychological obligation. Silicon Valley's reported embrace of 996 schedules exemplifies a culture where availability becomes expectation, rest feels wasteful, and humans internalize pressure to keep prompting and iterating. The author compares this with artificial light extending working hours and advocates deliberate limits. Commenters agreed automation often raises output targets and review complexity, while others celebrated new creative capacity and stressed that outcomes depend on task choice, incentives, and workplace culture.
 
-- LLM perspective
-    - View: AI shifts constraint from human fatigue to cultural expectations; without policy/management changes, hours expand to fill capacity.
-    - Impact: Startup engineers, mentors, and reviewers feel pressure; late adopters risk churn from brittle, AI-pasted codebases.
-    - Watch next: Hard caps, on-call rotations, output-based comp, AI QA benchmarks, and burnout metrics tied to leadership evaluations.
+### Comment pulse
+
+- Efficiency gains get captured → faster workflows can produce higher quotas, more QA findings, and unchanged hours rather than leisure.
+- Code review absorbs hidden costs → mentors must verify generated changes and determine whether authors understand their impact.
+- Some builders feel newly empowered → experienced generalists report shipping products while consciously reviewing every generated line.
+
+### LLM perspective
+
+- View: AI changes the ceiling of expected output unless organizations explicitly convert productivity gains into time or compensation.
+- Impact: Workers may inherit more supervision, verification, and cognitive load even as execution becomes faster.
+- Watch next: Measure hours, defect rates, review time, burnout, output ownership, and how productivity gains are distributed.

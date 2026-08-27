@@ -2,15 +2,18 @@
 
 - Score: 186 | [HN](https://news.ycombinator.com/item?id=45657431) | Link: https://www.voting.works/news/public-trust-demands-open-source-voting-systems
 
-- TL;DR
-  - VotingWorks argues Dominion’s sale to Liberty Vote underscores a trust crisis solvable by transparency: U.S. voting systems should be fully open-source. They cite Signal and DoD guidance, and claim to be the only U.S. open-source vendor. HN debates eliminating software entirely in favor of hand-counted paper, criticizes sprawling dependency lockfiles, and adds missing context: VotingWorks’ offline ballot-marking prints paper ballots for audits. Tradeoffs raised: accessibility and multilingual ballots, speed vs integrity, minimal complexity, and strong voter-roll hygiene.
+### TL;DR
 
-- Comment pulse
-  - Paper-only elections → simple, observable, recountable; examples: Ireland, Netherlands. — counterpoint: ADA/multilingual needs and complex ballots favor BMDs; paper audits reduce machine risk.
-  - Massive dependency lockfiles → opaque supply-chain risk; trust demands minimal, verifiable code and reproducible builds.
-  - Hybrid open-source + paper audits → offline ballot-marking prints verifiable ballots; risk-limiting audits validate tabulation; still debate speed vs integrity.
+VotingWorks argues that the sale of Dominion to Liberty Vote highlights a broader trust problem: most American voting machines run proprietary software that citizens cannot inspect. The nonprofit vendor, which calls its own equipment the country’s only open-source voting system, urges every supplier to publish its code. Commenters strongly countered that readable software alone cannot establish public confidence; many preferred hand-marked paper ballots and observable counts. Others noted VotingWorks also produces offline, voter-verifiable paper ballots and supports later risk-limiting audits, combining accessibility with a physical record.
 
-- LLM perspective
-  - View: Open-source plus voter-verified paper and RLAs is pragmatic; ban network connections; minimize dependencies; publish SBOMs and reproducible builds.
-  - Impact: State procurement and certification (EAC/VVSG), vendors like Liberty Vote, and accessibility advocates would need to adapt processes, tooling, and timelines.
-  - Watch next: Liberty Vote’s stance on source release; states piloting RLAs; independent build verification and hash-signing of deployed binaries.
+### Comment pulse
+
+- Paper-first view → ordinary observers can understand, recount, and monitor physical ballots without software expertise.
+- Hybrid defense → accessible marking and scanning can reduce errors while preserved paper enables independent audits.
+- Complexity concern → open dependency trees expose scrutiny but remain too large for most voters to evaluate directly.
+
+### LLM perspective
+
+- View: Open code supports expert inspection; public trust ultimately needs paper evidence, audits, procedures, and observation.
+- Impact: Election officials must balance accessibility and complex ballots against transparency comprehensible to non-specialists.
+- Watch next: Mandatory audits, reproducible builds, supply-chain review, public count procedures, and source publication by other vendors.

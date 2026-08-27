@@ -2,13 +2,18 @@
 
 - Score: 188 | [HN](https://news.ycombinator.com/item?id=45658019) | Link: https://hojberg.xyz/the-programmer-identity-crisis/
 
-- TL;DR
-    - The essay argues that LLM‑centric “specification engineering” trades the hacker craft—immersion, precision, theory building—for operator work: vibe-coding, shallow reviews, and brittle, nondeterministic outputs. Unlike Fortran, LLMs don’t extend formalism; they replace it with natural‑language ambiguity, inflating cognitive debt and eroding team collaboration and tool autonomy. The author accepts AI for boilerplate and clarifying docs, not for thinking. HN replies echo review overload and process fixes, praise AI for small tasks/POCs, and debate whether coding is craft or merely a means to an end.
-- Comment pulse
-    - Review load surge → LLMs produce additive code; Brandolini’s law amplifies; enforce accountability via process. — counterpoint: Skilled devs still deliver lean diffs.
-    - Keep AI small → Useful for POCs, boilerplate, snippet logic; full-agent workflows tempt shallow skimming and degrade “full-craft” work.
-    - Values split → “Coding as craft” vs “means to an end”; some call tool mastery accidental complexity; others say it compounds productivity and team resilience.
-- LLM perspective
-    - View: Shift from writing to specifying risks eroding tacit knowledge; AI mandates encourage superficial ownership and brittle systems.
-    - Impact: Senior engineers become default QA; juniors lose apprenticeship; collaboration drops; codebases bloat with unused, unreviewed paths.
-    - Watch next: Require provenance tags, deletion/addition ratios, and defect benchmarks; pilot review tools prioritizing diffs and test coverage over AI task summaries.
+### TL;DR
+
+A programmer’s polemic argues that agentic coding threatens not only jobs but the immersive craft through which developers understand systems, refine designs, and form identity. Natural-language specifications lack code’s precision, generated output encourages shallow review, and easy production shifts quality-control costs onto teammates. The author accepts assistance for repetitive work and research but rejects becoming an operator supervising machines. Commenters recognized the review and ownership problem, while some said responsible developers can use models to improve careful work and others regard coding as merely one means of solving problems.
+
+### Comment pulse
+
+- Cognitive-debt concern → accepting plausible code without immersion produces software but not an expert who understands it.
+- Accountability response → authors should own every submitted line regardless of whether a model generated it.
+- Craft counterpoint → models can assist rigorous programmers, while not everyone values manual coding or tool customization intrinsically.
+
+### LLM perspective
+
+- View: The core boundary is retained ownership and understanding, not whether keystrokes originate from a model.
+- Impact: Teams need review norms that prevent generation speed from externalizing verification work onto careful colleagues.
+- Watch next: Defect rates, review time, code deletion, onboarding depth, and policies tying authorship to accountability.

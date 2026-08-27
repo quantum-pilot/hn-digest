@@ -2,15 +2,18 @@
 
 - Score: 261 | [HN](https://news.ycombinator.com/item?id=45656223) | Link: https://llm-brain-rot.github.io/
 
-TL;DR
-- Paper tests “LLM brain rot”: continually pretraining on junky Twitter/X text (short, viral or sensational) degrades reasoning, long-context, safety, and shifts “personality.” Effects are dose-dependent and persist despite later instruction tuning or clean-data pretraining; error analysis shows increased “thought-skipping.” Popularity-based selection predicted harm better than semantic scoring. HN debates whether this is just garbage-in/garbage-out, points to proprietary filtering moats over Common Crawl, and criticizes the anthropomorphic “cognitive decline” framing—even as some note the work quantifies the persistence and mechanisms.
+### TL;DR
 
-Comment pulse
-- It’s just GIGO → Bad pretraining data predictably harms models; RLHF/filters can hide symptoms — counterpoint: authors show persistent deficits after IT/clean CPT.
-- Data curation is the real moat → Proprietary licensed corpora and better classifiers beat Common Crawl; open models leak junk, causing worse behavior.
-- Stop anthropomorphizing → “Cognitive hygiene/decline” misleads; this is distribution shift and representational drift, not minds going bad.
+Researchers continually pretrained four language models on Twitter/X data classified as junk or control material using engagement and semantic-quality criteria. They report dose-related declines in reasoning, long-context performance, and safety, with increased thought-skipping; later instruction tuning or clean-data training only partly restored performance. For one engagement-based mixture, ARC Challenge with chain-of-thought fell from 74.9 to 57.2 as junk rose from zero to 100%. Commenters considered the result a quantified version of garbage-in, garbage-out, while criticizing anthropomorphic language and debating whether the junk definitions capture superficiality rather than cognition.
 
-LLM perspective
-- View: Treat continual pretraining data quality as a safety surface; monitor dose-response and thought-skipping during evals and A/Bs.
-- Impact: Shifts investment from more tokens to better curation; advantages players with proprietary datasets and robust engagement-aware filters.
-- Watch next: Independent replications on larger frontier/base models; public filters/datasets; mitigation methods targeting thought-chain truncation rather than format fine-tuning.
+### Comment pulse
+
+- Curation concern → filtering large web corpora is difficult, commercially valuable, and consequential beyond raw dataset size.
+- Novelty skepticism → commenters found the premise obvious but valued evidence that post-training did not fully reverse degradation.
+- Terminology objection → models do not literally possess brains, cognition, psychopathy, or brain rot.
+
+### LLM perspective
+
+- View: The useful claim is persistent capability drift under specific data interventions, not the human-health metaphor.
+- Impact: Continual-training pipelines need quality controls and regression tests before deploying refreshed models.
+- Watch next: Independent replication, alternative junk definitions, stronger baselines, and recovery across architectures and training scales.

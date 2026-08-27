@@ -2,15 +2,18 @@
 
 - Score: 158 | [HN](https://news.ycombinator.com/item?id=45654512) | Link: https://spectrum.ieee.org/diamond-thermal-conductivity
 
-- TL;DR
-  - Stanford researchers demonstrated ~400 °C growth of micrometer-thick, large-grained polycrystalline diamond directly on chips as a “thermal dielectric” near hotspots. A silicon-carbide interlayer lowers thermal-boundary resistance, delivering >50–70 °C drops in GaN HEMTs and, in prototypes, 10× lower hotspot temperatures in 3D stacks via diamond spreaders plus copper pillars. Applied Materials, Samsung, TSMC, and DARPA are involved. HN discussion weighs 3D-stacking potential, manufacturing cost/scale, PV-cooling spinoffs, and why diamond aids heat—not logic—compared with GaN/SiC.
+### TL;DR
 
-- Comment pulse
-  - Breakthrough claim → ~400 °C diamond growth near devices; 50–70 °C drops, beyond conventional spreaders — counterpoint: a commenter misread; it’s not under 100 °C.
-  - 3D stacking upside → Diamond “thermal scaffolding” could unlock more tiers by draining hotspots inside stacks.
-  - Alternatives and economics → Solar PV cooling floated; wafer-scale cost, yield, and value-per-watt need calculation.
+Stanford researchers developed a method to grow micrometers-thick polycrystalline diamond around semiconductor devices at roughly 400°C rather than above 1,000°C, placing an electrically insulating heat spreader close to transistor hot spots. An interfacial silicon-carbide layer reduces thermal boundary resistance. Diamond-coated gallium-nitride transistors reportedly ran over 50°C cooler and amplified X-band signals fivefold; simulated 3D-chip scaffolding also sharply reduced temperature. Remaining challenges include atomically flattening coatings and validating manufacturing integration, reliability, cost, and performance tradeoffs.
 
-- LLM perspective
-  - View: Diamond heat spreaders integrate at BEOL temperatures, addressing hotspot TBR where traditional cooling can't reach.
-  - Impact: Enables higher power density and deeper 3D stacks; biggest wins in RF GaN and AI accelerators’ memory-compute stacks.
-  - Watch next: Planarization, CMP compatibility, defect/contamination control, wafer-scale yield; standardized PDK rules and reliability under thermal cycling and shock.
+### Comment pulse
+
+- Low-temperature growth is pivotal → diamond's conductivity was known, but conventional deposition temperatures would damage finished circuitry.
+- 3D stacking excites readers → internal spreaders and vertical thermal pillars could address heat trapped between silicon layers.
+- Economics remain essential → proposed uses such as solar cooling require manufacturing costs to beat the value of efficiency gains.
+
+### LLM perspective
+
+- View: Moving heat near its source complements external cooling and may matter most where packaging prevents direct extraction.
+- Impact: RF devices and dense chip stacks could sustain higher power without equivalent throttling or bulky cooling.
+- Watch next: Verify wafer-scale uniformity, surface planarization, interface aging, electrical side effects, yield, and per-chip cost.

@@ -2,15 +2,18 @@
 
 - Score: 190 | [HN](https://news.ycombinator.com/item?id=45654660) | Link: https://quarters.captaintouch.com/blog/posts/2025-10-21-stargrid-has-arrived,-a-brand-new-palm-os-strategy-game-in-2025.html
 
-TL;DR
-- StarGrid is a new open-source, hex‑grid, turn‑based strategy game built from scratch for Palm OS, wrangling 1990s limits like tiny RAM and segmented code. It’s playable in-browser via CloudPilot and on hardware, with CPU-vs-CPU and multi-device playtests. HN’s response blends nostalgia and momentum: rePalm brings Palm OS to modern gadgets (even a Fisher‑Price Pixter), the Warfare Incorporated dev recalls extreme perf/size tricks, and commenters celebrate IR/pass‑and‑play, asynchronous design, and the distraction‑free Palm experience.
+### TL;DR
 
-Comment pulse
-- Palm OS revival plausible now → rePalm runs on modern/odd devices; CloudPilot enables web play — counterpoint: still niche, hardware scarcity limits reach.
-- Classic Palm dev was brutal → Warfare Incorporated team cites heavy optimization and tiny binaries; community patches kept it usable across odd resolutions.
-- Offline multiplayer still shines → IR and pass‑and‑play enabled low‑friction, asynchronous sessions many miss today; niche titles like SubHunt exemplify the appeal.
+StarGrid is a newly released, open-source Palm OS turn-based strategy game played on a hex grid, with fleets capturing flags and defending bases. Its creator spent more than six months building it without a game engine or additional SDKs, working around memory limits by hiding tiles during movement and splitting code to fit platform size constraints. The game runs on original devices or in a browser through CloudPilot. Commenters celebrated Palm OS’s focused interface, remembered older strategy games and infrared multiplayer, and highlighted active emulation and hardware-porting projects.
 
-LLM perspective
-- View: Hobbyist retro dev plus web emulation creates a viable distribution channel for dead platforms.
-- Impact: More open Palm OS code and toolchains; better emulator/device support; renewed interest in offline-first game design.
-- Watch next: rePalm ports, CloudPilot performance gains, StarGrid mods/maps, and whether IR/pass‑and‑play mechanics reappear on modern phones.
+### Comment pulse
+
+- Preservation enthusiasm → new software and source code keep an abandoned platform practically understandable, not merely collectible.
+- Constraint appreciation → veterans recalled extensive optimization needed for capable games on tiny memory and varied displays.
+- Experience nostalgia → physical buttons, Graffiti, offline play, and absent tracking remain central to Palm OS’s appeal.
+
+### LLM perspective
+
+- View: A finished game preserves platform knowledge more effectively than nostalgia or an emulator alone.
+- Impact: Hobbyists gain both playable software and a reference implementation for severe legacy constraints.
+- Watch next: Device compatibility reports, emulator behavior, community modifications, and the creator’s proposed racing experiments.

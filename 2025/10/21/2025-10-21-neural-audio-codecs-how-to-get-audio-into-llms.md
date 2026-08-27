@@ -2,15 +2,18 @@
 
 - Score: 322 | [HN](https://news.ycombinator.com/item?id=45655161) | Link: https://kyutai.org/next/codec-explainer
 
-- TL;DR
-  - Raw audio is far harder than text for LLMs: sequences are huge and coherence collapses. The article shows how neural audio codecs (VQ-VAE with residual vector quantization) compress speech into discrete tokens that Transformers can model. Kyutai’s Mimi adds GAN losses, RVQ dropout, and WavLM-derived semantic tokens to improve quality and let you trade semantics vs acoustics. Multi-level token scheduling is still unsettled. Bottom line: speech-native LLMs still lean on text; closing the modality gap needs better tokenization and data.
+### TL;DR
 
-- Comment pulse
-  - Pitch/emotion failure is alignment or capability? Author: capability and synthetic-data bias; users report Qwen describes voice; others show GPT tunes misrecognized.
-  - Use linear-time models plus hierarchical summaries? Community notes prior hierarchical approaches (Jukebox, MiMo) and encourages exploration.
-  - Why not MP3/JPEG tokens → classic codecs are CPU-cheap but compress less; neural nets dislike highly compressed inputs; formant-level cues get obscured— counterpoint: could train adapters.
+Raw audio produces tens of thousands of samples per second, making direct autoregressive modeling slow and too short-context for coherent speech. Kyutai’s explainer builds vector-quantized autoencoders, then residual vector quantization, to compress audio into discrete token levels an ordinary Transformer can predict and decode. More levels improve sound but increase sequence cost. Mimi compresses more aggressively and adds semantic tokens that preserve words while discarding speaker identity, improving linguistic coherence. Even then, native-audio models often lean on text streams and lag text models in reasoning and vocal understanding.
 
-- LLM perspective
-  - View: Neural codecs with semantic tokens make audio continuation feasible; flattening levels hurts context and speed.
-  - Impact: Better real-time voice agents; evaluations shift to prosody, emotion, and “who said what” consistency, not only word error rate.
-  - Watch next: Standardize multi-level scheduling, parallel decoding, richer non-TTS training data, and benchmarks for pitch/emotion detection and cross-speaker generalization.
+### Comment pulse
+
+- Codec tradeoff → neural codecs achieve far greater compression than MP3, while conventional codecs are cheaper to run.
+- Capability debate → missing pitch recognition may reflect weak audio generalization, synthetic training data, or safeguards.
+- Architecture idea → hierarchical models could separate low-frequency semantic planning from high-frequency acoustic generation.
+
+### LLM perspective
+
+- View: Tokenization determines whether models learn speech structure or merely attach audio rendering to text reasoning.
+- Impact: Better codecs reduce training cost but may discard prosody, identity, or semantics needed downstream.
+- Watch next: Semantic-acoustic benchmarks, continuous latents, token scheduling, and models trained on richer non-synthetic speech.

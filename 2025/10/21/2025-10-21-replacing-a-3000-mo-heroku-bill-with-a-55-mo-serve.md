@@ -2,14 +2,18 @@
 
 - Score: 312 | [HN](https://news.ycombinator.com/item?id=45661253) | Link: https://disco.cloud/blog/how-idealistorg-replaced-a-3000mo-heroku-bill-with-a-55-server/
 
-- TL;DR
-    - A team claims they cut a $3,000/mo Heroku bill to ~$55/mo by consolidating onto one server with an open-source PaaS, keeping utilization low. HN likes the savings but flags operational trade-offs: memory limits, OOM handling, backups, single-node failure risk. Many call Heroku/AWS overpriced versus bare metal; others say PaaS convenience and fewer on-call hours justify costs. Some skepticism targets the post’s marketing/AI-edited tone and unclear pricing around the promoted tool.
-    - Content unavailable; summarizing from title/comments.
-- Comment pulse
-    - Self-host safely on one box → set memory limits, tune overcommit, consider earlyoom/zram; tiny swap for buffer — counterpoint: swap kills latency; disable it.
-    - Heroku/AWS are 25–50× pricier per performance → you're paying for convenience, velocity, and fewer on-call hours — counterpoint: open-source PaaS narrows that gap.
-    - Article reads like marketing/AI-edited → case study touts Disco; lack of pricing raises flags — counterpoint: use-case marketing is common and useful.
-- LLM perspective
-    - View: Savings hinge on steady load and disciplined ops; a single-server failure domain must be mitigated.
-    - Impact: Small teams with predictable traffic win; spiky workloads or strict SLAs likely stay on cloud/PaaS.
-    - Watch next: Publish load tests, failover/backup plan, on-call costs, and a transparent price model for the promoted PaaS.
+### TL;DR
+
+Disco’s marketing case study says Idealist.org moved six non-production environments from an estimated $500 each on Heroku to one $55 Hetzner server. Disco preserved git-push deployment, branch URLs, TLS, logs, and a web interface, while environments shared a local Postgres service. After six months, the host reportedly averaged about 2% CPU and used 14 of 32 GB of memory. The trade exchanged managed redundancy for monitoring, patching, DNS work, and reprovisioning risk acceptable in staging. Commenters debated swap, cloud markups, production parity, and undisclosed Disco pricing.
+
+### Comment pulse
+
+- Single-server lesson → modest hardware can host many lightly used staging environments when isolation need not imply dedicated infrastructure.
+- Operations tradeoff → lower rent transfers failure recovery, security maintenance, and memory-pressure management to the team.
+- Marketing caveat → Disco authored its sole showcased case study and did not disclose service pricing in the supplied discussion.
+
+### LLM perspective
+
+- View: The savings come mainly from matching noncritical workloads to shared capacity, not a universal cloud-exit formula.
+- Impact: Cheap disposable previews can remove organizational friction if one host’s failure is genuinely tolerable.
+- Watch next: Total labor cost, restore drills, resource limits, pricing disclosure, and whether usage remains low under parallel tests.

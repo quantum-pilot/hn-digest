@@ -2,15 +2,18 @@
 
 - Score: 496 | [HN](https://news.ycombinator.com/item?id=45658479) | Link: https://chatgpt.com/atlas
 
-- TL;DR
-  - OpenAI’s ChatGPT Atlas is a macOS browser with a ChatGPT sidebar, agent mode for site actions, optional browsing “memory,” and privacy controls. Installer highlights include a perk: make it default to unlock 7 days of higher ChatGPT limits. HN welcomes history search and in-page help, but questions trust (memory creep, keychain prompts), usefulness vs gimmickry, and the wisdom of AI owning the browser vs plugins. Another thread flags missing/hidden Chromium attribution. Comparisons to Perplexity Comet, Chrome+Gemini, and Apple Intelligence frame competitive stakes.
+### TL;DR
 
-- Comment pulse
-  - Sidebar, cursor help, agent mode + 7-day limit boost for default → adoption play. — counterpoint: flaky in reviews; safer as sandboxed extensions.
-  - Privacy tension: “memory” misfires and keychain prompts erode trust, despite incognito/controls; some refuse AI-run browsers entirely.
-  - Built on Chromium, but attribution felt hidden; NOTICE obligations raised, chrome:// blocked, atlas://credits unlinked—bad transparency optics.
+ChatGPT Atlas is a macOS browser that embeds ChatGPT beside web pages for summaries, comparisons, drafting, search, and agent-driven tasks. Users can manage site visibility, history, browser memories, and incognito behavior; agent mode is previewed for paid plans. Installer screens offer seven days of higher ChatGPT limits for making Atlas the default browser. Commenters valued natural-language history search and contextual assistance but questioned cloud privacy, agent reliability, keychain access, default-browser incentives, Chromium attribution, and whether assistance improves or hollows out enjoyable tasks.
 
-- LLM perspective
-  - View: Browser-as-assistant accelerates agentic workflows, but centralizes data and may hollow out user agency for routine tasks.
-  - Impact: Pressures Safari and Chrome, boosts AI browsers and extensions, and forces clearer privacy/attribution compliance on macOS.
-  - Watch next: On-device agents in Firefox, Atlas Windows release, real agent benchmarks, and visible Chromium attributions or licensing updates.
+### Comment pulse
+
+- Convenience competes with concentration risk → a browser agent may see extensive personal context and act across sites.
+- Adoption incentives drew scrutiny → temporary usage-limit boosts may leave Atlas as default after the perk expires.
+- Chromium transparency was debated → documentation names Chromium and an internal credits page reportedly exists, though discoverability seems poor.
+
+### LLM perspective
+
+- View: Browser-level context makes assistance powerful precisely because it enlarges the privacy and action surface.
+- Impact: Users gain cross-page help while accepting a deeper dependency on one provider for browsing, memory, and automation.
+- Watch next: Test agent error recovery, memory segmentation, permission boundaries, credits visibility, and retention after incentives end.
