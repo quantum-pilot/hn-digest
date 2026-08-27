@@ -2,15 +2,18 @@
 
 - Score: 317 | [HN](https://news.ycombinator.com/item?id=45430498) | Link: https://www.empirical.health/blog/inflammation-and-heart-health/
 
-- TL;DR
-  - The ACC now recommends universal hs-CRP testing alongside cholesterol, citing data that systemic inflammation predicts events as strongly—or stronger—in statin-era populations. Trials show benefit from statins in high hs-CRP (JUPITER), colchicine (COLCOT, LoDoCo2), and canakinumab (CANTOS); methotrexate and TNF inhibitors failed. Ideal hs-CRP <1 mg/L; >3 is high. HN discussion: LDL/ApoB remain foundational; hs-CRP addresses residual risk. Skeptics flag vendor marketing and insurance costs; others note long-standing evidence, with some infection/endotoxin mechanisms debated.
+### TL;DR
 
-- Comment pulse
-  - LDL/ApoB remain foundational → statins lower LDL; hs-CRP reveals residual risk, especially on therapy — counterpoint: events at low LDL lead some to question causality.
-  - Be cautious of vendor framing → company sells tests; trust stems from ACC consensus and long-standing hs-CRP evidence; check insurance vs cash pricing.
-  - Mechanism speculations → bacteria/LPS in plaques and LDL binding could link infection, inflammation, and atherosclerosis; gut source suggested.
+Empirical Health, which sells testing, argues from an American College of Cardiology review that high-sensitivity C-reactive protein should be measured alongside cholesterol because systemic inflammation predicts cardiovascular events, especially after statins lower LDL or in patients without traditional risk factors. It summarizes mixed trial results: some anti-inflammatory treatments reduced recurrent events, while others did not. The article promotes hs-CRP screening, lifestyle measures, and specific therapies, but its headline does not mean cholesterol is unimportant or that a single hs-CRP result establishes an individual diagnosis.
 
-- LLM perspective
-  - View: Treat hs-CRP as an adjunctive risk signal alongside ApoB/LDL, especially for statin-treated or “SMuRF-less” patients.
-  - Impact: Primary care adds routine hs-CRP; secondary prevention expands colchicine use; payers update coverage based on USPSTF/ACC alignment.
-  - Watch next: Randomized strategies targeting inflammatory risk thresholds; IL-6 inhibitors outcomes; cost-effectiveness of universal screening across diverse populations.
+### Comment pulse
+
+- Readers called the headline misleading because statin treatment can suppress measured LDL while residual risk remains.
+- Discussion clarified that hs-CRP reflects systemic inflammation but can also rise temporarily during acute illness.
+- Several comments offered speculative biological explanations or personal diet anecdotes that should not be treated as clinical evidence.
+
+### LLM perspective
+
+- View: Inflammation and lipids are complementary risk signals; ranking them universally oversimplifies treatment-shaped data.
+- Impact: Broader hs-CRP testing may expose residual risk, but interpretation requires clinical context and repeat measurement.
+- Watch next: Independent guidance should clarify who benefits from screening and which interventions improve outcomes safely.

@@ -2,15 +2,18 @@
 
 - Score: 220 | [HN](https://news.ycombinator.com/item?id=45423004) | Link: https://lwn.net/Articles/1040120/
 
-- TL;DR
-  - Linus Torvalds removed bcachefs from Linux 6.18 after it moved to DKMS; keeping stale in-tree code risked confusion. Debate centered on governance and operations: kernel won’t support out‑of‑tree ABIs, and Secure Boot + DKMS complicates deployments. Some attribute the removal to maintainer conduct rather than technical instability. Users split: bcachefs praised as more reliable than btrfs by some, while others prefer btrfs’ maturity. Many want a clear path to re‑merge once process issues are resolved.
+### TL;DR
 
-- Comment pulse
-  - DKMS complicates ops at scale → Secure Boot MOK enrollment and no stable module ABI break unattended boots — counterpoint: avoids per-project custom kernels now.
-  - Removal was governance-driven → Linus can drop code after discussion; many blame maintainer guideline breaches rather than filesystem stability.
-  - Need for integrated COW+RAID remains → some praise bcachefs reliability after btrfs data loss; others argue btrfs is mature enough and default in major distros.
+Linux 6.18 removes bcachefs after 6.17 marked it externally maintained, because the project now ships as a DKMS module and leaving stale in-kernel code could create version confusion. Upstreaming had previously made bcachefs self-contained enough for DKMS, but external maintenance exposes it to kernel API churn and Secure Boot packaging friction. Discussion largely attributed the split to maintainer-process conflict rather than filesystem instability. Supporters still want a modern native copy-on-write alternative, while questioning whether leadership and distribution support can restore trust.
 
-- LLM perspective
-  - View: Short term, DKMS keeps bcachefs alive; long term, lack of in-tree user risks supporting kernel changes being reverted.
-  - Impact: Distros, fleet admins, and Secure Boot environments absorb maintenance; kernel maintainers regain freedom to refactor affected subsystems.
-  - Watch next: Track DKMS packaging across distros, subsystem churn touching bcachefs interfaces, and any re-merge criteria or leadership changes communicated by maintainers.
+### Comment pulse
+
+- DKMS is a mixed outcome → users avoid custom kernels, but module builds, Secure Boot enrollment, and disappearing internal APIs threaten reliability.
+- Governance dominated the postmortem → former supporters urged maintainer introspection; others hoped bcachefs might return under different leadership.
+- Technical demand persists → users value integrated snapshots, integrity, and multi-device features beyond layered filesystem, RAID, and volume-manager setups.
+
+### LLM perspective
+
+- View: Mainline removal converts a social-maintenance failure into recurring operational risk for users and distributions.
+- Impact: Bcachefs adopters now depend on DKMS packaging and compatibility work across kernel releases.
+- Watch next: Distribution packages, Secure Boot workflows, API breakage, maintainer changes, reliability telemetry, and any upstream re-entry plan.

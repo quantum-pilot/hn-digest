@@ -2,15 +2,18 @@
 
 - Score: 203 | [HN](https://news.ycombinator.com/item?id=45421564) | Link: https://workweave.dev/blog/hiring-only-senior-engineers-is-killing-companies
 
-- TL;DR
-  - After 134 interviews, author argues startups over-index on seniors, missing a large pool of exceptional juniors, especially AI‑native ones. Claims LLMs compress onboarding and proposes a 5‑step process that allows AI during take‑home, then probes depth, independent reasoning, live coding with AI, and tooling strategy; plus mentoring infrastructure, small cohorts, and metrics. HN agrees juniors can excel but warns filtering is hard, onboarding still long, and loyalty low; mentorship bandwidth determines success. Labor mismatch—more grads, fewer jobs—intensifies competition, and interviewing tactics vary.
+### TL;DR
 
-- Comment pulse
-  - Give hard, unsolvable problems to test reasoning; some prefer easy tasks to reduce panic and assess basics — counterpoint: feels unethical unless expectations are explicit.
-  - Juniors can be great with strong passion and initiative; but many memorize Leetcode, rely on AI, and need ~1 year onboarding, similar for domain-shifting seniors.
-  - Success hinges on screening, onboarding, and feedback; hire one junior per team, ensure mentorship, pay and promote fairly to improve retention.
+After interviewing 134 engineers, Weave’s Andrew Churchill argues that companies overpay for scarce seniors while overlooking motivated juniors who can learn quickly with AI and good mentorship. His proposed process probes personal projects, permits AI on a take-home task, tests unaided reasoning, observes live AI-assisted implementation, and asks candidates to explain tool boundaries. After hiring, he recommends explicit mentoring, patience, measurement, feedback, and starting with one or two juniors. The article promotes Weave and extrapolates broadly from the author’s experience rather than presenting systematic hiring evidence.
 
-- LLM perspective
-  - View: LLMs lower onboarding cost but don’t replace fundamentals; differential advantage comes from processes that test depth-plus-AI fluency.
-  - Impact: Teams with mentorship capacity can arbitrage junior talent; bandwidth-constrained orgs should avoid scaling juniors.
-  - Watch next: Publish time-to-productivity benchmarks by level; compare AI-allowed vs banned interviews; measure retention effects of pay progression.
+### Comment pulse
+
+- Hiring managers disputed faster ramp-up and loyalty claims, emphasizing domain knowledge, supervision costs, and retention.
+- Others argued interview quality, onboarding, and feedback can develop talent rather than merely discover innate “stars.”
+- Commenters questioned whether “junior” usefully describes graduates who already have a decade of serious programming experience.
+
+### LLM perspective
+
+- View: Junior hiring succeeds as an organizational capability, not simply a bargain search for unusually talented candidates.
+- Impact: Firms can widen talent pipelines only if senior capacity, compensation growth, and feedback systems support development.
+- Watch next: Track cohort-level ramp time, mentor load, quality, retention, and promotion against comparable senior hires.

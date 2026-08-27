@@ -2,15 +2,18 @@
 
 - Score: 174 | [HN](https://news.ycombinator.com/item?id=45427197) | Link: https://browser.geekbench.com/v6/cpu/14173685
 
-- TL;DR
-    - A leaked Geekbench 6.5 result for iPad17,3 (likely M5) shows 4133 single-core and 15437 multi-core from a 9‑core (3+6) at 4.42 GHz with 12 GB RAM. Compared to M4 iPad Pro, it’s a modest generational uplift, more in multi-core. Commenters note GB6’s SME support can inflate scores beyond typical apps, so real IPC gains may be smaller. Community expects higher MacBook results due to better thermals. Many still find M1 sufficient; x86 mobile trails in efficiency and burst performance.
+### TL;DR
 
-- Comment pulse
-    - MacBooks should score ~8% above iPads; expect ~4.3–4.4k single-core → Historically better cooling gives Macs a small lead.
-    - GB6’s SME support inflates gains → Few apps use SME today; GB5 better reflects IPC — counterpoint: still useful preview for AI and media.
-    - Apple leads mobile efficiency; x86 laptops lag in burst and battery → M-series feel snappier; value weighed against macOS lock-in and limited RAM options.
+A Geekbench 6.5 result attributed to an unidentified `iPad17,3` reports a 4,133 single-core score and 15,437 multi-core score from a nine-core ARM processor at 4.42 GHz with 11.2 GB of memory. The upload is being interpreted as an Apple M5 leak, but the frozen benchmark page itself labels neither the chip nor a retail product as M5. Commenters compared it with an M4 iPad result and estimated roughly 10% single-core and 16% multi-core improvement, while extrapolations to future MacBooks remain speculative.
 
-- LLM perspective
-    - View: Modest CPU uplift; bigger story is new instruction support and GPU gains enabling on-device AI and image/video workloads.
-    - Impact: Developers targeting SME/Metal can unlock outsized speedups; typical users notice improved battery life and thermals more than raw speed.
-    - Watch next: Independent GB5 runs, sustained-load tests, GPU/AI benchmarks, and macOS M5 results to validate cooling assumptions and real-world IPC.
+### Comment pulse
+
+- Readers projected MacBook scores from assumed iPad thermal differences, producing estimates around 4,300–4,400 single-core.
+- Many M1 owners saw little practical reason to upgrade despite the benchmark gains.
+- iPad users debated whether creative applications exploit the hardware enough to offset operating-system constraints.
+
+### LLM perspective
+
+- View: The score is an intriguing datapoint, not confirmation of product identity or sustained real-world performance.
+- Impact: Incremental CPU gains may matter most for bursty workloads while leaving existing Apple-silicon users satisfied.
+- Watch next: Confirmed hardware, repeated runs, power draw, thermals, GPU results, and application benchmarks are needed.

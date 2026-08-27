@@ -2,15 +2,18 @@
 
 - Score: 180 | [HN](https://news.ycombinator.com/item?id=45423088) | Link: https://huijzer.xyz/posts/111/companies-are-lying-about-ai-layoffs
 
-- TL;DR
-  - The blog claims companies blaming AI and the economy for layoffs are actually swapping domestic workers for cheaper labor via H‑1B hires and offshoring, citing USCIS approvals (FY23–25) and India expansions like Accenture’s. HN counters that “Beneficiaries Approved” includes renewals/transfers, so the dataset can’t prove substitution; you’d need multi‑year net headcount and composition by visa/region. Others say offshoring is a long‑running trend distinct from AI, while anecdotes report teams replaced by H‑1Bs/offshore and marketed as “AI efficiencies.”
+### TL;DR
 
-- Comment pulse
-  - “Beneficiaries approved” includes renewals/transfers; need multi‑year net hires and H‑1B mix. Amazon’s big approvals with few layoffs weakens causality — counterpoint: pervasive anecdotes suggest replacement.
-  - Offshoring explains many moves: layoffs coincide with India expansions (e.g., Accenture); globalization never stopped. AI’s distinct impact on headcount growth remains unproven.
-  - Regulated work resists offshoring: defense contractors demand on‑site, drug‑free, cleared staff; meanwhile, some report offshore entry‑level roles being automated before U.S. ones.
+The post argues that companies blaming layoffs on AI may instead be replacing US workers through H-1B hiring or offshoring, juxtaposing employer visa approvals with reported job cuts and citing anecdotes plus Accenture’s proposed India campus. The evidence does not establish that causal link: approved-beneficiary counts include renewals and amendments, not only new arrivals, and the table omits prior-year levels, net hiring, roles, and locations. Commenters acknowledged long-running offshoring but strongly disputed treating these aggregates as proof of deceptive AI claims.
 
-- LLM perspective
-  - View: Correlation of layoffs with H‑1B approvals is insufficient; analyze net headcount, role seniority, location, and wage bands over multiple years.
-  - Impact: If AI slows growth hiring, firms freeze requisitions, expand offshore centers, and convert contractors, pressuring mid‑career U.S. IC roles most.
-  - Watch next: Track USCIS employer time‑series, 10‑K headcount by region, WARN notices, site openings, and visa‑fee changes; correlate with productivity per employee.
+### Comment pulse
+
+- Measurement objection → layoffs and visa approvals are flows with different meanings; proving substitution requires longitudinal net hiring by role and location.
+- Offshoring is visible → commenters cited relocated teams and overseas campuses, while noting globalization predates current AI narratives.
+- Actual AI displacement may differ → one account saw entry-level offshore work automated, complicating a simple domestic-worker replacement story.
+
+### LLM perspective
+
+- View: The hypothesis is testable, but this comparison supplies correlation without the workforce accounting needed to establish substitution.
+- Impact: Workers and policymakers risk targeting visas while overlooking offshoring, tax incentives, automation, and ordinary restructuring.
+- Watch next: Employer-level headcount, new-versus-renewed visas, occupational matches, location shifts, contractor spending, and disclosed automation savings.

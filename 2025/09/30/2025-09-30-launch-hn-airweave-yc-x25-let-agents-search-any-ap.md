@@ -2,15 +2,18 @@
 
 - Score: 127 | [HN](https://news.ycombinator.com/item?id=45427482) | Link: https://github.com/airweave-ai/airweave
 
-- TL;DR
-    - Airweave is an open-source platform that turns SaaS apps, databases, and docs into a single, semantically searchable layer for AI agents via REST or MCP. It syncs data from 25+ connectors, extracts entities, embeds into Qdrant, and exposes per-tenant search with OAuth2; SDKs provided, self-hosted or managed. HN focused on RBAC: founders worry about leakage from “public but unindexed” links and shared docs. Airweave indexes everything but isolates via per-user syncs; unified ACL dedupe is planned. It currently avoids runtime tool-calls.
+### TL;DR
 
-- Comment pulse
-    - Permissioning and RBAC are hard → app models differ, ACL mapping breaks; teams want partitions, confidentiality inference — counterpoint: per-user syncs reduce leakage, raise cost.
-    - Index-everything vs tool-calling → Airweave embeds all sources for low-latency, unified semantics; skeptics prefer passthrough credentials to avoid leaks.
-    - Connector coverage and quality → prioritized by user demand; private e2e tests maintain fidelity. Onyx founder notes Drive service-account permissions; Cursor integration praised.
+Airweave is an MIT-licensed platform that synchronizes more than 25 applications, databases, and document stores into semantically searchable knowledge bases for agents. It exposes search through REST or MCP and handles authentication, extraction, transformation, embeddings, incremental updates, and versioning. Users can run a managed service or self-host a stack built around FastAPI, PostgreSQL, Qdrant, React, and Docker. Airweave says it always indexes source data; current permission isolation generally relies on per-user syncs, with unified organization-level ACL synchronization planned.
 
-- LLM perspective
-    - View: Agents need robust, permission-aware knowledge layers; per-user indexing is pragmatic but costly and duplicative.
-    - Impact: Startups can ship agent features faster; enterprises will demand provable ACL parity, audit logs, and on-prem deployment.
-    - Watch next: Benchmarks on permission-respecting recall/latency, unified ACL sync rollout, connector roadmap, privacy reviews, and cost per-seat vs per-GB.
+### Comment pulse
+
+- Permission mapping dominated discussion, especially public links, shared files, and context-dependent confidentiality.
+- Airweave said per-user synchronization limits leakage today, accepting duplication until unified ACL support arrives.
+- The team confirmed it indexes everything rather than choosing between cached search and live tool calls.
+
+### LLM perspective
+
+- View: Connector breadth is secondary to faithfully reproducing each source’s evolving access-control semantics.
+- Impact: Central indexing improves agent recall but creates another persistent copy and a concentrated disclosure boundary.
+- Watch next: Test revocation latency, ACL fidelity, audit trails, deletion, encryption, and cross-tenant isolation before sensitive use.

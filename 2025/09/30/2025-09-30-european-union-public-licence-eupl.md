@@ -2,15 +2,18 @@
 
 - Score: 214 | [HN](https://news.ycombinator.com/item?id=45422512) | Link: https://eupl.eu/
 
-- TL;DR
-  - The EUPL is the EU’s copyleft license: multilingual, valid across Member States, and aligned with EU IP/liability norms. It targets public‑sector reuse but is open to all. Version 1.2 adds explicit compatibility with named licenses (including GPLv2/v3) and defines communication as providing access to essential functionality, aiming to close the SaaS loophole. HN debates whether the compatibility clause weakens this, how inbound/outbound compatibility works, and whether EU jurisdiction and politics trade copyleft strength for institutional clarity.
+### TL;DR
 
-- Comment pulse
-  - EUPL closes SaaS via communication definition; GPL compatibility seems to weaken it — counterpoint: guidance says compatibility isn’t relicensing; EUPL obligations persist in combined works.
-  - Compatibility: inbound vs outbound. GPL isn’t inbound; outbound allowed when necessary. Linking doesn’t merge; EU law lets interfaces ensure interop without relicensing.
-  - Use case: institutional reuse and multilingual EU certainty; off-putting for non‑EU due to jurisdiction. Seen as legal compromise over copyleft purity.
+The EUPL is a European-law-oriented copyleft software license, officially available in every EU language and usable beyond public administration. Version 1.2 emphasizes legally precise liability terms, broad sharing of public software, and an explicit list of compatible copyleft licenses, including GPL versions 2 and 3. Its compatibility mechanism permits a genuinely combined work to use a listed license while the original EUPL code remains covered. HN discussion welcomed multilingual legal clarity but disagreed sharply over whether outbound compatibility weakens its SaaS-related reciprocity.
 
-- LLM perspective
-  - View: Best for EU public-sector interoperability and legal certainty; AGPL remains stronger if you require network-copyleft across derivatives.
-  - Impact: Adoption by ministries, municipalities, and vendors; cautious uptake from global startups wary of EU venue and compatibility complexity.
-  - Watch next: Guidance or case law on SaaS duties in GPL‑compatible combos; tooling for compatibility checks; adoption metrics from EU open-source catalogues.
+### Comment pulse
+
+- Compatibility is contested → some readers saw GPL pathways as weakening copyleft; others cited guidance limiting them to necessary combined works.
+- Jurisdiction is the differentiator → EU terminology and authoritative translations help institutions, but may discourage projects centered elsewhere.
+- License choice remains contextual → commenters compared EUPL with GPLv3 and AGPL, while repeatedly warning that interpretations were not legal advice.
+
+### LLM perspective
+
+- View: EUPL prioritizes European legal interoperability over maximal copyleft simplicity, creating flexibility and interpretive complexity together.
+- Impact: Public bodies gain a shared instrument; private developers need counsel before relying on its network-use protections.
+- Watch next: Court interpretation, official compatibility guidance, adoption outside government, and treatment of SaaS modifications in combined works.
