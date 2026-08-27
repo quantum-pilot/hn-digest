@@ -3,14 +3,16 @@
 - Score: 299 | [HN](https://news.ycombinator.com/item?id=46024184) | Link: https://time.com/7336204/meta-lawsuit-files-child-safety/
 
 ### TL;DR
-An unsealed plaintiffs’ brief in multidistrict litigation involving more than 1,800 claimants alleges that Meta delayed child safety changes to protect engagement, obscured internal findings on mental health, tolerated repeated trafficking reports, targeted young users, and left harmful content online. The account draws on quoted depositions and internal records that remain sealed, so TIME could not independently inspect them. Meta rejects the portrayal as selective and misleading, says trafficking accounts are removed immediately, and cites private Teen Accounts, parental controls, human review, and other protections.
+
+An unsealed plaintiffs’ brief in multidistrict litigation alleges Meta knew its platforms exposed minors to adult contact, self-harm, eating-disorder, exploitation, and compulsive-use risks while delaying safeguards that threatened growth. Among the claims are a 17-strike trafficking policy, suppressed deactivation research, and resistance to private-by-default teen accounts. TIME could not inspect the sealed underlying testimony and documents. Meta rejects the account as cherry-picked and misleading, citing immediate exploitation removals, Teen Accounts, parental controls, and later safety changes.
 
 ### Comment pulse
-- Engagement incentives repeatedly overrode proposed safeguards → plaintiffs cite delayed privacy defaults and abandoned filters — counterpoint: Meta says newer protections reach millions.
-- Human review reduces wrongful removals → Meta defends verification before deletion — counterpoint: plaintiffs allege even highly confident harmful detections often remained visible.
-- Commenters want structural remedies → fines appear too small to change behavior — counterpoint: specific enforceable sanctions remain undefined.
+
+- Plaintiffs compare engagement incentives to tobacco economics → safety proposals allegedly lost when they reduced usage or revenue.
+- Meta cites years of research and protections → counterpoint: commenters view later safeguards as inadequate accountability for earlier decisions.
 
 ### LLM perspective
-- View: The filing presents detailed allegations from an adversarial party, not a judicial finding or complete evidentiary record.
-- Impact: Discovery could reshape platform liability, teen design standards, executive accountability, and developer career choices.
-- Watch next: Underlying records, Meta’s formal response, evidentiary rulings, trial outcomes, remedies, and independent Teen Account audits.
+
+- View: The allegations are grave but remain litigants’ presentation until sealed evidence and rebuttals are tested.
+- Impact: Findings could reshape youth defaults, content enforcement, discovery disclosure, and platform liability.
+- Watch next: Underlying depositions, judicial findings, Meta’s full evidentiary response, and measurable Teen Account outcomes.

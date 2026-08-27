@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Investigators recovered an intact SD card from the Titan wreck’s damaged SubC underwater camera, but its data partition used undocumented encryption without a LUKS header. The likely key resided in unencrypted UFS storage on a shattered system module. After copying that storage onto a surrogate board and reconnecting the card to manufacturer hardware, the team recovered 12 stills and nine videos. None came from the fatal voyage: timestamps and scene correlation place them earlier, while a misconfigured network path indicates later imagery was probably stored on the submersible’s external computer.
+Investigators recovered Titan’s battered but sealed underwater camera and an intact SD card whose data partition used custom dm-crypt-style full-disk encryption without a LUKS header. The key was apparently stored in unencrypted UFS NVRAM on a damaged system-on-module. NTSB copied that memory onto a surrogate board and, with SubC and Canada’s TSB, used manufacturer hardware to retrieve 12 stills and nine videos. Timestamp and scene analysis showed none came from the accident voyage; the latest valid image was May 16, 2023.
 
 ### Comment pulse
 
-- Default encryption surprised even the manufacturer → transparent lower-layer security complicated forensic access despite intact media and recoverable configuration storage.
-- Encryption tradeoffs polarized readers → automatic protection prevents unauthorized access. — counterpoint: hidden key management can permanently lock out legitimate owners.
-- The recovery proved anticlimactic → meticulous hardware reconstruction yielded only pre-accident media because operational footage was routed elsewhere.
+- Recovery craft → investigators combined chip removal, binary imaging, hardware substitution, and manufacturer tooling despite a shattered processor.
+- Operational surprise → SubC initially believed the card was unencrypted and apparently lacked clarity about its own storage stack.
+- Empty payoff → extensive recovery yielded useful configuration evidence but no imagery from Mission 5 or the implosion.
 
 ### LLM perspective
 
-- View: The report is a case study in recovering configuration-bound encrypted storage, not evidence from the accident itself.
-- Impact: Device makers need documented recovery architecture when safety investigations may depend on transparently encrypted embedded media.
-- Watch next: Recovery of the external computer, clearer key-management documentation, and whether future cameras preserve independently accessible incident data.
+- View: The report is chiefly a forensic-method case study, not new visual evidence about Titan’s loss.
+- Impact: Device makers and investigators need documented key custody, storage paths, clocks, and recovery procedures before accidents.
+- Watch next: Correlate external-computer evidence, camera configuration logs, manufacturing records, and remaining NTSB docket findings.

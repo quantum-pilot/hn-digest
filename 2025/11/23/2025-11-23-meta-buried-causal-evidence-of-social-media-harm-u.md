@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Unredacted filings in school districts’ lawsuit allege Meta halted Project Mercury after a 2020 Nielsen experiment found one week away from Facebook and Instagram reduced depression, anxiety, loneliness, and social comparison. Plaintiffs say internal researchers considered the social-comparison result causal and valid, while the company later told Congress it could not quantify harm to teenage girls. The filing also alleges weak youth protections and growth-first decisions. Meta disputes the characterization, calls the methodology flawed and evidence cherry-picked, and is contesting how much underlying material becomes public.
+Unredacted filings in school districts’ class action allege Meta halted 2020 Project Mercury research after one-week Facebook or Instagram deactivation reduced reported depression, anxiety, loneliness, and social comparison. Plaintiffs say internal researchers considered the social-comparison finding causal, while Meta later told Congress it could not quantify harm to teenage girls. The filing also alleges ineffective youth safeguards and growth-first decisions. Meta says the study’s methodology was flawed, the allegations cherry-pick documents, and its safety measures work. Commenters demanded enforceable accountability rather than corporate self-policing.
 
 ### Comment pulse
 
-- Families connected platform harm to elder scams → engagement systems expose cognitively vulnerable users at scale beyond the lawsuit’s youth focus.
-- Self-regulation drew rejection → commenters compared suppressed risk research with tobacco, oil, and chemical industries. — counterpoint: undisclosed documents remain adversarially characterized.
-- The seventeen-strike allegation prompted caution → automation may need false-positive safeguards. — counterpoint: plaintiffs portray the threshold as indefensibly permissive.
+- Vulnerable-user harm → readers connected engagement systems with scams, harmful recommendations, and exploitation of elders and children.
+- Governance failure → internal research cannot substitute for independent checks when publication and product decisions remain corporate choices.
+- Evidentiary caution → plaintiffs characterize undisclosed documents aggressively — counterpoint: Meta disputes methodology and context rather than every quoted concern.
 
 ### LLM perspective
 
-- View: The experiment matters because deactivation offers stronger causal evidence, but litigation claims and methodology still require public scrutiny.
-- Impact: Proven concealment could strengthen liability, disclosure, and child-safety regulation across engagement-driven platforms.
-- Watch next: The January hearing, unsealed documents, study design details, Meta’s rebuttal, and remedies sought by school districts.
+- View: The central issue is whether unfavorable internal evidence changed safety decisions, not merely whether social media correlates with distress.
+- Impact: Discovery could reshape platform liability, research disclosure, youth-design rules, and independent auditing.
+- Watch next: Examine unsealed documents, Project Mercury methods, January hearing outcomes, expert testimony, and product-change records.

@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-A proposed MCP extension would let servers supply interactive interfaces alongside tools. Servers predeclare HTML templates through UI resources, hosts render them in sandboxed iframes, and components communicate over existing auditable JSON-RPC; hosts may require consent for interface-initiated tool calls. Static templates remain separate from dynamic results for review, caching, and prefetching, while text fallbacks preserve compatibility. The goal is consistent charts and complex input flows across clients. Critics question whether server-authored interfaces constrain agent flexibility and whether another optional extension will worsen an already fragmented specification.
+The proposed MCP Apps Extension lets servers declare `ui://` HTML templates, associate them with tools, and exchange bidirectional JSON-RPC messages with hosts. Sandboxed iframes, predeclared resources, auditable communication, consent for UI-initiated calls, caching, and text fallbacks aim to make rich interfaces interoperable without breaking existing MCP implementations. OpenAI, Anthropic, and MCP-UI maintainers jointly authored the proposal and early SDK. Commenters disputed whether static embedded interfaces help ordinary users or enlarge an already fragmented protocol when generated interfaces, CLIs, or conventional APIs may be simpler.
 
 ### Comment pulse
 
-- Static versus generated UI divided readers → bespoke agent interfaces promise flexibility. — counterpoint: current models cannot reliably generate polished specialized experiences.
-- Specification growth worried implementers → few servers support existing advanced features. — counterpoint: one optional convention may prevent incompatible proprietary designs.
-- Mainstream usability motivated supporters → embedded interfaces can turn tool protocols into invisible infrastructure for complete user workflows.
+- Accessibility case → embedded charts and forms can expose MCP workflows to users who should never need to understand the protocol.
+- Flexibility objection → server-defined interfaces may constrain task-specific interaction — counterpoint: the extension is optional and preserves text fallbacks.
+- Standardization trade-off → one convention limits proprietary fragmentation but adds implementation and security surface to uneven clients.
 
 ### LLM perspective
 
-- View: Standardizing constrained embedded UI is useful when visualization or structured input matters more than conversational flexibility.
-- Impact: Hosts gain reusable interfaces without implementing every domain, while assuming new sandbox, consent, and compatibility responsibilities.
-- Watch next: Security review, host adoption, text fallback quality, cross-client interoperability, and whether the extension reduces proprietary fragmentation.
+- View: MCP Apps standardizes an existing demand; its success depends more on host adoption than schema elegance.
+- Impact: Server authors can own presentation while clients inherit sandboxing, consent, compatibility, and lifecycle responsibilities.
+- Watch next: Test cross-host portability, permission prompts, template updates, accessibility, fallback quality, and extension versioning.

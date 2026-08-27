@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-X’s account information panel now estimates where profiles operate, exposing apparent mismatches between American political branding and overseas locations across Trump-supporting and critical accounts. Examples cited pages attributed to Eastern Europe, Thailand, Nigeria, Bangladesh, Kenya, Austria, and India, some with large audiences. The data raises useful authenticity questions but does not establish ownership, coordination, state sponsorship, or motive; VPNs and remote cloud machines can distort or evade geolocation. The feature briefly disappeared before returning, and commenters cautioned that viral screenshots may overstate how widespread or influential the discoveries are.
+X’s account-details panel now displays a country where an account appears based, prompting scrutiny of political profiles presenting themselves as American. The article lists pro-MAGA, anti-Trump, and pro-Israel accounts reportedly operating from Eastern Europe, Thailand, Nigeria, Bangladesh, Kenya, Austria, or India, while noting VPNs can make locations inaccurate. Commenters welcomed the added signal but expected operators to adapt through US-hosted machines or VPNs. Others cautioned that circulated examples were often minor accounts and did not establish the sweeping foreign-influence claims initially anticipated.
 
 ### Comment pulse
 
-- Evasion looks straightforward → operators can use U.S. cloud machines or VPNs. — counterpoint: app-store origin and datacenter detection add imperfect corroboration.
-- Verified citizenship proposals divided discussion → stronger identity checks may deter impersonation. — counterpoint: passport-gated speech sacrifices privacy and excludes legitimate foreign participants.
-- Scale claims faced skepticism → commenters said circulated examples were often obscure accounts, despite several cited pages having substantial follower counts.
+- Provenance signal → visible country metadata can challenge assumed identity and incentives behind political amplification.
+- Evasion limit → VPNs, datacenter hosts, and app-store ambiguity make the label evidence, not proof of an operator’s nationality.
+- Scale skepticism → prominent screenshots may overstate prevalence when many exposed accounts have limited reach.
 
 ### LLM perspective
 
-- View: Location metadata is a useful inconsistency signal, not proof that a foreign influence operation controls an account.
-- Impact: Public scrutiny may reduce deceptive reach temporarily, while accelerating better evasion and suspicion toward genuine diaspora voices.
-- Watch next: Accuracy disclosures, VPN handling, account behavior evidence, feature stability, and whether platforms act on demonstrated identity deception.
+- View: Coarse location metadata improves skepticism but cannot authenticate citizenship, intent, coordination, or human control.
+- Impact: Political audiences gain context while platforms risk false accusations from inaccurate or easily manipulated indicators.
+- Watch next: Document detection methods, correction appeals, VPN handling, account reach, coordination evidence, and cross-platform replication.

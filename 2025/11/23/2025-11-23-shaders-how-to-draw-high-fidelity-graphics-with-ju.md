@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-The tutorial explains graphics as a pipeline: vertex shaders transform geometry, rasterization converts triangles into fragments, and fragment shaders calculate colors using coordinates plus uniforms, textures, interpolated values, normals, and lighting math. GPUs trade single-task latency for parallel throughput, making calculations efficient. Examples build gradients and Phong lighting before surveying APIs and compute shaders. Commenters praised the visual teaching but corrected its simplifications: shaders are not inherently GPU-only or coordinate-driven, WebGPU also supports native applications, and APIs map directly onto platform backends rather than uniformly through Vulkan.
+This visual tutorial explains how GPUs trade single-task latency for massive throughput and how vertex shaders, rasterization, and fragment shaders turn geometry into pixels. It walks through coordinate transforms, varyings, depth, anti-aliasing, gradients, and Phong ambient, diffuse, and specular lighting, then surveys GLSL, HLSL, Metal, Vulkan, WebGPU, compute shaders, and CUDA. Commenters praised the presentation and suggested playgrounds, but corrected platform diagrams and stressed SIMT execution, native WebGPU libraries, shader use beyond rasterization, and the difficult cross-platform debugging experience.
 
 ### Comment pulse
 
-- The diagrams drew technical corrections → WebGL and WebGPU map directly to Metal or Direct3D, and Vulkan is neither universal nor open source.
-- Beginner accessibility earned praise → interactive visuals make pipeline concepts tangible. — counterpoint: oversimplifying execution models can teach durable misconceptions.
-- GPU developer experience frustrated readers → backend fragmentation, setup complexity, performance traps, and weak cross-platform debugging overwhelm otherwise elegant shader code.
+- Teaching strength → interactive diagrams make transforms, interpolation, normals, and per-fragment lighting approachable to newcomers.
+- Technical correction → shaders are callbacks that may run beyond GPUs or rasterization, while neighboring GPU threads commonly share instructions.
+- Tooling burden → APIs, data movement, backend differences, synchronization, and weak debuggers complicate the elegant per-element model.
 
 ### LLM perspective
 
-- View: The pipeline framing is pedagogically effective, but the coordinate premise describes a fragment-shader exercise rather than shaders generally.
-- Impact: Readers gain enough mental structure to experiment, yet may need corrective material before reasoning about production GPU behavior.
-- Watch next: Revised API diagrams, SIMT coverage, native WebGPU clarification, and tooling that makes cross-backend debugging less brittle.
+- View: The tutorial succeeds as an intuition builder, though its simplifying platform map should not become an implementation reference.
+- Impact: Beginners gain enough pipeline context to experiment while recognizing that frameworks hide substantial portability work.
+- Watch next: Correct API diagrams, add SIMT divergence, profile CPU-GPU transfers, and compare WebGPU’s native implementations.

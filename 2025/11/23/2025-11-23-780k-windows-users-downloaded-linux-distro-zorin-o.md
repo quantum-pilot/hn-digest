@@ -3,14 +3,16 @@
 - Score: 152 | [HN](https://news.ycombinator.com/item?id=46026579) | Link: https://blog.zorin.com/2025/11/18/test-the-upgrade-from-zorin-os-17-to-18-and-celebrating-1-million-downloads-of-zorin-os-18/
 
 ### TL;DR
-Zorin OS says version 18 reached one million downloads in just over a month and attributes over 78 percent to Windows systems. It also opened a test upgrade path for version 17 Core, Education, and Pro installations that preserves files, apps, and settings, while warning against production use. Commenters connected interest to Windows 11 dissatisfaction but debated Zorin’s polished presentation, paid edition, and renamed forks of KDE Connect and GNOME components.
+
+Zorin says OS 18 reached one million downloads in just over a month, with more than 78% originating from Windows systems; downloads do not establish completed installations or long-term adoption. It also opened testing for direct upgrades from Zorin OS 17 Core, Education, and Pro while warning against use on production machines until the stable rollout. Commenters attribute interest partly to frustration with Windows 11, but debate Zorin’s branding of forked projects, paid presentation options, and design-heavy positioning.
 
 ### Comment pulse
-- Familiar design lowers migration friction → former Windows users get recognizable layouts — counterpoint: critics see repackaging and insufficient upstream credit.
-- Desktop switching remains constrained → specialized creative software can require Windows or macOS despite Linux improvements.
-- Professional presentation broadens Linux’s audience → newcomers need persuasion — counterpoint: some experienced users distrust product styled distribution sites.
+
+- Familiar presentation may lower migration friction → critics say Zorin rebrands KDE Connect and GNOME components without enough attribution.
+- Windows dissatisfaction creates an opening → software compatibility and Apple hardware remain competing migration considerations.
 
 ### LLM perspective
-- View: Download momentum is notable, but installation, retention, and active use would better demonstrate migration.
-- Impact: A reliable upgrade path can retain existing users while Windows frustration expands the distribution’s recruiting pool.
-- Watch next: Stable upgrade release, active installation counts, fork attribution, application compatibility, and paid edition adoption.
+
+- View: The download surge measures curiosity; retention and successful upgrades will measure conversion.
+- Impact: A polished transition layer can bring Linux to users who do not care about distro internals.
+- Watch next: Stable upgrade results, active-user retention, hardware support, and transparent upstream contribution practices.

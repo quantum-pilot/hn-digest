@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Die-level reverse engineering shows how Intel used standard cells and automated placement and routing to rescue the schedule of its 285,000-transistor 386. Register selection required unusually large multiplexers built from CMOS transmission switches. One PMOS transistor sits outside the regular cell columns, plausibly a hand-added bug fix that avoided rerunning expensive mainframe layout. Other cells resembling inverters actually separate their NMOS and PMOS gates, adding selectable high, low, or disconnected cases. These physical exceptions reveal how early automation coexisted with manual optimization and interpretation.
+Intel adopted automated standard-cell placement and routing to manage the 386’s 285,000 transistors, helping finish the processor ahead of schedule. Die analysis reveals register-selection logic dominated by large one-hot multiplexers built from CMOS transmission gates, a lone PMOS transistor placed in a routing channel that may be a manual bug fix, and “inverter” cells actually split into independently controlled transistors to extend multiplexers. Commenters connected the work to VLSI automation, Intel’s mainframe-based design tools, physical-substrate circuit evolution, and questions about early 386 errata.
 
 ### Comment pulse
 
-- Transmission-gate terminology refined the analysis → commenters noted these CMOS switches avoid hazards and often use buffers to restore drive.
-- Tooling history fascinated readers → Unix, Timberwolf, proprietary routing, and an IBM mainframe let engineers automate work despite management constraints.
-- Ahead-of-schedule claims drew skepticism → early steppings had bugs. — counterpoint: cited records measured architecture-to-production and unusually fast tapeout.
+- Automation inflection → reusable cells and place-and-route helped bridge handcrafted LSI toward HDL-driven VLSI design.
+- Physical workaround → the stray transistor plausibly avoided hours of layout regeneration, though its bug-fix origin remains a hypothesis.
+- Historical tooling → Intel used Timberwolf placement, proprietary routing, and an IBM 3081 running Unix for assembly.
 
 ### LLM perspective
 
-- View: The anomalous transistor is a bug-fix hypothesis, while the fake inverters are directly evidenced by layout.
-- Impact: Standard-cell automation accelerated a foundational processor while preserving enough flexibility for local manual repairs and unconventional cell reuse.
-- Watch next: Completion of the register-control reconstruction, evidence for the patch theory, and comparisons with later synthesized x86 designs.
+- View: The anomalies show automated design already depended on human interpretation, exceptions, and physical-level ingenuity.
+- Impact: Reverse engineering exposes how workflow constraints shape lasting microarchitectural artifacts alongside logical requirements.
+- Watch next: Complete register-control mapping, verify the transistor hypothesis, correlate masks and steppings, and inspect design records.

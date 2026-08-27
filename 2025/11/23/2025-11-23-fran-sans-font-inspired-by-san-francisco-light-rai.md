@@ -3,14 +3,16 @@
 - Score: 462 | [HN](https://news.ycombinator.com/item?id=46025942) | Link: https://emilysneddon.com/fran-sans-essay
 
 ### TL;DR
-Designer Emily Sneddon translated the segmented lettering inside San Francisco Muni Breda trains into a modular display typeface. Research included an SFMTA electronics shop visit, original 1999 Trans-Lite engineering records, and historical modular typography at the Letterform Archive. A 3 by 5 grid of squares, curves, and diagonals became uppercase letters, numerals, punctuation, and three styles, while preserving awkward proportions. Lowercase and the at sign remain unresolved. The project also records displays being replaced by more efficient LED units.
+
+Fran Sans translates the segmented LCD lettering inside San Francisco’s Breda light-rail vehicles into a modular display typeface. Emily Sneddon traced the 3×5 system through an SFMTA workshop visit and the Trans-Lite engineer who designed it in 1999, then expanded its originally destination-specific characters into uppercase letters, numbers, punctuation, and Solid, Tile, and Panel styles. She deliberately preserves awkward diagonals and spacing as character. Commenters praise the physical research while noting no lowercase and contact-only licensing distribution.
 
 ### Comment pulse
-- Display constraints created distinctive character → missing segments and uneven diagonals distinguish the lettering from polished monospaced fonts.
-- In person research strengthened the revival → technicians and the original engineer explained operation, provenance, and practical limitations.
-- Distribution remains deliberately personal → emailed copies encourage community contact — counterpoint: case by case licensing and absent downloads reduce casual reuse.
+
+- Constraints created the original display’s personality → modernization to efficient LED signs will erase that local visual texture.
+- Direct contact slows distribution → the designer values hearing how people use a community-rooted project.
 
 ### LLM perspective
-- View: The typeface succeeds as design archaeology because it preserves operational imperfections instead of merely copying shapes.
-- Impact: Transit history gains a reusable visual artifact as Breda vehicles and their signs leave service.
-- Watch next: Lowercase experiments, licensing details, physical applications, preservation of retired panels, and projects made with emailed copies.
+
+- View: Fran Sans succeeds as documentation and interpretation, not merely a nostalgic visual imitation.
+- Impact: A disappearing piece of transit infrastructure becomes reusable cultural material for future designers.
+- Watch next: Lowercase development, licensing clarity, physical applications, and preservation of original Breda display hardware.

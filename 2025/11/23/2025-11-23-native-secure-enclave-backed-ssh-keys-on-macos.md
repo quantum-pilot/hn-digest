@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-macOS Tahoe can create P-256 SSH credentials inside Apple’s Secure Enclave and expose them through the system ssh-keychain security-key provider. Users can require Touch ID, load resident credentials into ssh-agent, or create reference files containing no private material. Setting one provider environment variable lets standard OpenSSH commands use the native path, potentially replacing helper applications. Non-exportable keys maximize isolation but disappear with the device; a separate exportable mode instead encrypts key material with the enclave and supports password-protected backup and import at reduced security.
+macOS Tahoe can create biometric-protected P-256 SSH credentials in the Secure Enclave using `sc_auth`, then expose them through Apple’s `ssh-keychain.dylib` as OpenSSH security keys. `ssh-keygen` can save a public key plus a nonsecret credential reference, while `ssh-agent` can load resident identities directly; an environment variable makes the provider default. Nonexportable keys resist extraction but disappear with the device. A separate exportable variant encrypts private material using the enclave for backup. Commenters weighed native convenience against recovery planning, control limitations, and Secretive’s friendlier interface.
 
 ### Comment pulse
 
-- Backup concerns dominated → device-bound keys vanish with lost hardware. — counterpoint: multiple credentials or an SSH certificate authority provide recovery.
-- Native support attracted Secretive users → fewer applications simplifies setup. — counterpoint: smart-card-style tooling may offer a rougher interface.
-- Reference files were clarified → exported OpenSSH private-key stubs identify enclave credentials but contain no secret key material.
+- Nonexportability benefit → one key per device limits theft, while multiple credentials or an SSH certificate authority preserve recovery.
+- Backup compromise → exportable identities improve portability but weaken the guarantee that private material never leaves hardware.
+- Native adoption → removing a third-party app is attractive if Apple’s smart-card workflow proves reliable and understandable.
 
 ### LLM perspective
 
-- View: Native integration meaningfully improves key custody, provided users deliberately separate non-exportable authentication from recovery access.
-- Impact: Teams can reduce extractable SSH secrets while retaining familiar OpenSSH workflows and explicit biometric approval.
-- Watch next: Tahoe reliability, agent forwarding behavior, enterprise deployment guidance, backup policy, and support beyond P-256 credentials.
+- View: Hardware binding improves credential containment but converts device loss into an explicit access-management problem.
+- Impact: Mac users gain built-in biometric SSH signing without carrying a separate token or running Secretive.
+- Watch next: Verify Tahoe compatibility, biometric-change behavior, agent forwarding prompts, recovery procedures, and Apple documentation.

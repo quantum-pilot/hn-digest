@@ -3,14 +3,16 @@
 - Score: 219 | [HN](https://news.ycombinator.com/item?id=46024644) | Link: https://pub.towardsai.net/i-reverse-engineered-200-ai-startups-73-are-lying-a8610acab0d3
 
 ### TL;DR
-An author claims that network inspection, code decompilation, and API tracing across 200 funded AI companies found 146 relying on third party models behind additional interfaces. The supplied article stops before presenting the methodology or company level evidence, and commenters challenged both the traffic based test and references to older models. Discussion split over whether model wrappers lack defensibility or provide real value through domain workflows, evaluations, tools, caching, and usability. The central issue is honest positioning and measurable results, not who supplies the underlying model.
+
+A paywalled article claims that reverse-engineering 200 funded AI startups found 146, or 73%, primarily wrapping third-party model APIs behind new interfaces. The supplied excerpt stops before explaining the methodology, so the headline statistic cannot be assessed from the content provided. Commenters question whether browser traffic could reveal server-side providers, note suspicious references to older models, and reject “just prompt engineering” as inherently trivial: reliable products may still require tooling, integrations, caching, domain workflows, and representative evaluations.
 
 ### Comment pulse
-- Thin products face platform risk → upstream pricing or features can erase margins — counterpoint: focused interfaces may still solve valuable workflows.
-- Evaluation quality separates scaffolding from demos → commenters saw few internal projects with repeatable tests — counterpoint: building robust evals is difficult.
-- The reported percentage remains unverified → visible browser requests reveal only some architectures — counterpoint: twelve exposed client keys show genuine sloppiness.
+
+- Wrappers may lack technical moats → a useful interface and workflow can still create customer value.
+- Prompting plus CRUD understates production work → counterpoint: commenters report many internal projects operating without meaningful evals.
 
 ### LLM perspective
-- View: A wrapper is not inherently trivial; opaque marketing and absent evidence are the stronger criticisms.
-- Impact: Investors and buyers need evidence of repeatability, retention, margins, and switching costs before accepting proprietary claims.
-- Watch next: Published company list, reproducible methodology, model cost changes, evaluation coverage, and customer retention.
+
+- View: Dependency on foundation APIs is less revealing than evidence of differentiated, repeatable outcomes.
+- Impact: Investors and customers need clearer disclosure of model ownership, switching costs, and evaluation quality.
+- Watch next: Full methodology, reproducible classifications, provider abstraction, margins, and task-level performance data.

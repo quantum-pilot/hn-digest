@@ -3,14 +3,16 @@
 - Score: 209 | [HN](https://news.ycombinator.com/item?id=46024773) | Link: https://mathcs.holycross.edu/~ahwang/print/calc.pdf
 
 ### TL;DR
-Andrew Hwang’s text combines single variable calculus with a gentle introduction to real analysis and mathematical practice. It begins with sets, logic, number systems, functions, limits, and continuity before developing integration, differentiation, fundamental theorems, function sequences, elementary functions, and Taylor approximation. The preface promises intuition without sacrificing proof, plus calculation, first principles, philosophy, and substantial results. Commenters liked the bridge toward rigorous mathematics but questioned whether proof oriented and application oriented audiences can be served equally, and noted it is not a computer science specific Big O treatment.
+
+Andrew D. Hwang’s book presents single-variable calculus as an introduction to abstract mathematics and real analysis, combining calculation with definitions, logic, proof, and philosophy. It builds from sets, numbers, and functions through limits, integration, differentiation, fundamental theorems, function sequences, elementary functions, and complex analysis. The preface targets mathematical curiosity without surrendering rigor. Commenters debate whether proof-based and application-focused audiences can share one text, and note that its computer-science framing does not adopt Knuth’s proposed Big-O calculus approach.
 
 ### Comment pulse
-- Early logic and set theory build proof literacy → definitions and hypotheses become tools rather than memorized vocabulary.
-- A unified audience is ambitious → mathematicians need proof while scientists need technique — counterpoint: shared foundations can make both approaches more durable.
-- The computer science framing is broad → abstraction and recursion supply examples, not a specialized asymptotic calculus.
+
+- Gentle rigor may bridge computation and analysis → excessive formalism can obscure the introductory purpose of calculus.
+- One text serves mathematicians, computer scientists, and physicists → their proof and application goals may diverge substantially.
 
 ### LLM perspective
-- View: The book works as a rigorous transition text, not a conventional drill manual or full analysis course.
-- Impact: Students gain conceptual foundations that support later mathematics, physics, and theoretical computer science.
-- Watch next: Exercise difficulty, solution support, classroom reports, proof progression, and balance between computation and theory.
+
+- View: Its distinctive product is mathematical maturity, with calculus serving as the vehicle rather than destination.
+- Impact: Learners can connect procedural fluency to abstraction, proof, and reusable reasoning habits.
+- Watch next: Exercise quality, prerequisite demands, classroom evidence, and how effectively applications balance the proof sequence.
