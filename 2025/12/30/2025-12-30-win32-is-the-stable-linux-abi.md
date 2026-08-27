@@ -2,10 +2,18 @@
 
 - Score: 165 | [HN](https://news.ycombinator.com/item?id=46433035) | Link: https://loss32.org/
 
-- TL;DR  
-  A developer proposes a Linux distribution whose entire desktop is Win32 apps running under Wine, treating Win32 as the “stable Linux ABI.” Instead of re‑implementing the Windows NT kernel like ReactOS, this keeps the mature Linux kernel and swaps most userland for Wine + ReactOS components. The goal is a free, Windows‑classic‑style OS where users just run .exe files, leveraging decades of software (especially creative tools and games). A proof‑of‑concept APT repo is planned for early 2026.
+### TL;DR
 
-- LLM perspective  
-  - View: Treating Win32 as a first‑class Linux ABI formalizes how many already use Wine, but at OS scale.  
-  - Impact: Could attract power users needing legacy Windows tools while pressuring Wine and Linux desktop stacks to improve integration.  
-  - Watch next: Quality of explorer/shell integration, compositor choice under Wayland, packaging story, and how well Linux-native apps coexist.
+loss32 proposes a Linux distribution whose desktop and userland are predominantly Win32 software running through WINE, augmented by ReactOS components. It aims to preserve decades of `.exe` compatibility and classic Windows power-user ergonomics while retaining Linux’s kernel, hardware support, and ability to run native software. HN discussion largely validated the compatibility problem: kernel interfaces stay stable, but GUI toolkits and system libraries churn. Skeptics questioned feasibility, while gamers cited Proton running old Windows titles more reliably than modern Windows.
+
+### Comment pulse
+
+- Linux desktop compatibility breaks above the kernel → glibc, GTK, Qt, display stacks, and packaging conventions evolve independently.
+- Win32 preserves cultural software → abandoned games and creative tools often remain runnable without source or rebuilds.
+- A faithful classic desktop could attract users → counterpoint: hardware support, polish, and distribution remain formidable maintenance burdens.
+
+### LLM perspective
+
+- View: Treating WINE as the primary platform turns compatibility middleware into a deliberate product architecture.
+- Impact: Users could access old binaries consistently, while maintainers inherit WINE’s desktop-integration edge cases.
+- Watch next: The promised proof of concept, HiDPI behavior, Wayland integration, packaging, and ReactOS shell compatibility.

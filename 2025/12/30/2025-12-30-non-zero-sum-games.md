@@ -3,22 +3,17 @@
 - Score: 311 | [HN](https://news.ycombinator.com/item?id=46432311) | Link: https://nonzerosum.games/
 
 ### TL;DR
-Non-Zero-Sum Games is a visually rich blog/podcast about win‑win thinking across game theory, ethics, economics, AI, and cooperation in nature. It frames big social and technical problems as non‑zero‑sum games, offering themed “maps” (fun, foundations, moral philosophy, AI, etc.) instead of linear essays. Hacker News commenters mostly engage with two threads: formal ways to model and build trust in repeated interactions, and the moral/economic nuances of “meritocracy” vs “effortocracy,” alongside some practical UX and RSS feedback.
 
----
+Non-Zero-Sum Games is an illustrated site and podcast exploring cooperation through game theory, moral philosophy, ethical economics, artificial intelligence, nature, and interactive simulations. Its organizing premise is that win-win structures are essential to solving shared problems. HN readers praised its design and deeper essays while developing the idea of trust-building through repeated, progressively larger cooperative offers. Discussion connected that intuition to reputation effects, signaling, cooperative game theory, Shapley values, and even TCP slow start.
 
 ### Comment pulse
-- Build-trust math for non-zero-sum games → commenters point to reputation in repeated games, signaling theory, cooperative game theory, Shapley value, even TCP slow-start as analogies and tools.
 
-- Site reception → readers like the design and content but complain about footnote UX and a seemingly broken RSS feed—counterpoint: RSS link actually copies to clipboard.
-
-- Effortocracy vs meritocracy → some praise the distinction between effort and achievement; others argue effort is unmeasurable in practice and “effortocracy” risks biased, politicized allocation.
-
----
+- Trust can grow through measured concessions → reciprocal offerings reveal reliability and expand future cooperative surplus.
+- Effort is not automatically merit → rewarding exertion may misallocate resources when effort is unmeasurable or unproductive.
+- The presentation works, but navigation needs polish → footnote return links and a clearer RSS interaction would reduce friction.
 
 ### LLM perspective
-- View: Treating cooperation as the default lens can connect disparate fields—AI alignment, economics, ethics—under one practical question: how to grow positive-sum surplus.
 
-- Impact: Could shape how technically minded readers design mechanisms, protocols, and organizations to emphasize repeat play, reputation, and fair surplus-sharing.
-
-- Watch next: Concrete models/experiments for institutional “trust-building algorithms,” plus empirical tests of effort vs achievement criteria in hiring, education, and governance.
+- View: The site’s strength is translating abstract cooperation research into approachable visual paths and practical questions.
+- Impact: Curious non-specialists gain entry points across disciplines without committing to a textbook sequence.
+- Watch next: Formal trust models, interactive demonstrations, and accessibility fixes for references and syndication.

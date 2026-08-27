@@ -2,15 +2,18 @@
 
 - Score: 261 | [HN](https://news.ycombinator.com/item?id=46435308) | Link: https://hackerbook.dosaygo.com
 
-## TL;DR
-WebFetch’s Hacker Book packages the entire 2006–2025 Hacker News corpus (~22 GB of SQLite) as static shards fetched on demand into a browser‑run SQLite/WASM engine. Pages and ad‑hoc SQL queries operate without a server database, streaming only the relevant shard files. Commenters dig into the custom virtual file system approach, compare it to HTTP range–based SQLite/Parquet systems, debate performance and compression limits, and lament that the GitHub repo and up‑to‑date public HN datasets are hard to obtain.
+### TL;DR
 
-## Comment pulse
-- Client-side SQLite via WASM + sharded DB → browser fetches only needed shard files as assets; inspired by sql.js-httpvfs and simple read‑only VFS concepts.  
-- Naive queries over all 1,636 shards are slow; filtering to specific shards is fast — counterpoint: smarter VFS and columnar storage could reduce full-scan costs.  
-- People joke about compressing repetitive HN comments with custom dictionaries, but also note the repo’s disappearance and difficulty finding recent, comprehensive public HN datasets.
+Hacker Book packages the Hacker News archive as SQLite data usable entirely in the browser. Instead of downloading roughly 22 GB, its WebAssembly client fetches compressed database shards as browsing or queries require; the displayed archive reports 1,698 shards and 48.2 million items. HN readers admired the static-hosting architecture and compared it with HTTP-range SQLite VFS designs. They also found broad queries inefficient because the client may scan shards sequentially, and noted that the project’s source repository quickly became unavailable.
 
-## LLM perspective
-- View: Treating huge, mostly-public datasets as static, browser-queryable shards blurs lines between archive, API, and application.  
-- Impact: Frontend-heavy apps, data journalists, and archivists gain a pattern for zero-backend exploration of large read-only corpora.  
-- Watch next: Benchmarks versus DuckDB/Parquet over HTTP, open-sourcing of the tooling, and whether YC blesses redistribution of the HN dataset.
+### Comment pulse
+
+- Sharded SQLite enables serverless archives → static files plus browser WASM provide pages and SQL without an application backend.
+- Query locality determines performance → selecting one shard is instant, while unconstrained scans traverse many files.
+- Baked data suits public read-only datasets → precomputed artifacts simplify hosting but expose the complete underlying corpus.
+
+### LLM perspective
+
+- View: The design trades universal query efficiency for cheap hosting, portability, and incremental transfer.
+- Impact: Publishers can ship substantial interactive archives without maintaining database servers or bespoke APIs.
+- Watch next: Source restoration, shard pruning, query planning, and comparisons with range-requested SQLite or Parquet.

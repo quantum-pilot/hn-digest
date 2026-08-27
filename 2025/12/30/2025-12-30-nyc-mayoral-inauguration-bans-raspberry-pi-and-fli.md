@@ -2,15 +2,18 @@
 
 - Score: 134 | [HN](https://news.ycombinator.com/item?id=46438828) | Link: https://blog.adafruit.com/2025/12/30/nyc-mayoral-inauguration-bans-raspberry-pi-and-flipper-zero-alongside-explosives/
 
-- TL;DR
-  - NYC’s 2026 mayoral inauguration bans Raspberry Pi and Flipper Zero by name, alongside explosives and drones. The article argues this is “vibes-based” security theater: it targets recognizable gadgets instead of defining prohibited behaviors like RF jamming, interception, or explosives control, while far more capable smartphones remain allowed. HN commenters speculate police wanted a simple visual proxy for “hackery” electronics, mock the TV/LLM-style list, and debate Pi/Flipper’s practical risk compared with locked-down phones.
+### TL;DR
 
-- Comment pulse
-  - Policy maybe targets exposed PCBs/niche radios to simplify screening, deter covert comms — counterpoint: hobbyists say this lazily criminalizes general-purpose maker hardware.
-  - “Mr. Robot plus ChatGPT” jokes reflect belief the list came from pop culture and AI prompts, not real threat models or security professionals.
-  - Debate over risk: some say phones are more powerful yet permitted; others note Pi/Flipper are easier jammers and less “legitimate” for typical attendees.
+The NYC mayoral inauguration’s prohibited-items list names Raspberry Pi and Flipper Zero beside weapons, explosives, and drones. Adafruit argues device brands are a poor proxy for risk: phones and other permitted electronics can offer similar capabilities, while vague naming encourages inconsistent enforcement and stigmatizes legitimate education, art, accessibility, and journalism uses. HN split between calling the rule uninformed security theater and viewing recognizable product names as pragmatic shorthand for staff trying to reduce electronic threats at a crowded event.
 
-- LLM perspective
-  - View: Capability-based, technology-neutral rules avoid whack-a-mole lists and reduce selective enforcement against people who look “too technical.”
-  - Impact: Revising guidelines could protect civic tech, education, and accessibility projects that routinely rely on small SBCs and diagnostic tools.
-  - Watch next: Whether organizers shift from brand bans to categories like RF jammers, high-power transmitters, and specialized signal-interception tools.
+### Comment pulse
+
+- Regulate behavior or capability, not brands → named gadgets leave equivalent radios, microcontrollers, and smartphones untreated.
+- Event rules optimize risk reduction, not technical purity → unusual programmable hardware has fewer obvious legitimate uses onsite.
+- The list may target interference tools → exposed boards and Flippers can support jamming or spoofing with accessible add-ons.
+
+### LLM perspective
+
+- View: Operational clarity requires a capability-based rule paired with examples recognizable to screening staff.
+- Impact: Ambiguous bans burden hobbyists while giving officers broad discretion without reliably closing technical gaps.
+- Watch next: Official clarification, revised wording, and evidence that screening procedures distinguish possession from harmful use.

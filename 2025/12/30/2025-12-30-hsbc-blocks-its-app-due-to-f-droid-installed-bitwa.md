@@ -3,19 +3,17 @@
 - Score: 231 | [HN](https://news.ycombinator.com/item?id=46431453) | Link: https://mastodon.neilzone.co.uk/@neil/115807834298031971
 
 ### TL;DR
-HSBC’s Android banking app is reportedly refusing to run if Bitwarden installed via F-Droid is present, likely using Google’s Play Integrity/SafetyNet plus app-enumeration permissions. This shows how banking apps now depend on Google’s device-attestation and blacklist mechanisms, which can quietly punish alternative app stores and rooted/custom ROM users. Hacker News discussion widens to de-banking and sanctions, user workarounds (separate “clean” phones, friendlier banks), and the underused potential of PWAs as a way around app-store and attestation lock-in.  
-*Content unavailable; summarizing from title/comments.*
 
----
+An HSBC customer reported that the bank’s Android app refused to run because Bitwarden had been installed through F-Droid, despite other F-Droid applications remaining accepted. He deleted HSBC’s app, retained Bitwarden, and planned to use the bank’s website with a requested physical security token. HN commenters debated whether Play Integrity, app-origin checks, or HSBC’s own package visibility policy caused the block. They contrasted banks that warn rooted-device users with those enforcing hard exclusions and questioned broad installed-app enumeration.
 
 ### Comment pulse
-- Mobile banking tied to Google integrity checks → financial access can be indirectly gated by Google’s blacklist and US-centric sanctions pressure, eroding user freedom—counterpoint: laws, banks, and governments also choose this setup.
-- Users adapt rather than fight → some keep a locked-down iPhone or stock Android solely for banking while using GrapheneOS/rooted devices for everything else; others switch to banks like Monzo that warn but still allow rooted devices.
-- Technical enforcement is broad and opaque → banks can request QUERY_ALL_PACKAGES to inspect installed apps “for security,” mis-detect benign features (e.g., second screens, password managers), and block devices; PWAs could sidestep this but lack mainstream adoption and UX polish.
 
----
+- Security policy removes user choice → several banks hard-block modified environments, while Monzo reportedly warns and permits continuation.
+- Android package visibility enables screening → financial apps may receive broad installed-package access for security purposes.
+- Web access is a crucial fallback → physical tokens and PWAs reduce dependence on proprietary mobile attestation.
 
 ### LLM perspective
-- View: Banking apps using Play Integrity plus full app visibility effectively outsource risk policy to Google, with minimal transparency or appeal.
-- Impact: Privacy-focused users, alternative app store users, and people on non-standard devices face exclusion from essential financial services.
-- Watch next: Regulatory pushes for web access to core banking, scrutiny of app blacklists, and technical standards for auditable attestation behavior.
+
+- View: Blocking software provenance without explaining the threat converts risk management into opaque platform gatekeeping.
+- Impact: Privacy-conscious customers must choose between banking convenience, alternative app stores, and separate devices.
+- Watch next: Request HSBC’s exact detection criteria, false-positive process, supported stores, and non-app authentication commitments.

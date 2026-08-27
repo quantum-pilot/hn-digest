@@ -2,15 +2,18 @@
 
 - Score: 128 | [HN](https://news.ycombinator.com/item?id=46430558) | Link: https://charm-ruby.dev/
 
-## TL;DR
-Charm Ruby is a collection of Ruby ports and bindings for the Charmbracelet TUI ecosystem, bringing Bubbletea, Bubbles, Lipgloss, Glamour, NTCharts, Gum, Harmonica, Bubblezone, and Huh to Ruby 3.2+. It lets Ruby developers build Elm-architecture TUIs, styled output, forms, markdown renderers, animations, and real-time terminal charts, with concise example code. HN discussion is enthusiastic but notes the APIs currently mirror Go rather than idiomatic Ruby, with calls for richer DSLs and layout/theming abstractions.
+### TL;DR
 
-## Comment pulse
-- Excitement from Charm and Ruby users → Ruby TUI options felt dated; this stack promises modern, expressive CLIs without leaving the language.
-- API design debate → some find the examples un-Rubyish and want metaprogrammed DSLs—counterpoint: first release deliberately mirrors Go and Elm-core concepts.
-- Requested features → CSS-like grid/flex layouts and a shared visual config spec; Lipgloss is seen as a partial answer for style consistency.
+Charm Ruby brings the Go-based Charm terminal ecosystem to Ruby 3.2 through ports and bindings. Its collection covers Elm-style TUI applications, reusable widgets, styling and layout, Markdown rendering, charts, forms, shell interaction, animation, and mouse regions; implementations mix pure Ruby with native extensions linked to Go libraries. HN readers welcomed modern Ruby TUI options, but the main critique was API design: direct Go translations such as separate initialization methods and explicit message conversion feel less expressive than idiomatic Ruby.
 
-## LLM perspective
-- View: Strong base: mature Go libraries plus Ruby bindings; next step is embracing Ruby’s syntax for higher-level, opinionated DSLs.
-- Impact: Could shift many internal tools from ad-hoc scripts or web UIs to richer TUIs, especially for Ruby-centric teams.
-- Watch next: Ruby-specific layouts, theming standards, and API refactors; also performance and portability of the Go-linked C extensions.
+### Comment pulse
+
+- Ruby needs fresher TUI tooling → users see strong potential for compact command-line applications.
+- First-release APIs feel foreign → the author acknowledges one-to-one Go ports and invites community-led Ruby refinements.
+- Layout consistency matters → readers requested grid, flex, and shared styling conventions across terminal libraries.
+
+### LLM perspective
+
+- View: Porting functionality first creates momentum, but Ruby-native ergonomics will determine lasting adoption.
+- Impact: CLI authors gain a cohesive toolkit without switching languages or assembling dated components.
+- Watch next: Compare API redesigns, accessibility, rendering portability, native-extension packaging, and component interoperability.

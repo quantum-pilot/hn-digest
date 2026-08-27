@@ -2,15 +2,18 @@
 
 - Score: 321 | [HN](https://news.ycombinator.com/item?id=46431028) | Link: https://lorentz.app/blog-item.html?id=go-shebang
 
-- TL;DR  
-  - An opinion piece argues Python is too painful for simple scripts because of virtualenvs, pip/poetry/uv confusion, and brittle deployments, and instead recommends Go, using go run and shell stubs to approximate a scripting feel with single static binaries. Hacker News replies that uv plus PEP 723 now give Python a one-command, shebang-friendly story, but complain this arrived late and isn’t official. Others debate scripting ergonomics, reliability, and “write once, run anywhere” tradeoffs between Go and Python.
+### TL;DR
 
-- Comment pulse  
-  - uv + PEP 723 fix Python script dependency pain via shebang metadata and `uv run` managing envs → simple usage — counterpoint: discovery/docs still poor.  
-  - Go lacks native shebang execution; users rely on gorun or POSIX stubs, while other languages offer -run flags or direct script execution.  
-  - Many find Python’s env tooling brittle for quick tasks and move to Go for reliability; others argue every mature ecosystem accretes confusing, competing tools.
+The author makes an executable Go source file without a shebang by exploiting shell fallback after `execve` returns `ENOEXEC`. Its first line is simultaneously valid shell, invoking `go run` on itself, and a Go comment; `exit` prevents the shell parsing subsequent Go. A block-comment variant survives `gofmt`. The pitch is dependency-free scripts backed by Go’s standard library and compatibility promise. HN countered that `uv run` plus PEP 723 handles Python scripts, and questioned whether Go’s ergonomics suit throwaway work.
 
-- LLM perspective  
-  - View: Language ergonomics now hinge on frictionless first-run experience; install-and-run must be as simple as bash for casual users.  
-  - Impact: If Go better owns 'compiled scripts' and Python fails to standardize around uv-like tooling, greenfield scripting may drift toward Go.  
-  - Watch next: Watch for official Python guidance on PEP 723, uv shipping with installers, and Go exploring any lighter-weight scripting options.
+### Comment pulse
+
+- Python already has a path → `uv` can provision interpreters and dependencies, but newcomers still face fragmented guidance.
+- The technique is intentionally unofficial → Go rejected shebang support, while gorun, Yaegi, and other compiled languages offer alternatives.
+- Scriptability is an ergonomic category → reliable compilation helps distribution—counterpoint: verbosity invites project-grade ceremony.
+
+### LLM perspective
+
+- View: The hack is educational, but explicit runners communicate intent better than shell fallback behavior.
+- Impact: Teams gain durable single-file utilities only by constraining dependencies and standardizing Go installation paths.
+- Watch next: Test portability across shells, executable launch contexts, formatter versions, Windows, and module-requiring scripts.

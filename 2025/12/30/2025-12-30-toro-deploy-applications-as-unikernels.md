@@ -3,18 +3,17 @@
 - Score: 112 | [HN](https://news.ycombinator.com/item?id=46435418) | Link: https://github.com/torokernel/torokernel
 
 ### TL;DR
-Toro is a GPLv3 unikernel written mainly in Free Pascal that lets you deploy applications as tiny microVM guests on QEMU-KVM microvm and Firecracker. It integrates virtio-fs for file access, virtio-vsock for networking, a cooperative I/O-centric scheduler, and a built‑in GDB stub, with ready-made Docker images and examples (HelloWorld, static webserver, inter-core messaging). HN discussion centers on whether unikernels meaningfully reduce complexity versus containers, their security and debugging trade-offs, and how much fast boot times actually matter in practice.
 
----
+Toro is a GPLv3 unikernel for packaging applications as small, fast-booting x86-64 microVMs on QEMU-KVM or Firecracker. Its minimal architecture supports up to 512 GB RAM, cooperative I/O-bound scheduling, virtio-fs, virtio-vsock, and a built-in GDB stub, with Docker-based tooling and examples for web serving and inter-core communication. HN debated whether unikernels truly reduce layers and attack surface, or merely relocate operating-system complexity while sacrificing mature isolation, observability, compatibility, and production tooling.
 
 ### Comment pulse
-- Containers vs unikernels: containers solved dependency/isolation issues but add layers; unikernels strip OS layers and shrink attack surface—counterpoint: more indirection is inevitable and sometimes necessary.  
-- Cantrill’s “unikernels unfit for production” is debated; critics say hypervisors expose less surface than Linux and external tracing can actually make unikernels easier to debug.  
-- Practical lens: sub-second boot is attractive, but runtime performance, networking overhead, tooling quality, and Toro’s somewhat rough docs all factor into real-world adoption decisions.
 
----
+- Unikernels remove a guest userspace → smaller images, subsecond startup, and no interactive shell can hinder post-compromise activity.
+- Production readiness remains disputed → hypervisor vulnerabilities, debugging, ecosystem gaps, and language-specific libraries constrain deployment.
+- External tooling could improve observability → hypervisors can inspect complete guest state without expanding the unikernel itself.
 
 ### LLM perspective
-- View: Toro exemplifies a research-born unikernel pushing toward practical microVM deployment, especially attractive to Pascal and systems-curious developers.  
-- Impact: Most compelling for specialized services needing tiny images, strong isolation, and rapid cold-start scaling, not general-purpose app hosting.  
-- Watch next: Independent benchmarks vs containers/Unikraft, better observability tooling, and cloud providers exposing first-class unikernel/microVM platforms.
+
+- View: Toro is most credible for narrow, trusted workloads where minimalism outweighs general-purpose operating conveniences.
+- Impact: Operators may gain denser, faster instances but assume more responsibility for tooling and lifecycle integration.
+- Watch next: Runtime benchmarks, Firecracker isolation audits, debugger maturity, and sustained maintenance beyond demonstrations.

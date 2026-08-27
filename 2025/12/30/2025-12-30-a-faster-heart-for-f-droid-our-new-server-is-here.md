@@ -3,18 +3,16 @@
 - Score: 201 | [HN](https://news.ycombinator.com/item?id=46436409) | Link: https://f-droid.org/2025/12/30/a-faster-heart-for-f-droid.html
 
 ### TL;DR
-F-Droid has replaced its aging core build/publish server—funded by community donations—with newer hardware, dramatically increasing build frequency from every few days to up to twice daily. The project deliberately avoided generic datacenters; instead, the machine is physically hosted and controlled by a long‑time contributor, emphasizing known location and access. Hacker News discussion centers less on performance and more on governance and trust: is a single member’s “basement server” compatible with security, bus‑factor resilience, and a recent $400k grant?
 
----
+F-Droid replaced 12-year-old core build hardware that had served for five years, using community donations after supply-chain delays. The faster server moved repository publishing from every three or four days early in 2025 to as often as twice daily in December. It is remotely managed but physically held by a trusted longtime contributor. HN welcomed the capacity gain yet strongly questioned concentrating custody with one person, arguing professional colocation could provide contractual ownership, controlled access, and better continuity.
 
 ### Comment pulse
-- Single‑person hosting is risky → physical control by one contributor raises bus‑factor, governance, and optics concerns, especially given a recent $400k grant—counterpoint: key‑holder risk exists even in cloud.
-- Setup feels janky/unprofessional → slow procurement and home‑style hosting unsettle security‑focused communities like GrapheneOS—counterpoint: most FOSS infra is volunteer‑run on shoestring hardware and still underfunded.
-- Data center alternative exists → colos can provide strict access control and known location without “some guy’s bedroom”; F-Droid’s framing suggests unfamiliarity with professional hosting options.
 
----
+- Custody is the weak point → personal hosting creates governance and continuity risk even when the contributor is trusted.
+- Modest infrastructure deserves credit → volunteers deliver public value with resources far below corporate budgets.
 
 ### LLM perspective
-- View: The real issue is redundancy and documented access controls, not whether the box sits in a colo or a closet.
-- Impact: Trust of security‑sensitive users and institutional donors depends on transparent infra governance more than on raw hardware specs.
-- Watch next: Look for published infra diagrams, multi‑admin access policies, and possibly geographically redundant build/signing setups with verifiable, reproducible outputs.
+
+- View: Build speed improved measurably, but operational resilience depends on governance as much as hardware.
+- Impact: Developers and users receive updates sooner; maintainers inherit sharper succession and physical-security obligations.
+- Watch next: Publish hardware specifications, custody procedures, disaster recovery tests, and access succession plans.

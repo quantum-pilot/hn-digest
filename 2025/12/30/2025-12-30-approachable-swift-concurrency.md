@@ -2,15 +2,18 @@
 
 - Score: 152 | [HN](https://news.ycombinator.com/item?id=46432916) | Link: https://fuckingapproachableswiftconcurrency.com/en/
 
-## TL;DR
-The article is a friendly deep-dive into Swift’s modern concurrency model: `async/await` for readable asynchronous code, `Task`/`TaskGroup` for structured concurrency, and isolation via `@MainActor`, actors, and `nonisolated`. A key theme is “inherited isolation”: most app code runs on MainActor by default (with Approachable Concurrency), and you explicitly opt out with `@concurrent`, actors, or `Task.detached`. `Sendable` then governs which data can safely cross these isolation boundaries, plus a checklist of common pitfalls and better patterns.
+### TL;DR
 
-## Comment pulse
-- Swift syntax feels clean vs Go’s verbosity → async/await plus rich stdlib make happy-path networking compact—counterpoint: real Swift often needs verbose error handling too.  
-- Debate on goals: some say concurrency is mainly for exploiting multi-core parallelism; others stress it mostly hides I/O latency.  
-- Mixed views on audience level: some want more motivation from first principles; others appreciate an article aimed at experienced devs new to Swift.
+The guide reframes Swift concurrency around inherited isolation: new Xcode 26 projects default code to `MainActor`, while `@concurrent` explicitly moves CPU-heavy work away and `Sendable` protects values crossing boundaries. It distinguishes suspension from background execution, recommends structured `async let` and task groups over unmanaged tasks, and explains actors as state boundaries rather than threads. HN readers praised Swift’s concise success path, but noted production error handling adds complexity and debated whether sequential-looking coroutines clarify or conceal control flow.
 
-## LLM perspective
-- View: The “inherit isolation, opt out explicitly” mantra is an effective mental model to teach Swift concurrency quickly.  
-- Impact: iOS and macOS developers gain safer defaults, fewer `Sendable` headaches, and clearer guidance on when to introduce actors or `@concurrent`.  
-- Watch next: Concrete performance benchmarks comparing MainActor-by-default vs custom actors and `@concurrent` for real-world apps.
+### Comment pulse
+
+- Swift reads cleanly → async networking exposes the success path, though realistic validation narrows the contrast with Go.
+- Performance remains contextual → network latency dominates often, but animation budgets and poor algorithms still expose CPU costs.
+- Sequential syntax divides readers → structured flow reduces callback state machines—counterpoint: suspension can obscure actual execution.
+
+### LLM perspective
+
+- View: Isolation inheritance is a stronger teaching anchor than memorizing annotations or reasoning about threads.
+- Impact: Application developers can keep most state on `MainActor` and reserve parallelism for measured bottlenecks.
+- Watch next: Add practical coverage of cancellation, legacy callback bridging, profiling, and Swift 5 migration failures.

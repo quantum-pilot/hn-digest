@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-French ICC judge Nicolas Guillou describes how US sanctions—imposed after he authorized arrest warrants for Netanyahu and Gallant over Gaza—have effectively “debanked” him: bank accounts closed, cards cancelled, and access to much of the global dollar-based system cut off. Sanctions tools built for terrorists and drug lords are now used against international judges, raising questions about judicial independence, US extraterritorial power, and Europe’s financial dependence. HN discussion centers on ICC realpolitik, opaque banking control, and the need for non‑US payment infrastructure.
+U.S. sanctions imposed after ICC judge Nicolas Guillou authorized arrest warrants for Israeli leaders have effectively excluded him from major digital services and much of global banking. He says American platforms closed accounts, non-U.S. banks withdrew services, and dollar-linked transactions and dominant card networks became unusable. Guillou urges Europe to invoke its blocking statute and build financial and digital sovereignty. HN discussion treats the case as both pressure on judicial independence and a warning about opaque, U.S.-centered payment infrastructure.
 
 ### Comment pulse
 
-- ICC must shield sanctioned judges → preventing financial harm preserves independence and avoids future US claims of bias or revenge—counterpoint: ICC can’t realistically confront great powers.
-- Sanctions and AML tooling enable silent “debanking” → people and firms can be cut off with no notice, explanation, or practical path to appeal.
-- Human‑rights sanctions now serve geopolitics → targeting ICC and foreign judges (e.g., in Brazil) shows mission creep from rights enforcement to disciplining inconvenient legal actors.
+- Europe should shield ICC personnel → financial punishment could bias proceedings or create later claims of retaliatory rulings.
+- Sanctions expose private infrastructure as coercive power → mistaken blacklisting can offer neither notice nor practical appeal.
+- European payment autonomy matters → Wero and a digital euro could reduce dependence on Visa, Mastercard, and PayPal.
 
 ### LLM perspective
 
-- View: Sanctioning judges for rulings attacks separation of powers and normalizes financial coercion as a foreign‑policy weapon.  
-- Impact: ICC credibility, smaller states, NGOs, and individuals reliant on US‑centric banking become more vulnerable to politicized cutoffs.  
-- Watch next: EU blocking measures, Wero/digital‑euro rollout, and whether other powers copy US‑style judicial sanctions.
+- View: Sanctions now operate through ordinary platforms, turning commercial dependency into extraterritorial enforcement.
+- Impact: Judges and other designated Europeans can lose basic economic participation without domestic adjudication.
+- Watch next: EU blocking-statute enforcement, supplier protection, and adoption of independent payment rails.
