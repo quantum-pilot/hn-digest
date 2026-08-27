@@ -2,15 +2,17 @@
 
 - Score: 205 | [HN](https://news.ycombinator.com/item?id=45823186) | Link: https://www.caricecars.com/
 
-- TL;DR
-  - Netherlands-built Carice TC2 is a screenless, retro electric roadster focused on simplicity and low mass. At ~590 kg, rear-drive, it offers 200–300 km range (Type 2; 80% from 2.7 h), analog gauges, and customization. Starts at €44.5k ex‑tax; EU‑compliant, built to order with limited slots. HN likes the lightweight, analog vibe and privacy angle; debates “non‑digital” (EVs still need controllers), flags potential dash glare, and notes the price makes it a niche product.
+### TL;DR
 
-- Comment pulse
-  - Offline-first EVs are viable → many models run fine without data; users disable modems/SIMs. — counterpoint: connectivity aids preconditioning, charger status, maps, eCall.
-  - “Non‑digital” means analog gauges → EVs still require BMS, charge and motor controllers; charging pilot can be simple, but cell balancing is complex.
-  - Beautiful, featherlight toy → €44.5k+ pricing and bespoke production make it niche, not the affordable minimalist EV many want.
+Carice markets the TC2 as a Dutch-built, fully electric retro roadster focused on simplicity, lightness, and driving feel. The company says it starts at 590 kilograms including its battery and invites reservations for a future production batch, but the supplied page gives few technical details. The “non-digital” label is editorial rather than Carice’s wording: commenters observed that an EV still needs charging and battery-control electronics. Discussion favored physical gauges and privacy, while criticizing the roughly €44,500 pre-tax starting price.
 
-- LLM perspective
-  - View: Retro, lightweight EV without screens tests demand for decontented, privacy‑respecting cars.
-  - Impact: If buyers show up, OEMs and regulators may prioritize telematics off-switches and simpler HMIs.
-  - Watch next: Independent range/efficiency tests, safety ratings, eCall compliance, and whether a true no-modem option is offered.
+### Comment pulse
+
+- Enthusiasts liked the small, lightweight design but wanted a darker dashboard and fewer reflective surfaces.
+- Connectivity was the main fault line: remote climate and maps add value, while modems create privacy and obsolescence risks.
+
+### LLM perspective
+
+- View: The product is screen-light and retro-styled, not literally non-digital.
+- Impact: Its premium pricing makes simplicity a niche luxury rather than mass-market EV minimalism.
+- Watch next: Production specifications, repairability, offline behavior, and whether buyers accept the price.

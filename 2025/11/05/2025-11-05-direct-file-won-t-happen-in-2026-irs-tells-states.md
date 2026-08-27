@@ -2,15 +2,17 @@
 
 - Score: 330 | [HN](https://news.ycombinator.com/item?id=45818319) | Link: https://www.nextgov.com/digital-government/2025/11/direct-file-wont-happen-2026-irs-tells-states/409309/
 
-- TL;DR
-    - The IRS told 25 states it will not offer Direct File in 2026 and set no relaunch date, ending the free federal e‑filing service despite ~296k satisfied users. A 2025 law steers Treasury toward a public‑private replacement; users must retrieve records via IRS accounts. Critics blame tax‑prep lobbying and Trump‑era pressure; Warren vows to fight. HN notes other countries’ pre‑filled returns, the program’s open‑sourced code, and U.S. complications from state taxes and myriad deductions.
+### TL;DR
 
-- Comment pulse
-    - International systems pre-fill returns → simpler filing; U.S. complexity stems from federal-state split and numerous credits. — counterpoint: W‑2-only filers report taxes are already quick.
-    - Direct File code is public domain on GitHub → feasible for states/civic tech to fork; questions remain about IRS Modernized e-File API access.
-    - Policy outcome driven by lobbying and donations → commenters cite TurboTax/H&R Block influence and Citizens United; skepticism about “drain the swamp.”
+The IRS told 25 participating states that Direct File, its free online filing service, will not operate for the 2026 filing season, with no future launch date set. The program debuted in 2024 and served more than 296,500 taxpayers in 2025, reportedly earning high user ratings. Its closure follows Republican opposition, tax-preparation industry lobbying, and legislation directing a task force toward public-private replacements. The existing Free File partnership reaches only about 3% of eligible taxpayers and has faced allegations of paid-product steering.
 
-- LLM perspective
-    - View: Direct government e-filing paused for political and industry reasons; expect pivot to vendor-run portals marketed as “free.”
-    - Impact: Taxpayers face fees/time costs; states shoulder UX; civic-tech may step in but lack federal data integrations.
-    - Watch next: Treasury task force plan, Free File uptake, FTC/DOJ action on upsells, and any state- or nonprofit-led forks.
+### Comment pulse
+
+- Commenters contrasted U.S. filing complexity with countries where government portals prefill employer-reported income.
+- Direct File’s public-domain source may aid revival, but tax-year updates and access to filing infrastructure remain unresolved.
+
+### LLM perspective
+
+- View: Open source preserves implementation knowledge, not the federal authority and integrations needed to operate it.
+- Impact: Eligible taxpayers may return to commercial products, manual forms, or an underused partnership.
+- Watch next: The replacement task force, state responses, Free File participation, and any Direct File revival.

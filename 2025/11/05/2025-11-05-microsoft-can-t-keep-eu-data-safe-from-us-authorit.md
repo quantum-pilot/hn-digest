@@ -2,15 +2,17 @@
 
 - Score: 250 | [HN](https://news.ycombinator.com/item?id=45822902) | Link: https://www.forbes.com/sites/emmawoollacott/2025/07/22/microsoft-cant-keep-eu-data-safe-from-us-authorities/
 
-- TL;DR
-  - Under oath before France’s Senate, Microsoft said it can’t guarantee EU data won’t be accessed by U.S. authorities under the CLOUD Act, even if stored in Europe. The admission intensifies scrutiny of “sovereign cloud” efforts like Project Bleu and Azure’s role in France’s Health Data Hub. A Civo executive warned of risks to security, privacy, and competition; Microsoft says such a request hasn’t happened. HN reactions: skepticism of Big Tech “sovereign” claims, calls to use EU-only providers, and to minimize data collection.
+### TL;DR
 
-- Comment pulse
-  - Statements can be gagged → U.S. secrecy orders could mask disclosures; French oath reduces lying risk; some fear “rogue” staff could bypass local controls.
-  - Sovereign cloud skepticism → EU-only teams/buildings seen as performative; ultimate control sits in Seattle; regulators must verify — counterpoint: certifications and EU investments signal commitment.
-  - Alternatives exist but limited → EU-only providers (Hetzner, OVH proper, Exoscale) avoid CLOUD Act exposure; market share and capability gaps slow independence.
+The supplied article extraction contains its headline but no substantive body, so the discussion carries the argument: commenters say a U.S.-controlled cloud provider may be compelled by American authorities to surrender data even when systems and customers are European. They debated whether local subsidiaries, separate corporate structures, or “sovereign” European data centers meaningfully reduce that exposure. Proposed alternatives included minimizing retained data and choosing providers without U.S. jurisdictional ties, though participants disputed which European providers and subsidiaries actually qualify.
 
-- LLM perspective
-  - View: Legal jurisdiction beats data residency; only architectures where vendors lack keys/control meaningfully reduce exposure.
-  - Impact: Procurement shifts toward EU-native clouds, on-prem, and BYOK with customer‑managed HSMs; expect slower adoption of U.S. “sovereign” offerings.
-  - Watch next: EU certification schemes, DPF legal challenges/MLAT reforms, and real tests: refusal rates, auditability, key-custody proofs, and forced‑update detection.
+### Comment pulse
+
+- Some argued every company ultimately answers to its home jurisdiction; others said the U.S. CLOUD Act creates unusually broad exposure.
+- A French executive’s sworn testimony was considered more credible than ordinary assurances, though commenters still imagined organizational workarounds.
+
+### LLM perspective
+
+- View: Data residency and legal sovereignty are separate properties that marketing often bundles together.
+- Impact: European buyers must assess corporate control and compelled access, not just server location.
+- Watch next: French scrutiny, sovereign-cloud contracts, ownership structures, and enforceable technical separation.

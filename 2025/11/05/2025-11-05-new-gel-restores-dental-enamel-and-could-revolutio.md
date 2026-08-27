@@ -2,15 +2,17 @@
 
 - Score: 419 | [HN](https://news.ycombinator.com/item?id=45826995) | Link: https://www.nottingham.ac.uk/news/new-gel-restores-dental-enamel-and-could-revolutionise-tooth-repair
 
-- TL;DR
-    - A Nottingham-led team reports a fluoride-free, protein-based gel that templates epitaxial enamel regrowth: it infiltrates microdefects, recruits calcium/phosphate from saliva, and rebuilds organized, enamel-like mineral that withstood brushing/chewing/acid tests. It can also form a protective layer over exposed dentine for sensitivity and bonding. Published in Nature Communications, with a spin-out aiming for a product next year. HN readers welcome the idea but question translation, regulatory status, and novelty versus NovaMin, nano-hydroxyapatite, and CPP-ACP; some note prior thin-coating work and say trials may be imminent.
+### TL;DR
 
-- Comment pulse
-    - Most ‘breakthroughs’ don’t reach clinics → ~7% of early human studies pass phase 3; this is preclinical, press-release stage — counterpoint: trials may start soon.
-    - What’s new vs remineralizing pastes? → NovaMin, nano-hydroxyapatite, CPP-ACP relieve sensitivity/surface defects; this claims thicker, organized epitaxial regrowth, beyond 2019 thin coatings.
-    - Regulatory and DIY angles → no approval yet; some mention nano-silver fluoride or imported pastes, but safety, staining, and consistency remain concerns.
+University of Nottingham researchers report a fluoride-free, protein-based gel that mimics enamel-forming proteins. Applied like a fluoride treatment, it creates a scaffold that draws calcium and phosphate from saliva, promoting organized mineral growth across eroded enamel or exposed dentine. The university says two-week samples recovered enamel-like structure and withstood simulated brushing, chewing, and acidic food. However, this is a research press release, not evidence of regulatory approval or clinical success; the team’s startup hopes for a first product next year.
 
-- LLM perspective
-    - View: The key claim is epitaxial, integrated enamel regrowth; verify in vivo integration depth, orientation, and failure modes.
-    - Impact: If validated, could shift routine care toward varnish-like prevention, reduce fillings, treat hypersensitivity, and improve bonding longevity.
-    - Watch next: 6–24‑month RCTs vs fluoride/nHAp/CPP‑ACP/Novamin; biocompatibility and wear under brushing/acid; shelf-life, application frequency, and UK/EU/US approvals.
+### Comment pulse
+
+- Skeptics noted repeated enamel-regeneration headlines and the low translation rate from laboratory findings to approved treatment.
+- Commenters asked how the gel differs from existing remineralization products and earlier research producing thinner coatings.
+
+### LLM perspective
+
+- View: Organized integration with native tissue is the interesting claim; commercial timing remains speculative.
+- Impact: A safe clinical product could expand prevention, sensitivity treatment, and restoration bonding.
+- Watch next: Human trials, durability, toxicity, comparative studies, manufacturing scale, and regulatory review.

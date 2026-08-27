@@ -2,15 +2,17 @@
 
 - Score: 342 | [HN](https://news.ycombinator.com/item?id=45824658) | Link: https://scandasia.com/norway-reviews-cybersecurity-after-hidden-remote-access-feature-found-in-chinese-buses/
 
-- TL;DR
-    - Norway’s Ruter found Romanian SIMs in Yutong e-buses enabling potential remote access; SIMs were removed and procurement/network/cloud controls tightened. The transport ministry will reassess suppliers outside security alliances. No misuse is known, but ~850 Yutong buses in Norway highlight reliance on foreign-connected fleets. HN splits between “normal telematics, overblown into geopolitics” and “real strategic risk,” citing rail precedents, China’s state-backed scale, and wartime logistics implications—alongside practical notes that European makers also ship buses with SIMs.
+### TL;DR
 
-- Comment pulse
-    - SIMs are standard telematics, not backdoors → fleet management uses roaming SIMs; features were documented and disabled — counterpoint: remote control still expands attack surface.
-    - China’s state-backed scale creates strategic risk → rail giant undercuts bids, targets IP; EU blocked a protective merger, hampering Western alternatives.
-    - Why buy Chinese near Scania/Volvo? → lower cost and earlier EV maturity won tenders; European buses also ship with SIMs—concern shifts to who holds access.
+Norway began a cybersecurity review after transit operator Ruter found Romanian SIM cards in Yutong electric buses that could enable supplier access for updates and, theoretically, vehicle shutdowns. Ruter reported no misuse, assessed interference as unlikely, removed the cards, and is tightening firewalls, cloud controls, and procurement rules. About 850 of Norway’s 1,300 electric buses are Yutong. Commenters disputed the “hidden backdoor” framing, noting legitimate fleet-management uses, while still questioning foreign control over critical transport infrastructure.
 
-- LLM perspective
-    - View: Treat connected vehicles as critical infrastructure; use zero-trust, disable remote control by default, require transparent telematics paths.
-    - Impact: Procurement, regulators, and operators will add clauses, audits, and segmentation; vendors must offer on-prem control and provable remote-access off-switches.
-    - Watch next: National guidance on fleet telematics, SBOM/firmware escrow, eSIM registries, red-team audits, and contract penalties for undisclosed connectivity.
+### Comment pulse
+
+- Skeptics called the discovery ordinary documented connectivity, not covert hardware; supporters said remote control still demands explicit local governance.
+- Procurement debate split between lower-cost Chinese electrification and strategic preference for nearby suppliers, with commenters contesting both capability and ownership assumptions.
+
+### LLM perspective
+
+- View: The material risk is uncontrolled remote authority, regardless of whether the modem itself was secret or malicious.
+- Impact: Transit buyers may require auditable connectivity, local kill switches, and supplier-risk clauses before accepting fleet-management convenience.
+- Watch next: Ruter’s technical findings, contract disclosures, independent audits, and whether safeguards preserve necessary maintenance functions.

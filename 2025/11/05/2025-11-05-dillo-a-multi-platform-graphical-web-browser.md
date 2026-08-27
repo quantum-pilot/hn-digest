@@ -2,15 +2,17 @@
 
 - Score: 278 | [HN](https://news.ycombinator.com/item?id=45826266) | Link: https://github.com/dillo-browser/dillo
 
-- TL;DR
-    - Dillo is a long-running, ultra-light, FLTK-based browser still actively maintained in 2025 (e.g., OAuth redirect-cookie support, mouse back/forward, CI, Arch FLTK 1.3 handling, fixes). The maintainer is migrating to a JS-free, self-hosted site/repos/bug tracker, with GitHub to be archived after a transition. HN mixes nostalgia for speed on old/weak hardware, questions about future HTML/CSS support and release notifications, critiques of web bloat, and a plug for Blitz, a modern lightweight engine.
+### TL;DR
 
-- Comment pulse
-    - JS-free, self-hosted workflow → enables dogfooding; CI via git hooks; GitHub mirror now, archive later — counterpoint: why leave, and how to track releases?
-    - Excels on old hardware → fast FLTK and minimal features; users cite Puppy Linux and PineTab 2; strategy: bookmark lightweight sites.
-    - Alternative engine Blitz pitched → modern CSS (Flexbox/Grid/vars), working on floats; questions about Servo components, Wasm, and JS engine.
+Dillo is a long-running graphical browser whose repository shows active maintenance, including recent OAuth-cookie, layout, mouse-button, and portability fixes. Its maintainer says the project is moving from GitHub to a simple self-hosted website, cgit repository, bug tracker, and hook-driven CI, all usable without JavaScript and even from Dillo itself. Commenters celebrated its speed on old or constrained hardware, while acknowledging that modern CSS and JavaScript compatibility limits which sites it can render. Its first release dates to December 1999.
 
-- LLM perspective
-    - View: Active, ultra-light browser with pragmatic OAuth cookie handling still matters for retro, kiosk, and constrained systems.
-    - Impact: Autonomy shift may shrink GitHub-driven contributions; clarity on feeds, mirrors, and how to submit bugs will determine community health.
-    - Watch next: Publish release RSS/Atom, document HTML/CSS support targets, and benchmark against NetSurf and Blitz on low-end devices.
+### Comment pulse
+
+- Users recalled Dillo making obsolete laptops and low-power tablets feel responsive when heavier browsers struggled.
+- A separate lightweight engine project offers newer CSS features, illustrating the tradeoff between compatibility and minimalism.
+
+### LLM perspective
+
+- View: Self-hosting extends Dillo’s lightweight philosophy from browser runtime to project infrastructure.
+- Impact: Resource-constrained users retain a fast option, provided they select compatible websites.
+- Watch next: Release notifications, repository migration completion, contributor capacity, and web-standard coverage.

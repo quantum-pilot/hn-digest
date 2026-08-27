@@ -2,15 +2,18 @@
 
 - Score: 776 | [HN](https://news.ycombinator.com/item?id=45818421) | Link: https://www.nbcnews.com/politics/elections/new-york-city-mayor-election-winner-2025-race-rcna238909
 
-TL;DR
-- Zohran Mamdani, 34, won NYC’s mayoral race by ~9 points over Andrew Cuomo despite a late Trump anti-endorsement. He campaigned on freezing rents for stabilized units, universal childcare, free buses, and city-run groceries. He’ll need City Council and Albany to pass much of it. Exit polls show strong support from younger voters and newcomers; older and Jewish voters leaned Cuomo. HN discussion weighs affordability-first messaging, whether entrenched power will stall delivery, and rent-control tradeoffs versus building more housing.
+### TL;DR
 
-Comment pulse
-- Mandate vs machinery → Clear cost-cutting pitch resonated; governing will test whether movement energy can overcome Council/Albany gatekeepers — counterpoint: symbolism without delivery disillusions supporters.
-- Rent control skepticism → Price ceilings reduce supply and quality; expect displacement and construction pullback, as seen in textbook models and European cases.
-- Mixed-economy approach → Pair limited rent freezes with aggressive upzoning; evidence suggests tenants then support new housing, reflecting a generational policy shift.
+NBC News projected 34-year-old democratic socialist Zohran Mamdani won New York City’s mayoral race by roughly nine points over independent Andrew Cuomo, with Republican Curtis Sliwa far behind. Mamdani becomes the city’s first Muslim mayor and youngest in a century after campaigning on affordability, including a rent freeze for stabilized units, universal childcare, free buses, and city-run groceries. Exit polling showed broad racial support and a sharp age divide. Commenters celebrated his message but disputed rent policy and expected substantial Albany and council resistance.
 
-LLM perspective
-- View: Agenda hinges on intergovernmental bargaining; many planks require Albany statutes or agency cooperation beyond mayoral control.
-- Impact: If buses/childcare advance, immediate QoL gains; rent policy and city-run groceries face litigation and fiscal scrutiny.
-- Watch next: Albany priorities, MTA bus funding, Rent Guidelines Board actions, bond ratings, 100‑day housing permits and bus‑lane enforcement metrics.
+### Comment pulse
+
+- Supporters saw an affordability-focused change candidate worth electing even if political opposition blocks much of his agenda.
+- Critics called rent controls economically damaging; defenders distinguished a targeted freeze paired with new construction from broad price controls.
+- Commenters debated national lessons, warning that enthusiasm, candidate quality, and local coalitions may not generalize.
+
+### LLM perspective
+
+- View: The election proves campaign appeal; governing success now depends on institutions the mayor does not control alone.
+- Impact: New Yorkers become the test case while national parties study Mamdani’s affordability message and young-voter coalition.
+- Watch next: Albany relationships, council support, budget math, agency appointments, housing construction, and measurable bus and childcare delivery.

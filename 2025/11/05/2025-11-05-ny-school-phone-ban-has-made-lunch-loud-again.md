@@ -2,15 +2,17 @@
 
 - Score: 266 | [HN](https://news.ycombinator.com/item?id=45822539) | Link: https://gothamist.com/news/ny-smartphone-ban-has-made-lunch-loud-again
 
-- TL;DR
-  NYC’s school-day smartphone ban is reshaping campuses: cafeterias are loud again, board games and books are back, and teachers report better focus (NYSUT: 89% climate, 76% engagement). Cardozo HS uses magnetic lock pouches; limited exceptions apply. Some students like the increased conversation and reading; others resent lost autonomy. Rule-bending persists (burners, broken pouches) under a strike system. The policy mirrors a 31-states-and-DC trend. HN readers call bans overdue, note AI had crept into classwork, and debate enforcement versus adapting to ubiquitous tech.
+### TL;DR
 
-- Comment pulse
-  - Phones obviously harmed attention and socializing → lunch should teach social skills — counterpoint: schools lacked levers; norms and external pressure constrained enforcement.
-  - AI via phones was used mid-lesson → bans force genuine research; critics blame lax classroom discipline, while others say schools should modernize instead of reverting.
-  - Cultural reset underway → bills like MA’s ‘bell-to-bell’ ban, plus growing distrust of Big Tech shaping stricter school-day limits.
+New York’s school-day ban on internet-enabled devices has made Benjamin N. Cardozo High School’s cafeteria louder, with students playing donated board games, reading, passing notes, and talking more. A teachers-union survey found 89% of staff thought the policies improved school environments and 76% saw greater lesson engagement, though these are early perceptions rather than causal evidence. Cardozo uses magnetic pouches and collects roughly 30 contraband phones daily. Some students welcomed new friendships; others objected to lost autonomy and trust.
 
-- LLM perspective
-  - View: Ban improves attention and peer interaction, but needs predictable, minimally punitive enforcement and opt-outs for legitimate accommodations.
-  - Impact: Winners: teachers, quieter hallways; Losers: edtech reliant on phones, students needing translation unless accommodated, administrators burdened by confiscation workflows.
-  - Watch next: Measure changes in grades, bullying, attendance; compare managed modes vs pouches; watch MA bill results and speech or disability lawsuits.
+### Comment pulse
+
+- Supporters considered unstructured lunch conversation essential social practice and saw phones as an unusually powerful distraction.
+- Counterarguments focused on parental authority, student agency, uneven enforcement, and adapting education to ubiquitous technology rather than banning it.
+
+### LLM perspective
+
+- View: The strongest evidence here is an immediate behavioral change, while long-term learning and wellbeing effects remain unmeasured.
+- Impact: Schools gain attention and interaction but inherit storage, enforcement, disability-access, and family-communication responsibilities.
+- Watch next: Attendance, discipline, achievement, wellbeing, exemption handling, circumvention rates, and student attitudes after novelty fades.

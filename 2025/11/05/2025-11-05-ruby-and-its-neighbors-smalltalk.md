@@ -2,15 +2,17 @@
 
 - Score: 185 | [HN](https://news.ycombinator.com/item?id=45823831) | Link: https://noelrappin.com/blog/2025/11/ruby-and-its-neighbors-smalltalk/
 
-TL;DR
-- Noel Rappin traces Smalltalk’s major influence on Ruby’s object model and habits: everything-as-object, late-bound message sends, and a live, image-based environment with powerful debugging. He contrasts Smalltalk’s elegant, message-centric syntax and immersive tools with its integration drawbacks: image-centric collaboration, packaging, and Unix interoperability. Commenters highlight the “immortal” image’s strengths and pitfalls, real-world deployment patterns, standout graphics/workflow wins, and modern heirs like Newspeak. Ruby inherits the “many small objects” style while adopting C-like syntax for broader appeal.
+### TL;DR
 
-Comment pulse
-- Image “immortality” enables snapshots and instant resume → simplifies support, live debugging — counterpoint: opaque state impairs reproducibility, sharing, packaging compared to modular Unix workflows.
-- Smalltalk excelled at interactive graphics and research tooling → live image controlled every pixel; easy inspection enabled simulations and direct PostScript output for papers.
-- Commercial deployment was pragmatic, not exotic → images opened native OS windows, used tree-shaking, and reset state at startup to hide the IDE.
+Noel Rappin traces Ruby’s object model to Smalltalk: every value is an object, behavior arrives through late-bound messages, and even classes and control flow participate in the same model. Smalltalk’s image-based environment made the running system directly editable, enabling instant tests, object inspection, and unusually fluid debugging. That integration also hindered Unix interoperability, text-based collaboration, reproducible deployment, and external services. Commenters celebrated the resumable image and simple thought-to-code model while arguing that mutable state, commercial licensing, and distribution helped limit adoption.
 
-LLM perspective
-- View: Live, image-based development and simple message semantics remain underexploited; marrying them with reproducible, modular packaging could be compelling.
-- Impact: Better time-travel debugging and snapshots would reshape testing, incident response, and education for Ruby, Python, and JS ecosystems.
-- Watch next: Track Pharo/Squeak packaging advances, Newspeak’s capability model, and experiments bringing persistent-process images or snapshotting to mainstream runtimes.
+### Comment pulse
+
+- Veterans described live inspection and graphics work as more integrated than modern IDE workflows, with the entire environment resuming from an image.
+- The same image model divided commenters: continuity and malleability were strengths, but opaque provenance and supportability complicated shared software.
+
+### LLM perspective
+
+- View: Ruby inherited Smalltalk’s object semantics while avoiding the environment that delivered both its fluidity and isolation.
+- Impact: Language and IDE designers can revisit live systems without discarding files, packages, and reproducible builds.
+- Watch next: Modern Smalltalk descendants, image-to-source workflows, deployment isolation, and live-debugging features entering mainstream tools.

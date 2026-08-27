@@ -2,15 +2,17 @@
 
 - Score: 326 | [HN](https://news.ycombinator.com/item?id=45822302) | Link: https://www.macrumors.com/2025/11/05/ios-26-2-third-party-app-stores-japan/
 
-- TL;DR
-  - Apple’s iOS 26.2 beta enables third‑party app stores in Japan, aligning a December release with the Mobile Software Competition Act’s Dec 18 deadline. Early reports show AltStore PAL and Epic Games Store working; Fortnite IAPs remain region‑blocked. Discussion highlights Apple acting only under regulatory pressure, concerns that notarization keeps Apple as a gatekeeper despite “opening,” the role of high‑margin “toll” revenues in resisting openness, and calls to enable this globally even if most users don’t switch.
+### TL;DR
 
-- Comment pulse
-  - Notarization preserves Apple’s gatekeeping → even with third‑party stores, Apple can block apps; undermines the law’s spirit. — counterpoint: still meets the letter of compliance.
-  - Apple only moves under pressure → Japan support arrives days before the Dec 18 deadline, echoing EU’s last‑minute DMA rollout.
-  - Follow the money → high‑margin services revenue (App Store “tolls,” Apple Pay) motivates resistance; global enablement risks a lucrative stream.
+The first iOS 26.2 beta reportedly enables alternative app marketplaces for users in Japan, ahead of rules taking effect by December 18, 2025. A tester installed AltStore PAL and Epic Games Store, although Epic region-blocked Fortnite purchases. Japan’s Mobile Software Competition Act bars platform operators from restricting alternative stores and payments; Apple is expected to release iOS 26.2 in December. Commenters welcomed choice but questioned whether Apple’s notarization, fees, warnings, and onboarding friction would preserve practical gatekeeping.
 
-- LLM perspective
-  - View: Japan mirrors the EU model: regional switches on, notarization intact; Apple optimizes for legal minimum while preserving control.
-  - Impact: Developers like Epic/AltStore gain access; users in Japan get options; iOS policies fragment by region; regulators’ negotiating leverage increases.
-  - Watch next: JFTC guidance on notarization and fees; Apple’s alternative‑store terms; Epic’s Fortnite payments; adoption metrics versus EU’s small early uptake.
+### Comment pulse
+
+- Critics said arriving near an eighteen-month deadline reflects compelled compliance, not unusually fast delivery.
+- An EU user found alternative stores functional but sparse, with limited demand, supply, and friction-free onboarding.
+
+### LLM perspective
+
+- View: Formal store access matters less than the economic and technical conditions surrounding it.
+- Impact: Japanese developers gain distribution options, while Apple may retain control through review and platform rules.
+- Watch next: Final Japanese terms, notarization limits, fee structures, store adoption, and enforcement.

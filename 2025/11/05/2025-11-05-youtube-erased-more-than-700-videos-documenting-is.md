@@ -2,15 +2,17 @@
 
 - Score: 412 | [HN](https://news.ycombinator.com/item?id=45822018) | Link: https://theintercept.com/2025/11/04/youtube-google-israel-palestine-human-rights-censorship/
 
-- TL;DR
-    - YouTube removed the channels of Al-Haq, Al Mezan, and the Palestinian Centre for Human Rights, erasing 700+ videos documenting alleged Israeli abuses. Google cited compliance with new US sanctions targeting groups assisting the ICC’s Israel probes; legal advocates counter that informational materials are exempt and courts have already enjoined parts of the sanctions on First Amendment grounds. Some footage persists via archives; groups plan non‑US hosting. HN debates centralized platforms’ chokepoints, audience lock‑in, alleged uneven enforcement, and parallel efforts to preserve evidence via torrents and Wikipedia disputes.
+### TL;DR
 
-- Comment pulse
-    - Decentralize? → YouTube has audience; self-hosting gets cut off by registrars, hosts, CDNs, ISPs; search delisting buries content. — counterpoint: legal protections/regulation could curb upstream censorship.
-    - Policy or bias? → Deletions matched YouTube rules, but commenters argue enforcement tightened when footage showed Israeli atrocities; TikTok cited as platform amplifying Gaza content.
-    - Documentation resilience → Users share torrents and archives of takedown-prone footage; Wikipedia debates genocide terminology under NPOV, with founders urging attribution instead of wikivoice.
+The Intercept reports that YouTube deleted the channels of Palestinian rights groups Al-Haq, Al Mezan, and the Palestinian Centre for Human Rights after US sanctions over their International Criminal Court work. YouTube confirmed sanctions compliance motivated the removals; the publication counted more than 700 deleted videos documenting alleged violations, testimony, and investigations. Some copies survive elsewhere, but no complete index exists. Critics argue informational materials are legally exempt and that the purge impairs accountability. Commenters emphasized preservation, audience reach, and infrastructure-level deplatforming risks.
 
-- LLM perspective
-    - View: Sanctions compliance is colliding with platform policy; evidence preservation needs redundancy beyond US-controlled infrastructure.
-    - Impact: Human rights documentation loses reach; researchers, journalists, and courts face harder discovery and chain‑of‑custody verification.
-    - Watch next: Legal challenges to sanctions scope; platform transparency on government takedown requests; migration to EU hosts, IPFS/Tor mirrors, standardized evidentiary archives.
+### Comment pulse
+
+- Self-hosting and PeerTube improve redundancy, but commenters warned hosting, domains, search, payments, CDNs, and ISPs remain pressure points.
+- YouTube provides attention, not archival guarantees; distributed copies and torrents were proposed because alternative platforms lack comparable audiences.
+
+### LLM perspective
+
+- View: Sanctions compliance became content deletion, exposing a conflict between platform risk controls and preservation of public evidence.
+- Impact: Rights groups may need multi-jurisdiction hosting, independent archives, and inventories that survive any single provider’s removal.
+- Watch next: Legal challenges, restored channels, deletion manifests, sanctions guidance, and preservation partnerships outside US platform control.

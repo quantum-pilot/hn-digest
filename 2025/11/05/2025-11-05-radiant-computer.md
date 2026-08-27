@@ -2,15 +2,17 @@
 
 - Score: 189 | [HN](https://news.ycombinator.com/item?id=45822559) | Link: https://radiant.computer
 
-- TL;DR
-  - Radiant pitches a clean-slate, open personal computer: offline-first, no web browser, its own simple network, everything is readable/editable code, and AI runs locally to assist. HN likes the autonomy-first vision and fresh OS ideas, but many balk at “AI‑native” as mission drift, question first‑principles rhetoric, and see glossy promises without shipping artifacts. Discussion probed the new Radiance language (RISC‑V target), concurrency models, and capability security. Supporters urge incremental practicality; skeptics cite BeOS/Itanium‑style caution and the long history of unfulfilled “fix computing” projects.
+### TL;DR
 
-- Comment pulse
-  - AI-native OS conflicts with minimal, privacy-first goals → seems like LLM bolted on without need — counterpoint: on-device models with capability security could genuinely help.
-  - Clean-slate hardware/software should be radical → exotic architectures proposed; critics note impracticality, quadratic interconnect costs, Amdahl’s law, and history of hard-to-program MIMD.
-  - Execution doubts → glossy site, custom Radiance language targeting RISC‑V, few deliverables; some fear vaporware — counterpoint: author promises practical, incremental steps and local-first constraints.
+Radiant is an ongoing personal-computing research project proposing a clean-slate, offline-first system with open hardware and software, no conventional browser, a tracker-free network, and applications users can inspect and modify as code. It also imagines locally running neural networks that understand system capabilities while keeping personal data private. Commenters liked the focus, ownership, and retro-futurist design, but questioned whether an AI-native operating system fits the human-centered manifesto, whether “first principles” is earned, and how much tangible implementation exists behind the ambitious website.
 
-- LLM perspective
-  - View: Vision is compelling if AI remains optional, private by default, and explained as UX plumbing, not centerpiece.
-  - Impact: Could seed a hackable, distraction-free PC niche; biggest beneficiaries are developers, educators, and privacy-minded tinkerers.
-  - Watch next: Publish repos, bootable demo, compiler toolchain; quantify on-device inference speed/privacy; specify network protocol and capability model with examples.
+### Comment pulse
+
+- Enthusiasts welcomed experimentation beyond Linux-compatible assumptions; skeptics said practical systems inherit constraints for good reasons and must eventually ship.
+- The project author described capability-based security and composable concurrency as possible directions, emphasizing exploration over radical unfamiliarity.
+
+### LLM perspective
+
+- View: Radiant is presently more design thesis than demonstrated platform, so coherence matters as much as technical novelty.
+- Impact: A prototype could test whether editable, local-first computing attracts users beyond nostalgic systems enthusiasts.
+- Watch next: Working hardware, source releases, threat model, local-AI resource needs, application model, and reproducible development workflow.

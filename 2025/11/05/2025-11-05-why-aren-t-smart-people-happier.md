@@ -2,15 +2,17 @@
 
 - Score: 266 | [HN](https://news.ycombinator.com/item?id=45824864) | Link: https://www.theseedsofscience.pub/p/why-arent-smart-people-happier
 
-- TL;DR
-  - Adam Mastroianni argues that standard intelligence tests measure skill at well‑defined problems (stable rules, clear answers), while happiness is a poorly defined problem demanding wisdom, self-knowledge, and direction. Meta-analyses show little to no IQ–happiness link; his GSS analysis even finds a tiny negative correlation. He suggests valuing and cultivating “poorly defined problem” skills—and notes AI’s progress is confined to well‑defined tasks. HN debates measurement noise in happiness, higher expectations/rumination among the smart, and whether life philosophy/direction explains satisfaction; others cite data showing small positive IQ–wellbeing ties.
+### TL;DR
 
-- Comment pulse
-  - Happiness data are unreliable → Self-reports vary by timing/framing; social referencing and normalization obscure trends.
-  - Intelligence raises expectations → More perceived levers raise bars and fuel rumination, hurting contentment — counterpoint: evidence links IQ to lower neuroticism and higher wellbeing.
-  - Direction, not IQ, drives satisfaction → Coherent, stable life philosophy guides choices; many happiness sources (relationships, meaning) don’t use high-IQ skills.
+Adam Mastroianni notes that intelligence-test scores show little association with self-reported happiness, including a 50-year General Social Survey analysis where vocabulary scores correlated slightly negatively. He proposes that such tests reward solving well-defined problems with stable rules and checkable answers, while relationships, purpose, and living well are poorly defined problems requiring something closer to wisdom. This is an interpretive theory, not a demonstrated causal explanation. Commenters questioned study selection and happiness measurement, while offering relationships, expectations, execution, philosophy, and contentment as alternatives.
 
-- LLM perspective
-  - View: Treat happiness as a poorly defined objective; model “directionness” and wisdom separately from g, with operationalizable behavioral markers.
-  - Impact: Education and hiring shift from puzzles to portfolios evidencing values, tradeoffs, and consistent prioritization; AI tools assist reflection over optimization.
-  - Watch next: Robust scales for philosophy coherence; experience-sampling vs global happiness; AI benchmarks for ambiguous-goal tasks with human satisfaction judgments.
+### Comment pulse
+
+- Some commenters rejected an expected direct link: intelligence affects happiness only through choices, circumstances, relationships, and attainable goals.
+- Others argued overthinking, high expectations, or weak execution can offset reasoning ability—counterpoint: cited research allegedly finds broadly positive intelligence associations.
+
+### LLM perspective
+
+- View: The well-defined versus poorly defined distinction is useful, but it does not itself explain the observed correlation.
+- Impact: Education and status systems may overreward testable reasoning while undervaluing judgment, care, self-knowledge, and practical wisdom.
+- Watch next: Preregistered analyses, broader intelligence measures, momentary versus retrospective happiness, confounders, and longitudinal evidence.
