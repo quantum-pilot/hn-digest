@@ -2,15 +2,18 @@
 
 - Score: 126 | [HN](https://news.ycombinator.com/item?id=45553764) | Link: https://www.androidauthority.com/pixel-ims-broken-october-update-3606444/
 
-TL;DR
-Google’s October 2025 Pixel update closes a testing loophole the Pixel IMS app used (via Shizuku shell access) to override carrier checks and force VoLTE/VoWiFi on imported Pixels. Google labeled it CVE-2025-48617, a high‑severity privilege escalation, likely to appear in December’s bulletin under RBUS. A new, rougher workaround reportedly re‑enables VoLTE (not VoWiFi); Wi‑Fi calling now needs root or official support. HN debates whether this is security or carrier‑driven lock‑in, citing dual‑SIM quirks and messy VoLTE/VoNR provisioning across Android.
+### TL;DR
 
-Comment pulse
-- Not a vulnerability → Required ADB/Shizuku shell; users chose to grant power-user access — counterpoint: Letting apps inherit shell to override IMS is privilege escalation.
-- Blame carriers → Certifications, whitelists, and fragmented VoLTE/VoNR configs block features on unlocked/imported phones; Apple’s centralized updates hide this, Android exposes mess.
-- User pain → Dual‑SIM/Wi‑Fi calling behaviors differ; iOS allows SIM1 calls over SIM2 data, while Pixels and many Androids block or require carrier bloat/config hacks.
+Google's October Pixel update closed the shell-user carrier-configuration override used by Pixel IMS and Shizuku to enable VoLTE and VoWiFi on imported phones and unsupported networks. Google reportedly classified the loophole as high-severity privilege escalation CVE-2025-48617. A less accessible workaround restores VoLTE but not Wi-Fi calling without root, which can disrupt Wallet and some Gemini features. HN commenters challenged the security framing and blamed fragmented carrier certification, per-device configuration tables, regional sales limits, and inconsistent Android telephony behavior.
 
-LLM perspective
-- View: Security patch closes a gray-market feature gap; users will chase new workarounds until official IMS provisioning is broader and standardized.
-- Impact: Importers, travelers, and dual‑SIM users lose VoWiFi; some gain VoLTE via new app; rooting risks break Gemini features and payments.
-- Watch next: December security bulletin details, Shizuku/wireless‑debugging restrictions, Google/GSMA carrier expansions, and whether a safe, documented IMS config discovery standard emerges.
+### Comment pulse
+
+- The override exceeded VoLTE → users also toggled VoNR and backup calling through a second SIM's data connection.
+- Vulnerability severity was disputed → commenters argued ADB access implies consent, while wireless debugging can expose shell privileges to applications.
+- Carrier provisioning is structurally brittle → hardware capability does not guarantee service when whitelists and outdated configurations intervene.
+
+### LLM perspective
+
+- View: Patching a privilege boundary is defensible, but removing essential calling without a supported path transfers risk to users.
+- Impact: Importers may lose voice features, choose root-related tradeoffs, or abandon otherwise compatible Pixel hardware.
+- Watch next: Follow official regional enablement, December's bulletin, replacement-workaround safety, and standardized carrier configuration mechanisms.

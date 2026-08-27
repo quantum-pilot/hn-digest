@@ -2,16 +2,17 @@
 
 - Score: 744 | [HN](https://news.ycombinator.com/item?id=45547566) | Link: https://denodell.com/blog/html-best-kept-secret-output-tag
 
-- TL;DR
-  HTML’s <output> is meant to display results of calculations/user actions, but it’s rarely used and inconsistently supported. Commenters split: some want input-like types and stronger for= binding; others say it’s a semantic live-region container, with formatting handled by nested elements and Intl. Accessibility is shaky—some screen readers miss updates—so role="status"/aria-live is advised. Broader frustration with half-baked form controls (e.g., date) persists. LLMs seldom emit <output> because it’s scarce in training data, though a few did discover it via AI.
-  - Content unavailable; summarizing from title/comments.
+### TL;DR
 
-- Comment pulse
-  - Output is a live-results container; use ARIA semantics and nested elements for formatting — counterpoint: without types/strong for= binding, it feels half-baked.
-  - Accessibility gap: some screen readers miss updates; add role="status"/aria-live and file NVDA issues until support improves.
-  - Pragmatism vs semantics: ship aria-live today; others value semantic HTML for EPUB and structured consumption beyond browsers.
+The HTML `<output>` element semantically represents a calculation or result produced by user action. It supports a `for` attribute linking contributing input IDs and can replace generic containers in calculators, formatted sliders, validation feedback, and server-computed estimates. The author says its status-like accessibility mapping can announce changes politely and atomically, but later updates the post after finding inconsistent screen-reader behavior, recommending `<output role="status">` where necessary. It is inline by default, works outside forms, and is not intended for unrelated global notifications such as toast messages.
 
-- LLM perspective
-  - View: Treat <output> as ARIA live-region for computed results; format via <time> and Intl, not a type attribute.
-  - Impact: Better accessibility with minimal JS; needs consistent screen-reader support and browser interop for for= behavior.
-  - Watch next: Add tests to WPT/Interop; AT release fixes; MDN guidance; examples promoting role=status and robust form-binding patterns.
+### Comment pulse
+
+- Many developers had never encountered the element; some worried rare semantic patterns will also remain rare in generated code.
+- Debate split between semantic-first markup and explicit ARIA known to work across current assistive technologies.
+
+### LLM perspective
+
+- View: `<output>` adds useful meaning, but semantic correctness does not eliminate compatibility testing.
+- Impact: It can simplify accessible dynamic results while preserving relationships between inputs and calculated content.
+- Watch next: Screen-reader interoperability, framework conventions, and whether explicit `role="status"` remains necessary.

@@ -2,16 +2,17 @@
 
 - Score: 246 | [HN](https://news.ycombinator.com/item?id=45549434) | Link: https://mitchellh.com/writing/non-trivial-vibing
 
-TL;DR
-Mitchell Hashimoto describes “vibing” a non‑trivial Ghostty feature: using an LLM to rapidly scaffold UI, then iterating manually and discarding weak code. HN splits between fans of AI for zero‑to‑one momentum and those who value hand‑rolled starts and stack learning; several warn that LLM prototypes look production‑ready but require rewrites. Commenters note “vibe engineering” as a better label, praise his response to the OpenAI incident, and flag Ghostty’s new AI‑use disclosure rule. Ongoing friction: missing Cmd‑F search; community prototypes exist.
-Content unavailable; summarizing from title/comments.
+### TL;DR
 
-Comment pulse
-- LLMs excel at zero-to-one prototyping → fast scaffolds unblock experimentation; keep/discard bits as needed — counterpoint: others prefer hand starts to preserve originality and learning.
-- LLM prototypes look finished → management overestimates readiness; unlike hand prototypes, they teach less about the stack, so expect a clean-room rewrite before production.
-- Ghostty gaps dominate chatter → missing Cmd-F search; a contributor prototyped search with Claude; roadmap targets built-in search in v1.3 (Mar 2026).
+Mitchell Hashimoto documents 16 AI-assisted sessions used to ship unobtrusive macOS update notifications in Ghostty, costing $15.98 and roughly eight hours of his time. He began with human research and a scoped UI plan, used agents for prototypes, mechanical refactors, simulations, integration, and reviews, and repeatedly intervened when they produced architectural mistakes or failed on title-bar layout. Some generated work was discarded entirely; manual restructuring made later prompts succeed. His central rule is expert supervision: understand, clean up, test, and manually review every AI-written change before shipping.
 
-LLM perspective
-- View: Use LLMs for scaffolding, then rewrite critical paths; manage the prototype-to-production gap explicitly with stakeholders.
-- Impact: Policies like mandatory AI disclosure improve provenance, code review focus, and calibrate community expectations on AI-generated contributions.
-- Watch next: Quality bars: Ghostty search release, comparative studies of LLM-prototyped vs hand prototypes, and toolchains that capture learning while vibing.
+### Comment pulse
+
+- Readers valued agents for overcoming blank-page friction, though others find initial design the most rewarding part of programming.
+- Several distinguished this reviewed, domain-expert workflow from unsupervised “vibe coding” and highlighted the unusually transparent session record.
+
+### LLM perspective
+
+- View: The case demonstrates iterative delegation with human architectural ownership, not autonomous feature development.
+- Impact: Agents can accelerate prototypes and tedious edits while failures still demand expertise, restraint, and cleanup.
+- Watch next: Maintainability after release, defect rates, reproducibility for less-expert users, and total review effort.

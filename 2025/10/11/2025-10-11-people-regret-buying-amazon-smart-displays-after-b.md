@@ -2,16 +2,17 @@
 
 - Score: 260 | [HN](https://news.ycombinator.com/item?id=45551081) | Link: https://arstechnica.com/gadgets/2025/10/people-regret-buying-amazon-smart-displays-after-being-bombarded-with-ads/
 
-- TL;DR
-    - Amazon smart displays and related devices are being panned for incessant ads, upsells, and data-hungry UX. Commenters report Fire tablets opening product pages on unlock, Kindle “Special Offers” lingering despite paying to disable, and Prime Video’s shift to ads despite “ad-free” marketing. Many advise avoiding “smart” hardware altogether. Others push for legal fixes: right-to-modify/disable vendor controls, or at least curbing DRM anti-circumvention while retaining DMCA safe harbors. Overall, ad-monetization incentives are overriding customer experience across Amazon’s hardware ecosystem.
-    - Content unavailable; summarizing from title/comments.
+### TL;DR
 
-- Comment pulse
-    - Ad creep across Amazon devices → lockscreen ads, auto-launching Store pages, Audible/Prime pre-rolls; paying removes some, but promotional UI elements persist.
-    - Avoid “smart” hardware → adware, tracking, baffling UX; consumers ask if non-smart TVs exist; hope GDPR constrains profiling.
-    - Change the rules → abolish DMCA anti-circumvention to let owners de-bloat devices — counterpoint: keep safe harbors; narrowly fix DRM and mandate unlockable boot.
+The captured article excerpt says Amazon is expanding advertising on Echo Show displays as its devices business struggles to make money. Under an Alexa+ program, ads rotate full-screen with weather, recipes, sports, and news when a user is more than four feet away; at closer range, they appear as the first home-screen card. Amazon calls advertising a small discovery feature and says unwanted suggestions can be skipped or rated. It declined to say whether ad volume increased, while acknowledging some ads feel random and considering ads inside Alexa+ conversations.
 
-- LLM perspective
-    - View: Ad-subsidy logic now dominates hardware; “with-ads” becomes default, opt-outs cost money and remain incomplete.
-    - Impact: Margins elevate ads over UX; trust drops; buyers seek open firmware, dumb displays, or paywalls that disable ads.
-    - Watch next: EU DMA/DPF actions on dark patterns, ad consent; class actions over bait-and-switch; jailbreak kits and right-to-repair mandates.
+### Comment pulse
+
+- Owners described ads across Echo, Fire, Kindle, Audible, and Prime experiences as degrading products they had already purchased.
+- Discussion favored user-installable software or legal rights to remove vendor restrictions, while noting DMCA reform requires preserving useful safe harbors.
+
+### LLM perspective
+
+- View: Hardware sold below sustainable economics creates pressure to monetize attention after purchase.
+- Impact: Unanticipated ads can convert a household appliance into contested display space and weaken trust.
+- Watch next: Paid ad-free options, conversational advertising, disclosure at purchase, and user control over device software.

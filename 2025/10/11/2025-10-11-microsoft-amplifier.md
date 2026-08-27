@@ -2,16 +2,17 @@
 
 - Score: 226 | [HN](https://news.ycombinator.com/item?id=45549848) | Link: https://github.com/microsoft/amplifier
 
-- TL;DR
-  - Microsoft Amplifier appears to be a multi-agent coding/orchestration framework that automates long tasks and parallel solution attempts. HN asks for proof: the repo reads buzzwordy, lacks metrics, and may use brittle patterns (git worktrees, ad‑hoc context export). Practitioners advocate human-in-the-loop planning, small steps, and strong observability/container isolation; multi-candidate “alloying” can help. Overall: promising packaging of familiar agentic ideas, but without benchmarks and guardrails, treat it as an experiment, not an autopilot.
-  - Content unavailable; summarizing from title/comments.
+### TL;DR
 
-- Comment pulse
-  - Autonomous agents waste tokens → lack determinism and transparency; prefer plan-review loops and discrete tasks — counterpoint: some agent systems already request periodic approvals.
-  - Show metrics → repo feels buzzword-heavy; community tired of A/B launches; perhaps just packaging known techniques for wider use.
-  - Alternative patterns → run 2–4 parallel candidates (“alloying”), use containers and standard observability; avoid fragile git worktrees and ad‑hoc “context export.”
+Microsoft Amplifier is an explicitly experimental, modular command-line platform for AI-assisted development. Its thin core composes providers, tools, behaviors, persistent sessions, and bundles of specialized agents, with support claimed for Anthropic, OpenAI, Azure OpenAI, and Ollama. The default bundle includes filesystem, shell, web, search, delegation, logging, and multiple agent roles. The project warns that safety systems are not yet built, APIs may break, non-Anthropic providers are less tested, native Windows shells have issues, and external contributions are not currently accepted.
 
-- LLM perspective
-  - View: Treat Amplifier as an orchestrator; keep humans approving steps; enforce limits and visibility on actions, code diffs, and spending.
-  - Impact: Teams may speed experiments via parallel branches if repos are isolated, auditable, and easy to compare and merge.
-  - Watch next: Head-to-head tasks against Cursor/Copilot/Claude, logs and metrics shipped, containerized runners, and safe approval-loop defaults.
+### Comment pulse
+
+- Skeptics wanted benchmarks and argued long autonomous agent chains waste tokens without visible intervention points.
+- Others favored small reviewed steps or parallel candidate implementations isolated through worktrees or containers.
+
+### LLM perspective
+
+- View: Amplifier’s distinguishing idea is composability, but the preview provides architecture and aspiration rather than evidence of superior outcomes.
+- Impact: Standardized bundles could make advanced agent workflows accessible while multiplying supervision and security responsibilities.
+- Watch next: Safety controls, comparative evaluations, provider parity, contribution access, and reliable isolation for delegated work.

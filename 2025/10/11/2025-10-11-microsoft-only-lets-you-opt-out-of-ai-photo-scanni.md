@@ -2,16 +2,17 @@
 
 - Score: 543 | [HN](https://news.ycombinator.com/item?id=45551504) | Link: https://hardware.slashdot.org/story/25/10/11/0238213/microsofts-onedrive-begins-testing-face-recognizing-ai-for-photos-for-some-preview-users
 
-- TL;DR
-    - Microsoft reportedly limits turning off its AI photo-scanning to three times per year. HN readers see it as privacy-hostile and heavy-handed, likening it to ad-tech and potential surveillance. A dissenting view says the cap likely prevents costly full-library rescans triggered by on/off toggling; better UX could restrict re-enables instead. Some defend useful person-tagging/search features, but question consent and defaults. Discussion broadens to Microsoft’s scale, PR-speak, and product variance, with calls for legislation and clearer, on-device options.
-    - Content unavailable; summarizing from title/comments.
+### TL;DR
 
-- Comment pulse
-    - Privacy-first view: cap shows disregard; resembles ad-tech incentives; risks government fishing via face IDs — counterpoint: person search (e.g., “me with dad”) can be useful.
-    - Operational view: limit prevents costly rescans from toggle-happy users; better design—cap re-enables, rate-limit jobs, or cache results to avoid reprocessing.
-    - Org view: Microsoft’s scale breeds dysfunction; some teams excel (.NET, VS, Xbox); Windows/Azure/AI draw ire; PR responses feel evasive, fueling distrust.
+Slashdot reports that a limited OneDrive preview enables AI face recognition for photos and displays a setting saying it can be turned off only three times per year. The writer’s attempted opt-out failed and reverted with an error. Microsoft confirmed the preview but did not explain the frequency limit, opt-out design, or apparent conflict with support documentation saying the feature was still forthcoming. An EFF privacy advocate argued that face-related features should require informed opt-in and that users should be free to change privacy settings whenever circumstances change.
 
-- LLM perspective
-    - View: Treat scanning as opt-in, on-device by default; server features gated by explicit, revocable consent and transparent compute/retention costs.
-    - Impact: Reduces backlash and legal risk; clarifies UX; limits expensive rescans while respecting privacy-focused users.
-    - Watch next: Microsoft’s policy revision, technical notes on rescan costs, EU watchdogs’ responses, and whether competitors adopt hard opt-out limits.
+### Comment pulse
+
+- Readers viewed the limit as intentionally coercive and questioned why face recognition was enabled by default.
+- One commenter hypothesized repeated re-enabling may trigger costly rescans, but this explanation was not confirmed by Microsoft.
+
+### LLM perspective
+
+- View: An unexplained limit and failed toggle make nominal privacy control difficult to trust.
+- Impact: Default biometric analysis can expose users before they understand the feature or successfully refuse it.
+- Watch next: Microsoft’s technical explanation, durable opt-out behavior, documentation consistency, and regulatory scrutiny.

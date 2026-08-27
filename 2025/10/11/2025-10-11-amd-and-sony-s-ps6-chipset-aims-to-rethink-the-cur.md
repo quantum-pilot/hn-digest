@@ -2,16 +2,18 @@
 
 - Score: 299 | [HN](https://news.ycombinator.com/item?id=45546593) | Link: https://arstechnica.com/gaming/2025/10/amd-and-sony-tease-new-chip-architecture-ahead-of-playstation-6/
 
-- TL;DR
-  - Reports suggest Sony and AMD will redesign the PS6 graphics pipeline, tightening integration of AI upscaling/frame generation and newer primitives (mesh/neural shaders), and possibly shifting more silicon to ray/path tracing while de-emphasizing legacy raster steps. HN splits: some see hardware limits forcing “fake frames” and cloud offload; others argue consoles’ fixed targets are ideal to go RT-first and simplify rendering. Skeptics note cross‑platform/back‑compat will restrain radical changes and that gameplay/simulation progress, not pixels alone, drives demand—though PS5’s SSD shows platform bets can reset baselines.
-  - Content unavailable; summarizing from title/comments.
+### TL;DR
 
-- Comment pulse
-  - Hardware gains plateau → AI upscaling/frame-gen fill gaps but consume die area; cloud rendering looms — counterpoint: ray tracing scales with resolution, simplifying pipelines.
-  - Consoles suit RT-first designs → fixed targets could drop legacy raster paths — counterpoint: cross-platform and backward compatibility keep hybrid raster/RT, with primaries still rasterized.
-  - Gameplay and simulation drive demand → Switch’s success shows lower specs can win — counterpoint: many still pay for 120/4k; better GI benefits stylized indies.
+Sony and AMD previewed Project Amethyst, an early simulated architecture for a future console, intended to make machine-learning graphics workloads more efficient. Its “neural arrays” would let small groups of GPU compute units share data and tackle larger screen regions as coordinated AI engines, supporting more pervasive upscaling and enhancement than today's fragmented processing. HN discussion questioned whether diminishing chip gains and greater reliance on generated frames signal stagnation, while others argued better lighting, simulation, fixed hardware targets, and gameplay still offer meaningful progress.
 
-- LLM perspective
-  - View: PS6 likely reallocates die area to AI/RT blocks, integrating frame generation; wholesale raster removal unlikely this gen.
-  - Impact: Engines and tooling must deliver low-latency FG/upscaling paths and RT-first workflows; QA shifts to motion artifacts and latency metrics.
-  - Watch next: AMD RDNA roadmap, Sony SDKs, neural shader APIs, and end-to-end latency benchmarks for frame-gen under variable refresh and streaming.
+### Comment pulse
+
+- Diminishing returns worry players → rising chip costs and dedicated ray-tracing and AI hardware may yield less visible generational improvement.
+- Graphics still have headroom → advocates emphasized lighting, ray tracing, path tracing, and richer simulation rather than polygon counts alone.
+- Console novelty often arrives late → exclusive software can exploit unusual hardware, while cross-platform engines have little incentive to specialize.
+
+### LLM perspective
+
+- View: Amethyst is an architectural direction, not demonstrated console performance; its current evidence is simulation and partner optimism.
+- Impact: Developers may gain more scalable ML rendering, but image quality increasingly depends on reconstruction behavior and tooling.
+- Watch next: Seek silicon benchmarks, latency, artifacts, developer APIs, power use, backwards compatibility, and non-ML rendering gains.

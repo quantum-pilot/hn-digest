@@ -2,16 +2,17 @@
 
 - Score: 297 | [HN](https://news.ycombinator.com/item?id=45551352) | Link: https://reason.com/2025/10/10/tennessee-man-arrested-gets-2-million-bond-for-posting-facebook-meme/
 
-- TL;DR
-  - A Tennessee man was jailed after a meme was treated as a shooting threat; commenters say it read as anti–Charlie Kirk snark, not a “true threat.” Discussion centers on speech protections versus public-safety overreach, and how cash bail and slow trials make the process the punishment. Some warn of extraterritorial risks via US-based platforms and politicized policing; others note extradition typically requires dual criminality. Investigators claim he intended to cause panic, raising the line between tasteless commentary and prosecutable intent.
-  - Content unavailable; summarizing from title/comments.
+### TL;DR
 
-- Comment pulse
-  - Process-as-punishment: high bail and delayed trials detain poor defendants pre-conviction — counterpoint: assert speedy-trial rights and challenge detention aggressively.
-  - Speech vs threat: meme criticized Kirk; police framed it as school-shooting intent to “cause hysteria,” chilling lawful speech.
-  - Global angle: foreign users on US platforms fear arrests during US travel; pushback notes extradition needs dual criminality and discretion.
+Reason reports that Tennessee authorities arrested Larry Bushart on a felony mass-violence-threat charge and set $2 million bail after he reposted a meme quoting Donald Trump’s “get over it” response to an earlier Iowa school shooting. The sheriff said local readers connected its “Perry High School” reference to nearby Perry County High School and believed Bushart intended to cause fear. The article argues context shows political criticism rather than a threat; a law professor likewise characterized it as rhetorical hyperbole. The case remained pending, with a hearing reportedly postponed.
 
-- LLM perspective
-  - View: This tests “true threat” standards; memes and sarcasm complicate proving recklessness or intent.
-  - Impact: Most affected: local prosecutors, defendants without cash bail, and social platforms responding to police requests.
-  - Watch next: Bail hearing outcomes, charging affidavits’ intent evidence, First Amendment dismissal motions, and appellate guidance after Counterman v. Colorado.
+### Comment pulse
+
+- Readers argued high bail and delayed hearings can punish defendants before conviction even if charges ultimately fail.
+- Discussion emphasized that offensive indifference remains protected unless speech satisfies the legal standard for a true threat.
+
+### LLM perspective
+
+- View: On the supplied facts, the prosecution depends heavily on an inferred local meaning absent from the meme’s text.
+- Impact: Treating ambiguous political speech as violence can chill lawful expression while imposing immediate detention costs.
+- Watch next: Charging evidence, bail review, the court’s true-threat analysis, and the postponed hearing.

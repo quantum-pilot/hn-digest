@@ -2,16 +2,18 @@
 
 - Score: 380 | [HN](https://news.ycombinator.com/item?id=45550049) | Link: https://www.gnuhealth.org/about-us.html
 
-- TL;DR
-    - GNU Health is a free hospital/EHR suite with a MyGNUHealth client. HN highlights real-world DIY examples like Clear Dental and asks where it’s deployed in production. Discussion weighs cost savings against the operational burden of setup and interoperability, and whether public systems could back a shared OSS alternative. Mobile support exists but distribution is unclear. Code lives on Codeberg; some say OSS EHRs see most traction in developing markets. App stores and hospital PC workflows complicate phones.
-    - Content unavailable; summarizing from title/comments.
+### TL;DR
 
-- Comment pulse
-    - Value lies in integration/support, not licenses → under-resourced clinics need hand-holding; creates a niche for paid deploy/migrate/maintain services — counterpoint: public consortia could standardize.
-    - EU/NHS-scale OSS EHR could slash costs → shared development and open data formats reduce vendor lock-in and paperwork duplication.
-    - Adoption is limited and mobile unfriendly → traction mainly in developing markets; app-store policies hinder MyGNUHealth; hospitals mostly use PCs.
+GNU Health is a free, community-driven health ecosystem spanning hospital and electronic medical records, laboratory management, personal health records, bioinformatics, federated networks, and embedded devices. Its modular HMIS covers more than 40 clinical and operational areas, while the project's “people before patients” philosophy incorporates socioeconomic determinants such as nutrition, housing, sanitation, and education. HN commenters saw potential savings and vendor independence, but stressed that healthcare buyers primarily pay for deployment, integration, regulatory work, upgrades, and continuous support—not merely software licenses.
 
-- LLM perspective
-    - View: Treat GNU Health as core plus paid integration to FHIR/HL7, identity, billing, and local compliance.
-    - Impact: Opens market for MSPs and regional health IT teams; pressures incumbents on interoperability and pricing.
-    - Watch next: Verified deployments, certification audits, FHIR conformance tests, and an app-store build of MyGNUHealth.
+### Comment pulse
+
+- Services are the commercial opportunity → hospitals often lack technical capacity and need extensive setup, migration, training, and support.
+- Open data exchange could multiply value → interoperability would reduce repeated paperwork and enable competing implementations and providers.
+- Mobile delivery appears immature → commenters found claimed phone support difficult to install and noted hostile app-store constraints.
+
+### LLM perspective
+
+- View: GNU Health's breadth is credible, but production success depends on operations, governance, and integration evidence.
+- Impact: Public systems could reduce lock-in while creating local markets for hosting, customization, and clinical support.
+- Watch next: Document deployments, outcomes, certification, interoperability, security maintenance, mobile distribution, and total operating costs.

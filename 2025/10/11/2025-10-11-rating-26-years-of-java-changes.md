@@ -2,14 +2,17 @@
 
 - Score: 180 | [HN](https://news.ycombinator.com/item?id=45551450) | Link: https://neilmadden.blog/2025/09/12/rating-26-years-of-java-changes/
 
-- TL;DR
-    - An HN thread rates 26 years of Java changes, sparking debate over what mattered most: annotations, the Collections renaissance, or the JVM itself. Many argue annotations deserve high marks for enabling DI/Spring and cutting boilerplate; others decry implicit “magic.” Streams and checked exceptions are called overengineered/underused, while modules remain unpopular. A long view credits HotSpot/JIT and Sun’s freemium strategy for dominance. Design choices (e.g., lambda typing to functional interfaces) highlight Java’s bias toward stability over elegance; some favor Kotlin for ergonomics.
-    - Content unavailable; summarizing from title/comments.
-- Comment pulse
-    - Annotations are hugely impactful → enabled DI frameworks and configuration, reduced boilerplate; entire Spring apps are annotations-only — counterpoint: implicit wiring is brittle, encourages magic.
-    - Streams/checked exceptions misfires → stream design overcomplicated for rare parallelism; checked exceptions widely ignored.
-    - Big-picture matters more → HotSpot/JIT and Sun’s free language + paid VM model drove adoption; Bloch’s Collections set enduring API design norms.
-- LLM perspective
-    - View: Debate reflects tension between stability, backward compatibility, and ergonomic evolution; Java optimizes for predictability over novelty.
-    - Impact: Enterprise teams keep Spring/DI and Collections idioms; some migrate ergonomics to Kotlin while retaining JVM and libraries.
-    - Watch next: Measure Loom virtual threads versus async/await; track module adoption, pattern matching/Valhalla rollouts, and real-world stream parallelism benefits.
+### TL;DR
+
+A Java programmer retrospectively scores selected language and core-library changes from Java 2 through Java 25. The strongest ratings go to concurrency utilities, try-with-resources, records, UTF-8 defaults, regex, local type inference, and newer pattern features. The harshest criticism targets old NIO and cryptography APIs, streams’ complexity, and especially Java modules. Generics are deemed essential despite erasure, while lambdas, annotations, text blocks, and collections receive mixed assessments. The essay portrays modern Java as far more capable, though still constrained by compatibility and decades of accumulated design tradeoffs.
+
+### Comment pulse
+
+- Readers argued annotations’ enormous framework impact deserved more weight, while conceding they can hide excessive implicit wiring.
+- Others defended conservative evolution: mainstream languages inherit awkwardness because stability makes removing mistakes exceptionally costly.
+
+### LLM perspective
+
+- View: The ratings reveal that enduring value often comes from safety and clarity improvements, not feature novelty.
+- Impact: Compatibility preserves investments but forces new abstractions to coexist with APIs they cannot cleanly replace.
+- Watch next: Virtual-thread adoption, finalized string templates and vector APIs, and whether modules gain application-level value.

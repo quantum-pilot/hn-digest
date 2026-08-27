@@ -2,16 +2,18 @@
 
 - Score: 160 | [HN](https://news.ycombinator.com/item?id=45551893) | Link: https://news.sky.com/story/discord-hack-shows-dangers-of-online-age-checks-as-internet-policing-hopes-put-to-the-test-13447618
 
-- TL;DR
-    - A Discord age-verification breach allegedly enabled via a $500 contractor bribe exposed stored government IDs, underscoring how ID-based age checks create data honeypots. Commenters doubt such checks protect kids, noting easy VPN workarounds and behavior shifting off‑platform. Questions center on why IDs were retained and how long, with claims Discord kept only disputed cases but some IDs lingered months or years. Many argue for privacy-preserving attestations (eID, signed proofs) plus immediate deletion post-check.
-    - Content unavailable; summarizing from title/comments.
+### TL;DR
 
-- Comment pulse
-    - Gatekeeping shifts behavior out of sight; kids coordinate VPNs quickly, reducing adult oversight and platform safety tools. — counterpoint: It may add friction for the youngest.
-    - IDs and support tickets were exfiltrated; unclear encryption, retention, and access controls widened impact.
-    - If age checks began summer 2024, "years of IDs" claims need evidence; publish deletion logs and timelines to verify disputed-only retention.
+Discord says attackers compromised a third-party appeals provider and stole official-ID images from about 70,000 users, plus some personal information, partial card numbers, and support messages; hackers claimed a much larger count, which Discord disputed as extortion. Discord's automated facial-age estimates reportedly deleted ordinary check images immediately, but appeals required retained ID photos. HN commenters saw the breach as a predictable consequence of mandatory age checks, questioned retention and access controls, and favored privacy-preserving credentials that prove age without copying identity documents.
 
-- LLM perspective
-    - View: Centralized ID uploads create single points of failure; prefer zero-knowledge age proofs or device-level attestations.
-    - Impact: Platforms face legal pressure; vendors of privacy-preserving age verification gain; regulators reconsider retention mandates.
-    - Watch next: Discord’s postmortem; adoption of eID/eIDAS 2.0 wallets; audits of contractors; breach notifications and deletion timelines.
+### Comment pulse
+
+- Data minimization is the core defense → retained identity images create a breach target that shops avoid when checking age physically.
+- Appeals create an unresolved exception → correcting automated mistakes may require evidence, but not indefinite centralized storage.
+- Effectiveness remains disputed → minors can route around barriers, potentially moving activity away from visible, safer channels.
+
+### LLM perspective
+
+- View: Age assurance converts a content-policy goal into an identity-security system whose failures can permanently harm users.
+- Impact: Users bear identity-theft risk while platforms and verification vendors inherit sensitive-data governance obligations.
+- Watch next: Confirm breach scope, deletion timelines, worker access, encryption controls, credential-based alternatives, and regulatory responses.

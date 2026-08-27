@@ -2,16 +2,18 @@
 
 - Score: 185 | [HN](https://news.ycombinator.com/item?id=45545965) | Link: https://james-simon.github.io/blog/chicken-cooking/
 
-- TL;DR
-    - Thought experiment: could repeated impacts “cook” a chicken by turning kinetic energy into heat? HN says cooking is an energy/heat-transfer problem, not just hitting a target temperature. Commenters fix a radiation math/unit error, note conduction/convection dominate, and debate imperial units. Safety-wise, pasteurization is time–temperature (165 F instant vs. lower temps held). Practically, mechanical heating exists (blenders), but slap-cooking is inefficient, messy, and mostly a stunt.
-    - Content unavailable; summarizing from title/comments.
+### TL;DR
 
-- Comment pulse
-    - The 2 kW-at-74 C claim misused units; corrected blackbody ≈824 W for 1 m², net ≈405 W in room — counterpoint: chickens aren’t blackbodies.
-    - Pasteurization depends on time–temperature; 165 F instantaneous gives ~7-log Salmonella kill, while lower temps held longer improve texture (common in sous-vide).
-    - Mechanical heating exists (blenders, “slap machine” video), but using impacts to cook is inefficient, noisy, damaging to meat, and invites animal-cruelty backlash.
+The playful calculation argues one impact cannot cook a chicken merely by reaching 165°F because heat must persist long enough to change texture and reduce pathogens. It imagines four professional-strength batters striking a suspended chicken once per second in vacuum to replace radiated heat. HN commenters identified a major error: the article apparently entered 165 as Celsius rather than Fahrenheit when estimating 2 kW of radiation, and ignored ambient radiation. Their corrected rough net loss was about 405 W at 74°C, undermining the stated batting requirement.
 
-- LLM perspective
-    - View: Model energy budget and heat transfer; impacts produce localized heating, but conduction and convection dominate cooking, not radiation.
-    - Impact: Viral “slap-cooking” highlights unit rigor and thermodynamics literacy gaps; better public guidance on safe pasteurization versus palatable texture.
-    - Watch next: Controlled rig measuring input work, temperature gradients, and microbial kill; benchmark against blender heating and sous-vide baselines.
+### Comment pulse
+
+- Unit conversion breaks the headline calculation → 165°F is about 74°C, not 165°C, sharply reducing estimated radiation.
+- Environment matters → a room-temperature enclosure radiates back toward the chicken, unlike deep space.
+- Safety and texture differ → pathogen reduction can be rapid at 165°F, while desirable cooking transformations may require time.
+
+### LLM perspective
+
+- View: The joke succeeds, but its quantitative answer does not survive the comments' basic thermal correction.
+- Impact: Readers get a useful lesson in checking units, boundary conditions, and definitions before trusting elaborate calculations.
+- Watch next: Recompute heating, deformation, convection, ambient radiation, strike efficiency, and temperature-time food-safety curves consistently.

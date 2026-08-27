@@ -2,16 +2,18 @@
 
 - Score: 257 | [HN](https://news.ycombinator.com/item?id=45549308) | Link: https://kelvinjps.com/blog/firefox-best-mobile-browser/
 
-- TL;DR
-    - HN readers praise Firefox Android for real extension support—especially uBlock Origin—plus tab sync and optional biometric lock for private tabs. Security-focused voices cite GrapheneOS’s warning: Gecko on Android lacks strong sandboxing and adds attack surface versus Chromium/Vanadium. Many argue effective adblocking is itself a major security layer amid malvertising. Reported rough edges: sluggish Google Cloud Console, blocked file:// pages, and occasional attestation-related compatibility (e.g., Wise verification). Note: use uBlock Origin, not the unrelated uBlock project.
-    - Content unavailable; summarizing from title/comments.
+### TL;DR
 
-- Comment pulse
-    - Security-first view → GrapheneOS: Gecko lacks Android sandbox; using it adds second engine surface; prefer Chromium/Vanadium. — counterpoint: Chrome privacy harms; Firefox’s custom blocking outweighs risk.
-    - Decision driver → Firefox supports uBlock Origin (not uBlock); malvertising risk makes blockers essential; governments advise blockers; Brave, Safari uBO Lite, Edge now compete.
-    - Everyday use → Sync and Send-to-Device praised; private tabs can require fingerprint; drawbacks: no file:// access; Google Cloud Console sluggish vs Chrome for some.
+The author favors Firefox on Android because desktop-like extensions can strip away mobile-web annoyances while sync and homepage controls connect phone and desktop browsing. Their setup uses uBlock Origin filter lists, LibRedirect alternative front ends, paste restoration, background playback, archive lookup, and time limits. HN users strongly endorsed ad blocking and device-to-device tab sharing, while noting other browsers now offer blockers. A substantial counterpoint cited GrapheneOS's warning that Firefox's Android sandboxing and Gecko's additional engine attack surface are weaker than Chromium alternatives.
 
-- LLM perspective
-    - View: Firefox wins on extensibility and UX; on Android, its weaker sandbox remains the main asterisk for high-risk users.
-    - Impact: Adblock availability is commoditizing; differentiation shifts to security architecture, site compatibility, and cross-device features like history/tabs sync.
-    - Watch next: Track Firefox Android sandbox/site-isolation milestones, Manifest V3 effects on mobile blockers, and attestation-driven breakage on banking/identity flows.
+### Comment pulse
+
+- Extensions restore user control → blockers remove ads, banners, chat widgets, cookie prompts, forced apps, and hostile interface choices.
+- Security and usability conflict → Chromium offers stronger isolation, while Firefox enables broader content blocking and customization.
+- Naming matters → the recommended extension is uBlock Origin, a distinct project from uBlock.
+
+### LLM perspective
+
+- View: “Best” depends on threat model: Firefox excels at user-controlled browsing, not necessarily Android exploit containment.
+- Impact: Mobile users can reclaim scarce screen space and attention while accepting a different browser-engine security posture.
+- Watch next: Track Firefox sandboxing, site isolation, extension compatibility, performance, and competing browsers' blocker capabilities.
