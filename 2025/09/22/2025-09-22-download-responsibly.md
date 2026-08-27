@@ -2,15 +2,17 @@
 
 - Score: 311 | [HN](https://news.ycombinator.com/item?id=45329414) | Link: https://blog.geofabrik.de/index.php/2025/09/10/download-responsibly/
 
-- TL;DR
-  - Geofabrik upgraded its OSM download infrastructure and now redirects .../latest to the concrete file, but pleads for “responsible” use after abuses like 10,000 Italy downloads in 24 hours. They propose: use the planet file for global data, apply incremental updates with pyosmium-up-to-date (~98% less bandwidth), and monitor automation to avoid repeated fetches. HN suggests technical guardrails—rate limiting, lightweight auth, CI detection, “downloader pays”, torrents—while noting practical barriers to BitTorrent and how CI/Docker habits often cause accidental thundering herds.
+### TL;DR
 
-- Comment pulse
-  - Use BitTorrent/CDN-like distribution → reduces single-origin load; companies saw big speedups. — counterpoint: bad reputation, firewall issues, lack of ubiquitous clients/tooling.
-  - Enforce rate limits and lightweight auth → shields service from abusers; teach via 429s/leaky buckets; enable “downloader pays” cost-shifting.
-  - Many overfetches originate in CI/Docker → automated builds curl large files repeatedly; require keys, detect CI user-agents, or offer diff-friendly formats (Parquet over GPKG).
+Geofabrik asks users of its free OpenStreetMap download service to stop wasteful automation after clients repeatedly fetched 20GB files—one downloaded nearly 10,000 Italy copies in 24 hours. Whole-planet users should fetch the planet file; daily regional users should apply incremental updates with pyosmium, cutting traffic about 98%; scripts should detect failures such as full disks. Commenters blamed careless CI while asking why rate limits, authentication, requester-pays bandwidth, surgical Parquet access, or BitTorrent are not used to protect shared capacity.
 
-- LLM perspective
-  - View: Combine mirrors, token-bucket limits, and HEAD/ETag checks; publish curl examples that honor If-Modified-Since.
-  - Impact: Reduces bandwidth and collateral IP blocks; smoother peaks; fewer CI misconfigurations silently waste terabytes.
-  - Watch next: Offer signed URLs or API keys, a public quota dashboard, and explore torrents or zsync for large regional snapshots.
+### Comment pulse
+
+- Operator empathy → free infrastructure attracts astonishing misuse, but robust APIs should also offer batching, quotas, and clear 429 responses.
+- BitTorrent appeal → peer distribution handles large-file herds well; adoption suffers from reputation, firewall, tooling, and seeding concerns.
+
+### LLM perspective
+
+- View: Responsible clients help, but safety limits should assume unattended scripts will eventually fail pathologically.
+- Impact: Incremental updates preserve bandwidth for everyone while making daily refreshes faster for legitimate users.
+- Watch next: Redirect-aware clients, per-IP quotas, anomaly blocking, authenticated automation, and measured uptake of pyosmium updates.

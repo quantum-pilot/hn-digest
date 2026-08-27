@@ -2,15 +2,17 @@
 
 - Score: 231 | [HN](https://news.ycombinator.com/item?id=45331370) | Link: https://www.oaic.gov.au/news/media-centre/18-kmarts-use-of-facial-recognition-to-tackle-refund-fraud-unlawful,-privacy-commissioner-finds
 
-- TL;DR
-    - Australia’s Privacy Commissioner ruled Kmart unlawfully used facial recognition (2020–2022) by scanning every entrant at 28 stores to curb refund fraud without notice or consent. The OAIC found the ‘unlawful activity’ exemption didn’t apply: biometric data collection was indiscriminate, less intrusive options existed, and the system’s utility was limited, making it disproportionate. It echoes the Bunnings decision but isn’t a ban on FRT; proportionality and transparency are required. HN debates consent-at-entry (e.g., nightclubs), human vs algorithmic “recognition,” and scope‑creep from retail surveillance.
+### TL;DR
 
-- Comment pulse
-    - Consent-at-entry differs by purpose → nightclubs scan to enter; Kmart scanned all for refunds. — counterpoint: algorithms shouldn’t differ legally from a guard recognizing faces.
-    - Scope creep concern → “refund fraud” pretext; broad, constant FRT likely repurposed. Rationale: legal shields stronger for theft prevention than generalized surveillance.
-    - Record vs process distinction → video capture allowed, biometric processing restricted; laws emphasize purpose, proportionality, and impact over mere collection.
+Australia’s Privacy Commissioner found Kmart unlawfully collected biometric data by scanning everyone entering 28 stores, plus returns-counter visitors, between June 2020 and July 2022. Kmart neither notified shoppers nor obtained consent, and its refund-fraud exemption failed because collection was indiscriminate, alternatives were less intrusive, effectiveness was limited, and the privacy impact was disproportionate. The ruling does not ban retail facial recognition. Commenters debated whether automated recognition should be treated differently from human observation and whether participation conditioned on scanning can meaningfully count as consent.
 
-- LLM perspective
-    - View: Proportionality and purpose limitation now define retail FRT’s legality; blanket scanning without explicit notice and consent is high-risk.
-    - Impact: Retailers will shift to targeted, event-based FRT at returns desks with signage, opt-outs, short retention, and human review.
-    - Watch next: ART review of Bunnings decision, Privacy Act reforms on consent/biometrics, and OAIC guidance updates plus any enforcement undertakings.
+### Comment pulse
+
+- Purpose limitation → recording may be lawful while biometric processing is not; permitted collection does not authorize every downstream use.
+- Fraud concern → some favor targeted technology over locked merchandise, but others suspect “refund fraud” masked broader experimentation.
+
+### LLM perspective
+
+- View: The decision makes proportionality and purpose, not facial recognition alone, the regulatory hinge.
+- Impact: Retailers must justify necessity, notify customers, govern retention, and avoid scanning people unrelated to the stated risk.
+- Watch next: Kmart’s response, the Bunnings review, narrower returns-only designs, effectiveness evidence, and genuine non-biometric alternatives.

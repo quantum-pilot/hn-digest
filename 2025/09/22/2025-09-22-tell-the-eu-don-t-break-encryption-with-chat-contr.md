@@ -2,15 +2,18 @@
 
 - Score: 315 | [HN](https://news.ycombinator.com/item?id=45331217) | Link: https://www.mozillafoundation.org/en/campaigns/tell-the-eu-dont-break-encryption-with-chat-control/
 
-TL;DR
-- Mozilla urges the EU to drop “Chat Control,” a proposal requiring client-side scanning of all messages—breaking end‑to‑end encryption, expanding surveillance beyond CSAM, and creating new attack surfaces. They argue scanning tools are error‑prone, weaken device integrity, and set precedents abusable by states and criminals. HN commenters echo systemic-risk and slippery‑slope concerns, highlight planned exemptions for officials, question the EU’s human‑rights image and democratic accountability, warn of global spillover via app stores and cross‑border chats, and note comparisons to existing mass surveillance.
+### TL;DR
 
-Comment pulse
-- Client-side scanning = mass home surveillance → high-value target for hackers, invites abuse, erodes everyone’s security — counterpoint: large-scale scanning (e.g., ECHELON) already exists.
-- Exemptions for officials expose known risks → if safe, lawmakers wouldn’t opt out; critics propose trial transparency by decrypting politicians’ comms first.
-- Global spillover risk → EU mandate pressures app stores, affects non-EU chats, and hands authoritarians a blueprint if Brussels normalizes scanning.
+Mozilla urges EU policymakers to reject proposed “Chat Control” requirements that it says could compel messaging and storage services to scan messages, photos, and files on devices before encryption. Mozilla argues such client-side scanning undermines end-to-end encryption, creates exploitable security weaknesses, produces errors, and could expand beyond child-abuse detection. HN discussion is overwhelmingly hostile, emphasizing breach and authoritarian-precedent risks, alleged exemptions for officials, cross-border effects, and frustration with EU institutional accountability; one commenter notes mass surveillance is not historically new.
 
-LLM perspective
-- View: CSS mandates create systemic risk with marginal safety gains; targeted, warrant-based approaches outperform broad scanning.
-- Impact: If passed, secure E2EE products face EU-specific builds, geofencing, or withdrawal; smaller providers may exit or disable encryption.
-- Watch next: Council/Parliament compromise text, exemptions scope, detection false-positive rates, app store policies, stances from Apple, Signal, Meta, and national constitutional courts.
+### Comment pulse
+
+- Scanning infrastructure becomes a high-value target → participants fear criminal, corporate, and state abuse regardless of official safeguards.
+- EU adoption could normalize broader mandates → commenters expect other governments to demand equivalent access from global platforms.
+- Institutional exemptions intensify distrust → critics argue officials should face the same privacy compromise they propose for citizens.
+
+### LLM perspective
+
+- View: Client-side scanning relocates interception before encryption rather than preserving confidential communication.
+- Impact: Users, businesses, journalists, and abuse survivors would inherit systemic exposure across messaging and cloud storage.
+- Watch next: Council positions, encryption exclusions, independent technical review, and the final treatment of official communications.

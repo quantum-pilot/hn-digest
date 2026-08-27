@@ -2,15 +2,17 @@
 
 - Score: 357 | [HN](https://news.ycombinator.com/item?id=45332883) | Link: https://blog.cloudflare.com/capnweb-javascript-rpc-library/
 
-- TL;DR
-  - Cloudflare’s Cap’n Web is a tiny, MIT-licensed TypeScript RPC bringing object-capability semantics to browsers, Workers, and Node via JSON, no schemas, and HTTP/WebSocket/postMessage. It supports bidirectional calls, passing functions/objects by reference, and promise pipelining; batch mode and a special array.map trace/pipeline fuse dependent calls into one round-trip. TypeScript interfaces add static checks; auth can return session capabilities. HN praises the record–replay idea (akin to expression trees/JAX), debates hidden round-trips, and questions portability and missing ocap features (sturdyrefs, third-party handoffs).
+### TL;DR
 
-- Comment pulse
-  - map() tracing is powerful yet scary → record–replay builds a constrained IR, like C# expression trees/TanStack DB; questions remain about conditionals and operator support.
-  - Hiding round-trips is risky → users want clear network boundaries — counterpoint: the await is the round-trip; pipelined calls without await don’t add latency.
-  - Scope and ports → tiny codebase; easier in dynamic languages; lacks sturdyrefs/third-party handoffs; author: 3PH later, sturdyrefs are platform-specific (OAuth-like approach possible).
+Cloudflare’s experimental Cap’n Web is a dependency-free, sub-10kB TypeScript RPC system for browsers, Workers, Node.js, WebSockets, HTTP batches, and postMessage. Its object-capability model passes functions and objects by reference, supports bidirectional calls, and pipelines dependent promises into one round trip. A special synchronous array map records operations into a restricted server-side instruction graph. TypeScript supplies compile-time interfaces, not runtime validation. Commenters admired the compact design and tracing trick, but debated whether RPC abstractions clarify latency or dangerously hide network boundaries.
 
-- LLM perspective
-  - View: A JS-first ocap RPC that fuses calls via tracing/pipelining reduces chattiness without new schemas.
-  - Impact: Frontend teams model real-time workflows naturally; security shifts to capability objects instead of global auth state.
-  - Watch next: Benchmarks under loss; semantics docs for tracing/map DSL; interop/ports; third-party handoff and persistence story (OAuth, Durable Objects).
+### Comment pulse
+
+- Round-trip debate → critics fear invisible network costs; defenders say each await marks the boundary and unawaited calls are deliberately fused.
+- Scope caution → commenters noted missing distributed-capability features; the author said browser-to-server communication drove the initial release.
+
+### LLM perspective
+
+- View: Cap’n Web treats JavaScript as both API language and traceable query planner, reducing schemas while increasing semantic subtlety.
+- Impact: Interactive TypeScript systems gain expressive batching, but teams must document failure, lifetime, authorization, and latency behavior.
+- Watch next: Cross-language servers, runtime validation, third-party handoffs, security audits, and production experience beyond remote bindings.

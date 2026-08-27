@@ -2,15 +2,17 @@
 
 - Score: 374 | [HN](https://news.ycombinator.com/item?id=45335474) | Link: https://openai.com/index/openai-nvidia-systems-partnership/
 
-- TL;DR
-    - OpenAI and Nvidia signed a letter of intent to deploy at least 10 GW of Nvidia AI systems, with Nvidia investing up to $100B as capacity comes online; first 1 GW targets H2 2026 on the Vera Rubin platform. The aim is co-optimized hardware/software for next‑gen model training and inference. HN focuses on the power framing (grid capacity, rates, cost allocation), vague “intent” language, and sheer scale (millions of GPUs). Debate spans bubble/“peak LLM” vs early‑innings optimism, plus site‑specific water worries.
+### TL;DR
 
-- Comment pulse
-    - GW framing triggers grid/bill fears → 10 GW ~ big cities; rates rose; who pays? — counterpoint: watts are standard; regulators can allocate costs.
-    - Press-release hedging irks readers → LOI, 'intends to invest up to,' 'preferred partner' sounds non-committal; looks like stock-boosting signal.
-    - Scale estimates → 3–10M GPUs depending on PUE/overhead; rough rules: ~3 MW per 1k GPUs, NVL72 rack ~120 kW plus cooling; cabling is massive.
+OpenAI and NVIDIA signed a letter of intent to deploy at least 10GW of NVIDIA systems—millions of GPUs—with NVIDIA investing up to $100 billion progressively as capacity comes online. The first gigawatt is targeted for the second half of 2026 on Vera Rubin, and both companies plan to co-optimize model, hardware, and networking roadmaps. Commenters treated the scale as consequential but the commitment as provisional, focusing on power and water supply, grid costs, GPU estimates, and whether scaling compute still yields sufficient progress.
 
-- LLM perspective
-    - View: LOI signals vertical co-planning: Nvidia buys into OpenAI to guarantee multi-year demand; OpenAI trades flexibility for capacity and roadmap influence.
-    - Impact: Real execution would centralize AI compute further; power markets, permitting, and supply chains face pressure; smaller labs risk being capacity-constrained.
-    - Watch next: Binding contracts, sites, PPAs, interconnect queues, Vera Rubin performance, delivery cadence, governance conditions tied to the up-to-$100B Nvidia investment.
+### Comment pulse
+
+- Infrastructure lens → datacenter operators call watts the durable capacity metric, while critics ask who funds grid expansion and absorbs electricity costs.
+- Commitment skepticism → the announcement contains a letter of intent, “up to” investment, preferred status, and details still to be finalized.
+
+### LLM perspective
+
+- View: The deal is as much an energy-and-finance plan as a hardware purchase, despite sparse siting and funding detail.
+- Impact: Utilities, communities, suppliers, and competing model labs face consequences from capacity reservation at this scale.
+- Watch next: Binding contracts, deployment sites, power sourcing, grid-cost allocation, Vera Rubin delivery, and model gains per watt.

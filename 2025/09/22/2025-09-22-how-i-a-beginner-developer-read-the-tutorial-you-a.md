@@ -2,15 +2,17 @@
 
 - Score: 816 | [HN](https://news.ycombinator.com/item?id=45328247) | Link: https://anniemueller.com/posts/how-i-a-non-developer-read-the-tutorial-you-a-developer-wrote-for-me-a-beginner
 
-- TL;DR
-    - A humorous post shows how many developer tutorials read as indecipherable gibberish to newcomers: undefined jargon, hidden prerequisites, skipped steps, and unclear success states. HN agrees the pain is real and offers fixes: observe novices running your docs without help, list prerequisites and expected outputs, and clarify audience and goals. Debate centers on who tutorials target (peers vs beginners) and the title’s non‑dev vs beginner framing. Calls for READMEs to explain “what/why,” adoption status, and using frameworks like Diátaxis to structure docs.
+### TL;DR
 
-- Comment pulse
-    - Usability-test docs with novices → observe, note missing prereqs and ambiguity; iterate until task succeeds. — counterpoint: authors struggle to stay silent; use neutral moderators.
-    - Clarify audience → beginner vs non-developer needs differ; set expectations and add collapsible context for terms, prerequisites, and outcomes; invite newcomers to fix onboarding docs.
-    - Explain the “what/why” first → READMEs rarely state purpose, tradeoffs, status; use Diátaxis for tutorials/how-to/reference to reduce confusion.
+The satirical post shows how a “beginner” tutorial feels when it opens with unexplained credentials and jargon, skips hidden prerequisites, then compresses hours of searching into a few cheerful terminal steps. Its target is the author’s curse of knowledge, not volunteers sharing imperfect documentation. Commenters recommended silent usability tests with novices, expected-success and error examples, and letting newcomers repair onboarding guides. They also disputed audience boundaries: general readers need foundations, while peer tutorials cannot re-explain an entire ecosystem every time.
 
-- LLM perspective
-    - View: The piece satirizes curse-of-knowledge failures; comments coalesce around audience focus, usability testing, and explicit prereqs, errors, and success states.
-    - Impact: Teams that adopt these patterns cut onboarding time, reduce support load, and broaden adoption beyond insiders.
-    - Watch next: Watch for quickstart matrices, prereq checkers, sample outputs, error glossaries, and audience labels; track adoption and support-ticket deltas.
+### Comment pulse
+
+- Fresh-eyes testing → watch an intended user execute the guide without help, record every failure, revise, then repeat with someone new.
+- Audience contract → state prerequisites and purpose clearly; accessible detail helps experts too, but not every technical note is beginner instruction.
+
+### LLM perspective
+
+- View: Documentation fails when its promised audience and assumed context diverge, even if every command is technically correct.
+- Impact: Better onboarding reduces support calls, lost days, and user anxiety while exposing hidden system dependencies.
+- Watch next: Task-completion tests, prerequisite checklists, maintained error examples, and newcomer-authored fixes after each release.

@@ -2,15 +2,18 @@
 
 - Score: 982 | [HN](https://news.ycombinator.com/item?id=45330378) | Link: https://hackerone.com/reports/3340109
 
-- TL;DR
-  - A HackerOne report claimed a critical libcurl cookie-parser RCE with ASan logs and a “PoC,” but the code never called curl. Maintainer Daniel Stenberg flagged it; the reporter retracted, the report was closed as Not Applicable, the account banned, and the thread disclosed for transparency. HN sees it as AI-generated slop creeping into security reports/PRs, wasting maintainers’ time. Commenters emphasize human-in-the-loop responsibility, but warn that reflexively labeling content “AI” can become a lazy dismissal, prompting frustration and gallows humor.
+### TL;DR
 
-- Comment pulse
-  - AI slop is flooding OSS triage → obvious template-y language, fake PoCs, and copy‑pasted jargon consume scarce maintainer time.
-  - Use AI, but own the output → human-in-the-loop must validate, run PoCs against real code, and take responsibility before filing.
-  - Spotting AI is getting easier → formulaic tone and errors give it away — counterpoint: overusing “that’s AI” can dismiss legitimate reports.
+A HackerOne submission claimed a critical cURL cookie-parsing overflow, but its proof of concept merely called `strlen` on a deliberately unterminated local buffer and never exercised libcurl. cURL staff requested the exact faulty source line; the reporter then acknowledged the error, retracted the claim, and asked that it be closed as invalid. HN readers saw obvious AI-generated prose and focused on the external cost of unverified submissions, arguing that users must personally validate and own AI-assisted security reports before burdening maintainers.
 
-- LLM perspective
-  - View: Require reproducible, code-path PoCs and exact file/line references; auto-close reports lacking minimal evidence.
-  - Impact: Maintainers regain time; frivolous AI submissions drop; serious reporters adapt workflows to provide verifiable artifacts.
-  - Watch next: HackerOne/GitHub add AI-detection and templates; curated queues; penalties for spam; benchmarks for “AI-assisted but validated” submissions.
+### Comment pulse
+
+- Human review was effectively absent → the elaborate severity claims collapsed because the reproducer never invoked the targeted code.
+- Saved effort became transferred effort → maintainers had to investigate and rebut a report that established no cURL vulnerability.
+- AI assistance is not the problem alone → commenters emphasize accountability when submitting generated work under one’s own name.
+
+### LLM perspective
+
+- View: Polished technical language can conceal a missing causal link between evidence and claim.
+- Impact: Unfiltered automated reports increase triage costs and may crowd out legitimate vulnerability research.
+- Watch next: Reproducer requirements, submission-rate controls, provenance signals, and sanctions for repeated unverifiable reports.

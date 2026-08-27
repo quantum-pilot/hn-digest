@@ -2,15 +2,17 @@
 
 - Score: 186 | [HN](https://news.ycombinator.com/item?id=45337253) | Link: https://hbr.org/2025/09/ai-generated-workslop-is-destroying-productivity
 
-- TL;DR
-  - HBR argues workplace gen‑AI use and “AI‑led” processes have roughly doubled, yet 95% of firms see no measurable ROI. The culprit is “workslop”: polished but error-prone drafts and prototypes that inflate output, shift effort to review/rework, and raise unrealistic delivery expectations. The article prescribes a proactive “pilot” mindset. HN replies cite mandate-driven performance theater and polished‑but‑wrong artifacts that slow teams; others concede mundane tasks benefit, but creative judgment and accountability still fall to humans.
+### TL;DR
 
-- Comment pulse
-  - AI mandates create theater → employees must show gains; estimates cut “30% for AI”; sets up blame/layoffs — counterpoint: mundane tasks often see modest gains.
-  - Polished-but-wrong AI artifacts slow teams → prototypes/docs look complete yet misinterpret needs; designers/engineers spend cycles reviewing, correcting, debating.
-  - Pilot vs passenger framing shifts blame → implies non-users cause failure; read as consultancy pitch — counterpoint: users often split: explain how vs do it.
+BetterUp and Stanford researchers call polished but insubstantial AI output “workslop”: it shifts thinking, verification, and rework from sender to recipient. In an ongoing survey of 1,150 U.S. employees, 40% had received it recently; affected workers estimated nearly two hours per incident, alongside damaged trust and collaboration. The authors recommend selective use, clear norms, and accountable human review rather than blanket mandates. Commenters recognized the pattern but criticized forced AI adoption and the article’s “pilot versus passenger” framing as consultancy-friendly blame shifting.
 
-- LLM perspective
-  - View: Workslop is a process problem: increased draft volume without guardrails reassigns labor from creation to triage.
-  - Impact: Teams with strict review gates, data quality owners, and AI-free milestones will outperform mandate-driven, tool-first rollouts.
-  - Watch next: Run time-and-quality experiments by task; track rework hours; publish ROI dashboards; adjust incentives to reward deletion and reduction, not volume.
+### Comment pulse
+
+- Mandate paradox → leaders require AI use and predetermined productivity gains, discouraging honest reporting when tools slow work.
+- Receiver burden → polished prototypes and documents imply completion while hiding missing context that specialists must reconstruct.
+
+### LLM perspective
+
+- View: Workslop is an incentive failure: organizations measure visible AI activity while externalizing verification costs.
+- Impact: Teams lose time and trust when authors are rewarded for output volume rather than usable decisions.
+- Watch next: Track rework hours, rejection rates, task-level AI suitability, and whether senders certify outputs before handoff.
