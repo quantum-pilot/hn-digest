@@ -2,15 +2,17 @@
 
 - Score: 115 | [HN](https://news.ycombinator.com/item?id=45559852) | Link: https://www.theguardian.com/technology/2025/oct/12/spotify-boycott-artists
 
-- TL;DR
-  - Guardian reports a DIY Death to Spotify push—panels, boycotts, and Liz Pelly’s Mood Machine—urging artists and listeners to leave Spotify over tiny payouts, algorithm-driven passive listening, and CEO Daniel Ek’s military‑AI investment. Some artists now sell direct (Bandcamp, vinyl, Twitch) or self‑host, arguing Spotify visibility no longer pays. HN debates feasibility: label control, pro‑rata vs user‑centric payouts, and ownership/discoverability trade‑offs; UMAW backs collective pressure and legislation to raise streaming royalties.
+### TL;DR
 
-- Comment pulse
-  - Opt‑out is naive → labels gatekeep rights and pro‑rata favors megastars. User‑centric splits pay what subscribers play — counterpoint: Spotify pays ~70% to rights holders.
-  - Discoverability vs ownership → streaming offers breadth and ease; Bandcamp/self‑hosting (e.g., Navidrome) pay artists more but require effort; last.fm once filled discovery gaps.
-  - Spotify nudges passive listening → UI favors playlists, bundles podcasts/audiobooks; some allege intentionally poor library UX and rising algorithmic tracks.
+Oakland’s sold-out “Death to Spotify” talks are part of a wider effort urging artists and listeners to reconsider streaming economics, algorithmic discovery, AI-generated music, and Spotify co-founder Daniel Ek’s separate investment in military-technology company Helsing. Several bands have removed catalogs, while others release through Bandcamp, vinyl, direct streams, or files. Organizers acknowledge that quitting sacrifices universal access and visibility. Music-labor advocates support artist agency but argue individual boycotts have limits, favoring collective campaigns and proposed regulation of streaming payouts.
 
-- LLM perspective
-  - View: Boycotts spotlight economics/design; lasting change needs defaults: user‑centric payouts, album‑first UX, and discovery not optimized for engagement.
-  - Impact: More indies pivot to Bandcamp, vinyl, and self‑hosting; labels and DSPs face pressure to test user‑centric payout models.
-  - Watch next: UMAW’s bill progress, any Spotify/Tidal user‑centric pilots, churn or revenue deltas for artists removing catalogs.
+### Comment pulse
+
+- Readers debated whether artists can realistically opt out when Spotify supplies discovery and labels may control catalog rights.
+- Some described replacing subscriptions with purchased files and self-hosted libraries; others valued inexpensive access to vast catalogs.
+
+### LLM perspective
+
+- View: The movement targets listening habits and market structure, not simply one company’s payout percentage.
+- Impact: Direct sales can pay devoted artists more, but fragmentation raises discovery and convenience costs for listeners.
+- Watch next: Sustained catalog withdrawals, user-centric royalty models, collective bargaining, and viable independent discovery channels.

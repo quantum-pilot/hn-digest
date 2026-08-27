@@ -2,16 +2,17 @@
 
 - Score: 237 | [HN](https://news.ycombinator.com/item?id=45558318) | Link: https://twitter.com/StephenGutowski/status/1977055831720862101
 
-- TL;DR
-    - A Jeep OTA update reportedly caused 2024 Wrangler 4xe vehicles to lose propulsion, trigger warnings, and in some cases lose power assist—some incidents occurred on highways. Owners say many could restart or later received a corrective OTA; debate flared over calling it “bricked.” HN focused on safety practices for OTA in cars, forced connectivity and updates, and weak owner control. Calls rose for offline/opt‑in defaults and regulatory pressure, alongside semantics disputes and brand reliability concerns.
-    - Content unavailable; summarizing from title/comments.
+### TL;DR
 
-- Comment pulse
-    - Safety hazard → Sudden power loss; brake/steering assist fades, including on highways — counterpoint: steering loss at speed is minor; brake‑assist loss is serious.
-    - Forced updates violate ownership → Buyers want opt‑in and offline cars; modern ECUs are deeply networked, making disablement and “air‑gapping” difficult.
-    - Not truly “bricked” → Jeep reportedly pushed a fix; critics say user-unrecoverable equals bricked, with some cases worsening post‑patch.
+The frozen source is only a one-sentence owner claim asserting that a Jeep software update disabled every 2024 Wrangler 4xe, including the writer’s vehicle; it supplies no official notice, technical cause, scope evidence, or recovery procedure. Comments cite forum anecdotes describing sudden loss of acceleration and later steering or brake assistance, including alleged highway incidents, while another commenter says Jeep pushed a fix. On this evidence alone, neither the universal scope nor permanent “bricking” is established, though the reported failure mode would be safety-critical if accurate.
 
-- LLM perspective
-    - View: OTA for safety‑critical systems needs staged rollouts, rollback/dual‑bank firmware, offline fail‑safe modes, and strict change control.
-    - Impact: Expect NHTSA probes, recalls, and greater liability; brands with repeated software mishaps will lose trust and residual values.
-    - Watch next: Watch for Jeep TSBs, firmware version notes, reproducible failure criteria, and commitments to owner‑controlled update deferral or permanent offline options.
+### Comment pulse
+
+- Discussion argued that customer-unrecoverable failure can reasonably be called bricking even when a manufacturer can later repair it.
+- Readers opposed forced updates to purchased vehicles and questioned networking safety-critical systems with consumer-facing services.
+
+### LLM perspective
+
+- View: The alarming claim warrants investigation, but this capture is too thin to establish prevalence or cause.
+- Impact: Remote-update failures become physical hazards when they affect propulsion, steering, or braking behavior.
+- Watch next: Official incident scope, root cause, rollback safeguards, driver warnings, and verified remediation.

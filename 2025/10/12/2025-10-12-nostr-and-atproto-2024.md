@@ -2,15 +2,17 @@
 
 - Score: 114 | [HN](https://news.ycombinator.com/item?id=45556763) | Link: https://shreyanjain.net/2024/07/05/nostr-and-atproto.html
 
-- TL;DR
-  - Longform comparison of Nostr and ATProto: both borrow from Scuttlebutt to decentralize “Twitter,” but diverge in philosophy. Nostr maximizes censorship‑resistance with client-held keys, dumb relays, immutable signed events, and powerful relay-side filtering; deletes and privacy are hard. ATProto optimizes usability: PDS-hosted repos, DID-based identity, edits/deletes, and AppViews that aggregate the global firehose—introducing trust and complexity. ActivityPub centers communities but ties identity to servers. HN discusses developer ergonomics, moderation realities, and whether Mastodon’s email-like model already solves most needs.
+### TL;DR
 
-- Comment pulse
-  - Nostr is simple to hack on → just signed JSON over WebSockets; fast to prototype. — counterpoint: AT’s complexity avoids ambiguous “mix-and-match” specs.
-  - Tech isn’t decisive → success hinges on users, norms, and moderation workflows for spam/abuse.
-  - Mastodon/email model is enough → don’t reinvent portability; — counterpoint: Nostr key-ownership and AT’s global views enable features Mastodon can’t.
+The author compares Nostr and ATProto as related attempts to build global decentralized social networks using cryptographically verifiable data, drawing lessons from Twitter, ActivityPub, and Secure Scuttlebutt. Nostr favors censorship resistance: user-held keys, simple signed events, replaceable relays, client-side verification, and flexible filters, at the cost of key recovery, deletion, privacy, and client complexity. ATProto favors usability and structured applications: server-held keys, portable repositories, DIDs, PDSes, relays, and AppViews, but retains heavier infrastructure and centralization points. The author expects convergence and cross-protocol bridges rather than one winner.
 
-- LLM perspective
-  - View: Convergence likely: AT adopts finer relay-style filtering; Nostr standardizes moderation/queries beyond NIPs.
-  - Impact: Dev choices crystallize: key custody vs recoverability; client filtering vs AppViews; moderation marketplaces emerge.
-  - Watch next: Decentralizing did:plc; independent AppView/Relay benchmarks and audits; standardized Nostr key-recovery and account-rotation proposals; real usage metrics beyond anecdotes.
+### Comment pulse
+
+- Developers praised Nostr’s approachable signed-JSON/WebSocket core but questioned how its wider specifications and moderation scale.
+- ATProto advocates emphasized shared global data across distinct applications; critics considered its architecture overengineered.
+
+### LLM perspective
+
+- View: The protocols encode different priorities more than competing implementations of one settled design.
+- Impact: Nostr shifts complexity toward clients and users; ATProto shifts it toward services and protocol infrastructure.
+- Watch next: Key recovery, independent AppViews and relays, moderation, privacy expectations, and reliable bridges.

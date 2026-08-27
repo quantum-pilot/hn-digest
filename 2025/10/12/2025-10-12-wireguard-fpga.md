@@ -2,15 +2,17 @@
 
 - Score: 325 | [HN](https://news.ycombinator.com/item?id=45559857) | Link: https://github.com/chili-chips-ba/wireguard-fpga
 
-TL;DR
-- Open-source effort to implement WireGuard in hardware on a low-cost Artix‑7 board (4×1G), with a soft RISC‑V control plane and a wire‑speed RTL dataplane (ChaCha20‑Poly1305). It’s a Phase‑1 PoC with a co-sim testbench (VProc), targeting a fully auditable, hostless VPN node and eventual open toolchain builds (OpenXC7). HN debates practicality versus kernel WireGuard’s 1–10G performance, suggests QUIC/MASQUE or WG‑over‑QUIC for obfuscation, and values the educational and auditability angles despite “grantware” concerns.
+### TL;DR
 
-Comment pulse
-- QUIC/MASQUE as VPN → mTLS/FIPS TLS1.3, NAT traversal, traffic camouflage; used by Cloudflare WARP, Mullvad’s WG-over-QUIC — counterpoint: WireGuard’s simplicity suits FPGA acceleration.
-- 1G hardware seems redundant → kernel WireGuard saturates 1G and nears 10G; value is educational, auditable RTL and worst-case, large-table throughput.
-- Scaling beyond 1G → interest in 10–25G+ ports; CPUs can hit 10G, maybe 40G with larger frames; hardware helps per-watt and small-packet PPS limits.
+WireGuard FPGA is a work-in-progress proof of concept for a fully inspectable, standalone VPN appliance on an inexpensive Artix-7 board with four 1GbE ports and open-source tooling. A soft RISC-V CPU handles handshakes, keys, peers, and routing control; RTL handles packet parsing, lookup, ChaCha20-Poly1305 authentication and encryption, encapsulation, and forwarding at line rate. The project contrasts itself with an expensive proprietary 100Gbps predecessor and explicitly acknowledges timing, toolchain, verification, integration, and funding risks. It is educational infrastructure, not yet a deployable product.
 
-LLM perspective
-- View: Treat as open, auditable WireGuard dataplane reference, not a product; co-sim + CSR generation workflow is the reusable artifact.
-- Impact: Enables academics/hobbyists to prototype hardware VPNs without proprietary toolchains; drives bug reports/improvements into OpenXC7, Verilator, and Ethernet/crypto IP cores.
-- Watch next: Publish end-to-end throughput/PPS at small MTUs; OpenXC7 timing closure status; roadmap to 10G+ PHYs or Corundum port; clarify licensing/compliance.
+### Comment pulse
+
+- Critics questioned dedicated hardware at 1Gbps when commodity CPUs can saturate comparable links and approach 10Gbps.
+- Supporters emphasized worst-case packet rates, large routing tables, power efficiency, education, and end-to-end auditability.
+
+### LLM perspective
+
+- View: Its near-term value is open hardware research and verification, not outperforming commodity software on headline bandwidth.
+- Impact: A complete auditable stack could expose toolchain gaps and teach practical cryptographic hardware-software co-design.
+- Watch next: End-to-end interoperability, minimum-packet throughput, timing closure, licensing clarity, and reproducible bitstreams.

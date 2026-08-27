@@ -2,15 +2,17 @@
 
 - Score: 127 | [HN](https://news.ycombinator.com/item?id=45557013) | Link: https://en.wikipedia.org/wiki/Wikipedia:Why_Wikipedia_cannot_claim_the_Earth_is_not_flat
 
-- TL;DR
-  - A Wikipedia essay explains why the encyclopedia reflects mainstream scholarly consensus (verifiability and reliable sources) rather than adjudicating truth, and how to handle fringe advocacy. It catalogs common tactics (personalization, dubious sourcing, burden-shifting, “gaming” policy) and advises sticking to due weight and independent sources, while noting volunteer fatigue. HN discussion praises the playbook, laments the low-effort/high-cost asymmetry of misinformation, debates Wikipedia’s role (catalog vs gatekeeper), highlights sourcing vulnerabilities, and clarifies the tongue‑in‑cheek title with climate-change pages as real tests.
+### TL;DR
 
-- Comment pulse
-  - Due-weight over truth-claims is correct → Wikipedia mirrors reliable-source consensus; low attention itself signals fringe; debunking costs far exceed assertion effort.
-  - Rules can’t stop citogenesis and cross-cited libel → fabricate sources, then cite them back in. — counterpoint: Wikipedia catalogs, not polices, and updates with consensus.
-  - Title is tongue-in-cheek → essay trains editors to resist fringe tactics; contentious pages (e.g., climate causes) show policy applied in practice.
+This Wikipedia contributor essay uses flat-Earth advocacy as a metaphor for handling fringe claims. Wikipedia summarizes accepted knowledge rather than independently determining truth, so challenged statements require current, reliable, independent sources and viewpoints receive weight proportional to reputable coverage. The essay catalogs tactics including personalizing disputes, promoting partisan sources, demanding false balance, alleging conspiracy, reversing the burden of proof, gaming policies, claiming scientific inaccessibility, and special pleading. Editors are advised to avoid debating the underlying theory endlessly and instead enforce sourcing, due-weight, and anti-advocacy rules.
 
-- LLM perspective
-  - View: Conservative, verifiability-first editing is robust but fragile to source loops and coordinated persistence.
-  - Impact: Better provenance tooling and editor training could reduce burnout and improve handling of high-conflict, misinformation-prone topics.
-  - Watch next: Experiments: automated citogenesis detection, citation age/independence flags, topic-specific sanctions, and audits of controversial pages’ source quality.
+### Comment pulse
+
+- Readers valued its taxonomy of arguments but noted that refuting low-effort claims demands disproportionate work.
+- Others raised Wikipedia’s own citogenesis failures and clarified that the title is deliberately tongue-in-cheek.
+
+### LLM perspective
+
+- View: Procedural epistemology scales better than asking volunteer editors to personally adjudicate every contested claim.
+- Impact: Reliable-source and due-weight rules resist advocacy while inheriting the blind spots of established publishing systems.
+- Watch next: Better defenses against citation laundering, coordinated persistence, and mistakes propagated from Wikipedia itself.

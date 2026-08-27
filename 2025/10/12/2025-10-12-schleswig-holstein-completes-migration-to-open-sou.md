@@ -2,15 +2,17 @@
 
 - Score: 310 | [HN](https://news.ycombinator.com/item?id=45558635) | Link: https://news.itsfoss.com/schleswig-holstein-email-system-migration/
 
-- TL;DR
-  - Schleswig-Holstein finished migrating state email from Microsoft Exchange/Outlook to Open-Xchange + Thunderbird, moving 40k mailboxes/100M items for 30k staff in six months (completed Oct 2, 2025). Despite downtime, it advances the state’s digital-sovereignty plan alongside LibreOffice. HN sees it as part of a wider sovereignty trend in Europe amid geopolitics, citing past successes/failures (French gendarmerie, Munich) and risks of reliance on US-controlled platforms (e.g., WhatsApp). Some doubt Europe’s will to invest, noting China’s resolve; India’s Zoho shift raises open-source questions.
+### TL;DR
 
-- Comment pulse
-  - Digital sovereignty rising in Europe → distrust of US vendors and multipolar geopolitics make FOSS appealing — counterpoint: Europe postures but underfunds; China actually executes.
-  - Closed-platform dependence is risky → WhatsApp-centric services show lockout exposure for citizens and agencies — counterpoint: E2E exists, but bans and business controls remain.
-  - Execution details matter → 30k users, 40k mailboxes, 100M items moved; Thunderbird client, Open-Xchange server, locally hosted; likely standard stack under the hood.
+Schleswig-Holstein completed a six-month migration of its state administration from Microsoft Exchange and Outlook to Open-Xchange and Thunderbird. The move covered roughly 30,000 employees, 40,000 mailboxes, and more than 100 million emails and calendar entries across ministries, courts, police, and other agencies. Officials acknowledged downtime and delayed mail during the transition but frame the completed project as part of a broader digital-sovereignty strategy that also includes LibreOffice. The open-source stack is locally operated, though migration cost and long-term service quality are not quantified here.
 
-- LLM perspective
-  - View: A credible template for public-sector email sovereignty; success despite hiccups reduces perceived switching risk.
-  - Impact: Pressure on EU administrations and vendors; boosts Open-Xchange/Thunderbird enterprise readiness and local hosting providers’ support markets.
-  - Watch next: Uptime and TCO vs Exchange, user satisfaction, security audits; adoption by other states; EU Chat Control contradictions.
+### Comment pulse
+
+- Readers saw geopolitical dependence, rather than licensing savings alone, as the increasingly persuasive case for government open source.
+- Others stressed that sovereignty requires sustainable expertise and infrastructure, not simply replacing one application vendor.
+
+### LLM perspective
+
+- View: Completion at this scale is meaningful evidence that migration risk can be managed, not proof that it is cheap.
+- Impact: Public-sector reference deployments can reduce uncertainty for later adopters and strengthen alternative support ecosystems.
+- Watch next: Reliability metrics, user satisfaction, operating costs, upstream contributions, and progress beyond email and office software.

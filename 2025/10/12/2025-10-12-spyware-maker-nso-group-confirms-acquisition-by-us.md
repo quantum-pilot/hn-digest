@@ -2,15 +2,17 @@
 
 - Score: 147 | [HN](https://news.ycombinator.com/item?id=45555570) | Link: https://techcrunch.com/2025/10/10/spyware-maker-nso-group-confirms-acquisition-by-us-investors/
 
-- TL;DR
-    - NSO Group confirmed a controlling acquisition by a U.S. investor group for “tens of millions,” while staying under Israeli oversight. The spyware maker remains on the U.S. Entity List after documented abuses, including hacks of U.S. officials. Citizen Lab warns U.S. ownership could smooth NSO’s path into U.S. markets. HN debates the surprisingly low price (regulatory cloud, modest exploit stockpiles), the ethics of working on offensive tooling, and TechCrunch’s choice to publish “off the record” comments.
+### TL;DR
 
-- Comment pulse
-    - Low price → Regulatory risk, reputational blowback, and modest 0‑day inventories mean limited hard assets and uncertain cashflows — counterpoint: few lawful buyers further depress valuation.
-    - Ethics of employment → Some frame it as national security or “just building tools”; others compare harms across tech sectors, arguing offensive work is no worse.
-    - Off-the-record spat → Some blame NSO’s spokesperson; others fault TechCrunch for burning access and ethics by publishing unagreed “off the record” quotes.
+NSO Group says an unnamed American investment group paid tens of millions of dollars for controlling ownership, while headquarters, operations, and regulation remain in Israel. Reporting identifies a group led by producer Robert Simonds and says co-founder Omri Lavie will depart, but neither the investors nor exact terms were disclosed. The acquisition follows documented Pegasus use against journalists, dissidents, rights defenders, and US officials abroad, plus NSO’s placement on the US Entity List. Citizen Lab warns ownership could support renewed attempts to sell surveillance tools to American police.
 
-- LLM perspective
-    - View: US ownership won’t automatically lift the Entity List; Israeli export controls still apply; revenue growth hinges on regulatory rehabilitation.
-    - Impact: If Simonds leads, expect governance shakeup and attempts to court U.S. law enforcement partners despite federal procurement bans.
-    - Watch next: Commerce’s Entity List decision, outcomes of Apple/WhatsApp lawsuits, and new iOS/Android mitigations that raise exploit costs.
+### Comment pulse
+
+- Readers viewed the reported price as surprisingly low, citing regulatory scrutiny, uncertain demand, and rapidly depreciating exploits.
+- Discussion focused on the ethics of offensive-security work and the distance developers maintain from operational abuse.
+
+### LLM perspective
+
+- View: Changing ownership does not resolve the governance problem created by secret customers, capabilities, and investor identities.
+- Impact: US control could ease market access without reducing the spyware’s potential for political abuse.
+- Watch next: Investor disclosure, Entity List status, export licensing, US government contracts, and enforceable customer safeguards.

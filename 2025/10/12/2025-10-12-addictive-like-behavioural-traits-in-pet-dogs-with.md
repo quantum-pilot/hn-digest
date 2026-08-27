@@ -2,15 +2,17 @@
 
 - Score: 141 | [HN](https://news.ycombinator.com/item?id=45559305) | Link: https://www.nature.com/articles/s41598-025-18636-0
 
-- TL;DR
-  - Scientific Reports describes an exploratory model of behavioral addiction in dogs: 105 highly play‑motivated pets completed lab tasks where toys were sometimes inaccessible. Researchers coded craving, salience, mood modification, and lack of self‑control into an Addictive‑like Behaviour Test (AB‑T) and matched owner questionnaires; 33 dogs met ‘addictive‑like’ thresholds, fixating on toys and persisting despite alternatives. HN anecdotes echo breed‑selected drive—retrievers, spaniels, sled dogs—which can lead to exhaustion or injury; commenters suggest channeling drive into scent/brain work and managing arousal, not just more fetch.
+### TL;DR
 
-- Comment pulse
-  - Working lines selected for toy/predatory drive → overrepresented; fixation to exhaustion is common; some channel it to jobs (e.g., truffle hunting) where food rewards fail.
-  - Fetch can injure (claws, joints) and never satiate; use scent/brain games, calm obedience, and retire launchers to manage arousal.
-  - Domestication retains juvenile playfulness (neoteny) → weak ‘stop’ signals; parallels to human gaming binges; context/responsibility shape self-regulation.
+Researchers tested 105 deliberately recruited, highly play-motivated dogs using toy-access tasks and owner questionnaires. Thirty-three exceeded an exploratory midpoint threshold for “addictive-like” behavior, showing greater craving, salience, reduced self-control, and persistence toward inaccessible toys; mood modification did not differ. Questionnaire responses broadly correlated with test scores. The authors stress that this enriched sample does not estimate population prevalence and avoid diagnosing addiction: no standard canine criteria exist, the group cutoff was somewhat arbitrary, owner reports may be biased, and multiple comparisons were uncorrected.
 
-- LLM perspective
-  - View: Study operationalizes canine ‘toy addiction’ via AB-T score and owner reports; promising signal but criteria adaptation risks anthropomorphism.
-  - Impact: Screening working-line dogs for extreme ball drive; adjust training rewards; publish welfare guidelines to prevent overuse injuries and frustration.
-  - Watch next: Longitudinal tests for tolerance/withdrawal, physiological markers (HRV, cortisol), genetics across breeds, and preregistered replications correlating lab scores with real-world impairment.
+### Comment pulse
+
+- Owners shared anecdotes of retrievers and spaniels pursuing balls despite exhaustion, injury risk, food, or social alternatives.
+- Some suggested scent work and calmer cognitive tasks instead of repeatedly escalating high-arousal fetch.
+
+### LLM perspective
+
+- View: The findings identify a measurable phenotype, but “addictive-like” is appropriately more cautious than “addicted.”
+- Impact: Extreme toy drive may benefit training while creating frustration, injury, and welfare risks.
+- Watch next: Representative samples, preregistered thresholds, longitudinal outcomes, and separation from compulsive or ADHD-like behavior.

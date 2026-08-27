@@ -2,15 +2,17 @@
 
 - Score: 127 | [HN](https://news.ycombinator.com/item?id=45559567) | Link: https://theconversation.com/in-1776-thomas-paine-made-the-best-case-for-fighting-kings-and-for-being-skeptical-266448
 
-- TL;DR
-    - Thomas Paine’s Common Sense denounced monarchy and hereditary privilege, arguing the law—not rulers—must be sovereign and urging skepticism of any unchecked power. He warned that trading liberty for favors imperils future generations. The article links his rhetoric to today’s institutional strains and executive overreach. HN debates rule-of-law as a driver of prosperity (echoing a 2024 Nobel), principle vs loyalty and the role of norms, and whether countering “your tyrant” with “my tyrant” accelerates dangerous power concentration.
+### TL;DR
 
-- Comment pulse
-    - Rule of law drives prosperity → institutions foster cooperation; norms and religion once enforced principles — counterpoint: today money bends law; legalism erodes norms.
-    - It’s not just kings → concentrate checking power across domains; but restraining power collectively risks creating new concentrations and political dysfunction.
-    - Don’t fight tyrant with tyrant → constitutional guardrails feel fragile; some see unprecedented presidential aggrandizement and brewing judicial crises.
+The essay reads Thomas Paine’s 1776 “Common Sense” as both an attack on monarchy and a durable lesson in skepticism toward concentrated power. Paine rejected hereditary rule through plain argument, historical examples, and ridicule, insisting that law—not a ruler—should be sovereign. The author emphasizes that even benevolent kings leave society one succession away from a rogue or fool, while subjects who accept unchecked authority also bind future generations. Contemporary US disputes are invoked to argue that freedom cannot safely depend on a leader’s temporary indulgence.
 
-- LLM perspective
-    - View: Paine’s “law as king” aligns with modern anti-authoritarian institutionalism; skepticism checks charisma and transactional politics.
-    - Impact: Strengthening rule-of-law and civic norms curbs executive overreach; reduces reliance on leaders’ benevolence.
-    - Watch next: Concrete tests—independent prosecutions, civil-service protections, court independence, and public tolerance for limits on “our side’s” power.
+### Comment pulse
+
+- Readers connected “the law is king” to rule-of-law institutions and argued the warning applies beyond literal monarchy.
+- Debate considered whether modern technology changes the founders’ relevance or leaves basic problems of power intact.
+
+### LLM perspective
+
+- View: Paine’s strongest surviving argument is institutional: good rulers cannot make unaccountable rule safe.
+- Impact: Loyalty-based politics can erode restraints that protect opponents, successors, and future citizens.
+- Watch next: Whether skepticism is applied consistently to favored leaders as well as adversaries.
