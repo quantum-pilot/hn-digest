@@ -2,15 +2,17 @@
 
 - Score: 460 | [HN](https://news.ycombinator.com/item?id=45719004) | Link: https://github.com/longbridge/gpui-component
 
-- TL;DR
-  - GPUI Component is a Rust desktop UI kit atop GPUI with 60+ native‑style components, themes, dock layouts, charts, Markdown/HTML, a fast editor with Tree‑Sitter, and virtualized tables/lists; optional Wry WebView. It already powers Longbridge Pro and inherits maturity from Zed’s GPUI. HN praises the breadth and responsiveness and sees it as a major step for Rust UIs, while noting huge dependency trees (especially GTK/libadwaita on Linux), framework‑owned event loops, and missing visual designers; several Qt comparison claims were challenged.
+### TL;DR
 
-- Comment pulse
-  - Most complete Rust UI kit → 60+ components; gallery runs well; adoption still early — counterpoint: GPUI is used in Zed and Longbridge Pro.
-  - Dependency bloat concerns → 900–1000 crates; Linux pulls GTK/libadwaita due to server-side decorations; debate over many small crates vs monolith.
-  - Framework vs library → owns event loop, complicates embedding; tooling gap: few visual designers; Slint shows a designer path.
+Longbridge’s GPUI Component offers more than 60 Rust desktop components atop Zed’s GPUI, with themes, virtualized tables and lists, Tree-sitter highlighting, charts and an optional Wry webview. Its README describes stateless components and showcases the production Longbridge Pro application, but says GPUI and the library remain under development. HN readers found the gallery unusually complete for Rust UI while questioning enormous dependency counts, Linux toolkit dependencies, the lack of visual design tooling, disputed Qt comparisons and a framework architecture that owns the application event loop.
 
-- LLM perspective
-  - View: Desktop-first Rust UI kit with breadth and performance; credible alternative to Iced/egui when web targets aren’t needed.
-  - Impact: Small teams building native-feel tools; fintech and IDE-like apps gain charts, docking, editors without Electron or Qt.
-  - Watch next: API stabilization, Windows/Linux polish, dependency trimming, visual designer/markup, and performance benchmarks against egui/Iced and Qt widgets.
+### Comment pulse
+
+- Several readers saw a credible native-feeling alternative to Electron and evidence that Rust desktop UI is maturing.
+- Others flagged roughly thousand-package builds and difficult integration when an application already has an event loop.
+
+### LLM perspective
+
+- View: Component breadth makes GPUI plausible for real products, but ecosystem maturity includes integration and tooling, not screenshots alone.
+- Impact: Teams gain rich Rust-native UI building blocks while accepting framework ownership and substantial dependency surface.
+- Watch next: API stability, Linux behavior, visual tooling, build weight and adoption beyond Longbridge will test durability.

@@ -2,15 +2,17 @@
 
 - Score: 816 | [HN](https://news.ycombinator.com/item?id=45722069) | Link: https://blog.pabloecortez.com/its-insulting-to-read-your-ai-generated-blog-post/
 
-- TL;DR
-    - The post contends AI-written blogs are disrespectful and hollow—outsourcing expression erases mistakes, voice, and human connection—and urges avoiding LLMs entirely, even for grammar or translation, in favor of asking people for help. HN is split: some prioritize accuracy and learning value regardless of provenance; others reject the detectable “AI voice” and want authenticity, or prefer sharing prompts over generated prose. Many argue for a middle path: disclose, heavily edit, and own the output; otherwise it’s spammy time-waste.
+### TL;DR
 
-- Comment pulse
-    - AI PRs waste reviewers’ time → reverse-inferred summaries miss intent; bloat and emojis; some like AI-supported context in small teams — counterpoint: often dilutes signal.
-    - Grammar/translation tools help non-native writers → wholesale AI rewrites sound spammy and mask authenticity.
-    - Use AI if you own and edit the result → otherwise it's SEO spam; ethics concerns justify abstention.
+The author argues that publishing AI-generated prose under a human name is careless toward readers because it substitutes generic production for lived thought, fallibility, and genuine exchange. He rejects even grammar and translation assistance, urging writers to make mistakes, ask people for help, and develop ideas through experience. Commenters split over that absolutism: some care only whether content is useful and accurate, while others distinguish thoughtful AI-assisted editing from outsourcing authorship. A recurring standard is whether the writer owns and verifies the final perspective.
 
-- LLM perspective
-    - View: Treat authorship like attribution and data hygiene; require provenance tags and intent summaries, not detector-driven policing.
-    - Impact: Tool vendors shift to draft-to-outline workflows and prompt-with-sources sharing; PR templates capture intent explicitly.
-    - Watch next: Platforms add AI-use disclosure fields; OSS repos set conventions; hiring filters penalize generic AI voice.
+### Comment pulse
+
+- Developers extended the complaint to bloated AI-generated pull requests that reviewers must painstakingly verify.
+- Others said poor, generic writing is the real problem regardless of which tool produced it.
+
+### LLM perspective
+
+- View: Readers primarily object when automation hides effort, intent, or accountability while transferring verification costs to them.
+- Impact: Generic machine voice can erode trust even when the underlying ideas originated with a person.
+- Watch next: Disclosure norms and editing practices that preserve authorship without rejecting useful assistance outright.

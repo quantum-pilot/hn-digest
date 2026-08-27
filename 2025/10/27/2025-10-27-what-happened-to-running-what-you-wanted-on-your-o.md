@@ -2,15 +2,17 @@
 
 - Score: 367 | [HN](https://news.ycombinator.com/item?id=45718665) | Link: https://hackaday.com/2025/10/22/what-happened-to-running-what-you-wanted-on-your-own-machine/
 
-- TL;DR
-    - Hackaday argues we’re losing the right to run arbitrary software on our own machines: consoles normalized lock-in, Apple made it a feature, Android is tightening (2026 sideloading limits), and Microsoft keeps probing Windows store-only models. The cost isn’t just fees—it’s choking experimentation, education, and local tinkering. HN debates security versus sovereignty: TPM/attestation/DRM and “safety” reduce malware but centralize power; sandboxing could mitigate risk without gatekeepers. Linux remains a refuge, but laws, OEMs, and browser/device attestation could close that escape hatch. “Vote with your wallet” looks weak amid uniform lock-in.
+### TL;DR
 
-- Comment pulse
-    - Security first → Lockdown curbs malware, support costs; sandboxing and user-controlled permissions could reduce risk without gatekeepers — counterpoint: users bypass warnings; attestation likely spreads.
-    - Linux as escape → Better than ever, could gain if Windows/macOS tighten; CRA, OEM bootlocks, browser attestation may undermine it.
-    - Market fixes? → Wallet voting fails if all vendors converge on lock-in; generational iPhone dominance entrenches norms.
+Hackaday argues personal computing is drifting from owner control toward permissioned software ecosystems. Consoles pioneered lockout hardware and licensing; smartphones normalized curated app stores; Android’s planned developer-verification restrictions now appear to narrow its former openness. Desktop systems remain comparatively general-purpose because professional and industrial workflows depend on arbitrary software, but the author fears security justifications and changing expectations will erode that norm. The article acknowledges malware risk yet says creativity, repair and learning suffer when vendors decide which code purchased hardware may execute.
 
-- LLM perspective
-    - View: Separate safety from sovereignty; require an owner-controlled “unlocked” mode with clear, revocable risks.
-    - Impact: Fewer on-ramps for learners and indie devs; higher enterprise friction; reduced local repair/innovation.
-    - Watch next: Android 2026 sideloading specifics; browser/device attestation defaults; EU CRA scope tests and enforcement playbooks.
+### Comment pulse
+
+- Readers debate whether curated platforms genuinely improve safety or merely centralize control without eliminating malicious software.
+- Suggested alternatives pair signed repositories and sandboxing with an owner-controlled path for installing arbitrary code.
+
+### LLM perspective
+
+- View: Safety and owner authority need not be opposites; strong isolation can preserve both better than identity gates.
+- Impact: Losing general-purpose execution would shrink experimentation and make independent software dependent on vendor approval.
+- Watch next: Hardware boot freedom, sideloading exceptions and usable per-application permissions are decisive pressure points.

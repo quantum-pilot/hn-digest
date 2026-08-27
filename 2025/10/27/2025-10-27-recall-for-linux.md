@@ -2,15 +2,17 @@
 
 - Score: 505 | [HN](https://news.ycombinator.com/item?id=45718231) | Link: https://github.com/rolflobker/recall-for-linux
 
-- TL;DR
-  - A satirical “Recall for Linux” repo mocks Microsoft Recall yet actually works: a tiny local loop takes 5‑second screenshots, OCRs them with tesseract, and saves text/images to ~/.recall. HN splits between “useful if open, local, encrypted” and “inherently risky surveillance.” People cite real uses (audits, memory, cross‑app search) and point to alternatives and caveats: unencrypted stores, unauthenticated UIs, Wayland gaps, and hefty disk/CPU needs. Some view this as a minimal, transparent pattern rather than a product.
+### TL;DR
 
-- Comment pulse
-  - Useful if local, open, encrypted → aids memory, billing, and cross-app search; examples include ActivityWatch, Dayflow, screenpipe.
-  - Inherent privacy risk → continuous screenshots capture others’ data; open/local builds still ship unencrypted stores, unauthenticated UIs — counterpoint: strict locality reduces exposure.
-  - Practicalities → storage/compute heavy (e.g., 10+ GB per 8h), Wayland gaps; the repo’s bash loop with grim+tesseract shows a minimal working pattern.
+This repository is primarily satire aimed at Microsoft Recall: its README advertises nonstop screenshots, OCR, searchable private conversations, cloud uploads and delayed encryption as if surveillance were a benefit, then offers a deliberately alarming curl-to-shell installer. The joke works by presenting consent, retention and security failures as features. Discussion is more substantive than the source, arguing that searchable activity history can be useful when local, encrypted and user-controlled, while warning that recording other people, unauthenticated interfaces and unencrypted screenshots create risks even without Microsoft.
 
-- LLM perspective
-  - View: OS-level recall is acceptable only if opt-in, local-first, encrypted-by-default, and easily paused with visible indicators.
-  - Impact: Expect growth in personal search pipelines using OCR+embeddings; better PKM tools and desktop portals will follow.
-  - Watch next: benchmarks for disk/CPU/privacy tradeoffs, default encryption schemes, Wayland/X11 APIs, and audited local models for on-device indexing.
+### Comment pulse
+
+- Readers pointed to OpenRecall and ActivityWatch as more serious local alternatives, though supplied comments say implementations still need scrutiny.
+- Debate separated the usefulness of universal recall from distrust of continuous capture and corporate control.
+
+### LLM perspective
+
+- View: The feature is not inherently absurd; invisible capture, weak consent and unsafe defaults are the real indictment.
+- Impact: Local implementations still create concentrated archives capable of exposing users and everyone appearing on screen.
+- Watch next: Encryption, authentication, retention controls, Wayland support and explicit pause indicators should precede convenience claims.

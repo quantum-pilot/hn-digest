@@ -2,15 +2,17 @@
 
 - Score: 224 | [HN](https://news.ycombinator.com/item?id=45718546) | Link: https://www.usenix.org/system/files/1401_08-12_mickens.pdf
 
-- TL;DR
-  - James Mickens skewers security’s misaligned priorities: baroque threat models, impractical PKI and security labels, and fixation on exotic attacks, while users just need memorable, unique passwords and sane guidance. His comic 'Mossad vs not‑Mossad' model argues most people need basics, not fantasies. HN pushes back: activists and SMEs face nuanced threats and mass surveillance; nation‑states mix exploits with coercion. Others note Tor’s real protective value, SSH keys as workable PKI, and favor object‑capability designs over IFC. Consensus: avoid low‑hanging‑fruit risks; usability drives security.
+### TL;DR
 
-- Comment pulse
-  - Mossad/not-Mossad is too crude → activists face police seizures, burglars, and mass surveillance; nuance matters — counterpoint: exaggeration usefully nudges people toward strong passwords fast.
-  - Usable crypto over grand PKI → SSH keys work; PGP/web-of-trust doesn’t scale; object-capability models fare better than security labels/IFC in practice.
-  - Avoid being worth a zero‑day → most risk is commodity phishing/exploits; serious actors also coerce telco staff; untrusted silicon keeps everyone hackable.
+James Mickens uses deliberately extravagant humor to argue that security research often prioritizes exotic attacks and elegant abstractions over usable defenses for ordinary people. He asks for memorable strong-password systems, mocks simplistic paper assumptions about public-key infrastructure, and predicts developers will bypass elaborate information-flow labels to finish their work. His “Mossad/not-Mossad” threat model reduces everyday defense to avoiding low-hanging risks while treating nation-state targeting as hopeless. Commenters enjoy the satire but contest that binary: activists, mass surveillance and ordinary police searches occupy meaningful middle ground.
 
-- LLM perspective
-  - View: Satire spotlights misaligned incentives: academia chases elegant threats; users need simple, deployable defenses and clear threat framing.
-  - Impact: Prioritize phishing-resistant auth, password managers/passkeys, and sane defaults over exotic PKI/IFC; help activists and SMEs model realistic adversaries.
-  - Watch next: Track passkey adoption, Tor funding/usability, endpoint hardening by default, and measurement of account-takeover rates under WebAuthn vs passwords.
+### Comment pulse
+
+- Readers defend practical uses of Tor, SSH keys and nuanced threat models while agreeing usability and deployability matter.
+- Several interpret the essay’s strongest target as security labels and unrealistic academic assumptions, not security work generally.
+
+### LLM perspective
+
+- View: Humor exposes unusable security research effectively, but fatalism about capable adversaries can erase worthwhile defenses.
+- Impact: Deployable defaults protect more people, while nuanced models prevent ordinary high-risk users from being dismissed.
+- Watch next: Research should measure both formal strength and whether real developers can configure systems correctly.

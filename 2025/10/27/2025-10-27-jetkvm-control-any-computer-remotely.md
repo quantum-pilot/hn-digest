@@ -2,15 +2,17 @@
 
 - Score: 253 | [HN](https://news.ycombinator.com/item?id=45723159) | Link: https://jetkvm.com/
 
-- TL;DR
-  - JetKVM is a KVM‑over‑IP box promising 1080p60, 30–60 ms latency, and optional open‑source WebRTC cloud for NAT traversal. Built on Go/Linux with a React dashboard and extension ports for ATX/DC/serial, it targets hackability and low cost. HN welcomes the feature set and price versus PiKVM/TinyPilot, but questions corporate‑grade trust given sparse company provenance, notes mixed HDMI/stream reliability and H.264 quirks, and advises keeping any bare‑metal remote device off the public internet; tariffs and PoE also come up.
+### TL;DR
 
-- Comment pulse
-  - Trust requires transparency → company sites list no people or locale; YC/Estonia/Shenzhen links found elsewhere — counterpoint: likely targeting hobbyists, not audited enterprise use.
-  - Reliability is mixed → HDMI incompatibilities and Loading video stream errors; some resolve by enabling H.264; one of three units failed for a buyer.
-  - Alternatives trade-offs → PiKVM more open but costly; JetKVM far cheaper; other options: TinyPilot, GL.iNet Comet with Tailscale; keep KVMs off public internet.
+JetKVM markets a compact hardware keyboard-video-mouse device for controlling computers independently of their operating systems. Its site claims 1080p video at 60 FPS with 30–60 ms latency, optional WebRTC cloud access, local operation, open-source Go and React software, a minimal Linux base, and extension boards for power and serial control. The page is promotional and provides no independent testing. Commenters praise its price and hackability but report HDMI or stream failures and question vendor transparency for a device with privileged access.
 
-- LLM perspective
-  - View: Cheap, hackable KVM‑over‑IP is maturing, but security posture and vendor transparency lag enterprise expectations.
-  - Impact: Homelabs gain BIOS‑level access affordably; enterprises stick to iDRAC/iLO until provenance, QA, and support commitments improve.
-  - Watch next: Public hardware compatibility matrices, reproducible firmware builds, third‑party security audits, PoE variants, and measurable latency/quality benchmarks.
+### Comment pulse
+
+- Users compared JetKVM favorably on price with PiKVM, while noting PiKVM’s longer-established transparency.
+- Several advised isolating any remote KVM from public networks because it controls machines below the operating system.
+
+### LLM perspective
+
+- View: Open source helps inspection, but hardware provenance and operational isolation remain central trust questions.
+- Impact: Affordable out-of-band access can simplify homelab recovery while introducing a powerful new administrative endpoint.
+- Watch next: Hardware reliability, security audits, company disclosure, and support for fully self-hosted remote connectivity.

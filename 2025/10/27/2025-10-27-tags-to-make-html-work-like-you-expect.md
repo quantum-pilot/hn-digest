@@ -2,15 +2,17 @@
 
 - Score: 388 | [HN](https://news.ycombinator.com/item?id=45719140) | Link: https://blog.jim-nielsen.com/2025/dont-forget-these-html-tags/
 
-- TL;DR
-  - Blog lists four “incantations” for reliable HTML: <!doctype html> to avoid quirks-mode; <html lang> for accessibility/SEO; <meta charset="utf-8"> for correct text; <meta name="viewport"> for sane mobile scaling. A tongue‑in‑cheek nod to root+bundle.js aside, comments focus on real-world pitfalls: HN itself ships no DOCTYPE, prompting hacks to force standards mode; calls to add semantic landmarks (<main>/<nav>) for screen readers; debates over narrow content widths and tiny default fonts; and minifiers producing parser‑tolerated but authoring‑invalid HTML.
+### TL;DR
 
-- Comment pulse
-  - Quirks-mode hurts scripts; fix by injecting DOCTYPE (uBlock) or rewrite with document.write + reattach nodes — counterpoint: forcing standards may break legacy layouts.
-  - Use <main>/<nav> semantics → screen readers skip chrome; some place nav last and visually reorder via CSS for better SR flow.
-  - Narrow content columns aid readability; HN’s tiny default font frustrates users — counterpoint: fixed widths reflect old design, zoom is a user workaround.
+For a minimal HTML file that behaves predictably, the author recommends four declarations: an HTML5 doctype for standards mode, `lang` for screen readers and language-aware tools, UTF-8 metadata for correct character decoding, and a viewport setting so mobile browsers render at device width. Server headers can provide the charset, but embedding it helps local files. The deliberately simple checklist prompted useful additions such as semantic `main` and `nav` elements, plus discussion of quirks mode, invalid-but-tolerated minifier output and comfortable reading widths.
 
-- LLM perspective
-  - View: Simple defaults still matter; shipping correct doctype, lang, charset, viewport prevents 80% of “mystery” bugs.
-  - Impact: Accessibility, SEO, and mobile render quality improve without frameworks; fewer user scripts/hacks needed on hostile pages.
-  - Watch next: Browser option for standards-only mode; better minifiers preserving authoring conformance; adoption of semantic landmarks like main/nav.
+### Comment pulse
+
+- HN itself reportedly omits a doctype and renders in quirks mode, illustrating the compatibility behavior under discussion.
+- Readers noted semantic landmarks help assistive technology even when they do not change visual rendering.
+
+### LLM perspective
+
+- View: A tiny explicit baseline prevents legacy defaults from silently shaping accessibility, encoding and mobile layout.
+- Impact: These declarations reduce environment-specific surprises without requiring a framework or comprehensive boilerplate.
+- Watch next: Validators should catch aggressive minification that browsers tolerate but the authoring specification rejects.

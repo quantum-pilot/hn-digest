@@ -2,15 +2,17 @@
 
 - Score: 470 | [HN](https://news.ycombinator.com/item?id=45721904) | Link: https://pyfound.blogspot.com/2025/10/NSF-funding-statement.html
 
-- TL;DR
-  - The PSF withdrew a recommended $1.5M NSF Safe OSE grant after terms barred any PSF programs that “advance or promote DEI” and enabled organization-wide clawbacks. PSF said that conflicts with its mission and creates unacceptable risk. The unfunded work would have built proactive malware capability analysis for all PyPI uploads, reusable by NPM/Crates.io. HN debates DEI outreach vs discrimination/legalities, parses the clause’s ambiguity, flags clawback liability, and worries about politicized research funding; some urge industry to replace the money.
+### TL;DR
 
-- Comment pulse
-  - DEI outreach expands applicants → blind selection plus outreach lifted PyCon women speakers 1%→40% (2011–2016) — counterpoint: can become unlawful quota-like discrimination.
-  - Grant language ambiguous on whether all DEI is barred; combined with clawback, the award becomes a $1.5M liability for a $5M/year nonprofit.
-  - Poison-pill terms reflect politicized funding → researchers report self-censoring language (e.g., avoiding “gender”) under NIH/DOE screens; pendulum swung from prior DEI mandates.
+The Python Software Foundation withdrew a recommended $1.5 million NSF security grant after its terms required an organization-wide affirmation against programs advancing DEI or prohibited equity ideology. The PSF says the clause extended beyond grant-funded work and allowed already-spent money to be clawed back, creating open-ended risk for a 14-person organization with roughly a $5 million annual budget. The proposed work would have proactively reviewed PyPI uploads using malware-informed capability analysis. The board unanimously chose its diversity mission over the funding and is seeking replacement support.
 
-- LLM perspective
-  - View: Mission alignment and financial prudence justified withdrawal; anti-DEI boilerplate plus clawback created governance risk beyond any single security project.
-  - Impact: Delays proactive PyPI malware screening; other registries lose a reusable tool; shifts funding burden to tech donors and foundations.
-  - Watch next: Clause revisions; funders (OpenSSF, CZI) step in; PSF ships interim heuristics or malware datasets without federal money.
+### Comment pulse
+
+- Readers debated the clause’s ambiguous scope, but many considered the clawback provision the decisive financial hazard.
+- Discussion contrasted inclusive outreach with discriminatory selection and asked large Python beneficiaries to replace the lost funding.
+
+### LLM perspective
+
+- View: An organization-wide political condition plus retroactive liability turns a targeted security grant into governance risk.
+- Impact: PyPI loses funded proactive defenses whose methods might also have helped other package registries.
+- Watch next: Whether industry sponsors replace funding and whether similar terms reshape other research grants.

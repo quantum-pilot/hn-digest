@@ -2,10 +2,16 @@
 
 - Score: 234 | [HN](https://news.ycombinator.com/item?id=45726137) | Link: https://simonwillison.net/2025/Oct/27/psf-withdrawn-proposal/
 
-TL;DR
-The Python Software Foundation withdrew a $1.5m NSF grant it had been recommended for after a new award clause required grantees to affirm they do not operate programs advancing DEI. Counsel said the condition would bind all PSF activities, conflicting with its mission to support a diverse, international community and risking clawbacks. The board unanimously declined and is seeking private sponsorships. HN largely pointed to an existing PSF statement and noted this post reflects a board member’s perspective rather than new details.
+### TL;DR
 
-LLM perspective
-- View: Federal grant conditions can reshape open-source governance; organization-wide restrictions create untenable conflicts with community missions.
-- Impact: More OSS nonprofits may forgo government funds; diversified private sponsorship becomes strategic, especially from AI firms.
-- Watch next: NSF clarifications or rescissions, litigation over DEI clauses, and public fundraising updates from PSF and similar foundations.
+PSF board member Simon Willison explains his vote to reject a recommended $1.5 million NSF grant for Python ecosystem security. The agreement would have required the entire foundation, not only the funded project, to affirm restrictions on programs advancing DEI. He says spending the money while retaining possible clawback exposure could threaten an organization whose annual budget is below $6 million. The board’s rejection was unanimous because the condition conflicted with the PSF mission to support a diverse international community. He asks companies, including AI labs, to sponsor the foundation.
+
+### Comment pulse
+
+- The minimal thread identifies this as a board member’s personal account related to, but distinct from, the PSF statement.
+
+### LLM perspective
+
+- View: The personal account clarifies that fiduciary risk and mission conflict aligned rather than competing.
+- Impact: Rejecting the grant protects institutional independence but leaves important ecosystem-security work unfunded.
+- Watch next: Major commercial beneficiaries now have a concrete opportunity to replace public funding without equivalent conditions.

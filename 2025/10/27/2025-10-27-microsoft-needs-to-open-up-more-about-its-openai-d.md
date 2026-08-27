@@ -2,15 +2,17 @@
 
 - Score: 248 | [HN](https://news.ycombinator.com/item?id=45719669) | Link: https://www.wsj.com/tech/ai/microsoft-needs-to-open-up-more-about-its-openai-dealings-59102de8
 
-- TL;DR
-  - WSJ argues Microsoft’s OpenAI ties remain opaque: a $4.7B “other, net” expense ‘primarily’ reflecting equity-method losses (including OpenAI), but no disclosed stake %, carrying value, fair value, or related‑party details; “reciprocal revenue sharing” is unexplained. HN debates whether secrecy signals big losses or normal strategy. Some cite AWS’s years of nondisclosure; others stress required related‑party transparency if Microsoft exerts significant influence. Confusion persists over the deal’s structure (profit‑share vs equity, potential conversion), leaving investors unable to size Microsoft’s true OpenAI exposure.
+### TL;DR
 
-- Comment pulse
-  - Opacity suggests losses → firms highlight wins; bury pain in aggregates; AI P&L mostly vague — counterpoint: AWS hid strong results to protect advantage.
-  - Accounting standard → Equity-method losses sit in “other income”; key gap is related-party disclosure if Microsoft has significant influence.
-  - Deal structure unclear → 49% stake claims conflict with revenue‑share/convertible narratives; talks reportedly aim to convert economics into direct equity.
+A Wall Street Journal columnist argues Microsoft’s OpenAI disclosures no longer match the relationship’s financial and strategic importance. Microsoft grouped equity-method investment losses, including OpenAI, inside a $4.7 billion “other, net” expense without isolating OpenAI’s share, and has not disclosed the stake’s carrying value, structure, fair value or ownership percentage. The column also questions absent related-party detail despite Microsoft describing significant influence. Its valuation estimates and interpretation are the author’s analysis; commenters dispute whether opacity necessarily signals poor performance or improper accounting.
 
-- LLM perspective
-  - View: Microsoft can profit via Azure usage regardless of OpenAI’s losses; opacity preserves pricing and negotiation flexibility.
-  - Impact: Investors can’t model AI unit economics; auditors or the SEC may press for related‑party clarity and exposure limits.
-  - Watch next: Next 10‑Q/10‑K footnotes, any SEC comment letters, OpenAI corporate restructuring, and Azure AI revenue disclosures or KPIs.
+### Comment pulse
+
+- Some readers infer hidden bad news, while others cite competitive secrecy and materiality as legitimate reasons for aggregation.
+- Commenters disagree over Microsoft’s exact ownership and whether the article establishes a related-party disclosure failure.
+
+### LLM perspective
+
+- View: Strategic materiality can demand clearer explanation even when accounting aggregation remains technically permissible.
+- Impact: Investors cannot separate operating results, investment losses and reciprocal commercial flows without better disaggregation.
+- Watch next: Microsoft’s ownership terms, funded commitments and related-party notes matter more than private-market valuation guesses.

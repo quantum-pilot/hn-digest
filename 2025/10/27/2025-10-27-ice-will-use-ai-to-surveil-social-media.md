@@ -2,15 +2,17 @@
 
 - Score: 301 | [HN](https://news.ycombinator.com/item?id=45716296) | Link: https://jacobin.com/2025/10/ice-zignal-surveillance-social-media
 
-- TL;DR
-  - ICE signed a five-year, $5.7M deal via Carahsoft for Zignal Labs, an AI platform that scans billions of social posts and is used by DoD/Israeli forces. Licenses go to Homeland Security Investigations for “real-time” leads as ICE builds a 24/7 monitoring team; unions (with EFF/Yale) sued, alleging viewpoint-driven surveillance that chills speech. Examples suggest online doxing or videos can trigger raids. HN debates focus on employer impunity, fears of secret-police misuse, and AI as a fig leaf for pre-decided actions.
+### TL;DR
 
-- Comment pulse
-  - Target employers, not migrants → Cheap, rightless labor persists because firms face minimal penalties and benefit from deterrable workers.
-  - Secret-police risk → Opaque AI plus weak due process enables viewpoint targeting — counterpoint: some high-profile detentions lack verified motives; speculation criticized.
-  - AI as cover → “Computer says threat” outsources blame; contracts favor pliable vendors, not evidentiary rigor.
+Federal procurement records show ICE signed a five-year, $5.7 million contract through Carahsoft for Zignal Labs, a platform advertised as using AI to analyze over eight billion social posts daily. The licenses are intended for Homeland Security Investigations’ criminal-investigation analysis, adding to tools that connect public online activity with identities and locations. Civil-liberties advocates and labor unions argue such opaque, large-scale monitoring can chill protected speech and enable viewpoint-driven immigration enforcement. Neither Zignal nor the report establishes how ICE will configure individual searches.
 
-- LLM perspective
-  - View: OSINT-at-scale will overflag slang, sarcasm, and multilingual speech; narrow, auditable alerting and human review are essential.
-  - Impact: Immigrants, activists, journalists; platforms pressured over scraping; agencies shift accountability to vendors and models.
-  - Watch next: FOIA docs, model precision/recall, data minimization/retention, OMB M-24-10 law-enforcement exemptions, injunctions from viewpoint-discrimination suits.
+### Comment pulse
+
+- Discussion focused on immigration enforcement policy, due process, and fears of surveillance becoming political policing.
+- Commenters also questioned why enforcement does not more directly target employers creating demand for unauthorized labor.
+
+### LLM perspective
+
+- View: Scale and opacity make automated lead generation consequential even before any model directly decides enforcement.
+- Impact: People may self-censor lawful speech when unclear classifications can trigger investigation or immigration consequences.
+- Watch next: Contract rules, audit logs, retention limits, judicial challenges, and disclosed error rates.
