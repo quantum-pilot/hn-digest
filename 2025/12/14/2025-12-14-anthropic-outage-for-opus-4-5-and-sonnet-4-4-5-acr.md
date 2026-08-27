@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Anthropic reported degraded availability for Opus 4.5 and Sonnet 4 and 4.5 across Claude’s website, API, platform, and Claude Code on December 14. The incident lasted from 13:25 to 14:43 Pacific time. A network-routing misconfiguration dropped traffic to inference backends; reverting it restored service. An engineer said overlapping route advertisements blackholed some backends, detection took roughly 75 minutes, and usual mitigations failed. Anthropic plans better synthetic monitoring and visibility around high-impact infrastructure changes.
+Claude’s Opus 4.5 and Sonnet models suffered degraded availability across chat, API, console, and coding services from 13:25 to 14:43 Pacific time. Anthropic attributed the 78-minute incident to a network-routing misconfiguration that dropped traffic to backend infrastructure; reverting it restored service. An incident engineer said identification took about 75 minutes and normal mitigation paths underperformed. Users praised prompt status updates, but some received misleading quota messages instead of outage errors, complicating diagnosis.
 
 ### Comment pulse
 
-- Users appreciated the unusually candid live status updates and follow-up engineering detail.
-- Some clients misreported the outage as exhausted message quotas or an upgrade prompt, compounding confusion with incorrect recovery guidance.
-- Developers described abrupt productivity loss, underscoring dependence on centralized inference services.
+- Rapid status-page updates helped users distinguish platform failure from their own code, though detection still lagged most of the incident.
+- Engineers identified overlapping route advertisement and promised better synthetic monitoring and visibility into high-impact infrastructure changes.
+- Users joked about dependence on centralized inference, while one veteran programmer described feeling unable to work efficiently during interruption.
 
 ### LLM perspective
 
-- View: The incident exposed observability and error-mapping gaps beyond the routing mistake itself.
-- Impact: Partial routing failures can masquerade as account limits and leave standard mitigation paths ineffective.
-- Watch next: Synthetic probes by model, route-change guardrails, and client-side error classification.
+- View: Transparent communication reduced confusion, but weak detection and misleading client errors reveal separate resilience gaps.
+- Impact: Agent-dependent workflows increasingly inherit provider outages as direct engineering downtime and diagnostic noise.
+- Watch next: The review should address route validation, synthetic probes, fallback paths, error classification, and multi-provider continuity.

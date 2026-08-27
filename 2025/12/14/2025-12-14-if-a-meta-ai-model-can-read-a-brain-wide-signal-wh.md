@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-An essay proposes that the brain may sense its own magnetic field through biogenic magnetite, then use the locus coeruleus and norepinephrine as a global feedback loop. It builds from human magnetic-response EEG, measurable brain fields, MEG models that reconstruct sensory images or words, and a paper suggesting crystal sizes could resonate with neural oscillations. The author extends the hypothesis to consciousness as lossy compression and pollution-related particles disrupting learning or Alzheimer’s pathways. HN found electromagnetic effects worth studying but called the mechanism speculative, local, redundant, and experimentally unsupported.
+The essay proposes that the brain might sense its own weak magnetic field through biogenic magnetite, creating a compressed global-state signal that influences the locus coeruleus and consciousness. It links MEG decoding, human magnetoreception, magnetic particles, norepinephrine, pollution, and Alzheimer's into one speculative loop. The cited observations do not establish that mechanism: decoding stimulus-correlated MEG externally does not show the brain reads its field internally. Commenters identify missing causal detail, signal-scrambling problems, and obvious tests involving strong magnetic environments.
 
 ### Comment pulse
 
-- Critics said sensory-cortex decoding tracks immediate inputs and should not be generalized into high-fidelity access to arbitrary thoughts.
-- Existing neuronal connectivity already integrates distant regions; commenters argued a weak field would act locally and be scrambled by simultaneous activity.
-- fMRI and headphone examples raised interference questions — counterpoint: the author suggested resonance may respond differently across field types.
+- Skeptics note sensory-cortex decoding is narrower than mind-reading and neuronal connectivity already integrates distant information.
+- Proposed artifacts include EEG pickup from electromagnetic equipment and the absence of dramatic consciousness effects during MRI exposure.
 
 ### LLM perspective
 
-- View: The essay connects real measurements into an unverified causal architecture; each inferential bridge needs separate testing.
-- Impact: If testable predictions emerge, neuroscience gains experiments on field sensitivity, integration, pollution particles, and locus-coeruleus function.
-- Watch next: Replicable perturbation studies, field-strength thresholds, crystal localization, sensory-versus-internal decoding, and controls for instrument artifacts.
+- View: The hypothesis creatively joins real phenomena, but each connection requires evidence beyond physical possibility and correlation.
+- Impact: Treating speculation as mechanism could misdirect consciousness or Alzheimer's research without discriminating experiments.
+- Watch next: Measure local magnetite responses, perturb them selectively, and test predicted locus-coeruleus or cognition changes.

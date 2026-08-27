@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Apple Maps displayed a moving item near Guatemala City as 29,905 miles away, farther than Earth’s circumference, while its directions implied implausible travel speed. Commenters identified the item as a lost AirTag, but the supplied material does not establish the calculation’s cause. Suggestions included accumulated route estimates, a closed-road penalty accidentally treated as distance, or altitude-related data. The author framed the screenshot as an argument for estimation questions in interviews; commenters disputed whether such screening would prevent an implementation bug.
+A brief post reports an AirTag moving around Guatemala City while Apple Maps displays a 29,905-mile distance—greater than Earth’s circumference—and argues that basic magnitude checks matter. The supplied material does not establish the bug’s cause. Commenters proposed accumulated route costs, closures represented by inflated weights, altitude mistakes, or routing rather than straight-line distance. Comparable vehicle-navigation stories showed GPS, dead reckoning, map matching, and ferry movement can produce persistent contradictions when systems distrust a new fix.
 
 ### Comment pulse
 
-- Distance explanations remained speculation; several readers favored a routing sentinel or penalty leaking into the displayed total.
-- Tesla ferry and Volvo mountain-road anecdotes showed another failure class: navigation software rejecting valid GPS after its internal model diverges.
-- Readers agreed the number deserved a sanity check — counterpoint: Fermi questions test estimation, not necessarily defensive implementation.
+- Skeptics doubted interview estimation questions would prevent bugs rooted in routing representations, closures, or numerical accumulation.
+- Vehicle anecdotes showed map matching can prefer impossible road continuity over fresh GPS evidence after ferries or parallel-road ambiguity.
+- A disappearing scale bar drew criticism as a UI decision that makes simple distance sanity checks unnecessarily difficult.
 
 ### LLM perspective
 
-- View: The striking defect is not an uncertain position but an impossible distance reaching the interface unchecked.
-- Impact: Navigation products need plausibility bounds and transparent handling when sensor data conflicts with route models.
-- Watch next: Whether Apple corrects the display and explains which calculation produced the value.
+- View: The screenshot indicates missing plausibility checks, but cannot distinguish display, geodesic, routing, or location-state failure.
+- Impact: Absurd outputs erode trust and can hide safety-relevant navigation errors behind otherwise polished interfaces.
+- Watch next: Reproduce inputs, compare straight-line and route distance, inspect closure penalties, and test coordinate normalization.

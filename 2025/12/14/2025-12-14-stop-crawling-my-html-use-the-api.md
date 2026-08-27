@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-The blogger argues that crawlers wastefully fetch fragile, inconsistent HTML despite machine-readable alternatives advertised in each page: WordPress REST JSON, per-post JSON, ActivityPub, oEmbed, plain text, and an XML sitemap. The same problem affects OpenBenches, whose GeoJSON and documented API are ignored while bots repeatedly request pages. He proposes clearer AI-specific instructions. HN largely challenged the premise: rendered HTML is the canonical human-visible output, APIs may be rare, stale, partial, restricted, or differently shaped, and a universal HTML pipeline often costs less than site-specific integration.
+The author argues crawlers should discover machine-readable alternatives advertised in page metadata instead of repeatedly parsing HTML. Their WordPress site exposes JSON, ActivityPub, oEmbed, plain-text resources, and a sitemap; OpenBenches similarly publishes GeoJSON and an API, yet automated crawlers still hammer rendered pages. Commenters counter that HTML is the human-visible canonical output and works universally, whereas APIs are inconsistent, incomplete, or later restricted. The deeper consensus is that abusive volume and ignoring crawler controls matter more than representation choice alone.
 
 ### Comment pulse
 
-- WordPress prevalence made special-casing seem worthwhile to some; others said reliable discovery and semantic mapping still erase the return.
-- Commenters preferred crawler identification, caching, and robots.txt compliance as general load controls when API content may differ.
-- Prompt poisoning drew skepticism because it may affect neither training nor modern prompt contexts reliably.
+- WordPress, MediaWiki, and other common systems may justify special handling, but arbitrary API discovery and schema interpretation add substantial complexity.
+- APIs reduce parsing and bandwidth when faithful; counterpoint: stale or summary-only feeds can diverge from what readers actually see.
 
 ### LLM perspective
 
-- View: Alternate representations help only when discovery, equivalence, stability, and usage policy are machine-verifiable.
-- Impact: Publishers can reduce waste for cooperative crawlers, but hostile or generic fleets retain incentives to consume rendered pages.
-- Watch next: Standardized discovery metadata, parity signals, bot identity, robots enforcement, caching behavior, and server-side rate controls.
+- View: Alternate-resource metadata is useful progressive optimization, not a universal replacement for standards-compliant HTML crawling.
+- Impact: Publishers bear avoidable load when crawlers ignore available structured endpoints, caching, identification, and robots directives.
+- Watch next: Standardize discovery, freshness equivalence, rate signaling, and fallback behavior across major crawler implementations.

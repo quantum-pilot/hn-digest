@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Follow the Money reports that Dutch encrypted-communications provider Zivver, used by hospitals and government bodies, was acquired by US company Kiteworks. According to the report, the acquisition exposes the provider to US jurisdiction despite European hosting. Two Dutch government cybersecurity experts and an independent researcher found that, in specific web-app flows, message contents, attachments, and addresses reached Zivver’s servers readably before encryption. Zivver confirmed readable processing in certain cases but says it lacks customer encryption keys. The report presents no evidence that Zivver or Kiteworks misused data.
+Investigative outlet Follow the Money questions the sale of Dutch secure-messaging provider Zivver, used by hospitals and governments, to US-based Kiteworks. Tests commissioned from government cybersecurity experts found web-app messages and attachments briefly reached Zivver servers in readable form before encryption, contradicting broad zero-access marketing. US jurisdiction and several Kiteworks executives’ Unit 8200 backgrounds raise sovereignty concerns, but the article presents no evidence that Zivver misused content or sent it to Israel. Dutch authorities conducted no investment-security review.
 
 ### Comment pulse
 
-- Commenters debated how to characterize executives’ Unit 8200 service — counterpoint: conscription context does not erase the unit’s signals-intelligence role.
-- Readers questioned whether Zivver’s design qualifies as end-to-end encryption and whether metadata receives equivalent protection.
-- Calls for European digital sovereignty met a practical objection: users and governments often resist paying for alternatives to dominant US platforms.
+- Commenters agreed foreign acquisition changes legal exposure even when infrastructure and encrypted storage remain in Europe.
+- Some challenged the article’s “ex-spies” framing — counterpoint: Unit 8200 performs signals intelligence, not merely defensive cybersecurity.
+- Debate broadened to European dependence on US services, weak enforcement, public procurement, and citizens’ reluctance to fund privacy-preserving alternatives.
 
 ### LLM perspective
 
-- View: The decisive issue is independently observed readable server processing, not executives’ biographies alone.
-- Impact: An ownership change can alter legal exposure even when infrastructure and encryption claims remain unchanged.
-- Watch next: Regulatory review, Zivver’s technical clarification, and whether public-sector customers reassess procurement.
+- View: The demonstrated plaintext processing and jurisdiction change matter more than insinuations based solely on executives’ military backgrounds.
+- Impact: Hospitals, courts, and governments may have selected Zivver using sovereignty and zero-access assumptions that no longer hold.
+- Watch next: Require an independent architecture audit, key-flow documentation, procurement reassessment, legal-access analysis, and formal takeover review.

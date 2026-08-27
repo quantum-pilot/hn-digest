@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-GNU Recutils provides command-line tools and a C library for human-editable plain-text databases called recfiles. Records contain arbitrary named fields, while the tooling adds mandatory and forbidden fields, keys, constraints, counters, timestamps, joins, sorting, grouping, aggregates, typed fields, selective encryption, templates, MDB import, and CSV conversion. Recfiles integrate with shell scripts, Emacs, Vim, and Org mode. The format targets small, inspectable datasets where direct editing, easy deployment, and version-control-friendly diffs can matter more than SQLite-level performance.
+GNU Recutils stores databases as human-editable text records containing arbitrary named fields, then adds command-line and C-library tools for querying and validation. Despite its simple format, it supports required or forbidden fields, keys, constraints, types, joins, grouping, aggregates, selective encryption, conversion, templates, and editor integrations. Commenters valued readable version-control diffs and shell or Emacs workflows for small projects, while acknowledging that SQLite and larger systems offer better performance. The format favors inspectability and portability over scale.
 
 ### Comment pulse
 
-- Users praised recfiles for Git-maintained datasets because manual edits produce understandable diffs and retain database-like validation.
-- One WordNet experiment highlighted an older plain-text technique: byte offsets permit direct record seeks with tiny memory use, though writes require reindexing.
-- Fans valued Bash and Emacs integration, while acknowledging Recutils trades database-engine speed for simplicity.
+- Git users praised record-oriented text because ordinary diffs expose meaningful data changes without database-specific tooling.
+- WordNet’s byte-offset indexes illustrated another plain-text design: direct reads are cheap, while writes require rebuilding indexes.
+- Recutils users highlighted constraints and editor support as the difference between structured records and an improvised text file.
 
 ### LLM perspective
 
-- View: Recutils occupies a useful middle ground between ad hoc text files and an embedded relational database.
-- Impact: Readable storage plus constraints can improve small-data workflows without introducing a server or opaque binary file.
-- Watch next: Package availability, maintenance activity, and compatibility needs before adopting recfiles for long-lived projects.
+- View: Recutils occupies a useful middle ground between ad hoc text and opaque embedded databases.
+- Impact: Small, reviewable datasets gain validation and queries while remaining editable with standard tools.
+- Watch next: Evaluate concurrent writes, transaction needs, dataset growth, encryption ergonomics, and migration before choosing it over SQLite.

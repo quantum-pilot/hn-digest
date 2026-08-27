@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-After a 2020 cluster of youth suicides, Buffalo Hide Academy created a semester-long heavy-music symposium for Blackfeet students who seemed isolated or drawn to darker art. Lessons combined musical analysis, critical history, catharsis, coping, and community, then connected students to paid internships at Fire in the Mountains. The three-day, alcohol-free reservation festival drew about 2,400 people, an estimated third Native, for 23 bands, workshops, ceremony, and cultural exchange. Participants described belonging and hope; HN emphasized metal’s welcoming, playful community and its channeling of aggression.
+Buffalo Hide Academy created a semester-long heavy-music course after youth suicides struck the Blackfeet Nation, using metal to teach catharsis, critical media literacy, community, and career skills. Students then interned at Fire in the Mountains, a three-day, alcohol-free festival relocated to Piikunii land with 23 bands and roughly 2,400 attendees. The event combined performances with cultural exchange, Indigenous panels, and suicide-prevention fundraising. Participants describe belonging and emotional release, but the article presents testimony and observation rather than measured clinical outcomes.
 
 ### Comment pulse
 
-- Metalheads described concerts as nonjudgmental safe spaces where outsider identity, collective singing, humor, and mutual care turn intimidating aesthetics into belonging.
-- Readers cited studies associating heavy music with improved anger processing and happiness, supporting participants’ accounts without proving this specific program’s outcomes.
-- Catharsis was framed as creative containment — counterpoint: one commenter warned commodified rebellion can substitute emotional release for political action.
+- Metal fans emphasize welcoming community, shared outsider identity, silliness, and controlled aggression as sources of belonging rather than violence.
+- Some cite research connecting heavy music with healthier anger processing; a counterpoint warns catharsis can substitute for material action.
 
 ### LLM perspective
 
-- View: The intervention’s strength is social connection organized around an authentic youth culture, not music presented as clinical treatment.
-- Impact: Students gain trusted adults, peers, creative skills, industry exposure, and culturally grounded reasons to imagine a future.
-- Watch next: Student retention, mental-health referrals, internship outcomes, repeat festivals, community governance, and evidence beyond participant testimony.
+- View: The intervention's strength is not metal alone, but trusted adults, identity, responsibility, and sustained community participation.
+- Impact: Isolated Blackfeet students gain expressive outlets, peer networks, paid experience, and visible roles in cultural production.
+- Watch next: Track student retention, mental-health outcomes, internship paths, and whether future festivals preserve local leadership.

@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-A local-first study tool stores card content as lightly marked-up Markdown decks while keeping review history in a colocated SQLite database. It serves drills through localhost, schedules with FSRS, identifies cards by text hashes, and lets users edit with any editor or apply Git, Unix tools, and generation scripts. The creator aims to combine Anki’s scheduling with Mochi’s low-friction authoring, using compact question-answer and cloze syntax. HN liked plain-text ownership but challenged the Anki critique and asked whether correcting card text destroys its accumulated history.
+Hashcards stores flashcard content as lightweight Markdown decks while keeping review history in a colocated SQLite database and scheduling with FSRS. Content hashes identify cards, enabling editor-native creation, Git versioning, Unix-tool queries, scripted generation, and sharing without exposing an opaque application database. The author built it to combine Anki's scheduling strength with Mochi's lower-friction writing experience. Commenters appreciate plain text but question whether editing a card changes its identity and loses history, while Anki users dispute the critique of its interface.
 
 ### Comment pulse
 
-- One reader applies scheduled prompts to relationship habits and Kindle highlights, treating repetition as lifelong behavioral reinforcement rather than academic memorization.
-- Anki defenders called its hierarchy, WYSIWYG default, HTML editing, and plugins practical — counterpoint: supporters said the author only needed personally motivating tradeoffs.
-- Markdown users valued portability, editor freedom, cross-linking, Git, and extensibility; Emacs users pointed to org-drill as an existing plain-text option.
+- Plain Markdown earns support for portability, automation, linking, and versioning; existing options such as Emacs org-drill already cover similar workflows.
+- Some readers extend spaced repetition beyond facts into behavioral reinforcement, using recurring prompts to rehearse better responses.
 
 ### LLM perspective
 
-- View: Separating readable card content from scheduler state preserves ownership without rejecting a database where state is useful.
-- Impact: Power users gain scriptable decks; edits, synchronization, and card identity become their operational responsibility.
-- Watch next: Typo-safe identity, import compatibility, mobile workflows, conflict handling, FSRS tuning, and long-term history portability.
+- View: Separating durable card text from scheduling state offers ownership without pretending every datum belongs in Markdown.
+- Impact: Technical learners gain programmable decks, while nontechnical users may still prefer Anki's integrated ecosystem.
+- Watch next: Verify identity behavior after edits, database portability, conflict handling, and long-term FSRS migration stability.

@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Sean Silva opens a practical compiler series by defining a compiler broadly as a behavior-preserving translator between computational languages. Compilers are often reproducible command-line programs, yet their reliability bar is exceptional: a crash is obvious, while a miscompile can corrupt downstream output and take months to diagnose. Intermediate representations divide translation into smaller passes, each carrying different semantics and abstraction levels. A multiplication example moves from Clang’s AST through LLVM IR and GlobalISel to target-specific machine IR, illustrating how manageable stages still create many correctness boundaries.
+Sean Silva frames a compiler as a behavior-preserving translator and argues that, when structured as deterministic command-line transformations, it is unusually reproducible to debug. The hard requirement is preventing miscompiles: outputs must preserve observable source behavior, and failures should halt before faulty programs escape. Practical compilers manage this through successive intermediate representations and small verified transformations, but each IR encodes intricate types, control flow, mutability, and target constraints. Commenters emphasized invariants, diagnostics, tooling, and interactions over novel optimizations.
 
 ### Comment pulse
 
-- A historical compiler deleted benchmark work its data-flow analysis deemed dead; rivals later adopted the same optimization despite initial accusations of cheating.
-- Readers argued IR makes compiler construction manageable — counterpoint: complexity remains in semantic boundaries and interactions among representations and passes.
-- Lowered representations enable optimization and inlining, but make reconstruction of precise source-level diagnostics difficult.
+- An early compiler author recalled benchmarks deleting dead loops correctly, only for reviewers to accuse the optimizer of recognizing tests.
+- Some argued IR makes compilers manageable by decomposing translation; transformed forms nonetheless make source-level diagnostics harder to reconstruct.
+- Terminology debate challenged “compiler” as synonymous with translator, citing interpreters, assemblers, Forth, and layered machine-code translation.
 
 ### LLM perspective
 
-- View: Compiler engineering is less about translation syntax than preserving meaning across many explicit, checkable transformations.
-- Impact: Strong invariants and fail-closed passes prevent local mistakes from becoming distant, expensive corruption.
-- Watch next: Concrete techniques for validating IR, testing passes, and diagnosing miscompiles in production toolchains.
+- View: Compiler reliability depends less on clever optimization than on representations and checks that make invalid transformations conspicuous.
+- Impact: One silent semantic error can contaminate databases, operating systems, or generated AI workloads far downstream.
+- Watch next: Subsequent installments should demonstrate pass isolation, differential testing, IR verification, reduction, and miscompile incident response.

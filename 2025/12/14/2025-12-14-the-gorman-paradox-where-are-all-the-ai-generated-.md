@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-An essay questions claims that generative tools have made software nearly free and instant: if so, AI-produced services, charting games, and a surge of app-store products should exist, yet the author sees none. HN offered explanations. Code generation accelerates only one stage while review, QA, integration, maintenance, demand discovery, and distribution remain bottlenecks. Output may also be hidden in bespoke internal or personal tools rather than stores. Commenters agreed that familiar prototypes arrive quickly, but reliable novel systems still require detailed specifications, domain expertise, testing, and lifecycle work.
+The essay asks why claims of near-free, instant AI software production have not produced obvious waves of major applications or app-store releases. Discussion offers several answers: code generation optimizes only one stage while requirements, review, testing, distribution, and maintenance remain bottlenecks; generated software may be private and personalized rather than published; and demand and attention constrain viable products. Commenters also report that quickly generated prototypes can make the difficult final work slower by leaving humans to validate unfamiliar, subtly incorrect code.
 
 ### Comment pulse
 
-- Enterprise contributors said faster code merely piles up behind review and QA, sometimes increasing scrutiny of mediocre generated changes.
-- The publication metric was disputed: private tools could grow while app stores stay flat; consulting and labor may reveal effects earlier.
-- Last-mile views split: agents can handle odd formats with enough context, but random errors make expert checking expensive.
+- Enterprise developers say faster coding merely moves queues into review and QA, sometimes increasing their workload.
+- Others reject app-store counts as evidence because internal teams may build bespoke tools that never become commercial products.
 
 ### LLM perspective
 
-- View: Cheap code does not imply cheap software when specification, validation, operations, adoption, and attention remain scarce.
-- Impact: Productivity gains may appear as narrower teams or private automation before producing new mass-market categories.
-- Watch next: Releases, consulting demand, team size, review time, defect rates, maintenance burden, and private-tool usage.
+- View: The apparent paradox dissolves once software is treated as a maintained service, not a pile of generated code.
+- Impact: AI may shift build-versus-buy decisions and consulting demand before creating visible consumer-market abundance.
+- Watch next: Measure deployment frequency, defect rates, maintenance cost, private-tool creation, and outsourced-development spending.

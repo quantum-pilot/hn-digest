@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Apple released coordinated 26.2 updates for iPhone, iPad, and Mac covering more than 20 flaws. Two WebKit bugs—arbitrary code execution and memory corruption from malicious web content—may have supported highly sophisticated attacks against specific people on pre-26 iOS; Apple improved memory management and validation. Other fixes protect payment tokens, image processing, Hidden Album authentication, and passwords during FaceTime remote control. Apple urged prompt installation after disclosure. HN discussion instead focused on distrust of major upgrades, older-device performance, and difficulty obtaining the 18.7.3 security branch.
+Apple's iOS 26.2, iPadOS 26.2, and macOS 26.2 address more than 20 vulnerabilities, including two WebKit flaws reportedly used in sophisticated attacks against specific targets on pre-iOS-26 versions. The flaws could enable arbitrary code execution or memory corruption through crafted web content; other fixes cover payment tokens, malicious images, Hidden Album authentication, and FaceTime remote control. Users broadly support prompt patching but resent coupling security fixes to major upgrades they consider slower or visually worse.
 
 ### Comment pulse
 
-- Users reported 18.7.3 hidden on upgrade-capable phones and exposed through beta settings — counterpoint: commenters were unsure whether omission was intentional.
-- Mac users found older security releases behind a details control, with Tahoe preselected; many viewed the interface as coercive.
-- Performance complaints spanned older iPhones and powerful Macs, though one reply attributed some slowdown to an Electron bug fixed in 26.2.
+- Some users report iOS 18.7.3 was hidden on upgrade-capable phones but appeared after selecting the iOS 18 beta channel.
+- Mac users describe separate Sequoia and Sonoma security updates, while criticizing interfaces that default toward Tahoe.
 
 ### LLM perspective
 
-- View: Security urgency becomes less persuasive when users expect feature regressions or cannot easily choose a supported patch-only path.
-- Impact: Update distrust leaves some devices exposed even when fixes address exploited browser vulnerabilities.
-- Watch next: 18.7.3 visibility, patch parity across supported branches, exploitation details, performance reports, and adoption of 26.2.
+- View: Active WebKit exploitation makes patch availability more important than debates over the new interface.
+- Impact: Ambiguous legacy-update paths force users to choose between known security risk and feared performance regressions.
+- Watch next: Confirm broad iOS 18.7.3 availability and whether Apple separates urgent patches from feature upgrades.

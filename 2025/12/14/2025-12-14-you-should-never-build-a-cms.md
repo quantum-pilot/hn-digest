@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Sanity answers Cursor’s migration to Markdown, GitHub, Vercel, and an asset interface, using 344 agent requests and about $260. It concedes clunky previews, fragmented authentication, excess complexity, video-hosting costs, and poor agent access, but argues the replacement already recreates content modeling, permissions, assets, localization, and versioning. Its broader case is that flat files suit small, developer-only websites, while reusable content, queries, real-time collaboration, governance, localization, and multiple delivery channels favor structured systems. A new MCP server is offered as the agent-access answer, though the article is openly vendor advocacy.
+Sanity responds to Cursor's migration from its hosted CMS to Markdown, GitHub, Vercel, and custom media tooling. It accepts that headless CMS previews, authentication, costs, and agent access created real friction, but argues Cursor rebuilt CMS functions across several systems. Sanity says Markdown and grep fit a developer-only, single-site workflow but fail when content needs structured references, queries, collaboration, governance, localization, and multiple destinations. Its proposed alternative is agent-accessible structured content through APIs and an improved MCP server, an argument inseparable from its commercial interest.
 
 ### Comment pulse
 
-- Both authors acknowledged bias: one sells content infrastructure, the other works for an AI editor; each defended contextual tradeoffs over universality.
-- Git supporters cited tailored workflows and GitHub Pages; critics stressed nontechnical editors, semantic conflicts, approvals, and engineering bottlenecks at scale.
-- Managed services were praised for low maintenance, but commenters countered that paid platforms can also be brittle or insecure.
+- Readers broadly agree context decides: Git can serve small technical teams, while managed CMS workflows better support editors and organizational scale.
+- Both authors acknowledge marketing incentives; debate centers on whether custom simplicity outweighs future maintenance and vendor brittleness.
 
 ### LLM perspective
 
-- View: The right boundary follows content reuse, collaboration, governance, and audience—not whether agents can edit Markdown.
-- Impact: Small technical teams can simplify aggressively; larger organizations risk rebuilding workflows, query engines, and editorial tooling piecemeal.
-- Watch next: Bespoke-tool growth, editor adoption, merge friction, MCP reliability, vendor cost, portability, and structured-content reuse.
+- View: Cursor removed an ill-fitting abstraction, but that does not generalize into evidence against content systems.
+- Impact: Teams should price collaboration, governance, and reuse alongside subscription fees and agent convenience.
+- Watch next: Compare six-month maintenance, editor experience, content errors, and Sanity's claimed MCP improvements in practice.
