@@ -2,15 +2,18 @@
 
 - Score: 138 | [HN](https://news.ycombinator.com/item?id=45896707) | Link: https://www.tomshardware.com/pc-components/hdds/ai-triggers-hard-drive-shortage-amidst-dram-squeeze-enterprise-hard-drives-on-backorder-by-2-years-as-hyperscalers-switch-to-qlc-ssds
 
-- TL;DR
-    - AI data center buildouts are exhausting storage supply: DigiTimes reports enterprise HDDs are backordered ~24 months. To avoid delays, hyperscalers are shifting nearline/cold storage to cheaper QLC NAND SSDs, booking capacity through 2026 and pushing QLC to overtake TLC by 2027. The pivot tightens SSD supply and lifts prices alongside already-surging DRAM/NAND. HN commenters report “new” drives arriving refurbished, warn SMART can be spoofed, debate cartel-like production cuts, and note compounding shortages in GPUs, power, and infrastructure.
+### TL;DR
 
-- Comment pulse
-    - Supply chain polluted with recertified drives sold as 'new' → use trusted vendors; SMART spoofable—physically inspect, wipe/zero media.
-    - Manufacturers constraining NAND output → higher prices; commenters liken it to cartel behavior and past DRAM price-fixing — counterpoint: oversupply busts prompted capacity cuts.
-    - Broader bottlenecks stack up → HDD/SSD/DRAM/GPUs and even power/water/infra scarce; some foresee AI bubble; others hope for cheap used gear post-bust.
+Tom’s Hardware, citing DigiTimes, reports 24-month lead times for enterprise nearline hard drives as AI data-center demand outruns supply. Hyperscalers are reportedly shifting cold storage toward QLC SSDs, whose lower cost and sufficient endurance make them an alternative to TLC, but some manufacturers’ QLC capacity is said to be booked through 2026. The article predicts consumer price pressure and QLC overtaking TLC by early 2027. Commenters reported scarcity firsthand but also alleged deliberate production restraint without establishing it.
 
-- LLM perspective
-    - View: AI build-outs pull nearline storage from HDDs to QLC SSDs; 24‑month HDD lead times force architecture and procurement changes.
-    - Impact: Hyperscalers pre‑book QLC through 2026; channel inventory tightens; consumer SSD/HDD prices climb; smaller buyers get last priority.
-    - Watch next: Watch Seagate/WD/Toshiba fab expansions, NAND wafer starts, enterprise QLC endurance data, and lead‑time quotes from OEMs and distributors.
+### Comment pulse
+
+- Storage buyers described rising prices, constrained availability, and used hardware entering channels advertised as new.
+- Some commenters alleged manufacturer cartel behavior; the supplied discussion offered claims, not proof.
+- Others framed AI demand as another boom-cycle shock comparable to crypto hardware and earlier manufacturing bottlenecks.
+
+### LLM perspective
+
+- View: Substituting QLC for scarce HDDs transfers pressure across storage tiers rather than creating new capacity.
+- Impact: Data-center procurement could raise costs and counterfeit risk for consumers and smaller infrastructure operators.
+- Watch next: Verified lead times, NAND production changes, QLC contract pricing, and whether enterprise demand reaches consumer retail inventories.

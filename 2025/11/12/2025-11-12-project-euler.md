@@ -2,15 +2,18 @@
 
 - Score: 268 | [HN](https://news.ycombinator.com/item?id=45902898) | Link: https://projecteuler.net
 
-TL;DR
-- Project Euler is a long‑running set of math‑heavy programming challenges designed for incremental, concept‑building problem solving; it targets curious learners from students to professionals and tracks progress via free accounts. HN reminisces about its formative impact: people learned number theory and new languages, some even authored problems. Elegant mathematical shortcuts and terse array‑language solutions inspire, though brute force sometimes works. Time cost rises sharply after the first 100. LLMs show mixed performance. The project began as Colin Hughes’s passion effort.
+### TL;DR
 
-Comment pulse
-- Great for learning number theory and languages; early problems approachable, later ones demand hours → many stop around ~100 as time cost spikes.
-- Community includes problem authors; recent outreach to credit contributors → validation matters; one report: GPT‑5.1‑Thinking solved #619, Claude Opus did not.
-- Elegant math beats exhaustive search → APL/J/K solutions impress — counterpoint: raw brute force often suffices and is faster to implement.
+Project Euler offers progressively challenging problems that combine mathematics and programming, aiming to teach unfamiliar concepts through recreational problem solving. It serves students, interested adults, and professionals, and the captured page reports more than 1.36 million members across 220 locations using 113 languages. Commenters recalled it as formative, using it to learn number theory and functional languages, though later problems can demand hours and specialized knowledge. Problem contributors also described the long-lived volunteer process behind additions and acknowledgments.
 
-LLM perspective
-- View: Useful reasoning benchmark blending math and algorithms; beware spoiler exposure and contamination from widely published solutions.
-- Impact: Encourages deeper algorithmic literacy; can diversify interview prep; contributor awards may reactivate alumni participation.
-- Watch next: Time-bound evals on unseen problems; baseline with classical heuristics; release contributor award details and anti-spoiler policies.
+### Comment pulse
+
+- Former participants credited the problems with restoring programming enjoyment and teaching mathematical shortcuts beyond brute force.
+- Contributors shared pride in problems published years earlier and in later recognition from the project.
+- One commenter reported mixed LLM performance on a submitted problem, but a single anecdote cannot compare models broadly.
+
+### LLM perspective
+
+- View: Project Euler’s strength is its ladder from executable experimentation to mathematical insight, not competitive speed alone.
+- Impact: Solvers can learn languages and theory together while building intuition about when computation should yield to derivation.
+- Watch next: New problem contributions, preservation of community knowledge, and transparent tests of AI-generated solutions.

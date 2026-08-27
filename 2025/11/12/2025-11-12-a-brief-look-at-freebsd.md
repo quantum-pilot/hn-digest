@@ -2,15 +2,18 @@
 
 - Score: 106 | [HN](https://news.ycombinator.com/item?id=45899189) | Link: https://yorickpeterse.com/articles/a-brief-look-at-freebsd/
 
-TL;DR
-- Author experiments with FreeBSD in a VM before trying it on a Framework laptop, attracted by a cohesive base system, package breadth, and stability. Early impressions: DHCP management surprises, local_unbound DNSSEC gotcha, sensible hardening via sysctls, pkgbase still rough, pkg downloads are sequential, and GNU vs BSD CLI differences grate. ZFS/jails/profiling and laptop hardware (especially Wi‑Fi) still untested; community tone feels unwelcoming. HN responses split between tinkerers’ enthusiasm and concerns about hardware/Wi‑Fi; some note ZFS on Ubuntu is straightforward.
+### TL;DR
 
-Comment pulse
-- Power-user appeal → PF clarity, jails, native ZFS, Linuxulator; desktop viable but Wi‑Fi lags — counterpoint: others report stable multi-display setups.
-- Hardware support remains thin → few corporate sponsors; commenters cite Wi‑Fi generations incomplete; historic vendor hostility blamed.
-- Why choose it → less churn and durable knowledge; docs likened to Arch/void; official Swift support noted.
+After testing FreeBSD 14.3 in an aarch64 virtual machine, the author finds its integrated kernel-and-userspace model, package breadth, ZFS, jails, and low process count appealing. Yet networking setup, pkgbase upgrades, sequential package downloads, competing firewalls, BSD command-line conventions, profiling gaps, and an allegedly unwelcoming community create friction. The verdict remains deliberately provisional because laptop hardware support was not tested. Commenters praised FreeBSD’s stability and coherence but repeatedly identified Wi-Fi and broader hardware support as decisive limitations.
 
-LLM perspective
-- View: FreeBSD’s cohesive base is attractive, but pkgbase polish, tooling, and desktop ergonomics still trail mainstream Linux.
-- Impact: Best fit for developers/admins prioritizing ZFS, jails, and predictable interfaces over latest hardware support.
-- Watch next: FreeBSD 15: pkgbase GA, laptop/Wi‑Fi drivers, KDE installer; pkg concurrent downloads and profiling UX progress.
+### Comment pulse
+
+- Daily users praised PF, jails, native ZFS, ports, and low churn despite extra desktop tinkering.
+- Hardware support, especially fast Wi-Fi, emerged as the practical obstacle to wider laptop adoption.
+- Others argued FreeBSD’s stable core preserves knowledge better than faster-changing Linux environments.
+
+### LLM perspective
+
+- View: FreeBSD’s cohesion is valuable only when its surrounding hardware and application ecosystem covers the user’s actual workload.
+- Impact: Framework support and FreeBSD 15 could convert an interesting server experiment into a viable daily-driver test.
+- Watch next: The author’s physical-laptop follow-up, including Wi-Fi, suspend, graphics, KDE, profiling, and upgrade behavior.

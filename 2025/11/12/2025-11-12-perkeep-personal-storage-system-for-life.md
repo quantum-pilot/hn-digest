@@ -2,15 +2,18 @@
 
 - Score: 313 | [HN](https://news.ycombinator.com/item?id=45896130) | Link: https://perkeep.org/
 
-- TL;DR
-  - Perkeep (formerly Camlistore) is an open‑source, privacy‑first, content‑addressed personal datastore aiming for decades‑long durability with multi‑backend replication and access via phone, browser, and FUSE. A 0.12 “Toronto” release arrives after ~5 years idle. HN praises the architecture but cites near‑abandonment, hard‑coded indexers, weak integrations, and slow community momentum; adoption hinges on effortless ingest/search across devices and clouds. Skeptics say a filesystem plus backup suffices; others note simpler peers like Timelinize and separate tools for webpage archiving.
+### TL;DR
 
-- Comment pulse
-  - Compelling design, but near-abandonware → years-long pause, sparse community, hard-coded indexers, slow PRs; missing mobile/cloud ingest and polished search. — counterpoint: 0.12 just restarted activity.
-  - Question the premise → filesystem plus replication/versioning covers most needs; better to separate organization and backup than adopt a monolith; overview docs exist but unconvincing.
-  - Compare/alternatives → Timelinize favors files+sqlite for approachability; for bookmark/page archiving people use ArchiveBox, SingleFile, WebScrapBook, Zotero, LinkDing.
+Perkeep is an open-source system of formats, protocols, and software for privately storing, modeling, searching, sharing, and synchronizing data ranging from small objects to multi-terabyte videos. It emphasizes user control, privacy by default, redundancy, and decades-long preservation, while warning that setup remains technical and features unfinished. Version 0.12 arrived on November 11. Commenters admired the architecture but described weak integrations, hard-coded data types, sparse maintenance, and limited community momentum as barriers to trusting it with a lifetime archive.
 
-- LLM perspective
-  - View: A personal, content-addressed data lake is valuable, but wins only with seamless ingestion, rich indexing, and durable portability guarantees.
-  - Impact: If revived, early adopters: self-hosters, researchers, journalists; could pressure cloud providers via import/export connectors and multi-backend replication.
-  - Watch next: Roadmap clarity, plugin/indexer SDK, mobile clients, photo/notes importers, FUSE stability, PR velocity, and migration guides from Dropbox/Google Photos.
+### Comment pulse
+
+- Longtime observers called the concept compelling but said adoption suffers when ingestion, search, and integrations require custom work.
+- The first release in five years renewed interest but also highlighted maintenance uncertainty.
+- Some preferred ordinary files plus an index, arguing simpler storage improves accessibility and recoverability.
+
+### LLM perspective
+
+- View: Permanent storage succeeds through sustained interoperability and maintenance, not merely a durable internal blob model.
+- Impact: Technical users can experiment, but long-term adopters inherit integration work and project-continuity risk.
+- Watch next: Release cadence, maintainer responsiveness, importer coverage, external indexers, and migration paths back to conventional files.

@@ -2,15 +2,17 @@
 
 - Score: 112 | [HN](https://news.ycombinator.com/item?id=45897122) | Link: https://www.patrickcelentano.com/blog/planet-sim-part-1
 
-- TL;DR
-    - An indie dev chases a modern SimEarth: polygonal Voronoi/Delaunay worlds in Unity couldn’t handle realistic plate collisions; a custom C++/Vulkan engine was too heavy. He moved to GPU compute shaders with cubemaps, achieving plate motion/subduction/spreading but lacking deformation. Inspired by sand demos, he implemented SPH on a sphere via compute shaders, learning GPU debugging is hard and memory dominates performance. Next: visualize currents/winds, moisture/precipitation, volcanoes, and optimize for broader hardware. HN discusses shader ergonomics, GPU capacity intuition, tectonics.js, and the absence of Part 2.
+### TL;DR
 
-- Comment pulse
-    - Shaders are fun, immediate feedback → per-pixel mental model; debugging compute/pixel shaders is painful — counterpoint: HIP allows kernel breakpoints and printf on GPU.
-    - How much can a GPU move? → Memory bandwidth and interactions dominate; simple advection scales to billions, collisions drop throughput dramatically.
-    - Pointers to prior art → tectonics.js offers deep plate-simulation write-ups; commenters note the blog’s Part 2 never arrived.
+Seeking a modern successor to SimEarth, the author spent more than a year building a planetary simulation in Unity. Polygonal Voronoi plates proved too expensive and insufficient for realistic deformation, while a cubemap compute-shader version handled collision, subduction, and seafloor spreading but still could not deform crust. Smoothed-particle hydrodynamics then offered a particle-based foundation for crust, air, and water. The project’s practical lesson was that GPU arithmetic is cheap while memory access, debugging, and profiling dominate difficulty.
 
-- LLM perspective
-    - View: Switching to SPH-on-sphere with compute shaders trades mesh complexity for particle locality, enabling crust deformation within GPU-friendly kernels.
-    - Impact: Requires efficient neighbor search, SoA memory, and tiling; plate-scale sims become feasible on consumer GPUs, broadening research and hobbyist tooling.
-    - Watch next: Publish kernels and perf baselines; prototype in WebGPU; compare SPH with MPM/FLIP for solid-fluid coupling and stable mountain-building.
+### Comment pulse
+
+- Shader programmers praised the parallel, per-pixel mental model but agreed failures remain frustrating to debug.
+- Readers admired the ambition while noting the promised second installment apparently never arrived.
+
+### LLM perspective
+
+- View: Changing representation, not merely optimizing code, unlocked each major step in the simulation.
+- Impact: GPU-friendly particles make deeper planetary systems plausible for individual developers, though scientific fidelity remains expensive.
+- Watch next: Validation of plate behavior, adaptive resolution, atmosphere coupling, and performance beyond one laptop would establish progress.

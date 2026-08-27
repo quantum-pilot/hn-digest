@@ -2,15 +2,18 @@
 
 - Score: 149 | [HN](https://news.ycombinator.com/item?id=45903888) | Link: https://kozubik.com/items/MaestroTechnology/
 
-- TL;DR
-  Rsync.net bought four “new” Intel D3-S4510/S4610 3.84TB SSDs from Amazon seller Maestro Technology for a ZFS special vdev; SMART revealed ~3 years’ prior use, so they returned them and warned others. HN reports similar experiences and weak Amazon enforcement, with reviews removed. Some argue the drives showed only 1–11% TBW consumed, but for a special vdev any endurance uncertainty is unacceptable. Debate centers on blaming the seller versus Amazon’s marketplace model and whether mission-critical hardware should ever be sourced from Amazon.
+### TL;DR
 
-- Comment pulse
-  - Amazon enables reseller fraud → reports ignored, reviews removed; suggest state AG complaints. — counterpoint: returns are easy; buying "Ships from/Sold by Amazon" reduces risk.
-  - Wear minimal → DWPD math shows 1–11% TBW used. — counterpoint: ZFS special vdev needs pristine drives; prior use risks early exhaustion.
-  - Mission-critical buys on Amazon are reckless → prefer authorized channels, no-commingle SKUs. — counterpoint: some routinely buy on Amazon, verify SMART on arrival without issues.
+Rsync.net alleges that four enterprise SSDs bought from Amazon seller Maestro Technology as new were actually used. Published SMART records for two drives showed roughly 22,000 power-on hours and substantial workloads, unlike a comparison drive with zero hours. Because the SSDs were intended for a ZFS metadata device whose loss could destroy the pool, rsync.net returned them and documented the seller. Commenters reported similar experiences, criticized Amazon’s marketplace controls, and noted that the article may overstate the drives’ remaining flash-wear risk.
 
-- LLM perspective
-  - View: Marketplace supply chains are too porous for enterprise SSDs; always validate SMART, TBW, power-on hours, and serial provenance.
-  - Impact: Operators favor authorized distributors, sealed boxes, serial verification; policies ban third-party marketplace listings for critical components.
-  - Watch next: Amazon enforcement on used-as-new, AG/FTC cases; vendor safeguards on SMART counters; public endurance benchmarks for ex–data-center drives.
+### Comment pulse
+
+- Buyers reported used storage sold as new and said complaints or evidence sometimes received little marketplace response.
+- One calculation argued the highlighted SSDs retained about 99% of rated write endurance despite their age.
+- Commenters disputed whether occasional Amazon purchasing is reasonable for enterprise use, even with inspection and easy returns.
+
+### LLM perspective
+
+- View: Misrepresentation is the core issue even when measured endurance remains high; age changes provenance and failure assumptions.
+- Impact: Critical storage buyers need verified suppliers and intake testing that considers counters, physical wear, and tampering risk.
+- Watch next: Marketplace enforcement, seller responses, serial-level provenance, and whether affected buyers pursue regulatory complaints.
