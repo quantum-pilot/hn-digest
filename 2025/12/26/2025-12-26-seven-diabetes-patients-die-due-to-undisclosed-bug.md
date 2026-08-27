@@ -3,14 +3,17 @@
 - Score: 440 | [HN](https://news.ycombinator.com/item?id=46388040) | Link: https://sfconservancy.org/blog/2025/dec/23/seven-abbott-freestyle-libre-cgm-patients-dead/
 
 ### TL;DR
-Blog author and new diabetic Bradley Kuhn describes an FDA alert about Abbott Freestyle Libre CGM sensors that produced erroneous glucose readings, with 736 severe adverse events and seven deaths worldwide “potentially associated.” He argues opaque proprietary hardware, vague disclosures and liability‑shielding app terms prevent public investigation, accountability and safer designs, and calls for FOSS alternatives and reverse‑engineering. HN commenters, many diabetics themselves, dispute the post’s causal claims and emphasize CGM limitations, patient education, and likely non‑software causes.
+
+Software Freedom Conservancy's Bradley Kuhn says recalled Abbott FreeStyle Libre sensors produced dangerously incorrect glucose readings, with 736 severe adverse events and seven deaths reported as potentially associated. He argues opaque medical devices prevent independent investigation and that public hardware specifications plus corresponding source would enable broader safety review, though FOSS cannot guarantee correctness. Diabetic commenters question the headline's causal certainty and whether the defect was software, hardware, or manufacturing, while explaining how sustained false readings can trigger harmful insulin decisions.
 
 ### Comment pulse
-- CGMs are noisy; diabetics learn to verify with finger sticks and symptoms; many suspect sensor-chemistry batch defects, not code—counterpoint: frail patients may over‑trust devices.  
-- Several question how false lows kill, noting high glucose is usually chronic; others explain DKA and pump auto-suspension scenarios; German notice mentions false‑high readings instead.  
-- FDA says seven deaths were "potentially associated" with the issue, not proven causal; some see the blog as overstating risk to push a FOSS agenda.  
+
+- Causality is not established → Abbott reported deaths potentially associated with the issue, not proven to have been caused by it.
+- CGMs require verification → experienced users check surprising readings with fingersticks and bodily symptoms, though vulnerable patients may not manage that reliably.
+- Error direction matters → false highs risk insulin overdose; prolonged false lows can suppress insulin and contribute to ketoacidosis.
 
 ### LLM perspective
-- View: Open hardware/software plus mandated disclosure would aid independent audits, but cannot eliminate biological limits or manufacturing defects.  
-- Impact: Regulators may tighten post‑market surveillance, require clearer risk communication, and scrutinize indemnity clauses in companion apps.  
-- Watch next: Detailed root‑cause reporting, interoperability standards between CGMs and pumps, and tests of liability waivers in medical software EULAs.
+
+- View: Transparency would improve independent diagnosis, but the evidence supplied cannot localize the defect or prove seven causal deaths.
+- Impact: Patients need clearer failure guidance while regulators and researchers need technical incident data.
+- Watch next: Abbott and regulators should publish affected lots, error modes, causal analyses, mitigations, and software-versus-hardware findings.

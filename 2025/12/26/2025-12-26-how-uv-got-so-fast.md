@@ -3,16 +3,17 @@
 - Score: 1245 | [HN](https://news.ycombinator.com/item?id=46393992) | Link: https://nesbitt.io/2025/12/26/how-uv-got-so-fast.html
 
 ### TL;DR
-uv is dramatically faster than pip not mainly because it’s written in Rust, but because it exploits a decade of new Python packaging standards and drops legacy behavior. Static metadata (PEP 518/517/621/658) removes `setup.py` code execution from the hot path; uv further skips eggs, `pip.conf`, bytecode compilation, permissive parsing, and multi-index probing. It adds parallel downloads, metadata-only resolution, global hardlink caches, and a PubGrub solver. Rust then amplifies this via zero-copy caches, no GIL, and single-binary startup.  
-  
+
+Uv’s roughly order-of-magnitude advantage over pip comes primarily from modern packaging standards and deliberate scope reduction, with Rust adding further gains. Static metadata from PEPs 518, 517, 621, and 658 lets uv resolve dependencies without executing package code or downloading entire wheels. It also drops eggs and pip configuration, defaults to virtual environments, applies stricter parsing, parallelizes downloads, uses a global hardlinked cache, and employs PubGrub. Rust then enables cheap threading, fast startup, compact versions, and tightly integrated zero-copy cached data.
 
 ### Comment pulse
-- Design and standards, not Rust alone → Greenfield, spec-driven tooling unlocked 10× speed; compiled single-binary Rust mainly fixes bootstrapping and startup — counterpoint: without benchmarks, weighting factors is speculative.  
-- Governance and incentives → A commercial, opinionated project can aggressively drop legacy paths; community FOSS tools get stuck balancing compatibility, politics, and many stakeholders.  
-- Meta: writing and claims → Some readers see LLM-edited, list-heavy prose and shaky “Rust-specific” labeling (e.g., zero-copy) as undermining the otherwise useful architectural analysis.  
 
+- Greenfield hindsight mattered → modern standards and fewer compatibility obligations enabled architecture that pip cannot adopt quickly.
+- Rust contributed beyond raw execution → a standalone binary solves bootstrapping and avoids Python ecosystem startup costs.
+- Attribution needs benchmarks → commenters questioned assigning weight to omitted features without measuring each optimization independently.
 
 ### LLM perspective
-- View: The key lesson is to standardize away dynamic metadata first; only then does a fast implementation meaningfully matter.  
-- Impact: Package managers across ecosystems can justify breaking changes to drop legacy paths once static manifests and wheel-like formats are ubiquitous.  
-- Watch next: Benchmarked comparisons isolating standards, design choices, and language/runtime effects; pip’s adoption of PubGrub-style resolution and more aggressive wheel-first strategies.
+
+- View: Uv demonstrates that ecosystem standards create performance headroom that implementation discipline can finally capture.
+- Impact: Python users gain faster, reproducible setup while maintainers face pressure to choose compatibility boundaries explicitly.
+- Watch next: Component benchmarks, legacy-package failure rates, cache behavior, and pip’s adoption of parallel metadata paths would test the thesis.

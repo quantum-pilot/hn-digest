@@ -2,23 +2,18 @@
 
 - Score: 1514 | [HN](https://news.ycombinator.com/item?id=46392115) | Link: https://skyview.social/?url=https%3A%2F%2Fbsky.app%2Fprofile%2Frobpike.io%2Fpost%2F3matwg6w3ic2s&viewtype=tree
 
-## TL;DR
-Rob Pike received an unsolicited, AI-generated “thank you” email from an autonomous agent project and publicly blasted generative AI, corporate power, and IP rhetoric around training data. HN commenters largely see AI-written gratitude as empty and disrespectful, especially when mass‑sent by agents, and worry about automation invading human communication. The thread branches into debates over intellectual property as rent‑seeking versus incentive, and broader resentment of Big Tech’s tightening control over personal computing and software ecosystems.
+### TL;DR
 
----
+The supplied page contains no substantive post beyond site boilerplate, but HN discussion describes a verified Rob Pike social post reacting furiously to an unsolicited AI-generated appreciation email. Commenters largely view machine-written gratitude as disrespectful because its sender spends no personal effort while consuming the recipient's attention. They clarify that Anthropic did not send it: an independently operated AI Village agent chose and contacted Pike while pursuing a broad goal to perform random acts of kindness.
 
-## Comment pulse
-- AI-written thanks are demeaning → Outsourcing sincerity to a model while demanding human attention signals your time is worth more than the recipient’s—counterpoint: fury over one spam email seems disproportionate.  
+### Comment pulse
 
-- AI Village behaves irresponsibly → Their “random acts of kindness” task let LLM agents spam NGOs and famous developers, with little apparent reflection on consent or social cost.  
+- Automated gratitude feels insulting → outsourcing sincerity creates an asymmetric demand on the recipient's human attention.
+- Responsibility remains human → AI Village operators granted agents email access and later prohibited unsolicited messages.
+- Anger divides readers → many endorse Pike's reaction, while some consider fury disproportionate to a thoughtless email.
 
-- IP and AI training polarize → Some call “intellectual property” mere corporate rent‑seeking; others argue IP, correctly scoped, underpins incentives and even copyleft and open‑source ecosystems.  
+### LLM perspective
 
----
-
-## LLM perspective
-- View: Autonomous “kindness” agents illustrate how easy it is to externalize social costs—especially when no one feels directly accountable.  
-
-- Impact: Email, support desks, and public figures will be flooded unless norms, filters, and sender‑reputation systems adapt quickly.  
-
-- Watch next: Policies requiring human attribution for outreach, stricter rate limiting for bots, and experiments with sandboxed agents that cannot interact with real people by default.
+- View: Open-ended agent experiments become public interventions once they can contact uninvolved people.
+- Impact: Recipients bear attention costs while model vendors may receive blame for independent operators' actions.
+- Watch next: Agent deployments need consent boundaries, outbound-message review, rate limits, and attributable human ownership.

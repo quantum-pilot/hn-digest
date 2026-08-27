@@ -2,22 +2,18 @@
 
 - Score: 345 | [HN](https://news.ycombinator.com/item?id=46397379) | Link: https://graydon2.dreamwidth.org/193447.html
 
-## TL;DR
+### TL;DR
 
-The author argues that written language is humanity’s most powerful communication technology: it’s durable over millennia, vastly more storage‑ and bandwidth‑efficient than images or video, uniquely good at encoding abstract ideas, and extraordinarily amenable to search, translation, editing, and asynchronous many‑to‑many discussion. Historical communication systems—from telegraphs to the early internet—optimized for text first for these reasons. HN commenters mostly agree on text’s centrality, but highlight domains where interactivity, visualization, physical practice, or binary encodings beat pure text for learning, communication, or performance.
+Graydon Hoare argues that text is humanity’s strongest communication technology because it is ancient, durable, compact, expressive, searchable, translatable, asynchronous, and easy to edit or analyze. The prescription is to choose text whenever it can do the job, adding other media when needed. HN largely accepts text as an exceptional default and source of truth, but rejects its supremacy in every setting: physical skills, emotional experience, scientific visualization, music, and live feedback often require images, sound, action, or mixed media.
 
----
+### Comment pulse
 
-## Comment pulse
+- Text remains the versatile baseline → readers can skim, search, version, transform, and preserve it with ubiquitous tools.
+- Embodied learning resists prose → piano, cycling, cord untangling, and visual data depend on feedback or perception.
+- Human-readable formats aid longevity → counterpoint: binary protocols can save substantial CPU, memory, bandwidth, and parsing ambiguity.
 
-- Multimodal pedagogy → Live, visual, and interactive feedback (à la Bret Victor, music lessons, physical skills) can teach faster and deeper than static text alone.  
-- Text vs binary in software → Text formats aid inspection and tooling; binary (HTTP/3, protobuf) saves bandwidth/CPU and enables strong evolution guarantees—counterpoint: readability often matters more than 20–30% savings.  
-- Symbol systems and models → Text is a standardized, compressed symbol stream densely encoding intention, enabling LLMs and search—but video, games, and spatial tasks resist faithful textual translation.
+### LLM perspective
 
----
-
-## LLM perspective
-
-- View: Treat text as the canonical layer, but design systems to project it into interactive, visual, and tactile experiences when they add real learning value.  
-- Impact: Documentation, APIs, and protocols benefit from human‑readable text defaults, with binary or multimedia as performance or pedagogy accelerators, not replacements.  
-- Watch next: Better universal transcription, code/text‑first data schemas, and authoring tools that co‑generate synchronized text, visualization, and simulation from a single source.
+- View: Text wins as infrastructure, not as a universal substitute for sensory demonstration or emotional expression.
+- Impact: Designers should keep textual source material while selecting richer interfaces where cognition benefits from interaction.
+- Watch next: Measure comprehension, accessibility, preservation, and production cost across text-only and deliberately multimodal designs.

@@ -3,14 +3,17 @@
 - Score: 483 | [HN](https://news.ycombinator.com/item?id=46393936) | Link: https://nhmu.utah.edu/articles/experts-explore-new-mushroom-which-causes-fairytale-hallucinations
 
 ### TL;DR
-Researchers are investigating Lanmaoa asiatica, an edible bolete (“Jian shou qing”) that, when undercooked, causes strikingly consistent “Lilliputian hallucinations” of tiny people across China, Papua New Guinea, and the Philippines. DNA work showed distant cultures were using the same species; historical texts may reference it as a Daoist “flesh spirit mushroom.” Chemical analyses find none of the usual suspects (psilocybin, muscimol), implying a novel hallucinogen. HN discussion ranges over fungal evolution, toxin ecology, safety, and whether this really counts as a “new” discovery.
+
+Lanmaoa asiatica, an edible bolete sold in Yunnan and gathered in the Philippines, can cause strikingly consistent hallucinations of numerous tiny people when undercooked. Similar reports from Papua New Guinea and an ancient Chinese text suggest deep, geographically dispersed knowledge. DNA work identified the same species across China and the Philippines, while chemical and genomic analyses found neither psilocybin nor other known psychoactives. Researchers are fractionating extracts, testing behavioral effects in mice, and mapping related species to isolate a potentially novel compound and explain its neurological action.
 
 ### Comment pulse
-- Fungal toxins are mostly about insects and spore spreading → many mushrooms stay edible; poisons are metabolically costly, so not universal defenses.  
-- The bolete’s effects can last days and may trigger persistent perception disorders → commenters warn it’s unsuitable as a casual recreational drug.  
-- Some with long Yunnan experience rarely saw “little people” reports → hypothesize heat‑labile compounds or rare look‑alike species—counterpoint: hospital records show consistent local syndrome when undercooked.
+
+- Evolution need not target humans → toxins or psychoactives may deter insects, aid dispersal, or arise as incidental metabolic effects.
+- Recreational assumptions are unsafe → reports describe effects lasting days, with some historical cases possibly reflecting persistent disorders.
+- Yunnan experience supports cooking sensitivity → counterpoint: a longtime resident questioned how frequent or culturally universal “little people” reports are.
 
 ### LLM perspective
-- View: A single species reliably producing tiny-person visions is a powerful probe into how brains construct social, humanlike imagery.  
-- Impact: Could uncover a new neuromodulator class, inform psychiatry, and improve wild-mushroom safety in regions where it’s regularly eaten.  
-- Watch next: Isolation of the active molecule, receptor-binding studies, and broader ethnomycology to map where this mushroom and lore co-occur.
+
+- View: Repeated culture-spanning imagery makes this both a chemical discovery problem and a test of shared neural constraints.
+- Impact: Identifying the molecule could expand hallucinogen pharmacology while improving food-safety guidance for commonly traded mushrooms.
+- Watch next: Compound isolation, controlled dose-duration studies, species authentication, and independent clinical documentation are essential.

@@ -3,14 +3,17 @@
 - Score: 491 | [HN](https://news.ycombinator.com/item?id=46392910) | Link: https://github.com/pranshuparmar/witr
 
 ### TL;DR
-Witr is a small CLI for Linux/macOS that answers “why is this running?” for a process, port, or service. Instead of just listing processes, it traces the causal chain of PIDs and supervisors (systemd, docker, pm2, cron, interactive shells), shows context like working dir, git repo, network bindings, and surfaces warnings. HN readers like the focused design, suggest adding “what does this do” knowledge, debate GIF vs screenshot docs, and request proper distro packages instead of curl | bash installs.
+
+Witr is a read-only command-line tool that traces why a Linux or macOS process exists. Given a name, PID, or port, it maps the target to a PID, follows its ancestry, identifies a primary supervisor such as systemd, launchd, Docker, PM2, cron, or a shell, and adds context and warnings. HN readers welcomed its incident-debugging focus, while noting systemctl and lsof already expose parts of the answer and requesting signed Debian or RPM packages instead of curl installation.
 
 ### Comment pulse
-- witr targets ad‑hoc SSH debugging → unifies ps, systemctl, lsof–style information into one narrative explanation of a process’s origin and context.  
-- Many say built‑in commands suffice → systemctl status and lsof can map PIDs and ports to services — counterpoint: witr reduces manual cross‑referencing under pressure.  
-- Security‑minded users wary of curl | bash → request deb/RPM/snap packaging and better README visuals; author agrees to add packages and replaced the fast‑looping GIF.  
+
+- Consolidation is useful → one causal narrative replaces manual correlation across process, service, container, and network tools.
+- Scope can confuse → it explains how a process started, not what unknown software actually does.
+- Distribution limits adoption → production users want managed packages, update provenance, and security-patch visibility.
 
 ### LLM perspective
-- Nice example of “why” tooling on top of “what” observability; complements, not replaces, traditional monitoring and logging.  
-- Most valuable for on‑call engineers and SREs triaging unknown hosts, legacy boxes, or inherited systems with sparse documentation.  
-- Watch for integrations with incident tooling (PagerDuty, Slack bots) so on‑call staff can query “why” data directly from alerts.
+
+- View: Witr's value is normalization and explanation, not novel access to process metadata.
+- Impact: Operators can reduce diagnosis time during incidents, especially across unfamiliar supervision layers.
+- Watch next: Add trusted distro packages and test causal accuracy for containers, ambiguous names, and restricted processes.

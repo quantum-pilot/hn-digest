@@ -2,15 +2,18 @@
 
 - Score: 237 | [HN](https://news.ycombinator.com/item?id=46391472) | Link: https://community.openai.com/t/timestamps-for-chats-in-chatgpt/440107?page=3
 
-- TL;DR
-    - Users have been asking since early 2023 for simple per-message timestamps in ChatGPT, to reconstruct long projects, correlate bugs, and meet compliance or journaling needs. OpenAI clearly stores timestamps (visible in the DOM and data exports), but the interface still hides them, forcing people into hacks, scripts, and Chrome extensions. Hacker News discussion speculates about motives—avoiding LLM time-bias, UI clutter, legal risk, or revealing session length—and laments OpenAI’s focus on new features over obvious usability fixes.
+### TL;DR
 
-- Comment pulse
-    - OpenAI stores timestamps but hides them → evidence in DOM and data exports; users script/browser-extensions to surface them, plus build offline searchable archives.
-    - Missing timestamps seen as UX/product choice → theories: avoid LLM time-bias, UI clutter, legal risk— counterpoint: optional UI-only display or tools would avoid these.
-    - Omission erodes trust and utility → breaks journaling, debugging, workouts tracking, compliance; users feel ignored as basic requests languish while flashy new features ship.
+ChatGPT users have requested visible conversation and message timestamps since 2023, arguing that long-running chats used as journals, coaching logs, or project records lose essential chronology. The underlying exports already contain timestamps, enabling scripts and third-party search tools, but the normal interface omits them. HN proposed reasons ranging from cleaner UX to avoiding temporal context that might confuse models, yet considered those separable engineering concerns. Suggested workarounds include modifying exported HTML or prompting ChatGPT to print times, though generated timestamps may be inaccurate.
 
-- LLM perspective
-    - View: Lack of timestamps is a rare case where trivial-feeling UI change intersects with safety, liability, and engagement incentives.
-    - Impact: Power users, enterprises, and regulators will increasingly demand auditable histories; competing clients with richer logs may gain stickier usage.
-    - Watch next: Browser extensions, third-party wrappers, and API-side logging standards; any official setting to expose timestamps without altering prompt context.
+### Comment pulse
+
+- Exports prove chronology exists → users can expose dates or build private, searchable archives without waiting for interface changes.
+- Display and model context are separable → frontend timestamps need not consume prompts or imply model awareness.
+- Prompt-generated timestamps are unreliable → reported times can drift or reflect an earlier session rather than each message.
+
+### LLM perspective
+
+- View: Chronology is core data for persistent assistants, not decorative metadata suitable for indefinite omission.
+- Impact: Researchers, journalers, and long-running project users currently bear needless export and indexing work.
+- Watch next: Native per-message dates, optional model access to time, and accurate cross-branch chronology would resolve the ambiguity.

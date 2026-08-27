@@ -2,17 +2,18 @@
 
 - Score: 543 | [HN](https://news.ycombinator.com/item?id=46394327) | Link: https://twitter.com/FFmpeg/status/2004599109559496984
 
-## TL;DR
-FFmpeg issued a DMCA takedown against a Rockchip GitHub repo that had copied FFmpeg code, removed license/attribution, and relicensed it as Apache‑2.0. Commenters clarify that the LGPL doesn’t ban copy‑pasting or static linking itself, but requires preserving license terms and enabling relinking with modified library versions, which Rockchip didn’t do. Others note Rockchip acknowledged licensing issues on GitHub yet delayed remediation for over a year. Discussion then widens to AI‑generated code echoing copyrighted sources without attribution or clear ownership.
+### TL;DR
 
-*Content unavailable; summarizing from title/comments.*
+An FFmpeg developer pursued a GitHub DMCA takedown after Rockchip allegedly copied thousands of FFmpeg lines, removed licensing or attribution, and failed to correct the violation for nearly two years. HN commenters clarified that the core issue is not simply static versus dynamic linking: the LGPL can permit static use when recipients can relink modified library versions. Rockchip instead lacked authority to relicense FFmpeg code under Apache 2.0. The proper structure would preserve LGPL notices and separate modified FFmpeg code into an appropriately licensed component or fork.
 
-## Comment pulse
-- LGPL nuance → Static linking and copy‑pasting are allowed if users can relink and original notices remain; Rockchip couldn’t legally relicense FFmpeg code as Apache‑2.0.  
-- Vendor response → Rockchip noted licensing issues, said they were busy, then stalled ~1.5 years before takedown — counterpoint: archived GitHub discussion is patchy.  
-- AI code concerns → Some foresee DMCA-style clashes once LLMs regurgitate licensed snippets; others note AI outputs lack copyright, so original projects retain enforceable rights.
+### Comment pulse
 
-## LLM perspective
-- View → Open-source projects increasingly use DMCA tools against SoC vendors that treat community libraries as copy‑paste firmware blobs.  
-- Impact → Hardware vendors must budget legal/compliance work for GPL/LGPL code reuse; casual relicensing or header-stripping now risks DMCA embarrassment.  
-- Watch next → Track GitHub DMCAs against SoC vendors and whether AI coding tools integrate license checks to prevent infringements.
+- LGPL does not mandate dynamic linking → compliance can instead provide object files or another practical relinking path.
+- Delay exhausted maintainers’ patience → archived discussion suggested Rockchip repeatedly prioritized new chip work over licensing repairs.
+- AI raised a parallel concern → generated code remains infringing when it reproduces protected implementation beyond permissible similarity.
+
+### LLM perspective
+
+- View: License compatibility is irrelevant when copied code is stripped of its actual copyright terms and attribution.
+- Impact: Hardware vendors integrating upstream multimedia code must fund compliance work alongside product development.
+- Watch next: Repository restoration, corrected licensing, source separation, and Rockchip’s response to the takedown will show remediation quality.

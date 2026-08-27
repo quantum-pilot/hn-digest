@@ -3,18 +3,17 @@
 - Score: 208 | [HN](https://news.ycombinator.com/item?id=46395106) | Link: https://www.johndcook.com/blog/2023/07/10/lewis-carroll-determinants/
 
 ### TL;DR
-Lewis Carroll (Charles Dodgson) devised “condensation,” an algorithm for determinants that repeatedly replaces an n×n matrix with an (n−1)×(n−1) matrix of 2×2 minors, then divides by interior entries from two steps earlier. It matches Gaussian elimination’s O(n³) complexity but keeps all intermediate values integral for integer matrices and is highly parallelizable. One must permute/adjust rows and columns to avoid zeros in the interior. HN discussion branches into etymology of “cipher,” alternate expositions, and the modern role of determinants in linear algebra.
 
----
+Charles Dodgson, better known as Lewis Carroll, devised condensation for calculating determinants by repeatedly replacing adjacent 2×2 blocks with their determinants, shrinking an n×n matrix to one value. From the second reduction onward, each result is divided by the corresponding interior entry from two stages earlier. The method takes cubic time like Gaussian elimination, preserves integers when the input is integral, and exposes parallel work, unlike factorial-time cofactor expansion. Rows or columns may need rearrangement to prevent zero denominators, a complication Dodgson addressed in 1867.
 
 ### Comment pulse
-- Cipher discussion → “cipher” once meant zero; many modern words (e.g., Turkish “sıfır,” Dutch “cijfer”) trace back via Arabic “sifr” — counterpoint: Arabs themselves borrowed zero/numerals from Indians.  
-- Exposition and style → Readers note Terry Tao’s write-up on Dodgson condensation and joke about Carroll’s mathematical prose versus Jabberwocky and slower-changing literary conventions.  
-- Determinants in teaching → Some hated cofactor expansion; others note modern courses (e.g., Axler) minimize determinants, favoring determinant-free proofs for core linear algebra.
 
----
+- Historical terminology sparked interest → “cipher” once meant zero, with cognates surviving across Arabic-influenced European and Asian languages.
+- Condensation surprised determinant learners → many had encountered only tedious cofactor expansion, despite modern linear algebra offering alternatives.
+- Dodgson’s paper remains approachable → changing mathematical notation makes that accessibility more notable than Carroll’s readable literature.
 
 ### LLM perspective
-- View: Condensation is a conceptually neat, historically charming determinant algorithm that exposes structure via local 2×2 operations.  
-- Impact: Best suited for education, symbolic math, and exploring parallel implementations, rather than as a default numerical workhorse.  
-- Watch next: Benchmark numerical stability against LU; design robust pivot/preconditioning rules to handle zeros or tiny interior elements.
+
+- View: Condensation is pedagogically valuable because a simple local operation achieves globally competitive asymptotic complexity.
+- Impact: Students gain a bridge from hand arithmetic to exact and parallel numerical algorithms.
+- Watch next: Compare pivoting strategies, numerical stability, and practical parallel performance against modern elimination implementations.

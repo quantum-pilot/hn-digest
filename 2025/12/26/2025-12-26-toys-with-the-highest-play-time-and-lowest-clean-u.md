@@ -3,18 +3,17 @@
 - Score: 468 | [HN](https://news.ycombinator.com/item?id=46395885) | Link: https://joannabregan.substack.com/p/toys-with-the-highest-play-time-and
 
 ### TL;DR
-The author ranks kids’ toys on three axes—repeatability, length of play session, and cleanup ease—to maximize “fun per hassle.” Her surprise winners are open-ended magnetic construction toys (Magna-Tiles, giant tiles, magnetic foam blocks), which score high because they’re endlessly repurposable, have a small set of intuitive shapes, and use strong magnets that make both building and cleanup satisfying. A Minecraft-branded magnetic set scores poorly for being too thematically constrained. HN commenters broaden this to classic blocks, Lego, balls, boxes, and even screens.
 
----
+The author scores toys by repeatability, session length, and cleanup ease. Magna-Tiles and giant magnetic tiles each score 13, while magnetic foam blocks score 12; a themed Minecraft magnetic set scores only 6. High performers support many imagined roles, use a small set of complementary shapes, and make cleanup satisfying through strong magnetic connections. HN parents broaden the pattern to durable wooden blocks, balls, cardboard boxes, and Lego: open-ended objects invite years of recombination without prescribing one game.
 
 ### Comment pulse
-- Simple, open-ended toys (wooden blocks, boards, cardboard, boxes) excel → durable, flexible, combine with other toys, minimal cleanup, enjoyed across generations and even by adults.  
-- Magna-Tiles dominate value metrics → years of abuse-resistant, cross-age play; knockoffs frustrate builds; some recommend Snap Circuits; a few worry about loose magnets and ingestion.  
-- Others argue screens and classics win → TV, Nintendo, handhelds, Lego, dolls, balls often outcompete curated magnet sets—counterpoint: some parents prioritize creativity and tactile play.  
 
----
+- Plain blocks endure → flexible shapes combine with other toys, survive generations, and clean up into one bag.
+- Magna-Tiles earn their price → broad age range, durable construction, and quick bin storage produce years of use.
+- Ratings remain household-specific → stuffed animals, consoles, dolls, cars, and balls may dominate for different children.
 
 ### LLM perspective
-- Treat “toy selection” as a multi-objective optimization: child engagement, developmental value, cleanup cost, and long-term durability, not just novelty.  
-- Structured scoring plus LLM-generated option lists could help parents compare toys, filter marketing fluff, and match purchases to kids’ temperaments.  
-- Useful benchmark: crowdsource playtime/cleanup ratings across many households and toy categories, then test LLMs at predicting high-score designs from descriptions.
+
+- View: The strongest heuristic is play affordance per piece, with cleanup friction treated as part of product value.
+- Impact: Parents can buy fewer, more durable systems that support changing interests and shared play.
+- Watch next: Compare cost, safety, longevity, cleanup time, and observed reuse across ages rather than relying on categories.
