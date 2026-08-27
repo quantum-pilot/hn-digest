@@ -2,15 +2,17 @@
 
 - Score: 244 | [HN](https://news.ycombinator.com/item?id=45481609) | Link: https://retire.test-ipv6.com/
 
-- TL;DR
-  - After 15 years, the creator of test-ipv6.com will retire the site during December 2025 to refocus personal resources. Some components are already open source (falling-sky); geolocation/ISP lookups can’t be released. Mirrors will stop receiving updates, and he’s open to handing the domain to a reputable RIR/NIC. HN responds with gratitude, notes that IPv6 support remains patchy—especially among home ISPs and CPE—and shares routing/MTU pitfalls. IPinfo expresses interest in keeping it alive; some readers sense distress but respect his privacy.
+### TL;DR
 
-- Comment pulse
-  - Gratitude for essential troubleshooting tool → free, reliable IPv6 diagnostics for 15 years helped deployments and support.
-  - IPv6 still uneven → home ISPs lag, routing/MTU bugs push users back to IPv4 — counterpoint: many EU providers enable v6 by default; works fine.
-  - Continuity path suggested → IPinfo offered to adopt site; operator open to RIR/NIC transfer.
+The operator of test-ipv6.com plans to retire the primary service around December 2025 after maintaining it without revenue since 2010. Existing mirrors will stop receiving updates, so organizations relying on the diagnostic site or its RIPE-631 role should revise runbooks. Core source and build components are public, but contractual restrictions prevent releasing some geolocation and provider lookup data. The operator would consider transferring the domain to a reputable public-interest internet organization rather than simply abandoning it.
 
-- LLM perspective
-  - View: Core testing remains needed until v6 parity; loss leaves gap in simple end-to-end checks.
-  - Impact: ISPs/helpdesks must update runbooks; mirrors stale; educators/tools maintainers need replacements.
-  - Watch next: Adoption offers from RIR/NIC/IPinfo; forks of falling-sky; alternate testers’ uptime and feature parity.
+### Comment pulse
+
+- Users thanked the operator and described continuing IPv6 problems involving routing, MTU behavior, and uneven deployment.
+- IPinfo reportedly contacted the operator about helping continue the service.
+
+### LLM perspective
+
+- View: This is maintenance succession, not evidence that IPv6 diagnostics are no longer needed.
+- Impact: Stale mirrors could silently weaken troubleshooting unless dependent organizations replace or maintain the service.
+- Watch next: A credible steward, updated datasets, and explicit migration guidance would preserve its public utility.

@@ -2,15 +2,17 @@
 
 - Score: 133 | [HN](https://news.ycombinator.com/item?id=45483924) | Link: https://fi-le.net/oss/
 
-- TL;DR
-  - By probing GPT‑oss’s embedding norms and “glitch tokens,” the author infers some rare Chinese spam/adult‑gambling phrases appeared in GPT‑5/oss training (membership inference), and observes a Spearman ~0.45 correlation with GitHub hits, hinting at possible sources. They argue tokenizer vocab leaks training traces and can induce odd failures. HN readers push back: embedding weight‑decay assumptions may be wrong; the headline overstates “trained on adult sites”; some translations seem off. Interest in broader LLM reverse‑engineering and bias after RLHF resurfaces.
+### TL;DR
 
-- Comment pulse
-  - Headline overreaches → evidence shows phrases present, not necessarily sourced from adult sites; GitHub blocklists/spam could explain presence.
-  - Low L2 norms → unused tokens via weight decay; commenter: embeddings often exclude decay, maybe init/reserved effects — counterpoint: clustering remains anomalous.
-  - Methodology needs tightening → some translations likely wrong; native review requested; prior work shows data extraction/membership inference is possible under constraints.
+The author analyzes GPT-oss embedding norms to identify unusual “glitch tokens,” then tests whether several OpenAI models can translate or recognize high-norm Chinese strings. Recognition is presented as evidence that some phrases appeared during training; a correlation between model recognition and GitHub search frequency is offered as weaker evidence about possible sourcing. The method cannot identify the originating document, and commenters challenge the stronger claim that adult websites themselves were training sources rather than phrases that also occur elsewhere, including moderation lists or spam repositories.
 
-- LLM perspective
-  - View: Open weights plus shared tokenizer expose measurable training traces via glitch tokens; membership inference is now practical in limited cases.
-  - Impact: Tokenizer design and curation will matter more than ever; expect vocab pruning and per-region token sets to reduce leakage/cost.
-  - Watch next: Replicate with non‑Chinese tokens; compare against Common Crawl and GitHub counts; test embeddings‑decay assumption; benchmark failure modes and DoS loops.
+### Comment pulse
+
+- Commenters questioned the assumed explanation for low embedding norms, including whether weight decay applied to embeddings.
+- The main criticism was that phrase membership does not establish the website or dataset from which it came.
+
+### LLM perspective
+
+- View: Open weights create a useful audit surface, but token behavior supports narrower conclusions than dataset attribution.
+- Impact: Glitch-token probes may reveal membership signals or operational weaknesses without reconstructing a training corpus.
+- Watch next: Controls for tokenizer construction, initialization, duplication, and alternative phrase sources are essential.

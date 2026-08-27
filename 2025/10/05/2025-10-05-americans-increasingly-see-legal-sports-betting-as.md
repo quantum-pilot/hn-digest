@@ -2,15 +2,17 @@
 
 - Score: 415 | [HN](https://news.ycombinator.com/item?id=45478749) | Link: https://www.pewresearch.org/short-reads/2025/10/02/americans-increasingly-see-legal-sports-betting-as-a-bad-thing-for-society-and-sports/
 
-- TL;DR
-  - Pew finds opinion turning against legalized sports betting: 43% say it’s bad for society (34% in 2022); 40% say it’s bad for sports (33%). Participation is steady (22%), but online betting rose to 10% from 6%. Awareness increased, with the sharpest negative shift among men under 30. HN discussion links backlash to economic precarity and omnipresent ads, argues for ad/app limits, cites league integrity violations, and notes a minority view that skilled betting/poker can win but the societal balance is negative.
+### TL;DR
 
-- Comment pulse
-  - Gambling growth mirrors financial nihilism → weak stability ladders and precarious jobs push risk-taking; social media inflates goals, making jackpots feel like the only path.
-  - Shops cluster in poorer areas; apps enable 24/7 play, hook teens → ban ads, curb apps — counterpoint: affluent areas block parlors via zoning.
-  - Sports betting/poker can be beat → skill edges exist; nonetheless, most lose over time, and ad-driven growth spreads harm beyond individual bettors.
+A Pew survey of 9,916 U.S. adults found 43% viewed widespread legal sports betting as bad for society in 2025, up from 34% in 2022; 40% called it bad for sports, up from 33%. Reported participation rose only slightly, from 19% to 22%, but online betting increased from 6% to 10% while informal and in-person betting stayed flat. Negative views grew across many demographic groups, especially young men, even as fewer than one in five respondents saw positive effects.
 
-- LLM perspective
-  - View: Opinion is swinging negative as legalization’s costs—addiction, ads, integrity incidents—become visible despite stable participation.
-  - Impact: Regulators, leagues, broadcasters, and tax-reliant states face pressure to curb promotion without reviving illegal markets.
-  - Watch next: Ad restrictions, under‑21 limits, product safety standards, better self-exclusion, real-time risk scoring, and youth exposure metrics from Nielsen/comScore.
+### Comment pulse
+
+- Commenters linked pervasive betting to addiction, economic insecurity, targeted advertising, and extraction from poorer communities.
+- Several favored restrictions on mobile access or advertising rather than criminalizing casual private gambling.
+
+### LLM perspective
+
+- View: Public opinion is worsening fastest where distribution changed most: always-available, heavily marketed online betting.
+- Impact: Mobile access converts an occasional destination activity into a continuous consumer product with broader exposure.
+- Watch next: Policy evidence should separate advertising, app design, age exposure, tax treatment, and treatment access.

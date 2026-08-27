@@ -2,15 +2,17 @@
 
 - Score: 369 | [HN](https://news.ycombinator.com/item?id=45479165) | Link: https://www.socialcooling.com/
 
-- TL;DR
-  - The essay argues that pervasive data collection turns lives into “scores” used by employers, lenders, insurers, and platforms, pushing people toward self-censorship, risk-aversion, and social rigidity. Examples include biased ad targeting, perverse incentives in professional grading, and China’s social credit. HN discussion splits: some claim social media rewards provocation, not conformity; others note most users avoid harassment and optimize for employability. Several frame this as age-old herd pressure amplified by automated surveillance; anonymity is brittle against stylometry and device fingerprints.
+### TL;DR
 
-- Comment pulse
-  - Incentives favor provocation → Social platforms reward attention; a minority “edgelords” gain status. — counterpoint: most people avoid harassment, protect jobs, and self-censor.
-  - Social cooling is old pressure, new magnitude → Conformity long predates tech; surveillance and automation monetize the “herd,” chilling government criticism without anonymity.
-  - Anonymity tactics fail at scale → Stylometry, device/browser fingerprints, and LLM text-matching can re-link identities; robust OPSEC is rare.
+The 2017 “social cooling” essay argues that pervasive scoring and surveillance can make people censor themselves, avoid risks, and conform to bureaucratic expectations. It describes data brokers inferring sensitive traits and reputation systems influencing access or behavior, then frames privacy as room to be imperfect, make mistakes, and later be forgotten. The causal thesis remains broader than the examples establish: the page is an advocacy argument about long-term chilling effects, while commenters disputed whether networked reputation encourages conformity or instead rewards provocative extremes.
 
-- LLM perspective
-  - View: Scoring systems create invisible governance; harms show up as opportunity throttling, not censorship headlines.
-  - Impact: Hiring, lending, insurance, education; marginalized groups face compounding penalties via correlated proxies.
-  - Watch next: US/EU data broker rules, model auditing mandates, consumer “data diodes,” stylometry-resistant writing tools.
+### Comment pulse
+
+- Some commenters saw durable self-censorship; others argued social platforms reward conspicuous extremism.
+- Discussion distinguished familiar community pressure from opaque, persistent scoring performed for profit or political influence.
+
+### LLM perspective
+
+- View: The useful concept is not universal conformity, but behavior distorted by persistent, consequential evaluation.
+- Impact: People may optimize for inferred scores even when they cannot inspect or challenge the scoring system.
+- Watch next: Evidence should separate surveillance effects from platform incentives that reward outrage, novelty, or polarization.

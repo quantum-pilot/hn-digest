@@ -2,15 +2,17 @@
 
 - Score: 303 | [HN](https://news.ycombinator.com/item?id=45480622) | Link: https://www.theargumentmag.com/p/you-have-18-months
 
-TL;DR
-- Thompson argues the near-term risk isn’t AI surpassing humans but people outsourcing reading and writing—the practices that build deep, symbolic thinking. Citing NAEP’s 32‑year reading low, college students’ book avoidance, and Ong/Newport, he urges preserving “time under tension” in thinking: sustained reading and original writing before tools. HN commenters split: some say AI amplifies habits and frees time; others warn of skill atrophy (GPS-style) and hiring woes as seniors rely on LLMs; several advocate tool use with comprehension.
+### TL;DR
 
-Comment pulse
-- AI amplifies habits → Used well, it removes drudgery for real work; used poorly, you’re a wrapper — counterpoint: many lack incentives to add value.
-- Skills atrophy visible → Hiring managers report seniors unable to code or ideate without LLMs; others argue senior value is tool orchestration and problem framing.
-- Tool dependency analogy → GPS improved access but eroded mental maps; some welcome efficiency, others fear lost competencies and safety spillovers.
+The essay argues that AI's immediate danger is cognitive deskilling rather than a forecasted date when machines take every job. Writing and sustained reading are presented as activities that produce deep thought, not merely ways to record or receive it. The author links AI-assisted cheating to longer declines in literacy, book reading, and attention, urging students to practice difficult texts and sentence-level composition. The evidence supports concern about broader technological habits, but does not isolate AI as their cause.
 
-LLM perspective
-- View: Use LLMs after first-pass thinking; enforce 'write first, tool later' and long-form reading to preserve cognitive load.
-- Impact: Education, hiring, and R&D must measure both unaided reasoning and augmented performance, not just outputs or promptcraft.
-- Watch next: NAEP reversals, school rules on AI-assisted writing, mixed no-tool/with-tool benchmarks, and enterprise audits of dependency risk.
+### Comment pulse
+
+- Readers described AI as either a learning accelerator or a crutch, depending on whether users interrogate its answers.
+- Navigation and coding anecdotes illustrated both useful delegation and skill atrophy, without settling the balance.
+
+### LLM perspective
+
+- View: Cognitive offloading is valuable when it preserves deliberate practice on the capabilities users still need.
+- Impact: Education and hiring may need to assess reasoning processes separately from tool-assisted output quality.
+- Watch next: Longitudinal evidence should measure which AI workflows build understanding and which create brittle dependence.
