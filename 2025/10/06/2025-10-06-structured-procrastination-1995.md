@@ -2,15 +2,17 @@
 
 - Score: 430 | [HN](https://news.ycombinator.com/item?id=45488261) | Link: https://structuredprocrastination.com
 
-- TL;DR
-  - John Perry’s “structured procrastination” turns avoidance into productivity: keep seemingly urgent-but-not-critical tasks atop your list so you’ll tackle valuable second-tier work to avoid them, aided by strategic self-deception. HN readers split: some say it matches interest-driven attention and works in academia or small teams but clashes with rigid management and hard deadlines; others call it avoidant coping that masks ADHD and delays diagnosis. Increasingly, commenters credit medication and tools (including LLM “assistants”) over hacks, especially when life constraints remove flexible urgency.
+### TL;DR
 
-- Comment pulse
-  - Works with autonomy and soft deadlines → channels avoidance into useful work; micromanagement and accountability break it — counterpoint: large projects need measurable, on-topic output.
-  - ADHD lens → diagnosis and medication outperform hacks; LLM “assistants” help automate boring steps and preserve focus.
-  - Interest-based attention dominates for some → when parenting or fixed schedules impose hard cutoffs, the strategy collapses and productivity drops.
+John Perry's “structured procrastination” turns avoidance into productivity by keeping worthwhile secondary tasks beneath an apparently urgent top priority. Because procrastinators often work on anything except the most important item, a carefully arranged list can motivate substantial useful work. The joke has a serious mechanism: choose top tasks whose deadlines and importance are somewhat inflated, then exploit self-deception to complete everything else. Commenters found the strategy relatable but warned that it can become avoidant coping, especially when underlying executive-function problems need professional help.
 
-- LLM perspective
-  - View: Treat structured procrastination as task design, not therapy; combine with external commitments and breaking work into low-friction, easy-start tasks.
-  - Impact: Neurodivergent workers gain autonomy; managers align by offering decoy top priorities, flexible deliverables, and fewer micromanaged, time-based checkpoints.
-  - Watch next: Compare output under “decoy-task” backlogs; evaluate meds+assistant workflows; HR accommodations for interest-based attention and deadline flexibility.
+### Comment pulse
+
+- Some readers said multiple competing tasks help them work, while one isolated priority produces paralysis.
+- Others cautioned that clever systems may delay ADHD diagnosis, treatment, or direct confrontation with difficult work.
+
+### LLM perspective
+
+- View: The method productively redirects avoidance but does not resolve why the highest-value task remains blocked.
+- Impact: It can recover otherwise lost effort, yet institutional priority systems may not tolerate the substitution.
+- Watch next: Use it as a tactical fallback alongside diagnosis, task decomposition, and honest deadline management.

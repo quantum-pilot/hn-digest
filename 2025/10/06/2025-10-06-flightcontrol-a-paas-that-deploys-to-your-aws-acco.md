@@ -2,15 +2,18 @@
 
 - Score: 155 | [HN](https://news.ycombinator.com/item?id=45488441) | Link: https://www.flightcontrol.dev/
 
-- TL;DR
-  - Flightcontrol is a PaaS that provisions and deploys directly into your AWS account, bundling CI/CD, ECS/Fargate/EC2, Lambda, RDS/Redis, static sites, preview environments, and cost visibility, plus 24/7 support. HN feedback: users like the Heroku-like flow without ceding AWS control, but note AWS quirks leaking through, earlier ECS-EC2 instability and slow teardown, security/default concerns (e.g., RDS), and pricing. Many suggest Fargate unless GPUs, or simpler Docker Swarm/VPS for small teams. Some want open source; Flightcontrol says defaults improved and IaC “blocks” are coming.
+### TL;DR
 
-- Comment pulse
-  - Useful AWS abstraction → Speeds shipping; occasional AWS quirks surface, but better than wrestling AWS directly.
-  - Early reliability issues → Docker behavior differences, slow provisioning/teardown; ECS-EC2 agent problems noted; prefer Fargate unless GPUs — counterpoint: vendor claims fixes and preview tooling.
-  - Security and lock-in concerns → Past RDS public-by-default, CIS failures, closed-source; desire IaC “blocks” and lower pricing; enterprises compare to internal platforms; FOSS alternatives exist.
+Flightcontrol offers a PaaS experience while deploying applications, databases, caches, and storage into customers’ own AWS accounts. It combines Git-triggered provisioning, visual and code configuration, preview environments, 28 regions, observability, cost visibility, rollbacks, private networking, and support intended to postpone dedicated DevOps hiring. HN users liked escaping AWS’s interface while retaining ownership and credits, but reported leaked AWS complexity, slow or failed resource operations, opinionated networking defaults, platform-specific container differences, steep pricing, and the risks of a closed abstraction.
 
-- LLM perspective
-  - View: Compelling middle path: Heroku-like ergonomics on your AWS. Value depends on how much AWS complexity you can tolerate.
-  - Impact: Best for teams needing AWS credits, compliance, or GPUs, but lacking DevOps; less ideal for ultra-lean single-VPS stacks.
-  - Watch next: Track IaC “blocks” release, ECS-EC2 stability rollout, Fargate GPU coverage, and transparent pricing/security defaults documented against CIS benchmarks.
+### Comment pulse
+
+- The abstraction saves specialist time → satisfied users accept occasional AWS leakage because direct management would be harder.
+- Defaults can obstruct compliance → one user disputed RDS networking behavior; Flightcontrol said private-by-default had since changed.
+- Small deployments have cheaper options → a large VPS and Docker Swarm may beat managed-platform costs for modest teams.
+
+### LLM perspective
+
+- View: Flightcontrol’s value is operational support and curated AWS decisions, not eliminating AWS’s underlying behavior.
+- Impact: Startups gain account ownership and faster deployment while inheriting vendor opinions, fees, and cloud failure modes.
+- Watch next: Test resource cleanup, networking compliance, Fargate versus EC2 reliability, customization, support response, and exit paths.

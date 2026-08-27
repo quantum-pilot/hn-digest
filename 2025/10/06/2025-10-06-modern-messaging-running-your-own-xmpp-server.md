@@ -2,15 +2,18 @@
 
 - Score: 208 | [HN](https://news.ycombinator.com/item?id=45490439) | Link: https://www.codedge.de/posts/modern-messaging-running-your-own-xmpp-server
 
-- TL;DR
-  - A practical guide to self-hosting XMPP with ejabberd on Debian/RPi: set up subdomains and ports, TLS via ejabberd behind nginx, OMEMO and s2s STARTTLS, SQLite, MUC/file uploads with cleanup, captcha-gated registration, and WebSocket discovery files; Ansible roles included. The setup favors privacy-first defaults amid EU “chat control” proposals. HN reaction: servers are straightforward, but iOS clients lag (notifications, reactions) while Android’s Conversations shines; Prosody wins on simplicity; Matrix feels more modern yet can be flaky; some suggest Delta Chat.
+### TL;DR
 
-- Comment pulse
-  - XMPP on iOS feels half-baked → unreliable notifications, no reactions, confusing group E2EE; Android’s Conversations is solid — counterpoint: Matrix UX is richer but flaky.
-  - Prosody vs ejabberd → Prosody praised for quick setup and extensions; ejabberd robust but intimidating; notification reliability blamed on clients, especially iOS.
-  - Decentralization tradeoffs → People miss Google/Facebook XMPP federation; looming EU scanning could push DIY servers or apathy; some suggest email-based Delta Chat.
+Motivated by opposition to proposed EU message scanning, the author documents a privacy-focused ejabberd XMPP deployment for Debian or Raspberry Pi OS. The setup covers DNS, ports, SQLite, TLS, access rules, uploads with weekly deletion, captcha-protected registration, WebSockets, STUN/TURN, nginx, OMEMO-capable clients, and reusable Ansible roles. HN agreed self-hosting remains technically viable but emphasized weak iOS and macOS client experiences, missing reactions, unreliable notifications, and encryption problems. Android clients fared better, while some preferred Matrix or Delta Chat despite their own tradeoffs.
 
-- LLM perspective
-  - View: Server-side is mature and cheap; the bottleneck is cohesive XEP adoption and polished iOS clients with reliable push.
-  - Impact: Helps small communities, family groups, and orgs regain control; enterprise use hinges on compliance tooling and predictable mobile UX.
-  - Watch next: OMEMO v2 interop tests, Monal/Siskin releases and APNS stability, EU chat-control votes, bridges to Matrix and Delta Chat.
+### Comment pulse
+
+- Server maturity is not enough → family adoption fails when mobile clients lack reliable notifications, polish, reactions, or understandable encryption behavior.
+- Federation once connected major platforms → readers remembered using generic XMPP clients with Google, Facebook, AIM, and private servers.
+- Alternatives trade complexity differently → Matrix offers modern clients but drew reliability criticism; Delta Chat builds messaging atop email infrastructure.
+
+### LLM perspective
+
+- View: Decentralized messaging succeeds or fails at the client layer after server administration is solved.
+- Impact: Technical operators can reclaim infrastructure, but their contacts absorb usability and support costs.
+- Watch next: Validate push delivery, group encryption, client interoperability, backups, abuse controls, calling, and long-term maintenance.

@@ -2,15 +2,18 @@
 
 - Score: 154 | [HN](https://news.ycombinator.com/item?id=45492410) | Link: https://pluralistic.net/2025/10/06/rogue-capitalism/#orphaned-syrian-refugees-need-not-apply
 
-- TL;DR
-    - Cory Doctorow argues Apple pulled ICEBlock—a legal, crowdsourced ICE‑tracking app—after a political demand without court order, illustrating “feudal security”: App Store gatekeeping enabling censorship and rent extraction; he notes Google’s similar tightening. HN discussed PWA workarounds hitting push/privacy limits, accountability (firms vs. government power), user exits from walled gardens, and precedent from Waze’s police‑location feature where Google resisted pressure. Many conclude the durable fix is less chokepoint control and a more open web.
+### TL;DR
 
-- Comment pulse
-    - PWA parity can bypass app stores → fails here because alerts used Apple push/iCloud to avoid user databases; web push plus privacy goals conflict.
-    - Debate over accountability → Some fault firms; others push to limit state power; dispute centers on extra‑legal pressure — counterpoint: voluntary compliance still normalizes censorship.
-    - Users plan exits from walled gardens → experimentation with hardened Android and mobile Linux; non‑technical users face dwindling options as sideloading restrictions expand.
+Cory Doctorow condemns Apple and Google for removing ICEBlock, an app reporting nearby immigration-enforcement activity, after pressure from US Attorney General Pam Bondi. He argues no court order established illegality and uses the episode to attack “feudal security”: centralized app-store control protects users until platform owners deploy it against them. The supplied piece is polemical and makes broader, contested claims about immigration enforcement and corporate surveillance. HN debated corporate responsibility under political pressure, app-store bypasses, safety risks, and progressive-web-app limitations.
 
-- LLM perspective
-    - View: Prefer architectures minimizing platform choke points: web apps, push providers you control, and peer-to-peer or federated event distribution.
-    - Impact: Developers rework notifications for anonymity; users press for sideloading/notarization; regulators export DMA-style browser and app store interoperability.
-    - Watch next: iOS Web Push parity, alt app-store viability, Google's sideloading changes, and court challenges to viewpoint-driven takedowns.
+### Comment pulse
+
+- Closed distribution concentrates political power → users cannot reinstall removed iPhone software outside Apple’s permitted channels.
+- Government and corporate responsibility divided readers → some blamed coercive state power; others said Apple capitulated without demonstrated legal authority.
+- Web parity offers partial resilience → ICEBlock reportedly used iCloud notifications specifically to avoid retaining users’ locations and device records.
+
+### LLM perspective
+
+- View: Security control and censorship capability are inseparable when one gatekeeper exclusively authorizes software.
+- Impact: Developers of politically sensitive tools must weigh native privacy features against unilateral distribution risk.
+- Watch next: Seek legal documentation, developer appeals, platform explanations, web alternatives, and app-market interoperability enforcement.

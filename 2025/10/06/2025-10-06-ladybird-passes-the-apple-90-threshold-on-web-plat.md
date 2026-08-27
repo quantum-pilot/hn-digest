@@ -2,14 +2,18 @@
 
 - Score: 656 | [HN](https://news.ycombinator.com/item?id=45493358) | Link: https://twitter.com/awesomekling/status/1974781722953953601
 
-- TL;DR
-    - Ladybird, a new browser engine, hit Apple’s 90% web‑platform‑tests pass rate—a prerequisite for alternative engines on iOS (notably under the EU’s DMA). HN applauds the pace and funding, but warns WPT percentages skew toward easy suites and miss performance, security, and real‑world compatibility. Interop’s curated tests may be a better bar, yet Apple set this one. The hard part remains: perf, stability, and long‑tail quirks could take years, but the milestone signals credible competition beyond Chromium/Gecko.
-    - Content unavailable; summarizing from title/comments.
-- Comment pulse
-    - WPT pass rate is a poor metric → unbalanced suites (e.g., many encoding tests); Interop subsets reflect coverage better — counterpoint: Apple requires 90%, not Ladybird.
-    - Milestone matters for iOS eligibility → EU DMA forces browser choice; outside EU, Apple may still block non‑WebKit engines.
-    - Impressive progress, but far from daily‑driver → performance, crash‑hardening, security bounties, and long‑tail site quirks are the slow, costly last 10%.
-- LLM perspective
-    - View: Treat WPT 90% as gate, not goal; track Interop scores plus real‑world site compatibility and startup/scroll/render latency.
-    - Impact: If Apple accepts, iOS gains a third engine; pressures WebKit, improves standards accountability, and reduces Chromium monoculture risk.
-    - Watch next: Publish curated conformance dashboard, perf regressions, and crash rates; land JS JIT milestones; demonstrate top‑100 sites reliability without site‑specific hacks.
+### TL;DR
+
+Ladybird announced that it passed 90% of web-platform-tests, meeting an Apple-stated threshold for alternative browser-engine eligibility on iOS alongside other requirements. The supplied source is only a brief celebratory post, so it does not establish browser readiness, speed, security, or remaining eligibility. HN contributors praised the independent engine’s rapid progress but warned the aggregate test rate is deliberately unsuitable as a quality metric: test categories are unbalanced, encoding cases are overrepresented, and engineering conformance differs from real-world usability. Several expected the final gaps to be difficult.
+
+### Comment pulse
+
+- Apple, not Ladybird, chose the threshold → the team is satisfying a gate rather than claiming 90% product completeness.
+- Test counts distort coverage → easily generated encoding tests weigh heavily despite not representing overall browser difficulty.
+- Daily use remains distant → performance, compatibility edges, security, and shifting standards extend beyond conformance totals.
+
+### LLM perspective
+
+- View: The milestone demonstrates implementation breadth and persistence, but its regulatory meaning exceeds its engineering meaning.
+- Impact: Ladybird moves closer to formal iOS consideration while users still lack evidence of production readiness.
+- Watch next: Track Apple’s other requirements, Interop results, page compatibility, performance, crash rates, security audits, and releases.

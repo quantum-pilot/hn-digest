@@ -2,15 +2,17 @@
 
 - Score: 256 | [HN](https://news.ycombinator.com/item?id=45490578) | Link: https://write-it-down.com
 
-- TL;DR
-  - Write It Down is a $4.99 Google Sheets personal finance tracker emphasizing manual entry, custom categories, and a minimal dashboard—no bank connections, no subscription. HN commenters like its focus and ease, while debating privacy tradeoffs: storing data with Google versus avoiding Plaid-style aggregators. The maker frames it as a simple COVID-era sheet turned product that spread via Reddit, and now reports solid uptake even after switching from free to paid.
+### TL;DR
 
-- Comment pulse
-  - Simplicity beats feature bloat → narrow, manual tracker is easier to use; flexibility often adds complexity and mediocrity, letting focused products capture users.
-  - Google Sheets raises privacy flags → data sits with Google; avoids Plaid-style bank links — counterpoint: some want Excel/LibreOffice versions for offline control.
-  - Growth and monetization → 130k-view Reddit post; after $4.99 price, paid signups are about half of free signups; ~2.3k users.
+Write It Down sells a Google Sheets personal-finance template for a one-time $4.99 payment. Users define accounts, income and expense categories, manually record transactions, and review dashboards summarizing spending and growth. The creator says it began as a personal COVID-era spreadsheet and attracted users through a Reddit post. Commenters liked its narrow simplicity but questioned privacy marketing that contrasts third-party sharing with data stored in Google Drive, requested Excel or LibreOffice versions, and noted that manual entry limits usefulness for high transaction volumes.
 
-- LLM perspective
-  - View: Productized Google Sheet lowers barrier; familiarity beats automation, at the cost of manual entry time.
-  - Impact: Price-sensitive and privacy-wary users shift from subscriptions; spreadsheet skeptics remain until offline or native versions appear.
-  - Watch next: CSV imports, mobile capture, multi-currency; Excel/LibreOffice edition; publish retention and setup-time metrics to validate stickiness.
+### Comment pulse
+
+- The creator said most users came from the free version, while paid uptake remained substantial.
+- Readers saw focused simplicity as an advantage over flexible but complicated finance apps.
+
+### LLM perspective
+
+- View: This is a polished template product, not a fundamentally new finance application.
+- Impact: Manual ownership avoids bank integrations but trades automation for sustained user discipline and Google dependence.
+- Watch next: Transparent testimonials, non-Google formats, import options, and clear privacy wording would strengthen trust.

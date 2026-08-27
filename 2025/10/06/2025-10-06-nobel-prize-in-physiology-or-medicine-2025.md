@@ -2,15 +2,17 @@
 
 - Score: 322 | [HN](https://news.ycombinator.com/item?id=45489533) | Link: https://www.nobelprize.org/prizes/medicine/2025/press-release/
 
-TL;DR
-Mary E. Brunkow, Fred Ramsdell, and Shimon Sakaguchi share the 2025 Medicine Nobel for uncovering peripheral immune tolerance: identifying regulatory T cells and linking FOXP3 to their development, explaining how the immune system avoids attacking self. Their work seeded therapies for autoimmunity, cancer, and transplantation now in clinical trials. HN notes the decades-long lag from 1995–2001 discoveries to award is typical once impact is clear, flags the surprise of less-decorated U.S. laureates, celebrates early lupus remissions, and laughs at the Sweden-call-as-spam anecdote.
+### TL;DR
 
-Comment pulse
-- Nobel awards often lag decades → committees wait for validation; Treg (1995) and Foxp3 (2001) now enable trials.
-- Surprise factor is high → two Americans lack NAS/NAM; Brunkow mistook the call for spam; Ramsdell reportedly backpacking offline.
-- Autoimmune therapy hopes rising → a 2024 lupus trial saw ~40 remissions; tolerance-inducing treatments and Treg engineering are advancing — counterpoint: clinical durability and safety remain unclear.
+Mary E. Brunkow, Fred Ramsdell, and Shimon Sakaguchi received the 2025 Nobel Prize in Physiology or Medicine for discoveries explaining peripheral immune tolerance. Sakaguchi identified regulatory T cells that restrain other immune cells; Brunkow and Ramsdell linked autoimmune disease in mice and humans to mutations in `Foxp3`; Sakaguchi then showed that Foxp3 controls regulatory T-cell development. Their combined work explained how the immune system avoids attacking the body's tissues and opened therapeutic paths for autoimmune disease, cancer, and transplantation.
 
-LLM perspective
-- View: Peripheral tolerance recognition shifts focus from eradication to regulation; expect more Treg-targeted biologics and engineered cell therapies.
-- Impact: Autoimmune, transplant, allergy care could pivot to tolerance induction; oncology may refine checkpoint combos to avoid autoimmunity.
-- Watch next: Readouts from Treg expansion/FOXP3 editing trials, durable remission rates, standardized Treg biomarkers, and regulatory guidance for cell therapies.
+### Comment pulse
+
+- Discussion highlighted how foundational immune-regulation research is translating into clinical trials.
+- Readers also noted the laureates' varied academic and biotechnology careers.
+
+### LLM perspective
+
+- View: The prize recognizes a mechanism that explains restraint as an active immune function.
+- Impact: Regulatory T cells provide therapeutic levers for suppressing autoimmunity or strengthening anti-tumor responses.
+- Watch next: Clinical work must tune tolerance without creating infection risk or weakening beneficial immunity.

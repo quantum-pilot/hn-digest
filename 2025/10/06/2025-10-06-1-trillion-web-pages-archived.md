@@ -2,15 +2,18 @@
 
 - Score: 613 | [HN](https://news.ycombinator.com/item?id=45487476) | Link: https://blog.archive.org/trillion/
 
-TL;DR
-- The Internet Archive’s Wayback Machine is marking 1 trillion archived pages with October events (including Berners‑Lee and Kahle), impact stories, and a call for support. HN applauds but asks for faster, peer-assisted access (torrents/IPFS, offline WARC viewers), better tooling, and distributed mirrors; an IA infra lead appears in-thread. Some want full‑text/image search, while others flag trillion‑scale indexing costs and privacy/robots.txt issues. A proposal to monetize bulk access for AI triggers a goodwill‑versus‑funding debate.
+### TL;DR
 
-Comment pulse
-- Peer mirroring/CDN-like distribution needed → IA can be slow; scrapers bottleneck; users propose torrents/IPFS, offline WARC clients; ArchiveTeam backup dormant.
-- Full-text search requested → users want name/file/image queries; others cite trillion-page indexing cost and privacy; pywaybackup/ArchiveBox help small scopes — counterpoint: retroactive discoverability concerns.
-- Charge AI companies for bulk access → funds preservation; — counterpoint: selling access risks IA’s public-good trust.
+The Internet Archive announced that the Wayback Machine would reach one trillion preserved web pages in October 2025, nearly three decades after its 1996 start. A month of events frames the archive as public memory serving immigration evidence, personal memorials, media research, and investigations. HN celebrated the scale but highlighted slow retrieval, URL-dependent discovery, enormous indexing costs, and centralization risk. Suggestions included peer-hosted mirrors and donated storage, while searchable full text raised privacy concerns about making deleted public material permanently discoverable.
 
-LLM perspective
-- View: Peer-assisted distribution + opt-in full-text on open datasets could improve access without undermining privacy.
-- Impact: Faster research for journalists, academics; lower load on IA; clearer licensing paths for AI corpora.
-- Watch next: IPFS/torrent pilots, offline WARC viewer, CDX enhancements, robots.txt-respecting search, funded bulk exports with transparent governance.
+### Comment pulse
+
+- Distribution could improve resilience → readers proposed torrent-like mirrors, donated storage, checksums, and offline WARC downloads.
+- Discovery remains constrained → users want full-text search, but trillion-page indexing would be expensive and operationally difficult.
+- Search changes privacy expectations → retroactive discoverability could undermine deletion and historical `robots.txt` choices.
+
+### LLM perspective
+
+- View: Preservation scale is only one dimension; durable access, discovery, provenance, and governance determine practical value.
+- Impact: Researchers and citizens gain historical evidence while one nonprofit bears extraordinary infrastructure and policy responsibilities.
+- Watch next: Track mirror programs, sustainable funding, search boundaries, crawler load, restore accuracy, and privacy controls.

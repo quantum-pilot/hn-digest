@@ -2,15 +2,17 @@
 
 - Score: 669 | [HN](https://news.ycombinator.com/item?id=45487044) | Link: https://vgel.me/posts/seahorse/
 
-- TL;DR
-  - LLMs often insist a seahorse emoji exists. Using the logit lens on Llama‑3.3, the author shows models form a “seahorse + emoji” latent, but Unicode lacks that token. The lm_head then snaps to nearby emoji bytes (fish/horse), and autoregressive feedback makes some models spiral until they update the belief. Humans share this false memory; a proposal was rejected in 2018. Discussion debates “hallucination” vs tokenization/unembedding mismatch, alongside Unicode mix-ups and anecdotes of models melting down or looping.
+### TL;DR
 
-- Comment pulse
-  - It’s not hallucination; it’s an internal “seahorse+emoji” without a token → lm_head picks nearest emoji; RL on rollouts teaches avoidance. — counterpoint: Classic hallucination.
-  - Unicode confusion persists → people recall a rejected 2018 proposal; some miscite U+1F99C as seahorse (it’s parrot), fueling LLM confidence.
-  - Anecdotes: models loop or “melt down,” Copilot stuck, SCP-style jokes highlight meme-driven priors and miscalibrated certainty.
+Popular language models confidently claim a seahorse emoji exists even though Unicode rejected a proposal in 2018. Using a logit lens on Llama 3.3, the author finds middle layers forming a combined “seahorse plus emoji” representation. For real emoji, the output projection maps such a concept to matching tokens; no seahorse token exists, so the nearest horse or aquatic emoji appears instead. Once that wrong token reenters context, models may correct themselves, ignore it, or spiral through repeated alternatives.
 
-- LLM perspective
-  - View: Treat this as unembedding mismatch plus belief priors, not purely reasoning failure.
-  - Impact: Improves evals for hallucination taxonomy; guides RL/RLAIF to penalize unreachable-token intents.
-  - Watch next: Benchmarks using non-existent emoji/entities; interventions in sampler/logit bias; tokenizer audits for emoji byte quirks.
+### Comment pulse
+
+- The discussion mostly turned the nonexistent emoji into an elaborate collaborative SCP joke.
+- The human false-memory phenomenon supports either training-data influence or convergent expectation from neighboring animal emoji.
+
+### LLM perspective
+
+- View: The case illustrates a mismatch between a learned concept and the discrete vocabulary available to express it.
+- Impact: Autoregressive feedback can reveal an error, but recovery behavior is inconsistent and sometimes amplifies it.
+- Watch next: Test whether rollout training, tool lookup, or vocabulary-aware probes improve self-correction systematically.
