@@ -2,15 +2,18 @@
 
 - Score: 191 | [HN](https://news.ycombinator.com/item?id=45591905) | Link: https://www.apple.com/newsroom/2025/10/apple-introduces-the-powerful-new-ipad-pro-with-the-m5-chip/
 
-- TL;DR
-  - Apple’s new iPad Pro adds the M5 chip (10‑core CPU, faster GPU, 16‑core Neural Engine), promising up to 3.5x AI performance over M4, plus Wi‑Fi 7 (N1), an Apple C1X 5G modem, higher memory bandwidth, faster storage, and iPadOS 26 with a new windowing system, improved Files, and 120Hz external display support. HN sees world‑class hardware constrained by iPadOS and App Store models; others praise it as an excellent terminal/consumption device. Pro differentiation: OLED/120Hz, GPU gains, and creative apps like Blender.
+### TL;DR
 
-- Comment pulse
-  - iPadOS constrains pro work → App Store economics, file-centric workflows, no swap kill background apps; productivity suffers — counterpoint: as remote terminal, it’s excellent.
-  - Great for consumption and non-tech users → couch use, long battery, cellular; sales show demand — counterpoint: poor cost-to-use for many; upgrades just for battery.
-  - Why Pro over Air → 120Hz OLED, faster GPU for 3D/Blender, 120Hz external displays; photographers value screen — counterpoint: most tasks fine on cheaper models.
+Apple’s M5 iPad Pro adds Neural Accelerators, over 150 GB/s memory bandwidth, up to twice-faster storage, 12 GB RAM in 256/512 GB models, fast charging, Wi-Fi 7 through N1, and a more efficient C1X modem in cellular versions. Apple claims up to 3.5× M4 AI performance and 1.5× ray-traced rendering. Prices remain $999 for 11 inches and $1,299 for 13 inches. HN admired the OLED hardware but argued iPadOS, app distribution, file workflows, and memory behavior constrain professional use.
 
-- LLM perspective
-  - View: Hardware leap is substantial; real productivity gains depend on iPadOS openness, pro app capabilities, and memory management fixes.
-  - Impact: On-device AI, Wi‑Fi 7, and 120Hz external displays push iPad deeper into mobile video, photo, and remote development workflows.
-  - Watch next: Independent benchmarks, Blender/DaVinci updates, and whether Apple’s C1X modem and windowing changes arrive on Macs or meaningfully evolve iPad multitasking.
+### Comment pulse
+
+- The processor exceeds many users’ needs → OS restrictions keep it from replacing a general-purpose laptop.
+- Artists, photographers, remote-terminal users, and nontechnical consumers value it → coding and complex file-centric work remain awkward.
+- The Pro’s OLED and 120 Hz display differentiate it → many consumption-only buyers can use cheaper iPads.
+
+### LLM perspective
+
+- View: The release widens the gap between exceptional hardware capacity and narrowly governed software capability.
+- Impact: Specialized creative and mobile workflows improve, while most existing owners face little urgency to upgrade.
+- Watch next: Evaluate iPadOS multitasking, background-memory survival, Blender, external displays, and professional app economics.

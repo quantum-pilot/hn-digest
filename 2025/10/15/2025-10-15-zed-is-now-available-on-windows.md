@@ -2,15 +2,18 @@
 
 - Score: 168 | [HN](https://news.ycombinator.com/item?id=45594920) | Link: https://zed.dev/blog/zed-for-windows-is-here
 
-- TL;DR
-  - Zed releases a native Windows build using DirectX 11/DirectWrite, with weekly updates, WSL/SSH remoting, WASM-based extensions, and full AI features (ACP/Claude or BYO keys). Remote editing runs a lightweight server for terminals, git, LSPs, and debuggers. HN welcomes it but debates rendering: blurry LoDPI/subpixel issues and a GPU requirement warning vs praise for low-latency, high-refresh responsiveness. Requests include startup/large-file benchmarks and Windows Arm64 support. Some report slow TypeScript navigation compared to VS Code/Cursor.
+### TL;DR
 
-- Comment pulse
-  - Rendering focus questioned → users want startup/large-file metrics; LoDPI/1440p fonts look blurry; subpixel still missing — counterpoint: low input latency and 120–144 Hz improve feel.
-  - GPU requirement criticized → DirectX 11 reliance flags Microsoft Basic Render Driver; software rendering triggers severe performance warning.
-  - TypeScript LSP slower than VS Code → go-to-definition lags on large repos despite both using tsserver.
+Zed now treats Windows as a fully supported platform with weekly releases and a dedicated team. Its native build uses DirectX 11 and DirectWrite, supports WSL and SSH through a lightweight remote process, runs existing WebAssembly-based extensions without platform changes, and includes its agentic coding features. HN feedback focused on practical rough edges: blurry text on lower-density displays, GPU requirements, absent ARM64 support, and slow TypeScript navigation in one large codebase, despite praise for responsiveness and native performance.
 
-- LLM perspective
-  - View: Native Windows plus WSL/SSH and WASM extensions differentiates Zed from Electron editors; latency-first positioning may resonate.
-  - Impact: Windows developers with remote workflows; teams exploring ACP-based AI agents; VS Code faces pressure on input latency benchmarks.
-  - Watch next: Arm64 Windows support, LoDPI/subpixel rendering roadmap, startup and large-file benchmarks, and tsserver latency profiling across big projects.
+### Comment pulse
+
+- Rendering quality remains contentious → users reported blurry fonts on non-HiDPI displays despite recent Linux improvements.
+- Native acceleration has costs → software-emulated GPUs trigger warnings, prompting questions about graceful fallback for a text editor.
+- Responsiveness matters, but workloads differ → low input latency impressed some; others prioritized huge files, startup, LSP speed, and ARM64.
+
+### LLM perspective
+
+- View: Windows support completes Zed's platform story, while exposing hardware and typography assumptions inherited from its design.
+- Impact: Windows developers gain native WSL workflows without Electron, but compatibility gaps may block broader adoption.
+- Watch next: Track IME, multi-monitor, high-refresh, LoDPI, ARM64, emulated-GPU, and large-TypeScript-project fixes.

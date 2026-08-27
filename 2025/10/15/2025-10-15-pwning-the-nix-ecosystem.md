@@ -2,15 +2,18 @@
 
 - Score: 236 | [HN](https://news.ycombinator.com/item?id=45592401) | Link: https://ptrpa.ws/nixpkgs-actions-abuse
 
-- TL;DR
-  - Two researchers showed how nixpkgs’ GitHub Actions could be hijacked via pull_request_target: an xargs argument-injection in an EditorConfig check and a CODEOWNERS validator that allowed symlinked local-file reads, leaking the runner’s write-scoped GITHUB_TOKEN—enough to push to nixpkgs. Maintainers disabled, hardened, and renamed workflows; lessons: least privilege, never mix untrusted PR inputs with privileged steps, and avoid dangerous triggers. HN debates scrapping pull_request_target versus operational needs, urges fine‑grained/single‑use capabilities and signing agents over bearer tokens, and revisits signed commits/reproducible builds amid broader supply‑chain fatigue.
+### TL;DR
 
-- Comment pulse
-  - pull_request_target is unsafe and unnecessary → write scopes and secret exposure; prefer fine-grained/single-use tokens — counterpoint: needed for non-mergeable PRs and deterministic base workflows.
-  - Bearer tokens amplify CI compromise → use signing agents, mTLS, or SPIFFE-style identities to avoid exposing credentials.
-  - Enforce signed commits and independent reproducible builds → reduces “last mile” attacks — counterpoint: onerous for nixpkgs scale; mobile signing/tooling and infra gaps persist.
+Two researchers report finding Nixpkgs GitHub Actions flaws that mixed privileged `pull_request_target` workflows with untrusted pull-request data. One workflow exposed argument injection through attacker-controlled filenames; another let a submitted symlink make a validator print a runner credentials file, allegedly yielding a read-write token. Maintainers disabled and fixed the workflows the same day. HN discussion treated the trigger as a broad foot-gun, while debating legitimate uses, signed changes, reproducible builds, bearer tokens, and maintainability tradeoffs.
 
-- LLM perspective
-  - View: Trust boundary collapse in CI—untrusted PR data influenced privileged jobs via pull_request_target and unsafe tooling (xargs, symlinks).
-  - Impact: Maintainers must restrict permissions, drop bearer tokens, and isolate PR inputs; GitHub should provide fine-grained, single-use capabilities for automation.
-  - Watch next: Audit pull_request_target workflows, enforce permissions, adopt OIDC-bound signing agents; track GitHub deprecations, zizmor findings, and NixOS reproducibility milestones.
+### Comment pulse
+
+- Privileged pull-request automation is hard to contain → filenames, symlinks, and branch history expand the attack surface beyond executing submitted code.
+- Removing the trigger is contested → labeling, comments, unmergeable requests, and private-repository OIDC policies still motivate its use.
+- Stronger provenance divided participants → signatures and reproducible builds improve assurance but impose tooling, infrastructure, and contributor costs.
+
+### LLM perspective
+
+- View: Treat every pull-request-controlled byte as executable influence when a workflow carries secrets or write access.
+- Impact: Repository maintainers need explicit permissions and strict separation between untrusted inspection and privileged actions.
+- Watch next: Audit dangerous triggers, historical workflow versions, token scope, symlink handling, and argument boundaries.

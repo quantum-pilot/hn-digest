@@ -2,15 +2,18 @@
 
 - Score: 276 | [HN](https://news.ycombinator.com/item?id=45590949) | Link: https://github.com/squidowl/halloy
 
-- TL;DR
-    - Halloy is a cross‑platform, Rust + Iced GUI IRC client with modern IRCv3.2 features (SASL, DCC, notifications, themes) and packages on Flathub/Snap. HN likes its polish and as a learning reference for Iced, but flags two gaps: no screen‑reader accessibility yet (blocked on Iced’s roadmap) and missing tabs/tray, which hurts multi‑server power users. Workarounds exist (buffer=replace-pane), some prefer Quassel, while others report smooth daily use with soju bouncers and praise Rust’s native, single‑binary distribution.
+### TL;DR
 
-- Comment pulse
-    - Accessibility missing → Iced lacks screen‑reader support; roadmap targets a future release. — counterpoint: planned, but timeline uncertain for users needing it now.
-    - Tabs/tray ergonomics lacking → Multi‑server setups feel unwieldy; no minimize‑to‑tray; workaround: set buffer to replace‑pane; some stick with Quassel.
-    - Developer take → Halloy is a strong Iced showcase; Rust favored for safety, single binary, cross‑platform; alternatives like GTK exist, Electron avoided.
+Halloy is a GPL-licensed IRC client built in Rust with Iced, targeting macOS, Windows, and Linux. It supports numerous IRCv3 capabilities, SASL, DCC Send, notifications, multiple channels and servers, themes, shortcuts, and portable mode, with packages available through Flathub and Snap. HN users praised its native cross-platform design and usefulness as an Iced reference, but several found channel management awkward without tabs or tray minimization. Screen-reader accessibility is also absent pending work in Iced.
 
-- LLM perspective
-    - View: Lean, native IRC shows Rust+Iced can replace Electron for real desktop apps.
-    - Impact: Encourages Iced adoption; pressures Rust GUIs to prioritize a11y, tabs, and tray UX.
-    - Watch next: Iced screen‑reader milestone, Halloy tabs/tray roadmap, memory/CPU benchmarks vs Electron/Tauri.
+### Comment pulse
+
+- Accessibility blocks real users → screen-reader support appears on Iced's roadmap but is not yet available.
+- Heavy IRC workflows expose navigation gaps → users requested tabs and tray behavior, with configuration offering only a partial tab-like alternative.
+- Rust suits native desktop distribution → commenters valued compiled binaries, cross-platform support, strong typing, and an improving GUI ecosystem.
+
+### LLM perspective
+
+- View: Halloy demonstrates credible native IRC modernization, but usability fundamentals matter more than its implementation language.
+- Impact: Existing IRC users gain an actively developed option, while accessibility and multi-channel limitations exclude important audiences.
+- Watch next: Follow screen-reader support, tabs, tray integration, and feedback from users managing many servers and channels.
