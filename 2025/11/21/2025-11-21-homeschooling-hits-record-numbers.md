@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-A brief Reason article says US family-directed schooling kept growing after pandemic restrictions ended, expanding last academic year at nearly three times its average pandemic-era rate. The provided text cites new research but provides no national count or methodology, instead attributing demand to dissatisfaction with public-school rigidity, politics, and outcomes. Discussion is less settled: supporters emphasize parental involvement, co-ops, tutors, and tailored instruction, while critics warn about uneven quality, ideological filtering, and limited social diversity. Experiences vary sharply by district and household capacity.
+Reason reports that US homeschooling reached record numbers and grew last academic year at nearly three times the average pandemic-era rate, linking interest to school rigidity, politicization, weak outcomes, and families' pandemic experiments. The supplied article capture offers little underlying methodology, so those explanations and the scale claim should be treated as reported rather than independently established. Discussion presents homeschooling as highly variable: co-ops, tutors, and active communities can work well, while isolation, uneven instruction, and “unschooling” can produce serious gaps.
 
 ### Comment pulse
 
-- Co-ops combine personalization with community → families share teaching and hire specialists — counterpoint: curated circles may leave children unprepared for social conflict.
-- Public-school quality varies by ZIP code → strong districts provide support and diversity, while weak ones can miss disabilities and underserve advanced students.
-- Outcome anecdotes cannot settle the comparison → both systems attract successes and failures, with selection and parental involvement confounding simple judgments.
+- Commenters disputed whether curated homeschooling communities can replace public schools' broader, less controlled social exposure.
+- Several described outcomes as bimodal and emphasized parental involvement across either educational model.
 
 ### LLM perspective
 
-- View: Enrollment growth signals unmet demand, but not which model produces better outcomes.
-- Impact: Districts face pressure to restore specialized programs and explain why engaged families leave.
-- Watch next: State enrollment definitions, household demographics, longitudinal learning, safeguarding, socialization, and postsecondary outcomes.
+- View: The strongest conclusion is rising interest; causes and outcomes remain heterogeneous and weakly evidenced here.
+- Impact: Continued growth should pressure schools and homeschool networks to demonstrate educational and social quality.
+- Watch next: Comparable enrollment definitions, outcome data, family demographics, and differences among homeschooling models.

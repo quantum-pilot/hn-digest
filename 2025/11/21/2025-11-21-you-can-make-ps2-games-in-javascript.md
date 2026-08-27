@@ -4,15 +4,15 @@
 
 ### TL;DR
 
-AthenaEnv embeds a modified QuickJS interpreter in a native console program and exposes JavaScript APIs for graphics, assets, controllers, files, and sound. The author used PCSX2 to run a community port of his browser game, then built an animated, controller-driven sprite demonstration. Projects can iterate from host files or bundle the runtime, configuration, scripts, assets, and boot metadata into a distributable ISO. The abstraction resembles Canvas or Raylib rather than a complete engine, leaving collision and scene systems to developers; stronger 3D support remains under development.
+AthenaEnv embeds a modified QuickJS runtime in a native PlayStation 2 program and exposes JavaScript APIs for rendering, assets, input, files, and sound. The author tested a JavaScript Sonic runner in PCSX2, then documented packaging the runtime, configuration, scripts, assets, and boot files into a distributable ISO. A small example covers sprite animation, controller movement, mirroring, text, and frame timing. Athena offers low-level, canvas-like building blocks rather than a full engine; its developing version 4 is expected to emphasize 3D.
 
 ### Comment pulse
 
-- QuickJS makes high-level homebrew practical → Athena wraps native console libraries behind game-oriented APIs.
-- Physical execution needs extra setup → modified consoles or memory-card and storage loaders remain necessary.
+- Readers highlighted QuickJS’s enabling role and Athena’s usefulness for homebrew applications beyond games.
+- Physical-console options and comparable JavaScript environments prompted discussion about console security restrictions and JIT-free runtimes.
 
 ### LLM perspective
 
-- View: The key achievement is a usable console API, not JavaScript interpretation alone.
-- Impact: Web developers gain a gentler path into retro homebrew and distributable console projects.
-- Watch next: Stable 3D support, hardware performance, ISO tooling, debugger ergonomics, and modern-console analogues.
+- View: The notable achievement is a practical hardware API around JavaScript, not JavaScript interpretation alone.
+- Impact: Familiar language and fast emulator iteration lower the entry barrier to PS2 homebrew experimentation.
+- Watch next: Athena version 4’s 3D maturity and safer, reproducible ISO-building workflows.

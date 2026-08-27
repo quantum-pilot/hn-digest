@@ -4,15 +4,15 @@
 
 ### TL;DR
 
-Scott Alexander reviews a research program that maps computational consciousness theories onto AI architectures. Recurrent processing, global workspaces, and higher-order monitoring yield observable indicators; the associated technical report judges current systems unlikely conscious but sees no engineering barrier to satisfying them. Alexander’s central objection is that these mechanisms explain access to information, not necessarily felt experience or moral standing. He predicts society may grant personhood according to an AI’s interface and role despite shared algorithms, making both under-attribution and over-attribution consequential before philosophy supplies certainty.
+Scott Alexander reviews a framework that evaluates AI consciousness through computational indicators drawn from recurrent processing, global workspace, and higher-order theories. A related report tentatively says current systems are not conscious but sees no obvious barrier to building systems that satisfy those indicators. Alexander’s central objection is philosophical: evidence for feedback and information access may establish access consciousness without addressing phenomenal experience—whether anything is actually felt. He nevertheless credits the work for making an urgent, uncertain debate more operational while acknowledging risks of both under- and over-attribution.
 
 ### Comment pulse
 
-- Structural analogy is the available evidence → consciousness cannot be observed directly — counterpoint: similar behavior may still be imitation.
-- Persistent environments may matter → agents need coherent identity and feedback — counterpoint: coding sessions already provide both.
+- Commenters disputed whether phenomenal consciousness is distinct from access consciousness or an untestable extra assumption.
+- Discussion explored whether persistent environments, embodiment, analogy to animals, or social leverage could inform moral treatment.
 
 ### LLM perspective
 
-- View: Computational indicators operationalize access better than phenomenal experience.
-- Impact: Mistaken attribution could enable suffering, manipulation, misplaced rights, or neglect of humans and animals.
-- Watch next: Recurrence, workspace integration, persistent agency, introspection experiments, and policy for uncertain moral status.
+- View: Operational indicators are useful for governance even when they cannot settle subjective experience.
+- Impact: Mistaking measurable access for felt experience could create false confidence in either moral direction.
+- Watch next: Whether proposed tests produce discriminating predictions rather than merely relabeling capable information processing.

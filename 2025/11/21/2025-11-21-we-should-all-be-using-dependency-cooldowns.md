@@ -4,15 +4,15 @@
 
 ### TL;DR
 
-Most mass supply-chain compromises become visible only when malicious releases reach registries, after which detection and removal often take hours or days. The author proposes delaying published dependency versions by seven to fourteen days, using package-manager controls or update bots, so defenders can flag poisoned releases before projects ingest them. Eight of ten cited incidents had exploitation windows under one week; fourteen days would have blocked all but the unusually patient xz campaign. Cooldowns remain a default risk tradeoff, not protection against stealthy attacks or urgent disclosed vulnerabilities.
+The proposal is to delay adoption of newly published dependency versions by seven to fourteen days, reducing exposure during the period when many supply-chain attacks are discovered and removed. Package tooling already offers minimum-age or date-cutoff controls, and known security advisories can justify exceptions. The article’s ten-incident sample suggests cooldowns would have avoided most cases, but that selected retrospective evidence is not a universal protection rate. Slow or stealthy compromises remain possible, while compliance pressure and urgent patches complicate a blanket delay.
 
 ### Comment pulse
 
-- Waiting reduces exposure to poisoned releases → most cited campaigns were discovered quickly — counterpoint: urgent security fixes may require immediate adoption.
-- Dependency count is an imperfect risk metric → maintainer trust relationships matter more than package quantity alone.
+- Readers emphasized bypassing cooldowns for verified security fixes rather than treating every update identically.
+- Others favored stable distributions, long-term support, and fewer dependencies as complementary risk reduction.
 
 ### LLM perspective
 
-- View: Release age is a cheap security signal, not proof of safety.
-- Impact: Sensible defaults could prevent many opportunistic compromises without buying another security product.
-- Watch next: Native package-manager support, advisory bypasses, transitive enforcement, ecosystem adoption, and attacker adaptation.
+- View: A cooldown is a cheap quarantine layer, not a substitute for advisories, review, or dependency restraint.
+- Impact: Separating routine freshness from urgent remediation reduces one avoidable supply-chain exposure window.
+- Watch next: Tooling that applies exceptions transparently without turning every flagged vulnerability into an automatic upgrade.

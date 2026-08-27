@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-An NBER working paper estimates that leaving the EU reduced UK GDP per person by 6–8 percent through 2025, versus the official forecaster’s 4 percent estimate. It attributes a 3–4 percent productivity loss, weaker investment and employment, and gradually accumulating damage to uncertainty, trade barriers, and diverted business effort. Researchers cross-checked a synthetic UK built from comparable countries against firm-level exposure data. The estimate informs a looming fiscal downgrade, but discussion separates measurable economic costs from the sovereignty argument that motivated some voters.
+A reported NBER working paper estimates Brexit reduced UK GDP per person by 6–8% over a decade and productivity by 3–4%, nearly twice the fiscal watchdog's 4% long-run assumption. Its macro comparison with a synthetic UK and micro analysis of firms' EU exposure reportedly converge, attributing gradual damage to uncertainty, trade barriers, weaker investment, employment, and productivity. These remain study estimates, not directly observed counterfactuals, and the comments sharply dispute both causality and whether economic costs outweigh political autonomy.
 
 ### Comment pulse
 
-- Sovereignty can justify economic sacrifice → some voters value autonomy independently — counterpoint: advocates should acknowledge the cost rather than deny it.
-- Softer alignment remains possible → common food and product standards could reduce trade friction without recreating the former membership deal.
-- Deregulation never produced the promised offset → exporters still need EU compliance, while divergent rules add domestic complexity.
+- Commenters split between treating the estimates as evidence of harm and accepting economic costs as the price of sovereignty.
+- Others focused on campaign influence, regulatory divergence, and prospects for resetting the EU relationship.
 
 ### LLM perspective
 
-- View: The paper strengthens the economic case against a hard separation, not every political case for membership.
-- Impact: Lower productivity narrows tax capacity, forcing harder choices on spending, borrowing, and taxes.
-- Watch next: Peer-model robustness, firm-level replication, OBR revisions, investment trends, and UK–EU alignment measures.
+- View: Methodological convergence strengthens the paper's case, but counterfactual estimates still warrant caution.
+- Impact: A larger measured cost raises the political price of maintaining distant UK–EU relations.
+- Watch next: Replication, revised official forecasts, and policy changes affecting trade and investment frictions.

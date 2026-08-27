@@ -4,15 +4,15 @@
 
 ### TL;DR
 
-Igalia details the open-source stack enabling Valve’s ARM-based Steam Frame to run desktop games. FEX translates x86 machine code to ARM64, while Mesa Turnip supplies Vulkan support for the Adreno 750 GPU, including new hardware coverage, optimizations, extensions, and rendering fixes. Turnip passes more than 2.8 million conformance tests, yet engineers also capture game frames because real rendering regressions can evade generic suites. Related work covers an energy-aware Linux scheduler and HDR support; improvements also reach Android gamers and older Snapdragon hardware.
+Igalia details open-source work commissioned by Valve for new Steam hardware. For the ARM-based Steam Frame, FEX translates x86 code while Mesa's Turnip driver gained Adreno 700 support, tiled rendering, LRZ and autotuning improvements, plus correctness work across DXVK, vkd3d, and Zink. Testing spans more than 2.8 million Vulkan CTS cases and game-frame captures. Igalia also developed the Rust-based LAVD scheduler for latency and energy goals, while contributing AMD display and HDR work for Steam Machine.
 
 ### Comment pulse
 
-- Open development compounds Valve’s investment → third-party users expose bugs and inherit faster, more correct drivers — counterpoint: broader compatibility expands Valve’s storefront.
-- An ARM handheld remains speculative → the Frame proves software readiness, but commenters doubt current non-Apple chips deliver Valve’s desired performance leap.
+- Readers praised Valve's upstream investment and contrasted it with dissatisfaction over Qualcomm's proprietary driver support.
+- ARM Steam Deck speculation met a practical objection: available chips may not deliver Valve's desired performance leap.
 
 ### LLM perspective
 
-- View: The durable product is shared compatibility infrastructure, not one device.
-- Impact: ARM Linux gaming gains viable translation and graphics layers, benefiting vendors beyond Valve.
-- Watch next: Frame benchmarks, FEX compatibility, Turnip regressions, battery efficiency, and future handheld architecture.
+- View: The durable product here is shared infrastructure, not merely support for one hardware launch.
+- Impact: Upstream drivers and schedulers can lower costs for Linux gaming devices beyond Valve's catalog.
+- Watch next: Real-device compatibility, FEX overhead, battery behavior, and adoption by third-party handhelds.

@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-A developer dissatisfied with AWK’s mutable arrays, dynamic scope, and limited return values sketched a functional variant with first-class arrays and functions, lexical scope, explicit globals, and pipelines. Using Cursor Agent with Sonnet 4.5, he obtained a Python interpreter the same day, then expanded AWK compatibility and end-to-end tests across sessions. C, Haskell, and Rust versions appeared to compile or run but remained untested. The achievement changed his expectations, but reviewing tests instead of implementation left him unfamiliar with the generated code.
+The author used Cursor and Sonnet 4.5 to turn a README-level design for FAWK—a functional AWK with first-class arrays and functions, lexical scope, explicit globals, and pipelines—into a working Python interpreter. It reportedly runs examples, GAWK compatibility tests, closures, redirection, and arrays; arbitrary precision required mpmath. C, Haskell, and Rust variants compiled but were not tested. The striking result is paired with a warning: the author knows little of the implementation, leaving maintainability, architecture, and performance uncertain.
 
 ### Comment pulse
 
-- Solo developers report similar interpreter and DSL successes → agents compress months of typing into evenings or days.
-- Generated code remains risky infrastructure → close inspection can reveal architectural and performance flaws — counterpoint: thorough tests make exploratory languages unusually tractable.
-- Existing languages do not negate the experiment → Perl covers much of AWK, but the project tests functional design and model capability.
+- Commenters shared similar LLM-built interpreters and DSLs, but warned that passing tests can conceal architectural or performance defects.
+- Perl comparisons highlighted existing text-processing convenience without resolving FAWK's functional-language experiment.
 
 ### LLM perspective
 
-- View: Fast implementation shifts the bottleneck from typing code to specifying behavior and earning comprehension.
-- Impact: Language experiments become cheaper, while maintenance debt grows when authors review outputs superficially.
-- Watch next: Differential GAWK tests, fuzzing, performance profiles, spec coverage, and successful manual modifications.
+- View: Generating an interpreter is impressive; owning its failure modes remains the harder engineering task.
+- Impact: LLMs can compress prototyping time while shifting effort toward specifications, tests, and maintainability audits.
+- Watch next: Independent tests, benchmarks, and whether the author can safely evolve the generated implementation.

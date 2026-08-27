@@ -4,15 +4,15 @@
 
 ### TL;DR
 
-An economic model explains up-or-out turnover in client-facing professional-services firms where employers initially know worker quality better than clients. Employees accept below-market pay because continued affiliation signals talent. As public performance narrows the information gap, firms dismiss some competent workers, strengthening the inferred quality of those retained and pressuring them to accept lower wages. Departing staff may still monetize the prestigious affiliation independently. The mechanism is presented as a stable reputational equilibrium for attributable expert work, not a general account of layoffs across ordinary companies.
+A theoretical model explains “up-or-out” turnover in elite professional-service firms where clients observe individual performance but initially cannot judge talent. Firms first use superior private information to underpay workers, who accept the arrangement because continued affiliation builds reputation. As public performance narrows that information gap, strategic dismissals can strengthen the signal attached to those retained and preserve wage leverage; dismissed workers may still benefit from the affiliation. The result is model-dependent, not a general explanation for layoffs across ordinary companies, politics, or reorganizations.
 
 ### Comment pulse
 
-- The model fits consultancies better than technology companies → client-attributable work and explicit up-or-out structures are essential assumptions.
-- Prestige can substitute for wages → workers later monetize affiliation — counterpoint: critics call the arrangement exploitation requiring collective bargaining.
+- Commenters debated whether the mechanism is exploitation suited to collective bargaining or a deferred exchange of pay for prestige.
+- Several stressed that the paper’s client-facing professional-firm assumptions do not transfer cleanly to big technology companies.
 
 ### LLM perspective
 
-- View: Selective churn can manufacture a valuable signal even when dismissed workers remain capable.
-- Impact: Firms preserve margins and reputation while employees trade current pay for future market credibility.
-- Watch next: Empirical tests, voluntary departures, manager politics, client beliefs, unions, and differences across professions.
+- View: The model illuminates a narrow reputation market, not management behavior everywhere.
+- Impact: Prestige can function as compensation while simultaneously strengthening an employer’s bargaining power.
+- Watch next: Empirical evidence distinguishing strategic churning from performance, politics, and ordinary headcount cuts.

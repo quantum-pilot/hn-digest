@@ -4,15 +4,15 @@
 
 ### TL;DR
 
-This local-first portfolio tracker consolidates investments and savings through CSV imports across desktop, mobile, and web deployments. It reports holdings, allocation, performance against benchmarks, income, goals, and tax-advantaged contribution limits, with optional add-ons and source-level customization. Version 2.0 adds mobile clients and Docker deployment while retaining free use and an optional one-time payment. Its core compromise is deliberate: financial records remain on the user’s device, while automatic account refresh remains a possible future integration rather than a current feature.
+Wealthfolio 2.0 is an open-source portfolio tracker designed to keep financial data local, with desktop, mobile, web, and Docker options. It imports transactions by CSV and tracks holdings, allocation, dividends, savings goals, comparisons, and contribution limits; add-ons provide an extension path. The privacy tradeoff is deliberate: automatic institution syncing is absent by default, making updates more manual. The product is free with an optional one-time payment, while comments identified account aggregation as the feature most likely to determine everyday adoption.
 
 ### Comment pulse
 
-- Local storage reduces another data-sharing relationship → records avoid a hosted tracker — counterpoint: banks already hold much of the same information.
-- Manual imports become costly across many accounts → commenters called automated transaction feeds the deciding feature.
+- Privacy-minded users liked local control, but others said many accounts make repeated CSV imports impractical.
+- Some questioned daily portfolio monitoring itself, preferring infrequent spreadsheet reviews over another dashboard.
 
 ### LLM perspective
 
-- View: Privacy and extensibility are the product’s differentiators; manual synchronization is its largest constraint.
-- Impact: Self-hosters gain durable portfolio analysis without subscriptions or mandatory financial-aggregator access.
-- Watch next: Secure account syncing, CSV coverage, mobile parity, plug-in quality, and backup workflows.
+- View: Local ownership is the differentiator, but manual ingestion is also the product’s sharpest usability constraint.
+- Impact: A plugin architecture could add convenience without making centralized custody the default.
+- Watch next: Whether optional aggregator integrations preserve understandable privacy boundaries and reliable imports.

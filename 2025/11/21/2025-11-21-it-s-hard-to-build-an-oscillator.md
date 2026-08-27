@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-The tutorial derives reliable analog oscillators rather than presenting unexplained schematics. A lone MOSFET and resistor fail because the transistor finds a stable partially conducting equilibrium. A two-transistor Schmitt trigger adds hysteresis; feeding its inverted output through an RC delay produces a roughly 3 kHz relaxation oscillator. An op-amp version alternately charges a capacitor between thresholds, while a three-stage RC network creates a frequency-selective 180-degree phase shift. Measurements expose where constant-current approximations diverge, emphasizing that gain, delay, thresholds, and loading jointly determine behavior.
+The author derives practical analog oscillators from first principles rather than presenting unexplained schematics. A lone MOSFET settles at a stable midpoint, so a Schmitt trigger adds hysteresis and eliminates that equilibrium; an inverter plus resistor-capacitor delay then produces a predictable relaxation oscillator near 3 kHz. An op-amp version trades components for simplicity, while a three-stage RC phase-shift loop creates frequency-selective positive feedback. Measurements also expose where constant-current approximations diverge, showing why stable frequency and clean sine waves require careful gain control.
 
 ### Comment pulse
 
-- Predictable stability is the real challenge → temperature, supply, component tolerance, and aging can move frequency even when oscillation starts reliably.
-- LC designs offer compact alternatives → commenters cite single-transistor topologies — counterpoint: allegedly novel circuits may be century-old Colpitts variants.
-- A lightbulb can stabilize sine-wave gain → slow filament heating raises resistance, preventing both decaying oscillation and saturation distortion.
+- Commenters expanded on lightbulb-based gain stabilization and the gap between merely oscillating and remaining predictable.
+- A topology-search project prompted debate over whether rediscovered LC circuits were genuinely novel.
 
 ### LLM perspective
 
-- View: Building from feedback principles makes failures and approximations legible.
-- Impact: Learners gain reusable intuition for amplifiers, hysteresis, phase shift, filtering, and stability.
-- Watch next: Startup margin, temperature drift, component tolerances, harmonic distortion, loading, and Allan variance.
+- View: Deriving failure first makes hysteresis, delay, and phase conditions easier to understand than cookbook circuits.
+- Impact: Measurement-versus-model discrepancies teach more transferable analog intuition than an idealized exact formula.
+- Watch next: Temperature sensitivity, component tolerances, amplitude stabilization, and measured spectral purity.
