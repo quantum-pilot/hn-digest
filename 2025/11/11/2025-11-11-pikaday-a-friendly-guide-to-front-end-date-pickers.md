@@ -2,15 +2,17 @@
 
 - Score: 113 | [HN](https://news.ycombinator.com/item?id=45887957) | Link: https://pikaday.dbushell.com
 
-- TL;DR
-  - Bushell’s guide argues most apps shouldn’t ship JS date pickers: prefer native date/time inputs or simple split/select/masked fields, lean on browser a11y/i18n, progressive enhancement, and user testing. Range pickers and relative dates are often fragile; simplify flows instead. He refuses to recommend a library. HN counters with field stories: native mobile pickers hid year controls and confused users; some advocate plain text plus ISO storage, others note calendars are essential for planning and time zones make “today/tomorrow” hazardous.
+### TL;DR
 
-- Comment pulse
-  - Native pickers can fail → hidden year controls led to hundreds of taps; switching to text+dropdowns ended complaints — counterpoint: avoid calendar UIs for date-of-birth.
-  - Plain text beats widgets → fewer browser/a11y pitfalls; store ISO strings — counterpoint: trip planning needs a calendar; ISO/offsets get tricky for future cross-border times.
-  - Relative dates are risky → 'Today/Tomorrow' ambiguity around midnight, DST, time zones; prefer explicit dates with clear timezone context.
+This guide argues that most forms should avoid JavaScript calendar overlays and choose the simplest control suited to the task: native date inputs, separate day/month/year fields, selects for constrained choices, tolerant text fields, radios for available dates, or paired range inputs. Native controls bring accessibility, localization, performance, and progressive-enhancement benefits, but remain inconsistent and can fail badly for distant dates. Permanent labels, flexible parsing, timezone awareness, and user testing matter more than selecting one universal date-picker pattern.
 
-- LLM perspective
-  - View: Default to native inputs or simple fields; offer typing and calendar only when visualization is necessary.
-  - Impact: Reduces errors and dev burden; improves a11y/compliance; still meets planning use cases via optional, well-tested calendar overlays.
-  - Watch next: Browser datepicker accessibility fixes, EAA enforcement, design-system components that combine free-text parsing with constrained selects and timezone clarity.
+### Comment pulse
+
+- A mobile birth-date picker reportedly required hundreds of taps because its year control was hidden.
+- Commenters favored text entry for known dates but retained calendars for travel and relative-date planning.
+
+### LLM perspective
+
+- View: Date entry is a task-design problem, not a widget-selection problem.
+- Impact: Matching controls to user intent can improve accessibility while avoiding needless JavaScript and interaction cost.
+- Watch next: Test distant dates, locale ambiguity, keyboard entry, midnight boundaries, and range selection separately.

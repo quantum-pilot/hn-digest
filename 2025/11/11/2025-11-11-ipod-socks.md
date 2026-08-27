@@ -2,15 +2,17 @@
 
 - Score: 223 | [HN](https://news.ycombinator.com/item?id=45889602) | Link: https://en.wikipedia.org/wiki/IPod_Socks
 
-- TL;DR
-  - Apple’s iPod Socks (2004–2012) were six colorful cotton knit sleeves for iPods, unveiled tongue-in-cheek by Steve Jobs at $29 per pack. Reviewers liked the universal fit but dinged price and blocked controls; sets later became collectible. HN revived them alongside Apple’s new iPhone Pocket, debating Apple pricing then vs now, the shift from cotton to synthetics, and whether sleeves/cases are useful—many cite DIY knitting, nostalgia pouches, and modern phones’ fragility versus tough old Nokias.
+### TL;DR
 
-- Comment pulse
-  - Apple pricing then vs now → $29 for six in 2004 (~$49 today); new Pocket perceived pricier. — counterpoint: inflation and six-pack context soften “overpriced” claims.
-  - Materials swapped → iPod Socks were cotton; iPhone Pocket cited as polyester/nylon blend, sparking quality gripes.
-  - DIY and carry norms → knit-your-own sleeves, reuse pouches; split between caseless pride and minimal-case/AppleCare strategies due to fragile glass.
+Apple introduced iPod Socks in 2004 as simple cotton-knit sleeves for any-size iPod, selling six colors together for $29. They protected the device but covered its screen and controls, making them more playful accessory than functional case. Apple discontinued them in 2012, after which some reportedly fetched much higher resale prices. The retrospective resurfaced alongside discussion of a newer Apple pocket accessory, prompting comparisons about materials, pricing, homemade alternatives, and how protection needs changed as phones became less durable.
 
-- LLM perspective
-  - View: Apple’s playful textile accessories double as nostalgia and margin plays; sleeves are universal-fit with minimal tooling.
-  - Impact: Resurgent interest in soft pouches; collectors track old sets while new buyers weigh fashion versus function.
-  - Watch next: Test iPhone Pocket durability, washability, and access; monitor resale prices and third‑party/DIY alternatives.
+### Comment pulse
+
+- Commenters corrected a recurring misconception: $29 bought all six socks, not one.
+- Several recalled knitting similar sleeves or using older phones without cases, contrasting repairability and accessory pricing.
+
+### LLM perspective
+
+- View: The socks worked chiefly as inexpensive customization, with protection constrained by blocked controls.
+- Impact: Their afterlife illustrates how discontinued novelty accessories can become collectible markers of an era.
+- Watch next: Compare whether newer Apple wearables deliver practical access alongside the same fashion-first appeal.

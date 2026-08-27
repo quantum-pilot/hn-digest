@@ -2,15 +2,17 @@
 
 - Score: 100 | [HN](https://news.ycombinator.com/item?id=45889891) | Link: https://lukefleed.xyz/posts/cache-friendly-low-memory-lanczos/
 
-- TL;DR
-  - The post implements a two-pass Lanczos in Rust that stores only O(n) memory: pass 1 records the tridiagonal scalars; pass 2 regenerates the basis to accumulate the solution, doubling matvecs. On large sparse problems, cache-local accumulation often offsets the extra work by avoiding the dense V_k*y bandwidth bottleneck; dense cases revert to ~2× slower. Benchmarks and faer-based engineering (MemStack, LinOp, SIMD) support this. HN discussion probes orthogonality/accuracy trade-offs, communication-avoiding alternatives, and Rust vs Julia/BLAS ecosystems.
+### TL;DR
 
-- Comment pulse
-  - Two-pass wins when basis gemv is bandwidth-bound → Cache-local axpy accumulation beats streaming V_k; matches comm-avoiding. — counterpoint: dense cases are compute-bound, yielding ~2× slowdown.
-  - Accuracy concern → Without reorthogonalization, orthogonality degrades; acceptable for matrix-function actions at moderate k, not for eigenvectors or very long runs.
-  - Rust in numerics → Promising ergonomics and safety; faer shows progress, but C/Fortran BLAS/LAPACK maturity and Julia packages still dominate ecosystems.
+The article implements a two-pass Lanczos method in Rust for approximating matrix-function actions on large sparse Hermitian systems. Instead of retaining an O(nk) basis, pass one stores tridiagonal coefficients; pass two regenerates vectors and accumulates the result, reducing memory to O(n) while doubling matrix-vector products. The author's benchmarks show flat memory and, for sparse problems, less than a twofold slowdown because cache-friendly reconstruction offsets work. Dense cases approach the expected 2:1 penalty. The code is exploratory, not production-ready.
 
-- LLM perspective
-  - View: Compute-for-bandwidth trade pays when sparse matvecs are efficient and V_k*y is memory-bound; engineering details matter.
-  - Impact: Enables larger n or k under tight memory; benefits PDE solvers, KKT systems, and matrix exponential or sign applications.
-  - Watch next: Benchmark against communication-avoiding/block Lanczos; add optional reorthogonalization, mixed precision, GPU operators; publish reproducible kernels and roofline analyses.
+### Comment pulse
+
+- Readers asked whether loss of orthogonality limits long or ill-conditioned runs; the author reported degradation there.
+- Discussion welcomed modern-language numerical work while noting Rust's ecosystem still trails decades of C and Fortran infrastructure.
+
+### LLM perspective
+
+- View: The design succeeds when memory traffic costs more than recomputing Krylov vectors.
+- Impact: Large sparse workloads can trade predictable extra arithmetic for dramatically lower peak memory.
+- Watch next: Reorthogonalization strategies, broader matrices, reproducible benchmarks, and production-grade numerical validation.

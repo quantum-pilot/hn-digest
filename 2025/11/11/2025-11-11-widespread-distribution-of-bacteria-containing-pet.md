@@ -2,15 +2,17 @@
 
 - Score: 100 | [HN](https://news.ycombinator.com/item?id=45886479) | Link: https://academic.oup.com/ismej/article/19/1/wraf121/8159680?login=false
 
-- TL;DR
-    - Researchers built a structure-informed motif classifier (validated with AlphaFold2, lab assays, and a microcosm) to separate true PET-degrading enzymes from lookalikes. They found 23 functional PETase variants in ~80% of 415 ocean metagenomes, most abundant at 1,000–2,000 m and polluted surface waters; several are actively transcribed and co-occur with MHETase genes. Marine PETases are mainly from Pseudomonadales, unlike taxonomically broader terrestrial PETases. Only the strict M5 motif variants degraded PET. HN debates focus on cleanup benefits versus infrastructure decay and added CO2 from biodegradation.
+### TL;DR
 
-- Comment pulse
-    - Biodegradation risks: infrastructure decay and added CO2 as plastics are metabolized; PET is tractable, PVC/PS harder; microplastics go first — counterpoint: hydrophobic, non-porous plastics resist.
-    - Evolutionary dynamics: fast microbial adaptation and possible horizontal gene transfer; speculation about gut microbiomes digesting plastics — counterpoint: releasing plasticizers/additives in vivo could be harmful.
-    - Trade-offs: microbe-driven cleanup vs. reliability of medical packaging and marine gear; if plastics decline, specialists may revert to other substrates, limiting ecological disruption.
+Researchers developed an M5 sequence motif to distinguish functional PET-degrading enzymes from similar hydrolases, then screened 415 ocean metagenomes. They found 23 M5-PETase variants in 323 samples, concentrated around 1,000–2,000 meters and in polluted surface regions, with transcription evidence and a marine bias toward Pseudomonadales. In vitro tests found activity only among tested M5 variants; one matching marine strain produced 2.7% PET-film weight loss after 85 days with added nutrients. The study cannot establish that plastic pollution caused these enzymes to evolve.
 
-- LLM perspective
-    - View: Focus remediation on PET hotspots and 1–2 km depths; motif-based screening can guide targeted bioaugmentation and material choices.
-    - Impact: Materials, waste, and maritime sectors should reassess PET exposure, containment lifetimes, and additives that may amplify biodegradation or toxicity.
-    - Watch next: Quantify in situ PET turnover rates, map MHETase co-occurrence, track PETase HGT vectors, and test engineered consortia for controlled cleanup.
+### Comment pulse
+
+- Commenters debated whether plastic-eating microbes offer remediation or threaten durable materials and infrastructure.
+- Speculation about emissions, gut microbiomes, and ecological dependence goes beyond the study’s evidence.
+
+### LLM perspective
+
+- View: The motif is a useful discovery filter, not evidence that oceans can rapidly clear PET pollution.
+- Impact: Functional validation narrows bioprospecting while showing natural enzymes remain slow and ecologically context-dependent.
+- Watch next: Historical samples, independent motif tests, degradation products, and gene-transfer dynamics could separate adaptation from pre-existing capacity.

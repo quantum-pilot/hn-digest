@@ -2,15 +2,17 @@
 
 - Score: 255 | [HN](https://news.ycombinator.com/item?id=45892394) | Link: https://newsletter.posthog.com/p/collaboration-sucks
 
-- TL;DR
-    - Charles Cook (PostHog) argues much “collaboration” is performative drag: appoint a single driver, default to shipping, and ask targeted, post-ship feedback. He blames vague asks, inclusivity pressure, and leader deference for bloated threads, urging teams to kill over-involvement and clarify ownership. HN largely agrees on action bias but reframes the core issue as unclear decision rights; commenters highlight learning, quality, and bus‑factor risks, advocating lightweight guardrails and warning managers not to retroactively veto after delegating.
+### TL;DR
 
-- Comment pulse
-    - Decision clarity beats anti-collaboration → appoint a final decision-maker; keep feedback flowing for learning — counterpoint: explaining plans slows you but raises quality.
-    - Manager anti-pattern → delegating then retroactively overruling erodes autonomy, creates learned helplessness, and drives attrition.
-    - Pragmatic middle ground → use “any strong objections?” framing, short pre-design reviews, and linters; preserves speed, reduces bikeshedding, and improves shared understanding (bus factor).
+PostHog's Charles Cook argues that excessive collaboration slows capable owners through context-setting, diffuse feedback, and de facto approval loops. His remedy is an “informed captain”: assign one driver, request specific input from specific people, default to shipping, and move much feedback after release. Commenters largely reframed the problem as unclear decision authority rather than collaboration itself. They warned that minimizing review can create silos, missed risks, and weak knowledge sharing, while suggesting lightweight pre-commitment checks and explicit strong-objection windows for reversible decisions.
 
-- LLM perspective
-    - View: Bias for action works if collaboration is time-boxed to decision checkpoints with explicit DRIs and feedback windows.
-    - Impact: Impacts startups and remote teams: fewer meetings, faster cycles, but must offset onboarding gaps and bus-factor risk.
-    - Watch next: Track cycle time, pre-merge defects, incidents, and attrition; A/B “strong objections?” prompts vs open threads; trial post-ship review SLAs.
+### Comment pulse
+
+- Clear ownership speeds decisions, but managers undermine it when they retroactively override choices they delegated.
+- Targeted design review can prevent expensive mistakes; indiscriminate participation and stylistic bikeshedding rarely justify delay.
+
+### LLM perspective
+
+- View: The useful distinction is decision rights versus information gathering, not solo work versus teamwork.
+- Impact: Teams move faster when consultation has a defined purpose, deadline, and accountable decider.
+- Watch next: Whether reduced pre-shipping review increases reversals, incidents, silos, or employee learning gaps.

@@ -2,15 +2,17 @@
 
 - Score: 200 | [HN](https://news.ycombinator.com/item?id=45886131) | Link: https://www.reuters.com/world/german-court-sides-with-plaintiff-copyright-case-against-openai-2025-11-11/
 
-- TL;DR
-  - A Munich court backed GEMA, ruling OpenAI can’t use song lyrics without a license and must pay damages—setting an early European marker for AI training and output liability. GEMA seeks a paid licensing regime; OpenAI says critics misunderstand how ChatGPT works and can appeal. HN debates split between “lyrics are marketing; restricting access is self-defeating” and rights-holders protecting precedent. Commenters stress LLM memorization and compliance theater, predict eventual blanket licenses—or, if costs soar, geofenced services and migration to non‑Western models.
+### TL;DR
 
-- Comment pulse
-  - Open lyrics access boosts music discovery → Lyrics are free marketing; blocking them is counterproductive — counterpoint: labels guard precedent across compositions, samples, performances.
-  - LLMs reproduce training text → Firms add prompts to avoid verbatim outputs; critics say this masks unlawful training on copyrighted works.
-  - Licensing is likely → Societies seek rents; AI pays after appeals; if costs spike, users shift to Chinese models — counterpoint: many outputs aren't valuable.
+A Munich court ruled for German collecting society GEMA, finding that OpenAI could not use protected song lyrics without a license and ordering damages. GEMA said ChatGPT reproduced lyrics from its roughly 100,000 members without authorization; OpenAI said the decision reflected a misunderstanding. The appealable ruling may influence European licensing disputes, but it does not settle the issue across Europe. GEMA is seeking compensation and licenses covering both model training and generated output, while the precise legal boundaries remain contested.
 
-- LLM perspective
-  - View: EU trend favors licensing for training and outputs; verbatim lyric reproduction increases liability risk.
-  - Impact: Model providers will add stronger filters, geofence EU, or strike blanket deals with GEMA/PRS/SACEM.
-  - Watch next: Appeals outcome, EU AI Act enforcement, cross-collecting-society licenses, and benchmarks on memorization/retrieval of lyrics.
+### Comment pulse
+
+- Discussion split between treating lyric access as promotion and treating compositions as protected inputs requiring payment.
+- Commenters anticipated licensing settlements, while broader claims that all AI is plagiarism remained disputed.
+
+### LLM perspective
+
+- View: The ruling pressures providers to separate training authorization from liability for reproduced outputs.
+- Impact: Collective licensing could become the practical bridge between rights holders and model operators.
+- Watch next: The appeal and damages rationale will clarify whether the precedent reaches training, output, or both.

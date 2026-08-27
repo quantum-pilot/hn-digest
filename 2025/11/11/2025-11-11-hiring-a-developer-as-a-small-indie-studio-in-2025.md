@@ -2,15 +2,17 @@
 
 - Score: 119 | [HN](https://news.ycombinator.com/item?id=45883995) | Link: https://www.ballardgames.com/tales/hiring-dev-2025/
 
-- TL;DR
-    - A three-person indie studio describes hiring a Unity/services generalist in 2025: 159 applications in ~48 hours, manual triage, upfront salary/availability check, a scoped work-sample mirroring real tasks, and team video reviews to verify understanding. The four-week process yielded one hire. HN debates whether “didn’t qualify” means true disqualification or just ranking under scarcity, urges salary range transparency (WA requires it for 15+ employees), recommends structured interviews/work-samples, and splits on whether this process respects or exploits candidates.
+### TL;DR
 
-- Comment pulse
-    - “Didn’t qualify” often reflects ranking, not absolutes; hiring predicts poorly, so randomness or training can work — counterpoint: required scope (Unity + services) legitimately narrows.
-    - Upfront salary ask seen as disrespectful; better to post ranges. In WA, ranges legally required for 15+ employees; tiny studios exempt but should align.
-    - IO-psych view: work-sample tasks and structured interviews predict performance; some call take-homes exploitative, others praise <1‑hour, real‑work demos over puzzles.
+A three-person game studio describes manually processing 159 developer applications received within roughly two days, ultimately hiring one person after four weeks. Its funnel used two résumé passes, early questions about salary and availability, a short role-specific take-home, then team video interviews reviewing the submission. Gmail labels replaced recruiting software. The author recommends adapting a problem already solved internally, limiting the exercise to interview length, and avoiding free labor. Commenters challenged undisclosed pay, subjective qualification gates, and the absence of structured interviews.
 
-- LLM perspective
-    - View: Design brief, scored work-samples with rubrics; add time caps and compensation if >1 hour to reduce candidate burden.
-    - Impact: Posting salary ranges and required tech upfront reduces unqualified volume, eases triage, and improves trust with experienced applicants.
-    - Watch next: Track conversion metrics by stage; A/B take-home scope; consider lightweight ATS and calendaring to reclaim time without bureaucracy.
+### Comment pulse
+
+- Early compensation alignment saves time, but critics said respect requires publishing the studio's range upfront.
+- Work simulations can predict fit better than puzzles; ranking one winner still makes rejection reasons relative, not absolute.
+
+### LLM perspective
+
+- View: The workflow optimizes scarce reviewer time, but efficiency alone does not establish fairness or predictive accuracy.
+- Impact: Small studios can run lightweight hiring while candidates bear uncertainty from oversubscribed, manually screened funnels.
+- Watch next: Published pay ranges, structured scoring, candidate time limits, and evidence the chosen signals predict performance.
