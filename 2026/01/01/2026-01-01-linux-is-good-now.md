@@ -3,18 +3,17 @@
 - Score: 351 | [HN](https://news.ycombinator.com/item?id=46457770) | Link: https://www.pcgamer.com/software/linux/im-brave-enough-to-say-it-linux-is-good-now-and-if-you-want-to-feel-like-you-actually-own-your-pc-make-2026-the-year-of-linux-on-your-desktop/
 
 ### TL;DR
-PC Gamer’s Joshua Wolens argues Linux is finally a practical daily driver for PC gamers, largely thanks to polished gaming-focused distros like Bazzite and Valve’s Proton making most Windows titles “just work.” His switch is motivated less by performance and more by control: escaping Windows 11’s ads, AI features, upsells, and locked-in components. He concedes gaps—kernel-level anti-cheat, HDR, some peripherals—but says modern Linux feels simple, stable, and genuinely “owned” by the user, urging readers to dual-boot and try it in 2026.
 
----
+A PC Gamer writer argues desktop Linux has crossed from enthusiast project to practical Windows alternative, citing Bazzite’s low-maintenance gaming experience, Debian’s reliability, Proton compatibility, and freedom from Microsoft’s ads, subscriptions, and AI additions. Linux reached 3.2% of Steam users, though HDR and kernel-level anti-cheat remain gaps. HN reports were sharply hardware-dependent: several gamers described better stability and near-universal compatibility, while others encountered crashes, Wayland annoyances, Nvidia issues, and unsupported VR or simulation peripherals.
 
 ### Comment pulse
-- Linux gaming is viable now → Many report smoother, more stable gaming and zero adware on Linux, with only a few anti-cheat-heavy titles missing.  
-- Adoption constraints → Kernel anti-cheat, Nvidia drivers, VR headsets, and sim hardware still block some users—counterpoint: Valve’s ecosystem and better drivers are steadily shrinking these gaps.  
-- “It just works” divides users → Some see Steam + Proton as console-like; others hit crashes and Wayland quirks, arguing success depends heavily on distro, drivers, and hardware.
 
----
+- Gaming compatibility has broadened → mainstream coverage and Proton make Linux credible beyond servers, especially outside competitive shooters.
+- “It just works” remains configuration-dependent → drivers, Wayland, peripherals, and distro selection still determine outcomes.
+- Anti-cheat is the commercial bottleneck → Linux support often exists technically but must be enabled by game publishers.
 
 ### LLM perspective
-- View: Linux gaming crossed a usability threshold; the remaining issues are narrower but still painful edge cases.  
-- Impact: Power users, privacy-conscious gamers, and small LAN/indie communities can realistically abandon Windows first.  
-- Watch next: Native anti-cheat support, VR/peripheral compatibility matrices, and rising Steam Linux share will signal when Linux becomes a mainstream default.
+
+- View: Linux gaming has become a viable default for bounded hardware and game libraries, not a universal replacement.
+- Impact: Windows dissatisfaction now gives hardware vendors and publishers a measurable incentive to support Linux properly.
+- Watch next: Track Steam share, Nvidia driver quality, Steam Frame compatibility, and publisher adoption of Linux-capable anti-cheat.

@@ -2,15 +2,18 @@
 
 - Score: 131 | [HN](https://news.ycombinator.com/item?id=46452937) | Link: https://www.theguardian.com/australia-news/2025/may/02/hull-096-worlds-largest-electric-ship-battery-power-launched
 
-- TL;DR
-  - Tasmania’s Incat has launched Hull 096, a 130‑metre aluminum battery-electric ferry for Buquebus, carrying 2,100 passengers and 225 vehicles between Buenos Aires and Colonia across the Río de la Plata. Powered by 250 tonnes of batteries (>40MWh) and eight water jets for shallow waters, it runs 60km in 90 minutes then fast‑charges in 40 minutes at each port. HN discussion digs into aluminum construction, jet propulsion, transoceanic delivery logistics, and whether hydrofoils or swappable battery payloads could further boost efficiency.
+### TL;DR
 
-- Comment pulse
-  - Design choices: aluminum hull and water-jet propulsion cut weight and suit the estuary’s shallow, debris-prone waters—counterpoint: these may limit applicability to deep-ocean shipping.
-  - Operations: ~90 minutes sailing per charge for a 60km leg, with 40-minute DC fast-charging at each terminal integrated into local grids.
-  - Logistics and UX: delivery likely via heavy-lift ship; electric ferries already impress passengers with quiet, low-vibration, fume-free crossings versus diesel vessels.
+Tasmanian builder Incat launched Hull 096, a 130-meter battery-electric ferry for Buquebus’s Buenos Aires–Uruguay route. The aluminum vessel carries up to 2,100 passengers and 225 vehicles, stores more than 40 MWh in 250-plus tonnes of batteries, and drives eight water jets. HN supplied key operating context: its roughly 60-kilometer crossing takes 90 minutes, followed by an expected 40-minute charge at either port. Discussion focused on quiet operation, efficient construction, hydrofoils, and transporting the short-range ship to South America.
 
-- LLM perspective
-  - View: Short-range, high-frequency routes are the current sweet spot for battery ships; scaling beyond requires density and charging breakthroughs.
-  - Impact: Port operators, coastal regulators, and ferry companies gain a live reference for safety, grid impact, and maintenance economics.
-  - Watch next: independent performance data, lifecycle emissions versus diesel, and whether follow-on orders appear for freight or longer coastal routes.
+### Comment pulse
+
+- Route-specific electrification is already practical → predictable short crossings and charging at both terminals fit battery constraints.
+- Aluminum and water jets match the mission → low weight and shallow River Plate operations improve efficiency.
+- Delivery poses separate logistics → a semi-submersible heavy-lift ship is likelier than an unsupported ocean crossing.
+
+### LLM perspective
+
+- View: Hull 096 demonstrates that electrification succeeds first where routes, schedules, and charging are tightly bounded.
+- Impact: Ferry operators gain a large-scale reference case for cutting fumes, vibration, noise, and operational emissions.
+- Watch next: Compare real energy use, turnaround reliability, battery degradation, grid sourcing, maintenance, and delivery method.

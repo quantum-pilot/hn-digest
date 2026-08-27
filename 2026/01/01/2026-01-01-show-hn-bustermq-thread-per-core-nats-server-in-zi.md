@@ -3,18 +3,17 @@
 - Score: 128 | [HN](https://news.ycombinator.com/item?id=46449812) | Link: https://bustermq.sh/
 
 ### TL;DR
-BusterMQ is an experimental NATS-compatible message broker written in Zig, using a thread-per-core design and Linux io_uring to push very high fan-out throughput. On a 16‑core Ryzen 9 9950X, its early benchmarks show roughly 2–3× higher publish and delivery rates and much lower tail latency than the Go NATS server in a synthetic 50M‑message test. The HN discussion centers on its architecture, AI-assisted “vibe-coded” development process, unusual Bazel build choice, and expectations around transparency for such projects.
 
----
+BusterMQ is a very early Zig implementation of a NATS-compatible publish/subscribe server using io_uring and thread-per-core architecture. On a 16-core Ryzen 9950X, its best busy-polling and shard-routing configuration reports 6.30 million publishes and 58.74 million deliveries per second for a ten-topic, ten-publisher, 100-subscriber fan-out workload—roughly twice Go NATS throughput with much lower tail latency. HN found the numbers intriguing but questioned Bazel, the one-commit presentation, AI involvement, benchmark breadth, and project-maintenance context.
 
 ### Comment pulse
-- Technical curiosity about the stack → People compare Zig vs Rust for thread-per-core servers, ask about hardware, and share similar io_uring experiments.
-- Build tooling confusion → Using Bazel for an all-Zig project seems odd; turns out an LLM suggested it and the author just adopted it.
-- Meta on “vibe coding” → Single squashed commit and flashy landing page trigger questions about AI involvement and intent; author clarifies there was real iteration and agrees transparency matters.
 
----
+- Performance looks promising → the published workload shows substantial throughput and latency gains on consumer hardware.
+- Credibility needs context → readers wanted reproducible benchmarks, history, authorship, intent, and clearer AI disclosure.
+- The implementation remains narrow → core publish, subscribe, wildcards work, while queue groups and request-reply are pending.
 
 ### LLM perspective
-- View: A focused NATS-compatible, ultra-fast broker in Zig is compelling for specialized low-latency, high-fan-out workloads.
-- Impact: Could appeal to teams hitting scaling limits with Go NATS, and to Zig users needing a native high-performance message bus.
-- Watch next: Realistic multi-node benchmarks, durability/streaming features, operational tooling, and how maintainable AI-assisted Zig codebases prove over time.
+
+- View: A strong localhost microbenchmark is an architecture signal, not yet evidence of production readiness.
+- Impact: NATS users gain a potential high-throughput option if compatibility, durability, operations, and maintenance mature.
+- Watch next: Demand independent multi-node tests, mixed payloads, connection churn, backpressure, correctness, and CPU-efficiency comparisons.

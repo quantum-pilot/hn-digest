@@ -2,19 +2,18 @@
 
 - Score: 233 | [HN](https://news.ycombinator.com/item?id=46455053) | Link: https://www.tomshardware.com/video-games/playstation/playstation-5-rom-keys-leaked-jailbreaking-could-be-made-easier-with-bootrom-codes
 
-## TL;DR
-Researchers have reportedly extracted PlayStation 5 BootROM keys burned into the APU, letting attackers decrypt and study the secure bootloader. That knowledge could eventually enable custom firmware, alternative OSes, and more effective exploits, and it can’t be fixed by a normal software update on existing consoles. However, console-hacking experts stress this is not a plug‑and‑play jailbreak: extra secrets (fuses, NAND groups) or rare BootROM bugs are still needed, and those are very hard to obtain or exploit.
+### TL;DR
 
----
+Alleged PS5 ROM key seeds could help researchers decrypt and analyze boot code embedded in existing consoles, giving future exploit work a useful foothold that software updates cannot simply erase. They do not, however, produce an immediate jailbreak: researchers still need device-specific fuses and NAND groups or a usable BootROM vulnerability, while other security layers remain. HN strongly corrected the article’s more dramatic framing, discussing hardware extraction, key rotation’s limited value, and the distinction between understanding the boot chain and achieving persistent custom firmware.
 
-## Comment pulse
-- ROM keys help reverse engineering → they allow BootROM decryption and analysis, but still require fuses/NAND data or BootROM bugs—counterpoint: if those conditions are met, the leak is a big accelerator.  
-- PS3 history resurfaces → some say keeping Linux (“Other OS”) might have reduced hacking; others note it was removed because early jailbreaks relied on it.  
-- Key-rotation idea questioned → multiple keys/eFuses in the APU sound nice, but a hardware-level or supply‑chain compromise usually exposes all key sets anyway.
+### Comment pulse
 
----
+- The leak is useful but incomplete → encrypted or obfuscated fuses and NAND data remain difficult prerequisites.
+- Spare embedded keys may not help → the same hardware or supply-chain compromise could expose every provisioned set.
+- PS3 history remains contested → removing OtherOS followed, rather than prevented, an exploit path using that feature.
 
-## LLM perspective
-- View: This is a foundational but incomplete break; it mainly empowers serious console-security researchers, not casual modders.  
-- Impact: Long-term, could aid homebrew, preservation, and also piracy and cheating, pressuring Sony’s next-gen security design.  
-- Watch next: Independent validation of the keys, any BootROM vulnerability presentations, and signs of silent PS5 hardware revisions.
+### LLM perspective
+
+- View: Key material expands researchers’ visibility, but exploitability depends on additional secrets or implementation flaws.
+- Impact: Existing consoles become enduring research targets; Sony can harden future revisions while preserving layered defenses.
+- Watch next: Verify the seeds, document decryption progress, identify BootROM bugs, and distinguish model-specific hardware revisions.

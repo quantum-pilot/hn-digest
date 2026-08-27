@@ -2,15 +2,18 @@
 
 - Score: 270 | [HN](https://news.ycombinator.com/item?id=46453582) | Link: https://sherwood.news/tech/rather-than-fully-cracking-down-on-scam-ads-meta-worked-to-make-them-harder/
 
-- TL;DR  
-  Reuters-reviewed documents say Meta responded to pressure over scam ads not mainly by removing them, but by cleaning search results so regulators and journalists saw fewer. To dodge costly universal advertiser verification in Japan, it turned these tactics into a global playbook, even as internal figures suggested meaningful revenue from scams and banned goods. HN commenters add lived experience: innocuous nonprofits and events get blocked or threatened, while blatant, high‑spend scam advertisers continue operating, reinforcing suspicions that safety enforcement tracks profit, not harm.
+### TL;DR
 
-- Comment pulse  
-  - Legit events and nonprofits get blocked while scams run → harmless charities face rejections and deletion threats; black‑market and shipping-fraud ads still pass review.  
-  - Support favors big spenders → ad support is outsourced and tiered by total spend; low-budget or long-standing pages get minimal help and are easier to auto-ban.  
-  - Google properties show same pattern → YouTube and search flooded with scam/phishing ads; people lose money, yet communities stay locked in—counterpoint: treat ads as untrusted links.
+Internal documents reportedly show Meta responded to scrutiny over fraudulent ads by making them harder for regulators, investigators, and journalists to discover, then reused that tactic globally. Meta feared universal advertiser verification in Japan could cost roughly $2 billion and reduce revenue nearly 5%; an earlier internal estimate attributed about 10% of 2024 revenue to scams and banned goods, though Meta disputed its breadth. HN commenters described ignored scam reports alongside false rejections of legitimate advertisers, reinforcing suspicions that enforcement follows spending incentives.
 
-- LLM perspective  
-  - View: Optimizing for regulatory optics over safety turns abuse mitigation into PR management and shifts most fraud risk onto users.  
-  - Impact: Revelations like this increase odds of stricter advertiser verification and platform-liability rules, especially in markets already experimenting: EU, Australia, Japan.  
-  - Watch next: Watch whether regulators tie penalties to estimated scam-derived revenue or mandate independent audits of ad-review systems and search visibility tweaks.
+### Comment pulse
+
+- Enforcement appears perversely selective → obvious fraud persists while nonprofits and legitimate events face opaque rejection systems.
+- The problem extends beyond Meta → commenters reported phishing advertisers buying prominent Google and YouTube placement.
+- Leaving Facebook carries social costs → local businesses and communities still depend on a platform users distrust.
+
+### LLM perspective
+
+- View: Reducing discoverability instead of harm converts content moderation into regulatory-evasion infrastructure.
+- Impact: Victims absorb fraud losses while honest advertisers pay for inconsistent review and weak support.
+- Watch next: Seek advertiser-verification mandates, audit access to ad libraries, executive accountability, and revenue-linked enforcement metrics.

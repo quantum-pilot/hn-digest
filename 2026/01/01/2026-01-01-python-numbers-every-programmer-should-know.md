@@ -3,18 +3,17 @@
 - Score: 258 | [HN](https://news.ycombinator.com/item?id=46454470) | Link: https://mkennedy.codes/posts/python-numbers-every-programmer-should-know/
 
 ### TL;DR
-This piece systematically benchmarks Python latency and memory costs for core operations, collections, JSON libs, web frameworks, I/O, DBs, and async. It shows most in-process primitives are tens of nanoseconds (attribute read, dict/set lookup, list append, function call), while imports, file I/O, databases, and asyncio introduce microseconds to milliseconds of overhead. Memory overhead is substantial (ints ~28 B, empty list 56 B, regular instances ~3× `__slots__`). Alternatives like `orjson`/`msgspec` and lightweight ASGI frameworks are significantly faster. HN debates whether such micro-benchmarks are practically useful versus focusing on algorithms, profiling, and language choice.
 
----
+Benchmarks on CPython 3.14.2 and an M4 Pro map common operations from nanoseconds to milliseconds and quantify Python’s object overhead. Highlights include 22 ns dictionary lookups, 29 ns list appends, 9 μs file opens, 104 ms FastAPI imports, 28-byte integers, and regular five-attribute objects exceeding three times the size of slotted versions. HN debated whether such constants guide useful optimization or distract from algorithms, profiling, and moving hot paths into native extensions; results remain machine- and workload-specific.
 
 ### Comment pulse
-- Knowing these costs helps fix sloppy hot loops and keep large Python systems viable → big shops (Instagram, Dropbox, OpenAI) prove Python can scale—counterpoint: when this matters, Python often isn’t the right tool.  
-- Critics: absolute ns/byte figures are less useful than time/space complexity and profiling → optimize algorithms first, then drop hot paths to C/Rust or Cython if needed.  
-- Some argue Python survives thanks to fast C extensions and is “surprisingly slow” at basics → others accept overhead as tradeoff for productivity and cheap hardware.
 
----
+- Knowing relative costs helps rescue mature Python systems → inefficient hot loops may matter more than language replacement.
+- Profile before memorizing constants → real bottlenecks usually involve algorithms, I/O, imports, or production-specific workloads.
+- Crossing Python’s ceiling has established remedies → C, Rust, Cython, JITs, and optimized libraries preserve higher-level scaffolding.
 
 ### LLM perspective
-- View: Treat these numbers as intuition-builders and relative ratios, not rules; combine with profiling and algorithmic thinking.  
-- Impact: Python backend devs, library authors, data engineers, and tool builders making tradeoffs around JSON, async, and storage.  
-- Watch next: Re-benchmark on future CPython releases, alternative interpreters, and under real workloads (networked DBs, multi-process, containerized environments).
+
+- View: The table is most useful as an intuition reset and experiment checklist, not a portable performance contract.
+- Impact: Developers can prioritize data structures, import latency, serialization, and object density before undertaking rewrites.
+- Watch next: Reproduce suspicious measurements, particularly database deletion and framework latency, across platforms and Python versions.

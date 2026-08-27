@@ -3,18 +3,17 @@
 - Score: 143 | [HN](https://news.ycombinator.com/item?id=46454977) | Link: https://www.bloomberg.com/news/articles/2026-01-01/byd-sells-4-6-million-vehicles-in-2025-meets-revised-sales-goal
 
 ### TL;DR
-BYD reports 4.6M vehicle sales for 2025, meeting a revised target and underscoring China’s dominance in EV/PHEV production and exports. HN discussion focuses less on the headline number and more on whether such growth is investable or acceptable: low auto margins, dependence on Chinese subsidies, governance risks for foreign shareholders, and allegations of “dumping” versus normal logistics. Commenters also debate BYD’s weak human‑rights/supply‑chain record, the broader harms of EV production, and whether Western bans on Chinese cars are protectionism or national security.
 
----
+BYD delivered 4.6 million vehicles in 2025, up 7.7%, meeting a reduced target and likely overtaking Tesla in battery-electric sales. Growth slowed sharply amid stronger Chinese rivals, reduced incentives, discounting scrutiny, and trade barriers, but overseas deliveries reached 1.05 million; management targets 1.5–1.6 million abroad in 2026. HN debated why operating dominance has not rewarded shareholders, citing auto-industry margins, Chinese equity risk, subsidies, debt claims, human-rights concerns, and industrial-security tradeoffs.
 
 ### Comment pulse
-- BYD is a real automaker with low margins and subsidy exposure → investors price it like an auto firm, unlike Tesla’s narrative premium and AI/self‑driving hype.  
-- BYD scores poorly on human rights → Amnesty flags vague supply‑chain policies; critics see industry‑wide failure, not an outlier — counterpoint: many buyers in emerging markets prioritize cost over ethics.  
-- Claims of “dumping” and dangerous debt → supporters say parking lots are staging areas, debt is modest vs peers; debate shifts to tariffs, deindustrialization, and disguised protectionism.
 
----
+- Sales leadership does not guarantee investor returns → manufacturing margins, policy exposure, and foreign-shareholder risk constrain valuation.
+- Inventory and debt claims were contested → critics saw overproduction; others described normal export staging and manageable leverage.
+- Cheap Chinese EVs sharpen policy conflict → affordability competes with supply-chain ethics, surveillance concerns, and domestic industrial capacity.
 
 ### LLM perspective
-- View: Chinese EV scale and cost will keep pressuring global incumbents regardless of Western skepticism about governance or human rights.  
-- Impact: Western automakers, unions, and suppliers face margin compression; consumers get cheaper EVs; emerging markets become primary battlegrounds.  
-- Watch next: EU/US tariff regimes, BYD export profitability, independent audits of battery supply chains, and any coordinated Western industrial policy response.
+
+- View: BYD’s decisive test is profitable international scale after domestic incentives and hypergrowth fade.
+- Impact: Consumers may gain cheaper EVs while incumbent automakers and governments confront manufacturing dependence.
+- Watch next: Track overseas registrations, margins, incentive changes, export barriers, and promised platform launches.

@@ -2,15 +2,18 @@
 
 - Score: 141 | [HN](https://news.ycombinator.com/item?id=46451124) | Link: https://flow5.tech/docs/releasenotes.html
 
-- TL;DR  
-flow5 is a mature low‑Reynolds-number aerodynamics and hydrodynamics tool that has now gone fully open source. It combines geometry modeling (wings, planes, hydrofoils, sails), robust mesh generation (including CAD/STL and now Gmsh), several panel/VLM methods, and modern vortex‑particle wake simulation, with extensive pre/post‑processing, scripting, and optimization. The multi‑year changelog shows heavy attention to numerical correctness, stability, and UI polish. HN commenters highlight its value for education, sail/wing design, and parallel performance on many CPU cores.
+### TL;DR
 
-- Comment pulse  
-  - Open‑sourced, feature‑rich aero/sail tool → exciting for hobbyists, students, and small teams needing serious but affordable low‑Re analysis.  
-  - Similar lineage to xflr5/sail7 → people already using earlier open tools see this as a natural, more capable successor.  
-  - Strong multi‑thread scaling lauded → good fit for numerically parallel workloads—counterpoint: not every engineering problem benefits from naive parallelization.
+Flow5, a potential-flow solver for preliminary design and analysis of low-Reynolds-number planes, wings, hydrofoils, and sails, became free and open-source in version 7.53. The release also changed the project format, raised the default OpenGL context, improved foil-editing responsiveness, enabled XFoil analyses, and cleaned Wayland compatibility. A companion 7.54 release integrated Gmsh and refactored modeler and solver code into a library. HN welcomed the source release, parallel performance, and potential educational uses.
 
-- LLM perspective  
-  - View: Rare, production‑grade niche solver going FOSS; likely to become a de‑facto standard for low‑Re wing/sail design.  
-  - Impact: University courses, FOSS CAD/CFD stacks, and DIY UAV/boat communities gain a validated, scriptable analysis backbone.  
-  - Watch next: Community ports, conda/Flatpak packaging, benchmark suites versus AVL/commercial CFD, and contributions around teaching presets and example projects.
+### Comment pulse
+
+- The project fills a specialized engineering niche → integrated modeling, solving, meshing, and visualization support rapid preliminary designs.
+- Open source enables extension → readers immediately surfaced the repository and links to predecessor Sail7.
+- Parallel scaling is valued → numerical workloads can exploit more cores, though not every algorithm benefits equally.
+
+### LLM perspective
+
+- View: Opening the solver matters most if its validation assumptions become as accessible as its implementation.
+- Impact: Researchers, designers, and educators can inspect methods, automate workflows, and tailor analyses without licensing constraints.
+- Watch next: Track contributor activity, reproducible benchmarks, API adoption, file compatibility, and teaching-oriented examples.

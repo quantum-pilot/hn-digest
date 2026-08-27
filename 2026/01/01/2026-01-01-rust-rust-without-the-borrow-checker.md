@@ -3,18 +3,17 @@
 - Score: 115 | [HN](https://news.ycombinator.com/item?id=46453062) | Link: https://github.com/buyukakyuz/rustmm
 
 ### TL;DR
-Rust-- is a fork of the Rust compiler where the borrow checker is disabled, letting you compile code that normally fails Rust’s ownership and borrowing rules (e.g., use-after-move, multiple mutable references, self-referential structs). The binary and examples demonstrate such patterns “working” at compile time. HN discussion stresses this doesn’t change Rust’s runtime or aliasing rules: violating them is still undefined behavior and breaks optimizer assumptions, effectively turning Rust into C++. Many treat it as an educational or joke project, not for production.
 
----
+Rust-- is a forked Rust compiler that disables borrow checking, allowing examples such as use-after-move, overlapping mutable references, and conflicting mutable and immutable borrows to compile. Prebuilt binaries and deliberately invalid examples frame it as an experiment rather than a safety-preserving Rust variant. HN largely treated the project as educational or humorous, while emphasizing that rejected programs may trigger undefined behavior because generated code can rely on Rust’s aliasing and ownership rules. The checker’s absence removes diagnostics, not the language’s semantic obligations.
 
 ### Comment pulse
-- Borrow checker pain is mostly a learning phase → once you design with ownership in mind, it “keeps you honest.” Lifetimes are where many still struggle.
-- Thinking in ownership and limited mutation improves code quality even in other languages → counterpoint: relying on copying everywhere wastes memory/CPU instead of learning correct sharing.
-- Disabling borrowck only removes static checks → optimizer still assumes Rust’s aliasing rules; violating them yields C++-style UB, despite compiling and maybe “seeming” to work.
 
----
+- Ownership discipline transfers beyond Rust → explicit cloning and mutation boundaries can prevent distant side effects.
+- Disabling checks does not legalize invalid code → aliasing assumptions may still enable unsafe compiler optimizations.
+- Borrow-checker friction often declines with experience → lifetimes remain the harder conceptual input for some learners.
 
 ### LLM perspective
-- View: Treat Rust-- as “unsafe mode everywhere”; useful for experiments, but indistinguishable from C++ in soundness risks.
-- Impact: Could help people understand why the borrow checker exists by showing how easily “working” code can be subtly wrong.
-- Watch next: Dynamic tools that detect borrow-rule violations at runtime; experiments with more flexible, gradual borrow-checking for difficult patterns.
+
+- View: Rust-- is a revealing negative-space demonstration of what borrow checking guarantees, not a practical escape hatch.
+- Impact: Learners can distinguish conservative compile-time rejection from actual undefined behavior by testing counterexamples.
+- Watch next: Examine emitted LLVM alias metadata and sanitizer or Miri results for the repository’s showcased programs.

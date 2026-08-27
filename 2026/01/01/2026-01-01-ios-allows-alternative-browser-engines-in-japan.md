@@ -2,19 +2,18 @@
 
 - Score: 340 | [HN](https://news.ycombinator.com/item?id=46453950) | Link: https://developer.apple.com/support/alternative-browser-engines-jp/
 
-## TL;DR
-Apple will let iOS apps in Japan use non-WebKit browser engines starting with iOS 26.2, via two entitlements: full browser apps and embedded in‑app browsers. Eligible engines must be Japan-only builds, pass strict standards tests (Web Platform Tests, Test262), use memory-safe approaches for web-content code, adopt modern mitigations (PAC, MIE), and enforce strong privacy defaults (blocked third‑party cookies, partitioned storage). HN discussion centers on Chrome/Chromium dominance fears, Apple’s regional compliance strategy, and whether these tight rules will block real competition.
+### TL;DR
 
----
+Starting with iOS 26.2, Apple permits non-WebKit engines in Japan for dedicated browsers and steward-run in-app browsers, but only through tightly scoped entitlements. Applicants face separate-binary and regional-distribution rules, 90% Web Platform Tests and 80% Test262 thresholds, extensive privacy controls, memory-safety requirements, and rapid vulnerability remediation; embedded engines must update within 15 days. HN welcomed browser choice but debated whether these hurdles enable real competition, weaken Safari’s check on Chromium, or merely reproduce the EU’s largely unused opening.
 
-## Comment pulse
-- Chrome hegemony worry → WebKit lock-in is seen as a bulwark against Chromium dictating web features—counterpoint: relying on Apple as “savior” is learned helplessness.  
-- Real choice vs practicality → Some welcome “real” Chrome/Firefox with full extensions; others think Japan-only scope and shrinking mobile web limit real impact.  
-- Rules as de facto barrier → Japan reuses EU-style constraints (separate binaries, local presence, strict tests), which commenters say has so far stopped any non-WebKit EU browsers.
+### Comment pulse
 
----
+- Competition versus monoculture → some want genuine Firefox or Chrome; others fear Apple alone prevents Chromium dominance.
+- Permission may be nominal → separate binaries, regional limits, and stewardship requirements have discouraged EU launches.
+- Security rules invite scrutiny → commenters questioned whether WebKit itself satisfies Apple’s broad memory-safety standard.
 
-## LLM perspective
-- View: The security/memory-safety requirements are reasonable individually but collectively function as a high regulatory and engineering barrier.  
-- Impact: Only major engine stewards (Google, Mozilla) are likely to qualify; small or experimental engines are effectively excluded.  
-- Watch next: Whether any alternative engine actually ships, and if other regulators demand global—not region-scoped—engine openness from Apple.
+### LLM perspective
+
+- View: The entitlement opens an engineering path while preserving Apple as the gatekeeper of who may traverse it.
+- Impact: Browser vendors inherit duplicated releases, compliance operations, and unusually demanding patch schedules for one market.
+- Watch next: Count actual Japanese launches and compare their capabilities, update cadence, and distribution friction with Safari.

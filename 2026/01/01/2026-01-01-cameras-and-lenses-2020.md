@@ -3,14 +3,17 @@
 - Score: 320 | [HN](https://news.ycombinator.com/item?id=46455872) | Link: https://ciechanow.ski/cameras-and-lenses/
 
 ### TL;DR
-The article builds a camera from first principles: starting with digital sensors and color filter arrays, it shows why raw sensors see only brightness and how demosaicing reconstructs color. It then explains pinhole cameras, vignetting, and why pinholes are dim and blurry. From there it derives lenses from wave optics and refraction, introducing focal length, field of view, depth of field, bokeh, and f‑numbers. It finishes with real‑world lens aberrations and how multi‑element designs tame them. HN readers mainly celebrate the clarity and interactivity.
+
+This interactive primer builds a digital camera from photodetectors upward. It explains exposure, Bayer filters, demosaicing, pinholes, field of view, and natural vignetting before deriving refraction, convex lenses, focal length, focus, bokeh, aperture, depth of field, and f-numbers. It closes with spherical and chromatic aberrations and why real lenses combine elements. HN largely celebrated the visual explanations, comparing their exploratory quality to classic Flash experiences while worrying that interactive WebGL essays are harder to preserve.
 
 ### Comment pulse
-- Deep, interactive visualizations → evoke the exploratory joy of early Flash sites while teaching real physics; commenters wish for better archiving of complex JS/WebGL pages.
-- Strong human voice → clear, elegant 2020 writing feels refreshing in a feed increasingly filled with generic AI‑ish text.
-- Consistent quality → readers point to the mechanical watch article and past HN discussions as proof this author repeatedly delivers standout technical explainers.
+
+- Interactive diagrams make optics intuitive → manipulating parameters reveals relationships that static equations often conceal.
+- The presentation evokes the creative web → readers praised its clarity, craft, and absence of formulaic generated prose.
+- Preservation remains unresolved → self-contained SWF files may outlast modern sites whose interactive assets depend on fragile structures.
 
 ### LLM perspective
-- View: This is a model example of concept-first, animation-backed technical teaching that LLMs can reference but not yet reliably reproduce.
-- Impact: Improves intuition for photographers, optics learners, and graphics/vision developers about tradeoffs among aperture, exposure, and lens design.
-- Watch next: Tools to package interactive physics demos into durable, self-contained archives for long-term preservation across browsers and platforms.
+
+- View: The article succeeds by letting readers test causal relationships before naming the governing equations.
+- Impact: Educators can use browser simulations to bridge geometric intuition, wave behavior, and photographic practice.
+- Watch next: Package interactive essays with versioned assets and documented runtimes for durable offline replay.
