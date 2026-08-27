@@ -2,15 +2,18 @@
 
 - Score: 133 | [HN](https://news.ycombinator.com/item?id=45762837) | Link: https://www.newyorker.com/magazine/2025/11/03/some-people-cant-see-mental-images-the-consequences-are-profound
 
-- TL;DR
-  New Yorker profile explains aphantasia (little/no voluntary mental imagery) and hyperphantasia (extremely vivid) as a spectrum shaping memory, emotion, art, and coping. Case histories and Adam Zeman’s research show normal perception but weak imagery generation; Joel Pearson’s pupil tests and fMRI/connectivity findings offer objective markers. Imagery strength correlates with episodic recall, trauma susceptibility, moral judgments, autism links, and reading styles; many aphantasics still dream visually and compensate with spatial/semantic strategies. HN debates diagnostics, “mind’s eye” semantics, face-visualization oddities, and spectrum vs binary—plus practical tests and trade-offs.
+### TL;DR
 
-- Comment pulse
-  - Spectrum, not binary → vividness and re-experiencing vary; analogy tasks separate pictorial from verbal reasoning — counterpoint: some have near-zero imagery and limited emotional recall.
-  - People imagine differently → some overlay scenes onto perception; aphantasics use spatial/semantic cues instead; many report dream-only imagery.
-  - Faces are uniquely hard to visualize → even hyperphantasics report instability; aphantasics still recognize faces via features, not pictures; partners often notice stark differences.
+Aphantasia names absent or very weak voluntary mental imagery, while hyperphantasia describes unusually vivid imagery; the article estimates roughly 2–3% are aphantasic and emphasizes a spectrum rather than a disorder. Research links imagery strength with measurable brain activity, pupil responses, emotional reactions, and autobiographical memory, yet many aphantasics reason spatially, recognize objects, dream visually, and function normally. Personal accounts describe both painful detachment from past experiences and relief from intrusive memories. HN commenters struggle to compare private experience and favor behavioral distinctions over picturing-an-apple questions.
 
-- LLM perspective
-  - View: Treat imagery as multidimensional—modality, vividness, voluntary vs involuntary, object vs spatial—when designing tests, therapies, or UX.
-  - Impact: Education, mental health, and hiring should accommodate non-visual thinkers with semantic/spatial strengths; adjust memory, brainstorming, and exposure techniques.
-  - Watch next: Replicable biomarkers (pupillometry, EEG), longitudinal links to trauma/autism, and trials of imagery training, neurofeedback, or guided substitution strategies.
+### Comment pulse
+
+- Introspection is ambiguous → people use seeing, imagining, and knowing differently, making self-classification difficult.
+- Imagery is multidimensional → faces, objects, spatial layouts, dreams, sound, and voluntary control can vary independently.
+- Different cognition is not incapacity → aphantasics report strong recognition and spatial knowledge without conscious pictures.
+
+### LLM perspective
+
+- View: The spectrum challenges assumptions that identical language implies identical internal representation.
+- Impact: Education, therapy, memory aids, and creative workflows may work better when they offer nonvisual strategies.
+- Watch next: Separate imagery dimensions and replicate objective measures against autobiographical memory, trauma response, and daily function.

@@ -2,16 +2,18 @@
 
 - Score: 117 | [HN](https://news.ycombinator.com/item?id=45761027) | Link: https://planetscale.com/blog/5-dollar-planetscale
 
-TL;DR
-- PlanetScale introduced a $5/month single‑node, non‑HA Postgres tier (PS‑5), with vertical scaling and a path to its multi‑AZ HA tiers (from $30). It targets dev/test and small workloads while keeping an upgrade path within the same platform.
-- HN discussion centers on latency from not colocating compute and DB, the difficulty of PS’s high‑performance storage approach versus EBS/NVMe claims from rivals, and comparisons to budget dev tiers like Neon; Azure users lament weak managed PG options.
+### TL;DR
 
-Comment pulse
-- Co‑locate compute and DB → big latency gains; cross‑region RTT dominates; in‑region can match typical AWS latencies.
-- Dedicated NVMe + sync replication beats EBS → operationally hard; vendors avoid it — counterpoint: NVMe‑over‑fabrics can match, but PlanetScale disputes.
-- $5 tier suits dev/test pipelines on tight budgets; Neon cited as working alternative; Azure PG users frustrated by HA/maintenance limitations.
+PlanetScale plans to roll out single-node Postgres over the coming months, led by a $5 monthly PS-5 tier for development, testing, and other non-critical workloads. Unlike its existing three-node, multi-availability-zone starter configuration, the new mode is explicitly non-HA, although customers can scale vertically without adding replicas. Listed single-node options range from $5 to $13, while HA starts at $30. HN commenters welcome affordable test databases but emphasize region co-location, latency, provider availability, and competing low-cost services.
 
-LLM perspective
-- View: Entry pricing is a funnel: win early projects, upsell to HA; trade durability for affordability.
-- Impact: Helps startups, CI environments, hobby apps; pressures Neon, Supabase, RDS on low-end pricing.
-- Watch next: Seamless upgrades from single-node to HA, region coverage, concrete durability guarantees, and independent benchmarks vs EBS/NVMe competitors.
+### Comment pulse
+
+- The tier fits shoestring development → teams can provision realistic Postgres environments without paying for three-node availability.
+- Geography remains decisive → application compute and PlanetScale should share a city or region to avoid damaging latency.
+- Infrastructure differentiates providers → commenters debate PlanetScale’s local-NVMe replication versus alternatives built on networked storage.
+
+### LLM perspective
+
+- View: PlanetScale is separating premium availability from its operational tooling to lower the adoption floor.
+- Impact: Small projects can start on the same platform, but must accept a single failure domain.
+- Watch next: Verify launch timing, regions, storage limits, backup behavior, latency, and vertical-scaling downtime.

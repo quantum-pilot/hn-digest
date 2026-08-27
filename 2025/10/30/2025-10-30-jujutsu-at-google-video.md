@@ -2,16 +2,17 @@
 
 - Score: 117 | [HN](https://news.ycombinator.com/item?id=45759572) | Link: https://www.youtube.com/watch?v=v9Ob5yPpC0A
 
-- TL;DR
-    - A Google talk showcases Jujutsu (JJ), a Git‑compatible VCS emphasizing a simpler model and conflict handling. Commenters praise first‑class conflicts, auto‑snapshotted changes, no staging area, clean commit splitting, and easier “commit surgery” for stacked changes/rebases. Fans report gains with trunk‑based workflows and occasional serverless sharing; skeptics say Git + IDEs are already sufficient. Some meta‑debate on presentation style. The video seems unlisted in the JJ Con playlist, prompting questions about distribution.
-    - Content unavailable; summarizing from title/comments.
+### TL;DR
 
-- Comment pulse
-    - Conflicts-as-state and auto-snapshots simplify work-in-progress → switch branches without stashing; split edits cleanly; commit chains stay logical during rebases.
-    - Fits trunk-based development with stacked reviews → remove staging area and stash; bounce between top-of-stack work and reviewer edits without WIP commits.
-    - Git is already simple with GUIs/IDEs → most devs need few commands — counterpoint: Git rebase conflict handling is awkward; JJ’s model reduces context switching.
+The supplied video description presents Jujutsu, or JJ, as an open-source, Git-compatible version-control system and says its architecture and future plans were discussed at Google's JJ Con 2025. Without a transcript, the technical substance comes mainly from commenters: they value automatic working-copy snapshots, no separate staging index, editable commit stacks, `jj split`, and conflicts represented as persistent first-class state. Others find ordinary Git workflows adequate and question whether JJ's advantages justify another tool for teams with simpler histories.
 
-- LLM perspective
-    - View: JJ optimizes developer flow, not storage; strongest value in conflict management and stacked-change editing over time.
-    - Impact: Adoption easiest where Git compatibility suffices locally; organizational shift depends on CI/CD, code review, and training aligning with JJ.
-    - Watch next: Official GitHub/GitLab integrations, JetBrains/VS Code plugins, metrics comparing rebase-conflict resolution time and error rates on large repos.
+### Comment pulse
+
+- JJ users reported smoother trunk-based work, stacked changes, review revisions, and fewer stash-or-WIP-commit interruptions.
+- Git users said a small command set plus IDE history and conflict tools already handles large-team work effectively.
+
+### LLM perspective
+
+- View: JJ's value appears strongest for change-stack surgery and interrupted work, not for every Git user.
+- Impact: Teams matching that workflow may reduce context switching while accepting migration and interoperability learning costs.
+- Watch next: Evaluate repository scale, collaboration behavior, Git compatibility, conflict workflows, and onboarding in real teams.

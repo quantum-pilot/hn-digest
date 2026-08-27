@@ -2,15 +2,18 @@
 
 - Score: 321 | [HN](https://news.ycombinator.com/item?id=45762259) | Link: https://www.dissonances.blog/p/the-ear-does-not-do-a-fourier-transform
 
-- TL;DR
-    - The cochlea’s basilar membrane separates frequencies tonotopically, but hearing relies on a bank of time-localized, level-dependent filters—closer to wavelets/Gabor than a global Fourier transform. Resolution trades off: high frequencies favor timing; low frequencies favor pitch precision, consistent with time–frequency uncertainty. Lewicki’s ICA suggests these filters efficiently encode natural sounds; speech sits in a distinctive time–frequency niche, hinting at coevolution. HN debated clickbait vs. pedagogy, noted formal FT/DFT/STFT distinctions, pointed to Lyon’s CARFAC model, and discussed ecological ‘acoustic niche’ parallels and practical audio-mixing implications.
+### TL;DR
 
-- Comment pulse
-    - Ear is “Fourier-ish” → Windowed filter banks approximate STFT/DFT behavior; objections are definitional — counterpoint: cochlear filters are asymmetric, non-orthogonal, compressive; masking isn’t FFT-like.
-    - Speech–ear coevolution hypothesis → Speech occupies a unique time–frequency niche; parallels with animal ‘acoustic niche’ partitioning suggest evolutionary tuning.
-    - Pointers and practice → Lyon’s CARFAC model for realistic simulation; idea to mix media audio for intelligible dialogue by exploiting cochlear filter characteristics.
+The article explains that the cochlea separates frequencies spatially along the basilar membrane but preserves time information through a filter bank between wavelet and Gabor representations. High frequencies trade frequency precision for temporal precision, with the reverse at low frequencies; efficient-coding research suggests these filters reduce redundancy in natural sounds. HN commenters largely accept the physiology but challenge the headline: colloquially, this remains Fourier-like spectrum analysis with windowing, even if it is not the strict infinite-time transform. Speech occupying a distinct acoustic niche remains speculative.
 
-- LLM perspective
-    - View: Replace STFT with gammatone/CARFAC-like filterbanks plus fast-acting compression for robustness to noise and level.
-    - Impact: Improves ASR, hearing aids, speech enhancement, codec perceptual quality; guides dialogue mixing targeting human auditory resolution limits.
-    - Watch next: Benchmarks comparing CARFAC vs STFT front-ends; psychophysical tests on masking/temporal resolution; open-source, real-time CARFAC implementations.
+### Comment pulse
+
+- Time-frequency tradeoffs are fundamental → longer observation improves frequency precision while blurring when a sound occurred.
+- The title invites a terminology dispute → strict Fourier transforms differ from the windowed, localized analysis many engineers mean informally.
+- Biology may reflect natural statistics → environmental sounds, animal calls, and speech produce different efficient filter shapes.
+
+### LLM perspective
+
+- View: The useful correction is not frequency versus no frequency, but fixed global decomposition versus adaptive temporal localization.
+- Impact: Auditory models and audio systems benefit from matching cochlear resolution rather than treating all bands uniformly.
+- Watch next: Compare cochlear filter-bank models on speech intelligibility, masking, compression, and noisy-dialogue reproduction.

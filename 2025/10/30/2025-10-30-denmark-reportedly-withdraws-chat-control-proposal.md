@@ -2,15 +2,17 @@
 
 - Score: 122 | [HN](https://news.ycombinator.com/item?id=45765664) | Link: https://therecord.media/demark-reportedly-withdraws-chat-control-proposal
 
-- TL;DR
-    - Denmark’s justice minister dropped the push for EU “Chat Control” that would mandate scanning all messages, after Germany refused support. Copenhagen now favors keeping today’s voluntary CSAM detection (set to lapse in April) and removing any client-side scanning “search warrant.” Signal had threatened to exit the EU if mandates passed. HN frames this as a tactical retreat: proposals may return via a new compromise; grassroots email campaigns are credited; commenters question lenient CSAM sentencing and the utility of Denmark’s borgerforslag channel.
+### TL;DR
 
-- Comment pulse
-    - Ongoing risk → Denmark seeks to enshrine voluntariness in December CSA talks; measures can return later — counterpoint: Germany’s stance likely blocks mandates now.
-    - Punishment/credibility critique → A politician tied to Hummelgaard got 4 months for large CSAM possession; surveillance claims ring hollow if penalties stay lenient.
-    - Civic channels → Borgerforslag seen as ineffective; volunteers plan to clone the campaign site to coordinate direct email outreach.
+Denmark's justice minister said the country's EU Council presidency would stop pursuing mandatory scanning of electronic messages, including end-to-end encrypted services, after Germany withheld support and controversy intensified. The revised compromise would preserve voluntary detection of child sexual abuse material by large platforms, whose current authorization expires in April. Signal had warned that mandatory scanning amounted to mass surveillance and threatened to leave Europe. Commenters emphasized that the broader regulation and December negotiations remain active, making this a retreat from one mechanism, not a settled endpoint.
 
-- LLM perspective
-    - View: Retreat favors platform hash-matching over client-side scanning, preserving E2EE while maintaining some detection.
-    - Impact: Secure messengers avoid EU exit threats; big platforms keep voluntary scanning; lawmakers retain leverage via CSA regulation renewal.
-    - Watch next: April expiry negotiations, Council–Parliament trilogues, and any rebrand of device scanning as “upload moderation” or “lawful access” carve-outs.
+### Comment pulse
+
+- Opponents credited sustained public pressure and expected mandatory scanning to return under revised language.
+- Discussion of Danish politicians' motives and unrelated criminal cases was speculative and did not establish the proposal's merits.
+
+### LLM perspective
+
+- View: Removing mandatory scanning narrows the immediate encryption threat without resolving child-safety policy or voluntary-scanning oversight.
+- Impact: Platforms retain discretion while legislators face an April deadline for the existing legal framework.
+- Watch next: Examine the December compromise, Germany's position, authorization safeguards, and whether client-side scanning reappears.

@@ -2,15 +2,18 @@
 
 - Score: 303 | [HN](https://news.ycombinator.com/item?id=45760328) | Link: https://therecord.media/us-declines-signing-cybercrime-treaty?
 
-- TL;DR
-    - Over 70 nations signed the new UN cybercrime convention in Hanoi, creating the first global framework for electronic evidence sharing, a 24/7 cooperation network, and new offenses (including non‑consensual intimate images). The U.S. declined, saying it’s still reviewing. Supporters tout help for Global South capacity and tackling ransomware, trafficking, and money laundering. Critics—industry and rights groups—warn it could criminalize security research, expand cross‑border surveillance, and enable authoritarian abuse. HN discussion largely backs U.S. abstention and notes several democracies also held off.
+### TL;DR
 
-- Comment pulse
-    - US abstention is prudent → treaty enables surveillance, criminalizes security research, and could empower authoritarian cross-border repression — counterpoint: UK/EU signatures signal cooperation benefits.
-    - Opting out doesn’t block cooperation → existing MLATs and regional treaties handle evidence sharing without new surveillance mandates; US privacy record remains contested.
-    - Signatory map alarms critics → China, Russia, North Korea signed; notable abstainers include Canada, Germany, Japan, India, South Korea, Switzerland, Mexico, Finland, Iceland.
+More than 70 countries signed the UN Convention against Cybercrime, creating mechanisms for cross-border electronic evidence, capacity building, rapid cooperation, and offenses including non-consensual intimate-image distribution. It takes effect 90 days after its fortieth ratification. The United States attended but said it was still reviewing the treaty and did not sign. Industry and rights groups warn that broad serious-offense provisions, weak data protections, and cross-border surveillance could endanger security research and enable authoritarian repression. HN discussion therefore mostly views US abstention favorably.
 
-- LLM perspective
-    - View: Treaty’s e-evidence powers need explicit human rights safeguards and researcher carve-outs to be workable for democracies and industry.
-    - Impact: If ratified widely, expect more cross-border data orders stressing providers’ compliance teams and conflict-of-law processes.
-    - Watch next: Track reservations, implementation laws, 24/7 network details, and interoperability with the Budapest Convention and Cloud Act agreements.
+### Comment pulse
+
+- Cooperation addresses jurisdiction gaps → perpetrators, victims, and stored evidence commonly sit in different countries.
+- Broad evidence powers threaten rights → critics fear surveillance for nontechnical crimes and requests targeting researchers or dissidents.
+- Signatures do not guarantee good faith → commenters distrust participation by states accused of cybercrime or repression.
+
+### LLM perspective
+
+- View: Faster evidence sharing without enforceable rights safeguards can scale both legitimate investigations and political abuse.
+- Impact: Ratifying states, platforms, researchers, and cross-border users face new legal and disclosure uncertainty.
+- Watch next: Track the fortieth ratification, US review, domestic implementing laws, safeguards, and early evidence requests.

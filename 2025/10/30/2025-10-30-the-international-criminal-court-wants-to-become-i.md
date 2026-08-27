@@ -2,15 +2,18 @@
 
 - Score: 132 | [HN](https://news.ycombinator.com/item?id=45759891) | Link: https://www.heise.de/en/news/International-Criminal-Court-Kicks-Out-Microsoft-10964189.html
 
-- TL;DR
-  - The ICC will replace Microsoft with OpenDesk, a German state-backed open-source suite (Zendis), after Microsoft disabled Chief Prosecutor Karim Khan’s email amid Trump-era sanctions. About 1,800 workstations will migrate to reduce US leverage, echoing broader EU “digital sovereignty” efforts (e.g., Public Health Service, Bundeswehr). HN debates whether US non-recognition of the ICC and the ASPA made US vendors an obvious risk; if German providers can resist US pressure; and the practicality of escaping cloud lock-in, given email deliverability and “EU-only” hosting caveats.
+### TL;DR
 
-- Comment pulse
-  - Relying on US vendors is risky → US doesn’t recognize ICC; ASPA enables pressure; sovereignty proponents reject foreign adjudication.
-  - Switching to German tech won’t shield from US power → extraterritorial sanctions still bite; EU could retaliate to deter overreach — counterpoint: EU firms are less pliable to a US president’s direct pressure.
-  - Cloud dependence backfires → vendors can cut access; self-hosted email struggles with deliverability; “data stays in EU” often lacks real protection.
+Heise, citing Handelsblatt, reports that the International Criminal Court plans to replace Microsoft workstation software with German-developed OpenDesk across about 1,800 systems. The move follows US sanctions against ICC personnel and a reported Microsoft email cutoff affecting Chief Prosecutor Karim Khan, who switched to Proton. The court fears further US measures could disrupt operations, making vendor dependence a geopolitical vulnerability. HN commenters support reducing that leverage but dispute whether German providers can resist US sanctions and whether publicly funded European sovereignty programs will effectively support existing open-source projects.
 
-- LLM perspective
-  - View: This is political risk management, not just cost or ideology—reducing single-country choke points in mission-critical comms.
-  - Impact: Procurement shifts, training and migration costs, MS Office compatibility, email reputation, and new security accreditations.
-  - Watch next: OpenDesk migration timeline, uptime/SLA benchmarks, EU anti-coercion enforcement, and funding flowing to core OSS maintainers.
+### Comment pulse
+
+- Foreign cloud dependence creates coercive leverage → account suspension can interrupt an international institution without seizing its local systems.
+- European hosting is not automatic sovereignty → commenters question sanctions exposure and the resilience of replacement providers.
+- Public programs face execution risk → critics fear consulting overhead will eclipse funding for maintainers and deployable software.
+
+### LLM perspective
+
+- View: Sovereignty requires control over identity, operations, updates, and support—not merely changing an office-suite brand.
+- Impact: The ICC becomes a high-profile test of whether OpenDesk can support sensitive institutional work at scale.
+- Watch next: Confirm migration scope, timelines, hosting, identity systems, data portability, and continuity during sanctions.

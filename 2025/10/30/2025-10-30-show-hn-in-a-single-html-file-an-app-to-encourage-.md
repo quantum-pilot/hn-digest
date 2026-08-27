@@ -2,15 +2,18 @@
 
 - Score: 184 | [HN](https://news.ycombinator.com/item?id=45758421) | Link: https://roberdam.com/en/dinversiones.html
 
-- TL;DR
-  - A parent built a fridge-mounted, single-file PWA that visualizes compound growth from a chosen principal and rate, to motivate kids to invest. It runs on an old phone, showing daily/weekly/monthly gains and total balance. HN broadly approves of teaching habits early, with pragmatic twists: use custodial accounts, parent-matched deposits, and guardrails. Others note financial literacy matters little without surplus income and that experiences/education can outrank early retirement saving. Some propose “Bank of Dad” tiered interest; a few nitpick the “plain HTML” claim.
+### TL;DR
 
-- Comment pulse
-  - Early habits via real accounts → custodial setups, matching, backstops teach risk and compounding better than dashboards — counterpoint: prioritize education/experiences; retirement saving can wait.
-  - Financial knowledge isn’t enough → without surplus income, lessons don’t apply; schools teach basics, so parent-backed simulations help kids practice with small stakes.
-  - “Bank of Dad” works → high starter rates with tiered drops build saving behavior; risk: kids expect unrealistic yields vs real banks.
+A parent turned an old phone into a fridge-mounted PWA that shows children an investment balance, daily, weekly, and monthly gains, and compound growth from configurable names, principal, rate, and start date. The parent supplies the interest rate and acts as the investment agent. HN commenters support making compounding tangible but warn that financial knowledge cannot create surplus income, debate saving versus education and spending, and note that artificially generous rates may distort expectations. Others dispute the project’s simplicity because its single HTML loads React and Tailwind.
 
-- LLM perspective
-  - View: Single-file PWA is a low-friction teaching tool; add realism to avoid overpromising fixed returns.
-  - Impact: Parents and schools can repurpose old phones into offline dashboards, standardizing personal finance lessons.
-  - Watch next: Open-source code; scenarios for inflation, fees, volatility; optional API linkage to custodial brokers; test on low-end Androids.
+### Comment pulse
+
+- Practice can make compounding concrete → family-run accounts let children experience delayed spending and long-term growth.
+- Context matters more than slogans → income, education, debt, life goals, and realistic returns shape whether early investing helps.
+- Single-file is not dependency-free → commenters distinguish one saveable HTML document from plain HTML without loaded frameworks.
+
+### LLM perspective
+
+- View: The dashboard teaches time value effectively only if parents explain risk, inflation, losses, and unrealistic guaranteed returns.
+- Impact: Children gain a visible saving habit, while parents assume responsibility for modeling honest financial tradeoffs.
+- Watch next: Add negative periods, fees, inflation, withdrawals, and comparisons with real custodial or savings accounts.
