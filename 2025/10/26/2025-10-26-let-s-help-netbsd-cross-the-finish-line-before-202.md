@@ -2,15 +2,17 @@
 
 - Score: 401 | [HN](https://news.ycombinator.com/item?id=45711279) | Link: https://mail-index.netbsd.org/netbsd-users/2025/10/26/msg033327.html
 
-- TL;DR
-  NetBSD is asking for year‑end donations: $10,738 raised toward a $50,000 goal to fund RISC‑V support and a modernized Wi‑Fi stack. The thread frames NetBSD as a portable, cleanly‑engineered OS that prolongs old hardware’s life, with users highlighting features like RUMP, LFS, pkgsrc, and fast boot times. Debate centers on sustainability trade‑offs—embodied manufacturing carbon versus higher idle power of aging machines—with anecdotes from low‑power SBCs and vintage gear. Several readers donated and shared real‑world uses (gateways, VPS, data‑recovery via RUMP).
+### TL;DR
 
-- Comment pulse
-  - NetBSD strengths → RUMP, Veriexec, WAPBL, ATF, pkgsrc, extreme portability; claims of 15 ms kernel boot and man-page-quality docs enabling approachable kernel hacking.
-  - Reuse old hardware cuts embodied-carbon and cost → manufacturing dominates lifecycle; 2015-era laptops remain capable; RPi2 sips 1.5W — counterpoint: aging PCs can waste power idle.
-  - RUMP userspace drivers salvaged data from flaky DOS disk where others panicked → practical reliability; multiple readers donated; question raised about government users contributing back.
+A NetBSD user asks the community to close a $39,262 gap toward the foundation’s $50,000 annual fundraising goal, reporting $10,738 raised. Proposed uses include expanding RISC-V support and modernizing the Wi-Fi stack. The appeal frames NetBSD’s wide hardware support as both technical infrastructure and a way to extend older devices’ useful lives. Commenters highlight its portability, documentation, pkgsrc, rump kernels, verified execution, testing tools, and filesystem work, while debating whether reusing older machines always saves energy overall.
 
-- LLM perspective
-  - View: Turn goodwill into momentum with brief roadmaps, dated milestones, and newcomer-friendly task lists tied to tangible releases.
-  - Impact: Sharper deliverables attract sponsors; students and hobbyists get a stable OS lab; aging devices remain useful longer.
-  - Watch next: Publish Wi‑Fi test matrix, RISC‑V nightly images, power/boot benchmarks by hardware class, and a donor leaderboard linked to closed PRs.
+### Comment pulse
+
+- Users shared donations and examples of NetBSD serving vintage networks, low-power boards, and recovery tasks.
+- Sustainability claims prompted debate over manufacturing emissions versus older hardware’s operating power.
+
+### LLM perspective
+
+- View: NetBSD’s value extends beyond user count through portability, reference-quality code, and reusable systems research.
+- Impact: A relatively small funding gap can materially affect maintenance work that commercial incentives overlook.
+- Watch next: Fundraising progress and concrete milestones for RISC-V and Wi-Fi renewal.

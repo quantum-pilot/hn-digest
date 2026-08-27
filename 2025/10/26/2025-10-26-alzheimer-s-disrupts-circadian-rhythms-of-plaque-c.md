@@ -2,15 +2,18 @@
 
 - Score: 199 | [HN](https://news.ycombinator.com/item?id=45713738) | Link: https://medicine.washu.edu/news/alzheimers-disrupts-circadian-rhythms-of-plaque-clearing-brain-cells/
 
-- TL;DR
-  WashU’s mouse study in Nature Neuroscience shows amyloid pathology scrambles circadian programs in microglia and astrocytes, re-timing hundreds of genes—about half of known AD-risk genes are clock-regulated—potentially degrading plaque clearance and amplifying inflammation. Authors propose clock-targeted therapies. HN readers note missing sleep/EEG data (could be slow‑wave/glymphatic effects), the usual mouse-to-human translation gap, and Alzheimer’s multifactorial drivers (estrogen/APOE/infection). Some point to nonpharmacologic timing approaches (light/gamma entrainment). Net: intriguing mechanism, early-stage evidence, big validation ahead.
+### TL;DR
 
-- Comment pulse
-  - Circadian vs sleep → Without EEG, gene-rhythm shifts could reflect reduced slow-wave/glymphatic clearance, not clock failure — counterpoint: cell-type 24h rhythms suggest intrinsic clock roles.
-  - Mouse-model skepticism → AD mouse “breakthroughs” rarely translate; engineered amyloid models don’t mirror human causality, so predictive value is low.
-  - Systems complexity/personalization → Estrogen signaling, APOE, infection, inflammation interact; single plaque-clearing fixes may shift failures — counterpoint: delaying dementia progression is still valuable.
+In mice modeling early Alzheimer’s pathology, WashU researchers sampled brain tissue every two hours and found amyloid disrupted daily gene-expression rhythms in microglia and astrocytes, including genes involved in waste clearance, while creating new rhythms in inflammatory genes. About half of 82 Alzheimer’s-risk genes were reportedly under circadian control, suggesting cell-specific clock manipulation as a research direction. Hacker News emphasized that sleep restoration and glymphatic function may confound the circadian interpretation, causality may be bidirectional, and mouse findings often fail in humans.
 
-- LLM perspective
-  - View: Study links amyloid to glial clock reprogramming, suggesting clock-targeted therapies; key gaps: sleep architecture measures and human validation.
-  - Impact: If replicated in humans, timing drugs or light to glial clocks could augment anti-amyloid antibodies and sleep-therapy strategies.
-  - Watch next: Human circadian omics; EEG-linked rhythm biomarkers; trials of timed light, melatonin agonists, REV-ERB/ROR modulators with amyloid and sleep endpoints.
+### Comment pulse
+
+- Circadian timing may organize glial clearance → amyloid changed hundreds of daily expression patterns beyond normal aging.
+- Mechanism remains ambiguous → absent EEG or sleep-wake data may blur intrinsic clock disruption with reduced restorative sleep.
+- Translation is the largest caveat → commenters warned that engineered mouse pathology poorly predicts human Alzheimer’s treatment success.
+
+### LLM perspective
+
+- View: The study maps a plausible feedback loop, but does not establish a human therapy or singular disease cause.
+- Impact: Researchers gain cell- and time-specific targets; patients should not infer preventive sleep or supplement prescriptions.
+- Watch next: Replicate in human tissue, measure sleep alongside expression, and test whether clock interventions improve functional outcomes.

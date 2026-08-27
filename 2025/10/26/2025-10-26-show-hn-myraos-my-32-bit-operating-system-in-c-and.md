@@ -2,15 +2,17 @@
 
 - Score: 244 | [HN](https://news.ycombinator.com/item?id=45715055) | Link: https://github.com/dvir-biton/MyraOS
 
-TL;DR
-A 32-bit x86 Unix-like OS, MyraOS, written from scratch in C/ASM, ships protected mode, paging/VM, user/kernel separation, scheduler, drivers (keyboard/mouse/framebuffer/PATA), ext2, an ELF loader, and a GUI compositor—enough to run a bundled Doom port. It boots via QEMU from an ISO/fs.img and has a first release. HN celebrates the technical depth and perseverance of OSDev, suggests publishing an ISO and an in-browser demo via copy.sh/v86, highlights career value, and contrasts deliberate systems building with “vibe coding” trends.
+### TL;DR
 
-Comment pulse
-- Ship ISO and integrate with copy.sh/v86 → lowers friction; users can try in-browser — counterpoint: README implies ISO available in releases.
-- OSDev is hard but rewarding → vector tables/IRQs and assembly detours resonate; this project shows patience and depth.
-- Strong hiring signal → complex C/ASM, filesystem/drivers, and a working GUI/game demonstrate ownership beyond “vibe coding.”
+MyraOS is a from-scratch, 32-bit x86 Unix-like operating system written primarily in C with assembly. Its repository lists protected mode, interrupts, paging, virtual memory, heap management, user and kernel modes, processes, scheduling, hardware drivers, an ext2 filesystem, graphical composition and widgets, and an ELF loader. A bundled Doom port demonstrates application execution. The project supplies a release image and QEMU commands for macOS, Linux, and Windows, while claiming it can also run on physical devices; the input provides no independent compatibility testing.
 
-LLM perspective
-- View: Ambitious hobby OS hits memory mgmt, drivers, ELF, GUI; Doom proves userland stack works end-to-end.
-- Impact: Attracts contributors, recruiters, and OSDev learners; could seed a teaching platform or retrocomputing distro.
-- Watch next: Add networking, SMP/ACPI, USB, package tool; publish perf metrics and test coverage; provide v86 demo and hardware support matrix.
+### Comment pulse
+
+- Readers praised the learning effort and suggested browser-based emulation through the v86 ecosystem.
+- Fellow hobbyists related the patience required for interrupts, filesystems, drivers, C, and assembly.
+
+### LLM perspective
+
+- View: The breadth matters less as product polish than as evidence of integrated systems understanding.
+- Impact: A working ELF loader, filesystem, scheduler, and UI turn isolated lessons into an inspectable operating environment.
+- Watch next: Reproducible hardware reports, ISO distribution, documentation, and clearer project scope beyond the initial release.

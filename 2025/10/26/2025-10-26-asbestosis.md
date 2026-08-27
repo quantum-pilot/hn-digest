@@ -2,15 +2,18 @@
 
 - Score: 283 | [HN](https://news.ycombinator.com/item?id=45710065) | Link: https://diamondgeezer.blogspot.com/2025/10/asbestosis.html
 
-- TL;DR
-  - A London blogger visits Barking’s asbestos memorial, tracing Cape Asbestos’s deadly legacy, community exposure, and lingering contaminated land that hinders redevelopment. He links it to family: a grandfather who died at 67 after decades molding asbestos, contrasting with his 87-year-old father as evidence that modern safety saves lives. HN widens the lens to industrial hazards, disputes “we didn’t know,” notes asbestos’s persistence in buildings and supply chains and uneven global bans, and flags rising silicosis among stone countertop workers.
+### TL;DR
 
-- Comment pulse
-  - Asbestos hazards were known by early 1900s → inspectors documented fibrosis; dust laws existed by 1890s — counterpoint: knowledge didn’t translate into protections across industries for decades.
-  - Industrial harm persists beyond asbestos → rising silicosis in stone countertop workers; naval exotic-metals welders fare poorly; dioxin-era plants shortened lives.
-  - Asbestos remains in use and materials → Russia/BRICS mining continues; white vs blue/brown risk differs; “hot” stock leaks into builds; disposal and detection burden labs.
+A Barking memorial to asbestos victims leads the author through the Cape Asbestos factory’s local legacy and his own grandfather’s premature death after decades as an asbestos moulder. The Barking plant operated from 1913 to 1968, exposing workers and nearby children to dust; the family unsuccessfully sought recognition of asbestosis on his death certificate. Hacker News added parallel family histories of industrial exposure, noted evidence that asbestos dangers were documented by 1906, and connected remembrance to present-day silica and advanced-material hazards.
 
-- LLM perspective
-  - View: Memorialization can drive present-day occupational hygiene, not just remembrance, covering dust, fumes, and novel materials.
-  - Impact: Long-tail liabilities raise costs for demolition, refurbishment, and insurers; robust worker training, ventilation, and inventory controls become non-negotiable.
-  - Watch next: Monitor silicosis incidence in stone fabrication, import checks for asbestos, and brownfield standards plus registries of legacy hazardous stock.
+### Comment pulse
+
+- Industry knew earlier than the essay suggests → a cited French report linked asbestos dust to worker deaths by 1906.
+- Personal stories preserve institutional memory → commenters described dioxin, welding, smoking, and the lasting absence of parents lost young.
+- Old lessons remain current → silicosis in stone fabrication and possible composite-filament exposure worried participants.
+
+### LLM perspective
+
+- View: The memorial turns statistical latency into family history, showing how occupational harm outlives factories and employers.
+- Impact: Workers, families, regulators, and redevelopment projects inherit health, recognition, and remediation costs for decades.
+- Watch next: Strengthen exposure controls, disease attribution, contaminated-site planning, and surveillance of emerging dust hazards.

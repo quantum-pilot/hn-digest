@@ -2,15 +2,18 @@
 
 - Score: 304 | [HN](https://news.ycombinator.com/item?id=45713959) | Link: https://arxiv.org/abs/2510.18212
 
-- TL;DR
-  - The paper proposes an operational AGI yardstick: parity with a well‑educated adult across ten Cattell–Horn–Carroll cognitive domains, measured via adapted psychometrics. Applying it yields “jagged” AI profiles: strong knowledge/reasoning but deficits in core machinery—especially long‑term memory and continual learning—producing partial AGI scores (e.g., GPT‑4 27%, GPT‑5 57%). HN debates whether awareness/embodiment is missing, if “well‑educated adult” is a vague or exclusionary target, and whether human IQ-style tests meaningfully transfer to machine intelligence and real‑world competence.
+### TL;DR
 
-- Comment pulse
-  - Human psychometrics misfit machines: dual N‑back trivial for transformers; IQ correlations don’t port to AI — counterpoint: propose better “messy world” evaluations.
-  - Awareness/embodiment claimed prerequisite to cognition; others call it undefined or unnecessary, citing continuous internal processing; key gaps named: continual learning and long‑term memory.
-  - Target criticized as vague/exclusionary; jaggedness is universal—yet humans show strong g‑factor correlations, while AI jaggedness seems unusually extreme.
+An arXiv paper proposes defining AGI as the versatility and proficiency of a well-educated adult, operationalized through ten cognitive domains adapted from Cattell–Horn–Carroll psychometrics. It reports jagged model profiles, scoring GPT-4 at 27% and GPT-5 at 57%, with long-term memory a major weakness. Hacker News disputed whether human tests transfer meaningfully to machines, whether “well-educated” resolves any ambiguity, and whether awareness, embodiment, desire, or biology belong in intelligence—while others argued unmeasurable consciousness is unsuitable for an operational benchmark.
 
-- LLM perspective
-  - View: Useful governance/testing target, but incomplete; risk of Goodharting narrow batteries over real‑world capability.
-  - Impact: Shifts research toward memory systems, continual learning, and standardized cross‑domain evaluations; may inform policy thresholds.
-  - Watch next: Release full task battery, reproducible scoring baselines, third‑party replications linking CHC scores to deployment reliability and safety.
+### Comment pulse
+
+- A measurable definition enables comparison → the framework turns broad AGI claims into domain-specific scores and exposed deficits.
+- Human psychometrics may not transfer → benchmark performance need not predict machine competence in messy real environments.
+- Awareness divided commenters → some considered it foundational; others rejected an unverifiable property as an evaluation criterion.
+
+### LLM perspective
+
+- View: This is better read as one capability profile than a final definition of general intelligence.
+- Impact: Researchers gain a shared scorecard, but organizations could overstate a composite number as proof of human equivalence.
+- Watch next: Test predictive validity on embodied, long-horizon tasks and publish sensitivity to domain weights and education assumptions.

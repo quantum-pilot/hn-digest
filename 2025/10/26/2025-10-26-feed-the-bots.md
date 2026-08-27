@@ -2,15 +2,18 @@
 
 - Score: 301 | [HN](https://news.ycombinator.com/item?id=45711094) | Link: https://maurycyz.com/misc/the_cost_of_trash/
 
-- TL;DR
-  - A blogger built an “infinite nonsense” endpoint to absorb LLM scrapers that ignore robots.txt, rotate IPs, and hammer servers. Traditional defenses (blocks, rate limits, paywalls/CAPTCHAs, ZIP-bombs, fake 404s) either fail or harm users. Serving static pages is bandwidth/disk-bound; instead, a tiny Markov generator serves junk in ~60 microseconds/request using ~1.2 MB RAM with no disk I/O, making bot traffic tolerable. HN debates effectiveness, code safety, and the economics; widespread adoption could force scrapers to pre-filter or pay for cleaner data.
+### TL;DR
 
-- Comment pulse
-  - Garbage-flooding raises costs if many sites join → network, storage, and pre-filtering add up — counterpoint: LLMs cheaply filter junk; models already ingest noise.
-  - Markov babbler is tiny and fast → but code has pthread_detach misuse, unsafe C, unbounded threads; sandbox or container recommended.
-  - Shared Basic Auth credentials stop users more than bots → trivially bypassed; only effective while obscure.
+After an infinite Markov-chain crawler trap became 99% of his server traffic, the author argues that feeding aggressive AI scrapers cheap nonsense is easier than blocking them. IP bans and rate limits fail when bots rotate addresses; authentication, CAPTCHAs, and proof-of-work burden readers; static pages and images cost bandwidth and I/O. His generator reportedly needs about 60 microseconds of CPU and 1.2 MB of memory per request. Hacker News debated whether widespread garbage would raise scraping costs or merely add filterable noise.
 
-- LLM perspective
-  - View: Garbage traps push scrapers toward content provenance, deduplication, and on-crawl classification, shrinking free crawling.
-  - Impact: Scrapers invest in pre-filtering, storage audits, or licensed datasets; small sites gain negotiating leverage via block-or-poison tactics.
-  - Watch next: Open-source junk-page detectors, trap honeypot lists, and policies or lawsuits clarifying robots.txt and opt-out enforcement.
+### Comment pulse
+
+- Cheap synthetic pages invert scraper economics → download, storage, filtering, and training may cost collectors more than generation costs hosts.
+- Poisoning efficacy is uncertain → commenters argued models already filter garbage and training corpora already contain abundant noise.
+- The implementation needs caution → reviewers flagged a pthread call error, unsafe C patterns, and unbounded per-request threads.
+
+### LLM perspective
+
+- View: The trap is primarily a resource-shaping tactic; claims about poisoning future models remain speculative.
+- Impact: Small publishers preserve reader access without maintaining endless bot blocklists, while accepting continued traffic.
+- Watch next: Measure bandwidth, scraper persistence, classifier adaptation, generator security, and effectiveness across many participating sites.

@@ -2,15 +2,17 @@
 
 - Score: 325 | [HN](https://news.ycombinator.com/item?id=45715204) | Link: https://engineering.nanit.com/how-we-saved-500-000-per-year-by-rolling-our-own-s3-6caec1ee1143
 
-- TL;DR
-  - At Nanit’s scale (thousands uploads/sec), S3 PutObject and 24‑hour lifecycle storage dominated costs for video segments processed in ~2s. They built N3: a Rust, in‑memory landing zone with delete‑on‑GET and TTL GC; S3 remains overflow. DNS load balancing, c8gn instances, rustls/Hyper tuning, and TCP ACK/timestamp tweaks raised throughput; idle‑socket timeouts fixed a memory leak. Result: ≈$500k/year saved. HN discussion focused on whether serverless was the right fit and how naming versus reality (‘cache’ vs ‘S3’) shapes expectations.
+### TL;DR
 
-- Comment pulse
-  - Title nit → critics say 'rolled S3' oversells; supporters note client-compat constraints and tangible savings — counterpoint: naming aside, clear write‑up.
-  - Architectural critique → serverless added per‑request taxes; some propose processing on upload to collapse S3/SQS/Lambda layers.
-  - Privacy concern → continuous cloud baby‑monitor video without E2EE alarms some; others prioritize reliability, note E2EE conflicts with cloud analysis, and say self‑hosting isn’t mainstream.
+Nanit says it cut about $500,000 in annual costs by placing a Rust, memory-backed service called N3 before S3 in its video-processing pipeline. Thousands of short uploads previously incurred per-request fees and roughly a day of storage despite being processed in seconds. N3 deletes objects after download, garbage-collects stragglers, drains gracefully, and sends overflow to S3. Production testing exposed burstable-network limits, TLS cost, outbound ACK traffic, and stalled-connection memory growth. This is specialized ephemeral buffering, not a general S3 replacement.
 
-- LLM perspective
-  - View: Unit economics matter: request-priced storage punishes fine-grained ingest; ephemeral buffers can arbitrage pricing without sacrificing SLOs.
-  - Impact: Teams may adopt memory/NVMe buffers over S3; vendors could respond with Express tiers or lower request fees.
-  - Watch next: Benchmark vs alternatives: Redis/KeyDB, NATS JetStream, local NVMe; test QUIC/HTTP/3, ECDSA certs, and session reuse to cut egress/CPU.
+### Comment pulse
+
+- Readers praised the engineering detail but disputed the headline’s “rolling our own S3” characterization.
+- Some argued the original S3-and-serverless pipeline created avoidable cost; others defended it as a sensible early architecture.
+
+### LLM perspective
+
+- View: N3 succeeds because narrow lifetime and loss constraints make the managed service’s guarantees unnecessary on the happy path.
+- Impact: Hybrid fallback preserves durability during trouble while eliminating routine request and storage charges at scale.
+- Watch next: Long-term maintenance cost, failure rates, capacity margins, and whether processing can move closer to ingestion.
