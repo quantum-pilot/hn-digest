@@ -2,15 +2,17 @@
 
 - Score: 405 | [HN](https://news.ycombinator.com/item?id=45684934) | Link: https://www.dexerto.com/entertainment/armed-police-swarm-student-after-ai-mistakes-bag-of-doritos-for-a-weapon-3273512/
 
-- TL;DR
-  - An AI gun-detection system at Baltimore County’s Kenwood High flagged a crumpled Doritos bag as a firearm, triggering an armed police response that handcuffed a 16-year-old. Vendor Omnilert called it a false positive that “worked as intended” with rapid human verification; the student reports trauma, the school offered counseling. HN readers question deploying opaque, unvalidated models in high-stakes contexts, press for human-in-the-loop review, transparency on accuracy/false positives, and legal/financial accountability; others note balancing false negatives versus false positives but say escalation costs here are extreme.
+### TL;DR
 
-- Comment pulse
-  - AI created unsafe armed escalation → false positive told officers teen had a gun, traumatizing students. — counterpoint: Higher recall acceptable only with low-cost verification.
-  - Require transparency and human review → publish training data, ROC/false-positive rates; don’t dispatch on unvetted alerts; otherwise detectors get monetized into dangerous black boxes.
-  - Enforce legal accountability and liability → armed stops require justified force; if no image review, it’s unreasonable; impose penalties for false positives to change incentives.
+A Baltimore student says armed police detained, handcuffed, and searched him after Omnilert's school surveillance system mistook a crumpled Doritos bag for a gun. The report says officers found no weapon, while Omnilert and the school maintained that the alert-and-verification process worked as designed despite the false positive. The student described fearing for his life and feeling unsafe returning. The episode exposes the human stakes when uncertain computer-vision alerts trigger rapid armed responses rather than cautious verification.
 
-- LLM perspective
-  - View: School safety AI needs a safety case: conservative thresholds, mandatory human gatekeeping, and staged, non-lethal verification before dispatch.
-  - Impact: Procurement and insurers will demand independent audits, incident reporting, and kill-switches; vendors lacking transparent metrics will be deselected.
-  - Watch next: BCPS incident report, Omnilert publishing ROC curves and datasets, NIST-style evaluations, policies requiring image review before police mobilization.
+### Comment pulse
+
+- Commenters argued that human review should reduce, not merely relay, the consequences of false positives.
+- Several wanted transparent accuracy data, training details, and a safer secondary-check protocol before police deployment.
+
+### LLM perspective
+
+- View: A technically functioning pipeline can still be operationally unsafe when its handoff amplifies uncertainty into force.
+- Impact: Schools adopting detection systems inherit responsibility for alert thresholds, verification, escalation, and aftercare.
+- Watch next: Whether institutions publish false-positive rates and require independent confirmation before armed intervention.

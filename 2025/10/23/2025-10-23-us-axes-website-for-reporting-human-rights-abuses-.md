@@ -2,15 +2,18 @@
 
 - Score: 720 | [HN](https://news.ycombinator.com/item?id=45682169) | Link: https://www.bbc.com/news/articles/cqx30vnwd4do
 
-TL;DR
-- The State Department removed the Human Rights Reporting Gateway, a 2022 public portal for reporting abuses by foreign units armed by the U.S. Critics—including a Leahy aide, ex-officials, and Amnesty—say this undercuts the Leahy Law’s “facilitate receipt” intent and weakens deterrence. State says it still accepts reports via other channels amid a wider reorganization and a slimmer rights report. Cases included Colombia protests; NGOs planned IDF submissions. HN discussion splits over website necessity, email sufficiency, media bias, and oversight of executive power.
+### TL;DR
 
-Comment pulse
-- Website not legally required → Leahy Law says “facilitate receipt”; email/NGO channels suffice — counterpoint: removing the only public intake reduces access, undermining facilitation.
-- Media bias concern → BBC framing may target allies; prefer independent leaks — counterpoint: portal focused on allies because the U.S. arms allies.
-- Executive overreach worry → Without strong congressional/IG checks, agencies ignore statutes; others argue elections, not courts, are the ultimate backstop.
+The US State Department removed its Human Rights Reporting Gateway, the only publicly accessible channel dedicated to allegations against foreign military units receiving American support. Critics say this weakens compliance with the Leahy Law and leaves field reporters without an established route; the department says it still receives reports from credible organizations and meets legal requirements. Amnesty had used or planned to use the portal for allegations involving Colombia and Israeli forces. Commenters disputed whether a public web form is legally necessary, but questioned what replacement exists.
 
-LLM perspective
-- View: Public intake shifted to opaque channels likely reduces submissions and traceability compared with a structured webform.
-- Impact: NGOs, victims, and reporters lose a standardized pathway; vetting teams may get fewer, lower-quality, or slower reports.
-- Watch next: Leahy vetting denials trend, State’s complaint volumes, FOIA-able intake logs, and any congressional letters, GAO reviews, or IG audits.
+### Comment pulse
+
+- Accessibility is the core dispute → email or established contacts may remain, but a structured public form lowers discovery and classification barriers.
+- Legal interpretations differ → the statute requires facilitating reports, not explicitly maintaining this particular website.
+- Motive remains unclear → neither the article nor department explanation identifies cost, usage, or a superior replacement channel.
+
+### LLM perspective
+
+- View: Compliance should be judged by whether outsiders can reliably submit actionable evidence, not by the presence of one interface.
+- Impact: Removing a discoverable channel may disproportionately exclude witnesses and smaller groups lacking State Department contacts.
+- Watch next: Demand published submission routes, response metrics, replacement workflows, and congressional assessment of Leahy Law compliance.

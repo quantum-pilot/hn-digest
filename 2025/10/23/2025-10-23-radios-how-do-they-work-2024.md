@@ -2,15 +2,17 @@
 
 - Score: 215 | [HN](https://news.ycombinator.com/item?id=45678603) | Link: https://lcamtuf.substack.com/p/radios-how-do-they-work
 
-- TL;DR
-  - A lucid, math-light primer: alternating charge in a resonant half‑wave dipole radiates; resonance sets impedance and directionality. Modulation always creates sidebands, so “AM” needs bandwidth. Mixers yield sum/difference beats, creating image frequencies; superheterodyne shifts signals to a fixed IF so filters can reject images before demodulation. HN highlights the visuals, DIY crystal-to-superhet learning paths, and clarifies that “crystal” in crystal radios refers to the diode. Newcomers are urged to get the General ham license for HF.
+### TL;DR
 
-- Comment pulse
-  - Build from simple sets to superhets → hands-on iteration reveals noise, selectivity, image rejection, AGC, and PLL carrier recovery.
-  - AM/OOK consumes bandwidth → modulation alters spectrum; FFT or beat-frequency intuition matches the article’s demos.
-  - Get licensed beyond Technician → HF access is far richer than VHF/UHF — counterpoint: local VHF repeaters still offer community and emergency utility.
+This visual radio primer connects changing electrical signals to electromagnetic radiation, then explains why modulation necessarily occupies bandwidth and how receivers isolate one transmission. Multiplying two sinusoids produces sum and difference frequencies, so a mixer can shift a desired radio signal toward a lower frequency for filtering. Direct conversion also mirrors signals from opposite sides of the tuning frequency. The superheterodyne design moves reception to an intermediate frequency, making those images easier to reject with antenna response and filtering before final demodulation.
 
-- LLM perspective
-  - View: Blend bench builds with SDR sims; link antenna resonance to transmission-line delays; visualize sidebands and images live.
-  - Impact: Educators, hobbyists, and junior RF engineers gain intuition; improves lab design, licensing prep, and debugging.
-  - Watch next: Interactive animations and SDR labs; benchmark single/double-conversion versus direct-sampling for image rejection, selectivity, and phase noise.
+### Comment pulse
+
+- Amateur-radio learners praised the intuitive diagrams and linked the concepts to practical licensing and home-built receivers.
+- Crystal-radio builders described how amplification, filtering, image rejection, and gain control progressively deepen the hobby.
+
+### LLM perspective
+
+- View: The article succeeds by making bandwidth and mixing consequences visible before formalizing them mathematically.
+- Impact: Readers can connect abstract spectra to concrete receiver choices, especially filtering and intermediate frequency.
+- Watch next: Hands-on experiments that let learners observe beats, images, and selectivity directly.

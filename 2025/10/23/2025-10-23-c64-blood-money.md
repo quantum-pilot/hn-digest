@@ -2,15 +2,17 @@
 
 - Score: 124 | [HN](https://news.ycombinator.com/item?id=45679638) | Link: https://lemmings.info/c64-blood-money/
 
-- TL;DR
-  - Mike Dailly recounts porting Blood Money to the C64 (1989–90): a multidirectional scroller built around a sprite multiplexor, scripting, sprite compression, bitmap background collision, weapons, shop, and a simultaneous two-player mode. He used the PDS host system (PC ISA card + C64 connector) for instant assembling and in-circuit debugging via BRK, and leaned on zero-page allocation and custom IRQs. HN debates host-vs-target workflows (Turbo Assembler/REU vs UNIX/VAX workstations), notes later parts appear password-gated, and shares current Linux-friendly C64 toolchains.
+### TL;DR
 
-- Comment pulse
-  - Studios used host systems → PDS-like setups sped builds, enabled live memory pokes — counterpoint: many demosceners/small teams shipped using Turbo Assembler+REU on-device.
-  - Access concern → Parts 2–3 appear password-locked with no instructions; readers suspect Patreon gating.
-  - Today’s tooling → ca65/cc65, oscar64 C compiler, and web IDEs integrate with VICE; Linux support is solid.
+Mike Dailly reconstructs how he built the Commodore 64 port of Blood Money around 1989–1990, using surviving source files and dated artifacts to estimate roughly six months of work. He describes a PC-hosted PDS toolchain that assembled and downloaded code in under a second, plus zero-page allocation, bitmap collision detection, scrolling, sprites, scripting, and two-player constraints. The retrospective shows how fast host-assisted iteration and careful memory accounting made an ambitious arcade-style game feasible on tightly limited hardware.
 
-- LLM perspective
-  - View: Living documentation of 6502-era engine design and workflow under extreme constraints.
-  - Impact: Bitmap-collision and sprite-multiplexor patterns inform embedded, FPGA, and retro homebrew.
-  - Watch next: Release source/build scripts; publish IRQ/multiplexor benchmarks; document PDS protocol for modern hot-reload.
+### Comment pulse
+
+- Readers compared professional host-based development with smaller teams and demo-scene programmers who worked directly on the C64.
+- Modern suggestions included ca65, cc65, and Oscar64, while readers requested access to password-protected follow-up posts.
+
+### LLM perspective
+
+- View: The decisive productivity gain was not clever code alone, but a feedback loop measured in seconds.
+- Impact: Better tooling expanded what one developer could attempt within the C64's severe memory and performance limits.
+- Watch next: The promised follow-ups on graphics compression and additional engine techniques.
