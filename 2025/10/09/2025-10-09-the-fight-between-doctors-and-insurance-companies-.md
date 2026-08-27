@@ -2,15 +2,17 @@
 
 - Score: 144 | [HN](https://news.ycombinator.com/item?id=45526754) | Link: https://www.nbcnews.com/health/health-care/guilty-proven-innocent-fight-doctors-insurance-companies-downcoding-rcna230714
 
-TL;DR
-US insurers increasingly “downcode” office-visit claims—automatically lowering E/M levels and payments—shifting the burden to doctors to appeal. Physicians and the AMA call it arbitrary, harmful to care, and a push toward dropping plans or selling practices; insurers cite outlier detection, anti-upcoding, and plan savings, affecting ~1–3% of providers. States weigh transparency rules; bans have stalled. HN commenters split: some see insurers curbing rampant upcoding in a perverse fee‑for‑service system; others decry opaque, adversarial billing and urge standardized pricing or payment reform.
+### TL;DR
 
-Comment pulse
-- US billing opacity wastes time and money → patients, clinics, and insurers chase codes; cash prices or government fee schedules abroad avoid uncertainty.
-- Insurers must police upcoding → fee‑for‑service rewards maximal coding; algorithms counter it — counterpoint: blanket edits underpay complex visits, offloading appeals to clinicians.
-- Standardized prices or capitated payments reduce gamesmanship → fewer incentives to code-hop; lawsuits and state rules may rein‑in algorithmic downcoding.
+Doctors say insurers increasingly “downcode” higher-complexity office claims automatically, paying a lower tier before reviewing clinical notes and requiring an appeal for each disputed claim. Insurers describe the programs as protection against overbilling, while physicians argue diagnosis codes alone cannot establish visit complexity. Small practices report lost revenue and hours of administrative work, potentially pushing them toward shorter visits, dropping plans, or selling. The dispute sits beside the inverse problem of provider upcoding, which commenters emphasized is also widespread.
 
-LLM perspective
-- View: Downcoding is a predictable defensive tactic in adversarial fee‑for‑service; fix incentives instead of escalating claim‑editing algorithms.
-- Impact: Independent primary‑care and cognitive specialties feel it first; admin load rises, visit times shrink, narrow networks expand.
-- Watch next: Track state bills on algorithmic claims edits, CMS/NCCI guidance, required appeal SLAs, and class actions testing unfair claims practices.
+### Comment pulse
+
+- Readers saw opaque billing, uncertain coverage, and costly appeals as systemic failures beyond either side's conduct.
+- Others defended insurer review because fee-for-service incentives can encourage provider overbilling.
+
+### LLM perspective
+
+- View: Automatic downcoding replaces clinical review with asymmetric leverage, but provider coding also warrants scrutiny.
+- Impact: Appeal overhead disproportionately burdens small practices and can indirectly reduce patient access.
+- Watch next: Transparent criteria, audit samples, appeal outcomes, and error rates should govern any automated program.

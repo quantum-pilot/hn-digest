@@ -2,15 +2,17 @@
 
 - Score: 298 | [HN](https://news.ycombinator.com/item?id=45524624) | Link: https://engineering.fb.com/2025/10/07/open-source/introducing-the-react-foundation-the-new-home-for-react-react-native/
 
-- TL;DR
-  - Meta is moving React, React Native and related projects to a new React Foundation under the Linux Foundation, with a board spanning Amazon, Microsoft, Vercel and others. Business governance sits in the foundation; technical direction will be set by maintainers via a separate structure. Meta commits five years and $3M plus engineers. HN welcomes broader stewardship but worries about Vercel’s influence, RSC’s opaque, Next.js-centric design, and React’s growing complexity; others note React’s long-term stability and alternatives like Preact/Vue.
+### TL;DR
 
-- Comment pulse
-  - Vercel's influence risks lock-in → RSC built closely with Next.js; docs felt Vercel-biased. — counterpoint: Board and governance split aim to limit single-vendor control.
-  - React complexity keeps rising → hooks, concurrent rendering, RSC increase cognitive load; some switch to Vue/Angular signals; Preact offers lighter drop-in path.
-  - React remains stable for long-lived apps → decade-old codebases endure; Jest wasn’t killed; but class-to-hooks migrations cost teams significant effort.
+React, React Native, JSX, and related projects will move into a new React Foundation hosted by the Linux Foundation. Its board initially includes Amazon, Callstack, Expo, Meta, Microsoft, Software Mansion, and Vercel, while technical decisions are promised a separate maintainer-led governance structure whose details remain forthcoming. Meta committed more than $3 million and engineering support over five years and will continue using and staffing React. Commenters welcomed independence cautiously, focusing especially on Vercel's influence and React Server Components' previously closed development.
 
-- LLM perspective
-  - View: Linux Foundation umbrella and board diversify stewardship; real test is independent technical governance and open specs for major features.
-  - Impact: Enterprises gain predictability; framework authors and infra vendors get a forum; potential check on Next.js-centered decisions.
-  - Watch next: Governance charter, technical steering committee members, RSC and concurrency specs, compatibility baselines, funding beyond Meta’s $3M.
+### Comment pulse
+
+- Skeptics cited Meta's past project stewardship and feared the board could formalize vendor influence rather than dilute it.
+- Others viewed separate technical governance as a possible check, pending concrete rules.
+
+### LLM perspective
+
+- View: Legal independence is meaningful, but technical legitimacy depends on the still-undefined contributor governance.
+- Impact: Broader funding can stabilize infrastructure while creating new coordination and capture risks.
+- Watch next: Voting rights, maintainer selection, specifications, and conflict-resolution procedures matter more than the announcement.

@@ -2,15 +2,17 @@
 
 - Score: 201 | [HN](https://news.ycombinator.com/item?id=45527003) | Link: https://www.nobelprize.org/prizes/literature/2025/press-release/
 
-- TL;DR
-  - The Swedish Academy awards the 2025 Nobel Prize in Literature to Hungarian novelist László Krasznahorkai “for his compelling and visionary oeuvre” that affirms art amid apocalyptic dread. HN readers celebrate his partnership with filmmaker Béla Tarr, calling those films unusually faithful to the novels’ spirit, while noting the books also stand alone. Translation quality looms large (George Szirtes praised), and commenters revisit the prize’s de facto lifetime-achievement practice versus Nobel’s original wording. Reading tips surface: War and War, Sátántangó, Werckmeister Harmonies.
+### TL;DR
 
-- Comment pulse
-  - Tarr–Krasznahorkai synergy → films mirror novels’ bleak lyricism and cadence; seen as rare faithful adaptations — counterpoint: the books stand alone.
-  - Translation quality matters → George Szirtes’s early English versions praised; judges and readers likely assess him largely through translations.
-  - Prize interpretation → modern practice honors lifetime oeuvre and lasting impact, not last-year output, diverging from a strict reading of Nobel’s will.
+The Nobel Prize in Literature for 2025 was awarded to Hungarian author László Krasznahorkai. The supplied official press release contains only the award citation, praising a “compelling and visionary oeuvre” that reaffirms art amid apocalyptic terror; it offers no biography, bibliography, critical analysis, or explanation of the selection. Accordingly, the announcement establishes the recipient and committee’s stated rationale but gives too little material to summarize his writing in detail. The discussion instead highlights reader favorites, translation questions, and his extensive creative partnership with filmmaker Béla Tarr.
 
-- LLM perspective
-  - View: The win elevates experimental, apocalyptic prose and film–literature crossovers to mainstream attention.
-  - Impact: Expect surges in reprints, new translations, and retrospectives; universities refresh syllabi on Hungarian and post-communist literature.
-  - Watch next: Track translation announcements, the Nobel lecture’s thematic framing, and rights deals for adaptations beyond Tarr.
+### Comment pulse
+
+- Readers praised Tarr’s adaptations, especially *Sátántangó* and *Werckmeister Harmonies*, while others stressed Krasznahorkai’s novels stand independently.
+- Discussion asked how English translations preserve highly distinctive prose and how translated work informs Nobel evaluation.
+
+### LLM perspective
+
+- View: The citation identifies an artistic theme but is too compressed to explain the award’s literary judgment.
+- Impact: The prize will direct new readers toward demanding works and their influential film adaptations.
+- Watch next: The fuller Nobel biography, lecture, translation commentary, and renewed publication of his bibliography.

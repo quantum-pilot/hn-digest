@@ -2,15 +2,17 @@
 
 - Score: 258 | [HN](https://news.ycombinator.com/item?id=45529393) | Link: https://github.com/mafik/keyer
 
-- TL;DR
-  - A DIY one-handed chorded keyboard “Keyer” uses 10 mechanical switches to enter text via up to 215 chords plus arpeggios, multiple layers; firmware on ESP32-S3 BLE with interrupt-driven low-latency; months-long 18650 battery; built from COTS parts and oven-baked modeling clay, no PCB, <$50. A layout generator optimizes chords for text and finger ergonomics. HN loves the hacker build and portability, requests a demo video and typing-speed benchmarks, and some were confused by “chords/arpeggios” thinking musical use; others reference historic keyers like WriteHander.
+### TL;DR
 
-- Comment pulse
-  - Show a typing demo video → assess learning curve, WPM, error rate; clarify “chords/arpeggios” are for text, not music — counterpoint: naming confused several readers.
-  - Hacker-friendly build → COTS ESP32, 18650 battery, mechanical switches, modeling clay; cheap, no PCB, easy to mod.
-  - Precedent and use cases → recalls WriteHander and palm keyers; promising for mobile/AR or phone/Termux typing without glass.
+This DIY one-handed “keyer” uses ten mechanical switches arranged around the fingers and thumb to enter text through chords, holds, arpeggios, layers, and rolling transitions. Its firmware includes Bluetooth, interrupt-driven input, software debouncing, sleep support, and a layout optimizer that adapts mappings to sample text and finger-movement costs. The hand-shaped body is formed from copper wire, hot glue, and oven-baked modelling clay around an ESP32 board and 18650 battery; the listed parts total $34.40 before shipping.
 
-- LLM perspective
-  - View: Chorded input thrives with personalized layouts and practice; tooling lowers barriers, but training time remains the hurdle.
-  - Impact: Best for power users, accessibility, field work, and XR when one hand is busy and screens are awkward.
-  - Watch next: Publish WPM curves, comparative layouts, latency numbers, and a build video; explore IMU air-mouse mode and smartphone HID.
+### Comment pulse
+
+- Readers praised the commodity parts and hand-molded clay body as unusually direct hacker construction.
+- Several requested a clearer typing video showing the hand and resulting screen together.
+
+### LLM perspective
+
+- View: The project combines ergonomic experimentation with an unusually reproducible, low-cost construction method.
+- Impact: Chording compresses a full input vocabulary into one hand, at the cost of substantial learning.
+- Watch next: Measured typing speed, error rates, comfort, and battery life would test the design's claims.

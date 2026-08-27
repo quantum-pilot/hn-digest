@@ -2,15 +2,17 @@
 
 - Score: 266 | [HN](https://news.ycombinator.com/item?id=45527402) | Link: https://www.figure.ai/news/introducing-figure-03
 
-- TL;DR
-  - Figure 03 is a third‑gen humanoid built around Helix vision‑language‑action AI, with faster/wider cameras, palm cams, high‑fidelity tactile fingertips (~3 g sensitivity), 10 Gbps data offload, 2 kW foot charging, washable soft goods, improved audio, and a cost‑reduced design for BotQ mass production (target 12k/year). HN applauds progress but questions reliability, calling demos cherry‑picked and asking for standardized benchmarks; others raise home‑privacy risks and debate inductive charging vs swappable batteries, while seeing logistics/shelf‑stocking as nearer‑term fits.
+### TL;DR
 
-- Comment pulse
-  - Demos are cherry-picked → small-horizon policies succeed ≈60%; heavy teleop/simulation; need blinded benchmarks in unseen environments — counterpoint: uncut hour-long parcel pick-and-place exists.
-  - Home privacy risk → 10 Gbps fleet offloads resemble always-on cameras; past Ring/Roomba leaks show misuse; hacking turns safety concerns physical.
-  - Charging strategy debate → inductive feet simplify uptime and placement; swappable packs add weight, ruggedization, docking complexity, and failure modes; robot self-plugging still unsolved.
+Figure presents its third-generation humanoid as a redesign for AI control, homes, commercial work, and mass production. Company claims include doubled camera frame rate, quartered latency, 60% wider per-camera views, palm cameras, three-gram fingertip force sensing, 10 Gbps data offload, reduced mass, washable coverings, stronger audio, and 2 kW inductive charging through its feet. Manufacturing shifts from CNC-heavy prototypes toward casting, molding, and stamping; Figure says BotQ could initially produce 12,000 units annually and targets 100,000 over four years. The post provides demonstrations, not independent reliability benchmarks.
 
-- LLM perspective
-  - View: Notable hardware/manufacturing leap; autonomy remains unproven without standardized, uncut tasks and reliability stats outside staged environments.
-  - Impact: If BotQ volumes materialize, logistics, retail restocking, and home services workflows change; suppliers for actuators, sensors, and packs professionalize.
-  - Watch next: Third-party benchmarks, MTBF and safety incident rates, per-unit pricing/COGS, on-device learning vs cloud offload with enforceable privacy guarantees.
+### Comment pulse
+
+- Skeptics said edited demonstrations hide narrow success conditions and requested repeated tests in unseen but supported environments.
+- Readers raised home-privacy concerns because fleet learning could upload extensive sensor data from intimate spaces.
+
+### LLM perspective
+
+- View: Manufacturability and sensing improvements matter, but task reliability remains the decisive missing evidence.
+- Impact: Scaling hardware before robust autonomy could accelerate learning—or multiply costly failures and privacy exposure.
+- Watch next: Uncut repeated trials, intervention rates, pricing, battery endurance, privacy controls, and actual production volume.

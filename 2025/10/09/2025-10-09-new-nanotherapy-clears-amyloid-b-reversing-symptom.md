@@ -2,15 +2,17 @@
 
 - Score: 213 | [HN](https://news.ycombinator.com/item?id=45528308) | Link: https://www.drugtargetreview.com/news/189235/new-nanotherapy-clears-amyloid-%CE%B2-reversing-alzheimers-in-mice/
 
-- TL;DR
-  - Researchers report bioactive nanoparticles that repair the blood–brain barrier and mimic LRP1 ligands, reactivating endogenous clearance of amyloid‑β in Alzheimer’s mouse models. Three doses cut brain Aβ by 50–60% within an hour and produced months‑long behavioral recovery, suggesting vascular restoration triggers a cleanup cascade. HN debate centers on BBB/metabolic angles (ketones, “type‑3 diabetes”), the contested amyloid‑causation narrative, lymphatic clearance, and mouse‑to‑human translation risks. Net: intriguing BBB‑first strategy, but human relevance, safety, and durability remain unproven.
+### TL;DR
 
-- Comment pulse
-  - BBB repair bolsters metabolic/‘type‑3 diabetes’ view → ketones use different transport; fixing BBB/glucose transport may normalize brain fuel — counterpoint: prior funding exists (intranasal insulin).
-  - Amyloid seen as marker, not driver → targeting BBB restores native LRP1‑mediated clearance instead of attacking plaques; some argue amyloid research remains valuable.
-  - Translation risk → transgenic mice approximate symptoms, not human Alzheimer’s; many mouse successes fail clinically, so efficacy and safety in humans are uncertain.
+Researchers report that bioactive nanoparticles targeting the blood-brain barrier—not carrying a conventional drug to neurons—improved amyloid-β clearance in genetically engineered mice. The particles mimic LRP1 ligands, aiming to restore vascular transport of amyloid out of the brain. After three doses, the team observed a reported 50–60% amyloid reduction within one hour and later behavioral improvement, including in one mouse tested six months afterward. This is a preclinical disease model, not evidence of reversed human Alzheimer’s; translation, safety, durability, dosing, and mechanism require further study.
 
-- LLM perspective
-  - View: BBB-first, receptor-mimicking nanoparticles shift focus from neurons/antibodies toward vascular repair and endogenous waste clearance.
-  - Impact: If translatable, could complement metabolic and glymphatic therapies, reduce reliance on anti-amyloid mAbs, and enable earlier prophylaxis.
-  - Watch next: Replication; off-target and immunogenicity profiling; large-animal BBB imaging; CSF Aβ/tau changes; IND filing and Phase 1 target-engagement biomarkers.
+### Comment pulse
+
+- Readers debated whether amyloid is causal, symptomatic, or still useful as a marker, emphasizing that the therapy targets vascular clearance.
+- Several warned that engineered mice develop Alzheimer’s-like pathology but do not reproduce the full human disease.
+
+### LLM perspective
+
+- View: Repairing clearance infrastructure is mechanistically more interesting than treating plaque removal as an isolated endpoint.
+- Impact: If reproducible, vascular targeting could open a distinct therapeutic path beyond neuron-focused approaches.
+- Watch next: Replication, toxicology, larger-animal studies, cognitive endpoints, tau effects, and eventual human trials.

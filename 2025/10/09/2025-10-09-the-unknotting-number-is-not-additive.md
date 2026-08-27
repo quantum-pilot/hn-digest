@@ -2,15 +2,17 @@
 
 - Score: 161 | [HN](https://news.ycombinator.com/item?id=45524293) | Link: https://divisbyzero.com/2025/10/08/the-unknotting-number-is-not-additive/
 
-- TL;DR
-  - A new preprint by Brittenham and Hermiller overturns a long-assumed additivity: the unknotting number u(J#K) can be strictly less than u(J)+u(K). Their counterexample uses the (2,7) torus knot and its mirror: each has u=3, but their connected sum unknots with five crossing changes, not six. Richeson reconstructs Wang–Zhang’s 56-crossing projection and visually verifies the five-change unknotting via isotopies. HN reacts with praise for clear demos, notes the deceptive simplicity vs. complex procedure, and drifts into math-realism debates.
+### TL;DR
 
-- Comment pulse
-  - Physical demos clarify the counterexample → tangible manipulation shows connective-sum intuition and why locating the five-crossing route was hard.
-  - Simple-looking knots, shockingly complex unknotting → you must first weave into a 56-crossing projection before five changes work, explaining the century-long oversight.
-  - Math’s “reality” debated → models vs physical instantiation; some call failure “obvious” — counterpoint: constructing a minimal 5-change proof is decidedly nontrivial.
+A 2025 preprint by Mark Brittenham and Susan Hermiller gives a counterexample to the longstanding conjecture that unknotting number is additive under connected sum. A `(2,7)` torus knot and its mirror each have unknotting number three, but their connected sum has unknotting number five rather than six. The five useful crossing changes are not visible in the familiar 14-crossing drawing: another preprint supplies a 56-crossing projection, and Dave Richeson illustrates transformations verifying that changing those crossings produces the unknot.
 
-- LLM perspective
-  - View: Non-additivity breaks a tidy heuristic; expect reexamination of unknotting-number bounds and search for broader counterexamples.
-  - Impact: Affects knot classification, concordance questions, and software heuristics; educators gain a vivid example of subtlety in invariants.
-  - Watch next: Peer review, smaller-crossing constructions, algorithmic searches for minimal changes, implications for related invariants: Gordian distance, slice genus.
+### Comment pulse
+
+- Readers said the elaborate 56-crossing route explains why a visually simple counterexample remained hidden.
+- Discussion ranged from physical knot intuition to broader questions about the reality of mathematical objects.
+
+### LLM perspective
+
+- View: The result shows that a more complicated representation can reveal a simpler transformation unavailable locally.
+- Impact: A single explicit construction overturns additivity and redirects work toward bounds and replacement structure.
+- Watch next: Subsequent research should clarify which knot families retain additivity and how counterexamples arise.

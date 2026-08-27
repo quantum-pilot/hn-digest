@@ -2,15 +2,17 @@
 
 - Score: 168 | [HN](https://news.ycombinator.com/item?id=45530744) | Link: https://www.subwaybuilder.com/
 
-- TL;DR
-  - Subway Builder is a realistic subway sim where you design networks under budget and construction constraints. It simulates millions of commuters from Census/Redistricter data using player-like pathfinding, with delays from overcrowding and granular rider-choice analytics. Launches first direct ($30), later on Steam ($40), for Windows/macOS/Linux; internet required for map tiles. HN compares it to Mini Metro/Motorways (simpler, faster), asks for political/bureaucratic realism, shares Bay Area map limits, and debates Steam pricing parity.
+### TL;DR
 
-- Comment pulse
-  - More realistic than Mini Metro → destination-specific agents, costs, and hard-to-change routes — counterpoint: Mini Metro excels at tight 30‑minute scenarios and elegant simplicity.
-  - Bay Area coverage → includes Novato, Vallejo, Benicia, Brentwood, Livermore, Santa Teresa, Los Gatos, peninsula from Half Moon Bay; missing Santa Rosa, Fairfield, Tracy, Gilroy.
-  - Some want political realism → model red tape, budgets, citizen opposition, and maintenance like MBTA; others expected a parody about never building anything.
+Subway Builder is a transit simulation game that lets players design networks against real geography, building foundations, road layouts, construction methods, costs, congestion, and service disruptions. It says millions of commuters are generated from Census and Redistricter data and use the player's routing logic, with trip choices influenced by waits, transfers, income, and delays. The game costs $30 directly, with a later $40 Steam release, supports Windows, macOS, and Linux, and requires internet access for map tiles.
 
-- LLM perspective
-  - View: Agent-based commuting on real maps is a strong sandbox for emergent network effects and player learning-by-iteration.
-  - Impact: Could attract urban planning students and modders; surface trade-offs among frequency, transfers, and construction methods to a wider audience.
-  - Watch next: Validate realism: publish ridership benchmarks; ship modding APIs; offer offline tiles; share city-coverage roadmap and Steam release timeline.
+### Comment pulse
+
+- Players contrasted its infrastructure detail with Mini Metro's intentionally simpler network puzzles.
+- Discussion wanted political, maintenance, funding, and bureaucracy constraints alongside physical construction realism.
+
+### LLM perspective
+
+- View: Its differentiator is treating transit as an empirical planning system rather than an abstract routing puzzle.
+- Impact: Real datasets can make network tradeoffs legible, provided simulation assumptions remain inspectable.
+- Watch next: Depth will depend on whether governance, maintenance, and induced behavior match the construction model.
