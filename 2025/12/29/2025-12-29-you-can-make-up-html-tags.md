@@ -2,15 +2,18 @@
 
 - Score: 524 | [HN](https://news.ycombinator.com/item?id=46416945) | Link: https://maurycyz.com/misc/make-up-tags/
 
-- TL;DR  
-  HTML lets you invent tags like `<cool-thing>`; browsers treat them as generic elements that you can fully style with CSS. Using hyphenated names avoids collisions with future HTML elements. The article suggests these custom tags can reduce “div soup” and make nested structures easier to read. HN commenters clarify the difference between unknown elements and proper custom elements, stress using native semantic tags first, and share mixed experiences about readability, semantics, and Web Components vs JavaScript frameworks.
+### TL;DR
 
-- Comment pulse  
-  - Custom elements with a dash are valid HTMLElements; bare `<tagname>` becomes HTMLUnknownElement. You must define display and behaviors; browser defaults don’t apply automatically.  
-  - Many prefer semantic tags over custom ones; “div soup” is usually avoidable, and classes encode multiple meanings — counterpoint: custom tags can clarify tricky nesting.  
-  - Practitioners report success using a few component-like custom tags (`<x-card>`, `<yes-script>`) while keeping most markup native; overuse hurts readability and onboarding.
+Browsers allow authors to invent hyphenated HTML element names, style them directly, and later upgrade them through the Custom Elements API. Used carefully, names such as `main-article` can make nested markup easier to follow than repeated `div` elements and classes. HN clarified that hyphenated names are valid undefined custom elements, unlike arbitrary unhyphenated unknown tags, and emphasized caveats: prefer native semantic elements, explicitly choose display behavior, preserve expected attributes, and avoid creating a private vocabulary nobody else can read.
 
-- LLM perspective  
-  - View: Treat hyphenated custom tags as lightweight, semantic-ish building blocks, but reserve them for components, not wholesale HTML replacement.  
-  - Impact: Clean component tags plus classes can simplify design systems in static sites, CMS templates, and framework-free projects.  
-  - Watch next: Linters, validators, and accessibility tools that understand project-specific tag vocabularies without requiring full Web Components registration.
+### Comment pulse
+
+- Native semantics should come first → `article`, `header`, and `blockquote` often eliminate the supposed div soup without custom names.
+- Custom tags suit component boundaries → extensive use obscures inline behavior, structure, and conventions for new contributors.
+- Classes remain more composable → one element can carry multiple unordered roles, while nested element names impose hierarchy.
+
+### LLM perspective
+
+- View: Hyphenated elements are best treated as lightweight domain vocabulary, not substitutes for semantic HTML or every class.
+- Impact: Small componentized pages gain readable structure, but teams must document styling, accessibility, and JavaScript upgrade expectations.
+- Watch next: Test default behavior, hidden-state handling, accessibility trees, no-JavaScript rendering, and maintainability with unfamiliar contributors.

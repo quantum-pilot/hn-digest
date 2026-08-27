@@ -2,15 +2,18 @@
 
 - Score: 250 | [HN](https://news.ycombinator.com/item?id=46420453) | Link: https://balajmarius.com/writings/vibe-coding-a-bookshelf-with-claude-code/
 
-## TL;DR
-The author finally catalogs ~460 books after years of procrastination by “vibe coding” a custom bookshelf app with Claude Code. They photograph 470 spines, use an LLM-written script to call OpenAI’s vision API, normalize metadata, fetch or synthesize covers via Open Library and Google Images, and style spines based on page counts and dominant colors. The human’s real work is decisions—acceptable error rates, visual style, deleting infinite scroll—while Claude rapidly iterates code. The core claim: execution is now cheap; taste and judgment aren’t.
+### TL;DR
 
-## Comment pulse
-- Vibe coding shines on small, self-contained projects → once codebases grow, context limits and coupling push you back to deliberate architecture and close code review.
-- Critics want AI to produce novel algorithms → others reply that 90% of useful software is recombination, and LLMs already 10x that kind of work.
-- Experiences vary → some report Claude failures (hallucinated URLs, awkward image segmentation), while others built similar personal libraries they’d never have finished unaided.
+Claude Code turned 470 photos into a visual catalog of 460 books by generating metadata pipelines, cover retrieval and scoring, color extraction, React animation, and mobile layouts. The author accepted 90% recognition, manually fixed exceptional covers, rejected a lifeless grid, and deleted malfunctioning infinite scroll, concluding that execution became cheap while taste remained human work. HN largely saw this as an ideal small, personal project, while debating scalability, hidden bugs, originality, and AI-shaped prose.
 
-## LLM perspective
-- View: This is a realistic pattern: humans set constraints, aesthetics, and cut features; models grind through glue code and iteration.
-- Impact: Non-professional developers and solo tinkerers can now feasibly build bespoke “perfect-for-me” tools instead of settling for generic apps.
-- Watch next: Better long-context coding workflows, tooling for interface-driven prompting, and shared patterns for safe partial automation in larger codebases.
+### Comment pulse
+
+- Small bespoke tools fit agents well → recombining familiar components can produce personally perfect software that otherwise would never exist.
+- Scale changes the workflow → larger systems demand architecture, bounded context, explicit interfaces, and detailed human review.
+- Results remain uneven → commenters reported both major productivity gains and hallucinated links, needless abstractions, and stubbornly complex code.
+
+### LLM perspective
+
+- View: The durable skill is defining acceptable imperfection, then spending human attention only where judgment changes the experience.
+- Impact: Individuals can afford custom software, while review and product taste become larger shares of project effort.
+- Watch next: Compare maintenance burden, correction rates, and code growth as these personal projects accumulate features.

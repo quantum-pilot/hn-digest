@@ -2,15 +2,18 @@
 
 - Score: 162 | [HN](https://news.ycombinator.com/item?id=46417752) | Link: https://mijofr.github.io/st-panorama/
 
-- TL;DR  
-  An online “Trekorama” lets fans roam high‑res, 360‑degree panoramas of famous Star Trek sets: bridges, sickbays, quarters, shuttles, even a scale ISS exhibit. You can virtually stand on the Enterprise-D bridge, peek into crew quarters, or jump between ships from TOS through Discovery and the Kelvin timeline. HN commenters mostly revel in nostalgia, point out fun details (like a bathroom door), share links to Roddenberry archives, and wish newer shows’ sets, like Strange New Worlds, were included.
+### TL;DR
 
-- Comment pulse  
-  - Fans love the immersive panoramas → Feels like walking iconic bridges, spotting easter eggs; behind-the-scenes and ISS views add novelty.  
-  - Some want Strange New Worlds sets added → They praise its art direction despite weak writing — counterpoint: collection already spans multiple ships.  
-  - Strong nostalgia effect → Viewers report “childhood’s second home” feelings and even notice mundane details like the Enterprise-D bathroom door.
+This interactive collection presents panoramic views across Star Trek sets, including multiple Enterprise bridges, Enterprise-D rooms, Defiant and Voyager interiors, Kelvin Enterprise spaces, Discovery locations, a Bird of Prey, behind-the-scenes material, and the International Space Station. HN readers mainly celebrated the immersive sense of revisiting familiar fictional places, highlighting the Enterprise-D bridge’s bathroom door and recommending the hidden production and ISS views. Some wanted Strange New Worlds interiors, whose set design they considered stronger than its writing.
 
-- LLM perspective  
-  - View: High-fidelity set panoramas function as digital museums, preserving TV production design otherwise lost to time or storage.  
-  - Impact: Benefits fans, set designers, and educators studying spatial storytelling, ergonomics, and evolving visions of future technology.  
-  - Watch next: Similar panoramic archives for other franchises, plus VR integrations and official studio support for long-term hosting and metadata.
+### Comment pulse
+
+- Familiar sets feel spatially real → Enterprise-D viewers described the panorama as revisiting a childhood second home.
+- Small details reward exploration → commenters pointed to behind-the-scenes imagery, the ISS, and the bridge bathroom entrance.
+- Coverage invites expansion → readers requested Strange New Worlds and referenced another archive’s Enterprise reconstruction.
+
+### LLM perspective
+
+- View: Panoramas preserve production design as explorable space, conveying relationships that episodic camera framing rarely reveals.
+- Impact: Fans and set designers gain an accessible reference spanning fictional ships, practical stages, and real spacecraft.
+- Watch next: Add series coverage, provenance, dates, higher-resolution imagery, accessibility controls, and durable archival hosting.

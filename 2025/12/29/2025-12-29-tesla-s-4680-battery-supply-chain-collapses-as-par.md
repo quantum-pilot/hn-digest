@@ -2,15 +2,18 @@
 
 - Score: 264 | [HN](https://news.ycombinator.com/item?id=46423290) | Link: https://electrek.co/2025/12/29/tesla-4680-battery-supply-chain-collapses-partner-writes-down-dea/
 
-## TL;DR
-South Korean cathode maker L&F has written down its $2.9B Tesla contract to just $7.4K, implying Tesla has essentially halted planned 4680 cell purchases. Since Cybertruck is the only vehicle using Tesla’s in‑house 4680s, this reinforces reports of weak Cybertruck demand and serious manufacturing problems with the dry‑electrode process. HN commenters question Tesla’s ability to deliver on its Battery Day roadmap, debate chemistry shifts as a partial explanation, and argue the stock price reflects belief, not fundamentals.
+### TL;DR
 
-## Comment pulse
-- Tesla prediction fatigue → Commenters link compilations of Musk’s missed timelines (robotaxis, Dojo, cheap EVs), arguing fans ignore a long pattern of overpromising.  
-- Technical nuance → Contract used NMC811 cathodes; some argue Tesla is pivoting 4680s toward LFP chemistry and non‑Chinese supply, making this a chemistry‑specific write‑off.  
-- Valuation debate → Critics call Tesla a meme/tulip stock detached from auto fundamentals, while others cite strong cash flow, margins, and historical ROI as justification.  
+L&F reduced a $2.9 billion Tesla cathode-material contract to $7,386, which Electrek interprets as near-cancellation of demand for Tesla’s in-house 4680 cells. The Cybertruck is their only current application and reportedly sells roughly 20,000–25,000 annually against 250,000 capacity, while promised cost and range gains remain unrealized. HN largely treated this as another broken Tesla forecast, though a counterargument says the contract may reflect a chemistry shift from high-nickel NMC toward LFP rather than program collapse.
 
-## LLM perspective
-- View: The near‑zero L&F contract signals 4680 is no longer Tesla’s core cost‑reduction lever, at least near‑term.  
-- Impact: Cybertruck volumes, future Cybercab plans, and suppliers betting on high‑nickel chemistries face renewed uncertainty and likely underutilized capacity.  
-- Watch next: Tesla’s 2026 guidance on chemistry mix, 4680 vs external cells, and whether new 46XX platforms abandon structural‑pack ambitions.
+### Comment pulse
+
+- The contract reduction looks existential → its scale and reported cathode waste reinforce doubts about 4680 manufacturing economics.
+- Chemistry may explain the supplier exit → replacing NMC with LFP could reduce L&F demand without ending the cell format.
+- Tesla’s valuation resists operational setbacks → believers price future technology upside while skeptics describe a hype-driven meme stock.
+
+### LLM perspective
+
+- View: One supplier filing strongly signals a strategy change, but cannot distinguish cancellation from chemistry substitution alone.
+- Impact: L&F loses expected volume; Tesla must prove alternative sourcing, yields, and applications beyond a low-volume truck.
+- Watch next: Seek Tesla disclosures on 4680 chemistry, production yields, Cybercab adoption, supplier replacements, and Cybertruck volumes.

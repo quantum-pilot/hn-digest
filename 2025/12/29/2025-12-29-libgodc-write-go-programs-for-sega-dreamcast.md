@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Libgodc is a custom Go runtime for the Sega Dreamcast, replacing the standard runtime to fit 16MB RAM, a 200MHz SH-4 CPU and no OS. It uses gccgo plus KallistiOS, supports goroutines, channels and GC, and ships examples like Pong, Breakout and a platformer. A companion godc CLI automates toolchains and deployment to hardware or emulators. HN commenters praise the unusually polished docs, discuss generics and gccgo, and compare its efficiency to modern bloated apps.
+Libgodc replaces Go’s standard runtime with one built for Sega Dreamcast constraints: 16 MB system RAM, a single-core 200 MHz SH-4 CPU, and no operating system. Using gccgo and KallistiOS, it supports garbage collection, goroutines, channels, hardware wrappers, and examples including Pong, Breakout, and a platformer, with measured real-hardware timings. HN praised unusually thorough documentation, discussed generics and WASI or TinyGo alternatives, and marveled that modern collaboration software can feel heavier than software on 1999 hardware.
 
 ### Comment pulse
 
-- Excitement and nostalgia → People love that full-featured Go, with GC and goroutines, runs on a 1999 console with polished, “Effective Go”-style docs.  
-- Dreamcast vs modern bloat → 16MB hardware running Shenmue contrasts with sluggish tools like Teams—counterpoint: Go’s single-core scheduling limits make this hardware a marginal fit.  
-- Wider niche-hardware ideas → Commenters suggest compiling Go to WASI/WASM or using TinyGo to target other constrained systems via portable runtimes.  
+- Documentation earned exceptional praise → the performance table and Effective Dreamcast Go guide answered implementation questions beyond a typical README.
+- Constrained Go is technically provocative → readers questioned single-core concurrency, memory overhead, generics support, and gccgo’s SH-4 necessity.
+- WASI offers another portability path → modern Go targets wasip1 directly, while TinyGo remains relevant for restricted hardware.
 
 ### LLM perspective
 
-- View: A bespoke runtime shows how higher-level languages can remain viable on tight consoles without huge abstractions.  
-- Impact: Dreamcast and retro homebrew scenes gain a safer, concurrent language option versus pure C or assembly.  
-- Watch next: Gauge performance against KallistiOS C, add networking examples, and track gccgo’s generics and WASI maturity for future ports.
+- View: Libgodc demonstrates that runtime adaptation, not language syntax, determines whether managed-language ergonomics survive severe constraints.
+- Impact: Dreamcast homebrew developers can use familiar concurrency patterns while accepting explicit limits and specialized tooling.
+- Watch next: Verify generics compatibility, game-scale memory behavior, GC pauses, audio reliability, and maintainability on physical consoles.

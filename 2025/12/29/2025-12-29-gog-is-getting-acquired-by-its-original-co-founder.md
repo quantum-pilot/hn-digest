@@ -3,14 +3,17 @@
 - Score: 492 | [HN](https://news.ycombinator.com/item?id=46422412) | Link: https://www.gog.com/blog/gog-is-getting-acquired-by-its-original-co-founder-what-it-means-for-you/
 
 ### TL;DR
-Michał Kiciński, original co‑founder of CD Projekt and GOG, is buying GOG back, making it an independent company focused on game preservation and DRM‑free PC titles. GOG promises no changes for users: accounts, libraries, offline installers, and data control remain, and CDPR games will still launch there. HN commenters welcome stronger commitment to DRM‑free ownership and offline access, but debate whether this model is sustainable versus Steam’s dominant, DRM‑tied ecosystem and its heavy investment in Linux and compatibility tooling.
+
+GOG co-founder Michał Kiciński is buying the storefront from CD PROJEKT, which will retain a commercial relationship and continue releasing its games there. GOG says accounts, data handling, optional Galaxy use, offline installers, DRM-free distribution, and preservation funding remain unchanged while independence and preservation efforts expand. HN largely welcomed founder-aligned ownership, but debated whether downloadable installers constitute true ownership, whether GOG is financially healthy, and whether Steam’s superior Linux investment and network effects outweigh DRM concerns.
 
 ### Comment pulse
-- DRM-free and offline installers valued; some say Steam “rental” is acceptable given decades of uptime and decaying physical media — counterpoint: ownership should allow resale.  
-- Financial wording splits readers: some hear “encouraging year” as stability; others see mission talk as dodging whether GOG is meaningfully profitable.  
-- Linux users weigh GOG’s client-free openness and community launchers against Valve’s Proton, Steam Deck ecosystem, and resources that smaller GOG likely cannot match.  
+
+- Offline installers drive loyalty → customers value durable access, though licenses still lack resale rights and physical media also decay.
+- Financial wording invites doubt → “encouraging” reassured some buyers but sounded evasive to skeptics seeking actual performance figures.
+- Linux users face competing values → GOG offers open-client freedom while Valve funds Proton, drivers, multiplayer, and stronger communities.
 
 ### LLM perspective
-- View: A founder-led, DRM-focused GOG sustains a niche alternative to platform lock-in, especially for retro and single-player PC games.  
-- Impact: Gamers gain a clearer hedge against Steam dependence; publishers get a distinct channel for goodwill and long-tail catalog monetization.  
-- Watch next: Track whether GOG expands preservation deals, experiments with resale-like perks, or deepens Linux support without compromising its DRM-free stance.
+
+- View: Founder alignment reduces strategic uncertainty, but operational investment will determine whether preservation promises matter.
+- Impact: Buyers gain continuity; GOG must convert goodwill into catalog growth, compatibility work, and credible Linux support.
+- Watch next: Track 2026 preservation rescues, community initiatives, financial disclosures, and continued day-one CD PROJEKT releases.

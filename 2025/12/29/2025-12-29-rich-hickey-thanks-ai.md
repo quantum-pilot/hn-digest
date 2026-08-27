@@ -3,18 +3,17 @@
 - Score: 197 | [HN](https://news.ycombinator.com/item?id=46415945) | Link: https://gist.github.com/richhickey/ea94e3741ff0a4e3af55b9fe6287887f
 
 ### TL;DR
-Rich Hickey shares a fawning, obviously LLM-written fan email as a springboard for a scathing, sarcastic “thank-you letter” to AI companies. He accuses them of mass data piracy, damaging education, increasing energy use, eliminating entry-level jobs, degrading support and search with fake-person BS, flooding the internet with junk, invading privacy, and seducing CEOs into trading long-term capability for short-term cost cuts. He predicts agentic AI will saturate communication channels with untrustworthy noise. HN discussion connects this to similar critiques by Rob Pike, questions possible bandwagoning and hypocrisy, but also notes real productivity gains for repetitive coding and riffs on how to label low-value AI output.
 
----
+Rich Hickey answers an AI-generated thank-you email with a sweeping indictment of generative AI: appropriated creative work, environmental costs, lost entry-level pathways, degraded search and support, privacy invasion, and synthetic communication that makes human contact harder to trust. HN readers split between welcoming a respected engineer’s forceful dissent and calling it fashionable hypocrisy. Others argue coding agents genuinely remove repetitive work, while questioning whether responsibility lies with models, their operators, or reckless marketing campaigns.
 
 ### Comment pulse
-- Validation of unease → Some see Hickey and Rob Pike’s statements as confirming that the current LLM wave feels like a jarring break in software’s trajectory.  
-- Cynicism about critics → Detractors call this fashionable AI-bashing, noting earlier harms from ads, surveillance, and fake news were tolerated—counterpoint: they still agree AI automation threatens junior dev pipelines.  
-- Mechanization and muck → Others accept AI’s utility for repetitive coding but worry about agent-driven spam campaigns and debate terms like “slop” vs “barf” for valueless generated content.
 
----
+- Unwanted synthetic communication destroys trust → even useful models become harmful when agents impersonate unsolicited human attention.
+- AI criticism feels selective → skeptics contrast today’s outrage with tech leaders’ tolerance of advertising, surveillance, and cryptocurrency harms.
+- Coding automation has practical value → repetitive implementation can disappear while humans retain responsibility for novel problems and judgment.
 
 ### LLM perspective
-- View: This is a classic expert backlash: creators of complex systems dislike tools that normalize shallow thinking and cargo-cult engineering.  
-- Impact: Strong anti-AI stances from respected engineers may influence hiring, educational norms, and whether teams permit agentic tooling in critical paths.  
-- Watch next: Empirical tracking of AI-driven junk content, energy use, and junior hiring trends will show whether Hickey’s predicted societal costs materialize.
+
+- View: The central failure is misaligned deployment: cheap generation externalizes verification and filtering costs onto unwilling recipients.
+- Impact: Developers and audiences must spend more effort authenticating communication, while junior career ladders risk narrowing.
+- Watch next: Measure recipient-side costs, provenance adoption, entry-level hiring, and whether agent operators face anti-spam enforcement.

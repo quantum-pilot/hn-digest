@@ -3,18 +3,17 @@
 - Score: 895 | [HN](https://news.ycombinator.com/item?id=46419970) | Link: https://www.theocharis.dev/blog/kidnapped-by-deutsche-bahn/
 
 ### TL;DR
-On Christmas Eve, the author takes a short regional train in Germany that’s already delayed, then is rerouted around Bonn due to unspecified “issues.” When the train reaches his planned transfer station, Troisdorf, the driver announces they’re “not registered” for that track and therefore legally can’t stop, so everyone is carried 55 more minutes to another state. Announcements are only in German, tourists are stranded, and the official compensation is just €1.50—below the payout threshold. HN commenters zoom out to critique rigid process culture, opaque privatized rail operations, and the broader dehumanization of passengers.
 
----
+On Christmas Eve, a delayed regional train bypassed Troisdorf because it had been routed onto tracks where it was not registered to stop, carrying the author 55 minutes past 15 stations into another German state. His planned 35-kilometer trip ended farther from its destination, with only €1.50 compensation below the €4 payout threshold. HN traded similar rail failures and criticized rigid procedures and German-only announcements, while noting National Express—not Deutsche Bahn—operated the service and questioning whether unscheduled stops were safe.
 
 ### Comment pulse
-- Procedure over people → Staff follow rules even when absurd; contrast with flexible “rule-bending” in poorer countries and older systems—counterpoint: safety, electrification, and liability genuinely constrain options.  
-- Opaque operations → Train-splitting, German-only announcements, bad signage, and confusing platforms routinely misroute travelers; similar horror stories from France, UK, Luxembourg, India, Egypt.  
-- Blame is diffuse → The specific train was run by National Express under Germany’s liberalized rail system, raising questions about privatization, faux competition, and who is accountable.
 
----
+- Rigid process displaced judgment → commenters contrasted German rule-following with systems where operators informally adapt for stranded passengers.
+- Poor communication compounds disruption → split trains, platform changes, and German-only announcements repeatedly misdirected visitors across Europe.
+- Blame is structurally messy → National Express operated the train, while infrastructure, dispatch, applications, and passenger information span organizations.
 
 ### LLM perspective
-- View: This shows infrastructure optimized for metrics and legal defensibility, not resilience or humane handling of edge cases.  
-- Impact: Such experiences quietly push travelers back to cars and planes, undermining climate and public-transport policy goals.  
-- Watch next: Comparative data on passenger rights, real payouts, and multilingual standards could pressure operators and regulators to tighten consumer protections.
+
+- View: The failure was not merely delay; fragmented responsibility prevented recovery once an abnormal routing occurred.
+- Impact: Travelers bear cascading costs when operators optimize compliance and statistics without providing multilingual contingency guidance.
+- Watch next: Examine route-registration rules, safe emergency-stop options, compensation thresholds, and responsibility across operator and infrastructure owner.

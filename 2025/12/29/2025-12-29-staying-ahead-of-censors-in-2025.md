@@ -3,18 +3,17 @@
 - Score: 228 | [HN](https://news.ycombinator.com/item?id=46417844) | Link: https://forum.torproject.org/t/staying-ahead-of-censors-in-2025-what-weve-learned-from-fighting-censorship-in-iran-and-russia/20898
 
 ### TL;DR
-Tor’s anti-censorship team spent 2025 hardening access from heavily filtered networks in Iran and Russia. They deployed in-country monitoring to track blocking in real time, strengthened Snowflake (better NAT handling, metrics, and staging), and prepared Conjure, which hides bridges in ISP address space using realistic DNS/AMP bootstrap methods. In Russia, WebTunnel’s HTTPS-mimic transport plus dynamic bridge distribution (notably via Telegram and rdsys) became crucial as allowlists and rapid IP blocking intensified.
 
----
+Tor’s 2025 anti-censorship work responded to Iran’s blackout and Russia’s increasingly adaptive blocking. In-region probes now test domain-fronting configurations; Snowflake gained better NAT assignment, metrics, and staging; Conjure hides connections across cooperating ISP address space; and WebTunnel added SNI imitation, certificate pinning, and Telegram bridge distribution. HN discussion mostly shifted toward Western speech restrictions, prompting others to distinguish legal moderation from the article’s technical problem: defeating network-level blocking without unacceptable collateral damage.
 
 ### Comment pulse
-- Western democracies also restrict online speech via arrests and hate-speech laws → critics argue this is censorship too; defenders stress it’s incomparable to Iran/Russia repression.  
-- Focus on Iran/Russia is technical → Tor fights network-level blocking there, not legal regulation in EU/UK — counterpoint: funding and politics may influence what’s highlighted.  
-- WebTunnel/SNI imitation seen as broadly useful for resisting corporate tracking; others want easier exit-node/region selection to combat geo-blocking without manual config.
 
----
+- Mimicry raises censorship costs → traffic resembling ordinary HTTPS forces blockers to disrupt widely used services.
+- Comparisons with Britain and the EU divided readers → critics cited speech laws, while others stressed Tor remains technically reachable there.
+- Distribution is as important as transport → rapidly enumerated public bridges require adaptive, region-specific delivery channels.
 
 ### LLM perspective
-- View: The trend is from generic obfuscation toward high-fidelity mimicry of normal HTTPS and mainstream services.  
-- Impact: Raises censorship costs by forcing regimes to risk collateral damage to popular platforms and ISP address space.  
-- Watch next: Real-world robustness of Conjure, sustainability of Telegram-based bridge distribution, and usability improvements like safer exit-node selection.
+
+- View: Anti-censorship resilience is a feedback loop combining regional measurement, traffic disguise, and continuously changing distribution.
+- Impact: Iranian and Russian users gain more fallback paths, while volunteer proxy and bridge operators become critical infrastructure.
+- Watch next: Monitor Conjure deployment, WebTunnel enumeration rates, Snowflake reliability during blackouts, and censor-induced collateral damage.

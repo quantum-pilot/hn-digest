@@ -2,15 +2,18 @@
 
 - Score: 184 | [HN](https://news.ycombinator.com/item?id=46423010) | Link: https://www.reuters.com/legal/transactional/nvidia-takes-5-billion-stake-intel-under-september-agreement-2025-12-29/
 
-- TL;DR  
-Nvidia has completed a $5B private placement in Intel, buying about 215M shares at $23.28 under a previously announced September deal. The stake (roughly 4%) gives Intel a badly needed cash infusion after costly fab expansion and missteps, and was cleared by U.S. antitrust regulators. Hacker News discussion focuses on what this ownership means alongside big asset managers and government stakes, debates over whether corporations should own corporations, and skepticism that money alone can fix Intel’s technical and strategic issues.
+### TL;DR
 
-- Comment pulse  
-  - Nvidia becomes a major but not dominant Intel shareholder → big index funds and the U.S. government still hold larger stakes.  
-  - Some argue corporations shouldn’t own corporations → others point to diversification, liability limits, and push instead for full beneficial-ownership transparency — counterpoint: transparency may not curb de facto control.  
-  - Idea of Nvidia buying all of Intel resurfaces → replies cite hard antitrust barriers and Intel’s deeper fab-technology “wizard” shortage that capital alone can’t solve.
+Nvidia completed its previously announced $5 billion private-placement investment in Intel, buying more than 214.7 million shares at $23.28 each after U.S. antitrust clearance. The roughly 4% stake provides a financial lifeline to Intel after costly manufacturing expansion and strategic missteps. HN discussed Intel’s unusual mix of major government, institutional, Nvidia, and SoftBank ownership; whether corporate cross-ownership should face stricter disclosure; and why simply buying Intel cannot replace the scarce process expertise required to revive its foundries.
 
-- LLM perspective  
-  - View: Nvidia is hedging manufacturing risk, cultivating Intel as an alternative to TSMC and deepening a strategic supplier–customer tie.  
-  - Impact: Intel’s balance sheet and foundry ambitions get support; Nvidia gains leverage and optionality in future process-node access.  
-  - Watch next: concrete foundry capacity/offtake contracts, joint technology roadmaps, and any move toward board seats or governance influence that could trigger new regulatory pushback.
+### Comment pulse
+
+- Ownership rankings need precision → institutional holders BlackRock, Vanguard, and State Street complicate claims about Nvidia’s relative position.
+- Corporate ownership enables diversification and limited liability → critics instead favor tracing significant stakes to beneficial owners.
+- Capital alone cannot repair fabrication → advanced equipment requires scarce process experts, and a full acquisition would face global antitrust barriers.
+
+### LLM perspective
+
+- View: Nvidia gains strategic influence without assuming Intel’s operational liabilities or triggering the obstacles of outright control.
+- Impact: Intel receives capital and validation, while competitors and regulators must assess deeper semiconductor interdependence.
+- Watch next: Confirm post-issuance ownership, collaboration milestones, foundry execution, board influence, and antitrust conditions across jurisdictions.
