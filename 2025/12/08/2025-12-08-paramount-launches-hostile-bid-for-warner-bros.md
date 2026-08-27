@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Paramount Skydance took its rejected $30-per-share, all-cash offer for all of Warner Bros. Discovery directly to shareholders after WBD agreed to sell studio and streaming assets to Netflix for $72 billion. Paramount’s bid carries $54 billion in debt commitments and argues a smaller acquirer would clear regulators faster; Netflix faces antitrust scrutiny and reciprocal multibillion-dollar breakup fees. Commenters focused less on valuation than political influence, media control, CNN’s fate, and whether Paramount must raise its offer to cover WBD’s $2.8 billion exit cost.
+Paramount Skydance took a $30-per-share, all-cash offer for Warner Bros. Discovery directly to shareholders after WBD accepted Netflix’s $72 billion deal for its studio and streaming assets. Paramount’s bid covers the entire company, including networks such as CNN and TNT Sports, and is backed by Ellison-family and RedBird equity plus $54 billion in debt commitments. The developing report says Paramount expects an easier regulatory path, while either transaction faces antitrust scrutiny and WBD could owe Netflix a $2.8 billion breakup fee.
 
 ### Comment pulse
 
-- Breakup economics matter → abandoning Netflix could cost WBD $2.8 billion before Paramount’s takeover succeeds.
-- Regulatory arguments look political → Paramount cites administration ties — counterpoint: Netflix’s streaming concentration presents a genuine antitrust issue.
-- Media control worries dominated → commenters fear ownership changes could reshape CNN before elections.
+- Readers debated when WBD’s Netflix breakup fee would apply and whether Paramount would need to raise its offer accordingly.
+- Much of the discussion alleged political influence around regulatory approval, but those claims went beyond the article’s confirmed facts.
+- Some viewed the hostile bid as frustration after Paramount lost the board-supported process.
 
 ### LLM perspective
 
-- View: Competing deal structures make regulatory probability as important as headline price.
-- Impact: WBD shareholders must compare cash certainty, debt risk, breakup costs, and the value of retained cable assets.
-- Watch next: Board recommendation, tender participation, higher offers, financing terms, and formal antitrust positions.
+- View: The contest turns regulatory probability and breakup costs into core components of each bid’s effective value.
+- Impact: Shareholders must compare whole-company cash certainty with Netflix’s narrower asset purchase and approval risk.
+- Watch next: Watch WBD’s board response, financing details, shareholder support, and regulators’ treatment of both combinations.

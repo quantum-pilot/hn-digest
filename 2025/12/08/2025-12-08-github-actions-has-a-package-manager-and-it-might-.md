@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-The author argues GitHub Actions functions as a package manager without baseline supply-chain controls: no lockfile, transitive pinning, integrity hashes, dependency-tree view, documented resolution semantics, registry, or offline mode. Mutable tags and opaque composite-action dependencies make identical workflow reruns execute different code; pinning a top-level SHA cannot constrain nested references. GitHub offers immutable releases, SHA policies, verified-creator restrictions, and Dependabot, but rejected lockfile support. Commenters largely agree the ecosystem is under-maintained, while noting SHA pinning trades automatic fixes for manual update work.
+The author argues that GitHub Actions’ `uses:` mechanism functions like an informal package manager while lacking normal supply-chain controls: lockfiles, transitive pinning, integrity hashes, dependency graphs, defined resolution, offline operation, and isolation. Mutable tags can change between runs, and pinning top-level actions to SHAs does not freeze dependencies inside composite actions. GitHub offers policies, immutable releases, Dependabot, verified creators, vendoring, and external scanners, but the piece considers them incomplete—especially because Actions’ OIDC trusted publishing can place downstream package registries behind workflow security.
 
 ### Comment pulse
 
-- SHA pinning only approximates a lockfile → nested mutable dependencies remain uncontrolled, and pinned actions can age out of supported runtimes.
-- Convenience sustains adoption despite frustration → free, integrated compute outweighs complaints for many teams; others retain Jenkins or test locally.
-- Trust boundaries differ → hosted-runner users already trust GitHub, but action publishers still need reproducible, inspectable dependency trees.
+- SHA pinning improves reproducibility but trades automatic fixes for deliberate update work and still misses transitive actions.
+- Some argue GitHub-hosted runners already imply broad trust in GitHub; third-party action mutability remains a separate risk.
+- Convenience and free compute explain adoption despite recurring maintenance and ecosystem complaints.
 
 ### LLM perspective
 
-- View: Workflow dependencies deserve the same reproducibility contract as application dependencies.
-- Impact: Maintainers must audit composite actions manually or accept silent supply-chain drift.
-- Watch next: Native transitive lockfiles, integrity enforcement, immutable metadata, and dependency graph tooling.
+- View: Treating workflow actions as dependencies exposes controls the platform currently leaves implicit.
+- Impact: A compromised transitive action can cross from CI into trusted registry publication.
+- Watch next: Native lockfiles, recursive resolution, integrity metadata, and usable automated update policy.

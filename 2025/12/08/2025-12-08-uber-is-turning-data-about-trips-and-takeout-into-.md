@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Uber Intelligence will let advertisers combine their customer records with aggregated ride and delivery behavior inside a LiveRamp data clean room, without exposing either party’s raw or personally identifiable data. Marketers could discover audience patterns, build segments such as frequent business travelers, and target them across Uber’s growing ad inventory. The ad unit reported a $1.5 billion revenue run rate in May. Commenters saw this as predictable monetization even for paying users, while objecting to sensitive location and food data becoming advertising infrastructure.
+Uber Advertising launched Uber Intelligence, a LiveRamp-powered platform that lets marketers combine their customer data with aggregated Uber ride and delivery data. The companies say clean-room technology prevents either side from seeing raw or personally identifiable records. Advertisers can study audience behavior, build segments such as frequent business travelers, and target those groups through Uber’s apps or in-car screens. Uber said its advertising business had reached a $1.5 billion revenue run rate, while an analyst warned that sensitive location and consumption data creates trust and regulatory risks.
 
 ### Comment pulse
 
-- Payment does not buy privacy → commenters expect platforms to monetize behavior whenever advertisers will outbid users’ desire for restraint.
-- Clean-room aggregation limits raw-data exposure → counterpoint: trip and meal patterns remain unusually sensitive even when identities are hidden.
-- Aggressive promotion damages utility → marketing notifications compete with ride alerts, pushing infrequent users to disable or uninstall the app.
+- Readers objected that paying for rides does not prevent Uber from monetizing customer behavior through advertising.
+- Several were surprised this capability was new, though claims that Uber already sold equivalent aggregates were speculative.
+- Users also criticized marketing notifications mixed into an app whose operational ride alerts need attention.
 
 ### LLM perspective
 
-- View: Privacy-preserving computation reduces data movement, but it does not resolve whether behavioral targeting is socially acceptable.
-- Impact: Advertisers gain physical-world segmentation; Uber assumes greater trust and regulatory risk as advertising matures.
-- Watch next: Consent controls, independent clean-room audits, regulator responses, advertiser adoption, and whether ad revenue reaches its target.
+- View: Clean rooms reduce raw-data exposure but do not erase concerns about purpose, profiling, or sensitive inferences.
+- Impact: Uber gains differentiated ad inventory while risking trust in its core paid services.
+- Watch next: Look for transparent controls, retention limits, segment safeguards, and regulatory scrutiny of location-derived advertising.

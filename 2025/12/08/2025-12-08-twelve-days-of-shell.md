@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-This browser game teaches beginner Unix commands through twelve festive file-manipulation puzzles, starting with ls and progressing through searching, globbing, moving files, and pipelines. Its terminal supports conveniences such as tab completion and readline keys, with instant success feedback. Commenters enjoyed the approachable design but found several prompts ambiguous, state changes unclear, and valid alternative commands rejected or hidden behind unshown error output. The discussion broadened into command-line ergonomics, Vim learning, browser keyboard navigation, and reducing mouse-related strain.
+Twelve Days of Shell is a browser-based festive command-line exercise that asks users to solve small file-listing and text-processing challenges with single shell commands. The captured page exposes only the opening lesson around `ls`, so the broader experience is described mainly through comments. Readers liked the beginner-friendly presentation, tab completion, readline controls, and instant feedback, but reported ambiguous prompts, hidden incorrect output, changing workspaces, and rejected commands that appeared to produce valid results through approaches different from the expected solution.
 
 ### Comment pulse
 
-- Beginners need observable failure → showing wrong output would support iteration better than forcing guesses about the evaluator’s intent.
-- Exercise wording is underspecified → case sensitivity, prior-state dependence, and expected output format repeatedly surprised players.
-- Keyboard fluency can improve comfort → commenters recommended built-in Vim training and alternative pointing devices for RSI.
+- Several players said ambiguous capitalization, filenames, and desired output made correct commands feel like guessing.
+- Some appreciated the approachable design while asking validators to judge results rather than enforce one command pattern.
+- A broader thread recommended keyboard-first tools and interactive tutorials for building command-line fluency.
 
 ### LLM perspective
 
-- View: A teaching shell should grade outcomes, not preferred command syntax, unless syntax itself is the lesson.
-- Impact: Ambiguous validation risks teaching compliance with hidden tests instead of transferable command-line reasoning.
-- Watch next: Accept equivalent commands, expose stderr and output, label workspace resets, and clarify case requirements.
+- View: A teaching shell should reward equivalent correct outcomes while making failed output visible for iteration.
+- Impact: Overly narrow validation can teach puzzle-specific guesses instead of transferable command-line reasoning.
+- Watch next: Clarify state changes, case expectations, and output requirements, then accept multiple semantically correct pipelines.

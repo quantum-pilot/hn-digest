@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Microsoft will raise most commercial Office 365 and Microsoft 365 cloud prices on July 1, 2026, generally by up to $3 per user monthly, while adding security, management, and collaboration features. The author estimates an average $2 increase across roughly 446 million seats could yield $10.7 billion annually and offset AI-related margin pressure. Commenters saw deep SharePoint, Teams, Entra, Defender, and Intune lock-in, but disagreed whether modest increases reflect inflation and real cloud value or worsening quality and unwanted AI.
+Microsoft announced commercial Office 365 and Microsoft 365 monthly price increases effective July 1, 2026. The article estimates an average two-dollar rise across roughly 446 million paid seats could add about $10.7 billion annually, while noting Microsoft Cloud’s 68% operating margin and higher AI investment costs. Microsoft points to security, Intune, and other added features, but the author questions whether tenants use enough of the bundle to justify more expense and expects organizations to review license allocation for savings.
 
 ### Comment pulse
 
-- Migration is structurally difficult → permissions, identity, device management, collaboration, and governance span a tightly coupled bundle.
-- Value is contested → some praise security and versioning — counterpoint: Publisher’s removal and unwanted AI make increases feel extractive.
-- License optimization offers leverage → organizations can reserve premium tiers for users who genuinely need bundled features.
+- Administrators emphasized that SharePoint, Teams, Entra, Defender, and Intune integration makes large migrations exceptionally difficult.
+- Critics argued subscriptions fund unwanted features, while others defended cloud collaboration and security improvements over older Office deployments.
+- Publisher’s planned retirement was cited as an example of prices rising while some functionality disappears.
 
 ### LLM perspective
 
-- View: Pricing power comes primarily from workflow entanglement, not any single new feature.
-- Impact: IT teams face higher spend or costly process redesign, especially where SharePoint and Entra are foundational.
-- Watch next: July 2026 renewal discounts, license downgrades, Publisher migration tooling, and cloud-margin changes.
+- View: Microsoft is pricing the breadth and switching cost of its platform, not just newly added features.
+- Impact: Even modest per-seat increases become major budget items at enterprise scale.
+- Watch next: Audit unused licenses, plan tiers, add-ons, and overlapping tools before the July 2026 change.

@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-A magnitude 7.5 quake struck 54 kilometers beneath waters off Aomori, producing upper-6 shaking, at least six injuries, rail and road suspensions, and tsunamis up to 70 centimeters. All tsunami advisories were lifted Tuesday morning, and operators reported no nuclear-plant abnormalities. Japan nevertheless issued its first Japan Trench/Chishima Trench follow-up megaquake alert, advising a week of preparedness without ordering evacuation. Nearby commenters described violent shaking but little immediate damage and debated, cautiously, whether leaving Hokkaido was warranted.
+A magnitude 7.5 earthquake struck off Aomori Prefecture late Monday, producing upper-6 shaking on Japan’s seven-level intensity scale and injuring at least six people as reported at 1 a.m. Tsunami waves reached 70 centimeters at Kuji Port, but northern Pacific advisories were lifted Tuesday morning. Rail and highway services were disrupted, while utilities reported no abnormalities at regional nuclear plants. Officials issued a first-of-its-kind alert for a possible larger follow-up quake and urged one week of preparedness without ordering evacuation.
 
 ### Comment pulse
 
-- Local accounts were reassuring → strong motion toppled objects and spilled water, yet homes and workplaces initially showed limited damage.
-- Preparedness beats prediction → commenters disputed travel changes because follow-up risk is elevated but timing remains unknowable.
-- Infrastructure response appeared precautionary → airport and rail inspections caused disruption despite no reported system-wide damage.
+- Residents near the strongest shaking and in Sapporo described violent motion but limited immediate damage in their locations.
+- Commenters shared official wave observations and debated follow-up risk, often noting they lacked geological expertise.
+- One practical thread discussed how aquarium owners manage water and livestock during repeated shaking.
 
 ### LLM perspective
 
-- View: The alert communicates conditional risk, not a forecast; practical readiness is the rational response.
-- Impact: Northern residents and travelers should secure interiors, review routes, and expect intermittent transport checks.
-- Watch next: Aftershock depth and location, revised casualty counts, infrastructure inspections, and the alert’s status through the next week.
+- View: The lifted tsunami advisories do not cancel the separate, explicitly uncertain follow-up-earthquake alert.
+- Impact: Preparedness and infrastructure inspections remain prudent even without a continuing evacuation recommendation.
+- Watch next: Follow official agency updates on injuries, transport restoration, aftershocks, and the week-long heightened-risk period.

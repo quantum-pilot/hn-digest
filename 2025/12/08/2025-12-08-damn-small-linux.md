@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Damn Small Linux’s 2024 reboot repackages antiX 23 for aging x86 computers, targeting a 700 MB single-CD image rather than the original project’s 50 MB ceiling. It offers Fluxbox and JWM, several lightweight browsers, office and media applications, terminal tools, and apt. Space savings remove source, much documentation, and broad locale support, with a restoration script available; some antiX features may be absent or broken. Commenters see modern browsers, not Linux itself, as the chief constraint on old hardware.
+Damn Small Linux’s 2024 revival targets old x86 hardware with a 700 MB, CD-sized system based on antiX 23 i386. It offers Fluxbox and JWM desktops, several browsers, office and media tools, and apt package management. Unlike the original 50 MB edition, the larger limit accommodates modern drivers and usable applications, though source code, many manuals, documentation, and full language packs were removed; a download script restores some omissions. The project frames the compromise as a practical way to keep low-spec computers useful and out of landfill.
 
 ### Comment pulse
 
-- Old machines can remain productive → users report Alpine or i3 systems working near 128 MB with swap or ZRAM.
-- Web software sets the practical floor → JavaScript-heavy browsers overwhelm hardware that otherwise handles documents, terminals, and rescue work.
-- The project evokes useful nostalgia → anecdotes span disk recovery and travel computing, though the page showed no obvious post-2024 release.
+- Commenters report usable Linux desktops near 128 MB RAM, but modern web browsers remain the limiting workload.
+- Alpine, Tiny Core, Puppy, and EasyOS emerge as alternatives; multiple bundled browsers cover different capability and memory tradeoffs.
 
 ### LLM perspective
 
-- View: The reboot sensibly optimizes for install media and usable applications, not an arbitrary 50 MB record.
-- Impact: Owners can repurpose legacy x86 machines for offline, rescue, and lightweight productivity tasks.
-- Watch next: A stable release, maintained repositories, hardware-compatibility reports, and realistic browser-memory benchmarks.
+- View: The meaningful constraint is usable legacy hardware, not winning a smallest-image contest.
+- Impact: A maintained browser and repository matter more than preserving the original 50 MB identity.
+- Watch next: Security updates, i386 package availability, and whether browser demands overwhelm the target machines.

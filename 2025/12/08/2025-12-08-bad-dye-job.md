@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-John Gruber welcomes Alan Dye’s departure from Apple for Meta and Stephen Lemay’s promotion, arguing Apple’s interfaces suffered under Dye’s visually driven leadership. Based on colleagues’ accounts, he portrays Lemay as a respected interaction designer focused on craft, but says Apple likely chose him reactively after being blindsided. Gruber blames Dye and Jony Ive for readability and usability regressions epitomized by Liquid Glass. Commenters cite obstructive Apple Music and Maps UI, while widening responsibility to Tim Cook and management.
+John Gruber argues that Alan Dye’s decade leading Apple software design favored visual branding over interaction quality, with Liquid Glass and especially macOS Tahoe serving as his chief examples. He welcomes Stephen Lemay’s promotion, citing unnamed internal sources who describe Lemay as a detail-oriented interface designer, but speculates that loyalty after Meta’s recruiting mattered more than an executive admission of failure. This is a forceful personal assessment, not an established account of Apple’s motives; Gruber expects improvement without predicting a wholesale reversal of iOS 26’s aesthetic.
 
 ### Comment pulse
 
-- Concrete failures outweighed aesthetic debate → users cited pop-ups and alerts obscuring navigation, plus HDR behavior overriding brightness choices.
-- Leadership blame extends beyond Dye → commenters implicated Ive, Cook, and incentives, while some questioned how deeply Gruber’s sources knew Lemay.
-- Aqua nostalgia emphasizes function → Jobs-era visual polish was remembered as subordinate to usability, unlike commenters’ experience of Liquid Glass.
+- Readers contrast distracting interface behavior with older Apple demonstrations that linked visual polish to function.
+- Some challenge Gruber’s access and causal story, while others hope specific usability regressions will be reversed.
 
 ### LLM perspective
 
-- View: A personnel change matters only if Apple also changes design incentives and review standards.
-- Impact: Lemay inherits pressure to restore readability, predictable controls, and user trust across Apple platforms.
-- Watch next: Whether upcoming releases reduce Liquid Glass opacity, focus problems, modal interruptions, and inconsistent interaction patterns.
+- View: Leadership change matters only if interaction quality regains authority over presentation.
+- Impact: Small workflow fixes would reveal more than another broad visual-language announcement.
+- Watch next: Whether Lemay changes shipped behaviors, review incentives, and designer retention—not merely styling.

@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-An opinionated report argues Microsoft’s AI push is losing momentum: sales teams reportedly struggled to meet Azure AI targets, some internal forecasts were cut, and Microsoft denied the claims. A third-party market-share table showed ChatGPT leading while Gemini grew faster than Copilot. The article blames rushed products, weak integration, and dependence on OpenAI and Nvidia. Commenters supplied concrete Copilot failures in Outlook and Terminal, but cited Teams meeting summaries and GitHub Copilot as useful counterexamples.
+Windows Central argues that Microsoft’s AI push is suffering from weak products and limited customer demand. It cites a report that Microsoft cut some Azure AI sales forecasts and goals, which Microsoft denied, alongside usage estimates showing Gemini growing faster than Copilot. The author contrasts Google’s practical integrations with Copilot features described as fragmented or unfinished, while acknowledging successes such as GitHub Copilot and some enterprise offerings. The piece is forceful commentary, and several underlying market and product claims remain disputed or anecdotal.
 
 ### Comment pulse
 
-- Product integration, not model access, drew blame → assistants often lacked the context needed to complete advertised tasks.
-- Enterprise utility is uneven → Teams summaries and GitHub Copilot work, while Outlook and Terminal experiences disappointed.
-- Microsoft’s position remains disputed → critics see bundle-driven complacency — counterpoint: cloud revenue and distribution remain formidable.
+- Many commenters supplied examples of Copilot controls that lacked context, integration, or useful actions.
+- Some pushed back on broad decline claims, citing Microsoft’s revenue and useful Teams meeting summaries.
+- A recurring explanation was that bundling can sustain adoption even when individual products disappoint users.
 
 ### LLM perspective
 
-- View: AI buttons without permission or context deepen distrust faster than incremental model improvements repair it.
-- Impact: Enterprise buyers may narrow deployments to workflows with measurable time savings.
-- Watch next: Audited usage and retention, Microsoft guidance, Gemini enterprise share, and Copilot task-completion benchmarks.
+- View: Distribution creates trials, but durable AI adoption depends on completing real workflows reliably.
+- Impact: Weak integrations can squander Microsoft’s installed-base advantage while still producing nominal bundled usage.
+- Watch next: Separate verified paid usage and retention from market-share estimates, anecdotes, and bundled seat counts.

@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-FoundationDB’s repository exposes Flow, an actor-oriented extension around C++ with an actor compiler and runtime components spanning networking, files, scheduling, tracing, memory, and platform support. Its defining payoff, according to the discussion, is deterministic simulation: physical interfaces and the event loop can be replaced so an entire distributed cluster runs reproducibly as concurrent actors in one thread. Commenters praise typed message passing and FoundationDB’s operational reliability, but flag Flow’s unusual build-time dependency on a C#/.NET compiler for an incomplete C++ subset.
+The supplied source is chiefly a directory listing for FoundationDB’s Flow implementation, showing an actor compiler, numerous actor-based C++ files, runtime support, build configuration, and Swift bridge code; it does not itself fully explain Flow’s semantics. Discussion describes Flow as a restricted C++ extension for type-safe actor messaging and deterministic simulation, where interfaces and the run loop can be replaced so failures replay reproducibly. Commenters cite several adopters and impressive simulation history, but those claims come from the discussion, while the C# compiler dependency and language subset draw portability concerns.
 
 ### Comment pulse
 
-- Deterministic simulation drives confidence → failures become reproducible, enabling post-failure instrumentation and extensive stress testing before real deployment.
-- Production users report low operational burden → Snowflake, Matterport, Tigris, and s2.dev rely on FoundationDB for critical metadata or datastore workloads.
-- Flow’s compiler choice puzzles developers → a C#/.NET build dependency seems awkward where a Clang rewriter or plugin might fit.
+- Commenters praise deterministic simulation and typed messaging as central to FoundationDB’s reliability workflow.
+- Reported adopters extend beyond FoundationDB, though the frozen repository listing does not verify those deployments.
+- The C# actor compiler and incompatible C++ subset prompt calls for a Clang-based implementation.
 
 ### LLM perspective
 
-- View: Flow’s value lies less in syntax than controllable, deterministic execution.
-- Impact: Database teams can test distributed failures at cluster scale without nondeterministic reproduction.
-- Watch next: Compiler modernization, public reuse outside FoundationDB, and comparisons with Rust channels or async runtimes.
+- View: Flow’s differentiator is reproducible whole-system simulation, not actor syntax alone.
+- Impact: That model can make distributed failure testing systematic, but specialized tooling raises adoption costs.
+- Watch next: Authoritative semantics, compiler modernization, and evidence from deployments outside FoundationDB.

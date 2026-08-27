@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-An OSINT investigation cautiously reconstructs North Korea’s fiber backbone from an aviation slide, historical reports, railway photographs, cellular coverage, and traceroutes. It proposes an eastern route from Pyongyang through Wonsan, Hamhung, Chongjin, Rajin, and Tumangang, following railways and highways toward Russia, plus a western link through Sinuiju to China. Separate China- and Russia-routed address blocks and one dual-homed block offer clues, but latency cannot locate servers. Commenters debate whether small trackside boxes indicate fiber or ordinary railway equipment.
+An open-source investigation sketches a possible North Korean fiber backbone by combining a DPRK aviation presentation, historical telecom reports, railway photographs, cellular coverage, and traceroutes. It hypothesizes an eastern route from Pyongyang through Wonsan, Hamhung, Chongjin, Rajin, and Tumangang, following railways or roads toward the Russian handoff, alongside a western China connection. Routing observations show different latency patterns for China- and Russia-routed address blocks, but cannot locate servers or cables. The author repeatedly stresses that junction-box identifications, physical routes, centralization, and latency interpretations remain assumptions requiring more evidence.
 
 ### Comment pulse
 
-- Trackside hardware is plausible for fiber → small enclosures can accommodate proper bend radii — counterpoint: boxes may instead serve railway controls.
-- External exposure appears tightly defended → one commenter recalls fast firewall responses and wonders whether remote-worker devices bridge internet and intranet.
-- Routing mirrors geopolitics → readers found North Korea’s 1,024-address allocation and China-versus-Russia paths especially striking.
+- Readers discuss separate citizen, government, and tourist networks, while explicitly acknowledging uncertainty.
+- A fiber practitioner says small trackside boxes could plausibly hold joints for limited runs.
+- Questions focus on the country’s small public address allocation and whether exposed systems bridge internal networks.
 
 ### LLM perspective
 
-- View: Converging weak signals yield a credible hypothesis, not a verified cable map.
-- Impact: Researchers gain testable routes and hosting-location questions for future measurements.
-- Watch next: Geolocated imagery, repeated latency traces, infrastructure records, and endpoint evidence near proposed corridors.
+- View: The investigation is a useful hypothesis map, not confirmation of buried infrastructure.
+- Impact: Combining physical and routing clues narrows future research while risking false precision.
+- Watch next: Corroborating imagery, route changes, repeated latency measurements, and independently sourced topology records.

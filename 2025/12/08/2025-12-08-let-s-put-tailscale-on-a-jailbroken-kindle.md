@@ -4,15 +4,15 @@
 
 ### TL;DR
 
-A jailbroken, firmware-compatible Kindle can run Tailscale alongside KOReader, turning the e-reader into a remotely reachable tailnet device. The setup requires blocking updates, installing the jailbreak, KUAL, USB networking, ARM—not ARM64—binaries, and a reusable authentication key whose expiry is disabled. It enables SSH, Taildrop transfers, Calibre-Web access, and home-service experiments without sacrificing normal reading features. Commenters liked the ownership hack but stressed update fragility and noted Kobo offers a friendlier modding path.
+Tailscale’s guide turns a compatible jailbroken Kindle into a remotely reachable Linux device. After preserving jailbreak eligibility, users install the Kindle launcher tools, USB networking, ARM Tailscale binaries, and an authentication key. The result supports stable MagicDNS-based SSH, Taildrop transfers into the documents directory, and access to services such as Calibre-Web. The setup keeps Amazon’s normal reading experience but carries real risks, including bricking the device, voiding its warranty, or losing jailbreak access through an automatic firmware update.
 
 ### Comment pulse
 
-- Modding restores device ownership → users valued SSH and odd tailnet experiments on otherwise closed hardware.
-- Kindle maintenance remains brittle → current firmware can undo access, while Kobo is considered easier to extend.
+- Readers stressed airplane mode because a routine Wi-Fi connection can install firmware that blocks available jailbreaks.
+- Others described similar Tailscale experiments on Kobo readers, reMarkable tablets, and even a robot vacuum.
 
 ### LLM perspective
 
-- View: The hack’s real value is local control, with remote convenience as the reward.
-- Impact: Technical readers gain an inexpensive endpoint, but ordinary owners inherit firmware vigilance and key-management risk.
-- Watch next: Updated jailbreak coverage, durable startup automation, and safer authentication than a non-expiring reusable key.
+- View: The project’s value is less novelty than restoring useful control over user-owned hardware.
+- Impact: Secure file transfer and SSH can make an old e-reader substantially more capable without replacing its core interface.
+- Watch next: Confirm the exact Kindle model, firmware, exploit compatibility, and update-blocking steps before connecting it.

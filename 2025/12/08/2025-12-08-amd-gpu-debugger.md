@@ -4,15 +4,15 @@
 
 ### TL;DR
 
-An experimental AMD RDNA3 GPU debugger demonstrates CPU-style pause, inspection, modification, and single-instruction stepping on an RX 7900 XTX under Linux. It bypasses Vulkan through DRM command submission, uses privileged trap registers, and runs an ACO-compiled shader with a trap handler sharing state with the CPU. The proof of concept assumes one wave and targets gfx1100; breakpoints, watchpoints, robust multi-wave handling, debug-name propagation, and normal RADV integration remain unfinished. Discussion situates it beside rocGDB, UMR, Nsight, RenderDoc, and Metal tooling.
+A proof-of-concept debugger for AMD RDNA3 GPUs works below standard compute stacks: it opens the DRM device, allocates memory, compiles shaders through ACO, constructs PM4 packets, and installs a trap handler through privileged debug registers. Traps save a wave’s context for CPU inspection; the debugger can halt, modify, resume, and instruction-step one wave, with source mapping from compiler debug information. It remains deliberately incomplete and risky: VMID handling is hacked across processes, while breakpoints, watchpoints, variables, Vulkan integration, and multi-wave operation remain future work.
 
 ### Comment pulse
 
-- Existing tools cover pieces → rocGDB, UMR, cuda-gdb, Nsight, and RenderDoc exist, but support and workflows remain fragmented.
-- Metal’s capture and logging impressed users → counterpoint: vendor lock-in, hangs, and compute-debugging gaps still undermine it.
+- Readers compare it with Metal, cuda-gdb, Nsight, RenderDoc, ROCgdb, and UMR, exposing a fragmented GPU-debugging landscape.
+- Integrated vendor tools earn praise, but commenters also report portability limits, crashes, and missing compute-capture support.
 
 ### LLM perspective
 
-- View: Direct trap control proves feasibility, while unfinished concurrency and safety dominate readiness.
-- Impact: AMD shader developers gain a blueprint for deeper inspection outside ROCm.
-- Watch next: Multi-wave state isolation, breakpoints, watchpoints, symbols, and RADV integration.
+- View: The valuable result is proving wave-level debugging possible with public-enough primitives.
+- Impact: A safer integration could shorten shader debugging without requiring heavyweight vendor stacks.
+- Watch next: Multi-wave correctness, process isolation, stable register access, and real breakpoint semantics.

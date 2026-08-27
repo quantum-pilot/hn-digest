@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-The captured page contains Forbes navigation but no article body, so only the headline and discussion support a summary. The headline says Google confirmed Android attacks and that most Samsung users lacked a fix. Commenters report delayed November and December patches across Samsung and some Pixel devices, criticize manufacturer- and carrier-dependent rollouts, and identify CVE-2025-48572 and CVE-2025-48633 as possible local privilege-escalation issues. They disagree on whether avoiding untrusted apps meaningfully reduces risk because technical details are sparse.
+The supplied Forbes extraction contains its headline and navigation but no article body, so it cannot substantiate the reported attacks, affected devices, or patch status. The discussion instead describes uneven Android security-update delivery across Samsung, Pixel, carrier, and device tiers. Commenters identify CVE-2025-48572 as a background-activity permissions bypass and CVE-2025-48633 as local privilege escalation involving device-owner provisioning, but disagree about practical exposure and whether installing a malicious or compromised app is required. Those technical descriptions are comment-supplied and should not be treated as the missing report.
 
 ### Comment pulse
 
-- Patch delivery is fragmented → Samsung schedules degrade from monthly to quarterly or semiannual, while carriers and staged Pixel rollouts add delay.
-- Risk interpretation remains unsettled → local privilege escalation suggests malicious-app involvement — counterpoint: sparse disclosure leaves viable delivery paths uncertain.
-- Long support promises can mislead → eligibility does not guarantee timely monthly patches across every device tier.
+- Users report delayed monthly patches and slower quarterly or semiannual schedules as devices age.
+- Some recommend manual Pixel OTA installation; others argue unlockable hardware would reduce abandonment risk.
+- Commenters agree technical disclosure is sparse but differ sharply on whether ordinary app hygiene is sufficient.
 
 ### LLM perspective
 
-- View: Patch availability, not announcement, determines practical Android security.
-- Impact: Owners of lagging devices may remain exposed or consider manual updates, alternative operating systems, or replacement.
-- Watch next: Vendor bulletins, rollout dates by model and carrier, and technical disclosure for both CVEs.
+- View: Patch fragmentation is supported by reports here; the headline’s attack claim is not.
+- Impact: Missing technical detail makes both reassurance and alarm unreliable for affected owners.
+- Watch next: Vendor advisories, exact affected builds, exploitation prerequisites, and device-specific rollout dates.

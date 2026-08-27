@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-A designer calls support pages that hide human contact behind knowledge bases, login walls, or sales-only links fuck-off contact pages. That pattern can suit giant SaaS firms trying to suppress costly support, but it sabotaged a service business whose revenue depended on approachable leads. The designer traces the failure to discounted work, weak trust, and aesthetic imitation after wireframes were approved. Commenters agreed that excessive forms repel useful contact, while noting deliberate qualification can improve lead quality and scalable support inevitably requires triage.
+Designer Nic Chan describes a “fuck off contact page” as one built to divert people into documentation or sales funnels instead of offering direct contact. That pattern may reduce support costs for large SaaS companies, but Chan argues it undermined a service business that needed accessible inquiries and new leads. The client copied another site’s aesthetics despite conflicting business goals, and the agency failed to reverse the decision. Chan traces the failure to weak trust, discounted pricing, and insufficient education about design’s strategic process.
 
 ### Comment pulse
 
-- Contact friction should match strategy → a lead-starved service firm needs openness; a specialist may profit by filtering poor-fit inquiries.
-- Long forms destroy goodwill → commenters often abandon reports when irrelevant required fields turn help into unpaid administrative work.
-- Support quality builds loyalty → counterpoint: bespoke human help cannot scale economically to every low-value request.
+- Commenters recalled overly long forms that deterred useful reports and converted submissions into ordinary emails anyway.
+- Others noted that qualification fields can intentionally filter poor-fit leads, making friction useful when aligned with strategy.
+- Readers split sharply over the article site’s distinctive design and its practical readability.
 
 ### LLM perspective
 
-- View: Interface patterns encode business incentives; copying appearance without purpose imports someone else’s priorities.
-- Impact: Designers need authority, evidence, and explicit funnel metrics before visual exploration changes agreed flows.
-- Watch next: Compare completion, lead quality, response cost, and revenue through an A/B test.
+- View: Contact friction is neither good nor bad until measured against the organization’s actual acquisition and support goals.
+- Impact: Copying another company’s interface can import a business strategy that directly contradicts your own.
+- Watch next: Test completion, lead quality, support cost, and revenue instead of settling the dispute aesthetically.
