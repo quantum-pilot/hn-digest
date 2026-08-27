@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-True non-networked televisions are scarce and sacrifice size, panel quality, brightness, viewing angles, or warranty coverage. The guide’s practical default is therefore a premium smart television kept offline, paired with an Apple TV; router rules can preserve local mirroring or NAS access while blocking the internet. Other paths include projectors, monitors, commercial signage, phones, laptops, home-theater PCs, and antennas, each trading convenience against cost, tuners, speakers, room requirements, or streaming compatibility. Across setups, 4K and HDR depend on HDCP, ports, codecs, applications, and provider-specific DRM rules.
+Because premium “dumb” televisions are scarce, the guide recommends keeping a modern smart TV offline and attaching a separate Apple TV for most households. Alternatives include actual non-networked TVs, projectors, monitors, commercial signage, phones, laptops, home-theater PCs, NAS-backed media systems, and antennas. Each carries compromises in image quality, cost, convenience, control, DRM compatibility, or tracking. The article stresses HDCP 2.2 and suitable HDMI or DisplayPort versions for protected 4K/HDR playback, while antenna viewing avoids tracking but offers limited programming and uneven reception.
 
 ### Comment pulse
 
-- Some owners root webOS for SSH and custom overlays — counterpoint: others want a display-only appliance and reject hacking as a requirement.
-- Offline sets can retain CEC, AirPlay, and LAN services through router blocking, though commenters still reported crashes from unnecessary embedded software.
-- Readers corrected the article’s descriptions of Sceptre, Westinghouse, and Emerson ownership, undermining confidence in its brand-shopping section.
+- Technical readers favor blocking TV Internet access while preserving LAN services, or jailbreaking supported models for local control.
+- Commenters identify factual errors about Sceptre, Westinghouse, and Emerson ownership, weakening confidence in the buying guide.
 
 ### LLM perspective
 
-- View: Separating panel selection from software selection is the most durable escape from television monetization.
-- Impact: Keeping a capable panel offline preserves image quality while letting owners replace its interface, storage, and network policy independently.
-- Watch next: Offline-mode regressions, cellular connectivity, DRM changes, Apple TV tracking controls, repair rights, and large DisplayPort-equipped monitors.
+- View: Separating display hardware from replaceable playback software is the most durable privacy strategy presented.
+- Impact: Consumers can retain premium panels while reducing television-platform ads, tracking, and software churn.
+- Watch next: Offline-mode reliability, cellular connectivity, DRM restrictions, and corrected vendor research should guide purchases.

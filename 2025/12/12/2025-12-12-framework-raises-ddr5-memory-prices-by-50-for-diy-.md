@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Framework raised DDR5 memory prices by 50% for DIY laptops, citing a global memory shortage. Existing preorders retain their original pricing, while prebuilt laptops and the Framework Desktop are unchanged. DIY buyers can omit RAM and reuse or source modules elsewhere. Framework also changed returns: customers buying RAM with a laptop must return both together, a measure intended to stop purchasers from exploiting below-market bundles and sending back bare computers. The company offered no timetable for prices to normalize.
+Framework raised DDR5 option prices for DIY laptops by 50%, citing worldwide memory shortages and supply-chain price increases. Existing preorders keep their original pricing, while prebuilt laptops and Framework Desktop configurations are unchanged. Buyers can still order DIY systems without memory and install or reuse their own modules. Framework also requires bundled memory to be returned with a laptop, aiming to stop buyers from exploiting below-market module prices and returning only the computer. Commenters report even steeper retail increases across several DDR5 capacities.
 
 ### Comment pulse
 
-- Readers reported DDR5 kits doubling or worse and cited planned increases from major vendors, suggesting Framework’s change reflects a broad market shock.
-- Many blamed AI infrastructure demand — counterpoint: others said current pricing predates particular hyperscaler deals and follows ordinary capacity allocation incentives.
-- Micron’s Crucial exit was viewed less as the cause than as evidence that suppliers increasingly favor higher-margin enterprise customers.
+- Industry reports cited in discussion predict broader laptop and component increases, but exact causes and duration remain contested.
+- Anger targets AI infrastructure demand and hyperscaler allocation; counterpoints reject attributing the current shortage to one company or contract.
 
 ### LLM perspective
 
-- View: Framework is passing through scarcity while preserving the DIY escape hatch.
-- Impact: Modular buyers retain sourcing flexibility, but affordable laptop upgrades become harder across the market.
-- Watch next: DRAM contract prices, consumer-channel inventory, preorder fulfillment, and whether prebuilt configurations eventually rise.
+- View: Framework's modularity softens the increase by preserving a bring-your-own-memory option unavailable in many laptops.
+- Impact: High-capacity buyers face disproportionate costs, potentially delaying upgrades and reducing notebook demand.
+- Watch next: Compare Framework premiums with retail modules, supplier allocations, preorder policies, and price normalization.

@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-The Communications Workers of America says 165 id Software employees voted to form a wall-to-wall union spanning developers, artists, programmers, and other roles. Microsoft recognized it under the parties’ 2022 labor-neutrality agreement. Organizers cited return-to-office mandates, accessibility, layoffs, crunch, and unequal pay. The CWA says the vote brings union representation across Microsoft to nearly 4,000 workers. Recognition begins bargaining rather than settling terms: the unit still needs a contract defining compensation, remote work, overtime, job protections, and representation.
+At id Software, 165 developers, artists, programmers, and other workers voted for a wall-to-wall union affiliated with the Communications Workers of America. Microsoft recognized it under a 2022 labor-neutrality agreement. Organizers cite executive-imposed return-to-office policies, accessibility and family needs, layoffs, crunch, and pay. The addition brings union representation across Microsoft's businesses to nearly 4,000 workers, according to CWA. Negotiations have not begun publicly, so the eventual contract's remote-work, overtime, layoff, and compensation provisions remain unknown.
 
 ### Comment pulse
 
-- Supporters saw overdue protection from crunch and post-launch layoffs — counterpoint: critics feared bureaucracy, insider advantages, or demands that weaken the business.
-- Commenters emphasized that recognition is only a start; overtime rules, remote-work protections, pay, and membership scope depend on the eventual contract.
-- Debate over a CWA affiliate’s opposition to OPT showed that supporting this workplace vote need not mean endorsing every broader union policy.
+- Supporters see collective bargaining as a counterweight to chronic game-industry crunch and post-release layoffs; skeptics warn about rigidity and business risk.
+- Industrial membership spans job categories, but commenters debate immigration positions, two-tier contracts, and whether unions distribute benefits fairly.
 
 ### LLM perspective
 
-- View: The vote creates negotiating capacity; the contract will determine practical value.
-- Impact: A broad bargaining unit can address cross-discipline policies that craft-specific representation might miss.
-- Watch next: First-contract terms, bargaining duration, remote-work guarantees, overtime rules, and treatment of layoffs.
+- View: Recognition establishes representation; negotiated language will determine whether it materially changes working conditions.
+- Impact: A cross-discipline unit can bargain over studio-wide policies instead of isolating artists, programmers, and producers.
+- Watch next: Examine first-contract terms for remote work, overtime escalation, layoffs, pay bands, membership coverage, and enforcement.

@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Researchers used CRISPR knockouts in the food fungus Fusarium venenatum to thin its chitin-rich cell wall and alter pyruvate metabolism. Their FCPD strain reportedly needed 44% less sugar for equivalent protein and produced it 88% faster. A modeled scale-up estimated greenhouse-gas emissions up to 60% below conventional fungal protein, plus substantially lower land and freshwater-pollution burdens than Chinese chicken production. The work remains precommercial; nucleic-acid reduction, processing yield, regulation, economics, and sensory acceptance still matter.
+Researchers deleted chitin-synthase and pyruvate-decarboxylase genes from food-approved *Fusarium venenatum*, producing a strain called FCPD with thinner cell walls and altered metabolism. The report says it used 44% less sugar and produced equivalent protein 88% faster, with modeled life-cycle emissions up to 60% below conventional fungal protein. Compared with Chinese chicken production, it reportedly used 70% less land and cut freshwater-pollution risk 78%. Commenters caution that nucleic-acid removal, biomass loss, economics, texture, allergies, and digestion still affect food viability.
 
 ### Comment pulse
 
-- Readers noted that Quorn already uses this species, making the advance an efficiency modification rather than an entirely new food organism.
-- Enthusiasm met a counterpoint: high nucleic-acid content raises gout concerns, while heat treatment to reduce it can sharply cut biomass yield.
-- Debate split over whether transgene-free knockouts deserve conventional GMO labeling; taste, digestion, safety, and chicken-price competitiveness remained unresolved.
+- Existing Quorn use suggests a manufacturing path, but consumers report mixed tolerance and question whether thinner walls alter processing.
+- Some distinguish CRISPR knockouts from transgenic modification; labeling implications remain asserted in discussion, not established by the article.
 
 ### LLM perspective
 
-- View: The strongest result is process efficiency, not the meat-like branding.
-- Impact: Lower feedstock demand could improve fungal protein’s cost and environmental profile if scale-up preserves yields.
-- Watch next: Independent replication, nucleic-acid control, sensory trials, regulatory treatment, and production economics.
+- View: Fermentation efficiency is promising, but environmental models do not establish an acceptable, affordable final food.
+- Impact: Successful scale-up could reduce land, pollution, and livestock exposure while expanding fungal protein choices.
+- Watch next: Measure nucleic-acid removal yield, digestibility, allergenicity, texture, production cost, and consumer acceptance.

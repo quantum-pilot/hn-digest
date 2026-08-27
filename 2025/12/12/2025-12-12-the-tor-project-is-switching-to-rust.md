@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Arti 1.8.0 advances Tor’s Rust reimplementation; this release does not mean the C implementation has been replaced. The central change splits circuit lifetime behavior into separate acceptance and idle-close timers, randomizing closure to reduce fingerprintable timing patterns. An experimental migration command transfers restricted-discovery keys for onion-service client authorization from C Tor into Arti’s keystore. The release also improves routing architecture, protocol handling, directory-cache support, and relay-port configuration, while Rust’s memory safety targets buffer, lifetime, and corruption bugs.
+Arti 1.8.0 advances the Tor Project’s Rust implementation, but the supplied article does not establish an immediate wholesale replacement of the C network. Its main change reworks circuit timeouts: separate usage-based timers stop accepting new streams and close idle circuits at randomized times, aiming to reduce predictable patterns. An experimental command migrates restricted-discovery keys for onion-service client authorization from C Tor into Arti’s keystore. The release also reports routing, protocol, directory-cache, and OR-port configuration improvements, with memory safety—not speed—presented as the rewrite’s core benefit.
 
 ### Comment pulse
 
-- Fingerprint tests sparked disagreement because anonymity depends on both uniqueness and persistence; one-dimensional benchmarks can reward or punish the wrong defense.
-- Rust fit this security-sensitive, untrusted-input workload for many commenters — counterpoint: language choice alone does not make every rewrite appropriate.
-- Users hoping for speed were reminded that onion routing’s multiple relays and geographic latency dominate performance; the release promises safety, not acceleration.
+- Readers caution that fingerprint tests must measure both uniqueness and persistence; changing browser security settings can itself narrow anonymity sets.
+- Discussion largely agrees Tor latency reflects onion-routing and network tradeoffs, not something a language rewrite automatically fixes.
 
 ### LLM perspective
 
-- View: Arti’s significance is reducing vulnerability classes while incrementally matching operational features, not winning a language contest.
-- Impact: Onion-service operators gain a migration path, and clients receive less predictable circuit aging plus memory-safe implementation progress.
-- Watch next: Feature parity, audits, default deployment, onion-service migration, performance regressions, fingerprint studies, and retirement plans for C Tor.
+- View: Rust addresses exploitable memory-error classes, while anonymity still depends on protocol behavior and uniform client populations.
+- Impact: Incremental migration can improve safety without pretending a language change solves Tor’s network latency.
+- Watch next: Arti feature parity, migration reliability, timeout fingerprinting evidence, audits, and production adoption remain decisive.

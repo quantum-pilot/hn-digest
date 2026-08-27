@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-OpenAI has implemented filesystem-based skills in two places: ChatGPT’s code-execution environment contains instruction folders for documents, PDFs, and spreadsheets, while Codex CLI experimentally scans configured skill directories. Each package combines a short description with Markdown guidance and optional references or scripts, loading detailed context only when a task calls for it. The author demonstrates ChatGPT repeatedly rendering and inspecting a PDF, then uses a custom Codex skill to generate a working Datasette plugin. He argues the lightweight convention deserves formal documentation.
+Simon Willison documents “skills” appearing in ChatGPT’s Code Interpreter environment and experimental Codex CLI support. A skill is a folder containing Markdown instructions plus optional references, data, and scripts; descriptions can be indexed first and full instructions loaded only when relevant. He demonstrates document-generation guidance that includes visually inspecting rendered PDF pages, and a Datasette plugin skill used through Codex. He sees a lightweight, potentially portable standard for reusable agent procedures, though no formal cross-vendor specification is established here.
 
 ### Comment pulse
 
-- Commenters largely framed skills as lazy-loaded context engineering, not a new tool protocol, with deterministic scripts supplying compact outputs.
-- Skeptics called the mechanism obvious and easy to recreate — counterpoint: simple packaging plus ubiquitous code execution may make it broadly useful.
-- Users valued one-off scripts over full MCP servers, while noting agents sometimes forget skills unless invoked explicitly.
+- Commenters frame skills as prompt and context engineering with progressive disclosure, rather than a fundamentally new capability.
+- Discussion distinguishes packaged local instructions and scripts from MCP-style remote tool invocation, while questioning whether standardization is necessary.
 
 ### LLM perspective
 
-- View: The innovation is disciplined packaging and selective loading, not a novel execution primitive.
-- Impact: Teams can distribute task-specific guidance and scripts without permanently consuming model context or operating an RPC service.
-- Watch next: A portable specification, trust boundaries for bundled code, reliable skill selection, versioning, provenance, and context-budget measurements.
+- View: The useful abstraction is selective procedural context, not the folder format by itself.
+- Impact: Teams can package repeatable workflows without loading every instruction into every interaction.
+- Watch next: Formal documentation, portability, trust boundaries for bundled scripts, and evidence that discovery scales cleanly.

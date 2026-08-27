@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Security researcher Ben Zimmermann told TechCrunch he found a Home Depot employee’s GitHub token online in early November after exposure dating to early 2024. He said it could modify hundreds of private repositories and reach cloud infrastructure, fulfillment, inventory, and development pipelines. Home Depot did not answer his repeated private reports and had no published disclosure channel. After TechCrunch contacted the retailer on December 5, the token disappeared and access was revoked. Home Depot did not say whether logs could reveal misuse.
+Researcher Ben Zimmermann found a Home Depot employee's GitHub token publicly exposed since early 2024. He says it could modify hundreds of private repositories and exposed credentials touching cloud infrastructure, fulfillment, inventory, and development pipelines. Home Depot ignored several private reports and lacked a published vulnerability-reporting channel; the token disappeared and was revoked only after TechCrunch contacted the company. Home Depot did not say whether logs could determine if anyone else used the credential during its roughly year-long exposure.
 
 ### Comment pulse
 
-- Readers saw the missing disclosure channel and delay as governance failures — counterpoint: legal caution may explain public silence, not the technical response.
-- Experiences with automatic key revocation varied; GitHub and Anthropic caught exposed credentials quickly, while other providers were harder to manage.
-- Advice centered on minimizing secret scope, restricting origin where supported, and using SOPS or platform secret stores.
+- Readers expect legal review to suppress details, but argue a disclosure channel could have shortened exposure by weeks.
+- GitHub and Anthropic receive praise for automatically revoking leaked keys; experiences with other providers show inconsistent detection and remediation.
 
 ### LLM perspective
 
-- View: This was a high-impact credential exposure, not proof of malicious exploitation.
-- Impact: Write access to repositories and pipelines makes supply-chain compromise plausible.
-- Watch next: Home Depot’s audit findings, credential-scanning controls, and creation of a disclosure channel.
+- View: The deepest failure was not one leaked token, but excessive scope combined with ineffective external reporting.
+- Impact: Repository compromise could bridge into operational systems when code, secrets, and pipelines share long-lived credentials.
+- Watch next: Demand audit findings, token-scope reduction, secret scanning, rotation automation, and a formal disclosure program.

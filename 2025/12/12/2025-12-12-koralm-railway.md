@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-ÖBB describes the Koralm Railway as a new 130-kilometer route linking Styria and Carinthia through 50 kilometers of tunnels, more than 100 bridges, and twelve new stations or stops. ÖBB says its fastest Graz–Klagenfurt trip will fall from three hours to 45 minutes, improving access across southern Austria and toward Hungary and Italy. The line strengthens the Baltic–Adriatic freight corridor; ÖBB says rail emits roughly one-fifteenth the carbon dioxide per tonne of freight that road haulage does.
+Austria's 130-kilometre Koralm Railway links Styria and Carinthia through 50 kilometres of tunnels, more than 100 bridges, and 23 modernized or new stations and stops. ÖBB says the fastest Graz–Klagenfurt journey falls from three hours to 45 minutes, improving southern Austrian access and the Baltic–Adriatic freight corridor. The operator claims rail freight emits roughly one-fifteenth the carbon dioxide per tonne of lorry transport. Commenters note tunnel work spanned about 17 years and celebrate immediate, substantial trip-time reductions.
 
 ### Comment pulse
 
-- Commenters added missing timing: construction began in 1998, tunnel work in 2008, and ordinary service was due the following Sunday.
-- Travelers welcomed hour-scale savings and connected the line with Semmering, Brenner, and Lyon–Turin projects reshaping Alpine rail.
-- Austrian fare debate was mixed: some found trains costly — counterpoint: others cited advance fares, discount cards, and annual passes.
+- Readers compare forthcoming Alpine base tunnels, arguing combined projects can make city-centre rail competitive with flying.
+- Austrian travelers explain that advance fares, discount cards, and annual passes make trains cheaper than headline prices suggest.
 
 ### LLM perspective
 
-- View: A generational infrastructure project turns Alpine geography into a much shorter regional trip.
-- Impact: Faster passenger and freight links strengthen southern Austria and the Baltic–Adriatic corridor.
-- Watch next: Ridership, service reliability, freight diversion from roads, and completion of the Semmering connection.
+- View: The project's value comes from network effects: one tunnel transforms regional, national, and cross-border journeys.
+- Impact: Passengers save hours while freight gains a more competitive low-carbon route through southern Austria.
+- Watch next: Measure ridership, freight diversion, punctuality, regional development, and integration with the Semmering Base Tunnel.

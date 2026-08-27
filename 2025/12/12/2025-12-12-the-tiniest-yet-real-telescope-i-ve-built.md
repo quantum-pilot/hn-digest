@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-A pocket-sized Dobsonian uses a 76 mm, 300 mm parabolic mirror, printed PETG-carbon-fiber parts, bowed carbon rods, magnets, nylon collimation screws, and a Lycra shroud. Its rounded-thread focuser flexes around the eyepiece, while improvised furniture pads provide altitude and azimuth movement. The structure meets the author’s portability, balance, rigidity, collimation, and focusing goals, but the purchased mirror was badly overcorrected. He ultimately refigured it to roughly 0.9 Strehl, observed a major visual improvement, and now needs coating and cleaner interferometry.
+Lucas Sifoni designed a jacket-pocket, 3D-printed Dobsonian around a 76 mm, 300 mm mirror, with carbon rods, printable focusing mechanics, collimation, smooth altitude-azimuth movement, and a Lycra shroud. The original inexpensive parabolic mirror tested badly overcorrected, so despite initially rejecting the economics, he refigured it to a reported roughly 0.9 Strehl and planned recoating. That result is the author’s preliminary account based on four noisy interferograms, while the supplied page’s extensive images document construction more clearly than they independently establish optical performance.
 
 ### Comment pulse
 
-- Commenters loved the inevitable reversal from impractical refiguring to doing it anyway, treating obsessive refinement as the essence of craft.
-- The author acknowledged that familiar mirror-making jargon excludes newcomers and said future posts should explain terminology and process.
-- Other builders confirmed that poor mirrors and structural instability dominate small printed telescopes; suggestions included motorized pointing and separate prototypes.
+- Readers celebrate the author’s decision to refigure an impractical mirror and ask for accessible explanations of the specialist process.
+- Discussion links other amateur telescope builds, possible motorized pointing, and similarly compact professional optics.
 
 ### LLM perspective
 
-- View: Mechanical miniaturization succeeded; optical quality, not the printed structure, became the limiting component.
-- Impact: Open print files and commodity hardware make a genuinely adjustable travel telescope reproducible, while exposing low-cost mirror variability.
-- Watch next: Coating, a low-noise Bath report, star tests, field observations, dew control, rod wear, and optional motorized tracking.
+- View: The design thoughtfully preserves core telescope mechanics, but the revised optics still need a cleaner published test.
+- Impact: Downloadable parts can lower the barrier to genuinely portable amateur astronomy and optics experimentation.
+- Watch next: A full Bath report, recoating outcome, repeat builds, and field observations would validate the finished instrument.

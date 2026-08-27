@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-SQLite can keep each incoming JSON document intact while exposing selected paths as virtual generated columns. Indexing those columns lets ordinary predicates use B-tree lookups, and additional paths can be surfaced later without rewriting every document into a relational schema. The examples extract event type, user role, timestamp, and user ID, then query them as typed columns while retaining the raw payload. Virtual columns avoid storing duplicate extracted values; the index supplies lookup performance. The pattern trades up-front normalization for incremental, query-driven schema decisions.
+The post proposes storing each JSON document intact, exposing frequently queried paths as virtual generated columns with `json_extract`, then creating ordinary indexes on those columns. New query patterns can be supported later by adding another generated column and index, avoiding an up-front decomposition of every field. This combines flexible ingestion with familiar relational predicates and B-tree lookup. The article demonstrates syntax on tiny examples but supplies no query plans or benchmarks, and its broad “no backfilling” language should not be read as proof that index creation has no build cost.
 
 ### Comment pulse
 
-- Some saw this as standard generated-column practice and warned that frequently constrained or updated attributes may belong in normalized rows.
-- DuckDB was favored for large analytical scans — counterpoint: commenters still preferred SQLite for embedded application deployment.
-- Alternatives included PostgreSQL JSONB expression indexes and a serialized B-tree document format supporting direct traversal and in-place updates.
+- Readers compare the pattern with DuckDB analytics, PostgreSQL JSONB expression indexes, and normalized key-value rows.
+- One commenter presents Lite³, a serialized B-tree document format; replies discuss updates, vacuuming, compression, and schema-aware alternatives.
 
 ### LLM perspective
 
-- View: This is pragmatic schema evolution, provided indexed paths remain a curated interface rather than an accidental data model.
-- Impact: Applications can ingest flexible payloads first, then accelerate proven access patterns with familiar SQL columns and indexes.
-- Watch next: Index-build cost, write amplification, type coercion, missing paths, JSON validation, composite indexes, and when normalization becomes simpler.
+- View: Generated columns are a pragmatic bridge, not a substitute for choosing an appropriate data model.
+- Impact: Applications can defer selective JSON indexing while keeping ordinary SQLite query ergonomics.
+- Watch next: Measure index-build time, write amplification, storage growth, planner choices, and schema-change behavior on real workloads.

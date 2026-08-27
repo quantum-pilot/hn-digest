@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-The Ninth Circuit largely upheld a contempt ruling that Apple willfully violated a 2021 injunction governing outside iOS payments. It agreed that Apple’s 27% fee and restrictive link design frustrated meaningful alternatives, sustained the bad-faith finding, and upheld the lower court’s treatment of claimed privileged material. The district court barred commissions on external transactions, though the appellate opinion leaves room for a reasonable charge reflecting actual costs and possibly intellectual-property compensation. Apple and the lower court must now resolve that boundary.
+The Ninth Circuit largely upheld a contempt ruling that Apple's 27% fee and design restrictions on external iOS payment links violated a 2021 injunction. It agreed Apple acted in bad faith, while allowing that a future fee could reflect actual security and privacy costs plus reasonable intellectual-property compensation. Epic calls this the end of the “Apple Tax” and predicts rapid adoption of web payments. Commenters remain divided over the eventual fee, link-scam oversight, developer savings, and whether consumers will see lower prices.
 
 ### Comment pulse
 
-- Some favored a general right to reprogram owned devices — counterpoint: radios, authentication tokens, and medical equipment expose difficult safety exceptions.
-- Readers disputed whether external-payment monitoring creates material costs and whether any allowed fee should compensate security work, intellectual property, or neither.
-- Several predicted little consumer savings and more checkout friction; others noted Netflix and Spotify already make direct billing familiar.
+- Sweeney proposes small per-review charges; critics say continuous link validation costs more and fixed fees could burden independent developers.
+- Some expect Apple to choose an aggressive interpretation, while others doubt any percentage-of-revenue fee can be justified as actual cost.
 
 ### LLM perspective
 
-- View: The ruling defeats Apple’s attempted workaround without yet defining a final zero-fee regime.
-- Impact: Developers gain credible payment choice, but economics depend on the permissible replacement charge.
-- Watch next: The district court’s fee standard, Apple’s revised interface, developer adoption, and alleged retaliation evidence.
+- View: The appeal defeats Apple's prohibitive workaround but leaves the economically decisive fee calculation unresolved.
+- Impact: Developers gain payment leverage, though platform retaliation fears and review economics may slow adoption.
+- Watch next: Follow the district court's fee formula, external-payment uptake, App Store treatment, and consumer pricing.

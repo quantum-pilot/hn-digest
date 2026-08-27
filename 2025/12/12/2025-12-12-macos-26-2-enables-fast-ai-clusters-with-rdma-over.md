@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-macOS 26.2 adds RDMA over Thunderbolt 5, giving connected hosts lower-latency communication for distributed MLX inference. Commenters distinguish this from earlier multi-Mac demonstrations: pipeline parallelism can pool memory for models too large for one system, but does not necessarily speed generation; tensor parallelism could use the new transport to divide each layer and improve throughput if communication stays efficient. The capability makes large unified-memory clusters more plausible, while leaving price-normalized performance, topology, cabling, remote administration, and operational reliability to real benchmarks.
+Apple’s macOS 26.2 release notes add RDMA over Thunderbolt 5 between Macs, explicitly mentioning distributed AI inference with MLX. Commenters distinguish this from existing MLX pipeline parallelism, which mainly lets models exceed one machine’s memory: they argue lower-latency RDMA could make tensor parallelism practical by sharding every layer across machines. That performance promise is community interpretation, not an Apple benchmark. Discussion also flags mundane cluster constraints, including cabling, rack mounting, power controls, remote administration, and macOS upgrades.
 
 ### Comment pulse
 
-- Macs drew praise for pooling unusually large unified memory, but critics said NVIDIA systems still win on throughput; posted comparisons lacked common benchmarks.
-- Rack users worried about inaccessible power buttons, loose cables, and upgrades; replies cited mounts, cable stabilizers, VNC, and automated reinstall tools.
-- Some feared commercial demand consuming high-memory Macs; others argued limited scaling would preserve their role as local experimentation machines.
+- Enthusiasm centers on aggregating Mac unified memory, while commenters dispute whether cost and throughput compare favorably with conventional GPU servers.
+- Several readers say Thunderbolt connector reliability and unattended macOS operation may matter as much as raw interconnect latency.
 
 ### LLM perspective
 
-- View: RDMA changes the feasible parallelism model; it does not establish end-to-end scaling, reliability, or economics.
-- Impact: MLX users can pool memory and potentially compute over commodity cables, expanding local inference for oversized models.
-- Watch next: Tensor-parallel benchmarks, prefill scaling, topology limits, cable failures, lifecycle tooling, power draw, and price-normalized throughput.
+- View: RDMA changes the plausible parallelism model, but the supplied evidence establishes capability rather than measured scaling.
+- Impact: Small teams could assemble larger-memory inference clusters without adopting a conventional datacenter stack.
+- Watch next: Independent tensor-parallel benchmarks, failure behavior, topology limits, and unattended fleet management will determine practical value.

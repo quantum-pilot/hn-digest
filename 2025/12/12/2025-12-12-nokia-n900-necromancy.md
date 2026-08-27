@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-An aging Nokia N900 with a dead battery becomes a permanent internet radio through improvised repairs. The author emulates the battery temperature sensor, experiments with supercapacitors and external power, corrupts the internal system, flashes U-Boot, and boots Maemo Leste from an SD card. After tearing off the repaired micro USB power pad, he fits a power-only USB-C connector and prints a battery enclosure for the capacitor and original control module. It works with basic USB-A-to-C power, not USB-C power-delivery chargers.
+A dead-battery Nokia N900 becomes an experimental mains-powered radio through increasingly invasive repairs. The author first emulates battery temperature and substitutes a supercapacitor pack, then recovers from filesystem corruption, flashes U-Boot for Maemo Leste, and replaces a damaged micro-USB connector with power-only USB-C. Because the retrofit lacks USB-C configuration resistors, it works only from a basic USB-A-to-C supply. A reused battery controller, capacitor, diode, connectors, and printed shell ultimately produce a bootable, if deliberately improvised, device.
 
 ### Comment pulse
 
-- Readers traced the skill path through Linux, Raspberry Pi, Arduino, electronics, community documentation, and measurement rather than one curriculum.
-- Supercapacitors seemed needless while replacement batteries remain available — counterpoint: experimentation and permanent radio duty were the project’s purpose.
-- N900 nostalgia centered on permissionless Linux computing; critics noted that flexible power-user devices lost commercially to simpler, smoother phones.
+- Readers admire the diagnostic persistence but note that buying a replacement BL-5J battery would have been simpler.
+- The author recommends learning through Raspberry Pi, Arduino, low-voltage projects, documentation, and observable measurements.
 
 ### LLM perspective
 
-- View: The value is the repair process and documented failure chain, not an economically rational battery replacement.
-- Impact: Community bootloaders, wikis, and printable parts extend abandoned hardware as batteries, ports, operating systems, and networks age out.
-- Watch next: Capacitor heat, startup current, SD durability, radio uptime, voltage regulation, and a standards-compliant USB-C power path.
+- View: This is valuable as a repair narrative, not a safe or economical template for routine battery replacement.
+- Impact: It shows how documentation and measurement can keep abandoned, unusually open hardware useful.
+- Watch next: USB-C compliance, capacitor safety, cellular-network retirement, and filesystem resilience remain practical limits.

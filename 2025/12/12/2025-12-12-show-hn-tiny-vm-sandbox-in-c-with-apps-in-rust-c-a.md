@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-uvm32 packages a RISC-V interpreter and management layer into dependency-free C99 for embedded hosts, using no dynamic allocation and under 4 KB of flash plus 1 KB of RAM on an STM32L0. Hosts run guest instructions in bounded slices, receive events for syscalls, errors, and completion, and expose only chosen capabilities through a minimal FFI. Guest examples compile from C, Rust, Zig, and assembly, including games and a self-hosting demonstration. The project favors portability, isolation, and robustness over speed, frictionless interop, or batteries-included scripting.
+uvm32 wraps a small RISC-V emulator in a dependency-free, asynchronous C99 sandbox for constrained devices. The project claims an STM32L0 footprint below 4 KB flash and 1 KB RAM, avoids dynamic allocation, limits instruction runs so guest code cannot stall the host, and exposes a minimally typed event-based FFI. Example guests span C, Rust, Zig, and assembly, including games and nested virtualization. It prioritizes portability and isolation over speed, frictionless calls, interpreted convenience, or bundled I/O and networking libraries.
 
 ### Comment pulse
 
-- Reviewers praised the compact wrapper around mini-rv32ima and noted software floating point comes from compiler routines, not emulated hardware instructions.
-- Wasm offers browser support and a purpose-built sandbox model — counterpoint: configurable RISC-V can provide a smaller, stable target.
-- One commenter proposed memory-mapped I/O simulation for firmware tests; the author identified existing read and write traps that could support it.
+- Readers praise the compact implementation and compiler ecosystem, while debating RISC-V decoding costs against embedded WebAssembly runtimes.
+- The author says memory-mapped I/O simulation could be added by trapping the emulator’s existing mapped reads and writes.
 
 ### LLM perspective
 
-- View: This is a capability boundary and portable compilation target, not a general operating-system emulator.
-- Impact: Tiny hosts can isolate plugins and accept modern-language guest code without maintaining native toolchains for every microcontroller.
-- Watch next: Fuzzing, syscall validation, memory-mapped I/O hooks, worst-case execution costs, code-size comparisons, and production integrations.
+- View: A stable compiler target is the project’s strongest advantage; its sandbox guarantees still deserve adversarial testing.
+- Impact: Embedded hosts gain language choice and replaceable guest logic within a remarkably small claimed footprint.
+- Watch next: Benchmarks, fuzzing results, memory-isolation audits, and comparisons with minimal WebAssembly interpreters will clarify tradeoffs.
