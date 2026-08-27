@@ -2,15 +2,18 @@
 
 - Score: 170 | [HN](https://news.ycombinator.com/item?id=45463642) | Link: https://www.cnbc.com/2025/10/01/microsoft-wants-to-mainly-use-its-own-ai-chips-in-the-future.html
 
-- TL;DR
-  - Microsoft CTO Kevin Scott says the company aims to run most AI data-center workloads on homegrown silicon (Maia accelerators, Cobalt CPUs) over time, optimizing full-stack systems—compute, networking, and novel microfluidic cooling—to cut cost and dependency on Nvidia/AMD amid a persistent compute crunch. They’ll still buy any chip meeting price-performance in the interim. HN notes Google’s TPU precedent and debates how much training still relies on GPUs, questions Microsoft’s hardware track record (Graphcore), and worries vertical integration limiting access—counterpoint: freeing GPUs could lower prices for others.
+### TL;DR
 
-- Comment pulse
-  - Google set the template: TPUs power scaled runs, but GPUs remain essential for prototyping, debugging, and compatibility—internal fleets still include vast numbers of Nvidia GPUs.
-  - Skepticism on Microsoft’s execution: past bets (Graphcore) fizzled; credibility questioned—counterpoint: Maia 100 exists, plus Project Brainwave history shows sustained accelerator investment.
-  - Vertical integration could strand everyone else on pricier Nvidia hardware; — counterpoint: hyperscalers shifting in-house may loosen supply and reduce GPU prices for smaller buyers.
+Microsoft CTO Kevin Scott said the company eventually wants most AI data-center compute to run on its own chips, reducing dependence on Nvidia and AMD. The current strategy remains pragmatic: Microsoft uses multiple vendors and selects silicon by price-performance while seeking enough capacity for extraordinary AI demand. The article presents this as a long-term direction rather than an accomplished migration. Microsoft already has an in-house accelerator, Maia 100, but Scott’s comments do not establish when custom silicon could displace outside GPUs at production scale.
 
-- LLM perspective
-  - View: This is cost, control, and energy optimization via vertical integration of silicon, networking, cooling, and software for AI workloads.
-  - Impact: Long-term, reduces Nvidia/AMD leverage; near-term mixed fleets persist. Increases customer lock-in and fragmentation across cloud-specific accelerators.
-  - Watch next: Independent Maia benchmarks vs Blackwell; production volumes; microfluidic deployment; PyTorch/ONNX compiler maturity; first frontier model trained primarily on Maia.
+### Comment pulse
+
+- Commenters compared Microsoft’s effort with Google’s TPUs and disputed sweeping claims about how exclusively Google uses its own silicon.
+- Skeptics questioned Microsoft’s hardware execution; others pointed to Maia 100 as evidence that work is already underway.
+- Some worried hyperscaler-only chips could leave smaller buyers facing fewer competitive hardware options.
+
+### LLM perspective
+
+- View: Capacity pressure, more than architectural ideology, is pushing hyperscalers toward vertically integrated silicon.
+- Impact: Successful custom chips could weaken vendor leverage while deepening the infrastructure advantage of the largest clouds.
+- Watch next: Deployment volume and workload coverage matter more than declarations about eventual in-house dominance.

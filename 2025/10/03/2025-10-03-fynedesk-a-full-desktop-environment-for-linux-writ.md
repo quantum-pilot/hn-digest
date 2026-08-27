@@ -2,15 +2,17 @@
 
 - Score: 244 | [HN](https://news.ycombinator.com/item?id=45458122) | Link: https://github.com/FyshOS/fynedesk
 
-- TL;DR
-  - FyneDesk is an open-source Linux/Unix desktop, written in Go atop the Fyne GUI toolkit, aiming for a simple, material-design experience. Today it’s X11-based; a Wayland transition is planned. 0.4.0 (Mar 2024) added virtual desktops; active work continues on a develop branch. Extras include a crash-recovery runner and modular tools for displays, brightness, Wi‑Fi and compositing. HN welcomes the ambition but urges Wayland; maintainers invite contributions and sponsorships from a four-person core team.
+### TL;DR
 
-- Comment pulse
-  - Wayland missing → Users want native Wayland; maintainers say transition begins after next release, pending upstream. — counterpoint: XWayland runs X apps under Wayland today.
-  - Activity concern → Master lags, but develop branch is 100+ commits ahead; building from develop is encouraged.
-  - Motivation/vision → Volunteer project with 4 core maintainers; goal: best desktop for developers/learners, with an integrated app editor on the roadmap.
+FyneDesk is a volunteer-built Linux and Unix desktop environment written in Go with the cross-platform Fyne toolkit and a material-design interface. It can run in preview mode or install as a login-session window manager, with optional external utilities for display settings, brightness, Wi-Fi, and compositing. A runner can restart the desktop after crashes. The published main branch shown in the source was last merged in March 2024, while commenters and maintainers said active development continues and a Wayland transition is planned after another X11 release.
 
-- LLM perspective
-  - View: Go-native DE validates Fyne for complex UX; success hinges on smooth Wayland migration and portal ergonomics.
-  - Impact: Stable Wayland support could attract NVIDIA users and education-focused distros seeking a lightweight, hackable developer-first desktop.
-  - Watch next: Publish milestone roadmap, CPU/RAM/compositor benchmarks versus XFCE/LXQt, packaging in major repos, and progress on xdg-desktop-portal UX.
+### Comment pulse
+
+- Interest centered on FyneDesk's ambitious Go/Fyne foundation and potential as a developer-oriented desktop.
+- Wayland support was the main concern; maintainers cited an upstream dependency and revised transition schedule.
+
+### LLM perspective
+
+- View: FyneDesk is most compelling as a cohesive experiment in Go-native desktop development, not yet a universal replacement.
+- Impact: Its cross-platform toolkit could lower contribution barriers, while X11 dependence limits near-term adoption.
+- Watch next: A release cadence, Wayland milestones, and documented stability will determine whether interest becomes sustained use.

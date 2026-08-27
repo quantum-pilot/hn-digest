@@ -2,15 +2,17 @@
 
 - Score: 331 | [HN](https://news.ycombinator.com/item?id=45459233) | Link: https://blog.burkert.me/posts/in_praise_of_syndication/
 
-- TL;DR
-  - Burkert argues RSS is a simple, open antidote to ad-driven, black-box social feeds. Using FreshRSS + FeedMe, folders by mood, and targeted sources (e.g., arXiv queries), he gets distraction-free, chronological reading, offline access, and portability via OPML—no engagement bait, no comments by default. Practical tips cover reader choices, feed discovery, throttling, and self-hosting. HN readers echo benefits but warn of RSS fatigue, advocate pruning or filters, debate chronological vs. algorithmic curation, and swap tools for converting non-RSS sites and adding power-user features.
+### TL;DR
 
-- Comment pulse
-  - Prune aggressively → unsubscribe from high-frequency sources, segregate busy feeds, and set weekly refresh to prevent fatigue and FOMO.
-  - Power-user readers matter → tagging, search, scoring, de-duplication, and filters surface relevance; many mobile apps are weak, pushing some to self-host.
-  - Chronological vs algorithmic → chrono can reward spam; user-aligned algorithms or algorithm-as-a-service could help — counterpoint: RSS clients can already add custom ranking or unsubscribe.
+The author argues that RSS restores deliberate control over online reading: users choose sources, organize them by topic or mood, read chronologically, and move subscriptions through open OPML files. Their current setup pairs self-hosted FreshRSS with a mobile client for consistent, offline-friendly reading. Practical advice includes starting with a hosted reader, adding specialized feeds, pruning subscriptions, and using read-later tools. The central claim is not that RSS eliminates overload, but that it makes the reader—not an engagement algorithm—responsible for managing it.
 
-- LLM perspective
-  - View: Pair RSS with local ML ranking tuned to goals; keep raw feeds as a fallback and exportable.
-  - Impact: Shifts control from platforms to users; reduces engagement bait, improves attention hygiene, and supports niche creators.
-  - Watch next: Readers adding scoring/filters, algorithm marketplaces, better mobile clients, and browser-level feed discovery to revive mainstream RSS.
+### Comment pulse
+
+- Readers said RSS improved after removing high-volume news and social feeds, while aggressive pruning reduced unread-count anxiety.
+- Some defended personalization; others noted RSS readers can apply user-chosen ranking without surrendering feed ownership.
+
+### LLM perspective
+
+- View: RSS’s enduring advantage is portable intent: subscriptions remain legible, movable, and chosen by the reader.
+- Impact: Control shifts overload management to users, creating agency but also requiring disciplined curation.
+- Watch next: Better filtering and discovery could preserve autonomy while reducing the maintenance burden that drives abandonment.

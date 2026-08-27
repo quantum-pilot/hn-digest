@@ -2,15 +2,18 @@
 
 - Score: 197 | [HN](https://news.ycombinator.com/item?id=45463656) | Link: https://chrislakin.blog/p/social-anxiety
 
-TL;DR
-Chris Lakin reframes social anxiety as risk-aversion: many “shy” behaviors minimize chances of being disliked, not maximize likability. Like financial insecurity, the system seeks downside protection over upside. Progress comes from practicing tolerance for worst-case social outcomes rather than trying harder to be liked. HN reactions: many found the reframe clarifying; others argue it conflates normal social nerves with the clinical disorder and may mislead treatment. Some asked for research beyond anecdotes and author credentials.
+### TL;DR
 
-Comment pulse
-- Countersignaling among close friends reduces fear: teasing signals “we know your flaws and accept you.” — counterpoint: without witty comebacks, it feels threatening, not safe.
-- Misusing “social anxiety” pathologizes normal nerves; the post’s reframe won’t treat the disorder. — counterpoint: DSM defines fear of negative evaluation, which the post highlights.
-- Some report a “physical barrier” and cognitive overload; exposure is hard or impossible. Alcohol/MDMA help for a few; others cite diet or practical drills.
+This opinion essay reframes socially anxious behavior as risk aversion: shrinking visibility, making fewer requests, and avoiding relationships may optimize against being disliked rather than toward being liked. It argues that recognizing this locally rational protective strategy can redirect growth toward tolerating rejection and social mistakes. The framing is not presented as clinical research or a universal explanation. Commenters both recognized the pattern—especially in affectionate countersignaling among friends—and strongly challenged its fit for clinical social anxiety or experiences driven by cognitive load, physical inhibition, or avoidance of attention itself.
 
-LLM perspective
-- View: Useful reframe for subclinical anxiety; insufficient for social anxiety disorder or alexithymia-like “freeze” responses.
-- Impact: May shift goals from approval-seeking to risk-tolerance training; supports assertiveness, dating, and career growth if applied judiciously.
-- Watch next: Compare outcomes: exposure/ACT vs “be disliked” tolerance drills; operationalize countersignaling; clearer media language separating traits from disorders.
+### Comment pulse
+
+- Some readers found friendly teasing reassuring because it signals acceptance despite known flaws.
+- Others warned that the essay conflates ordinary nervousness with a disorder that cannot simply be reasoned away.
+- Personal accounts described markedly different triggers, suggesting no single like-versus-dislike model covers all cases.
+
+### LLM perspective
+
+- View: The reframe is a useful hypothesis for reflection, but a poor universal theory of social anxiety.
+- Impact: It may reveal avoidance incentives while also encouraging self-blame if treated as sufficient treatment.
+- Watch next: Readers should test whether the model fits their experience before drawing behavioral or clinical conclusions.

@@ -2,15 +2,18 @@
 
 - Score: 195 | [HN](https://news.ycombinator.com/item?id=45464849) | Link: https://www.wheresyoured.at/sora2-openai/
 
-- TL;DR
-  - Ed Zitron argues OpenAI is a cash-burning, unfocused software company dressing up me-too LLM products with leaks about browsers, hardware, ads, chips, and social video to sustain valuation. He cites slowing API traction, GPT‑5’s disappointing cost/perf, Sora 2’s expensive generations, and reliance on ChatGPT subscriptions while projecting “agents” later. HN splits: boosters tout hundreds of millions of users and a $1B/month run-rate with monetization headroom; skeptics note thin moat, heavy losses, and accounting games around model depreciation.
+### TL;DR
 
-- Comment pulse
-  - OpenAI already looks like a breakout consumer giant → commenters cite ~800M users and ~$1B monthly run-rate, despite zero ads.
-  - Scale ≠ moat → competitors ship parity models; losses dwarf revenue; giveaways inflate metrics — counterpoint: costs can fall; ads and enterprise upsells are untapped.
-  - Profitability via model depreciation → amortize R&D across model lifecycles — counterpoint: accounting timing ≠ unit economics; usage shifts to newer, pricier models.
+In a strongly adversarial essay, Ed Zitron argues that OpenAI’s expanding list of proposed businesses—social video, productivity, hiring, advertising, compute, chips, hardware, and a browser—signals strategic desperation rather than breadth. He portrays ChatGPT subscriptions as the core business, API revenue as comparatively small, spending as unsustainable, and product announcements as valuation-supporting publicity. The captured article ends at a paywall after presenting this thesis, so its later evidence and full argument are unavailable; its financial interpretations remain the author’s contested analysis.
 
-- LLM perspective
-  - View: Evaluate OpenAI as consumer SaaS plus API, not AGI moonshot; track unit economics, retention, and acquisition costs.
-  - Impact: Sustained negative margins push dependency on Microsoft or consolidation; successful ads/agents threaten Google, Slack, Notion.
-  - Watch next: audited gross margins, ads in ChatGPT, Operator reliability benchmarks, Sora 2 per-generation pricing, Broadcom chip milestones.
+### Comment pulse
+
+- Critics cited OpenAI’s users and revenue as evidence of an exceptional consumer business, while acknowledging very high spending.
+- Debate centered on whether model costs should be depreciated and whether current adoption can translate into durable profit.
+- Several commenters found the framing clickbait; others argued subsidized usage can inflate impressive-looking scale.
+
+### LLM perspective
+
+- View: Product breadth is ambiguous evidence: it can reflect platform leverage or an unresolved search for margins.
+- Impact: The business case hinges less on popularity than on converting usage into returns above compute and development costs.
+- Watch next: Auditable unit economics and revenue mix would test both the essay’s pessimism and defenders’ optimism.

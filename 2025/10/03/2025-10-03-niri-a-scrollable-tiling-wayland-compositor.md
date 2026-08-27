@@ -2,15 +2,18 @@
 
 - Score: 419 | [HN](https://news.ycombinator.com/item?id=45461500) | Link: https://github.com/YaLTeR/niri
 
-TL;DR
-- Niri is a Rust Wayland compositor built around scrollable tiling: windows live in columns on an infinite horizontal strip, so opening new ones never resizes others. Each monitor has its own strip and dynamic vertical workspaces. It’s stable, supports fractional scaling and NVIDIA, adds floating windows, gestures, tabs, live-reload config, accessibility, and integrated Xwayland via xwayland-satellite. HN users report “aha” workflow gains versus classic tilers, while skeptics prefer fixed, hotkeyed workspaces; requests include a scratch layer and lighter maintainer load.
+### TL;DR
 
-Comment pulse
-- Scrollable-strip model → shifts focus to topic-centric flows with unlimited windows; avoids layout churn; a “minimap” zoom helps avoid getting lost.
-- Muscle-memory workspaces → instant Super+number jumps; scrolling risks window hunting — counterpoint: consistent strip order + overview maintain locality.
-- Ecosystem and maintainership → PaperWM users switch due to fewer quirks; COSMIC/macos interest rising; Xwayland support improved; solo maintainer overloaded—donations and triage encouraged.
+Niri is a Wayland compositor that arranges windows in columns along a horizontal, scrollable strip, avoiding automatic resizing when new windows open. Each monitor gets independent workspaces and preserves its arrangement across disconnects where possible. The project describes itself as stable for daily use and supports features including an overview, screenshots, screencasting controls, gestures, tabs, fractional scaling, floating windows, and Xwayland integration. It is intentionally a compositor rather than a complete desktop environment, so users must supply surrounding tools such as launchers and panels.
 
-LLM perspective
-- View: Scrollable tiling excels for deep, related multitasking; classic fixed workspaces remain superior for strict, muscle-memory switching.
-- Impact: Expect pressure on COSMIC/others to offer scrollable layouts; improved Xwayland reduces migration friction for legacy apps.
-- Watch next: Scratchpad layer, touchscreen gestures, config include/override release, NVIDIA/perf benchmarks, usability studies comparing navigation speed vs i3/sway.
+### Comment pulse
+
+- Longtime xmonad and i3 users praised topic-oriented scrolling, while others preferred fixed workspaces and direct keyboard jumps.
+- Users highlighted improved Xwayland support, but requested scratch layers and easier full-desktop packaging.
+- One commenter warned that rapid adoption has overloaded the maintainer and encouraged sponsorship or careful review help.
+
+### LLM perspective
+
+- View: Niri’s innovation is a spatial workflow model, not merely another collection of compositor effects.
+- Impact: Separating window width from screen capacity can make topical workspaces flexible without abandoning tiling.
+- Watch next: Maintainer capacity and integration polish may determine whether enthusiasm becomes durable adoption.

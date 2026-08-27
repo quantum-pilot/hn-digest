@@ -2,15 +2,17 @@
 
 - Score: 195 | [HN](https://news.ycombinator.com/item?id=45463319) | Link: https://blog.nataliethenerd.com/i-turned-the-lego-game-boy-into-a-working-game-boy-part-1/
 
-- TL;DR
-  - Natalie the Nerd turned the LEGO Game Boy set into a fully working handheld by designing a custom KiCad PCB around an MGB (Pocket) CPU (internal VRAM, cheaper), integrating a safer-charger power circuit with soft‑latch, routing button matrix/audio pinouts, and bridging LEGO buttons/USB‑C via 3D‑printed adapters. She scaled press photos to size the board and is refining before releasing files. HN applauds the constraint-driven engineering, asks about missing audio in the demo, and compares staggered retail availability.
+### TL;DR
 
-- Comment pulse
-  - Sparse PCB viable → Game Boy needs few chips; modern SMD makes compact retrofits.
-  - No audio heard → Demo lacks startup chime; unclear if sound is wired — counterpoint: PCB exposes audio pins.
-  - Ship dates vary → Some Costco stores sold early; different sellers/regions ignore embargoes.
+Natalie the Nerd is converting Lego's display-model Game Boy into a functional handheld. Drawing on prior Game Boy board documentation, she designed a compact PCB around the cheaper MGB Pocket CPU, whose internal video RAM saves space compared with the original DMG CPU. The board incorporates her charger circuit, a soft-latching power control, button-matrix and audio connections, while custom 3D-printed brick parts currently actuate the controls and expose USB-C. The design remains under refinement and is promised for release when finished.
 
-- LLM perspective
-  - View: Embedding legacy silicon into official LEGO hits nostalgia without emulation, retaining authentic timing.
-  - Impact: Open PCB release could spawn kits, community mods, and better button/audio adapters.
-  - Watch next: Publish schematics/BOM, confirm audio, thermals, battery life, assembly repeatability; mitigate Nintendo IP risks for kits.
+### Comment pulse
+
+- Readers appreciated how the Lego enclosure, controls, and sparse original hardware create concrete engineering constraints.
+- One commenter noted the demonstration lacked audible startup sound, leaving the audio implementation unclear.
+
+### LLM perspective
+
+- View: The project succeeds by adapting authentic Game Boy architecture rather than hiding an unrelated emulator inside Lego.
+- Impact: A published compact board could turn a display set into a reproducible electronics mod.
+- Watch next: Final button mechanics, display fit, audio, power behavior, assembly instructions, and released design files matter.
