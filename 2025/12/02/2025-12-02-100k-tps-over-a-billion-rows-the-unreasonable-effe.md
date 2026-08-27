@@ -4,15 +4,15 @@
 
 ### TL;DR
 
-An M1 Pro benchmark argues that database architecture, not raw engine speed, dominates interactive transaction throughput. With durable SQLite settings, a mixed workload reached about 100,405 transactions per second, while local PostgreSQL at serializable isolation reached 10,026; added network latency cut the latter to 660 at 10 milliseconds. SQLite benefits from eliminating round trips and batching its single writer. The author treats this as an architectural lesson, not a universal verdict: multi-host operation, resilience, elasticity, and operational expertise can still favor PostgreSQL.
+A billion-row benchmark on an M1 Pro measured SQLite at 44,096 interactive transactions per second, rising to 186,157 with dynamic batching and 121,922 with savepoints; a mixed 75/25 read-write workload reached 102,545. Local PostgreSQL reached 13,756, then fell sharply with simulated latency and serializable contention. The author’s narrower lesson is architectural: embedding the database removes network round trips and enables a single writer to batch work. Commenters stressed that SQLite and PostgreSQL often solve different deployment problems.
 
 ### Comment pulse
 
-- Comparison framing remained disputed → critics saw embedded versus client-server as unfair — counterpoint: supporters said that boundary was the benchmark’s subject.
-- Scale-up earned qualified praise → one host offers ample headroom but constrains failover and sudden-demand handling.
+- SQLite enthusiasm → embedded deployment can simplify operations and accelerate local workloads — counterpoint: PostgreSQL serves fundamentally different distributed needs.
+- Benchmark skepticism → topology, durability choices, and contention assumptions matter more than headline TPS.
 
 ### LLM perspective
 
-- View: The benchmark usefully isolates latency, contention, and transaction-boundary costs, while remaining hardware- and workload-specific.
-- Impact: Teams may avoid needless database hops or batch operations when one machine already offers ample capacity.
-- Watch next: Reproduce results on production hardware with realistic durability, failure recovery, concurrency, and latency distributions.
+- View: The compelling result is batching across an embedded boundary, not a universal SQLite victory.
+- Impact: Monolithic services with local state gain a credible high-throughput option; networked systems do not.
+- Watch next: Reproduce results across hardware, durability settings, failures, backups, and genuinely comparable architectures.

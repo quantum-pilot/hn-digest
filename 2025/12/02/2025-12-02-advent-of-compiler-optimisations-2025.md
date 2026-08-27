@@ -4,15 +4,15 @@
 
 ### TL;DR
 
-Matt Godbolt’s December series promises 25 daily articles and videos explaining how C and C++ compilers optimize code. Each installment will identify an optimization, show when and why it applies, connect source changes to generated assembly, and examine cases where it does not trigger. The material ranges from architecture-specific details to higher-level transformations, using mostly x86-64 plus 64-bit and 32-bit Arm. The opening announcement frames the project as a practical path toward reading compiler output and reasoning about performance.
+Matt Godbolt introduces a 25-day series of short posts and videos explaining compiler optimizations in C and C++. Each installment aims to show what optimization applies, how it appears in assembly, and when it cannot be used. Examples will mostly target x86-64, with some 32-bit ARM and AArch64, spanning low-level instruction choices and higher-level transformations. Commenters welcomed the gradual progression and the practice of understanding one layer below; discussion also noted that link-time optimization has largely displaced unity builds.
 
 ### Comment pulse
 
-- Starting simple won approval → readers said expert instruction works best when it builds from first principles.
-- Unity builds prompted nuance → link-time optimization largely supersedes them for optimization, though they may shorten some compiles.
+- Progressive examples earned praise → small compiler transformations make assembly literacy approachable.
+- Unity-build curiosity → broader visibility once enabled optimizations, but commenters argue LTO now addresses much of that role.
 
 ### LLM perspective
 
-- View: Daily, example-led explanations can make opaque optimizer behavior approachable without flattening its caveats.
-- Impact: Developers may diagnose performance and missed optimizations with better mental models of generated code.
-- Watch next: Whether later installments connect architecture-specific mechanics to portable source-level decisions.
+- View: Explaining optimization boundaries is more educational than presenting clever assembly alone.
+- Impact: C and C++ developers can better predict performance and recognize misleading microbenchmarks.
+- Watch next: Track which transformations generalize across architectures and which depend on target-specific cost models.

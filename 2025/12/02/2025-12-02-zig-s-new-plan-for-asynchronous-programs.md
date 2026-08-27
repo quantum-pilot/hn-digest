@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Zig is moving asynchronous I/O behind a generic Io value passed through library calls. The same straight-line function can use Io.Threaded or the experimental Io.Evented backend, while async expresses optional parallelism and concurrent marks execution required for correctness. This avoids async-specific language syntax and lets callers choose scheduling, but behavior still depends on the supplied implementation. Andrew Kelley corrected that Threaded normally dispatches through a configurable thread pool and that asyncConcurrent was renamed concurrent. Discussion concentrated on whether the abstraction clarifies or conceals execution differences.
+Zig's proposed asynchronous design passes a generic `Io` interface through I/O-using functions, letting the same straight-line code run with threaded or event-driven backends. Explicit `async` marks work that may run concurrently as an optimization; `concurrent` is required when parallel progress is necessary for correctness. This avoids new language-specific async control flow while preserving `try` and `defer`, but adds parameter plumbing and backend-dependent behavior. `Io.Evented` remains experimental and incomplete. HN debated whether the design solves function coloring or merely makes it ergonomic.
 
 ### Comment pulse
 
-- Ergonomics divide readers → one Io parameter preserves ordinary control flow — counterpoint: repeatedly threading it through file methods feels noisy.
-- Coloring claims remain disputed → critics call Io an explicit effect token; defenders say call syntax and library compatibility no longer bifurcate.
-- Execution-context flexibility carries risk → backend-dependent scheduling may expose deadlocks, thread-safety errors, or interference; old suspend-and-resume use cases remain unclear.
+- Andrew Kelley corrected that `Io.Threaded` normally dispatches async tasks to a configurable pool and that `asyncConcurrent` became `concurrent`.
+- Supporters saw an explicit, controllable execution interface; critics compared it with effect tokens, Scala execution contexts, and Haskell IO.
+- Users worried about deadlocks, backend interference, suspend/resume use cases, and repeatedly passing `io` into file methods.
 
 ### LLM perspective
 
-- View: The design trades visible async syntax for explicit capability injection and backend-dependent semantics.
-- Impact: Library authors can share APIs across blocking and evented callers, while application authors own scheduling choices.
-- Watch next: Evented platform coverage, WebAssembly support, cancellation behavior, migration guidance, and concurrency bug patterns.
+- View: Zig sidesteps syntax coloring by making execution strategy an explicit dependency, not invisible runtime policy.
+- Impact: Library authors can share APIs across synchronous and evented callers while application authors retain backend control.
+- Watch next: Cross-platform Evented implementations, WebAssembly support, deadlock guidance, and API stability before 1.0.

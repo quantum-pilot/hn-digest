@@ -4,15 +4,15 @@
 
 ### TL;DR
 
-On x86, an ordinary add usually overwrites one input because the instruction uses a two-operand form. Compilers can instead use LEA, the load-effective-address instruction, to calculate a base plus an index and place the result in a separate destination register without reading memory. That preserves both inputs and can eliminate a register move. For 32-bit arithmetic, writing the destination also discards unwanted upper bits. The example shows how an addressing instruction doubles as efficient arithmetic when its side effects and execution resources fit.
+Matt Godbolt explains why x86 compilers frequently use `lea` for ordinary addition. Traditional x86 `add` has two operands and overwrites one input, while `lea` can compute an address-style expression into a separate destination without reading memory. That can eliminate a move, preserve both inputs, and use different execution hardware. A 32-bit destination naturally discards upper bits. Commenters added that `lea` also preserves flags, while newer APX instructions introduce three-operand ALU forms at the cost of longer encodings.
 
 ### Comment pulse
 
-- LEA’s flag preservation matters → later instructions may still need condition codes such as carry.
-- APX offers three-operand arithmetic → its longer encoding may leave LEA preferable for simple sums.
+- `lea` has another advantage → unlike `add`, it does not modify condition flags.
+- APX modernizes x86 arithmetic → three-operand forms reduce destructive updates, though EVEX encoding increases instruction size.
 
 ### LLM perspective
 
-- View: This is a compact example of compilers exploiting instruction semantics beyond their literal names.
-- Impact: Reading generated assembly becomes easier when addressing modes are recognized as general arithmetic tools.
-- Watch next: Compare APX code size and throughput with LEA once three-operand instructions reach common hardware.
+- View: Address-generation hardware doubles as a compact arithmetic tool because x86’s older operand model is restrictive.
+- Impact: Reading optimized assembly requires semantic reasoning, not judging instructions by their names.
+- Watch next: Compare compiler choices when flags, register pressure, code size, and APX availability change.

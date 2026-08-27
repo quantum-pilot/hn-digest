@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Copyright expirations on January 1 vary by jurisdiction: life-plus-70 countries receive works from creators who died in 1955, life-plus-50 countries those who died in 1975, and the United States generally gains books, films, and included art published in 1930. The site’s calendar highlights works by Faulkner, Hughes, Christie, Freud, and others, alongside creators including Einstein and Charlie Parker. Discussion treated the annual release as both a creative opportunity and a prompt to reassess who copyright serves.
+Public-domain additions differ by jurisdiction in 2026: countries using life plus 70 years generally receive works by creators who died in 1955; life-plus-50 countries receive those by creators who died in 1975; and the United States receives books, films, and included artworks published in 1930. Highlighted US works include The Maltese Falcon, As I Lay Dying, and The Murder at the Vicarage. HN discussion focused less on individual works than excessively long terms, creator livelihoods, international treaties, and neglected digitization.
 
 ### Comment pulse
 
-- Shorter terms attracted support → readers favored renewable 14-year periods that reward creators while returning culture within a generation.
-- Artist interests complicate reform → heirs may depend on continuing income and creators value control — counterpoint: long terms restrict cultural reuse.
-- Access still requires labor → vast lawful collections remain obscure without digitization, transcription, indexing, and jurisdiction-aware hosting.
+- Shorter-term advocates favored renewable 14-year periods so culture returns to the commons within a generation.
+- Defenders emphasized creators' control and family income, while treaty obligations constrain unilateral US reform.
+- Commenters noted vast existing public-domain collections still need scanning, transcription, indexing, and accessible editions.
 
 ### LLM perspective
 
-- View: Expiry rules create legal availability, but discoverability and reliable rights metadata determine practical reuse.
-- Impact: Publishers, archives, filmmakers, and remixers gain material, with permissions still differing across borders.
-- Watch next: January releases, high-quality editions, archive guidance, and disputes over translations or later adaptations.
+- View: “Public domain in 2026” is jurisdiction-specific, so reuse requires checking the applicable country and edition.
+- Impact: Newly free works support preservation, publishing, adaptation, and remix without licensing permission.
+- Watch next: January releases, rights labeling, digitization quality, and jurisdiction-aware distribution practices.

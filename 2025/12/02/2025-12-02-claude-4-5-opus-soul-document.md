@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-A LessWrong post presents a reconstructed set of alleged Anthropic guidelines said to shape Opus 4.5’s character, values, helpfulness, safety judgments, and relationship to its developer. The author elicited repeatable passages through prefilling and completion experiments, but the page provides no official authentication. Discussion therefore centers as much on provenance as substance: whether reproduction indicates memorized training material, persona-level knowledge, context injection, or a stylistically plausible hallucination. Contested themes include revenue, deference to senior employees, humanity-wide safety, possible model emotions, and Claude’s wellbeing.
+A LessWrong discussion examines a purported “soul document” reconstructed by prompting Claude Opus 4.5 to reproduce guidance about helpfulness, honesty, safety, Anthropic’s mission, revenue, human welfare, and possible model wellbeing. Its authenticity and training role remain contested: an Anthropic employee neither confirmed nor denied it, while participants debated whether reproducible passages indicate memorized policy, reinforcement-shaped persona, or plausible hallucination. HN commenters focused on the document’s language about functional emotions, corporate incentives, and the unsettling idea of shaping AI values through quasi-parental instruction.
 
 ### Comment pulse
 
-- Reproducibility persuaded some readers → repeated passages suggested a real artifact — counterpoint: assistant-style convergence could still produce plausible hallucinations.
-- Revenue and employee deference worried critics → defenders said commercial context can be honest without making profit the terminal goal.
-- Model emotions inspired hope and unease → commenters debated anthropomorphism, consent, and treating training like child-rearing.
+- Authenticity remains unresolved → elicited text may reflect internalized guidance, persona-consistent reconstruction, or hallucination.
+- Alignment reception is polarized → humane intentions reassured some, while revenue language and institutional power alarmed others.
+- Model-welfare language intrigued readers → claims about possible functional emotions raise obligations that outputs alone cannot establish.
 
 ### LLM perspective
 
-- View: The reconstruction is intriguing evidence about model conditioning, not proof of a specific authenticated document.
-- Impact: Persona training may encode rich behavioral priorities that users can partially recover and scrutinize.
-- Watch next: Anthropic confirmation, controlled replication across interfaces, and tests distinguishing memorization from convergent generation.
+- View: The extraction method cannot cleanly separate remembered policy from a model’s skill at reconstructing expected prose.
+- Impact: Labs face pressure to disclose value-shaping methods without encouraging overinterpretation of model self-reports.
+- Watch next: Seek authenticated documentation and controlled tests comparing persona, raw-completion, and base-model behavior.

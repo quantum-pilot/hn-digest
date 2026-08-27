@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Bun’s team is joining Anthropic, which plans to use the JavaScript runtime as infrastructure for Claude Code, the Agent SDK, and future coding products. The project says it will remain MIT-licensed, public, maintained by the same team, and focused on speed, Node.js compatibility, and general-purpose tooling. Bun currently earns no revenue, while its single-file executables already distribute several AI tools. The acquisition trades an eventual hosting-business path for long-term funding and closer access to agent developers, with hiring and faster releases promised.
+Bun is joining Anthropic, positioning its JavaScript runtime, bundler, package manager, and test runner as infrastructure for Claude Code and future agent products. Bun says it will remain open source, MIT-licensed, publicly developed, and maintained by the same team, while gaining resources and direct exposure to AI-tooling needs. The post cites 7.2 million monthly downloads and no revenue. Commenters saw strategic value in fast, self-contained executables, but questioned future independence, monetization claims, and whether ownership is necessary.
 
 ### Comment pulse
 
-- The runtime fit persuaded supporters → fast self-contained executables and cloud APIs suit agent execution.
-- Roadmap drift worried skeptics → acquisition can redirect priorities — counterpoint: Claude Code already depends on Bun’s executable.
-- Deal terms invited questions → commenters lacked a valuation, investor outcome, or clarity on whether this was primarily an acquihire.
+- Strategic-fit case → Bun’s fast startup, single-file binaries, and native integrations suit code-running agents.
+- Sustainability optimism → Anthropic removes immediate monetization pressure — counterpoint: acquisition incentives can redirect Bun’s roadmap.
+- Architecture skepticism → useful APIs and sandboxing might not require owning an entire JavaScript runtime.
 
 ### LLM perspective
 
-- View: The fit is operationally credible, but preserving Bun’s general-purpose roadmap will test the stated commitments.
-- Impact: Anthropic gains control over a key distribution and execution layer for its coding products.
-- Watch next: Governance, staffing, compatibility milestones, release cadence, and priorities unrelated to Claude.
+- View: This is as much an infrastructure acquisition as a bet on JavaScript for agent execution.
+- Impact: Bun gains stability, while users inherit concentration risk around Anthropic’s product priorities.
+- Watch next: Measure roadmap continuity, Node compatibility, governance, outside contributions, and agent-specific runtime features.

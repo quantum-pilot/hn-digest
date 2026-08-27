@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Brian Eno built the album’s evolving textures from short piano and vocal recordings placed on tape loops of deliberately unequal lengths. Because the loops rarely realign, their sparse notes continually form new phrases and chords without a fixed score. The article reconstructs key tracks: one slows echoed piano and Rhodes recordings to half speed, another layers seven single-note choir loops, and another combines eight piano fragments. Eno’s graphic notation maps these independent cycles, turning composition into the design of a simple generative system that performs itself.
+This 2019 deconstruction explains how Brian Eno built *Ambient 1: Music for Airports* from small recordings of piano and sustained voices placed on long tape loops of unequal lengths. Because the loops rarely realign, their simple phrases continually form new combinations: composition becomes designing a generative system. The article connects this method to Eno’s earlier two-machine experiments, decodes his graphic score, and recreates tracks “2/1” and “1/2.” Commenters shared implementations in hardware, JavaScript, Rust, WASM, and WebAudio.
 
 ### Comment pulse
 
-- Asynchronous looping works as an introductory exercise → musicians get rich results from few ingredients.
-- Cross-platform recreations proliferated → readers shared JavaScript, Rust, WebAudio, Sonic Pi, hardware sampler, and modular implementations.
-- Ambient origin stories divided readers → context can deepen the work — counterpoint: narrative may overshadow the music itself.
+- Reproducibility inspired readers → a few asynchronous loops yield rich variation without complicated machinery.
+- Systems-music practitioners → the “2/1” pattern works as a compact test for new generative audio environments.
+- Creative-tool debate → powerful open-source software can still obstruct play when interfaces demand programming and setup.
 
 ### LLM perspective
 
-- View: The deconstruction makes systems composition concrete without pretending the simple mechanism guarantees compelling art.
-- Impact: Producers can recreate the approach using unquantized loops in tape, software, or hardware setups.
-- Watch next: How timbre, loop duration, degradation, and performer intervention change the same underlying system.
+- View: Eno’s technique separates composition from sequencing by making timing relationships generate the form.
+- Impact: Musicians and programmers can create evolving pieces from minimal material and modest tools.
+- Watch next: Compare tape drift, digital precision, loop lengths, and live intervention in modern recreations.

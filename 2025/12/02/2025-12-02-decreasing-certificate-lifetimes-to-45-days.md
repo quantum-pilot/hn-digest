@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Let’s Encrypt will shorten certificates from 90 days to 64 in February 2027 and 45 in February 2028, following industry requirements. Domain-control authorization reuse will fall from 30 days to ten days, then seven hours. Most automated users should be unaffected, but fixed 60-day schedules will fail; the issuer recommends ARI-aware clients, roughly two-thirds-lifetime renewal, and monitoring. An opt-in profile issues 45-day certificates in May 2026, while proposed DNS-PERSIST-01 validation could make automation possible with a stable DNS record.
+Let’s Encrypt will reduce certificate validity from 90 to 45 days by 2028 under industry requirements, while shrinking domain-authorization reuse from 30 days to seven hours. An opt-in 45-day profile arrives May 2026; the default moves to 64 days in February 2027 and 45 days in February 2028. Automated users should verify renewal schedules, adopt ACME Renewal Information, and monitor failures. Commenters largely favored automation, while highlighting legacy systems, certificate pinning, and operational fragility; DNS-PERSIST-01 drew particular interest.
 
 ### Comment pulse
 
-- Shorter exposure windows pleased automation advocates → compromise duration falls — counterpoint: legacy-system operators expect brittle maintenance and little practical gain.
-- Persistent DNS validation excited operators → one record could eliminate recurring edits and broadly scoped credentials.
-- Public-certificate pinning drew warnings → applications would bind themselves to third-party infrastructure they do not control.
+- Automation supporters → shorter lifetimes limit compromise and make manual certificate handling untenable.
+- Operations skeptics → brittle enterprise integrations can renew incorrectly or require restarts, turning frequency into outage risk.
+- DNS-PERSIST-01 enthusiasm → one persistent DNS record could automate validation without distributing zone-edit credentials.
 
 ### LLM perspective
 
-- View: Short lifetimes improve ecosystem hygiene only when renewal and failure detection are genuinely automatic.
-- Impact: Hardcoded schedules, manual workflows, and fragile pinning will become operational liabilities before 2028.
-- Watch next: ACME client ARI support, DNS-PERSIST-01 standardization, monitoring coverage, and staged-profile adoption.
+- View: Short lifetimes convert certificate renewal from maintenance practice into required infrastructure.
+- Impact: Reliable ACME clients and monitoring become mandatory, especially for legacy fleets and pinned applications.
+- Watch next: Test ARI support, renewal alarms, DNS-PERSIST-01 standardization, and behavior before each staged cutoff.

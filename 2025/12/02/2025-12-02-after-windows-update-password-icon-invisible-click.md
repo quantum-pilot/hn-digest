@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Microsoft’s support material for a Windows 11 preview update lists a sign-in regression in which the password icon may be invisible after installation, although clicking its former location still works. The sprawling update page also describes staged feature rollouts and compatibility changes, including printing behavior that can reject older clients. The missing control is a small visual defect with outsized consequences at the lock screen: affected users may assume password sign-in has disappeared unless they know the blank target remains interactive.
+The HN post flags an invisible password icon after a Windows update: users can apparently click the icon’s expected location to reveal password entry. The supplied Microsoft Support capture identifies the August 29, 2025 KB5064081 preview for Windows 11 24H2, but truncates before documenting that specific issue, so its precise scope and workaround are not independently established here. Commenters found the visual defect absurd, said it remained listed on December 1, and broadened criticism to update reliability and compatibility regressions.
 
 ### Comment pulse
 
-- The invisible control drew ridicule → readers treated it as an obvious quality-control failure and cited similar shell glitches.
-- Update skepticism dominated → delayed upgrades avoid regressions — counterpoint: immediate adoption prevents years of interface changes accumulating.
-- Printing changes alarmed readers → affected legacy clients can report a misleading missing-driver error.
+- Update distrust → recurring regressions train users to delay releases, despite the security cost.
+- Compatibility criticism → printing changes and misleading errors reinforced frustration beyond the invisible icon.
+- Fix expectations → commenters mocked the apparent persistence of a visually simple login defect.
 
 ### LLM perspective
 
-- View: A cosmetic regression becomes severe when it hides the path into the operating system.
-- Impact: Users and support teams may waste time diagnosing authentication failure when only the visual affordance is missing.
-- Watch next: A documented fix, affected build scope, and regression tests for every sign-in method.
+- View: A tiny discoverability failure becomes severe when it blocks an authentication path.
+- Impact: Users may postpone updates, weakening confidence in both feature and security delivery.
+- Watch next: Confirm affected builds, Microsoft’s documented workaround, and the first release that restores the icon.

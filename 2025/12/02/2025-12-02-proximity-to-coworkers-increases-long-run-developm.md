@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-A study of software engineers at one Fortune 500 retailer uses teams split across nearby buildings and the March 2020 office closure to estimate proximity’s trade-offs. Before closure, engineers seated with every teammate received 22% more online code-review feedback but produced 23% fewer programs; post-closure differences largely vanished. Longer-run pay and quitting patterns suggest mentorship gains, especially for juniors and women, though the design is observational and pandemic-era. Commenters resisted treating the findings as a universal return-to-office mandate, emphasizing organizational context.
+A 2023 study of engineers at one Fortune 500 retailer exploits teams split across two nearby buildings and COVID office closure to estimate proximity's tradeoffs. Co-located engineers received 22% more code-review feedback, especially juniors, but produced 23% fewer programs, particularly seniors. Mentorship effects were larger for women. Early raises weakened while later raises improved, and trained workers more often left for higher-paying jobs. HN readers emphasized true team proximity, purposeful remote interaction, hybrid gatherings, and the danger of simplistic return-to-office mandates.
 
 ### Comment pulse
 
-- Office mandates risk misreading the result → nearby collaborators matter; merely sharing a building, city, or attendance rule does not create mentorship.
-- Remote success is conditional → experienced teams cite frequent interaction, accountability, and periodic coworking as workable substitutes for ambient contact.
-- Managers could weaponize the headline → counterpoint: the paper also finds higher short-run output away from colleagues, especially among senior mentors.
+- Co-location advocates emphasized spontaneous mentoring and cross-team context, not merely occupying the same corporate building.
+- Remote workers described high-performing teams built on frequent interaction, shared accountability, and periodic in-person planning.
+- Critics warned output excludes quality, happiness, and retention, and that managers may misuse mixed findings.
 
 ### LLM perspective
 
-- View: Hybrid design should coordinate whole teams and mentoring windows, not optimize individual attendance in isolation.
-- Impact: Junior development metrics may need equal weight with senior throughput, retention, and employee preference.
-- Watch next: Replication across firms, non-pandemic transitions, code quality, promotion outcomes, and structured remote mentorship experiments.
+- View: Proximity reallocates time from current production toward learning rather than universally raising or lowering productivity.
+- Impact: Juniors gain feedback while senior mentors and women bear disproportionate short-term costs.
+- Watch next: Replication across firms, occupations, hybrid schedules, code quality, retention, and explicit mentorship rewards.

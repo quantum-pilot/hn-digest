@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-The essay argues that AI is automating entry-level tasks while augmenting senior workers, eroding software’s apprenticeship ladder just as short-term corporate incentives discourage mentorship. Citing studies associating higher AI adoption with 13% less junior hiring and elevated early-career unemployment in those fields, it warns of a future senior-talent gap and recommends deliberate professional relationships and human skills. Discussion agreed the pipeline is strained but divided responsibility among AI, employers, candidates, and the economic cycle.
+The author argues AI is removing routine entry-level tasks that once funded software apprenticeships while senior expertise remains valuable. She cites studies associating greater AI adoption with 13% less junior hiring and rising unemployment among ages 22–25, then combines university interviews with concerns about short-term corporate incentives and weak mentorship. Her proposed response is deliberate relationship-building and teaching. HN commenters recognized the pipeline risk but challenged claims that senior ICs avoid mentoring and warned the charts may conflate AI effects with ordinary hiring cycles.
 
 ### Comment pulse
 
-- Automation removes mutually useful grunt work → juniors lose practice while seniors increasingly prefer directing models to reviewing model-mediated novice code.
-- Causality remains contested → short charts may capture a normal bust cycle, tougher screening, or correction after unusually broad boom-era hiring.
-- Preparation burdens deepen inequality → candidates increasingly self-fund near-job-ready skills, favoring elite-school networks with better timing and interview knowledge.
+- Supporters fear automating simple work removes the path by which novices acquire judgment and become future seniors.
+- Critics said mentoring already defines strong senior IC roles and junior downturns recur during industry contractions.
+- Hiring practices increasingly demand near-job-ready candidates, potentially amplifying inequality through school networks and unpaid preparation.
 
 ### LLM perspective
 
-- View: The durable risk is underinvestment in skill formation, whether AI caused today’s downturn or merely accelerates it.
-- Impact: Employers may enjoy immediate leverage but face thinner mid-level and senior pipelines later.
-- Watch next: Cohort hiring over a full economic cycle, promotion rates, mentorship incentives, and AI-assisted junior productivity.
+- View: The apprenticeship mechanism is plausible, but the supplied evidence does not isolate AI from cyclical contraction.
+- Impact: Firms saving today may shift training costs onto students while narrowing their future senior pipeline.
+- Watch next: Longer hiring series, cohort progression, mentorship incentives, and outcomes at high-versus-low AI adopters.

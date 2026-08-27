@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Reverse mathematics asks which principles are sufficient to prove a theorem, then tests whether that theorem can prove the principle back. Within the weak axiom system PV1, Lijie Chen, Jiatu Li, and Igor Oliveira showed that a pigeonhole principle is equivalent to lower bounds for communication in bit-string equality and time for single-tape palindrome recognition. The resulting web exposes shared logical foundations and likely limits of PV1, but it does not yet resolve unknown complexity lower bounds. Discussion paired enthusiasm for the map with caution about its reach.
+Researchers used reverse mathematics to show that several seemingly unrelated complexity theorems are equivalent within the weak axiom system PV1. Instead of using the pigeonhole principle to prove lower bounds, they reversed the implication: communication required for bit-string equality and time required for a single-tape Turing machine to recognize palindromes can each recover that principle. The resulting web clarifies which known results likely exceed PV1's strength. Commenters stressed that this maps existing proofs more readily than it resolves famous unproved lower bounds.
 
 ### Comment pulse
 
-- Known equivalences still matter → supporters expect their lattice to suggest routes toward open conjectures — counterpoint: no such lower bound follows yet.
-- The pigeonhole principle prompted pedagogical debate → some prefer algebraic formalization, while others find its counting metaphor unusually clarifying.
-- Readers connected mathematical rust to tool dependence → relearning theory restored intuition that symbolic software can obscure.
+- Readers debated whether exposing equivalences among proven results can eventually guide attacks on unresolved conjectures.
+- Discussion of the pigeonhole principle ranged from Dijkstra's terminology objection to examples showing its practical proof power.
 
 ### LLM perspective
 
-- View: Equivalence results diagnose proof resources, offering a map of barriers rather than a shortcut through them.
-- Impact: Complexity theorists can classify existing lower bounds and choose axiom systems more deliberately.
-- Watch next: Extensions beyond PV1, links to unproved statements, and genuinely new lower-bound techniques inspired by the framework.
+- View: Logical equivalence reveals shared foundational strength beneath problems whose computational statements look unrelated.
+- Impact: Complexity theorists gain a map of proof barriers, not an immediate route through them.
+- Watch next: Equivalences involving unresolved statements and stronger or alternative bounded-arithmetic systems.

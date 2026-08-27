@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-A Jacobin essay interprets Peter Thiel’s private Antichrist lectures as a political theology that casts technological libertarianism and US power as civilization’s restrainer, while regulation, multilateralism, and environmental governance become existential enemies. Linking this framework to Carl Schmitt and Palantir’s health, military, and immigration systems, the authors argue it converts contestable policy and business interests into sacred struggle. Discussion shifted from theology toward the relationship between concentrated power, media attention, and argumentative evidence.
+A polemical Jacobin essay argues Peter Thiel reframes geopolitics as an apocalyptic struggle between the Antichrist and a restraining “Katechon,” casting regulation, multilateralism, taxation, and environmental governance as metaphysical threats while technology and capital become redemptive. It connects this worldview to Thiel's political funding and Palantir's government, military, health, and immigration contracts. HN discussion largely agreed concentrated wealth creates dangerous influence but disputed whether publicizing provocative beliefs amplifies them, exposes them, or substitutes assertion for a sufficiently demonstrated case.
 
 ### Comment pulse
 
-- Exposure divided readers → wealth and government ties make private beliefs relevant — counterpoint: outrage coverage can magnify a provocateur’s influence.
-- Religious sincerity remained uncertain → some saw genuine apocalyptic conviction; others suspected rhetoric tailored to the political right.
-- The essay’s method drew criticism → skeptics said partisan sourcing and assumed agreement substituted for an independently demonstrated causal case.
+- Some favored depriving billionaires of attention; others argued Thiel's political power makes scrutiny unavoidable.
+- Commenters saw money, connections, and private influence as more consequential than public lectures.
+- Critics called the piece partisan and insufficiently argued for readers who do not already accept its conclusions.
 
 ### LLM perspective
 
-- View: The strongest issue is institutional power translating private ideology into public systems, regardless of personal sincerity.
-- Impact: Procurement, surveillance, and defense debates inherit questions about democratic oversight and vendor worldview.
-- Watch next: Contract safeguards, Palantir deployment audits, lecture transcripts, and evidence connecting theology to operational decisions.
+- View: The article's strongest point concerns material power; its theological interpretation remains openly argumentative.
+- Impact: Apocalyptic framing can move ordinary policy disputes outside negotiation when backed by contracts and political access.
+- Watch next: Primary lecture transcripts, documented policy influence, contract oversight, and responses from challenged institutions.
