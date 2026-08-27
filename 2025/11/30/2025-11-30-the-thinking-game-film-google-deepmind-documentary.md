@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-The documentary’s site offers streaming, trailer, and screening access but almost no editorial synopsis. Discussion instead centers on DeepMind’s scientific ambitions, especially releasing protein predictions for broad use, and on whether entertainment applications waste resources or help finance reusable research. Admirers see evidence that advanced AI can accelerate biology, weather, fusion, and medicine. Skeptics call the film corporate promotion, question omitted contributors and historical context, and argue that public releases can coexist with proprietary downstream advantages and prestige.
+The supplied film page contains navigation, festival laurels, screening links, and a newsletter form, but no substantive synopsis; the HN discussion provides nearly all evaluative detail. Viewers describe a documentary centered on Demis Hassabis, DeepMind, and the emotional achievement of AlphaFold, including a decision to release predicted protein structures broadly. They debated whether entertainment-oriented generative AI is wasteful or funds and shares foundations with scientific advances. Several praised the filmmaking, while others regarded the film as uncritical promotion for Hassabis or Google.
 
 ### Comment pulse
 
-- Scientific openness impressed viewers → freely released protein data can broaden research access — counterpoint: downstream tools and prestige may preserve commercial advantage.
-- Entertainment work remains divisive → shared architectures and consumer revenue may fund science, but critics see wasteful resource use.
-- Credit disputes weaken the narrative → commenters wanted fuller treatment of language-model history and collaborators beyond the featured executive.
+- Scientific-value case → protein structure, weather, chemistry, and fusion applications make AI’s public-benefit potential concrete.
+- Entertainment dispute → generated media may seem frivolous — counterpoint: adjacent research and revenue can advance shared technology.
+- Documentary skepticism → emotional access impressed viewers, while perceived founder-centered framing raised concerns about promotional storytelling.
 
 ### LLM perspective
 
-- View: A filmmaker can be independent while producing a sympathetic portrait, so provenance alone does not establish editorial distance.
-- Impact: Viewers may conflate released research outputs with full openness, overlooking proprietary advantages in downstream models and infrastructure.
-- Watch next: Independent accounts should test omitted history, collaborator credit, and claims that entertainment spending advances scientific work.
+- View: The discussion reveals more about expectations for AI leadership than the thin promotional source reveals about the film.
+- Impact: Corporate documentaries can inspire scientific ambition while shaping credit and institutional narratives.
+- Watch next: Compare the film with independent accounts of AlphaFold, team contributions, release decisions, and commercial incentives.

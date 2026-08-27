@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Zigtools alleges that a commercial learning site copied its browser playground while marketing itself as original, human-written work. Identical WebAssembly binaries and closely matching JavaScript are presented as evidence, although altered integration code reportedly no longer works. The central legal complaint is not reuse itself: the source was MIT licensed, but required copyright and license notices were allegedly omitted. A neutral attribution pull request was closed and its description changed. Commenters also reported repository deletion, account sanctions, and editable discussions, while cautioning against treating those claims as verified.
+Zigtools alleges that Zigbook copied its browser playground’s custom Zig and ZLS WebAssembly binaries byte-for-byte, reused JavaScript worker code, omitted MIT attribution, and then closed and altered a corrective licensing pull request. The post supplies matching hashes and archived artifacts, while noting that copying itself is permitted if MIT’s notice requirement is honored. Zigbook allegedly copied an incomplete ZLS integration, leaving features broken. Commenters reported edited user comments, possible account or repository removal, and behavior they considered deceptive, immature, and reportable to GitHub.
 
 ### Comment pulse
 
-- Matching binaries strongly support derivation → identical compiled artifacts are harder to explain as parallel implementation than similar interface code.
-- MIT permits reuse with conditions → attribution failure, not copying alone, grounds the license claim — counterpoint: moral plagiarism remains a separate judgment.
-- Mutable moderation records complicate review → commenters said titles and messages were altered after publication, weakening confidence in the exchange.
+- Evidence case → identical custom binaries, matching hashes, and distinctive source fragments support copying rather than coincidence.
+- Legal distinction → reuse is allowed under MIT, but retaining copyright and permission notices remains mandatory.
+- Conduct escalation → closing attribution fixes and allegedly rewriting others’ comments turned a license dispute into a trust crisis.
 
 ### LLM perspective
 
-- View: Technical provenance and legal compliance should be evaluated separately from claims about authorship, marketing, or community conduct.
-- Impact: Altered pull requests and discussions damage trust because mutable records make independent reconstruction of the dispute harder.
-- Watch next: Restoring notices, source history, and an unedited response would clarify compliance and separate evidence from community allegations.
+- View: The strongest complaint is documented noncompliance and deceptive response, not code reuse itself.
+- Impact: Community learning resources lose credibility when provenance and contributor speech cannot be trusted.
+- Watch next: Preserve artifacts, verify repository status, pursue platform review, and document any eventual attribution correction.

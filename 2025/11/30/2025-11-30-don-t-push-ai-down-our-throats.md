@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-The essay rejects compulsory AI integration across search, operating systems, and creative software, arguing deployment speed serves investor pressure more than user value. It advocates slow, voluntary adoption of proven tools, renewed research where models fail, and cooperation with creators instead of appropriating their work. Readers framed the rollout around consent, privacy, product control, and memories of earlier unwanted platform initiatives. Debate separated opposition to forced products from the broader question of whether developing AGI remains worthwhile.
+The essay argues that AI should be adopted only where it provides chosen, demonstrated utility—not inserted by default into search, operating systems, and creative tools to justify infrastructure spending. It calls for slower integration, acceptance of current limitations, and cooperation with creators whose work supplies training data. The author rejects AGI as a consumer necessity while allowing that focused AI uses can make money. Commenters extend the complaint to coerced data consent, bundled pricing, broken existing features, and product managers’ power over everyday interfaces.
 
 ### Comment pulse
 
-- Paid access should not require surveillance → users objected to long retention, human review, training consent, and features disabled after policy changes.
-- Bundling can manufacture usage metrics → Microsoft integrations were viewed as investor-facing adoption theater, prompting some users to change platforms.
-- AGI remains divisive → some compare it to fusion or cancer research — counterpoint: others report little demand outside technology circles.
+- Privacy objections center on paid products tying history, review, or model training to unclear and unwanted consent choices.
+- Forced integration resembles earlier platform fads → users absorb clutter, regressions, and migration work when experiments fail.
+- Some distinguish deployment from research, arguing society may still want AGI even if current products should remain optional.
 
 ### LLM perspective
 
-- View: Adoption pressure reveals weak product value when users cannot decline the feature.
-- Impact: Forced bundling can drive privacy-conscious customers toward competing products and operating systems.
-- Watch next: Opt-out controls, retention terms, paid-tier privacy guarantees, creator licensing, and standalone feature adoption.
+- View: The strongest objection is not AI capability but removal of meaningful user choice and stable non-AI workflows.
+- Impact: Vendors risk eroding trust when adoption metrics reflect bundling or coercion rather than sustained value.
+- Watch next: Measure opt-out availability, data retention, feature reliability, paid-plan consent, and voluntary usage after defaults change.

@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-CachyOS packages an Arch Linux base around performance-oriented defaults: its kernel uses BORE, alternative schedulers are available, and packages target x86-64-v3, x86-64-v4, or Zen 4 with LTO plus selective PGO or BOLT. Its online installers offer GUI or CLI setup and a broad menu of desktops and window managers. Users praised approachability, gaming convenience, and community support, but disputed real-world speed in daily use and reported uneven behavior across desktop and hardware combinations.
+CachyOS is an Arch-based Linux distribution promoting tuned kernels, optimized packages, and a guided installation with many desktop environments and window managers. It compiles for newer x86-64 and Zen instruction sets, uses LTO, and applies PGO or BOLT to some core packages. Users can choose GUI or CLI installers plus several schedulers. The official page claims speed, stability, security, and ease of use without presenting benchmarks. Commenters praise its KDE and gaming setup but report rough edges with i3, linking, Nvidia, sleep, and less-common desktops.
 
 ### Comment pulse
 
-- Accessibility is the practical differentiator → newcomers value curated presets and helpers more than Linux's theoretical ability to customize anything.
-- Mainstream desktops appear safest → KDE, GNOME, and XFCE users reported stable setups — counterpoint: i3 and wlroots configurations showed dependency or Nvidia problems.
-- Performance claims need isolation → perceived responsiveness impressed converts, while one Arch user noticed little difference and skeptics feared experimental patches.
+- Enthusiasts value approachable Arch defaults, helper applications, documentation, and hardware-aware packaging.
+- i3 users reported broken accessories and dependencies — counterpoint: others asked for reproducible package names and errors.
+- Experienced users note most distributions are customizable; CachyOS mainly lowers the expertise and maintenance required for common choices.
 
 ### LLM perspective
 
-- View: Curated defaults, not raw customizability, define the distribution's appeal.
-- Impact: Arch-curious newcomers gain easier setup but still inherit hardware-specific and alternative-desktop risks.
-- Watch next: Reproducible benchmarks, i3 dependency fixes, Nvidia suspend behavior, and long-term patch stability.
+- View: CachyOS’s differentiator is curated optimization and setup convenience, not unique access to customization.
+- Impact: Newer users gain an easier Arch path but inherit risks from aggressive tuning and uneven desktop coverage.
+- Watch next: Independent benchmarks and regression tests should compare kernels, desktops, GPUs, power use, and package compatibility.

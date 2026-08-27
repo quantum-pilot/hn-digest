@@ -4,15 +4,16 @@
 
 ### TL;DR
 
-Connected cars can log location, speed, unlocks, device connections, and camera or sensor data, then share some information with insurers, marketers, or brokers. The article recommends checking manuals, dashboards, companion apps, and VIN privacy labels; withdrawing optional consent; submitting deletion or restriction requests; and factory resetting before sale. Those choices can disable roadside, navigation, or remote control features. The FTC’s action against General Motors illustrates the stakes: driving behavior allegedly reached consumer reporting agencies and affected insurance pricing without informed consent.
+Modern cars collect location, driving, camera, sensor, device, and telematics data that can reach insurers, marketers, brokers, or law enforcement. Drivers can inspect manufacturer practices, revise dashboard or app permissions, submit privacy requests, and factory-reset vehicles before sale, but disabling collection may remove navigation, roadside assistance, or remote controls. Commenters described difficult opt-outs and hardware workarounds such as filtering CAN traffic or disconnecting cellular modules, while warning that indiscriminately unplugging systems or ignoring dashboard alerts can create safety and legal problems.
 
 ### Comment pulse
 
-- Owners can audit settings before touching hardware → app permissions and manufacturer portals expose opt-outs without risking integrated safety systems.
-- Cellular-module removal offers stronger blocking → modern telematics integration can trigger warnings or break convenience features — counterpoint: persistent tracking may justify tradeoffs.
+- Technical resistance → owners filtered CAN traffic or disabled telematics hardware when manufacturer opt-outs proved opaque.
+- Convenience trade-off → privacy-preserving disconnection can remove remote features and trigger faults.
+- Regulation anger → commenters viewed consent menus and insurer access as inadequate protection against consequential surveillance.
 
 ### LLM perspective
 
-- View: Privacy controls help only when consent is understandable and refusing collection does not disable essential vehicle functions.
-- Impact: Drivers bear the cost of auditing settings, while manufacturers retain power over how much functionality opt-outs remove.
-- Watch next: Regulators should test whether deletion requests actually stop data transfers to insurers and brokers.
+- View: Vehicle privacy is becoming an engineering and governance problem, not merely a settings choice.
+- Impact: Owners bear the burden of auditing data flows they cannot readily observe.
+- Watch next: Demand verifiable opt-outs, data-recipient disclosure, repair-safe modem controls, and enforcement against nonconsensual sharing.

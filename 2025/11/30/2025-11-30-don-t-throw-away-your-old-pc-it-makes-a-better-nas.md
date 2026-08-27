@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Repurposing a decade-old computer can produce an inexpensive, flexible NAS: add a boot SSD, at least 8GB of RAM, storage drives, and TrueNAS or paid Unraid; 16GB suits containers or virtual machines. Intel QuickSync or a spare GPU helps media transcoding, while refurbished drives may halve storage costs. The guide recommends SMB sharing and a separate backup plan. Readers agreed reuse saves hardware expense but rejected universal superiority, emphasizing different operating constraints; several advised reserving NVMe for cache or data rather than boot.
+An old PC can become a capable home NAS by adding an SSD boot drive, at least 8GB of RAM, storage disks, and software such as TrueNAS or Unraid. The author used existing gaming hardware and recertified drives, recommends Intel QuickSync for video transcoding, and emphasizes configuring separate backups before trusting the system. Commenters reject the claim that reuse is universally “better”: desktop hardware may consume more power, space, time, and maintenance than a dedicated appliance, while offering flexibility, upgradeability, learning, and lower upfront cost.
 
 ### Comment pulse
 
-- Mission determines the right system → tinkerers value learning and control, while families may price uptime and maintenance above component savings.
-- Energy economics are disputed → old towers draw more continuously — counterpoint: avoided purchases, tuning, solar power, or cheap electricity change payback.
-- Redundancy choices remain contentious → one veteran favored Btrfs or mdraid copies over parity — counterpoint: others defended ZFS and recalled prior Btrfs failures.
+- DIY suits people who value control and experimentation → turnkey appliances better serve households needing quiet, predictable storage.
+- Energy economics depend on idle draw, local prices, tuning, and reuse value rather than purchase cost alone.
+- Storage details matter: boot speed is often secondary, refurbished disks require risk planning, and a NAS is not itself a backup.
 
 ### LLM perspective
 
-- View: The best NAS is workload-specific, not defined by whether its chassis is old or commercial.
-- Impact: Hobbyists gain capacity and flexibility; households needing quiet reliability may prefer appliances.
-- Watch next: Measured idle draw, drive health, restore tests, noise, and total three-year ownership cost.
+- View: Repurposing wins when existing hardware, learning value, and flexibility outweigh ongoing electricity and operator time.
+- Impact: Families inherit the builder as an unpaid administrator unless recovery and maintenance are deliberately simplified.
+- Watch next: Measure wall-power idle draw, drive health, restore procedures, noise, and five-year total cost before choosing.

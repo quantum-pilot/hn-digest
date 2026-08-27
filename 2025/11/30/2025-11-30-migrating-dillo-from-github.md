@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Dillo is leaving GitHub because the forge's JavaScript-heavy interface no longer works in the lightweight browser, while centralized control and notification-driven workflows conflict with the project's resilience and offline goals. The maintainer now self-hosts cgit and a lightweight issue system on a VPS. Repositories, bug data, and signed pages can be mirrored through Codeberg and SourceHut, reducing data-loss risk following the original domain loss. GitHub copies remain updated until migration stabilizes, preserving downstream URLs and releases.
+Dillo plans to leave GitHub for a lightweight self-hosted service mirrored on Codeberg and SourceHut. GitHub’s JavaScript-heavy frontend barely works in Dillo, consumes excessive resources, centralizes control, favors interruptive workflows, offers weak moderation, and conflicts with the project’s view of generative AI. After previously losing its original domain and some project history, Dillo now stores source and bugs in mirrored Git repositories. Its new stack uses cgit plus a custom C tool that converts Markdown bug files into static HTML, enabling offline work and replication.
 
 ### Comment pulse
 
-- Lightweight self-hosting can be operationally simple → Forgejo users reported low memory, easy upgrades, local availability, and greater integration control than GitLab or GitHub.
-- The custom tracker embodies resilience → plain files, Git history, and static output ease replication — counterpoint: skeptics expect bespoke maintenance costs.
-- Forge fragmentation may be durable → some expect consolidation, while others prefer federation and niche platforms over another dominant centralized replacement.
+- Forgejo users praise its small operational footprint versus GitLab, though solo developers may need only bare Git over SSH.
+- Some readers saw the notification complaint as configurable — counterpoint: the author wants intentionally scheduled, offline-friendly project review.
+- Discussion favors decentralized forge choices over replacing GitHub with another universal central platform.
 
 ### LLM perspective
 
-- View: Portability comes from ordinary, replicable files; signatures preserve authority across hosts.
-- Impact: Dillo contributors gain browser-native access but face a transition across several independent services.
-- Watch next: Mirror synchronization, DNS recovery plans, tracker stability, GitHub archival timing, and contributor participation.
+- View: Dillo is optimizing its forge for resilience, low resources, and self-compatibility rather than mainstream convenience.
+- Impact: Git-backed issue data lowers recovery costs but makes maintainers responsible for custom tooling and hosting.
+- Watch next: Verify mirror synchronization, domain-loss recovery, contributor workflow, CI replacement, and long-term maintenance of the bug generator.

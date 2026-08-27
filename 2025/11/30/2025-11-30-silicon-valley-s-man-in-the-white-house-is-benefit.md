@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-A New York Times investigation argues that White House technology adviser David Sacks retained extensive financial and media interests while shaping artificial intelligence and cryptocurrency policy. Its analysis found 708 technology investments, including hundreds connected to AI, alongside holdings potentially helped by chip exports, defense procurement, and stablecoin legislation. Ethics waivers permit some retained assets while requiring recusals. Sacks’s representatives and the White House reject the conflict narrative, citing major divestments, compliance reviews, no specific portfolio benefits, and substantial personal cost.
+The article alleges that White House AI and crypto adviser David Sacks influences policies benefiting his industry network while retaining hundreds of technology investments and expanding the profile of his All-In podcast. It cites 449 AI-related stakes, chip-export changes favoring Nvidia, and a proposed $1 million summit sponsorship package. Sacks’s spokeswoman rejects the conflict narrative, saying ethics officials required relevant divestments and his role cost him financially; White House waivers say remaining interests were insufficient to influence his service. Commenters largely condemned the arrangement.
 
 ### Comment pulse
 
-- Overlapping portfolios amplify conflict concerns → policy shifts can lift broad sectors even when no company receives an explicit favor.
-- Official access may strengthen a commercial media brand → the podcast and conference gained reach — counterpoint: representatives say public service cost him.
-- Ethics waivers narrow formal exposure → retained interests and incomplete valuations leave outsiders unable to independently test every recusal.
+- Conflict concern → overlapping investments, policy access, and media ventures make public and private incentives difficult to separate.
+- Official defense → waivers, divestments, recusals, and unpaid service supposedly address conflicts — counterpoint: disclosures omit values and sale timing.
+- Institutional distrust → commenters saw the case as evidence that formal safeguards cannot restore confidence in visibly intertwined roles.
 
 ### LLM perspective
 
-- View: Broad holdings can create credible conflicts even without proof that one policy targeted one portfolio company.
-- Impact: Even compliant waivers may fail reputationally when public records cannot connect each policy decision to a specific recusal.
-- Watch next: Disclosures should identify retained interests, recusal decisions, and who shaped chip, defense, and stablecoin policies.
+- View: Compliance paperwork cannot alone resolve perceived conflicts when holdings and policy domains overlap broadly.
+- Impact: Weak disclosure undermines confidence in technology policy even without proven self-dealing.
+- Watch next: Seek transaction dates, retained-stake values, recusal records, sponsorship accounting, and independent ethics review.

@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-A project instruction file should briefly orient a coding agent to what the repository contains, why it exists, and how work is verified. Because that file enters every session, broadly applicable guidance deserves priority; extra instructions dilute attention and may be dismissed as irrelevant. The article recommends progressive disclosure through clearly named supporting documents and pointers to authoritative code, deterministic linters instead of prose style rules, and careful manual curation instead of automatic initialization. Commenters debate whether this setup beats ordinary documentation and task-specific context.
+A useful `CLAUDE.md` or `AGENTS.md` should briefly onboard a stateless coding agent to a project’s what, why, and how: architecture, purpose, workflows, and verification. Because the file enters every session, the author recommends universally applicable instructions, progressive disclosure through pointers to task-specific documents, and deterministic linters rather than prose style rules. Auto-generated files risk persistent mistakes. Commenters agreed that excess context dilutes attention, but disputed how much special agent documentation is needed versus focused prompts, ordinary READMEs, code comments, or direct file selection.
 
 ### Comment pulse
 
-- Table-of-contents guidance preserves attention → agents load specialized build, storage, or style notes only when a task requires them.
-- Deterministic tools should enforce formatting → hooks and autofixers are faster and more reliable than persistent prose instructions.
-- Setup value depends on workflow → autonomous feature work benefits from durable context — counterpoint: surgical edits may need only selected code and conversation.
+- Context-minimalists → hard tasks benefit from high information density and little irrelevant commentary.
+- Table-of-contents approach → a short root file can route agents to specialized documentation only when relevant.
+- Setup skepticism → some prefer conversational file selection — counterpoint: recurring constraints otherwise require repeated onboarding.
 
 ### LLM perspective
 
-- View: Instruction files are routing layers, not encyclopedias; value comes from steering attention toward authoritative evidence when needed.
-- Impact: Smaller defaults leave more context for task evidence and reduce the chance that unrelated rules dilute critical instructions.
-- Watch next: Teams should measure instruction adherence and task quality before expanding files or trusting automatic initialization.
+- View: The best agent file is an index of durable constraints, not an encyclopedia or behavior patch log.
+- Impact: Teams can reduce repeated guidance without consuming every session’s attention budget.
+- Watch next: Evaluate task success, ignored instructions, token use, and stale pointers across different models and repositories.

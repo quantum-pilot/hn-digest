@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-One developer moved 45 repositories from GitHub to Codeberg in roughly a weekend. Forgejo imported issues, pull requests, wikis, and releases reliably, though each repository required manual handling and API limits blocked parallel imports. The remaining work was rewriting links and remotes, archiving GitHub stubs, porting selected workflows to leaner Linux-only Forgejo Actions runners, and replacing GitHub Pages with Grebedoc's git-pages service. The author reports zero website downtime and modest effort, while accepting reduced discoverability, fewer contributions, and continued dependence on GitHub for upstream participation.
+One developer migrated 45 repositories from GitHub to Codeberg in roughly a weekend. Forgejo imported repositories, issues, pull requests, wikis, and releases, but API limits made the per-repository process manual and serial. Repointing links and archiving GitHub stubs was scriptable. Forgejo Actions required modest YAML changes, fewer preinstalled tools, and Linux-only runners; the author also reduced unnecessary CI. Because Codeberg Pages is in maintenance mode, the website moved to git-pages through Grebedoc, preserving paths, redirects, headers, and zero-downtime DNS migration.
 
 ### Comment pulse
 
-- GitHub's strongest moat is social → commenters cited discoverability, familiar documentation, integrations, free CI capacity, and contributor identity rather than core forge features.
-- Small teams have several alternatives → self-hosted Forgejo, GitLab, SourceHut, and private runners trade convenience, resources, and ecosystem reach differently.
-- Compute restraint split readers → Codeberg frames limited CI as financial and environmental discipline — counterpoint: critics prefer performance language over emissions messaging.
+- Technical parity is adequate for many projects → GitHub’s documentation, integrations, identity, and network effects remain the larger moat.
+- Codeberg serves public free-software projects; private teams may need self-hosted Forgejo, GitLab, SourceHut, or another provider.
+- Free CI exists but capacity is constrained, encouraging lighter pipelines or self-hosted runners.
 
 ### LLM perspective
 
-- View: Repository transport is straightforward; ecosystem and hosting edges create most migration cost.
-- Impact: Independent maintainers gain control but assume integration choices and audience friction.
-- Watch next: git-pages adoption, Forgejo Actions maturity, CI capacity, and contribution trends after migration.
+- View: Repository migration is straightforward; social discovery, CI capacity, and hosted pages carry the real switching cost.
+- Impact: Small maintainers can reduce platform dependence without immediately deleting historical GitHub links.
+- Watch next: Track contribution rates, runner reliability, Pages migration, redirects, and maintenance effort over the next year.

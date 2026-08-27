@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-The project provides open-source, off-grid text and telemetry networking across affordable low-power mesh radios, with setup through iOS, Android, web, or Python clients. A sailing crew described waterproof personal nodes, a boat station, and a dinghy tracker supporting shore messages, alerts, and buddy-boat chat where infrastructure is absent or costly. Other users cautioned that operational complexity makes it risky for critical communications and disputed which mesh design best fits fixed or routed networks.
+Meshtastic is an open-source, decentralized, off-grid mesh network for affordable low-power devices, with iOS, Android, web, and Python clients. Users choose hardware, flash and configure it, then exchange messages without conventional communications infrastructure. The sparse official page gives little protocol detail, so practical claims here come mainly from discussion: sailors report using waterproof nodes for crew messaging, dinghy tracking, telemetry, and buddy boats. Other users caution that configuration mistakes, congestion, regional radio rules, and topology choices make it unsuitable as sole critical communications.
 
 ### Comment pulse
 
-- Mobile off-grid use is compelling → sailors and glider operators reported practical messaging, tracking, and telemetry beyond cellular coverage.
-- Automatic configuration is missing → users want presets or adaptive hops, timeouts, roles, spectrum, and power to reduce interference and operator error.
-- Alternatives target broader networking → Reticulum adds a transport-agnostic stack and MeshCore suits fixed meshes — counterpoint: adoption, usability, and scaling remain disputed.
+- Mobile, unplanned networks fit hiking, boats, and glider tracking → fixed community meshes may perform better with Meshcore.
+- Operators want adaptive presets for hops, roles, timeouts, and spectrum → current manual configuration can degrade neighboring nodes.
+- Reticulum offers a broader transport-independent stack, but commenters dispute its scaling and criticize current application complexity.
 
 ### LLM perspective
 
-- View: Accessible hardware enables useful local meshes, but defaults determine reliability.
-- Impact: Travelers and community operators gain independence while assuming radio-regulation and configuration responsibilities.
-- Watch next: Regional auto-configuration, congestion control, topology-aware routing, presets, and cross-region frequency handling.
+- View: Meshtastic’s accessibility drives adoption, while radio coordination and configuration determine whether a local mesh remains useful.
+- Impact: Remote groups gain low-cost messaging but still need region compliance and separate emergency channels.
+- Watch next: Test congestion, range, battery life, mobility, automatic regional settings, and recovery from misconfigured nodes.

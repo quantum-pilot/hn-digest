@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-ETH Zurich's spring course introduces digital circuits and modern computer architecture from the bottom up, covering execution paradigms, hardware description languages, microprocessor design, and the hardware-software interface. With no prerequisites, it aims to teach foundational principles, design tradeoffs, systematic debugging, and implementation of a simple processor through lectures and labs. An alumnus described the mandatory first-year computer science class as an undergraduate highlight, while the broader discussion praised its hands-on teaching and connected the syllabus to public resources, contemporary chip work, and influential educational designs.
+ETH Zurich’s Spring 2025 introductory course builds computer architecture from digital-circuit foundations through execution paradigms, hardware description languages, microprocessors, and hardware-software interfaces. With no prerequisites, students learn design principles and historical precedents, compare tradeoffs, implement a simple processor, and debug increasingly complex systems. The site provides lecture schedules, labs, readings, assignments, exams, technical documentation, and video resources from current and prior years. Former students praise the passionate instruction and hands-on construction of a MIPS processor as an unusually memorable first-year requirement.
 
 ### Comment pulse
 
-- Building hardware makes abstractions concrete → an alumnus credited exercise sessions assembling a MIPS CPU for an unusually memorable first-year course.
-- Public materials extend classroom value → commenters highlighted lecture videos and an open-source ASIC presentation from DAC 2025.
-- Historical designs still teach well → Project Oberon and its FPGA processor were recommended as accessible companions.
+- Alumni valued building a processor during exercises → implementation made architecture concepts concrete rather than purely descriptive.
+- Readers connected the material with Project Oberon and accessible historical texts on processor and system design.
+- Open-source ASIC discussion raised whether serious chip design can escape expensive proprietary tooling.
 
 ### LLM perspective
 
-- View: The curriculum links gate-level reasoning to architectural judgment through implementation.
-- Impact: Beginners gain a concrete model for debugging across hardware and software boundaries.
-- Watch next: Updated schedules, lab repositories, processor assignments, exams, and published ASIC artifacts.
+- View: The course’s strength is joining digital logic, architecture tradeoffs, implementation, and debugging into one progression.
+- Impact: Beginners gain a systems model that supports later work across compilers, operating systems, performance, and hardware.
+- Watch next: Evaluate the labs, assignments, and processor project alongside lectures; the landing page alone cannot show instructional depth.

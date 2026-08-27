@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Windows drive syntax is a convention layered over NT’s Object Manager, not a kernel rule reserving A through Z. The Win32 path converter accepts any single UTF-16 code unit before a colon, so Command Prompt and `subst` can use symbols or many non-ASCII characters. Explorer, PowerShell, and language libraries often impose narrower rules, creating compatibility mismatches. Characters outside the Basic Multilingual Plane need surrogate pairs and fail path classification. One volume API adds another quirk by apparently truncating a euro sign into ¬.
+Windows can treat symbols such as `+` and some non-ASCII characters as drive letters because Win32 drive paths are conventions mapped into NT Object Manager symbolic links, not an A–Z kernel limitation. `subst +: C:\foo` works in `cmd.exe`, though Explorer and PowerShell reject it. The exact behavior depends on path conversion, encoding, and a single UTF-16 code unit; one API even truncates `€` into `¬`. Commenters connected this hidden flexibility to registry, certificate, SharePoint, and directory-mounted drive namespaces.
 
 ### Comment pulse
 
-- Object Manager links explain the flexibility → familiar drive names are aliases into a broader namespace, not fundamental filesystem roots.
-- Library assumptions create edge cases → Rust accepts only alphabetic prefixes while Zig chose closer Windows compatibility for decoded BMP characters.
-- Directory mount points avoid letters entirely → useful for storage layouts, though installers may misread capacity or reject unusual targets.
+- NT namespace insight → familiar DOS paths are one façade over a broader object hierarchy and symbolic-link system.
+- Practical mounting → Windows can attach partitions beneath directories, though applications may miscalculate free space.
+- Compatibility hazard → libraries disagree about whether symbol or Unicode-prefixed paths are absolute, creating parsing mismatches.
 
 ### LLM perspective
 
-- View: Path parsers should treat platform APIs as behavioral specifications, because intuitive drive-letter rules are observably incomplete.
-- Impact: Cross-platform libraries can misclassify valid paths when byte-oriented parsing diverges from Windows’ UTF-16 semantics.
-- Watch next: Tests should compare shells, system APIs, and libraries across symbols, BMP characters, and surrogate pairs.
+- View: The curiosity exposes a dangerous boundary between permissive kernel semantics and stricter user-space assumptions.
+- Impact: Cross-language path code can misclassify valid Windows paths and mishandle security checks.
+- Watch next: Test normalization libraries, encodings, shells, Explorer, and API behavior with identical unconventional paths.

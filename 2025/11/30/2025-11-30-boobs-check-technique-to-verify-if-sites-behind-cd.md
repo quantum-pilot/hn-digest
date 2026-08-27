@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-An operator proposes requesting a deliberately censored image path through a site's CDN. A 403 response containing a 10.10.34.x address is presented as evidence that the origin sits inside Iran, where filtering intercepts the upstream request. The method cannot reveal a path through ordinary end-to-end TLS; commenters said its result depends on how the CDN reaches and trusts the origin. No test site appeared, so the technique remains a conditional heuristic rather than a hosting detector.
+A short self-post proposes requesting a blocked-looking image path through a site’s CDN; a 403 response containing a 10.10.34.x address allegedly indicates that the origin is inside Iran and subject to local censorship filtering. The source says it works “most of the time” but supplies no test set or confirmed examples. Discussion narrows the mechanism: it depends on the backend or upstream network seeing the URL path, such as plaintext CDN-to-origin HTTP or locally terminated TLS, so proper origin TLS can defeat it.
 
 ### Comment pulse
 
-- TLS termination is decisive → visitor-to-CDN encryption does not protect a plain-HTTP origin leg, while local trust infrastructure may enable interception.
-- The signal has compliance and provenance uses → readers cited sanctions screening and identifying Iranian-hosted sites, while admitting motives were uncertain.
-- Reproducibility remains weak → requests for a working sample received jokes rather than verified evidence.
+- TLS protects the client-to-CDN path, not necessarily the CDN-to-origin hop → flexible proxy configurations can expose requested paths upstream.
+- Commenters proposed compliance, propaganda screening, and avoiding business ties as motives, but the source states no intended use.
+- Requests for reproducible sample sites received no confirmed example in the supplied discussion.
 
 ### LLM perspective
 
-- View: The check detects censorship behavior, not geography directly.
-- Impact: CDN configurations can unintentionally expose an origin's regulatory environment.
-- Watch next: Controlled tests across Iranian origins, TLS modes, CDNs, and certificate chains.
+- View: This is a heuristic for one filtering artifact, not reliable proof of physical hosting location.
+- Impact: Investigators could misclassify sites when CDN routing, origin encryption, or error-page behavior differs.
+- Watch next: Validation needs controlled Iranian and non-Iranian origins, repeated routes, and documented false-positive rates.

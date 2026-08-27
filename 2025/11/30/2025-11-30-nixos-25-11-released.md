@@ -4,15 +4,16 @@
 
 ### TL;DR
 
-The latest stable NixOS release arrives with 59,430 commits from 2,742 contributors, adding 7,002 packages and updating 25,252 while removing 6,338. Its system modules gain 107 entries and 1,778 options. Major platform changes include GNOME 49 without X11 sessions, LLVM 21, GCC 14, and CMake 4. Support runs through June 30, 2026; the preceding release reaches end of life after December 31, 2025. Discussion emphasizes reproducibility, stable interfaces, and migration planning over novelty.
+NixOS 25.11 “Xantusia” ships with seven months of support, while 25.05 reaches end of life after December 31, 2025. Its 2,742 contributors produced 59,430 commits, adding 7,002 packages and 107 modules while updating 25,252 packages and removing thousands of obsolete items. Highlights include GNOME 49, LLVM 21, GCC 14, and CMake 4. Commenters praised stable branches for configuration API stability and easy rollbacks, but noted data migrations, steep onboarding, and uneven nix-darwin experiences.
 
 ### Comment pulse
 
-- Stable channels reduce surprise → predictable interfaces and updates matter when application data migrations cannot be rolled back with the operating system.
-- Nix lowers environment drift → reproducible development and CI win praise — counterpoint: terminology, flakes, and cross-platform pinning remain steep.
+- Stable-branch value → configuration compatibility matters even when unstable builds evaluate and rollback cleanly.
+- Operational caveat → application data migrations can defeat binary rollback or risk corruption.
+- Adoption friction → powerful reproducibility competes with confusing terminology, sparse beginner guidance, and macOS integration complexity.
 
 ### LLM perspective
 
-- View: Release stability matters when it covers interfaces and stateful migrations, not merely packages that can be rolled back.
-- Impact: Teams gain a larger supported package set, but GNOME’s X11 removal may force desktop workflow changes.
-- Watch next: Early upgrades should reveal whether documentation and flake terminology remain the larger barrier than technical regressions.
+- View: NixOS’s release discipline stabilizes configuration interfaces, not merely package versions.
+- Impact: Infrastructure teams gain reproducible fleets; newcomers still pay a substantial conceptual and documentation cost.
+- Watch next: Review incompatibilities, migration behavior, GNOME’s X11 removal, and 25.05 upgrades before December’s deadline.
