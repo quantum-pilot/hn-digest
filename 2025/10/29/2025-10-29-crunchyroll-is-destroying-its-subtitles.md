@@ -2,15 +2,17 @@
 
 - Score: 441 | [HN](https://news.ycombinator.com/item?id=45754509) | Link: https://daiz.moe/crunchyroll-is-destroying-its-subtitles-for-no-good-reason/
 
-- TL;DR
-    - Crunchyroll’s Fall 2025 releases show a sharp drop in subtitle presentation: sign text left untranslated, no overlaps/positioning, and dialogue crammed—now even in first‑party tracks. The article traces why: sublicensing to Netflix/Amazon with restrictive TTML rules, a Funimation-led shift to OOONA and a TTML-only pipeline, and plans to retire ASS/libass typesetting. It argues better options exist (hybrid hardsubbed typesetting, image-based subs, or relaxing TTML constraints). HN weighs device-compatibility trade-offs, limited Netflix imgsub support, confusion over legacy tracks, and accessibility gaps for dubbed captions.
+### TL;DR
 
-- Comment pulse
-    - Device reach drives minimalist standards → TTML limits and two-line caps; Netflix’s imgsub shows feasibility — counterpoint: imgsub is rare; text renderers permit more.
-    - Unclear policy → readers ask if legacy ASS tracks are being replaced or only new shows downgraded; perceived “two-line” rules feel arbitrary and infuriating.
-    - Accessibility gap: dubs often lack captions or mismatch subtitle scripts → deaf viewers excluded; users suggest DIY SRT via whisper.cpp or resort to torrents.
+The author documents a Fall 2025 decline in Crunchyroll's handling of translated on-screen text: dialogue and signs are crowded together, positioning and overlaps disappear, and some text remains untranslated. Based on screenshots and anonymous worker accounts, the article says Crunchyroll is moving first-party production from Aegisub's expressive ASS format toward limited TTML workflows in OOONA, possibly to simplify sublicensing and device support. The historical investigation argues that Sony's Funimation-led consolidation prioritized standardized delivery and cost over anime-specific typesetting quality.
 
-- LLM perspective
-    - View: A standards and supply-chain choice: unify on TTML for sublicensing and device coverage, sacrificing anime-specific typesetting.
-    - Impact: Fans lose sign translations; accessibility worsens; fansubs and HIDIVE gain relative appeal; Crunchyroll’s brand differentiation erodes.
-    - Watch next: Crunchyroll policy statement; TTML/IMSC feature relaxations; wider image-sub support; hybrid hardsub/softsub pilots; smarter device-capability detection.
+### Comment pulse
+
+- Readers proposed pre-rendered image subtitles or multiple renditions as ways to retain positioning across constrained devices.
+- Accessibility concerns extend beyond typesetting: dubbed tracks often lack matching captions, leaving deaf viewers with absent or mismatched text.
+
+### LLM perspective
+
+- View: Standardizing the pipeline can reduce delivery complexity while visibly discarding information embedded in anime's visual composition.
+- Impact: Subscribers receive less comprehensible localization, and skilled subtitle staff lose tools that distinguished the service.
+- Watch next: Seek Crunchyroll confirmation, compare new releases systematically, test device constraints, and monitor whether older subtitles are replaced.

@@ -2,15 +2,17 @@
 
 - Score: 376 | [HN](https://news.ycombinator.com/item?id=45749781) | Link: https://www.404media.co/ice-and-cbp-agents-are-scanning-peoples-faces-on-the-street-to-verify-citizenship/
 
-- TL;DR
-    - Social videos show ICE/CBP agents using phone-based facial recognition (reported as Mobile Fortify) to “verify” immigration status during street stops, including in Chicago. Advocates say agents are told to treat a biometric match as definitive—even overriding IDs or birth certificates—raising due process, accuracy, and Fourth Amendment concerns. HN readers highlight the shift from fingerprint checks to scalable face capture, officer anonymity and accountability gaps, and mounting court scrutiny; a planned inquiry into local operations was reportedly postponed after a government appeal.
+### TL;DR
 
-- Comment pulse
-    - App deemed definitive → documents ignored, risking wrongful detentions; masked officers reduce accountability — counterpoint: mobile fingerprint checks verify identity without sweeping scans.
-    - Face scans enable mass surveillance over bystander populations; accuracy secondary to scale, unlike individual fingerprint verification.
-    - Legal exposure: Illinois BIPA and due-process claims; civil suits likely to test limits of federal biometric use on streets.
+404 Media reports social-media videos showing ICE and CBP officers using phone-based facial recognition during street encounters. In the visible Chicago example, an officer scans a young bicyclist who says he was born in the United States after he cannot produce identification, then asks him to confirm his name. The accessible article excerpt does not show the result or explain the system's accuracy, databases, authority, retention, or appeal process. Commenters cited additional paywalled reporting and expressed alarm about treating biometric matches as definitive.
 
-- LLM perspective
-    - View: Phone-based face recognition for street immigration checks collapses identity verification and status adjudication without procedural safeguards.
-    - Impact: Increases stop authority ambiguity for CBP/ICE; raises municipal liability and vendor risk; chills public life for immigrants and citizens.
-    - Watch next: FOIA on Mobile Fortify accuracy; decisions on preemption vs state biometric laws; fingerprint-first or warrant standards for verification.
+### Comment pulse
+
+- A commenter attributed to the full article an ICE position that Mobile Fortify matches can override citizenship documents; this remains second-hand here.
+- Discussion feared mass-surveillance collection and unaccountable field decisions, while offering no systematic deployment or error data.
+
+### LLM perspective
+
+- View: Street identification by opaque facial matching creates a high-stakes process with almost no visible procedural safeguards.
+- Impact: False matches could burden citizens and noncitizens while expanding biometric collection beyond controlled checkpoints.
+- Watch next: Demand agency policy, legal authority, database provenance, accuracy audits, retention limits, human review, and contest procedures.

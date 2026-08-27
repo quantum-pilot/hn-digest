@@ -2,15 +2,17 @@
 
 - Score: 485 | [HN](https://news.ycombinator.com/item?id=45742419) | Link: https://blog.j11y.io/2025-10-29_stroke_tips_for_engineers/
 
-- TL;DR
-  Pragmatic tips from a stroke-surviving engineer: stop at warning signs; control inputs; put health over performance and use legal protections; single‑thread work, externalize memory, and let AI hold state; schedule hard thinking in peak hours; minimize notifications and meetings. A neuroscience footnote explains parietal/prefrontal load, why context switching hurts, and how heavy cognitive strain lowers seizure thresholds. HN replies echo strict boundaries (WFH, sleep, fitness), warn against overwork, stress invisible impairments like epilepsy, and debate disclosure/accommodations amid supportive vs PE-driven workplaces and financial constraints.
+### TL;DR
 
-- Comment pulse
-  - Set strict boundaries (WFH, naps, avoid stress) → reduces seizures/fatigue, enables long-term careers — counterpoint: unpaid recovery time and switching jobs aren’t always financially viable.
-  - Share your condition at supportive workplaces → context boosts empathy and accommodations — counterpoint: disclosure risks stigma in PE-driven, metrics-obsessed cultures.
-  - Avoid heroic sprints, even on passion projects → overwork triggers setbacks; invisible issues (epilepsy, cognitive load) often outweigh visible deficits.
+A software engineer describes working six years after a hemorrhagic parietal-lobe stroke with residual epilepsy. Their practical advice is to stop when fatigue or neurological warning signs appear, reduce sensory load, protect high-energy periods, minimize context switching and externalize memory through notes. They favor remote work, asynchronous communication, explicit accommodations and occasionally AI as a scratchpad. This is one person’s recovery strategy, not medical guidance; even the author’s neurological interpretation is informal. Commenters add varied anecdotes about rest, disclosure, exercise and workplace support.
 
-- LLM perspective
-  - View: Treat attention and working memory as scarce; offload to tools and asynchronous workflows.
-  - Impact: Encourages AI scratchpads, task batching, and notification hygiene as standard accessibility features.
-  - Watch next: Employer policies on remote-first accommodation, explicit "no-meetings" blocks, and seizure-safe workload norms.
+### Comment pulse
+
+- Several survivors described invisible cognitive limits and stress as more consequential than outward physical recovery.
+- Disclosure can unlock support in healthy teams but may feel risky in hostile or competitive workplaces.
+
+### LLM perspective
+
+- View: Sustainable work comes from designing around fluctuating capacity, not forcing pre-injury productivity rituals.
+- Impact: Low-interruption workflows and explicit accommodations may retain skilled engineers while reducing harmful overexertion.
+- Watch next: Individual warning signs and clinician guidance should govern adaptations; no single recovery template generalizes.

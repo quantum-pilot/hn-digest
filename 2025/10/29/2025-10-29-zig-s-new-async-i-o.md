@@ -2,15 +2,17 @@
 
 - Score: 300 | [HN](https://news.ycombinator.com/item?id=45746020) | Link: https://andrewkelley.me/post/zig-new-async-io-text-version.html
 
-- TL;DR
-    - Andrew Kelley previews Zig 0.16’s std.Io: a pluggable I/O interface with async/await futures, explicit cancel, queues, and a distinction between asynchrony (io.async) and true concurrency (io.concurrent). Await/cancel are idempotent, enabling safe error handling and resource cleanup; cancellation accelerates failure paths. A default Threaded backend oversubscribes; single-threaded builds surface ConcurrencyUnavailable. Future backends (io_uring, kqueue; coroutines) are prototyped. HN debates function coloring and predictability across libraries vs. the benefits of capability-style Io parameters akin to Haskell IO or Java virtual threads.
+### TL;DR
 
-- Comment pulse
-    - Design hides function coloring; shared Io hurts local reasoning, risks LSP violations → behavior shifts across libraries. — counterpoint: interface semantics + testing across backends.
-    - Pluggable Io unifies evented and threaded runtimes → same APIs; feels like Haskell IO or Java virtual threads without monkey-patching.
-    - Async i/o ergonomics vs multithreading: some prefer BEAM, Java/.NET, or JS promises; others cite throughput/memory trade-offs and inevitable “colored” call graphs.
+Zig’s newly landed `std.Io` introduces preview async primitives for the planned 0.16.0 release. Programs receive an I/O implementation much like an allocator, then use futures, idempotent `await` and `cancel`, queues, and a distinct `concurrent` operation when execution truly requires parallel progress. Examples show why awaiting every task prevents leaks, how deferred cancellation restores ordinary `try` and resource-management patterns, and how confusing asynchrony with concurrency can deadlock. Threaded support exists now; evented coroutine implementations remain experimental, and the APIs are explicitly unsettled.
 
-- LLM perspective
-    - View: Treat Io as an explicit capability; cancellation + idempotent await simplify cleanup patterns and eliminate common leak/timeout footguns.
-    - Impact: Libraries will accept Io and expose cancellable futures; runtime swapping encourages benchmarks and clearer performance contracts.
-    - Watch next: Measure Threaded vs io_uring/kqueue; stress-test single-threaded ConcurrencyUnavailable; track stackless/stackful coroutine features and maximum-stack tooling.
+### Comment pulse
+
+- Skeptics worry injected I/O behavior weakens local reasoning and merely hides function coloring.
+- Supporters see a testable interface that can select threaded, evented or domain-specific implementations without rewriting libraries.
+
+### LLM perspective
+
+- View: Separating expressed asynchrony from required concurrency is unusually honest, but shifts complexity into interface contracts.
+- Impact: Libraries may become runtime-agnostic while demanding careful cancellation, capability and blocking-operation discipline.
+- Watch next: Real applications must expose semantic surprises before the interface and coroutine strategy stabilize.

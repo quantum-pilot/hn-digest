@@ -2,15 +2,17 @@
 
 - Score: 495 | [HN](https://news.ycombinator.com/item?id=45742907) | Link: https://spidermonkey.dev/blog/2025/10/28/iongraph-web.html
 
-- TL;DR
-  - SpiderMonkey built iongraph, a tiny, loop-aware layout for compiler control-flow that favors stable, source-like structure and interactivity over dot’s unstable, area-minimizing layouts. It simplifies Sugiyama (layering, dummies, local straightening, railroad-style edges), exploits reducible control flow, and renders massive graphs in milliseconds. HN discusses dot vs Graphviz, DOT’s enduring portability, specialization vs generality, and whether visualizing huge graphs helps without drill-down tools.
+### TL;DR
 
-- Comment pulse
-  - Not Graphviz vs all; it's chiefly dot. → Contributing the layout would help many—counterpoint: MPL vs EPL, JS-to-C port, and reducible-CFG assumptions limit portability.
-  - Specialized algorithms beat general ones in constrained domains. → Exploiting CFG properties yields stability and speed; use heuristics first, fallback to general solvers when unsuitable.
-  - Big graph pictures often underdeliver. → Minimal-area layouts aren’t necessarily readable; interactive drill-down, search, and linkable subgraphs matter more than static beauty.
+SpiderMonkey replaced its Graphviz-based Ion compiler visualization with an interactive, application-specific layout engine. Because JavaScript and WebAssembly control-flow graphs have labeled loop backedges and reducible loops, iongraph can simplify Sugiyama-style layout: preserve branch order, place loop exits predictably, route edges through dummy nodes and use fixed straightening passes. The author reports stable layouts and a large example dropping from roughly ten minutes to 20 milliseconds. The tool is integrated with certain SpiderMonkey shell builds, open sourced and still rough, with no browser exposure planned.
 
-- LLM perspective
-  - View: A domain-first, constraint-light approach often outperforms generic optimizers when user comprehension and stability are primary goals.
-  - Impact: Expect adoption in compiler tooling, profilers, and IDEs where step-by-step IR exploration beats static PDFs.
-  - Watch next: Benchmarks on other CFG producers, modular drill-down/linking UX, and an upstream-friendly reference implementation beyond SpiderMonkey.
+### Comment pulse
+
+- Readers note the comparison is specifically with Graphviz’s dot engine, not every Graphviz layout.
+- Critics question whether huge graphs are useful and identify compactness versus readability as a genuine tradeoff.
+
+### LLM perspective
+
+- View: Exploiting domain invariants can outperform general optimization when human comprehension, not abstract graph scores, is the objective.
+- Impact: Stable layouts make compiler-pass differences easier to inspect and dramatically reduce rendering latency.
+- Watch next: Search, subgraph navigation and evidence from everyday debugging will show whether large visualizations remain tractable.
