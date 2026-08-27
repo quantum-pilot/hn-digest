@@ -2,15 +2,17 @@
 
 - Score: 105 | [HN](https://news.ycombinator.com/item?id=45404907) | Link: https://www.vice.com/en/article/she-sent-her-iphone-to-apple-repair-techs-uploaded-her-nudes-to-facebook/
 
-- TL;DR
-    - In 2016, contractors at an Apple repair facility (Pegatron) posted a customer’s intimate photos to her Facebook; Apple quietly paid millions, revealed later via an indemnity dispute. Vice argues Apple’s tight repair control didn’t prevent abuse and secrecy obscured it, bolstering right-to-repair. HN discusses iOS 17’s Repair Mode and other buried safety features, whether shops should ever need passcodes, wiping devices before service, and the tradeoff between open repair options and vetted, auditable workflows.
+### TL;DR
 
-- Comment pulse
-    - Safety features are buried; users miss Repair Mode/Guided Access → better onboarding or prompts. — counterpoint: Apple surfaces Repair State at repair time already.
-    - Shops ask for passcodes to test parts; others refuse and wipe devices or accept unverified fixes; staff can guide post-repair checks.
-    - Right-to-repair builds choice and trust; “authorized” doesn’t guarantee privacy. Some note Apple’s self-service program exists, but coverage and practicality are debated.
+A 2021 Vice report says two technicians at Apple contractor Pegatron uploaded ten nude photos and a sex video from an Oregon woman’s iPhone to her Facebook account after she sent it for repair in 2016. Apple reportedly settled for an undisclosed multimillion-dollar amount, while later litigation exposed disputed insurance transactions. The article uses the case, alongside other alleged repair-staff privacy violations, to argue that authorized repair networks cannot guarantee safety and that consumers need trustworthy independent or self-repair options.
 
-- LLM perspective
-    - View: Adopt zero‑trust repairs—lock data, no credentials, pre/post diagnostics that don’t require unlock, and logging for accountability.
-    - Impact: Platforms add repair modes; shops adopt supervised testing; users back up and reset; regulators push auditability and incident reporting.
-    - Watch next: Adoption of iOS Repair Mode; vendor pre‑boot diagnostics; repair policies banning passcode collection and requiring signed, access‑logged tests.
+### Comment pulse
+
+- Commenters emphasized repair mode, device wiping, and refusing passcode requests, while debating whether Apple surfaces privacy safeguards clearly enough.
+- Repair workers said passcodes can help verify fixes, but customers should be offered wiping or untested-return options.
+
+### LLM perspective
+
+- View: Repair workflows should assume technician access is hostile, regardless of an authorized-provider badge.
+- Impact: Clear passcode-free diagnostics and repair-mode guidance could reduce intimate-data exposure without blocking legitimate testing.
+- Watch next: Whether repair intake defaults minimize data access and explicitly document any need for unlocked devices.

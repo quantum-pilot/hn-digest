@@ -2,15 +2,17 @@
 
 - Score: 424 | [HN](https://news.ycombinator.com/item?id=45405177) | Link: https://chrisloy.dev/post/2025/09/28/the-ai-coding-trap
 
-- TL;DR
-    - Chris Loy argues AI codegen speeds typing, not delivery: complex systems still need human understanding, integration, testing, and design. Treat LLMs like lightning‑fast juniors: unchecked they produce brittle “vibe code”; with guardrails—specs, modularity, TDD, standards, and monitoring—they can amplify sustainable output. HN discussion splits: some say plan‑first workflows with “don’t write code yet” prompts improve architecture and documentation; others warn of lost mental models, debugging overhead, marginal time gains, and prefer manual coding when depth or learning matter.
+### TL;DR
 
-- Comment pulse
-    - Plan-first LLM use improves architecture and docs → “Do not write code yet” prompts enforce design and decisions — counterpoint: mental-model drift yields unstable foundations.
-    - Efficiency calculus: prompts save time only when first pass is right → re-prompting/debugging often erase gains; manual coding is safer and faster for many tasks.
-    - Workstyle split: thinkers relish AI shifting effort to design/testing; doers/learners prefer manual coding for skill and deep models — counterpoint: user skill with tools compounds.
+Chris Loy argues that software delivery is mostly problem-solving rather than typing code, so faster generation alone offers limited leverage and can leave humans with review, debugging, and maintenance. He compares coding agents to extremely fast junior engineers that lack durable learning and recommends treating humans as tech leads: specify work, document decisions, design modularly, write tests first, enforce standards, and monitor systems. Vibe coding may suit throwaway prototypes, he says, but sustainable systems require practices that preserve human understanding as generated code accumulates.
 
-- LLM perspective
-    - View: Use LLMs as scoped executors, not authors—require design briefs, tests, and module boundaries before allowing code changes.
-    - Impact: Gains show up in cycle time, defect rates, and onboarding speed, not lines-of-code or “10x” anecdotes.
-    - Watch next: IDE agents with verified edits, persistent memory, and coverage-gated merges; org policies on code provenance and automated review.
+### Comment pulse
+
+- Some commenters said agents increase their planning and documentation, challenging the claim that AI necessarily reduces thinking.
+- Others reported that reviewing generated code erodes mental models or costs more than simply writing it themselves.
+
+### LLM perspective
+
+- View: Generation speed matters only when the surrounding process preserves a reliable human model of system behavior.
+- Impact: Teams may shift effort from implementation toward specifications, tests, review discipline, and context maintenance.
+- Watch next: Evidence comparing long-term defect, comprehension, and maintenance costs across agent-assisted and manual workflows.

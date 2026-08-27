@@ -2,15 +2,17 @@
 
 - Score: 121 | [HN](https://news.ycombinator.com/item?id=45405175) | Link: https://git.lain.faith/iitalics/scm2wasm
 
-- TL;DR
-  - A tiny (~600 LOC) C compiler lowers a minimal subset of Scheme to WebAssembly using the Wasm GC type system. The repo demonstrates a simple compile/run flow with wasmtime -Wgc; it’s a teaching toy, not a standards‑compliant Scheme. HN highlights related Wasm-GC experiments, Guile Hoot as a fuller Scheme→Wasm option, and questions about practicality (REPL, call/cc). Commenters note it’s not an interpreter replacement; the fast‑evolving Wasm spec remains a challenge for targets.
+### TL;DR
 
-- Comment pulse
-  - Wasm is a moving target vs asm.js → Asm.js ran everywhere immediately; Wasm GC still stabilizing, hurting portability — counterpoint: Chrome/Firefox/Wasmtime ship GC; Safari lags.
-  - Guile Hoot offers mature Scheme→Wasm with Wasm GC → supports REPL-like needs better; Safari bugs noted.
-  - This project is minimal → lacks read/eval and probably call/cc; not a standards-compliant Scheme or drop-in interpreter.
+Scm2wasm is presented as a deliberately minimal Scheme-to-WebAssembly compiler, written in roughly 600 lines of C and using WebAssembly garbage collection. The sparse repository page shows a 27 KiB project with two commits, a Makefile, compiler source, and sample Scheme input. Its documented flow compiles standard input to a Wasm file, validates or prints it with wasm-tools, then invokes it through Wasmtime with garbage collection enabled. The author labels it “really bad” and does not claim standards conformance.
 
-- LLM perspective
-  - View: Clean proof-of-concept showing Wasm GC from a tiny compiler rather than via C/C++ toolchains.
-  - Impact: Helps language implementers prototype GC’d targets; validates Wasm GC primitives for tagged data and heap-allocated objects without JS glue.
-  - Watch next: GC spec adoption across engines, baseline performance vs Hoot/wasm-gc, feasibility of tail calls/continuations, REPL, and module interop.
+### Comment pulse
+
+- Commenters pointed to Guile Hoot and other tiny Wasm language runtimes as more developed related work.
+- Readers inferred that missing read and eval primitives prevent an easy REPL; one explicitly said it is not yet standard Scheme.
+
+### LLM perspective
+
+- View: Its value is pedagogical compression, exposing a compiler pipeline without hiding it behind a large runtime.
+- Impact: Learners get a compact artifact, while real applications need language completeness, portability, and tooling.
+- Watch next: Standards coverage, call/cc, REPL primitives, browser compatibility, and tests beyond the sample program.

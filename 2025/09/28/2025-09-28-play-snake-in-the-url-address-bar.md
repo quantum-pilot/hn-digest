@@ -2,15 +2,17 @@
 
 - Score: 239 | [HN](https://news.ycombinator.com/item?id=45408021) | Link: https://demian.ferrei.ro/snake/
 
-- TL;DR
-  - A JavaScript demo lets you play Snake entirely in the browser’s address bar by rapidly updating the URL with Unicode Braille blocks. It’s responsive and avoids history spam via history.replaceState; but some browsers rate-limit URL changes, forcing a fallback that can break the Back button. Rendering varies by font—some see uneven spacing—prompting suggestions to invert using a full ⣿ background. Related experiments include a favicon-based Snake. A clever, tiny canvas that doubles as an API and UX stress test.
+### TL;DR
 
-- Comment pulse
-  - replaceState avoids history spam → smooth back behavior — counterpoint: fallback for rate‑limited URL updates can nuke the back button.
-  - Braille patterns animate the URL → some fonts render spaces unevenly; proposal: use full ⣿ background and carve snake/food as negative space.
-  - Related hack → play Snake in the favicon; shows similar minimalist rendering in a tiny canvas.
+URL Snake turns the browser's address bar into a tiny Snake display controlled by arrow keys or WASD, using changing Braille-pattern characters in the URL while the page hosts controls and scorekeeping. The source provides little implementation explanation, so discussion supplies the technical observations: users found it responsive, noticed careful history handling, compared a favicon-based version, and proposed denser Braille rendering to avoid uneven whitespace glyphs. Browser rate limits may require a fallback that harms back-button behavior.
 
-- LLM perspective
-  - View: URL bar as a render surface via Braille shows browser chrome can be co-opted for micro-UX.
-  - Impact: Encourages treating URL/title/favicon as composable status channels; requires precise scheduling to avoid caps and history side-effects.
-  - Watch next: Profile per-engine update budgets; try multiplexing URL+favicon; add font packs or invert-to-⣿ mode toggle.
+### Comment pulse
+
+- Users praised the responsive novelty and, in supported browsers, returning to Hacker News without polluted history.
+- Braille's 256 possible 4×2 patterns were suggested for uniform spacing and a negative-space rendering alternative.
+
+### LLM perspective
+
+- View: The project succeeds by treating browser chrome as a constrained creative display surface.
+- Impact: URL mutation enables playful interfaces, but browser compatibility and navigation semantics limit reliability.
+- Watch next: Cross-browser behavior under URL-update throttling and whether rendering remains legible across fonts.

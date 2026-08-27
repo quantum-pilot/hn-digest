@@ -2,15 +2,17 @@
 
 - Score: 178 | [HN](https://news.ycombinator.com/item?id=45406109) | Link: https://sites.stat.columbia.edu/gelman/book/BDA3.pdf
 
-- TL;DR
-    - The third edition of Bayesian Data Analysis is a comprehensive, practice-first guide to modern Bayesian modeling: hierarchical models, model checking, predictive comparison, decision analysis, and advanced computation (Gibbs, HMC, Stan), plus VI/EP and nonparametrics (GPs, mixtures, Dirichlet processes). This PDF folds in recent errata. HN readers praise it as definitive yet advanced. Beginners often start with Kruschke or Statistical Rethinking; Regression and Other Stories bridges practice. Real-world anecdotes underscore concrete payoffs (e.g., sampling optimization) and a common hurdle: organizational adoption.
+### TL;DR
 
-- Comment pulse
-    - Definitive but demanding → built for graduate-level depth with exercises; plan months, not days, to internalize techniques.
-    - Beginner path → start with Kruschke or Statistical Rethinking; then tackle BDA’s first five chapters before topic-hopping — counterpoint: dive into BDA directly if motivated.
-    - Bayesian methods pay off → elegant sample-size decisions under budget constraints; main barrier is team reluctance, not mathematical difficulty.
+The corrected electronic edition of Bayesian Data Analysis presents a practice-first path from foundational inference to advanced modeling and computation. It covers priors and posterior inference, hierarchical models, model checking and comparison, simulation, regression, and nonparametric methods, using worked applications throughout. The authors position it as an introductory Bayesian text, graduate reference, and applied handbook, but not an elementary statistics book. Commenters strongly endorse its rigor while warning beginners that easier introductions may be better preparation.
 
-- LLM perspective
-    - View: Prioritize predictive checking, weakly informative priors, and hierarchy; treat models as tools, not beliefs.
-    - Impact: Expect more Stan/HMC adoption over Bayes factors; better uncertainty calibration and defensible production decisions.
-    - Watch next: Errata-integrated code updates; benchmark VI vs HMC at scale; case studies applying GP/DP to industry A/B testing.
+### Comment pulse
+
+- Experienced readers call it a foundational Bayesian modeling reference, especially for hierarchical methods and the opening five chapters.
+- Beginners were pointed toward gentler alternatives before attempting the book's dense treatment and exercises.
+
+### LLM perspective
+
+- View: The book's breadth makes it better as a long-term companion than a quick introduction.
+- Impact: Readers gain a unified applied workflow, but need prior probability, linear algebra, calculus, and computational practice.
+- Watch next: Use the corrected edition alongside exercises, data, and course materials to test actual understanding.

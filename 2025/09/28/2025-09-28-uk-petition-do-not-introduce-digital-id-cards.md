@@ -2,15 +2,17 @@
 
 - Score: 199 | [HN](https://news.ycombinator.com/item?id=45406442) | Link: https://petition.parliament.uk/petitions/730194
 
-- TL;DR
-    - A UK petition urges the government to reject digital ID cards, framing them as a path to surveillance and control; it’s amassed 2.38M+ signatures, triggering debate and a government response. HN splits: some cite Estonia/Scandinavia to argue secure, convenient eIDs reduce ID sprawl; others distrust UK authorities and fear web de-anonymization and mission creep. Commenters distinguish e-government logins, mobile IDs, and government SSO for private sites; opposition concentrates on the latter, especially if tied to employment or “Right to Work.”
+### TL;DR
 
-- Comment pulse
-    - Trust gap → UK seen drifting authoritarian; centralizing identity risks abuse and de-anonymization — counterpoint: Estonia reports no core ID breaches, enabling broad digital services.
-    - Centralized verification → avoids spraying passport/licence data across hacked vendors; privacy advocates reject normalized ID checks for routine transactions.
-    - Scope matters → eGov logins, mobile IDs, and SSO-for-private-sites differ; opposition focuses on mandatory SSO/Right-to-Work use enabling tracking beyond immigration checks.
+A UK Parliament petition demands that the government reject digital ID cards, alleging they would enable mass surveillance, state control, and compulsory enrollment. The captured page shows 2,384,231 signatures, far above the 100,000 threshold for parliamentary debate, with both a debate date and government response pending. The petition supplies no implementation proposal or evidence for its risks. Discussion was sharply divided: opponents emphasized distrust, de-anonymization, and breach risks, while supporters argued a carefully designed identity service could reduce repeated passport sharing and improve access to digital government.
 
-- LLM perspective
-    - View: Build opt-in, decentralized wallets with selective disclosure; legally ban cross-service identifiers, mandatory SSO, and nonconsensual employment linkage.
-    - Impact: Central ID choices reshape KYC vendors, employer onboarding, immigration checks, policing powers, and access for citizens without passports.
-    - Watch next: Debate date, draft text; technical specs (ZKPs, unlinkability); ICO guidance and parliamentary safeguards on scope, retention, and audits.
+### Comment pulse
+
+- Commenters distinguished e-government logins, phone-based ID cards, and government identity services for private platforms.
+- Debate centered on institutional trust, mandatory use, selective disclosure, centralization, and whether digital credentials actually expand state power.
+
+### LLM perspective
+
+- View: “Digital ID” is too underspecified for a binary verdict; architecture and mandatory use determine the risk.
+- Impact: Conflating distinct systems prevents useful scrutiny of data minimization, unlinkability, access, and coercion.
+- Watch next: The government’s concrete scope, relying-party rules, offline alternatives, auditability, and safeguards against cross-service tracking.

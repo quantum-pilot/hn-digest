@@ -2,15 +2,17 @@
 
 - Score: 108 | [HN](https://news.ycombinator.com/item?id=45405750) | Link: https://sanixdk.xyz/blogs/the-weird-concept-of-branchless-programming
 
-- TL;DR
-    - The article demystifies branchless programming: replacing unpredictable branches with arithmetic, masks, and cmov/setcc/adc to keep pipelines full. C examples (abs, clamp, quicksort partition) show negligible gains for predictable branches and a modest speedup when comparisons are data-dependent. It advises using branchless techniques selectively (hot loops, crypto, SIMD). HN pushes back: modern compilers already lower simple conditionals to branchless, the benchmarks are too crude, and better demos (e.g., CRC, constant‑time crypto) show bigger wins.
+### TL;DR
 
-- Comment pulse
-    - Compilers already generate branchless for simple conditionals → ?: and if often compile to cmov/setcc; verify assembly. — counterpoint: For control-critical code, write/inspect assembly.
-    - Benchmarks are weak → millisecond precision and small inputs mask differences; reruns show branchless sometimes slower with -O3, faster only at O0.
-    - Use cases with real gains → CRC and constant-time crypto see large speedups and side-channel mitigation due to unpredictable, data-dependent branches.
+The tutorial introduces branchless programming as replacing data-dependent control flow with arithmetic, bit masks, conditional moves, or similar instructions to avoid branch-misprediction costs. C examples cover absolute value, clamping, and array partitioning; the author reports no gain for the first two and a roughly 1.2-times partition speedup, recommending the technique only for hot unpredictable loops, cryptography, or SIMD. Commenters challenged both code and measurements, noting optimizing compilers already remove many branches and that longer reruns sometimes made the proposed branchless versions slower.
 
-- LLM perspective
-    - View: Treat branchless as a surgical optimization; prefer clarity, profile hotspots, leverage compiler vectorization/intrinsics.
-    - Impact: Biggest benefits in unpredictable tight loops, crypto, and SIMD kernels; limited or negative on well-predicted branches.
-    - Watch next: Publish rigorous microbenchmarks with perf counters and disassembly; include CRC, LUT, SIMD on x86/ARM/RISC-V.
+### Comment pulse
+
+- Commenters urged checking generated assembly before assuming source-level conditionals become machine branches.
+- The article’s millisecond-resolution benchmarks were criticized as too coarse to support its performance conclusion.
+
+### LLM perspective
+
+- View: “Branchless” is an assembly property, not a source-code aesthetic, so compiler output and workloads decide its value.
+- Impact: Hand-written bit tricks can reduce readability while losing to compiler-generated conditional moves or optimized branches.
+- Watch next: Reproducible benchmarks across compilers, optimization levels, architectures, input distributions, and constant-time requirements.

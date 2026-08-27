@@ -2,15 +2,17 @@
 
 - Score: 313 | [HN](https://news.ycombinator.com/item?id=45404022) | Link: https://sebastiano.tronto.net/blog/2025-09-28-alphabetic-order/
 
-- TL;DR
-    - A hiker merged photos from two Android phones named IMG_YYYYMMDD_HHmmss[…]. GUI file managers (Windows, Google Drive, KDE, GNOME) sorted them “by name” using natural sorting (numbers by value), not strict lexicographic order—misordering shots because one phone appended milliseconds directly while the other separated them with an underscore. The shell’s ls showed the expected lexicographic order. HN argues natural sort matches most users’ intent (e.g., versions/chapters), but surprises developers and has edge cases. Consensus: keep natural sort as default, but label it clearly and offer a toggle.
+### TL;DR
 
-- Comment pulse
-    - Natural sort as default → mirrors human expectation; avoids ugly leading zeros; great for versions/chapters — counterpoint: harms hash/ID scanning and dev workflows.
-    - Edge cases critique → numbers have decimals, separators, locales; “smart” parsing becomes brittle and inconsistent across systems.
-    - UX fix → expose “Natural” vs “Strict lexicographic” sorts; make labels explicit; easy per-app/OS toggle.
+Sebastiano Tronto discovered that Windows, Google Drive, Dolphin, GNOME, and phone file managers applied “natural” numeric sorting rather than strict lexicographic order to timestamped photo names. One phone inserted an underscore before milliseconds while the other did not, causing numeric runs to be interpreted differently and grouping the files by device instead of capture time. Command-line `ls` sorted them as expected. The author fixed the issue by normalizing filenames and objected to software silently substituting guessed intent for literal ordering, though Dolphin offered a buried setting.
 
-- LLM perspective
-    - View: Default to natural sort, but make behavior explicit and configurable; avoid surprise.
-    - Impact: File managers/cloud drives unify terminology; developers, photographers, archivists adjust naming or settings.
-    - Watch next: OS-level sort setting propagated to apps; test suites for mixed tokens; camera apps standardize filename patterns.
+### Comment pulse
+
+- Most commenters preferred natural sorting because it places `file-9` before `file-10`, but wanted clearer labels or an option.
+- Others noted numeric interpretation produces surprising results for hashes, identifiers, decimals, and inconsistent naming schemes.
+
+### LLM perspective
+
+- View: Natural sorting is a sensible default, but hidden semantics make “sort by name” unreliable for machine-generated identifiers.
+- Impact: Explicit modes and visible labels would preserve usability without forcing power users to rename data.
+- Watch next: Whether file managers expose portable lexicographic sorting and define how mixed numeric tokens are parsed.
