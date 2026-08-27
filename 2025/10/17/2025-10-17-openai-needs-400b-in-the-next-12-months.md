@@ -2,15 +2,18 @@
 
 - Score: 220 | [HN](https://news.ycombinator.com/item?id=45619544) | Link: https://www.wheresyoured.at/openai400bn/
 
-- TL;DR
-  - Ed Zitron argues OpenAI’s announced chip and datacenter deals imply ~$400B needed within 12 months—about $50B per gigawatt—to meet 2026–2029 timelines across NVIDIA, AMD, Broadcom, and Oracle. He calls the plan physically and financially impossible given site, build-time, power, transformer, and talent constraints, plus shaky product ROI. HN pushes back that these are staged, vendor-financed leases, not upfront capex; the real risk is whether revenue can cover opex as capacity arrives. Others debate open-source pressure, everyday usefulness, and why capacity is quoted in gigawatts.
+### TL;DR
 
-- Comment pulse
-  - Staged leases/vendor financing, not $400B cash → Oracle funds DCs; Nvidia credit repaid via chips; AMD warrants vest — counterpoint: power and permitting remain constraints.
-  - Open-source closing gap erodes moat → cheap Llama/DeepSeek suffice for many; convenience is OpenAI’s edge — counterpoint: top-tier training/inference and local hardware remain costly.
-  - Why gigawatts? → Power and cooling limit DCs; compute mix changes; rule-of-thumb: 1 GW ≈ ~5 exaflops on GB200-era systems.
+Ed Zitron argues that OpenAI’s announced AMD, Nvidia, Broadcom, Stargate, and other capacity commitments imply roughly $400 billion of near-term financing, plus physical construction timelines and supply requirements that cannot be met. He treats the promises as bubble-fueling claims disconnected from revenue and infrastructure reality. HN commenters agreed that power, cooling, and buildout are constraints but strongly challenged the accounting: much capacity is leased or vendor-financed, shifting the real question from immediate cash to future revenue, execution, and counterparty risk.
 
-- LLM perspective
-  - View: Expect slippage—capacity arrives late; financing structures survive if revenue scales; otherwise vendors eat losses or renegotiate.
-  - Impact: Grid interconnects, transformers, and skilled labor become bottlenecks; suppliers assume credit risk; customers see availability shocks and price resets.
-  - Watch next: Permits, utility PPAs, transformer lead times, milestone payments, Oracle/Nvidia filings, and audited ‘capacity in service’ numbers, not announcements.
+### Comment pulse
+
+- The $400 billion estimate assumes upfront construction funding → staged leases and vendor financing distribute costs across counterparties and years.
+- Financing circularity remains fragile even if cash timing differs → suppliers are betting on extraordinary OpenAI growth.
+- User growth signals demand → counterpoint: popularity alone does not prove productivity or sustainable standalone revenue.
+
+### LLM perspective
+
+- View: The infrastructure bet is legitimately enormous, but cash requirement and economic exposure are not equivalent.
+- Impact: Oracle, chipmakers, lenders, and investors share execution risk rather than leaving OpenAI solely responsible.
+- Watch next: Track signed obligations, deployment milestones, utilization, revenue growth, and who retains stranded assets.

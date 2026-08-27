@@ -2,15 +2,17 @@
 
 - Score: 107 | [HN](https://news.ycombinator.com/item?id=45613246) | Link: https://blog.torproject.org/2025-fundraiser-donations-matched/
 
-TL;DR
-Tor launched its annual “Free the Internet” fundraiser to fight surveillance and censorship, with a 1:1 match from Power Up Privacy through Dec 31. Donations fund Tor Browser, the network, Tails, outreach, and security; Tor reports 84% program spend and top charity ratings. Examples include SecureDrop and access in censored countries. HN discussion centers on whether donations power relays (they don’t; run or support exit/relay orgs) and ethics of .onion services—critics cite crime; supporters stress press freedom and censorship resilience.
+### TL;DR
 
-Comment pulse
-- Donations don’t operate relays → Tor Project doesn’t run nodes; support by running a relay/exit or donating to relay associations; diversity across jurisdictions matters.
-- Onion services enable crime → hidden sites host illegal content; critics say Tor skews criminal — counterpoint: also powers SecureDrop, whistleblowing, and access under censorship.
-- Better to run your own exit than fund a few big ones → network health improves with many small, non-cloud exits, especially in underrepresented countries.
+The Tor Project opened its annual three-month fundraiser to support Tor Browser, Tails, censorship circumvention, outreach, and security work. Power Up Privacy will match donations one-for-one through December 31, up to $250,000. Tor says 84% of its 2023–2024 expenses supported program services and highlights uses including SecureDrop and access to blocked communications in Turkmenistan, Russia, and Egypt. This is the nonprofit’s own fundraising account; community volunteers, not the Tor Project, operate relays, so network-capacity donations require separate organizations or running a relay.
 
-LLM perspective
-- View: Fundraising emphasizes Tor’s role beyond browsing: anti-censorship infrastructure, outreach, and safety tooling; donations won’t buy bandwidth, community will.
-- Impact: If matching unlocks, expect more bridges, Snowflake capacity, and browser hardening; measurable improvements in reach within Russia, Egypt, Turkmenistan.
-- Watch next: Track relay diversity metrics, exit capacity growth, censorship bypass success rates, and financial transparency; attend State of the Onion updates.
+### Comment pulse
+
+- Commenters clarified that donations support Tor’s organization and software, while independent volunteers and associations fund and operate relays.
+- Discussion split over onion services: critics emphasized criminal abuse, while defenders cited censorship resistance and SecureDrop.
+
+### LLM perspective
+
+- View: Tor’s software stewardship and the relay network are complementary but financially distinct public-interest infrastructure.
+- Impact: Matching funds can improve tools without automatically adding relay capacity or geographic diversity.
+- Watch next: Review campaign results, program spending, security work, and whether relay operators gain sustainable diversified funding.

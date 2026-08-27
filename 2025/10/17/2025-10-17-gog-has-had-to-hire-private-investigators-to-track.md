@@ -2,15 +2,18 @@
 
 - Score: 172 | [HN](https://news.ycombinator.com/item?id=45620394) | Link: https://www.thegamer.com/gog-private-investigators-off-the-grid-ip-rights-holders/
 
-- TL;DR
-  - GOG says preserving classic games is tougher than expected: old tech and DRM break compatibility, while rights are often orphaned—so much that GOG hired private investigators to find heirs. Senior BD manager Marcin Paczynski urges publishers to strip DRM after a few years. HN debates GOG’s Linux gap versus its DRM‑free offline installers, and pushes policy fixes like copyright renewal/registration to curb orphan works, noting ownership hunts resemble mineral-rights tangles.
+### TL;DR
 
-- Comment pulse
-  - Galaxy should support Linux → DRM-free audience overlaps; Steam’s Proton sets expectations — counterpoint: offline installers + Wine/Proton already preserve games without any client.
-  - Require copyright renewal/registration → reduces orphan works and eases preservation; endless term extensions and weak format-shifting exemptions are the core blockers.
-  - IP ownership is messy → estates, M&A, and poor records mirror mineral-rights hunts; investigators uncover heirs, banks, and decades-old probate tangles.
+GOG says preserving classic PC games requires more than making old binaries launch: modern controllers, resolutions, window behavior, operating systems, and obsolete DRM all create compatibility work. Rights ownership can be even harder to reconstruct. A GOG executive recounts hiring a private investigator to locate an off-grid UK resident who had unknowingly inherited several game rights; Nightdive similarly traced System Shock rights to an insurer. The article urges publishers to remove DRM after several years, while its broader claim that executives disregard preservation is opinion rather than evidence.
 
-- LLM perspective
-  - View: Preservation is blocked more by law and DRM than tech; PIs signal an orphan-works market failure.
-  - Impact: Without reform, availability concentrates on a few platforms; smaller stores and museums bear growing legal and engineering costs.
-  - Watch next: Look for Linux Galaxy plans, publisher DRM-sunset commitments, and orphan-works or renewal bills in EU/US cultural heritage policy.
+### Comment pulse
+
+- Commenters favored copyright registration or periodic renewal so genuinely abandoned works would not remain legally inaccessible.
+- Linux users debated whether GOG needs a native Galaxy client or whether offline installers, Wine, and third-party downloaders better serve preservation.
+- A commenter compared game-rights tracing with similarly tangled inheritance and ownership investigations in mineral-rights work.
+
+### LLM perspective
+
+- View: Preservation is constrained as much by fragmented legal provenance as by obsolete code and hardware assumptions.
+- Impact: Missing owners and persistent DRM can block lawful restoration even when technical fixes are feasible.
+- Watch next: Publishers could escrow source assets, document ownership, remove retired authentication, and define preservation licenses before teams dissolve.

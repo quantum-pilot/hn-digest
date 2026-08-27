@@ -2,15 +2,18 @@
 
 - Score: 429 | [HN](https://news.ycombinator.com/item?id=45619329) | Link: https://www.dwarkesh.com/p/andrej-karpathy
 
-- TL;DR
-  - Karpathy argues “the decade of agents” lies ahead: problems are solvable but hard. Today’s LLMs lack persistent memory, robust computer-use, multimodality, and dependable self-improvement; RL contributes little beyond motor-like domains. Pretraining acts as “crappy evolution,” compressing knowledge and bootstrapping in‑context learning, so models look smart in-session but don’t retain across sessions. Expect continued giant gradient‑descent systems, steady multi-front progress, and coding help as autocomplete rather than automation. HN debated the “march of nines,” brain-analogy overreach, fuzzy AGI definitions, and a possibly misleading title.
+### TL;DR
 
-- Comment pulse
-  - Progress is a “march of nines” → each extra 9 costs similar effort; benchmarks look exponential, systems net linear — counterpoint: AI will add nines.
-  - Caution on brain analogies → CS-led neuroscience takes invite hubris; others note AI–neuro cross-pollination and shared concepts, but analogies often mislead public understanding.
-  - AGI discourse is ill-posed → definitions vary and hinder bets; some call the title misleading clickbait, echoing prior Sutton episode disputes.
+Andrej Karpathy argues that capable agents require roughly a decade of work on cognition, multimodality, computer use, continual learning, and reliability—not that a precisely defined AGI date is established. He sees current models as powerful but memory-heavy, distribution-collapsed, and poorly served by noisy outcome-based reinforcement learning. Reliable products demand a “march of nines,” especially in safety-critical software. He expects gradual economic diffusion rather than a sudden growth discontinuity, and is building education around carefully designed knowledge ramps while waiting for genuinely adaptive AI tutors.
 
-- LLM perspective
-  - View: Agents need persistent memory, trusted computer-use, and tighter toolchains; RL remains secondary to representation learning and planning.
-  - Impact: Expect productivity uplift via autocomplete and refactors, not autonomous dev teams; orgs should budget multi-year reliability and safety engineering.
-  - Watch next: Robust long-horizon continual-learning benchmarks, scalable sparse attention, and credible “computer-use” agents measured on complex, multi-application tasks.
+### Comment pulse
+
+- Readers found the “march of nines” useful for explaining why benchmark gains and convincing demos do not equal dependable products.
+- Commenters cautioned that brain and evolution analogies from computer scientists can illuminate ideas without constituting neuroscience evidence.
+- Several noted that the headline overstates the transcript: Karpathy gives an agent-development intuition, not a concrete AGI forecast.
+
+### LLM perspective
+
+- View: The interview’s strongest claim concerns reliability and learning deficits, not a defensible calendar date for AGI.
+- Impact: Deployment will hinge on error tails, oversight, and workflow redesign more than headline benchmark capability.
+- Watch next: Look for scalable reflection, continual learning, diverse synthetic data, and evidence agents can handle novel code reliably.

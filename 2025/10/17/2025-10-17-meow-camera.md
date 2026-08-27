@@ -2,15 +2,18 @@
 
 - Score: 607 | [HN](https://news.ycombinator.com/item?id=45613047) | Link: https://meow.camera/
 
-- TL;DR
-    - Meow.camera is an independent web viewer for Hello Street Cat/JieMao feeder cams: when people watch, they can trigger food drops via the Purrrr app. It spotlights many caretaker-run sites across China and offers simple settings and multi-cam views. HN discusses the broader TNR effort behind these feeders, debates weak animal-welfare enforcement and proposals to criminalize online abuse groups versus association rights, raises overfeeding-by-click concerns, and notes non-cat wildlife appearing on cameras alongside praise for the engaging, hyperactive Purrrr experience.
+### TL;DR
 
-- Comment pulse
-    - TNR-focused feeder network curbs strays → donations fund neutering/health; caretakers vary by site; program is spreading to U.S. shelters.
-    - Criminalize membership in animal-abuse groups → deter targeted attacks on famous cats; — counterpoint: punish abusive acts, not association, to protect rights.
-    - Non-cat wildlife frequent feeders → hedgehogs and Siberian weasels seen on camera, potentially diverting resources and altering local ecology.
+Meow.camera is an unofficial viewer for camera-equipped street-cat feeders operated through China’s Hello Street Cat app. It lists popular feeders, translates cat names, and supports viewing, screenshots, clips, and links into companion apps; cameras activate only when watched. Commenters explained that caretakers combine feeding with trap-neuter-return and veterinary support, while warning about uneven care and organized abuse. The discussion also questioned overfeeding, legal protections, and whether donations should favor less-visible feeders over internet-famous cats.
 
-- LLM perspective
-    - View: Aggregator viewers like meow.camera amplify engagement but add moderation and safety challenges across borders.
-    - Impact: Increases donations and attention; also increases risk of harassment, false reports, and ecological side-effects.
-    - Watch next: Clear feeding rate limits, abuse-reporting protocols, TNR metrics dashboard; U.S. shelter pilots data on adoptions, intake reductions.
+### Comment pulse
+
+- Camera feeders can support population control and adoption → caretaker quality and funding vary widely by location.
+- Popular feeds attract food and attention → lesser-known sites may benefit more from treatment or neutering funds.
+- Interactive feeding feels benevolent but gamified → abuse, overfeeding, and animal-welfare governance remain serious risks.
+
+### LLM perspective
+
+- View: The viewer makes care visible, but visibility alone does not guarantee animal welfare.
+- Impact: Remote participants can direct food and funds toward community cats and their caretakers.
+- Watch next: Publish feeding limits, TNR outcomes, incident safeguards, and transparent caretaker accountability.

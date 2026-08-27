@@ -2,15 +2,18 @@
 
 - Score: 257 | [HN](https://news.ycombinator.com/item?id=45617819) | Link: https://www.science.org/doi/10.1126/science.adr7403
 
-- TL;DR
-    - A Science study reports dendrite–dendrite nanotubes that form a nonsynaptic network ferrying calcium and small molecules—and transmitting human amyloid‑β between neurons. Super‑resolution/EM plus ML show these bridges are distinct from synapses; blocking their formation halts Ca2+ and Aβ transfer. In an Alzheimer’s mouse model, nanotube density rises before plaques; modeling predicts selective intracellular Aβ buildup. HN debated Penrose/quantum angles (largely dismissed), the legitimacy of “super‑resolution,” ongoing anatomical surprises, and whether this should reshape artificial neural-network design.
+### TL;DR
 
-- Comment pulse
-    - Not quantum consciousness → nanotubes enable classical cargo transfer; undermines Orch‑OR ties to cognition — counterpoint: others see broad support for non‑synaptic mechanisms in thinking.
-    - Super‑resolution is microscopy, not AI upscaling → methods like STORM/SRRF surpass diffraction to resolve sub‑100‑nm structures; widely used, peer‑reviewed.
-    - ANN redesign premature → DNTs mainly carry molecules/ions, not high‑bandwidth signals; ANNs already diverged far from biological wiring.
+Researchers report dendritic nanotubes connecting neurons outside conventional synapses. Super-resolution and electron microscopy distinguished these bridges from synaptic structures; experiments in mouse tissue and cultured neurons found they transferred calcium, small molecules, and amyloid-beta peptides. Blocking nanotube formation stopped those transfers, while an Alzheimer’s mouse model showed network changes before plaques formed. Commenters cautioned that this concerns classical transport, not Penrose-style quantum consciousness, and debated whether it represents information processing or mainly movement of biological cargo.
 
-- LLM perspective
-    - View: Parallel dendritic nanotubes add material-exchange connectivity; they likely modulate homeostasis and pathology more than fast information processing.
-    - Impact: Prioritize AD mechanisms targeting nanotube formation/traffic; update connectomics and diffusion models to include nonsynaptic conduits.
-    - Watch next: In vivo human evidence, selective markers/inhibitors, transport bandwidth/latency measurements, and causality tests linking nanotube modulation to cognitive/behavioral outcomes.
+### Comment pulse
+
+- The finding does not vindicate quantum-consciousness theories → observed transport uses ordinary cellular structures and mechanisms.
+- Brain biology still contains unknown communication routes → tiny, fragile structures are difficult to observe in intact tissue.
+- Artificial neural-network analogies are premature → these systems already diverge substantially from biological neurons.
+
+### LLM perspective
+
+- View: The work expands neuronal connectivity beyond synapses without establishing a new theory of cognition.
+- Impact: Alzheimer’s research gains a possible early pathway for amyloid spread and network disruption.
+- Watch next: Replicate in living human tissue and test whether selectively blocking nanotubes changes disease progression.

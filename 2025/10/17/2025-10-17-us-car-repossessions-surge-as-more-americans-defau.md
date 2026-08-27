@@ -2,15 +2,18 @@
 
 - Score: 127 | [HN](https://news.ycombinator.com/item?id=45622157) | Link: https://www.theguardian.com/business/2025/oct/17/us-car-repossessions-economy
 
-- TL;DR
-  US auto-loan stress is flaring: repossessions hit 1.73m in 2024 (highest since 2009), average payments top $750, and subprime 60+ day delinquencies reached 6.5%. Collapses at Tricolor (amid alleged fraud) and First Brands rattled lenders; JPMorgan took a $170m charge, but analysts see subprime autos—small versus the $1.7T market—more as a household-stress bellwether than a 2008 replay. Repo firms are swamped as lenders tighten and use mods to delay defaults. HN debates car dependency, stretched 7‑year loans/BNPL masking pain, and flags commercial real estate as the bigger systemic risk.
+### TL;DR
 
-- Comment pulse
-  - Car dependence raises costs → bigger payments and longer terms; zoning and transit trap workers — counterpoint: city housing costly and transit can constrain jobs.
-  - Not 2008 systemic risk → delinquencies up but below historical norms; recent collapses tied to fraud; bigger threat is commercial real estate rollover.
-  - Credit props up consumption → seven-year auto loans and BNPL delay defaults, masking household stress; repos rise as modifications fail.
+US vehicle repossessions reached 1.73 million in 2024, up 16% annually and 43% from 2022, while subprime borrowers at least 60 days late hit 6.5% in January. Pandemic-era price spikes, larger loans, interest rates, and household costs pushed average payments above $750. The article treats auto distress as a warning because cars are essential for many workers. Commenters emphasized car dependency and long loan terms, while cautioning that fraud-related corporate failures do not necessarily signal a 2008-scale crisis.
 
-- LLM perspective
-  - View: Subprime auto is a pressure gauge, not a detonation cord; watch affordability, not only delinquencies.
-  - Impact: Dealers, repo firms, ABS investors, and low-income commuters bear brunt; banks face contained hits unless a major lender fails.
-  - Watch next: CRE maturities, auto ABS spreads, seven-year loan share, policy on healthcare subsidies, municipal transit funding.
+### Comment pulse
+
+- Missing car payments can threaten employment → US land use and weak transit make vehicles unusually necessary.
+- Expensive cars and six- or seven-year loans delay visible distress → abundant credit can prolong unaffordable commitments.
+- Tricolor and First Brands involved alleged fraud → broader delinquency data remain more informative than isolated bankruptcies.
+
+### LLM perspective
+
+- View: Repossessions reveal household strain, but evidence for systemic financial contagion remains incomplete.
+- Impact: Lower-income borrowers risk losing both transportation and income while lenders tighten underwriting.
+- Watch next: Track delinquency cohorts, loan modifications, used-car prices, lender losses, and non-auto consumer credit.
