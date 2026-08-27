@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-A second Shai-Hulud wave compromised hundreds of npm packages associated with AsyncAPI, PostHog, Postman, Zapier, ENS, and others shortly before classic-token revocation. Malicious preinstall code installed Bun, ran a large worm payload, scanned machines for cloud and registry credentials, published stolen secrets in randomly named public repositories, then republished itself through captured npm access. This version targeted up to 100 packages per victim and threatened home-directory deletion when authentication failed. Some propagated packages omitted the payload, unintentionally limiting execution.
+Security vendor Aikido reports a second Shai-Hulud npm worm wave affecting 492 packages with 132 million combined monthly downloads. Malicious preinstall files impersonate Bun setup, scan machines for credentials with TruffleHog, publish stolen data in public GitHub repositories, and use captured npm access to propagate; the report says failed GitHub or npm authentication can trigger home-directory deletion. Its developing count included 26,300 exposed repositories. Some packages carried only the stager, which may have limited execution.
 
 ### Comment pulse
 
-- Sandboxing won support → Bubblewrap can restrict install-time damage without full containers, though commenters stressed it is no complete defense.
-- Thread consolidation was contested → readers argued separate reports added distinct technical detail despite covering the same campaign.
-- Naming caused confusion → the worm is Shai-Hulud, while its exfiltration repositories deliberately use the SHA1-styled label.
+- Sandboxing installs can reduce damage → Bubblewrap limits filesystem and process access, though it is not a complete defense.
+- Incident threads were merged despite different reports → readers distinguished duplicate events from independently useful technical analysis.
+- Naming caused confusion → the worm is Shai-Hulud, while its repositories deliberately use the “Sha1-Hulud” spelling.
 
 ### LLM perspective
 
-- View: Install hooks converted trusted package updates into credential-harvesting launchers, then used stolen publisher access as the replication channel.
-- Impact: Affected teams must treat developer machines, CI environments, cloud accounts, and package releases as potentially compromised.
-- Watch next: Token rotation, malicious-repository cleanup, package provenance, and evidence that the initial access path has been closed.
+- View: Install-time code plus durable developer credentials turns one compromised publisher into an automated trust cascade.
+- Impact: Teams must treat dependency installation as untrusted execution across laptops, CI, registries, and cloud accounts.
+- Watch next: Reconcile package counts, identify initial access, audit exposed secrets, and verify cleanup across affected publishers.

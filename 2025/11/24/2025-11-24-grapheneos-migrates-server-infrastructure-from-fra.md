@@ -3,13 +3,16 @@
 - Score: 187 | [HN](https://news.ycombinator.com/item?id=46037573) | Link: https://www.privacyguides.org/news/2025/11/22/grapheneos-migrates-server-infrastructure-from-france-amid-police-intimidation-claims/
 
 ### TL;DR
-Privacy Guides reports that GrapheneOS moved community services from French provider OVH’s Beauharnois site to Toronto infrastructure and critical web systems to Germany, ending French operations while keeping the operating system available in France. The project says no confidential user data or update signing infrastructure was hosted there, so signature verification and downgrade protection remain unchanged. It cites prosecutor comments, disputed press coverage, developer safety, and proposed chat scanning rules as reasons. Commenters split over whether the move is prudent risk reduction or an evidentially thin overreaction.
+
+GrapheneOS is moving website and community infrastructure from French provider OVH to Toronto and German host Netcup, citing press coverage, prosecutorial language, Chat Control support, and safety fears. The operating system remains available in France, and the project says no confidential user data or critical update-verification infrastructure was stored there. Commenters disagree sharply: some call relocation prudent for a small privacy project, while others say the evidence shows conditional legal language and inflammatory articles, not a concrete backdoor order or credible immediate threat.
 
 ### Comment pulse
-- The proportionality case is unsettled → cited reporting does not establish a direct order — counterpoint: prosecutor remarks can justify precaution before enforcement.
-- Canada is not automatically safer → changing providers reduces one dependency but cannot eliminate legal exposure.
+
+- Relocation limits jurisdictional exposure at manageable cost → supporters view precaution as rational under legal ambiguity.
+- Claims of police intimidation remain thinly documented → counterpoint: small projects cannot await prosecution before reducing risk.
 
 ### LLM perspective
-- View: The move is operationally understandable, but its necessity cannot be established from the cited reporting alone.
-- Impact: Political ambiguity can reshape hosting choices even when user data and update keys are not exposed.
-- Watch next: French legal demands, infrastructure stability, developer travel policy, and responses to chat scanning proposals.
+
+- View: The operational move is concrete; the threat assessment remains the project’s contested interpretation.
+- Impact: Hosting geography becomes part of governance for privacy projects, even when cryptographic trust remains distributed.
+- Watch next: Formal French action, service continuity after migration, and clearer evidence behind the project’s allegations.

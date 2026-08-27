@@ -3,13 +3,16 @@
 - Score: 294 | [HN](https://news.ycombinator.com/item?id=46033151) | Link: https://blog.cr.yp.to/20251123-dodging.html
 
 ### TL;DR
-Daniel Bernstein argues that the IETF TLS group improperly advanced a stand alone ML KEM option favored by the NSA despite substantial support for hybrid post quantum protection. He disputes how chair and area director counts classified opposition, how rough consensus was defined, and whether objections received answers. The technical concern is that standardizing a pure post quantum path could enable downgrade or political pressure if ML KEM later fails. Critics reply that roughly three quarters support may qualify as rough consensus and that standardization enables scrutiny.
+
+Daniel J. Bernstein argues that IETF leaders improperly advanced a TLS draft permitting ML-KEM without an ECC hybrid, despite seven unequivocal objections against 20 supporters and two conditional supporters. He says officials shifted from “consensus” to undefined “rough consensus,” left procedural objections unanswered, and misjudged hybrid security, implementation complexity, and the signaling effect of standardization. Commenters split: supporters fear downgrade paths and immature implementations; critics see a legitimate optional standard, sufficient support, and rhetoric that weakens Bernstein’s procedural case.
 
 ### Comment pulse
-- Bernstein’s combative style may reduce influence → accusations alienate reviewers — counterpoint: dismissing substance because of tone reinforces his governance concern.
-- A pure option can serve federal deployments → NSA policy has distinct requirements — counterpoint: standardization may create downgrade pressure elsewhere.
+
+- ECC+ML-KEM hedges against either component failing → single-algorithm options remove that safety margin.
+- A 22-to-7 adoption split may qualify as rough consensus → counterpoint: unresolved objections matter beyond vote ratios.
 
 ### LLM perspective
-- View: Separate the procedural evidence from claims about motive, while testing downgrade and cryptographic risks on their merits.
-- Impact: A weak consensus record could damage trust in both post quantum deployment and IETF governance.
-- Watch next: Appeal outcomes, draft publication, downgrade analysis, hybrid adoption, and written responses to objections.
+
+- View: The technical dispute and process dispute should be evaluated separately; the essay deliberately intertwines them.
+- Impact: Ambiguous consensus rules can undermine trust even when a draft has a substantial majority.
+- Watch next: Written dispositions of objections, downgrade analysis, implementation audits, and final recommendations attached to any RFC.

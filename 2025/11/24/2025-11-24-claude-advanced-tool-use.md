@@ -3,13 +3,16 @@
 - Score: 275 | [HN](https://news.ycombinator.com/item?id=46038047) | Link: https://www.anthropic.com/engineering/advanced-tool-use
 
 ### TL;DR
-Anthropic introduced three beta mechanisms for tool heavy agents. Tool Search defers definitions until relevant, reducing context load; Programmatic Tool Calling lets Claude orchestrate, parallelize, and filter calls inside a Python sandbox; Tool Use Examples demonstrate valid parameter patterns. Anthropic reports sizable internal gains in token use and task accuracy, but each feature adds tradeoffs in latency, context visibility, or prompt size. They are complementary, yet teams should adopt only the mechanism matching a measured bottleneck and validate the reported benefits independently.
+
+Anthropic introduced three beta mechanisms for large agent toolsets: on-demand tool search, programmatic tool calls executed through generated code, and examples embedded in tool definitions. The first avoids loading every schema, the second keeps bulky intermediate results outside model context, and the third demonstrates parameter conventions that schemas cannot express. Anthropic reports internal gains in token use and tool accuracy, but these are first-party evaluations. Commenters propose GraphQL, typed SDKs, or direct code as simpler alternatives and question whether search adds avoidable complexity.
 
 ### Comment pulse
-- GraphQL may collapse catalogs into one tool → introspection exposes operations — counterpoint: large schemas can still bloat context.
-- Tool retrieval invites ranking games → providers may optimize descriptions for selection — counterpoint: typed SDKs avoid competitive discovery.
+
+- Selective discovery reduces context bloat → tool ranking, ambiguous overlap, and added latency become new failure modes.
+- Code orchestration makes loops and aggregation explicit → direct SDK or GraphQL access may achieve similar economy with less ceremony.
 
 ### LLM perspective
-- View: These features solve real scaling problems, but their benchmark gains remain vendor reported.
-- Impact: Well chosen combinations can lower token costs and improve reliable tool selection.
-- Watch next: Independent evaluations, retrieval failures, sandbox boundaries, prompt injection resistance, and end to end latency.
+
+- View: Each feature targets a distinct bottleneck; adopting all three by default would be premature.
+- Impact: Large-tool agents can spend context on decisions instead of schemas and raw intermediate records.
+- Watch next: Independent benchmarks, beta stability, security boundaries, and comparisons with typed-code and GraphQL designs.

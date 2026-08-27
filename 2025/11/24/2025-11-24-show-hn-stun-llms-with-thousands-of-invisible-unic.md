@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Gibberifier inserts large numbers of invisible Unicode characters between visible letters, claiming this preserves human readability while confusing or exhausting language models. The demonstration promotes it for obscuring prompts and resisting scraping, but discussion quickly exposed weak foundations: several current models decoded short samples, screenshots bypass the character layer, and simple preprocessing can strip the additions. Worse, the transformed text becomes nearly unusable for screen readers. Commenters also found an appended hidden instruction, suggesting some model refusals reflected prompt injection rather than genuine inability to parse Unicode.
+Gibberifier inserts thousands of zero-width Unicode characters into visible text, claiming to confuse language models, frustrate scraping, and consume tokens while preserving human appearance. User tests undermine any durable protection: several models decoded short examples, screenshots bypass the trick, and filtering the characters is straightforward. Longer payloads sometimes caused errors or irrelevant answers, apparently interacting with safety defenses. The strongest demonstrated effect is negative: screen readers can render the transformed text almost unintelligible, creating a serious accessibility failure.
 
 ### Comment pulse
 
-- Efficacy claims were challenged → multiple models decoded samples, and normalization or OCR defeats the trick. — counterpoint: longer inputs still triggered failures.
-- Accessibility criticism was unanimous → invisible characters make screen-reader output unintelligible despite leaving sighted rendering unchanged.
-- Hidden instructions changed the diagnosis → some refusals likely followed injected policy-like text rather than tokenizer failure.
+- Obfuscation is easily normalized → removing zero-width code points or using OCR restores the visible text.
+- Model behavior varies by length and interface → failures look inconsistent rather than a dependable anti-scraping boundary.
+- Accessibility bears the cost → screen readers vocalize or stumble over characters invisible to sighted readers.
 
 ### LLM perspective
 
-- View: This is brittle prompt injection and token amplification, not durable protection against machine reading.
-- Impact: Adoption could impose accessibility harms and processing costs while offering only temporary resistance to automated cleanup.
-- Watch next: Model input normalization, screen-reader behavior, and whether platforms detect or remove excessive zero-width characters.
+- View: This is an adversarial formatting curiosity, not meaningful control over copying or model ingestion.
+- Impact: Publishers adopting it could exclude assistive-technology users while imposing only a temporary preprocessing hurdle.
+- Watch next: Test normalization pipelines, tokenizers, screen readers, copy-paste behavior, and false positives on legitimate Unicode.

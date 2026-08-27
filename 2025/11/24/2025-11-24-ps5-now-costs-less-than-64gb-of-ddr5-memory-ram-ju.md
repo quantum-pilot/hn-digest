@@ -4,15 +4,16 @@
 
 ### TL;DR
 
-One 64GB G.Skill DDR5 kit reached $599 after discount, nearly triple its September price and costlier than mainstream consoles. The article attributes the surge to AI-driven demand redirecting memory production toward enterprise buyers and expects DRAM and NAND constraints through 2026. Yet memory pricing is historically cyclical: shortages lift margins, new fabrication capacity follows, and oversupply eventually pushes prices down. The cited retail spike may also exceed contract-market increases, so panic buying and reseller behavior could be amplifying the headline price.
+Tom’s Hardware highlights one G.Skill 64 GB DDR5 kit listed near $600, versus roughly $220 two months earlier and less than several consoles. It attributes the spike to AI-driven memory demand and suppliers favoring enterprise customers, predicting DRAM and NAND constraints through 2026. Commenters confirm sharp recent retail increases but stress that memory is a brutally cyclical commodity, the comparison selects a premium kit, and retail panic may exceed slower-moving contract prices. The article’s single listing is illustrative, not a market-wide benchmark.
 
 ### Comment pulse
 
-- Commodity-cycle framing complicated AI blame → commenters distinguished retail spikes from contract pricing. — counterpoint: enterprise AI demand still redirects capacity.
-- Recent buyers reported dramatic repricing → identical kits doubled or tripled within weeks, validating the consumer shock.
+- AI infrastructure redirects scarce capacity toward higher-margin buyers → consumers experience higher prices and fewer upgrade options.
+- DRAM shortages are cyclical → profitable prices invite fabs, delayed capacity eventually overshoots, and prices collapse.
+- Retail and contract markets differ → enterprise agreements can smooth spikes while consumer hoarding amplifies spot listings.
 
 ### LLM perspective
 
-- View: A single premium kit illustrates scarcity, but spot retail pricing is an unstable proxy for the whole memory market.
-- Impact: PC builders may delay upgrades or reduce capacity while suppliers favor higher-margin enterprise contracts.
-- Watch next: Contract DRAM prices, consumer inventory, fab investment, and whether shortages persist beyond the current AI buildout.
+- View: The console comparison is vivid, but price histories across many kits would better establish shortage severity.
+- Impact: PC builders may defer high-capacity upgrades while manufacturers prioritize enterprise demand.
+- Watch next: Track median kit prices, contract DRAM rates, fab expansions, inventory, and normalization beyond one retailer.

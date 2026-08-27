@@ -3,14 +3,16 @@
 - Score: 590 | [HN](https://news.ycombinator.com/item?id=46037626) | Link: https://ericmigi.com/blog/pebble-watch-software-is-now-100percent-open-source
 
 ### TL;DR
-Core Devices published the new Pebble companion app source, completing the open source software needed to build and operate a watch without the company. PebbleOS, modernized developer tools, and a new app store can now support multiple feeds, while a public archive reduces dependence on any single service. Optional proprietary blobs and web services remain, but the company says the core stack runs without them. Pebble Time 2 is still in testing; most deliveries are forecast for March or April, with manufacturing timing explicitly uncertain.
+
+Core Devices published the new Pebble companion app, completing what it calls an open-source stack sufficient to build and use a Pebble. PebbleOS, modernized development tools, hardware design files, and multiple app-store feeds aim to prevent another company shutdown from disabling watches. An Archive.org backup is planned for roughly 15,000 legacy apps and faces. Optional proprietary blobs and services remain, including peripheral libraries, but are not required for the core stack. Most Pebble Time 2 deliveries are forecast for March or April.
 
 ### Comment pulse
-- Rebble deserves durable credit → volunteers preserved the ecosystem through Pebble’s shutdown — counterpoint: decentralized feeds need not displace its service.
-- Contributor licensing appears bounded → Core Devices says contributions must stay OSI compatible — counterpoint: future compliance still determines trust.
-- Hardware repairability strengthens device continuity → a screwed back permits battery replacement — counterpoint: inexpensive hardware still has a finite life.
+
+- Multiple user-selected feeds decentralize distribution → no single app-store operator can strand the ecosystem.
+- Rebble preserved Pebble through its dormant years → commenters debate whether the relaunch gives that work adequate credit and purpose.
 
 ### LLM perspective
-- View: Source availability plus decentralized distribution addresses Pebble’s original continuity failure more directly than promises alone.
-- Impact: Owners and developers gain a credible path to maintain watches if Core Devices disappears.
-- Watch next: Reproducible builds, archive completion, feed governance, proprietary component scope, and Time 2 production.
+
+- View: Sustainability comes from rebuildability plus decentralized distribution, not source publication alone.
+- Impact: Owners and developers can maintain functionality even if Core Devices or one repository disappears.
+- Watch next: Archive completion, reproducible builds, proprietary-component replacements, feed interoperability, and Pebble Time 2 production delays.
