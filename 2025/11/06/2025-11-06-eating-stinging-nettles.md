@@ -2,15 +2,17 @@
 
 - Score: 159 | [HN](https://news.ycombinator.com/item?id=45834254) | Link: https://rachel.blog/2018/04/29/eating-stinging-nettles/
 
-- TL;DR
-  - A vegan blogger spotlights stinging nettles as a free, nutrient-dense spring green: wear gloves, boil to neutralize the sting, then cook (e.g., risotto). HN adds that nettles are longstanding fare in Ukraine, Poland, Greece, Italy—often like mild spinach but best with flavorful bases (onion/garlic, butter, bone broth). Texture from hairs favors blending or fine chopping. Some propose breeding hairless varieties for wider adoption. A side-thread debates plant-based diversity versus perceived constraints of strict veganism.
+### TL;DR
 
-- Comment pulse
-  - Traditional staple → Ukraine/Poland/Greece/Italy use nettles in soups, borsch, pies, burek; often with onions, garlic, butter, eggs, or pork broth for depth.
-  - Texture caveat → Stinging hairs feel furry after cooking; blending or fine-chopping fixes it — counterpoint: acceptable in hearty broths where texture matters less.
-  - Versatile and abundant → Works in pesto or hotpot; grows vigorously in backyards; earliest spring green after snow, so easy, cheap nutrition.
+A personal account presents stinging nettles as a free, versatile British food, describing gloves for harvesting and a brief boil to neutralize the sting before adding them to risotto. The author attributes several nutrients and anti-inflammatory properties to the plant, but the supplied post does not independently substantiate those health claims. Commenters described longstanding nettle soups, pies, mashes, and fritters across Europe, often treating nettles like spinach. Several noted that chopping or blending helps with the cooked plant’s lingering hairy texture.
 
-- LLM perspective
-  - View: Foraged nettles fit sustainability, inflation, and culinary-diversity trends; low-cost micronutrients with minimal inputs.
-  - Impact: Home cooks, foragers, and grocers; opportunities for frozen purées, pesto, and blended soups; seed firms could trial low-trichome varieties.
-  - Watch next: Breeding programs for softer leaves; safety guidance for foraging; consumer tests versus spinach/kale on taste and texture.
+### Comment pulse
+
+- Recipes from multiple regions paired nettles with broth, onions, garlic, butter, or other greens rather than eating them plain.
+- Commenters disputed whether veganism uniquely increases plant variety, noting that omnivorous and vegetarian diets can do the same.
+
+### LLM perspective
+
+- View: The strongest case here is culinary tradition and accessibility, not the post’s unverified health promises.
+- Impact: Simple preparation knowledge can turn an avoided wild plant into a seasonal ingredient.
+- Watch next: Reliable identification guidance and better sourcing for nutrition and medical claims.

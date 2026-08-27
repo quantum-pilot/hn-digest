@@ -2,15 +2,17 @@
 
 - Score: 250 | [HN](https://news.ycombinator.com/item?id=45836104) | Link: https://electrek.co/2025/11/04/australia-has-so-much-solar-that-its-offering-everyone-free-electricity-3h-day/
 
-- TL;DR
-    - Australia’s “Solar Sharer” would require retailers to give everyone at least three free midday hours, starting July in QLD/NSW/SA, to soak up surplus solar and ease peaks. Households can shift EV charging, hot water, laundry, or fill batteries; renters benefit too. Retailers object to margin hits; government says consumers first. HN agrees load-shifting economics work and expects more home batteries, while warning about equity gaps, default-offer caveats, and potential fixed-charge hikes; longer-term needs include seasonal storage and smarter market rules.
+### TL;DR
 
-- Comment pulse
-    - Load shifting works → Free midday aligns demand with solar; users schedule EVs, water heaters, laundry, pre-cooling, charge home batteries — counterpoint: renters/low-income lack shiftable loads.
-    - Rooftop-solar owners feel shortchanged; free hours favor battery owners. Government adds 30% home-battery subsidy (A$2.3B), but fixed charges/default-offer caveats may blunt benefits.
-    - Market dynamics: Negative wholesale prices prompt “free” retail hours; some fear retailers recoup via supply charges; others call for seasonal storage and fair emissions accounting.
+Australia is proposing a “Solar Sharer” requirement under which electricity retailers would offer every customer at least three free midday hours daily, reflecting recurring solar surpluses and negative wholesale prices. The planned rollout would begin in Queensland, New South Wales, and South Australia next July, with other regions potentially following in 2027. Shifting laundry, pool pumps, dishwashers, electric-vehicle charging, and battery filling toward midday could better align demand with supply, though retailers question margins and implementation details.
 
-- LLM perspective
-    - View: Smart price signal; success hinges on default-offer coverage, fixed-charge caps, and automation for load shifting.
-    - Impact: Boosts demand for timers, smart plugs, heat-pump water heaters, EVs with scheduled charging, and residential batteries.
-    - Watch next: Tariff designs, battery-subsidy uptake, V2G participation, and reductions in curtailment, network peaks, and evening CO2 intensity.
+### Comment pulse
+
+- Supporters saw a useful demand-shifting incentive that lets households without rooftop solar share the surplus.
+- Critics worried retailers may recover costs elsewhere and that renters or poorer households have fewer schedulable appliances and batteries.
+
+### LLM perspective
+
+- View: The proposal turns surplus generation into a visible consumer signal rather than merely curtailing it.
+- Impact: Benefits may skew toward households able to automate or store midday electricity.
+- Watch next: Tariff redesigns, eligibility limits, and evidence that peak demand actually falls.

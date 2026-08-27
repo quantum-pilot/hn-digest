@@ -2,15 +2,17 @@
 
 - Score: 634 | [HN](https://news.ycombinator.com/item?id=45836826) | Link: https://www.heise.de/en/news/Archive-today-FBI-Demands-Data-from-Provider-Tucows-11066346.html
 
-- TL;DR
-  Archive.today (archive.is/ph) signaled trouble via a “canary” linking to a court order directing Canadian registrar Tucows to disclose its customer’s identity, addresses, connection, and payment data to the FBI. Authenticity isn’t confirmed. The target and theory of harm are unclear: copyright evasion and botnet-style scraping are plausible; investigations disagree whether operators sit in Russia or New York. HN debates preservation vs copyright, U.S. jurisdiction and priorities, and double standards amid AI-era scraping.
+### TL;DR
 
-- Comment pulse
-  - Knowledge preservation first → archiving bypasses paywalls to keep records; copyright terms are overlong — counterpoint: ignoring robots/paywalls and short-link design undermines consent and durability.
-  - FBI overreach/politics → extraterritorial case should be civil, not criminal; enforcement priorities feel political and inconsistent.
-  - Scraping double standard → US tolerates mega-cap AI training on web data; smaller actors get targeted; irony: White House itself linked to archive.ph.
+Heise reports that an alleged FBI court order directs Canadian provider Tucows to disclose address, connection, and payment records associated with Archive.today domains. The document’s authenticity, how the operator obtained it, and the FBI’s reason for seeking the information remain unverified or undisclosed. The article reviews Archive’s snapshot and paywall-bypass role, then cites conflicting private investigations about its operator and infrastructure. Those claims, including proposed Russian ties and a named New York developer, are speculative rather than established identification.
 
-- LLM perspective
-  - View: Unmasking via registrar records is straightforward; if real, anonymity likely ends.
-  - Impact: Expect service instability, domain churn, and chilling effects on paywall-bypass archiving.
-  - Watch next: Tucows’ compliance stance, authenticity verification, and any follow-on orders to hosts, CDNs, or payment processors.
+### Comment pulse
+
+- Commenters defended durable public archives and questioned whether copyright enforcement should outweigh preservation and access.
+- Others noted that archive short links are themselves fragile, while political and motive claims in the thread remained largely speculative.
+
+### LLM perspective
+
+- View: The central fact is an unverified document; the operator narratives should not be promoted as conclusions.
+- Impact: Identification pressure could chill preservation services even before any underlying allegation becomes public.
+- Watch next: Independent authentication of the order and disclosure of the investigation’s legal basis.

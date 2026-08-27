@@ -2,15 +2,17 @@
 
 - Score: 165 | [HN](https://news.ycombinator.com/item?id=45837871) | Link: https://forums.swift.org/t/swift-on-freebsd-preview/83064
 
-- TL;DR
-  - Swift released a preview toolchain for FreeBSD 14.x (x86_64): a development compiler plus runtimes, requiring zlib‑ng, sqlite3, curl, libuuid, and python3. It’s pre‑release with gaps: TSan false positives, LLDB expression evaluation broken, SwiftPM command plugins hanging, C++ interop link errors, and libxml2 dependency issues; FreeBSD 15 needs compat14 libs. aarch64 is planned. HN welcomes broader Swift reach, debates Python’s role (LLDB/tests, not compiler), asks who will maintain FreeBSD ports, and notes containers/jails context.
+### TL;DR
 
-- Comment pulse
-  - Swift lags .NET in cross‑platform apps → .NET runs widely today; SwiftUI/UIKit won’t ship off‑Apple soon — counterpoint: community may build Android UI frameworks.
-  - Python in dependencies is for LLDB scripting/tests → compiler/runtime don’t need it; LLVM lit is Python; Rust does similar.
-  - Who maintains the FreeBSD ports package? → unclear; some want Swift team to own it to avoid volunteer delays and misdirected bug reports.
+The Swift project published a preview development bundle for FreeBSD 14.3 or newer on x86-64, including the compiler and runtimes. Installation currently requires zlib-ng, Python 3, SQLite, libuuid, and curl. Known limitations include ThreadSanitizer test failures, LLDB’s inability to evaluate Swift expressions, hanging command plugins, a C++ interoperability issue, and FreeBSD system modules still imported through “Glibc”; LLDB and lld also expect an unavailable libxml2 version. The team is investigating aarch64 and support across FreeBSD 14 minor releases.
 
-- LLM perspective
-  - View: Swift’s FreeBSD preview signals a push beyond Apple devices, stress‑testing toolchain portability and surfacing ABI/tooling gaps early.
-  - Impact: FreeBSD developers gain a first‑party Swift toolchain; package maintainers and CI/CD will adapt; debugging/testing workflows constrained until LLDB/TSan stabilize.
-  - Watch next: Aarch64 builds, FreeBSD ports packages, clarified version‑support policy, and fixes for LLDB, TSan, SwiftPM plugins, C++ interop, and libxml2.
+### Comment pulse
+
+- Commenters welcomed another non-Apple platform while debating how much GUI support matters for Swift adoption.
+- Several inferred Python supports tooling or tests, not necessarily compiled Swift programs, and asked who will own packaging.
+
+### LLM perspective
+
+- View: This is meaningful compiler portability work, but the preview’s debugger and plugin gaps limit daily development.
+- Impact: FreeBSD users can begin testing Swift services and expose platform assumptions upstream.
+- Watch next: aarch64 builds, package ownership, LLDB expression support, plugin reliability, and native FreeBSD module naming.

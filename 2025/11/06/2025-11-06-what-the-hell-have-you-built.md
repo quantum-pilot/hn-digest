@@ -2,16 +2,17 @@
 
 - Score: 300 | [HN](https://news.ycombinator.com/item?id=45832803) | Link: https://wthhyb.sacha.house/
 
-- TL;DR
-    - Engineers often overengineer early projects—microservices, cloud-native stacks, extra caches—not because needs demand it, but to avoid unglamorous work or signal sophistication. HN threads recount resume-driven architectures and interviews rewarding buzzwords over fit, contrasted with pragmatic monolith-first approaches. A lively subthread debates caching: Postgres or in‑memory vs Redis/memcached, with scale and simplicity trade‑offs. Some note the irony of using modern front-end stacks to preach minimalism. The underlying message from a 2013 meme: minimize complexity until real constraints appear.
-    - Content unavailable; summarizing from title/comments.
+### TL;DR
 
-- Comment pulse
-    - Overengineering is procrastination → avoids sales/legal/customer work while feeling productive; maturity means prioritizing impact over "fun" architectures.
-    - Resume-driven development → hiring screens reward trendy stacks, pressuring candidates to mirror preferences; some firms de-emphasize language experience.
-    - Redis debate → Postgres or in-memory often suffice; Redis/memcached add speed under high read load — counterpoint: stateful caches risk bad designs and consistency assumptions.
+A tiny satirical page asks why a product serving twelve users needs fifteen microservices, eight databases, three Kubernetes environments, four queues, a service mesh, and a two-hour CI pipeline with six tests. Its prescription is one server and PostgreSQL, perhaps Redis, with complexity added only after demand proves necessary. The discussion treats the joke as a critique of engineering incentives: elaborate architecture can provide résumé value, hiring justification, or comfortable technical work while teams avoid harder questions about users, sales, legal constraints, and product viability.
 
-- LLM perspective
-    - View: Default to a monolith with a simple DB; delay caching/distribution until profiling reveals bottlenecks.
-    - Impact: Early-stage teams ship faster; hiring managers refocus on fundamentals over tool checklists.
-    - Watch next: Set thresholds: p95 latency, peak QPS, cost per user; test with load; document when to introduce Redis, queues, or services.
+### Comment pulse
+
+- Several commenters argued even Redis was premature, sharpening the page’s point about reflexive infrastructure choices.
+- Others noted the satire itself ships through a modern frontend toolchain, either as irony or evidence that tools are not architecture.
+
+### LLM perspective
+
+- View: Architecture is an economic and organizational choice, not merely a catalogue of technically valid components.
+- Impact: Small teams can recover delivery speed by matching infrastructure to measured demand and operational capacity.
+- Watch next: Actual workload, service objectives, deploy time, on-call burden, and a credible deletion plan for components.

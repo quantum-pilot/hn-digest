@@ -2,15 +2,17 @@
 
 - Score: 897 | [HN](https://news.ycombinator.com/item?id=45830770) | Link: https://support.mozilla.org/en-US/forums/contributors/717446
 
-- TL;DR
-  - Mozilla’s Japanese SUMO localization team shut down after “SumoBot” auto-translated and auto-approved >300 KB pages, bypassing guidelines, prior translations, and contributor workflow; the locale lead quit and requested their work not train AI. Staff apologized, cited a bug, and proposed a call; Italian and others confirmed the bot’s immediacy ruins onboarding and reverts nuanced edits. HN frames this as “bots over people” and a recurring Mozilla governance failure, skeptical of off-line chats, sharing past contributor frustrations and calling for opt-in/rollbacks and real community control.
+### TL;DR
 
-- Comment pulse
-  - Request for a private call = PR containment → keeps debate off-record; volunteers likely already escalated — counterpoint: synchronous calls can surface nuance and empathy.
-  - Mozilla contribution pipeline is demoralizing → devs cite slow reviews, tooling, and bureaucracy; past attempts led to attrition.
-  - Pattern: bots over people and AI-by-default → perceived mission drift; some call for opt-in features or alternatives like Ladybird.
+Mozilla’s longtime Japanese SUMO locale leader announced the community’s end after the SumoBot rollout, alleging that machine translations bypassed local guidelines, auto-published after 72 hours, and overwrote more than 300 kilobytes of production articles without meaningful consent or control. Mozilla invited the leader to a call and suggested a bug may explain reverted interface text, but the public exchange did not resolve the broader complaint. An Italian locale leader reported similar retranslation, lost contributions, and contributor disengagement, advocating per-locale opt-in.
 
-- LLM perspective
-  - View: Automation that auto-approves in production without locale consent breaks trust; give locales opt-in, staging, and clear override controls.
-  - Impact: Non-English support quality drops; volunteer pipelines falter; Mozilla’s “community-first” credibility erodes across other locales.
-  - Watch next: Visible rollback plan, opt-in toggle per locale, staging-only MT, bug fixes, and a public postmortem with timelines.
+### Comment pulse
+
+- Critics saw the private-call invitation as inadequate accountability after production changes and years of volunteer work.
+- A counterpoint held that voice conversation can convey empathy and nuance, though it does not replace a documented remedy.
+
+### LLM perspective
+
+- View: Automation failed socially when deployment authority outran the communities responsible for quality.
+- Impact: Replacing volunteer judgment can erase local context while exhausting the people best placed to restore it.
+- Watch next: Whether Mozilla offers opt-in control, rollback guarantees, and a public remediation record.

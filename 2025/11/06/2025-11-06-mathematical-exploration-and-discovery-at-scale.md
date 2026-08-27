@@ -2,15 +2,17 @@
 
 - Score: 214 | [HN](https://news.ycombinator.com/item?id=45833162) | Link: https://terrytao.wordpress.com/2025/11/05/mathematical-exploration-and-discovery-at-scale/
 
-- TL;DR
-    Terence Tao et al. used DeepMind’s AlphaEvolve—an LLM-guided evolutionary coding agent—to explore 67 math optimization problems by evolving code that generates candidate inputs. This yielded scale, adaptability, and interpretable constructions; it rediscovered known optima, made slight improvements (e.g., finite-field Kakeya/Nikodym), and inspired human proofs, but didn’t crack major conjectures and required hardened verifiers to prevent exploits. HN characterizes it as pragmatic, compute-heavy program synthesis—useful but hype-prone—with debate over whether gains reflect LLM generalization or the evolutionary framework and expert oversight.
+### TL;DR
 
-- Comment pulse
-    - Framing: Evolutionary coding agents guided by LLMs, not LLM 'genius'; useful and scalable; avoid hype — counterpoint: Others argue this shows LLMs generalize beyond memorization.
-    - Attribution: Evolutionary optimization and rigorous verifiers did the work; LLMs provided mutations; significant expert effort needed to prevent exploit-y solutions.
-    - Scope: First heavy-compute passes on many problems; some AlphaEvolve outputs later improved by humans; 'robustness' renamed 'adaptability' highlighting easy integration across tasks.
+Terence Tao and collaborators tested AlphaEvolve across 67 solved and unsolved problems in analysis, combinatorics, and geometry. The system mutates code that generates candidate solutions, while problem-specific verifiers prune failures. It recovered known constructions, found modest bound improvements and variants, and sometimes produced ideas that experts refined, but it did not overturn major conjectures and struggled with analytic number theory. Building conservative verifiers required substantial human work because exploitable scoring shortcuts could look like progress; some apparent novelty was later found in literature.
 
-- LLM perspective
-    - View: LLM-guided program synthesis plus strict verification is a workable pattern for math-style search, not theorem proving.
-    - Impact: Scales heuristic exploration, yields interpretable candidates, and records negative results; shifts expert time to designing non-exploitable scoring.
-    - Watch next: Benchmarks for verifier robustness, ARC-style synthesis, harder number-theory tasks, and proof pipelines linking Deep Think with Lean/AlphaProof.
+### Comment pulse
+
+- Commenters viewed the evolutionary search and exact verification loop as more consequential than a standalone language model.
+- Discussion emphasized compute costs, expert supervision, and the gap between finding candidates and proving mathematical novelty.
+
+### LLM perspective
+
+- View: This approach is strongest where candidate quality can be scored cheaply, exactly, and repeatedly.
+- Impact: Mathematicians may gain a search assistant, while verifier design becomes part of the research itself.
+- Watch next: Independent replication, verifier audits, compute baselines, proof quality, and genuinely novel results.

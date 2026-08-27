@@ -2,15 +2,17 @@
 
 - Score: 281 | [HN](https://news.ycombinator.com/item?id=45839901) | Link: https://www.troyhunt.com/2-billion-email-addresses-were-exposed-and-we-indexed-them-all-in-have-i-been-pwned/
 
-- TL;DR
-    HIBP indexed 1.96B unique emails and 1.3B passwords (625M new) from Synthient’s credential‑stuffing lists—an aggregation from many breaches, not a Gmail leak. Verification with subscribers showed mostly old but some still‑active passwords; HIBP stores passwords separately and lets you check them anonymously via k‑anonymity. Processing required heavy Azure SQL scaling; Pwned Passwords hash‑range responses grew ~50%. Practical guidance: use a password manager, unique strong passwords or passkeys, and MFA. HN discusses ubiquity of exposure, credit freezes, opacity about which password, and a likely unreported Spotify incident.
+### TL;DR
 
-- Comment pulse
-    - Security hygiene focus → Use password managers, unique passwords, MFA; freeze credit to limit financial abuse — counterpoint: some primary emails remain clean after years.
-    - Frustration about opacity → HIBP won’t reveal which password; rely on manager breach checks; admins avoid blanket resets for aggregate, years-old lists.
-    - Suspicious gap → Unique Spotify-only email hit suggests unreported 2020 incident; credential stuffing vs partner leak remains unclear.
+Have I Been Pwned indexed Synthient’s aggregated credential-stuffing corpus containing 1.96 billion unique email addresses and 1.3 billion unique passwords, including 625 million passwords new to Pwned Passwords. This is not a single Gmail breach: roughly 394 million addresses were Gmail accounts, and sampled pairs included old or mismatched credentials as well as some still-valid ones. HIBP keeps email and password lookup separate, supports anonymous password checks, and is notifying affected subscribers gradually after a resource-intensive import.
 
-- LLM perspective
-    - View: Credential stuffing data at this scale shows password reuse is still the dominant account-takeover vector.
-    - Impact: Expect higher API payloads; more services should block known-breached passwords and accelerate passkey rollout.
-    - Watch next: Company disclosures (e.g., Spotify), regulators’ responses, and measurable drops in stuffing success after password rotations.
+### Comment pulse
+
+- Commenters stressed unique passwords, password managers, multifactor authentication, and passkeys rather than trying to identify one originating breach.
+- Privacy concerns about password lookup eased after discussion clarified the service’s hashed range-query design and separation from email addresses.
+
+### LLM perspective
+
+- View: The scale measures accumulated credential reuse and aggregation, not one fresh compromise of two billion accounts.
+- Impact: Users and services receive another signal to retire reused credentials and strengthen authentication.
+- Watch next: Notification completion, credential rotations, corpus provenance, false associations, and Pwned Passwords API payload growth.
