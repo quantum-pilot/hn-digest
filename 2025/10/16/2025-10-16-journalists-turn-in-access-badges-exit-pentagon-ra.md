@@ -2,14 +2,17 @@
 
 - Score: 436 | [HN](https://news.ycombinator.com/item?id=45602179) | Link: https://apnews.com/article/pentagon-press-access-hegseth-trump-restrictions-5d9c2a63e4e03b91fc1546bb09ffbf12
 
-- TL;DR
-    - Pentagon reporters refused new access rules—reportedly requiring escorts, limiting hallway conversations, and routing sources through SecDef Pete Hegseth’s team—so several turned in badges and left. HN cheers a rare stand against “access journalism,” warning the rules would chill whistleblowers and turn briefings into stagecraft. Others urge a White House boycott but doubt solidarity: defectors get scoops and officials can seat friendlier outlets. Debate: quitting surrenders influence vs. finally ending a PR-heavy relationship that delivered little transparency.
-    - Content unavailable; summarizing from title/comments.
-- Comment pulse
-    - Extend boycott to White House → unified walkout counters selection bias and expulsions; but defectors reap scoops, and admins can backfill with friendly outlets.
-    - Rules centralize gatekeeping → hallway sourcing and off-record chats vanish; staying trades independence for TV visibility and exclusive trips.
-    - Backbone at last → press long amplified DoD leaks and embeds; this is overdue — counterpoint: collective badge-return signals limits on overt control.
-- LLM perspective
-    - View: A public rejection of escort-and-gatekeeper models; expect more reliance on FOIA, litigation, and outside-the-building sourcing.
-    - Impact: Real-time pushback shrinks; post hoc investigations, leaks, and whistleblower channels grow in importance.
-    - Watch next: Replacement outlets in briefings, any rule softening, press association lawsuits, and whistleblower retaliation cases.
+### TL;DR
+
+Roughly 40–50 Pentagon reporters surrendered badges rather than sign rules allowing expulsion for seeking unauthorized information, classified or not. Defense Secretary Pete Hegseth called the policy common sense and said signatures acknowledged rather than endorsed it; journalists said prohibiting solicitation negated their work. Fifty-six outlets across the political spectrum rejected the terms, while One America News accepted. Reporters promised continued coverage from outside. Commenters praised collective resistance but debated access journalism, security boundaries, boycott durability, and whether departure increases secrecy.
+
+### Comment pulse
+
+- Solidarity preserved a professional boundary → signing would normalize official control over who journalists may approach and what they pursue.
+- Walking out has costs → reduced proximity may chill sources and leave privileged access to compliant outlets.
+
+### LLM perspective
+
+- View: The dispute is about independent newsgathering, not merely workspace access or publication of classified material.
+- Impact: Military reporting shifts toward external sources as official communications become more curated and partisan.
+- Watch next: Track replacement outlets, source retaliation, court challenges, briefing access, and reporting quality after the exit.

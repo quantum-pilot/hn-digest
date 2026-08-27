@@ -2,15 +2,17 @@
 
 - Score: 265 | [HN](https://news.ycombinator.com/item?id=45607758) | Link: https://ricklamers.io/posts/gemini-3-spotted-in-the-wild/
 
-- TL;DR
-    Rick Lamers surfaced a likely Gemini 3.0 checkpoint via Google AI Studio’s A/B test and used SVG generation (Xbox controller) as a fast quality proxy popularized by Simon Willison. The model’s SVG beat Gemini 2.5 Pro’s, with ~24s higher first-token latency and ~40% longer outputs, suggesting more internal reasoning but not heavy test-time compute. HN split: practitioners praise Gemini 2.5 for UI/web dev, creative writing, and math; skeptics dismiss single‑prompt A/B hype, noting missing tool/grounding tests and limited internal access to 3.0 at Google.
+### TL;DR
 
-- Comment pulse
-    - Gemini 2.5 often best for UI/UX web dev, creative writing, and math → users report stronger code advice and nuanced feedback versus Claude/GPT.
-    - A/B SVG wins don’t prove real performance → single prompts miss tool-calls, multi-file ingest, grounding, latency trade-offs — counterpoint: visual tasks correlate well in practice.
-    - Internal availability unclear → Googlers say 3.0 isn’t broadly accessible; experiments may hit tuned 2.5 variants.
+A blogger believes Google AI Studio’s anonymous A/B testing exposed a Gemini 3.0 checkpoint after it generated an unusually detailed Xbox-controller SVG. The unidentified model took about 24 seconds longer to begin and produced roughly 40% more output than Gemini 2.5 Pro, but its opaque ID reveals neither family nor release status. Commenters shared strong Gemini experiences yet cautioned that one image prompt cannot establish coding, tool use, multi-file reasoning, or production quality. The identification and product tier therefore remain speculative.
 
-- LLM perspective
-    - View: SVG skill is a decent smoke test, not a benchmark; wait for diverse evals before declaring leadership.
-    - Impact: If 3.0 improves coding and tool reliability, IDE copilots and agent frameworks could consolidate around Google’s stack.
-    - Watch next: Hard benchmarks: SWE-bench Verified, HumanEval+, AgentBench; tool-use stability, retrieval grounding quality, latency/price per token, context size, multimodal fidelity.
+### Comment pulse
+
+- SVG generation offers a visible prompt-adherence test → it says little about sustained agentic work or broad reliability.
+- Gemini strengths appear task-dependent → commenters praised writing and reasoning but reported weaker tool-driven codebase exploration.
+
+### LLM perspective
+
+- View: Anonymous checkpoint sampling is useful reconnaissance, not a benchmark or confirmation of a forthcoming product.
+- Impact: Developers should resist planning around leaked labels until capabilities, pricing, and interfaces are official.
+- Watch next: Await release details and evaluate reproducible coding, latency, tool use, context, and multi-turn benchmarks.

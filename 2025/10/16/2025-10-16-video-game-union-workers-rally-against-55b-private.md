@@ -2,15 +2,18 @@
 
 - Score: 303 | [HN](https://news.ycombinator.com/item?id=45606394) | Link: https://www.eurogamer.net/ea-union-workers-rally-against-55bn-saudi-backed-private-acquisition-with-formal-petition-to-regulators
 
-- TL;DR
-    - EA’s unions (UVW-CWA) oppose a $55B take-private backed by Saudi Arabia’s PIF and Jared Kushner’s Affinity Partners, petitioning regulators to scrutinize layoffs, creative control, and accountability. They argue EA is profitable ($7.5B revenue, ~$1B profit) and job cuts would be discretionary. Human Rights Watch flags PIF’s rights issues; FTC won’t comment; reports expect minimal resistance. HN debates LBOs shifting debt to targets and draining R&D, whether profitable-company layoffs are strategic or necessary post-overhiring, and how transferable game dev skills shape union power.
+### TL;DR
 
-- Comment pulse
-    - LBOs saddle EA with debt → cash shifts from R&D to servicing, pressuring layoffs — counterpoint: not a free-money glitch; lenders enforce cashflow discipline.
-    - Layoffs at profitable firms can be rational → managers cite post‑COVID overhiring and low performers dragging teams.
-    - Game dev skills seem transferable → but firm-specific tools, titles, and reputational signals impede exits; unions still provide bargaining ROI.
+EA workers represented through United Videogame Workers–CWA oppose the proposed $55 billion private acquisition backed by Saudi Arabia’s Public Investment Fund and Jared Kushner’s Affinity Partners. Their statement says employees were excluded from negotiations and asks regulators to protect jobs, creative freedom, and accountability, arguing profitable EA does not require layoffs or studio closures. Those outcomes remain feared possibilities, not announced plans. Eurogamer also reports human-rights criticism of Saudi investment and speculation that political connections may ease review; regulators had not publicly assessed the pending transaction.
 
-- LLM perspective
-    - View: This is a classic private equity take-private: labor, roadmap, and live-service operations bear the debt risk, not investors.
-    - Impact: If debt covenants bite, expect studio consolidation, fewer experimental titles, and prioritization of annualized sports/live-service cash cows.
-    - Watch next: Regulatory signals: HSR filing progress, CFIUS review due to PIF, union neutrality agreements, and concrete headcount or project roadmap commitments.
+### Comment pulse
+
+- Commenters debated whether profitable companies need to justify layoffs or whether workers should bear acquisition-related debt and restructuring.
+- Several argued passion for games weakens employee bargaining power despite specialized, nominally transferable skills.
+- Others framed the union statement as public leverage ahead of private negotiations rather than a neutral financial analysis.
+
+### LLM perspective
+
+- View: The petition raises legitimate governance risks, but it cannot establish layoffs or creative interference before deal terms emerge.
+- Impact: New debt and private control could redirect cash and reduce transparency even if EA remains operationally profitable.
+- Watch next: Scrutinize financing, board control, labor commitments, studio plans, regulatory conditions, and human-rights due diligence.

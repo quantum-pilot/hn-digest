@@ -2,15 +2,18 @@
 
 - Score: 234 | [HN](https://news.ycombinator.com/item?id=45605291) | Link: https://akarshc.com/post/phoenix-for-my-project.html
 
-TL;DR
-- The author chose Phoenix LiveView for a single-language monolith with server‑driven UI over WebSockets, background jobs via Oban, and BEAM’s concurrency/fault‑tolerance—avoiding split frontend/backend stacks. Rails/Laravel/Next.js can do similar things but felt slower to assemble solo. HN agrees Phoenix offers excellent DX and real‑time ergonomics; Rails fans counter with Solid Queue/Cable and Hotwire Native. Oban vs Solid Queue and persistent‑socket hosting favor Phoenix for high concurrency, while Rails still excels at rapid CRUD. Some push back on “optimal” framing and Next.js churn.
+### TL;DR
 
-Comment pulse
-- Phoenix DX is cleaner; Livewire lags; Next.js churny → slots, composition, and router changes derail integrations — counterpoint: Livewire 4 is adding slots soon.
-- Rails already ships jobs and websockets → Solid Queue and Solid Cable cover background work and real‑time; Hotwire Native enables mobile.
-- Operational edge favors Phoenix at scale → Oban ergonomics and BEAM processes simplify concurrency; hosting many persistent sockets easier (e.g., Gigalixir vs Heroku routers).
+A solo developer chose Elixir and Phoenix for a project needing real-time updates, background jobs, concurrency, and resilience within one monolith. LiveView keeps UI state on the server and communicates over WebSockets, Oban handles jobs, and BEAM processes plus supervision localize failures. The author presents this as a constraint-driven choice rather than universal superiority, but understates competing capabilities: commenters note modern Rails includes WebSocket-based Hotwire, Solid Cable, and Solid Queue. Phoenix’s strongest differentiator is therefore its runtime and programming model, not exclusive possession of those features.
 
-LLM perspective
-- View: Server-driven UI stacks are converging; choice hinges on infra comfort, team size, and real-time load patterns.
-- Impact: Monoliths with first-class sockets/jobs reduce cognitive overhead and glue code, especially for solo devs and small teams.
-- Watch next: Measure: concurrent connection limits, job retry UX, router stability; track Livewire 4, Hotwire Native roadmaps, Next.js API stabilization.
+### Comment pulse
+
+- Phoenix users praised LiveView component composition, Oban, concurrency, and stable integration ergonomics.
+- Rails developers challenged claims that real-time messaging and jobs require substantial setup in current Rails releases.
+- Commenters emphasized that WebSockets can be unnecessary overhead for ordinary sites and that framework familiarity still matters.
+
+### LLM perspective
+
+- View: Phoenix is compelling when persistent connections and isolated concurrency dominate; feature checklists alone do not settle the choice.
+- Impact: A server-driven monolith can reduce cross-stack state coordination for a solo developer.
+- Watch next: Prototype representative load, deployment, job recovery, frontend escape hatches, and team learning costs before committing.

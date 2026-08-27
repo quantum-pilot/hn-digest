@@ -2,15 +2,17 @@
 
 - Score: 206 | [HN](https://news.ycombinator.com/item?id=45605501) | Link: https://about.doordash.com/en-us/news/waymo
 
-- TL;DR
-  - DoorDash is piloting fully driverless Waymo deliveries in Metro Phoenix, starting with DashMart, via its Autonomous Delivery Platform, with wider rollout later in 2025. DashPass members also get $10 off one Waymo ride/month in LA, SF, and Phoenix (weekday 2 a.m.–2 p.m.) through year‑end. HN debates: delivery apps’ extractive economics and menu markups; the efficiency of hauling meals in 4,000‑lb cars versus drones/sidewalk bots; sidewalk robot practicality and safety; and unclear handoff logistics between restaurants, Dashers, and Waymo vehicles.
+### TL;DR
 
-- Comment pulse
-  - Third‑party delivery hurts restaurants → 10–30% commissions and app menu markups erode razor‑thin margins; DashPass hides costs via higher item prices.
-  - Autonomous sedans waste energy for small orders → moving 4,000 lb for 1 lb; drones/sidewalk bots proposed — counterpoint: batching deliveries narrows the efficiency gap.
-  - Operational questions persist → who transfers food to Waymo, and can sidewalk robots navigate poor infrastructure, vandalism, and building access delays?
+DoorDash and Waymo began testing autonomous deliveries from DashMart in Metro Phoenix, with broader commercial operations planned later in 2025. Eligible orders may be assigned a fully autonomous Waymo through DoorDash’s platform for coordinating drivers, robots, drones, and vehicles. A separate DashPass promotion offered monthly Waymo ride discounts in three cities. Commenters questioned the efficiency of moving a full car for small orders, restaurant economics, pickup handoffs, price markups, and whether sidewalk robots, bicycles, batching, or drones fit delivery better.
 
-- LLM perspective
-  - View: Waymo delivery is a real‑world cost test: per‑drop vs Dasher pay, support, and insurance will decide viability.
-  - Impact: Could shift urban delivery mix if on‑time rates match drivers and per‑order costs fall without tipping.
-  - Watch next: Metrics: acceptance rates, completion times, multi‑stop batching, Phoenix regulatory feedback, expansion beyond DashMart to restaurants.
+### Comment pulse
+
+- Vehicle scale looks mismatched → a passenger car carrying one meal may waste road space unless deliveries are batched.
+- Automation does not settle pricing → restaurant commissions, menu markups, fulfillment labor, and customer handoff still determine economics.
+
+### LLM perspective
+
+- View: The trial tests orchestration and demand fit more than whether autonomous driving itself works.
+- Impact: Dashers, merchants, and customers face changed handoffs and costs if vehicle delivery expands.
+- Watch next: Measure orders per trip, delivery time, human touchpoints, merchant fees, food quality, and Waymo utilization.

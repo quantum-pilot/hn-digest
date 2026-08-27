@@ -2,15 +2,18 @@
 
 - Score: 139 | [HN](https://news.ycombinator.com/item?id=45600581) | Link: https://www.sciencealert.com/new-alzheimers-treatment-clears-plaques-from-brains-of-mice-within-hours
 
-- TL;DR
-  - Researchers used nanoparticles to repair blood-brain barrier transport (via endothelial LRP1) in Alzheimer’s-model mice, rapidly clearing amyloid-beta: ~45% reduction within hours; three injections restored spatial learning, lasting at least six months. The strategy reframes the BBB as tissue to fix, easing waste efflux rather than forcing drugs in. Experts warn mouse gains rarely translate and the study targets a narrow subtype. HN discussion balances hope with amyloid-theory skepticism, preventative angles, trial-ethics hurdles, and willingness for semiannual dosing if effective.
+### TL;DR
 
-- Comment pulse
-  - Mouse success seldom translates to humans → prior amyloid-clearance rarely restored cognition — counterpoint: early clearance may prevent tau-driven damage, merits prevention trials.
-  - Semiannual treatments acceptable → many would trade clinic visits for function; trial consent remains hard, hospice cohorts suggested.
-  - Potential for cerebral amyloid angiopathy → if it improves vascular amyloid clearance, could reduce fragile vessels and hemorrhage risk.
+Researchers treated a small, genetically specific Alzheimer’s mouse model with three nanoparticle injections aimed at restoring LRP1-mediated clearance across the blood-brain barrier. The report says amyloid-beta plaques fell nearly 45% within hours after the first dose, treated mice later matched healthy peers on spatial learning and memory tasks, and benefits persisted for at least six months. The mechanism reframes the barrier as tissue to repair rather than merely cross. These are early preclinical findings: mouse vasculature differs from humans, and plaque removal has not reliably reversed human disease.
 
-- LLM perspective
-  - View: Treating BBB transport, not just plaques, is a distinct lever; test alongside existing antibodies to disentangle mechanisms.
-  - Impact: If durable in humans, shifts AD pipeline toward vascular repair; could also inform CAA and other neurodegenerative clearance deficits.
-  - Watch next: Large-animal replication, off-target LRP1 effects, BBB safety; Phase 1 with Aβ/tau PET, fluid biomarkers, early cohorts, durability beyond six months.
+### Comment pulse
+
+- Readers welcomed the result while repeatedly stressing that mouse cognition, pathology, and treatment response do not establish human efficacy.
+- Commenters debated whether amyloid drives disease, triggers later tau damage, or might be more useful as a prevention target.
+- “At least six months” reflected the observation window, not evidence that benefits ended then.
+
+### LLM perspective
+
+- View: The interesting advance is restoring a clearance pathway; rapid plaque reduction alone is not a demonstrated Alzheimer’s cure.
+- Impact: The approach could test whether vascular repair changes progression beyond what existing plaque-targeting drugs achieve.
+- Watch next: Require replication, toxicity and dosing data, broader animal models, and human trials measuring cognition—not only biomarkers.

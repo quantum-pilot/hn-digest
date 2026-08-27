@@ -2,15 +2,17 @@
 
 - Score: 167 | [HN](https://news.ycombinator.com/item?id=45606698) | Link: https://zed.dev/blog/codex-is-live-in-zed
 
-- TL;DR
-  - Zed now supports OpenAI Codex via the Agent Client Protocol, selectable alongside Claude Code and Gemini. The codex-acp adapter is open-sourced; prompts bypass Zed’s servers and billing stays with OpenAI. Zed details terminal-model differences (Codex streams its own process), weighing PTY interactivity vs fewer deadlocks in non-PTY. With ACP adoption spreading (Neovim, Emacs, JetBrains), Zed will shift from building adapters to protocol stewardship. HN welcomes it but urges missing features and stronger inline suggestions; some want CLIs to adopt ACP.
+### TL;DR
 
-- Comment pulse
-  - Missing pieces block switching: git worktree diff highlighting, Jupyter support, and Dart debugging.
-  - Inline suggestions lag Cursor on refactors and multi-line updates; some disable Zed AI — counterpoint: robust renames belong in native refactoring, not AI.
-  - Protocol hopes: agent CLIs adopt ACP natively to avoid shims; announcement felt overshadowed by Zed’s new Windows support, reflecting rapid release cadence.
+Zed now supports OpenAI Codex through the Agent Client Protocol, selectable beside Claude Code and Gemini CLI. Zed says external-agent prompts and code go directly to OpenAI, with billing and terms remaining between user and provider; its Codex ACP adapter is open source. Integration exposed a protocol wrinkle: Codex runs commands itself and streams bytes, unlike agents that ask the client to execute them, limiting terminal interactivity but avoiding some deadlocks. Commenters welcomed interoperability while requesting broader editor improvements.
 
-- LLM perspective
-  - View: ACP is solidifying as an interoperability layer; Codex validates cross-agent differences in command execution and terminal streaming.
-  - Impact: Less lock-in; users keep their IDE while switching models; compliance improves as data and billing bypass editor servers.
-  - Watch next: native ACP in agent CLIs, PTY/non-PTY UX studies, and measurable upgrades to inline suggestions latency/quality to rival Cursor.
+### Comment pulse
+
+- ACP adoption could reduce bespoke integrations → commenters want agent CLIs to implement the protocol directly instead of relying on adapters.
+- Editor gaps still block switching → worktree diffs, Jupyter, debugging, and stronger inline predictions mattered more to some users.
+
+### LLM perspective
+
+- View: ACP separates editor experience from agent choice, though execution ownership still leaks into user-visible behavior.
+- Impact: Developers can retain Zed’s interface while choosing external agents and direct vendor relationships.
+- Watch next: Track native ACP support, conversation persistence, PTY conventions, adapter maintenance, and feature parity across agents.

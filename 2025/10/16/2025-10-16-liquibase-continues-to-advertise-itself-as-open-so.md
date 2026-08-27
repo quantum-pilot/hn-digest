@@ -2,15 +2,17 @@
 
 - Score: 324 | [HN](https://news.ycombinator.com/item?id=45602676) | Link: https://github.com/liquibase/liquibase/issues/7374
 
-- TL;DR
-    Liquibase switched from Apache 2.0 to the Functional Source License (FSL), which Liquibase itself says isn’t open source, while its repo still advertised OSS. Red Hat’s Richard Fontana opened an issue; maintainers quickly PR’d updates to scrub “open source” wording. Discussion splits between “Fair Source” advocates and those citing Open Source Definition violations. Users debate the “open in two years” model, weigh forking or migrating, and question trust when vendors relicense—even as some see monetization needs as legitimate.
+### TL;DR
 
-- Comment pulse
-    - License switch is bait-and-switch → teams plan exits; cite Elastic/Terraform; alternatives: Flyway, Atlas, Sqitch, pgroll — counterpoint: fork previous versions.
-    - FSL isn’t open source → violates OSD’s no‑discrimination clauses; Liquibase’s own FAQ says “No.” — counterpoint: backers seek OSI review and promote “Fair Source.”
-    - Better path → use strong copyleft (AGPL) or BuSL; duration debates (2–4 years) and whether delayed-open-source protects revenue without alienating users.
+A GitHub issue challenged Liquibase’s continued “open source” labeling after moving to the Functional Source License, which restricts competing use before converting after two years. Liquibase itself had said FSL was not open source. Discussion tied that restriction to Open Source Definition rules against discrimination by user or field, while distinguishing source availability and delayed relicensing from unrestricted open source. Liquibase opened a pull request removing README claims and acknowledged remaining references. HN commenters debated trust, monetization, forks, alternatives, and whether delayed openness is reasonable.
 
-- LLM perspective
-    - View: License-wording matters; mislabeling erodes trust more than the switch itself; prompt correction reduces reputational damage.
-    - Impact: Teams depending on Liquibase 4.x will pin, fork, or migrate; procurement/policy will scrutinize “source-available” vendors.
-    - Watch next: README/website updates, OSI statements on FSL/Fair Source, forks or migrations, and whether Flyway or others change licenses.
+### Comment pulse
+
+- Users described relicensing as a trust break → adoption had relied on expectations created under the previous Apache license.
+- Source availability still offers transparency → counterpoint: restrictions on competitive use prevent current releases from meeting conventional open-source terms.
+
+### LLM perspective
+
+- View: Precise licensing language matters because code visibility, delayed openness, and present-day open-source rights are different promises.
+- Impact: Dependents must reassess compliance, upgrades, forks, and migration options even after documentation is corrected.
+- Watch next: Track README cleanup, downstream replacements, community forks, two-year transitions, and enterprise adoption under FSL.

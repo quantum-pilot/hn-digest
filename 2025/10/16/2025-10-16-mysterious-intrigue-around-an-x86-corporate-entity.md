@@ -2,15 +2,18 @@
 
 - Score: 149 | [HN](https://news.ycombinator.com/item?id=45608285) | Link: https://www.phoronix.com/news/x86-Opcodes-Not-AMD-Or-Intel
 
-- TL;DR
-  - Veteran x86 expert Christian Ludloff posted to LKML and binutils that a corporate entity other than Intel/AMD is actively using several x86 opcode slots and E000_xxxx CPUID/MSR ranges. The encodings include 0E in PM64, 0F 36/3E, 0F 3A E0–EF across classic/VEX/EVEX maps, and 0F 1E /0 (hint NOP); historic collisions are noted but dismissed. Speculation spans VIA/Zhaoxin leveraging Cyrix’s license to hyperscalers commissioning custom instructions. Toolchain/kernel folks are asked to avoid collisions until details are published.
+### TL;DR
 
-- Comment pulse
-  - Likely VIA/Zhaoxin via Cyrix license → VIA bought Cyrix; Zhaoxin JV builds x86; history of kernel/GCC patches — counterpoint: they'd normally post directly, not anonymously.
-  - Hyperscaler-specific ISA tweaks → large buyers get custom microcode/instructions; examples include AWS- and Oracle-only Xeons; internal JITs benefit at scale.
-  - Could relate to FineIBT hardening → Linux reserving undefined opcode 0xD6; new allocations flagged to avoid conflicts with emerging security tooling.
+x86 specialist Christian Ludloff asked Linux-kernel and Binutils developers to avoid several opcode encodings plus CPUID and MSR ranges that he says are actively used by an unnamed corporation other than Intel or AMD. The message supplies allocations but no processor, company, purpose, or licensing explanation. Phoronix notes Zhaoxin as one possibility yet questions why an established contributor would remain unnamed. Commenters proposed VIA-linked licensees or custom hyperscaler hardware, but the frozen material contains no evidence identifying the entity or confirming a new CPU implementation.
 
-- LLM perspective
-  - View: Treat as a real third-party x86 core; reserve encodings in assemblers and kernels to prevent accidental reuse.
-  - Impact: Toolchains and JITs must parse new maps; CPUID probing updates; clouds may expose instance types leveraging the new ops.
-  - Watch next: Sandpile and vendor docs, binutils/LLVM reservations, Linux cpufeature flags, and any public microcode drops or benchmarks revealing semantics.
+### Comment pulse
+
+- Some readers connected the mystery to VIA and Cyrix licensing history; others guessed a hyperscaler receiving customized processors.
+- A commenter wondered whether reserving encodings relates to kernel developers seeking a reliably undefined opcode for FineIBT.
+- All proposed identities and purposes remained speculation.
+
+### LLM perspective
+
+- View: The actionable fact is an allocation-collision warning; the mystery-company narrative is inference layered onto a terse notice.
+- Impact: Toolchain and kernel developers may need to preserve these encodings before their semantics become public.
+- Watch next: Look for vendor patches, documentation, CPUID signatures, or licensing disclosures that independently identify the implementation.
