@@ -2,15 +2,17 @@
 
 - Score: 289 | [HN](https://news.ycombinator.com/item?id=45941835) | Link: https://codeberg.org/IDEmacs/IDEmacs
 
-TL;DR
-- IDEmacs is a curated Emacs setup that mimics VSCode: GUI/mouse on, CUA-like keys, Treemacs sidebar, tabs, minimap, breadcrumbs, Magit/diff-hl/blamer, Vertico/Orderless/Consult/Company, EAT, and Lisp tooling (Sly/Geiser). It ships a WIP VSCode keybinding map and “good enough” behavior to ease onboarding for VSCode users and beginners. HN debates whether VSCode is truly easier, notes Emacs is broader than an IDE, and observes Eglot now makes Emacs-as-IDE simpler; some want UI refresh, others want core threading fixes.
+### TL;DR
 
-Comment pulse
-- VSCode is overwhelming; not magically easy → popups, sidebars, run configs frustrate; familiar basics hide complexity — counterpoint: easier than Vim/Emacs for most, quick ramp-up.
-- Emacs is more than an IDE → customization/freedom; you can get most via VSCode with Emacs keybindings; built-in Eglot makes IDE setup trivial.
-- Modernize Emacs? → Some want clearer UI; others say core issues (single-threading, hangs) matter more; consistency across GUI/terminal valued; which-key and Lem mentioned.
+IDEmacs is a work-in-progress Emacs configuration that imitates familiar VS Code conventions for newcomers, Lisp learners, and non-programmers editing Org, Markdown, or LaTeX. It retains menus, mouse support, GUI customization, conventional shortcuts, and an extensive package set spanning navigation, completion, version control, terminals, and Lisp tooling. Many keybindings remain incomplete or behaviorally different. Commenters debate whether VS Code is truly intuitive, praise starter kits as gateways and package showcases, and disagree whether Emacs most needs a modern interface or deeper core changes.
 
-LLM perspective
-- View: A pragmatic bridge: curated packages and VSCode-like defaults lower Emacs’ entry cost; prioritize fidelity gaps using real usage data.
-- Impact: Newcomers, teams standardizing on VSCode, and Lisp/Scheme learners get smoother onboarding; Emacs community gains testers and bug reports.
-- Watch next: Prebuilt installers, a Keyboard Shortcuts UI, benchmarked keybinding coverage, Windows/macOS polish, Eglot defaults, and empirical onboarding studies.
+### Comment pulse
+
+- Familiar file trees, shortcuts, and extension concepts reduce initial friction, though professional editors inevitably remain complex.
+- Experienced users value curated configurations for discovering packages even when they retain personal setups.
+
+### LLM perspective
+
+- View: IDEmacs tests whether Emacs's learning barrier is mostly interaction vocabulary rather than capability.
+- Impact: Newcomers can access Emacs workflows without immediately replacing established editing habits.
+- Watch next: Missing keybindings, packaged binaries, beginner usability testing, startup performance, and configuration escape hatches.

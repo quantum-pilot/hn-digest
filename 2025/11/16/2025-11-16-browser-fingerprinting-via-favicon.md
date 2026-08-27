@@ -2,15 +2,18 @@
 
 - Score: 162 | [HN](https://news.ycombinator.com/item?id=45947770) | Link: https://github.com/jonasstrehle/supercookie
 
-- TL;DR
-  - Supercookie shows how sites can encode a bitstring via favicon cache misses/hits across redirected paths, yielding a stable ID that survives cookies/cache clears, VPNs, and incognito. README claims major and mobile browsers are affected; the demo surfaces IDs after ~18 redirects. HN notes long-standing favicon cache glitches, inconsistent demo behavior (e.g., Safari iOS loops), and that this is a 2021 technique. Some mitigations reportedly landed, but coverage appears uneven.
+### TL;DR
 
-- Comment pulse
-  - Favicon cache misbehavior is widespread → wrong icons persist across devices, profiles, and private mode — counterpoint: likely UI cache bugs, not deliberate tracking.
-  - Demo inconsistent on Safari iOS → endless redirect loop without ID; authors say Safari fixed after earlier disclosure.
-  - This isn’t new → technique and repo date to 2021; thread asks whether vendors fully shipped defenses in 2023+.
+Supercookie demonstrates encoding a browser identifier in which path-specific favicons are cached: later requests reveal cached bits because the browser fetches only missing icons. The project claims this can survive ordinary cookie and cache clearing, VPN use, restarts, and sometimes private browsing. Its compatibility table references older browser versions, so it does not establish current exposure. Commenters recognized the work as dating to 2021, reported persistent favicon mix-ups, and found the demo fixed, functional, or trapped in redirect loops depending on setup.
 
-- LLM perspective
-  - View: Cache partitioning by top-level site largely defeats this; per-context isolation for private windows closes cross-mode leakage.
-  - Impact: Expect further hardening: stricter favicon TTLs, network-state partitioning, and blocking favicon loads during redirects.
-  - Watch next: Independent test pages tracking modern releases; browser bug reports citing residual bypasses on mobile and third-party iframes.
+### Comment pulse
+
+- Separate favicon storage creates a tracking side channel → request absence can disclose previously cached per-path state.
+- Current vulnerability status is unclear → the supplied tests and browser versions are several years old.
+- Persistent wrong icons offered anecdotal support for cache isolation → counterpoint: display bugs do not prove successful identification.
+
+### LLM perspective
+
+- View: Convenience caches need the same partitioning and deletion semantics as explicit browsing data.
+- Impact: Users may remain linkable after taking privacy steps they reasonably expect to reset identity.
+- Watch next: Retest current browsers across profiles and private modes, then document vendor fixes and cache-clearing behavior.

@@ -2,15 +2,17 @@
 
 - Score: 282 | [HN](https://news.ycombinator.com/item?id=45947810) | Link: https://www.zigbook.net
 
-- TL;DR
-    - Zigbook is an open-source, 61‑chapter, project‑based guide to Zig, emphasizing systems programming principles: explicit allocation, visible control flow, cross‑compilation, and compile‑time code generation. It touts “zero AI” authorship and an interactive terminal. HN discussion splits: some want “human-made” badges and suspect AI‑assistance; others argue usefulness matters over provenance. A few ask “why another language,” while fans praise the pedagogy. Zig’s youth (e.g., recent io changes) raises stability questions, yet the book rekindles interest.
+### TL;DR
 
-- Comment pulse
-    - Authenticity badge matters for trust; some see AI fingerprints in prose — counterpoint: judge by accuracy; assume online text is AI anyway.
-    - Why Zig? Offers low-level clarity: explicit memory, visible control flow, cross‑compilation, comptime—positioned as an alternative to abstraction-heavy languages.
-    - Pedagogy praised; but Zig is young (e.g., io redesign), so some plan to wait for stabilization before investing.
+The open Zigbook presents a 618-page, 61-chapter path from basic syntax through systems programming, alternating concepts with practical projects and extending into allocators, networking, debugging, interoperability, and advanced appendices. It emphasizes explicit control flow, memory management, compile-time execution, cross-compilation, exercises, and comparison with C and Rust, and invites community corrections. Its claim that the text contains no AI-generated content dominated discussion: several commenters praised the pedagogy, while others alleged the introduction's style looks generated and questioned whether AI provenance matters if material is accurate.
 
-- LLM perspective
-    - View: A single, coherent curriculum can shape Zig’s narrative beyond scattered docs, especially for systems newcomers.
-    - Impact: Could accelerate onboarding for C/C++ refugees and hobby OS/toolchain builders; raises expectations for accuracy amid rapid language churn.
-    - Watch next: Watch Zig 1.0 roadmap and io stabilization; review book commits and errata to validate “zero AI” and maintain technical accuracy.
+### Comment pulse
+
+- Supporters value teaching a systems paradigm through projects rather than merely cataloguing language syntax.
+- Provenance skeptics proposed human-made badges — counterpoint: commenters disputed both the book's claim and the usefulness of such labels.
+
+### LLM perspective
+
+- View: A technical book's durable value depends on verifiable accuracy and maintenance more than declared authorship method.
+- Impact: Learners gain a broad curriculum, but unverified examples could propagate mistakes across a young language ecosystem.
+- Watch next: Community errata, compiler-version updates, example tests, contributor review, and transparent revision history.

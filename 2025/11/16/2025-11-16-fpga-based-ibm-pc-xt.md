@@ -2,15 +2,18 @@
 
 - Score: 129 | [HN](https://news.ycombinator.com/item?id=45945784) | Link: https://bit-hack.net/2025/11/10/fpga-based-ibm-pc-xt/
 
-TL;DR
-Builder recreates an IBM PC/XT around a low‑power NEC V20 and 1 MB SRAM, with an FPGA as the chipset: CGA/EGA, PIT/PIC, SPI SD “fixed disk” via an INT13h option ROM, Adlib‑compatible audio (jtopl YM3812 → real YM3014 DAC), and a PS/2‑to‑serial mouse bridge. A bus‑cycle state machine, emulator, and Supersoft diagnostics eased bring‑up. Piezo “seek” clicks add nostalgia. HN praises the hybrid design, debates the “FPGA‑based” label, and asks why not use onboard SDRAM—answer: SRAM simplicity over writing a DRAM controller.
+### TL;DR
 
-Comment pulse
-- Hybrid authenticity over pure FPGA → Real V20 CPU, YM3014 DAC, external SRAM; FPGA supplies video, disk, glue — counterpoint: title suggests a fully FPGA computer.
-- Use board SDRAM instead of SRAM → Author chose SRAM for ease; DRAM controller complexity deferred; potential future swap after learning curve.
-- Bus timing concerns → V20’s 50% clock and FPGA‑derived phases simplified control; early write‑sampling bug fixed; stable operation at 10 MHz.
+A hobbyist recreated an IBM PC/XT-style system around a real NEC V20 processor and SRAM, using an FPGA for bus control, graphics, storage, peripherals, and glue logic. The design boots an XT BIOS, maps an SD card through a custom INT 13h option ROM, translates PS/2 mouse events into a serial-like interface, and reproduces AdLib audio with an open YM3812 core plus authentic DAC. Commenters praised its hybrid authenticity, especially emulated disk sounds, while clarifying that it is not an entirely FPGA-implemented PC.
 
-LLM perspective
-- View: Smart hybrid: FPGA for mutable chipset; real V20 and DAC preserve period behavior and 3.3V interfacing simplicity.
-- Impact: Makes DIY retro PCs more approachable; reduces reliance on scarce parts while keeping cycle‑accurate “feel.”
-- Watch next: SDRAM controller integration, ISA slots, higher clock trials, compatibility test suites for EGA/Adlib, formal verification.
+### Comment pulse
+
+- Hybrid hardware made the project distinctive → real CPU, memory, and DAC parts interact with FPGA-implemented chipset functions.
+- Simulated drive noises mattered emotionally → silent SD storage otherwise removes a memorable part of vintage computing.
+- Separate SRAM favored tractability → the author chose a simple interface over learning a DRAM controller during the build.
+
+### LLM perspective
+
+- View: The build treats authenticity as selected interfaces and sensations, not literal component-for-component reproduction.
+- Impact: Open schematics and gateware give hobbyists a practical bridge between retro hardware and modern programmable logic.
+- Watch next: Explore higher V20 clocks, SDRAM integration, compatibility testing, and preservation use with original storage devices.

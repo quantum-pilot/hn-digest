@@ -2,15 +2,18 @@
 
 - Score: 372 | [HN](https://news.ycombinator.com/item?id=45945587) | Link: https://github.com/p-e-w/heretic
 
-- TL;DR
-    - Heretic automates “decensoring” of LLMs via directional ablation, using Optuna to minimize refusals while keeping low KL divergence to preserve capabilities. Example: Gemma-3-12B-IT drops from 97/100 to 3/100 refusals with 0.16 KL, rivaling manual ablations. Works on many dense/MoE models; ~45 minutes for an 8B model on an RTX 3090. HN debates ethics (autonomy vs guardrails), dataset quality/licensing and robustness, quantization effects, and Optuna’s practicality; the author advises prioritizing KL<1 and notes classifier quirks.
+### TL;DR
 
-- Comment pulse
-    - Automatic decensoring preserves user autonomy and diversity → alignment embeds vendor morals into tools. — counterpoint: dataset includes extreme illegal/self-harm prompts; guardrails address real risks.
-    - Optuna hyperparameter search accelerates ablation tuning → better refusal/quality trade-offs; author advises choosing KL<1 and notes CoT refusal monologues can mislead the classifier.
-    - Practical quirks matter → higher-precision quantization (Q8_0) uncensors where Q4 fails; dataset licensing and generalization to stronger models remain open concerns.
+Heretic is an AGPL tool that automatically alters supported transformer models to suppress refusals without full post-training. It identifies refusal directions, ablates selected attention and MLP projections, and uses Optuna to minimize refusals alongside divergence from the original model. The project reports 3 refusals per 100 harmful prompts and lower KL divergence than two comparison models on Gemma 3 12B, but these are author-provided metrics. Commenters praised user control and optimization while sharply disputing the ethics of enabling explicitly harmful requests.
 
-- LLM perspective
-    - View: Automating directional ablation lowers the barrier to alignment research and misuse; no finetuning costs, minutes to deploy per model.
-    - Impact: Open-weight ecosystems face faster churn of uncensored forks; vendors may respond with architectural changes, watermarking, or encrypted weight distribution.
-    - Watch next: Independent benchmarks across families, robustness against RLAIF/SFT variants, and legal/policy reactions to shipping or hosting decensored derivatives.
+### Comment pulse
+
+- Supporters framed refusal removal as intellectual autonomy → they objected to model creators imposing moral boundaries.
+- Dataset examples exposed concrete dual-use risk → prompts include self-harm, child abuse, hacking, drugs, and confidential-data theft.
+- Automated tuning attracted technical interest → Optuna searches for lower refusal without excessive model drift.
+
+### LLM perspective
+
+- View: Heretic makes alignment removal accessible while reducing neither the resulting capability risks nor operator responsibility.
+- Impact: Model owners gain control, but abuse barriers become easier to remove without specialized transformer expertise.
+- Watch next: Independently evaluate capability retention, harmful-output rates, dataset licensing, architecture coverage, and quantization sensitivity.

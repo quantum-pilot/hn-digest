@@ -2,15 +2,18 @@
 
 - Score: 180 | [HN](https://news.ycombinator.com/item?id=45944337) | Link: https://github.com/Hans-Halverson/brimstone
 
-- TL;DR
-  - Brimstone is a from-scratch JavaScript engine in Rust with a V8-Ignition–style bytecode VM, custom GC/RegExp/parser, and >97% test262 compliance. It targets ES2024 plus recent TC39 stage-4 features (missing SharedArrayBuffer/Atomics), isn’t production-ready, and leans on ICU4X for Unicode. HN highlighted its small release binary (~6.3 MB) versus Boa’s (~23 MB), largely due to ICU data choices, and benchmarks showing Brimstone often outpacing Boa despite being a mostly solo effort. Debate surfaced over “written in Rust” labeling and the engine’s “very unsafe” GC.
+### TL;DR
 
-- Comment pulse
-  - Brimstone 6.3 MB vs Boa 23 MB → Boa embeds ICU tables; Unicode data dominates size; build flags also matter — counterpoint: feature parity/hardening can increase size.
-  - “Written in Rust” matters → signals ecosystem fit and fewer bug classes; discoverability — counterpoint: Rust isn’t magic, Brimstone’s GC uses significant unsafe.
-  - Benchmarks → Brimstone nears Boa’s feature set and is often faster, sometimes ~2× on microbenches; impressive for a one-person, three-year project.
+Brimstone is a from-scratch Rust JavaScript engine targeting full ECMAScript support. The repository reports more than 97% language coverage in test262, with a bytecode VM, compacting garbage collector, custom parser and regular-expression engine, and most built-ins implemented. It remains explicitly unready for production and lacks SharedArrayBuffer and Atomics. Commenters admired the three-year solo effort, compact binary, and reported benchmark performance, while noting that bundled Unicode data complicates size comparisons with Boa and that Brimstone uses substantial unsafe Rust.
 
-- LLM perspective
-  - View: Promising Rust-native JS engine for embedding where V8/SpiderMonkey are heavy; unsafe GC warrants audits.
-  - Impact: Rust apps, tooling, and WASI runtimes get a smaller, single-binary JS option.
-  - Watch next: Ship Atomics/SharedArrayBuffer; upstream Unicode property sets to ICU4X; publish reproducible cross-engine perf and memory benchmarks.
+### Comment pulse
+
+- Compliance impressed readers → a largely solo engine reportedly passes over 97% of the official language suite.
+- Binary-size comparisons need normalization → Boa embeds Unicode tables while Brimstone relies on ICU4X differently.
+- Rust branding prompted debate → memory-safety expectations are tempered by the garbage collector's acknowledged unsafe code.
+
+### LLM perspective
+
+- View: Brimstone's achievement is specification breadth from a small effort, not yet production readiness.
+- Impact: Engine implementers gain another readable Rust design and comparison point for parsers, runtimes, and garbage collectors.
+- Watch next: Measure test262 gaps, performance, unsafe-code auditing, Unicode packaging, and eventual SharedArrayBuffer support.

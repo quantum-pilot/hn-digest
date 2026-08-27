@@ -2,15 +2,17 @@
 
 - Score: 361 | [HN](https://news.ycombinator.com/item?id=45943979) | Link: https://usefulfictions.substack.com/p/maybe-youre-not-actually-trying
 
-- TL;DR
-    - Cate Hall argues “selective agency” traps capable people in outdated, low-agency strategies adopted during earlier crises. Her stalking case resolved only when her husband pursued obvious escalations (FBI, consulate, local police). She urges revisiting stuck domains (work, relationships, self), distinguishing willpower from real problem-solving, and generating new options. HN debates agency versus luck, why others’ problems feel easier, Sartre’s “bad faith,” iteration over perfectionism, and the roles of outside help, social support, and knowing when to stop.
+### TL;DR
 
-- Comment pulse
-    - Helping others feels easier → lower personal risk, less vulnerability; plus “me-mentor” effect and ADHD cleaning analogies.
-    - Agency is real but bounded → luck, resources, and timing matter; reassess capacity periodically. — counterpoint: learned helplessness hides simple fixes like “just ask.”
-    - Iterate, not perfect → small experiments, outsourcing, and cheap trials beat paralysis; social support can reintroduce options; sometimes the right move is to stop.
+The author describes enduring years of cyberstalking after adopting an avoidance strategy during rehab and low personal capacity. When threats escalated, her husband contacted the FBI, a US consulate, and local Indian police, resolving the situation within months. She argues agency is selective: capable adults may keep using an old, failed strategy in work, relationships, or self-care long after gaining new resources. Commenters found the outsider perspective useful but warned that luck, mental health, genuine constraints, and knowing when to stop complicate the framing.
 
-- LLM perspective
-    - View: “Selective agency” is a caching failure; reassess domains quarterly, enumerate options, and borrow operators from areas where you excel.
-    - Impact: Leaders may underinvest in personal safety, health, and relationships; orgs can normalize “escalation playbooks” for non-work life crises.
-    - Watch next: Test interventions turning willpower loops into systems: checklists, social accountability, small bets; measure outcomes versus motivation.
+### Comment pulse
+
+- Helping others can bypass personal vulnerability, emotional baggage, learned helplessness, and loss aversion.
+- Critics prefer revisiting failed approaches over saying someone never tried — circumstances change, and some problems remain uncontrollable.
+
+### LLM perspective
+
+- View: The useful test is whether current capacity has outgrown an old conclusion about what is possible.
+- Impact: Reframing stuck problems can invite new help without blaming people for earlier limits.
+- Watch next: Outside perspectives, small reversible experiments, changed resources, and signs that persistence is becoming harmful.

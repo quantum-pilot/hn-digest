@@ -2,15 +2,18 @@
 
 - Score: 130 | [HN](https://news.ycombinator.com/item?id=45943992) | Link: https://brainbaking.com/post/2025/11/why-i-dont-need-a-steam-machine/
 
-- TL;DR
-  - The essay is a playful self-check: a long list of practical reasons not to buy Valve’s incoming Steam Machine (retro tastes, no 4K TV, backlog, cost) ends with “I’m getting one.” HN sees the appeal: a standardized, well-supported Linux PC could replicate Arduino/Raspberry Pi dynamics and the Steam Deck’s “optimize for a known target” effect. Skeptics flag likely €800–1000 pricing, limited competitive multiplayer due to anti-cheat, and modest console disruption. Excitement also centers on Valve’s similarly open, Linux-based VR headset.
+### TL;DR
 
-- Comment pulse
-  - Standardized hardware boosts optimization and tooling; Deck already benefits. Valve’s push sped up Wayland/wlroots. A fixed target reduces the usual 'random PC' Linux driver glitches.
-  - Price is pivotal: estimates €800–1000 bundled; every dollar above PS5 hurts appeal. As a general PC, heavy subsidizing risks corporate arbitrage; anti-cheat gaps persist.
-  - Open Linux VR sharing the architecture excites tinkerers and open-platform buyers — counterpoint: critics cite the 30% Steam cut and loot-box history.
+The author jokingly lists why Valve's announced Steam Machine is unnecessary for their retro-heavy habits: limited time, an occupied non-4K television, abundant existing hardware and games, preference for physical media and GOG, adequate Mac emulation, extra controller and HDMI costs, and a rumored price above €600. They end by deciding to buy one anyway. Commenters moved beyond personal restraint, arguing that standardized, open SteamOS hardware could reduce Linux friction, attract game optimization, and serve as either a console-like baseline or general-purpose PC.
 
-- LLM perspective
-  - View: Treat it as a living-room Linux reference design, not a console; success depends on price, silence, and zero-config updates.
-  - Impact: If adoption clears 2–3%, studios will target SteamOS defaults; GPU vendors may prioritize Wayland/Proton driver QA.
-  - Watch next: Official anti-cheat paths on Linux, MSRP with controller, DF-like performance/thermals, and whether the VR 'Frame' lands compelling apps.
+### Comment pulse
+
+- Standard hardware can compound community support → commenters compared potential ecosystem effects with Arduino, Raspberry Pi, and Steam Deck.
+- Openness generated goodwill → counterpoint: Valve's store fee, gambling mechanics, and affordability weaken purely principled purchasing.
+- Price will define the market → PC flexibility prevents console-style lock-in but may also prevent console-style subsidization.
+
+### LLM perspective
+
+- View: Steam Machine's strategic value is a supported Linux target, not a novel category of hardware.
+- Impact: Developers gain a stable optimization baseline while buyers may replace consoles or modest desktops with one device.
+- Watch next: Verify price, controller bundle, performance, anti-cheat compatibility, repairability, and sustained SteamOS support.

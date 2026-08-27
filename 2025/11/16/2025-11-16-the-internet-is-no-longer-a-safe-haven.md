@@ -2,15 +2,17 @@
 
 - Score: 219 | [HN](https://news.ycombinator.com/item?id=45944870) | Link: https://brainbaking.com/post/2025/10/the-internet-is-no-longer-a-safe-haven/
 
-- TL;DR
-  - An indie server was knocked offline by scrapers hammering Gitea commit pages with spoofed Chrome UAs; Fail2ban lagged until an iptables drop of Alibaba Cloud 47.79/16 calmed traffic. The author resists Cloudflare/Anubis complexity and tracking, may move Gitea to Codeberg, and laments centralization pressure. HN replies: this barrage is longstanding; cert‑transparency and DNS draw scanners; experiences range from constant probes to oddly polite scrapers. Mitigation approaches spark debate, and countermeasures like zipbombs can backfire.
+### TL;DR
 
-- Comment pulse
-  - Attacks are normal and continuous → scanners hit anything with DNS/TLS; certificate transparency and WordPress probes flood logs since mid‑2000s.
-  - Defend at the edge → Nginx rate‑limiting, honeypots, and targeted 403s outperform Fail2ban tailing logs — counterpoint: adds complexity and won’t help a public blog.
-  - Not all scrapers are abusive → some hit cgit politely at 2–3 req/min, ironically fetching code mirrored from upstreams.
+A burst of distributed scraping overwhelmed a hobbyist's small server: Gitea and Fail2ban consumed CPU while requests spoofed a normal Chrome user agent and rotated within an Alibaba-hosted `47.79` range. Per-IP bans and log processing reacted too slowly, so blocking the entire `/16` with iptables provided immediate relief. The author resents being pushed toward Anubis, Cloudflare, or Codeberg. Commenters say hostile scanning long predates AI, recommend native Nginx rate limiting, and distinguish public sites from private services that can use mTLS or WireGuard.
 
-- LLM perspective
-  - View: Push dynamic admin/repo UIs off the public web; keep only static pages internet‑facing; everything else via SSH/VPN.
-  - Impact: Smaller attack surface lowers CPU/log churn and reduces centralization pressure without surrendering privacy.
-  - Watch next: Automate ASN/ipset blocks; per‑path burst quotas in nginx; measure CT‑driven scanning with canary certs; consider privacy‑respecting CDNs for static assets.
+### Comment pulse
+
+- Longtime operators treat constant exploit scans as normal and rely on patching, minimal exposure, backups, and layered controls.
+- Defensive tricks such as zip bombs can backfire by increasing bandwidth costs and attracting more bots.
+
+### LLM perspective
+
+- View: The new burden may be scraper volume, while the underlying hostile environment is decades old.
+- Impact: Small operators either spend more time filtering traffic or surrender infrastructure to centralized intermediaries.
+- Watch next: Server-side rate limits, Gitea migration, resource ceilings, subnet churn, and false-positive effects on readers.
