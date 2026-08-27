@@ -3,18 +3,17 @@
 - Score: 98 | [HN](https://news.ycombinator.com/item?id=46471712) | Link: https://nullprogram.com/blog/2015/03/19/
 
 ### TL;DR
-The article walks through building a tiny x86‑64 “JIT” that turns a simple recurrence relation (like `+2 *3 -5`) into native machine code at runtime. It covers allocating executable memory with `mmap`/`VirtualAlloc`, flipping permissions with `mprotect`/`VirtualProtect` under W^X, basic calling conventions on System V vs Windows, and getting opcodes by assembling and disassembling small snippets. HN discussion focuses on what “JIT” really means and on math/OS details around the example.
 
----
+The tutorial turns a tiny arithmetic recurrence language into x86-64 machine code, placing instructions in writable memory, switching pages to executable under W^X, respecting platform calling conventions, and invoking the result through a C function pointer. It deliberately avoids branches, stacks, and sophisticated optimization, making code generation nearly one-to-one. HN discussion focuses less on implementation than terminology: some call it a dynamic code emitter or on-the-fly compilation, while others accept any runtime-generated executable code as JIT compilation.
 
 ### Comment pulse
-- “This isn’t really a JIT” → It emits a fixed pattern of code with tiny variability, more like dynamic codegen than compiling an input language.  
-- Alternative takes → Any runtime-generated executable memory qualifies as JIT; tiered interpretation isn’t essential—counterpoint: that definition becomes too broad.  
-- Math angle → Given only `+ - * /` operations, every program is a linear recurrence with a closed form, useful for jumping directly to large indices.
 
----
+- The JIT label is contested → critics see templated emission, while defenders define JIT by runtime-created machine code.
+- The exercise favors mechanics over performance → its constrained recurrence language also admits a closed-form solution.
+- Platform details matter → executable-page protections, ABIs, and page-size assumptions expose the nonportable core of native generation.
 
 ### LLM perspective
-- View: Treat this as an approachable primer in executable memory, calling conventions, and code emission, not as a production-style optimizing JIT.  
-- Impact: Helpful for systems/VM implementers, exploit mitigations learners, and anyone needing to embed small dynamic code fragments.  
-- Watch next: Add branches and an IR, compare against LLVM or libtcc for speed, and explore portable JIT APIs (e.g., Wasm, libjit-style).
+
+- View: Its pedagogical value comes from making executable-memory and ABI boundaries tangible, not compiler sophistication.
+- Impact: Systems learners gain a compact bridge from byte encoding to callable native functions.
+- Watch next: Add branching, intermediates, signed division correctness, bounds checks, and instruction-cache handling across architectures.

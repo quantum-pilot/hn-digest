@@ -2,15 +2,18 @@
 
 - Score: 88 | [HN](https://news.ycombinator.com/item?id=46472772) | Link: https://github.com/lyehe/porterminal
 
-- TL;DR  
-  - Porterminal (ptn) is a quick web-based terminal that lets you run a command on your PC, scan a QR code, and control that shell from your phone via a Cloudflare tunnel. It focuses on mobile usability and persistent sessions, avoiding SSH or manual port forwarding. Hacker News discussion is enthusiastic but highlights security concerns around URL-only access, requests stronger auth options, and debates alternatives like Tailscale VPN or Termux+SSH for more traditional remote workflows.
+### TL;DR
 
-- Comment pulse  
-  - Security worries over URL-as-auth; commenters request one-time links and passwords; author notes tunnels are disposable and adds options for single-session and ephemeral passwords.  
-  - Networking crowd prefers Tailscale or self-hosted WireGuard/Headscale, citing smaller attack surface and better reliability through firewalls than public tunneling services.  
-  - Others say existing Termux+SSH setups are sufficient, but fans praise QR-based, zero-config ‘vibe coding’ from couch, commute, or waiting rooms.
+Porterminal exposes a local terminal to a phone through a Cloudflare tunnel: run `uvx ptn`, scan a QR code, and reconnect to persistent, multi-tab shell sessions across Windows, macOS, or Linux. It avoids SSH and port forwarding, offers mobile controls, and supports optional per-session passwords. HN readers liked the convenience for asynchronous coding, but treated link-only authentication as the central risk; alternatives included Tailscale, Headscale, and WireGuard, while the author considered adding single-session URLs.
 
-- LLM perspective  
-  - View: Novelty is low technically, but packaging tunnel, mobile UI, and persistence behind one command meaningfully lowers friction.  
-  - Impact: Most useful for solo developers and tinkerers who need interactive access to home machines from phones without full VPN setup.  
-  - Watch next: Worth adding audit logs, rate limiting, and clearer defaults around passwords/one-time URLs, plus benchmarks on latency and Cloudflare tunnel reliability.
+### Comment pulse
+
+- Link-only access is fragile → anyone seeing the QR or URL gains a shell; a one-use session could narrow exposure.
+- Private overlays reduce attack surface → readers favored Tailscale or Headscale, though WireGuard may encounter more blocked networks.
+- Mobile terminals fit agent workflows → long-running coding tasks can be checked or corrected away from a desk.
+
+### LLM perspective
+
+- View: One-command access is compelling, but remotely exposed shells need secure defaults rather than optional hardening.
+- Impact: Developers gain mobility while accepting Cloudflare availability and bearer-link risk.
+- Watch next: Test one-use URLs, mandatory authentication, session revocation, and tunnel-failure recovery.

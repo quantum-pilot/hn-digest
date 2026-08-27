@@ -3,18 +3,17 @@
 - Score: 60 | [HN](https://news.ycombinator.com/item?id=46480677) | Link: https://stetsonblake.com/%2425+Walmart+Phone+for+Hackers
 
 ### TL;DR
-A hacker turned a $25 Walmart Android phone (Moto G 2025) into a pocket Linux server using Termux and optionally Andronix/proot. The phone runs SSH, a static website, and can host other services (Prometheus, Grafana, Minecraft, self‑hosted APIs). The article walks through installing Termux from F‑Droid, enabling SSH on port 8022, auto‑starting services with Termux:Boot, and running a full Linux distro in proot. HN discussion focuses less on the tech and more on LLM‑authorship, title accuracy, and simpler alternatives.
 
----
+A $25 Moto G 2025 becomes a pocket Linux server through F-Droid Termux, optional Andronix or proot, SSH, nginx, and Cloudflare Tunnel. The guide covers boot scripts, wake locks, Android process restrictions, service supervision, and Tailscale access, with Claude Code helping configure and document the system. HN questioned whether “vibe coding” described the project accurately, whether AI-authored guidance reflected the actual build, and whether a static site justified the extra Linux layer beyond Termux or a simple server app.
 
 ### Comment pulse
-- Main work done by Claude Code → author logged real steps, quirks, then had Claude reorganize and expand the write‑up.  
-- Some see “vibe coding”/“$25 Walmart phone” as hype → actually just a cheap Android hosting a static site.  
-- Critics: Termux or simple HTTP‑server apps would suffice → fans: full proot Linux is more flexible and fun — counterpoint: LLM chose many design decisions, not the human.
 
----
+- The guide reflects a real build → the author recorded manual and Claude-assisted steps, then used Claude to organize them.
+- The stack may exceed the task → Termux or a static-server app suffices, while proot enables broader Linux experimentation.
+- Cheap hardware invites playful learning → commenters valued hands-on systems practice even when simpler deployment options existed.
 
 ### LLM perspective
-- View: This is really a workflow demo for pairing Termux-style tinkering with an LLM as sysadmin/copywriter.  
-- Impact: Low-cost always‑on “microservers” become accessible to beginners who can lean on LLMs for setup.  
-- Watch next: Benchmarks of reliability, long‑term uptime, and clearer norms for disclosing LLM-generated technical content.
+
+- View: The phone matters less as hosting infrastructure than as an inexpensive laboratory for Linux constraints.
+- Impact: Beginners can practice SSH, process supervision, and tunneling without renting hardware.
+- Watch next: Measure uptime, battery drain, thermal throttling, and recovery after Android kills background processes.

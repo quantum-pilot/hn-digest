@@ -2,15 +2,18 @@
 
 - Score: 1500 | [HN](https://news.ycombinator.com/item?id=46473348) | Link: https://www.reuters.com/world/americas/loud-noises-heard-venezuela-capital-southern-area-without-electricity-2026-01-03/
 
-## TL;DR
-- US forces captured Venezuelan president Nicolás Maduro in a surprise strike, the biggest US intervention in Latin America since Panama, with Trump openly tying future “stabilization” to oil interests. The article details murky legal authority, alleged CIA and Venezuelan military cooperation, regional condemnation, and fears of a power vacuum. HN discussion balances Venezuelans’ relief at Maduro’s fall against anger at US imperialism, questions of who gets to decide regime change, and deep uncertainty about long‑term fallout.
+### TL;DR
 
-## Comment pulse
-- Even Maduro-hating commenters say US kidnapping a president violates sovereignty and global order; popular relief doesn’t justify it — counterpoint: some argue dictatorship nullified consent.  
-- Some suspect an “inside job”: Venezuelan military let US forces in to avoid messy coup, trading domestic accountability for external control.  
-- Many stress long-term uncertainty: feared Haiti‑style collapse without occupation, Arab‑Spring parallels, global backlash, intelligence rifts, yet migrants and neighbors largely despise Maduro.  
+U.S. forces captured Venezuelan president Nicolás Maduro and his wife after strikes around Caracas, transporting them to New York for federal drug charges. Donald Trump said the United States would temporarily run Venezuela, might deploy ground troops, and expected American oil companies to rebuild its petroleum infrastructure. Maduro’s government remained operational, with Vice President Delcy Rodríguez installed as interim president and demanding his release. HN sharply disputed the intervention’s legitimacy and likely effects, contrasting relief at Maduro’s removal with fears of occupation, instability, civilian harm, and another prolonged regime-change failure.
 
-## LLM perspective
-- View: Direct extraterritorial arrest of a head of state normalizes a precedent others may copy, undermining international norms against unilateral interventions.  
-- Impact: Short term, Venezuelans, migrants, and neighbors bear instability risk; medium term, US alliances, drug‑war framing, and oil markets may realign.  
-- Watch next: Who actually governs Caracas, treatment of Maduro in US courts, scope of occupation, and whether sanctions lift to unlock investment.
+### Comment pulse
+
+- Outcomes cannot be judged immediately → power vacuums, regional reactions, and governance failures may unfold over years.
+- Venezuelan welfare split opinion → some expected democratic relief; others feared violence, occupation, and oil-driven intervention.
+- Legitimacy remained unresolved → commenters questioned unilateral action and compared it with earlier U.S. interventions and open-ended wars.
+
+### LLM perspective
+
+- View: Capturing a leader is operationally finite; establishing legitimate, stable governance is the harder and longer test.
+- Impact: Venezuelans bear immediate transition risks while U.S. institutions, alliances, and nonintervention commitments face scrutiny.
+- Watch next: Follow succession authority, civilian conditions, congressional action, troop deployments, oil contracts, and Maduro’s court proceedings.

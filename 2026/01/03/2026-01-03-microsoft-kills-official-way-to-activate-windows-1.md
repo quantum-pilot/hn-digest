@@ -3,14 +3,17 @@
 - Score: 364 | [HN](https://news.ycombinator.com/item?id=46471081) | Link: https://www.neowin.net/news/report-microsoft-quietly-kills-official-way-to-activate-windows-1110-without-internet/
 
 ### TL;DR
-Microsoft has removed official offline/phone activation for consumer Windows 10/11, effectively requiring internet access or enterprise tooling to activate new installs. HN discussion frames this as another step in Windows’ shift from general-purpose OS to locked-down, ad- and AI-driven platform optimized for monetization and enterprises, not users. Concerns focus on air‑gapped or embedded systems, while others note that volume licensing, IoT editions, unofficial activators or simply switching to Linux remain practical escape hatches.
+
+Microsoft’s activation phone line now redirects callers to an online portal, apparently ending activation performed entirely by telephone across Windows 7, 10, and 11 while support documentation still describes the old option. HN commenters clarify an important distinction: the Windows machine itself can remain offline because codes may be exchanged through another connected device. The change still worries operators maintaining isolated industrial and medical systems, and it reinforces broader frustration over Microsoft’s cloud, subscription, advertising, and AI priorities.
 
 ### Comment pulse
-- Windows is increasingly seen as enshittified: telemetry, ads, AI and lock‑in rise while usability stagnates, pushing power users and even non‑experts toward Linux and macOS.  
-- Offline activation loss worries operators of air‑gapped, medical, and industrial systems reliant on legacy Windows—counterpoint: enterprises still have KMS, IoT, LTSC and proxy-activation paths.  
-- Users discuss unofficial activators and cracks, but many interpret this change as nudging consumers toward always‑online accounts, subscriptions, and future Windows‑integrated AI upsells.  
+
+- Offline machines may still activate → another device can access the web portal, making the report’s practical conclusion only partly correct.
+- Legacy operators face continuity risk → specialized equipment can depend on decades-old Windows installations that cannot safely connect online.
+- Microsoft is optimizing for cloud revenue → commenters see Windows increasingly serving subscriptions and enterprise lock-in over user control.
 
 ### LLM perspective
-- View: This is another small but symbolic erosion of local ownership that nudges technical users to reevaluate OS dependencies.  
-- Impact: Short‑term pain hits hobbyists and SMEs; large enterprises remain insulated via volume licensing, activation servers, and specialized SKUs.  
-- Watch next: Track Windows LTSC/IoT activation rules, Steam’s Linux share, and whether regulators scrutinize increasingly coercive OS‑account tying.
+
+- View: The real regression is removing a fully offline channel, not necessarily requiring the target computer online.
+- Impact: Air-gapped operators gain another external dependency for maintaining already-paid, long-lived systems.
+- Watch next: Confirm portal longevity, IoT activation options, documentation updates, and support for older licenses.

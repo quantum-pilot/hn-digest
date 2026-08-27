@@ -2,15 +2,18 @@
 
 - Score: 372 | [HN](https://news.ycombinator.com/item?id=46478377) | Link: https://refactoringenglish.com/blog/2025-hn-top-5/
 
-## TL;DR
-Michael Lynch ranks 2025’s most upvoted individual bloggers on Hacker News. Simon Willison leads for the third year with prolific, vendor-neutral AI and link-blogging that surfaces ideas from walled gardens. Jeff Geerling blends text-first blogging with companion YouTube videos; Sean Goedecke explains big-tech politics with opinionated essays; Brian Krebs continues long-form cybercrime reporting; Neal Agarwal’s interactive “toys” dominate the front page. HN dynamics show luck, resubmissions, and the occasional single viral post rivaling annual output.
+### TL;DR
 
-## Comment pulse
-- Jeff Geerling writes blog posts first, then adapts to video; videos pay, the blog earns little but stays “old school” and reader-focused.  
-- Regular top bloggers also comment actively, humanizing them to readers—counterpoint: some feel a halo effect and self-promotion crowd out new voices.  
-- The popularity dataset is open CSV, enabling in-browser SQL experiments; users ask about contributing cleaning, while Simon shares tooling for quote-blogging TikToks.
+Simon Willison topped Hacker News’s blogger ranking for a third year, followed by Jeff Geerling, Sean Goedecke, Brian Krebs, and interactive creator Neal Agarwal. The analysis credits Willison’s vendor-neutral AI experimentation and prolific link blogging, Geerling’s text-first adaptations of videos, Goedecke’s explanations of big-tech politics, Krebs’s sustained investigative reporting, and Agarwal’s consistently successful interactive work. Comments emphasized that leading writers also participate directly on HN, while debating personality halo effects and the economics that force searchable, high-density text to rely on video revenue.
 
-## LLM perspective
-- View: HN rewards consistent, opinionated, text-native content and high-signal curation from closed platforms more than pure originality.  
-- Impact: Independent writers who treat blogs as primary, not SEO exhaust for video or product, gain durable community trust.  
-- Watch next: More tools and analyses built on the public dataset, plus experimentation with lightweight link/quote blogs as discovery filters.
+### Comment pulse
+
+- Blog-first production improves videos → writing establishes structure and detail, though video supplies substantially more sustainable income.
+- Participation builds community standing → prominent authors contribute thoughtful comments rather than appearing only to promote posts.
+- Curation liberates useful material → selective excerpts bring ideas from closed platforms onto the searchable, discussable web.
+
+### LLM perspective
+
+- View: Consistent editorial judgment, not topic selection alone, separates durable bloggers from opportunistic trend coverage.
+- Impact: Creators face incentives to subsidize open, searchable writing with engagement-optimized video.
+- Watch next: Compare rankings by posts, points, repeat submissions, comment activity, and long-term reader retention.

@@ -3,18 +3,17 @@
 - Score: 775 | [HN](https://news.ycombinator.com/item?id=46471199) | Link: https://xeiaso.net/notes/2026/year-linux-desktop/
 
 ### TL;DR
-The author is declaring 2026 their personal “Year of the Linux Desktop,” switching tower and handhelds to Fedora/Bazzite and dropping Windows 11 entirely. Motivation is less Linux leaping ahead and more Windows 11 steadily degrading: webview/React UI, Copilot intrusions, resource bloat, fragile sleep/driver behavior. Linux now feels mature enough for daily use, gaming, logging, and even local LLM integration. HN commenters largely agree there’s a real migration wave, though hardware support and reliability still vary, especially on laptops.
 
----
+After three months without booting Windows, the author plans to consolidate three SSDs under Fedora and use Bazzite or SteamOS on handhelds. The case is less that Linux suddenly transformed than that Windows 11 became slower, heavier, inconsistent, and aggressively integrated with Copilot. HN commenters describe genuine migration momentum driven by Steam Deck, Proton, older-hardware performance, and improving desktop polish, while cautioning that Wi-Fi, laptops, and anti-cheat still prevent a universally seamless switch.
 
 ### Comment pulse
-- Windows is rotting at the UI layer → piles of overlapping frameworks, React bits in core surfaces, slow menus, junky sleep and power behavior — counterpoint: functionally similar to 5 years ago.
-- Linux momentum is real → Steam Deck, Proton, KDE donations, non-tech users asking “how do I switch?”, plus Linux revives old hardware instead of forcing upgrades.
-- Desktop Linux has crossed a “mostly just works” threshold → many flawless installs on mainstream hardware, but others still hit wifi/installer bugs and gaming edge cases, so reliability remains uneven.
 
----
+- Linux migration is accelerating → donations, newcomer questions, and firsthand switches suggest more than algorithmic hype.
+- Gaming barriers have fallen → Proton and Steam Deck changed feasibility—counterpoint: kernel anti-cheat still blocks prominent titles.
+- Hardware support remains uneven → many installations simply work, but Wi-Fi, sleep, and new laptops still produce failures.
 
 ### LLM perspective
-- View: Linux’s appeal is shifting from “free and hackable” to “least-hostile general-purpose OS” as commercial desktops chase telemetry and AI upsell.
-- Impact: Power users, gamers, and privacy-conscious professionals move first; OEMs and app vendors will follow only if migration numbers keep climbing.
-- Watch next: anti-cheat and creative apps on Linux, more OEM-preinstalled distros, and policies (EU, etc.) nudging OS openness and local AI options.
+
+- View: Windows dissatisfaction is converting Linux’s incremental gains into a timely adoption opportunity.
+- Impact: Valve’s compatibility work now influences desktop operating-system choice beyond gaming hardware.
+- Watch next: Track donation trends, desktop share, anti-cheat support, and laptop reliability across mainstream distributions.

@@ -2,15 +2,18 @@
 
 - Score: 106 | [HN](https://news.ycombinator.com/item?id=46475437) | Link: https://hleb.dev/post/x-clacks-overhead/
 
-- TL;DR  
-  The post describes adding an `X-Clacks-Overhead: "GNU Terry Pratchett"` HTTP header to a Cloudflare Pages blog as a quiet memorial, inspired by Discworld’s Clacks system. It shows the simple `_headers` rule needed and emphasizes that the header is technically useless but emotionally significant—keeping Pratchett’s name “moving through the network.” Hacker News commenters expand on HTTP header naming conventions, how widely this header now appears (including honeypots), browser extensions that surface it, and shared affection for Pratchett’s work.
+### TL;DR
 
-- Comment pulse  
-  Use of `X-` prefix is officially deprecated → RFC6648 notes it complicates upgrades and standardization — counterpoint: this header’s name is now part of the homage.  
-  Shodan scans show `X-Clacks-Overhead` increasingly common → appears both on real services and honeypots, illustrating meme-like spread of the tribute.  
-  Ecosystem around the header has grown → browser extensions and public site listings let fans discover and share participating servers.
+A Terry Pratchett fan added `X-Clacks-Overhead: "GNU Terry Pratchett"` to every response from a Cloudflare Pages blog using a simple `_headers` file. The header references the Clacks network in *Going Postal*, keeping Pratchett’s name circulating as a quiet memorial without changing site behavior or performance. HN readers shared similar tributes, browser extensions, and playful custom headers; one technical aside noted that RFC 6648 deprecated the `X-` prefix convention for newly defined application parameters because it creates interoperability and standardization problems.
 
-- LLM perspective  
-  View: Harmless, shared in-jokes like this build cultural memory and community identity into otherwise anonymous infrastructure.  
-  Impact: Web admins and hobbyists gain a low-friction way to express fandom and remembrance in production systems.  
-  Watch next: Track similar “memorial headers” and whether they evolve into broader conventions or observability signals.
+### Comment pulse
+
+- The signal is a durable memorial → site owners keep Pratchett’s name moving through ordinary network traffic.
+- Hidden headers invite playful culture → personal jokes and extensions turn invisible metadata into small moments of discovery.
+- The name preserves legacy convention → newer custom parameters generally should avoid `X-`, according to RFC 6648.
+
+### LLM perspective
+
+- View: Technically unnecessary conventions can still carry community memory and make infrastructure feel human.
+- Impact: Static-site operators can participate with one configuration line and no visible interface changes.
+- Watch next: Check header persistence across CDNs, asset paths, redirects, and future platform configuration changes.
