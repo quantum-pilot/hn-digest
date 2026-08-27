@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Several deliberately convoluted unsigned-addition functions—including loops and recursion—compile to the same single ARM add instruction. The compiler does not catalog every odd coding pattern; it lowers programs into an intermediate representation, canonicalizes equivalent operations, and generates code after the original forms converge. Commenters demonstrate similar loop elimination through LLVM’s scalar-evolution analysis, but stress the limits: language semantics, optimization settings, external functions, algorithms, and memory layout can block transformations. Clear code helps humans, while programmers still own high-level performance decisions.
+Several deliberately convoluted unsigned-addition functions, including loops and recursion, compile to the same single ARM add instruction. The compiler first translates source into an intermediate representation, simplifies behavior, and canonicalizes equivalent forms before code generation; it does not need a catalog of every strange addition pattern. This lets developers favor readable, intention-revealing code while relying on mature optimizers for local transformations. Commenters stress the boundary: compilers rarely replace algorithms or reorganize data layouts, where programmers can achieve much larger gains.
 
 ### Comment pulse
 
-- Optimization needs facts → unsigned types, visibility into callees, and stronger optimization levels can unlock proofs unavailable from source alone.
-- Compilers optimize implementation, not architecture → they rarely replace algorithms, repair N-plus-one queries, or redesign data layout.
-- Readable code can improve speed indirectly → clear structure exposes larger changes that clever local tricks often obscure.
+- Compiler explorers expose surprising transformations → LLVM can reduce arithmetic loops and some recursive patterns to direct instructions.
+- Optimizers remain constrained by semantics and available knowledge → signed rounding, dynamic linkage, and aliasing can block obvious-looking rewrites.
+- Readability usually beats manual micro-optimization → developers still own algorithms, data locality, and communicating useful invariants.
 
 ### LLM perspective
 
-- View: Trust canonicalization for local algebra, but verify generated code when semantics or performance stakes are unusual.
-- Impact: Developers can favor intention-revealing source while focusing manual effort on algorithms, locality, and interfaces.
-- Watch next: Compare missed optimizations across compilers, flags, aliasing assumptions, link-time visibility, and representative benchmarks.
+- View: Trust compilers with canonical local rewrites, but do not outsource algorithm and memory-layout decisions.
+- Impact: Clear code improves human optimization opportunities while preserving the compiler’s ability to simplify implementation details.
+- Watch next: Inspect generated code when performance matters, then change abstractions only after measurements expose a real limitation.

@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-An open letter urges EU officials to reject mutual acceptance of US-certified vehicles, arguing that weaker requirements would erode pedestrian protection, automated braking, pollution controls, climate reporting, and public type approval. It contrasts falling European road deaths since 2010 with rising US fatalities and warns that oversized pickups could exploit an abused Individual Vehicle Approval route. The signatories instead support harmonization through Global Technical Regulations and demand full EU compliance. Commenters supported that goal but disputed how much fatality divergence regulation alone explains.
+An open letter urges EU policymakers to reject trade language accepting US-certified vehicles as substitutes for EU type approval. Signatories argue US rules omit mandatory pedestrian protections, automated braking, lane assistance, pollution controls, and public approval oversight, potentially admitting more oversized pickups and SUVs. They cite diverging road-death trends, but commenters note pandemic-era changes complicate causal attribution. The letter also warns of production shifts and urges reform of Individual Vehicle Approval, already used to import vehicles that bypass core standards.
 
 ### Comment pulse
 
-- European commenters described imported pickups as incompatible with narrow streets and shared-space safety, especially where drivers cannot see children.
-- Critics questioned attributing divergent fatality trends chiefly to regulation — counterpoint: supporters stressed missing US pedestrian standards and self-certification.
-- Others called US rules inconsistent, citing mirror restrictions and red indicators alongside permissive treatment of aggressive vehicle fronts.
+- Critics of US pickups emphasized poor visibility, collision danger, oversized parking footprints, and existing import loopholes.
+- Some questioned whether aggregate fatality trends isolate vehicle standards from infrastructure, driving patterns, and pandemic effects.
 
 ### LLM perspective
 
-- View: Regulatory equivalence should compare outcomes and enforcement systems, not treat national certification labels as interchangeable.
-- Impact: Looser admission could shift collision and pollution costs from importers toward vulnerable road users.
-- Watch next: The EU–US clause, Individual Vehicle Approval reform, and evidence separating vehicle standards from pandemic-era fatality effects.
+- View: Mutual recognition is risky when certification systems protect different road users and enforce rules differently.
+- Impact: Looser equivalence could transfer safety and pollution costs from importers to European streets.
+- Watch next: The final trade text, IVA reform, and vehicle-specific evidence separating standards from broader road design.

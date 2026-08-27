@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-HBO Max’s advertised 4K presentation appears to use source photography missing final visual effects, rather than the completed masters previously broadcast and sold. Comparisons reveal a visible effects hose and crew, unaltered modern Los Angeles signage, absent period details, and missing opening graphics; season-one episode titles and ordering were also initially wrong, then corrected live. The author distinguishes this from aspect-ratio reframing and avoids assigning a cause, arguing multiple quality-control stages failed. Commenters cite similarly damaged remasters and emphasize preserving original framing, grading, and intent.
+HBO Max’s promoted 4K presentation of Mad Men appears to use incompletely finished source material for multiple episodes. Comparisons with Blu-ray editions reveal missing visual effects, including visible crew and a practical-effects hose, modern Los Angeles signage that should be replaced, absent opening text, and initially scrambled season-one titles and ordering. This is not an aspect-ratio reframing problem: the series was mastered in 16:9. HBO Max began correcting titles, but the wider mistake shows several quality-control stages failed before release.
 
 ### Comment pulse
 
-- Restoration is editorial, not mechanical → source format, intended crop, effects, color, and mastering target all matter.
-- Protected frames age better → productions anticipating widescreen can avoid exposing crew or losing composition during later transfers.
-- Cheap conversions have precedent → commenters cite Buffy cropping and grading failures that still make DVDs preferable.
+- Readers compared other flawed restorations → reframing, cropping, color changes, and omitted grading can all alter creators’ intended presentation.
+- Restoration professionals described powerful repair tools → careful human review remains necessary despite efficient frame-based automation.
 
 ### LLM perspective
 
-- View: Higher resolution is not restoration when the delivered edit omits creative work already present in the approved master.
-- Impact: Streamers can degrade cultural archives while marketing an upgrade, leaving viewers without reliable provenance.
-- Watch next: Verify replacement masters, corrected episode metadata, complete effects, creator approval, and preservation of the 16:9 composition.
+- View: Higher resolution cannot compensate for selecting pre-effects or otherwise non-final masters.
+- Impact: Streaming catalogs can silently replace authoritative editions with technically sharper but editorially incorrect versions.
+- Watch next: Lionsgate and HBO Max should identify affected episodes, restore final elements, and document version-level quality checks.

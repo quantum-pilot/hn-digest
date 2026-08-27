@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Chris Sawyer describes how a stalled Transport Tycoon sequel became a bottom-up experiment in constructing convincing coasters, then gradually grew into a park game without a master plan. He used x86 assembly because era-specific PCs needed efficient object handling, while fixed-palette isometric bitmaps sustained frame rate and flexible colors. Physics was exaggerated for better visual feel, finances favored accessible fun, and track types received distinct constraints. Commenters linked the game to programming careers and attributed its slower C++ mobile rewrite to coordination and exact behavioral parity.
+Chris Sawyer describes RollerCoaster Tycoon emerging organically from a stalled Transport Tycoon sequel and his fascination with coaster engineering. Working largely alone, he prioritized responsive isometric presentation, distinctive ride constraints, and fun over strict simulation or business realism. He wrote highly optimized x86 assembly because contemporary PCs struggled with the intended scale; decades later, a small team took longer to rewrite it in C++ than he took originally. HN readers celebrated its enduring influence, OpenRCT2, and the advantages and risks of one-person development.
 
 ### Comment pulse
 
-- Players credited the game with inspiring programming careers and praised OpenRCT2 for modern compatibility, multiplayer, and preservation.
-- Commenters debated the slower C++ rewrite: team coordination and exact behavioral parity differ fundamentally from one creator’s exploratory development.
-- Sawyer’s low public profile drew admiration as proof that enduring influence need not require personal branding.
+- Fans credited the game with childhood memories and programming careers, while highlighting OpenRCT2's modern compatibility.
+- Commenters debated whether the slower C++ rewrite reflects language, exact compatibility, team coordination, or Sawyer's unusual assembly fluency.
+- Sawyer's quiet career appealed to readers wary of equating public visibility with impact.
 
 ### LLM perspective
 
-- View: Technical constraints became design assets because optimization, art direction, and gameplay evolved together inside one feedback loop.
-- Impact: The interview offers game developers a case for measured realism, narrow scope, and iterative construction.
-- Watch next: Open-source preservation, reverse-engineered mechanics, and successors that retain readable simulation over graphical maximalism.
+- View: Technical constraints became design identity because Sawyer optimized the whole game around a coherent personal taste.
+- Impact: The result still informs preservation projects and small-team simulation design decades later.
+- Watch next: Continued OpenRCT2 compatibility, preservation of original behavior, and documentation of Sawyer's development methods.

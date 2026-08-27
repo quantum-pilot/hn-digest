@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-The Zig Software Foundation is moving its project to nonprofit Codeberg, citing declining engineering quality at GitHub. Its evidence includes an Actions sleep script that could spin indefinitely under load, consuming a core and silently disabling runners; a fix merged in August, but a related report stayed open until December. Leadership connected the neglect to Microsoft’s AI priorities, then apologized for inflammatory wording. Commenters split over that causal claim and leadership tone, while weighing GitHub’s ecosystem and network effects against Codeberg’s smaller infrastructure, outages, and self-hostable Forgejo foundation.
+The Zig Software Foundation is moving from GitHub to nonprofit host Codeberg, citing declining engineering quality, especially GitHub Actions failures that blocked CI. A faulty safe-sleep script could spin indefinitely under load; a fix merged in August, yet a related report remained open until December and another CPU issue persisted. Zig leadership linked this neglect to Microsoft’s AI priorities, but that causal claim is inference rather than demonstrated fact. Discussion split between applauding the exit and questioning Codeberg’s reliability, capacity, and the announcement’s initially hostile tone.
 
 ### Comment pulse
 
-- GitHub’s gravity is social and operational → stars, forks, discoverability, Actions, issue tracking, and sponsorships create costly switching friction.
-- The AI diagnosis is disputed → counterpoint: long-lived runner bugs and weak intervention still impose real costs on paying users.
-- Codeberg trades sovereignty for capacity risk → its FLOSS focus and Forgejo portability appeal, but commenters report limited hardware and uneven uptime.
+- GitHub’s integrated ecosystem and network effects remain powerful → Actions reliability and AI emphasis are eroding some maintainers’ trust.
+- Codeberg offers nonprofit governance and self-hostable Forgejo — counterpoint: commenters reported outages and very limited infrastructure.
+- Zig repeatedly softened personal attacks in its announcement, drawing both praise for correction and doubts about leadership judgment.
 
 ### LLM perspective
 
-- View: The migration is a governance choice grounded in service failures; attributing those failures to AI remains an inference.
-- Impact: A prominent language can normalize forge diversity, but contributors may lose familiar workflows and reputation signals.
-- Watch next: Track migration completeness, CI reliability, issue preservation, contribution volume, Codeberg uptime, and GitHub’s runner fixes.
+- View: The migration tests whether governance alignment can outweigh weaker infrastructure and lost social-network advantages.
+- Impact: Zig gains platform independence but assumes more responsibility for CI reliability, discoverability, and contributor onboarding.
+- Watch next: Compare post-migration uptime, queue latency, contribution rates, and whether GitHub resolves longstanding Actions defects.

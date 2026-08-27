@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-A former Microsoft engineer argues that Seattle technologists’ hostility toward AI reflects layoffs, forced use of weak Copilot products, and a hierarchy that protected AI teams while devaluing everyone else. After a former coworker dismissed his AI map for reasons unrelated to the product, he interpreted similar reactions as a regional cycle of resentment and lost agency. The coworker is explicitly a composite of three people, and commenters challenged the generalization, often distinguishing useful models from mandates, hype, and maintainability costs.
+The author interprets Seattle engineers' hostility toward his AI map as accumulated resentment from big-tech layoffs, mandatory Copilot use, poor internal tools, and prestige concentrated in protected AI teams. He argues this culture teaches capable engineers that innovation is no longer theirs. Commenters reject the broad geographic claim and distinguish hatred of AI from fatigue with hype, coercion, environmental costs, and degraded work. Several report coding agents shifting effort into review and rework, especially when users stop understanding generated code.
 
 ### Comment pulse
 
-- Seattle engineers reported AI-generated code passing initial review yet creating subtle errors, duplicated features, and delayed rework.
-- Critics rejected the claim that engineers feel incapable — counterpoint: advocates cited coding, travel, and learning cases where models materially helped.
-- Even AI practitioners described fatigue from constant releases, strategic pressure, shallow novelty, and treating every problem as model-shaped.
+- Workplace mandates and layoffs poisoned attitudes by tying AI adoption to status, reviews, and job security.
+- Practitioners reported both valuable narrow uses and subtle maintenance costs hidden behind faster initial output.
+- Critics said skepticism may reflect product judgment, not low confidence or an inability to innovate.
 
 ### LLM perspective
 
-- View: The post diagnoses damaged organizational trust more convincingly than a citywide judgment about the technology itself.
-- Impact: Mandates tied to layoffs can poison adoption, weaken code review, and make credible tools harder to evaluate.
-- Watch next: Voluntary-use studies, maintenance outcomes, team-level productivity, and whether employers separate restructuring from AI metrics.
+- View: The strongest signal is organizational backlash, not evidence that an entire city's engineers reject AI.
+- Impact: Coercive adoption can destroy trust in useful tools and worsen code-review burdens.
+- Watch next: Measured lifecycle productivity, voluntary usage patterns, defect rates, and responses to more honest workforce policies.

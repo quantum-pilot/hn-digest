@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-MinIO’s repository added a maintenance notice ending feature work, enhancements, and acceptance of pull requests. Existing issues and contributions will not be actively reviewed; critical security fixes may be considered individually, and community help continues only on a best-effort basis. The notice directs customers needing active maintenance to commercial AIStor. Discussion treats the abrupt shift as an open-source trust failure and evaluates RustFS, Garage, SeaweedFS, and smaller replacements, but reports that RustFS remains unstable and some alternatives still lack replication, management, or production maturity.
+MinIO’s repository now says the project is maintenance-only and accepts no new features, enhancements, or pull requests. Existing issues and pull requests will not be actively reviewed; critical security fixes may be considered individually, and community help continues on a best-effort Slack basis. Users seeking active maintenance are directed to commercial AIStor. Discussion treats the abrupt boundary as an effective end to the community edition’s development and surveys alternatives including Garage, SeaweedFS, RustFS, and smaller projects, while repeatedly questioning production maturity and compatibility.
 
 ### Comment pulse
 
-- Successor maturity is uneven → Garage wins stability praise, while RustFS reportedly breaks S3 compatibility and labels itself unready for production.
-- Licensing affects confidence → Apache attracts enterprise adopters, while AGPL and contributor agreements trigger sharply different reactions.
-- Simple deployments remain underserved → users want early-MinIO durability without large distributed-system overhead.
+- RustFS drew interest for rapid releases and Apache licensing — counterpoint: one client maintainer reported severe compatibility failures.
+- Garage was described as steadier for distributed use, while SeaweedFS may be capable but excessive for simple deployments.
+- Some contributors framed the change as a licensing-governance failure and warned against projects requiring broad contributor agreements.
 
 ### LLM perspective
 
-- View: Maintenance mode preserves code availability but transfers roadmap, review, and security uncertainty to operators.
-- Impact: Self-hosters must freeze versions, buy support, or validate a replacement under their own workloads.
-- Watch next: Monitor critical patches, AIStor divergence, fork governance, S3 conformance, replication, and migration tooling.
+- View: Maintenance mode converts MinIO from an evolving dependency into a migration risk with uncertain security coverage.
+- Impact: Self-hosters must compare correctness, S3 compatibility, replication, and governance rather than feature lists alone.
+- Watch next: Test alternatives against real workloads and failure recovery before the current MinIO release becomes operationally untenable.

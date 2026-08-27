@@ -4,10 +4,10 @@
 
 ### TL;DR
 
-Valve has funded the open-source FEX compatibility layer since roughly 2016–2017, anticipating years of work to run x86 Windows games reliably on ARM hardware. The company is also building an ARM edition of SteamOS with the same Arch Linux base and updater, paired with an ARM-aware Proton that can include FEX. Valve names no product, but sees lower-power laptops, tablets, handhelds, phones, and perhaps desktops as possible targets. Compatibility gaps and multiplayer anti-cheat remain unresolved barriers.
+Valve has reportedly funded Fex, an open-source compatibility layer for running x86 Windows games on ARM, since roughly 2016–2017. SteamOS lead Pierre-Loup Griffais says Valve expected nearly a decade of work before users could rely on broad game libraries. An ARM SteamOS would retain the Arch-based system and updater while using ARM-aware Proton with Fex emulation. Valve sees lower-power laptops, tablets, handhelds, and possibly desktops as opportunities, although compatibility gaps and multiplayer anti-cheat remain unresolved barriers.
 
 ### LLM perspective
 
-- View: This is infrastructure investment for optional future ARM devices, not a hardware announcement.
-- Impact: Successful translation could widen Steam’s catalog across efficient form factors without requiring native game ports.
-- Watch next: Benchmark performance, battery use, anti-cheat support, game coverage, and any announced ARM SteamOS hardware.
+- View: Valve is treating architecture translation as long-term platform infrastructure, not a device-specific experiment.
+- Impact: Reliable ARM compatibility could broaden SteamOS hardware choices below the Steam Deck’s power envelope.
+- Watch next: Real-game benchmarks, anti-cheat support, battery efficiency, and device announcements will determine whether the strategy reaches consumers.

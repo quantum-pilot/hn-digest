@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Anthropic reportedly retained Wilson Sonsini for possible public-listing work and held preliminary talks with investment banks, while investors discussed getting ahead of OpenAI. A 2026 listing was described as possible by one source and unlikely by another; the company says it has made no decision whether or when to proceed. The financing round under discussion could value the Claude maker above $300 billion, but rapid growth, heavy losses, and enormous model-training costs make forecasting unusually difficult for prospective public investors. Commenters questioned independent model labs’ durability.
+Anthropic selected longtime counsel Wilson Sonsini for preliminary IPO preparation while discussing a private round valuing it above $300 billion. A listing could reportedly arrive in 2026, although another source called that unlikely and Anthropic said it has decided neither whether nor when to go public. OpenAI is also doing early preparatory work. Both would ask public investors to value rapidly growing but loss-making labs whose training costs and finances are difficult to forecast. HN discussion focused on weak moats and cloud partners' incentives.
 
 ### Comment pulse
 
-- Commenters questioned whether independent model labs can survive against integrated rivals, while viewing Amazon’s cloud partnership as strategically safer than acquisition.
-- Readers anticipated an unusually revealing registration filing, especially around losses, margins, growth claims, and public-benefit governance.
-- One commenter treated corrected sales-tax collection as a familiar sign of IPO or acquisition preparation.
+- Some viewed Amazon's partnership as a shovel-selling strategy that avoids owning Anthropic's enormous compute obligations.
+- Others anticipated an unusually revealing filing about profitability, governance, and the public-benefit-corporation structure.
 
 ### LLM perspective
 
-- View: Hiring counsel signals readiness work, not a committed timetable or assurance that market conditions will cooperate.
-- Impact: A listing would expose frontier-model economics and governance to public-market disclosure and quarterly scrutiny.
-- Watch next: Underwriter selection, the private round’s final valuation, audited economics, and any formal filing.
+- View: Hiring counsel signals readiness work, not a committed offering or reliable 2026 timetable.
+- Impact: Public scrutiny would force clearer disclosure of margins, compute commitments, governance, and model economics.
+- Watch next: Underwriter selection, an S-1 filing, funding-round terms, and evidence of durable differentiation.

@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-By enumerating a Filevine subdomain and inspecting its minified client code, the researcher found an unauthenticated API that returned what appeared to be a fully scoped Box administrator token for a law firm. A search for confidential material produced nearly 100,000 results; testing stopped immediately, without reported extraction. Filevine acknowledged the October 27 disclosure, confirmed remediation on November 21, and cooperated with publication. Discussion stresses least privilege and vendor diligence, while noting the flaw was a conventional SaaS integration failure, not inherently an AI bug.
+A researcher reports finding a Filevine-linked subdomain whose frontend exposed an unauthenticated recommendation endpoint. By reconstructing its request format from minified JavaScript, he received a fully scoped Box administrator token for a law firm’s filesystem. A search for “confidential” returned nearly 100,000 results; he stopped testing and disclosed the issue. Filevine acknowledged the report, confirmed remediation by November 21, and supported later publication. The incident combined a public endpoint with excessive token privilege, creating a potentially institution-wide confidentiality breach.
 
 ### Comment pulse
 
-- Naming supports responsible disclosure → counterpoint: one reader argues cooperative remediation should earn vendor anonymity after a detailed technical writeup.
-- Patch latency often reflects bureaucracy → ownership discovery, triage queues, approvals, and incentives can wrap a small code change in weeks.
-- Centralized legal data magnifies ordinary mistakes → one over-privileged integration token can expose institutional memory across many clients.
+- Readers defended naming Filevine after remediation → customers deserve disclosure, and technical details help other vendors find similar errors.
+- Slow response often reflects ownership and approval bottlenecks → commenters still considered this exposure urgent enough for immediate escalation.
+- Several rejected an AI-specific diagnosis → ordinary SaaS integration failures caused the bug, though centralized document access enlarged its blast radius.
 
 ### LLM perspective
 
-- View: The failure chain was basic: discoverable endpoint, missing authentication, excessive token scope, and no blast-radius containment.
-- Impact: Law firms need evidence of vendor IAM, isolation, logging, and incident response before centralizing sensitive files.
-- Watch next: Confirm token revocation, access-log review, client notification, independent audit, and redesigned least-privilege scopes.
+- View: An unauthenticated endpoint should never mint credentials broader than the single operation a user requested.
+- Impact: Legal clients face exposure across privileged communications, regulated records, and court-controlled documents from one integration mistake.
+- Watch next: Vendors should audit token scope, public subdomains, secret-bearing responses, revocation logs, and disclosure escalation paths.

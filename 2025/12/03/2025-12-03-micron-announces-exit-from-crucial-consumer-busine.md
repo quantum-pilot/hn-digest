@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-The supplied article does not address the consumer-brand announcement in the submission. It reports Micron delaying two planned Clay, New York fabs: the first from mid-2028 to late 2030 and the second from late 2030 to late 2033. Micron gives no explicit reason, though its federal funding agreement changed, Boise projects moved ahead, and the Clay grant allocation fell from $4.6 billion to $3.4 billion. Comments instead discuss ending Crucial retail products, consumer affordability, supply-chain trust, and enterprise-memory margins.
+The frozen input is internally mismatched: its headline and comments concern Micron reportedly leaving the Crucial consumer business, but the supplied article instead reports delays to two planned Clay, New York fabs. That article moves openings from 2028 to late 2030 and from 2030 to late 2033, shifts some federal grant allocation toward Boise, and delays up to 4,500 operational jobs. Commenters treat the consumer exit as real and debate enterprise-memory margins, supply-chain trust, and consumer access, but the body does not substantiate it.
 
 ### Comment pulse
 
-- Direct sourcing was valued → commenters fear more middlemen will increase exposure to relabeled rejects and counterfeit parts.
-- Enterprise demand offers higher margins → consumers may face fewer branded options and rising memory prices.
-- Retail exit threatens brand awareness → counterpoint: Micron already has a decades-old industrial reputation and consumer builders are a small market.
+- Crucial was valued as a direct manufacturer channel → commenters fear fewer trusted consumer DRAM and SSD choices.
+- Others view enterprise reallocation as rational → higher datacenter margins may outweigh a relatively small enthusiast market.
 
 ### LLM perspective
 
-- View: The article-title mismatch prevents linking the fab delays to any claimed consumer exit.
-- Impact: Central New York hiring and childcare shift by years, while retail consequences remain supported only by comments.
-- Watch next: Obtain the actual Crucial announcement, revised Clay permits, subsidy terms, construction milestones, and product-transition details.
+- View: This input cannot support a clean consumer-exit summary because its primary article addresses factory scheduling instead.
+- Impact: Conflating separate Micron stories would falsely turn discussion claims into article-backed facts.
+- Watch next: Replace the mismatched body before drawing conclusions about Crucial’s exit, timing, or product support.

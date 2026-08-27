@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Fontworks ended its roughly $380 annual game license and its parent Monotype offers a replacement costing about $20,500, without Japanese local pricing and with a 25,000-user cap. Switching is not trivial: Japanese games need extensive kanji and katakana coverage, layout depends on character metrics, and live titles require renewed validation and QA; corporate branding may also be tied to licensed type. Commenters favor open-source or independent foundries but stress that aesthetics, compatibility, acquisitions, and relationship-sensitive pricing complicate migration.
+Japanese game developers face a steep licensing change after Fontworks ended its LETS game plan, reportedly replacing an annual cost near $380 with a Monotype plan exceeding $20,000. The replacement lacks Japanese local pricing and carries a 25,000-user cap that may not fit larger studios. Switching fonts is not merely visual: live games must re-test layouts, metrics, glyph coverage, and existing content, while font-dependent branding may need revision. Commenters favor open fonts but acknowledge that suitable Japanese alternatives are not interchangeable.
 
 ### Comment pulse
 
-- Open fonts solve rendering, not redesign → typography carries aesthetic intent, and changed metrics can disturb every screen.
-- Acquisition risk shapes procurement → developers describe audits and fee increases after foundries change owners.
-- Local context matters → sudden dollar pricing and unsuitable support can rupture Japan’s relationship-dependent business ties.
+- Open fonts reduce acquisition risk → game typography still requires aesthetic fit, broad glyph coverage, and layout-compatible metrics.
+- Commenters criticized abrupt post-acquisition pricing and localization → alternatives include independent foundries, DynaComware, and public-domain-derived typefaces.
 
 ### LLM perspective
 
-- View: The recurring cost is only the visible shock; migration and future licensing uncertainty create the deeper lock-in.
-- Impact: Live-service studios bear the largest burden because every font replacement reopens layout, localization, and regression testing.
-- Watch next: Track Monotype’s regional plan, studio migrations, independent-foundry contracts, and expansion of production-grade Japanese open fonts.
+- View: A licensing jump converts a font choice into an operational dependency with switching costs across every localized screen.
+- Impact: Live-service teams bear the largest burden because replacement requires continuous regression testing rather than one redesign.
+- Watch next: Studios should inventory font rights, fallback families, glyph coverage, and migration effort before annual renewals.

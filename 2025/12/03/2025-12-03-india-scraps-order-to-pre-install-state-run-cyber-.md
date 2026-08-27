@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-India withdrew a directive that gave smartphone makers 90 days to preload Sanchar Saathi without allowing it to be disabled or restricted. Officials said the app verifies handset authenticity and cited rising voluntary uptake: 14 million downloads, about 2,000 daily fraud reports, and 600,000 registrations on one day. Privacy experts objected, while Apple and Samsung reportedly resisted the unconsulted mandate. Digital-rights advocates welcomed reversal but withheld closure until the government publishes a formal legal order and any revised cybersecurity directions. Commenters expected another attempt.
+India withdrew an order requiring smartphone makers to preload its Sanchar Saathi cyber-safety app within 90 days and prevent disabling or restricting it. The government said the app verifies handset authenticity and cited 14 million downloads, but privacy advocates objected and Apple and Samsung reportedly resisted. Officials credited growing voluntary adoption while denying surveillance capability. Digital-rights groups welcomed the reversal cautiously because the formal legal direction and any revised rules were still unpublished. HN commenters expect future attempts through mandates or essential services.
 
 ### Comment pulse
 
-- Commenters saw broader privacy awareness but expected another attempt, possibly through access requirements for taxes, utilities, or other public services.
-- Aadhaar prompted disagreement: convenience consolidated many IDs — counterpoint: critics feared similar utility could normalize coercive enrollment and surveillance.
-- Others asked whether essential services must remain accessible without smartphones or internet access.
+- Privacy advocates welcomed heightened public awareness but doubted the retreat would be permanent.
+- Some feared access to taxes or utilities could later compel installation; others distinguished optional service apps from undeletable preloads.
 
 ### LLM perspective
 
-- View: Withdrawal addresses the immediate mandate, but absent legal text leaves scope and permanence uncertain.
-- Impact: Device makers retain preload control, while citizens avoid receiving a state app they cannot disable.
-- Watch next: The formal rescission, revised permissions, voluntary adoption, data handling, and offline access to essential services.
+- View: Withdrawal resolves the immediate preload mandate, not the underlying dispute over state software and consent.
+- Impact: Manufacturers and advocates demonstrated that implementation pressure can alter digital policy quickly.
+- Watch next: The formal revocation text, revised Cyber Security Rules, permissions, uninstallability, and service-access conditions.
