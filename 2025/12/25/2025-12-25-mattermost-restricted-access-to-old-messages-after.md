@@ -2,26 +2,18 @@
 
 - Score: 328 | [HN](https://news.ycombinator.com/item?id=46383675) | Link: https://github.com/mattermost/mattermost/issues/34271
 
-## TL;DR
+### TL;DR
 
-Mattermost v11 introduced a hard 10k-message history cap for the free “Entry” edition, including self‑hosted servers. Older messages are still in the database but hidden behind a “Restore access” paywall. The change coincided with past reductions in free user limits and removal of free GitLab SSO, and was poorly surfaced in upgrade notes. A GitHub issue and HN thread describe angry admins calling it ransomware, debating the tangled licensing, sharing patches/forks to remove limits, and planning migrations to alternatives.
+After upgrading, a school running self-hosted Mattermost for more than 2,000 active users and 470,000 posts found older messages hidden once the free Entry offering’s 10,000-message history limit applied. Users said retroactively gating data on their own server destroyed trust, especially when available plans mismatched high-user, low-feature deployments. Workarounds discussed include Team Edition, staying on v10.11 ESR temporarily, rebuilding source without the limit, or migrating. HN supplied code changes, questioned the mixed licensing, and recommended forks or alternatives.
 
----
+### Comment pulse
 
-## Comment pulse
+- Self-hosting made the restriction feel illegitimate → customers supply storage and infrastructure yet lost ordinary access to existing history.
+- Communication compounded the pricing change → commenters saw inadequate migration guidance and simultaneous user or SSO reductions as coercive.
+- Source availability offers an escape hatch → custom builds can remove limits, though maintenance burden and licensing complexity remain.
 
-- Patch it out → Edit `limits.go` or use `sed` to disable limits; AGPL/MIT dual licensing likely permits local modifications — counterpoint: license text is confusing and badly drafted.  
+### LLM perspective
 
-- Pattern, not accident → Message cap + SSO removal + shrinking user limits = deliberate push to paid tiers, seen as classic rug‑pull on “open core” users.  
-
-- Exit strategies → Suggestions: Zulip, Matrix/Element, or forks like MostlyMatter; but some note Zulip also paywalls SAML/LDAP on self‑hosted.
-
----
-
-## LLM perspective
-
-- View: Retroactively hiding self‑hosted data behind edition logic crosses a trust line, even if technically “allowed” by the license.  
-
-- Impact: Schools, small orgs, and OSS‑oriented admins will accelerate moves to alternatives or community forks, fragmenting the Mattermost ecosystem.  
-
-- Watch next: Whether Mattermost backtracks on limits, clarifies licensing, or whether forks with sane defaults gain critical mass and packaged builds.
+- View: Retroactive access limits convert a pricing decision into a trust and data-governance failure.
+- Impact: Administrators must choose paid plans, maintained forks, older supported releases, or costly migrations under time pressure.
+- Watch next: Monitor official remediation, v10.11 support deadlines, fork sustainability, export completeness, and licensing clarification.

@@ -3,18 +3,17 @@
 - Score: 344 | [HN](https://news.ycombinator.com/item?id=46385308) | Link: https://www.deepsouthventures.com/i-sell-onions-on-the-internet/
 
 ### TL;DR
-A domain-name-obsessed developer accidentally wins VidaliaOnions.com at auction for $2.2k, then decides to build a direct-to-consumer sweet onion business despite knowing nothing about farming, logistics, or packing. He partners with an established Georgia farmer, focuses on branding, customer service, and even a phone-order hotline, and grows from an expected 50 orders to 600+ in the first season. The story charms HN as an example of “boring,” purpose-driven internet entrepreneurship, sparking debate on domains, phones, and replicating this model for other crops.
 
----
+Peter Askew accidentally won VidaliaOnions.com for about $2,200, then let the domain suggest a farm-to-door business. He partnered with experienced grower Aries Haygood, dividing farming from branding, service, marketing, and logistics. Their cautious estimate of 50 first-season orders became more than 600, and phone orders sometimes exceeded web sales. A $10,000 mistake on faulty boxes nearly ended the venture. HN saw a lesson in overlooked, direct-to-consumer businesses where domain authority and human conversation still create value.
 
 ### Comment pulse
-- Domains as seeds → Buying strong names first, then letting ideas emerge; sunk cost and memorability push founders to actually build.  
-- Boring DTC works → Internet plus phone orders can disintermediate supply chains and build trust—counterpoint: many still find automated, online-only ordering unreliable and alienating.  
-- Template for local produce → Readers wonder about copying this for oranges or Italian specialties; questions arise about legal protections (Vidalia name) and whether niche online food sales scale.  
 
----
+- “Boring” commerce fulfills an early internet promise → direct producer access can matter more than fashionable software ventures.
+- Human channels remain commercially useful → phone conversations carry context, trust, and customer insight that automated ordering loses.
+- Domain-first entrepreneurship looks irrational but can work → counterpoint: the purchase created commitment, discoverability, and a clear niche.
 
 ### LLM perspective
-- View: This is a playbook for pairing strong, specific domains with real-world partners instead of trying to own the whole value chain.  
-- Impact: Encourages technical people to tackle unsexy, regional products where better branding, UX, and human contact unlock latent demand.  
-- Watch next: Experiments applying this model to other PDO/PGI foods, with transparent logistics, recurring boxes, and lightweight compliance around protected names.
+
+- View: The durable advantage was not the domain alone, but pairing distribution insight with complementary agricultural expertise.
+- Impact: Small producers can reach devoted niches without building every operational capability themselves.
+- Watch next: Evaluate repeat orders, seasonal logistics, acquisition costs, trademark constraints, and whether phone-led service scales.

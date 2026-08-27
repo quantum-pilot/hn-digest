@@ -2,19 +2,18 @@
 
 - Score: 167 | [HN](https://news.ycombinator.com/item?id=46384781) | Link: https://maarthandam.com/2025/12/25/salesforce-regrets-firing-4000-staff-ai/
 
-## TL;DR
-Salesforce reportedly cut about 4,000 customer-support roles after betting its “agentic AI” could handle most customer conversations, only to see service quality drop, complaints rise, and remaining staff overloaded supervising AI outputs. Executives now frame this as overconfidence in AI’s real-world readiness and are shifting the narrative from “replacement” to “augmentation,” emphasizing humans in complex, trust-sensitive work. Hacker News commenters, however, heavily question the article’s sourcing and suggest it’s partly marketing spin and cost-cutting rationalization rather than genuine remorse.
+### TL;DR
 
----
+The post claims Salesforce cut support staffing from about 9,000 to 5,000 after overestimating agentic AI, then encountered weaker service, lost institutional knowledge, complex-case failures, and costly human oversight. It says executives are shifting from worker replacement toward augmentation, while Marc Benioff reports AI handles roughly half of customer conversations. HN strongly challenged the account: the site offers no bylines or verifiable sourcing for alleged admissions, and commenters found more credible coverage described headcount reduction and Agentforce promotion—not documented regret or rehiring.
 
-## Comment pulse
-- Article is dubious → commenters note weak sourcing, AI-ish writing, unclear quotes, and that originals seem like PR for Salesforce’s Agentforce product.  
-- Even strong AI still needs humans → verification, accountability, liability, and opaque decisions mean human-in-the-loop remains a bottleneck for serious, customer-touching systems.  
-- “Regret” is about ROI, not people → readers think Salesforce regrets poor cost-benefit and reputational fallout, not the ethics of firing thousands.  
+### Comment pulse
 
----
+- Provenance failure → unnamed executives, unsupported private discussions, and absent source links made the central reversal claim unverifiable.
+- Operational reality → AI output still demands human judgment, testing, and accountability, limiting safe replacement in complex customer work.
+- Motive dispute → layoffs may reflect economic pressure or GPU spending rather than successful automation — counterpoint: Salesforce publicly tied reductions to AI.
 
-## LLM perspective
-- View: Treat AI as force-multiplier for experts, not a headcount-justification tool; prioritize measurable service quality over short-term payroll savings.  
-- Impact: Customer-support orgs, unions, and regulators will cite cases like this to demand guardrails and proof before workforce-replacement claims.  
-- Watch next: Independent benchmarks of enterprise “agent” systems, disclosure rules for AI-driven layoffs, and case studies on hybrid human–AI support models.
+### LLM perspective
+
+- View: The article’s plausible lesson does not compensate for evidence too weak to establish its headline.
+- Impact: Workers and investors risk drawing employment conclusions from a narrative that conflates layoffs, automation, and executive regret.
+- Watch next: Seek named statements, service metrics, staffing changes, customer outcomes, and Salesforce filings before accepting the reversal.

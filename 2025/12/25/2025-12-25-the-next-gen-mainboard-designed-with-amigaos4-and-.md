@@ -3,18 +3,17 @@
 - Score: 72 | [HN](https://news.ycombinator.com/item?id=46380953) | Link: https://mirari.vitasys.nl/our-story/
 
 ### TL;DR
-A small Dutch team is building Mirari, a new low-cost PowerPC mainboard aimed at running next‑gen Amiga systems (AmigaOS 4, MorphOS) and classic software. It continues the X1000/X5000 tradition but aspires to be more affordable while relying on a modern 64‑bit NXP QorIQ SoC. Hacker News discussion celebrates the Amiga community’s persistence yet questions the focus on bespoke PPC boards over AROS/emulation on commodity hardware, and criticizes ongoing proprietary control of decades‑old Amiga ROMs.
 
----
+Mirari Boards describes a Dutch community effort by Dave and Harald to build a lower-cost next-generation Amiga mainboard capable of running AmigaOS software and games, motivated by scarce hardware and declining AmigaOS4 support. The page offers vision and acknowledgments rather than specifications, directing readers elsewhere for progress. HN admired the community’s persistence and the prospect of a modern 64-bit PowerPC hobbyist board, but questioned repeated expensive, outdated hardware projects instead of porting Amiga software to commodity machines, strengthening AROS, or improving emulation.
 
 ### Comment pulse
-- Enthusiasm for fresh Amiga hardware → shows scene’s longevity and creativity; frustration that original Kickstart ROMs remain paid, unchanged, proprietary decades later.  
-- Skeptics: custom PPC boards are expensive dead-ends → resources would better grow AROS and emulation on x86/ARM — counterpoint: bespoke hardware preserves authenticity and independence.  
-- Hardware fans intrigued by modern 64‑bit PowerPC → NXP QorIQ is networking-oriented yet effectively the only remaining PowerPC ISA option for hobbyist boards.
 
----
+- Community achievement → enthusiasts value fresh hardware and decades of Amiga innovation sustained by volunteers.
+- Architecture constraint → commenters identify NXP QorIQ as a rare PowerPC-compatible option, originally aimed at networking equipment.
+- Resource allocation → bespoke boards preserve native compatibility — counterpoint: AROS and commodity hardware might deliver a broader modern ecosystem.
 
 ### LLM perspective
-- View: This project spotlights the split between “real hardware” nostalgia and pragmatic portability to mainstream architectures.  
-- Impact: Success could modestly extend AmigaOS4/MorphOS lifespans and attract a few more developers to the PPC niche.  
-- Watch next: Concrete board specs, pricing, OS support status, and any moves toward more open ROM/firmware distribution.
+
+- View: Mirari is preservation through compatible hardware, prioritizing continuity and identity over mainstream price-performance.
+- Impact: Success could extend AmigaOS4 and MorphOS hardware availability for a small but committed community.
+- Watch next: Await specifications, pricing, production scale, operating-system support, drivers, and demonstrations beyond the vision page.

@@ -3,18 +3,17 @@
 - Score: 61 | [HN](https://news.ycombinator.com/item?id=46383233) | Link: https://algassert.com/post/2503
 
 ### TL;DR
-Craig Gidney argues that quantum error-corrected qubit lifetimes can improve superexponentially once systems cross quality thresholds and qubit counts keep scaling. Google’s repetition-code experiments progressed from ~100 µs (2014) to ~2 hours (2024) by adding qubits and removing “QEC hurdles” like leakage and cosmic-ray hits, matching a model where lifetime scales roughly as λ^q with q growing exponentially. He predicts a similar “FOOM” for fully quantum (surface-code) logical qubits within ~5 years, though quantity and speed remain unsolved bottlenecks.
 
----
+Craig Gidney argues quantum-error-corrected lifetimes can jump abruptly once hardware crosses thresholds: Google’s repetition-code half-life rose from 100 microseconds in 2014 to two hours in 2024, aided by mitigating cosmic-ray events. Because logical lifetime grows exponentially with physical-qubit count, exponentially expanding hardware could produce “FOOM,” interrupted by leakage, wiring, and other ceilings. He expects logical-qubit quality to improve dramatically within five years. HN stressed that the showcased repetition code preserves a classical bit, while full quantum computation must correct both bit and phase errors.
 
 ### Comment pulse
-- 59-qubit repetition result is classical-style storage → bit-flip-only correction equals a classical bit; still strong evidence these are genuine, reorientable qubits.  
-- “Can huge arrays do problems in one shot?” → no; depth lower bounds (e.g., Grover) and reaction constraints make speed a real resource.  
-- Hype and FOOM framing raise eyebrows → some see grant-chasing and overpromising — counterpoint: author explicitly limits claim to error-corrected quality, not full-scale QC.
 
----
+- Qualification → two-hour repetition storage is impressive but classical; surface codes must demonstrate equivalent scaling for logical qubits.
+- Forecast scope → the author predicts a quality breakthrough, not a complete computer, which would still require hundreds of logical qubits.
+- Computation depth → abundant qubits cannot erase sequential lower bounds in algorithms such as Grover search.
 
 ### LLM perspective
-- View: The data show a clear pattern: once engineering crosses thresholds, error correction rapidly outruns individual qubit quality.  
-- Impact: Hardware roadmaps may shift toward aggressively finding and removing QEC hurdles (leakage, cosmic rays, power events) over incremental fidelity tweaks.  
-- Watch next: Multi-logical-qubit surface-code demos, cross-platform lifetime scaling, and standardized “logical uptime” benchmarks including correlated and catastrophic error sources.
+
+- View: Threshold effects make progress look discontinuous, but extrapolated lifetimes should not be mistaken for usable computation.
+- Impact: Clearing quality barriers shifts engineering pressure toward logical-qubit quantity, gates, wiring, control, and speed.
+- Watch next: Compare larger surface-code demonstrations, leakage removal, correlated-error mitigation, reaction depth, and sustained logical operations.

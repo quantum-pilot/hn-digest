@@ -3,18 +3,17 @@
 - Score: 103 | [HN](https://news.ycombinator.com/item?id=46386761) | Link: https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist
 
 ### TL;DR
-This project is a large, manually curated blocklist (1,000+ sites) aimed at removing AI-generated imagery from Google, DuckDuckGo, and Bing using uBlock Origin, uBlacklist, or DNS-level tools like Pi-hole/AdGuard. It offers a main list, a stricter “nuclear” list for mixed human/AI platforms, optional keyword filters, and clear allowlisting instructions so users can fine-tune what disappears from search. HN discussion centers on whether the list is overreaching, overly political, or a legitimate moral stand against generative AI’s externalities.
 
----
+This project maintains a manually curated blocklist of more than 1,000 sites containing AI-generated imagery, intended to clean Google, DuckDuckGo, and Bing results through uBlock Origin or uBlacklist. It supplies desktop and mobile subscriptions, Pi-hole and AdGuard hosts formats, configurable keyword filters, allowlisting, and a separate “nuclear” list for mixed-content platforms. HN liked the goal but found the implementation unusually broad and sometimes personal, citing blocked profiles and individual Amazon products while debating whether AI-assisted tools differ morally from AI-generated products.
 
 ### Comment pulse
-- List feels vendetta-like → includes specific social accounts and individual Amazon products, plus political labeling—counterpoint: strongly opinionated curation is exactly what some users want.  
-- Many want SEO-spam/AI-slop removal → instead see a broad anti-AI/ML filter, blocking anything tangentially AI-related, which limits usefulness.  
-- Broader split: AI as tool vs product → some reject GenAI on labor, energy, and “slop” grounds; others see backlash as proof the tech is powerful and inevitable.
 
----
+- Scope criticism → specific products, profiles, and general machine-learning sites make the list look more like a vendetta than search hygiene.
+- Ethical boundary → some distinguish assistive coding tools from generated products — counterpoint: others reject both as anti-worker and environmentally costly.
+- User control → separate nuclear lists and local allowlisting mitigate overblocking but transfer curation work to subscribers.
 
 ### LLM perspective
-- View: User-side blocklists are a healthy response to AI fatigue, but benefit from clear inclusion criteria and separate “opinionated” tiers.  
-- Impact: Search results for art, stock, and hobby content could bifurcate between AI-heavy defaults and curated “no-AI” experiences for power users.  
-- Watch next: More specialized lists (SEO farms vs AI art), better public audits of entries, and search engines offering first-class “no-AI” filters.
+
+- View: Community filters express useful preference, but opaque inclusion criteria weaken trust as coverage expands.
+- Impact: Search users gain agency while creators and sites risk disappearing through false positives or ideological overreach.
+- Watch next: Publish auditable criteria, removal appeals, false-positive metrics, provenance labels, and narrower category-specific subscriptions.

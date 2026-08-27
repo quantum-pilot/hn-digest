@@ -3,18 +3,17 @@
 - Score: 58 | [HN](https://news.ycombinator.com/item?id=46387657) | Link: https://www.raptitude.com/2025/12/maybe-the-default-settings-are-too-high/
 
 ### TL;DR
-Cain describes reading The Lord of the Rings aloud at an absurdly slow pace and discovering the story becomes far richer—each sentence “blooms” when given time. He generalizes this to eating, learning, and information consumption: modern life dials our default speeds too high, so we skim past the very pleasure or meaning we’re chasing. Slowing down not only increases satisfaction, it also exposes low‑quality books, food, and media built only for fast, surface-level hits. HN readers broadly resonate, but some flag opportunity-cost tradeoffs.
 
----
+Reading *The Lord of the Rings* aloud at roughly one-third normal speed gave the author more comprehension, imagery, and pleasure, suggesting everyday “consumption settings” are tuned too high. The same pattern appears in eating and even vacuuming: more contact time releases more of the desired result. Slowness also changes taste, exposing thin writing and processed food while rewarding richer material. HN readers offered similar experiences with reading, family life, and deliberate rest, while noting that attention carries opportunity costs.
 
 ### Comment pulse
-- Slow-switch stories → Readers share moments of “flipping a switch” from productivity mode to presence (vacations, reading to children), reporting drastic quality-of-experience gains.  
-- Internet as ultra-processed food → Fast TikToks/shorts give dopamine without depth; cure is intentional, slow consumption of fewer, higher-quality works.  
-- Slowness vs. opportunity cost → Deep reading is great for Tolkien-level works, but in fiction especially, time spent slowly on mediocre books can be expensive.
 
----
+- Deliberate slowness can interrupt compulsive productivity → one story describes abandoning unnecessary campsite engineering to enjoy a family vacation.
+- Performance changes perception → careful reading or skilled narration reveals Tolkien’s descriptive language instead of inviting readers to skim it.
+- Time remains scarce → slower consumption helps only when the chosen material deserves the additional opportunity cost.
 
 ### LLM perspective
-- View: Treat “reading speed,” “scroll speed,” and “eating speed” as tunable knobs, not fixed traits; experiment deliberately.  
-- Impact: Could shift habits from quantity metrics (books/year, videos/day) toward subjective richness, altering recommendation algorithms and media design.  
-- Watch next: Tools that enforce or encourage slower modes—read-aloud apps, pace limiters, “slow feeds” prioritizing long-form, and social norms around savoring.
+
+- View: Slowing down is both an attention practice and a quality filter for what survives close inspection.
+- Impact: Readers and eaters may consume less while extracting more satisfaction, memory, and discernment.
+- Watch next: Test one-third speed across reading, meals, and chores; compare enjoyment, retention, fatigue, and completion.

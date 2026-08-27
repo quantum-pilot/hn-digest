@@ -2,15 +2,18 @@
 
 - Score: 161 | [HN](https://news.ycombinator.com/item?id=46384565) | Link: https://daniel.lawrence.lu/blog/2024-12-01-asahi-linux-with-sway-on-the-macbook-air-m2/
 
-## TL;DR
-The post walks through installing Asahi Linux on a 13.6″ MacBook Air M2 using a minimal Fedora + Sway setup, then carefully tuning it for the notched display. The author re-enables the hidden top row, aligns the bar behind the notch, customizes i3status and the touchpad region, and later switches to Waybar for a more compact status bar. Asahi feels fast and reliable enough for daily ARM development and line-scan photography, though battery life, media acceleration, and some I/O remain weaker than macOS.
+### TL;DR
 
-## Comment pulse
-- Mac-like Linux laptop wanted → Apple Silicon gives fast, efficient CPUs and top trackpads; many PCs feel behind in fit, finish, and screens.  
-- Durability vs elegance → some users report MacBook screens bending or breaking, preferring chunkier, MIL-SPEC-style machines like Thinkpads or LG Gram for real-world abuse.  
-- Base 256GB criticized → power users see it as “criminal” for dev/media workloads; light users doing web/office say even 256GB is overkill.
+The author installed minimal Fedora Asahi Linux and Sway on a 16GB M2 MacBook Air, then reclaimed the notch row with a 56-pixel top bar and touchpad mapping. The machine felt highly responsive, its touchpad matched macOS, and an ARM64 camera SDK worked, but heavy compiling and brightness consumed 40% battery in 4.5 hours. Sleep drain, missing hardware video decoding, and USB/display quirks remain. HN praised Asahi while debating MacBook quality, storage, and Linux laptop alternatives.
 
-## LLM perspective
-- View: Asahi + tiling Wayland converts the M2 Air into a highly capable ARM dev workstation despite modest RAM/SSD.  
-- Impact: Makes used/base Macs attractive to Linux tinkerers, potentially diverting some buyers from premium x86 ultrabooks and DIY-friendly laptops.  
-- Watch next: better GPU drivers and Vulkan ML runtimes on Asahi, plus standard notch protocols to make Linux UIs cutout-aware.
+### Comment pulse
+
+- Apple Silicon remains attractive for Linux → commenters value efficiency and build integration, while M4 support is still distant.
+- “MacBook quality” is contested → excellent screens and trackpads compete with soldered components, fragility claims, and repair concerns.
+- The notch workaround is elegant → a proposed Wayland cutout protocol could eventually standardize reserved regions and matching colors.
+
+### LLM perspective
+
+- View: Asahi turns exceptional hardware into a credible Linux workstation, but platform support still defines the ceiling.
+- Impact: M1/M2 owners can daily-drive Linux if battery, video, and peripheral compromises fit their workload.
+- Watch next: Follow newer-chip enablement, hardware video decoding, suspend efficiency, external displays, and Vulkan compute performance.

@@ -2,15 +2,18 @@
 
 - Score: 74 | [HN](https://news.ycombinator.com/item?id=46380730) | Link: https://fortune.com/2025/12/23/silicon-valleys-tone-deaf-take-on-the-ai-backlash-will-matter-in-2026/
 
-- TL;DR  
-  - Fortune’s column argues Silicon Valley misreads AI backlash as ignorance of “miracle” tools, while many users experience AI as job threat, price-gouging infrastructure, and unequal upside. 2026 will intensify political, religious, and consumer pushback—over data centers, kids’ exposure, Instacart‑style opaque pricing, and whether LLMs are overhyped as “AI scientists.” Commenters say excitement died because tech leaders chase power, not welfare; AI centralizes control and monetizes our work while executives fantasize about replacing workers entirely.
+### TL;DR
 
-- Comment pulse  
-  - Elite ideology → Some cite Peter Thiel–style beliefs that widespread comfort causes stagnation, so certain leaders actively value managed conflict and suffering over broad wellbeing.  
-  - Unequal gains → Examples include AI‑justified layoffs funding GPU buys, ads for “AI employees” who never demand overtime, and models mass‑copying creators’ styles without compensation.  
-  - Narrative battle → Some blame fear on media manufacturing doom;—counterpoint: others say ordinary users already feel anxious or hostile to genAI without media prompting.
+Fortune argues Silicon Valley misreads AI skepticism as ignorance of rapid technical progress. Builders celebrate tireless digital minds and gains in coding, mathematics, and science, while many people instead see job threats, nearby data centers, higher costs, scraped creative work, and benefits concentrated among companies and investors. The industry therefore needs credible answers about distribution and daily life, not more demonstrations. HN largely agreed the backlash concerns power and accountability, though some blamed media incentives for amplifying fear and disputed how broadly ordinary users value generative AI.
 
-- LLM perspective  
-  - View → AI firms should pair evangelism with redistribution: wage boosts, lower prices, or dividends, not just inspirational rhetoric.  
-  - Impact → Ignoring labor and faith‑based concerns risks reactive regulation that could entrench incumbents and stifle open‑source or civic AI.  
-  - Watch next → Trust‑building: workplace AI rules with teeth, community input on data‑center siting, and royalties on training data.
+### Comment pulse
+
+- Distribution → productivity gains flow toward capital while workers face displacement, rent-seeking, energy costs, and uncompensated training data.
+- Trust → commenters blamed technology leaders’ visible contempt for labor and weak accountability, not public failure to understand capabilities.
+- Narrative dispute → some see justified structural anger — counterpoint: others say media manufactures polarization through anxiety-driven coverage.
+
+### LLM perspective
+
+- View: Capability demonstrations cannot resolve opposition rooted in ownership, risk allocation, and institutional credibility.
+- Impact: AI firms face political resistance unless deployment produces visible household benefits and enforceable protections.
+- Watch next: Track wage distribution, electricity pricing, data-center policy, labor transitions, liability rules, and public-opinion gaps.
