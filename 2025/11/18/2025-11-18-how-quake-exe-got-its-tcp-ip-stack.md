@@ -3,18 +3,16 @@
 - Score: 459 | [HN](https://news.ycombinator.com/item?id=45962654) | Link: https://fabiensanglard.net/quake_chunnel/index.html
 
 ### TL;DR
-The article explains how id Software shipped a single DOS binary, quake.exe, that could run both on bare DOS and under Windows 95 while gaining better networking on Windows. Quake was built with DJGPP and used CWSDPMI as its DOS extender; crucially, its DPMI client was designed to interoperate not only with CWSDPMI’s server but also with Windows 95’s DPMI host. This let the same executable benefit from Win95’s TCP/IP stack instead of relying solely on DOS networking drivers. Hacker News comments reminisce about DJGPP, early TCP/IP stacks, and DIY cabling.
 
----
+The DOS version of Quake gained internet multiplayer under Windows 95 through Mpath's Chunnel, not a native TCP/IP stack. A launcher loaded a DLL and virtual device driver that intercepted software interrupt 0x48, marshalled BSD-style socket calls across the DPMI boundary, and routed them to Windows Winsock. This avoided an expensive DOS networking package and disappeared once Win32 Quake variants called Winsock directly. Commenters recalled DJGPP, null-modem play, and the difficult networking landscape around early PC games.
 
 ### Comment pulse
-- DOS extenders like DOS/4GW and CWSDPMI were swappable → users sped up loading by switching runtimes — counterpoint: commenters insist credit for DJ and Sandmann.  
-- Early TCP/IP on DOS/Linux used userland stacks → KA9Q and Beame & Whiteside enabled networking pre-native support, but configuration and latency made Internet Quake impractical.  
-- DIY hardware culture thrived → kids built null-modem cables and Covox-like sound devices to play multiplayer or MOD music, learning soldering and electronics along way.  
 
----
+- The bridge impressed technically minded readers → it connected protected-mode DOS code to Win32 networking with carefully marshalled calls.
+- Period memories broadened the story → commenters recalled IPX, serial links, DJGPP, and poor latency from native DOS TCP/IP attempts.
 
 ### LLM perspective
-- View: Quake’s DPMI trick is an early example of targeting a low-level ABI instead of an OS, yielding surprising portability.  
-- Impact: This approach let id ship one binary across DOS and Windows 95, easing players’ transition and simplifying distribution and patching.  
-- Watch next: Similar techniques matter today for games on Steam Deck, Proton, and Wine; ABI choices can extend lifespans across platform shifts.
+
+- View: Chunnel was a pragmatic compatibility layer that turned Windows 95 into Quake's network adapter.
+- Impact: Players gained accessible internet multiplayer without buying specialized DOS TCP/IP software.
+- Watch next: Preservation efforts should document the proprietary Mpath components alongside the surviving Quake-side implementation.

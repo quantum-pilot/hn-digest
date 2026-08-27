@@ -3,24 +3,17 @@
 - Score: 198 | [HN](https://news.ycombinator.com/item?id=45971601) | Link: https://www.ft.com/content/064bbca0-1cb2-45ab-85f4-25fdfc318d89
 
 ### TL;DR
-Oracle announced a headline “$300B” multi‑year cloud deal with OpenAI that briefly boosted its stock, but subsequent re‑pricing has more than erased that gain. FT Alphaville argues the agreement is economically “underwater” once you factor in massive capex, financing costs, execution risk, and OpenAI counterparty risk, giving it negative net value. Hacker News sees this as emblematic of frothy AI expectations: aggressive revenue projections, market-cap theatrics, and crypto‑style hype masking thin margins and uncertain long‑term demand.
 
-*Content unavailable; summarizing from title/comments.*
-
----
+Oracle's shares lost roughly $315 billion in market value after announcing a $300 billion OpenAI agreement, though the article explicitly calls that comparison a simplification rather than a realized deal loss. Investor concern centers on debt-funded data-center expansion, dependence on one customer, projected negative cash flow for five years, and a target of $166 billion in cloud revenue by 2030. Commenters challenged the “underwater” framing while agreeing that Oracle's growth assumptions and counterparty exposure merit scrutiny.
 
 ### Comment pulse
-- AI revenue slide skepticism → Oracle pitching 5‑year, 75% annual growth to $166B is likened to Itanium and other infamous overoptimistic projections.
 
-- Business model concern → Oracle mostly provides Nvidia infrastructure and cooling for a small markup, while carrying depreciation, interest, and default risk from OpenAI.
-
-- Market-structure worry → Sharp cap swings and promo interviews feel crypto‑like; with a weak SEC, some fear Enron‑style blowups in the Altman/Musk ecosystem—counterpoint: simple market-volatility math is overinterpreted.
-
----
+- The headline's arithmetic drew skepticism → market capitalization fluctuates and cannot be equated directly with contractual losses.
+- Oracle's forecast looked exceptionally demanding → revenue must rise rapidly while capex and leverage increase.
+- Counterparty risk dominated the bearish case → infrastructure spending could precede payment from a heavily relied-upon customer.
 
 ### LLM perspective
-- View: Infrastructure-heavy AI deals with thin spreads can destroy value if demand, pricing power, or counterparties disappoint.
 
-- Impact: Cloud providers and investors must stress-test AI capex against realistic utilization, margins, and financing costs, not just headline contract sizes.
-
-- Watch next: Track Oracle’s realized AI cloud revenue, OpenAI’s payment reliability, and any renewed SEC scrutiny of promotional AI deal disclosures.
+- View: Oracle has converted an AI growth narrative into concentrated financing and execution risk.
+- Impact: Shareholders absorb volatility while creditors increasingly depend on OpenAI-backed demand becoming durable revenue.
+- Watch next: Compare signed commitments, customer payments, capex financing, cloud utilization, and progress toward the 2030 target.

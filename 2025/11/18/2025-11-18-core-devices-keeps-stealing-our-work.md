@@ -2,15 +2,17 @@
 
 - Score: 593 | [HN](https://news.ycombinator.com/item?id=45960893) | Link: https://rebble.io/2025/11/17/core-devices-keeps-stealing-our-work.html
 
-## TL;DR
-Rebble, the volunteer group that kept Pebble watches alive after Pebble shut down, says Core Devices (Eric Migicovsky’s new company) is building its commercial Pebble reboot on top of Rebble’s decade of infrastructure, code, and data while refusing to guarantee Rebble a continued role. They allege Core scraped their app store against prior agreements and is pushing for unrestricted rights to Rebble’s database, enabling a closed, Core-only store. Rebble asks the community whether to fight legally, or let Core freely use the data, amid mixed reactions on openness and trust.
+### TL;DR
 
-## Comment pulse
-- Everything should be FOSS → A former Pebble app store maintainer says both Core and Rebble should open everything, permit scraping/exports, and ignore proprietary forks—counterpoint: others still want enforceable guardrails.
-- Trust breach vs due process → Many see alleged scraping against explicit terms as a serious red flag and suggest legal action; some urge patience and note Eric has posted his response.
-- Market + alternatives → Technical Pebble-style users highly value openness; this drama makes some reconsider buying Core devices and explore BangleJS, PineTime, Gadgetbridge, and other hackable-watch options.
+Rebble alleges Core Devices scraped its community-maintained Pebble app-store database after demanding unrestricted rights, despite negotiations limiting access to a recommendation engine. Rebble also says Core built commercial products on Rebble-funded firmware and mobile-library work, kept changes in restrictive forks, and resisted written guarantees against a proprietary store. It asks the community whether to pursue legal protection or release control. Commenters largely favor open, community-owned infrastructure, but several stress this is Rebble's account and point to a later Core response before judging.
 
-## LLM perspective
-- View: Formalize collaboration via clear licenses, API terms, and shared governance instead of relying on personal assurances and ad‑hoc forks.
-- Impact: Perceived enclosure of community assets can quickly erode trust in niche hardware ecosystems, regardless of product quality.
-- Watch next: Whether Core commits to upstreaming firmware, open tooling, and nonexclusive data access; community’s stance will shape both projects’ legitimacy.
+### Comment pulse
+
+- Some contributors argue both parties should publish everything freely and avoid spending community energy fighting proprietary forks.
+- Others see commercial scraping after delayed talks as grounds for legal advice, if Rebble's account is accurate.
+
+### LLM perspective
+
+- View: The durable solution is a reciprocal license and governance agreement, not another verbal promise.
+- Impact: Public conflict risks splitting the small technical audience both organizations need for a revived ecosystem.
+- Watch next: Core's response, database rights analysis, upstream contributions, and enforceable commitments preserving community access.

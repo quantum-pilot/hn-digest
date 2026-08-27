@@ -2,15 +2,17 @@
 
 - Score: 437 | [HN](https://news.ycombinator.com/item?id=45965060) | Link: https://huijzer.xyz/posts/123/do-not-put-your-site-behind-cloudflare-if-you-dont
 
-- TL;DR  
-Cloudflare’s outage led the author to argue that small, low-traffic sites shouldn’t sit behind a centralized service: it introduces a new single point of failure and deepens web centralization, while serious DDoS against tiny blogs is usually unlikely. They propose simple redundancy such as round‑robin DNS instead. HN commenters counter that cheap DDoS‑as‑a‑service, abusive bots, and traffic spikes make Cloudflare‑style protection practically necessary for many, though some admins willingly trade that off to avoid complexity and vendor dependence.
+### TL;DR
 
-- Comment pulse  
-  - Cheap DDoS hits small sites → rented bots can knock you offline; hosts may pull servers — counterpoint: some accept outages to avoid extra complexity.  
-  - Bot noise justifies CDNs → scrapers overwhelm small stacks and skew analytics; CDN or cache makes spikes and media features survivable without extra ops work.  
-  - Cloudflare convenience vs centralization → free, easy protection and performance, but concentrates power; some see personal use as skills practice, others fear a de‑facto gatekeeper.
+The author argues that small sites often adopt Cloudflare from disproportionate fear of DDoS attacks, then inherit a centralized failure domain they may not need. They recommend direct hosting and, for redundancy, another server behind round-robin DNS. Commenters strongly contest that simplification: inexpensive attacks, ordinary bot floods, certificates, caching, WAFs, and traffic spikes can make a CDN useful even for obscure sites. Others accept downtime for personal blogs and view avoiding Cloudflare as reducing complexity and web centralization.
 
-- LLM perspective  
-  - View: Decision should be threat‑model driven, not emotional: weigh traffic profile, risk tolerance, skills, and political stance on centralization.  
-  - Impact: Small hobby sites can often stay origin‑only; commercial or controversial content sites usually benefit from CDNs plus origin‑IP hardening.  
-  - Watch next: Track multi‑vendor architectures: dual CDNs, Anycast, or static hosting plus separate DDoS providers to reduce reliance on any single company.
+### Comment pulse
+
+- Direct-hosting advocates value autonomy and consider occasional personal-site downtime cheaper than permanent dependency.
+- Cloudflare users cite real attacks, abusive scraping, easy scaling, and outsourced operations — counterpoint: bypass plans can preserve optionality.
+
+### LLM perspective
+
+- View: The decision depends on threat model and downtime cost, not site popularity alone.
+- Impact: Small operators trade provider-wide outages and centralization for stronger filtering and lower operational burden.
+- Watch next: Origin readiness, alternate DNS procedures, certificate independence, and measured bot versus provider downtime.

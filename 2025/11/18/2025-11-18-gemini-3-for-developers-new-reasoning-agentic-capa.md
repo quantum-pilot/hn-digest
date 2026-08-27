@@ -2,12 +2,12 @@
 
 - Score: 361 | [HN](https://news.ycombinator.com/item?id=45968043) | Link: https://blog.google/technology/developers/gemini-3-developers/
 
-## TL;DR
-Google’s Gemini 3 Pro is a new flagship model focused on “agentic” workflows and reasoning-heavy coding. It integrates with the Gemini API, Vertex AI, and a new IDE-like agent platform called Google Antigravity, plus tools like Gemini CLI and Android Studio. Features include client/server bash tools for system automation, “vibe coding” to build full apps from natural language, 1M-token multimodal context with strong vision/video/spatial reasoning, and new API controls for thinking depth and media resolution. The linked HN thread just redirects, with no substantive discussion.
+### TL;DR
 
----
+Google positions Gemini 3 Pro as a stronger coding, reasoning, multimodal, and long-context model for agentic development. The preview costs $2 per million input tokens and $12 per million output tokens for prompts up to 200,000 tokens, with limited free AI Studio access. Reported scores include 54.2% on Terminal-Bench 2.0 and 1487 WebDev Arena Elo. Integrations span Antigravity, Gemini CLI, IDEs, AI Studio, Vertex AI, and third-party tools, with configurable vision fidelity and new client- and server-side bash tools.
 
-## LLM perspective
-- View: This is Google’s push to make autonomous coding agents mainstream, not just better chat-based code assistants.  
-- Impact: Strongest gains will be for teams automating dev workflows, test harnesses, and research/report-generation pipelines.  
-- Watch next: Independent benchmarks of agent reliability, security of bash tools, and real-world Antigravity adoption in production codebases.
+### LLM perspective
+
+- View: The product bet is integrated tool execution and workspace control, not benchmark leadership alone.
+- Impact: Developers can delegate longer tasks, while security and review burdens grow with terminal and browser access.
+- Watch next: Independent coding evaluations, bash-tool safeguards, preview reliability, latency, and costs beyond 200,000 tokens.
