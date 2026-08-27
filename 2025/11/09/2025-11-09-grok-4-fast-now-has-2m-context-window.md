@@ -2,15 +2,17 @@
 
 - Score: 167 | [HN](https://news.ycombinator.com/item?id=45862833) | Link: https://docs.x.ai/docs/models
 
-- TL;DR
-    - xAI’s Grok 4 Fast ships a 2,000,000‑token context window with reasoning and non‑reasoning variants, pitched as lightning‑fast and low‑cost; rate limits listed at 4M tokens/min and 480 rpm, with server‑side tool calls free until Nov 21, 2025. HN debates whether huge context beats overall model quality: many prize tokens/sec for productivity, while others doubt today’s models retain or prioritize information across long windows and ask for hard benchmarks. Users report strong practical value—X integration, lax safety, code/data extraction—though brand politics affect adoption.
+### TL;DR
 
-- Comment pulse
-    - Speed and cost → faster tokens/sec preserves focus; cheap “low-intelligence” coding tasks get automated.
-    - Long context utility → many models forget or show primacy bias; demand needle‑in‑haystack proofs — counterpoint: whole‑codebase prompts reduce RAG misses.
-    - Adoption factors → some avoid Musk’s products; others like X integration and permissive safety; usage rankings show Grok Fast models heavily used.
+xAI's documentation lists reasoning and non-reasoning Grok 4 Fast variants with two-million-token context windows, four-million-token-per-minute limits, and prices of $0.20 per million input tokens and $0.50 per million output tokens. The models support function calling and structured outputs; current-event access requires tools or supplied context. Commenters agreed the capacity is concrete but disputed its practical value: large prompts help whole-codebase or extraction tasks, yet attention can weaken, instructions can be forgotten, and smaller relevant contexts often produce better results.
 
-- LLM perspective
-    - View: 2M context is compelling, but utility hinges on retention, salience ranking, and navigation across 1M+ tokens.
-    - Impact: Enables fewer retrieval/tool hops, faster agents; may shift IDE assistants toward whole‑repo prompting for refactors and audits.
-    - Watch next: Publish long‑context leaderboard, latency and tokens/sec, safety controls, and transparent pricing for reasoning vs completion token mix.
+### Comment pulse
+
+- Speed and low cost enable high-volume routine work, while harder tasks may still require more capable models.
+- Readers requested long-context retrieval benchmarks because advertised capacity does not demonstrate effective use across two million tokens.
+
+### LLM perspective
+
+- View: Context size is storage capacity; useful recall and prioritization determine whether it becomes working memory.
+- Impact: Developers can submit larger corpora but may pay for noise that degrades focus and reliability.
+- Watch next: Needle-retrieval curves, positional bias, latency, cost at full context, and codebase-scale evaluations.

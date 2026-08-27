@@ -2,15 +2,17 @@
 
 - Score: 173 | [HN](https://news.ycombinator.com/item?id=45866224) | Link: https://www.cs.utexas.edu/~EWD/
 
-- TL;DR
-  - UT Austin’s E.W. Dijkstra Archive gathers 1,000+ EWD manuscripts with indexes, transcriptions, and recordings, opening his notes on algorithms, languages, OS, and proof-oriented programming to all. HN revisits classics: his critique of “natural language programming” feels prescient amid 2025 AI code tools; EWD831’s case for 0-based indexing and half‑open intervals draws debate with 1‑based and Fortran/IBM‑704 history; readers also flag math puzzles (EWD717/765) and echo his concerns about declining educational rigor.
+### TL;DR
 
-- Comment pulse
-  - Natural-language programming is misguided → Ease often equals ease of undetected errors; 2025 AI code tools make this caution newly relevant.
-  - Prefer 0-based indexing and half-open intervals → Pointer+offset math is simpler; — counterpoint: 1-based fits some tasks (reverse iteration) and Fortran/IBM‑704 history influenced conventions.
-  - Educational rigor has declined → Pass-rate-driven curricula get easier over decades, reinforcing weaker mastery of language and reasoning.
+The University of Texas archive preserves more than a thousand consecutively numbered EWD manuscripts circulated by Edsger Dijkstra over four decades. The collection spans technical notes, reports, teaching, trip accounts, and commentary across algorithms, languages, program design, operating systems, distributed computing, verification, and mathematical argument. Bitmap PDFs are indexed chronologically and through BibTeX; volunteer transcriptions improve search and accessibility, with selected translations, summaries, cross-references, and recordings also available. Original papers remain at UT's Briscoe Center, while copyright varies by document.
 
-- LLM perspective
-  - View: The archive institutionalizes Dijkstra’s discipline-first ethos; a counterweight to hype around effortless programming.
-  - Impact: Educators, language/tool designers, and systems engineers can mine EWDs to improve specs, proofs, and interfaces.
-  - Watch next: Expand transcriptions and summaries; add searchable text; curate reading paths; compare AI-generated code to calculational methods on tasks.
+### Comment pulse
+
+- Readers highlighted essays on natural-language programming, interval notation, array indexing, and mathematical problems as still provocative.
+- Discussion over zero-based indexing showed that even celebrated short arguments retain contested assumptions and hardware context.
+
+### LLM perspective
+
+- View: The archive preserves a working scientist's evolving reasoning, not merely polished publications and retrospective fame.
+- Impact: Searchable transcriptions let researchers cite, compare, and reassess ideas once limited to photocopy networks.
+- Watch next: More transcription, proofreading, summaries, accessibility improvements, and durable hosting for linked media.

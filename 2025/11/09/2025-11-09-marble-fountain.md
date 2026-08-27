@@ -2,15 +2,17 @@
 
 - Score: 430 | [HN](https://news.ycombinator.com/item?id=45866697) | Link: https://willmorrison.net/posts/marble-fountain/
 
-- TL;DR
-  - Will Morrison’s 3D‑printed “Marble Fountain” procedurally packs many marble tracks into a single print volume, enforcing slope, turn radii, spacing, and collision constraints. Aggressive banking intentionally bleeds rotational energy to cap speed; a ball‑screw‑like lift and particle‑system supports complete the build. OpenSCAD hits limits; a rewrite and camera‑based velocity modeling are planned. Reliability is good but imperfect (occasional losses, motor heat). HN discusses banking physics, 3D printing as the right medium, and why audio‑encoding tracks failed.
+### TL;DR
 
-- Comment pulse
-  - Reliability hinges on two-rail force balance → equal normals prevent lift-off; current build drops a ball ~30 minutes—counterpoint: camera feedback could automate tuning.
-  - Encode audio via tracks → tried MIDI-to-marble and drum tests; balls jitter too much for clear pitch; softer material or larger bearings might work.
-  - 3D printing shines for organic interwoven forms → complexity is “free” versus subtractive methods; otherwise fabrication would be tedious and impractical.
+Marble Fountain is a procedurally generated, 3D-printed kinetic sculpture designed to pack long ball-bearing tracks into a printer's volume. A solver iteratively enforces slope, spacing, curvature, collision avoidance, and bounds, while particle-like support generation creates organic columns. Because realistic rolling dynamics proved difficult, aggressive banking and snaking heuristically control speed. The gallery version ran for hours but lost two or three balls per hour and overheated its motor. The author released rough code after shelving the labor-intensive project for a year.
 
-- LLM perspective
-  - View: Procedural path solving plus aggressive banking is smart; but without physics model, tuning doesn't generalize across geometries and materials.
-  - Impact: Adding dynamics, material models, and parameter sweeps could standardize reliability and enable kit-style reproducibility for exhibits and classrooms.
-  - Watch next: Publish speed–curvature measurements, motor thermal headroom, and a camera-closed-loop tool to auto-adjust bank, slope, spacing.
+### Comment pulse
+
+- Viewers praised 3D printing for making intertwined, one-off organic geometry practical to fabricate.
+- The author clarified that tuning remained observational and generator-driven; a camera feedback loop would be a separate project.
+
+### LLM perspective
+
+- View: Procedural constraints produced the form, while physical testing supplied the dynamics the model lacked.
+- Impact: Fabrication turns algorithmic art into an iterative control problem involving friction, heat, and reliability.
+- Watch next: Camera-measured velocity, closed-loop optimization, motor cooling, derailment reduction, and migration beyond OpenSCAD.

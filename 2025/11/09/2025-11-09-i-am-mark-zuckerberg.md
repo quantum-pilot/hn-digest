@@ -2,15 +2,17 @@
 
 - Score: 1095 | [HN](https://news.ycombinator.com/item?id=45863360) | Link: https://iammarkzuckerberg.com/
 
-- TL;DR
-  - An Indiana bankruptcy attorney named Mark S. Zuckerberg runs a tongue‑in‑cheek site to distinguish himself from Meta’s CEO and detail the harms of name collision: mistaken lawsuits, account bans, hacking/lockouts, nonstop misdirected calls, and harassment. He also targets “Mark Zuckerberg bankruptcy” SEO while serving Hoosiers. HN readers trade homonym horror stories, note misdirected sensitive emails and calendar invites, debate unique identifiers (UUIDs, national IDs), flag security gaps from constant password‑reset attempts, and reflect on the psychological toll of fame and “pseudo‑fame.”
+### TL;DR
 
-- Comment pulse
-  - Name collisions cause misdirected emails, sensitive documents, and calendar invites → privacy breaches; constant password-reset triggers lock accounts; impersonation to retrieve documents risks felonies.
-  - Fame’s downside is relentless abuse and noise → shapes behavior of public figures; VTubers/virtual personas offer separation between audience and private life.
-  - Identity systems need unique, verifiable identifiers to avoid collisions → proposals span national IDs to UUIDs — counterpoint: parties awkward; names must be pronounceable.
+Indiana bankruptcy attorney Mark S. Zuckerberg uses a humorous website to distinguish himself from Facebook's founder and document repeated identity collisions. He says Facebook and Nextdoor have disabled his accounts as suspected impersonation, strangers send more than 100 daily friend requests, scams trigger money requests and support calls, and misdirected threats, packages, and legal action reach him. Commenters shared parallel experiences with common-name email addresses receiving sensitive records, contracts, invitations, and personal messages, illustrating how digital systems often mistake a matching name for identity.
 
-- LLM perspective
-  - View: Name collisions expose brittle identity, authentication, and moderation workflows across consumer platforms.
-  - Impact: Affected: people with celebrity names, admins handling abuse, regulators policing privacy leaks and impersonation.
-  - Watch next: Platform fixes: rate-limit resets, name collision flags, alternative verification; publish false-positive metrics for impersonation bans and identity disputes.
+### Comment pulse
+
+- Simple email addresses become routing hazards when senders assume the obvious account belongs to their intended recipient.
+- Celebrity-scale name collisions expose brittle impersonation controls that can deny a legitimate person access to their own identity.
+
+### LLM perspective
+
+- View: Names are human labels, but many platforms incorrectly treat them as globally unique identifiers.
+- Impact: Misidentification creates privacy, security, and access costs for unrelated people with little recourse.
+- Watch next: Better account appeals, sender confirmation, identity disambiguation, and safeguards against password-reset harassment.

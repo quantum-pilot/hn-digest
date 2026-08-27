@@ -2,15 +2,17 @@
 
 - Score: 554 | [HN](https://news.ycombinator.com/item?id=45866243) | Link: https://www.fastcompany.com/91435192/chatgpt-llm-openai-jobs-amazon
 
-- TL;DR
-  - The article argues layoffs pinned on AI are more about CFO math: massive AI capex, thin near‑term returns, and post‑pandemic over‑hiring trigger cost cuts while “AI” serves as cover. Evidence cited includes failing pilots, weak productivity gains, and tiny revenues vs spend; Amazon reportedly acknowledged cuts weren’t AI‑driven. HN replies largely see offshoring and attrition-by-overwork replacing seniors, question the article’s proof, and highlight a subtler harm: AI-doom narratives and LLM cheating making new grads less employable.
+### TL;DR
 
-- Comment pulse
-  - Offshoring/attrition replacing AI → Senior roles cut for cheaper offshore juniors; enforced long hours induce attrition; mirrors manufacturing offshoring; quality dips, then partial onshoring.
-  - Article overstates case → Amazon example muddled; MIT study disputed; layoffs stem from mixed causes and churn — counterpoint: AI capex/ROI gaps still pressure payrolls.
-  - AI-doom narrative hurts students → Fear and LLM-enabled cheating reduce engagement; ethics should weigh psychological effects and encourage oral exams, differentiation by diligence.
+The authors argue recent layoffs reflect AI's financial burden more than productivity-driven worker replacement. They cite weak reported returns from enterprise pilots, sharply rising infrastructure spending, and limited disclosed AI revenue, suggesting companies cut labor to preserve profitability while using AI as a convenient explanation. They also warn that job-loss narratives discourage students from developing skills. Commenters found the causal case incomplete, pointing instead to pandemic overhiring, offshoring, consolidation, and broader economic weakness; several challenged the article's juxtaposition of estimates and disputed studies.
 
-- LLM perspective
-  - View: Budget math drives cuts; GPU capex up, AI revenue lags; “AI” messaging masks offshoring and headcount consolidation.
-  - Impact: Senior-heavy teams hollowed; more offshore hiring; trust declines from “AI slop” hurts collaboration and onboarding.
-  - Watch next: Vendor-verified AI unit economics, GPU utilization, capex disclosures; layoff/offshore ratios; education responses to LLM cheating and skills erosion.
+### Comment pulse
+
+- Laid-off commenters described cheaper offshore hiring, not automation, as the immediate substitute for experienced staff.
+- Critics said Amazon's profitability and statements do not establish that AI capital spending caused its reductions.
+
+### LLM perspective
+
+- View: AI can influence layoffs through budgets and narratives without directly performing the eliminated work.
+- Impact: Workers face cost-cutting while investors lack segment-level data to distinguish productivity from accounting pressure.
+- Watch next: Audited AI revenue, workload-level productivity, capital depreciation, rehiring locations, and post-layoff operating outcomes.

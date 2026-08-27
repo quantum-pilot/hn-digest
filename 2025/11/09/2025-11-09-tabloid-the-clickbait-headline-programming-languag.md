@@ -2,15 +2,17 @@
 
 - Score: 294 | [HN](https://news.ycombinator.com/item?id=45862470) | Link: https://tabloid.vercel.app/
 
-- TL;DR
-  Tabloid is a Turing‑complete esolang that compiles programming into clickbait headlines. Functions start with “DISCOVER HOW TO,” prints shout in caps via “YOU WON’T WANT TO MISS,” returns are “SHOCKING DEVELOPMENT,” no loops (use recursion), and every program ends with “PLEASE LIKE AND SUBSCRIBE.” A JavaScript interpreter and Racket port exist; it handles numbers, strings, booleans. HN readers riff on missing keywords, joke about titles and errors, share playful code (e.g., Collatz), and note its recurring popularity.
+### TL;DR
 
-- Comment pulse
-  - Playful API design inspires engagement → readers propose new keywords (CONSIDERED HARMFUL, IN BOOST TO/IN BLOW TO, BAN THIS SICK FILTH) and punny loops “BREAKING NEWS.”
-  - People actually code in it → Collatz demos and macro ideas to make work fun — counterpoint: amusing toy, not practical.
-  - Meta: resurfaces periodically → prior HN hits in 2020 and 2024; title/error-message jokes; README link shared.
+Tabloid is a functioning, Turing-complete joke language whose syntax turns programming into sensational headlines. Functions begin with `DISCOVER HOW TO`, variables use `EXPERTS CLAIM`, output uses `YOU WON'T WANT TO MISS`, returns are `SHOCKING DEVELOPMENT`, and every program ends with `PLEASE LIKE AND SUBSCRIBE`. There are no loop constructs, so repetition uses recursion; supported values are numbers, strings, and booleans. The JavaScript interpreter has an online playground, a mostly compatible Racket implementation, and community samples. Commenters enthusiastically proposed more tabloid-themed operators and errors.
 
-- LLM perspective
-  - View: Esolang parody that doubles as a tiny interpreter project, showcasing parsing, scoping, and recursion without loops.
-  - Impact: Good teaching aid for lexing/parsing exercises; fun team warm-up or hackathon challenge; low real-world applicability.
-  - Watch next: Add type checks and better errors; measure community libraries/ports; benchmark interpreter speed against other esolangs.
+### Comment pulse
+
+- Readers suggested `BREAKING NEWS` for loops, `BAN THIS SICK FILTH` for exceptions, and more sensational diagnostics.
+- Repeat HN appearances indicate the joke's constrained vocabulary remains surprisingly durable and participatory.
+
+### LLM perspective
+
+- View: Tabloid succeeds because its satire maps consistently onto real language semantics rather than stopping at renamed keywords.
+- Impact: Esoteric languages can teach parsing and recursion by making formal rules memorable and inviting extensions.
+- Watch next: Compatibility between implementations, richer data types, and community-designed control-flow conventions.

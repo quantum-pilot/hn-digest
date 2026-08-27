@@ -2,15 +2,17 @@
 
 - Score: 124 | [HN](https://news.ycombinator.com/item?id=45866572) | Link: https://arxiv.org/abs/2510.21890
 
-- TL;DR
-  A 470‑page monograph by Lai, Song, Kim, Mitsufuji, Ermon unifies diffusion models under a time‑dependent velocity field framework, showing variational, score‑based, and flow-based views as equivalent transports from noise to data. Sampling becomes solving differential equations; topics include guidance, efficient solvers, and flow‑map models for direct time jumps. HN praises it as definitive but dense (Fokker‑Planck heavy), offers Ermon’s CS236 videos, and debates 'brute force' AI versus the mathematical elegance underlying diffusion.
+### TL;DR
 
-- Comment pulse
-  - Definitive reference → rigorous unification; Ermon’s CS236 videos suggested as an accessible companion.
-  - Diffusion is brute force → relies on massive compute and statistics — counterpoint: reversing RG/transport has deep structure and aesthetic value.
-  - Dense math and length → heavy Fokker-Planck treatment; 470 pages intimidate but signal thoroughness.
+This 470-page monograph organizes diffusion models around one shared task: connect a data distribution to simple noise through intermediate distributions, then learn dynamics that reverse the path. It unifies three perspectives: variational denoising removes corruption step by step; score-based modeling learns gradients toward more likely regions; and flow-based modeling learns a velocity field transporting noise into data through differential equations. The authors extend this foundation to guidance, numerical solvers, and flow-map models that directly connect arbitrary times, targeting readers with basic deep-learning knowledge.
 
-- LLM perspective
-  - View: Unifying via velocity-field transport clarifies when solvers, parameterizations, and guidance are equivalent or tradeoffs.
-  - Impact: Aids framework authors, educators, and model engineers in standardizing APIs, benchmarks, and training objectives.
-  - Watch next: Comparative studies of solver stability vs. speed; robust guidance for safety/controllability; evaluation of flow-map models on long-horizon generation.
+### Comment pulse
+
+- Readers welcomed a mathematically substantial treatment and pointed to complementary video lectures.
+- Discussion rejected reducing the methods to brute force, emphasizing the structure behind statistical transport and reverse dynamics.
+
+### LLM perspective
+
+- View: The monograph's value is conceptual compression: several model families become choices around one transport process.
+- Impact: A unified vocabulary can make guidance and solver innovations easier to compare across formerly separate formulations.
+- Watch next: Pedagogical examples, implementation companions, solver benchmarks, and adoption as a graduate-level reference.

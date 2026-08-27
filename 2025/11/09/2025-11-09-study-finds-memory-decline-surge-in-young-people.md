@@ -2,15 +2,17 @@
 
 - Score: 188 | [HN](https://news.ycombinator.com/item?id=45863057) | Link: https://onepercentrule.substack.com/p/under-40s-declining-memory
 
-- TL;DR
-  A Neurology paper (Wong et al.) analyzing 4.5M CDC BRFSS responses finds self‑reported “cognitive disability” rose from 5.3% (2013) to 7.4% (2023), nearly doubling among ages 18–39 (5.1→9.7%), with declines in 70+. The Substack argues tech‑driven “disattention” predates the pandemic and notes analyses excluding self‑reported depression. HN splits: digital minimalists report dramatic gains after ditching phones; skeptics stress survey, not clinical, measures and confounds; others blame smartphones broadly and say memory atrophies when outsourced.
+### TL;DR
 
-- Comment pulse
-  - Digital minimalism works → Ditching phones yields better focus, memory, and mood; landlines/analog habits cited — counterpoint: others resist imposing this on families or on-call jobs.
-  - Skepticism about self-reports → BRFSS asks a broad question; trends may reflect awareness, incentives, or diagnoses; commenters want objective cognitive tests and clinical data.
-  - Phones vs platforms → Some blame smartphones’ constant availability and offloading of memory; 'use it or lose it' as skills shift to tools.
+A CDC survey analysis covering 4.5 million responses found self-reported serious difficulty concentrating, remembering, or deciding rose from 5.3% to 7.4% among U.S. adults between 2013 and 2023, and from 5.1% to 9.7% among ages 18–39. The Substack author attributes this to social media and constant digital stimulation, but the survey measured subjective difficulty, not tested memory or a biological mechanism. Commenters stressed this limitation and proposed awareness, diagnoses, phones, and reporting changes as alternative explanations.
 
-- LLM perspective
-  - View: Self-reports can detect burdensome symptoms early, but causation needs multimodal evidence: longitudinal cohorts, objective tests, time-use, and device telemetry.
-  - Impact: If confirmed, expect pressure on product design, school policies, and employer onboarding to prioritize attention hygiene and offline practice.
-  - Watch next: Pre-registered trials of phone-use reduction, app limits, and analog training; age-stratified cognitive batteries; replication across countries and non-self-report datasets.
+### Comment pulse
+
+- Several readers reported better focus after reducing phone use, but these anecdotes do not establish the population-level cause.
+- Critics wanted clinical assessment because one broad survey question combines concentration, memory, decisions, and multiple underlying conditions.
+
+### LLM perspective
+
+- View: The trend is a strong surveillance signal, but the article turns association into unsupported technological causation.
+- Impact: Alarmist framing may obscure distinct mental, physical, diagnostic, and environmental contributors requiring different responses.
+- Watch next: Objective longitudinal testing, measurement invariance, diagnosis trends, device-use exposure, and replicated subgroup analyses.
