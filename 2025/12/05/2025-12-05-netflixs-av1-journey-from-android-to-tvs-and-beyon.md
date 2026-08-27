@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-AV1 now carries about 30% of Netflix viewing after a rollout that began with dav1d software decoding on Android, expanded to hardware-certified TVs, browsers and newer Apple chips, and spread across the catalog. Netflix reports one-third lower bandwidth than AVC or HEVC, higher average VMAF and 45% fewer buffering interruptions. HDR10+ coverage reaches 85% of HDR viewing hours, while film-grain synthesis recreates texture without encoding random noise. Next targets include live-stream overlays and low-latency cloud gaming, with AV2 approaching.
+Netflix says AV1 now carries about 30% of viewing, making it its second-most-used codec after deployments expanded from Android software decoding in 2020 to televisions, browsers, and newer Apple hardware. Netflix reports average quality gains over AVC and HEVC, roughly one-third lower bandwidth, and 45% fewer buffering interruptions, though these are company measurements. HDR10+ and film-grain synthesis broaden AV1's uses, while certification data show rapidly growing hardware support. The company is also exploring AV1 for live video and cloud gaming.
 
 ### Comment pulse
 
-- Readers corrected a common inference: 30% of viewing does not mean 30% of devices have hardware decoding, because software playback contributes.
-- Open-codec enthusiasm — counterpoint: proprietary DRM still encloses streams, and some prefer long AV1 stability before another hardware replacement cycle.
-- Engineers welcomed bandwidth and buffering gains but cautioned that session-level VMAF comparisons reflect Netflix’s optimization targets and device mix.
+- Commenters corrected confusion between 30% of viewing and 30% of devices.
+- Discussion welcomed an open codec but questioned DRM, VMAF context, grain synthesis, and aggressive HDR presentation.
 
 ### LLM perspective
 
-- View: AV1’s decisive milestone is ecosystem deployment at scale, not merely superior laboratory compression.
-- Impact: Viewers and ISPs gain efficiency while device vendors face stronger pressure to ship complete hardware decoding and feature support.
-- Watch next: AV1’s share by device, live latency, film-grain fidelity, HDR normalization and AV2’s real-world decoding cost.
+- View: AV1 has crossed from experimental deployment into substantial production traffic at Netflix.
+- Impact: Broader hardware decoding can turn codec efficiency into lower delivery costs and steadier playback.
+- Watch next: Independent performance comparisons and AV1's results in live streaming, HDR, and interactive workloads.

@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Cloudflare says a 25-minute incident affected approximately 28% of its HTTP traffic after changes intended to mitigate a React Server Components vulnerability. A gradual increase in WAF request-body buffering exposed a test-tool issue; disabling that tool through a fleet-wide configuration system triggered a years-old nil-access bug in the legacy Lua-based FL1 proxy. The company ruled out an attack, and reverting restored service. Commenters focused on instant global propagation, slow detection and rollback, inaccurate status reporting, and repeated outages before promised safeguards were deployed.
+Cloudflare says a 25-minute outage affected about 28% of its HTTP traffic when a global configuration change disabled an internal WAF test ruleset. On older FL1 proxies, skipping an `execute` action left a missing Lua object that later code dereferenced, returning HTTP 500s to customers using the managed ruleset. The change supported mitigation work for a React Server Components vulnerability and was not an attack. Cloudflare promises gradual configuration rollouts, stronger rollback paths, fail-open behavior, and a change freeze while those controls are completed.
 
 ### Comment pulse
 
-- Concentration magnifies ordinary mistakes → one change disrupts unrelated customers — counterpoint: centralized infrastructure may still outperform most self-hosted alternatives.
-- Global configuration lacked staged rollout → alerts fired after full propagation, and rollback began roughly 24 minutes after deployment.
-- Legacy typing mattered locally → Rust-based FL2 avoided this nil access, but commenters argued language choice cannot contain architectural blast radius.
+- Critics blame centralized blast radius—counterpoint: many sites could not independently match Cloudflare’s long-term reliability.
+- Readers question why alerts took two minutes and rollback about 21 minutes after a globally propagated change.
+- Some praise the postmortem’s clarity; others say a second major incident makes apologies insufficient.
 
 ### LLM perspective
 
-- View: The decisive failure was an unbounded control-plane change reaching legacy behavior, not merely one Lua null dereference.
-- Impact: Customers must reassess dependency concentration and fallback paths while Cloudflare pauses changes to install safeguards.
-- Watch next: Gradual configuration rollouts, automated health rollback, fail-open defaults, status automation, and the promised resilience report.
+- View: The nil dereference was local; instant global configuration propagation made it systemic.
+- Impact: Customers inherit correlated failure when a provider’s safety controls bypass staged deployment.
+- Watch next: Automatic rollback thresholds, configuration canaries, FL1 retirement, fail-open defaults, and published resilience milestones.

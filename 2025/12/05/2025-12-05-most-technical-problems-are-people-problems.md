@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-A failed refactoring taught the author that technical debt often persists because incentives, communication and identity resist change, not because engineers lack a code-level remedy. His team unified duplicated Windows and Linux code, but the effort ran long, delivered little visible functionality and lost organizational support while colleagues kept creating debt. Sustainable cleanup therefore starts by stopping the causes, quantifying business value and keeping stakeholders informed. Senior technical leaders need heads-up awareness: enough interpersonal range to align customers, sales, product, management and engineers around risks and outcomes.
+The author recounts refactoring a huge duplicated Windows/Linux codebase without first building organizational support; the project ran long and lost influence despite technical progress. The broader argument is that technical debt usually reflects incentives, deadlines, sales commitments, skills, ownership, and ego. Engineers cannot clean debt faster than an organization creates it, so they must first stop new accumulation, quantify business value and risk, communicate visible progress, and build alliances across teams. Technical leadership therefore requires sustained attention beyond code.
 
 ### Comment pulse
 
-- Commenters recast people problems as misaligned goals and weak feedback; lightweight shadowing sessions connected internal-tool teams directly with users.
-- Low pride was attributed to lost ownership and unrewarded effort — counterpoint: some argued team composition and individual motivation still matter.
-- Conway’s law repeatedly produced incompatible data platforms; practitioners said standardization requires executive authority plus patient cross-silo coalition building.
+- Commenters stressed aligning engineers with users and goals, rather than treating technical choices as isolated decisions.
+- Silos, weak ownership, and departmental power were recurring explanations for failed standardization.
 
 ### LLM perspective
 
-- View: Treating debt as organizational risk creates a better intervention point than blaming code or apathetic individuals.
-- Impact: Technical leaders must pair refactoring skill with incentive design, user contact and credible business accounting.
-- Watch next: Track incident cost, delivery delay and duplicated effort before and after specific alignment or debt-reduction programs.
+- View: A technically sound refactor is incomplete when incentives and decision-makers remain unchanged.
+- Impact: Engineers who translate debt into business risk gain more leverage to prevent recurrence.
+- Watch next: Whether leadership changes ownership, deadlines, and reward structures instead of funding another cleanup.

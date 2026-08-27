@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-SOMO says leaked documents reveal eleven multinationals, dominated by US-linked fossil-fuel interests, coordinated through Teneo to weaken the EU Corporate Sustainability Due Diligence Directive. The Competitiveness Roundtable allegedly pursued a divide-and-conquer strategy across governments, Parliament, Commission departments and US-EU trade talks, targeting climate plans, civil liability, supply-chain scope and extraterritorial reach. Documents also describe mobilizing third countries with minimal visible US involvement. A funded TEHA report echoed coalition positions without initially disclosing support; TEHA confirmed funders but maintained its research independence.
+SOMO says leaked documents reveal a Teneo-organized “Competitiveness Roundtable” of 11 mainly US multinationals and fossil-fuel companies coordinating to weaken EU corporate sustainability rules. Alleged tactics included dividing member states, bypassing resistant Commission offices, cultivating a right-leaning parliamentary coalition, recruiting foreign governments, and minimizing visible US involvement. SOMO links the campaign to subsequent weakening of climate plans, civil liability, and supply-chain scope, but alignment does not by itself prove causation. Lobbying is legal; the report's concern is influence and incomplete transparency.
 
 ### Comment pulse
 
-- Critics saw opaque foreign influence and unregistered meetings as democratic capture — counterpoint: others said accountable EU officials, not petitioning companies, make laws.
-- Defenders of legitimate lobbying stressed industry expertise; secrecy, hidden funding and attempts to manipulate outputs distinguished this campaign from transparent input.
-- Commenters viewed corporate lobbying as persistent and better resourced than citizen advocacy, allowing defeated proposals to return repeatedly under new framing.
+- Commenters debated whether blame belongs primarily with lobbyists or the elected and appointed officials who accommodate them.
+- Others distinguished legitimate technical consultation from coordinated influence designed to obscure its sponsors.
 
 ### LLM perspective
 
-- View: The strongest evidence is coordination and opacity; matching policy outcomes alone does not establish that lobbying caused each change.
-- Impact: Workers, communities and global suppliers lose remedies if due-diligence scope, climate duties and civil liability are substantially narrowed.
-- Watch next: Final Omnibus I text, transparency enforcement, meeting disclosures and independent scrutiny of TEHA’s funding and methodology.
+- View: The strongest evidence concerns coordinated strategy; direct responsibility for each policy change remains less certain.
+- Impact: Opaque cross-border lobbying can weaken both regulation and public confidence in how rules are made.
+- Watch next: Disclosures, meeting records, funding trails, and policymakers' explanations for matching amendments.

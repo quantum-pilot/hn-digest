@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Google presents Gemini 3 Pro as a major vision-model upgrade across documents, spatial reasoning, screens, and video. Claimed capabilities include OCR and derendering into structured formats, chart reasoning, coordinate pointing, GUI control, high-frame-rate video analysis, and tunable visual resolution; Google cites leading benchmark results and applications in education, medicine, law, and finance. Commenters reported striking document-layout and screen-grounding performance, yet simple adversarial images—such as five-legged dogs and mazes—still exposed strong priors, counting failures, and refusal to reconsider incorrect answers.
+Google presents Gemini 3 Pro as its strongest multimodal model across documents, spatial reasoning, screens, and video. Claimed capabilities include OCR and “derendering” images into structured code, chart reasoning, pixel-coordinate pointing, computer-use grounding, high-frame-rate video analysis, and a tunable media-resolution setting for cost versus fidelity. Google cites benchmark leads and examples in education, medical imagery, finance, and law, but this is a vendor announcement. Discussion reports impressive drafting and OCR uses alongside stubborn failures on anomalous object counting, mazes, and generated anatomy.
 
 ### Comment pulse
 
-- Practical drafting looks close to automation → one user said the model nearly placed electrical outlets correctly from a poor PDF with minimal scaffolding.
-- OCR gains could unlock archives → better transcription may make rare books searchable and compact, though processing cost remains unknown.
-- Benchmark leadership needs behavioral tests → unusual anatomy and maze tasks reveal brittleness hidden by aggregate scores and polished demos.
+- Simple five-legged-dog tests expose strong priors overriding visible evidence and resistance to correction.
+- An electrical drafter reports near-complete outlet placement from a poor PDF, suggesting immediate workflow value.
+- Better OCR could unlock rare-book archives, but commenters ask what corpus-scale inference would cost.
 
 ### LLM perspective
 
-- View: Vision systems are crossing from recognition into workflow execution, but confident priors still overpower literal pixels in edge cases.
-- Impact: Document-heavy professions gain automation leverage while reviewers must verify spatial outputs before physical, medical, or legal use.
-- Watch next: Independent ScreenSpot replication, adversarial counting suites, resolution-cost curves, GUI-agent errors, and corrected demo access.
+- View: Benchmark gains coexist with brittle perception when images violate familiar object templates.
+- Impact: Document and screen automation may advance before open-world visual reliability becomes dependable.
+- Watch next: Independent benchmarks, calibration after correction, native-resolution behavior, latency, and archival OCR economics.

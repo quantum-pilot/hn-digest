@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-The guide turns implicit Rust assumptions into compiler-enforced guarantees. It recommends slice matching instead of panic-prone indexing, explicit struct fields instead of broad defaults, exhaustive enum matches, and TryFrom for fallible conversion. Destructuring can force trait implementations to reconsider newly added fields; narrow scopes limit mutability; private seals and constructors protect validated states; must_use catches ignored values. Enums or parameter structs replace ambiguous booleans, while Clippy can deny risky patterns automatically. The author reserves stronger constructor defenses for evolving libraries, where future refactors justify added complexity.
+Rust's memory safety does not prevent business-logic errors, so the article recommends patterns that make invalid states and future changes harder to miss. Examples include slice patterns instead of indexing, exhaustive destructuring and matching, `TryFrom` for fallible conversions, scoped temporary mutability, private fields and constructors for invariants, `#[must_use]`, and enums instead of boolean parameters. Many practices deliberately turn later schema changes into compiler or Clippy failures. Commenters also warned that stronger types should reflect the domain rather than create needless machinery.
 
 ### Comment pulse
 
-- Readers endorsed avoiding indexing after real out-of-bounds bugs and saw compiler or Clippy feedback as useful guardrails for generated code.
-- The pizza equality example drew criticism: separating comparable details from order identity was clearer than custom equality that ignores timestamps.
-- Enums were preferred over boolean wrappers because named variants clarify calls and can expose methods expressing domain-specific predicates.
+- One commenter preferred separating pizza details from orders instead of inventing partial equality semantics.
+- Discussion highlighted exhaustive enum handling and Clippy as useful guardrails for human- and agent-written code.
 
 ### LLM perspective
 
-- View: The best patterns make invalid evolution fail compilation, but defensive structure should remain proportional to an API’s change risk.
-- Impact: Library maintainers gain safer refactors; application teams may incur needless ceremony if every invariant receives maximum sealing.
-- Watch next: Clippy adoption, panic reduction and maintenance outcomes comparing exhaustive designs with simpler idiomatic code.
+- View: Defensive Rust works best when compiler failures mark broken assumptions, not merely stylistic preferences.
+- Impact: Explicit invariants shift some review burden from runtime behavior to compile-time feedback.
+- Watch next: Whether these patterns simplify domain models or accumulate abstractions that obscure them.

@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-An internal State Department memo instructs consular officers to reject H-1B applicants deemed responsible for censoring protected US expression. Vetting should examine résumés, public profiles and media coverage for work involving misinformation, fact-checking, moderation, compliance, or trust and safety. The administration frames the policy as protecting Americans from foreign censors; critics say those categories include anti-fraud and child-safety work and that penalizing protected professional activity is itself unconstitutional. Applicants and H-4 dependents must also make social-media profiles public for government review.
+A State Department memo reportedly directs visa reviewers, particularly for H-1B applicants, to reject people deemed responsible for or complicit in censoring protected American expression. Reviewers are told to examine employment, LinkedIn, media, and work involving misinformation, fact-checking, content moderation, compliance, or trust and safety. Critics argue those fields also combat fraud, scams, exploitation, and harmful material, and call the policy unconstitutional or incoherent; officials frame it as protecting Americans. The article does not reproduce the complete memo, leaving scope and definitions contested.
 
 ### Comment pulse
 
-- Opponents called the policy retaliatory — counterpoint: skeptics said fact-checkers can be biased, selective and overly authoritative.
-- Commenters distinguished evidence-based rebuttal from truth branding, favoring transparent argument that exposes methods, data limitations and framing choices.
-- Moderators worried expansive definitions could classify routine community safety as censorship; others said all moderation deserves overdue scrutiny.
+- Discussion split over whether fact-checking and moderation are biased censorship or necessary platform operations.
+- Commenters questioned who defines protected expression and how responsibility is attributed to individual workers.
 
 ### LLM perspective
 
-- View: An undefined censorship standard gives visa officers broad discretion while conflating platform governance with state suppression.
-- Impact: Foreign trust-and-safety workers, technology firms and researchers may avoid US roles or sanitize legitimate employment histories.
-- Watch next: Published guidance, denial statistics, court challenges and whether fraud, abuse and child-protection work receive explicit exemptions.
+- View: The policy's practical reach depends on an unusually contested definition of censorship.
+- Impact: Broad screening could chill routine safety and compliance work beyond explicitly political moderation.
+- Watch next: Full guidance, adjudication examples, legal challenges, and evidence standards for alleged complicity.

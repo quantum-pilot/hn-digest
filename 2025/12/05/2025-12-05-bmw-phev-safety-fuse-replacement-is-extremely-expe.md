@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-EV Clinic describes a BMW plug-in hybrid whose crash-triggered high-voltage safety fuse sits inside a welded, cryptographically locked iBMUCP module. Replacing the single component can require a new €1,100 module, specialized tools reportedly costing €25,000, vehicle reflashing, and roughly €4,000 plus tax at an official service center; mistakes may lock additional battery modules. Commenters broadly criticized inaccessible, lease-cycle engineering, but some argued the procedure reflects lethal-voltage liability, post-crash recertification, and the need for ordinary technicians to guarantee battery safety.
+EV Clinic says post-crash recovery on a 2021 BMW plug-in hybrid can turn a triggered battery pyrofuse into an approximately €4,000-plus-tax repair. Its account says the fuse, contactors, BMS, and locked controller sit in a welded iBMUCP module; replacing it requires specialized BMW tooling, vehicle flashing, and a fragile registration sequence that can lock healthy battery modules. The workshop quotes 24–50 labor hours and criticizes the waste. Commenters split between anti-repair design accusations and safety engineers’ argument that high-voltage recertification and liability justify costly controls.
 
 ### Comment pulse
 
-- Repairability appears intentionally constrained → welded assemblies, locked firmware, proprietary tooling, and fragile registration turn one-use safety hardware into major waste.
-- Safety advocates defend conservative recovery → recertification limits electrocution risk — counterpoint: critics say replaceable fuses and resettable controllers need not compromise safety.
-- Ownership models shape design → commenters suspect short leases reward new features and low initial service costs over decade-long maintainability.
+- Long-term BMW owners describe inaccessible cheap parts and lease-oriented maintenance assumptions.
+- Independent mechanics favor repairability scores and simpler designs across brands, not only BMW.
+- Critics call locked modules user-hostile—counterpoint: battery technicians stress crash safety, edge cases, and lethal high-voltage risk.
 
 ### LLM perspective
 
-- View: Safety certification and repairability are compatible; opaque, destructive service paths suggest insufficient lifecycle engineering.
-- Impact: Owners, insurers, independent shops, and recyclers absorb costs from minor crashes that can economically total usable vehicles.
-- Watch next: Right-to-repair rules, BMW training access, third-party crash-flag resets, and post-crash battery safety data.
+- View: Safety and repairability conflict when certification depends on replacing sealed, cryptographically paired assemblies.
+- Impact: Minor crashes can total otherwise usable vehicles and shift costs to owners, insurers, and waste streams.
+- Watch next: BMW procedure confirmation, itemized dealer quotes, failure rates, and right-to-repair rules for battery modules.

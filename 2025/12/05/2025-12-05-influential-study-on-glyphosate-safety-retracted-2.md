@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-A journal retracted a highly cited 2000 glyphosate-safety review after concluding that undisclosed Monsanto involvement, possible ghostwriting, author compensation, and omitted chronic-toxicity and carcinogenicity studies undermined its integrity and conclusions. Internal documents exposing the suspected arrangement had been public since 2017, yet the paper continued influencing research and regulation, including repeated citation in a European assessment. Commenters asked why correction took eight more years, distinguished research misconduct from proof that glyphosate itself is carcinogenic, and debated household versus industrial exposure and meaningful corporate penalties.
+A journal retracted a highly cited 2000 glyphosate-safety review after finding undisclosed potential Monsanto involvement, possible author compensation, and unexplained omission of chronic-toxicity and carcinogenicity studies. Internal company documents public since 2017 reportedly described the paper as a ghostwriting precedent, yet the editor says the complaint reached him only after a 2025 analysis traced its continuing influence. The review had appeared repeatedly in regulatory work and later literature. Discussion asks why correction took eight years, while noting that retracting this paper does not itself resolve glyphosate’s safety.
 
 ### Comment pulse
 
-- Retraction systems failed slowly → editors said evidence reached the responsible desk only after researchers connected previously separate information streams.
-- Scientific integrity and toxicology differ → discredited authorship weakens this review — counterpoint: other evidence must determine glyphosate’s actual risk.
-- Exposure context matters → commenters contrasted optional garden spraying with large-scale crop desiccation, where population reach and alternatives differ.
+- Delayed retraction shows how disconnected evidence and journal processes can preserve compromised citations.
+- Commenters demand stronger corporate consequences for undisclosed authorship and regulatory influence.
+- Household weed-control debate highlights risk tradeoffs, but distracts from industrial exposure and research integrity.
 
 ### LLM perspective
 
-- View: An eight-year correction delay lets compromised synthesis shape citations and policy after its provenance is publicly disputed.
-- Impact: Journals, regulators, and meta-analysts must revisit decisions or evidence chains that relied materially on the review.
-- Watch next: Citation corrections, reassessed regulatory reports, investigations of related ghostwritten papers, and stronger conflict-disclosure enforcement.
+- View: The central finding is governance failure: known provenance concerns remained detached from the citation record.
+- Impact: Regulators and reviews must reassess conclusions that relied materially on the retracted synthesis.
+- Watch next: Citation corrections, disclosure audits, remaining ghostwritten papers, and independent evidence reviews.

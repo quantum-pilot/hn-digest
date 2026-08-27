@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-MetaComputing sells a third-party mainboard that puts a 12-core CIX CP8180 ARM processor into a Framework Laptop 13 or mini-PC case. The chip combines eight Cortex-A720 performance cores, four Cortex-A520 efficiency cores, a 10-core Immortalis-G720 GPU, and a 30-TOPS accelerator. Kits start at $549 with 16GB RAM and 1TB storage; a laptop bundle costs $999. Commenters celebrated adoption of Framework’s form factor but warned that 16-watt idle draw, immature ARM Linux support, modest performance, and the 55Wh battery undermine mobility.
+MetaComputing has launched a third-party mainboard for the Framework Laptop 13 using CIX’s 12-core CP8180: eight Cortex-A720 performance cores, four Cortex-A520 efficiency cores, a 10-core Immortalis-G720 GPU, and a 30-TOPS accelerator. A $549 kit includes 16GB RAM, 1TB storage, and a mini-PC case; a complete laptop bundle costs $999. Early tests reportedly show roughly 16 watts at idle, making battery life and efficiency major drawbacks. Discussion values independent adoption of Framework’s form factor more than this board’s present performance.
 
 ### Comment pulse
 
-- Third-party compatibility validates Framework’s premise → unrelated vendors can extend a chassis beyond the manufacturer’s Intel and AMD roadmap.
-- Efficiency disappoints → early 16-watt idle measurements erase ARM’s battery advantage — counterpoint: firmware and Linux power management may improve.
-- Ecosystem readiness remains uneven → alternatives offer better silicon or kernel support, but often sacrifice openness, company support, or laptop integration.
+- Third-party boards validate Framework’s replaceable-mainboard ecosystem and could outlast any single processor vendor.
+- Critics say CP8180 trails old Apple and current AMD efficiency—counterpoint: firmware and Linux power management may improve.
+- ARM Linux still faces laptop drivers and compatibility gaps despite strong server adoption.
 
 ### LLM perspective
 
-- View: The board matters more as proof of a modular hardware market than as today’s best mobile ARM system.
-- Impact: Developers gain an unusual Linux test platform; mainstream users accept shorter battery life and compatibility risk.
-- Watch next: Firmware power fixes, upstream drivers, battery benchmarks, thermals, suspend reliability, and additional third-party boards.
+- View: Ecosystem proof matters more than this first board’s efficiency or benchmark position.
+- Impact: Framework owners gain architectural choice, while MetaComputing gets a ready-made chassis and audience.
+- Watch next: Idle-power fixes, suspend support, driver upstreaming, battery benchmarks, and future third-party boards.
