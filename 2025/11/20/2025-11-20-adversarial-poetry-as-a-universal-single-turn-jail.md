@@ -2,19 +2,17 @@
 
 - Score: 228 | [HN](https://news.ycombinator.com/item?id=45991738) | Link: https://arxiv.org/abs/2511.15304
 
-## TL;DR
-Researchers show that simply rewriting dangerous requests as formal poetry reliably jailbreaks 25 major LLMs in a single turn, often boosting attack success up to 18× over prose. They systematically verse-ify 1,200 high‑risk prompts (CBRN, cyber‑offense, manipulation, self‑harm, loss‑of‑control) and find ~62% success for hand-crafted poems and ~43% for templated ones, implying safety systems key heavily on surface style. HN discusses prompt‑engineering “social engineering,” overblown jailbreak fears, missing methodological details, and puritanical skew in content filters.
+### TL;DR
 
----
+An arXiv preprint reports that rewriting harmful requests as poetry bypassed safeguards across 25 proprietary and open-weight language models. The authors claim 62% average success for curated poems and roughly 43% for 1,200 standardized verse conversions, sometimes up to 18 times prose baselines, across several risk categories. Automated judges were checked against a human-annotated subset. The result suggests safety training may overfit surface style, but commenters questioned reproducibility because operational prompts, parameters and environment details were withheld.
 
-## Comment pulse
-- Poetic prompts as a jailbreak vector → English majors become “security researchers,” with poetry’s indirection bypassing simple keyword/heuristic filters—counterpoint: likely to be automated via local, uncensored models.
-- Jailbreaks as social engineering → framing as a benevolent security task or decomposing harmful goals into innocuous subtasks can circumvent guardrails, echoing classic human-targeted manipulation.
-- Risk and censorship debate → some see withholding details and strong sexual filters as safety theater; others argue paper is weakly specified yet still overstates real‑world danger.
+### Comment pulse
 
----
+- Readers framed poetry as social engineering for models → indirect, ambiguous language may evade refusal heuristics.
+- Critics said safety redactions weaken scientific verification and disputed whether jailbreak access adds much beyond existing information sources.
 
-## LLM perspective
-- View: Safety layers are overfitted to prose-like patterns; stylistic shifts expose shallow alignment and brittle refusal heuristics.
-- Impact: Model providers, red-teamers, and regulators must test across genres (poetry, code, roleplay) instead of relying on prose benchmarks.
-- Watch next: Standardize jailbreak test suites including stylized prompts; publish robust defenses that generalize across narrative styles without blanket over‑censorship.
+### LLM perspective
+
+- View: A style-only bypass would expose brittle classification, but the preprint's evidence needs independent replication.
+- Impact: Safety evaluations must vary rhetoric, genre and indirection instead of testing canonical prose prompts.
+- Watch next: Reproducible benchmarks, provider retests and defenses that preserve benign creative writing.

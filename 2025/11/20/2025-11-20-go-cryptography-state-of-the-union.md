@@ -3,21 +3,16 @@
 - Score: 116 | [HN](https://news.ycombinator.com/item?id=45994895) | Link: https://words.filippo.io/2025-state/
 
 ### TL;DR
-- Go’s crypto team reports another year with no serious vulnerabilities and a clean Trail of Bits audit for core primitives and assembly.  
-- Post‑quantum ML‑KEM is now in the standard library and enabled by default via hybrid X25519+ML‑KEM in TLS and SSH, mostly “just working” after you upgrade.  
-- A new pure‑Go, FIPS 140‑3 validated module replaces the BoringCrypto+cgo path, while preserving APIs and security (hedged ECDSA, stronger RNG) and speeding AES, RSA, SHA‑3, and keygen.  
-- Heavy investment in testing (assembly mutation, accumulated vectors, external suites) and upcoming work on TLS profiles and passkey support aim to keep secure defaults easy.  
 
----
+Go's cryptography maintainers report hybrid X25519 plus ML-KEM-768 key exchange enabled by default in TLS and available for SSH, while post-quantum signatures remain deferred because of size and protocol trade-offs. A new native-Go FIPS 140-3 module replaces the cgo-based BoringCrypto path without changing normal APIs. The year also brought a clean Trail of Bits primitives audit, faster AES-CTR and RSA, stricter tests, server-side ECH and new standard packages. Planned work includes TLS profiles and possible passkey support.
 
 ### Comment pulse
-- FIPS 140 is too conservative and slow → NIST’s process turns a minimum standard into a de‑facto ceiling, discouraging stronger-than-required designs.  
-- Crypto API design debate → Go’s use of `[]byte` and error‑returning constructors is intentional to avoid panics, silent truncation, and misuse of “deterministic” randomness.  
-- GC and secrets worry people → mitigations today include `mlockall`, explicit zeroing, and proposals like `runtime/secret`; consensus: local compromise beats language guarantees anyway.  
 
----
+- Readers shared frustration that FIPS can become a security ceiling → exceeding prescribed constructions complicates validation.
+- API debate highlighted deliberate trade-offs → slices centralize length checks, while opaque keys and standard entropy sources prevent subtler misuse.
 
 ### LLM perspective
-- View: Go is converging on “secure by default” crypto, hiding complexity while still offering sharp tools for experts and auditors.  
-- Impact: Cloud, infra, and tooling vendors gain simpler FIPS compliance and PQ‑ready stacks without bespoke forks or cgo-heavy builds.  
-- Watch next: TLS profile APIs, runtime/secret progress, and broader PQ signature deployment will show how far defaults can be safely opinionated.
+
+- View: The strongest achievement is making safer defaults invisible to ordinary application code.
+- Impact: Go users gain post-quantum and compliance paths without maintaining parallel cryptographic stacks.
+- Watch next: FIPS validation completion, TLS-profile design, signature migration and proposed secret-memory runtime support.

@@ -2,15 +2,17 @@
 
 - Score: 280 | [HN](https://news.ycombinator.com/item?id=45990934) | Link: http://geacron.com/home-en/
 
-- TL;DR  
-An interactive atlas, GeaCron, visualizes world history from 3000 BC using time‑aware political maps and timelines of states, wars, and cultural developments. HN commenters like the concept but report the site feels abandoned, with unreliable tile loading and possible leakage of subscriber emails. Others showcase similar DIY projects built on Wikipedia data that answer “what happened here at this time?” or present zoomable timelines of human progress. Some also question GeaCron’s historical accuracy, citing errors in early Scottish ethnography.
+### TL;DR
 
-- Comment pulse  
-  - DIY history tools are emerging → Landnotes and several timeline sites mine Wikipedia to let users query events by place and date.  
-  - Some see GeaCron as abandoned → Reports of spam to unique subscription email, unresponsive support, and flakey map tiles requiring custom caching proxies.  
-  - Data and values are contested → Misplaced Scoti/Picts hint at sourcing; “progress” timelines dispute Facebook as advancement — counterpoint: impact can differ from societal good.
+GeaCron presents an interactive, vector-based world-history atlas spanning from 3000 BC, with maps and timelines covering kingdoms, battles, expeditions, politics, military affairs, art, science, literature, religion, and philosophy. The supplied page contains little detail about methods, maintenance, or data quality. Commenters liked the format and shared related map and timeline projects, but one former subscriber described unreliable tiles, possible account-data concerns, and no support response. Others identified a disputed depiction of ancient Scotland.
 
-- LLM perspective  
-  - View: Combining spatial timelines with conversational agents could turn static atlases into exploratory “what if” and “what happened here” tutors.  
-  - Impact: Students, hobbyists, and RPG designers gain richer context if map data is accurate, licensed openly, and easily remixed.  
-  - Watch next: Community‑editable historical border datasets, quality benchmarks versus academic atlases, and APIs exposing time‑aware maps for new visualization tools.
+### Comment pulse
+
+- Developers shared complementary Wikipedia-derived atlases and zoomable timelines, while noting that historical border datasets require substantial copyrighted work.
+- Accuracy concerns focused on labeling Scoti and Picts centuries before commenters considered those depictions supportable.
+
+### LLM perspective
+
+- View: The interface promises broad exploration, but provenance and maintenance determine whether it can support learning.
+- Impact: Historical-map errors can turn an engaging overview into confidently absorbed misinformation.
+- Watch next: Source citations, correction workflows, tile reliability, and evidence of active stewardship.

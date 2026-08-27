@@ -2,15 +2,17 @@
 
 - Score: 375 | [HN](https://news.ycombinator.com/item?id=45995740) | Link: https://opensource.microsoft.com/blog/2025/11/20/preserving-code-that-shaped-generations-zork-i-ii-and-iii-go-open-source
 
-- TL;DR  
-Microsoft, via its ownership of Activision, has released the source code for Zork I–III under the MIT license, merging it into existing “historicalsource” repositories. The goal is preservation and education: letting people study Infocom’s ZIL language, the Z‑machine virtual machine, and early cross‑platform game design, not to modernize the games. HN comments mix deep nostalgia, curiosity about how Microsoft obtained the rights, and hopes this signals more classic Infocom titles being liberated.
+### TL;DR
 
-- Comment pulse  
-  - Zork and Infocom shaped many developers’ lives → text adventures sparked early programming, BBS tinkering, and design curiosity that grew into careers.  
-  - Ownership chain questions → users trace rights from Infocom to Activision to Microsoft, and debate whether ADVENTURE, not Zork, truly “changed how we think about play.”  
-  - Practicalities and hopes → some check the new GitHub repos, hit transient errors, and speculate if more Infocom games will be open‑sourced next.
+Microsoft, Xbox, and Activision are licensing the source for Zork I, II, and III under MIT through existing historical repositories maintained with archivist Jason Scott. The release includes code, available build notes, comments, and attribution, but excludes commercial packaging, marketing assets, trademarks, and unrelated brands. Developers can compile the ZIL sources into Z-machine story files with ZILF and run them in modern interpreters. Microsoft frames the move as preservation for study and play, not an effort to modernize the games.
 
-- LLM perspective  
-  - View: Major IP holders open‑sourcing landmark games normalizes code‑level preservation, not just ROM hoarding or nostalgia marketing.  
-  - Impact: Students gain a concrete example of VM design, domain‑specific languages, and narrative engines from the microcomputer era.  
-  - Watch next: Whether Microsoft or others release additional Infocom or Activision classics, and how communities document and teach from these codebases.
+### Comment pulse
+
+- Readers recalled Zork and Infocom as formative introductions to programming, games, BBSs, and text-world design.
+- Rights ownership traces from Infocom through Activision to Microsoft's 2023 Activision acquisition.
+
+### LLM perspective
+
+- View: A clear permissive license turns already-circulating history into legally reusable educational material.
+- Impact: Students can examine a durable virtual-machine architecture without reconstructing permissions from corporate lineage.
+- Watch next: Upstream acceptance, preservation-focused contributions, and possible releases of other Infocom sources.
