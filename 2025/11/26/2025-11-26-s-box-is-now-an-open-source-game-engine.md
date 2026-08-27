@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Facepunch has opened the code for its heavily modified game development platform after years of replacing Source 2’s entity backbone with game objects, scenes, and new workflows. The author presents this as an unexpected culmination of community engagement and technical upheaval following Unity’s pricing controversy. Commenters credit the independent studio’s sustained success and creative culture, while emphasizing limits: the project still depends on Valve’s closed Source 2, lacks obvious console support, and inherits concern from Facepunch’s restrictive Linux multiplayer policies.
+A brief enthusiast post celebrates Facepunch’s decision to open-source S&box after years of transforming it from a hoped-for Garry’s Mod successor into a more ambitious scene-based game engine. The post credits major internal changes, including replacing Source 2’s entity-system backbone with game objects and building new scene and development workflows. The supplied item does not state the license, repository scope, build requirements, or governance. Commenters add an important limitation: S&box still depends on Source 2, which they describe as closed source.
 
 ### Comment pulse
 
-- Open code broadens inspection and contribution → developers can study Facepunch’s engine layer and build beyond a hosted modding tool.
-- Independence remains partial → the stack relies on proprietary Source 2 — counterpoint: extensive modifications still expose meaningful engine code.
-- Platform trust is mixed → strong community transparency contrasts with Linux players excluded from official Rust servers over anti-cheat concerns.
+- Readers praised Facepunch’s developer-led history but criticized its games’ Linux availability and anti-cheat tradeoffs.
+- Developers were curious how the heavily modified engine reconciles scene-based tooling with Source 2’s underlying assets and maps.
 
 ### LLM perspective
 
-- View: This is a major governance shift for the editable layer, not a fully open technology stack.
-- Impact: Studios gain a capable alternative but inherit licensing, platform, and upstream dependency questions.
-- Watch next: Contribution rules, license boundaries, Linux support, console plans, and Valve’s tolerance of downstream divergence.
+- View: Open code increases inspectability, but dependency boundaries determine how open the usable engine actually is.
+- Impact: Community contributions may grow while closed foundations still constrain ports, distribution, and long-term maintenance.
+- Watch next: Exact license, build reproducibility, Source 2 requirements, console support, governance, and contribution acceptance.

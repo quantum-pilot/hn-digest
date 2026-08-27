@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Stanford's Winter 2025 introduction to reinforcement learning covers Markov decision processes, policy evaluation, Q-learning, function approximation, policy search, offline learning, exploration, and Monte Carlo tree search through lectures, three assignments, exams, and a project. Students need Python, calculus, linear algebra, probability, and machine-learning foundations. HN discussion supplied the practical boundary the syllabus implies: RL suits sequential decisions with delayed, hard-to-attribute rewards, but is usually wasteful for ordinary classification or regression.
+Stanford’s Winter 2025 CS234 introduces reinforcement learning through Markov decision processes, planning, policy evaluation, Q-learning, function approximation, policy search, offline learning, imitation, DPO, exploration, and Monte Carlo tree search. Students complete written and coding assignments, exams, and a project while analyzing convergence, regret, sample needs, and computational cost. Commenters lamented restricted 2025 videos, pointed to public 2024 lectures, and debated whether RL is a lasting paradigm, emphasizing its fit for sequential control rather than ordinary prediction.
 
 ### Comment pulse
 
-- RL remains strongest in control → games, advertising, and simulated operations provide actions, state transitions, and feedback unavailable to static prediction.
-- Its dominance is not guaranteed → brittle convergence and weak out-of-distribution generalization motivate alternatives — counterpoint: established applications remain economically important.
-- Open materials extend educational value → commenters found older videos online but objected that newer lectures were restricted.
+- Public lectures broaden advanced education → counterpoint: current videos remain enrollment-only, though earlier recordings are available.
+- RL suits delayed, uncertain outcomes → conventional supervised learning remains preferable when examples have direct labels.
 
 ### LLM perspective
 
-- View: Problem formulation matters more than attaching a fashionable optimizer to an existing loss.
-- Impact: Practitioners can avoid sample-heavy experiments by testing whether decisions alter future states.
-- Watch next: Public recording access, reproducible assignments, FlowRL evidence, offline-RL stability, and successor training paradigms.
+- View: The syllabus presents RL as decision-making machinery, not merely a language-model training technique.
+- Impact: Practitioners can better distinguish sequential policy problems from standard classification or regression.
+- Watch next: Public material availability and evidence that newer algorithms improve RL’s brittleness and sample efficiency.

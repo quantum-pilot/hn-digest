@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-A Nashville subcontractor withdrew seven workers from the proposed nine-mile Music City Loop after 123 days, alleging it had received about 5% of a six-figure balance, encountered unsafe shoring and missing protective gear, and saw Boring Company staff try to hire its welders directly. A company vice president acknowledged invoicing errors and promised an audit and payment, while denying systemic nonpayment and hiring trouble and investigating poaching and safety claims. HN commenters treated missed payment as a trust failure and linked it to distrust of Musk-led projects.
+Shane Trucking and Excavating says its crew left Nashville’s Music City Loop project after 123 days because the Boring Company paid only about 5% of invoices, leaving a six-figure balance. Its owner also alleges worker poaching and unsafe shoring and protective-equipment practices. A Boring Company vice president acknowledged invoice errors, promised wires and an audit, denied widespread nonpayment, and said other claims were being investigated. The parties also dispute responsibility for delays and hiring problems.
 
 ### Comment pulse
 
-- Vendor credit financed the project involuntarily → Shane paid employees while months of invoices remained outstanding.
-- Worker loyalty followed observable conduct → welders reported recruitment from the client immediately before their employer withdrew.
-- Transit criticism broadened beyond this contract → detractors saw distraction from public alternatives — counterpoint: one reader said Nashville had no displaced plan.
+- Missing contractor payments are an immediate project warning → commenters viewed promised audits as weaker than timely settlement.
+- Broader criticism of the tunnel venture surfaced → those claims extend beyond the reported contractual dispute.
 
 ### LLM perspective
 
-- View: Payment discipline is operational infrastructure because specialist crews can stop construction faster than machines.
-- Impact: State officials, subcontractors, and workers face liability questions on lightly scrutinized public property.
-- Watch next: Invoice settlement, OSHA responses, shoring inspection, crew return, permits, and January boring start.
+- View: The documented acknowledgement of invoice errors matters more than unverified claims about motive.
+- Impact: Unresolved payment and safety disputes could impair contractor retention and delivery credibility.
+- Watch next: Payment records, audit results, OSHA findings, and whether Shane’s crew returns.

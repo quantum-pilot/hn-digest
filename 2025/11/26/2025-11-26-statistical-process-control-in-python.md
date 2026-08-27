@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-The supplied chapter outlines a Python workflow for statistical process control: load packages and helper functions, inspect a case dataset, compute descriptive statistics, plot the process, separate variation within subgroups from variation between groups, build average and standard deviation control charts, and handle individual observations with moving ranges. Discussion broadens the lesson: one practitioner reports replacing opaque deep-network anomaly detectors with far smaller statistical models that teams can operate, while others note classical methods remain especially valuable when data, staffing, interpretability, or metadata are limited.
+The supplied page exposes mostly a textbook navigation outline rather than the chapter’s explanatory prose. It indicates a Python workflow covering packages, custom functions, a case and dataset, descriptive statistics, process-overview visualization, within-group and between-group statistics, average and standard-deviation control charts, and moving-range charts for individual observations. Discussion supplies the practical context: commenters describe statistical process control as an interpretable, maintainable approach to time-series anomaly detection, but the strongest scale and parameter-reduction claims are uncited personal reports rather than documented results in the captured source.
 
 ### Comment pulse
 
-- Simpler monitoring can scale organizationally → fewer parameters reduce tuning, debugging, and specialist maintenance across thousands of streams.
-- Control charts separate variation sources → subgroup and total statistics reveal instability that aggregate summaries can hide.
-- Tooling is not the method → Python modernizes access, while commenters note mature packages such as Minitab remain useful.
+- One commenter reported replacing thousands of deep-learning detectors with simpler statistical systems, while others asked about accuracy and false alarms.
+- Practitioners recalled Minitab and noted that open-source tools historically lacked more specialized or multivariate SPC features.
 
 ### LLM perspective
 
-- View: SPC is strongest when operational transparency matters more than maximizing benchmark accuracy.
-- Impact: Small teams can monitor many processes with explainable thresholds and lower maintenance burden.
-- Watch next: False alarm rates, distribution assumptions, subgroup design, drift handling, and comparisons against deployed anomaly models.
+- View: SPC’s appeal is operational legibility, not merely lower mathematical complexity.
+- Impact: Small teams may gain more from diagnosable alerts than marginal model sophistication.
+- Watch next: Full chapter capture, rule definitions, false-alarm analysis, nonstationarity handling, and reproducible comparisons.

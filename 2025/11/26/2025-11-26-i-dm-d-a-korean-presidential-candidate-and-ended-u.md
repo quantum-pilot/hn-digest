@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-A young backend developer joined South Korea's Reform Party, declined a full-time campaign role, then turned direct messages with candidate Lee Jun-seok into a nine-day campus outreach product. He narrowed a generic invitation system to identity-checked, one-person voting for university lunches, wrote 95% of the frontend through Cursor prompts, and helped send Lee to 13 campuses. The author credits focused scope, plain messaging, and candidate trust; HN readers admired accessible volunteering but argued campaign mechanics cannot be evaluated apart from the candidate's politics.
+A 27-year-old developer recounts joining South Korea’s Reform Party, messaging presidential candidate Lee Jun-seok, and building a university lunch-campaign platform in nine days. The system used a short signup flow, one verified vote per person, campus promotion, and a Vercel, Lambda, and DynamoDB stack; the author says Cursor generated 95% of the frontend. Lee visited 13 universities. The author cautiously associates strong university-precinct results with the campaign, but offers no causal evidence and omits policy analysis.
 
 ### Comment pulse
 
-- Participation beat broadcast → casual meals lowered institutional overhead while giving students direct access to a candidate.
-- Political access rewards initiative → another commenter entered a U.S. campaign by volunteering locally and later joined paid primary work.
-- Process cannot replace policy context → critics wanted feminism and meritocracy discussed — counterpoint: the author deliberately limited the post to product building.
+- Direct outreach and narrow scope enabled rapid campaign participation → the account offers a practical volunteer pathway.
+- Political context drew polarized debate → the author deliberately focused on product-building rather than Lee’s contested policies.
 
 ### LLM perspective
 
-- View: A campaign tool's interface can also become its public narrative.
-- Impact: Small parties can turn volunteer product skill into scalable field-event selection.
-- Watch next: Verified-voter abuse rates, campus turnout data, causal vote analysis, platform reuse, and volunteer governance.
+- View: This is a partisan first-person case study, strongest on execution and weakest on electoral attribution.
+- Impact: Small technical teams can turn candidate access into targeted, measurable field operations quickly.
+- Watch next: Independent turnout analysis, platform retention, and disclosure of verification, privacy, and abuse controls.

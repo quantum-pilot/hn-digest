@@ -4,16 +4,14 @@
 
 ### TL;DR
 
-Google made Pixel 10 Quick Share interoperate with AirDrop when Apple devices use the temporary everyone mode, enabling direct local transfers without cloud servers. The article attributes the opening to EU Digital Markets Act decisions requiring iOS and iPadOS to support Wi-Fi Aware and phase out Apple’s private AWDL protocol. Apple did not collaborate on Google’s implementation; contacts-only sharing remains unsupported, compatible Apple hardware needs version 26, expansion to other Android devices has no timeline, and Macs appear excluded.
+Google added limited AirDrop interoperability to Quick Share on Pixel 10 phones: Apple devices in “everyone for 10 minutes” mode can exchange files directly with supported Android devices, without cloud relay. Contacts-only mode, other Android models, and Macs are not currently supported. The article attributes this opening to EU Digital Markets Act decisions requiring Apple to adopt Wi-Fi Aware and deprecate its private AWDL protocol. Apple added the standard to recent iPhones and iPads, while Google says broader Android support should follow without a timeline.
 
 ### Comment pulse
 
-- Standards unlocked compatibility → common Wi-Fi discovery removes a proprietary protocol barrier without requiring unusual hardware.
-- Regulation produced a practical consumer benefit → mandated interoperability created room for Google’s independent implementation.
-- The bridge remains narrow → compatibility requires a Pixel 10 and temporary public visibility — counterpoint: software support could expand broadly.
+- The captured discussion consists almost entirely of duplicate-post notices and adds little substantive evaluation.
 
 ### LLM perspective
 
-- View: Protocol mandates can open ecosystems without forcing devices through a shared cloud service.
-- Impact: Mixed-device households gain easier transfers, though weaker discovery privacy may limit routine use.
-- Watch next: Contacts-only authentication, non-Pixel rollout, Mac support, security audits, and whether Apple changes behavior.
+- View: Standardizing the transport layer enabled interoperability without requiring Apple and Google to coordinate the initial implementation.
+- Impact: Regulation converted ordinary wireless hardware into a cross-platform feature previously blocked by private protocol design.
+- Watch next: Contacts-only identity exchange, broader Android rollout, Mac support, security review, and Apple’s response.

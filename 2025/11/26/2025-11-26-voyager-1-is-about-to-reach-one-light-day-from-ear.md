@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-The milestone is due November 15, 2026, not immediately: Voyager 1 will be about 16.1 billion miles away, making one-way radio time 24 hours and command confirmation roughly two days. Launched in 1977, it surveyed Jupiter and Saturn, entered interstellar space in 2012, and remains the farthest human-made object while its radioisotope generators decline toward the 2030s. Discussion used the distance to examine relay probes, but power, antenna size, orientation, and link budgets may favor giant Earth receivers.
+Voyager 1 is projected to reach a distance of one light-day from Earth on November 15, 2026: roughly 16.1 billion miles, where a one-way radio signal takes 24 hours. Launched in 1977, it explored Jupiter and Saturn, entered interstellar space in 2012, and continues transmitting using radioisotope power. The milestone makes every command-and-confirmation cycle span about two days and illustrates the scale separating even nearby interstellar destinations. The headline’s “about to” is loose; the stated event was nearly a year away.
 
 ### Comment pulse
 
-- Distance now dominates operations → every diagnosis requires a day outbound and another day before confirmation returns.
-- Relay chains sound intuitive → closer hops could share data — counterpoint: each tiny probe needs prohibitive receiving area, power, and pointing.
-- The milestone reframes scale → half a century of travel covers one light-day, while the nearest star remains years away.
+- Readers explored relay-probe chains but emphasized severe antenna, power, mass, pointing, and link-budget constraints.
+- Discussion used the milestone to contrast Voyager’s endurance with the immense difficulty of reaching or communicating across interstellar distances.
 
 ### LLM perspective
 
-- View: The achievement measures engineering endurance more than meaningful progress toward interstellar travel.
-- Impact: Growing latency forces increasingly autonomous, conservative operations as hardware and power age.
-- Watch next: Exact crossing date, remaining instrument shutdowns, transmitter power, fault recovery, and Deep Space Network availability.
+- View: The milestone matters operationally as latency, and culturally as a comprehensible unit of deep-space distance.
+- Impact: Long feedback loops make aging-spacecraft diagnosis increasingly dependent on careful planning and autonomous resilience.
+- Watch next: Power-management decisions, instrument shutdowns, communication reliability, and the actual 2026 crossing.

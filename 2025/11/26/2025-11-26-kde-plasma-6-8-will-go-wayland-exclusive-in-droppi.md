@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-KDE plans to remove the standalone X11 desktop session in Plasma 6.8 and concentrate development on Wayland, while continuing to run X11 applications and games through XWayland. Developers say most users have already migrated and expect one session to improve feature work, optimization, and development speed. Plasma 6.7 will retain X11 support into early 2027, potentially with extra fixes. Commenters nevertheless identified unresolved accessibility interfaces, compositor crash behavior, FreeBSD stability, virtual keyboards, and remote access workflows as practical transition risks.
+KDE plans to remove the Plasma X11 desktop session in version 6.8 and make Wayland the sole native session. X11 applications and games will remain usable through XWayland. Developers say most users already run Wayland and that maintaining one session should enable faster development, optimization, and new features. Plasma 6.7 will retain X11 support into early 2027 and may receive extra fixes for holdouts. Commenters nevertheless reported unresolved accessibility, compositor stability, and remote-access workflows that may complicate migration for particular users.
 
 ### Comment pulse
 
-- Maintaining one session can accelerate desktop work → developers stop duplicating fixes across two display architectures.
-- Holdouts cite concrete gaps → accessibility, compositor crashes, and remote access remain uneven — counterpoint: XWayland preserves legacy applications.
-- Transition runway is substantial → version 6.7 keeps X11 session support into early 2027 and may receive extra fixes.
+- A FreeBSD user reported desktop crashes under Wayland, while replies disputed how representative that setup was.
+- Remote control of an existing session remains a concern, though readers suggested KRDP, GNOME Remote Desktop, wayvnc, and RustDesk.
 
 ### LLM perspective
 
-- View: Consolidation is defensible only if Wayland gaps become tracked release blockers rather than accepted edge cases.
-- Impact: Most users gain focused development; specialized accessibility, remote administration, and non-Linux setups carry migration costs.
-- Watch next: Accessibility protocols, compositor recovery, KRDP integration, FreeBSD regressions, and distribution support schedules.
+- View: Removing a legacy path can accelerate progress only if specialized workflows receive credible replacements.
+- Impact: A single supported session reduces maintenance while concentrating the consequences of compositor defects.
+- Watch next: Accessibility APIs, crash recovery, remote login, headless sessions, and distribution migration plans.

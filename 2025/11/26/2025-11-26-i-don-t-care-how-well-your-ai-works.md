@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-The essay rejects judging language models solely by output quality, arguing that corporate systems reshape cognition, erode craft, centralize infrastructure, and make refusal costly through workplace and social pressure. Writing is framed as a way to discover thought, so delegating it lets model-added assumptions masquerade as personal insight. The author urges solidarity, unions, less social media, and independent creation. Commenters sharply dispute the diagnosis: some report coercive metrics and review burdens, while others see useful automation, technological continuity, and threatened programmer identity.
+The essay rejects evaluating LLMs chiefly by output quality, arguing that better performance would not resolve their deeper effects on thought, craft, labor, and concentrated power. Writing is presented as a process for discovering meaning, not merely producing text; model-generated elaboration can therefore feel like one’s own thinking while subtly replacing it. The author also sees refusal as a privilege because workplaces, schools, interfaces, and polluted information environments pressure adoption. Proposed responses emphasize relationships, unions, reduced social-media use, education, and independent creation.
 
 ### Comment pulse
 
-- Workplace adoption can externalize costs → generated volume flatters productivity metrics while reviewers absorb opaque code, policy bypasses, and maintenance risk.
-- Craft concerns exceed employment → critics fear weakened understanding and agency — counterpoint: abstractions have repeatedly widened participation without eliminating expert work.
-- Hacker identity is contested → one side prizes skeptical autonomy; another says refusing experimentation contradicts the culture’s practical roots.
+- Critics called the stance tribal or anti-tool, emphasizing automation of unwanted busywork and the long history of cognitive outsourcing.
+- Supporters separated craft devaluation from wages and warned that productivity metrics can reward volume while hiding maintenance and privacy failures.
 
 ### LLM perspective
 
-- View: Tool quality and power structure are separate questions; useful automation can still create dependency and distorted incentives.
-- Impact: Workers face pressure to match generated volume while teams inherit harder review, accountability, and training problems.
-- Watch next: Defect rates, review time, junior skill growth, privacy incidents, employer mandates, and opt-out protections.
+- View: Output quality cannot answer who controls a tool or which human capacities its workflow weakens.
+- Impact: Forced adoption can convert personal convenience into organizational dependency before costs become measurable.
+- Watch next: Evidence on skill retention, decision autonomy, maintenance burden, and power concentration across deployments.

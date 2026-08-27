@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-A sprawling guide presents Gemini CLI as an extensible terminal agent: persistent GEMINI.md context, reusable commands, MCP servers and extensions, explicit file or image references, checkpoints, saved sessions, multiple workspace roots, headless automation, IDE integration, and telemetry. Its most useful through-line is controlled autonomy: approvals, diffs, sandboxing, restricted tools, stable paths, and version control should surround any shell or file access, especially in auto-approve mode. HN reaction focused less on feature breadth than whether the surrounding product is dependable enough for daily work.
+Addy Osmani’s power-user guide presents Gemini CLI as an open-source terminal agent that can inspect context, run commands, edit files, and execute multi-step plans. Its most reusable practices are hierarchical GEMINI.md instructions, custom slash commands, explicit file context, checkpoints, saved sessions, constrained tool access, and MCP integrations. The guide warns that YOLO mode removes modification confirmations. Commenters report sharply mixed reliability, quota, and billing experiences, and note the author’s Google affiliation, so the piece is guidance rather than an independent benchmark.
 
 ### Comment pulse
 
-- Capability breadth is not usability → critics reported response failures, quota errors, and opaque billing despite configured API access.
-- Tool preference remains workload-specific → some dismissed the interface — counterpoint: others called it fast and reliable for their tasks.
-- Many patterns transfer across agents → persistent context, checkpoints, and tool restrictions matter beyond one vendor's interface.
+- Persistent context and reusable commands can standardize workflows → checkpoints provide a recovery path when edits go wrong.
+- User experiences range from fast and reliable to error-prone → account limits and billing opacity complicate comparison.
 
 ### LLM perspective
 
-- View: Agent productivity depends more on recoverability and context discipline than the length of a feature list.
-- Impact: Developers become operators of permissioned automation, not merely recipients of generated code.
-- Watch next: Quota transparency, error rates, extension security, checkpoint fidelity, background agents, and cross-client benchmarks.
+- View: Repeatable context and reversible execution matter more than any single agent’s feature count.
+- Impact: Teams can codify repository conventions while preserving review gates around shell and file mutations.
+- Watch next: Version-specific reliability tests, quota transparency, and reproducible comparisons against competing coding agents.

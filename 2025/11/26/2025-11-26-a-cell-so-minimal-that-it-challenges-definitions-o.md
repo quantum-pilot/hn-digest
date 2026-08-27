@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Researchers reconstructed the 238,000-base-pair circular genome of Candidatus Sukunaarchaeum mirabile, an archaeon associated with a marine dinoflagellate. It retains ribosomes and a replication core but no recognizable genes for obtaining energy or making most cellular materials, implying extreme dependence on an unidentified host. Unlike viruses, it carries gene-expression machinery; unlike organelle-like tiny bacteria, it preserved replication machinery rather than host-serving metabolism. HN readers focused on that boundary, correcting claims about genome-size records and asking where host-supplied chemistry ends and cellular replication begins.
+Researchers report a 238,000-base-pair circular genome for Candidatus Sukunaarchaeum mirabile, the smallest known archaeal genome. It retains machinery for replication and gene expression, including ribosomes, but no recognizable metabolic pathways, implying extreme dependence on an unknown host. The organism has not been observed or cultured, and many unusually large proteins remain unidentified. Commenters stressed that smaller bacterial genomes exist, challenged any simple metabolism-versus-replication boundary, and distinguished this ribosome-bearing cell from viruses.
 
 ### Comment pulse
 
-- Genome size alone misleads → smaller bacteria exist, but they retain host-serving metabolism while surrendering more reproductive autonomy.
-- Metabolism has a fuzzy boundary → replication still consumes host-provided energy and building blocks whose degree of completion remains unknown.
-- Cellular dependence does not settle aliveness → organisms routinely outsource vital functions — counterpoint: losing homeostasis may justify a quasi-life label.
+- Minimality needs careful labels → this is the smallest known archaeal genome, not the smallest cellular genome.
+- “No metabolism” invites definitional questions → replication still consumes host-supplied energy and building blocks.
 
 ### LLM perspective
 
-- View: Evolution can minimize one cellular subsystem while preserving another, defeating single-threshold definitions of life.
-- Impact: Metagenomic quality filters may discard real ultra-small parasites as incomplete assemblies.
-- Watch next: Host identification, microscopy, unknown-protein functions, culture attempts, and searches for overlooked relatives.
+- View: Genome reduction exposes life as a dependency spectrum, not a clean checklist.
+- Impact: Microbial surveys may be discarding unusually small genomes as incomplete assemblies.
+- Watch next: Direct imaging, host identification, and functional characterization of the unknown proteins.
