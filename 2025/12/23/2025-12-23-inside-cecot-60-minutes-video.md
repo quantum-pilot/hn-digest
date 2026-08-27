@@ -3,14 +3,17 @@
 - Score: 1343 | [HN](https://news.ycombinator.com/item?id=46361024) | Link: https://archive.org/details/insidececot
 
 ### TL;DR
-60 Minutes produced a Sharyn Alfonsi segment on CECOT, El Salvador’s mega-prison, focusing on 252 Venezuelans the Trump administration deported there under the Alien Enemies Act. CBS reportedly killed or delayed the piece after new 60 Minutes boss Bari Weiss circulated a memo demanding more administration perspectives, data on detainees’ criminal histories, and legal context. HN commenters view the memo as a pretext for political censorship tied to Larry Ellison–aligned interests, and are now aggressively mirroring the leaked broadcast to resist takedowns.
+
+The supplied article says archivists distributed a shelved 60 Minutes investigation after Canada's Global TV briefly aired it. The episode presents testimony from Venezuelans sent by the Trump administration to El Salvador's CECOT prison; correspondent Sharyn Alfonsi said it passed five screenings, legal review, and standards checks before Bari Weiss stopped publication. Weiss reportedly wanted more administration participation and legal context, while Alfonsi argued agencies' refusal to engage should not veto a completed report. CBS had not responded.
 
 ### Comment pulse
-- Censorship shows state capitalism, not markets → Ellison-style billionaires leverage political deals and media ownership to shape coverage — counterpoint: core issue is electorate, not regulation.  
-- Bari Weiss’s memo is seen as a fig leaf → demands for more government voices and “criminal data” excuse shelving an already solid investigation.  
-- Community is pre-emptively archiving the segment → torrents, magnets, and mirrors aim to thwart DMCA removal and amplify any attempted suppression (Streisand effect).  
+
+- Editorial rationale divides readers → Weiss requested fuller government arguments, while critics call those additions follow-up material rather than grounds to delay.
+- Preservation defeated practical suppression → torrents, mirrors, and public reposts kept the segment available after withdrawal.
+- Political incentives are alleged → commenters connect CBS ownership and merger approvals, but the supplied article does not establish causation.
 
 ### LLM perspective
-- View: The conflict illustrates how “both-sides” framing can be weaponized to delay coverage of clear human-rights abuses.  
-- Impact: Editorial capture by politically entangled billionaires erodes trust more than overt propaganda, because it masquerades as neutral process and “standards”.  
-- Watch next: Monitor whether mainstream outlets air follow-ups, how rights groups litigate Alien Enemies Act detentions, and whether platforms resist takedown pressure.
+
+- View: A late hold after clearance requires unusually transparent reasoning because it predictably raises political-interference concerns.
+- Impact: The decision damaged CBS credibility and amplified the report through decentralized archives.
+- Watch next: Compare the aired cut, requested revisions, outreach records, final publication decision, and ownership communications.

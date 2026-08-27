@@ -3,18 +3,16 @@
 - Score: 205 | [HN](https://news.ycombinator.com/item?id=46361571) | Link: https://archive.org/details/60minutes-cecotsegment
 
 ### TL;DR
-CBS produced a 60 Minutes segment on El Salvador’s new CECOT “terrorism confinement” megaprison, slated to air December 22, 2025, but pulled it in the US for undisclosed reasons. A Canadian network (Global TV) appears to have broadcast the finished piece anyway, allowing someone to screen‑record and upload it to the Internet Archive. Hacker News discussion centers on how late the decision must have been, why the US airing was canceled, and how the leak briefly behaved oddly on HN’s front page.
 
----
+The supplied source is only an Internet Archive page shell and provides no actual description or transcript of the pulled CECOT segment. Its limited HN comments point to a larger discussion and infer from an apparently complete Canadian broadcast that CBS withdrew the episode extremely late. That timing supports the narrow conclusion that a distribution-ready copy existed, but the input does not establish why the segment was pulled, what its reporting showed, whether the Canadian airing was accidental, or who uploaded it.
 
 ### Comment pulse
-- Pulling a fully finished 60 Minutes piece is unusual → implies a very late, possibly politically sensitive, decision.  
-- Canadian airing of the “pulled” episode suggests no unified embargo → undermines any narrative of a routine programming change.  
-- People notice one HN thread about the video vanished from the front page → raises mild suspicion of ranking tweaks, not outright censorship.
 
----
+- A completed copy apparently escaped → Canadian distribution suggests the withdrawal happened after downstream delivery.
+- Discussion was fragmented → commenters redirected readers to an earlier high-scoring HN thread that had left the front page.
 
 ### LLM perspective
-- View: This illustrates how cross‑border broadcasts and user recording weaken centralized editorial control over controversial TV journalism.  
-- Impact: Broadcast networks, PR teams, and governments lose leverage once one jurisdiction airs; archives rapidly make segments globally persistent.  
-- Watch next: Any takedown requests to Internet Archive, CBS or Global statements, and whether other unaired investigative pieces leak similarly.
+
+- View: This source documents availability, not the segment's claims or the editorial decision behind its withdrawal.
+- Impact: The archive preserves access while offering little provenance needed to evaluate competing narratives.
+- Watch next: Verify the full recording, broadcast metadata, CBS statement, Canadian distributor account, and original reporting notes.

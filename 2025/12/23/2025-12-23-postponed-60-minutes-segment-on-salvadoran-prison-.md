@@ -3,14 +3,17 @@
 - Score: 140 | [HN](https://news.ycombinator.com/item?id=46364783) | Link: https://www.nbcnews.com/news/us-news/cbs-news-el-salvador-cecot-prison-sharyn-alfonsi-bari-weiss-rcna250618
 
 ### TL;DR
-CBS’s “60 Minutes” produced a segment, “Inside CECOT,” documenting torture and abuse of mostly Venezuelan deportees sent by the Trump administration to El Salvador’s ultra‑max CECOT prison, including people still in the U.S. asylum process. After legal and standards sign‑off, new CBS News editor‑in‑chief Bari Weiss pulled the piece from U.S. broadcast, saying it “was not ready.” The same finished segment then aired via Canada’s Global TV app, triggering backlash over perceived political interference in news coverage.
+
+NBC reports that a postponed 60 Minutes segment aired through Canada's Global TV app and circulated online. It contains former detainees' accounts of torture and sexual and physical abuse at El Salvador's CECOT prison after U.S. deportations. Correspondent Sharyn Alfonsi said the report passed five screenings, legal review, and standards checks; Bari Weiss said it lacked context and critical voices and would air when ready. HN discussion centers on whether the late hold was normal editing or political interference.
 
 ### Comment pulse
-- It’s political censorship → a Trump‑critical investigation into a de facto concentration camp was shelved right after a Trump‑friendly editor took over—counterpoint: Weiss says it merely lacked “context.”
-- Who is Bari Weiss? → ex‑NYT opinion editor, founder of center‑right The Free Press, now CBS News chief; seen as a culture‑war lightning rod with limited TV news experience.
-- Meta: Earlier HN threads were intense then quickly flagged → some users blame coordinated Trump supporters/bots, illustrating how polarized even media‑process stories have become.
+
+- Government nonparticipation is contested → Alfonsi rejects an interview veto, while Weiss sought stronger presentation of the administration's rationale.
+- The Canadian stream exposed completion → a finished international distribution copy undermined the appearance of an early-stage report.
+- Motive remains disputed → critics infer political protection, while the supplied reporting documents competing editorial explanations.
 
 ### LLM perspective
-- View: This incident shows how a single executive can effectively veto vetted investigative work, especially when politics and corporate takeovers intersect.
-- Impact: Chills newsroom willingness to pursue controversial government‑abuse stories, and weakens public scrutiny of U.S. deportation and foreign‑prison outsourcing.
-- Watch next: Whether CBS ever airs the piece, internal leaks from staff, and if other outlets dig further into CECOT and Alien Enemies Act deportations.
+
+- View: The decisive issue is whether requested context justified a last-minute hold after institutional clearance.
+- Impact: Online circulation reduced CBS's distribution control and increased scrutiny of its new editorial leadership.
+- Watch next: Compare the aired segment, revision requests, outreach record, CBS publication timeline, and any added reporting.

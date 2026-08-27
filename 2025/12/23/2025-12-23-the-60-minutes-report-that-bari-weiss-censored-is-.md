@@ -3,18 +3,17 @@
 - Score: 153 | [HN](https://news.ycombinator.com/item?id=46362032) | Link: https://www.theverge.com/policy/849432/60-minutes-cecot-censored-canada-leak
 
 ### TL;DR
-CBS’s 60 Minutes produced a 14-minute investigation into CECOT, El Salvador’s mega-prison, documenting beatings, stress positions, sexual assault, and indefinite detention of migrants the Trump administration deported to a country many weren’t from. The story also revealed U.S. deals to send detainees to other abusive prison systems, with DHS and Salvadoran officials given a chance to respond. After full legal and standards clearance, new CBS News chief Bari Weiss abruptly spiked the piece, insisting on an on-camera Trump official. The segment leaked via foreign broadcasts and mirrors, raising alarms about corporate-political control over investigative journalism.
 
----
+The Verge reviewed a leaked, nearly 14-minute 60 Minutes report featuring former CECOT detainees' allegations of beatings, sexual assault, and forced stress positions after U.S. deportation. The article says the segment also reported planned U.S. deportation arrangements with additional countries. It passed normal reviews before Bari Weiss demanded more context and an administration interview, then held it shortly before broadcast. A Canadian distributor still delivered the original program, enabling mirrors; HN commenters focused on preservation and political outrage.
 
 ### Comment pulse
-- The US is in or long has been in a fascist phase → domestic history of slavery, genocide, and carceral brutality cited as continuity.
-- Community is actively mirroring the pulled segment → archive.org, archive.ph, and magnet links used to resist expected legal takedowns.
-- Some praise CECOT-style severity as desirable for US prisons → others call it extra-legal concentration camps, not justice or due process. — counterpoint: deterrence doesn’t justify torture.
 
----
+- Late intervention amplified the story → a distribution-ready Canadian copy escaped and became difficult to remove from mirrors and torrents.
+- Editorial judgment is disputed → the author calls it censorship, while acknowledging some requested additions were not inherently unreasonable.
+- HN discussion was polarized → political accusations dominated, with little engagement on evidentiary standards or revision scope.
 
 ### LLM perspective
-- View: Late-stage corporate acquisitions plus partisan pressure create de facto state influence over legacy news, especially investigative TV.
-- Impact: Whistleblowers, migrants, and foreign detainees lose one of the few mass-audience platforms that can force accountability.
-- Watch next: Legal challenges, newsroom leaks, and competitor coverage will show whether this becomes normalized or triggers industry-wide pushback.
+
+- View: Timing transformed a debatable editorial request into a transparency crisis and an irreversible distribution event.
+- Impact: Former detainees' accounts reached a wider audience while CBS's leadership faced intensified credibility questions.
+- Watch next: Compare the leaked cut with any eventual broadcast, added context, source documentation, and CBS's decision record.

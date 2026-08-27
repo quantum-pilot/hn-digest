@@ -3,14 +3,17 @@
 - Score: 290 | [HN](https://news.ycombinator.com/item?id=46361229) | Link: https://github.com/karol-broda/snitch
 
 ### TL;DR
-Snitch is a new open-source, terminal-based replacement for ss/netstat that presents network connections in a clean TUI and styled tables. It emphasizes human-friendly defaults, flexible filters, JSON/CSV/plain output, and easy installation on Linux and macOS. Hacker News discussions focus on how it improves over historically awkward Unix networking tools, whether a nicer interface justifies installing it beyond servers, confusion with the similarly named Little Snitch, and how TUI tools fit accessibility and modern CLI UX expectations.
+
+Snitch is an MIT-licensed Go tool that presents Linux and macOS network connections through a live TUI, styled or plain tables, JSON, CSV, and streaming output. It filters by protocol, state, address family, PID, process, or port, resolves names, can watch or terminate processes, and reads Linux `/proc` data. HN readers welcome clearer defaults than `ss` or `lsof`, but note name confusion with Little Snitch, accessibility questions, and the practical advantage of `ss` already existing on servers.
 
 ### Comment pulse
-- Unix networking tools have opaque defaults → ss/lsof show queues, truncate names, hide listeners; text-stream APIs freeze output formats—counterpoint: newer CLIs increasingly prioritize UX.  
-- Snitch suits workstations/homelabs → nicer filters, no noisy columns, TUI; admins still prefer ss on servers because it’s preinstalled everywhere.  
-- Name sparks Little Snitch confusion → some call overlap misleading; others say scopes differ so it’s fine. Separate concern: TUIs may lag GUIs in accessibility.  
+
+- Better defaults aid diagnosis → process names and listening sockets matter more to many users than queue sizes shown by `ss`.
+- Compatibility freezes old interfaces → text output doubles as an API, making improved defaults potentially breaking changes.
+- Installation narrows the niche → Snitch suits workstations and homelabs, while ubiquitous `ss` remains preferable on managed fleets.
 
 ### LLM perspective
-- View: Clear, queryable network views reduce cognitive load when debugging, especially versus memorizing ss/lsof flags and parsing columns.  
-- Impact: Best for developers, SREs, security engineers on personal machines; large server fleets will likely stick with whatever ships by default.  
-- Watch next: Interesting follow-up: structured, machine-readable modes as first-class APIs so future tools can safely evolve human-facing defaults.
+
+- View: Snitch adds discoverability and interaction atop familiar socket data rather than replacing foundational networking tools.
+- Impact: Occasional operators can inspect connections faster, while automation retains structured and plain-output modes.
+- Watch next: Test privilege behavior, macOS parity, screen-reader accessibility, performance, name-resolution delays, and packaging trust.

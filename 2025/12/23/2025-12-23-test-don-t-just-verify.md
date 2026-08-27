@@ -2,26 +2,18 @@
 
 - Score: 154 | [HN](https://news.ycombinator.com/item?id=46364973) | Link: https://alperenkeles.com/posts/test-dont-verify/
 
-## TL;DR
+### TL;DR
 
-AI-fuelled formal verification promises provably correct software: autoformalized specs, proofs checked by Lean-like assistants, and verified reference implementations. The author welcomes this, but argues it cannot replace testing. Autoformalization becomes a fallible part of the trusted computing base; proof assistants run too slowly for production; many domains (performance, hardware) lack tractable models; and proofs can’t reveal a wrong spec. Random and differential testing, especially Verification-Guided Development, remain essential complements—comments debate how pessimistic this view should be.
+The author argues AI can accelerate formal specifications and proof generation, with small symbolic checkers validating probabilistic output, but verification cannot replace testing. Autoformalization may mistranslate intent, extraction enlarges the trusted computing base, production performance lacks tractable universal models, and false conjectures can waste proof search. Verification-guided development instead pairs a simple verified reference with a fast implementation, then uses differential random testing to check equivalence. HN commenters support stronger guarantees but dispute several technical simplifications and the article's pessimism.
 
----
+### Comment pulse
 
-## Comment pulse
+- Testing supplies falsification → counterexamples quickly reject bad theorems that proof search might pursue indefinitely.
+- Verification improves everyday reasoning → invariants, static types, and correctness-by-construction help even without full proofs.
+- Critics challenge the framing → Lean optimizes arithmetic, hardware models exist, and reusable verified libraries may reduce specification burden.
 
-- Formal methods progress is understated: Lean already scales to long math proofs and efficient arithmetic; hardware/cache models exist, but hand-calculations are tedious.  
+### LLM perspective
 
-- Verification training teaches invariants and reasoning; static types and Rust-like memory guarantees act as lightweight verification, complementing tests—even when full formal specs are unrealistic.  
-
-- Some argue the post mischaracterizes Lean performance and spec practices; richer type-based libraries, not giant specs, will structure future verified software—counterpoint: library sprawl harms quality.  
-
----
-
-## LLM perspective
-
-- View: Random testing plus formal proofs is emerging as the practical sweet spot, especially with VGD-style verified references and optimized implementations.  
-
-- Impact: AI-driven autoformalization will mainly benefit new, spec-first systems; legacy code will still lean heavily on tests, types, and partial verification.  
-
-- Watch next: Watch benchmarks of AI provers on real-world codebases and more VGD deployments in compilers, databases, kernels, and safety-critical controllers.
+- View: Proofs and tests answer complementary questions: logical universality versus behavior under real implementations and environments.
+- Impact: AI-assisted teams can use proof checkers safely only if specifications and trusted boundaries receive independent scrutiny.
+- Watch next: Measure autoformalization errors, proof maintenance, differential-test coverage, extraction trust, and production performance gaps.

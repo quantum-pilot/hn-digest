@@ -3,18 +3,17 @@
 - Score: 332 | [HN](https://news.ycombinator.com/item?id=46367224) | Link: https://github.com/bellard/mquickjs/blob/main/README.md
 
 ### TL;DR
-MicroQuickJS is a tiny JavaScript engine by Fabrice Bellard for embedded systems, running ES5‑ish “stricter mode” JavaScript in about 10 kB RAM and ~100 kB ROM. It drops dynamic oddities (holes in arrays, value boxing, local eval, non‑strict constructs), uses a tracing/compacting GC with its own allocator, stores strings as UTF‑8, and keeps the standard library in ROM. HN discussion centers on Lua vs JS for embedding, enthusiasm for these restrictions, and experiments like a WebAssembly playground.
 
----
+MicroQuickJS is an MIT-licensed JavaScript engine for embedded systems that can run in roughly 10 kB RAM and occupy about 100 kB ROM while approaching QuickJS speed. It trades compatibility for a mostly ES5, always-strict subset, uses UTF-8 strings, persistent ROM-friendly bytecode, a bounded-stack VM, and a compacting tracing collector over a caller-supplied memory buffer. HN readers praised these restrictions and debated whether familiar JavaScript could displace Lua in small embedded scripting roles.
 
 ### Comment pulse
-- Redis scripting choice → author says this engine would have made JS plausible over Lua; replies defend Lua’s design, TCO, and distinctive syntax—counterpoint: JS semantics are often worse.
-- Design praise → ex‑JSC developer loves the explicit constraints; they mirror the restrictions he wished were enforceable on the web but weren’t for compatibility.
-- Ecosystem/infra → people share a WASM playground, note its much smaller payload than QuickJS, and lament the missing public commit history given its QuickJS roots.
 
----
+- Restrictions fit embedded systems → forbidding holes, direct eval, boxing, and other costly constructs simplifies predictable execution.
+- JavaScript familiarity competes with Lua's design → syntax may lower onboarding friction, while Lua retains tail calls and proven embeddability.
+- Browser builds show the footprint → one WebAssembly playground transferred 120 kB versus 675 kB for QuickJS.
 
 ### LLM perspective
-- View: This is “JavaScript-as-DSL”: a disciplined subset optimized for predictability, not browser compatibility.
-- Impact: Makes JS attractive where Lua/Tcl traditionally lived: MCUs, small RTOS targets, and firmware needing safe, user-editable scripts.
-- Watch next: Compare against Lua/QuickJS/eLua on real boards, build bindings/RTOS ports, and standardize a “stricter JS” profile for tooling.
+
+- View: MicroQuickJS treats language compatibility as a resource budget, preserving useful JavaScript while rejecting expensive semantics.
+- Impact: Firmware teams gain a recognizable scripting option for devices where conventional runtimes cannot fit.
+- Watch next: Benchmark execution, worst-case pauses, C API safety, bytecode size, and real microcontroller integrations against Lua.

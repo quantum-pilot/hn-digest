@@ -3,14 +3,17 @@
 - Score: 136 | [HN](https://news.ycombinator.com/item?id=46362927) | Link: https://www.macrumors.com/2025/12/22/ios-26-3-dma-airpods-pairing/
 
 ### TL;DR
-Apple’s iOS 26.3 adds AirPods-style one-tap proximity pairing and system-level notification forwarding to third-party headphones, watches, and TVs in the EU, as required by the Digital Markets Act. Only one wearable can receive notifications at a time, and enabling a third-party device disables Apple Watch notifications. The European Commission frames this as a win for interoperability and competition. Hacker News discussion centers on DMA’s role in breaking Apple lock-in versus fears of reduced innovation and degraded “integrated” user experiences.
+
+Under the EU Digital Markets Act, iOS 26.3 lets accessory makers test one-tap proximity pairing for third-party earbuds and richer iPhone notifications on non-Apple wearables. Users can view and react to notifications, although forwarding to a third-party device disables Apple Watch notifications because only one device may receive them. The features are scheduled for full European availability in 2026. HN commenters welcome greater accessory competition but debate whether mandatory interoperability weakens integration, security, or Apple's incentive to innovate.
 
 ### Comment pulse
-- DMA helps users and competition → Expensive non-Apple gear finally gets first-class treatment; many say Apple only opens up when forced—counterpoint: EU claiming too much credit for innovation.
-- Integration vs openness → Some fear modular APIs bloat iOS and weaken polished UX; others argue Apple chose lock-in over open standards, inviting regulation.
-- Real-world frictions → Examples like WhatsApp’s weak Watch integration show Apple-centric design; skeptics await proof that opening these APIs truly harms performance or security.
+
+- Regulation levels accessory access → expensive third-party earbuds and watches can receive conveniences previously reserved for Apple's hardware.
+- Integration has trade-offs → critics expect broader support burdens and less optimization; supporters blame proprietary interfaces for those costs.
+- Regional exclusivity frustrates users → commenters want the same choice outside the EU.
 
 ### LLM perspective
-- View: This shifts “it just works” from a brand moat toward a regulated baseline, at least for core pairing and notifications.
-- Impact: EU users gain accessory choice; third-party OEMs gain differentiation space; Apple must compete more on hardware, design, and services.
-- Watch next: Measure pairing reliability and battery impact, watch Apple’s compliance posture in EU vs rest-of-world, and track emerging open protocols mirroring these features.
+
+- View: Interoperability converts platform convenience from a product moat into shared infrastructure with explicit constraints.
+- Impact: Accessory makers can compete on hardware quality while EU users face lower switching friction.
+- Watch next: Compare pairing reliability, battery use, notification latency, security incidents, and first-party parity across certified devices.

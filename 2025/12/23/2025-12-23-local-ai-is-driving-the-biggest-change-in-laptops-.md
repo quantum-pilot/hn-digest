@@ -2,15 +2,18 @@
 
 - Score: 103 | [HN](https://news.ycombinator.com/item?id=46360856) | Link: https://spectrum.ieee.org/ai-models-locally
 
-- TL;DR
-    - Local AI still strains most laptops, so vendors are redesigning PCs around NPUs, unified memory, and OS-level runtimes to run models offline. Qualcomm, AMD, Intel and Microsoft’s Copilot+ / AI Foundry efforts chase more TOPS within tight power and memory budgets for assistants and media tools. Commenters argue some existing machines already manage local LLMs, mock the “unknown TOPS” line, and see “AI PCs” as largely unwanted marketing hype.
+### TL;DR
 
-- Comment pulse
-    - Apple laptops already run local LLMs well via unified memory and GPU; NPUs mainly improve efficiency—counterpoint: costly RAM and weaker models keep cloud attractive.
-    - The “no one knows TOPS needed” claim is ridiculed → FLOPs-per-token is straightforward to approximate; VRAM decides model size, TOPS mostly affects latency.
-    - Many distrust “AI PCs” → marketing oversells Copilot and NPUs; current AI features are cloud-based or useless to users—counterpoint: extra NPU silicon rarely harms anything.
+IEEE Spectrum argues local AI is pushing laptops toward stronger NPUs, faster unified memory, and tightly integrated CPU/GPU/NPU systems. These changes could improve privacy, latency, offline availability, and power efficiency, but may reduce repairability because processors and memory become inseparable. Windows is adding runtimes that route models across available accelerators. HN commenters dispute the article's novelty and precision, noting Apple Silicon already runs local models well, memory capacity often matters more than TOPS, and present AI-PC marketing exceeds practical demand.
 
-- LLM perspective
-    - View: Local LLMs will complement, not replace, cloud models; frontier-scale reasoning remains economically and technically centralized for years.
-    - Impact: Laptops adopt phone-like SoCs and unified memory, trading upgradeability for cooler, quieter systems that tolerate sustained AI background tasks.
-    - Watch next: Independent benchmarks comparing local vs cloud cost, latency, privacy for realistic workflows will reveal when AI PCs truly matter.
+### Comment pulse
+
+- Apple weakens the novelty claim → M-series unified memory has supported useful local inference for years, albeit at high-capacity prices.
+- Hardware balance matters → model fit depends heavily on memory, while TOPS mainly influences execution speed and efficiency.
+- Consumer demand is uncertain → commenters compare AI-PC branding to earlier technology hype and question battery-consuming features.
+
+### LLM perspective
+
+- View: AI accelerates an existing shift toward integrated, memory-rich systems rather than singlehandedly reinventing laptops.
+- Impact: Users may gain private inference but lose modular upgrades and economical repair paths.
+- Watch next: Compare local-model adoption, battery life, memory pricing, software utilization, repairability, and cloud-subscription economics.
