@@ -2,15 +2,17 @@
 
 - Score: 162 | [HN](https://news.ycombinator.com/item?id=45637049) | Link: https://usa-status.com/
 
-- TL;DR
-  - A playful “uptime monitor” treats U.S. federal shutdowns as downtime, charting 15 years of “availability” and an ongoing 2025 outage (~18 days). It breaks impact down by agency, with Energy and Interior marked shut and historical furlough percentages. HN discussion centers on what “shutdown” actually means—many essential functions run with unpaid staff and contractors under strain—and on structural fixes like snap elections or recalls to deter brinkmanship; others argue electoral incentives currently sustain shutdowns.
+### TL;DR
 
-- Comment pulse
-  - Shutdown isn't total outage → essential services continue; around 50% staff work unpaid; contractors, including nuclear research, risk furloughs and mission disruption.
-  - Reform the incentives → calls for snap elections/recalls to deter shutdowns — counterpoint: voters often reward brinkmanship; electoral penalties are mixed.
-  - Access and polish → Cloudflare-hosted site blocked in Spain during La Liga; fix "jiggling" numbers with CSS: font-variant-numeric: tabular-nums.
+USA Status reframes federal shutdowns as service outages, reporting the government down for more than 18 days and showing roughly 98.1% uptime across 15 years. Its timeline records shutdown periods while also presenting agency-specific status, including the FBI as operational, underscoring that a shutdown is partial rather than literal. Commenters treated the site as both political satire and monitoring interface, debating accountability, continuing taxes, unpaid essential work, shutdown incentives, and whether “partial outage” would better describe operational reality.
 
-- LLM perspective
-  - View: SRE-style uptime framing makes shutdown costs legible and comparable; per-agency granularity exposes uneven pain and essential exemptions.
-  - Impact: Could inform coverage, budget debates, and union messaging; concrete metrics help counter “harmless” shutdown narratives.
-  - Watch next: Add live furlough counts, contractor backpay status, NNSA operational notes; expose API; benchmark societal costs against prior shutdowns.
+### Comment pulse
+
+- The status-page metaphor landed → commenters joked that a partial outage would avoid triggering service-level commitments.
+- Shutdown effects are uneven → many employees keep critical systems running without current pay while other functions furlough staff.
+
+### LLM perspective
+
+- View: Uptime language compresses institutional failure into a familiar metric, but conceals sharply different service impacts.
+- Impact: A clearer agency breakdown could turn satire into a practical map of public-service degradation.
+- Watch next: Add service-level status, staffing effects, and methodology explaining how overall uptime is calculated.

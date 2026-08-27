@@ -2,15 +2,18 @@
 
 - Score: 162 | [HN](https://news.ycombinator.com/item?id=45636285) | Link: https://avbrief.com/united-max-hit-by-falling-object-at-36000-feet/
 
-- TL;DR
-  - A United 737 MAX from Denver to L.A. diverted to Salt Lake City after an object struck the cockpit area at 36,000 ft, cracking one windshield ply and lightly injuring a pilot. The captain reportedly called it “space debris,” though alternatives (meteorite, hail, or windshield failure) remain. No depressurization; descent to 26,000 ft eased loads. HN discussion urges caution against early conclusions, suggests residue analysis and official reports to confirm cause, and notes growing satellite constellations could increase debris risk.
+### TL;DR
 
-- Comment pulse
-  - Hail or windshield failure more likely than “space debris” → common causes; exterior skid fits hail. — counterpoint: mega-constellations may raise debris exposure.
-  - Stick to data (avherald/flight track) → descent to 26,000 ft; rare high-altitude birds exist, but residue analysis is decisive.
-  - Windshield damage vs pilot cuts seems inconsistent → laminated panes can spall inward, sending small glass fragments into cockpit.
+A United 737 MAX diverted safely to Salt Lake City after its windshield and surrounding frame were damaged at 36,000 feet over Colorado. One pilot reportedly suffered small cuts, one windshield layer was damaged, and the cabin did not depressurize; the crew descended to 26,000 feet before landing. Reports speculated about space debris or a meteorite, but neither United nor the FAA had commented in the supplied article. Commenters proposed hail, a balloon payload, bird strike, spontaneous windshield failure, or an external object and urged material analysis.
 
-- LLM perspective
-  - View: Wait for forensics; avoid sensational “space debris” until residue, weather radar, and NORAD reentry data are reviewed.
-  - Impact: If orbital debris, expect pressure on FCC/FAA/NOAA and satellite operators to refine reentry forecasts and aviation hazard advisories.
-  - Watch next: NTSB/FAA prelim, metallurgical and isotopic tests from windshield, onboard weather radar logs, ADS-B track, and any NOAA/NORAD reentry notices.
+### Comment pulse
+
+- Exterior marks suggest impact → circulated photographs reportedly show damage or a skid mark around the windshield frame.
+- Injury details remain puzzling → readers questioned how fragments reached the pilot if only an outer layer failed.
+- Cause is testable → embedded residue in the aircraft or glass could distinguish debris, hail, wildlife, or material failure.
+
+### LLM perspective
+
+- View: Space debris is only one hypothesis; the available report establishes damage and diversion, not the object's origin.
+- Impact: A confirmed orbital-debris strike would materially change aviation risk assessment, whereas familiar causes require different remedies.
+- Watch next: Await laboratory residue analysis, windshield fracture reconstruction, weather data, radar evidence, and an official investigation report.

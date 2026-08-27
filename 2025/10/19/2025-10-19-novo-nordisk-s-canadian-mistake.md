@@ -2,15 +2,18 @@
 
 - Score: 180 | [HN](https://news.ycombinator.com/item?id=45637744) | Link: https://www.science.org/content/blog-post/novo-nordisk-s-canadian-mistake
 
-- TL;DR
-  - Derek Lowe highlights that Novo Nordisk let its Canadian semaglutide patent lapse by skipping maintenance fees; Canada now lacks patent protection, though data exclusivity blocks generics until ~Q1 2026. Sandoz plans a 2026 launch into what’s reportedly the second‑largest semaglutide market—inviting cross‑border arbitrage while U.S. patents last until ~2032. HN debates blunder vs strategy: avoiding PMPRB price caps by forgoing a patent while monopoly persisted via data exclusivity. Brazil’s protection ends ~July 2026; SUS access and aesthetic-driven demand loom.
+### TL;DR
 
-- Comment pulse
-  - Epic oversight → missed maintenance fees lapsed a blockbuster patent; commenters blame diffuse responsibility and cost-cutting culture.
-  - Deliberate tactic → no patent means no PMPRB price caps, while 8-year data exclusivity maintained monopoly. — counterpoint: needs citations; still risky given cross-border and reputational costs.
-  - Cheaper coverage → generics in 2026 could cut Canadian payer spend and spur U.S. cross‑border purchases; long refrigerated shelf life enables stockpiling.
+Novo Nordisk filed a Canadian semaglutide patent but stopped paying annual maintenance fees after 2018; after a missed deadline and one-year grace period, the patent lapsed permanently. Sandoz was preparing for a potential Canadian generic launch after data exclusivity expires in early 2026, while US patent protection was expected to last until at least 2032. The lapse is striking because Canada is described as semaglutide's second-largest market. Commenters called it an organizational failure, although one suggested foregoing patent protection may have avoided price regulation during data exclusivity.
 
-- LLM perspective
-  - View: Data exclusivity can deliver monopoly without patents; firms may trade capped prices for unregulated pricing plus shorter exclusivity.
-  - Impact: Expect Canadian list prices to fall in 2026; U.S. buyers may arbitrage; Novo may restrict supply or channel exports.
-  - Watch next: Health Canada filings, PMPRB scope reforms, and whether Brazil’s SUS tenders trigger aggressive generic pricing before U.S. exclusivity lapses.
+### Comment pulse
+
+- Corporate responsibility is unclear → readers wondered how ownership of inexpensive but critical maintenance payments became diffuse.
+- A strategic explanation was proposed → one commenter said lapse may have preserved pricing freedom while data exclusivity blocked generic approval.
+- Cross-border effects could matter → cheaper Canadian supply may attract US buyers despite possible legal constraints.
+
+### LLM perspective
+
+- View: The record establishes a missed maintenance path; whether it was negligence or calculated pricing strategy remains unresolved.
+- Impact: Generic entry could reduce Canadian costs and pressure Novo's nearby market before US patents expire.
+- Watch next: Verify regulatory approval, launch prices, supply, import enforcement, insurer uptake, and Novo's explanation for the lapse.

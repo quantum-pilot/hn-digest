@@ -2,15 +2,18 @@
 
 - Score: 358 | [HN](https://news.ycombinator.com/item?id=45633482) | Link: https://the-decoder.com/leading-openai-researcher-announced-a-gpt-5-math-breakthrough-that-never-happened/
 
-- TL;DR
-  - OpenAI managers briefly claimed GPT-5 had solved multiple Erdős problems; mathematician Thomas Bloom clarified they were already solved and “open” on his site meant unknown to him. After public criticism (including Demis Hassabis), posts were retracted. The flap highlights hype-prone lab comms and how quote‑tweet context can mislead. The substantive takeaway: GPT‑5 usefully surfaced prior literature—helpful for research triage when humans verify sources—rather than generating new proofs. Terence Tao similarly frames near‑term AI value as accelerating searches, not cracking deep open problems.
+### TL;DR
 
-- Comment pulse
-  - Ambiguous context defense → quote‑tweet chain framed “found solutions” as literature retrieval, not proofs — counterpoint: Weil admitted misunderstanding; “previously unsolved” wording was incorrect.
-  - LLM as literature assistant works → can surface cross‑field, obscure papers; verify links to filter hallucinations.
-  - LLMs overhyped → pattern of premature claims (e.g., DeepMind matrix‑mult); incentive and culture push sensational announcements.
+OpenAI staff claimed GPT-5 had solved ten previously unsolved Erdős problems and advanced eleven more, then deleted or corrected posts after mathematician Thomas Bloom explained that “open” on his database sometimes meant he did not know an existing solution. GPT-5 had surfaced overlooked literature rather than created new proofs. The episode drew criticism for unverified hype but also highlighted potential value in finding scattered research. Commenters disputed whether quote-thread context softened the error and whether hallucination rates make model-assisted literature review genuinely useful.
 
-- LLM perspective
-  - View: Treat LLMs as high‑recall, low‑precision research assistants; require human verification and provenance‑first UIs.
-  - Impact: Stronger comms reviews at labs; more emphasis on retrieval, citation, and retraction tooling in AI products.
-  - Watch next: Benchmarks for literature‑grounded retrieval, link accuracy rates, and releases of semantic‑search+RAG tools with audit trails.
+### Comment pulse
+
+- Wording changed the claim → “listed as open” permits an unknown prior solution; “previously unsolved” asserts a breakthrough.
+- Search value is conditional → some researchers find obscure papers, while others report convincing fabricated citations and costly verification.
+- Expert review remains essential → retrieved papers and summaries must be checked before incorporating them into mathematics.
+
+### LLM perspective
+
+- View: Literature discovery is meaningful assistance, but presenting retrieval as theorem proving destroys the distinction needed to evaluate progress.
+- Impact: Premature claims erode trust in both AI labs and legitimate machine-assisted mathematical work.
+- Watch next: Require source-linked evidence, independent mathematician review, correction logs, and separate benchmarks for retrieval and novel proof.

@@ -2,15 +2,18 @@
 
 - Score: 173 | [HN](https://news.ycombinator.com/item?id=45633453) | Link: https://demo.duckui.com
 
-- TL;DR
-  - Duck-UI is a browser-based, self-hostable SQL IDE for DuckDB that runs locally (WASM), supports custom charts, and keeps data on-device. HN compares it with DuckDB’s official web UI: the default is simpler and auto-profiles columns, but isn’t self-hosted/offline and lacks flexible charting. Users report strong production experience with DuckDB on terabytes and praise WASM for sub-200ms local queries. Feedback requests grid virtualization and UX fixes, integration via FlightSQL/Arrow IPC, and possibly adopting Perspective for charting; vector types remain experimental.
+### TL;DR
 
-- Comment pulse
-  - Auto‑profiling panel → built-in UI’s per‑column histograms often replace simple queries; Duck-UI emphasizes custom charts but lacks that one-click profiling.
-  - Client‑side performance → WASM keeps compute local, reducing latency; teams process terabytes; vector types experimental — counterpoint: local compute doesn’t help when data lives remote.
-  - UX and integrations → request infinite grid, selected-cell panel, better dropdown/menu behavior, dark-mode tooltips; add FlightSQL/Arrow IPC ingestion; consider Perspective for charting.
+Duck-UI is a browser-based SQL IDE for DuckDB that stores profiles locally and claims fully client-side, offline operation without sending data to servers. Commenters compared it with DuckDB's embedded UI: Duck-UI offers custom charts and privacy advantages, while the official interface has convenient automatic column graphs. Early Firefox testing found limits and bugs involving 200-row grids, value inspection, filter focus, menus, resizing, tooltips, and sidebar sizing. Discussion also highlighted DuckDB-WASM's potential for low-latency local analytical applications.
 
-- LLM perspective
-  - View: Local browser SQL IDEs are viable for serious analytics; reduce server dependencies and improve data privacy.
-  - Impact: Beneficiaries: analysts handling CSV/Parquet, startups needing quick BI, enterprises with strict data-egress policies.
-  - Watch next: Measure WASM vs native throughput, add FlightSQL/Arrow, stabilize vector types, and benchmark Perspective-based charts on large datasets.
+### Comment pulse
+
+- Local execution is the differentiator → browser-side processing can protect data and continue without a hosted backend.
+- Built-in UI sets expectations → automatic column summaries and large-result handling are features users already value.
+- Detailed testing found polish gaps → the creator accepted nine concrete Firefox issues for review.
+
+### LLM perspective
+
+- View: A local analytical IDE is compelling when it combines privacy with the ergonomics users expect from desktop data tools.
+- Impact: Analysts can inspect large local files without upload latency, server provisioning, or external data exposure.
+- Watch next: Add virtualized rows, structured-value inspection, accessible chart tooltips, stable filters, and comparative performance tests.
