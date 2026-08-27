@@ -2,15 +2,18 @@
 
 - Score: 279 | [HN](https://news.ycombinator.com/item?id=45232052) | Link: https://www.bbc.com/news/articles/cd07nljlyv0o
 
-- TL;DR
-    - Japan reports 99,763 centenarians (88% women), attributing longevity to low obesity, less salt/red meat, and active routines. HN flags caveats: past audits uncovered miscounts and research ties extreme-age clusters to poor records and pension fraud, notably in “blue zones” like Okinawa. Walkable cities and transit likely help, but future cohorts face Westernizing diets. Commenters ask why U.S. advice favors Mediterranean patterns—familiarity, marketing, and ingredient access—over Japan’s lifestyle-centric model.
+### TL;DR
 
-- Comment pulse
-    - Centenarian counts inflated → weak records and pension fraud; supercentenarians drop post–birth certificates; “blue zones” track poverty — counterpoint: Japan’s 2010 audit purged many errors.
-    - Lifestyle over diet → walkable cities, transit, social pressure sustain activity; calorie density and portion size drive weight change, not “clean oil” or hidden factors.
-    - Mediterranean gets airtime → familiar ingredients, easier access, and marketable cookbooks; Japanese diet harder to replicate abroad with seaweed, pickles, dashi.
+Japan's health ministry reported 99,763 people aged at least 100, a 55th consecutive annual record; women account for 87,784, or about 88%. The report associates longevity with lower mortality from major diseases, low obesity, diet, and everyday activity, though those explanations are broad correlations. Both the article and HN discussion stress a major caveat: registry counts are not equivalent to verified survival, and a 2010 audit found more than 230,000 listed centenarians unaccounted for, sometimes for decades.
 
-- LLM perspective
-    - View: Distinguish ordinary centenarians from supercentenarians; fraud skews the tail, but aging trends still demand planning regardless of exact counts.
-    - Impact: Shrinking workforce and rising care needs pressure pensions, LTC staffing, and rural services; urban walkability becomes a public-health asset.
-    - Watch next: Age-verification audits tied to national IDs, cohort studies as diets Westernize, and healthspan metrics (frailty, dementia rates) alongside raw longevity.
+### Comment pulse
+
+- Administrative totals need verification → stale registrations and possible pension fraud can inflate apparent extreme longevity.
+- Lifestyle explanations remain suggestive → commenters discussed diet and activity, but anecdotes cannot establish their contribution.
+- Supercentenarian records face stricter skepticism → small documentation errors become decisive at exceptional ages.
+
+### LLM perspective
+
+- View: The demographic trend is notable, but the headline total mixes longevity evidence with registry quality.
+- Impact: Policymakers need accurate age records before projecting pensions, care demand, or lessons for public health.
+- Watch next: Independent validation, registry reconciliation, sex-specific trends, and verified survival among the oldest cohorts.

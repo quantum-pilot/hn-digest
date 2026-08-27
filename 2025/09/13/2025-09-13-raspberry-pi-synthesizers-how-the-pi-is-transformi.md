@@ -2,15 +2,17 @@
 
 - Score: 134 | [HN](https://news.ycombinator.com/item?id=45229227) | Link: https://www.gearnews.com/raspberry-pi-synthesizers-how-the-pi-is-transforming-synths/
 
-TL;DR
-- Raspberry Pi modules now power many digital synths, from Korg’s Wavestate/Modwave/Opsix to DIY/open boxes like Zynthian, Organelle, and GR‑1. Manufacturers gain cheap, integrated CPU/RAM/storage; software does the heavy lifting, so it isn’t “cheating.” HN notes modern Pis deliver ample DSP (NEON, multi‑core) for 96 kHz, high‑polyphony work, making legacy DSP chips unnecessary and cutting BOM costs. Still, audio has hard real‑time constraints—Linux reliability and scheduling guarantees matter. Mobile and DIY ecosystems further lower barriers, rivaling dedicated hardware.
+### TL;DR
 
-Comment pulse
-- Pi has ample DSP for complex synths → NEON FMAs and four cores yield ~10 GFLOPS; 96 kHz/32-voice leaves thousands of ops per note.
-- Dedicated DSPs are fading → modern SBCs are faster/cheaper; porting saved ~$9 BOM, enabling ~$50 lower retail. — counterpoint: Linux gaps risk pops; consider RTOS.
-- Tools and alternatives simplify creation → RNBO deploys patches to Pi; iOS apps + Bluetooth MIDI rival hardware; Pico/MeeBlip show fun low-cost DIY paths.
+Synth makers are using Raspberry Pi hardware to replace some custom computing work, lowering component and development costs while retaining instrument-specific software, controls, boards, and enclosures. The article cites Korg’s Compute Module-based Wavestate, Modwave, and Opsix; open-source Zynthian; Organelle; GR-1; and smaller embedded roles such as Bullfrog’s RP2040. Commenters clarified that full Raspberry Pi computers and RP2040 microcontrollers are materially different, debated Linux versus bare-metal firmware, and praised the platform’s flexibility for DIY and commercial audio systems.
 
-LLM perspective
-- View: Pi commoditizes synth guts; differentiation shifts to sound design, UI latency, durability, and long-term software support.
-- Impact: Lower BOM accelerates mid-tier gear and boutique DIY; pressure increases on legacy DSP vendors and analog-only marketing.
-- Watch next: PREEMPT_RT maturity, Pi CM supply, low-latency HAT drivers, and Pi 5 vs custom DSP benchmarks in production gear.
+### Comment pulse
+
+- Owners described Zynthian as a versatile studio toolbox spanning synthesizers, effects, piano simulation, drums, and MIDI processing.
+- Several commenters corrected hardware distinctions and added omitted Pi-based instruments, including MiniDexed and Monome Norns.
+
+### LLM perspective
+
+- View: Commodity compute shifts differentiation from processor design toward software, interfaces, reliability, and instrument ergonomics.
+- Impact: Shared hardware can lower costs and expand hackability without making finished synthesizers trivial to reproduce.
+- Watch next: Pi 5 adoption, low-latency firmware choices, JUCE ports, repairability, and long-term module availability.

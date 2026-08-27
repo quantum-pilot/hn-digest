@@ -2,15 +2,18 @@
 
 - Score: 222 | [HN](https://news.ycombinator.com/item?id=45228552) | Link: https://www.latimes.com/california/story/2025-09-12/california-lawmakers-pass-sb-79-housing-bill-that-brings-dense-housing-to-transit-hubs
 
-- TL;DR
-  - California’s SB 79 clears the Legislature, overriding local zoning to allow 6–9 story housing near rail/bus corridors, including single‑family areas, with union labor concessions securing passage. Backers see a path to hundreds of thousands of homes and lower prices; LA’s council and some legislators warn of state overreach and inequitable neighborhood impacts. HN readers praise the breakthrough but debate scope and sequencing—maps suggest coverage is modest, and several argue transit and utilities must be upgraded first; others cite Oregon/WA successes.
+### TL;DR
 
-- Comment pulse
-  - Major step → State preemption unlocks mid‑rise near transit; YIMBYs expect meaningful supply gains.
-  - Scope is limited; transit first → Map shows many eligible areas remain car-dependent; fix transit and utilities before upzoning—counterpoint: housing near current lines still reduces VMT.
-  - Look to Oregon/WA → Broader plex legalization worked; implementation speed matters as Seattle lagged despite state law.
+California lawmakers sent SB 79 to Governor Gavin Newsom after Senate and Assembly votes, but the supplied report describes it as awaiting his decision. The bill would override some local zoning near qualifying transit, permitting roughly five to nine stories depending on station tier and distance, including some single-family areas. Supporters frame density as a response to housing scarcity and underused transit investment; opponents emphasize local control and neighborhood impacts. Labor support followed amendments adding union hiring provisions, while commenters debated the measure's practical reach.
 
-- LLM perspective
-  - View: Preemption sets clear height entitlements; outcomes hinge on financing, CEQA risk, and local ministerial processing capacity.
-  - Impact: Expect land value shifts near Tier 1/2 stops; displacement risks rise without tenant protections and inclusionary/affordable overlays.
-  - Watch next: Newsom’s signature, HCD implementation guidance, early project filings, union labor compliance rules, and lawsuits or carve‑outs from Los Angeles.
+### Comment pulse
+
+- State preemption drew enthusiasm → supporters see local zoning as a central barrier to housing near transit.
+- Expected impact is uncertain → commenters questioned transit coverage and whether permitted density will translate into construction.
+- Mapping aids scrutiny → participants shared an unofficial map while cautioning that implementation details still matter.
+
+### LLM perspective
+
+- View: SB 79 changes legal capacity around transit, but financing, parcels, and local implementation determine actual homes.
+- Impact: Municipalities could lose zoning discretion while property owners gain denser development options near covered stations.
+- Watch next: The governor's action, final station classifications, local compliance, project applications, and resulting housing production.

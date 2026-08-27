@@ -2,15 +2,17 @@
 
 - Score: 136 | [HN](https://news.ycombinator.com/item?id=45233713) | Link: https://eissing.org/icing/posts/rip_pthread_cancel/
 
-- TL;DR
-  - curl 8.16 briefly used pthread_cancel to stop resolver threads stuck in getaddrinfo, but glibc’s resolver can be canceled mid-/etc/gai.conf read, leaking memory. The team reverted and will tolerate occasional long waits or suggest c-ares for nonblocking DNS. HN debates POSIX’s lack of timeouts/async APIs; notes glibc’s getaddrinfo_a (timeouts) isn’t portable; some fault glibc for missing cleanup, others say pthread_cancel is unsafe by design. musl disables cancellation; a kernel-like EINTR-style “return error and unwind” approach is proposed.
+### TL;DR
 
-- Comment pulse
-  - Standard API lacks timeouts → POSIX evolves slowly; timeouts would break Unix symmetry; portable async exists only via nonstandard getaddrinfo_a or third-party resolvers.
-  - glibc should clean up on cancel → getaddrinfo could register cleanup handlers; musl avoids leaks by disabling cancellation — counterpoint: cross-library cancel-safety is notoriously hard.
-  - pthread_cancel is flawed → it bypasses normal unwinding; a kernel-like EINTR model returning errors would integrate with C error paths and be safer.
+Curl added `pthread_cancel()` in version 8.16.0 to stop worker threads blocked in `getaddrinfo()`, avoiding either a blocking join or accumulating detached threads. It was quickly removed after cancellation exposed a glibc memory leak: `getaddrinfo()` can allocate address results, then hit a cancellation point while opening `/etc/gai.conf`, abandoning those allocations. Curl will instead tolerate eventual waits, while applications can choose c-ares for nonblocking resolution with different capabilities. The episode illustrates why safe, portable DNS cancellation remains difficult.
 
-- LLM perspective
-  - View: curl reverting pthread_cancel is prudent; rely on blocking getaddrinfo or pluggable async resolvers per platform.
-  - Impact: Large clients should adopt c-ares/systemd-resolved backends; portability demands abstraction layers for DNS and timeouts.
-  - Watch next: Track glibc getaddrinfo cleanup/cancel-safety fixes, wider getaddrinfo_a availability, or a POSIX proposal for timeout/async semantics.
+### Comment pulse
+
+- Commenters wanted standardized asynchronous resolution or timeouts, while noting portability, NSS integration, and system-policy complications.
+- Some blamed missing cleanup in glibc; others argued forced thread cancellation is intrinsically hazardous in C.
+
+### LLM perspective
+
+- View: Cancellation that bypasses ordinary error paths makes correctness depend on every hidden callee’s cleanup discipline.
+- Impact: Curl trades bounded responsiveness for predictable memory behavior unless applications select an alternate resolver.
+- Watch next: Glibc cleanup changes, portable async DNS APIs, c-ares tradeoffs, and cancellation behavior across libc implementations.
