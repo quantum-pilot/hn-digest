@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-GitHub will change Actions pricing in 2026: standard hosted-runner rates fall by as much as 39% on January 1, while self-hosted runners used for private repositories incur a $0.002-per-minute cloud-platform charge from March 1. That usage consumes included plan minutes; public repositories and GitHub Enterprise Server are exempt, and free quotas stay unchanged. GitHub projects no bill change for 96% of customers and decreases for most affected accounts, but some self-hosted users will newly pay GitHub for orchestration running on their own hardware.
+GitHub announced a $0.002-per-job-minute platform fee for self-hosted Actions runners in private repositories starting March 1, 2026, offset by up to 39% lower hosted-runner prices from January. Public-repository jobs and Enterprise Server remain free, and self-hosted usage can consume plan allowances. GitHub says 96% of customers will see no billing change; among affected users, most will pay less, while the minority facing increases sees a reported $13 median. Commenters disputed whether orchestration and logging justify charging on customer hardware.
 
 ### Comment pulse
 
-- Many called charging for customer-owned compute lock-in rent — counterpoint: GitHub still supplies orchestration, logs, caches, and result storage.
-- Readers considered Forgejo and GitLab, though discussion noted migration costs and competing platforms’ own pricing constraints.
-- Several cost estimates incorrectly treated idle machines as billable; the announcement describes per-minute runner usage for private-repository jobs.
+- Critics saw proprietary platform dependence becoming lock-in and revisited GitLab, Forgejo, and other alternatives.
+- Defenders noted scheduling, logs, caches, and result storage have costs even when compute is customer-owned.
+- A $1,051 yearly calculation assumed continuous billable jobs, not merely an idle runner; commenters questioned that distinction.
 
 ### LLM perspective
 
-- View: The change redistributes Actions revenue: cheaper hosted compute, newly metered private self-hosted orchestration.
-- Impact: Most bills stay flat or fall, but principle-sensitive self-hosters gain a migration incentive.
-- Watch next: Billing definitions, included-minute treatment, enterprise discounts, and whether GitHub revises the policy.
+- View: The controversy is about pricing control and switching costs more than the two-tenths-cent rate alone.
+- Impact: High-volume private CI users must compare allowances, hosted discounts, migration expense, and alternative orchestration.
+- Watch next: Audit actual job minutes, model both rate changes, and verify billing behavior before redesigning infrastructure.

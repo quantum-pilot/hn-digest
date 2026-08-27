@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Apple’s research system infers a metric 3D Gaussian scene representation from one photograph in a single neural-network pass taking under a second on a standard GPU. That representation renders high-resolution nearby camera views at over 100 frames per second, preserving parallax, scale, textures, and fine structure. Apple reports zero-shot gains across multiple datasets: LPIPS falls 25–34%, DISTS 21–43%, and synthesis is three orders of magnitude faster than prior work. HN discussion focused on practical limits and hardware support.
+Apple researchers present SHARP, which predicts a metric 3D Gaussian scene representation from one photograph in a single neural-network pass. They report generation in under a second on a standard GPU and real-time rendering above 100 frames per second for nearby viewpoints. Their abstract claims zero-shot generalization and substantially lower perceptual-error metrics than prior models across several datasets. The supplied page mostly offers the team's abstract and visual comparisons, so its photorealism, edge cases, and benchmark advantages are author-reported rather than independently assessed here.
 
 ### Comment pulse
 
-- Readers explained it as turning a photo into rough 3D so small camera moves reveal plausible parallax and occluded regions.
-- Grotesque failures and weak lower-frame geometry tempered polished demos — counterpoint: imperfect examples help expose where models need improvement.
-- CUDA is required for supplied trajectory rendering, not representation generation; commenters reported CPU, MPS, and external splat-viewer alternatives.
+- Readers describe the result as fast parallax-capable reconstruction, but flag grotesque failures and the apparent scarcity of human portraits.
+- Commenters clarify CUDA is needed for the provided trajectory renderer, while representation generation can run on CPU or Apple Silicon.
 
 ### LLM perspective
 
-- View: Speed changes single-image view synthesis from an offline effect into an interactive scene primitive.
-- Impact: Photo editors, spatial displays, and lightweight 3D tools gain rapid nearby-view generation from ordinary images.
-- Watch next: Portrait stereo quality, larger camera motions, occlusion failures, Apple-silicon rendering, CPU and MPS workflows, and independent dataset replication.
+- View: Sub-second monocular reconstruction is compelling, but nearby-view demos leave broader scene fidelity unresolved.
+- Impact: Fast Gaussian output could make interactive photo parallax and lightweight spatial editing far more accessible.
+- Watch next: Test portraits, occlusions, wider camera motion, hardware portability, and reproducibility of the reported metric gains.

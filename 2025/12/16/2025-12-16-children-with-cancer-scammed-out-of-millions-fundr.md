@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-A BBC investigation found 15 families of children with cancer who said fundraising campaigns used their stories but delivered little or no money. Nine families linked to one apparent network said none of roughly $4 million displayed as raised reached them. Reporting documents staged scenes, scripts, false prognoses, local filming fees, campaigns that remained live after deaths, and links among several organizations; the BBC identifies Erez Hadari as a key figure, while most named parties did not substantively respond. Exact totals could not be independently confirmed.
+A BBC investigation identified 15 families whose sick children appeared in emotionally staged fundraising campaigns but allegedly received little or none of the donations. Nine families tied to one network say they received nothing from campaigns displaying about $4 million raised. Reporters traced linked organizations and productions across several countries to Erez Hadari, who largely did not answer detailed allegations; displayed totals were not independently verified, though test donations increased them. Some campaigns continued accepting money after children died.
 
 ### Comment pulse
 
-- Readers praised the BBC’s field reporting and family interviews, while warning against extending its findings through unverified amateur identification.
-- Several blamed ad platforms for weak scam enforcement and misaligned incentives around paid promotion.
-- Some traced vulnerability to unaffordable treatment — counterpoint: structural desperation does not lessen deliberate exploitation by fundraisers.
+- Commenters praised the BBC’s cross-border reporting but warned against amateur online investigations misidentifying accused people.
+- Crowdfunding for unaffordable or experimental treatment creates vulnerability, while deceptive organizers remain responsible for industrializing it.
+- Repeated scam ads prompted anger at YouTube, whose advertising revenue was viewed as conflicting with effective enforcement.
 
 ### LLM perspective
 
-- View: The strongest evidence is the families’ testimony, staged filming, and cross-border links documented by the BBC.
-- Impact: Fraudulent campaigns divert donations, retraumatize families, and corrode trust in legitimate medical appeals.
-- Watch next: Regulator findings, payment trails, platform takedowns, victim restitution, and responses from named organizations.
+- View: The scheme allegedly exploited both family desperation and donor compassion through professionalized production and opaque accounting.
+- Impact: Victims lose treatment funds, while exposed donors may distrust legitimate medical campaigns and charities.
+- Watch next: Regulators should trace payment flows, advertising spend, organizational control, platform records, and remaining live donation pages.

@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Koi Security reports that eight Chrome and Edge extensions from Urban VPN’s publisher, installed by more than eight million users, captured AI chats. Injected scripts reportedly intercepted prompts, responses, timestamps, identifiers, and model metadata across major assistants, then sent compressed records to Urban servers even when VPN or protection features were off. Koi says collection arrived in a default-enabled July 2025 update, was disclosed misleadingly as protective functionality, and was connected to affiliated data broker BiScience. Uninstalling was the only opt-out.
+Koi Security says eight Chrome and Edge extensions from Urban VPN’s publisher intercepted prompts and responses across major AI services, even when VPN or warning features were disabled. Its code analysis dates default harvesting to July 2025 and alleges compressed conversations were sent to Urban VPN infrastructure, then shared for marketing analytics. More than eight million installations were exposed, though that count is not proof every user generated captured chats. Featured-store badges and silent auto-updates amplified the trust failure.
 
 ### Comment pulse
 
-- Readers favored runtime, site-specific permissions and clearer exfiltration controls over broad install-time consent that silently survives extension updates.
-- Mozilla’s reviewed-extension program drew praise — counterpoint: Urban VPN also passed manual review, and reviewers may not inspect every update.
-- Commenters warned that corporate registration and polished legal pages reveal little about an extension operator’s actual incentives.
+- Commenters favored continuous human review, but noted large compiled extensions and dependency chains make manual inspection difficult.
+- The permission model drew criticism for granting broad persistent access without granular sites, runtime prompts, or renewed consent after updates.
+- Urban VPN’s corporate registrations looked legitimate to some; others said virtual addresses and its data-broker affiliation were stronger warning signs.
 
 ### LLM perspective
 
-- View: Browser extension permissions remain dangerously coarse for tools able to observe authenticated web sessions.
-- Impact: Silent chat capture can expose personal, professional, and proprietary information at mass scale.
-- Watch next: Store removals, regulator action, publisher response, affected versions, and browser permission redesigns.
+- View: Store badges cannot substitute for behavioral monitoring when trusted extensions can change capabilities through automatic updates.
+- Impact: Captured chats may expose medical, financial, personal, and proprietary information far beyond ordinary browsing history.
+- Watch next: Google and Microsoft responses, extension removals, server-data deletion, user notification, and independent confirmation of Koi’s findings.

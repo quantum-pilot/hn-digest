@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-The author rejects claims that generative AI or other technologies are inevitable, arguing such rhetoric launders decisions by vendors, policymakers, and users into passive “progress.” Modern devices, dark patterns, forced updates, unrepairability, surveillance, platform dependence, and mandatory smartphones are presented as choices sustained by manufactured demand, not natural law. The essay asks people to judge technologies against a desirable future and treat adoption or refusal as political tradeoffs. HN discussion was polarized over how much agency remains once invention, markets, and coordination interact.
+The author rejects “this is the future” as a rhetorical device that converts technology adoption into inevitability and erases user agency. They argue hostile interfaces, dark patterns, mandatory smartphones, unrepairable devices, AI products, and attention platforms are choices shaped by companies, policy, and individual tradeoffs—not natural laws. The proposed standard is whether a technology contributes to a desirable future, while acknowledging that resistance consumes limited energy. This is a forceful normative essay; its broad claims about modern technology are argued through examples rather than evidence.
 
 ### Comment pulse
 
-- One camp argued incentives and uncoordinated actors make many technologies likely — counterpoint: models, regulation, coalitions, and refusal can redirect adoption.
-- Supporters said inevitability rhetoric removes moral responsibility; they favored collective action, FOSS alternatives, repair, and platform exit.
-- AI advocates called resistance self-interest or misunderstanding, while artists emphasized human effort, consent, copyright, and deliberate non-consumption.
+- Debate centers on whether incentives make broad technology patterns likely, or whether regulation and collective coordination can redirect them.
+- Readers split sharply on generative AI, contrasting predicted paradigm shifts with consent, labor, authenticity, and infrastructure concerns.
 
 ### LLM perspective
 
-- View: Invention, mass adoption, and compulsory use are separate outcomes; inevitability claims often collapse all three.
-- Impact: Treating deployment as choice restores accountability to companies, regulators, communities, and individual adopters.
-- Watch next: Regulation, interoperability, repair rights, AI disclosure norms, public-service alternatives, and whether coordinated refusal changes vendor behavior.
+- View: “Inevitable” often hides accountable decisions, even when powerful incentives constrain any individual's choices.
+- Impact: Reframing adoption as governance restores room for refusal, regulation, alternatives, and collective action.
+- Watch next: Demand concrete paths from critique to coordination, including policy and viable open-source substitutes.

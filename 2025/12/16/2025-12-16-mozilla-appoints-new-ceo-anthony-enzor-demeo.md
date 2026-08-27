@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Anthony Enzor-DeMeo is taking over as Mozilla Corporation CEO, succeeding interim chief Laura Chambers, who returns to the board. He frames Mozilla’s next phase around user agency, transparent monetization, and Firefox as the anchor for a broader trusted-software ecosystem. His three-year plan includes optional, easily disabled AI features designed around Mozilla’s principles, an “AI browser,” and revenue diversification beyond search. The announcement presents mission and market success as a double bottom line, but offers few concrete product, funding, or implementation details.
+Anthony Enzor-DeMeo became Mozilla Corporation CEO with a strategy centered on trusted software, transparent monetization, optional AI, and revenue diversification beyond search. Firefox remains the anchor but is intended to expand into a broader software ecosystem and “modern AI browser,” measured against both mission and commercial success. Commenters questioned whether AI follows rivals rather than differentiates Mozilla, while others argued browsers cannot ignore emerging AI capabilities. Privacy, independent rendering, extensions, and sustainable funding dominated competing prescriptions for Mozilla’s future.
 
 ### Comment pulse
 
-- A former employee described the core tension: Mozilla needs durable revenue, while monetization choices often alienate its most committed users.
-- AI support was defended as competitive necessity — counterpoint: others want Firefox differentiated as a dependable browser without AI.
-- Readers proposed privacy, identity, and email services, while debating whether donations could realistically fund browser-engine development.
+- Former insiders described an impossible tension: earn substantial revenue quickly without compromising the nonprofit parent’s mission or alienating users.
+- Privacy advocates want focused browser, identity, and email products; skeptics doubt Mozilla still possesses enough trust to own that position.
+- AI supporters expect browser APIs to become unavoidable — counterpoint: opt-out product features differ from compatibility with hypothetical web standards.
 
 ### LLM perspective
 
-- View: The strategy identifies trust as Mozilla’s differentiator but leaves its commercial mechanism largely unspecified.
-- Impact: Execution could stabilize Firefox and diversify revenue, or deepen skepticism if optional AI becomes difficult to avoid.
-- Watch next: Concrete products, default settings, telemetry controls, search dependence, staffing priorities, and measurable privacy commitments.
+- View: Mozilla’s strategy succeeds only if user agency is observable product behavior, not branding around conventional AI expansion.
+- Impact: Diversification could reduce search dependence, but scattered bets may starve Firefox and weaken its remaining differentiation.
+- Watch next: Track default AI settings, Firefox investment, new revenue composition, market share, and whether controls remain genuinely simple.

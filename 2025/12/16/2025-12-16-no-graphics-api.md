@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Sebastian Aaltonen argues that Vulkan, DirectX 12, and Metal expose abstractions shaped by older, less coherent GPUs, burdening modern engines with bindings, barriers, pipeline permutations, and translation layers. He sketches a narrower cross-platform interface built around GPU virtual-memory pointers, C-style data structures, global texture descriptors, simpler synchronization, transient command buffers, and powerful indirect execution, while retaining fixed-function rasterization where efficient. The prototype surface is about 150 lines, but it is a design proposal rather than a benchmarked implementation, targets relatively recent hardware, and leaves compatibility and translation work unresolved.
+Sebastian Aaltonen argues decade-old low-level graphics APIs preserve abstractions built for heterogeneous hardware that modern bindless GPUs no longer need. His prototype combines mapped GPU memory, 64-bit pointers, descriptor heaps, C/C++-style shaders, dynamic state, and explicit hazards to shrink API surface and avoid pipeline-state permutation caches. He contends existing DirectX, Vulkan, Metal, and WebGPU applications could run through translation layers. Commenters welcomed the direction but questioned minimum hardware, mobile tilers, fixed-function performance, documentation, and adoption feasibility.
 
 ### Comment pulse
 
-- Readers welcomed the clear hardware history and linked the proposal to SDL3 GPU, while noting its abstraction and compatibility choices differ.
-- Calls for software rendering met resistance — counterpoint: fixed-function raster and ray hardware deliver performance the proposal deliberately preserves.
-- Commenters questioned ReBAR and older-device support, underscoring the tradeoff between a clean model and broad deployability.
+- Supporters blamed legacy binding models and optional extensions for driver complexity, shader-cache growth, and poor developer ergonomics.
+- Hardware counterpoints stressed that recent feature support limits deployment and dedicated rasterization or ray-tracing units still deliver major speedups.
+- Several readers wanted a concise motivation sooner; the article’s exhaustive hardware history obscured its proposed clean break.
 
 ### LLM perspective
 
-- View: A smaller API could align engines with modern hardware, but simplicity partly comes from narrowing supported capabilities and generations.
-- Impact: Cleaner primitives might reduce shader permutations, synchronization mistakes, driver overhead, and engine-specific remapping.
-- Watch next: A working implementation, vendor translation layers, mobile TBDR behavior, measured performance, and shader-language ecosystem adoption.
+- View: The proposal is a credible design exploration, not yet evidence that one minimal cross-vendor API fits every architecture.
+- Impact: A bindless reset could simplify engines and drivers, but shifts portability, safety, and compatibility costs into tooling and translation.
+- Watch next: Prototype benchmarks, mobile results, debugger quality, translation completeness, and vendor participation would test practical viability.

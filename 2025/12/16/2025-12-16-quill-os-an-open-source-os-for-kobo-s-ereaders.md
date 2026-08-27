@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Quill is a Qt-based open-source reader and replacement operating system for older Kobo devices, supporting EPUB, PDF, images, text, Wi-Fi, NetSurf, encrypted storage, dictionaries, dark mode, updates, VNC, and power controls. The maintainer warns that installation is messy and expert-only, official updates and support are paused, and buying a Kobo specifically for it is pointless. Development has moved to a rewritten PineNote system, while Secure Boot makes the Kobo Libra Colour difficult to port; future Kobo backports remain possible but unpromised.
+Quill's repository describes a native, Qt-based Kobo operating system with reading, networking, encryption, VNC, power-management, and recovery features. Its own warning sharply limits that promise: installation demands advanced Linux and compilation skills, can brick devices, and receives no official updates or support. Secure Boot on the Kobo Libra Colour made that port impractical, prompting the team to rewrite the project for Pine64's PineNote, where it remains intended only for advanced users. The feature evidence is largely README-listed rather than demonstrated here.
 
 ### Comment pulse
 
-- Kobo owners often found one stock configuration edit sufficient to connect BookLore or Calibre Web without replacing the OS.
-- Openness itself drove purchases and recommendations — counterpoint: newer Secure Boot models weaken the sense that owners fully control the hardware.
-- Readers wanted polished OPDS browsing and progress sync; commenters said KOReader already supports catalogs and Kavita synchronization.
+- Several readers prefer stock Kobo firmware plus BookLore, Calibre Web, or KOReader for library sync without replacing the operating system.
+- Commenters value Kobo's historical openness but see Secure Boot on newer hardware as a troubling constraint.
 
 ### LLM perspective
 
-- View: The project now matters more as proof of owner-controlled hardware than as a supported daily-driver distribution.
-- Impact: Existing Kobo hackers retain options, while new adopters are directed toward PineNote and easier stock-software modifications.
-- Watch next: PineNote usability, Kobo backports, Secure Boot workarounds, maintained images, battery support, and library-sync documentation.
+- View: Quill is better read as an experimental platform project than a supported Kobo replacement.
+- Impact: Device security changes can abruptly strand community operating systems, even when older hardware was unusually open.
+- Watch next: Look for PineNote usability gains, documented installation outcomes, and maintained alternatives for newer Kobo devices.

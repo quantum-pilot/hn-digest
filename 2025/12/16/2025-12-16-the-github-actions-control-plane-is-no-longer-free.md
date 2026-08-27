@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Blacksmith interprets GitHub’s coming $0.002-per-minute fee on self-hosted and third-party Actions runs as direct monetization of the workflow control plane. From March 1, 2026, CI bills will combine runner compute with GitHub’s scheduling and orchestration charge, setting a revenue floor wherever jobs execute. The vendor argues that lower hosted-runner prices reflect a shift from lower-margin compute toward higher-margin platform revenue, while faster runners and caching can limit exposure. Commenters disputed whether the move strengthens or weakens third-party runners and reopened comparisons with competing forges.
+Third-party runner vendor Blacksmith interprets GitHub's new $0.002-per-minute Actions platform fee, effective March 1, 2026, as monetizing the control plane even when customers supply compute. It argues that simultaneous hosted-runner price cuts make GitHub's own capacity more attractive and establish a revenue floor across runner choices. Blacksmith's proposed response is predictable but concrete: reduce billed minutes through faster processors, persistent Docker-layer caching, and pre-hydrated service containers. Its economic explanation remains a vendor's inference, not GitHub's stated motive.
 
 ### Comment pulse
 
-- Third-party runner vendors said they remain cheaper and faster despite the fee — counterpoint: GitHub’s pricing now makes that value harder to explain.
-- Critics read lower hosted prices plus self-hosting charges as deliberate steering toward GitHub infrastructure, not neutral ecosystem alignment.
-- Some preferred per-job control-plane pricing, arguing elapsed minutes mainly reflect runner performance rather than GitHub’s orchestration cost.
+- Commenters dispute whether the fee legitimizes third-party runners or deliberately nudges users back toward GitHub-hosted capacity.
+- Others suggest per-job pricing would better reflect control-plane work than charging by execution time.
 
 ### LLM perspective
 
-- View: The fee converts GitHub’s integration advantage into recurring revenue without owning the machines doing the work.
-- Impact: Runner vendors must sell enough speed or caching savings to offset both their compute bill and GitHub’s meter.
-- Watch next: Third-party pricing, customer migration, hosted-runner uptake, control-plane reliability, and whether competitors retain free bring-your-own execution.
+- View: The fee turns CI duration into both a compute metric and a platform-tax multiplier.
+- Impact: Faster third-party runners may remain economical, but vendors must now explain savings against a less intuitive baseline.
+- Watch next: Compare full bills, not headline rates, once GitHub's hosted cuts and self-hosted fee coexist.

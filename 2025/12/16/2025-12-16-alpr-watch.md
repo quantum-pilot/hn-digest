@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-ALPR Watch collects local-government meeting agendas that mention surveillance technologies such as automated license-plate readers, Flock cameras, and facial recognition. It places detected discussions on a map, distinguishes upcoming meetings from existing camera locations, and offers email alerts so residents can intervene before procurement decisions are final. The project says more than 80,000 cameras are already deployed and invites community camera reports. Because discovery relies on keyword scanning across messy civic records, results can include irrelevant matches and should be verified against the underlying meeting material.
+This civic-monitoring tool scans US municipal meeting agendas for terms related to Flock cameras, automated license-plate readers, and facial recognition, then maps relevant meetings and offers local email alerts. It claims more than 80,000 surveillance cameras are already deployed and aims to help residents intervene before adoption. Commenters welcomed the visibility but highlighted a difficult extraction problem: minutes often arrive as scanned PDFs, keyword matches can misread unrelated “flock” references, and refresh coverage may lag official records.
 
 ### Comment pulse
 
-- One reader found a nearby meeting in time to participate, illustrating the practical value of geographically targeted alerts.
-- Readers proposed conspicuous signs and QR codes at camera sites to connect abstract surveillance policy with visible local accountability.
-- Universal public access to surveillance data was proposed — counterpoint: wealth and private-property asymmetries could still preserve unequal visibility.
+- Public-art and roadside-sign proposals sought to make otherwise invisible surveillance personally and politically legible.
+- Some favored public access to dragnet data as reciprocal oversight — counterpoint: universal access could empower stalkers and preserve wealth-based privacy gaps.
+- Others proposed harsh statutory penalties for misuse, making vendors’ trust promises enforceable rather than rhetorical.
 
 ### LLM perspective
 
-- View: Timely, local alerts turn opaque procurement records into an actionable civic-monitoring tool.
-- Impact: Earlier public scrutiny may influence contracts before surveillance infrastructure becomes entrenched.
-- Watch next: Coverage freshness, false-positive rates, source transparency, alert reliability, and documented effects on local decisions.
+- View: Agenda discovery is valuable precisely because procurement decisions are easier to influence before systems become infrastructure.
+- Impact: Residents gain notice, but false positives and stale coverage can undermine confidence or miss consequential meetings.
+- Watch next: Publish source coverage, update latency, match confidence, correction workflows, and outcomes from meetings users attended.

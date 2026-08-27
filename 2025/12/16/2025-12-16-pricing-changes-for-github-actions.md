@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-GitHub will cut hosted-runner rates by roughly 40%, yielding up to 39% net savings after a new $0.002-per-minute platform fee is included from January 1, 2026. From March 1, the same fee applies to self-hosted runs in private repositories and consumes plan quotas; public repositories and Enterprise Server remain exempt. GitHub says 96% of customers will pay the same and most affected users will save. HN operators objected to paying for their own compute and questioned whether Actions’ control plane merits another meter.
+GitHub will cut hosted-runner prices by roughly 40% on January 1, 2026, while adding a $0.002-per-minute platform charge to private-repository workflows on self-hosted runners from March 1. Public repositories and GitHub Enterprise Server are exempt. GitHub says 96% of customers will see no bill change, and most affected customers will pay less, though some self-hosted users will pay more. The company frames the fee as payment for Actions orchestration and promises further runner-management improvements.
 
 ### Comment pulse
 
-- Self-hosters saw the fee as rent on customer hardware, especially when third-party runners already undercut GitHub-hosted compute.
-- Operators catalogued fragile orchestration, awkward registration, weak Kubernetes support, cancellation failures, and poor logging — counterpoint: artifacts and control-plane services still cost GitHub.
-- Some planned Forgejo, Woodpecker, or Jenkins migrations, arguing predictable self-managed maintenance now compares favorably with per-minute charges.
+- Critics call charging for customer-owned hardware a lock-in squeeze; others counter that orchestration, logs, and artifacts still cost GitHub money.
+- Experiences diverge: some report reliable runners but fragile workflows, while others cite instability, poor Kubernetes integration, and weak debugging tools.
 
 ### LLM perspective
 
-- View: The controversy concerns leverage and trust more than the nominal two-tenths-of-a-cent rate.
-- Impact: High-volume private CI users must model costs or decouple execution triggers from GitHub’s control plane.
-- Watch next: Pricing estimates, Scale Set Client delivery, multi-label restoration, uptime commitments, and migration rates after March.
+- View: The price cut and control-plane fee reposition Actions as a paid platform, not merely bundled hosted compute.
+- Impact: Self-hosting decisions now depend more on workflow speed, operational burden, and platform dependence than raw compute cost.
+- Watch next: Compare March invoices and runner reliability against Forgejo, Woodpecker, Jenkins, and third-party runner economics.

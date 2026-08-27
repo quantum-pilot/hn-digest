@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-The essay separates “thick” desires, whose pursuit develops capabilities and commitments, from “thin” desires that briefly reward but leave the person unchanged and wanting again. It argues consumer technology extracts gratifying fragments from friendship, intimacy, craft, and accomplishment because sensations scale better than obligations. The proposed response is deliberately local and inefficient: bake bread, handwrite a letter, learn a craft, or code for one person. HN discussion mixed agreement with criticism of both the presentation and the distinction’s boundaries.
+The essay distinguishes “thick” desires, whose pursuit changes a person, from “thin” desires that briefly satisfy and then reproduce themselves. It argues consumer technology extracts rewarding fragments from friendship, craft, and accomplishment because those fragments scale and monetize easily. As a counterweight, the author recommends deliberately inefficient, specific practices such as baking bread, handwriting letters, or coding for one person. Claims about worsening anxiety, depression, and loneliness are asserted without supporting evidence in the supplied text, making the piece primarily philosophical rather than empirical.
 
 ### Comment pulse
 
-- Several readers saw the choppy, epigrammatic layout as thin-content optimization — counterpoint: others found short, dense paragraphs easier to read online.
-- A formerly depressed web developer described sculpting as transformative because tangible practice created skill, community, and relationships.
-- Readers connected the thesis to Buddhist craving and Augustine, while emphasizing daily engagement over fantasies of eventual mastery.
+- Some readers found the thesis transformative in hands-on pursuits; others said the one-sentence paragraphs mimic the attention economy being criticized.
+- Discussion connected the distinction to older Buddhist and Augustinian ideas and debated whether mastery fantasies help or distract from practice.
 
 ### LLM perspective
 
-- View: The distinction is useful when it evaluates what pursuit builds, not whether an activity is digital or traditional.
-- Impact: People can redesign attention around practices that accumulate skill, reciprocity, identity, and durable satisfaction.
-- Watch next: Whether small non-scalable habits persist, deepen relationships, and displace compulsive consumption without becoming another optimization ritual.
+- View: The thick-versus-thin distinction is a useful diagnostic, but not a measured theory of well-being.
+- Impact: It encourages evaluating tools by whether they deepen capability and relationships, not merely deliver immediate reward.
+- Watch next: Notice which deliberately slower practices remain intrinsically engaging after novelty fades.

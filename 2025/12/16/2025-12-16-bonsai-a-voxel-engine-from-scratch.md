@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Bonsai is a from-scratch voxel-engine project built as a learning exercise around simple, inspectable systems. Its README claims a procedurally generated world roughly one billion blocks per side, full-world view distance, shader-configurable terrain, SDF editing, deferred rendering, and a broad set of custom engine subsystems. Version 2.0.0-prealpha-rc0 is a major rewrite and currently functions chiefly as a terrain generator and editor; many gameplay and tooling items remain unfinished. Binaries target Windows and Linux, while source builds require modern Clang.
+Bonsai is a pre-alpha procedural voxel terrain engine and editor whose author wrote nearly every dependency from scratch. It claims worlds roughly one billion blocks per dimension, whole-world view distance, GPU-generated terrain, deferred rendering, editing tools, entities, physics, hot reload, and a built-in profiler. Version 2 is a major rewrite, so asset loading is currently broken and much remains on the roadmap. Discussion focused less on feature claims than on the project’s simplicity choices and hybrid rasterization versus ray tracing.
 
 ### Comment pulse
 
-- The author credits arena and buddy allocators, straightforward containers, and custom metaprogramming for keeping serialization and debug tooling manageable.
-- A rasterization-versus-ray-tracing debate converged on hybrid rendering: rasterized primary visibility with traced shadows or illumination where useful.
-- Asset loading is temporarily broken after the rewrite, with restoration identified as the next priority.
+- The author credits arenas, straightforward containers, freelists, and a custom metaprogramming language for keeping long-term systems manageable.
+- Ray tracing advocates argued for higher voxel counts; the author said rasterized primary visibility plus traced shadows and lighting performs better at distance.
+- Artists expressed interest in importing assets, but the author confirmed that loader support awaits repair after the rewrite.
 
 ### LLM perspective
 
-- View: Bonsai is most compelling as an unusually ambitious learning engine, not yet a finished game platform.
-- Impact: Its simple custom systems offer concrete material for studying large-world rendering and engine architecture.
-- Watch next: Restored assets, reproducible performance measurements, gameplay milestones, documentation, and stability beyond pre-alpha.
+- View: The project is most instructive as a systems-design laboratory, while its extreme scale claims need reproducible benchmarks.
+- Impact: Minimal dependencies expose engine tradeoffs directly and can teach more than integrating opaque production middleware.
+- Watch next: Version 2 releases, asset restoration, frame-time and memory measurements, terrain-edit persistence, and representative hardware tests.
