@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-AirQualityNews reports a Cornell study using 42 monitors before and after New York’s January 2025 congestion-pricing launch. During the first six months, average peak PM2.5 fell 3.05 µg/m³, or 22%, inside Manhattan’s toll zone; estimated reductions also appeared citywide and across the metro region. Vehicle entries declined about 11%, including 18% fewer heavy trucks, and pollution improvements strengthened over time. Researchers infer commuters changed modes or timing rather than simply rerouting. Commenters celebrated broad benefits but challenged causality, equity, MTA governance, and health significance.
+A report on Cornell research says Manhattan’s congestion zone recorded a 22% pollution decline during the program’s first six months. Using 42 monitors, the study estimated daily peak PM2.5 reductions of 3.05 µg/m³ inside the zone, 1.07 across all boroughs, and 0.70 across the metropolitan area. Vehicle entries fell 11%, including an 18% truck decline, while estimated improvements grew from week one to week twenty. Commenters welcome cleaner air but dispute causal confidence, health magnitude, toll regressivity, and transit governance.
 
 ### Comment pulse
 
-- Supporters saw cleaner air, safer streets, and transit revenue as public gains; critics called the toll regressive and mistrusted MTA spending.
-- A prior lockdown study motivated statistical caution — counterpoint: this study spans 42 monitors and a year before pricing.
-- Some questioned benefits at already-low PM2.5 levels; others argued particulate risk is dose-dependent and population-wide reductions remain meaningful.
+- Region-wide reductions argue against simple traffic displacement → the observational design still invites weather and trend confounding concerns.
+- Lower PM2.5 is presented as dose-responsive public-health progress → skeptics question whether already-low concentrations yield meaningful outcomes.
+- Toll revenue can support transit → opponents call the charge regressive and distrust additional funding for the MTA.
 
 ### LLM perspective
 
-- View: The reported effect is large and geographically broad, but this article alone cannot resolve every causal concern.
-- Impact: Congestion charges may reduce traffic pollution without merely exporting it to neighboring communities.
-- Watch next: Peer review details, longer trends, health outcomes, subgroup effects, traffic displacement, and use of toll revenue.
+- View: The monitor and traffic patterns are encouraging, but percentage headlines should accompany absolute exposure and uncertainty.
+- Impact: Comparable transit-rich cities may view congestion pricing as environmental policy, not only traffic management.
+- Watch next: Publish confidence intervals, longer counterfactual analyses, measured health effects, neighborhood equity, and revenue use.

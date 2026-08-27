@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Six months after New York began charging a $9 peak toll for cars entering lower Manhattan, officials reported 11% fewer vehicles, 14% fewer crashes, and 45% fewer noise complaints. A Cornell analysis that accounted for traffic, weather, and air-quality data estimated particulate pollution fell 22% in the toll zone and also declined across the wider metro area, suggesting trips shifted rather than merely rerouted. Researchers infer more transit use and off-hour deliveries. Commenters welcomed the results but disputed causality, particulate sources, regressivity, and political durability.
+A Cornell study attributes a 22% reduction in particulate pollution within Manhattan’s congestion zone during 2025’s first half to the new $9 peak toll. Officials separately reported 11% less traffic, 14% fewer accidents, and 45% fewer noise complaints. Researchers analyzed air quality, traffic, and weather, and reported improvements across the wider metropolitan area rather than pollution displaced to suburbs. HN discussion welcomes the apparent result but questions particulate sources, weather confounding, statistical interpretation, distributional costs, and whether other cities can reproduce it.
 
 ### Comment pulse
 
-- Readers debated whether brakes, tires, road dust, tailpipes, or vehicle weight dominate particulates and how EV regeneration changes the mix.
-- Skeptics invoked confounding and past COVID analyses — counterpoint: supporters noted this study adjusts for weather and offers a plausible traffic mechanism.
-- Some favored pedestrianization and better transit, while others emphasized concentrated costs on drivers and the policy’s unusually nationalized political backlash.
+- PM2.5 comes substantially from brakes, roads, engines, and tires → reducing vehicle movement can help beyond tailpipe emissions.
+- Policy benefits are diffuse while toll costs are concentrated → local drivers object more strongly than residents relying on transit.
+- Prior lockdown research prompts caution → commenters disagree whether its statistical ambiguity undermines this separate analysis.
 
 ### LLM perspective
 
-- View: The early evidence is encouraging, but causal confidence depends on the study design, not the headline percentage.
-- Impact: Reduced traffic may deliver cleaner air, fewer crashes, less noise, and transit funding simultaneously.
-- Watch next: Longer follow-up, health outcomes, neighborhood distribution, traffic displacement, enforcement, and independent replication.
+- View: The metropolitan improvement weakens simple displacement objections, but one short observational period cannot settle causality permanently.
+- Impact: Cities gain evidence that pricing road scarcity may jointly improve traffic, safety, noise, and air quality.
+- Watch next: Longer follow-up, health outcomes, neighborhood distribution, mode shifts, truck patterns, and independent replication matter most.

@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Qwen’s updated Omni Flash accepts text, images, audio and video, then streams text and speech across broad language coverage. It reports gains in reasoning, coding, writing, voice and vision benchmarks, with multi-speaker recognition, video OCR and tool use planned next. HN readers focused less on benchmark deltas than access: the Flash weights appear unavailable, the earlier 30B stack remains awkward to run locally, real-time input tooling is immature, and one test surfaced a confident trivia error.
+Alibaba’s Qwen team presents an upgraded native multimodal model that accepts text, images, audio, and video while streaming text and speech. It claims stronger audiovisual instruction-following, controllable personas and length, text support across 119 languages, speech recognition across 19, synthesis across 10, and benchmark gains in coding, reasoning, vision, speech, and video. Commenters caution that this Flash update appears service-only rather than open-weight, while local inference support for the related open model remains incomplete and slow; reported benchmark dominance therefore needs task-specific verification.
 
 ### Comment pulse
 
-- Local deployment remains unclear → commenters could not reconcile the Flash branding, 30B predecessor, absent weights and incomplete framework support.
-- Benchmark enthusiasm is guarded → private tasks and a reported trivia hallucination matter more than vendor averages.
-- Native speech is compelling → missing microphone and webcam UX keeps the showcased modality from feeling locally usable.
+- Native speech-to-speech interaction excited readers, but mature local applications and non-Nvidia inference remain unclear.
+- Some initially assumed open weights — counterpoint: commenters could not locate this update’s weights and identified it as closed.
+- A confidently wrong electronics answer reinforced calls to test private workloads rather than trust public scores.
 
 ### LLM perspective
 
-- View: Multimodality is maturing faster than access.
-- Impact: Hosted users gain breadth; local builders inherit friction.
-- Watch next: Flash weights, runtime support and independent evaluations.
+- View: Multimodal integration is meaningful, but deployment access determines whether developers can exploit it beyond hosted demos.
+- Impact: Voice-and-vision applications gain a capable service option while local builders face tooling and licensing constraints.
+- Watch next: Weight availability, real-time latency, inference-framework support, and independent multilingual audiovisual evaluations.

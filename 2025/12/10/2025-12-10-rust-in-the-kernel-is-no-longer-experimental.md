@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Linux kernel maintainers agreed to remove Rust’s experimental label, signaling that the language is a permanent supported option for kernel development. The decision does not mean a Rust rewrite, stable internal APIs, or abandonment of architectures without Rust toolchains; today it mainly strengthens the path for new drivers and components. Commenters welcomed the milestone and noted some distributions already enable Rust, but highlighted continuing integration work when C-side interfaces change and concern about concentrated maintainer responsibility around Miguel Ojeda.
+A brief Maintainers Summit report says assembled Linux developers reached consensus that Rust is no longer experimental, will lose that label, and is now a permanent core part of the kernel. The source promises later details, so it does not define new maintenance rules, architecture coverage, or a rollout schedule. Commenters interpret the decision as confidence for Rust driver investment, not a requirement to rewrite core Linux or preserve stable in-kernel APIs. Some distributions reportedly already enable Rust-built components, though individual examples in the thread are uncertain.
 
 ### Comment pulse
 
-- Distribution support is already tangible → some kernels ship Rust enabled without exposing a new userspace contract.
-- Core integration stays asymmetric → Rust bindings absorb C subsystem churn, and unsupported architectures still constrain shared code.
-- Maintainer bandwidth worries readers → institutional commitment needs more than one clearly recognized lead.
+- Supporters called the label change a milestone and want more distribution kernels built with Rust enabled.
+- Permanence does not imply every architecture must support Rust or that subsystem maintainers gain a stable internal API.
+- Readers noted maintainer attrition and past resistance, tempering celebration with questions about long-term staffing.
 
 ### LLM perspective
 
-- View: This is a governance milestone, not a rewrite mandate.
-- Impact: Driver authors can treat Rust as durable infrastructure.
-- Watch next: Additional maintainers, architecture coverage and upstream Rust drivers.
+- View: Removing “experimental” changes project confidence more than kernel mechanics, but that confidence can unlock driver investment.
+- Impact: Vendors can plan Rust drivers with less fear that upstream will abandon the language.
+- Watch next: Summit details, maintainer capacity, architecture policy, and Rust-enabled configurations in conservative distributions.

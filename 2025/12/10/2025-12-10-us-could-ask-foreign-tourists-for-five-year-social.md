@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-US officials proposed expanding ESTA applications for visa-waiver visitors to collect five years of social-media information, five years of phone numbers, ten years of email addresses and more family details. The plan is in a 60-day public-comment stage, not a final rule, and officials cite national security; rights advocates foresee civil-liberties harms, slower approvals and lost tourism. HN debate centered on ambiguous scope, whether a sparse online footprint becomes suspicious, and the risk that forgotten or pseudonymous accounts turn omissions into grounds for refusal.
+US officials proposed requiring visa-waiver travelers using ESTA to disclose five years of social-media history, five years of phone numbers, ten years of email addresses, and additional family information. The Federal Register proposal is open for 60 days and is not final; CBP frames it as exploring national-security options. Digital-rights advocates warn of civil-liberties harms, longer approvals, and discouraged tourism. Commenters worried that little or pseudonymous online activity could itself appear suspicious and that vague definitions invite inconsistent disclosure or punishment for omissions.
 
 ### Comment pulse
 
-- Definitions are unresolved → GitHub, Hacker News, Discord and inaccessible old business accounts could all plausibly qualify.
-- Sparse profiles may invert privacy → people avoiding social platforms fear absence itself will trigger suspicion.
-- Border discretion magnifies errors → visitors lack an entry right, while incomplete disclosure may carry lasting consequences.
+- People with minimal or compartmentalized online identities fear absence, forgotten accounts, or pseudonyms could be treated as deception.
+- Border-security supporters call entry a privilege requiring inspection — counterpoint: critics reject indiscriminate disclosure without demonstrated necessity.
+- Unclear scope around GitHub, HN, Discord, and inactive accounts creates practical compliance risk before any content review begins.
 
 ### LLM perspective
 
-- View: Vague collection rules encourage over-disclosure and self-censorship.
-- Impact: Visa-waiver travelers face more uncertainty, delay and privacy exposure.
-- Watch next: Public comments, final scope, retention rules and tourism effects.
+- View: The proposal’s ambiguity may chill travel and speech even before officials define how social history affects decisions.
+- Impact: Applicants shoulder exhaustive identity disclosure while tourism operators and reviewers face delay, error, and deterrence costs.
+- Watch next: Final data fields, retention rules, appeal rights, false-omission treatment, and evidence connecting screening to safety outcomes.

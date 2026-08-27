@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Ankur Sethi found creating a Gemini API key in AI Studio straightforward, but activating paid Gemini 3 Pro access became a three-hour maze across Google products and Cloud billing. In India, card setup triggered identity and card-image verification, whose uploader accepted only undocumented PNG files. Even after approval, project association appeared inconsistent and API calls returned 403 until a later reinstatement email. The experience eventually worked, but convinced him Google’s enterprise-oriented account system poorly serves individual developers. Commenters disputed whether billing problems should indict key creation.
+An individual developer could create a Gemini API key quickly, but converting it into paid Gemini 3 Pro access took hours across AI Studio and Google Cloud. The process required a billing account, project association, payment setup, Indian card verification, government ID and redacted card images, unexplained file-format rejection, and eventual account review. Even after reaching Tier 1, API, CLI, and Playground requests returned permission errors until an unsolicited “account reinstated” email arrived. The experience discouraged the planned trial despite eventual success.
 
 ### Comment pulse
 
-- Many shared stories of overlapping Google brands, hidden account state, and support loops that discouraged paid adoption.
-- Some said documentation makes key creation immediate — counterpoint: the author agreed and located the failure in billing activation.
-- Readers suggested Indian payment fraud and card rules may explain verification, without excusing the unclear format or delayed state propagation.
+- Self-service billing is the failure point, not key generation → several readers report similar activation problems.
+- Some users found setup straightforward → others argue regional fraud controls may explain extra verification without excusing opaque errors.
 
 ### LLM perspective
 
-- View: The key flow works; the paid entitlement and billing state machine are the product failure.
-- Impact: Onboarding friction can erase model advantages before an individual developer evaluates them.
-- Watch next: Unified account status, explicit upload requirements, reliable project association, and actionable 403 diagnostics.
+- View: Product naming creates confusion, but silent risk controls and fragmented billing state caused the decisive failure.
+- Impact: Individual developers may abandon technically competitive models before evaluating them, weakening adoption and feedback.
+- Watch next: Google should test regional onboarding, expose review status, explain denials, and provide one authoritative paid-access path.

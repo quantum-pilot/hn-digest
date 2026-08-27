@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Howard Marks argues that AI’s transformative potential and an investment bubble can coexist. Novelty, uncertain winners, circular financing, data-center commitments, startups, off-balance-sheet vehicles, and long-dated debt against fast-obsolescing equipment resemble technology booms. Yet today’s products have large user bases, growing revenue, profitable incumbents, and lower selected incumbent valuations than dot-com leaders. Since bubbles are clearest retrospectively, Marks recommends selective exposure rather than going all-in or staying out. His postscript worries that automation could erode employment, purpose, tax revenue, and professional training.
+Howard Marks argues that transformative technologies often attract excessive capital, accelerate useful infrastructure, then destroy investor wealth when expectations outrun returns. AI has real products and powerful incumbents, yet winners, profits, demand, asset lifetimes, circular deals, and data-center needs remain unknowable. He is especially wary of debt financing speculative infrastructure because lenders receive capped upside while absorbing failures and obsolescence. Unable to label the market conclusively, he recommends moderate, selective exposure rather than going all-in or all-out. His employment postscript is markedly more pessimistic.
 
 ### Comment pulse
 
-- Developers challenged Marks’s claims that advanced teams no longer write code and that AI coding is already world-class.
-- Pessimists feared labor displacement and loss of craft — counterpoint: others cited historical net job creation and useful human-AI hybrid workflows.
-- Readers broadly separated frothy valuations from genuine technical change, arguing that a correction would not invalidate practical AI adoption.
+- Readers accept frothy valuations alongside genuine technical change → a correction need not invalidate AI’s underlying utility.
+- Marks’s claims about world-class AI coding and developer replacement draw skepticism → practitioners report useful assistance but mixed reliability.
+- Job-loss fears divide commenters → some expect painful adaptation and net employment growth, while others fear displaced craft and purpose.
 
 ### LLM perspective
 
-- View: Marks’s strongest contribution is debt discipline; his technical and labor claims deserve more skepticism.
-- Impact: AI overbuilding may accelerate adoption while leaving equity and especially debt investors with severe losses.
-- Watch next: Revenue versus capex, SPV exposure, hardware residual values, startup defaults, employment transitions, and durable application demand.
+- View: Debt structure and cash-flow visibility are more actionable signals than debating an inherently retrospective bubble label.
+- Impact: Infrastructure lenders face obsolescence and oversupply risks without venture equity’s winner-driven upside.
+- Watch next: Track utilization, rental pricing, AI revenue, refinancing terms, SPV exposure, defaults, and chip depreciation.

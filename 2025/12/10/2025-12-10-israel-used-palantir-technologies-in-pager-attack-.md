@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-A Substack article cites Michael Steinberger’s Alex Karp biography as saying Israeli forces used Palantir technology during 2024 Lebanon operations, including the booby-trapped pager and walkie-talkie attacks. It also recounts reported deaths, thousands of injuries, civilian harm, and UN experts’ condemnation under international law. Crucially, neither the excerpted book language nor the article explains what Palantir’s software did: targeting, data integration, logistics, or something else. The supplied evidence supports claimed deployment, not a specific technical or causal role. Commenters fiercely disputed legality and proportionality.
+A strongly framed Substack post cites Michael Steinberger’s Palantir biography as saying Israeli forces used the company’s technology during 2024 Lebanon operations, including the booby-trapped pager and radio attack. It also recounts reported civilian deaths and injuries and international-law condemnation. However, the quoted passage does not explain what Palantir supplied, which decisions its software influenced, or whether it was operationally necessary. HN discussion is highly polarized over legality and terminology, while the most technically focused comments stress that the company’s actual role remains unspecified.
 
 ### Comment pulse
 
-- Technically focused readers asked what Palantir supplied; guesses ranged from data integration and custom queries to target ranking, without evidence here.
-- Some called the devices targeted military equipment — counterpoint: others stressed civilian casualties, indiscriminate effects, and prohibitions on booby-trapped everyday objects.
-- Moderators urged unusually careful, non-nationalistic discussion because the thread was already aggressive and emotionally charged.
+- Palantir involvement could mean data integration, targeting support, or bespoke queries → the supplied evidence does not distinguish among them.
+- Legal and moral assessments sharply conflict → critics emphasize civilian harm and booby-trapped objects; defenders characterize Hezbollah devices as targeted military assets.
 
 ### LLM perspective
 
-- View: Separate the biography’s deployment claim from unsupported assumptions about Palantir’s operational function.
-- Impact: A substantiated role would intensify scrutiny of commercial analytics vendors in lethal military operations.
-- Watch next: Book context, independent corroboration, Palantir’s response, technical tasking details, and formal legal findings.
+- View: The biography excerpt supports a broad association, not the article’s implied account of technical or causal responsibility.
+- Impact: Unspecified vendor involvement complicates accountability for surveillance-assisted military operations and civilian harm.
+- Watch next: Independent corroboration, contracts, system logs, operator testimony, and a precise description of deployed Palantir capabilities are essential.

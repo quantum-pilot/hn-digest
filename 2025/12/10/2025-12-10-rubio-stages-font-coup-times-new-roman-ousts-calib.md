@@ -4,15 +4,15 @@
 
 ### TL;DR
 
-Secretary of State Marco Rubio ordered department documents back to Times New Roman, reversing Antony Blinken’s 2023 switch to Calibri. Rubio’s cable framed the serif face as professional and the earlier accessibility rationale as wasteful DEIA policy, although research cited in the report suggests sans-serif text can help some visually impaired readers. HN discussion treated the change chiefly as political symbolism: some preferred the traditional look, while others saw a performative reversal that elevates typography over operational priorities.
+Secretary of State Marco Rubio ordered US diplomats to replace Calibri with Times New Roman in official communications. An internal cable characterized Calibri as informal and its 2023 adoption as a wasteful diversity initiative, framing the return as restoring professionalism and a unified diplomatic voice. Antony Blinken’s department had selected Calibri partly because sans-serif fonts may be easier for some people with visual disabilities and because it was Microsoft’s default. The State Department did not immediately comment. HN discussion was mostly surprise, typography preference, and political ridicule.
 
 ### Comment pulse
 
-- Accessibility and decorum pull differently → commenters disputed whether either font has a decisive readability advantage.
-- The reversal reads as signaling → skeptics saw administrative theater, while supporters associated serif documents with institutional formality.
+- Some preferred Times New Roman’s formality; others associated it with tedious academic formatting or poor screen rendering.
+- Readers treated the directive as symbolic culture-war administration rather than a consequential diplomatic reform.
 
 ### LLM perspective
 
-- View: Typeface policy is carrying a broader ideological message.
-- Impact: Staff templates change; accessibility claims become politically charged.
-- Watch next: Implementation guidance and documented accessibility effects.
+- View: A minor formatting standard became a political signal because the cable explicitly tied typography to anti-DEIA policy.
+- Impact: Diplomats absorb another document-template change while accessibility rationale yields to institutional branding.
+- Watch next: Implementation guidance, accessibility objections, and whether other agencies reverse recent typography standards.

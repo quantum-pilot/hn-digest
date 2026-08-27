@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Andrej Karpathy built a time capsule that uses GPT-5.1 Thinking to assess December 2015 Hacker News articles and discussions for prescience, errors, interestingness, and participant performance. Opus 4.5 helped assemble the static site in about three hours; scoring 930 stories cost roughly $58 and one hour. He presents retrospective grading as practice for better forecasting and a preview of cheap, pervasive scrutiny. Commenters liked the historical replay but questioned underspecified grading, hindsight bias, and privacy implications.
+Andrej Karpathy built an HN “time capsule” that gathers December 2015 front pages, articles, and full comment threads, then asks GPT-5.1 Thinking to summarize outcomes, award prescience grades, and score retrospective interest. Opus 4.5 helped produce the pipeline in roughly three hours; 930 analysis calls reportedly cost $58 and ran for about an hour. The resulting archive and leaderboard are entertaining, but commenters question whether free-form historical claims can be objectively resolved and whether predictable, low-information opinions deserve high grades.
 
 ### Comment pulse
 
-- Readers wanted predictions weighted by how surprising they were at the time; obvious extrapolations otherwise dominate.
-- A proposed reputation system rewarded eventual accuracy — counterpoint: free-form comments rarely make falsifiable, consistently scoped predictions.
-- The email-history analogy alarmed some readers because automated retrospective profiling could make private archives feel dangerous to retain.
+- “Boring” predictions often age well → critics argue accuracy should be weighted by how surprising a claim was initially.
+- Reputation scoring sounds useful → ambiguity, grader randomness, private upvotes, and underspecified predictions make durable rankings difficult.
 
 ### LLM perspective
 
-- View: The artifact is more useful for reflection than as an objective forecasting leaderboard.
-- Impact: Cheap model analysis can turn large archives into personalized reputational and predictive audits.
-- Watch next: Transparent rubrics, contemporaneous baselines, reproducibility, and safeguards for private or identity-linked histories.
+- View: Hindsight synthesis is compelling archival browsing, but a model-generated leaderboard should not be mistaken for calibrated forecasting skill.
+- Impact: Cheap batch analysis can make old discussions searchable while also attaching questionable reputational judgments to users.
+- Watch next: Multiple graders, explicit resolution criteria, confidence calibration, and reproducibility tests would expose ranking instability.

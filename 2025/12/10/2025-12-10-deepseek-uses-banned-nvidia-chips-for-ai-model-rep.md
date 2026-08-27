@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-The supplied Yahoo page contains only a German consent wall, so the report behind the headline cannot be evaluated here. The headline alleges that DeepSeek uses Nvidia chips covered by export restrictions. Commenters debated whether that means pre-restriction ownership, indirect access, secondary-market purchases, or sanctions evasion, but offered no primary evidence establishing a route. They also distinguished US controls on exports to China from a Chinese prohibition on possession. Any stronger claim about illegality, location, or sourcing remains unsupported by this input.
+The supplied article capture contains only Yahoo’s German cookie-consent page, so it provides no evidence for the headline allegation that DeepSeek used restricted Nvidia chips. HN discussion assumes such hardware can reach China through pre-embargo inventories, third-country data centers, resale, freight forwarding, or smuggling, but these are general explanations rather than verification of this report. Commenters also dispute whether “banned in the country” means prohibited by US export controls, Chinese policy, or both, and debate sanctions’ real purpose and effectiveness.
 
 ### Comment pulse
 
-- Many argued sanctions raise acquisition costs and friction without making powerful hardware impossible to obtain.
-- Some treated indirect access or smuggling as obvious — counterpoint: others said the headline establishes neither mechanism nor illegality.
-- Debate expanded into whether export controls work, with participants disagreeing on whether partial constraint counts as policy success.
+- Export controls raise cost and friction rather than guaranteeing scarcity → commenters disagree over whether that still makes sanctions effective.
+- DeepSeek’s procurement is treated as unsurprising → no supplied comment establishes which chips, dates, quantities, or acquisition route were involved.
 
 ### LLM perspective
 
-- View: Preserve the headline allegation while treating every proposed acquisition path as unverified speculation.
-- Impact: If substantiated, restricted-chip access would complicate assumptions behind US compute controls.
-- Watch next: Original reporting, chip models and locations, procurement evidence, and responses from DeepSeek, Nvidia, or regulators.
+- View: The allegation remains unverified in the frozen source; plausible circumvention mechanisms are not evidence of this transaction.
+- Impact: Ambiguous reporting can blur export law, domestic restrictions, legal cloud access, and illicit physical shipment.
+- Watch next: Seek named chips, procurement records, training dates, jurisdictional rules, and corroboration from primary evidence.

@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Drupal founder Dries Buytaert argues that Fizzy’s O’Saasy license is defensible but cannot be called open source because it forbids competing SaaS offerings and therefore fails the OSI definition. He treats the naming dispute as secondary to the harder maker–taker problem: keeping mature projects sustainable when profitable users contribute unevenly. HN largely supported a clear distinction, yet split on source-available value—some emphasized auditing, self-debugging and delayed relicensing, while others warned that restricted rights weaken communities, forks and long-term resilience.
+Dries Buytaert argues that Fizzy’s O’SaaSy license is defensible source-available software, not open source, because it forbids competing SaaS offerings and therefore fails the OSI definition. He rejects redefining a shared term for marketing while treating the license as a legitimate experiment in project sustainability and free-rider control. The harder problem is aligning commercial beneficiaries with maintenance work. Commenters support clear labeling but disagree over source-available value, restrictions, contributor incentives, resilience after company failure, and whether the OSI meaning matches ordinary language.
 
 ### Comment pulse
 
-- Standard labels reduce legal review → OSI-approved licenses provide predictable rights; custom restrictions demand closer scrutiny.
-- Visible code still helps users → auditing, reproducible builds and self-debugging can beat opaque enterprise support.
-- Community durability requires rights → critics expect fewer contributors and weaker succession when companies fail or withdraw access.
+- Clear terminology lets adopters understand commercial freedoms without bespoke legal review; source-available covers many materially different restrictions.
+- Visible code aids debugging and auditing — counterpoint: restricted reuse weakens independent communities and long-term fork resilience.
+- Some welcome anti-SaaS limits as sustainability tools; others prefer established copyleft licenses that preserve reciprocal freedoms.
 
 ### LLM perspective
 
-- View: Transparency and software freedom solve different problems.
-- Impact: Buyers must evaluate licenses, governance and continuity separately.
-- Watch next: Fizzy adoption, outside contributions and sustainable licensing experiments.
+- View: License experimentation is healthy when naming precisely communicates which freedoms have been withheld.
+- Impact: Maintainers may protect hosted revenue, while adopters must price legal constraints and weaker succession guarantees.
+- Watch next: Fizzy adoption, outside contributions, enforcement cases, and whether delayed-open licenses produce sustainable communities.

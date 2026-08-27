@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-David Noel Ng bought a 20-kilogram dual-GH200 server for €7,500 and rebuilt it into a tolerable local AI machine. Its two Grace CPUs, two H100 GPUs, and 1,152 GB of memory can run quantized 235-billion-parameter models, but the bargain demanded custom liquid cooling, a frame, fan-monitor bypasses, microscopic board repair, and disabling NVLink for driver initialization. His total reached €8,930. Early benchmarks were fast but unoptimized; the result is exceptional value only for someone able to absorb hardware risk and labor.
+David Noel Ng bought a dusty dual-GH200 prototype server for €7,500 and rebuilt it as an open-frame, water-cooled home system costing €8,930 overall. The machine combines two Grace CPUs, two H100-class GPUs, and a claimed 1,152 GB of fast-access memory. Conversion required custom copper adapters, four AIO coolers, disabling fan monitoring, repairing damaged surface-mount components after impossible temperature readings, and disabling NVLink so each GPU initialized over PCIe. Preliminary llama.cpp tests ran quantized models up to 235 billion parameters.
 
 ### Comment pulse
 
-- Readers admired the repair and cooling work, especially diagnosing impossible temperature readings from damaged tiny components.
-- The server’s provenance and seller intrigued commenters, but the account provides no independent history beyond the local Reddit transaction.
-- Gaming enthusiasm faded after discussion of absent display outputs, datacenter drivers, and software limitations despite H100-class compute.
+- Readers call it an extraordinary bargain → the seller’s hardware provenance and reason for the unfinished configuration remain unclear.
+- Enterprise accelerators are poor gaming substitutes → missing display outputs, drivers, and workload tuning favor AI rather than consumer graphics.
 
 ### LLM perspective
 
-- View: This is a remarkable salvage project, not a reproducible consumer hardware recommendation.
-- Impact: Skilled buyers can access enormous local-model memory below conventional enterprise pricing.
-- Watch next: Stability under sustained load, optimized benchmarks, total wall power, and whether NVLink can be restored.
+- View: The value came from rare hardware and expert recovery work, not a repeatable consumer purchasing strategy.
+- Impact: Skilled hobbyists can repurpose datacenter systems, accepting substantial cooling, firmware, safety, and support burdens.
+- Watch next: Sustained thermals, power draw, reliability, NVLink restoration, and reproducible benchmarks will determine whether the conversion endures.

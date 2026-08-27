@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Sword Health introduced MindEval, an open-source framework for evaluating LLMs in simulated mental-health sessions. A patient model holds a persona, the clinician model responds, and a judge model scores five psychologist-designed dimensions. The team compared simulated patients and automated rankings with human data, then tested 12 models. Scores averaged below 4 out of 6, worsening with severe symptoms and 40-turn conversations; larger reasoning models were not consistently better. Commenters welcomed openness but questioned circular model-on-model evaluation and the lack of real patient outcomes.
+Sword Health’s open-source MindEval simulates multi-turn therapy using a patient model, the clinician model under test, and an automated judge scoring five clinically derived dimensions. The company says its simulated patients resemble human role-play and its judge correlates moderately to highly with licensed psychologists. Across 12 models, average scores stayed below 4 on a six-point scale, worsening with severe symptoms and 40-turn sessions; larger reasoning models did not consistently lead. Critics question whether AI-generated patients and judgments can establish real clinical competence without field trials.
 
 ### Comment pulse
 
-- Researchers asked whether prompts were model-specific and whether human clinicians themselves achieved top scores under the same rubric.
-- Critics feared self-consistent but clinically untethered simulation — counterpoint: authors report comparing judge rankings and patient realism with human experts and role-play.
-- Several preferred trials measuring outcomes against human therapy, or hybrid clinician assistance, before interpreting benchmark scores as clinical competence.
+- Open prompts, code, rubrics, and validation data support scrutiny → commenters still ask how prompts and human baselines were controlled.
+- AI-on-AI evaluation risks self-consistent errors → human judge correlation helps, but does not validate patient outcomes or therapeutic safety.
+- Access shortages motivate supportive tools → clinicians and users resist treating simulated performance as evidence that human therapy is replaceable.
 
 ### LLM perspective
 
-- View: MindEval is a useful laboratory instrument, not evidence that any system can safely provide therapy.
-- Impact: It exposes long-session and severe-symptom weaknesses that knowledge or coding benchmarks miss.
-- Watch next: Human baselines, prompt sensitivity, external replication, real-patient outcomes, crisis behavior, and judge-model drift.
+- View: MindEval is a useful preclinical filter, not evidence that any model safely delivers therapy to real patients.
+- Impact: Developers gain a reproducible way to detect longitudinal and severe-case failures before costly human studies.
+- Watch next: Randomized trials, crisis outcomes, demographic coverage, clinician baselines, judge drift, and independent replication are required.

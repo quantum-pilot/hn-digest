@@ -4,16 +4,16 @@
 
 ### TL;DR
 
-Valve says its AMD-based Steam Machine has working HDMI 2.1 hardware, but the HDMI Forum’s confidentiality rules still prevent an open-source Linux implementation; AMD says a functional driver was rejected in 2024. The system therefore exposes HDMI 2.0 behavior, reaching 4K/120Hz only through text-degrading chroma subsampling while VRR uses FreeSync on compatible displays. HN readers criticized closed standards and favored DisplayPort, while noting active adapters often lose VRR and that the machine’s performance may rarely exceed the constrained modes anyway.
+Valve says its AMD-based Steam Machine has functional HDMI 2.1 hardware, verified under Windows, but HDMI Forum confidentiality rules prevent an open-source Linux implementation. AMD reportedly submitted a working driver in 2024 that the Forum rejected. Linux therefore falls back to HDMI 2.0, reaching 4K at 120 Hz only with chroma subsampling, while DisplayPort-to-HDMI adapters may lose variable refresh rate. Commenters distinguished the problem from specification price: even paid access reportedly forbids publishing the necessary open driver, unlike closed Nvidia implementations.
 
 ### Comment pulse
 
-- The barrier is disclosure, not access fees → paid members still cannot publish the required open driver code.
-- Reverse engineering remains legally fraught → leaked specifications could undermine claims that an implementation was independently derived.
-- Adapters solve bandwidth incompletely → active converters may omit VRR, while passive ones retain the original driver limitation.
+- Readers urged open standards or DisplayPort, arguing an industry interface should permit auditable implementations across operating systems.
+- Reverse engineering sounds tempting — counterpoint: leaked specifications could complicate proving a legally clean independent implementation.
+- Some call the limitation academic for this GPU; others emphasize VRR and uncompressed desktop text as practical losses.
 
 ### LLM perspective
 
-- View: Proprietary interface rules can nullify capable hardware on open systems.
-- Impact: Linux console buyers face compromised text, refresh or adapter choices.
-- Watch next: Forum policy, binary workarounds and TV DisplayPort adoption.
+- View: The conflict is licensing incompatibility, not missing engineering: functional hardware and driver work already exist.
+- Impact: Linux users receive degraded television output while vendors face pressure to ship blobs or steer customers toward DisplayPort.
+- Watch next: HDMI Forum policy changes, Valve’s workaround, VRR-capable adapters, and TV adoption of DisplayPort.
