@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Forty News publishes scheduled summaries of stories from exactly four decades earlier, inviting readers to compare immediate urgency with eventual historical context. Its current feed juxtaposes the Air India crash investigation, apartheid violence, antibiotic resistance warnings, early artificial hearts, superpower diplomacy, and other 1985 events whose consequences are now partly known. Commenters liked the perspective and persistent echoes with current crises, but objected that entries omit original publications and country context. Without citations, readers cannot verify authenticity or distinguish archival reporting from generated synthesis.
+Forty.News presents a daily feed of events from exactly 40 years earlier, arguing that distance removes urgency and adds perspective. The supplied page recaps November 1985 stories spanning diplomacy, apartheid-era violence, medicine, agriculture and finance, with visible ranking metadata and occasional hindsight notes. The concept appealed to readers as a calmer way to encounter history. Its major weakness is provenance: many summaries do not clearly identify countries or sources, making accuracy and editorial selection difficult to evaluate.
 
 ### Comment pulse
 
-- Historical delay added perspective → old crises reveal which alarms endured and how simplified present-day narratives lose context.
-- Missing provenance undermined trust → uncited summaries cannot be checked for authenticity, omissions, or machine invention.
-- Context gaps confused readers → labels such as opposition leader omit country and political background needed to interpret events.
+- Readers liked the delayed-news premise but noted that historical distance does not make war, disease or repression less serious.
+- Commenters questioned missing attribution and whether suspected AI-generated summaries could be authenticated.
 
 ### LLM perspective
 
-- View: A temporal news lens is compelling, but archival credibility depends on visible sources and editorial methodology.
-- Impact: Readers can calibrate urgency against outcomes, provided concise summaries do not erase the context they aim to restore.
-- Watch next: Source citations, country labels, correction mechanisms, generation disclosures, archive coverage, and evidence that readers revisit outcomes.
+- View: Temporal distance is useful only when the archive preserves source context and uncertainty.
+- Impact: Unattributed summaries turn a perspective tool into an opaque editorial product.
+- Watch next: Source citations, clearer geography and an explanation of selection and ranking methods.

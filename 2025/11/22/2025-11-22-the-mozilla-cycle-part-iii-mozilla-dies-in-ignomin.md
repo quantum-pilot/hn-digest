@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-An essay argues Mozilla’s strategic pivot makes organizational survival and AI revenue more important than Firefox’s traditional privacy mission. It cites the planned AI Window, reliance on search royalties, and targets for flagship AI products, non-search growth, subsidiary revenue, community expansion, and investment returns by 2028. The author doubts prompt-mediated browsing, questions whether open-weight models built on undisclosed data qualify as open source, and urges users to stop expecting Mozilla to protect the web. Commenters shared frustration but stressed Firefox and Gecko’s value against browser-engine monoculture.
+This polemical essay argues Mozilla's new strategy makes organizational survival and generative AI more important than Firefox's traditional user base. It points to the proposed AI Window, default-enabled AI features, targets for flagship AI products and growth in non-search revenue, and Mozilla's continuing dependence on search royalties. The author doubts that “open source AI” can resolve training-data, scale or trust problems and urges users to stop expecting Mozilla to defend a human-centered web. These conclusions reflect the author's interpretation, not settled outcomes.
 
 ### Comment pulse
 
-- Engine diversity remained the priority → users support Firefox chiefly to prevent Blink monoculture, even while distrusting Mozilla’s direction.
-- Financial goals create a real conflict → concentrating on Firefox preserves mission. — counterpoint: reducing dependence on Google requires new products and revenue.
-- Optional AI divided users → some want useful non-creepy features. — counterpoint: others see any implementation effort as displaced browser maintenance.
+- Many readers prioritize Firefox and Gecko's survival over Mozilla itself, fearing an even tighter browser-engine monoculture.
+- Others dislike AI investment but argue optional features and revenue diversification may be necessary to reduce search dependence.
 
 ### LLM perspective
 
-- View: Mozilla’s diversification problem is genuine, but forcing fashionable features risks consuming the goodwill that sustains Firefox.
-- Impact: Failure could leave web standards dominated by one engine even if smaller successors preserve technical alternatives.
-- Watch next: AI defaults, Firefox investment, non-search revenue, search-deal changes, community retention, and independent engine adoption.
+- View: Mozilla faces a genuine funding dilemma, but product defaults determine whether diversification spends accumulated trust.
+- Impact: An AI pivot may find revenue while alienating the users who distinguish Firefox.
+- Watch next: Opt-in controls, Firefox investment, non-search revenue and whether community participation grows or contracts.

@@ -4,15 +4,16 @@
 
 ### TL;DR
 
-A survey-based study of more than 100,000 adults aged 18–24 found that receiving a smartphone before 13 was associated with poorer self-reported mental health, with stronger patterns among women. Earlier ownership also tracked with more suicidal thoughts; the most dramatic percentages compared ownership at ages five or six with ownership from 13 onward. Researchers suggest social media, cyberbullying, sleep disruption, and family relationships as possible pathways. Because the data are observational and retrospective, they do not show that early ownership caused the outcomes.
+A study using self-reported questionnaires from more than 100,000 people aged 18–24 found earlier smartphone ownership associated with worse later mental-health scores, particularly among women. Reported differences involved self-worth, emotional resilience, stability, empathy, and severe suicidal thoughts; authors proposed social media, cyberbullying, sleep, and family relationships as mediators. Because the supplied report describes retrospective observational data, it cannot show smartphones caused these outcomes or eliminate family, social, and developmental confounding. Commenters accordingly question controls, prevalence, and enforceable age limits.
 
 ### Comment pulse
 
-- The association warrants caution around early access → its size and consistency suggest a meaningful signal — counterpoint: self-reporting and confounding prevent causal conclusions.
-- Ownership age is an imperfect exposure measure → children may use shared devices, while family circumstances influence both access and wellbeing.
+- Age limits could resemble restrictions on other risky products → household device sharing makes ownership rules hard to enforce.
+- Cross-country, longitudinal comparisons may reveal trends → consistent measurement still cannot automatically establish causality.
+- Device ownership may proxy broader conditions → correlation requires careful adjustment and prospective confirmation.
 
 ### LLM perspective
 
-- View: The study supports precaution and better experiments, not a causal verdict.
-- Impact: Families and policymakers may delay smartphones while improving sleep, literacy, and social-media safeguards.
-- Watch next: Prospective cohorts, confounder controls, device-use logs, platform exposure, and intervention outcomes.
+- View: The dose-like association is concerning, but policy claims should remain proportional to an observational, self-reported design.
+- Impact: Families can delay social-media exposure without assuming a single cutoff guarantees better mental health.
+- Watch next: Replicate prospectively with usage logs, baseline wellbeing, household factors, platform exposure, and preregistered outcomes.

@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Browser fingerprinting correlates attributes such as platform, language, time zone, fonts, extensions, hardware, canvas rendering, and window size without relying on cookies. VPNs and spoofing help only partially: unusual settings can make a browser more distinctive, while aggressive defenses break sites or trigger challenges. The author recommends rotating endpoints, deleting persistent cookies, minimizing customization, and using built-in resistance, while acknowledging tracking remains statistical and short-lived. Commenters distinguished concealment from anonymity and warned that isolated hardening can itself identify one user unless many people share the same configuration.
+Browser fingerprinting combines attributes such as software versions, fonts, extensions, hardware hints, canvas rendering and window size into a probabilistic identifier, bypassing cookie controls and partly resisting VPNs. The author explains why unusual defenses can themselves make someone more distinctive or break sites. Built-in resistance, short-lived cookies and network obfuscation may reduce tracking, but no measure guarantees anonymity. The essay also notes real-world identification is statistical, fingerprints can change, and legal treatment remains uncertain, making claims of exact effectiveness difficult to verify.
 
 ### Comment pulse
 
-- Customization can backfire → rare language headers, extensions, or privacy settings make one browser easier to separate from others.
-- Trackability differs from hidden attributes → masking time zone does little when IP and request patterns still correlate sessions.
-- Anonymity sets matter → Tor standardizes many users together. — counterpoint: unique hardening on a household IP may isolate one person.
+- Readers highlighted language preferences and other innocent settings as persistent identifying signals.
+- Discussion disputed whether hardened configurations help unless many users share them, with Tor proposed for stronger crowd uniformity.
 
 ### LLM perspective
 
-- View: Effective resistance means blending into a crowd, not maximizing the number of individually unusual privacy tweaks.
-- Impact: Invisible cross-site correlation can restore tracking after cookie restrictions while imposing usability costs on defensive users.
-- Watch next: Browser-native standardization, fingerprinting litigation, first-party scripts, privacy-budget proposals, and measurement of real-world tracking persistence.
+- View: Fingerprinting is an anonymity-set problem; unusual defenses can reveal as much as they conceal.
+- Impact: Effective protection demands coordinated browser defaults rather than endless expert-only configuration.
+- Watch next: Standardized browser defenses, measurement against real trackers and clearer consent rules.

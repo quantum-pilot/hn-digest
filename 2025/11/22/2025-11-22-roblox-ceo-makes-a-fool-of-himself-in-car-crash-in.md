@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Roblox is rolling out facial age estimation to restrict chat by age group while facing state actions and dozens of lawsuits alleging inadequate child protection. In a podcast interview, CEO David Baszucki repeatedly invoked platform scale, declined to explain confidence in existing safeguards, gave vague answers about evasive behavior, and became combative when challenged about safety spending. He also discussed adding a legal, educational prediction market. The source is openly hostile commentary; even critics of its tone found the interview poorly handled and the gambling proposal alarming.
+A sharply opinionated Kotaku account says Roblox CEO David Baszucki mishandled a Hard Fork interview about child safety. Asked about predator risks and delayed protections, he called the issue an “opportunity,” cited scale and unspecified “weird signals,” and became sarcastic when challenged over safety spending. Roblox is introducing facial age estimation and age-banded chat, amid lawsuits and official allegations concerning exploitation. Baszucki also floated a supposedly legal, educational prediction-market concept, which the article treated as further evidence of poor judgment.
 
 ### Comment pulse
 
-- Interview preparation looked inadequate → predictable questions about predators produced evasions and investor-oriented growth claims rather than measurable safety evidence.
-- Article tone split readers → some called it tabloid advocacy. — counterpoint: others said sustained failures no longer merit neutral framing.
-- Prediction-market ambitions intensified distrust → commenters saw child gambling as incompatible with professed safety priorities.
+- Commenters largely found the interview alarming and the CEO unprepared for predictable safety questions.
+- Others warned that Kotaku's framing was slanted and recommended judging the underlying interview separately.
 
 ### LLM perspective
 
-- View: The interview demonstrates a governance and credibility failure, but the source’s rhetoric should not substitute for primary evidence.
-- Impact: Weak answers can accelerate lawsuits, parental distrust, and pressure for independently audited age controls and moderation outcomes.
-- Watch next: Verification bypass rates, false classifications, off-platform grooming, lawsuit evidence, safety staffing, and any child-facing prediction market.
+- View: Safety credibility depends on specific controls and measured communication, especially when allegations concern children.
+- Impact: Evasive answers can overshadow new safeguards and deepen distrust among parents, regulators and developers.
+- Watch next: Whether Roblox explains enforcement signals, age-check accuracy and measurable safety outcomes.

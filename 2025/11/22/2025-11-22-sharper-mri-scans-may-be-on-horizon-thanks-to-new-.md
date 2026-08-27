@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Rice and Oak Ridge researchers developed an NMR eigenmodes framework that solves the Fokker-Planck equation to connect molecular motion around metal-based contrast agents with observable relaxation signals. It reproduced experimental measurements at clinical frequencies and subsumes common simplified models, potentially improving contrast-agent research and liquid studies in batteries or porous materials. The code is open source. Despite the headline, commenters stressed that this is mathematical modeling, not an imaging reconstruction technique, so sharper clinical scans remain an indirect, uncertain outcome rather than a demonstrated result.
+Rice University and Oak Ridge researchers present a physics-based framework connecting microscopic water motion around metal contrast agents to measurable NMR relaxation. By solving the full Fokker–Planck equations through molecular-motion eigenmodes, the model reportedly reproduces experiments at clinical MRI frequencies and subsumes simpler approximations. The team says the open-source work could guide contrast-agent design and other liquid-state applications. Despite the headline, this is foundational signal modeling, not a demonstrated method for producing sharper patient scans.
 
 ### Comment pulse
 
-- Headline optimism drew correction → better relaxation modeling may inform contrast agents eventually, but it does not directly sharpen reconstructed images.
-- Gadolinium risk shifted the discussion → retention and dechelation motivate alternative agents and reduced contrast use.
-- Open research access was welcomed → readers located the government-hosted paper and repository. — counterpoint: the paper contains mathematics, not imaging results.
+- Commenters emphasized that the paper models NMR and contrast behavior rather than presenting improved medical images.
+- Discussion noted many scans use no contrast and that imaging advances also depend heavily on acquisition and reconstruction.
 
 ### LLM perspective
 
-- View: The framework bridges simulation and measurement well; clinical image improvement remains a downstream hypothesis.
-- Impact: More faithful relaxation models could guide contrast chemistry and general NMR studies without immediately changing scanner output.
-- Watch next: Independent validation, agent-design predictions, reconstruction integration, safety benefits, and evidence of improved human imaging.
+- View: The valuable result is a stronger molecular-to-signal model, not immediate image enhancement.
+- Impact: Better predictions could reduce trial-and-error in designing agents and interpreting relaxation behavior.
+- Watch next: Independent validation, practical agent designs and evidence of downstream imaging gains.

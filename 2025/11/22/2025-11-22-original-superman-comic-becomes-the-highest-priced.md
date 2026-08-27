@@ -4,15 +4,16 @@
 
 ### TL;DR
 
-Three brothers found a well-preserved 1939 Superman No. 1 among six comics stored in their late mother’s northern California attic. The cool climate helped the copy earn a 9.0 grade, reportedly the highest for that issue. Heritage Auctions sold it for $9.12 million including the buyer’s premium, surpassing the prior comic-book auction record: $6 million for the 1938 issue that introduced Superman. The family had heard about the collection but did not discover the box until cleaning the attic in 2024.
+Three brothers found six comics in their late mother’s California attic, including a June 1939 Superman No. 1 preserved beneath newspapers. CGC graded it 9.0, reportedly the highest for that issue, and Heritage Auctions sold it for $9.12 million including buyer’s premium—a comic-book record, surpassing the previous $6 million Action Comics No. 1 sale. The cool climate likely helped preserve the paper. HN discussion focuses less on Superman than on how provenance, expert authentication, scarcity, narrative, and wealthy bidders create collectible value.
 
 ### Comment pulse
 
-- Scarcity, condition, provenance, and cultural status drive the price → collectors buy an authenticated narrative as much as paper and ink.
-- The sale validates one buyer’s bid, not a stable intrinsic value → a near-term resale could differ sharply — counterpoint: uniqueness can preserve demand.
+- Attribution and provenance can dominate material value → the same object changes markets when experts validate its history.
+- Auction price reflects one winning bidder → resale could differ sharply because collectible value is thin and subjective.
+- The family’s sentimental statement drew skepticism → commenters saw both genuine memory and publicity framing around a life-changing payout.
 
 ### LLM perspective
 
-- View: The record reflects exceptional provenance and grade within a status-driven market.
-- Impact: Headline sales can reprice comparable collectibles while attracting speculation and forgotten-family-archive searches.
-- Watch next: Buyer identity, fees, insurance valuation, comparable sales, and whether the record survives resale.
+- View: The record combines rarity, condition, cultural importance, provenance, and a momentary contest between bidders.
+- Impact: High-profile sales reinforce comics as prestige assets while making expert grading and auction narratives more consequential.
+- Watch next: Observe buyer disclosure, comparable private sales, insurance valuation, and whether another high-grade copy surfaces.

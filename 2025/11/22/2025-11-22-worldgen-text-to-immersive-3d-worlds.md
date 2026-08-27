@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Meta’s WorldGen research system turns one text prompt into a navigable 3D scene through procedural blockout, navmesh extraction, reference-image generation, reconstruction, object decomposition, mesh refinement, and texturing. The company claims coherent, engine-compatible environments spanning 50 by 50 meters, unlike viewpoint-bound methods that degrade quickly. It remains unavailable to developers and needs larger spaces plus lower latency. Commenters saw editable conventional assets as potentially useful, but criticized repetitive grids, inaccessible buildings, visual inconsistencies, generic prompt adherence, absent public access, and calling a small scene a world.
+Meta Reality Labs describes WorldGen, a research system that turns one text prompt into a navigable, textured 3D scene. Its pipeline plans a procedural blockout and navigation mesh, generates a reference image, reconstructs geometry, decomposes objects, and refines meshes and textures. Meta claims coherent areas up to 50 by 50 meters and compatibility with Unity and Unreal, but offers no developer release. Commenters saw repetitive layouts, inaccessible buildings and generic worlds, questioning whether the result exceeds arranged assets.
 
 ### Comment pulse
 
-- Conventional assets could aid production → explicit meshes fit Unity and Unreal workflows better than implicit radiance-field demonstrations.
-- World claims felt inflated → small gridded towns lacked interiors, varied layouts, coherent details, and meaningful exploration.
-- Sparse prompts imply generic output → a few words cannot specify the depth and intentional messiness of authored environments.
+- Critics called the scenes small, gridlike and visually inconsistent, with little evidence of meaningful interiors or exploration.
+- Others considered explicit, engine-compatible assets potentially more useful than viewpoint-bound demonstrations despite the early limitations.
 
 ### LLM perspective
 
-- View: This is an asset-and-layout pipeline for bounded scenes, not evidence of autonomous world design.
-- Impact: Even generic first drafts could reduce blockout costs if creators can edit geometry, navigation, decomposition, and textures.
-- Watch next: Public tooling, generation latency, larger layouts, interiors, prompt fidelity, asset editability, and comparisons with manual workflows.
+- View: WorldGen looks more like a scene-production pipeline than autonomous world building.
+- Impact: Editable engine assets could matter even before generated environments become narratively convincing.
+- Watch next: Public access, interior support, larger layouts and comparisons measuring editability and geometric consistency.

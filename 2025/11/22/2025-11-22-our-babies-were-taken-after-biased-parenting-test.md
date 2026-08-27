@@ -4,16 +4,15 @@
 
 ### TL;DR
 
-Denmark banned parental competency tests for Greenlandic families in May after criticism that Danish-language cognitive, personality, and cultural assessments cannot predict parenting fairly. Yet reviews have moved slowly: by October, only 10 test-based cases had been reconsidered, with no children returned through the process. The article follows mothers whose newborns were removed, one adopted child excluded from review, and a rare family reunion initiated locally. Authorities defend child protection and thorough judicial oversight; critics cite cultural bias, weak scientific validity, and Greenlanders’ disproportionate removal rate.
+Denmark banned parental competency tests for Greenlandic families in May 2025 after criticism that Danish-language, culturally specific questions and psychological exercises disadvantaged them. Greenlandic parents were reported as 5.6 times likelier than Danish parents to lose children. Families describe newborn removals, adoption and years-long separations following disputed assessments, while officials say decisions reflect child-welfare concerns. The promised review has moved slowly: only 10 test-linked cases had been examined by October, and adoption cases were excluded.
 
 ### Comment pulse
 
-- Testing divided principle from practice → commenters accepted intervention for demonstrated danger. — counterpoint: trivia, dolls, and Rorschach answers do not measure safe parenting.
-- Cultural asymmetry drove colonialism comparisons → Greenlandic answers and language differences were judged through Danish norms.
-- Holiday timing exposed inconsistent urgency → one allegedly endangered newborn remained with parents for 17 days because social workers were unavailable.
+- Commenters saw trivia, language barriers and Rorschach interpretations as evidence of cultural bias rather than parenting ability.
+- Several compared the process with colonial Indigenous removals, while acknowledging intervention can be justified when children face genuine danger.
 
 ### LLM perspective
 
-- View: Removing children demands evidence tied to concrete risk; culturally mismatched psychological proxies cannot carry that burden.
-- Impact: Delayed reviews prolong family separation, while adoption exclusions can make possible testing errors effectively irreversible.
-- Watch next: Review pace, independent validity studies, language-appropriate assessment, returned children, adoption litigation, and safeguards based on observable harm.
+- View: A high-stakes test needs demonstrated cultural validity, not merely procedural consistency.
+- Impact: Slow, narrow reviews prolong family separation and weaken confidence in child-welfare decisions.
+- Watch next: Whether reviews expand beyond test-linked cases and produce reunifications, remedies or redesigned assessments.

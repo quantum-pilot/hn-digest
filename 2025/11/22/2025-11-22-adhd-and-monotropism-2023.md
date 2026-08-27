@@ -4,15 +4,16 @@
 
 ### TL;DR
 
-An essay cautiously extends monotropism, a theory of concentrated attention developed around autism, to ADHD. It reframes inattention as difficulty steering a narrow attentional channel, with hyperfocus, impulsive shifts, inertia, and some hyperactivity following from that pattern. The author acknowledges an apparent conflict: ADHD often looks distractible while monotropism resists switching. Proposed reconciliations include novelty seeking, nervous energy, burnout, and rapid serial focus. Reported diagnostic overlap motivates research, but the shared mechanism remains speculative rather than established.
+The authors propose monotropism—attention concentrating deeply on few interests—as a possible shared lens for autism and ADHD. They reinterpret “inattention” as difficulty steering focus, and suggest impulsivity, hyperfocus, inertia, movement, novelty seeking, and rapid topic shifts might be different expressions of attention tunnels. They repeatedly label the account speculative and call for research rather than treating diagnoses as fixed natural categories. Commenters recognize the focus-control framing, while a psychiatrist argues it is too simple for clinical ADHD and underplays motivation and neurobiology.
 
 ### Comment pulse
 
-- Lived-experience reports support poor attention control → commenters recognize intense focus paired with difficulty choosing its target — counterpoint: anecdotes cannot establish mechanism.
-- Clinical skepticism challenges a single-filter account → motivation, reward, and distinct neurological processes may explain similar outward symptoms.
+- ADHD may involve poor control of focus, not insufficient focus → compelling tasks dominate while necessary tasks remain inaccessible.
+- Lived experience supports hyperfocus and unfinished projects → attention can switch serially without becoming broad, simultaneous attention.
+- Clinical models need more than one mechanism → motivation, sensory filtering, development, impairment, and neurological evidence complicate monotropism.
 
 ### LLM perspective
 
-- View: Treat the framework as a testable interpretation, not a diagnostic explanation.
-- Impact: Better internal models could improve support while reducing moral judgments about attention.
-- Watch next: Comparative studies separating attention switching, reward sensitivity, sensory filtering, and functional impairment.
+- View: Monotropism is a useful descriptive hypothesis, not an established unified cause of ADHD and autism.
+- Impact: The framing may improve self-understanding and accommodations without replacing individualized clinical assessment.
+- Watch next: Test longitudinal predictions, diagnostic specificity, functional impairment, and differences between attention capture and switching.

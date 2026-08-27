@@ -4,15 +4,16 @@
 
 ### TL;DR
 
-New Mexico is offering state-funded childcare from six weeks old to families at any income, provided parents work or study. Financing comes largely from investment returns on oil and gas revenue, and officials expect participation to double from roughly 32,000 children by fiscal 2028. The promise could save families about $16,000 annually and strengthen workforce participation, but delivery is the constraint: infant slots are scarce, thousands of workers and many new providers are needed, and reimbursement rules may not fit every operator.
+New Mexico now offers free child care from six weeks old to working or studying families regardless of income, largely funded by investment income from oil-and-gas revenues. The state projects current-year costs of $445 million, rising to $600 million next year, and expects enrollment to double by fiscal 2028. The central constraint is supply: infant capacity is already scarce, 5,000 additional workers are sought, and providers worry reimbursement may not cover wages or part-time economics. Debate centers on access, quality, universality, and alternatives.
 
 ### Comment pulse
 
-- Universal access aids early stability → reliable care supports employment and children in a high-poverty state — counterpoint: affluent families may crowd out others.
-- Capacity worries are immediate → directors say rates, wage conditions, and scarce infant places may prevent the guarantee from matching demand.
+- State implementation creates a policy experiment → supporters value stability and comparison — counterpoint: moving to escape policy is often unrealistic.
+- Universal care can support employment and child stability → critics warn rapid scaling may dilute quality or displace poorer families.
+- Families need more than one model → commenters debate subsidized centers versus supporting parents or informal community care.
 
 ### LLM perspective
 
-- View: The entitlement succeeds only if provider capacity grows alongside enrollment.
-- Impact: Affordable care could raise family income and labor participation while improving early-childhood stability.
-- Watch next: Infant slots, workforce recruitment, provider participation, reimbursement adequacy, and low-income access.
+- View: Removing price barriers creates entitlement on paper; workforce and provider economics determine access in practice.
+- Impact: Families may work more and save substantially, while centers face demand, wage, and reimbursement pressure.
+- Watch next: Measure waitlists, infant slots, workforce retention, provider participation, care quality, child outcomes, and fund sustainability.

@@ -4,15 +4,16 @@
 
 ### TL;DR
 
-Apple researchers tested language-model fusion of sensor clues across 12 everyday activities in 20-second Ego4D samples. The models never received raw audio or motion. Smaller audio and inertial models first produced captions, labels, and predictions; Gemini 2.5 Pro and Qwen-32B then fused those text outputs in closed-set or open-ended prompts. Zero- and one-shot F1 scores beat chance without task-specific training, suggesting a flexible fusion layer when aligned data are limited. Researchers released prompts and sample identifiers for reproduction.
+Apple researchers tested late multimodal fusion for recognizing 12 everyday activities from 20-second Ego4D samples. Specialized audio and motion models first converted raw signals into captions, labels, and activity predictions; Gemini 2.5 Pro and Qwen-32B then combined those textual outputs in zero- and one-shot settings, scoring above chance without task-specific training. The LLMs therefore did not directly interpret recordings. The approach may help when aligned training data is scarce, while commenters question whether an LLM adds enough value and warn that stored sensor data can enable later surveillance.
 
 ### Comment pulse
 
-- Late fusion is flexible → language models combine heterogeneous outputs without aligned task training — counterpoint: simpler classifiers may be cheaper and sufficient.
-- Privacy risk extends beyond raw recordings → stored motion-derived descriptions can reveal activities as inference improves.
+- Late fusion reuses specialist models → an LLM interprets their outputs without training a new joint embedding.
+- Activity inference is not new → improved models expand what previously collected motion and audio metadata can reveal.
+- Practical value remains unquantified here → commenters want comparison against simpler fusion and mature activity classifiers.
 
 ### LLM perspective
 
-- View: The novelty is textual sensor fusion, not direct understanding of raw signals.
-- Impact: Activity recognition may improve with sparse training data while expanding surveillance inferences.
-- Watch next: Baseline comparisons, per-class errors, on-device cost, consent controls, and real-world validation.
+- View: The experiment demonstrates flexible semantic fusion, not that raw sensors inherently require language models.
+- Impact: Wearables could add activities quickly, but richer inference raises consent, retention, and on-device-processing questions.
+- Watch next: Compare baselines, per-class errors, unseen activities, compute cost, privacy leakage, and real-world wearable data.

@@ -4,15 +4,16 @@
 
 ### TL;DR
 
-China’s experimental two-megawatt molten-salt reactor has officially demonstrated thorium-232 absorbing neutrons and ultimately producing fissile uranium-233 while operating. The liquid fluoride salt carries both fuel and heat, allowing low-pressure operation and online refueling without water. Reaching criticality in 2023, full power in 2024, and adding thorium later marks a research milestone toward a planned 100-megawatt demonstrator around 2035. However, reported conversion is far below breeding, while corrosion, irradiated materials, scaling, and uranium economics remain major barriers.
+China says its 2 MW experimental molten-salt reactor has converted thorium-232 into fissile uranium-233 while operating, providing initial in-core data for a thorium fuel cycle. Liquid fuel permits continuous refueling, works without water cooling, and operates near atmospheric pressure; developers target a 100 MW demonstration around 2035. Commenters caution that conversion is not yet self-sustaining breeding: one cites a 0.1 conversion ratio, below conventional reactors, and argues that abundant cheap uranium makes commercialization an economic challenge rather than merely a physics problem.
 
 ### Comment pulse
 
-- The experiment proves thorium conversion in an operating salt system → that narrows a real feasibility gap — counterpoint: conversion is not breeding.
-- Commercial optimism remains premature → harsh neutron exposure, corrosion, scale, and cheap uranium still determine durability and economics.
+- Molten salt enables online fuel processing → thorium can be added and converted without replacing solid fuel assemblies.
+- Materials face harsh exposure → circulating fuel places pipes and structures near fission products and energetic neutrons.
+- Conversion below unity is not breeding independence → substantial research must raise performance before fuel closes its own cycle.
 
 ### LLM perspective
 
-- View: Read this as reactor research progress, not evidence of near-term energy independence.
-- Impact: Successful scale-up could diversify fuel cycles and reduce dependence on water-cooled designs.
-- Watch next: Conversion ratio, salt chemistry, component lifetimes, waste handling, uptime, and 100-megawatt plans.
+- View: The milestone validates an experimental pathway, not an almost-endless commercial energy supply.
+- Impact: State-backed development can absorb long horizons and uncertain returns that deter private reactor programs.
+- Watch next: Verify conversion ratios, corrosion and materials life, fuel processing, safety performance, and the 100 MW demonstration.

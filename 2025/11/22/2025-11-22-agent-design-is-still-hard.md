@@ -4,15 +4,16 @@
 
 ### TL;DR
 
-An experienced agent builder argues that today’s abstractions often conceal the model-specific behavior that determines reliability. Native provider SDKs preserve control over prompt caching, message branching, tool schemas, and context editing. Practical patterns include reinforcing objectives after tool calls, isolating repeated failures in subagents, sharing a virtual filesystem, and explicitly requesting final-output tools. Model choice should reflect loop performance, not token prices alone. The hardest unresolved problem is evaluation: reproducing failures requires observing the entire evolving agent context.
+Armin Ronacher reports that production agents still resist clean, provider-neutral abstractions. Model-specific caching, tools, errors, and reinforcement led his team to prefer native SDKs and a manually controlled loop. Their design reinforces objectives after tool calls, isolates noisy failures, and uses a shared virtual filesystem so inference and code tools exchange artifacts without dead ends. Explicit output tools remain hard to steer, token price poorly predicts total cost, and evaluation is the largest unresolved problem because real execution state is difficult to reproduce.
 
 ### Comment pulse
 
-- Thin custom loops beat broad SDKs → model quirks dominate once an application exceeds demos — counterpoint: vendor-native agents may outperform bespoke systems.
-- Waiting can be rational → fast-changing patterns create technical debt, while building now buys learning and control.
+- Handwritten loops often beat broad SDKs → extra boilerplate can be easier than debugging leaky provider abstractions.
+- Fast model evolution shortens pattern lifetimes → waiting can avoid expensive work — counterpoint: participation creates reusable understanding.
+- Existing coding agents provide a strong baseline → bespoke systems must justify capability loss and maintenance burden.
 
 ### LLM perspective
 
-- View: Own the orchestration layer until provider behavior becomes genuinely interchangeable.
-- Impact: More control improves reliability but transfers maintenance and evaluation costs to application teams.
-- Watch next: Stable cache semantics, portable tool protocols, replayable traces, and context-aware evaluation harnesses.
+- View: The stable primitive is a tool-using loop; nearly everything around it remains task- and provider-specific.
+- Impact: Teams should budget for harness engineering, observability, and evaluation rather than treating SDK selection as the architecture.
+- Watch next: Compare native and unified SDKs on cache cost, tool reliability, failure recovery, and reproducible evals.
